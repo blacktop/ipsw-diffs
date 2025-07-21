@@ -482,6 +482,80 @@ Symbols:
 - _options.sOptions.15418
 - _options.sOptions.17293
 - _options.sOptions.3491
+Functions (modified):
+~ _OUTLINED_FUNCTION_156 : 24 -> 28
+~ _OUTLINED_FUNCTION_354 : 44 -> 24
+~ _OUTLINED_FUNCTION_356 : 24 -> 44
+~ _OUTLINED_FUNCTION_373 : 32 -> 16
+~ _OUTLINED_FUNCTION_375 : 12 -> 32
+~ _OUTLINED_FUNCTION_381 : 20 -> 12
+~ -[SIRINLUEXTERNALTurnInput mergeFrom:] : 964 -> 1000
+~ -[SIRINLUEXTERNALTurnInput hash] : 320 -> 404
+~ -[SIRINLUEXTERNALTurnInput isEqual:] : 456 -> 520
+~ -[SIRINLUEXTERNALTurnInput copyWithZone:] : 1040 -> 1076
+~ -[SIRINLUEXTERNALTurnInput copyTo:] : 612 -> 648
+~ -[SIRINLUEXTERNALTurnInput writeTo:] : 928 -> 960
+~ _SIRINLUEXTERNALTurnInputReadFrom : 1332 -> 1504
+~ -[SIRINLUEXTERNALTurnInput dictionaryRepresentation] : 1456 -> 1516
+~ __ZNK15sirinluexternal9TurnInput10formatTextERN2PB13TextFormatterEPKc : 636 -> 664
+~ __ZNK15sirinluexternal9TurnInput7writeToERN2PB6WriterE : 328 -> 352
+~ __ZN15sirinluexternal9TurnInput8readFromERN2PB6ReaderE : 1816 -> 1880
+~ __ZN15sirinluexternal9TurnInputC2ERKS0_ : 1068 -> 1096
+~ __ZN15sirinluexternal4swapERNS_9TurnInputES1_ : 296 -> 312
+~ __ZN15sirinluexternal9TurnInputC2EOS0_ : 488 -> 496
+~ __ZNK15sirinluexternal9TurnInputeqERKS0_ : 408 -> 436
+~ __ZNK15sirinluexternal9TurnInput10hash_valueEv : 392 -> 412
+
+Functions (added):
++ sub_1c88de8ac
++ _OUTLINED_FUNCTION_449
++ _OUTLINED_FUNCTION_494
++ sub_1c88f8340
++ sub_1c88ff80c
++ sub_1c891082c
++ sub_1c8921600
++ sub_1c8932334
++ sub_1c894f9a4
++ sub_1c8974a14
++ sub_1c8975964
++ sub_1c8975c3c
++ sub_1c8975c48
++ [3 functions added in block]
++ sub_1c8975e20
++ [6 functions added in block]
++ [4 functions added in block]
++ sub_1c8988830
++ sub_1c8988e54
++ sub_1c8988f64
++ sub_1c8989720
++ sub_1c898a024
++ sub_1c89b82c8
++ sub_1c89b8df0
++ sub_1c89ba18c
++ _OUTLINED_FUNCTION_380
++ _OUTLINED_FUNCTION_530
++ _OUTLINED_FUNCTION_531
++ -[SIRINLUEXTERNALTurnInput connectedToCarPlayUltra]
++ [3 functions added in block]
+
+Functions (removed):
+- sub_1c9588d44
+- sub_1c958a7d0
+- sub_1c9590934
+- sub_1c959244c
+- _OUTLINED_FUNCTION_173
+- sub_1c9593438
+- sub_1c9593730
+- sub_1c95938c0
+- sub_1c9593c00
+- [3 functions removed in block]
+- sub_1c9593cd8
+- sub_1c9593d48
+- sub_1c9593ea0
+- sub_1c9593f14
+- [3 functions removed in block]
+- sub_1c9593f8c
+- [4 functions removed in block]
 CStrings:
 + "TB,N,V_connectedToCarPlayUltra"
 + "_connectedToCarPlayUltra"

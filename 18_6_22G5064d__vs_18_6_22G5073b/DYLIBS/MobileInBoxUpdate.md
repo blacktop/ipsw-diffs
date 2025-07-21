@@ -388,14 +388,16 @@ Symbols:
 - ___block_literal_global.455
 - ___block_literal_global.458
 - ___block_literal_global.98
-Functions:
+Functions (modified):
 ~ ___39+[MIBUSerializationUtil tagTypeMapping]_block_invoke : 1292 -> 1308
 ~ -[MIBUNFCCommand _serializeSSUpdate] : 2756 -> 2948
-+ ___36-[MIBUNFCCommand _serializeSSUpdate]_block_invoke.391
 ~ -[MIBUNFCCommand _deserializeSSUpdate] : 2492 -> 2616
+~ -[MIBUNFCCommand _serializeSSUpdate].cold.20 : 204 -> 220
+
+Functions (added):
++ ___37-[MIBUNFCCommand _serializeHeartbeat]_block_invoke.160
 + -[MIBUClient isInPalletUpdateMode:]
 + -[MIBUClient _isIPad]
-~ -[MIBUNFCCommand _serializeSSUpdate].cold.20 : 204 -> 220
 + -[MIBUNFCCommand _serializeSSUpdate].cold.28
 CStrings:
 + "DeviceClassNumber"

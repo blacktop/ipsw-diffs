@@ -44,8 +44,6 @@
    Functions: 187
    Symbols:   0
    CStrings:  126
-Functions:
-~ sub_fffffff008b34298 : 124 -> 136
 
 ```
 
@@ -78,10 +76,15 @@ Functions:
 -  CStrings:  6981
 +  CStrings:  6983
  
-Functions:
+Functions (modified):
 ~ __ZN7AVE_HwC18ProcessIntr_CmdAckEmi : 808 -> 1048
 ~ __ZN7AVE_HwC15ProcessIntr_CmdEmij : 6516 -> 6476
-~ sub_fffffff008cd722c -> sub_fffffff008cd7304 : 52 -> 44
+
+Functions (added):
++ sub_fffffff008cd7304
+
+Functions (removed):
+- sub_fffffff008cd722c
 CStrings:
 + "%lld %d AVE %s: %s::%s:%d %s | wrong command %p 0x%lx %d %d"
 + "%lld %d AVE %s: %s::%s:%d %s | wrong command %p 0x%lx %d %d\n"
@@ -151,7 +154,7 @@ CStrings:
    Functions: 234
    Symbols:   0
    CStrings:  107
-Functions:
+Functions (modified):
 ~ __ZN21IOHIDTranslationEvent14transformValueEP12OSDictionaryx : 300 -> 356
 
 ```
@@ -214,6 +217,26 @@ CStrings:
 -  CStrings:  6426
 +  CStrings:  6427
  
+Functions (modified):
+~ _wrapping_keybag_setup : 176 -> 368
+~ _nx_is_removable : 132 -> 308
+~ __ZN19AppleAPFSUserClient24methodVolumeMakeMultikeyEPS_PvP25IOExternalMethodArguments : 748 -> 1268
+~ _pfkur_thread_start : 180 -> 216
+~ _pfkur_roll_ino : 932 -> 600
+
+Functions (added):
++ sub_fffffff00aa19de0
++ sub_fffffff00aa2cd28
++ sub_fffffff00aa369ac
++ sub_fffffff00aa6f110
++ sub_fffffff00aa70104
+
+Functions (removed):
+- sub_fffffff00aa38cb4
+- sub_fffffff00ab2993c
+- sub_fffffff00ab3ae90
+- sub_fffffff00ab3bd94
+- sub_fffffff00ab3c148
 CStrings:
 + "02:02:21"
 + "02:02:22"
@@ -268,6 +291,30 @@ CStrings:
 -  CStrings:  17896
 +  CStrings:  17900
  
+Functions (modified):
+~ _proc_set_task_spawnpolicy : 1552 -> 288
+~ ___stack_chk_fail : 1100 -> 308
+~ _bridge_clone_destroy : 808 -> 820
+~ _bridge_clone_create : 2744 -> 2908
+~ _bridge_ioctl : 2908 -> 2640
+~ _memorystatus_control : 176 -> 764
+~ __ZN6OSKext15considerUnloadsEb : 348 -> 2200
+~ _sleh_synchronous : 52 -> 60
+
+Functions (added):
++ sub_fffffff0081cb714
++ _handle_kernel_abort
++ sub_fffffff008373704
++ sub_fffffff008658f94
++ sub_fffffff0087937ac
++ sub_fffffff0088f3f28
+
+Functions (removed):
+- sub_fffffff0087b5988
+- sub_fffffff008928604
+- sub_fffffff008930880
+- sub_fffffff00893122c
+- sub_fffffff008931508
 CStrings:
 + "%s: %s: clearing SCF_PROTO_ATTACHED"
 + "%s: %s: proto count %d"
@@ -553,6 +600,33 @@ CStrings:
    Symbols:   0
    CStrings:  5775
  
+Functions (added):
++ sub_8072f50
++ sub_824e748
++ sub_83ad958
++ sub_842652c
++ sub_846fb3c
++ sub_84d8104
++ sub_84da5a4
++ sub_84da77c
++ sub_84da794
++ sub_84da8d0
++ sub_84e5614
++ sub_84e575c
++ sub_84e639c
++ sub_84e654c
++ sub_84e660c
++ sub_84e6754
+
+Functions (removed):
+- sub_84e7854
+- sub_84e80e0
+- sub_84e84ac
+- sub_84eff14
+- sub_84f0550
+- sub_84f0870
+- sub_84f0ba4
+- [3 functions removed in block]
 CStrings:
 + "/AppleInternal/Library/BuildRoots/4~B4b2ugBj-4W-xvnp5ji6oce7NbWgQMv9ccTMXoc/Applications/Xcode.app/Contents/Developer/Platforms/ExclaveCore.iPhoneOS.platform/Developer/SDKs/ExclaveCore.iPhoneOS18.6.Internal.sdk/System/ExclaveCore/usr/include/xrt/thread.h"
 + "/AppleInternal/Library/BuildRoots/4~B4b3ugA1YoM5dFcznu453S5pX6jxgo3qghV3PM8/Applications/Xcode.app/Contents/Developer/Platforms/ExclaveCore.iPhoneOS.platform/Developer/SDKs/ExclaveCore.iPhoneOS18.6.Internal.sdk/System/ExclaveCore/usr/include/xrt/thread.h"
@@ -578,44 +652,44 @@ CStrings:
 <details>
   <summary><i>View NEW</i></summary>
 
+##### `iboot`
+  - `G56d0^(J[f`
+  - `I4q%jTU;jT`
+  - `ʂ)Ĺ"jF$N`
+  - `5/JEDCF>d-%}`
+  - `H)l90!:á<`
+  - `x*9Ǧ[Çu#`
+  - `l(G5LEoBARe$J>}z`
+  - `i+dLEXWUZeaW`
+  - `(42êqFHB?`
+  - `root@qwdh2.p1l.plx.sd...2025/07/02@23:57:15`
+  - `967e686f15e0c4707a92c01c75926aa2`
+  - `iBoot-11881.140.95`
+  - `Q}6ukR˴GR`
+  - `rVdf iAib^`
+  - `EplBSFtpT"e`
+  - `uutrrxsqpsQ`
+  - `O7uw(aMw~7n`
+  - `d8,EC+D1TU[s`
+  - `Q/S#/wvM"}9`
+  - `~ȇ|ȇ|ȇ|`
+  - `ǨmB?x%ʊB`
+  - `}D,n9)IiNJO`
+  - `5ŪKFYSb+DVh`
 ##### `RTKit.bin`
   - `SPMI Fatal Error: %s `
-  - `Read Shelf life-  data=%d, return state=%d , rc = %d`
   - `drv_gg_veridian.cpp`
+  - `Read Shelf life-  data=%d, return state=%d , rc = %d`
+##### `iboot_blob28.bin`
+  - `COFOROSOTO6h`
+  - `TCAPACDLHDHPNIRNDVPUVilpslpVt`
+  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmkl<`
+  - `!C#C?CRC]l`
 ##### `iboot_blob31.bin`
   - `HW Q Reset`
   - `Filter Modification`
 ##### `AppleSMCFirmware.bin`
   - `AppleSMCFirmware_H17-5204.140.29.d93.REL`
-##### `iboot`
-  - `Q/S#/wvM"}9`
-  - `O7uw(aMw~7n`
-  - `uutrrxsqpsQ`
-  - `Q}6ukR˴GR`
-  - `5ŪKFYSb+DVh`
-  - `EplBSFtpT"e`
-  - `d8,EC+D1TU[s`
-  - `H)l90!:á<`
-  - `iBoot-11881.140.95`
-  - `(42êqFHB?`
-  - `967e686f15e0c4707a92c01c75926aa2`
-  - `l(G5LEoBARe$J>}z`
-  - `ǨmB?x%ʊB`
-  - `5/JEDCF>d-%}`
-  - `}D,n9)IiNJO`
-  - `i+dLEXWUZeaW`
-  - `~ȇ|ȇ|ȇ|`
-  - `root@qwdh2.p1l.plx.sd...2025/07/02@23:57:15`
-  - `G56d0^(J[f`
-  - `x*9Ǧ[Çu#`
-  - `I4q%jTU;jT`
-  - `rVdf iAib^`
-  - `ʂ)Ĺ"jF$N`
-##### `iboot_blob28.bin`
-  - `TCAPACDLHDHPNIRNDVPUVilpslpVt`
-  - `!C#C?CRC]l`
-  - `COFOROSOTO6h`
-  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmkl<`
 
 </details>
 
@@ -624,46 +698,46 @@ CStrings:
 <details>
   <summary><i>View Removed</i></summary>
 
+##### `RTKit.bin`
+  - `HW Q Reset`
+  - `lf life-  data=%d, return state=%d , rc = %d`
+  - `SPMI Fatal Error: %s Blocked`
 ##### `AppleSMCFirmware.bin`
   - `AppleSMCFirmware_H17-5204.140.28.d93.REL`
-##### `iboot_blob28.bin`
-  - `TCAPACDLHDHPNIRNDVPUVilpslpVX`
-  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmkP<`
-  - `!C#C?CRC]T`
-  - `1SB2SBTFCATCEPDPIHMPLrAPsDPfNPTPPpSPiW`
-  - `COFOROSOTO6P`
 ##### `iboot_blob31.bin`
   - `er Modification`
 ##### `iboot`
-  - `}P-2Z5UiVMR`
-  - `(C%ek4,ËC`
-  - `root@89h6x.p1l.plx.sd...2025/06/10@19:32:25`
-  - `2ea74dc3b99c4070b3f2f3a58af93d05`
-  - `,Op8y,p-63`
-  - `iBoot-11881.140.90.0.1`
-  - `6.............`
-  - `Bd>Ww!KP q`
-  - `%9Os¤E4-T7`
-  - `kmTvh#[1jK`
-  - `sIzꝣ,dgm`
-  - `-=?%iȿ6,H`
   - `5vT/jT/RGz4`
-  - `œcYɤw[$O`
-  - `ki*T@:$L^AAb`
-  - `{U\\\\\\\\\\\`
+  - `uutsrwsqpsQ`
+  - `Bd>Ww!KP q`
+  - `kmTvh#[1jK`
+  - `6.............`
   - `YO68v!&EY)`
-  - `z<()%5ǥƔ`
-  - `9~_ âʝk]`
+  - `sIzꝣ,dgm`
+  - `rlɃeV)@#%g"2`
+  - `œcYɤw[$O`
+  - `iBoot-11881.140.90.0.1`
   - `LvsY5^"/( `
   - `˸"M1lHGT]`
+  - `,Op8y,p-63`
   - `!*9yG\ErV#Q`
+  - `ki*T@:$L^AAb`
+  - `-=?%iȿ6,H`
+  - `%9Os¤E4-T7`
   - `Ty'R5:+'a;`
-  - `uutsrwsqpsQ`
-  - `rlɃeV)@#%g"2`
-##### `RTKit.bin`
-  - `lf life-  data=%d, return state=%d , rc = %d`
-  - `SPMI Fatal Error: %s Blocked`
-  - `HW Q Reset`
+  - `root@89h6x.p1l.plx.sd...2025/06/10@19:32:25`
+  - `2ea74dc3b99c4070b3f2f3a58af93d05`
+  - `{U\\\\\\\\\\\`
+  - `(C%ek4,ËC`
+  - `}P-2Z5UiVMR`
+  - `z<()%5ǥƔ`
+  - `9~_ âʝk]`
+##### `iboot_blob28.bin`
+  - `TCAPACDLHDHPNIRNDVPUVilpslpVX`
+  - `COFOROSOTO6P`
+  - `1SB2SBTFCATCEPDPIHMPLrAPsDPfNPTPPpSPiW`
+  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmkP<`
+  - `!C#C?CRC]T`
 
 </details>
 

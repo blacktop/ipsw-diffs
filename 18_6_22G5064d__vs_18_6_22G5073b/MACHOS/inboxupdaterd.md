@@ -76,6 +76,25 @@
 Symbols:
 + _dispatch_activate
 + _dispatch_walltime
+Functions (added):
++ sub_1000077c4
++ sub_100007df0
++ sub_100008178
++ sub_100008304
++ sub_10000b6c4
++ sub_10000b880
++ sub_10000b8e8
++ sub_10000bd18
++ sub_10000bd28
++ sub_10000bd4c
++ sub_10000c63c
++ sub_10002bc9c
++ sub_10002e7e0
++ sub_10003c9f0
++ [3 functions added in block]
++ sub_100051284
++ sub_10005b134
++ sub_100060698
 CStrings:
 + "Operation watchdog timer fired!"
 + "OperationTimeout"

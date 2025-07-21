@@ -32,8 +32,11 @@
 -  CStrings:  5
 +  CStrings:  3
  
-Functions:
-~ sub_1000008d0 -> sub_100000838 : 820 -> 404
+Functions (added):
++ sub_100000838
+
+Functions (removed):
+- sub_1000008d0
 CStrings:
 - "<<<< videocodecd >>>> %s: Failed to elevate inactive jetsam priority, error: %d"
 - "<<<< videocodecd >>>> %s: Succeeded to elevate inactive jetsam priority."

@@ -28,6 +28,13 @@
 -  CStrings:  501
 +  CStrings:  502
  
+Functions (added):
++ sub_25a62f070
++ sub_25a631c44
+
+Functions (removed):
+- sub_25aed4d38
+- sub_25aed5b54
 CStrings:
 + "alternateErrorCodeForAnalytics"
 

@@ -80,6 +80,33 @@ Symbols:
 - _$s14MarketplaceKit19InstallSheetContextV6SourceO03WebcE0V6domain13developerName0I2ID03appJ07iconURLAGSS_S3S10Foundation0N0VSgtcfC
 - _$s14MarketplaceKit19InstallSheetContextV6SourceO11distributoryAESS_SStcAEmFWC
 - _$s14MarketplaceKit21SetPrivateDataRequestV0F0O29conditionallyApproveDeveloperyAESScAEmFWC
+Functions (added):
++ sub_100190ffc
++ sub_1002c7748
++ sub_1003233d0
++ sub_100324564
++ sub_1003f79ac
++ [3 functions added in block]
++ sub_1003f8e7c
++ sub_1003f967c
++ sub_100441c74
++ sub_10046cecc
+
+Functions (removed):
+- sub_100524588
+- sub_10052aa18
+- sub_10052c734
+- sub_100533de8
+- sub_100534938
+- sub_100535fd0
+- sub_100538114
+- sub_100538d30
+- sub_100538fe0
+- sub_100539278
+- sub_1005397c0
+- sub_100539be8
+- sub_100539de0
+- [3 functions removed in block]
 CStrings:
 + "Allow App Installation from the Web"
 + "ManagedAppDistribution.Common.Dismiss"

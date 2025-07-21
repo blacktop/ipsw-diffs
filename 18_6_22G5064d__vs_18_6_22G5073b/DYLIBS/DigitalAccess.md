@@ -20,7 +20,7 @@
    Functions: 717
    Symbols:   2503
    CStrings:  1873
-Functions:
+Functions (modified):
 ~ -[KmlVersions initWithEndpoint:downgradeFrameworkSetting:] : 792 -> 796
 
 ```

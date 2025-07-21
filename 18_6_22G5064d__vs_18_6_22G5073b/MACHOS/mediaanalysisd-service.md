@@ -33,11 +33,13 @@
 -  CStrings:  11041
 +  CStrings:  11045
  
-Functions:
-~ sub_10000c6c8 : 1848 -> 2436
-~ sub_100078288 -> sub_1000784d4 : 2080 -> 2252
-~ sub_100078aa8 -> sub_100078da0 : 2508 -> 2676
-~ sub_1000aa184 -> sub_1000aa524 : 2016 -> 2208
+Functions (added):
++ sub_10000c6c8
++ sub_1000784d4
+
+Functions (removed):
+- sub_10017d678
+- sub_100184060
 CStrings:
 + "%@ Analysis has future version (v%d); discarding existing analysis"
 + "[MergeAnalysis]%@ Analysis A has future version (v%d), use B: %@"

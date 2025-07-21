@@ -797,6 +797,1543 @@ Symbols:
 - _vaemGetVADPortIDFromVADPortType.cold.1
 - _vaemIsLocalSystemSoundDeviceType
 - _vaemRemoveAudioDevicesChangedListener
+Functions (modified):
+~ +[MXSystemController(InternalUse) notifyAll:payload:dontPostIfSuspended:remoteDeviceID:] : 492 -> 192
+~ ___88+[MXSystemController(InternalUse) notifyAll:payload:dontPostIfSuspended:remoteDeviceID:]_block_invoke : 1904 -> 1032
+~ _CMSMUtility_ApplyForEachMatchingSessionGuts : 1264 -> 712
+~ _CMSMUtility_PostNotificationToSession : 940 -> 424
+~ _cmsession_createCFObject : 520 -> 276
+~ _MXCoreSessionInitialize : 2044 -> 1756
+~ -[MXCoreSession init] : 568 -> 276
+~ -[MXSessionManager mxCoreSessionListAddSession:] : 476 -> 168
+~ _cmsmdeviceState_BatteryStateChanged : 448 -> 144
+~ _cmsSetAudioCategory : 2572 -> 2112
+~ _cmsUpdateSessionStateForNewCategory : 5440 -> 3772
+~ _cmsSetControlFlags : 1200 -> 788
+~ -[MXCoreSession updateInterruptionStyle:] : 1224 -> 408
+~ _cmsUpdateAudioBehavior : 792 -> 580
+~ -[MXSessionManager(Utilities) copyAudioBehaviorForCategory:mode:] : 964 -> 744
+~ -[MXSessionManager(InterruptionActionMapper) getSessionPriority:forTipi:] : 1480 -> 1208
+~ _CMSM_GetLocalSessionPriority : 724 -> 284
+~ _CMSUtility_IsSessionEligibleToPlayOverSharedAudioRoute : 1148 -> 624
+~ _CMSMVAUtility_UpdateSessionInfoAndReporterIDsOnVA : 932 -> 664
+~ _CMSMVAUtility_AudioObjectSetPropertyData : 368 -> 28
+~ _FigSystemControllerCreate : 824 -> 468
+~ ___49-[MXSystemController initWithPID:remoteDeviceID:]_block_invoke : 804 -> 492
+~ +[MXSystemController(Common) mxSystemControllerListAddInstance:isSidekick:] : 752 -> 188
+~ _FigSystemControllerRemoteCreate : 2168 -> 984
+~ -[MXSystemController(InternalUse) setAttributeForKeyInternal:andValue:] : 11812 -> 8376
+~ _OUTLINED_FUNCTION_23 : 20 -> 24
+~ -[MXSystemController setAttributeForKey:andValue:] : 684 -> 364
+~ _remoteSystemController_SetProperty : 548 -> 212
+~ _HandleNoReplySystemControllerMessage : 976 -> 404
+~ _systemController_SetProperty : 656 -> 180
+~ ___CMSessionMgrSystemSoundActivateForPID_block_invoke : 2716 -> 776
+~ _cmsmGetUpdatedSystemSoundPlayFlags : 17276 -> 9856
+~ _HandleSystemControllerMessage : 5544 -> 4584
+~ _MX_RunningBoardServices_CopyDisplayIDForPID : 516 -> 296
+~ _mx_runningBoardServices_getProcessHandleForPID : 832 -> 624
+~ _cmsGetCurrentSystemSoundVADForAudioBehaviour : 1016 -> 736
+~ _cmsmUpdateDuckVolume : 1268 -> 308
+~ _CMSMSleep_CreatePrewarmIdleSleepPreventor : 1236 -> 556
+~ _vaemCopyConnectedPortsForPortTypeAndScope : 912 -> 208
+~ _CMSMSleep_CreateIdleSleepPreventor : 772 -> 256
+~ ___CMSMPowerLogPostPowerLogData_block_invoke : 376 -> 96
+~ _CMSMUtility_GetVADNameForVADID : 596 -> 356
+~ _CMSMDeviceState_ScreenIsBlanked : 28 -> 92
+~ _cmsmPrewarmAudioDeviceIDForSSID : 1572 -> 1352
+~ _cmsmCopySystemSoundAudioBehaviorDictionaryForAudioCategory : 1532 -> 1332
+~ _CMSystemsoundMgr_GetMappedBehaviorCategory : 3332 -> 1348
+~ _vaemContinuityScreenOutputIsConnected : 48 -> 52
+~ ___FigRoutingManagerContextUtilities_CopyActivatedEndpoints_block_invoke : 616 -> 308
+~ _vaemGetVADPortIDFromVADPortType : 440 -> 112
+~ _cmsmCopyCurrentActiveRouteTypesForSystemSound : 436 -> 148
+~ _FigEndpointCentralEntityHoldsResource : 1052 -> 540
+~ _cmsmPrewarmAudioForSSID : 872 -> 356
+~ -[AVSystemController attributeForKey:] : 936 -> 352
+~ _remoteSystemController_CopyProperty : 512 -> 148
+~ _systemController_CopyProperty : 908 -> 168
+~ -[MXSystemController copyAttributeForKey:withValueOut:] : 684 -> 364
+~ -[MXSystemController(InternalUse) copyAttributeForKeyInternal:withValueOut:] : 8948 -> 4932
+~ _CMSUtility_GetCurrentInputVADUID : 548 -> 300
+~ _CMSUtility_GetCurrentAudioDestination : 404 -> 100
+~ -[MXSessionManager(Utilities) getUncustomizedCategory:] : 364 -> 52
+~ _CMSUtility_CopySessionAudioBehaviour : 1432 -> 808
+~ ___FigRoutingManagerContextUtilities_IsContextVideoAndIndependent_block_invoke : 388 -> 104
+~ _CMSMUtility_FetchUIShouldIgnoreRemoteControlEvents : 824 -> 92
+~ -[MXSessionManager(Utilities) isPIDAllowedToBeNowPlayingApp:] : 572 -> 332
+~ -[MXNowPlayingAppManager updateNowPlayingApp:session:reasonForUpdate:] : 1484 -> 1000
+~ _CMSMNotificationUtility_PostNowPlayingAppIsPlayingDidChange : 2092 -> 620
+~ _CMSUtility_UpdateRoutingContextForSession : 1492 -> 1124
+~ _MXCoreSessionSetProperty : 65688 -> 50688
+~ -[MXCoreSessionBase updateClientName:] : 552 -> 220
+~ -[MXCoreSession mxSessionListAddSession:] : 476 -> 168
+~ _MXSessionSetProperty : 612 -> 512
+~ _cmsSetClientPID : 1188 -> 392
+~ _MX_RunningBoardServices_StartMonitoringForPID : 2460 -> 1552
+~ _CMSessionMgrHandleApplicationStateChange : 2716 -> 2072
+~ _CMSessionMgrSetApplicationStateFromPID : 696 -> 492
+~ ___mx_runningBoardServices_initializeMonitoring_block_invoke_2 : 1844 -> 1596
+~ _CMSUtilityApplier_SetApplicationState : 392 -> 72
+~ _CMSMUtility_FetchBackgroundEntitlement : 448 -> 188
+~ -[MXCoreSession updateApplicationStateAndPIDToInheritAppStateFrom] : 804 -> 520
+~ _CMSUtility_SessionWithPIDWasLockStopper : 512 -> 300
+~ _CMSUtility_FetchSessionEntitlements : 1636 -> 820
+~ _MXCoreSessionCopyProperty : 23760 -> 17804
+~ ___MX_SystemStatus_PublishRecordingClientsInfo_block_invoke_2 : 364 -> 84
+~ ___cmsCopyInitialRouteSharingPolicyToSession_block_invoke_2 : 812 -> 276
+~ _MXSessionCopyProperty : 704 -> 556
+~ __MXSessionCopyProperty : 520 -> 468
+~ _CMSUtility_CreateReporterIDIfNeeded : 800 -> 524
+~ ___CMSMNotificationUtility_PostReporterIDsDidChange_block_invoke : 528 -> 220
+~ _CMSMUtility_IsModeValidForCategory : 1524 -> 1200
+~ -[MXSession(InterfaceImpl) setOrderedPropertiesInternal:usingErrorHandlingStrategy:outPropertiesErrors:] : 896 -> 840
+~ _cmsSetAudioMode : 1624 -> 1132
+~ _CMSMVAUtility_GetVADModeFromFigModeName : 380 -> 104
+~ -[MXCoreSession setInterruptionStyleAtClientRequest:] : 2540 -> 1868
+~ _CMSMNotificationUtility_PostPiPIsPossibleDidChange_f : 492 -> 128
+~ ___FigRoutingManagerContextUtilities_CopyPickedEndpointAtIndex_block_invoke : 416 -> 96
+~ __routingContextUtilities_copyPickedEndpoints : 780 -> 240
+~ __VAEndpoint_CopyProperty : 2940 -> 2756
+~ ___CMSMNotificationUtility_PostSessionAudioModeDidChange_block_invoke : 456 -> 148
+~ _CMSUtility_IsAudioCategoryRingtone : 372 -> 60
+~ _CMSUtility_GetApplicationStateForSession : 516 -> 132
+~ -[MXCoreSession setUpDefaultBehavioursForCategoryAtClientRequest] : 444 -> 156
+~ _discoveryManager_logDiscoverers : 1988 -> 1576
+~ ___discoverer_SetProperty_block_invoke_2 : 2736 -> 2728
+~ _FigRouteDiscoveryManagerAddDiscoverer : 1372 -> 400
+~ ___FigRoutingManagerContextUtilities_CopyPickedEndpoints_block_invoke : 416 -> 96
+~ ___FigRoutingManagerContextUtilities_GetContextType_block_invoke : 364 -> 80
+~ ___FigRoutingManagerContextUtilities_CopyCachedSelectedRouteDescriptors_block_invoke : 500 -> 180
+~ ___FigRouteDiscoveryManagerPowerLogDiscoveryLevelChange_block_invoke : 708 -> 396
+~ _FigRouteDiscoveryManagerUpdateDiscoveryMode : 1684 -> 892
+~ _discoveryManager_copyHighestRequestedDiscoveryModeForEndpointManager : 440 -> 452
+~ _discoveryManager_copyHighestDiscoveryModeForDiscovererType : 1260 -> 1040
+~ _FigRouteDiscovereryManagerIsNewDiscoveryModeHigher : 396 -> 56
+~ _discovererManager_getDiscoveryModeAsInt : 532 -> 248
+~ _discoveryManager_removeFreedWeakRefs : 480 -> 196
+~ ___discoveryManager_updateDiscoveryModeForType_block_invoke : 2188 -> 2204
+~ _FigRouteDiscoveryManagerIsClientSuspendedOrTerminated : 800 -> 224
+~ _FigRouteDiscovererUpdateCachedRouteInformation : 1112 -> 828
+~ _FigRouteDiscoveryManagerCopyRoutesForTypeAndAudioSessionID : 1020 -> 268
+~ _vaemShouldIncludePortTypeForRouteConfiguration : 476 -> 140
+~ _CMSMUtility_AnySessionBelongingToPIDIsActiveAndStopsWhenBackgrounded : 524 -> 312
+~ _OUTLINED_FUNCTION_1 : 40 -> 12
+~ _OUTLINED_FUNCTION_1 : 48 -> 8
+~ _OUTLINED_FUNCTION_1 : 92 -> 28
+~ _OUTLINED_FUNCTION_1 : 40 -> 20
+~ _OUTLINED_FUNCTION_1 : 24 -> 32
+~ _OUTLINED_FUNCTION_1 : 44 -> 20
+~ _OUTLINED_FUNCTION_1 : 24 -> 32
+~ _OUTLINED_FUNCTION_1 : 44 -> 28
+~ _OUTLINED_FUNCTION_1 : 44 -> 28
+~ _volumeControllerServer_handleGetEndpointVolumeControlTypeMessage : 424 -> 224
+~ _OUTLINED_FUNCTION_15 : 48 -> 32
+~ _volumeControllerRemote_GetVolumeControlTypeOfEndpointWithID : 412 -> 192
+~ _OUTLINED_FUNCTION_14 : 40 -> 32
+~ _OUTLINED_FUNCTION_26 : 12 -> 36
+~ _OUTLINED_FUNCTION_14 : 16 -> 32
+~ _FigVolumeControllerCopySharedController : 596 -> 100
+~ ___FigVolumeControllerCopySharedControllerRemote_block_invoke : 160 -> 108
+~ _FigEndpointDescriptorUtility_CopyDescriptorForEndpoint : 4596 -> 4420
+~ _OUTLINED_FUNCTION_0 : 20 -> 52
+~ _OUTLINED_FUNCTION_0 : 28 -> 52
+~ _OUTLINED_FUNCTION_0 : 20 -> 52
+~ _OUTLINED_FUNCTION_0 : 28 -> 36
+~ _OUTLINED_FUNCTION_0 : 8 -> 52
+~ _OUTLINED_FUNCTION_0 : 28 -> 36
+~ _vaeGetPortTypeFromPortID : 432 -> 96
+~ _figEndpointDescriptorUtility_setDescriptorKey : 488 -> 244
+~ _OUTLINED_FUNCTION_3 : 32 -> 56
+~ _vaeCopyDeviceIdentifierFromVADPort : 460 -> 128
+~ _vaeIsPortWHAGroupable : 416 -> 144
+~ _vaeCopyRouteSubtypeFromVADPort : 492 -> 160
+~ _CMSMVAUtility_CopyFigOutputDeviceNameFromVADPortType : 404 -> 76
+~ _cmsmCopyPickableRoutesForRouteConfiguration : 1312 -> 4092
+~ _FigRouteDiscovererRemoteXPC_CopyProperty : 464 -> 164
+~ _FigRouteDiscovererRemoteXPC_SetProperty : 396 -> 112
+~ ___volumeControllerRemote_ensureClientEstablished_block_invoke : 412 -> 132
+~ ___figRouteDiscovererRemoteXPC_EnsureClientEstablished_block_invoke : 512 -> 252
+~ ___discoveryManager_iOSAppendAvailableEndpoints_block_invoke : 4084 -> 2988
+~ _singletonVolumeController_copyCachedRemoteVolumeController : 488 -> 200
+~ _OUTLINED_FUNCTION_25 : 16 -> 28
+~ _singletonVolumeController_setCachedRemoteVolumController : 496 -> 196
+~ _HandleRouteDiscovererRemoteMessage : 3168 -> 1408
+~ _discoverer_SetProperty : 1164 -> 892
+~ _remoteXPCRouteDiscoverer_CreateInternal : 292 -> 212
+~ _volumeControllerRemote_GetMasterVolumeControlTypeOfRoutingContext : 408 -> 196
+~ _OUTLINED_FUNCTION_11 : 36 -> 12
+~ _volumeControllerRemote_CanSetMasterVolumeOfRoutingContext : 432 -> 192
+~ _routingContextRemoteXPC_CopyProperty : 432 -> 120
+~ _volumeControllerRemote_CanUseForRoutingContext : 448 -> 192
+~ _routingContextRemoteXPC_CopyPredictedSelectedRouteDescriptor : 148 -> 152
+~ _CMSMVAUtility_GetVADCategoryFromFigCategoryName : 412 -> 80
+~ _vaemCopyEndpointForPort : 688 -> 200
+~ _vaemCopyVADInputPortsForRouteConfiguration : 420 -> 92
+~ _cmsmCopySelectablePortsForRouteConfiguration : 928 -> 716
+~ _vaemCopyConnectedPortsListForRouteConfiguration : 788 -> 272
+~ _vaemCopyActivePortsListForRouteConfigurationScopeAndDevice : 716 -> 424
+~ _vaemGetPortListForDevice : 492 -> 524
+~ _vaeIsLiveListenSupportedOnVADPort : 436 -> 96
+~ _vaeCopySpecificNameForPort : 640 -> 416
+~ _vaeCopyHiddenSubPortDescriptionsForPort : 1080 -> 628
+~ _vaeCopySubPortDescriptionsForPortAndRouteConfiguration : 1996 -> 1756
+~ _CMSMVAUtility_CopyFigInputDeviceNameFromVADPortType : 404 -> 76
+~ _vaemHeadphoneJackIsConnected : 408 -> 84
+~ _vaemHeadphoneJackHasInput : 408 -> 84
+~ _cmsmRemoveSystemSoundAudioCategoriesThatMixIn : 964 -> 720
+~ -[MXSession(InterfaceImpl) setPropertiesInternal:usingErrorHandlingStrategy:outPropertiesErrors:] : 1292 -> 1236
+~ _volumeControllerServer_handleCanSetMasterVolumeMessage : 444 -> 220
+~ _volumeController_IsMainVolumeControlSupportedForRoutingContext : 964 -> 416
+~ _volumeControllerServer_handleGetMasterVolumeControlTypeMessage : 428 -> 236
+~ _volumeController_GetMainVolumeControlTypeForRoutingContext : 964 -> 416
+~ _FigRoutingManagerContextUtilities_CopyPickedEndpoints : 312 -> 308
+~ _volumeControllerServer_handleCanUseForRoutingContextMessage : 524 -> 244
+~ _volumeController_AreVolumeOperationsSupportedForRoutingContext : 696 -> 148
+~ _MXBluetoothServices_AreManagedPortsAvailable : 524 -> 304
+~ _HandleRoutingContextRemoteMessage : 6868 -> 4528
+~ _routingContext_CopyProperty : 1120 -> 808
+~ _routingContext_CopySelectedRouteDescriptors : 516 -> 232
+~ _routingContextServerXPC_CopyOptionsWithClientPIDAndName : 624 -> 412
+~ _CMSUtility_GetCurrentOutputVADID : 80 -> 132
+~ _CMSMUtility_GetVADIDForVADName : 564 -> 152
+~ _FigPredictedRouting_IsPreemptivePortLogicEnabled : 604 -> 96
+~ _FigRoutingContextResilientRemoteCreate : 592 -> 516
+~ _routingContext_create : 568 -> 284
+~ _routingContext_create : 1312 -> 440
+~ _routingContextResilientRemote_startObservingRemoteContext : 1276 -> 296
+~ _remoteXPCRoutingContext_CreateInternal : 504 -> 444
+~ _routingContext_copySystemContext : 388 -> 92
+~ ___routingContextRemoteXPC_EnsureClientEstablished_block_invoke : 308 -> 256
+~ _CMSMSleep_ReleasePrewarmIdleSleepPreventor : 756 -> 268
+~ _discoveryManager_postNotificationToAllDiscoverers : 564 -> 276
+~ ___FigRouteDiscovererCopyUserSelectionAvailable_block_invoke : 1016 -> 640
+~ ___83+[AVSystemController(InternalUse) postNotificationOnMainQueue:notification:object:]_block_invoke : 404 -> 92
+~ -[MXSession(InternalUse) setMutePriority:] : 968 -> 776
+~ ___CMSMNotificationUtility_PostPickableRoutesDidChange_block_invoke : 364 -> 108
+~ _vaemCurrentRouteHasInputGainControl : 448 -> 116
+~ -[MXAdditiveRoutingManager copyAndUpdateSessionInformation:] : 4348 -> 4116
+~ _vaemGetFullMute : 640 -> 92
+~ _CMSMUtility_CopyCurrentRouteHasVolumeControl : 504 -> 232
+~ _volumeControllerServer_handleGetMuteOfEndpointWithIDMessage : 216 -> 208
+~ -[MXSessionManager updateDeviceSampleRate:] : 556 -> 224
+~ -[MXCoreSessionBase additiveRoutingInfo] : 1176 -> 880
+~ _CMSMCreateRouteDescriptionFromPortIDOrRouteConfiguration : 1304 -> 832
+~ __VAEndpointManager_CopyPropertyWithQualifier : 636 -> 292
+~ _vaemGetSampleRateForDevice : 672 -> 96
+~ _cmsmCopyVADPickedRouteDescriptionForRouteConfiguration : 856 -> 652
+~ _cmsmCopyActiveNonWirelessPortsListForRouteConfigurationScopeAndDevice : 960 -> 292
+~ _PVMCopyVolumeCategoryAndMode : 4 -> 64
+~ -[MXAdditiveRoutingManager sendActiveSessionsInfoToVA] : 1412 -> 720
+~ -[MXCoreSession willRouteToOnDemandVADOnActivation] : 940 -> 684
+~ -[MXAdditiveRoutingManager copyActiveSessionsInfo] : 412 -> 120
+~ _CMSMVAUtility_WillSessionWithDescriptionRouteToOnDemandVADOnActivation : 1108 -> 464
+~ _CMSessionMgrFindVolumeButtonClient : 3132 -> 2932
+~ -[MXSessionManager(Utilities) isCurrentPortTypeMuteable:] : 328 -> 80
+~ _CMSUtility_IsSessionOnlyPlayingLocally : 128 -> 116
+~ _CMSMDeviceState_DeviceIsLocked : 108 -> 112
+~ +[MXSystemController(InternalUse) getPIDForAnyAppThatWantsVolumeChanges] : 528 -> 276
+~ __MXSessionSetProperty : 520 -> 468
+~ _routingContextRemoteXPC_CopySelectedBufferedEndpoint : 144 -> 156
+~ _FigRoutingContextResilientRemoteCopyContextForUUID : 920 -> 588
+~ ___FigRoutingContextResilientRemoteCopyContextForUUID_block_invoke : 632 -> 304
+~ _volumeControllerRemote_GetMuteOfEndpointWithID : 376 -> 188
+~ _MX_FrontBoardServcies_CopyPrimaryAppDisplayID : 508 -> 180
+~ _FigRouteDiscovererUpdateCachedUserSelectionAvailable : 644 -> 352
+~ -[AVSystemController(InternalUse) postEffectiveVolumeNotification:] : 836 -> 556
+~ _figConnection_notificationCallback : 464 -> 188
+~ _FigRouteDiscovererCopyUserSelectionAvailable : 1172 -> 592
+~ _CMSMUtility_IsSomeRecordingSessionPresentThatDisallowsSystemSounds : 560 -> 276
+~ _vaeCreateRouteDescription : 2852 -> 2032
+~ -[AVSystemController volumeCategoryForAudioCategory:] : 868 -> 316
+~ -[AVSystemController pickableRoutesForCategory:] : 756 -> 208
+~ -[AVSystemController getActiveCategoryVolume:andName:] : 360 -> 8
+~ -[AVSystemController getActiveCategoryVolume:andName:fallbackCategory:] : 560 -> 252
+~ _remoteSystemController_PerformVolumeOperation : 1116 -> 720
+~ -[AVSystemController pickableRoutesForCategory:andMode:] : 800 -> 228
+~ _remoteSystemController_CopyPickableRoutesForCategoryAndMode : 460 -> 224
+~ ___FigRoutingManagerContextUtilities_IsContextSystemMusicAndIndependent_block_invoke : 388 -> 104
+~ ___FigRoutingContextUtilities_IsFollowingAnotherContext_block_invoke : 360 -> 72
+~ -[MXSystemController _performVolumeOperation:volume:category:mode:routeName:routeDeviceIdentifier:routeSubtype:rampUpDuration:rampDownDuration:outVolume:outSequenceNumber:outMuted:outCategoryCopy:outModeCopy:retainFullMute:] : 604 -> 304
+~ _MXSMPerformVolumeOperation : 10916 -> 8304
+~ _cmsmCopyUpdatedVolumeOperationCategoryForNullDefaultCategory : 428 -> 124
+~ _systemController_notificationCallback : 824 -> 304
+~ _cmsTryToTakeControl : 5464 -> 2952
+~ _CMSessionMgrCopyPickableRoutesForCategoryAndMode : 540 -> 232
+~ _systemController_PerformVolumeOperation : 912 -> 228
+~ _CMSMNotificationUtility_PostSomeSessionIsPlayingDidChange : 496 -> 224
+~ _cmsTakeControl : 4364 -> 3024
+~ __VAEndpointManager_CopyPropertyForRouteConfiguration : 620 -> 264
+~ _vaemSystemHasAudioInputDeviceForRouteConfiguration : 692 -> 72
+~ _vaemCopyDeviceFormat : 300 -> 248
+~ _vaemGetDeviceFormatID : 300 -> 108
+~ _vaemGetStream0 : 448 -> 124
+~ _CMSUtility_GetVADType : 60 -> 108
+~ -[MXPreferredVolumeManager postNotification:category:mode:volume:rampUpwardDuration:rampDownwardDuration:silenceVolumeHUD:reason:refCon:sequenceNumber:] : 572 -> 576
+~ _CMSUtility_ComputePlaybackVolume : 1404 -> 724
+~ _PVMGetCurrentPreferredRawVolume : 428 -> 192
+~ _pvmGetVolumeLimitPref : 440 -> 136
+~ _PVMIsCurrentDeviceRoute : 652 -> 288
+~ _PVMCopyCurrentCategoryAndMode : 468 -> 136
+~ _PVMInitialize : 168 -> 112
+~ _pvmAssureCurrentCategoryAndDeviceRoute : 244 -> 248
+~ _vaemSetDeviceVolumeIfNotSet : 2868 -> 1500
+~ _vaeIsVoiceProcessingSupportedOnVADPort : 436 -> 96
+~ _cmsSetDefaultBuiltInRoute : 652 -> 320
+~ -[MXSessionManager(Utilities) getDefaultBuiltInCustomizedAlternateCategory:defaultBuiltInRoute:] : 472 -> 164
+~ _pvmUpdatePreferredVolumeAndLimit : 724 -> 444
+~ _PVMIsCategoryAndRouteInfoCurrent : 508 -> 220
+~ _cmsmGetAndSetVolumePreferencesForActiveVolumeClient : 5764 -> 4588
+~ _PVMGetMappedEndpointType : 1084 -> 404
+~ _pvmGetVolumePref : 1016 -> 472
+~ _pvmCreateCategoryStringWithModeAppended : 536 -> 192
+~ _pvmGetMinimumCategoryVolume : 1060 -> 136
+~ _pvmCreateSeparateCategoryAndModeStrings : 508 -> 148
+~ _pvmGetMaximumCategoryVolume : 428 -> 116
+~ _pvmCreateDeviceRouteString : 884 -> 632
+~ _PVMGetCurrentPreferredVolume : 364 -> 60
+~ _PVMCopyCurrentDeviceRoute : 512 -> 168
+~ _PVMCategoriesAreEquivalent : 516 -> 112
+~ _FigRoutingContextCopyContextForUUID : 800 -> 436
+~ _FigRoutingContextXPCHandleCopySelectedBufferedEndpointMessage : 252 -> 256
+~ _routingContext_CopySelectedBufferedEndpoint : 616 -> 316
+~ -[MXSession(InternalUse) setIsRecording:] : 1052 -> 804
+~ -[MXSession(InternalUse) setDoesntActuallyPlayAudio:] : 452 -> 476
+~ _vaemVADCopyAvailableStreamFormatsForVADID : 1160 -> 132
+~ _vaemGetAC3IsSupported : 364 -> 92
+~ _vaemGetDeviceBufferNumPCMFrames : 668 -> 92
+~ _CMSUtility_RouteToPreferredRouteIfRequired : 3664 -> 2644
+~ _vaemCopyVADOutputPortsForRouteConfiguration : 636 -> 92
+~ _CMSMVAUtility_CopyRoutesInfoFromInputAndOutputPorts : 756 -> 476
+~ _CMSMVAUtility_IsAnyRouteBTManagedAndInEar : 480 -> 180
+~ _vaemVADRouteChangeListener : 14076 -> 10656
+~ _vaemUpdateThermalGainAdjustment : 1244 -> 472
+~ _cmsCopyOverrideRoute : 400 -> 156
+~ _cmsmSetVADRouteConfiguration : 9544 -> 9328
+~ _vaemSetRouteConfigurationDictionaryOnVAD : 748 -> 500
+~ _vaemCopyDetailedRouteDescription : 1616 -> 628
+~ _vaemCopyAudioStreamIDsForScope : 1276 -> 224
+~ _vaemCopyAssociatedPortsForStreamID : 428 -> 104
+~ _CMSMSleep_FetchPlaybackProcessAssertion : 536 -> 252
+~ -[MXSessionManager(DuckingUtilities) duckSessionIfDuckerIsActive:] : 764 -> 440
+~ _CMSUtility_CopyActiveDuckerForSession : 572 -> 308
+~ _MXSessionBeginInterruption_WithSecTaskAndFlags : 824 -> 772
+~ -[MXSessionManager(DuckingUtilities) duckSessionForVoiceOverIfNeeded:voiceOverSession:] : 1092 -> 564
+~ -[MXCoreSessionBase setIsActive:] : 400 -> 76
+~ _CMSUtility_SendSessionStateAndVolumeReportToAudioStatistics : 2872 -> 2324
+~ _CMSMUtility_UpdatePlayAndRecordAppSpeechState : 840 -> 604
+~ _CMSUtility_IsAudioModeCameraRelated : 444 -> 180
+~ _FigEndpointCentralEntityIsDoingActivity : 592 -> 236
+~ _CMSMUtility_UpdateVoiceAssistantActiveStateForCarPlay : 392 -> 120
+~ _CMSUtility_IsAudioCategoryVoicemail : 372 -> 60
+~ ___cmsHandleIdleSleep_block_invoke : 1024 -> 252
+~ _routingContextResilientRemote_stopObservingRemoteContext : 1244 -> 244
+~ _vaemConfigurePVMSettings : 2504 -> 2284
+~ _CMSMUtility_GetSharePlayCapableActiveMediaSession : 536 -> 288
+~ _vaemUpdatePVMSettingsForInputGain : 604 -> 328
+~ _vaemCurrentRouteHasVolumeControl : 448 -> 116
+~ _pvmSetCurrentRouteInfo : 648 -> 96
+~ _CMSMUtility_GetSharePlayCapableActiveCallSession : 536 -> 288
+~ _CMSUtility_IsPlayingToDefaultVAD : 48 -> 112
+~ _DisposeRoutingContextServerState : 964 -> 116
+~ _cmsSetIsPlaying : 8584 -> 5452
+~ _CMSMNotificationUtility_PostSomePrimaryAudioCategoryIsPlayingDidChange : 672 -> 416
+~ _CMSMNotificationUtility_PostSomeOtherPrimaryAudioCategoryIsPlayingDidChange : 436 -> 168
+~ _CMSMNotificationUtility_PostCallIsActiveDidChangeIfNeeded : 904 -> 416
+~ _MX_PrivacyAccounting_CreateRecordingAccessIntervals : 3180 -> 2232
+~ _routingContextRemoteXPC_Finalize : 648 -> 332
+~ _CMSMNotificationUtility_PostAvailableSampleRatesDidChange_f : 336 -> 36
+~ __VAEndpointManager_CopyPropertyForScope : 476 -> 140
+~ _vaemGetMaximumNumberOfChannels : 1472 -> 348
+~ _vaemGetNumberOfStreams : 448 -> 128
+~ _vaemIsMATAtmosEnabled : 628 -> 132
+~ _CMSMUtility_GetLongBufferDuration : 420 -> 120
+~ _vaemGetCurrentLatencyForVADIDAndScope : 632 -> 436
+~ -[MXSessionManagerSecure addMXCoreSessionSecure:] : 468 -> 168
+~ -[MXSessionManagerSecure removeMXCoreSessionSecure:] : 532 -> 240
+~ -[MXSessionManagerSecure copyActiveSessionsInfoForAdditiveRouting] : 784 -> 564
+~ _FigRouteDiscoveryManagerCopyRoutePresentForType : 612 -> 292
+~ _FigRouteDiscoveryManagerRegisterEndpointManager : 872 -> 620
+~ ___discoveryManager_shouldSwitchDownBeDelayed_block_invoke : 308 -> 4
+~ _FigRoutingManagerContextUtilities_Create : 600 -> 212
+~ _FigRoutingContextUtilities_SetLeaderUUIDForContext : 788 -> 436
+~ __routingContextUtilities_setLeaderUUIDForContext : 820 -> 324
+~ ___FigRoutingContextUtilities_UnfollowUUIDFromLeader_block_invoke : 556 -> 180
+~ __routingContextUtilities_removeLeader : 584 -> 396
+~ ___FigRoutingManagerContextUtilities_ResetCurrentlyActivatingEndpointInfo_block_invoke : 788 -> 480
+~ ___FigRoutingManagerContextUtilities_ResetCurrentlyActivatingSubEndpointsInfo_block_invoke : 716 -> 440
+~ ___FigRoutingManagerContextUtilities_SaveCommChannelUUID_block_invoke : 444 -> 124
+~ __routingContextUtilities_checkActivationTimeout : 752 -> 472
+~ ___FigRoutingManagerContextUtilities_RemoveCurrentlyActivatingEndpoint_block_invoke : 484 -> 176
+~ ___FigRoutingManagerContextUtilities_AddCurrentlyActivatingSubEndpoints_block_invoke : 816 -> 548
+~ _FigRoutingContextUtilities_DoesArrayOfEndpointsContainEndpoint : 932 -> 656
+~ __routingContextUtilities_notifyClientsOfChangeInPickedEndpoints : 720 -> 428
+~ _FigRoutingManagerContextUtilities_AddActivatedEndpoint : 988 -> 668
+~ _FigRoutingManagerContextUtilities_RemoveActivatedEndpoint : 640 -> 304
+~ ___FigRoutingManagerContextUtilities_RemoveActivatedEndpoint_block_invoke : 572 -> 304
+~ _FigRoutingManagerContextUtilities_SetPickingState : 652 -> 296
+~ ___FigRoutingManagerContextUtilities_SetPickingState_block_invoke : 360 -> 76
+~ _FigRoutingManagerContextUtilities_SetDefaultLeaderUUIDForContext : 640 -> 296
+~ ___FigRoutingManagerContextUtilities_SetDefaultLeaderUUIDForContext_block_invoke : 372 -> 88
+~ ___FigRoutingManagerContextUtilities_GetActivatedEndpointFeatures_block_invoke : 780 -> 484
+~ ___FigRoutingManagerContextUtilities_GetActivationSeedForEndpoint_block_invoke : 780 -> 484
+~ ___FigRoutingManagerContextUtilities_CopyCurrentlyActivatingEndpointInfoAtIndex_block_invoke : 556 -> 136
+~ ___FigRoutingManagerContextUtilities_RemoveCurrentlyActivatingEndpointInfoAtIndex_block_invoke : 672 -> 144
+~ ___FigRoutingManagerContextUtilities_CopyCurrentlyActivatingEndpoints_block_invoke : 576 -> 268
+~ ___FigRoutingManagerContextUtilities_CopyCurrentlyActivatingEndpointsInfo_block_invoke : 372 -> 88
+~ ___FigRoutingManagerContextUtilities_CopyCurrentlyActivatingSubEndpoints_block_invoke : 484 -> 208
+~ ___FigRoutingManagerContextUtilities_CopyActivatedEndpointsInfo_block_invoke : 372 -> 88
+~ ___FigRoutingManagerContextUtilities_RemoveContext_block_invoke : 772 -> 456
+~ ___FigRoutingManagerContextUtilities_CopyHijackID_block_invoke : 376 -> 92
+~ ___FigRoutingManagerContextUtilities_SetAggregateEndpoint_block_invoke : 648 -> 432
+~ ___FigRoutingManagerContextUtilities_CopyAggregateEndpointAsFigEndpointAggregate_block_invoke : 372 -> 88
+~ ___FigRoutingManagerContextUtilities_CopyAggregateEndpointAsFigEndpoint_block_invoke : 372 -> 88
+~ _FigRoutingManagerContextUtilities_CopyArrayOfFollowerUUIDs : 568 -> 300
+~ ___FigRoutingManagerContextUtilities_CopyArrayOfFollowerUUIDs_block_invoke : 548 -> 252
+~ ___FigRoutingContextUtilities_CopyLeaderUUIDForContext_block_invoke : 452 -> 176
+~ ___FigRoutingManagerContextUtilities_IsContextSidePlay_block_invoke : 380 -> 96
+~ ___FigRoutingManagerContextUtilities_IsContextSystemAudio_block_invoke : 380 -> 96
+~ ___FigRoutingManagerContextUtilities_IsContextSystemRemoteDisplay_block_invoke : 380 -> 96
+~ ___FigRoutingManagerContextUtilities_UpdateRouteDescriptorForGivenContext_block_invoke : 472 -> 164
+~ _FigRoutingManagerContextUtilities_GetMainVolumeScaleFactorForEndpointID : 592 -> 316
+~ ___FigRoutingManagerContextUtilities_GetMainVolumeScaleFactorForEndpointID_block_invoke : 428 -> 108
+~ _FigRoutingManagerContextUtilities_SetMainVolumeScaleFactorForEndpointID : 508 -> 232
+~ ___FigRoutingManagerContextUtilities_SetMainVolumeScaleFactorForEndpointID_block_invoke : 452 -> 144
+~ _FigRoutingManagerContextUtilities_SetScreenEndpoint : 484 -> 224
+~ ___FigRoutingManagerContextUtilities_SetScreenEndpoint_block_invoke : 448 -> 124
+~ _FigRoutingManagerContextUtilities_CopyScreenEndpointUUID : 572 -> 292
+~ ___FigRoutingManagerContextUtilities_CopyScreenEndpointUUID_block_invoke : 360 -> 72
+~ _FigRoutingManagerContextUtilities_SetAudioEndpoint : 484 -> 224
+~ ___FigRoutingManagerContextUtilities_SetAudioEndpoint_block_invoke : 428 -> 108
+~ _FigRoutingManagerContextUtilities_IsRoutedToLocalAirplayReceiver : 812 -> 600
+~ ___FigRoutingManagerContextUtilities_IsRoutedToLocalAirplayReceiver_block_invoke : 360 -> 72
+~ _FigRoutingManagerContextUtilities_StopDiscoveryTimer : 472 -> 208
+~ ___FigRoutingManagerContextUtilities_StopDiscoveryTimer_block_invoke : 384 -> 92
+~ _FigRoutingManagerContextUtilities_StopMirroringTimer : 476 -> 216
+~ _FigRoutingManagerContextUtilities_CacheSupportedOutputChannelLayouts : 484 -> 224
+~ ___FigRoutingManagerContextUtilities_CacheSupportedOutputChannelLayouts_block_invoke : 428 -> 108
+~ _FigRoutingManagerContextUtilities_CopySupportedOutputChannelLayouts : 600 -> 320
+~ ___FigRoutingManagerContextUtilities_CopySupportedOutputChannelLayouts_block_invoke : 432 -> 112
+~ ___routingContextUtilities_getSharedContextUtilities_block_invoke : 688 -> 420
+~ _FigRouteDiscovererStartServer : 548 -> 216
+~ _routingManager_pickingTimeoutCallback : 644 -> 352
+~ _FigRoutingManagerCreateAndActivateAggregateEndpointForContext : 712 -> 240
+~ _FigRoutingManagerRegisterAndCopyContext : 756 -> 280
+~ _FigRoutingManagerCopyCurrentGroupUUID : 488 -> 240
+~ _FigRoutingManagerDoesDeviceAlwaysHaveAggregateForLocalPlayback : 428 -> 72
+~ _FigRoutingManagerCopyWHAGroupableVAEndpoint : 576 -> 296
+~ _FigRoutingManagerCopyLocalAirPlayEndpoint : 788 -> 308
+~ _FigRoutingManagerCopyBluetoothEndpointAssociatedWithVAEndpoint : 1152 -> 664
+~ _FigRoutingManagerLogEndpointID : 760 -> 540
+~ _FigRoutingManagerLogEndpointIDs : 904 -> 664
+~ _OUTLINED_FUNCTION_8 : 16 -> 44
+~ _MXSystemAudio_PickRouteDescriptor : 5764 -> 5564
+~ -[MXCoreSessionSecure addMXSessionSecure:] : 460 -> 168
+~ -[MXCoreSessionSecure removeMXSessionSecure:] : 524 -> 240
+~ -[MXCoreSessionSecure copyPropertyForKey:valueOut:] : 1384 -> 1380
+~ _FVIOKit_CreateIntensityDictionary : 440 -> 180
+~ _FVIOKit_VibePatternArrayCreateDefault : 480 -> 212
+~ _FVIOKit_ConvertFigTimeToMillisec : 440 -> 120
+~ _FVIOKit_StartIOServiceVibration : 748 -> 424
+~ _FVIOKit_StopVibrator : 604 -> 328
+~ ___FVIOKit_StopVibrator_block_invoke : 356 -> 100
+~ _OUTLINED_FUNCTION_4 : 20 -> 64
+~ ___mxsmInteruptionActionMapper_setUpInterruptionPriorityDictionaries_block_invoke : 728 -> 312
+~ _FigRoutingManager_iOSHandleFigEndpointFeaturesActivation : 704 -> 232
+~ _FigRoutingManager_iOSHandleStartupFailed : 668 -> 320
+~ _FigRoutingManager_iOSHandleEndpointFailedDelegate : 844 -> 512
+~ _FigRoutingManager_iOSHandleFigEndpointFeaturesDeactivation : 724 -> 428
+~ _routingManager_resetScreenSettings : 424 -> 168
+~ _FigRoutingManagerResumeCurrentEndpointScreen : 696 -> 444
+~ _FigRoutingManagerSuspendCurrentEndpointScreen : 696 -> 444
+~ ___routingManager_handleEndpointFailedNotification_block_invoke : 480 -> 192
+~ _central_interruptionNotificationCallback : 640 -> 468
+~ ___FigEndpointCreateCentral_block_invoke : 192 -> 5852
+~ _central_endpointNotificationCallback : 772 -> 472
+~ _FigEndpointSessionHandleInterruption : 1404 -> 568
+~ _FigEndpointCentralGetResourceTypeBorrowConstraint : 592 -> 84
+~ _FigEndpointCentralEntityOwnsResource : 880 -> 216
+~ _central_ConstructModeChangeRequestToGet : 932 -> 352
+~ _FigEndpointCentralUpdateIsVoiceAssistantActive : 536 -> 80
+~ _central_resetStates : 856 -> 348
+~ _central_SetDelegateRemoteControl : 244 -> 232
+~ _central_BorrowScreen : 552 -> 248
+~ _central_UnborrowScreen : 412 -> 76
+~ _central_TakeScreen : 636 -> 328
+~ _central_SetHIDInputMode : 252 -> 244
+~ _central_CopyHIDInputMode : 264 -> 252
+~ _central_CreateRemoteControlSession : 304 -> 292
+~ _central_CreateCommChannel : 304 -> 292
+~ _central_CloseCommChannel : 292 -> 284
+~ _central_RequestScreenViewArea : 304 -> 292
+~ _central_CopyCurrentScreenViewArea : 304 -> 292
+~ ___central_RequestCarUI_block_invoke : 732 -> 284
+~ ___central_requestCarModeChange_block_invoke : 316 -> 4
+~ ___central_SetHIDInputMode_block_invoke : 772 -> 284
+~ ___central_CopyHIDInputMode_block_invoke : 756 -> 292
+~ ___central_interruptionNotificationCallback_block_invoke : 1352 -> 836
+~ _OUTLINED_FUNCTION_5 : 52 -> 36
+~ _vaemSetCallScreeningStatus : 372 -> 68
+~ _vaemAddAudioDevicesChangedListener : 372 -> 84
+~ _vaemAddToPortEndpointCache : 712 -> 328
+~ _vaemSetOrientationOverride : 716 -> 176
+~ _vaemSetCaptureOrientationOverride : 712 -> 188
+~ _vaemGetStereoInputOrientation : 456 -> 140
+~ _vaemSetStereoInputOrientation : 476 -> 160
+~ _vaemSetBootChimeVolume : 720 -> 468
+~ _vaemIsMATAtmosAvailable : 652 -> 108
+~ _vaemSetVirtualFormatForScope : 668 -> 160
+~ _vaemRemoveVADAvailableSampleRatesListener : 428 -> 112
+~ _vaemAddVADAvailableSampleRatesListener : 452 -> 132
+~ _vaemGetDownlinkMute : 632 -> 76
+~ _vaemCurrentRouteHasMuteControl : 720 -> 464
+~ _vaemSetDeviceBufferNumPCMFramesQuiet : 444 -> 156
+~ _vaemSetDeviceBufferNumPCMFrames : 752 -> 520
+~ _vaemGetDeviceBufferNumPCMFramesRange : 708 -> 136
+~ _vaemBufferFrameSizeShouldBeRestricted : 656 -> 116
+~ _vaemSetDefaultInputGain : 364 -> 92
+~ _vaemSetInputGainFromPreferenceIfPresent : 688 -> 196
+~ _vaemSetUplinkMuteOnDevice : 668 -> 464
+~ _vaemSetDownlinkMute : 368 -> 84
+~ _vaemGetUplinkMute : 700 -> 144
+~ _vaemUnmuteFullMuteIfMuted : 316 -> 56
+~ _vaemSetInputDataSource : 464 -> 144
+~ _vaemSetOutputDataDestination : 464 -> 144
+~ _vaemAddVADDeviceVolumeChangeListener : 432 -> 116
+~ _vaemVADAvailableSampleRatesListener : 364 -> 84
+~ _vaemAddVADCurrentSampleRateListener : 452 -> 132
+~ _vaemVADCurrentSampleRateListener : 364 -> 84
+~ _vaemAddVADCurrentDeviceBufferSizeListener : 496 -> 176
+~ _vaemVADCurrentBufferFrameSizeListener : 364 -> 84
+~ _vaemCopyCPMSPowerBudgetRangeInMilliWatts : 908 -> 464
+~ _vaemCopyThermalControlInfo : 680 -> 144
+~ _vaemSetThermalControlInfo : 688 -> 416
+~ _vaemCopyCPMSPowerBudget : 892 -> 180
+~ _vaemSetCPMSPowerBudget : 956 -> 468
+~ _vaemAddAvailableVirtualFormatsListener : 1048 -> 268
+~ _vaemCopyPickableQuiesceableWiredPortsList : 700 -> 188
+~ _vaemGetVirtualAudioPlugInCategory : 416 -> 92
+~ _vaemGetVirtualAudioPlugInMode : 668 -> 104
+~ _vaemCreateVADWithRouteConfigurationDictionary : 532 -> 284
+~ _vaemDeleteVADWithRouteConfigurationDictionary : 532 -> 284
+~ _vaemResetVADCategoryToStandardAVAndDefaultMode : 740 -> 528
+~ _FigVAEndpointManagerHandleAvailableEndpointsChanged : 308 -> 8
+~ _FigVAEndpointManagerCreate : 6820 -> 4436
+~ _vaemUpdateCurrentOutputRoutesInfo : 576 -> 176
+~ _vaemUpdateConnectedOutputPortsList : 6324 -> 5436
+~ _vaemAvailableVirtualFormatsListener : 360 -> 80
+~ __VAEndpointManager_Finalize : 328 -> 32
+~ _vaemCopyCurrentInputDataSource : 676 -> 124
+~ _vaemCopyCurrentOutputDataDestination : 688 -> 136
+~ _vaemCopyInputDataSources : 476 -> 160
+~ _vaemCopyOutputDataDestinations : 476 -> 160
+~ __VAEndpointManager_SetDiscoveryMode : 692 -> 196
+~ _vaemReceiverWillBeUsedListener : 312 -> 12
+~ _vaemCurrentRouteHasVolumeControlListener : 720 -> 252
+~ _vaemCurrentRouteHasInputGainControlListenerGuts : 520 -> 228
+~ _vaemInputSourcesListener : 352 -> 72
+~ ___MX_FeatureFlags_IsSharePlayEnabled_block_invoke : 800 -> 248
+~ ___40-[MX_TelephonyClient getIsInHomeCountry]_block_invoke : 1112 -> 540
+~ ___mx_telephonyClient_Initialize_block_invoke : 536 -> 324
+~ -[MXSystemController _performVolumeOperation:volume:category:mode:routeName:routeDeviceIdentifier:routeSubtype:rampUpwardDuration:rampDownwardDuration:outVolume:outSequenceNumber:outMuted:outCategoryCopy:outModeCopy:] : 1152 -> 272
+~ -[MXSystemController _performVolumeOperation:volume:category:mode:routeName:routeDeviceIdentifier:routeSubtype:rampUpDuration:rampDownDuration:outVolume:outSequenceNumber:outMuted:outCategoryCopy:outModeCopy:] : 656 -> 316
+~ -[MXSystemController _performVolumeOperation:volume:category:mode:routeName:routeDeviceIdentifier:routeSubtype:outVolume:outSequenceNumber:outMuted:outCategoryCopy:outModeCopy:] : 1036 -> 212
+~ +[MXSystemController(InternalUse) isAppAllowedToInitiatePlayback:] : 748 -> 484
+~ _endpointUIAgentHelper_UIAgentNotificationCallback : 600 -> 328
+~ ___MX_CoreServices_Initialize_block_invoke : 1520 -> 228
+~ _mxAudioContext_addWHAGroupableEndpoint : 1016 -> 780
+~ _mxAudioContext_deactivateEndpoint : 1408 -> 1196
+~ _mxAudioContext_handleDidReceiveDataFromCommChannelDelegate : 972 -> 216
+~ _mxAudioContext_handleDidCloseCommChannelDelegate : 816 -> 484
+~ _mxAudioContext_handleAuthorizationRequiredDelegate : 1100 -> 768
+~ _mxAudioContext_handleEndpointFailedDelegate : 600 -> 220
+~ _volumeController_handleAirPlayVolumeDidChangeNotification : 1752 -> 1180
+~ _volumeController_handleAirPlayVolumeControlTypeDidChangeNotification : 1120 -> 624
+~ _volumeController_handleAirPlayMutedByUserDidChangeNotification : 1720 -> 1148
+~ _volumeController_handleAirPlayMuteControlSupportDidChangeNotification : 1460 -> 1016
+~ _FigVolumeControllerRemoveAirPlayVolumeNotificationListeners : 740 -> 452
+~ _FigVolumeControllerSaveRoutingContextState : 2868 -> 2412
+~ _volumeController_postMuteOperationsSupportedForRoutingContextDidChangeNotification : 480 -> 252
+~ _volumeController_getMaxSubEndpointVolume : 880 -> 624
+~ ___volumeController_postNotificationWithPayload_block_invoke : 1732 -> 1276
+~ _volumeController_getMainVolume : 980 -> 452
+~ _volumeController_getVolumeForEndpoint : 964 -> 432
+~ _volumeController_Finalize : 356 -> 96
+~ _volumeController_SetMainVolumeForRoutingContext : 652 -> 456
+~ _volumeController_GetMainVolumeForRoutingContext : 628 -> 100
+~ _volumeController_GetVolumeForEndpointWithID : 588 -> 244
+~ _volumeController_IsVolumeControlSupportedForEndpointWithID : 796 -> 452
+~ _volumeController_GetVolumeControlTypeOfSubEndpointWithID : 344 -> 64
+~ _volumeController_GetMuteOfRoutingContext : 1428 -> 1020
+~ _volumeController_SetMuteOfSubEndpointWithID : 356 -> 112
+~ _volumeController_GetMuteOfSubEndpointWithID : 356 -> 112
+~ _volumeController_CanSetMuteOfRoutingContext : 1388 -> 1016
+~ _volumeController_CanSetMuteOfSubEndpointWithID : 356 -> 112
+~ _volumecontroller_getSubEndpointVolume : 476 -> 224
+~ _volumeController_setVolumeForEndpoint : 1136 -> 620
+~ _volumeController_doesEndpointHaveSameID : 524 -> 224
+~ _volumeController_setMuteForEndpoint : 1124 -> 924
+~ _FigRoutingManagerCreateEndpointDeactivateOptions : 736 -> 360
+~ _FigRoutingManagerCreateSubEndpointAddOptions : 640 -> 264
+~ _FigRoutingManagerAggregateRemoveLocalAirPlayEndpoint : 888 -> 668
+~ _FigRoutingManagerAddEndpointToAggregate : 916 -> 408
+~ _FigRoutingManager_SetAuthorizationOnEndpoint : 760 -> 500
+~ _FigRoutingManager_HandleDidReceiveDataFromCommChannelDelegate : 972 -> 216
+~ ___FigRoutingManager_HandleDidReceiveDataFromCommChannelDelegate_block_invoke : 888 -> 580
+~ _FigRoutingManager_HandleDidCloseCommChannelDelegate : 816 -> 484
+~ _FigRoutingManagerStartDeactivateAirPlayEndpointTimer : 808 -> 276
+~ ___FigRoutingManagerStartDeactivateAirPlayEndpointTimer_block_invoke : 660 -> 352
+~ _FigRoutingManagerStopDeactivateAirPlayEndpointTimer : 352 -> 64
+~ _FigRoutingManagerCopyEndpointWithDeviceIDFromBluetoothManager : 704 -> 412
+~ _FigSTSCreate : 712 -> 364
+~ ___STSInitializeFlavorCreationState_block_invoke : 124 -> 72
+~ _STSLoadCreateFunction : 584 -> 76
+~ -[MXCoreSessionBase dealloc] : 976 -> 460
+~ -[MXCoreSessionBase wasRecentlyActivated] : 424 -> 72
+~ ___discoverer_SetProperty_block_invoke_2.47 : 376 -> 100
+~ ___discoverer_SetProperty_block_invoke_3 : 376 -> 100
+~ ___discoverer_postRoutePresentChangedIfNecessary_block_invoke : 420 -> 100
+~ _figEndpointUIAgent_Invalidate : 368 -> 64
+~ _CMSMSleep_ReleaseIdleSleepPreventorForSession : 716 -> 176
+~ _CMSMSleep_CreateIdleSleepPreventorForSession : 908 -> 364
+~ _CMSMSleep_UpdateIdleSleepPreventor : 592 -> 124
+~ _CMSMSleep_ExtendPlaybackProcessAssertion : 980 -> 484
+~ ___CMSMSleep_ExtendPlaybackProcessAssertion_block_invoke : 836 -> 412
+~ _CMSMSleep_FetchTemporaryPlaybackProcessAssertion : 924 -> 396
+~ ___CMSMSleep_FetchTemporaryPlaybackProcessAssertion_block_invoke : 856 -> 432
+~ _CMSMSleep_ReleasePlaybackProcessAssertion : 632 -> 92
+~ _CMSMSleep_ReleasePlaybackProcessAssertionsForHostProcesses : 1116 -> 912
+~ _CMSMSleep_UpdatePlaybackProcessAssertionsForHostProcesses : 528 -> 324
+~ +[MXSessionManager copyDefaultMusicAppFromPlist] : 640 -> 124
+~ -[MXSessionManager makeStarkPortRoutableForPhoneCall:] : 620 -> 196
+~ -[MXSessionManager mxCoreSessionListRemoveSession:] : 544 -> 244
+~ -[MXSessionManager addSessionThatWantsToSuspendNeroScreenMirroring:] : 496 -> 196
+~ -[MXSessionManager removeSessionThatWantsToSuspendNeroScreenMirroring:] : 564 -> 264
+~ -[MXSessionManager updateNeroScreenState:suspendScreen:] : 476 -> 152
+~ -[MXSessionManager ringerIsOnChanged:] : 400 -> 100
+~ -[MXSessionManager(DuckingUtilities) getUpdatedDuckVolume:outDuckVolume:] : 712 -> 216
+~ -[MXSessionManager(DuckingUtilities) addDuckerToSession:duckerSession:duckingSource:] : 1684 -> 420
+~ -[MXSessionManager(DuckingUtilities) removeDuckerForSession:sessionCausingUnduck:duckingSource:outLastDuckingSourceWasRemoved:] : 2192 -> 616
+~ -[MXSessionManager(DuckingUtilities) areDuckerAndDuckeePlayingOnDifferentVADs:duckerSession:] : 656 -> 424
+~ -[MXSessionManager(DuckingUtilities) unduckVolume:sessionCausingUnduck:duckingSource:] : 976 -> 728
+~ -[MXSessionManager(DuckingUtilities) isSessionDucked:duckingSource:] : 644 -> 324
+~ -[MXSessionManager(DuckingUtilities) unduckSessionsForDucker:] : 880 -> 584
+~ _CelesteGetRegionSpecificVolumeLimit : 760 -> 232
+~ _CMSMUtility_ClearOverridesForPhoneCallSessions : 824 -> 380
+~ _CMSMUtility_IsAirPlayVideoActive : 524 -> 260
+~ _CMSMUtility_AllowedToUseGPSInBackground : 360 -> 68
+~ _CMSMUtility_GetVoiceOverDuckFadeDuration : 636 -> 120
+~ _CMSMUtility_PrintRouteDescriptions : 620 -> 16
+~ _CMSMUtility_UpdateAudioBehaviourForSessionsUsingRoutingContextUUID : 560 -> 284
+~ _CMSMUtility_UpdateAudioBehaviourForVoiceOverSessions : 596 -> 348
+~ _CMSMUtility_SomeSessionIsActiveThatPrefersNoInterruptionsByRingtonesAndAlerts : 500 -> 276
+~ _CMSMUtility_HandOverInterruptionsToSession : 660 -> 348
+~ _CMSMUtility_AudioToolboxHandleInterruptionCommandWithMXSessionID : 672 -> 424
+~ _CMSMUtility_CopyActiveCoreSessionsShadowingAudioSessionID : 648 -> 368
+~ _CMSMUtility_PostNotifyStyleFadeOutAppliedForPlaybackHandoff : 424 -> 108
+~ _CMSMUtility_PostNotifyStyleFadeInAppliedForPlaybackHandoff : 424 -> 108
+~ _CMSMUtility_ApplyPIDToInheritAppStateFrom : 1348 -> 836
+~ _CMSMUtility_IAPShouldPauseOnHeadphoneDisconnect : 424 -> 132
+~ _CMSMUtility_IAPAppProcessIDIsUsingAccessory : 840 -> 136
+~ _CMSMUtility_VibrationPatternIsActuallyGoingToVibe : 764 -> 204
+~ _CMSMUtility_TransferVolumeControlFlagToSharePlayCapableMediaSession : 980 -> 384
+~ _CMSMUtility_TransferVolumeControlFlagToSharePlayCapableCallSession : 808 -> 288
+~ _CMSMUtility_SetMediaPlaybackVolumeToCurrentPhoneCallVolume : 816 -> 596
+~ _CMSMUtility_SetPhoneCallVolumeToCurrentMediaPlaybackVolume : 828 -> 592
+~ _CMSMUtility_InterruptAudioSessionIDForHandoff : 712 -> 724
+~ -[MXCoreSessionSidekick(InternalUse) _activate] : 1216 -> 932
+~ -[MXCoreSessionSidekick(InternalUse) isCategoryValid:] : 456 -> 104
+~ -[MXCoreSessionSidekick(InternalUse) isModeValidForCategory:] : 576 -> 220
+~ _CMSMAP_DisconnectAllAirPlaySessions : 420 -> 128
+~ ___CMSMAP_StartDisconnectAirPlayScreenTimer_block_invoke : 412 -> 76
+~ _cmsmap_DisconnectAirPlayScreenIfIdle : 1504 -> 724
+~ ___CMSMAP_StopDisconnectAirPlayScreenTimer_block_invoke : 348 -> 64
+~ ___CMSMAP_StartRouteAwayFromAirPlayHandoffTimer_block_invoke : 484 -> 156
+~ ___CMSMAP_StopRouteAwayFromAirPlayHandoffTimer_block_invoke : 348 -> 64
+~ _CMSMAP_GetAirPlayDeviceVolume : 960 -> 760
+~ _FigSTSServerStart : 472 -> 104
+~ _OUTLINED_FUNCTION_5 : 20 -> 36
+~ _OUTLINED_FUNCTION_13 : 16 -> 12
+~ _FigRoutingManagerSendCarPlayDuckCommand : 1328 -> 728
+~ _FigRoutingManagerStartCarPlayAudioMainPortPublishingCheckTimer : 808 -> 276
+~ ___FigRoutingManagerStartCarPlayAudioMainPortPublishingCheckTimer_block_invoke : 676 -> 380
+~ _FigRoutingManagerStopCarPlayAudioMainPortPublishedCheckTimer : 352 -> 64
+~ _FigRoutingManagerProcessCarPlayEndpointDeactivation : 452 -> 200
+~ ___remoteSTS_EnsureClientEstablished_block_invoke : 176 -> 124
+~ _FigPredictedRouting_StopPreemptivePortChangedTimer : 936 -> 728
+~ _FigPredictedRouting_MuteSessionIfPreemptivePortChanged : 644 -> 428
+~ ___remoteXPCRouteDiscoverer_CopyAvailableEndpoints_block_invoke : 452 -> 112
+~ _singletonVolumeController_Finalize : 288 -> 4
+~ _singletonVolumeController_handleRemoteVolumeControllerNotifications : 376 -> 84
+~ _OUTLINED_FUNCTION_35 : 28 -> 32
+~ _FigSystemControllerStartServer : 468 -> 416
+~ _FigRouteDescriptorArrayCopySuccinctDescription : 276 -> 228
+~ _MXSessionSetProperties : 564 -> 512
+~ _MXSessionSetOrderedProperties : 560 -> 508
+~ _MXSessionBeginInterruption : 812 -> 760
+~ _MXSessionBeginInterruption_WithFlags : 820 -> 768
+~ _MXSessionEndInterruption : 852 -> 800
+~ _MXSessionEndInterruption_WithInterruptionNotification : 860 -> 808
+~ _MXSessionEndInterruption_WithSecTaskAndStatus : 856 -> 804
+~ _MXIsTypeOfSession : 508 -> 84
+~ _MXSessionAddResource : 536 -> 484
+~ _MXSessionRemoveResource : 516 -> 464
+~ _FigStarkModeChangeGetActions : 2040 -> 812
+~ _fsm_setupStarkModeActionMap : 1180 -> 620
+~ _fsm_getFigStarkModeTransferPriorityEncodingFromCFArray : 484 -> 224
+~ _fsm_getFigStarkModeConstraintEncodingFromCFArray : 516 -> 264
+~ _systemController_Finalize : 372 -> 88
+~ _systemController_CopyVolumeCategoryAndMode : 404 -> 84
+~ _systemController_SetInputMute : 376 -> 76
+~ _systemController_GetInputMute : 372 -> 72
+~ _systemController_ClearUplinkMutedCache : 340 -> 44
+~ _systemController_SetSilentMode : 424 -> 96
+~ _systemController_GetVolumeButtonDelta : 364 -> 68
+~ ___fsc_createPropertyMappingDicts_block_invoke : 3064 -> 2800
+~ -[AVSystemController changeActiveCategoryVolumeBy:fallbackCategory:resultVolume:affectedCategory:] : 584 -> 260
+~ -[AVSystemController changeActiveCategoryVolume:fallbackCategory:resultVolume:affectedCategory:] : 608 -> 280
+~ -[AVSystemController setActiveCategoryVolumeTo:fallbackCategory:resultVolume:affectedCategory:] : 584 -> 264
+~ -[AVSystemController setActiveCategoryVolumeTo:] : 376 -> 48
+~ -[AVSystemController changeActiveCategoryVolumeBy:forRoute:andDeviceIdentifier:] : 552 -> 232
+~ -[AVSystemController changeActiveCategoryVolume:forRoute:andDeviceIdentifier:] : 584 -> 252
+~ -[AVSystemController setActiveCategoryVolumeTo:forRoute:andDeviceIdentifier:] : 552 -> 232
+~ -[AVSystemController getActiveCategoryVolume:andName:forRoute:andDeviceIdentifier:] : 540 -> 224
+~ -[AVSystemController changeVolumeForRouteBy:forCategory:mode:route:deviceIdentifier:andRouteSubtype:] : 584 -> 248
+~ -[AVSystemController changeVolumeForRoute:forCategory:mode:route:deviceIdentifier:andRouteSubtype:] : 608 -> 268
+~ -[AVSystemController setVolumeForRouteTo:forCategory:mode:route:deviceIdentifier:andRouteSubtype:] : 584 -> 248
+~ -[AVSystemController setVolume:category:mode:route:deviceIdentifier:routeSubtype:rampUpwardDuration:rampDownwardDuration:] : 636 -> 276
+~ -[AVSystemController setVolume:category:mode:route:deviceIdentifier:routeSubtype:rampUpDuration:rampDownDuration:] : 628 -> 280
+~ -[AVSystemController setVolume:category:mode:route:deviceIdentifier:routeSubtype:rampUpDuration:rampDownDuration:retainFullMute:] : 652 -> 284
+~ -[AVSystemController getVolumeForRoute:forCategory:mode:route:deviceIdentifier:andRouteSubtype:] : 564 -> 240
+~ -[AVSystemController getVolume:category:mode:route:deviceIdentifier:routeSubtype:] : 556 -> 232
+~ -[AVSystemController toggleActiveCategoryMuted] : 492 -> 204
+~ -[AVSystemController toggleActiveCategoryMutedForRoute:andDeviceIdentifier:] : 528 -> 220
+~ -[AVSystemController getActiveCategoryMuted:forRoute:andDeviceIdentifier:] : 564 -> 248
+~ -[AVSystemController changeVolumeBy:forCategory:] : 540 -> 220
+~ -[AVSystemController changeVolume:forCategory:mode:] : 576 -> 252
+~ -[AVSystemController setVolumeTo:forCategory:retainFullMute:] : 556 -> 232
+~ -[AVSystemController setVolumeTo:forCategory:mode:] : 544 -> 232
+~ -[AVSystemController setPickedRouteWithPassword:withPassword:] : 564 -> 252
+~ -[AVSystemController routeForCategory:] : 504 -> 188
+~ -[AVSystemController hasRouteSharingPolicyLongFormVideo:] : 484 -> 176
+~ -[AVSystemController shouldClientWithAudioScore:hijackRoute:hijackDeniedReason:] : 468 -> 196
+~ -[MXNowPlayingAppManager setWriteNowPlayingAppToDiskTimer:] : 372 -> 100
+~ -[MXNowPlayingAppManager writeNowPlayingAppInfoToDisk] : 356 -> 88
+~ ___59-[MX_GEOCountryConfigurationObserver getCurrentCountryCode]_block_invoke : 608 -> 88
+~ _FigRoutingManagerCreateAndActivateAggregateEndpointForLocalPlayback : 416 -> 140
+~ _FigRoutingManagerCopyEndpointToAutoConnect : 484 -> 180
+~ _FigRoutingManagerProcessEndpointToAutoconnect : 2196 -> 1676
+~ _routingManager_updateSmartRoutingBackoffTimer : 1308 -> 1104
+~ _routingManager_processPickEndpoints : 3544 -> 2944
+~ _FigRoutingManagerCopyAirPlayEndpointsInUseForFeatures : 1004 -> 756
+~ _routingManager_preprocessPickEndpoint : 5024 -> 4824
+~ _routingManager_validateAndCopyLeaderContextForPickingRouteDescriptor : 1212 -> 244
+~ _FigRoutingManagerPickEndpointsForContext : 5344 -> 4184
+~ _FigRoutingManager_iOSAddEndpointToContext : 5068 -> 4848
+~ _FigRoutingManager_iOSRemoveEndpointFromContext : 4212 -> 3764
+~ _routingManager_processAddAirPlayEndpoint : 2276 -> 1844
+~ _volumeControllerServer_getClientInfo : 360 -> 100
+~ _OUTLINED_FUNCTION_5 : 56 -> 12
+~ _fvGetVibeSynthIsAvailable : 868 -> 120
+~ _FigVibratorPostNotification : 348 -> 68
+~ _vaeCopyModelUIDForPort : 668 -> 444
+~ _vaeIsAvailableForVoicePrompts : 708 -> 428
+~ _vaePartnerRouteRoutable : 120 -> 128
+~ _vaeRequestOwnershipOnBTPort : 2644 -> 2664
+~ _vaeDoesPortSupportMultipleConnections : 392 -> 60
+~ _vaeIsInEarStatusTrueForBTPort : 720 -> 444
+~ _vaeGetBluetoothListeningMode : 716 -> 444
+~ _vaeGetBluetoothSpatialAudioMode : 712 -> 444
+~ _vaeGetBluetoothAlternateTransport : 716 -> 444
+~ _vaeDoesPortSupportStereoHFP : 928 -> 452
+~ _vaeGetSupportedBluetoothListeningModes : 684 -> 444
+~ _vaeSetPortAvailableForVoicePrompts : 724 -> 448
+~ _vaeSetBTLowLatencyMode : 608 -> 100
+~ _vaeGetDestinationVolumeScalarFactor : 724 -> 484
+~ _vaeMakePortRoutable : 412 -> 96
+~ __VAEndpoint_Finalize : 340 -> 56
+~ __VAEndpoint_ActivateWithCompletionCallback : 2172 -> 1944
+~ __VAEndpoint_DeactivateWithCompletionCallback : 1636 -> 1340
+~ _CMSM_IDSServer_StartAutomaticOwnershipTransferToPhoneTimer : 364 -> 84
+~ _cmsm_IDSServer_ProcessRemotePlayingInfoQueryMessage : 348 -> 76
+~ _cmsm_IDSServer_ProcessLocalIsPlayingStartMessage : 1036 -> 296
+~ _cmsm_IDSServer_ProcessLocalIsPlayingDoneMessage : 732 -> 196
+~ ___PowerManager_InitializeCPMSForHaptics_block_invoke : 564 -> 268
+~ _FVSynthEngine_SendVibeStoppedNotification : 480 -> 204
+~ ___FVSynthEngine_SendVibeStoppedNotification_block_invoke : 356 -> 100
+~ ___42+[MXSessionManagerSidekick sharedInstance]_block_invoke : 360 -> 76
+~ -[MXSessionManagerSidekick registerMXCoreSessionSidekick:] : 856 -> 284
+~ -[MXSessionManagerSidekick unregisterMXCoreSessionSidekick:] : 1000 -> 200
+~ _copyMeasuredHDMILatencyFromDisk : 688 -> 180
+~ _updateMeasuredHDMILatencyOnCoreAnimationAndHAL : 476 -> 160
+~ _writeMeasuredHDMILatencyToDisk : 608 -> 392
+~ ___remoteXPCRoutingContext_DeadConnectionCallback_block_invoke : 352 -> 68
+~ ___remoteXPCRoutingContext_handleCompletionCallback_block_invoke : 412 -> 136
+~ _routingContextRemoteXPC_SendData : 316 -> 304
+~ _routes_logEndpoints : 576 -> 276
+~ _routingContextResilientRemote_forwardNotificationFromRemoteContext : 684 -> 156
+~ ___routingContextResilientRemote_compareAndSwapRemoteContext_block_invoke : 780 -> 272
+~ ___routingContextResilientRemote_copySharedAudioContext_block_invoke : 496 -> 216
+~ _cmsmCopyQuiesceableWiredPortsForRouteConfiguration : 996 -> 376
+~ _cmsmCopyPickableQuiesceableWiredPortsForRouteConfiguration : 564 -> 68
+~ _cmsmAddBTDetailsFromBTEndpointToRouteDescription : 1080 -> 776
+~ _cmsmCreateNonConnectedBTRouteDescription : 1040 -> 568
+~ _cmsmCopyActiveNonQuiesceablePortsForRouteConfigurationScopeAndDevice : 996 -> 796
+~ _cmsmUnpickQuiesceableWiredPortsRoutes : 616 -> 400
+~ _cmsmUnpickWirelessRoutes : 1200 -> 760
+~ _cmsmCopyCurrentActiveRoutesInfoForVADUID : 968 -> 204
+~ _cmsmCopyCurrentActiveRouteTypes : 348 -> 60
+~ _cmsmCopyCurrentActiveRouteTypeAtIndex : 408 -> 152
+~ _cmsmInputPortIsConnectedForRouteConfiguration : 1464 -> 180
+~ _cmsmIsDeviceIDIncludedInCarBluetoothIDs : 776 -> 188
+~ _cmsCopySubPortPreferencesAndInputOverride : 1292 -> 820
+~ _cmsmLoadAudioToolboxRoutinesOnce : 332 -> 60
+~ ___CMSMDebugUtility_RegisterForCACentralStateDumping_block_invoke_2 : 900 -> 696
+~ -[MXRoutingContextCallbackHelper initWithRoutingContext:routeConfigUpdateID:callback:context:] : 636 -> 336
+~ -[MXRoutingContextCallbackHelper dealloc] : 396 -> 112
+~ _FigRoutingContextCreateVideoContext : 348 -> 16
+~ _FigRoutingContextCreatePerAppSecondDisplayContext : 348 -> 16
+~ _FigRoutingContextCopySidePlayContext : 324 -> 12
+~ _FigRoutingContextCopySystemRemotePoolContext : 324 -> 12
+~ _FigRoutingContextCopySystemAudioInputContext : 324 -> 12
+~ _FigRoutingContextCopySystemRemoteDisplayContext : 324 -> 12
+~ _FigRoutingContextCreateControlChannelOnlyContext : 348 -> 16
+~ _FigRoutingCopyDisplayMenuVideoContext : 324 -> 12
+~ ___routingContext_Finalize_block_invoke : 348 -> 76
+~ ___routingContext_CopyProperty_block_invoke : 1804 -> 456
+~ _routingContext_collectPickedEndpoints : 1556 -> 872
+~ _routingContext_CopySelectedRouteDescriptor : 520 -> 228
+~ _routingContext_SelectRouteDescriptors : 608 -> 320
+~ _routingContext_CopySelectedRoutes : 760 -> 452
+~ _routingContext_CopySelectedRouteForRemoteControl : 584 -> 288
+~ _routingContext_RemoveFromSelectedRouteDescriptors : 1012 -> 772
+~ _routingContext_CreateCommChannel : 588 -> 292
+~ _routingContext_ResetPredictedSelectedRouteDescriptor : 484 -> 188
+~ _routingContext_CopySelectedBufferedEndpointForTesting : 584 -> 284
+~ ___routingContext_SelectRoute_block_invoke : 500 -> 244
+~ ___routingContext_CopyRoute_block_invoke : 416 -> 116
+~ _routingContext_sendDataCompletionCallback : 604 -> 400
+~ _routingContext_sendCommandCompletionCallback : 604 -> 400
+~ +[MXSystemController(Common) updateMXSystemControllerList] : 644 -> 104
+~ _mxSystemMirroring_iOSDeactivateEndpoint : 2088 -> 1656
+~ _mxSystemMirroring_handleEndpointFailedDelegate : 604 -> 232
+~ _mxSystemMirroring_iOSEndpointDeactivateCompletionCallback : 452 -> 208
+~ _MXSystemRemotePool_AddEndpointToContext : 500 -> 248
+~ _MXSystemRemotePool_RemoveEndpointFromContext : 500 -> 248
+~ _mxSystemRemotePool_handleAuthorizationRequiredDelegate : 1548 -> 1140
+~ _mxSystemRemotePool_handleEndpointFailedDelegate : 580 -> 200
+~ _routingManagerSystemRemotePool_sendDataCompletionCallback : 624 -> 420
+~ _MXSystemRemotePool_CloseCommChannel : 1332 -> 768
+~ ___35-[MX_HIDEventObserver handleEvent:]_block_invoke : 476 -> 148
+~ _MX_RunningBoardServices_StopMonitoringForPID : 1592 -> 936
+~ _mx_runningBoardServices_removePIDFromApplicationStateCache : 644 -> 432
+~ _MX_RunningBoardServices_InvalidateAssertion : 888 -> 672
+~ _MX_RunningBoardServices_InvalidatePlaybackAssertionsContainingSessionID : 1944 -> 1136
+~ ___mx_runningBoardServices_createAndStoreAssertionForPIDWithInvalidationHandler_block_invoke : 700 -> 472
+~ _CMSUtility_PlaysToCarAltAudio : 720 -> 124
+~ _CMSMUtility_GetCurrentAudioDestinationForVoiceOverSession : 84 -> 120
+~ _CMSMUtility_AreVADsRoutedToTheSamePhysicalDevice : 812 -> 280
+~ _CMSUtility_AreSessionsRoutedToTheSamePhysicalDevice : 72 -> 176
+~ _CMSUtilityPredicate_ShouldDuck : 824 -> 312
+~ _CMSUtility_CopyDuckableSessionsPlayingToDefaultVAD : 416 -> 400
+~ _CMSUtility_IsDisruptiveWhenGoingActive : 540 -> 232
+~ _CMSUtility_IsAllowedToStopOthers : 2652 -> 1212
+~ _CMSUtility_HasAssertionsToStartNonMixablePlayback : 432 -> 152
+~ _CMSUtility_IsAllowedToStopThisSession : 416 -> 72
+~ _cmsutility_hasAssertionsToStartMixablePlayback : 956 -> 252
+~ _cmsutility_hasAssertionsToStartMixableRecording : 956 -> 252
+~ _CMSUtility_DoesSessionActuallyPlayAudio : 600 -> 388
+~ _CMSUtility_IsSessionAllowedToInterruptCurrentlyAirPlayingNowPlayingSession : 500 -> 132
+~ _CMSUtility_FetchGPSEntitlementForSessionWithPID : 380 -> 120
+~ _CMSUtility_IsNonIDSClientActiveOnDestination : 124 -> 180
+~ _CMSUtility_GetUserVolume : 732 -> 220
+~ _CMSUtility_CopyCurrentCategoryAndDeviceRoute : 796 -> 404
+~ _CMSUtility_ShouldInterrupt : 8260 -> 3664
+~ _CMSUtility_ShouldSessionToInterruptHandOverDucking : 436 -> 64
+~ _CMSUtility_IsPlayingToSystemSoundLocalVAD : 48 -> 116
+~ _CMSUtility_IsPlayingToSystemSoundRemoteVAD : 48 -> 116
+~ _CMSUtility_PlaysToCarMainAudio : 940 -> 424
+~ _CMSUtility_ShouldBorrowCarMainAudio : 756 -> 772
+~ _CMSUtility_PostInterruptionCommandNotification : 2148 -> 1000
+~ _CMSUtilityApplier_ResumeWaitingLockStopper : 1756 -> 1020
+~ _CMSUtilityApplier_PostNotification_StopCommandWithReason : 960 -> 252
+~ _CMSUtilityApplier_PostNotificationToBackgroundedSession_StopCommand : 984 -> 568
+~ _CMSUtilityApplier_PostNotificationToLockStoppers_StopCommand : 984 -> 568
+~ _CMSUtilityApplier_PostNotification_PauseCommand : 900 -> 688
+~ _CMSUtility_StopReporterWithAudioStatistics : 708 -> 484
+~ _CMSUtility_InterruptSessionForSecureMicrophonePolicy : 680 -> 160
+~ _CMSUtility_StartReporterWithAudioStatistics : 704 -> 480
+~ _CMSUtility_SendSessionReinterruptionDisallowedEventToAudioStatistics : 712 -> 340
+~ _CMSUtility_GetVolumeDeltaIfRoutedToThirdPartyTV : 508 -> 196
+~ _CMSUtility_GetWantsAutomaticClusterPairingOnPlaybackStart : 564 -> 248
+~ _CMSUtility_CopyCurrentRouteTypeAtIndex : 144 -> 196
+~ _CMSUtility_SomeOtherPrimaryAudioCategoryClientIsPlaying : 828 -> 312
+~ -[MX_NetworkObserver networkPathUpdate:] : 1520 -> 840
+~ ___47-[MX_NetworkObserver isCarrierNetworkReachable]_block_invoke : 348 -> 20
+~ _figEndpointDescriptorUtility_addBTDetailsToDescriptor : 1216 -> 976
+~ _figEndpointDescriptorUtility_setAirPlayFeatures : 516 -> 228
+~ _figEndpointDescriptorUtility_setAirPlayRouteSubType : 1004 -> 756
+~ -[MXSession(InternalUse) setPreferredNumberOfOutputChannels:] : 464 -> 48
+~ -[MXSession(InternalUse) setPreferredAudioHardwareFormat:] : 536 -> 188
+~ -[MXSession(InternalUse) setPreferredOutputSampleRate:] : 480 -> 68
+~ -[MXSession(InternalUse) postIsMutedDidChange] : 440 -> 168
+~ ___46-[MXSession(InternalUse) postIsMutedDidChange]_block_invoke : 576 -> 184
+~ +[MXSession(InternalUse) isCoreSessionFormatValidForMaxOutputChannels:] : 364 -> 88
+~ -[MXSession(InterfaceImpl) _dealloc] : 1444 -> 1392
+~ ___36-[MXSession(InterfaceImpl) _dealloc]_block_invoke : 1024 -> 264
+~ _OUTLINED_FUNCTION_8 : 16 -> 12
+~ -[MXSessionManager(VAUtilities) getQuiesceableWiredPortAutoRouteOnConnectPreference:] : 1084 -> 884
+~ -[MXSessionManager(VAUtilities) setQuiesceableWiredPortPreference:autoRouteOnConnect:] : 868 -> 668
+~ ___PVMInitialize_block_invoke : 84 -> 4264
+~ _pvmUpdate100dBVolumeLimit : 700 -> 456
+~ _PVMSetCurrentPreferredVolumeWithRefCon : 544 -> 252
+~ _pvmSetVolumePref : 1424 -> 720
+~ _PVMGetRawVolumeForCurrentRouteFromVolume : 512 -> 288
+~ _PVMSetCurrentPreferredVolumeForDeviceRoute : 940 -> 416
+~ _PVMGetCurrentPreferredVolumeForDeviceRoute : 832 -> 304
+~ _PVMSetCurrentCategoryAndMode : 736 -> 456
+~ _pvmSetVolumePreferenceInternal : 888 -> 528
+~ _PVMSetVolumeLimit : 1116 -> 444
+~ _pvmReassertAllPreferredVolumesForRoute : 580 -> 112
+~ _PVMGetVolumeLimit : 640 -> 124
+~ _PVMIsOKToMuteCurrentCategory : 424 -> 124
+~ _PVMGetVolumeMultiplier : 1316 -> 176
+~ _PVMGetThirdPartyVolumeMultiplier : 612 -> 108
+~ _PVMApplyVolumeReductionToHeadphoneRoutes : 2640 -> 2132
+~ _PVMSetVibeIntensityPreference : 544 -> 192
+~ _pvmWritePrefs : 2280 -> 504
+~ _PVMGetVibeIntensityPreference : 416 -> 132
+~ _PVMSetInputVolumePreference : 812 -> 264
+~ _PVMGetInputVolumePreference : 488 -> 164
+~ _pvmApplierFunction_CopyValidatedVolumes : 420 -> 160
+~ _pvmApplierFunction_ValidateVolumesForRoute : 452 -> 172
+~ _pvmGetMappedBluetoothRouteWithDeviceIDAppended : 472 -> 176
+~ _pvmGet100dBVolumeLimit : 408 -> 144
+~ _pvmSetSystemSoundVolumeMultiplierForVolumeGuts : 1212 -> 288
+~ _pvmReassertVolume : 868 -> 268
+~ _cmscreenSetCurrentState : 384 -> 72
+~ _CMScreenSetMirroringMode : 700 -> 212
+~ _CMScreenSetVirtualDisplayClientPID : 700 -> 496
+~ ___CMScreenHandleActivation_block_invoke : 892 -> 424
+~ ___CMScreenHandleDeactivation_block_invoke : 556 -> 284
+~ ___CMScreenResumeStream_block_invoke : 1136 -> 1084
+~ _CMSM_IDSClient_Initialize : 576 -> 88
+~ -[CMSM_IDSClient service:account:identifier:didSendWithSuccess:error:] : 556 -> 336
+~ _CMSM_IDSClient_SendNotificationMessage : 1900 -> 1448
+~ _CMSM_IDSClient_ReplyToRemote_PlayingInfo : 604 -> 336
+~ _CMSMVAUtility_CopyFigIODeviceNameFromVADPortTypes : 664 -> 276
+~ _CMSMVAUtility_GetVADOutputPortTypeFromFigRouteName : 412 -> 80
+~ _CMSMVAUtility_GetVADInputPortTypeFromFigRouteName : 412 -> 80
+~ _CMSMVAUtility_MakeConnectedPortRoutable : 916 -> 84
+~ _CMSMVAUtility_MakeNewlyConnectedWirelessPortsRoutableForEndpoint : 1048 -> 804
+~ _CMSMVAUtility_GetPortOfTypeInArray : 692 -> 172
+~ _CMSMVAUtility_GetUIDFromRouteDescription : 356 -> 24
+~ _CMSMVAUtility_CreatePerAppAirPlayVADWithHandOffPort : 964 -> 476
+~ _CMSMVAUtility_DestroyPerAppAirPlayVAD : 492 -> 220
+~ _CMSMVAUtility_OverrideToPartnerPort : 520 -> 280
+~ _CMSMVAUtility_RouteDefaultVADToCarPlayIfNecessary : 492 -> 120
+~ ___routingSessionManagerRemote_ensureClientEstablished_block_invoke : 496 -> 168
+~ _routingSessionManagerRemote_DeadConnectionCallback : 476 -> 188
+~ _routingSessionManagerRemote_Finalize : 444 -> 136
+~ _FigRoutingContextStartServer : 516 -> 192
+~ _OUTLINED_FUNCTION_27 : 32 -> 12
+~ _OUTLINED_FUNCTION_33 : 28 -> 24
+~ _CMSM_IDS_Initialize : 692 -> 88
+~ _routingSessionManagerResilientRemote_forwardNotificationFromRemoteManager : 408 -> 24
+~ _cmsmdevicestate_UpdateRingerIsOn : 396 -> 128
+~ _cmsmdevicestate_UpdateVibrationDisabledFlag : 424 -> 104
+~ _CMSMDeviceState_ScreenIsBlankedByProximitySensor : 28 -> 92
+~ ___cmsmdevicestate_RegisterForDeviceIsChargingNotification_block_invoke : 764 -> 248
+~ ___cmsmdevicestate_RegisterForScreenIsBlankedNotification_block_invoke : 348 -> 100
+~ ___cmsmdevicestate_RegisterForScreenIsBlankedByProximitySensorNotification_block_invoke : 312 -> 80
+~ ___cmsmdevicestate_RegisterForRingerIsOnNotification_block_invoke : 672 -> 448
+~ _cmsmdevicestate_ButtonsCanChangeRingerVolumeChangedNotificationCallback : 304 -> 4
+~ _MXBluetoothServices_RegisterForAudioRoutingChanged : 388 -> 84
+~ _MXBluetoothServices_RegisterForPreemptivePortChanged : 536 -> 336
+~ _MXBluetoothServices_RegisterForPreemptivePortDisconnected : 536 -> 336
+~ ___mxBluetoothServices_loadFramework_block_invoke : 612 -> 136
+~ _PowerManager_InitializeCPMSForAudio : 2248 -> 1556
+~ ___PowerManager_InitializeCPMSForAudio_block_invoke : 564 -> 268
+~ _CMSystemSoundMgr_Initialize : 9612 -> 6428
+~ _cmsmPrewarmVibeForSSID : 1728 -> 1316
+~ _CMSystemSoundMgr_StopSystemSoundsforPID : 556 -> 360
+~ _CMSystemSoundMgr_SystemSoundMustBeHeard : 92 -> 100
+~ _CMSessionMgrCopySystemSoundAudioBehavior : 3304 -> 1808
+~ _cmsmSystemSoundDidFinishGuts : 3456 -> 2260
+~ ___CMSessionMgrVibratorStopWithOptions_block_invoke : 336 -> 8
+~ _cmsmWordyToCompact : 1476 -> 892
+~ _cmsmCopyDestinationsWithoutElement : 436 -> 172
+~ ___cmsmSystemSoundShouldPlay_block_invoke : 4884 -> 3272
+~ _cmsmAddPrewarmedAudioCategoriesThatMixIn : 640 -> 320
+~ _cmsmConvertToDecibelInVAD : 492 -> 252
+~ ___cmsmRunSystemSoundWatchdogForAppleTV_block_invoke : 560 -> 68
+~ ___cmsmSystemSoundDidFinishGuts_block_invoke : 364 -> 80
+~ ___cmsmVibrateForSystemSoundInternal_block_invoke : 2728 -> 740
+~ _cmsmCFDictionaryGetValueWithDefaultAsFallback : 384 -> 96
+~ -[MXSessionManager(Utilities) resetWaitingToResume:] : 572 -> 292
+~ -[MXSessionManager(Utilities) isSessionUsingBuiltInMic:] : 644 -> 368
+~ -[MXSessionManager(Utilities) isSessionAllowedToStartRecordingTemporarily:] : 396 -> 100
+~ -[MXSessionManager(Utilities) cleanupSessionAssertionsIfNeeded:cleanupReason:] : 376 -> 372
+~ ___78-[MXSessionManager(Utilities) cleanupSessionAssertionsIfNeeded:cleanupReason:]_block_invoke : 704 -> 432
+~ _FigRoutingSessionManagerCopyLongFormVideoManager : 388 -> 316
+~ _routingSessionManager_longFormVideoPlayingChanged : 348 -> 8
+~ _routingSessionManager_airPlayVideoActiveChanged : 416 -> 116
+~ _routingSessionManager_airPlayVideoPlayingChanged : 416 -> 116
+~ ___routingSessionManager_create_block_invoke : 328 -> 4
+~ _routingSessionManager_PrepareForPlayback : 1552 -> 1336
+~ ___routingSessionManager_PrepareForPlayback_block_invoke : 388 -> 20
+~ ___routingSessionManager_routeToDestinationOfCurrentSession_block_invoke : 2380 -> 1828
+~ _routingSessionManager_vendDiscoveredRoutes : 608 -> 264
+~ _routingSessionManager_updateSessionExpiration : 2484 -> 1196
+~ ___routingSessionManager_waitForRecentPredictions_block_invoke : 328 -> 4
+~ ___routingSessionManager_waitForRecentPredictions_block_invoke_2 : 712 -> 120
+~ _routingSessionManager_copyCurrentPredictedDestinations : 3344 -> 1268
+~ ___routingSessionManager_StartSuppressingLikelyDestinations_block_invoke : 328 -> 4
+~ ___routingSessionManager_StopSuppressingLikelyDestinations_block_invoke : 328 -> 4
+~ ___routingSessionManager_loadAirPlayRoutePredictionFramework_block_invoke : 588 -> 420
+~ ___routingSessionManager_predictionsForCurrentContextUpdated_block_invoke : 328 -> 4
+~ ___routingSessionManager_wifiPowerStatusChanged_block_invoke : 328 -> 4
+~ _OUTLINED_FUNCTION_17 : 32 -> 16
+~ -[MXSessionSidekick dealloc] : 1188 -> 556
+~ ___28-[MXSessionSidekick dealloc]_block_invoke : 876 -> 104
+~ -[MXSessionSidekick setOrderedProperties:usingErrorHandlingStrategy:outPropertiesErrors:] : 880 -> 824
+~ -[MXSessionSidekick copyPropertyForKey:valueOut:] : 1476 -> 320
+~ _FigRoutingSessionManagerStartServer : 764 -> 216
+~ _OUTLINED_FUNCTION_5 : 20 -> 28
+~ _endpointAggregate_CopyProperty : 752 -> 452
+~ _endpointAggregate_SetProperty : 112 -> 108
+~ ___endpointAggregate_CopyProperty_block_invoke : 484 -> 192
+~ _endpointAggregate_NotificationCallback : 1008 -> 776
+~ ___endpointAggregate_SetProperty_block_invoke : 476 -> 184
+~ ___endpointAggregate_Activate_block_invoke : 512 -> 240
+~ ___endpointAggregate_SetDelegateRouting_block_invoke : 500 -> 200
+~ ___endpointAggregate_SetDelegateRemoteControl_block_invoke : 496 -> 196
+~ _endpointAggregate_SendCommand : 116 -> 112
+~ _endpointAggregate_SendData : 116 -> 112
+~ ___endpointAggregate_SendCommand_block_invoke : 496 -> 236
+~ ___endpointAggregate_SendData_block_invoke : 496 -> 236
+~ ___endpointAggregate_AddEndpoint_block_invoke : 608 -> 320
+~ _MXCoreSessionTeardown : 2156 -> 1020
+~ _MXCoreSessionEndInterruption_WithSecTaskAndStatus : 9940 -> 7592
+~ _cmsmUpdateAppsLists : 940 -> 244
+~ _cmsmCopyPartnerPortsToMakeRoutable : 552 -> 320
+~ _cmsmStartAllowedToInitiatePlaybackTemporarilyTimer : 712 -> 456
+~ ___cmsmStartAllowedToInitiatePlaybackTemporarilyTimer_block_invoke : 604 -> 392
+~ _cmsmStartAllowedToFadeInTemporarilyTimer : 692 -> 436
+~ ___cmsmStartAllowedToFadeInTemporarilyTimer_block_invoke : 612 -> 400
+~ _cmsUpdateAllowedRouteTypes : 588 -> 332
+~ _cmsEnableBluetoothRecording : 612 -> 280
+~ _cmsUpdateExcludedPortsList : 1020 -> 328
+~ _cmsSetOverrideRoute : 2292 -> 420
+~ _cmsSetVolume : 384 -> 108
+~ _cmsmGetAndSetVolumePreferencesForNonActiveVolumeClient : 4580 -> 4068
+~ _FigPlayerCMSession_SystemWillSleep : 308 -> 8
+~ _FigPlayerCMSession_SystemWillPowerOn : 300 -> 4
+~ _MXSessionManagerFadeOutCurrentNowPlayingApp : 768 -> 552
+~ _cmsmVibeStoppedNotificationCallback : 320 -> 8
+~ ___cmsmLoadClusterSyncMgrRoutines_block_invoke : 176 -> 72
+~ ___cmsmRegisterForAudioDeviceStartNotifications_block_invoke : 2100 -> 596
+~ _cmsmGetAudioDeviceStart : 396 -> 84
+~ ___cmsmVoiceOverIsOnChangedCallback_block_invoke : 452 -> 144
+~ _FigStarkModeControllerGetCurrentResourceBorrowConstraint : 504 -> 236
+~ _FigStarkModeControllerXPCCreate : 636 -> 412
+~ _fsm_requestResourceModeChange : 2788 -> 2320
+~ ___fsm_postStateChanged_block_invoke : 656 -> 352
+~ _mxFigStarkModeController_Finalize : 532 -> 352
+~ _OUTLINED_FUNCTION_13 : 40 -> 12
+~ _FigRoutingManagerUtilities_CopySidePlayEndpoints : 480 -> 200
+~ ___FigEndpointUIAgentRemoteXPC_EnsureClientEstablished_block_invoke : 468 -> 140
+~ _remoteSystemController_SetInputMute : 488 -> 180
+~ _FigEndpointUIAgentStartServer : 708 -> 500
+~ ___CMSMNotificationUtility_PostVolumeDidChangeToVolumeButtonClientsWithPayload_block_invoke : 416 -> 136
+~ _CMSMNotificationUtility_PostCurrentOutputSampleRateDidChange : 344 -> 84
+~ _CMSMNotificationUtility_PostCurrentInputSampleRateDidChange : 344 -> 84
+~ _CMSMNotificationUtility_PostCurrentOutputDeviceBufferSizeDidChange : 344 -> 84
+~ _CMSMNotificationUtility_PostCurrentInputDeviceBufferSizeChange : 344 -> 84
+~ _CMSMNotificationUtility_PostSomeSharePlayCapableCallSessionIsActiveDidChange : 460 -> 156
+~ _CMSM_IDSConnection_AddRemotePlayingInfo : 452 -> 172
+~ _CMSM_IDSConnection_IsSomeClientPlayingOverSharedAudioRouteOnRemote : 436 -> 100
+~ _CMSM_IDSConnection_RemoveRemotePlayingInfo : 496 -> 184
+~ _CMSM_IDSConnection_ResetRemotePlayingInfo : 460 -> 160
+~ _CMSM_IDSConnection_StartWaitForRemoteToReplyWithInitialPlayingInfoTimer : 668 -> 160
+~ _CMSM_IDSConnection_RouteToSharedAudioRouteUponReceivingOwnership : 1048 -> 724
+~ ___CMSM_IDSConnection_StopWaitForRemoteToReplyWithInitialPlayingInfoTimer_block_invoke : 372 -> 100
+~ _CMSM_IDSConnection_IsWaitingForGizmoPlayingInfo : 356 -> 12
+~ _CMSM_IDSConnection_ResetWaitingForGizmoPlayingInfo : 308 -> 12
+~ _CMSM_IDSConnection_GetRemotePlayingInfo : 384 -> 88
+~ _CMSM_IDSConnection_UpdateSharedAudioRouteMacAddressOnLocal : 512 -> 244
+~ ___CMSM_IDSConnection_DelaySharedAudioRoutingUntilRemoteInitialPlayingInfoIsReceived_block_invoke_2 : 1888 -> 1668
+~ _CMSM_IDSConnection_RemovePortFromSharedAudioRoutePortIDs : 716 -> 492
+~ _CMSM_IDSConnection_WaitForReply : 860 -> 648
+~ -[CMSM_IDSConnection copyNearbyPairedDeviceUniqueID] : 400 -> 84
+~ _FigRoutingManagerInternal_CreateAirPlayAggregate : 976 -> 988
+~ _FigRoutingManagerCreateAndActivateSystemRemotePoolEndpoint : 340 -> 356
+~ _FigRoutingManagerInternal_CreateAirPlayAggregateForSystemRemotePool : 980 -> 816
+~ _FigRoutingManagerCreateAggregateForContextIfNecessary : 552 -> 576
+~ _routingManager_registerContextInternal : 708 -> 436
+~ _FigRoutingManagerRegisterContextWithUUID : 424 -> 176
+~ _FigRoutingManagerUnregisterContext : 900 -> 908
+~ _FigRoutingManagerPerformPostInitOperations : 424 -> 200
+~ _FigRoutingManagerHandleAggregateFailure : 664 -> 672
+~ -[MXCoreSessionSecure copyPropertyForKey:valueOut:].cold.1 : 124 -> 48
+~ -[MXCoreSessionSecure setPropertyForKey:value:].cold.9 : 124 -> 36
+~ _FVIOKit_PlayVibration : 2988 -> 1392
+~ _FVIOKit_PlayVibrationWithPattern : 2956 -> 1484
+~ _FVIOKit_PlayVibrationEndTimeout : 1068 -> 544
+~ _FVIOKit_StartIOServiceVibration.cold.3 : 124 -> 48
+~ _FVIOKit_StartIOServiceVibrationWithPattern.cold.3 : 124 -> 48
+~ _FVIOKit_StopVibrator.cold.1 : 124 -> 48
+~ _remoteFigStarkModeController_GetCurrentMode : 456 -> 200
+~ _remoteFigStarkModeController_RequestModeChange : 716 -> 496
+~ _remoteFigStarkModeController_RequestInitialModeChange : 812 -> 600
+~ _remoteXPCStarkModeController_GetObjectID : 172 -> 104
+~ __FigEndpointCentralSendCommand : 708 -> 296
+~ _FigEndpointCentralRequestResource : 816 -> 352
+~ _FigEndpointCentralUpdateiOSDeviceState : 432 -> 220
+~ ___central_CopyProperty_block_invoke : 824 -> 524
+~ ___central_SetProperty_block_invoke : 656 -> 348
+~ ___central_SetDelegateRemoteControl_block_invoke : 392 -> 180
+~ ___central_CreateRemoteControlSession_block_invoke : 408 -> 164
+~ ___central_CreateCommChannel_block_invoke : 408 -> 164
+~ ___central_SendData_block_invoke : 484 -> 192
+~ ___central_CloseCommChannel_block_invoke : 420 -> 176
+~ ___central_RequestScreenViewArea_block_invoke : 452 -> 164
+~ ___central_CopyCurrentScreenViewArea_block_invoke : 408 -> 164
+~ _FigEndpointCreateCentral.cold.1 : 132 -> 52
+~ ___central_SetHIDInputMode_block_invoke.cold.1 : 124 -> 44
+~ _vaemSetDeviceFormat : 2008 -> 1688
+~ __VAEndpointManager_SetProperty : 940 -> 632
+~ _FigVAEndpointManagerCreate.cold.1 : 128 -> 72
+~ -[MXSystemController(InternalUse) setAttributeForKeyInternal:andValue:].cold.1 : 124 -> 44
+~ _endpointUIAgentHelper_UIAgentCallback : 664 -> 240
+~ _FigEndpointUIAgentHelper_CleanupPrompt : 1100 -> 600
+~ _volumeController_postVolumeOperationsSupportedForRoutingContextDidChangeNotification.cold.1 : 40 -> 20
+~ _FigSTSCreate.cold.2 : 128 -> 44
+~ _figEndpointUIAgent_showError : 464 -> 488
+~ _CMSMUtility_CopyMostImportantPlayingSession : 936 -> 240
+~ _CMSMUtility_iOSWillRequestCarMainAudio : 864 -> 304
+~ _CMSMUtility_CopyFigStarkModeController.cold.1 : 112 -> 76
+~ _HandleStarkModeControllerMessage : 2780 -> 1852
+~ _FigStarkModeControllerStartServer.cold.1 : 112 -> 24
+~ _stsServer_HandleMessage : 4180 -> 1764
+~ _FigSTSCreateRemote : 840 -> 452
+~ _remoteSTS_SetActive : 568 -> 236
+~ _remoteSTS_SetPropertyByLabel : 620 -> 308
+~ _remoteSTS_CopyPropertyByLabel : 740 -> 308
+~ _remoteSTS_CopyShmem : 668 -> 244
+~ _remoteSTS_GetObjectID.cold.1 : 124 -> 48
+~ _FigRouteDiscovererRemoteXPC_CopyProperty.cold.1 : 128 -> 44
+~ _remoteXPCRouteDiscoverer_GetObjectID.cold.1 : 128 -> 44
+~ _volumeControllerRemote_ChangeMasterVolumeOfRoutingContext : 360 -> 216
+~ _volumeControllerRemote_SetMasterVolumeOfRoutingContext : 360 -> 216
+~ _volumeControllerRemote_SetVolumeOfEndpointWithID : 364 -> 204
+~ _volumeControllerRemote_GetVolumeOfEndpointWithID : 396 -> 188
+~ _volumeControllerRemote_CanSetVolumeOfEndpointWithID : 412 -> 188
+~ _volumeControllerRemote_GetVolumeControlTypeOfSubEndpointWithID : 448 -> 228
+~ _volumeControllerRemote_SetVolumeOfSubEndpointWithID : 408 -> 228
+~ _volumeControllerRemote_GetVolumeOfSubEndpointWithID : 432 -> 224
+~ _volumeControllerRemote_SetVolumeOfRoomWithID : 412 -> 252
+~ _volumeControllerRemote_GetVolumeOfRoomWithID : 476 -> 260
+~ _volumeControllerRemote_SetMuteOfRoutingContext : 412 -> 216
+~ _volumeControllerRemote_GetMuteOfRoutingContext : 400 -> 192
+~ _volumeControllerRemote_SetMuteOfEndpointWithID : 420 -> 212
+~ _volumeControllerRemote_SetMuteOfSubEndpointWithID : 496 -> 248
+~ _volumeControllerRemote_GetMuteOfSubEndpointWithID : 412 -> 224
+~ _volumeControllerRemote_CanSetMuteOfRoutingContext : 400 -> 192
+~ _volumeControllerRemote_CanSetMuteOfEndpointWithID : 376 -> 188
+~ _volumeControllerRemote_CanSetMuteOfSubEndpointWithID : 412 -> 224
+~ _volumeControllerRemote_SetVolumeOfEndpointWithRoomID : 256 -> 228
+~ _volumeControllerRemote_GetVolumeOfEndpointWithRoomID : 296 -> 224
+~ _volumeControllerRemote_getObjectID.cold.1 : 128 -> 44
+~ _volumeControllerRemote_getObjectID.cold.2 : 128 -> 44
+~ _LookupSystemControllerByObjectIDForConnection.cold.1 : 128 -> 72
+~ _routingSession_createInternal.cold.1 : 128 -> 36
+~ __MXSessionCreate.cold.2 : 124 -> 44
+~ _FigSystemControllerCreate.cold.2 : 112 -> 56
+~ -[FigRemoteRoutingContextFactory copySystemMirroringContextWithAllocator:options:context:].cold.2 : 124 -> 36
+~ _volumeControllerServer_handleGetMasterVolumeMessage : 416 -> 244
+~ _volumeControllerServer_handleGetEndpointVolumeMessage : 412 -> 232
+~ _volumeControllerServer_handleCanSetEndpointVolumeMessage : 440 -> 208
+~ _volumeControllerServer_handleGetSubEndpointVolumeControlTypeMessage : 476 -> 256
+~ _volumeControllerServer_handleSetSubEndpointVolumeMessage : 504 -> 484
+~ _volumeControllerServer_handleGetSubEndpointVolumeMessage : 472 -> 248
+~ _volumeControllerServer_handleGetRoomVolumeMessage : 280 -> 268
+~ _volumeControllerServer_handleGetEndpointWithRoomIDVolumeMessage : 276 -> 256
+~ _volumeControllerServer_handleGetMuteOfSubEndpointWithIDMessage : 276 -> 252
+~ _volumeControllerServer_handleCanSetMuteOfEndpointWithIDMessage : 216 -> 208
+~ _volumeControllerServer_handleCanSetMuteOfSubEndpointWithIDMessage : 276 -> 252
+~ _FigVibratorStopWithOptions : 536 -> 288
+~ _FigVibratorStartPrewarm : 600 -> 172
+~ _vaeCopyChannelNamesForPortAndNumberOfChannels.cold.1 : 112 -> 28
+~ _FigVAEndpointCreate.cold.1 : 128 -> 48
+~ _PowerManager_InitializeCPMSForHaptics : 1792 -> 1276
+~ _FVSynthEngine_PlayVibrationWithPatternDictionary : 1500 -> 836
+~ ___FVSynthEngine_StartVibrationWithPattern_block_invoke_2 : 636 -> 228
+~ _HDMILatencyMgr_UpdateMeasuredHDMILatency : 1012 -> 840
+~ _routingContextRemoteXPC_SetProperty : 332 -> 108
+~ _routingContextRemoteXPC_SelectRoute : 172 -> 176
+~ _routingContextRemoteXPC_AddToSelectedRoutes : 256 -> 188
+~ _routingContextRemoteXPC_RemoveFromSelectedRoutes : 256 -> 188
+~ _routingContextRemoteXPC_CloseCommChannel : 348 -> 276
+~ _routingContextRemoteXPC_CopySelectedBufferedEndpointForTesting : 144 -> 156
+~ _remoteXPCRoutingContext_GetObjectID.cold.1 : 124 -> 44
+~ _remoteXPCRoutingContext_CreateInternal.cold.1 : 124 -> 44
+~ ___routingContextRemoteXPC_EnsureClientEstablished_block_invoke.cold.3 : 124 -> 44
+~ _routingContextRemoteXPC_SendDataForDeviceID.cold.3 : 124 -> 44
+~ _FigRoutingContextResilientRemoteCreate.cold.1 : 124 -> 40
+~ _FigRoutingContextResilientRemoteCreate.cold.2 : 124 -> 28
+~ _cmsUpdateSubPortPreferences.cold.1 : 112 -> 36
+~ _routingContext_RemoveFromSelectedRoutes : 556 -> 272
+~ ___MXInitialize_block_invoke.cold.1 : 112 -> 24
+~ ___MXInitialize_block_invoke.cold.2 : 112 -> 28
+~ _CMSUtility_IsAudioCategoryPrimary.cold.1 : 112 -> 36
+~ -[MXSession(InterfaceImpl) setPropertyForKeyInternal:value:fromPropertiesBatch:].cold.9 : 124 -> 36
+~ _routingSessionManagerRemote_HandleClientMessage : 760 -> 168
+~ _routingSessionManagerRemote_dequeueAndInvokeCallback : 452 -> 200
+~ _routingSessionManagerRemote_CopyCurrentSession : 276 -> 188
+~ _routingSessionManagerRemote_StartSessionWithRouteDescriptors : 168 -> 164
+~ _routingSessionManagerRemote_getObjectID.cold.1 : 128 -> 48
+~ _routingSessionManagerRemote_getObjectID.cold.2 : 128 -> 48
+~ _FigRoutingContextXPCHandleCopySelectedRouteMessage : 416 -> 208
+~ _FigRoutingContextXPCHandleCopySelectedRoutesMessage : 604 -> 340
+~ _FigRoutingContextXPCHandleCopySelectedRouteForRemoteControlMessage : 224 -> 208
+~ _FigRoutingContextXPCHandleCreateCommChannelForDeviceIDMessage : 760 -> 476
+~ _FigRoutingContextXPCHandleSendDataForDeviceIDMessage : 652 -> 368
+~ _FigRoutingContextXPCHandleCloseCommChannelForDeviceIDMessage : 636 -> 372
+~ _FigRoutingContextXPCHandleSendCommandMessage : 588 -> 300
+~ _CreateCompletionCallbackParametersFromMessageAndConnection : 256 -> 164
+~ _SendDataCompletionCallback : 336 -> 160
+~ _SendCommandCompletionCallback : 336 -> 160
+~ _CreateRoutingContextServerState.cold.1 : 124 -> 44
+~ _FigRoutingSessionManagerResilientRemoteCopyLongFormVideoManager : 336 -> 264
+~ ___FigRoutingSessionManagerResilientRemoteCopyLongFormVideoManager_block_invoke : 568 -> 392
+~ _routingSessionManagerResilientRemote_replaceRemoteManager : 756 -> 332
+~ _CMSMNP_NowPlayingAppIsPlayingDidChangeTimerDidFinish : 340 -> 84
+~ _routingSessionManager_updateSessionFromLatestInEarHeadphones : 332 -> 296
+~ _routingSessionManager_GetPrefersLikelyDestinationsOverCurrentSession : 908 -> 848
+~ _routingSessionManager_shouldUpdateCurrentSession : 3020 -> 3044
+~ ___routingSessionManager_UpdateCurrentSessionFromLikelyDestinations_block_invoke : 1424 -> 1332
+~ _routingSessionManager_establishRoutingSessionFromCurrentRoutes : 604 -> 336
+~ ___FigRoutingSessionManagerInit_block_invoke.cold.1 : 124 -> 56
+~ _routingSessionManager_getAirPlayVideoPlaying.cold.1 : 124 -> 44
+~ ___routingSessionManager_startSessionIfNecessary_block_invoke.cold.1 : 256 -> 260
+~ ___routingSessionManager_loadAirPlayRoutePredictionFramework_block_invoke.cold.1 : 124 -> 52
+~ -[MXSessionSidekick setPropertyForKey:value:].cold.3 : 124 -> 44
+~ -[MXSessionSidekick setProperties:usingErrorHandlingStrategy:outPropertiesErrors:].cold.1 : 136 -> 56
+~ _HandleRoutingSessionManagerRemoteMessageWithReply : 3944 -> 2268
+~ _HandleRoutingSessionManagerRemoteMessageWithNoReply : 644 -> 156
+~ _CreateCompletionCallbackParametersFromMessageAndConnection : 268 -> 172
+~ _MXAggregateEndpointCreateAggregateEndpoint : 648 -> 684
+~ ___endpointAggregate_RemoveEndpoint_block_invoke : 572 -> 320
+~ _MXCoreSessionAddResource : 1060 -> 660
+~ _cmsSetClientPriority : 520 -> 412
+~ _cmsmActivateEndpointFromRouteDescription : 1476 -> 1244
+~ _CMSessionMgrRegisterEndpointManager.cold.1 : 124 -> 48
+~ _MXCoreSessionSetProperty.cold.8 : 124 -> 48
+~ _MXCoreSessionCopyProperty.cold.95 : 124 -> 48
+~ _MXCoreSessionCopyProperty.cold.104 : 124 -> 48
+~ __CMSessionMgrCopyPortDescription.cold.1 : 124 -> 48
+~ ___cmsmLoadClusterSyncMgrRoutines_block_invoke.cold.1 : 108 -> 28
+~ _fsm_requestModeChange : 2940 -> 2288
+~ _mxFigStarkModeController_RequestModeChange : 232 -> 152
+~ _mxFigStarkModeController_RequestInitialModeChange : 248 -> 160
+~ _FigStarkModeCopyController.cold.1 : 108 -> 68
+~ _figEndpointUIAgentRemoteXPC_Finalize : 428 -> 156
+~ _figEndpointUIAgentRemoteXPC_deviceWakeStatus : 372 -> 148
+~ _figEndpointUIAgentRemoteXPC_setPasswordFromKeychain : 172 -> 168
+~ _remoteXPCendpointAgent_GetObjectID.cold.1 : 128 -> 48
+~ _remoteXPCendpointAgent_GetObjectID.cold.2 : 128 -> 48
+~ _remoteSystemController_CopyVolumeCategoryAndMode : 844 -> 272
+~ _remoteSystemController_ShouldHijackAudioRoute : 268 -> 252
+~ _remoteSystemController_ToggleInputMute : 380 -> 148
+~ _remoteSystemController_GetInputMute : 556 -> 284
+~ _remoteSystemController_allowAppToInitiateRecordingTemporarily : 172 -> 168
+~ _remoteSystemController_invalidateMediaEndowment : 172 -> 168
+~ _remoteSystemController_SetSilentMode : 276 -> 268
+~ _remoteSystemController_getObjectID.cold.1 : 124 -> 48
+~ _remoteSystemController_SetInputMute.cold.1 : 164 -> 172
+~ _HandleEndpointUIAgentRemoteMessage : 3624 -> 2124
+~ _FigEndpointUIAgentCopyCurrentEndpointUIAgent : 908 -> 300
+
+Functions (added):
++ ___vaemCurrentRouteHasVolumeControlListener_block_invoke_2
++ _OUTLINED_FUNCTION_5
++ [4 functions added in block]
++ _FigVibratorInitialize
++ _CMSUtility_CopySessionsToDuck
++ _routingSessionManager_routeConfigUpdated.cold.1
++ _cmsmInitializeCMSessionManager
+
+Functions (removed):
+- _OUTLINED_FUNCTION_49
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_45
+- _OUTLINED_FUNCTION_40
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_22
+- [7 functions removed in block]
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_6
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_52
+- -[MXSession(InterfaceImpl) copyPropertyForKeyInternal:valueOut:]
+- _routingContextUtilities_getFeatureString
+- __VAEndpointManager_CopyPropertyForAudioSessionID
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_41
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_86
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_3
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_21
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_21
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_40
+- _OUTLINED_FUNCTION_37
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_68
+- _OUTLINED_FUNCTION_49
+- _OUTLINED_FUNCTION_85
+- _OUTLINED_FUNCTION_47
+- _OUTLINED_FUNCTION_38
+- _OUTLINED_FUNCTION_84
+- _OUTLINED_FUNCTION_42
+- _OUTLINED_FUNCTION_42
+- _OUTLINED_FUNCTION_42
+- _OUTLINED_FUNCTION_34
+- _OUTLINED_FUNCTION_34
+- _OUTLINED_FUNCTION_34
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_12
+- [6 functions removed in block]
+- [9 functions removed in block]
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_66
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_10
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [8 functions removed in block]
+- [7 functions removed in block]
+- [4 functions removed in block]
+- [4 functions removed in block]
+- [7 functions removed in block]
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_25
+- _OUTLINED_FUNCTION_2
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_2
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_2
+- _vaeIsQuiesceableWiredPort
+- _cmsSetCategoryOnPVMAndAudioDevice
+- _cmsSetIsActive
+- _PVMSetCurrentState
+- _cmsBeginInterruptionGuts
+- _vaemChooseBestSampleRateForFormat
+- _vaemCalculateAndSetDeviceBufferDuration
+- _MXCoreSessionBeginInterruption_WithSecTaskAndFlags
+- _CMSUtility_IsAllowedToStartPlaying
+- ___FigRoutingManagerContextUtilities_AddCurrentlyActivatingEndpoint_block_invoke
+- ___FigRoutingManagerContextUtilities_SetPickedEndpoints_block_invoke
+- ___FigRoutingManagerContextUtilities_RemoveContext_block_invoke.67
+- ___FigRoutingContextUtilities_CreateStateInfoStringForContext_block_invoke
+- _FigRoutingManagerCreateEndpointManagers
+- _CMSMStrings_Check
+- -[MXCoreSessionSecure setPropertyForKey:value:]
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_30
+- _OUTLINED_FUNCTION_31
+- _FigStarkModeControllerRemoteCreate
+- ___FigRoutingManager_iOSEndpointActivateCompletionCallback_block_invoke
+- ___FigRoutingManager_iOSEndpointDeactivateCompletionCallback_block_invoke
+- ___routingManager_handleFigEndpointDeactivatedNotification_block_invoke
+- _routingManager_handleEndpointFailedNotification
+- _FigEndpointCreateCentral
+- _central_HandleCarModeStateChange
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_33
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_24
+- _OUTLINED_FUNCTION_30
+- [8 functions removed in block]
+- -[MXSystemController applyPIDToInheritAppStateFrom:]
+- _FigVolumeControllerAddAirPlayVolumeNotificationListeners
+- _volumeController_SetVolumeForEndpointWithID
+- _volumeController_setMainVolume
+- _FigRoutingManagerAggregateAddLocalAirPlayEndpoint
+- _FigRoutingManager_HandleEndpointFailed
+- _FigRoutingManager_HandleAuthorizationRequiredDelegate
+- _OUTLINED_FUNCTION_5
+- -[MXSessionManager(DuckingUtilities) duckVolume:duckerSession:duckingSource:]
+- -[MXSessionManager(DuckingUtilities) shouldDuckSessionForSpeakerVolumeLimit:]
+- -[MXCoreSessionSidekick(InternalUse) _setPropertyForKey:value:]
+- ___FigRoutingManagerSendCarPlayDisableBluetoothCommand_block_invoke
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_51
+- [17 functions removed in block]
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_17
+- _fsm_translatePreviousOrCurrentModeDict
+- _systemController_TranslateVolumeOperationName
+- -[MX_GEOCountryConfigurationObserver countryConfigurationDidChange:]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_44
+- _OUTLINED_FUNCTION_54
+- _OUTLINED_FUNCTION_55
+- _FigVibratorPlayVibrationWithDictionary
+- _OUTLINED_FUNCTION_17
+- __VAEndpoint_SetProperty
+- _vaeRouteToSelectedPort
+- _cmsm_IDSServer_ProcessRemotePlayingInfoReplyMessage
+- _OUTLINED_FUNCTION_5
+- [3 functions removed in block]
+- _remoteXPCRoutingContext_DeadConnectionCallback
+- _OUTLINED_FUNCTION_19
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_24
+- _OUTLINED_FUNCTION_30
+- _OUTLINED_FUNCTION_36
+- _mxSystemRemotePool_processAddEndpoint
+- _mxSystemRemotePool_processRemoveEndpoint
+- _MXSystemRemotePool_SendData
+- ___mxSystemRemotePool_handleEndpointFailedDelegate_block_invoke
+- _CMSUtilityApplier_PostNotification_ResumeCommand
+- _CMSUtility_UpdateAlarmBehaviorOnAccessory
+- _FigEndpointDescriptorUtility_CopyDescriptorForNonVirtualAudioEndpoint
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_13
+- _pvmInitialize
+- [3 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_31
+- [10 functions removed in block]
+- _OUTLINED_FUNCTION_5
+- _CMSMDeviceState_Initialize
+- ___PowerManager_InitializeCPMSForAudio_block_invoke_2.7
+- _cmsmDefaultVADToSystemSoundVADVolumeRatioForCurrentSystemSoundVADRoute
+- _routingSessionManager_updateConfiguration
+- ___routingSessionManager_PrepareForPlayback_block_invoke.117
+- _routingSessionManager_updateCurrentSession
+- ___routingSessionManager_waitForRecentPredictions_block_invoke.202
+- ___routingSessionManager_startSessionIfNecessary_block_invoke
+- -[MXSessionSidekick setIsPlaying:]
+- -[MXSessionSidekick setPropertyForKey:value:]
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_9
+- _cmsmInitializeCMSessionManager
+- [3 functions removed in block]
+- ___CMSessionMgrCopyDeviceRouteForRouteConfiguration_block_invoke
+- _MXSessionManagerFadeInCurrentNowPlayingApp
+- ___cmsHandleIdleSleep_block_invoke.526
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_19
+- _OUTLINED_FUNCTION_4
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_17
+- [3 functions removed in block]
+- [10 functions removed in block]
+- -[MXCoreSessionSecure setPropertyForKey:value:].cold.10
+- -[MXCoreSessionSecure setPropertyForKey:value:].cold.11
+- _FVIOKit_StartIOServiceVibration.cold.1
+- _FVIOKit_StartIOServiceVibration.cold.2
+- _FVIOKit_StartIOServiceVibration.cold.4
+- _FVIOKit_StartIOServiceVibration.cold.5
+- [3 functions removed in block]
+- ___central_CopyHIDInputMode_block_invoke.cold.1
+- -[MXSystemController applyPIDToInheritAppStateFrom:].cold.1
+- -[MXSystemController applyPIDToInheritAppStateFrom:].cold.3
+- [7 functions removed in block]
+- ___FigVolumeControllerCopySharedController_block_invoke
+- [8 functions removed in block]
+- _MX_FrontBoardServices_Initialize.cold.1
+- _remoteSTS_SetProperty
+- _remoteSTS_GetActive
+- [3 functions removed in block]
+- [6 functions removed in block]
+- _volumeControllerServer_handleChangeEndpointVolumeMessage
+- _FigVibratorStopPrewarm
+- [5 functions removed in block]
+- [7 functions removed in block]
+- [6 functions removed in block]
+- _routingContextRemoteXPC_CloseCommChannelForDeviceID.cold.1
+- _routingContextRemoteXPC_CloseCommChannelForDeviceID.cold.2
+- [6 functions removed in block]
+- [7 functions removed in block]
+- [5 functions removed in block]
+- [4 functions removed in block]
+- -[MXSession(InterfaceImpl) setPropertiesInternal:usingErrorHandlingStrategy:outPropertiesErrors:].cold.2
+- -[MXSession(InterfaceImpl) setOrderedPropertiesInternal:usingErrorHandlingStrategy:outPropertiesErrors:].cold.2
+- _routingSessionManagerRemote_StartSuppressingLikelyDestinations
+- _routingSessionManagerRemote_StopSuppressingLikelyDestinations
+- ___routingSessionManagerResilientRemote_serverConnectionDied_block_invoke
+- _routingSessionManager_StartSessionWithRouteDescriptors
+- _routingSessionManager_waitForRecentPredictions
+- _FigRoutingSessionManagerInit.cold.2
+- [3 functions removed in block]
+- _FigNotificationListenerStartNotifications.cold.1
+- [14 functions removed in block]
+- -[MXSessionSidekick setProperties:usingErrorHandlingStrategy:outPropertiesErrors:].cold.2
+- -[MXSessionSidekick setOrderedProperties:usingErrorHandlingStrategy:outPropertiesErrors:].cold.2
+- [5 functions removed in block]
+- [3 functions removed in block]
+- [7 functions removed in block]
+- [308 functions removed in block]
+- [95 functions removed in block]
+- [8 functions removed in block]
+- [68 functions removed in block]
+- _FigStarkModeControllerSetCurrentInternalMode
+- ___fsmcontroller_RequestInitialModeChange_block_invoke
+- _FigEndpointUIAgentXPCRemoteCreate
+- _remoteSystemController_CopyDeviceRouteForAudioCategory
+- _remoteSystemController_HasRouteSharingPolicyLongFormVideo
+- _remoteSystemController_ClearUplinkMutedCache
+- _remoteSystemController_RemoteDeviceControlIsAllowed
+- _remoteSystemController_GetVolumeButtonDelta
+- [3 functions removed in block]
 CStrings:
 + "18:44:09"
 + "FigRoutingManagerContextUtilities_AddCurrentlyActivatingEndpoint_block_invoke_2"

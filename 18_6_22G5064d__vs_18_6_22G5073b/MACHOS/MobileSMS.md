@@ -53,6 +53,9 @@
  
 Symbols:
 + _kShowMessagesExtendedTest
+Functions (added):
++ sub_1000047c0
++ sub_1000048dc
 CStrings:
 + "didShowAMessageExtended:"
 

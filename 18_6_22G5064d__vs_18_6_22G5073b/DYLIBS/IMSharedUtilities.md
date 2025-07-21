@@ -60,6 +60,13 @@
 -  CStrings:  18196
 +  CStrings:  18201
  
+Functions (modified):
+~ _IMShouldAllowInteractionlessUsageOfUTITypeWithPreviewGenerationState : 500 -> 524
+~ _IMShouldReindexUTITypeWithPreviewGenerationState : 96 -> 108
+
+Functions (added):
++ sub_1a0f89d74
++ sub_1a0f89f48
 CStrings:
 + "T@\"NSNumber\",&,N"
 + "attachment is not from a known sender"

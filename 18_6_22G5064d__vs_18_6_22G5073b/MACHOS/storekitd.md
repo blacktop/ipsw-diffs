@@ -70,6 +70,23 @@
  
 Symbols:
 + _$sSS10FoundationE4data5using20allowLossyConversionAA4DataVSgSSAAE8EncodingV_SbtF
+Functions (added):
++ sub_1000061a4
++ sub_100006484
++ sub_1000216d4
++ sub_100038c88
++ sub_10007bcd4
++ sub_1000f53d8
++ sub_100142200
++ sub_100142334
++ sub_100142cbc
+
+Functions (removed):
+- sub_1002f0aa4
+- sub_1002f2d58
+- sub_1002f36f4
+- sub_1002ffa5c
+- sub_1002ffc4c
 CStrings:
 + "02:45:08"
 + "Jul  3 2025"

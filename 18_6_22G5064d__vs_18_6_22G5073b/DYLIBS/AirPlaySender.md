@@ -54,6 +54,47 @@ Symbols:
 - ___block_descriptor_tmp.552
 - ___block_descriptor_tmp.554
 - _fig_log_get_emitter
+Functions (modified):
+~ _apsession_ensureConnectedInternal : 12372 -> 12376
+~ _OUTLINED_FUNCTION_11 : 28 -> 12
+~ _session_PerformRemoteAction : 904 -> 856
+~ _APVirtualDisplayTestSinkCreate.cold.3 : 196 -> 132
+~ _APEndpointStreamAggregateAudioCreate.cold.7 : 160 -> 96
+~ _endpoint_updateVideoPlaybackIsActive.cold.2 : 172 -> 84
+~ _session_handleRemoteControlSessionEvent : 528 -> 408
+~ _session_handleRemoteControlSessionEventInternal : 1276 -> 1112
+~ _session_performActionUnhandledURLResponseCompletion : 340 -> 212
+~ _session_createDataFromDictionary.cold.1 : 140 -> 64
+~ _session_Play.cold.1 : 132 -> 72
+~ _session_InsertPlayQueueItem.cold.1 : 132 -> 72
+~ _session_InsertPlayQueueItem.cold.2 : 140 -> 72
+~ _session_PerformRemoteAction.cold.2 : 136 -> 68
+~ _session_PerformRemoteAction.cold.3 : 136 -> 68
+~ _session_addPendingRequest.cold.1 : 160 -> 88
+~ _session_addPendingRequest.cold.2 : 140 -> 68
+~ _session_addPendingRequest.cold.3 : 140 -> 68
+~ _session_createDictionaryFromData.cold.1 : 164 -> 76
+~ _session_insertPlayQueueItemInternal.cold.1 : 132 -> 72
+~ _session_insertPlayQueueItemInternal.cold.13 : 160 -> 72
+~ _session_insertPlayQueueItemInternal.cold.14 : 140 -> 72
+
+Functions (added):
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_0
++ _APMessageRingCreate.cold.1
++ _APMessageRingBufferedCreate.cold.2
++ _APEndpointDescriptionGetClassID.cold.1
++ _APSenderSessionGetClassID.cold.1
++ _APAudioHoseManagerBufferedGetClassID.cold.1
++ _APAudioHoseManagerBufferedCreate.cold.1
+
+Functions (removed):
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_1
+- [3 functions removed in block]
+- sub_1d14c28b4
+- sub_1d14e9a00
 CStrings:
 + "870.12.2"
 - "%s%s%s signalled err=%d (%s) (%s) at %s:%d"

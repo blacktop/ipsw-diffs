@@ -52,6 +52,20 @@
  
 Symbols:
 - _proc_track_dirty
+Functions (added):
++ sub_100011d90
++ sub_100011df4
++ sub_100012098
+
+Functions (removed):
+- sub_10004c66c
+- sub_100050dcc
+- sub_100051158
+- sub_1000511f0
+- sub_10005131c
+- sub_100051818
+- sub_100051988
+- sub_100052674
 CStrings:
 + "@(#)VERSION:Darwin Bootstrapper Version 7.0.0: Sun Jul  6 18:43:26 PDT 2025; root:libxpc_executables-2894.140.11.0.1~18/launchd/RELEASE_ARM64E"
 + "Darwin Bootstrapper Version 7.0.0: Sun Jul  6 18:43:26 PDT 2025; root:libxpc_executables-2894.140.11.0.1~18/launchd/RELEASE_ARM64E"

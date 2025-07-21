@@ -47,9 +47,11 @@ Symbols:
 - _fig_log_call_emit_and_clean_up_after_send_and_compose
 - _fig_log_emitter_get_os_log_and_send_and_compose_flags_and_os_log_type
 - _os_log_type_enabled
-Functions:
-~ sub_5864 : 424 -> 376
-~ sub_6058 -> sub_6028 : 392 -> 92
+Functions (added):
++ sub_6028
+
+Functions (removed):
+- sub_5864
 CStrings:
 - "%s%s%s signalled err=%d (%s) (%s) at %s:%d"
 - "(Fig)"

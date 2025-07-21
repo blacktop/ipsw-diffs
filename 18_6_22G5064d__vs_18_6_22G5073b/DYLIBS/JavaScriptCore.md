@@ -26,12 +26,13 @@
 Symbols:
 - __ZN3JSC4Yarr22YarrPatternConstructor8copyTermERNS0_11PatternTermEb
 - __ZN3WTF6VectorIN3JSC4Yarr22YarrPatternConstructor26UnresolvedForwardReferenceELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE10removeLastEv
-Functions:
+Functions (modified):
 ~ __ZN3JSC4Yarr22YarrPatternConstructor12quantifyAtomEjjb : 1060 -> 1428
-- __ZN3JSC4Yarr22YarrPatternConstructor8copyTermERNS0_11PatternTermEb
 ~ _llint_slow_path_get_by_val : 9436 -> 9432
-- __ZN3WTF6VectorIN3JSC4Yarr22YarrPatternConstructor26UnresolvedForwardReferenceELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE10removeLastEv
-~ _pas_reallocation_did_fail : 88 -> 132
+
+Functions (removed):
+- __ZN3JSC4Yarr22YarrPatternConstructor8copyTermERNS0_11PatternTermEb
+- _pas_reallocation_did_fail
 CStrings:
 + "/AppleInternal/Library/BuildRoots/4~B4tVugARAMP8QKfw-oExyoEidJr5Aaoej6HOqy8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.6.Internal.sdk/usr/local/include/wtf/Assertions.h"
 + "/AppleInternal/Library/BuildRoots/4~B4tVugARAMP8QKfw-oExyoEidJr5Aaoej6HOqy8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.6.Internal.sdk/usr/local/include/wtf/ConcurrentPtrHashSet.h"

@@ -517,6 +517,1045 @@ Symbols:
 - _stringWithValidatedFormat
 - _stringWithValidatedFormatArg2
 - _stringWithValidatedFormatString
+Functions (modified):
+~ -[AVSystemRemotePoolOutputDeviceCommunicationChannelManager dealloc] : 532 -> 252
+~ -[AVFigRouteDiscovererOutputDeviceDiscoverySessionFactory outputDeviceDiscoverySessionOfClass:withDeviceFeatures:] : 820 -> 292
+~ -[AVOutputDeviceDiscoverySession initWithOutputDeviceDiscoverySessionImpl:] : 492 -> 180
+~ -[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl initWithFigRouteDiscovererCreator:] : 636 -> 360
+~ _OUTLINED_FUNCTION_3 : 36 -> 16
+~ -[AVFigRoutingContextOutputContextImpl initWithFigRoutingContext:routingContextReplacementBlock:outputDeviceTranslator:volumeController:communicationChannelManagerCreator:] : 1400 -> 1124
+~ -[AVFigRouteDescriptorOutputDeviceImpl initWithRouteDescriptor:routeDiscoverer:volumeController:routingContextFactory:useRouteConfigUpdatedNotification:routingContext:] : 908 -> 596
+~ _OUTLINED_FUNCTION_0 : 40 -> 68
+~ _OUTLINED_FUNCTION_0 : 72 -> 32
+~ _OUTLINED_FUNCTION_0 : 52 -> 32
+~ -[AVFigCommChannelUUIDCommunicationChannelManager initWithRoutingContext:] : 332 -> 328
+~ -[AVOutputDevice initWithOutputDeviceImpl:commChannelManager:] : 656 -> 372
+~ -[AVClientBlockKVONotifier start] : 424 -> 76
+~ -[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator outputDevicesFromRoutingContext:] : 852 -> 268
+~ -[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator predictedOutputDeviceFromRoutingContext:] : 412 -> 212
+~ _AVFigRouteDiscovererAvailableRoutesChanged : 364 -> 68
+~ -[AVOutputDeviceDiscoverySession outputDeviceDiscoverySessionImplDidChangeAvailableOutputDevices:] : 376 -> 92
+~ -[AVOutputContext initWithOutputContextImpl:] : 444 -> 172
+~ -[AVOutputDeviceDiscoverySession availableOutputDevices] : 416 -> 120
+~ -[AVOutputDeviceDiscoverySessionAvailableOutputDevices otherDevices] : 364 -> 60
+~ -[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl availableOutputDevicesObject] : 1304 -> 524
+~ +[AVOutputDevice(FigRouteDescriptor) prefersRouteDescriptors] : 436 -> 108
+~ _AVOutputContextUsesRouteConfigUpdatedNotification : 416 -> 72
+~ _AVDefaultRoutingContextFactory : 412 -> 84
+~ -[AVSystemRemotePoolOutputDeviceCommunicationChannelManager initWithDeviceID:] : 448 -> 184
+~ -[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl outputDeviceDiscoverySessionDidChangeDiscoveryMode:forClientIdentifiers:] : 1148 -> 916
+~ _AVOutputDeviceDescriptionsFromFigDescriptions : 744 -> 520
+~ -[AVFigRouteDescriptorOutputDeviceImpl isAppleAccessory] : 376 -> 108
+~ _AVOutputDeviceHeadTrackedSpatialAudioModeFromFigMode : 408 -> 164
+~ ___59-[AVCallbackContextRegistry registerCallbackContextObject:]_block_invoke : 460 -> 112
+~ _AVLocalizedError : 4160 -> 2196
+~ -[AVMetadataItem(AVMetadataItem_Local) _extractPropertiesFromDictionary:] : 5304 -> 1968
+~ -[AVMetadataItem(AVMetadataItem_Local) _valueFromCFType:] : 1216 -> 996
+~ +[AVMetadataItem initialize] : 132 -> 12
+~ +[AVExecutionEnvironment initialize] : 132 -> 12
+~ -[AVWeakReferencingDelegateStorage setDelegate:queue:] : 576 -> 264
+~ -[AVFigRoutingContextOutputContextImpl routingContextUUID] : 896 -> 528
+~ +[AVCallbackContextRegistry initialize] : 124 -> 68
+~ +[AVWeakReferencingDelegateStorage initialize] : 132 -> 12
+~ -[AVResourceReclamationController(AVResourceReclamation) permitReclamationWhileSuspended] : 684 -> 400
+~ -[AVFigAssetInspectorLoader loadValuesAsynchronouslyForKeys:keysForCollectionKeys:completionHandler:] : 3972 -> 3008
+~ _handleFigAssetLoadingNotification : 1164 -> 632
+~ -[AVFigAssetInspectorLoader _invokeCompletionHandlerForLoadingBatches:] : 1404 -> 1160
+~ ___61-[AVPlayerItem(AVPlayerItemOutputs) _evaluateMetadataOutputs]_block_invoke : 668 -> 464
+~ -[AVOutputContext ID] : 336 -> 4
+~ -[AVPixelBufferAttributeMediator init] : 220 -> 160
+~ -[AVPlayerLoggingIdentifier init] : 532 -> 184
+~ -[AVPlayerLooper _setupLoopingReturningError:] : 3680 -> 1748
+~ -[AVQueuePlayer insertItem:afterItem:] : 468 -> 172
+~ -[AVPlayerLooper _calculateNumberOfCopiesNeeded] : 1920 -> 292
+~ -[AVFigRoutingContextOutputContextImpl initWithRoutingContextUUID:type:] : 1012 -> 820
+~ ___51-[AVPlayer _evaluateDisplaySizeOfAllAttachedLayers]_block_invoke : 584 -> 240
+~ -[AVPlayerLayer layoutSublayers] : 1172 -> 664
+~ -[AVPlayerLayer _applyCurrentItemPresentationSizeChangeAndForceUpdate:] : 512 -> 208
+~ _AVSerializeOnQueueAsyncIfNecessary : 948 -> 144
+~ -[AVPlayerLayer _notifyPlayerOfDisplaySize] : 388 -> 40
+~ -[AVPlayerLayer _displaySize] : 592 -> 260
+~ -[AVPlayer _evaluateDisplaySizeOfAllAttachedLayers] : 448 -> 120
+~ ___71-[AVPlayerLayer _applyCurrentItemPresentationSizeChangeAndForceUpdate:]_block_invoke : 828 -> 196
+~ ___32-[AVPlayerLayer layoutSublayers]_block_invoke : 1936 -> 600
+~ -[AVPlayer _closedCaptionLayers] : 548 -> 244
+~ ___67-[AVPlayer(AVPlayerMultitaskSupport) _layerForegroundStateChanged:]_block_invoke : 640 -> 144
+~ ___64-[AVPlayerLayer observeValueForKeyPath:ofObject:change:context:]_block_invoke : 552 -> 88
+~ -[AVPlayer(PlaybackCoordination) _ensureFigPlaybackCoordinatorIsConnected] : 1040 -> 548
+~ ___67-[AVPlayerLayer _handleIsDisplayingClosedCaptionsDidChange:player:]_block_invoke : 488 -> 172
+~ ___67-[AVPlayer(AVPlayerMultitaskSupport) _ensureVideoLayersAreAttached]_block_invoke : 504 -> 200
+~ ___avplayeritem_fpItemNotificationCallback_block_invoke_2 : 20 -> 32
+~ -[AVPlayerItem _configurePlaybackItemAndReturnError:] : 3448 -> 2380
+~ -[AVPlayerItem videoComposition] : 372 -> 72
+~ -[AVPlayerItem setAudioMix:] : 548 -> 240
+~ -[AVPlayerItem setVideoComposition:] : 828 -> 468
+~ -[AVPlayerItem initWithAsset:] : 504 -> 212
+~ -[AVPlayerItem initWithAsset:automaticallyLoadedAssetKeys:] : 2236 -> 1628
+~ -[AVPlayerItem audioMix] : 556 -> 248
+~ _AVTelemetryGenerateID : 68 -> 8
+~ -[AVSpecifiedLoggingIdentifier initWithSpecifiedName:] : 992 -> 456
+~ -[AVPlayerItem(AVPlayerItemVideoEnhancement) setVideoEnhancementMode:] : 540 -> 280
+~ -[AVKVODispatcher observeValueForKeyPath:ofObject:change:context:] : 416 -> 80
+~ -[AVKeyPathDependency _reactToSecondLevelPropertyChange:] : 688 -> 176
+~ -[AVKeyPathDependency _reactToTopLevelPropertyChange:] : 524 -> 244
+~ -[AVPlayerItem _updateCanPlayAndCanStepPropertiesWhenReadyToPlayWithNotificationPayload:updateStatusToReadyToPlay:] : 1304 -> 760
+~ ___59-[AVPlayerItem _updateItemIdentifierForCoordinatedPlayback]_block_invoke : 1160 -> 916
+~ -[AVPlayer _setCurrentItem:] : 792 -> 536
+~ _AVOutputDeviceImplIsMutedForEndpointID : 468 -> 168
+~ ___76-[AVNotificationSubscription initWithObject:notificationName:callbackBlock:]_block_invoke : 392 -> 104
+~ ___66-[AVPropertyValuePublisher subscribeRequestingInitialValue:block:]_block_invoke : 416 -> 84
+~ -[AVPropertyValuePublisher subscribeRequestingInitialValue:block:] : 664 -> 288
+~ ___67-[AVSwitchToLatestPublisher subscribeRequestingInitialValue:block:]_block_invoke_2 : 716 -> 200
+~ ___56-[AVMapPublisher subscribeRequestingInitialValue:block:]_block_invoke : 396 -> 88
+~ ___67-[AVSwitchToLatestPublisher subscribeRequestingInitialValue:block:]_block_invoke : 668 -> 380
+~ ___78-[AVPlayerLooper initWithPlayer:templateItem:timeRange:existingItemsOrdering:]_block_invoke_2 : 588 -> 128
+~ ___110-[AVPlayer _handleSetRate:withVolumeRampDuration:playImmediately:rateChangeReason:affectsCoordinatedPlayback:]_block_invoke : 1332 -> 912
+~ -[AVPlayerItem _seekToTime:toleranceBefore:toleranceAfter:seekID:completionHandler:] : 3056 -> 2320
+~ ___31-[AVPlayerItem _updateTimebase]_block_invoke_2 : 1060 -> 796
+~ -[AVFigAssetInspectorLoader _statusOfValueForKey:error:firstNonLoadedDependencyKey:] : 1212 -> 940
+~ -[AVFigAssetInspectorLoader _loadStatusForProperty:figAsset:error:] : 612 -> 268
+~ ___handleFigAssetLoadingNotification_block_invoke : 1836 -> 720
+~ +[AVURLAsset _getFigAssetCreationOptionsFromURLAssetInitializationOptions:assetLoggingIdentifier:figAssetCreationFlags:error:] : 5376 -> 4748
+~ -[AVPlayerItem(AVPlayerItemOutputs) addOutput:] : 884 -> 568
+~ -[AVPlayer _runOnIvarAccessQueueOperationThatMayChangeCurrentItemWithPreflightBlock:modificationBlock:error:] : 900 -> 604
+~ -[AVPlayerRateState rateStateByUpdatingBasedOnPresenceOfCurrentInterstitialEvent:nameForLogging:] : 520 -> 172
+~ -[AVPlayer setAudiovisualBackgroundPlaybackPolicy:] : 520 -> 240
+~ -[AVPlayerLayer _notifyPlayerOfLayerForegroundStateChange] : 796 -> 212
+~ -[AVPlayerLayer _currentWindowSceneIsForeground] : 676 -> 128
+~ -[AVPlayer _updateDecoderPixelBufferAttributes:onFigPlayer:] : 472 -> 180
+~ -[AVPlayerLayer pixelBufferAttributes] : 520 -> 232
+~ -[AVPlayerLayer init] : 2196 -> 1352
+~ -[AVPlayerLayer _currentWindowSceneIsForegroundDefault] : 408 -> 68
+~ -[AVPlayerLayer addSublayer:] : 396 -> 140
+~ ___54-[AVKeyPathDependency _reactToTopLevelPropertyChange:]_block_invoke : 400 -> 124
+~ -[AVKeyPathDependency _startObservingSecondLevelPropertyOnNewCurrentValueForTopLevelDependencyProperty:] : 420 -> 124
+~ -[AVWeaklyObservedObjectClientBlockKVONotifier start] : 456 -> 104
+~ +[AVFigObjectInspector initialize] : 132 -> 12
+~ _handleAndReflectFigAssetNotification : 760 -> 524
+~ _AVPlayerGetFigPlayerTypeForAsset : 568 -> 304
+~ _AVLoadValueAsynchronously : 128 -> 204
+~ _AVLoadValuesAsynchronously : 204 -> 116
+~ ___67-[AVPlayer _applyPlayQueueChangesToFigPlayerWithCompletionHandler:]_block_invoke_2 : 16 -> 64
+~ -[AVPlayerItem selectMediaOption:inMediaSelectionGroup:] : 1044 -> 496
+~ -[AVMediaSelectionGroup init] : 204 -> 148
+~ -[AVFigAssetInspector _localizedMediaSelectionOptionDisplayNames] : 800 -> 400
+~ ___43-[AVPlayerItem _applyMediaSelectionOptions]_block_invoke : 356 -> 108
+~ ___56-[AVPlayerItem selectMediaOption:inMediaSelectionGroup:]_block_invoke : 392 -> 92
+~ ___avplayeritem_fpItemNotificationCallback_block_invoke_3 : 52 -> 20
+~ +[AVQueuePlayer initialize] : 140 -> 12
+~ _avplayer_fpNotificationCallback : 516 -> 208
+~ -[AVPlayer _setRate:rateChangeReason:figPlayerSetRateHandler:] : 1288 -> 672
+~ ___avplayer_fpNotificationCallback_block_invoke : 9100 -> 5312
+~ -[AVPlayer(AVPlayerInterstitialSupport_Internal) _hasCurrentInterstitialEvent] : 1028 -> 196
+~ -[AVPlayerItem _attachToPlayer:] : 1140 -> 276
+~ -[AVURLAsset initWithURL:options:] : 428 -> 96
+~ -[AVAsset init] : 272 -> 216
+~ -[AVFigAssetInspector initWithFigAsset:] : 220 -> 160
+~ -[AVAssetTrackInspector _initWithAsset:trackID:trackIndex:] : 192 -> 132
+~ -[AVPlayerItem _addToPlayQueueOfFigPlayerOfPlayer:afterFigPlaybackItemOfItem:] : 756 -> 192
+~ -[AVPlayerItem _attachToFigPlayer] : 2424 -> 2108
+~ -[AVPlayer _itemIsReadyToPlay:] : 184 -> 172
+~ -[AVPlayerConnection addItemToPlayQueueAfterPlaybackItemOfItem:] : 1204 -> 564
+~ -[AVPlayerItemMediaDataCollector init] : 228 -> 172
+~ -[AVFigAssetInspectorLoader initWithURL:figAssetCreationFlags:figAssetCreationOptions:avAssetInitializationOptions:forAsset:figErr:] : 648 -> 344
+~ -[AVPlayerLayer setBounds:] : 492 -> 160
+~ ___67-[AVPlayer _createAndConfigureFigPlayerWithType:completionHandler:]_block_invoke_5 : 52 -> 20
+~ +[AVMovie initialize] : 132 -> 12
+~ ___22-[AVPlayer _addLayer:]_block_invoke : 540 -> 208
+~ -[AVPlayerLayer _setPlayer:forPIP:] : 1672 -> 656
+~ -[AVPlayer(AVPlayerSupportForMediaPlayer) _updateConnectionToSecondScreen] : 668 -> 428
+~ -[AVPlayer(AVPlayerMultitaskSupport) _hasAssociatedAVPlayerLayerInPIPMode] : 500 -> 240
+~ -[AVPlayer _addLayer:] : 1140 -> 812
+~ ___65-[AVPlayerLayer _handleNonForcedSubtitleDisplayDidChange:player:]_block_invoke : 464 -> 104
+~ -[AVPlayerLayer observeValueForKeyPath:ofObject:change:context:] : 548 -> 184
+~ ___AVPlayerItemVideoOutput_figVCSequentialAvailableCallback_block_invoke_3 : 524 -> 168
+~ _AVPerformDelegateCallbackSynchronouslyForDelegateStorageIfCurrentDelegateQueueIsQueueElseDispatchToCurrentDelegateQueue : 1276 -> 216
+~ ___61-[AVPlayerItemVideoOutput _dispatchOutputMediaDataWillChange]_block_invoke : 352 -> 96
+~ -[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl targetAudioSession] : 544 -> 252
+~ -[AVPlayerItemOutput _itemTimeForHostTimeAsCMTime:] : 396 -> 136
+~ +[AVKeyPathDependency initialize] : 132 -> 12
+~ -[AVPlayerItemOutput init] : 296 -> 240
+~ -[AVPlayerLayer _stopObservingPlayer:] : 796 -> 232
+~ -[AVPlayer(AVPlayerInterstitialSupport_Internal) _linkAndSyncAudioSessionWithInterstitialPlayer:] : 716 -> 504
+~ -[AVPlayer _createAndConfigureFigPlayerWithType:completionHandler:] : 1232 -> 696
+~ +[AVPlayer _createFigPlayerWithType:options:player:] : 948 -> 276
+~ _AVEnsureNotOnMainThread : 628 -> 120
+~ -[AVResourceReclamationEventObserverToken initWithDetails:] : 392 -> 92
+~ +[AVPlayerItemSampleBufferOutput initialize] : 132 -> 12
+~ -[AVOccasionalTimebaseObserver initWithTimebase:times:queue:block:] : 884 -> 572
+~ -[AVTimebaseObserver initWithTimebase:queue:] : 404 -> 344
+~ -[AVTimebaseObserver _finishInitializationWithTimerEventHandler:] : 512 -> 216
+~ -[AVApplicationStateMonitor init] : 936 -> 592
+~ ___avplayeritem_fpItemNotificationCallback_block_invoke : 18988 -> 8252
+~ -[AVPlayerItem _unregisterInvokeAndReleasePendingSeekCompletionHandlerForSeekID:finished:] : 536 -> 236
+~ -[AVPlayerItem _invokeReadyForEnqueueingHandlers] : 584 -> 296
+~ ___79-[AVPlayerItemVideoOutput requestNotificationOfMediaDataChangeAsSoonAsPossible]_block_invoke : 372 -> 68
+~ ___115-[AVPlayerItem _updateCanPlayAndCanStepPropertiesWhenReadyToPlayWithNotificationPayload:updateStatusToReadyToPlay:]_block_invoke : 752 -> 140
+~ +[AVPlayerLooper initialize] : 132 -> 12
+~ -[AVPlayerItemVideoOutput _copyPixelBufferForItemTimeWithOptions:itemTimeForDisplay:options:] : 748 -> 364
+~ -[AVPlayerLayer _interstitialLayer] : 668 -> 360
+~ -[AVAssetLoggingIdentifier init] : 536 -> 188
+~ -[AVPlayer _attachVideoLayersToFigPlayer] : 828 -> 532
+~ -[AVPlayer _videoLayers] : 548 -> 244
+~ +[AVComposition initialize] : 132 -> 12
+~ -[AVPlayer(AVPlayerAdvanceWithOverlap) _setSupportsAdvanceTimeForOverlappedPlayback:] : 500 -> 172
+~ -[AVPlayerLooper initWithPlayer:templateItem:timeRange:existingItemsOrdering:] : 1620 -> 880
+~ -[AVPlayerItem _presentationSize] : 584 -> 248
+~ ___AVPlayerItemVideoOutput_timebaseNotificationCallback_block_invoke : 628 -> 256
+~ -[AVPlayerLayer _percentCoverageRelativeToRootLayer] : 480 -> 124
+~ -[AVPlayerLayer _setShowInterstitialInstead:afterDelay:] : 840 -> 460
+~ ___56-[AVPlayerLayer _setShowInterstitialInstead:afterDelay:]_block_invoke_2 : 28 -> 276
+~ -[AVPlayerLayer setLanczosFilterDownscaleFactor:] : 428 -> 144
+~ -[AVPlayerLayer copyDisplayedPixelBuffer] : 632 -> 296
+~ +[AVPlayerLayer _swapSublayersBetweenPlayerLayer:andPlayerLayer:] : 424 -> 140
+~ -[AVPlayerLayer _enterSecondScreenModeRedirectingVideoToLayer:] : 404 -> 140
+~ ___63-[AVPlayerLayer _enterSecondScreenModeRedirectingVideoToLayer:]_block_invoke : 436 -> 128
+~ -[AVPlayerLayer _leaveSecondScreenModeForLayer:] : 692 -> 160
+~ -[AVPlayerLayer _enterPIPModeRedirectingVideoToLayer:] : 520 -> 224
+~ ___54-[AVPlayerLayer _enterPIPModeRedirectingVideoToLayer:]_block_invoke : 784 -> 224
+~ -[AVPlayerLayer _leavePIPModeForLayer:] : 736 -> 204
+~ -[AVPlayerLayer _forceLayout] : 340 -> 8
+~ -[AVPlayerLayer _restoreClientLayers:intoMaskLayer:] : 952 -> 456
+~ -[AVPlayerLayer setSublayers:] : 340 -> 84
+~ -[AVPlayerLayer insertSublayer:atIndex:] : 348 -> 100
+~ -[AVPlayerLayer insertSublayer:below:] : 348 -> 100
+~ -[AVPlayerLayer insertSublayer:above:] : 348 -> 100
+~ -[AVPlayerLayer replaceSublayer:with:] : 348 -> 100
+~ -[AVPlayerLayer _windowSceneDidEnterBackground] : 352 -> 24
+~ -[AVPlayerLayer _windowSceneWillEnterForeground] : 356 -> 28
+~ __avplLoopingItemFailedToPlayToEndTimeNotificationHandler : 448 -> 148
+~ ___49-[AVPlayerLooper _changeStatusToFailedWithError:]_block_invoke : 364 -> 92
+~ -[AVAssetVariant(SecureCoding) initWithCoder:] : 344 -> 288
+~ -[AVAssetVariant(Internal) initWithFigAlternate:] : 172 -> 112
+~ -[AVAssetVariantQualifier initWithVariant:] : 148 -> 88
+~ -[AVAssetVariantQualifier(SecureCoding) initWithCoder:] : 276 -> 220
+~ -[AVAssetVariantQualifierWithPredicate initWithFigAssetVariantQualifierWithPredicate:] : 304 -> 244
+~ -[AVAssetVariantQualifierWithPredicate(SecureCoding) initWithCoder:] : 564 -> 508
+~ -[AVAssetVariantQualifierForMinimumInKeyPath initWithFigAssetVariantQualifierForMinimumInKeyPath:] : 288 -> 228
+~ -[AVAssetVariantQualifierForMinimumInKeyPath(SecureCoding) initWithCoder:] : 288 -> 232
+~ -[AVAssetVariantQualifierForMaximumInKeyPath initWithFigAssetVariantQualifierForMaximumInKeyPath:] : 288 -> 228
+~ -[AVAssetVariantQualifierForMaximumInKeyPath(SecureCoding) initWithCoder:] : 288 -> 232
+~ -[AVAssetVariantPresentationWidthPredicate initWithPresentationWidth:operatorType:] : 224 -> 168
+~ -[AVAssetVariantPresentationHeightPredicate initWithPresentationHeight:operatorType:] : 224 -> 168
+~ ___84-[AVLazyValueLoadingMetadataItem loadValuesAsynchronouslyForKeys:completionHandler:]_block_invoke_2 : 616 -> 296
+~ ___33+[AVURLAsset _avfValidationPlist]_block_invoke : 424 -> 164
+~ -[AVURLAsset initWithFigCreationOptions:options:figAssetCreationOptions:figAssetCreationFlags:] : 436 -> 112
+~ ___39-[AVURLAsset _ensureAssetDownloadCache]_block_invoke : 364 -> 100
+~ ___85-[AVURLAsset(AVURLAssetURLHandlingInternal) _resourceLoaderWithRemoteHandlerContext:]_block_invoke : 384 -> 124
+~ -[AVAssetImageGenerator copyCGImageAtTime:actualTime:error:] : 1668 -> 524
+~ -[AVAssetImageGenerator generateCGImagesAsynchronouslyForTimes:completionHandler:] : 940 -> 480
+~ -[AVAssetImageGenerator cancelAllCGImageGeneration] : 436 -> 180
+~ ___36-[AVAssetImageGenerator _serverDied]_block_invoke : 680 -> 448
+~ _avplayer_iapdNotificationCallback : 620 -> 308
+~ ___31-[AVPlayer _itemIsReadyToPlay:]_block_invoke : 456 -> 160
+~ -[AVPlayer _advanceToNextItem] : 736 -> 500
+~ -[AVPlayer prepareItem:withCompletionHandler:] : 568 -> 256
+~ ___67-[AVPlayer _createAndConfigureFigPlayerWithType:completionHandler:]_block_invoke_2 : 20 -> 3980
+~ -[AVPlayer setExpectedAssetTypes:] : 492 -> 200
+~ ___34-[AVPlayer setExpectedAssetTypes:]_block_invoke_2 : 520 -> 220
+~ ___67-[AVPlayer _applyPlayQueueChangesToFigPlayerWithCompletionHandler:]_block_invoke : 568 -> 328
+~ -[AVPlayer setDefaultRate:] : 464 -> 124
+~ -[AVPlayer _setUsesLegacyAutomaticWaitingBehavior:] : 700 -> 344
+~ -[AVPlayer seekToDate:completionHandler:] : 420 -> 112
+~ -[AVPlayer seekToTime:completionHandler:] : 432 -> 168
+~ -[AVPlayer seekToTime:toleranceBefore:toleranceAfter:completionHandler:] : 440 -> 188
+~ -[AVPlayer _userVolume] : 640 -> 360
+~ -[AVPlayer setResourceConservationLevelWhilePaused:] : 616 -> 288
+~ -[AVPlayer setPlayerRole:synchronously:] : 1268 -> 540
+~ -[AVPlayer setOutputContext:] : 860 -> 352
+~ -[AVPlayer removeTimeObserver:] : 504 -> 196
+~ -[AVPlayer _detachVideoLayersFromFigPlayer:] : 472 -> 160
+~ ___87-[AVPlayer _removeLayer:videoLayer:closedCaptionLayer:subtitleLayer:interstitialLayer:]_block_invoke_3 : 644 -> 228
+~ _avplayer_fpInterstitialCoordinatorNotificationCallback : 516 -> 208
+~ +[AVPlayer fireAvailableHDRModesDidChangeNotification] : 348 -> 88
+~ +[AVPlayer fireEligibleForHDRPlaybackDidChangeNotification] : 348 -> 88
+~ +[AVPlayer availableHDRModes] : 388 -> 104
+~ -[AVPlayer(AVPlayerMultitaskSupport) _canContinuePlaybackInBackgrounBasedOnAudiovisualBackgroundPlaybackPolicy:] : 932 -> 68
+~ -[AVPlayer(AVPlayerMultitaskSupport) _shouldDetachVideoLayersFromFigPlayer] : 1176 -> 108
+~ -[AVPlayer(AVPlayerMultitaskSupport) _acquireBackgroundAssertion] : 732 -> 216
+~ -[AVPlayer(AVPlayerMultitaskSupport) _didEnterBackground:] : 400 -> 120
+~ ___58-[AVPlayer(AVPlayerMultitaskSupport) _didEnterBackground:]_block_invoke : 468 -> 196
+~ -[AVPlayer(AVPlayerMultitaskSupport) _didFinishSuspension:] : 320 -> 4
+~ ___69-[AVPlayer(AVPlayerMultitaskSupport) _detachVideoLayersForSuspension]_block_invoke_2 : 164 -> 156
+~ ___69-[AVPlayer(AVPlayerMultitaskSupport) _detachVideoLayersForSuspension]_block_invoke_3 : 1100 -> 200
+~ -[AVPlayer(AVPlayerMultitaskSupport) _willEnterForeground:] : 416 -> 144
+~ -[AVPlayer(AVPlayerPIPSupport) setBackgroundPIPAuthorizationToken:] : 520 -> 240
+~ -[AVPlayer(FigVideoTargetSupport) setShouldWaitForVideoTarget:] : 540 -> 220
+~ ___102-[AVPlayer(AVPlayerInterstitialSupport_Internal) _copyInterstitialEventCoordinatorEnsuringItIsRemote:]_block_invoke : 660 -> 364
+~ -[AVPlayerRateState rateStateByUpdatingBasedOnFigPlayer:hasCurrentItem:hasCurrentInterstitialEvent:nameForLogging:] : 860 -> 320
+~ -[AVPlayer(AVPlayerSpeedRamp) setSupportsSpeedRamps:] : 500 -> 172
+~ ___avplayer_iapdNotificationCallback_block_invoke : 752 -> 180
+~ _avplayer_playbackcoordinator_SetPlaybackCoordinatorInterstitialActive : 360 -> 56
+~ _OUTLINED_FUNCTION_1 : 40 -> 52
+~ _avplayerinterstitialeventmonitor_fpNotificationCallback : 856 -> 600
+~ -[AVPlayerItem _changeStatusToFailedWithError:] : 788 -> 480
+~ _cmTimebaseNotificationCallback_TimeJumped : 380 -> 112
+~ -[AVPlayerItem _cancelPendingSeekAndRegisterSeekID:withCompletionHandler:] : 476 -> 244
+~ -[AVPlayerItem _postSeekCompletionNotificationWithSeekID:andResult:] : 476 -> 176
+~ -[AVPlayerItem seekToDate:completionHandler:] : 584 -> 292
+~ -[AVPlayerItem stepByCount:] : 532 -> 252
+~ -[AVPlayerItem _setAudioProcessingEffectsAccordingToInputParameters:forTrackID:] : 848 -> 604
+~ -[AVPlayerItem _setVideoCompositionInstructions:] : 504 -> 184
+~ -[AVPlayerItem customVideoCompositor] : 376 -> 76
+~ -[AVPlayerItem selectMediaOptionAutomaticallyInMediaSelectionGroup:] : 1032 -> 496
+~ -[AVPlayerItem _setCurrentMediaSelection:] : 540 -> 260
+~ -[AVPlayerItem(AVPlayerItemOutputs) outputs] : 556 -> 248
+~ -[AVSampleBufferAudioRendererLoggingIdentifier init] : 532 -> 184
+~ -[AVPlayerItemTrack(AVPlayerItemOutputs) addOutput:] : 832 -> 584
+~ -[AVPlayerItemTrack(AVPlayerItemOutputs) removeOutput:] : 488 -> 232
+~ ___61+[AVAssetDownloadStorageManager sharedDownloadStorageManager]_block_invoke : 104 -> 36
+~ -[AVAssetDownloadStorageManager setStorageManagementPolicy:forURL:] : 792 -> 500
+~ -[AVQueuePlayer removeItem:] : 356 -> 4
+~ -[AVQueuePlayer removeAllItems] : 332 -> 4
+~ -[AVQueuePlayer(AVPlayerAdvanceWithOverlap) canOverlapPlaybackFromPlayerItem:toPlayerItem:] : 2400 -> 436
+~ -[AVOutputDeviceDiscoverySession setTargetAudioSession:] : 352 -> 56
+~ -[AVOutputDeviceDiscoverySession devicePresenceDetected] : 364 -> 40
+~ -[AVOutputDeviceDiscoverySession outputDeviceDiscoverySessionImplDidChangeAvailableOutputDeviceGroups:] : 376 -> 92
+~ -[AVAnnotation initWithJSONData:representationBinaryDataBindings:error:] : 1796 -> 1304
+~ -[AVComposition _initWithComposition:] : 744 -> 468
+~ -[AVComposition mutableCopyWithZone:] : 360 -> 64
+~ -[AVMutableCompositionTrack _insertEmptyTimeRange:fireKVO:] : 696 -> 300
+~ -[AVMutableCompositionTrack _removeTimeRange:fireKVO:] : 696 -> 300
+~ -[AVMutableCompositionTrack scaleTimeRange:toDuration:] : 760 -> 324
+~ _OUTLINED_FUNCTION_1 : 76 -> 72
+~ -[AVSampleCursor stepByDecodeTime:wasPinned:] : 1112 -> 596
+~ -[AVSampleCursor stepByPresentationTime:wasPinned:] : 1112 -> 596
+~ -[AVSampleCursor createSampleBufferForCurrentSampleReturningError:] : 496 -> 216
+~ -[AVSampleCursor createSampleBufferFromCurrentSampleToEndCursor:error:] : 516 -> 244
+~ -[AVNotificationSubscription cancel] : 616 -> 100
+~ -[AVSinkSubscriber cancel] : 388 -> 104
+~ +[AVAssetReaderOutput initialize] : 132 -> 12
+~ _figAssetReaderSampleBufferDidBecomeAvailable : 428 -> 108
+~ _figAssetReaderDecodeError : 372 -> 68
+~ _figAssetReaderFailed : 372 -> 68
+~ _figAssetReaderServerConnectionDied : 372 -> 68
+~ -[AVAssetReaderOutput copyNextSampleBuffer] : 1024 -> 472
+~ +[AVAssetWriter initialize] : 132 -> 12
+~ -[AVAssetWriter addInputGroup:] : 436 -> 136
+~ -[AVAssetWriter startWriting] : 352 -> 56
+~ -[AVAssetWriter startSessionAtSourceTime:] : 460 -> 156
+~ -[AVAssetWriter endSessionAtSourceTime:] : 460 -> 156
+~ -[AVAssetWriter finishWriting] : 352 -> 56
+~ -[AVAssetWriter finishWritingWithCompletionHandler:] : 436 -> 136
+~ -[AVAssetWriter flush] : 336 -> 40
+~ -[AVAssetWriter flushSegment] : 572 -> 284
+~ _AVAssetWriterFigAssetWriterHandleServerDiedNotification : 360 -> 68
+~ _AVAssetWriterFigAssetWriterHandleCompletedNotification : 360 -> 68
+~ _AVAssetWriterFigAssetWriterHandleFailedNotification : 496 -> 216
+~ -[AVAssetWriterWritingHelper initWithConfigurationState:assetWriter:error:] : 5780 -> 5144
+~ -[AVAssetWriterWritingHelper cancelWriting] : 708 -> 400
+~ ___43-[AVAssetWriterWritingHelper finishWriting]_block_invoke : 808 -> 316
+~ ___65-[AVAssetWriterWritingHelper finishWritingWithCompletionHandler:]_block_invoke : 328 -> 16
+~ ___77+[AVAssetWriterWritingHelper finalStepWorkaroundOperationWithFigAssetWriter:]_block_invoke : 424 -> 140
+~ -[AVAssetWriterFinishWritingHelper _finishWritingOperationsDidFinish] : 468 -> 176
+~ -[AVFigAssetWriterFinishWritingAsyncOperation start] : 1188 -> 272
+~ -[AVFigAssetWriterFinishWritingAsyncOperation cancel] : 360 -> 76
+~ -[AVFigAssetWriterFinishWritingAsyncOperation didEnterTerminalState] : 684 -> 188
+~ -[AVFigAssetWriterFinishWritingAsyncOperation didReceiveFigAssetWriterNotificationWithSuccess:error:] : 388 -> 16
+~ _AVTimebaseObserver_figTimebaseGetTime : 1380 -> 204
+~ -[AVPeriodicTimebaseObserver _fireBlockForTime:] : 436 -> 84
+~ -[AVPeriodicTimebaseObserver _handleTimeDiscontinuity] : 820 -> 272
+~ -[AVOccasionalTimebaseObserver _fireBlock] : 400 -> 36
+~ -[AVOccasionalTimebaseObserver _effectiveRateChanged] : 648 -> 144
+~ -[AVOnceTimebaseObserver _fireBlock] : 496 -> 128
+~ ___44-[AVOnceTimebaseObserver _resetNextFireTime]_block_invoke : 692 -> 288
+~ ___AVTimebaseObserver_timebaseNotificationCallback_block_invoke : 416 -> 140
+~ -[AVPlayerItemMetadataCollector initWithIdentifiers:classifyingLabels:] : 292 -> 236
+~ -[AVRoutingSessionManager dealloc] : 496 -> 208
+~ -[AVRoutingSessionManager likelyExternalDestinations] : 1540 -> 308
+~ -[AVRoutingSession dealloc] : 384 -> 96
+~ -[AVRoutingSession establishedAutomaticallyFromLikelyDestination] : 1012 -> 252
+~ -[AVRoutingSessionDestination dealloc] : 384 -> 96
+~ -[AVRoutingSessionDestination outputDeviceDescriptions] : 668 -> 136
+~ -[AVRoutingSessionDestination probability] : 608 -> 64
+~ -[AVRoutingSessionDestination providesExternalVideoPlayback] : 616 -> 72
+~ -[AVAssetWriterInput _prepareToFinishWritingReturningError:] : 352 -> 56
+~ -[AVAssetWriterInput requestMediaDataWhenReadyOnQueue:usingBlock:] : 472 -> 180
+~ -[AVAssetWriterInput appendSampleBuffer:] : 1064 -> 556
+~ -[AVAssetWriterInput markAsFinished] : 440 -> 156
+~ -[AVAssetWriterInputWritingHelper observeValueForKeyPath:ofObject:change:context:] : 676 -> 308
+~ -[AVAssetWriterInputWritingHelper appendSampleBuffer:error:] : 512 -> 224
+~ -[AVAssetWriterInputWritingHelper appendPixelBuffer:withPresentationTime:] : 728 -> 208
+~ -[AVAssetWriterInputWritingHelper appendTaggedPixelBufferGroup:withPresentationTime:] : 728 -> 208
+~ -[AVAssetWriterInputWritingHelper appendCaption:error:] : 700 -> 180
+~ -[AVAssetWriterInputWritingHelper appendCaptionGroup:error:] : 700 -> 180
+~ -[AVAssetWriterInputWritingHelper transitionToAndReturnTerminalHelperWithTerminalStatus:] : 656 -> 144
+~ ___62-[AVAssetWriterInputInterPassAnalysisHelper startPassAnalysis]_block_invoke : 528 -> 212
+~ -[AVAssetWriterInputTerminalHelper appendSampleBuffer:error:] : 540 -> 8
+~ -[AVAssetWriterInputTerminalHelper appendPixelBuffer:withPresentationTime:] : 540 -> 8
+~ -[AVAssetWriterInputTerminalHelper appendTaggedPixelBufferGroup:withPresentationTime:] : 540 -> 8
+~ -[AVAssetWriterInputTerminalHelper appendCaption:error:] : 540 -> 8
+~ -[AVAssetWriterInputTerminalHelper appendCaptionGroup:error:] : 540 -> 8
+~ ___52-[AVFigAssetWriterTrack _refreshAboveHighWaterLevel]_block_invoke : 476 -> 172
+~ -[AVFigAssetWriterTrack endPassWithCompletionHandler:] : 504 -> 220
+~ -[AVFigAssetWriterTrack setFormatDescriptions:] : 480 -> 208
+~ -[AVAssetWriterInputMediaDataRequester requestMediaDataIfNecessary] : 1128 -> 200
+~ -[AVAssetWriterInputPassDescriptionResponder respondToNewPassDescription:] : 420 -> 116
+~ ___74-[AVAssetWriterInputPassDescriptionResponder respondToNewPassDescription:]_block_invoke : 532 -> 252
+~ -[AVAssetWriterInputFigAssetWriterEndPassOperation dealloc] : 388 -> 104
+~ _AVAssetWriterInputFigAssetWriterEndPassOperationPassFinished : 580 -> 308
+~ -[AVAssetWriterInputFigAssetWriterEndPassOperation _notifyWhetherMorePassesAreNeeded:timeRanges:forTrackWithID:] : 688 -> 168
+~ -[AVVideoComposition init] : 644 -> 364
+~ -[AVVideoComposition _copyFigVideoCompositor:andSession:recyclingSession:forFigRemaker:error:] : 664 -> 372
+~ -[AVAssetExportSession initWithAsset:presetName:] : 1076 -> 308
+~ -[AVAssetExportSession setFileLengthLimit:] : 448 -> 176
+~ -[AVAssetExportSession setMaximizePowerEfficiency:] : 400 -> 52
+~ -[AVDelegatingPlaybackCoordinator _setIsInExpanseMediaPlaybackOnAVAudioSession] : 652 -> 308
+~ -[AVDelegatingPlaybackCoordinator initWithPlaybackControlDelegate:] : 1968 -> 1744
+~ ___67-[AVDelegatingPlaybackCoordinator initWithPlaybackControlDelegate:]_block_invoke : 584 -> 312
+~ ___60-[AVDelegatingPlaybackCoordinator participantForIdentifier:]_block_invoke : 448 -> 184
+~ -[AVDelegatingPlaybackCoordinator beginSuspensionForReason:] : 416 -> 112
+~ -[AVDelegatingPlaybackCoordinator _endSuspension:] : 364 -> 20
+~ -[AVDelegatingPlaybackCoordinator _endSuspension:proposingNewTime:] : 432 -> 68
+~ ___76-[AVDelegatingPlaybackCoordinator applyFigPauseSnapsToMediaTimeOfOriginator]_block_invoke : 456 -> 124
+~ _avqsbar_figRendererServerDied : 392 -> 100
+~ -[AVSampleBufferAudioRenderer setOutputContext:] : 600 -> 116
+~ -[AVSampleBufferAudioRenderer dealloc] : 640 -> 356
+~ -[AVSampleBufferAudioRenderer _transitionToStatus:error:] : 488 -> 196
+~ -[AVSampleBufferAudioRenderer setAudioOutputDeviceUniqueID:] : 444 -> 116
+~ -[AVSampleBufferAudioRenderer audioOutputDeviceUniqueID] : 336 -> 12
+~ -[AVSampleBufferAudioRenderer setAudioTimePitchAlgorithm:] : 444 -> 116
+~ -[AVSampleBufferAudioRenderer audioTapProcessor] : 332 -> 12
+~ -[AVSampleBufferAudioRenderer allowedAudioSpatializationFormats] : 332 -> 12
+~ -[AVSampleBufferAudioRenderer volume] : 332 -> 12
+~ -[AVSampleBufferAudioRenderer isMuted] : 332 -> 12
+~ -[AVSampleBufferAudioRenderer timebase] : 344 -> 52
+~ -[AVSampleBufferAudioRenderer setRenderSynchronizer:error:] : 844 -> 300
+~ -[AVSampleBufferAudioRenderer setSTSLabel:] : 468 -> 176
+~ -[AVSampleBufferAudioRenderer flush] : 452 -> 180
+~ -[AVSampleBufferAudioRenderer isReadyForMoreMediaData] : 456 -> 160
+~ -[AVSampleBufferAudioRenderer requestMediaDataWhenReadyOnQueue:usingBlock:] : 572 -> 288
+~ -[AVSampleBufferAudioRenderer stopRequestingMediaData] : 372 -> 108
+~ _OUTLINED_FUNCTION_4 : 32 -> 12
+~ -[AVOutputDeviceGroup outputDevices] : 340 -> 8
+~ ___112-[AVPlayerItemMetadataOutput(AVPlayerItemMetadataOutput_Internal) _pushTimedMetadataGroups:fromPlayerItemTrack:]_block_invoke_3 : 620 -> 308
+~ ___64+[AVOutputDeviceAuthorizationSession sharedAuthorizationSession]_block_invoke_2 : 396 -> 124
+~ -[AVOutputDeviceAuthorizationSession outputDeviceAuthorizationSessionImplDidExpireWithReplacementImpl:] : 604 -> 272
+~ -[AVResourceReclamationEvent dealloc] : 376 -> 76
+~ -[AVResourceReclamationEventObserverToken dealloc] : 384 -> 80
+~ -[AVResourceReclamationAssertion initWithDetails:] : 392 -> 92
+~ -[AVResourceReclamationAssertion dealloc] : 384 -> 80
+~ -[AVExternalPlaybackMonitor dealloc] : 496 -> 208
+~ -[AVSampleBufferVideoOutput setUpWithOutputSettings:outputSettingsArePixelBufferAttributes:withExceptionReason:] : 800 -> 384
+~ -[AVSampleBufferVideoOutput init] : 232 -> 176
+~ -[AVSampleBufferVideoOutput _dispatchOutputSequenceWasFlushed] : 400 -> 120
+~ ___62-[AVSampleBufferVideoOutput _dispatchOutputSequenceWasFlushed]_block_invoke : 352 -> 96
+~ _OUTLINED_FUNCTION_5 : 16 -> 12
+~ ___75-[AVPlayerItemRenderedLegibleOutput _pushRenderedCaptionImages:atItemTime:]_block_invoke : 448 -> 96
+~ -[AVPlayerItemRenderedLegibleOutput _signalFlush] : 404 -> 124
+~ ___49-[AVPlayerItemRenderedLegibleOutput _signalFlush]_block_invoke : 348 -> 92
+~ _AVFigRouteDescriptorOutputDeviceImplEndpointVolumeDidChange : 392 -> 104
+~ _AVFigRouteDescriptorOutputDeviceImplEndpointVolumeControlTypeDidChange : 392 -> 104
+~ _AVFigRouteDescriptorOutputDeviceImplEndpointMutedDidChange : 392 -> 104
+~ _AVFigRouteDescriptorOutputDeviceImplEndpointCanMuteDidChange : 392 -> 104
+~ -[AVFigRouteDescriptorOutputDeviceImpl _canSetEndpointVolumeDidChangeForEndpointWithID:] : 636 -> 372
+~ -[AVFigRouteDescriptorOutputDeviceImpl _endpointVolumeControlTypeDidChangeForEndpointWithID:] : 636 -> 372
+~ _AVOutputDeviceGetFigRouteDescriptor : 444 -> 136
+~ -[AVVideoOutputSpecification setOutputSettings:forTagCollection:] : 568 -> 220
+~ -[AVPlayerVideoOutput initWithSpecification:] : 248 -> 192
+~ -[AVPlayerVideoOutput _handleVideoReceiverActiveConfigurationChanged:] : 596 -> 300
+~ -[AVPlayerVideoOutput _setUpVideoReceiverEventHandlers:] : 592 -> 292
+~ _CMTagCollectionCreateWithVideoOutputPreset : 512 -> 260
+~ _figPlaybackItemTrackSampleBufferDidBecomeAvailable : 460 -> 140
+~ _figPlaybackItemTrackResetSampleBufferExtraction : 460 -> 140
+~ -[AVPlayerItemSampleBufferOutput copyNextSampleBufferForTrackID:flags:] : 1032 -> 240
+~ ___109-[AVPlayerItemSampleBufferOutput _figPlaybackItemTrackSampleBufferDidBecomeAvailableForTrackID:extractionID:]_block_invoke_2 : 712 -> 108
+~ ___103-[AVPlayerItemSampleBufferOutput _figPlaybackItemTrackOutputSequenceWasFlushedForTrackID:extractionID:]_block_invoke_2 : 712 -> 108
+~ _AVFigEndpointOutputDeviceImplEndpointRoomVolumeDidChange : 428 -> 132
+~ -[AVFigEndpointOutputDeviceImpl _figEndpointPropertyValueForKey:] : 644 -> 184
+~ -[AVFigEndpointOutputDeviceImpl deviceType] : 428 -> 140
+~ -[AVFigEndpointOutputDeviceImpl deviceSubType] : 360 -> 84
+~ -[AVFigEndpointOutputDeviceImpl isAppleAccessory] : 412 -> 100
+~ -[AVFigEndpointOutputDeviceImpl _volumeDidChangeForEndpointWithID:] : 412 -> 96
+~ -[AVFigEndpointOutputDeviceImpl _volumeForEndpointDidChange:forRoomID:] : 652 -> 380
+~ -[AVFigEndpointOutputDeviceImpl _mutedDidChangeForEndpointWithID:] : 636 -> 372
+~ -[AVFigEndpointOutputDeviceImpl _canMuteDidChangeForEndpointWithID:] : 636 -> 372
+~ -[AVFigEndpointOutputDeviceImpl _endpointVolumeControlTypeDidChangeForEndpointWithID:] : 412 -> 96
+~ -[AVFigEndpointOutputDeviceImpl _canSetEndpointVolumeDidChangeForEndpointWithID:] : 428 -> 112
+~ +[AVOutputDevice(AVOutputDeviceFigEndpointImplFetching) outputDeviceWithFigEndpoint:] : 528 -> 236
+~ +[AVOutputDevice(AVOutputDeviceFigEndpointImplFetching) outputDeviceWithFigEndpoint:volumeController:] : 500 -> 204
+~ +[AVOutputDevice(AVOutputDeviceFigEndpointImplFetching) outputDeviceWithFigEndpoint:routingContextFactory:] : 508 -> 208
+~ _AVOutputDeviceGetFigEndpoint : 412 -> 96
+~ -[AVOutputDeviceTurnByTurnToken initWithEndpoint:] : 536 -> 236
+~ -[AVOutputDeviceTurnByTurnToken dealloc] : 500 -> 212
+~ -[AVOutputDeviceScreenBorrowToken initWithEndpoint:client:reason:] : 584 -> 280
+~ -[AVAssetCustomURLBridgeForNSURLProtocol _cancelPendingRequests] : 520 -> 288
+~ -[AVApplicationStateMonitor _didEnterBackground:] : 324 -> 8
+~ -[AVApplicationStateMonitor _willEnterForeground:] : 324 -> 8
+~ -[AVOutputContext encodeWithCoder:] : 404 -> 116
+~ -[AVOutputContext outputDevice] : 360 -> 56
+~ -[AVOutputContext outputContextImplOutgoingCommunicationChannelDidBecomeAvailable:] : 812 -> 556
+~ -[AVOutputContext outputContextImpl:didExpireWithReplacement:] : 696 -> 372
+~ -[AVOutputContextDestinationChange _setStatus:cancellationReason:] : 448 -> 124
+~ ___66+[AVOutputContextManager outputContextManagerForAllOutputContexts]_block_invoke_2 : 392 -> 120
+~ _AVSystemRemotePoolOutputDeviceCommunicationChannelManagerDidReceiveData : 480 -> 168
+~ _AVSystemRemotePoolOutputDeviceCommunicationChannelManagerDidCloseCommChannel : 428 -> 132
+~ -[AVFormatReaderInspector initWithFormatReader:] : 168 -> 108
+~ -[AVScheduledAudioParameters init] : 172 -> 112
+~ +[AVOperation initialize] : 132 -> 12
+~ -[AVOperation didEnterTerminalState] : 324 -> 4
+~ -[AVOperation markAsCompleted] : 440 -> 152
+~ -[AVOperation markAsFailedWithError:] : 452 -> 152
+~ -[AVOperation markAsCancelled] : 440 -> 152
+~ +[AVOperation(ArrayOfOperations) statusOfOperations:error:] : 616 -> 392
+~ -[AVBlockOperation cancel] : 384 -> 56
+~ -[AVTrackReaderInspector _initWithAsset:trackID:trackIndex:] : 784 -> 528
+~ _handleFigAssetNotification : 472 -> 180
+~ -[AVFigAssetTrackInspector _loadStatusForFigAssetTrackProperty:error:] : 628 -> 296
+~ -[AVFigAssetTrackInspector _invokeCompletionHandlerForLoadingBatches:] : 564 -> 276
+~ ___handleFigAssetTrackNotification_block_invoke : 696 -> 100
+~ _AVLocalizedStringFromTableWithLocaleWithBundleIdentifier : 492 -> 248
+~ -[AVPlayerCaptionLayer init] : 412 -> 292
+~ -[AVPlayerCaptionLayer layoutSublayers] : 1008 -> 436
+~ -[AVPlayerCaptionLayer setBounds:] : 488 -> 152
+~ -[AVPlayerCaptionLayer setPlayer:] : 492 -> 188
+~ -[AVPlayerCaptionLayer _startObservingPlayer:] : 568 -> 260
+~ -[AVPlayerCaptionLayer _stopObservingPlayer:] : 528 -> 300
+~ -[AVPlayerCaptionLayer setValue:forKeyPath:] : 528 -> 232
+~ -[AVPlayerCaptionLayer observeValueForKeyPath:ofObject:change:context:] : 780 -> 428
+~ ___71-[AVPlayerCaptionLayer observeValueForKeyPath:ofObject:change:context:]_block_invoke : 464 -> 56
+~ -[AVPlayerCaptionLayer setCaptionContentInsets:] : 644 -> 332
+~ -[AVPlayerCaptionLayer _interstitialLayer] : 800 -> 496
+~ ___52-[AVPlayerCaptionLayer _setShowInterstitialInstead:]_block_invoke_2 : 560 -> 216
+~ -[AVFigRoutingContextCommandOutputDeviceConfigurationModification setDeviceName:] : 372 -> 20
+~ -[AVFigRoutingContextCommandOutputDeviceConfigurationModification setDevicePassword:] : 372 -> 20
+~ -[AVFigRoutingContextCommandOutputDeviceConfigurationModification startAutomaticallyAllowingConnectionsFromPeersInHomeGroupAndRejectOtherConnections:] : 440 -> 148
+~ -[AVFigRoutingContextCommandOutputDeviceConfigurationModification removePeerWithIDFromHomeGroup:] : 596 -> 304
+~ _AVFigRoutingContextRouteChangeOperationRouteChangeComplete : 360 -> 68
+~ -[AVFigRoutingContextRouteChangeOperation start] : 524 -> 240
+~ -[AVFigRoutingContextRouteChangeOperation _routeChangeStartedWithID:] : 440 -> 124
+~ ___69-[AVFigRoutingContextRouteChangeOperation _routeChangeStartedWithID:]_block_invoke : 784 -> 92
+~ -[AVFigRoutingContextRouteChangeOperation _routeChangeWithID:endedWithReason:] : 1156 -> 404
+~ ___78-[AVFigRoutingContextRouteChangeOperation _routeChangeWithID:endedWithReason:]_block_invoke : 584 -> 96
+~ -[AVFigRoutingContextRouteChangeOperation _routeChangeComplete] : 552 -> 256
+~ -[AVRouteConfigUpdatedFigRoutingContextRouteChangeOperation start] : 432 -> 172
+~ -[AVRouteConfigUpdatedFigRoutingContextRouteChangeOperation _routeConfigUpdateWithID:endedWithReason:] : 1232 -> 272
+~ ___63-[AVCallbackContextRegistry unregisterCallbackContextForToken:]_block_invoke : 408 -> 64
+~ +[AVMetadataGroup initialize] : 132 -> 12
+~ -[AVManagedAssetCache initWithURL:enableCRABSCache:enableHLSCache:] : 536 -> 188
+~ -[AVManagedAssetCache setMaxSize:] : 380 -> 92
+~ -[AVManagedAssetCache setMaxEntrySize:] : 380 -> 92
+~ -[AVManagedAssetCache enableAutomaticCacheSizeManagement] : 348 -> 68
+~ -[AVManagedAssetCache removeEntryForKey:] : 364 -> 72
+~ -[AVCaptionRenderer init] : 820 -> 220
+~ -[AVCaptionRenderer captionSceneChangesInRange:] : 916 -> 384
+~ -[AVCaptionRenderer buildFigCaptionArrayFromAVCaptionArrayAndSubmitToRenderSession] : 1324 -> 304
+~ -[AVCaptionRenderer teardownFigCaptionClient] : 376 -> 72
+~ -[AVCaptionRenderer teardownFigCDS] : 376 -> 72
+~ -[AVMediaSelectionOption _updateDisplayNameWithLocale:fallingBackToMatchingUndeterminedAndMultilingual:context:] : 2472 -> 2724
+~ -[AVAVAudioSettingsAudioOutputSettings getAudioStreamBasicDescription:forAudioFileTypeID:sourceFormatDescription:] : 3580 -> 2192
+~ _AVMediaStatePurgePostMediaStateWasPurgedNotificationForObject : 408 -> 4
+~ -[AVCoordinatedPlaybackSuspension initWithCoordinator:reason:] : 492 -> 240
+~ ___67-[AVPlayerPlaybackCoordinator _addFigPlaybackCoordinatorListeners:]_block_invoke : 608 -> 332
+~ -[AVPlayerPlaybackCoordinator _setInterstitialActive:] : 656 -> 336
+~ -[AVPlayerPlaybackCoordinator _reactToNewDelegate] : 372 -> 88
+~ -[AVPlayerPlaybackCoordinator _setIsInExpanseMediaPlaybackOnAVAudioSession] : 676 -> 324
+~ ___56-[AVPlayerPlaybackCoordinator participantForIdentifier:]_block_invoke : 448 -> 184
+~ -[AVPlayerPlaybackCoordinator _updateCoordinationMediumDelegateOnFigPlaybackCoordinator] : 452 -> 88
+~ -[AVPlayerPlaybackCoordinator _updateTransportControlStateDictionaryOnFigPlaybackCoordinatorForItemIdentifier:] : 444 -> 152
+~ -[AVPlayerPlaybackCoordinator _updateParticipantStateOnFigPlaybackCoordinatorForItemWithIdentifier:] : 444 -> 152
+~ -[AVPlayerPlaybackCoordinator handleReplacementParticipantStateDictionaries:] : 528 -> 236
+~ -[AVPlayerPlaybackCoordinator _synchronizeWorkOnPlayerQueue:] : 424 -> 168
+~ -[AVPlayerPlaybackCoordinator _endSuspension:] : 556 -> 256
+~ -[AVPlayerPlaybackCoordinator _endSuspension:proposingNewTime:] : 620 -> 276
+~ -[AVPlayerPlaybackCoordinator _updateWaitingPoliciesOnFigPlaybackCoordinator:] : 472 -> 184
+~ ___95-[AVPlayerPlaybackCoordinator _updatePauseSnapsToMediaTimeOfOriginatorOnFigPlaybackCoordinator]_block_invoke : 536 -> 236
+~ -[AVPlayerPlaybackCoordinator _resetGroupTimelineExpectations] : 716 -> 232
+~ _OUTLINED_FUNCTION_2 : 20 -> 12
+~ -[AVAssetDownloadSession _common_init] : 236 -> 180
+~ -[AVAssetDownloadSession initWithURL:destinationURL:options:] : 2528 -> 1988
+~ -[AVAssetDownloadSession initWithDownloadToken:] : 580 -> 292
+~ -[AVAssetDownloadSession initWithAsset:mediaSelections:destinationURL:options:] : 808 -> 504
+~ -[AVAssetDownloadSession start] : 572 -> 276
+~ ___31-[AVAssetDownloadSession pause]_block_invoke : 620 -> 320
+~ ___30-[AVAssetDownloadSession stop]_block_invoke : 620 -> 320
+~ ___101-[AVAssetDownloadSession(AVAssetDownloadSession_Local) ensureProgressTimerIsRunningOnQueueWithError:]_block_invoke : 416 -> 84
+~ ___83-[AVAssetDownloadSession(AVAssetDownloadSession_Local) _setupFigClientObjectAsync:]_block_invoke_2 : 600 -> 232
+~ -[AVAssetDownloadSession(AVAssetDownloadSession_Local) _startOnQueue] : 696 -> 408
+~ -[AVAssetDownloadSession(AVAssetDownloadSession_Local) _primeCacheOnDispatchQueue] : 796 -> 272
+~ -[AVAssetDownloadSession(AVAssetDownloadSession_Local) _primeCache] : 772 -> 220
+~ -[AVAssetDownloadSession(AVAssetDownloadSession_Local) _readyForInspection] : 384 -> 84
+~ -[AVAssetDownloadSession(AVAssetDownloadSession_Local) _verifyDownloadConfigurationForAssetType] : 540 -> 288
+~ _avAssetDownloadSession_figAssetNotificationCallback : 1360 -> 460
+~ _avAssetDownloadSession_figPlaybackItemNotificationCallback : 1032 -> 496
+~ -[AVPlayerItemVideoOutput _dispatchOutputSequenceWasFlushed] : 408 -> 128
+~ ___60-[AVPlayerItemVideoOutput _dispatchOutputSequenceWasFlushed]_block_invoke : 352 -> 96
+~ -[AVSampleBufferVideoRenderer setControlTimebase:] : 632 -> 320
+~ -[AVSampleBufferVideoRenderer _createVideoQueue:errorStep:] : 1124 -> 544
+~ -[AVSampleBufferVideoRenderer createVideoQueue:] : 556 -> 112
+~ -[AVSampleBufferVideoRenderer _setOutputObscuredDueToInsufficientExternalProtection:] : 836 -> 236
+~ -[AVSampleBufferVideoRenderer init] : 2324 -> 1176
+~ -[AVSampleBufferVideoRenderer setDisplayLayerVisibility:] : 484 -> 120
+~ ___57-[AVSampleBufferVideoRenderer setDisplayLayerVisibility:]_block_invoke : 1176 -> 272
+~ -[AVSampleBufferVideoRenderer setSTSLabel:] : 484 -> 172
+~ -[AVSampleBufferVideoRenderer setReadyForDisplayWithoutKVO:] : 848 -> 568
+~ -[AVSampleBufferVideoRenderer removeDisplayLayer] : 468 -> 144
+~ -[AVSampleBufferVideoRenderer enqueueSampleBuffer:] : 696 -> 408
+~ -[AVSampleBufferVideoRenderer enqueueSampleBuffer:bufferEnqueueingInfo:] : 1192 -> 488
+~ __enqueueSingleSampleBufferStatic : 144 -> 52
+~ -[AVSampleBufferVideoRenderer _flushComplete] : 532 -> 252
+~ -[AVSampleBufferVideoRenderer _callOldPrerollCompletionHandlerWithSuccess:andSetNewPrerollCompletionHandler:forRequestID:] : 672 -> 316
+~ -[AVSampleBufferVideoRenderer _completedDecodeForPrerollForRequestID:] : 616 -> 296
+~ ___70-[AVSampleBufferVideoRenderer _completedDecodeForPrerollForRequestID:]_block_invoke : 564 -> 52
+~ -[AVSampleBufferVideoRenderer requestMediaDataWhenReadyOnQueue:usingBlock:] : 604 -> 304
+~ -[AVSampleBufferVideoRenderer addSampleBufferDisplayLayer:] : 1072 -> 412
+~ -[AVSampleBufferVideoRenderer _setContentLayerOnFigVideoQueue:] : 812 -> 420
+~ ___63-[AVSampleBufferVideoRenderer _setContentLayerOnFigVideoQueue:]_block_invoke : 448 -> 132
+~ -[AVSampleBufferVideoRenderer(PowerOptimization) expectMinimumUpcomingSampleBufferPresentationTime:] : 664 -> 400
+~ -[AVSampleBufferVideoRenderer(AVSampleBufferVideoRendererOutputs) addOutput:] : 596 -> 292
+~ -[AVSampleBufferVideoRenderer(AVSampleBufferVideoRendererOutputs) removeOutput:] : 592 -> 288
+~ -[AVSampleBufferVideoRenderer(AVSampleBufferVideoRendererOutputs) copyDisplayedPixelBuffer] : 556 -> 268
+~ ___91-[AVSampleBufferVideoRenderer(AVSampleBufferVideoRendererOutputs) copyDisplayedPixelBuffer]_block_invoke : 768 -> 540
+~ __figVideoQueueDidDropBelowLowWaterLevel : 444 -> 68
+~ __figVideoQueueDecodeError : 808 -> 540
+~ __figVideoQueueFlushComplete : 368 -> 68
+~ __figVideoQueueCompletedDecodeForPreroll : 436 -> 144
+~ __figVideoQueueExternalProtectionStatusChanged : 672 -> 308
+~ __figVideoQueueFailed : 472 -> 172
+~ __figVideoQueueServerConnectionDied : 404 -> 100
+~ __figVideoQueueServerDependencyLost : 404 -> 100
+~ __figVideoQueueLostDecoderState : 360 -> 72
+~ _OUTLINED_FUNCTION_4 : 28 -> 12
+~ -[AVSampleBufferDisplayLayer init] : 936 -> 316
+~ -[AVSampleBufferDisplayLayer dealloc] : 500 -> 180
+~ -[AVSampleBufferDisplayLayer setBounds:] : 516 -> 76
+~ -[AVSampleBufferDisplayLayer layoutSublayers] : 696 -> 400
+~ -[AVSampleBufferDisplayLayer layerDidBecomeVisible:] : 440 -> 88
+~ -[AVSampleBufferDisplayLayer videoRect] : 764 -> 420
+~ -[AVSampleBufferDisplayLayer setSTSLabel:] : 512 -> 160
+~ ___42-[AVSampleBufferDisplayLayer setSTSLabel:]_block_invoke : 1032 -> 212
+~ -[AVSampleBufferDisplayLayer(AVSampleBufferDisplayLayerQueueManagement) enqueueSampleBuffer:] : 424 -> 148
+~ _customURLHandlerHandleRequestCallback : 524 -> 224
+~ _customURLHandlerRequestCancelled : 472 -> 164
+~ _customURLAuthHandlerHandleRequestCallback : 548 -> 236
+~ _customURLAuthHandlerRequestCancelled : 472 -> 164
+~ -[AVAssetResourceLoadingDataRequest respondWithData:] : 508 -> 196
+~ -[AVAssetResourceLoadingRequest _appendToCachedData:] : 472 -> 120
+~ ___53-[AVAssetResourceLoadingRequest _appendToCachedData:]_block_invoke : 452 -> 128
+~ -[AVAssetResourceLoadingRequest _sendResponseInfoToCustomURLHandler] : 388 -> 228
+~ -[AVAssetResourceLoadingRequest _sendDataToCustomURLHandler:] : 404 -> 76
+~ -[AVAssetResourceLoadingRequest _sendFinishLoadingToCustomURLHandlerWithError:] : 592 -> 276
+~ -[AVAssetResourceLoadingRequest finishLoading] : 828 -> 372
+~ -[AVAssetResourceLoadingRequest finishLoadingWithError:] : 488 -> 212
+~ _AVCanWriteFilesToDirectoryAtURL : 668 -> 332
+~ -[AVSampleBufferRenderSynchronizer init] : 1576 -> 548
+~ _avrendersynchronizer_timebaseRateChanged : 416 -> 68
+~ -[AVSampleBufferRenderSynchronizer dealloc] : 1032 -> 516
+~ ___49+[AVSampleBufferRenderSynchronizer _makeSTSLabel]_block_invoke : 412 -> 68
+~ -[AVSampleBufferRenderSynchronizer(AVSampleBufferRenderSynchronizerRendererManagement) _addRenderer:error:] : 1092 -> 524
+~ ___107-[AVSampleBufferRenderSynchronizer(AVSampleBufferRenderSynchronizerRendererManagement) _addRenderer:error:]_block_invoke_3 : 476 -> 192
+~ -[AVSampleBufferRenderSynchronizer(AVSampleBufferRenderSynchronizerRendererManagement) addRenderer:] : 1168 -> 592
+~ -[AVSampleBufferRenderSynchronizer(AVSampleBufferRenderSynchronizerRendererManagement) _createOnceTimebaseObserverForRemovalOfRenderer:atTime:] : 576 -> 252
+~ ___143-[AVSampleBufferRenderSynchronizer(AVSampleBufferRenderSynchronizerRendererManagement) _createOnceTimebaseObserverForRemovalOfRenderer:atTime:]_block_invoke : 828 -> 280
+~ -[AVSampleBufferRenderSynchronizer(AVSampleBufferRenderSynchronizerRendererManagement) _scheduleTimedRendererRemovalAtTime:atTime:withClientCompletionHandler:] : 1580 -> 304
+~ -[AVSampleBufferRenderSynchronizer(AVSampleBufferRenderSynchronizerRendererRestrictions) _canAddRendererInternal:error:] : 724 -> 232
+~ -[AVSampleBufferRenderSynchronizer(AVSampleBufferRenderSynchronizerRendererRestrictions) _rendererConfigurationIsValid:] : 420 -> 132
+~ -[AVSampleBufferRenderSynchronizer(AVSampleBufferRenderSynchronizerTimeObservation) removeTimeObserver:] : 476 -> 180
+~ +[AVPlayerItemLegibleOutput initialize] : 132 -> 12
+~ ___80-[AVPlayerItemLegibleOutput _pushAttributedStrings:andSampleBuffers:atItemTime:]_block_invoke : 688 -> 108
+~ -[AVPlayerItemLegibleOutput _signalFlush] : 408 -> 128
+~ ___41-[AVPlayerItemLegibleOutput _signalFlush]_block_invoke : 352 -> 96
+~ _AVFigRouteDiscovererRoutePresentChanged : 340 -> 68
+~ _AVFigRouteDiscovererEndpointDescriptorChanged : 340 -> 68
+~ -[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl setTargetAudioSession:] : 504 -> 228
+~ -[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl _routePresentChanged] : 344 -> 56
+~ -[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl _endpointDescriptorChanged] : 344 -> 56
+~ -[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl _serverDied] : 388 -> 92
+~ _OUTLINED_FUNCTION_4 : 16 -> 48
+~ -[AVScheduledFloatValueRamp _interpolatedValueAtTime:] : 664 -> 372
+~ -[AVAsynchronousCIImageFilteringRequest finishWithImage:context:] : 1152 -> 432
+~ -[AVAsynchronousCIImageFilteringRequest finishWithError:] : 372 -> 84
+~ +[AVCoreImageFilterCustomVideoCompositor initialize] : 132 -> 12
+~ -[AVCoreImageFilterCustomVideoCompositor renderContextChanged:] : 396 -> 116
+~ -[AVCoreImageFilterCustomVideoCompositor startVideoCompositionRequest:] : 788 -> 524
+~ -[AVCoreImageFilterCustomVideoCompositor cancelAllPendingVideoCompositionRequests] : 552 -> 76
+~ -[AVExternalDeviceHID initWithExternalDeviceAndHIDDictionary:hidDictionary:] : 532 -> 236
+~ -[AVExternalDeviceIcon initWithDictionary:] : 688 -> 404
+~ -[AVExternalDeviceScreenBorrowToken initWithExternalDevice:client:reason:] : 576 -> 272
+~ -[AVExternalDeviceScreenBorrowToken dealloc] : 548 -> 244
+~ -[AVExternalDeviceTurnByTurnToken initWithExternalDevice:] : 512 -> 220
+~ -[AVExternalDeviceTurnByTurnToken dealloc] : 500 -> 212
+~ -[AVExternalDevice init] : 196 -> 140
+~ -[AVExternalDevice screenIDs] : 520 -> 296
+~ -[AVExternalDevice screenInputCapabilities] : 572 -> 348
+~ -[AVExternalDevice screenPrimaryInputDevices] : 564 -> 340
+~ ___38-[AVExternalDevice externalDeviceHIDs]_block_invoke : 584 -> 344
+~ _figEndpointNotificationCallback : 1368 -> 888
+~ -[AVCustomVideoCompositorSession initWithVideoComposition:] : 1156 -> 588
+~ -[AVCustomVideoCompositorSession commitCustomVideoCompositorPropertiesAndReturnError:] : 1560 -> 1068
+~ ___188-[AVCustomVideoCompositorSession(AVCustomVideoCompositorSession_FigCallbackHandling) _compositionFrame:atTime:requiresRenderUsingSources:requiresSampleBuffersUsingSources:withInstruction:]_block_invoke_2 : 580 -> 300
+~ ___123-[AVCustomVideoCompositorSession(AVCustomVideoCompositorSession_FigCallbackHandling) _customCompositorFigPropertyDidChange]_block_invoke : 356 -> 76
+~ -[AVClientBlockKVONotifier dealloc] : 488 -> 156
+~ -[AVWeaklyObservedObjectClientBlockKVONotifier cancelCallbacks] : 444 -> 120
+~ ___49-[AVVideoCompositionRenderContext newPixelBuffer]_block_invoke : 708 -> 388
+~ -[AVVideoCompositionRenderContext(Internal) initWithFigVideoCompositor:clientRequiredPixelBufferAttributes:videoComposition:pixelBufferPool:] : 3616 -> 1044
+~ -[AVVideoCompositionRenderContext(Internal) pixelBufferPool] : 944 -> 644
+~ +[AVFigRoutingContextOutputContextImpl sharedSystemRemoteDisplayContext] : 424 -> 164
+~ +[AVFigRoutingContextOutputContextImpl allSharedAudioOutputContextImpls] : 572 -> 316
+~ ___72-[AVFigRoutingContextOutputContextImpl initWithRoutingContextUUID:type:]_block_invoke : 680 -> 232
+~ -[AVFigRoutingContextOutputContextImpl _routeChangeEndedWithID:reason:] : 596 -> 268
+~ -[AVFigRoutingContextOutputContextImpl _currentRouteChanged] : 348 -> 60
+~ -[AVFigRoutingContextOutputContextImpl _groupConfigurationChanged] : 360 -> 72
+~ -[AVFigRoutingContextOutputContextImpl _routeConfigUpdatedWithID:reason:initiator:endedError:deviceID:previousDeviceIDs:] : 804 -> 524
+~ -[AVFigRoutingContextOutputContextImpl _systemPickerVideoRouteChanged] : 344 -> 56
+~ -[AVFigRoutingContextOutputContextImpl associatedAudioDeviceID] : 724 -> 184
+~ -[AVFigRoutingContextOutputContextImpl _createSelectRouteOptionsForSetOutputDeviceOptions:] : 1272 -> 968
+~ -[AVFigRoutingContextOutputContextImpl setOutputDevice:options:completionHandler:] : 428 -> 124
+~ -[AVFigRoutingContextOutputContextImpl setOutputDevices:options:completionHandler:] : 752 -> 480
+~ -[AVFigRoutingContextOutputContextImpl removeOutputDevice:options:completionHandler:] : 760 -> 488
+~ -[AVFigRoutingContextOutputContextImpl _canUseForRoutingContextDidChangeForRoutingContextWIthID:] : 392 -> 96
+~ -[AVFigRoutingContextOutputContextImpl _masterVolumeDidChangeForRoutingContextWithID:] : 392 -> 96
+~ -[AVFigRoutingContextOutputContextImpl _canSetMasterVolumeDidChangeForRoutingContextWithID:] : 392 -> 96
+~ -[AVFigRoutingContextOutputContextImpl _canMuteDidChangeForRoutingContextWithID:] : 392 -> 96
+~ -[AVFigRoutingContextOutputContextImpl _muteDidChangeForRoutingContextWithID:] : 392 -> 96
+~ -[AVFigRoutingContextOutputContextImpl _masterVolumeControlTypeDidChangeForRoutingContextWithID:] : 392 -> 96
+~ -[AVFigRoutingContextOutputContextImpl _serverConnectionDied] : 416 -> 144
+~ -[AVFigCommChannelUUIDCommunicationChannelManager outgoingCommunicationChannel] : 1100 -> 600
+~ ___79-[AVFigCommChannelUUIDCommunicationChannelManager outgoingCommunicationChannel]_block_invoke : 736 -> 232
+~ -[AVFigCommChannelUUIDCommunicationChannelManager _didReceiveData:fromCommChannelUUID:] : 608 -> 280
+~ -[AVFigCommChannelUUIDCommunicationChannelManager didCloseCommChannelUUID:] : 592 -> 272
+~ -[AVFigEndpointFigRoutingContextOutputDeviceTranslator setOutputDevice:withOptions:onRoutingContext:completionHandler:] : 776 -> 260
+~ ___119-[AVFigEndpointFigRoutingContextOutputDeviceTranslator setOutputDevice:withOptions:onRoutingContext:completionHandler:]_block_invoke : 356 -> 84
+~ -[AVFigEndpointFigRoutingContextOutputDeviceTranslator setOutputDevices:withOptions:onRoutingContext:completionHandler:] : 728 -> 480
+~ ___120-[AVFigEndpointFigRoutingContextOutputDeviceTranslator setOutputDevices:withOptions:onRoutingContext:completionHandler:]_block_invoke : 344 -> 68
+~ ___119-[AVFigEndpointFigRoutingContextOutputDeviceTranslator addOutputDevice:withOptions:toRoutingContext:completionHandler:]_block_invoke : 344 -> 68
+~ -[AVFigEndpointFigRoutingContextOutputDeviceTranslator removeOutputDevice:withOptions:fromRoutingContext:completionHandler:] : 536 -> 220
+~ ___124-[AVFigEndpointFigRoutingContextOutputDeviceTranslator removeOutputDevice:withOptions:fromRoutingContext:completionHandler:]_block_invoke : 344 -> 68
+~ -[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator setOutputDevice:withOptions:onRoutingContext:completionHandler:] : 776 -> 260
+~ ___126-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator setOutputDevice:withOptions:onRoutingContext:completionHandler:]_block_invoke : 356 -> 84
+~ -[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator setOutputDevices:withOptions:onRoutingContext:completionHandler:] : 728 -> 480
+~ ___127-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator setOutputDevices:withOptions:onRoutingContext:completionHandler:]_block_invoke : 344 -> 68
+~ ___126-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator addOutputDevice:withOptions:toRoutingContext:completionHandler:]_block_invoke : 344 -> 68
+~ -[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator removeOutputDevice:withOptions:fromRoutingContext:completionHandler:] : 536 -> 220
+~ ___131-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator removeOutputDevice:withOptions:fromRoutingContext:completionHandler:]_block_invoke : 344 -> 68
+~ _AVOutputContextManagerServerConnectionDied : 588 -> 384
+~ -[AVFigEndpointUIAgentOutputContextManagerImpl _showErrorPromptForRouteDescriptor:reason:didFailToConnectToOutputDeviceDictionary:] : 680 -> 368
+~ _OUTLINED_FUNCTION_14 : 52 -> 12
+~ _OUTLINED_FUNCTION_15 : 32 -> 12
+~ _OUTLINED_FUNCTION_23 : 44 -> 28
+~ -[AVMovie init] : 944 -> 616
+~ -[AVMovie initWithURL:options:] : 836 -> 512
+~ -[AVMovie initWithData:options:] : 1064 -> 752
+~ -[AVMovie _initWithFigAsset:] : 544 -> 216
+~ -[AVMovie _initWithFormatReader:URL:data:options:] : 884 -> 548
+~ -[AVMovie _initWithFigError:userInfo:] : 584 -> 244
+~ -[AVMutableMovie initWithURL:options:error:] : 1348 -> 744
+~ -[AVMutableMovie initWithSettingsFromMovie:options:error:] : 1164 -> 564
+~ -[AVMutableMovie setPreferredTransform:] : 500 -> 216
+~ -[AVContentKeyRequest initWithContentKeySession:reportGroup:identifier:contentIdentifier:keyIDFromInitializationData:initializationData:preloadingRequestOptions:providesPersistableKey:] : 1020 -> 924
+~ -[AVContentKeyRequest initWithContentKeySession:reportGroup:customURLHandler:identifier:requestInfo:requestID:providesPersistableKey:isRenewalRequest:] : 952 -> 900
+~ -[AVContentKeyRequest initWithContentKeySession:contentKeyBoss:useContentKeyBoss:keySpecifier:initializationData:keyIDFromInitializationData:contentIdentifier:isRenewalRequest:requestID:providesPersistableKey:preloadingRequestOptions:identifier:supportsOfflineKey:] : 596 -> 544
+~ +[AVContentKeySession copyDefaultSecureStopManagerForAppIdentifier:storageDirectoryAtURL:] : 476 -> 188
+~ ___83-[AVContentKeySession externalProtectionStateChangedCallbackWithBoss:keySpecifier:]_block_invoke : 520 -> 236
+~ -[AVContentKeySession(AVContentKeyRequestSupport) issueContentKeyRequests:forInitializationData:] : 960 -> 488
+~ -[AVContentKeySession(AVContentKeyRequestSupport) issueContentKeyRequest:toDelegateWithCallbackSelector:] : 692 -> 216
+~ ___89-[AVContentKeySession(AVContentKeyRequestSupport) contentKeyRequestDidProduceContentKey:]_block_invoke : 404 -> 400
+~ ___89-[AVContentKeySession(AVContentKeyRequestSupport) contentKeyRequestDidProduceContentKey:]_block_invoke_2 : 652 -> 392
+~ -[AVContentKeySession(AVContentKeySession_Internal) issueContentKeyRequestForInitializationData:] : 664 -> 384
+~ _customURLHandlerHandleRequestCallback : 500 -> 192
+~ -[AVContentKeyReportGroup failProcessingContentKeyRequestWithIdentifier:initializationData:error:] : 440 -> 156
+~ _avckrg_keyResponseErrorCallback : 456 -> 148
+~ _avckrg_keyResponseSuccessfullyProcessedCallback : 440 -> 132
+~ _avckrg_persistentKeyUpdatedCallback : 436 -> 132
+~ _avckrg_secureStopDidFinalizeRecordCallback : 396 -> 108
+~ _avckrg_externalProtectionStateChangedCallback : 404 -> 124
+~ -[AVContentKeyReportGroup(AVContentKeyReportGroupPrivateUtilities) _setAuthorizationToken:forIdentifier:error:] : 536 -> 240
+~ _OUTLINED_FUNCTION_16 : 28 -> 36
+~ _OUTLINED_FUNCTION_17 : 12 -> 36
+~ -[AVFigEndpointUIAgentOutputDeviceAuthorizationSessionImpl _startNewRequest:impl:] : 408 -> 104
+~ -[AVFigEndpointUIAgentOutputDeviceAuthorizationSessionImpl _notifyCurrentRequestOfTerminalStatus:error:] : 404 -> 64
+~ -[AVRouteDetector _updateMultipleRoutesDetected] : 1112 -> 324
+~ -[AVRouteDetector _updateRouteDetectionEnabled] : 1912 -> 556
+~ ___47-[AVRouteDetector _updateRouteDetectionEnabled]_block_invoke : 620 -> 120
+~ -[AVStreamDataParser init] : 416 -> 84
+~ -[AVStreamDataParser dealloc] : 508 -> 232
+~ -[AVStreamDataParser providePendingMediaData] : 488 -> 232
+~ -[AVStreamDataParser setShouldProvideMediaData:forTrackID:] : 604 -> 400
+~ -[AVStreamDataParser _createAssetIfNecessary] : 1168 -> 708
+~ +[AVStreamDataParser(AVStreamDataParser_FigManifold) _createBlockBufferUsingNSData:withOffset:withLength:] : 428 -> 72
+~ -[AVStreamDataParser(AVStreamDataParser_FigManifold) _figManifold:pushedSampleBuffer:trackID:flags:] : 2020 -> 952
+~ -[AVStreamDataParser(AVStreamDataParser_FigManifold) _figManifold:formatDescription:orDecryptorDidChange:forTrackID:] : 3708 -> 1892
+~ -[AVStreamDataParser(AVStreamDataParser_FigManifold) _registerForFigManifoldCallbacksForTrackID:] : 456 -> 196
+~ -[AVStreamDataParser(AVStreamDataParser_FigManifold) _unregisterForFigManifoldCallbacksForTrackID:] : 452 -> 176
+~ -[AVStreamDataParser(AVStreamDataParser_FigManifold) _figManifoldAllNewTracksReady:] : 320 -> 4
+~ __figManifoldError : 352 -> 8
+~ -[AVStreamDataParser(AVStreamDataParser_FigManifold) _createFigManifoldWithBlockBuffer:manifold:] : 400 -> 120
+~ -[AVStreamDataParser(AVStreamDataParser_ContentKeySessionDelegate) contentKeySession:didProvideContentKeyRequest:] : 452 -> 160
+~ ___84-[AVStreamDataParser(AVStreamDataParserSandboxedParsing) setPreferSandboxedParsing:]_block_invoke : 416 -> 92
+~ -[AVMetadataItem(AVMetadataItem_Local) _valueFromCFType:].cold.1 : 112 -> 56
+~ _appendCaptionGroupToQueue.cold.1 : 124 -> 72
+~ -[AVURLAsset(AVURLAssetContentKeyEligibilityInternal) _attachToContentKeySession:contentKeyBoss:failedSinceAlreadyAttachedToAnotherSession:] : 1080 -> 1028
+~ -[AVAssetImageGenerator _ensureFigAssetImageGeneratorAllowingSynchronousPropertyLoad:error:] : 816 -> 536
+~ -[AVOutputDeviceHID setInputMode:] : 468 -> 508
+~ -[AVPlayer _removeItem:] : 720 -> 536
+~ -[AVPlayerItem _applyCurrentVideoComposition] : 1300 -> 792
+~ ___63-[AVAssetDownloadStorageManager storageManagementPolicyForURL:]_block_invoke : 436 -> 136
+~ -[AVMutableComposition insertEmptyTimeRange:] : 492 -> 264
+~ -[AVMutableComposition removeTimeRange:] : 492 -> 264
+~ -[AVMutableComposition scaleTimeRange:toDuration:] : 768 -> 388
+~ -[AVMutableComposition _addMutableTrackWithMediaType:preferredTrackID:fireKVO:] : 608 -> 344
+~ -[AVMutableComposition _removeTrack:fireKVO:] : 660 -> 408
+~ -[AVMutableComposition mutableTrackCompatibleWithTrack:] : 960 -> 508
+~ -[AVMutableCompositionTrack setSegments:] : 756 -> 540
+~ -[AVMutableCompositionTrack _insertTimeRange:ofTrack:atTime:fireKVO:error:] : 1128 -> 612
+~ -[AVMutableCompositionTrack insertTimeRanges:ofTracks:atTime:error:].cold.1 : 160 -> 80
+~ +[AVRoutingSessionManager longFormVideoRoutingSessionManager] : 440 -> 116
+~ -[AVRoutingSessionManager initWithFigRoutingSessionManager:] : 536 -> 256
+~ _AVRoutingSessionManagerGetLikelyDestinationsFromFig : 596 -> 312
+~ -[AVRoutingSession destination] : 556 -> 204
+~ -[AVSampleBufferAudioRenderer _installNotificationHandlers] : 492 -> 276
+~ -[AVSampleBufferAudioRenderer _uninstallNotificationHandlers] : 432 -> 232
+~ -[AVSampleBufferAudioRenderer setAudioTapProcessor:] : 372 -> 232
+~ -[AVSampleBufferAudioRenderer setVolume:] : 496 -> 240
+~ -[AVSampleBufferAudioRenderer setMuted:] : 396 -> 216
+~ -[AVOutputDeviceGroup initWithOutputDeviceGroupImpl:] : 432 -> 120
+~ _AVFigEndpointRemoteControlSessionOutputDeviceCommunicationChannelImplHandleEvent : 696 -> 488
+~ -[AVOutputDeviceAuthorizationSession initWithOutputDeviceAuthorizationSessionImpl:] : 480 -> 180
+~ +[AVExternalPlaybackMonitor longFormVideoExternalPlaybackMonitor] : 536 -> 116
+~ -[AVExternalPlaybackMonitor initWithFigRoutingSessionManager:] : 688 -> 256
+~ _AVResetMediaServices.cold.1 : 112 -> 8
+~ _AVResetMediaServices.cold.2 : 112 -> 8
+~ -[AVOutputDeviceFrecentsReader initWithFrecentsFilePath:error:] : 740 -> 780
+~ -[AVOutputDeviceAuthorizedPeer initWithID:publicKey:hasAdministratorPrivileges:] : 192 -> 180
+~ -[AVFigRouteDescriptorOutputDeviceImpl _withEndpoint:] : 960 -> 892
+~ -[AVFigRouteDescriptorOutputDeviceImpl setCurrentBluetoothListeningMode:error:] : 864 -> 860
+~ -[AVOutputDeviceViewAreaInfo initWithViewArea:transitionControl:supportsFocusTransfer:statusBarEdge:safeArea:] : 476 -> 164
+~ -[AVOutputDeviceScreenInfo initWithDict:] : 1388 -> 1168
+~ -[AVOutputContext initWithCoder:] : 444 -> 188
+~ -[AVFigAssetInspector variants] : 524 -> 212
+~ -[AVOutputDeviceIcon initWithDict:] : 688 -> 396
+~ -[AVCaptionRenderer renderInContext:atTime:] : 904 -> 248
+~ -[AVPlayerPlaybackCoordinator _setIntegratedTimelineCreatingNew:] : 460 -> 192
+~ -[AVSampleBufferVideoRenderer setRenderSynchronizer:error:] : 856 -> 220
+~ _customURLHandlerRequestCancelled.cold.2 : 108 -> 4
+~ -[AVAssetResourceLoadingRequest _sendResponseInfoToCustomURLHandler].cold.1 : 764 -> 756
+~ -[AVAssetResourceLoadingRequest _sendDataToCustomURLHandler:].cold.1 : 212 -> 224
+~ -[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl _serverDied].cold.1 : 284 -> 288
+~ -[AVAsynchronousCIImageFilteringRequest finishWithImage:context:].cold.2 : 68 -> 80
+~ +[AVFigRoutingContextOutputContextImpl platformDependentScreenOrVideoContext] : 308 -> 304
+~ -[AVFigRoutingContextOutputContextImpl _routeChangeStartedWithID:] : 440 -> 160
+~ -[AVFigRoutingContextOutputContextImpl _routeConfigUpdateStartedWithID:] : 164 -> 160
+~ +[AVFigRoutingContextOutputContextImpl resetOutputDeviceForAllOutputContexts] : 372 -> 432
+~ -[AVFigRoutingContextOutputContextImpl _remoteControlChannelAvailabilityChanged] : 448 -> 220
+~ -[AVFigEndpointFigRoutingContextOutputDeviceTranslator outputDeviceFromRoutingContext:] : 584 -> 208
+~ -[AVFigEndpointFigRoutingContextOutputDeviceTranslator addOutputDevice:withOptions:toRoutingContext:completionHandler:] : 420 -> 204
+~ -[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator outputDeviceFromRoutingContext:] : 548 -> 212
+~ -[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator addOutputDevice:withOptions:toRoutingContext:completionHandler:] : 420 -> 204
+~ -[AVContentKeySession processContentKeyRequestForTransportStreamWithCodecType:initializationData:groupID:options:] : 296 -> 292
+~ -[AVContentKeySession(AVContentKeySession_Internal) _handleRequest:withRequestID:fromHandler:willHandleRequest:] : 1068 -> 1084
+~ ___152-[AVContentKeyReportGroup(AVContentKeyReportGroup_Internal) createCryptorIfNecessaryForIdentifier:initializationData:formatDescription:hlsMethod:error:]_block_invoke : 392 -> 304
+~ ___105-[AVContentKeyReportGroup(AVContentKeyReportGroup_Internal) copyCryptorForIdentifier:initializationData:]_block_invoke : 316 -> 232
+~ -[AVContentKeyRequest initWithContentKeySession:reportGroup:identifier:contentIdentifier:keyIDFromInitializationData:initializationData:preloadingRequestOptions:providesPersistableKey:].cold.1 : 124 -> 60
+~ +[AVContentKeySession(AVContentKeySessionPendingExpiredSessionReports) pendingExpiredSessionReportsWithAppIdentifier:storageDirectoryAtURL:].cold.1 : 108 -> 8
+~ _avckrg_secureStopDidFinalizeRecordCallback.cold.1 : 108 -> 8
+~ -[AVFigEndpointUIAgentOutputDeviceAuthorizationSessionImpl initWithFigEndpointUIAgent:] : 676 -> 392
+~ -[AVStreamDataParser(AVStreamDataParser_FigManifold) _figManifold:trackDidEnd:] : 532 -> 260
+~ -[AVStreamDataParser(AVStreamDataParser_FigManifold) _figManifold:discoveredNewTrackID:mediaType:] : 664 -> 304
+~ -[AVStreamDataParser(AVStreamDataParser_FigManifold) _figManifold:formatDescription:orDecryptorDidChange:forTrackID:].cold.1 : 152 -> 76
+
+Functions (added):
++ ___21-[AVPlayerLayer init]_block_invoke_5
++ ___67-[AVPlayerLayer _handleIsDisplayingClosedCaptionsDidChange:player:]_block_invoke_2
++ ___35-[AVPlayerLayer _setPlayer:forPIP:]_block_invoke_3
++ ___56-[AVPlayerLayer _setShowInterstitialInstead:afterDelay:]_block_invoke_3
++ ___46-[AVPlayerLooper _setupLoopingReturningError:]_block_invoke_2
++ ___84-[AVLazyValueLoadingMetadataItem loadValuesAsynchronouslyForKeys:completionHandler:]_block_invoke_3
++ ___82-[AVAssetImageGenerator generateCGImagesAsynchronouslyForTimes:completionHandler:]_block_invoke_6
++ ___31-[AVPlayer _itemIsReadyToPlay:]_block_invoke_2
++ ___67-[AVPlayer _createAndConfigureFigPlayerWithType:completionHandler:]_block_invoke_7
++ ___67-[AVPlayer _createAndConfigureFigPlayerWithType:completionHandler:]_block_invoke_6.480
++ ___67-[AVPlayer _applyPlayQueueChangesToFigPlayerWithCompletionHandler:]_block_invoke_3
++ ___22-[AVPlayer _addLayer:]_block_invoke_2
++ ___58-[AVPlayer(AVPlayerMultitaskSupport) _didEnterBackground:]_block_invoke_2
++ ___69-[AVPlayer(AVPlayerMultitaskSupport) _detachVideoLayersForSuspension]_block_invoke_5
++ ___63-[AVPlayer(FigVideoTargetSupport) setShouldWaitForVideoTarget:]_block_invoke_2
++ ___avplayer_iapdNotificationCallback_block_invoke_3
++ ___avplayer_iapdNotificationCallback_block_invoke_4
++ ___avplayeritem_fpItemNotificationCallback_block_invoke_13
++ ___avplayeritem_fpItemNotificationCallback_block_invoke_29
++ -[AVRoutingSessionManager currentRoutingSession]
++ -[AVRoutingSessionManager prefersLikelyDestinationsOverCurrentRoutingSession]
++ ___74-[AVAssetWriterInputPassDescriptionResponder respondToNewPassDescription:]_block_invoke_2
++ ___67-[AVDelegatingPlaybackCoordinator initWithPlaybackControlDelegate:]_block_invoke_2
++ ___67-[AVDelegatingPlaybackCoordinator initWithPlaybackControlDelegate:]_block_invoke_3
++ -[AVSampleBufferAudioRenderer outputContext]
++ ___79-[AVPlayerItemMetadataOutput(AVPlayerItemMetadataOutput_Internal) _signalFlush]_block_invoke_3
++ -[AVExternalPlaybackMonitor isAirPlayVideoActive]
++ -[AVExternalPlaybackMonitor isAirPlayVideoPlaying]
++ ___71-[AVPlayerCaptionLayer observeValueForKeyPath:ofObject:change:context:]_block_invoke_2
++ ___67-[AVPlayerPlaybackCoordinator _addFigPlaybackCoordinatorListeners:]_block_invoke_2
++ ___67-[AVPlayerPlaybackCoordinator _addFigPlaybackCoordinatorListeners:]_block_invoke_3
++ ___63-[AVSampleBufferVideoRenderer _setContentLayerOnFigVideoQueue:]_block_invoke_3
++ ___143-[AVSampleBufferRenderSynchronizer(AVSampleBufferRenderSynchronizerRendererManagement) _createOnceTimebaseObserverForRemovalOfRenderer:atTime:]_block_invoke_2
++ -[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl devicePresenceDetected]
++ -[AVExternalDeviceHID _figEndpointHIDInputMode]
++ -[AVExternalDeviceHID setInputMode:]
++ -[AVExternalDevice _figEndpointPropertyValueForKey:]
++ -[AVAssetWriterWritingHelper storageSpacePreallocationSize]
++ -[AVSampleBufferAudioRenderer setOutputContext:].cold.1
++ -[AVMutableMovieTrack setPreferredTransform:]
++ -[AVMutableMovieTrack setLayer:]
++ -[AVStreamDataParser(AVStreamDataParser_FigManifold) _figManifold:formatDescription:orDecryptorDidChange:forTrackID:].cold.4
+
+Functions (removed):
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_31
+- _OUTLINED_FUNCTION_31
+- ___handleFigAssetLoadingNotification_block_invoke.528
+- ___109-[AVPlayer _runOnIvarAccessQueueOperationThatMayChangeCurrentItemWithPreflightBlock:modificationBlock:error:]_block_invoke_2
+- -[AVPlayer _insertItem:afterItem:]
+- _avurlasset_setupGuts
+- -[AVFigAssetTrackInspector _initWithAsset:trackID:trackIndex:]
+- _figLoaderNotificationHandler
+- -[AVPlayerItemVideoOutput setUpWithOutputSettings:outputSettingsArePixelBufferAttributes:withExceptionReason:]
+- ___67-[AVPlayer _createAndConfigureFigPlayerWithType:completionHandler:]_block_invoke
+- -[AVAsset mediaSelectionGroupForPropertyList:mediaSelectionOption:]
+- _OUTLINED_FUNCTION_25
+- ___82-[AVAssetImageGenerator generateCGImagesAsynchronouslyForTimes:completionHandler:]_block_invoke_4
+- _assetTrackNotificationHandler
+- ___67-[AVPlayer _createAndConfigureFigPlayerWithType:completionHandler:]_block_invoke.449
+- ___67-[AVPlayer _createAndConfigureFigPlayerWithType:completionHandler:]_block_invoke_2.470
+- -[AVPlayer replaceCurrentItemWithPlayerItem:]
+- -[AVPlayer _copyDisplayedPixelBuffer:]
+- -[AVPlayer(AVPlayerMultitaskSupport) _applicationHasExternallyDisplayedAVPlayerLayerAndIsUnderDeviceLock]
+- -[AVPlayer(AVPlayerMultitaskSupport) _itemOkayToPlayWhileTransitioningToBackground:]
+- -[AVPlayer(AVPlayerSupportForMediaPlayer) _resumePlayback:error:]
+- ___63-[AVPlayer(FigVideoTargetSupport) setShouldWaitForVideoTarget:]_block_invoke.1098
+- ___avplayer_fpInterstitialCoordinatorNotificationCallback_block_invoke
+- ___avplayer_iapdNotificationCallback_block_invoke.1313
+- -[AVPlayerItem _makeReadyForEnqueueingWithCompletionHandler:]
+- -[AVPlayerItem _setAudioEffectParameters:previousEffects:forTrackID:]
+- -[AVPlayerItem _currentMediaSelectionFromFigSelectedMediaArray:]
+- ___avplayeritem_fpItemNotificationCallback_block_invoke_5.1506
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_6
+- -[AVMutableComposition insertTimeRange:ofAsset:atTime:error:]
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_14
+- -[AVMutableCompositionTrack validateTrackSegments:error:]
+- -[AVAssetWriterWritingHelper storageSpacePreallocationSize]
+- _OUTLINED_FUNCTION_2
+- -[AVPeriodicTimebaseObserver _resetNextFireTime]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_19
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_29
+- -[AVAssetWriterInput respondToEachPassDescriptionOnQueue:usingBlock:]
+- ___74-[AVAssetWriterInputPassDescriptionResponder respondToNewPassDescription:]_block_invoke.908
+- -[AVVideoCompositionInstruction dictionaryRepresentation]
+- ___67-[AVDelegatingPlaybackCoordinator initWithPlaybackControlDelegate:]_block_invoke.109
+- ___99-[AVDelegatingPlaybackCoordinator _updateTransportControlStateDictionaryWithTransportControlState:]_block_invoke
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_8
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_17
+- -[AVOutputDevice openCommunicationChannelToDestination:options:completionHandler:]
+- -[AVFigRouteDescriptorOutputDeviceImpl configureUsingBlock:options:completionHandler:]
+- ___86-[AVFigRouteDescriptorOutputDeviceImpl configureUsingBlock:options:completionHandler:]_block_invoke
+- _OUTLINED_FUNCTION_5
+- sub_1954ed018
+- ___146-[AVPlayerVideoOutput _copyTaggedBufferGroupForHostTimeInternal:doNotConsume:presentationTimeStamp:activeConfiguration:lastSeenTaggedBufferGroup:]_block_invoke
+- -[AVPlayerVideoOutput hasNewTaggedBufferGroupForHostTime:]
+- ___55-[AVPlayerVideoOutput _attachToPlayer:exceptionReason:]_block_invoke
+- -[AVFigEndpointOutputDeviceImpl initWithFigEndpoint:volumeController:routingContextFactory:useRouteConfigUpdatedNotification:]
+- -[AVFigEndpointOutputDeviceImpl connectedPairedDevices]
+- sub_1954f5714
+- -[AVFigEndpointOutputDeviceImpl configureUsingBlock:options:completionHandler:]
+- ___79-[AVFigEndpointOutputDeviceImpl configureUsingBlock:options:completionHandler:]_block_invoke
+- -[AVOutputContext outputContextImpl:didCloseCommunicationChannel:]
+- -[AVSystemRemotePoolOutputDeviceCommunicationChannelManager _didCloseCommChannelWithUUID:forDeviceWithID:]
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- -[AVMutableMovieTrack setAlternateGroupID:]
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_7
+- [3 functions removed in block]
+- -[AVScheduledAudioParameters initWithPropertyList:]
+- -[AVScheduledAudioParameters(AVScheduledAudioParameters_Internal) _setRamp:]
+- ___Block_byref_object_copy_.15
+- ___62-[AVOperation _setStatus:error:resultingStatus:failureReason:]_block_invoke
+- -[AVFigAssetTrackInspector loadValuesAsynchronouslyForKeys:completionHandler:]
+- _OUTLINED_FUNCTION_1
+- _AVRouteConfigUpdatedFigRoutingContextRouteChangeOperationRouteConfigUpdated
+- -[AVDateRangeMetadataGroup(AVDateRangeMetadataGroup_Local) _extractPropertiesFromTaggedRangeMetadataDictionary:]
+- [3 functions removed in block]
+- -[AVAssetDownloadContentConfiguration _createFigContentConfigForEnvironmentalCondition:]
+- ___57-[AVPlayerPlaybackCoordinator setFigPlaybackCoordinator:]_block_invoke_2
+- ___95-[AVPlayerPlaybackCoordinator _updateTransportControlStateDictionaryWithTransportControlState:]_block_invoke
+- [4 functions removed in block]
+- ___83-[AVPlayerItemVideoOutput requestNotificationOfMediaDataChangeWithAdvanceInterval:]_block_invoke
+- ___79-[AVSampleBufferVideoRenderer _enqueueSingleSampleBuffer:bufferEnqueueingInfo:]_block_invoke.115
+- ___72-[AVSampleBufferVideoRenderer enqueueSampleBuffer:bufferEnqueueingInfo:]_block_invoke
+- -[AVSampleBufferVideoRenderer flushWithRemovalOfDisplayedImage:completionHandler:]
+- ___82-[AVSampleBufferVideoRenderer flushWithRemovalOfDisplayedImage:completionHandler:]_block_invoke
+- _OUTLINED_FUNCTION_5
+- ___123-[AVSampleBufferDisplayLayer _updateLayerTreeGeometryWithVideoGravity:presentationSize:videoGravityShouldTriggerAnimation:]_block_invoke
+- -[AVAssetResourceLoader initWithURLRequestHelper:asset:remoteCustomURLHandlerContext:]
+- ___104-[AVAssetResourceLoader _performDelegateSelector:withObject:representingNewRequest:key:fallbackHandler:]_block_invoke.201
+- _avrendersynchronize_electRendererForSTSAndSendLabelToAudioRenderers
+- -[AVAssetWriterInputAnnotationAdaptor appendAnnotation:]
+- _OUTLINED_FUNCTION_1
+- -[AVFigCommChannelUUIDCommunicationChannelManager openCommunicationChannelWithOptions:error:]
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_19
+- _OUTLINED_FUNCTION_25
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_39
+- -[AVMutableMovie initWithData:options:error:]
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_15
+- [6 functions removed in block]
+- [5 functions removed in block]
+- -[AVFigEndpointUIAgentOutputDeviceAuthorizationSessionImpl _showAuthPromptWithUniqueID:routeDescriptor:pinMode:reason:]
+- -[AVStreamDataParser _appendStreamData:withFlags:]
+- _OUTLINED_FUNCTION_4
+- _avplayer_iapdNotificationCallback.cold.1
+- -[AVRoutingSessionDestination initWithFigRoutingSessionDestination:]
+- -[AVPlayerVideoOutput _createAndConfigureVideoReceiverIfNecessaryOnStateQueue]
+- -[AVOutputContext outputContextImplDidChangeGlobalOutputDeviceConfiguration:].cold.1
+- -[AVPlayerPlaybackCoordinator _applyIntegratedTimelineSeek:]
+- -[AVAssetDownloadSession(AVAssetDownloadSession_Local) _setFileFigAsset:options:]
+- -[AVAssetDownloadSession(AVAssetDownloadSession_Local) _startOnQueueFirstTime]
+- [3 functions removed in block]
+- [4 functions removed in block]
+- -[AVAssetResourceLoadingRequest keyRequestDataUsingCryptorForApp:contentIdentifier:options:performAsync:error:].cold.1
+- -[AVAssetResourceLoadingRequest persistentContentKeyFromKeyVendorResponse:options:error:].cold.1
+- +[AVOutputContext(AVAudioSession) preferredOutputDevicesForAudioSession:]
+- -[AVExternalDeviceHID setInputMode:]
+- +[AVFigRoutingContextOutputContextImpl outputContextExistsWithRemoteOutputDevice]
+- -[AVFigEndpointFigRoutingContextOutputDeviceTranslator outputDevicesFromRoutingContext:]
+- -[AVFigEndpointUIAgentOutputContextManagerImpl initWithEndpointUIAgent:]
+- -[AVContentKeyRequest _handleKeyResponseError:]
+- -[AVContentKeyRequest ensureCryptorWithFormatDescription:error:]
+- -[AVContentKeyRequest _finishLoadingCustomURLRequestWithResponseData:renewalDate:]
+- [5 functions removed in block]
+- -[AVContentKeySession(AVContentKeySession_Internal) createAndInstallCustomURLHandlerForAsset:outHandler:]
+- -[AVContentKeyReportGroup cryptorOptionsForIdentifier:initializationData:formatDescription:hlsMethod:]
+- [3 functions removed in block]
+- [6 functions removed in block]
+- -[AVContentKeyRequest(AVContentKeyRequest_ExternalProtectionStateSupport) externalContentProtectionStatus].cold.4
+- [8 functions removed in block]
+- [7 functions removed in block]
 CStrings:
 + "avplayer_fpInterstitialCoordinatorNotificationCallback_block_invoke_4"
 + "avplayer_fpNotificationCallback_block_invoke_14"

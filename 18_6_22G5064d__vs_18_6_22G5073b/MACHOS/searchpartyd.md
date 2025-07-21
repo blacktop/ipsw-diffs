@@ -67,6 +67,28 @@ Symbols:
 + _$s15FindMyBluetooth11CBDiscoveryC7devices4withSayAA6DeviceVGAC14DiscoveryFlagsV_tYaKFZ
 + _$s15FindMyBluetooth11CBDiscoveryC7devices4withSayAA6DeviceVGAC14DiscoveryFlagsV_tYaKFZTu
 - _$s15FindMyBluetooth11CBDiscoveryC7devices4withSayAA6DeviceVGAC14DiscoveryFlagsV_tKFZ
+Functions (added):
++ sub_1001afe80
++ sub_1003cfb88
++ sub_1003cfdc4
++ sub_1003e0e34
++ sub_100400590
++ sub_100401de4
++ sub_1004127ec
++ sub_10081f9c8
++ sub_100820d5c
++ sub_1008212ac
++ sub_10108f704
+
+Functions (removed):
+- sub_10137b7a8
+- sub_10137e4d4
+- sub_10137fa48
+- sub_101380ce8
+- [3 functions removed in block]
+- sub_101380f60
+- sub_101381070
+- sub_101381e80
 CStrings:
 + "        OwnerSessionProtocol: updateBatteryStatus %hhu for beacon %{private,mask.hash}s."
 + "%s Error getting paired devices %{public}@"

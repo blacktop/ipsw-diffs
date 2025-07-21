@@ -34,7 +34,7 @@
  
 Symbols:
 - _$s15AtomicsInternal23_AtomicReferenceStorageVyACyXlSgncfC
-Functions:
+Functions (modified):
 ~ _$s5Hands20CalibrationDataCacheC6configACSo0A9KitConfigC_tcfcTf4gn_n : 928 -> 912
 
 ```

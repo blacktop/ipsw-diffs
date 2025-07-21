@@ -119,6 +119,40 @@ Symbols:
 - ___block_literal_global.1818
 - ___block_literal_global.1825
 - ___block_literal_global.1833
+Functions (modified):
+~ -[WebBookmarkCollection _deleteBookmark:leaveTombstone:insertTombstoneBlock:] : 768 -> 844
+~ -[WebBookmarkCollection _saveBookmark:withSpecialID:updateGenerationIfNeeded:] : 2948 -> 3336
+~ -[WebBookmarkCollection _addBookmarkWithTitle:address:parentID:orderIndex:isFolder:externalUUID:associatedBookmark:updateParentChildCount:updateAncestorEntries:incrementGenerations:] : 2044 -> 2116
+~ -[WebBookmarkCollection _reindexBookmarkID:title:] : 120 -> 204
+~ -[WebBookmarkCollection _indexBookmarkID:title:] : 572 -> 716
+~ -[WebBookmarkTabCollection _deleteWindowState:] : 820 -> 940
+~ -[WBWindowState description] : 248 -> 436
+~ ___37-[WBTabCollection _saveBrowserState:]_block_invoke : 608 -> 596
+~ -[WebBookmarkCollection _addBookmarkWithTitle:address:parentID:orderIndex:isFolder:externalUUID:associatedBookmark:updateParentChildCount:updateAncestorEntries:incrementGenerations:].cold.1 : 112 -> 80
+~ -[WebBookmarkCollection _addBookmarkWithTitle:address:parentID:orderIndex:isFolder:externalUUID:associatedBookmark:updateParentChildCount:updateAncestorEntries:incrementGenerations:].cold.2 : 112 -> 80
+~ -[WebBookmarkCollection _saveBookmark:withSpecialID:updateGenerationIfNeeded:].cold.2 : 96 -> 84
+
+Functions (added):
++ _OUTLINED_FUNCTION_0
++ -[WebBookmarkTabCollection tabCountForTabGroupWithUUID:]
++ _OUTLINED_FUNCTION_3
++ -[WBWindowState copyForRecovery]
++ -[WBTabCollection tabCountForTabGroupWithUUID:]
++ ___47-[WBTabCollection tabCountForTabGroupWithUUID:]_block_invoke
++ -[WBTabCollection deleteWindowsNotInLastSession]
++ ___48-[WBTabCollection deleteWindowsNotInLastSession]_block_invoke
++ -[WBTabGroupManager deleteWindowsNotInLastSession]
++ -[WBTabGroupManager tabCountForTabGroupWithUUID:]
++ _OUTLINED_FUNCTION_2
++ -[WebBookmarkCollection _deleteBookmark:leaveTombstone:insertTombstoneBlock:].cold.1
++ -[WebBookmarkCollection _saveBookmark:withSpecialID:updateGenerationIfNeeded:].cold.3
++ -[WebBookmarkCollection _saveBookmark:withSpecialID:updateGenerationIfNeeded:].cold.4
++ -[WebBookmarkCollection _reindexBookmarkID:title:].cold.1
++ -[WebBookmarkCollection _reindexBookmarkID:title:].cold.2
+
+Functions (removed):
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
 CStrings:
 + "<%@: %p; activeTabGroupUUID = %@; identifier = %d; sceneID = %@; uuid = %@; restoration_archive = %lu; localTabGroup = %@<%d> with %ld tab(s), selectedTabGroup = %@, isPrivate = %d>"
 + "Cannot save bookmark: failed to get hidden ancestor count (%i) with error: %{public}@"

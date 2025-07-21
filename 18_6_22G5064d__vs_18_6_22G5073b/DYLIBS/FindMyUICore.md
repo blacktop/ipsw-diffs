@@ -79,6 +79,22 @@
  
 Symbols:
 + _OBJC_CLASS_$_FMDSharedConfigurationEntry
+Functions (added):
++ sub_24c3fe770
++ sub_24c49bfdc
++ [3 functions added in block]
++ sub_24c5849dc
++ sub_24c5849e0
++ sub_24c58b23c
+
+Functions (removed):
+- sub_24cdd9bc0
+- sub_24cddc8b0
+- sub_24cddd754
+- sub_24cddd9d4
+- sub_24cdddbc0
+- sub_24cdddcb8
+- sub_24cddde30
 CStrings:
 + "awarenessStrings"
 - "@40@0:8q16@?24@?32"

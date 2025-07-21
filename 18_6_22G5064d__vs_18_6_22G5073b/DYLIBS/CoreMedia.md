@@ -1295,6 +1295,2492 @@ Symbols:
 - _usb_serverThreadMain.cold.4
 - _usb_serverThreadMain.cold.5
 - _zError
+Functions (modified):
+~ _FigThreadCreate : 1500 -> 900
+~ _figSetMachThreadPriority : 232 -> 216
+~ _figGetMachThreadPriority : 412 -> 312
+~ _FigSemaphoreWaitRelative : 384 -> 288
+~ _WaitOnCondition : 156 -> 80
+~ _FigBaseClassRegisterClass : 444 -> 476
+~ _FigSemaphoreSignal : 244 -> 140
+~ _FigDerivedClockCreateWithGetTimeCallback : 844 -> 636
+~ _FigTimebaseCreateWithMasterClock : 132 -> 4
+~ _figTimebaseCreate : 556 -> 440
+~ _FigTimebaseCreateWithMasterTimebase : 132 -> 4
+~ _figSyncGetPivotTransform : 2252 -> 1428
+~ _figTimebaseSetRateAndMaybeAnchorTime : 1868 -> 1072
+~ _FigSyncInvertTransform : 368 -> 244
+~ _FigTimebaseGetTransformRelativeToUltimateMasterClock : 304 -> 268
+~ _FigSyncCombineTransforms : 340 -> 288
+~ _FigSyncApplyTransform : 312 -> 288
+~ _figTimebaseEffectiveRateChangedNotificationCallback : 908 -> 504
+~ _FigRuntimeRegisterAttachmentBearerWithTypeID : 648 -> 456
+~ _FigFileForkOpenMainByPath : 380 -> 420
+~ _FigFileForkClose : 408 -> 96
+~ _FigFileByteStreamRead : 812 -> 472
+~ _FigSimpleMutexDestroy : 504 -> 136
+~ _FigAudioFormatDescriptionRegisterOnce : 156 -> 100
+~ _FigDerivedFormatDescriptionRegister : 560 -> 292
+~ _FigDerivedFormatDescriptionCreate : 1480 -> 996
+~ _FigDerivedFormatDescriptionGetDerivedStorage : 132 -> 76
+~ _bufQInstallTrigger : 644 -> 468
+~ _evaluateAndMaybeFireTrigger : 1036 -> 988
+~ _figAudioDeviceClockCreateCommon : 1520 -> 788
+~ _FigDerivedClockGetDerivedStorage : 128 -> 76
+~ _fadcSetAudioDeviceUID : 1068 -> 380
+~ _switchToNewDeviceID : 712 -> 252
+~ _addPropertyListener : 340 -> 184
+~ _propertyListenerDispatch : 2544 -> 512
+~ _FigClockGetTransformRelativeToHostTimeClock : 616 -> 424
+~ _FigClockGetTransformRelativeToReferenceClock : 688 -> 468
+~ _sBufCreate : 784 -> 492
+~ _figSampleBufferCheckDataSize : 552 -> 492
+~ _sBufGetAttachment : 224 -> 164
+~ _sBufSetAttachment : 328 -> 276
+~ _bufQInsertElementAtIndex : 1768 -> 912
+~ _FigDeferNotificationToRunLoop : 556 -> 504
+~ _FigTimebaseGetTransformRelativeToMasterAtHeight : 452 -> 348
+~ _bufQRemoveElementAtIndex : 956 -> 612
+~ _coreAudioObjectPropertyListener : 1168 -> 440
+~ _FigThreadAbort : 532 -> 276
+~ _abortActionInitOnce : 112 -> 56
+~ _FigThreadJoin : 348 -> 176
+~ _removePropertyListener : 236 -> 208
+~ _FigThreadRegisterAbortAction : 1400 -> 468
+~ _FigThreadGlobalNetworkBufferingRunloop : 92 -> 104
+~ _FigThreadUnregisterAbortAction : 568 -> 204
+~ _FigFileByteStreamWrite : 224 -> 164
+~ _figBridge_WalkAndConvertImageDescriptionExtensions : 7672 -> 5488
+~ _FigH264Bridge_GetSPSFromAVCC : 224 -> 96
+~ _FigH264Bridge_GetSPS_VUI_ChromaLocation : 244 -> 236
+~ _PullParamSetSPS : 7140 -> 4472
+~ _FigH264Bridge_GetSPS_VUI_AspectRatio : 632 -> 296
+~ _FigCFCreateExtendedDictionary : 652 -> 432
+~ _FigSignalErrorAt : 412 -> 128
+~ _FigCFCreateCombinedDictionary : 588 -> 420
+~ _FigScheduledIOCreateForReadingByteStream : 860 -> 256
+~ _brokeredPlugin_CreateBrokeredPluginObjectInternal : 668 -> 288
+~ ___brokeredPlugin_DeviceUnpluggedNotificationCallback_block_invoke : 444 -> 156
+~ _brokeredPlugin_GetPropertyData : 1152 -> 592
+~ ___brokeredPlugin_Initialize_block_invoke : 356 -> 12
+~ _FigEndpointManagerRemoteCreateWithType : 1404 -> 620
+~ ___remoteXPCFigEndpointManager_initializeLogging_block_invoke : 56 -> 4
+~ _remoteXPCEndpointManager_getSharedXPCClient : 816 -> 764
+~ _CMDerivedObjectCreate : 528 -> 516
+~ __FigSetCoverageFilePathPattern : 552 -> 280
+~ _FigEndpointUtility_CopyMatchingEndpointEntities : 924 -> 684
+~ _FigRuntimeUnregisterAttachmentBearerWithTypeID : 108 -> 36
+~ _CMSetAttachment : 312 -> 224
+~ _CMGetAttachment : 232 -> 172
+~ _CMRemoveAttachment : 220 -> 172
+~ _CMCopyDictionaryOfAttachments : 244 -> 184
+~ _figAttachmentsMakeAttachmentBearerRegistrationDictionary : 160 -> 112
+~ _CMBlockBufferCreateEmpty : 356 -> 252
+~ _CMBlockBufferAppendMemoryBlock : 1372 -> 676
+~ _CMBlockBufferCreateWithMemoryBlock : 280 -> 272
+~ _CMBlockBufferAppendBufferReference : 616 -> 276
+~ _CMBlockBufferCreateWithBufferReference : 240 -> 196
+~ _CMBlockBufferGetDataPointer : 452 -> 440
+~ _FigBlockBufferGetDataPointerAndOrigin : 572 -> 508
+~ _CMBlockBufferCopyDataBytes : 636 -> 288
+~ _CMBlockBufferReplaceDataBytes : 624 -> 324
+~ _CMBlockBufferAssureBlockMemory : 588 -> 344
+~ _CMBlockBufferFillDataBytes : 616 -> 324
+~ _CMBlockBufferAccessDataBytes : 432 -> 344
+~ _CMBlockBufferCreateContiguous : 692 -> 452
+~ _CMBlockBufferIsRangeContiguous : 200 -> 152
+~ _FigVirtualCaptureCardCreateInternal : 2224 -> 740
+~ _FigVirtualCaptureCardInitializeFilesystemPaths : 2652 -> 712
+~ _vcc_StatFileCapacity : 544 -> 160
+~ _FigVirtualCaptureCard_Finalize : 424 -> 96
+~ _FigVirtualCaptureCard_CopyProperty : 1368 -> 380
+~ _FigVirtualCaptureCard_SetProperty : 860 -> 272
+~ _vcc_FigVirtualCaptureCardPreallocateCapacity : 2436 -> 344
+~ _FigVirtualCaptureCard_ShowSystemUserInterface : 332 -> 28
+~ _FigVirtualCaptureCard_ReserveForCaptureToFile : 1584 -> 540
+~ _FigVirtualCaptureCard_SaveCapture : 1848 -> 592
+~ _FigFoundationCreateHardLink : 564 -> 172
+~ _figBufferQueueCreateWithCallbacksOrHandlers : 1112 -> 752
+~ _CMBufferQueueEnqueue : 868 -> 540
+~ _CMBufferQueueSetValidationCallback : 172 -> 116
+~ _CMBufferQueueSetValidationHandler : 192 -> 136
+~ _CMBufferQueueDequeueAndRetain : 312 -> 204
+~ _CMBufferQueueDequeueIfDataReadyAndRetain : 376 -> 268
+~ _CMBufferQueueGetHead : 196 -> 140
+~ _CMBufferQueueCopyHead : 208 -> 152
+~ _CMBufferQueueIsEmpty : 184 -> 128
+~ _CMBufferQueueMarkEndOfData : 304 -> 204
+~ _CMBufferQueueIsAtEndOfData : 196 -> 140
+~ _resetWithCallback : 580 -> 480
+~ _CMBufferQueueGetMinDecodeTimeStamp : 324 -> 300
+~ _CMBufferQueueGetFirstDecodeTimeStamp : 336 -> 288
+~ _CMBufferQueueGetMinPresentationTimeStamp : 568 -> 552
+~ _CMBufferQueueGetMaxPresentationTimeStamp : 556 -> 540
+~ _CMBufferQueueGetFirstPresentationTimeStamp : 336 -> 288
+~ _CMBufferQueueGetBufferCount : 180 -> 124
+~ _CMBufferQueueGetDuration : 216 -> 168
+~ _CMBufferQueueGetTotalSize : 160 -> 104
+~ _FigBufferQueueInstallTriggerWithTimeAndIntegerThresholds : 388 -> 196
+~ _figBufferQueueInstallTriggerCallbackOrHandler : 628 -> 432
+~ _figBufferQueueInstallTriggerWithIntegerThresholdCallbackOrHandler : 288 -> 112
+~ _CMBufferQueueRemoveTrigger : 444 -> 272
+~ _CMBufferQueueTestTrigger : 292 -> 176
+~ _CMBufferQueueCallForEachBuffer : 260 -> 212
+~ _FigBufferQueueCallForEachBufferLastToFirst : 252 -> 196
+~ _CMTextFormatDescriptionGetDisplayFlags : 452 -> 432
+~ _CMTextFormatDescriptionGetJustification : 680 -> 648
+~ _CMTextFormatDescriptionGetDefaultTextBox : 832 -> 820
+~ _CMTextFormatDescriptionGetDefaultStyle : 1624 -> 1604
+~ _CMTextFormatDescriptionGetFontName : 664 -> 644
+~ -[FigPurgeAndRenewPurgeOperator _initWithClientPID:withPurgeBlock:notificationQueue:] : 576 -> 312
+~ -[FigPurgeAndRenewPurgeOperator dealloc] : 368 -> 84
+~ ___61-[FigPurgeAndRenewPurgeOperator restartPurgeTimerIfNecessary]_block_invoke : 428 -> 76
+~ -[ProcessStateTracker initForClientPID:withOperator:] : 416 -> 128
+~ -[ProcessStateTracker dealloc] : 376 -> 92
+~ -[ProcessStateTracker startMonitoringClientPID] : 696 -> 408
+~ -[ProcessStateTracker monitor:notifiedUpdate:forPID:] : 440 -> 212
+~ -[ProcessStateTrackingContext dealloc] : 380 -> 96
+~ _FigPurgeAndRenewProcessStateTrackerStartTrackingPIDWithBlock : 684 -> 412
+~ ___startProcessStateTracking_block_invoke : 720 -> 432
+~ ___startProcessTrackerOnQueue_block_invoke_2 : 596 -> 116
+~ _defaultBlock_block_invoke : 408 -> 340
+~ _defaultBlock_block_invoke_2 : 412 -> 4
+~ _FigAudioDeviceSupportsPresentationTime : 448 -> 112
+~ ___FigAudioDeviceSupportsPresentationTime_block_invoke : 56 -> 4
+~ ___FigAudioDeviceGetCurrentPresentationTime_block_invoke : 56 -> 4
+~ ___FigAudioDeviceGetCurrentDynamicLatency_block_invoke : 56 -> 4
+~ _FigCaptionDataCreate : 256 -> 260
+~ _FigProcessStateMonitor_handleMessage : 1488 -> 1304
+~ _FigProcessStateMonitor_noReplyHandleMessage : 708 -> 364
+~ ___FigProcessStateMonitor_handleMessage_block_invoke : 1908 -> 900
+~ ___FigProcessStateMonitor_noReplyHandleMessage_block_invoke : 1512 -> 532
+~ _FigProcessStateMonitorPurgePreventionAssertion_Init : 332 -> 12
+~ _FigProcessStateMonitorPurgePreventionAssertion_Finalize : 396 -> 128
+~ _CMFormatDescriptionCreate : 248 -> 176
+~ _CMMuxedFormatDescriptionCreate : 300 -> 228
+~ _CMVideoFormatDescriptionCreate : 420 -> 308
+~ _CMVideoFormatDescriptionCreateForImageBuffer : 1172 -> 840
+~ _CMVideoFormatDescriptionGetDimensions : 200 -> 116
+~ _CMPointCloudFormatDescriptionGetNumberOfPoints : 680 -> 60
+~ _CMVideoFormatDescriptionMatchesImageBuffer : 868 -> 636
+~ ___FigMobileAsset_RegisterForAssetUpdates_block_invoke : 1712 -> 1492
+~ ___figMobileAsset_Initialize_block_invoke : 948 -> 264
+~ _figMobileAsset_AddFilterToQuery : 532 -> 196
+~ ___figMobileAsset_QueryMostRecentAsset_block_invoke : 1800 -> 1160
+~ _figMobileAsset_ExtractPlistFromAssetForCallback : 1052 -> 532
+~ _FigNotificationCenterAddWeakListener : 832 -> 736
+~ _FigDeferNotificationToDispatchQueue : 312 -> 292
+~ _figSampleBufferCreateCallbackOrHandler : 908 -> 520
+~ _figSampleBufferCreateForImageBufferCallbackOrHandler : 520 -> 500
+~ _CMSampleBufferCreateCopy : 148 -> 56
+~ _CMSampleBufferCreateCopyWithNewTiming : 596 -> 496
+~ _FigSampleBufferCreateCopyWithNoData : 288 -> 228
+~ _sBufCopyInternals : 1084 -> 800
+~ _FigSampleBufferCreateCopyWithNewSizesAndDataBuffer : 552 -> 448
+~ _CMSampleBufferCopySampleBufferForRange : 3952 -> 3372
+~ _CMSampleBufferGetOutputSampleTimingInfoArray : 2644 -> 2596
+~ _CMSampleBufferSetDataBuffer : 416 -> 156
+~ _CMSampleBufferGetDataBuffer : 236 -> 96
+~ _CMSampleBufferSetDataReady : 384 -> 184
+~ _CMSampleBufferSetDataFailed : 584 -> 308
+~ _CMSampleBufferHasDataFailed : 340 -> 208
+~ _CMSampleBufferTrackDataReadiness : 512 -> 232
+~ _CMSampleBufferInvalidate : 296 -> 176
+~ _CMSampleBufferSetInvalidateCallback : 344 -> 168
+~ _CMSampleBufferSetInvalidateHandler : 352 -> 184
+~ _CMSampleBufferGetNumSamples : 228 -> 88
+~ _CMSampleBufferGetDuration : 304 -> 120
+~ _CMSampleBufferGetPresentationTimeStamp : 268 -> 108
+~ _CMSampleBufferGetDecodeTimeStamp : 268 -> 108
+~ _CMSampleBufferGetOutputDuration : 704 -> 604
+~ _CMSampleBufferGetOutputPresentationTimeStamp : 704 -> 600
+~ _CMSampleBufferSetOutputPresentationTimeStamp : 240 -> 80
+~ _CMSampleBufferGetOutputDecodeTimeStamp : 564 -> 460
+~ _CMSampleBufferGetSampleTimingInfoArray : 420 -> 248
+~ _CMSampleBufferGetSampleSizeArray : 416 -> 244
+~ _CMSampleBufferGetSampleSize : 448 -> 148
+~ _CMSampleBufferGetTotalSampleSize : 376 -> 236
+~ _CMSampleBufferGetFormatDescription : 228 -> 88
+~ _CMSampleBufferGetSampleAttachmentsArray : 668 -> 420
+~ _CMSampleBufferSetDataBufferFromAudioBufferList : 1744 -> 1068
+~ _CMSampleBufferGetAudioBufferListWithRetainedBlockBuffer : 888 -> 388
+~ _sBufComputeAudioStreamPacketDescriptions : 780 -> 484
+~ _CMSampleBufferGetAudioStreamPacketDescriptions : 228 -> 172
+~ _FigPacketDependencyInfoCopyAsSampleDependencyAttributeDictionary : 472 -> 184
+~ _sBufRemoveAttachment : 212 -> 148
+~ _sBufRemoveAllAttachments : 212 -> 148
+~ _sBufCopyDictionaryOfAttachments : 172 -> 112
+~ _OUTLINED_FUNCTION_0 : 20 -> 52
+~ _CMSimpleQueueCreate : 440 -> 280
+~ _CMSimpleQueueEnqueue : 288 -> 156
+~ _CMSimpleQueueDequeue : 200 -> 148
+~ _CMSimpleQueueGetHead : 156 -> 104
+~ _CMSimpleQueueReset : 124 -> 52
+~ _FigSimpleQueueSetQueueIsFullErrorLoggingEnabled : 124 -> 48
+~ _FigEndpointStreamStartServer : 520 -> 192
+~ _FigCreatePathForPersistentURL : 488 -> 184
+~ _LoadPUTFunctions : 860 -> 204
+~ _FigCreateSecurityScopedFileURLForPersistentURL : 468 -> 176
+~ _FigIsPersistentURL : 532 -> 208
+~ _FigMayAccessPersistentURLOnBehalfOfClientWithAuditToken : 476 -> 124
+~ _CMAudioDeviceClockCreate : 772 -> 304
+~ _CMAudioDeviceClockCreateFromAudioDeviceID : 840 -> 348
+~ _writeProtectedStorageSync : 244 -> 204
+~ _CMAudioDeviceClockSetAudioDeviceID : 424 -> 296
+~ _fadcSetAudioDeviceID : 444 -> 164
+~ _CMAudioDeviceClockGetAudioDevice : 364 -> 268
+~ _readProtectedStorageSync : 200 -> 152
+~ _FigAudioDeviceClockSetIgnoresBluetoothPresentationTimeSupport : 268 -> 156
+~ ___FigPreferAudioSessionClock_block_invoke : 316 -> 56
+~ ___figAudioDeviceClockCreateCommon_block_invoke : 180 -> 144
+~ ___coreAudioObjectPropertyListener_block_invoke : 472 -> 180
+~ ___fadcGetRate_block_invoke : 660 -> 96
+~ ___fadcGetAnchorTimeInternal_block_invoke : 960 -> 908
+~ _CMClockInvalidate : 300 -> 272
+~ _fhtcFinalizeAndCrash : 296 -> 16
+~ _FigStartForwardingMediaServicesProcessDeathNotification : 576 -> 316
+~ _FigStopForwardingMediaServicesProcessDeathNotification : 448 -> 152
+~ _FigStartMonitoringMediaServicesProcessDeathWithCallback : 556 -> 304
+~ _FigStopMonitoringMediaServicesProcessDeathWithCallback : 428 -> 140
+~ _endpointStreamUtil_createSyncContext : 172 -> 144
+~ ___HandleLoggingPurgeObjectsAndGenerateReportForPID_block_invoke : 404 -> 140
+~ _OUTLINED_FUNCTION_7 : 16 -> 36
+~ _CMSyncConvertTime : 312 -> 232
+~ _CMSyncMightDrift : 220 -> 164
+~ _CMSyncGetTime : 268 -> 204
+~ _CMTimebaseCreateWithSourceClock : 284 -> 236
+~ _CMTimebaseCreateWithSourceTimebase : 316 -> 268
+~ _figTimebaseVerifyReadWrite : 160 -> 104
+~ _figTimebaseTimeJumpedNotificationCallback : 580 -> 516
+~ _figTimebaseMasterDidChangeNotificationCallback : 476 -> 404
+~ _figTimebaseMasterWillChangeNotificationCallback : 440 -> 368
+~ _fpm_finalize : 448 -> 152
+~ _fpm_setProperty : 304 -> 256
+~ ___fpm_setProperty_block_invoke : 136 -> 80
+~ _fpm_timerCallback : 4300 -> 2792
+~ _fpm_reportingDataForInternalUsingCoreAnalytics : 508 -> 204
+~ _OUTLINED_FUNCTION_0 : 20 -> 36
+~ _FigMetricEventTimelineStartServer : 248 -> 192
+~ ___FigMetricEventTimelineStartServer_block_invoke : 484 -> 168
+~ _FigMetricEventTimelineGetIDByAssociatingWithClientConnection : 540 -> 220
+~ _FigCaptionFontFamilyNameListCreateMutable : 240 -> 184
+~ _FigCaptionFontFamilyNameListCreateMutableCopy : 260 -> 204
+~ ___cryptorRemote_EnsureClientEstablished_block_invoke : 760 -> 244
+~ _OUTLINED_FUNCTION_4 : 40 -> 36
+~ _FigMetricMockEventForTestCreate : 528 -> 176
+~ _FigCompositeByteStreamCopyProperty : 540 -> 484
+~ _CMByteStreamCreateWritableForBlockBuffer : 328 -> 316
+~ _FigBBufByteStreamCopyProperty : 536 -> 504
+~ _FigBBufByteStreamGetAvailableLengthAtOffset : 212 -> 180
+~ _FigEndpointXPCDemuxCreate : 580 -> 276
+~ ___endpointXPCDemux_initializeLogging_block_invoke : 56 -> 4
+~ _FigEndpointXPCDemux_Invalidate : 464 -> 172
+~ _FigEndpointXPCDemux_Finalize : 412 -> 108
+~ _FigEndpointXPCDemux_SetProperty : 524 -> 228
+~ _FigEndpointXPCDemux_ActivateForFeaturesWithCompletionCallback : 500 -> 216
+~ _FigEndpointXPCDemux_DeactivateWithCompletionCallback : 484 -> 196
+~ _FigEndpointXPCDemux_Dissociate : 452 -> 160
+~ _FigEndpointXPCDemux_SetDelegateRemoteControl : 464 -> 168
+~ _FigEndpointXPCDemux_CreatePlaybackSession : 460 -> 168
+~ _FigEndpointXPCDemux_RequestCarUI : 528 -> 220
+~ _FigEndpointXPCDemux_BorrowScreen : 528 -> 220
+~ _FigEndpointXPCDemux_UnborrowScreen : 528 -> 220
+~ _FigEndpointXPCDemux_TakeScreen : 528 -> 220
+~ _FigEndpointXPCDemux_DisableBluetoothConnectivityToDevice : 528 -> 220
+~ _FigEndpointXPCDemux_DuckAudio : 504 -> 200
+~ _FigEndpointXPCDemux_SetHIDInputMode : 528 -> 220
+~ _FigEndpointXPCDemux_CopyHIDInputMode : 528 -> 228
+~ _FigEndpointXPCDemux_SendCommand : 536 -> 248
+~ _FigEndpointXPCDemux_CreateRemoteControlSession : 520 -> 220
+~ _FigEndpointXPCDemux_CreateCommChannel : 520 -> 220
+~ _FigEndpointXPCDemux_SendData : 536 -> 248
+~ _FigEndpointXPCDemux_CloseCommChannel : 504 -> 200
+~ _FigEndpointXPCDemux_RequestScreenViewArea : 528 -> 220
+~ _FigEndpointXPCDemux_CopyCurrentScreenViewArea : 520 -> 220
+~ _FigEndpointXPCDemux_AcquireAndCopyResource : 536 -> 228
+~ _FigEndpointXPCDemux_RelinquishResource : 528 -> 220
+~ _OUTLINED_FUNCTION_0 : 20 -> 36
+~ _FigByteStreamStatsLogOneRead : 788 -> 316
+~ _OUTLINED_FUNCTION_0 : 20 -> 36
+~ _FigFileByteStreamSetProperty : 236 -> 200
+~ _plugin_CreateStandardPluginObjectInternal : 760 -> 352
+~ ___EndpointStreamsChangedNotificationCallback_block_invoke : 360 -> 64
+~ ___DeviceUnpluggedNotificationCallback_block_invoke : 444 -> 156
+~ ___EndpointStreamDissociationNotificationCallback_block_invoke : 464 -> 152
+~ _fnh_runOrEnqueueCommand : 612 -> 308
+~ _fnh_requestBecameActiveCommand : 612 -> 276
+~ _fnh_setRequestSentTimestampCommand : 412 -> 64
+~ _fnh_setRequestLatencyCommand : 476 -> 132
+~ _FigNetworkHistoryGetNextValidLatencySample : 420 -> 160
+~ _fnh_purgeExpiredListEntriesOnQueue : 704 -> 316
+~ _FigNetworkHistoryDisableThrottleDetection : 392 -> 92
+~ _FigNetworkHistoryCreate : 916 -> 568
+~ _fnh_runAllEnqueuedCommands : 488 -> 184
+~ _fnhp_getStartTimestamp : 108 -> 112
+~ _OUTLINED_FUNCTION_0 : 60 -> 36
+~ _OUTLINED_FUNCTION_4 : 44 -> 76
+~ _ntcxpc_verifyConnection : 612 -> 344
+~ _FigReadSchedulerCreateBatch : 460 -> 152
+~ _rsBatch_Create : 244 -> 212
+~ _FigReadSchedulerBatchAddReadWithDeadline : 704 -> 368
+~ _FigReadSchedulerBatchCommit : 600 -> 276
+~ _readScheduler_HandleBatchCommit : 484 -> 152
+~ _FigReadSchedulerBatchCancel : 632 -> 308
+~ _readScheduler_HandleOpenBatchCancellation : 524 -> 204
+~ _readScheduler_HandleCommittedBatchCancellation : 688 -> 420
+~ _FigReadSchedulerBatchExpedite : 632 -> 308
+~ _readScheduler_HandleOpenBatchExpedite : 628 -> 280
+~ _readScheduler_HandleCommittedBatchExpedite : 612 -> 264
+~ _FigReadSchedulerBatchAwaitCompletion : 648 -> 128
+~ _FigReadSchedulerRequestReadWithDeadline : 696 -> 276
+~ _readScheduler_HandleReadRequest : 396 -> 84
+~ _FigReadSchedulerRequestBackgroundRead : 624 -> 272
+~ _FigReadSchedulerCancelRequest : 484 -> 188
+~ _readScheduler_HandleCancelOneRequestJob : 900 -> 332
+~ _readScheduler_HandleCancelAllClientRequestsJob : 1192 -> 460
+~ _readScheduler_IssueReadsAndScheduleWakeup : 3024 -> 492
+~ _readScheduler_LetReadsProgress : 360 -> 84
+~ _readScheduler_CallIssueReadsAndScheduleWakeup : 332 -> 56
+~ _readScheduler_IssueOneRead : 780 -> 220
+~ _readScheduler_HandleOneCompletedRead : 1848 -> 524
+~ _readScheduler_DispatchFulfilledRequestsCallbacks : 640 -> 108
+~ _readScheduler_UpdateBatches : 500 -> 200
+~ _readScheduler_CompleteBatch : 408 -> 116
+~ _readScheduler_NotifyCompletedBatch : 372 -> 88
+~ _readScheduler_IngestRequest : 4280 -> 1352
+~ _readScheduler_CombinePageRanges : 1280 -> 148
+~ _readScheduler_AddRequestToRead : 540 -> 204
+~ _readScheduler_HandleFailedRequest : 452 -> 124
+~ _readScheduler_CombineReads : 984 -> 224
+~ _readScheduler_RemoveAndRetainRequestFromReadArray : 824 -> 232
+~ _readScheduler_RemoveAndCollectClientRequestsFromReadArray : 572 -> 236
+~ ___FigNTPGetTimeOfDay_block_invoke : 576 -> 528
+~ _OUTLINED_FUNCTION_1 : 28 -> 60
+~ _remoteSandboxReg_createRemoteClientForProcess : 388 -> 300
+~ _remoteSandboxReg_PlaybackProcessDied : 308 -> 8
+~ _remoteSandboxReg_CameraCaptureProcessDied : 308 -> 8
+~ _FigCaptionDataCreateMutable : 336 -> 260
+~ _fmcd_SetCaptionText : 268 -> 228
+~ _fmcd_SetStylePropertyInRange : 384 -> 404
+~ _remoteVirtualCaptureCardClient_EnsureClientEstablished : 504 -> 224
+~ ___remoteVirtualCaptureCardClient_EnsureClientEstablished_block_invoke : 548 -> 192
+~ _remoteVirtualCaptureCardClient_DeadServerConnectionCallback : 300 -> 4
+~ _FigAV1Bridge_GetChromaFormatAndBitDepthsFromAV1CodecConfigurationRecord : 1468 -> 428
+~ _FigAV1Bridge_CreateParsingStateFromAV1FormatDescription : 340 -> 276
+~ _FigAV1Bridge_Getav1CStartAndLength : 556 -> 192
+~ _FigAV1Bridge_CopyITU_T_T35MetadataDolbyVisionRPURawByteSequence : 1284 -> 480
+~ _FigAV1Bridge_CopyCLLIDataFromAV1ConfigurationRecordConfigOBU : 832 -> 460
+~ _FigAV1Bridge_CopyMDCVDataFromAV1ConfigurationRecordConfigOBU : 832 -> 460
+~ _av1_get_bits : 488 -> 180
+~ _check_for_overrun : 376 -> 112
+~ _read_frame_size : 828 -> 528
+~ _OUTLINED_FUNCTION_6 : 28 -> 12
+~ _OUTLINED_FUNCTION_16 : 16 -> 52
+~ _figCustomURLWorkQueueCreate : 480 -> 200
+~ _figCustomURLWorkQueueEnqueue : 520 -> 192
+~ _curl_dispatchDataCallbackWithError : 236 -> 228
+~ _curlh_getRequestEntryForRequestID : 188 -> 140
+~ _curlh_sendDataDispatch : 872 -> 548
+~ _figCustomURLWorkQueueSuspendDraining : 948 -> 124
+~ _figCustomURLWorkQueueResumeDraining : 1196 -> 152
+~ _figCustomURLWorkQueueFinalize : 652 -> 128
+~ _curll_handlerHandleRequestCompletionHandlerCommon : 184 -> 176
+~ _curll_handlerLookupRegisteredInfoCallbackForHandlerTransfer : 524 -> 496
+~ _curll_respondToHandleRequestCompletionForTransferOnQueue : 472 -> 516
+~ _wr_initialize : 56 -> 4
+~ _FigCaptionRegionCreateMutable : 308 -> 272
+~ _FigCaptionRegionCreateMutableCopy : 512 -> 460
+~ _VEXUBridge_ConvertVideoExtendedUsageDescriptionExtensions : 528 -> 472
+~ _OUTLINED_FUNCTION_0 : 60 -> 36
+~ _OUTLINED_FUNCTION_2 : 56 -> 8
+~ _OUTLINED_FUNCTION_6 : 32 -> 8
+~ _OUTLINED_FUNCTION_15 : 36 -> 56
+~ _CMPointCloudFormatDescriptionCopyAsBigEndianPointCloudDescriptionBlockBuffer : 996 -> 972
+~ _figTimeOfDayClock_creationOnceFunction : 152 -> 96
+~ _FigThreadRemoveFromAbortListAndCleanup : 528 -> 216
+~ _FigThreadMakeDispatchQueueAbortable : 632 -> 232
+~ _removeDispatchQueueFromAbortListAndCleanup : 576 -> 276
+~ _FigThreadGlobalNetworkBufferingBackgroundThrottledRunloop : 92 -> 104
+~ _FigGzipDecompressMemory : 876 -> 552
+~ _FigGzipCompressMemory : 1376 -> 492
+~ _FigFileDoesFileExist : 240 -> 188
+~ _FigFileForkOpenMainByCFURL : 1692 -> 920
+~ _FigFileForkWrite : 1128 -> 376
+~ _FigFileSetIOPolicy : 300 -> 244
+~ _FigFileUnlock : 364 -> 72
+~ _FigDirectoryIsDirStatsTrackingEnabled : 308 -> 212
+~ _CMMetadataCreateKeyFromIdentifier : 1148 -> 900
+~ _CMMetadataCreateKeySpaceFromIdentifier : 480 -> 484
+~ _CMMetadataDataTypeRegistryDataTypeConformsToDataType : 524 -> 280
+~ _scalarWriteSetup : 148 -> 136
+~ _normalizeAndAppendScalarValue : 340 -> 312
+~ _createDataTypeRegistryGlobalsOnce : 1232 -> 816
+~ _registerKnownDataType : 440 -> 136
+~ _FigTraceLoggingStart : 260 -> 224
+~ _FigTraceLoggingDumpToFile : 108 -> 36
+~ _FigUserCrashWithMessage : 272 -> 208
+~ _FigLogCALayers : 160 -> 4
+~ _FigSignalErrorAt2 : 376 -> 128
+~ _FigSignalErrorAt3 : 444 -> 128
+~ _LoadTimeSyncFunctions : 1340 -> 808
+~ _OUTLINED_FUNCTION_0 : 32 -> 36
+~ _WaitOnConditionTimedRelative : 256 -> 188
+~ _FigConditionVariableDestroy : 504 -> 136
+~ _WaitOnConditionTimed : 236 -> 168
+~ _figSetPThreadPriority : 228 -> 240
+~ _FigThreadGetMachThreadPriorityValue : 144 -> 88
+~ _FigThreadSetProperty : 688 -> 552
+~ _FigThreadCopyProperty : 348 -> 304
+~ _figGetMachThreadTimesharePolicy : 108 -> 128
+~ _FigThreadSetIOPolicy : 284 -> 224
+~ _figSetPThreadPolicy : 160 -> 164
+~ _FigCFArrayForEach2 : 296 -> 236
+~ _FigCFRangeMakeFromDictionary : 304 -> 188
+~ _FigCreateCFDataFromCFPropertyList : 472 -> 172
+~ _FigCreateCFPropertyListFromData : 520 -> 228
+~ _FigCFArrayGetCGRectAtIndex : 208 -> 168
+~ _FigCFArrayGetCGSizeAtIndex : 208 -> 168
+~ _FigCFBundleIDResourceSubdirExists : 380 -> 216
+~ _FigCFURLDoesDirectoryExist : 344 -> 216
+~ _FigCFURLCreateDirectory : 408 -> 196
+~ _FigCFURLCopyCanonicalPath : 164 -> 208
+~ _FigCFURLCreateFromSystemTemporaryDirectory : 164 -> 156
+~ _CMAudioFormatDescriptionCreate : 8232 -> 1096
+~ _CMAudioFormatDescriptionGetStreamBasicDescription : 248 -> 128
+~ _CMAudioFormatDescriptionGetMagicCookie : 264 -> 140
+~ _CMAudioFormatDescriptionGetChannelLayout : 268 -> 144
+~ _CMAudioFormatDescriptionGetFormatList : 268 -> 144
+~ _FigAudioFormatGetRichestDecodableFormatIndex : 460 -> 164
+~ _CMAudioFormatDescriptionCreateSummary : 1280 -> 1020
+~ _CMAudioFormatDescriptionEqual : 1116 -> 980
+~ _FigAudioFormatDescriptionGetBestDecodableFormatAndChannelLayoutForRenderingPreferences : 1556 -> 1520
+~ _CMAudioFormatDescriptionCreateCopyWithNewChannelLayout : 616 -> 620
+~ _CMAudioFormatDescriptionGetPlaintextMediaSubTypeAndEncryptionScheme : 3116 -> 1504
+~ _figAudioFormatDescriptionEqual : 116 -> 136
+~ _getChannelLayoutTagFromLayout : 452 -> 180
+~ _OUTLINED_FUNCTION_7 : 16 -> 24
+~ _OUTLINED_FUNCTION_6 : 36 -> 24
+~ _FigAudioDeviceClockXPCRemoteGetObjectID : 512 -> 192
+~ _FigAudioDeviceClock_GetServerClockToken : 516 -> 160
+~ ___remoteDeviceClock_OneTimeInitialization_block_invoke : 204 -> 148
+~ _MaybeReacquireServerClockObject : 744 -> 192
+~ ___ReacquireServerClockObject_block_invoke : 688 -> 88
+~ _OUTLINED_FUNCTION_0 : 20 -> 36
+~ _OUTLINED_FUNCTION_3 : 24 -> 12
+~ ___FigHALAudioConfigChangeSendRequest_block_invoke : 376 -> 24
+~ ___FigHALAudioConfigChangeSendRequestWithCustomChangeRecord_block_invoke : 376 -> 24
+~ -[NeroMessageCenterService initWithIDSSerivce:connection:] : 396 -> 152
+~ ___FigTransportConnectionIDSCreate_block_invoke : 772 -> 252
+~ _ids_Finalize : 192 -> 176
+~ ___ids_sendData_block_invoke : 828 -> 244
+~ _OUTLINED_FUNCTION_7 : 20 -> 36
+~ _OUTLINED_FUNCTION_19 : 44 -> 24
+~ _CMAudioFormatDescriptionCopyAsBigEndianSoundDescriptionBlockBuffer : 2948 -> 1356
+~ _figSoundBridge_CreateNativeMovieSoundDescriptionFromASBD : 1696 -> 1532
+~ _figSoundBridge_AddCookieExtensionToNativeSoundDescriptionBBuf : 1668 -> 1284
+~ _figSoundBridge_AddSamplingRateBoxIfNecessaryToNativeISOAudioSampleEntry : 572 -> 492
+~ _figSoundBridge_AddMiscellaneousSampleDescriptionExtensionsToNativeSoundDescriptionBBuf : 416 -> 360
+~ _CMSwapHostEndianSoundDescriptionToBig : 120 -> 8
+~ _CMSwapBigEndianSoundDescriptionToHost : 120 -> 8
+~ _figSoundBridge_FlipSoundDescriptionData : 692 -> 480
+~ _FigSoundDescriptionDataIsISOv1 : 132 -> 4
+~ _FigSoundDescriptionBlockBufferIsISOv1 : 116 -> 4
+~ _FigAudioCodecTypeIsDecodable : 256 -> 276
+~ _figSoundBridge_ConvertFLACMagicCookieToSoundDescriptionExtension : 396 -> 364
+~ _figSoundBridge_ConvertAMRMagicCookieToSoundDescriptionExtension : 840 -> 380
+~ _OUTLINED_FUNCTION_16 : 28 -> 24
+~ _CMSwapBigEndianClosedCaptionDescriptionToHost : 128 -> 84
+~ _CMSwapHostEndianClosedCaptionDescriptionToBig : 128 -> 84
+~ _CMClosedCaptionFormatDescriptionCreateFromBigEndianClosedCaptionDescriptionBlockBuffer : 308 -> 292
+~ _CMTextFormatDescriptionCopyAsBigEndianTextDescriptionBlockBuffer : 5388 -> 3932
+~ _ParseExtensionAtomsInDescription : 5152 -> 4176
+~ _OUTLINED_FUNCTION_11 : 16 -> 12
+~ _FigVideoFormatDescriptionCreateFromBigEndianImageDescriptionDataWithReporter : 3952 -> 3048
+~ _FigBridge_MakeFallbackExtensionsFromVUI : 7684 -> 7576
+~ _figBridge_OverrideTransferFunctionFromAlternativeTransferCharacteristics : 232 -> 180
+~ _figBridge_GetAlphaChannelExtensionForProRes : 356 -> 340
+~ _figConvertChromaLocationIndexToString : 276 -> 220
+~ _figBridge_CFDictionaryCreateWithNumbers : 448 -> 396
+~ _FigVideoFormatDescriptionCreateFromBigEndianImageDescriptionBlockBufferWithReporter : 356 -> 340
+~ _OUTLINED_FUNCTION_6 : 44 -> 12
+~ ___ntcxpc_getConnectionShared_block_invoke : 1032 -> 392
+~ _ntcxpc_CopyProperty : 304 -> 8
+~ _ntcxpc_SetProperty : 304 -> 8
+~ _metremote_create : 488 -> 208
+~ _FigVirtualCaptureCardServerStart : 784 -> 224
+~ ___CelestialGetModelSpecificName_block_invoke : 588 -> 328
+~ _celestialGetSystemMemorySizeOnce : 356 -> 136
+~ _FigCreateModelSpecificPropertyListForModelAndBundleIdentifier : 460 -> 180
+~ ___CelestialShouldAllowHTPCIOSurfacesForHDRPlaybackToCA_block_invoke : 444 -> 152
+~ _FigCustomURLHandlerRemoteClientCreateWithXPCEndpoint : 416 -> 80
+~ _figCustomURLHandlerRemote_DeadConnectionCallback : 384 -> 68
+~ _FigCustomURLHandlerRemoteClientCopyExistingOrCreateIfNeccessaryWithXPCEndpoint : 824 -> 280
+~ _figCustomURLHandlerRemote_Invalidate : 472 -> 172
+~ _figCustomURLHandlerRemote_Finalize : 452 -> 156
+~ _figCustomURLHandlerRemote_RequestSetDormant : 740 -> 188
+~ _OUTLINED_FUNCTION_0 : 32 -> 36
+~ _FigAudioDeviceClockServerStart : 564 -> 172
+~ _FigXPCAudioDeviceClockServerAssociateCopiedNeighborClock : 400 -> 36
+~ _FigXPCAudioDeviceClockServerAssociateNeighborClock : 400 -> 36
+~ _FigAudioDeviceClockServer_MakeWrapperForClockWithManualCommandPortSendRightInsertion : 384 -> 40
+~ _fig_note_initialize_category_with_default_work_cf : 268 -> 468
+~ _FigNote_OneTimeInitializationForMediaServerd : 444 -> 164
+~ _fig_note_read_control_preferences : 1236 -> 952
+~ _FigNote_SetPreferences : 196 -> 4
+~ _FigNote_CopyAndClearNoteBBuf : 96 -> 8
+~ _CMTimeCodeFormatDescriptionCreate : 528 -> 404
+~ _CMTimeCodeFormatDescriptionGetFrameQuanta : 128 -> 76
+~ _CMTimeCodeFormatDescriptionGetTimeCodeFlags : 128 -> 76
+~ -[FigSandboxRegistrationObjCWrapper dealloc] : 372 -> 80
+~ _FigSandboxRegistrationAssociateWithURL : 504 -> 208
+~ _FigGetSandboxRegistrationAssociatedWithURL : 448 -> 140
+~ _figNumericsCreateEncodedStringFromBytes : 484 -> 480
+~ _CMTimeCodeFormatDescriptionCreateFromBigEndianTimeCodeDescriptionData : 1980 -> 1428
+~ _CMTimeCodeFormatDescriptionCreateFromBigEndianTimeCodeDescriptionBlockBuffer : 384 -> 304
+~ _CMTimeCodeFormatDescriptionCopyAsBigEndianTimeCodeDescriptionBlockBuffer : 1368 -> 1016
+~ _figBridge_FlipTimeCodeDescriptionData : 240 -> 132
+~ _BBufUtilDummyAllocate : 288 -> 8
+~ _CMMemoryPoolInvalidate : 368 -> 100
+~ _poolingAllocator_Release : 332 -> 4
+~ _poolBlockState_Create : 764 -> 444
+~ _CMMemoryPoolFlush : 364 -> 96
+~ _FigMemoryPoolCreateBlockBufferWithOptions : 1008 -> 472
+~ _poolBlockState_AllocateInternal : 1540 -> 504
+~ _FigMemoryPoolCreateContiguousBlockBuffer : 464 -> 452
+~ _fmp_readContiguousBlockBufferDefaultOnce : 340 -> 60
+~ _memoryOrigin_unregisterUseOfBlock : 876 -> 204
+~ _FigMemoryOriginUpdateRecipientStateFromXPCMessage : 452 -> 152
+~ _FigMemoryOriginCompleteEstablishingMemoryRecipientUsingXPCMessage2 : 392 -> 76
+~ _FigMemoryRecipientCopyBlockBufferFromIPCMessageData : 1180 -> 420
+~ _CreateSubBlockBuffer : 4820 -> 2076
+~ _FigMemoryRecipientCopyBlockBufferFromXPCMessage : 1172 -> 408
+~ _FigMemoryRecipientAppendRecipientStateUpdateToXPCMessage : 520 -> 216
+~ _FigMemoryRecipientAppendRecipientStateUpdateToIPCMessageData : 1116 -> 320
+~ _FigMemoryRecipientCreateWithXPCMessage1AndUpdateXPCMessage2 : 3612 -> 1740
+~ _FigMemoryOriginCompleteTransaction : 1464 -> 252
+~ _poolBlockState_DeallocateVMMemory : 708 -> 56
+~ _poolBlockState_postForgottenSerialNumber : 436 -> 148
+~ _figMemoryPoolFinalize : 384 -> 68
+~ _poolBlockState_RegisterType : 104 -> 48
+~ _poolBlockState_Finalize : 420 -> 128
+~ _poolBlockState_IncrementBlockUseCountAndAccessMemory : 440 -> 116
+~ _memoryOrigin_Finalize : 464 -> 156
+~ _memoryOrigin_disposeEachOriginEntry : 96 -> 76
+~ _memoryRecipient_NotificationFilter : 524 -> 224
+~ _receivedMemoryAllocator_disposeReceivedMemoryEntry : 420 -> 36
+~ _memoryRecipient_Finalize : 496 -> 192
+~ _receivedMemoryAllocator_ReleaseInfo : 784 -> 252
+~ _OUTLINED_FUNCTION_2 : 20 -> 36
+~ _OUTLINED_FUNCTION_7 : 16 -> 12
+~ _OUTLINED_FUNCTION_9 : 20 -> 60
+~ _OUTLINED_FUNCTION_16 : 12 -> 24
+~ _FigEndpointPlaybackSessionStartServer : 520 -> 192
+~ _FigXPCEndpointPlaybackSessionServerAssociateCopiedNeighborFigEndpointPlaybackSession : 476 -> 192
+~ _OUTLINED_FUNCTION_0 : 20 -> 52
+~ _OUTLINED_FUNCTION_8 : 44 -> 28
+~ _OUTLINED_FUNCTION_30 : 32 -> 36
+~ _FigH264Bridge_CreateAVCCFromH264ParameterSets : 3888 -> 3252
+~ _PullParamSetPPS : 5308 -> 4972
+~ _PullVUIParamSet : 9848 -> 8968
+~ _OUTLINED_FUNCTION_19 : 48 -> 24
+~ _OUTLINED_FUNCTION_45 : 28 -> 40
+~ _FigVideoFormatDescriptionCreateWithSampleDescriptionExtensionAtom : 1040 -> 884
+~ _FigHALAudioDeviceBrokerRegister : 452 -> 160
+~ _figHALAudioDeviceRegistryOneTimeInitialization : 132 -> 76
+~ _OUTLINED_FUNCTION_1 : 44 -> 52
+~ _OUTLINED_FUNCTION_2 : 20 -> 64
+~ _OUTLINED_FUNCTION_3 : 24 -> 28
+~ _OUTLINED_FUNCTION_2 : 20 -> 36
+~ _OUTLINED_FUNCTION_0 : 20 -> 52
+~ _OUTLINED_FUNCTION_4 : 40 -> 20
+~ _OUTLINED_FUNCTION_3 : 24 -> 28
+~ _OUTLINED_FUNCTION_0 : 28 -> 36
+~ _OUTLINED_FUNCTION_1 : 24 -> 32
+~ _OUTLINED_FUNCTION_79 : 28 -> 8
+~ _OUTLINED_FUNCTION_2 : 40 -> 52
+~ _OUTLINED_FUNCTION_14 : 48 -> 12
+~ _OUTLINED_FUNCTION_22 : 20 -> 56
+~ _OUTLINED_FUNCTION_0 : 20 -> 36
+~ _OUTLINED_FUNCTION_3 : 24 -> 48
+~ _OUTLINED_FUNCTION_0 : 24 -> 52
+~ _OUTLINED_FUNCTION_1 : 20 -> 32
+~ _OUTLINED_FUNCTION_3 : 24 -> 32
+~ _OUTLINED_FUNCTION_0 : 24 -> 36
+~ _OUTLINED_FUNCTION_3 : 20 -> 12
+~ _OUTLINED_FUNCTION_6 : 52 -> 24
+~ _OUTLINED_FUNCTION_8 : 16 -> 36
+~ _OUTLINED_FUNCTION_6 : 16 -> 24
+~ _OUTLINED_FUNCTION_27 : 12 -> 36
+~ _OUTLINED_FUNCTION_38 : 36 -> 20
+~ _OUTLINED_FUNCTION_2 : 24 -> 8
+~ _OUTLINED_FUNCTION_2 : 44 -> 12
+~ _OUTLINED_FUNCTION_7 : 20 -> 36
+~ _scalarWriteSetup.cold.1 : 124 -> 44
+~ _figCustomURLHandlerRemote_lookupAndRetainRegisteredInfoForRequestID.cold.4 : 124 -> 44
+~ _FigXPCEndpointPlaybackSessionServerAssociateCopiedNeighborFigEndpointPlaybackSession.cold.1 : 136 -> 56
+~ _CreateCompletionCallbackParametersFromMessageAndConnection.cold.1 : 112 -> 28
+~ _CMVideoFormatDescriptionCreateFromHEVCParameterSets : 540 -> 404
+~ _FigVideoFormatDescriptionCreateFromSPSAndPPS : 180 -> 160
+~ _FigHALAudioDeviceBrokerUnregister.cold.2 : 124 -> 36
+~ _remoteXPCEndpointStream_CreateInternal : 392 -> 260
+~ _FigEndpointStreamXPCRemoteRetainCopiedEndpointStream : 688 -> 164
+~ _remoteXPCEndpointStreamClient_HandleClientMessage : 1868 -> 568
+~ _FigEndpointStreamRemoteXPC_Invalidate : 308 -> 76
+~ _FigEndpointStreamRemoteXPC_CopyProperty : 1076 -> 360
+~ _FigEndpointStreamRemoteXPC_teardown : 332 -> 152
+~ _FigEndpointStreamRemoteXPC_Flush : 400 -> 180
+~ _FigEndpointStreamRemoteXPC_SetRateAndAnchorTimeWithCompletionCallback : 496 -> 272
+~ _FigEndpointStreamRemoteXPC_CopyTransportFormatDescriptionForSourceContentFormatDescription : 372 -> 180
+~ _FigEndpointStreamRemoteXPC_IsPassthroughSupportedForFormatDescription : 372 -> 180
+~ _FigAtomStreamInitWithByteStreamWithSizeAndReporter : 420 -> 320
+~ _ReadAtomHeader : 1304 -> 912
+~ _FigAtomUtilityGetAtomTypeAndLengthInByteStreamWithSize : 480 -> 380
+~ _FigAtomStreamInitWithMemoryBlockAndReporter.cold.1 : 148 -> 44
+~ _FigPriorityQueueCreate : 660 -> 560
+~ _comparePriorityAtIndices : 640 -> 272
+~ _FigPriorityQueueInsertItemAndCreateUpdateToken.cold.1 : 124 -> 60
+~ _FigPriorityQueueRemoveItem.cold.2 : 124 -> 36
+~ _HandleEndpointMessengerRemoteMessage : 2012 -> 932
+~ _figCustomURLLoaderServer_handleMessage : 2308 -> 1044
+~ _figCustomURLLoaderServer_handleMessageNoReply : 796 -> 224
+~ _FigAtomWriterInitWithByteStream : 340 -> 264
+~ _FigAtomWriterAppendBlockBufferData : 200 -> 152
+~ _FigAtomWriterEndAtom : 496 -> 432
+~ _FigAtomWriterBeginAtom.cold.1 : 128 -> 56
+~ _baseByteStreamProvider_CreateByteStreamForURL.cold.3 : 124 -> 44
+~ _securityPolicyByteStreamProvider_CreateScheduledIOForURL.cold.1 : 124 -> 44
+~ _FigMetadataUnboxMEBXLocalIDDependencyListBoxes : 684 -> 560
+~ _CMMetadataFormatDescriptionCreateFromBigEndianMetadataDescriptionBlockBuffer : 1600 -> 824
+~ _KeyEmitterApplierFunction : 1780 -> 1396
+~ _copyKeyOrDataTypeAtom : 436 -> 312
+~ _DependencyListsEmitterApplierFunction.cold.2 : 108 -> 28
+~ _HandleSandboxRegistrationMessage : 2628 -> 808
+~ _FigXPCMessageSetSandboxRegistration : 284 -> 152
+~ _FigXPCMessageCopySandboxRegistration : 288 -> 152
+~ ___FigSandboxRegistrationServerStart_block_invoke.cold.1 : 132 -> 60
+~ _FigSandboxRegistrationServerCopyRegistrationForID.cold.1 : 124 -> 52
+~ _getIdentifyingFactorForLocalID.cold.4 : 108 -> 4
+~ _metadataFormatDescriptionCreateWithMetadataSpecifications1_arrayCallback.cold.7 : 124 -> 36
+~ _metadataFormatDescriptionCreateWithMetadataSpecifications1_arrayCallback.cold.9 : 124 -> 36
+~ _metadataFormatDescriptionCreateWithMetadataSpecifications2_arrayCallback.cold.1 : 124 -> 48
+~ _FigEndpointMessengerXPCRemoteCreateWithObjectID : 308 -> 216
+~ _remoteXPCEndpointMessenger_handleClientMessage : 1164 -> 204
+~ _FigEndpointMessengerRemoteXPC_Finalize : 376 -> 172
+~ _FigEndpointMessengerRemoteXPC_SendMessage : 380 -> 184
+~ _remoteXPCEndpointMessenger_GetObjectID.cold.2 : 124 -> 48
+~ _FigRetainProxyCreate.cold.1 : 120 -> 68
+~ _figCustomURLLoaderRemote_Finalize : 504 -> 196
+~ _figCustomURLLoaderRemote_CreateAndInstallHandler : 772 -> 740
+~ _figCustomURLLoaderRemote_GetObjectID.cold.1 : 124 -> 48
+~ _figCustomURLLoaderRemote_GetObjectID.cold.2 : 124 -> 48
+~ _figCustomURLLoaderRemote_GetURL.cold.1 : 124 -> 48
+~ _FigManagedFilePoolCreateByteStreamForOpenFileAssumingOwnership : 916 -> 280
+~ _ManagedFileByteStreamCopyProperty : 316 -> 248
+~ _ManagedFileByteStreamSetProperty : 300 -> 232
+~ _ManagedFileByteStreamRead : 288 -> 220
+~ _ManagedFileByteStreamGetAvailableLengthAtOffset : 296 -> 228
+~ _ManagedFileByteStreamReadAndCreateBlockBuffer : 288 -> 220
+~ _FigManagedFilePoolCreate.cold.1 : 124 -> 72
+~ _FigDataByteStreamRead : 264 -> 164
+~ _FigDataByteStreamWrite : 424 -> 264
+~ _FigDataByteStreamReadAndCreateBlockBuffer : 252 -> 240
+~ __createWithCFData.cold.2 : 116 -> 40
+~ _FigSandboxRegistrationCreate.cold.2 : 40 -> 20
+~ _FigSandboxRegistrationCreateWithURLOnSelfGrantingReadWriteAccess.cold.2 : 108 -> 32
+~ _FigSandboxRegistrationCreateWithURLOnSelfGrantingReadWriteAccess.cold.4 : 124 -> 48
+~ ___figSandboxRegistrationRecordForDiagnosticLogging_block_invoke_2.cold.1 : 140 -> 64
+~ _figSandboxRegistrationDumpAllApply.cold.2 : 108 -> 28
+~ _FigEndpointManagerStartServerEx : 700 -> 364
+~ _HandleEndpointManagerRemoteMessage : 3740 -> 1516
+~ _HandleGetEndpointManager : 836 -> 360
+~ _FigVP9Bridge_ParseVPCC.cold.1 : 120 -> 48
+~ ___endpointCentricPlugin_Initialize_block_invoke : 564 -> 188
+~ _endpointCentricPlugin_GetPropertyData.cold.3 : 132 -> 52
+~ _endpointCentricPlugin_UpdateEndpoint.cold.3 : 108 -> 28
+~ _CMTagCollectionContainsTagsOfCollection : 264 -> 184
+~ _CMTagCollectionGetTagsWithFilterFunction : 456 -> 276
+~ _CMTagCollectionRemoveTag : 444 -> 336
+~ _CMTagCollectionAddTagsFromArray : 376 -> 204
+~ _FigTagCollectionCopyAsXPCDictionary : 500 -> 288
+~ _CMTagCollectionCopyAsData : 816 -> 584
+~ _CMTagCollectionCreateFromData : 492 -> 304
+~ _ProcessTagCollectionInfoAtom : 460 -> 204
+~ _ProcessTagCollectionListAtom : 464 -> 292
+~ _CMTagCollectionCopyAsDictionary.cold.3 : 108 -> 8
+~ __CMTagCollectionMakeFromDictionaryApplier.cold.1 : 124 -> 48
+~ __CMTagCollectionMakeFromDictionaryApplier.cold.2 : 124 -> 44
+~ __CMTagCollectionCopyAsXPCDictionaryApplier.cold.1 : 124 -> 48
+~ _FigTagCollectionCreateFromXPCDictionary.cold.1 : 136 -> 60
+~ _FigTagCollectionCreateFromXPCDictionary.cold.2 : 124 -> 48
+~ _CMTagCollectionHash.cold.2 : 108 -> 4
+~ _FigApplicationStateMonitorCopyProcessNameIfAvailable : 688 -> 536
+~ _FigApplicationStateMonitorGetHostPIDIfAvailable : 652 -> 572
+~ _FigApplicationStateMonitorAddPIDToIgnore : 556 -> 428
+~ _FigApplicationStateMonitorRemovePIDToIgnore : 556 -> 428
+~ _FigApplicationStateMonitorAddCallbackClient : 972 -> 684
+~ _FigApplicationStateMonitorRemoveCallbackClient : 528 -> 364
+~ _fasm_ensureApplicationStateMonitor.cold.2 : 124 -> 48
+~ ___fasm_ensureInternalState_block_invoke.cold.1 : 124 -> 40
+~ ___fasm_ensureApplicationStateMonitor_block_invoke_2.cold.1 : 108 -> 32
+~ ___fasm_ensureApplicationStateMonitor_block_invoke_2.cold.2 : 132 -> 56
+~ ___fasm_ensureApplicationStateMonitor_block_invoke_2.cold.4 : 108 -> 28
+~ _FigScheduledIOFRSCreateForByteStream : 736 -> 284
+~ _figSchedIOFRS_RequestRead : 948 -> 372
+~ _figSchedIOBatchFRS_AddRead : 920 -> 304
+~ _figSchedIOFRS_CreateBatch.cold.2 : 124 -> 48
+~ _FigHEVCBridge_GetSPS_VUI_NCLC : 212 -> 208
+~ _FigHEVCBridge_GetVPSAlphaChannelNuhLayerId : 212 -> 216
+~ _FigHEVCBridge_GetSPSChromaFormatAndBitDepths : 460 -> 248
+~ _FigHEVCBridge_Get3DLayerIDSets : 444 -> 464
+~ _FigHEVCBridge_CreateThreeDimensionalReferenceDisplaysInfoSEI : 1044 -> 956
+~ _FigHEVCBridge_CreateUpdatedHVCCWithAdditionalHEVCParameterSets : 4824 -> 3124
+~ _FigHEVCBridge_GetATCSEI : 392 -> 240
+~ _hevcbridge_updateFormatDescriptionExtensionsFromHVCC : 344 -> 248
+~ _FigHEVCBridge_CreateMuxedAlphaFormatDescription : 1968 -> 1052
+~ _hevcbridgeIsHVCC8Bit420 : 256 -> 208
+~ _FigHEVCBridge_CreateMultiviewMuxedAlphaFormatDescription : 2636 -> 1452
+~ _hevcbridge_updateNuhLayerIDs : 844 -> 260
+~ _FigHEVCBridge_CreateAmbientViewingEnvironmentSEINAL : 648 -> 560
+~ _FigHEVCBridge_MeasureSliceHeader : 540 -> 252
+~ _FigHEVCBridge_LocateSliceHeaderForHLSfMP4EncryptableNAL : 2124 -> 920
+~ _FigHEVCBridge_CheckVPSPrimaryAlphaLayerCompatibility : 656 -> 580
+~ _FigHEVCBridge_GetRPUMetadataFromRPU : 232 -> 200
+~ _hevcbridgeParseDolbyRPUDataRBSP : 3944 -> 3064
+~ _FigHEVCBridge_GetRPUMetadata : 608 -> 428
+~ _FigHEVCBridge_CreateDolbyRPUNAL : 9552 -> 9412
+~ _hevcbridgeAdvanceInBitstream : 800 -> 720
+~ _hevcbridgeParseSequenceParameterSet : 2940 -> 2752
+~ _hevcbridgeParseVPSExtension : 7428 -> 6664
+~ _hevcbridgeParseHDR10PlusITUT35 : 1472 -> 1468
+~ _hevcbridgeParseVDRRPUDataPayload : 3872 -> 2644
+~ _hevcbridgeParseVdrDmDataPayload : 3176 -> 1900
+~ _FigHEVCBridge_CreateSelectedLayerHVCCFromMuxedAlphaHVCC.cold.1 : 148 -> 64
+~ _FigHEVCBridge_ParseMuxedAlphaFrameAndWriteSelectedLayerIDsNALUnitsToBuffer.cold.4 : 124 -> 48
+~ _hevcbridge_copyModifedAlphaSPSAndPPSFromHVCCOrLHVC.cold.5 : 124 -> 48
+~ _hevcbridgeParseVideoParameterSet.cold.2 : 108 -> 4
+~ _hevcbridgeParseSEIRBSP.cold.4 : 124 -> 48
+~ _hevcbridgeParseSliceSegmentLayer.cold.9 : 108 -> 32
+~ _FigOSEventLinkRemoteFillMessageBufferThenSendItAndHandleReply : 784 -> 516
+~ _FigOSEventLinkRemoteInvalidate : 388 -> 88
+~ _FigOSEventLinkServerMain : 2436 -> 832
+~ _FigOSEventLinkServerCopyRemoteCreationInfoXPCObject : 256 -> 232
+~ _figOSEventLinkRemote_Finalize : 716 -> 184
+~ _figOSEventLinkMemoryObjects_createInternal.cold.3 : 124 -> 48
+~ _figOSEventLinkMemoryObjects_createInternal.cold.4 : 124 -> 48
+~ _FigOSEventLinkServerCreate.cold.2 : 124 -> 48
+~ _FigOSEventLinkServerSetAssociatedFigXPCServerXPCConnection.cold.1 : 124 -> 48
+~ _FigOSEventLinkServerGetAssociatedFigXPCServerXPCConnection.cold.1 : 108 -> 28
+~ _taggedBufferGroup_createCommon.cold.3 : 124 -> 48
+~ _taggedBufferGroup_createCommon.cold.6 : 124 -> 48
+~ _CMTaggedBufferGroupCreateCombined.cold.1 : 148 -> 72
+~ _taggedBufferGroup_getCountAndLastIndexForMatchedTagCollection.cold.2 : 108 -> 8
+~ _taggedBufferGroup_copyDesc.cold.1 : 108 -> 8
+~ _FigRegistryItemCreateCopy2 : 544 -> 464
+~ _FigRegistryItemCreateCopy : 368 -> 332
+~ _figRegistryItemCreate.cold.1 : 132 -> 56
+~ _figRegistryItemCreate.cold.2 : 124 -> 52
+~ _FigHALAudioConduitDeviceCreate : 820 -> 496
+~ _FigHALAudioConduitDeviceResume : 760 -> 348
+~ _FigHALAudioConduitDeviceHALSendAudio : 156 -> 152
+~ _FigHALAudioConduitDeviceCopyProperty : 440 -> 348
+~ __figUpdateCoordinateSpaceGeometryCache : 4180 -> 3296
+~ _FigGeometryMappingGetSourceUnits.cold.1 : 124 -> 44
+~ _FigGeometryMappingCreate.cold.2 : 152 -> 68
+~ _FigGeometryMappingConvertVectorToVector.cold.1 : 108 -> 24
+~ _FigCaptionGeometryGetCellBasedSizeFromDictionary : 476 -> 288
+~ _FigEndpointActivateSync.cold.2 : 128 -> 32
+~ _FigEndpointCopyStreamsForTypeAndSubType.cold.1 : 128 -> 28
+~ _FigCFWeakReferenceTableAddValueAssociatedWithKey.cold.1 : 124 -> 48
+~ _FigCFWeakReferenceTableRemoveValue.cold.2 : 124 -> 48
+~ _FigCFWeakReferenceTableCopyValue.cold.2 : 108 -> 28
+~ _FigCFWeakReferenceTableCopyValues.cold.1 : 136 -> 72
+~ _FigCFWeakReferenceTableCreate.cold.2 : 124 -> 68
+~ _FigCFWeakReferenceTableCreate.cold.3 : 124 -> 48
+~ _figCFWeakReferenceTableCleanup_ifValueIsNULLAppendToKeyValueEntriesToRemove.cold.1 : 108 -> 28
+~ _NeroTransportRegisterObjectWithFlags : 1260 -> 448
+~ _NeroTransportSendAsyncMessage : 732 -> 220
+~ _NeroTransportSendSyncMessageCreatingReply : 1892 -> 436
+~ _NeroTransportInvalidate : 1240 -> 432
+~ _ft_callAsyncHandlerForObjectRecordApplier : 528 -> 180
+~ _CMTimeSyncTimeOfDayClockGetClockTimeForHostTime : 1024 -> 300
+~ _CMTimeSyncTimeOfDayClockGetHostTimeForClockTime : 1048 -> 308
+~ _LoadTimeSyncFunctions.cold.1 : 108 -> 28
+~ _FigTextMarkupCreateTextMarkupFromRubyReserve.cold.2 : 148 -> 68
+~ _FigTextMarkupCreateTextMarkupFromTextShadowList.cold.5 : 124 -> 44
+~ _FigTextMarkupCreateTextMarkupFromTextShadowList.cold.7 : 124 -> 36
+~ _FigTextMarkupMapGenericFontFamilyToMACaptionAppearanceFontStyle.cold.1 : 132 -> 52
+~ _FigPixelBufferOriginSetPixelBufferInXPCMessage : 1692 -> 696
+~ _FigPixelBufferOriginSetTaggedBufferGroupInXPCMessage : 440 -> 372
+~ _FigPixelBufferOriginBeginEstablishingPixelBufferRecipientByFillingInXPCMessage1 : 492 -> 164
+~ _pixelBufferRecipient_createRecipientPixelBuffer : 584 -> 244
+~ _pixelBufferRecipient_copyCVPixelBufferFromXPCComponents : 580 -> 424
+~ _pixelBufferRecipient_copyCVPixelBufferFromSerializedPixelBufferDescription : 612 -> 456
+~ _FigPixelBufferRecipientCopyTaggedBufferGroupFromXPCMessage : 776 -> 560
+~ _pixelBufferOriginServer_handleRemoteMessageWithReply : 1168 -> 524
+~ _pixelBufferOriginServer_handleRemoteMessageNoReply : 140 -> 56
+~ _FigPixelBufferOriginAppendPixelBufferToIPCMessageData.cold.1 : 124 -> 48
+~ _FigPixelBufferOriginServerCopyPixelBufferOriginForObjectID.cold.1 : 124 -> 44
+~ _FigPixelBufferOriginServerCopyPixelBufferOriginForObjectID.cold.3 : 124 -> 44
+~ _FigPixelBufferRecipientFlushPixelBufferBackings.cold.2 : 124 -> 44
+~ _FigPixelBufferRecipientCreateWithXPCMessage1AndUpdateXPCMessage2.cold.4 : 124 -> 44
+~ _FigPixelBufferRecipientCreateWithXPCMessage1AndUpdateXPCMessage2.cold.5 : 124 -> 44
+~ _pixelBufferSharing_copyPixelBufferAttachments.cold.2 : 128 -> 48
+~ _FigGeometryCoordinateSpaceCreate.cold.4 : 124 -> 68
+~ _FigGeometryCoordinateSpaceCreate.cold.5 : 124 -> 44
+~ _FigGeometryCoordinateSpaceCreate.cold.6 : 124 -> 44
+~ _FigGeometryMarginsCopyAsDictionary.cold.1 : 128 -> 48
+~ _FigRPCCreateRemoteClient.cold.1 : 124 -> 44
+~ _FigRPCGetServerConnectionInfo.cold.1 : 124 -> 44
+~ _FigRPCGetServerConnectionInfo.cold.2 : 124 -> 44
+~ _CMHapticFormatDescriptionCreateFromBigEndianHapticDescriptionBlockBuffer : 384 -> 260
+~ _hapticBridgeAppendExtensionsFunc : 440 -> 204
+~ _figrpc_createClientCommon.cold.2 : 124 -> 48
+~ _figrpc_createClientCommon.cold.4 : 124 -> 48
+~ _figrpc_createClientCommon.cold.9 : 124 -> 48
+~ _figrpc_reflectServedObjectNotificationToClient.cold.1 : 108 -> 28
+~ _FigRPCDisposeClientConnection.cold.1 : 124 -> 48
+~ _FigRPCRetainServedObjectOfConnection.cold.3 : 128 -> 48
+~ _FigRemote_CreateSerializableDictionaryForFormatDescription : 1340 -> 1008
+~ _FigProcessInfoCreateWithDetails.cold.4 : 152 -> 76
+~ _figTimelineCoordinator_coordinateRateChangeOnQueue : 1320 -> 856
+~ _figTimelineCoordinator_beginSuspensionOnQueue : 904 -> 924
+~ _figTimelineCoordinator_postSuspensionReasonsChangedNotification : 296 -> 220
+~ _FigTimelineCoordinatorEndSuspensions : 224 -> 220
+~ _figTimelineCoordinator_setNetworkToHostTimeOffset : 732 -> 488
+~ _figTimelineCoordinator_didFireAdvanceToNextCommandSource : 428 -> 208
+~ _figTimelineCoordinator_handleMissedControlCallbackCompletionOnQueue : 304 -> 324
+~ _figTimelineCoordinator_transitionToNewExpectedTimelineIssuingCommandsWhenAppropriateOnQueue : 1296 -> 1300
+~ _figTimelineCoordinator_sendParticipantStateToGroupOnQueue : 984 -> 908
+~ _figTimelineCoordinator_issueAppropriateCommandsToMatchInProgressTimelineOnQueue : 6308 -> 3868
+~ _figTimelineCoordinator_sendExpectedTimelineStateToGroupOnQueue : 2132 -> 1920
+~ _figTimelineCoordinator_postDidIssueSetRateAndTimeCommandNotification : 164 -> 168
+~ _figTimelineCoordinator_postDidIssueSetRateCommandNotification : 156 -> 160
+~ _figTimelineCoordinator_coordinateTimeJumpOnQueue : 1040 -> 628
+~ _FigTimelineCoordinatorMakeHostTimeFromNetworkTimeDictionary.cold.1 : 124 -> 72
+~ _figTimelineCoordinator_applyRemoteTimelineStateOnQueue.cold.4 : 124 -> 28
+~ _FigTimelineCoordinatorCopyParticipantSnapshotForUUID.cold.1 : 148 -> 68
+~ _figTimelineCoordinator_endSuspensionOnQueue.cold.1 : 116 -> 36
+~ _figTimelineCoordinatorTimelineStateCreateInternal.cold.3 : 52 -> 24
+~ _figTimelineCoordinatorTimelineStateCreateInternal.cold.5 : 124 -> 44
+~ _FigTimelineCoordinatorCreate.cold.9 : 108 -> 28
+~ _figTimelineCoordinator_createDidIssueCommandNotificationPayload.cold.1 : 124 -> 44
+~ _figTimelineCoordinatorParticipantCreateFromDictionary.cold.1 : 36 -> 24
+~ _figTimelineCoordinator_integrateParticipantStateOnQueue.cold.1 : 64 -> 80
+~ _figTimelineCoordinator_integrateParticipantStateOnQueue.cold.2 : 108 -> 8
+~ _figTimelineCoordinator_postParticipantsDidChange.cold.1 : 108 -> 8
+~ _figTimelineCoordinator_suspendTimelineControlCommandCompletionTimer.cold.1 : 108 -> 8
+~ _figTimelineCoordinator_issueProposeTimelineForIdentifierOnQueue.cold.1 : 108 -> 8
+~ _FigCaptionGroupCreate.cold.3 : 104 -> 56
+~ _FigCaptionGroupGetSliceCount.cold.1 : 96 -> 4
+~ _FigRPCServer_PickRPCTimeoutForCurrentThread : 804 -> 208
+~ _FigRemote_CreateSerializedAtomDataForFormatDescriptions : 800 -> 364
+~ _fdescAtom_createSerializedDataForFormatDescriptionArray : 292 -> 280
+~ _sbufAtom_copyFormatDescriptionFromAtom : 2596 -> 1140
+~ _FigRemote_CreateSerializedAtomDataBlockBufferForFormatDescription : 380 -> 212
+~ _sbufAtom_createSerializedDataUsingSerializer : 656 -> 312
+~ _FigRemote_CreateFormatDescriptionFromSerializedAtomDataBlockBuffer : 600 -> 300
+~ _FigRemote_CreateSerializedAtomDataAndSurfaceForSampleBufferWithOptions : 1336 -> 852
+~ _sbufAtom_createSerializedDataAndSurfaceForSampleBuffer : 3012 -> 2544
+~ _FigRemote_CreateSerializedAtomDataBlockBufferWithFlagsForSampleBuffer : 1036 -> 676
+~ _FigRemote_CreateSampleBufferFromSerializedAtomData : 372 -> 300
+~ _FigRemote_CreateSampleBufferFromSerializedAtomBlockBufferAndSurface : 252 -> 220
+~ _FigRemote_CreateSampleBufferFromSerializedAtomBlockBufferAndSurfaceArray : 1588 -> 724
+~ _FigRemote_WriteSerializedAtomDataForSampleBufferExcludingDataBufferWithOptionsForPID : 332 -> 292
+~ _FigRemote_CreateSerializedAtomDataAndSurfaceForPixelBuffer : 932 -> 416
+~ _FigRemote_CreateSerializedAtomDataBlockBufferForPixelBuffer : 468 -> 236
+~ _FigRemote_CreateKeyValuePairFromSerializedAtomDataBlockBuffer : 600 -> 288
+~ _FigRemote_CreateSerializedAtomDataBlockBufferForCFType : 380 -> 212
+~ _FigRemote_CreateSerializedAtomDataBlockBufferWithFlagsForCFType : 376 -> 260
+~ _FigRemote_CreateCFTypeFromSerializedAtomDataBlockBuffer : 480 -> 268
+~ _sbufAtom_copyCFTypeFromAtom : 1236 -> 1036
+~ _FigRemote_CreateCFTypeFromSerializedAtomData : 288 -> 256
+~ _sbufAtom_appendFormatDescriptionAtomGuts : 1252 -> 812
+~ _sbufAtom_appendDictionaryAtom : 788 -> 388
+~ _sbufAtom_appendKeyValuePairAtom : 556 -> 220
+~ _sbufAtom_appendArrayAtom : 192 -> 188
+~ _sbufAtom_copyDictionaryFromAtom : 588 -> 452
+~ _sbufAtom_copyArrayFromAtom : 376 -> 324
+~ _figReadNEAtomHeader.cold.2 : 124 -> 48
+~ _sbufAtom_createSampleBufferFromSerializedAtomDataAndSurface.cold.14 : 260 -> 48
+~ _sbufAtom_createSampleBufferFromSerializedAtomDataAndSurface.cold.17 : 124 -> 52
+~ _FigNEAtomWriterBeginAtom.cold.1 : 124 -> 48
+~ _FigNEAtomWriterAppendData.cold.1 : 124 -> 48
+~ _HandleEventCallback : 360 -> 160
+~ _figCustomURLHandlerServer_handleRemoteMessage : 2008 -> 1384
+~ _FigCaptionSerializerCreateCaptionGroupFromCFData : 2840 -> 1348
+~ _fcs_copyCaptionPropertiesAsDictionary : 1520 -> 1240
+~ _fcs_setDictionaryFromPropertyColor : 336 -> 164
+~ _fcs_deserializeCaptionPropertyApplier : 564 -> 444
+~ _fcs_deserializeRegionPropertyApplier : 568 -> 440
+~ _fcs_createDynamicStyleFromPListColor : 288 -> 156
+~ _fcs_createDynamicStyleFromPListTextShadow : 1120 -> 780
+~ _fcs_createDynamicStyleFromPListRubyReserve : 364 -> 240
+~ _fcs_createDynamicStyleFromPListAbstractPosition : 520 -> 396
+~ _fcs_deserializeAndCreateFigCaptionData.cold.4 : 124 -> 48
+~ _fcs_setDictionaryFromPropertyTextShadow.cold.5 : 124 -> 48
+~ _fcs_setDictionaryFromPropertyTextShadow.cold.8 : 124 -> 44
+~ _fcs_deserializeCaptionStyleApplier.cold.1 : 108 -> 28
+~ _cryptorServer_CopyCryptorByObjectIDForConnection : 728 -> 196
+~ _FigCPECryptorServerGetIDForCryptorByAssociatingWithClientPID.cold.3 : 124 -> 48
+~ _FigCPECryptorServerCopyCryptorForID.cold.1 : 124 -> 48
+~ _fsbxpc_sandboxRegisterURLWithProcessCommon : 1372 -> 580
+~ ___fsbxpc_sandboxRegisterURLWithProcessCommon_block_invoke.cold.5 : 108 -> 44
+~ ___fsbxpc_sandboxRegisterURLWithProcessCommon_block_invoke.cold.6 : 124 -> 44
+~ ___fsbxpc_sandboxRegisterURLWithProcessCommon_block_invoke.cold.7 : 124 -> 44
+~ ___fsbxpc_sandboxRegisterURLWithProcessCommon_block_invoke.cold.8 : 124 -> 44
+~ _fig8021ASClock_addPortNumberForAddress : 408 -> 324
+~ _CM8021ASClockCopyProperty : 2484 -> 1928
+~ ___timesyncLogMeanIntervalApplier_unregisterClientAndDisposeClockIfNecessary_block_invoke : 676 -> 524
+~ _fig8021ASClock_copyPortMetricsForPortIfValid : 2988 -> 2004
+~ ___timesyncLogMeanIntervalApplier_registerClientAndEnsureClockStarted_block_invoke : 272 -> 268
+~ _timesyncLogMeanIntervalApplier_registerClientAndEnsureClockStartedInternal : 720 -> 600
+~ ___timesyncLogMeanIntervalApplier_lockStateChangedCallback_block_invoke : 332 -> 340
+~ _timesyncLogMeanIntervalApplier_applyIntervalInternal : 1804 -> 1824
+~ ___timesyncLogMeanIntervalApplier_setIntervalAndApplyIfDifferent_block_invoke : 300 -> 312
+~ _CM8021ASClockSetPortRemoteSyncMessageIntervals.cold.2 : 156 -> 80
+~ _CM8021ASClockSetPortRemoteSyncMessageIntervals.cold.3 : 124 -> 48
+~ _CM8021ASClockSetPortRemoteSyncMessageIntervals.cold.4 : 124 -> 48
+~ _CM8021ASClockSetPortRemoteSyncMessageIntervals.cold.5 : 124 -> 48
+~ _CM8021ASClockGetHostTimeForClockTime.cold.3 : 108 -> 28
+~ _FigJSONObjectCreateWithData : 368 -> 224
+~ _FigCFDataCreateWithJSONObject : 364 -> 220
+~ __createByteStreamWithIOSurface : 452 -> 336
+~ _FigIOSurfaceByteStreamWrite : 404 -> 220
+~ _FigCaptionPositionCreate.cold.1 : 104 -> 8
+~ _FigCaptionPositionCreate.cold.2 : 112 -> 72
+~ _FigEndpointPlaybackSessionXPCRemoteCreateWithObjectID : 528 -> 320
+~ _remoteXPCEndpointPlaybackSessionClient_HandleClientMessage : 2432 -> 876
+~ _FigEndpointPlaybackSessionRemoteXPC_Finalize : 468 -> 200
+~ _remoteXPCEndpointPlaybackSession_generateSandboxTokenForFilePath : 708 -> 340
+~ _figHALDriver_QueryInterface.cold.1 : 124 -> 48
+~ _figHALDriver_QueryInterface.cold.2 : 128 -> 52
+~ _figHALDriver_DoIOOperation.cold.1 : 128 -> 52
+~ _driver_CopyDeviceForID.cold.1 : 128 -> 52
+~ _remoteXPCEndpointRemoteControlSession_CreateInternal : 392 -> 260
+~ _remoteXPCEndpointRemoteControlSessionClient_HandleClientMessage : 2352 -> 668
+~ _FigEndpointRemoteControlSessionRemoteXPC_Finalize : 484 -> 208
+~ _FigEndpointRemoteControlSessionRemoteXPC_SendMessage : 564 -> 568
+~ _remoteXPCEndpointRemoteControlSession_GetObjectID.cold.2 : 124 -> 48
+~ _FigTransportConnectionTCPCreate.cold.1 : 168 -> 44
+~ _FigProcessStateMonitorGetServerPurgeState : 728 -> 568
+~ _FigProcessStateMonitorMayPurgeClientObjects : 972 -> 756
+~ _FigProcessStateMonitorMustNotPurgeClientObjects : 1208 -> 700
+~ _FigProcessStateMonitorEnrollEligibleConnectionsInPurge : 944 -> 848
+~ _FigProcessStateMonitorCopyRemoteStateMonitor : 2420 -> 2016
+~ _figProcessStateMonitorRemote_serverPurgeCallback : 944 -> 772
+~ ___remoteFigProcessStateMonitor_EnsureInternalStateSetup_block_invoke.cold.1 : 124 -> 56
+~ _CMSceneFormatDescriptionCreateFromBigEndianSceneDescriptionBlockBuffer : 384 -> 260
+~ _sceneBridgeAppendExtensionsFunc : 440 -> 204
+~ _usb_Invalidate : 320 -> 64
+~ _usb_Finalize : 736 -> 216
+~ _FigTransportConnectionUSBCreate.cold.1 : 180 -> 316
+~ _FigXPCHandleStdCopyPropertyMessage : 604 -> 308
+~ _FigXPCHandleStdSetPropertyMessage : 340 -> 268
+~ _figXPCConnection_processServerReply : 1620 -> 1168
+~ _FigXPCConnectionRetainCopiedObject : 516 -> 236
+~ _FigXPCConnectionCopyMemoryOriginForConnectedProcess : 456 -> 220
+~ _FigXPCConnectionCopyMemoryRecipientForConnectedProcess : 508 -> 284
+~ _FigXPCServerCreateAssociatedEventLinkForConnection : 668 -> 320
+~ _figXPC_RegisterServedObject : 320 -> 224
+~ _FigXPCServerAssociateCopiedObjectWithNeighborProcess : 336 -> 228
+~ _figXPC_PurgeObjectsForPIDArrayApplier : 1380 -> 480
+~ _figXPCServedObject_NotificationCallback : 760 -> 256
+~ _figXPC_SendOneNotification : 832 -> 312
+~ _FigXPCRemoteClientCreateWithConnectionCreatingBlock.cold.4 : 124 -> 56
+~ _FigXPCServerCopyMemoryRecipient.cold.3 : 132 -> 48
+~ _FigXPCServerFindUniqueObjectIDForObjectAssociatedWithConnection.cold.2 : 124 -> 48
+~ __figXPCServerLookupAndRetainAssociatedObject.cold.1 : 124 -> 48
+~ _FigXPCServerRetainNeighborObjectFromIDWithProcessID.cold.1 : 124 -> 48
+~ _FigXPCServerGetConnectionRefcon.cold.1 : 108 -> 28
+~ _figXPC_HandleNewClientConnection.cold.1 : 108 -> 28
+~ _figXPC_RegisterServedObjectWithID.cold.2 : 124 -> 48
+~ _figXPC_CreateNewConnectionInfo.cold.2 : 108 -> 28
+~ _figXPC_CreateNewConnectionInfo.cold.3 : 108 -> 24
+~ _FigXPCMessageSetBlockBuffer : 684 -> 504
+~ _FigXPCMessageSetCFURL.cold.1 : 124 -> 48
+~ _FigXPCMessageSetCFURL.cold.2 : 124 -> 48
+~ _FigXPCMessageGetCMTimeRange.cold.1 : 124 -> 48
+~ _FigXPCMessageSetUInt32.cold.2 : 108 -> 4
+~ _FigXPCMessageSetFormatDescription.cold.2 : 124 -> 44
+~ _FigXPCMessageSetBlockBufferUsingMemoryOrigin.cold.1 : 124 -> 48
+~ _FigXPCMessageAddDataBufferFromCMSampleBuffer.cold.2 : 124 -> 48
+~ _met_subscribetoAllEvents.cold.2 : 124 -> 36
+~ _met_addSubscriberForEventID.cold.3 : 124 -> 44
+~ _remoteXPCFigEndpoint_getSharedXPCClient : 748 -> 652
+~ _FigEndpointXPCRemoteRetainCopiedEndpointFromReply : 552 -> 264
+~ _FigEndpointIsCarPlayActive : 572 -> 256
+~ _remoteXPCEndpointClient_DeadConnectionCallback : 884 -> 584
+~ _remoteXPCEndpointClient_HandleClientMessage : 4272 -> 1572
+~ _remoteXPCEndpointClient_callDelegateHandleFailed : 348 -> 320
+~ _FigEndpointRemoteXPC_Finalize : 656 -> 312
+~ _FigEndpointRemoteXPC_CopyProperty : 3028 -> 1876
+~ _FigEndpointRemoteXPC_ActivateWithCompletionCallback : 512 -> 300
+~ _FigEndpointRemoteXPC_DeactivateWithCompletionCallback : 520 -> 296
+~ _FigEndpointRemoteXPC_SetDelegateRouting : 416 -> 244
+~ _FigEndpointRemoteXPC_SetDelegateRemoteControl : 412 -> 244
+~ _FigEndpointRemoteXPC_CreatePlaybackSession : 388 -> 228
+~ _FigEndpointRemoteXPC_sendMessageSynchronouslyExpectingCompletionCallback : 728 -> 492
+~ _FigEndpointRemoteXPC_DisableBluetoothConnectivityToDevice : 344 -> 204
+~ _FigEndpointRemoteXPC_CopyHIDInputMode : 400 -> 248
+~ _FigEndpointRemoteXPC_SendCommand : 572 -> 316
+~ _FigEndpointRemoteXPC_CreateRemoteControlSession : 404 -> 280
+~ _FigEndpointRemoteXPC_CreateCommChannel : 460 -> 296
+~ _FigEndpointRemoteXPC_CloseCommChannel : 512 -> 264
+~ _FigEndpointRemoteXPC_CopyCurrentScreenViewArea : 400 -> 260
+~ _FigEndpointRemoteXPC_RelinquishResource : 436 -> 248
+~ _HandleEndpointRemoteMessage : 3052 -> 1820
+~ _FigEndpointXPCServerWriteNeighborEndpointToReply : 540 -> 292
+~ _HandleEndpointSetDelegateRemoteControlMessage : 484 -> 304
+~ _HandleEndpointSetDelegateRoutingMessage : 468 -> 304
+~ _HandleEndpointRequestCarUIMessage : 332 -> 256
+~ _HandleEndpointBorrowScreenMessage : 320 -> 256
+~ _HandleEndpointUnborrowScreenMessage : 320 -> 256
+~ _HandleEndpointTakeScreenMessage : 320 -> 256
+~ _HandleEndpointCopyHIDInputMessage : 368 -> 304
+~ _HandleEndpointDisableBluetoothConnectivityToDevice : 320 -> 256
+~ _HandleEndpointDuckAudio : 308 -> 228
+~ _HandleEndpointSetHIDInputMessage : 320 -> 256
+~ _HandleEndpointSendCommandMessage : 964 -> 640
+~ _HandleEndpointSendDataMessage : 596 -> 296
+~ _HandleEndpointRequestScreenViewAreaMessage : 328 -> 260
+~ _HandleEndpointCopyCurrentScreenViewAreaMessage : 376 -> 312
+~ _HandleEndpointActivateMessage : 576 -> 292
+~ _HandleEndpointRelinquishResourceMessage : 496 -> 304
+~ _SendDidReceiveDataFromCommChannelCallback : 436 -> 208
+~ _figEndpointXPC_getObjectIDForSource : 604 -> 200
+~ _LookupEndpointByObjectIDForConnection.cold.1 : 124 -> 48
+~ _CreateDelegateCallbackParameters.cold.2 : 124 -> 48
+~ _CreateCompletionCallbackParametersFromMessageAndConnection.cold.1 : 108 -> 28
+~ _fnho_ensureTimerIsPaused : 224 -> 76
+~ _FigNetworkHistoryObserverCreate.cold.6 : 124 -> 44
+~ _FigNetworkHistoryObserverCreate.cold.9 : 124 -> 36
+~ _FigEndpointRPCCacheCopyAvailableObjects.cold.1 : 128 -> 44
+
+Functions (added):
++ _OUTLINED_FUNCTION_1
++ ___figMobileAsset_DownloadCatalogAndRequery_block_invoke_2
++ _FigReadSchedulerExpediteRequest
++ _FigReadSchedulerCancelAllClientRequests
++ ___FigSandboxServerXPC_AddAssertionForPID_block_invoke
++ _FigSandboxRegistrationServerStart
++ ___HandleDestroySandboxRegistrationMessage_block_invoke
++ _figCustomURLLoaderRemote_DeadConnectionCallback
++ _ManagedFileByteStreamFinalize
++ _CloseManagedFile
++ _DisposeManagedFile
++ _figSandboxRegistrationFinalize
++ _FigEndpointManagerXPCClientInfoDispose
++ _figSchedIOFRS_GetAvailableLengthAtOffset
++ _hevcbridgeGetSPS_VUI_AspectRatioCallbackFlag
++ [4 functions added in block]
++ _hevcbridgeGetNALUnitHeaderCallbackUnsigned
++ _hevcbridgeGetVPSAlphaChannelNuhLayerIdCallbackUnsigned
++ _hevcbridgeGetSEIAlphaChannelInfoCallbackFlag
++ _hevcbridgeGetSPSProfileTierLevelCallbackUnsigned
++ _hevcbridgeGetSPSChromaFormatAndBitDepthsCallbackUnsigned
++ _hevcbridgeGet3DLayerIDsSEICallbackUnsigned
++ _hevcbridgeParseSEITypeCallbackUnsigned
++ _fgFinalize_Mapping
++ _figCFWeakReferenceTableFinalize
++ _ft_destroyReplyRecordApplier
++ ___FigTransportSetSharedTransport_block_invoke
++ ___FigTransportInitializeWithConnection_block_invoke
++ _ft_signalReplySemaphoreApplier
++ ___EnsurePixelBufferOriginServerStarted_block_invoke
++ _fgFinalize_CoordinateSpace
++ ___figrpc_createServerConnectionForObjectCommon_block_invoke_5
++ ___figrpc_createServerConnectionForObjectCommon_block_invoke_7
++ _figRPCTimeoutDetector_Finalize
++ ___figrpc_enqueueNotificationInternal_block_invoke
++ ___FigServer_InitializeWithEnvironment_block_invoke
++ _FigServer_IsServerProcess
++ _FigServer_IsMediaserverd
++ _FigServer_IsMediaparserd
++ [3 functions added in block]
++ _FigServer_IsAirplayd
++ _FigRemote_SetFigNotePreferences
++ _FigRemote_ResetFigNotePreset
++ ___checkFigRemotePrivTrace_block_invoke
++ _participantState_timelineIdentifier
++ _participantState_isSuspended
++ _FigTimelineCoordinatorResetGroupTimelineExpectations
++ _FigRPCTimeout_KillAndForceCrashReport
++ _FigRemote_KillAndForceCrashReport
++ _ftd_PostEventOnAllHandlers
++ ___tcp_sendAndReceiveData_block_invoke_5
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_14
++ _usb_resetMessageReceiptState
++ ___usb_clientThreadSetup_block_invoke_2
++ _usb_pingAsyncCallback
++ [3 functions added in block]
++ ___usb_deviceActivate_block_invoke
++ _figXPC_RetainCopiedObjectApplierFunction
++ _FigXPCRemoteClientDispose
++ _FigXPCServerSelfTerminateDueToError
++ ___figXPC_RemoteClientOneTimeInitialization_block_invoke
++ _figXPC_ServerConnectionFinalizer
++ _figXPCConnection_copyObjectForID
++ ___figXPCConnection_CallClientMessageHandlers_block_invoke_2
++ ___figXPC_StartListeningForClientProcessDeath_block_invoke_2
++ _figXPC_ConnectionInfoFinalizer
++ _figXPCConnectionInfo_Init
++ _figXPCServer_EstablishSecondaryConnectionManagement
++ _OUTLINED_FUNCTION_0
++ [7 functions added in block]
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_20
++ _FigXPCMessageSetCFDictionary
++ _FigXPCMessageSetAndConsumeVMData
++ [6 functions added in block]
++ _FigXPCMessageCopyCFData
++ _FigXPCMessageCopyCFURL
++ _FigXPCMessageGetCMTime
++ _FigXPCMessageGetCMTimeRange
++ _FigXPCMessageGetCMTimeMapping
++ [3 functions added in block]
++ _OUTLINED_FUNCTION_0
++ _FigEndpointXPCRemoteRetainCopiedEndpointsFromArrayToCFArray
++ ___remoteXPCFigEndpoint_initializeLogging_block_invoke
++ _remoteXPCEndpoint_cloneCompletionCallback
++ _remoteXPCEndpoint_freeCompletionCallback
++ _FigEndpointRemoteXPC_EndpointAggregateAddEndpointWithCompletionCallback
++ _FigEndpointRemoteXPC_EndpointAggregateRemoveEndpointWithCompletionCallback
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_19
++ _OUTLINED_FUNCTION_20
++ _OUTLINED_FUNCTION_23
++ _OUTLINED_FUNCTION_25
++ _OUTLINED_FUNCTION_26
++ _delegateCallbackParameters_Finalize
++ [3 functions added in block]
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_18
++ _OUTLINED_FUNCTION_0
++ _figPowerLogOpenFramework
++ [3 functions added in block]
++ _basicBroker_CreateDevice
++ _plugin_CreateStandardPluginObjectInternal.cold.1
++ _plugin_GetPropertyData.cold.3
++ _FigEndpointManagerRemoteXPC_SetProperty
++ _remoteXPCEndpointManager_ResetCachedAvailableEndpoints.cold.1
++ _FigEndpointManagerRemoteCopyAirPlayManager.cold.2
++ _FigWatchdogMonitorDispatchQueue.cold.1
++ _FigWatchdogMonitorDispatchQueue.cold.2
++ _CMDerivedObjectCreate.cold.4
++ [3 functions added in block]
++ __FigSetCoverageFilePathPattern.cold.2
++ [6 functions added in block]
++ _FigVirtualCaptureCard_SaveCapture.cold.2
++ _FigCFStringCreateWithBytesWithUnknownEncoding.cold.8
++ _FigCFStringCreateWithBytesWithUnknownEncoding.cold.9
++ _FigPurgeAndRenewProcessStateTrackerGetPurgeEligibilityForPID.cold.1
++ _FigPurgeAndRenewProcessStateTrackerGetPurgeEligibilityForPID.cold.2
++ ___startProcessStateTracking_block_invoke.cold.4
++ _FigAudioDeviceGetCurrentPresentationTime
++ _FigAudioDeviceSupportsPresentationTime.cold.2
++ _FigStopMonitoringMediaServicesProcessDeathWithCallback.cold.2
++ [3 functions added in block]
++ ___FigProcessStateMonitor_handleMessage_block_invoke.cold.6
++ ___FigProcessStateMonitor_noReplyHandleMessage_block_invoke.cold.2
++ _CMFormatDescriptionGetWidestGamutAndLargestDynamicRangeColorPropertiesFromFormatDescriptions.cold.6
++ ___figMobileAsset_DownloadCatalogAndRequery_block_invoke_2.cold.1
++ _FigNotificationCenterRemoveWeakListener.cold.1
++ [3 functions added in block]
++ [3 functions added in block]
++ [5 functions added in block]
++ [3 functions added in block]
++ [3 functions added in block]
++ __FigEndpointStreamAudioFormatDescriptionCreateWithXPCObject.cold.2
++ ___FigBufferedAirPlayClientRoutingRegistryGetSharedInstance_block_invoke.cold.3
++ ___FigBufferedAirPlayClientRoutingRegistryCreate_block_invoke.cold.5
++ [3 functions added in block]
++ _figObjectDependencyDeathDefaultCallback.cold.2
++ _FigEndpointStreamSuspendSync.cold.1
++ _figTimebaseCreate.cold.1
++ _fpm_timerCallback.cold.4
++ _fpm_timerCallback.cold.8
++ _fpm_reportingDataForInternalUsingCoreAnalytics.cold.1
++ [4 functions added in block]
++ _cryptorRemote_CopyPropertyForFormat
++ _cryptorRemote_TestAndSetKeyRequestState
++ [6 functions added in block]
++ _FigMetricEventDeserializeEvent
++ _FigMetricMockEventForTestCreate.cold.2
++ ___ensureGlobalDeserializeRegister_block_invoke.cold.1
++ _FigIOSurfaceByteStreamSetProperty.cold.3
++ _FigBBufByteStreamSetProperty.cold.4
++ _sbufAtom_createSampleBufferFromSerializedAtomDataAndSurface.cold.9
++ _sbufAtom_createSampleBufferFromSerializedAtomDataAndSurface.cold.6
++ _CMCreateContiguousBlockBufferFromStream.cold.1
++ _CMByteStreamCreateForFileURL
++ _FigNetworkHistorySetRequestLatency
++ _fnh_requestReceivedBytesCommand
++ _fnh_getFirstBytesReceivedEntryAfterTime
++ _fnh_populateBandwidthSampleFromBytesReceivedEntry
++ _FigNetworkHistoryCopySharedPredictor
++ _fnhp_constantLatencyTimeWeightedAlgorithmForBandwidthHelper
++ _FigNetworkHistoryEndImmutability.cold.1
++ _FigNetworkHistoryRequestBecameActive.cold.2
++ _fnh_setRequestSentTimestampCommand.cold.1
++ _FigNetworkHistoricalPredictorCreate.cold.3
++ _rsRequest_Create.cold.2
++ _FigReadSchedulerRequestReadWithDeadline.cold.5
++ _rsBatch_Create.cold.2
++ _FigReadSchedulerBatchAddReadWithDeadline.cold.1
++ _readScheduler_HandleCommittedBatchExpedite.cold.1
++ [3 functions added in block]
++ ___FigNTPClientCreate_block_invoke.cold.2
++ _FigSandboxRegistrationRemoteGetObjectID.cold.3
++ _fmcregion_Equal.cold.2
++ _fmcd_GetCaptionText.cold.1
++ _remoteFigVirtualCaptureCard_reserveForCaptureToFile
++ _remoteVirtualCaptureCardClient_EnsureClientEstablished.cold.1
++ _remoteVirtualCaptureCardClient_GetObjectID.cold.3
++ _FigAV1Bridge_parseOBU
++ _picture_alloc_with_edges.cold.1
++ _FigAV1Bridge_CreateParsingStateFromAV1CodecConfigurationRecord.cold.2
++ _dav1d_picture_unref_internal.cold.1
++ _curlh_cleanupRegisteredInfoForRequestID
++ _curll_requestCompletedNote
++ _curll_requestSetDormantDispatch
++ _handlerHandleRequestRec_getCFAllocator.cold.2
++ _curll_transferHandlingOfRequest.cold.7
++ _curlh_sendResponseInfo.cold.2
++ [6 functions added in block]
++ [3 functions added in block]
++ [3 functions added in block]
++ _curll_handlerHandleRequestCompletionHandlerCommon.cold.1
++ _curll_handlerLookupRegisteredInfoCallbackForHandlerTransfer.cold.1
++ _VEXUBridge_ConvertVideoExtendedUsageExtensionToAtom
++ _parseStereoViewInformationAtom
++ _parseProjectionInformationAtom
++ [5 functions added in block]
++ _CMPointCloudFormatDescriptionCreateFromBigEndianPointCloudDescriptionBlockBuffer
++ [4 functions added in block]
++ _FigFilePathCreateFromNativePath.cold.1
++ _met_subscribeByClassIDOnQueue.cold.1
++ [3 functions added in block]
++ [3 functions added in block]
++ [10 functions added in block]
++ _getValueOfItemAtIndexAsSInt64
++ [3 functions added in block]
++ _FigBoxedMetadataAppendFloat32
++ [15 functions added in block]
++ [10 functions added in block]
++ _FigInMemorySerializationAddDataBufferFromCMSampleBuffer.cold.2
++ [3 functions added in block]
++ _FigEventSet
++ _FigThreadGetIOPolicy.cold.1
++ _FigThreadGetIOPolicy.cold.2
++ _FigCFDictionarySetBase64Data
++ _FigCFURLCreateCacheKey
++ _FigCFPropertyListCreateFromFigFileFork
++ _FigCopyCGColorSRGBAsArray
++ _FigCreateCGColorSRGBFromArray
++ [4 functions added in block]
++ [6 functions added in block]
++ [3 functions added in block]
++ [9 functions added in block]
++ _FigAudioDeviceClockXPCRemoteRetainCopiedClock
++ _remoteDeviceClock_GetRate
++ [7 functions added in block]
++ -[NeroMessageCenterService activateConnection]
++ -[NeroMessageCenterService deactivateConnection]
++ -[NeroMessageCenterSocket deactivateConnection]
++ [5 functions added in block]
++ _ids_EnqueuePackageWithPriority
++ _FigTransportConnectionUSBCreate.cold.2
++ _FigAudioFormatDescriptionCreateFromBigEndianSoundDescriptionBlockBufferWithReporter
++ _CMDoesBigEndianSoundDescriptionRequireLegacyCBRSampleTableLayout
++ _figSoundBridge_GetDecodeFormatIDForCodingName
++ _figSoundBridge_EncapsulatedMagicCookieFromCanonicalMagicCookie
++ _figSoundBridge_ConvertMP4AESDSMagicCookieToSoundDescriptionExtension.cold.1
++ _figSoundBridge_ConvertMP4AESDSMagicCookieToSoundDescriptionExtension.cold.4
++ [4 functions added in block]
++ _figBridge_ReportParsingFailureMessage
++ _figBridge_AlphaLayerIsPresent
++ _CMVideoFormatDescriptionCopyAsBigEndianImageDescriptionBlockBuffer.cold.1
++ _FigMP4BridgeCreateRFC6381CodecString
++ _GetBits.cold.1
++ _ntcxpc_EnqueuePackageWithPriority
++ _FigMetricEventTimelineCreateRemoteWithObjectID
++ _metremote_handleServerMessage
++ [3 functions added in block]
++ _metremote_create.cold.1
++ _FigVirtualCaptureCardServerReplyingMessageHandler
++ _FigOSTransactionCreateWithProcessName.cold.2
++ _FigOSTransactionCreateWithProcessName.cold.3
++ [3 functions added in block]
++ [3 functions added in block]
++ _figCustomURLHandlerRemote_shimHandleRequestCallback.cold.4
++ _NeroValeriaListenerCreate
++ _CMTagCopyAsDictionary.cold.1
++ _FigTagCopyAsXPCDictionary.cold.1
++ _FigNote_CopyRingBufferLogArrayAndResetRing
++ ___FigNote_ConfigureRingBuffer_block_invoke.cold.1
++ _fig_note_dropRingBufferDataStructuresInternal.cold.1
++ _FigSandboxRegistrationAssociateWithURL.cold.1
++ _FigCreateHexStringFromCFData.cold.2
++ [5 functions added in block]
++ _FigMemoryPoolBlockBufferGetPaddedWriteInfo
++ _memoryOrigin_storeSubBlockDescription
++ _FigMemoryOriginBeginEstablishingMemoryRecipientByFillingInXPCMessage1
++ _memoryOriginServer_handleRemoteMessageWithReply
++ _poolBlockState_Create.cold.6
++ _FigMemoryPoolCreateBlockBufferWithOptions.cold.2
++ _FigMemoryPoolCreateContiguousBlockBuffer.cold.2
++ [4 functions added in block]
++ [3 functions added in block]
++ _memoryOrigin_disposeEachOriginEntry.cold.1
++ ___CreateReceivedMemoryAllocator_block_invoke.cold.1
++ _HandleEndpointPlaybackSessionRemoteMessage
++ [3 functions added in block]
++ _FigH264Bridge_GetSPSSequenceID
++ [3 functions added in block]
++ _RemoveEmulation3Byte.cold.1
++ _FigHEVCBridge_CreateArrayOfSEINALUnitsFromJumboSEINALUnit.cold.1
++ ___FigTransportInitializeWithConnection_block_invoke.cold.1
++ _figTimelineCoordinator_everyoneIsSuspended
++ _figTimelineCoordinator_endSuspensionOnQueue.cold.3
++ _cryptorServer_HandleRemoteSyncMessage
++ _CM8021ASClockAddIPv6PortAndGetIdentity
++ _figHALDriver_PerformDeviceConfigurationChange
++ _figHALDriver_AbortDeviceConfigurationChange
++ _figHALDriver_BeginIOOperation
++ _tcp_FlushPendingPackagesWithPriority
++ _usb_SetEventHandler
++ _usb_FlushPendingPackagesWithPriority
++ _usb_Start.cold.1
++ ___usb_Start_block_invoke.cold.1
++ _FigXPCServerStartWithListenerCreatingBlock.cold.7
++ ___figXPC_SendNotificationCheckpoint_block_invoke_2.cold.1
++ ___remoteXPCEndpointClient_callDelegateHandleAuthRequired_block_invoke_2
+
+Functions (removed):
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_49
+- _OUTLINED_FUNCTION_8
+- _CMSampleBufferCallForEachSample
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_82
+- _OUTLINED_FUNCTION_70
+- _OUTLINED_FUNCTION_9
+- _figObjectDependencyDeathDefaultCallback
+- _FigControlCommandsStartServer
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_24
+- _OUTLINED_FUNCTION_37
+- _OUTLINED_FUNCTION_38
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_84
+- _OUTLINED_FUNCTION_30
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_47
+- _OUTLINED_FUNCTION_92
+- _OUTLINED_FUNCTION_52
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_0
+- sub_18fe1d6c4
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_19
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_26
+- [5 functions removed in block]
+- [3 functions removed in block]
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_49
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_62
+- _OUTLINED_FUNCTION_65
+- _OUTLINED_FUNCTION_67
+- _OUTLINED_FUNCTION_89
+- _OUTLINED_FUNCTION_71
+- _OUTLINED_FUNCTION_73
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_6
+- _readScheduler_HandleExpediteSingleRequestJob
+- _readScheduler_HandleExpediteAllClientRequestsJob
+- _readScheduler_PerformRead
+- _OUTLINED_FUNCTION_76
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_85
+- _OUTLINED_FUNCTION_83
+- _FigAV1Bridge_GetProfileTierLevelFromAV1CodecConfigurationRecord
+- _FigAV1Bridge_CreateParsingStateFromAV1CodecConfigurationRecord
+- _FigAV1Bridge_GetSeqOBU_VUI_NCLC
+- _FigAV1Bridge_GetSeqOBU_VUI_AspectRatio
+- _parse_frame_hdr
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_26
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_38
+- _OUTLINED_FUNCTION_45
+- _OUTLINED_FUNCTION_47
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_55
+- _OUTLINED_FUNCTION_59
+- [6 functions removed in block]
+- [3 functions removed in block]
+- _curlh_sendResponseInfoDispatch
+- _curlh_handleRequestDispatch
+- _curll_respondToHandleRequestCompletionOnQueue
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_30
+- _OUTLINED_FUNCTION_34
+- _parseRequiredBoxTypesAtom
+- _parseVideoExtendedUsageExtensionChildAtoms
+- _OUTLINED_FUNCTION_7
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_25
+- _OUTLINED_FUNCTION_81
+- _OUTLINED_FUNCTION_80
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_0
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_24
+- ___FigFileIsFileOnExternalStorageDevice_block_invoke
+- _FigFileForkRead
+- _FigFileForkSynchronize
+- _FigFileLock
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_13
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_6
+- _FigTraceLoggingEnd
+- _OUTLINED_FUNCTION_0
+- _FigUserStackshotWithMessage
+- _FigUserTailspinWithMessage
+- _FigLogBacktrace
+- _FigLogBacktraceWithMsg
+- _DetermineInitialValueForOKToLogURLs
+- _CMTimeSyncClockCreateForSystemDomainClockIdentifier
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_12
+- _RegisterFigAssetAnalysisReporterType
+- _figSetPThreadTimesharePolicy
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _FigCFURLCreateRelativeURLWithURLAndBaseURL
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_18
+- -[NeroMessageCenterSocket mainLoop]
+- _ids_CopyProperty
+- _ids_SetProperty
+- _ids_Start
+- _ids_EnqueuePackageWithPriority
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_23
+- _figSoundBridge_ParseExtensionAtoms
+- _figSoundBridge_IsDataISOv1
+- _figSoundBridge_GetDecodeFormatIDForUnknownExtensionType
+- _figSoundBridge_GetAudioPacketInfoAndBetterFormatIDForPartialASBDAndParseState
+- _figSoundBridge_EndianAudioChannelLayout_NtoB
+- _figSoundBridge_ConvertALACMagicCookieToSoundDescriptionExtension
+- _figBridge_ConvertMiscellaneousSampleDescriptionExtensionsToAtoms
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_33
+- [6 functions removed in block]
+- _CMClosedCaptionFormatDescriptionCopyAsBigEndianClosedCaptionDescriptionBlockBuffer
+- _figTextBridge_SniffForOtherExtensions
+- _RequiredFeaturesEmittingApplierFunction
+- _InlineResourcesEmittingApplierFunction
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_17
+- _figBridge_GetMPEG4VideoCodecTypeAndCopyDecoderSpecificInfo
+- _CMVideoFormatDescriptionCopyTagCollectionArray
+- _FigVideoFormatDescriptionCopyFigTagCollectionArrayWithExtraChannels
+- _CMVideoFormatDescriptionCopyAsBigEndianImageDescriptionBlockBuffer
+- _figBridge_WalkAndConvertVideoFormatDescriptionExtensions
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_24
+- [4 functions removed in block]
+- [3 functions removed in block]
+- _ntcxpc_handleServerMessage
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_94
+- _figCustomURLHandlerRemote_shimHandleRequestCallback
+- _figCustomURLHandlerRemote_HandleRequest
+- _figCustomURLHandlerRemote_CancelRequest
+- ___NeroValeriaListenerCreate_block_invoke
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_8
+- _FigXPCAudioDeviceClockServerCopyClockForID
+- _FigAudioDeviceClockServer_MakeWrapperForClock
+- _FigAudioDeviceClockServer_LookupAndRetainSubClock
+- _OUTLINED_FUNCTION_0
+- [4 functions removed in block]
+- _set_fignote_value
+- _copy_and_clear_noteBBuf
+- _OUTLINED_FUNCTION_11
+- _poolBlockState_FreeBlocks
+- _poolingAllocator_Reallocate
+- _poolBlockState_DecrementUseCountInternal
+- _memoryOrigin_poolNotificationListener
+- ___EnsureMemoryOriginServerStarted_block_invoke
+- _receivedMemoryAllocator_Deallocate
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_44
+- _OUTLINED_FUNCTION_31
+- _OUTLINED_FUNCTION_32
+- _DisposeSessionEventHandlerState
+- _checkRequestAgainstSandboxRules
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_40
+- _OUTLINED_FUNCTION_41
+- _OUTLINED_FUNCTION_43
+- _OUTLINED_FUNCTION_47
+- _OUTLINED_FUNCTION_52
+- _OUTLINED_FUNCTION_56
+- _OUTLINED_FUNCTION_62
+- _OUTLINED_FUNCTION_63
+- _OUTLINED_FUNCTION_66
+- _OUTLINED_FUNCTION_69
+- _OUTLINED_FUNCTION_72
+- _OUTLINED_FUNCTION_73
+- _FigHALAudioDeviceBrokerUnregister
+- _FigHALAudioDeviceBrokerCopy
+- ___figEndpointStreamRemoteXPC_EnsureClientEstablished_block_invoke
+- ___remoteXPCEndpointStreamClient_handleCompletionCallback_block_invoke
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_10
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_30
+- _OUTLINED_FUNCTION_31
+- _FigAtomStreamInitWithParent
+- _FigAtomStreamReadCurrentAtomData
+- _FigAtomStreamGetCurrentAtomDataGlobalOffset
+- _FigAtomStreamReadCurrentAtomDataAndCreateBBuf
+- _FigAtomStreamAdvanceToNextAtom
+- _FigAtomStreamAdvanceToNextAtomWithType
+- _OUTLINED_FUNCTION_0
+- _FigCustomURLLoaderServerCopyLoaderForID
+- _FigCustomURLLoaderServerAssociateNeighbor
+- _FigCustomURLLoaderServerStart
+- _OUTLINED_FUNCTION_9
+- _securityPolicyByteStreamProvider_CreateScheduledIOForURL
+- _FigMetadataUnboxMEBXKeyTableBox
+- _CMMetadataFormatDescriptionCopyAsBigEndianMetadataDescriptionBlockBuffer
+- _KeyEmitter_EmitDatatypeDeclarationBox
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_11
+- ___FigSandboxServerXPC_RemoveAssertionForPID_block_invoke
+- _fsbsxpc_removeAssertionForPIDOnQueue
+- [3 functions removed in block]
+- ___FigSandboxRegistrationServerStart_block_invoke.16
+- _FigSandboxRegistrationServerCopyRegistrationForID
+- [3 functions removed in block]
+- _FigMetadataFormatDescriptionCreateWithKeysAndDependencies
+- _CMMetadataFormatDescriptionCreateByMergingMetadataFormatDescriptions
+- _metadataFormatDescriptionCreateWithMetadataSpecifications2_arrayCallback
+- ___figEndpointMessengerRemoteXPC_EnsureClientEstablished_block_invoke
+- _FigEndpointMessengerRemoteXPC_CopyProperty
+- _OUTLINED_FUNCTION_10
+- _FindAndRetainManagedFile
+- _ManagedFileByteStreamFinalize
+- [3 functions removed in block]
+- _FigDataByteStreamCopyProperty
+- _FigDataByteStreamSetProperty
+- _FigSandboxRegistrationCreateWithURLOnSelfGrantingReadWriteAccess
+- _figSandboxRegistrationFinalize
+- ___figSandboxRegistrationRecordForDiagnosticLogging_block_invoke_2
+- _FigEndpointManagerXPCClientInfoDispose
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_17
+- _endpointCentricPlugin_CreateEndpointCentricPluginObjectInternal
+- _endpointCentricPlugin_GetPropertyData
+- ___endpointCentricPlugin_GetPropertyData_block_invoke.32
+- _endpointCentricPlugin_ActivatedEndpointsChangedNotificationCallback
+- _endpointCentricPlugin_UpdateEndpoint
+- _endpointCentricPlugin_EndpointNotificationCallback
+- _OUTLINED_FUNCTION_3
+- _RegisterCMTagCollectionType
+- _CMTagCollectionCreateIntersection
+- _CMTagCollectionCreateDifference
+- _FigTagCollectionCreateFromXPCDictionary
+- _CMTagCollectionFinalize
+- _OUTLINED_FUNCTION_3
+- _fasm_ensureApplicationStateMonitor
+- ___fasm_ensureApplicationStateMonitor_block_invoke_2
+- _figSchedIOFRS_Finalize
+- _figSchedIOFRS_ExpediteAllClientRequests
+- _figSchedIOFRS_CreateBatch
+- _figSchedIOFRSWaitForCompletionAbort
+- _OUTLINED_FUNCTION_0
+- _hevcbridgeGetSPS_VUI_AspectRatioCallbackFlag
+- _hevcbridgeGetSPS_VUI_AspectRatioCallbackUnsigned
+- _hevcbridgeGetSPS_VUI_ChromaLocationCallbackFlag
+- [9 functions removed in block]
+- _hevcbridgeGetSEIAmbientViewingEnvironmentCallbackUnsigned
+- _hevcbridgeGetSPSProfileTierLevelCallbackFlag
+- [7 functions removed in block]
+- _hevcbridgeGet3DLayerIDsVPSCallbackFlag
+- _hevcbridgeGet3DLayerIDsVPSCallbackUnsigned
+- sub_18feb5770
+- _hevcbridge_getHEVCParameterSetAtIndex
+- [4 functions removed in block]
+- _FigHEVCBridge_CreateSelectedLayerFormatDescriptionFromMuxedAlphaFormatDescription
+- _hevcbridge_updateConfigRecordNuhLayerID
+- _FigHEVCBridge_CreateFormatDescriptionWithSelectedLayersFromMultiviewMuxedAlphaFormatDescription
+- _FigHEVCBridge_ParseMuxedAlphaFrameAndWriteSelectedLayerIDsNALUnitsToBuffer
+- _hevcbridge_copyModifedAlphaSPSAndPPSFromHVCCOrLHVC
+- _hevcbridgeCreateLHVCFromHEVCParameterSets
+- _FigHEVCBridge_CreateMultiviewMuxedAlphaDataBuffer
+- _FigHEVCBridge_CreateHLSfMP4ParsingInfoFromHVCCAndLHVCData
+- _hevcbridgeMeasureSliceHeaderCallbackUnsigned
+- _hevcbridgeParseSEIRBSP
+- _hevcbridgeParseSliceSegmentLayer
+- [7 functions removed in block]
+- sub_18fec10b0
+- _hevcbridgeParseVdrDmDataPayloadExMetadatatBlocks
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_15
+- [3 functions removed in block]
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_37
+- [10 functions removed in block]
+- _OUTLINED_FUNCTION_53
+- _OUTLINED_FUNCTION_54
+- _OUTLINED_FUNCTION_56
+- _OUTLINED_FUNCTION_57
+- [4 functions removed in block]
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_71
+- _OUTLINED_FUNCTION_72
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_80
+- _OUTLINED_FUNCTION_81
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_88
+- _OUTLINED_FUNCTION_89
+- [4 functions removed in block]
+- [8 functions removed in block]
+- _FigOSEventLinkRemoteCreateFromXPCObject
+- _FigOSEventLinkServerCreate
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_18
+- [3 functions removed in block]
+- _registryCacheAddPath
+- _FigRegistryCopyFilteredItemList
+- _figRegistryAddItemsToResult
+- _registryCacheProcessBundle
+- _OUTLINED_FUNCTION_0
+- _FigHALAudioConduitDeviceSuspendAndInvalidate
+- _figHALAudioConduitDeviceCallControlIODelegate
+- _FigGeometryMappingConvertDimensionToDimension
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_12
+- _FigEndpointUtility_CopyMatchingStreamsFromEndpoint
+- _FigEndpointCopyFirstStreamOfType
+- _FigCFWeakReferenceTableAddValueAndGetKey
+- _FigCFWeakReferenceTableRemoveValue
+- _FigCFWeakReferenceTableCopyValue
+- _FigCFWeakReferenceTableGetKey
+- _FigCFWeakReferenceTableCopyValues
+- _FigCFWeakReferenceTableApplyFunction
+- _FigCFWeakReferenceTableCreate
+- _figCFWeakReferenceTableCleanup_removeKeyValueEntries
+- _figCFWeakReferenceTableFinalize
+- [6 functions removed in block]
+- _neroTransport_Finalize
+- _NeroTransportCreate
+- _ft_callAsyncHandlerForAllRegisteredObjects
+- _ft_destroyReplyRecordApplier
+- ___FigTransportInitializeWithConnection_block_invoke
+- ___ft_callAsyncHandlerForObjectRecordApplier_block_invoke
+- _ft_signalReplySemaphoreApplier
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_29
+- _OUTLINED_FUNCTION_33
+- _CMTimeSyncTimeOfDayClockCreate
+- _LoadTimeSyncFunctions
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_8
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_24
+- _FigTextMarkupDimensionCopyAsSimplifiedDictionary
+- _FigTextMarkupCreateTextMarkupFromAbstractPosition
+- _FigTextMarkupMapGenericFontFamilyToMACaptionAppearanceFontStyle
+- _FigPixelBufferOriginCompleteEstablishingPixelBufferRecipientUsingXPCMessage2
+- _FigPixelBufferOriginServerCopyPixelBufferOriginForObjectID
+- [3 functions removed in block]
+- _pixelBufferSharing_copyPixelBufferAttachments
+- ___EnsurePixelBufferOriginServerStarted_block_invoke
+- _pixelBufferRecipient_NotificationFilter
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- _FigGeometryAspectRatioMake
+- _FigGeometryCoordinateSpaceCreate
+- _FigGeometryCoordinateGravityTypeCopyDescription
+- _OUTLINED_FUNCTION_0
+- _FigRPCCreateRemoteClient
+- _figrpc_createServerConnectionForObjectCommon
+- _FigRPCDisposeServerConnection
+- ___figrpc_createServerConnectionForObjectCommon_block_invoke_3
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _figrpc_createClientCommon
+- _FigRPCDisposeClientConnection
+- ___figrpc_createRPCTimeoutDetector_block_invoke
+- ___figrpc_createRPCTimeoutDetector_block_invoke.57
+- _figRPCTimeoutDetector_Finalize
+- ___FigRPCDebugRememberServer_block_invoke_2
+- ___FigRPCDebugRememberServer_block_invoke_3
+- ___figrpc_createClientCommon_block_invoke
+- [3 functions removed in block]
+- [3 functions removed in block]
+- ___FigServer_InitializeWithEnvironment_block_invoke
+- _FigServer_IsServerProcess
+- _FigServer_IsMediaserverd
+- _FigServer_IsMediaparserd
+- [3 functions removed in block]
+- _FigServer_IsReadOnlyFileOpeningPermittedForAuditToken
+- _FigServer_IsWritableFileOpeningOrCreationPermittedForAuditToken
+- _OUTLINED_FUNCTION_0
+- _FigTimelineCoordinatorMakeHostTimeFromNetworkTimeDictionary
+- _FigTimelineCoordinatorCopyNetworkTimeDictionaryForHostTime
+- _participantState_isSuspended
+- _FigTimelineCoordinationParticipantSnapshotCopySuspensionReasons
+- _figTimelineCoordinator_applyRemoteTimelineStateOnQueue
+- _figTimelineCoordinator_replaceParticipantStatesOnQueue
+- _figTimelineCoordinator_timelineControlCommandCompletion
+- _figTimelineCoordinator_endSuspensionOnQueue
+- _FigTimelineCoordinatorGetExpectedGroupTimeForIdentifier
+- _FigTimelineCoordinatorResetGroupTimelineExpectations
+- _FigTimelineCoordinatorSetWeakMediumAndCallbacks
+- _FigTimelineCoordinatorHandleAssignmentOfUUIDToLocalParticipantByMedium
+- _figTimelineCoordinatorTimelineStateCreateFromTimebase
+- _figTimelineCoordinator_switchToProposedTimelineWithNewIdentifierOnQueue
+- _figTimelineCoordinatorTimelineStateCreateInternal
+- _FigTimelineCoordinatorSetProperty
+- _figTimelineCoordinator_newTimelineStateShouldOverrideExistingState
+- _figTimelineCoordinator_everyoneIsSuspended
+- _figTimelineCoordinator_isReadyToPickAnchorTimeForInProgressOnQueue
+- [4 functions removed in block]
+- _figTimelineCoordinator_postDidIssueCommandNotification
+- _figTimelineCoordinatorParticipantCreateFromDictionary
+- _figTimelineCoordinator_reapplyExpectedTimelineOnQueue
+- _figTimelineCoordinator_timelineControlCommandCompletionOnQueue
+- _figTimelineCoordinator_issueProposeTimelineForIdentifierOnQueue
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_30
+- [10 functions removed in block]
+- [3 functions removed in block]
+- _FigRPCServer_TimeoutCrashReport
+- _FigRPCTimeout_KillAndForceCrashReport
+- _FigRPCTimeoutServer_SetFigNotePreferences
+- [3 functions removed in block]
+- ___FigRemote_InterpretMachErrorForTimeout_block_invoke.60
+- _OUTLINED_FUNCTION_2
+- _FigRemote_CopyReplacementAttachmentsForSampleBuffer
+- _sbufAtom_createSampleBufferFromSerializedAtomDataAndSurface
+- _FigRemote_CreatePixelBufferFromSerializedAtomDataAndSurface
+- _FigRemote_CreatePixelBufferFromSerializedAtomDataBlockBuffer
+- _FigNEAtomWriterAppendData
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_2
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_28
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_42
+- _OUTLINED_FUNCTION_43
+- [3 functions removed in block]
+- _DisposeSessionEventHandlerState
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_2
+- _fcs_deserializeAndCreateFigCaptionData
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_7
+- [3 functions removed in block]
+- [5 functions removed in block]
+- _cryptorServer_HandleRemoteSyncMessage
+- _FigCPECryptorServerGetIDForCryptorByAssociatingWithClientPID
+- _FigCPECryptorServerDisassociateCryptorWithClientConnection
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_13
+- ___fsbxpc_sandboxRegisterURLWithProcessCommon_block_invoke
+- _fsbxpc_open
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_13
+- _CM8021ASClockCreate
+- _LoadTimeSyncFunctions
+- _CM8021ASClockRemoveIPv4Port
+- _CM8021ASClockRemoveIPv6Port
+- _CM8021ASClockGetClockTimeForHostTime
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_11
+- [6 functions removed in block]
+- ___FigTransportDiscoveryGetSharedDiscovery_block_invoke
+- ___FigTransportDiscoveryStart_block_invoke
+- _ftd_Detached
+- ___ftd_PostEvent_block_invoke
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_0
+- _FigIOSurfaceByteStreamCopyProperty
+- _FigIOSurfaceByteStreamSetProperty
+- _OUTLINED_FUNCTION_0
+- ___remoteXPCEndpointPlaybackSessionClient_EnsureClientEstablished_block_invoke
+- _FigEndpointPlaybackSessionRemoteXPC_sendMessageSynchronouslyExpectingCompletionCallback
+- [7 functions removed in block]
+- _figHALDriver_PerformDeviceConfigurationChange
+- _figHALDriver_AbortDeviceConfigurationChange
+- _figHALDriver_GetPropertyDataSize
+- [8 functions removed in block]
+- ___remoteXPCEndpointRemoteControlSessionClient_EnsureClientEstablished_block_invoke
+- _remoteXPCEndpointRemoteControlSessionClient_DeadConnectionCallback
+- _FigEndpointRemoteControlSessionRemoteXPC_runOneCallback
+- [3 functions removed in block]
+- _tcp_CopyProperty
+- _tcp_SetProperty
+- _tcp_Start
+- [3 functions removed in block]
+- ___tcp_sendAndReceiveData_block_invoke.33
+- ___tcp_readDataFromSocket_block_invoke
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_1
+- _FigDispatchQueueCreateWithPriority
+- _FigDispatchQueueCreateTargetingPThreadRootQueueWithPriority
+- _figDispatch_copyRootQueueWithPriorityAndClientPID
+- _OUTLINED_FUNCTION_1
+- ___remoteFigProcessStateMonitor_EnsureInternalStateSetup_block_invoke
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_0
+- _CMSceneFormatDescriptionCopyAsBigEndianSceneDescriptionBlockBuffer
+- _FigTransportConnectionUSBCreate
+- _usb_SetProperty
+- _usb_Start
+- _usb_EnqueuePackageWithPriority
+- ___usb_Start_block_invoke
+- _usb_sendDataViaUSB
+- _TranslateIOKitReturnCode
+- _usb_resetMessageReceiptState
+- _usb_clientThreadTearDown
+- _usb_readCompleted
+- ___usb_clientThreadSetup_block_invoke.120
+- _usb_deviceSendStartupPing
+- _usb_serverThreadMain
+- _usb_serverThreadTearDown
+- _usb_generalInterestNotification
+- [7 functions removed in block]
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_17
+- _FigXPCConnectionSendSyncMessageCreatingReply
+- _figXPCConnection_forwardThreadAbortForSyncXPCMessage
+- _FigXPCConnectionSendAsyncMessage
+- _FigXPCConnectionSendAsyncMessageWithReplyHandler
+- _FigXPConnectionLookupAndRetainAssociatedObject
+- _figXPC_RetainCopiedObjectApplierFunction
+- _FigXPCRemoteClientCreate
+- _figXPCCreateXPCConnectionInternal
+- _figXPC_RegisterCopiedObject
+- _FigXPCServerFindUniqueObjectIDForObjectAssociatedWithConnection
+- __figXPCServerLookupAndRetainAssociatedObject
+- _FigXPCServerSelfTerminateDueToError
+- _FigXPCServerStartWithListenerCreatingBlock
+- _FigXPCServerStartWithClientXPCConnection
+- _figXPC_HandleNewClientConnection
+- _figXPCRemoteClient_Finalize
+- _figXPCClientConnectionInfo_Finalize
+- ___figXPCCreateXPCConnectionInternal_block_invoke
+- _figXPCConnection_Finalize
+- ___figXPCConnection_HandleConnectionDemise_block_invoke
+- ___figXPCConnection_CallObjectPurgedCallback_block_invoke
+- _figXPCPerProcessInfo_Finalize
+- _figXPCServedObject_Finalize
+- _figXPC_SendNotificationCheckpoint
+- ___figXPC_SendNotificationCheckpoint_block_invoke
+- ___figXPC_SendNotificationCheckpoint_block_invoke.242
+- ___figXPC_StartListeningForClientProcessDeath_block_invoke
+- _figXPC_HandleListenerConnectionError
+- ___figXPC_HandleNewClientConnection_block_invoke
+- _figXPC_CreateNewConnectionInfo
+- [4 functions removed in block]
+- [4 functions removed in block]
+- ___figXPC_SetDetectBlockageTimer_block_invoke
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_37
+- [4 functions removed in block]
+- [3 functions removed in block]
+- [5 functions removed in block]
+- [3 functions removed in block]
+- [4 functions removed in block]
+- [3 functions removed in block]
+- [9 functions removed in block]
+- _FigMetricEventTimelineCreate
+- _OUTLINED_FUNCTION_0
+- _remoteXPCEndpoint_retainCopiedEndpointForSource
+- _FigEndpointXPCRemoteRetainCopiedEndpointFromArray
+- _remoteXPCEndpointClient_NotificationFilter
+- ___remoteXPCEndpointClient_callDelegateHandleFailed_block_invoke
+- ___remoteXPCEndpointClient_callDelegateHandleAuthRequired_block_invoke
+- _remoteXPCEndpoint_cloneCompletionCallback
+- _remoteXPCEndpoint_freeCompletionCallback
+- _FigEndpointRemoteXPC_SendData
+- _FigEndpointRemoteXPC_EndpointAggregateAddEndpointWithCompletionCallback
+- _FigEndpointRemoteXPC_EndpointAggregateRemoveEndpointWithCompletionCallback
+- [4 functions removed in block]
+- [17 functions removed in block]
+- [16 functions removed in block]
+- [3 functions removed in block]
+- [4 functions removed in block]
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_97
+- _OUTLINED_FUNCTION_0
+- _FigEndpointStartServerEx
+- _HandleEndpointAcquireAndCopyResourceMessage
+- _HandleEndpointAddRemoveEndpointMessage
+- _DisposeEndpointRefCon
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_10
+- [7 functions removed in block]
+- [3 functions removed in block]
+- [8 functions removed in block]
+- _OUTLINED_FUNCTION_66
+- [5 functions removed in block]
+- _FigNetworkHistoryObserverCreate
+- _fnho_testCondition
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_0
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_3
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- [3 functions removed in block]
+- _FigEndpointManagerRemoteXPC_CopyProperty
+- _remoteXPCEndpointManagerClient_DeadConnectionCallback
+- ___remoteXPCEndpointManager_ensureConnected_block_invoke
+- _FigEndpointManagerRemoteXPC_CreateEndpointAggregate
+- _FigEndpointManagerRemoteXPC_CopyEndpointRemoteControlDepot
+- _FigBaseProtocolRegisterProtocol.cold.1
+- [5 functions removed in block]
+- [8 functions removed in block]
+- _managerUtil_copyEndpointMatchingPropertyValue
+- _FigEndpointManagerCopyEndpointsForType
+- _FigCaptionTextOutlineCreate.cold.2
+- [18 functions removed in block]
+- [11 functions removed in block]
+- [3 functions removed in block]
+- [30 functions removed in block]
+- _FigPurgeAndRenewProcessStateTrackerGetPurgeEligibilityForPID.cold.1
+- _FigPurgeAndRenewProcessStateTrackerGetPurgeEligibilityForPID.cold.2
+- [4 functions removed in block]
+- _FigAudioDeviceSupportsPresentationTime.cold.2
+- _FigProcessStateMonitorCreateExpiringAssertionOnBehalfOfProcessWithPID
+- [5 functions removed in block]
+- [3 functions removed in block]
+- [4 functions removed in block]
+- ___FigProcessStateMonitor_noReplyHandleMessage_block_invoke.cold.2
+- ___FigProcessStateMonitor_noReplyHandleMessage_block_invoke.cold.3
+- _FigVideoCreateBlockBufferAndFormatDescriptionForHoistingInStreamParameterSets
+- [8 functions removed in block]
+- [4 functions removed in block]
+- [3 functions removed in block]
+- [5 functions removed in block]
+- [20 functions removed in block]
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [8 functions removed in block]
+- _CMSampleBufferSetDataReadyWithNewSize.cold.5
+- [8 functions removed in block]
+- [4 functions removed in block]
+- __FigEndpointStreamAudioFormatDescriptionCopyXPCObject.cold.1
+- __FigEndpointStreamAudioFormatDescriptionCopyXPCObject.cold.2
+- [12 functions removed in block]
+- [6 functions removed in block]
+- [6 functions removed in block]
+- _propertyListenerDispatch.cold.1
+- _CMClockGetAnchorTime
+- [6 functions removed in block]
+- [3 functions removed in block]
+- _endpointStreamUtil_createSyncContext.cold.1
+- _endpointStreamUtil_createSyncContext.cold.2
+- _HandleControlCommandsServerRemoteMessage
+- _figTimebaseGetTime_MaybeUpdatingAnchorTimeFromLoopiness
+- _CMTimebaseSetRate
+- _CMTimebaseSetRateAndAnchorTimeWithFlags
+- _figTimebaseSetMaster
+- _CMTimebaseSetTimerToFireImmediately
+- _CMTimebaseRemoveTimerDispatchSource
+- [3 functions removed in block]
+- _fpm_globalPerformanceMonitorInitOnce
+- [4 functions removed in block]
+- _fpm_timerCallback.cold.9
+- _fpm_reportingDataForInternalUsingCoreAnalytics.cold.1
+- [7 functions removed in block]
+- _FigCaptionFontFamilyNameListCreateMutable.cold.1
+- _FigCaptionFontFamilyNameListCreateMutable.cold.2
+- [9 functions removed in block]
+- _cryptorRemote_SetProperty
+- _cryptorRemote_SetKeyRequestResponse
+- [4 functions removed in block]
+- [8 functions removed in block]
+- _FigMetricMockEventForTestCreate.cold.2
+- ___ensureGlobalDeserializeRegister_block_invoke.cold.1
+- _FigCompositeByteStreamGetAvailableLengthAtOffset.cold.1
+- [9 functions removed in block]
+- [6 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _PeruseActivatedEndpoints
+- [9 functions removed in block]
+- [7 functions removed in block]
+- [5 functions removed in block]
+- _fnhp_constantLatencyTimeWeightedAlgorithmForBandwidthHelper
+- [3 functions removed in block]
+- [10 functions removed in block]
+- _FigNetworkHistoryCopySerializedRecordData.cold.2
+- _fnh_createBytesReceivedEntry.cold.1
+- _ntcxpc_handleClientMessage
+- [3 functions removed in block]
+- [16 functions removed in block]
+- [10 functions removed in block]
+- [33 functions removed in block]
+- [3 functions removed in block]
+- ___FigNTPClientCreate_block_invoke.cold.1
+- ___FigNTPClientCreate_block_invoke.cold.2
+- [3 functions removed in block]
+- [10 functions removed in block]
+- [14 functions removed in block]
+- [29 functions removed in block]
+- _fmcd_SetStylePropertyInRange.cold.3
+- [5 functions removed in block]
+- _remoteFigVirtualCaptureCard_CopyProperty
+- _remoteFigVirtualCaptureCard_SetProperty
+- [6 functions removed in block]
+- _FigAV1Bridge_parseOBU
+- [25 functions removed in block]
+- [20 functions removed in block]
+- _curlh_invalidate
+- _figCustomURLWorkQueueDrain
+- _curlh_handleRequestCompletionHandlerDispatch
+- _curlh_cancelRequestDispatch
+- _curll_requestCompletedNote
+- _curll_handlerHandleRequestOnLoaderQueue
+- [29 functions removed in block]
+- [7 functions removed in block]
+- [20 functions removed in block]
+- [4 functions removed in block]
+- [11 functions removed in block]
+- [11 functions removed in block]
+- [9 functions removed in block]
+- _curll_respondToHandleRequestCompletionOnQueue.cold.5
+- _handlerHandleRequestRec_getCFAllocator.cold.2
+- [8 functions removed in block]
+- [56 functions removed in block]
+- _FigGraphCreate
+- _VEXUBridge_ConvertVideoExtendedUsageExtensionToAtom
+- _parseProjectionInformationAtom
+- [10 functions removed in block]
+- _FigCaptionTextShadowCreate.cold.2
+- _FigCaptionTextShadowListCreate.cold.2
+- _CMPointCloudFormatDescriptionCreateFromBigEndianPointCloudDescriptionData.cold.2
+- _CMPointCloudFormatDescriptionCreateFromBigEndianPointCloudDescriptionData.cold.3
+- [14 functions removed in block]
+- [4 functions removed in block]
+- [4 functions removed in block]
+- _FigFileConvertURLToAbsoluteAndMarkAsDirectory.cold.5
+- _FigThreadAbortQueue
+- [10 functions removed in block]
+- [6 functions removed in block]
+- _FigFileForkOpenMainByPath.cold.4
+- [28 functions removed in block]
+- _FigBoxedMetadataCreateBlockBufferForIndex
+- _FigBoxedMetadataCopyValueOfItemAtIndexAsCFType
+- _FigBoxedMetadataAppendValue
+- _FigBoxedMetadataAppendCFTypedValue
+- [47 functions removed in block]
+- _FigMetadataCreateDynamicBaseDataType.cold.2
+- [9 functions removed in block]
+- [3 functions removed in block]
+- [9 functions removed in block]
+- _FigCaptionTextEmphasisCreate.cold.1
+- _figTimeSyncClock_getAnchorTimeWithResync
+- [22 functions removed in block]
+- [8 functions removed in block]
+- [3 functions removed in block]
+- _figSetPThreadTimesharePolicy.cold.1
+- [9 functions removed in block]
+- _FigCFDictionarySetValue
+- _FigCFDictionaryGetCGRectIfPresent
+- _FigCFDictionaryGetCGSizeIfPresent
+- _FigCFURLCreateCacheKey
+- _FigCFStringCopyWithIndent
+- _FigCFPropertyListCreateFromFigFileFork
+- _FigCFSetCopyValuesAsCFArray
+- _FigCreateCGColorSRGBFromArray
+- [35 functions removed in block]
+- [47 functions removed in block]
+- [8 functions removed in block]
+- [14 functions removed in block]
+- [5 functions removed in block]
+- [21 functions removed in block]
+- _FigAudioFormatDescriptionCopySceneInformation.cold.1
+- [5 functions removed in block]
+- _FigAudioDeviceClockXPCRemoteGetObjectID.cold.1
+- [10 functions removed in block]
+- -[NeroMessageCenterSocket sendPackage]
+- [7 functions removed in block]
+- _FigAudioFormatDescriptionCreateFromBigEndianSoundDescriptionBlockBufferWithReporter
+- _figSoundBridge_GetDecodeFormatIDForCodingName
+- _figSoundBridge_EncapsulatedMagicCookieFromCanonicalMagicCookie
+- [4 functions removed in block]
+- [10 functions removed in block]
+- [17 functions removed in block]
+- [58 functions removed in block]
+- [6 functions removed in block]
+- [8 functions removed in block]
+- _MP4Bridge_ParseMPEGVideoSequenceHeader
+- _ntcxpc_EnqueuePackageWithPriority
+- _ntcxpc_FlushPendingPackagesWithPriority
+- _FigMetricEventTimelineCreateRemote
+- _metremote_handleServerMessage
+- [3 functions removed in block]
+- _FigVirtualCaptureCardServerNoReplyMessageHandler
+- _FigOSTransactionCreateWithProcessName.cold.3
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _figCustomURLHandlerRemote_lookupAndRetainRegisteredInfoForRequestID.cold.3
+- _NeroValeriaListenerCreate
+- _HandleAudioDeviceClockMessage
+- [15 functions removed in block]
+- _FigCreateCFDataWithBlockBufferNoCopy.cold.1
+- [6 functions removed in block]
+- _memoryOrigin_unregisterUseOfMultipleBlocks
+- _receivedMemoryAllocator_tellOriginToDecrementUseCountOfBlock
+- [9 functions removed in block]
+- [25 functions removed in block]
+- _FigMemoryRecipientCreateWithXPCMessage1AndUpdateXPCMessage2.cold.2
+- _FigMemoryRecipientCreateWithXPCMessage1AndUpdateXPCMessage2.cold.3
+- [5 functions removed in block]
+- [6 functions removed in block]
+- _AuthorizeItemCompletionCallback
+- _SeekCompletionCallback
+- _GetProxiedPropertyCompletionCallback
+- _HandleEventCallback
+- _checkRequestAgainstSandboxRules.cold.1
+- _FigH264Bridge_GetPPSSequenceIDFromSlice
+- _FigH264Bridge_CreateHLSfMP4ParsingInfoFromAVCCData
+- _PullSliceHeader
+- _FigH264Bridge_LocateSliceHeaderForHLSfMP4EncryptableNAL
+- [10 functions removed in block]
+- [25 functions removed in block]
+- [10 functions removed in block]
+- _PullParamSetPPS.cold.19
+- _PullParamSetPPS.cold.20
+- [16 functions removed in block]
+- _PullParamSetPPS.cold.39
+- [21 functions removed in block]
+- [9 functions removed in block]
+- [11 functions removed in block]
+- [46 functions removed in block]
+- [3 functions removed in block]
+- [18 functions removed in block]
+- _FigHALAudioDeviceBrokerRegister.cold.2
+- _FigHALAudioDeviceBrokerRegister.cold.3
+- _FigHALAudioDeviceBrokerCopy.cold.2
+- _FigHALAudioDeviceBrokerCopy.cold.3
+- _FigEndpointStreamXPCRemoteGetObjectID.cold.1
+- _FigEndpointStreamXPCRemoteGetObjectID.cold.2
+- _FigPriorityQueueInsertItemAndCreateUpdateToken.cold.2
+- _FigPriorityQueueRemoveItem.cold.1
+- _FigCaptionRubyReserveCreate.cold.2
+- [3 functions removed in block]
+- [8 functions removed in block]
+- _securityPolicyByteStreamProvider_CreateByteStreamForURL.cold.1
+- [12 functions removed in block]
+- [6 functions removed in block]
+- [26 functions removed in block]
+- [13 functions removed in block]
+- [45 functions removed in block]
+- _metadataFormatDescriptionCreateWithMetadataSpecifications1_arrayCallback.cold.8
+- [9 functions removed in block]
+- [3 functions removed in block]
+- _remoteXPCEndpointMessenger_GetObjectID.cold.1
+- [3 functions removed in block]
+- _figCustomURLLoaderRemote_CancelRequest.cold.1
+- [8 functions removed in block]
+- [3 functions removed in block]
+- [4 functions removed in block]
+- _FigSandboxRegistrationCreate.cold.3
+- _FigSandboxRegistrationCreateWithURLOnSelfGrantingReadWriteAccess.cold.3
+- ___figSandboxRegistrationRecordForDiagnosticLogging_block_invoke_2.cold.2
+- _figSandboxRegistrationDumpAllApply.cold.1
+- [4 functions removed in block]
+- [4 functions removed in block]
+- _endpointCentricPlugin_UpdateEndpoint.cold.1
+- _endpointCentricPlugin_UpdateEndpoint.cold.2
+- [42 functions removed in block]
+- [6 functions removed in block]
+- [4 functions removed in block]
+- [4 functions removed in block]
+- ___fasm_ensureInternalState_block_invoke.cold.2
+- ___fasm_ensureInternalState_block_invoke.cold.3
+- ___fasm_ensureApplicationStateMonitor_block_invoke_2.cold.3
+- _figSchedIOFRS_CreateBatch.cold.1
+- _figSchedIOBatchFRS_Cancel.cold.1
+- _hevcbridgeParseNALUnit.cold.1
+- [9 functions removed in block]
+- [11 functions removed in block]
+- [6 functions removed in block]
+- [9 functions removed in block]
+- [7 functions removed in block]
+- [24 functions removed in block]
+- [14 functions removed in block]
+- [10 functions removed in block]
+- [19 functions removed in block]
+- [24 functions removed in block]
+- [15 functions removed in block]
+- _hevcbridgeParsePictureParameterSet.cold.2
+- [4 functions removed in block]
+- [13 functions removed in block]
+- [35 functions removed in block]
+- _FigOSEventLinkRemoteCreateFromXPCObject.cold.1
+- [7 functions removed in block]
+- [9 functions removed in block]
+- [12 functions removed in block]
+- _FigOSEventLinkServerSetAbortActionCallbacks.cold.7
+- _FigOSEventLinkServerSetAssociatedFigXPCServerXPCConnection.cold.2
+- _FigOSEventLinkServerSetAssociatedFigXPCServerXPCConnection.cold.3
+- _taggedBufferGroup_createCommon.cold.1
+- _taggedBufferGroup_createCommon.cold.4
+- _taggedBufferGroup_createCommon.cold.5
+- [9 functions removed in block]
+- [12 functions removed in block]
+- [8 functions removed in block]
+- _FigGeometryMappingConvertRectToRect.cold.1
+- [4 functions removed in block]
+- [5 functions removed in block]
+- _FigCFWeakReferenceTableCopyValue.cold.1
+- [5 functions removed in block]
+- _FigCFWeakReferenceTableCreate.cold.4
+- _FigCFWeakReferenceTableCreate.cold.5
+- [6 functions removed in block]
+- _FigTextMarkupCreateTextMarkupFromRubyReserve.cold.1
+- [7 functions removed in block]
+- [14 functions removed in block]
+- _FigTextMarkupCreateTextMarkupFromTextShadowList.cold.6
+- [5 functions removed in block]
+- _FigPixelBufferOriginServerCopyPixelBufferOriginForObjectID.cold.2
+- [7 functions removed in block]
+- _FigPixelBufferRecipientCreateWithXPCMessage1AndUpdateXPCMessage2.cold.1
+- _FigPixelBufferRecipientCreateWithXPCMessage1AndUpdateXPCMessage2.cold.2
+- _FigGeometryCoordinateSpaceCreate.cold.1
+- _FigGeometryCoordinateSpaceCreate.cold.2
+- [3 functions removed in block]
+- [12 functions removed in block]
+- _FigRPCDisposeServerConnection.cold.1
+- [11 functions removed in block]
+- [11 functions removed in block]
+- [6 functions removed in block]
+- [9 functions removed in block]
+- [4 functions removed in block]
+- [8 functions removed in block]
+- [4 functions removed in block]
+- [5 functions removed in block]
+- _FigServer_IsWritableFileOpeningOrCreationPermittedForAuditToken.cold.2
+- _FigProcessInfoCreateWithDetails.cold.5
+- ___getProcNameWeakTable_block_invoke.cold.2
+- _FigTimelineCoordinationParticipantSnapshot_Equal
+- _figTimelineCoordinator_postDidIssueSetTimeCommandNotification
+- [7 functions removed in block]
+- [3 functions removed in block]
+- [4 functions removed in block]
+- [5 functions removed in block]
+- _FigTimelineCoordinatorCopyParticipantSnapshotForUUID.cold.2
+- [6 functions removed in block]
+- [7 functions removed in block]
+- _figTimelineCoordinatorTimelineStateCreateInternal.cold.1
+- _figTimelineCoordinatorTimelineStateCreateInternal.cold.2
+- _figTimelineCoordinatorTimelineStateCreateInternal.cold.4
+- [8 functions removed in block]
+- [6 functions removed in block]
+- [24 functions removed in block]
+- _figTimelineCoordinator_startTimeoutForTimelineControlCommandOnQueue.cold.1
+- _figTimelineCoordinator_postDidIssueCommandNotification.cold.1
+- [4 functions removed in block]
+- _figTimelineCoordinatorRemoveSuspensionInternal.cold.1
+- _FigCaptionGroupCreate.cold.1
+- _FigCaptionGroupCreate.cold.2
+- _FigCaptionGroupCreate.cold.4
+- _FigCaptionGroupCreate.cold.5
+- _FigCaptionGroupGetDurationAfterSlice.cold.2
+- _sbufAtom_appendAtomWithMemoryBlock
+- _sbufAtom_appendFormatDescriptionAtom
+- [8 functions removed in block]
+- _FigRemote_CreateSerializedAtomDataForSampleBufferWithOptions.cold.1
+- _sbufAtom_createSampleBufferFromSerializedAtomDataAndSurface.cold.1
+- [11 functions removed in block]
+- _sbufAtom_createSampleBufferFromSerializedAtomDataAndSurface.cold.15
+- _sbufAtom_createSampleBufferFromSerializedAtomDataAndSurface.cold.16
+- [27 functions removed in block]
+- [9 functions removed in block]
+- _CreateSessionEventHandlerState.cold.2
+- _FigCustomURLHandlerServerAssociateObjectAndContentKeySessionByPID.cold.1
+- _FigCustomURLHandlerServerRequestingClientCreate.cold.2
+- _figCustomURLHandlerServer_shimDataCallback.cold.1
+- [14 functions removed in block]
+- [28 functions removed in block]
+- _fcs_setDictionaryFromPropertyTextShadow.cold.6
+- _fcs_setDictionaryFromPropertyTextShadow.cold.7
+- [13 functions removed in block]
+- [11 functions removed in block]
+- [3 functions removed in block]
+- _FigCPECryptorServerGetIDForCryptorByAssociatingWithClientPID.cold.1
+- _FigCPECryptorServerGetIDForCryptorByAssociatingWithClientPID.cold.2
+- [4 functions removed in block]
+- ___fsbxpc_sandboxRegisterURLWithProcessCommon_block_invoke.cold.1
+- [3 functions removed in block]
+- [43 functions removed in block]
+- [3 functions removed in block]
+- _CM8021ASClockSetAllPortRemoteSyncMessageIntervals.cold.3
+- _CM8021ASClockSetAllPortRemoteSyncMessageIntervals.cold.4
+- [3 functions removed in block]
+- [4 functions removed in block]
+- [8 functions removed in block]
+- _remoteXPCEndpointPlaybackSession_GetObjectID.cold.1
+- _remoteXPCEndpointPlaybackSession_GetObjectID.cold.2
+- [6 functions removed in block]
+- _remoteXPCEndpointRemoteControlSession_GetObjectID.cold.1
+- [3 functions removed in block]
+- _FigDispatchQueueCreateStandardDispatchQueue.cold.1
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [5 functions removed in block]
+- [4 functions removed in block]
+- ___remoteFigProcessStateMonitor_EnsureInternalStateSetup_block_invoke.cold.2
+- ___remoteFigProcessStateMonitor_EnsureInternalStateSetup_block_invoke.cold.3
+- [15 functions removed in block]
+- [14 functions removed in block]
+- _FigXPCConnectionSetCustomServerTimeoutPerConnection
+- _figXPC_CopyInfoForProcess
+- [12 functions removed in block]
+- [29 functions removed in block]
+- [6 functions removed in block]
+- [7 functions removed in block]
+- [3 functions removed in block]
+- [5 functions removed in block]
+- _FigXPCServerFindUniqueObjectIDForObjectAssociatedWithConnection.cold.3
+- [4 functions removed in block]
+- [7 functions removed in block]
+- [16 functions removed in block]
+- [6 functions removed in block]
+- [5 functions removed in block]
+- [82 functions removed in block]
+- [18 functions removed in block]
+- [6 functions removed in block]
+- [5 functions removed in block]
+- [6 functions removed in block]
+- _met_publishEventDispatch
+- [14 functions removed in block]
+- [7 functions removed in block]
+- [5 functions removed in block]
+- _FigEndpointXPCRemoteObtainObjectIDForOtherProcess
+- _FigEndpointRemoteXPC_Dissociate
+- _FigEndpointRemoteXPC_DuckAudio
+- _FigEndpointRemoteXPC_RequestScreenViewArea
+- _FigEndpointRemoteXPC_EndpointAggregateOperationWithCompletionCallback
+- [11 functions removed in block]
+- _HandleNoReplyEndpointMessage
+- [3 functions removed in block]
+- _HandleEndpointClearDelegateRoutingMessage
+- _HandleEndpointCreateRemoteControlSessionMessage
+- _HandleEndpointDeactivateMessage
+- _HandleEndpointCopySubEndpointsMessage
+- _SendHandleFailedCallback
+- _FigEndpointStartServerEx.cold.2
+- _FigXPCEndpointServerAssociateNeighborFigEndpointWithRegistration.cold.1
+- _fnho_callbacktimerProc
+- _fnho_networkHistoryBecameActiveHandler
+- [5 functions removed in block]
+- _FigNetworkHistoryObserverCreate.cold.7
+- _FigNetworkHistoryObserverCreate.cold.8
+- [6 functions removed in block]
+- [9 functions removed in block]
+- _CMNotificationCenterRegisterForBarrierSupport
+- [4 functions removed in block]
+- _FigEndpointRPCCacheApplyObjectDeltas
+- _FigEndpointRPCCacheCreate.cold.1
+- _FigControlCommandsRemoteClientPurgeObjectsAndGenerateReportForPID
 CStrings:
 - "\n\tImportedBlockSN %6lld ptr %p len %8zd%s%s"
 - "\n\tpool %p BlockSN %016llx FORGOTTEN recipientUseCount %3d"

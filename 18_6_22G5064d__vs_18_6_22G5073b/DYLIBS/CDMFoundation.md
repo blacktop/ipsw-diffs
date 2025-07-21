@@ -484,6 +484,110 @@ Symbols:
 - _getNameStringToEnumDict.onceToken.8143
 - _objectdestroy.29Tm
 - _objectdestroy.9Tm
+Functions (modified):
+~ _OUTLINED_FUNCTION_93 : 32 -> 12
+~ _OUTLINED_FUNCTION_44 : 16 -> 40
+~ _OUTLINED_FUNCTION_33 : 24 -> 16
+~ _OUTLINED_FUNCTION_49 : 32 -> 16
+~ _OUTLINED_FUNCTION_83 : 16 -> 28
+~ _OUTLINED_FUNCTION_128 : 12 -> 32
+~ _OUTLINED_FUNCTION_134 : 16 -> 36
+~ _OUTLINED_FUNCTION_230 : 28 -> 12
+~ _OUTLINED_FUNCTION_247 : 16 -> 24
+~ _OUTLINED_FUNCTION_249 : 16 -> 24
+~ _OUTLINED_FUNCTION_252 : 24 -> 12
+~ _OUTLINED_FUNCTION_253 : 24 -> 12
+~ _OUTLINED_FUNCTION_254 : 12 -> 24
+~ _OUTLINED_FUNCTION_269 : 12 -> 24
+~ _OUTLINED_FUNCTION_281 : 24 -> 12
+~ _OUTLINED_FUNCTION_305 : 24 -> 36
+~ _OUTLINED_FUNCTION_308 : 24 -> 32
+~ _OUTLINED_FUNCTION_310 : 32 -> 24
+~ _OUTLINED_FUNCTION_321 : 20 -> 12
+~ _OUTLINED_FUNCTION_345 : 20 -> 12
+~ _OUTLINED_FUNCTION_347 : 12 -> 20
+~ _OUTLINED_FUNCTION_359 : 12 -> 28
+~ _OUTLINED_FUNCTION_361 : 12 -> 32
+~ _OUTLINED_FUNCTION_363 : 12 -> 32
+~ _OUTLINED_FUNCTION_366 : 28 -> 24
+~ _OUTLINED_FUNCTION_367 : 32 -> 24
+~ _OUTLINED_FUNCTION_370 : 32 -> 24
+~ _OUTLINED_FUNCTION_32 : 32 -> 24
+~ _OUTLINED_FUNCTION_75 : 32 -> 12
+~ _OUTLINED_FUNCTION_25 : 32 -> 16
+~ _OUTLINED_FUNCTION_27 : 16 -> 28
+~ _OUTLINED_FUNCTION_28 : 28 -> 16
+~ _OUTLINED_FUNCTION_65 : 12 -> 16
+~ -[CDMNLUServiceGraph buildGraph] : 12376 -> 12372
+~ ___32-[CDMNLUServiceGraph buildGraph]_block_invoke.627 : 564 -> 604
+~ -[CDMSiriVocabularySpanMatchService updateData:] : 532 -> 688
+~ -[CDMSiriVocabularyProtoSpanMatcher callSEMSpanMatcher:asrHypothesis:] : 1372 -> 1420
+
+Functions (added):
++ _OUTLINED_FUNCTION_81
++ _OUTLINED_FUNCTION_70
++ _OUTLINED_FUNCTION_77
++ _OUTLINED_FUNCTION_228
++ _OUTLINED_FUNCTION_94
++ _OUTLINED_FUNCTION_215
++ _OUTLINED_FUNCTION_365
++ _OUTLINED_FUNCTION_55
++ _OUTLINED_FUNCTION_152
++ _OUTLINED_FUNCTION_364
++ sub_225ea56c0
++ _OUTLINED_FUNCTION_54
++ sub_225ee9efc
++ sub_225eea174
++ sub_225eea234
++ sub_225eea3bc
++ sub_225eea47c
++ sub_225eea53c
++ sub_225eea82c
++ _OUTLINED_FUNCTION_47
++ _OUTLINED_FUNCTION_261
++ _OUTLINED_FUNCTION_316
++ _OUTLINED_FUNCTION_355
++ _OUTLINED_FUNCTION_71
++ _OUTLINED_FUNCTION_78
++ _OUTLINED_FUNCTION_100
++ sub_225f1b5f0
++ sub_225f3fd50
++ _OUTLINED_FUNCTION_26
++ _OUTLINED_FUNCTION_60
++ _OUTLINED_FUNCTION_61
++ -[CDMSiriVocabularyProtoSpanMatcher setConnectedToCarPlayUltra:]
++ -[CDMSiriVocabularyProtoSpanMatcher connectedToCarPlayUltra]
++ [3 functions added in block]
+
+Functions (removed):
+- sub_2268fcd98
+- sub_2269087bc
+- sub_226908820
+- _OUTLINED_FUNCTION_26
+- _OUTLINED_FUNCTION_29
+- _OUTLINED_FUNCTION_167
+- _OUTLINED_FUNCTION_309
+- _OUTLINED_FUNCTION_362
+- sub_22690e844
+- sub_22690e850
+- sub_2269127d8
+- sub_226912e84
+- sub_226912fe4
+- sub_22691316c
+- sub_2269132f4
+- sub_2269183c8
+- sub_226919010
+- sub_226919348
+- sub_2269193c4
+- sub_2269194e0
+- sub_22691d590
+- sub_22691d5f0
+- _OUTLINED_FUNCTION_30
+- sub_22693f584
+- ___Block_byref_object_copy_.7003
+- ___Block_byref_object_copy_.7942
+- ___Block_byref_object_copy_.8522
+- ___Block_byref_object_copy_.10280
 CStrings:
 + "#carplay Device is connected to CarPlay Ultra: %{bool}d"
 + "%s #radio #carplay Connected to CarPlay Ultra. Including CCItemType_RadioStation in siri vocab span match search"

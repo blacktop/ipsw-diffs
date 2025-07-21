@@ -27,15 +27,5 @@
    Functions: 56923
    Symbols:   171315
    CStrings:  93938
-Functions:
-~ sub_22ec20f88 -> sub_22e3bef88 : 64 -> 16
-~ sub_22ec20fc8 -> sub_22e3bef98 : 16 -> 108
-~ sub_22ec21044 -> sub_22e3bf070 : 108 -> 144
-~ sub_22ec210b0 -> sub_22e3bf100 : 144 -> 56
-~ sub_22ec21140 -> sub_22e3bf138 : 56 -> 124
-~ sub_22ec21178 -> sub_22e3bf1b4 : 124 -> 96
-~ sub_22ec211f4 -> sub_22e3bf214 : 96 -> 16
-~ sub_22ec21254 -> sub_22e3bf224 : 16 -> 12
-~ sub_22ec21264 -> sub_22e3bf230 : 12 -> 64
 
 ```

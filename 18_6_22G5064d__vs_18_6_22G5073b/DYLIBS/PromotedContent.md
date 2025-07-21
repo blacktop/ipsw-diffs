@@ -57,6 +57,15 @@
 -  CStrings:  1741
 +  CStrings:  1745
  
+Functions (added):
++ sub_1b60f9224
++ sub_1b612f6c8
++ sub_1b612f820
++ sub_1b6186074
++ sub_1b6186ba8
+
+Functions (removed):
+- sub_1b6cab6dc
 CStrings:
 + "Context ID: %-*s Content ID: %-*s Content is eligible for sponsorship because it's campaign ID %s does match %s."
 + "Context ID: %-*s There are no campaign ID for the today feed to perform a brand conflict check with."

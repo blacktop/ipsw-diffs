@@ -58,6 +58,210 @@ Symbols:
 - ___maskrune
 - _fig_note_initialize_category_with_default_work_cf
 - _strlen
+Functions (modified):
+~ _FigNeroEndpointManagerGetShared : 428 -> 372
+~ _FigNeroEndpointManagerForCameraPreviewGetShared : 428 -> 372
+~ _FigOctaviaHALPlugin_Create : 576 -> 248
+
+Functions (added):
++ sub_1080
++ sub_109c
++ sub_1784
++ sub_21e8
++ [4 functions added in block]
++ sub_265c
++ sub_26b8
++ sub_2914
++ [3 functions added in block]
++ sub_3008
++ sub_36dc
++ sub_385c
++ sub_3ef0
++ sub_4904
++ sub_49a0
++ sub_5644
++ sub_5718
++ sub_5910
++ sub_59ac
++ sub_5a38
++ sub_61c4
++ sub_653c
++ sub_6c70
++ sub_78b4
++ sub_7c84
++ sub_8104
++ sub_856c
++ sub_8634
++ sub_86e8
++ [4 functions added in block]
++ sub_8a4c
++ sub_8b00
++ sub_8ec4
++ sub_91a0
++ sub_91c0
++ sub_9414
++ sub_9594
++ sub_9820
++ [3 functions added in block]
++ sub_9ea4
++ sub_a480
++ sub_a4ac
++ sub_a67c
++ sub_a6dc
++ sub_a780
++ sub_abc4
++ sub_b554
++ sub_b65c
++ sub_b6d8
++ sub_b874
++ sub_bbdc
++ sub_bc8c
++ sub_d5ac
++ sub_e570
++ sub_e74c
++ sub_ea9c
++ sub_ed10
++ [4 functions added in block]
++ sub_fad0
++ sub_fc20
++ sub_10730
++ sub_11290
++ sub_112c0
++ sub_112f0
++ sub_11cfc
++ sub_12120
++ sub_1216c
++ sub_12428
++ sub_12544
++ sub_12558
++ sub_12f24
++ [3 functions added in block]
++ sub_13654
++ sub_137f4
++ sub_13fd4
++ sub_14abc
+
+Functions (removed):
+- sub_f48
+- sub_1780
+- sub_2234
+- sub_2414
+- sub_2f40
+- sub_37f4
+- sub_39b0
+- [6 functions removed in block]
+- sub_507c
+- [4 functions removed in block]
+- sub_516c
+- [3 functions removed in block]
+- sub_611c
+- sub_6768
+- [6 functions removed in block]
+- sub_7180
+- [3 functions removed in block]
+- [4 functions removed in block]
+- sub_98cc
+- sub_9bac
+- sub_9e28
+- [6 functions removed in block]
+- sub_d1a8
+- [3 functions removed in block]
+- [3 functions removed in block]
+- sub_fa74
+- sub_faa4
+- sub_fbd0
+- sub_10a48
+- sub_10d30
+- sub_10eb4
+- sub_116e4
+- sub_11978
+- [9 functions removed in block]
+- sub_121cc
+- sub_1250c
+- sub_12710
+- sub_12ccc
+- sub_13324
+- sub_1351c
+- [4 functions removed in block]
+- [7 functions removed in block]
+- [4 functions removed in block]
+- sub_13dcc
+- sub_13e04
+- [3 functions removed in block]
+- [4 functions removed in block]
+- [22 functions removed in block]
+- sub_14188
+- sub_141a0
+- [6 functions removed in block]
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [4 functions removed in block]
+- sub_14750
+- sub_14da0
+- sub_155c8
+- sub_15c1c
+- sub_1603c
+- sub_165a4
+- sub_165c4
+- sub_17128
+- sub_17484
+- sub_17d8c
+- sub_17fc0
+- sub_18728
+- sub_18b78
+- sub_18bc4
+- [3 functions removed in block]
+- sub_18c60
+- sub_18c74
+- sub_18ca4
+- sub_18ccc
+- sub_18ce4
+- sub_18d24
+- sub_18d30
+- [7 functions removed in block]
+- sub_1a51c
+- sub_1b564
+- sub_1be9c
+- sub_1c33c
+- sub_1ce60
+- [3 functions removed in block]
+- sub_1ea78
+- sub_1ec68
+- sub_1ef98
+- sub_1f344
+- sub_1f3f0
+- [6 functions removed in block]
+- [3 functions removed in block]
+- [4 functions removed in block]
+- sub_210c0
+- [3 functions removed in block]
+- sub_21374
+- [13 functions removed in block]
+- sub_214c8
+- sub_214e8
+- sub_226cc
+- sub_22b44
+- sub_22bb4
+- sub_22dd0
+- sub_22e84
+- sub_23070
+- sub_2352c
+- [13 functions removed in block]
+- sub_24654
+- [4 functions removed in block]
+- sub_25ff0
+- sub_27278
+- sub_27abc
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [5 functions removed in block]
+- [4 functions removed in block]
+- sub_2aee4
+- [9 functions removed in block]
+- sub_2bbe4
+- [10 functions removed in block]
+- sub_2dfa0
+- sub_2e4a8
 CStrings:
 + "nmanager_SetProperty_block_invoke_3"
 - "! deviceInfo"

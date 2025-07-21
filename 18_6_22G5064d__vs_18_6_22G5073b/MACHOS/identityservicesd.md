@@ -35,8 +35,6 @@
  
 Symbols:
 + _IDSRegistrationPropertySupportsQTAAudio
-Functions:
-~ sub_100104954 : 7128 -> 7272
 CStrings:
 + "01:25:39"
 + "Jul  3 2025"

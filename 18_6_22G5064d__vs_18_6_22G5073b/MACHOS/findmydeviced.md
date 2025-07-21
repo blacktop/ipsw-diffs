@@ -85,6 +85,36 @@ Symbols:
 + _dispatch_activate
 - _OBJC_CLASS_$_BGNonRepeatingSystemTaskRequest
 - _OBJC_CLASS_$_BGSystemTaskScheduler
+Functions (added):
++ sub_100032f9c
++ sub_100033374
++ sub_1000334a0
++ sub_1000335b0
++ sub_100033b20
++ sub_1000341f0
++ sub_10003462c
++ sub_1000347cc
++ sub_100034dd0
++ sub_1000354f4
++ sub_100085b80
++ sub_100085c3c
+
+Functions (removed):
+- sub_1000d4ef4
+- sub_100101318
+- sub_10023ee04
+- sub_100245e7c
+- sub_100247fc4
+- sub_1002492b8
+- sub_1002495d4
+- sub_100249cc8
+- sub_10024a00c
+- sub_10024a198
+- sub_10024a36c
+- sub_10024a3d4
+- sub_10024a564
+- sub_10024a700
+- sub_10024a714
 CStrings:
 + "-[FMDFMIPXPCServer postTheftAndLossCFUWithEntry:reply:]"
 + "B16@?0@\"NSError\"8"

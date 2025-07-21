@@ -62,8 +62,10 @@ Symbols:
 + -[SUSUIPreferences useMobileInboxUpdaterRebootDelay]
 + _OBJC_IVAR_$_SUSUIPreferences._useMobileInboxUpdaterRebootDelay
 + _kSUSUIPreferenceUseMobileInboxUpdaterRebootDelay
-Functions:
+Functions (modified):
 ~ -[SUSUIPreferences _loadPreferences] : 508 -> 544
+
+Functions (added):
 + -[SUSUIPreferences useMobileInboxUpdaterRebootDelay]
 CStrings:
 + "TB,R,N,V_useMobileInboxUpdaterRebootDelay"

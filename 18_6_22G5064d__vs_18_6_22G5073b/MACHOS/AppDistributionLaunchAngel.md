@@ -108,6 +108,76 @@ Symbols:
 - _OBJC_CLASS_$_UIScreen
 - _SecAccessControlSetConstraints
 - _objc_retain_x10
+Functions (added):
++ sub_100003aac
++ sub_100003f00
++ sub_100003f34
++ sub_10000a540
++ sub_10000a8e4
++ sub_10000ac28
++ sub_1000139d0
++ sub_100013ba4
++ sub_100014328
++ sub_100014510
++ [5 functions added in block]
++ sub_100015f0c
++ sub_100015ff0
++ sub_1000162c4
++ sub_100016598
++ sub_100021048
++ sub_1000230b8
++ sub_1000231ac
++ sub_100023228
++ sub_1000232ec
++ sub_100023300
++ sub_1000239a4
++ sub_100023b78
++ sub_100023f68
++ sub_100025000
++ sub_100025150
++ sub_100025304
++ sub_100025440
++ sub_1000258e4
++ sub_100030b08
++ sub_100030ee8
++ sub_100030ffc
++ sub_1000310c8
++ sub_100033edc
++ sub_100034ca4
++ sub_100034fbc
++ sub_1000353fc
++ sub_100037c28
++ sub_100037fc0
++ sub_1000381b0
++ sub_100042d74
++ sub_1000431f8
++ [3 functions added in block]
++ sub_100044278
++ sub_100044448
++ sub_100044770
++ sub_100044b44
++ sub_100044d38
++ sub_10004591c
++ sub_100045edc
++ sub_100045fac
++ sub_1000461a8
++ sub_100046570
++ sub_100047e24
++ sub_10004c954
++ sub_10004ccec
++ sub_10004cd00
++ sub_10004cf44
++ sub_10004e6bc
++ sub_10004fa4c
++ sub_10004fcd0
++ sub_100051034
++ sub_100051160
++ sub_1000517bc
++ sub_100053054
++ sub_100053074
+
+Functions (removed):
+- sub_10004d094
 CStrings:
 + "Install “@@appName@@” from @@marketplaceName@@."
 + "Install “@@appName@@” from the App Store."

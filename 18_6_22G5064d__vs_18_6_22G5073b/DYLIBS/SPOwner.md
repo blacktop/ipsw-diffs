@@ -82,6 +82,15 @@ Symbols:
 - ___block_literal_global.170
 - ___block_literal_global.175
 - ___block_literal_global.415
+Functions (modified):
+~ -[SPDiscoveredAccessoryMetadata copyWithZone:] : 412 -> 456
+~ -[SPDiscoveredAccessoryMetadata encodeWithCoder:] : 316 -> 336
+~ -[SPDiscoveredAccessoryMetadata initWithCoder:] : 472 -> 516
+~ -[SPDiscoveredAccessoryMetadata .cxx_destruct] : 116 -> 128
+
+Functions (added):
++ -[SPDiscoveredAccessoryMetadata findMyVersion]
++ -[SPDiscoveredAccessoryMetadata setFindMyVersion:]
 CStrings:
 + "T@\"NSString\",C,N,V_findMyVersion"
 

@@ -65,10 +65,12 @@ Symbols:
 - ___block_literal_global.78
 - ___block_literal_global.9
 - _kCFAllocatorDefault
-Functions:
+Functions (modified):
 ~ +[SOUtils bundleIdentifierFromAuditToken:] : 572 -> 652
 ~ +[SOUtils teamIdentifierFromAuditToken:] : 504 -> 620
-+ +[SOUtils teamIdentifierFromAuditToken:].cold.2
+
+Functions (added):
++ +[SOUtils bundleIdentifierFromAuditToken:].cold.2
 CStrings:
 + "Apple"
 + "bundleIdentifier: CPCopyBundleIdentifierAndTeamFromAuditToken() failed"

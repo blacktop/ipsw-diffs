@@ -20,7 +20,7 @@
    Functions: 34050
    Symbols:   86445
    CStrings:  13904
-Functions:
+Functions (modified):
 ~ __ZN12_GLOBAL__N_123CreateSerializerOptionsEN8Espresso7MILUtil23SerializeProgramOptionsE : 760 -> 784
 CStrings:
 + "3406.3.1"

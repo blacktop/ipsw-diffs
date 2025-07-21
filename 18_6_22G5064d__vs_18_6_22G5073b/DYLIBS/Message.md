@@ -189,6 +189,159 @@ Symbols:
 - _block_destroy_helper.77
 - _block_destroy_helper.81
 - _block_destroy_helper.85
+Functions (added):
++ ___swift_memcpy5_4
++ [3 functions added in block]
++ sub_1a8d2e1c4
++ [3 functions added in block]
++ sub_1a8d2e6cc
++ sub_1a8d2ea14
++ sub_1a8d2ee48
++ sub_1a8d325ac
++ sub_1a8d32644
++ sub_1a8d326dc
++ sub_1a8d32774
++ sub_1a8d35044
++ sub_1a8d58a40
++ sub_1a8d58aac
++ sub_1a8d58ad8
++ sub_1a8d58b84
++ sub_1a8d58bb0
++ sub_1a8d58c5c
++ sub_1a8d58c88
++ sub_1a8d58d34
++ sub_1a8d58d60
++ sub_1a8d58dcc
++ sub_1a8d58ee4
++ sub_1a8d5b378
++ [3 functions added in block]
++ sub_1a8d5eff0
++ sub_1a8d5f828
++ sub_1a8d624ac
++ sub_1a8d6fe10
++ sub_1a8d76f50
++ sub_1a8d76f58
++ sub_1a8d8c76c
++ sub_1a8d8ded0
++ sub_1a8d8e15c
++ sub_1a8d8e17c
++ [3 functions added in block]
++ sub_1a8d8f3d0
++ sub_1a8d8f4f4
++ [4 functions added in block]
++ sub_1a8d8f760
++ sub_1a8d8f77c
++ [3 functions added in block]
++ sub_1a8d8fddc
++ sub_1a8d90054
++ sub_1a8d90310
++ [3 functions added in block]
++ sub_1a8d906e8
++ [5 functions added in block]
++ [7 functions added in block]
++ [3 functions added in block]
++ sub_1a8d95268
++ sub_1a8d96f2c
++ sub_1a8d99f64
++ sub_1a8d9d0cc
++ sub_1a8d9d768
++ sub_1a8d9d800
++ sub_1a8d9de48
++ sub_1a8d9e03c
++ sub_1a8daac68
++ [10 functions added in block]
++ sub_1a8dab2fc
++ sub_1a8dab348
++ sub_1a8dab37c
++ sub_1a8db0640
++ sub_1a8db0728
++ sub_1a8db0740
++ sub_1a8db1cb8
++ sub_1a8db6c04
++ sub_1a8db6d00
++ sub_1a8db6e2c
++ sub_1a8db6e84
++ sub_1a8db7200
++ sub_1a8db9e8c
++ sub_1a8db9f78
++ sub_1a8dba40c
++ sub_1a8dbefd4
++ sub_1a8dbf1b8
++ sub_1a8dbf9c8
++ sub_1a8dbfc8c
++ sub_1a8dbfcd8
++ [4 functions added in block]
++ [3 functions added in block]
++ sub_1a8dc066c
++ sub_1a8dc081c
++ sub_1a8dc09bc
++ sub_1a8dc0f3c
++ sub_1a8dc0fd0
++ [11 functions added in block]
++ sub_1a8dc79ec
++ sub_1a8dc7a18
++ [4 functions added in block]
++ sub_1a8dc7cc0
++ sub_1a8dc7cec
++ sub_1a8dc7d58
++ sub_1a8dc7dc4
++ sub_1a8dc7e30
++ sub_1a8dc8098
++ sub_1a8dc8420
++ sub_1a8dc8cc8
++ sub_1a8dc9728
++ sub_1a8dc973c
++ sub_1a8dc9768
++ sub_1a8dcc2b0
++ sub_1a8dd2234
++ sub_1a8dd4a48
++ sub_1a8df53d8
++ sub_1a8df5668
++ sub_1a8df61ec
++ sub_1a8df6658
++ sub_1a8e000b8
++ sub_1a8e0495c
++ sub_1a8e18e60
++ sub_1a8e18ea0
++ sub_1a8e607f4
++ sub_1a8ff754c
++ sub_1a9036be8
++ sub_1a90d4198
++ sub_1a90d8288
++ sub_1a91294e8
++ sub_1a9351ccc
++ sub_1a950bcec
++ sub_1a950c180
++ sub_1a951880c
++ sub_1a9518844
++ sub_1a95fb284
++ sub_1a96035e0
+
+Functions (removed):
+- sub_1aa12a0c4
+- sub_1aa136a14
+- sub_1aa13740c
+- sub_1aa13c770
+- sub_1aa13d7bc
+- sub_1aa13d9e0
+- sub_1aa13dcd0
+- sub_1aa13e1fc
+- sub_1aa13f6c4
+- sub_1aa13ff18
+- sub_1aa140404
+- sub_1aa140588
+- sub_1aa140ad4
+- sub_1aa140b84
+- sub_1aa140c84
+- sub_1aa140f68
+- sub_1aa140f84
+- sub_1aa141080
+- sub_1aa141088
+- sub_1aa1410b4
+- sub_1aa141474
+- sub_1aa141740
+- sub_1aa141c24
+- [3 functions removed in block]
 CStrings:
 + ", appState: "
 + "/AppleInternal/Library/BuildRoots/4~B4b7ugCXIL3LHBZyva28dbtQjfj4zWwHHG6AOGc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.6.Internal.sdk/System/Library/PrivateFrameworks/EmailCore.framework/Headers/ECFlagChangeMessageActionResults.h"

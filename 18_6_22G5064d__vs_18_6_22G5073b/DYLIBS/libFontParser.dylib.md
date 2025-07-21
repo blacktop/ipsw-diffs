@@ -488,6 +488,305 @@ Symbols:
 - _type_layout_string 10FontParser8FdscInfoV
 - _type_layout_string 10FontParser8FdscInfoV3TagV
 - _type_layout_string 10FontParser9TTFParser33_443DC7436D1DE7EEC61D765A109FEA65LLV
+Functions (modified):
+~ __ZL22ConstructPhantomPointsPK13fsg_SplineKeyP15fnt_ElementTypes : 324 -> 424
+~ __ZNK20TTrueTypeFontHandler11RenderGlyphEjR27TTrueTypeQuadOutlineContextjPb : 5724 -> 5792
+
+Functions (added):
++ sub_1b56ae25c
++ sub_1b56afa68
++ sub_1b56b1b1c
++ sub_1b56b3de8
++ sub_1b56b3f48
++ sub_1b56b4458
++ sub_1b56b4994
++ sub_1b56b4d74
++ sub_1b56b4fb0
++ sub_1b56b512c
++ sub_1b56b51b8
++ sub_1b56b554c
++ sub_1b56b6d5c
++ [11 functions added in block]
++ [3 functions added in block]
++ [4 functions added in block]
++ [4 functions added in block]
++ sub_1b56b9774
++ sub_1b56b9d84
++ [3 functions added in block]
++ sub_1b56babb4
++ sub_1b56bad38
++ sub_1b56baea8
++ sub_1b56bb388
++ sub_1b56bd350
++ sub_1b56bd398
++ sub_1b56bd688
++ sub_1b56bd744
++ sub_1b56bda48
++ sub_1b56c0368
++ sub_1b56c515c
++ sub_1b56c5988
++ sub_1b56c7280
++ sub_1b56c7390
++ sub_1b56c79e8
++ sub_1b56c79f4
++ sub_1b56c7d04
++ [3 functions added in block]
++ sub_1b56ca3a0
++ sub_1b56ca6d8
++ sub_1b56cabb8
++ sub_1b56cacc0
++ sub_1b56cc3a4
++ sub_1b56cc884
++ sub_1b56cd610
++ sub_1b56ce4c0
++ sub_1b56ce684
++ sub_1b56cf328
++ sub_1b56cf91c
++ sub_1b56cfed4
++ sub_1b56d03b8
++ sub_1b56d0784
++ sub_1b56d0a14
++ sub_1b56d0b80
++ sub_1b56d0e0c
++ [3 functions added in block]
++ sub_1b56d1dfc
++ sub_1b56d1fc8
++ [4 functions added in block]
++ [3 functions added in block]
++ sub_1b56d3190
++ sub_1b56d47e4
++ sub_1b56d4dac
++ sub_1b56d5a68
++ sub_1b56d5d7c
++ sub_1b56d6460
++ [3 functions added in block]
++ sub_1b56d8ad4
++ [5 functions added in block]
++ [3 functions added in block]
++ sub_1b56da050
++ sub_1b56ee574
++ sub_1b56efeac
++ sub_1b56f02f4
++ sub_1b56f0f04
++ sub_1b56f2fd4
++ sub_1b56f2ffc
++ sub_1b56f3be4
++ sub_1b56f5df4
++ sub_1b56f7e4c
++ sub_1b56f918c
++ sub_1b56fa478
++ sub_1b56fcb64
++ sub_1b56fd3a4
++ sub_1b56ff7f8
++ sub_1b56ff978
++ sub_1b57009bc
++ sub_1b5700a8c
++ sub_1b5700fb4
++ sub_1b5700fc0
++ sub_1b5702ae0
++ sub_1b57052cc
++ sub_1b5705330
++ sub_1b570533c
++ sub_1b5708f68
++ sub_1b5712200
++ sub_1b571a034
++ [3 functions added in block]
++ sub_1b571f1e4
++ sub_1b5721500
++ sub_1b57221b0
++ sub_1b57230ec
++ sub_1b5726aa8
++ sub_1b5726c0c
++ sub_1b5726d74
++ [3 functions added in block]
++ [3 functions added in block]
++ sub_1b572d368
++ [5 functions added in block]
++ sub_1b572ee0c
++ sub_1b572f50c
++ sub_1b5730cc0
++ sub_1b5731948
++ sub_1b57321b8
++ sub_1b5732394
++ sub_1b5732a24
++ sub_1b5733a3c
++ sub_1b57342f8
++ [3 functions added in block]
++ sub_1b5737b78
++ sub_1b5737dc0
++ [5 functions added in block]
++ sub_1b57388e4
++ sub_1b5738a1c
++ sub_1b5738bbc
++ sub_1b5738d70
++ sub_1b5739014
++ sub_1b57394e8
++ sub_1b573ab6c
++ sub_1b573ac7c
++ sub_1b573b294
++ sub_1b574016c
++ sub_1b5740ee4
++ sub_1b57414d0
++ sub_1b5745878
++ sub_1b57458a0
++ sub_1b574c010
++ sub_1b574cf38
++ sub_1b5751794
++ sub_1b57564a8
++ sub_1b575a6d0
++ sub_1b575e020
++ sub_1b575e064
++ sub_1b575eca8
++ sub_1b575f584
++ sub_1b5772050
++ sub_1b577f154
++ sub_1b5781400
++ sub_1b5781fdc
++ sub_1b5783b0c
++ sub_1b5783cac
++ sub_1b5784028
++ sub_1b57841c8
++ sub_1b578490c
++ sub_1b578497c
++ sub_1b5784b10
++ sub_1b5784b98
++ sub_1b57859bc
++ sub_1b5785f58
++ sub_1b578611c
++ sub_1b5786c78
++ sub_1b5786df8
++ sub_1b57881dc
++ sub_1b5791480
++ sub_1b57927dc
++ sub_1b57bc7b8
++ sub_1b57bf3b0
++ sub_1b57bf830
++ sub_1b57bfc94
++ sub_1b57c0040
++ sub_1b57c01e4
++ sub_1b57c058c
++ sub_1b57c0c74
++ [3 functions added in block]
++ sub_1b57c13b4
++ sub_1b57c1550
++ sub_1b57c18e8
++ sub_1b57c1a24
++ sub_1b57c2768
++ [3 functions added in block]
++ sub_1b57c2d28
++ sub_1b57c2e4c
++ [4 functions added in block]
++ sub_1b57c3af8
++ sub_1b57c4790
++ sub_1b57c4a34
++ sub_1b57c4c80
++ sub_1b57c5c64
++ sub_1b57c6fbc
++ sub_1b57c71ec
++ sub_1b57c7a64
++ sub_1b57c7c00
++ sub_1b57c84f0
++ sub_1b57c8544
++ sub_1b57cd5fc
++ sub_1b57ced34
+
+Functions (removed):
+- sub_1b60db83c
+- sub_1b60e4b94
+- sub_1b60e5110
+- sub_1b60e5124
+- sub_1b60f55d4
+- sub_1b60f55e8
+- sub_1b60f56b0
+- sub_1b6106a8c
+- sub_1b6110258
+- sub_1b6111f80
+- sub_1b6117070
+- sub_1b614a438
+- sub_1b614afb8
+- sub_1b614ce54
+- sub_1b614ec94
+- [3 functions removed in block]
+- sub_1b6158ec8
+- sub_1b615a828
+- sub_1b615b8ec
+- sub_1b615bed8
+- sub_1b615c828
+- sub_1b615cc50
+- sub_1b6163414
+- sub_1b6163e7c
+- sub_1b617c1c4
+- sub_1b617e3c0
+- sub_1b61898c4
+- sub_1b61b85ec
+- sub_1b61bb858
+- sub_1b61c7ea4
+- sub_1b61cc3e8
+- sub_1b61d7bf0
+- sub_1b61d7c08
+- sub_1b61d87f0
+- sub_1b61da0ec
+- sub_1b61da470
+- sub_1b61dab58
+- sub_1b61db4f0
+- sub_1b61db8f8
+- sub_1b61dbc34
+- sub_1b61dca68
+- sub_1b61dcc0c
+- sub_1b61dcc24
+- [3 functions removed in block]
+- [4 functions removed in block]
+- sub_1b61de1c8
+- [3 functions removed in block]
+- sub_1b61de380
+- sub_1b61de458
+- sub_1b61de468
+- sub_1b61dec20
+- sub_1b61dfc38
+- sub_1b61e00f8
+- sub_1b61e0290
+- sub_1b61e02e0
+- sub_1b61e02fc
+- sub_1b61e0388
+- sub_1b61e0398
+- sub_1b61e03f4
+- sub_1b61e0440
+- [3 functions removed in block]
+- sub_1b61e04b4
+- sub_1b61e050c
+- sub_1b61e0568
+- sub_1b61e06cc
+- sub_1b61e07c0
+- sub_1b61e0dcc
+- sub_1b61e0dd8
+- sub_1b61e1be4
+- sub_1b61e1c50
+- [4 functions removed in block]
+- sub_1b61e1d14
+- sub_1b61e1d6c
+- [6 functions removed in block]
+- sub_1b61e1ebc
+- sub_1b61e1ec0
+- [9 functions removed in block]
+- sub_1b61e252c
+- sub_1b61e3670
+- sub_1b61e37c0
+- [4 functions removed in block]
+- sub_1b61e4244
+- sub_1b61e4874
+- sub_1b61e4894
+- sub_1b61e54f4
+- sub_1b61e5554
+- sub_1b61e6cb8
+- [4 functions removed in block]
+- [12 functions removed in block]
+- sub_1b61e7160
+- sub_1b61e7200
+- sub_1b61e7244
+- sub_1b61e7254
+- [9 functions removed in block]
+- sub_1b61e775c
+- [16 functions removed in block]
 CStrings:
 + "Found zero-padding for negative signed integer."
 + "Not enough bytes to load instance of Int"

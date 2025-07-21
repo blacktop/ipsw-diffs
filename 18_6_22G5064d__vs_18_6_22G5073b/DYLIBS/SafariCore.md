@@ -145,6 +145,9 @@ Symbols:
 - ___block_literal_global.889
 - ___block_literal_global.975
 - ___block_literal_global.977
+Functions (added):
++ -[WBSAnalyticsLogger reportSafariRecoveredWindowStateWithSuccess:]
++ ___66-[WBSAnalyticsLogger reportSafariRecoveredWindowStateWithSuccess:]_block_invoke
 CStrings:
 + "com.apple.Safari.SafariRecoveredWindowState"
 + "recovered"

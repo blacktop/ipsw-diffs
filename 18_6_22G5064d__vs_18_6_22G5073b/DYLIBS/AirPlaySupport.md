@@ -174,7 +174,7 @@ Symbols:
 - ___block_literal_global.653
 - ___block_literal_global.775
 - ___block_literal_global.787
-Functions:
+Functions (modified):
 ~ _APSSharedRingBuffer_CreateWithBufferAndState : 820 -> 568
 ~ _APSSharedRingBuffer_Create : 1032 -> 928
 ~ _APSAudioFormatDescriptionCreateWithAudioFormatIndex : 640 -> 624

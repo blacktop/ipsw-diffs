@@ -20,7 +20,5 @@
    Functions: 9088
    Symbols:   2375
    CStrings:  15925
-Functions:
-~ sub_1a6007668 -> sub_1a54e7668 : 2852 -> 2884
 
 ```

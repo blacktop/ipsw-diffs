@@ -61,14 +61,6 @@
  
 Symbols:
 + _IDSRegistrationPropertySupportsQTAAudio
-Functions:
-~ sub_19eeab93c -> sub_19e39493c : 1528 -> 1544
-~ sub_19eeabf34 -> sub_19e394f44 : 6468 -> 6532
-~ sub_19eead878 -> sub_19e3968c8 : 3132 -> 3164
-~ sub_19eeae4fc -> sub_19e39756c : 3208 -> 3240
-~ sub_19eeaf1e8 -> sub_19e398278 : 1604 -> 1620
-~ sub_19eeaf834 -> sub_19e3988d4 : 2080 -> 2100
-~ sub_19eeb0054 -> sub_19e399108 : 1988 -> 2008
 CStrings:
 + "_supportsQTAAudio"
 + "supports-qta"

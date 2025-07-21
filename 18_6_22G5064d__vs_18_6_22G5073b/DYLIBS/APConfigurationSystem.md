@@ -65,8 +65,8 @@ Symbols:
 + _OBJC_CLASS_$_APCSAggregatedTimespent
 + _OBJC_METACLASS_$_APAMSNetworkFacadeFeatureFlag
 + _OBJC_METACLASS_$_APCSAggregatedTimespent
-Functions:
-+ sub_244f8b1e0
+Functions (added):
++ sub_244f8ae8c
 + sub_244f8b630
 CStrings:
 + "APAMSNetworkFacade"

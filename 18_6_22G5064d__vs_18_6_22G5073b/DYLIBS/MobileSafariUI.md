@@ -85,16 +85,19 @@ Symbols:
 - ___block_descriptor_56_e8_32s40s48s_e41_v32?0"NSString"8"NSMutableArray"16^B24ls32l8s40l8s48l8
 - ___block_literal_global.47
 - ___block_literal_global.71
-Functions:
+Functions (modified):
 ~ -[BrowserWindowController initWithTabGroupManager:browserState:pinnedTabsManager:perSitePreferencesVendor:shouldMergeAllWindowsIfNeeded:browserControllerUIDelegateProvider:] : 496 -> 524
 ~ -[BrowserWindowController _mergeTabsFromCloudTabsForDeviceRestorationIfNeededAfterCloudTabsFinishedSyncing:] : 2176 -> 2820
 ~ -[BrowserWindowController initWithBrowserSavedState:perSitePreferencesVendor:browserControllerUIDelegateProvider:] : 360 -> 388
 ~ ___108-[BrowserWindowController _mergeTabsFromCloudTabsForDeviceRestorationIfNeededAfterCloudTabsFinishedSyncing:]_block_invoke : 148 -> 208
-~ ___108-[BrowserWindowController _mergeTabsFromCloudTabsForDeviceRestorationIfNeededAfterCloudTabsFinishedSyncing:]_block_invoke.28 -> ___108-[BrowserWindowController _mergeTabsFromCloudTabsForDeviceRestorationIfNeededAfterCloudTabsFinishedSyncing:]_block_invoke.59 : 268 -> 356
 ~ -[BrowserWindowController _mergeTabsFromCloudTabsForDeviceRestoration:] : 1436 -> 1536
 ~ ___71-[BrowserWindowController _mergeTabsFromCloudTabsForDeviceRestoration:]_block_invoke : 436 -> 632
-~ ___71-[BrowserWindowController _mergeTabsFromCloudTabsForDeviceRestoration:]_block_invoke.35 -> ___71-[BrowserWindowController _mergeTabsFromCloudTabsForDeviceRestoration:]_block_invoke.78 : 196 -> 244
-~ -[BrowserWindowController .cxx_destruct] : 176 -> 188
+
+Functions (added):
++ ___108-[BrowserWindowController _mergeTabsFromCloudTabsForDeviceRestorationIfNeededAfterCloudTabsFinishedSyncing:]_block_invoke.59
+
+Functions (removed):
+- -[BrowserWindowController .cxx_destruct]
 CStrings:
 + "Attempting to find device with UUID: %@ to restore from. Current CloudTab device UUID is: %@"
 + "Did not find browser controller for scene ID %@, falling back to the first one"

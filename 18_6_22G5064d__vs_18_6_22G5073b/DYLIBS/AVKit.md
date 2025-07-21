@@ -20,7 +20,7 @@
    Functions: 8786
    Symbols:   27801
    CStrings:  13952
-Functions:
+Functions (modified):
 ~ -[AVMobileChromelessControlsViewController _updateContentTag] : 212 -> 232
 ~ ___61-[AVMobileChromelessControlsViewController _observationSetup]_block_invoke_11 : 68 -> 76
 ~ ___30-[AVPlayerController startKVO]_block_invoke_6 : 416 -> 436

@@ -3424,6 +3424,9925 @@ Symbols:
 - _writeFirstStartMovieDispatchFunction.cold.25
 - _writingThread.cold.3
 - _writingThread.cold.4
+Functions (modified):
+~ _FigMediaServerStart : 5616 -> 2488
+~ _FigSharedPlayerGetDefaultEngineTopology : 352 -> 320
+~ _FigMovieStartServing : 292 -> 8
+~ _FigRemakerServerStart : 360 -> 244
+~ _playerasync_SetProperty : 696 -> 296
+~ _fpa_releaseCommand : 496 -> 228
+~ _playeritemfig_releaseRenderPipelines : 1696 -> 1332
+~ _playerasync_CopyProperty : 1432 -> 648
+~ _playerfig_applyEQPreset : 1020 -> 220
+~ _itemasync_SetProperty : 940 -> 368
+~ __ZL31playercentral_CopyPlayQueueItemP15OpaqueFigPlayerP21OpaqueFigPlaybackItemPS2_ : 1592 -> 384
+~ _playerfig_CopyPlayQueueItem : 1668 -> 1176
+~ _itemasync_SetCurrentTime : 764 -> 300
+~ _itemfig_GetCurrentTime : 840 -> 240
+~ _itemasync_reflectSubItemNotification : 608 -> 236
+~ _itemasync_MakeReadyForInspection : 736 -> 304
+~ __ZL34itemcentral_MakeReadyForInspectionP21OpaqueFigPlaybackItemPK9__CFArrayPh : 752 -> 260
+~ _itemfig_makeReadyForInspection : 1604 -> 1232
+~ _FigReadCacheAddOneFile : 320 -> 120
+~ _FigReadCacheInitialize : 3160 -> 1036
+~ _SetupFigReadCacheStructure : 148 -> 92
+~ _MoveToVGroup : 1032 -> 412
+~ _FigCachedFileByteStreamCreate : 928 -> 556
+~ _playerasync_SetRate : 540 -> 160
+~ _itemasync_GetCurrentTime : 832 -> 412
+~ _FigReadCacheThread : 6420 -> 1944
+~ _AssureContainerFileIsOpen : 1012 -> 204
+~ _PopulateCacheContainer : 1592 -> 336
+~ _ReadDataForCacheEntry : 268 -> 284
+~ _IsReferenceMovie : 280 -> 236
+~ _FigCachedFileByteStreamRead : 932 -> 412
+~ _ReadBBufOrCopyBytes : 1584 -> 648
+~ _FillFromCacheContainer : 2260 -> 528
+~ _playerfig_prepareWorkingItem : 1444 -> 1432
+~ _playerfig_prepareWorkingItem2 : 9820 -> 8824
+~ _playerasync_reflectSubPlayerNotification : 908 -> 248
+~ _ensureRegistryInitialized : 180 -> 128
+~ _initRegistry : 900 -> 528
+~ _QTMovieFormatReaderCreateFromStream : 816 -> 632
+~ __ZL21playercentral_SetRateP15OpaqueFigPlayerf : 764 -> 256
+~ _playerfig_applySoftwareVolume : 1252 -> 1204
+~ _playerfig_setRateGuts : 3076 -> 2524
+~ _playerfig_GetRate : 384 -> 48
+~ _ParseChildAtoms : 688 -> 452
+~ _GetFileTypeAtom : 400 -> 284
+~ _GetMovieAtom : 272 -> 288
+~ _playerasync_GetRate : 848 -> 472
+~ _CheckAtomVersionIsZero : 152 -> 92
+~ _DoPostParsingSampleTableCommon : 1928 -> 1208
+~ _FPSupport_BuildAlternateTrackGroups : 4656 -> 1848
+~ _FPSupport_GetDefaultTrackIDForMediaType : 976 -> 968
+~ _FPSupport_ChooseTrackIDsUsingPreferredLanguageLists : 1616 -> 636
+~ _fcSupport_GetListOfChapterTrackIDsForMediaType : 1188 -> 868
+~ _ScanForUnreferencedDataReadyEntries : 796 -> 212
+~ _FigMetadataReaderCreateForiTunes : 1852 -> 1128
+~ _itemasync_GetDimensions : 788 -> 316
+~ __ZL25itemcentral_GetDimensionsP21OpaqueFigPlaybackItemPfS1_ : 752 -> 260
+~ _itemfig_GetDimensions : 968 -> 444
+~ _itemfig_copyVideoFormatDescription : 344 -> 304
+~ _itemfig_CopyProperty : 8540 -> 6972
+~ _itemasync_GetDuration : 732 -> 312
+~ _itemfig_GetDuration : 1544 -> 812
+~ _playerasync_AddToPlayQueue : 1160 -> 484
+~ __ZL28playercentral_AddToPlayQueueP15OpaqueFigPlayerP21OpaqueFigPlaybackItemS2_ : 1128 -> 360
+~ _playerfig_AddToPlayQueue : 5432 -> 4516
+~ _itemfig_copyFormatDescription : 300 -> 272
+~ _FigiTunesMetadataCopyValue : 680 -> 688
+~ _FigiTunesMetadataGetItemCount : 1252 -> 776
+~ _FigiTunesMetadataGetItemListAtomStream : 232 -> 172
+~ _itemfig_antiprepare : 1864 -> 1372
+~ _FigAudioQueueRenderPipelineCreate : 2232 -> 2220
+~ _figAudioQueueRenderPipelineSetProperty : 3796 -> 3148
+~ _FigAudioQueueSetProperty : 3328 -> 1724
+~ _FigPlaybackBossCreate : 4428 -> 3960
+~ _figAudioQueueRenderPipelineCopyProperty : 2740 -> 1932
+~ _FigAudioQueueCopyProperty : 2296 -> 1988
+~ _figSampleGeneratorCreateForFormatReaderCommon : 1460 -> 1336
+~ _AudioMentorNew : 1280 -> 972
+~ _sbcbq_LowWater : 656 -> 100
+~ _audioMentorLowWaterTrigger : 324 -> 8
+~ _audioMentorThread : 3604 -> 10484
+~ _editMentorNewWithChildAudioVideoEditOrCallbacksMentorAndSingleEditSegmentOrTrack : 1820 -> 1620
+~ _FigPlaybackBossSetTimeWithRange : 5300 -> 4684
+~ _editMentorStartNewParentOrder : 1016 -> 764
+~ _AudioMentorSetModeToDoNothing : 876 -> 288
+~ _bossSetMentorModesToScrub : 2732 -> 1852
+~ _editMentorRetainCurrentChildOrderAndOptionsDictionary : 932 -> 516
+~ _FigPlaybackBossSetStopAtEnd : 740 -> 696
+~ _FigPlaybackBossGetTimebase : 380 -> 28
+~ _FigPlayabilityMonitorCreate : 8180 -> 4948
+~ _FigCachedFileByteStreamSetProperty : 1088 -> 312
+~ _FigSyncMomentSourceSetTimebase : 476 -> 436
+~ _figSyncMomentSource_SendMoment : 764 -> 292
+~ _bossScheduleReachedEndCallbackForTime : 656 -> 596
+~ _bossConfigureRatePlan : 1096 -> 740
+~ _bossSetMentorModesForTimeAndRate : 2316 -> 1568
+~ _bossSetMentorModesToForwardPlayback : 2904 -> 1576
+~ _bossSetUpSnippetPlaybackForRate : 880 -> 452
+~ _editMentorSelectFirstEditSegmentForParentRange : 1556 -> 1532
+~ _AudioMentorSetModeToForwardPlayback : 556 -> 80
+~ _audioMentorSetModeToForwardOrReversePlayback : 1496 -> 1404
+~ _sbcbq_flush : 424 -> 120
+~ _sbcbq_isQueueAtOrAboveHighWater : 676 -> 212
+~ _CheckChunkNumber : 156 -> 108
+~ _sgffr_getContiguousSampleOffsetAndSize : 272 -> 212
+~ _sgffr_getPTSAndDTSAndDuration : 780 -> 600
+~ _audioMentorRemapSBufTiming : 3564 -> 1328
+~ _editMentorRemapSampleBufferTiming : 4228 -> 3012
+~ _fpm_UpdateTimerProc : 960 -> 144
+~ _itemasync_CopyProperty : 1168 -> 656
+~ _fpm_updateCache : 2816 -> 1660
+~ _sbcbq_sendSampleBuffer : 1664 -> 96
+~ _audioMentorThreadFinishPreroll : 516 -> 204
+~ _editMentorForwardNotificationFromChildMentor : 628 -> 312
+~ _itemfig_PlayableRangeChanged : 580 -> 248
+~ _itemfig_LikelyToKeepUp : 756 -> 472
+~ _itemfig_PrerollComplete : 856 -> 312
+~ _bossStartTimebaseAndAudioContext : 492 -> 136
+~ _bossSetPossiblyOutsourcedTimebaseRate : 2504 -> 1856
+~ _FigAudioQueueSetParameter : 1304 -> 680
+~ _FigAudioQueuePrime : 2316 -> 1208
+~ _faqrp_startTimebaseAtAnchorAudioTimeStamp : 1552 -> 808
+~ _figSyncMomentSource_TimebaseRateOrTimeChangedCallback : 1060 -> 336
+~ _itemfig_TimeJumped : 768 -> 124
+~ _fpm_timebaseJumpedCallback : 720 -> 464
+~ _bossScheduleReachedEndCallbackForRate : 3268 -> 2600
+~ _figPlaybackBossSetRateToZero : 1764 -> 996
+~ _bossStopTimebaseAndAudioContext : 1184 -> 920
+~ _playerasync_RemoveFromPlayQueue : 752 -> 284
+~ __ZL33playercentral_RemoveFromPlayQueueP15OpaqueFigPlayerP21OpaqueFigPlaybackItem : 1132 -> 424
+~ _playerfig_gracefullyRemoveItemFromPlayQueue : 2860 -> 2872
+~ _FigPlayabilityMonitorDestroy : 1120 -> 848
+~ _FigPlaybackBossGetTime : 1452 -> 128
+~ _FigPlaybackBossInvalidate : 1236 -> 924
+~ _figPlaybackBossTeardownTracks : 596 -> 280
+~ _figAudioQueueRenderPipelineFinalize : 480 -> 192
+~ _figAudioQueueRenderPipelineInvalidate : 484 -> 188
+~ _FigAudioQueueInvalidate : 2024 -> 848
+~ _itemfig_Invalidate : 2680 -> 2220
+~ _FigCachedFileByteStreamFinalize : 480 -> 152
+~ _itemasync_Finalize : 516 -> 172
+~ _FigDiskCacheRepositoryCopyDefaultParentURLForCurrentTask : 552 -> 392
+~ _InitDiskCache : 192 -> 132
+~ _FigDiskCacheRepositoryCreate : 1564 -> 732
+~ _fdcr_RemoveFilePathInListFromArray : 624 -> 308
+~ _fdcr_WriteRepositoryPlist : 6196 -> 1772
+~ _FigDiskCacheRepositoryCopyInfo : 596 -> 296
+~ _FigDiskCacheRepositoryCheckOut : 880 -> 316
+~ _FigByteRateHistoryCreate : 156 -> 100
+~ _FigCFHTTPSetProperty : 1140 -> 292
+~ _FigCFHTTPOpenResponse : 1900 -> 1184
+~ _FigCFHTTPCopyProperty : 3692 -> 2056
+~ _FigCRABSCreate : 2956 -> 2164
+~ _FigCRABSCopyProperty : 3800 -> 3632
+~ _FigCRABSSetProperty : 2396 -> 1444
+~ _readOrRef : 5772 -> 3004
+~ _addToWorkingSet : 940 -> 296
+~ _removeFromWorkingSet : 528 -> 132
+~ _crabsMoveFirehose : 1944 -> 1280
+~ _crabsIssueLoad : 3716 -> 2224
+~ _crabsWaitForLoad : 2348 -> 1912
+~ _FigCFHTTPReadResponse : 6312 -> 4760
+~ _FigByteRateHistoryHasCompleteSample : 356 -> 20
+~ _FigByteRateHistoryNextSample : 672 -> 236
+~ _crabsIncrementalReadCallback : 7812 -> 3664
+~ _crabsPurgeCompletionSweep : 648 -> 360
+~ _crabsStartIdleRead : 760 -> 652
+~ _crabsTaskHints : 1368 -> 704
+~ _crabsReleaseWorking : 624 -> 296
+~ _crabsCancelRead : 1440 -> 992
+~ _FigCFHTTPCancel : 508 -> 204
+~ _crabsBBufRefReleaseFn : 568 -> 240
+~ _FigByteRateHistoryAddToSample : 472 -> 72
+~ _crabsIssueImmedLoad : 1140 -> 792
+~ _crabsAllocBacking : 864 -> 800
+~ _crabsSyncBlock : 896 -> 388
+~ _FigCRABS_HintActiveRanges : 3636 -> 1852
+~ _fpSupport_copyFormatDescription : 316 -> 272
+~ _crabsSelectNextFill : 1296 -> 732
+~ _crabsSwipeUnusedWorking : 1804 -> 716
+~ _itemfig_CopyTrackProperty : 3900 -> 2780
+~ _FPSupport_CreateDestinationPixelBufferAttributes : 1424 -> 972
+~ _FPSupport_EnsureCAImageQueue : 1128 -> 416
+~ _fpSupport_getContext : 548 -> 256
+~ _FigImageQueueCreateForCoreAnimation : 2184 -> 1812
+~ _FigSampleBufferProviderCreateForBufferQueue : 716 -> 588
+~ _FigActivitySchedulerCreateForNewThread : 444 -> 428
+~ _VMC2CreateWithCallbacks : 3012 -> 2440
+~ _activityOnThread_setProcessingCallback : 180 -> 148
+~ _VMC2Go : 580 -> 220
+~ _activityOnThread_triggerScheduling : 168 -> 132
+~ _figVideoRenderPipelineSetProperty : 3440 -> 2928
+~ _piqca_setProperty : 5388 -> 2680
+~ _FigCRABSScheduledIOCreate : 340 -> 192
+~ _figVideoRenderPipelineCopyProperty : 2360 -> 2268
+~ _VMC2SetTimebase : 252 -> 220
+~ _VideoMentorNew : 1564 -> 1028
+~ _videoMentorLowWaterTrigger : 336 -> 8
+~ _videoMentorThread : 9788 -> 6648
+~ _VideoMentorDispose : 564 -> 284
+~ _vmc2DecodeUntilHighWaterMet : 1956 -> 5852
+~ _FigImageQueueCalculateSafeDisplayDuration : 2200 -> 696
+~ _sbp_bq_getAndRetainNextSampleBufferIfReady : 176 -> 100
+~ _sbp_bq_isAtEndOfData : 176 -> 100
+~ _bossGetTimeOfNextIFrameInDirection : 3412 -> 2064
+~ _bossScanForEditSegmentContainingTrackTime : 1464 -> 652
+~ _VideoMentorSetModeToDoNothing : 892 -> 296
+~ _VideoMentorSetModeToScrub : 1120 -> 744
+~ _videoMentorSimulateFrame : 2892 -> 960
+~ _videoMentorThreadWaitForOutputQueueToDropBelowHighWater : 1656 -> 724
+~ _videoMentorThreadCreateSampleBuffer : 660 -> 408
+~ _sgffr_generateSingleSampleBuffer : 3580 -> 3048
+~ _FigCRABSScheduledIORequestRead : 836 -> 452
+~ _siocrabsFinish : 1192 -> 868
+~ _sgffr_markSampleBufferReady : 732 -> 384
+~ _videoMentorThreadSendSampleBuffer : 3088 -> 1752
+~ _vmc2InhibitOutputUntil : 688 -> 140
+~ _vmc2ResetOutput : 388 -> 124
+~ _piqca_flush : 392 -> 92
+~ _vmc2InputDataBecameReady : 340 -> 28
+~ _editMentorSetModeChangePolicyToPreservePreviousOutput : 296 -> 232
+~ _sbp_bq_isEmpty : 176 -> 100
+~ _piqca_setUpcomingImageInfo : 320 -> 220
+~ _figPlaybackBoss_MentorStopping : 5828 -> 2684
+~ _FigCRABS_GetRangeInCache : 504 -> 440
+~ _FigByteRateHistoryReportAverage : 684 -> 112
+~ _FigPlayabilityMonitorGetPlayableRange : 1048 -> 436
+~ _vmc2OutputOccupancyChanged : 408 -> 172
+~ _piqca_setDirection : 508 -> 156
+~ _VideoMentorSetModeToForwardPlayback : 1520 -> 1100
+~ _sbcbq_setAttachmentOnPendingSampleBuffersInPTSRange : 824 -> 184
+~ _videoMentorThreadFinishPreroll : 528 -> 208
+~ _FigCRABS_ResolveActiveHints : 840 -> 576
+~ _crabsDoJump : 1124 -> 436
+~ _crabsMoveAnchor : 1224 -> 828
+~ _sbp_bq_getUpcomingPTSInfo : 2568 -> 1120
+~ _playerfig_SynchronousFrameEnqueued : 980 -> 152
+~ _bossSwitchMentorsToSideQueues : 488 -> 216
+~ _sbcbq_switchToSideQueue : 400 -> 96
+~ _crabsMarkBlockUnfilled : 452 -> 228
+~ _fpm_streamCacheChangedCallback : 820 -> 296
+~ _bossReplaceMainQueuesWithSideQueuesAndSwitchMentorsToMainQueues : 692 -> 480
+~ _sbcbq_replaceMainQueueWithSideQueueAndSwitchToMainQueue : 1396 -> 420
+~ _VideoMentorInvalidate : 592 -> 336
+~ _figVideoRenderPipelineFinalize : 612 -> 320
+~ _VMC2WaitUntilCompletelyStopped : 168 -> 120
+~ _piqca_finalize : 1112 -> 896
+~ _FigCRABSInvalidate : 812 -> 384
+~ _FigCFHTTPCopyIdentifier : 308 -> 284
+~ _FigDiskCacheRepositoryCheckIn : 668 -> 332
+~ _FigCFHTTPInvalidate : 1000 -> 480
+~ _FigCFHTTPFinalize : 776 -> 452
+~ _mv_thread : 2584 -> 932
+~ _FigSharedRemote_CopyDiskCacheParams : 784 -> 428
+~ _ResolveReferenceMovieWithOptions : 208 -> 128
+~ _ResolveReferenceMovie : 4672 -> 1852
+~ _FigSharedRemote_CheckIntoDiskCache : 756 -> 352
+~ _mv_IsMimeTypeInList : 452 -> 116
+~ _mv_IsExtensionInList : 1216 -> 396
+~ _mv_IsValueInArrayInDictionary : 288 -> 268
+~ _mv_GetCodecProperty : 376 -> 264
+~ _FigMediaValidatorRelease : 644 -> 364
+~ _fpm_streamPausedCallback : 364 -> 120
+~ _itemfig_ReachedEndGuts : 2884 -> 1032
+~ _playerasync_Invalidate : 444 -> 100
+~ _playerasync_Finalize : 592 -> 248
+~ _figMovieWriter_SetProperty : 5092 -> 4464
+~ _figMovieWriter_CopyProperty : 2388 -> 2368
+~ _getMetadataSerializer : 452 -> 420
+~ _FigUserDataSerializerSetProperty : 528 -> 376
+~ _figMovieWriter_AddTrack : 1900 -> 1884
+~ _figMovieWriter_SetTrackProperty : 6072 -> 3780
+~ _getTrackInfoArrayIndexFromFigTrackID : 188 -> 140
+~ _FigAudioCompressionOptionsGetPreset : 356 -> 340
+~ _FigSampleBufferConsumerCreateForFormatWriter : 588 -> 464
+~ _FigMediaProcessorCreate : 1480 -> 1092
+~ _FigMediaProcessorGetSampleBufferProcessor : 436 -> 80
+~ _FigSampleBufferProcessorCreateWithAudioCompression : 9360 -> 4004
+~ _FigMediaProcessorGo : 560 -> 204
+~ _mediaprocessor_ProcessUntilHighWaterMet : 1344 -> 388
+~ _otfw_isQueueAtOrAboveHighWater : 648 -> 176
+~ _figMovieWriter_BeginSession : 356 -> 256
+~ _mediaprocessor_InputDataBecameReady : 332 -> 8
+~ _RunConverter : 6020 -> 2640
+~ _RunConverter : 13804 -> 2392
+~ _sbp_vtcs_outputFrame : 404 -> 88
+~ _mediaprocessor_OutputSampleBuffer : 612 -> 312
+~ _otfw_sendSampleBuffer : 956 -> 188
+~ _figMovieWriter_AddSampleBufferToTrack : 284 -> 192
+~ _wakeupWritingThreadForDataReady : 1120 -> 784
+~ _writingThread : 2528 -> 1612
+~ _reachedInterleavingPeriod : 224 -> 172
+~ _addSampleBufferWithSampleMediaTimingToTrack : 5452 -> 3580
+~ _sbp_fac_finishPendingProcessing : 392 -> 120
+~ _figMovieWriter_Flush : 228 -> 152
+~ _writeMovieAtom : 508 -> 392
+~ _createDefaultTrackEditSegmentArray : 2012 -> 1844
+~ _createTrackEditSegmentArrayFromSessionTime : 3192 -> 2576
+~ _FigMediaProcessorStop : 452 -> 56
+~ _FigMediaProcessorWaitUntilCompletelyStopped : 156 -> 108
+~ +[FigCaptionBackdropLayer initialize] : 132 -> 12
+~ _FigCDSParentInterval_FigCDSParentIntervalProtocol_AddChildInterval : 972 -> 472
+~ _FigWireDictionaryGetArray : 176 -> 108
+~ _FigWireDictionaryGetDictionary : 176 -> 108
+~ _RegisterFigImageQueueGaugeType : 120 -> 64
+~ _FigImageQueueGaugeCreate : 264 -> 208
+~ _FigCPEOctaviaPKDMovieIDFinalize : 424 -> 152
+~ ___FigCPEOctaviaPKDMovieIDCreateCommon_block_invoke : 848 -> 340
+~ _FigCPEOctaviaPKDMovieIDGetValue : 472 -> 176
+~ _FigPKDOctaviaCPECryptorInvalidate : 700 -> 428
+~ _FigPKDOctaviaCPECryptorFinalize : 344 -> 64
+~ _FigPKDOctaviaCPECryptorLocalCryptorUpdatedPersistentKeyCallback : 372 -> 112
+~ _fss_copyAggregatedStats : 584 -> 80
+~ _fss_fetchEventStatsAndSetInDictionary : 692 -> 124
+~ _BVCUtilityCreateEdgeLists : 2064 -> 2072
+~ _FigTimedMetadataRenderPipelineCreate : 528 -> 476
+~ _tdrp_pipelineCallback : 2736 -> 1600
+~ _FigTimedMetadataRenderPipelineCopyProperty : 316 -> 276
+~ _FigTimedMetadataRenderPipelineSetProperty : 308 -> 268
+~ _OUTLINED_FUNCTION_91 : 16 -> 44
+~ _FigDataChannelResourceCreate : 896 -> 404
+~ _dataChannelResource_GetState : 604 -> 76
+~ _dataChannelResource_CopyPayload : 660 -> 144
+~ _dataChannelResource_CopyTagCollection : 640 -> 152
+~ _dataChannelResource_ProvidePayload : 880 -> 668
+~ _dataChannelResource_SetCancelled : 592 -> 356
+~ _dataChannelResource_GetProcessingState : 604 -> 76
+~ _FigBufferedAirPlayOutputProxyCreate : 1156 -> 792
+~ _fbapop_ruleIsConsumerConnected : 624 -> 220
+~ _OUTLINED_FUNCTION_611 : 28 -> 20
+~ ___fcks_remote_ensureClientEstablished_block_invoke : 784 -> 268
+~ _fcks_remote_getObjectID : 628 -> 128
+~ _fcks_remote_addChildSession : 932 -> 196
+~ __ZL57ccrp_closedCaptionCallbackFromClosedCaptionRenderPipelinejPK14__CFDictionary6CMTimePKv : 736 -> 464
+~ __ZL16ccrp_resetOutputP26opaqueCMNotificationCenterPKvPK10__CFStringS2_S2_ : 548 -> 260
+~ __ZL40figClosedCaptionRenderPipelineInvalidateP18OpaqueCMBaseObject : 628 -> 324
+~ __ZL38figClosedCaptionRenderPipelineFinalizeP18OpaqueCMBaseObject : 432 -> 128
+~ __ZL42figClosedCaptionRenderPipelineCopyPropertyP18OpaqueCMBaseObjectPK10__CFStringPK13__CFAllocatorPv : 664 -> 340
+~ __ZL41figClosedCaptionRenderPipelineSetPropertyP18OpaqueCMBaseObjectPK10__CFStringPKv : 2284 -> 1300
+~ __ZL26ccrp_tearDownFeedingSourceP23OpaqueFigRenderPipeline : 420 -> 108
+~ __ZL25ccrp_feedingSourceHandlerPv : 948 -> 152
+~ __ZL28ccrp_feedCaptionDataToParserP23OpaqueFigRenderPipeline : 1816 -> 1252
+~ _fcc_CommandDictToPropertyList : 472 -> 412
+~ _fcc_CommandAttributedStringToPropertyList : 636 -> 516
+~ _FigCaptionCommandCreateFromPropertyList : 528 -> 324
+~ _FigSubtitleSampleCreateFromPropertyList : 700 -> 684
+~ _fcc_CommandPropertyListToAttributedString : 940 -> 632
+~ _fcc_CommandItemToPropertyList : 1120 -> 888
+~ _fcc_CommandPropertyListToItem : 524 -> 464
+~ _FigCaptionRendererBasicInputAddSample : 356 -> 100
+~ -[FigCaptionLayer init] : 1268 -> 892
+~ -[FigCaptionLayer setOptions:forKeyPath:] : 516 -> 288
+~ -[FigCaptionLayer updateDisplay:] : 772 -> 256
+~ -[FigCaptionRowLayer setNeedsDisplay] : 412 -> 136
+~ ___getDisplayScale_block_invoke : 396 -> 124
+~ _FigIFFPictureCollectionWriterCreateWithMovieSampleDataWriter : 392 -> 340
+~ _iffpcwGetWriteFileTypeOptions : 360 -> 300
+~ _iffpcw_CopyProperty : 856 -> 476
+~ _iffpcw_SetProperty : 648 -> 288
+~ _iffpcw_CopyPictureProperty : 364 -> 60
+~ _iffpcw_AddGroup : 272 -> 248
+~ _serverXPCCoordinator_handleAsyncReloadCompletion : 492 -> 184
+~ _FigCEA708CaptionDecoderCreate : 520 -> 456
+~ _cea708_CopyProperty : 240 -> 216
+~ _cea708_SetProperty : 292 -> 268
+~ _cea708Render : 3568 -> 2268
+~ _cea708CreateCommandData : 1420 -> 816
+~ __ZN12CEA608Parser15ProcessCodePairEPKhPlli : 1092 -> 480
+~ __ZN14CEA608RendererC2Ev : 292 -> 236
+~ __ZN14CEA608Renderer14SetCurrentTimeEx : 352 -> 8
+~ __ZN14CEA608Renderer20SetTargetDataChannelEh : 332 -> 8
+~ __ZN14CEA608Renderer20ResumeCaptionLoadingEh : 384 -> 60
+~ __ZN14CEA608Renderer14RollUpCaptionsEhh : 712 -> 416
+~ __ZN14CEA608Renderer22ResumeDirectCaptioningEh : 384 -> 60
+~ __ZN14CEA608Renderer12EndOfCaptionEh : 576 -> 252
+~ __ZN14CEA608Renderer9CharacterEhtb : 536 -> 124
+~ __ZN14CEA608Renderer9BackspaceEh : 488 -> 164
+~ __ZN14CEA608Renderer14CarriageReturnEh : 488 -> 196
+~ __ZN14CEA608Renderer16DeleteToEndOfRowEh : 560 -> 236
+~ __ZN14CEA608Renderer19PreambleAddressCodeEhhPKNS_12CaptionStyleEh : 644 -> 220
+~ __ZN14CEA608Renderer10MidRowCodeEhPKNS_12CaptionStyleE : 648 -> 172
+~ __ZN14CEA608Renderer7FlashOnEh : 448 -> 148
+~ __ZN14CEA608Renderer23EraseNonDisplayedMemoryEh : 352 -> 28
+~ __ZN14CEA608Renderer11TextRestartEh : 444 -> 164
+~ __ZN14CEA608Renderer11TextDisplayEh : 456 -> 180
+~ __ZN14CEA608Renderer11InvalidDataEv : 420 -> 136
+~ _FigCEA608DataGeneratorCaptionInfoCreate : 428 -> 324
+~ _FigCEA608DataGeneratorAddCaptionLine : 2152 -> 2168
+~ _cea608dgStoreCCDataSequentially : 6504 -> 6016
+~ _FigByteRateHistoryClear : 356 -> 76
+~ _ParseReferenceMovieVersionCheckAtom : 188 -> 208
+~ _FigICYBytePumpCopyProperty : 836 -> 512
+~ _FigICYBytePumpSetProperty : 464 -> 100
+~ _FigICYBytePumpClientHasEnough : 592 -> 320
+~ _FigICYBytePumpClientNeedsMore : 1356 -> 664
+~ _FigICYBytePumpSetPlayerRate : 224 -> 136
+~ _fbp_PauseTimer : 684 -> 168
+~ _fbp_NetworkInactivityTimer : 1176 -> 696
+~ _fbp_CancelAndRetryRequest : 1044 -> 672
+~ _fbp_GrabHeaderPayload : 892 -> 656
+~ _MovieSampleDataWriterCreate : 616 -> 548
+~ _MovieSampleDataWriterSetThreadPriorityAndClientPID : 436 -> 124
+~ _FigCLCPCaptionFormatConformerCreate : 232 -> 176
+~ _clcpcfc_CopyProperty : 364 -> 60
+~ _clcpcfc_SetProperty : 348 -> 56
+~ _clcpcfcFromSbufOutputCallback : 248 -> 224
+~ __ZL34fim_ConfigureAudioFileStreamForID3P14FigIcyManifold : 640 -> 156
+~ __ZL31AudioFileStreamPropertyListenerPvP23OpaqueAudioFileStreamIDjPj : 1552 -> 212
+~ __ZL25FigIcyManifoldSetPropertyP18OpaqueCMBaseObjectPK10__CFStringPKv : 596 -> 336
+~ __ZL50FigIcyManifoldCopyCurrentFormatDescriptionForTrackP17OpaqueFigManifoldiPPK25opaqueCMFormatDescription : 428 -> 244
+~ __ZL13fim_AdjustPTSP14FigIcyManifoldP6CMTime : 1552 -> 744
+~ _FigStreamingLiveServerClockCreate : 624 -> 288
+~ _fslscHandleRateDelta : 504 -> 224
+~ _fcks_copyProperty : 1168 -> 824
+~ _fcks_invokeKeyResponseErrorCallbackAsync : 740 -> 472
+~ _fcks_invokeKeyResponseSuccessfullyProcessedCallbackAsync : 696 -> 428
+~ _fcks_invokePersistentKeyUpdatedCallbackAsync : 720 -> 452
+~ _fcks_invokeSecureStopDidFinalizeRecordCallbackAsync : 408 -> 96
+~ _fcks_invokeDispatchExternalProtectionStateChangedCallbackAsync : 736 -> 468
+~ _FigAssetWriterCreateForWritingFragmentedData : 824 -> 268
+~ _assetWriter_CopyProperty : 844 -> 516
+~ _assetWriter_SetProperty : 1536 -> 1284
+~ _assetWriter_AddAudioTrackWithPresetCompression : 596 -> 296
+~ _assetWriter_SetTrackProperty : 732 -> 404
+~ _assetWriter_AddSampleBuffer : 2016 -> 1540
+~ _assetWriter_IsTrackQueueAboveHighWaterLevel : 520 -> 176
+~ _assetWriter_Finish : 756 -> 284
+~ _assetWriter_FinishAsync : 736 -> 264
+~ _assetWriter_BeginPass : 708 -> 408
+~ _assetWriter_EndPass : 660 -> 292
+~ _assetWriter_AddCaptionTrack : 1836 -> 1244
+~ _assetWriterTrack_reachedLowWater : 592 -> 164
+~ ___hasProResHWEncoder_block_invoke : 840 -> 320
+~ _OUTLINED_FUNCTION_725 : 12 -> 24
+~ _FigAIOTryToComplete : 1792 -> 568
+~ _FigAIORequestThread : 696 -> 484
+~ _figTTMLFeatures_CopyChildNodeArray : 160 -> 192
+~ ___remoteXPCAIG_EnsureClientEstablished_block_invoke : 320 -> 264
+~ _remoteXPCAIG_NotificationFilter : 1280 -> 552
+~ _crabsInitialize : 2320 -> 1344
+~ _crabsCompleteLazySync : 1008 -> 608
+~ _crabsCompleteLazyPagein : 860 -> 208
+~ _crabsReleaseDiskCacheProviderAsync : 364 -> 76
+~ _crabsDeferredUnlockWithActions : 1668 -> 1428
+~ _crabsReportingIssueEvent : 484 -> 184
+~ _crabsMarkBlockUnbacked : 280 -> 252
+~ _crabsShouldStartFirehose : 616 -> 260
+~ _crabsRangeInBlockIsCached : 436 -> 84
+~ _crabsBlockIsAKeeper : 496 -> 96
+~ _crabsAllocateMoreBacking : 352 -> 364
+~ _flushPendingReleaseSet : 532 -> 196
+~ _OUTLINED_FUNCTION_101 : 16 -> 20
+~ _OUTLINED_FUNCTION_108 : 40 -> 12
+~ _OUTLINED_FUNCTION_257 : 28 -> 12
+~ _OUTLINED_FUNCTION_129 : 20 -> 24
+~ _OUTLINED_FUNCTION_151 : 32 -> 16
+~ _ttmlSampleCursorCreate : 272 -> 228
+~ _ttmlSampleCursor_CopyProperty : 364 -> 60
+~ _QTMovieCacheMemReallocateCallBack : 112 -> 60
+~ _fpm_prepareDataRateProfile : 1384 -> 320
+~ _FigPlayabilityMonitorCanReuse : 516 -> 176
+~ _FigPlayabilityMonitorSetRenderPipelines : 684 -> 200
+~ _fpm_updateCacheAndNotify : 1116 -> 7792
+~ _fpm_getPlayableDurationForTrack : 2512 -> 2184
+~ _fpm_isLikelyToKeepUp : 2076 -> 392
+~ _figTTMLDocumentWriterFrameRateParameterInserter_CopyProperty : 72 -> 60
+~ _figSyncMomentSource_UpdateToCurrentTimebaseRate : 680 -> 164
+~ _FigSyncMomentSourceChangeFlagsMask : 152 -> 76
+~ _figSyncMomentSource_createInternal : 1300 -> 552
+~ _figSyncMomentSource_retrievePendingMoment : 500 -> 144
+~ _figSyncMomentSource_Finalize : 552 -> 260
+~ _figSyncMomentSource_QueueTimerCallback : 1292 -> 80
+~ _FigLayerSynchronizerCreate : 564 -> 324
+~ _figlayersync_setLayerArrays : 2264 -> 1592
+~ _figlayersync_synchronizeToMoment : 888 -> 232
+~ _figlayersync_setLayerTimingToMoment : 6996 -> 3032
+~ _FigCLCPCaptionGroupConverterToSampleBufferCreate : 704 -> 668
+~ _FigCLCPCaptionConversionValidatorCreate : 336 -> 284
+~ _clcpcgctsb_CopyProperty : 364 -> 60
+~ _clcpcgctsb_SetProperty : 348 -> 56
+~ _clcpccv_CopyProperty : 500 -> 212
+~ _clcpccv_SetProperty : 644 -> 304
+~ _FigTextSampleBufferCopyText : 736 -> 584
+~ _TMCInvalidate : 372 -> 92
+~ _tmcInvalidateInternal : 664 -> 396
+~ _tmcReleaseObjectsAndConsumeTMC : 340 -> 56
+~ _tmcTimeJumped : 432 -> 156
+~ _tmcInputDataBecameReady : 432 -> 156
+~ _tmcInhibitOutputUntil : 480 -> 216
+~ _tmcResetOutput : 376 -> 100
+~ _TMCGetEndPresentationTimeForDecodedSamples : 464 -> 180
+~ _tmcSerializedGetEndPresentationTimeForDecodedSamples : 544 -> 304
+~ _tmcReleaseObjects : 520 -> 228
+~ _tmcFinalize : 372 -> 76
+~ _tmcSendingTimerFired : 1384 -> 404
+~ _tmcSendSampleToCallback : 1076 -> 144
+~ _tmcHandleIgnoreSamplesUntilThisJumpSeed : 1148 -> 320
+~ _tmcResetOutputSerialized : 496 -> 60
+~ _tmcInhibitOutputUntilSerialized : 696 -> 160
+~ _tmcDeferredTimeJumped : 1824 -> 740
+~ ___FigByteStreamServerStart_block_invoke : 708 -> 320
+~ _FigByteStreamServerCopyByteStreamForID : 184 -> 204
+~ _fssm_remote_getObjectID : 608 -> 104
+~ _OUTLINED_FUNCTION_507 : 12 -> 28
+~ _FigCSSTokenWalkerReconsumeInputToken : 160 -> 128
+~ _fnum_updateExpectedProgressTargets : 412 -> 104
+~ _fnum_createExpectedProgressTarget : 456 -> 92
+~ _fnum_setHTTPRequestExpectedProgressTarget : 480 -> 164
+~ _FigNetworkUrgencyMonitorCreate : 912 -> 576
+~ _fnum_initializeBufferDurationParameters : 1692 -> 336
+~ _fnum_timebaseRateChangedCallback : 580 -> 80
+~ _fnum_timebaseJumpedCallback : 580 -> 80
+~ _OUTLINED_FUNCTION_7 : 68 -> 8
+~ _VMC2MakeOutputCallbacksForImageQueueArray : 1388 -> 1216
+~ _faq_wakeupToDiscard : 716 -> 128
+~ _faq_disconnectFromOfflineMixer : 96 -> 88
+~ _faq_enqueueSourceData : 28424 -> 16692
+~ _subaq_audioQueuePrime : 1628 -> 544
+~ _figAudioQueueStartCommon : 3872 -> 2500
+~ _FigAudioQueueStartOffline : 1340 -> 1084
+~ _FigAudioQueueGetParameter : 568 -> 216
+~ _subaq_restoreParameters : 1424 -> 224
+~ _FigAudioQueueCopyPerformanceDictionary : 764 -> 532
+~ _faq_scaledEditRateSupportValidator_lowQualityZeroLatency : 516 -> 120
+~ _faq_resetOutput : 360 -> 80
+~ _subaq_createValidSubAQSetAndLock : 188 -> 152
+~ _faq_enqueueSourceDataThread : 388 -> 84
+~ _subaq_deferredAudioQueueStartupCompleted : 1564 -> 472
+~ ___subaq_acquireAndPrepareAQBuffer_block_invoke : 400 -> 104
+~ _faq_fireTransitionCallback : 536 -> 104
+~ _OUTLINED_FUNCTION_124 : 12 -> 52
+~ _OUTLINED_FUNCTION_127 : 20 -> 12
+~ _OUTLINED_FUNCTION_128 : 48 -> 28
+~ _OUTLINED_FUNCTION_137 : 32 -> 20
+~ _OUTLINED_FUNCTION_166 : 32 -> 52
+~ _OUTLINED_FUNCTION_196 : 12 -> 44
+~ _OUTLINED_FUNCTION_199 : 24 -> 28
+~ _OUTLINED_FUNCTION_204 : 40 -> 28
+~ _OUTLINED_FUNCTION_205 : 40 -> 28
+~ _OUTLINED_FUNCTION_206 : 40 -> 56
+~ _OUTLINED_FUNCTION_207 : 40 -> 44
+~ _OUTLINED_FUNCTION_214 : 12 -> 24
+~ _OUTLINED_FUNCTION_219 : 24 -> 16
+~ _OUTLINED_FUNCTION_223 : 12 -> 16
+~ _OUTLINED_FUNCTION_225 : 12 -> 40
+~ _OUTLINED_FUNCTION_229 : 16 -> 40
+~ _OUTLINED_FUNCTION_230 : 24 -> 20
+~ _OUTLINED_FUNCTION_231 : 28 -> 20
+~ _OUTLINED_FUNCTION_233 : 36 -> 20
+~ _OUTLINED_FUNCTION_241 : 20 -> 24
+~ _OUTLINED_FUNCTION_268 : 12 -> 28
+~ _OUTLINED_FUNCTION_252 : 20 -> 12
+~ _OUTLINED_FUNCTION_257 : 20 -> 12
+~ _OUTLINED_FUNCTION_264 : 20 -> 28
+~ _OUTLINED_FUNCTION_265 : 20 -> 36
+~ _OUTLINED_FUNCTION_269 : 32 -> 24
+~ _OUTLINED_FUNCTION_270 : 32 -> 24
+~ _OUTLINED_FUNCTION_272 : 32 -> 24
+~ _OUTLINED_FUNCTION_275 : 32 -> 24
+~ _OUTLINED_FUNCTION_276 : 32 -> 24
+~ _OUTLINED_FUNCTION_277 : 32 -> 20
+~ _OUTLINED_FUNCTION_281 : 32 -> 12
+~ _OUTLINED_FUNCTION_282 : 24 -> 20
+~ _OUTLINED_FUNCTION_286 : 24 -> 12
+~ _vmc2FinishAndDestroyImageEnhancementFilter : 528 -> 232
+~ _vmc2PriorImageQueueGaugeWasInvalidated : 468 -> 192
+~ _vmc2DisplayModeChanged : 376 -> 100
+~ _vmc2ClearSavedList : 384 -> 100
+~ _vmc2UpdateExternalProtectionStatus : 1108 -> 304
+~ _VMC2SetMinUpcomingPresentationTimeStamp : 204 -> 144
+~ _vmc2ResetTroubleMonitorTimers : 420 -> 88
+~ _VMC2WaitUntilPrerolled : 140 -> 92
+~ _VMC2Reset : 532 -> 156
+~ _VMC2PretendOutputIsLow : 136 -> 60
+~ _VMC2RequestDecodeForPreroll : 564 -> 204
+~ _vmc2PostCompletedDecodeForPrerollIfPreviouslyRequestedAndMaybeRecordNewRequest : 612 -> 268
+~ _vmc2ResetQualityOfService : 580 -> 284
+~ _vmc2PreallocatePixelBuffers : 1460 -> 516
+~ _vmc2PostDecodeError : 576 -> 232
+~ _vmc2CopyFrameBaggageForPTS : 796 -> 492
+~ ___vmc2CopyFrameBaggageForPTS_block_invoke : 232 -> 168
+~ _vmc2AdjustQualityOfService : 1248 -> 1044
+~ _FigVisualContextCreateBasic : 1068 -> 540
+~ _lvcCreateCommon : 332 -> 280
+~ _lvcAutoPrune : 1504 -> 328
+~ _lvcSetImageAvailableImmediateCallback : 196 -> 136
+~ _lvcSetImageAvailableSequentialCallback : 196 -> 136
+~ _lvcSetNoMoreImagesCallback : 196 -> 136
+~ _lvcSetBecameEmptyCallback : 196 -> 136
+~ _lvcIsNewImageAvailable : 284 -> 232
+~ _lvcCopyImageForTime : 1236 -> 636
+~ _lvcConvertHostTimeToImageTime : 356 -> 276
+~ _lvcImageAvailableImmediate : 248 -> 216
+~ _lvcImageAvailableSequential : 248 -> 216
+~ _lvcSetProducerCallbacks : 1080 -> 380
+~ ___figMediaParserdUtilities_KickStartProcess_block_invoke : 292 -> 228
+~ -[FigScreenCaptureController suspendCapture] : 840 -> 432
+~ -[FigScreenCaptureController resumeCapture] : 840 -> 432
+~ _FigImageQueueGaugeXPCRemoteRetainCopiedImageQueueGauge : 556 -> 256
+~ _FigImageQueueGaugeXPCRemoteStartAsSubClient : 256 -> 188
+~ _remoteXPCImageQueueGauge_CopyProperty : 416 -> 104
+~ _remoteXPCImageQueueGauge_SetProperty : 416 -> 104
+~ _fsrm_updatePlayTimeStatsForEvent : 588 -> 288
+~ _FigMutableCompositionServerStart : 288 -> 172
+~ _HandleMutableCompositionDeleteTrackMessage : 456 -> 184
+~ _HandleMutableCompositionInsertEmptyTrackSegmentMessage : 696 -> 324
+~ _HandleMutableCompositionInsertEmptySegmentMessage : 660 -> 292
+~ _HandleMutableCompositionDeleteTrackSegmentMessage : 696 -> 324
+~ _HandleMutableCompositionDeleteSegmentMessage : 660 -> 292
+~ _HandleMutableCompositionScaleSegmentMessage : 760 -> 364
+~ _fpfs_ValeriaEnabled : 140 -> 124
+~ _fpfs_LockMutexWithCaller : 496 -> 104
+~ _fpfs_stopResetDisturbReprepareAndResume : 1080 -> 732
+~ _fpfs_UnlockAndPostNotificationsWithCaller : 1048 -> 364
+~ _fpfs_GetNextTimeToPlay : 1420 -> 376
+~ _fpfsi_CopyPlayerAndItemFromItemRetainProxy : 304 -> 244
+~ _fpfs_FormatsAreCompatible : 1064 -> 1092
+~ _fpfs_ClearRenderChains : 576 -> 96
+~ _fpfs_CanRenderVideo : 1272 -> 492
+~ _fpfsi_canMetadataFormatsSync : 500 -> 224
+~ _fpfs_releaseRenderChain : 1804 -> 1444
+~ _fpfs_EstablishTimebase : 2512 -> 1548
+~ _fpfs_SendBufferQueueToChomper : 412 -> 288
+~ _fpfsi_deferredHandleRateDelta : 588 -> 204
+~ _fpfs_UnlockWithCaller : 784 -> 60
+~ _fpfs_EnqueueNotification : 116 -> 92
+~ _fpfsi_scheduleFVTTransitionsForItem : 2712 -> 1096
+~ _fpfs_HandleScanningBoundaryTimerEnd : 608 -> 184
+~ _fpfs_isKnownMebxMetadataForRendering : 888 -> 152
+~ _fpfsi_canTracksBeSyncPairsIgnoringDiscontinuity : 1000 -> 128
+~ _fpfsi_TotalTimeRangeInBufferForTrackList : 1148 -> 632
+~ _fpfsi_PrepareToStartWhenLikelyToKeepUp : 896 -> 368
+~ _fpfs_ReportAudioPlaybackThroughFigLog : 2748 -> 2296
+~ _fpfs_PostNotificationWhenUnlocked : 336 -> 328
+~ _fpfsi_UpdateAudioActiveSamples : 668 -> 188
+~ _fpfs_UnsuspendVideoRenderingForTrack : 1896 -> 400
+~ _fpfs_PrerollTrack : 988 -> 84
+~ _fpfs_RenderWithEndSignal : 1124 -> 376
+~ _fpfsi_deferredFirstImageEnqueued : 856 -> 852
+~ _fpfs_FlowControlPump : 776 -> 764
+~ _fpfs_CommitAccessLogEntry : 1836 -> 672
+~ _fpfsi_SetSwitchReasonCode : 856 -> 96
+~ _fpfs_SetAlternateWithContext : 7392 -> 4588
+~ _fpfsi_RTCReportingReportVariantSwitchComplete : 4096 -> 3852
+~ _fpfsi_copyPlayableTime : 1908 -> 1936
+~ _GetCurrentManifold : 144 -> 88
+~ _fpfs_WeakStreamEnd : 196 -> 256
+~ _fpfs_FinishTrack : 6176 -> 4608
+~ _fpfs_StopPlaybackByStalledTrack : 3908 -> 3544
+~ _fpfs_AbandonSyncAttempt : 5136 -> 3760
+~ _fpfs_UpdateDimensions : 1328 -> 544
+~ _fpfs_ReleaseTrackRenderChain : 4204 -> 3868
+~ _fpfsi_PostExternalProtectionRequiredChangedNotification : 520 -> 132
+~ _fpfs_CancelGaplessAttempt : 596 -> 212
+~ _fpfs_IsTrialReadyToComplete : 788 -> 332
+~ _fpfs_CheckAudioSync : 2248 -> 1164
+~ _fpfs_DecodeTimeForAudioRandomAccessInBufferQueue : 1344 -> 380
+~ _fpfs_updateCaptionOrSubtitleHintOnVideoPipeline : 1596 -> 212
+~ _fpfs_OkayToAttemptGapless : 532 -> 636
+~ _fpfs_CompleteTrialSync : 984 -> 248
+~ _fpfsi_renderPipelineProcessingModeChanged : 696 -> 220
+~ _fpfsi_renderPipelineStartupTimestampsChanged : 488 -> 220
+~ _fpfs_PreserveResumeTag : 388 -> 104
+~ _fpfsi_ReleaseCachedSamplesFromTrack : 712 -> 268
+~ _fpfs_FindVideoGOPRangeInBufferQueue : 716 -> 360
+~ _fpfs_CurrentSubStreamBufferedDuration : 1412 -> 892
+~ _fpfs_createOrUpdateLayerSync : 796 -> 388
+~ _fpfs_TimedDataRenderCallback : 536 -> 208
+~ _fpfs_setDisplaySizeAndItemVideoSizeOnTextRenderPipeline : 784 -> 524
+~ _fpfsi_GetDimensions : 628 -> 192
+~ _fpfsi_GetExternalProtectionMethodRequiredForPlayback : 696 -> 264
+~ _fpfs_UpdateAccessLogEntryPlayTimeForKey : 504 -> 156
+~ _fpfsi_GetCurrentTime : 256 -> 216
+~ _fpfsi_setTimePitchAlgorithm : 828 -> 760
+~ _fpfsi_ConfigurePlaybackMonitorForBandwidthCap : 708 -> 88
+~ _fpfsi_addHDResolutionCap : 536 -> 140
+~ _fpfs_isAlternateValid : 508 -> 76
+~ _fpfs_EndCurrentDiscontinuity : 2204 -> 720
+~ _fpsi_TryDateSeekWithSeekID : 1684 -> 1200
+~ _fpfs_NewTrackNote : 9628 -> 3960
+~ _fpfs_PlayingVideoOnly : 948 -> 124
+~ _fpfs_UnlockMutexCompletelyWithCaller : 492 -> 96
+~ _fpfsi_ResumeAllWaitingVideoTracks : 1372 -> 392
+~ _fpfs_disassociatePlayerVideoLayer : 456 -> 88
+~ _fpfs_PostNotificationFromDispatch : 736 -> 436
+~ _fpfsi_copyPerformanceDictionary : 1612 -> 1520
+~ _fpfs_PostPlayQueueNotificationIfHungry : 500 -> 108
+~ _fpfs_deferredSynchronousFrameEnqueued : 192 -> 176
+~ _fpfs_DeleteTracksWhenSubstreamChanges : 1220 -> 252
+~ _fpfs_DeleteAllTracksForSubstream : 564 -> 200
+~ _fpfs_applyAutoSelectionCriteria : 464 -> 452
+~ _fpfs_ApplyMediaArray : 11200 -> 6396
+~ _fpfsi_clearOutOfBandSubtitleObjects : 576 -> 176
+~ _fpfsi_handleOutOfBandTrackSubtitleChanged : 1036 -> 136
+~ _fpfsi_handleOutOfBandTrackPlaybackFailed : 356 -> 56
+~ _fpfsi_synchronizeOOBSController : 544 -> 140
+~ _fpfs_Invalidate : 672 -> 404
+~ _fpfs_InvalidateGuts : 1480 -> 1456
+~ _fpfsi_setPropertyOnAllAudioRenderPipelines : 992 -> 152
+~ _fpfsi_CopyAsset : 540 -> 128
+~ _fpfs_handleSetProperty : 17376 -> 9444
+~ _fpfs_setEQPreset : 424 -> 72
+~ _fpfs_handlePlayerAudibleRateRangeChangeIfNecessary : 776 -> 432
+~ _fpfs_setMultiAudioChannelStrategy : 552 -> 188
+~ _fpfs_CopyPlayQueueItem : 588 -> 228
+~ _fpfs_GetRate : 460 -> 80
+~ _fpfs_AddExternalStartupTask : 188 -> 172
+~ _fpfs_reportAttemptToWriteToReadOnlyTimebase : 332 -> 4
+~ _OUTLINED_FUNCTION_88 : 16 -> 28
+~ _OUTLINED_FUNCTION_145 : 44 -> 40
+~ _OUTLINED_FUNCTION_147 : 40 -> 20
+~ _OUTLINED_FUNCTION_156 : 16 -> 12
+~ _OUTLINED_FUNCTION_194 : 20 -> 28
+~ _OUTLINED_FUNCTION_210 : 20 -> 80
+~ _OUTLINED_FUNCTION_213 : 20 -> 24
+~ _OUTLINED_FUNCTION_228 : 16 -> 40
+~ _OUTLINED_FUNCTION_244 : 36 -> 24
+~ _OUTLINED_FUNCTION_273 : 28 -> 24
+~ _OUTLINED_FUNCTION_278 : 12 -> 20
+~ _OUTLINED_FUNCTION_285 : 20 -> 12
+~ _OUTLINED_FUNCTION_304 : 20 -> 12
+~ _OUTLINED_FUNCTION_335 : 12 -> 32
+~ _OUTLINED_FUNCTION_342 : 28 -> 24
+~ _OUTLINED_FUNCTION_351 : 16 -> 24
+~ _OUTLINED_FUNCTION_353 : 16 -> 24
+~ _OUTLINED_FUNCTION_549 : 28 -> 12
+~ _OUTLINED_FUNCTION_550 : 28 -> 12
+~ _OUTLINED_FUNCTION_547 : 28 -> 12
+~ _FigVCPTimedSampleCreateWithPixelBuffer : 232 -> 204
+~ _FigVCPTimedSampleCreateWithSampleBuffer : 232 -> 204
+~ _FigManifoldStartServer : 248 -> 192
+~ ___FigManifoldStartServer_block_invoke : 544 -> 228
+~ _FigPlayerAsyncCreateWithEngineTopologyAndOptions : 564 -> 244
+~ _playerasync_runAsynchronousCommand : 436 -> 136
+~ _playerasync_InvalidateOnQueue : 768 -> 440
+~ _itemasync_InvalidateInternal : 1304 -> 768
+~ _playerasync_runSynchronousCommand : 488 -> 172
+~ _playerasync_runImmediateCommand : 544 -> 248
+~ _playerasync_postPlayerStatusChanged : 516 -> 96
+~ _playerasync_runCopyPlayQueueItemCommand : 576 -> 316
+~ _itemasync_postItemStatusChanged : 516 -> 96
+~ _playerasync_handleSetProperty : 1120 -> 516
+~ _playerasync_cancelQueuedCommandsMatching : 932 -> 428
+~ _itemasync_postSeekWasCanceled : 444 -> 96
+~ _playerasync_CopyPlayQueueItem : 1224 -> 328
+~ _playerasync_SetRateWithFade : 600 -> 228
+~ _playerasync_StartPreroll : 588 -> 216
+~ _playerasync_SetRateAndAnchorTime : 712 -> 268
+~ _playerasync_CreatePlaybackItemFromAsset : 528 -> 520
+~ _playerasync_SetRateWithOptions : 612 -> 240
+~ _playerasync_SetProperties : 648 -> 300
+~ _playerasync_AddExternalStartupTask : 512 -> 176
+~ _playerasync_RemoveExternalStartupTask : 512 -> 176
+~ _itemasync_handleSetProperty : 632 -> 228
+~ _itemasync_CopyTrackProperty : 916 -> 368
+~ _itemasync_CopyCommonMetadata : 856 -> 360
+~ _itemasync_CopyChapterImageData : 796 -> 324
+~ _itemasync_GetNextThumbnailTime : 768 -> 352
+~ _itemasync_SetCurrentTimeWithRange : 816 -> 352
+~ _itemasync_SetTrackProperty : 868 -> 348
+~ _itemasync_CopyFormatReader : 1148 -> 288
+~ _itemasync_SeekToDateWithID : 832 -> 312
+~ _itemasync_SetCurrentTimeWithRangeAndID : 820 -> 372
+~ _itemasync_CopyAsset : 1164 -> 288
+~ _itemasync_ExtractAndRetainNextSampleBuffer : 1176 -> 312
+~ _itemasync_SetCurrentTimeWithOptions : 844 -> 344
+~ _playerasync_EndInterruption : 476 -> 144
+~ _playerasync_DuckVolume : 648 -> 232
+~ _playerasync_SilentMute : 552 -> 148
+~ _playerasync_runAsynchronousCommandOnQueue : 2040 -> 424
+~ _audioRendererCentral_subRendererNotificationHandler : 432 -> 84
+~ _audioRendererCentral_CopyProperty : 944 -> 296
+~ _audioRendererCentral_SetProperty : 2976 -> 1320
+~ ___audioRendererCentral_postNotification_block_invoke : 444 -> 104
+~ _audioRendererCentral_ProcessRateChange : 640 -> 232
+~ _audioRendererCentral_QueueIsAboveHighWaterLevel : 788 -> 160
+~ _audioRendererCentral_Flush : 796 -> 160
+~ _audioRendererCentral_CopyClock : 804 -> 168
+~ _audioRendererCentral_SetRateAndTime : 852 -> 204
+~ _audioRendererCentral_FlushFromMediaTime : 872 -> 236
+~ _audioRendererCentral_SetRateAndAnchorTime : 892 -> 252
+~ _audioRendererCentral_updateBufferedAirPlayAudioInUseFromSubRenderer : 564 -> 192
+~ _FigPlayerFileCreateWithOptions : 2916 -> 2300
+~ _playerfig_autoSelectionCriteriaChanged : 476 -> 140
+~ _playerfig_applyAutoSelectionCriteriaInternal : 612 -> 216
+~ _playerfig_updateCaptionOrSubtitleHintOnVideoPipeline : 1348 -> 456
+~ _itemfig_assureBasicsReadyUsingAsset : 356 -> 80
+~ _playerfig_configureDownloadInPlayQueue : 808 -> 208
+~ _itemfig_DeferredPostNotificationOnDispatchQueue : 600 -> 136
+~ _itemfig_TrackPropertiesChanged : 900 -> 300
+~ _itemfig_setTrackPropertyInternal : 7312 -> 3816
+~ _itemfig_bumpBossControlTokenAndMarkBossAsNonIdle : 484 -> 208
+~ _playerfig_dispatchAsyncAutoSelectionCriteriaChangedForItem : 476 -> 92
+~ _trackExtraction_ResetOutput : 548 -> 220
+~ _trackExtraction_dataBecameReady : 548 -> 220
+~ _itemfig_getMaximumNumberOfSpatializedOutputChannels : 1096 -> 148
+~ _itemfig_getPlayableDurationAtCurrentTime : 708 -> 272
+~ _itemfig_monitorPlayability : 2252 -> 1324
+~ _itemfig_accumulateFrameDropCountFromAllVideoPipelines : 424 -> 88
+~ _itemfig_updateAccessLogEntry : 2032 -> 312
+~ _itemfig_unregisterAndDestroyPlayabilityMonitorNotification : 436 -> 92
+~ _itemfig_registerPlayabilityMonitorNotification : 2348 -> 2136
+~ _itemfig_handleOutOfBandTrackSubtitleChanged : 840 -> 196
+~ _itemfig_synchronizeOOBSController : 496 -> 132
+~ _itemfig_setMuted : 720 -> 76
+~ _itemfig_getNonNegativeCurrentTime : 472 -> 184
+~ _itemfig_getPlayableRangeAtTime : 444 -> 448
+~ _playerfig_removeAudioRenderPipelineListeners : 652 -> 364
+~ _itemfig_updateVolumeOffset : 1020 -> 72
+~ _playerfig_AudioDecoderError : 996 -> 264
+~ _playerfig_latencyChanged : 428 -> 140
+~ _playerfig_renderPipelineWantsRebuildToIncreaseFidelity : 440 -> 156
+~ _playerfig_renderPipelineDeviceHasDisconnected : 440 -> 156
+~ _itemfig_playbackFailed : 640 -> 264
+~ _itemfig_removeAllImageQueues : 612 -> 352
+~ _itemfig_unregisterPlayabilityMonitor : 452 -> 108
+~ _itemfig_storeItemPerformanceDataIfGathering : 360 -> 300
+~ _itemfig_unregisterPlayabilityMonitorNotification : 632 -> 288
+~ _itemfig_UnlikelyToKeepUp : 516 -> 188
+~ _itemfig_BufferFull : 516 -> 188
+~ _itemfig_StallWarning : 524 -> 192
+~ _itemfig_DeferredBufferFull : 440 -> 100
+~ _itemfig_copyVideoTrackMatrix : 412 -> 428
+~ _itemfig_BossBecameIdle_prepareNextItemForTransition_f : 428 -> 120
+~ _itemfig_onlySingleAudioTrackIsEnabled : 788 -> 144
+~ _playerfig_OverlappedOutroReachedEnd : 396 -> 92
+~ _playerfig_OverlappedOutroBossBecameIdle : 496 -> 196
+~ _itemfig_commitAccessLogEntry : 1312 -> 224
+~ _itemfig_clearTrackImageQueueTable : 560 -> 236
+~ _playerfig_isCurrentItemQuiescent : 396 -> 108
+~ _playerfig_setRateForReason : 1916 -> 1348
+~ _playerfig_configureCacheVolatilityInPlayQueue : 1016 -> 316
+~ _fp_imageQueueTableCreatedImageQueueCallback : 520 -> 176
+~ _fp_imageQueueTableWillReleaseImageQueueCallback : 500 -> 156
+~ _playerfig_postSubtitleNotificationIfEnabled : 720 -> 432
+~ _playerfig_postCaptionNotificationIfEnabled : 928 -> 432
+~ _playerfig_sendEmptyConfigurationToEachVideoTarget : 628 -> 276
+~ _playerfig_mustDisturbPlaybackWhenSettingAudioPropertyOnCurrentItem : 2100 -> 212
+~ _playerfig_StepByCount : 1000 -> 780
+~ _itemfig_CachePrimingCompleted : 416 -> 80
+~ _itemfig_setVisualContextArray : 492 -> 252
+~ _itemfig_setTextMarkupArray : 888 -> 428
+~ _itemfig_applyItemAudioCurvesToAllAudioTracks : 332 -> 280
+~ _itemfig_SetTrackProperty : 764 -> 392
+~ _itemfig_CopyAsset : 620 -> 136
+~ _itemfig_SetCurrentTimeWithOptions : 772 -> 344
+~ _playerfig_DuckVolume : 1116 -> 372
+~ _playerfig_SilentMute : 956 -> 224
+~ _OUTLINED_FUNCTION_6 : 68 -> 72
+~ _OUTLINED_FUNCTION_0 : 28 -> 52
+~ _ckbremote_copyProperty : 408 -> 140
+~ _ckbremote_setProperty : 408 -> 140
+~ _FigInitializeParserProcess : 1444 -> 80
+~ _feServer_ShouldStartSubServer : 452 -> 124
+~ _ckb_finalize : 372 -> 96
+~ _ckbutil_createAndStartTimer : 268 -> 288
+~ _mov_start : 484 -> 184
+~ ___mov_plugProcessor_block_invoke : 176 -> 120
+~ _FigPlaybackGetActionAtEndForString : 408 -> 140
+~ _remoteXPCPlaybackCoordinator_Finalize : 420 -> 144
+~ _FigAudioFileStreamFormatReaderSetProperty : 400 -> 108
+~ _GetAudioFileStreamPacketAndFrameCount : 660 -> 384
+~ _FigAudioFileStreamFormatReaderCopyTrackByID : 184 -> 136
+~ _FillPacketRequestFromCache : 2684 -> 544
+~ _FigDataChannelResourceServer_CreateServedState : 280 -> 224
+~ _FigByteFlumePostHostUnavailableNotification : 420 -> 116
+~ _FigByteFlumePostHostAvailableNotification : 420 -> 124
+~ _FigByteFlumePostHostAvailableOnBetterInterfaceNotification : 416 -> 112
+~ _FigByteFlumeBaseInvalidate : 428 -> 116
+~ _fbf_notificationBarrierDQFunc : 304 -> 4
+~ _PlaylistFileParserCopyItem : 212 -> 160
+~ _printRegisteredFormatReaders : 436 -> 108
+~ _AttemptUTIInstantiation : 644 -> 284
+~ _AttemptInstantiationForMatchingLabel : 1016 -> 672
+~ _AudioMentorSetModeToReversePlayback : 556 -> 80
+~ _AudioMentorSetModeToEmptyEdit : 616 -> 284
+~ _audioRendererAirPlay_Finalize : 732 -> 392
+~ _audioRendererAirPlay_bufferedAirPlayOutputEndpointPreemptedNotificationListener : 756 -> 132
+~ _audioRendererAirPlay_DuckVolume : 876 -> 244
+~ _audioRendererAirPlay_SilentMute : 852 -> 216
+~ _audioRendererAirPlay_EnqueueSampleBuffer : 804 -> 168
+~ _audioRendererAirPlay_Flush : 796 -> 160
+~ _audioRendererAirPlay_AttachToSynchronizer : 812 -> 188
+~ _audioRendererAirPlay_CopyClock : 804 -> 168
+~ _audioRendererAirPlay_SetRateAndTime : 876 -> 256
+~ _audioRendererAirPlay_FlushFromMediaTime : 872 -> 236
+~ _audioRendererAirPlay_SetRateAndAnchorTime : 916 -> 296
+~ _FigImageQueueConfigurationAddFigImageQueue : 452 -> 192
+~ _FigFlumeStreamCopyProperty : 1080 -> 760
+~ _FigCaptionRendererCaptionArrayInputCreate : 584 -> 364
+~ _ffcrcainput_start : 404 -> 136
+~ _FigSampleBufferConsumerStartServer : 520 -> 192
+~ _figVTTCue_MapAttributeToMarkup_fontStyle : 392 -> 344
+~ _FigJSONParserStartServer : 248 -> 192
+~ ___FigJSONParserStartServer_block_invoke : 520 -> 204
+~ ___assetDownloadServer_handleLoadMetataMessage_block_invoke : 464 -> 92
+~ _mediaAccessibilityDidChangeDoAsync : 3988 -> 428
+~ _FigCDSMACacheCreate : 424 -> 368
+~ _dworch_downloadMetadata_start : 456 -> 176
+~ _dworch_downloadMedia_resumeFromInteractivePlayback : 1216 -> 388
+~ _dworch_ensureTemporaryMetadataOnlyStreamingCache : 420 -> 96
+~ _dworch_ensurePersistentStreamingCache : 420 -> 96
+~ _dworch_selectUsingMediaSelectionCriteria : 540 -> 216
+~ _dworch_updateAlternateInfoForReporting : 3472 -> 148
+~ _dworch_issueReportingEvent : 528 -> 184
+~ _FigSampleGeneratorDataSourceCacheCreate : 348 -> 308
+~ _sgffr_finishPrerollBatch : 604 -> 312
+~ _sgffr_CreateSampleGeneratorBatch : 812 -> 316
+~ _sgffr_checkDataAvailability : 664 -> 352
+~ _sgffr_invalidateSampleBuffer : 652 -> 340
+~ _sgffr_setSampleBufferAttachments : 236 -> 208
+~ _figSampleGeneratorBatch_Finalize : 524 -> 248
+~ _sgffr_expediteAllClientRequestsForScheduledIO : 444 -> 152
+~ _FigStreamingAssetDownloadConfigCopyContentConfigsWithOnlyQualifiers : 188 -> 184
+~ _FigStreamingAssetDownloadConfigCreate : 164 -> 100
+~ _FigVideoCompositorCreatevImage : 436 -> 380
+~ _vifa_vImageFill : 392 -> 364
+~ _metadw_configureMediaSelectionsForAlternateDispatch : 680 -> 292
+~ _metadw_clearCustomURLRequestState : 512 -> 204
+~ _metadw_copyPropertyDispatch : 208 -> 200
+~ _metadw_createCacheForStream : 336 -> 284
+~ _metadw_appendUniqueInterstitialURL : 388 -> 92
+~ _OUTLINED_FUNCTION_7 : 40 -> 84
+~ _videoMentorEnqueueTimestampIntervalMarker : 576 -> 204
+~ _videoMentorFrameNodeCreate : 644 -> 608
+~ _videoMentorRefreshGroupCreate : 232 -> 208
+~ _videoMentorFrameNodeAddDependentNode : 380 -> 80
+~ _videoMentorPostMinAndMaxUpcomingOutputPTS : 1292 -> 416
+~ _videoMentorThrottlingStateClearSelectedCursors : 480 -> 104
+~ _videoMentorPushCursorIntoSelectedCursors : 760 -> 308
+~ _FigCEA608DataInspectorCreate : 220 -> 160
+~ _FigCEA608DataInspectorInspectBytePair : 1488 -> 300
+~ _faqts_convertTimingShimTimeStampToAQTimeStamp : 556 -> 268
+~ _faqts_convertAQTimeStampToTimingShimTimeStamp : 556 -> 272
+~ _EditMentorSetProperty : 480 -> 132
+~ _editMentorCMTimeMappingArrayRetainCallback : 352 -> 72
+~ _editMentorRemapTimeInterval : 792 -> 776
+~ _editMentorRemapTimeFromMediaTimeToTrackTimeUsingEdit : 1008 -> 208
+~ _synchronizerRemote_AddAudioRenderer : 428 -> 80
+~ _synchronizerRemote_RemoveAudioRenderer : 428 -> 80
+~ _CopySoundCheckInfoDictionary : 404 -> 116
+~ _IndicatesContentProtection : 408 -> 104
+~ _FigAudioFileFormatReaderCopyTrackByID : 184 -> 136
+~ _FigBufferedAirPlayGlobalRoutingRegistryStartServer : 248 -> 192
+~ _globalRoutingRegistry_disposeConnectionState : 448 -> 180
+~ _FigSnippetEditCursorServiceSetTrackDuration : 412 -> 84
+~ _FigSnippetEditCursorServiceSetSnippetDurationAndStep : 708 -> 312
+~ _FigSnippetEditCursorServiceCreate : 576 -> 208
+~ _sapl_playlistDidProduceDataOutput : 872 -> 468
+~ _sapl_playlistDidFail : 716 -> 312
+~ _sapl_sessionDataSchedulerDidFailForItem : 400 -> 104
+~ _sapl_sessionDataSchedulerDidFinishReadQueue : 412 -> 128
+~ _FigAlternateGetVideoQualityIndex : 820 -> 408
+~ _FigAlternateGetHDCPString : 68 -> 72
+~ _bossGetVideoDecoderMaxSpeedThreshold : 1316 -> 228
+~ _bossBumpCurrentMasterOrder : 448 -> 152
+~ _FigPlaybackBossGetVolume : 860 -> 604
+~ _FigPlaybackBossGetMuted : 884 -> 628
+~ _FigPlaybackBossGetRate : 576 -> 132
+~ _bossResetSideQueuesAndSwitchMentorsToMainQueues : 456 -> 188
+~ _FigPlaybackBossDidReachEnd : 400 -> 8
+~ _FigPlaybackBossSetAudibleRateRange : 604 -> 548
+~ _FigPlaybackBossGetAudibleRateRange : 544 -> 104
+~ _FigPlaybackBossSetRateSnapping : 556 -> 508
+~ _FigPlaybackBossGetRateSnapping : 528 -> 92
+~ _FigPlaybackBossSetContinuePlayingDuringPrerollForRateChange : 508 -> 460
+~ _FigPlaybackBossSetIFrameOnlySpeedThreshold : 508 -> 452
+~ _FigPlaybackBossSetReversalLimits : 524 -> 468
+~ _FigPlaybackBossGetReversalLimits : 512 -> 80
+~ _FigPlaybackBossGetScrubPolicy : 488 -> 68
+~ _FigPlaybackBossSetUseIFrameOnlyPlaybackForHighRateScaledEdits : 508 -> 460
+~ _FigPlaybackBossSetTrackEnableForStepping : 600 -> 204
+~ _FigPlaybackBossSetThoroughlyRefreshClosedCaptionsWhenSeeking : 508 -> 460
+~ _FigPlaybackBossCopyPerformanceDictionary : 868 -> 532
+~ _FigPlaybackBossSetThrottleForBackground : 476 -> 460
+~ _figPlaybackBossReachedEndWithContext : 1476 -> 528
+~ _figPlaybackBoss_bufferConsumedByRenderPipeline : 1020 -> 268
+~ _figPlaybackBoss_renderPipelinePrerollLost : 700 -> 124
+~ _figPlaybackBoss_VideoCompositionProcessorSeekComplete : 1336 -> 460
+~ _figPlaybackBossAdvanceForOverlappedPlaybackWithContext : 1120 -> 112
+~ _bossBumpTrackCurrentOrder : 440 -> 112
+~ _figPlaybackBoss_AllMentorsPrerollCompleteWithContext : 88 -> 112
+~ _FigTTMLDocumentWriterStateCreate : 196 -> 232
+~ ___FigUserExperienceReportSessionEnd_block_invoke : 820 -> 252
+~ _FigUserExperienceCalculateScore : 796 -> 268
+~ ___FigUserExperienceCalculateScore_block_invoke : 480 -> 116
+~ _figi_ComputeEnhancementsWithDurations : 520 -> 268
+~ _FigGaplessInfoFetchiTunesParametersFromMetadataReader : 1004 -> 624
+~ _FigSimpleRenderPipelineCreateWithCallback : 544 -> 468
+~ _figSimpleRenderPipelineSetProperty : 532 -> 284
+~ _FigSampleBufferConsumerCreateForFrameSilo : 240 -> 184
+~ _faqrp_setTimebase : 748 -> 532
+~ _faqrp_DecodeError : 528 -> 244
+~ _faqrp_RanDry : 372 -> 80
+~ _faqrp_SegmentFinished : 372 -> 80
+~ _faqrp_playResourceReleased : 360 -> 76
+~ _faqrp_defaultDeviceChanged : 360 -> 76
+~ _faqrp_latencyChanged : 360 -> 76
+~ _faqrp_faqRequiresManualRestartBecauseConfigurationChanged : 360 -> 76
+~ _faqrp_audioQueueDecodeFormatCouldBeImprovedByRebuild : 360 -> 76
+~ _faqrp_audioQueueStartupPerformanceMetricsAvailable : 372 -> 80
+~ _faqrp_audioQueueDeviceHasDisconnected : 360 -> 76
+~ _faqrp_startStopAudioQueueSlavedToTimebase : 1740 -> 644
+~ _faqrp_updateTimePitchBypass : 760 -> 188
+~ _faqrp_primeAudioChain : 492 -> 216
+~ _faqrp_setMuted : 764 -> 248
+~ _faqrp_setSuspended : 624 -> 100
+~ _figAudioQueueRenderPipelineFinishSettingRate : 1296 -> 496
+~ _faqrp_stopTimebaseAndAudioQueue : 464 -> 192
+~ _FigPlaybackTimerScheduleForTimebaseTimeWithTeardownHandlers : 608 -> 464
+~ _FigCSSParserCreate : 660 -> 320
+~ _videopipelineImageReleased : 372 -> 80
+~ _videopipelineDisplaySizeChanged : 436 -> 92
+~ _videopipelineUpdateVideoPlaybackStateForClient : 828 -> 428
+~ _figVideoRenderPipelineCopyMaxFanOutDisplayLayerSize : 780 -> 472
+~ _videopipelineConfigureAV1FilmGrainModeAsAppropriateForImageQueues : 764 -> 464
+~ _FigSampleBufferAudioRendererServerStart : 516 -> 148
+~ _audioRendererServer_disposeFSBARServedState : 404 -> 104
+~ _SetProfileDo : 1080 -> 568
+~ _updateDisplayPort : 860 -> 192
+~ _fcrSessionNotificationInputSetCaptionSampleDo : 188 -> 208
+~ _fcrSessionStartDo : 220 -> 244
+~ _fcrSessionStopDo : 240 -> 232
+~ _SetVideoRelativeToViewportDo : 448 -> 120
+~ _fcrSessionUpdateOutputDo : 192 -> 220
+~ _setOptionsDo : 432 -> 156
+~ _onDisplayUpdateEvent : 436 -> 140
+~ _onMAChanged : 648 -> 184
+~ _timebaseChangedCallbackDo : 796 -> 272
+~ _purgeCaptionBitmapCaches : 896 -> 576
+~ _drawInContext : 800 -> 220
+~ _copyCurrentActiveCaptions : 1356 -> 612
+~ _layoutInContext : 472 -> 180
+~ _subrp_resetOutput : 636 -> 324
+~ _figSubtitleRenderPipelineInvalidate_Internal : 672 -> 424
+~ _subrpNativeCallback : 392 -> 120
+~ _subrpCommonCallback : 404 -> 132
+~ _subrpFlushCallback : 356 -> 88
+~ _fpSupport_pickPreferredVideoTrack : 1000 -> 524
+~ _FPSupport_setClosedCaptionLayerOptions : 1088 -> 308
+~ _FPSupport_setClosedCaptionLayerSeparated : 1144 -> 324
+~ _FPSupport_getVideoDecodeWaterLevels : 892 -> 224
+~ _FPSupport_CreateSetRateOptions : 156 -> 196
+~ -[FPSupport_PowerStateSingleton init] : 416 -> 140
+~ -[FPSupport_VideoRangeSingleton init] : 408 -> 132
+~ -[FPSupport_VideoRangeSingleton observeValueForKeyPath:ofObject:change:context:] : 416 -> 188
+~ _fps_disposeTargetMirroringObserverAtDisplayOfCALayer : 404 -> 76
+~ _fps_setCAImageQueueSlotsOnVideoLayers : 512 -> 200
+~ _FPSupport_CanFormatsShareVideoRenderPipeline : 564 -> 284
+~ _FPSupport_fvtSupportsMetadataTrack : 468 -> 464
+~ _FPSupport_SetCurrentTimeWithRangeIDAndReason : 488 -> 512
+~ _fpSupport_handleSetPropertiesApplier : 1940 -> 508
+~ _fpSupport_handleSetPropertiesInternal : 176 -> 88
+~ _OUTLINED_FUNCTION_4 : 44 -> 12
+~ _saig_CancelAllRequests : 468 -> 108
+~ _saig_CancelAllCGImageAsyncRequests : 408 -> 120
+~ _cdsTimerDispatchFunctionCallback : 380 -> 112
+~ _FigCDSTimerCreate : 348 -> 292
+~ _faf_passthroughFilterCopyProperty : 500 -> 204
+~ _OUTLINED_FUNCTION_26 : 36 -> 56
+~ _FigDataQueueRemoteSetupRemoteXPCClientIfNecessary : 1000 -> 468
+~ _dqr_HandleDeadServerConnection : 836 -> 104
+~ _fbf_CancelReconnect : 352 -> 56
+~ _fbf_ResumeRetryAttempt : 2004 -> 220
+~ ___fbf_TryReconnect_block_invoke : 2628 -> 540
+~ _fbf_CopyHttpRequestCreateOptionsAndSetNWActivity : 552 -> 220
+~ _fbf_GetResponseProperties : 792 -> 468
+~ _OUTLINED_FUNCTION_67 : 32 -> 36
+~ _OUTLINED_FUNCTION_69 : 44 -> 36
+~ _FigPlayerStartupTaskCreateWithCallbacks : 472 -> 460
+~ _FigCachedFileByteStreamReadAndCreateBlockBuffer : 960 -> 452
+~ _FigReadCacheCopyContainer : 276 -> 288
+~ _FigReadCacheContainerShowInterestInCaching : 592 -> 92
+~ _FigReadCacheContainerShowDisinterestInCaching : 592 -> 88
+~ _IssueCacheMissRequest : 460 -> 152
+~ _FRCContainerFinalize : 720 -> 136
+~ _CreateAndLoadNewContainerInCacheAndReturnContainer : 1196 -> 424
+~ _FreeEntriesInGroup : 956 -> 288
+~ _DeleteCacheContainer : 440 -> 104
+~ _RecycleCacheEntry : 420 -> 92
+~ _ScanForAbandonedEntries : 544 -> 196
+~ _ps_xmlNodeCopyContentAsCFString : 180 -> 204
+~ _FigCEA608CaptionDecoderCreate : 904 -> 784
+~ __ZL28FigCEA608DecoderCopyPropertyP18OpaqueCMBaseObjectPK10__CFStringPK13__CFAllocatorPv : 228 -> 204
+~ __ZL20FigCEA608ResetAtTimeP23OpaqueFigCaptionDecoder6CMTime : 604 -> 284
+~ _fdcr_ReadRepositoryPlist : 2304 -> 540
+~ _FigDiskCacheRepositoryDelete : 1120 -> 292
+~ _FigDiskCacheRepositoryReserveBacking : 2376 -> 544
+~ _FigDiskCacheRepositoryGetFileSize : 584 -> 212
+~ _fdcr_Finalize : 452 -> 160
+~ _fdcr_DeleteResource : 808 -> 256
+~ _fdcr_GetDirectoryStats : 1316 -> 420
+~ _fdcr_RemoveFromCacheFileSizeList : 740 -> 160
+~ _fdcr_CleanCacheFileList : 652 -> 276
+~ _FigCPEProtectorServerStart : 288 -> 172
+~ _videoReceiver_activateReceiverConfiguration : 304 -> 276
+~ _videoReceiver_copyTaggedBufferGroupAndResourcesForTime : 148 -> 104
+~ _videoReceiver_copyTaggedBufferGroupAndResourcesAndSamplingEventIdentifierForTime : 144 -> 100
+~ _vr_createModifiedDataChannelTagCollectionWithDefaultTags : 444 -> 448
+~ ___videoReceiver_setImageQueueMessage_block_invoke : 212 -> 148
+~ ___videoReceiver_AddImageQueueReceiverToConfiguration_block_invoke : 296 -> 232
+~ _OUTLINED_FUNCTION_1 : 76 -> 56
+~ _FigSampleBufferProcessorCreateForMonochrome : 200 -> 180
+~ _FigVirtualFramebufferGetRemoteFramebufs : 244 -> 184
+~ _vfbremote_hotplugSourceCancel : 360 -> 80
+~ _vfbremote_hotplugSourcePerform : 436 -> 168
+~ _vfbremote_vsyncSourceSchedule : 356 -> 76
+~ _vfbremote_vsyncSourceCancel : 360 -> 80
+~ _vfbremote_vsyncSourcePerform : 372 -> 156
+~ _vfbremote_hdcpSourceSchedule : 356 -> 76
+~ _vfbremote_hdcpSourceCancel : 364 -> 84
+~ _vfbremote_hdcpSourcePerform : 408 -> 140
+~ _vfbremote_handleError : 520 -> 132
+~ _vfbremote_swapWaitWithTimeout : 376 -> 8
+~ _vfbremote_swapWaitSurfaceTimeout : 376 -> 8
+~ _vfbremote_enableVSyncNotifications : 668 -> 192
+~ _vfbremote_disableVSyncNotifications : 436 -> 156
+~ _vfbremote_enableHotPlugDetectNotifications : 668 -> 192
+~ _vfbremote_disableHotPlugDetectNotifications : 436 -> 156
+~ _vfbremote_handleDeadConnection : 416 -> 128
+~ _fs_CopyRepositoryByParent : 356 -> 296
+~ -[FigSubtitleBackdropCALayerContentLayer init] : 180 -> 120
+~ -[FigSubtitleBackdropCALayer init] : 652 -> 240
+~ ___49-[FigSubtitleBackdropCALayer updateBackdropLayer]_block_invoke_2 : 500 -> 156
+~ -[FigSubtitleBackdropCALayer addAnimation:forKey:] : 588 -> 296
+~ -[FigSubtitleWebVTTRegionCALayer setViewport:] : 460 -> 108
+~ -[FigSubtitleWebVTTRegionCALayer layoutSublayers] : 1220 -> 452
+~ _FigMediaSelectionGroupsMatchToMediaSelectionArray : 284 -> 244
+~ _FigAlternateFilterTreeCopyLeaves : 60 -> 88
+~ _bpr_logBandwidth : 728 -> 500
+~ _neroidServer_handleRemoteMessage : 2576 -> 512
+~ _bapspPassthrough_copyProperty : 632 -> 280
+~ _bapspPassthrough_setProperty : 632 -> 524
+~ _bapspPassthrough_assembleAudioChain : 504 -> 176
+~ ___bapspPassthrough_postNotification_block_invoke : 436 -> 100
+~ ___FigPlayerCentralCreateWithOptions_block_invoke : 328 -> 56
+~ __ZL48playercentral_preferredVolumeChangedNotificationP26opaqueCMNotificationCenterPKvPK10__CFStringS2_S2_ : 548 -> 204
+~ __ZL67playercentral_activeNeroVisualStreamInfoChangedNotificationCallbackP26opaqueCMNotificationCenterPKvPK10__CFStringS2_S2_ : 744 -> 168
+~ __ZL50playercentral_updateAndSetAudioSessionPlayingStateP15OpaqueFigPlayerh : 624 -> 236
+~ __ZL45playercentral_mutePriorityChangedNotificationP26opaqueCMNotificationCenterPKvPK10__CFStringS2_S2_ : 648 -> 256
+~ __ZL38fpc_createSendToNeroSettingsDictionaryPK13__CFAllocatorhP19opaqueNeroTransportPPK14__CFDictionary : 268 -> 224
+~ __ZL21playercentral_GetRateP15OpaqueFigPlayerPf : 884 -> 248
+~ __ZL26playercentral_StartPrerollP15OpaqueFigPlayerfi : 912 -> 272
+~ __ZL25playercentral_StepByCountP15OpaqueFigPlayeri : 896 -> 248
+~ __ZL41playercentral_CreatePlaybackItemFromAssetP15OpaqueFigPlayerPK14OpaqueFigAssetjPK14__CFDictionaryPP21OpaqueFigPlaybackItem : 1844 -> 540
+~ __ZL42playercentral_ReevaluateRouteConfigurationP15OpaqueFigPlayerPK14__CFDictionary : 724 -> 180
+~ __ZL36playercentral_AddExternalStartupTaskP15OpaqueFigPlayerP26OpaqueFigPlayerStartupTask : 288 -> 232
+~ __ZL39playercentral_RemoveExternalStartupTaskP15OpaqueFigPlayerP26OpaqueFigPlayerStartupTask : 288 -> 232
+~ __ZL40playercentral_CopyDisplayedCVPixelBufferP15OpaqueFigPlayerPK14__CFDictionaryPP10__CVBuffer : 296 -> 256
+~ __ZL22itemcentral_InvalidateP18OpaqueCMBaseObject : 1272 -> 456
+~ __ZL24itemcentral_CopyPropertyP18OpaqueCMBaseObjectPK10__CFStringPK13__CFAllocatorPv : 796 -> 304
+~ __ZL29itemcentral_handleSetPropertyP21OpaqueFigPlaybackItemPvPK10__CFStringPKvPhPS4_PS6_ : 716 -> 192
+~ __ZL23itemcentral_GetDurationP21OpaqueFigPlaybackItemP6CMTime : 744 -> 252
+~ __ZL26itemcentral_SetCurrentTimeP21OpaqueFigPlaybackItem6CMTimej : 784 -> 260
+~ __ZL26itemcentral_GetCurrentTimeP21OpaqueFigPlaybackItemP6CMTime : 744 -> 252
+~ __ZL29itemcentral_CopyTrackPropertyP21OpaqueFigPlaybackItemiPK10__CFStringPK13__CFAllocatorPv : 804 -> 308
+~ __ZL30itemcentral_CopyCommonMetadataP21OpaqueFigPlaybackItemPK9__CFArrayPK13__CFAllocatorPPK14__CFDictionary : 760 -> 280
+~ __ZL32itemcentral_CopyChapterImageDataP21OpaqueFigPlaybackItemlPPK8__CFDataPPK25opaqueCMFormatDescription : 760 -> 280
+~ __ZL32itemcentral_GetNextThumbnailTimeP21OpaqueFigPlaybackItem6CMTimejPS1_ : 792 -> 276
+~ __ZL28itemcentral_SetTrackPropertyP21OpaqueFigPlaybackItemiPK10__CFStringPKv : 760 -> 280
+~ __ZL28itemcentral_CopyFormatReaderP21OpaqueFigPlaybackItemPP21OpaqueFigFormatReader : 744 -> 252
+~ __ZL21itemcentral_CopyAssetP21OpaqueFigPlaybackItemPPK14OpaqueFigAsset : 744 -> 252
+~ __ZL44itemcentral_ExtractAndRetainNextSampleBufferP21OpaqueFigPlaybackItemiiPP20opaqueCMSampleBuffer : 760 -> 280
+~ __ZL37itemcentral_SetCurrentTimeWithOptionsP21OpaqueFigPlaybackItem6CMTimePK14__CFDictionary : 784 -> 260
+~ __ZL31playercentral_BeginInterruptionP15OpaqueFigPlayer : 904 -> 268
+~ __ZL29playercentral_EndInterruptionP15OpaqueFigPlayerPK10__CFString : 912 -> 276
+~ __ZL33playercentral_SetConnectionActiveP15OpaqueFigPlayerh : 1268 -> 460
+~ __ZL24playercentral_DuckVolumeP15OpaqueFigPlayerhff : 820 -> 236
+~ __ZL24playercentral_SilentMuteP15OpaqueFigPlayerh : 772 -> 208
+~ _FigTTMLCaptionGroupConverterFromSampleBufferCreate : 312 -> 256
+~ _FigVideoTargetStartServer : 248 -> 192
+~ _fsr_SandboxRegisterDirectoryURLStringAndRetainSandboxRegistrationForever : 516 -> 152
+~ _remoteXPCPlayerClient_DeadConnectionCallback : 408 -> 92
+~ _remoteXPCPlayerClient_ObjectPurgedCallback : 764 -> 256
+~ _fpr_deferPostNotificationToNotificationQueue : 448 -> 424
+~ _remoteXPCPlayer_clearVideoLayer : 504 -> 196
+~ _remoteXPCPlayer_updateAirPlayVideoHostLayer : 1324 -> 724
+~ _remoteXPCPlayer_cancelAndClearNextItemTransitionTimer : 132 -> 120
+~ ___remoteXPCPlaybackItem_NotificationFilter_block_invoke_3 : 1284 -> 124
+~ ___remoteXPCPlayer_cancelAndClearNextItemTransitionTimer_block_invoke : 888 -> 88
+~ _remoteXPCPlayer_GetRate : 396 -> 84
+~ _remoteXPCItem_reportAttemptToWriteToReadOnlyTimebase : 332 -> 4
+~ _remoteXPCItem_Invalidate : 1388 -> 484
+~ _remoteXPCItem_SetProperty : 628 -> 288
+~ _remoteXPCItem_GetCurrentTime : 868 -> 132
+~ _OUTLINED_FUNCTION_59 : 24 -> 20
+~ _FigStreamPlaylistParserStartServer : 248 -> 192
+~ ___FigStreamPlaylistParserStartServer_block_invoke : 544 -> 228
+~ _remoteXPCMutableMovie_CreateByteStreamForURLAndSetObjectIDToXPCMessage : 412 -> 124
+~ ___remoteXPCMutableMovieClient_EnsureClientEstablished_block_invoke : 228 -> 172
+~ _FigManifoldCreateForGap : 604 -> 564
+~ __ZL13fgSetPropertyP18OpaqueCMBaseObjectPK10__CFStringPKv : 120 -> 136
+~ _sccCursor_CopyProperty : 540 -> 252
+~ -[FigDisplayMirroringChangeObserver init] : 256 -> 200
+~ -[FigDisplayMirroringChangeObserver removeObserversOnCADisplays] : 412 -> 116
+~ -[FigDisplayMirroringChangeObserver dealloc] : 380 -> 108
+~ -[FigDisplayMirroringChangeObserver observeValueForKeyPath:ofObject:change:context:] : 612 -> 252
+~ -[FigDisplayMirroringChangeObserver setBaseDisplayList:] : 460 -> 156
+~ -[FigDisplayMirroringChangeObserver updatePlayerDisplayList] : 716 -> 480
+~ -[FigDisplayMirroringChangeObserver removeReferenceToPlayer] : 436 -> 152
+~ -[FigDisplayMirroringChangeObserver removeCallback] : 436 -> 152
+~ _figAudioUnitRenderPipelineCopyProperty : 644 -> 576
+~ _figAudioUnitRenderPipelineSetProperty : 312 -> 220
+~ _figAudioUnitRenderPipelineSetRateAndAnchorTime : 844 -> 492
+~ _faurpTransferThread : 444 -> 152
+~ -[FigCDSCALayer init] : 648 -> 228
+~ -[FigCDSCALayer drawInContext:] : 732 -> 180
+~ _setBounds : 660 -> 292
+~ _PostProcessPurchasedItem : 240 -> 232
+~ _CompareMD5 : 272 -> 148
+~ _OUTLINED_FUNCTION_43 : 32 -> 12
+~ _FigSampleBufferConsumerCreateForBufferQueue2 : 552 -> 428
+~ _sbcbq_setAttachmentIfSampleBufferInPTSRange : 208 -> 180
+~ _FigMetricHLSPlaylistRequestEventCreate : 924 -> 588
+~ ___raci_ensureClientEstablished_block_invoke : 512 -> 208
+~ _OUTLINED_FUNCTION_0 : 44 -> 52
+~ -[FigCDSCALayerOutputNodeContentLayer init] : 180 -> 120
+~ -[FigCDSCALayerOutputNodeLayer init] : 740 -> 236
+~ _FigSampleBufferConsumerCreateThatDiscards : 204 -> 184
+~ _remakerFamily_postDarwinNotificationWithState : 460 -> 160
+~ _remakerFamily_SetRemakerState : 748 -> 416
+~ _remakerFamily_removeTrackNotifications : 668 -> 444
+~ _remakerFamily_createChannel : 568 -> 580
+~ _remakerFamily_startAllSinglePassTracks : 608 -> 296
+~ _remakerFamily_MarkEndOfDataForTrack : 724 -> 452
+~ _remakerFamily_copyFormatDescription : 744 -> 312
+~ _remakerFamily_setupMultiPassTrackIfNecessary : 736 -> 444
+~ _remakerFamily_getSourceASBDForTrackID : 568 -> 508
+~ _remakerfamily_updateThrottleForBackground : 864 -> 336
+~ _remakerFamily_createVideoPixelTransferProperties : 432 -> 448
+~ _remakerFamily_resetTrackMultiPassTimeRanges : 996 -> 260
+~ _remakerFamily_CopyFormatWriterTrackProperty : 588 -> 312
+~ _OUTLINED_FUNCTION_14 : 44 -> 64
+~ _OUTLINED_FUNCTION_0 : 20 -> 36
+~ _FigMetadataReaderCreateForiTunesMetadataArray : 236 -> 180
+~ _FigiTunesMetadataGetKeyCount : 480 -> 484
+~ _ArrayiTunesDataHasKey : 668 -> 532
+~ _ArrayiTunesDataGetKeyCount : 352 -> 264
+~ ___FigHapticQueueCreate_block_invoke : 560 -> 80
+~ _FigHapticQueueSetTimebase : 436 -> 120
+~ _FigHapticQueueSetActiveChannelIndex : 708 -> 476
+~ _FigHapticQueueStart : 696 -> 464
+~ _FigHapticQueueStop : 696 -> 464
+~ _FigHapticQueueEnqueueSamples : 420 -> 116
+~ _FigMetadataReaderCreateForQuickTimeMetadataArray : 236 -> 180
+~ _metadataCreateNativeKeySpaceAndKeys : 640 -> 668
+~ _ArrayQTMetadataHasKey : 288 -> 292
+~ _sadc_markAssetForInteractivityDispatch : 572 -> 292
+~ _sadc_unmarkAssetForInteractivityDispatch : 464 -> 184
+~ _sads_requestImmediateAccessToURLAndCopyScheduledAccessToken : 432 -> 136
+~ _sadc_globalDownloadCoordinatorInitOnce : 452 -> 336
+~ _sads_downloadSchedulerCreateInitOnce : 396 -> 296
+~ _sads_scheduleAccessToURLDispatchGuts : 744 -> 448
+~ _sads_performDispatchScheduledCallbackFn : 452 -> 104
+~ _FigFormatReaderXPCRemoteRetainCopiedPlaybackProcessFormatReader : 1328 -> 584
+~ ___remoteFormatReaderClient_EnsureClientEstablishedAndCopyRemoteClient_block_invoke : 1228 -> 532
+~ _remoteFormatReader_CopyTrackByID : 1120 -> 588
+~ _remoteFormatReader_CopyTrackByType : 1776 -> 648
+~ _remoteEditCursor_Copy : 608 -> 308
+~ _remoteSampleCursor_Copy : 912 -> 556
+~ ___remoteSampleCursor_alwaysEnsureIndependentSubscription_block_invoke : 432 -> 76
+~ ___remoteSampleCursor_usePartialSampleTable_block_invoke : 432 -> 76
+~ ___remoteSampleCursor_useSampleTableBroker_block_invoke : 432 -> 76
+~ _FigMetadataReaderCreateForUserDataBlockBuffer : 304 -> 252
+~ _FigMetadataReaderCreateForUserDataArray : 252 -> 196
+~ _UserDataCopyKeysInfoCommon : 748 -> 560
+~ _ArrayUserDataHasKey : 212 -> 216
+~ _FAIGCommon_handleBufferConsumedNotification : 608 -> 96
+~ _FAIGCommon_getOutputImagePropertiesForImageRetrieval : 848 -> 600
+~ _activityOnRunLoop_setProcessingCallback : 180 -> 148
+~ _activityOnRunLoop_triggerScheduling : 152 -> 104
+~ _playeroverlap_dispatchAsyncPostNotification : 852 -> 144
+~ _playeroverlap_rescheduleAdvanceTimerAndAnchorTime : 224 -> 252
+~ _playeroverlap_CopyProperty : 1076 -> 588
+~ _playeroverlap_SetProperty : 588 -> 600
+~ _itemoverlap_invalidateDispatchSync : 620 -> 204
+~ _playeroverlap_SetRateInPlayerQueue : 528 -> 540
+~ _playeroverlap_copyPerformanceHistoryArray : 560 -> 540
+~ _playeroverlap_copyPropertyFromActiveSubPlayerInPlayerQueue : 640 -> 652
+~ _playeroverlap_handleSetProperty : 1368 -> 640
+~ _playeroverlap_AddToPlayQueue : 556 -> 188
+~ _playeroverlap_RemoveFromPlayQueue : 552 -> 184
+~ _playeroverlap_CopyPlayQueueItem : 556 -> 188
+~ _playeroverlap_SetRate : 556 -> 188
+~ _playeroverlap_GetRate : 552 -> 184
+~ _playeroverlap_SetRateWithFade : 584 -> 220
+~ _playeroverlap_StartPreroll : 572 -> 208
+~ _playeroverlap_StepByCount : 552 -> 184
+~ _playeroverlap_SetRateAndAnchorTime : 612 -> 260
+~ _playeroverlap_SetRateWithOptions : 568 -> 204
+~ _playeroverlap_SetProperties : 232 -> 180
+~ _playeroverlap_AddExternalStartupTask : 552 -> 184
+~ _playeroverlap_RemoveExternalStartupTask : 552 -> 184
+~ _playeroverlap_CopyDisplayedCVPixelBuffer : 556 -> 188
+~ _playeroverlap_CopyPlayQueueItem_fun : 720 -> 260
+~ _playeroverlap_SetRateWithFade_fun : 608 -> 556
+~ _playeroverlap_StartPreroll_fun : 312 -> 252
+~ _playeroverlap_StepByCount_fun : 296 -> 236
+~ _itemoverlap_Invalidate : 568 -> 552
+~ _itemoverlap_CopyProperty : 1696 -> 552
+~ _itemoverlap_SetProperty : 588 -> 600
+~ _playeroverlap_copyAdvanceTimeForOverlappedPlayback_fun : 252 -> 192
+~ _playeroverlap_copyOverlappedPlaybackEndTime_fun : 252 -> 192
+~ _itemoverlap_handleSetProperty : 1308 -> 508
+~ _itemoverlap_GetDimensions : 620 -> 632
+~ _itemoverlap_SetCurrentTime : 656 -> 244
+~ _itemoverlap_GetCurrentTime : 636 -> 212
+~ _itemoverlap_CopyTrackProperty : 636 -> 648
+~ _itemoverlap_MakeReadyForInspection : 620 -> 632
+~ _itemoverlap_CopyCommonMetadata : 628 -> 640
+~ _itemoverlap_CopyChapterImageData : 628 -> 640
+~ _itemoverlap_SetCurrentTimeWithRange : 708 -> 300
+~ _itemoverlap_SetTrackProperty : 628 -> 640
+~ _itemoverlap_SeekToDateWithID : 640 -> 228
+~ _itemoverlap_SetCurrentTimeWithRangeAndID : 732 -> 308
+~ _itemoverlap_SetProperties : 232 -> 180
+~ _itemoverlap_ExtractAndRetainNextSampleBuffer : 332 -> 280
+~ _itemoverlap_SetCurrentTimeWithOptions : 656 -> 244
+~ _itemoverlap_SetCurrentTime_fun : 608 -> 560
+~ _itemoverlap_SeekToDateWithID_fun : 568 -> 520
+~ _itemoverlap_SetCurrentTimeWithRangeAndID_fun : 788 -> 732
+~ _itemoverlap_SetCurrentTimeWithOptions_fun : 648 -> 180
+~ _playeroverlap_SetRateWithOptions_fun : 608 -> 156
+~ _playeroverlap_AddExternalStartupTask_fun : 292 -> 232
+~ _playeroverlap_RemoveExternalStartupTask_fun : 292 -> 232
+~ _playeroverlap_CopyDisplayedCVPixelBuffer_fun : 308 -> 240
+~ _OUTLINED_FUNCTION_0 : 28 -> 56
+~ _OUTLINED_FUNCTION_18 : 24 -> 36
+~ _activityOnThread_copyProperty : 232 -> 192
+~ _activityOnThread_setProperty : 728 -> 640
+~ _frm_resetInternalState : 436 -> 164
+~ _FigRateMinderCreate : 960 -> 640
+~ _frm_processDeltaUpdate : 1784 -> 728
+~ _frm_preFilterFnMean : 220 -> 204
+~ _frm_preFilterFnMedian : 268 -> 252
+~ _frm_preFilterFnRemoveOutliersLocal : 580 -> 564
+~ _FigMediaAccessibilityCaptionsDisplayType : 392 -> 8
+~ _FigMediaAccessibilityCopyPreferredLegibleCharacteristics : 392 -> 8
+~ _FigMediaAccessibilityCopyPreferredAudibleCharacteristics : 388 -> 4
+~ _FigMediaAccessibilityCopyPreferredLanguages : 392 -> 8
+~ __initFigMediaAccessibiltySupport : 816 -> 148
+~ __deferredMediaAccessibilityDidChangeNotificationCallback : 544 -> 96
+~ -[FigSubtitleCALayer init] : 1000 -> 536
+~ -[FigSubtitleCALayer initWithLayer:] : 252 -> 196
+~ ___45-[FigSubtitleCALayer layoutSublayersOfLayer:]_block_invoke : 788 -> 220
+~ -[FigSubtitleCALayer drawLayer:inContext:] : 804 -> 520
+~ ___49-[FigSubtitleCALayer _addBoundsAnimation:forKey:]_block_invoke : 596 -> 184
+~ ___51-[FigSubtitleCALayer _addPositionAnimation:forKey:]_block_invoke : 608 -> 196
+~ -[FigSubtitleCALayer setCaptionRenderingStrategy:] : 864 -> 228
+~ -[FigSubtitleCALayer setVideosize:] : 436 -> 180
+~ -[FigSubtitleCALayer setSubtitleGravityNonObscuring:] : 404 -> 136
+~ -[FigSubtitleCALayer updateNonForcedSubtitleDisplayEnabled:] : 420 -> 120
+~ -[FigSubtitleCALayer setVideoRelativeToViewport:] : 480 -> 212
+~ -[FigSubtitleCALayer setCaptionsAvoidanceMargins:] : 500 -> 160
+~ -[FigSubtitleCALayer addAnimations:forKey:] : 592 -> 344
+~ -[FigSubtitleCALayer removeAnimationsForKey:] : 580 -> 304
+~ _setHiddenFCR : 448 -> 120
+~ _updateSubtitleDo : 428 -> 140
+~ ___getLayoutForAnimation_block_invoke : 104 -> 120
+~ _getSuggestedLayout : 428 -> 100
+~ _getSuggestedLayoutDo : 1544 -> 460
+~ ___FigShareAndAirPlayHelperLocalGetShared_block_invoke : 1008 -> 512
+~ _FigMetadataSerializerCreateUserDataCommon : 284 -> 200
+~ _OUTLINED_FUNCTION_0 : 20 -> 52
+~ _FigRenderedLegibleOutputManagerSetRenderedLegibleOutputsDict : 416 -> 116
+~ _FigRenderedLegibleOutputManagerEnsureRenderPipelinesForFormat : 444 -> 156
+~ _frlo_rebuildFigRenderedLegibleOutputs_applier : 616 -> 320
+~ _frlo_renderPipelineDidFlush : 444 -> 164
+~ _FigMetadataSerializerCreateForiTunes : 264 -> 180
+~ _FigiTunesMetadataSerializerSetProperty : 672 -> 464
+~ _FigiTunesMetadataCreateActualKey : 840 -> 736
+~ _FigAssetReaderCreateWithAsset : 1524 -> 524
+~ _assetReader_EnableReencodedAudioExtractionFromTrack : 524 -> 8
+~ _assetReader_EnableReencodedAudioExtractionWithPresetFromTrack : 524 -> 8
+~ _assetReader_EnableReencodedVideoExtractionFromTrack : 524 -> 8
+~ _assetReader_StartExtractionForTimeRanges : 732 -> 464
+~ _assetReader_StartExtractionForTime : 436 -> 100
+~ _assetReaderTrack_dataBecameReady : 416 -> 120
+~ _assetReaderTrack_endOfDataReached : 436 -> 140
+~ _assetReaderTrack_outputQueueBecameEmpty : 436 -> 140
+~ _assetReaderTrack_sourceNoMoreImages : 436 -> 72
+~ _assetReaderTrack_visualContextBecameEmpty : 548 -> 140
+~ _FigMetadataSerializerCreateForQuickTimeMetadata : 264 -> 180
+~ _FigQuickTimeMetadataSerializerSetProperty : 552 -> 416
+~ _FigQuickTimeMetadataSerializerCreateBBuf : 4404 -> 4444
+~ _piqca_WakeupSharedPollingThread : 384 -> 76
+~ _piqca_initSharedPollingThread : 508 -> 272
+~ _piqca_SharedPollingThread : 668 -> 228
+~ _piqca_SharedDoMonitorImageQueueApplier : 844 -> 308
+~ _piqca_evictExpiredFramesFromCAImageQueue : 1404 -> 412
+~ _piqca_setEnhancementMode : 872 -> 220
+~ _piqca_postRendererPreparationCompletedIfPreviouslyRequestedAndRecordNewRequest : 552 -> 280
+~ _piqca_flushFramesFollowingCurrentFrame : 1896 -> 460
+~ _piqca_updateEDRDeadline : 580 -> 136
+~ _piqca_DeregisterPixelBufferBackingThatWillBeDeleted : 1372 -> 248
+~ ___fstc_installUpdateHandlerWithMutex_block_invoke : 384 -> 108
+~ _FigFairplayPSSHAtomParserStartServer : 248 -> 192
+~ _FigVideoTargetCreateRemoteWithVideoReceiverEndpointID : 724 -> 444
+~ ___remoteXPCVideoTargetClient_EnsureClientEstablished_block_invoke : 816 -> 244
+~ _remoteXPCVideoTargetClient_DeadConnectionCallback : 384 -> 68
+~ _piqcv_setProperty : 1176 -> 564
+~ _piqcv_setOutputVisualContext : 1512 -> 324
+~ _piqcv_flush : 524 -> 236
+~ _piqcv_setDirection : 708 -> 168
+~ _piqcv_setUpcomingImageInfo : 1736 -> 736
+~ _piqIsNewImageAvailable : 796 -> 428
+~ _piqReportImageAvailableSequential : 708 -> 280
+~ _setNegativeCompositionOffsetsInISOFilePolicy : 280 -> 228
+~ _getTrackInfoForTrackID : 228 -> 196
+~ _OUTLINED_FUNCTION_0 : 28 -> 12
+~ _sbp_bq_UpcomingOutputPTSRangeChanged : 844 -> 272
+~ _FigClusterSynchronizationManager_OneTimeInitialization : 532 -> 268
+~ _figClusterSynchManager_registerServiceCallBack : 768 -> 96
+~ __FigClusterSynchronizationManagerBonjourQueryFinalize : 1080 -> 104
+~ _figClusterSynchManager_srvInfoCallBack : 2096 -> 596
+~ _figClusterSynchManager_DeferredInitOnce : 808 -> 488
+~ _FigSCCFormatWriterCreateWithByteStream : 372 -> 336
+~ _sccFormatWriter_CopyProperty : 284 -> 252
+~ _sccFormatWriter_CopyTrackProperty : 300 -> 276
+~ _sccFormatWriter_SetTrackProperty : 284 -> 260
+~ _OUTLINED_FUNCTION_3 : 44 -> 8
+~ _zoneAllocator_Release : 284 -> 4
+~ _FigMPEG2ParserSetBaseTimestamp : 228 -> 172
+~ _FigMPEG2ParserSetDecryptor : 284 -> 128
+~ _FigMPEG2ParserInjectData : 620 -> 344
+~ _FigMPEG2ParserAddTransportStreamTrack : 436 -> 204
+~ _FigMPEG2ParserIssueCommands : 428 -> 288
+~ _FigMPEG2ParserSniff : 264 -> 212
+~ _FigMPEG2ParserGetFrameRateForVideoTrack : 540 -> 200
+~ _FigMPEG2ParserGetTimeCodeValueForVideoTrack : 520 -> 180
+~ _fbaprp_setTimebaseGuts : 556 -> 236
+~ _fbaprp_notificationsFromSubPipeManager : 632 -> 316
+~ _fbaprp_cleanFreedSampleBufferConsumers : 496 -> 120
+~ _FigBufferedAirPlayAudioRenderPipelineDoesSupportTransitionToFormatDescription : 380 -> 8
+~ _fbaprp_copySbufBeforeTransitionIDForBufferQueueResetCallback : 708 -> 112
+~ _fbaprp_baoBufferingPriorityChanged : 1340 -> 484
+~ _PesAddMemoryToFrameMemory : 908 -> 592
+~ _OUTLINED_FUNCTION_15 : 44 -> 72
+~ _sbcsbc_applyPendingPropertiesDictionaryApplier : 484 -> 200
+~ _sbcsbc_applyPendingDeliveryArrayApplier : 920 -> 432
+~ _sbcsbc_SendSampleBuffer : 1068 -> 340
+~ _sbcsbc_IsQueueAtOrAboveHighWater : 588 -> 248
+~ _sbcsbc_IsQueueBelowLowWater : 580 -> 240
+~ _sbcsbc_InstallLowWaterTrigger : 872 -> 276
+~ _sbcsbc_RemoveLowWaterTrigger : 840 -> 240
+~ _sbcsbc_GetPendingSampleBufferCount : 528 -> 184
+~ _sbcsbc_Flush : 512 -> 180
+~ _dwpm_registerAlternateAndMediaSelectionsDispatch : 636 -> 252
+~ _figVTTSpan_SetProperty : 364 -> 344
+~ _favd_SetProperty : 756 -> 452
+~ _favd_IsAnyOutputReadyToRender : 424 -> 96
+~ _favddq_CopyProperty : 848 -> 540
+~ _favddq_SetProperty : 552 -> 244
+~ ___FigCaptionGroupConverterFromSampleBufferStartServer_block_invoke : 500 -> 128
+~ _FigWebVTTCaptionGroupConverterFromSampleBufferCreate : 280 -> 224
+~ _fvdsrcconduit_submitFrame : 536 -> 192
+~ _scheduleEventDo : 592 -> 276
+~ _cdsTrigger_timebaseRateChanged : 400 -> 140
+~ _onTimerTimeoutDo : 1412 -> 432
+~ _HLSPersistentStreamInfo_Invalidate : 368 -> 76
+~ _HLSPersistentStreamInfo_CopyMediaSegment : 440 -> 128
+~ _HLSPersistentStreamInfo_CopyMediaInitializationSegment : 440 -> 128
+~ _H264CalculateFrameRate : 620 -> 304
+~ _FigImageQueueTableCreate : 308 -> 248
+~ _figImageQueueTable_setTimebaseApply : 492 -> 220
+~ _MovieSampleGroupGetEntry : 280 -> 220
+~ _MovieSampleGroupGetPatternEntry : 260 -> 200
+~ _MovieSampleGroupGetSampleToGroupTable : 132 -> 76
+~ _MovieSampleGroupGetNumSampleToGroupTableEntries : 132 -> 76
+~ _MovieSampleGroupAccessorCopyDescriptionForSample : 192 -> 196
+~ ___fssa_ensureArchivistSingletonContext_block_invoke : 104 -> 96
+~ _fssa_fbo_removeRecords : 716 -> 208
+~ _fssa_synchronizeInMemoryDatabaseToDisk : 728 -> 716
+~ _FigMetadataReaderCreateForBoxedMetadata : 284 -> 228
+~ _boxedreader_copyUniqueKeysWithKeySpaceFromIdentifiers : 532 -> 248
+~ _videoTarget_Finalize : 268 -> 236
+~ _videoTarget_CopyProperty : 1220 -> 476
+~ _videoTarget_SetProperty : 988 -> 172
+~ _videoTarget_createFigDataChannelResource : 544 -> 228
+~ _videoTarget_copyPreferredDataChannelGroups : 476 -> 132
+~ _videoTarget_beginTransitionToDataChannelConfigurationAtHostTime : 740 -> 96
+~ _videoTarget_beginTransitionToDataChannelConfigurationInternal : 852 -> 340
+~ _MPEG2VideoFlushFrames : 676 -> 148
+~ _PesRawProcessData : 548 -> 284
+~ _VideoFrameCheckAdjustmentQueue : 1112 -> 364
+~ _VideoFrameQueueFlush : 412 -> 80
+~ _VideoFrameAddToAdjustmentQueue : 508 -> 140
+~ _OUTLINED_FUNCTION_0 : 28 -> 36
+~ ___FigPlayerAirPlayCreateWithOptions_block_invoke : 348 -> 76
+~ _playerairplay_removeAndCleanupQueuedItemsOnAirPlayController : 532 -> 228
+~ _playerairplay_cleanUpScrubLayerAndContext : 484 -> 204
+~ _playerairplay_setRateAirPlay : 2680 -> 800
+~ _playqueue_createPlayQueueSnapshot : 464 -> 160
+~ _itemairplay_doCleanupAtEndOfPlayback : 640 -> 248
+~ _itemairplay_cleanupItemForAirPlay : 636 -> 280
+~ _itemairplay_controlPlaybackActivityTimer : 1740 -> 320
+~ _playqueue_removeItemFromClientQueueAndFromMediaControlPlaylistInternal : 816 -> 576
+~ ___pap_PlaybackSessionRemovePlayQueueItem_block_invoke : 668 -> 312
+~ _playerairplay_performQueuedItemVodkaExchange : 3000 -> 756
+~ ___itemairplay_assureItemForAirPlay_block_invoke : 560 -> 140
+~ ___pap_playbackSessionGetPlaybackInfoCompletion_block_invoke : 636 -> 208
+~ _playerairplay_ignoreRemoteRateUpdate : 560 -> 124
+~ _itemairplay_setPositionCompletionHandler : 784 -> 224
+~ _playerairplay_updateAirPlayVideoIsActiveProperty : 1120 -> 252
+~ ___playerairplay_performQueuedItemVodkaExchange_block_invoke : 2136 -> 356
+~ _itemairplay_setUpPlayParamDictionary : 15104 -> 9160
+~ ___pap_playbackSessionPlayCompletion_block_invoke : 380 -> 108
+~ _playerairplay_setActionAtEndOnAirPlayController : 704 -> 76
+~ _playerairplay_applyCachedPropertiesOnBaoAndPlaybackSession : 472 -> 124
+~ ___pap_PlaybackSessionPerformRemoteAction_block_invoke : 580 -> 260
+~ ___pap_playbackSessionRequestForStreamingKeyCompletion_block_invoke : 504 -> 244
+~ _pap_playbackSessionGetTimedMetadataCompletion : 172 -> 164
+~ ___playerairplay_performAirPlayVodkaExchange_block_invoke : 1672 -> 604
+~ _playerairplay_notifyIfIsAirPlayVideoActiveChanged : 612 -> 616
+~ _pap_isDeviceUnlocked : 632 -> 76
+~ _playerairplay_postIsBufferedAirPlayActiveDidChangeNotification : 236 -> 108
+~ _playerairplay_forwardStartupTasksToSubPlayerApply : 552 -> 168
+~ _itemairplay_releaseCPEProtector : 564 -> 224
+~ _itemairplay_copySelectedMediaArray : 1456 -> 628
+~ _pap_playbackSessionGetProxiedPropertyCompletion : 484 -> 192
+~ ___pap_playbackSessionGetProxiedPropertyCompletion_block_invoke : 680 -> 144
+~ _playerairplay_removeStartupTasksFromSubPlayerApply : 552 -> 168
+~ _itemairplay_resetTimeToPausePlayback : 812 -> 340
+~ _playerairplay_GetRate : 1304 -> 312
+~ _playerairplay_SetRateWithFade : 932 -> 276
+~ _playerairplay_StartPreroll : 1284 -> 316
+~ _playerairplay_StepByCount : 1268 -> 292
+~ _playerairplay_SetRateAndAnchorTime : 848 -> 84
+~ _playerairplay_SetRateWithOptions : 772 -> 124
+~ _playerairplay_ReevaluateRouteConfiguration : 1432 -> 428
+~ _playerairplay_AddExternalStartupTask : 772 -> 428
+~ _playerairplay_RemoveExternalStartupTask : 1016 -> 412
+~ _playerairplay_CopyDisplayedCVPixelBuffer : 640 -> 296
+~ _playerairplay_addItemToLocalPlayQueue : 1632 -> 796
+~ ___playerairplay_addItemToLocalPlayQueue_block_invoke : 932 -> 584
+~ _playerairplay_removeItemFromSubPlayerPlayQueue : 736 -> 304
+~ _pap_EmulateTimeToPausePlaybackTimerProc : 440 -> 132
+~ _itemairplay_GetDimensions : 884 -> 272
+~ _itemairplay_SetCurrentTime : 1076 -> 432
+~ _itemairplay_MakeReadyForInspection : 552 -> 224
+~ _itemairplay_CopyCommonMetadata : 896 -> 288
+~ _itemairplay_CopyChapterImageData : 896 -> 288
+~ _itemairplay_GetNextThumbnailTime : 928 -> 320
+~ _itemairplay_CopyFormatReader : 960 -> 316
+~ _itemairplay_CopyAsset : 864 -> 216
+~ _itemairplay_ExtractAndRetainNextSampleBuffer : 1376 -> 404
+~ ___playerairplay_setBAOConnectionActiveIfNeeded_block_invoke : 584 -> 272
+~ ___itemairplay_assetPropertyLoaded_block_invoke : 1392 -> 360
+~ ___itemairplay_assetPropertyFailedToLoad_block_invoke : 132 -> 136
+~ _playerairplay_SetConnectionActive : 1732 -> 640
+~ _playerairplay_DuckVolume : 636 -> 276
+~ _playerairplay_SilentMute : 624 -> 248
+~ ___playerairplay_initializeCallbacks_block_invoke_3 : 304 -> 4
+~ ___playerairplay_initializeCallbacks_block_invoke_4 : 596 -> 4
+~ ___playerairplay_playbackWillBeInterruptedNotificationCallback_block_invoke : 480 -> 84
+~ ___playerairplay_initializeVolumeFadeOutNotification_block_invoke : 840 -> 156
+~ _OUTLINED_FUNCTION_0 : 68 -> 36
+~ _OUTLINED_FUNCTION_1 : 60 -> 16
+~ _OUTLINED_FUNCTION_3 : 40 -> 16
+~ _itemcoordinator_handleSetProperty : 516 -> 432
+~ _mrdowc_finalize : 464 -> 168
+~ _mrdowc_start : 660 -> 360
+~ _mrdowc_didProduceDataOutput : 908 -> 608
+~ _mrdowc_didFail : 472 -> 192
+~ _sad_copyLoadedTimeRanges : 312 -> 316
+~ _sad_setPropertyDispatch : 1000 -> 664
+~ _sad_stopDispatch : 448 -> 184
+~ _sad_loadMetadataDispatch : 416 -> 136
+~ _FigCSSQualifiedRuleParserNodeCopySimpleBlock : 280 -> 268
+~ _FigCSSComponentValueParserNodeCopyFunctionNode : 376 -> 364
+~ _FigCSSComponentValueParserNodeCopySimpleBlock : 376 -> 364
+~ _FigCSSParserNodeMapNodeTypeToName : 144 -> 92
+~ ___frbs_EnsureClientEstablished_block_invoke : 420 -> 92
+~ _remoteByteStream_Finalize : 568 -> 252
+~ _OUTLINED_FUNCTION_5 : 40 -> 84
+~ _famvr_getBestSupportedVideoRangeFromDisplayList : 344 -> 292
+~ _FigAlternateFilterMonitorCreateForRenditionDenyList : 572 -> 312
+~ _famfon_setProperty : 652 -> 304
+~ _famrbl_setProperty : 688 -> 284
+~ _cdsSessionSetCALayerDeviceDo : 544 -> 568
+~ _SetProfileDo : 1080 -> 568
+~ _updateDisplayPort : 860 -> 192
+~ _cdsSessionStartDo : 220 -> 244
+~ _cdsSessionStopDo : 228 -> 248
+~ _cdsSessionSetTimeRangeDo : 260 -> 288
+~ _cdsSessionUpdateOutputDo : 192 -> 220
+~ _onDisplayUpdateEvent : 436 -> 140
+~ _onMAChanged : 648 -> 184
+~ _FigCDSSession_Finalize : 864 -> 576
+~ _timebaseChangedCallbackDo : 784 -> 252
+~ _playbackItemChangedCallbackDo : 984 -> 248
+~ _asyncPreflightRender : 968 -> 436
+~ _purgeCaptionCachesFromCaptionsTimeline : 1184 -> 428
+~ _purgeCaptionBitmapCaches : 896 -> 576
+~ _drawInContext : 768 -> 164
+~ _layoutInContext : 472 -> 180
+~ _OUTLINED_FUNCTION_0 : 28 -> 36
+~ _fmlbp_finalize : 476 -> 196
+~ ___fmlbp_setProperty_block_invoke : 1008 -> 580
+~ _FigCaptionRendererOutputNode_FigCaptionRendererOutputNodeProtocol_DumpInfo : 524 -> 240
+~ -[FigFCRCALayer init] : 736 -> 380
+~ _FigCaptionRendererCALayerOutputCreate : 792 -> 436
+~ _setBounds : 700 -> 328
+~ _ADTSPropertyListener : 1028 -> 196
+~ _PesProcessTsPak : 860 -> 300
+~ _OUTLINED_FUNCTION_2 : 40 -> 12
+~ _MPEGAudioCompareHeaders : 820 -> 300
+~ _FigSampleBufferProviderCreateForVisualContext : 272 -> 196
+~ _sbp_vc_noMoreImages : 360 -> 104
+~ _sbp_vc_checkForRequestedDropRanges : 1264 -> 480
+~ _sbp_vc_isEmpty : 240 -> 180
+~ _sbp_vc_isAtEndOfData : 236 -> 184
+~ _sbp_vc_getUpcomingPTSInfo : 152 -> 112
+~ _FigContentKeyBossStartServer : 248 -> 192
+~ ___FigContentKeyBossStartServer_block_invoke : 580 -> 264
+~ _FigContentKeyBossServerGetIDByAssociatingWithClientConnection : 456 -> 140
+~ _FigVisualContextServerStart : 312 -> 196
+~ _mediaprocessor_ResetOutput : 412 -> 152
+~ _FigMediaProcessorFlush : 520 -> 164
+~ _FigMediaProcessorReset : 480 -> 432
+~ _fcd_ttml_createRegionPropertyFromTTMLStyle_stereoDisparity : 344 -> 288
+~ _FigMediaProcessorCreateForVideoCompressionCommon : 988 -> 824
+~ _remaker_EstimateMaxSegmentDurationForFileSize : 680 -> 344
+~ _OUTLINED_FUNCTION_44 : 20 -> 16
+~ _FigURLStorageSessionCopyGlobalSession : 588 -> 80
+~ _FigURLStorageSessionCreate : 632 -> 108
+~ -[AssetPAAccessInterval dealloc] : 392 -> 108
+~ ___assetPALoggingHelper_InitOnce_block_invoke : 460 -> 140
+~ _getEdgeStyle : 604 -> 304
+~ _setupHighlight : 828 -> 592
+~ _OUTLINED_FUNCTION_8 : 16 -> 104
+~ _acquireHardware : 176 -> 132
+~ _FigSampleBufferProcessorCreateWithAudioDecompression : 552 -> 392
+~ _sbp_fad_finishPendingProcessing : 372 -> 88
+~ _acquireHardware : 176 -> 132
+~ _sbp_vtcs_copyProperty : 484 -> 384
+~ _sbp_vtcs_setProperty : 792 -> 572
+~ ___FigRTCReportingCreate_block_invoke_2 : 324 -> 4
+~ ___FigRTCReportingSetUserInfo_block_invoke : 324 -> 4
+~ _FigRenderPipelineCreateForWritingTrack : 796 -> 380
+~ _figRenderPipelineForFormatWriterInvalidate : 396 -> 92
+~ _figRenderPipelineForFormatWriterSetProperty : 148 -> 96
+~ _FigCaptionRendererParentInterval_FigCaptionRendererParentIntervalProtocol_AddChildInterval : 972 -> 472
+~ _FigMediaRequestSchedulerAddResourceToReadQueue : 448 -> 128
+~ _FigMediaRequestSchedulerCreate : 880 -> 588
+~ _mrs_resourceLoadDidProduceDataOutput : 520 -> 248
+~ _frr_CreateEmptyWrapper : 1592 -> 576
+~ _FigAssetWriterRemoteCreateWithURL : 1348 -> 704
+~ _FigAssetWriterRemoteCreateForWritingFragmentedData : 684 -> 696
+~ _remoteRemakerFamily_Invalidate : 544 -> 232
+~ _remoteRemakerFamily_Finalize : 412 -> 112
+~ _remoteRemaker_AddAudioTrack : 864 -> 484
+~ _remoteRemaker_AddVideoTrack : 896 -> 656
+~ _remoteRemakerFamily_SetFormatWriterProperty : 704 -> 304
+~ _remoteRemakerFamily_SetFormatWriterTrackProperty : 836 -> 424
+~ _remoteRemaker_StartOutput : 464 -> 140
+~ _remoteRemaker_AddAudioTrackWithPreset : 728 -> 392
+~ _remoteRemaker_AddAudioMixdownTrackWithPreset : 788 -> 456
+~ _remoteRemaker_AddVideoCompositionTrack : 1020 -> 500
+~ _remoteRemaker_CanPerformFastFrameRateConversion : 608 -> 296
+~ _frr_GetDefaultSourceTrack : 408 -> 312
+~ _remoteReader_EnableDecodedVideoExtractionFromTrack : 908 -> 608
+~ _remoteReader_EnableAudioMixdownExtraction : 848 -> 580
+~ _remoteReader_StartExtractionForTimeRange : 848 -> 448
+~ _remoteReader_ExtractAndRetainNextSampleBuffer : 1400 -> 828
+~ _remoteReader_StartExtractionForTime : 688 -> 288
+~ _remoteWriter_AddNativeTrack : 636 -> 324
+~ _remoteWriter_SetTrackProperty : 808 -> 396
+~ _remoteWriter_BeginSession : 688 -> 288
+~ _remoteWriter_IsTrackQueueAboveHighWaterLevel : 612 -> 260
+~ _remoteWriter_MarkEndOfDataForTrack : 480 -> 148
+~ _remoteWriter_EndSession : 688 -> 288
+~ _remoteWriter_Finish : 464 -> 140
+~ _remoteWriter_FinishAsync : 464 -> 140
+~ _remoteWriter_BeginPass : 592 -> 280
+~ _remoteWriter_EndPass : 480 -> 148
+~ _remoteWriter_CopyFormatWriterTrackProperty : 892 -> 480
+~ _remoteWriter_Flush : 464 -> 140
+~ _remoteWriter_AddTaggedBufferGroup : 1024 -> 468
+~ _keyManager_copyEntryForKeyIDInternal : 992 -> 732
+~ _PKDKeyManagerSetUsedForLowValueDecryptionForKeyID : 460 -> 148
+~ _PKDKeyManagerEnsureAndCopyLowValueKeyAndIVForKeyID : 728 -> 152
+~ _PKDKeyManagerIsDecryptContextAvailableForKeyID : 532 -> 200
+~ _PKDKeyManagerIsReadyToCreateKeyRequestForKeyID : 500 -> 168
+~ _PKDKeyManagerGetDecryptContextForKeyID : 456 -> 112
+~ _keyManager_ensureDecryptContextForKeyID : 832 -> 472
+~ _PKDKeyManagerRemoveKeyID : 476 -> 164
+~ _PKDKeyManagerCopySessionID : 472 -> 168
+~ _PKDKeyManagerCreatePackagedPersistentKeyForKeyID : 520 -> 208
+~ _PKDKeyManagerGetMovieID : 544 -> 244
+~ _PKDKeyManagerInstallCallbacksForKeyID : 1036 -> 464
+~ _PKDKeyManagerInvalidate : 380 -> 64
+~ _keyManager_createInternal : 468 -> 444
+~ _keyManagerEntry_finalize : 576 -> 268
+~ _FigXPCImageQueueGaugeServerAssociateCopiedNeighborImageQueueGauge : 332 -> 272
+~ _FigXPCImageQueueGaugeServerStartAsSubserver : 256 -> 188
+~ _FigDataChannelConfigurationCreate : 700 -> 60
+~ _FigDataChannelConfigurationCreateCopy : 1112 -> 476
+~ _dataChannelConfiguration_addOutputQueueCommon : 672 -> 612
+~ _FigDataChannelConfigurationAddFigImageQueue : 464 -> 112
+~ _FigDataChannelConfigurationAddFigDataQueue : 464 -> 112
+~ _FigDataChannelConfigurationAddDataChannelResource : 416 -> 92
+~ _FigDataChannelConfigurationSetFormatDescriptions : 444 -> 120
+~ _FigDataChannelConfigurationSetModificationID : 408 -> 64
+~ _FigStreamAlternateCanConcurrentlyDecodeAlternates : 524 -> 132
+~ _FigStreamAlternateCopyNominalVideoFrameRate : 672 -> 308
+~ _FigBandwidthPredictorCreate : 240 -> 184
+~ _FigRemakerFamilyServer_Destroy : 732 -> 196
+~ _FigRemakerFamilyServer_WriterFinish : 472 -> 208
+~ _FigRemakerFamilyServer_WriterFinishAsync : 472 -> 208
+~ _frs_FilterClientNotifications : 352 -> 8
+~ _frs_stopAndFailClient : 1064 -> 552
+~ ___frs_stopAndFailClient_block_invoke : 384 -> 112
+~ _OUTLINED_FUNCTION_62 : 16 -> 20
+~ _bapspManager_setSubPipeTerminationInFlight : 456 -> 88
+~ _bapspManager_scheduleProcessingDataIfPossible : 500 -> 164
+~ _bapspManager_dataFlowIsAllowed : 668 -> 208
+~ _OUTLINED_FUNCTION_0 : 28 -> 36
+~ _FigMediaProcessorCreateForVideoRotation : 840 -> 588
+~ _FigAlternateFilterMonitorTriggerSetBoss : 692 -> 164
+~ _FigAlternateFilterMonitorTriggerInvoke : 576 -> 300
+~ _FigAlternateFilterMonitorTriggerAddObserver : 448 -> 144
+~ ___remoteXPCCPEClient_EnsureClientEstablished_block_invoke : 188 -> 132
+~ _FigAlternateSelectionBossSetProperty : 552 -> 288
+~ _sbp_vrot_copyProperty : 476 -> 164
+~ _vdms_copyProperty : 216 -> 232
+~ ___vdms_gracefullySetVideoTargetArray_block_invoke : 412 -> 104
+~ _vdms_updateDataChannelConfig : 792 -> 220
+~ ___vdms_pumpTransferCallback_block_invoke : 844 -> 268
+~ _FigMediaValidatorIsNonByteStreamURLStreaming : 788 -> 248
+~ _FigMediaValidatorValidateIndividualTrack : 328 -> 8
+~ _mv_CheckIfVideoPresentable : 8024 -> 4732
+~ _mv_CheckIfSubTitlesPlayable : 300 -> 276
+~ _mv_CheckIfOtherMediaTypePlayable : 272 -> 236
+~ _FigMediaValidatorCreateInternal : 156 -> 160
+~ _mv_CheckIfFormatReaderIsSupported : 276 -> 280
+~ _mv_CheckIfDroppingFramesEnablesPlayability : 1068 -> 192
+~ _OUTLINED_FUNCTION_3 : 44 -> 92
+~ _InitInflatorLibrary : 408 -> 116
+~ _figMDRW_CreateItemFromValue : 316 -> 264
+~ _FigID3MetadataGetKeyCount : 1104 -> 328
+~ _FigID3MetadataCopyKeyAtIndex : 552 -> 256
+~ _OUTLINED_FUNCTION_12 : 40 -> 60
+~ _FigPlayerServerStart : 636 -> 244
+~ ___HandlePlayerServerMessage_block_invoke : 31892 -> 16540
+~ ___DisposeServedPlayerState_block_invoke : 436 -> 140
+~ _serverXPCPlayer_handlePlayerSetPropertyGuts : 564 -> 172
+~ ___DisposeServedItemState_block_invoke : 436 -> 140
+~ _fps_addSampleBuffersToMessage : 680 -> 376
+~ _FPSupport_GetAudioSessionOutputChannelCount : 736 -> 324
+~ _PopulateACLWithChannelLabels : 412 -> 100
+~ _checkPlayerAudioDeviceTraceCallback : 56 -> 4
+~ ___fpSupport_isAnAudioDeviceAssumedAvailable_block_invoke : 620 -> 96
+~ _figAudioFileWriter_SetProperty : 284 -> 248
+~ _decodeDurationForTrack : 340 -> 248
+~ _figAudioFileWriter_AddTrack : 448 -> 236
+~ _figAudioFileWriter_BeginSession : 596 -> 388
+~ _figAudioFileWriter_EndSession : 748 -> 308
+~ _faf_setAudioChannelLayout : 476 -> 204
+~ _afWriteProc : 1000 -> 376
+~ _afGetSizeProc : 332 -> 8
+~ _FigFileStarByteStreamRead : 456 -> 376
+~ _vdmst_getCodecProperty : 376 -> 264
+~ -[FigHTTPRequestSessionDataDelegate initWithResponseDispositionOption:] : 144 -> 132
+~ -[FigHTTPRequestSessionDataDelegate _registerFigHTTPRequest:forDataTask:] : 436 -> 100
+~ -[FigHTTPRequestSessionDataDelegate _copyAndLockRequestForTask:] : 1376 -> 136
+~ -[FigHTTPRequestSessionDataDelegate URLSession:didReceiveChallenge:completionHandler:] : 1596 -> 396
+~ _figHTTPSetIsDormant : 764 -> 188
+~ __figHTTPRequestCreateErrorComment : 596 -> 96
+~ _figHttpRequestEnsureNotTooManyBytes : 256 -> 172
+~ -[FigHTTPRequestSessionDataDelegate URLSession:dataTask:willCacheResponse:completionHandler:] : 596 -> 80
+~ _inEndpointStreamUtil_createSyncContext : 172 -> 144
+~ _createErrorLogEntry : 280 -> 212
+~ _FigHLSSessionDataCopyMetadataEntryInProcess : 508 -> 248
+~ _FigDCP_TruncateFile : 152 -> 112
+~ _FigLimitedDiskCacheProviderCreate : 684 -> 296
+~ _FigLimitedDiskCacheProvider_Invalidate : 680 -> 156
+~ _FigLimitedDiskCacheProvider_Finalize : 536 -> 236
+~ _FigDCP_NewDiskCacheFile : 364 -> 312
+~ _FigFullDownloadDiskCacheProvider_Finalize : 936 -> 404
+~ _FigFullDownloadDiskCacheProvider_GetBacking : 784 -> 220
+~ _FigByteStreamFactorySetCachedFileByteStreamEnable : 392 -> 64
+~ _fbfs_GetCacheMemForDiskBackedMaxSizeOnce : 424 -> 112
+~ _fbfs_GetCacheMemMaxSizeOnce : 452 -> 148
+~ _fbfs_OpenAbortAction : 428 -> 128
+~ _FigAlternatePlaybackBitrateMonitorCanSwitchDownConcurrentlyWithoutStall : 280 -> 288
+~ _fampb_canSwitchDownConcurrentlyToAlternateWithoutStall : 724 -> 264
+~ _fampb_minimumBandwidthRequiredToSwitchUp : 976 -> 368
+~ _fampb_RecordConcurrentSwitchUpCheck : 720 -> 112
+~ _fampb_updateSmoothRTT : 472 -> 124
+~ _fampb_serializeRecordedAlternateListToBitMap : 212 -> 196
+~ _OUTLINED_FUNCTION_20 : 108 -> 60
+~ _OUTLINED_FUNCTION_43 : 28 -> 12
+~ _MTAudioProcessingTapXPCRemoteGetObjectID : 728 -> 192
+~ _MTAudioProcessingTapGetMediaTimeRange : 148 -> 140
+~ _MTAudioProcessingTapGetTrackMediaTimeRange : 192 -> 176
+~ _MTAudioProcessingTapGetStreamMediaTimeRange : 196 -> 180
+~ _aptapR_UnprepareTapIfPrepared : 1316 -> 132
+~ _aptapR_Class_InitializeTap : 288 -> 4
+~ _aptapR_Class_CreateAQTap : 292 -> 8
+~ _aptapR_Class_DisposeAQTap : 288 -> 4
+~ _aptapR_Class_SetTimelineInfo : 292 -> 8
+~ _aptapR_HandleDeadServerConnection : 692 -> 136
+~ _aptapR_AudioQueueProcessingTapCallback : 548 -> 288
+~ _figSteering_addRenditionIDsFromMediaGroupLocatorMapToSet : 244 -> 240
+~ _FigMetricItemRateChangeEventCreate : 712 -> 400
+~ _FigMetricItemStallEventCreate : 712 -> 400
+~ _FigMetricItemSeekEventCreate : 712 -> 400
+~ _FigMetricItemSeekDidCompleteEventCreate : 728 -> 408
+~ _queuedRemaker_reflectSubRemakerNotification : 440 -> 140
+~ _remakerQueue_removeRemakerFromQueue : 496 -> 224
+~ _queuedRemaker_setPendingFormatWriterTrackProperty : 1016 -> 240
+~ _queuedRemaker_Invalidate : 1064 -> 256
+~ _queuedRemaker_CopyProperty : 680 -> 380
+~ _queuedRemaker_SetProperty : 572 -> 268
+~ _queuedRemaker_SetFormatWriterProperty : 552 -> 252
+~ _queuedRemaker_StartOutput : 1024 -> 300
+~ _queuedRemaker_EstimateMaxSegmentDurationForFileSize : 540 -> 252
+~ _queuedRemaker_GetDefaultSourceAudioTrack : 532 -> 236
+~ _queuedRemaker_GetDefaultSourceVideoTrack : 532 -> 236
+~ _queuedRemaker_CanPerformFastFrameRateConversion : 572 -> 284
+~ _figTTMLExtensions_CopyChildNodeArray : 160 -> 192
+~ _WebVTTFormatReaderCopyTrackByID : 208 -> 160
+~ -[FigBaseCALayer init] : 460 -> 96
+~ -[FigBaseCALayer initWithDeferredTransaction:] : 568 -> 196
+~ -[FigBaseCALayer setSublayers:] : 340 -> 76
+~ -[FigBaseCALayer addSublayer:] : 436 -> 180
+~ -[FigBaseCALayer insertSublayer:atIndex:] : 340 -> 76
+~ -[FigBaseCALayer insertSublayer:below:] : 444 -> 196
+~ -[FigBaseCALayer insertSublayer:above:] : 340 -> 76
+~ -[FigBaseCALayer replaceSublayer:with:] : 340 -> 76
+~ -[FigBaseCALayer removeFromSuperlayer] : 344 -> 56
+~ -[FigBaseCALayer getLayerDisplay] : 612 -> 412
+~ -[FigBaseCALayerHost init] : 124 -> 56
+~ -[FigBaseCALayerHost setSublayers:] : 340 -> 76
+~ -[FigBaseCALayerHost addSublayer:] : 340 -> 76
+~ -[FigBaseCALayerHost insertSublayer:atIndex:] : 340 -> 76
+~ -[FigBaseCALayerHost insertSublayer:below:] : 340 -> 76
+~ -[FigBaseCALayerHost insertSublayer:above:] : 340 -> 76
+~ -[FigBaseCALayerHost replaceSublayer:with:] : 340 -> 76
+~ -[FigBaseCALayerHost removeFromSuperlayer] : 344 -> 56
+~ -[FigBaseCABackdropLayer init] : 124 -> 56
+~ -[FigBaseCABackdropLayer setSublayers:] : 340 -> 76
+~ -[FigBaseCABackdropLayer addSublayer:] : 340 -> 76
+~ -[FigBaseCABackdropLayer insertSublayer:atIndex:] : 340 -> 76
+~ -[FigBaseCABackdropLayer insertSublayer:below:] : 340 -> 76
+~ -[FigBaseCABackdropLayer insertSublayer:above:] : 340 -> 76
+~ -[FigBaseCABackdropLayer replaceSublayer:with:] : 340 -> 76
+~ -[FigBaseCABackdropLayer removeFromSuperlayer] : 344 -> 56
+~ ___getDisplayScale_block_invoke : 368 -> 100
+~ _OUTLINED_FUNCTION_38 : 48 -> 12
+~ ___FigSampleBufferConsumerRemoteXPC_ensureClientEstablished_block_invoke : 568 -> 232
+~ ___neroidRemote_ensureClientEstablished_block_invoke : 456 -> 176
+~ _neroidRemote_CopyProperty : 816 -> 128
+~ _neroidRemote_getObjectID : 736 -> 108
+~ _neroidRemote_Start : 948 -> 412
+~ _MTAudioProcessingTapServerStart : 496 -> 144
+~ _aptXPCServer_NotificationFilter : 392 -> 76
+~ _aptapS_Class_InitializeTap : 404 -> 112
+~ _aptapS_Class_CreateAQTap : 564 -> 248
+~ _aptapS_Class_DisposeAQTap : 412 -> 128
+~ _OUTLINED_FUNCTION_0 : 28 -> 36
+~ _figCaptionCopyProperty : 548 -> 572
+~ _acif_copyProperty : 264 -> 240
+~ ___remoteSampleGenerator_EnsureClientEstablished_block_invoke : 304 -> 248
+~ _remoteSampleGenerator_DeadConnectionCallback : 452 -> 160
+~ _remoteSampleGenerator_createSampleBufferGeneratorRequestXPCMessage : 204 -> 156
+~ _FigMediaProcessorCreateForCustom : 628 -> 528
+~ _FigSampleBufferProcessorCreateCustomProcessors : 1160 -> 288
+~ _FigAssetCacheInspectorStartServer : 556 -> 172
+~ _Parse_idx1 : 956 -> 440
+~ _AVIFormatReaderCopyTrackByID : 272 -> 240
+~ _AVITrackReaderCopySampleCursorService : 272 -> 248
+~ _ComputeSampleDeltaForDuration : 380 -> 328
+~ _CreateAVISampleCursor : 560 -> 484
+~ _FigPlayerAirPlayRoute_DoesCurrentRouteUseScreen : 132 -> 76
+~ _FigPlayerAirPlayRoute_SuspendAirPlayScreen : 436 -> 100
+~ _FigPlayerAirPlayRoute_SuspendAirPlayScreenAndWaitForCompletion : 1212 -> 332
+~ _playerairplayroute_overlayPresentDidChangeNotificationCallback : 364 -> 8
+~ _playerairplayroute_routingContextDidChangeNotificationCallback : 364 -> 8
+~ _playerairplayroute_isActiveDidChange : 812 -> 116
+~ ___playerairplay_checkIfPrimaryAppChanged_block_invoke : 664 -> 292
+~ ___playerairplayroute_updateRoutingContextUUID_block_invoke : 468 -> 144
+~ _CommonRIFFStreamInitialization : 248 -> 200
+~ _RIFFAtomStreamInitWithParent : 408 -> 280
+~ _RIFFAtomStreamReadCurrentAtomData : 328 -> 208
+~ _RIFFAtomStreamAdvanceToNextAtom : 356 -> 288
+~ _FigMutableMovieCreateWithByteStream : 512 -> 140
+~ _MutableMovie_CopyFormatReader : 428 -> 140
+~ _MutableMovie_WriteHeader : 564 -> 288
+~ _MutableMovie_WriteHeaderToByteStream : 456 -> 200
+~ _figNwPathEvaluatorFinalize : 416 -> 108
+~ _figNwPathEvaluatorCopyCurrentPathInformation : 532 -> 216
+~ _figPlaybackCoordinator_completePendingCommandAndRecordNewCallback : 516 -> 256
+~ _figPlaybackCoordinator_endPlayingInterstitialSuspension : 428 -> 108
+~ _playbackCoordinator_endCoordinatedPlaybackNotPossibleSuspension : 768 -> 164
+~ _figPlaybackCoordinator_currentItemFailedToBecomeReadyForInspectionOrPlayback : 460 -> 128
+~ _figPlaybackCoordinator_readyForInspection : 460 -> 136
+~ _figPlaybackCoordinator_integratedTimelineOffsetsChanged : 416 -> 100
+~ _playbackCoordinator_beginSystemEventSuspensionForReason : 804 -> 176
+~ _figPlaybackCoordinator_getGroupTimeFromPlayerTime : 696 -> 316
+~ _figPlaybackCoordinator_handleChangeInInterstitialActiveStatusOnQueue : 596 -> 212
+~ _figTTMLHead_CopyChildNodeArray : 196 -> 228
+~ _CopyTrackReader : 204 -> 168
+~ _CreateTrackReaderForMovieTrack : 244 -> 232
+~ _MovieTrackReaderGetTrackInfo : 204 -> 168
+~ _MovieTrackReaderGetTrackEditCount : 184 -> 124
+~ _MovieTrackReaderGetTrackEditWithIndex : 224 -> 200
+~ _MovieTrackReaderGetTrackEditIndexWithTrackTime : 220 -> 196
+~ _ReactToTrackMetadataChange : 776 -> 324
+~ _OUTLINED_FUNCTION_14 : 28 -> 88
+~ _ParseMovieMetaDataAtom : 612 -> 284
+~ _InitInflatorLibrary : 408 -> 116
+~ _OUTLINED_FUNCTION_8 : 16 -> 12
+~ _MovieDurationWithFragmentContribution : 584 -> 240
+~ _MovieSampleAccessorCreate : 492 -> 228
+~ _MovieTrackEstablishFirstFragmentBaseDecodeTime : 404 -> 92
+~ _MovieTrackGetTimecodeMustBeShown : 240 -> 88
+~ _UpdateDurationsForEditSegmentChange : 232 -> 304
+~ _MovieTrackSetTrackMetadataItemArray : 500 -> 216
+~ _MovieInformationCheckForMovieTimescaleAnomaly_7135294 : 484 -> 172
+~ _MovieInformationSetMovieMetadataItemArray : 532 -> 248
+~ _OUTLINED_FUNCTION_0 : 44 -> 56
+~ _OUTLINED_FUNCTION_7 : 28 -> 24
+~ _mutableComposition_AddTrack : 748 -> 144
+~ _mutableComposition_DeleteTrack : 676 -> 332
+~ _mutableComposition_CopyTrackEditList : 460 -> 316
+~ _mutableComposition_AddFormatReaderForURL : 764 -> 332
+~ _mutableComposition_DeleteTrackSegment : 588 -> 200
+~ _mutableComposition_ScaleTrackSegment : 696 -> 280
+~ _mutableComposition_ScaleSegment : 880 -> 492
+~ _compositionSharedCache_copyAssetForAssetURL : 988 -> 484
+~ _compositeSuper_editCursor_Step : 1192 -> 200
+~ _compositeSimple_editCursor_GetEditSegment : 448 -> 116
+~ _compositionTable_addTrack : 804 -> 284
+~ _OUTLINED_FUNCTION_0 : 20 -> 36
+~ _OUTLINED_FUNCTION_44 : 44 -> 16
+~ _FigPartialSampleTableBrokerCreate : 324 -> 240
+~ _pstBroker_associateRelevantTablesWithNewInterestToken : 624 -> 252
+~ _FigMetadataConverterCreateForQuickTime : 876 -> 512
+~ _FigMetadataConverterCreateForQuickTimeToFromiTunes : 652 -> 492
+~ _FigCryptGetIVSize : 428 -> 84
+~ _FigCryptGetTagSize : 424 -> 80
+~ _FigCryptSetIV : 576 -> 184
+~ _fbapo_setAudioSessionID : 856 -> 232
+~ ___fbapo_postNotificationInternal_block_invoke : 440 -> 84
+~ _fbapo_audioEngineBufferingPriorityChangedCallback : 564 -> 560
+~ ___fbapo_audioEngineBufferingPriorityChangedCallback_block_invoke : 556 -> 204
+~ _fbapo_doesSupportsReceiverSideSoundCheck : 836 -> 224
+~ _fbapo_copyTransportFormatDescriptionForSourceContentFormatDescription : 600 -> 268
+~ _fbapo_applyCachedPropertiesForBecomeActiveIterator : 664 -> 268
+~ _OUTLINED_FUNCTION_7 : 40 -> 12
+~ _FigCrossTalkerCreate : 616 -> 300
+~ _fct_Finalize : 388 -> 68
+~ _fct_CopyProperty_f : 420 -> 104
+~ _fct_SetProperty_f : 688 -> 136
+~ _OUTLINED_FUNCTION_8 : 36 -> 12
+~ _FigCSSTokenizerCreateWithTextContainer : 584 -> 244
+~ __figCSSTokenizer_PeekAheadBuffer : 440 -> 492
+~ _FigVideoCompositionInstructionArrayIsValid : 1892 -> 616
+~ _pa_start : 484 -> 192
+~ ___pa_start_block_invoke : 3308 -> 2440
+~ ___pa_copySinkProperty_block_invoke : 400 -> 104
+~ _OUTLINED_FUNCTION_8 : 32 -> 12
+~ _videoprocessor_didReachEndOfOutputCallback : 360 -> 76
+~ _videoprocessor_AvailableTimeRangeChanged : 380 -> 72
+~ _videoprocessor_triggerProcessing : 496 -> 160
+~ _FigVideoCompositionProcessorSetCompositionInstructionCallback : 708 -> 172
+~ _FigVideoCompositionProcessorSetHDRDisplayMetadataPolicy : 400 -> 108
+~ _FigVideoCompositionProcessorResetCompositionInstruction : 496 -> 188
+~ _FigVideoCompositionProcessorGetVideoCompositor : 360 -> 84
+~ _FigVideoCompositionProcessorIsAtEndOfOutputData : 404 -> 108
+~ _videoprocessor_reportProcessingError : 448 -> 184
+~ _videoprocessor_sendSeekCompleteNotification : 460 -> 180
+~ _OUTLINED_FUNCTION_7 : 40 -> 12
+~ _FigVisualContextXPCRemoteGetObjectID : 268 -> 244
+~ ___remoteXPCVisualContextClient_EnsureClientEstablished_block_invoke : 304 -> 248
+~ _rvcIsNewImageAvailable : 352 -> 304
+~ _vcu_getRationalFromDictionary : 304 -> 272
+~ _OUTLINED_FUNCTION_0 : 28 -> 52
+~ _OUTLINED_FUNCTION_2 : 24 -> 16
+~ _OUTLINED_FUNCTION_4 : 44 -> 12
+~ _bapspTranscode_playResourceReleased : 408 -> 80
+~ _bapspTranscode_segmentFinished : 372 -> 4
+~ ___bapspTranscode_postNotification_block_invoke : 436 -> 100
+~ _FigVideoCompositorCreateBasic : 332 -> 272
+~ _basicVideoCompositor_SetOutputCallback : 496 -> 196
+~ ___bvc_blitLayer_block_invoke : 524 -> 212
+~ ___basicVideoCompositor_SetOutputCallback_block_invoke : 524 -> 144
+~ _FigSecureStopManagerCreate : 324 -> 248
+~ _fssm_finalize : 364 -> 96
+~ _fssm_fbo_initialize : 980 -> 252
+~ _fssm_fbo_copyRecords : 720 -> 212
+~ _fssm_fbo_removeRecords : 716 -> 208
+~ _fssm_fbo_updateRecord : 820 -> 296
+~ _FigFormatReaderServerStartLoopbackServerAndCopyXPCEndpoint : 300 -> 168
+~ _FigSampleCursorServer_TranslateByteStream : 104 -> 108
+~ _HandleSampleCursorCopyMessage : 612 -> 276
+~ _HandleSampleCursorGetSampleTimingInfoMessage : 552 -> 528
+~ _HandleSampleCursorStepByDecodeTimeMessage : 740 -> 436
+~ _HandleSampleCursorStepByPresentationTimeMessage : 740 -> 436
+~ _HandleSampleCursorStepInDecodeOrderAndReportStepsTakenMessage : 752 -> 412
+~ _HandleSampleCursorStepInPresentationOrderAndReportStepsTakenMessage : 752 -> 412
+~ _HandleSampleCursorTestReorderingBoundaryMessage : 512 -> 424
+~ _HandleSampleCursorCopyFormatDescriptionMessage : 640 -> 312
+~ _HandleSampleCursorCreateSampleBufferMessage : 480 -> 420
+~ _HandleEditCursorStepMessage : 500 -> 244
+~ _HandleSampleCursorCopyPropertyFromEventLink : 1084 -> 560
+~ _FigSampleCursorServer_TranslateDataSourceFromEventLink : 684 -> 248
+~ _OUTLINED_FUNCTION_0 : 20 -> 52
+~ _OUTLINED_FUNCTION_3 : 52 -> 16
+~ _OUTLINED_FUNCTION_29 : 16 -> 36
+~ _FigMutableCompositionClientServer_CreateFlattenedFormatDescriptionReplacementTable : 412 -> 416
+~ _FigBytePumpCreateForHTTPChunk : 9668 -> 6768
+~ _segPumpCopyProperty : 4776 -> 4124
+~ _segPumpSetProperty : 4760 -> 4384
+~ _segPumpCancelMediaFileReadAndResetData : 976 -> 580
+~ _segPumpRTCReportingIssueRTCReportingEvent : 600 -> 276
+~ _segPumpGetCurrentRTT : 816 -> 140
+~ _segPumpGetIndexFileRefreshTimestamp : 560 -> 220
+~ _segPumpVerifyM3UPlaylist : 516 -> 120
+~ _segPumpModifyErrorActionIfCurrentAlternateIsLastValidAlternate : 1076 -> 108
+~ _segPumpFindSavedEntry : 556 -> 216
+~ _segPumpCreateIndexFileBBFromSavedIndexFile : 600 -> 296
+~ _segPumpSetMediaFileExpireTimer : 1008 -> 160
+~ _segPumpRealizeMapPreload : 1008 -> 252
+~ _segPumpMediaConnectionIncludesMedia : 156 -> 136
+~ _segPumpMediaConnectionRangeIncludesMedia : 540 -> 136
+~ _segPumpContinueIfCryptKeyResponseWasAlreadySet : 584 -> 604
+~ _segPumpSetMediaFilePumpTimeOffsetsArray : 596 -> 128
+~ _segPumpGetMediaDataMemoryPool : 580 -> 252
+~ _segPumpRTCReportingLogAndUpdateStats : 548 -> 72
+~ _segPumpCreateMapMediaBBuf : 636 -> 264
+~ _segPumpStreamSyncTimeRolledPast : 828 -> 176
+~ _segPumpStreamSwitchShouldWalkBack : 456 -> 132
+~ _segPumpEnsureOffsetInDiscDomain : 680 -> 252
+~ _OUTLINED_FUNCTION_0 : 44 -> 36
+~ _OUTLINED_FUNCTION_1 : 44 -> 16
+~ _FigNetworkWirelessReportingInterfaceCopyWifiStats : 444 -> 156
+~ _FigNetworkWirelessReportingInterfaceCopyWTEPredictionStats : 460 -> 176
+~ ___29-[FigCoreWiFi initWithError:]_block_invoke : 500 -> 208
+~ -[FigWTEPredictionProvider servicePredictionProvider:didUpdateServicePredictions:] : 460 -> 168
+~ -[FigWTEPredictionProvider initWithError:] : 484 -> 196
+~ ___42-[FigWTEPredictionProvider initWithError:]_block_invoke : 316 -> 4
+~ -[FigWTEPredictionProvider dealloc] : 400 -> 116
+~ ___35-[FigWTEPredictionProvider dealloc]_block_invoke : 316 -> 4
+~ _fnwri_globalNetworkWirelessReportingInterfaceInitOnce : 1268 -> 280
+~ _OUTLINED_FUNCTION_0 : 20 -> 52
+~ _StreamingPlaylist_VerifyLeadingMagicNumber : 748 -> 244
+~ _FigStreamPlaylistParseInProcess : 36800 -> 27956
+~ _sp_MatchTagAndColon : 408 -> 116
+~ _PlaylistProcessPartTag : 1732 -> 1416
+~ _FigStreamPlaylistParse : 264 -> 272
+~ _copyElementLocalName : 328 -> 308
+~ _figRenderPipelineForBufferQueueCopyProperty : 312 -> 288
+~ _figRenderPipelineForBufferQueueSetProperty : 148 -> 96
+~ _FigOVCGLObjectCacheWrapperCreate : 640 -> 256
+~ _FigOVCGLObjectCacheWrapperInvalidate : 404 -> 132
+~ _FigOVCGLObjectCacheWrapperFlushCacheEntriesForDeletedBackings : 452 -> 164
+~ _glObjectCacheWrapper_deregisterPixelBufferBackingThatWillBeDeleted : 988 -> 220
+~ _OUTLINED_FUNCTION_2 : 24 -> 8
+~ _famhdcp_copyProperty : 492 -> 192
+~ _famhdcp_setProperty : 220 -> 168
+~ _FigTTMLInitializeNodeBaseStorage : 192 -> 180
+~ _FigTTMLMoveCurrentNodeTo : 176 -> 172
+~ ___remoteXPCMutableCompositionClient_EnsureClientEstablished_block_invoke : 196 -> 140
+~ _remoteXPCMutableComposition_GetObjectID : 764 -> 132
+~ _IFFItemHeaderMakerCreateWithIFFItemInformation : 248 -> 188
+~ _appendGlobalMetadataAtom : 11564 -> 10728
+~ _aig_Invalidate : 816 -> 292
+~ _aig_CancelAllCGImageAsyncRequests : 472 -> 156
+~ _OUTLINED_FUNCTION_0 : 24 -> 36
+~ _tfbTrackRunRelease : 632 -> 308
+~ _tfbGetTrackFragmentGlobalDefaultValue : 436 -> 148
+~ _MovieHeaderMakerAddTrack : 336 -> 316
+~ _pwdKeyExchangeReceiverAOCP_ProcessIncomingMessageAndCreateReply : 1236 -> 1208
+~ _FigVideoReceiverDataChannelSettingsCopySerializable : 568 -> 580
+~ _aqOfflineMixer_processUntilHighWaterMet : 10648 -> 5100
+~ _aqOfflineMixer_passedTimelineMilestone : 656 -> 172
+~ _aqOfflineMixer_postMilestoneNotification : 516 -> 188
+~ _aqOfflineMixer_triggerSchedulingIfOutputIsLow : 756 -> 260
+~ _fcar_setupGLESRenderer : 1676 -> 524
+~ _FigCoreAnimationRendererCopyProperty : 188 -> 140
+~ _FigRemote_StartCARenderServerAndReturnPort : 176 -> 124
+~ _FigRemote_CreateLocalCAContext : 140 -> 96
+~ _FigRemote_CreateLayerHostForRemoteContext : 248 -> 208
+~ _FigRemote_ReleaseAndClearLocalCAContextAndShutDownCAServer : 232 -> 252
+~ ___FigRemote_ReleaseAndClearLocalCAContextAndShutDownCAServer_block_invoke_2 : 4 -> 64
+~ _FigRemote_CreateRemoteCAContextAndAttachLayer : 416 -> 304
+~ _FigTTMLBodyCreate : 328 -> 316
+~ _ExternalProtectionStatusChangedCallback : 352 -> 84
+~ _ExternalProtectionStateChangedCallback : 352 -> 84
+~ _OUTLINED_FUNCTION_0 : 24 -> 36
+~ _OUTLINED_FUNCTION_2 : 24 -> 16
+~ _OUTLINED_FUNCTION_5 : 32 -> 20
+~ __figCSSObjModel_MapRuleTypeToString : 144 -> 92
+~ -[FigPWDKeyExchangeSenderServerHelper requestKeyDataFromServer:completionHandler:] : 520 -> 212
+~ ___82-[FigPWDKeyExchangeSenderServerHelper requestKeyDataFromServer:completionHandler:]_block_invoke : 396 -> 100
+~ ___FigPWDKeyExchangeSenderAOCP_getCertificate_block_invoke : 376 -> 92
+~ _OUTLINED_FUNCTION_5 : 32 -> 12
+~ _OUTLINED_FUNCTION_6 : 32 -> 12
+~ _OUTLINED_FUNCTION_8 : 16 -> 12
+~ _audioSessionMXSession_CopyResolvedConfigurationForProperty : 1048 -> 520
+~ _audioSessionMXSession_CopyCMSessionProperty : 532 -> 236
+~ _audioSessionMXSession_SetCMSessionProperty : 524 -> 220
+~ _audioSessionMXSession_CopyMXSessionProperty : 524 -> 220
+~ _audioSessionMXSession_SetMXSessionProperty : 524 -> 220
+~ _audioSessionMXSession_Activate : 452 -> 156
+~ _audioSessionMXSession_Deactivate : 512 -> 232
+~ _FigRCLCopyCFType : 768 -> 220
+~ _FigRCLGetLongNumberWithDefault : 396 -> 68
+~ _rcl_InitializeStoreBagContext : 664 -> 132
+~ -[FigDisplaySleepAssertion dealloc] : 400 -> 112
+~ -[FigDisplaySleepAssertion resetIdleTimer] : 500 -> 192
+~ _fdt_commitTransactionChanges : 464 -> 152
+~ _fdr_createChange : 232 -> 188
+~ _figDeferredTransactionFinalize : 344 -> 80
+~ _figDeferredTransactionChangeCopyDebugDescription : 228 -> 156
+~ _conduit_finalize : 436 -> 132
+~ _conduit_copyProperty : 408 -> 88
+~ _conduit_setProperty : 364 -> 8
+~ _conduit_start : 472 -> 184
+~ _conduit_stop : 452 -> 156
+~ _conduit_pushFrame : 484 -> 164
+~ _conduit_suspend : 328 -> 8
+~ _conduit_resume : 328 -> 8
+~ _conduit_getPropertyAsync : 1024 -> 732
+~ _conduit_perform : 728 -> 196
+~ _conduit_setDispatchQueue : 392 -> 88
+~ _conduit_setEventHandler : 328 -> 8
+~ _FigVirtualFramebufferServerStart : 600 -> 544
+~ _FigVirtualFramebufferServerSourceScreenCreateIOS : 748 -> 692
+~ ___vfbserv_start_block_invoke : 808 -> 568
+~ _vfbserv_handleClientMessage : 10808 -> 9088
+~ _vfbserv_verifyConnection : 672 -> 100
+~ _vfbserv_getAndRetainFramebufFromMessage : 748 -> 688
+~ ___vfblocal_create_block_invoke : 696 -> 124
+~ _vfblocal_finalize : 228 -> 4
+~ _vfblocal_copyProperty : 604 -> 320
+~ _vfblocal_getSupportedDigitalOutModes : 984 -> 560
+~ _vfblocal_setVSyncNotifications : 716 -> 164
+~ ___vfblocal_setVSyncNotifications_block_invoke : 532 -> 248
+~ _vfblocal_setHotPlugDetectNotifications : 396 -> 92
+~ _hdcp_getHDCPDownstreamState : 436 -> 116
+~ ___hdcp_getHDCPDownstreamState_block_invoke : 384 -> 88
+~ _vfbintern_finalize : 228 -> 4
+~ _vfbintern_getHDCPDownstreamState : 404 -> 132
+~ _vfbintern_HDCPSendRequest : 380 -> 100
+~ _vfbintern_HDCPGetReply : 376 -> 88
+~ _scr_unplugProcessor : 924 -> 448
+~ ___rad_ensureClientEstablished_block_invoke : 512 -> 208
+~ _OUTLINED_FUNCTION_0 : 28 -> 52
+~ _OUTLINED_FUNCTION_3 : 32 -> 28
+~ _OUTLINED_FUNCTION_0 : 20 -> 36
+~ _OUTLINED_FUNCTION_5 : 32 -> 20
+~ ___FigExportSettingsForExportPreset_block_invoke : 336 -> 280
+~ _FigExportSettings_GetMaximumBitsPerComponent : 540 -> 272
+~ _FigTTMLRegionCreate : 324 -> 312
+~ _FigTTMLRegionCreateDefault : 296 -> 284
+~ _FigTTMLRegionCopyID : 216 -> 168
+~ _FigByteFlumeCustomURLSetProperty : 912 -> 308
+~ _MediaSampleTimingGeneratorCreateLastMediaSampleTimingInfoArray : 600 -> 308
+~ _getSampleTimingAtIndex : 652 -> 604
+~ -[FigSubtitleWebVTTCueCALayer init] : 708 -> 296
+~ _setContentDo : 380 -> 68
+~ -[FigSubtitleWebVTTCueCALayer setViewport:] : 448 -> 84
+~ -[FigSubtitleWebVTTCueCALayer setDefaultFontSize:] : 400 -> 80
+~ ___54-[FigSubtitleWebVTTCueCALayer layoutSublayersOfLayer:]_block_invoke : 372 -> 76
+~ -[FigSubtitleWebVTTCueCALayer drawLayer:inContext:] : 1740 -> 740
+~ _subtitleRendererGetWindowRoundedCornerRadiusDo : 60 -> 84
+~ _setupHighlight : 764 -> 532
+~ _subtitleRendererSetupText : 10812 -> 4508
+~ _subtitleRendererLayoutDo : 17288 -> 10432
+~ _FigCaptionRendererAVFLayoutRegion_FigCaptionRendererNodeProtocol_Layout : 7200 -> 4456
+~ _figCaptionRenderPipelineFinalize : 556 -> 272
+~ _figCaptionRenderPipelineInvalidate_Internal : 784 -> 532
+~ _caprpNativeCallback : 396 -> 120
+~ _caprpCommonCallback : 408 -> 132
+~ _caprpFlushCallback : 360 -> 88
+~ _OUTLINED_FUNCTION_18 : 28 -> 36
+~ _FigTTMLSpanCreate : 324 -> 312
+~ _PSLPCMCheckHeader : 176 -> 108
+~ _PSLPCMGetBytesPerFrame : 508 -> 216
+~ _FigCaptionRendererNode_FigCaptionRendererNodeProtocol_SetCGBounds : 2288 -> 556
+~ _fsd_ensureClientEstablished : 520 -> 192
+~ _MediaDataChunkWriterTrackAppendSampleReference : 344 -> 296
+~ _OUTLINED_FUNCTION_0 : 32 -> 36
+~ _OUTLINED_FUNCTION_12 : 32 -> 16
+~ _fcrTimerDispatchFunctionCallback : 380 -> 112
+~ _FigCaptionRendererTimerCreate : 348 -> 292
+~ _FigSampleGeneratorServerStart : 564 -> 228
+~ ___FigSampleGeneratorServerStart_block_invoke : 220 -> 160
+~ _FigServedSampleGeneratorObjectState_Finalize : 420 -> 140
+~ _DestroySampleBufferHandler : 480 -> 212
+~ _sampleBufferGenerator_sendDataFailedMessage : 660 -> 296
+~ _sampleBufferGeneratorServer_destroyCallbackParameters : 360 -> 92
+~ _sampleBufferGeneratorServer_enqueuePendingSampleBuffers : 672 -> 312
+~ _FigSteeringParserStartServer : 248 -> 192
+~ _fpsupport_unregisterOutputFromRenderPipelineCallbacks : 492 -> 236
+~ _FigEndpointStreamAudioEngineStartServer : 520 -> 192
+~ _FigVirtualDisplaySessionCreateWithComponents : 2692 -> 2436
+~ _FigVirtualDisplaySessionActivate : 1012 -> 764
+~ ___checkFigVirtualDisplaySessionTrace_block_invoke : 56 -> 4
+~ _sessionStart : 1052 -> 760
+~ _sessionCopyComponents : 484 -> 156
+~ ___sessionSuspend_block_invoke : 1848 -> 416
+~ _OUTLINED_FUNCTION_0 : 28 -> 52
+~ _NotifyCompletedBatch : 496 -> 168
+~ _ReviseProperty : 468 -> 180
+~ _PerformJobCompletion : 456 -> 140
+~ _StoreByProduct : 512 -> 224
+~ _AssetPropertyStore_Finalize : 744 -> 456
+~ _AssetValidationStore_Finalize : 504 -> 208
+~ _OUTLINED_FUNCTION_8 : 20 -> 12
+~ _fbarp_inhibitOutputUntil : 464 -> 164
+~ _fbarp_resetOutput : 432 -> 132
+~ _FigSampleBufferProcessorForBufferedAirPlayCopyPerformanceDictionary : 564 -> 512
+~ ___fbarp_postNotification_block_invoke : 420 -> 84
+~ _CreateInternalURLAsset : 2652 -> 2308
+~ _FigAssetCreateWithByteStream : 796 -> 468
+~ _FigAssetCreatePListFromOptionsDict : 1688 -> 520
+~ _FigAssetCreateOptionsDictFromPList : 1740 -> 524
+~ _InitializeURLAsset : 132 -> 76
+~ _URLAssetTrackFinalize : 712 -> 192
+~ _URLAssetTrackCopyPropertyAndBlockageWarning : 456 -> 164
+~ _InternalURLTrack_Finalize : 420 -> 120
+~ _URLAssetFinalize : 984 -> 528
+~ _CopyOutReadAheadAssertion : 408 -> 144
+~ _URLAssetCopyTrackByID : 960 -> 548
+~ _URLAssetLoadValuesAsyncForTrackProperties : 900 -> 548
+~ _URLAssetDefineTrackMacroProperty : 500 -> 176
+~ _URLAssetDefineCrossTrackMacroProperty : 500 -> 176
+~ _CreateTrackMacroPropertyState : 304 -> 224
+~ _ConnectCrossTrackMacroProperties : 908 -> 136
+~ _CrossTrackConnectApplierFunction : 904 -> 592
+~ _DefineTrackMacroProperty : 1152 -> 296
+~ _SetTrackMacroPropertyStateTracks : 412 -> 84
+~ _ReviseTrackMacroPropertyStateTracks : 1276 -> 252
+~ _FigAssetDownloadStorageManagementExcludeURLFromBackup : 396 -> 76
+~ _figSetExtendedAttributeData : 608 -> 352
+~ _OUTLINED_FUNCTION_7 : 44 -> 24
+~ _OUTLINED_FUNCTION_23 : 28 -> 64
+~ _OUTLINED_FUNCTION_30 : 12 -> 36
+~ _EnsureStorageSessionCreated : 532 -> 220
+~ _PerformSetIncrementalFragmentParsingInterval : 676 -> 164
+~ _DurationPropertyNotificationCallback : 364 -> 80
+~ _CouldContainFragmentsPropertyNotificationCallback : 364 -> 80
+~ _ContainsFragmentsPropertyNotificationCallback : 364 -> 80
+~ _TracksArrayPropertyNotificationCallback : 364 -> 80
+~ _SegmentDataAssetTrackPropertiesNotificationCallback : 364 -> 80
+~ _ProduceAssetTrackValidationResult : 872 -> 348
+~ _InternalURLAssetSetDeclaredAssetType : 312 -> 268
+~ _PostDeferredPostPurchaseNotification : 448 -> 76
+~ _CreateHTTPRequestOptions : 544 -> 248
+~ _AssessMonitoredAssetPropertyChange : 536 -> 152
+~ _ReviseDurationProperty : 424 -> 152
+~ _ReviseCouldContainFragmentsProperty : 436 -> 148
+~ _ReviseContainsFragmentsProperty : 436 -> 148
+~ _EnsureContentStreamCreated : 6772 -> 3776
+~ _IncrementalFragmentParsingTimerFunction : 1300 -> 256
+~ _ReviseSegmentDataAssetTrackProperties : 528 -> 192
+~ _AssessMonitoredAssetTrackPropertyChange : 476 -> 188
+~ _ProduceSHA1DigestProperty : 640 -> 320
+~ _ProduceAssetCompatibleWithAirPlayVideoProperty : 1240 -> 92
+~ _OUTLINED_FUNCTION_8 : 16 -> 72
+~ _audioRendererRemote_notificationFilter : 392 -> 76
+~ ___audioRendererRemote_handleCompletionCallback_block_invoke : 400 -> 136
+~ _vq_ImageReleased : 388 -> 108
+~ _vq_DecodeError : 388 -> 108
+~ _vq_sBufConsumed : 416 -> 128
+~ _vq_completedDecodeForPreroll : 388 -> 108
+~ _vq_lostDecoderState : 388 -> 108
+~ _vq_firstVideoFrameEnqueued : 388 -> 108
+~ ___vq_updateVideoPlaybackAssertion_block_invoke : 1672 -> 584
+~ _vq_updateImageQueueProtection : 984 -> 300
+~ _VideoTargetInfoCreate : 244 -> 208
+~ ___vq_SetProperty_block_invoke : 560 -> 232
+~ ___vq_handleWaitForVideoTargetConditionChange_block_invoke : 564 -> 196
+~ _vq_EnqueueFrame : 8804 -> 11864
+~ _vq_IsAboveHighWaterLevel : 924 -> 268
+~ _vq_sourceSampleBufferQueue_reachedLowWater : 372 -> 100
+~ ___vq_UpdateCryptorFromSampleBuffer_block_invoke : 1100 -> 772
+~ _OUTLINED_FUNCTION_4 : 48 -> 56
+~ _OUTLINED_FUNCTION_20 : 28 -> 48
+~ _CreateServedAIGState : 148 -> 132
+~ _serverXPCAIG_NotificationFilter : 564 -> 256
+~ _FigAssetImageGeneratorServerStart : 312 -> 196
+~ _aigXPCServer_interruptionNotificationCallback : 436 -> 164
+~ _OUTLINED_FUNCTION_2 : 40 -> 68
+~ _weakReferenceTable_CopyPointerFromKey : 412 -> 112
+~ _videoQueueRemote_HandleDeadServerConnection : 408 -> 112
+~ _videoQueueRemote_handleDisplayMirroringChanged : 500 -> 180
+~ _videoQueueRemote_updateVideoTargetArrayAndCopyIDArray : 796 -> 496
+~ _videoQueueRemote_Start : 612 -> 184
+~ _videoQueueRemote_Flush : 624 -> 184
+~ _videoQueueRemote_IsAboveHighWaterLevel : 616 -> 188
+~ _videoQueueRemote_RequestDecodeForPreroll : 364 -> 252
+~ _OUTLINED_FUNCTION_3 : 32 -> 60
+~ _remoteXPCAsset_SetCachedAssetPropertyValue : 152 -> 140
+~ _FigAssetRemoteCreateWithFormatReader : 612 -> 308
+~ ___remoteXPCAssetClient_EnsureClientEstablished_block_invoke : 360 -> 304
+~ _remoteXPCAssetClient_ObjectPurgedCallback : 756 -> 248
+~ _remoteXPCAssetTrackClient_HandleCachedPropertyLoaded : 568 -> 260
+~ ___remoteXPCAssetClient_HandleCachedPropertyLoaded_block_invoke : 756 -> 124
+~ ___remoteXPCAssetTrack_SetCachedAssetTrackPropertyValue_block_invoke : 396 -> 96
+~ ___remoteXPCAssetClient_HandleCachedPropertyFailedToLoad_block_invoke : 460 -> 92
+~ ___remoteXPCAssetTrackClient_HandleCachedPropertyLoaded_block_invoke : 660 -> 124
+~ ___remoteXPCAssetTrackClient_HandleCachedPropertyFailedToLoad_block_invoke : 408 -> 92
+~ _remoteXPCAsset_sandboxRegisterURLdAddToXPCMessageAndCopyRegistration : 436 -> 168
+~ ___remoteXPCAsset_SetCachedAssetPropertyValue_block_invoke : 528 -> 184
+~ _remoteXPCAsset_CopyTrackByID : 908 -> 512
+~ ___remoteXPCAsset_GetStatusOfValueForProperty_block_invoke : 568 -> 168
+~ _dq_PruneTimerFired : 584 -> 104
+~ _dq_TimebaseRateChangedCallback : 416 -> 124
+~ _dq_Prune : 572 -> 208
+~ _dq_EvaluateAndFireLWMTriggerCallback : 1268 -> 288
+~ ___dq_EvaluateAndFireLWMTriggerCallback_block_invoke : 352 -> 76
+~ _dq_UpdateWaterLevelState : 1356 -> 508
+~ _dq_Flush : 552 -> 244
+~ _OUTLINED_FUNCTION_15 : 40 -> 36
+~ _HLSPersistentStore_Invalidate : 368 -> 76
+~ _persistentStore_Finalize : 372 -> 64
+~ _persistentStore_CopyMasterPlaylist : 872 -> 576
+~ _removeDataItem : 508 -> 520
+~ _reportIfError : 392 -> 72
+~ _primeInterstitialAssetFolder : 124 -> 116
+~ -[FigNSURLSession acquireAssertion] : 1496 -> 192
+~ _figNSURLSessionAssertionFinalize : 344 -> 68
+~ -[FigNSURLSession dealloc] : 496 -> 140
+~ -[FigNSURLSessionRegistry _checkForDoom:] : 1588 -> 300
+~ -[FigNSURLSessionRegistry init] : 160 -> 140
+~ _figHTTPRequestSessionNSFinalize : 404 -> 112
+~ _figHTTPRequestSessionNSCopyProperty : 396 -> 112
+~ ___figHTTPRequestSessionNSSetProperty_block_invoke : 508 -> 176
+~ _videoQueueServer_mediaServicesProcessDeathNotification : 428 -> 112
+~ _OUTLINED_FUNCTION_8 : 20 -> 56
+~ _OUTLINED_FUNCTION_0 : 24 -> 52
+~ _fra_issuePowerlogEvent : 1632 -> 124
+~ _replaceNextCurrentItemDidChangeNotification : 432 -> 88
+~ _surrogatePlayer_deferPostNotification : 528 -> 136
+~ _surrogatePlayer_copyPropertyFromCacheInternal : 528 -> 184
+~ _surrogatePlayer_currentRealPlayerInternal : 400 -> 92
+~ _surrogatePlaybackItem_applyCachedItemPropertyToRealPlaybackItem : 624 -> 312
+~ _surrogatePlaybackItem_applyCachedTrackPropertiesToRealPlaybackItem : 400 -> 84
+~ _surrogatePlaybackItem_applyPropertiesToBeAppliedOnceWhenRealItemBecomesCurrentInternal : 424 -> 88
+~ _surrogatePlaybackItem_applyPropertyWhenRealItemBecomesCurrentToItem : 640 -> 260
+~ _surrogatePlaybackItem_applyCachedTrackPropertyToRealPlaybackItemTrack : 500 -> 188
+~ _surrogatePlayer_setRealPlayerPropertyFromCache : 508 -> 220
+~ _surrogatePlayer_postDeferredNotification : 504 -> 108
+~ _surrogatePlayer_SetRateWithFade : 620 -> 276
+~ _surrogatePlaybackItem_copyRealItemAndRealPlayerInternal : 448 -> 100
+~ _surrogatePlayer_startPrerollInternal : 632 -> 296
+~ _surrogatePlaybackItem_setPropertyToBeAppliedOnceWhenRealItemBecomesReadyInternal : 456 -> 104
+~ _surrogatePlaybackItem_copyPropertyFromCacheInternal : 440 -> 156
+~ _surrogatePlaybackItem_MakeReadyForInspectionInternal : 304 -> 244
+~ _OUTLINED_FUNCTION_110 : 28 -> 16
+~ _FigCLCPCaptionGroupConverterFromSampleBufferCreate : 268 -> 212
+~ _clcpcgcfsb_CopyProperty : 448 -> 176
+~ _clcpcgcfsb_SetProperty : 444 -> 172
+~ _surrogateAIG_Finalize : 464 -> 164
+~ ___surrogateAIG_SetProperty_block_invoke : 476 -> 184
+~ _surrogateAIG_RequestCGImageAtTimeAsync : 1420 -> 552
+~ _surrogateAIG_CancelAllCGImageAsyncRequests : 860 -> 324
+~ _surrogateAIG_SetSavedPropertyOnSubGenerator : 464 -> 184
+~ _fvfbsrc_handleServerMessage : 5932 -> 5680
+~ _FigWebVTTFormatWriterCreateWithByteStream : 356 -> 316
+~ _OUTLINED_FUNCTION_0 : 20 -> 52
+~ -[FigVideoLayer _setupTraceLevel] : 136 -> 4
+~ -[FigVideoLayer initWithDeferredTransaction:] : 600 -> 252
+~ -[FigVideoLayer initWithoutDeferredTransaction] : 544 -> 200
+~ -[FigVideoLayer dealloc] : 428 -> 144
+~ -[FigVideoLayer layerDidBecomeVisible:] : 544 -> 220
+~ -[FigVideoLayer isVideoLayerBeingServiced] : 408 -> 72
+~ -[FigVideoLayer _sendVideoLayerIsBeingServicedNotification] : 368 -> 72
+~ _FigAssertionCopyProperty : 428 -> 148
+~ _FigAssertionSetProperty : 224 -> 200
+~ _FigReadAheadAssertionCreate : 580 -> 180
+~ _FigPlaybackAssertionCreate : 580 -> 180
+~ _FigNSURLSessionAssertionCreate : 580 -> 180
+~ _figAssertionFinalize : 368 -> 84
+~ _figTTMLRoot_CopyChildNodeArray : 152 -> 184
+~ _PersistentKeyUpdatedCallback : 448 -> 176
+~ _KeyRequestErrorOccurredCallback : 200 -> 140
+~ _AddWeakListenerOnExternalProtectionMonitor : 676 -> 160
+~ _FigPKDCPECryptorFinalize : 380 -> 80
+~ _RemoveWeakListenerOnExternalProtectionMonitor : 668 -> 152
+~ _ExternalProtectionStatusChangedCallback : 352 -> 84
+~ _frpfanout_setProperty : 248 -> 212
+~ _frpfanout_sourceQueueBecameReady : 324 -> 8
+~ _frpfanout_resetOutput : 352 -> 80
+~ _frpfanout_enqueueFrameApplierFunc : 456 -> 156
+~ _fpic_CheckIfPlayheadHasReachedPrimaryPlaybackGate : 620 -> 272
+~ _fpic_copyInterstitialPlayer : 188 -> 212
+~ _fpic_CopyEvents : 260 -> 224
+~ _fpic_HandleAirPlayVideoActiveDidChange : 540 -> 488
+~ _fpic_HandleSeekDidFinishNotification : 588 -> 528
+~ _fpirc_CopyPlayableEventsForItem : 488 -> 364
+~ _OUTLINED_FUNCTION_1 : 28 -> 36
+~ _OUTLINED_FUNCTION_6 : 32 -> 12
+~ _OUTLINED_FUNCTION_51 : 12 -> 76
+~ _ExternalProtectionStatusChangedCallback : 352 -> 84
+~ _ExternalProtectionRequiredChangedCallback : 352 -> 84
+~ _OUTLINED_FUNCTION_0 : 24 -> 36
+~ _OUTLINED_FUNCTION_0 : 28 -> 36
+~ _FigMetricItemPlaybackSummaryEventCreate : 752 -> 440
+~ _FigMetadataReaderCreateWithSampleBufferForIcy : 356 -> 240
+~ _FigIcyMetadataCopyValue : 660 -> 352
+~ _FigIcyMetadataGetKeyCount : 636 -> 116
+~ _FigIcyMetadataCopyKeyAtIndex : 492 -> 204
+~ _fiqcfo_GetMaximumDisplaySize : 964 -> 364
+~ _fiqcfo_UpdateCacheIsEnabledNoLock : 816 -> 72
+~ _fiqcfo_flush : 572 -> 300
+~ _fiqcfo_setAsync : 556 -> 284
+~ _fiqcfo_setDirection : 600 -> 328
+~ _fiqcfo_AddFrameToCachedVideoFramesNoLock : 684 -> 364
+~ -[FigFCRCALayerOutputNodeContentLayer init] : 372 -> 120
+~ -[FigFCRCALayerOutputNodeLayer init] : 784 -> 248
+~ -[FigFCRCALayerOutputNodeLayer setContents:] : 452 -> 176
+~ -[FigFCRCALayerOutputNodeLayer setBounds:] : 576 -> 272
+~ -[FigFCRCALayerOutputNodeLayer setPosition:] : 580 -> 292
+~ -[FigFCRCALayerOutputNodeLayer setCornerRadius:] : 484 -> 204
+~ -[FigFCRCALayerOutputNodeLayer setWindowOpacity:] : 436 -> 164
+~ -[FigFCRCALayerOutputNodeLayer setNodeOptions:forKeyPath:] : 348 -> 4
+~ -[FigFCRCALayerOutputNodeLayer setNodeSeparated:] : 352 -> 4
+~ -[FigFCRCALayerOutputNodeLayer addAnimation:forKey:] : 824 -> 292
+~ _sbcdq_IsQueueAtOrAboveHighWater : 492 -> 148
+~ _sbcdq_IsQueueBelowLowWater : 492 -> 148
+~ _sbcdq_LowWaterTriggerCallbackAsync : 620 -> 112
+~ _globalRoutingRegistry_handleDeadConnection : 288 -> 4
+~ _remoteGlobalRoutingRegistry_Finalize : 312 -> 100
+~ _digestSubtitleSample : 368 -> 120
+~ _OUTLINED_FUNCTION_0 : 28 -> 36
+~ _FigVideoReceiverConnectionHelperCreateForVideoReceiverAndCopyBootstrapEndpoint : 416 -> 360
+~ _DisposeServedVideoReceiverState : 772 -> 268
+~ _figVideoReceiverServer_handleRemoteNoReplyMessage : 1476 -> 396
+~ _videoReceiverServer_releaseImageQueue : 700 -> 216
+~ _videoReceiverServer_setImageQueueMessage : 740 -> 272
+~ _videoReceiverRemote_Finalize : 412 -> 100
+~ _remoteVideoReceiver_DeadConnectionCallback : 480 -> 128
+~ _OVCGLObjectCacheGetObjectForSurfaceAndPlane : 452 -> 84
+~ _ovcgloc_getObjectForSurfaceOrAttributes : 1328 -> 552
+~ _OVCGLObjectCacheGetObjectForAttributesAndPlane : 540 -> 128
+~ _OVCGLObjectCacheCreate : 596 -> 244
+~ _OVCGLObjectCacheDestroy : 420 -> 136
+~ _OVCGLObjectCacheFlushObjectsForSurface : 732 -> 188
+~ _openglVideoCompositor_Finalize : 996 -> 708
+~ _openglVideoCompositor_RenderFrame : 18456 -> 10060
+~ _openglVideoCompositor_SetOutputCallback : 540 -> 220
+~ ___openglVideoCompositor_RenderFrame_block_invoke : 156 -> 100
+~ _ovc_getColorMatrixForPixelFormatConversion : 3908 -> 636
+~ ___ovc_setNewInFlightEntry_block_invoke_2 : 632 -> 344
+~ ___openglVideoCompositor_SetOutputCallback_block_invoke : 528 -> 144
+~ _ovc_createAndConfigureGLProgram : 1664 -> 320
+~ _FigAssetCopyAssetWithDownloadToken : 420 -> 96
+~ ___FigBufferedAirPlayGlobalRoutingRegistryLocalGetShared_block_invoke : 612 -> 344
+~ _localGlobalRoutingRegistry_Finalize : 312 -> 100
+~ _FigMediaparserdUtilities_StartMediaparserdUtilitiesServer : 256 -> 192
+~ _FigMediaparserdUtilities_handleMessage : 292 -> 8
+~ _FigMediaparserdUtilities_noReplyHandleMessage : 304 -> 8
+~ _FigOutOfBandTrackControllerInvalidate : 1108 -> 824
+~ _oobtcontroller_handlePlayerNotification : 628 -> 124
+~ _oobtcontroller_handlePlaybackItemNotification : 676 -> 188
+~ _FigOutOfBandTrackControllerSetProperty : 2020 -> 1048
+~ _oobtcontroller_updateNeroVideoMode : 768 -> 496
+~ ___FigOutOfBandTrackControllerSetProperty_block_invoke : 488 -> 212
+~ _FigOutOfBandTrackControllerPrepare : 1312 -> 1056
+~ _FigOutOfBandTrackControllerSetCurrentTime : 700 -> 396
+~ ___FigOutOfBandTrackControllerSetCurrentTime_block_invoke : 504 -> 204
+~ ___FigOutOfBandTrackControllerSetRateAndAnchorTime_block_invoke : 556 -> 256
+~ _FigPropertyStorageCreate : 636 -> 224
+~ __figPropertyStorageSetValue : 748 -> 196
+~ _figPropertyStorageFinalize : 352 -> 60
+~ _FigCRABSCachePrimerCreate : 608 -> 260
+~ _figCRABSCachePrimerFinalize : 408 -> 140
+~ _FigNeroPlayServerSetOctaviaSender : 444 -> 144
+~ __FigNeroPlayServerFinalize : 532 -> 240
+~ __FigNeroPlayServerRenderProc : 3492 -> 624
+~ ____FigNeroPlayServerDeviceUIDChanged_block_invoke : 924 -> 168
+~ __FigNeroPlayServerStopAudio : 2096 -> 156
+~ __FigNeroPlayServerUpdateDesiredOctaviaSampleRate : 1672 -> 252
+~ __ZL17wvmHeaderCallbackPvPcPhPd : 2232 -> 1208
+~ _FigAudioSessionCreateUsingAuxiliaryAVAudioSession : 600 -> 604
+~ _audioSessionAVAudioSession_CopyRequestedConfigurationForProperty : 1268 -> 548
+~ _audioSessionAVAudioSession_RequestConfigurationForProperty : 904 -> 372
+~ _audioSessionAVAudioSession_CopyCMSessionProperty : 504 -> 228
+~ _audioSessionAVAudioSession_SetCMSessionProperty : 488 -> 220
+~ _audioSessionAVAudioSession_CopyMXSessionProperty : 1272 -> 388
+~ _audioSessionAVAudioSession_SetMXSessionProperty : 1264 -> 380
+~ _audioSessionAVAudioSession_Activate : 496 -> 216
+~ _audioSessionAVAudioSession_Deactivate : 572 -> 284
+~ _audioSessionAVAudioSession_CopyMXSessionPropertiesAndErrors : 1352 -> 768
+~ ___audioSessionAVAudioSession_registerMXNotificationTranslationCallbacks_block_invoke : 716 -> 164
+~ ___audioSessionAVAudioSession_registerMXNotificationTranslationCallbacks_block_invoke_2 : 448 -> 128
+~ ___audioSessionAVAudioSession_registerSpatialNotificationTranslationCallbacks_block_invoke : 436 -> 96
+~ ___audioSessionAVAudioSession_registerLossNotificationCallbacks_block_invoke : 568 -> 252
+~ _ftvFramebufferThread : 516 -> 232
+~ _FigToolViewSetVideoGravity : 176 -> 128
+~ _FigToolViewAddVisualContext : 392 -> 68
+~ _FigSampleBufferRenderSynchronizerServerStart : 516 -> 148
+~ _synchronizerServer_disposeFSBRSServer : 388 -> 88
+~ _synchronizerServer_timebaseSyncUpdateCallback_Async : 540 -> 240
+~ _playerceleste_createFigAudioSessionUsingAudioSessionID : 1220 -> 584
+~ _playerceleste_reflectSubPlayerNotificationToClient : 872 -> 396
+~ ___playerceleste_getSharedQueue_block_invoke : 156 -> 108
+~ _FigServer_SleepCallBack : 1860 -> 704
+~ ___playerceleste_handleSubPlayerConfigurationChange_block_invoke : 740 -> 156
+~ _playerceleste_updatePlayerBasedOnAppState : 2108 -> 692
+~ _playerceleste_availableFormatsChangedNotification : 664 -> 184
+~ _playerceleste_PiPIsPossibleDidChangeNotification : 516 -> 260
+~ _playerceleste_DisplayLayoutDidChangeNotification : 764 -> 460
+~ _playerceleste_PickableRoutesDidChangeNotification : 612 -> 104
+~ _playerceleste_setRateWithManualFade : 1048 -> 704
+~ _playerceleste_deferredAvailableFormatsChangedNotification : 728 -> 152
+~ _playerceleste_deferredAppStateChangeListener : 524 -> 220
+~ ___playerceleste_ActiveAudioRouteDidChangeNotification_block_invoke : 732 -> 156
+~ _playerceleste_deferredAudioSessionIsActiveDidChangeNotification : 1360 -> 540
+~ _playerceleste_Invalidate : 1328 -> 824
+~ _playerceleste_Finalize : 536 -> 232
+~ _playerceleste_AddToPlayQueue : 1728 -> 812
+~ _playerceleste_CopyPlayQueueItem : 772 -> 360
+~ _playerceleste_SetRate : 412 -> 96
+~ _playerceleste_GetRate : 724 -> 168
+~ _playerceleste_SetRateWithFade : 556 -> 212
+~ _playerceleste_StartPreroll : 500 -> 188
+~ _playerceleste_StepByCount : 472 -> 168
+~ _playerceleste_SetRateAndAnchorTime : 552 -> 160
+~ _playerceleste_SetRateWithOptions : 416 -> 108
+~ _playerceleste_ReevaluateRouteConfiguration : 288 -> 232
+~ _playerceleste_AddExternalStartupTask : 288 -> 232
+~ _playerceleste_RemoveExternalStartupTask : 288 -> 232
+~ _playerceleste_CopyDisplayedCVPixelBuffer : 296 -> 256
+~ _itemceleste_reflectSubItemNotificationToClient : 548 -> 252
+~ _itemceleste_Invalidate : 552 -> 244
+~ _itemceleste_Finalize : 464 -> 168
+~ _itemceleste_CopyProperty : 500 -> 200
+~ _itemceleste_handleSetProperty : 432 -> 104
+~ _itemceleste_GetDimensions : 752 -> 188
+~ _itemceleste_GetDuration : 744 -> 168
+~ _itemceleste_SetCurrentTime : 564 -> 220
+~ _itemceleste_GetCurrentTime : 744 -> 168
+~ _itemceleste_CopyTrackProperty : 516 -> 216
+~ _itemceleste_MakeReadyForInspection : 860 -> 332
+~ _itemceleste_CopyCommonMetadata : 484 -> 196
+~ _itemceleste_CopyChapterImageData : 484 -> 196
+~ _itemceleste_GetNextThumbnailTime : 516 -> 212
+~ _itemceleste_SetCurrentTimeWithRange : 732 -> 316
+~ _itemceleste_SetTrackProperty : 508 -> 196
+~ _itemceleste_CopyFormatReader : 460 -> 168
+~ _itemceleste_SeekToDateWithID : 508 -> 204
+~ _itemceleste_SetCurrentTimeWithRangeAndID : 768 -> 324
+~ _itemceleste_CopyAsset : 460 -> 168
+~ _itemceleste_ExtractAndRetainNextSampleBuffer : 484 -> 196
+~ _itemceleste_SetCurrentTimeWithOptions : 600 -> 220
+~ _playerceleste_SetConnectionActive : 1220 -> 104
+~ _playerceleste_DuckVolume : 620 -> 224
+~ _playerceleste_SilentMute : 524 -> 196
+~ _ovcbp_getProgramForPixelFormatAndPlane : 396 -> 264
+~ _OVCBicubicPrescalerDestroy : 432 -> 176
+~ _ovcbp_createAndSetupProgram : 308 -> 248
+~ _OVCSetCurrentOpenGLContext : 188 -> 120
+~ _OVCSetOpenGLContextPriority : 604 -> 184
+~ _OVCCreateShader : 584 -> 216
+~ _OVCTexImagePixelBuffer : 608 -> 224
+~ _ovc_getTextureAttributesForRendering : 360 -> 180
+~ _MTProxyAudioProcessingTapCreate : 464 -> 160
+~ _paptap_OneTimeInitializationWork : 56 -> 4
+~ _paptap_BaseClass_Finalize : 328 -> 4
+~ _FigMetricItemVariantChangeEventCreate : 764 -> 452
+~ _famcs_copyMonitorFromRetainProxy : 176 -> 172
+~ _OUTLINED_FUNCTION_6 : 44 -> 36
+~ _OUTLINED_FUNCTION_13 : 40 -> 24
+~ _ProcessMovieAtom : 532 -> 200
+~ _FigVCPInvalidatePrologue : 344 -> 80
+~ _FigVCPInvalidateEpilogue : 308 -> 16
+~ _fvcp_source_createCommon : 744 -> 724
+~ _FigVCPVisualContextSourceCreateWithSamplingWindow : 720 -> 252
+~ _FigVCPBufferQueueSourceCreate : 1032 -> 564
+~ _FigVCPPendingFrameCreateWithWindowedSamples : 236 -> 256
+~ _fvcp_timing_setTimebase : 200 -> 216
+~ _FigVCPTimingStartOver : 600 -> 300
+~ _fvcp_timing_setNextFrameTime : 808 -> 220
+~ _FigVCPTimingResetNextFrameTimeToCurrentTimebaseTime : 124 -> 156
+~ _FigVCPTimingSaveProcessingState : 436 -> 112
+~ _FigVCPProcessingStateHasReachedTheEnd : 980 -> 364
+~ _fvcp_output_OutputOccupancyChanged : 700 -> 304
+~ _FigVCPOutputFlush : 516 -> 212
+~ _fvcp_sourceArray_appendEachSourceToArrayExceptTrackID : 504 -> 156
+~ _FigVCPCompositorHostCancelPendingFrames : 640 -> 348
+~ _FigVCPCompositorHostWaitForAllPendingFramesToComplete : 716 -> 72
+~ _FigVCPCompositorHostSetOutputCallback : 104 -> 140
+~ _FigVCPCompositorHostSetCompletePrerollCallback : 104 -> 140
+~ _FigVCPCompositorHostSetDidReachEndOfOutputCallback : 104 -> 140
+~ _fvcp_compositorHost_FrameCompletion : 856 -> 344
+~ _FigVCPCompositorHostGetUpcomingImageInfo : 1116 -> 288
+~ _fvcp_compositorHost_markPendingFrameAsCancelled : 404 -> 120
+~ _FigVCPCompositorHostDropEarlierPendingFrames : 496 -> 172
+~ _FigVCPCompositorHostRemoveRetainedPendingFrameForOutput : 656 -> 152
+~ _fvcp_compositorHost_removeRetainedPendingFrameFromArray : 428 -> 128
+~ _fvcp_timing_timebaseTimeJumpedOrRateChanged : 356 -> 68
+~ _OUTLINED_FUNCTION_5 : 48 -> 12
+~ _OUTLINED_FUNCTION_8 : 40 -> 12
+~ _OUTLINED_FUNCTION_23 : 16 -> 76
+~ _OUTLINED_FUNCTION_27 : 16 -> 96
+~ _OUTLINED_FUNCTION_38 : 32 -> 12
+~ _OUTLINED_FUNCTION_39 : 32 -> 64
+~ _FigMetricItemPlaybackEndEventCreate : 664 -> 344
+~ _figHTTPRequestTrackMandatoryRunOnce : 220 -> 164
+~ ___FigHTTPRequestCommonMandatoryRequestStart_block_invoke : 456 -> 156
+~ ___FigHTTPRequestCommonMandatoryRequestFinish_block_invoke : 408 -> 124
+~ _figHTTPRequestMandatoryIdleTimer : 384 -> 108
+~ _figTTMLSerializerForByteStream_StartElement : 200 -> 188
+~ _OUTLINED_FUNCTION_2 : 24 -> 16
+~ _OUTLINED_FUNCTION_0 : 24 -> 52
+~ _AudioSampleBufferSplitterSetInitialSegmentStartTimeAndSegmentInterval : 792 -> 228
+~ _OUTLINED_FUNCTION_1 : 24 -> 16
+~ _OUTLINED_FUNCTION_5 : 16 -> 12
+~ ___79-[CMNetworkActivityObserver _pollWithInterval:networkActivityDidCompleteBlock:]_block_invoke : 504 -> 220
+~ -[CMNetworkActivityObserver registerObservations] : 456 -> 160
+~ ___49-[CMNetworkActivityObserver registerObservations]_block_invoke : 680 -> 196
+~ _FigVirtualDisplaySinkFileWriterCreate : 788 -> 476
+~ _fileWriterSink_Finalize : 476 -> 160
+~ _fileWriterSink_CopyProperty : 552 -> 164
+~ _fileWriterSink_SetProperty : 1024 -> 660
+~ _fileWriterSink_Start : 3128 -> 2976
+~ _fileWriterSink_Stop : 1232 -> 968
+~ _fileWriterSink_PushFrame : 2776 -> 2524
+~ _fileWriterSink_GetPropertyAsync : 2200 -> 1668
+~ _fileWriterSink_SetDispatchQueue : 428 -> 84
+~ ___fileWriterSink_getPreferredVirtualDisplaySize_block_invoke : 572 -> 272
+~ _FigWebVTTReadTime : 1116 -> 1104
+~ _webVTTDumpSample : 640 -> 80
+~ _WebVTTParserSetSampleBufferMediaType : 596 -> 76
+~ _WebVTTParserCreate : 228 -> 172
+~ _webVTTAddGenericStylesToStyleList : 1192 -> 1180
+~ _webVTTReadFloatingPointNumberOrPercent : 364 -> 288
+~ _webVTTParseCueAndCreateAttributedString : 7596 -> 5008
+~ _WebVTTCreateMetadataDictionaryFromFormatDescripton : 4544 -> 2220
+~ _webVTTDuplicateCue : 228 -> 168
+~ _webVTTAddCueToSampleQueue : 1048 -> 740
+~ _webVTTCreateSelectorFromString : 1280 -> 948
+~ _webVTTProcessHeaderLineForMetadata : 3456 -> 1340
+~ _webVTTReadNumberOrPercent : 268 -> 192
+~ _webVTTReadPercentageXandY : 520 -> 448
+~ _OUTLINED_FUNCTION_5 : 28 -> 12
+~ _octtextrp_CreateRenderPipelineCommon : 1096 -> 724
+~ _octtextrp_closedCaptionsRenderCallback : 476 -> 168
+~ _octtextrp_subtitleRenderCallback : 584 -> 208
+~ _octtextrp_captionRenderCallback : 584 -> 208
+~ _figOctaviaTextRenderPipelineInvalidate : 580 -> 300
+~ _figOctaviaTextRenderPipelineFinalize : 320 -> 4
+~ _figOctaviaTextRenderPipelineCopyProperty : 800 -> 448
+~ _figOctaviaTextRenderPipelineSetProperty : 1528 -> 1192
+~ _octtextrp_rasterizeAndDisplaySubtitle : 708 -> 700
+~ _FigMutableMovieServerStart : 312 -> 256
+~ _HandleMutableMovieDeleteTrackMessage : 456 -> 184
+~ _HandleMutableMovieInsertEmptySegmentMessage : 596 -> 228
+~ _HandleMutableMovieInsertEmptyTrackSegmentMessage : 632 -> 252
+~ _HandleMutableMovieDeleteSegmentMessage : 596 -> 228
+~ _HandleMutableMovieDeleteTrackSegmentMessage : 632 -> 252
+~ _ntic_compressLine32BPP_Vec : 848 -> 684
+~ _NeroTextImageCodec_Decompress32BPPImage : 628 -> 684
+~ _ntic_decodeLineRLEto32BGRA : 808 -> 756
+~ _ccRasterizerSetRenderSize : 572 -> 324
+~ _subtitleRasterizerSetVideoSizeAndDisplayRect : 532 -> 196
+~ _subtitleRasterizerSetFontName : 424 -> 116
+~ _subtitleRasterizerReset : 400 -> 104
+~ _subtitleRasterizerImageHasChangedSinceLastCopy : 376 -> 52
+~ _FigTextRasterizerCreatePixelBufferFromBitmapContext : 204 -> 224
+~ ___FigOctaviaVideoRenderPipelineCreate_block_invoke : 3056 -> 504
+~ _octrp_createSourceQueueAndInstallTriggers : 1024 -> 260
+~ _octrp_inhibitOutputUntil : 544 -> 256
+~ _octrp_resetOutputQueue : 368 -> 68
+~ _octrp_timebaseMasterDidChange : 564 -> 104
+~ _octrp_ensurePreferredClock : 816 -> 224
+~ _octrp_updateSyncMomentSourceOnTimebase : 880 -> 236
+~ _octrp_timebaseSyncUpdateCallback : 876 -> 184
+~ _octrp_copyNeroProperty : 768 -> 172
+~ _octrp_setNeroProperty : 580 -> 144
+~ _octrp_SetRateAndAnchorTime : 1208 -> 308
+~ _octvrp_PretendOutputIsLow : 472 -> 180
+~ _octrp_sendSampleBuffersToNeroIfNeeded : 2708 -> 620
+~ _octrp_reflectNeroNotification : 524 -> 240
+~ _octrp_sourceQueueDataBecameReady : 164 -> 128
+~ _octrp_sourceQueueBuffersBecameAvailable : 164 -> 128
+~ _octrp_sourceQueueWasReset : 408 -> 104
+~ _sumOfIFFRat32 : 256 -> 180
+~ _IFFItemGetOrCreateWithID : 336 -> 324
+~ _createFormatDescriptionForItem : 1644 -> 1348
+~ _IFFPictureTileAccessorCopySpatialRelationDictionary : 592 -> 568
+~ __cfArrayGetSizeLimitedInt32IfPresent : 304 -> 132
+~ __cfDictionaryGetSizeLimitedInt32IfPresent : 184 -> 124
+~ _OUTLINED_FUNCTION_31 : 12 -> 28
+~ _OUTLINED_FUNCTION_38 : 32 -> 24
+~ _OUTLINED_FUNCTION_39 : 40 -> 24
+~ _OUTLINED_FUNCTION_42 : 28 -> 8
+~ _FigPlayerInterstitialEventValidate : 164 -> 144
+~ _FigPlayerInterstitialEventsCreateFromTaggedRangeMetadata : 3072 -> 3044
+~ _FigOctaviaClockCreateConsumingNeroClock : 796 -> 456
+~ _octclock_Finalize : 424 -> 144
+~ _RegisterFigAudioSession : 120 -> 64
+~ _nero_Finalize : 160 -> 144
+~ _FigNeroCreate : 1228 -> 316
+~ ___FigNeroSetup_block_invoke : 2300 -> 696
+~ ___FigNeroSetup_block_invoke_2 : 8 -> 2116
+~ _FigNeroTeardown : 868 -> 584
+~ _nrp_destroy : 984 -> 428
+~ ___FigNeroTeardown_block_invoke_3 : 124 -> 144
+~ _nero_tellOctaviaDisplayWasAttached : 1684 -> 352
+~ _nero_createOverlayPixelBufferFromPool : 1844 -> 700
+~ ___nero_createVideoRenderPipeline_block_invoke : 7440 -> 2680
+~ _nrp_sourceQueueDidBecomeReady : 124 -> 104
+~ _nrp_reflectNotificationToOctavia : 864 -> 180
+~ _nrp_setTimebase : 1416 -> 896
+~ ___nero_acquireNeroTimebaseForOctaviaTimebase_block_invoke : 852 -> 252
+~ ___nero_relinquishNeroTimebase_block_invoke : 664 -> 132
+~ ___nero_destroyVideoRenderPipeline_block_invoke : 736 -> 208
+~ ___nero_retainClockForOctavia_block_invoke : 812 -> 276
+~ ___nero_releaseClockForOctavia_block_invoke : 660 -> 156
+~ _nds_didDecodeFrame : 1712 -> 288
+~ ___nero_createVideoDecompressionSession_block_invoke : 1928 -> 316
+~ _nds_destroy : 384 -> 108
+~ ___nero_displayWasAttached_block_invoke : 184 -> 140
+~ ___nero_displayWasDetached_block_invoke : 100 -> 124
+~ _FigVirtualDisplaySessionRemoteCreate : 140 -> 16
+~ _sessionCreateCommon : 1672 -> 1444
+~ _fvdsr_finalize : 484 -> 180
+~ _fvdsr_sendBasicMessage : 1260 -> 756
+~ ___sessionStart_block_invoke : 1740 -> 1304
+~ ___sessionStop_block_invoke : 616 -> 60
+~ ___sessionSuspend_block_invoke : 848 -> 76
+~ ___sessionResume_block_invoke : 1084 -> 616
+~ ___FigEndpointStreamAudioEngineRemoteXPC_ensureClientEstablished_block_invoke : 568 -> 232
+~ _remoteXPCAudioEngineClient_DeadConnectionCallback : 580 -> 284
+~ ___remoteXPCAudioEngineClient_handleCompletionCallback_block_invoke : 408 -> 120
+~ _FigEndpointStreamAudioEngineRemoteXPC_CopyProperty : 892 -> 580
+~ _FigEndpointStreamAudioEngineRemoteXPC_Suspend : 520 -> 232
+~ _FigEndpointStreamAudioEngineRemoteXPC_SetRateAndAnchorTime : 688 -> 408
+~ ___remoteXPCAudioEngine_getAPAudioSourceSharedMemoryWriterSetMessage_block_invoke : 360 -> 60
+~ _PersistentKeyUpdatedCallback : 448 -> 176
+~ _KeyRequestErrorOccurredCallback : 448 -> 176
+~ _DecryptContextInvalidated : 388 -> 124
+~ _AddWeakListenerOnExternalProtectionMonitor : 676 -> 160
+~ _FigPKDMSECPECryptorInvalidate : 336 -> 28
+~ _FigPKDMSECPECryptorFinalize : 380 -> 80
+~ _RemoveWeakListenerOnExternalProtectionMonitor : 668 -> 152
+~ _ExternalProtectionStatusChangedCallback : 352 -> 84
+~ _OUTLINED_FUNCTION_6 : 16 -> 52
+~ _OUTLINED_FUNCTION_22 : 56 -> 84
+~ _FigAirPlaySecureStopRouterCreateSecureStopUUID : 912 -> 176
+~ _FigAirPlaySecureStopRouterRegisterSecureStopManager : 1000 -> 264
+~ _FigAirPlaySecureStopRouterCommitToDisk : 960 -> 236
+~ _FigAirPlaySecureStopRouterFinalizeRecordAndCommitToDisk : 960 -> 236
+~ ___fassr_ensureAirPlayManagerSingletonContext_block_invoke : 168 -> 104
+~ _FigCDSStackLayoutRegion_FigCDSNodeProtocol_Layout : 4264 -> 3700
+~ _FigMediaPlaylistUtilitySetFigAlternateBitrateCurve : 572 -> 280
+~ _FigVideoCompositorCreateMetal : 424 -> 368
+~ _mvc_SetProperty : 592 -> 588
+~ _mvc_RenderFrame : 2332 -> 2068
+~ _mvc_SetOutputCallback : 548 -> 220
+~ ___mvc_SetOutputCallback_block_invoke : 524 -> 144
+~ _FigVirtualDisplaySessionServerStart : 476 -> 140
+~ _fvdss_handleClientMessage : 7488 -> 4796
+~ _fvdss_verifyConnection : 612 -> 344
+~ -[FigFCRRenderedLegibleOutputNodeContentLayer init] : 372 -> 120
+~ -[FigFCRRenderedLegibleOutputNodeLayer init] : 784 -> 248
+~ -[FigFCRRenderedLegibleOutputNodeLayer setContents:] : 452 -> 176
+~ -[FigFCRRenderedLegibleOutputNodeLayer setBounds:] : 576 -> 272
+~ -[FigFCRRenderedLegibleOutputNodeLayer setPosition:] : 580 -> 292
+~ -[FigFCRRenderedLegibleOutputNodeLayer setCornerRadius:] : 484 -> 204
+~ -[FigFCRRenderedLegibleOutputNodeLayer setWindowOpacity:] : 436 -> 164
+~ -[FigFCRRenderedLegibleOutputNodeLayer setNodeOptions:forKeyPath:] : 348 -> 4
+~ -[FigFCRRenderedLegibleOutputNodeLayer setNodeSeparated:] : 352 -> 4
+~ -[FigFCRRenderedLegibleOutputNodeLayer addAnimation:forKey:] : 824 -> 292
+~ _FigDataChannelResourceRemoteHandleDeadConnection : 544 -> 40
+~ _FigDataChannelResourceRemoteCreate : 760 -> 200
+~ _dataChannelResourceRemote_finalize : 400 -> 92
+~ _dataChannelResourceRemote_ProvidePayload : 768 -> 260
+~ _dataChannelResourceRemote_SetFailedToLoad : 764 -> 248
+~ _dataChannelResourceRemote_SetCancelled : 764 -> 248
+~ _dataChannelResourceRemote_GetProcessingState : 768 -> 220
+~ -[FigCoreTelephonyServiceConnection registerListener:callback:queue:] : 296 -> 308
+~ ___69-[FigCoreTelephonyServiceConnection registerListener:callback:queue:]_block_invoke : 664 -> 120
+~ -[FigCoreTelephonyServiceConnection deregisterListener:] : 120 -> 116
+~ ___56-[FigCoreTelephonyServiceConnection deregisterListener:]_block_invoke : 924 -> 300
+~ -[FigCoreTelephonyServiceConnection _handleCTNotification:notificationInfo:] : 756 -> 224
+~ ___76-[FigCoreTelephonyServiceConnection _handleCTNotification:notificationInfo:]_block_invoke : 340 -> 8
+~ ___53-[FigCoreTelephonyServiceConnection _setupConnection]_block_invoke : 1192 -> 472
+~ -[FigCoreTelephonyServiceConnection _teardownConnection] : 444 -> 148
+~ ___51+[FigCoreTelephonyServiceConnection sharedInstance]_block_invoke : 348 -> 40
+~ ___60-[FigCoreTelephonyServiceConnection processDataStatusBasic:]_block_invoke : 768 -> 184
+~ -[FigCoreTelephonyServiceConnection dealloc] : 388 -> 128
+~ _FigNetworkCostMonitorCreate : 1164 -> 592
+~ _figNetworkCostCTCallback : 388 -> 64
+~ _FigNetworkCostMonitorFinalize : 524 -> 236
+~ _figNetworkCostCopyProperty : 416 -> 320
+~ ___figNetworkCostMonitorUpdateGlobalEstimatedMaximumDemand_block_invoke : 420 -> 108
+~ ___figNetworkCostCopyProperty_block_invoke : 440 -> 144
+~ ___figNetworkCostSetProperty_block_invoke : 2316 -> 1016
+~ _figNetworkCostUpdateHighSpeedHighPowerAndCheckForChanges : 760 -> 224
+~ _figNetworkCostUpdateConnectedInterfaceIsExpensive : 448 -> 140
+~ _figNetworkCostMonitorSetDelegate : 828 -> 580
+~ _OUTLINED_FUNCTION_2 : 44 -> 16
+~ _FigContentKeySessionStartServer : 248 -> 192
+~ ___FigContentKeySessionStartServer_block_invoke : 708 -> 220
+~ _FigContentKeySessionServerGetIDForSessionByAssociatingWithClientConnection : 652 -> 140
+~ _FigCaptionCreate : 408 -> 412
+~ _FigCaptionCreateMutableCopy : 672 -> 596
+~ _figRemote_ID3ConvertStringToURL : 476 -> 204
+~ _figRemote_ID3ConvertURLToString : 496 -> 236
+~ _FigHapticEngineCreate : 2184 -> 1596
+~ _figHapticEngineStartOnActivityQueue : 624 -> 84
+~ _FigHapticPlayerCreate : 2620 -> 1176
+~ ___FigHapticPlayerSetVolumeNow_block_invoke : 744 -> 148
+~ ___FigHapticPlayerSetActiveChannelIndexNow_block_invoke : 736 -> 144
+~ ___FigHapticPlayerPauseNow_block_invoke : 500 -> 140
+~ ___FigHapticEngineStopPlayerNow_block_invoke : 1096 -> 504
+~ ___createCHHapticPlayer_block_invoke : 1708 -> 224
+~ _OUTLINED_FUNCTION_1 : 40 -> 12
+~ _FigTX3GCaptionGroupConverterFromSampleBufferCreate : 268 -> 212
+~ _FigTTMLDivCreate : 324 -> 312
+~ _FigBasicAESCPECryptorDecryptH264_FPS : 560 -> 272
+~ _FigBasicAESCPECryptorDecryptHEVC_FPS : 640 -> 360
+~ _OUTLINED_FUNCTION_7 : 28 -> 24
+~ _fnpe_GetInterfaceType : 2136 -> 124
+~ _OUTLINED_FUNCTION_0 : 24 -> 12
+~ _FigTTMLSynchronicTreeCopyTextNodeArray : 188 -> 220
+~ _FigTTMLSynchronicTreeCopyCSS : 160 -> 164
+~ _OUTLINED_FUNCTION_2 : 48 -> 32
+~ _OUTLINED_FUNCTION_1 : 20 -> 36
+~ _OUTLINED_FUNCTION_18 : 32 -> 12
+~ _OUTLINED_FUNCTION_37 : 56 -> 16
+~ _OUTLINED_FUNCTION_42 : 28 -> 24
+~ _OUTLINED_FUNCTION_11 : 44 -> 36
+~ _OUTLINED_FUNCTION_7 : 44 -> 12
+~ _OUTLINED_FUNCTION_10 : 20 -> 36
+~ _OUTLINED_FUNCTION_15 : 12 -> 16
+~ _OUTLINED_FUNCTION_2 : 40 -> 16
+~ _OUTLINED_FUNCTION_3 : 32 -> 20
+~ _OUTLINED_FUNCTION_11 : 40 -> 36
+~ _OUTLINED_FUNCTION_15 : 92 -> 36
+~ _OUTLINED_FUNCTION_2 : 20 -> 88
+~ _FigNetworkUrgencyMonitorCreate.cold.2 : 124 -> 52
+~ _playerfig_createDataChannelConfigurationAndSetIdentifiers.cold.1 : 108 -> 24
+~ _playerfig_removeExcessImageQueuesAndSlotsFromAllWorkingOrLameDuckItems.cold.2 : 124 -> 44
+~ _playerfig_CopyDisplayedCVPixelBuffer.cold.2 : 124 -> 48
+~ _gaec_Copy.cold.1 : 108 -> 24
+~ _videoMentorThreadReversePlayback.cold.8 : 108 -> 28
+~ _sapl_loadPlaylist.cold.1 : 124 -> 44
+~ _figVideoRenderPipelineRequestDecodeForPreroll.cold.2 : 124 -> 48
+~ _audioRendererServer_handleMessageWithReply : 4640 -> 2004
+~ _audioRendererServer_handleMessageNoReply : 1076 -> 152
+~ _audioRendererServer_flushFromTimeCompletionCallback : 420 -> 140
+~ _FigCaptionRendererSessionSetCALayerDevice : 1308 -> 672
+~ _FigCaptionRendererSessionSetPlayer : 476 -> 84
+~ _setPlayerDo : 1068 -> 564
+~ _getOutputNodeLayout.cold.5 : 108 -> 8
+~ _setOptionsDo.cold.1 : 108 -> 8
+~ _timebaseChangedCallbackDo.cold.1 : 108 -> 32
+~ _renderCaptionDo.cold.3 : 108 -> 4
+~ _onCaptionInputDo.cold.1 : 108 -> 176
+~ _onCaptionInputDo.cold.2 : 108 -> 8
+~ _subrp_sendSubtitleSampleForSampleBuffer.cold.2 : 108 -> 32
+~ _subrp_sendEmptySubtitleSample.cold.2 : 108 -> 28
+~ _FPSupport_CopyCurrentlyDisplayedPixelBufferFromCAImageQueueArray : 560 -> 240
+~ _FPSupport_GetDisplayRefreshInformation : 1436 -> 1264
+~ _FPSupport_AudioSamplesAreDiverse : 640 -> 500
+~ _FPSupport_AppendDeferredTransactionChangeForClearingFigVideoLayers : 304 -> 264
+~ _FPSupport_AppendDeferredTransactionChangeForAttachingFigVideoLayersToClientLayers : 416 -> 304
+~ _FPSupport_AppendDeferredTransactionChangeForSettingCAImageQueuesOnVideoLayers : 400 -> 328
+~ _FPSupport_AppendDeferredTransactionChangeForSettingDurationOnLayers : 304 -> 260
+~ _FPSupport_AppendDeferredTransactionChangeForSettingBoundsOnLayers : 348 -> 288
+~ _FPSupport_AppendDeferredTransactionChangeForSettingTransformOnLayers : 368 -> 304
+~ _FPSupport_AppendDeferredTransactionChangeForSettingEdgeAntialiasingMaskOnLayers : 292 -> 252
+~ _FPSupport_AppendDeferredTransactionChangeForCallingSetContentsChangedOnLayers : 296 -> 228
+~ _FPSupport_AppendDeferredTransactionChangeToRelease : 268 -> 216
+~ _FPSupport_AppendDeferredTransactionChangeToReleaseOSTransaction : 248 -> 192
+~ _FPSupport_AppendDeferredTransactionChangeToClearContentsAndRemoveFromSuperLayer : 256 -> 200
+~ _FPSupport_AppendDeferredTransactionPostCommitChangeToReleasePlayerResourcesOnQueue : 376 -> 272
+~ _FPSupport_AppendDeferredTransactionChangeForSettingImageQueueSlotsOnVideoLayers : 336 -> 296
+~ _fpSupport_handlePlayerOrItemSetPropertiesAndCopyModification : 404 -> 288
+~ _FPSupport_HandlePlayerSetPropertiesAndForwardToSubPlayer : 428 -> 300
+~ _fpSupport_handlePlayerOrItemSetPropertyAndCopyModification : 488 -> 304
+~ _FPSupport_HandlePlayerSetPropertyAndForwardToSubPlayer : 380 -> 272
+~ _FPSupport_HandlePlaybackItemSetPropertyAndForwardToSubItem : 380 -> 272
+~ _FPSupport_HandlePlaybackItemSetPropertiesAndForwardToSubItem : 428 -> 300
+~ _FPSupport_GetAudioFormatDescriptionSpatializationEligibility : 1224 -> 388
+~ _FPSupport_CreateDefaultCoordinationIdentifierForPlaybackItem : 552 -> 408
+~ _FPSupport_CreatePayloadForLastPlayedDateNotification : 320 -> 200
+~ _fpSupport_SetupMediaValidatorPlist.cold.2 : 124 -> 68
+~ _fpSupport_SetupMediaValidatorPlist.cold.4 : 152 -> 52
+~ _FPSupport_updateClosedCaptionLayerBounds.cold.1 : 108 -> 32
+~ _storeClosedCaptionLayerBoundsInCacheForLayerIndex.cold.1 : 140 -> 64
+~ _storeClosedCaptionLayerBoundsInCacheForLayerIndex.cold.3 : 108 -> 28
+~ _FPSupport_AppendDeferredTransactionChangeToTargetMirroringObserverAtDisplayOfCALayer.cold.2 : 124 -> 48
+~ _FPSupport_CreateFigTagCollectionFromFormatDescriptionExtensions.cold.1 : 124 -> 48
+~ _saig_SetProperty : 564 -> 244
+~ _saig_DurationChanged : 668 -> 452
+~ _saig_AlternateListChanged : 2648 -> 1768
+~ _saig_RequestCGImageAtTimeAsync : 892 -> 468
+~ _saig_RequestAnImageFromPump : 2236 -> 1276
+~ _saig_PumpTransferCallback : 996 -> 636
+~ _saig_GetPumpReady : 2112 -> 1576
+~ _saig_BytePumpFn : 3732 -> 1792
+~ _saig_FmtDescChangeNote : 980 -> 480
+~ _saig_PushSampleBuffer : 9376 -> 5308
+~ _saig_CancelAllCGImageAsyncRequests.cold.1 : 124 -> 44
+~ _saig_processImageRequestThread.cold.1 : 124 -> 44
+~ _saig_NewTrackNote.cold.1 : 124 -> 44
+~ _faf_ImmersiveAudioPreferenceFilterFn : 220 -> 216
+~ _FigAlternateCombinedAudioPreferenceFilterCreate : 4316 -> 3636
+~ _FigAlternateVideoLayoutCapabilityFilterCreate : 996 -> 440
+~ _fiv_copyFilteringSupportedTagCollectionArray : 544 -> 532
+~ _fivc_filterFn : 740 -> 384
+~ _FigAlternateVideoLayoutPreferenceFilterCreate : 852 -> 436
+~ _fsaf_firstPassCFArrayApplierFn : 96 -> 92
+~ _faf_mergeFilterApplyReturningInfo : 1888 -> 1600
+~ _faf_defaultAudioPreferenceApply : 704 -> 624
+~ _faf_CombinedAudioPreferenceAlternateFilterForChannels : 596 -> 508
+~ _FigAlternatePathwayPreferenceFilterCreate.cold.1 : 164 -> 80
+~ _fsaf_createWithBytes.cold.1 : 136 -> 48
+~ _fsaf_createWithNoContext.cold.1 : 124 -> 36
+~ _faf_HDCPAlternateFilterApply.cold.2 : 124 -> 36
+~ _faf_mediaSelectionAudibleAlternateFilterApply.cold.1 : 124 -> 40
+~ _dqr_HandleRemoteMessagesFromServer : 1124 -> 300
+~ _dqr_finalize : 344 -> 336
+~ _dqr_EnqueueSampleBuffer : 452 -> 296
+~ _dqr_RemoveLowWaterTrigger : 364 -> 208
+~ _dqr_Flush : 312 -> 228
+~ _FigDataQueueRemoteCreateWithObjectID.cold.5 : 148 -> 64
+~ _dqr_setProperty.cold.1 : 124 -> 44
+~ _dqr_setProperty.cold.2 : 124 -> 60
+~ _dqr_setProperty.cold.3 : 124 -> 44
+~ _FigVideoTargetCreateWithVideoReceiver : 688 -> 528
+~ _FigVideoTargetCreateWithVideoReceiverEndpointID : 328 -> 188
+~ _videoTarget_getInstanceTypeFromCreationOptions.cold.1 : 124 -> 48
+~ _figVTTCaptionWriterForDocument_AddCaption : 4796 -> 4268
+~ _fcwtt_mapOffsetToSpanAndSpanOffset : 744 -> 672
+~ _fcwvtt_addOnePartitionAsStyleNode : 348 -> 280
+~ _FigByteFlumeCreateWithHTTP : 5916 -> 3552
+~ _FigCFHTTPResetURLAndRead : 332 -> 252
+~ _fbf_ReportingAgentReportErrorEvent : 992 -> 832
+~ _fbf_ConfigurePathEvaluator : 920 -> 480
+~ _fbf_UpdateAndReportMultiPathActivity : 620 -> 244
+~ _fbf_ParseResponseHeadersAndSetLastError : 2636 -> 1044
+~ _fbf_UpdatePathEvaluation : 2232 -> 1932
+~ _fbf_CreateHTTPRequest : 860 -> 888
+~ _FigReportingAgentStatsAddToCountValue : 180 -> 184
+~ _FigCFHTTPReadWithAdditionalHeaders.cold.1 : 124 -> 48
+~ _fbf_TryReconnect.cold.7 : 124 -> 48
+~ ___fbf_TryReconnect_block_invoke.cold.1 : 108 -> 28
+~ _FigCFHTTPCopyIdentifier.cold.1 : 124 -> 72
+~ _FigCFHTTPCopyIdentifier.cold.3 : 124 -> 48
+~ _FigPlayerStartupTaskCreateWithCallbacks.cold.2 : 120 -> 64
+~ _FigPlayerStartupTaskCreateWithCallbacks.cold.3 : 112 -> 44
+~ _FigPlayerStartupTaskCreateWithCallbacks.cold.6 : 112 -> 44
+~ _FigCachedFileByteStreamCreateFromByteStream : 1100 -> 524
+~ _FigReadCacheAddOpenByteStream : 404 -> 152
+~ _FigReadCacheAddOneFileAndCopyContainer : 648 -> 396
+~ _HandleAddOneFileAndCopyContainer : 616 -> 196
+~ _FindFileInCacheAndCopyContainer : 412 -> 176
+~ _AssureContainerFileIsOpen.cold.1 : 124 -> 52
+~ _CreateAndLoadNewContainerInCacheAndReturnContainer.cold.2 : 116 -> 44
+~ _FigXMLReadMemory : 564 -> 392
+~ _FigXMLReadFromByteStream : 720 -> 592
+~ _FigXMLWriteFileDirectlyFromBlockBufferAtURL : 688 -> 316
+~ _FigXMLNodeCreateWithDoc : 308 -> 200
+~ _figXMLNode_processNode : 1308 -> 972
+~ _figXMLNode_convertNodeToLibXMLNode : 1012 -> 756
+~ _FigXMLNodeGetAttributeAsInt64 : 552 -> 176
+~ _FigXMLNodeWriteToFilePath : 372 -> 232
+~ _ps_writeXMLDocToFileAtomically.cold.2 : 108 -> 32
+~ _ps_writeXMLDocToFileAtomically.cold.5 : 124 -> 48
+~ _ps_writeXMLDocToFileAtomically.cold.8 : 124 -> 48
+~ _FigXMLNodeWriteXMLFileFromBlockBufferAtURL.cold.1 : 148 -> 72
+~ _figXMLNodeAddChild.cold.3 : 124 -> 48
+~ _ps_xmlNodeCopyContentAsCFString.cold.2 : 124 -> 48
+~ __ZL19FigCEA608PushSampleP23OpaqueFigCaptionDecoderP20opaqueCMSampleBuffer : 4676 -> 2700
+~ _FigCEA608CaptionDecoderCreate.cold.4 : 124 -> 48
+~ __ZL28FigCEA608DecoderCopyPropertyP18OpaqueCMBaseObjectPK10__CFStringPK13__CFAllocatorPv.cold.1 : 124 -> 48
+~ __ZL48currentTimeFromBytePositionFrameRateAndStartTimel6CMTimeS_.cold.1 : 108 -> 28
+~ _fdcr_UpdateCacheSize : 516 -> 200
+~ _FigDiskCacheRepositoryGetTypeID.cold.1 : 32 -> 12
+~ _fdcr_WriteRepositoryPlist.cold.1 : 124 -> 48
+~ _FigDiskCacheRepositoryCopyProperty.cold.1 : 156 -> 80
+~ _fdcr_RemoveFilePathInListFromArray.cold.1 : 124 -> 28
+~ _fdcr_RemoveFilePathInListFromArray.cold.3 : 124 -> 28
+~ _fdcr_IsResourceInUse.cold.1 : 124 -> 48
+~ _HandleCPEProtectorMessage : 2764 -> 1604
+~ _videoReceiver_CopyProperty : 2032 -> 1532
+~ _videoReceiver_createEndpointID : 388 -> 172
+~ _videoReceiver_copyImageForTime : 1524 -> 1364
+~ _videoReceiver_setImageQueueMessage : 1084 -> 800
+~ _videoReceiver_addDataChannelConfiguration : 2380 -> 1904
+~ _videoReceiver_specifyPreferredDataChannelGroupsWithID : 1388 -> 1092
+~ ___videoReceiver_copyOutputQueuesIfReady_block_invoke : 3860 -> 3408
+~ _videoReceiver_copyTaggedBufferGroupDependentResourcesAndSamplingEventIdentifierForHostTimeInternal : 8636 -> 7880
+~ ___videoReceiver_copyBuffersFromSamplingSourceForHostTime_block_invoke : 2308 -> 2064
+~ ___videoReceiver_createUpdatedSamplingEventIdentifierForPresentationTime_block_invoke : 292 -> 296
+~ _videoReceiver_createPlaybackStartupPreventionAssertion.cold.2 : 148 -> 72
+~ _videoReceiver_createPlaybackStartupPreventionAssertion.cold.5 : 152 -> 24
+~ _videoReceiver_specifyDataChannelSettingsWithID.cold.2 : 124 -> 48
+~ _videoReceiver_provideFrameTelemetryForSamplingEvent.cold.1 : 132 -> 52
+~ _videoReceiver_copyOutputQueuesIfReady.cold.1 : 128 -> 48
+~ _videoReceiver_copyPixelBufferFromImageQueueReceiverSamplingAtTime.cold.2 : 132 -> 56
+~ _videoReceiver_copyPixelBufferFromImageQueueReceiverSamplingAtTime.cold.3 : 124 -> 48
+~ _videoReceiver_copyPixelBufferFromImageQueueReceiverSamplingAtTime.cold.7 : 124 -> 48
+~ _fvr_copyDescriptionSettingsAndResourcesFromConfiguration.cold.1 : 108 -> 28
+~ _vr_createModifiedDataChannelTagCollectionWithDefaultTags.cold.2 : 124 -> 44
+~ _figCAXPCImageQueueSample_copyTelemetryInfoDict.cold.1 : 108 -> 28
+~ _vfbremote_copyProperty : 312 -> 96
+~ _vfbremote_setProperty : 444 -> 296
+~ _vfbremote_getSupportedDigitalOutModes : 1004 -> 692
+~ _vfbremote_setDigitalOutMode : 532 -> 392
+~ _vfbremote_submitSurface : 784 -> 596
+~ _vfbremote_getHDCPDownstreamState : 748 -> 636
+~ _vfbremote_enableMirroring : 572 -> 408
+~ _vfbremote_acquireWritebackSurface : 1356 -> 980
+~ _vfbremote_relinquishWritebackSurface : 644 -> 456
+~ _vfbremote_HDCPSendRequest : 664 -> 572
+~ _vfbremote_HDCPGetReply : 824 -> 672
+~ _vfbremote_setVSyncNotifications : 612 -> 412
+~ _vfbremote_setHotPlugDetectNotifications : 544 -> 404
+~ _vfbremote_connect.cold.1 : 40 -> 20
+~ _InitDiskCache.cold.1 : 128 -> 68
+~ _setContentDo : 1300 -> 584
+~ _FigMediaSelectionGroupsCreateMatchingSelection : 968 -> 676
+~ _CopyAudioCompatibleCompositionPresetArrayOfTrack : 564 -> 296
+~ _FigCreateMediaSelectionArrayFromFormatReaderProperties.cold.3 : 108 -> 28
+~ _FigCreateMediaSelectionArrayFromFormatReaderProperties.cold.14 : 124 -> 48
+~ _CreateMediaSelectionGroupWithOptions.cold.1 : 132 -> 52
+~ _ftreefilter_applyReturningInfo : 1376 -> 1252
+~ _FigAlternateFilterTreeCreateFilter.cold.2 : 136 -> 68
+~ _ftreefilter_copyProperty.cold.1 : 112 -> 44
+~ _ftreefilter_copyProperty.cold.3 : 112 -> 44
+~ _FigCMCDHeaderVendorCopyHeaders : 3352 -> 3084
+~ _cmcd_appendHeaderKeyAndStringValue : 540 -> 408
+~ _FigCMCDHeaderVendorSetBufferDidStarve.cold.2 : 120 -> 44
+~ _cmcd_ensureOrSuffixHeadersString.cold.1 : 112 -> 40
+~ _FigCreateReplacementAudioSBufByOmittingLeadingDependentPackets : 916 -> 580
+~ _FigValidateSampleSeamInSampleBufferQueue : 280 -> 192
+~ _FigBandwidthPeriodicReporterCreate : 1132 -> 768
+~ _bpr_obtainObservedBandwidthForPreviousInterval : 384 -> 348
+~ _bpr_reportPredictionApplier : 996 -> 552
+~ _bpr_timerCallback.cold.5 : 128 -> 52
+~ _bpr_timerCallback.cold.6 : 108 -> 32
+~ _bpr_timerCallback.cold.7 : 108 -> 32
+~ _bpr_timerCallback.cold.8 : 108 -> 28
+~ _FigContentKeyBossClientServerXPC_DeserializeAndCopyKeySpecifier : 316 -> 256
+~ _FigContentKeyBossClientServerXPC_SerializeKeySpecifier : 260 -> 212
+~ _FigContentKeyBossClientServerXPC_CopySerializedKeySpecifiers : 380 -> 264
+~ _FigContentKeyBossClientServerXPC_SerializeKeyRequestDataParams : 308 -> 256
+~ _FigContentKeyBossClientServerXPC_DeserializeAndCopyKeyRequestDataParams : 460 -> 404
+~ _FigContentKeyBossClientServerXPC_SerializeKeyResponseSpecifier : 228 -> 180
+~ _FigContentKeyBossClientServerXPC_DeserializeAndCopyKeyResponseSpecifier : 332 -> 268
+~ _FigContentKeyBossClientServerXPC_SerializeSecureTokenRequestSpecifier : 256 -> 204
+~ _FigContentKeyBossClientServerXPC_DeserializeAndCopyKeyRequestParams.cold.2 : 120 -> 52
+~ _FigContentKeyBossClientServerXPC_DeserializeAndCopyKeySpecifiers.cold.1 : 112 -> 52
+~ _FigCDSFreeLayoutRegionCreate : 560 -> 520
+~ _FigBufferedAirPlayAudioChainSubPipePassthroughCreate : 4756 -> 1188
+~ _bapspPassthrough_inspectSampleBuffer : 948 -> 276
+~ _bapspPassthrough_invalidate : 460 -> 164
+~ _bapspPassthrough_flush : 620 -> 628
+~ _mpd_CreateWidevinePSSHDataEntry : 1692 -> 948
+~ _MoviePSSHData_CreatePSSHDataEntries : 1748 -> 724
+~ _MoviePSSHData_GetPlayReadyProtectionSystemData.cold.3 : 124 -> 48
+~ _MoviePSSHData_GetPlayReadyProtectionSystemData.cold.7 : 124 -> 48
+~ __ZL25playercentral_SetPropertyP18OpaqueCMBaseObjectPK10__CFStringPKv : 368 -> 288
+~ __ZL31playercentral_handleSetPropertyP15OpaqueFigPlayerPvPK10__CFStringPKvPhPS4_PS6_ : 6172 -> 3728
+~ __ZL39playercentral_updateSessionMutePriorityP15OpaqueFigPlayer : 740 -> 348
+~ __ZL55playercentral_establishIfPlayerIsSilentAndTellMXSessionP15OpaqueFigPlayer25FigPlayerCentralMuteEvent : 2220 -> 2020
+~ __ZL29playercentral_SetRateWithFadeP15OpaqueFigPlayerf6CMTime : 824 -> 308
+~ __ZL34playercentral_SetRateAndAnchorTimeP15OpaqueFigPlayerf6CMTimeS1_j : 908 -> 364
+~ __ZL32playercentral_SetRateWithOptionsP15OpaqueFigPlayerfPK14__CFDictionary : 764 -> 260
+~ __ZL27playercentral_SetPropertiesP15OpaqueFigPlayerPK14__CFDictionaryPS3_ : 496 -> 336
+~ __ZL23itemcentral_SetPropertyP18OpaqueCMBaseObjectPK10__CFStringPKv : 944 -> 316
+~ __ZL25itemcentral_SetPropertiesP21OpaqueFigPlaybackItemPK14__CFDictionaryPS3_ : 1108 -> 364
+~ __ZL43playercentral_updateCMSessionIsPlayingStateP15OpaqueFigPlayer : 696 -> 712
+~ _fcgcfs_ttml_AddSampleBuffer : 452 -> 300
+~ ___FigVideoTargetStartServer_block_invoke : 692 -> 248
+~ _HandleVideoTargetNoReplyMessage : 1396 -> 356
+~ _FigFairplayPSSHAtomParserParseAndCreateRecordInProcess : 1116 -> 668
+~ _ffpap_parseFpsKeySystemInfoAtom : 336 -> 184
+~ _ffpap_parseFpsKeySystemRequestAtom : 376 -> 236
+~ _ffpap_parseFpsKeySystemRequestInfoAtom : 380 -> 228
+~ _ffpap_parseFpsKeySystemAssetIdAtom : 356 -> 168
+~ _ffpap_parseFpsKeySystemVersionListAtom : 560 -> 300
+~ _FigPlayerRemoteCreateWithOptions : 2048 -> 1172
+~ _FigSharedRemote_SetDiskCacheParams : 644 -> 328
+~ _FigSharedRemote_CheckIntoAndOutOfDiskCache : 828 -> 360
+~ _FigSharedRemote_DeleteFromDiskCache : 676 -> 320
+~ _FigSharedRemote_ReserveDiskCacheBacking : 664 -> 312
+~ _FigSharedRemote_CopyDiskCacheCheckedInIDs : 672 -> 288
+~ _FigSharedRemote_GetCacheFileSize : 748 -> 328
+~ _FigSharedRemote_CopyCacheProperty : 836 -> 368
+~ _FigSharedRemote_MakeRoomInDiskCache : 620 -> 316
+~ _FigSharedRemote_GetRentalInfo : 740 -> 464
+~ _FigSharedRemote_CopyVideoCompressorSupportedPropertyDictionary : 652 -> 384
+~ _FigSharedRemote_EnsureReadyToCollectIncrementalCoverageDataWithPattern : 240 -> 236
+~ _FigSharedRemote_BeginUpdatingIncrementalCodeCoverageData : 208 -> 196
+~ _FigSharedRemote_FinishUpdatingIncrementalCodeCoverageData : 208 -> 196
+~ _remoteXPCPlayer_connectVideoLayerToPlaybackItem : 1044 -> 812
+~ _remoteXPCItem_updateLayerSync : 1848 -> 1100
+~ _remoteXPCPlayer_connectImageQueueToVideoLayerArray : 2732 -> 1872
+~ _fpr_copyLegibleOutputChangedNotificationPayloadFromMessage : 756 -> 456
+~ _remoteXPCItem_HandleTimebaseSynchronizationUpdate : 420 -> 192
+~ _remoteXPCPlayer_Invalidate : 1664 -> 1220
+~ _remoteXPCPlayer_SetProperty : 560 -> 240
+~ _remoteXPCPlayer_copyCurrentlyDisplayedCVPixelBufferWithSlotOption : 564 -> 324
+~ _remoteXPCPlayer_setClientVideoLayerArray : 2776 -> 1956
+~ _remoteXPCPlayer_setNetworkCacheURL : 536 -> 300
+~ _remoteXPCPlayer_setMasterClock : 1096 -> 408
+~ _remoteXPCPlayer_reevaluateSpatialTrackingLayersAndUpdateLabelIfNecessary : 1412 -> 728
+~ _remoteXPCPlayer_updateClosedCaptionHostLayerArray : 1632 -> 1124
+~ _remoteXPCPlayer_AddToPlayQueue : 1208 -> 748
+~ _remoteXPCPlayer_RemoveFromPlayQueue : 728 -> 400
+~ _remoteXPCPlayer_CopyPlayQueueItem : 860 -> 284
+~ _remoteXPCPlayer_SetRate : 388 -> 192
+~ _remoteXPCPlayer_SetRateWithFade : 432 -> 228
+~ _remoteXPCPlayer_StartPreroll : 388 -> 180
+~ _remoteXPCPlayer_SetRateAndAnchorTime : 548 -> 296
+~ _remoteXPCPlayer_CreatePlaybackItemFromAsset : 1428 -> 840
+~ _remoteXPCPlayer_SetRateWithOptions : 448 -> 216
+~ _remoteXPCPlayer_SetProperties : 496 -> 428
+~ _remoteXPCPlayer_CopyDisplayedCVPixelBuffer : 284 -> 280
+~ _remoteXPCItem_CopyProperty : 1832 -> 912
+~ _remoteXPCItem_copyImageQueueGauge : 580 -> 268
+~ _remoteXPCItem_copyMetricEventTimeline : 588 -> 252
+~ _remoteXPCItem_GetDimensions : 500 -> 224
+~ _remoteXPCItem_GetDuration : 496 -> 228
+~ _remoteXPCItem_SetCurrentTime : 428 -> 220
+~ _remoteXPCItem_CopyTrackProperty : 1092 -> 436
+~ _remoteXPCItem_MakeReadyForInspection : 400 -> 200
+~ _remoteXPCItem_CopyCommonMetadata : 564 -> 284
+~ _remoteXPCItem_CopyChapterImageData : 536 -> 300
+~ _remoteXPCItem_GetNextThumbnailTime : 492 -> 252
+~ _remoteXPCItem_SetCurrentTimeWithRange : 580 -> 300
+~ _remoteXPCItem_SetTrackProperty : 1572 -> 768
+~ _remoteXPCItem_CopyFormatReader : 304 -> 220
+~ _remoteXPCItem_SeekToDateWithID : 488 -> 200
+~ _remoteXPCItem_SetCurrentTimeWithRangeAndID : 616 -> 336
+~ _remoteXPCItem_CopyAsset : 300 -> 216
+~ _remoteXPCItem_ExtractAndRetainNextSampleBuffer : 1280 -> 352
+~ _remoteXPCItem_SetCurrentTimeWithOptions : 472 -> 224
+~ _remoteXPCPlayer_EndInterruption : 380 -> 184
+~ _remoteXPCPlayerClient_NotificationFilter.cold.1 : 188 -> 32
+~ _remoteXPCPlayerClient_NotificationFilter.cold.3 : 108 -> 28
+~ _remoteXPCPlayer_CopyProperty.cold.3 : 124 -> 64
+~ _remoteXPCPlayer_CopyProperty.cold.4 : 64 -> 56
+~ _remoteXPCPlayer_CopyProperty.cold.5 : 56 -> 72
+~ _remoteXPCPlayer_GetObjectID.cold.1 : 124 -> 48
+~ _remoteXPCPlayer_GetObjectID.cold.3 : 124 -> 48
+~ _remoteXPCPlayer_handleSetProperty.cold.4 : 124 -> 48
+~ _remoteXPCPlayer_handleSetProperty.cold.6 : 124 -> 88
+~ _remoteXPCPlayer_handleSetProperty.cold.12 : 124 -> 20
+~ _remoteXPCPlayer_handleSetProperty.cold.14 : 124 -> 84
+~ _figremote_CreateCGImageParametersDictonary : 1120 -> 932
+~ _streamPlaylistParserServer_replyingMessageHandler : 3332 -> 2144
+~ ___FigStreamPlaylistParserStartServer_block_invoke.cold.1 : 136 -> 56
+~ _FigMutableMovieRemoteCreateEmpty : 724 -> 460
+~ _remoteXPCMutableMovie_CreateInternal : 364 -> 232
+~ _FigMutableMovieRemoteCreateFromFormatReader : 596 -> 296
+~ _FigMutableMovieRemoteCreateFromData : 576 -> 296
+~ _remoteXPCMutableMovie_Invalidate : 424 -> 196
+~ _remoteXPCMutableMovie_SetProperty : 640 -> 344
+~ _remoteXPCMutableMovie_CopyFormatReader : 544 -> 276
+~ _remoteXPCMutableMovie_WriteHeader : 524 -> 468
+~ _remoteXPCMutableMovie_CopyHeaderData : 360 -> 284
+~ _remoteXPCMutableMovie_AddTrack : 1124 -> 520
+~ _remoteXPCMutableMovie_DeleteTrack : 496 -> 192
+~ _remoteXPCMutableMovie_CopyTrackProperty : 848 -> 404
+~ _remoteXPCMutableMovie_AppendSampleReferences : 340 -> 260
+~ _remoteXPCMutableMovie_AppendSampleReferencesFromSampleCursor : 316 -> 248
+~ _remoteXPCMutableMovie_CanTrackAcceptFormatDescription : 420 -> 276
+~ _remoteXPCMutableMovie_GetTrackCompatibleWithTrackReader : 372 -> 236
+~ _remoteXPCMutableMovie_InsertMediaIntoTrack : 464 -> 328
+~ _remoteXPCMutableMovie_InsertEmptyTrackSegment : 576 -> 324
+~ _remoteXPCMutableMovie_InsertEmptySegment : 468 -> 288
+~ _remoteXPCMutableMovie_DeleteTrackSegment : 444 -> 304
+~ _remoteXPCMutableMovie_DeleteSegment : 336 -> 268
+~ _remoteXPCMutableMovie_ScaleTrackSegment : 484 -> 332
+~ _remoteXPCMutableMovie_ScaleSegment : 360 -> 280
+~ _remoteXPCMutableMovie_InsertSegmentFromFormatReader : 1768 -> 1056
+~ _remoteXPCMutableMovie_AddTrackReferenceToTrack : 356 -> 232
+~ _remoteXPCMutableMovie_DeleteTrackReferenceToTrack : 356 -> 232
+~ _remoteXPCMutableMovie_storeSandboxRegistration.cold.1 : 108 -> 28
+~ _remoteXPCMutableMovie_GetObjectID.cold.1 : 124 -> 48
+~ _remoteXPCMutableMovie_GetObjectID.cold.2 : 124 -> 48
+~ __ZL28fgGetDurationFromBlockBufferP19OpaqueCMBlockBuffer : 520 -> 176
+~ __ZL38fgCopyCurrentFormatDescriptionForTrackP17OpaqueFigManifoldiPPK25opaqueCMFormatDescription : 272 -> 188
+~ __ZL20fgManifoldInjectDataP17OpaqueFigManifoldxjP19OpaqueCMBlockBuffer.cold.3 : 124 -> 44
+~ _FigSCCFormatReaderCreateFromStream : 2176 -> 1712
+~ _sccInfoCaptionDataInfoCallback : 2468 -> 1500
+~ -[FigDisplayMirroringChangeObserver setBaseDisplayList:].cold.1 : 40 -> 20
+~ _figTextContainerCreateWithCFStringOrDataPtr_internal.cold.1 : 144 -> 68
+~ _figTextContainerCreateWithCFStringOrDataPtr_internal.cold.2 : 112 -> 44
+~ _FigTextContainerGetLength.cold.1 : 120 -> 44
+~ _FigTextContainerGetCharactersForRange.cold.2 : 120 -> 44
+~ _ckcb_setPropertyDispatch : 424 -> 344
+~ _ckcb_processRequestDispatch : 1048 -> 976
+~ _ckcbr_create.cold.1 : 124 -> 48
+~ _ckcbr_create.cold.3 : 124 -> 48
+~ _ckcb_sendStatusCallbackForRequests.cold.1 : 108 -> 32
+~ _ckcb_sendStatusCallbackForRequests.cold.2 : 108 -> 32
+~ _ckcb_sendStatusCallbackOnQueue.cold.1 : 108 -> 28
+~ _ckcb_setClientManagedBossDispatch.cold.2 : 124 -> 48
+~ _figCSSNumericTokenCreate_internal.cold.1 : 124 -> 56
+~ _figCSSNumericTokenCreate_internal.cold.4 : 120 -> 44
+~ _figCSSNumericTokenCreate_internal.cold.6 : 120 -> 44
+~ _figCSSNumericTokenCreate_internal.cold.7 : 112 -> 36
+~ _FigCSSHashTokenCreate.cold.5 : 120 -> 44
+~ _FigCaptionRendererPaintOnCaptionCreate : 232 -> 176
+~ _FigCaptionRendererPaintOnCaptionSetCurrentTime.cold.1 : 112 -> 24
+~ _FigCaptionRendererPaintOnCaptionSetCurrentTime.cold.2 : 128 -> 40
+~ _PostProcessPurchasedItemInternal : 11324 -> 7728
+~ _PostProcessGetRentalInfo : 308 -> 212
+~ _EncryptedFileMD5Check : 3052 -> 1396
+~ _ObtainCFDataSinfsFromMedia : 368 -> 284
+~ _ObtainSinfInfoFromMedia.cold.6 : 124 -> 48
+~ _ReadMovieBytesIntoCFData.cold.2 : 108 -> 28
+~ _FigMetricMediaResourceRequestEventDeserializeAndCopy : 1344 -> 1224
+~ _merr_serialize : 2936 -> 2848
+~ _FigAssetCacheInspectorCreate_Remote : 572 -> 516
+~ _raci_invalidate : 400 -> 204
+~ _raci_copyCompletelyCachedMediaSelectionOptionsInGroup : 404 -> 276
+~ ___raci_ensureClientEstablished_block_invoke.cold.1 : 124 -> 52
+~ _raci_getObjectID.cold.1 : 124 -> 44
+~ _FigCDSCALayerOutputNodeCreate : 428 -> 328
+~ _TTMLParserParseStream : 6212 -> 5540
+~ _remakerFamily_renderPipelineRanDry : 352 -> 280
+~ _remakerFamily_renderPipelineSegmentFinished : 400 -> 328
+~ _remakerFamily_aqOfflineMixerDidReachEndOfOutputData : 368 -> 296
+~ _remakerFamily_IntermediateMediaProcessorDidReachEndOfOutputData : 676 -> 360
+~ _remakerFamily_MediaProcessorDidReachEndOfOutputData : 472 -> 216
+~ _remakerFamily_Invalidate : 1508 -> 1272
+~ _remakerFamily_Finalize : 848 -> 852
+~ _remakerFamily_createTempFile : 740 -> 620
+~ _remakerFamily_buildMediaProcessorForAudioCompressionFromLPCMWithFormatWriter : 1324 -> 1128
+~ _remakerFamily_safelyPostNotification : 392 -> 408
+~ _remakerFamily_createVirtualCaptureCardAndByteStream : 508 -> 356
+~ _remakerFamily_startSourceRendererOfTrack : 452 -> 444
+~ _remakerFamily_createAudioMixdownSourceTrack : 2788 -> 1804
+~ _remakerfamily_updateClientPID : 2324 -> 796
+~ _remakerFamily_PostFailureNotificationIfError : 1188 -> 924
+~ _remakerFamily_MultiPassBossBecameIdle : 828 -> 408
+~ _remakerFamily_startNextSegmentIfMultiPassComplete : 2332 -> 552
+~ _remakerFamily_VideoCompositionProcessorDidReachEndOfOutputData : 360 -> 288
+~ _remakerFamily_setVideoRenderPipelineProperties : 2112 -> 1896
+~ _remakerFamily_resetSourceRenderersForNextSegment : 1180 -> 580
+~ _remakerFamily_setupCompressionMediaProcessorAndFileOutput : 3508 -> 2776
+~ _remakerFamily_registerPowerLogEvent : 592 -> 480
+~ _remakerFamily_setFormatWriterProperties : 1016 -> 1040
+~ _remakerFamily_resolveByteReferenceSampleBufferAndCopyByteStream : 856 -> 592
+~ _remakerFamily_transferMetadata : 2340 -> 1976
+~ _remakerFamily_PostNotificationCallback : 328 -> 352
+~ _remakerFamily_registerDarwinNotification.cold.2 : 124 -> 48
+~ _remakerFamily_createFormatWriter.cold.1 : 124 -> 48
+~ _remakerFamily_createChannel.cold.2 : 144 -> 56
+~ _remakerFamily_MarkEndOfDataForTrack.cold.1 : 124 -> 48
+~ _remakerFamily_MarkEndOfDataForTrack.cold.2 : 124 -> 48
+~ _remakerFamily_setupMultiPassTrackIfNecessary.cold.2 : 124 -> 48
+~ _remakerFamily_getSourceASBDForTrackID.cold.1 : 124 -> 48
+~ _remakerFamily_performLastStepIfComplete.cold.1 : 132 -> 56
+~ _remakerFamily_performLastStepIfComplete.cold.8 : 108 -> 32
+~ _remakerFamily_finishVideoCompositionChannel.cold.1 : 144 -> 60
+~ _remakerFamily_finishVideoCompositionChannel.cold.3 : 144 -> 56
+~ _HandleAssetMessage : 6892 -> 3588
+~ _HandleAssetNoReplyMessage : 1760 -> 576
+~ _HandleAssetGetStatusOfValueForPropertyMessage : 480 -> 352
+~ _HandleAssetLoadValuesAsyncForPropertiesMessage : 408 -> 324
+~ _HandleAssetLoadValueAsyncForPropertyMessage : 436 -> 288
+~ _HandleAssetCopyPropertyMessage : 668 -> 532
+~ _HandleAssetValidateAsyncMessage : 416 -> 344
+~ _HandleAssetLoadValuesAsyncForTrackPropertiesMessage : 868 -> 656
+~ _HandleAssetSetCookiesMessage : 424 -> 344
+~ _HandleAssetSetHTTPAuthMessage : 380 -> 336
+~ _HandleAssetDefineMacroPropertyMessage : 348 -> 280
+~ _HandleAssetDefineTrackMacroPropertyMessage : 348 -> 280
+~ _HandleAssetDefineCrossTrackMacroPropertyMessage : 348 -> 280
+~ _HandleAssetTrackCopyPropertyMessage : 644 -> 516
+~ _HandleAssetTrackGetStatusOfValueForPropertyMessage : 480 -> 352
+~ _HandleAssetTrackLoadValuesAsyncForPropertiesMessage : 408 -> 324
+~ _HandleAssetTrackLoadValueAsyncForPropertyMessage : 436 -> 288
+~ _HandleAssetTrackValidateAsyncMessage : 416 -> 344
+~ _assetXPCServer_SerializeAssetPropertyValueIntoXPCDictionary : 1972 -> 1180
+~ _assetXPCServer_SerializeContentKeyBossIntoXPCDictionary : 212 -> 160
+~ _assetXPCServer_SerializeHLSAlternatesIntoXPCDictionary : 96 -> 92
+~ _assetXPCServer_SerializeHLSSessionKeysIntoXPCDictionary : 96 -> 92
+~ _assetXPCServer_NotificationFilter.cold.2 : 108 -> 32
+~ _assetXPCServer_NotificationFilter.cold.4 : 108 -> 28
+~ _assetXPCServer_SerializeTracksArrayIntoXPCDictionary.cold.1 : 124 -> 48
+~ _FCSupport_PopulateChapterTitleDetail : 1776 -> 1240
+~ _FCSupport_CopyChapterImageData : 2124 -> 1340
+~ _fcSupport_GetListOfChapterTrackIDsForMediaType.cold.1 : 124 -> 44
+~ _IFFParseByteStreamAndCreateItemInformation : 668 -> 340
+~ _IFFParseChildAtoms : 796 -> 560
+~ _PerformIFFItemBodyParsing : 5364 -> 3304
+~ _IFFParseMetaAtomStreamAndCreateItemInformation : 348 -> 216
+~ _IFFParseFileTypeAtom : 924 -> 496
+~ _ParseGlobalMetaDataPrimaryItemAtom : 256 -> 176
+~ _ParseGlobalMetaDataItemInfoAtom : 1472 -> 1320
+~ _ParseGlobalMetaDataItemLocationAtom : 1376 -> 956
+~ _ParseGlobalMetaDataIFFItemReferenceAtom : 540 -> 460
+~ _ParseGlobalMetaDataDataRefAtom : 612 -> 340
+~ _copyNullTerminatedStringAndAdvanceBuffer : 452 -> 376
+~ _ParseGlobalMetaDataIFFItemPropertyAssociationAtom : 512 -> 440
+~ _ParseGlobalMetaDataIFFItemPropertyCodecConfiguration : 272 -> 204
+~ _ParseGlobalMetaDataIFFItemPropertyImageSpatialExtents : 260 -> 180
+~ _ParseGlobalMetaDataIFFItemPropertyPixelInformation : 352 -> 236
+~ _ParseGlobalMetaDataIFFItemPropertyColorInformation : 540 -> 376
+~ _ParseGlobalMetaDataIFFItemPropertyContentLightLevel : 216 -> 164
+~ _ParseGlobalMetaDataIFFItemPropertyMasteringDisplayColorVolume : 216 -> 164
+~ _ParseGlobalMetaDataIFFItemPropertyContentColorVolume : 292 -> 228
+~ _ParseGlobalMetaDataIFFItemPropertyAmbientViewingEnvironment : 216 -> 164
+~ _ParseGlobalMetaDataIFFItemPropertyCleanAperture : 616 -> 216
+~ _ParseGlobalMetaDataIFFItemPropertyAuxiliaryType : 248 -> 216
+~ _ParseGlobalMetaDataIFFItemPropertyAVIFLayeredImageIndexing : 300 -> 296
+~ __parseExtrinsicsPropertyHelper : 848 -> 532
+~ __parseIntrinsicsPropertyHelper : 336 -> 244
+~ __parseStereoAggressorsPropertyHelper : 600 -> 604
+~ _ParseFileTypeAtom.cold.3 : 124 -> 48
+~ _FigMetadataGetNumericalDataTypeForMetadataProperties : 1180 -> 896
+~ _FigID3MetadataCreateChapterArrayFromTopLevelTableOfContents : 3264 -> 2584
+~ _FigMetadataCreateMetadataItemsFromFigMetadataPropertyListSampleBuffer : 876 -> 316
+~ _FigMetadataCopyAllMetadata.cold.1 : 124 -> 60
+~ _FigMetadataReaderCreateWithVorbisCommentFields.cold.1 : 132 -> 56
+~ _FigiTunesMetadataCopyKeyAtIndex : 912 -> 612
+~ _FigiTunesMetadataCopyItemWithKeyAndIndex : 2496 -> 1480
+~ _FigiTunesMetadataCopyLongKey : 892 -> 684
+~ _FigiTunesMetadataCopyItemValueAndProperties : 1108 -> 900
+~ _ArrayiTunesDataCopyItemWithKeyAndIndex : 1280 -> 592
+~ _FigHapticQueueSetVolume : 636 -> 448
+~ _FigHapticQueueSetIsMuted : 420 -> 432
+~ ___FigHapticQueuePause_block_invoke : 348 -> 160
+~ ___FigHapticQueueStop_block_invoke : 344 -> 156
+~ ___FigHapticQueueEnqueueSamples_block_invoke : 1412 -> 1028
+~ _fhq_scheduleHapticPlayer : 2248 -> 1520
+~ _FigHapticQueueCreate.cold.3 : 128 -> 44
+~ _FigHapticQueueCreate.cold.4 : 128 -> 44
+~ _FigQuickTimeMetadataHasKey : 644 -> 416
+~ _FigQuickTimeMetadataGetKeyCount : 584 -> 372
+~ _FigQuickTimeMetadataCopyKeyAtIndex : 928 -> 532
+~ _FigQuickTimeMetadataGetItemCount : 520 -> 448
+~ _FigQuickTimeMetadataCopyItemWithKeyAndIndex : 6704 -> 4356
+~ _FigQuickTimeMetadataIsKeyPosInUse : 300 -> 232
+~ _FigQuickTimeMetadataInitKeyListAtomStreamAndEntryCount : 216 -> 200
+~ _metadataCreateNativeKeySpaceAndKeys.cold.1 : 124 -> 48
+~ _metadataCreateNativeKeySpaceAndKeys.cold.2 : 124 -> 48
+~ _metadataCreateNativeKeySpaceAndKeys.cold.6 : 124 -> 48
+~ _FigQuickTimeMetadataCreateExtendedLanguageTag.cold.1 : 108 -> 32
+~ _sadc_registerAssetForDownloaderDispatch : 1264 -> 780
+~ _FigAssetDownloadCoordinatorCopyDestinationURLForAsset : 284 -> 208
+~ _FigAssetDownloadCoordinatorCopyDestinationURLForDownloadToken : 208 -> 168
+~ _FigAssetDownloadCoordinatorCopyClientBundleIdentifierForAsset : 280 -> 184
+~ _sads_relinquishAccessToURLDispatch : 648 -> 420
+~ _sadc_copyAssetWeakReference : 524 -> 308
+~ _sads_cleanupScheduledAccessToURL : 448 -> 168
+~ _sadc_getWeakAssetKey.cold.2 : 124 -> 48
+~ _sads_downloadSchedulerCreateInitOnce.cold.1 : 120 -> 40
+~ _sads_dispatchScheduledCallbackFn.cold.1 : 108 -> 28
+~ _FigCaptionRendererStackLayoutRegionCreate : 288 -> 232
+~ _captionConverter_processSampleBuffer : 2300 -> 1524
+~ _remoteFormatReader_CreateForURLAndConnection : 800 -> 424
+~ _FigFormatReaderRemoteWithLoopbackServerCreateForURL : 568 -> 496
+~ _FigFormatReaderXPCRemoteRetainCopiedFormatReader : 556 -> 224
+~ _FigFormatReaderXPCRemoteCreateWithObjectID : 760 -> 452
+~ _FigFormatReaderXPCRemoteObtainObjectIDForOtherProcess : 696 -> 208
+~ _CommonFormatReaderObjectRemovePropertyFromCache : 84 -> 88
+~ _remoteFormatReader_CopyProperty : 1320 -> 668
+~ _CommonFormatReaderObjectTryCopyPropertyFromCache : 380 -> 172
+~ _SendFormatReaderCopyMetadataReadersMessage : 900 -> 448
+~ _SendFormatReaderCopyPropertyMessage : 392 -> 228
+~ _remoteMetadataReader_CopyValue : 816 -> 444
+~ _remoteMetadataReader_GetItemCount : 644 -> 264
+~ _remoteMetadataReader_CopyItemWithKeyAndIndex : 816 -> 444
+~ _remoteFormatReader_CopyTrackByIndex : 528 -> 304
+~ _remoteFormatReader_EstablishCombinedDataRateProfileForTracks : 736 -> 416
+~ _remoteFormatReader_ensureAndCopyCachedTrackArray : 608 -> 388
+~ _CompleteTrackReaderCopy : 920 -> 180
+~ _SendTrackReaderCopyMetadataReadersMessage : 900 -> 448
+~ _SendTrackReaderCreateEditCursorServiceMessage : 540 -> 320
+~ _SendTrackReaderCopyPropertyMessage : 456 -> 280
+~ _SendTrackReaderCreateCursorServiceMessage : 572 -> 348
+~ _remoteEditCursor_CopyProperty : 748 -> 228
+~ _remoteEditCursor_Step : 364 -> 192
+~ _remoteEditCursor_GetEditSegment : 388 -> 184
+~ _CreateCursorWithPresentationTimeStamp : 1100 -> 656
+~ _remoteSampleCursor_updateSimpleCache : 624 -> 376
+~ _remoteSampleCursor_updateUpcomingSamplesCache : 1728 -> 1176
+~ _remoteSampleCursor_CompareInDecodeOrder : 1296 -> 732
+~ _remoteSampleCursor_GetDependencyInfo : 1428 -> 860
+~ _remoteSampleCursor_TestReorderingBoundary : 2676 -> 1236
+~ _remoteSampleCursor_CreateSampleBuffer : 1164 -> 464
+~ _remoteSampleCursor_StepByDecodeTime : 1032 -> 408
+~ _remoteSampleCursor_StepByPresentationTime : 1032 -> 408
+~ _remoteSampleCursor_CopySampleLocation : 1868 -> 1088
+~ _remoteSampleCursor_CopyChunkDetails : 2308 -> 1332
+~ _remoteSampleCursor_CopyFormatDescription : 1616 -> 972
+~ _remoteSampleCursor_StepInDecodeOrderAndReportStepsTaken : 1016 -> 428
+~ _remoteSampleCursor_StepInPresentationOrderAndReportStepsTaken : 1072 -> 432
+~ _remoteSampleCursor_getBatchSampleTimingAndSizes : 1076 -> 752
+~ _remoteSampleCursor_GetPresentationTimeRange : 452 -> 468
+~ _remoteSampleCursor_internalEnsureMatchingAndIndependentThenPerformOperation : 1956 -> 732
+~ _remoteSampleCursor_finishCopy : 332 -> 256
+~ _FigServerSampleCursorSubscriptionUnsubscribeViaEventLink : 212 -> 184
+~ _remoteSampleCursor_getSampleTimingInfoFromServer : 356 -> 224
+~ _remoteSampleCursor_updateSimpleCacheViaEventLink : 436 -> 392
+~ _remoteSampleCursor_registerNewFormatDescriptionViaEventLink : 652 -> 328
+~ _remoteSampleCursor_registerNewSampleDependencyAttributesViaEventLink : 604 -> 316
+~ _remoteSampleCursor_registerNewDataSourceViaEventLink : 564 -> 296
+~ _CopyByteStreamOrDataSource : 248 -> 240
+~ ___remoteSampleCursor_getBatchSampleTimingAndSizes_block_invoke_2 : 572 -> 448
+~ _remoteSampleCursor_Finalize : 488 -> 252
+~ _remoteSampleCursor_SetProperty : 368 -> 336
+~ ___remoteSampleCursor_registerNewFormatDescriptionsFromMessage_block_invoke : 420 -> 352
+~ _CreateCursorAtSampleInDecodeOrder : 796 -> 496
+~ _remoteTrackReader_GetObjectID.cold.1 : 124 -> 48
+~ _remoteSampleCursor_GetObjectID.cold.2 : 124 -> 48
+~ _remoteEditCursorService_CreateCursorAtTrackTime.cold.1 : 132 -> 56
+~ _CreateRemoteSampleCursor.cold.3 : 124 -> 48
+~ _remoteSampleCursor_Copy.cold.1 : 40 -> 20
+~ _remoteSampleCursor_copyFormatDescriptionTranslatedFromOutOfBandID.cold.1 : 124 -> 48
+~ ___remoteSampleCursor_registerNewDataSourcesFromMessage_block_invoke.cold.3 : 124 -> 48
+~ _FigMetadataReaderCreateForUserData : 632 -> 380
+~ _FigUserDataHasKey : 500 -> 280
+~ _FigUserDataGetKeyCount : 532 -> 376
+~ _FigUserDataCopyKeyAtIndex : 680 -> 444
+~ _FigUserDataGetItemCount : 836 -> 520
+~ _FigUserDataCopyItemWithKeyAndIndex : 4704 -> 3176
+~ _FigISOUserDataCreateItemFromThumbnailData.cold.2 : 124 -> 48
+~ _FAIGCommon_createRotatedCVImageBuffer : 884 -> 648
+~ _GenericMetadataArrayCopyValue.cold.1 : 120 -> 48
+~ _GenericMetadataArrayHasKey.cold.2 : 96 -> 28
+~ _GenericMetadataArrayCopyItemWithKeyAndIndex.cold.2 : 120 -> 48
+~ _playeroverlap_maybeScheduleAdvanceTimerAndAnchorTime : 3052 -> 2780
+~ _playeroverlap_removeOutroItem : 3056 -> 2756
+~ _playeroverlap_AppendToPlayQueueInPlayerQueue : 2032 -> 1816
+~ _playeroverlap_removeItemAndRefreshPlayQueue : 1472 -> 1152
+~ _playeroverlap_ReevaluateRouteConfiguration : 568 -> 544
+~ _playeroverlap_SetConnectionActive : 524 -> 520
+~ _playeroverlap_SilentMute : 524 -> 520
+~ _playeroverlap_scheduleAdvanceTimerAndAnchorTime.cold.1 : 108 -> 56
+~ _fcrTestingSetup : 376 -> 308
+~ _digestSubtitleSampleDo : 1988 -> 1684
+~ _setupFCR.cold.2 : 108 -> 24
+~ ___localHelper_SetEnableEchoMitigation_block_invoke : 1160 -> 1064
+~ _FigUserDataCreateActualKey : 1076 -> 652
+~ _FigQTUserDataWriteItemData : 2036 -> 1092
+~ _FigISOUserDataWriteItemData : 3244 -> 1820
+~ _FigUserDataSerializerAddItem.cold.6 : 124 -> 48
+~ _frlo_ensureRenderPipelinesForFormatDo_applier : 960 -> 680
+~ _frlo_convertSubtitleSampleIntoPixelBuffersDo : 1920 -> 1412
+~ _frlo_renderPipelineDidFlushDo : 472 -> 216
+~ _FigiTunesMetadataWriteItemAtom : 1032 -> 864
+~ _FigiTunesMetadataWriteItemDataAtom : 1012 -> 932
+~ _FigiTunesMetadataSerializerFinalize.cold.1 : 108 -> 28
+~ _FigiTunesMetadataSerializerSetProperty.cold.1 : 124 -> 48
+~ _FigiTunesMetadataCreateActualKey.cold.2 : 124 -> 48
+~ _FigiTunesMetadataCreateActualKey.cold.6 : 124 -> 48
+~ _FigAssetReaderCreateWithURLAndFormatReader : 1308 -> 484
+~ _assetReader_ExtractAndRetainNextSampleBuffer : 5652 -> 3956
+~ _assetReader_EnableDecodedAudioExtractionFromTrackWithAudioOptions : 924 -> 608
+~ _assetReader_EnableCaptionExtraction : 1220 -> 888
+~ _assetReader_EnableVideoCompositionExtraction3 : 2588 -> 1524
+~ _assetReader_enableOriginalSampleExtractionFromTrackCommon : 1300 -> 964
+~ _assetReaderTrack_setUpOutputBufferQueueSemaphore : 1024 -> 448
+~ _assetReaderTrack_safelyPostNotificationWithExtractionID : 340 -> 252
+~ _assetReaderTrack_setUpOutputVisualContextSemaphore : 780 -> 660
+~ _assetReader_outputBufferQueuesIfDataReady : 1100 -> 408
+~ _assetReader_createTaggedBufferGroupSampleBuffer : 952 -> 692
+~ _assetReader_ensureRemakerQueue.cold.1 : 124 -> 48
+~ _assetReader_EnableDecodedVideoExtractionFromTrack.cold.1 : 124 -> 48
+~ _assetReader_EnableDecodedVideoExtractionFromTrack.cold.2 : 124 -> 48
+~ _assetReader_EnableDecodedVideoExtractionFromTrack.cold.12 : 124 -> 48
+~ _assetReader_EnableDecodedVideoExtractionFromTrack.cold.13 : 124 -> 48
+~ _assetReader_EnableAudioMixdownExtraction.cold.1 : 124 -> 48
+~ _assetReader_EnableAudioMixdownExtraction.cold.2 : 124 -> 48
+~ _assetReader_StartExtractionForTimeRangesFromTrack.cold.5 : 132 -> 56
+~ _assetReaderTrack_visualContextBecameEmpty.cold.1 : 220 -> 88
+~ _assetReaderTrack_visualContextBecameEmpty.cold.2 : 108 -> 28
+~ _assetReader_startExtractionForTimeRangeCommon.cold.1 : 124 -> 48
+~ _FigQuickTimeMetadataCreateActualKey : 780 -> 432
+~ _FigQuickTimeMetadataSerializerAddItem.cold.2 : 124 -> 48
+~ _FigQuickTimeMetadataSerializerContainsKey.cold.1 : 108 -> 28
+~ _FigQuickTimeMetadataSerializerCreateBBuf.cold.6 : 124 -> 48
+~ _FigImageQueueCreateForCoreAnimation.cold.2 : 108 -> 32
+~ _FigImageQueueCreateForCoreAnimation.cold.5 : 124 -> 48
+~ _piqca_updateImageQueueTimingFields.cold.1 : 108 -> 28
+~ _piqca_enqueueImageWithRotation.cold.1 : 124 -> 48
+~ _FigTrialCopyTrialValueForFactor : 776 -> 316
+~ _FigTrialCreate : 1428 -> 1004
+~ _FigTrial_Finalize : 488 -> 268
+~ _fstc_populateCachesWithMutex.cold.2 : 128 -> 44
+~ ___fstc_ensure_block_invoke.cold.1 : 344 -> 28
+~ _outputCueAsFigCDSCaption : 1472 -> 1028
+~ _FigCDSMoveToActionCreate : 284 -> 236
+~ _figFairplayPSSHAtom_replyingMessageHandler : 1232 -> 488
+~ _remoteXPCVideoTarget_Finalize : 380 -> 168
+~ _remoteXPCVideoTarget_CopyProperty : 788 -> 208
+~ _remoteXPCVideoTarget_GetObjectID.cold.1 : 124 -> 52
+~ _remoteXPCVideoTarget_GetObjectID.cold.2 : 124 -> 48
+~ _remoteXPCVideoTarget_CreateVideoTargetObject.cold.1 : 124 -> 52
+~ ___remoteXPCVideoTargetClient_EnsureClientEstablished_block_invoke.cold.1 : 132 -> 60
+~ _FigSFBSKeepForegroundAssertionCreate.cold.2 : 128 -> 44
+~ _FigSFBSKeepForegroundAssertionCreate.cold.3 : 128 -> 44
+~ _piqcv_setProperty.cold.1 : 128 -> 72
+~ _calculateHeaderByteCount : 940 -> 564
+~ _createMediaDataLocation : 312 -> 236
+~ _createMovieAtomBBuf : 4348 -> 3800
+~ _InsertMediaSegments : 764 -> 712
+~ _setTrackExtendsDefaultValuesIfNeeded : 84 -> 88
+~ _transferMovieMetadata : 1856 -> 916
+~ _transferMetadata : 6256 -> 4124
+~ _writeReferencedDataAndCopyUpdatedMetadataItem : 604 -> 380
+~ _transferTrackMetadata : 1764 -> 896
+~ _setPredeterminedSizes : 412 -> 180
+~ _setPSSHDataEntries : 952 -> 332
+~ _figMovieWriter_WriteHeaderToByteStream : 952 -> 708
+~ _figMovieWriter_CopyMovieHeaderAsBlockBuffer : 376 -> 240
+~ _editBuilderCreate : 376 -> 196
+~ _chunkCallback : 716 -> 572
+~ _setWritingThreadErrorAndPostErrorOccurredNotification : 340 -> 232
+~ _setTrackHeaderDataCompleteFlagAndWriteCheckpointIfPossible : 500 -> 508
+~ _addSampleBufferToTrack : 3544 -> 3200
+~ _flushSampleBufferToTrack : 512 -> 216
+~ _beginTrackSessionWithEditBoundaryTime : 288 -> 324
+~ _FigMovieFormatWriterCreateWithByteStream.cold.1 : 108 -> 32
+~ _setTrackReferences.cold.2 : 124 -> 84
+~ _editMediaTimeCreate.cold.1 : 124 -> 48
+~ _writingThread.cold.1 : 124 -> 48
+~ _writingThread.cold.2 : 124 -> 52
+~ _trackEndSession.cold.1 : 124 -> 48
+~ _copyDimensionsAsDictionary.cold.2 : 136 -> 60
+~ ___FigClusterSynchronizationManager_ClientIsPlaying_block_invoke : 568 -> 384
+~ _figClusterSynchManager_ensureStarted : 588 -> 428
+~ _figClusterSynchManager_getPeerMACAddress_in6 : 780 -> 464
+~ _figClusterSynchManager_startBonjourAdvertiser : 1252 -> 880
+~ _figClusterSynchManager_startBonjourBrowser : 504 -> 364
+~ _figClusterSynchManager_restartBonjour : 252 -> 192
+~ _figClusterSynchManager_txtInfoCallBack : 3128 -> 1060
+~ _figClusterSynchManager_removePeerEndpoint : 428 -> 444
+~ _FigClusterSynchronizationManager_OneTimeInitialization.cold.1 : 52 -> 32
+~ _figClusterSynchManager_srvInfoCallBack.cold.2 : 124 -> 48
+~ _figClusterSynchManager_DeferredInitOnce.cold.1 : 108 -> 28
+~ _sccFormatWriterEachSampleCallback.cold.3 : 136 -> 60
+~ _sccFormatWriterEachSampleCallback.cold.6 : 124 -> 48
+~ _sccFormatWriterEachSampleCallback.cold.7 : 124 -> 48
+~ _sccFormatWriterEachSampleCallback.cold.8 : 124 -> 48
+~ _DolbyGetSampleInfo : 4128 -> 2144
+~ _BitStreamFetch : 456 -> 316
+~ _FigCSSParseColor : 1232 -> 1072
+~ _figCSSParseCharacter : 296 -> 228
+~ _figCSSParseHexDigits : 564 -> 480
+~ _figCSSParseString : 380 -> 312
+~ _figCSSParseOneOrMoreDigits : 296 -> 232
+~ _figCSSParseFraction : 300 -> 240
+~ _figCSSParseDigits : 356 -> 276
+~ _figCSSCopyColorComponentWithRangeCheck.cold.3 : 116 -> 52
+~ _FigCSSParseFontSize.cold.1 : 116 -> 48
+~ _FigMPEG2ParserCreate : 824 -> 544
+~ _FigMPEG2ParserCopyAudioConfigurationForTrack : 476 -> 244
+~ _FigMPEG2ParserCopyProgramList : 612 -> 372
+~ _FigMPEG2ParserCopyTrackList : 912 -> 588
+~ _FigMPEG2ParserInjectData.cold.2 : 136 -> 48
+~ _fbaprp_configureSubPipeManager : 644 -> 652
+~ _FigBufferedAirPlayAudioRenderPipelineInvalidate : 2264 -> 1092
+~ _FigBufferedAirPlayAudioRenderPipelineFinalize : 428 -> 404
+~ _FigBufferedAirPlayAudioRenderPipelineCopyProperty : 1088 -> 1068
+~ _fbaprp_sbufProcessorFoundEndOfSiriTTSUtterance : 524 -> 288
+~ ___fbaprp_transitionIDFound_block_invoke : 1512 -> 976
+~ _fbaprp_scheduleItemTransitionOnTimebase : 1532 -> 1064
+~ _fbaprp_synchronizeToTimebaseSetRateOnAudioChainGuts : 928 -> 696
+~ _fbaprp_startAudioChainGuts : 2544 -> 1528
+~ _fbaprp_setRateOnAudioChainGuts : 2752 -> 2280
+~ _fbaprp_suspendAudioChainGuts : 848 -> 660
+~ ___fbaprp_timebaseRateChangedCallback_block_invoke : 952 -> 568
+~ _fabaprp_getOffsetToBAOTimeline : 680 -> 688
+~ _fbaprp_copyEndPresentationTimeForQueuedSamples : 868 -> 416
+~ _fbaprp_copyEndPresentationTimeForDecodedSamples : 620 -> 248
+~ _fbaprp_createBufferedAirPlaySampleBufferConsumer : 980 -> 500
+~ _fbaprp_setAudioProcessingTap : 532 -> 452
+~ _FigBufferedAirPlayAudioRenderPipelineReset : 1872 -> 992
+~ _FigBufferedAirPlayAudioRenderPipelineFinishSettingRate : 1156 -> 416
+~ _FigBufferedAirPlayAudioRenderPipelineCancelAndFlushTransition : 4380 -> 3760
+~ _FigBufferedAirPlayAudioRenderPipelineFlushFromTime : 2092 -> 1104
+~ _fbaprp_setupBufferedAirPlayMediaProcessor : 672 -> 584
+~ _fbaprp_restoreAudioChainToStartOutputTime : 1200 -> 488
+~ _playerModeratorProcessEventAndCopyKeyArray : 5960 -> 4348
+~ _CheckPesHeaderLength : 640 -> 484
+~ _PesPacketListSaveChunk : 1216 -> 456
+~ _PesAddBlockBufferToFrameBlockBuffer : 624 -> 496
+~ _FigMPEG2AudioFrameQueueEntryAdjustTimestampsAndEmit : 2740 -> 1196
+~ _ProgramCheckPesForTimestampChanges : 1256 -> 468
+~ _ReadTimestampFromPesHeader.cold.6 : 136 -> 48
+~ _PesAddMemoryToFrameMemory.cold.1 : 156 -> 72
+~ _PesAddMemoryToFrameBlockBuffer.cold.2 : 136 -> 48
+~ _PesAddMemoryToFrameBlockBuffer.cold.3 : 136 -> 48
+~ _DolbyDoneWithFrame : 1120 -> 436
+~ _FigSampleBufferConsumerCreateForSampleBufferConsumer : 724 -> 392
+~ _sbcsbc_setProperty : 1576 -> 876
+~ _sbcsbc_detachFromDownstreamConsumer : 460 -> 184
+~ _sbcsbc_InstallLowWaterTrigger.cold.2 : 128 -> 44
+~ _sbcsbc_RemoveLowWaterTrigger.cold.1 : 128 -> 44
+~ _dwpm_markAlternateAndMediaSelectionCompleteDispatch : 984 -> 264
+~ _dwpm_upadateMediaDownloadedTimeAndBytesDispatch : 1688 -> 464
+~ _dwpm_updateExpectedMediaBytesToDownloadDispatch : 800 -> 292
+~ _dwpm_sendProgressNotification : 740 -> 384
+~ _dwpm_invalidateGutsOnQueue : 484 -> 512
+~ _dwpm_registerAlternateAndMediaSelectionsDispatch.cold.1 : 124 -> 52
+~ _FigStreamingAssetDownloadProgressMonitorCreate.cold.2 : 124 -> 44
+~ _FigStreamingAssetDownloadProgressMonitorCreate.cold.4 : 124 -> 44
+~ _dworch_sendProgressNotificationOnCallbackQueue.cold.1 : 108 -> 8
+~ _FigVTTSpanCreateCopyWithValueRange : 772 -> 528
+~ _figVTTSpan_copyNodeDocumentSerialization.cold.1 : 120 -> 44
+~ _favd_UpdateImageQueuesToMatchOutputsArray : 2756 -> 2512
+~ _favd_handleTimebaseEffectiveRateChanged : 460 -> 496
+~ _favddq_UpdateDataQueuesToMatchOutputsArray : 1816 -> 1356
+~ _favd_copyAllImageQueuesAndOptions : 968 -> 516
+~ _favd_UpdateDataChannelConfigForVideoTarget : 1580 -> 1020
+~ _favd_CopyFigImageQueueForCAImageQueue : 736 -> 216
+~ _favd_CopyFigImageQueueForVisualContext : 684 -> 208
+~ _favd_setupImageQueue : 532 -> 296
+~ _favddq_UpdateDataChannelConfigForVideoTarget : 1156 -> 972
+~ _favd_ImageQueueArraySetPropertyForOutputs.cold.1 : 148 -> 64
+~ _favd_populateVideoDestination.cold.4 : 124 -> 44
+~ _favddq_CopyProperty.cold.1 : 124 -> 44
+~ _favddq_SetProperty.cold.2 : 124 -> 36
+~ _serverXPCFigCaptionGroupConverter_replyingMessageHandler : 2892 -> 1540
+~ _serverXPCFigCaptionGroupConverter_Callback : 416 -> 336
+~ _FigSteeringManifestCreateInProcess : 3704 -> 2304
+~ __SteeringLogError : 752 -> 396
+~ _fcgcfs_webvtt_addSampleBuffer : 8680 -> 6164
+~ _fcgcfs_webvtt_attribute_applier : 3292 -> 2512
+~ _FigCDSTriggerCreate : 924 -> 468
+~ _onTimerTimeout : 540 -> 240
+~ _scheduleEventDo.cold.1 : 124 -> 48
+~ _FigAttributePartitionGeneratorPerformPartitioning : 444 -> 340
+~ _fapg_applyElementPassOne : 820 -> 444
+~ _fapg_applyElementPassTwo : 628 -> 368
+~ _fapg_buildPartitionCollection : 440 -> 268
+~ _fapg_buildUniquenessMapApplierFunction : 844 -> 688
+~ _fapg_eachUniquenesEntry : 728 -> 472
+~ _FigAttributePartitionGeneratorAddElement.cold.1 : 120 -> 48
+~ _FigAttributePartitionGeneratorCopyPartitionReferences.cold.2 : 120 -> 48
+~ _FigAttributePartitionGeneratorCreate.cold.4 : 116 -> 48
+~ _HLSPersistentStreamInfo_SetProperty : 2152 -> 1248
+~ _xmlSetUniqueIdentifier : 276 -> 192
+~ _xmlSetMediaPlaylist : 348 -> 276
+~ _HLSPersistentStreamInfo_setMediaPlaylist : 1232 -> 540
+~ _HLSPersistentStreamInfo_writeMediaSegment : 724 -> 256
+~ _HLSPersistentStreamInfo_writeMediaInitializationSegment : 696 -> 236
+~ _HLSPersistentStreamInfo_removeMediaInitializationSegment : 848 -> 440
+~ _HLSPersistentStreamInfo_removeMediaSegment : 1520 -> 780
+~ _HLSPersistentStreamInfo_upgradeForWriting : 544 -> 200
+~ _HLSPersistentStreamInfo_downgradeForReading : 528 -> 184
+~ _HLSPersistentStreamInfo_commitStreamInfo : 644 -> 168
+~ _xmlSetMediaInitializationSegmentArray : 288 -> 216
+~ _copyMediaSegment : 1300 -> 768
+~ _FigHLSPersistentStreamInfoCreate.cold.1 : 124 -> 48
+~ _FigHLSPersistentStreamInfoCreate.cold.14 : 124 -> 32
+~ _FigHLSPersistentStreamInfoCreate.cold.16 : 124 -> 60
+~ _FigHLSPersistentStreamInfoCreate.cold.23 : 124 -> 48
+~ _xmlIsCompressible.cold.1 : 108 -> 8
+~ _xmlSetStreamType.cold.1 : 124 -> 48
+~ _HLSPersistentStreamInfo_CopyMediaPlaylist.cold.4 : 124 -> 48
+~ _writeMediaSegment.cold.7 : 124 -> 48
+~ _xmlSetMediaBytesStored.cold.1 : 108 -> 8
+~ _H264EmitBuffer : 5708 -> 3108
+~ _VendNewBuffer.cold.1 : 148 -> 68
+~ _FigImageQueueTableUpdateToMatchOutputsArray : 968 -> 860
+~ _FigImageQueueTableReconnectWithTimebase : 68 -> 60
+~ _FigImageQueueTableCreate.cold.1 : 156 -> 80
+~ _FigImageQueueTableCreate.cold.2 : 144 -> 68
+~ _FigImageQueueTableCopyFigImageQueueForVideoTarget.cold.1 : 108 -> 28
+~ _FigImageQueueTableCopyVideoTargets.cold.2 : 124 -> 48
+~ _MovieSampleGroupSet_csgp : 852 -> 440
+~ _MovieSampleGroupCreateDeepCopy : 580 -> 472
+~ _MovieSampleGroupAddDescription : 400 -> 308
+~ _UpgradeCompactSampleGroupFieldSize : 728 -> 496
+~ _OutputTrailingPatternRunThroughSampleNumber : 432 -> 176
+~ _OutputTrailingNonPatternRunThroughSampleNumber : 408 -> 168
+~ _AppendDescriptionIndexToCompactGroup : 1016 -> 636
+~ _MovieSampleGroupCreateForFragment.cold.1 : 124 -> 48
+~ _MovieSampleGroupSet_sbgp.cold.2 : 124 -> 48
+~ _MovieSampleGroupSet_sbgp.cold.6 : 124 -> 44
+~ _MovieSampleGroupCollectionAddSampleGroup.cold.1 : 124 -> 48
+~ _MovieSampleGroupDescriptionArraySetDefaultDescriptionIndex.cold.1 : 124 -> 48
+~ _MovieSampleGroupDescriptionArrayCreate.cold.2 : 124 -> 48
+~ _MovieSampleGroupGetPatternEntry.cold.2 : 124 -> 48
+~ _MovieSampleGroupIntegrateSampleGroup.cold.4 : 124 -> 72
+~ _RegularSampleGroupAccessorGetDescriptionIndexForSample.cold.1 : 124 -> 48
+~ _FigAssetCacheInspectorCreate : 508 -> 412
+~ _fssa_fbo_copyRecords : 760 -> 296
+~ _fssa_fbo_updateRecord : 860 -> 280
+~ _fssa_fbo_finalizeRecord : 872 -> 300
+~ _fssa_serializeRecordAndAddToOutputDictionary : 360 -> 288
+~ _FigSecureStopArchivistCopyInstance.cold.5 : 124 -> 48
+~ _fssr_createRecordFromSerializedData.cold.2 : 124 -> 48
+~ _fssa_createKey.cold.1 : 148 -> 72
+~ ___fssa_ensureArchivistSingletonContext_block_invoke.cold.1 : 108 -> 28
+~ _fssa_fbo_removeRecords.cold.1 : 128 -> 60
+~ ___fssa_fbo_copyRecords_block_invoke.cold.1 : 132 -> 56
+~ _fssr_createDictionaryFromSecureStopRecord.cold.1 : 124 -> 48
+~ _fssa_synchronizeInMemoryDatabaseToDisk.cold.1 : 124 -> 184
+~ _fssa_updateRecordGuts.cold.2 : 124 -> 48
+~ _fssa_createRecordAndAddToInMemoryDatabase.cold.1 : 120 -> 44
+~ _boxedreader_CopyValue : 640 -> 552
+~ _boxedreader_GetKeyCount.cold.1 : 108 -> 8
+~ _boxedReader_CopyKeyAtIndex.cold.2 : 124 -> 48
+~ _boxedreader_CopyItemWithKeyAndIndex.cold.3 : 124 -> 48
+~ _boxedreader_createItemIndexesMatchingKeyAndKeySpace.cold.1 : 108 -> 32
+~ _videotarget_createWithReceiver : 1884 -> 1384
+~ _videoTarget_CopyProperty.cold.1 : 108 -> 28
+~ _videoTarget_SetProperty.cold.1 : 124 -> 44
+~ _videoTarget_createFigImageQueue.cold.4 : 136 -> 72
+~ _videoTarget_createFigImageQueue.cold.6 : 124 -> 48
+~ _videoTarget_createFigImageQueue.cold.7 : 124 -> 48
+~ _videoTarget_setActive.cold.1 : 124 -> 48
+~ _videoTarget_sendImageQueueMessageToReceiver.cold.2 : 124 -> 28
+~ _videoTarget_sendImageQueueMessageToReceiver.cold.4 : 132 -> 28
+~ _MPEG2VideoEmitBuffer : 4228 -> 1652
+~ _MPEG2VideoCombineFieldQueue : 592 -> 324
+~ _PesPriProcessData : 828 -> 564
+~ _figCreateCFError : 332 -> 320
+~ _FigCreateErrorForOSStatus : 268 -> 188
+~ _FigMPEG2VideoFrameQueueEntryAdjustTimestampsAndEmit : 2936 -> 1072
+~ _FigMPEG2VideoFrameEmit : 1252 -> 668
+~ _playerairplay_reflectSubPlayerNotification : 1096 -> 244
+~ _playerairplay_autoMediaSelectionCriteriaChanged : 364 -> 180
+~ _playerairplay_hijackedByOtherPlayer : 724 -> 268
+~ _playerairplay_Invalidate : 1740 -> 1752
+~ _playerairplay_Finalize : 680 -> 464
+~ _playerairplay_SetProperty : 376 -> 296
+~ _playqueue_copyCurrentClientPlayQueueItemAndCurrentMediaControlPlayListItem : 248 -> 252
+~ _playerairplay_checkAndUpdatePlayQueueItems : 252 -> 248
+~ _playerairplay_synchronizePlayQueueItems : 11708 -> 7072
+~ _itemairplay_applyCachedPropertiesOnMediaControlItem : 792 -> 220
+~ _playerairplay_playItemOnMediaControl : 3024 -> 1412
+~ _itemairplay_startAssetTypeLoadAsync : 1256 -> 456
+~ _itemairplay_assureItemForAirPlay : 780 -> 384
+~ _itemairplay_createCPEProtectorIfAvailable : 1376 -> 884
+~ _itemairplay_requestAirPlayPlaybackInfo : 764 -> 328
+~ _itemairplay_getPlaybackInfoCompletionHandler : 14208 -> 6068
+~ _pap_FigCFDictionaryGetBooleanIfPresent : 776 -> 240
+~ _playerairplay_updatePlayerRateToMatch : 912 -> 712
+~ _playerairplay_mediaControlHandlePlaybackLikelyToKeepUp : 992 -> 1000
+~ _itemairplay_isRangeArraysDifferent : 428 -> 416
+~ _playerairplay_mediaControlHandleStallCountChanged : 368 -> 384
+~ _playerairplay_isInterstitialEventIDRestrictedForSkip : 400 -> 396
+~ _playerairplay_resetAirPlayVideoState : 1236 -> 1200
+~ _playerairplay_updateShareAndAirPlayEchoMitigation : 260 -> 256
+~ _itemairplay_ensureCustomURLLoader : 296 -> 220
+~ _pap_playbackSessionSetProxiedProperty : 180 -> 176
+~ _pap_handlePlaybackSessionEvent : 2404 -> 1252
+~ _playerairplay_mediaControlServerEventHandler : 16480 -> 8168
+~ _playqueue_copyItemForUUID : 200 -> 204
+~ _playerairplay_clearCoordinatedPlaybackSynchronizationTimebaseForItemsAfterItem : 388 -> 184
+~ _pap_playbackSessionGetProxiedProperty : 200 -> 196
+~ _itemairplay_postTaggedRangeMetadataChangedNotificationIfNeeded : 428 -> 184
+~ ___playerairplay_mediaControlHandleTypeUnhandledURLRequest_block_invoke : 632 -> 568
+~ ___playerairplay_mediaControlHandleTypeUnhandledURLRequest_block_invoke_2 : 1620 -> 956
+~ _playerairplay_customURLLoaderDataCallback : 1308 -> 992
+~ _airplayCryptor_setProperty : 188 -> 192
+~ _airplayCryptor_setPackagedAndRawPersistentKey : 440 -> 304
+~ _airplayCryptor_CreateKeyResponseForAirPlay : 1532 -> 612
+~ _createAPCustomURLResponseFromContentKeyResponse : 680 -> 512
+~ _createAPCustomURLResponseFromLocalCustomURLResponse : 1172 -> 820
+~ _pap_stopAirPlayVideoPlayback : 1748 -> 1188
+~ _pap_PlaybackSessionSeekToTime : 224 -> 228
+~ ___pap_playbackSessionSetRateCompletion_block_invoke : 876 -> 276
+~ _playerairplay_bufferedAirPlayOutputActiveConfigurationDidBecomeInvalid : 276 -> 216
+~ _playerairplay_updateAirPlayRouteInformationAndEndpoint : 1200 -> 836
+~ _playerairplay_SetPiPMuteOnBufferedAudio : 460 -> 476
+~ _playerairplay_switchFromBufferedAirPlayToLocal : 624 -> 268
+~ _playerairplay_checkStartAPV : 1696 -> 380
+~ _playerairplay_checkStopAPV : 1584 -> 284
+~ _playerairplay_copyPropertyAndWaitTillCompleteOrTimesOut : 1420 -> 612
+~ _playerairplay_switchFromLocalToBufferedAirPlay : 3068 -> 2728
+~ _playerairplay_isPrimaryForNativeInterstitialsInAPVPlayback : 380 -> 384
+~ _playerairplay_copyPlayQueueAirPlayItemFromSubPlayer : 524 -> 324
+~ _playerairplay_CreatePlaybackItemFromAsset : 3864 -> 2316
+~ _playerairplay_SetProperties : 504 -> 340
+~ _itemairplay_reflectSubItemNotification : 1344 -> 952
+~ _itemairplay_assetPropertyLoaded : 684 -> 276
+~ _itemairplay_assetPropertyFailedToLoad : 868 -> 852
+~ _itemairplay_assetPropertyBatchLoaded : 1392 -> 304
+~ _itemairplay_SetProperty : 1128 -> 404
+~ ___itemairplay_handleSetProperty_block_invoke : 932 -> 388
+~ _itemairplay_SetProperties : 1212 -> 436
+~ ___playerairplay_initializeCallbacks_block_invoke_2 : 3556 -> 2836
+~ _FigPlayerAirPlayCreateWithOptions.cold.3 : 108 -> 32
+~ _FigPlayerAirPlayCreateWithOptions.cold.4 : 108 -> 40
+~ _itemairplay_airplaySetCurrentTime.cold.1 : 124 -> 92
+~ _itemairplay_setUpPlayParamDictionary.cold.4 : 124 -> 36
+~ _airplayCryptor_SetKeyRequestResponse.cold.1 : 124 -> 48
+~ _playerairplay_ContentKeyDataCallback.cold.1 : 140 -> 60
+~ _itemairplay_handleSetProperty.cold.2 : 76 -> 84
+~ _itemairplay_handleSetProperty.cold.3 : 76 -> 84
+~ _itemairplay_handleSetProperty.cold.4 : 76 -> 84
+~ _itemairplay_handleSetProperty.cold.5 : 76 -> 96
+~ _itemairplay_handleSetProperty.cold.13 : 200 -> 72
+~ _itemairplay_SeekToDateWithID.cold.2 : 88 -> 96
+~ _itemairplay_SetTrackProperty.cold.1 : 132 -> 68
+~ _playercoordinator_CreatePlaybackItemFromAsset : 700 -> 528
+~ _playercoordinator_reflectSubPlayerNotification.cold.1 : 100 -> 24
+~ _playercoordinator_StepByCount.cold.2 : 116 -> 44
+~ _mr_memoryRequestCallback : 292 -> 208
+~ _mr_httpReadCallback : 820 -> 380
+~ _mr_issueDataOutputCallbackGuts : 840 -> 576
+~ _mr_timerEventHandler : 400 -> 412
+~ _mr_customURLReadCallback : 996 -> 500
+~ _mr_start.cold.1 : 124 -> 64
+~ _mr_start.cold.2 : 124 -> 44
+~ _mr_subscribeToOutput.cold.1 : 152 -> 72
+~ _mr_copyRequestFromRetainProxy.cold.1 : 124 -> 44
+~ _sad_invalidateAndReleasePump : 376 -> 300
+~ _sad_ensureTemporaryMetadataOnlyPumpCache : 904 -> 496
+~ _sad_durationChangedNote : 344 -> 272
+~ _sad_durationChanged : 808 -> 516
+~ _sad_openPumpOrScheduleIt : 512 -> 212
+~ _sad_registerAssetForDownloadAndOpenPump : 1208 -> 932
+~ _sad_ensurePersistentPumpCacheConfiguredForDownload : 1988 -> 1120
+~ _sad_bytePumpReachedEnd : 1032 -> 608
+~ _sad_flushStreamingCacheCompletedNote : 632 -> 216
+~ _sad_finishDownloadAfterStreamingCacheFlush : 684 -> 664
+~ _sad_startOrResumeDownload : 284 -> 276
+~ _sad_requestPump : 296 -> 232
+~ _sad_getPumpReadySchedulerCallback : 5108 -> 4224
+~ _sad_bytePumpFn : 396 -> 324
+~ _sad_bytePumpFnDispatch : 1888 -> 1212
+~ _sad_sendLoadedTimeRangesChangeNoteIfChanged : 3188 -> 2396
+~ _sad_bossFilteredAlternatesChangedCallback : 1684 -> 924
+~ _sad_bossMediaSelectionArrayChangedCallback : 344 -> 276
+~ _sad_addStableRenditionIDFilterForMediaType : 304 -> 284
+~ _sad_copyPropertyDispatch : 660 -> 592
+~ _sad_loadMetadataGuts : 308 -> 64
+~ _sad_pumpTransferCallback.cold.1 : 160 -> 84
+~ _sad_pumpTransferCallbackDispatch.cold.2 : 124 -> 48
+~ _sad_getCFIndexForKeyFromPumpStoreBag.cold.2 : 108 -> 32
+~ _sad_setPropertyDispatch.cold.1 : 124 -> 48
+~ _sad_setPropertyDispatch.cold.4 : 124 -> 48
+~ _sad_setPropertyDispatch.cold.9 : 124 -> 48
+~ _FigCSSParserNodeCreate.cold.1 : 144 -> 68
+~ _FigCSSQualifiedRuleParserNodeCopySimpleBlock.cold.2 : 112 -> 36
+~ _FigCSSComponentValueParserNodeCopySimpleBlock.cold.5 : 112 -> 44
+~ _FigCSSSimpleBlockParserNodeSetValue.cold.1 : 112 -> 36
+~ _FigByteStreamRemoteCreateFromByteStreamDetails : 3040 -> 1276
+~ _FigByteStreamRemoteCreateWithURL : 1052 -> 540
+~ _FigByteStreamRemoteCreateWithPlaybackProcessObjectID : 940 -> 356
+~ _remoteByteStream_CopyProperty : 876 -> 592
+~ _remoteByteStream_SetProperty : 796 -> 264
+~ _frbs_reopenFileInLocalByteStream : 1156 -> 344
+~ _remoteByteStream_Read : 2460 -> 1020
+~ _remoteByteStream_Write : 576 -> 284
+~ _remoteByteStream_GetAvailableLengthAtOffset : 1300 -> 492
+~ _remoteByteStream_ReadAndCreateBlockBuffer : 672 -> 384
+~ _remoteByteStream_Synchronize : 532 -> 276
+~ _frbs_GetObjectID.cold.1 : 124 -> 48
+~ _MPEG2PSSniff : 868 -> 748
+~ _MPEG2PSInject : 2624 -> 1320
+~ _MPEG2PSProcessVideoSearch : 1696 -> 492
+~ _famen_didSetPropertyCallbackForExpensiveNetwork : 744 -> 656
+~ _famfon_setFilterForState : 316 -> 236
+~ _fam_postStateChangedNotification.cold.1 : 124 -> 44
+~ _famrbl_setProperty.cold.1 : 124 -> 36
+~ _FigCDSSessionStart : 72 -> 68
+~ _FigCDSSessionStop : 72 -> 68
+~ _FigCDSSessionUpdateLegibleOutputContext : 164 -> 84
+~ _FigCDSSessionUpdateCGContext : 164 -> 84
+~ _FigCDSSessionUpdateOutput : 72 -> 68
+~ _clearDo : 772 -> 564
+~ _updateMASettingsDoAsync : 2144 -> 1192
+~ _onTriggerEvent : 200 -> 192
+~ _UpdateLayoutContext : 620 -> 420
+~ _onCaptionInputDo.cold.1 : 108 -> 28
+~ ___fmlbp_setProperty_block_invoke.cold.4 : 124 -> 48
+~ _fmlbp_makePrediction.cold.1 : 124 -> 48
+~ _fmlbp_timerCallback.cold.2 : 108 -> 28
+~ _FigCaptionRendererOutputNodeCreate : 296 -> 240
+~ _FigMPEG2SampleGeneratorCreate : 1292 -> 752
+~ _MPEG2SampleGeneratorCreateFormatDescriptionFromAudioConfiguration : 2084 -> 820
+~ _ADTSPushForType : 836 -> 768
+~ _ADTSFlushForType : 504 -> 264
+~ _ADTSCreateFormatDescriptionAndSend : 1864 -> 844
+~ _DolbyFlushForType : 516 -> 252
+~ _H264ParamSetAddSPS : 692 -> 440
+~ _H264ParamSetAddPPS : 864 -> 468
+~ _H264PushForType : 2448 -> 1800
+~ _MP3PushForType : 1252 -> 732
+~ _MP3FlushForType : 520 -> 256
+~ _figVTT_initVTTSectionTypeNameMapping.cold.1 : 108 -> 4
+~ _M2VPushForType : 4692 -> 3520
+~ _figTTMLDocumentWriterStyleSpanBuilder_AddCaptionData : 2168 -> 2012
+~ _buildTimeToAttributesMap : 600 -> 528
+~ _MPEG2TSInitialize : 184 -> 188
+~ _MPEG2TSInject : 1556 -> 1252
+~ _PatProcessPak : 1584 -> 608
+~ _MPEG2TSAddTrack : 280 -> 296
+~ _PesEmitTsPak : 744 -> 400
+~ _PesProcessAdaptationPrivate : 352 -> 304
+~ _PmapProcessPak : 2516 -> 872
+~ _PmapAddPes : 2132 -> 1092
+~ _PesProcessTsPak.cold.1 : 144 -> 44
+~ _FigManifoldCreateForMPEG2 : 568 -> 428
+~ __ZL18mmNewTrackCallbackP20OpaqueFigMPEG2ParserPvjij : 752 -> 416
+~ __ZL24MPEG2ManifoldSetPropertyP18OpaqueCMBaseObjectPK10__CFStringPKv : 548 -> 372
+~ __ZL37MPEG2ManifoldInstallCallbacksForTrackP17OpaqueFigManifoldiPK26FigManifoldOutputCallbacksPv : 588 -> 504
+~ __ZL18MPEG2ManifoldFlushP17OpaqueFigManifold : 272 -> 192
+~ __ZL37mmMPEG2ParserEmitMetadataDataCallbackP20OpaqueFigMPEG2ParseriPvP19OpaqueCMBlockBuffer6CMTimeS4_jxlPKmS6_PKh : 1396 -> 992
+~ __ZL35mmMPEG2ParserEmitSampleDataCallbackP20OpaqueFigMPEG2ParseriPvP19OpaqueCMBlockBuffer6CMTimeS4_jxlPKmS6_PKh : 668 -> 656
+~ __ZL24mmMPEG2NewSampleCallbackP29OpaqueFigMPEG2SampleGeneratorPvP20opaqueCMSampleBufferxj : 968 -> 540
+~ _FigXMLServiceReadAndCopyParsedXML : 436 -> 480
+~ _fxs_deserializeFigXMLNode : 520 -> 468
+~ _FigXMLServiceReadFromMemoryAndCopyParsedXML : 280 -> 324
+~ _sbp_vc_getAndRetainNextSampleBufferIfReady : 856 -> 496
+~ _FigSampleBufferProviderCreateForVisualContextGroup.cold.1 : 124 -> 44
+~ _sbp_vc_getAndRetainNextSampleBufferFromVisualContextGroupIfReady.cold.2 : 108 -> 28
+~ _sbp_vc_getAndRetainNextSampleBufferFromVisualContextGroupIfReady.cold.4 : 108 -> 28
+~ _FigPictureCollectionCreateBrandsFromByteStream : 256 -> 184
+~ _CreateGroupsListDescriptor : 592 -> 316
+~ _PictureReaderCopyProperty : 1688 -> 1560
+~ _PictureTileCursorServiceCopyProperty : 248 -> 208
+~ _PictureTileCursorServiceCreateCursorAtPosition : 340 -> 292
+~ _PictureTileCursorCopyProperty : 548 -> 432
+~ _FigPictureCollectionCreateFromIFFItemInformation.cold.2 : 124 -> 48
+~ _CreatePictureReader.cold.1 : 140 -> 60
+~ _PictureReaderCopyPictureTileCursorService.cold.1 : 132 -> 52
+~ _ckbserver_copyBossAndCompanion : 252 -> 176
+~ ___FigContentKeyBossStartServer_block_invoke.cold.1 : 132 -> 52
+~ _HandleVisualContextMessage : 4460 -> 2868
+~ _HandleVisualContextNoReplyMessage : 1236 -> 220
+~ _vcs_SendCallback : 280 -> 228
+~ _fcd_ttml_flushRubyNodesToStyledTextArray : 2072 -> 1932
+~ _fcd_ttml_concatenateStyledTextArray : 1324 -> 1260
+~ _fcd_ttml_addParentDirectionAndUnicodeBidiRecursively : 408 -> 416
+~ _fcd_ttml_createStylePropertyFromTTMLStyle_textShear : 296 -> 228
+~ _fcd_ttml_setDimensionProperty : 260 -> 264
+~ _fcd_ttml_createStylePropertyFromTTMLStyle_textOutline.cold.1 : 112 -> 72
+~ _fcd_ttml_createStylePropertyFromTTMLStyle_textOutline.cold.3 : 112 -> 64
+~ _fcd_ttml_createStylePropertyFromTTMLStyle_textDecoration.cold.1 : 128 -> 64
+~ _FigRemakerCreateBaseWithURLs : 1620 -> 712
+~ _FigRemakerCreateWithURLs : 1188 -> 1116
+~ _remaker_AddAudioTrack : 816 -> 500
+~ _remaker_StartOutput : 7216 -> 4252
+~ _remaker_AddPassthroughTrackWithOptions : 1876 -> 1260
+~ _remaker_AddTemporalMetadataTrackWithOptions : 3512 -> 2480
+~ _remaker_AddCaptionTrack : 1472 -> 1228
+~ _remaker_CanPerformFastFrameRateConversionWork : 2844 -> 1848
+~ _FigRemakerCreateWithAsset.cold.3 : 124 -> 48
+~ _FigRemakerCreateWithAsset.cold.4 : 124 -> 48
+~ _FigRemakerCreateWithAsset.cold.7 : 124 -> 48
+~ _remaker_CopyProperty.cold.1 : 124 -> 52
+~ _remaker_SetProperty.cold.4 : 124 -> 48
+~ _remaker_SetProperty.cold.9 : 124 -> 48
+~ _remaker_AddVideoTrack.cold.2 : 124 -> 48
+~ _remaker_AddVideoTrack.cold.5 : 124 -> 48
+~ _remaker_SetTimeRange.cold.1 : 124 -> 48
+~ _remaker_SetTimeRange.cold.3 : 124 -> 48
+~ _remaker_AddAudioMixdownTrack.cold.1 : 124 -> 48
+~ _remaker_AddAudioMixdownTrack.cold.2 : 124 -> 72
+~ _remaker_createSanitizedDestinationASBDAndAudioOptions.cold.4 : 124 -> 48
+~ _AssetPALoggingHelperCreateAccessInterval : 476 -> 168
+~ _FigCDSCaptionCreate : 252 -> 196
+~ _ckCaptionSetupText : 8692 -> 4620
+~ _calculateAndCopyStrokeAttributes : 920 -> 456
+~ _setupRubyAnnotation.cold.1 : 108 -> 28
+~ _FigSampleBufferProcessorCreateWithAudioCompression.cold.9 : 124 -> 44
+~ _RunConverter.cold.1 : 108 -> 28
+~ _RunConverter.cold.3 : 108 -> 28
+~ _FigVCLayerDefinitionGetAffineTransform : 508 -> 456
+~ _FigVCLayerDefinitionCreateLayerDefinitionArray : 848 -> 648
+~ _FigVCLayerDefinitionCopyDestinationPixelBufferWithoutComposingIfPossible : 792 -> 724
+~ _FigVCLayerDefinitionGetSpecifiedCropRect.cold.2 : 124 -> 52
+~ _FigVCLayerDefinitionCreate.cold.1 : 124 -> 52
+~ _FigVCLayerDefinitionCreate.cold.3 : 124 -> 52
+~ _FigPersonaCopyCurrentID : 260 -> 268
+~ _FigRTCReportingCreate : 1012 -> 648
+~ _frr_createUserInfoDict : 652 -> 404
+~ _frr_createSessionDict : 944 -> 604
+~ _FigRTCReportingSetUserInfo : 524 -> 244
+~ _FigRTCReportingSendOneMessageWithDictionary : 1132 -> 512
+~ _FigRTCReportingSendMsgRealTime : 608 -> 292
+~ _FigImageQueueDisplayCountHistory_Create.cold.2 : 128 -> 72
+~ _FigCaptionRendererParentIntervalCreate : 388 -> 248
+~ _DeMoofMovieFile : 7248 -> 3040
+~ _MovieUsesFragments : 340 -> 276
+~ _shouldSyncByteStreamWhenComplete : 384 -> 264
+~ _figTTMLDocumentWriterDivBuilder_AddCaptionData : 1296 -> 1108
+~ _FigTTMLLayoutCreate : 496 -> 380
+~ _FigTTMLLayoutCreateDefault : 400 -> 272
+~ _figTTMLLayout_GetNodeType.cold.1 : 116 -> 48
+~ _FigMediaRequestSchedulerStart : 376 -> 88
+~ _mrs_readNextResource : 1212 -> 600
+~ _FigMediaRequestSchedulerCreate.cold.1 : 124 -> 56
+~ _FigMediaRequestSchedulerCreate.cold.2 : 124 -> 44
+~ _mrs_resourceLoadDidProduceDataOutput.cold.1 : 140 -> 60
+~ _FigMediaPlaylistRemoveContentKeySpecifierRemote : 264 -> 192
+~ _FigMediaPlaylistRemoveMediaSegmentSpecifierRemote : 264 -> 192
+~ _FigMediaPlaylistRemovePartSegmentSpecifierRemote : 368 -> 308
+~ _FigMediaPlaylistRemoveMapSegmentSpecifierRemote : 264 -> 192
+~ _FigStreamPlaylistParseRemote : 1892 -> 1560
+~ _fxs_replyingMessageHandler : 1388 -> 660
+~ _fxs_serializeXMLNode : 640 -> 436
+~ _FigAssetReaderRemoteCreateWithAsset : 1488 -> 756
+~ _frr_HandleServerMessage : 1428 -> 428
+~ _remoteReader_EnableVideoCompositionExtraction3 : 736 -> 492
+~ _remoteReader_ExtractAndRetainNextSampleBuffer.cold.1 : 136 -> 60
+~ _remoteRemakerFamily_storeSandboxRegistration.cold.1 : 108 -> 28
+~ _keyManager_ensureAndCopyLowValueKeyAndIVForEntryInternal : 632 -> 236
+~ _KeyManagerCreateStopSPC : 848 -> 636
+~ _keyManager_invalidateInternal : 832 -> 748
+~ _PKDKeyManagerCreateForPastis : 328 -> 348
+~ _PKDKeyManagerCreateForMSE : 328 -> 348
+~ _keyManager_processOfflineKeyInternal : 2096 -> 1328
+~ _keyManager_ensureDecryptContextForEntryInternal : 864 -> 300
+~ _keyManager_finalize : 456 -> 220
+~ _keyManager_ensureDecryptContextForKeyID.cold.3 : 124 -> 48
+~ _PKDKeyManagerSetKeyRequestError.cold.1 : 108 -> 32
+~ _PKDKeyManagerInstallCallbacksForKeyID.cold.2 : 124 -> 48
+~ _keyManager_createInternal.cold.1 : 124 -> 60
+~ _APIProviderGetAPIProviderForID.cold.3 : 108 -> 24
+~ _keyManager_processOnlineKeyInternal.cold.4 : 124 -> 48
+~ _keyManager_processOnlineKeyInternal.cold.5 : 124 -> 72
+~ _keyManager_processOnlineKeyInternal.cold.6 : 124 -> 48
+~ _keyManager_processOnlineKeyInternal.cold.7 : 124 -> 44
+~ _FigXPCImageQueueGaugeServerHandleMessage : 1192 -> 204
+~ _FigXPCImageQueueGaugeServerStartAsSubserver.cold.1 : 124 -> 48
+~ _dataChannelConfiguration_createDataChannelConfiguration.cold.2 : 124 -> 72
+~ _dataChannelConfiguration_createDataChannelConfiguration.cold.3 : 124 -> 48
+~ _FigDataChannelConfigurationSetModificationID.cold.1 : 124 -> 44
+~ _FigDataChannelConfigurationCopyPlayerLoggingIdentifier.cold.1 : 108 -> 28
+~ _FigStreamAlternateGetAudioMaximumDecodeChannelCount : 1632 -> 620
+~ _HandleRemakerFamilyMessageWithReply : 14044 -> 7280
+~ _FigRemakerFamilyServer_RemakerSetProperty : 460 -> 384
+~ _FigRemakerFamilyServer_RemakerCopyProperty : 476 -> 408
+~ _FigRemakerFamilyServer_GetDefaultSourceTrack : 664 -> 580
+~ _FigRemakerFamilyServer_RemakerSetFormatWriterProperty : 580 -> 432
+~ _FigRemakerFamilyServer_RemakerSetFormatWriterTrackProperty : 764 -> 584
+~ _FigRemakerFamilyServer_RemakerCopyFormatWriterTrackProperty : 656 -> 460
+~ _FigRemakerFamilyServer_RemakerAddAudioTrack : 644 -> 436
+~ _FigRemakerFamilyServer_RemakerAddAudioTrackWithPreset : 448 -> 344
+~ _FigRemakerFamilyServer_RemakerAddAudioMixdownTrack : 668 -> 496
+~ _FigRemakerFamilyServer_RemakerAddAudioMixdownTrackWithPreset : 468 -> 400
+~ _FigRemakerFamilyServer_RemakerAddVideoTrack : 784 -> 660
+~ _FigRemakerFamilyServer_RemakerAddVideoCompositionTrack : 1468 -> 1340
+~ _FigRemakerFamilyServer_RemakerAddPassthroughTrackWithOptions : 396 -> 276
+~ _FigRemakerFamilyServer_RemakerAddTemporalMetadataTrackWithOptions : 396 -> 276
+~ _FigRemakerFamilyServer_RemakerEstimateMaxSegmentDurationForFileSize : 328 -> 280
+~ _FigRemakerFamilyServer_RemakerSetTimeRange : 300 -> 248
+~ _FigRemakerFamilyServer_RemakerCanPerformFastFrameRateConversion : 400 -> 288
+~ _FigRemakerFamilyServer_ReaderEnableOriginalSampleExtractionFromTrack : 396 -> 276
+~ _FigRemakerFamilyServer_ReaderEnableOriginalSampleReferenceExtractionFromTrack : 396 -> 276
+~ _FigRemakerFamilyServer_ReaderEnableDecodedAudioExtractionFromTrackWithAudioOptions : 708 -> 484
+~ _FigRemakerFamilyServer_ReaderEnableDecodedVideoExtractionFromTrack : 584 -> 476
+~ _FigRemakerFamilyServer_ReaderEnableVideoCompositionExtraction : 1568 -> 1424
+~ _FigRemakerFamilyServer_ReaderEnableAudioMixdownExtraction : 732 -> 560
+~ _FigRemakerFamilyServer_ReaderExtractAndRetainNextSampleBuffer : 1772 -> 936
+~ _FigRemakerFamilyServer_ReaderStartExtractionForTime : 296 -> 260
+~ _FigRemakerFamilyServer_ReaderStartExtractionForTimeRange : 300 -> 248
+~ _FigRemakerFamilyServer_ReaderEnableCaptionExtractionFromTrack : 396 -> 276
+~ _FigRemakerFamilyServer_WriterAddCaptionTrack : 392 -> 328
+~ _FigRemakerFamilyServer_WriterAddNativeTrack : 364 -> 276
+~ _FigRemakerFamilyServer_WriterAddAudioTrackWithCompression : 784 -> 632
+~ _FigRemakerFamilyServer_WriterAddAudioTrackWithPresetCompression : 380 -> 308
+~ _FigRemakerFamilyServer_WriterAddVideoTrackWithCompression : 708 -> 632
+~ _FigRemakerFamilyServer_WriterCopyTrackProperty : 804 -> 560
+~ _FigRemakerFamilyServer_WriterSetTrackProperty : 604 -> 424
+~ _FigRemakerFamilyServer_WriterBeginSession : 304 -> 280
+~ _FigRemakerFamilyServer_WriterAddSampleBuffer : 676 -> 488
+~ _FigRemakerFamilyServer_WriterAddPixelBuffer : 624 -> 500
+~ _FigRemakerFamilyServer_WriterAddTaggedBufferGroup : 524 -> 432
+~ _FigRemakerFamilyServer_WriterEndSession : 296 -> 260
+~ _FigRemakerFamilyServer_WriterBeginPass : 388 -> 260
+~ _FigBufferedAirPlaySubPipeManagerForRenderPipelineCreate : 1636 -> 1384
+~ _bapspManager_invalidate : 908 -> 924
+~ _bapspManager_finalize : 344 -> 356
+~ _bapspManager_copyProperty : 184 -> 180
+~ _bapspManager_clearCurrentSubPipe : 672 -> 432
+~ _bapspManager_subPipeDecoderError : 432 -> 476
+~ _bapspManager_subPipeFinishedProcessingData : 432 -> 504
+~ _bapspManager_disconnectSbufBridge : 432 -> 468
+~ ___bapspManager_dequeueInspectSendSampleBuffer_block_invoke : 804 -> 5936
+~ _bapspManager_startAudioChainForSubPipe : 912 -> 520
+~ ___bapspManager_postNotification_block_invoke : 344 -> 84
+~ _bapspManager_setLoudnessInfoOnSubPipe : 428 -> 192
+~ ___bapspManager_copyProperty_block_invoke : 764 -> 464
+~ ___bapspManager_setProperty_block_invoke : 1528 -> 1164
+~ _bapspManager_setRateAndAnchorTime : 248 -> 236
+~ _bapspManager_setRateAndAnchorTimeDispatch : 1348 -> 368
+~ ___bapspManager_reset_block_invoke : 920 -> 656
+~ ___bapspManager_flush_block_invoke : 452 -> 220
+~ _FigAlternateFilterMonitorTriggerSetBoss.cold.1 : 128 -> 36
+~ _FigCPERemoteInitializeWithOptions : 568 -> 256
+~ _FigCPERemoteUninitialize : 508 -> 228
+~ _fasb_addFilterGuts : 696 -> 336
+~ _fasb_removeFilter : 320 -> 84
+~ _FigAlternateSelectionBossCopyProperty : 708 -> 500
+~ _fasb_monitorExpandersAddedNotificationHandler : 608 -> 328
+~ _fasb_applyExpandersGuts : 836 -> 628
+~ _FigAlternateSelectionBossHasFilter.cold.1 : 108 -> 28
+~ _FigAlternateSelectionBossSetProperty.cold.1 : 124 -> 48
+~ _fasb_applyFiltersGuts.cold.3 : 108 -> 32
+~ _fasb_insertFilteringInfoToDescriptionHelper.cold.1 : 124 -> 48
+~ _sbp_vrot_processSampleBuffer : 1444 -> 664
+~ _FigSCCParserCreate : 564 -> 256
+~ _FigSCCParserSetFrameDuration : 620 -> 404
+~ _FigSCCParserParse : 5412 -> 3068
+~ _sccParserMalformedDataInfoCreateIfNeeded : 524 -> 348
+~ _FigSCCParserCaptionDataInfoGetFrame.cold.1 : 124 -> 48
+~ _vdms_finalize : 1000 -> 520
+~ _vdms_setProperty : 2540 -> 1344
+~ _vdms_RTCReportingUpdatePayloadTransferError : 892 -> 580
+~ _vdms_updateResourcesAndTransferMetadata : 3576 -> 1832
+~ _vdms_supportsVenueDescriptionDataDelivery : 648 -> 328
+~ _FigVenueDescriptionMetadataSupplierCreate.cold.4 : 124 -> 48
+~ _vdms_reevaluateProcessingStateAndNotify.cold.1 : 108 -> 180
+~ _vdms_reevaluateProcessingStateAndNotify.cold.3 : 108 -> 32
+~ _vdms_deferredAssetPropertyLoadedCallback.cold.2 : 108 -> 192
+~ _vdms_updateDataChannelConfig.cold.3 : 124 -> 48
+~ _mv_ValidateFileFromByteStream : 1464 -> 1132
+~ _FigMediaValidatorValidateIndividualTrackForDecoding : 252 -> 8
+~ _mv_GetVideoProfileAndLevelConstraints : 1020 -> 528
+~ _mv_ComputeDroppableFrameRate : 1844 -> 1504
+~ _mv_LookupCodecSupport : 772 -> 412
+~ _mv_ValidateRFC4281_avc1_avc3 : 808 -> 324
+~ _mv_ValidateVideoProfileLevelTier : 444 -> 316
+~ _mv_ValidateRFC4281_hvc1_hev1 : 844 -> 560
+~ _mv_ValidateRFC4281_dvhe_dvh1 : 1376 -> 1056
+~ _mv_ValidateRFC4281_av01 : 1488 -> 944
+~ _mv_ValidateRFC4281_dav1 : 892 -> 580
+~ _mv_ValidateRFC4281VideoFromCodecType : 600 -> 208
+~ _mv_ValidateRFC4281_vp9 : 992 -> 756
+~ _mv_ValidateRFC4281AudioFromCodecType : 600 -> 208
+~ _FigMediaValidatorValidateFormatDescription.cold.2 : 288 -> 48
+~ _mv_CheckIfVideoPresentable.cold.3 : 192 -> 48
+~ _mv_CheckIfVideoPresentable.cold.4 : 56 -> 32
+~ _mv_CheckIfVideoPresentable.cold.5 : 56 -> 48
+~ _mv_CheckIfAudioPlayable.cold.3 : 124 -> 88
+~ _FigMediaValidatorValidateAndTranslateRFC4281CodecsForStreaming.cold.4 : 124 -> 48
+~ _mv_CheckIfFormatReaderIsSupported.cold.1 : 56 -> 48
+~ _mv_ValidateTrackWithTrackReader.cold.2 : 56 -> 48
+~ _mv_ValidateTrackWithTrackReader.cold.5 : 136 -> 48
+~ _mv_ValidateTrackWithTrackReader.cold.6 : 124 -> 48
+~ _mv_ValidateTrackWithTrackReader.cold.7 : 124 -> 48
+~ _mv_ValidateTrackWithTrackReader.cold.8 : 56 -> 48
+~ _mv_ValidateRFC4281IdEvaluationFn.cold.1 : 136 -> 60
+~ _mv_ValidateRFC4281_mp4v_evaluation_fn.cold.4 : 124 -> 48
+~ _mv_ValidateRFC4281_ttml.cold.3 : 124 -> 48
+~ _figMDRW_ParseChildAtoms : 520 -> 348
+~ _GetCompressedMovieDataAtom : 1128 -> 584
+~ _figMDRW_WriteMetadata : 1668 -> 1352
+~ _figMDRW_CreateUserDataBBufWithiTunes : 1276 -> 1052
+~ _figMDRW_CreateMetadataBBufFromMetadataArray : 1124 -> 980
+~ _figMDRW_MergeUserData.cold.2 : 108 -> 32
+~ _figMDRW_CopyMetadataArrayFromByteStream.cold.1 : 124 -> 48
+~ _figMDRW_CopyMetadataArrayFromByteStream.cold.2 : 136 -> 60
+~ _FigID3MetadataCallbackProc : 1580 -> 448
+~ _FigID3MetadataHasKey : 1120 -> 320
+~ _FigID3MetadataGetItemCount : 1364 -> 412
+~ _FigID3MetadataCopyItemWithKeyAndIndex : 2908 -> 1736
+~ _FigID3MetadataCopyValue.cold.6 : 124 -> 48
+~ _HandlePlayerServerMessage : 3672 -> 4700
+~ _serverXPCItem_HandleCopyImageQueueGaugeMessage : 784 -> 336
+~ _DisposeServedPlayerState : 420 -> 240
+~ _serverXPCPlayer_handlePlayerSetProperty : 716 -> 336
+~ _serverXPCItem_handleItemSetPropertyGuts : 2944 -> 1468
+~ _DisposeServedItemState : 396 -> 212
+~ _serverXPCItem_addTimeSyncUpdateToMessage : 312 -> 196
+~ _fps_addMetadataOutputChangedNotificationPayloadToMessage : 304 -> 252
+~ _fps_addLegibleOutputChangedNotificationPayloadToMessage : 524 -> 448
+~ _fps_TimebaseSynchronizationUpdate_Callback : 1004 -> 412
+~ _HandlePlayerServerNoReplyMessage.cold.2 : 124 -> 48
+~ ___HandlePlayerServerMessage_block_invoke.cold.63 : 148 -> 68
+~ _serverXPCItem_NotificationFilter.cold.1 : 116 -> 40
+~ _serverXPCItem_NotificationFilter.cold.4 : 188 -> 24
+~ _serverXPCItem_getSyntheticSyncMomentL.cold.1 : 124 -> 44
+~ _FPSupport_CreateMaxSampleRateDictonary.cold.2 : 108 -> 28
+~ _FigStreamingAssetDownloadCacheTranslatorCreate : 1076 -> 440
+~ _fsadct_PrepareOfflinePlayableAlternatesAndWritePlaylistsDispatchFunction : 6224 -> 4668
+~ _fsadct_WritePlaylistsForPersistentIDApplierFunction : 1420 -> 1264
+~ _fsadct_MakeMediaPlaylistWriterHelper : 2312 -> 1732
+~ _fsadct_WriteMediaPlaylistAndAddToMovpkg.cold.1 : 132 -> 56
+~ _fsadct_WriteMediaPlaylistAndAddToMovpkg.cold.2 : 232 -> 84
+~ _fsadct_CreateMediaMapKeyToFilePathMappingOutApplierFunction.cold.3 : 124 -> 48
+~ _fsadct_CreateMediaMapKeyToFilePathMappingOutApplierFunction.cold.5 : 124 -> 48
+~ _FigCaptionRendererMACacheCreate.cold.1 : 128 -> 72
+~ _FigFileStarByteStreamCreateForFileURL : 832 -> 416
+~ _FigFileStarByteStreamRead.cold.1 : 156 -> 48
+~ _EstimateByteTimingForTrack : 1628 -> 1108
+~ _vdmst_getCodecMaxVideoLevelFromValidationDictionary : 1080 -> 356
+~ _FigGetEstimatedMaxFullFramePlaybackSpeedForTrackReader.cold.2 : 124 -> 44
+~ _writeStartElement : 396 -> 328
+~ _figHTTPCustomURLLoaderCredentialCallback : 1020 -> 208
+~ -[FigHTTPRequestSessionDataDelegate URLSession:task:didCompleteWithError:] : 2740 -> 844
+~ -[FigHTTPRequestSessionDataDelegate URLSession:dataTask:didReceiveData:] : 2012 -> 980
+~ -[FigHTTPRequestSessionDataDelegate URLSession:task:didFinishCollectingMetrics:] : 752 -> 436
+~ _figHttpRequestSendOutputBlockBuffer : 480 -> 188
+~ _figHTTPRequestGetOutputBuffer : 1044 -> 524
+~ _figHTTPSetActivelyUsingNetwork : 564 -> 252
+~ _figHTTPRequestNSURLSessionInvalidate : 532 -> 316
+~ _figHTTPRequestNSURLSessionFinalize : 732 -> 516
+~ _figHTTPRequestNSURLSessionSetProperty : 1308 -> 416
+~ _figHTTPRequestNSURLSessionCopyByteRangeAsCFDictionary : 292 -> 236
+~ -[FigHTTPRequestSessionDataDelegate URLSession:task:didReceiveChallenge:completionHandler:].cold.1 : 192 -> 28
+~ -[FigHTTPRequestSessionDataDelegate URLSession:task:didReceiveChallenge:completionHandler:].cold.2 : 192 -> 20
+~ _figHTTPRequestPerformReadCallback.cold.1 : 124 -> 48
+~ __FigHTTPRequestCreateWithNSURLSession.cold.21 : 132 -> 56
+~ _inEndpointStreamUtil_createSyncContext.cold.1 : 112 -> 92
+~ _FigEndpointStreamAudioEngineSuspendSync.cold.1 : 96 -> 4
+~ _FigHLSSessionDataCopyChapterMetadataAndCopyErrorLogEntryInProcess : 2708 -> 1948
+~ _sdpp_AddMetadataItemToChapterDictionary.cold.1 : 136 -> 40
+~ _FigDCP_FindAtomData : 308 -> 268
+~ _FigDCP_CopyAtomDataFromCacheFile : 368 -> 296
+~ _FigDCP_GetCacheFileVersion : 328 -> 232
+~ _FigDCP_InitializeDiskCache : 2308 -> 976
+~ _FigLimitedDiskCacheProvider_SetProperty : 2936 -> 1452
+~ _FigDCP_GetCacheSizeLimit : 708 -> 372
+~ _FigDCP_WriteAtomToFile : 928 -> 824
+~ _FigLimitedDiskCacheProvider_GetBacking : 1100 -> 380
+~ _FigDCP_NewDiskCacheFile.cold.1 : 124 -> 48
+~ _serializeOneAttributeToCSSProperty : 568 -> 300
+~ _figVTTStyle_copyNodeDocumentSerialization.cold.2 : 120 -> 48
+~ _figVTTStyle_copyNodeDocumentSerialization.cold.3 : 120 -> 48
+~ _figVTTStyle_copyNodeDocumentSerialization.cold.4 : 112 -> 48
+~ _FigDCP_CheckCacheFileVersion : 340 -> 248
+~ _FigFullDownloadDiskCacheProvider_SetProperty.cold.2 : 124 -> 176
+~ _FigByteStreamFactoryCreateStreamFromURLWithOptions : 1232 -> 648
+~ _fbfs_FigHTTPOpenCallback : 2044 -> 1424
+~ _FigByteStreamFactoryCreateStreamFromURLWithOptionsAsync.cold.3 : 124 -> 52
+~ _FigByteStreamFactoryCreateStreamFromURLWithOptionsAsync.cold.5 : 52 -> 44
+~ _FigByteStreamFactoryCreateStreamFromURLWithOptionsAsync.cold.9 : 124 -> 44
+~ _fbfs_CreateFlumeAsync.cold.1 : 124 -> 44
+~ _FigSteeringManifestCreateRemote : 1056 -> 620
+~ _FigVideoCompositionWindowGetFromSerializedConfigurationForTrack : 1444 -> 848
+~ _fampb_submitNetworkHistory : 1448 -> 920
+~ _fampb_networkHistoryObserverCallbackUnlocked : 472 -> 212
+~ _fampb_getMainSegmentBytesInTransitUnlocked : 288 -> 280
+~ _fampb_attemptToSwitch : 3504 -> 2136
+~ _FigAlternatePlaybackBitrateMonitorSetPumpOffset : 368 -> 80
+~ _FigAlternateFilterMonitorForPlaybackBitrateStartup : 1264 -> 896
+~ _fampb_copyAlternateListSortedByQuality : 356 -> 284
+~ _FigAlternatePlaybackBitrateMonitorRejectSwitch : 740 -> 524
+~ _FigAlternatePlaybackBitrateMonitorCopySerializedRecordData : 3584 -> 1896
+~ _fampb_setBandwidthConditions : 1944 -> 1680
+~ _fampb_createRecordABREventEntryForNowAndInsertQ : 692 -> 308
+~ _fampb_configurePlaybackFilterUnlocked : 4560 -> 3080
+~ _fampb_shouldSwitchUpConcurrently : 1068 -> 564
+~ _fampb_shouldSwitchDownConcurrently : 1576 -> 696
+~ _fampb_concurrentSwitchDownSafetyFactor : 976 -> 500
+~ _fampb_createRecordingDecisionAlternateEntryAndInsertQ : 340 -> 216
+~ _fampb_switchLowTimerProcUnlocked : 808 -> 568
+~ _fampb_copyProperty.cold.1 : 124 -> 48
+~ _fampb_configurePlaybackFilterAsync.cold.2 : 132 -> 56
+~ _fampb_serializeRecordedAlternateListToBitMap.cold.1 : 124 -> 48
+~ _MTAudioProcessingTapCreate : 1200 -> 408
+~ _aptapR_GetSourceAudio : 944 -> 208
+~ _MTMultitrackAudioProcessingTapCreate : 1208 -> 428
+~ _aptapR_BaseClass_Finalize : 1032 -> 284
+~ ___aptapR_EnsureClientEstablished_block_invoke.cold.1 : 116 -> 72
+~ _FigPathwayCloningApplyURIReplacement : 1148 -> 932
+~ _figSteeringCreateIndependentMediaGroupLocatorMap : 372 -> 300
+~ _FigPathwayValidateStableVariantAndRenditionIDs.cold.1 : 128 -> 56
+~ _FigPathwayValidateStableVariantAndRenditionIDs.cold.3 : 144 -> 68
+~ _figSteeringClonePathwayMediaGroup.cold.1 : 116 -> 48
+~ _FigCaptionRendererSRTRegionCreate : 548 -> 496
+~ _FigMetricItemRateChangeEventDeserializeAndCopy : 592 -> 468
+~ _meirc_serialize : 1420 -> 1296
+~ _FigRemakerCreateQueuedWithAsset : 1532 -> 572
+~ _queuedRemaker_AddAudioTrack : 908 -> 488
+~ _queuedRemaker_AddVideoTrack : 888 -> 520
+~ _queuedRemaker_AddPassthroughTrack : 700 -> 280
+~ _queuedRemaker_AddAudioTrackWithPreset : 660 -> 340
+~ _queuedRemaker_AddAudioMixdownTrackWithPreset : 660 -> 340
+~ _queuedRemaker_AddVideoCompositionTrack : 1248 -> 844
+~ _queuedRemaker_AddPassthroughTrackWithOptions : 616 -> 288
+~ _queuedRemaker_AddTemporaMetadataTrackWithOptions : 616 -> 288
+~ _FigWebVTTFormatReaderCreateFromStream : 1572 -> 928
+~ _WebVTTCursor_getDuration : 644 -> 268
+~ _WebVTTCursor_createSampleBuffer : 440 -> 276
+~ _wvtt_sampleCallback : 1484 -> 528
+~ _TimelineCache_GetSampleBufferContainingSample.cold.1 : 140 -> 64
+~ _prefsGetOSTypeIfPresent : 696 -> 700
+~ ___fvdp_submitPixelBuffer_block_invoke : 5744 -> 5568
+~ _fvdp_sendEncodedFrame : 2256 -> 2100
+~ _fvdp_sendFrameToEncoder : 2968 -> 2992
+~ _fvdp_ensureWritebackPixelBuffer : 2576 -> 2548
+~ _FigSampleBufferConsumerXPCRemoteRetainCopiedSampleBufferConsumer : 668 -> 208
+~ _FigSampleBufferConsumerRemoteXPC_Finalize : 400 -> 204
+~ _FigSampleBufferConsumerRemoteXPC_SendSampleBuffer : 456 -> 240
+~ _FigSampleBufferConsumerRemoteXPC_InstallLowWaterTrigger : 552 -> 208
+~ _FigSampleBufferConsumerRemoteXPC_RemoveLowWaterTrigger : 256 -> 184
+~ _FigSampleBufferConsumerRemoteXPC_SetAttachmentOnPendingSampleBuffersInPTSRange : 524 -> 312
+~ _FigSampleBufferConsumerRemoteXPC_PostNotification : 444 -> 200
+~ _remoteXPCSampleBufferConsumer_CreateInternal.cold.1 : 124 -> 48
+~ _remoteXPCSampleBufferConsumer_GetObjectID.cold.1 : 124 -> 48
+~ _neroidRemote_Invalidate : 988 -> 568
+~ _MTAudioProcessingTapXPCServerCopyTapForID : 392 -> 76
+~ _HandleAudioProcessingTapMessage : 2272 -> 688
+~ _FigCaptionCreateMutable : 292 -> 180
+~ _figCaptionSetProperty.cold.3 : 124 -> 52
+~ _figCaptionSetTimeRange.cold.2 : 124 -> 52
+~ _FigAssetCacheInspectorCreate_File : 896 -> 588
+~ _acif_copyCompletelyCachedMediaSelectionOptionsInGroup.cold.1 : 124 -> 44
+~ _figSampleGeneratorRemoteCreateCommon : 1320 -> 744
+~ _remoteSampleGenerator_handleServerMessage : 2580 -> 676
+~ _remoteSampleGenerator_Finalize : 540 -> 188
+~ _remoteSampleGenerator_GenerateSampleBuffersForRequests : 1492 -> 1144
+~ _remoteSampleGenerator_CreateBatch : 928 -> 440
+~ _remoteSampleGenerator_createSampleBuffer : 1016 -> 768
+~ _remoteSampleGenerator_processSingleSampleBufferResponse : 1204 -> 476
+~ _remoteSampleGeneratorBatch_Finalize : 768 -> 308
+~ _remoteSampleGeneratorBatch_Cancel : 300 -> 236
+~ _CreateSampleBufferRequestor.cold.1 : 108 -> 28
+~ _remoteSampleGenerator_GetObjectID.cold.1 : 124 -> 48
+~ _remoteSampleGeneratorBatch_CreateAndAddSampleBufferAtCursor.cold.1 : 124 -> 48
+~ _assetCacheInspectorServer_handleRemoteMessage : 1544 -> 824
+~ _ParseStreamList : 604 -> 416
+~ _Parse_strh : 1772 -> 196
+~ _Parse_strf : 2752 -> 1776
+~ _Parse_indx : 2728 -> 764
+~ _Parse_idx1.cold.1 : 124 -> 44
+~ _Parse_idx1.cold.2 : 124 -> 44
+~ _AVITrackReaderCopyProperty : 956 -> 860
+~ _FigPlayerAirPlayRoute_Create : 720 -> 696
+~ _playerairplay_copyRoutingContext : 920 -> 676
+~ _playerairplayroute_resetRoutingContextIfNeededInternal : 508 -> 272
+~ _playerairplayroute_currentEndpointChangedNotificationCallback : 680 -> 468
+~ _playerairplayroute_audioBehaviorOrPrefersConcurrentAirPlayAudioDidChange : 452 -> 88
+~ _playerairplayroute_audioModeDidChange : 496 -> 264
+~ _getBuildNumberFromVersionString : 396 -> 372
+~ _ReadRIFFHeader : 592 -> 340
+~ _createMutableMovieObject : 720 -> 492
+~ _FigMutableMovieCreateFromFormatReader : 700 -> 280
+~ _createMutableMovieObjectWithByteStream : 408 -> 336
+~ _MutableMovie_CopyDebugDescription : 452 -> 448
+~ _MutableMovie_CopyProperty : 1872 -> 1864
+~ _MutableMovie_SetProperty : 2068 -> 1868
+~ _getTrackEditedDuration : 572 -> 564
+~ _MutableMovie_CopyHeaderData : 600 -> 544
+~ _MutableMovie_AddTrack : 792 -> 460
+~ _MutableMovie_CopyTrackProperty : 2880 -> 2772
+~ _MutableMovie_SetTrackProperty : 2864 -> 2716
+~ _MutableMovie_AppendMediaData : 800 -> 536
+~ _MutableMovie_AppendSampleReferences : 816 -> 632
+~ _MutableMovie_AppendSampleReferencesFromSampleCursor : 572 -> 516
+~ _MutableMovie_CanTrackAcceptFormatDescription : 520 -> 524
+~ _MutableMovie_InsertMediaIntoTrack : 508 -> 260
+~ _MutableMovie_ScaleTrackSegment : 296 -> 300
+~ _MutableMovie_InsertSegmentFromTrackReader : 1900 -> 1180
+~ _MutableMovie_InsertSegmentFromFormatReader : 2148 -> 1784
+~ _MutableMovie_CopyAsset : 364 -> 360
+~ _writeHeaderToByteStream : 3996 -> 3472
+~ _getLastAtomTypeAndOffsetAndLength : 232 -> 224
+~ _precedingAtomIsWideAtom : 344 -> 340
+~ _writeBlockBufferToCFData : 296 -> 188
+~ _createMutableMovieTrackObject : 512 -> 468
+~ _getByteStreamForTrackStorageURL : 508 -> 432
+~ _createStreamInfoForByteStream : 256 -> 208
+~ _writeMdatHeaderIfNecessary : 540 -> 468
+~ _writeActualMdatLengthsToStorages : 1140 -> 1008
+~ _createSourceFromTrack : 920 -> 864
+~ _getTrackForInsertionFromSource : 5348 -> 4256
+~ _clearInsertionStateInTracks : 184 -> 180
+~ _insertSegmentFromSourceArray : 232 -> 220
+~ _transferMovieSamplesFromSourceArray : 12576 -> 11896
+~ _writeMdatHeader.cold.2 : 124 -> 48
+~ _FigNWPathEvaluatorCreate : 3860 -> 1588
+~ ___FigNWPathEvaluatorCreate_block_invoke : 628 -> 316
+~ _playbackCoordinator_setRateAndAnchorTime : 3872 -> 3376
+~ _playbackCoordinator_jumpToTime : 3188 -> 2532
+~ _figPlaybackCoordinator_InterstitialStarted : 1328 -> 472
+~ _figPlaybackCoordinator_transitionToNewCurrentItem : 2016 -> 1228
+~ _playbackCoordinator_beginCoordinatedPlaybackNotPossibleSuspension : 704 -> 272
+~ _figPlaybackCoordinator_seekToGroupTimeIfOnlyReadyForInspection : 2108 -> 1352
+~ _figPlaybackCoordinator_startTrackingPlaybackStateIfReady : 1684 -> 1384
+~ _figPlaybackCoordinator_resetTimelineCoordinatorStateToCurrentItemIdentifierAndTiming : 2756 -> 2324
+~ _figPlaybackCoordinator_recordDateOffsetForItem : 1012 -> 716
+~ _figPlaybackCoordinator_recordInterstitialTimeRange : 552 -> 320
+~ _figPlaybackCoordinator_recordCurrentHLSInterstitialEventCoordinationStatus : 884 -> 464
+~ _figPlaybackCoordinator_itemBecameLikelyToKeepUp : 400 -> 348
+~ _figPlaybackCoordinator_hlsCurrentInterstitialEventChanged : 444 -> 244
+~ _figPlaybackCoordinator_checkForCommandCompletion : 832 -> 732
+~ _figPlaybackCoordinator_copyTimebaseAndAddOffset : 364 -> 376
+~ _figPlaybackCoordinator_timelineCoordinatorParticipantsDidChangeDispatch : 1704 -> 1484
+~ _FigPlaybackCoordinatorCreate.cold.4 : 108 -> 44
+~ _FigPlaybackCoordinatorCreate.cold.8 : 124 -> 44
+~ _playbackCoordinator_proposeTimelineForIdentifier.cold.2 : 108 -> 8
+~ _figPlaybackCoordinator_SetProperty.cold.1 : 124 -> 44
+~ _figPlaybackCoordinator_playerRateDidChange.cold.1 : 108 -> 28
+~ _playbackCoordinator_setReferenceTimebaseAndCompleteStartupTask.cold.3 : 108 -> 4
+~ _MovieEditCursorServiceCreateCursorAtTrackTime : 416 -> 376
+~ _MovieEditCursorCopy : 288 -> 232
+~ _ValidateMovieEditCursor : 760 -> 452
+~ _MovieFormatReaderParseAdditionalFragments : 1748 -> 756
+~ _MovieTrackReaderCopySampleCursorService : 392 -> 256
+~ _MovieCursorService_createCursorAtPresentationTimeStamp : 176 -> 188
+~ _MovieCursorService_createCursorNearPresentationTimeStamp : 176 -> 188
+~ _ParseFileTypeAtom : 832 -> 512
+~ _MoovParseMovieLevelAtom : 276 -> 252
+~ _MoovParseIncrementalFragments : 2208 -> 708
+~ _MoovAssureSampleTableParsed : 364 -> 372
+~ _ParseMovieHeaderAtom : 588 -> 500
+~ _ParseTrackAtom : 816 -> 428
+~ _ParseCompressedMovieAtom : 280 -> 248
+~ _ParseMovieExtendsAtomFromBBuf : 260 -> 264
+~ _ParseTrackHeaderAtom : 752 -> 612
+~ _ParseTrackReferenceAtom : 408 -> 308
+~ _ParseTrackUserDataAtom : 204 -> 196
+~ _ParseExtendedLanguageTagAtom : 328 -> 324
+~ _ParseDataRefAtom : 604 -> 480
+~ _ParseSampleGroupDescriptionAtom : 1000 -> 712
+~ _ParseTimeToSampleNumAtom : 624 -> 348
+~ _ParseSyncSampleAtom : 612 -> 324
+~ _ParseSampleToChunkAtom : 628 -> 360
+~ _ParseSampleSizeAtom : 852 -> 416
+~ _ParseCompactSampleSizeAtom : 584 -> 392
+~ _ParseChunkOffsetAtom : 688 -> 352
+~ _ParseChunkOffset64Atom : 668 -> 332
+~ _ParseCompositionOffsetAtom : 704 -> 388
+~ _ParsePartialSyncSampleAtom : 644 -> 352
+~ _ParseCompositionShiftLeastGreatestAtom : 268 -> 196
+~ _CommonSampleGroupDescriptionEntryParse : 532 -> 384
+~ _ParseTimeCodeMediaHeaderAtom : 184 -> 188
+~ _ParseCompressedMovieDataAtom : 1212 -> 696
+~ _ParseMovieExtendsHeaderAtom : 544 -> 264
+~ _ParseTrackExtendsAtom : 824 -> 272
+~ _ParseMovieFragmentHeaderAtom : 708 -> 224
+~ _ParseTrackFragmentAtom : 3888 -> 1676
+~ _ParseTrackFragmentHeaderAtom : 2492 -> 788
+~ _ParseTrackFragmentBaseMediaDecodeTimeAtom : 768 -> 284
+~ _ParseTrackRunAtom : 2808 -> 1132
+~ _ParseEditsAtomInTrackFragment : 332 -> 252
+~ _ParseSampleDependencyAtomInTrackFragment : 444 -> 180
+~ _ParseFragmentSampleGroupDescriptionAtom : 948 -> 620
+~ _ParseTrackFragmentUserDataAtom : 260 -> 184
+~ _FragmentInfoAddAndRetainSampleGroup : 316 -> 320
+~ _ParseMovieAtom.cold.1 : 132 -> 56
+~ _ParseEditListAtom.cold.1 : 132 -> 52
+~ _ParseSampleDescriptionAtom.cold.1 : 132 -> 60
+~ _ParseSampleDescriptionAtom.cold.2 : 132 -> 60
+~ _ParseSampleDescriptionAtom.cold.3 : 132 -> 60
+~ _ParseSampleDescriptionAtom.cold.4 : 132 -> 60
+~ _ParseSampleDescriptionAtom.cold.5 : 132 -> 60
+~ _ParseMOVCompactSampleToGroupAtom.cold.1 : 132 -> 60
+~ _CommonSampleToGroupAtomParseAndCreateArrayBBuf.cold.1 : 132 -> 60
+~ _CommonSampleToGroupAtomParseAndCreateArrayBBuf.cold.2 : 116 -> 44
+~ _CommonSampleToGroupAtomParseAndCreateArrayBBuf.cold.3 : 144 -> 72
+~ _CommonMOVCompactSampleToGroupAtomParseAndCreateArrayBBuf.cold.1 : 132 -> 60
+~ _CommonMOVCompactSampleToGroupAtomParseAndCreateArrayBBuf.cold.3 : 132 -> 60
+~ _CommonMOVCompactSampleToGroupAtomParseAndCreateArrayBBuf.cold.4 : 132 -> 60
+~ _CommonISOCompactSampleToGroupAtomParseAndCreateArrayBBuf.cold.2 : 132 -> 60
+~ _CommonISOCompactSampleToGroupAtomParseAndCreateArrayBBuf.cold.4 : 132 -> 60
+~ _CommonISOCompactSampleToGroupAtomParseAndCreateArrayBBuf.cold.5 : 132 -> 60
+~ _CommonISOCompactSampleToGroupAtomParseAndCreateArrayBBuf.cold.6 : 132 -> 60
+~ _ParseGenericMediaInfoHeaderAtom.cold.1 : 132 -> 60
+~ _ParseFragmentSampleToGroupAtom.cold.1 : 132 -> 56
+~ _ParseSampleEncryptionAtomInTraf.cold.1 : 140 -> 64
+~ _FragmentInfoAddAndRetainSampleGroupDescriptionArray.cold.1 : 108 -> 28
+~ _MovieTrackGetDataSourceAtIndex : 976 -> 652
+~ _MovieTrackCopySyncSampleCombinations : 476 -> 320
+~ _MovieTrackCopyTemporalLevelCombinations : 1164 -> 804
+~ _MovieTrackAppendSampleGroupDescriptions : 860 -> 448
+~ _MovieTrackAppendSyncSampleCombinations : 668 -> 452
+~ _MovieTrackAppendTemporalLevelCombinations : 676 -> 500
+~ _MovieSampleAccessorCopy : 852 -> 460
+~ _MovieSampleAccessorGetSampleLocation : 904 -> 712
+~ _MovieSampleAccessorGetRollValue : 256 -> 260
+~ _MovieSampleAccessorGetIndependentFramePrerollPacketCount : 240 -> 244
+~ _MovieSampleAccessorCopySeamIdentifier : 308 -> 312
+~ _MovieSampleAccessorGetSyncValues : 252 -> 256
+~ _MovieSampleAccessorGetTsclValues : 484 -> 460
+~ _MovieSampleAccessorCreateSampleGroupDataDictionary : 492 -> 368
+~ _MovieSampleAccessorCopyCryptorIVArray : 384 -> 244
+~ _MovieSampleAccessorCopyCryptorSubsampleAuxDataArray : 384 -> 244
+~ _MovieTrackAddSampleGroupDescriptionArray : 316 -> 196
+~ _MovieTrackCreateEditSegmentArrayFromFragmentEditList : 728 -> 676
+~ _MovieTrackReviseCompositionOffsetTable : 364 -> 348
+~ _MovieTrackComputeNominalFrameRate : 1388 -> 804
+~ _MovieTrackComputePeakDataRate : 1368 -> 700
+~ _MovieTrackComputeMinSampleDuration : 336 -> 332
+~ _MovieInformationAddOneTrackReference : 420 -> 380
+~ _MovieTrackCreateEnhancedGaplessInfo : 324 -> 256
+~ _MovieTrackSupplementISOUserDataFromBlockBuffer : 392 -> 400
+~ _MovieInformationCreateDeepCopy : 2708 -> 2348
+~ _MovieTrackAddFragmentRun : 3932 -> 3324
+~ _MovieHeaderExtendLastSampleDecodeDuration : 604 -> 436
+~ _MovieTrackAppendSampleInformation : 5132 -> 4516
+~ _MovieInformationPerformPostParsingForHeaderWriting : 2620 -> 1752
+~ _createMetadataItemsPerFormatDictionary : 480 -> 476
+~ _SampleGroupDeepCopyApplier : 96 -> 92
+~ _UpgradeTo64BitChunkOffsets : 312 -> 308
+~ _AddSampleToCompositionOffsetTable : 436 -> 388
+~ _AddSampleGroupForGroupType : 428 -> 404
+~ _InsertUninitializedEditsIntoTrack : 412 -> 380
+~ _DeleteEditsWithZeroDuration : 208 -> 204
+~ _MovieTrackSetDataSourceAtIndex.cold.1 : 140 -> 60
+~ _MovieTrackCopyExternalDataReferenceSchemes.cold.1 : 168 -> 84
+~ _SampleGroupDescCollectingApplierFunction.cold.2 : 108 -> 28
+~ _MovieTrackAddParsedDataReference.cold.1 : 136 -> 68
+~ _MovieTrackAddParsedDataReference.cold.4 : 136 -> 68
+~ _MovieSampleAccessorStepCursor.cold.3 : 124 -> 48
+~ _resetTrackCursor.cold.4 : 124 -> 44
+~ _MovieSampleAccessorComputePlayableHorizon.cold.1 : 80 -> 76
+~ _MovieTrackCreateSampleDescriptionAtomLocationDictionary.cold.2 : 140 -> 60
+~ _MovieTrackCreateSampleDescriptionAtomLocationDictionary.cold.3 : 108 -> 24
+~ _MovieTrackCreateSampleDescriptionAtomLocationDictionary.cold.4 : 108 -> 28
+~ _ConvertSampleDescriptionsToFormatDescriptions.cold.1 : 140 -> 60
+~ _ConvertSampleDescriptionsToFormatDescriptions.cold.3 : 140 -> 60
+~ _MovieSampleTableSet_stz2.cold.1 : 136 -> 68
+~ _MovieInformationLockForWrite.cold.1 : 124 -> 48
+~ _MovieInformationUnlockForWrite.cold.1 : 124 -> 48
+~ _MovieInformationBeginBuildingMovieFragment.cold.2 : 132 -> 52
+~ _FigMutableCompositionCreate : 516 -> 460
+~ _mutableComposition_CreateMutableCopy : 332 -> 280
+~ _mutableComposition_GetTrackCompatibleWithAssetTrack : 896 -> 556
+~ _mutableComposition_SetTrackEditList : 964 -> 624
+~ _mutableComposition_InsertAssetSegmentIntoTrack : 740 -> 360
+~ _mutableComposition_InsertAssetSegment : 1616 -> 1308
+~ _mutableComposition_InsertEmptyTrackSegment : 544 -> 252
+~ _mutableComposition_InsertEmptySegment : 748 -> 436
+~ _mutableComposition_InsertSegmentArrayIntoTrack : 3032 -> 2020
+~ _mutableComposition_AddAssetForURL : 848 -> 488
+~ _mutableComposition_InsertMutableCompositionSegmentIntoTrack : 1268 -> 780
+~ _mutableComposition_InsertMutableCompositionSegment : 1940 -> 1304
+~ _mutableComposition_GetTrackCompatibleWithMutableCompositionTrack : 984 -> 448
+~ _composite_formatReader_CopyProperty : 1528 -> 1144
+~ _composite_formatReader_CopyTrackByID : 1032 -> 792
+~ _compositionTable_getMaxEditRate : 884 -> 808
+~ _compositionTable_copyTrackHasAudioSampleDependencyInformation : 704 -> 632
+~ _compositionTable_copyConcreteTrackReaderForAssetURLTrackIDMediaType : 508 -> 436
+~ _compositeSuper_editCursorService_CreateCursorAtTrackTime : 976 -> 396
+~ _compositeSuper_editCursor_GetEditSegment : 1280 -> 576
+~ _compositeProxy_editCursorService_CreateCursorAtTrackTime : 1840 -> 1304
+~ _compositeProxy_editCursor_Copy : 568 -> 300
+~ _compositeProxy_sampleCursorService_CreateCursorAtPresentationTimeStamp : 744 -> 736
+~ _compositeProxy_sampleCursorService_CreateCursorNearPresentationTimeStamp : 624 -> 616
+~ _compositeProxy_sampleCursor_CreateSampleBuffer : 744 -> 676
+~ _mutableCompositionTrack_setMetadata : 704 -> 700
+~ _compositionTable_insertAssetSegmentIntoTrack : 572 -> 500
+~ _compositionTable_insertEditSegmentsIntoTrack : 1316 -> 1280
+~ _compositionTable_findEditIndexStartingAtTimeInTrackSplitEditIfNecessary : 640 -> 624
+~ _compositionTable_deleteEditsWithZeroDuration : 212 -> 208
+~ _compositionTable_insertEmptyTrackSegment : 316 -> 288
+~ _compositionTable_scaleTrackSegment : 872 -> 844
+~ _compositionTable_copyAssetSegmentsFromTrackForTimeRange : 1560 -> 1344
+~ _compositionTable_createAvailableMetadataReaderPropertiesArray.cold.1 : 124 -> 48
+~ _FigMetadataCreateConverter.cold.2 : 124 -> 36
+~ _FigPartialSampleTableBrokerOfferNewPartialSampleTable : 1212 -> 564
+~ _FigPartialSampleTableBrokerCopyInterestTokenForAdjacentTables : 988 -> 576
+~ _FigPartialSampleTableBrokerInterestTokenCreate.cold.2 : 148 -> 68
+~ _FigPartialSampleTableBrokerInterestTokenCreate.cold.3 : 124 -> 44
+~ _FigPartialSampleTableBrokerInterestTokenCreate.cold.4 : 124 -> 44
+~ _qtiso_FigMetadataConverterCreateConvertedItem.cold.3 : 124 -> 44
+~ _qtiso_FigMetadataConverterCreateConvertedItem.cold.5 : 160 -> 44
+~ _digestSubtitleSampleDo : 2828 -> 1660
+~ _outputCueAsFigCDSCaption : 2100 -> 1372
+~ _FigCDSNotificationInputCreate.cold.1 : 128 -> 60
+~ _FigCDSNotificationInputCreate.cold.3 : 128 -> 60
+~ _FigMetadataCreateSampleBuffer : 440 -> 392
+~ _FigCaptionRendererLayoutDecouple_ApplyDecouplingAndSafeRegion : 2368 -> 2012
+~ _fcr_applyDecouplingAndSafeRegion : 4804 -> 2048
+~ _fcr_moveIntoSafeRegion : 884 -> 864
+~ _FigMetadataConverterCreateForQuickTimeToFromiTunes.cold.1 : 124 -> 48
+~ _FigCopyMediaTypeString.cold.2 : 124 -> 48
+~ _FigCryptDecryptMemory : 2812 -> 628
+~ _FigCryptCreateForDecrypt.cold.1 : 124 -> 48
+~ _FigCryptCreateForDecrypt.cold.2 : 124 -> 48
+~ _FigCryptCreateForDecrypt.cold.3 : 124 -> 48
+~ _fbapo_invalidate : 1296 -> 512
+~ _fbapo_finalize : 428 -> 208
+~ _fbapo_setProperty : 3452 -> 1512
+~ _fbapo_amIActiveEndpointStreamClient : 860 -> 248
+~ _fbapo_endpointStreamSupportedAudioFormatsChangedCallback : 384 -> 372
+~ _fbapo_supportsFormatChangeWithoutReconfiguration : 6476 -> 4492
+~ _fbapo_audioEngineDecryptionNotSupportedCallback : 292 -> 280
+~ _fbapo_audioEngineFlushWithinSampleRangeFailedCallback : 292 -> 280
+~ _fbapo_copyCalculatePrerollDuration : 796 -> 548
+~ _fbapo_setAndCacheAudioMode : 1288 -> 752
+~ _fbapo_setAndCacheIsPiPMuted : 1252 -> 1272
+~ _fbapo_flush : 84 -> 80
+~ _fbapo_flushWithinTimeRange : 652 -> 268
+~ _fbapo_stopForReconfiguration : 536 -> 588
+~ _fbapo_setEndOfSiriTTSUtteranceMediaTime : 236 -> 220
+~ _fbapo_applyVolueFade : 492 -> 248
+~ _fbapo_setRateAndAnchorTimeDispatch : 2304 -> 2076
+~ _fbapo_becomeActiveEndpointStreamAudioEngineClient : 5080 -> 4288
+~ _fbapo_flushInternal : 1100 -> 848
+~ _fbapo_endpointStreamInterruptionCallback.cold.1 : 108 -> 28
+~ _fbapo_setAndCacheAudioProcessingTap.cold.1 : 108 -> 32
+~ _fbapo_doesSupportPassthroughOfFormatDescription.cold.1 : 124 -> 48
+~ _fbapo_setRateAndAnchorTimeCallback.cold.1 : 328 -> 316
+~ _fcstylesegmenter_buildTimeToAttributesMap : 700 -> 520
+~ _figCaptionStyleSegmentCreate.cold.1 : 136 -> 72
+~ _figCaptionStyleSegmentCreate.cold.2 : 112 -> 48
+~ _fcstylesegmenter_addAttribute.cold.1 : 96 -> 28
+~ _figCaptionStyleSegmentSetCaptionData.cold.1 : 112 -> 48
+~ _FigTTMLTreeCreate : 1012 -> 712
+~ _figTTMLTreeBuildFeatureAndExtensionSet : 600 -> 524
+~ _FigCaptionTimelineGeneratorAddSampleBuffer : 1924 -> 1664
+~ _fctg_generateAndOutputCaptions : 1472 -> 1480
+~ _FigSymptomsReportStreamingAssetDownloadStart : 796 -> 460
+~ _FigCSSTokenizerProduceTokenArray : 4120 -> 3344
+~ __figCSSTokenizer_consume_an_ident_like_token : 420 -> 344
+~ _FigCSSTokenizerCreateWithTextContainer.cold.3 : 124 -> 48
+~ __figCSSTokenizer_consume_a_string_token.cold.1 : 124 -> 48
+~ __figCSSTokenizer_consume_a_numeric_token.cold.1 : 108 -> 28
+~ ___pa_handleNotification_block_invoke : 2824 -> 2628
+~ _pa_finalize.cold.1 : 188 -> 184
+~ ___pa_start_block_invoke.cold.1 : 188 -> 184
+~ ___pa_start_block_invoke.cold.2 : 188 -> 184
+~ ___pa_start_block_invoke.cold.3 : 188 -> 184
+~ _FigCaptionRendererTTMLRegion_FigCaptionRendererNodeProtocol_Draw.cold.1 : 136 -> 56
+~ _FigCaptionRendererTTMLRegion_FigCaptionRendererNodeProtocol_Draw.cold.3 : 124 -> 28
+~ _FigVideoCompositionProcessorCreateWithImageQueueArray : 2992 -> 1720
+~ _FigVideoCompositionProcessorInvalidate : 736 -> 388
+~ _FigVideoCompositionProcessorSetSourceVisualContext : 692 -> 372
+~ _FigVideoCompositionProcessorSetAnimationLayer : 1116 -> 432
+~ _FigVideoCompositionProcessorSetSourceBufferQueue : 876 -> 424
+~ _FigVideoCompositionProcessorSetPlaybackTimeRange : 1012 -> 424
+~ _FigVisualContextCreateRemote : 680 -> 508
+~ _remoteXPCVisualContextClient_MessageHandler : 984 -> 548
+~ _rvcFinalize : 480 -> 188
+~ _rvcSetImageAvailableImmediateCallback : 284 -> 216
+~ _rvcSetImageAvailableSequentialCallback : 284 -> 216
+~ _rvcSetNoMoreImagesCallback : 284 -> 216
+~ _rvcSetBecameEmptyCallback : 284 -> 216
+~ _rvcGetEarliestSequentialImageTimeAfterTime : 348 -> 360
+~ _FigVisualContextXPCRemoteGetObjectID.cold.2 : 124 -> 48
+~ _remoteXPCVisualContext_GetObjectID.cold.1 : 124 -> 48
+~ _rvcCopyImageForTime.cold.2 : 124 -> 48
+~ _FigVideoCompositorUtilityAreCleanAperturesEqual : 468 -> 392
+~ _vcu_getCleanApertureRational : 444 -> 388
+~ _dqs_HandleRemoteMessage : 4176 -> 1700
+~ _FigDataQueueServer_AssociateObjectByPID.cold.2 : 224 -> 52
+~ _dqs_SendLowWaterMarkCallback.cold.1 : 148 -> 88
+~ _FigAssetCacheInspectorCreate_Streaming : 824 -> 516
+~ _sci_isPlayableOffline : 1016 -> 536
+~ _sci_ensureAlternateArrayAndMediaSelectionArray : 932 -> 716
+~ _sci_copyProperty.cold.1 : 124 -> 44
+~ _sci_createAndOpenHLSPersistentStore.cold.1 : 124 -> 44
+~ _FigBufferedAirPlayAudioChainSubPipeTranscodeCreate : 6000 -> 4528
+~ _bapspTranscode_setThreadPriorities : 936 -> 292
+~ _bapspTranscode_inspectSampleBuffer : 3228 -> 2044
+~ _bapspTranscode_invalidate : 508 -> 268
+~ _bapspTranscode_copyProperty : 772 -> 292
+~ _bapspTranscode_setProperty : 1388 -> 572
+~ _bapspTranscode_breakAudioChain : 676 -> 304
+~ _bapspTranscode_offlineMixerMilestonePassed : 424 -> 440
+~ _bapspTranscode_offlineMixerDidReachEndOfOutputData : 552 -> 592
+~ _bapspTranscode_assembleAudioChain : 936 -> 1012
+~ _bapspTranscode_flush : 896 -> 364
+~ _bvc_createPixelBufferAttributesDictionary.cold.1 : 156 -> 80
+~ _bvc_isPixelBufferPoolCompatibleWithDimensionsAndPixelFormat.cold.2 : 108 -> 32
+~ _bvc_isPixelBufferPoolCompatibleWithDimensionsAndPixelFormat.cold.4 : 108 -> 28
+~ _bvc_getBufferCharacteristics.cold.1 : 124 -> 48
+~ _FigSecureStopManagerCreate.cold.1 : 124 -> 48
+~ _FigSecureStopManagerCreate.cold.2 : 124 -> 40
+~ _fssm_fbo_updateRecord.cold.2 : 124 -> 36
+~ ___fssm_fbo_initialize_block_invoke.cold.1 : 124 -> 40
+~ _FigXPCFormatReaderServerAssociateCopiedNeighborTrackReader : 444 -> 364
+~ _HandleFormatReaderMessage : 5140 -> 6908
+~ _HandleNoReplyFormatReaderMessage : 1732 -> 256
+~ _FigSampleCursorServer_TranslateDataSource : 496 -> 348
+~ _FigSampleCursorServer_TranslateFormatDescription : 912 -> 616
+~ _CopySampleCursorAndReturnObjectID : 388 -> 380
+~ _HandleTrackReaderCopyPropertyMessage : 1212 -> 512
+~ _HandleTrackReaderCopyMetadataReaderForTypeMessage : 756 -> 396
+~ _HandleTrackReaderCopyMetadataReadersMessage : 1036 -> 460
+~ _HandleTrackReaderCreatePrimaryEditCursorServiceMessage : 544 -> 320
+~ _HandleTrackReaderCreateSecondaryEditCursorServiceMessage : 544 -> 320
+~ _HandleTrackReaderCreateSampleCursorServiceMessage : 872 -> 620
+~ _HandleTrackReaderCreateCaptionCursorServiceMessage : 544 -> 320
+~ _HandleEditCursorServiceCreateCursorAtTrackTimeMessage : 656 -> 400
+~ _HandleEditCursorCopyPropertyMessage : 760 -> 344
+~ _HandleEditCursorCopyMessage : 512 -> 296
+~ _HandleEditCursorGetEditSegmentMessage : 528 -> 276
+~ _HandleSampleCursorServiceCreateCursorAtPresentationTimeStampMessage : 672 -> 440
+~ _HandleSampleCursorServiceCreateCursorNearPresentationTimeStampMessage : 696 -> 464
+~ _HandleSampleCursorServiceCreateCursorAtFirstSampleInDecodeOrderMessage : 560 -> 344
+~ _HandleSampleCursorServiceCreateCursorAtLastSampleInDecodeOrderMessage : 560 -> 344
+~ _HandleMetadataReaderCopyPropertyMessage : 992 -> 424
+~ _HandleMetadataReaderCopyValueMessage : 776 -> 544
+~ _HandleMetadataReaderGetItemCountMessage : 584 -> 308
+~ _HandleMetadataReaderCopyItemWithKeyAndIndexMessage : 776 -> 544
+~ _EventLinkServerMessageHandler : 2036 -> 1136
+~ _HandleSampleCursorGetSampleTimingInfoFromEventLink : 536 -> 484
+~ _HandleSampleCursorStepInDecodeOrderAndReportStepsTakenFromEventLink : 488 -> 300
+~ _HandleSampleCursorStepInPresentationOrderAndReportStepsTakenFromEventLink : 488 -> 300
+~ _HandleSampleCursorCopySampleLocationFromEventLink : 540 -> 304
+~ _HandleSampleCursorCopyChunkDetailsFromEventLink : 656 -> 364
+~ _HandleSampleCursorCopyFormatDescriptionFromEventLink : 532 -> 264
+~ _HandleSampleCursorCreateSampleBufferFromEventLink : 392 -> 304
+~ _HandleSampleCursorGetBatchSampleTimingAndSizesFromEventLink : 948 -> 648
+~ _FigSampleCursorServer_TranslateSampleDependencyAttributesFromEventLink : 472 -> 220
+~ _FigSampleCursorServer_SetSampleCursorPropertiesFromEventLink : 1816 -> 1732
+~ _FigSampleCursorServer_TranslateFormatDescriptionFromEventLink : 560 -> 236
+~ _FigFormatReaderServerStartLoopbackServerAndCopyXPCEndpoint.cold.2 : 236 -> 244
+~ _FigRemote_CreateEditArrayFromData : 688 -> 424
+~ _segPumpStallRiskCallback : 548 -> 468
+~ _segPumpStopStream : 300 -> 320
+~ _segPumpUpdateBytesRequiredForNetworkPrediction : 1848 -> 1660
+~ _segPumpCopyCachedTimeRanges : 1644 -> 1312
+~ _segPumpLoadSynchronousProperties : 696 -> 576
+~ _segPumpSendNextSessionDataRequest : 2404 -> 1816
+~ _segPumpCreateHTTPRequest : 1900 -> 1500
+~ _segPumpSessionDataReadCallback : 716 -> 644
+~ _segPumpParseSessionDataBuffer : 3112 -> 2036
+~ _segPumpRTCReportingUpdateAndIssueErrorEvent : 1068 -> 1072
+~ _segPumpAppendErrorLogDictionary : 276 -> 272
+~ _segPumpHandleCommonNetworkError : 1112 -> 868
+~ _segPumpAppendErrorLogEntry : 836 -> 868
+~ _MoveAlternateFromPenaltyBox : 492 -> 480
+~ _MoveAllAlternatesWithSameMasterStreamWithStreamAlternate : 508 -> 516
+~ _segPumpIsAlternateLastValidAlternate : 1580 -> 1176
+~ _segPumpReadOrScheduleIndexFileRead : 728 -> 292
+~ _segPumpDeliverNextMediaForSingleStream : 2292 -> 988
+~ _segPumpCancelCryptReadAndResetData : 452 -> 188
+~ _segPumpSendCryptKeyRequest : 7160 -> 6224
+~ _segPumpSendIndexFileRequest : 3452 -> 2468
+~ _segPumpSetupBlockingReload : 1508 -> 1340
+~ _AttemptNetworkMonitorSetup : 1056 -> 500
+~ _segPumpIndexFileReadCallback : 3800 -> 3308
+~ _segPumpSetPartTargetDuration : 692 -> 680
+~ _segPumpSetActiveHoldBack : 696 -> 568
+~ _segPumpUpdatePathEvaluation : 2028 -> 948
+~ _segPumpHandleIndexFileNetworkError : 2512 -> 1388
+~ _segPumpCheckAndUpdateLowLatencyServerCompliance : 1040 -> 712
+~ _segPumpParseIndexFile : 15744 -> 12048
+~ _segPumpResumeRoundTripMonitoring : 1008 -> 592
+~ _segPumpPublishPlaylistRequestEvent : 704 -> 700
+~ _segPumpCopyIndexFileFromCache : 1440 -> 952
+~ _segPumpCreateCacheForStream : 476 -> 196
+~ _segPumpIsProtocolUsedByRequest : 248 -> 244
+~ _segPumpCheckPriorityHeaderLowLatencyServerCompliance : 660 -> 260
+~ _segPumpEnsureCacheForStreamPossiblyEndingStream : 404 -> 188
+~ _segPumpSetPlaylistForStreamCache : 356 -> 188
+~ _segPumpSaveEntry : 1140 -> 648
+~ _segPumpEnsurePlaylistCache : 248 -> 184
+~ _segPumpMarkMediaFileAsDelivered : 584 -> 304
+~ _segPumpSetupCommonCryptKeyDataForSessionKeys : 440 -> 360
+~ _segPumpSetupCommonCryptKeyData : 1208 -> 616
+~ _segPumpStopPlaylistReadsAndResetAllData : 384 -> 396
+~ _segPumpReadNextCryptKeyForStream : 504 -> 496
+~ _segPumpRTCReportingRespondToFirstIndexFileWithMedia : 760 -> 768
+~ _segPumpCalculateDiscoDomainOffset : 1164 -> 676
+~ _segPumpRealizePreload : 1872 -> 532
+~ _segPumpDecryptorNativeCryptorInvalidatedCallback : 232 -> 224
+~ _segPumpDecryptorReceivedKeyRequestErrorCallback : 1048 -> 656
+~ _segPumpCryptKeyRenewalCallback : 520 -> 300
+~ _segPumpContinueAfterKeyFetched : 364 -> 260
+~ _segPumpContinueStreamAfterCryptKeyArrival : 1528 -> 1048
+~ _segPumpDeliverAccumulatedBuffer : 1616 -> 752
+~ _segPumpMoveToNextParallelConnection : 884 -> 344
+~ _segPumpHandleMediaFileNetworkError : 2068 -> 1392
+~ _segPumpCheckAndMarkStreamCacheComplete : 676 -> 432
+~ _segPumpSendMediaCallback : 9796 -> 5668
+~ _segPumpStreamSchedulePreloadHintRead : 868 -> 420
+~ _segPumpReadMediaFile : 2988 -> 1436
+~ _MediaHandleDownloadTimer : 5364 -> 3116
+~ _segPumpSeeIfMediaFileIsInCache : 912 -> 324
+~ _segPumpCreateMediaURLRequest : 2352 -> 1916
+~ _segPumpGetRequestedByteRangeForMediaFileHelper : 1532 -> 1236
+~ _segPumpPrepareMediaConnectionForNewRequest : 948 -> 400
+~ _segPumpMediaFileMemoryRequestCallback : 840 -> 308
+~ _segPumpMediaFileReadCallback : 2720 -> 2440
+~ _segPumpRTCReportingUpdatePrivateAppleCDNInfo : 1992 -> 1636
+~ _segPumpHandleMediaFileData : 12536 -> 9488
+~ _segPumpPerformReportingForMediaFileReadOverHTTP : 1640 -> 1632
+~ _segPumpSetCurrentSegmentTooSlow : 484 -> 192
+~ _segPumpCheckAndTryToAdoptStepAhead : 1492 -> 412
+~ _segPumpAdoptReadAhead : 1436 -> 572
+~ _segPumpDispatchedAdoptReadAhead : 660 -> 396
+~ _segPumpHandleCryptKeyNetworkError : 2104 -> 1424
+~ _segPumpCryptSetKey : 1920 -> 1248
+~ _segPumpRequestCustomURLForCryptKey : 1472 -> 1380
+~ _segPumpReplaceMediaFileWithDiscontinuity : 572 -> 448
+~ _segPumpEnsureAndSetupBasicAESProtector : 236 -> 232
+~ _segPumpCopyMapEntryFromCache : 296 -> 284
+~ _segPumpDoAllStepAheads : 1392 -> 648
+~ _segPumpDoNextStep : 512 -> 508
+~ _segPumpFetchOrDispatchMediaSegment : 5008 -> 3128
+~ _segPumpDeliverGapSegment : 1184 -> 480
+~ _segPumpDeliverFromCache : 3308 -> 984
+~ _segPumpChooseNextStep : 4192 -> 2888
+~ _segPumpRTCReportingUpdateCryptorErrorKeys : 396 -> 384
+~ _segPumpPrepareCryptorForKeyLoading : 444 -> 364
+~ _segPumpMediaExpiryTimerCallback : 2064 -> 728
+~ _segPumpCreateDiscoInfoList : 728 -> 544
+~ _segPumpGetTimeRangeForDateWithSegmentOffset : 1388 -> 1048
+~ _segPumpSyncTimeRolledPastToExistingStream : 568 -> 572
+~ _segPumpAPILockAndEnsureAPIStatus : 188 -> 184
+~ _segPumpStepNextFrame : 1552 -> 520
+~ _segPumpCheckCachedVariantsAndRequestSwitch : 2508 -> 1620
+~ _segPumpStreamDoDeliveryFollowUp : 3852 -> 1360
+~ _segPumpSetCurrentTime : 5660 -> 3452
+~ _segPumpDeliverNextMediaForAllStreams : 1256 -> 884
+~ _segPumpTrySpeculativeRead : 1244 -> 564
+~ _segPumpCryptMemoryRequestCallback : 264 -> 260
+~ _segPumpCryptFileReadCallback : 1116 -> 564
+~ _segPumpKeyRequestDidSucceed : 1356 -> 1376
+~ _segPumpKeyRequestDidFail : 1228 -> 1224
+~ _segPumpSetMediaSegmentCache : 1460 -> 832
+~ _segPumpReadNextCryptKeyForAllStreams : 88 -> 92
+~ _segPumpMarkCurrentAlternatePersistentInCache : 236 -> 220
+~ _segPumpSetShouldStoreCryptKeysInCache : 532 -> 344
+~ _segPumpSetRequiresCryptKeysForMediaDelivery : 416 -> 64
+~ _segPumpSetRTCReportingAgent : 1088 -> 868
+~ _segPumpResetContentKeyState : 488 -> 524
+~ _segPumpStreamSetReadAheadConnectionCountMax : 308 -> 192
+~ _segPumpClientHasEnough : 760 -> 648
+~ _segPumpLikelyToKeepUp : 3804 -> 3024
+~ _segPumpOpen : 2676 -> 2224
+~ _segPumpRetrieveAnIFrame : 1852 -> 524
+~ _segPumpTimeRequiredToSwitchToAlternate : 1064 -> 404
+~ _segPumpGetLocalBitrateFraction : 792 -> 664
+~ _segPumpSnapToTime : 2856 -> 1692
+~ _segPumpRequestIndexForStream : 1144 -> 964
+~ _segPumpSetupInitialCryptorApplierFunction : 1036 -> 396
+~ _FigBytePumpCreateForHTTPChunk.cold.3 : 172 -> 180
+~ _segPumpCopyProperty.cold.4 : 188 -> 48
+~ _segPumpSetProperty.cold.2 : 124 -> 44
+~ _segPumpSetProperty.cold.9 : 124 -> 44
+~ _segPumpSetProperty.cold.14 : 124 -> 48
+~ _segPumpCopyAlternatesInPenaltyBox.cold.2 : 124 -> 48
+~ _segPumpCopyNominalVideoFrameRate.cold.1 : 108 -> 32
+~ _segPumpCopyNominalVideoFrameRate.cold.3 : 108 -> 24
+~ _segPumpCopyHTTPRequestCreationsOptionsAndSetNWActivityAndStuff.cold.1 : 128 -> 52
+~ _segPumpCopyParentNWActivity.cold.1 : 152 -> 68
+~ _segPumpSetWiFiStatsOnNetworkPredictor.cold.2 : 124 -> 48
+~ _segPumpUpdateNetworkCostHasHighSpeedHighPower.cold.1 : 108 -> 28
+~ _segPumpAddFigAlternate.cold.1 : 152 -> 68
+~ _segPumpReconcileGapRenditionReports.cold.1 : 108 -> 28
+~ _segPumpStreamProceedAfterMediaAndKeyArrival.cold.1 : 260 -> 248
+~ _segPumpRTCReportingUpdateMediaTimerStats.cold.1 : 328 -> 332
+~ _segPumpCreateCacheNameFromSegment.cold.1 : 124 -> 48
+~ _segPumpAddMediaSegmentNoResponseErrorIfNecessary.cold.1 : 244 -> 248
+~ _segPumpRetrieveNextIFrame.cold.1 : 124 -> 48
+~ _segPumpAPIUnlockAndSendNotificationThenCheckAPIStatus.cold.1 : 124 -> 48
+~ _segPumpCreateSafeBandwidthCoefficientsForBaseStoreBagKey.cold.1 : 156 -> 68
+~ _FigNetworkWirelessReportingInterfaceCopyCellStats : 700 -> 300
+~ _FigNetworkWirelessReportingReportWiFiStats : 2056 -> 2052
+~ _FigNetworkWirelessReportingReportCellStats : 804 -> 800
+~ _FigNetworkWirelessReportingInterfaceCopyWifiStats.cold.3 : 124 -> 44
+~ _fnwri_globalNetworkWirelessReportingInterfaceInitOnce.cold.2 : 128 -> 32
+~ _fnwri_globalNetworkWirelessReportingInterfaceInitOnce.cold.3 : 108 -> 28
+~ _FigStreamPlaylistParseStringAndCreateProtocolVersionList : 624 -> 412
+~ _PlaylistGetSelectionGroupGuts : 312 -> 308
+~ __StreamPlaylistLogError : 936 -> 860
+~ _PlaylistProcessKey : 3704 -> 2756
+~ _PlaylistExtractallowedCPCForFairPlayStreaming : 420 -> 344
+~ _PlaylistExtractVideoLayoutAttribute : 1164 -> 1168
+~ _PlaylistAddMediaGroup : 3144 -> 2944
+~ _PlaylistProcessSessionDataTag : 2032 -> 1280
+~ _sp_GetStringWithReplacement : 1492 -> 1056
+~ _PlaylistAddTaggedRangeMetadataDictionaryToArray : 484 -> 352
+~ _StreamingPlaylist_VerifyLeadingMagicNumber.cold.1 : 188 -> 56
+~ _FigStreamPlaylistParseInProcess.cold.24 : 124 -> 76
+~ _FigStreamPlaylistParseInProcess.cold.27 : 124 -> 56
+~ _FigStreamPlaylistParseInProcess.cold.29 : 136 -> 88
+~ _StreamingPlaylist_MatchAlphanumericStringExactly.cold.1 : 108 -> 28
+~ _PlaylistProcessPartTag.cold.1 : 124 -> 48
+~ _PlaylistProcessRenditionReportTag.cold.1 : 124 -> 48
+~ _PlaylistProcessTaggedRangeTag.cold.33 : 124 -> 40
+~ _PlaylistProcessVariableTag.cold.2 : 124 -> 48
+~ _PlaylistTokenizeString.cold.1 : 124 -> 20
+~ _sp_strtohex.cold.1 : 136 -> 52
+~ _figTTMLSerializerIndenter_EndElement : 496 -> 456
+~ _FigPlayerResourceArbiterPlayerSpecifierSetResolutionFloor.cold.1 : 112 -> 36
+~ _FigPlayerResourceArbiterPlayerSpecifierCreate.cold.2 : 120 -> 44
+~ _figTTMLDocumentWriterForSerializer_SetAttribute : 1928 -> 1532
+~ _FigAlternateFilterMonitorForHDCPNeedsNewExternalProtectionMonitorIfNecessary : 504 -> 232
+~ _famhdcp_lazyEPMFilterGetHDCPProtectionStatusCallback : 692 -> 324
+~ _famhdcp_copyFilterForCurrentStateGuts.cold.1 : 124 -> 44
+~ _famhdcp_setProperty.cold.1 : 196 -> 216
+~ _FigTTMLParseNode : 716 -> 360
+~ _FigTTMLParseAndCreateBlockClassNode : 380 -> 300
+~ _FigTTMLParseAndCreateInlineClassNode : 400 -> 320
+~ _FigTTMLParseAndCreateAnimationClassNode : 356 -> 276
+~ _FigTTMLParseFrameRate : 348 -> 204
+~ _FigTTMLParsePixelAspectRatio : 456 -> 264
+~ _FigTTMLParseActiveArea : 648 -> 616
+~ _figTTMLParseFraction : 360 -> 244
+~ _figTTMLParseString : 396 -> 308
+~ _FigTTMLParseTickRate : 352 -> 244
+~ _FigTTMLParseColor : 1220 -> 812
+~ _figTTMLParseHexDigits : 576 -> 480
+~ _FigTTMLParseNumber : 476 -> 308
+~ _FigTTMLParseFontFamilyAndCreateFontFamilyNameList : 1980 -> 1832
+~ _FigTTMLParseCellResolution : 216 -> 204
+~ _FigTTMLParseTextCombineDigits : 428 -> 284
+~ _figTTMLParseTwoOrMoreDigits : 320 -> 224
+~ _figTTMLParseDigits : 512 -> 428
+~ _figTTMLParseOneOrMoreWhitespaces.cold.1 : 136 -> 48
+~ _FigTTMLParseLength.cold.1 : 188 -> 92
+~ _FigTTMLParsePositionSyntaxAndCreateCaptionPosition.cold.2 : 136 -> 48
+~ _ffw_ttml_AddTrack.cold.1 : 124 -> 44
+~ _remoteXPCMutableComposition_CreateMutableCopy : 552 -> 264
+~ _remoteXPCMutableComposition_CopyFormatReader : 508 -> 256
+~ _remoteXPCMutableComposition_GetTrackCompatibleWithAssetTrack : 612 -> 316
+~ _remoteXPCMutableComposition_AddTrack : 784 -> 260
+~ _remoteXPCMutableComposition_CopyTrackEditList : 656 -> 352
+~ _remoteXPCMutableComposition_AddFormatReaderForURL : 620 -> 304
+~ _remoteXPCMutableComposition_CopyTrackProperty : 656 -> 332
+~ _remoteXPCMutableComposition_InsertAssetSegment : 916 -> 360
+~ _remoteXPCMutableComposition_InsertEmptyTrackSegment : 612 -> 244
+~ _remoteXPCMutableComposition_DeleteTrackSegment : 612 -> 244
+~ _remoteXPCMutableComposition_DeleteSegment : 604 -> 212
+~ _remoteXPCMutableComposition_ScaleTrackSegment : 808 -> 304
+~ _remoteXPCMutableComposition_ScaleSegment : 704 -> 256
+~ _remoteXPCMutableComposition_AddAssetForURL : 628 -> 304
+~ _remoteXPCMutableComposition_InsertMutableCompositionSegmentIntoTrack : 1144 -> 432
+~ _remoteXPCMutableComposition_InsertMutableCompositionSegment : 1168 -> 368
+~ _remoteXPCMutableComposition_GetTrackCompatibleWithMutableCompositionTrack : 720 -> 304
+~ _remoteXPCMutableComposition_CopyAsset : 504 -> 252
+~ __appendUUIDItemPropertyHelper : 248 -> 200
+~ _IFFItemHeaderMakerCopyGlobalMetadataAtomAsBlockBuffer.cold.2 : 124 -> 44
+~ _appendGlobalMetadataAtom.cold.6 : 124 -> 44
+~ _appendGlobalMetadataAtom.cold.7 : 124 -> 44
+~ _appendGlobalMetadataAtom.cold.9 : 124 -> 44
+~ _FigAssetImageGeneratorCreateFromAssetWithOptions : 796 -> 556
+~ _aig_RequestCGImageAtTimeAsync : 848 -> 460
+~ _aig_createImageAtTimeInternal : 8856 -> 6348
+~ _TrackFragmentBuilderCreate : 756 -> 512
+~ _TrackFragmentBuilderAppendSampleInformation : 4432 -> 3236
+~ _tfbAddSampleToSampleTable : 1156 -> 1088
+~ _tfbAddSampleGroupForGroupType : 796 -> 652
+~ _tfbGetSampleSizeAtIndexFunc.cold.2 : 108 -> 28
+~ _tfbSetTrackFragmentHeaderDefaultValueIfNeeded.cold.1 : 124 -> 48
+~ _MovieHeaderMakerCreateWithMovieInformation : 376 -> 224
+~ _getTimeValueToAddToCompositionOffsets : 568 -> 492
+~ _appendSampleGroupDescriptionAtoms : 1184 -> 976
+~ _appendMetadataToAtomWriter : 240 -> 244
+~ _MovieHeaderMakerAddTrack.cold.1 : 124 -> 52
+~ _MovieHeaderMakerTrackSetTrackMetadataBlockBuffer.cold.2 : 124 -> 48
+~ _MovieHeaderMakerCopyFileTypeMinorVersion.cold.2 : 124 -> 52
+~ _MovieHeaderMakerCopyMovieFragmentHeaderAsBlockBuffer.cold.1 : 124 -> 52
+~ _MovieHeaderMakerCopyMovieFragmentHeaderAsBlockBuffer.cold.2 : 124 -> 52
+~ _MovieHeaderMakerCopyMovieFragmentHeaderAsBlockBuffer.cold.3 : 124 -> 52
+~ _createMetadataSerializerDictionaryWithMetadata.cold.2 : 124 -> 52
+~ _FigCFAppendStringWithSmartComma.cold.2 : 124 -> 36
+~ _pwdKeyExchangeReceiverAOCP_ProcessIncomingMessageAndCreateReply.cold.5 : 124 -> 56
+~ _pwdKeyExchangeReceiverAOCP_ProcessIncomingMessageAndCreateReply.cold.6 : 124 -> 44
+~ _pwdKeyExchangeReceiverAOCP_SetCryptorOnSampleBuffer.cold.1 : 124 -> 44
+~ _pwdKeyExchangeReceiverAOCP_SetCryptorOnSampleBuffer.cold.2 : 124 -> 44
+~ _FigVideoReceiverDataChannelSettingsCopySerializable.cold.2 : 124 -> 44
+~ _FigVideoReceiverDataChannelSettingsCopyDeserialized.cold.1 : 124 -> 44
+~ _FigAudioQueueOfflineMixerConnectAudioQueue : 500 -> 436
+~ _FigAudioQueueOfflineMixerDisconnectAudioQueue : 732 -> 596
+~ _FigAudioQueueOfflineMixerReset : 828 -> 768
+~ _FigCoreAnimationRendererCreate.cold.5 : 124 -> 44
+~ _FigCoreAnimationRendererCreate.cold.8 : 140 -> 56
+~ _fcar_ensureBufferAttributesCompatibleWithHWProcessing.cold.1 : 124 -> 44
+~ _FigCoreAnimationRendererCopyPixelBufferAtTime.cold.1 : 124 -> 44
+~ _FigCoreAnimationRendererCopyPixelBufferAtTime.cold.2 : 124 -> 56
+~ _FigTTMLFeatureCreate.cold.2 : 120 -> 44
+~ _FigFairPlayCPEProtectorIsContentAuthorized : 584 -> 296
+~ _FigCSSRuleListCopyRuleAtIndex.cold.1 : 120 -> 48
+~ _FigCSSRuleListCopyRuleAtIndex.cold.2 : 120 -> 48
+~ _FigCSSStyleRuleSetSelector.cold.1 : 112 -> 48
+~ _FigCSSStyleDeclarationGetPropertyCount.cold.1 : 96 -> 28
+~ _FigCSSStyleDeclarationCopyPropertyNameAtIndex.cold.1 : 120 -> 48
+~ ___FigPWDKeyExchangeSenderAOCP_requestCKCFromServerAfterSendingSPC_block_invoke : 1684 -> 776
+~ _pwdKeyExchangeSenderAOCP_Start.cold.4 : 136 -> 56
+~ _pwdKeyExchangeSenderAOCP_Start.cold.5 : 124 -> 44
+~ _pwdKeyExchangeSenderAOCP_Start.cold.6 : 124 -> 44
+~ _pwdKeyExchangeSenderAOCP_Start.cold.7 : 124 -> 44
+~ _FigFairPlayCPECryptorScrambleDecryptedSample : 316 -> 320
+~ _FigFairPlayCPECryptorCreateProcessedBlockBufferAndSubsampleAuxiliaryDataWithOptions : 1192 -> 804
+~ _DecryptCommon : 336 -> 344
+~ _FigFairPlayCPELimitedCryptorDecryptSampleWithFormat : 280 -> 288
+~ _FigFairPlayCPELimitedCryptorCreateProcessedBlockBufferAndSubsampleAuxiliaryDataWithOptions : 1192 -> 804
+~ _audioSessionMXSession_forwardMXSessionNotification : 372 -> 252
+~ _audioSessionMXSession_forwardCMSessionNotification : 352 -> 232
+~ _audioSessionMXSession_SetMXSessionPropertiesAndCopyErrors : 1252 -> 740
+~ _audioSessionMXSession_CopySpatializationCapabilities : 260 -> 180
+~ _FigAudioSessionCreateWithCMSessionAndMXSession.cold.1 : 124 -> 44
+~ _FigAudioSessionCreateWithCMSessionAndMXSession.cold.5 : 124 -> 44
+~ _rcl_HTTPReadCallback : 4468 -> 2632
+~ _FigAlternateCreationContextCopyMediaGroupLocatorMapForMediaGroupID.cold.2 : 124 -> 44
+~ _FigDeferredTransactionCommit : 760 -> 240
+~ _FigDeferredTransactionAppendChangeWithCallback : 536 -> 232
+~ _FigMultivariantPlaylistCreateEmpty.cold.1 : 112 -> 64
+~ _FigMultivariantPlaylistCreateEmpty.cold.2 : 112 -> 36
+~ _FigMultivariantPlaylistCreateEmpty.cold.3 : 112 -> 44
+~ _FigVirtualDisplaySinkConduitCreate : 1088 -> 760
+~ _vfblocal_copyProperty.cold.1 : 132 -> 48
+~ _FigRemoteStreamingAssetDownloaderCreateWithAsset : 392 -> 336
+~ _rad_createInternal : 344 -> 260
+~ _rad_handleServerMessage : 4640 -> 1964
+~ ___rad_ensureClientEstablished_block_invoke.cold.1 : 124 -> 52
+~ _rad_getObjectID.cold.2 : 124 -> 44
+~ _meivcs_serialize : 1184 -> 1060
+~ _FigMetricItemVariantChangeStartEventCreate.cold.1 : 124 -> 44
+~ _meivcs_setSessionID.cold.1 : 124 -> 44
+~ _manifoldRemote_injectData : 1268 -> 1192
+~ _manifoldRemote_installCallbacksForTrack : 932 -> 772
+~ _manifoldRemote_copyTrackProperty : 508 -> 316
+~ _manifoldRemote_processPendingCallbacks : 2228 -> 1640
+~ _manifoldRemote_setProperty.cold.1 : 124 -> 44
+~ _FigByteFlumeCustomURLCreateWithURL : 996 -> 844
+~ _FigByteFlumeCustomURLInvalidate : 536 -> 344
+~ _FigByteFlumeCustomURLFinalize : 548 -> 340
+~ _FigByteFlumeCustomURLCancel : 448 -> 396
+~ _fbfcu_AskForResponse : 740 -> 440
+~ _fbfcu_customURLLoaderDataCallback : 5132 -> 2468
+~ _fbfcu_ReadCallback : 288 -> 304
+~ _FigByteFlumeCustomURLOpen.cold.2 : 124 -> 48
+~ _fbfcu_copyAllowedHTTPHeaders.cold.1 : 124 -> 48
+~ _MediaSampleTimingGeneratorCreateMediaSampleTimingInfoArray : 3984 -> 2028
+~ _MediaSampleTimingGeneratorCreateMediaSampleTimingInfoArrayWithDefaultLastSampleDuration.cold.1 : 128 -> 48
+~ _MediaSampleTimingGeneratorSetMediaTimeScale.cold.1 : 128 -> 48
+~ _MediaSampleTimingGeneratorSetMediaTimeScale.cold.2 : 128 -> 48
+~ _FigAlternateMatchesAnyClientPredicateFilterCreate.cold.1 : 128 -> 72
+~ _FigSubtitleRendererDetachRegionInfo : 1528 -> 484
+~ _FigSubtitleRendererGetRegionBounds : 1108 -> 596
+~ _surveyOverlaps : 676 -> 324
+~ _mediaAccessibilityDidChange.cold.1 : 108 -> 4
+~ _CreateSubtitleSample.cold.3 : 128 -> 52
+~ _subtitleRendererDrawSubtitleTextDo.cold.1 : 124 -> 48
+~ _subtitleRendererSetupText.cold.1 : 124 -> 48
+~ _setupRubyAnnotation.cold.1 : 108 -> 32
+~ _subtitleRendererLayoutDo.cold.1 : 124 -> 356
+~ _subtitleRendererLayoutDo.cold.4 : 132 -> 56
+~ _FigCreateCaptionRenderPipeline : 1820 -> 1276
+~ _caprp_createSubtitleSampleForCaptionGroupSampleBuffer : 2368 -> 1184
+~ _caprp_createSubtitleSampleForMPEG4Part30SampleBuffer : 1024 -> 792
+~ _caprp_createSubtitleSampleForWebVTTSampleBuffer : 1832 -> 1180
+~ _caprp_createSubtitleSampleForTX3GSampleBuffer : 2176 -> 1252
+~ _caprp_sendSubtitleSample.cold.2 : 108 -> 4
+~ _LPCMFlushForType : 500 -> 248
+~ _appendSampleDataOrSampleReference : 6188 -> 2992
+~ _MediaDataChunkWriterAddTrack.cold.1 : 124 -> 48
+~ _MediaDataChunkWriterTrackStartNewChunk.cold.2 : 124 -> 44
+~ _HandleSampleGeneratorMessage : 6948 -> 3264
+~ _HandleNoReplyFigSampleGeneratorMessage : 1332 -> 196
+~ _sampleBufferGeneratorServer_createSampleBufferAtCursor : 1296 -> 756
+~ _sampleBufferGeneratorServer_requestCallback : 1244 -> 512
+~ _sampleBufferGenerator_bufferQueue_dataReadyCallback.cold.1 : 108 -> 28
+~ _FigCFCaptionRendererProcessCaptionCommandData : 1504 -> 448
+~ _FigSteeringManifest_replyingMessageHandler : 1028 -> 416
+~ _fpsupport_simpleRenderPipelineCallback.cold.2 : 132 -> 56
+~ _HandleAudioEngineRemoteMessage : 6284 -> 3788
+~ _SetRateAndAnchorTimeCallback : 544 -> 296
+~ _CreateCompletionCallbackParametersFromMessageAndConnection.cold.1 : 124 -> 48
+~ _FigSampleBufferConsumerInputForBufferedAirPlayOutputCreate : 696 -> 396
+~ _FigVirtualDisplayScreenRecordingPostState : 496 -> 528
+~ _fvds_stop : 1948 -> 1004
+~ _FigTTMLDocumentWriterCreateRegionBuilder.cold.2 : 120 -> 48
+~ _PerformValidationJobCompletion : 716 -> 372
+~ _StoreProperty : 3472 -> 996
+~ _PerformMultiplePropertyRequest.cold.2 : 124 -> 36
+~ _CreateValidationStore.cold.2 : 124 -> 64
+~ _FigSampleBufferProcessorRestoreBufferedAirPlayStates : 1044 -> 360
+~ _FigSampleBufferProcessorForBufferedAirPlayCreate : 688 -> 608
+~ _fbarpCopyProperty : 484 -> 432
+~ _FigSampleBufferProcessorForBufferedAirPlayCopyPerformanceDictionary.cold.1 : 124 -> 80
+~ _FigCaptionRendererMoveToActionCreate : 284 -> 236
+~ _URLAssetCreateAssetTrack.cold.2 : 136 -> 60
+~ _FigAssetCreateWithMovieProxyData.cold.2 : 136 -> 60
+~ _URLAssetTrackValidateAsync.cold.3 : 124 -> 48
+~ _URLAssetFetchChapterDataAsync.cold.1 : 124 -> 48
+~ _URLAssetLoadValuesAsyncForTrackProperties.cold.2 : 124 -> 48
+~ _CreateTrackMacroPropertyState.cold.2 : 124 -> 68
+~ _CreateTrackMacroPropertyState.cold.3 : 124 -> 44
+~ _FigAssetDownloadStorageManagementSetDownloadStartDateForAssetAtURL : 772 -> 288
+~ _FigAssetDownloadStorageManagementCopyDownloadStartDateForAssetAtURL : 768 -> 284
+~ _FigAssetDownloadStorageManagementSetDownloadCompletionDateForAssetAtURL : 772 -> 288
+~ _FigAssetDownloadStorageManagementCopyDownloadCompletionDateForAssetAtURL : 820 -> 288
+~ _FigAssetDownloadStorageManagementCopyLastPlayedOutDateForAssetAtURL : 768 -> 284
+~ _FigAssetDownloadStorageManagementSetLastPlayedDateForAssetAtURL : 1068 -> 356
+~ _FigAssetDownloadStorageManagementCopyLastPlayedDateForAssetAtURL : 768 -> 284
+~ _FigAssetDownloadStorageManagementSetExpirationDateForAssetAtURL : 772 -> 288
+~ _FigAssetDownloadStorageManagementCopyExpirationDateForAssetAtURL : 768 -> 284
+~ _FigAssetDownloadStorageManagementSetPriorityForAssetAtURL : 888 -> 356
+~ _FigAssetDownloadStorageManagementCopyPriorityForAssetAtURL : 908 -> 288
+~ _figSetExtendedAttributeData.cold.2 : 148 -> 68
+~ _PerformTransferBytePumpAsync : 1628 -> 1368
+~ _ProduceAssetValidationResult : 976 -> 480
+~ _InternalURLAssetLoadValuesAsyncForTrackProperties : 488 -> 408
+~ _ProduceStreamingAssetProperty : 2272 -> 2024
+~ _URLAssetDoneDownloadingGuts : 2000 -> 960
+~ _CreateBytePumpCreateOptions : 3012 -> 2088
+~ _EnsureStreamingAssetPropertyLoaderCreated : 264 -> 260
+~ _ProduceFormatSpecificMetadataFormatAssetTrackProperty : 344 -> 340
+~ _ProduceLoudnessInfoTrackProperty : 1108 -> 1012
+~ _AddChapterTrackInfoToArray : 1228 -> 936
+~ _ProduceFormatSpecificMetadataFormatProperty : 364 -> 360
+~ _ProduceMetadataPropertyFromMetadataReader : 544 -> 468
+~ _ProduceCPEProtectorProperty : 1120 -> 464
+~ _ProduceMovieProxyProperty : 432 -> 292
+~ _EnsureStorageSessionCreated.cold.1 : 132 -> 56
+~ _EnsureStorageSessionCreated.cold.2 : 360 -> 356
+~ _ProduceAssetTrackValidationResult.cold.1 : 124 -> 48
+~ _PerformMultiTrackBatchLoad.cold.1 : 116 -> 40
+~ _EnsureFormatReaderCreated.cold.1 : 124 -> 48
+~ _FigSampleBufferAudioRendererCreateRemoteWithOptions : 988 -> 704
+~ _audioRendererRemote_handleClientMessage : 1716 -> 352
+~ _audioRendererRemote_SetProperty : 848 -> 308
+~ _audioRendererRemote_EnqueueSampleBuffer : 888 -> 468
+~ _audioRendererRemote_FlushFromMediaTime : 912 -> 640
+~ _audioRendererRemote_getObjectID.cold.2 : 124 -> 44
+~ _FigSampleBufferAudioRendererCreateRemoteWithOptionsAndRetry.cold.1 : 124 -> 44
+~ _vq_Finalize : 924 -> 928
+~ _vq_SetProperty : 5904 -> 3864
+~ _FigVideoQueue_CopyCurrentlyDisplayedPixelBufferFromCAImageQueue : 488 -> 196
+~ _vq_createFigImageQueueAndTagsForVideoTargetAndAppendToArraysAndTargetInfo : 972 -> 740
+~ _VideoTargetInfoCreate.cold.2 : 108 -> 64
+~ _VideoTargetInfoCreate.cold.3 : 108 -> 28
+~ _VideoTargetInfoCreate.cold.4 : 108 -> 24
+~ _vq_EnqueueFrame.cold.5 : 124 -> 48
+~ _vq_EnqueueH264FrameWithTimingInfoBaggage.cold.1 : 124 -> 44
+~ _aigXPCServer_setAudioSessionBehaviour : 1160 -> 724
+~ _HandleAssetImageGeneratorNoReplyMessage : 1452 -> 352
+~ _serverXPCAIG_AddCGImageToMessage : 1376 -> 284
+~ ___HandleAssetImageGeneratorMessage_block_invoke.cold.1 : 124 -> 44
+~ _FigVideoQueueRemoteCallbackServer_NotificationIsPending : 884 -> 384
+~ _videoQueueRemote_rebuildTimebaseSync.cold.1 : 116 -> 40
+~ _videoQueueRemote_updateVisualContextArrayAndCopyIDArray.cold.2 : 124 -> 48
+~ _remoteXPCAsset_CreateInternal : 4336 -> 2524
+~ _FigAssetRemoteCreateWithMovieProxyData : 580 -> 228
+~ _FigAssetRemoteCreateWithBlockBuffer : 792 -> 268
+~ _FigAssetXPCRemoteRetainCopiedAsset : 612 -> 244
+~ _remoteXPCAssetTrack_CopyProperty : 1248 -> 768
+~ _remoteXPCAssetTrack_GetStatusOfValueForProperty : 608 -> 296
+~ _remoteXPCAsset_CopyProperty : 1312 -> 744
+~ _remoteXPCAsset_LoadValuesAsyncForProperties : 644 -> 308
+~ _remoteXPCAsset_ValidateAsync : 620 -> 292
+~ _remoteXPCAsset_CopyChapterData : 660 -> 268
+~ _remoteXPCAsset_FetchChapterDataAsync : 544 -> 232
+~ _remoteXPCAsset_LoadValuesAsyncForTrackProperties : 1164 -> 572
+~ _remoteXPCAsset_DefineMacroProperty : 576 -> 264
+~ _remoteXPCAsset_DefineTrackMacroProperty : 576 -> 264
+~ _remoteXPCAsset_DefineCrossTrackMacroProperty : 576 -> 264
+~ _FigAssetRemoteCreateWithFormatReader.cold.1 : 40 -> 20
+~ _remoteXPCAsset_GetObjectID.cold.1 : 124 -> 48
+~ _remoteXPCAsset_GetObjectID.cold.2 : 124 -> 48
+~ _remoteXPCAssetClient_NotificationFilter.cold.2 : 108 -> 24
+~ _remoteXPCAsset_DeserializeAndCreateHLSSessionKeysFromXPCDictionary.cold.1 : 124 -> 44
+~ _remoteXPCAsset_DeserializeAndCreateTracksArrayFromXPCDictionary.cold.2 : 156 -> 76
+~ _remoteXPCAsset_DeserializeAndCreateTracksArrayFromXPCDictionary.cold.3 : 124 -> 48
+~ _remoteXPCAssetTrack_GetObjectID.cold.2 : 124 -> 48
+~ _remoteXPCAssetTrack_GetTrackInfo.cold.1 : 124 -> 48
+~ _remoteXPCAsset_storeSandboxRegistration.cold.1 : 108 -> 28
+~ _dq_EnqueueSampleBuffer : 1144 -> 468
+~ _dq_CopySampleBufferForTime : 2316 -> 1040
+~ _dq_CopyProperty.cold.3 : 124 -> 44
+~ _persistentStore_SetProperty : 1216 -> 452
+~ _persistentStore_Invalidate : 428 -> 352
+~ _persistentStore_SetMasterPlaylist : 1332 -> 636
+~ _persistentStore_SetStreamComplete : 1160 -> 492
+~ _persistentStore_RemoveStreamInfoForStreamID : 668 -> 400
+~ _persistentStore_AddInterstitialAsset : 872 -> 492
+~ _persistentStore_ensureMemoryPool : 452 -> 284
+~ _makeDirectoryAtURL : 316 -> 60
+~ _addInterstitialAssetWork : 1304 -> 1000
+~ _FigHLSPersistentStoreCreateAtURL.cold.2 : 124 -> 56
+~ _loadBootFromFile.cold.1 : 108 -> 32
+~ _loadBootFromFile.cold.2 : 136 -> 60
+~ _persistentStore_CopyProperty.cold.2 : 124 -> 48
+~ _persistentStore_CopyProperty.cold.3 : 124 -> 48
+~ _writeBoot.cold.1 : 124 -> 48
+~ _persistentStore_CopyStreamIDs.cold.2 : 124 -> 48
+~ _persistentStore_CopyMasterPlaylist.cold.2 : 124 -> 72
+~ _persistentStore_IsStreamComplete.cold.2 : 124 -> 48
+~ _persistentStore_CreateStreamOptions.cold.1 : 124 -> 48
+~ _removeDataItem.cold.1 : 124 -> 48
+~ _xmlRemoveStream.cold.2 : 124 -> 48
+~ -[FigNSURLSessionRegistry init].cold.1 : 124 -> 60
+~ _FigVideoQueueRemoteServer_Create : 3112 -> 2400
+~ _FigVideoQueueRemoteServer_SetProperty : 1816 -> 1024
+~ _FigVideoQueueRemoteServer_Start : 304 -> 224
+~ _FigVideoQueueRemoteServer_EnqueueFrameWithFormatDescriptionAndTimingInfoBaggage : 804 -> 668
+~ _FigVideoQueueRemoteServer_Flush : 304 -> 224
+~ _FigVideoQueueRemoteServer_IsAboveHighWaterLevel : 304 -> 216
+~ _fastStartRemaker_parseChildAtoms : 512 -> 340
+~ _FigFastStartRemakerCreateWithURLs.cold.1 : 120 -> 44
+~ _FigFastStartRemakerCreateWithURLs.cold.2 : 120 -> 44
+~ _FigFastStartRemakerCreateWithURLs.cold.3 : 120 -> 44
+~ _FigFastStartRemakerCreateWithURLs.cold.5 : 120 -> 44
+~ _FigFastStartRemakerCreateWithURLs.cold.7 : 120 -> 44
+~ _fastStartRemaker_CopyProperty.cold.1 : 128 -> 44
+~ _fastStartRemaker_StartOutput.cold.1 : 120 -> 44
+~ _writeFirstStartMovieDispatchFunction.cold.9 : 112 -> 36
+~ _writeFirstStartMovieDispatchFunction.cold.16 : 112 -> 36
+~ _FigReportingAgentCreateFromAsset : 1956 -> 1992
+~ _FigReportingAgentStatsUpdateSampleValueWithBool : 208 -> 200
+~ _reportingAgentSetProperty : 340 -> 348
+~ _reportingAgentInvalidateGuts : 584 -> 392
+~ _fra_ensureRTCReportingConnection : 456 -> 208
+~ _fra_issueAndCopyReportingEvent : 3908 -> 2148
+~ _fra_storeDeferredReportingEvent : 468 -> 200
+~ _fra_issueRTCReportingEventRealTime : 364 -> 60
+~ _reportingAgentStatsCopy : 476 -> 264
+~ _reportingAgentStatsSetIntValueWithOptions : 392 -> 220
+~ _reportingAgentStatsResetValue : 428 -> 196
+~ _reportingAgentStatsResetAll : 452 -> 260
+~ _reportingAgentUpdateUserInfo : 240 -> 248
+~ _reportingAgentSetIntValueAndIssuePeriodicEvent : 828 -> 396
+~ _reportingAgentStatsAppendCFTypeValueToArray : 400 -> 216
+~ _surrogatePlayer_Invalidate : 312 -> 308
+~ _surrogatePlayer_initiateLoadingOfItemAssetTypeInternal : 1244 -> 1164
+~ _surrogatePlayer_respondToFailedLoadingOfItemAssetTypeInternal : 972 -> 992
+~ _surrogatePlayer_setPropertyInCacheInternal : 500 -> 184
+~ _surrogatePlayer_removeItemFromPlayQueueInternal : 1052 -> 668
+~ _surrogatePlayer_isRealItemCurrentInRealPlayer : 268 -> 264
+~ _surrogatePlayer_respondToLoadingOfItemAssetTypeInternal : 5940 -> 5144
+~ _surrogatePlayer_createRealPlayerInternal : 1108 -> 960
+~ _surrogatePlaybackItem_callMakeReadyForInspectionOnRealItem : 364 -> 356
+~ _surrogatePlayer_AddToPlayQueue : 632 -> 504
+~ _surrogatePlayer_RemoveFromPlayQueue : 1044 -> 1016
+~ _surrogatePlayer_StepByCount : 504 -> 224
+~ _surrogatePlayer_SetRateAndAnchorTime : 1112 -> 1120
+~ _surrogatePlayer_SetRateWithOptions : 508 -> 260
+~ _surrogatePlayer_SetProperties : 1116 -> 712
+~ _surrogatePlayer_ReevaluateRouteConfiguration : 404 -> 212
+~ _surrogatePlayer_CopyDisplayedCVPixelBuffer : 220 -> 216
+~ _surrogatePlaybackItem_addToPlayQueueInternal : 2144 -> 1828
+~ _surrogatePlaybackItem_copyRealItemAndRealPlayer : 204 -> 196
+~ _surrogatePlayer_setRateAndAnchorTimeInCacheInternal : 640 -> 568
+~ _surrogatePlayer_createRealItemAndRealPlayer : 212 -> 204
+~ _surrogatePlaybackItem_handleSetProperty : 416 -> 180
+~ _surrogatePlaybackItem_setPropertyInCacheInternal : 616 -> 264
+~ _surrogatePlaybackItem_GetCurrentTime : 556 -> 364
+~ _surrogatePlaybackItem_CopyTrackProperty : 724 -> 308
+~ _surrogatePlaybackItem_CopyChapterImageData : 632 -> 288
+~ _surrogatePlaybackItem_GetNextThumbnailTime : 672 -> 320
+~ _surrogatePlaybackItem_SetTrackProperty : 472 -> 276
+~ _surrogatePlaybackItem_CopyAsset : 292 -> 80
+~ _surrogatePlaybackItem_SetProperties : 584 -> 352
+~ _surrogatePlaybackItem_SetCurrentTimeWithOptions : 588 -> 396
+~ _surrogatePlaybackItem_setTrackPropertyInCacheInternal : 564 -> 228
+~ _surrogatePlayer_removeItemWithoutReset_internal : 276 -> 272
+~ _surrogatePlayer_DuckVolume : 1160 -> 732
+~ _surrogatePlayer_SilentMute : 612 -> 416
+~ _FigMetricInitialLikelyToKeepUpEventDeserializeAndCopy : 1164 -> 868
+~ _FigMetricLikelyToKeepUpEventDeserializeAndCopy : 448 -> 308
+~ _FigMetricInternalInitialLikelyToKeepUpEventDeserializeAndCopy : 448 -> 308
+~ _meltku_serialize : 1156 -> 1036
+~ _meiltku_serialize.cold.3 : 108 -> 28
+~ _meiltku_serialize.cold.4 : 124 -> 68
+~ _clcpcgcfsb_AddSampleBuffer : 880 -> 704
+~ _clcpcgcfsb_Finish : 496 -> 224
+~ _clcpcgcfsbCaptionSlicerCreateCaptionGroupArray : 2564 -> 1836
+~ _clcpcgcfsbCreateCaptionDataArray.cold.1 : 164 -> 88
+~ _clcpcgcfsbCreateCaptionDataFromCommandData.cold.1 : 132 -> 264
+~ _FigCDSOutputNodeCreate : 288 -> 232
+~ _FigSurrogateAssetImageGeneratorCreateFromAsset : 1192 -> 504
+~ _surrogateAIG_CreateSubGenerator : 664 -> 328
+~ _surrogateAIG_SetProperty : 1008 -> 432
+~ _surrogateAIG_EnsureSubGeneratorCreated : 640 -> 184
+~ ___surrogateAIG_SetProperty_block_invoke.cold.1 : 132 -> 60
+~ _surrogateAIG_CopyCGImageAtTime.cold.1 : 128 -> 56
+~ _FigVideoCompositionInstructionGetBackgroundColorARGB : 288 -> 180
+~ _FigVideoCompositorPropertiesGetRenderDimensions.cold.2 : 124 -> 48
+~ -[FigVideoLayer initWithDeferredTransaction:].cold.1 : 120 -> 64
+~ _EnsureUUID : 308 -> 180
+~ _EnsureUUIDForLimitedCryptor : 308 -> 180
+~ _FigPKDCPECryptorSetProperty : 1720 -> 1364
+~ _EnsureRequiredExternalProtectionMethod : 260 -> 204
+~ _EnsureDecryptContext : 508 -> 464
+~ _FigPKDCPECryptorDecryptSampleWithFormat : 672 -> 364
+~ _FigPKDCPECryptorSetKeyRequestResponse : 1576 -> 1160
+~ _FigPKDCPECryptorCopyPropertyForFormat : 484 -> 340
+~ _FigPKDCPECryptorAbsorbKeyRequestContext : 728 -> 492
+~ _FigPKDCPECryptorCopySerializedCryptorRecipe : 304 -> 300
+~ _GetAudioPacketDataForDecrypt : 376 -> 312
+~ _RenewalTimerCallback : 348 -> 396
+~ _CopyImageParamsFromAVCData : 476 -> 400
+~ _FigPKDCPELimitedCryptorInvalidate : 356 -> 392
+~ _FigPKDCPELimitedCryptorFinalize : 276 -> 64
+~ _FigPKDCPELimitedCryptorCopySerializedCryptorRecipe : 296 -> 292
+~ _RemoveWeakListenerOnExternalProtectionMonitor.cold.2 : 124 -> 48
+~ _EnsureDecryptContextGuts.cold.1 : 108 -> 32
+~ _ProcessOfflineKey.cold.5 : 124 -> 68
+~ _PostKeyRequestErrorOccurred.cold.1 : 196 -> 44
+~ _frpfanout_finalize : 512 -> 232
+~ _figVTTSerializerForByteStream_SetProperty.cold.1 : 120 -> 44
+~ _figVTTSerializerForByteStream_SetProperty.cold.3 : 112 -> 36
+~ _fpic_DequeueItemsFromInterstitialPlayer : 456 -> 464
+~ _fpic_TransitionPlayback : 1252 -> 968
+~ _fpic_CreateAndPrimeItemTimer : 956 -> 804
+~ _fpic_applyCoordinationMediaSelectionCriteria : 880 -> 800
+~ _fpic_interstitialEventCompFunc : 588 -> 572
+~ _fpic_EnsureEventHasResolvedProperties : 1672 -> 1716
+~ _fpic_GetProjectedDuration : 1044 -> 1072
+~ _fpic_isEventResolvableOnPrimaryTimeline : 168 -> 184
+~ _fpic_SetPerAssetPerEventTrackedObject : 572 -> 360
+~ _fpic_RemovePerEventTrackedObjects : 292 -> 88
+~ _fpic_HopNextMomentIfNecessary : 1748 -> 1772
+~ _fpic_GetEventItemDurationOnAssetTimeline : 228 -> 236
+~ _fpic_PruneCurrentEventsToQueue : 3656 -> 3644
+~ _fpic_ApplyResumptionOffset : 1656 -> 1428
+~ ___fpic_EnsurePrimaryWillResumePlaying_block_invoke : 1380 -> 1156
+~ _fpic_updateIntegratedTimelineOffsetTimesOnItemForEvent : 1076 -> 936
+~ ___fpic_InitiateSeekIntoEvent_block_invoke : 4064 -> 3876
+~ ___fpic_GetCurrentTimeInCurrentEvent_block_invoke : 444 -> 440
+~ ___fpic_mediaAccessibilityChanged_block_invoke : 248 -> 184
+~ _FigPlayerInterstitialCoordinatorCreate.cold.1 : 124 -> 40
+~ _fpic_PostNotification.cold.1 : 108 -> 28
+~ _fpic_copyEventsScheduledAtSameMomentAsEvent.cold.1 : 124 -> 48
+~ _fpic_copyEventsScheduledAtSameMomentAsEvent.cold.2 : 124 -> 48
+~ ___fpic_EnsureNextEventHasAssets_block_invoke.cold.1 : 128 -> 52
+~ _fpic_ReadAssetListForEvent.cold.1 : 124 -> 48
+~ _fpic_UnpauseInterstitialPlayer.cold.1 : 108 -> 28
+~ ___fpic_EnsurePrimaryWillResumeBuffering_block_invoke.cold.3 : 128 -> 52
+~ _fpic_copyInterstitialPlayer.cold.1 : 124 -> 48
+~ _fpic_setEventsInAddOrderForPlayerItem.cold.1 : 132 -> 56
+~ _fpic_EnsureCurrentEventsHaveResolvedProperties.cold.1 : 108 -> 28
+~ _FigIcyMetadataCopyItemWithKeyAndIndex : 832 -> 444
+~ _fiqcfo_setProperty.cold.1 : 124 -> 44
+~ _fiqcfo_setProperty.cold.4 : 124 -> 36
+~ _FigCaptionRendererCALayerOutputNodeCreate : 456 -> 356
+~ _sbcdq_InstallLowWaterTrigger : 752 -> 328
+~ _sbcdq_RemoveLowWaterTrigger : 572 -> 216
+~ _digestSubtitleSampleDo : 8672 -> 5872
+~ _MTSampleBufferCopyClosedCaptionSEIBlockBuffer : 760 -> 440
+~ _ui_iteratorHEVC : 424 -> 204
+~ _ui_iteratorAVC : 392 -> 200
+~ ___connectionHelper_handleNewBootstrapConnection_block_invoke.cold.3 : 148 -> 68
+~ ___connectionHelper_handleNewBootstrapConnection_block_invoke.cold.5 : 132 -> 52
+~ _videoReceiverServer_setImageQueueMessage.cold.2 : 124 -> 40
+~ _videoReceiverRemote_CreateImageQueueReceiver : 792 -> 244
+~ _videoReceiverRemote_AddDataChannelConfiguration : 872 -> 308
+~ _videoReceiverRemote_startDataQueueServerAndCreateEndpoint : 596 -> 208
+~ _FigVideoReceiverCreateRemote.cold.5 : 124 -> 32
+~ _videoReceiverRemote_GetClientAndObjectID.cold.1 : 124 -> 44
+~ _ec_EncryptionRangeCreate : 276 -> 216
+~ _ec_GetProtectionSystemInfo : 324 -> 200
+~ _ec_CFDictionaryGetStringIfPresent.cold.1 : 100 -> 28
+~ _FigCaptionDataToMarkupBasedAttributedString : 7228 -> 12824
+~ _fcctx_createColorRGBAFromColorStyleDynamicProperty.cold.1 : 124 -> 44
+~ _ovc_getPrescalingParameters.cold.6 : 108 -> 4
+~ _FigDisplayModes_ExtractVSyncRateFromTimingMode : 356 -> 368
+~ _getTimingModeDimensions.cold.3 : 176 -> 168
+~ _getTimingModeDimensions.cold.4 : 176 -> 168
+~ _getTimingModeDimensions.cold.5 : 176 -> 168
+~ _FigDisplayModes_ExtractOverscanInfoFromTimingMode.cold.1 : 176 -> 168
+~ _FigDisplayModes_ExtractOverscanInfoFromTimingMode.cold.2 : 176 -> 168
+~ _FigDisplayModes_LookupTimingModeIDByIndex.cold.1 : 176 -> 168
+~ _FigDisplayModes_LookupTimingModeIDByIndex.cold.2 : 176 -> 168
+~ _FigDisplayModes_LookupTimingModeIDByIndex.cold.3 : 176 -> 168
+~ _FigDisplayModes_CreateColorAndTimingModesArraysWithPreferredMode.cold.1 : 176 -> 168
+~ _FigDisplayModes_CreateColorAndTimingModesArraysWithPreferredMode.cold.2 : 176 -> 168
+~ _FigDisplayModes_CreateSquarePixelTimingModeForTimingMode.cold.1 : 176 -> 168
+~ _FigDisplayModes_CreateSquarePixelTimingModeForTimingMode.cold.2 : 176 -> 168
+~ _FigDisplayModes_CreateSquarePixelTimingModeForTimingMode.cold.3 : 176 -> 168
+~ _FigDisplayModes_CreateSquarePixelTimingModeForTimingMode.cold.4 : 176 -> 168
+~ _FigDisplayModes_CreateSquarePixelTimingModeForTimingMode.cold.5 : 176 -> 168
+~ _FigDisplayModes_CreateSquarePixelTimingModeForTimingMode.cold.6 : 176 -> 168
+~ _FigDisplayModes_CreateSquarePixelTimingModesArrayFromTimingModesAndDisplaySize.cold.1 : 176 -> 168
+~ _FigDisplayModes_CreateSquarePixelTimingModesArrayFromTimingModesAndDisplaySize.cold.2 : 176 -> 168
+~ _FigDisplayModes_CreateSquarePixelTimingModesArrayFromTimingModesAndDisplaySize.cold.3 : 176 -> 168
+~ _FigDisplayModes_CopyTimingModeAppendingPreferredUIScale.cold.1 : 176 -> 168
+~ _FigDisplayModes_CopyTimingModeAppendingPreferredUIScale.cold.2 : 176 -> 168
+~ _FigDisplayModes_CopyTimingModeAppendingPreferredUIScale.cold.3 : 176 -> 168
+~ _FigDisplayModes_CopyTimingModeAppendingPreferredUIScale.cold.4 : 176 -> 168
+~ _FigOutOfBandTrackControllerCreate : 988 -> 344
+~ _FigOutOfBandTrackControllerSetProperty.cold.1 : 124 -> 52
+~ _oobtcontroller_updateNeroVideoMode.cold.1 : 108 -> 28
+~ _FigCRABSCachePrimerCreate.cold.2 : 148 -> 68
+~ _FigCRABSCachePrimerCreate.cold.3 : 124 -> 44
+~ _FigCRABSCachePrimerCreate.cold.6 : 124 -> 44
+~ _FigManifoldCreateForWebVTT : 644 -> 504
+~ _audioSessionAVAudioSession_copyNeroInformationDictionary : 1248 -> 528
+~ _audioSessionAVAudioSession_copyAudioDeviceIsAvailable : 1240 -> 716
+~ _audioSessionAVAudioSession_SetMXSessionProperty.cold.1 : 40 -> 20
+~ _FigAudioSessionCreateWithAVAudioSession.cold.3 : 156 -> 220
+~ _FigAudioSessionCreateWithAVAudioSessionSiblingForAudioSessionID.cold.4 : 124 -> 48
+~ _audioSessionAVAudioSession_SetMXSessionProperty.cold.2 : 124 -> 48
+~ _audioSessionAVAudioSession_SetMXSessionPropertiesAndCopyErrors.cold.2 : 108 -> 28
+~ _audioSessionAVAudioSession_copySpatializationCapabilities.cold.2 : 124 -> 48
+~ _audioSessionAVAudioSession_copySpatializationCapabilities.cold.3 : 124 -> 48
+~ _FigCGSizeCreateDictionaryRepresentation.cold.1 : 108 -> 4
+~ _FigToolViewStart.cold.1 : 124 -> 72
+~ _synchronizerServer_timebaseSyncUpdateCallback : 496 -> 260
+~ ___FigPlayerCelesteOneTimeInitialization_block_invoke : 892 -> 524
+~ _playerceleste_beginInterruptionInternal : 2256 -> 1204
+~ _playerceleste_SetProperties : 736 -> 360
+~ _itemceleste_SetProperty : 380 -> 288
+~ _itemceleste_SetProperties : 676 -> 348
+~ _FigCreateHapticPatternDictionaryFromAppleHapticRawBBuf.cold.1 : 136 -> 56
+~ _FigCreateHapticPatternDictionaryFromAppleHapticRawBBuf.cold.4 : 116 -> 40
+~ _ovcbp_getProgramForPixelFormatAndPlane.cold.2 : 124 -> 44
+~ _ovcbp_createAndSetupProgram.cold.1 : 124 -> 44
+~ _FigMetricItemVariantChangeEventDeserializeAndCopy : 524 -> 400
+~ _meivc_serialize : 1312 -> 1188
+~ _famcs_copyProperty : 632 -> 480
+~ _famcs_setProperty : 2584 -> 2276
+~ _famcs_sendContentSteeringManifestRequest : 2536 -> 2188
+~ _famcs_steeringManifestHTTPReadCallback : 1100 -> 940
+~ _famcs_steeringManifestCustomURLReadCallback : 1236 -> 1100
+~ _famcs_createPathwayIDDescriptionGivenPathwayClones.cold.1 : 124 -> 48
+~ _famcs_shouldSendSteeringManifestRequest.cold.1 : 108 -> 28
+~ _ProcessTimeToSampleNumAtom : 1452 -> 476
+~ _ProcessSampleSizeAtom : 640 -> 300
+~ _FigVCPCoreAnimationSourceCreate : 556 -> 400
+~ _fvcp_processingState_advanceCurrentTimeWithSourceTiming : 816 -> 264
+~ _FigVCPCompositorHostAnticipateRendering : 740 -> 292
+~ _fvcp_source_sourceImageAvailable : 804 -> 244
+~ _fvcp_vc_source_sourceFlushed : 460 -> 220
+~ _fvcp_vc_source_CheckSampleAvailability : 3764 -> 1536
+~ _fvcp_vc_source_SetCurrentTime : 4696 -> 3472
+~ _fvcp_compositorHost_FrameCompletion.cold.1 : 108 -> 64
+~ _FigVCPCompositorHostStartAcceptingRequest.cold.1 : 124 -> 48
+~ _fvcp_preprocessParameters_setRenderScaleProperty.cold.1 : 108 -> 24
+~ _FigMetricItemPlaybackEndEventDeserializeAndCopy : 360 -> 240
+~ _figTTMLSerializerForByteStream_SetProperty.cold.1 : 120 -> 48
+~ _figTTMLSerializerForByteStream_StartElement.cold.1 : 116 -> 48
+~ _FigMediaProcessorCreateForCaptionConversionWithFormatWriter : 396 -> 324
+~ _FigMediaProcessorCreateForCaptionConversionWithBufferQueue : 372 -> 300
+~ _AudioSampleBufferSplitterSetSplitMethod.cold.1 : 124 -> 48
+~ _webVTTEmitSamples : 896 -> 504
+~ _WebVTTCreateAttributedStringArrayFromSampleBuffer : 7364 -> 4368
+~ _webVTTSampleBufferParserSetStyleQueueFromTextMarkup : 428 -> 192
+~ _FigWebVTTReadTime.cold.5 : 124 -> 44
+~ _webVTTParseCueAndCreateAttributedString.cold.1 : 132 -> 44
+~ _webVTTParseCueAndCreateAttributedString.cold.3 : 124 -> 52
+~ _webVTTParseCueAndCreateAttributedString.cold.8 : 124 -> 44
+~ _webVTTParseCueAndCreateAttributedString.cold.9 : 132 -> 76
+~ _webVTTAddCueToSampleQueue.cold.1 : 124 -> 44
+~ _webVTTInitMetadataDictionaryIfNecessary.cold.1 : 148 -> 64
+~ _octtextrp_closedCaptionsRenderCallback.cold.1 : 108 -> 8
+~ _octtextrp_rasterizeAndDisplaySubtitle.cold.4 : 108 -> 8
+~ _octtextrp_rasterizeAndDisplaySubtitle.cold.6 : 108 -> 64
+~ _HandleMutableMovieCopyPropertyMessage : 684 -> 400
+~ _HandleMutableMovieCopyFormatReaderMessage : 548 -> 332
+~ _HandleMutableMovieCopyHeaderDataMessage : 520 -> 308
+~ _HandleMutableMovieAddTrackMessage : 1084 -> 336
+~ _HandleMutableMovieCopyTrackPropertyMessage : 704 -> 364
+~ _FigMutableMovieServerStart.cold.1 : 124 -> 44
+~ _NeroTextImageCodec_DecompressAndCompositeTwo32BGRAImages.cold.6 : 136 -> 36
+~ _ntic_decodeLineRLEto32BGRA.cold.2 : 136 -> 44
+~ _ntic_decodeLineRLEto32BGRA.cold.3 : 136 -> 44
+~ _ntic_decodeLineRLEto32BGRA.cold.4 : 136 -> 44
+~ _ccRasterizerCopyImageBuffer : 392 -> 220
+~ _FigFairplayPSSHAtomParserParseAndCreateRecordRemote : 1264 -> 716
+~ _subtitleRasterizerSetRenderSize.cold.2 : 108 -> 32
+~ _EMSGInformationCreate.cold.2 : 128 -> 44
+~ _resolvePicturesIfNeeded : 5544 -> 3916
+~ _IFFInformationCopySourceIsMIAF : 268 -> 264
+~ _IFFInformationAddItemWithType : 444 -> 292
+~ _IFFInformationReserveItemWithType : 264 -> 224
+~ _IFFInformationSetItemMIMETypeAndEncoding : 416 -> 324
+~ _IFFInformationSetItemURIType : 408 -> 300
+~ _IFFInformationSetItemName : 352 -> 260
+~ _IFFInformationReserveItemReferenceTable : 592 -> 360
+~ _IFFInformationReserveItemGroup : 716 -> 440
+~ _IFFInformationDropItemGroup : 232 -> 236
+~ _IFFPictureTilesHaveSameBaseProperties : 168 -> 72
+~ __tilesHaveSameBaseProperties : 344 -> 336
+~ _IFFPictureAddMetadataItemReference : 312 -> 192
+~ _IFFPictureCopyPixelInformationArray : 388 -> 272
+~ _IFFPictureCopyLayerSizes : 256 -> 212
+~ __setStereoMetadataSingleIntegerHelper : 580 -> 360
+~ __getSharedPropertyOfTypeWithComparator : 224 -> 208
+~ _IFFPictureCopyExifLocationByIndex : 260 -> 228
+~ _IFFPictureCopyXMPLocationByIndex : 252 -> 212
+~ _IFFPictureCopyDebugMetadataLocationByIndex : 264 -> 224
+~ _iffpcbAddPictureHelper : 9016 -> 6704
+~ _IFFInformationAddAndGetMetadataItemFromPicture : 556 -> 476
+~ _IFFInformationAddGroupToGroup : 264 -> 224
+~ _IFFInformationSetItemBodyImageDerivationTonemap.cold.9 : 124 -> 44
+~ _IFFPictureCopyDerivation.cold.2 : 172 -> 84
+~ _IFFPictureCopyDerivation.cold.8 : 136 -> 56
+~ __copyDerivationParentPicturesArray.cold.2 : 148 -> 60
+~ _createPixelAspectRatioExtensionDictFromIFFItemProperty.cold.1 : 148 -> 60
+~ _createPixelAspectRatioExtensionDictFromIFFItemProperty.cold.2 : 124 -> 44
+~ _IFFPictureTileAccessorCreate.cold.9 : 124 -> 64
+~ _fpie_GetBooleanProperty : 152 -> 84
+~ _fpie_GetUInt32Property : 152 -> 84
+~ _FigPlayerInterstitialEventCreateFromDictionary.cold.3 : 100 -> 32
+~ _FigPlayerInterstitialEventValidate.cold.1 : 100 -> 8
+~ _FigPlayerInterstitialEventsCreateFromTaggedRangeMetadata.cold.4 : 120 -> 48
+~ _FigInterstitialCreatePropertyListsFromJSONBlockBuffer : 300 -> 236
+~ _FigInterstitialCreatePropertyListsFromJSONDataInternal.cold.4 : 120 -> 44
+~ _FigInterstitialCreatePropertyListsFromJSONDataInternal.cold.7 : 112 -> 40
+~ _FigInterstitialCreatePropertyListsFromJSONDataInternal.cold.8 : 120 -> 48
+~ _rules_attachSceneIlluminationMetadataToPixelBuffer : 684 -> 228
+~ _remoteXPCAudioEngine_GetObjectID.cold.1 : 124 -> 48
+~ _FigEndpointStreamAudioEngineRemoteXPC_Resume.cold.2 : 132 -> 56
+~ _FigPKDMSECPECryptorDecryptSampleWithFormat : 880 -> 468
+~ _FigPKDMSECPELimitedCryptorInvalidate : 296 -> 84
+~ _FigPKDMSECPELimitedCryptorFinalize : 268 -> 64
+~ _FigPKDMSECPELimitedCryptorGetExternalProtectionMethods : 292 -> 80
+~ _FigAirPlaySecureStopRouterCreateSecureStopUUID.cold.1 : 124 -> 48
+~ ___FigAirPlaySecureStopRouterRegisterSecureStopManager_block_invoke.cold.1 : 124 -> 48
+~ _FigAirPlaySecureStopRouterUpdateRecord.cold.5 : 124 -> 52
+~ ___FigAirPlaySecureStopRouterFinalizeRecordAndCommitToDisk_block_invoke.cold.1 : 124 -> 56
+~ _figTTMLDocumentWriterRubySpanBuilder_AddCaptionData.cold.2 : 120 -> 44
+~ _fapce_apply : 1044 -> 520
+~ _dataChannelResourceRemote_SetFailedToLoad.cold.1 : 124 -> 48
+~ _dataChannelResourceRemote_SetFailedToLoad.cold.3 : 124 -> 44
+~ _dataChannelResourceRemote_GetProcessingState.cold.1 : 124 -> 28
+~ _dataChannelResourceRemote_GetProcessingState.cold.3 : 124 -> 24
+~ ___figNetworkCostEnsureNetworkPathEvaluatorIfNeededAsync_block_invoke : 616 -> 324
+~ _FigContentKeySessionServerGetIDForSessionByAssociatingWithClientConnection.cold.3 : 124 -> 44
+~ _FigRemote_CopyMetadataItemWithLocaleAsCFLocale : 460 -> 220
+~ ___FigHapticEngineStartPlayerAtHostTimeWithOffset_block_invoke : 824 -> 308
+~ _FigHapticEngineCreate.cold.3 : 124 -> 48
+~ _FigHapticPlayerCreate.cold.2 : 124 -> 44
+~ _FigHapticPlayerCreate.cold.4 : 124 -> 44
+~ _fcgcfs_tx3g_addSampleBuffer : 2912 -> 2144
+~ _FigBasicAESCPECryptorDecryptEAC3.cold.2 : 124 -> 48
+~ _FigCaptionRendererCaption_FigCaptionRendererNodeProtocol_Draw.cold.1 : 108 -> 28
+~ _FigCaptionRendererCaption_FigCaptionRendererNodeProtocol_Draw.cold.7 : 124 -> 44
+~ _FigTransformUtilityCreate.cold.2 : 112 -> 308
+~ _fiit_rebuildSegmentList : 4980 -> 3960
+~ _fiit_CopyDebugDescription : 324 -> 336
+~ _fiit_updateCurrentEventID : 628 -> 472
+~ _fiit_handleScanningBoundaryFireTimeGuts : 348 -> 356
+~ _fiit_SeekToTimeWithOptions : 2388 -> 2252
+~ _fiit_initiatedSeekIntoCoordinatorDidFinish : 648 -> 352
+~ _FigItemIntegratedTimelineCreate.cold.1 : 108 -> 32
+~ _FigCPEProtectorXPCRemoteRetainCopiedCPEProtector : 612 -> 248
+~ _FigCPEProtectorRemoteCreateForScheme : 684 -> 392
+~ _remoteXPCCPEProtector_IsApplicationAuthorized : 536 -> 244
+~ _ss_didReceiveEvent : 2640 -> 2156
+~ _loopingCursorService_CreateCursorAtTrackTime : 664 -> 352
+~ __createMergedCriteria : 968 -> 532
+~ _FigMediaSelectionArrayCopyDescription : 256 -> 244
+~ __setupAutomaticMediaSelection : 664 -> 332
+~ _FigCFDictionaryAddAbsentKeysWithValues : 244 -> 236
+~ __deferredLocaleOrMediaAccessibilityDidChangeNotificationCallback.cold.1 : 36 -> 12
+~ _FigHapticRenderPipelineInvalidate : 468 -> 228
+~ _bufferQueueSource_Invalidate : 292 -> 56
+~ _bufferQueueSource_Suspend : 372 -> 80
+~ _collectorPendingSampleArray_appendSampleBuffer : 308 -> 268
+~ _collector_createMetadataBufferProvidersAndInstallTriggers.cold.1 : 124 -> 48
+~ _collector_handleMetadataBufferQueueConduitNotifications.cold.1 : 108 -> 8
+~ _pendingSampleArray_RetainCallBack.cold.1 : 108 -> 8
+~ _pendingSampleArray_ReleaseCallBack.cold.1 : 108 -> 8
+~ _figAssetExportSession_kickoffSegmentReassembly : 4296 -> 3628
+~ _figAssetExportSession_DetermineCompatibleFileTypes : 448 -> 472
+~ _figAssetExportSession_createFigRemakers_CopyError : 27172 -> 19596
+~ _figAssetExportSession_figAssetNotification.cold.2 : 108 -> 28
+~ _figAssetExportSession_maximumDuration.cold.1 : 124 -> 48
+~ _figAssetExportSession_maximumDuration.cold.2 : 124 -> 48
+~ _figAssetExportSession_getEstimatedFileLengthWithOverhead.cold.2 : 108 -> 28
+~ _figAssetExportSession_CopyProperty.cold.5 : 124 -> 48
+~ _figAssetExportSession_CopyProperty.cold.9 : 124 -> 48
+~ _figAssetExportSession_CopyProperty.cold.12 : 124 -> 48
+~ _figAssetExportSession_releaseSegmentResources.cold.1 : 252 -> 248
+~ _figAssetExportSession_createRemakerAndBeginExport.cold.1 : 124 -> 48
+~ _dataChannelGroup_createDataChannelGroup.cold.2 : 148 -> 72
+~ _dataChannelGroup_createDataChannelGroup.cold.3 : 124 -> 48
+~ _FigDataChannelGroupGetDataChannelByIndex.cold.2 : 108 -> 28
+~ _figReportingAgentUpdatePrivacyStance : 220 -> 224
+~ _figNetworkMonitorInterfaceIRATInit : 984 -> 524
+~ _FigClosedCaptionStringConformerNew.cold.1 : 124 -> 64
+~ _FigClosedCaptionStringConformerPushCommand.cold.1 : 124 -> 44
+~ _FigNetworkPredictionArbiterCreate.cold.2 : 128 -> 44
+~ _fnpa_makePrediction.cold.2 : 128 -> 44
+~ _FigCSSTokenGetTokenType.cold.1 : 112 -> 44
+~ _fraoa_CreateOfflineAirPlayReportingPayload.cold.2 : 124 -> 44
+~ _fraoa_CreateOfflineAirPlayReportingPayload.cold.3 : 124 -> 44
+~ _FigReportingAgentOfflineAirPlayCreate.cold.5 : 108 -> 24
+~ _FigPlayerResourceArbiterUnregisterConsumer.cold.1 : 124 -> 44
+~ _FigPlayerResourceArbiterUnregisterConsumer.cold.2 : 124 -> 36
+~ _FigPlayerResourceArbiterSetSpecifierForConsumer.cold.1 : 148 -> 64
+~ _FigPlayerResourceArbiterGetGlobalSingleton.cold.2 : 132 -> 44
+~ _FigPlayerResourceArbiterCreateForTestOnly.cold.1 : 124 -> 68
+~ _FigPartialSampleTableAccessorGetChunkDetailsInByteStreamOrDataSourceURL : 380 -> 264
+~ _FigPartialSampleTableAccessorCopyTranslatedFormatDescription : 380 -> 252
+~ _FigPartialSampleTableAccessorCopyChunkDetailsInTranslatedByteStreamOrDataSourceURL : 524 -> 356
+~ _fpst_writing_reserveMemoryForChangeType : 420 -> 340
+~ _FigPartialSampleTableCreateFromBlockBufferUsingTranslationCallbacks.cold.2 : 124 -> 48
+~ _fpst_accessor_stepByDecodeTimeInternal.cold.3 : 124 -> 44
+~ _FigPartialSampleTableOutOfBandObjectRegistryCreate.cold.2 : 124 -> 72
+~ _FigPartialSampleTableOutOfBandObjectRegistryLookupAndRetainObjectForID.cold.2 : 124 -> 48
+~ _FigPartialSampleTableOutOfBandObjectRegistryRegisterObjectForKnownID.cold.2 : 124 -> 48
+~ _FigPartialSampleTableOutOfBandObjectRegistryLookupOrMakeIDForObjectOfType.cold.1 : 124 -> 48
+~ _FigAgglomeratorNew.cold.1 : 120 -> 72
+~ _audioRenderer_setPropertyOnAudioRenderPipeline : 544 -> 248
+~ _audioRenderer_renderPipelineDeviceOrLatencyChanged : 356 -> 328
+~ _audioRenderer_timebaseRateChangedListener : 452 -> 240
+~ _audioRenderer_flushWithType.cold.1 : 232 -> 236
+~ _audioRenderer_setRateAndAnchorTime.cold.1 : 124 -> 48
+~ _FigSampleBufferRenderSynchronizerCentralCreate : 560 -> 244
+~ _fapu_SetParameters : 648 -> 84
+~ _FigAudioProcessingUnitCreateWithOptions.cold.1 : 124 -> 52
+~ _PKDGetSystemCPC.cold.2 : 108 -> 52
+~ _FigFramePrefetcherCreate.cold.2 : 124 -> 72
+~ _FigFramePrefetcherCreate.cold.6 : 124 -> 36
+~ _FigTTMLDocumentWriterMapPropertyToAttribute_Decoration.cold.1 : 140 -> 68
+~ _FigTTMLDocumentWriterMapPropertyToAttribute_FontFamily.cold.1 : 120 -> 48
+~ _remoteXPCFigCaptionGroupConverter_CreateConverter : 984 -> 476
+~ _remoteXPCFigCaptionGroupConverter_AddSampleBuffer : 336 -> 252
+~ ___remoteXPCFigCaptionGroupConverterClient_EnsureClientEstablished_block_invoke.cold.1 : 116 -> 36
+~ _sbp_tmf_setProperty.cold.1 : 124 -> 48
+~ _flom_subtitleRenderPipelineDidProduceStringsDo : 688 -> 472
+~ _FigSpeedRampRenderPipelineCreate.cold.2 : 288 -> 52
+~ _speedramp_remapAndTransferSampleBuffersUpToHighWaterLevel.cold.2 : 124 -> 60
+~ _figTTMLIntervalTreeInsert : 496 -> 420
+~ _fragManifold_PushBytes : 10484 -> 11816
+~ _fragManifold_SelectEligibleTrackForEmitting.cold.1 : 124 -> 48
+~ _customVideoCompositor_AnticipateRendering : 640 -> 244
+~ _customVideoCompositor_PrerollForRendering : 664 -> 252
+~ _customVideoCompositor_RenderFrameFromWindow.cold.3 : 128 -> 48
+~ _customVideoCompositor_RenderFrameFromWindow.cold.6 : 124 -> 44
+~ _customVideoCompositor_RenderFrameFromWindow.cold.7 : 124 -> 44
+~ _updateTimedSamplesForTracksWithXPCReducedSamples.cold.5 : 124 -> 72
+~ _updateTimedSamplesForTracksWithXPCReducedSamples.cold.6 : 148 -> 48
+~ _remoteVideoCompositor_GetObjectID.cold.2 : 124 -> 48
+~ _releaseAssignAndDeepCopySourceTimedSamplesForTrackIDs.cold.1 : 108 -> 28
+~ _VCServerRenderFrameFromWindowWithSourceSampleSeed.cold.1 : 40 -> 20
+~ _FigVTTStringifyFigGeometryPointAndAppend.cold.1 : 112 -> 44
+~ _FigVTTCopyCMTimeAsTimeStamp.cold.1 : 148 -> 76
+~ _FigVTTCGColorCopyVTTColorAttributeValueAsCSSColorSyntax.cold.1 : 96 -> 24
+~ _FigVTTDocumentWriterMapPropertyToAttribute_Decoration.cold.1 : 140 -> 68
+~ _FigVTTDocumentWriterMapPropertyToAttribute_FontFamily.cold.1 : 120 -> 48
+~ _FigAudioSessionClockCreateFromClockConfigurationAndAuditToken : 452 -> 248
+~ _FigAudioSessionClockCreateFromClockConfigurationAndExistingFigAudioSession.cold.3 : 124 -> 36
+~ _audioSessionClock_getRateAndNanosecondTimeAndHostTime.cold.1 : 124 -> 44
+~ _figVTTDocumentWriterForVTT_CreateAndAddNode.cold.2 : 120 -> 48
+~ _FigHTTPCreateTimer.cold.1 : 124 -> 48
+~ _FigCFHTTPCopyQueryParams.cold.1 : 108 -> 32
+~ _FigCFHTTPCopyQueryParams.cold.2 : 108 -> 28
+~ _FigCFHTTPCreateURLWithQueryParam.cold.2 : 124 -> 48
+~ _sc_RestorePersistentStoreLockStatus : 312 -> 80
+~ _stream_DowngradePersistentStreamInfoForReading : 684 -> 268
+~ _segment_LockDuplicateMediaSegments : 564 -> 248
+~ _segment_UpdateAndUnlockDuplicateMediaSegments : 556 -> 252
+~ _stream_UpgradePersistentStreamInfoForWriting : 664 -> 248
+~ _sc_GetShouldDemandWriteAccessForStreamInfoCreation : 376 -> 264
+~ _stream_CommitPersistentStreamInfoIfNecessary : 360 -> 232
+~ _sc_UnlockPersistentStoreForAnything : 676 -> 248
+~ _segment_SortByURLAndStartOffset : 320 -> 236
+~ _sc_WriteMediaMapToDiskDispatchFunction.cold.2 : 124 -> 48
+~ _sc_DeleteMediaMapFromDiskDispatchFunction.cold.1 : 108 -> 60
+~ _sc_writeMetadataToDisk.cold.3 : 124 -> 44
+~ _stream_SetNeedsToCommitPersistentStreamInfo.cold.1 : 124 -> 48
+~ _FigStreamingCacheMediaSegmentCopyBytes.cold.3 : 124 -> 48
+~ _FigStreamingCacheMediaSegmentAppendBytes.cold.4 : 124 -> 48
+~ _FigStreamingCacheMediaSegmentAppendBytes.cold.5 : 52 -> 48
+~ _FigStreamingCacheMediaSegmentAppendBytes.cold.6 : 124 -> 52
+~ _FigStreamingCacheMediaSegmentMarkComplete.cold.1 : 124 -> 252
+~ _FigStreamingCacheMediaSegmentUnlock.cold.2 : 124 -> 48
+~ _sc_SendDiskWriteErrorNotification.cold.1 : 108 -> 28
+~ _sc_RestoreMediaMapsFromDiskApplierFunction.cold.3 : 124 -> 48
+~ _sc_RestoreMediaMapsFromDiskApplierFunction.cold.4 : 124 -> 48
+
+Functions (added):
++ _iffpcw_AddExifToPictureWithIDOut
++ _ttmlFormatReader_createFormatDescriptionArray
++ _fpfsi_EmptyTimeToCompleteBestEffortTrickplayModeQueue
++ _fpfsi_LastAudioNonSparseSampleEnd
++ _fpfs_UpdateSubStreamRoleInPumpFunc
++ sub_19406de1c
++ sub_19406ecb8
++ _audioRendererCentral_Finalize
++ _itemfig_ExternalProtectionStatusChangedGuts
++ _FigAlternateCopyArrayOfAlternatesAsXPCObject
++ _FPSupport_SetTransientTimebaseForCoordinatedPlaybackSynchronization
++ _FigRemote_CreateCommonMetadataFromBinaryPListData
++ _FigFormatReaderXPCRemoteCopyFormatReaderForObjectIDFromOtherProcess
++ _remoteFormatReader_GetTrackCount
++ _videoTarget_createFigDataQueue
++ ___playerairplay_handleSetProperty_block_invoke.225
++ ___playerairplay_initializeCallbacks_block_invoke_7
++ ___figHTTPSetActivelyUsingNetwork_block_invoke_2
++ _segPumpSaveCryptKeyToCache
++ _collector_handleInputQueueBecomesNonEmptyTrigger
++ _OUTLINED_FUNCTION_18
++ _cclayout_warnAboutUnhandledKeyInDictionary
++ _MTEnableCaption2015Behavior
++ sub_1944945d4
++ sub_1944b4ee0
++ sub_1944ff070
++ sub_194598450
++ sub_1945acc44
++ sub_194615330
++ sub_19461536c
++ [3 functions added in block]
++ [3 functions added in block]
++ [7 functions added in block]
++ [10 functions added in block]
++ sub_194626954
++ sub_19463136c
++ sub_194638bb4
++ sub_19463a6fc
++ sub_194649400
++ sub_19464ea94
++ sub_194658f84
++ sub_194679fd0
++ sub_19467a798
++ sub_19467ff24
++ [4 functions added in block]
++ _xmlCopyHLSMoviePackageType.cold.2
++ _weakReferenceTable_CopyPointerFromKey.cold.1
++ [3 functions added in block]
++ _FigCaptionRendererTTMLRegion_FigCaptionRendererNodeProtocol_Draw.cold.2
++ _FigCaptionRendererNotificationInputCreate.cold.2
++ ___FigCPEOctaviaPKDMovieIDCreateCommon_block_invoke.cold.1
++ _customVideoCompositor_RenderFrameFromWindow.cold.8
++ _FigTimedMetadataRenderPipelineCreate.cold.1
++ _FigTimedMetadataRenderPipelineCreate.cold.3
++ _tdrp_pipelineCallback.cold.3
++ _tdrp_BuildID3Dictionary.cold.2
++ [3 functions added in block]
++ _FigSessionDataSpecifierCreate.cold.2
++ _FigBufferedAirPlayOutputProxyCreate.cold.2
++ _fbapop_deRegisterRenderPipeline.cold.1
++ _fcks_remote_getObjectID.cold.2
++ _fcks_remote_getObjectID.cold.3
++ _fcks_remote_addChildSession.cold.2
++ _octtextrp_CreateRenderPipelineCommon.cold.1
++ _octtextrp_CreateRenderPipelineCommon.cold.2
++ _FigSubtitleSampleInsertInfoForRenderer.cold.2
++ _FigCaptionRendererLayoutContextSetSubtitleSample.cold.1
++ _tfbGetTrackRunAtIndex.cold.1
++ _writeStringAttributeWithNamespace.cold.1
++ _iffpcw_AddExifToPictureWithIDOut.cold.1
++ _serverXPCCoordinator_handleEndSuspensionProposingNewTime.cold.1
++ _serverXPCCoordinator_handleAsyncReloadCompletion.cold.2
++ _cea708_SetProperty.cold.2
++ [3 functions added in block]
++ [3 functions added in block]
++ _ParseReferenceMovieDataRefAtom.cold.1
++ _surrogatePlayer_startPrerollInternal.cold.1
++ [5 functions added in block]
++ _MovieSampleDataWriterAppendHeader.cold.1
++ [3 functions added in block]
++ __ZL38AudioFileStreamStartupPropertyListenerPvP23OpaqueAudioFileStreamIDjPj
++ __ZL25FigIcyManifoldSetPropertyP18OpaqueCMBaseObjectPK10__CFStringPKv.cold.2
++ _fcks_setProperty.cold.1
++ _fcks_setProperty.cold.9
++ _fcks_setProperty.cold.4
++ _fcks_setProperty.cold.6
++ _fcks_invokePersistentKeyUpdatedCallbackAsync.cold.1
++ _assetWriter_CopyTrackProperty.cold.4
++ [6 functions added in block]
++ [5 functions added in block]
++ _assetWriter_AddTaggedBufferGroup.cold.3
++ [4 functions added in block]
++ _webVTTReadPercentageXandY.cold.1
++ _figTTMLRootConsumeChildNode.cold.1
++ _remoteXPCAIG_GetObjectID.cold.2
++ _crabsSelectNextFill.cold.1
++ [4 functions added in block]
++ _FigTTMLFormatReaderCreateFromStream.cold.3
++ _ttmlFormatReader_CopyTrackByIndex.cold.1
++ _ttmlSampleCursorCreate.cold.2
++ _fpm_prepareDataRateProfile.cold.2
++ [5 functions added in block]
++ [4 functions added in block]
++ _octrp_setTimebase.cold.1
++ _itemfig_configureDownloadForItem.cold.4
++ _cclcpccvAppendCaptionDataWithSameTimeRange.cold.2
++ [3 functions added in block]
++ _VMC2MakeOutputCallbacksForImageQueueArray.cold.4
++ _VMC2MakeOutputCallbacksForImageQueueArray.cold.5
++ _faq_startObsoleteAudioQueues
++ [5 functions added in block]
++ _vmc2InvokeOutputCallback_InstallOccupancyChangedCallback
++ [8 functions added in block]
++ [3 functions added in block]
++ -[FigScreenCaptureController startCapture].cold.1
++ _webVTTPushTag.cold.1
++ _FigImageQueueGaugeXPCRemoteStartAsSubClient.cold.1
++ _FigImageQueueGaugeXPCRemoteStartAsSubClient.cold.2
++ _streamModeratorProcessEventAndCopyKeyArray
++ _fsrm_reportAggregatedTimeWeightedStats
++ _mutableCompositionServer_checkSourceURLAccess.cold.1
++ _fpfsi_GetPumpMaxTimeAvailable
++ _fpfsi_PlaybackHasBufferedBeyondReverseEndTime
++ _fpfsi_PlaybackHasBufferedBeyondTime
++ _fpfs_ScanningBoundaryTimerProc
++ _fpfs_CreateNotificationPayloadForProperties
++ _fpfs_SetRateOnTrack
++ _fpfs_CheckVideoSyncQueue
++ _fpfs_PushSampleBuffer
++ _fpfs_RecommendedPrebufferReservationNote
++ _fpfs_deferredSuggestedAlternateNote
++ _fpfsi_UpdateValidAlternateListAndEvaluateCurrentAlternateAgaintValidAlternateList
++ _fpfsi_highSpeedHighPowerTransportChangedCallback
++ _fpfs_needsMoreTimerProc
++ _fpfs_UpdatePlayerOverrideForAllItems
++ _fpfs_RemoveExternalStartupTask
++ _fpfsi_markerBufferConsumed.cold.2
++ _fpfs_enqueuePrerollWasCancelledNotificationIfNeeded.cold.1
++ _playerfig_scheduleVideoSlotAndVideoTargetConfigurationSwitchAndPossiblyStartBossForNextItem.cold.2
++ _surrogatePlayer_handleSetProperty.cold.8
++ _fpfs_SetAlternateWithContext.cold.1
++ _fpfsi_MakeNextItemReadyForInspectionIfItemEndedOrBeyondFwdEnd.cold.1
++ _fpfsi_MakeNextItemReadyForInspectionIfItemEndedOrBeyondFwdEnd.cold.5
++ _fpfs_createMetadataRenderChainForDataQueue.cold.1
++ _fpfs_ranDryTimerProc.cold.3
++ _fpfsi_ConfigurePlaybackMonitorForBandwidthCap.cold.1
++ _fpfs_BytePumpFn.cold.1
++ _fpfs_BytePumpFn.cold.2
++ _fpfs_NewTrackNote.cold.1
++ _fpfs_NewTrackNote.cold.6
++ _fpfs_externalStartupTaskCompleted.cold.1
++ _fpfsi_SeekToDateWithID.cold.2
++ _fpfs_handleSetProperty.cold.28
++ _fpfs_AddToPlayQueue.cold.3
++ [3 functions added in block]
++ _manifoldServer_pushSampleBufferCallback
++ ___FigManifoldStartServer_block_invoke.cold.1
++ [3 functions added in block]
++ _itemasync_postItemStatusChanged.cold.1
++ ___audioRendererCentral_SetProperty_block_invoke
++ ___audioRendererCentral_SetProperty_block_invoke_2
++ _playerfig_createNotificationPayloadForProperties
++ _itemfig_getTrackStorage
++ _itemfig_applyLoudnessInfo
++ _itemfig_rebuildRenderPipelinesAndBossGuts
++ _itemfig_ReportAudioPlaybackThroughFigLog
++ _playerfig_clearVideoLayers
++ _itemfig_hasEnqueuedFirstVideoFrame
++ _playerfig_DeferredSynchronousFrameEnqueued
++ _itemfig_updatePriorImageQueueGaugeOnRenderPipelines
++ _itemfig_reportingAgentReportEnqueueTime
++ _itemfig_createUpdatedExtractionTable.cold.3
++ [3 functions added in block]
++ _playerfig_UpdateAudioSessionPreferredDeviceSampleRate.cold.1
++ _playerfig_scheduleVideoSlotAndVideoTargetConfigurationSwitchAndPossiblyStartBossForNextItem.cold.1
++ _playerfig_deferredLatencyChanged.cold.1
++ _playerfig_handleSetProperty.cold.3
++ _playerfig_handleSetProperty.cold.5
++ _playerfig_handleSetProperty.cold.7
++ _playerfig_rebuildRenderPipelines_disturbIfInLameDuckGap.cold.2
++ _playerfig_RemoveFromPlayQueue.cold.4
++ _itemfig_handleSetProperty.cold.6
++ _itemfig_handleSetProperty.cold.10
++ _itemfig_handleSetProperty.cold.11
++ [5 functions added in block]
++ [3 functions added in block]
++ _ckbremote_setProperty.cold.2
++ _ckb_transitionRequestToTerminalState
++ _ckb_httpReadCallback
++ _ckb_createRequestDataDispatch
++ _ckb_associateRequestWithGroupDispatch
++ _ckb_startRequest.cold.1
++ _ckg_setRequest.cold.4
++ [11 functions added in block]
++ _remoteXPCPlaybackCoordinator_EndSuspensionProposingNewTime
++ _remoteXPCPlaybackCoordinator_SetWeakMediumAndCallbacks
++ _remoteXPCPlaybackCoordinator_GetExpectedTimeAtHostTime
++ _remoteXPCPlaybackCoordinator_SetProperty.cold.1
++ _CopyAudioFileStreamDuration.cold.2
++ _FigDataChannelResourceServer_CreateServedState.cold.2
++ _FigDataChannelResourceServer_CreateServedState.cold.5
++ _FigByteFlumeCreateReportingAgent
++ _FigByteFlumePostConnectionToHostLostNotification.cold.1
++ _CreatePlaylistFileParserFromDataInProcess.cold.1
++ _CreatePlaylistFileParserFromDataInProcess.cold.2
++ _FigFormatReaderUtilityEstablishCombinedDataRateProfileForTracksCommon
++ _FigGetNotifyingObjectForSupportedFormatsChanged.cold.1
++ _audioRendererAirPlay_routingContextRouteChangedListener
++ _FigTTMLDocumentWriterRegionTimelineCreate.cold.1
++ [3 functions added in block]
++ [3 functions added in block]
++ _FigXPCSampleBufferConsumerServerAssociateNeighborFigSampleBufferConsumer
++ _FigXPCSampleBufferConsumerServerAssociateCopiedNeighborFigSampleBufferConsumer
++ [3 functions added in block]
++ ___FigJSONParserStartServer_block_invoke.cold.1
++ ___fjp_ensureClientEstablished_block_invoke.cold.1
++ _assetDownloaderServer_didFinishLoadingMetadata
++ _dworch_sendProgressUpdateCallback
++ _dworch_assetNotificationCallback
++ _dworch_sendDidChangeLoadedTimeRangeCallback
++ _dworch_selectAlternates_start
++ _dworch_selectAlternates_pause
++ [4 functions added in block]
++ _dworch_selectAlternates_bytePumpFn
++ _dworch_selectAlternates_gotAlternates
++ _dworch_selectAlternates_bytePumpFnOnQueue
++ _dworch_sendWillDownloadAlternatesCallback
++ _dworch_selectAlternates_evaluateAndCopyAlternateWithQualifiers
++ _dworch_persistMetadata_stageComplete
++ _dworch_setLastTimestampClientDidPauseOnContentSteeringMonitor
++ _dworch_pauseDispatch
++ _dworch_copyNextTrimmedLogFromString
++ [4 functions added in block]
++ _dworch_downloadMedia_downloadSucceededCallback.cold.4
++ [4 functions added in block]
++ [3 functions added in block]
++ _dworch_downloadMedia_gotAccessToDestinationURLCallback.cold.1
++ _dworch_downloadMedia_gotAccessToDestinationURLCallback.cold.3
++ _dworch_setPropertyDispatch.cold.3
++ [3 functions added in block]
++ _sgffr_createSampleBufferAtCursorUsingBatch.cold.1
++ [3 functions added in block]
++ _figSampleGeneratorBatch_Commit.cold.3
++ _downloadContentConfig_deserializeAndCopyContentConfig
++ _downloadConfig_deserializeAuxContentConfigsGuts.cold.1
++ [6 functions added in block]
++ _metadw_createMetadataDownloadItemForMetadataTextIfDoesNotExistAndAddToQueue
++ _metadw_createResourceRequestForMetadataItem
++ _metadw_pauseDispatch
++ _metadw_sendDownloadSucceededCallbackOnCallbackQueue.cold.1
++ _FigCreateHLSfMP4SecurityInfoData
++ _hlsfmp4_ParseChildAtoms
++ [3 functions added in block]
++ _videoMentorPostCollectorCoherenceConduitNotification
++ _videoMentorThread.cold.1
++ _videoMentorThreadReversePlayback.cold.6
++ _videoMentorThreadReversePlayback.cold.9
++ _videoMentorGetCursorPTSRange.cold.1
++ _videoMentorRefreshGroupCreate.cold.1
++ _videoMentorThrottleDroppableFrames.cold.3
++ _FigAudioQueueTimingShimFlush
++ _FigAudioQueueTimingShimPrime
++ _FigAudioQueueTimingShimConvertTimingShimTimeToAQTime
++ _FigAudioQueueTimingShimStartAsync
++ _FigAudioQueueTimingShimStart
++ [9 functions added in block]
++ _editMentorConsolidateCurrentEdit.cold.1
++ _FigSampleBufferRenderSynchronizerCreateRemoteWithOptions
++ _synchronizerRemote_Finalize
++ [4 functions added in block]
++ _synchronizerRemote_getObjectID.cold.1
++ _CreateChaptersFromAudioFileChapterList
++ _ensureAllocationOfPacketDescriptions.cold.1
++ _snippetCursorService_CreateCursorAtTrackTime
++ _snippetCursor_GetEditSegment.cold.1
++ _FigStreamingAssetLoaderRequestSessionKeys
++ _sapl_loadMediaPlaylist.cold.1
++ _FigStreamingAssetPropertyLoaderCreate.cold.2
++ _FigStreamingAssetPropertyLoaderCreate.cold.3
++ _sapl_playlistDidProduceDataOutput.cold.1
++ _FigPlaybackItemLogCreateW3CLogData.cold.1
++ _FigRemote_CreateCommonMetadataFromBinaryPListData.cold.2
++ _FigAlternateSetLastKnownValueForIsFullyCached
++ _FigAlternateHasBinauralAudio.cold.1
++ _fa_ensureSerializationContextAndCopyMediaGroupForCache.cold.2
++ _bossBuildMentorForTrack
++ _figPlaybackBoss_VideoCompositionProcessorPrerollComplete
++ _bossScheduleAdvanceForOverlappedPlaybackCallbackForTime
++ [5 functions added in block]
++ _bossTrackChangesDuringPlaybackRequireVCPUpdate.cold.1
++ _FigReportingStatsSetValue
++ _FigReportingStatsCopyAsCFTypeAndAppendToArray
++ _FigTTMLDocumentWriterStateSetAttribute.cold.1
++ _FigUserExperienceScorerCreate.cold.2
++ [3 functions added in block]
++ _figAudioQueueRenderPipelineReset
++ _FigOctaviaVideoRenderPipelineCreateWithFigImageQueueArray.cold.2
++ _FigPlaybackTimerCreate.cold.2
++ _FigPlaybackTimerCancel.cold.2
++ [4 functions added in block]
++ _figVideoRenderPipelineUpdateImageQueues
++ _figVideoRenderPipelineCopyFigImageQueueAndOptionsArrayGroupedByVideoLayerID.cold.9
++ _videopipelineHandleImageQueueCompletedRendererPreparationForPrerollNotification.cold.2
++ _synchronizerServer_lookupAndRetainSBRSByObjectIDForConnection.cold.1
++ _FigCaptionRendererSessionUpdateCGContext
++ _clearRLODo
++ _FigCaptionRendererSessionCopyCaptionImages
++ _playbackItemChangedCallbackDo
++ _composeSceneDo
++ _FPSupport_ReportAlgosScoreToSymptomLog
++ _FPSupport_CopyAndCheckClientOnAllowListForPrefDomainKey.cold.1
++ _remoteXPCItem_copyOwningPlayer
++ _remoteXPCItem_TimebaseSynchronizationUpdate
++ _remoteXPCMutableMovie_SetTrackProperty.cold.3
++ _remoteXPCMutableMovie_InsertSegmentFromTrackReader.cold.2
++ __ZL21wvmManifoldInjectDataP17OpaqueFigManifoldxjP19OpaqueCMBlockBuffer.cold.4
++ _FigMetricItemPlaybackSummaryEventCreate.cold.1
++ _mes_setSessionID.cold.1
++ _boxedreader_HasKey.cold.2
++ __deferredMediaAccessibilityDidChangeNotificationCallback.cold.1
++ _sccFormatWriter_SetProperty
++ _SampleGroupTypeSpecLookupApplierFunction.cold.1
++ _MovieSampleGroupAccessorCopyDescriptionForSample.cold.1
++ _itemairplay_setItemTextMarkupArray
++ ___playerairplay_SetConnectionActive_block_invoke_3
++ _itemairplay_setPositionCompletionHandler.cold.1
++ _itemairplay_playMediaCompletionHandler.cold.2
++ _playerairplay_mediaControlHandleTypeCurrentItemChanged.cold.1
++ _itemairplay_StartKeyExchangeAndCreateKeyResponseForAirPlay.cold.3
++ ___playerairplay_handleSetProperty_block_invoke_2.cold.1
++ ___playerairplay_handleSetProperty_block_invoke_11.cold.1
++ _playerairplay_postIsBufferedAirPlayActiveDidChangeNotification.cold.2
++ ___playerairplay_initializeCallbacks_block_invoke_9.cold.1
++ _remoteByteStream_localCachedFileByteStream_CacheChangeNotification
++ __ZL23MPEG2ManifoldInjectDataP17OpaqueFigManifoldxjP19OpaqueCMBlockBuffer.cold.4
++ _figTTMLLayoutConsumeChildNode.cold.1
++ _vdms_pumpTransferCallback
++ _vdms_reevaluateProcessingStateAndNotify.cold.4
++ _vdms_deferredAssetPropertyLoadedCallback.cold.5
++ _figVTTDocumentWriterForVTT_CreateAndAddNode.cold.5
++ ___fvdp_copyWritebackPixelBuffer_block_invoke.443
++ [3 functions added in block]
++ _playerairplayroute_updateRoutingRegistryInternal.cold.1
++ _qtitunes_FigMetadataConverterCreateConvertedItem
++ _FigCryptSetIV.cold.1
++ _dqs_SendLowWaterMarkCallback.cold.2
++ _FigConvertCSSStyleSheetDataToTextMarkup.cold.3
++ _FigConvertCSSStyleSheetDataToTextMarkup.cold.4
++ _segPumpGetNetworkLatencyFromPredictor
++ _segPumpModifyErrorActionIfCurrentAlternateIsLastValidAlternate.cold.1
++ _segPumpStreamProceedAfterMediaAndKeyArrival.cold.2
++ _segPumpMediaFileCreateDecryptedData.cold.4
++ _figTTMLStyling_ConsumeChildNode.cold.1
++ _audioSessionMXSession_RequestConfigurationForProperty
++ ___figStorageManagerEnsureCacheDeleteIsLoaded_block_invoke
++ -[FigNSURLSession acquireAssertion].cold.1
++ _fpic_CopyEventsWithOfflineURLsIfNecessary.cold.2
++ ___fpic_EnsureNextEventWillBuffer_block_invoke.120.cold.1
++ [3 functions added in block]
++ _videoReceiverRemote_ProvideDataChannelResourcePayload
++ _videoReceiverRemote_SetProperty.cold.2
++ [3 functions added in block]
++ _sanityCheckImageItem
++ ___56-[FigCoreTelephonyServiceConnection deregisterListener:]_block_invoke.cold.1
++ _FigTransformUtilityCreate.cold.3
++ _FigNeroidCreateLocal.cold.1
++ _figAssetExportSession_createCFError
++ _FigAssetExportSessionTrackExportPolicy_GetPassthroughExportPolicy.cold.1
++ _FigAssetExportSessionTrackExportPolicy_GetPassthroughExportPolicy.cold.2
++ _channelgroup_createFromDictionary.cold.4
+
+Functions (removed):
+- _fpfs_PushSampleBuffer
+- _fpfs_BytePumpFn
+- _fpfsi_handleSetProperty
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_66
+- _OUTLINED_FUNCTION_189
+- _OUTLINED_FUNCTION_197
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_208
+- _OUTLINED_FUNCTION_234
+- _OUTLINED_FUNCTION_214
+- _OUTLINED_FUNCTION_229
+- _OUTLINED_FUNCTION_230
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_89
+- _OUTLINED_FUNCTION_260
+- _OUTLINED_FUNCTION_270
+- [9 functions removed in block]
+- _OUTLINED_FUNCTION_369
+- _OUTLINED_FUNCTION_370
+- _OUTLINED_FUNCTION_374
+- _OUTLINED_FUNCTION_375
+- _OUTLINED_FUNCTION_53
+- _OUTLINED_FUNCTION_384
+- _OUTLINED_FUNCTION_413
+- _OUTLINED_FUNCTION_448
+- _OUTLINED_FUNCTION_546
+- _OUTLINED_FUNCTION_490
+- _OUTLINED_FUNCTION_494
+- _OUTLINED_FUNCTION_496
+- _OUTLINED_FUNCTION_499
+- _OUTLINED_FUNCTION_502
+- _OUTLINED_FUNCTION_509
+- _OUTLINED_FUNCTION_65
+- _OUTLINED_FUNCTION_517
+- _OUTLINED_FUNCTION_520
+- _OUTLINED_FUNCTION_521
+- _OUTLINED_FUNCTION_525
+- _OUTLINED_FUNCTION_530
+- _OUTLINED_FUNCTION_532
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_541
+- _OUTLINED_FUNCTION_545
+- _OUTLINED_FUNCTION_548
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_571
+- [3 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_587
+- _OUTLINED_FUNCTION_588
+- [3 functions removed in block]
+- [8 functions removed in block]
+- _OUTLINED_FUNCTION_603
+- _OUTLINED_FUNCTION_604
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_620
+- _OUTLINED_FUNCTION_622
+- _OUTLINED_FUNCTION_623
+- _OUTLINED_FUNCTION_625
+- _OUTLINED_FUNCTION_633
+- _OUTLINED_FUNCTION_635
+- [10 functions removed in block]
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_671
+- _OUTLINED_FUNCTION_672
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_683
+- _OUTLINED_FUNCTION_685
+- _OUTLINED_FUNCTION_687
+- _OUTLINED_FUNCTION_973
+- [3 functions removed in block]
+- [8 functions removed in block]
+- [12 functions removed in block]
+- [3 functions removed in block]
+- [7 functions removed in block]
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_740
+- [8 functions removed in block]
+- [7 functions removed in block]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_766
+- [54 functions removed in block]
+- [169 functions removed in block]
+- _OUTLINED_FUNCTION_1006
+- _OUTLINED_FUNCTION_1007
+- [29 functions removed in block]
+- [8 functions removed in block]
+- [18 functions removed in block]
+- sub_194344084
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_562
+- _itemfig_createRenderTriplesForVideo
+- _itemfig_updateStartHostTimeEstimate
+- _playerfig_transferItemToOverlappedOutroAndRemoveFromPlayQueue
+- _playerfig_getNextPlaybackState
+- _fp_createCommonRenderPipelineOptionsForTrack
+- _itemfig_DeferredLikelyToKeepUp
+- _playerfig_removeExcessImageQueuesAndSlotsFromAllWorkingOrLameDuckItems
+- _playerfig_gracefullyAddImageQueues
+- _playerfig_maybeUndoQueueingForItem
+- [3 functions removed in block]
+- _itemfig_CopyCommonMetadata
+- sub_1943a1584
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_34
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_61
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_83
+- _OUTLINED_FUNCTION_92
+- _OUTLINED_FUNCTION_94
+- _OUTLINED_FUNCTION_96
+- _OUTLINED_FUNCTION_100
+- _OUTLINED_FUNCTION_106
+- _OUTLINED_FUNCTION_107
+- _OUTLINED_FUNCTION_53
+- [19 functions removed in block]
+- _OUTLINED_FUNCTION_150
+- _OUTLINED_FUNCTION_151
+- [3 functions removed in block]
+- [6 functions removed in block]
+- [8 functions removed in block]
+- _OUTLINED_FUNCTION_201
+- [3 functions removed in block]
+- [5 functions removed in block]
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_234
+- _OUTLINED_FUNCTION_240
+- [8 functions removed in block]
+- _OUTLINED_FUNCTION_261
+- _OUTLINED_FUNCTION_263
+- [9 functions removed in block]
+- _OUTLINED_FUNCTION_283
+- _OUTLINED_FUNCTION_284
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_304
+- _OUTLINED_FUNCTION_308
+- _OUTLINED_FUNCTION_313
+- _OUTLINED_FUNCTION_314
+- _OUTLINED_FUNCTION_316
+- _OUTLINED_FUNCTION_523
+- [11 functions removed in block]
+- [6 functions removed in block]
+- [7 functions removed in block]
+- [3 functions removed in block]
+- [25 functions removed in block]
+- _OUTLINED_FUNCTION_413
+- [3 functions removed in block]
+- [9 functions removed in block]
+- _OUTLINED_FUNCTION_88
+- [4 functions removed in block]
+- [9 functions removed in block]
+- [5 functions removed in block]
+- [17 functions removed in block]
+- [20 functions removed in block]
+- _OUTLINED_FUNCTION_514
+- _OUTLINED_FUNCTION_516
+- _OUTLINED_FUNCTION_518
+- [11 functions removed in block]
+- [12 functions removed in block]
+- [8 functions removed in block]
+- _OUTLINED_FUNCTION_569
+- _OUTLINED_FUNCTION_570
+- _OUTLINED_FUNCTION_574
+- _OUTLINED_FUNCTION_575
+- _ckb_processRequestViaNextHandler
+- _FigVirtualDisplaySourceMovieCreate
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_24
+- _audioMentorThreadForwardOrReversePlayback
+- _audioRendererAirPlay_SetProperty
+- _enumCaptions_applierFunc
+- _addOneCaptionToInput
+- _OUTLINED_FUNCTION_66
+- _FigStreamingAssetDownloadOrchestratorCreate
+- _OUTLINED_FUNCTION_79
+- _OUTLINED_FUNCTION_63
+- _OUTLINED_FUNCTION_66
+- _OUTLINED_FUNCTION_82
+- _OUTLINED_FUNCTION_86
+- _sgffr_createSampleBufferAtCursorUsingBatch
+- _FigStreamingAssetMetadataDownloaderCreate
+- sub_1943e3b88
+- _OUTLINED_FUNCTION_24
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_28
+- _videoMentorThreadReversePlayback
+- _OUTLINED_FUNCTION_92
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_30
+- _OUTLINED_FUNCTION_54
+- _OUTLINED_FUNCTION_62
+- _OUTLINED_FUNCTION_72
+- _OUTLINED_FUNCTION_74
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_88
+- [7 functions removed in block]
+- [6 functions removed in block]
+- [4 functions removed in block]
+- [5 functions removed in block]
+- [13 functions removed in block]
+- sub_1943f6490
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_26
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_48
+- [4 functions removed in block]
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_86
+- _OUTLINED_FUNCTION_87
+- _editMentorAdvanceToNextEdit
+- _editMentorConsolidateCurrentEdit
+- _OUTLINED_FUNCTION_13
+- _FigAudioFileCursor_copyProperty
+- _sapl_loadPlaylist
+- _FigPlaybackItemLogCreateW3CLogData
+- _FigAlternateGetVideoRangeString
+- sub_1944070a4
+- _FigPlaybackBossRemoveAndAddTracks
+- _figPlaybackBossPrerollCompleted
+- _bossScheduleAdvanceForOverlappedPlaybackCallbackForRate
+- _figPlaybackBossSetRateToNonZero
+- _FigPlaybackBossStartPreroll
+- _bossSetMentorPropertiesForRate
+- _FigPlaybackBossPrerollAndScheduleGaplessStart
+- _FigPlaybackBossStepByCount
+- _FigPlaybackBossSendSamplesForTimeRange
+- _FigPlaybackBossCopyTrackPerformanceDictionary
+- _figPlaybackBoss_waitForCompletionOfPhase1AndStartPhase2
+- _bossScheduleReachedEndCallbackUsingRenderPipelineQueueEndPTS
+- _figPlaybackBoss_renderPipelineLostDecoderState
+- _bossUsingEditCursorServiceArrayFindNextNonEmptyTrackTime
+- _figPlaybackBoss_timebaseRateChangedDeferredWork
+- _bossGetPresentationTimeAfterSampleCursorStepping
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_30
+- _OUTLINED_FUNCTION_35
+- _OUTLINED_FUNCTION_40
+- _OUTLINED_FUNCTION_43
+- _OUTLINED_FUNCTION_45
+- _OUTLINED_FUNCTION_47
+- sub_194426ae0
+- sub_194426ba8
+- sub_194426ee4
+- _FigReportingStatsDump
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_41
+- _OUTLINED_FUNCTION_39
+- _OUTLINED_FUNCTION_46
+- ___FigUserExperienceReportRateChange_block_invoke
+- _OUTLINED_FUNCTION_98
+- _FigGaplessInfoCreateSegmentDataForTrack
+- _OUTLINED_FUNCTION_8
+- _figVideoRenderPipelineCopyFigImageQueueAndOptionsArrayGroupedByVideoLayerID
+- _videopipelineHandleCompletedDecodeForPrerollNotification
+- _videopipelineHandleImageQueueCompletedRendererPreparationForPrerollNotification
+- _figVideoRenderPipelineUpdateImageQueues
+- _OUTLINED_FUNCTION_8
+- _fcrSessionSetCGContextDeviceDo
+- _getOutputNodeLayout
+- _onAnimationTimerTimeout
+- _purgeCaptionCachesFromCaptionsTimeline
+- _onViewportChangedDo
+- [3 functions removed in block]
+- _renderCaptionDo
+- _onCaptionInputDo
+- _onRegionInputDo
+- _updateDisplayPortDoAsync
+- _OUTLINED_FUNCTION_43
+- _OUTLINED_FUNCTION_44
+- _figSubtitleRenderPipelineSetProperty
+- _fpSupport_SetupMediaValidatorPlist
+- _FPSupport_CopyDestinationPixelBufferAttributesWithIOSurfaceSupport
+- _FPSupport_GetClosestCommonRefreshIntervalForRate
+- _FPSupport_updateClosedCaptionLayerBounds
+- _FPSupport_updateClosedCaptionLayer
+- _FPSupport_createRenderPipelineOptions
+- _FPSupport_GetCurrentDisplayModeVideoRangeAndSizeAndFrameRate
+- _FPSupport_CreateAllVideoRangesSupportedByDisplays
+- _FPSupport_GetBestDisplayInfoForDisplay
+- _fps_callUpdateLayerTransform
+- _FPSupport_CreateFigTagCollectionFromFormatDescriptionExtensions
+- _saig_Invalidate
+- _saig_SetAlternate
+- _saig_NewTrackNote
+- sub_19445b730
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_24
+- _OUTLINED_FUNCTION_29
+- _OUTLINED_FUNCTION_45
+- _OUTLINED_FUNCTION_47
+- _OUTLINED_FUNCTION_50
+- _OUTLINED_FUNCTION_55
+- _OUTLINED_FUNCTION_58
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_78
+- _OUTLINED_FUNCTION_82
+- _OUTLINED_FUNCTION_84
+- _OUTLINED_FUNCTION_86
+- [4 functions removed in block]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_27
+- _FigCFHTTPReadWithAdditionalHeaders
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_34
+- _OUTLINED_FUNCTION_51
+- _OUTLINED_FUNCTION_58
+- _OUTLINED_FUNCTION_77
+- _OUTLINED_FUNCTION_82
+- _OUTLINED_FUNCTION_88
+- _OUTLINED_FUNCTION_91
+- _OUTLINED_FUNCTION_95
+- _OUTLINED_FUNCTION_104
+- _OUTLINED_FUNCTION_105
+- _OUTLINED_FUNCTION_109
+- _OUTLINED_FUNCTION_111
+- __ZL21FigCEA608RenderToTimeP23OpaqueFigCaptionDecoder6CMTimePS1_
+- _FigDiskCacheRepositoryMakeRoom
+- _videoReceiver_Finalize
+- _videoReceiver_SetProperty
+- _videoReceiver_createPlaybackStartupPreventionAssertion
+- _videoReceiver_specifyDataChannelSettingsWithID
+- _videoReceiver_copyPixelBufferFromImageQueueReceiverSamplingAtTime
+- _videoReceiver_copyOutputQueuesResourceAndStatusFromConfiguration
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_45
+- _OUTLINED_FUNCTION_47
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_66
+- _OUTLINED_FUNCTION_69
+- _vfbremote_connect
+- _OUTLINED_FUNCTION_7
+- [3 functions removed in block]
+- ___49-[FigSubtitleBackdropCALayer updateBackdropLayer]_block_invoke.41
+- _FigSharedPlayerCreateWithOptions
+- ___49-[FigSubtitleWebVTTRegionCALayer layoutSublayers]_block_invoke.15
+- _OUTLINED_FUNCTION_5
+- _FigCreateMediaSelectionArrayFromFormatReaderProperties
+- _CreateMediaSelectionOptionDictionary
+- _fsbqs_ValidateSampleBufferForSeam
+- _bpr_timerCallback
+- _OUTLINED_FUNCTION_10
+- _MoviePSSHData_GetPlayReadyProtectionSystemData
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_10
+- __ZL42playercentral_reflectSubPlayerNotificationP26opaqueCMNotificationCenterPKvPK10__CFStringS2_S2_
+- __ZL52playercentral_updateNeroStatusBasedOnRouteAndSettingP15OpaqueFigPlayer
+- __ZL40itemcentral_SetCurrentTimeWithRangeAndIDP21OpaqueFigPlaybackItem6CMTimejS1_S1_i
+- _OUTLINED_FUNCTION_26
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_34
+- [4 functions removed in block]
+- _HandleVideoTargetMessage
+- _OUTLINED_FUNCTION_10
+- _remoteXPCPlayerClient_NotificationFilter
+- _remoteXPCItem_handleFirstFrameNotificationLatch
+- _remoteXPCPlayer_updateLayerDurations
+- _remoteXPCItem_TimebaseSynchronizationUpdate
+- _remoteXPCPlayer_CopyProperty
+- _remoteXPCPlayer_handleSetProperty
+- ___remoteXPCPlayer_updateClosedCaptionHostLayerArray_block_invoke
+- _remoteXPCItem_handleSetProperty
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_24
+- _OUTLINED_FUNCTION_35
+- _OUTLINED_FUNCTION_72
+- _OUTLINED_FUNCTION_73
+- [4 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_115
+- _OUTLINED_FUNCTION_117
+- _OUTLINED_FUNCTION_191
+- _OUTLINED_FUNCTION_130
+- _OUTLINED_FUNCTION_133
+- _OUTLINED_FUNCTION_135
+- _OUTLINED_FUNCTION_160
+- _OUTLINED_FUNCTION_173
+- _OUTLINED_FUNCTION_176
+- _figremote_CreateCGImageFromParametersDictionaryAndCGDataProvider
+- _OUTLINED_FUNCTION_25
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_41
+- _OUTLINED_FUNCTION_7
+- _FigAudioUnitRenderPipelineCreate
+- _FigCaptionRendererPaintOnCaptionSetCurrentTime
+- _OUTLINED_FUNCTION_29
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_41
+- _OUTLINED_FUNCTION_44
+- _OUTLINED_FUNCTION_2
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_20
+- _remakerFamily_performLastStepIfComplete
+- _remakerFamily_finishVideoCompositionChannel
+- _remakerFamily_copyCompositionInstructionAtTime
+- _OUTLINED_FUNCTION_61
+- _OUTLINED_FUNCTION_58
+- _OUTLINED_FUNCTION_88
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_29
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_38
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_26
+- _OUTLINED_FUNCTION_27
+- sub_1944da5fc
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_29
+- _OUTLINED_FUNCTION_32
+- _OUTLINED_FUNCTION_37
+- _OUTLINED_FUNCTION_38
+- _OUTLINED_FUNCTION_42
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_13
+- sub_1944e1320
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_58
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_74
+- sub_1944e4700
+- sub_1944e4774
+- sub_1944e4794
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_99
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_84
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_39
+- _OUTLINED_FUNCTION_49
+- _OUTLINED_FUNCTION_63
+- _OUTLINED_FUNCTION_70
+- _OUTLINED_FUNCTION_74
+- _OUTLINED_FUNCTION_80
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_95
+- _OUTLINED_FUNCTION_97
+- [7 functions removed in block]
+- _OUTLINED_FUNCTION_126
+- _OUTLINED_FUNCTION_127
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_143
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_568
+- _OUTLINED_FUNCTION_169
+- _OUTLINED_FUNCTION_173
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_183
+- _OUTLINED_FUNCTION_185
+- [12 functions removed in block]
+- _playeroverlap_advanceTimeReached
+- _OUTLINED_FUNCTION_19
+- _OUTLINED_FUNCTION_43
+- _OUTLINED_FUNCTION_70
+- _OUTLINED_FUNCTION_71
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_11
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _piqca_enqueueImageWithRotation
+- _piqca_updateReducedPollingTimeRange
+- _OUTLINED_FUNCTION_2
+- sub_194526e8c
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_8
+- _piqCopyImageForTime
+- _createFigMovieFormatWriterObject
+- _figMovieWriter_CopyTrackProperty
+- _createSynthesizedAudioPrimingSampleBuffer
+- _OUTLINED_FUNCTION_30
+- _OUTLINED_FUNCTION_40
+- _OUTLINED_FUNCTION_44
+- _OUTLINED_FUNCTION_57
+- _OUTLINED_FUNCTION_61
+- _OUTLINED_FUNCTION_62
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_70
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_82
+- _OUTLINED_FUNCTION_83
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_91
+- _OUTLINED_FUNCTION_92
+- [4 functions removed in block]
+- _figClusterSynchManager_addressInfoCallBack
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_18
+- [4 functions removed in block]
+- _sccFormatWriterEachSampleCallback
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_9
+- _fbaprp_transitionToNextTimebaseNow
+- _fbaprp_bufferedAirPlayOutputStartedCallback
+- _FigBufferedAirPlayAudioRenderPipelineSetRateAndAnchorTime
+- _FigBufferedAirPlayAudioRenderPipelineSynchronizeToTimebase
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_30
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_63
+- _OUTLINED_FUNCTION_68
+- _OUTLINED_FUNCTION_83
+- _OUTLINED_FUNCTION_88
+- [3 functions removed in block]
+- [8 functions removed in block]
+- _OUTLINED_FUNCTION_115
+- [4 functions removed in block]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_18
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_19
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_491
+- _OUTLINED_FUNCTION_651
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_5
+- sub_194552724
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_20
+- _srcconduit_submitPixelBuffer
+- _FigHLSPersistentStreamInfoCreate
+- _HLSPersistentStreamInfo_CopyProperty
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_15
+- sub_19455c444
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_18
+- sub_19455d960
+- _MovieSampleGroupCreateOptimizedCopy
+- sub_1945612ac
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_48
+- _FigSecureStopArchivistCopyInstance
+- [3 functions removed in block]
+- _videoTarget_setActive
+- ___fvtDumpTargetList_block_invoke
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_22
+- _FigSecureStopManagerServerHandleMessage
+- _OUTLINED_FUNCTION_7
+- _FigPlayerAirPlayCreateWithOptions
+- _playerairplay_CopyProperty
+- _playerairplay_notifyStartupTasksOfEvents
+- sub_194572378
+- _itemairplay_insertItemOnMediaControl
+- _itemairplay_airplaySetCurrentTime
+- ___itemairplay_airplaySetCurrentTime_block_invoke
+- _pap_invalidateEndpointPlaybackSession
+- _itemairplay_playMediaCompletionHandler
+- _playerairplay_setPlaybackEndTimes
+- [3 functions removed in block]
+- _playerairplay_notifyStartupTasksOfSeek
+- _playerairplay_mediaControlHandleTypeCurrentItemChanged
+- _pap_playbackSessionGetMediaSelectionCompletion
+- _airplayCryptor_CreateKeyRequest
+- ___pap_playbackSessionGetTimedMetadataCompletion_block_invoke
+- ___pap_playbackSessionGetMediaSelectionCompletion_block_invoke_2
+- _playerairplay_setAndCacheAudioMode
+- ___pap_PlaybackSessionSeekToTime_block_invoke
+- _playerairplay_handleSetProperty
+- _playerairplay_checkStartStopAirPlay
+- ___playerairplay_handleSetProperty_block_invoke.373
+- _playerairplay_updateAndApplySelectedMediaArrayOnMediaControl
+- _playerairplay_savePlaybackInfoAndStopAPV
+- _playerairplay_updateSubPlayerPlayQueue
+- _playerairplay_AddToPlayQueue
+- _playerairplay_CopyPlayQueueItem
+- _playerairplay_addItemToSubPlayerPlayQueue
+- _playerairplay_removeItemFromLocalPlayQueue
+- _playerairplay_setRateCommon
+- ___playerairplay_setRateCommon_block_invoke
+- [3 functions removed in block]
+- _itemairplay_SeekToDateWithID
+- ___itemairplay_handleSetProperty_block_invoke.424
+- _itemairplay_GetDuration
+- _itemairplay_SetCurrentTimeWithRange
+- _itemairplay_SetTrackProperty
+- _itemairplay_SetCurrentTimeWithRangeAndID
+- _playerairplay_updateBasedOnAirPlayVideoRouteDeselected
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_30
+- [3 functions removed in block]
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_58
+- _OUTLINED_FUNCTION_82
+- _OUTLINED_FUNCTION_83
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_111
+- _OUTLINED_FUNCTION_125
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_123
+- _OUTLINED_FUNCTION_125
+- _OUTLINED_FUNCTION_136
+- _OUTLINED_FUNCTION_140
+- _OUTLINED_FUNCTION_144
+- _OUTLINED_FUNCTION_148
+- [3 functions removed in block]
+- [8 functions removed in block]
+- _OUTLINED_FUNCTION_173
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_182
+- [8 functions removed in block]
+- _OUTLINED_FUNCTION_202
+- _OUTLINED_FUNCTION_212
+- _OUTLINED_FUNCTION_214
+- _OUTLINED_FUNCTION_218
+- [4 functions removed in block]
+- [3 functions removed in block]
+- [4 functions removed in block]
+- [6 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [6 functions removed in block]
+- [9 functions removed in block]
+- _OUTLINED_FUNCTION_296
+- _OUTLINED_FUNCTION_298
+- _OUTLINED_FUNCTION_304
+- _OUTLINED_FUNCTION_307
+- _OUTLINED_FUNCTION_310
+- [21 functions removed in block]
+- [7 functions removed in block]
+- [7 functions removed in block]
+- _OUTLINED_FUNCTION_369
+- _OUTLINED_FUNCTION_372
+- _OUTLINED_FUNCTION_375
+- _OUTLINED_FUNCTION_379
+- _OUTLINED_FUNCTION_382
+- _OUTLINED_FUNCTION_383
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_408
+- _OUTLINED_FUNCTION_415
+- _OUTLINED_FUNCTION_429
+- _OUTLINED_FUNCTION_431
+- _OUTLINED_FUNCTION_432
+- _OUTLINED_FUNCTION_436
+- _OUTLINED_FUNCTION_439
+- _OUTLINED_FUNCTION_442
+- _mr_start
+- _OUTLINED_FUNCTION_41
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_21
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_32
+- _OUTLINED_FUNCTION_33
+- [4 functions removed in block]
+- [7 functions removed in block]
+- _OUTLINED_FUNCTION_31
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_46
+- _OUTLINED_FUNCTION_50
+- sub_1945b7498
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_18
+- _FigCDSSessionCreate
+- [4 functions removed in block]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_13
+- _fmlbp_makePrediction
+- _fmlbp_timerCallback
+- -[FigFCRCALayer compose]
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_18
+- _DolbyPushForType
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_22
+- _MPEGAudioProcessData
+- __ZL23MPEG2ManifoldInjectDataP17OpaqueFigManifoldxjP19OpaqueCMBlockBuffer
+- __ZL14mmAdjustPTSDTSP14MPEG2Manifold_P6CMTimeS2_
+- __ZL17mmUpdateTrackTypeP12MPEG2Stream_j
+- __createGroupDescription
+- _ckbserver_replyingMessageHandler
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_37
+- _OUTLINED_FUNCTION_41
+- _OUTLINED_FUNCTION_42
+- _OUTLINED_FUNCTION_47
+- [6 functions removed in block]
+- _FigCDSCaption_FigCDSNodeProtocol_Draw
+- _FigCDSCaption_FigCDSNodeProtocol_ExecActions
+- _setupRubyAnnotation
+- _ckCaptionDrawText
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_26
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_34
+- _facCopyMixMapForInputs
+- _fadDecoderInputProc
+- _OUTLINED_FUNCTION_0
+- _frr_figRTCReportingInitOnce
+- sub_1945f57ec
+- _OUTLINED_FUNCTION_7
+- _FigImageQueueDisplayCountHistory_WriteAndRemoveOldestDisplayCountTraceEntry
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_22
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_1
+- _FigRemakerRemoteCreateWithAsset
+- _FigAssetReaderRemoteCreateWithURLAndFormatReader
+- _remoteRemakerFamily_AddVideoCompositionTrackCommon
+- _remoteWriter_CopyTrackProperty
+- _remoteWriter_AddPixelBuffer
+- _OUTLINED_FUNCTION_12
+- _PKDKeyManagerCreateKeyRequestForKeyID
+- _keyManager_createKeyRequestForEntryInternal
+- _PKDKeyManagerSetKeyRequestResponseForKeyID
+- _PKDKeyManagerSetPropertyForKeyID
+- _PKDKeyManagerCopyPropertyForKeyID
+- _keyManager_processOnlineKeyInternal
+- _OUTLINED_FUNCTION_12
+- _FigDataChannelConfigurationCreateFromList
+- _FigDataChannelConfigurationCopyFormatDescriptionsAtIndex
+- _FigDataChannelConfigurationGetOutputQueueTypeAtIndex
+- _FigDataChannelConfigurationCopyAsDictionaryWithoutOutputQueues
+- _FigDataChannelConfigurationGetCAImageQueueReceiverAtIndex
+- _frs_FinalizeClient
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_35
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_58
+- _OUTLINED_FUNCTION_64
+- _OUTLINED_FUNCTION_66
+- _OUTLINED_FUNCTION_67
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_78
+- _OUTLINED_FUNCTION_79
+- _OUTLINED_FUNCTION_84
+- _OUTLINED_FUNCTION_86
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_30
+- _OUTLINED_FUNCTION_37
+- _OUTLINED_FUNCTION_41
+- _OUTLINED_FUNCTION_45
+- _OUTLINED_FUNCTION_52
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_73
+- _OUTLINED_FUNCTION_74
+- _OUTLINED_FUNCTION_78
+- _OUTLINED_FUNCTION_83
+- _OUTLINED_FUNCTION_84
+- _OUTLINED_FUNCTION_87
+- _OUTLINED_FUNCTION_88
+- _OUTLINED_FUNCTION_0
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_4
+- _vdms_reevaluateProcessingStateAndNotify
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_24
+- _FigMediaValidatorValidateAndTranslateRFC4281CodecsForStreaming
+- _mv_EvaluateProfileConstraints
+- _FigMediaValidatorValidateRFC4281Codecs
+- _mv_ValidateRFC4281_mp4v_evaluation_fn
+- _mv_ValidateRFC4281_mp4a_evaluation_fn
+- _OUTLINED_FUNCTION_18
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_29
+- _OUTLINED_FUNCTION_32
+- _OUTLINED_FUNCTION_36
+- [4 functions removed in block]
+- sub_19462df4c
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_20
+- _serverXPCItem_NotificationFilter
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_26
+- _OUTLINED_FUNCTION_27
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_458
+- _OUTLINED_FUNCTION_41
+- _OUTLINED_FUNCTION_42
+- _OUTLINED_FUNCTION_44
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_57
+- _OUTLINED_FUNCTION_63
+- _FPSupport_CopyAudioSessionPreferredOutputChannelLayout
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_13
+- _mediaAccessibilityDidChangeDoAsync
+- _OUTLINED_FUNCTION_0
+- _figAudioFileWriter_Invalidate
+- _afReadProc
+- _OUTLINED_FUNCTION_0
+- _FigGetEstimatedMaxFullFramePlaybackSpeedForFormatDescriptionAndNominalFrameRate
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_0
+- __FigHTTPRequestCreateWithNSURLSession
+- ___figHTTPSetActivelyUsingNetwork_block_invoke
+- _figHTTPRequestNSURLSessionCopyProperty
+- _OUTLINED_FUNCTION_5
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_37
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_1
+- _FigLimitedDiskCacheProvider_CopyProperty
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_19
+- [4 functions removed in block]
+- _FigFullDownloadDiskCacheProviderCreate
+- [3 functions removed in block]
+- _FigByteStreamFactoryCreateStreamFromURLWithOptionsAsync
+- _fbfs_CreateFlumeAsync
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_1
+- _FigAlternateFilterMonitorCreateForPlaybackBitrate
+- _FigAlternatePlaybackBitrateMonitorSetStreamDuration
+- _fampb_getCurrentRTT
+- _fampb_getPredictionBandwidth
+- _fampb_copyProperty
+- _fampb_setProperty
+- _fampb_UpdateLocalBitrate
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_27
+- [8 functions removed in block]
+- _OUTLINED_FUNCTION_44
+- _OUTLINED_FUNCTION_45
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_54
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_65
+- _OUTLINED_FUNCTION_73
+- _OUTLINED_FUNCTION_77
+- _OUTLINED_FUNCTION_78
+- [3 functions removed in block]
+- _aptapR_ProcessNotification
+- _aptapR_PrepareTapIfNeeded
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_22
+- [5 functions removed in block]
+- sub_194663030
+- _FigRemakerCreateQueuedBaseWithURLs
+- _FigRemakerCreateQueuedWithURLs
+- ___remakerQueue_ensureWeHaveAnActiveRemaker_soon_block_invoke
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_24
+- _EnsureWebVTTFileIsParsed
+- _wvtt_moveToSampleAtPTS
+- _WebVTTCursor_copyProperty
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_9
+- ___FigVirtualDisplayProcessorCreate_block_invoke
+- _OUTLINED_FUNCTION_26
+- _OUTLINED_FUNCTION_31
+- _OUTLINED_FUNCTION_37
+- _OUTLINED_FUNCTION_40
+- _OUTLINED_FUNCTION_41
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_53
+- _OUTLINED_FUNCTION_55
+- _OUTLINED_FUNCTION_59
+- _OUTLINED_FUNCTION_62
+- _OUTLINED_FUNCTION_65
+- _OUTLINED_FUNCTION_67
+- _OUTLINED_FUNCTION_70
+- [6 functions removed in block]
+- [3 functions removed in block]
+- [5 functions removed in block]
+- [6 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_30
+- _neroidRemote_SetProperty
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_0
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_0
+- sub_19468438c
+- [3 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_31
+- _playerairplayroute_pickableRoutesChangedGuts
+- _playerairplayroute_routeConfigUpdatedNotificationCallback
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_29
+- _OUTLINED_FUNCTION_32
+- _OUTLINED_FUNCTION_38
+- _OUTLINED_FUNCTION_46
+- _OUTLINED_FUNCTION_48
+- _OUTLINED_FUNCTION_51
+- _FigMutableMovieCreateEmpty
+- _FigMutableMovieCreateFromData
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_19
+- _OUTLINED_FUNCTION_24
+- _OUTLINED_FUNCTION_26
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_594
+- _OUTLINED_FUNCTION_37
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_63
+- [10 functions removed in block]
+- _OUTLINED_FUNCTION_82
+- _OUTLINED_FUNCTION_83
+- [6 functions removed in block]
+- [6 functions removed in block]
+- [15 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_13
+- _playbackCoordinator_performStartupTaskNegotiatingTimingWithCoordinatedPlaybackGroup
+- _playbackCoordinator_pause
+- _figPlaybackCoordinator_transitionToNewCurrentItemIfReady
+- _figPlaybackCoordinator_updateHLSInterstitialStartTimes
+- _figPlaybackCoordinator_updateInterstitialStateMachine
+- _figPlaybackCoordinator_EndSuspensionProposingNewTimeOnQueue
+- _OUTLINED_FUNCTION_9
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_50
+- _OUTLINED_FUNCTION_51
+- _OUTLINED_FUNCTION_59
+- _OUTLINED_FUNCTION_60
+- _OUTLINED_FUNCTION_91
+- _OUTLINED_FUNCTION_67
+- _OUTLINED_FUNCTION_74
+- _OUTLINED_FUNCTION_78
+- _OUTLINED_FUNCTION_81
+- _MovieMutationNotificationCallback
+- _TrackMutationNotificationCallback
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_11
+- _ParseMovieAtom
+- _ParseMediaInfoAtom
+- sub_1946a6710
+- _ParseSampleAuxInfoSizesAtom
+- _OUTLINED_FUNCTION_4
+- [4 functions removed in block]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_38
+- _OUTLINED_FUNCTION_39
+- _OUTLINED_FUNCTION_46
+- _OUTLINED_FUNCTION_51
+- _OUTLINED_FUNCTION_52
+- _OUTLINED_FUNCTION_60
+- [4 functions removed in block]
+- [8 functions removed in block]
+- [10 functions removed in block]
+- [9 functions removed in block]
+- _OUTLINED_FUNCTION_120
+- _OUTLINED_FUNCTION_121
+- _OUTLINED_FUNCTION_127
+- _OUTLINED_FUNCTION_133
+- [3 functions removed in block]
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_150
+- [4 functions removed in block]
+- [3 functions removed in block]
+- _MovieSampleAccessorComputePlayableHorizon
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_26
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_30
+- _OUTLINED_FUNCTION_35
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_39
+- _OUTLINED_FUNCTION_42
+- _OUTLINED_FUNCTION_50
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [9 functions removed in block]
+- [15 functions removed in block]
+- _OUTLINED_FUNCTION_101
+- [8 functions removed in block]
+- [3 functions removed in block]
+- _mutableComposition_DeleteSegment
+- _compositionTable_copyTrackMinSampleDuration
+- _compositionTable_copyAverageTrackPropertyFromNonEmptyEdits
+- _compositionEditSegment_validateSegments
+- _OUTLINED_FUNCTION_30
+- _OUTLINED_FUNCTION_34
+- _OUTLINED_FUNCTION_35
+- _OUTLINED_FUNCTION_38
+- _OUTLINED_FUNCTION_39
+- _OUTLINED_FUNCTION_47
+- _OUTLINED_FUNCTION_69
+- _OUTLINED_FUNCTION_71
+- _OUTLINED_FUNCTION_81
+- [3 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_95
+- _OUTLINED_FUNCTION_96
+- _OUTLINED_FUNCTION_99
+- _OUTLINED_FUNCTION_103
+- _OUTLINED_FUNCTION_111
+- _OUTLINED_FUNCTION_2
+- [5 functions removed in block]
+- _qtiso_FigMetadataConverterCreateConvertedItem
+- _setPlayerDo
+- _OUTLINED_FUNCTION_9
+- _fcr_validateMove
+- _OUTLINED_FUNCTION_20
+- _qtitunes_FigMetadataConverterCreateConvertedItem
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_14
+- _FigBufferedAirPlayOutputCreate
+- _fbapo_copyProperty
+- _fbapo_setAndCacheAudioProcessingTap
+- ___fbapo_setRateAndAnchorTimeDispatch_block_invoke
+- ___fbapo_setRateAndAnchorTimeInternal_block_invoke
+- ___fbapo_setRateAndAnchorTimeCallback_block_invoke
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_65
+- _OUTLINED_FUNCTION_74
+- _OUTLINED_FUNCTION_75
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_2
+- __figCSSTokenizer_consume_a_numeric_token
+- __figCSSTokenizer_consume_an_escaped_code_point
+- _FigVideoCompositionInstructionCopyRequiredTrackIDArrayForTime
+- _OUTLINED_FUNCTION_9
+- [3 functions removed in block]
+- _FigCaptionRendererTTMLRegion_FigCaptionRendererNodeProtocol_Draw
+- _FigCaptionRendererTTMLRegion_FigCaptionRendererNodeProtocol_Layout
+- _videoprocessor_frameCompleteCallback
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_26
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_39
+- _OUTLINED_FUNCTION_42
+- _OUTLINED_FUNCTION_9
+- _sci_copyCompletelyCachedMediaSelectionOptionsInGroupDispatch
+- _bapspTranscode_setLoudnessInfo
+- _FigBufferedAirPlayAudioChainSubPipeChannelLayoutTagToString
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_59
+- _OUTLINED_FUNCTION_60
+- _basicVideoCompositor_CopyProperty
+- _basicVideoCompositor_RenderFrame
+- _bvc_FullComposition_420v_420v
+- _bvc_FullComposition_ARGB_420v709
+- _bvc_FullComposition_ARGB_420v601
+- _bvc_FullComposition_BGRA_420v709
+- _bvc_FullComposition_BGRA_420v601
+- _OUTLINED_FUNCTION_30
+- _OUTLINED_FUNCTION_31
+- _fssm_fbo_finalizeRecord
+- _HandleFRObjectMessage
+- _HandleSampleCursorCopySampleLocationMessage
+- _HandleSampleCursorCopyChunkDetailsMessage
+- _HandleSampleCursorGetBatchSampleTimingAndSizes
+- _HandleSampleCursorMaybeCopyAndStepCursorsThenPerformOperationWithCopiesMessage
+- _OUTLINED_FUNCTION_2
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_24
+- _OUTLINED_FUNCTION_26
+- _OUTLINED_FUNCTION_50
+- _OUTLINED_FUNCTION_61
+- _OUTLINED_FUNCTION_70
+- _OUTLINED_FUNCTION_85
+- _OUTLINED_FUNCTION_87
+- _OUTLINED_FUNCTION_90
+- _OUTLINED_FUNCTION_106
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_121
+- _OUTLINED_FUNCTION_122
+- _segPumpStopRetryTimer
+- _segPumpCreateFigAlternatesArrayAndCalculateStartupScore
+- sub_19470de54
+- _segPumpGetStringForErrorAction
+- _segPumpGetInterfaceTypeEnum
+- _MoveAlternateFromListWithNoNotification
+- _segPumpScheduleIndexFileLongDownloadTimer
+- _segPumpHandleLowLatencySetupError
+- _segPumpSetStartingOffset
+- _segPumpStreamProceedAfterMediaAndKeyArrival
+- _segPumpAppendBytesToCache
+- _segPumpGetNetworkLatencyFromPredictor
+- _segPumpDetermineMediaSegmentToSwitchTo
+- _segPumpGetLastDiscAndDateForTimeReadInPlaylist
+- _segPumpClearSuggestedAlternate
+- _segPumpRejectSwitchDueToStallRisk
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_29
+- _OUTLINED_FUNCTION_34
+- _OUTLINED_FUNCTION_35
+- [4 functions removed in block]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_48
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_80
+- [10 functions removed in block]
+- [8 functions removed in block]
+- [12 functions removed in block]
+- [4 functions removed in block]
+- [6 functions removed in block]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_178
+- _OUTLINED_FUNCTION_191
+- _OUTLINED_FUNCTION_195
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_214
+- _OUTLINED_FUNCTION_217
+- [7 functions removed in block]
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_256
+- _OUTLINED_FUNCTION_270
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_289
+- _OUTLINED_FUNCTION_290
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_302
+- _OUTLINED_FUNCTION_304
+- _OUTLINED_FUNCTION_305
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_325
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_334
+- _OUTLINED_FUNCTION_340
+- _OUTLINED_FUNCTION_360
+- _OUTLINED_FUNCTION_361
+- [8 functions removed in block]
+- _OUTLINED_FUNCTION_377
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_387
+- _OUTLINED_FUNCTION_388
+- [5 functions removed in block]
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_406
+- _OUTLINED_FUNCTION_409
+- [14 functions removed in block]
+- _OUTLINED_FUNCTION_444
+- _OUTLINED_FUNCTION_445
+- [9 functions removed in block]
+- _OUTLINED_FUNCTION_463
+- _OUTLINED_FUNCTION_465
+- [32 functions removed in block]
+- _OUTLINED_FUNCTION_520
+- [22 functions removed in block]
+- [21 functions removed in block]
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_588
+- _OUTLINED_FUNCTION_589
+- _OUTLINED_FUNCTION_592
+- _OUTLINED_FUNCTION_593
+- [10 functions removed in block]
+- [11 functions removed in block]
+- _OUTLINED_FUNCTION_630
+- _OUTLINED_FUNCTION_633
+- _OUTLINED_FUNCTION_635
+- _OUTLINED_FUNCTION_644
+- _OUTLINED_FUNCTION_646
+- _OUTLINED_FUNCTION_648
+- [6 functions removed in block]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_663
+- _OUTLINED_FUNCTION_664
+- [13 functions removed in block]
+- _OUTLINED_FUNCTION_683
+- _OUTLINED_FUNCTION_684
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_694
+- _OUTLINED_FUNCTION_696
+- [26 functions removed in block]
+- [32 functions removed in block]
+- _OUTLINED_FUNCTION_770
+- sub_19472d6f4
+- _PlaylistProcessPreloadHintTag
+- _PlaylistProcessTaggedRangeTag
+- _OUTLINED_FUNCTION_8
+- [3 functions removed in block]
+- [4 functions removed in block]
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_32
+- _OUTLINED_FUNCTION_34
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_0
+- sub_1947391dc
+- _FigTTMLParsePositionSyntaxAndCreateCaptionPosition
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_18
+- [3 functions removed in block]
+- [11 functions removed in block]
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_6
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_41
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_12
+- _appendSampleToGroupAtoms
+- _createMetadataSerializerDictionaryWithMetadata
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_17
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_25
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_29
+- _OUTLINED_FUNCTION_30
+- [7 functions removed in block]
+- _FigAudioQueueOfflineMixerCreate
+- _FigAudioQueueOfflineMixerStartRenderingForTimeRange
+- _OUTLINED_FUNCTION_2
+- _FigCoreAnimationRendererCreate
+- _FigCoreAnimationRendererCopyPixelBufferAtTime
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_15
+- _audioSessionMXSession_CopyRequestedConfigurationForProperty
+- _OUTLINED_FUNCTION_6
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_26
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_6
+- _vfblocal_setDigitalOutMode
+- [3 functions removed in block]
+- ___vfbintern_getFramebuf_block_invoke
+- _scr_plugProcessor
+- _scr_start
+- _scr_suspend
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_31
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_34
+- _FigExportSettingsAverageBitRateForSourceAndExportPreset
+- sub_194770298
+- _OUTLINED_FUNCTION_2
+- _FigByteFlumeCustomURLCopyProperty
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_12
+- [3 functions removed in block]
+- -[FigSubtitleWebVTTCueCALayer layoutSublayersOfLayer:]
+- ___54-[FigSubtitleWebVTTCueCALayer layoutSublayersOfLayer:]_block_invoke.13
+- _subtitleRendererDrawSubtitleTextDo
+- _subtitleRendererDrawText
+- _subtitleRendererGetBounds
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_20
+- _caprp_sendSubtitleSampleForSampleBuffer
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_11
+- [4 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_21
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_37
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_24
+- sub_19479527c
+- _FigCFCaptionRendererDrawCaptionElementInContextForRectOrientation
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_0
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_24
+- _OUTLINED_FUNCTION_25
+- _OUTLINED_FUNCTION_30
+- _sbcbao_SendSampleBuffer
+- ___sessionStart_block_invoke
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_20
+- _PerformDefineMacroProperty
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_7
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_29
+- _OUTLINED_FUNCTION_31
+- [5 functions removed in block]
+- _fbarp_processSampleBuffer
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_6
+- _URLAssetCreateAssetTrack
+- _URLAssetCopyTracksWithMediaType
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_34
+- _FinalizeMultiTrackBatchLoadJob
+- _ProduceFormatReaderAssetProperty
+- _EnsureFormatReaderCreated
+- sub_1947bcb64
+- _ProduceNominalVideoFrameRateProperty
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_11
+- [12 functions removed in block]
+- [5 functions removed in block]
+- [14 functions removed in block]
+- _OUTLINED_FUNCTION_90
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_19
+- _FigVideoQueueCreateLocal
+- _vq_ExternalProtectionStatusChanged
+- _vq_addTimebaseListeners
+- _vq_EnqueueH264FrameWithTimingInfoBaggage
+- _vq_Flush
+- _OUTLINED_FUNCTION_0
+- [5 functions removed in block]
+- [7 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_39
+- _OUTLINED_FUNCTION_46
+- _OUTLINED_FUNCTION_48
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_0
+- [5 functions removed in block]
+- _videoQueueRemote_EnqueueH264Frame
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _remoteXPCAssetClient_NotificationFilter
+- _remoteXPCAsset_DeserializeAndCreateAssetPropertyValueFromXPCDictionary
+- _remoteXPCAsset_DeserializeAndCreateTracksArrayFromXPCDictionary
+- _ASSETTRACK_CLIENT_SYNCHRONOUSLY_COPYING_A_PROPERTY
+- _remoteXPCAsset_CopyTracksWithMediaType
+- _OUTLINED_FUNCTION_1
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_32
+- _OUTLINED_FUNCTION_45
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_62
+- _OUTLINED_FUNCTION_69
+- _FigDataQueueCreate
+- _dq_pausePruneTimer
+- _dq_SetProperty
+- _dq_CreateArrayRemovingStaleFrames
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_14
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_20
+- _FigHLSPersistentStoreCreateAtURL
+- _loadBootFromFile
+- _persistentStore_CopyProperty
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_18
+- ___figNSURLSessionRegistryEnsureGlobalInit_block_invoke
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_12
+- [5 functions removed in block]
+- _writeFirstStartMovieDispatchFunction
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_13
+- [3 functions removed in block]
+- [5 functions removed in block]
+- _FigPlayerSurrogateCreateWithOptions
+- _surrogatePlayer_SetRate
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_19
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_59
+- _OUTLINED_FUNCTION_61
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_101
+- _OUTLINED_FUNCTION_107
+- _OUTLINED_FUNCTION_109
+- _OUTLINED_FUNCTION_112
+- [4 functions removed in block]
+- _meiltku_serialize
+- _OUTLINED_FUNCTION_1
+- _clcpcgcfsbCreateCaptionDataFromCommandData
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _surrogateAIG_CopyCGImageAtTime
+- _OUTLINED_FUNCTION_1
+- ___fvfbserv_objCreateVirtualFramebuf_block_invoke
+- _fvfbserv_objAcquireWritebackSurface
+- _OUTLINED_FUNCTION_19
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_9
+- _FigTTMLRootCreate
+- _FigPKDCPECryptorInvalidate
+- _ProcessOfflineKey
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_34
+- _OUTLINED_FUNCTION_40
+- _FigRenderPipelineCreateForFanOutToArrayOfSampleBufferConsumers
+- _fpic_flipInterstitialAndPrimaryVisibility
+- ___fpic_EstablishCurrentPrimaryItem_block_invoke
+- ___fpic_EnsureNextEventWillBuffer_block_invoke.173
+- ___fpic_EnsurePrimaryWillResumeBuffering_block_invoke
+- _fpic_SetRemoteEvents
+- [3 functions removed in block]
+- ___fpic_HandleSeekDidFinishNotification_block_invoke
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_53
+- _OUTLINED_FUNCTION_54
+- _OUTLINED_FUNCTION_59
+- _OUTLINED_FUNCTION_60
+- _OUTLINED_FUNCTION_63
+- _OUTLINED_FUNCTION_81
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_111
+- _OUTLINED_FUNCTION_112
+- [3 functions removed in block]
+- [11 functions removed in block]
+- _OUTLINED_FUNCTION_145
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_179
+- _OUTLINED_FUNCTION_182
+- _OUTLINED_FUNCTION_183
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_194
+- _OUTLINED_FUNCTION_196
+- _OUTLINED_FUNCTION_198
+- [8 functions removed in block]
+- _OUTLINED_FUNCTION_214
+- [12 functions removed in block]
+- _OUTLINED_FUNCTION_1
+- _fiqcfo_setProperty
+- _fiqcfo_enqueueImage
+- [4 functions removed in block]
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_26
+- [12 functions removed in block]
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_7
+- _figVideoReceiverServer_handleRemoteMessage
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_8
+- [3 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_10
+- _FigStreamingNetworkErrorGetRecommendedAction
+- [6 functions removed in block]
+- [8 functions removed in block]
+- [3 functions removed in block]
+- [5 functions removed in block]
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_34
+- _OUTLINED_FUNCTION_36
+- [9 functions removed in block]
+- _OUTLINED_FUNCTION_55
+- _OUTLINED_FUNCTION_56
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _openglVideoCompositor_SetProperty
+- _ovc_getPrescalingParameters
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_0
+- ___FigNeroPlayServerGetTypeID_block_invoke
+- _FigNeroPlayServerCreate
+- ___FigNeroPlayServerCreate_block_invoke
+- __FigNeroPlayServerSyncMessageHandler
+- __FigNeroPlayServerInit
+- _OUTLINED_FUNCTION_1
+- __ZL17wvmSampleCallbackPvP18OpaqueWebVTTSample
+- _FigAudioSessionCreateWithAVAudioSession
+- _audioSessionAVAudioSession_CopyResolvedConfigurationForProperty
+- _audioSessionAVAudioSession_SetMXSessionPropertiesAndCopyErrors
+- _ftvIOMFHotPlugNotificationCallback
+- _ftvIOMFVSyncCallback
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_2
+- [6 functions removed in block]
+- _FigPlayerCelesteCreateWithOptions
+- _playerceleste_updatePlayerAudioSession
+- ___fpServer_RegisterForThermalNotifications_block_invoke
+- _playerceleste_deferredInterruptionNotification
+- _playerceleste_setRateInternal
+- _playerceleste_handleSetProperty
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_14
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_40
+- _FigCreateHapticPatternDictionaryFromAppleHapticBBuf
+- _OVCBicubicPrescalerScalePixelBuffer
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_12
+- _MovieProxyDataCreateForByteStream
+- sub_19486cbe4
+- _SampleTableOmitFilter
+- _OUTLINED_FUNCTION_14
+- _FigVCPOutputAllOutputsCanAccomodateFrame
+- _FigVCPCompositorHostComposeFrameAsync
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_25
+- _OUTLINED_FUNCTION_29
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_37
+- _OUTLINED_FUNCTION_42
+- _OUTLINED_FUNCTION_43
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_49
+- _OUTLINED_FUNCTION_50
+- _OUTLINED_FUNCTION_60
+- _OUTLINED_FUNCTION_61
+- _OUTLINED_FUNCTION_67
+- _OUTLINED_FUNCTION_72
+- _OUTLINED_FUNCTION_73
+- [3 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_89
+- _OUTLINED_FUNCTION_90
+- [14 functions removed in block]
+- [3 functions removed in block]
+- [10 functions removed in block]
+- [10 functions removed in block]
+- [7 functions removed in block]
+- _OUTLINED_FUNCTION_166
+- _OUTLINED_FUNCTION_167
+- [5 functions removed in block]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_185
+- _OUTLINED_FUNCTION_186
+- _OUTLINED_FUNCTION_193
+- _FigTTMLSerializerCreateForByteStream
+- _OUTLINED_FUNCTION_0
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_17
+- [4 functions removed in block]
+- _fileWriterSink_Suspend
+- _fileWriterSink_Resume
+- _fileWriterSink_Perform
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_9
+- [3 functions removed in block]
+- [13 functions removed in block]
+- _OUTLINED_FUNCTION_47
+- _OUTLINED_FUNCTION_50
+- _OUTLINED_FUNCTION_53
+- [9 functions removed in block]
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_0
+- [6 functions removed in block]
+- [6 functions removed in block]
+- _FigOctaviaVideoRenderPipelineCreate
+- _octvrp_SetProperty
+- _octrp_setTimebase
+- _octrp_handleTimebaseTimeJumped
+- _IFFPictureCopyDerivation
+- _IFFPictureTileAccessorCreate
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_18
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_40
+- _OUTLINED_FUNCTION_44
+- _OUTLINED_FUNCTION_45
+- [9 functions removed in block]
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_70
+- [12 functions removed in block]
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_6
+- [4 functions removed in block]
+- _FigNeroSetup
+- _nero_syncMessageHandler
+- ___nero_asyncMessageHandler_block_invoke.100
+- ___nero_createVideoRenderPipeline_block_invoke_2
+- _nrp_timebaseRateChangedCallback
+- ___nero_destroyVideoRenderPipeline_block_invoke.131
+- ___nero_retainClockForOctavia_block_invoke_2
+- _FigVirtualDisplaySessionRemoteFrameReceiverCreate
+- _fvdsr_handleServerMessage
+- _FigEndpointStreamAudioEngineRemoteXPC_Resume
+- _FigEndpointStreamAudioEngineRemoteXPC_SetEndpointStream
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_0
+- [4 functions removed in block]
+- [7 functions removed in block]
+- _OUTLINED_FUNCTION_35
+- _OUTLINED_FUNCTION_40
+- _FigAirPlaySecureStopRouterUpdateRecord
+- ___56-[FigCoreTelephonyServiceConnection deregisterListener:]_block_invoke.8
+- _OUTLINED_FUNCTION_3
+- _fcks_server_handleRemoteSyncMessage
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_0
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_11
+- [3 functions removed in block]
+- _ckCaptionSetupText
+- _setupHighlight
+- _ckCaptionDrawText
+- _OUTLINED_FUNCTION_1
+- _ftu_Finalize
+- _FigTransformUtilityCreate
+- _ftu_blitComplete
+- _FigTransformUtilitySetRotation
+- _FigTransformUtilitySetMinImageBounds
+- _FigTransformUtilitySetMaxImageBounds
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_2
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_12
+- [4 functions removed in block]
+- _FigItemIntegratedTimelineCreate
+- _fiit_finalize
+- _fiit_postNotification
+- _fiit_CopySnapshot
+- _fiit_GetCurrentTime
+- _OUTLINED_FUNCTION_1
+- [11 functions removed in block]
+- [6 functions removed in block]
+- [17 functions removed in block]
+- [3 functions removed in block]
+- [4 functions removed in block]
+- [4 functions removed in block]
+- [18 functions removed in block]
+- _OUTLINED_FUNCTION_105
+- _neroid_CopyProperty
+- _neroid_setDisplaySize
+- _neroid_Start
+- _OUTLINED_FUNCTION_4
+- sub_1948e41a4
+- [4 functions removed in block]
+- _FigAutomaticMediaSelectionGetMediaSelectionGroupsForMajorIntrinsicCharacteristics
+- [4 functions removed in block]
+- __deferredLocaleOrMediaAccessibilityDidChangeNotificationCallback
+- __logOptionsToPersistentIDs
+- __findBestOptionInGroupUsingCriteria
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_34
+- _FigHapticRenderPipelineCreate
+- _FigHapticRenderPipelineCopyProperty
+- _OUTLINED_FUNCTION_5
+- _bufferQueueSource_CanProduceBytes
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_21
+- _FigSampleAttachmentCollectorCreateAsynchronous
+- _collector_createMetadataBufferProvidersAndInstallTriggers
+- _collector_handleInputQueueBecomesNonEmptyTrigger
+- _collector_processAsynchronouslyUntilHighWaterMet
+- _collector_tearDownAsyncProcessState
+- _collector_tearDownSyncProcessState
+- _collector_handleMetadataBufferQueueConduitNotifications
+- _collector_setUpAsyncProcessState
+- _collector_AddMetadataToCollection
+- _collectorPendingSampleArray_appendSingleSampleSampleBuffer
+- _collector_Go
+- _collector_asyncProcessLoop
+- _OUTLINED_FUNCTION_4
+- ___FigCPEExternalProtectionMonitorSetProperty_block_invoke
+- [5 functions removed in block]
+- _FigCPEExternalProtectionMonitorGetMethods
+- ___FigCPEExternalProtectionMonitorGetMethods_block_invoke
+- _FigCPEExternalProtectionMonitorGetStatus
+- ___FigCPEExternalProtectionMonitorGetStatus_block_invoke
+- [5 functions removed in block]
+- ___FigCPEExternalProtectionMonitorGetState_block_invoke
+- _GetStateSetApplier
+- _AntiScreenCaptureGetStatus
+- _FigCPEExternalProtectionMonitorFinalize
+- ___FigCPEExternalProtectionMonitorFinalize_block_invoke
+- _RemoveExclusiveDisplays
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _FigCPEOctaviaExternalProtectionMonitorCreate
+- [3 functions removed in block]
+- _OctaviaGetState
+- ___FigCPEOctaviaExternalProtectionMonitorCreate_block_invoke
+- _figAssetExportSession_getDestinationFrameDurationAndExpectedFrameRate
+- _figAssetExportSession_maximumDuration
+- _figAssetExportSession_estimateMaximumDurationDeferred
+- _figAssetExportSession_estimateOutputFileLengthDeferred
+- _figAssetExportSession_figRemakerNotification
+- _figAssetExportSession_transitionToStatus
+- _figAssetExportSession_createRemakerAndBeginExport
+- _figAssetExportSession_IsAssetPropertyAvailable
+- _FigAssetExportSession_getUntransformedSourceDimension
+- [3 functions removed in block]
+- _figAssetExportSession_createProfileLevel
+- _figAssetExportSession_createVideoEncoderSpecification
+- _figAssetExportSession_handleAudioAlternateTrack
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_16
+- [7 functions removed in block]
+- _OUTLINED_FUNCTION_38
+- _OUTLINED_FUNCTION_39
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_59
+- _OUTLINED_FUNCTION_60
+- _OUTLINED_FUNCTION_63
+- _OUTLINED_FUNCTION_64
+- _OUTLINED_FUNCTION_66
+- _OUTLINED_FUNCTION_67
+- _OUTLINED_FUNCTION_69
+- [4 functions removed in block]
+- [4 functions removed in block]
+- [8 functions removed in block]
+- [8 functions removed in block]
+- [14 functions removed in block]
+- _OUTLINED_FUNCTION_0
+- _FigDataChannelGroupCreateForUseCase
+- _channelgroup_copyAsDictionary
+- _FigDataChannelGroupsArrayCopyAsDictionary
+- _FigNetworkInterfaceReporterGetPredictedWirelessThroughput
+- sub_19490e394
+- ___FigNetworkInterfaceReporterReportEstimatedMaximumDemand_block_invoke
+- ___figNetworkMonitorInterfaceIRATInit_block_invoke
+- ___figNetworkInterfaceReleaseGlobalWifiMonitor_block_invoke
+- _figPeriodicBandwidthMonitorInitOnce
+- ___figNetworkInterfaceReporterReportPeriodicDownloadActivity_block_invoke
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_26
+- _OUTLINED_FUNCTION_32
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_39
+- _OUTLINED_FUNCTION_40
+- _OUTLINED_FUNCTION_44
+- _OUTLINED_FUNCTION_49
+- _OUTLINED_FUNCTION_51
+- [3 functions removed in block]
+- _fnpa_makePrediction
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_7
+- _fraoa_CreateOfflineAirPlayReportingPayload
+- _FigReportingAgentOfflineAirPlayCreate
+- _OUTLINED_FUNCTION_0
+- _FigPlayerResourceArbiterSetSpecifierForConsumer
+- _FigPlayerResourceArbiterCreateForTestOnly
+- _FigPartialSampleTableCreateFromBlockBufferUsingTranslationCallbacks
+- _FigPartialSampleTableRecommendSampleTableFlagsForCursor
+- _FigPartialSampleTableBuildFromFigSampleCursorAndWriteToBlockBuffer
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_13
+- [3 functions removed in block]
+- [5 functions removed in block]
+- _audioRenderer_spatialAudioPreferencesChanged
+- _audioRenderer_setRateAndAnchorTime
+- _audioRenderer_applyCachedPropertiesToFARPApplierFunction
+- _OUTLINED_FUNCTION_3
+- [3 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_39
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_78
+- _OUTLINED_FUNCTION_79
+- [22 functions removed in block]
+- _synchronizerCentral_SetProperty
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _synchronizerCentral_ConvertTime
+- _OUTLINED_FUNCTION_2
+- ___FigAudioProcessingUnitCreateWithOptions_block_invoke
+- _FigAudioProcessingUnitCreateCopy
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_2
+- _PKDCopyInfoFromPackagedPersistentKey
+- _PKDGetSystemCPC
+- _PKDCopyIdentifierForFormatDescription
+- _OUTLINED_FUNCTION_1
+- _FigFramePrefetcherCreate
+- _ffp_PumpTransferCallback
+- _ffp_EstablishDuration
+- _ffp_TakeNextStep
+- _FigTTMLDocumentWriterMapPropertyToAttribute_TextAlign
+- _FigTTMLDocumentWriterMapPropertyToAttribute_MultiRowAlign
+- _FigTTMLDocumentWriterMapWidthAndHeightPropertiesToExtentAttributeAndSet
+- _sbtlstringconformer_createFontFamilyAttributes
+- _sbp_tmf_invalidate
+- _sbp_tmf_finalize
+- _OUTLINED_FUNCTION_1
+- _FigLegibleOutputManagerCreate
+- _FigLegibleOutputManagerSetLegibleOutputsDict
+- _FigLegibleOutputManagerSetVideoDisplaySize
+- _FigLegibleOutputManagerSetCaptionPipelineStrategy
+- _FigLegibleOutputManagerSetCaptionRenderingStrategy
+- _flom_ensureRenderPipelinesForFormat
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_25
+- [3 functions removed in block]
+- _synchronizer_setRateAndTime
+- _synchronizer_setRateAndAnchorTime
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_22
+- _FigCaptionRendererFreeLayoutRegion_FigCaptionRendererNodeProtocol_HasChildNode
+- -[FigCPEFPAirPlaySession authorizeItemCompletionHandler_objc:picData:playerGUID:error:]
+- ___76-[FigCPEFPAirPlaySession beginSessionWithCompletionQueue:completionHandler:]_block_invoke
+- ___76-[FigCPEFPAirPlaySession beginSessionWithCompletionQueue:completionHandler:]_block_invoke.36
+- _OUTLINED_FUNCTION_1
+- _FigSpeedRampRenderPipelineCreate
+- _speedramp_dataBecameReady
+- _speedramp_downstreamBufferQueueLowWater
+- _speedramp_wakeUpAndCheckTheTimebase
+- _speedramp_reflectNotificationFromDownstreamRenderPipeline
+- [9 functions removed in block]
+- _figSpeedRampRenderPipelineCopyProperty
+- _speedramp_timebaseTimeJumped
+- _FigManifoldCreateForMovieFragmentStream
+- _MovieFragmentManifoldCopyProperty
+- _MovieFragmentManifoldSetProperty
+- _fragManifold_EndAllTracks
+- _MovieFragmentManifoldInjectData
+- _MovieFragmentManifoldNoteStreamEnd
+- _fragManifold_EmitSamples
+- _OUTLINED_FUNCTION_5
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_31
+- _OUTLINED_FUNCTION_34
+- _OUTLINED_FUNCTION_38
+- [8 functions removed in block]
+- _OUTLINED_FUNCTION_60
+- _OUTLINED_FUNCTION_65
+- [3 functions removed in block]
+- _FigCaptionLayoutCopyEffectiveFontNamePlusInfoAndCreateElementGeometryArrays
+- _cclayout_getPixelRectForCellRect
+- _FigVideoCompositorCreateCustom
+- _customVideoCompositor_CompletePreroll
+- _customVideoCompositor_SetCompletePrerollCallback
+- _remoteVideoCompositor_SetCustomCallbacks
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_14
+- [9 functions removed in block]
+- _FigVirtualDisplaySourceNullCreate
+- _VCServerRenderFrameFromWindowWithSourceSampleSeed
+- _ReportErrorAndForgetPendingFrames
+- _PendingFrameApplierFunction
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_2
+- [9 functions removed in block]
+- _OUTLINED_FUNCTION_25
+- ___FigUpstreamMonitor_CreateGuts_block_invoke
+- _OUTLINED_FUNCTION_0
+- _FigVTTDocumentWriterMapPropertyToAttribute_WritingMode
+- _FigVTTDocumentWriterMapPropertyToAttribute_TextAlign
+- _figURLStorageSessionFinalize
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _FigCDSAVFLayoutRegion_FigCDSNodeProtocol_Layout
+- _figVTTDocumentWriterForVTT_CreateAndAddNode
+- _FigCFHTTPCopyDeviceStrings
+- _FigCFHTTPCopyQueryParams
+- _FigCFHTTPCopyQueryParamsAsDict
+- _MTEnableCaption2015Behavior
+- _OUTLINED_FUNCTION_7
+- _scheduleEventDo
+- _fcrTrigger_timebaseRateChanged
+- _onTimerTimeoutDo
+- [3 functions removed in block]
+- _sc_WriteMediaMapToDiskDispatchFunction
+- _FigStreamingCacheCopyMediaMap
+- _FigStreamingCacheRemoveMediaMap
+- _sc_DeleteMediaMapFromDiskDispatchFunction
+- _sc_UpgradePersistentStoreForWriting
+- _sc_FlushIOCompleteDispatchFunction
+- _figStreamingCacheInvalidate
+- _FigStreamingCacheSetCryptKey
+- [4 functions removed in block]
+- _FigStreamingCacheSetCacheTimeRange
+- _sc_CreateAndAddStreamEntry
+- _FigStreamingCacheCopyAllStreamsMetadata
+- _FigStreamingCacheMediaStreamSetPlaylist
+- [4 functions removed in block]
+- _FigStreamingCacheMediaStreamGetMediaSegmentWithMediaSequenceNumber
+- _FigStreamingCacheMediaStreamCopyCachedTimeRanges
+- _FigStreamingCacheMediaStreamMarkComplete
+- [7 functions removed in block]
+- _sc_FreeSegmentBlock
+- [8 functions removed in block]
+- _figStreamingCacheFinalize
+- _sc_SendDiskWriteErrorNotification
+- _sc_RestoreMediaMapsFromDiskApplierFunction
+- _segment_EvictEntry
+- _sc_CreateDiskCacheBundle
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_24
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _FigCaptionRendereriTTRegion_FigCaptionRendererNodeProtocol_HasChildNode
+- sub_194a8cb5c
+- sub_194aa1350
+- sub_194aba7b0
+- [3 functions removed in block]
+- [3 functions removed in block]
+- sub_194b0e810
+- [4 functions removed in block]
+- [7 functions removed in block]
+- [10 functions removed in block]
+- sub_194b1b064
+- sub_194b1c6c8
+- sub_194b2ab5c
+- sub_194b2d358
+- sub_194b2ee08
+- sub_194b33ed0
+- sub_194b3ae8c
+- sub_194b3db0c
+- sub_194b431a0
+- sub_194b48dbc
+- sub_194b4d690
+- sub_194b4fe48
+- [3 functions removed in block]
+- sub_194b5d9d8
+- [3 functions removed in block]
+- sub_194b6573c
+- sub_194b69484
+- sub_194b6a8e4
+- sub_194b6d8b0
+- sub_194b6eea4
+- sub_194b71820
+- sub_194b74630
+- sub_194b76c58
+- sub_194b77628
+- sub_194b787ec
+- [3 functions removed in block]
+- _figTTMLDocumentWriterForiTT_StartElement
+- _figTTMLDocumentWriterForiTT_EndElement
+- _findAndSaveOverlappingIntervalsApplier.cold.1
+- _FigStreamPlaylistParserCreateMediaGroup
+- _streamPlaylistParser_serializeTaggedRangeEntries
+- _FigStreamPlaylistParserSerializeMediaPlaylist
+- _FigStreamPlaylistParserDeserializeMediaPlaylist
+- _streamPlaylistParser_serializeMediaSegmentSpecifier
+- _streamPlaylistParser_copySerializedRepresentationForMediaGroupApplier.cold.1
+- _streamPlaylistParser_copySerializedRepresentationForMediaGroupApplier.cold.2
+- [4 functions removed in block]
+- _FigPKDOctaviaCPECryptorCreateKeyRequest
+- _FigPKDOctaviaCPECryptorSetKeyRequestResponse
+- _FigPKDOctaviaCPECryptorTestAndSetKeyRequestState
+- [3 functions removed in block]
+- _fss_getOrCreateNewReportingStatsForReportingStatsKey
+- [4 functions removed in block]
+- _BVCUtilityCreateEdgeLists.cold.3
+- _BVCUtilityCreateEdgeLists.cold.4
+- [4 functions removed in block]
+- _tdrp_pipelineCallback.cold.3
+- _tdrp_BuildID3Dictionary.cold.2
+- _dataChannelResource_SetProcessingState
+- [31 functions removed in block]
+- [6 functions removed in block]
+- _fbapop_attempConnectNextSynchronizedToTimebaseRenderPipeline
+- _fbapop_callSetRateOnBAO
+- _fbapop_connectRenderPipelineToBAO
+- _FigBufferedAirPlayOutputProxyCreate.cold.2
+- _FigBufferedAirPlayOutputProxyCreate.cold.3
+- [4 functions removed in block]
+- [6 functions removed in block]
+- [3 functions removed in block]
+- _fcks_remote_addChildSession.cold.2
+- _fcks_remote_addChildSession.cold.3
+- [18 functions removed in block]
+- [38 functions removed in block]
+- _FigXPCPlaybackCoordinatorServerHandleNoReplyMessage
+- _coordinatorServerMedium_asynchronouslyReloadTimelineState
+- _FigXPCPlaybackCoordinatorServerAssociateCopiedNeighborPlaybackCoordinator.cold.1
+- _serverXPCCoordinator_handleEndSuspensionProposingNewTime.cold.1
+- [7 functions removed in block]
+- [6 functions removed in block]
+- _FigCEA608DataGeneratorBeginCaption
+- [16 functions removed in block]
+- _FigCEA608DataGeneratorAddCaptionLine.cold.7
+- [27 functions removed in block]
+- [3 functions removed in block]
+- _FigICY_CreateHTTPRequest
+- _FigICY_CustomURLLoaderCallbackFn
+- _FigICY_HTTPCommonCallback
+- [6 functions removed in block]
+- _writeFreeAtom
+- _appendFileTypeAtomAndMediaDataAtomHeaderAndPaddingIfNeeded
+- [29 functions removed in block]
+- [69 functions removed in block]
+- [13 functions removed in block]
+- __ZL32fim_MakePushSampleBufferCallbackP17OpaqueFigManifoldP14FigIcyManifoldiPFiS0_iPvjxP20opaqueCMSampleBufferES3_jxS5_
+- __ZL38FigIcyManifoldInstallCallbacksForTrackP17OpaqueFigManifoldiPK26FigManifoldOutputCallbacksPv
+- [9 functions removed in block]
+- [3 functions removed in block]
+- _FigStreamingLiveServerClockCreate.cold.1
+- _FigContentKeySessionCreateWithCallbacks
+- _fcks_invalidate
+- _fcks_persistentKeyUpdatedCallback
+- _fcks_keyResponseSuccessfullyProcessedCallback
+- _fcks_externalProtectionStateChangedCallback
+- _fcks_setClientAuditTokenForChildSession
+- _fcsk_externalProtectionStatusForCryptor
+- [12 functions removed in block]
+- [18 functions removed in block]
+- [16 functions removed in block]
+- [6 functions removed in block]
+- [37 functions removed in block]
+- [26 functions removed in block]
+- [5 functions removed in block]
+- [10 functions removed in block]
+- _FigTTMLFeaturesCreate.cold.1
+- _FigTTMLFeaturesCreate.cold.2
+- _figTTMLFeatures_GetNodeType.cold.1
+- _remoteXPCAIG_GetObjectID.cold.1
+- _remoteXPCAIG_GetObjectID.cold.2
+- _crabsCreateReadStatsDictionary
+- _crabsRestoreCache
+- _crabsFlumeConnectionToHostLost
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [4 functions removed in block]
+- [12 functions removed in block]
+- _FigTTMLNodeGetTimeContainerSemantics.cold.1
+- [11 functions removed in block]
+- _figtimebase_getSyncMomentInternal.cold.2
+- [7 functions removed in block]
+- [6 functions removed in block]
+- [12 functions removed in block]
+- [4 functions removed in block]
+- [11 functions removed in block]
+- _cclcpccvAppendCaptionDataWithSameTimeRange.cold.3
+- _cclcpccvAppendCaptionDataWithSameTimeRange.cold.4
+- [10 functions removed in block]
+- _FigByteStreamServerCopyByteStreamForID.cold.2
+- _FigByteStreamServerCopyByteStreamForID.cold.3
+- _fssm_remote_getObjectID.cold.1
+- _fssm_remote_getObjectID.cold.2
+- [5 functions removed in block]
+- _fnum_scheduleDeadlineCleanup.cold.1
+- [4 functions removed in block]
+- _VMC2MakeOutputCallbacksForImageQueueArray.cold.5
+- _vmciqa_installOccupancyChangedCallback.cold.2
+- _subaq_prepareForStart
+- _faq_reset
+- _faq_setAudioCurves
+- _faq_updateRate2Enable
+- _subaq_deferringAQPropertyListenerHandler
+- _subaq_setCinematicAudioBulkParameters
+- _subaq_scheduleCinematicForMediaTimeRange
+- [3 functions removed in block]
+- [15 functions removed in block]
+- [4 functions removed in block]
+- [8 functions removed in block]
+- [24 functions removed in block]
+- _FigAudioQueueRestoreParameters.cold.1
+- _FigAudioQueueRestoreParameters.cold.2
+- [3 functions removed in block]
+- _FigAudioQueueCopyPerformanceDictionary.cold.4
+- [19 functions removed in block]
+- [7 functions removed in block]
+- _FBLSupportAppendDeferredTransactionChangeToSetContentsScaleForFigCALayer.cold.1
+- _FBLSupportAppendDeferredTransactionChangeToSetAllowsDisplayCompositing.cold.1
+- [6 functions removed in block]
+- _streamModeratorResetStatsForEvent
+- _HandleMutableCompositionMessage
+- [4 functions removed in block]
+- _fpfs_4kBatonAvailable
+- _fpfs_scheduleForwardEndTimeForTrack
+- _fpfs_EnsureScanningBoundaryTimer
+- _fpfsi_UpdateAccessLogStartupPerformanceMetrics
+- _fpfsi_scheduleFVTTransitionForFVTAndTrack
+- _fpfs_ScanningBoundaryTimerProc
+- _fpfs_SetRateWithFadeInternal
+- _fpfsi_SwitchBetween4kAndHD
+- _fpfsi_atOrAfterTimeToPausePlayback
+- _fpfs_scheduleReverseEndTimeTimer
+- _fpfsi_ClampVideoToTime
+- _fpfsi_RTCReportingReportFormatTransition
+- _fpfsi_addCAImageQueuesAndSlots
+- _fpfsi_createOutputDestinationForVideo
+- _fpfsi_VideoOutputAllowedWithPermissivePolicy
+- _fpfsi_assignCAImageQueuesToLayers
+- [3 functions removed in block]
+- _fpfs_GetAudioDeviceMaxMixablePhysicalOutputChannelCountFromFigAudioSession
+- _fpfs_setIFrameOnlyRate
+- _fpfsi_ReleaseRenderChainsForPausing
+- [4 functions removed in block]
+- _fpfsi_HandleNextBestEffortTrickplayModeSeek
+- _fpfs_haltStream
+- [4 functions removed in block]
+- _fpfsi_RTCReportingReportTrialSwitchData
+- _fpfs_FinishVideoSync
+- _fpfsi_SetupSkipBitrateRangeFilter
+- _fpfsi_RTCReportingUpdateAlternateIndex
+- _fpfs_deferredAudioPlayResourceReleased
+- _fpfs_CancelGaplessTransitionThatDependsOnTrack
+- _fpfs_VideoSyncTimerProc
+- _fpfs_EnsureRenderChainForTrack
+- _fpfs_DeleteTrack
+- [3 functions removed in block]
+- [6 functions removed in block]
+- _fpfs_AddNewTrack
+- _fpfsi_SetTrackMediaType
+- [4 functions removed in block]
+- _fpfs_UpdateDateInfo
+- _fpfsi_SetNextVideoGOPRangeToTrimForTrack
+- _fpfs_GetPreciseTimeForDate
+- _fpfsi_deferredRenderPipelineFailedToStart
+- _fpfsi_deferredRenderPipelineProcessingModeChanged
+- _fpfsi_deferredRenderPipelineStartupTimestampsChanged
+- _fpfsi_updateOutputsForAllAggregateVideoDestinations
+- _fpfs_ReadjustDimensions
+- _fpfsi_GetClosedCaptionType
+- _fpfsi_sendLoudnessInfoMarkerSampleBufferToAudioRenderPipeline
+- _fpfs_MarkAccessLogEntryComplete
+- _fpfsi_deferredMarkerBufferConsumed
+- _fpfsi_NowReadyForInspection
+- _fpfsi_RTCReportingReportIRATEventIfNeeded
+- _fpfs_deferredSuggestedAlternateNote
+- _fpfs_deferredDurationChanged
+- _fpfsi_SetupIFramePrefetch
+- _fpfsi_UpdateTaggedRangeMetadataFromPumpAndNotifyIfNeeded
+- _fpfsi_UpdatePrefersConcurrentSwitching
+- _fpfs_PumpTransferCallback
+- _fpfsi_CoordinateWithAssetDownloader
+- [5 functions removed in block]
+- _fpfsi_ConfigureAlternateSelectionBossForPlayRate
+- _fpfsi_updateDisplayListForHDCPMonitor
+- _fpfsi_setOverrideDisplaysSupportedVideoRange
+- _fpfsi_MultichannelUninhibitedCallback
+- _fpfs_InitiateSwitchRecovery
+- _fpfs_FindAndSetForcedSubtitle
+- _fpfsi_expensiveNetworkChangedCallback
+- _fpfsi_DeferredAssetBecameEligibleForDownload
+- _fpfsi_DateMappingCallback
+- _fpfs_CancelSeekIfNeeded
+- _fpfs_DeferredAssessItemTransition
+- _fpfsi_RTCReportingUpdateBufferDuration
+- _fpfsi_checkCoordinatedPlaybackCapability
+- _fpfsi_DeferredHandleVenueDescriptionMetadataProcessingStatusNotification
+- _fpfs_setRateOnPrimaryAndAuxRenderPipelines
+- _fpfsi_applySoftwareVolume
+- _fpfs_EnterBestEffortTrickplayMode
+- _fpfsi_SetLastTimestampClientDidPauseOnContentSteeringMonitor
+- _fpfs_reverseEndTimerProc
+- _fpfs_needsMoreTimerProc
+- _fpfsi_deferredCompletedDecodeForPreroll
+- _fpfs_PlayerResourceBudgetChanged
+- _fpfs_RemoveFromPlayQueueGuts
+- _fpfsi_setMetadataOutputsDictionary
+- _fpfsi_updatePriorImageQueueGaugeOnVideoRenderPipelines
+- _fpfsi_ApplyFiltersAndSwitchVariantIfNecessary
+- _fpfs_deferredRedoPreroll
+- _fpfs_setMuted
+- _fpfs_AdvanceToNextItemIfNecessary
+- _fpfsi_postMetadataOutputChanged
+- _fpfs_DuckVolume
+- _fpfs_SilentMute
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _fpfsi_setPlaybackRateMonitorPendingSeekTime.cold.2
+- [6 functions removed in block]
+- [3 functions removed in block]
+- [5 functions removed in block]
+- [6 functions removed in block]
+- [4 functions removed in block]
+- _fpfs_ranDryTimerProc.cold.1
+- _fpfs_PushSampleBuffer.cold.1
+- [14 functions removed in block]
+- _fpfs_BytePumpFn.cold.1
+- _fpfs_NewTrackNote.cold.1
+- _fpfs_NewTrackNote.cold.2
+- _fpfs_NewTrackNote.cold.5
+- _fpfs_NewTrackNote.cold.6
+- [7 functions removed in block]
+- _fpfs_ApplyMediaArray.cold.6
+- _fpfs_CopyProperty.cold.1
+- _fpfs_externalStartupTaskCompleted.cold.1
+- _fpfsi_CopyProperty.cold.1
+- _fpfsi_CopyProperty.cold.2
+- [5 functions removed in block]
+- [3 functions removed in block]
+- _fpfsi_SeekToDateWithID.cold.1
+- [26 functions removed in block]
+- _fpfs_handleSetProperty.cold.26
+- _fpfs_handleSetProperty.cold.28
+- [5 functions removed in block]
+- [8 functions removed in block]
+- [7 functions removed in block]
+- [3 functions removed in block]
+- _fpfs_CopyDisplayedCVPixelBuffer.cold.2
+- _fpfs_CopyDisplayedCVPixelBuffer.cold.3
+- _vcp_timedSample_createCommon.cold.1
+- _vcp_timedSample_createCommon.cold.2
+- [4 functions removed in block]
+- ___FigManifoldStartServer_block_invoke.cold.1
+- [56 functions removed in block]
+- [24 functions removed in block]
+- _itemfig_rebuildRenderPipelinesAndBossGuts
+- _itemfig_vendAccessLogWhenItemStopsBeingCurrent
+- _playerfig_updateEffectiveResourceConservationLevel
+- _playerfig_setClientVideoLayerArray
+- _playerfig_setActionAtEnd
+- _playerfig_ReevaluateRouteConfiguration
+- _itemfig_retrieveAssetBasicsIfReady
+- [6 functions removed in block]
+- _itemfig_configureDownloadForItem.cold.2
+- _itemfig_copyFormatDescription.cold.1
+- [5 functions removed in block]
+- [11 functions removed in block]
+- _itemfig_copyCombinedLoudnessInfoDictionary.cold.1
+- _itemfig_getMaximumNumberOfSpatializedOutputChannels.cold.1
+- _itemfig_monitorPlayability.cold.3
+- [3 functions removed in block]
+- _itemfig_createRenderTriplesForVideo.cold.5
+- _itemfig_createRenderTriplesForVideo.cold.6
+- [5 functions removed in block]
+- [3 functions removed in block]
+- [4 functions removed in block]
+- [7 functions removed in block]
+- _playerfig_connectLayerSynchronizerToLayer.cold.1
+- [4 functions removed in block]
+- _playerfig_getNextPlaybackState.cold.1
+- _fp_createCommonRenderPipelineOptionsForTrack.cold.1
+- _fp_createFigImageQueueArrayForVideoRenderPipeline.cold.1
+- [5 functions removed in block]
+- _playerfig_handleSetProperty.cold.1
+- _playerfig_handleSetProperty.cold.2
+- _playerfig_removeExcessImageQueuesAndSlotsFromAllWorkingOrLameDuckItems.cold.1
+- [3 functions removed in block]
+- [4 functions removed in block]
+- _playerfig_RemoveFromPlayQueue.cold.5
+- [5 functions removed in block]
+- [14 functions removed in block]
+- _itemfig_CopyProperty.cold.14
+- _itemfig_CopyProperty.cold.17
+- [3 functions removed in block]
+- _itemfig_CopyProperty.cold.38
+- _itemfig_CopyProperty.cold.40
+- [3 functions removed in block]
+- _itemfig_CopyProperty.cold.46
+- _itemfig_CopyProperty.cold.47
+- [4 functions removed in block]
+- [3 functions removed in block]
+- [10 functions removed in block]
+- _playerfig_DuckVolume.cold.2
+- _sbcins_SendSampleBuffer
+- _ckb_associateRequestWithGroupEntry
+- [9 functions removed in block]
+- _gaec_Copy.cold.2
+- [24 functions removed in block]
+- [6 functions removed in block]
+- [27 functions removed in block]
+- [5 functions removed in block]
+- [11 functions removed in block]
+- [15 functions removed in block]
+- [14 functions removed in block]
+- _remoteXPCPlaybackCoordinator_DisconnectFromMedium
+- [6 functions removed in block]
+- _FigAudioFileStreamFormatReaderCreateFromStream.cold.4
+- _FigAudioFileStreamFormatReaderCopyProperty.cold.1
+- [12 functions removed in block]
+- [5 functions removed in block]
+- _FigByteFlumePostConnectionToHostLostNotification.cold.1
+- _CreatePlaylistFileParserFromDataInProcess.cold.5
+- [4 functions removed in block]
+- _FigByteStreamCreateForByteFlume.cold.3
+- [3 functions removed in block]
+- [7 functions removed in block]
+- _CreateSampleBufferConsumerServerState.cold.1
+- [23 functions removed in block]
+- ___FigJSONParserStartServer_block_invoke.cold.1
+- ___fjp_ensureClientEstablished_block_invoke.cold.1
+- _assetDownloaderServer_handleRemoteMessage
+- _assetDownloaderServer_finalize
+- _FigCDSMACacheCreate.cold.1
+- _dworch_selectAlternates_removePumpListeners
+- _dworch_transitionToTerminalState
+- _dworch_selectAlternates_gotAlternates
+- _FigStreamingAssetDownloadOrchestratorCreate.cold.2
+- _FigStreamingAssetDownloadOrchestratorCreate.cold.3
+- [3 functions removed in block]
+- [7 functions removed in block]
+- _dworch_downloadMedia_downloadSucceededCallback.cold.3
+- [11 functions removed in block]
+- [6 functions removed in block]
+- [6 functions removed in block]
+- [14 functions removed in block]
+- [10 functions removed in block]
+- [11 functions removed in block]
+- [11 functions removed in block]
+- _dworch_resumeAfterPlaybackDispatch.cold.1
+- [6 functions removed in block]
+- [6 functions removed in block]
+- [27 functions removed in block]
+- [3 functions removed in block]
+- [9 functions removed in block]
+- [17 functions removed in block]
+- [8 functions removed in block]
+- _metadw_customURLReadCallback
+- _metadw_configureMediaSelectionsForAlternateDispatch.cold.2
+- [11 functions removed in block]
+- [9 functions removed in block]
+- [17 functions removed in block]
+- [8 functions removed in block]
+- [9 functions removed in block]
+- [15 functions removed in block]
+- [11 functions removed in block]
+- [6 functions removed in block]
+- [3 functions removed in block]
+- [4 functions removed in block]
+- [5 functions removed in block]
+- _FigAudioQueueTimingShimGetAudioQueueLatency
+- [13 functions removed in block]
+- _synchronizerRemote_getObjectID.cold.1
+- [6 functions removed in block]
+- _FigSampleCursorUtilityGetBatchSampleTimingAndSizes.cold.1
+- _sapl_sessionDataSchedulerDidProduceDataOutput
+- _sapl_loadMediaPlaylist.cold.2
+- _sapl_loadMediaPlaylist.cold.3
+- _FigStreamingAssetPropertyLoaderCreate.cold.2
+- _FigStreamingAssetPropertyLoaderCreate.cold.3
+- _sapl_loadPlaylist.cold.2
+- _sapl_playlistDidProduceDataOutput.cold.1
+- [4 functions removed in block]
+- _FigAlternateHasAudioFormatID.cold.1
+- [4 functions removed in block]
+- [3 functions removed in block]
+- [8 functions removed in block]
+- [15 functions removed in block]
+- _bossUsingEditCursorServiceArrayFindNextNonEmptyTrackTime.cold.2
+- _bossTrackChangesDuringPlaybackRequireVCPUpdate.cold.1
+- [4 functions removed in block]
+- _FigTTMLDocumentWriterStateCreate.cold.2
+- _FigUserExperienceScorerCreate.cold.3
+- [10 functions removed in block]
+- _FigAudioQueueRenderPipelineCreate.cold.1
+- [4 functions removed in block]
+- _FigPlaybackTimerCancel.cold.1
+- [9 functions removed in block]
+- [20 functions removed in block]
+- [18 functions removed in block]
+- [7 functions removed in block]
+- _figVideoRenderPipelineUpdateImageQueues.cold.1
+- _figVideoRenderPipelineUpdateImageQueues.cold.2
+- _figVideoRenderPipelineRequestDecodeForPreroll.cold.1
+- _audioRenderer_lookupAndRetainSampleBufferAudioRendererByObjectIDForConnection.cold.1
+- _FigCaptionRendererSessionStop
+- [25 functions removed in block]
+- [11 functions removed in block]
+- [41 functions removed in block]
+- _renderCaptionDo.cold.4
+- _layoutSceneDo.cold.1
+- [3 functions removed in block]
+- [22 functions removed in block]
+- [6 functions removed in block]
+- _subrp_resetOutput.cold.1
+- _subrp_sendEmptySubtitleSample.cold.1
+- _fpSupport_SetupMediaValidatorPlist.cold.5
+- [4 functions removed in block]
+- _FPSupport_updateClosedCaptionLayerBounds.cold.2
+- _FPSupport_updateClosedCaptionLayerBounds.cold.3
+- _storeClosedCaptionLayerBoundsInCacheForLayerIndex.cold.2
+- [10 functions removed in block]
+- [9 functions removed in block]
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [3 functions removed in block]
+- [8 functions removed in block]
+- _FPSupport_ProcessPayloadForLastPlayedDateNotification.cold.1
+- _fpSupport_handleSetPropertiesApplier.cold.1
+- _fsaf_applyCFArrayApplierFn
+- [5 functions removed in block]
+- _FigAlternatePathwayPreferenceFilterCreate.cold.2
+- _FigAlternatePathwayPreferenceFilterCreate.cold.3
+- _fsaf_createWithBytes.cold.2
+- [9 functions removed in block]
+- [47 functions removed in block]
+- _faf_HDCPAlternateFilterApply.cold.3
+- [5 functions removed in block]
+- [7 functions removed in block]
+- [3 functions removed in block]
+- _dqr_setProperty.cold.4
+- _dqr_SyncServerTimebaseToMoment.cold.1
+- [4 functions removed in block]
+- _FigVTTCaptionWriterCreateForDocument.cold.2
+- [5 functions removed in block]
+- _FigByteFlumeSetAdditionalOpenRequestHeaders
+- [8 functions removed in block]
+- _FigCFHTTPCopyBandwidthInfo.cold.1
+- _FigCFHTTPCancel.cold.1
+- _FigCFHTTPCopyIdentifier.cold.2
+- [4 functions removed in block]
+- _FigPlayerStartupTaskCopyRequiredParameters.cold.1
+- _FigPlayerStartupTaskCreateWithCallbacks.cold.4
+- _FigPlayerStartupTaskCreateWithCallbacks.cold.5
+- _FigPlayerStartupTaskCreateWithCallbacks.cold.7
+- [8 functions removed in block]
+- _FigReadCacheContainerShowInterestInCaching.cold.1
+- _FigReadCacheContainerShowDisinterestInCaching.cold.1
+- _CreateAndLoadNewContainerInCacheAndReturnContainer.cold.1
+- _ps_writeXMLDocToFileAtomically.cold.4
+- _ps_writeXMLDocToFileAtomically.cold.6
+- _ps_writeXMLDocToFileAtomically.cold.7
+- [3 functions removed in block]
+- _FigXMLNodeWriteXMLFileFromBlockBufferAtURL.cold.2
+- _FigXMLNodeCreateNode.cold.1
+- [4 functions removed in block]
+- [18 functions removed in block]
+- _ps_xmlNodeCopyContentAsCFString.cold.3
+- _FigCEA608CaptionDecoderCreate.cold.1
+- _FigCEA608CaptionDecoderCreate.cold.3
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [5 functions removed in block]
+- [5 functions removed in block]
+- [3 functions removed in block]
+- _fdcr_RemoveFilePathInListFromArray.cold.2
+- _FigXPCCPEProtectorServerAssociateCopiedNeighborCPEProtector
+- _CreateServedCPEProtectorState.cold.1
+- _CreateServedCPEProtectorState.cold.2
+- [23 functions removed in block]
+- [5 functions removed in block]
+- _videoReceiver_createDataQueue.cold.1
+- _videoReceiver_createPlaybackStartupPreventionAssertion.cold.3
+- _videoReceiver_createPlaybackStartupPreventionAssertion.cold.4
+- _videoReceiver_createPlaybackStartupPreventionAssertion.cold.6
+- _videoReceiver_createPlaybackStartupPreventionAssertion.cold.7
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [3 functions removed in block]
+- _videoReceiver_copyPixelBufferFromImageQueueReceiverSamplingAtTime.cold.4
+- _videoReceiver_copyPixelBufferFromImageQueueReceiverSamplingAtTime.cold.5
+- [11 functions removed in block]
+- [6 functions removed in block]
+- _figCAXPCImageQueueSample_copyTelemetryInfoDict.cold.2
+- _figCAXPCImageQueueSample_copyTelemetryInfoDict.cold.3
+- [4 functions removed in block]
+- _samplingEventIdentifier_create.cold.2
+- _samplingEventIdentifier_create.cold.3
+- _InitDiskCache.cold.2
+- _FigCreateMediaSelectionArrayFromFormatReaderProperties.cold.1
+- _FigCreateMediaSelectionArrayFromFormatReaderProperties.cold.2
+- [9 functions removed in block]
+- [11 functions removed in block]
+- [5 functions removed in block]
+- _FigAlternateFilterTreeInsertLeaf.cold.1
+- _FigAlternateFilterTreeCreateFilter.cold.1
+- _FigAlternateFilterTreeCopyLeaves.cold.2
+- _ftreefilter_appendAndReleaseLeafInfo.cold.1
+- _ftreefilter_appendEmptyLeafInfosForLeafFilterAndItsChildren.cold.1
+- _FigCMCDHeaderVendorSetLoadedTimeRange.cold.1
+- _FigCMCDHeaderVendorSetBufferDidStarve.cold.1
+- _FigCMCDHeaderVendorCreate.cold.1
+- _FigCMCDHeaderVendorCreate.cold.2
+- [6 functions removed in block]
+- _bpr_timerCallback.cold.1
+- _bpr_timerCallback.cold.3
+- _bpr_timerCallback.cold.4
+- _FigContentKeyBossClientServerXPC_DeserializeAndCopyKeyRequestParams.cold.1
+- [5 functions removed in block]
+- _MoviePSSHData_GetPlayReadyProtectionSystemData.cold.1
+- _MoviePSSHData_GetPlayReadyProtectionSystemData.cold.2
+- [3 functions removed in block]
+- [5 functions removed in block]
+- [21 functions removed in block]
+- [18 functions removed in block]
+- [5 functions removed in block]
+- [6 functions removed in block]
+- _remoteXPCPlayerClient_NotificationFilter.cold.2
+- [5 functions removed in block]
+- _remoteXPCItem_handleFirstFrameNotificationLatch.cold.1
+- _remoteXPCItem_copyOwningPlayer.cold.1
+- _fpr_copySampleBuffersArrayFromMessage.cold.1
+- _remoteXPCPlayer_CopyProperty.cold.2
+- _remoteXPCPlayer_GetObjectID.cold.2
+- _remoteXPCPlayer_handleSetProperty.cold.2
+- _remoteXPCPlayer_handleSetProperty.cold.3
+- _remoteXPCPlayer_handleSetProperty.cold.5
+- [4 functions removed in block]
+- [18 functions removed in block]
+- [12 functions removed in block]
+- [11 functions removed in block]
+- _FigTTMLP_GetNodeType.cold.1
+- _remoteXPCMutableMovie_GetObjectID.cold.3
+- _FigManifoldCreateForGap.cold.1
+- __ZL20fgManifoldInjectDataP17OpaqueFigManifoldxjP19OpaqueCMBlockBuffer.cold.1
+- __ZL20fgManifoldInjectDataP17OpaqueFigManifoldxjP19OpaqueCMBlockBuffer.cold.2
+- __ZL20fgManifoldInjectDataP17OpaqueFigManifoldxjP19OpaqueCMBlockBuffer.cold.5
+- __ZL15fgNoteStreamEndP17OpaqueFigManifoldi.cold.1
+- [3 functions removed in block]
+- [12 functions removed in block]
+- [6 functions removed in block]
+- [3 functions removed in block]
+- _FigTextContainerGetCharactersForRange.cold.3
+- [12 functions removed in block]
+- _ckcbr_create.cold.2
+- _ckcb_setRequest.cold.1
+- _ckcb_destroyGroupDispatch.cold.1
+- [9 functions removed in block]
+- _figCSSNumericTokenCreate_internal.cold.2
+- _figCSSNumericTokenCreate_internal.cold.3
+- _figCSSNumericTokenCreate_internal.cold.5
+- [7 functions removed in block]
+- [3 functions removed in block]
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [8 functions removed in block]
+- _raci_getObjectID.cold.2
+- _TTMLParserCreate.cold.1
+- _ttmlParser_addTextNodeSourceInformation.cold.1
+- _remakerFamily_registerDarwinNotification.cold.1
+- [3 functions removed in block]
+- [4 functions removed in block]
+- [4 functions removed in block]
+- _remakerFamily_createRenderPipelineOptions.cold.1
+- _remakerFamily_createRenderPipelineOptions.cold.2
+- _remakerFamily_getSourceASBDForTrackID.cold.2
+- _remakerfamily_updateIOPolicy.cold.1
+- [5 functions removed in block]
+- [7 functions removed in block]
+- _remakerFamily_finishVideoCompositionChannel.cold.5
+- [11 functions removed in block]
+- [10 functions removed in block]
+- [4 functions removed in block]
+- _assetXPCServer_NotificationFilter.cold.3
+- _assetXPCServer_SerializeAssetTrackPropertyValueIntoXPCDictionary.cold.1
+- _assetXPCServer_SerializeTracksArrayIntoXPCDictionary.cold.2
+- _assetXPCServer_SerializeTracksArrayIntoXPCDictionary.cold.3
+- [6 functions removed in block]
+- _ParseFileTypeAtom.cold.1
+- _ParseFileTypeAtom.cold.2
+- [8 functions removed in block]
+- [16 functions removed in block]
+- [10 functions removed in block]
+- [4 functions removed in block]
+- [28 functions removed in block]
+- _FigHapticQueueCreate.cold.2
+- [7 functions removed in block]
+- _metadataCreateNativeKeySpaceAndKeys.cold.4
+- _metadataCreateNativeKeySpaceAndKeys.cold.5
+- [6 functions removed in block]
+- [9 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _sadc_getWeakAssetKey.cold.3
+- _FigAssetDownloadCoordinatorUnregisterAssetWithDownloadTokenForAllDownloaders.cold.2
+- [9 functions removed in block]
+- _sads_scheduleAccessToURLDispatchGuts.cold.2
+- _sads_scheduleAccessToURLDispatchGuts.cold.3
+- _sads_performDispatchScheduledCallbackFn.cold.1
+- [5 functions removed in block]
+- _CommonFormatReaderObjectStorePropertyInCache
+- ___remoteSampleCursor_StepInPresentationOrderAndReportStepsTaken_block_invoke.209
+- [6 functions removed in block]
+- [4 functions removed in block]
+- [3 functions removed in block]
+- [8 functions removed in block]
+- _CreateRemoteSampleCursor.cold.4
+- _FigServerSampleCursorSubscriptionSubscribe.cold.2
+- _remoteSampleCursor_Copy.cold.2
+- _remoteSampleCursor_Copy.cold.3
+- [10 functions removed in block]
+- _remoteSampleCursor_copyDataSourceTranslatedFromOutOfBandID.cold.1
+- ___remoteSampleCursor_registerNewDataSourcesFromMessage_block_invoke.cold.2
+- [3 functions removed in block]
+- [7 functions removed in block]
+- [3 functions removed in block]
+- [7 functions removed in block]
+- _FigISOUserDataCreateItemFromThumbnailData.cold.3
+- _FigISOUserDataCreateItemFromThumbnailData.cold.4
+- [10 functions removed in block]
+- [7 functions removed in block]
+- [4 functions removed in block]
+- [3 functions removed in block]
+- _GenericMetadataArrayCopyItemWithKeyAndIndex.cold.1
+- _GenericMetadataArrayCopyItemWithKeyAndIndex.cold.3
+- _GenericMetadataArrayCopyItemWithKeyAndIndex.cold.4
+- _itemoverlap_addTimebaseListener.cold.1
+- _itemoverlap_addTimebaseListener.cold.2
+- [7 functions removed in block]
+- _playeroverlap_rescheduleAdvanceTimerAndAnchorTime.cold.2
+- _playeroverlap_setPropertyToActiveSubPlayer_fun.cold.1
+- _playeroverlap_CreatePlaybackItemFromAsset.cold.2
+- _playeroverlap_CreatePlaybackItemFromAsset.cold.3
+- [7 functions removed in block]
+- [8 functions removed in block]
+- _FigRateMinderCreate.cold.2
+- -[FigSubtitleCALayer init].cold.2
+- _setupFCR.cold.1
+- [4 functions removed in block]
+- _localHelper_SetEnableEchoMitigation.cold.1
+- [8 functions removed in block]
+- _FigUserDataSerializerAddItem.cold.4
+- _FigUserDataSerializerAddItem.cold.5
+- [10 functions removed in block]
+- _FigRenderedLegibleOutputManagerCreate.cold.1
+- _FigRenderedLegibleOutputManagerCreate.cold.3
+- _FigRenderedLegibleOutputManagerCreate.cold.6
+- _FigRenderedLegibleOutputManagerCreate.cold.7
+- _FigRenderedLegibleOutputManagerCreate.cold.9
+- _frlo_rebuildFigRenderedLegibleOutputs_applier.cold.1
+- _FigiTunesMetadataSerializerCopyDebugDescription.cold.1
+- _FigiTunesMetadataSerializerCopyProperty.cold.1
+- _FigiTunesMetadataSerializerAddItem.cold.1
+- _FigiTunesMetadataSerializerAddItem.cold.2
+- _FigiTunesMetadataSerializerAddItem.cold.4
+- _FigiTunesMetadataCreateActualKey.cold.1
+- _FigiTunesMetadataCreateActualKey.cold.3
+- _FigiTunesMetadataCreateActualKey.cold.5
+- [7 functions removed in block]
+- _FigAssetReaderCreateWithAsset.cold.3
+- _FigAssetReaderCreateWithAsset.cold.4
+- [6 functions removed in block]
+- [9 functions removed in block]
+- [7 functions removed in block]
+- _assetReader_EnableDecodedVideoExtractionFromTrack.cold.22
+- [14 functions removed in block]
+- _assetReaderTrack_sourceImageAvailable.cold.2
+- _assetReaderTrack_sourceNoMoreImages.cold.1
+- _assetReader_startExtractionForTimeRangeCommon.cold.2
+- [3 functions removed in block]
+- _FigQuickTimeMetadataSerializerAddItem.cold.1
+- [7 functions removed in block]
+- [8 functions removed in block]
+- [6 functions removed in block]
+- _FigImageQueueCreateForCoreAnimation.cold.3
+- _FigImageQueueCreateForCoreAnimation.cold.4
+- _FigImageQueueCreateForCoreAnimation.cold.6
+- _piqca_loadCAImageQueueSetEDRDeadline.cold.1
+- _fstc_populateCachesWithMutex.cold.1
+- [7 functions removed in block]
+- [3 functions removed in block]
+- _FigVideoTargetXPCRemoteGetObjectID.cold.2
+- _FigVideoTargetCreateRemoteWithVideoReceiverEndpointID.cold.1
+- _FigVideoTargetCreateRemoteWithVideoReceiverEndpointID.cold.3
+- _FigVideoTargetCreateRemoteWithVideoReceiverEndpointID.cold.4
+- _FigVideoTargetCreateRemoteSharingVideoReceiverFromRemoteVideoTarget.cold.2
+- _FigTTMLDocumentWriterCreateStyleOptimizer.cold.1
+- _FigTTMLDocumentWriterCreateStyleOptimizer.cold.2
+- [4 functions removed in block]
+- [44 functions removed in block]
+- [13 functions removed in block]
+- [3 functions removed in block]
+- [6 functions removed in block]
+- _copyDimensionsAsDictionary.cold.3
+- _createTrackMetadataWritersDictionary.cold.1
+- _figClusterSynchManager_AddPort.cold.1
+- _figClusterSynchManager_AddPort.cold.2
+- _figClusterSynchManager_RemovePort.cold.1
+- _figClusterSynchManager_updateMyClusterID.cold.1
+- _figClusterSynchManager_srvInfoCallBack.cold.1
+- [3 functions removed in block]
+- _figClusterSynchManager_DeferredInitOnce.cold.2
+- [27 functions removed in block]
+- _sccFormatWriterEachSampleCallback.cold.4
+- _sccFormatWriterEachSampleCallback.cold.5
+- _FigMPEG2ParserInjectData.cold.1
+- [3 functions removed in block]
+- [9 functions removed in block]
+- [15 functions removed in block]
+- [5 functions removed in block]
+- [3 functions removed in block]
+- _PesAddMemoryToFrameBlockBuffer.cold.1
+- [11 functions removed in block]
+- [4 functions removed in block]
+- _FigStreamingAssetDownloadProgressMonitorCreate.cold.3
+- _dwpm_copyPropertyDispatch.cold.1
+- _dwpm_copyPropertyDispatch.cold.2
+- _figVTTSpan_CopyProperty.cold.1
+- _figVTTSpan_CopyProperty.cold.2
+- _figVTTSpan_SetProperty.cold.3
+- _figVTTSpan_SetProperty.cold.4
+- _figVTTSpan_copyNodeDocumentSerialization.cold.2
+- [13 functions removed in block]
+- _favd_CopyFigImageQueueArrayAndOptions.cold.1
+- _favd_populateVideoDestination.cold.1
+- _favd_populateVideoDestination.cold.3
+- [3 functions removed in block]
+- _FigWebVTTCaptionGroupConverterFromSampleBufferCreate.cold.1
+- _FigWebVTTCaptionGroupConverterFromSampleBufferCreate.cold.2
+- [7 functions removed in block]
+- _FigCDSTriggerSetTimebase.cold.1
+- [4 functions removed in block]
+- [13 functions removed in block]
+- _FigTTMLDocumentWriterCreateRegionStyleOptimizer.cold.1
+- _FigTTMLDocumentWriterCreateRegionStyleOptimizer.cold.2
+- _FigAttributePartitionGeneratorAddElement.cold.5
+- _FigAttributePartitionGeneratorCopyPartitionReferences.cold.1
+- [3 functions removed in block]
+- _FigAttributePartitionGeneratorCreate.cold.2
+- _FigAttributePartitionGeneratorCreate.cold.3
+- _xmlCopyMediaPlaylistPath.cold.1
+- _FigHLSPersistentStreamInfoCreate.cold.2
+- [8 functions removed in block]
+- [5 functions removed in block]
+- _FigHLSPersistentStreamInfoCreate.cold.24
+- _FigHLSPersistentStreamInfoCreate.cold.25
+- [3 functions removed in block]
+- [25 functions removed in block]
+- _ps_xmlIsComplete.cold.1
+- _xmlCopyUniqueIdentifier.cold.1
+- [5 functions removed in block]
+- [8 functions removed in block]
+- [3 functions removed in block]
+- [8 functions removed in block]
+- _FigImageQueueTableCopyVideoTargets.cold.1
+- _FigImageQueueTableCopyFigImageQueueForCAImageQueue.cold.1
+- _MovieSampleGroupCreate.cold.4
+- [8 functions removed in block]
+- [3 functions removed in block]
+- [5 functions removed in block]
+- _MovieSampleGroupCollectionCreate.cold.2
+- _MovieSampleGroupCollectionCreate.cold.3
+- [3 functions removed in block]
+- [8 functions removed in block]
+- [4 functions removed in block]
+- [3 functions removed in block]
+- [8 functions removed in block]
+- [8 functions removed in block]
+- [4 functions removed in block]
+- [4 functions removed in block]
+- [3 functions removed in block]
+- _fssa_createKey.cold.2
+- ___fssa_ensureArchivistSingletonContext_block_invoke.cold.2
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _FigMetadataReaderCreateForBoxedMetadata.cold.1
+- _FigMetadataReaderCreateForBoxedMetadata.cold.2
+- _boxedReader_CopyKeyAtIndex.cold.1
+- [6 functions removed in block]
+- _boxedreader_CopyItemWithKeyAndIndex.cold.4
+- [4 functions removed in block]
+- _videoTarget_CopyProperty.cold.2
+- _videoTarget_CopyProperty.cold.3
+- [3 functions removed in block]
+- _videoTarget_createFigImageQueue.cold.2
+- _videoTarget_createFigImageQueue.cold.3
+- _videoTarget_createFigImageQueue.cold.5
+- [12 functions removed in block]
+- _videoTarget_sendImageQueueMessageToReceiver.cold.1
+- _videoTarget_sendImageQueueMessageToReceiver.cold.3
+- _videoTarget_beginTransitionToDataChannelConfigurationInternal.cold.1
+- _videoTarget_beginTransitionToDataChannelConfigurationInternal.cold.2
+- _playerairplay_removeFigAudioSessionNotificationHandlers
+- _playerairplay_triggerAsyncCheckAndUpdatePlayQueueItems
+- _playerairplay_switchFromLocalToAirPlayVideo
+- [9 functions removed in block]
+- [4 functions removed in block]
+- _itemairplay_GetCurrentTime.cold.1
+- _itemairplay_GetCurrentTime.cold.2
+- ___itemairplay_airplaySetCurrentTime_block_invoke.cold.1
+- [3 functions removed in block]
+- [10 functions removed in block]
+- [6 functions removed in block]
+- [7 functions removed in block]
+- [8 functions removed in block]
+- _itemairplay_handleSetProperty.cold.1
+- _itemairplay_handleSetProperty.cold.9
+- _itemairplay_handleSetProperty.cold.10
+- _itemairplay_SeekToDateWithID.cold.1
+- [17 functions removed in block]
+- [7 functions removed in block]
+- _FigPlayerCoordinatorCreateWithOptions.cold.2
+- [29 functions removed in block]
+- [15 functions removed in block]
+- [6 functions removed in block]
+- [29 functions removed in block]
+- [39 functions removed in block]
+- [5 functions removed in block]
+- _mr_start.cold.3
+- _mr_transitionToFailedState.cold.1
+- _mr_transitionToFailedState.cold.2
+- _mr_copyRequestFromRetainProxy.cold.2
+- _mr_copyRequestFromRetainProxy.cold.3
+- _FigStreamingAssetDownloaderCreateWithURL.cold.1
+- _FigStreamingAssetDownloaderCreateWithURL.cold.2
+- [16 functions removed in block]
+- _sad_copyAssetDownloaderFromRetainProxy.cold.1
+- _sad_pumpTransferCallbackDispatch.cold.1
+- [4 functions removed in block]
+- _sad_getCFIndexForKeyFromPumpStoreBag.cold.3
+- _sad_setPropertyDispatch.cold.2
+- _sad_setPropertyDispatch.cold.3
+- [4 functions removed in block]
+- _sad_startDispatch.cold.1
+- [18 functions removed in block]
+- [25 functions removed in block]
+- [17 functions removed in block]
+- [15 functions removed in block]
+- [14 functions removed in block]
+- _FigCSSSimpleBlockParserNodeSetValue.cold.2
+- _FigCSSSimpleBlockParserNodeSetValue.cold.3
+- _FigByteStreamRemoteGetObjectID.cold.2
+- _FigByteStreamRemoteGetObjectID.cold.3
+- [4 functions removed in block]
+- _FigAlternateFilterMonitorCreateForVideoRangeFramerateCap.cold.1
+- [7 functions removed in block]
+- _famrbl_copyFilterForCurrentState.cold.1
+- [26 functions removed in block]
+- [54 functions removed in block]
+- [33 functions removed in block]
+- _FigCaptionRendererCALayerOutputCreate.cold.2
+- _FigCaptionRendererCALayerOutputCreate.cold.3
+- _figVTT_initNodeVTTTypeNameMapping.cold.1
+- [7 functions removed in block]
+- [4 functions removed in block]
+- _FigSampleBufferProviderCreateForVisualContext.cold.1
+- _FigSampleBufferProviderCreateForVisualContext.cold.2
+- _sbp_vc_getAndRetainNextSampleBufferFromVisualContextGroupIfReady.cold.1
+- _sbp_vc_getAndRetainNextSampleBufferFromVisualContextGroupIfReady.cold.3
+- _FigPictureCollectionCreateFromByteStreamWithOptions.cold.1
+- _FigPictureCollectionCreateFromByteStreamWithOptions.cold.2
+- _IFFPictureCollectionCopyProperty.cold.1
+- __createGroupDescription.cold.1
+- [4 functions removed in block]
+- [3 functions removed in block]
+- [5 functions removed in block]
+- [6 functions removed in block]
+- _fcd_ttml_createStylePropertyFromTTMLStyle_textOutline.cold.2
+- _fcd_ttml_createStylePropertyFromTTMLStyle_textOutline.cold.4
+- [47 functions removed in block]
+- [3 functions removed in block]
+- _FigRemakerCreateWithAsset.cold.2
+- _FigRemakerCreateWithAsset.cold.5
+- _FigRemakerCreateWithAsset.cold.6
+- [4 functions removed in block]
+- [6 functions removed in block]
+- [4 functions removed in block]
+- [4 functions removed in block]
+- _remaker_AddVideoTrack.cold.3
+- _remaker_AddVideoTrack.cold.4
+- _remaker_SetTimeRange.cold.2
+- _remaker_EstimateMaxSegmentDurationForFileSize.cold.1
+- [12 functions removed in block]
+- _remaker_createSanitizedDestinationASBDAndAudioOptions.cold.2
+- _remaker_createSanitizedDestinationASBDAndAudioOptions.cold.3
+- [9 functions removed in block]
+- _ckCaptionDrawText.cold.1
+- [3 functions removed in block]
+- [4 functions removed in block]
+- [13 functions removed in block]
+- _RunConverter.cold.2
+- [3 functions removed in block]
+- _FigVCLayerDefinitionGetSpecifiedAffineTransform.cold.1
+- _FigVCLayerDefinitionGetSpecifiedAffineTransform.cold.2
+- _FigVCLayerDefinitionCreate.cold.2
+- [5 functions removed in block]
+- _FigTTMLDocumentWriterCreateDivBuilder.cold.1
+- _FigTTMLDocumentWriterCreateDivBuilder.cold.2
+- _figTTMLLayout_CopyChildNodeArray.cold.1
+- _FigMediaRequestSchedulerAddResourceToReadQueue.cold.1
+- _FigMediaRequestSchedulerCreate.cold.3
+- _FigMediaRequestSchedulerCreate.cold.4
+- _mrs_resourceLoadDidFail.cold.1
+- _mrs_resourceLoadDidFail.cold.2
+- [5 functions removed in block]
+- _FigRemakerRemoteCreateWithURLs.cold.1
+- _FigRemakerRemoteCreateBaseWithURLs.cold.1
+- [11 functions removed in block]
+- [4 functions removed in block]
+- [18 functions removed in block]
+- [4 functions removed in block]
+- _frr_CopyTrackInfo.cold.2
+- _remoteWriter_AddNativeTrack.cold.1
+- [3 functions removed in block]
+- _remoteWriter_AddCaptionTrack.cold.1
+- _remoteWriter_AddVideoTrackWithCompressionAndMediaType.cold.1
+- [39 functions removed in block]
+- [45 functions removed in block]
+- [12 functions removed in block]
+- _PKDKeyManagerInstallCallbacksForKeyID.cold.3
+- _PKDKeyManagerInstallCallbacksForKeyID.cold.4
+- _keyManager_createInternal.cold.2
+- _keyManager_createInternal.cold.4
+- [3 functions removed in block]
+- _FigXPCImageQueueGaugeServerStartAsSubserver.cold.2
+- _FigDataChannelConfigurationCreate.cold.1
+- [28 functions removed in block]
+- _FigDataChannelConfigurationCopyFormatDescriptionsAtIndex.cold.1
+- [4 functions removed in block]
+- [5 functions removed in block]
+- [6 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [6 functions removed in block]
+- [7 functions removed in block]
+- _FigTTMLDocumentWriterCreateParagraphStyleAttributeInserter.cold.1
+- _FigTTMLDocumentWriterCreateParagraphStyleAttributeInserter.cold.2
+- [15 functions removed in block]
+- [4 functions removed in block]
+- _bapspManager_releaseAsync
+- [3 functions removed in block]
+- _FigAlternateSelectionBossAddFilter.cold.1
+- _FigAlternateSelectionBossRemoveFilter.cold.1
+- _FigAlternateSelectionBossAddMonitor.cold.1
+- _fasb_applyFiltersGuts.cold.2
+- [15 functions removed in block]
+- [8 functions removed in block]
+- _FigSCCParserCaptionDataInfoGetChannel.cold.1
+- [3 functions removed in block]
+- _FigVenueDescriptionMetadataSupplierCreate.cold.2
+- _FigVenueDescriptionMetadataSupplierCreate.cold.3
+- _FigVenueDescriptionMetadataSupplierCreate.cold.5
+- _FigVenueDescriptionMetadataSupplierCreate.cold.6
+- _vdms_reevaluateProcessingStateAndNotify.cold.2
+- _vdms_deferredAssetPropertyLoadedCallback.cold.1
+- [4 functions removed in block]
+- _vdms_dataChannelResourceProcessingStateChangedNotificationHandler.cold.1
+- [3 functions removed in block]
+- _mv_CheckIfVideoPresentable.cold.6
+- _mv_CheckIfVideoPresentable.cold.7
+- [5 functions removed in block]
+- [4 functions removed in block]
+- _FigMediaValidatorValidateAndTranslateRFC4281CodecsForStreaming.cold.2
+- _FigMediaValidatorValidateAndTranslateRFC4281CodecsForStreaming.cold.3
+- [18 functions removed in block]
+- _mv_ValidateTrackWithTrackReader.cold.3
+- _mv_ValidateTrackWithTrackReader.cold.4
+- _mv_ValidateTrackWithTrackReader.cold.10
+- [3 functions removed in block]
+- _FigMediaValidatorValidateRFC4281Codecs.cold.1
+- _FigMediaValidatorValidateRFC4281Codecs.cold.4
+- [4 functions removed in block]
+- [4 functions removed in block]
+- [8 functions removed in block]
+- _figMDRW_CopyMetadataArrayFromByteStream.cold.3
+- _figMDRW_CopyMetadataArrayFromByteStream.cold.4
+- _FigMetadataReaderCreateForTimedID3.cold.1
+- [5 functions removed in block]
+- [5 functions removed in block]
+- [61 functions removed in block]
+- [65 functions removed in block]
+- [5 functions removed in block]
+- _serverXPCItem_NotificationFilter.cold.5
+- _fps_addSampleBuffersToMessage.cold.2
+- _FPSupport_CreateMaxSampleRateDictonary.cold.1
+- [4 functions removed in block]
+- [3 functions removed in block]
+- [4 functions removed in block]
+- _FPSupport_CopyAudioSessionPreferredOutputChannelLayout.cold.8
+- _fsadct_CopyDebugDescription.cold.1
+- [5 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _fsadct_CreateMediaMapKeyToFilePathMappingOutApplierFunction.cold.4
+- [8 functions removed in block]
+- [34 functions removed in block]
+- [6 functions removed in block]
+- [3 functions removed in block]
+- [4 functions removed in block]
+- _FigTTMLDocumentWriterElementCopyElementsAtPath.cold.1
+- _FigTTMLDocumentWriterElementCopyElementsAtPath.cold.2
+- __FigHTTPRequestCreateWithNSURLSession.cold.3
+- __FigHTTPRequestCreateWithNSURLSession.cold.4
+- __FigHTTPRequestCreateWithNSURLSession.cold.6
+- [12 functions removed in block]
+- [7 functions removed in block]
+- _inEndpointStreamUtil_createSyncContext.cold.2
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [3 functions removed in block]
+- [9 functions removed in block]
+- _FigFullDownloadDiskCacheProvider_GetBacking.cold.1
+- _FigFullDownloadDiskCacheProvider_GetBacking.cold.2
+- _FigByteStreamFactoryCreateStreamFromURLWithOptionsAsync.cold.1
+- _FigByteStreamFactoryCreateStreamFromURLWithOptionsAsync.cold.2
+- [3 functions removed in block]
+- _FigByteStreamFactoryCreateStreamFromURLWithOptionsAsync.cold.10
+- _FigByteStreamFactoryCreateStreamFromURL.cold.1
+- _FigByteStreamFactoryCreateStreamFromURLAsync.cold.1
+- _FigAlternatePlaybackBitrateMonitorIsAlternateStillValid
+- _fampb_recordAddNewAlternates
+- [7 functions removed in block]
+- _fampb_copyFilterForCurrentState.cold.1
+- _fampb_serializeRecordedAlternateListToBitMap.cold.2
+- [17 functions removed in block]
+- _FigPathwayValidateStableVariantAndRenditionIDs.cold.2
+- [4 functions removed in block]
+- [5 functions removed in block]
+- [10 functions removed in block]
+- [22 functions removed in block]
+- _FigTTMLExtensionsCreate.cold.1
+- _FigTTMLExtensionsCreate.cold.2
+- _figTTMLExtensions_GetNodeType.cold.1
+- [5 functions removed in block]
+- [8 functions removed in block]
+- _FigTTMLDocumentWriterCreateWritingDirectionSpanBuilder.cold.1
+- _FigTTMLDocumentWriterCreateWritingDirectionSpanBuilder.cold.2
+- [5 functions removed in block]
+- _figCaptionSetTimeRange.cold.1
+- _acif_copyProperty.cold.1
+- _acif_copyProperty.cold.2
+- _acif_copyCompletelyCachedMediaSelectionOptionsInGroup.cold.2
+- _acif_copyCompletelyCachedMediaSelectionOptionsInGroup.cold.3
+- [4 functions removed in block]
+- [5 functions removed in block]
+- [5 functions removed in block]
+- [6 functions removed in block]
+- [17 functions removed in block]
+- [6 functions removed in block]
+- _playerairplayroute_endpointStreamsHaveSameID.cold.1
+- [19 functions removed in block]
+- [4 functions removed in block]
+- _FigPlaybackCoordinatorCreate.cold.6
+- _FigPlaybackCoordinatorCreate.cold.7
+- [15 functions removed in block]
+- [21 functions removed in block]
+- _FigTTMLHeadCreateDefault.cold.1
+- _figTTMLHead_GetNodeType.cold.1
+- [12 functions removed in block]
+- _CopySoundCheckInfoDictionary.cold.2
+- _MovieTrackReaderCreateEditCursorService.cold.1
+- [5 functions removed in block]
+- [18 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _ParseISOCompactSampleToGroupAtom.cold.1
+- _CommonMOVCompactSampleToGroupAtomParseAndCreateArrayBBuf.cold.2
+- [7 functions removed in block]
+- _CommonISOCompactSampleToGroupAtomParseAndCreateArrayBBuf.cold.3
+- [4 functions removed in block]
+- [3 functions removed in block]
+- _ParseSampleAuxInfoOffsetsAtom.cold.3
+- _ParseFragmentMOVCompactSampleToGroupAtom.cold.1
+- _ParseFragmentISOCompactSampleToGroupAtom.cold.1
+- _MovieSampleAccessorGetFormatDescription
+- _MovieTrackGetSampleDescriptionInformationAtIndex.cold.2
+- _MovieTrackAddParsedDataReference.cold.2
+- _MovieTrackAddParsedDataReference.cold.3
+- _MovieSampleAccessorStepCursor.cold.1
+- _MovieSampleAccessorStepCursor.cold.2
+- [5 functions removed in block]
+- [16 functions removed in block]
+- [15 functions removed in block]
+- _MovieTrackCreateSampleDescriptionAtomLocationDictionary.cold.1
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _ConvertSampleDescriptionsToFormatDescriptions.cold.2
+- [5 functions removed in block]
+- [9 functions removed in block]
+- _MovieInformationEnsureMutationsWillNotify.cold.1
+- [3 functions removed in block]
+- _MovieInformationBeginBuildingMovieFragment.cold.1
+- _MovieInformationSetParsedIFFItemInformation.cold.1
+- _MovieInformationSetParsedIFFItemInformation.cold.2
+- [5 functions removed in block]
+- _compositionTableTrack_createAvailableMetadataReaderPropertiesArray.cold.1
+- [6 functions removed in block]
+- [7 functions removed in block]
+- [3 functions removed in block]
+- _qtiso_FigMetadataConverterCreateConvertedItem.cold.10
+- _qtiso_FigMetadataConverterCreateConvertedItem.cold.15
+- _qtiso_FigMetadataConverterCreateConvertedItem.cold.16
+- _FigCDSNotificationInputCreate.cold.2
+- [3 functions removed in block]
+- _qtitunes_FigMetadataConverterCreateConvertedItem.cold.8
+- _qtitunes_FigMetadataConverterCreateConvertedItem.cold.9
+- [4 functions removed in block]
+- _qtitunes_FigMetadataConverterCreateConvertedItem_DestinationiTunes.cold.2
+- _qtitunes_FigMetadataConverterCreateConvertedItem_DestinationiTunes.cold.3
+- _FigCopyMediaTypeString.cold.1
+- _fbapo_audioEngineActiveConfigurationDidBecomeInvalidCallback
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [7 functions removed in block]
+- _FigCaptionStyleSegmentGeneratorCreate.cold.2
+- _FigCaptionStyleSegmentGeneratorCreate.cold.3
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [13 functions removed in block]
+- _FigCSSTokenizerCreateWithTextContainer.cold.1
+- _FigCSSTokenizerCreateWithTextContainer.cold.2
+- __figCSSTokenizer_consume_a_name.cold.1
+- __figCSSTokenizer_PeekAheadBuffer.cold.1
+- [12 functions removed in block]
+- _FigCaptionRendererTTMLRegion_FigCaptionRendererNodeProtocol_Draw.cold.2
+- _FigCaptionRendererTTMLRegion_FigCaptionRendererNodeProtocol_Draw.cold.4
+- [20 functions removed in block]
+- [10 functions removed in block]
+- _FigVisualContextXPCRemoteGetObjectID.cold.1
+- _rvcCopyImageForTime.cold.1
+- [8 functions removed in block]
+- ___FigDataQueueServer_EnsureServerAndCopyXPCEndpoint_block_invoke.cold.1
+- [12 functions removed in block]
+- _FigCSSParserUtilitiesParseColor.cold.1
+- [6 functions removed in block]
+- [14 functions removed in block]
+- _bvc_isPixelBufferPoolCompatibleWithDimensionsAndPixelFormat.cold.3
+- [3 functions removed in block]
+- [7 functions removed in block]
+- [3 functions removed in block]
+- _FigServedTrackReaderStateCreate.cold.3
+- _FigServedTrackReaderStateCreate.cold.4
+- [4 functions removed in block]
+- [4 functions removed in block]
+- [21 functions removed in block]
+- [9 functions removed in block]
+- [9 functions removed in block]
+- _segPumpSetCurrentAlternate
+- _segPumpSetProperty.cold.1
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [7 functions removed in block]
+- [5 functions removed in block]
+- [9 functions removed in block]
+- _segPumpCopyHTTPRequestCreationsOptionsAndSetNWActivityAndStuff.cold.2
+- [3 functions removed in block]
+- [4 functions removed in block]
+- [5 functions removed in block]
+- _segPumpCreateIndexFileBBFromSavedIndexFile.cold.1
+- _segPumpAddFigAlternate.cold.2
+- _segPumpInitAlternateSelectionBoss.cold.2
+- _segPumpRealizeMapPreload.cold.1
+- [5 functions removed in block]
+- _segPumpMediaFileHandleCryptData.cold.1
+- _segPumpCreateMapMediaBBuf.cold.1
+- [5 functions removed in block]
+- _segPumpCreateSafeBandwidthCoefficientsForBaseStoreBagKey.cold.2
+- _segPumpCreateSafeBandwidthCoefficientsForBaseStoreBagKey.cold.3
+- _FigNetworkWirelessReportingInterfaceCopyWifiStats.cold.2
+- [3 functions removed in block]
+- _FigStreamingPlaylistEnsureMediaURL.cold.1
+- _FigStreamingPlaylistEnsureMediaURL.cold.2
+- _FigStreamPlaylistParseInProcess.cold.1
+- _FigStreamPlaylistParseInProcess.cold.4
+- _FigStreamPlaylistParseInProcess.cold.16
+- [3 functions removed in block]
+- _FigStreamPlaylistParseInProcess.cold.25
+- _FigStreamPlaylistParseInProcess.cold.28
+- _FigStreamPlaylistParseInProcess.cold.30
+- [3 functions removed in block]
+- _PlaylistAddCharacteristicsForClosedCaptions.cold.1
+- _PlaylistCreateMapEntry.cold.1
+- _PlaylistProcessTaggedRangeTag.cold.36
+- _PlaylistTokenizeString.cold.3
+- [3 functions removed in block]
+- [8 functions removed in block]
+- [5 functions removed in block]
+- _FigPlayerResourceArbiterPlayerSpecifierSetPlayerRole.cold.1
+- _FigPlayerResourceArbiterPlayerSpecifierCreate.cold.1
+- [3 functions removed in block]
+- _famhdcp_copyHDCPEPM.cold.1
+- _FigTTMLAddCurrentElementAttributesToDictionary.cold.2
+- _FigTTMLAddAttributeToCFDictionary.cold.1
+- [8 functions removed in block]
+- _figTTMLParseOneOrMoreWhitespaces.cold.2
+- [14 functions removed in block]
+- [6 functions removed in block]
+- _FigTTMLParsePositionSyntaxAndCreateCaptionPosition.cold.1
+- [24 functions removed in block]
+- [6 functions removed in block]
+- [14 functions removed in block]
+- [7 functions removed in block]
+- [5 functions removed in block]
+- [6 functions removed in block]
+- [5 functions removed in block]
+- [14 functions removed in block]
+- [44 functions removed in block]
+- _tfbGetSampleCompositionTimeOffsetAtIndexFunc.cold.1
+- _tfbGetSampleCompositionTimeOffsetAtIndexFunc.cold.2
+- [10 functions removed in block]
+- [5 functions removed in block]
+- [36 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _MovieHeaderMakerCopyMediaDataAtomHeaderAsBlockBuffer.cold.2
+- _createMetadataSerializerDictionaryWithMetadata.cold.1
+- [5 functions removed in block]
+- [9 functions removed in block]
+- _FigVideoReceiverDataChannelSettingsCopySerializable.cold.1
+- [3 functions removed in block]
+- _FigVideoReceiverDataChannelSettingsCopyDeserialized.cold.2
+- _FigVideoReceiverDataChannelSettingsCopyDeserialized.cold.3
+- [11 functions removed in block]
+- [11 functions removed in block]
+- _FigCoreAnimationRendererCreate.cold.4
+- _FigCoreAnimationRendererCreate.cold.6
+- _FigCoreAnimationRendererCreate.cold.7
+- _FigCoreAnimationRendererCreate.cold.9
+- _FigCoreAnimationRendererCreate.cold.12
+- _FigCoreAnimationRendererCreate.cold.13
+- [8 functions removed in block]
+- _FigCDSPaintOnCaptionSetCurrentTime.cold.1
+- [4 functions removed in block]
+- [4 functions removed in block]
+- [6 functions removed in block]
+- [5 functions removed in block]
+- [6 functions removed in block]
+- [7 functions removed in block]
+- _FigCSSStyleDeclarationCopyPropertyNameAtIndex.cold.2
+- _FigCSSStyleDeclarationCopyPropertyNameAtIndex.cold.3
+- [5 functions removed in block]
+- _pwdKeyExchangeSenderAOCP_Start.cold.2
+- _pwdKeyExchangeSenderAOCP_Start.cold.3
+- [10 functions removed in block]
+- [6 functions removed in block]
+- _FigAudioSessionCreateWithCMSessionAndMXSession.cold.4
+- [3 functions removed in block]
+- [4 functions removed in block]
+- _faiu_ensureAlternateCreationContextAndCopyMediaGroupCache.cold.1
+- _faiu_ensureAlternateCreationContextAndCopyMediaGroupCache.cold.2
+- [3 functions removed in block]
+- _FigDeferredTransactionCreate.cold.2
+- _FigDeferredTransactionCreate.cold.3
+- [9 functions removed in block]
+- [20 functions removed in block]
+- [6 functions removed in block]
+- _FigMetricItemVariantChangeStartEventCreate.cold.2
+- _meivcs_setMediaTime.cold.1
+- _manifoldRemote_copyProperty.cold.1
+- _FigTTMLRegionCreate.cold.1
+- [3 functions removed in block]
+- _figTTMLRegion_GetNodeType.cold.1
+- [9 functions removed in block]
+- _FigByteFlumeCustomURLOpen.cold.3
+- _FigTTMLStylingCreate.cold.1
+- _FigTTMLStylingCreate.cold.2
+- _figTTMLStyling_GetNodeType.cold.1
+- [3 functions removed in block]
+- _FigCoreTextSubtitleRendererCreate.cold.6
+- [20 functions removed in block]
+- _CreateSubtitleSample.cold.4
+- _CreateSubtitleSample.cold.5
+- _subtitleRendererDrawSubtitleTextDo.cold.2
+- _subtitleRendererLayoutDo.cold.2
+- _subtitleRendererLayoutDo.cold.3
+- [7 functions removed in block]
+- [4 functions removed in block]
+- [4 functions removed in block]
+- [3 functions removed in block]
+- [5 functions removed in block]
+- _FigHLSSessionDataCopyChapterMetadataAndCopyErrorLogEntryRemote.cold.1
+- [20 functions removed in block]
+- [22 functions removed in block]
+- _sampleBufferGenerator_sendDataFailedMessage.cold.1
+- _sampleBufferGenerator_sendDataFailedMessage.cold.2
+- [9 functions removed in block]
+- [4 functions removed in block]
+- [4 functions removed in block]
+- _FigTTMLDocumentWriterCreateRegionBuilder.cold.1
+- [5 functions removed in block]
+- _PerformDefineMacroProperty.cold.1
+- _PerformDefineMacroProperty.cold.2
+- [6 functions removed in block]
+- [7 functions removed in block]
+- _fbarp_processSampleBuffer.cold.4
+- _fbarp_processSampleBuffer.cold.5
+- [6 functions removed in block]
+- [7 functions removed in block]
+- [18 functions removed in block]
+- [20 functions removed in block]
+- _URLAssetFetchChapterDataAsync.cold.2
+- _URLAssetLoadValuesAsyncForTrackProperties.cold.1
+- [11 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [8 functions removed in block]
+- [5 functions removed in block]
+- [4 functions removed in block]
+- _InternalURLAssetCopyChapterData.cold.1
+- _InternalURLAssetFetchChapterDataAsync.cold.1
+- [8 functions removed in block]
+- [3 functions removed in block]
+- [8 functions removed in block]
+- [6 functions removed in block]
+- _audioRendererRemote_getObjectID.cold.1
+- _vq_createVideoRenderPipeline
+- [11 functions removed in block]
+- [5 functions removed in block]
+- _vq_EnqueueFrameWithFormatDescriptionAndTimingInfoBaggage.cold.1
+- _vq_EnqueueFrameWithFormatDescriptionAndTimingInfoBaggage.cold.2
+- _CreateServedAIGState.cold.1
+- _CreateServedAIGState.cold.2
+- _weakReferenceTable_CopyPointerFromKey.cold.1
+- _videoQueueRemote_Finalize.cold.1
+- _videoQueueRemote_updateVisualContextArrayAndCopyIDArray.cold.1
+- _videoQueueRemote_updateVideoTargetArrayAndCopyIDArray.cold.1
+- _videoQueueRemote_updateVideoTargetArrayAndCopyIDArray.cold.2
+- _FigAssetRemoteCreateWithURLAndRetry.cold.1
+- [5 functions removed in block]
+- _remoteXPCAssetClient_NotificationFilter.cold.1
+- _remoteXPCAsset_DeserializeAndCreateTracksArrayFromXPCDictionary.cold.1
+- _remoteXPCAsset_DeserializeAndCreateHLSAlternatesFromXPCDictionary.cold.1
+- _remoteXPCAssetTrack_GetObjectID.cold.1
+- [4 functions removed in block]
+- [8 functions removed in block]
+- [6 functions removed in block]
+- _FigHLSPersistentStoreCreateAtURL.cold.1
+- _FigHLSPersistentStoreCreateAtURL.cold.3
+- [20 functions removed in block]
+- [13 functions removed in block]
+- [6 functions removed in block]
+- _persistentStore_CopyStreamIDs.cold.1
+- [4 functions removed in block]
+- [4 functions removed in block]
+- [18 functions removed in block]
+- _persistentStore_CreateStreamOptions.cold.2
+- [3 functions removed in block]
+- [7 functions removed in block]
+- -[FigNSURLSessionRegistry init].cold.2
+- [7 functions removed in block]
+- _FigFastStartRemakerCreateWithURLs.cold.4
+- _FigFastStartRemakerCreateWithURLs.cold.6
+- _FigFastStartRemakerCreateWithURLs.cold.8
+- _fastStartRemaker_Invalidate.cold.1
+- _fastStartRemaker_CopyProperty.cold.3
+- [9 functions removed in block]
+- [6 functions removed in block]
+- [9 functions removed in block]
+- _reportingAgentIssueAndCopyRTCReportingEventWithPayload
+- [3 functions removed in block]
+- _surrogatePlaybackItem_createRealItem
+- _surrogatePlayer_createRealPlayer
+- _surrogatePlayer_deferCancelPendingPrerollForArrayPlaybackItem.cold.1
+- [8 functions removed in block]
+- [4 functions removed in block]
+- [10 functions removed in block]
+- _meiltku_serialize.cold.5
+- [7 functions removed in block]
+- _clcpcgcfsbCreateCaptionDataArray.cold.2
+- [17 functions removed in block]
+- _surrogateAIG_RequestCGImageAtTimeAsync.cold.1
+- _surrogateAIG_CancelAllCGImageAsyncRequests.cold.1
+- _FigVideoCompositorPropertiesGetRenderDimensions.cold.1
+- [7 functions removed in block]
+- _FigWebVTTFormatWriterCreateWithByteStream.cold.1
+- [17 functions removed in block]
+- [3 functions removed in block]
+- [7 functions removed in block]
+- _figTTMLRoot_GetNodeType.cold.1
+- _FigPKDCPELimitedCryptorGetAggregateExternalProtectionStatus
+- _FigPKDCPECryptorCreate.cold.2
+- [3 functions removed in block]
+- [9 functions removed in block]
+- [3 functions removed in block]
+- [5 functions removed in block]
+- _ProcessOfflineKey.cold.7
+- _ProcessOfflineKey.cold.8
+- [11 functions removed in block]
+- [3 functions removed in block]
+- [5 functions removed in block]
+- _figVTTSerializerForByteStream_SetProperty.cold.2
+- _fpic_CreateWrappedEvent
+- ___fpic_EstablishCurrentEventForCurrentItem_block_invoke
+- ___fpic_customURLReadCallback_block_invoke.161
+- [23 functions removed in block]
+- _fpic_collectEventsAtNextMoment.cold.1
+- _fpic_collectPostrollEvents.cold.1
+- _fpic_CopyNextItemFromInterstitialPlayer.cold.1
+- _fpic_RecordPastCurrentEventDuration.cold.1
+- ___fpic_EnsureNextEventWillBuffer_block_invoke.173.cold.1
+- [4 functions removed in block]
+- [3 functions removed in block]
+- ___fpic_coordinationIdentifierChanged_block_invoke.cold.1
+- ___fpic_HandleEndTimeChangedNotification_block_invoke.cold.1
+- [4 functions removed in block]
+- [8 functions removed in block]
+- _FigImageQueueCreateForCacheAndFanOut.cold.1
+- [9 functions removed in block]
+- _fiqcfo_setProperty.cold.2
+- _fiqcfo_setProperty.cold.3
+- _FigVideoReceiverConnectionHelperCreateForVideoReceiverAndCopyBootstrapEndpoint.cold.3
+- ___connectionHelper_handleNewBootstrapConnection_block_invoke.cold.4
+- [8 functions removed in block]
+- _videoReceiverServer_releaseImageQueue.cold.1
+- _videoReceiverServer_setImageQueueMessage.cold.1
+- _FigVideoReceiverCreateRemote.cold.1
+- _FigVideoReceiverCreateRemote.cold.2
+- [3 functions removed in block]
+- [4 functions removed in block]
+- _FigTTMLDocumentWriterCreateForIMSC.cold.1
+- _FigTTMLDocumentWriterCreateForIMSC.cold.2
+- _EncryptionConfigCreate.cold.2
+- [14 functions removed in block]
+- _fcctx_FigCaptionStylePropertyToCMTextMarkupAttribute
+- _fcctx_FigCaptionRegionPropertyToCMTextMarkupAttribute
+- [9 functions removed in block]
+- [7 functions removed in block]
+- [10 functions removed in block]
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [13 functions removed in block]
+- _FigCRABSCachePrimerCreate.cold.4
+- _FigCRABSCachePrimerCreate.cold.5
+- [7 functions removed in block]
+- [5 functions removed in block]
+- [4 functions removed in block]
+- _audioSessionAVAudioSession_CopyMXSessionPropertiesAndErrors.cold.2
+- _audioSessionAVAudioSession_copyRoutingContext.cold.1
+- _audioSessionAVAudioSession_copySpatializationCapabilities.cold.1
+- _FigToolViewCreateWithOptions.cold.1
+- _FigToolViewCreateWithOptions.cold.3
+- _ftvIOMFHotPlugNotificationCallback.cold.1
+- _ftvIOMFHotPlugNotificationCallback.cold.2
+- _synchronizerServer_lookupAndRetainSBRSByObjectIDForConnection.cold.1
+- [15 functions removed in block]
+- _playerceleste_handleSetProperty.cold.1
+- _playerceleste_handleSetProperty.cold.2
+- [17 functions removed in block]
+- _FigCreateHapticPatternDictionaryFromAppleHapticRawBBuf.cold.2
+- _FigCreateHapticPatternDictionaryFromAppleHapticRawBBuf.cold.3
+- _FigCreateHapticPatternDictionaryFromAppleHapticRawBBuf.cold.5
+- [6 functions removed in block]
+- [5 functions removed in block]
+- [14 functions removed in block]
+- [4 functions removed in block]
+- _FigAlternateFilterMonitorCreateForContentSteering.cold.1
+- _FigAlternateFilterMonitorCreateForContentSteering.cold.2
+- _famcs_createPathwayIDDescriptionGivenPathwayClones.cold.2
+- [4 functions removed in block]
+- _MovieProxyDataCreateForByteStream.cold.1
+- _MovieProxyDataCreateForByteStream.cold.2
+- [44 functions removed in block]
+- [3 functions removed in block]
+- [16 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [11 functions removed in block]
+- [4 functions removed in block]
+- [7 functions removed in block]
+- [3 functions removed in block]
+- [5 functions removed in block]
+- [6 functions removed in block]
+- _webVTTAddToHeaderGather
+- _webVTTAddToGather
+- [5 functions removed in block]
+- [10 functions removed in block]
+- _webVTTParseCueAndCreateAttributedString.cold.2
+- [4 functions removed in block]
+- _webVTTParseCueAndCreateAttributedString.cold.11
+- _webVTTParseCueAndCreateAttributedString.cold.12
+- [7 functions removed in block]
+- [14 functions removed in block]
+- [4 functions removed in block]
+- _octtextrp_CreateRenderPipelineCommon.cold.1
+- _octtextrp_CreateRenderPipelineCommon.cold.2
+- [8 functions removed in block]
+- _octtextrp_rasterizeAndDisplaySubtitle.cold.5
+- _octtextrp_rasterizeAndDisplaySubtitle.cold.7
+- _octtextrp_rasterizeAndDisplaySubtitle.cold.8
+- _CreateServedMutableMovieState.cold.1
+- [27 functions removed in block]
+- _ntic_decodeLineRLEto32BGRA.cold.1
+- [3 functions removed in block]
+- [15 functions removed in block]
+- _FigSubtitleTextRasterizerSetSubtitleSample
+- _FigSubtitleTextRasterizerCreate.cold.3
+- _subtitleRasterizerSetRenderSize.cold.1
+- [8 functions removed in block]
+- _FigTextRasterizerCreatePixelBufferFromBitmapContext.cold.1
+- _FigTextRasterizerCreatePixelBufferFromBitmapContext.cold.2
+- [10 functions removed in block]
+- [33 functions removed in block]
+- _IFFInformationSetItemBodyImageDerivationOverlay.cold.1
+- _IFFInformationSetItemDataOffset.cold.1
+- [7 functions removed in block]
+- [5 functions removed in block]
+- [8 functions removed in block]
+- [9 functions removed in block]
+- [10 functions removed in block]
+- [8 functions removed in block]
+- _IFFItemCreate.cold.2
+- _IFFItemInformationCreate.cold.2
+- _IFFItemInboundReferencesOfType.cold.1
+- [3 functions removed in block]
+- _fpie_CopyValueProperty
+- _FigPlayerInterstitialEventCreate.cold.1
+- _FigPlayerInterstitialEventCreateFromDictionary.cold.1
+- _FigPlayerInterstitialEventCreateFromDictionary.cold.2
+- [4 functions removed in block]
+- [7 functions removed in block]
+- _FigPlayerInterstitialEventsCreateFromTaggedRangeMetadata.cold.5
+- _FigPlayerInterstitialEventsCreateFromTaggedRangeMetadata.cold.6
+- _FigDateTimeMomentCopyAsDictionary.cold.3
+- _FigOctaviaClockCreateConsumingNeroClock.cold.1
+- [3 functions removed in block]
+- _FigInterstitialCreatePropertyListsFromJSONDataInternal.cold.5
+- _FigInterstitialCreatePropertyListsFromJSONDataInternal.cold.6
+- _FigNeroCopyPerformanceDictionary
+- _nero_Finalize.cold.1
+- _nero_syncMessageHandler.cold.1
+- _FigNeroTeardown.cold.1
+- [22 functions removed in block]
+- _FigEndpointStreamAudioEngineXPCRemoteCopyAudioEngineFromEndpointStream
+- _remoteXPCAudioEngineClient_HandleClientMessage
+- _FigPKDMSECPECryptorCopyProperty
+- _FigPKDMSECPECryptorSetProperty
+- [4 functions removed in block]
+- _FigPKDMSECPECryptorCopyPropertyForFormat
+- _FigPKDMSECPECryptorIsAggregateExternalProtectionStatusStable
+- _FigPKDMSECPECryptorGetAggregateExternalProtectionStatusIgnoringDisplays
+- _FigPKDMSECPECryptorIsAggregateExternalProtectionStatusStableIgnoringDisplays
+- _FigPKDMSECPECryptorCreate.cold.2
+- _AddWeakListenerOnExternalProtectionMonitor.cold.1
+- _AddWeakListenerOnExternalProtectionMonitor.cold.2
+- [7 functions removed in block]
+- _FigAirPlaySecureStopRouterCreateSecureStopUUID.cold.2
+- _FigAirPlaySecureStopRouterCreateSecureStopUUID.cold.3
+- _FigAirPlaySecureStopRouterRegisterSecureStopManager.cold.2
+- _FigAirPlaySecureStopRouterRegisterSecureStopManager.cold.3
+- [3 functions removed in block]
+- _FigAirPlaySecureStopRouterCommitToDisk.cold.2
+- _FigAirPlaySecureStopRouterFinalizeRecordAndCommitToDisk.cold.2
+- ___fassr_ensureAirPlayManagerSingletonContext_block_invoke.cold.1
+- ___fassr_ensureAirPlayManagerSingletonContext_block_invoke.cold.2
+- [5 functions removed in block]
+- [3 functions removed in block]
+- [8 functions removed in block]
+- _dataChannelResourceRemote_SetFailedToLoad.cold.2
+- [3 functions removed in block]
+- _dataChannelResourceRemote_GetProcessingState.cold.2
+- ___FigCoreTelephonyMonitorCallbackEntryDoCallback_block_invoke
+- _figNetworkCostMonitorUpdateEstimatedMaximumDemand
+- ___figNetworkCostMonitorDispatchHighSpeedHighPowerFn_block_invoke
+- [5 functions removed in block]
+- [6 functions removed in block]
+- [3 functions removed in block]
+- [19 functions removed in block]
+- _fcks_server_copySessionByObjectIDForConnection.cold.1
+- _fcks_server_copySessionByObjectIDForConnection.cold.2
+- [6 functions removed in block]
+- _FigRemote_CopyMetadataItemWithCFStringAsUnsafeCFType
+- _FigRemote_CopyMetadataItemWithUnsafeCFTypeAsCFString
+- _FigRemote_CreateMetadataFromBinaryPListData
+- _FigRemote_CreateMetadataBinaryPListData.cold.1
+- _FigRemote_CreateBinaryPListDataFromMetadataItemArray.cold.2
+- _FigRemote_CreateBinaryPListDataFromMetadataItemArray.cold.3
+- _FigHapticEngineCreate.cold.2
+- _FigHapticEngineCreate.cold.4
+- _FigHapticPlayerCreate.cold.3
+- [4 functions removed in block]
+- [4 functions removed in block]
+- _FigBasicAESCPECryptorDecryptSample
+- [4 functions removed in block]
+- _FigBasicAESCPECryptorDecryptH264_FPS.cold.1
+- _FigBasicAESCPECryptorDecryptHEVC_FPS.cold.1
+- [5 functions removed in block]
+- _calculateAndCopyStrokeAttributes
+- [5 functions removed in block]
+- [6 functions removed in block]
+- [6 functions removed in block]
+- _fiit_checkAndUpdateIfPrimaryIsReadyForInspection
+- _fiit_updatePrimaryItemSeekableTimeRange
+- _fiit_unlockAndPostSnapshotOutOfSyncNotification
+- _fiit_updatePrimarySeekableTimeRangeForCurrentEvent
+- _fiit_checkAndPostIfSeekCompletedAllSteps
+- _fiit_updateCurrentSegmentWrapper
+- _fiit_rescheduleScanningBoundaryTimer
+- _fiit_currentTime
+- _fiit_playerRateDidChange
+- _fiit_rebuildEventList
+- [13 functions removed in block]
+- [9 functions removed in block]
+- [6 functions removed in block]
+- _loopingCursorService_CopyProperty.cold.1
+- __createDefaultMediaSelectionCriteria
+- [4 functions removed in block]
+- _FigHapticRenderPipelineSetProperty
+- [5 functions removed in block]
+- [5 functions removed in block]
+- _collector_getSampleBufferEndTime
+- _collector_CollectForVideoSampleBuffer
+- [4 functions removed in block]
+- [5 functions removed in block]
+- _collectorSearchWindowArray_RetainCallback.cold.1
+- _collectorSearchWindowArray_ReleaseCallback.cold.1
+- _FigCPEExternalProtectionMonitorCreateWithCallbacks
+- [4 functions removed in block]
+- _figAssetExportSession_reassemblyTransferTrackPropertiesApplier
+- _figAssetExportSession_ExportAsynchronously
+- _figAssetExportSession_HasEditSegmentData
+- _FigAssetExportSessionTrackExportPolicy_GetPassthroughExportPolicy
+- [3 functions removed in block]
+- [10 functions removed in block]
+- [3 functions removed in block]
+- [9 functions removed in block]
+- [4 functions removed in block]
+- _figAssetExportSession_CopyProperty.cold.1
+- _figAssetExportSession_CopyProperty.cold.2
+- _figAssetExportSession_CopyProperty.cold.4
+- [3 functions removed in block]
+- _figAssetExportSession_CopyProperty.cold.10
+- _figAssetExportSession_CopyProperty.cold.11
+- [4 functions removed in block]
+- _figAssetExportSession_createRemakerAndBeginExport.cold.3
+- [3 functions removed in block]
+- _channelgroup_createFromDictionary
+- _FigDataChannelGroupCreate.cold.1
+- [13 functions removed in block]
+- [18 functions removed in block]
+- _FigReportingAgentUpdateFinalTransactionMetrics
+- [4 functions removed in block]
+- _FigNetworkInterfaceReporterDestroy
+- [3 functions removed in block]
+- ___figNetworkInterfaceReleaseGlobalWifiMonitor_block_invoke_3
+- [9 functions removed in block]
+- [18 functions removed in block]
+- [5 functions removed in block]
+- _FigMediaCharacteristicsCopyTaggedMediaCharacteristicsForAudioCompositionPresetDescription.cold.2
+- __copyAllMetadataItems.cold.1
+- _FigClosedCaptionStringConformerNew.cold.2
+- _FigNetworkPredictionArbiterCreate.cold.1
+- [4 functions removed in block]
+- _fraoa_CreateOfflineAirPlayReportingPayload.cold.1
+- [3 functions removed in block]
+- _fpra_determineAndDistributeBudgetToConsumers
+- [5 functions removed in block]
+- _FigPlayerResourceArbiterSetSpecifierForConsumer.cold.2
+- _FigPlayerResourceArbiterGetBudgetForConsumer.cold.2
+- _FigPlayerResourceArbiterGetBudgetForConsumer.cold.3
+- [5 functions removed in block]
+- _FigPartialSampleTableCreateForWriting
+- [4 functions removed in block]
+- [6 functions removed in block]
+- [27 functions removed in block]
+- [4 functions removed in block]
+- [5 functions removed in block]
+- [5 functions removed in block]
+- [7 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _audioRenderer_disturbPlaybackSwapPointerRestorePlayback
+- _audioRenderer_bapOutputActiveConfigurationDidBecomeInvalid
+- _audioRenderer_updateFARPSuspendedState
+- [6 functions removed in block]
+- _audioRenderer_setMasterTimebase
+- _audioRenderer_flushFromMediaTimeDispatchAsync
+- [10 functions removed in block]
+- _fapu_SetParametersApplier
+- [30 functions removed in block]
+- [18 functions removed in block]
+- _PKDCopyIdentifierForFormatDescription.cold.1
+- _ffp_BytePumpFn
+- [3 functions removed in block]
+- [35 functions removed in block]
+- [10 functions removed in block]
+- [7 functions removed in block]
+- _remoteXPCFigCaptionGroupConverterClient_HandleServerMessage
+- _sbp_tmf_processSampleBuffer
+- _sbp_tmf_copyProperty.cold.1
+- _sbp_tmf_copyProperty.cold.2
+- [18 functions removed in block]
+- _flom_renderPipelineDidFlushDo
+- _updateSubtitleSampleWithFigCaptionGroup
+- [15 functions removed in block]
+- _synchronizer_addAudioRenderer
+- _synchronizer_removeAudioRenderer
+- [13 functions removed in block]
+- _figSpeedRampRenderPipelineStartAndUseTimebaseAtTransition
+- _figSpeedRampRenderPipelineReset
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [6 functions removed in block]
+- [4 functions removed in block]
+- _MovieFragmentReannounceUnregisteredTracks
+- _fragManifold_SetTrackLatestFormatDescription
+- _fragManifold_CallFormatDescriptionCallback
+- [18 functions removed in block]
+- [42 functions removed in block]
+- [5 functions removed in block]
+- _FigClosedCaptionGetClosedCaptionServiceFormatAndServiceIndexFromFormatDescription
+- _FigClosedCaptionCreateClosedCaptionChannelStringFromFormatDescription
+- [5 functions removed in block]
+- [14 functions removed in block]
+- _customVideoCompositor_RenderFrameFromWindow.cold.4
+- _customVideoCompositor_RenderFrameFromWindow.cold.5
+- _FigVideoCompositionRemoteCopyParametersFromRenderFrameFromWindowMessage
+- [6 functions removed in block]
+- [4 functions removed in block]
+- [4 functions removed in block]
+- _deepCopySourceTimedSamplesForTrackIDs.cold.1
+- [7 functions removed in block]
+- ___createReducedTimedSamplesForTracks_block_invoke.cold.1
+- _VCServerCopyPerformanceDictionary.cold.1
+- _LookupAndRetainVCByObjectIDForConnection.cold.1
+- _FigVTTStringifyFigGeometryDimensionAndAppend.cold.1
+- _FigVTTCGColorCopyAsVTTColorSyntax.cold.1
+- _FigVTTCGColorCopyAsVTTColorSyntax.cold.2
+- [7 functions removed in block]
+- _FigVTTDocumentWriterMapPropertyToAttribute_Decoration.cold.2
+- _FigVTTDocumentWriterMapPropertyToAttribute_TextAlign.cold.1
+- [14 functions removed in block]
+- ___figURLStorageSessionCopyCredentialPlistForURL_block_invoke
+- [9 functions removed in block]
+- [5 functions removed in block]
+- [4 functions removed in block]
+- [9 functions removed in block]
+- [9 functions removed in block]
+- [5 functions removed in block]
+- _FigCFHTTPCopyFilenameFromContentDisposition
+- _FigCFHTTPCreateRTCReportingAppleCDNVIAEdgeDomainString
+- _FigCFHTTPCopyURLAndInheritQueyComponentIfNotPresent
+- _FigCFHTTPCreateURLWithHostReplacement
+- [12 functions removed in block]
+- [3 functions removed in block]
+- [6 functions removed in block]
+- _FigCFHTTPCreateURLMinusQueryParam.cold.1
+- [29 functions removed in block]
+- [4 functions removed in block]
+- _sc_GetBackingForMediaStreamAtTime
+- _FigStreamingCacheAddInterstitialAsset
+- _FigStreamingCacheTransferData
+- _sc_MatchMediaStreamWithAttributes
+- _sc_RestoreSegmentFromDiskApplierFunction
+- _sc_WriteMetadataToDiskDispatchFunction
+- _sc_GetBackingForMediaStreamFromLaterSegments
+- _sc_RestoreCache
+- [4 functions removed in block]
+- [22 functions removed in block]
+- [15 functions removed in block]
+- [17 functions removed in block]
+- [3 functions removed in block]
+- [6 functions removed in block]
+- [98 functions removed in block]
+- [38 functions removed in block]
+- [9 functions removed in block]
+- [5 functions removed in block]
+- [18 functions removed in block]
+- [34 functions removed in block]
+- _sc_RestoreMediaMapsFromDiskApplierFunction.cold.1
+- _sc_RestoreMediaMapsFromDiskApplierFunction.cold.2
+- [6 functions removed in block]
+- [9 functions removed in block]
 CStrings:
 + "\nunknown caller requesting to\n"
 + "<SEGPUMP> %s: Unexpected mData retain count: %ld; expected 2. Segment %p"

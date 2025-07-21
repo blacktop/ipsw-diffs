@@ -99,6 +99,71 @@ Symbols:
 - _symbolic _____y_____G s22KeyedDecodingContainerV 14MarketplaceKit21SetPrivateDataRequestV0I0O39ConditionallyApproveDeveloperCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLO
 - _symbolic _____y_____G s22KeyedEncodingContainerV 14MarketplaceKit21SetPrivateDataRequestV0I0O39ConditionallyApproveDeveloperCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLO
 - _type_layout_string 14MarketplaceKit19InstallSheetContextV6SourceO08AppStoredE0V
+Functions (added):
++ sub_2424ed1d0
++ sub_2424faed4
++ sub_2424fc20c
++ sub_2424ff738
++ sub_2424ffac0
++ sub_2424ffb64
++ sub_2424ffbbc
++ sub_2424ffc14
++ sub_2424ffc6c
++ sub_242509534
++ sub_242509578
++ sub_24250b760
++ sub_24250c5e8
++ sub_24250c9b8
++ sub_24250db10
++ sub_24250dc18
++ sub_24250dc70
++ sub_24250de04
++ sub_24250df1c
++ sub_24250df58
++ sub_24250e60c
++ sub_24250e624
++ sub_24250e6bc
++ sub_24250e720
++ sub_24250eb04
++ sub_24250f044
++ sub_24250f05c
++ sub_24250f440
++ sub_24250f964
++ sub_24250fb28
++ sub_24250fe6c
++ sub_242510940
++ sub_242511a88
++ sub_242511ac4
++ sub_24251357c
++ sub_242513c6c
++ sub_2425146f0
++ sub_242514e68
++ sub_242515280
++ sub_2425156e8
++ sub_242515834
++ sub_2425158f8
++ sub_24251590c
++ sub_242515a48
++ sub_242515ad8
++ sub_24251692c
++ sub_242516984
++ [7 functions added in block]
++ sub_242517f08
++ sub_242521fc4
++ sub_2425296b8
+
+Functions (removed):
+- sub_242ee90dc
+- sub_242ee9954
+- sub_242ef4db8
+- sub_242f00698
+- sub_242f02efc
+- sub_242f04c94
+- sub_242f04e40
+- sub_242f0589c
+- sub_242f387b4
+- sub_242f389a4
+- sub_242f38d64
 CStrings:
 + "Approve developer and continue install: "
 + "approveDeveloperAndContinueInstall"

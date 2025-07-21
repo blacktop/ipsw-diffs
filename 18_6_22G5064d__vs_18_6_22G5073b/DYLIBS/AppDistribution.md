@@ -99,6 +99,79 @@ Symbols:
 - _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution21SetPrivateDataRequestV0I0O39ConditionallyApproveDeveloperCodingKeys33_01C031B73633EDD1F8B8A8409F9C5FC0LLO
 - _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution21SetPrivateDataRequestV0I0O39ConditionallyApproveDeveloperCodingKeys33_01C031B73633EDD1F8B8A8409F9C5FC0LLO
 - _type_layout_string 15AppDistribution19InstallSheetContextV6SourceO0a5StoredE0V
+Functions (added):
++ sub_24582b854
++ sub_24582b8a8
++ sub_24582bb58
++ sub_24582bbb0
++ sub_245834b44
++ sub_24583dd78
++ sub_24583ddbc
++ sub_245841644
++ sub_245844b78
++ sub_245844ba4
++ sub_245844be8
++ sub_245844c40
++ sub_245844c98
++ sub_245844e50
++ sub_24584648c
++ sub_245846a24
++ sub_24584e680
++ sub_245852c94
++ sub_245852cd0
++ sub_245853010
++ sub_24585304c
++ sub_245853684
++ sub_2458570dc
++ sub_24585861c
++ sub_245858670
++ sub_24585eb8c
++ sub_2458612c4
++ sub_245861cb8
++ sub_245861cf0
++ sub_245861d58
++ sub_245861db0
++ sub_245861edc
++ sub_24586203c
++ sub_2458627a0
++ sub_245862804
++ sub_245862be8
++ sub_245863064
++ sub_2458632b0
++ sub_245863524
++ sub_245863a48
++ sub_245863c0c
++ sub_245863f50
++ sub_245864a24
++ sub_245867660
++ sub_245867d50
++ sub_245868234
++ sub_245868718
++ sub_245869004
++ sub_2458690c4
++ sub_24586964c
++ sub_245869660
++ sub_245869724
++ sub_2458697cc
++ sub_24586b064
++ [3 functions added in block]
++ sub_24586c0cc
++ sub_24587ecbc
+
+Functions (removed):
+- sub_2460bf228
+- sub_2460bfaa0
+- sub_2460c1348
+- sub_2460c39b4
+- sub_2460cedf4
+- sub_2460d9c14
+- sub_2460da260
+- sub_2460da468
+- sub_2460e5dc0
+- sub_2460e6218
+- sub_2460e6274
+- sub_2460e632c
+- sub_2460e6464
 CStrings:
 + "Approve developer and continue install: "
 + "approveDeveloperAndContinueInstall"

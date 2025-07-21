@@ -106,7 +106,7 @@ Symbols:
 - /AppleInternal/Library/BuildRoots/4~B3sWugC4TX4-fpZn19EYyjBc1Cv4BHJst9DMh0Q/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.6.Internal.sdk/usr/local/lib/libpartition.a(partition.o)
 - __56-[UMEventRecorder submitEventsInBackground:withOptions:]_block_invoke.711
 - _objc_msgSend$cStringUsingEncoding:
-Functions:
+Functions (modified):
 ~ -[UMEventRecorder recordPostUpdateEvent:additionalInfo:withCallback:] : 2076 -> 2016
 CStrings:
 + "%s: failed to decode migratorMetrics, reporting encoded metrics instead"

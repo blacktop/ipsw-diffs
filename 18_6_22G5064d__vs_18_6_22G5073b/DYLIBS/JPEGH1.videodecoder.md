@@ -65,6 +65,33 @@ Symbols:
 - _fig_note_initialize_category_with_default_work_cf
 - _gFigJPEGVTDecoderTrace
 - _os_log_type_enabled
+Functions (modified):
+~ _H1JPEGVideoDecoder_CreateInstance : 312 -> 204
+~ _H1JPEGVideoDecoder_Invalidate : 640 -> 340
+~ _H1JPEGVideoDecoder_CopyProperty : 460 -> 296
+~ _H1JPEGVideoDecoder_SetProperty : 1084 -> 364
+~ _jpeg_createSuggestedQualityOfServiceTiers : 328 -> 276
+~ _jpeg_createQualityOfServiceTier : 332 -> 192
+~ _H1JPEGVideoDecoder_StartSession : 2224 -> 1976
+~ _H1JPEGVideoDecoder_CopySupportedPropertyDictionary : 188 -> 148
+~ _jpeg_createSurfaceFromBBuf : 1304 -> 1016
+~ ___jpeg_DecodeFrameSynchronously_block_invoke : 824 -> 52
+~ _jpeg_createSupportedPropertyDictionary : 900 -> 736
+~ _OUTLINED_FUNCTION_0 : 20 -> 32
+~ _OUTLINED_FUNCTION_1 : 28 -> 16
+~ __openDriverConnection : 604 -> 124
+~ __closeService : 80 -> 88
+~ _H1JPEGVideoDecoder_DecodeFrame : 3056 -> 1596
+~ _jpeg_asyncDecodeComplete : 1136 -> 568
+~ _H1JPEGVideoDecoder_StartSession.cold.2 : 124 -> 48
+~ _H1JPEGVideoDecoder_StartSession.cold.3 : 136 -> 60
+~ _H1JPEGVideoDecoder_StartSession.cold.4 : 124 -> 48
+~ _H1JPEGVideoDecoder_StartSession.cold.6 : 124 -> 48
+
+Functions (removed):
+- [11 functions removed in block]
+- _H1JPEGVideoDecoder_StartSession.cold.1
+- _H1JPEGVideoDecoder_StartSession.cold.5
 CStrings:
 - "%s%s%s signalled err=%d (%s) (%s) at %s:%d"
 - "<-<<< JPEGVTDecoder >>>->"

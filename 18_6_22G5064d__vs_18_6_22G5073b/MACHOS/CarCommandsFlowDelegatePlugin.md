@@ -74,6 +74,30 @@
 -  CStrings:  2020
 +  CStrings:  2025
  
+Functions (added):
++ sub_30c94
++ sub_7a08c
++ sub_a04dc
++ sub_f7a94
++ sub_fa350
++ sub_fa800
++ sub_fa96c
++ sub_fb1e0
++ sub_fb200
++ sub_fb7e8
++ sub_fbaf8
++ sub_fbc6c
++ sub_fccc0
++ sub_ffacc
++ sub_1001ac
+
+Functions (removed):
+- sub_151abc
+- sub_152834
+- sub_152c7c
+- sub_153654
+- sub_153a74
+- sub_153bec
 CStrings:
 + "$__lazy_storage_$_preferredRadioEntitySpan"
 + "/Library/Caches/com.apple.xbs/Sources/SiriCarCommands/CarCommandsFlowDelegatePlugin/NL/NLv4/CarCommandsNlv4Task.swift"

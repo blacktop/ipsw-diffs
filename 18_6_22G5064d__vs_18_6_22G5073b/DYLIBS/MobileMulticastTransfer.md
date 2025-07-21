@@ -143,6 +143,12 @@ Symbols:
 - ___block_literal_global.160
 - ___block_literal_global.55
 - ___block_literal_global.61
+Functions (modified):
+~ -[MIBUNWServerController initWithPacketProvider:hostAddress:hostPort:nanPort:groupAddress:groupPort:interfaceName:serviceName:countryCode:channelName:band:bandwidth:enableRateAdapter:controllerDelegate:] : 796 -> 756
+
+Functions (removed):
+- -[MIBUNWServerController setPingInterval:]
+- -[MIBUNWServerController setPingTimeout:]
 CStrings:
 - "setPingTimeout:"
 

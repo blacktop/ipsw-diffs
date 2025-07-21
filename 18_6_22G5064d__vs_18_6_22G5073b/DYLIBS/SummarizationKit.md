@@ -32,11 +32,13 @@
 -  CStrings:  758
 +  CStrings:  760
  
-Functions:
-~ sub_25db94d98 -> sub_25d1b7d98 : 1732 -> 1764
-~ sub_25db9545c -> sub_25d1b847c : 240 -> 244
-~ sub_25db98c98 -> sub_25d1bbcbc : 824 -> 848
-~ sub_25db99534 -> sub_25d1bc570 : 1124 -> 1360
+Functions (added):
++ sub_25d1bbcbc
++ sub_25d1bc570
+
+Functions (removed):
+- sub_25dbe8694
+- sub_25dc91fe8
 CStrings:
 + "The request failed."
 + "alternateErrorCodeForAnalytics"

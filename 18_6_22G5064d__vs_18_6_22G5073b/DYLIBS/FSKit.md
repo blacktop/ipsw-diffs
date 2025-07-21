@@ -208,6 +208,29 @@ Symbols:
 - _objc_msgSend$DAMountFSKitVolume:deviceName:mountPoint:volumeName:mountOptions:
 - _objc_msgSend$fsMachPort
 - _objc_msgSend$mountVolume:fileSystem:displayName:provider:domainError:on:how:options:
+Functions (modified):
+~ +[FSKitConstants(project) setArgumentsForFSClientXPC:] : 688 -> 768
+
+Functions (added):
++ -[FSModuleExtension(Project) sendConfigureUserClientWithReplyHandler:]
++ ___55-[FSModuleConnector loadResource:options:replyHandler:]_block_invoke.276
++ -[FSClient(Private) activateVolume:shortName:options:auditToken:replyHandler:]
++ ___78-[FSClient(Private) activateVolume:shortName:options:auditToken:replyHandler:]_block_invoke
++ -[FSClient(Private) deactivateVolume:shortName:numericOptions:auditToken:replyHandler:]
++ ___87-[FSClient(Private) deactivateVolume:shortName:numericOptions:auditToken:replyHandler:]_block_invoke
++ -[FSClient(Private) loadResource:shortName:options:auditToken:replyHandler:]
++ ___76-[FSClient(Private) loadResource:shortName:options:auditToken:replyHandler:]_block_invoke
++ -[FSClient(Private) unloadResource:shortName:options:auditToken:replyHandler:]
++ ___78-[FSClient(Private) unloadResource:shortName:options:auditToken:replyHandler:]_block_invoke
++ -[FSClient(Project) deactivateVolume:shortName:numericOptions:auditToken:replyHandler:]
++ ___87-[FSClient(Project) deactivateVolume:shortName:numericOptions:auditToken:replyHandler:]_block_invoke
++ _OUTLINED_FUNCTION_7
++ -[FSModuleExtension(Project) sendConfigureUserClientWithReplyHandler:].cold.4
+
+Functions (removed):
+- -[FSModuleExtension(Project) sendConfigureUserClient:replyHandler:]
+- ___55-[FSModuleConnector loadResource:options:replyHandler:]_block_invoke.275
+- _OUTLINED_FUNCTION_8
 CStrings:
 + "%s: Created FSMachPort = %d"
 + "%s: Extension (%{public}@) doesn't have a mach port to configure user client"

@@ -93,6 +93,23 @@
 Symbols:
 + _$s14MarketplaceKit19InstallSheetContextV6SourceO08AppStoredE0V14showBiometrics11installType7appName7iconURL16metricsFieldDataAGSb_S2S10Foundation0P0VSgAM0S0VSgtcfC
 - _$s14MarketplaceKit19InstallSheetContextV6SourceO08AppStoredE0V14showBiometrics11installType16metricsFieldDataAGSb_SS10Foundation0O0VSgtcfC
+Functions (added):
++ sub_1000c6220
++ sub_1000c747c
++ sub_1000c7a60
++ sub_1000c8244
++ [4 functions added in block]
++ sub_1003c06a0
++ sub_1003c06b4
++ sub_1003c06dc
++ sub_1003c071c
++ sub_1004314e8
+
+Functions (removed):
+- sub_10043b764
+- sub_10043e99c
+- sub_10043eda0
+- sub_100440e10
 CStrings:
 + "18:58:25"
 + "Jul  6 2025"

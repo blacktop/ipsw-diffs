@@ -52,6 +52,21 @@
 -  CStrings:  1824
 +  CStrings:  1838
  
+Functions (added):
++ sub_10001f15c
++ sub_10001f89c
++ sub_10001f93c
++ sub_10001fb20
++ sub_100022d88
++ sub_100023528
++ sub_100023834
++ sub_100023b1c
++ sub_100039c04
++ sub_100039d64
++ sub_10003ee18
++ sub_10003f14c
++ sub_10003f62c
++ sub_10003fa70
 CStrings:
 + "%s: No module found with short name '%@'"
 + "%s: No moduleIdentity found for fsShortName (%@)"

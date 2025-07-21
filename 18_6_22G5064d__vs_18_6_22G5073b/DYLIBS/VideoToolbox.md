@@ -557,6 +557,1276 @@ Symbols:
 - _vtRateControlSessionRegisterBundle.cold.8
 - _vtRateControlSessionRegisterBundle.cold.9
 - _vt_Rotate_Celeste.sAlreadyLogged.22
+Functions (modified):
+~ _VTSelectAndCreateVideoDecoderInstanceInternal : 7356 -> 2480
+~ _VTRegisterVideoDecoderWithInfo : 1496 -> 672
+~ _VTSessionRegisterCallbacksForTypeID : 476 -> 268
+~ _RegisterVTVideoDecoderType : 120 -> 64
+~ _VTDecoderSessionSetPixelBufferAttributes : 284 -> 172
+~ _VTBuildPixelBufferPools : 452 -> 68
+~ _vtCreateUsablePixelBufferAttributes : 2280 -> 2272
+~ _VTSessionCopyProperty : 380 -> 176
+~ _VTDecompressionSessionCopyProperty : 1776 -> 1220
+~ _vtDecompressionSessionCreatePropertiesHandledByVideoToolbox : 1268 -> 1212
+~ _VTDecompressionSessionCopySupportedPropertyDictionary : 644 -> 552
+~ _VTPixelTransferSessionCreate : 736 -> 388
+~ _vtDecompressionDuctDecodeSingleFrame : 3540 -> 1872
+~ _vtDecompressionSubDuctEmitTransferredFrame : 144 -> 56
+~ _vtDecompressionDuctEmitDecodedFrame : 2620 -> 1740
+~ _vtDecompressionSessionFinalize : 444 -> 148
+~ _RegisterVTVideoEncoderType : 120 -> 64
+~ _VTPixelTransferSessionTransferImage : 1036 -> 588
+~ _vtBufferGetCleanRect : 840 -> 568
+~ _figIOSurfaceAcceleratedPixelTransfer_Open : 864 -> 784
+~ _figIOSurfaceAcceleratedPixelTransfer_TransferM2 : 9724 -> 7108
+~ _VTSessionSetProperty : 308 -> 164
+~ _vtPixelTransferSession_PrepareBlitterParameters : 1180 -> 484
+~ _VTEncoderSessionSetPixelBufferAttributes : 244 -> 204
+~ _VTSessionSetProperties : 388 -> 184
+~ _VTCompressionSessionSetProperties : 940 -> 884
+~ _vtCompressionSessionConfirmSpatialAndColorProperties : 6792 -> 2988
+~ _VTEncoderSessionCreateVideoFormatDescription : 1284 -> 704
+~ _VTEncoderSessionEmitEncodedFrame : 1480 -> 912
+~ _vtCompressionSessionFinalize : 1244 -> 948
+~ _vtInitializeDeviceGroupsAndCache : 356 -> 84
+~ _VTVPParavirtualizedHEVCVideoEncoder_CreateInstance : 708 -> 160
+~ _VTVPParavirtualizedH264VideoEncoder_CreateInstance : 708 -> 160
+~ _vtPixelTransferGraphNextEdgeIterator : 1932 -> 1896
+~ _VTCompressionSessionCreateWithOptions : 5588 -> 3160
+~ _vtRateControlSessionBeforeEncodeCallback : 912 -> 648
+~ _VTEncoderSessionCreateTimeStampQueue : 244 -> 192
+~ _vtCompressionSessionCompressionWork : 7804 -> 2988
+~ _VTCompressionSessionCopyProperty : 4276 -> 3416
+~ _vtRateControlReactionObserverCallback : 448 -> 112
+~ _VTCompressionSessionCopySupportedPropertyDictionary : 812 -> 696
+~ _vtCompressionSessionCopyPropertiesHandledByVideoToolbox : 188 -> 148
+~ _vtCompressionSessionValidatePixelAspectRatio : 560 -> 352
+~ _vtCompressionSessionValidateCleanAperture : 644 -> 512
+~ _vtCompressionSessionValidateFieldCount : 264 -> 212
+~ _vtCompressionSessionValidateFieldDetail : 232 -> 192
+~ _vtCompressionSessionValidatePixelFormatComponentRange : 208 -> 168
+~ _vtCompressionSessionValidateColorPrimaries : 304 -> 264
+~ _vtCompressionSessionValidateTransferFunction : 352 -> 312
+~ _vtCompressionSessionValidateGammaLevel : 260 -> 208
+~ _vtCompressionSessionValidateYCbCrMatrix : 256 -> 216
+~ _vtCompressionSessionValidateICCProfile : 172 -> 116
+~ _vtCompressionSessionValidateMasteringDisplayColorVolume : 244 -> 140
+~ _vtCompressionSessionValidateContentLightLevelInfo : 244 -> 140
+~ _vtCompressionSessionValidateAmbientViewingEnvironment : 244 -> 140
+~ _vtCompressionSessionValidateMultiPassStorage : 172 -> 116
+~ _vtCompressionSessionValidateAuxiliaryTypeInfo : 172 -> 116
+~ _vtCompressionSessionValidateChromaLocation : 304 -> 264
+~ _vtCompressionSessionValidatePrepareEncodedSampleBuffersForPaddedWrites : 180 -> 124
+~ _vtCompressionSessionValidateHasRightStereoEyeView : 164 -> 116
+~ _vtCompressionSessionValidateTransportIdentifier : 156 -> 108
+~ _vtCompressionSessionValidateWarpKind : 156 -> 108
+~ _vtCompressionSessionValidatePowerLogSessionID : 164 -> 116
+~ _vtCompressionSessionValidateHDRMetadata : 840 -> 692
+~ _vtCompressionSessionUpdateAmbientViewingEnvironment : 384 -> 360
+~ _vtCompressionSessionIsIPT : 432 -> 100
+~ _vtCompressionSessionPrepareToEncodeFramesInternal : 3432 -> 2192
+~ _vtCompressionSessionEncodeFrameCommon : 7384 -> 4124
+~ _vtCompressionSessionCopyFallbackVideoFormatDescriptionExtensions : 13340 -> 1820
+~ _vtCompressionSessionAddDolbyVisionVideoFormatDescriptionExtensions : 2640 -> 1488
+~ _VTEncoderSessionCreateVideoFormatDescriptionFromHEVCParameterSets : 940 -> 620
+~ _vtCreateVideoFomatDescriptionFromHEVCParameterSets : 644 -> 376
+~ _VTEncoderSessionCreateMVHEVCThreeDimensionalReferenceDisplaysInfoSEIWithDefaults : 240 -> 220
+~ _vtTimeStampRetain : 192 -> 124
+~ _VTEncoderSessionCreateCMBlockBuffer : 260 -> 240
+~ _VTEncoderSessionDequeueDecodeTimeStamp : 840 -> 352
+~ _vtCompressionSessionAddPropertyToPartition : 540 -> 184
+~ _vtCompressionSessionIsHLG : 448 -> 116
+~ _vtCompressionSessionSetHDRFormat : 656 -> 364
+~ _vtCompressionSessionIsPQ : 448 -> 116
+~ ___vtCompressionSessionSendConfigToCoreAnalytics_block_invoke : 2180 -> 2128
+~ _vtDoesFrameRequireIOSurfaceSynchronization : 748 -> 136
+~ _vtCompressionSessionIOSurfaceSynchronizationWork : 948 -> 408
+~ _vtCompressionSessionPixelTransferSessionWork : 1712 -> 880
+~ _vtCompressionSessionColorSyncWork : 1704 -> 880
+~ _vtIsPixelBufferCompatibleWithAttributes : 844 -> 332
+~ _VTCompressionSessionServerStart : 436 -> 112
+~ _VTCompressionSessionRemoteServer_Destroy : 568 -> 52
+~ _CompressionOutputCallback : 448 -> 196
+~ _vtcss_appStateChangeListener : 1336 -> 368
+~ ___VTCompressionSessionRemoteServer_EncodeFrame_block_invoke : 472 -> 412
+~ _TileCompressionOutputCallback : 448 -> 196
+~ ___VTCompressionSessionRemoteServer_EncodeTile_block_invoke : 228 -> 216
+~ ___VTCompressionSessionRemoteServer_EstimateMotion_block_invoke_2 : 504 -> 252
+~ _vtcss_enqueueFrame : 532 -> 244
+~ _VTDecompressionSessionWaitForAsynchronousFrames : 1112 -> 448
+~ _VTDecompressionSessionCreateWithOptions : 9944 -> 4280
+~ _vtDecompressionSubDuctSetProperty : 3748 -> 2260
+~ _VTDecompressionSessionGetMinOutputPresentationTimeStampOfFramesBeingDecoded : 332 -> 192
+~ _vtDecompressionSubDuctCopyProperty : 1948 -> 1572
+~ _VTDecompressionSessionSetProperties : 768 -> 696
+~ _VTDecompressionSessionCopySerializableProperties : 336 -> 300
+~ _VTDecompressionSessionCopyBlackPixelBuffer : 712 -> 696
+~ _VTIsHardwareDecodeSupported : 856 -> 264
+~ _VTDecompressionSessionGetMinAndMaxOutputPresentationTimeStampOfFramesBeingDecoded : 448 -> 352
+~ _VTDecompressionSessionSetDecoderSessionAsPixelBufferSource : 180 -> 124
+~ _VTDecoderSessionCreatePixelBufferWithOptions : 1348 -> 616
+~ _VTDecoderSessionForgetPixelBufferForFrame : 732 -> 272
+~ _VTDecompressionSessionDecodeFrameWithOptions : 548 -> 200
+~ _VTDecompressionSessionCanAcceptFormatDescription : 876 -> 300
+~ _vtDecoderSessionEmitDecodedFrameCommon : 5396 -> 2316
+~ _VTDecoderSessionTrace : 232 -> 80
+~ _VTDecoderSessionGetDestinationPixelBufferAttributes : 220 -> 88
+~ _checkDecompressionSessionTrace : 56 -> 4
+~ ___vtDecompressionSessionDeterminePolicyForPossibleHDR10PlusContent_block_invoke : 364 -> 68
+~ ___vtDecompressionSessionSetupDolbyVision8p1_block_invoke : 356 -> 60
+~ ___vtDecompressionSessionSetupDolbyVision10p4_block_invoke : 352 -> 48
+~ _vtFormatDescriptionIsPQ : 376 -> 68
+~ ___vtAddDolbyOverride_block_invoke : 352 -> 60
+~ _vtGetEnableAsynchronousTransferOnce : 452 -> 212
+~ _VTPixelTransferChainAppendSoftwareNode : 364 -> 276
+~ _vtPixelTransferChainAppendDynamicNode : 416 -> 364
+~ __VTPixelTransferSessionSetProperty : 7332 -> 5136
+~ __VTPixelTransferSessionCopyProperty : 2068 -> 1884
+~ _vt_CopyToOrFromPlanarBuffers : 4772 -> 4120
+~ _vtBufferGetPixelAndPictureAspectRatio : 716 -> 336
+~ _VTPixelTransferSessionCanTransfer : 3312 -> 712
+~ _vtFindBlitter : 176488 -> 125540
+~ __VTPixelTransferSessionTransferImage : 5596 -> 4164
+~ _VTPixelTransferSessionGetNextSoftwareBlitter : 340 -> 332
+~ _VTPixelTransferSessionGetNextVImageBlitter : 324 -> 312
+~ _VTPixelTransferNodeSoftwareFinalize : 124 -> 112
+~ _VTPixelTransferNodeScalerFinalize : 328 -> 316
+~ _vt_Copy_10bitBiPlanarYUV422_v210 : 692 -> 416
+~ _vt_Copy_PlanarYUV422_v216 : 628 -> 360
+~ _vt_VImage_Setup_32ARGB_2vuy : 512 -> 496
+~ _vt_VImage_Setup_32ARGB_yuvs : 512 -> 496
+~ _vt_VImage_Setup_32ARGB_2vuf : 512 -> 496
+~ _vt_VImage_Setup_32ARGB_yuvf : 512 -> 496
+~ _vt_VImage_Setup_32ARGB_y420 : 512 -> 496
+~ _vt_VImage_Setup_32ARGB_f420 : 512 -> 496
+~ _vt_VImage_Setup_32ARGB_420v : 512 -> 496
+~ _vt_VImage_Setup_32ARGB_420f : 512 -> 496
+~ _vt_VImage_Setup_32ARGB_v210 : 516 -> 500
+~ _vt_VImage_Setup_32ARGB_v216 : 512 -> 496
+~ _vt_VImage_Setup_32ARGB_y408 : 512 -> 496
+~ _vt_VImage_Setup_32ARGB_v410 : 516 -> 500
+~ _vt_VImage_Setup_32ARGB_y416 : 512 -> 496
+~ _vt_VImage_Setup_32ARGB_xw44 : 660 -> 640
+~ _vt_VImage_Setup_32BGRA_2vuy : 512 -> 496
+~ _vt_VImage_Setup_32BGRA_yuvs : 512 -> 496
+~ _vt_VImage_Setup_32BGRA_420f : 512 -> 496
+~ _vt_VImage_Setup_32BGRA_yuvf : 512 -> 496
+~ _vt_VImage_Setup_32BGRA_2vuf : 512 -> 496
+~ _vt_VImage_Setup_32BGRA_y420 : 512 -> 496
+~ _vt_VImage_Setup_32BGRA_f420 : 512 -> 496
+~ _vt_VImage_Setup_32BGRA_420v : 512 -> 496
+~ _vt_VImage_Setup_32BGRA_v0a8 : 512 -> 496
+~ _vt_VImage_Setup_32BGRA_v210 : 516 -> 500
+~ _vt_VImage_Setup_32BGRA_v216 : 512 -> 496
+~ _vt_VImage_Setup_32BGRA_y408 : 512 -> 496
+~ _vt_VImage_Setup_32BGRA_v410 : 516 -> 500
+~ _vt_VImage_Setup_32BGRA_y416 : 512 -> 496
+~ _vt_VImage_Setup_y408_32ARGB : 524 -> 508
+~ _vt_VImage_Setup_y408_32BGRA : 524 -> 508
+~ _vt_VImage_Setup_v216_32BGRA : 524 -> 508
+~ _vt_VImage_Setup_v216_32ARGB : 524 -> 508
+~ _vt_VImage_Setup_v216_l64r : 524 -> 508
+~ _vt_VImage_Setup_v216_RGhA : 524 -> 508
+~ _vt_VImage_Setup_2vuf_32ARGB : 524 -> 508
+~ _vt_VImage_Setup_2vuf_32BGRA : 524 -> 508
+~ _vt_VImage_Setup_RGhA_32ARGB : 320 -> 304
+~ _vt_VImage_Setup_RGhA_32BGRA : 320 -> 304
+~ _vt_VImage_Setup_RGhA_y416 : 512 -> 496
+~ _vt_VImage_Setup_RGhA_R10k : 320 -> 304
+~ _vt_VImage_Setup_w30r_x420 : 516 -> 500
+~ _vt_VImage_Setup_w30r_x422 : 516 -> 500
+~ _vt_VImage_Setup_w30r_x444 : 516 -> 500
+~ _vt_VImage_Setup_w30r_xf20 : 516 -> 500
+~ _vt_VImage_Setup_w30r_xf22 : 516 -> 500
+~ _vt_VImage_Setup_w30r_xf44 : 516 -> 500
+~ _vt_VImage_Setup_w30r_xw20 : 516 -> 500
+~ _vt_VImage_Setup_w30r_xw22 : 516 -> 500
+~ _vt_VImage_Setup_w30r_xw44 : 516 -> 500
+~ _vt_VImage_Setup_l64r_y416 : 512 -> 496
+~ _vt_VImage_Setup_l64r_v216 : 512 -> 496
+~ _vt_VImage_Setup_x422_w30r : 528 -> 512
+~ _vt_VImage_Setup_x420_w30r : 528 -> 512
+~ _vt_VImage_Setup_xf44_w30r : 528 -> 512
+~ _vt_VImage_Setup_xf22_w30r : 528 -> 512
+~ _vt_VImage_Setup_xf20_w30r : 528 -> 512
+~ _vt_VImage_Setup_xw44_32BGRA : 692 -> 660
+~ _vt_VImage_Setup_xw44_32ARGB : 692 -> 660
+~ _vt_VImage_Setup_xw44_w30r : 528 -> 512
+~ _vt_VImage_Setup_xw22_32BGRA : 692 -> 660
+~ _vt_VImage_Setup_xw22_32ARGB : 692 -> 660
+~ _vt_VImage_Setup_xw22_w30r : 528 -> 512
+~ _vt_VImage_Setup_xw20_32BGRA : 692 -> 660
+~ _vt_VImage_Setup_xw20_32ARGB : 692 -> 660
+~ _vt_VImage_Setup_xw20_w30r : 528 -> 512
+~ _vImageLoadFunctions : 648 -> 404
+~ _vtConfigureScalerCommon : 720 -> 492
+~ _sessionPropertyApplier : 364 -> 20
+~ _vt_VImage_Setup_L008_L016 : 192 -> 176
+~ _vt_VImage_Setup_L016_L008 : 192 -> 176
+~ _OUTLINED_FUNCTION_4 : 44 -> 48
+~ _OUTLINED_FUNCTION_5 : 112 -> 32
+~ _OUTLINED_FUNCTION_11 : 40 -> 20
+~ _OUTLINED_FUNCTION_23 : 32 -> 20
+~ _OUTLINED_FUNCTION_46 : 12 -> 44
+~ _OUTLINED_FUNCTION_28 : 20 -> 12
+~ _OUTLINED_FUNCTION_33 : 12 -> 68
+~ _DepthWrapperDecoder_CreateInstance : 620 -> 276
+~ _DepthWrapperDecoder_FinishDelayedFrames : 504 -> 144
+~ _vtBuildPixelBufferPoolsCommon : 9272 -> 4808
+~ _vtGetFirstPixelFormatFromPixelBufferAttributes : 2196 -> 664
+~ _VTSessionCopySupportedPropertyDictionary : 300 -> 144
+~ _VTSessionCopySerializableProperties : 308 -> 164
+~ _VTHDRMetadataGenerationSessionCreate : 332 -> 240
+~ _VTHDRMetadataGenerationSessionSetFramesPerSecond : 396 -> 96
+~ _VTHDRMetadataGenerationSessionCreateDataFromStatisticsDictionary : 800 -> 464
+~ _getValuesFromDictionary : 1932 -> 1328
+~ _createDataFromStatistics : 6632 -> 2396
+~ _vtPopulateVideoDecoderRegistry : 384 -> 116
+~ _VTCopyVideoDecoderList : 2036 -> 1556
+~ _vtInitializeVideoDecoderRegistry : 1688 -> 1240
+~ _vtRegisterVideoDecoderWithInfoKeysAndValues : 284 -> 224
+~ _vtRegisterVideoDecoderWithInfoKeysAndValuesInternal2 : 840 -> 784
+~ _vtUnregisterParavirtualizedVideoDecoders : 328 -> 312
+~ _VTCompressionSessionRemote_Create : 1184 -> 884
+~ ___VTCompressionSessionRemote_Create_block_invoke : 592 -> 380
+~ _vtcsr_handleDeadServerConnection : 600 -> 312
+~ _VTCompressionSessionRemote_Invalidate : 652 -> 424
+~ _vtcsr_dequeueAllPendingFramesAndCallbackClientForEach : 700 -> 204
+~ _VTCompressionSessionRemote_CopySupportedPropertyDictionary : 644 -> 264
+~ _VTCompressionSessionRemote_CopySerializableProperties : 644 -> 264
+~ _VTCompressionSessionRemote_GetPixelBufferPool : 828 -> 616
+~ _VTCompressionSessionRemote_PrepareToEncodeFrames : 336 -> 224
+~ _weakReferenceTable_CopyPointerFromKey : 408 -> 112
+~ _vtCompressionSessionRemote_EncodeFrameCommon : 3052 -> 1892
+~ _VTCompressionSessionRemote_CompleteFrames : 528 -> 112
+~ _VTCompressionSessionRemote_BeginPass : 596 -> 204
+~ _VTCompressionSessionRemote_EndPass : 624 -> 252
+~ _VTCompressionSessionRemote_GetTimeRangesForNextPass : 780 -> 420
+~ _VTMultiPassStorageRemote_Invalidate : 456 -> 200
+~ _VTTileCompressionSessionRemote_Create : 1156 -> 836
+~ ___VTTileCompressionSessionRemote_Create_block_invoke : 536 -> 324
+~ _VTTileCompressionSessionRemote_PrepareToEncodeTiles : 352 -> 240
+~ _VTTileCompressionSessionRemote_EncodeTile : 940 -> 848
+~ _VTTileCompressionSessionRemote_CompleteTiles : 520 -> 112
+~ _VTMotionEstimationSessionRemote_Create : 928 -> 644
+~ ___VTMotionEstimationSessionRemote_Create_block_invoke : 484 -> 272
+~ _VTCompressionSessionRemote_CopySourcePixelBufferAttributes : 364 -> 264
+~ _VTCompressionSessionRemote_EstimateMotionVectors : 896 -> 780
+~ _VTCompressionSessionRemote_CompleteMotionVectors : 520 -> 112
+~ _vtcsr_Finalize : 432 -> 172
+~ ___vtcsr_oneTimeInitialization_block_invoke : 160 -> 104
+~ ___vtcsr_dequeueAllPendingFramesAndCallbackClientForEach_block_invoke : 3232 -> 1196
+~ ___vtcsr_handleDeadServerConnection_block_invoke_2 : 720 -> 432
+~ _DepthWrapperEncoder_CreateInstance : 644 -> 284
+~ _DepthWrapperEncoder_Finalize : 456 -> 176
+~ _DepthWrapperEncoder_CompleteFrames : 768 -> 160
+~ ___DepthWrapperEncoder_EncodeFrame_block_invoke : 1736 -> 784
+~ _VTRegisterVideoEncoderWithInfo : 1160 -> 604
+~ _VTSelectAndCreateVideoEncoderInstanceInternal : 6160 -> 2128
+~ _VTCopyVideoEncoderList : 3276 -> 2192
+~ _vtGetPreferInternalEncoders : 328 -> 60
+~ _vtUnregisterParavirtualizedVideoEncoders : 328 -> 312
+~ _OUTLINED_FUNCTION_2 : 16 -> 100
+~ _VTCopyDecoderCapabilitiesDictionaryForCodecTypes : 4784 -> 2508
+~ _VTGetHEVCCapabilitesForFormatDescription : 788 -> 680
+~ _VTGetDecoderCapabilitesForFormatDescription : 768 -> 652
+~ _srsFilter_calculateOutputDimensions : 556 -> 140
+~ _SRSEnhancementFilter_ProcessFrame : 3192 -> 1868
+~ _SRSEnhancementFilter_CopySupportedPropertyDictionary : 188 -> 148
+~ _GetConversionRoutine : 2740 -> 1688
+~ _DoNothing : 284 -> 4
+~ _VTParavirtualizationCreateSampleBufferFromSerializedAtomDataBlockBuffer : 4460 -> 3756
+~ _vtParavirtualizationAtomDataReaderCopyCFArray : 440 -> 396
+~ _VTPixelRotationSessionCreateWithRotationAndFlip : 740 -> 492
+~ _VTPixelRotationSessionCopySupportedPropertyDictionary : 800 -> 788
+~ _VTPixelRotationSessionSetProperty : 6628 -> 4584
+~ _VTPixelRotationSessionCopyProperty : 2408 -> 2004
+~ _VTPixelRotationSessionSetProperties : 176 -> 148
+~ _VTPixelRotationSessionRotateImage : 968 -> 844
+~ __VTPixelRotationSessionRotateSubImage : 15796 -> 10852
+~ _vtPixelRotation_IsValidForSoftware : 1560 -> 404
+~ _vtPixelRotation_BuildChain : 4920 -> 3956
+~ _ParavirtualizedVideoEncoder_CreateInstanceWithSpecification : 2172 -> 2160
+~ ___ParavirtualizedVideoEncoder_CreateInstanceWithSpecification_block_invoke : 124 -> 5572
+~ _paravirtualizedVideoEncoder_forgetPendingFramePixelBufferByUUID : 600 -> 276
+~ _ParavirtualizedVideoEncoder_EncodeTile : 2864 -> 1936
+~ _paravirtualizedVideoEncoder_rememberPendingFramePixelBufferAndUUID : 788 -> 244
+~ _VTHDRPerFrameMetadataGenerationSessionCreate : 312 -> 256
+~ ___VTShouldRunVideoDecodersInProcess_block_invoke : 132 -> 76
+~ _currentProcessHasTrueBooleanEntitlement : 1176 -> 180
+~ _dsrxpc_Finalize : 580 -> 284
+~ _VTTileDecompressionSessionRemoteXPC_Create : 712 -> 472
+~ _VTDecompressionSessionRemoteXPC_DecodeFrameWithOutputHandler : 476 -> 80
+~ _dsrxpc_emitPendingFramesForOneSampleWithError : 700 -> 376
+~ _VTDecompressionSessionRemoteXPC_CopySupportedPropertyDictionary : 432 -> 144
+~ _VTDecompressionSessionRemoteXPC_CopySerializableProperties : 468 -> 164
+~ _VTDecompressionSessionRemoteXPC_WaitForAsynchronousFrames : 360 -> 64
+~ _VTDecompressionSessionRemoteXPC_GetMinAndMaxOutputPresentationTimeStampOfFramesBeingDecoded : 640 -> 356
+~ _dsrxpc_xpcClient_NotificationFilter : 356 -> 8
+~ _dsrxpc_xpcClient_DeadServerConnectionCallback : 348 -> 88
+~ _dsrxpc_xpcClient_SetUpEventLink : 360 -> 72
+~ _dsrxpc_handleServerSessionIsGone : 536 -> 252
+~ _OUTLINED_FUNCTION_3 : 24 -> 32
+~ _OUTLINED_FUNCTION_5 : 16 -> 12
+~ _DecodeBlocks : 2752 -> 2528
+~ _ParavirtualizedVideoDecoder_CreateInstanceWithSpecification : 2244 -> 2236
+~ ___ParavirtualizedVideoDecoder_CreateInstanceWithSpecification_block_invoke : 124 -> 4288
+~ _marker_detect : 1432 -> 1300
+~ _read_SOF : 1144 -> 580
+~ _jpeg_predecompress : 600 -> 128
+~ _VTMotionEstimationSessionInvalidate : 524 -> 232
+~ _VTMotionEstimationProcessorSessionSetSourcePixelBufferAttributes : 472 -> 180
+~ _VTMotionEstimationProcessorSessionSetMotionVectorPixelBufferAttributes : 516 -> 224
+~ _VTMotionEstimationProcessorSessionEmitMotionVectors : 536 -> 260
+~ _VTMotionEstimationSessionCopySupportedPropertyDictionary : 792 -> 596
+~ _VTMotionEstimationSessionCopyProperty : 812 -> 580
+~ _VTMotionEstimationSessionSetProperties : 552 -> 296
+~ _VTMotionEstimationSessionCopySerializableProperties : 580 -> 228
+~ _MuxedAlphaDecoder_CreateInstance : 284 -> 228
+~ _MuxedAlphaDecoder_FinishDelayedFrames : 488 -> 136
+~ _alphadecoder_mergeBaseAndAlpha : 616 -> 588
+~ _alphadecoder_transferPlane : 320 -> 284
+~ _VTHDRImageStatisticsGenerationSessionCreate : 1200 -> 360
+~ _VTPixelBlitterSetupAssignBlitter : 78292 -> 59828
+~ ___VTParavirtualizedJPEGSessionCreate_block_invoke : 112 -> 36
+~ _JPEGVideoDecoder_CreateInstance : 336 -> 268
+~ _JPEGVideoDecoder_CopyProperty : 512 -> 300
+~ _JPEGVideoDecoder_SetProperty : 540 -> 312
+~ _jpeg_createSuggestedQualityOfServiceTiers : 332 -> 264
+~ _jpeg_createQualityOfServiceTier : 364 -> 192
+~ _JPEGVideoDecoder_CopySupportedPropertyDictionary : 204 -> 148
+~ _TestIPBVideoDecoder_CreateInstance : 884 -> 252
+~ _TestIPBVideoDecoder_Finalize : 372 -> 68
+~ _TestIPBVideoDecoder_CopyProperty : 244 -> 208
+~ _TestIPBVideoDecoder_SetProperty : 448 -> 280
+~ _TestIPBVideoDecoder_StartSession : 1760 -> 652
+~ _TestIPBVideoDecoder_CopySupportedPropertyDictionary : 184 -> 144
+~ _testipb_CreatePixelBufferAndDrawFrame : 2960 -> 2848
+~ _vt_checkCMSessionIsSupported : 472 -> 188
+~ _vtLoadVideoDecodersGuts : 588 -> 532
+~ _FigGetAlignmentForIOSurfaceOutputToDisplayService : 872 -> 412
+~ _FigCreatePixelBufferAttributesWithIOSurfaceSupport : 952 -> 824
+~ _FigCreatePixelBufferCacheModeArray : 296 -> 284
+~ _figIOSurfaceAcceleratedPixelTransfer_Transfer : 204 -> 144
+~ _VTDecompressionSessionServerStartXPC : 620 -> 292
+~ ___dssxpc_ensureEventLinkIfSupported_block_invoke : 328 -> 52
+~ ___dssxpc_maxNumberOfEmitFrameEventLinksToCreatePerSession_block_invoke : 592 -> 64
+~ _dssxpc_dscr_Finalize : 700 -> 424
+~ _vtInitializePerClientAudioSessionStorage : 352 -> 80
+~ _vtPerClientAudioSessionFinalize : 972 -> 180
+~ _dssxpc_disposeConnectionRefcon : 332 -> 4
+~ _VTDecompressionSessionRemote_Invalidate : 964 -> 408
+~ _VTDecompressionSessionRemote_FinishDelayedTiles : 524 -> 112
+~ _vtdsr_dequeueAllPendingFramesAndCallbackClientForEach : 688 -> 192
+~ _VTDecompressionSessionRemote_CopySupportedPropertyDictionary : 648 -> 264
+~ _VTDecompressionSessionRemote_CopySerializableProperties : 732 -> 276
+~ _VTDecompressionSessionRemote_CopyProperty : 1084 -> 764
+~ _VTDecompressionSessionRemote_SetProperty : 908 -> 392
+~ _VTDecompressionSessionRemote_SetProperties : 764 -> 296
+~ _vtDecompressionSessionRemote_DecodeFrameCommon : 1540 -> 884
+~ _weakReferenceTable_CopyPointerFromKey : 412 -> 112
+~ _VTDecompressionSessionRemote_WaitForAsynchronousFrames : 524 -> 112
+~ _VTDecompressionSessionRemote_FinishDelayedFrames : 524 -> 112
+~ _VTDecompressionSessionRemote_CanAcceptFormatDescription : 548 -> 264
+~ _VTDecompressionSessionRemote_FlushPixelBufferPool : 540 -> 160
+~ _VTDecompressionSessionRemote_GetMinAndMaxOutputPresentationTimeStampOfFramesBeingDecoded : 944 -> 528
+~ _VTTileDecompressionSessionRemote_Create : 1212 -> 928
+~ _VTDecompressionSessionRemote_DecodeTile : 1560 -> 928
+~ _vtdsr_Finalize : 416 -> 156
+~ ___vtdsr_oneTimeInitialization_block_invoke : 160 -> 104
+~ ___vtdsr_dequeueAllPendingFramesAndCallbackClientForEach_block_invoke : 5220 -> 2800
+~ ___vtdsr_dequeueNextPendingFrameAndCallbackClient_block_invoke : 620 -> 296
+~ _vtLoadVideoEncodersGuts : 436 -> 380
+~ _vtTryToLoadVideoEncoder : 1068 -> 64
+~ _VTImageRotationSessionCreate : 304 -> 272
+~ _vt_Rotate_8 : 548 -> 216
+~ _vt_Rotate_420v : 784 -> 476
+~ _vt_Rotate_x420 : 768 -> 456
+~ _VTRateControlSessionCreate : 704 -> 372
+~ _vtRateControlSessionBeforeEncodeFrameCallback : 500 -> 136
+~ _vtRateControlSessionCompleteFramesCallback : 416 -> 108
+~ _VTRateControlSessionBeforePrepareToEncodeFrames : 404 -> 112
+~ _VTRateControlSessionBeforeEncodeFrame : 488 -> 128
+~ _VTRateControlSessionBeforeEmitEncodedFrame : 464 -> 80
+~ _VTRateControlSessionCompleteFrames : 372 -> 80
+~ _VTRateControlReactionObserverCreate : 724 -> 132
+~ _vtRateControlSessionFinalize : 372 -> 76
+~ _OUTLINED_FUNCTION_0 : 24 -> 52
+~ _MuxedAlphaEncoder_CreateInstance : 568 -> 232
+~ _MuxedAlphaEncoder_Finalize : 616 -> 312
+~ _alphaencoder_setSessionPropertiesInListFromDictionaryIfPresent : 464 -> 180
+~ _alphaencoder_setVideoLayerIDsToMVHEVCColorAlphaEncoder : 800 -> 484
+~ _MuxedAlphaEncoder_EncodeFrame : 1648 -> 1316
+~ _MuxedAlphaEncoder_CompleteFrames : 796 -> 188
+~ _MuxedAlphaEncoder_EncodeMultiImageFrame : 2620 -> 1948
+~ _alphaencoder_setKeysInListFromDictionaryIfPresent : 448 -> 188
+~ _alphaencoder_validateThatPixelBufferUsesConsistentPremultiplicationMode : 904 -> 260
+~ _alphaencoder_demuxBaseAndAlpha : 784 -> 756
+~ ___MuxedAlphaEncoder_EncodeFrame_block_invoke : 576 -> 152
+~ _alphaencoder_emitEncodedFrame : 560 -> 128
+~ _alphaencoder_transferPlane : 320 -> 284
+~ ___MuxedAlphaEncoder_EncodeMultiImageFrame_block_invoke : 576 -> 152
+~ _OUTLINED_FUNCTION_16 : 48 -> 24
+~ _OUTLINED_FUNCTION_25 : 32 -> 20
+~ _OUTLINED_FUNCTION_27 : 24 -> 56
+~ _OUTLINED_FUNCTION_28 : 24 -> 56
+~ _VTPixelBufferAttributesMediatorCreate : 872 -> 280
+~ _VTPixelBufferAttributesMediatorSetProperty : 548 -> 248
+~ _VTPixelBufferAttributesMediatorSetRequestedPixelBufferAttributesForKey : 484 -> 152
+~ _VTPixelBufferAttributesMediatorAddLayer : 404 -> 104
+~ _VTPixelBufferAttributesMediatorRemoveRequestedPixelBufferAttributesForKey : 456 -> 164
+~ _VTPixelBufferAttributesMediatorRemoveLayer : 444 -> 152
+~ _vtPixelBufferAttributesMediatorFinalize : 392 -> 112
+~ _VTMetalTransferSessionCopySupportedPropertyDictionary : 220 -> 160
+~ _VTMetalTransferSessionCreate : 1228 -> 836
+~ _vtMetalTransferSessionTransferImageCommonSync : 7172 -> 4940
+~ _VTMetalTransferSessionGetRequiredAlignment : 472 -> 140
+~ _vtmtsSetUpProcessingNeeds : 6040 -> 3964
+~ ___VTPopulateColorPrimariesAndTransferFunctionValuesModern_block_invoke_2 : 1280 -> 560
+~ _OUTLINED_FUNCTION_3 : 20 -> 36
+~ _OUTLINED_FUNCTION_4 : 16 -> 32
+~ _OUTLINED_FUNCTION_6 : 16 -> 28
+~ _OUTLINED_FUNCTION_14 : 16 -> 20
+~ _OUTLINED_FUNCTION_31 : 20 -> 12
+~ _OUTLINED_FUNCTION_53 : 12 -> 20
+~ _OUTLINED_FUNCTION_56 : 12 -> 20
+~ _OUTLINED_FUNCTION_57 : 12 -> 20
+~ _vtdss_enqueueTaggedBufferGroup : 920 -> 252
+~ _DecompressionOutputCallback : 576 -> 252
+~ _vtdss_appStateChangeListener : 1336 -> 368
+~ ___VTDecompressionSessionRemoteServer_DecodeFrame_block_invoke : 236 -> 224
+~ _TileDecompressionOutputCallback : 504 -> 160
+~ ___VTDecompressionSessionRemoteServer_DecodeTile_block_invoke : 228 -> 204
+~ _vtdss_enqueueFrame : 784 -> 268
+~ ___vtdss_enqueueFrame_block_invoke : 396 -> 72
+~ _DecompressionSessionClient_Finalize : 688 -> 292
+~ _VTTileDecompressionSessionCopySupportedPropertyDictionary : 552 -> 496
+~ _VTTileDecompressionSessionSetProperty : 1324 -> 488
+~ _VTTileDecompressionSessionCopyProperty : 1628 -> 612
+~ _VTTileDecompressionSessionSetProperties : 640 -> 584
+~ _VTTileDecompressionSessionDecodeTile : 1280 -> 580
+~ _vtTileDecompressionSessionAddPropertyToPartition : 544 -> 188
+~ _AppleJPEGVideoDecoder_CopyProperty : 336 -> 300
+~ _AppleJPEGVideoDecoder_SetProperty : 488 -> 312
+~ _AppleJPEGVideoDecoder_DecodeFrame : 1552 -> 1488
+~ _AppleJPEGVideoDecoder_CopySupportedPropertyDictionary : 188 -> 148
+~ _VTPixelTransferChainNodeSessionCopySerializableProperties : 108 -> 36
+~ _OUTLINED_FUNCTION_0 : 20 -> 36
+~ _OUTLINED_FUNCTION_2 : 48 -> 12
+~ _DolbyVisionDecoder_CreateInstance : 344 -> 228
+~ _DolbyVisionDecoder_Invalidate : 484 -> 120
+~ _DolbyVisionDecoder_DecodeFrame : 5500 -> 2720
+~ _dovi_attachMetadataToPixelBuffer : 808 -> 296
+~ _dovi_createDerivedSampleBuffer : 940 -> 656
+~ _OUTLINED_FUNCTION_1 : 24 -> 12
+~ _VTTileCompressionSessionCopySupportedPropertyDictionary : 552 -> 496
+~ _VTTileCompressionSessionCopyProperty : 1500 -> 708
+~ _VTTileCompressionSessionSetProperties : 668 -> 612
+~ _vtTileCompressionSessionAddPropertyToPartition : 544 -> 188
+~ ___vtTileCompressionSessionTrackTileEnteringEncoder_block_invoke : 472 -> 160
+~ ___vtTileCompressionSessionTrackTileLeavingEncoder_block_invoke : 460 -> 92
+~ _TestIPBQueuedFrameRetain : 192 -> 124
+~ _TestIPBVideoEncoder_EncodeMultiImageFrame : 652 -> 640
+~ _VTCreateCGImageFromCVPixelBuffer : 1612 -> 1608
+~ __getImageBytePointerFromPixelBuffer : 200 -> 196
+~ _VTTemporalFilterSessionCreate : 1216 -> 688
+~ _VTTemporalFilterSessionInvalidate : 636 -> 348
+~ _VTTemporalFilterSessionProcessFrame : 2116 -> 808
+~ _VTTemporalFilterPluginSessionSetOutputPixelBufferAttributes : 1832 -> 540
+~ _VTTemporalFilterPluginSessionEmitOutputFrame : 1656 -> 384
+~ _VTTemporalFilterSessionCopyProperty : 1820 -> 884
+~ _VTTemporalFilterSessionSetProperties : 632 -> 576
+~ _vtTemporalFilterSessionCopyPropertiesHandledByVideoToolbox : 188 -> 148
+~ _vtTemporalFilterSessionAddPropertyToPartition : 540 -> 184
+~ _OUTLINED_FUNCTION_1 : 40 -> 12
+~ ___VTVideoCodecService_ShouldUseSeparateCodecProcessForDecode_block_invoke : 832 -> 92
+~ ___VTVideoCodecService_ShouldUseXPCRemoteTileDecompressionSession_block_invoke : 328 -> 52
+~ ___VTVideoCodecService_ShouldUseOOPDecodeForVideoPlayer_block_invoke : 776 -> 48
+~ ___VTVideoCodecService_ShouldUseSeparateCodecProcessForEncode_block_invoke : 1388 -> 212
+~ ___shouldUseMIGInterfaceForRemoteDecompressionSession_block_invoke : 788 -> 48
+~ _VTPixelTransferNodeCelesteRotationSetProperty : 840 -> 592
+~ _vt_Rotate_Celeste : 4120 -> 10084
+~ _OUTLINED_FUNCTION_0 : 12 -> 48
+~ _DecodeACRefine : 1560 -> 1292
+~ _VTDecompressionSessionRemoteBridge_Create : 720 -> 348
+~ _VTDecompressionSessionRemoteBridge_Invalidate : 352 -> 24
+~ _VTDecompressionSessionRemoteBridge_CopySupportedPropertyDictionary : 376 -> 24
+~ _VTDecompressionSessionRemoteBridge_CopySerializableProperties : 388 -> 24
+~ _VTDecompressionSessionRemoteBridge_CopyProperty : 416 -> 24
+~ _VTDecompressionSessionRemoteBridge_SetProperty : 404 -> 24
+~ _VTDecompressionSessionRemoteBridge_SetProperties : 384 -> 24
+~ _VTDecompressionSessionRemoteBridge_SetMultiImageCallback : 408 -> 24
+~ _VTDecompressionSessionRemoteBridge_DecodeFrame : 472 -> 24
+~ _VTDecompressionSessionRemoteBridge_DecodeFrameWithOutputHandler : 520 -> 96
+~ _VTDecompressionSessionRemoteBridge_FinishDelayedFrames : 360 -> 52
+~ _VTDecompressionSessionRemoteBridge_FlushPixelBufferPool : 360 -> 52
+~ _VTDecompressionSessionRemoteBridge_CanAcceptFormatDescription : 612 -> 24
+~ _VTDecompressionSessionRemoteBridge_CopyBlackPixelBuffer : 616 -> 24
+~ _VTDecompressionSessionRemoteBridge_GetMinOutputPresentationTimeStampOfFramesBeingDecoded : 624 -> 32
+~ _VTDecompressionSessionRemoteBridge_GetMinAndMaxOutputPresentationTimeStampOfFramesBeingDecoded : 388 -> 24
+~ _VTTileDecompressionSessionRemoteBridge_Create : 648 -> 320
+~ _VTDecompressionSessionRemoteBridge_DecodeTile : 532 -> 36
+~ _VTDecompressionSessionRemoteBridge_FinishDelayedTiles : 604 -> 24
+~ _vtdsrb_Finalize : 352 -> 96
+~ _VTBlackFillGetPixelFormatPixelBlockInfo : 3148 -> 1056
+~ _VTFillPixelBufferWithBlack : 604 -> 572
+~ _VTFillPixelBufferBorderWithBlack : 940 -> 844
+~ _vtWritePatternToMemory : 588 -> 216
+~ _OUTLINED_FUNCTION_0 : 24 -> 36
+~ _OUTLINED_FUNCTION_1 : 32 -> 12
+~ _OUTLINED_FUNCTION_7 : 16 -> 12
+~ _OUTLINED_FUNCTION_11 : 12 -> 28
+~ _OUTLINED_FUNCTION_12 : 12 -> 24
+~ _vtCreateAndPopulateTemporalFilterRegistry : 768 -> 668
+~ _vtCreateTemporalFilterRegistry : 124 -> 36
+~ _OUTLINED_FUNCTION_1 : 24 -> 36
+~ _VTPixelBufferConformerCreateWithAttributes : 884 -> 244
+~ _VTPixelBufferConformerCopyConformedPixelBuffer : 4028 -> 2228
+~ _vtPixelBufferConformerFinalize : 384 -> 92
+~ _VTParavirtualizationReplyClerkWaitForReply : 2044 -> 440
+~ _VTParavirtualizationCopyNotificationQueueForGuestUUID : 420 -> 140
+~ _vtpvScanForTopLevelBoxWithType : 944 -> 324
+~ _vtpvScanForParameterBoxWithType : 2128 -> 416
+~ _VTParavirtualizationMessageAppendCMSampleBufferWithLimitAndCopyRemainingData : 264 -> 248
+~ _VTParavirtualizationMessageAppendPixelBufferAndIOSurfaceAttachments : 1148 -> 636
+~ _vtParavirtualizationReplyClerk_Finalize : 352 -> 60
+~ ___vParavirtualizationGetReplyTimeoutInNanoSeconds_block_invoke : 396 -> 100
+~ _OUTLINED_FUNCTION_8 : 36 -> 40
+~ _OUTLINED_FUNCTION_10 : 16 -> 24
+~ _OUTLINED_FUNCTION_24 : 44 -> 36
+~ ___VTFigAudioSessionInitialize_block_invoke : 228 -> 160
+~ _VTCreateYCbCrCFStringsAndProvideDefaultsFromColorSpaceHint : 388 -> 336
+~ __createBestGuessYCbCrCFStringFromColorSpace : 228 -> 200
+~ _VTCreateYCbCrCFStringsAndProvideDefaults : 404 -> 336
+~ _VTCreateColorAttachments : 2176 -> 1816
+~ _VTIsPixelBufferCompatibleWithColorProperties : 1756 -> 644
+~ _initTransferServiceTrace : 56 -> 4
+~ _VTFrameSiloCreate : 632 -> 576
+~ _VTFrameSiloCallFunctionForEachSampleBuffer : 2260 -> 1784
+~ _VTPreprocessingSessionCopySupportedPropertyDictionary : 220 -> 72
+~ _vtPreprocessingSessionCopyProperties : 188 -> 148
+~ _VTPreprocessingSessionSetProperty : 636 -> 156
+~ _VTPreprocessingSessionCopyProperty : 596 -> 188
+~ _VTPreprocessingSessionSetProperties : 180 -> 152
+~ _VTPreprocessingSessionCopySerializableProperties : 136 -> 60
+~ _VTPreprocessingSessionCreate : 532 -> 476
+~ _vtPreprocessingSessionEnsureResolutionIsPartOfSession : 140 -> 108
+~ _VTMultiPassStorageCreate : 3180 -> 2176
+~ _VTMultiPassStorageInvalidate : 484 -> 196
+~ _VTMultiPassStorageSetIdentifier : 544 -> 220
+~ _VTMultiPassStorageSetDataAtTimeStamp : 1980 -> 912
+~ _VTMultiPassStorageGetTimeStamp : 1060 -> 1008
+~ _VTCopyRegistryKeyValueForDeviceIOService : 1364 -> 504
+~ _VTDoesIOServiceSupportRegistryKey : 448 -> 84
+~ _VTPixelTransferGraphBuildChain : 5856 -> 3228
+~ _vtCompressionSessionEnsurePixelBufferPoolsAreUpToDate : 2952 -> 2124
+~ _VTEncoderSessionSetTimeRangesForNextPass : 1116 -> 696
+~ _vtCompressionSessionInitializeDolbyHDRSessions : 1100 -> 508
+~ _vtRateControlSessionBeforeEncodeCallback.cold.1 : 108 -> 24
+~ _vtRateControlSessionBeforeEncodeCallback.cold.2 : 124 -> 48
+~ _vtCompressionSessionCompressionWork.cold.5 : 156 -> 76
+~ _vtRateControlReactionObserverCallback.cold.1 : 108 -> 28
+~ _vtCompressionSessionEncodeFrameCommon.cold.5 : 124 -> 48
+~ _vtCompressionSessionEncodeFrameCommon.cold.9 : 124 -> 48
+~ _VTEncoderSessionCreateVideoFormatDescription.cold.1 : 124 -> 48
+~ _vtCompressionSessionIOSurfaceSynchronizationWork.cold.6 : 132 -> 68
+~ _VTCompressionSessionRemoteServer_Create : 1988 -> 1072
+~ _VTCompressionSessionRemoteServer_EncodeFrame : 2844 -> 1592
+~ _VTCompressionSessionRemoteServer_DequeueNextPendingEncodedFrame : 1568 -> 824
+~ _VTCompressionSessionRemoteServer_CopySupportedPropertyDictionary : 584 -> 300
+~ _VTCompressionSessionRemoteServer_CopySerializableProperties : 596 -> 312
+~ _VTCompressionSessionRemoteServer_CopyProperty : 764 -> 396
+~ _VTCompressionSessionRemoteServer_SetMultiPassStorage : 656 -> 180
+~ _VTCompressionSessionRemoteServer_SetProperty : 996 -> 384
+~ _VTCompressionSessionRemoteServer_SetProperties : 800 -> 272
+~ _VTCompressionSessionRemoteServer_CompleteFrames : 516 -> 256
+~ _VTCompressionSessionRemoteServer_EndPass : 440 -> 160
+~ _VTCompressionSessionRemoteServer_GetTimeRangesForNextPass : 480 -> 228
+~ _VTCompressionSessionRemoteServer_MultiPassStorageCreate : 1560 -> 736
+~ _VTCompressionSessionRemoteServer_MultiPassStorageDestroy : 524 -> 72
+~ _VTCompressionSessionRemoteServer_MultiPassStorageSetIdentifier : 512 -> 180
+~ _VTCompressionSessionRemoteServer_MultiPassStorageSetDataAtTimeStamp : 328 -> 252
+~ _VTCompressionSessionRemoteServer_MultiPassStorageGetTimeStamp : 552 -> 224
+~ _VTCompressionSessionRemoteServer_MultiPassStorageGetTimeStampAndDuration : 552 -> 232
+~ _VTCompressionSessionRemoteServer_MultiPassStorageCopyDataAtTimeStamp : 520 -> 284
+~ _VTCompressionSessionRemoteServer_TileCreate : 1544 -> 768
+~ _VTCompressionSessionRemoteServer_PrepareToEncodeTiles : 548 -> 220
+~ _VTCompressionSessionRemoteServer_EncodeTile : 1260 -> 548
+~ _VTCompressionSessionRemoteServer_CompleteTiles : 432 -> 152
+~ _VTCompressionSessionRemoteServer_MotionEstimationCreate : 1380 -> 572
+~ _VTCompressionSessionRemoteServer_MotionEstimationCopySourcePixelBufferAttributes : 460 -> 252
+~ _VTCompressionSessionRemoteServer_EstimateMotion : 1184 -> 548
+~ _VTCompressionSessionRemoteServer_CompleteMotionEstimation : 432 -> 152
+~ _VTCompressionSessionRemoteServer_GetNextPendingNotification : 588 -> 368
+~ _vtDecompressionSubDuctEnsurePixelBufferPoolsAreUpToDate : 1376 -> 1228
+~ _VTDecompressionSessionCreateWithOptions.cold.1 : 124 -> 48
+~ _VTDecompressionSessionCreateWithOptions.cold.3 : 40 -> 20
+~ _VTDecompressionSessionCreateWithOptions.cold.4 : 40 -> 20
+~ _VTDecompressionSessionCreateWithOptions.cold.5 : 40 -> 20
+~ _vtDecompressionSessionDecodeFrameCommon.cold.2 : 124 -> 60
+~ _VTPixelTransferChainAppendScalerNode : 380 -> 280
+~ _vt_Scale_8_SeparatePlanes : 224 -> 200
+~ _vt_ScaleCommon_Y_and_UVPlanes : 1124 -> 1148
+~ _VTPixelTransferSessionCreateScalingParameters : 1668 -> 1652
+~ _vtPixelTransferAppendvImageBlitterNodeCallback : 360 -> 344
+~ _vtPixelTransferSession_BuildChain : 13648 -> 10436
+~ _vtPixelTransferSessionBuildChainFromBasicTransfer : 936 -> 920
+~ _vtCreateDynamicSession : 3120 -> 1768
+~ _vtBuildMetalSession : 860 -> 896
+~ _vtPixelTransferSession_BuildColorCorrector : 3248 -> 2296
+~ _vt_Scale_16_SeparatePlanes : 216 -> 192
+~ _vtPixelTransferAppendSimpleSoftwareNodeCallback : 272 -> 268
+~ _DepthWrapperDecoder_SetProperty : 292 -> 232
+~ _vtCreatePrioritizedPixelFormatListByAlpha : 404 -> 240
+~ _vtCreateOrReuseSharedPixelBufferPool : 2384 -> 968
+~ _vtCreateReorderedPixelBufferAttributes.cold.1 : 124 -> 44
+~ _VTHDRMetadataGenerationSessionCreatePaddingNALUForEncoder : 404 -> 220
+~ _getValuesFromDictionary.cold.8 : 124 -> 28
+~ _getValuesFromDictionary.cold.9 : 108 -> 36
+~ _vtFilterRegistryItemByCodecType : 692 -> 272
+~ _vtCopyExpandedDecoderListForWrappers : 1900 -> 1304
+~ _vtFilterRegistryItemByCodecTypeAndVideoDecoderSpecification : 2028 -> 1112
+~ _vtLoadParavirtualizedVideoDecoders : 2732 -> 1220
+~ ___vtLoadParavirtualizedVideoDecoders_block_invoke_2 : 724 -> 208
+~ _vtRegisterVideoDecoderInternal.cold.1 : 124 -> 44
+~ _VTCopyVideoDecoderRegistryMatchArrayForCodecType.cold.2 : 132 -> 52
+~ _VTCompressionSessionRemoteCallbackServer_PrepareToEncodeFramesReturn : 288 -> 72
+~ _VTCompressionSessionRemoteCallbackServer_EncodeReturn : 308 -> 92
+~ _VTCompressionSessionRemoteCallbackServer_CompleteFramesReturn : 288 -> 72
+~ _VTCompressionSessionRemoteCallbackServer_PrepareToEncodeTilesReturn : 308 -> 88
+~ _VTCompressionSessionRemoteCallbackServer_NotificationIsPending : 904 -> 388
+~ _VTCompressionSessionRemoteCallbackServer_FrameIsPending : 384 -> 80
+~ _weakReferenceTable_AddPointerAndGetKey.cold.1 : 124 -> 48
+~ _weakReferenceTable_RemovePointer.cold.1 : 108 -> 28
+~ _weakReferenceTable_CopyPointerFromKey.cold.1 : 108 -> 8
+~ _vtCompressionSessionRemote_EncodeFrameCommon.cold.2 : 124 -> 48
+~ _DepthWrapperEncoder_SetProperty : 2368 -> 736
+~ _DepthWrapperEncoder_StartSession : 752 -> 480
+~ _depthencoder_createPixelBufferAttributesDictionary.cold.1 : 148 -> 72
+~ ___DepthWrapperEncoder_EncodeFrame_block_invoke.cold.1 : 136 -> 60
+~ ___DepthWrapperEncoder_EncodeFrame_block_invoke.cold.2 : 124 -> 48
+~ ___DepthWrapperEncoder_EncodeFrame_block_invoke.cold.5 : 124 -> 48
+~ _vtFilterRegistryItemByCodecTypeAndVideoEncoderSpecification : 1972 -> 1104
+~ _vtCopyExpandedEncoderListForWrappers : 1952 -> 1504
+~ _VTCopySupportedPropertyForVideoEncoderID : 1044 -> 560
+~ _createInferredPropertiesForCodec : 896 -> 612
+~ _vtLoadParavirtualizedVideoEncoders : 1912 -> 864
+~ ___vtLoadParavirtualizedVideoEncoders_block_invoke_2 : 700 -> 208
+~ _VTSelectAndCreateVideoEncoderInstanceInternal.cold.2 : 124 -> 44
+~ _vtGetHEVCDecoderCapabilitiesForFormatDescription : 2240 -> 832
+~ _VTCopyVP9DecoderCapabilitiesDictionary.cold.1 : 136 -> 56
+~ _VTCopyVP9DecoderCapabilitiesDictionary.cold.4 : 124 -> 44
+~ _VTCopyDecoderCapabilitiesDictionaryForCodecTypes.cold.1 : 132 -> 52
+~ _VTCopyDecoderCapabilitiesDictionaryForCodecTypes.cold.4 : 108 -> 28
+~ _VTCopyDecoderCapabilitiesDictionaryForCodecTypes.cold.9 : 108 -> 24
+~ _SRSEnhancementFilter_CreateInstance : 640 -> 364
+~ _SRSEnhancementFilter_SetProperty : 1124 -> 624
+~ _SRSEnhancementFilter_StartSession : 1204 -> 972
+~ ___SRSEnhancementFilter_ProcessFrame_block_invoke : 2120 -> 1032
+~ _vtParavirtualizationAtomWriterAppendCFDictionary : 1104 -> 556
+~ _vtParavirtualizationAtomWriterAppendCFPropertyList : 204 -> 188
+~ _vtParavirtualizationAtomDataReaderCopyCMFormatDescription : 712 -> 560
+~ _vtParavirtualizationAtomDataReaderCopyCFPropertyList : 880 -> 272
+~ _VTParavirtualizationCreateSampleBufferFromSerializedAtomDataBlockBuffer.cold.11 : 124 -> 56
+~ _VTParavirtualizationCreateSampleBufferFromSerializedAtomDataBlockBuffer.cold.13 : 124 -> 76
+~ _VTParavirtualizationCreateSampleBufferFromSerializedAtomDataBlockBuffer.cold.15 : 140 -> 28
+~ _VTPixelTransferChainAppendRotationNode : 376 -> 300
+~ _ParavirtualizedVideoEncoder_CopySerializableProperties : 220 -> 212
+~ _ParavirtualizedVideoEncoder_EndPass : 524 -> 204
+~ _ParavirtualizedVideoEncoder_StartTileSession : 472 -> 236
+~ _paravirtualizedVideoEncoder_lookupRetainAndForgetPendingTilePixelBufferByUUID.cold.2 : 124 -> 44
+~ _VTHDRPerFrameMetadataGenerationSessionAttachMetadata.cold.1 : 108 -> 24
+~ _currentProcessHasTrueBooleanEntitlement.cold.1 : 112 -> 36
+~ _dsrxpc_copyPixelBufferRecipient : 512 -> 308
+~ _VTDecompressionSessionRemoteXPC_CopyProperty : 1284 -> 816
+~ _dsrxpc_prepareForCallsOfDecodeFrameFromConsistentThread : 308 -> 240
+~ _VTDecompressionSessionRemoteXPC_SetProperties : 632 -> 204
+~ _VTDecompressionSessionRemoteXPC_FinishDelayedFrames : 1124 -> 216
+~ _VTDecompressionSessionRemoteXPC_CanAcceptFormatDescription : 592 -> 200
+~ _dsrxpc_waitForAsynchronousFrames : 1048 -> 208
+~ _VTDecompressionSessionRemoteXPC_CopyBlackPixelBuffer : 764 -> 248
+~ _VTDecompressionSessionRemoteXPC_GetMinOutputPresentationTimeStampOfFramesBeingDecoded : 704 -> 192
+~ _VTDecompressionSessionRemoteXPC_Invalidate : 644 -> 216
+~ _VTDecompressionSessionRemoteXPC_FinishDelayedTiles : 868 -> 216
+~ _VTDecompressionSessionRemoteXPC_SetMultiImageCallback : 584 -> 188
+~ _dsrxpc_xpcClient_DeadConnectionCallback : 148 -> 56
+~ _dsrxpc_xpcClient_MessageHandler : 4316 -> 2236
+~ ___dsrxpc_handleServerSessionIsGone_block_invoke : 424 -> 188
+~ ___dsrxpc_callback_handleEmitFrame_XPC_block_invoke : 488 -> 204
+~ _dsrxpc_tryDecrementPendingFrameInfoOutstandingEmitCountToEmit : 412 -> 180
+~ _dsrxpc_decrementPendingFrameInfoOutstandingSampleCount : 428 -> 196
+~ ___dsrxpc_callback_handleEmitTile_block_invoke : 688 -> 184
+~ _dsrxpc_CreateNewSession.cold.2 : 148 -> 72
+~ _dsrxpc_DecodeFrameCommon.cold.1 : 124 -> 48
+~ _ParavirtualizedVideoDecoder_StartSession : 716 -> 232
+~ _ParavirtualizedVideoDecoder_StartTileSession : 708 -> 224
+~ _vtMotionEstimationSessionCompleteFramesInternal : 984 -> 372
+~ _vtCreateMotionEstimationProcessorRegistry : 720 -> 428
+~ _VTMotionEstimationSessionEstimateMotionVectors.cold.6 : 108 -> 4
+~ _VTMotionEstimationSessionEstimateMotionVectors.cold.9 : 108 -> 28
+~ _vtMotionEstimationSessionFinalize.cold.2 : 108 -> 348
+~ _MuxedAlphaDecoder_SetProperty : 1064 -> 708
+~ _MuxedAlphaDecoder_StartSession : 5312 -> 2196
+~ _MuxedAlphaDecoder_DecodeFrame : 3384 -> 2736
+~ _MuxedAlphaDecoder_CopySupportedPropertyDictionary : 348 -> 344
+~ _alphadecoder_createSubLayerVTDecompressionSession : 1344 -> 512
+~ _VTParavirtualizedJPEGSessionCopyCapabilities : 356 -> 88
+~ _VTParavirtualizedJPEGSessionEncodeImage : 860 -> 392
+~ _VTParavirtualizedJPEGSessionDecodeImage : 816 -> 344
+~ _FigCreatePixelBufferAttributesWithIOSurfaceSupport.cold.2 : 124 -> 56
+~ _FigCreatePixelBufferAttributesWithIOSurfaceSupport.cold.4 : 124 -> 48
+~ _FigCreatePixelBufferCacheModeArray.cold.1 : 132 -> 52
+~ _dssxpc_ReplyingMessageHandler : 7060 -> 3316
+~ _tddss_NoReplyMessageHandler : 972 -> 200
+~ _dssxpc_DecodeFrame_XPCMessage : 804 -> 536
+~ _dssxpc_DecodeTile : 932 -> 664
+~ _dssxpc_CopySupportedPropertyDictionary : 336 -> 248
+~ _dssxpc_CopySerializableProperties : 356 -> 268
+~ _dssxpc_CopyProperty : 520 -> 328
+~ _dssxpc_SetProperty : 684 -> 516
+~ _dssxpc_SetProperties : 352 -> 228
+~ _dssxpc_CopyBlackPixelBuffer : 444 -> 184
+~ _dssxpc_appStateChangeListener : 800 -> 220
+~ _TileDecompressionOutputCallback : 1172 -> 296
+~ _dss_EventLinkServerMessageHandler : 1204 -> 760
+~ _dssxpc_copyPixelBufferOriginForConnection.cold.1 : 124 -> 48
+~ _VTDecompressionSessionRemoteCallbackServer_FinishDelayedFramesReturn : 312 -> 72
+~ _VTDecompressionSessionRemoteCallbackServer_FrameIsPending : 408 -> 80
+~ _VTDecompressionSessionRemote_FinishDelayedTiles.cold.1 : 88 -> 80
+~ _VTDecompressionSessionRemote_FinishDelayedFrames.cold.1 : 88 -> 80
+~ _vt_Rotate_8_90CW : 404 -> 292
+~ _vt_Rotate_8_180 : 456 -> 236
+~ _vt_Rotate_8_90CCW : 408 -> 296
+~ _vt_Rotate_16_90CW : 288 -> 280
+~ _vt_Rotate_16_180 : 456 -> 236
+~ _vt_Rotate_16_90CCW : 292 -> 284
+~ _vt_Rotate_32_180 : 272 -> 232
+~ _vtRateControlSessionCompleteFramesCallback.cold.2 : 108 -> 8
+~ _vtRateControlSessionCompleteFramesCallback.cold.3 : 108 -> 8
+~ _MuxedAlphaEncoder_CopyProperty : 724 -> 420
+~ _MuxedAlphaEncoder_SetProperty : 3832 -> 1952
+~ _alphaencoder_configureSubEncodersByProfile : 2380 -> 1316
+~ _MuxedAlphaEncoder_CopySupportedPropertyDictionary : 1088 -> 1096
+~ _alphaencoder_createDerivedSampleBuffer : 624 -> 556
+~ _MuxedAlphaEncoder_EncodeMultiImageFrame.cold.1 : 124 -> 48
+~ _alphaencoder_demuxBaseAndAlpha.cold.3 : 124 -> 56
+~ _VTPixelBufferAttributesMediatorGetTypeID.cold.1 : 32 -> 24
+~ _VTPixelBufferAttributesMediatorCreate.cold.2 : 124 -> 68
+~ _VTPixelBufferAttributesMediatorCopyProperty.cold.1 : 52 -> 24
+~ _VTMetalTransferSessionGenerateColorBars : 428 -> 308
+~ _vtMetalTransferSessionRebuild : 12316 -> 10464
+~ _vtMetalTransferSessionTransferImageCommonSync.cold.2 : 124 -> 48
+~ _vtMetalTransferSessionTransferImageCommonSync.cold.3 : 108 -> 28
+~ _vtMetalTransferSessionTransferImageCommonSync.cold.5 : 124 -> 52
+~ _vtMetalTransferSessionTransferImageCommonSync.cold.7 : 124 -> 52
+~ _vtMetalTransferSessionTransferImageCommonSync.cold.8 : 124 -> 48
+~ _vtmtsSetUpProcessingNeeds.cold.2 : 124 -> 44
+~ _VTDecompressionSessionRemoteServer_EnableMIO : 412 -> 64
+~ _vtdss_createTimeoutDebugContext : 88 -> 80
+~ _VTDecompressionSessionRemoteServer_Destroy : 1244 -> 236
+~ _VTDecompressionSessionRemoteServer_Create : 2116 -> 1124
+~ _vtdss_initializeClient : 548 -> 444
+~ _VTDecompressionSessionRemoteServer_DequeueNextPendingFrame : 2756 -> 1156
+~ _VTDecompressionSessionRemoteServer_CopySupportedPropertyDictionary : 552 -> 292
+~ _VTDecompressionSessionRemoteServer_CopySerializableProperties : 560 -> 300
+~ _VTDecompressionSessionRemoteServer_CopyProperty : 900 -> 412
+~ _VTDecompressionSessionRemoteServer_SetProperties : 536 -> 264
+~ _VTDecompressionSessionRemoteServer_CanAcceptFormatDescription : 636 -> 228
+~ _VTDecompressionSessionRemoteServer_CopyBlackPixelBuffer : 604 -> 252
+~ _VTDecompressionSessionRemoteServer_FlushPixelBufferPool : 408 -> 64
+~ _VTDecompressionSessionRemoteServer_GetMinOutputPresentationTimeStampOfFramesBeingDecoded : 520 -> 256
+~ _VTDecompressionSessionRemoteServer_TileCreate : 1876 -> 756
+~ _VTDecompressionSessionRemoteServer_GetNextPendingNotification : 604 -> 396
+~ _vtdss_enqueueTaggedBufferGroup.cold.1 : 108 -> 28
+~ _VTTileDecompressionSessionCreate : 2072 -> 1188
+~ _VTTileDecoderSessionEmitDecodedTile : 1076 -> 300
+~ _AppleJPEGVideoDecoder_CreateInstance.cold.1 : 132 -> 52
+~ _applejpegCreateSupportedPropertyDictionary.cold.4 : 108 -> 4
+~ _VTPixelTransferChainCreate : 240 -> 196
+~ _VTTestMotionEstimationProcessor_CreateInstance : 280 -> 188
+~ _VTTestMotionEstimationProcessor_CopySupportedPropertyDictionary : 252 -> 176
+~ _DolbyVisionDecoder_CopySupportedPropertyDictionary : 480 -> 408
+~ _dovi_createDerivedSampleBuffer.cold.2 : 124 -> 48
+~ _dovi_createDerivedSampleBuffer.cold.4 : 124 -> 48
+~ _VTTileCompressionSessionInvalidate : 796 -> 576
+~ _VTTileCompressionSessionEncodeTile : 480 -> 504
+~ _VTEncoderSessionEmitEncodedTile : 548 -> 264
+~ _TestIPBVideoEncoder_CreateInstance : 364 -> 308
+~ _TestIPBVideoEncoder_emitFrame : 1380 -> 1088
+~ _TestIPBVideoEncoder_EncodeMultiImageFrame.cold.2 : 124 -> 40
+~ _TestIPBVideoEncoder_EncodeMultiImageFrame.cold.3 : 124 -> 44
+~ _vtcg_createDeferredImageProviderWithPixelBuffer.cold.1 : 136 -> 60
+~ _vtcg_createDeferredImageProviderWithPixelBuffer.cold.2 : 124 -> 48
+~ _vtcg_createDeferredImageProviderWithIOSurface.cold.1 : 136 -> 60
+~ _VTTemporalFilterSessionCompleteFrames : 680 -> 280
+~ _vtTemporalFilterSessionCreatePropertiesHandledByVideoToolbox.cold.2 : 108 -> 8
+~ _VTCelesteRotationNodeCreate : 296 -> 208
+~ _VTPixelTransferNodeCelesteRotationCopySupportedPropertyDictionary.cold.1 : 140 -> 56
+~ _VTDecompressionSessionRemoteBridge_Create.cold.1 : 124 -> 44
+~ _VTDecompressionSessionRemoteBridge_DecodeFrameWithOutputHandler.cold.1 : 124 -> 72
+~ _VTFillBufferPixelsWithBlack : 5672 -> 2664
+~ _VTParavirtualizationMessageGetMessageTypeAndFlagsAndGuestUUID : 188 -> 184
+~ _VTParavirtualizationMessageAppendCFPropertyList : 216 -> 204
+~ _VTParavirtualizationMessageCFDataRequiresFragmentation : 348 -> 272
+~ _VTParavirtualizationMessageAppendCFDataWithLimitFromOffset : 500 -> 424
+~ _VTParavirtualizationMessageCopyCFUUID : 264 -> 196
+~ _VTParavirtualizationMessageAppendCFUUIDArray : 356 -> 224
+~ _VTParavirtualizationMessageCopyCMFormatDescription : 356 -> 276
+~ _VTParavirtualizationMessageAppendCMSampleBufferRemainderDataWithLimitAndCopyRemainingData : 432 -> 420
+~ _VTParavirtualizationMessageGetCMTime : 304 -> 272
+~ _VTParavirtualizationReplyClerkDeliverReply : 2004 -> 396
+~ _VTParavirtualizationReplyClerkCreate.cold.2 : 136 -> 60
+~ _vtpvScanForTopLevelBoxWithType.cold.1 : 124 -> 44
+~ _VTParavirtualizationMessageCopyFigTagCollectionArray.cold.1 : 124 -> 44
+~ ___vtParavirtualizationGuestSetup_block_invoke.cold.1 : 124 -> 48
+~ ___VTFigAudioSessionInitialize_block_invoke.cold.5 : 108 -> 8
+~ _VTFigAudioSessionCreateWithCMSession.cold.1 : 124 -> 44
+~ _VTFrameSiloCallFunctionForEachSampleBuffer.cold.5 : 124 -> 48
+~ _VTPreprocessingSessionCompleteFrames : 724 -> 244
+~ _VTEncoderPreprocessingSessionEmitPreprocessedFrame : 1240 -> 544
+~ _vtPreprocessingSessionEnsureResolutionIsPartOfSession.cold.1 : 124 -> 48
+~ _vtPreprocessingSessionCreateProperties.cold.1 : 108 -> 32
+~ _VTMultiPassStorageClose : 1052 -> 1044
+~ _VTMultiPassStorageWriteMerged : 488 -> 416
+~ _VTMultiPassStorageSetIdentifier.cold.1 : 124 -> 48
+~ _VTMultiPassStorageCopyIdentifier.cold.1 : 108 -> 28
+
+Functions (added):
++ ___vtDecompressionSessionRemote_DecodeFrameCommon_block_invoke_2
++ ___MuxedAlphaEncoder_EncodeFrame_block_invoke_2
++ ___MuxedAlphaEncoder_EncodeMultiImageFrame_block_invoke_2
++ ___MuxedAlphaEncoder_EncodeMultiImageFrame_block_invoke_3
++ ___VTPopulateColorPrimariesAndTransferFunctionValuesModern_block_invoke_3
++ ___ParavirtualizedVideoEncoder_CreateInstanceWithSpecification_block_invoke.cold.9
++ _VTCopyHEVCDecoderCapabilitiesDictionary
++ ___ParavirtualizedVideoEncoder_CreateInstanceWithSpecification_block_invoke.cold.6
++ _VTMotionEstimationSessionCreate.cold.1
++ _VTMotionEstimationSessionCreate.cold.9
++ ___VTPixelBlitterColorHandlingOptimized_setup_block_invoke_4.cold.2
++ ___MuxedAlphaEncoder_EncodeMultiImageFrame_block_invoke_3.cold.3
+
+Functions (removed):
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_14
+- _VTCompressionSessionSetProperty
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_16
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_19
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_21
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_34
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_37
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_45
+- _OUTLINED_FUNCTION_72
+- [15 functions removed in block]
+- _OUTLINED_FUNCTION_78
+- _OUTLINED_FUNCTION_90
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_76
+- [13 functions removed in block]
+- _VTDecompressionSessionSetProperty
+- _vtDecompressionSessionDecodeFrameCommon
+- _VTDecoderSessionRegisterCustomPixelFormat
+- _vtGuessMissingColorSpaceAttachmentsGuts
+- _VTPixelTransferSessionCopySupportedPropertyDictionary
+- _vtPixelTransferSessionCreateSupportedPropertyDictionary
+- _VTPixelTransferNodeSoftwareCopyDebugDescription
+- _VTPixelTransferNodeScalerCopyDebugDescription
+- _VTPixelTransferNodeDynamicCopyDebugDescription
+- _vt_VImage_Setup_RGhA_v216
+- _vt_VImage_Setup_RGfA_RGhA
+- _vt_VImage_Setup_l64r_RGhA
+- _vt_VImage_Setup_l64r_v410
+- _vt_VImage_Setup_x444_w30r
+- _vt_VImage_Copy_420v_32ARGB
+- _vt_VImage_Copy_420v_32BGRA
+- _vt_VImage_Copy_420f_32BGRA
+- _vt_VImage_Copy_420f_32ARGB
+- _OUTLINED_FUNCTION_35
+- _OUTLINED_FUNCTION_36
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_52
+- _OUTLINED_FUNCTION_54
+- _OUTLINED_FUNCTION_55
+- [7 functions removed in block]
+- _OUTLINED_FUNCTION_73
+- _OUTLINED_FUNCTION_75
+- _OUTLINED_FUNCTION_76
+- [11 functions removed in block]
+- _OUTLINED_FUNCTION_0
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_18
+- [6 functions removed in block]
+- [7 functions removed in block]
+- [4 functions removed in block]
+- [7 functions removed in block]
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_95
+- [5 functions removed in block]
+- sub_193eecec4
+- [4 functions removed in block]
+- _vtVideoDecoderInfoInitOnce
+- _VTCopyAV1DecoderCapabilitiesDictionary
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_74
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_14
+- _vtParavirtualizationAtomWriterAppendCFType
+- _OUTLINED_FUNCTION_0
+- _paravirtualizedVideoEncoder_HandleMessageFromHost
+- _paravirtualizedVideoEncoder_lookupRetainAndForgetPendingTilePixelBufferByUUID
+- _ParavirtualizedVideoEncoder_EncodeMultiImageFrame
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_17
+- _dsrxpc_DecodeFrameCommon
+- _VTDecompressionSessionRemoteXPC_DecodeTile
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_21
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_38
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_53
+- _OUTLINED_FUNCTION_55
+- _OUTLINED_FUNCTION_59
+- _OUTLINED_FUNCTION_60
+- _OUTLINED_FUNCTION_63
+- _OUTLINED_FUNCTION_74
+- _OUTLINED_FUNCTION_67
+- [5 functions removed in block]
+- _paravirtualizedVideoDecoder_HandleMessageFromHost
+- _paravirtualizedVideoDecoder_handleGuestExternalProtectionStatusSetPropertyAndCopyReplacementValue
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- [4 functions removed in block]
+- [4 functions removed in block]
+- [3 functions removed in block]
+- _read_SOS
+- _consume_progressive_mode_markers
+- _VTMotionEstimationSessionEstimateMotionVectors
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_17
+- [6 functions removed in block]
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_0
+- [5 functions removed in block]
+- ___VTPixelBlitterColorHandlingOptimized_setup_block_invoke_2
+- ___VTPixelBlitterColorHandlingOptimized_setup_block_invoke.23
+- _OUTLINED_FUNCTION_0
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_19
+- _OUTLINED_FUNCTION_20
+- [3 functions removed in block]
+- _RegisterVTParavirtualizedJPEGSession
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- _JPEGVideoDecoder_DecodeFrame
+- _jpeg_createSupportedPropertyDictionary
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_9
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_31
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_40
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_56
+- _OUTLINED_FUNCTION_57
+- [4 functions removed in block]
+- [7 functions removed in block]
+- _OUTLINED_FUNCTION_76
+- [4 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- _VTDecompressionSessionRemote_Create
+- _VTDecompressionSessionRemote_CopyBlackPixelBuffer
+- _VTDecompressionSessionRemote_GetMinOutputPresentationTimeStampOfFramesBeingDecoded
+- ___vtdsr_handleDeadServerConnection_block_invoke_2
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_13
+- _vt_Rotate_y420
+- _OUTLINED_FUNCTION_0
+- [4 functions removed in block]
+- [9 functions removed in block]
+- [3 functions removed in block]
+- [8 functions removed in block]
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_37
+- [7 functions removed in block]
+- ___MuxedAlphaEncoder_EncodeMultiImageFrame_block_invoke.64
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_17
+- _VTPixelBufferAttributesMediatorCopyProperty
+- _VTMetalTransferSessionCopyProperty
+- _setupRenderRotationAndCrop
+- ___VTPopulateColorPrimariesAndTransferFunctionValuesModern_block_invoke.397
+- ___VTPopulateColorPrimariesAndTransferFunctionValuesModern_block_invoke.399
+- _printable4CC
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_30
+- _OUTLINED_FUNCTION_32
+- [5 functions removed in block]
+- _OUTLINED_FUNCTION_54
+- _OUTLINED_FUNCTION_58
+- _OUTLINED_FUNCTION_60
+- _OUTLINED_FUNCTION_61
+- [3 functions removed in block]
+- [12 functions removed in block]
+- [6 functions removed in block]
+- _VTDecompressionSessionServerStart
+- _DecompressionSessionClient_RegisterType
+- [3 functions removed in block]
+- [8 functions removed in block]
+- _OUTLINED_FUNCTION_36
+- [14 functions removed in block]
+- [10 functions removed in block]
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_16
+- [3 functions removed in block]
+- _VTTileCompressionSessionSetProperty
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_1
+- _createAppleP3ColorSpace
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_6
+- _validRotation
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_9
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_21
+- _VTPixelBufferConformerCopyConformedTaggedBufferGroup
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_9
+- [5 functions removed in block]
+- [5 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [7 functions removed in block]
+- [4 functions removed in block]
+- _OUTLINED_FUNCTION_1
+- [6 functions removed in block]
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_11
+- [3 functions removed in block]
+- _OUTLINED_FUNCTION_1
+- [4 functions removed in block]
+- _vtCompressionSessionCompleteFramesCallback.cold.1
+- _vtCompressionSessionCompleteFramesCallback.cold.2
+- _vtCompressionSessionCompressionWork.cold.3
+- _vtCompressionSessionCompressionWork.cold.4
+- [5 functions removed in block]
+- [11 functions removed in block]
+- [11 functions removed in block]
+- [3 functions removed in block]
+- [27 functions removed in block]
+- _VTEncoderSessionCreateVideoFormatDescription.cold.2
+- _VTEncoderSessionCreateVideoFormatDescription.cold.3
+- [30 functions removed in block]
+- [5 functions removed in block]
+- [19 functions removed in block]
+- _TileCompressionOutputCallback.cold.1
+- ___VTCompressionSessionRemoteServer_EstimateMotion_block_invoke_2.cold.1
+- [15 functions removed in block]
+- [13 functions removed in block]
+- [5 functions removed in block]
+- _vtDecompressionSessionGeneratePerFrameHDRMetadataforEmittedImageBufferCommon.cold.2
+- _vtDecompressionSessionGeneratePerFrameHDRMetadataforEmittedImageBufferCommon.cold.3
+- _DepthWrapperDecoder_CreateInstance.cold.1
+- _DepthWrapperDecoder_CreateInstance.cold.2
+- _DepthWrapperDecoder_StartSession.cold.1
+- [9 functions removed in block]
+- _depthdecoder_createPixelBufferAttributesDictionary.cold.2
+- [9 functions removed in block]
+- [7 functions removed in block]
+- [19 functions removed in block]
+- [3 functions removed in block]
+- _vtCompressionSessionRemote_EncodeFrameCommon.cold.1
+- _vtCompressionSessionRemote_EncodeFrameCommon.cold.3
+- _vtCompressionSessionRemote_EncodeFrameCommon.cold.4
+- [7 functions removed in block]
+- _VTMotionEstimationSessionRemote_Create.cold.1
+- [4 functions removed in block]
+- _depthencoder_createPixelBufferAttributesDictionary.cold.2
+- ___DepthWrapperEncoder_EncodeFrame_block_invoke.cold.3
+- ___DepthWrapperEncoder_EncodeFrame_block_invoke.cold.4
+- _VTSelectAndCreateVideoEncoderInstanceInternal.cold.1
+- _VTSelectAndCreateVideoEncoderInstanceInternal.cold.3
+- _VTCreateVideoEncoderInstanceFromEncoderID.cold.1
+- _VTCopyVP9DecoderCapabilitiesDictionary.cold.2
+- _VTCopyVP9DecoderCapabilitiesDictionary.cold.5
+- _VTCopyDecoderCapabilitiesDictionaryForCodecTypes.cold.2
+- _VTCopyDecoderCapabilitiesDictionaryForCodecTypes.cold.3
+- [4 functions removed in block]
+- [5 functions removed in block]
+- _VTCopyHEVCDecoderCapabilitiesDictionary.cold.4
+- [22 functions removed in block]
+- _VTParavirtualizationCreateSampleBufferFromSerializedAtomDataBlockBuffer.cold.1
+- [7 functions removed in block]
+- _VTParavirtualizationCreateSampleBufferFromSerializedAtomDataBlockBuffer.cold.12
+- [5 functions removed in block]
+- [4 functions removed in block]
+- _vtParavirtualizationAtomDataReaderCopyCFArray.cold.1
+- _VTPixelRotationSessionCopySupportedPropertyDictionary.cold.1
+- _VTPixelRotationSessionCopySupportedPropertyDictionary.cold.3
+- [14 functions removed in block]
+- [18 functions removed in block]
+- _VTHDRPerFrameMetadataGenerationSessionAttachMetadata.cold.2
+- _VTHDRPerFrameMetadataGenerationSessionAttachMetadata.cold.3
+- _VTApplyRestrictions.cold.2
+- _dsrxpc_CreateNewSession.cold.4
+- _dsrxpc_DecodeFrameCommon.cold.3
+- [5 functions removed in block]
+- [11 functions removed in block]
+- [8 functions removed in block]
+- _paravirtualizedVideoDecoder_HandleMessageFromHost.cold.6
+- _paravirtualizedVideoDecoder_lookupRetainAndForgetPendingFramePixelBuffersByUUIDs.cold.1
+- _paravirtualizedVideoDecoder_lookupRetainAndForgetPendingFramePixelBuffersByUUIDs.cold.2
+- [13 functions removed in block]
+- _VTMotionEstimationSessionEstimateMotionVectors.cold.7
+- _VTMotionEstimationSessionEstimateMotionVectors.cold.8
+- [43 functions removed in block]
+- _MuxedAlphaDecoder_CreateInstance.cold.1
+- [11 functions removed in block]
+- [5 functions removed in block]
+- ___VTPixelBlitterColorHandlingOptimized_setup_block_invoke.23.cold.1
+- ___VTPixelBlitterColorHandlingOptimized_setup_block_invoke.23.cold.2
+- _FigCreatePixelBufferAttributesWithIOSurfaceSupport.cold.3
+- [15 functions removed in block]
+- _DecompressionOutputCallback
+- _dssxpc_InitializeClient.cold.1
+- _dssxpc_InitializeClient.cold.2
+- [4 functions removed in block]
+- [6 functions removed in block]
+- _VTDecompressionSessionRemote_CanAcceptFormatDescription.cold.3
+- [5 functions removed in block]
+- _vt_Rotate_64_90CCW
+- [6 functions removed in block]
+- [25 functions removed in block]
+- [10 functions removed in block]
+- [7 functions removed in block]
+- [18 functions removed in block]
+- [4 functions removed in block]
+- [10 functions removed in block]
+- _vtMetalTransferSessionConfigureForManySourcesAndManyDests
+- [13 functions removed in block]
+- _vtMetalTransferSessionTransferImageCommonSync.cold.6
+- [16 functions removed in block]
+- [19 functions removed in block]
+- _VTDecompressionSessionRemoteServer_DecodeFrame
+- _VTDecompressionSessionRemoteServer_DecodeTile
+- _DecompressionOutputCallback.cold.1
+- _TileDecompressionOutputCallback.cold.1
+- [13 functions removed in block]
+- _AppleJPEGVideoDecoder_CopyProperty.cold.1
+- _AppleJPEGVideoDecoder_CopyProperty.cold.2
+- [7 functions removed in block]
+- _DolbyVisionDecoder_StartSession
+- [13 functions removed in block]
+- [11 functions removed in block]
+- _dovi_createDerivedSampleBuffer.cold.3
+- _dovi_createDerivedSampleBuffer.cold.5
+- _VTTileCompressionSessionCreate
+- [13 functions removed in block]
+- [3 functions removed in block]
+- _TestIPBVideoEncoder_EncodeMultiImageFrame.cold.1
+- [4 functions removed in block]
+- _VTCreateCGImageFromIOSurfaceAndAttributes
+- [3 functions removed in block]
+- [6 functions removed in block]
+- [15 functions removed in block]
+- [9 functions removed in block]
+- [39 functions removed in block]
+- _vtTemporalFilterSessionValidateBooleanProperty.cold.1
+- _VTPixelTransferNodeCelesteRotationCopySupportedPropertyDictionary.cold.2
+- _VTDecompressionSessionRemoteBridge_Create.cold.2
+- _VTDecompressionSessionRemoteBridge_Create.cold.3
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [3 functions removed in block]
+- [8 functions removed in block]
+- _VTParavirtualizationGuestRemoveHandlerForUUID
+- _VTParavirtualizationGuestSendMessageWithIOSurfacesToHostAsync
+- [3 functions removed in block]
+- _VTParavirtualizationMessageAppendCFUUID
+- _VTParavirtualizationMessageCopyCFUUIDArray
+- _VTParavirtualizationMessageAppendSInt64
+- _VTParavirtualizationMessageAppendCMSampleBuffer
+- _VTParavirtualizationMessageCopyCMSampleBuffer
+- _VTParavirtualizationMessageGetVTInt32Size
+- ___vtParavirtualizationGuestSetup_block_invoke_3
+- _VTParavirtualizationReplyClerkCreate.cold.3
+- _VTParavirtualizationReplyClerkWaitForReply.cold.2
+- [4 functions removed in block]
+- [5 functions removed in block]
+- _VTParavirtualizationMessageAppendPixelBufferAndIOSurfaceAttachments.cold.3
+- [7 functions removed in block]
+- _VTFigAudioSessionCreateUsingPrimaryAVAudioSessionSiblingForAuditToken.cold.1
+- _VTInAudioMXServerProcess.cold.1
+- [6 functions removed in block]
+- [12 functions removed in block]
+- [3 functions removed in block]
+- [12 functions removed in block]
+- _vtPreprocessingSessionEnsureResolutionIsPartOfSession.cold.2
+- _vtPreprocessingSessionEnsureResolutionIsPartOfSession.cold.3
+- _vtPreprocessingSessionCreateProperties.cold.2
+- _vtMultiPassStorageCreateEmptyTable
+- _vtMultiPassStorageCopyStorageToMultiPassStorage
+- [4 functions removed in block]
+- _VTMultiPassStorageSetIdentifier.cold.2
+- _VTMultiPassStorageSetIdentifier.cold.3
+- [17 functions removed in block]
 CStrings:
 + "[VTPixelTransferNodeDynamic]"
 + "description=CoreMedia_VideoToolbox-3235.12.2"

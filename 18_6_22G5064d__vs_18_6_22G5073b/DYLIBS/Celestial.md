@@ -59,7 +59,7 @@ Symbols:
 - _objc_release_x22
 - _objc_release_x26
 - _os_log_type_enabled
-Functions:
+Functions (modified):
 ~ +[FigCheckpointSupport makeDictionary] : 3992 -> 1872
 ~ _FigAspenGetJPEGEncodeTiming : 8 -> 16
 CStrings:

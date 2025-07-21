@@ -72,6 +72,22 @@
 -  CStrings:  13138
 +  CStrings:  13139
  
+Functions (added):
++ sub_100096dc4
++ sub_100096dcc
++ [5 functions added in block]
++ sub_100099970
++ sub_1000a12b4
++ sub_1000cac20
+
+Functions (removed):
+- sub_100226620
+- sub_10022cf48
+- sub_10022e830
+- sub_10024abd0
+- sub_10024b65c
+- sub_10024cb0c
+- sub_10024cc48
 CStrings:
 + "mustLiveDays"
 

@@ -32,6 +32,21 @@
 Symbols:
 + _xsltRVTListCreate
 + _xsltReleaseRVTList
+Functions (modified):
+~ _xsltFreeTransformContext : 496 -> 516
+~ _xsltReleaseLocalRVTs : 296 -> 272
+~ _xsltCreateRVT : 144 -> 156
+~ _xsltRegisterTmpRVT : 128 -> 144
+~ _xsltRegisterLocalRVT : 136 -> 152
+~ _xsltReleaseRVT : 272 -> 148
+~ _xsltRegisterPersistRVT : 100 -> 120
+~ _xsltFreeRVTs : 224 -> 212
+~ _xsltFreeStackElem : 360 -> 376
+~ _xsltEvalVariable : 708 -> 720
+
+Functions (added):
++ _xsltRVTListCreate
++ _xsltReleaseRVTList
 CStrings:
 + "xsltRVTListCreate: malloc failed\n"
 - "localRVT not head of list\n"

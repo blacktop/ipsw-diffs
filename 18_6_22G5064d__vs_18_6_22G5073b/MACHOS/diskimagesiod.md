@@ -22,6 +22,12 @@
    Symbols:   709
    CStrings:  3838
  
+Functions (added):
++ sub_1000af458
++ sub_100115ca0
+
+Functions (removed):
+- sub_100158fe4
 CStrings:
 + "/AppleInternal/Library/BuildRoots/4~B4cDugDprqwN8CWK0SKViEc3rk9F5B6reCpz-64/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.6.Internal.sdk/usr/local/include/boost/algorithm/hex.hpp"
 + "/AppleInternal/Library/BuildRoots/4~B4cDugDprqwN8CWK0SKViEc3rk9F5B6reCpz-64/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.6.Internal.sdk/usr/local/include/boost/uuid/detail/sha1.hpp"

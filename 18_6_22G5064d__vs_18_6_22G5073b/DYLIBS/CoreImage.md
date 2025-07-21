@@ -78,6 +78,17 @@ Symbols:
 + -[CIRAWFilterImpl(CustomAccessors) setInputDisableHighlightRecovery:]
 + _OBJC_IVAR_$_CIRAWFilterImpl.inputDisableHighlightRecovery
 + _objc_msgSend$setInputDisableHighlightRecovery:
+Functions (modified):
+~ +[CIRAWFilterImpl keyPathsForValuesAffectingValueForKey:] : 624 -> 636
+~ -[CIRAWFilterImpl setDefaults] : 688 -> 700
+~ +[CIRAWFilterImpl customAttributes] : 3144 -> 3200
+~ +[CIRAWFilterImpl(Private) optionKeys] : 572 -> 584
+~ -[CIRAWFilterImpl(Private) filters] : 2572 -> 2632
+
+Functions (added):
++ [3 functions added in block]
++ -[CIRAWFilterImpl(CustomAccessors) setInputDisableHighlightRecovery:]
++ -[CIRAWFilterImpl(CustomAccessors) inputDisableHighlightRecovery]
 CStrings:
 + "inputDisableHighlightRecovery"
 + "inputShouldRecoverHighlights"

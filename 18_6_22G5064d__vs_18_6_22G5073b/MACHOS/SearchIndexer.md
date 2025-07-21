@@ -71,5 +71,37 @@
    Symbols:   460
    CStrings:  3059
  
+Functions (added):
++ sub_10035d5b8
++ sub_10035da4c
++ sub_1003674cc
++ sub_1003674d8
++ sub_100368230
++ sub_1003682e4
++ sub_10043d6c4
++ sub_10043e020
++ sub_100451cb0
++ sub_10045a130
++ sub_100461ef0
++ sub_100462d04
++ sub_100462d48
+
+Functions (removed):
+- sub_1004f3860
+- sub_1004f4354
+- sub_1004fb12c
+- sub_1004fc2d4
+- sub_1004fce40
+- sub_1004fd9a4
+- sub_1004fdaa4
+- sub_1004fe138
+- sub_1004fe404
+- sub_1004fe8e8
+- sub_1004fed40
+- sub_1004fef90
+- sub_1004fefc4
+- sub_1004ff000
+- sub_1004ff3d0
+- sub_1004ff440
 
 ```

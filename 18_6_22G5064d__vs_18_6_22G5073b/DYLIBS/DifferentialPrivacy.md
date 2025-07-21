@@ -36,7 +36,7 @@
 -  CStrings:  42957
 +  CStrings:  42959
  
-Functions:
+Functions (modified):
 ~ __DPNewTransparencyLog : 856 -> 876
 CStrings:
 + "fedstats:com.apple.insights.internal-collection.analysisB"

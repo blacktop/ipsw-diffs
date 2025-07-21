@@ -53,6 +53,17 @@
    Symbols:   235
    CStrings:  784
  
+Functions (added):
++ sub_24daa95d0
++ sub_24daaab14
++ sub_24dab69a4
++ sub_24dab70d0
++ sub_24dac4404
++ sub_24dac4b90
++ sub_24dafe54c
+
+Functions (removed):
+- sub_24e384350
 CStrings:
 + "No availability cache, ticket status, or eligibility change. Not invoking reportCurrentAvailabilityState"
 - "No availability cache or ticket status change. Not invoking reportCurrentAvailabilityState"

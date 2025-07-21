@@ -208,6 +208,15 @@ Symbols:
 - ___70-[POExtensionAgentProcess userRegistrationsNeedsRepairWithCompletion:]_block_invoke.330
 - ___72-[POExtensionAgentProcess deviceRegistrationsNeedsRepairWithCompletion:]_block_invoke.324
 - ___block_literal_global.670
+Functions (modified):
+~ -[POExtensionAgentProcess bundleIdentiferForXPCConnection:] : 560 -> 940
+~ ___51-[POExtensionAgentProcess ssoTokensWithCompletion:]_block_invoke.106 : 124 -> 140
+
+Functions (added):
++ -[POExtensionAgentProcess bundleIdentiferForXPCConnection:].cold.2
+
+Functions (removed):
+- ___68-[POExtensionAgentProcess completeRotationKeyForKeyType:completion:]_block_invoke.449
 CStrings:
 + "bundleIdentifier: SecTaskCopySigningIdentifier() failed %{public}@"
 + "bundleIdentifier: SecTaskCreateWithAuditToken() failed"

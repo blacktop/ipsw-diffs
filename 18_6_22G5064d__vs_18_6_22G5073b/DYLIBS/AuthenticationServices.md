@@ -38,10 +38,12 @@ Symbols:
 + GCC_except_table58
 - GCC_except_table60
 - ___68-[_ASPasswordManagerIconController prepareForApplicationTermination]_block_invoke_2
-Functions:
+Functions (modified):
 ~ -[_ASPasswordManagerIconController prepareForApplicationTermination] : 228 -> 184
 ~ ___68-[_ASPasswordManagerIconController prepareForApplicationTermination]_block_invoke : 388 -> 372
 ~ ___68-[_ASPasswordManagerIconController prepareForApplicationTermination]_block_invoke.28 : 136 -> 8
+
+Functions (removed):
 - ___68-[_ASPasswordManagerIconController prepareForApplicationTermination]_block_invoke_2
 
 ```

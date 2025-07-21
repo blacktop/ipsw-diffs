@@ -103,6 +103,28 @@ Symbols:
 - _block_destroy_helper.4
 - _block_destroy_helper.8
 - _objectdestroy.105Tm
+Functions (added):
++ sub_24bdc14f8
++ sub_24bdc15a0
++ sub_24bdc30e0
++ sub_24bdc33e0
++ sub_24bdc3528
++ sub_24be47b4c
++ sub_24be47b5c
++ [3 functions added in block]
++ sub_24be5259c
++ sub_24be53d14
++ [4 functions added in block]
++ sub_24be5a220
+
+Functions (removed):
+- sub_24c64a604
+- sub_24c6bd464
+- sub_24c6bda78
+- sub_24c6be6cc
+- sub_24c6bf59c
+- sub_24c6bf5b8
+- sub_24c6bf5bc
 CStrings:
 + "%s Invalid power state. Error: %{public}@"
 

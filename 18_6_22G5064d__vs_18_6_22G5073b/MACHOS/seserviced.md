@@ -29,8 +29,6 @@
    Functions: 10722
    Symbols:   1662
    CStrings:  12768
-Functions:
-~ sub_1003603b0 : 792 -> 796
 CStrings:
 + "iOS (18.6) - SecureElementService-56.4"
 - "iOS (18.6) - SecureElementService-56.3"

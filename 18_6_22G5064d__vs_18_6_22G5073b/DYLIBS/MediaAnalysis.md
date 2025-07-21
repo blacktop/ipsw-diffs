@@ -34,9 +34,11 @@
  
 Symbols:
 + +[MADComputeSyncPayloadResults fullAnalysisResultsFromAnalysisProto:asset:payloadData:].cold.1
-Functions:
+Functions (modified):
 ~ +[MADComputeSyncPayloadResults fullAnalysisResultsFromAnalysisProto:asset:payloadData:] : 1156 -> 1288
 ~ __ZNKSt3__114default_deleteIN13sentencepiece4util6Status3RepEEclB8ne190102EPS4_ : 96 -> 92
+
+Functions (added):
 + +[MADComputeSyncPayloadResults fullAnalysisResultsFromAnalysisProto:asset:payloadData:].cold.1
 CStrings:
 + "[ComputeSyncPayload][%@] Full analysis results from compute sync has future version (v%d)"

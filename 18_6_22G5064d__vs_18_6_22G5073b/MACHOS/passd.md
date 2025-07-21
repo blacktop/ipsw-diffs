@@ -60,6 +60,12 @@
 -  CStrings:  39815
 +  CStrings:  39813
  
+Functions (added):
++ sub_1002f8398
++ sub_1002f84f4
+
+Functions (removed):
+- sub_100546a5c
 CStrings:
 + "B16@?0@\"NSNumber\"8"
 + "T@\"PKPaymentWebService\",&,N,V_webService"

@@ -63,6 +63,21 @@ Symbols:
 + _taDFU_deviceinterfaced_enabled
 + _tadfu_transport_client_usable
 - _taDFU_useKISKext
+Functions (modified):
+~ _taDFU_startDeviceDiscoveryForVIDPID : 160 -> 100
+
+Functions (added):
++ _taDFU_deviceinterfaced_enabled
++ sub_100047ecc
++ _taDFU_AppleKIS_enabled
++ sub_100050074
+
+Functions (removed):
+- sub_10004e90c
+- sub_100058b34
+- sub_10005c68c
+- sub_10005fc78
+- sub_1000721a8
 CStrings:
 + "%s Overriding behavior with boot-arg, KIS kext is forced: %s"
 + "%s deviceinterfaced enabled: %s."

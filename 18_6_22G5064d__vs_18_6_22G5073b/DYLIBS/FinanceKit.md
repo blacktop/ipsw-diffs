@@ -31,5 +31,11 @@
    Symbols:   11808
    CStrings:  5473
  
+Functions (added):
++ sub_2419c4ed0
++ sub_241bdc388
+
+Functions (removed):
+- sub_24288ab98
 
 ```

@@ -74,6 +74,14 @@
 -  CStrings:  1384
 +  CStrings:  1386
  
+Functions (added):
++ sub_83080
++ sub_9fa44
++ sub_a4d6c
++ sub_a531c
+
+Functions (removed):
+- sub_d9adc
 CStrings:
 + "initWithUnsignedChar:"
 + "setMessageContentType:"

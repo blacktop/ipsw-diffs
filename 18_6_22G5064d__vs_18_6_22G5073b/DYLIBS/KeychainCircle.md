@@ -147,6 +147,31 @@ Symbols:
 - _apply_block_1.1473
 - _apply_block_2.1507
 - _audit_stringAAAFoundation.1186
+Functions (modified):
+~ -[OTPairingMessage mergeFrom:] : 308 -> 352
+~ -[OTPairingMessage hash] : 144 -> 212
+~ -[OTPairingMessage isEqual:] : 256 -> 316
+~ -[OTPairingMessage copyWithZone:] : 228 -> 272
+~ -[OTPairingMessage copyTo:] : 204 -> 248
+~ -[OTPairingMessage writeTo:] : 224 -> 268
+~ -[OTPairingMessage readFrom:] : 824 -> 1000
+~ -[OTPairingMessage dictionaryRepresentation] : 340 -> 412
+~ -[KCJoiningRequestCircleSession handleCircleBlob:error:] : 2732 -> 3164
+~ -[KCJoiningRequestCircleSession initialMessage:] : 2804 -> 2808
+~ ___48-[KCJoiningRequestCircleSession initialMessage:]_block_invoke : 644 -> 676
+~ -[KCJoiningAcceptSession processApplication:error:] : 2988 -> 3348
+~ ___51-[KCJoiningAcceptSession processApplication:error:]_block_invoke : 544 -> 492
+~ -[KCJoiningAcceptSession setupSession:] : 428 -> 440
+
+Functions (added):
++ -[OTPairingMessage version]
++ [3 functions added in block]
++ -[KCJoiningRequestCircleSession setPiggybacking_version_for_tests:]
++ -[KCJoiningRequestCircleSession piggybacking_version_for_tests]
++ -[KCJoiningRequestCircleSession setPiggybackingVersion:]
++ -[KCJoiningAcceptSession setPiggybacking_version_for_tests:]
++ -[KCJoiningAcceptSession piggybacking_version_for_tests]
++ -[KCJoiningAcceptSession setPiggybackingVersion:]
 CStrings:
 + "TQ,N,V_piggybacking_version_for_tests"
 + "TQ,N,V_version"

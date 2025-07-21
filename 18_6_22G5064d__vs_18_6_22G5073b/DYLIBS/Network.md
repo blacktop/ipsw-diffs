@@ -7005,6 +7005,183 @@ Symbols:
 - _nw_nsstring.69318
 - _nw_nsstring.82063
 - _objc_retain_x11
+Functions (modified):
+~ -[NWURLSessionTask resume] : 596 -> 784
+~ ___26-[NWURLSessionTask resume]_block_invoke : 264 -> 1008
+~ ___47-[NWURLLoaderHTTP configureAndStartConnection:]_block_invoke : 5980 -> 6352
+~ _nw_http_transaction_metadata_set_outbound_message : 1412 -> 1636
+~ __ZL27nw_http3_stream_send_fieldsP24nw_protocol_http3_streamb : 17076 -> 17080
+~ __ZL47nw_protocol_http3_stream_finalize_output_framesP11nw_protocolP16nw_frame_array_s : 3804 -> 3808
+~ __ZL36nw_http3_stream_received_fields_doneP24nw_protocol_http3_stream : 2084 -> 2088
+~ _nw_http_transaction_metadata_set_inbound_message : 1412 -> 1636
+~ ____ZL41nw_protocol_http3_stream_get_input_framesP11nw_protocolS0_jjjP16nw_frame_array_s_block_invoke.128 : 4340 -> 4444
+~ -[NWURLSessionTask startResourceTimer] : 220 -> 432
+~ -[NWURLSessionTask startStartTimer] : 360 -> 556
+~ -[NWURLSessionTask loaderPreparingConnection] : 220 -> 4
+~ ____ZL39nw_http_authentication_handle_challengeP11nw_protocolP21_CFHTTPAuthenticationP28nw_authentication_credential24nw_authentication_type_tbU13block_pointerFvP20nw_protocol_metadatabbE_block_invoke.40 : 344 -> 40
+~ __ZL28nw_http1_on_headers_completeP18llhttp__internal_s : 3092 -> 3096
+~ __ZZ32nw_protocol_http_redirect_createEN3$_08__invokeEP11nw_protocolS1_P20nw_protocol_metadatabU13block_pointerFv46nw_protocol_plugin_metadata_processor_result_tS3_E : 6796 -> 6980
+~ __ZZ38nw_protocol_http_authentication_createENK3$_0clEP11nw_protocolS1_P20nw_protocol_metadatabU13block_pointerFv46nw_protocol_plugin_metadata_processor_result_tS3_E : 7752 -> 7988
+~ __ZL39nw_http_authentication_handle_challengeP11nw_protocolP21_CFHTTPAuthenticationP28nw_authentication_credential24nw_authentication_type_tbU13block_pointerFvP20nw_protocol_metadatabbE : 5496 -> 5636
+~ __ZL42nw_http_authentication_apply_authorizationP11nw_protocolP21_CFHTTPAuthenticationP28nw_authentication_credential24nw_authentication_type_tbbbU13block_pointerFvP20nw_protocol_metadatabbE : 2624 -> 2076
+~ __ZZ30nw_protocol_http_cookie_createEN3$_28__invokeEP11nw_protocolS1_P20nw_protocol_metadatabU13block_pointerFv46nw_protocol_plugin_metadata_processor_result_tS3_E : 5988 -> 6124
+~ ____ZL40nw_protocol_http1_finalize_output_framesP11nw_protocolP16nw_frame_array_s_block_invoke : 7832 -> 8024
+~ __ZL42nw_http1_connection_output_frame_finalizerP8nw_framebPv : 28860 -> 28864
+~ __ZL34nw_http1_connection_execute_parserP19nw_http1_connectionPKhjPjU13block_pointerFvPKcjE : 3748 -> 3944
+~ __ZZ29nw_protocol_http_retry_createEN3$_08__invokeEP11nw_protocolS1_P20nw_protocol_metadatabU13block_pointerFv46nw_protocol_plugin_metadata_processor_result_tS3_E : 2932 -> 3052
+~ -[NWURLSessionTask loaderDidSendBodyData:totalBytesSent:totalBytesExpectedToSend:completionHandler:] : 880 -> 936
+~ ___100-[NWURLSessionTask loaderDidSendBodyData:totalBytesSent:totalBytesExpectedToSend:completionHandler:]_block_invoke : 48 -> 340
+~ -[NWURLSessionTask loaderConnectedWithHTTPConnectionMetadata:CNAMEChain:unlistedTracker:] : 596 -> 808
+~ -[NWURLSessionTask loaderWaitingForConnectivity] : 444 -> 592
+~ ___32-[NWURLSessionTask readResponse]_block_invoke : 528 -> 596
+~ ___32-[NWURLSessionTask readResponse]_block_invoke_2 : 2968 -> 444
+~ ___55-[NWURLSessionTask initWithRequest:identifier:session:]_block_invoke : 224 -> 64
+~ ___36-[NWURLSessionTask readResponseBody]_block_invoke : 1028 -> 1080
+~ ___36-[NWURLSessionTask readResponseBody]_block_invoke_2 : 184 -> 408
+~ ___36-[NWURLSessionTask readResponseBody]_block_invoke_3 : 272 -> 156
+~ ___36-[NWURLSessionTask readResponseBody]_block_invoke_6 : 272 -> 156
+~ ___36-[NWURLSessionTask readResponseBody]_block_invoke_7 : 156 -> 128
+~ ___36-[NWURLSessionTask readResponseBody]_block_invoke_5 : 128 -> 272
+~ -[NWURLLoaderHTTP stop] : 488 -> 660
+~ -[NWURLLoaderHTTP cancelConnection] : 164 -> 336
+~ ___35-[NWURLLoaderHTTP writeRequestBody]_block_invoke : 836 -> 1056
+~ __ZL40nw_protocol_http2_frame_output_finalizerP8nw_framebPv : 8312 -> 8316
+~ __ZL23nw_http2_submit_messageP17nw_protocol_http2P11nw_protocolP12http2_streamP8nw_frame : 19296 -> 17840
+
+Functions (added):
++ [3 functions added in block]
++ sub_1835f8bd4
++ sub_1835f8fac
++ sub_1835ff338
++ sub_1835ff4fc
++ sub_1835ff5dc
++ sub_183600ee0
++ sub_183601188
++ sub_183601580
++ sub_183602334
++ sub_183602338
++ sub_1836088ec
++ sub_183608d88
++ sub_18360cf64
++ sub_18360d5f4
++ sub_18360faa4
++ sub_183614ad8
++ sub_183615ca4
++ [3 functions added in block]
++ sub_1836162bc
++ sub_183617a54
++ sub_18361a65c
++ sub_18361b108
++ sub_183621ff0
++ sub_183622048
++ [4 functions added in block]
++ sub_1836236cc
++ sub_183629d40
++ sub_183629ebc
++ sub_18363004c
++ sub_1836303a4
++ sub_1836303bc
++ sub_183630440
++ sub_183631108
++ sub_183635070
++ sub_183646104
++ sub_183657cd8
++ sub_183658548
++ sub_1836635fc
++ sub_18367a75c
++ sub_18367b7ec
++ sub_18367cc10
++ sub_1836ac07c
++ sub_1836ad3a8
++ sub_1836c9758
++ ____ZL39nw_http_authentication_handle_challengeP11nw_protocolP21_CFHTTPAuthenticationP28nw_authentication_credential24nw_authentication_type_tbU13block_pointerFvP20nw_protocol_metadatabbE_block_invoke.43
++ ____ZL39nw_http_authentication_handle_challengeP11nw_protocolP21_CFHTTPAuthenticationP28nw_authentication_credential24nw_authentication_type_tbU13block_pointerFvP20nw_protocol_metadatabbE_block_invoke.48
++ ____ZL37nw_http_authentication_send_challengeP11nw_protocolU13block_pointerFvP20nw_protocol_metadatabbE_block_invoke.84
++ ____ZL37nw_http_authentication_send_challengeP11nw_protocolU13block_pointerFvP20nw_protocol_metadatabbE_block_invoke.85
++ _nw_authentication_credential_get_persistence
++ ____ZL40nw_protocol_http1_finalize_output_framesP11nw_protocolP16nw_frame_array_s_block_invoke.141
++ ____ZL34nw_http1_connection_execute_parserP19nw_http1_connectionPKhjPjU13block_pointerFvPKcjE_block_invoke
++ ____ZZ29nw_protocol_http_retry_createENK3$_0clEP11nw_protocolS1_P20nw_protocol_metadatabU13block_pointerFv46nw_protocol_plugin_metadata_processor_result_tS3_E_block_invoke
++ ___nwlog_http_diagnostics_log
++ _____nwlog_http_diagnostics_log_block_invoke
++ -[NWURLSessionTask restartRequestTimer]
++ ___39-[NWURLSessionTask restartRequestTimer]_block_invoke
++ ___37-[NWURLSessionTask startPayloadTimer]_block_invoke
++ ___48-[NWURLSessionTask loaderWaitingForConnectivity]_block_invoke
++ ___32-[NWURLSessionTask readResponse]_block_invoke.37
++ ___36-[NWURLSessionTask readResponseBody]_block_invoke.45
++ ___36-[NWURLSessionTask readResponseBody]_block_invoke_2.50
++ ___32-[NWURLSessionTask readResponse]_block_invoke.32
++ ___38-[NWURLSessionTask startResourceTimer]_block_invoke
++ ___35-[NWURLSessionTask startStartTimer]_block_invoke
++ [3 functions added in block]
++ ____ZL37nw_protocol_finalize_temp_frame_arrayP16nw_frame_array_sb_block_invoke.62109
++ ____ZL64nw_http3_framer_finalize_output_frames_for_multiple_http3_framesP15nw_http3_framer21nw_http3_frame_type_tP16nw_frame_array_sPjS4_Pc_block_invoke
++ ____ZL64nw_http3_framer_finalize_output_frames_for_multiple_http3_framesP15nw_http3_framer21nw_http3_frame_type_tP16nw_frame_array_sPjS4_Pc_block_invoke_2
++ ____ZL30nw_http3_stream_frame_receivedP24nw_protocol_http3_streamP8nw_frame21nw_http3_frame_type_tybjP16nw_frame_array_sPj_block_invoke
++ ___23-[NWURLLoaderHTTP stop]_block_invoke
++ ___35-[NWURLLoaderHTTP cancelConnection]_block_invoke
++ ___47-[NWURLLoaderHTTP configureAndStartConnection:]_block_invoke.63
++ ___47-[NWURLLoaderHTTP configureAndStartConnection:]_block_invoke_2.64
++ ___47-[NWURLLoaderHTTP configureAndStartConnection:]_block_invoke_2
++ ___35-[NWURLLoaderHTTP writeRequestBody]_block_invoke.74
++ ___35-[NWURLLoaderHTTP writeRequestBody]_block_invoke.75
++ ___35-[NWURLLoaderHTTP reportConnected:]_block_invoke_2
++ _nw_http_metadata_enumerate_modern_header_fields
++ [10 functions added in block]
++ ____ZL18send_data_callbackP15nghttp2_sessionP13nghttp2_framePKhmP19nghttp2_data_sourcePv_block_invoke.107
++ ____ZL27on_data_chunk_recv_callbackP15nghttp2_sessionhiPKhmPv_block_invoke
++ [5 functions added in block]
++ [8 functions added in block]
++ ___cxx_global_var_init.2.36113
+
+Functions (removed):
+- sub_1832b5174
+- sub_18370842c
+- sub_183708440
+- sub_18370846c
+- sub_1837093c8
+- sub_18370a520
+- sub_18370a890
+- sub_18370a8dc
+- sub_18370b3b0
+- sub_18370cdb0
+- sub_18370cdec
+- [3 functions removed in block]
+- sub_18370ed14
+- sub_18370ed30
+- sub_18370ed4c
+- sub_18370ed68
+- [4 functions removed in block]
+- sub_18370effc
+- sub_18370f054
+- sub_18370f0ac
+- [4 functions removed in block]
+- [3 functions removed in block]
+- sub_18370f398
+- [3 functions removed in block]
+- sub_1837185ac
+- sub_1837185e0
+- ____ZL37nw_protocol_finalize_temp_frame_arrayP16nw_frame_array_sb_block_invoke.3326
+- ___Block_byref_object_dispose_.3626
+- ____ZL37nw_protocol_finalize_temp_frame_arrayP16nw_frame_array_sb_block_invoke.5238
+- ____ZL37nw_protocol_finalize_temp_frame_arrayP16nw_frame_array_sb_block_invoke.11488
+- ____ZL34nw_http_authentication_apply_cacheP11nw_protocol_block_invoke.102
+- ____ZL40nw_http_authentication_ask_pat_for_credsP11nw_protocolU13block_pointerFvP20nw_protocol_metadatabbE_block_invoke.69
+- ____ZL45nw_http_authentication_ask_accounts_for_credsP11nw_protocolU13block_pointerFvP20nw_protocol_metadatabbE_block_invoke.58
+- ____ZL45nw_http_authentication_ask_accounts_for_credsP11nw_protocolU13block_pointerFvP20nw_protocol_metadatabbE_block_invoke.59
+- ___Block_byref_object_dispose_.35457
+- ___Block_byref_object_copy_.38820
+- ___Block_byref_object_dispose_.38821
+- ___Block_byref_object_dispose_.22.72993
+- ___Block_byref_object_dispose_.83370
+- ____ZL24__nw_signpost_is_enabledv_block_invoke.84969
+- ___Block_byref_object_copy_.87145
+- ____ZL24__nw_signpost_is_enabledv_block_invoke.89903
+- ___Block_byref_object_copy_.90864
+- ___Block_byref_object_dispose_.90865
+- ___Block_byref_object_copy_.107.90903
+- ___Block_byref_object_dispose_.108.90904
 CStrings:
 + "%{public}s called with null action"
 + "%{public}s called with null action, backtrace limit exceeded"

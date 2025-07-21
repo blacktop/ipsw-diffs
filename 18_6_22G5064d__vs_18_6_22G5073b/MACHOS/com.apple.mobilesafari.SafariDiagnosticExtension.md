@@ -56,14 +56,9 @@
  
 Symbols:
 + __SFCloudTabsDeviceUUIDForRestorationDebugSyncLogDefaultsKey
-Functions:
-~ sub_100001ec0 : 884 -> 916
+Functions (added):
 + sub_100005128
-+ sub_100005914
-- sub_1000056b8
-- sub_100005714
-+ sub_1000059a8
-+ sub_1000061b8
++ sub_100005a94
 CStrings:
 + "Failed to write file with CloudTab restoration diagnostics to %{public}@, error: %{public}@"
 + "Finished gathering CloudTab restoration data"

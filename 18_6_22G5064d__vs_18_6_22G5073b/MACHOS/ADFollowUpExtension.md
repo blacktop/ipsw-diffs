@@ -65,6 +65,19 @@
  
 Symbols:
 - _objc_retain_x23
+Functions (added):
++ sub_10000d64c
++ sub_10000dae0
++ sub_10000e3b0
++ sub_10000f620
++ sub_10000f838
+
+Functions (removed):
+- sub_10000d72c
+- sub_10000e2a4
+- sub_10000e4f0
+- sub_1000107e4
+- [5 functions removed in block]
 CStrings:
 + "destructive"
 

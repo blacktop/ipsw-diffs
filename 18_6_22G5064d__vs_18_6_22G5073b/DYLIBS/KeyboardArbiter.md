@@ -20,7 +20,7 @@
    Functions: 374
    Symbols:   1663
    CStrings:  1080
-Functions:
+Functions (modified):
 ~ -[_UIKeyboardArbiterClientHandle userFirstTapOnKeyboard] : 792 -> 816
 
 ```

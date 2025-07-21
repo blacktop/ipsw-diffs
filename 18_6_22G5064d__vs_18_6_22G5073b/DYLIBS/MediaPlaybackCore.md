@@ -183,8 +183,12 @@ Symbols:
 - ___block_literal_global.32676
 - ___block_literal_global.45.28186
 - _sharedManager.onceToken.32675
-Functions:
+Functions (added):
++ sub_21b8de028
 + +[MPCPlaybackEngine initialize]
+
+Functions (removed):
+- sub_21c1c406c
 CStrings:
 + "initialize"
 + "setMemoryCapacity:"

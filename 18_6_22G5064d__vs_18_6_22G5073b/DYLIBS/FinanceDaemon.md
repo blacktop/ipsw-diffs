@@ -29,11 +29,13 @@
 +  Symbols:   2377
 +  CStrings:  1696
  
-Functions:
-~ sub_1d75c49d4 -> sub_1d6b739d4 : 424 -> 1516
-~ sub_1d75c5b54 -> sub_1d6b74f98 : 3116 -> 4696
-~ sub_1d768bdb0 -> sub_1d6c3b820 : 480 -> 384
-~ sub_1d768bf90 -> sub_1d6c3b9a0 : 384 -> 480
+Functions (added):
++ sub_1d6b739d4
++ sub_1d6b74f98
+
+Functions (removed):
+- sub_1d76464c8
+- sub_1d770cd4c
 CStrings:
 + "Fetch background refresh tasks"
 + "Have accounts: %ld"

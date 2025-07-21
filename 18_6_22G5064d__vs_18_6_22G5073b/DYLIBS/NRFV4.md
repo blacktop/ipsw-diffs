@@ -20,7 +20,7 @@
    Functions: 12333
    Symbols:   37761
    CStrings:  23342
-Functions:
+Functions (modified):
 ~ -[RawDFSyntheticReferenceStage _doDeepShadowRecovery:noiseDivisorOutputTex:lscGainsTex:evmPyramid:ev0Pyramid:frameProperties:srPlist:] : 3256 -> 3252
 
 ```

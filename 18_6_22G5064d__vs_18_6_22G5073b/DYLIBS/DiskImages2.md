@@ -84,6 +84,11 @@ Symbols:
 - __ZThn360_N6di_log6loggerINS_11log_printerILm337EEEED1Ev
 - __ZTv0_n24_N6di_log6loggerINS_11log_printerILm337EEEED0Ev
 - __ZTv0_n24_N6di_log6loggerINS_11log_printerILm337EEEED1Ev
+Functions (modified):
+~ __ZNK9DiskImage24const_extents_iterator_t8make_valEv : 536 -> 628
+
+Functions (added):
++ __ZL16offset_is_mappedRKNSt3__120__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIN5boost3icl17discrete_intervalIyNS_4lessEEEN4udif7details8run_infoEEEPNS_11__tree_nodeISB_PvEElEEEESJ_y
 CStrings:
 + "/AppleInternal/Library/BuildRoots/4~B4cDugDprqwN8CWK0SKViEc3rk9F5B6reCpz-64/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.6.Internal.sdk/usr/local/include/boost/algorithm/hex.hpp"
 + "/AppleInternal/Library/BuildRoots/4~B4cDugDprqwN8CWK0SKViEc3rk9F5B6reCpz-64/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.6.Internal.sdk/usr/local/include/boost/uuid/detail/sha1.hpp"

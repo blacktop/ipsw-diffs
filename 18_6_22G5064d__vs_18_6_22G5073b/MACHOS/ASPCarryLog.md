@@ -37,9 +37,6 @@
 -  CStrings:  12568
 +  CStrings:  12572
  
-Functions:
-~ sub_10003cad4 : 424 -> 448
-~ sub_10003cc7c -> sub_10003cc94 : 556 -> 596
 CStrings:
 + "%@: Failed to create properties dictionary"
 + "%@: Failed to create string for key %s"

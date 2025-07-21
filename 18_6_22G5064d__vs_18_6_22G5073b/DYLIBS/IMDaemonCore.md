@@ -90,6 +90,65 @@
  
 Symbols:
 + _IMMessageSummaryInfoAssociatedMessagePartText
+Functions (added):
++ sub_1d999699c
++ sub_1d99b79e8
++ sub_1d99b8a68
++ sub_1d99d4a84
++ sub_1d99d4b40
++ sub_1d99fb6cc
++ sub_1d9a25ed0
++ [3 functions added in block]
++ sub_1d9a6b2b4
++ sub_1d9a7f238
++ sub_1d9ab3758
++ sub_1d9b504ac
++ sub_1d9b5cc58
++ sub_1d9b87128
++ sub_1d9b8712c
++ sub_1d9b9655c
++ sub_1d9ba0368
++ sub_1d9bae2dc
++ sub_1d9bc8068
++ sub_1d9bc9bb4
++ [3 functions added in block]
++ sub_1d9bca5ac
++ [3 functions added in block]
++ sub_1d9bcad44
++ sub_1d9bcada8
++ sub_1d9bcaea4
++ sub_1d9bcaee8
++ [3 functions added in block]
++ sub_1d9beb280
++ sub_1d9bef020
++ sub_1d9bf02ec
+
+Functions (removed):
+- sub_1da4ee350
+- sub_1da658b30
+- sub_1da667078
+- sub_1da66a194
+- sub_1da66a600
+- sub_1da66af34
+- sub_1da66b540
+- sub_1da66dcb0
+- sub_1da66de4c
+- sub_1da66ed80
+- sub_1da66edc0
+- sub_1da66ee90
+- sub_1da66eedc
+- sub_1da66f270
+- sub_1da66f430
+- sub_1da66f848
+- sub_1da66f898
+- sub_1da66f8e4
+- sub_1da67702c
+- sub_1da678584
+- sub_1da678a50
+- sub_1da678abc
+- sub_1da678b3c
+- sub_1da678b80
+- sub_1da678e84
 CStrings:
 + "-[IMDFileTransferCenter _messageForFileTransferWithGUID:]"
 + "Attempting to localize string for key: %s, localeID: %s, preferredLocalization: %s, message: %s"

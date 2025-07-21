@@ -62,7 +62,7 @@ Symbols:
 - _gFigJPEGEncoderRateController
 - _gFigJPEGVTEncoderTrace
 - _os_log_type_enabled
-Functions:
+Functions (modified):
 ~ _H1JPEGEncoder_CheckExistence : 160 -> 148
 ~ _H1JPEGEncoder_CreateInstance : 848 -> 480
 ~ _H1JPEGEncoder_CopyProperty : 200 -> 164

@@ -114,6 +114,163 @@ Symbols:
 + _OBJC_CLASS_$_APSponsorshipPlacementConfig
 + _OBJC_CLASS_$_OS_dispatch_source
 + _OBJC_METACLASS_$_APAMSNetworkFacade
+Functions (added):
++ sub_100002884
++ sub_1000162f8
++ sub_100016a5c
++ sub_100016b48
++ sub_10001bdd0
++ sub_10001bea0
++ sub_10001c3b0
++ [3 functions added in block]
++ [3 functions added in block]
++ sub_10002b908
++ sub_10002b9c4
++ sub_10002c2f0
++ sub_10002cd08
++ sub_10002cd40
++ [6 functions added in block]
++ sub_10002d0c8
++ sub_1000d2500
++ sub_1000d295c
++ [5 functions added in block]
++ sub_10010188c
++ sub_1001051b4
++ sub_1001051d0
++ sub_100105768
++ sub_100107cac
++ sub_100107cdc
++ sub_10010b52c
++ sub_10010b550
++ sub_10010b560
++ sub_10010d620
++ sub_10010e8bc
++ sub_100111834
++ sub_100112bac
++ sub_1001222e8
++ sub_100123d28
++ sub_100123d4c
++ sub_100127f8c
++ sub_100128240
++ sub_10012adc0
++ sub_10012d1a4
++ sub_100131e4c
++ sub_100134154
++ sub_10013416c
++ sub_100137718
++ sub_100138c8c
++ sub_100138dd8
++ sub_10013bdf8
++ [6 functions added in block]
++ sub_100147d58
++ sub_100148100
++ sub_100151344
++ sub_100153198
++ sub_100159aa4
++ sub_100159af0
++ sub_100159cfc
++ sub_100159d20
++ sub_100159e1c
++ sub_10015ea24
++ [3 functions added in block]
++ sub_10015ec44
++ sub_10015ec68
++ sub_10015ec8c
++ sub_100182bc4
++ sub_100184da0
++ sub_1001878c0
++ sub_100188808
++ sub_100188810
++ sub_100188840
++ sub_100188be0
++ sub_100188f58
++ sub_10018ab20
++ sub_10018ab34
++ sub_10018cac8
++ sub_100190694
++ sub_1001928e0
++ sub_100193a30
++ sub_1001962bc
++ sub_10019c4b4
++ sub_1001a071c
++ sub_1001a08cc
++ sub_1001a1660
++ sub_1001a3d50
++ sub_1001a3dec
++ sub_1001a8de4
++ sub_1001b0880
++ sub_1001b1eb8
++ sub_1001b1f9c
++ sub_1001b1fa0
++ sub_1001b7670
++ sub_1001b76c8
++ sub_1001b7720
++ sub_1001c11bc
++ sub_1001c122c
++ sub_1001c3e10
++ sub_1001cb210
++ sub_1001d0508
++ sub_1001d0594
++ sub_1001d0598
++ sub_1001dbe70
++ sub_1001dec04
++ sub_1001e21b4
++ sub_1001e29b8
++ sub_1001e4b30
++ sub_1001e54e0
++ sub_1001ff4c8
++ [3 functions added in block]
++ sub_1001ffad8
++ sub_1001ffd10
++ [3 functions added in block]
++ sub_100201884
++ sub_100201d9c
++ sub_100201fe4
++ sub_1002025f8
++ sub_100202980
+
+Functions (removed):
+- sub_10011ced8
+- sub_10015378c
+- sub_1001d2be4
+- sub_1001e7e88
+- sub_1001eaf8c
+- sub_1001ef0e0
+- sub_1001ef99c
+- sub_1001f0390
+- sub_1001f03b4
+- sub_1001f03d8
+- sub_1001f2da8
+- sub_1001f3b10
+- sub_1001f3c20
+- sub_1001f3c30
+- sub_1001f4bd8
+- sub_1001f4cec
+- sub_1001f64fc
+- sub_1001f6ae8
+- sub_1001f6b58
+- sub_1001f6c40
+- sub_1001f6d48
+- sub_1001f7014
+- [3 functions removed in block]
+- sub_1001f70d0
+- sub_1001f757c
+- sub_1001f85bc
+- sub_1001f9e1c
+- [3 functions removed in block]
+- sub_1001fdcac
+- [8 functions removed in block]
+- sub_1001fe890
+- sub_1001fe8cc
+- sub_1001fe908
+- sub_1001ff360
+- sub_1001ff3d4
+- sub_1001ff3e8
+- sub_1001ff5d0
+- sub_1001ff5e4
+- sub_1001ffa98
+- sub_1001ffb18
+- [7 functions removed in block]
 CStrings:
 + "APAMSNetworkFacade"
 + "Context ID: %-*s Content ID: %-*s Daemon successfully saved content data."

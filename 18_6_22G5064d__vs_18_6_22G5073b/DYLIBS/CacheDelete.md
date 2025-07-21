@@ -42,7 +42,7 @@
  
 Symbols:
 + _removefile_state_get
-Functions:
+Functions (modified):
 ~ _removefile_error_callback : 548 -> 764
 CStrings:
 + "removefile_error_callback for %s : %s (%d)\n"

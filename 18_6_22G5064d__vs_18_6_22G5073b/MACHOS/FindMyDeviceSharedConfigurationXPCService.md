@@ -82,6 +82,41 @@ Symbols:
 + _OBJC_CLASS_$_FMDFMIPSharedStateManager
 + _OBJC_CLASS_$_NSUUID
 - _MobileGestalt_copy_deviceClass_obj
+Functions (added):
++ sub_100003938
++ sub_100003a58
++ sub_100004144
++ [3 functions added in block]
++ sub_10000583c
++ sub_10000cafc
++ sub_10000dc3c
++ sub_10000dc68
++ sub_10000dccc
++ sub_10000dd0c
++ sub_10000dd50
++ sub_100011808
++ sub_10001181c
++ sub_1000122c8
++ sub_10001232c
++ sub_1000128dc
++ sub_100012a64
++ sub_100012a6c
++ sub_100012a70
++ sub_100012adc
+
+Functions (removed):
+- sub_1000055a4
+- sub_1000082d4
+- sub_100009b0c
+- sub_100009c60
+- sub_10000a6a4
+- sub_10000c024
+- sub_10000cef8
+- sub_10000dd74
+- sub_10000e020
+- sub_100010778
+- sub_100011774
+- sub_100011998
 CStrings:
 + "Device is signed out of iCloud, not posting CFU"
 + "Failed to create the follow-up action"

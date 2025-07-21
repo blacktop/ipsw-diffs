@@ -29,7 +29,7 @@
    Functions: 70134
    Symbols:   191665
    CStrings:  31506
-Functions:
+Functions (modified):
 ~ __ZNK6WebKit12CoreIPCError4toIDEv : 344 -> 376
 CStrings:
 + "/AppleInternal/Library/BuildRoots/4~B4tougACEsVQPW848mCsDjjVQGDOvtqvSDnSL44/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.6.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/GCGLSpan.h"

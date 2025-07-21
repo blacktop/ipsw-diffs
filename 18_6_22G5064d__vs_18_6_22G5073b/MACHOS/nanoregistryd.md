@@ -30,9 +30,6 @@
 -  CStrings:  10038
 +  CStrings:  10039
  
-Functions:
-~ sub_10000cd24 : 332 -> 328
-~ sub_10000ce70 -> sub_10000ce6c : 820 -> 792
 CStrings:
 + "37"
 + "NanoRegistry-989.24"

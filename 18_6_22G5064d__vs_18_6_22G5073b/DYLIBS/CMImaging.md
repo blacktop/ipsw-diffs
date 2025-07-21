@@ -35,8 +35,10 @@
  
 Symbols:
 + -[CMISmartStyleUtilitiesV1 forceMetalCachesFlush]
-Functions:
-+ -[CMISmartStyleUtilitiesV1 forceMetalCachesFlush]
+Functions (modified):
 ~ _bfpn_calculate_lf_stats : 320 -> 328
+
+Functions (added):
++ -[CMISmartStyleUtilitiesV1 forceMetalCachesFlush]
 
 ```

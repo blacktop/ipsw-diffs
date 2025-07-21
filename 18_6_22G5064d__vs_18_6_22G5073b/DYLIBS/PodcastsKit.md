@@ -36,5 +36,71 @@
    Symbols:   3287
    CStrings:  1863
  
+Functions (added):
++ sub_23d8cc2d8
++ sub_23d8cc5cc
++ sub_23d8cc6d4
++ sub_23d8cc75c
++ sub_23d8cc828
++ sub_23d8cc920
++ sub_23d8cc9d0
++ sub_23d8ce58c
++ sub_23d8ceb3c
++ sub_23d8cf1a8
++ sub_23d8d0764
++ sub_23d8d0b60
++ sub_23d8d0b64
++ sub_23d8d101c
++ sub_23d8d1110
++ sub_23d8d268c
++ sub_23d8d27dc
++ sub_23d8d28f4
++ sub_23d8d3910
++ sub_23d8d397c
++ sub_23d8d3b0c
++ sub_23d8d409c
++ sub_23d8d446c
++ sub_23d8d4864
++ sub_23d8d4b28
++ sub_23d8d530c
++ sub_23d8d55ec
++ sub_23d8d5978
++ sub_23d8d5a30
++ sub_23d8d5a48
++ sub_23d8d5aa8
++ sub_23d8d5d08
++ sub_23d8dbdf0
+
+Functions (removed):
+- sub_23e129ed0
+- sub_23e129f00
+- [3 functions removed in block]
+- sub_23e12a39c
+- sub_23e12a4e4
+- sub_23e12bcfc
+- sub_23e12befc
+- sub_23e12cac0
+- sub_23e12ce0c
+- sub_23e12d768
+- sub_23e130050
+- sub_23e130fcc
+- sub_23e1323f4
+- sub_23e1328c8
+- sub_23e1332a4
+- sub_23e1332c0
+- sub_23e1333c4
+- sub_23e134ca4
+- sub_23e1380ac
+- sub_23e13812c
+- [3 functions removed in block]
+- sub_23e1388e0
+- sub_23e139164
+- sub_23e139814
+- sub_23e13a078
+- sub_23e13a1a0
+- sub_23e13a228
+- sub_23e13a2b4
+- sub_23e13a2e4
+- sub_23e13a67c
 
 ```

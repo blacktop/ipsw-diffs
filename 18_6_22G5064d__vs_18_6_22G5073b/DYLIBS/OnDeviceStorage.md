@@ -74,6 +74,18 @@ Symbols:
 + _symbolic ScPSg
 + _symbolic _____XDXMT 15OnDeviceStorage10ConnectionC
 + _symbolic ytIeAgHr_
+Functions (added):
++ [6 functions added in block]
++ sub_25707c5a0
++ sub_257091b8c
++ sub_257091c68
++ sub_2570921c8
++ [5 functions added in block]
++ sub_25709358c
+
+Functions (removed):
+- sub_2578eb8cc
+- sub_2578eb94c
 CStrings:
 + "Open connection deinit detected, closing for id: "
 + "Unable to close connection, reason: "

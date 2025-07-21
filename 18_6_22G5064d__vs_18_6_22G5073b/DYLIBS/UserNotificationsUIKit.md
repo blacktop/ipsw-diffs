@@ -43,7 +43,7 @@
  
 Symbols:
 + _objc_msgSend$string
-Functions:
+Functions (modified):
 ~ -[NCNotificationSeamlessContentViewAccessibility _accessibilitySecondaryTextGroupCollapsed] : 160 -> 264
 CStrings:
 + "string"

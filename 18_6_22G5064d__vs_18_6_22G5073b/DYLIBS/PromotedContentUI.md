@@ -81,6 +81,41 @@
  
 Symbols:
 + _swift_asyncLet_get
+Functions (added):
++ sub_1b61f3088
++ sub_1b61f371c
++ [5 functions added in block]
++ [3 functions added in block]
++ sub_1b61f4778
++ sub_1b61f4ec0
++ sub_1b6203058
++ sub_1b62030e8
++ sub_1b6204bb0
++ sub_1b6205c30
++ sub_1b6207b48
++ sub_1b6242074
++ sub_1b62424a8
++ sub_1b6256258
++ sub_1b6256cb4
+
+Functions (removed):
+- sub_1b6db5e88
+- sub_1b6dbacf0
+- sub_1b6dbad10
+- sub_1b6dc3dac
+- sub_1b6dca93c
+- sub_1b6dca94c
+- sub_1b6dcae20
+- sub_1b6dcb4e8
+- sub_1b6dcb74c
+- sub_1b6dcbe3c
+- sub_1b6dcc36c
+- sub_1b6dcc858
+- sub_1b6dcd480
+- sub_1b6dcd820
+- sub_1b6dce580
+- sub_1b6dcf1d4
+- sub_1b6dcf2c8
 CStrings:
 + "Context ID: %-*s Content ID: %-*s Action finished with status %s."
 + "Context ID: %-*s Content ID: %-*s Calendar event was not successfully saved."

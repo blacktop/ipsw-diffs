@@ -87,6 +87,23 @@ Symbols:
 + ___73-[PKDAManager setAccountAttestation:forUpgradeCredential:withCompletion:]_block_invoke_2
 + _objc_msgSend$setAccountAttestation:forUpgradeCredential:withCompletion:
 - -[PKPaymentWebServiceConfiguration credentialTypesRequiringDPANNotifications]
+Functions (modified):
+~ -[PKWebServiceMerchantTokensFeature initWithDictionary:region:] : 68 -> 172
+~ -[PKPaymentWebService paymentProvisioningNonceOfType:completion:] : 412 -> 556
+
+Functions (added):
++ sub_190f9493c
++ sub_190fb9204
++ -[PKWebServiceMerchantTokensFeature credentialTypesRequiringDPANNotifications]
++ -[PKWebServiceMerchantTokensFeature .cxx_destruct]
++ [3 functions added in block]
++ -[PKAppletSubcredentialManagementSession setAccountAttestation:forUpgradeCredential:withCompletion:]
++ ___100-[PKAppletSubcredentialManagementSession setAccountAttestation:forUpgradeCredential:withCompletion:]_block_invoke
+
+Functions (removed):
+- sub_19125d5a4
+- sub_1912aa0cc
+- -[PKPaymentWebServiceConfiguration credentialTypesRequiringDPANNotifications]
 CStrings:
 + "Failed to get provisioning nonce, deviceID unavailable for context: %@"
 + "T@\"NSSet\",R,C,N,V_credentialTypesRequiringDPANNotifications"

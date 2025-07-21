@@ -30,22 +30,22 @@
    Functions: 17297
    Symbols:   43372
    CStrings:  13423
-Functions:
-~ sub_19fa886b4 -> sub_19ef716b4 : 2480 -> 2340
-~ sub_19fa8a67c -> sub_19ef735f0 : 1172 -> 1072
-~ sub_19fa8abb0 -> sub_19ef73ac0 : 1152 -> 1048
-~ sub_19fa8b030 -> sub_19ef73ed8 : 1148 -> 1044
-~ sub_19fa8b9c4 -> sub_19ef74804 : 368 -> 364
-~ sub_19fa8bb34 -> sub_19ef74970 : 172 -> 164
-~ sub_19fa8bbe0 -> sub_19ef74a14 : 152 -> 148
-~ sub_19fa8bc78 -> sub_19ef74aa8 : 288 -> 232
-~ sub_19fa8bd98 -> sub_19ef74b90 : 212 -> 252
-~ sub_19fa8caf0 -> sub_19ef75910 : 332 -> 316
-~ sub_19fa8cc3c -> sub_19ef75a4c : 544 -> 440
-~ sub_19fa8ce5c -> sub_19ef75c04 : 1036 -> 964
-~ sub_19fa9110c -> sub_19ef79e6c : 452 -> 424
-~ sub_19fa912d0 -> sub_19ef7a014 : 472 -> 444
-~ sub_19fa914e0 -> sub_19ef7a208 : 496 -> 468
-~ sub_19fad7814 -> sub_19efc0520 : 5840 -> 5692
+Functions (added):
++ sub_19ef735f0
++ sub_19ef73ac0
++ sub_19ef74970
++ sub_19ef74aa8
++ sub_19ef74b90
++ [3 functions added in block]
++ sub_19ef79e6c
+
+Functions (removed):
+- sub_19fc73f98
+- sub_19fc743e8
+- sub_19fce5024
+- [3 functions removed in block]
+- sub_19fd1dc1c
+- sub_19fd1ded0
+- sub_19fd23428
 
 ```

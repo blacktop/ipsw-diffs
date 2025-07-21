@@ -20,7 +20,10 @@
    Functions: 78205
    Symbols:   28483
    CStrings:  15874
-Functions:
-~ sub_1e008d11c -> sub_1df62911c : 2820 -> 2900
+Functions (added):
++ sub_1df62911c
+
+Functions (removed):
+- sub_1e09c57fc
 
 ```

@@ -20,7 +20,7 @@
    Functions: 22435
    Symbols:   64185
    CStrings:  36767
-Functions:
+Functions (modified):
 ~ ___78-[FCFeedItemInventory operationThrottler:performAsyncOperationWithCompletion:]_block_invoke_2 : 616 -> 592
 
 ```

@@ -38,8 +38,11 @@
 Symbols:
 - ___CFConstantStringClassReference
 - _fig_note_initialize_category_with_default_work_cf
-Functions:
-~ sub_1000009a0 -> sub_1000008b8 : 408 -> 352
+Functions (added):
++ sub_1000008b8
+
+Functions (removed):
+- sub_1000009a0
 CStrings:
 - "com.apple.coremedia"
 - "mediaplaybackd_trace"

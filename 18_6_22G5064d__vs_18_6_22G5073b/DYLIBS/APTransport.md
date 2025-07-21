@@ -20,7 +20,7 @@
    Functions: 4272
    Symbols:   11091
    CStrings:  5280
-Functions:
+Functions (modified):
 ~ _session_createConnection : 1136 -> 1148
 CStrings:
 + "870.12.2"

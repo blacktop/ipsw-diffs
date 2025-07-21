@@ -186,7 +186,7 @@ Symbols:
 - ___block_literal_global.3722
 - ___block_literal_global.3724
 - ___block_literal_global.462
-Functions:
+Functions (modified):
 ~ -[CKChatController viewDidAppearDeferredSetup] : 1964 -> 2052
 ~ -[CKMediaObjectAssetDataSourceManager _mq_handlePreviewDidChangeNotification:] : 516 -> 552
 CStrings:

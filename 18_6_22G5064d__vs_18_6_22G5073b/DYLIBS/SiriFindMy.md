@@ -22,7 +22,7 @@
    Symbols:   7957
    CStrings:  2098
  
-Functions:
+Functions (added):
 + sub_1d40dac38
 CStrings:
 + "isRemoteTrigger? %{BOOL}d isPersonalRequest: %{BOOL}d, inputOrigin: %s"

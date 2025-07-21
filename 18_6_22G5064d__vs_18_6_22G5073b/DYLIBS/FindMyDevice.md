@@ -333,6 +333,23 @@ Symbols:
 - ___block_literal_global.9
 - _objc_msgSend$entryWithData:key:deviceClasses:
 - _objc_msgSend$requestTheftAndLossCFUWithReply:
+Functions (modified):
+~ -[FMDSharedConfiguration defaultEntryForConfiguration:deviceClasses:] : 532 -> 840
+~ -[FMDSharedConfiguration forceDownloadWithReply:] : 184 -> 104
+
+Functions (added):
++ ___42-[FMDFMIPManager fmipStateWithCompletion:]_block_invoke.47
++ -[FMDSharedConfiguration _createFollowUpStringsDictionaryWithData:key:deviceClasses:]
++ -[FMDSharedConfiguration sharedConfigurationDictionaryFromData:key:deviceClasses:]
++ -[FMDSharedConfiguration postTheftAndLossCFUWithEntry:reply:]
++ [4 functions added in block]
++ [19 functions added in block]
++ [4 functions added in block]
+
+Functions (removed):
+- ___42-[FMDFMIPManager fmipStateWithCompletion:]_block_invoke.41
+- ___58-[FMDSharedConfiguration requestTheftAndLossCFUWithReply:]_block_invoke_2
+- _OUTLINED_FUNCTION_1
 CStrings:
 + "@\"NSNumber\""
 + "Entry found at %lu, but doesn't contain a remainder in mins"

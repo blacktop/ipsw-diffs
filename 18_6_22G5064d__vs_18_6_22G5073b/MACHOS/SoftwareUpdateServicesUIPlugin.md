@@ -60,6 +60,12 @@
  
 Symbols:
 + _OBJC_CLASS_$_MIBUClient
+Functions (added):
++ sub_27be8
++ sub_28340
+
+Functions (removed):
+- sub_33748
 CStrings:
 + "MIBUClient error: %@"
 + "Pallet mode timer elapsed.  Rebooting."

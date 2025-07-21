@@ -43,7 +43,10 @@
    Functions: 5196
    Symbols:   287
    CStrings:  678
-Functions:
-~ sub_242197760 -> sub_2417bc760 : 4332 -> 4924
+Functions (added):
++ sub_2417bc760
+
+Functions (removed):
+- sub_2421ab700
 
 ```

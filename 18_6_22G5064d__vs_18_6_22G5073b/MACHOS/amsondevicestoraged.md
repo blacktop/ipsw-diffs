@@ -148,6 +148,381 @@ Symbols:
 - _swift_unknownObjectWeakDestroy
 - _swift_unknownObjectWeakInit
 - _swift_unknownObjectWeakLoadStrong
+Functions (added):
++ sub_100008be4
++ sub_100009a34
++ sub_10000bc64
++ sub_10000c6d8
++ sub_10000c9e0
++ sub_10000dc00
++ sub_10000dcd4
++ sub_10000f5c4
++ sub_10000f72c
++ sub_100015890
++ sub_100015a38
++ sub_1000168bc
++ sub_100016d30
++ sub_100018cc4
++ sub_10001a538
++ sub_10001b068
++ sub_10001b4a4
++ sub_10001b53c
++ [6 functions added in block]
++ sub_10001bc30
++ sub_10001bf3c
++ sub_10001c01c
++ sub_10001c144
++ sub_10001c1d0
++ sub_10001c328
++ sub_10001c350
++ sub_10001c720
++ sub_10001c988
++ sub_10001cb90
++ sub_10001cbd0
++ sub_10001cc9c
++ sub_10001ce84
++ sub_10001cec0
++ sub_1000248fc
++ sub_1000249cc
++ sub_100024ac0
++ sub_100024cb4
++ sub_100024cb8
++ sub_100024d38
++ sub_100024e90
++ sub_100024fb0
++ sub_1000250d0
++ sub_10002536c
++ sub_100025370
++ sub_100028344
++ sub_100028874
++ sub_100028ee4
++ sub_100029528
++ sub_10002978c
++ sub_1000298ec
++ sub_1000299d4
++ sub_100029a2c
++ sub_10002a38c
++ sub_10002c2e8
++ sub_10002c42c
++ sub_10002c4ac
++ sub_10002c59c
++ sub_10002cecc
++ sub_10002d18c
++ sub_10002d83c
++ sub_10002dbec
++ sub_10002e098
++ sub_10002e384
++ sub_10002e4b4
++ sub_10002e80c
++ [3 functions added in block]
++ sub_10002ec4c
++ sub_10002edd8
++ [3 functions added in block]
++ sub_100030354
++ sub_100030568
++ sub_100030c70
++ sub_100030e5c
++ sub_100031018
++ sub_10003116c
++ sub_1000312b0
++ sub_1000312e0
++ sub_1000313dc
++ sub_10003190c
++ sub_100031b1c
++ sub_100031bf4
++ sub_100031dd8
++ sub_1000325b4
++ sub_100032990
++ sub_100032cec
++ sub_100032e18
++ sub_100033060
++ [3 functions added in block]
++ [3 functions added in block]
++ sub_100033cdc
++ sub_100033da0
++ sub_100034270
++ [4 functions added in block]
++ [4 functions added in block]
++ sub_100035cbc
++ [3 functions added in block]
++ sub_1000364e0
++ sub_1000365e0
++ sub_10003754c
++ [3 functions added in block]
++ sub_100037b5c
++ sub_100038140
++ sub_1000382e0
++ sub_10003b524
++ sub_10003b6f0
++ [4 functions added in block]
++ sub_10003be94
++ [3 functions added in block]
++ sub_10003dc90
++ sub_10003dddc
++ sub_10003ded8
++ sub_10003e14c
++ sub_10003f7f8
++ sub_10003f94c
++ sub_10003fa48
++ [10 functions added in block]
++ [6 functions added in block]
++ sub_100041c48
++ [4 functions added in block]
++ sub_100042580
++ sub_100043b4c
++ [6 functions added in block]
++ [3 functions added in block]
++ sub_100045d70
++ sub_100047128
++ sub_10004714c
++ sub_10004720c
++ sub_1000489a4
++ sub_100048a28
++ [7 functions added in block]
++ sub_10004b4a8
++ sub_10004b904
++ sub_10004bda4
++ sub_10004c158
++ sub_10004c700
++ sub_10004c8b8
++ sub_10004ccc0
++ sub_10004ce78
++ sub_10004d29c
++ sub_10004d844
++ sub_10004d9fc
++ sub_10004ddec
++ sub_10004dfa4
++ sub_10004e394
++ sub_10004e4e8
++ sub_10004ed94
++ sub_10004eec0
++ sub_10004f468
++ sub_10004f914
++ sub_10004fc68
++ [12 functions added in block]
++ sub_10005443c
++ sub_100054cd0
++ sub_100054f9c
++ sub_100055684
++ sub_100055a04
++ sub_100055e88
++ sub_100055f98
++ sub_1000561bc
++ sub_10005640c
++ sub_1000570c8
++ sub_100057ab8
++ [5 functions added in block]
++ sub_10005845c
++ sub_100058790
++ sub_100058b98
++ sub_100058fa8
++ sub_1000599c8
++ sub_10005a104
++ sub_10005a8f8
++ sub_10005ade8
++ sub_10005b624
++ sub_10005c9c4
++ sub_10005d1d4
++ sub_10005d458
++ sub_10005d8f8
++ sub_10005dc0c
++ sub_10005dcdc
++ sub_10005e1c4
++ sub_10005e69c
++ sub_100060108
++ sub_1000606c8
++ sub_100060c54
++ sub_100060f6c
++ sub_100061aa8
++ sub_100062fc0
++ sub_100063838
++ sub_100063ecc
++ sub_100064060
++ sub_100064ba0
++ sub_10006522c
++ sub_100065410
++ sub_1000677f0
++ sub_100067a40
++ sub_100067c28
++ sub_100067ffc
++ sub_100068174
++ sub_10006866c
++ sub_100068760
++ [3 functions added in block]
++ sub_10006a024
++ sub_10006a11c
++ [4 functions added in block]
++ sub_10006b6b8
++ sub_10006c394
++ sub_10006c494
++ [3 functions added in block]
++ sub_10006dde8
++ [3 functions added in block]
++ sub_10006f508
++ sub_100070ab4
++ sub_100070bb4
++ sub_100070e24
++ sub_100070f18
++ [3 functions added in block]
++ [3 functions added in block]
++ [6 functions added in block]
++ [4 functions added in block]
++ sub_100073e0c
++ [3 functions added in block]
++ sub_100074790
++ sub_100074ae4
++ sub_100074b08
++ sub_100074ca8
++ sub_100076990
++ sub_100076be0
++ sub_100076ce8
++ sub_100076dbc
++ sub_100077794
++ sub_100077be4
++ sub_100077f4c
++ sub_100078020
++ sub_1000782b0
++ sub_100078700
++ sub_100078a38
++ sub_100078a5c
++ sub_100078fac
++ sub_1000792e0
++ sub_100079f4c
++ sub_10007a410
++ sub_10007c4b0
++ sub_10007cec0
++ sub_10007eb8c
++ sub_10007fbe0
++ sub_1000807e4
++ sub_1000816ec
++ sub_1000823e4
++ sub_1000866b8
++ sub_100086714
++ sub_100087c48
++ sub_10008810c
++ sub_1000882a4
++ sub_10008c008
++ sub_10008dc28
++ sub_10008e1e0
++ sub_10008ee50
++ sub_10008ef10
++ sub_10008efc8
++ sub_10008fe70
++ sub_100090f38
++ sub_1000915f8
++ sub_10009188c
++ sub_100091ff8
++ sub_1000922d4
++ sub_1000923d4
++ [3 functions added in block]
++ sub_1000924c8
++ [3 functions added in block]
++ sub_100095f58
++ sub_100096504
++ sub_100096564
++ sub_100096fbc
++ sub_100097064
++ sub_10009817c
++ sub_10009c594
++ sub_1000a08b4
++ sub_1000a149c
++ sub_1000a16a0
++ sub_1000a16b8
++ sub_1000a174c
++ sub_1000a2aa8
++ sub_1000a4be8
++ [14 functions added in block]
++ sub_1000afb2c
++ sub_1000b1260
++ [14 functions added in block]
++ sub_1000b4738
++ sub_1000b4810
++ sub_1000b6d84
++ sub_1000b6f7c
++ sub_1000b6fa0
++ sub_1000bae00
++ sub_1000bb26c
++ sub_1000bb654
++ sub_1000c04d0
++ sub_1000c0658
++ sub_1000c2344
++ [5 functions added in block]
++ sub_1000c2f74
++ sub_1000c3c20
++ sub_1000c522c
++ sub_1000c6f48
++ sub_1000c79fc
++ sub_1000c8698
++ sub_1000ca190
++ sub_1000caaa0
++ sub_1000cb85c
++ sub_1000cc3c8
++ sub_1000cc4c4
++ sub_1000cfbc0
++ sub_1000d6810
++ sub_1000d68e0
++ sub_1000d6b38
++ sub_1000d70b0
++ sub_1000d79e0
++ sub_1000d86f0
++ sub_1000d87b0
++ sub_1000db478
++ sub_1000dbd68
++ sub_1000e0d04
++ sub_1000e150c
++ sub_1000e3b84
++ sub_1000e40e0
++ sub_1000e62ec
++ sub_1000e7168
++ sub_1000e8108
++ sub_1000e8830
++ sub_1000f1374
++ [3 functions added in block]
++ sub_1000f96f8
++ sub_1000f978c
++ sub_1000f9858
++ sub_1000f9d00
++ sub_1000fade4
++ sub_1000fb088
++ sub_1000fbb0c
++ sub_1000fec20
++ sub_10010017c
++ sub_1001001d8
++ sub_1001002f8
++ sub_100103148
++ sub_1001035a4
++ sub_100103ac4
++ sub_100104770
++ sub_100104c90
++ sub_100105c6c
++ sub_1001060c8
++ sub_1001065e8
++ sub_1001069c4
++ sub_100106a84
++ sub_100107494
++ sub_100108ab0
++ sub_100108fd0
++ sub_100109370
++ sub_100109430
++ sub_100109c34
++ sub_10010a2fc
++ sub_10010a81c
++ sub_10010ab9c
++ sub_10010ac5c
++ sub_10010b474
++ sub_10010b978
++ sub_10010bbe4
++ sub_10010bc1c
++ sub_10010bcb0
++ sub_10010c820
++ sub_10010cdf4
++ sub_10010e49c
++ sub_1001164dc
+
+Functions (removed):
+- sub_1000e22dc
+- sub_1000e2918
+- sub_1000e520c
 CStrings:
 + "\n        AND NOT "
 + "\n    );\n\n    -- Delete LRU row if table is not empty (for LRU policy)\n    DELETE FROM "
