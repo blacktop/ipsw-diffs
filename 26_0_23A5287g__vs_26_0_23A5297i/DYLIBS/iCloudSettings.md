@@ -1,0 +1,199 @@
+## iCloudSettings
+
+> `/System/Library/PrivateFrameworks/iCloudSettings.framework/iCloudSettings`
+
+```diff
+
+-301.23.0.19.0
+-  __TEXT.__text: 0x186cc4
+-  __TEXT.__auth_stubs: 0x38a0
+-  __TEXT.__objc_methlist: 0x44b4
+-  __TEXT.__const: 0xeb34
+-  __TEXT.__oslogstring: 0x9211
+-  __TEXT.__cstring: 0x94fe
++301.23.0.21.0
++  __TEXT.__text: 0x18a034
++  __TEXT.__auth_stubs: 0x38d0
++  __TEXT.__objc_methlist: 0x44c4
++  __TEXT.__const: 0xed04
++  __TEXT.__oslogstring: 0x9301
++  __TEXT.__cstring: 0x961e
+   __TEXT.__gcc_except_tab: 0x560
+   __TEXT.__dlopen_cstrs: 0x22d
+   __TEXT.__ustring: 0x10
+-  __TEXT.__constg_swiftt: 0x45e4
+-  __TEXT.__swift5_typeref: 0x114c4
++  __TEXT.__constg_swiftt: 0x4724
++  __TEXT.__swift5_typeref: 0x11568
+   __TEXT.__swift5_builtin: 0x168
+-  __TEXT.__swift5_reflstr: 0x38da
+-  __TEXT.__swift5_fieldmd: 0x3a58
+-  __TEXT.__swift5_assocty: 0xdd8
+-  __TEXT.__swift5_capture: 0x2214
+-  __TEXT.__swift5_proto: 0x834
+-  __TEXT.__swift5_types: 0x3c0
+-  __TEXT.__swift_as_entry: 0x470
+-  __TEXT.__swift_as_ret: 0x3a4
+-  __TEXT.__swift5_protos: 0x44
++  __TEXT.__swift5_reflstr: 0x392a
++  __TEXT.__swift5_fieldmd: 0x3af4
++  __TEXT.__swift5_assocty: 0xdf0
++  __TEXT.__swift5_capture: 0x2224
++  __TEXT.__swift5_proto: 0x848
++  __TEXT.__swift5_types: 0x3cc
++  __TEXT.__swift_as_entry: 0x46c
++  __TEXT.__swift_as_ret: 0x3a0
++  __TEXT.__swift5_protos: 0x50
+   __TEXT.__swift5_mpenum: 0x1c
+-  __TEXT.__unwind_info: 0x6370
+-  __TEXT.__eh_frame: 0x9bf0
++  __TEXT.__unwind_info: 0x6408
++  __TEXT.__eh_frame: 0x9bb8
+   __TEXT.__objc_classname: 0x8a8
+-  __TEXT.__objc_methname: 0xacc0
+-  __TEXT.__objc_methtype: 0x265a
+-  __TEXT.__objc_stubs: 0x7020
+-  __DATA_CONST.__got: 0x1758
+-  __DATA_CONST.__const: 0x1230
+-  __DATA_CONST.__objc_classlist: 0x460
++  __TEXT.__objc_methname: 0xad2f
++  __TEXT.__objc_methtype: 0x26b8
++  __TEXT.__objc_stubs: 0x7060
++  __DATA_CONST.__got: 0x1778
++  __DATA_CONST.__const: 0x1240
++  __DATA_CONST.__objc_classlist: 0x470
+   __DATA_CONST.__objc_catlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x188
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3028
++  __DATA_CONST.__objc_selrefs: 0x3038
+   __DATA_CONST.__objc_protorefs: 0xa0
+   __DATA_CONST.__objc_superrefs: 0x108
+   __DATA_CONST.__objc_arraydata: 0x20
+-  __AUTH_CONST.__auth_got: 0x1c60
+-  __AUTH_CONST.__const: 0x9808
++  __AUTH_CONST.__auth_got: 0x1c78
++  __AUTH_CONST.__const: 0x9970
+   __AUTH_CONST.__cfstring: 0x2540
+-  __AUTH_CONST.__objc_const: 0x16520
++  __AUTH_CONST.__objc_const: 0x16670
+   __AUTH_CONST.__objc_intobj: 0x48
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH.__objc_data: 0x3ee8
+-  __AUTH.__data: 0x3a90
++  __AUTH.__data: 0x3bf8
+   __DATA.__objc_ivar: 0x364
+-  __DATA.__data: 0x50a8
+-  __DATA.__bss: 0x10500
++  __DATA.__data: 0x5108
++  __DATA.__bss: 0x10680
+   __DATA.__common: 0x2a0
+   __DATA_DIRTY.__objc_data: 0xb80
+   __DATA_DIRTY.__data: 0x428
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 44AD85C7-5110-3869-8E8D-8F3239143077
+-  Functions: 8120
+-  Symbols:   7748
+-  CStrings:  4435
++  UUID: F650596A-5616-361C-8A92-7E1FFDCFDD10
++  Functions: 8179
++  Symbols:   7774
++  CStrings:  4451
+ 
+Symbols:
++ _ICQActionParameterURLKey
++ __DATA__TtC14iCloudSettings33iCloudSettingsExperienceViewModel
++ __DATA__TtC14iCloudSettings34iCloudSettingsNavigationPathHelper
++ __IVARS__TtC14iCloudSettings33iCloudSettingsExperienceViewModel
++ __METACLASS_DATA__TtC14iCloudSettings33iCloudSettingsExperienceViewModel
++ __METACLASS_DATA__TtC14iCloudSettings34iCloudSettingsNavigationPathHelper
++ ___38-[ICSBackupViewController startBackup]_block_invoke.603
++ ___38-[ICSBackupViewController startBackup]_block_invoke.605
++ ___41-[ICSBackupViewController cancelRestore:]_block_invoke.600
++ ___42-[ICSBackupViewController updateBusyState]_block_invoke.587
++ ___47-[ICSBackupViewController _fetchiCloudHomeData]_block_invoke.632
++ ___54-[ICSBackupViewController _setBackupEnabled:passcode:]_block_invoke.441
++ ___54-[ICSBackupViewController _setBackupEnabled:passcode:]_block_invoke.442
++ ___58-[ICSBackupViewController startListeningForThermalChanges]_block_invoke.375
++ ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.450
++ ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.450.cold.1
++ ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.452
++ ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.452.cold.1
++ ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.478
++ ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.479
++ ___87-[ICSBackupViewController _checkSupportForManualAndAutoBackupOnCellularWithCompletion:]_block_invoke.374
++ ___block_literal_global.608
++ _associated conformance 14iCloudSettings25LiftUIFeatureAvailabilityOSHAASQ
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA012_ConditionalD0VyACyAA4ViewP8SettingsE22settingsListAppearanceQryFQOyACyAG04LiftB0E16liftUIDataSourceyQrAJ0kmN0_pFQOyAgJE0L17UIContentRegistryyQrAJ0dP0CFQOyACyACyACyAJ06RemotedF0VAA30_EnvironmentKeyWritingModifierVy06iCloudG0017ManageStorageAppsiF5ModelCSgGGASyAT01iv4HomefZ0CSgGGASyAT0wx3AppfZ0CSgGG_Qo__Qo_ASy12CoreGraphics7CGFloatVGG_Qo_AA016_BackgroundStyleU0VyAA5ColorVGGA15_GAA01_j6ActionU0VGA24_GAaFHPA25_AaFHPA22_AaFHPA21_AaFHPqd__AaFHD2_A15_HO_A20_AA0fU0HPyHCHC_qd__AaFHD2_A15_HOHC_A24_AAA27_HPyHCHC_A24_AAA27_HPyHCHC.20
++ _objc_msgSend$isUpsellAction
++ _objc_msgSend$performAction:parameters:options:
++ _swift_unexpectedError
++ _symbolic $s14iCloudSettings14ICSViewSpacingP
++ _symbolic $s14iCloudSettings16ICSLayoutSubviewP
++ _symbolic $s14iCloudSettings9ICSLayoutP
++ _symbolic _____ 14iCloudSettings01iaB19ExperienceViewModelC
++ _symbolic _____ 14iCloudSettings01iaB20NavigationPathHelperC
++ _symbolic _____ 14iCloudSettings25LiftUIFeatureAvailabilityO
++ _symbolic _____yAAy_____yAAy_____yAAy_____y_____yAAyAAyAAy__________y_____SgGGADy_____SgGGADy_____SgGG_Qo__Qo_ADy_____GG_Qo______y_____GGAVG_____GA0_G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA4ViewP8SettingsE22settingsListAppearanceQryFQO AG04LiftB0E16liftUIDataSourceyQrAJ0kmN0_pFQO AgJE0L17UIContentRegistryyQrAJ0dP0CFQO AJ06RemotedF0V AA30_EnvironmentKeyWritingModifierV 06iCloudG0017ManageStorageAppsiF5ModelC AT01iv4HomefZ0C AT0wx3AppfZ0C 12CoreGraphics7CGFloatV AA016_BackgroundStyleU0V AA5ColorV AA01_j6ActionU0V
++ _symbolic _____ySSSbG s18_DictionaryStorageC
++ _symbolic _____y_____SbG s18_DictionaryStorageC 14iCloudSettings25LiftUIFeatureAvailabilityO
++ _symbolic _____y_____yAAyAAy__________y_____SgGGACy_____SgGGACy_____SgGG_Qo_ 7SwiftUI4ViewP04LiftB0E21liftUIContentRegistryyQrAD07ContentG0CFQO AA08ModifiedH0V AD06RemotehC0V AA30_EnvironmentKeyWritingModifierV 14iCloudSettings021ManageStorageAppsListC5ModelC AN01io4HomecU0C AN0qr3AppcU0C
++ _symbolic _____y_____yAAy_____yAAy_____y_____yAAyAAyAAy__________y_____SgGGADy_____SgGGADy_____SgGG_Qo__Qo_ADy_____GG_Qo______y_____GGAVG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA4ViewP8SettingsE22settingsListAppearanceQryFQO AG04LiftB0E16liftUIDataSourceyQrAJ0kmN0_pFQO AgJE0L17UIContentRegistryyQrAJ0dP0CFQO AJ06RemotedF0V AA30_EnvironmentKeyWritingModifierV 06iCloudG0017ManageStorageAppsiF5ModelC AT01iv4HomefZ0C AT0wx3AppfZ0C 12CoreGraphics7CGFloatV AA016_BackgroundStyleU0V AA5ColorV AA01_j6ActionU0V
++ _symbolic _____y_____yAAy_____y_____yAAyAAyAAy__________y_____SgGGACy_____SgGGACy_____SgGG_Qo__Qo_ACy_____GG_Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewP8SettingsE22settingsListAppearanceQryFQO AE04LiftB0E16liftUIDataSourceyQrAH0jlM0_pFQO AeHE0K17UIContentRegistryyQrAH0dO0CFQO AH06RemotedE0V AA30_EnvironmentKeyWritingModifierV 06iCloudF0017ManageStorageAppshE5ModelC AR01iu4HomeeY0C AR0vw3AppeY0C 12CoreGraphics7CGFloatV AA016_BackgroundStyleT0V AA5ColorV
++ _symbolic _____y_____y_____yAAyAAyAAy__________y_____SgGGACy_____SgGGACy_____SgGG_Qo__Qo_ACy_____GG 7SwiftUI15ModifiedContentV AA4ViewP04LiftB0E16liftUIDataSourceyQrAF0fhI0_pFQO AeFE0G17UIContentRegistryyQrAF0dK0CFQO AF06RemotedE0V AA30_EnvironmentKeyWritingModifierV 14iCloudSettings021ManageStorageAppsListE5ModelC AP01iq4HomeeW0C AP0st3AppeW0C 12CoreGraphics7CGFloatV
++ _symbolic _____y_____y_____yABy_____y_____yAByAByABy__________y_____SgGGADy_____SgGGADy_____SgGG_Qo__Qo_ADy_____GG_Qo______y_____GGAVG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewP8SettingsE22settingsListAppearanceQryFQO AG04LiftB0E16liftUIDataSourceyQrAJ0kmN0_pFQO AgJE0L17UIContentRegistryyQrAJ0dP0CFQO AJ06RemotedF0V AA30_EnvironmentKeyWritingModifierV 06iCloudG0017ManageStorageAppsiF5ModelC AT01iv4HomefZ0C AT0wx3AppfZ0C 12CoreGraphics7CGFloatV AA016_BackgroundStyleU0V AA5ColorV
++ _symbolic _____y_____y_____yABy_____y_____yAByAByABy__________y_____SgGGADy_____SgGGADy_____SgGG_Qo__Qo_ADy_____GG_Qo______y_____GGAV_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4ViewP8SettingsE22settingsListAppearanceQryFQO AI04LiftB0E16liftUIDataSourceyQrAL0lnO0_pFQO AiLE0M17UIContentRegistryyQrAL0dQ0CFQO AL06RemotedG0V AA30_EnvironmentKeyWritingModifierV 06iCloudH006Managee4AppsjG5ModelC AV01iw4HomegZ0C AV0xe3AppgZ0C 12CoreGraphics7CGFloatV AA016_BackgroundStyleV0V AA5ColorV
++ _symbolic _____y_____y_____y_____yAAyAAyAAy__________y_____SgGGACy_____SgGGACy_____SgGG_Qo__Qo_ACy_____GG_Qo_ 7SwiftUI4ViewP8SettingsE22settingsListAppearanceQryFQO AA15ModifiedContentV AC04LiftB0E16liftUIDataSourceyQrAH0jlM0_pFQO AcHE0K17UIContentRegistryyQrAH0iO0CFQO AH06RemoteiC0V AA30_EnvironmentKeyWritingModifierV 06iCloudD0017ManageStorageAppsfC5ModelC AR01iu4HomecY0C AR0vw3AppcY0C 12CoreGraphics7CGFloatV
+- ___38-[ICSBackupViewController startBackup]_block_invoke.606
+- ___38-[ICSBackupViewController startBackup]_block_invoke.608
+- ___41-[ICSBackupViewController cancelRestore:]_block_invoke.603
+- ___42-[ICSBackupViewController updateBusyState]_block_invoke.590
+- ___47-[ICSBackupViewController _fetchiCloudHomeData]_block_invoke.635
+- ___54-[ICSBackupViewController _setBackupEnabled:passcode:]_block_invoke.444
+- ___54-[ICSBackupViewController _setBackupEnabled:passcode:]_block_invoke.445
+- ___58-[ICSBackupViewController startListeningForThermalChanges]_block_invoke.378
+- ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.453
+- ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.453.cold.1
+- ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.455
+- ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.455.cold.1
+- ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.481
+- ___66-[ICSBackupViewController _persistBackupEnablementState:passcode:]_block_invoke.482
+- ___87-[ICSBackupViewController _checkSupportForManualAndAutoBackupOnCellularWithCompletion:]_block_invoke.377
+- ___block_literal_global.611
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA012_ConditionalD0VyACyAA4ViewP8SettingsE22settingsListAppearanceQryFQOyACyAG04LiftB0E10dataSourceyQrAJ0k6UIDataM0_pFQOyAgJE15contentRegistryyQrAJ0dP0CFQOyACyACyACyAJ06RemotedF0VAA30_EnvironmentKeyWritingModifierVy06iCloudG0017ManageStorageAppsiF5ModelCSgGGASyAT01iv4HomefZ0CSgGGASyAT0wx3AppfZ0CSgGG_Qo__Qo_ASy12CoreGraphics7CGFloatVGG_Qo_AA016_BackgroundStyleU0VyAA5ColorVGGA15_GAA01_j6ActionU0VGA24_GAaFHPA25_AaFHPA22_AaFHPA21_AaFHPqd__AaFHD2_A15_HO_A20_AA0fU0HPyHCHC_qd__AaFHD2_A15_HOHC_A24_AAA27_HPyHCHC_A24_AAA27_HPyHCHC.20
+- _symbolic _____yAAy_____yAAy_____yAAy_____y_____yAAyAAyAAy__________y_____SgGGADy_____SgGGADy_____SgGG_Qo__Qo_ADy_____GG_Qo______y_____GGAVG_____GA0_G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA4ViewP8SettingsE22settingsListAppearanceQryFQO AG04LiftB0E10dataSourceyQrAJ0k6UIDataM0_pFQO AgJE15contentRegistryyQrAJ0dP0CFQO AJ06RemotedF0V AA30_EnvironmentKeyWritingModifierV 06iCloudG0017ManageStorageAppsiF5ModelC AT01iv4HomefZ0C AT0wx3AppfZ0C 12CoreGraphics7CGFloatV AA016_BackgroundStyleU0V AA5ColorV AA01_j6ActionU0V
+- _symbolic _____y_____yAAyAAy__________y_____SgGGACy_____SgGGACy_____SgGG_Qo_ 7SwiftUI4ViewP04LiftB0E15contentRegistryyQrAD07ContentF0CFQO AA08ModifiedG0V AD06RemotegC0V AA30_EnvironmentKeyWritingModifierV 14iCloudSettings021ManageStorageAppsListC5ModelC AN01in4HomecT0C AN0pq3AppcT0C
+- _symbolic _____y_____yAAy_____yAAy_____y_____yAAyAAyAAy__________y_____SgGGADy_____SgGGADy_____SgGG_Qo__Qo_ADy_____GG_Qo______y_____GGAVG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA4ViewP8SettingsE22settingsListAppearanceQryFQO AG04LiftB0E10dataSourceyQrAJ0k6UIDataM0_pFQO AgJE15contentRegistryyQrAJ0dP0CFQO AJ06RemotedF0V AA30_EnvironmentKeyWritingModifierV 06iCloudG0017ManageStorageAppsiF5ModelC AT01iv4HomefZ0C AT0wx3AppfZ0C 12CoreGraphics7CGFloatV AA016_BackgroundStyleU0V AA5ColorV AA01_j6ActionU0V
+- _symbolic _____y_____yAAy_____y_____yAAyAAyAAy__________y_____SgGGACy_____SgGGACy_____SgGG_Qo__Qo_ACy_____GG_Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewP8SettingsE22settingsListAppearanceQryFQO AE04LiftB0E10dataSourceyQrAH0j6UIDataL0_pFQO AeHE15contentRegistryyQrAH0dO0CFQO AH06RemotedE0V AA30_EnvironmentKeyWritingModifierV 06iCloudF0017ManageStorageAppshE5ModelC AR01iu4HomeeY0C AR0vw3AppeY0C 12CoreGraphics7CGFloatV AA016_BackgroundStyleT0V AA5ColorV
+- _symbolic _____y_____y_____yAAyAAyAAy__________y_____SgGGACy_____SgGGACy_____SgGG_Qo__Qo_ACy_____GG 7SwiftUI15ModifiedContentV AA4ViewP04LiftB0E10dataSourceyQrAF0f6UIDataH0_pFQO AeFE15contentRegistryyQrAF0dK0CFQO AF06RemotedE0V AA30_EnvironmentKeyWritingModifierV 14iCloudSettings021ManageStorageAppsListE5ModelC AP01iq4HomeeW0C AP0st3AppeW0C 12CoreGraphics7CGFloatV
+- _symbolic _____y_____y_____yABy_____y_____yAByAByABy__________y_____SgGGADy_____SgGGADy_____SgGG_Qo__Qo_ADy_____GG_Qo______y_____GGAVG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewP8SettingsE22settingsListAppearanceQryFQO AG04LiftB0E10dataSourceyQrAJ0k6UIDataM0_pFQO AgJE15contentRegistryyQrAJ0dP0CFQO AJ06RemotedF0V AA30_EnvironmentKeyWritingModifierV 06iCloudG0017ManageStorageAppsiF5ModelC AT01iv4HomefZ0C AT0wx3AppfZ0C 12CoreGraphics7CGFloatV AA016_BackgroundStyleU0V AA5ColorV
+- _symbolic _____y_____y_____yABy_____y_____yAByAByABy__________y_____SgGGADy_____SgGGADy_____SgGG_Qo__Qo_ADy_____GG_Qo______y_____GGAV_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4ViewP8SettingsE22settingsListAppearanceQryFQO AI04LiftB0E10dataSourceyQrAL0l6UIDataN0_pFQO AiLE15contentRegistryyQrAL0dQ0CFQO AL06RemotedG0V AA30_EnvironmentKeyWritingModifierV 06iCloudH006Managee4AppsjG5ModelC AV01iw4HomegZ0C AV0xe3AppgZ0C 12CoreGraphics7CGFloatV AA016_BackgroundStyleV0V AA5ColorV
+- _symbolic _____y_____y_____y_____yAAyAAyAAy__________y_____SgGGACy_____SgGGACy_____SgGG_Qo__Qo_ACy_____GG_Qo_ 7SwiftUI4ViewP8SettingsE22settingsListAppearanceQryFQO AA15ModifiedContentV AC04LiftB0E10dataSourceyQrAH0j6UIDataL0_pFQO AcHE15contentRegistryyQrAH0iO0CFQO AH06RemoteiC0V AA30_EnvironmentKeyWritingModifierV 06iCloudD0017ManageStorageAppsfC5ModelC AR01iu4HomecY0C AR0vw3AppcY0C 12CoreGraphics7CGFloatV
+CStrings:
++ "Dataclass not supported for settings recipe. %s"
++ "Duplicate values for key: '"
++ "Generating settings recipe for %s"
++ "Successfully launched URL %@: %@"
++ "Swift/Dictionary.swift"
++ "Swift/NativeDictionary.swift"
++ "Unable to get iCloud account when trying to build settings recipe for %s"
++ "_TtC14iCloudSettings33iCloudSettingsExperienceViewModel"
++ "_TtC14iCloudSettings34iCloudSettingsNavigationPathHelper"
++ "clientSupportedFeatures"
++ "com.apple.application-icon.icloud-invites"
++ "com.apple.application-icon.icloud-storage"
++ "dynamicViewController:contentViewControllerWithDictionary:completionHandler:"
++ "homeViewController"
++ "iCloudSettings URL handled."
++ "icon(type:descriptor:)"
++ "performAction:parameters:options:"
++ "staticMicaAnimation"
++ "v40@0:8@\"AMSUIDynamicViewController\"16@\"NSDictionary\"24@?<v@?@\"UIViewController\"@\"NSError\">32"
+- "com.apple.application-icon.icq.icloud-invites"
+- "com.apple.application-icon.icq.icloud-storage"
+- "icon(type:size:)"
+
+```

@@ -1,0 +1,372 @@
+## iCloudMailAssistant
+
+> `/System/Library/PrivateFrameworks/iCloudMailAssistant.framework/iCloudMailAssistant`
+
+```diff
+
+-2025.0.24.0.0
+-  __TEXT.__text: 0xe2144
+-  __TEXT.__auth_stubs: 0x2b40
++2025.0.26.1.0
++  __TEXT.__text: 0xf0298
++  __TEXT.__auth_stubs: 0x2ca0
+   __TEXT.__objc_methlist: 0x21c
+-  __TEXT.__const: 0xd114
+-  __TEXT.__cstring: 0x3973
+-  __TEXT.__constg_swiftt: 0x3ab4
+-  __TEXT.__swift5_typeref: 0x6520
++  __TEXT.__const: 0xd9e4
++  __TEXT.__cstring: 0x3af3
++  __TEXT.__constg_swiftt: 0x3c6c
++  __TEXT.__swift5_typeref: 0x66aa
+   __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__swift5_reflstr: 0x1e37
+-  __TEXT.__swift5_fieldmd: 0x2f60
+-  __TEXT.__swift5_assocty: 0x970
+-  __TEXT.__swift5_capture: 0x1084
+-  __TEXT.__swift5_proto: 0xa84
+-  __TEXT.__swift5_types: 0x378
++  __TEXT.__swift5_reflstr: 0x1f87
++  __TEXT.__swift5_fieldmd: 0x31e4
++  __TEXT.__swift5_assocty: 0x9a0
++  __TEXT.__swift5_capture: 0x142c
++  __TEXT.__swift5_proto: 0xb24
++  __TEXT.__swift5_types: 0x3a4
+   __TEXT.__swift_as_entry: 0x25c
+-  __TEXT.__swift_as_ret: 0x280
+-  __TEXT.__oslogstring: 0x2a7f
++  __TEXT.__swift_as_ret: 0x27c
++  __TEXT.__oslogstring: 0x2b5f
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_protos: 0x1c
+-  __TEXT.__unwind_info: 0x38f0
+-  __TEXT.__eh_frame: 0x6f0c
++  __TEXT.__unwind_info: 0x3a50
++  __TEXT.__eh_frame: 0x7174
+   __TEXT.__objc_classname: 0x3b
+-  __TEXT.__objc_methname: 0xb1a
++  __TEXT.__objc_methname: 0xba2
+   __TEXT.__objc_methtype: 0x100
+-  __DATA_CONST.__got: 0x900
++  __DATA_CONST.__got: 0x920
+   __DATA_CONST.__const: 0x140
+   __DATA_CONST.__objc_classlist: 0xe0
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x440
++  __DATA_CONST.__objc_selrefs: 0x460
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __AUTH_CONST.__auth_got: 0x15a0
+-  __AUTH_CONST.__const: 0x9228
+-  __AUTH_CONST.__objc_const: 0x2898
+-  __AUTH.__objc_data: 0xc28
+-  __AUTH.__data: 0x3fa0
+-  __DATA.__data: 0x2f70
++  __AUTH_CONST.__auth_got: 0x1650
++  __AUTH_CONST.__const: 0x9b78
++  __AUTH_CONST.__objc_const: 0x28d0
++  __AUTH.__objc_data: 0xc78
++  __AUTH.__data: 0x4380
++  __DATA.__data: 0x3170
+   __DATA.__objc_stublist: 0x90
+-  __DATA.__bss: 0x13090
+-  __DATA.__common: 0x188
++  __DATA.__bss: 0x14490
++  __DATA.__common: 0x1a0
+   __DATA_DIRTY.__objc_data: 0x230
+-  __DATA_DIRTY.__data: 0x1390
++  __DATA_DIRTY.__data: 0x1430
+   __DATA_DIRTY.__bss: 0x1b80
+   __DATA_DIRTY.__common: 0x28
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6770CED5-68D2-3935-8579-F300613CC3DC
+-  Functions: 4720
+-  Symbols:   2293
+-  CStrings:  879
++  UUID: E694EFD9-AE1E-32A9-8321-C3CD72D7C376
++  Functions: 4954
++  Symbols:   2404
++  CStrings:  899
+ 
+Symbols:
++ _OBJC_CLASS_$_UIImageSymbolConfiguration
++ __IVARS__TtC19iCloudMailAssistant20MARemoteViewDelegate
++ ___unnamed_14
++ __os_signpost_emit_with_name_impl
++ _associated conformance 19iCloudMailAssistant16MATipAPIResponseV23DashboardEntryPointKeys33_BD48A68575C82F0AA720FF9CF39B075ALLOSHAASQ
++ _associated conformance 19iCloudMailAssistant16MATipAPIResponseV23DashboardEntryPointKeys33_BD48A68575C82F0AA720FF9CF39B075ALLOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 19iCloudMailAssistant16MATipAPIResponseV23DashboardEntryPointKeys33_BD48A68575C82F0AA720FF9CF39B075ALLOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 19iCloudMailAssistant20MAConsentRequestBodyV10CodingKeys33_EB31EDB905B1E841914AF609850C8930LLOSHAASQ
++ _associated conformance 19iCloudMailAssistant20MAConsentRequestBodyV10CodingKeys33_EB31EDB905B1E841914AF609850C8930LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 19iCloudMailAssistant20MAConsentRequestBodyV10CodingKeys33_EB31EDB905B1E841914AF609850C8930LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19iCloudMailAssistant20UnsubscribeAnalyticsV10CodingKeys33_E45FBB8FBA95E270CDFDFDA99E5AFBA8LLOSHAASQ
++ _associated conformance 19iCloudMailAssistant20UnsubscribeAnalyticsV10CodingKeys33_E45FBB8FBA95E270CDFDFDA99E5AFBA8LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19iCloudMailAssistant20UnsubscribeAnalyticsV10CodingKeys33_E45FBB8FBA95E270CDFDFDA99E5AFBA8LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19iCloudMailAssistant20UnsubscribeAnalyticsVSHAASQ
++ _associated conformance 19iCloudMailAssistant26UnsubscribeLinkRequestBodyV10CodingKeys33_CD0E55868F984577F2953C324A62AC7FLLOSHAASQ
++ _associated conformance 19iCloudMailAssistant26UnsubscribeLinkRequestBodyV10CodingKeys33_CD0E55868F984577F2953C324A62AC7FLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19iCloudMailAssistant26UnsubscribeLinkRequestBodyV10CodingKeys33_CD0E55868F984577F2953C324A62AC7FLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19iCloudMailAssistant32MACoreAnalyticsConsentEntryPointOSHAASQ
++ _associated conformance 19iCloudMailAssistant38MAUIWisperRemoveUnsubscribeRequestBodyV10CodingKeys33_FC139D769329E87FA86F0C2E5B2BDFEELLOSHAASQ
++ _associated conformance 19iCloudMailAssistant38MAUIWisperRemoveUnsubscribeRequestBodyV10CodingKeys33_FC139D769329E87FA86F0C2E5B2BDFEELLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19iCloudMailAssistant38MAUIWisperRemoveUnsubscribeRequestBodyV10CodingKeys33_FC139D769329E87FA86F0C2E5B2BDFEELLOs0I3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.120
++ _block_copy_helper.127
++ _block_copy_helper.136
++ _block_copy_helper.168
++ _block_copy_helper.175
++ _block_copy_helper.184
++ _block_copy_helper.216
++ _block_copy_helper.223
++ _block_copy_helper.23
++ _block_copy_helper.232
++ _block_copy_helper.256
++ _block_copy_helper.264
++ _block_copy_helper.271
++ _block_copy_helper.280
++ _block_copy_helper.288
++ _block_copy_helper.295
++ _block_copy_helper.30
++ _block_copy_helper.304
++ _block_copy_helper.312
++ _block_copy_helper.319
++ _block_copy_helper.328
++ _block_copy_helper.336
++ _block_copy_helper.343
++ _block_copy_helper.40
++ _block_copy_helper.61
++ _block_copy_helper.72
++ _block_copy_helper.79
++ _block_copy_helper.88
++ _block_copy_helper.90
++ _block_descriptor.122
++ _block_descriptor.129
++ _block_descriptor.138
++ _block_descriptor.170
++ _block_descriptor.177
++ _block_descriptor.186
++ _block_descriptor.218
++ _block_descriptor.225
++ _block_descriptor.234
++ _block_descriptor.25
++ _block_descriptor.258
++ _block_descriptor.266
++ _block_descriptor.273
++ _block_descriptor.282
++ _block_descriptor.290
++ _block_descriptor.297
++ _block_descriptor.306
++ _block_descriptor.314
++ _block_descriptor.32
++ _block_descriptor.321
++ _block_descriptor.330
++ _block_descriptor.338
++ _block_descriptor.345
++ _block_descriptor.42
++ _block_descriptor.63
++ _block_descriptor.74
++ _block_descriptor.81
++ _block_descriptor.90
++ _block_descriptor.92
++ _block_destroy_helper.121
++ _block_destroy_helper.128
++ _block_destroy_helper.137
++ _block_destroy_helper.169
++ _block_destroy_helper.176
++ _block_destroy_helper.185
++ _block_destroy_helper.217
++ _block_destroy_helper.224
++ _block_destroy_helper.233
++ _block_destroy_helper.24
++ _block_destroy_helper.257
++ _block_destroy_helper.265
++ _block_destroy_helper.272
++ _block_destroy_helper.281
++ _block_destroy_helper.289
++ _block_destroy_helper.296
++ _block_destroy_helper.305
++ _block_destroy_helper.31
++ _block_destroy_helper.313
++ _block_destroy_helper.320
++ _block_destroy_helper.329
++ _block_destroy_helper.337
++ _block_destroy_helper.344
++ _block_destroy_helper.41
++ _block_destroy_helper.62
++ _block_destroy_helper.73
++ _block_destroy_helper.80
++ _block_destroy_helper.89
++ _block_destroy_helper.91
++ _exp2
++ _get_enum_tag_for_layout_string 19iCloudMailAssistant20UnsubscribeAnalyticsVSg
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA9TupleViewVyAA7SectionVyAA05EmptyG0VAA6ButtonVyAA6HStackVyAGyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_AA4TextVtGGGAKG_AIyAzGyACyAMyAOyAGyAZ_AA6SpacerVAZtGGGAA016_ForegroundStyleP0VyAA017HierarchicalShapeU0VGGSg_AA012_ConditionalD0VyA16_yAGyAOyAZGSg_AA7ForEachVySay19iCloudMailAssistant24AutomationRecommendationVGSSA13_GtGACyAMyAZGAWGGAOyAGyAZ_A4_AA08ProgressG0VyA2KGtGGGtGAZGAIyAZA16_yA16_yAGyA18__A20_ySayA21_11UnifiedRuleVGSSACyAMyA16_yA16_yA6_A6_GA17_GGA12_GGtGA28_GA34_GAZGAIyAZA16_yA16_yAGyA18__A20_ySayA21_5MATipVGSSACyACyAMyA17_GA12_GAA14_OpacityEffectVGGAA6ToggleVyAZGA61_tGA28_GA34_GAZGAIyAzGyA6__AA0G0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyA61__SbQo_tGAKGAIyAzGyA71__A6_ACyA27_AA01_mn9TransformP0VySbGGtGAKGA67_AAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAAA66_Rd__lFQOyAIyAzGyA16_yA16_yAGyA6__ACyA7_A76_GtGA28_GA34_G_A61_tGAKG_ACyA21_08MARemoteG0VAA017_AppearanceActionP0VGQo_A67_AAE5alert4itemA83_QrA85_yqd__SgG_AA5AlertVqd__XEts12IdentifiableRd__lFQOyA67_AAEA100_A101_A83_QrA103__A105_qd__XEtsA106_Rd__lFQOyA67_AAEA80_A101_A82_A83_QrA103__A87_qd_0_qd__ctsA106_Rd__AAA66_Rd_0_r0_lFQOyA67_AAEA80_A101_A82_A83_QrA103__A87_qd_0_qd__ctsA106_Rd__AAA66_Rd_0_r0_lFQOyA67_AAEA80_A81_A82_A83_QrA86__A87_qd__yctAAA66_Rd__lFQOyA67_AAEA80_A101_A82_A83_QrA103__A87_qd_0_qd__ctsA106_Rd__AAA66_Rd_0_r0_lFQOyAIyAzGyA77__A77_tGAZG_A23_ACyA21_07MADebugG0VyA23_GA97_GQo__ACyA110_ySayA21_25UnsubscribeRecommendationVGSgGA97_GQo__A39_ACyA110_yA39_GA97_GQo__A51_ACyA21_016MAInlineTipDebugG0VA97_GQo__A21_14ErrorContainerVQo__A21_15ResultContainerVQo_tGGA97_GAAA66_HPA135_AAA66_HPA134_AAA66_HPyHC_HC_A97_AA0gP0HPyHCHC.7
++ _get_witness_table 7SwiftUI19_ConditionalContentVy19iCloudMailAssistant12MARemoteViewVAA05EmptyI0VGAA0I0HPAfaJHPyHC_AhaJHPyHCHC.7
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA5ImageVSgACyAA08ModifiedD0VyAeA24_ForegroundStyleModifierVyAA14LinearGradientVGGAA9EmptyViewVGGAA0M0HPAfaSHpAeaSHPyHC_HC_AqaSHPAnaSHPAeaSHPyHC_AmA0mI0HPyHCHC_ApaSHPyHCHCHC.7
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBP04LiftB0E14liftUIDelegateyQrAD0dF0_pFQOyAA15ModifiedContentVyAcDE0E12UIDataSourceyQrAD0diJ0_pFQOyAHyAcDE0E17UIContentRegistryyQrAD0hL0CFQOyAD06RemotehC0V_Qo_AA30_EnvironmentKeyWritingModifierVy19iCloudMailAssistant08MARemoteC5ModelCGG_Qo_AA017_AppearanceActionQ0VG_Qo_HO.28
++ _objectdestroy.13Tm
++ _objectdestroy.164Tm
++ _objectdestroy.21Tm
++ _objectdestroy.28Tm
++ _objectdestroy.58Tm
++ _objectdestroy.5Tm
++ _objectdestroy.79Tm
++ _swift_stdlib_random
++ _symbolic Say_____G 19iCloudMailAssistant20UnsubscribeAnalyticsV
++ _symbolic Say_____GSg 19iCloudMailAssistant20UnsubscribeAnalyticsV
++ _symbolic _____ 19iCloudMailAssistant14TracingContextV
++ _symbolic _____ 19iCloudMailAssistant16MATipAPIResponseV23DashboardEntryPointKeys33_BD48A68575C82F0AA720FF9CF39B075ALLO
++ _symbolic _____ 19iCloudMailAssistant20MAConsentRequestBodyV
++ _symbolic _____ 19iCloudMailAssistant20MAConsentRequestBodyV10CodingKeys33_EB31EDB905B1E841914AF609850C8930LLO
++ _symbolic _____ 19iCloudMailAssistant20UnsubscribeAnalyticsV
++ _symbolic _____ 19iCloudMailAssistant20UnsubscribeAnalyticsV10CodingKeys33_E45FBB8FBA95E270CDFDFDA99E5AFBA8LLO
++ _symbolic _____ 19iCloudMailAssistant26UnsubscribeLinkRequestBodyV
++ _symbolic _____ 19iCloudMailAssistant26UnsubscribeLinkRequestBodyV10CodingKeys33_CD0E55868F984577F2953C324A62AC7FLLO
++ _symbolic _____ 19iCloudMailAssistant32MACoreAnalyticsConsentEntryPointO
++ _symbolic _____ 19iCloudMailAssistant38MAUIWisperRemoveUnsubscribeRequestBodyV
++ _symbolic _____ 19iCloudMailAssistant38MAUIWisperRemoveUnsubscribeRequestBodyV10CodingKeys33_FC139D769329E87FA86F0C2E5B2BDFEELLO
++ _symbolic _____ 2os12OSSignpostIDV
++ _symbolic _____ s12StaticStringV
++ _symbolic _____Sg 19iCloudMailAssistant20UnsubscribeAnalyticsV
++ _symbolic _____Sg 19iCloudMailAssistant32MACoreAnalyticsConsentEntryPointO
++ _symbolic _____Sg 2os12OSSignpostIDV
++ _symbolic _____Sg 7SwiftUI5ImageV
++ _symbolic _____ySdGSg 6LiftUI13ReferenceableO
++ _symbolic _____y_____G 19iCloudMailAssistant8MSResultO AA16MATipAPIResponseV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19iCloudMailAssistant16MATipAPIResponseV23DashboardEntryPointKeys33_BD48A68575C82F0AA720FF9CF39B075ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19iCloudMailAssistant20UnsubscribeAnalyticsV10CodingKeys33_E45FBB8FBA95E270CDFDFDA99E5AFBA8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19iCloudMailAssistant26UnsubscribeLinkRequestBodyV10CodingKeys33_CD0E55868F984577F2953C324A62AC7FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19iCloudMailAssistant38MAUIWisperRemoveUnsubscribeRequestBodyV10CodingKeys33_FC139D769329E87FA86F0C2E5B2BDFEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19iCloudMailAssistant20MAConsentRequestBodyV10CodingKeys33_EB31EDB905B1E841914AF609850C8930LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19iCloudMailAssistant20UnsubscribeAnalyticsV10CodingKeys33_E45FBB8FBA95E270CDFDFDA99E5AFBA8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19iCloudMailAssistant26UnsubscribeLinkRequestBodyV10CodingKeys33_CD0E55868F984577F2953C324A62AC7FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19iCloudMailAssistant38MAUIWisperRemoveUnsubscribeRequestBodyV10CodingKeys33_FC139D769329E87FA86F0C2E5B2BDFEELLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19iCloudMailAssistant20UnsubscribeAnalyticsV
++ _symbolic _____y_____GSg s22KeyedDecodingContainerV 19iCloudMailAssistant16MATipAPIResponseV23DashboardEntryPointKeys33_BD48A68575C82F0AA720FF9CF39B075ALLO
++ _symbolic _____y_____SgAAy_____yAB_____y_____GG_____GG 7SwiftUI19_ConditionalContentV AA5ImageV AA08ModifiedD0V AA24_ForegroundStyleModifierV AA14LinearGradientV AA9EmptyViewV
++ _symbolic _____y______GSg 19iCloudMailAssistant9MSRequestC11RequestBody33_F32D4D21ADAF8713F0833083FD9ABFC6LLO AA16MALiftUIResponseV
++ _symbolic _____y______GSg 19iCloudMailAssistant9MSRequestC11RequestBody33_F32D4D21ADAF8713F0833083FD9ABFC6LLO AA25GetPreferencesAPIResponseV
++ _symbolic _____y______GSg 19iCloudMailAssistant9MSRequestC11RequestBody33_F32D4D21ADAF8713F0833083FD9ABFC6LLO AA29GetRecommendationsAPIResponseV
++ _type_layout_string 19iCloudMailAssistant20MAConsentRequestBodyV
++ _type_layout_string 19iCloudMailAssistant20UnsubscribeAnalyticsV
++ _type_layout_string 19iCloudMailAssistant26UnsubscribeLinkRequestBodyV
++ _type_layout_string 19iCloudMailAssistant38MAUIWisperRemoveUnsubscribeRequestBodyV
+- __IVARS__TtC19iCloudMailAssistant26UnsubscribeLinksAPIRequest
+- ___swift_memcpy80_8
+- ___unnamed_11
+- _block_copy_helper.119
+- _block_copy_helper.128
+- _block_copy_helper.135
+- _block_copy_helper.167
+- _block_copy_helper.176
+- _block_copy_helper.183
+- _block_copy_helper.215
+- _block_copy_helper.22
+- _block_copy_helper.224
+- _block_copy_helper.231
+- _block_copy_helper.32
+- _block_copy_helper.39
+- _block_copy_helper.62
+- _block_copy_helper.71
+- _block_copy_helper.80
+- _block_copy_helper.87
+- _block_copy_helper.89
+- _block_descriptor.121
+- _block_descriptor.130
+- _block_descriptor.137
+- _block_descriptor.169
+- _block_descriptor.178
+- _block_descriptor.185
+- _block_descriptor.217
+- _block_descriptor.226
+- _block_descriptor.233
+- _block_descriptor.24
+- _block_descriptor.34
+- _block_descriptor.41
+- _block_descriptor.64
+- _block_descriptor.73
+- _block_descriptor.82
+- _block_descriptor.89
+- _block_descriptor.91
+- _block_destroy_helper.120
+- _block_destroy_helper.129
+- _block_destroy_helper.136
+- _block_destroy_helper.168
+- _block_destroy_helper.177
+- _block_destroy_helper.184
+- _block_destroy_helper.216
+- _block_destroy_helper.225
+- _block_destroy_helper.23
+- _block_destroy_helper.232
+- _block_destroy_helper.33
+- _block_destroy_helper.40
+- _block_destroy_helper.63
+- _block_destroy_helper.72
+- _block_destroy_helper.81
+- _block_destroy_helper.88
+- _block_destroy_helper.90
+- _get_enum_tag_for_layout_string 10Foundation4DataVSg
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA9TupleViewVyAA7SectionVyAA05EmptyG0VAA6ButtonVyAA6HStackVyAGyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_AA4TextVtGGGAKG_AIyAzGyACyAMyAOyAGyAZ_AA6SpacerVAZtGGGAA016_ForegroundStyleP0VyAA017HierarchicalShapeU0VGGSg_AA012_ConditionalD0VyA16_yAGyAOyAZGSg_AA7ForEachVySay19iCloudMailAssistant24AutomationRecommendationVGSSA13_GtGACyAMyAZGAWGGAOyAGyAZ_A4_AA08ProgressG0VyA2KGtGGGtGAZGAIyAZA16_yA16_yAGyA18__A20_ySayA21_11UnifiedRuleVGSSACyAMyA16_yA16_yA6_A6_GA17_GGA12_GGtGA28_GA34_GAZGAIyAZA16_yA16_yAGyA18__A20_ySayA21_5MATipVGSSACyACyAMyA17_GA12_GAA14_OpacityEffectVGGAA6ToggleVyAZGA61_tGA28_GA34_GAZGAIyAzGyA6__AA0G0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyA61__SbQo_tGAKGAIyAzGyA71__A6_ACyA27_AA01_mn9TransformP0VySbGGtGAKGA67_AAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAAA66_Rd__lFQOyAIyAzGyA16_yA16_yAGyA6__ACyA7_A76_GtGA28_GA34_G_A61_tGAKG_ACyA21_08MARemoteG0VAA017_AppearanceActionP0VGQo_A67_AAE5alert4itemA83_QrA85_yqd__SgG_AA5AlertVqd__XEts12IdentifiableRd__lFQOyA67_AAEA100_A101_A83_QrA103__A105_qd__XEtsA106_Rd__lFQOyA67_AAEA80_A101_A82_A83_QrA103__A87_qd_0_qd__ctsA106_Rd__AAA66_Rd_0_r0_lFQOyA67_AAEA80_A101_A82_A83_QrA103__A87_qd_0_qd__ctsA106_Rd__AAA66_Rd_0_r0_lFQOyA67_AAEA80_A81_A82_A83_QrA86__A87_qd__yctAAA66_Rd__lFQOyA67_AAEA80_A101_A82_A83_QrA103__A87_qd_0_qd__ctsA106_Rd__AAA66_Rd_0_r0_lFQOyAIyAzGyA77__A77_tGAZG_A23_ACyA21_07MADebugG0VyA23_GA97_GQo__ACyA110_ySayA21_25UnsubscribeRecommendationVGSgGA97_GQo__A39_ACyA110_yA39_GA97_GQo__A51_ACyA21_016MAInlineTipDebugG0VA97_GQo__A21_14ErrorContainerVQo__A21_15ResultContainerVQo_tGGA97_GAAA66_HPA135_AAA66_HPA134_AAA66_HPyHC_HC_A97_AA0gP0HPyHCHC.14
+- _get_witness_table 7SwiftUI19_ConditionalContentVy19iCloudMailAssistant12MARemoteViewVAA05EmptyI0VGAA0I0HPAfaJHPyHC_AhaJHPyHCHC.6
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA5ImageVAA24_ForegroundStyleModifierVyAA14LinearGradientVGGACyAmA9EmptyViewVGGAA0M0HPAmaRHPAgaRHPyHC_AlA0mI0HPyHCHC_ApaRHPAmaRHPAgaRHPyHC_AlaSHPyHCHC_AoaRHPyHCHCHC.7
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBP04LiftB0E14liftUIDelegateyQrAD0dF0_pFQOyAA15ModifiedContentVyAcDE0E12UIDataSourceyQrAD0diJ0_pFQOyAHyAcDE0E17UIContentRegistryyQrAD0hL0CFQOyAD06RemotehC0V_Qo_AA30_EnvironmentKeyWritingModifierVy19iCloudMailAssistant08MARemoteC5ModelCGG_Qo_AA017_AppearanceActionQ0VG_Qo_HO.18
+- _objectdestroy.12Tm
+- _objectdestroy.181Tm
+- _objectdestroy.18Tm
+- _objectdestroy.20Tm
+- _objectdestroy.2Tm
+- _objectdestroy.30Tm
+- _objectdestroy.57Tm
+- _objectdestroy.78Tm
+- _symbolic ScCy___________pG 19iCloudMailAssistant40MAUIWisperGetDashboardEntryPointResponseV s5ErrorP
+- _symbolic _____y_____G 19iCloudMailAssistant13MSAPIResponseC AA40MAUIWisperGetDashboardEntryPointResponseV
+- _symbolic _____y_____G 19iCloudMailAssistant8MSResultO AA40MAUIWisperGetDashboardEntryPointResponseV
+- _symbolic _____y_____GSgXw 19iCloudMailAssistant9MSRequestC AA40MAUIWisperGetDashboardEntryPointResponseV
+- _symbolic _____y_____y__________y_____GGAAyAG_____GG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA24_ForegroundStyleModifierV AA14LinearGradientV AA9EmptyViewV
+- _symbolic _____yxGSgXwz_______SeRzlXX 19iCloudMailAssistant9MSRequestC AA40MAUIWisperGetDashboardEntryPointResponseV
+- _type_layout_string 19iCloudMailAssistant20MASettingsRemoteViewV
+CStrings:
++ "%s urlPath=%{signpost.telemetry:string1,public}s success=%{signpost.telemetry:number1,public}ld"
++ "/encodedview/v1/mail/v1/mailassistant/sender/unsubscribe/links"
++ "BlockSender"
++ "CA_DASHBOARD"
++ "CA_INLINE_TIP"
++ "CA_SETTINGS"
++ "InitiCloudMailAssistantProviderSwift"
++ "LoadRemoteView"
++ "Rate limited (429). Retrying in %f seconds. Attempt %ld/%ld"
++ "UnblockSender"
++ "[DataStore] loadTipsAndDashboardEntrypointInfo - error: %@"
++ "[DataStore] loadTipsAndDashboardEntrypointInfo - got: %s"
++ "[DataStore] loadTipsAndDashboardEntrypointInfo()"
++ "[Error] Interval already ended"
++ "[LiftUIUnwantedSender] failed to parse element in dictionary 'impressionParameters'"
++ "[iCloudMailAssistantProviderSwift] dismissTip - No cancel action provided"
++ "baseDelay"
++ "configurationByApplyingConfiguration:"
++ "configurationWithColorRenderingMode:"
++ "configurationWithWeight:"
++ "dashboardEntryPoint"
++ "enableTelemetry=YES"
++ "impressionParameters"
++ "maxDelay"
++ "maxRetryAttempts"
++ "menuItemTitle"
++ "progressViewDelay"
++ "signpostID"
++ "signpostName"
++ "systemImageNamed:withConfiguration:"
+- "/mailws2/v1/unsubscribe/link"
+- "[DataStore] loadDashboardEntryPointInfo - error: %@"
+- "[DataStore] loadDashboardEntryPointInfo()"
+- "[DataStore] loadTips - error: %@"
+- "[DataStore] loadTips - got: %s"
+- "[DataStore] loadTips()"
+- "[DataStore] syncDashboardEntryPointInfo()"
+- "getDashboardEntryPoint()"
+- "iCloudMailSettings.MailAssistant.DashboardEntryPointInfoCacheTTLInSeconds"
+
+```

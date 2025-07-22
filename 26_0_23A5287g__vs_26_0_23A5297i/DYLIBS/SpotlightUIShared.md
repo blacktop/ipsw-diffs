@@ -1,0 +1,154 @@
+## SpotlightUIShared
+
+> `/System/Library/PrivateFrameworks/SpotlightUIShared.framework/SpotlightUIShared`
+
+```diff
+
+-174.0.0.0.0
+-  __TEXT.__text: 0xaa274
+-  __TEXT.__auth_stubs: 0x31c0
+-  __TEXT.__objc_methlist: 0x918
+-  __TEXT.__const: 0x6ebc
+-  __TEXT.__cstring: 0x2f48
++177.0.0.0.0
++  __TEXT.__text: 0xae130
++  __TEXT.__auth_stubs: 0x3260
++  __TEXT.__objc_methlist: 0x938
++  __TEXT.__const: 0x6fac
++  __TEXT.__cstring: 0x2ff8
+   __TEXT.__ustring: 0x7d2
+   __TEXT.__oslogstring: 0x833
+-  __TEXT.__swift5_typeref: 0x2ee4
+-  __TEXT.__swift5_reflstr: 0x13a5
+-  __TEXT.__swift5_assocty: 0x878
+-  __TEXT.__constg_swiftt: 0x2e2c
+-  __TEXT.__swift5_fieldmd: 0x1860
+-  __TEXT.__swift5_proto: 0x598
+-  __TEXT.__swift5_types: 0x278
+-  __TEXT.__swift_as_entry: 0x4b4
+-  __TEXT.__swift_as_ret: 0x428
++  __TEXT.__swift5_typeref: 0x2bfc
++  __TEXT.__swift5_reflstr: 0x1435
++  __TEXT.__swift5_assocty: 0x890
++  __TEXT.__constg_swiftt: 0x2f20
++  __TEXT.__swift5_fieldmd: 0x18bc
++  __TEXT.__swift5_proto: 0x59c
++  __TEXT.__swift5_types: 0x280
++  __TEXT.__swift_as_entry: 0x4d0
++  __TEXT.__swift_as_ret: 0x43c
+   __TEXT.__swift5_builtin: 0xdc
+   __TEXT.__swift5_protos: 0x84
+-  __TEXT.__swift5_capture: 0x544
++  __TEXT.__swift5_capture: 0x568
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x3350
+-  __TEXT.__eh_frame: 0x7550
++  __TEXT.__unwind_info: 0x3488
++  __TEXT.__eh_frame: 0x7918
+   __TEXT.__objc_classname: 0x1d6
+-  __TEXT.__objc_methname: 0x2ceb
++  __TEXT.__objc_methname: 0x2d3c
+   __TEXT.__objc_methtype: 0x414
+   __TEXT.__objc_stubs: 0x17c0
+-  __DATA_CONST.__got: 0xd80
++  __DATA_CONST.__got: 0xdc0
+   __DATA_CONST.__const: 0x448
+-  __DATA_CONST.__objc_classlist: 0x180
++  __DATA_CONST.__objc_classlist: 0x188
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xf30
++  __DATA_CONST.__objc_selrefs: 0xf50
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0x18
+-  __DATA_CONST.__objc_arraydata: 0x50
+-  __AUTH_CONST.__auth_got: 0x18e8
+-  __AUTH_CONST.__const: 0x44f8
+-  __AUTH_CONST.__cfstring: 0x660
+-  __AUTH_CONST.__objc_const: 0x2860
++  __DATA_CONST.__objc_arraydata: 0x48
++  __AUTH_CONST.__auth_got: 0x1938
++  __AUTH_CONST.__const: 0x4518
++  __AUTH_CONST.__cfstring: 0x640
++  __AUTH_CONST.__objc_const: 0x28b0
+   __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH.__objc_data: 0x1280
+-  __AUTH.__data: 0x30a0
++  __AUTH.__objc_data: 0x1298
++  __AUTH.__data: 0x32e0
+   __DATA.__objc_ivar: 0x3c
+-  __DATA.__data: 0x1630
++  __DATA.__data: 0x1618
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0xa988
+-  __DATA.__common: 0x140
++  __DATA.__bss: 0xaaa8
++  __DATA.__common: 0x148
+   __DATA_DIRTY.__objc_data: 0x158
+   __DATA_DIRTY.__data: 0xc0
+   __DATA_DIRTY.__bss: 0x490
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 78D69106-A031-3216-AABE-E5CFA11AEBDC
+-  Functions: 3776
+-  Symbols:   2252
+-  CStrings:  1020
++  UUID: 7EB9CB0A-A585-3905-B03C-142B77E84178
++  Functions: 3839
++  Symbols:   2262
++  CStrings:  1026
+ 
+Symbols:
++ -[SUISPasteboardManager _updatePasteboardHistory]
++ -[SUISPasteboardManager updatePasteboardHistory]
++ _OBJC_CLASS_$_NSDistributedNotificationCenter
++ __DATA__TtC17SpotlightUIShared27BoolTypedValueResultBuilder
++ __INSTANCE_METHODS__TtC17SpotlightUIShared23BaseQueryHistoryManager
++ __IVARS__TtC17SpotlightUIShared27BoolTypedValueResultBuilder
++ __METACLASS_DATA__TtC17SpotlightUIShared27BoolTypedValueResultBuilder
++ __PROTOCOLS__TtC17SpotlightUIShared36PrimitiveTypedValueResultHostingView.20
++ _associated conformance 17SpotlightUIShared28ToolResultHighlightContainerVyxG7SwiftUI4ViewAA4BodyAeFP_AeF
++ _get_witness_table 7SwiftUI15ModifiedContentVy17SpotlightUIShared28ToolResultHighlightContainerVyAA6VStackVyAA012_ConditionalD0VyACy07SnippetB011SmartDialogVyAA9EmptyViewVAA0Q0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQOyACyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAYyAA0V9AlignmentOGGAA14_PaddingLayoutVG_Qo_GAA017_AppearanceActionZ0VGAA0Q8ThatFitsVyAA05TupleQ0VyACyAqREASyQrAUFQOyACyA0_A6_G_Qo_AA16_FlexFrameLayoutVG_A12_tGGGGGAA16_FixedSizeLayoutVGAaPHPA26_AaPHPyHC_A28_AA0qZ0HPyHCHC.31
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyADyADyADyxAA24_BackgroundStyleModifierVyAA0fG0VGGAA11_ClipEffectVyAA16RoundedRectangleVGGAA08_OverlayH0VyAA011StrokeShapeC0VyAN6_InsetVAA5ColorVAA05EmptyC0VGGGAA14_PaddingLayoutVGA3_GAaBHPA4_AaBHPA1_AaBHPApaBHPAjaBHPxAaBHD1__AiA0cH0HPyHCHC_AoAA6_HPyHCHC_A0_AAA6_HPyHCHC_A3_AAA6_HPyHCHC_A3_AAA6_HPyHCHC.1
++ _objectdestroy.16Tm
++ _symbolic _____ 17SpotlightUIShared27BoolTypedValueResultBuilderC
++ _symbolic _____ 17SpotlightUIShared28ToolResultHighlightContainerV
++ _symbolic _____Sg 7ToolKit19ParameterDefinitionV15BooleanMetadataV
++ _symbolic _____yAAyAAyAAyAAyx_____y_____GG_____y_____GG_____y_____y_______________GGG_____GARG 7SwiftUI15ModifiedContentV AA24_BackgroundStyleModifierV AA0eF0V AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayG0V AA15StrokeShapeViewV AK6_InsetV AA5ColorV AA05EmptyO0V AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____yAAy_____y__________yAAyAAyAAy__________ySiSgGGAHy_____GG_____G_Qo_G_____G_____y_____yAAy_____yAAyAkOG_Qo______G_ATtGGGGG_____G 7SwiftUI15ModifiedContentV 17SpotlightUIShared28ToolResultHighlightContainerV AA6VStackV AA012_ConditionalD0V 07SnippetB011SmartDialogV AA9EmptyViewV AA0Q0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0V9AlignmentO AA14_PaddingLayoutV AA017_AppearanceActionZ0V AA0Q8ThatFitsV AA05TupleQ0V AqREASyQrAUFQO AA16_FlexFrameLayoutV AA16_FixedSizeLayoutV
++ _symbolic _____y_____y_____y_____y_____y__________yADyADyADy__________ySiSgGGAHy_____GG_____G_Qo_G_____G_____y_____yADy_____yADyAkOG_Qo______G_ATtGGGGG 17SpotlightUIShared28ToolResultHighlightContainerV 7SwiftUI6VStackV AD19_ConditionalContentV AD08ModifiedK0V 07SnippetH011SmartDialogV AD9EmptyViewV AD0Q0P06SearchH0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AD4TextV AD30_EnvironmentKeyWritingModifierV AD0V9AlignmentO AD14_PaddingLayoutV AD017_AppearanceActionZ0V AD0Q8ThatFitsV AD05TupleQ0V AqREASyQrAUFQO AD16_FlexFrameLayoutV
++ _symbolic qd__
++ _symbolic xyc
++ _type_layout_string 7SwiftUI4ViewRzl17SpotlightUIShared28ToolResultHighlightContainerVyxG
+- -[SUISPasteboardManager deviceLockedOrshuttingDown]
+- __PROTOCOLS__TtC17SpotlightUIShared36PrimitiveTypedValueResultHostingView.25
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyAA6VStackVyAA012_ConditionalD0VyACy07SnippetB011SmartDialogVyAA9EmptyViewVAA0K0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQOyACyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAVyAA0P9AlignmentOGGAA14_PaddingLayoutVG_Qo_GAA017_AppearanceActionT0VGAA0K8ThatFitsVyAA05TupleK0VyACyAnOEAPyQrARFQOyACyAYA3_G_Qo_AA010_FlexFrameW0VG_A9_tGGGGAA016_BackgroundStyleT0VyAA15BackgroundStyleVGGAA11_ClipEffectVyAA16RoundedRectangleVGGAA08_OverlayT0VyAA011StrokeShapeK0VyA32_6_InsetVAA5ColorVALGGGA3_GA3_GAA010_FixedSizeW0VGAaMHPA47_AaMHPA46_AaMHPA45_AaMHPA34_AaMHPA28_AaMHPA22_AaMHPyHC_A27_AA0kT0HPyHCHC_A33_AAA51_HPyHCHC_A44_AAA51_HPyHCHC_A3_AAA51_HPyHCHC_A3_AAA51_HPyHCHC_A49_AAA51_HPyHCHC.36
+- _objectdestroy.23Tm
+- _symbolic _____yAAyAAyAAyAAyAAy_____y_____yAAy_____y__________yAAyAAyAAy__________ySiSgGGAGy_____GG_____G_Qo_G_____G_____y_____yAAy_____yAAyAjNG_Qo______G_AStGGGG_____y_____GG_____y_____GG_____y_____y__________AEGGGANGANG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 07SnippetB011SmartDialogV AA9EmptyViewV AA0K0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA14_PaddingLayoutV AA017_AppearanceActionT0V AA0K8ThatFitsV AA05TupleK0V AnOEAPyQrARFQO AA010_FlexFrameW0V AA016_BackgroundStyleT0V AA15BackgroundStyleV AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayT0V AA011StrokeShapeK0V A14_6_InsetV AA5ColorV AA010_FixedSizeW0V
+- _symbolic _____yAAyAAyAAyAAy_____y_____yAAy_____y__________yAAyAAyAAy__________ySiSgGGAGy_____GG_____G_Qo_G_____G_____y_____yAAy_____yAAyAjNG_Qo______G_AStGGGG_____y_____GG_____y_____GG_____y_____y__________AEGGGANGANG 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 07SnippetB011SmartDialogV AA9EmptyViewV AA0K0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA14_PaddingLayoutV AA017_AppearanceActionT0V AA0K8ThatFitsV AA05TupleK0V AnOEAPyQrARFQO AA010_FlexFrameW0V AA016_BackgroundStyleT0V AA15BackgroundStyleV AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayT0V AA011StrokeShapeK0V A14_6_InsetV AA5ColorV
+- _symbolic _____yAAyAAyAAy_____y_____yAAy_____y__________yAAyAAyAAy__________ySiSgGGAGy_____GG_____G_Qo_G_____G_____y_____yAAy_____yAAyAjNG_Qo______G_AStGGGG_____y_____GG_____y_____GG_____y_____y__________AEGGGANG 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 07SnippetB011SmartDialogV AA9EmptyViewV AA0K0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA14_PaddingLayoutV AA017_AppearanceActionT0V AA0K8ThatFitsV AA05TupleK0V AnOEAPyQrARFQO AA010_FlexFrameW0V AA016_BackgroundStyleT0V AA15BackgroundStyleV AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayT0V AA011StrokeShapeK0V A14_6_InsetV AA5ColorV
+- _symbolic _____yAAyAAy_____y_____yAAy_____y__________yAAyAAyAAy__________ySiSgGGAGy_____GG_____G_Qo_G_____G_____y_____yAAy_____yAAyAjNG_Qo______G_AStGGGG_____y_____GG_____y_____GG_____y_____y__________AEGGG 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 07SnippetB011SmartDialogV AA9EmptyViewV AA0K0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA14_PaddingLayoutV AA017_AppearanceActionT0V AA0K8ThatFitsV AA05TupleK0V AnOEAPyQrARFQO AA010_FlexFrameW0V AA016_BackgroundStyleT0V AA15BackgroundStyleV AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayT0V AA011StrokeShapeK0V A14_6_InsetV AA5ColorV
+- _symbolic _____yAAy_____y_____yAAy_____y__________yAAyAAyAAy__________ySiSgGGAGy_____GG_____G_Qo_G_____G_____y_____yAAy_____yAAyAjNG_Qo______G_AStGGGG_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 07SnippetB011SmartDialogV AA9EmptyViewV AA0K0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA14_PaddingLayoutV AA017_AppearanceActionT0V AA0K8ThatFitsV AA05TupleK0V AnOEAPyQrARFQO AA010_FlexFrameW0V AA016_BackgroundStyleT0V AA15BackgroundStyleV AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____y_____y_____yAAy_____y__________yAAyAAyAAy__________ySiSgGGAGy_____GG_____G_Qo_G_____G_____y_____yAAy_____yAAyAjNG_Qo______G_AStGGGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 07SnippetB011SmartDialogV AA9EmptyViewV AA0K0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA14_PaddingLayoutV AA017_AppearanceActionT0V AA0K8ThatFitsV AA05TupleK0V AnOEAPyQrARFQO AA010_FlexFrameW0V AA016_BackgroundStyleT0V AA15BackgroundStyleV
+- _symbolic _____z_Xx 17SpotlightUIShared12QueryContextV
+- _type_layout_string 17SpotlightUIShared23TypedValueResultBuilderC6ConfigV
+CStrings:
++ "SpotlightUIShared.BoolTypedValueResultBuilder"
++ "Tool not ready: required parameters [%s] are not fulfilled!"
++ "_TtC17SpotlightUIShared27BoolTypedValueResultBuilder"
++ "_updatePasteboardHistory"
++ "addObserver:selector:name:object:"
++ "com.apple.Spotlight.resetSearchHistory"
++ "is.workflow.actions.runworkflow.WFInput"
++ "resetHistory"
++ "setQueryId:"
++ "updatePasteboardHistory"
+- "Tool not ready: required parameter %s is not fulfilled!"
+- "_hideSelection"
+- "deviceLockedOrshuttingDown"
+- "org.nspasteboard.source"
+
+```

@@ -1,0 +1,329 @@
+## ABMHelper
+
+> `/System/Library/PrivateFrameworks/ABMHelper.framework/ABMHelper`
+
+```diff
+
+-1380.0.0.0.0
+-  __TEXT.__text: 0x14319c
+-  __TEXT.__auth_stubs: 0x2430
+-  __TEXT.__init_offsets: 0xc8
++1384.1.0.0.0
++  __TEXT.__text: 0x147cf8
++  __TEXT.__auth_stubs: 0x2490
++  __TEXT.__init_offsets: 0x128
+   __TEXT.__objc_methlist: 0x14
+-  __TEXT.__const: 0x5baa
+-  __TEXT.__gcc_except_tab: 0x198ec
+-  __TEXT.__cstring: 0x6ce9
+-  __TEXT.__oslogstring: 0x9dc3
+-  __TEXT.__unwind_info: 0x5f08
++  __TEXT.__const: 0x5e0a
++  __TEXT.__gcc_except_tab: 0x19c58
++  __TEXT.__cstring: 0x6ec9
++  __TEXT.__oslogstring: 0xa000
++  __TEXT.__unwind_info: 0x6078
+   __TEXT.__objc_classname: 0x16
+   __TEXT.__objc_methname: 0x660
+   __TEXT.__objc_methtype: 0x28
+   __TEXT.__objc_stubs: 0xa00
+   __DATA_CONST.__got: 0x5d0
+-  __DATA_CONST.__const: 0x2088
++  __DATA_CONST.__const: 0x2288
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x280
+   __DATA_CONST.__objc_arraydata: 0x10
+-  __AUTH_CONST.__auth_got: 0x1230
+-  __AUTH_CONST.__const: 0x7640
++  __AUTH_CONST.__auth_got: 0x1260
++  __AUTH_CONST.__const: 0x78d0
+   __AUTH_CONST.__cfstring: 0x840
+   __AUTH_CONST.__objc_const: 0x90
+   __AUTH_CONST.__objc_intobj: 0x30
+
+   __DATA.__common: 0x20
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__data: 0x230
+-  __DATA_DIRTY.__bss: 0x8c0
++  __DATA_DIRTY.__bss: 0x970
+   __DATA_DIRTY.__common: 0xf4
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreMotion.framework/CoreMotion
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsysdiagnose.dylib
+-  UUID: 395BED2F-4C0A-3EE5-8B01-76E57FBF45F3
+-  Functions: 3534
+-  Symbols:   10161
+-  CStrings:  2310
++  UUID: 3744FD51-9E75-3E37-B106-87D9A6105A75
++  Functions: 3630
++  Symbols:   10434
++  CStrings:  2352
+ 
+Symbols:
++ GCC_except_table142
++ GCC_except_table146
++ GCC_except_table152
++ GCC_except_table155
++ GCC_except_table181
++ GCC_except_table185
++ GCC_except_table197
++ GCC_except_table201
++ GCC_except_table207
++ GCC_except_table211
++ GCC_except_table214
++ GCC_except_table217
++ GCC_except_table223
++ GCC_except_table227
++ GCC_except_table230
++ GCC_except_table246
++ GCC_except_table250
++ _TelephonyBasebandWatchdogStart
++ __ZN12capabilities5trace27supportsDaemonHangDetectionEv
++ __ZN19TraceFileCollection10ParametersC1ERKS0_
++ __ZN19TraceFileCollection10ParametersaSERKS0_
++ __ZN19TraceFileCollection13HeaderOptionsD2Ev
++ __ZN21TraceDataRateObserver10ParametersD2Ev
++ __ZN3abm10HelperTask18startHangDetectionEv
++ __ZN3abm10kKeyTRSSCGE
++ __ZN3abm12kKeyL1CCASCGE
++ __ZN3abm12kKeyMIBSISCGE
++ __ZN3abm13kKeyL1CSched2E
++ __ZN3abm13kKeyL1CState2E
++ __ZN3abm14kCATriggerTypeE
++ __ZN3abm15kKeyL1CSchedSCGE
++ __ZN3abm15kKeyL1CStateSCGE
++ __ZN3abm17kKeyL1CServiceSCGE
++ __ZN3abm17kKeyRFRequiredSCGE
++ __ZN3abm19BasebandTracingTask18startHangDetectionEv
++ __ZN3abm19kCAMaxTraceDataRateE
++ __ZN3abm19kCAMinTraceDataRateE
++ __ZN3abm19kKeyServingCellPLMNE
++ __ZN3abm19kKeySleepBlockedSCGE
++ __ZN3abm20kCAMeanTraceDataRateE
++ __ZN3abm21kCAEventTraceDataRateE
++ __ZN3abm22kCAMedianTraceDataRateE
++ __ZN3abm25kCADeltaPercTraceDataRateE
++ __ZN3abm30kCAConfiguredPeakTraceDataRateE
++ __ZN3abm5trace11TraceReader6ConfigC2ERKS2_
++ __ZN3abm5trace11TraceReader6ConfigD1Ev
++ __ZN3abm5trace11TraceReader6ConfigD2Ev
++ __ZN3abm5trace11TraceReader6createENS1_6ConfigE
++ __ZN7support4misc10safe_timer10start_syncEv
++ __ZN7support4misc10safe_timer4initEv
++ __ZN7support4misc10safe_timer4stopEv
++ __ZN7support4misc10safe_timer5startEv
++ __ZN7support4misc10safe_timer6createENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS2_6chrono8durationIxNS2_5ratioILl1ELl1000EEEEENS2_8functionIFvvEEE11qos_class_t
++ __ZN7support4misc10safe_timer6createENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS2_6chrono8durationIxNS2_5ratioILl1ELl1000EEEEESD_NS2_8functionIFvvEEE11qos_class_t
++ __ZN7support4misc10safe_timer7restartEv
++ __ZN7support4misc10safe_timer9stop_syncEv
++ __ZN7support4misc10safe_timerC1ENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS2_6chrono8durationIxNS2_5ratioILl1ELl1000EEEEESD_NS2_8functionIFvvEEE11qos_class_t
++ __ZN7support4misc10safe_timerC2ENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS2_6chrono8durationIxNS2_5ratioILl1ELl1000EEEEESD_NS2_8functionIFvvEEE11qos_class_t
++ __ZN7support4misc10safe_timerD0Ev
++ __ZN7support4misc10safe_timerD1Ev
++ __ZN7support4misc10safe_timerD2Ev
++ __ZN9Timestamp12timediffUSecERKS_S1_
++ __ZNK7support4misc10safe_timer11has_startedEv
++ __ZNK7support4misc10safe_timer12getLogClientEv
++ __ZNK7support4misc10safe_timer9has_firedEv
++ __ZNKSt3__110__function6__funcIZN8INTTrace12prepare_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN8INTTrace12prepare_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN8INTTrace12prepare_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEE7__cloneEPNS0_6__baseISA_EE
++ __ZNKSt3__110__function6__funcIZN8INTTrace12prepare_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZZN3abm20HelperServerInternal5startEvEUb_E3$_0NS_9allocatorIS4_EEFvvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZZN3abm20HelperServerInternal5startEvEUb_E3$_0NS_9allocatorIS4_EEFvvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZZN3abm20HelperServerInternal5startEvEUb_E3$_0NS_9allocatorIS4_EEFvvEE7__cloneEPNS0_6__baseIS7_EE
++ __ZNKSt3__110__function6__funcIZZN3abm20HelperServerInternal5startEvEUb_E3$_0NS_9allocatorIS4_EEFvvEE7__cloneEv
++ __ZNKSt3__120__shared_ptr_pointerIPN7support4misc10safe_timerENS_14default_deleteIS3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info
++ __ZNSt13runtime_errorC1ERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZNSt3__110__function6__funcIZN8INTTrace12prepare_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN8INTTrace12prepare_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN8INTTrace12prepare_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEED0Ev
++ __ZNSt3__110__function6__funcIZN8INTTrace12prepare_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEED1Ev
++ __ZNSt3__110__function6__funcIZN8INTTrace12prepare_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEEclES9_
++ __ZNSt3__110__function6__funcIZZN3abm20HelperServerInternal5startEvEUb_E3$_0NS_9allocatorIS4_EEFvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZZN3abm20HelperServerInternal5startEvEUb_E3$_0NS_9allocatorIS4_EEFvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZZN3abm20HelperServerInternal5startEvEUb_E3$_0NS_9allocatorIS4_EEFvvEED0Ev
++ __ZNSt3__110__function6__funcIZZN3abm20HelperServerInternal5startEvEUb_E3$_0NS_9allocatorIS4_EEFvvEED1Ev
++ __ZNSt3__110__function6__funcIZZN3abm20HelperServerInternal5startEvEUb_E3$_0NS_9allocatorIS4_EEFvvEEclEv
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZZN8INTTrace12prepare_syncEvENK3$_0clERKN3xpc4dictEEUlvE_EEvOT_EUlvE_NS_14default_deleteISF_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableIN3abm20HelperServerInternalEE15execute_wrappedIZZZNS4_5startEvEUb_ENK3$_0clEvEUlvE_EEvOT_EUlvE_NS_14default_deleteISB_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZZN8INTTrace12prepare_syncEvENK3$_0clERKN3xpc4dictEEUlvE_NS_14default_deleteIS7_EEED1B8ne200100Ev
++ __ZNSt3__120__shared_ptr_emplaceIN7support4misc8WatchdogENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN7support4misc8WatchdogENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN7support4misc8WatchdogENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN7support4misc8WatchdogENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_pointerIPN7support4misc10safe_timerENS_14default_deleteIS3_EENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_pointerIPN7support4misc10safe_timerENS_14default_deleteIS3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_pointerIPN7support4misc10safe_timerENS_14default_deleteIS3_EENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_pointerIPN7support4misc10safe_timerENS_14default_deleteIS3_EENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__14pairIKN3abm6helper6TaskIDENS_10shared_ptrINS1_10HelperTaskEEEED1Ev
++ __ZNSt3__18functionIFvRKN3xpc4dictEEED2Ev
++ __ZNSt3__18functionIFvvEED1Ev
++ __ZNSt3__18functionIFvvEED2Ev
++ __ZTIN7support4misc10safe_timerE
++ __ZTINSt3__110__function6__baseIFvRKN3xpc4dictEEEE
++ __ZTINSt3__110__function6__baseIFvvEEE
++ __ZTINSt3__110__function6__funcIZN8INTTrace12prepare_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEEE
++ __ZTINSt3__110__function6__funcIZZN3abm20HelperServerInternal5startEvEUb_E3$_0NS_9allocatorIS4_EEFvvEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN7support4misc8WatchdogENS_9allocatorIS3_EEEE
++ __ZTINSt3__120__shared_ptr_pointerIPN7support4misc10safe_timerENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE
++ __ZTIZN8INTTrace12prepare_syncEvE3$_0
++ __ZTIZZN3abm20HelperServerInternal5startEvEUb_E3$_0
++ __ZTSN7support4misc10safe_timerE
++ __ZTSNSt3__110__function6__baseIFvRKN3xpc4dictEEEE
++ __ZTSNSt3__110__function6__baseIFvvEEE
++ __ZTSNSt3__110__function6__funcIZN8INTTrace12prepare_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEEE
++ __ZTSNSt3__110__function6__funcIZZN3abm20HelperServerInternal5startEvEUb_E3$_0NS_9allocatorIS4_EEFvvEEE
++ __ZTSNSt3__114default_deleteIN7support4misc10safe_timerEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN7support4misc8WatchdogENS_9allocatorIS3_EEEE
++ __ZTSNSt3__120__shared_ptr_pointerIPN7support4misc10safe_timerENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE
++ __ZTSZN8INTTrace12prepare_syncEvE3$_0
++ __ZTSZZN3abm20HelperServerInternal5startEvEUb_E3$_0
++ __ZTVN7support4misc10safe_timerE
++ __ZTVNSt3__110__function6__funcIZN8INTTrace12prepare_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEEE
++ __ZTVNSt3__110__function6__funcIZZN3abm20HelperServerInternal5startEvEUb_E3$_0NS_9allocatorIS4_EEFvvEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN7support4misc8WatchdogENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_pointerIPN7support4misc10safe_timerENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZZN8INTTrace12prepare_syncEvENK3$_0clERKN3xpc4dictEEUlvE_EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrISD_NSI_14default_deleteISD_EEEEENUlPvE_8__invokeESN_
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableIN3abm20HelperServerInternalEE15execute_wrappedIZZZNS4_5startEvEUb_ENK3$_0clEvEUlvE_EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrIS9_NSE_14default_deleteIS9_EEEEENUlPvE_8__invokeESJ_
++ ____ZN3abm19BasebandTracingTask11performWorkEN8dispatch13group_sessionENS0_5StateENS1_8callbackIU13block_pointerFviN3xpc4dictEEEENS1_5blockIU13block_pointerFvvEEESD__block_invoke.171
++ ____ZN3abm19BasebandTracingTask11performWorkEN8dispatch13group_sessionENS0_5StateENS1_8callbackIU13block_pointerFviN3xpc4dictEEEENS1_5blockIU13block_pointerFvvEEESD__block_invoke.174
++ ____ZN3abm19BasebandTracingTask18startHangDetectionEv_block_invoke
++ ____ZN3abm19BasebandTracingTask18startHangDetectionEv_block_invoke.203
++ ____ZN3abm19BasebandTracingTask18startHangDetectionEv_block_invoke_2
++ ____ZN7support4misc10safe_timer10start_syncEv_block_invoke
++ ____ZN7support4misc10safe_timer4stopEv_block_invoke
++ ____ZN7support4misc10safe_timer5startEv_block_invoke
++ ____ZN7support4misc10safe_timer7restartEv_block_invoke
++ ____ZN7support4misc10safe_timer7restartEv_block_invoke_2
++ ____ZN7support4misc10safe_timerD2Ev_block_invoke
++ ____ZNK7support4misc10safe_timer11has_startedEv_block_invoke
++ ____ZNK7support4misc10safe_timer9has_firedEv_block_invoke
++ ___block_descriptor_tmp.112
++ ___block_descriptor_tmp.136
++ ___block_descriptor_tmp.170
++ ___block_descriptor_tmp.172
++ ___block_descriptor_tmp.178
++ ___block_descriptor_tmp.182
++ ___block_descriptor_tmp.185
++ ___block_descriptor_tmp.188
++ ___block_descriptor_tmp.191
++ ___block_descriptor_tmp.194
++ ___block_descriptor_tmp.197
++ ___block_descriptor_tmp.200
++ ___block_descriptor_tmp.201
++ ___block_descriptor_tmp.204
++ ___block_descriptor_tmp.205
++ ___block_descriptor_tmp.215
++ ___block_descriptor_tmp.216
++ ___block_descriptor_tmp.218
++ ___block_descriptor_tmp.221
++ ___block_descriptor_tmp.46
++ ___block_descriptor_tmp.49
++ ___copy_helper_block_e8_48c41_ZTSNSt3__18weak_ptrIN3abm10HelperTaskEEE
++ ___cxx_global_var_init.101
++ ___cxx_global_var_init.139
++ ___cxx_global_var_init.17
++ ___cxx_global_var_init.19
++ ___cxx_global_var_init.20
++ ___cxx_global_var_init.206
++ ___cxx_global_var_init.207
++ ___cxx_global_var_init.23
++ ___cxx_global_var_init.32
++ ___cxx_global_var_init.33
++ ___cxx_global_var_init.38
++ ___cxx_global_var_init.53
++ ___cxx_global_var_init.57
++ ___cxx_global_var_init.7
++ ___cxx_global_var_init.96
++ ___destroy_helper_block_e8_48c41_ZTSNSt3__18weak_ptrIN3abm10HelperTaskEEE
++ _dispatch_assert_queue$V2
++ _dispatch_get_specific
++ _dispatch_queue_set_specific
+- GCC_except_table149
+- GCC_except_table151
+- GCC_except_table157
+- GCC_except_table161
+- GCC_except_table163
+- GCC_except_table176
+- GCC_except_table184
+- GCC_except_table191
+- GCC_except_table202
+- GCC_except_table212
+- GCC_except_table225
+- GCC_except_table229
+- GCC_except_table233
+- GCC_except_table240
+- GCC_except_table247
+- __ZN3abm5trace11TraceReader6createERKN8dispatch5queueEPKcRKN19TraceFileCollection10ParametersESB_N5trace17LiveFilterSettingEN21TraceDataRateObserver10ParametersE11qos_class_t
+- ____ZN3abm19BasebandTracingTask11performWorkEN8dispatch13group_sessionENS0_5StateENS1_8callbackIU13block_pointerFviN3xpc4dictEEEENS1_5blockIU13block_pointerFvvEEESD__block_invoke.170
+- ____ZN3abm19BasebandTracingTask11performWorkEN8dispatch13group_sessionENS0_5StateENS1_8callbackIU13block_pointerFviN3xpc4dictEEEENS1_5blockIU13block_pointerFvvEEESD__block_invoke.172
+- ___block_descriptor_tmp.104
+- ___block_descriptor_tmp.122
+- ___block_descriptor_tmp.135
+- ___block_descriptor_tmp.168
+- ___block_descriptor_tmp.171
+- ___block_descriptor_tmp.173
+- ___block_descriptor_tmp.180
+- ___block_descriptor_tmp.184
+- ___block_descriptor_tmp.187
+- ___block_descriptor_tmp.190
+- ___block_descriptor_tmp.193
+- ___block_descriptor_tmp.196
+- ___block_descriptor_tmp.199
+- ___block_descriptor_tmp.208
+- ___block_descriptor_tmp.209
+- ___block_descriptor_tmp.211
+- ___block_descriptor_tmp.214
+- ___block_descriptor_tmp.35
+- ___block_descriptor_tmp.99
+- ___cxx_global_var_init.200
+CStrings:
++ "#I BasebandTracing Task is not hung, canceling watchdog"
++ "#I Hang detection enabled"
++ "#I Hang detection is not implemented for %s"
++ "#I Hang detection is not supported on this device"
++ "'"
++ "' already active"
++ "CheckingHang"
++ "CurrentQueue"
++ "Failed to write json object (exception: %@, %@)"
++ "Hang detected in BasebandTracing Task, please file a radar for component AppleBasebandServices | All"
++ "_L1C_CA_SCG"
++ "_L1C_sched_2"
++ "_L1C_sched_SCG"
++ "_L1C_service_SCG"
++ "_L1C_state_2"
++ "_L1C_state_SCG"
++ "_MIBSI_SCG"
++ "_RF_required_SCG"
++ "_Sleep_blocked_SCG"
++ "_TRS_SCG"
++ "_serving_cell_PLMN"
++ "basebandTraceDataRate"
++ "com.apple.telephony.baseband."
++ "configured_peak_trace_data_rate"
++ "delta_perc_trace_data_rate"
++ "error: '%s' already active"
++ "error: failed to create dispatch queue"
++ "error: failed to create dispatch safe_timer object"
++ "error: failed to init safe_timer object"
++ "error: invalid timeout callback"
++ "error: invalid timeout value"
++ "fired"
++ "helper.server.hang"
++ "max_trace_data_rate"
++ "mean_trace_data_rate"
++ "median_trace_data_rate"
++ "min_trace_data_rate"
++ "safe-timer"
++ "safe-timer."
++ "starting..."
++ "stopping..."
++ "trigger_type"
+
+```

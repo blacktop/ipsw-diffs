@@ -1,0 +1,1299 @@
+## MigrationKit
+
+> `/System/Library/PrivateFrameworks/MigrationKit.framework/MigrationKit`
+
+```diff
+
+-820.0.0.0.0
+-  __TEXT.__text: 0x410c60
+-  __TEXT.__auth_stubs: 0x5350
+-  __TEXT.__objc_methlist: 0x69a8
+-  __TEXT.__const: 0x25028
+-  __TEXT.__cstring: 0x19407
+-  __TEXT.__oslogstring: 0xc382
++829.0.40.502.1
++  __TEXT.__text: 0x499404
++  __TEXT.__auth_stubs: 0x5520
++  __TEXT.__objc_methlist: 0x6b50
++  __TEXT.__const: 0x28338
++  __TEXT.__cstring: 0x1b957
++  __TEXT.__oslogstring: 0xc3e2
+   __TEXT.__gcc_except_tab: 0x1404
+-  __TEXT.__swift5_typeref: 0x8ee0
+-  __TEXT.__swift5_fieldmd: 0xacc0
+-  __TEXT.__constg_swiftt: 0xbfbc
+-  __TEXT.__swift5_builtin: 0x244
+-  __TEXT.__swift5_reflstr: 0x95d4
+-  __TEXT.__swift5_assocty: 0x1d90
+-  __TEXT.__swift5_protos: 0x198
+-  __TEXT.__swift5_proto: 0x19fc
+-  __TEXT.__swift5_types: 0xa78
+-  __TEXT.__swift5_capture: 0x2618
+-  __TEXT.__swift_as_entry: 0xe4c
+-  __TEXT.__swift_as_ret: 0x1054
+-  __TEXT.__swift5_mpenum: 0xb4
+-  __TEXT.__unwind_info: 0xfd88
+-  __TEXT.__eh_frame: 0x2a148
+-  __TEXT.__objc_classname: 0xdd7
+-  __TEXT.__objc_methname: 0xfb3c
+-  __TEXT.__objc_methtype: 0x3570
+-  __TEXT.__objc_stubs: 0x96a0
+-  __DATA_CONST.__got: 0x1748
++  __TEXT.__swift5_typeref: 0x98b6
++  __TEXT.__swift5_fieldmd: 0xb6e0
++  __TEXT.__constg_swiftt: 0xd398
++  __TEXT.__swift5_builtin: 0x230
++  __TEXT.__swift5_reflstr: 0x9d94
++  __TEXT.__swift5_assocty: 0x1e80
++  __TEXT.__swift5_protos: 0x1b4
++  __TEXT.__swift5_proto: 0x1c70
++  __TEXT.__swift5_types: 0xb5c
++  __TEXT.__swift5_capture: 0x2728
++  __TEXT.__swift_as_entry: 0xec4
++  __TEXT.__swift_as_ret: 0x118c
++  __TEXT.__swift5_mpenum: 0xac
++  __TEXT.__unwind_info: 0x11338
++  __TEXT.__eh_frame: 0x2d04c
++  __TEXT.__objc_classname: 0xdfc
++  __TEXT.__objc_methname: 0xfeab
++  __TEXT.__objc_methtype: 0x3610
++  __TEXT.__objc_stubs: 0x9820
++  __DATA_CONST.__got: 0x1870
+   __DATA_CONST.__const: 0x9a8
+-  __DATA_CONST.__objc_classlist: 0xa58
++  __DATA_CONST.__objc_classlist: 0xb50
+   __DATA_CONST.__objc_catlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x268
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4660
++  __DATA_CONST.__objc_selrefs: 0x4740
+   __DATA_CONST.__objc_protorefs: 0xf8
+-  __DATA_CONST.__objc_superrefs: 0x330
++  __DATA_CONST.__objc_superrefs: 0x340
+   __DATA_CONST.__objc_arraydata: 0x4a0
+-  __AUTH_CONST.__auth_got: 0x29c0
+-  __AUTH_CONST.__const: 0x11d30
++  __AUTH_CONST.__auth_got: 0x2aa8
++  __AUTH_CONST.__const: 0x12a38
+   __AUTH_CONST.__cfstring: 0x5000
+-  __AUTH_CONST.__objc_const: 0x17600
++  __AUTH_CONST.__objc_const: 0x193a8
+   __AUTH_CONST.__objc_intobj: 0xcf0
+   __AUTH_CONST.__objc_arrayobj: 0x1f8
+   __AUTH_CONST.__objc_dictobj: 0x50
+-  __AUTH.__objc_data: 0x6d60
+-  __AUTH.__data: 0x10a48
+-  __DATA.__objc_ivar: 0x7b8
+-  __DATA.__data: 0xa1c8
+-  __DATA.__bss: 0x2f638
+-  __DATA.__common: 0x1080
++  __AUTH.__objc_data: 0x6fc0
++  __AUTH.__data: 0x12660
++  __DATA.__objc_ivar: 0x7f0
++  __DATA.__data: 0xaab0
++  __DATA.__bss: 0x32778
++  __DATA.__common: 0x1090
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__bss: 0x10
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CorePhoneNumbers.framework/CorePhoneNumbers
+   - /System/Library/PrivateFrameworks/CoreWiFi.framework/CoreWiFi
++  - /System/Library/PrivateFrameworks/DeviceIdentity.framework/DeviceIdentity
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/IMCore.framework/IMCore
+
+   - /System/Library/PrivateFrameworks/NetworkRelay.framework/NetworkRelay
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore
++  - /System/Library/PrivateFrameworks/PosterBoardServices.framework/PosterBoardServices
+   - /System/Library/PrivateFrameworks/RegulatoryDomain.framework/RegulatoryDomain
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/SIMSetupSupport.framework/SIMSetupSupport
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 28329EB1-39C1-347D-85EC-5BD716E3CAEA
+-  Functions: 17497
+-  Symbols:   12949
+-  CStrings:  8669
++  UUID: 81A9FB0C-A98A-3E8C-8485-558D2A8D2314
++  Functions: 18741
++  Symbols:   13482
++  CStrings:  8984
+ 
+Symbols:
++ -[MKHomescreen .cxx_destruct]
++ -[MKHomescreen ID]
++ -[MKHomescreen bundleID]
++ -[MKHomescreen folder]
++ -[MKHomescreen height]
++ -[MKHomescreen host]
++ -[MKHomescreen initWithID:page:folder:x:y:bundleID:maxWidth:maxHeight:]
++ -[MKHomescreen initWithID:page:x:y:name:maxWidth:maxHeight:]
++ -[MKHomescreen initWithID:page:x:y:width:height:bundleID:host:kind:maxWidth:maxHeight:]
++ -[MKHomescreen kind]
++ -[MKHomescreen maxHeight]
++ -[MKHomescreen maxWidth]
++ -[MKHomescreen name]
++ -[MKHomescreen page]
++ -[MKHomescreen setBundleID:]
++ -[MKHomescreen setFolder:]
++ -[MKHomescreen setHeight:]
++ -[MKHomescreen setHost:]
++ -[MKHomescreen setID:]
++ -[MKHomescreen setKind:]
++ -[MKHomescreen setMaxHeight:]
++ -[MKHomescreen setMaxWidth:]
++ -[MKHomescreen setName:]
++ -[MKHomescreen setPage:]
++ -[MKHomescreen setWidth:]
++ -[MKHomescreen setX:]
++ -[MKHomescreen setY:]
++ -[MKHomescreen width]
++ -[MKHomescreen x]
++ -[MKHomescreen y]
++ -[MKHomescreenMigrator .cxx_destruct]
++ -[MKHomescreenMigrator build:item:ID:page:x:y:maxWidth:maxHeight:]
++ -[MKHomescreenMigrator export]
++ -[MKHomescreenMigrator init]
++ _DeviceIdentityIsSupported
++ _DeviceIdentityIssueClientCertificateWithCompletion
++ _MobileGestalt_get_isVirtualDevice
++ _OBJC_CLASS_$_MKHomescreen
++ _OBJC_CLASS_$_MKHomescreenMigrator
++ _OBJC_CLASS_$_NSHTTPURLResponse
++ _OBJC_CLASS_$_NSURLSessionConfiguration
++ _OBJC_CLASS_$_PRSExternalSystemService
++ _OBJC_IVAR_$_MKHomescreen._ID
++ _OBJC_IVAR_$_MKHomescreen._bundleID
++ _OBJC_IVAR_$_MKHomescreen._folder
++ _OBJC_IVAR_$_MKHomescreen._height
++ _OBJC_IVAR_$_MKHomescreen._host
++ _OBJC_IVAR_$_MKHomescreen._kind
++ _OBJC_IVAR_$_MKHomescreen._maxHeight
++ _OBJC_IVAR_$_MKHomescreen._maxWidth
++ _OBJC_IVAR_$_MKHomescreen._name
++ _OBJC_IVAR_$_MKHomescreen._page
++ _OBJC_IVAR_$_MKHomescreen._width
++ _OBJC_IVAR_$_MKHomescreen._x
++ _OBJC_IVAR_$_MKHomescreen._y
++ _OBJC_IVAR_$_MKHomescreenMigrator._service
++ _OBJC_METACLASS_$_MKHomescreen
++ _OBJC_METACLASS_$_MKHomescreenMigrator
++ _SecAccessControlCreateWithFlags
++ _SecKeyCreateSignature
++ __DATA__TtC12MigrationKit11AppImporter
++ __DATA__TtC12MigrationKit12FileImporter
++ __DATA__TtC12MigrationKit13AlarmImporter
++ __DATA__TtC12MigrationKit13MusicImporter
++ __DATA__TtC12MigrationKit14ErrorCollector
++ __DATA__TtC12MigrationKit14ServiceBrowser
++ __DATA__TtC12MigrationKit14WalletImporter
++ __DATA__TtC12MigrationKit15AccountImporter
++ __DATA__TtC12MigrationKit15ContactImporter
++ __DATA__TtC12MigrationKit15MessageImporter
++ __DATA__TtC12MigrationKit16APIClientFactory
++ __DATA__TtC12MigrationKit16CalendarImporter
++ __DATA__TtC12MigrationKit17VoiceMemoImporter
++ __DATA__TtC12MigrationKit17WallpaperImporter
++ __DATA__TtC12MigrationKit18AccountPersistence
++ __DATA__TtC12MigrationKit18AppContentImporter
++ __DATA__TtC12MigrationKit18HomeScreenImporter
++ __DATA__TtC12MigrationKit19CallHistoryImporter
++ __DATA__TtC12MigrationKit19WiFiNetworkImporter
++ __DATA__TtC12MigrationKit20AppDataclassImporter
++ __DATA__TtC12MigrationKit20PhotoLibraryImporter
++ __DATA__TtC12MigrationKit21AccessibilityImporter
++ __DATA__TtC12MigrationKit22PlaceholderPersistence
++ __DATA__TtC12MigrationKit22WiFiNetworkPersistence
++ __DATA__TtC12MigrationKit26HomescreenPersistenceModel
++ __DATA__TtC12MigrationKit28AccountPersistenceModelActor
++ __DATA__TtC12MigrationKit32PlaceholderPersistenceModelActor
++ __DATA__TtC12MigrationKit32WiFiNetworkPersistenceModelActor
++ __DATA__TtCC12MigrationKit16ImportController7Context
++ __DATA__TtCVV12MigrationKit12FileExporterP33_B00A766045084220189B0C5FE352127D12FileSequence15FileInputStream
++ __IVARS__TtC12MigrationKit11AppImporter
++ __IVARS__TtC12MigrationKit13MusicImporter
++ __IVARS__TtC12MigrationKit14ErrorCollector
++ __IVARS__TtC12MigrationKit14ServiceBrowser
++ __IVARS__TtC12MigrationKit15ContactImporter
++ __IVARS__TtC12MigrationKit15MessageImporter
++ __IVARS__TtC12MigrationKit16APIClientFactory
++ __IVARS__TtC12MigrationKit16CalendarImporter
++ __IVARS__TtC12MigrationKit18AccountPersistence
++ __IVARS__TtC12MigrationKit18AppContentImporter
++ __IVARS__TtC12MigrationKit19CallHistoryImporter
++ __IVARS__TtC12MigrationKit20AppDataclassImporter
++ __IVARS__TtC12MigrationKit22PlaceholderPersistence
++ __IVARS__TtC12MigrationKit22WiFiNetworkPersistence
++ __IVARS__TtC12MigrationKit26HomescreenPersistenceModel
++ __IVARS__TtC12MigrationKit28AccountPersistenceModelActor
++ __IVARS__TtC12MigrationKit32PlaceholderPersistenceModelActor
++ __IVARS__TtC12MigrationKit32WiFiNetworkPersistenceModelActor
++ __IVARS__TtCC12MigrationKit16ImportController7Context
++ __IVARS__TtCVV12MigrationKit12FileExporterP33_B00A766045084220189B0C5FE352127D12FileSequence15FileInputStream
++ __METACLASS_DATA__TtC12MigrationKit11AppImporter
++ __METACLASS_DATA__TtC12MigrationKit12FileImporter
++ __METACLASS_DATA__TtC12MigrationKit13AlarmImporter
++ __METACLASS_DATA__TtC12MigrationKit13MusicImporter
++ __METACLASS_DATA__TtC12MigrationKit14ErrorCollector
++ __METACLASS_DATA__TtC12MigrationKit14ServiceBrowser
++ __METACLASS_DATA__TtC12MigrationKit14WalletImporter
++ __METACLASS_DATA__TtC12MigrationKit15AccountImporter
++ __METACLASS_DATA__TtC12MigrationKit15ContactImporter
++ __METACLASS_DATA__TtC12MigrationKit15MessageImporter
++ __METACLASS_DATA__TtC12MigrationKit16APIClientFactory
++ __METACLASS_DATA__TtC12MigrationKit16CalendarImporter
++ __METACLASS_DATA__TtC12MigrationKit17VoiceMemoImporter
++ __METACLASS_DATA__TtC12MigrationKit17WallpaperImporter
++ __METACLASS_DATA__TtC12MigrationKit18AccountPersistence
++ __METACLASS_DATA__TtC12MigrationKit18AppContentImporter
++ __METACLASS_DATA__TtC12MigrationKit18HomeScreenImporter
++ __METACLASS_DATA__TtC12MigrationKit19CallHistoryImporter
++ __METACLASS_DATA__TtC12MigrationKit19WiFiNetworkImporter
++ __METACLASS_DATA__TtC12MigrationKit20AppDataclassImporter
++ __METACLASS_DATA__TtC12MigrationKit20PhotoLibraryImporter
++ __METACLASS_DATA__TtC12MigrationKit21AccessibilityImporter
++ __METACLASS_DATA__TtC12MigrationKit22PlaceholderPersistence
++ __METACLASS_DATA__TtC12MigrationKit22WiFiNetworkPersistence
++ __METACLASS_DATA__TtC12MigrationKit26HomescreenPersistenceModel
++ __METACLASS_DATA__TtC12MigrationKit28AccountPersistenceModelActor
++ __METACLASS_DATA__TtC12MigrationKit32PlaceholderPersistenceModelActor
++ __METACLASS_DATA__TtC12MigrationKit32WiFiNetworkPersistenceModelActor
++ __METACLASS_DATA__TtCC12MigrationKit16ImportController7Context
++ __METACLASS_DATA__TtCVV12MigrationKit12FileExporterP33_B00A766045084220189B0C5FE352127D12FileSequence15FileInputStream
++ __OBJC_$_INSTANCE_METHODS_MKHomescreen
++ __OBJC_$_INSTANCE_METHODS_MKHomescreenMigrator
++ __OBJC_$_INSTANCE_VARIABLES_MKHomescreen
++ __OBJC_$_INSTANCE_VARIABLES_MKHomescreenMigrator
++ __OBJC_$_PROP_LIST_MKHomescreen
++ __OBJC_CLASS_RO_$_MKHomescreen
++ __OBJC_CLASS_RO_$_MKHomescreenMigrator
++ __OBJC_METACLASS_RO_$_MKHomescreen
++ __OBJC_METACLASS_RO_$_MKHomescreenMigrator
++ ___swift_deallocate_boxed_opaque_existential_1
++ ___swift_memcpy152_8
++ ___swift_memcpy176_8
++ ___swift_mutable_project_boxed_opaque_existential_0
++ ___swift_project_boxed_opaque_existential_2
++ ___unnamed_8
++ ___unnamed_9
++ _associated conformance 12MigrationKit12FileExporterV0C8Sequence33_B00A766045084220189B0C5FE352127DLLVSTAA8IteratorST_St
++ _associated conformance 12MigrationKit16AnyAsyncSequenceV0cD8IteratorVyxq__GScIAA7FailureScI_s5Error
++ _associated conformance 12MigrationKit16AnyAsyncSequenceVyxq_GSciAA0D8IteratorSci_ScI
++ _associated conformance 12MigrationKit17SupportedMIMEType33_A0B914C53AC8ABC33D64E46E2CB2D78BLLOSHAASQ
++ _associated conformance 12MigrationKit17SupportedMIMEType33_A0B914C53AC8ABC33D64E46E2CB2D78BLLOs12CaseIterableAA8AllCasessAEP_Sl
++ _associated conformance 12MigrationKit17_PlayAppIntegrity33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysOSHAASQ
++ _associated conformance 12MigrationKit17_PlayAppIntegrity33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 12MigrationKit17_PlayAppIntegrity33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MigrationKit18AccountPersistenceC9SwiftData15PersistentModelAA11Observation10Observable
++ _associated conformance 12MigrationKit18AccountPersistenceC9SwiftData15PersistentModelAA4RootAdEP_AdE
++ _associated conformance 12MigrationKit18AccountPersistenceC9SwiftData15PersistentModelAASH
++ _associated conformance 12MigrationKit18AccountPersistenceC9SwiftData15PersistentModelAAs12Identifiable
++ _associated conformance 12MigrationKit18AccountPersistenceCSHAASQ
++ _associated conformance 12MigrationKit18AccountPersistenceCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 12MigrationKit19_PlayAccountDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysOSHAASQ
++ _associated conformance 12MigrationKit19_PlayAccountDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 12MigrationKit19_PlayAccountDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MigrationKit20AndroidAppIdentifierVSHAASQ
++ _associated conformance 12MigrationKit20AsyncSequenceAdapter33_C760B0DF13D87FA54AA06EF5859181FDLLV8IteratorVyx_GScIAA7FailureScI_s5Error
++ _associated conformance 12MigrationKit20AsyncSequenceAdapter33_C760B0DF13D87FA54AA06EF5859181FDLLVyxGSciAA0C8IteratorSci_ScI
++ _associated conformance 12MigrationKit20_PlayDeviceIntegrity33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysOSHAASQ
++ _associated conformance 12MigrationKit20_PlayDeviceIntegrity33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 12MigrationKit20_PlayDeviceIntegrity33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MigrationKit21PlayIntegrityResponseV10CodingKeys33_CB03C172530FA77F47400EF52B581884LLOSHAASQ
++ _associated conformance 12MigrationKit21PlayIntegrityResponseV10CodingKeys33_CB03C172530FA77F47400EF52B581884LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12MigrationKit21PlayIntegrityResponseV10CodingKeys33_CB03C172530FA77F47400EF52B581884LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MigrationKit22PlaceholderPersistenceC9SwiftData15PersistentModelAA11Observation10Observable
++ _associated conformance 12MigrationKit22PlaceholderPersistenceC9SwiftData15PersistentModelAA4RootAdEP_AdE
++ _associated conformance 12MigrationKit22PlaceholderPersistenceC9SwiftData15PersistentModelAASH
++ _associated conformance 12MigrationKit22PlaceholderPersistenceC9SwiftData15PersistentModelAAs12Identifiable
++ _associated conformance 12MigrationKit22PlaceholderPersistenceCSHAASQ
++ _associated conformance 12MigrationKit22PlaceholderPersistenceCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 12MigrationKit22WiFiNetworkPersistenceC9SwiftData15PersistentModelAA11Observation10Observable
++ _associated conformance 12MigrationKit22WiFiNetworkPersistenceC9SwiftData15PersistentModelAA4RootAdEP_AdE
++ _associated conformance 12MigrationKit22WiFiNetworkPersistenceC9SwiftData15PersistentModelAASH
++ _associated conformance 12MigrationKit22WiFiNetworkPersistenceC9SwiftData15PersistentModelAAs12Identifiable
++ _associated conformance 12MigrationKit22WiFiNetworkPersistenceCSHAASQ
++ _associated conformance 12MigrationKit22WiFiNetworkPersistenceCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 12MigrationKit23_PlayEnvironmentDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysOSHAASQ
++ _associated conformance 12MigrationKit23_PlayEnvironmentDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 12MigrationKit23_PlayEnvironmentDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MigrationKit26HomescreenPersistenceModelC9SwiftData010PersistentE0AA11Observation10Observable
++ _associated conformance 12MigrationKit26HomescreenPersistenceModelC9SwiftData010PersistentE0AA4RootAdEP_AdE
++ _associated conformance 12MigrationKit26HomescreenPersistenceModelC9SwiftData010PersistentE0AASH
++ _associated conformance 12MigrationKit26HomescreenPersistenceModelC9SwiftData010PersistentE0AAs12Identifiable
++ _associated conformance 12MigrationKit26HomescreenPersistenceModelCSHAASQ
++ _associated conformance 12MigrationKit26HomescreenPersistenceModelCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 12MigrationKit26WallpaperMultipartResponseV8IteratorVScIAA7FailureScI_s5Error
++ _associated conformance 12MigrationKit26WallpaperMultipartResponseVSciAA13AsyncIteratorSci_ScI
++ _associated conformance 12MigrationKit28AccountPersistenceModelActorC9SwiftData0eF0AAScA
++ _associated conformance 12MigrationKit28_PlayIntegrityRequestDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysOSHAASQ
++ _associated conformance 12MigrationKit28_PlayIntegrityRequestDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 12MigrationKit28_PlayIntegrityRequestDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MigrationKit32PlaceholderPersistenceModelActorC9SwiftData0eF0AAScA
++ _associated conformance 12MigrationKit32WiFiNetworkPersistenceModelActorC9SwiftData0gH0AAScA
++ _block_copy_helper.30
++ _block_descriptor.32
++ _block_destroy_helper.31
++ _flat unique St_px7ElementStRts_XP
++ _get_enum_tag_for_layout_string 12MigrationKit17_PlayAppIntegrity33_CB03C172530FA77F47400EF52B581884LLVSg
++ _get_enum_tag_for_layout_string 12MigrationKit19_PlayAccountDetails33_CB03C172530FA77F47400EF52B581884LLVSg
++ _get_enum_tag_for_layout_string 12MigrationKit20_PlayDeviceIntegrity33_CB03C172530FA77F47400EF52B581884LLVSg
++ _get_enum_tag_for_layout_string 12MigrationKit23_PlayEnvironmentDetails33_CB03C172530FA77F47400EF52B581884LLVSg
++ _get_enum_tag_for_layout_string 12MigrationKit28_PlayIntegrityRequestDetails33_CB03C172530FA77F47400EF52B581884LLVSg
++ _kMAOptionsBAAAccessControls
++ _kMAOptionsBAAKeychainAccessGroup
++ _kMAOptionsBAAKeychainLabel
++ _kMAOptionsBAANetworkTimeoutInterval
++ _kMAOptionsBAAOIDDeviceOSInformation
++ _kMAOptionsBAAOIDSToInclude
++ _kMAOptionsBAAOIDUCRTDeviceIdentifiers
++ _kMAOptionsBAAValidity
++ _kSecKeyAlgorithmECDSASignatureMessageX962SHA256
++ _objc_msgSend$build:item:ID:page:x:y:maxWidth:maxHeight:
++ _objc_msgSend$initWithID:page:folder:x:y:bundleID:maxWidth:maxHeight:
++ _objc_msgSend$initWithID:page:x:y:name:maxWidth:maxHeight:
++ _objc_msgSend$initWithID:page:x:y:width:height:bundleID:host:kind:maxWidth:maxHeight:
++ _objc_msgSend$setBundleID:
++ _objc_msgSend$setHeight:
++ _objc_msgSend$setKind:
++ _objc_msgSend$setMaxHeight:
++ _objc_msgSend$setMaxWidth:
++ _objc_msgSend$setPage:
++ _objc_msgSend$setX:
++ _objc_msgSend$setY:
++ _objc_retain_x6
++ _objc_retain_x7
++ _objectdestroy.48Tm
++ _objectdestroy.6Tm
++ _objectdestroy.72Tm
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _swift_conformsToProtocol2
++ _swift_getTupleTypeMetadata3
++ _swift_projectBox
++ _swift_unknownObjectRelease_n
++ _symbolic $s12MigrationKit10ConsumableP
++ _symbolic $s12MigrationKit20AppExtensionExporterP
++ _symbolic $s12MigrationKit20AppExtensionImporterP
++ _symbolic $s12MigrationKit24ContainsUnderlyingErrorsP
++ _symbolic $s12MigrationKit24KeyValueDebugDescribableP
++ _symbolic $s12MigrationKit25PropertyListRepresentableP
++ _symbolic $s12MigrationKit27ConcurrentDataClassImporterP
++ _symbolic $s12MigrationKit30AndroidAppIdentifierProvidableP
++ _symbolic $s12MigrationKit30ContainsAdditionalErrorContextP
++ _symbolic 7ElementStQyd__
++ _symbolic SB_p
++ _symbolic SDySS_____G 12MigrationKit14ErrorCollectorC0C5StatsV
++ _symbolic SDy_____Say_____GG 12MigrationKit23OSMigrationResourceTypeO AA14ErrorCollectorC0F5StatsV
++ _symbolic SDy__________G 12MigrationKit23OSMigrationResourceTypeO AA15MessageDownloadV
++ _symbolic SS3key_yp5valuet
++ _symbolic SS_______pt s23CustomStringConvertibleP
++ _symbolic SS______t 10Foundation4DataV
++ _symbolic SaySSGSg
++ _symbolic Say_____G 12MigrationKit14ErrorCollectorC0C5StatsV
++ _symbolic Say_____G 12MigrationKit16ImportControllerC7ContextC
++ _symbolic Say_____G 12MigrationKit17SupportedMIMEType33_A0B914C53AC8ABC33D64E46E2CB2D78BLLO
++ _symbolic Say_____G 12MigrationKit21OSMigrationMusicTrackV
++ _symbolic Say_____y___________pGG s6ResultOsRi_zRi0_zrlE 10Foundation4DataV s5ErrorP
++ _symbolic Say_____y___________pGG s6ResultOsRi_zRi0_zrlE 12MigrationKit4FileV s5ErrorP
++ _symbolic ScCySS______t______pG 10Foundation4DataV s5ErrorP
++ _symbolic ScCySbSg______pG s5ErrorP
++ _symbolic ScCy___________pG 12MigrationKit7HeadersV s5ErrorP
++ _symbolic Shy_____G s11AnyHashableV
++ _symbolic So12EKEventStoreC
++ _symbolic So8EKSourceCSg
++ _symbolic Sz_p
++ _symbolic _____ 12MigrationKit10HomescreenV
++ _symbolic _____ 12MigrationKit11AppImporterC
++ _symbolic _____ 12MigrationKit11ImportErrorO
++ _symbolic _____ 12MigrationKit12FileExporterV0C8Sequence33_B00A766045084220189B0C5FE352127DLLV
++ _symbolic _____ 12MigrationKit12FileExporterV0C8Sequence33_B00A766045084220189B0C5FE352127DLLV0C11InputStreamC
++ _symbolic _____ 12MigrationKit12FileImporterC
++ _symbolic _____ 12MigrationKit13AlarmImporterC
++ _symbolic _____ 12MigrationKit13MusicImporterC
++ _symbolic _____ 12MigrationKit13ResourceOrderO
++ _symbolic _____ 12MigrationKit14ErrorCollectorC
++ _symbolic _____ 12MigrationKit14ErrorCollectorC0C5StatsV
++ _symbolic _____ 12MigrationKit14ServiceBrowserC
++ _symbolic _____ 12MigrationKit14WalletImporterC
++ _symbolic _____ 12MigrationKit15AccountImporterC
++ _symbolic _____ 12MigrationKit15ContactImporterC
++ _symbolic _____ 12MigrationKit15MessageDownloadV
++ _symbolic _____ 12MigrationKit15MessageImporterC
++ _symbolic _____ 12MigrationKit16APIClientFactoryC
++ _symbolic _____ 12MigrationKit16AnyAsyncSequenceV
++ _symbolic _____ 12MigrationKit16AnyAsyncSequenceV0cD8IteratorV
++ _symbolic _____ 12MigrationKit16CalendarImporterC
++ _symbolic _____ 12MigrationKit16ConnectionReaderC5ErrorO
++ _symbolic _____ 12MigrationKit16ImportControllerC6ResultV
++ _symbolic _____ 12MigrationKit16ImportControllerC7ContextC
++ _symbolic _____ 12MigrationKit17SupportedMIMEType33_A0B914C53AC8ABC33D64E46E2CB2D78BLLO
++ _symbolic _____ 12MigrationKit17VoiceMemoImporterC
++ _symbolic _____ 12MigrationKit17WallpaperImporterC
++ _symbolic _____ 12MigrationKit17_PlayAppIntegrity33_CB03C172530FA77F47400EF52B581884LLV
++ _symbolic _____ 12MigrationKit17_PlayAppIntegrity33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysO
++ _symbolic _____ 12MigrationKit18AccountPersistenceC
++ _symbolic _____ 12MigrationKit18AccountPersistenceC16_SwiftDataNoTypeV
++ _symbolic _____ 12MigrationKit18AppContentImporterC
++ _symbolic _____ 12MigrationKit18HomeScreenImporterC
++ _symbolic _____ 12MigrationKit19CallHistoryImporterC
++ _symbolic _____ 12MigrationKit19MessageLazyMigratorV
++ _symbolic _____ 12MigrationKit19WiFiNetworkImporterC
++ _symbolic _____ 12MigrationKit19_PlayAccountDetails33_CB03C172530FA77F47400EF52B581884LLV
++ _symbolic _____ 12MigrationKit19_PlayAccountDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysO
++ _symbolic _____ 12MigrationKit20AndroidAppIdentifierV
++ _symbolic _____ 12MigrationKit20AppDataclassImporterC
++ _symbolic _____ 12MigrationKit20AsyncSequenceAdapter33_C760B0DF13D87FA54AA06EF5859181FDLLV
++ _symbolic _____ 12MigrationKit20AsyncSequenceAdapter33_C760B0DF13D87FA54AA06EF5859181FDLLV8IteratorV
++ _symbolic _____ 12MigrationKit20PhotoLibraryImporterC
++ _symbolic _____ 12MigrationKit20_PlayDeviceIntegrity33_CB03C172530FA77F47400EF52B581884LLV
++ _symbolic _____ 12MigrationKit20_PlayDeviceIntegrity33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysO
++ _symbolic _____ 12MigrationKit21AccessibilityImporterC
++ _symbolic _____ 12MigrationKit21PlayIntegrityResponseV
++ _symbolic _____ 12MigrationKit21PlayIntegrityResponseV10CodingKeys33_CB03C172530FA77F47400EF52B581884LLO
++ _symbolic _____ 12MigrationKit22PlaceholderPersistenceC
++ _symbolic _____ 12MigrationKit22PlaceholderPersistenceC16_SwiftDataNoTypeV
++ _symbolic _____ 12MigrationKit22WiFiNetworkPersistenceC
++ _symbolic _____ 12MigrationKit22WiFiNetworkPersistenceC16_SwiftDataNoTypeV
++ _symbolic _____ 12MigrationKit23_PlayEnvironmentDetails33_CB03C172530FA77F47400EF52B581884LLV
++ _symbolic _____ 12MigrationKit23_PlayEnvironmentDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysO
++ _symbolic _____ 12MigrationKit26GooglePlayIntegrityCheckerV
++ _symbolic _____ 12MigrationKit26HomescreenPersistenceModelC
++ _symbolic _____ 12MigrationKit26HomescreenPersistenceModelC16_SwiftDataNoTypeV
++ _symbolic _____ 12MigrationKit26WallpaperMultipartResponseV
++ _symbolic _____ 12MigrationKit26WallpaperMultipartResponseV8IteratorV
++ _symbolic _____ 12MigrationKit28AccountPersistenceModelActorC
++ _symbolic _____ 12MigrationKit28_PlayIntegrityRequestDetails33_CB03C172530FA77F47400EF52B581884LLV
++ _symbolic _____ 12MigrationKit28_PlayIntegrityRequestDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysO
++ _symbolic _____ 12MigrationKit32PlaceholderPersistenceModelActorC
++ _symbolic _____ 12MigrationKit32WiFiNetworkPersistenceModelActorC
++ _symbolic _____ 12MigrationKit9APIClientV
++ _symbolic _____ 6IMCore12ImportExportO8ImporterC
++ _symbolic _____ So16os_unfair_lock_sV
++ _symbolic _____ s11AnyHashableV
++ _symbolic _____ s5NeverO
++ _symbolic _____ s6UInt32V
++ _symbolic _____3key_yp5valuet s11AnyHashableV
++ _symbolic _____Sg 12MigrationKit16ImportControllerC6ResultV
++ _symbolic _____Sg 12MigrationKit17_PlayAppIntegrity33_CB03C172530FA77F47400EF52B581884LLV
++ _symbolic _____Sg 12MigrationKit19_PlayAccountDetails33_CB03C172530FA77F47400EF52B581884LLV
++ _symbolic _____Sg 12MigrationKit20_PlayDeviceIntegrity33_CB03C172530FA77F47400EF52B581884LLV
++ _symbolic _____Sg 12MigrationKit22HomeScreenPersistence2C
++ _symbolic _____Sg 12MigrationKit23_PlayEnvironmentDetails33_CB03C172530FA77F47400EF52B581884LLV
++ _symbolic _____Sg 12MigrationKit28_PlayIntegrityRequestDetails33_CB03C172530FA77F47400EF52B581884LLV
++ _symbolic _____Sg 12MigrationKit9WallpaperV
++ _symbolic _____Sg s11AnyHashableV
++ _symbolic _____SgIeAgHr_ 12MigrationKit16ImportControllerC6ResultV
++ _symbolic _____SgSg 12MigrationKit16ImportControllerC6ResultV
++ _symbolic _____SgXw 12MigrationKit11AppImporterC
++ _symbolic _____SgXw 12MigrationKit14ServiceBrowserC
++ _symbolic _____SgXw 12MigrationKit16ImportControllerC
++ _symbolic _____SgXwz_Xx 12MigrationKit11AppImporterC
++ _symbolic _____SgXwz_Xx 12MigrationKit16ImportControllerC
++ _symbolic ______AAt s6UInt64V
++ _symbolic ______SSt 12MigrationKit17SupportedMIMEType33_A0B914C53AC8ABC33D64E46E2CB2D78BLLO
++ _symbolic ______SbSgt 12MigrationKit14OSMigrationAppV
++ _symbolic ______SbSgtIeAgHr_ 12MigrationKit14OSMigrationAppV
++ _symbolic ______SbSgtSg 12MigrationKit14OSMigrationAppV
++ _symbolic __________Xj l9SwiftData07BackingB0_px5ModelRts_XPXGMq 12MigrationKit021HomescreenPersistenceD0C
++ _symbolic __________Xj l9SwiftData07BackingB0_px5ModelRts_XPXGMq 12MigrationKit18AccountPersistenceC
++ _symbolic __________Xj l9SwiftData07BackingB0_px5ModelRts_XPXGMq 12MigrationKit22PlaceholderPersistenceC
++ _symbolic __________Xj l9SwiftData07BackingB0_px5ModelRts_XPXGMq 12MigrationKit22WiFiNetworkPersistenceC
++ _symbolic ___________Sgt 12MigrationKit37OSMigrationDeviceIntegrityAttestationV06OneOf_F0O AA0C8PlatformO
++ _symbolic ________________pXj r0_lScI_px7ElementRts_q_7FailureRtsXPXGMq 12MigrationKit9WallpaperV s5ErrorP
++ _symbolic ________________pXj r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq 12MigrationKit9WallpaperV s5ErrorP
++ _symbolic ___________p 12MigrationKit16AsyncInputStreamP AA10ConsumableP
++ _symbolic ___________t 12MigrationKit23OSMigrationResourceTypeO AA16ImportControllerC7ContextC
++ _symbolic ______p 12MigrationKit24ContainsUnderlyingErrorsP
++ _symbolic ______p 12MigrationKit25PropertyListRepresentableP
++ _symbolic ______p 12MigrationKit27ConcurrentDataClassImporterP
++ _symbolic ______p 12MigrationKit30ContainsAdditionalErrorContextP
++ _symbolic ______p s23CustomStringConvertibleP
++ _symbolic ______p s28CustomDebugStringConvertibleP
++ _symbolic ______pSg 12MigrationKit24ContainsUnderlyingErrorsP
++ _symbolic ______pSg 12MigrationKit25PropertyListRepresentableP
++ _symbolic ______pSg 12MigrationKit30ContainsAdditionalErrorContextP
++ _symbolic ______pSg s23CustomStringConvertibleP
++ _symbolic ______pSg s28CustomDebugStringConvertibleP
++ _symbolic ______p_Sdt s5ErrorP
++ _symbolic ______p______So17NSHTTPURLResponseCt s5ErrorP 10Foundation10URLRequestV
++ _symbolic ______p______t s5ErrorP 12MigrationKit21PlayIntegrityResponseV
++ _symbolic _____xXj lST_px7ElementRts_XPXGMq
++ _symbolic _____xXj lSt_px7ElementRts_XPXGMq
++ _symbolic _____ySDySSypG_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic _____ySSG 12MigrationKit15InternalDefaultV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12MigrationKit14ErrorCollectorC0E5StatsV
++ _symbolic _____ySS_______ptG s23_ContiguousArrayStorageC s23CustomStringConvertibleP
++ _symbolic _____ySS______pG s18_DictionaryStorageC s23CustomStringConvertibleP
++ _symbolic _____ySS______p_G SD4KeysV s23CustomStringConvertibleP
++ _symbolic _____ySbSg______pG 12MigrationKit25TimeSensitiveContinuationV s5ErrorP
++ _symbolic _____ySiSay_____GG s18_DictionaryStorageC 12MigrationKit26HomescreenPersistenceModelC
++ _symbolic _____y_AAy______y______GSSGSiG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 12MigrationKit22PlaceholderPersistenceC
++ _symbolic _____y_AAy______y______GSSGSiG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 12MigrationKit26HomescreenPersistenceModelC
++ _symbolic _____y_____G 10Foundation14SortDescriptorV 12MigrationKit26HomescreenPersistenceModelC
++ _symbolic _____y_____G 12MigrationKit18ArrayAsyncSequenceV AA9WallpaperV
++ _symbolic _____y_____G 9SwiftData15FetchDescriptorV 12MigrationKit22PlaceholderPersistenceC
++ _symbolic _____y_____G 9SwiftData15FetchDescriptorV 12MigrationKit26HomescreenPersistenceModelC
++ _symbolic _____y_____G s11_SetStorageC 12MigrationKit20AndroidAppIdentifierV
++ _symbolic _____y_____G s11_SetStorageC s11AnyHashableV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12MigrationKit17_PlayAppIntegrity33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12MigrationKit19_PlayAccountDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12MigrationKit20_PlayDeviceIntegrity33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12MigrationKit21PlayIntegrityResponseV10CodingKeys33_CB03C172530FA77F47400EF52B581884LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12MigrationKit23_PlayEnvironmentDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12MigrationKit28_PlayIntegrityRequestDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12MigrationKit17_PlayAppIntegrity33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12MigrationKit19_PlayAccountDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12MigrationKit20_PlayDeviceIntegrity33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12MigrationKit21PlayIntegrityResponseV10CodingKeys33_CB03C172530FA77F47400EF52B581884LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12MigrationKit23_PlayEnvironmentDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12MigrationKit28_PlayIntegrityRequestDetails33_CB03C172530FA77F47400EF52B581884LLV10CodingKeysO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12MigrationKit10HomescreenV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12MigrationKit14ErrorCollectorC0F5StatsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12MigrationKit16ImportControllerC6ResultV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12MigrationKit20AndroidAppIdentifierV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12MigrationKit9WallpaperV
++ _symbolic _____y_____SSG s18_DictionaryStorageC 12MigrationKit17SupportedMIMEType33_A0B914C53AC8ABC33D64E46E2CB2D78BLLO
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 12MigrationKit23OSMigrationResourceTypeO AC14ErrorCollectorC0H5StatsV
++ _symbolic _____y_____Sg_G ScG8IteratorV 12MigrationKit16ImportControllerC6ResultV
++ _symbolic _____y______AAQo_ 9SwiftData15PersistentModelPAAE013createBackingB0QryAaBRd__lFZQO 12MigrationKit021HomescreenPersistenceD0C
++ _symbolic _____y______AAQo_ 9SwiftData15PersistentModelPAAE013createBackingB0QryAaBRd__lFZQO 12MigrationKit18AccountPersistenceC
++ _symbolic _____y______AAQo_ 9SwiftData15PersistentModelPAAE013createBackingB0QryAaBRd__lFZQO 12MigrationKit22PlaceholderPersistenceC
++ _symbolic _____y______AAQo_ 9SwiftData15PersistentModelPAAE013createBackingB0QryAaBRd__lFZQO 12MigrationKit22WiFiNetworkPersistenceC
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 12MigrationKit22PlaceholderPersistenceC
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 12MigrationKit26HomescreenPersistenceModelC
++ _symbolic _____y______QPG 10Foundation9PredicateV 12MigrationKit22PlaceholderPersistenceC
++ _symbolic _____y______QPG 10Foundation9PredicateV 12MigrationKit26HomescreenPersistenceModelC
++ _symbolic _____y______QPGSg 10Foundation9PredicateV 12MigrationKit22PlaceholderPersistenceC
++ _symbolic _____y______QPGSg 10Foundation9PredicateV 12MigrationKit26HomescreenPersistenceModelC
++ _symbolic _____y______SbSgt_G ScG8IteratorV 12MigrationKit14OSMigrationAppV
++ _symbolic _____y__________G s18_DictionaryStorageC 12MigrationKit23OSMigrationResourceTypeO AC12TaskProgressC
++ _symbolic _____y__________G s18_DictionaryStorageC 12MigrationKit23OSMigrationResourceTypeO AC15MessageDownloadV
++ _symbolic _____y__________G s18_DictionaryStorageC 12MigrationKit23OSMigrationResourceTypeO AC16ImportControllerC7ContextC
++ _symbolic _____y___________pG 12MigrationKit16AnyAsyncSequenceV AA4FileV s5ErrorP
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 12MigrationKit23OSMigrationResourceTypeO AC16ImportControllerC7ContextC
++ _symbolic _____y______pXpG s23_ContiguousArrayStorageC 21InternalSwiftProtobuf7MessageP
++ _symbolic _____y______y_ABy______y______GSSGSiG_____y_SiGG 10Foundation20PredicateExpressionsO10ComparisonV AC7KeyPathV AC8VariableV 12MigrationKit22PlaceholderPersistenceC AC5ValueV
++ _symbolic _____y______y_ABy______y______GSSGSiG_____y_SiGG 10Foundation20PredicateExpressionsO10ComparisonV AC7KeyPathV AC8VariableV 12MigrationKit26HomescreenPersistenceModelC AC5ValueV
++ _symbolic _____y______y_ABy______y______GSSGSiG_____y_SiGG 10Foundation20PredicateExpressionsO5EqualV AC7KeyPathV AC8VariableV 12MigrationKit22PlaceholderPersistenceC AC5ValueV
++ _symbolic _____y______y_ABy______y______GSSGSiG_____y_SiGG 10Foundation20PredicateExpressionsO5EqualV AC7KeyPathV AC8VariableV 12MigrationKit26HomescreenPersistenceModelC AC5ValueV
++ _symbolic _____y______y______GSSG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 12MigrationKit22PlaceholderPersistenceC
++ _symbolic _____y______y______GSSG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 12MigrationKit26HomescreenPersistenceModelC
++ _symbolic _____y______y______y_ACy______y______GSSGSiG_____y_SiGG_____y_AhJGG 10Foundation20PredicateExpressionsO11ConjunctionV AC10ComparisonV AC7KeyPathV AC8VariableV 12MigrationKit22PlaceholderPersistenceC AC5ValueV AC5EqualV
++ _symbolic _____y______y______y_ACy______y______GSSGSiG_____y_SiGG_____y_AhJGG 10Foundation20PredicateExpressionsO11ConjunctionV AC10ComparisonV AC7KeyPathV AC8VariableV 12MigrationKit26HomescreenPersistenceModelC AC5ValueV AC5EqualV
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10Foundation14SortDescriptorV 12MigrationKit26HomescreenPersistenceModelC
++ _symbolic _____y_____y___________pGG 12MigrationKit20AsyncSequenceAdapter33_C760B0DF13D87FA54AA06EF5859181FDLLV s6ResultOsRi_zRi0_zrlE AA4FileV s5ErrorP
++ _symbolic _____y_____y___________pG_____G s23AsyncCompactMapSequenceV 12MigrationKit03AnyaD0V AC4FileV s5ErrorP AC16HTTPPartResponseC
++ _symbolic _____y_____y_____y___________pGGADG s31AsyncThrowingCompactMapSequenceV 12MigrationKit0aE7Adapter33_C760B0DF13D87FA54AA06EF5859181FDLLV s6ResultOsRi_zRi0_zrlE AC4FileV s5ErrorP
++ _symbolic _____y_____y_____y___________pGGAD_G s31AsyncThrowingCompactMapSequenceV8IteratorV 12MigrationKit0aE7Adapter33_C760B0DF13D87FA54AA06EF5859181FDLLV s6ResultOsRi_zRi0_zrlE AE4FileV s5ErrorP
++ _symbolic _____yx_G 12MigrationKit20AsyncSequenceAdapter33_C760B0DF13D87FA54AA06EF5859181FDLLV8IteratorV
++ _symbolic _____yxq__G 12MigrationKit16AnyAsyncSequenceV0cD8IteratorV
++ _symbolic _____yxq__Gyc 12MigrationKit16AnyAsyncSequenceV0cD8IteratorV
++ _symbolic xSgyYaKc
++ _type_layout_string 12MigrationKit10HomescreenV
++ _type_layout_string 12MigrationKit13ResourceOrderO
++ _type_layout_string 12MigrationKit14ErrorCollectorC0C5StatsV
++ _type_layout_string 12MigrationKit15MessageDownloadV
++ _type_layout_string 12MigrationKit16ConnectionReaderC5ErrorO
++ _type_layout_string 12MigrationKit17WallpaperMigratorV
++ _type_layout_string 12MigrationKit17_PlayAppIntegrity33_CB03C172530FA77F47400EF52B581884LLV
++ _type_layout_string 12MigrationKit19_PlayAccountDetails33_CB03C172530FA77F47400EF52B581884LLV
++ _type_layout_string 12MigrationKit20_PlayDeviceIntegrity33_CB03C172530FA77F47400EF52B581884LLV
++ _type_layout_string 12MigrationKit21PlayIntegrityResponseV
++ _type_layout_string 12MigrationKit22HomeScreenLazyMigratorV
++ _type_layout_string 12MigrationKit23_PlayEnvironmentDetails33_CB03C172530FA77F47400EF52B581884LLV
++ _type_layout_string 12MigrationKit26WallpaperMultipartResponseV
++ _type_layout_string 12MigrationKit26WallpaperMultipartResponseV8IteratorV
++ _type_layout_string 12MigrationKit28_PlayIntegrityRequestDetails33_CB03C172530FA77F47400EF52B581884LLV
++ _type_layout_string 12MigrationKit9APIClientV
++ _type_layout_string So16os_unfair_lock_sV
++ _type_layout_string l12MigrationKit20AsyncSequenceAdapter33_C760B0DF13D87FA54AA06EF5859181FDLLV8IteratorVyx_G
++ _type_layout_string l12MigrationKit20AsyncSequenceAdapter33_C760B0DF13D87FA54AA06EF5859181FDLLVyxG
++ _type_layout_string r0_l12MigrationKit16AnyAsyncSequenceV0cD8IteratorVyxq__G
++ _type_layout_string r0_l12MigrationKit16AnyAsyncSequenceVyxq_G
+- __DATA__TtCVV12MigrationKit12FileExporter12FileSequenceP33_B00A766045084220189B0C5FE352127D15FileInputStream
+- __IVARS__TtCVV12MigrationKit12FileExporter12FileSequenceP33_B00A766045084220189B0C5FE352127D15FileInputStream
+- __METACLASS_DATA__TtCVV12MigrationKit12FileExporter12FileSequenceP33_B00A766045084220189B0C5FE352127D15FileInputStream
+- ___swift_get_extra_inhabitant_index.62Tm
+- ___swift_store_extra_inhabitant_index.63Tm
+- _associated conformance 12MigrationKit12FileExporterV0C8SequenceVSTAA8IteratorST_St
+- _associated conformance 12MigrationKit17SupportedMIMETypeOSHAASQ
+- _associated conformance 12MigrationKit17SupportedMIMETypeOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 12MigrationKit29PrintDeserializedProtoCommandV9DataClassOSHAASQ
+- _associated conformance 12MigrationKit29PrintDeserializedProtoCommandV9DataClassOs12CaseIterableAA8AllCasessAFP_Sl
+- _block_copy_helper.29
+- _block_copy_helper.35
+- _block_descriptor.31
+- _block_descriptor.37
+- _block_destroy_helper.30
+- _block_destroy_helper.36
+- _get_enum_tag_for_layout_string 12MigrationKit11AppImporterVSg
+- _get_enum_tag_for_layout_string 12MigrationKit6ClientC8ImporterO
+- _objectdestroy.18Tm
+- _objectdestroy.27Tm
+- _objectdestroy.52Tm
+- _objectdestroy.57Tm
+- _objectdestroy.75Tm
+- _swift_dynamicCastObjCClassUnconditional
+- _symbolic $s12MigrationKit12DataImporterP
+- _symbolic $s12MigrationKit23ContainsUnderlyingErrorP
+- _symbolic SDy__________G 12MigrationKit9SelectionO AA25OSMigrationDataClassEntryV
+- _symbolic SaySDySSypGG
+- _symbolic Say_____G 12MigrationKit17SupportedMIMETypeO
+- _symbolic Say_____G 12MigrationKit29PrintDeserializedProtoCommandV9DataClassO
+- _symbolic Say_____y___________pGG s6ResultOsRi_zRi0_zrlE 12MigrationKit27OSMigrationHomeScreenLayoutV s5ErrorP
+- _symbolic SbIeAgHr_
+- _symbolic Shy_____G 7Network9NWBrowserC6ResultV
+- _symbolic Shy_____G 7Network9NWBrowserC6ResultV6ChangeO
+- _symbolic _____ 12MigrationKit11AppImporterV
+- _symbolic _____ 12MigrationKit12FileExporterV0C8SequenceV
+- _symbolic _____ 12MigrationKit12FileExporterV0C8SequenceV0C11InputStream33_B00A766045084220189B0C5FE352127DLLC
+- _symbolic _____ 12MigrationKit12FileImporterV
+- _symbolic _____ 12MigrationKit15AccountImporterV
+- _symbolic _____ 12MigrationKit15ContactImporterV
+- _symbolic _____ 12MigrationKit17SupportedMIMETypeO
+- _symbolic _____ 12MigrationKit19WiFiNetworkImporterV
+- _symbolic _____ 12MigrationKit29PrintDeserializedProtoCommandV9DataClassO
+- _symbolic _____ 12MigrationKit6ClientC8ImporterO
+- _symbolic _____ So8ItemTypeV
+- _symbolic _____11attestation______Sg8platformt 12MigrationKit37OSMigrationDeviceIntegrityAttestationV06OneOf_F0O AA0C8PlatformO
+- _symbolic _____11attestation_t 12MigrationKit37OSMigrationDeviceIntegrityAttestationV
+- _symbolic _____13playIntegrity_t 12MigrationKit24OSMigrationPlayIntegrityV
+- _symbolic _____14appleIntegrity_t 12MigrationKit25OSMigrationAppleIntegrityV
+- _symbolic _____Sg 12MigrationKit11AppExporterV
+- _symbolic _____Sg 12MigrationKit11AppImporterV
+- _symbolic _____Sg 12MigrationKit12TaskProgressC
+- _symbolic _____Sg 12MigrationKit17ImportCoordinatorC
+- _symbolic _____Sg 12MigrationKit19OSMigrationResourceV
+- _symbolic _____Sg 12MigrationKit25OSMigrationDataClassEntryV
+- _symbolic _____SgXw 12MigrationKit8ResolverC
+- _symbolic _____SgXwz_Xx 12MigrationKit8ResolverC
+- _symbolic ______SSt 12MigrationKit17SupportedMIMETypeO
+- _symbolic ___________t 12MigrationKit9SelectionO AA25OSMigrationDataClassEntryV
+- _symbolic ___________t 12MigrationKit9SelectionO AA6ClientC8ImporterO
+- _symbolic ___________y___________pGSgt 12MigrationKit9SelectionO s6ResultOsRi_zRi0_zrlE AA020OSMigrationDataClassD0V s5ErrorP
+- _symbolic ___________y___________pGSgtIeAgHr_ 12MigrationKit9SelectionO s6ResultOsRi_zRi0_zrlE AA020OSMigrationDataClassD0V s5ErrorP
+- _symbolic ___________y___________pGSgtSg 12MigrationKit9SelectionO s6ResultOsRi_zRi0_zrlE AA020OSMigrationDataClassD0V s5ErrorP
+- _symbolic ______p 12MigrationKit17DataClassImporterP
+- _symbolic ______p 12MigrationKit8MigratorP
+- _symbolic ______p5error_Sd7elapsedt s5ErrorP
+- _symbolic _____m 12MigrationKit11AppMigratorV
+- _symbolic _____m 12MigrationKit12FileImporterV
+- _symbolic _____m 12MigrationKit13AlarmMigratorV
+- _symbolic _____m 12MigrationKit13MusicMigratorV
+- _symbolic _____m 12MigrationKit14WalletMigratorV
+- _symbolic _____m 12MigrationKit15AccountMigratorV
+- _symbolic _____m 12MigrationKit15ContactMigratorV
+- _symbolic _____m 12MigrationKit15MessageMigratorV
+- _symbolic _____m 12MigrationKit16CalendarMigratorV
+- _symbolic _____m 12MigrationKit17VoiceMemoMigratorV
+- _symbolic _____m 12MigrationKit18AppContentMigratorV
+- _symbolic _____m 12MigrationKit18HomeScreenMigratorV
+- _symbolic _____m 12MigrationKit19CallHistoryMigratorV
+- _symbolic _____m 12MigrationKit19WiFiNetworkMigratorV
+- _symbolic _____m 12MigrationKit20AppDataclassMigratorV
+- _symbolic _____m 12MigrationKit20PhotoLibraryMigratorV
+- _symbolic _____m 12MigrationKit21AccessibilityMigratorV
+- _symbolic _____ySDySSypGG s23_ContiguousArrayStorageC
+- _symbolic _____ySb_G ScG8IteratorV
+- _symbolic _____y_____G 22ArgumentParserInternal0A0V 12MigrationKit29PrintDeserializedProtoCommandV9DataClassO
+- _symbolic _____y_____G s11_SetStorageC 7Network10NWEndpointO
+- _symbolic _____y_____G s12LazySequenceV 12MigrationKit12FileExporterV0eB0V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12MigrationKit32OSMigrationAccessibilitySettingsV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12MigrationKit9RecordingV
+- _symbolic _____y_____SSG s18_DictionaryStorageC 12MigrationKit17SupportedMIMETypeO
+- _symbolic _____y______G 12MigrationKit10LinkedListV4Node012_E9A37D175A4I19B4714018A3CC65C5140LLC AA8EndpointV
+- _symbolic _____y__________G s18_DictionaryStorageC 12MigrationKit9SelectionO AC25OSMigrationDataClassEntryV
+- _symbolic _____y__________G s18_DictionaryStorageC 12MigrationKit9SelectionO AC6ClientC8ImporterO
+- _symbolic _____y__________SgG s15LazyMapSequenceV 12MigrationKit12FileExporterV0fC0V AC16HTTPPartResponseC
+- _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 12MigrationKit020OSMigrationDataClassA0V s5ErrorP
+- _symbolic _____y___________pGSg s6ResultOsRi_zRi0_zrlE 12MigrationKit020OSMigrationDataClassA0V s5ErrorP
+- _symbolic _____y___________y___________pGSgt_G ScG8IteratorV 12MigrationKit9SelectionO s6ResultOsRi_zRi0_zrlE AC020OSMigrationDataClassE0V s5ErrorP
+- _symbolic _____y_____yAAy__________SgGGADG s15LazyMapSequenceV s0a6FilterC0V 12MigrationKit12FileExporterV0gC0V AE16HTTPPartResponseC
+- _symbolic _____y_____y__________SgGG s18LazyFilterSequenceV s0a3MapC0V 12MigrationKit12FileExporterV0gC0V AE16HTTPPartResponseC
+- _type_layout_string 12MigrationKit11AppImporterV
+- _type_layout_string 12MigrationKit12FileImporterV
+- _type_layout_string 12MigrationKit12FileMigratorV
+- _type_layout_string 12MigrationKit13AlarmMigratorV
+- _type_layout_string 12MigrationKit13MusicMigratorV
+- _type_layout_string 12MigrationKit14WalletMigratorV
+- _type_layout_string 12MigrationKit15ContactImporterV
+- _type_layout_string 12MigrationKit15MessageMigratorV
+- _type_layout_string 12MigrationKit16CalendarMigratorV
+- _type_layout_string 12MigrationKit17VoiceMemoMigratorV
+- _type_layout_string 12MigrationKit18HomeScreenMigratorV
+- _type_layout_string 12MigrationKit19CallHistoryMigratorV
+- _type_layout_string 12MigrationKit21AccessibilityMigratorV
+- _type_layout_string 12MigrationKit6ClientC8ImporterO
+CStrings:
++ "\terrors: %{public}s"
++ " items were not imported"
++ "%{public}s: %s"
++ ", dock_items_count="
++ "-----BEGIN CERTIFICATE-----"
++ "-----END CERTIFICATE-----"
++ "@\"SBSHomeScreenService\""
++ "@104@0:8q16q24q32q40q48q56@64@72@80q88q96"
++ "@72@0:8q16q24q32q40@48q56q64"
++ "@80@0:8q16q24q32q40q48@56q64q72"
++ "Attestation is not supported on virtual machines"
++ "Caught retryable error, will resume"
++ "Content type not provided"
++ "Could not find lock screen or home screen wallpaper"
++ "Couldn't find proto message type: "
++ "DefaultsOverride"
++ "Device did not meet integrity requirements"
++ "Duplicate values for key: '"
++ "Empty server response"
++ "Error importing playlist"
++ "Event ID not found: "
++ "Expected a %s %s but found %s: %s remote value"
++ "Expected a %s %s but found %s: %s stored value"
++ "Failed converting response headers to [String:String] dictionary"
++ "Failed creating keychain access control"
++ "Failed creating signature and attestation headers"
++ "Failed initializing attestation"
++ "Failed obtaining device identity client certificate"
++ "Failed signing Andata request"
++ "Failed to create temp file"
++ "Failed to decode JSON into AndataResponse"
++ "Failed to deserialize Wi-Fi network array"
++ "Failed to deserialize alarms"
++ "Failed to deserialize property list data"
++ "Failed to deserialize voice memo recording"
++ "Failed to fetch home screen wallpaper"
++ "Failed to fetch lock screen wallpaper"
++ "Failed to generate private key"
++ "Failed to import Wallpaper"
++ "Failed to import account array"
++ "Failed to import event attachment"
++ "Failed to import wallpaper"
++ "Failed to import wallpapers"
++ "Failed to issue client certificates"
++ "Failed to serialize metadata for file"
++ "Failed to set file attributes"
++ "Fetching home screen wallpaper"
++ "Fetching lock screen wallpaper"
++ "Finished importing resource: %s"
++ "Force failing attestation"
++ "Force failing attestation without contacting service"
++ "Force passing attestation without contacting service"
++ "Force passing attestation, despite failure"
++ "Importing Wallpaper: %s"
++ "Importing resource: %s"
++ "Invalid HTTP status code: "
++ "MEETS_DEVICE_INTEGRITY"
++ "MKHomescreen"
++ "MKHomescreenMigrator"
++ "MigrationKit/APIClient.swift"
++ "MigrationKit/APIClientFactory.swift"
++ "MigrationKit/AccessibilityImporter.swift"
++ "MigrationKit/AccountPersistence.swift"
++ "MigrationKit/AccountPersistenceModelActor.swift"
++ "MigrationKit/AppContentImporter.swift"
++ "MigrationKit/AppDataclassImporter.swift"
++ "MigrationKit/AsyncInputStreamReader.swift"
++ "MigrationKit/CallHistoryConverter.swift"
++ "MigrationKit/ChunkedTransferEncoding.swift"
++ "MigrationKit/DebugCrossPlatformCellularPlanExporter.swift"
++ "MigrationKit/GooglePlayIntegrityChecker.swift"
++ "MigrationKit/HTTPMultipart.swift"
++ "MigrationKit/HTTPPartResponse.swift"
++ "MigrationKit/HTTPStreamClientHeadersBuilder.swift"
++ "MigrationKit/HTTPStreamHeadersBuildable.swift"
++ "MigrationKit/HTTPStreamServerHeadersBuilder.swift"
++ "MigrationKit/HTTPStreamServerMultipartBody.swift"
++ "MigrationKit/HomescreenPersistenceModel.swift"
++ "MigrationKit/HomescreenSerializable.swift"
++ "MigrationKit/LocalCertificate.swift"
++ "MigrationKit/PlaceholderLazyMigrator.swift"
++ "MigrationKit/PlaceholderMigrator.swift"
++ "MigrationKit/PlaceholderPersistence.swift"
++ "MigrationKit/PlaceholderPersistenceModelActor.swift"
++ "MigrationKit/Random.swift"
++ "MigrationKit/RemoteConfiguration.swift"
++ "MigrationKit/SPAKE2PlusConfiguration.swift"
++ "MigrationKit/ServiceBrowser.swift"
++ "MigrationKit/URL.swift"
++ "MigrationKit/WallpaperExporter.swift"
++ "MigrationKit/WallpaperImporter.swift"
++ "MigrationKit/WiFiNetworkPersistence.swift"
++ "MigrationKit/WiFiNetworkPersistenceModelActor.swift"
++ "No context for resource "
++ "No data available on stream"
++ "No importer for data class "
++ "No leaf certificate found"
++ "No match found for app"
++ "No metadata provided"
++ "Non-Dictionary JSON server response"
++ "Non-HTTP URL response"
++ "Non-JSON server response"
++ "Non-String server response "
++ "Path to serialized proto binary file"
++ "Print serialized proto instances"
++ "Request Headers: %s"
++ "Request did not originate from GMS"
++ "Request: %s"
++ "Requesting app was not distributed by Google Play"
++ "Response Headers: %s"
++ "Response did not contain app integrity"
++ "Response did not contain device integrity"
++ "Saved wallpaper to temp file at %s"
++ "Swift/Dictionary.swift"
++ "Swift/NativeDictionary.swift"
++ "T@\"NSString\",C,N,V_bundleID"
++ "T@\"NSString\",C,N,V_kind"
++ "Tq,N,V_ID"
++ "Tq,N,V_folder"
++ "Tq,N,V_height"
++ "Tq,N,V_maxHeight"
++ "Tq,N,V_maxWidth"
++ "Tq,N,V_page"
++ "Tq,N,V_width"
++ "Tq,N,V_x"
++ "Tq,N,V_y"
++ "Type of proto message to deserialize"
++ "Unable to convert data class "
++ "Wallpapers Received Count: %ld"
++ "Will import lock screen wallpaper from %s"
++ "Will import single wallpaper received: %ld"
++ "Will import wallpapers received: %ld"
++ "_TtC12MigrationKit11AppImporter"
++ "_TtC12MigrationKit12FileImporter"
++ "_TtC12MigrationKit13AlarmImporter"
++ "_TtC12MigrationKit13MusicImporter"
++ "_TtC12MigrationKit14ErrorCollector"
++ "_TtC12MigrationKit14ServiceBrowser"
++ "_TtC12MigrationKit14WalletImporter"
++ "_TtC12MigrationKit15AccountImporter"
++ "_TtC12MigrationKit15ContactImporter"
++ "_TtC12MigrationKit15MessageImporter"
++ "_TtC12MigrationKit16APIClientFactory"
++ "_TtC12MigrationKit16CalendarImporter"
++ "_TtC12MigrationKit17VoiceMemoImporter"
++ "_TtC12MigrationKit17WallpaperImporter"
++ "_TtC12MigrationKit18AccountPersistence"
++ "_TtC12MigrationKit18AppContentImporter"
++ "_TtC12MigrationKit18HomeScreenImporter"
++ "_TtC12MigrationKit19CallHistoryImporter"
++ "_TtC12MigrationKit19WiFiNetworkImporter"
++ "_TtC12MigrationKit20AppDataclassImporter"
++ "_TtC12MigrationKit20PhotoLibraryImporter"
++ "_TtC12MigrationKit21AccessibilityImporter"
++ "_TtC12MigrationKit22PlaceholderPersistence"
++ "_TtC12MigrationKit22WiFiNetworkPersistence"
++ "_TtC12MigrationKit26HomescreenPersistenceModel"
++ "_TtC12MigrationKit28AccountPersistenceModelActor"
++ "_TtC12MigrationKit32PlaceholderPersistenceModelActor"
++ "_TtC12MigrationKit32WiFiNetworkPersistenceModelActor"
++ "_TtCC12MigrationKit16ImportController7Context"
++ "_TtCVV12MigrationKit12FileExporterP33_B00A766045084220189B0C5FE352127D12FileSequence15FileInputStream"
++ "_androidAccountType"
++ "_appID"
++ "_baaHeaders(for:)"
++ "_bundleID"
++ "_createAccessControl()"
++ "_createSignature(for:key:)"
++ "_createSignatureAndAttestationHeaders(body:key:certificates:)"
++ "_distributorBundleID"
++ "_downloadMobileAsset(typeIdentifier:filter:)"
++ "_downloadPhotos(context:)"
++ "_enable()"
++ "_generateAssertion(convolvedChallengeHash:isRetry:)"
++ "_installed"
++ "_installer"
++ "_iosAccountType"
++ "_keyIdentifierAndAttestation(shouldRetry:)"
++ "_kind"
++ "_maxHeight"
++ "_maxWidth"
++ "_packageName"
++ "_page"
++ "_passphrase"
++ "_primitiveParseAndataResponse(responseData:httpResponse:)"
++ "_primitiveValidatePlayIntegrity(response:)"
++ "_requestAndataValidation(playIntegrityToken:)"
++ "_run(estimation:contexts:)"
++ "_store"
++ "_storeID"
++ "_write(_:_:)"
++ "_write(stringValue:)"
++ "_x"
++ "_y"
++ "addMusic(_:_:_:)"
++ "allHeaderFields"
++ "andata/api/v1/validateattestation"
++ "androidAccountType"
++ "apiClientFactory"
++ "appAccessRiskVerdict"
++ "appFromRecord(_:)"
++ "appLicensingVerdict"
++ "appRecognitionVerdict"
++ "associate(ssid:password:)"
++ "attaching: %s"
++ "attestationForceSkipService"
++ "attestationForceVerdict"
++ "attestationServiceHostURL"
++ "attestationServiceTimeout"
++ "attestationStartMessageSender"
++ "beginDiscovery()"
++ "build:item:ID:page:x:y:maxWidth:maxHeight:"
++ "calculateFreeStorage()"
++ "calendarIDMap"
++ "cert count: %ld"
++ "certificateSha256Digest"
++ "challengeHash"
++ "com.google.android.gms"
++ "connect()"
++ "contactStore"
++ "containerForImport()"
++ "content(caller:)"
++ "contextForResource(_:)"
++ "contextsForEntry(_:)"
++ "convertCWFSecurityType(_:)"
++ "convertWiFiSecurityType(_:)"
++ "converted account to mkAccount: mkAccount.type: %s, mkAccount.username: %s before import"
++ "createFile(at:withRelativePath:)"
++ "createPlaceholder(for:appName:iconURL:storeMetadata:hasAppContent:)"
++ "createPurchaseRequest(forAppIDs:)"
++ "createTemporaryPNGFile(_:)"
++ "currentOffset"
++ "currentProgress"
++ "currentRemaining"
++ "dataClassEntryForSelection(_:)"
++ "dataControlDeviceInfoMessageHandler"
++ "dataSession(_:failedToStartWithError:)"
++ "dataclassEndpoint"
++ "defaultSessionConfiguration"
++ "deserialized a folder. %s"
++ "deserialized a network. %s"
++ "deserialized a widget. %s"
++ "deserialized an account. %s"
++ "deserialized an android app. %s"
++ "deserialized an ios app. %s"
++ "deviceRecognitionVerdict"
++ "did run"
++ "distributorBundleID"
++ "downloadAttachments(db:context:)"
++ "downloadConversations(db:context:)"
++ "downloadMessages(db:context:)"
++ "downloadParticipants(db:context:)"
++ "downloadPhotoItem(multipart:id:modelActor:context:)"
++ "downloadPhotos(context:)"
++ "downloadsByResource"
++ "endpointForSession(_:peerDataAddress:serviceSpecificInfo:)"
++ "enumerateObjects(path:offset:batchLimit:handler:)"
++ "enumerateStreams(path:offset:handler:)"
++ "environmentDetails"
++ "errorStatsBySignature"
++ "errors"
++ "esim data transfer does not require wi-fi but internet connectivity is necessary for attestation."
++ "estimated all homescreen items."
++ "estimated all homescreen items. size=%ld, count=%ld"
++ "eventIDMap"
++ "exchangeDeviceInfo(_:)"
++ "export(query:)"
++ "exportOptions"
++ "exportResources(for:platform:exportOptions:)"
++ "exportSerializedData(for:platform:exportOptions:)"
++ "exported a layout. %s"
++ "exported all homescreen items."
++ "failed to delete the directory"
++ "failed to find the current service over mdns"
++ "failed to initialize database and will skip it."
++ "failed to initialize the homescreen database."
++ "failed to remove existing database directory"
++ "failed to send disconnection request and will shutdown only on the current device."
++ "failed to serialize data."
++ "failed to write an attachment. id="
++ "favorites"
++ "fetchAppContentList()"
++ "fetchHomeScreenWallpaperForOrientation:completion:"
++ "fetchLockScreenWallpaperForOrientation:completion:"
++ "fetchResources(from:identifier:bytesWritten:context:)"
++ "fetchSerializedData(from:identifier:bytesWritten:context:)"
++ "finalize(contexts:)"
++ "forCurrentNetwork()"
++ "fromURL(_:)"
++ "generate(code:size:)"
++ "getEnumerator(includingPropertiesForKeys:options:)"
++ "getIconURL(artworkDictionary:)"
++ "getURL()"
++ "getWiFiCredentials()"
++ "handle type: %ld"
++ "handle(request:response:)"
++ "handleControlMessageNotification(data:)"
++ "handleDataControlMessageNotification(data:)"
++ "https://andata.ist.apple.com"
++ "importAlarms(_:context:)"
++ "importApps(_:context:)"
++ "importAttachment(_:_:)"
++ "importAttachments(_:_:)"
++ "importCalendars(_:_:)"
++ "importContactPhoto(contactID:imageData:)"
++ "importContactPhotos(client:context:)"
++ "importContacts(client:context:)"
++ "importContentIntoDataclassOwner(isArchive:successCount:failureCount:)"
++ "importCoordinator"
++ "importEvents(_:_:)"
++ "importFile(_:context:)"
++ "importNetworks(_:context:)"
++ "importRecording(_:context:)"
++ "importResource(type:client:context:)"
++ "importWallpapers(_:context:)"
++ "imported homescreen items"
++ "importerForDataClass(_:)"
++ "importing just homescreen wihtout lockscreen not supported"
++ "importing just homescreen without lockscreen not supported"
++ "init(bytes:)"
++ "init(containingApplicationRecord:)"
++ "init(dataClass:)"
++ "init(from:)"
++ "init(message:attachment:sort:)"
++ "init(path:)"
++ "init(prefix:identity:)"
++ "init(reader:headers:)"
++ "init(resource:)"
++ "init(url:)"
++ "initWithID:page:folder:x:y:bundleID:maxWidth:maxHeight:"
++ "initWithID:page:x:y:name:maxWidth:maxHeight:"
++ "initWithID:page:x:y:width:height:bundleID:host:kind:maxWidth:maxHeight:"
++ "installOffloadedAppAndPreflight(bundleID:)"
++ "kind"
++ "match(for:usingBag:)"
++ "maxHeight"
++ "maxWidth"
++ "metadata()"
++ "metadata.isHomescreen: %{bool}d, mimetype: %s, size: %ld"
++ "metadata.isLockscreen: %{bool}d, mimetype: %s, size: %ld"
++ "multipartContent(caller:)"
++ "negotiateWirelessMedium(usingClient:)"
++ "networkFromNegotiationResponse(_:)"
++ "newClient()"
++ "next()"
++ "page"
++ "page_items=%ld, folder_items=%ld"
++ "parseResponse()"
++ "parseResponseLine(buffer:)"
++ "passphrase_length"
++ "performUnderSystemAppFolder(for:handler:)"
++ "persistence"
++ "photos failed to export filename, extension, or both. original_filename=%s, fallback_filename=%s"
++ "playProtectVerdict"
++ "populateDataclassProperties(selection:)"
++ "processRequestFrame(_:request:)"
++ "processV1RequestFrame(_:request:)"
++ "processWiFiCredentialRequest()"
++ "propertyListContents"
++ "publisher(_:failedToStartWithError:)"
++ "read(buffer:maxLength:)"
++ "readToEnd()"
++ "remoteConfigDownloadRetries"
++ "remoteConfigDownloadTimeoutSeconds"
++ "removeNetwork(forInterfaceName:)"
++ "removeWithCancelled:"
++ "removed the existing database directory. path=%s"
++ "requestPackageName"
++ "resetLockScreenWallpapersToImageAtURL:completion:"
++ "resetLockScreenWallpapersToImageAtURL:homeScreenWallpaper:completion:"
++ "resourceOrder"
++ "resourceTypeForSelection(_:)"
++ "run()"
++ "saveAttachmentToFile(_:_:_:)"
++ "saveDataToFile(_:_:)"
++ "saveMusicTrackToFile(_:_:)"
++ "saveVoiceMemoRecordingToFile(_:_:_:_:)"
++ "securityParameters()"
++ "select(_:)"
++ "selection"
++ "sendRequest(_:)"
++ "sendWirelessMediumNegotiationRequest(_:)"
++ "serialized a folder. %s"
++ "serialized a widget. %s"
++ "serialized an app. %s"
++ "sessionWithConfiguration:"
++ "setBundleID:"
++ "setHeight:"
++ "setKind:"
++ "setMaxHeight:"
++ "setMaxWidth:"
++ "setPage:"
++ "setX:"
++ "setY:"
++ "signature: %s"
++ "ssid_length_in_bytes"
++ "store"
++ "subscriber(_:failedToStartWithError:)"
++ "supportDirectory"
++ "supportedPhotoTypes"
++ "temporaryDirectory"
++ "toContext()"
++ "toEstimation()"
++ "toURL()"
++ "tracks"
++ "unimplementedError(sourceFile:lineNumber:functionName:)"
++ "unsupportedAPI"
++ "useInfraWiFi(forRequest:)"
++ "useWiFiAware(forRequest:)"
++ "v32@?0@\"NSString\"8@\"NSData\"16@\"NSError\"24"
++ "v32@?0^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}8@\"NSArray\"16@\"NSError\"24"
++ "v80@0:8@16@24^q32q40q48q56q64q72"
++ "valueForKey(_:)"
++ "waitForCellItems()"
++ "wasConsumed"
++ "will estimate all homescreen items."
++ "will export all homescreen items."
++ "will find a service. service=%s, interface=%s"
++ "will import %ld calendars"
++ "will import %ld events"
++ "will import homescreen items"
++ "will import homescreen. %s"
++ "will lookup an android app. %s"
++ "will remove the existing database directory. path=%s"
++ "will run"
++ "x-jmet-device-attestationKey-signature"
++ "x-jmet-device-certificate"
++ "🍪 Play integrity token: %s"
++ "🏅 Google Play Integrity Verified"
++ "🔏 Andata JSON response: %s"
++ "🔏 Andata request signed with BAA cert"
+- "          App Mapped Target Identifier: %s"
+- "          App Placeholder Installation Succeeded: %{bool}d"
+- "          App Source App ID: %s"
+- "          App Source Platform: %s"
+- "        Folder App List Count: %ld"
+- "        Folder Display Name: %s"
+- "        Widget Host App: nil"
+- "        Widget Identifier: %s"
+- "        Widget Kind: %s"
+- "      Item Column Index: %d"
+- "      Item Identifier: %d"
+- "      Item Row Index: %d"
+- "      Item Type: %s"
+- "    Page Identifier: %d"
+- "    Page Layout Items Count: %ld"
+- "    Page Number of Columns: %d"
+- "    Page Number of Rows: %d"
+- "  BottomBarItems Count: %ld"
+- "  Pages Count: %ld"
+- " migrator is not enabled"
+- " not found in data class entry"
+- "%s imported %llu item(s) with %llu error(s)"
+- "%s successfully imported %llu item(s)"
+- "All items failed"
+- "Configuration disabled ESIM transfer: "
+- "Contacts import completed."
+- "Content-Length header not set for contact photo; unable to update progress"
+- "Content-Length header not set for music track part; unable to update progress"
+- "Content-Length header not set for voicememo recording part; unable to update progress"
+- "Error calculating size"
+- "Event ID not found: %s"
+- "Expected a %s %s but found %s: %s"
+- "Failed to create importer for selection "
+- "Failed to create response for file"
+- "Failed to deserialize the data: "
+- "Failed to encode input data"
+- "Failed to fetch HomeScreen layout to export"
+- "Failed to get contact container"
+- "Failed to import attachment"
+- "Failed to import music tracks"
+- "Failed to import voice memo recording"
+- "Failed to parse account array"
+- "Failed to parse config plist: "
+- "Failed to parse event attachment"
+- "Failed to read protobuf file: "
+- "Filtered android Layout:"
+- "Handling accounts import request"
+- "HomeScreen layout:"
+- "Imported voice memo recording: %s"
+- "Importing photo for contact %s"
+- "Layout:"
+- "Migration context not set"
+- "MigrationKit/Browser.swift"
+- "MigrationKit/CalendarConverter.swift"
+- "MigrationKit/ConnectionReader.swift"
+- "MigrationKit/HomeScreenFolder.swift"
+- "MigrationKit/HomeScreenLayout.swift"
+- "MigrationKit/HomeScreenMigrator.swift"
+- "MigrationKit/HomeScreenPage.swift"
+- "MigrationKit/HomeScreenWidget.swift"
+- "MigrationKit/ImportResult.swift"
+- "MigrationKit/Resolver.swift"
+- "Multi part accounts download completed in %llu parts"
+- "Multi part all calendar event attachments download completed in %llu parts"
+- "Multi part calendar download completed in %llu parts"
+- "Multi part calendar events download completed in %llu parts"
+- "Multi part wifi-credentials download completed in %llu parts"
+- "Multipart count: %llu contact batches"
+- "No data class entry found for selection "
+- "No data imported for "
+- "No match found for app '%{private}s'"
+- "No voiceMemo recording to import"
+- "Partial failure"
+- "Path to the serialized proto binary file"
+- "Resource with type "
+- "Show deserialized proto data"
+- "StandaloneESIMTransferEnabled"
+- "Unexpected end of stream while reading from connection"
+- "Unsupported data class: "
+- "_TtCVV12MigrationKit12FileExporter12FileSequenceP33_B00A766045084220189B0C5FE352127D15FileInputStream"
+- "_downloadPhotos(progress:resultBuilder:)"
+- "attestation platform "
+- "cancelled"
+- "com.apple.ios.https"
+- "contact array http part response contains %ld contacts"
+- "converstaions"
+- "convertAccounted to mkAccount: mkAccount.type: %s, mkAccount.username: %s before import"
+- "did find a host. host=%s, port=%s"
+- "did find a service. name=%s, type=%s, domain=%s), interfaces=%s"
+- "downloadAttachments(db:progress:)"
+- "downloadConversations(db:)"
+- "downloadMessages(db:progress:)"
+- "downloadParticipants(db:)"
+- "eSIM transfer disabled"
+- "enableAttestation"
+- "entriesBySelection"
+- "error elapsed "
+- "failed"
+- "failed to download messages"
+- "failed to iterate files"
+- "failed to write an attachment. id=%s, file=%s, failed=%{bool}d, bytes=%ld"
+- "featureGateAssetDownloadRetries"
+- "featureGateAssetDownloadTimeoutSeconds"
+- "fetchResources(from:identifier:resultBuilder:)"
+- "fetchSerializedData(from:identifier:resultBuilder:)"
+- "file.properties.path"
+- "homescreen"
+- "iOS"
+- "importContactPhotos(usingClient:resultBuilder:)"
+- "importContacts(usingClient:resultBuilder:)"
+- "importRecordings(_:_:)"
+- "initWithType:value:"
+- "migrator is not enabled. migrator="
+- "part:%llu has %ld calendars"
+- "part:%llu has %ld events"
+- "ready"
+- "received browse results"
+- "requestAttachments(client:_:)"
+- "requestCalendars(client:_:)"
+- "requestEvents(client:_:)"
+- "runImport(usingClient:)"
+- "setup"
+- "unknown layout item type: %s"
+- "waiting"
+- "will add a service. name=%s"
+- "will cancel browser"
+- "will import calendars: %ld, events: %ld, attachments: %ld"
+- "will import contact photos"
+- "will import contacts"
+- "will import music tracks count: %ld, playlists count: %ld"
+- "will run browser"
+- "📡 🔓 “Secured” without attestation"
+
+```

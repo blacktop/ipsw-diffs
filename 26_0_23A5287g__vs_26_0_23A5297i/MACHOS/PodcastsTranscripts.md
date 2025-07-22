@@ -1,0 +1,190 @@
+## PodcastsTranscripts
+
+> `/private/var/staged_system_apps/Podcasts.app/Frameworks/PodcastsTranscripts.framework/PodcastsTranscripts`
+
+```diff
+
+-4025.110.88.1.0
+-  __TEXT.__text: 0x8a4c4
+-  __TEXT.__auth_stubs: 0x3320
++4025.110.94.1.0
++  __TEXT.__text: 0x8b824
++  __TEXT.__auth_stubs: 0x3370
+   __TEXT.__objc_methlist: 0x79c
+-  __TEXT.__const: 0x5d62
++  __TEXT.__const: 0x5ee2
+   __TEXT.__objc_classname: 0x77
+-  __TEXT.__objc_methname: 0x2101
+-  __TEXT.__cstring: 0x245f
+-  __TEXT.__swift5_typeref: 0x5394
+-  __TEXT.__constg_swiftt: 0x1ac8
++  __TEXT.__objc_methname: 0x2110
++  __TEXT.__cstring: 0x247f
++  __TEXT.__swift5_typeref: 0x53a4
++  __TEXT.__constg_swiftt: 0x1b14
+   __TEXT.__swift5_builtin: 0x140
+-  __TEXT.__swift5_reflstr: 0x1b04
+-  __TEXT.__swift5_fieldmd: 0x1928
++  __TEXT.__swift5_reflstr: 0x1b64
++  __TEXT.__swift5_fieldmd: 0x19b4
+   __TEXT.__swift5_assocty: 0x4f8
+-  __TEXT.__swift5_proto: 0x294
+-  __TEXT.__swift5_types: 0x194
+-  __TEXT.__swift5_protos: 0x40
+-  __TEXT.__swift5_capture: 0xbb0
++  __TEXT.__swift5_proto: 0x2a0
++  __TEXT.__swift5_types: 0x198
++  __TEXT.__swift5_protos: 0x44
++  __TEXT.__swift5_capture: 0xbd4
+   __TEXT.__oslogstring: 0x8cb
+   __TEXT.__swift_as_entry: 0x3c
+   __TEXT.__swift_as_ret: 0x40
+   __TEXT.__swift5_mpenum: 0x34
+   __TEXT.__objc_methtype: 0xab1
+-  __TEXT.__unwind_info: 0x1d10
++  __TEXT.__unwind_info: 0x1d48
+   __TEXT.__eh_frame: 0x1110
+-  __DATA_CONST.__auth_got: 0x1990
+-  __DATA_CONST.__got: 0xc10
+-  __DATA_CONST.__auth_ptr: 0xdf8
+-  __DATA_CONST.__const: 0x3978
++  __DATA_CONST.__auth_got: 0x19b8
++  __DATA_CONST.__got: 0xc50
++  __DATA_CONST.__auth_ptr: 0xe08
++  __DATA_CONST.__const: 0x3aa8
+   __DATA_CONST.__objc_classlist: 0xe0
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x58
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x30
+-  __DATA.__objc_const: 0x2b10
+-  __DATA.__objc_selrefs: 0x9f8
+-  __DATA.__objc_data: 0xde0
+-  __DATA.__data: 0x3cc0
+-  __DATA.__bss: 0x4ec8
+-  __DATA.__common: 0xb0
++  __DATA.__objc_const: 0x2b70
++  __DATA.__objc_selrefs: 0xa00
++  __DATA.__objc_data: 0xe00
++  __DATA.__data: 0x3ce0
++  __DATA.__bss: 0x4fc8
++  __DATA.__common: 0xd0
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - @rpath/PodcastsActions.framework/PodcastsActions
+   - @rpath/PodcastsPlayback.framework/PodcastsPlayback
+   - @rpath/ShelfKit.framework/ShelfKit
+-  UUID: F0B29C09-424E-3E2D-9E9E-F90637958E4C
+-  Functions: 2747
+-  Symbols:   1490
+-  CStrings:  718
++  UUID: 6C73C2F8-3F4F-3E7B-84EE-FBECE335B65A
++  Functions: 2773
++  Symbols:   1497
++  CStrings:  722
+ 
+Symbols:
++ _CGRectGetMidX
++ ___swift_memcpy41_8
++ ___swift_memcpy97_8
++ _associated conformance 19PodcastsTranscripts15TextContentViewV0dE0V027SelectionAndHoverBackgroundE033_FE0829500774C4A0B915995568FD78EBLLV13HighlightTypeOSHAASQ
++ _associated conformance 19PodcastsTranscripts15TextContentViewV0dE0V027SelectionAndHoverBackgroundE033_FE0829500774C4A0B915995568FD78EBLLV7SwiftUI0E0AA4BodyAiJP_AiJ
++ _symbolic $s19PodcastsTranscripts24TranscriptViewControllerC20HostedContentSessionP
++ _symbolic $s19PodcastsTranscripts24TransportCommandTrackingP
++ _symbolic _____ 10PodcastsUI21NowPlayingPlayerStyleO
++ _symbolic _____ 19PodcastsTranscripts15TextContentViewV0dE0V027SelectionAndHoverBackgroundE033_FE0829500774C4A0B915995568FD78EBLLV
++ _symbolic _____ 19PodcastsTranscripts15TextContentViewV0dE0V027SelectionAndHoverBackgroundE033_FE0829500774C4A0B915995568FD78EBLLV13HighlightTypeO
++ _symbolic ______p 19PodcastsTranscripts24TransportCommandTrackingP
++ _symbolic ______pSg 19PodcastsTranscripts24TranscriptViewControllerC20HostedContentSessionP
++ _symbolic _____yAAyAAy_____y_____yAAyAAy__________y_____GG_____G_AAyAAyAAy__________y_____GG_____GAIGSg_____SgtGGALy_____SgGG_____y_____GGAIG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA7DividerV AA21_OverlayStyleModifierV AA017HierarchicalShapeJ0V AA14_PaddingLayoutV AA4TextV AA022_EnvironmentKeyWritingK0V AA0P9AlignmentO AA010_FlexFrameO0V 19PodcastsTranscripts19ReportConcernButton33_A778AF436787D96AC62C5085B7AFEED3LLV AA4FontV AA011_ForegroundjK0V AA03AnymJ0V
++ _symbolic _____yAAy_____y_____yAAyAAy__________y_____GG_____G_AAyAAyAAy__________y_____GG_____GAIGSg_____SgtGGALy_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA7DividerV AA21_OverlayStyleModifierV AA017HierarchicalShapeJ0V AA14_PaddingLayoutV AA4TextV AA022_EnvironmentKeyWritingK0V AA0P9AlignmentO AA010_FlexFrameO0V 19PodcastsTranscripts19ReportConcernButton33_A778AF436787D96AC62C5085B7AFEED3LLV AA4FontV AA011_ForegroundjK0V AA03AnymJ0V
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA08AnyShapeD0V
++ _symbolic _____y______Qo_ 7SwiftUI10ShapeStyleP08PodcastsB0AA03AnycD0VRszrlE16vibrantSecondaryQrvpZQO AF
++ _symbolic _____y_____y_____G_____y_____y__________GGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 19PodcastsTranscripts04TextdE0V0dE0V19SelectionBackground33_FE0829500774C4A0B915995568FD78EBLLV AA01_kF0V AA012_ConditionalD0V AJ0j8AndHoverkE0ALLLV AA5ColorV
++ _symbolic _____y_____y__________GG 7SwiftUI19_BackgroundModifierV AA19_ConditionalContentV 19PodcastsTranscripts04TextF4ViewV0fJ0V017SelectionAndHovercJ033_FE0829500774C4A0B915995568FD78EBLLV AA5ColorV
++ _type_layout_string 19PodcastsTranscripts15TextContentViewV0dE0V027SelectionAndHoverBackgroundE033_FE0829500774C4A0B915995568FD78EBLLV
++ _type_layout_string So6CGSizeV
++ block_copy_helper.110
++ block_copy_helper.15
++ block_copy_helper.150
++ block_copy_helper.159
++ block_copy_helper.208
++ block_copy_helper.22
++ block_copy_helper.87
++ block_copy_helper.9
++ block_descriptor.11
++ block_descriptor.112
++ block_descriptor.152
++ block_descriptor.161
++ block_descriptor.17
++ block_descriptor.210
++ block_descriptor.24
++ block_descriptor.89
++ block_destroy_helper.10
++ block_destroy_helper.111
++ block_destroy_helper.151
++ block_destroy_helper.16
++ block_destroy_helper.160
++ block_destroy_helper.209
++ block_destroy_helper.23
++ block_destroy_helper.88
++ get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy19PodcastsTranscripts04TextdE0V0dE0V19SelectionBackground33_FE0829500774C4A0B915995568FD78EBLLVGAA01_kF0VyAA012_ConditionalD0VyAJ0j8AndHoverkE0ALLLVAA5ColorVGGGAA0E0HPAnaZHPyHC_AxA0eF0HPyHCHC.26
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA10_ShapeViewVyAA16RoundedRectangleVAA5ColorVGAA16_BlendModeEffectVGAA14_PaddingLayoutVGAOGAA0F0HPApaRHPAmaRHPAjaRHPyHC_AlA0F8ModifierHPyHCHC_AoaSHPyHCHC_AoaSHPyHCHC.33
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA9TupleViewVyACyACyAA7DividerVAA21_OverlayStyleModifierVyAA017HierarchicalShapeJ0VGGAA14_PaddingLayoutVG_ACyACyACyAA4TextVAA022_EnvironmentKeyWritingK0VyAA0P9AlignmentOGGAA010_FlexFrameO0VGAQGSg19PodcastsTranscripts19ReportConcernButton33_A778AF436787D96AC62C5085B7AFEED3LLVSgtGGAVyAA4FontVSgGGAA011_ForegroundjK0VyAA03AnymJ0VGGAQGAA0G0HPA21_AAA23_HPA15_AAA23_HPA10_AAA23_HPyHC_A14_AA0gK0HPyHCHC_A20_AAA24_HPyHCHC_AqAA24_HPyHCHC.25
++ get_witness_table 7SwiftUI19_ConditionalContentVyACyACy19PodcastsTranscripts04TextD4ViewVAD04LinkdH0VGACyAD06SilentdH0VAD07SpeakerdH0VGGAD012ChapterTitleH0VGAA0H0HPAoaSHPAiaSHPAfaSHPyHC_AhaSHPyHCHC_AnaSHPAkaSHPyHC_AmaSHPyHCHCHC_AqaSHPyHCHC.260
++ get_witness_table 7SwiftUI6ButtonVyAA6HStackVyAA9TupleViewVyAA4TextV_AA5ImageVAA6SpacerVtGGGAA0F0HPyHC.26
++ objectdestroy.194Tm
++ objectdestroy.224Tm
+- ___swift_memcpy17_8
+- _associated conformance 19PodcastsTranscripts15TextContentViewV0dE0V019SelectionBackgroundE033_FE0829500774C4A0B915995568FD78EBLLV7SwiftUI0E0AA4BodyAiJP_AiJ
+- _symbolic $s19PodcastsTranscripts24TranscriptViewControllerC8DelegateP
+- _symbolic _____ 19PodcastsTranscripts15TextContentViewV0dE0V019SelectionBackgroundE033_FE0829500774C4A0B915995568FD78EBLLV
+- _symbolic ______pSgXw 19PodcastsTranscripts24TranscriptViewControllerC8DelegateP
+- _symbolic _____yAAyAAy_____y_____yAAyAAy__________y_____GG_____G_AAyAAyAAy__________y_____GG_____GAIGSg_____SgtGGALy_____SgGG_____y_____y______Qo_GGAIG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA7DividerV AA21_OverlayStyleModifierV AA017HierarchicalShapeJ0V AA14_PaddingLayoutV AA4TextV AA022_EnvironmentKeyWritingK0V AA0P9AlignmentO AA010_FlexFrameO0V 19PodcastsTranscripts19ReportConcernButton33_A778AF436787D96AC62C5085B7AFEED3LLV AA4FontV AA011_ForegroundjK0V AA0mJ0P0wB0AA03AnymJ0VRszrlE16vibrantSecondaryQrvpZQO A8_
+- _symbolic _____yAAy_____y_____yAAyAAy__________y_____GG_____G_AAyAAyAAy__________y_____GG_____GAIGSg_____SgtGGALy_____SgGG_____y_____y______Qo_GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA7DividerV AA21_OverlayStyleModifierV AA017HierarchicalShapeJ0V AA14_PaddingLayoutV AA4TextV AA022_EnvironmentKeyWritingK0V AA0P9AlignmentO AA010_FlexFrameO0V 19PodcastsTranscripts19ReportConcernButton33_A778AF436787D96AC62C5085B7AFEED3LLV AA4FontV AA011_ForegroundjK0V AA0mJ0P0wB0AA03AnymJ0VRszrlE16vibrantSecondaryQrvpZQO A8_
+- _symbolic _____y_____G 7SwiftUI19_BackgroundModifierV 19PodcastsTranscripts15TextContentViewV0hI0V09SelectioncI033_FE0829500774C4A0B915995568FD78EBLLV
+- _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 19PodcastsTranscripts04TextdE0V0dE0V19SelectionBackground33_FE0829500774C4A0B915995568FD78EBLLV AA01_kF0V AJ0jkE0ALLLV
+- _symbolic _____y_____y______Qo_G 7SwiftUI24_ForegroundStyleModifierV AA05ShapeD0P08PodcastsB0AA03AnyfD0VRszrlE16vibrantSecondaryQrvpZQO AH
+- _symbolic _____y_____y_____y_____G_____y_____GGAEG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 19PodcastsTranscripts04TextdF0V0dF0V19SelectionBackground33_FE0829500774C4A0B915995568FD78EBLLV AA01_lG0V AL0klF0ANLLV
+- _symbolic _____y_____y_____y_____G_____y_____GGAE_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 19PodcastsTranscripts04TextdG0V0dG0V19SelectionBackground33_FE0829500774C4A0B915995568FD78EBLLV AA01_mH0V AN0lmG0APLLV
+- _type_layout_string So7CGPointV
+- block_copy_helper.111
+- block_copy_helper.14
+- block_copy_helper.148
+- block_copy_helper.157
+- block_copy_helper.206
+- block_copy_helper.21
+- block_copy_helper.8
+- block_copy_helper.89
+- block_descriptor.10
+- block_descriptor.113
+- block_descriptor.150
+- block_descriptor.159
+- block_descriptor.16
+- block_descriptor.208
+- block_descriptor.23
+- block_descriptor.91
+- block_destroy_helper.112
+- block_destroy_helper.149
+- block_destroy_helper.15
+- block_destroy_helper.158
+- block_destroy_helper.207
+- block_destroy_helper.22
+- block_destroy_helper.9
+- block_destroy_helper.90
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA10_ShapeViewVyAA16RoundedRectangleVAA5ColorVGAA16_BlendModeEffectVGAA14_PaddingLayoutVGAOGAA0F0HPApaRHPAmaRHPAjaRHPyHC_AlA0F8ModifierHPyHCHC_AoaSHPyHCHC_AoaSHPyHCHC.23
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA9TupleViewVyACyACyAA7DividerVAA21_OverlayStyleModifierVyAA017HierarchicalShapeJ0VGGAA14_PaddingLayoutVG_ACyACyACyAA4TextVAA022_EnvironmentKeyWritingK0VyAA0P9AlignmentOGGAA010_FlexFrameO0VGAQGSg19PodcastsTranscripts19ReportConcernButton33_A778AF436787D96AC62C5085B7AFEED3LLVSgtGGAVyAA4FontVSgGGAA011_ForegroundjK0VyAA0mJ0P0wB0AA03AnymJ0VRszrlE16vibrantSecondaryQrvpZQOyA22__Qo_GGAQGAA0G0HPA26_AAA28_HPA15_AAA28_HPA10_AAA28_HPyHC_A14_AA0gK0HPyHCHC_A25_AAA29_HPyHCHC_AqAA29_HPyHCHC.24
+- get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy19PodcastsTranscripts04TextdF0V0dF0V19SelectionBackground33_FE0829500774C4A0B915995568FD78EBLLVGAA01_lG0VyAL0klF0ANLLVGGAPGAA0F0HPAvaXHPApaXHPyHC_AuA0fG0HPyHCHC_ApaXHPyHCHC.22
+- get_witness_table 7SwiftUI19_ConditionalContentVyACyACy19PodcastsTranscripts04TextD4ViewVAD04LinkdH0VGACyAD06SilentdH0VAD07SpeakerdH0VGGAD012ChapterTitleH0VGAA0H0HPAoaSHPAiaSHPAfaSHPyHC_AhaSHPyHCHC_AnaSHPAkaSHPyHC_AmaSHPyHCHCHC_AqaSHPyHCHC.256
+- get_witness_table 7SwiftUI6ButtonVyAA6HStackVyAA9TupleViewVyAA4TextV_AA5ImageVAA6SpacerVtGGGAA0F0HPyHC.25
+- objectdestroy.192Tm
+- objectdestroy.219Tm
+CStrings:
++ "lastKnownBounds"
++ "playerStyle"
++ "session"
++ "setNeedsLayout"
+
+```

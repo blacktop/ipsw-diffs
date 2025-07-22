@@ -1,0 +1,253 @@
+## CAFUI
+
+> `/System/Library/PrivateFrameworks/CAFUI.framework/CAFUI`
+
+```diff
+
+-482.2.0.0.0
+-  __TEXT.__text: 0xca1e8
+-  __TEXT.__auth_stubs: 0x3270
+-  __TEXT.__objc_methlist: 0x26f0
+-  __TEXT.__const: 0x3fa4
+-  __TEXT.__cstring: 0x5b34
++484.3.0.0.0
++  __TEXT.__text: 0xcaa04
++  __TEXT.__auth_stubs: 0x3280
++  __TEXT.__objc_methlist: 0x2708
++  __TEXT.__const: 0x3fc4
++  __TEXT.__cstring: 0x5b74
+   __TEXT.__oslogstring: 0xeb9
+   __TEXT.__ustring: 0x5e
+-  __TEXT.__swift5_typeref: 0x6c06
++  __TEXT.__swift5_typeref: 0x6c48
+   __TEXT.__swift5_capture: 0x198c
+-  __TEXT.__swift5_reflstr: 0x1a5c
++  __TEXT.__swift5_reflstr: 0x1abc
+   __TEXT.__swift5_assocty: 0x368
+-  __TEXT.__constg_swiftt: 0x3554
+-  __TEXT.__swift5_fieldmd: 0x1950
++  __TEXT.__constg_swiftt: 0x35a8
++  __TEXT.__swift5_fieldmd: 0x198c
+   __TEXT.__swift5_builtin: 0xa0
+   __TEXT.__swift5_proto: 0x180
+   __TEXT.__swift5_types: 0x1b8
+   __TEXT.__swift5_protos: 0x44
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0x2440
++  __TEXT.__unwind_info: 0x2468
+   __TEXT.__eh_frame: 0xc10
+   __TEXT.__objc_classname: 0x364
+-  __TEXT.__objc_methname: 0x6a6c
++  __TEXT.__objc_methname: 0x6b74
+   __TEXT.__objc_methtype: 0x24b4
+   __TEXT.__objc_stubs: 0xfc0
+-  __DATA_CONST.__got: 0xdb8
++  __DATA_CONST.__got: 0xdf0
+   __DATA_CONST.__const: 0x4f8
+   __DATA_CONST.__objc_classlist: 0x230
+   __DATA_CONST.__objc_protolist: 0x1c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1db8
++  __DATA_CONST.__objc_selrefs: 0x1e20
+   __DATA_CONST.__objc_protorefs: 0xe0
+   __DATA_CONST.__objc_superrefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x1940
+-  __AUTH_CONST.__const: 0x5670
++  __AUTH_CONST.__auth_got: 0x1948
++  __AUTH_CONST.__const: 0x5678
+   __AUTH_CONST.__cfstring: 0x420
+-  __AUTH_CONST.__objc_const: 0xaa40
+-  __AUTH.__objc_data: 0x4250
++  __AUTH_CONST.__objc_const: 0xaac0
++  __AUTH.__objc_data: 0x42b8
+   __AUTH.__data: 0x20b8
+   __DATA.__objc_ivar: 0x24
+-  __DATA.__data: 0x3050
++  __DATA.__data: 0x30a0
+   __DATA.__bss: 0x2150
+   __DATA.__common: 0x61
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 44C79D0D-6AC4-302A-8C35-90996D67F78D
++  UUID: 955762D4-76A3-3017-B282-253E4324AF8C
+   Functions: 4113
+-  Symbols:   13612
+-  CStrings:  1998
++  Symbols:   13635
++  CStrings:  2015
+ 
+Symbols:
++ _$s10Foundation4DateV026timeIntervalSinceReferenceB0SdvgZ
++ _$s12CoreGraphics7CGFloatV_ACtMD
++ _$s5CAFUI10SliderViewV08VerticalB0C6slider33_531A1735EC712F8CDB11466B37408037LLAA08CenteredB0CvpWvd
++ _$s5CAFUI10SliderViewV21sliderTappedPublisher7Combine18PassthroughSubjectCyAC08VerticalB0Cs5NeverOGvgTf4x_n
++ _$s5CAFUI14CenteredSliderC05setupC033_531A1735EC712F8CDB11466B37408037LLyyF
++ _$s5CAFUI14CenteredSliderC10trackLayer33_531A1735EC712F8CDB11466B37408037LLSo7CALayerCvpWvd
++ _$s5CAFUI14CenteredSliderC11centerValue12CoreGraphics7CGFloatVvMTq
++ _$s5CAFUI14CenteredSliderC11centerValue12CoreGraphics7CGFloatVvgTq
++ _$s5CAFUI14CenteredSliderC11centerValue12CoreGraphics7CGFloatVvpWvd
++ _$s5CAFUI14CenteredSliderC11centerValue12CoreGraphics7CGFloatVvsTq
++ _$s5CAFUI14CenteredSliderC12tickmarkViewSo6UIViewCvpWvd
++ _$s5CAFUI14CenteredSliderC12valueChanged33_531A1735EC712F8CDB11466B37408037LLyyF
++ _$s5CAFUI14CenteredSliderC12valueChanged33_531A1735EC712F8CDB11466B37408037LLyyFTo
++ _$s5CAFUI14CenteredSliderC13tickmarkWidth33_531A1735EC712F8CDB11466B37408037LLSdvpWvd
++ _$s5CAFUI14CenteredSliderC14layoutSubviewsyyF
++ _$s5CAFUI14CenteredSliderC14layoutSubviewsyyFTo
++ _$s5CAFUI14CenteredSliderC14thumbImageViewSo07UIImageF0CSgvMTq
++ _$s5CAFUI14CenteredSliderC14thumbImageViewSo07UIImageF0CSgvgTq
++ _$s5CAFUI14CenteredSliderC14thumbImageViewSo07UIImageF0CSgvpWvd
++ _$s5CAFUI14CenteredSliderC14thumbImageViewSo07UIImageF0CSgvsTq
++ _$s5CAFUI14CenteredSliderC15createThumbViewSo07UIImageF0CSgyFTo
++ _$s5CAFUI14CenteredSliderC15updateFillLayer33_531A1735EC712F8CDB11466B37408037LL9trackRect0L1Y0L6HeightySo6CGRectV_12CoreGraphics7CGFloatVAMtF
++ _$s5CAFUI14CenteredSliderC16setupOverlayView33_531A1735EC712F8CDB11466B37408037LLyyF
++ _$s5CAFUI14CenteredSliderC18tintColorDidChangeyyFTo
++ _$s5CAFUI14CenteredSliderC5coderACSgSo7NSCoderC_tcfcTf4dn_n
++ _$s5CAFUI14CenteredSliderC5coderACSgSo7NSCoderC_tcfcTo
++ _$s5CAFUI14CenteredSliderC5frameACSo6CGRectV_tcfc
++ _$s5CAFUI14CenteredSliderC5frameACSo6CGRectV_tcfcTo
++ _$s5CAFUI14CenteredSliderC9fillLayer33_531A1735EC712F8CDB11466B37408037LLSo7CALayerCvpWvd
++ _$s5CAFUI14CenteredSliderCMF
++ _$s5CAFUI14CenteredSliderCMa
++ _$s5CAFUI14CenteredSliderCMf
++ _$s5CAFUI14CenteredSliderCMn
++ _$s5CAFUI14CenteredSliderCN
++ _$s5CAFUI14CenteredSliderCfD
++ _$s5CAFUI14CenteredSliderCfETo
++ _$s5CAFUI17CAFUITileBaseCellC26cafui_contentConfiguration5UIKit013UIListContentG0VyFTm
++ _$s5CAFUI20CAFUIBalanceFadeViewV14handleTapEvent33_4DC0A03647B19D6E6C689B0A29D8F124LL8location5frameySo7CGPointV_So6CGRectVtF
++ _$s5CAFUI20CAFUIBalanceFadeViewVSgMD
++ _$s5CAFUI20CAFUIBalanceFadeViewVSgWOc
++ _$s5CAFUI21CAFUINumericInputViewC16buttonsContainer33_761872BAC7C0876D3CD033277B85F8E2LLSo6UIViewCvpWvd
++ _$s5CAFUI25CAFUIAutomakerSettingCellC10imageColorSo7UIColorCvg
++ _$s5CAFUI32CAFUISoundSettingsViewControllerC14hasKnobSupport05audioC00I4LogoACSb_So08CAFAudioC0CSo15UIBarButtonItemCSgtcfcyycfU2_
++ _$s5CAFUI32CAFUISoundSettingsViewControllerC14hasKnobSupport05audioC00I4LogoACSb_So08CAFAudioC0CSo15UIBarButtonItemCSgtcfcyycfU4_
++ _$s7SwiftUI15ModifiedContentVyAA6HStackVyAA7ForEachVySay5CAFUI20CAFUIEqualizerSliderVG10Foundation4UUIDVACyACyAjA16_FlexFrameLayoutVGAPGGGAA010_FixedSizeO0VGWOhTm
++ _$s7SwiftUI5StateVy12CoreGraphics7CGFloatV_AFtGMD
++ _$s7SwiftUI5StateVySdSgGMD
++ _$sSdSgMD
++ _$sSo12CAFInt8RangeC10CAFCombineE11centerValues4Int8Vvg
++ _$sSo13CAFFloatRangeC10CAFCombineE11centerValueSfvg
++ _OBJC_CLASS_$_CALayer
++ _OBJC_CLASS_$_CAMediaTimingFunction
++ _OBJC_CLASS_$_CATransaction
++ _OBJC_CLASS_$__TtC5CAFUI14CenteredSlider
++ _OBJC_METACLASS_$__TtC5CAFUI14CenteredSlider
++ __DATA__TtC5CAFUI14CenteredSlider
++ __IVARS__TtC5CAFUI14CenteredSlider
++ __METACLASS_DATA__TtC5CAFUI14CenteredSlider
++ __OBJC_$_INSTANCE_METHODS__TtC5CAFUI14CenteredSlider(CAFUI)
++ ___swift_memcpy136_8
++ _block_copy_helper.30
++ _block_copy_helper.34
++ _block_copy_helper.38
++ _block_descriptor.32
++ _block_descriptor.36
++ _block_descriptor.40
++ _block_destroy_helper.31
++ _block_destroy_helper.35
++ _block_destroy_helper.39
++ _get_witness_table 10CAFCombine11CAFObservedRzSo18CAFObservableCacheRz10ObservableAaBP_8ObservedQZRszlSo12CAFEqualizerCAaBHpyHC.41
++ _get_witness_table 5CAFUI15CAFUISliderViewV7SwiftUI0C0HPyHC.88
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA9TupleViewVyAA14GeometryReaderVyACyAEyAA05EmptyG0VGAA25_AppearanceActionModifierVGG_ACyAA6HStackVyAA7ForEachVySay5CAFUI20CAFUIEqualizerSliderVG10Foundation4UUIDVACyACyAwA16_FlexFrameLayoutVGA1_GGGAA010_FixedSizeX0VGtGGAA022_EnvironmentKeyWritingM0Vy7Combine18PassthroughSubjectCyAU0sG0V08VerticalS0Cs5NeverOGGGAA0G0HPA10_AAA25_HPyHC_A23_AA0gM0HPyHCHC.89
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6ZStackVyAA9TupleViewVyAA011StrokeShapeG0Vy5CAFUI25CAFUIBalanceFadeCrosshairVAA5ColorVAA05EmptyG0VG_ACyAlA30_EnvironmentKeyWritingModifierVyANSgGGtGGAA14_PaddingLayoutVGASyAA0U9DirectionOGGAA0G0HPA_AAA4_HPAxAA4_HPyHC_AzA0gS0HPyHCHC_A2_AAA5_HPyHCHC.56
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA014_ViewModifier_D0Vy5CAFUI28FocusableAudioSettingsButton33_4DC0A03647B19D6E6C689B0A29D8F124LLVGAA022_EnvironmentKeyWritingF0VyAA4FontVSgGGAA12_FrameLayoutVGALyAA5ColorVSgGGAA016_BackgroundStyleF0VyAVGGAA11_ClipEffectVyAA6CircleVGGAA0E0HPA1_AAA8_HPAyAA8_HPAtAA8_HPAqAA8_HPAjAA8_HPyHC_ApA0eF0HPyHCHC_AsAA9_HPyHCHC_AxAA9_HPyHCHC_A0_AAA9_HPyHCHC_A6_AAA9_HPyHCHC.61
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAA0E0PAAE20buttonRepeatBehavioryQrAA06ButtoniJ0VFQOyAiAE0H5StyleyQrqd__AA09PrimitivekL0Rd__lFQOyAA0K0VyAGyAGyAA4TextVAA12_FrameLayoutVGAA13_OffsetEffectVGG_AA05PlainkL0VQo__Qo_AA31AccessibilityAttachmentModifierVGSg_5CAFUI06SliderE0VA5_AGyAGyAGyAGyAiAE10fontWeightyQrAA4FontV0Z0VSgFQOyAGyAGyArA010_BlendModeR0VGAA022_EnvironmentKeyWritingV0VyA11_SgGG_Qo_A19_ySiSgGGA19_yAA0N9AlignmentOGGATGAA08_PaddingP0VGtGGAaHHPyHC.110
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE20buttonRepeatBehavioryQrAA06ButtoneF0VFQOyAcAE0D5StyleyQrqd__AA09PrimitivegH0Rd__lFQOyAA0G0VyAA15ModifiedContentVyAA5ImageV5CAFUI022FocusableAudioSettingsG033_4DC0A03647B19D6E6C689B0A29D8F124LLVGG_AA05PlaingH0VQo__Qo_HO.55
++ _kCAMediaTimingFunctionEaseOut
++ _objectdestroy.103Tm
++ _objectdestroy.57Tm
++ _objectdestroy.71Tm
++ _symbolic SdSg
++ _symbolic So7CALayerC
++ _symbolic _____ 5CAFUI14CenteredSliderC
++ _symbolic _____Sg 5CAFUI20CAFUIBalanceFadeViewV
++ _symbolic ______AAt 12CoreGraphics7CGFloatV
++ _symbolic _____ySdSgG 7SwiftUI5StateV
++ _symbolic _____y______ABtG 7SwiftUI5StateV 12CoreGraphics7CGFloatV
+- _$s5CAFUI10SliderViewV08VerticalB0C6slider33_531A1735EC712F8CDB11466B37408037LLAA010CenterTickB0CvpWvd
+- _$s5CAFUI10SliderViewV21sliderTappedPublisher7Combine18PassthroughSubjectCyAC08VerticalB0Cs5NeverOGvg
+- _$s5CAFUI10SliderViewVWOc
+- _$s5CAFUI10SliderViewVWOh
+- _$s5CAFUI16CenterTickSliderC12tickmarkViewSo6UIViewCvpWvd
+- _$s5CAFUI16CenterTickSliderC13tickmarkWidth33_531A1735EC712F8CDB11466B37408037LLSdvpWvd
+- _$s5CAFUI16CenterTickSliderC14layoutSubviewsyyFTo
+- _$s5CAFUI16CenterTickSliderC14thumbImageViewSo07UIImageG0CSgvMTq
+- _$s5CAFUI16CenterTickSliderC14thumbImageViewSo07UIImageG0CSgvgTq
+- _$s5CAFUI16CenterTickSliderC14thumbImageViewSo07UIImageG0CSgvpWvd
+- _$s5CAFUI16CenterTickSliderC14thumbImageViewSo07UIImageG0CSgvsTq
+- _$s5CAFUI16CenterTickSliderC15createThumbViewSo07UIImageG0CSgyFTo
+- _$s5CAFUI16CenterTickSliderC16setupOverlayView33_531A1735EC712F8CDB11466B37408037LLyyF
+- _$s5CAFUI16CenterTickSliderC5coderACSgSo7NSCoderC_tcfc
+- _$s5CAFUI16CenterTickSliderC5coderACSgSo7NSCoderC_tcfcTo
+- _$s5CAFUI16CenterTickSliderC5frameACSo6CGRectV_tcfc
+- _$s5CAFUI16CenterTickSliderC5frameACSo6CGRectV_tcfcTo
+- _$s5CAFUI16CenterTickSliderCMF
+- _$s5CAFUI16CenterTickSliderCMa
+- _$s5CAFUI16CenterTickSliderCMf
+- _$s5CAFUI16CenterTickSliderCMn
+- _$s5CAFUI16CenterTickSliderCN
+- _$s5CAFUI16CenterTickSliderCfD
+- _$s5CAFUI16CenterTickSliderCfETo
+- _$s5CAFUI20CAFUIBalanceFadeViewV4bodyQrvgAA010CAFUICabinD0VyXEfU_7SwiftUI05TupleD0VyAG6ZStackVyAG14GeometryReaderVyAG15ModifiedContentVyAG0D0PAGE19simultaneousGesture_9includingQrqd___AG0P4MaskVtAG0P0Rd__lFQOyAqGE12contentShape_6eoFillQrqd___SbtAG0T0Rd__lFQOyAA022AudioSettingsCrosshairD0V_AG9RectangleVQo__AG06_EndedP0VyAG08_ChangedP0VyAG04DragP0VGGQo_AG31AccessibilityAttachmentModifierVGGG_AIyAG6HStackVyAIyAOyAA0wX6ButtonVA13_G_AG6SpacerVA21_tGG_AG6VStackVyA24_GtGSgtGyXEfU_A15_yXEfU_A14_AG0K5ProxyVcfU_yA8_5ValueVcfU_Tm
+- _$s5CAFUI20CAFUIBalanceFadeViewVSgWOe
+- _$s5CAFUI20CAFUIBalanceFadeViewVSgWOy
+- _$s5CAFUI20CAFUIBalanceFadeViewVwetTm
+- _$s5CAFUI20CAFUIBalanceFadeViewVwstTm
+- _$s5CAFUI25CAFUICollectionHeaderViewC5titleSSSgvs
+- _$s7SwiftUI11EnvironmentVy7Combine18PassthroughSubjectCy5CAFUI10SliderViewV08VerticalH0Cs5NeverOGGMD
+- _$s7SwiftUI11EnvironmentVy7Combine18PassthroughSubjectCy5CAFUI10SliderViewV08VerticalH0Cs5NeverOGGWOhTm
+- _$sSS10uppercasedSSyF
+- _$sSo12CAFEqualizerC5CAFUIE11centerValue33_256097C1A4769EBD8CF8A87462B36E0FLLs4Int8Vvg
+- _$sSo16CAFAudioSettingsC5CAFUIE15resetEqualizersyyF
+- _$sSo6UIViewCSgMD
+- _OBJC_CLASS_$__TtC5CAFUI16CenterTickSlider
+- _OBJC_METACLASS_$__TtC5CAFUI16CenterTickSlider
+- __DATA__TtC5CAFUI16CenterTickSlider
+- __INSTANCE_METHODS__TtC5CAFUI16CenterTickSlider
+- __IVARS__TtC5CAFUI16CenterTickSlider
+- __METACLASS_DATA__TtC5CAFUI16CenterTickSlider
+- ___swift_memcpy64_8
+- ___swift_memcpy88_8
+- _block_copy_helper.29
+- _block_copy_helper.33
+- _block_descriptor.31
+- _block_descriptor.35
+- _block_destroy_helper.30
+- _block_destroy_helper.34
+- _fmod
+- _get_witness_table 10CAFCombine11CAFObservedRzSo18CAFObservableCacheRz10ObservableAaBP_8ObservedQZRszlSo12CAFEqualizerCAaBHpyHC.32
+- _get_witness_table 5CAFUI15CAFUISliderViewV7SwiftUI0C0HPyHC.79
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA9TupleViewVyAA14GeometryReaderVyACyAEyAA05EmptyG0VGAA25_AppearanceActionModifierVGG_ACyAA6HStackVyAA7ForEachVySay5CAFUI20CAFUIEqualizerSliderVG10Foundation4UUIDVACyACyAwA16_FlexFrameLayoutVGA1_GGGAA010_FixedSizeX0VGtGGAA022_EnvironmentKeyWritingM0Vy7Combine18PassthroughSubjectCyAU0sG0V08VerticalS0Cs5NeverOGGGAA0G0HPA10_AAA25_HPyHC_A23_AA0gM0HPyHCHC.80
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6ZStackVyAA9TupleViewVyAA011StrokeShapeG0Vy5CAFUI25CAFUIBalanceFadeCrosshairVAA5ColorVAA05EmptyG0VG_ACyAlA30_EnvironmentKeyWritingModifierVyANSgGGtGGAA14_PaddingLayoutVGASyAA0U9DirectionOGGAA0G0HPA_AAA4_HPAxAA4_HPyHC_AzA0gS0HPyHCHC_A2_AAA5_HPyHCHC.57
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA014_ViewModifier_D0Vy5CAFUI28FocusableAudioSettingsButton33_4DC0A03647B19D6E6C689B0A29D8F124LLVGAA022_EnvironmentKeyWritingF0VyAA4FontVSgGGAA12_FrameLayoutVGALyAA5ColorVSgGGAA016_BackgroundStyleF0VyAVGGAA11_ClipEffectVyAA6CircleVGGAA0E0HPA1_AAA8_HPAyAA8_HPAtAA8_HPAqAA8_HPAjAA8_HPyHC_ApA0eF0HPyHCHC_AsAA9_HPyHCHC_AxAA9_HPyHCHC_A0_AAA9_HPyHCHC_A6_AAA9_HPyHCHC.62
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAA0E0PAAE20buttonRepeatBehavioryQrAA06ButtoniJ0VFQOyAiAE0H5StyleyQrqd__AA09PrimitivekL0Rd__lFQOyAA0K0VyAGyAGyAA4TextVAA12_FrameLayoutVGAA13_OffsetEffectVGG_AA05PlainkL0VQo__Qo_AA31AccessibilityAttachmentModifierVGSg_5CAFUI06SliderE0VA5_AGyAGyAGyAGyAiAE10fontWeightyQrAA4FontV0Z0VSgFQOyAGyAGyArA010_BlendModeR0VGAA022_EnvironmentKeyWritingV0VyA11_SgGG_Qo_A19_ySiSgGGA19_yAA0N9AlignmentOGGATGAA08_PaddingP0VGtGGAaHHPyHC.101
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE20buttonRepeatBehavioryQrAA06ButtoneF0VFQOyAcAE0D5StyleyQrqd__AA09PrimitivegH0Rd__lFQOyAA0G0VyAA15ModifiedContentVyAA5ImageV5CAFUI022FocusableAudioSettingsG033_4DC0A03647B19D6E6C689B0A29D8F124LLVGG_AA05PlaingH0VQo__Qo_HO.56
+- _objectdestroy.48Tm
+- _objectdestroy.62Tm
+- _objectdestroy.94Tm
+- _symbolic _____ 5CAFUI16CenterTickSliderC
+CStrings:
++ "_TtC5CAFUI14CenteredSlider"
++ "begin"
++ "buttonsContainer"
++ "centerValue"
++ "commit"
++ "fillLayer"
++ "functionWithName:"
++ "insertSublayer:above:"
++ "insertSublayer:atIndex:"
++ "setAnimationDuration:"
++ "setAnimationTimingFunction:"
++ "setMaximumTrackImage:forState:"
++ "setMinimumTrackImage:forState:"
++ "setSectionInsetReference:"
++ "systemGray4Color"
++ "tintColorDidChange"
++ "trackLayer"
++ "valueChanged"
+- "_TtC5CAFUI16CenterTickSlider"
+
+```

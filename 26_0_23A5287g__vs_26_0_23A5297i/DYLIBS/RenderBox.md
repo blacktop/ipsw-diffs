@@ -1,0 +1,237 @@
+## RenderBox
+
+> `/System/Library/PrivateFrameworks/RenderBox.framework/RenderBox`
+
+```diff
+
+-7.0.75.1.0
+-  __TEXT.__text: 0x14e210
+-  __TEXT.__auth_stubs: 0x28f0
+-  __TEXT.__objc_methlist: 0x2a80
+-  __TEXT.__const: 0x5dd8
+-  __TEXT.__gcc_except_tab: 0x7380
+-  __TEXT.__cstring: 0x5b2d
+-  __TEXT.__oslogstring: 0xef2
+-  __TEXT.__unwind_info: 0x6140
++7.0.79.0.0
++  __TEXT.__text: 0x14db94
++  __TEXT.__auth_stubs: 0x2910
++  __TEXT.__objc_methlist: 0x2a98
++  __TEXT.__const: 0x5f78
++  __TEXT.__gcc_except_tab: 0x740c
++  __TEXT.__cstring: 0x5b55
++  __TEXT.__oslogstring: 0xf7d
++  __TEXT.__unwind_info: 0x6198
+   __TEXT.__eh_frame: 0x60
+-  __TEXT.__objc_classname: 0x42c
+-  __TEXT.__objc_methname: 0x6349
+-  __TEXT.__objc_methtype: 0x3441
+-  __TEXT.__objc_stubs: 0x4760
+-  __DATA_CONST.__got: 0x520
+-  __DATA_CONST.__const: 0x1d80
++  __TEXT.__objc_classname: 0x42e
++  __TEXT.__objc_methname: 0x6382
++  __TEXT.__objc_methtype: 0x34a6
++  __TEXT.__objc_stubs: 0x47a0
++  __DATA_CONST.__got: 0x528
++  __DATA_CONST.__const: 0x1d98
+   __DATA_CONST.__objc_classlist: 0x130
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0xa0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1de8
++  __DATA_CONST.__objc_selrefs: 0x1df8
+   __DATA_CONST.__objc_superrefs: 0xe0
+-  __AUTH_CONST.__auth_got: 0x1488
++  __AUTH_CONST.__auth_got: 0x1498
+   __AUTH_CONST.__const: 0x8a88
+-  __AUTH_CONST.__cfstring: 0x2b00
+-  __AUTH_CONST.__objc_const: 0x4668
++  __AUTH_CONST.__cfstring: 0x2b80
++  __AUTH_CONST.__objc_const: 0x4698
+   __AUTH_CONST.__objc_floatobj: 0x10
+   __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH.__objc_data: 0x140
+   __AUTH.__thread_vars: 0x30
+   __AUTH.__thread_bss: 0x10
+-  __DATA.__objc_ivar: 0x2c4
+-  __DATA.__data: 0x984
++  __DATA.__objc_ivar: 0x2c8
++  __DATA.__data: 0x994
+   __DATA.__crash_info: 0x148
+   __DATA.__bss: 0x170
+   __DATA.__common: 0x2c
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 03DAB0F2-B4BB-37D1-81AD-1D5222457B92
+-  Functions: 6834
+-  Symbols:   17975
+-  CStrings:  3548
++  UUID: 425B76FF-0713-3671-A14F-A48D9377B911
++  Functions: 6852
++  Symbols:   18018
++  CStrings:  3564
+ 
+Symbols:
++ -[RBShader CIFilterCTM]
++ -[RBShader setCIFilterCTM:]
++ GCC_except_table74
++ GCC_except_table79
++ GCC_except_table84
++ GCC_except_table85
++ _CGContextGetDeviceClipBoundingBox
++ _IOSurfaceNotifierCreate
++ _IOSurfaceNotifierSetDispatchQueue
++ _OBJC_IVAR_$_RBShader._cifilter_ctm
++ _RBImageRendererLabel
++ _RBSystemShaderOvalizeGradient
++ __ZN12_GLOBAL__N_113distance_dataE
++ __ZN2RB11SurfacePool14collect_queuesEdRd
++ __ZN2RB11SurfacePool17notifier_callbackEPvjyy
++ __ZN2RB11SurfacePool5allocEPNS_6DeviceEDv2_i14MTLPixelFormatNS_10ColorSpaceEfNS_12SurfaceUsageEP8NSStringjS3_P13_CAImageQueue
++ __ZN2RB11SurfacePool5allocEPNS_6DeviceEDv2_i14MTLPixelFormatNS_10ColorSpaceEfNS_12SurfaceUsageEP8NSStringjS3_P13_CAImageQueue.cold.1
++ __ZN2RB11SurfacePool5allocEPNS_6DeviceEDv2_i14MTLPixelFormatNS_10ColorSpaceEfNS_12SurfaceUsageEP8NSStringjS3_P13_CAImageQueue.cold.2
++ __ZN2RB11SurfacePool7collectEjd
++ __ZN2RB11SurfacePool7collectEjd.cold.1
++ __ZN2RB12CommitMarker8Observer14test_displayedEbd
++ __ZN2RB12CommitMarkeraSERKS0_
++ __ZN2RB12CommitMarkeraSERKS0_.cold.1
++ __ZN2RB12vImageBuffer12apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fS3_jE3$_6EEvRKT_
++ __ZN2RB13ImageProviderC1EP8RBDevicePU33objcproto22_RBDisplayListContents11objc_objectfDv2_i14MTLPixelFormatNS_10ColorSpaceEfS7_NS_10RenderPass12InitialStateE7RBColorNSt3__18optionalIhEESD_P8NSStringj
++ __ZN2RB13ImageProviderC2EP8RBDevicePU33objcproto22_RBDisplayListContents11objc_objectfDv2_i14MTLPixelFormatNS_10ColorSpaceEfS7_NS_10RenderPass12InitialStateE7RBColorNSt3__18optionalIhEESD_P8NSStringj
++ __ZN2RB13ImageProviderC2EP8RBDevicePU33objcproto22_RBDisplayListContents11objc_objectfDv2_i14MTLPixelFormatNS_10ColorSpaceEfS7_NS_10RenderPass12InitialStateE7RBColorNSt3__18optionalIhEESD_P8NSStringj.cold.1
++ __ZN2RB13SharedSurface6RemoveD2Ev
++ __ZN2RB13SharedSurface6RemoveD2Ev.cold.1
++ __ZN2RB13SharedSurface6RemoveD2Ev.cold.2
++ __ZN2RB18SharedSurfaceGroup12test_markersERNS_6vectorINS_12CommitMarkerELm0EjEE
++ __ZN2RB18SharedSurfaceGroup20prune_removed_lockedEv
++ __ZN2RB18SharedSurfaceGroup20prune_removed_lockedEv.cold.1
++ __ZN2RB18SharedSurfaceGroup21commit_removed_lockedEv
++ __ZN2RB18SharedSurfaceGroup21commit_removed_lockedEv.cold.1
++ __ZN2RB18SharedSurfaceGroup21commit_removed_lockedEv.cold.2
++ __ZN2RB18Typed_vImageBufferINS_12packed_half4EE18apply_pixel_valuesIZNS_9CGContext21apply_distance_filterEDv2_fS5_jE3$_9EEvRKT_
++ __ZN2RB6Device15distance_valuesEv
++ __ZN2RB6Device16distance_textureEv
++ __ZN2RB6Device16distance_textureEv.cold.1
++ __ZN2RB6vectorINS_12CommitMarkerELm0EjE12reserve_slowEj
++ __ZN2RB6vectorINS_12CommitMarkerELm0EjED2Ev
++ __ZN2RB6vectorINS_12CommitMarkerELm0EjED2Ev.cold.1
++ __ZN2RB6vectorINS_14refcounted_ptrINS_7SurfaceEEELm0EmED1Ev
++ __ZN2RB6vectorINS_14refcounted_ptrINS_7SurfaceEEELm0EmED1Ev.cold.1
++ __ZN2RB6vectorINS_6cf_ptrIP13_CAImageQueueEELm8EmED2Ev
++ __ZN2RB6vectorINSt3__14pairINS_6cf_ptrIP13_CAImageQueueEEdEELm2EmED1Ev
++ __ZN2RB6vectorINSt3__14pairIP13_CAImageQueueyEELm0EjE12reserve_slowEj
++ __ZN2RB6vectorIZNKS_12CustomShader7Closure12marshal_argsERNS_10RenderPassERNS_8FunctionENS_10ColorSpaceEPKNS_4RectEPhRNS_12BufferRegionERNSt3__15arrayIPNS_7TextureELm3EEEE10PendingArgLm0EmE12reserve_slowEm
++ __ZN2RB7Surface9set_usageENS_12SurfaceUsageEP8NSString
++ __ZN2RB8Coverage13set_plane_triERNS_6Shader12PlaneGlobalsERNS_10RenderPassE
++ __ZN2RB9CGContext21apply_distance_filterEDv2_fS1_j
++ __ZN2RB9CGContext22apply_ovalize_gradientEDv2_fffS1_RKNS_15AffineTransformE
++ __ZNK2RB12CustomShader5Value11float_valueEv
++ __ZNK2RB12CustomShader5Value12float2_valueEv
++ __ZNK2RB12CustomShader7Closure12marshal_argsERNS_10RenderPassERNS_8FunctionENS_10ColorSpaceEPKNS_4RectEPhRNS_12BufferRegionERNSt3__15arrayIPNS_7TextureELm3EEE
++ __ZNK2RB12CustomShader7Closure13make_cifilterERKNS_4RectERNS_15AffineTransformENS0_4TypeE
++ __ZZN2RB11SurfacePool13collect_asyncEvEN3$_08__invokeEPv
++ __ZZN2RB11SurfacePool7collectEjdEN3$_28__invokeEPv
++ __ZZN2RB18SharedSurfaceGroup20prune_removed_lockedEvEN3$_08__invokeEPv
++ __ZZN2RB18SharedSurfaceGroup20prune_removed_lockedEvEN3$_08__invokeEPv.cold.1
++ __ZZN2RB20dispatch_apply_tilesIZNS_18Typed_vImageBufferINS_12packed_half4EE18apply_pixel_valuesIZNS_9CGContext21apply_distance_filterEDv2_fS6_jE3$_9EEvRKT_EUlmmmmE_EEvmmSA_ENUlPvmE_8__invokeESC_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_18Typed_vImageBufferINS_12packed_half4EE29apply_pixel_coords_and_valuesIZNS_9CGContext22apply_ovalize_gradientEDv2_fffS6_RKNS_15AffineTransformEE3$_2EEvRKT_EUlmmmmE_EEvmmSD_ENUlPvmE_8__invokeESF_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_18Typed_vImageBufferIhE17apply_quad_valuesIZNS_9CGContext21apply_distance_filterEDv2_fS5_jE3$_1EEvRKT_EUlmmmmE_EEvmmS9_ENUlPvmE_8__invokeESB_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_18Typed_vImageBufferIjE18apply_pixel_valuesIZNS_9CGContext21apply_distance_filterEDv2_fS5_jE3$_8EEvRKT_EUlmmmmE_EEvmmS9_ENUlPvmE_8__invokeESB_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_18Typed_vImageBufferIjE29apply_pixel_coords_and_valuesIZNS_9CGContext22apply_ovalize_gradientEDv2_fffS5_RKNS_15AffineTransformEE3$_1EEvRKT_EUlmmmmE_EEvmmSC_ENUlPvmE_8__invokeESE_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fS3_jE3$_0EEvmmRKT_EUlmmmmE_EEvmmS7_ENUlPvmE_8__invokeES9_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fS3_jE3$_5EEvmmRKT_EUlmmmmE_EEvmmS7_ENUlPvmE_8__invokeES9_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fS3_jE3$_6EEvmmRKT_EUlmmmmE_EEvmmS7_ENUlPvmE_8__invokeES9_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fS3_jE3$_7EEvmmRKT_EUlmmmmE_EEvmmS7_ENUlPvmE_8__invokeES9_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fS3_jE4$_10EEvmmRKT_EUlmmmmE_EEvmmS7_ENUlPvmE_8__invokeES9_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_9CGContext21apply_distance_filterEDv2_fS2_jE3$_2EEvmmRKT_ENUlPvmE_8__invokeES7_m
++ ___block_descriptor_104_e8_32r40c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c29_ZTSN2RB8objc_ptrIP7RBLayerEE_e19_"<MTLTexture>"8?0l
++ ___copy_helper_block_e8_40c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c29_ZTSN2RB8objc_ptrIP7RBLayerEE
++ ___destroy_helper_block_e8_40c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c29_ZTSN2RB8objc_ptrIP7RBLayerEE
++ _kIOSurfaceName
++ _objc_msgSend$CIFilterCTM
++ _objc_msgSend$createCGImage:fromRect:format:colorSpace:
++ _objc_msgSend$setCIFilterCTM:
+- GCC_except_table108
+- GCC_except_table72
+- __ZN2RB11SurfacePool5allocEPNS_6DeviceEDv2_i14MTLPixelFormatNS_10ColorSpaceEfjS3_P13_CAImageQueue
+- __ZN2RB11SurfacePool5allocEPNS_6DeviceEDv2_i14MTLPixelFormatNS_10ColorSpaceEfjS3_P13_CAImageQueue.cold.1
+- __ZN2RB11SurfacePool5allocEPNS_6DeviceEDv2_i14MTLPixelFormatNS_10ColorSpaceEfjS3_P13_CAImageQueue.cold.2
+- __ZN2RB11SurfacePool7collectEv
+- __ZN2RB11SurfacePool7collectEv.cold.1
+- __ZN2RB12CommitMarker8Observer13set_displayedEv
+- __ZN2RB12CommitMarker8Observer14test_displayedEb
+- __ZN2RB12CommitMarker8Observer9commit_idEv
+- __ZN2RB12CommitMarker8Observer9displayedEv
+- __ZN2RB13ImageProviderC1EP8RBDevicePU33objcproto22_RBDisplayListContents11objc_objectfDv2_i14MTLPixelFormatNS_10ColorSpaceEfS7_NS_10RenderPass12InitialStateE7RBColorNSt3__18optionalIhEESD_j
+- __ZN2RB13ImageProviderC2EP8RBDevicePU33objcproto22_RBDisplayListContents11objc_objectfDv2_i14MTLPixelFormatNS_10ColorSpaceEfS7_NS_10RenderPass12InitialStateE7RBColorNSt3__18optionalIhEESD_j
+- __ZN2RB13SharedSurface14update_removesERNS_6vectorINS0_6RemoveELm0EjEE
+- __ZN2RB13SharedSurface6RemoveD1Ev
+- __ZN2RB13SharedSurface6RemoveD1Ev.cold.1
+- __ZN2RB13SharedSurface6RemoveD1Ev.cold.2
+- __ZN2RB18SharedSurfaceGroup14commit_removedERNS_6vectorINSt3__14pairIPNS_13SharedSurfaceENS1_INS4_6RemoveELm0EjEEEELm0EjEE
+- __ZN2RB18SharedSurfaceGroup14commit_removedERNS_6vectorINSt3__14pairIPNS_13SharedSurfaceENS1_INS4_6RemoveELm0EjEEEELm0EjEE.cold.1
+- __ZN2RB18SharedSurfaceGroup14commit_removedERNS_6vectorINSt3__14pairIPNS_13SharedSurfaceENS1_INS4_6RemoveELm0EjEEEELm0EjEE.cold.2
+- __ZN2RB18SharedSurfaceGroup20wait_for_allocationsERNS_19SharedSurfaceClientE.cold.3
+- __ZN2RB18SharedSurfaceGroup20wait_for_allocationsERNS_19SharedSurfaceClientE.cold.4
+- __ZN2RB18SharedSurfaceGroup22collect_removed_lockedEv
+- __ZN2RB18SharedSurfaceGroup22collect_removed_lockedEv.cold.1
+- __ZN2RB18SharedSurfaceGroup22collect_removed_lockedEv.cold.2
+- __ZN2RB6vectorINS_6cf_ptrIP13_CAImageQueueEELm8EmED1Ev
+- __ZN2RB6vectorINSt3__14pairIP13_CAImageQueueyEELm2EmE12reserve_slowEm
+- __ZN2RB6vectorINSt3__14pairIPNS_13SharedSurfaceENS0_INS3_6RemoveELm0EjEEEELm0EjE12reserve_slowEj
+- __ZN2RB6vectorINSt3__14pairIPNS_13SharedSurfaceENS0_INS3_6RemoveELm0EjEEEELm0EjED2Ev
+- __ZN2RB6vectorINSt3__14pairIPNS_13SharedSurfaceENS0_INS3_6RemoveELm0EjEEEELm0EjED2Ev.cold.1
+- __ZN2RB6vectorINSt3__14pairIPNS_13SharedSurfaceENS0_INS3_6RemoveELm0EjEEEELm0EjED2Ev.cold.2
+- __ZN2RB6vectorIZNKS_12CustomShader7Closure12marshal_argsERNS_10RenderPassERNS_8FunctionEPKNS_4RectEPhRNS_12BufferRegionERNSt3__15arrayIPNS_7TextureELm3EEEE10PendingArgLm0EmE12reserve_slowEm
+- __ZNK2RB12CustomShader7Closure12marshal_argsERNS_10RenderPassERNS_8FunctionEPKNS_4RectEPhRNS_12BufferRegionERNSt3__15arrayIPNS_7TextureELm3EEE
+- __ZNK2RB12CustomShader7Closure13make_cifilterERKNS_4RectENS0_4TypeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPZN2RB13SharedSurface14update_removesERNS5_6vectorINS6_6RemoveELm0EjEEE12IndexedStateLb0EEEvT1_SD_T0_NS_15iterator_traitsISD_E15difference_typeEb
+- __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPZN2RB13SharedSurface14update_removesERNS5_6vectorINS6_6RemoveELm0EjEEE12IndexedStateEEbT1_SD_T0_
+- __ZNSt3__17__sort4B8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPZN2RB13SharedSurface14update_removesERNS5_6vectorINS6_6RemoveELm0EjEEE12IndexedStateLi0EEEvT1_SD_SD_SD_T0_
+- __ZZN2RB11SurfacePool15AsyncCollectionD1EvEN3$_08__invokeEPv
+- __ZZN2RB18SharedSurfaceGroup22collect_removed_lockedEvEN3$_08__invokeEPv
+- __ZZN2RB18SharedSurfaceGroup22collect_removed_lockedEvEN3$_08__invokeEPv.cold.1
+- __ZZN2RB18SharedSurfaceGroup22collect_removed_lockedEvEN3$_08__invokeEPv.cold.2
+- __ZZN2RB20dispatch_apply_tilesIZNS_18Typed_vImageBufferIhE17apply_quad_valuesIZNS_9CGContext21apply_distance_filterEDv2_fjE3$_1EEvRKT_EUlmmmmE_EEvmmS9_ENUlPvmE_8__invokeESB_m
+- __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fjE3$_0EEvmmRKT_EUlmmmmE_EEvmmS7_ENUlPvmE_8__invokeES9_m
+- __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fjE3$_5EEvmmRKT_EUlmmmmE_EEvmmS7_ENUlPvmE_8__invokeES9_m
+- __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fjE3$_6EEvmmRKT_EUlmmmmE_EEvmmS7_ENUlPvmE_8__invokeES9_m
+- __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fjE3$_7EEvmmRKT_EUlmmmmE_EEvmmS7_ENUlPvmE_8__invokeES9_m
+- __ZZN2RB20dispatch_apply_tilesIZNS_9CGContext21apply_distance_filterEDv2_fjE3$_3EEvmmRKT_ENUlPvmE_8__invokeES7_m
+- __ZZZN2RB18SharedSurfaceGroup22collect_removed_lockedEvENK3$_0clEPvENUlS2_E_8__invokeES2_
+- ____ZN2RB11SurfacePool7collectEv_block_invoke
+- ___block_descriptor_96_e8_32r40c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE_e19_"<MTLTexture>"8?0l
+- ___copy_helper_block_e8_40c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE
+- ___destroy_helper_block_e8_40c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE
+- _dispatch_after
+- _objc_msgSend$drawImage:inRect:fromRect:
+CStrings:
++ "  Surface %p; [%d %d]; IOSurface %x%s; owner %p; last used %f\n"
++ "%@(%@)"
++ "%f: notified about %p\n"
++ "%p: %{public}s for %u -> %{public}s (%f vs %f)\n"
++ "7.0.79"
++ "@1!0"
++ "CIFilterCTM"
++ "RBShared"
++ "_cifilter_ctm"
++ "alpha-is-distance"
++ "createCGImage:fromRect:format:colorSpace:"
++ "invalid from item: %u, %u vs %u"
++ "invalid to item: %u, %u vs %u"
++ "ovalizeGradient"
++ "setCIFilterCTM:"
++ "unable to create distance LUT texture"
++ "{unique_ptr<CGAffineTransform, std::default_delete<CGAffineTransform>>=\"__ptr_\"^{CGAffineTransform}}"
+- "  Surface %p; [%d %d]; IOSurface %lx%s; owner %p; last used %f\n"
+- "%p: %s for %u -> %s (%f vs %f)\n"
+- "7.0.75.1"
+- "@1"
+- "drawImage:inRect:fromRect:"
+- "path_alpha"
+- "path_alpha_fragment"
+
+```

@@ -1,0 +1,466 @@
+## NewsFeed
+
+> `/System/Library/PrivateFrameworks/NewsFeed.framework/NewsFeed`
+
+```diff
+
+-5726.2.0.0.0
+-  __TEXT.__text: 0x16e62a0
+-  __TEXT.__auth_stubs: 0xebf0
++5728.0.0.0.0
++  __TEXT.__text: 0x16f2c60
++  __TEXT.__auth_stubs: 0xed90
+   __TEXT.__delay_helper: 0x17c
+-  __TEXT.__objc_methlist: 0xa894
+-  __TEXT.__const: 0x1435c4
+-  __TEXT.__cstring: 0x4cc12
+-  __TEXT.__oslogstring: 0x66d7
+-  __TEXT.__constg_swiftt: 0x36af0
+-  __TEXT.__swift5_typeref: 0x279d2
+-  __TEXT.__swift5_reflstr: 0x360c6
+-  __TEXT.__swift5_fieldmd: 0x4c508
+-  __TEXT.__swift5_builtin: 0x1c5c
+-  __TEXT.__swift5_assocty: 0x8d80
+-  __TEXT.__swift5_proto: 0x10768
+-  __TEXT.__swift5_types: 0x4bd4
+-  __TEXT.__swift5_protos: 0x5d0
+-  __TEXT.__swift5_capture: 0x311d4
+-  __TEXT.__swift5_mpenum: 0x1438
++  __TEXT.__objc_methlist: 0xa8b4
++  __TEXT.__const: 0x143ae4
++  __TEXT.__cstring: 0x4cfb2
++  __TEXT.__oslogstring: 0x6877
++  __TEXT.__constg_swiftt: 0x36d18
++  __TEXT.__swift5_typeref: 0x27c02
++  __TEXT.__swift5_reflstr: 0x36306
++  __TEXT.__swift5_fieldmd: 0x4c7d8
++  __TEXT.__swift5_builtin: 0x1c84
++  __TEXT.__swift5_assocty: 0x8d90
++  __TEXT.__swift5_proto: 0x1078c
++  __TEXT.__swift5_types: 0x4c04
++  __TEXT.__swift5_protos: 0x5d4
++  __TEXT.__swift5_capture: 0x3135c
++  __TEXT.__swift5_mpenum: 0x1440
+   __TEXT.__swift_as_entry: 0x9a8
+-  __TEXT.__swift_as_ret: 0xabc
+-  __TEXT.__unwind_info: 0x4af10
+-  __TEXT.__eh_frame: 0x85eb8
+-  __TEXT.__objc_classname: 0xba8
+-  __TEXT.__objc_methname: 0x1a055
+-  __TEXT.__objc_methtype: 0x5134
++  __TEXT.__swift_as_ret: 0xab8
++  __TEXT.__unwind_info: 0x4bb70
++  __TEXT.__eh_frame: 0x85e90
++  __TEXT.__objc_classname: 0xbbc
++  __TEXT.__objc_methname: 0x19e65
++  __TEXT.__objc_methtype: 0x4f3d
+   __TEXT.__objc_stubs: 0xec0
+-  __DATA_CONST.__got: 0x4a50
+-  __DATA_CONST.__const: 0x40c8
+-  __DATA_CONST.__objc_classlist: 0x1bb0
++  __DATA_CONST.__got: 0x4ad8
++  __DATA_CONST.__const: 0x4108
++  __DATA_CONST.__objc_classlist: 0x1bd8
+   __DATA_CONST.__objc_catlist: 0x48
+   __DATA_CONST.__objc_catlist2: 0x18
+-  __DATA_CONST.__objc_protolist: 0x7a8
++  __DATA_CONST.__objc_protolist: 0x7b8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x72f0
+-  __DATA_CONST.__objc_protorefs: 0x400
++  __DATA_CONST.__objc_selrefs: 0x7358
++  __DATA_CONST.__objc_protorefs: 0x408
+   __DATA_CONST.__objc_superrefs: 0x40
+-  __AUTH_CONST.__auth_got: 0x7600
+-  __AUTH_CONST.__const: 0x100a30
++  __AUTH_CONST.__auth_got: 0x76d0
++  __AUTH_CONST.__const: 0x1010e0
+   __AUTH_CONST.__cfstring: 0xa0
+-  __AUTH_CONST.__objc_const: 0x47968
+-  __AUTH.__objc_data: 0xafe0
+-  __AUTH.__data: 0xf9c0
++  __AUTH_CONST.__objc_const: 0x47e68
++  __AUTH.__objc_data: 0xb330
++  __AUTH.__data: 0xfbc0
+   __DATA.__objc_ivar: 0x4c
+-  __DATA.__data: 0x20230
++  __DATA.__data: 0x20420
+   __DATA.__objc_stublist: 0x58
+-  __DATA.__bss: 0x120668
+-  __DATA.__common: 0x980
+-  __DATA_DIRTY.__objc_data: 0x49b0
+-  __DATA_DIRTY.__data: 0x42da8
+-  __DATA_DIRTY.__bss: 0xb2700
++  __DATA.__bss: 0x120a08
++  __DATA.__common: 0x970
++  __DATA_DIRTY.__objc_data: 0x49c0
++  __DATA_DIRTY.__data: 0x42be0
++  __DATA_DIRTY.__bss: 0xb2680
+   __DATA_DIRTY.__common: 0xa98
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AVKit.framework/AVKit
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3AE1854D-3551-3CDD-B186-5A08797B6FDA
+-  Functions: 108946
+-  Symbols:   26370
+-  CStrings:  13590
++  UUID: 15F38C81-C696-392B-A611-FFC4C3297346
++  Functions: 109163
++  Symbols:   26489
++  CStrings:  13627
+ 
+Symbols:
++ _OBJC_CLASS_$_SWPresentationDatastore
++ _OBJC_CLASS_$_UIDeferredMenuElement
++ _OBJC_CLASS_$_UIScrollEdgeEffectStyle
++ _OBJC_CLASS_$__TtC8NewsFeed21DebugFormatEditorView
++ _OBJC_CLASS_$__TtC8NewsFeed29DebugFormatDockViewController
++ _OBJC_CLASS_$__TtC8NewsFeed31DebugFormatNavigationController
++ _OBJC_CLASS_$__TtC8NewsFeed38DebugFormatDockButtonItemContainerView
++ _OBJC_CLASS_$__UIScrollPocketInteraction
++ _OBJC_METACLASS_$__TtC8NewsFeed21DebugFormatEditorView
++ _OBJC_METACLASS_$__TtC8NewsFeed29DebugFormatDockViewController
++ _OBJC_METACLASS_$__TtC8NewsFeed31DebugFormatNavigationController
++ _OBJC_METACLASS_$__TtC8NewsFeed38DebugFormatDockButtonItemContainerView
++ __DATA__TtC8NewsFeed21DebugFormatEditorView
++ __DATA__TtC8NewsFeed25DebugFormatDockButtonItem
++ __DATA__TtC8NewsFeed29DebugFormatDockViewController
++ __DATA__TtC8NewsFeed31DebugFormatNavigationController
++ __DATA__TtC8NewsFeed32DebugFormatNavigationItemManager
++ __DATA__TtC8NewsFeed38DebugFormatDockButtonItemContainerView
++ __INSTANCE_METHODS__TtC8NewsFeed21DebugFormatEditorView
++ __INSTANCE_METHODS__TtC8NewsFeed29DebugFormatDockViewController
++ __INSTANCE_METHODS__TtC8NewsFeed29DebugFormatMainViewController
++ __INSTANCE_METHODS__TtC8NewsFeed31DebugFormatNavigationController
++ __INSTANCE_METHODS__TtC8NewsFeed32DebugFormatNavigationItemManager
++ __INSTANCE_METHODS__TtC8NewsFeed34DebugFormatWorkspaceViewController
++ __INSTANCE_METHODS__TtC8NewsFeed35DebugFormatUploadMainViewController
++ __INSTANCE_METHODS__TtC8NewsFeed38DebugFormatDockButtonItemContainerView
++ __IVARS__TtC8NewsFeed21DebugFormatEditorView
++ __IVARS__TtC8NewsFeed25DebugFormatDockButtonItem
++ __IVARS__TtC8NewsFeed29DebugFormatDockViewController
++ __IVARS__TtC8NewsFeed31DebugFormatNavigationController
++ __IVARS__TtC8NewsFeed32DebugFormatNavigationItemManager
++ __IVARS__TtC8NewsFeed38DebugFormatDockButtonItemContainerView
++ __METACLASS_DATA__TtC8NewsFeed21DebugFormatEditorView
++ __METACLASS_DATA__TtC8NewsFeed25DebugFormatDockButtonItem
++ __METACLASS_DATA__TtC8NewsFeed29DebugFormatDockViewController
++ __METACLASS_DATA__TtC8NewsFeed31DebugFormatNavigationController
++ __METACLASS_DATA__TtC8NewsFeed32DebugFormatNavigationItemManager
++ __METACLASS_DATA__TtC8NewsFeed38DebugFormatDockButtonItemContainerView
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UINavigationBarDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UINavigationBarDelegate
++ __OBJC_$_PROTOCOL_REFS_UINavigationBarDelegate
++ __OBJC_$_PROTOCOL_REFS_UITraitChangeRegistration
++ __OBJC_LABEL_PROTOCOL_$_UINavigationBarDelegate
++ __OBJC_LABEL_PROTOCOL_$_UITraitChangeRegistration
++ __OBJC_PROTOCOL_$_UINavigationBarDelegate
++ __OBJC_PROTOCOL_$_UITraitChangeRegistration
++ __PROPERTIES__TtC8NewsFeed38DebugFormatDockButtonItemContainerView
++ __PROTOCOLS__TtC8NewsFeed31DebugFormatNavigationController
++ __PROTOCOLS__TtC8NewsFeed31DebugFormatNavigationController.1
++ __UIWindowSceneDidBeginLiveResizeNotification
++ __UIWindowSceneDidEndLiveResizeNotification
++ _associated conformance 8NewsFeed31ExportToGroceryListCommandStateO5TeaUI0g3RawH4TypeAaD0ghL0
++ _associated conformance 8NewsFeed31ExportToGroceryListCommandStateOSHAASQ
++ _flat unique So25UITraitChangeRegistration_p
++ _get_enum_tag_for_layout_string 8NewsFeed11SaveContentO
++ _get_enum_tag_for_layout_string 8NewsFeed25DebugFormatDockButtonItemC5Model33_04B0F6CACC242E5537990CDC3D0E42EDLLO
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOQr.2086
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOqd0__AaBHC.2087
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE21scrollEdgeEffectStyle_3forQrAA06ScrollefG0VSg_AA0E0O3SetVtFQOyAcAEAD_AEQrAH_ALtFQOyAA15ModifiedContentVyAcAE04listG0yQrqd__AA04ListG0Rd__lFQOyAA0N0Vys5NeverOAA05TupleC0VyAA7ForEachVySay8NewsFeed25DebugFormatLayoutTreeItemCG10Foundation4UUIDVAcAE0M12RowSeparator_5edgesQrAA10VisibilityO_AA08VerticalE0OAKVtFQOyANyAY0uvwx3RowC0VAA21_TraitWritingModifierVyAA0N21RowBackgroundTraitKeyVGG_Qo_G_AXySayAY0uvwX7PackageCGA3_AcAEA4__A5_QrA7__A10_tFQOyAY0uvwx7PackageC0V_Qo_GtGG_AA05PlainnG0VQo_AA30_EnvironmentKeyWritingModifierVyAA08AnyShapeG0VSgGG_Qo__Qo_HO.27
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE21scrollEdgeEffectStyle_3forQrAA06ScrollefG0VSg_AA0E0O3SetVtFQOyAcAEAD_AEQrAH_ALtFQOyAA15ModifiedContentVyAcAE04listG0yQrqd__AA04ListG0Rd__lFQOyAA0N0Vys5NeverOAA7ForEachVySay8NewsFeed23DebugFormatFileTreeItemCG10Foundation4UUIDVANyAcAE0M12RowSeparator_5edgesQrAA10VisibilityO_AA08VerticalE0OAKVtFQOyAW0tuvwxC0V_Qo_AA21_TraitWritingModifierVyAA0N21RowBackgroundTraitKeyVGGGG_AA05PlainnG0VQo_AA30_EnvironmentKeyWritingModifierVyAA08AnyShapeG0VSgGG_Qo__Qo_HO.12
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE21scrollEdgeEffectStyle_3forQrAA06ScrollefG0VSg_AA0E0O3SetVtFQOyAcAEAD_AEQrAH_ALtFQOyAcAE16listRowSeparator_5edgesQrAA10VisibilityO_AA08VerticalE0OAKVtFQOyAA15ModifiedContentVyAUyAA15DisclosureGroupVy8NewsFeed024DebugFormatWorkspaceTreey6HeaderC0VAA05TupleC0VyAUyAUyAUyAUyAX0wxv5AsyncC0VAA21_TraitWritingModifierVyAA04ListL14InsetsTraitKeyVGGA4_yAA24IsDeleteDisabledTraitKeyVGGA4_yAA22IsMoveDisabledTraitKeyVGGA4_yAA04ListL18BackgroundTraitKeyVGG_AUyAUyAUyAUyAA7ForEachVySaySi6offset_AX0V8ItemType_pSgyYaKc7elementtGSiAX0wxv9ItemAsyncC0VGA7_GA11_GA15_GA19_GAUyAUyAUyAUyAUyAUyA22_ySayAX0wX16PackageInventoryCGSSAX0wx7PackageC0VGA4_yAA16OnDeleteTraitKeyVGGA4_yAA14OnMoveTraitKeyVGGA11_GA15_GA7_GA19_GAUyAUyAUyAUyAUyAUyA22_ySayAX0wxyT0VGSSA39_GA43_GA47_GA11_GA15_GA7_GA19_GtGGA7_GA19_G_Qo__Qo__Qo_HO.98
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE21scrollEdgeEffectStyle_3forQrAA06ScrollefG0VSg_AA0E0O3SetVtFQOyAcAEAD_AEQrAH_ALtFQOyAcAE16listRowSeparator_5edgesQrAA10VisibilityO_AA08VerticalE0OAKVtFQOyAA15ModifiedContentVyAcAE0kG0yQrqd__AA04ListG0Rd__lFQOyAA0S0Vys5NeverOAA05TupleC0VyAA7ForEachVySay8NewsFeed0Y8ItemType_pGSSAcAEAM_ANQrAP_AStFQOyA4_011DebugFormatyzC0V_Qo_G_AcAEAM_ANQrAP_AStFQOyA4_030DebugFormatBindingTreeSelectorC0V_Qo_SgAcAEAM_ANQrAP_AStFQOyA4_028DebugFormatBindingTreeOptionC0V_Qo_SgA3_ySayA4_27DebugFormatPackageInventoryCGSSA4_022DebugFormatBindingTreelC0VGA3_ySayA4_31DebugFormatEditorWorkspaceGroupVGSSAcAEAM_ANQrAP_AStFQOyA4_030DebugFormatBindingTreeSubgroupC0V_Qo_GSgtGSgG_AA05PlainsG0VQo_AA30_EnvironmentKeyWritingModifierVyAA08AnyShapeG0VSgGG_Qo__Qo__Qo_HO.25
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE21scrollEdgeEffectStyle_3forQrAA06ScrollefG0VSg_AA0E0O3SetVtFQOyAcAEAD_AEQrAH_ALtFQOyAcAE16listRowSeparator_5edgesQrAA10VisibilityO_AA08VerticalE0OAKVtFQOyAA15ModifiedContentVyAcAE0kG0yQrqd__AA04ListG0Rd__lFQOyAA0S0Vys5NeverOAA05TupleC0VyAcAEAM_ANQrAP_AStFQOy8NewsFeed033DebugFormatInventoryTreeWorkspaceC0V_Qo__AA7ForEachVySayA2_0xyZ11PackageRoleOGSSAcAEAVyQrqd__AaWRd__lFQOyAcAEAM_ANQrAP_AStFQOyA2_0xyz8TreeRoleC0V_Qo__AA012InsetGroupedsG0VQo_GtGG_AA05PlainsG0VQo_AA30_EnvironmentKeyWritingModifierVyAA08AnyShapeG0VSgGG_Qo__Qo__Qo_HO.19
++ _objc_retain_x15
++ _objectdestroy.100Tm
++ _objectdestroy.127Tm
++ _objectdestroy.133Tm
++ _objectdestroy.193Tm
++ _objectdestroy.199Tm
++ _objectdestroy.34Tm
++ _objectdestroy.364Tm
++ _objectdestroy.505Tm
++ _objectdestroy.538Tm
++ _objectdestroy.583Tm
++ _objectdestroy.609Tm
++ _objectdestroy.61Tm
++ _objectdestroy.65Tm
++ _objectdestroy.97Tm
++ _symbolic $s5UIKit17UITraitDefinitionP
++ _symbolic $s8NewsFeed35DebugFormatNavigationItemStatusViewP
++ _symbolic SaySo13UIMenuElementCGIego_
++ _symbolic Say_____G 8NewsFeed25DebugFormatDockButtonItemC
++ _symbolic SbycSg
++ _symbolic So23SWPresentationDatastoreCSg
++ _symbolic So7NSArrayCIeyBy_
++ _symbolic _____ 5TeaUI8CommandsC8NewsFeedE5IssueV
++ _symbolic _____ 8NewsFeed0B19LayoutSolverOptionsV02AdE0V
++ _symbolic _____ 8NewsFeed11SaveContentO
++ _symbolic _____ 8NewsFeed13CanReuseTraitV
++ _symbolic _____ 8NewsFeed20DebugFormatDockBadgeV
++ _symbolic _____ 8NewsFeed21DebugFormatEditorViewC
++ _symbolic _____ 8NewsFeed25DebugFormatDockButtonItemC
++ _symbolic _____ 8NewsFeed25DebugFormatDockButtonItemC5Model33_04B0F6CACC242E5537990CDC3D0E42EDLLO
++ _symbolic _____ 8NewsFeed29DebugFormatDockViewControllerC
++ _symbolic _____ 8NewsFeed31DebugFormatNavigationControllerC
++ _symbolic _____ 8NewsFeed31ExportToGroceryListCommandStateO
++ _symbolic _____ 8NewsFeed32DebugFormatNavigationItemManagerC
++ _symbolic _____ 8NewsFeed38DebugFormatDockButtonItemContainerViewC
++ _symbolic _____ So31UINavigationBarNSToolbarSectionV
++ _symbolic _____Sg 8NewsFeed0B19LayoutSolverOptionsV02AdE0V
++ _symbolic _____Sg 8NewsFeed32DebugFormatNavigationItemManagerC
++ _symbolic _____Sg So18CALayerCornerCurvea
++ _symbolic _____SgXw 8NewsFeed25DebugFormatDockButtonItemC
++ _symbolic _____SgXw 8NewsFeed29DebugFormatDockViewControllerC
++ _symbolic _____SgXw 8NewsFeed32DebugFormatWorkspaceCanvasSorterC
++ _symbolic _____SgXwz_Xx 8NewsFeed29DebugFormatDockViewControllerC
++ _symbolic _____XDXMT 8NewsFeed22WebEmbedImageGeneratorC
++ _symbolic ______So16UIViewControllerCXc 5TeaUI11SegmentableP
++ _symbolic ______So16UIViewControllerCXc011segmentViewB0______06parentdB0t 5TeaUI11SegmentableP AA23SegmentedViewControllerC
++ _symbolic ______So6UIViewCXc 8NewsFeed35DebugFormatNavigationItemStatusViewP
++ _symbolic ______p8headline_SSSgyc12selectedText_____12shareContextAC18feedItemIdentifiert So19FCHeadlineProvidingP 8NewsFeed19CommandShareContextO
++ _symbolic ______pSg So25UITraitChangeRegistrationP
++ _symbolic _____y_____G 8NewsFeed18SaveCommandContextV AA0C7ContentO
++ _symbolic _____y_____GSg 8NewsFeed18SaveCommandContextV AA0C7ContentO
++ _symbolic _____y_____SgG 13TeaFoundation18ObservablePropertyC 8NewsFeed20DebugFormatDockBadgeV
++ _symbolic _____y__________G 5TeaUI12StateCommandC 8NewsFeed26ExportToGroceryListContextV AD0ghijdC0O
++ _symbolic _____y_____y_____G_____G 5TeaUI12StateCommandC 8NewsFeed04SaveD7ContextV AD0G7ContentO AD06SavingdC0O
++ _symbolic _____y_____y_____y_____yAAy_____y__________yAAyAAyAAyAAy__________y_____GGAFy_____GGAFy_____GGAFy_____GG_AAyAAyAAyAAy_____ySaySi6offset_______pSgyYaKc7elementtGSi_____GAHGAKGANGAQGAAyAAyAAyAAyAAyAAyASySay_____GSS_____GAFy_____GGAFy_____GGAKGANGAHGAQGAAyAAyAAyAAyAAyAAyASySay_____GSSA5_GA8_GA11_GAKGANGAHGAQGtGGAHGAQG_Qo__Qo__Qo_ 7SwiftUI4ViewPAAE21scrollEdgeEffectStyle_3forQrAA06ScrollefG0VSg_AA0E0O3SetVtFQO AcAEAD_AEQrAH_ALtFQO AcAE16listRowSeparator_5edgesQrAA10VisibilityO_AA08VerticalE0OAKVtFQO AA15ModifiedContentV AA15DisclosureGroupV 8NewsFeed024DebugFormatWorkspaceTreey6HeaderC0V AA05TupleC0V AX0wxv5AsyncC0V AA21_TraitWritingModifierV AA04ListL14InsetsTraitKeyV AA24IsDeleteDisabledTraitKeyV AA22IsMoveDisabledTraitKeyV AA04ListL18BackgroundTraitKeyV AA7ForEachV AX0V8ItemTypeP AX0wxv9ItemAsyncC0V AX0wX16PackageInventoryC AX0wx7PackageC0V AA16OnDeleteTraitKeyV AA14OnMoveTraitKeyV AX0wxyT0V
++ _symbolic _____y_____y_____y_____y_____y__________ySay_____G_____AAy_____y______Qo______y_____GGGG______Qo______y_____SgGG_Qo__Qo_ 7SwiftUI4ViewPAAE21scrollEdgeEffectStyle_3forQrAA06ScrollefG0VSg_AA0E0O3SetVtFQO AcAEAD_AEQrAH_ALtFQO AA15ModifiedContentV AcAE04listG0yQrqd__AA04ListG0Rd__lFQO AA0N0V s5NeverO AA7ForEachV 8NewsFeed23DebugFormatFileTreeItemC 10Foundation4UUIDV AcAE0M12RowSeparator_5edgesQrAA10VisibilityO_AA08VerticalE0OAKVtFQO AW0tuvwxC0V AA21_TraitWritingModifierV AA0N21RowBackgroundTraitKeyV AA05PlainnG0V AA30_EnvironmentKeyWritingModifierV AA08AnyShapeG0V
++ _symbolic _____y_____y_____y_____y_____y__________y_____ySay_____G__________yAAy__________y_____GG_Qo_G_AEySay_____GAH_____y______Qo_GtGG______Qo______y_____SgGG_Qo__Qo_ 7SwiftUI4ViewPAAE21scrollEdgeEffectStyle_3forQrAA06ScrollefG0VSg_AA0E0O3SetVtFQO AcAEAD_AEQrAH_ALtFQO AA15ModifiedContentV AcAE04listG0yQrqd__AA04ListG0Rd__lFQO AA0N0V s5NeverO AA05TupleC0V AA7ForEachV 8NewsFeed25DebugFormatLayoutTreeItemC 10Foundation4UUIDV AcAE0M12RowSeparator_5edgesQrAA10VisibilityO_AA08VerticalE0OAKVtFQO AY0uvwx3RowC0V AA21_TraitWritingModifierV AA0N21RowBackgroundTraitKeyV AY0uvwX7PackageC AcAEA3__A4_QrA6__A9_tFQO AY0uvwx7PackageC0V AA05PlainnG0V AA30_EnvironmentKeyWritingModifierV AA08AnyShapeG0V
++ _symbolic _____y_____y_____y_____y_____y_____y__________y_____ySay______pGSS_____y______Qo_G______y______Qo_Sg_____y______Qo_SgAEySay_____GSS_____GAEySay_____GSS_____y______Qo_GSgtGSgG______Qo______y_____SgGG_Qo__Qo__Qo_ 7SwiftUI4ViewPAAE21scrollEdgeEffectStyle_3forQrAA06ScrollefG0VSg_AA0E0O3SetVtFQO AcAEAD_AEQrAH_ALtFQO AcAE16listRowSeparator_5edgesQrAA10VisibilityO_AA08VerticalE0OAKVtFQO AA15ModifiedContentV AcAE0kG0yQrqd__AA04ListG0Rd__lFQO AA0S0V s5NeverO AA05TupleC0V AA7ForEachV 8NewsFeed0Y8ItemTypeP AcAEAM_ANQrAP_AStFQO A4_011DebugFormatyzC0V AcAEAM_ANQrAP_AStFQO A4_030DebugFormatBindingTreeSelectorC0V AcAEAM_ANQrAP_AStFQO A4_028DebugFormatBindingTreeOptionC0V A4_27DebugFormatPackageInventoryC A4_022DebugFormatBindingTreelC0V A4_31DebugFormatEditorWorkspaceGroupV AcAEAM_ANQrAP_AStFQO A4_030DebugFormatBindingTreeSubgroupC0V AA05PlainsG0V AA30_EnvironmentKeyWritingModifierV AA08AnyShapeG0V
++ _symbolic _____y_____y_____y_____y_____y_____y__________y_____y______Qo_______ySay_____GSS_____y_____y______Qo_______Qo_GtGG______Qo______y_____SgGG_Qo__Qo__Qo_ 7SwiftUI4ViewPAAE21scrollEdgeEffectStyle_3forQrAA06ScrollefG0VSg_AA0E0O3SetVtFQO AcAEAD_AEQrAH_ALtFQO AcAE16listRowSeparator_5edgesQrAA10VisibilityO_AA08VerticalE0OAKVtFQO AA15ModifiedContentV AcAE0kG0yQrqd__AA04ListG0Rd__lFQO AA0S0V s5NeverO AA05TupleC0V AcAEAM_ANQrAP_AStFQO 8NewsFeed033DebugFormatInventoryTreeWorkspaceC0V AA7ForEachV A2_0xyZ11PackageRoleO AcAEAVyQrqd__AaWRd__lFQO AcAEAM_ANQrAP_AStFQO A2_0xyz8TreeRoleC0V AA012InsetGroupedsG0V AA05PlainsG0V AA30_EnvironmentKeyWritingModifierV AA08AnyShapeG0V
++ _type_layout_string 8NewsFeed0B19LayoutSolverOptionsV02AdE0V
++ _type_layout_string 8NewsFeed11SaveContentO
++ _type_layout_string 8NewsFeed20DebugFormatDockBadgeV
++ _type_layout_string 8NewsFeed25DebugFormatDockButtonItemC5Model33_04B0F6CACC242E5537990CDC3D0E42EDLLO
+- __DATA__TtC8NewsFeed33RecipeBoxSaveRecipeCommandHandler
+- __IVARS__TtC8NewsFeed33RecipeBoxSaveRecipeCommandHandler
+- __METACLASS_DATA__TtC8NewsFeed33RecipeBoxSaveRecipeCommandHandler
+- __OBJC_$_INSTANCE_METHODS__TtC8NewsFeed29DebugFormatMainViewController(NewsFeed)
+- __OBJC_$_INSTANCE_METHODS__TtC8NewsFeed34DebugFormatWorkspaceViewController(NewsFeed)
+- __OBJC_$_INSTANCE_METHODS__TtC8NewsFeed35DebugFormatUploadMainViewController(NewsFeed)
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UISplitViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UISplitViewControllerDelegate
+- __OBJC_CLASS_PROTOCOLS_$__TtC8NewsFeed29DebugFormatMainViewController(NewsFeed)
+- __OBJC_CLASS_PROTOCOLS_$__TtC8NewsFeed34DebugFormatWorkspaceViewController(NewsFeed)
+- __OBJC_CLASS_PROTOCOLS_$__TtC8NewsFeed35DebugFormatUploadMainViewController(NewsFeed)
+- __OBJC_LABEL_PROTOCOL_$_UISplitViewControllerDelegate
+- __OBJC_PROTOCOL_$_UISplitViewControllerDelegate
+- _associated conformance 8NewsFeed013RecipeBoxSaveC14CommandHandlerC5TeaUI05StatefG4TypeAA0f7ContextJ0AdEP_AD0fjK0
+- _block_copy_helper.62
+- _block_copy_helper.68
+- _block_copy_helper.80
+- _block_descriptor.64
+- _block_descriptor.70
+- _block_descriptor.82
+- _block_destroy_helper.63
+- _block_destroy_helper.69
+- _block_destroy_helper.81
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOQr.2085
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOqd0__AaBHC.2086
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE9listStyleyQrqd__AA04ListG0Rd__lFQOyAA0H0Vys5NeverOAA05TupleE0VyAA7ForEachVySay8NewsFeed25DebugFormatLayoutTreeItemCG10Foundation4UUIDVAeAE0F12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyACyAP0opqrvE0VAA21_TraitWritingModifierVyAA0hV18BackgroundTraitKeyVGG_Qo_G_AOySayAP0opqR7PackageCGAveAEAW_AXQrAZ_A2_tFQOyAP0opqr7PackageE0V_Qo_GtGG_AA05PlainhG0VQo_AA30_EnvironmentKeyWritingModifierVyAA08AnyShapeG0VSgGGAaDHPqd0__AaDHD3_A24_HO_A30_AA0E8ModifierHPyHCHC.26
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE9listStyleyQrqd__AA04ListG0Rd__lFQOyAA0H0Vys5NeverOAA7ForEachVySay8NewsFeed23DebugFormatFileTreeItemCG10Foundation4UUIDVACyAeAE0F12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAN0nopqrE0V_Qo_AA21_TraitWritingModifierVyAA0hU18BackgroundTraitKeyVGGGG_AA05PlainhG0VQo_AA30_EnvironmentKeyWritingModifierVyAA08AnyShapeG0VSgGGAaDHPqd0__AaDHD3_A14_HO_A20_AA0E8ModifierHPyHCHC.11
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA15ModifiedContentVyAMyAA15DisclosureGroupVy8NewsFeed024DebugFormatWorkspaceTreet6HeaderC0VAA05TupleC0VyAMyAMyAMyAMyAP0rsq5AsyncC0VAA21_TraitWritingModifierVyAA04Liste6InsetsY3KeyVGGAXyAA016IsDeleteDisabledY3KeyVGGAXyAA014IsMoveDisabledY3KeyVGGAXyAA04Liste10BackgroundY3KeyVGG_AMyAMyAMyAMyAA7ForEachVySaySi6offset_AP0Q8ItemType_pSgyYaKc7elementtGSiAP0rsq4ItemxC0VGA_GA3_GA7_GA11_GAMyAMyAMyAMyAMyAMyA14_ySayAP0rS16PackageInventoryCGSSAP0rs7PackageC0VGAXyAA08OnDeleteY3KeyVGGAXyAA06OnMoveY3KeyVGGA3_GA7_GA_GA11_GAMyAMyAMyAMyAMyAMyA14_ySayAP0rstO0VGSSA31_GA35_GA39_GA3_GA7_GA_GA11_GtGGA_GA11_G_Qo_HO.97
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA15ModifiedContentVyAcAE0D5StyleyQrqd__AA04ListN0Rd__lFQOyAA0O0Vys5NeverOAA05TupleC0VyAA7ForEachVySay8NewsFeed0U8ItemType_pGSSAcAEAD_AEQrAG_AKtFQOyAX011DebugFormatuvC0V_Qo_G_AcAEAD_AEQrAG_AKtFQOyAX0xy19BindingTreeSelectorC0V_Qo_SgAcAEAD_AEQrAG_AKtFQOyAX0xyz10TreeOptionC0V_Qo_SgAWySayAX0xY16PackageInventoryCGSSAX0xyz4TreeeC0VGAWySayAX0xY20EditorWorkspaceGroupVGSSAcAEAD_AEQrAG_AKtFQOyAX0xyz12TreeSubgroupC0V_Qo_GSgtGSgG_AA05PlainoN0VQo_AA30_EnvironmentKeyWritingModifierVyAA08AnyShapeN0VSgGG_Qo_HO.24
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA15ModifiedContentVyAcAE0D5StyleyQrqd__AA04ListN0Rd__lFQOyAA0O0Vys5NeverOAA05TupleC0VyAcAEAD_AEQrAG_AKtFQOy8NewsFeed033DebugFormatInventoryTreeWorkspaceC0V_Qo__AA7ForEachVySayAV0tuV11PackageRoleOGSSAcAEAD_AEQrAG_AKtFQOyAV0tuvw4RoleC0V_Qo_GtGG_AA05PlainoN0VQo_AA30_EnvironmentKeyWritingModifierVyAA08AnyShapeN0VSgGG_Qo_HO.18
+- _objectdestroy.106Tm
+- _objectdestroy.123Tm
+- _objectdestroy.138Tm
+- _objectdestroy.139Tm
+- _objectdestroy.253Tm
+- _objectdestroy.301Tm
+- _objectdestroy.358Tm
+- _objectdestroy.424Tm
+- _objectdestroy.496Tm
+- _objectdestroy.63Tm
+- _objectdestroy.661Tm
+- _objectdestroy.871Tm
+- _objectdestroy.897Tm
+- _symbolic _____ 5TeaUI8CommandsC8NewsFeedE9RecipeBoxV
+- _symbolic _____ 8NewsFeed013RecipeBoxSaveC14CommandHandlerC
+- _symbolic ______p8headline_SSSg12selectedText_____12shareContextAC18feedItemIdentifiert So19FCHeadlineProvidingP 8NewsFeed19CommandShareContextO
+- _symbolic _____ySo8FCRecipeCG 8NewsFeed18SaveCommandContextV
+- _symbolic _____ySo8FCRecipeCGSg 8NewsFeed18SaveCommandContextV
+- _symbolic _____y_____G 5TeaUI7CommandC 8NewsFeed26ExportToGroceryListContextV
+- _symbolic _____y______pG 8NewsFeed18SaveCommandContextV So19FCHeadlineProvidingP
+- _symbolic _____y______pGSg 8NewsFeed18SaveCommandContextV So19FCHeadlineProvidingP
+- _symbolic _____y_____yAAy_____y__________yAAyAAyAAyAAy__________y_____GGAFy_____GGAFy_____GGAFy_____GG_AAyAAyAAyAAy_____ySaySi6offset_______pSgyYaKc7elementtGSi_____GAHGAKGANGAQGAAyAAyAAyAAyAAyAAyASySay_____GSS_____GAFy_____GGAFy_____GGAKGANGAHGAQGAAyAAyAAyAAyAAyAAyASySay_____GSSA5_GA8_GA11_GAKGANGAHGAQGtGGAHGAQG_Qo_ 7SwiftUI4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA15ModifiedContentV AA15DisclosureGroupV 8NewsFeed024DebugFormatWorkspaceTreet6HeaderC0V AA05TupleC0V AP0rsq5AsyncC0V AA21_TraitWritingModifierV AA04Liste6InsetsY3KeyV AA016IsDeleteDisabledY3KeyV AA014IsMoveDisabledY3KeyV AA04Liste10BackgroundY3KeyV AA7ForEachV AP0Q8ItemTypeP AP0rsq4ItemxC0V AP0rS16PackageInventoryC AP0rs7PackageC0V AA08OnDeleteY3KeyV AA06OnMoveY3KeyV AP0rstO0V
+- _symbolic _____y_____ySo8FCRecipeCG_____G 5TeaUI12StateCommandC 8NewsFeed04SaveD7ContextV AD06SavingdC0O
+- _symbolic _____y_____y______pG_____G 5TeaUI12StateCommandC 8NewsFeed04SaveD7ContextV So19FCHeadlineProvidingP AD06SavingdC0O
+- _symbolic _____y_____y_____y__________ySay_____G_____AAy_____y______Qo______y_____GGGG______Qo______y_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE9listStyleyQrqd__AA04ListG0Rd__lFQO AA0H0V s5NeverO AA7ForEachV 8NewsFeed23DebugFormatFileTreeItemC 10Foundation4UUIDV AeAE0F12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AN0nopqrE0V AA21_TraitWritingModifierV AA0hU18BackgroundTraitKeyV AA05PlainhG0V AA30_EnvironmentKeyWritingModifierV AA08AnyShapeG0V
+- _symbolic _____y_____y_____y__________y_____ySay_____G__________yAAy__________y_____GG_Qo_G_AEySay_____GAH_____y______Qo_GtGG______Qo______y_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE9listStyleyQrqd__AA04ListG0Rd__lFQO AA0H0V s5NeverO AA05TupleE0V AA7ForEachV 8NewsFeed25DebugFormatLayoutTreeItemC 10Foundation4UUIDV AeAE0F12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AP0opqrvE0V AA21_TraitWritingModifierV AA0hV18BackgroundTraitKeyV AP0opqR7PackageC AeAEAV_AWQrAY_A1_tFQO AP0opqr7PackageE0V AA05PlainhG0V AA30_EnvironmentKeyWritingModifierV AA08AnyShapeG0V
+- _symbolic _____y_____y_____y_____y__________y_____ySay______pGSS_____y______Qo_G______y______Qo_Sg_____y______Qo_SgAEySay_____GSS_____GAEySay_____GSS_____y______Qo_GSgtGSgG______Qo______y_____SgGG_Qo_ 7SwiftUI4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA15ModifiedContentV AcAE0D5StyleyQrqd__AA04ListN0Rd__lFQO AA0O0V s5NeverO AA05TupleC0V AA7ForEachV 8NewsFeed0U8ItemTypeP AcAEAD_AEQrAG_AKtFQO AX011DebugFormatuvC0V AcAEAD_AEQrAG_AKtFQO AX0xy19BindingTreeSelectorC0V AcAEAD_AEQrAG_AKtFQO AX0xyz10TreeOptionC0V AX0xY16PackageInventoryC AX0xyz4TreeeC0V AX0xY20EditorWorkspaceGroupV AcAEAD_AEQrAG_AKtFQO AX0xyz12TreeSubgroupC0V AA05PlainoN0V AA30_EnvironmentKeyWritingModifierV AA08AnyShapeN0V
+- _symbolic _____y_____y_____y_____y__________y_____y______Qo_______ySay_____GSS_____y______Qo_GtGG______Qo______y_____SgGG_Qo_ 7SwiftUI4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA15ModifiedContentV AcAE0D5StyleyQrqd__AA04ListN0Rd__lFQO AA0O0V s5NeverO AA05TupleC0V AcAEAD_AEQrAG_AKtFQO 8NewsFeed033DebugFormatInventoryTreeWorkspaceC0V AA7ForEachV AV0tuV11PackageRoleO AcAEAD_AEQrAG_AKtFQO AV0tuvw4RoleC0V AA05PlainoN0V AA30_EnvironmentKeyWritingModifierV AA08AnyShapeN0V
+CStrings:
++ "$__lazy_storage_$_dimissBarButtonItem"
++ "$__lazy_storage_$_navigationItemManager"
++ "$__lazy_storage_$_sidebarBarButtonItem"
++ "@\"SWPresentationDatastore\"16@0:8"
++ "@?<v@?d@\"SWPresentationDatastore\">16@0:8"
++ "B32@0:8@\"UINavigationBar\"16@\"UINavigationItem\"24"
++ "B40@0:8@\"UISearchBar\"16@\"NSArray\"24@\"NSString\"32"
++ "Can Open Issue Table of Content"
++ "Create Package…"
++ "Did finish presenting, %s, height=%f, datastore=%@"
++ "Locally Modified"
++ "Manage Workspaces…"
++ "NewsFeed.DebugFormatDockViewController"
++ "NewsFeed.DebugFormatNavigationController"
++ "NewsFeed/DebugFormatDockViewController.swift"
++ "NewsFeed/DebugFormatNavigationController.swift"
++ "Open Grocery List"
++ "Opens Grocery List in Reminders"
++ "PuzzleDataManager: Cannot fetch thumbnailSmallUrl as documentsURL is nil"
++ "PuzzleDataManager: Cannot fetch thumbnailSmallUrl as file does not exist %s"
++ "PuzzleDataManager: Cannot fetch thumbnailSmallUrl as publishDate is nil %s"
++ "T@\"SWPresentationDatastore\",R,N"
++ "Title to open the issue table of contents"
++ "UINavigationBarDelegate"
++ "UITraitChangeRegistration"
++ "Web Embed Image Generation"
++ "Web embed image generation uses the app trait collection not the editor trait overrides"
++ "Web embed image generator checking load presentable, stream=%{public}s, height=%{public}f, datastore=%{public}@"
++ "Web embed image generator datastores don't match; will keep waiting for next presentation, stream=%{public}s"
++ "Web embed image generator did load presentable without datastore match, stream=%{public}s"
++ "Web embed image generator did load presentable, stream=%{public}s"
++ "Web embed image generator expecting load of datastore, stream=%{public}s, rendering=%{public}s, expectedDatastore=%{public}@"
++ "_TtC8NewsFeed21DebugFormatEditorView"
++ "_TtC8NewsFeed25DebugFormatDockButtonItem"
++ "_TtC8NewsFeed29DebugFormatDockViewController"
++ "_TtC8NewsFeed31DebugFormatNavigationController"
++ "_TtC8NewsFeed32DebugFormatNavigationItemManager"
++ "_TtC8NewsFeed38DebugFormatDockButtonItemContainerView"
++ "_badge"
++ "_bottomPalette"
++ "_isLiveResizing"
++ "_showDock"
++ "arrow.left.arrow.right"
++ "autoresizingMask"
++ "badgeLabel"
++ "borderCornerCurve"
++ "borderCornerRadius"
++ "bottomEdgeEffect"
++ "buttonSize"
++ "didBeginLiveResizing"
++ "didEndLiveResizing"
++ "displayMode"
++ "elementWithUncachedProvider:"
++ "exported"
++ "flexibleSpaceItem"
++ "fullscreenModalMenusEnabled"
++ "hardStyle"
++ "initWithScrollView:edge:style:"
++ "initWithType:identifier:"
++ "leadingItemContainerView"
++ "loadView"
++ "mainViewController"
++ "navigationBar:didPopItem:"
++ "navigationBar:didPushItem:"
++ "navigationBar:shouldPopItem:"
++ "navigationBar:shouldPushItem:"
++ "navigationBarNSToolbarSection:"
++ "newsfeed.debug.format.show_dock"
++ "newsfeed.issue.open_table_of_contents"
++ "notExported"
++ "presentSidebar"
++ "q24@0:8@\"UINavigationBar\"16"
++ "searchBar:shouldChangeTextInRanges:replacementText:"
++ "setAdditionalSafeAreaInsets:"
++ "setDrawsBackground:"
++ "setHidesSharedBackground:"
++ "setLeadingItemGroups:"
++ "setNavigationBarHidden:animated:"
++ "setPinnedTrailingGroup:"
++ "setPresentsWithGesture:"
++ "setSharesBackground:"
++ "setStyle:"
++ "setSubtitle:"
++ "setTrailingItemGroups:"
++ "setView:"
++ "setViewController:forColumn:"
++ "sidebar.squares.left"
++ "statusBarButtonItem"
++ "toggleSidebar:"
++ "toolbarBackgroundView"
++ "topEdgeEffect"
++ "trailingItemContainerView"
++ "traitChangeRegistration"
++ "v16@?0@?<v@?@\"NSArray\">8"
++ "v24@0:8@?<v@?d@\"SWPresentationDatastore\">16"
++ "v24@?0d8@\"SWPresentationDatastore\"16"
++ "v32@0:8@\"UINavigationBar\"16@\"UINavigationItem\"24"
++ "viewControllerForColumn:"
++ "willMoveToWindow:"
+- "$__lazy_storage_$_createPackageBarButtonItem"
+- "$__lazy_storage_$_uploadBarButtonItem"
+- "@\"UIViewController\"24@0:8@\"UISplitViewController\"16"
+- "@\"UIViewController\"32@0:8@\"UISplitViewController\"16@\"UIViewController\"24"
+- "@?<v@?d>16@0:8"
+- "B40@0:8@\"UISplitViewController\"16@\"UIViewController\"24@\"UIViewController\"32"
+- "B40@0:8@\"UISplitViewController\"16@\"UIViewController\"24@32"
+- "B40@0:8@\"UISplitViewController\"16@\"UIViewController\"24q32"
+- "B40@0:8@16@24q32"
+- "Did finish presenting, %s"
+- "Filtered Packages"
+- "Locally Modified Packages"
+- "Package Uploader"
+- "Prefetching inventory without group level tag binding, id="
+- "Prefetching inventory, id="
+- "Q24@0:8@\"UISplitViewController\"16"
+- "RecipeBoxCommandHandler returning notSaved state due to missing recipeBox dependency"
+- "Save this recipe to Apple News saved recipes"
+- "Selected Workspace"
+- "UISplitViewControllerDelegate"
+- "Web embed image generator did load presentable, stream=%{public}s, height=%{public}f"
+- "Web embed image generator did wait for [WORKAROUND] presentation, stream=%{public}s"
+- "Web embed image generator will wait for [WORKAROUND] presentation, stream=%{public}s"
+- "Workspace Packages"
+- "_TtC8NewsFeed33RecipeBoxSaveRecipeCommandHandler"
+- "arrow.left.arrow.right.circle"
+- "arrow.left.arrow.right.circle.fill"
+- "debugVisualizationView"
+- "doUploadPackageWithSender:"
+- "newsfeed.debug.web_embed.debug_image_rendering"
+- "newsfeed.recipeBox.saveRecipe"
+- "primaryViewControllerForCollapsingSplitViewController:"
+- "primaryViewControllerForExpandingSplitViewController:"
+- "q24@0:8@\"UISplitViewController\"16"
+- "q32@0:8@\"UISplitViewController\"16q24"
+- "setViewControllers:"
+- "splitViewController:collapseSecondaryViewController:ontoPrimaryViewController:"
+- "splitViewController:didHideColumn:"
+- "splitViewController:didShowColumn:"
+- "splitViewController:displayModeForExpandingToProposedDisplayMode:"
+- "splitViewController:popoverController:willPresentViewController:"
+- "splitViewController:separateSecondaryViewControllerFromPrimaryViewController:"
+- "splitViewController:shouldHideViewController:inOrientation:"
+- "splitViewController:showDetailViewController:sender:"
+- "splitViewController:showViewController:sender:"
+- "splitViewController:topColumnForCollapsingToProposedTopColumn:"
+- "splitViewController:willChangeToDisplayMode:"
+- "splitViewController:willHideColumn:"
+- "splitViewController:willHideViewController:withBarButtonItem:forPopoverController:"
+- "splitViewController:willShowColumn:"
+- "splitViewController:willShowViewController:invalidatingBarButtonItem:"
+- "splitViewControllerDidCollapse:"
+- "splitViewControllerDidExpand:"
+- "splitViewControllerInteractivePresentationGestureDidEnd:"
+- "splitViewControllerInteractivePresentationGestureWillBegin:"
+- "splitViewControllerPreferredInterfaceOrientationForPresentation:"
+- "splitViewControllerSupportedInterfaceOrientations:"
+- "targetDisplayModeForActionInSplitViewController:"
+- "v16@?0d8"
+- "v24@0:8@\"UISplitViewController\"16"
+- "v24@0:8@?<v@?d>16"
+- "v32@0:8@\"UISplitViewController\"16q24"
+- "v40@0:8@\"UISplitViewController\"16@\"UIPopoverController\"24@\"UIViewController\"32"
+- "v40@0:8@\"UISplitViewController\"16@\"UIViewController\"24@\"UIBarButtonItem\"32"
+- "v48@0:8@\"UISplitViewController\"16@\"UIViewController\"24@\"UIBarButtonItem\"32@\"UIPopoverController\"40"
+
+```

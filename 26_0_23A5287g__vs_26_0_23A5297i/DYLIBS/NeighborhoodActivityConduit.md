@@ -1,0 +1,194 @@
+## NeighborhoodActivityConduit
+
+> `/System/Library/PrivateFrameworks/NeighborhoodActivityConduit.framework/NeighborhoodActivityConduit`
+
+```diff
+
+-1569.100.5.2.5
+-  __TEXT.__text: 0x68908
+-  __TEXT.__auth_stubs: 0xe10
+-  __TEXT.__const: 0xb9da
+-  __TEXT.__cstring: 0x1dac
+-  __TEXT.__swift5_typeref: 0x179a
+-  __TEXT.__swift5_reflstr: 0xe9a
++1571.100.7.1.3
++  __TEXT.__text: 0x6a410
++  __TEXT.__auth_stubs: 0xf20
++  __TEXT.__const: 0xbb10
++  __TEXT.__cstring: 0x1de5
++  __TEXT.__swift5_typeref: 0x17c6
++  __TEXT.__swift5_reflstr: 0xed4
+   __TEXT.__swift5_assocty: 0x360
+-  __TEXT.__constg_swiftt: 0x14dc
+-  __TEXT.__swift5_fieldmd: 0x1c8c
+-  __TEXT.__swift5_proto: 0xb04
+-  __TEXT.__swift5_types: 0x200
++  __TEXT.__constg_swiftt: 0x1514
++  __TEXT.__swift5_fieldmd: 0x1cc4
++  __TEXT.__swift5_proto: 0xb10
++  __TEXT.__swift5_types: 0x208
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__swift5_capture: 0xac
+-  __TEXT.__swift_as_entry: 0x14
+-  __TEXT.__swift_as_ret: 0xc
++  __TEXT.__swift5_capture: 0xdc
++  __TEXT.__swift_as_entry: 0x2c
++  __TEXT.__swift_as_ret: 0x24
+   __TEXT.__oslogstring: 0x28
+-  __TEXT.__unwind_info: 0x29c8
+-  __TEXT.__eh_frame: 0x2ea8
++  __TEXT.__unwind_info: 0x2a80
++  __TEXT.__eh_frame: 0x3138
+   __TEXT.__objc_methname: 0x2b
+-  __DATA_CONST.__got: 0x1c8
++  __DATA_CONST.__got: 0x200
+   __DATA_CONST.__const: 0x5f8
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x708
+-  __AUTH_CONST.__const: 0x1d88
++  __AUTH_CONST.__auth_got: 0x790
++  __AUTH_CONST.__const: 0x1e88
+   __AUTH_CONST.__objc_const: 0x2a8
+   __AUTH.__objc_data: 0x50
+   __AUTH.__data: 0x28d0
+-  __DATA.__data: 0x29a8
+-  __DATA.__bss: 0x15080
++  __DATA.__data: 0x29c8
++  __DATA.__bss: 0x15200
+   __DATA_DIRTY.__data: 0xa60
+   __DATA_DIRTY.__bss: 0x1000
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: C02A3900-3BA7-3187-9940-E4A454D7DB28
+-  Functions: 4661
+-  Symbols:   14611
+-  CStrings:  317
++  UUID: 7A585E0E-B7B3-3E9B-A64E-B409D2688BEF
++  Functions: 4700
++  Symbols:   14772
++  CStrings:  318
+ 
+Symbols:
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorO014internalStatusG0yA2EmFWC
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorO17operationTimedOutyA2EmFWC
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorO2eeoiySbAE_AEtFZ
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorO4hash4intoys6HasherVz_tF
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorO9hashValueSivg
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorO9hashValueSivpMV
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOAESQAAWL
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOAESQAAWl
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOAEs0G0AAWL
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOAEs0G0AAWl
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOMF
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOMa
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOMf
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOMn
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorON
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOSHAAMc
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOSHAAMcMK
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOSHAASH9hashValueSivgTW
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOSHAASQWb
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOSQAAMc
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOSQAAMcMK
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOSQAASQ2eeoiySbx_xtFZTW
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOWV
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOs0G0AAMc
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOs0G0AAMcMK
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOs0G0AAsAFP19_getEmbeddedNSErroryXlSgyFTW
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOs0G0AAsAFP5_codeSivgTW
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOs0G0AAsAFP7_domainSSvgTW
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOs0G0AAsAFP9_userInfoyXlSgvgTW
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOwet
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOwst
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOwug
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOwui
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOwup
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZ
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZTQ1_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZTY0_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZTY2_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZTu
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_TA
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_TATQ0_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_TATu
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_TQ1_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_TY0_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_TY2_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_Tu
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_xyYaKcfU0_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_xyYaKcfU0_TA
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_xyYaKcfU0_TATQ0_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_xyYaKcfU0_TATu
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_xyYaKcfU0_TQ1_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_xyYaKcfU0_TY0_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_xyYaKcfU0_TY2_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_xyYaKcfU0_TY3_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_xyYaKcfU0_Tu
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_xyYaKcfU_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_xyYaKcfU_TA
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_xyYaKcfU_TATQ0_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_xyYaKcfU_TATu
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_xyYaKcfU_TQ0_
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesO7timeout5after4workxs8DurationV_xyYaYbKctYaKs8SendableRzlFZxScgyxs5Error_pGzYaKXEfU_xyYaKcfU_Tu
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesOMF
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesOMa
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesOMf
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesOMn
++ _$s27NeighborhoodActivityConduit14AsyncUtilitiesON
++ _$sScTss5NeverORszABRs_rlE17checkCancellationyyKFZ
++ _$sScg10nextResult9isolations0B0Oyxq_GSgScA_pSgYi_tYaF
++ _$sScg10nextResult9isolations0B0Oyxq_GSgScA_pSgYi_tYaFTQ0_
++ _$sScg10nextResult9isolations0B0Oyxq_GSgScA_pSgYi_tYaFTY1_
++ _$sScg10nextResult9isolations0B0Oyxq_GSgScA_pSgYi_tYaFTu
++ _$sScg10nextResults0B0Oyxq_GSgyYaKF
++ _$sScg10nextResults0B0Oyxq_GSgyYaKFTu
++ _$sScg7addTask8priority9operationyScPSg_xyYaKYAcntF
++ _$sScg9cancelAllyyF
++ _$sScgMa
++ _$ss15ContinuousClockV7InstantVADs0C8ProtocolsWL
++ _$ss15ContinuousClockV7InstantVMa
++ _$ss15ContinuousClockV7InstantVs0C8ProtocolsMc
++ _$ss15ContinuousClockVABs0B0sWL
++ _$ss15ContinuousClockVABs0B0sWlTm
++ _$ss15ContinuousClockVMa
++ _$ss15ContinuousClockVs0B0sMc
++ _$ss15InstantProtocolP8advanced2byx8DurationQz_tFTj
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lF
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lFTu
++ _$ss5ClockP3now7InstantQzvgTj
++ _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTj
++ _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTjTu
++ _$ss5ClockPsE5sleep3for9tolerancey8DurationQz_AGSgtYaKFs010ContinuousA0V_Tg5
++ _$ss5ClockPsE5sleep3for9tolerancey8DurationQz_AGSgtYaKFs010ContinuousA0V_Tg5TQ1_
++ _$ss5ClockPsE5sleep3for9tolerancey8DurationQz_AGSgtYaKFs010ContinuousA0V_Tg5TY0_
++ _$ss5ClockPsE5sleep3for9tolerancey8DurationQz_AGSgtYaKFs010ContinuousA0V_Tg5TY2_
++ _$ss5ClockPsE5sleep3for9tolerancey8DurationQz_AGSgtYaKFs010ContinuousA0V_Tg5Tu
++ _$ss5ClockPss010ContinuousA0VRszrlE10continuousADvgZ
++ _$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq
++ _$ss5ErrorP5_codeSivgTq
++ _$ss5ErrorP7_domainSSvgTq
++ _$ss5ErrorP9_userInfoyXlSgvgTq
++ _$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF
++ _$ss5ErrorPsE5_codeSivg
++ _$ss5ErrorPsE7_domainSSvg
++ _$ss5ErrorPsE9_userInfoyXlSgvg
++ _$ss6ResultOMa
++ _$ss8DurationVMn
++ _associated conformance 27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorOSHAASQ
++ _swift_unexpectedError
++ _symbolic _____ 27NeighborhoodActivityConduit14AsyncUtilitiesO
++ _symbolic _____ 27NeighborhoodActivityConduit14AsyncUtilitiesO12TimeoutErrorO
++ _symbolic _____ s8DurationV
++ _symbolic x______pIeghHrzo_ s5ErrorP
+CStrings:
++ "_Concurrency/arm64e-apple-ios.private.swiftinterface"
+
+```

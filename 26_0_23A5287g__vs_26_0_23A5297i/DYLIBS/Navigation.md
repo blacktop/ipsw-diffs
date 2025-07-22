@@ -1,0 +1,1372 @@
+## Navigation
+
+> `/System/Library/PrivateFrameworks/Navigation.framework/Navigation`
+
+```diff
+
+-2374.30.6.20.1
+-  __TEXT.__text: 0x13df98
+-  __TEXT.__auth_stubs: 0x25d0
++2376.30.7.7.1
++  __TEXT.__text: 0x1555e4
++  __TEXT.__auth_stubs: 0x28b0
+   __TEXT.__objc_methlist: 0x116bc
+-  __TEXT.__const: 0x2314
++  __TEXT.__const: 0x2744
+   __TEXT.__dlopen_cstrs: 0xb4
+-  __TEXT.__constg_swiftt: 0x17fc
+-  __TEXT.__swift5_typeref: 0x13a0
+-  __TEXT.__swift5_builtin: 0x168
+-  __TEXT.__swift5_reflstr: 0xd88
+-  __TEXT.__swift5_fieldmd: 0xe04
+-  __TEXT.__swift5_assocty: 0x78
+-  __TEXT.__swift5_proto: 0xc4
+-  __TEXT.__swift5_types: 0x118
+-  __TEXT.__cstring: 0x1c442
+-  __TEXT.__swift5_capture: 0x67c
+-  __TEXT.__swift_as_entry: 0xd4
+-  __TEXT.__swift_as_ret: 0xcc
+-  __TEXT.__oslogstring: 0xe63d
+-  __TEXT.__swift5_protos: 0x10
++  __TEXT.__cstring: 0x1ca89
++  __TEXT.__constg_swiftt: 0x198c
++  __TEXT.__swift5_typeref: 0x14f4
++  __TEXT.__swift5_builtin: 0x17c
++  __TEXT.__swift5_reflstr: 0xfd6
++  __TEXT.__swift5_fieldmd: 0xfc8
++  __TEXT.__swift5_assocty: 0xc0
++  __TEXT.__swift5_proto: 0xe4
++  __TEXT.__swift5_types: 0x138
++  __TEXT.__swift5_capture: 0x668
++  __TEXT.__swift_as_entry: 0xf0
++  __TEXT.__swift_as_ret: 0x100
++  __TEXT.__oslogstring: 0xf15d
++  __TEXT.__swift5_protos: 0x14
+   __TEXT.__swift5_mpenum: 0x18
+   __TEXT.__gcc_except_tab: 0x5394
+   __TEXT.__ustring: 0x222
+-  __TEXT.__unwind_info: 0x4d00
+-  __TEXT.__eh_frame: 0x1680
++  __TEXT.__unwind_info: 0x4fc0
++  __TEXT.__eh_frame: 0x1f50
+   __TEXT.__objc_classname: 0x23e6
+-  __TEXT.__objc_methname: 0x2705d
++  __TEXT.__objc_methname: 0x2719b
+   __TEXT.__objc_methtype: 0x7ac2
+-  __TEXT.__objc_stubs: 0x1daa0
+-  __DATA_CONST.__got: 0xf98
+-  __DATA_CONST.__const: 0x7238
+-  __DATA_CONST.__objc_classlist: 0x868
++  __TEXT.__objc_stubs: 0x1dae0
++  __DATA_CONST.__got: 0xff0
++  __DATA_CONST.__const: 0x7298
++  __DATA_CONST.__objc_classlist: 0x888
+   __DATA_CONST.__objc_catlist: 0x148
+   __DATA_CONST.__objc_protolist: 0x2f8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x8870
++  __DATA_CONST.__objc_selrefs: 0x88c0
+   __DATA_CONST.__objc_protorefs: 0x138
+   __DATA_CONST.__objc_superrefs: 0x4e8
+   __DATA_CONST.__objc_arraydata: 0x2f0
+-  __AUTH_CONST.__auth_got: 0x1300
+-  __AUTH_CONST.__const: 0x48e0
+-  __AUTH_CONST.__cfstring: 0xd980
+-  __AUTH_CONST.__objc_const: 0x1e400
++  __AUTH_CONST.__auth_got: 0x1470
++  __AUTH_CONST.__const: 0x4c20
++  __AUTH_CONST.__cfstring: 0xd9e0
++  __AUTH_CONST.__objc_const: 0x1e898
+   __AUTH_CONST.__objc_intobj: 0x900
+   __AUTH_CONST.__objc_arrayobj: 0x198
+   __AUTH_CONST.__objc_floatobj: 0x10
+   __AUTH_CONST.__objc_doubleobj: 0x110
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH.__objc_data: 0x3918
+-  __AUTH.__data: 0x1338
+-  __DATA.__objc_ivar: 0x1448
+-  __DATA.__data: 0x2808
+-  __DATA.__bss: 0x1a60
+-  __DATA.__common: 0x1d0
+-  __DATA_DIRTY.__objc_data: 0x2ef8
+-  __DATA_DIRTY.__data: 0x90
++  __AUTH.__objc_data: 0x38b0
++  __AUTH.__data: 0x1638
++  __DATA.__objc_ivar: 0x144c
++  __DATA.__data: 0x2928
++  __DATA.__bss: 0x1de0
++  __DATA.__common: 0x208
++  __DATA_DIRTY.__objc_data: 0x2f08
++  __DATA_DIRTY.__data: 0x98
+   __DATA_DIRTY.__bss: 0x260
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4D7FA4F4-046F-356E-9540-CB99048C4F77
+-  Functions: 7375
+-  Symbols:   21830
+-  CStrings:  12821
++  UUID: E83B8B36-C091-3C7B-93B4-D3AEDBE665D0
++  Functions: 7548
++  Symbols:   21891
++  CStrings:  12919
+ 
+Symbols:
++ -[MNNavigationSessionManager _didEndNavigation]
++ -[MNTrace mapMatcherTestEventInsertStatement]
++ GCC_except_table2141
++ GCC_except_table2215
++ GCC_except_table2231
++ GCC_except_table2317
++ GCC_except_table2339
++ GCC_except_table2406
++ GCC_except_table2410
++ GCC_except_table2438
++ GCC_except_table2444
++ GCC_except_table2479
++ GCC_except_table2482
++ GCC_except_table2493
++ GCC_except_table2497
++ GCC_except_table2500
++ GCC_except_table2502
++ GCC_except_table2524
++ GCC_except_table2526
++ GCC_except_table2530
++ GCC_except_table2545
++ GCC_except_table2556
++ GCC_except_table2564
++ GCC_except_table2568
++ GCC_except_table2578
++ GCC_except_table2630
++ GCC_except_table2750
++ GCC_except_table2778
++ GCC_except_table2780
++ GCC_except_table2783
++ GCC_except_table2793
++ GCC_except_table2998
++ GCC_except_table2999
++ GCC_except_table3008
++ GCC_except_table3011
++ GCC_except_table3034
++ GCC_except_table3037
++ GCC_except_table3043
++ GCC_except_table3046
++ GCC_except_table3049
++ GCC_except_table3057
++ GCC_except_table3106
++ GCC_except_table3107
++ GCC_except_table3159
++ GCC_except_table3178
++ GCC_except_table3185
++ GCC_except_table3196
++ GCC_except_table3205
++ GCC_except_table3210
++ GCC_except_table3211
++ GCC_except_table3214
++ GCC_except_table3217
++ GCC_except_table3221
++ GCC_except_table3222
++ GCC_except_table3225
++ GCC_except_table3235
++ GCC_except_table3236
++ GCC_except_table3241
++ GCC_except_table3252
++ GCC_except_table3261
++ GCC_except_table3265
++ GCC_except_table3266
++ GCC_except_table3286
++ GCC_except_table3289
++ GCC_except_table3290
++ GCC_except_table3302
++ GCC_except_table3303
++ GCC_except_table3365
++ GCC_except_table3366
++ GCC_except_table3398
++ GCC_except_table3489
++ GCC_except_table3630
++ GCC_except_table3729
++ GCC_except_table3746
++ GCC_except_table3758
++ GCC_except_table3773
++ GCC_except_table3788
++ GCC_except_table3860
++ GCC_except_table3896
++ GCC_except_table3905
++ GCC_except_table3912
++ GCC_except_table3970
++ GCC_except_table4032
++ GCC_except_table4035
++ GCC_except_table4289
++ GCC_except_table4296
++ GCC_except_table4299
++ GCC_except_table4303
++ GCC_except_table4344
++ GCC_except_table4345
++ GCC_except_table4353
++ GCC_except_table4354
++ GCC_except_table4359
++ GCC_except_table4389
++ GCC_except_table4390
++ GCC_except_table4524
++ GCC_except_table4790
++ GCC_except_table4820
++ GCC_except_table4824
++ GCC_except_table5067
++ GCC_except_table5145
++ GCC_except_table5332
++ GCC_except_table5336
++ GCC_except_table5367
++ GCC_except_table5381
++ GCC_except_table5420
++ GCC_except_table5660
++ GCC_except_table5665
++ GCC_except_table5670
++ GCC_except_table5671
++ GCC_except_table5714
++ GCC_except_table5729
++ _GEOCoordinate2DAlongBearing
++ _GEOCoordinateGet3DDistance
++ _GEOLocationCoordinate3DMake
++ _GEOWrapAngleDegrees
++ _NavigationConfig_ARGuidanceArrivalLabelMinimumStepIndex_Metadata_block_invoke_171
++ _NavigationConfig_ARGuidanceDistanceToIgnoreHeadingDelta_Metadata_block_invoke_174
++ _NavigationConfig_ARGuidanceHeadingDeltaTurn_Metadata_block_invoke_173
++ _NavigationConfig_ARGuidanceInitialGuidanceDistanceThreshold_Metadata_block_invoke_170
++ _NavigationConfig_ARGuidanceNextManeuverDistanceOffset_Metadata_block_invoke_172
++ _NavigationConfig_Arrival_IdleTimer_MinimumStoppedDuration_Metadata_block_invoke_21
++ _NavigationConfig_Arrival_IdleTimer_SpeedToConsiderAsStopped_Metadata_block_invoke_20
++ _NavigationConfig_AutomaticallyEndOnArrival_Metadata_block_invoke_18
++ _NavigationConfig_AutomaticallyEndOnVehicleDisconnectAfterArrival_Metadata_block_invoke_19
++ _NavigationConfig_Commute_MaxCacheAgeSeconds_Metadata_block_invoke_176
++ _NavigationConfig_DebugNavigationIncludeRealtimeUpdates_Metadata_block_invoke_100
++ _NavigationConfig_DistanceThresholdToMonitorWaypoint_Metadata_block_invoke_17
++ _NavigationConfig_Dodgeball_AlertDisplayDurationSeconds_Metadata_block_invoke_72
++ _NavigationConfig_Dodgeball_DirectionsFakeIncidentAlert_Metadata_block_invoke_39
++ _NavigationConfig_Dodgeball_Directions_FakeIncidentHideTriggerPointAllowTruncating_Metadata_block_invoke_68
++ _NavigationConfig_Dodgeball_Directions_FakeIncidentHideTriggerPointDistanceOffset_Metadata_block_invoke_67
++ _NavigationConfig_Dodgeball_Directions_FakeIncidentPersistAcrossUpdates_Metadata_block_invoke_63
++ _NavigationConfig_Dodgeball_Directions_FakeIncidentProgressBarDistanceOffset_Metadata_block_invoke_71
++ _NavigationConfig_Dodgeball_Directions_FakeIncidentProgressBarDurationSeconds_Metadata_block_invoke_70
++ _NavigationConfig_Dodgeball_Directions_FakeIncidentShowTriggerPointAllowTruncating_Metadata_block_invoke_65
++ _NavigationConfig_Dodgeball_Directions_FakeIncidentShowTriggerPointDistanceOffset_Metadata_block_invoke_64
++ _NavigationConfig_Dodgeball_Directions_FakeIncidentTriggerRangeDisplayTime_Metadata_block_invoke_60
++ _NavigationConfig_Dodgeball_Directions_FakeIncidentTriggerRangeMinDisplayTime_Metadata_block_invoke_61
++ _NavigationConfig_Dodgeball_Directions_FakeIncidentTriggerRangePriority_Metadata_block_invoke_62
++ _NavigationConfig_Dodgeball_Directions_FakeIncidentTriggerRangeUseHideAtPoint_Metadata_block_invoke_66
++ _NavigationConfig_Dodgeball_Directions_FakeIncidentUseProgressBar_Metadata_block_invoke_69
++ _NavigationConfig_Dodgeball_DropDodgeballDistanceRatio_Metadata_block_invoke_44
++ _NavigationConfig_Dodgeball_ETAUFakeIncidentAlert_Metadata_block_invoke_38
++ _NavigationConfig_Dodgeball_ETAU_FakeIncidentDescription_Metadata_block_invoke_49
++ _NavigationConfig_Dodgeball_ETAU_FakeIncidentHideTriggerPointAllowTruncating_Metadata_block_invoke_56
++ _NavigationConfig_Dodgeball_ETAU_FakeIncidentHideTriggerPointDistanceOffset_Metadata_block_invoke_55
++ _NavigationConfig_Dodgeball_ETAU_FakeIncidentPersistAcrossUpdates_Metadata_block_invoke_51
++ _NavigationConfig_Dodgeball_ETAU_FakeIncidentProgressBarDistanceOffset_Metadata_block_invoke_59
++ _NavigationConfig_Dodgeball_ETAU_FakeIncidentProgressBarDurationSeconds_Metadata_block_invoke_58
++ _NavigationConfig_Dodgeball_ETAU_FakeIncidentShowTriggerPointAllowTruncating_Metadata_block_invoke_53
++ _NavigationConfig_Dodgeball_ETAU_FakeIncidentShowTriggerPointDistanceOffset_Metadata_block_invoke_52
++ _NavigationConfig_Dodgeball_ETAU_FakeIncidentTitle_Metadata_block_invoke_48
++ _NavigationConfig_Dodgeball_ETAU_FakeIncidentTriggerRangeDisplayTime_Metadata_block_invoke_46
++ _NavigationConfig_Dodgeball_ETAU_FakeIncidentTriggerRangeMinDisplayTime_Metadata_block_invoke_47
++ _NavigationConfig_Dodgeball_ETAU_FakeIncidentTriggerRangePriority_Metadata_block_invoke_50
++ _NavigationConfig_Dodgeball_ETAU_FakeIncidentTriggerRangeUseHideAtPoint_Metadata_block_invoke_54
++ _NavigationConfig_Dodgeball_ETAU_FakeIncidentUseProgressBar_Metadata_block_invoke_57
++ _NavigationConfig_Dodgeball_FakeIncidentAlertDefaultButtonIndex_Metadata_block_invoke_74
++ _NavigationConfig_Dodgeball_FakeIncidentAlertShouldShowDismissButton_Metadata_block_invoke_73
++ _NavigationConfig_Dodgeball_FakeIncidentSimulateVotingButtons_Metadata_block_invoke_40
++ _NavigationConfig_Dodgeball_FakeIncidentUseTriggerRanges_Metadata_block_invoke_45
++ _NavigationConfig_Dodgeball_FakeIncidentVotingButtonDisplay_Metadata_block_invoke_41
++ _NavigationConfig_Dodgeball_OverridePriorityFieldValue_Metadata_block_invoke_43
++ _NavigationConfig_Dodgeball_OverridePriorityField_Metadata_block_invoke_42
++ _NavigationConfig_DoomDirectionsRequestPriority_Metadata_block_invoke_104
++ _NavigationConfig_ETAResponseFailureAlert_Metadata_block_invoke_75
++ _NavigationConfig_ETAUpdateInterval_Metadata_block_invoke_34
++ _NavigationConfig_ETA_DisplayETALogging_Metadata_block_invoke_32
++ _NavigationConfig_ETA_ServerDisplayETA_ExpirationTime_Metadata_block_invoke_36
++ _NavigationConfig_ETA_StabilizeArrivalTime_Metadata_block_invoke_31
++ _NavigationConfig_ETA_UseClientRounding_Metadata_block_invoke_30
++ _NavigationConfig_ETA_UseNewUpdateRequester_Metadata_block_invoke_33
++ _NavigationConfig_EVChargingMonitorMaximumTime_Metadata_block_invoke_82
++ _NavigationConfig_EVChargingMonitorMinimumTime_Metadata_block_invoke_81
++ _NavigationConfig_EVChargingMonitorSpeedThreshold_Metadata_block_invoke_80
++ _NavigationConfig_EVForceVirtualGarageUpdateInterval_Metadata_block_invoke_83
++ _NavigationConfig_EnableDodgeball_Metadata_block_invoke_37
++ _NavigationConfig_EnableNavigationTransportModeSwitching_Metadata_block_invoke_13
++ _NavigationConfig_EnableTunnelLocationProjection_Metadata_block_invoke_26
++ _NavigationConfig_FamiliarRoutes_Authorization_CLInUseAssertion_Timeout_Metadata_block_invoke_184
++ _NavigationConfig_FamiliarRoutes_Authorization_ShouldUseCLInUseAssertionForDOoM_Metadata_block_invoke_183
++ _NavigationConfig_FamiliarRoutes_Authorization_ShouldUseCLInUseAssertionForWidget_Metadata_block_invoke_182
++ _NavigationConfig_FamiliarRoutes_Authorization_Timeout_Metadata_block_invoke_181
++ _NavigationConfig_IgnoreCourseAccuracy_Metadata_block_invoke_28
++ _NavigationConfig_InitialETARequestDelay_Metadata_block_invoke_35
++ _NavigationConfig_JunctionViewImagesPreloadingThreshold_Metadata_block_invoke_25
++ _NavigationConfig_LPRAverageSpeedForETAGuess_Metadata_block_invoke_153
++ _NavigationConfig_LPRBoundingRegionRadius_Metadata_block_invoke_149
++ _NavigationConfig_LPRDebugKeysResetAfter_DEBUG_Metadata_block_invoke_152
++ _NavigationConfig_LPRMaskPlateFailureCode_DEBUG_Metadata_block_invoke_151
++ _NavigationConfig_LPRMaskingRulesDateOverride_Metadata_block_invoke_148
++ _NavigationConfig_LPRProvideBadVersion_DEBUG_Metadata_block_invoke_150
++ _NavigationConfig_LeechingThrottleTimeout_Metadata_block_invoke_109
++ _NavigationConfig_LocationOverdueTimeoutForTunnel_Metadata_block_invoke_27
++ _NavigationConfig_LocationProjectionTimeSeconds_Metadata_block_invoke_8
++ _NavigationConfig_LocationTracking_DistanceWithinOriginForProceedToRoute_Metadata_block_invoke_22
++ _NavigationConfig_LocationTracking_Walking_CustomRoute_RerouteDistanceBeforeOnRoute_Metadata_block_invoke_24
++ _NavigationConfig_LocationTracking_Walking_CustomRoute_RerouteDistance_Metadata_block_invoke_23
++ _NavigationConfig_LogRoutes_RoutePreview_AlternateRoutes_Metadata_block_invoke_155
++ _NavigationConfig_LogRoutes_RoutePreview_MainRoute_Metadata_block_invoke_154
++ _NavigationConfig_MNAudioHardwareEngine_ChangedToAlertsOnly_Metadata_block_invoke_175
++ _NavigationConfig_MPRDepartureAutoAdvanceSensitivity_Metadata_block_invoke_90
++ _NavigationConfig_MPRDepartureAutoAdvanceUsingArrivalRegion_Metadata_block_invoke_89
++ _NavigationConfig_MPRDepartureAutoAdvanceWithNoArrivalRegion_Metadata_block_invoke_88
++ _NavigationConfig_MPRDepartureDistanceFromWaypointPoints_Metadata_block_invoke_86
++ _NavigationConfig_MPRDepartureDistanceToCenter_Metadata_block_invoke_84
++ _NavigationConfig_MPRDepartureNumLocationsForArrivalRegion_Metadata_block_invoke_87
++ _NavigationConfig_MPRDepartureTimeAtWaypoint_Metadata_block_invoke_85
++ _NavigationConfig_MPRDepartureTimeoutMinutes_Metadata_block_invoke_91
++ _NavigationConfig_MapLocalizeLabels_Metadata_block_invoke_79
++ _NavigationConfig_MapMatching_NewMapMatcher_DeadReckonConnectedRouteMatch
++ _NavigationConfig_MapMatching_NewMapMatcher_DeadReckonConnectedRouteMatch_Metadata
++ _NavigationConfig_MapMatching_NewMapMatcher_DeadReckonConnectedRouteMatch_Metadata_block_invoke_7
++ _NavigationConfig_MinLocationAccuracyForPreArrivalReroute_Metadata_block_invoke_15
++ _NavigationConfig_MinimumDistanceBetweenReroutes_Metadata_block_invoke_10
++ _NavigationConfig_MinimumTimeBetweenReroutes_Metadata_block_invoke_9
++ _NavigationConfig_NavDoomCacheCurrentTripTag_Metadata_block_invoke_101
++ _NavigationConfig_NavdDisconnectRetryCount_Metadata_block_invoke_108
++ _NavigationConfig_NavdDisconnectRetryWindow_Metadata_block_invoke_107
++ _NavigationConfig_NavdMaxNumberOfOfflineAttempts_Metadata_block_invoke_177
++ _NavigationConfig_NavdMonitoringDistanceThreshold_Metadata_block_invoke_102
++ _NavigationConfig_NavdXPCDownloadSizeBytes_Metadata_block_invoke_103
++ _NavigationConfig_NavigationDebugPanelMuteVoice_Metadata_block_invoke_113
++ _NavigationConfig_NavigationDingInstead_Metadata_block_invoke_112
++ _NavigationConfig_NavigationDisableServerTTS_Metadata_block_invoke_111
++ _NavigationConfig_NavigationPreventsManifestUpdate_Metadata_block_invoke_110
++ _NavigationConfig_NavigationShowLiveAlternateRoutesInTrenchMode_Metadata_block_invoke_77
++ _NavigationConfig_OfflineNavigationRecommendedRouteDistanceThreshold_Metadata_block_invoke_179
++ _NavigationConfig_OnlineToOfflineTransitionRequestEnabled_Metadata_block_invoke_178
++ _NavigationConfig_Parking_BackgroundWalkingRouteMinDistanceToRetryFailedRequest_Metadata_block_invoke_99
++ _NavigationConfig_Parking_BackgroundWalkingRouteMinRerouteDistance_Metadata_block_invoke_97
++ _NavigationConfig_Parking_BackgroundWalkingRouteMinTimeBetweenReroutes_Metadata_block_invoke_98
++ _NavigationConfig_Parking_EasyParkingDetection_Metadata_block_invoke_92
++ _NavigationConfig_Parking_ResumeDrivingSpeedThreshold_Metadata_block_invoke_96
++ _NavigationConfig_Parking_StoppedLocationMinimumTime_Metadata_block_invoke_94
++ _NavigationConfig_Parking_StoppedLocationSpeedThreshold_Metadata_block_invoke_93
++ _NavigationConfig_Parking_VehicleDisconnectExpirationTime_Metadata_block_invoke_95
++ _NavigationConfig_ReportAndVerifyIncidentsWhileNavigating_Metadata_block_invoke_78
++ _NavigationConfig_RerouteThrottleCount_Metadata_block_invoke_12
++ _NavigationConfig_RerouteThrottleInterval_Metadata_block_invoke_11
++ _NavigationConfig_SaveRoutesToDiskInsteadXPC_Metadata_block_invoke_114
++ _NavigationConfig_ShouldShowRadarPromptForRoutingServiceErrors_Metadata_block_invoke_180
++ _NavigationConfig_ShouldThrottlePreArrivalReroute_Metadata_block_invoke_16
++ _NavigationConfig_ShouldUseSpokenGuidanceDebugVolume_Metadata_block_invoke_163
++ _NavigationConfig_SimulationEnabled_Metadata_block_invoke_132
++ _NavigationConfig_SimulationGPSError_Metadata_block_invoke_138
++ _NavigationConfig_SimulationKeepLocationAfterEndingNavigation_Metadata_block_invoke_144
++ _NavigationConfig_SimulationMinimumSpeed_Metadata_block_invoke_137
++ _NavigationConfig_SimulationMoveToIntermediateWaypoints_Metadata_block_invoke_141
++ _NavigationConfig_SimulationSearchForParking_Metadata_block_invoke_143
++ _NavigationConfig_SimulationShouldShowPrompt_Metadata_block_invoke_134
++ _NavigationConfig_SimulationSimulateGeoFences_Metadata_block_invoke_147
++ _NavigationConfig_SimulationSpeedMultiplier_Metadata_block_invoke_136
++ _NavigationConfig_SimulationSpeedOverride_Metadata_block_invoke_135
++ _NavigationConfig_SimulationStartDistanceBeforeWaypoint_Metadata_block_invoke_140
++ _NavigationConfig_SimulationStartWaypoint_Metadata_block_invoke_139
++ _NavigationConfig_SimulationType_Metadata_block_invoke_133
++ _NavigationConfig_SimulationWaitAtWaypointDuration_Metadata_block_invoke_142
++ _NavigationConfig_Simulation_FollowCurrentRouteThenOffRoute_OffRouteAfterThreshold_Metadata_block_invoke_145
++ _NavigationConfig_Simulation_FollowCurrentRouteThenOffRoute_OffRouteDistanceTarget_Metadata_block_invoke_146
++ _NavigationConfig_SpokenGuidanceChimeBeforeInstruction_Metadata_block_invoke_169
++ _NavigationConfig_SpokenGuidanceDebugVolume_Metadata_block_invoke_164
++ _NavigationConfig_SpokenGuidanceLevel_Cycling_Metadata_block_invoke_158
++ _NavigationConfig_SpokenGuidanceLevel_Driving_Metadata_block_invoke_156
++ _NavigationConfig_SpokenGuidanceLevel_Walking_Metadata_block_invoke_157
++ _NavigationConfig_SpokenGuidanceMaxVolume_Metadata_block_invoke_162
++ _NavigationConfig_SpokenGuidanceMinVolume_Metadata_block_invoke_161
++ _NavigationConfig_SpokenGuidancePauseSpokenAudio_Metadata_block_invoke_159
++ _NavigationConfig_SpokenGuidanceUseHFP_Metadata_block_invoke_160
++ _NavigationConfig_SpokenGuidanceVolumeLoud_Metadata_block_invoke_167
++ _NavigationConfig_SpokenGuidanceVolumeNormal_Metadata_block_invoke_166
++ _NavigationConfig_SpokenGuidanceVolumeSoft_Metadata_block_invoke_165
++ _NavigationConfig_SpokenGuidanceVolumeUserChoice_Metadata_block_invoke_168
++ _NavigationConfig_TimeIntervalToIgnoreCellLocations_Metadata_block_invoke_29
++ _NavigationConfig_TracePlaybackDefaultSpeedMultiplier_Metadata_block_invoke_126
++ _NavigationConfig_TracePlaybackInitialRouteSource_Metadata_block_invoke_119
++ _NavigationConfig_TracePlaybackShouldLoadETAUpdatesFromTrace_Metadata_block_invoke_123
++ _NavigationConfig_TracePlaybackShouldLoadReroutesFromTrace_Metadata_block_invoke_120
++ _NavigationConfig_TracePlaybackShouldLoadWaypointReroutesFromTrace_Metadata_block_invoke_121
++ _NavigationConfig_TracePlaybackShouldSendAnalytics_Metadata_block_invoke_127
++ _NavigationConfig_TracePlaybackShouldSimulateNetworkConditions_Metadata_block_invoke_128
++ _NavigationConfig_TracePlaybackShouldUpdateRouteWhenJumping_Metadata_block_invoke_122
++ _NavigationConfig_TracePlayback_NavigationUpdates_ChangeRoute_Metadata_block_invoke_124
++ _NavigationConfig_TracePlayback_NavigationUpdates_DepartWaypoint_Metadata_block_invoke_125
++ _NavigationConfig_TraceRecordingCopyToCrashReporter_Metadata_block_invoke_118
++ _NavigationConfig_TraceRecordingCreateSymbolicLinkToLatestTrace_Metadata_block_invoke_117
++ _NavigationConfig_TraceRecordingEnabled_Metadata_block_invoke_115
++ _NavigationConfig_TraceRecordingRoutePreviewGuidanceEnabled_Metadata_block_invoke_116
++ _NavigationConfig_TransitMockWeakSignalNotifications_Metadata_block_invoke_131
++ _NavigationConfig_TransitTriggerRegionRadiusStrongLocation_Metadata_block_invoke_130
++ _NavigationConfig_TransitTriggerRegionRadius_Metadata_block_invoke_129
++ _NavigationConfig_TransportTypeSwitching_MaximumDistanceFromExistingRoute_Metadata_block_invoke_14
++ _NavigationConfig_UGCRequestDiscoverabilityPrompt_Metadata_block_invoke_76
++ _NavigationConfig_UseCLDrivingMapMatchedLocations_Metadata_block_invoke_105
++ _NavigationConfig_UseCLPedestrianMapMatchedLocations_Metadata_block_invoke_106
++ _OBJC_IVAR_$_MNTrace._mapMatcherTestEventInsertStatement
++ __DATA__TtC10Navigation15RouteSimilarity
++ __DATA__TtC10Navigation19ConnectedRoadSearch
++ __DATA__TtC10Navigation19ConnectedSearchNode
++ __DATA__TtC10Navigation22ConnectedSearchUtility
++ __DATA__TtC10Navigation29ConnectedRoadSimilaritySearch
++ __DATA__TtCE10NavigationCSo7MNTrace19MapMatcherTestEvent
++ __DATA__TtCE10NavigationCSo7MNTrace9RouteInfo
++ __IVARS__TtC10Navigation19ConnectedRoadSearch
++ __IVARS__TtC10Navigation19ConnectedSearchNode
++ __IVARS__TtCE10NavigationCSo7MNTrace19MapMatcherTestEvent
++ __IVARS__TtCE10NavigationCSo7MNTrace9RouteInfo
++ __METACLASS_DATA__TtC10Navigation15RouteSimilarity
++ __METACLASS_DATA__TtC10Navigation19ConnectedRoadSearch
++ __METACLASS_DATA__TtC10Navigation19ConnectedSearchNode
++ __METACLASS_DATA__TtC10Navigation22ConnectedSearchUtility
++ __METACLASS_DATA__TtC10Navigation29ConnectedRoadSimilaritySearch
++ __METACLASS_DATA__TtCE10NavigationCSo7MNTrace19MapMatcherTestEvent
++ __METACLASS_DATA__TtCE10NavigationCSo7MNTrace9RouteInfo
++ __OBJC_$_CLASS_METHODS_MNTrace(Navigation|Navigation1|Navigation2|Navigation3|MNTraceBookmarkExtras)
++ __OBJC_$_INSTANCE_METHODS_MNTrace(Navigation|Navigation1|Navigation2|Navigation3|MNTraceBookmarkExtras)
++ __PROTOCOLS_MNCommuteRouteSet.11
++ __PROTOCOLS_MNCommuteRouteSetInternalInfo.31
++ __PROTOCOLS_MNCommuteRouteSetInternalNotificationInfo.38
++ ___Block_byref_object_copy_.10848
++ ___Block_byref_object_copy_.11321
++ ___Block_byref_object_copy_.11902
++ ___Block_byref_object_copy_.12794
++ ___Block_byref_object_copy_.14252
++ ___Block_byref_object_copy_.15896
++ ___Block_byref_object_copy_.1729
++ ___Block_byref_object_copy_.20393
++ ___Block_byref_object_copy_.21252
++ ___Block_byref_object_copy_.21561
++ ___Block_byref_object_copy_.2451
++ ___Block_byref_object_copy_.5606
++ ___Block_byref_object_copy_.7487
++ ___Block_byref_object_copy_.8245
++ ___Block_byref_object_dispose_.10849
++ ___Block_byref_object_dispose_.11322
++ ___Block_byref_object_dispose_.11903
++ ___Block_byref_object_dispose_.12795
++ ___Block_byref_object_dispose_.14253
++ ___Block_byref_object_dispose_.15897
++ ___Block_byref_object_dispose_.1730
++ ___Block_byref_object_dispose_.20394
++ ___Block_byref_object_dispose_.21253
++ ___Block_byref_object_dispose_.21562
++ ___Block_byref_object_dispose_.2452
++ ___Block_byref_object_dispose_.5607
++ ___Block_byref_object_dispose_.7488
++ ___Block_byref_object_dispose_.8246
++ ___block_literal_global.1001
++ ___block_literal_global.10128
++ ___block_literal_global.1013
++ ___block_literal_global.1030
++ ___block_literal_global.104.8954
++ ___block_literal_global.1057
++ ___block_literal_global.106.8878
++ ___block_literal_global.10734
++ ___block_literal_global.111
++ ___block_literal_global.11187
++ ___block_literal_global.1178
++ ___block_literal_global.11906
++ ___block_literal_global.11990
++ ___block_literal_global.12057
++ ___block_literal_global.12094
++ ___block_literal_global.12535
++ ___block_literal_global.12807
++ ___block_literal_global.133.17151
++ ___block_literal_global.13315
++ ___block_literal_global.138
++ ___block_literal_global.13805
++ ___block_literal_global.14091
++ ___block_literal_global.14204
++ ___block_literal_global.1427
++ ___block_literal_global.15407
++ ___block_literal_global.155
++ ___block_literal_global.16413
++ ___block_literal_global.16748
++ ___block_literal_global.1694
++ ___block_literal_global.17164
++ ___block_literal_global.1726
++ ___block_literal_global.17371
++ ___block_literal_global.17447
++ ___block_literal_global.180
++ ___block_literal_global.187
++ ___block_literal_global.19054
++ ___block_literal_global.19276
++ ___block_literal_global.194
++ ___block_literal_global.19451
++ ___block_literal_global.20840
++ ___block_literal_global.20957
++ ___block_literal_global.21114
++ ___block_literal_global.21273
++ ___block_literal_global.2212
++ ___block_literal_global.22475
++ ___block_literal_global.226
++ ___block_literal_global.23139
++ ___block_literal_global.2413
++ ___block_literal_global.253
++ ___block_literal_global.260
++ ___block_literal_global.267
++ ___block_literal_global.279
++ ___block_literal_global.287.12791
++ ___block_literal_global.287.9062
++ ___block_literal_global.292.9067
++ ___block_literal_global.297
++ ___block_literal_global.309
++ ___block_literal_global.326
++ ___block_literal_global.33.2210
++ ___block_literal_global.33.9920
++ ___block_literal_global.338
++ ___block_literal_global.36.1182
++ ___block_literal_global.37.2208
++ ___block_literal_global.376
++ ___block_literal_global.438.9140
++ ___block_literal_global.44.1185
++ ___block_literal_global.46.1187
++ ___block_literal_global.473
++ ___block_literal_global.49.13806
++ ___block_literal_global.49.8911
++ ___block_literal_global.495
++ ___block_literal_global.50.2194
++ ___block_literal_global.507
++ ___block_literal_global.514
++ ___block_literal_global.52.13811
++ ___block_literal_global.526
++ ___block_literal_global.533
++ ___block_literal_global.540
++ ___block_literal_global.562
++ ___block_literal_global.579
++ ___block_literal_global.5933
++ ___block_literal_global.596
++ ___block_literal_global.6040
++ ___block_literal_global.608
++ ___block_literal_global.615
++ ___block_literal_global.637
++ ___block_literal_global.6398
++ ___block_literal_global.644
++ ___block_literal_global.6793
++ ___block_literal_global.70.9663
++ ___block_literal_global.701
++ ___block_literal_global.722
++ ___block_literal_global.7324
++ ___block_literal_global.7381
++ ___block_literal_global.7458
++ ___block_literal_global.775
++ ___block_literal_global.782
++ ___block_literal_global.799
++ ___block_literal_global.816
++ ___block_literal_global.823
++ ___block_literal_global.835
++ ___block_literal_global.8458
++ ___block_literal_global.867
++ ___block_literal_global.879
++ ___block_literal_global.881
++ ___block_literal_global.883
++ ___block_literal_global.887
++ ___block_literal_global.8873
++ ___block_literal_global.8884
++ ___block_literal_global.889
++ ___block_literal_global.891
++ ___block_literal_global.893
++ ___block_literal_global.90.8942
++ ___block_literal_global.905
++ ___block_literal_global.907
++ ___block_literal_global.911
++ ___block_literal_global.928
++ ___block_literal_global.9662
++ ___block_literal_global.97
++ ___block_literal_global.975
++ ___block_literal_global.9845
++ ___block_literal_global.987
++ ___block_literal_global.994
++ ___block_literal_global.9944
++ ___swift_memcpy64_8
++ _associated conformance 10Navigation19ConnectedSearchNodeCSHAASQ
++ _associated conformance 10Navigation26CommuteRouteRequestPurposeOSHAASQ
++ _associated conformance So7MNTraceC10NavigationE19MapMatcherTestEventC0F4TypeOSHACSQ
++ _block_copy_helper.126
++ _block_copy_helper.139
++ _block_copy_helper.14
++ _block_copy_helper.143
++ _block_copy_helper.2
++ _block_copy_helper.21
++ _block_copy_helper.27
++ _block_copy_helper.39
++ _block_copy_helper.51
++ _block_copy_helper.59
++ _block_copy_helper.65
++ _block_copy_helper.71
++ _block_copy_helper.74
++ _block_copy_helper.93
++ _block_copy_helper.95
++ _block_copy_helper.98
++ _block_descriptor.100
++ _block_descriptor.128
++ _block_descriptor.141
++ _block_descriptor.145
++ _block_descriptor.16
++ _block_descriptor.23
++ _block_descriptor.29
++ _block_descriptor.4
++ _block_descriptor.41
++ _block_descriptor.53
++ _block_descriptor.61
++ _block_descriptor.67
++ _block_descriptor.73
++ _block_descriptor.76
++ _block_descriptor.95
++ _block_descriptor.97
++ _block_destroy_helper.127
++ _block_destroy_helper.140
++ _block_destroy_helper.144
++ _block_destroy_helper.15
++ _block_destroy_helper.22
++ _block_destroy_helper.28
++ _block_destroy_helper.3
++ _block_destroy_helper.40
++ _block_destroy_helper.52
++ _block_destroy_helper.60
++ _block_destroy_helper.66
++ _block_destroy_helper.72
++ _block_destroy_helper.75
++ _block_destroy_helper.94
++ _block_destroy_helper.96
++ _block_destroy_helper.99
++ _get_enum_tag_for_layout_string So35MNFamiliarRouteAuthorizationCheckerC10NavigationE0C6StatusO
++ _kGEOLocationCoordinate3DInvalid.12564
++ _objc_msgSend$_didEndNavigation
++ _objc_msgSend$createMapMatcherTestEventInsertStatementAndReturnError:
++ _objc_retain_x10
++ _objectdestroy.31Tm
++ _objectdestroy.36Tm
++ _objectdestroy.90Tm
++ _sharedInstance.onceToken.10127
++ _sharedInstance.onceToken.11989
++ _sharedManager.onceToken.20839
++ _sharedManager.sharedManager.20841
++ _swift_bridgeObjectRetain_n
++ _swift_dynamicCastClass
++ _swift_dynamicCastMetatype
++ _swift_initStackObject
++ _swift_release_n
++ _swift_task_isCancelled
++ _swift_unknownObjectRelease_n
++ _swift_unknownObjectRetain_n
++ _symbolic $s10Navigation32MNTracePreparedStatementProtocolP
++ _symbolic SDy_____AAGSg 10Navigation19ConnectedSearchNodeC
++ _symbolic SaySdG
++ _symbolic ScSySo10MNLocationCG
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic Shy_____G 10Navigation19ConnectedSearchNodeC
++ _symbolic Shy_____GIeAgHr_ 10Navigation19ConnectedSearchNodeC
++ _symbolic So17GEOMapFeatureRoadCSgIegHo_
++ _symbolic _____ 10Navigation12PreviousNodeV
++ _symbolic _____ 10Navigation15RouteSimilarityC
++ _symbolic _____ 10Navigation19ConnectedRoadSearchC
++ _symbolic _____ 10Navigation19ConnectedSearchNodeC
++ _symbolic _____ 10Navigation20PathSimilarityResultV
++ _symbolic _____ 10Navigation22ConnectedSearchUtilityC
++ _symbolic _____ 10Navigation26CommuteRouteRequestPurposeO
++ _symbolic _____ 10Navigation29ConnectedRoadSimilaritySearchC
++ _symbolic _____ So15MNRerouteReasonV
++ _symbolic _____ So7MNTraceC10NavigationE19MapMatcherTestEventC
++ _symbolic _____ So7MNTraceC10NavigationE19MapMatcherTestEventC0F4TypeO
++ _symbolic _____ So7MNTraceC10NavigationE9RouteInfoC
++ _symbolic _____Sg 10Navigation19ConnectedSearchNodeC
++ _symbolic _____ySdG s23_ContiguousArrayStorageC
++ _symbolic _____yShy_____G_G ScG8IteratorV 10Navigation19ConnectedSearchNodeC
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____ySo10MNLocationC_G ScS12ContinuationV
++ _symbolic _____ySo10MNLocationC_G ScS8IteratorV
++ _symbolic _____ySo10MNLocationC_GSg ScS12ContinuationV
++ _symbolic _____ySo10MNLocationC__G ScS12ContinuationV11YieldResultO
++ _symbolic _____ySo10MNLocationC__G ScS12ContinuationV15BufferingPolicyO
++ _symbolic _____ySo10MNLocationC__GSg ScS12ContinuationV11YieldResultO
++ _symbolic _____y_____G s11_SetStorageC 10Navigation19ConnectedSearchNodeC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So23GEOLocationCoordinate3Da
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _type_layout_string 10Navigation12PreviousNodeV
++ _type_layout_string 10Navigation20PathSimilarityResultV
++ _type_layout_string So35MNFamiliarRouteAuthorizationCheckerC10NavigationE0C6StatusO
+- GCC_except_table2140
+- GCC_except_table2214
+- GCC_except_table2230
+- GCC_except_table2316
+- GCC_except_table2338
+- GCC_except_table2405
+- GCC_except_table2409
+- GCC_except_table2437
+- GCC_except_table2443
+- GCC_except_table2467
+- GCC_except_table2480
+- GCC_except_table2488
+- GCC_except_table2496
+- GCC_except_table2498
+- GCC_except_table2501
+- GCC_except_table2503
+- GCC_except_table2525
+- GCC_except_table2529
+- GCC_except_table2532
+- GCC_except_table2546
+- GCC_except_table2558
+- GCC_except_table2565
+- GCC_except_table2577
+- GCC_except_table2629
+- GCC_except_table2749
+- GCC_except_table2769
+- GCC_except_table2779
+- GCC_except_table2782
+- GCC_except_table2787
+- GCC_except_table2996
+- GCC_except_table2997
+- GCC_except_table3006
+- GCC_except_table3007
+- GCC_except_table3026
+- GCC_except_table3033
+- GCC_except_table3036
+- GCC_except_table3039
+- GCC_except_table3047
+- GCC_except_table3055
+- GCC_except_table3104
+- GCC_except_table3105
+- GCC_except_table3157
+- GCC_except_table3176
+- GCC_except_table3183
+- GCC_except_table3194
+- GCC_except_table3203
+- GCC_except_table3208
+- GCC_except_table3209
+- GCC_except_table3212
+- GCC_except_table3213
+- GCC_except_table3219
+- GCC_except_table3220
+- GCC_except_table3223
+- GCC_except_table3231
+- GCC_except_table3232
+- GCC_except_table3239
+- GCC_except_table3250
+- GCC_except_table3259
+- GCC_except_table3262
+- GCC_except_table3263
+- GCC_except_table3282
+- GCC_except_table3283
+- GCC_except_table3288
+- GCC_except_table3291
+- GCC_except_table3294
+- GCC_except_table3363
+- GCC_except_table3364
+- GCC_except_table3396
+- GCC_except_table3487
+- GCC_except_table3628
+- GCC_except_table3727
+- GCC_except_table3744
+- GCC_except_table3750
+- GCC_except_table3771
+- GCC_except_table3786
+- GCC_except_table3858
+- GCC_except_table3894
+- GCC_except_table3903
+- GCC_except_table3910
+- GCC_except_table3968
+- GCC_except_table4030
+- GCC_except_table4033
+- GCC_except_table4287
+- GCC_except_table4294
+- GCC_except_table4297
+- GCC_except_table4301
+- GCC_except_table4342
+- GCC_except_table4343
+- GCC_except_table4351
+- GCC_except_table4352
+- GCC_except_table4355
+- GCC_except_table4387
+- GCC_except_table4388
+- GCC_except_table4518
+- GCC_except_table4784
+- GCC_except_table4818
+- GCC_except_table4822
+- GCC_except_table5065
+- GCC_except_table5143
+- GCC_except_table5330
+- GCC_except_table5334
+- GCC_except_table5365
+- GCC_except_table5379
+- GCC_except_table5418
+- GCC_except_table5657
+- GCC_except_table5659
+- GCC_except_table5667
+- GCC_except_table5668
+- GCC_except_table5711
+- GCC_except_table5723
+- _NavigationConfig_ARGuidanceArrivalLabelMinimumStepIndex_Metadata_block_invoke_170
+- _NavigationConfig_ARGuidanceDistanceToIgnoreHeadingDelta_Metadata_block_invoke_173
+- _NavigationConfig_ARGuidanceHeadingDeltaTurn_Metadata_block_invoke_172
+- _NavigationConfig_ARGuidanceInitialGuidanceDistanceThreshold_Metadata_block_invoke_169
+- _NavigationConfig_ARGuidanceNextManeuverDistanceOffset_Metadata_block_invoke_171
+- _NavigationConfig_Arrival_IdleTimer_MinimumStoppedDuration_Metadata_block_invoke_20
+- _NavigationConfig_Arrival_IdleTimer_SpeedToConsiderAsStopped_Metadata_block_invoke_19
+- _NavigationConfig_AutomaticallyEndOnArrival_Metadata_block_invoke_17
+- _NavigationConfig_AutomaticallyEndOnVehicleDisconnectAfterArrival_Metadata_block_invoke_18
+- _NavigationConfig_Commute_MaxCacheAgeSeconds_Metadata_block_invoke_175
+- _NavigationConfig_DebugNavigationIncludeRealtimeUpdates_Metadata_block_invoke_99
+- _NavigationConfig_DistanceThresholdToMonitorWaypoint_Metadata_block_invoke_16
+- _NavigationConfig_Dodgeball_AlertDisplayDurationSeconds_Metadata_block_invoke_71
+- _NavigationConfig_Dodgeball_DirectionsFakeIncidentAlert_Metadata_block_invoke_38
+- _NavigationConfig_Dodgeball_Directions_FakeIncidentHideTriggerPointAllowTruncating_Metadata_block_invoke_67
+- _NavigationConfig_Dodgeball_Directions_FakeIncidentHideTriggerPointDistanceOffset_Metadata_block_invoke_66
+- _NavigationConfig_Dodgeball_Directions_FakeIncidentPersistAcrossUpdates_Metadata_block_invoke_62
+- _NavigationConfig_Dodgeball_Directions_FakeIncidentProgressBarDistanceOffset_Metadata_block_invoke_70
+- _NavigationConfig_Dodgeball_Directions_FakeIncidentProgressBarDurationSeconds_Metadata_block_invoke_69
+- _NavigationConfig_Dodgeball_Directions_FakeIncidentShowTriggerPointAllowTruncating_Metadata_block_invoke_64
+- _NavigationConfig_Dodgeball_Directions_FakeIncidentShowTriggerPointDistanceOffset_Metadata_block_invoke_63
+- _NavigationConfig_Dodgeball_Directions_FakeIncidentTriggerRangeDisplayTime_Metadata_block_invoke_59
+- _NavigationConfig_Dodgeball_Directions_FakeIncidentTriggerRangeMinDisplayTime_Metadata_block_invoke_60
+- _NavigationConfig_Dodgeball_Directions_FakeIncidentTriggerRangePriority_Metadata_block_invoke_61
+- _NavigationConfig_Dodgeball_Directions_FakeIncidentTriggerRangeUseHideAtPoint_Metadata_block_invoke_65
+- _NavigationConfig_Dodgeball_Directions_FakeIncidentUseProgressBar_Metadata_block_invoke_68
+- _NavigationConfig_Dodgeball_DropDodgeballDistanceRatio_Metadata_block_invoke_43
+- _NavigationConfig_Dodgeball_ETAUFakeIncidentAlert_Metadata_block_invoke_37
+- _NavigationConfig_Dodgeball_ETAU_FakeIncidentDescription_Metadata_block_invoke_48
+- _NavigationConfig_Dodgeball_ETAU_FakeIncidentHideTriggerPointAllowTruncating_Metadata_block_invoke_55
+- _NavigationConfig_Dodgeball_ETAU_FakeIncidentHideTriggerPointDistanceOffset_Metadata_block_invoke_54
+- _NavigationConfig_Dodgeball_ETAU_FakeIncidentPersistAcrossUpdates_Metadata_block_invoke_50
+- _NavigationConfig_Dodgeball_ETAU_FakeIncidentProgressBarDistanceOffset_Metadata_block_invoke_58
+- _NavigationConfig_Dodgeball_ETAU_FakeIncidentProgressBarDurationSeconds_Metadata_block_invoke_57
+- _NavigationConfig_Dodgeball_ETAU_FakeIncidentShowTriggerPointAllowTruncating_Metadata_block_invoke_52
+- _NavigationConfig_Dodgeball_ETAU_FakeIncidentShowTriggerPointDistanceOffset_Metadata_block_invoke_51
+- _NavigationConfig_Dodgeball_ETAU_FakeIncidentTitle_Metadata_block_invoke_47
+- _NavigationConfig_Dodgeball_ETAU_FakeIncidentTriggerRangeDisplayTime_Metadata_block_invoke_45
+- _NavigationConfig_Dodgeball_ETAU_FakeIncidentTriggerRangeMinDisplayTime_Metadata_block_invoke_46
+- _NavigationConfig_Dodgeball_ETAU_FakeIncidentTriggerRangePriority_Metadata_block_invoke_49
+- _NavigationConfig_Dodgeball_ETAU_FakeIncidentTriggerRangeUseHideAtPoint_Metadata_block_invoke_53
+- _NavigationConfig_Dodgeball_ETAU_FakeIncidentUseProgressBar_Metadata_block_invoke_56
+- _NavigationConfig_Dodgeball_FakeIncidentAlertDefaultButtonIndex_Metadata_block_invoke_73
+- _NavigationConfig_Dodgeball_FakeIncidentAlertShouldShowDismissButton_Metadata_block_invoke_72
+- _NavigationConfig_Dodgeball_FakeIncidentSimulateVotingButtons_Metadata_block_invoke_39
+- _NavigationConfig_Dodgeball_FakeIncidentUseTriggerRanges_Metadata_block_invoke_44
+- _NavigationConfig_Dodgeball_FakeIncidentVotingButtonDisplay_Metadata_block_invoke_40
+- _NavigationConfig_Dodgeball_OverridePriorityFieldValue_Metadata_block_invoke_42
+- _NavigationConfig_Dodgeball_OverridePriorityField_Metadata_block_invoke_41
+- _NavigationConfig_DoomDirectionsRequestPriority_Metadata_block_invoke_103
+- _NavigationConfig_ETAResponseFailureAlert_Metadata_block_invoke_74
+- _NavigationConfig_ETAUpdateInterval_Metadata_block_invoke_33
+- _NavigationConfig_ETA_DisplayETALogging_Metadata_block_invoke_31
+- _NavigationConfig_ETA_ServerDisplayETA_ExpirationTime_Metadata_block_invoke_35
+- _NavigationConfig_ETA_StabilizeArrivalTime_Metadata_block_invoke_30
+- _NavigationConfig_ETA_UseClientRounding_Metadata_block_invoke_29
+- _NavigationConfig_ETA_UseNewUpdateRequester_Metadata_block_invoke_32
+- _NavigationConfig_EVChargingMonitorMaximumTime_Metadata_block_invoke_81
+- _NavigationConfig_EVChargingMonitorMinimumTime_Metadata_block_invoke_80
+- _NavigationConfig_EVChargingMonitorSpeedThreshold_Metadata_block_invoke_79
+- _NavigationConfig_EVForceVirtualGarageUpdateInterval_Metadata_block_invoke_82
+- _NavigationConfig_EnableDodgeball_Metadata_block_invoke_36
+- _NavigationConfig_EnableNavigationTransportModeSwitching_Metadata_block_invoke_12
+- _NavigationConfig_EnableTunnelLocationProjection_Metadata_block_invoke_25
+- _NavigationConfig_FamiliarRoutes_Authorization_CLInUseAssertion_Timeout_Metadata_block_invoke_183
+- _NavigationConfig_FamiliarRoutes_Authorization_ShouldUseCLInUseAssertionForDOoM_Metadata_block_invoke_182
+- _NavigationConfig_FamiliarRoutes_Authorization_ShouldUseCLInUseAssertionForWidget_Metadata_block_invoke_181
+- _NavigationConfig_FamiliarRoutes_Authorization_Timeout_Metadata_block_invoke_180
+- _NavigationConfig_IgnoreCourseAccuracy_Metadata_block_invoke_27
+- _NavigationConfig_InitialETARequestDelay_Metadata_block_invoke_34
+- _NavigationConfig_JunctionViewImagesPreloadingThreshold_Metadata_block_invoke_24
+- _NavigationConfig_LPRAverageSpeedForETAGuess_Metadata_block_invoke_152
+- _NavigationConfig_LPRBoundingRegionRadius_Metadata_block_invoke_148
+- _NavigationConfig_LPRDebugKeysResetAfter_DEBUG_Metadata_block_invoke_151
+- _NavigationConfig_LPRMaskPlateFailureCode_DEBUG_Metadata_block_invoke_150
+- _NavigationConfig_LPRMaskingRulesDateOverride_Metadata_block_invoke_147
+- _NavigationConfig_LPRProvideBadVersion_DEBUG_Metadata_block_invoke_149
+- _NavigationConfig_LeechingThrottleTimeout_Metadata_block_invoke_108
+- _NavigationConfig_LocationOverdueTimeoutForTunnel_Metadata_block_invoke_26
+- _NavigationConfig_LocationProjectionTimeSeconds_Metadata_block_invoke_7
+- _NavigationConfig_LocationTracking_DistanceWithinOriginForProceedToRoute_Metadata_block_invoke_21
+- _NavigationConfig_LocationTracking_Walking_CustomRoute_RerouteDistanceBeforeOnRoute_Metadata_block_invoke_23
+- _NavigationConfig_LocationTracking_Walking_CustomRoute_RerouteDistance_Metadata_block_invoke_22
+- _NavigationConfig_LogRoutes_RoutePreview_AlternateRoutes_Metadata_block_invoke_154
+- _NavigationConfig_LogRoutes_RoutePreview_MainRoute_Metadata_block_invoke_153
+- _NavigationConfig_MNAudioHardwareEngine_ChangedToAlertsOnly_Metadata_block_invoke_174
+- _NavigationConfig_MPRDepartureAutoAdvanceSensitivity_Metadata_block_invoke_89
+- _NavigationConfig_MPRDepartureAutoAdvanceUsingArrivalRegion_Metadata_block_invoke_88
+- _NavigationConfig_MPRDepartureAutoAdvanceWithNoArrivalRegion_Metadata_block_invoke_87
+- _NavigationConfig_MPRDepartureDistanceFromWaypointPoints_Metadata_block_invoke_85
+- _NavigationConfig_MPRDepartureDistanceToCenter_Metadata_block_invoke_83
+- _NavigationConfig_MPRDepartureNumLocationsForArrivalRegion_Metadata_block_invoke_86
+- _NavigationConfig_MPRDepartureTimeAtWaypoint_Metadata_block_invoke_84
+- _NavigationConfig_MPRDepartureTimeoutMinutes_Metadata_block_invoke_90
+- _NavigationConfig_MapLocalizeLabels_Metadata_block_invoke_78
+- _NavigationConfig_MinLocationAccuracyForPreArrivalReroute_Metadata_block_invoke_14
+- _NavigationConfig_MinimumDistanceBetweenReroutes_Metadata_block_invoke_9
+- _NavigationConfig_MinimumTimeBetweenReroutes_Metadata_block_invoke_8
+- _NavigationConfig_NavDoomCacheCurrentTripTag_Metadata_block_invoke_100
+- _NavigationConfig_NavdDisconnectRetryCount_Metadata_block_invoke_107
+- _NavigationConfig_NavdDisconnectRetryWindow_Metadata_block_invoke_106
+- _NavigationConfig_NavdMaxNumberOfOfflineAttempts_Metadata_block_invoke_176
+- _NavigationConfig_NavdMonitoringDistanceThreshold_Metadata_block_invoke_101
+- _NavigationConfig_NavdXPCDownloadSizeBytes_Metadata_block_invoke_102
+- _NavigationConfig_NavigationDebugPanelMuteVoice_Metadata_block_invoke_112
+- _NavigationConfig_NavigationDingInstead_Metadata_block_invoke_111
+- _NavigationConfig_NavigationDisableServerTTS_Metadata_block_invoke_110
+- _NavigationConfig_NavigationPreventsManifestUpdate_Metadata_block_invoke_109
+- _NavigationConfig_NavigationShowLiveAlternateRoutesInTrenchMode_Metadata_block_invoke_76
+- _NavigationConfig_OfflineNavigationRecommendedRouteDistanceThreshold_Metadata_block_invoke_178
+- _NavigationConfig_OnlineToOfflineTransitionRequestEnabled_Metadata_block_invoke_177
+- _NavigationConfig_Parking_BackgroundWalkingRouteMinDistanceToRetryFailedRequest_Metadata_block_invoke_98
+- _NavigationConfig_Parking_BackgroundWalkingRouteMinRerouteDistance_Metadata_block_invoke_96
+- _NavigationConfig_Parking_BackgroundWalkingRouteMinTimeBetweenReroutes_Metadata_block_invoke_97
+- _NavigationConfig_Parking_EasyParkingDetection_Metadata_block_invoke_91
+- _NavigationConfig_Parking_ResumeDrivingSpeedThreshold_Metadata_block_invoke_95
+- _NavigationConfig_Parking_StoppedLocationMinimumTime_Metadata_block_invoke_93
+- _NavigationConfig_Parking_StoppedLocationSpeedThreshold_Metadata_block_invoke_92
+- _NavigationConfig_Parking_VehicleDisconnectExpirationTime_Metadata_block_invoke_94
+- _NavigationConfig_ReportAndVerifyIncidentsWhileNavigating_Metadata_block_invoke_77
+- _NavigationConfig_RerouteThrottleCount_Metadata_block_invoke_11
+- _NavigationConfig_RerouteThrottleInterval_Metadata_block_invoke_10
+- _NavigationConfig_SaveRoutesToDiskInsteadXPC_Metadata_block_invoke_113
+- _NavigationConfig_ShouldShowRadarPromptForRoutingServiceErrors_Metadata_block_invoke_179
+- _NavigationConfig_ShouldThrottlePreArrivalReroute_Metadata_block_invoke_15
+- _NavigationConfig_ShouldUseSpokenGuidanceDebugVolume_Metadata_block_invoke_162
+- _NavigationConfig_SimulationEnabled_Metadata_block_invoke_131
+- _NavigationConfig_SimulationGPSError_Metadata_block_invoke_137
+- _NavigationConfig_SimulationKeepLocationAfterEndingNavigation_Metadata_block_invoke_143
+- _NavigationConfig_SimulationMinimumSpeed_Metadata_block_invoke_136
+- _NavigationConfig_SimulationMoveToIntermediateWaypoints_Metadata_block_invoke_140
+- _NavigationConfig_SimulationSearchForParking_Metadata_block_invoke_142
+- _NavigationConfig_SimulationShouldShowPrompt_Metadata_block_invoke_133
+- _NavigationConfig_SimulationSimulateGeoFences_Metadata_block_invoke_146
+- _NavigationConfig_SimulationSpeedMultiplier_Metadata_block_invoke_135
+- _NavigationConfig_SimulationSpeedOverride_Metadata_block_invoke_134
+- _NavigationConfig_SimulationStartDistanceBeforeWaypoint_Metadata_block_invoke_139
+- _NavigationConfig_SimulationStartWaypoint_Metadata_block_invoke_138
+- _NavigationConfig_SimulationType_Metadata_block_invoke_132
+- _NavigationConfig_SimulationWaitAtWaypointDuration_Metadata_block_invoke_141
+- _NavigationConfig_Simulation_FollowCurrentRouteThenOffRoute_OffRouteAfterThreshold_Metadata_block_invoke_144
+- _NavigationConfig_Simulation_FollowCurrentRouteThenOffRoute_OffRouteDistanceTarget_Metadata_block_invoke_145
+- _NavigationConfig_SpokenGuidanceChimeBeforeInstruction_Metadata_block_invoke_168
+- _NavigationConfig_SpokenGuidanceDebugVolume_Metadata_block_invoke_163
+- _NavigationConfig_SpokenGuidanceLevel_Cycling_Metadata_block_invoke_157
+- _NavigationConfig_SpokenGuidanceLevel_Driving_Metadata_block_invoke_155
+- _NavigationConfig_SpokenGuidanceLevel_Walking_Metadata_block_invoke_156
+- _NavigationConfig_SpokenGuidanceMaxVolume_Metadata_block_invoke_161
+- _NavigationConfig_SpokenGuidanceMinVolume_Metadata_block_invoke_160
+- _NavigationConfig_SpokenGuidancePauseSpokenAudio_Metadata_block_invoke_158
+- _NavigationConfig_SpokenGuidanceUseHFP_Metadata_block_invoke_159
+- _NavigationConfig_SpokenGuidanceVolumeLoud_Metadata_block_invoke_166
+- _NavigationConfig_SpokenGuidanceVolumeNormal_Metadata_block_invoke_165
+- _NavigationConfig_SpokenGuidanceVolumeSoft_Metadata_block_invoke_164
+- _NavigationConfig_SpokenGuidanceVolumeUserChoice_Metadata_block_invoke_167
+- _NavigationConfig_TimeIntervalToIgnoreCellLocations_Metadata_block_invoke_28
+- _NavigationConfig_TracePlaybackDefaultSpeedMultiplier_Metadata_block_invoke_125
+- _NavigationConfig_TracePlaybackInitialRouteSource_Metadata_block_invoke_118
+- _NavigationConfig_TracePlaybackShouldLoadETAUpdatesFromTrace_Metadata_block_invoke_122
+- _NavigationConfig_TracePlaybackShouldLoadReroutesFromTrace_Metadata_block_invoke_119
+- _NavigationConfig_TracePlaybackShouldLoadWaypointReroutesFromTrace_Metadata_block_invoke_120
+- _NavigationConfig_TracePlaybackShouldSendAnalytics_Metadata_block_invoke_126
+- _NavigationConfig_TracePlaybackShouldSimulateNetworkConditions_Metadata_block_invoke_127
+- _NavigationConfig_TracePlaybackShouldUpdateRouteWhenJumping_Metadata_block_invoke_121
+- _NavigationConfig_TracePlayback_NavigationUpdates_ChangeRoute_Metadata_block_invoke_123
+- _NavigationConfig_TracePlayback_NavigationUpdates_DepartWaypoint_Metadata_block_invoke_124
+- _NavigationConfig_TraceRecordingCopyToCrashReporter_Metadata_block_invoke_117
+- _NavigationConfig_TraceRecordingCreateSymbolicLinkToLatestTrace_Metadata_block_invoke_116
+- _NavigationConfig_TraceRecordingEnabled_Metadata_block_invoke_114
+- _NavigationConfig_TraceRecordingRoutePreviewGuidanceEnabled_Metadata_block_invoke_115
+- _NavigationConfig_TransitMockWeakSignalNotifications_Metadata_block_invoke_130
+- _NavigationConfig_TransitTriggerRegionRadiusStrongLocation_Metadata_block_invoke_129
+- _NavigationConfig_TransitTriggerRegionRadius_Metadata_block_invoke_128
+- _NavigationConfig_TransportTypeSwitching_MaximumDistanceFromExistingRoute_Metadata_block_invoke_13
+- _NavigationConfig_UGCRequestDiscoverabilityPrompt_Metadata_block_invoke_75
+- _NavigationConfig_UseCLDrivingMapMatchedLocations_Metadata_block_invoke_104
+- _NavigationConfig_UseCLPedestrianMapMatchedLocations_Metadata_block_invoke_105
+- _OBJC_CLASS_$__TtC10Navigation11MNTestClass
+- _OBJC_METACLASS_$__TtC10Navigation11MNTestClass
+- __DATA__TtC10Navigation11MNTestClass
+- __DATA__TtC10Navigation18ConnectivitySearch
+- __DATA__TtC10Navigation22ConnectivitySearchNode
+- __INSTANCE_METHODS__TtC10Navigation11MNTestClass
+- __IVARS__TtC10Navigation18ConnectivitySearch
+- __IVARS__TtC10Navigation22ConnectivitySearchNode
+- __METACLASS_DATA__TtC10Navigation11MNTestClass
+- __METACLASS_DATA__TtC10Navigation18ConnectivitySearch
+- __METACLASS_DATA__TtC10Navigation22ConnectivitySearchNode
+- __OBJC_$_CLASS_METHODS_MNTrace(Navigation|Navigation1|Navigation2|MNTraceBookmarkExtras)
+- __OBJC_$_INSTANCE_METHODS_MNTrace(Navigation|Navigation1|Navigation2|MNTraceBookmarkExtras)
+- __PROTOCOLS_MNCommuteRouteSet.8
+- __PROTOCOLS_MNCommuteRouteSetInternalInfo.26
+- __PROTOCOLS_MNCommuteRouteSetInternalNotificationInfo.33
+- ___Block_byref_object_copy_.10826
+- ___Block_byref_object_copy_.11296
+- ___Block_byref_object_copy_.11879
+- ___Block_byref_object_copy_.12770
+- ___Block_byref_object_copy_.14303
+- ___Block_byref_object_copy_.15953
+- ___Block_byref_object_copy_.1730
+- ___Block_byref_object_copy_.20452
+- ___Block_byref_object_copy_.21311
+- ___Block_byref_object_copy_.21620
+- ___Block_byref_object_copy_.2452
+- ___Block_byref_object_copy_.5602
+- ___Block_byref_object_copy_.7439
+- ___Block_byref_object_copy_.8196
+- ___Block_byref_object_dispose_.10827
+- ___Block_byref_object_dispose_.11297
+- ___Block_byref_object_dispose_.11880
+- ___Block_byref_object_dispose_.12771
+- ___Block_byref_object_dispose_.14304
+- ___Block_byref_object_dispose_.15954
+- ___Block_byref_object_dispose_.1731
+- ___Block_byref_object_dispose_.20453
+- ___Block_byref_object_dispose_.21312
+- ___Block_byref_object_dispose_.21621
+- ___Block_byref_object_dispose_.2453
+- ___Block_byref_object_dispose_.5603
+- ___Block_byref_object_dispose_.7440
+- ___Block_byref_object_dispose_.8197
+- ___block_literal_global.1003
+- ___block_literal_global.10100
+- ___block_literal_global.1015
+- ___block_literal_global.1032
+- ___block_literal_global.106.8835
+- ___block_literal_global.106.8913
+- ___block_literal_global.10710
+- ___block_literal_global.11165
+- ___block_literal_global.113
+- ___block_literal_global.1180
+- ___block_literal_global.11883
+- ___block_literal_global.11967
+- ___block_literal_global.12034
+- ___block_literal_global.12071
+- ___block_literal_global.12512
+- ___block_literal_global.12783
+- ___block_literal_global.13291
+- ___block_literal_global.133.17208
+- ___block_literal_global.13856
+- ___block_literal_global.140
+- ___block_literal_global.14142
+- ___block_literal_global.14255
+- ___block_literal_global.1428
+- ___block_literal_global.15459
+- ___block_literal_global.16470
+- ___block_literal_global.16805
+- ___block_literal_global.1695
+- ___block_literal_global.17221
+- ___block_literal_global.1727
+- ___block_literal_global.17428
+- ___block_literal_global.175
+- ___block_literal_global.17504
+- ___block_literal_global.182
+- ___block_literal_global.189
+- ___block_literal_global.19112
+- ___block_literal_global.19334
+- ___block_literal_global.19509
+- ___block_literal_global.196
+- ___block_literal_global.20899
+- ___block_literal_global.21016
+- ___block_literal_global.21173
+- ___block_literal_global.21332
+- ___block_literal_global.2213
+- ___block_literal_global.22532
+- ___block_literal_global.228
+- ___block_literal_global.23196
+- ___block_literal_global.2414
+- ___block_literal_global.255
+- ___block_literal_global.262
+- ___block_literal_global.269
+- ___block_literal_global.282
+- ___block_literal_global.287.12767
+- ___block_literal_global.287.9015
+- ___block_literal_global.292.9020
+- ___block_literal_global.299
+- ___block_literal_global.311
+- ___block_literal_global.328
+- ___block_literal_global.33.2211
+- ___block_literal_global.33.9892
+- ___block_literal_global.341
+- ___block_literal_global.36.1184
+- ___block_literal_global.37.2209
+- ___block_literal_global.378
+- ___block_literal_global.438.9093
+- ___block_literal_global.44.1187
+- ___block_literal_global.46.1189
+- ___block_literal_global.475
+- ___block_literal_global.49.13857
+- ___block_literal_global.49.8868
+- ___block_literal_global.492
+- ___block_literal_global.50.2195
+- ___block_literal_global.509
+- ___block_literal_global.516
+- ___block_literal_global.52.13862
+- ___block_literal_global.528
+- ___block_literal_global.535
+- ___block_literal_global.542
+- ___block_literal_global.564
+- ___block_literal_global.581
+- ___block_literal_global.5884
+- ___block_literal_global.598
+- ___block_literal_global.5991
+- ___block_literal_global.610
+- ___block_literal_global.617
+- ___block_literal_global.6350
+- ___block_literal_global.639
+- ___block_literal_global.646
+- ___block_literal_global.6744
+- ___block_literal_global.70.9635
+- ___block_literal_global.702
+- ___block_literal_global.725
+- ___block_literal_global.7276
+- ___block_literal_global.7333
+- ___block_literal_global.7410
+- ___block_literal_global.777
+- ___block_literal_global.784
+- ___block_literal_global.801
+- ___block_literal_global.818
+- ___block_literal_global.825
+- ___block_literal_global.837
+- ___block_literal_global.8416
+- ___block_literal_global.869
+- ___block_literal_global.876
+- ___block_literal_global.878
+- ___block_literal_global.882
+- ___block_literal_global.8830
+- ___block_literal_global.884
+- ___block_literal_global.8841
+- ___block_literal_global.886
+- ___block_literal_global.888
+- ___block_literal_global.895
+- ___block_literal_global.902
+- ___block_literal_global.906
+- ___block_literal_global.908
+- ___block_literal_global.92.8901
+- ___block_literal_global.930
+- ___block_literal_global.9634
+- ___block_literal_global.977
+- ___block_literal_global.9817
+- ___block_literal_global.99
+- ___block_literal_global.991
+- ___block_literal_global.9916
+- ___block_literal_global.996
+- _associated conformance 10Navigation22ConnectivitySearchNodeCSHAASQ
+- _associated conformance So35MNFamiliarRouteAuthorizationCheckerC10NavigationE0C6StatusOSHACSQ
+- _block_copy_helper.115
+- _block_copy_helper.12
+- _block_copy_helper.127
+- _block_copy_helper.13
+- _block_copy_helper.135
+- _block_copy_helper.136
+- _block_copy_helper.138
+- _block_copy_helper.140
+- _block_copy_helper.23
+- _block_copy_helper.3
+- _block_copy_helper.30
+- _block_copy_helper.41
+- _block_copy_helper.60
+- _block_copy_helper.63
+- _block_copy_helper.66
+- _block_copy_helper.70
+- _block_copy_helper.72
+- _block_copy_helper.73
+- _block_copy_helper.9
+- _block_copy_helper.90
+- _block_copy_helper.99
+- _block_descriptor.101
+- _block_descriptor.11
+- _block_descriptor.117
+- _block_descriptor.129
+- _block_descriptor.137
+- _block_descriptor.138
+- _block_descriptor.14
+- _block_descriptor.140
+- _block_descriptor.142
+- _block_descriptor.15
+- _block_descriptor.25
+- _block_descriptor.32
+- _block_descriptor.43
+- _block_descriptor.5
+- _block_descriptor.62
+- _block_descriptor.65
+- _block_descriptor.68
+- _block_descriptor.72
+- _block_descriptor.74
+- _block_descriptor.75
+- _block_descriptor.92
+- _block_destroy_helper.10
+- _block_destroy_helper.100
+- _block_destroy_helper.116
+- _block_destroy_helper.128
+- _block_destroy_helper.13
+- _block_destroy_helper.136
+- _block_destroy_helper.137
+- _block_destroy_helper.139
+- _block_destroy_helper.14
+- _block_destroy_helper.141
+- _block_destroy_helper.24
+- _block_destroy_helper.31
+- _block_destroy_helper.4
+- _block_destroy_helper.42
+- _block_destroy_helper.61
+- _block_destroy_helper.64
+- _block_destroy_helper.67
+- _block_destroy_helper.71
+- _block_destroy_helper.73
+- _block_destroy_helper.74
+- _block_destroy_helper.91
+- _kGEOLocationCoordinate3DInvalid.12541
+- _objectdestroy.130Tm
+- _objectdestroy.25Tm
+- _objectdestroy.37Tm
+- _objectdestroy.8Tm
+- _sharedInstance.onceToken.10099
+- _sharedInstance.onceToken.11966
+- _sharedManager.onceToken.20898
+- _sharedManager.sharedManager.20900
+- _symbolic SDy_____AAGSg 10Navigation22ConnectivitySearchNodeC
+- _symbolic So17MNCommuteRouteSetCSgSo7NSErrorCSgIeyBhyy_
+- _symbolic So17MNCommuteRouteSetCSg______pSgIeghgg_ s5ErrorP
+- _symbolic So17OS_dispatch_queueC
+- _symbolic _____ 10Navigation11MNTestClassC
+- _symbolic _____ 10Navigation18ConnectivitySearchC
+- _symbolic _____ 10Navigation22ConnectivitySearchNodeC
+- _symbolic _____ 10Navigation22ConnectivitySearchNodeC08PreviousD0V
+- _symbolic _____Sg 10Navigation22ConnectivitySearchNodeC
+- _type_layout_string 10Navigation22ConnectivitySearchNodeC08PreviousD0V
+CStrings:
++ "        %s - Distance from user to %s (active) RM (%s) is %f | Route Match Road's Route Radius (non speed based) = %f = Accuracy (non speed based) %f + Road width %f - MapMatcher._roadMinWidth / 2"
++ " Radius (speed based) = "
++ "%f%% (%ld/%ld) recent locations are out of route match road range"
++ "%f, %f similarConnectedRoads"
++ "%s - Classic RM  [%s] %s - Connected RM [%s] %s"
++ "%s - Classic RM CD %f Connected RM CD %f"
++ "%s - Finished running shape match"
++ "%s - No Recent Locations in location history have a road to start a shape match from."
++ "%s - OffRoute, OnRoad. Backwards movement along route."
++ "%s - OffRoute, OnRoad. Outside route radius (speed based)."
++ "%s - OnRoute. Inside route radius (speed based)."
++ "%s - Similarity results"
++ "%s - Strong recommendation from shape match"
++ "%s Got CL location %s than the last CL location by %fs %f, %f."
++ "%s On Route due to one of the candidate roads being along the active Route Match and distance from active route match %f versus expanded uncertainty radius %f"
++ "%sConnected RM distance %fm %s buffer %fm"
++ "- %s"
++ "- Best Match: %s %f"
++ "- Route: %s %f"
++ "Active RM course %f"
++ "AsyncStream continuation terminated."
++ "Backwards movement along route detected. New consecutive backwards distance along route: %fm"
++ "Best candidate connected similar road CD  %f compared to location course accuracy %f"
++ "CREATE TABLE IF NOT EXISTS map_matcher_test_data (\n    timestamp       NUMERIC NOT NULL,\n    event           TEXT NOT NULL\n)"
++ "CSS: Connected Road 5 Top Paths when routeMatch is on %@ started from %f, %f %@"
++ "CSS: lastComparedRecentLocation from remainingRecentLocations.popLast() was nil"
++ "CSS: road in startNode was nil"
++ "Classic RM %s course accuracy"
++ "Connected RM %s Classic RM along route by %fm"
++ "Connected RM %s course accuracy"
++ "Connected Similarity results"
++ "Current Location is inside %s"
++ "Current Location not inside %s"
++ "Disabled for Dead Reckoning - "
++ "Do not check normal route radius because Connected RM is active RM and no pinned route radius is set."
++ "Error creating map matcher test event table: %@"
++ "Finding distance from recent location for a road is less than zero."
++ "INSERT INTO map_matcher_test_data (timestamp, event) VALUES (:timestamp, :event)"
++ "Location history count %ld, length %fm"
++ "MapMatching_NewMapMatcher_DeadReckonConnectedRouteMatch"
++ "Movement distance since last fix: %fm GPS location displacement, %fm along route. Previous consecutive backwards distance along route: %fm"
++ "Navigation/ConnectedRoadSimilaritySearch.swift"
++ "Navigation/ConnectedRouteSimilarity.swift"
++ "New Map Matcher"
++ "No Classic/Connected Route Match."
++ "No Pinned Radius center or Current Location Active Route Match location coordinate for Route Radius (speed based) center"
++ "Not Authorized ("
++ "Not retrying ETA update request because we failed to build route attributes. Error: %@"
++ "Preferring road match as start point of connected road similarity search"
++ "RSS: interpolation offset %f %f %f"
++ "RSS: lastComparedRecentLocation from remainingRecentLocations.popLast() was nil"
++ "RSS: remainingRecentLocations failed to popLast()"
++ "RSS: start search at %s %f, %f"
++ "Reroute due to best candidate road CD %f < than route match CD %f"
++ "Reroute due to best candidate road having close enough course to user and no route match"
++ "Returning authorization status: %s, purpose: %s"
++ "Returning early authorization status: %s, purpose: %s"
++ "Road %s has 0 or no road width"
++ "Route similarity %f"
++ "Started updating locations with async stream."
++ "Stopped updating all updates."
++ "Strong OnRoute due to route similarity better than all the candidate roads and user is within %fm of active route match"
++ "T@\"MNTracePreparedStatement\",R,N"
++ "Using Classic Route Match. No Connected Route Match."
++ "Using Classic Route Match. User has no course."
++ "Using Connected Route Match. Connected RM has closer bearing to user course"
++ "Using Connected Route Match. No Classic Route Match."
++ "Virtual Garage"
++ "_TtC10Navigation15RouteSimilarity"
++ "_TtC10Navigation19ConnectedRoadSearch"
++ "_TtC10Navigation19ConnectedSearchNode"
++ "_TtC10Navigation22ConnectedSearchUtility"
++ "_TtC10Navigation29ConnectedRoadSimilaritySearch"
++ "_TtCE10NavigationCSo7MNTrace19MapMatcherTestEvent"
++ "_TtCE10NavigationCSo7MNTrace9RouteInfo"
++ "_didEndNavigation"
++ "_locationStreamContinuation"
++ "_locationStreamTask"
++ "_mapMatcherTestEventInsertStatement"
++ "_predictedEntryDate"
++ "_predictedExitDate"
++ "allETAUAlternateRoutes"
++ "authorization denied"
++ "classicRouteMatch"
++ "com.apple.Navigation.MapMatcher"
++ "com.apple.Navigation.MapMatcher.ConnectedSimilaritySearch"
++ "connectedRouteMatch"
++ "createMapMatcherTestEventInsertStatementAndReturnError:"
++ "deadReckonLocation"
++ "endTest"
++ "featureIndex"
++ "flip"
++ "initWithRange:"
++ "insufficient location accuracy"
++ "insufficiently in use"
++ "isValidTravelDirection"
++ "learned routes unsupported"
++ "mapMatcherTestEventInsertStatement"
++ "map_matcher_test_data"
++ "offRouteOffRoad"
++ "offRouteOnRoad"
++ "onRoute"
++ "pathSimilarity"
++ "predictedEntryDate"
++ "predictedExitDate"
++ "preferConnectedRouteMatch"
++ "prepareRouteAttributes(routeAttributes:waypoints:)"
++ "purpose"
++ "rerouteReason"
++ "setAllowOfflineData:"
++ "setDodgeballOutsideOfMapsPredictedEntryDate:"
++ "setDodgeballOutsideOfMapsPredictedExitDate:"
++ "startTest"
++ "tccPrompted"
+- "@40@0:8@16@24@?32"
+- "Backwards movement along route detected"
+- "Error getting commute route: %@"
+- "Location history count %ld length %fm"
+- "Movement distance since last fix %f prev backwards total -> %f"
+- "Returning authorization status: %s"
+- "Returning early authorization status: %s"
+- "Started updating locations."
+- "_TtC10Navigation11MNTestClass"
+- "_TtC10Navigation18ConnectivitySearch"
+- "_TtC10Navigation22ConnectivitySearchNode"
+- "computed route radius of %f based on speed"
+- "final route radius of %f with road width"
+- "in radius"
+- "no longer in radius"
+- "no pinned radius center and current location route location coordinate"
+- "prepareRouteAttributes(route:waypoints:)"
+- "requestCommuteRoutesForWaypoints:queue:handler:"
+- "road %s has no road width"
+- "testFunction"
+
+```

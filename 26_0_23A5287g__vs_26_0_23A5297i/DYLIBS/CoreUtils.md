@@ -1,0 +1,330 @@
+## CoreUtils
+
+> `/System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils`
+
+```diff
+
+-800.7.0.0.0
+-  __TEXT.__text: 0x11e240
+-  __TEXT.__auth_stubs: 0x3030
++800.10.0.0.0
++  __TEXT.__text: 0x11e1bc
++  __TEXT.__auth_stubs: 0x3010
+   __TEXT.__objc_methlist: 0x9d80
+-  __TEXT.__cstring: 0x2303d
++  __TEXT.__cstring: 0x23033
+   __TEXT.__const: 0x2398
+   __TEXT.__gcc_except_tab: 0x1d68
+   __TEXT.__oslogstring: 0xdee
+-  __TEXT.__unwind_info: 0x3aa0
++  __TEXT.__unwind_info: 0x3a98
+   __TEXT.__eh_frame: 0x50
+   __TEXT.__objc_classname: 0xcd4
+   __TEXT.__objc_methname: 0x15f54
+   __TEXT.__objc_methtype: 0x46c5
+-  __TEXT.__objc_stubs: 0xa4c0
++  __TEXT.__objc_stubs: 0xa4e0
+   __DATA_CONST.__got: 0x690
+   __DATA_CONST.__const: 0x2a00
+   __DATA_CONST.__objc_classlist: 0x360
+
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x248
+   __DATA_CONST.__objc_arraydata: 0x8
+-  __AUTH_CONST.__auth_got: 0x1828
++  __AUTH_CONST.__auth_got: 0x1818
+   __AUTH_CONST.__const: 0x2850
+   __AUTH_CONST.__cfstring: 0x4480
+   __AUTH_CONST.__objc_const: 0x13d78
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: FFC9B283-5A95-36A7-B344-BA25FA938CBD
++  UUID: 6B43932C-9E37-3498-9BE5-214E9B085FBD
+   Functions: 5852
+-  Symbols:   16911
+-  CStrings:  10231
++  Symbols:   16910
++  CStrings:  10230
+ 
+Symbols:
++ GCC_except_table1040
++ GCC_except_table1393
++ GCC_except_table1428
++ GCC_except_table1434
++ GCC_except_table1437
++ GCC_except_table1511
++ GCC_except_table1542
++ GCC_except_table1545
++ GCC_except_table1551
++ GCC_except_table1556
++ GCC_except_table1559
++ GCC_except_table1609
++ GCC_except_table1646
++ GCC_except_table1677
++ GCC_except_table1700
++ GCC_except_table1702
++ GCC_except_table1706
++ GCC_except_table1718
++ GCC_except_table1720
++ GCC_except_table1732
++ GCC_except_table2365
++ GCC_except_table2385
++ GCC_except_table2423
++ GCC_except_table2498
++ GCC_except_table2522
++ GCC_except_table2556
++ GCC_except_table2560
++ GCC_except_table2624
++ GCC_except_table2627
++ GCC_except_table2629
++ GCC_except_table2634
++ GCC_except_table2637
++ GCC_except_table2640
++ GCC_except_table2643
++ GCC_except_table2646
++ GCC_except_table2653
++ GCC_except_table2656
++ GCC_except_table2725
++ GCC_except_table3044
++ GCC_except_table3132
++ GCC_except_table3154
++ GCC_except_table3188
++ GCC_except_table3192
++ GCC_except_table3236
++ GCC_except_table3240
++ GCC_except_table3242
++ GCC_except_table3539
++ GCC_except_table3955
++ GCC_except_table4205
++ GCC_except_table4260
++ GCC_except_table4267
++ GCC_except_table4275
++ GCC_except_table4427
++ GCC_except_table4431
++ GCC_except_table4433
++ GCC_except_table4435
++ GCC_except_table4458
++ GCC_except_table4545
++ GCC_except_table4547
++ GCC_except_table4549
++ GCC_except_table4551
++ GCC_except_table4553
++ GCC_except_table4557
++ GCC_except_table4559
++ GCC_except_table4571
++ GCC_except_table4578
++ GCC_except_table4581
++ GCC_except_table4585
++ GCC_except_table4592
++ GCC_except_table4599
++ GCC_except_table4602
++ GCC_except_table4611
++ GCC_except_table4625
++ GCC_except_table4629
++ GCC_except_table4631
++ GCC_except_table729
++ GCC_except_table822
++ GCC_except_table837
++ GCC_except_table839
++ GCC_except_table842
++ _BonjourBrowser_SetNANDiscoveryMode
++ _CALayerFunction.13204
++ _CATransactionFunction.13221
++ _MobileCoreServicesLibrary.sLib.13613
++ _MobileCoreServicesLibrary.sOnce.13612
++ _QuartzCoreLibrary.sLib.13169
++ _QuartzCoreLibrary.sOnce.13167
++ _VideoToolboxLibrary.sLib.13176
++ _VideoToolboxLibrary.sOnce.13175
++ __NetTransportFinalize.12004
++ __NetTransportFinalize.12012
++ __NetTransportInitialize.12005
++ __NetTransportInitialize.12015
++ __NetTransportRead.12001
++ __NetTransportRead.12014
++ __NetTransportWriteV.12000
++ __NetTransportWriteV.12013
++ ___Block_byref_object_copy_.12559
++ ___Block_byref_object_dispose_.12560
++ ___MobileCoreServicesLibrary_block_invoke.13616
++ ___QuartzCoreLibrary_block_invoke.13173
++ ___VideoToolboxLibrary_block_invoke.13179
++ ___block_descriptor_tmp.14599
++ ___block_descriptor_tmp.21
++ ___block_descriptor_tmp.3.14615
++ ___block_literal_global.12340
++ ___block_literal_global.13168
++ ___block_literal_global.13532
++ ___block_literal_global.14458
++ ___block_literal_global.14602
++ ___block_literal_global.23
++ ___block_literal_global.7.14604
++ ___logger_block_invoke.12344
++ ___logger_block_invoke.14462
++ ___logger_block_invoke.14611
++ _classCALayer.13202
++ _classCATransaction.13219
++ _gCFArrayType.12266
++ _gCFBooleanType.12267
++ _gCFDataType.12268
++ _gCFDateType.12269
++ _gCFDictionaryType.12270
++ _gCFNumberType.12265
++ _gCFStringType.12271
++ _getCALayerClass.13183
++ _getCATransactionClass.13209
++ _initCALayer.13200
++ _initCATransaction.13217
++ _logger.12336
++ _logger.14379
++ _objc_msgSend$setWfaDiscoveryMode:
++ _sCUOSLogCreateOnce_logger.12339
++ _sCUOSLogCreateOnce_logger.14457
++ _sCUOSLogCreateOnce_logger.14603
++ _sCUOSLogHandle_logger.12341
++ _sCUOSLogHandle_logger.14459
++ _sCUOSLogHandle_logger.14605
+- GCC_except_table1039
+- GCC_except_table1392
+- GCC_except_table1427
+- GCC_except_table1432
+- GCC_except_table1436
+- GCC_except_table1509
+- GCC_except_table1541
+- GCC_except_table1544
+- GCC_except_table1550
+- GCC_except_table1555
+- GCC_except_table1558
+- GCC_except_table1607
+- GCC_except_table1645
+- GCC_except_table1676
+- GCC_except_table1699
+- GCC_except_table1701
+- GCC_except_table1705
+- GCC_except_table1717
+- GCC_except_table1719
+- GCC_except_table1731
+- GCC_except_table2363
+- GCC_except_table2384
+- GCC_except_table2422
+- GCC_except_table2497
+- GCC_except_table2521
+- GCC_except_table2555
+- GCC_except_table2559
+- GCC_except_table2622
+- GCC_except_table2625
+- GCC_except_table2628
+- GCC_except_table2633
+- GCC_except_table2636
+- GCC_except_table2639
+- GCC_except_table2642
+- GCC_except_table2645
+- GCC_except_table2652
+- GCC_except_table2655
+- GCC_except_table2724
+- GCC_except_table3042
+- GCC_except_table3131
+- GCC_except_table3153
+- GCC_except_table3187
+- GCC_except_table3191
+- GCC_except_table3235
+- GCC_except_table3238
+- GCC_except_table3241
+- GCC_except_table3538
+- GCC_except_table3954
+- GCC_except_table4204
+- GCC_except_table4259
+- GCC_except_table4266
+- GCC_except_table4274
+- GCC_except_table4426
+- GCC_except_table4430
+- GCC_except_table4432
+- GCC_except_table4434
+- GCC_except_table4457
+- GCC_except_table4541
+- GCC_except_table4546
+- GCC_except_table4548
+- GCC_except_table4550
+- GCC_except_table4552
+- GCC_except_table4556
+- GCC_except_table4558
+- GCC_except_table4570
+- GCC_except_table4577
+- GCC_except_table4579
+- GCC_except_table4582
+- GCC_except_table4586
+- GCC_except_table4598
+- GCC_except_table4600
+- GCC_except_table4604
+- GCC_except_table4612
+- GCC_except_table4626
+- GCC_except_table4630
+- GCC_except_table728
+- GCC_except_table821
+- GCC_except_table836
+- GCC_except_table838
+- GCC_except_table841
+- _CALayerFunction.13197
+- _CATransactionFunction.13214
+- _IOKitCopyParentOfClass
+- _IOObjectConformsTo
+- _IORegistryEntryGetParentEntry
+- _MobileCoreServicesLibrary.sLib.13606
+- _MobileCoreServicesLibrary.sOnce.13605
+- _QuartzCoreLibrary.sLib.13162
+- _QuartzCoreLibrary.sOnce.13160
+- _VideoToolboxLibrary.sLib.13169
+- _VideoToolboxLibrary.sOnce.13168
+- __NetTransportFinalize.11995
+- __NetTransportFinalize.12003
+- __NetTransportInitialize.11996
+- __NetTransportInitialize.12006
+- __NetTransportRead.11992
+- __NetTransportRead.12005
+- __NetTransportWriteV.11991
+- __NetTransportWriteV.12004
+- ___Block_byref_object_copy_.12550
+- ___Block_byref_object_dispose_.12551
+- ___MobileCoreServicesLibrary_block_invoke.13609
+- ___QuartzCoreLibrary_block_invoke.13166
+- ___VideoToolboxLibrary_block_invoke.13172
+- ___block_descriptor_tmp.14590
+- ___block_descriptor_tmp.22
+- ___block_descriptor_tmp.3.14606
+- ___block_literal_global.12331
+- ___block_literal_global.13161
+- ___block_literal_global.13525
+- ___block_literal_global.14449
+- ___block_literal_global.14593
+- ___block_literal_global.24
+- ___block_literal_global.7.14595
+- ___logger_block_invoke.12335
+- ___logger_block_invoke.14453
+- ___logger_block_invoke.14602
+- _classCALayer.13195
+- _classCATransaction.13212
+- _gCFArrayType.12257
+- _gCFBooleanType.12258
+- _gCFDataType.12259
+- _gCFDateType.12260
+- _gCFDictionaryType.12261
+- _gCFNumberType.12256
+- _gCFStringType.12262
+- _getCALayerClass.13176
+- _getCATransactionClass.13202
+- _initCALayer.13193
+- _initCATransaction.13210
+- _logger.12327
+- _logger.14372
+- _sCUOSLogCreateOnce_logger.12330
+- _sCUOSLogCreateOnce_logger.14448
+- _sCUOSLogCreateOnce_logger.14594
+- _sCUOSLogHandle_logger.12332
+- _sCUOSLogHandle_logger.14450
+- _sCUOSLogHandle_logger.14596
+CStrings:
+- "IOService"
+
+```
