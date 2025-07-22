@@ -1,0 +1,66 @@
+## SiriInferredHelpfulness
+
+> `/System/Library/PrivateFrameworks/SiriInferredHelpfulness.framework/SiriInferredHelpfulness`
+
+```diff
+
+   __TEXT.__text: 0x2930c
+   __TEXT.__auth_stubs: 0xf60
+   __TEXT.__const: 0x1280
+-  __TEXT.__cstring: 0x38bd
++  __TEXT.__cstring: 0x3bed
+   __TEXT.__swift5_typeref: 0x6d4
+   __TEXT.__constg_swiftt: 0xf28
+   __TEXT.__swift5_fieldmd: 0x624
+
+   __TEXT.__objc_methname: 0x7bd
+   __TEXT.__objc_methtype: 0x47
+   __DATA_CONST.__got: 0x158
+-  __DATA_CONST.__const: 0x1548
++  __DATA_CONST.__const: 0x1698
+   __DATA_CONST.__objc_classlist: 0x78
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x1180
+   __DATA_CONST.__objc_selrefs: 0x340
+   __AUTH_CONST.__const: 0xb98
+-  __AUTH_CONST.__cfstring: 0x1c60
++  __AUTH_CONST.__cfstring: 0x1f00
+   __AUTH_CONST.__auth_got: 0x7b0
+   __AUTH.__data: 0x1390
+   __AUTH.__objc_data: 0xf0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D7F0C880-FB4D-3787-A9AA-AF01FD6AB587
++  UUID: 53785BD7-66E3-30BC-84EA-C6EFC55F9092
+   Functions: 1096
+   Symbols:   3032
+-  CStrings:  710
++  CStrings:  752
+ 
+CStrings:
++ "FLOWSTATETYPE_DECOMPOSE_TASK_ENDED"
++ "FLOWSTATETYPE_DECOMPOSE_TASK_ENDED_WITH_ERROR"
++ "FLOWSTATETYPE_DECOMPOSE_TASK_STARTED"
++ "FLOWSTATETYPE_EXECUTE_PLAN_ENDED"
++ "FLOWSTATETYPE_EXECUTE_PLAN_ENDED_WITH_ERROR"
++ "FLOWSTATETYPE_EXECUTE_PLAN_STARTED"
++ "FLOWSTATETYPE_GENERATE_PLAN_ENDED"
++ "FLOWSTATETYPE_GENERATE_PLAN_ENDED_WITH_ERROR"
++ "FLOWSTATETYPE_GENERATE_PLAN_STARTED"
++ "FLOWSTATETYPE_GENERATE_PROMPT_ENDED"
++ "FLOWSTATETYPE_GENERATE_PROMPT_ENDED_WITH_ERROR"
++ "FLOWSTATETYPE_GENERATE_PROMPT_STARTED"
++ "FLOWSTATETYPE_PLANNER_TASK_COMPLETED"
++ "FLOWSTATETYPE_PREPARE_FOR_EXECUTION_ENDED"
++ "FLOWSTATETYPE_PREPARE_FOR_EXECUTION_ENDED_WITH_ERROR"
++ "FLOWSTATETYPE_PREPARE_FOR_EXECUTION_STARTED"
++ "FLOWSTATETYPE_RETRIEVE_TOOL_ENDED"
++ "FLOWSTATETYPE_RETRIEVE_TOOL_ENDED_WITH_ERROR"
++ "FLOWSTATETYPE_RETRIEVE_TOOL_STARTED"
++ "FLOWSTATETYPE_SUBTASK_COMPLETED"
++ "FLOWSTATETYPE_SYSTEM_TASK_COMPLETED"
+
+```

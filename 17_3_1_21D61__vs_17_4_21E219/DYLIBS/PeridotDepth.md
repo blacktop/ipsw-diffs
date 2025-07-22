@@ -1,0 +1,535 @@
+## PeridotDepth
+
+> `/System/Library/PrivateFrameworks/PeridotDepth.framework/PeridotDepth`
+
+```diff
+
+-28.0.0.0.0
+-  __TEXT.__text: 0x105438
+-  __TEXT.__auth_stubs: 0x17b0
+-  __TEXT.__objc_methlist: 0xff8
+-  __TEXT.__const: 0x17680
+-  __TEXT.__gcc_except_tab: 0x7040
+-  __TEXT.__cstring: 0x4010
++30.0.0.0.0
++  __TEXT.__text: 0x106464
++  __TEXT.__auth_stubs: 0x1790
++  __TEXT.__objc_methlist: 0x1004
++  __TEXT.__const: 0x17690
++  __TEXT.__gcc_except_tab: 0x6e70
++  __TEXT.__cstring: 0x42b8
+   __TEXT.__oslogstring: 0x1224
+-  __TEXT.__unwind_info: 0x1c20
++  __TEXT.__unwind_info: 0x1ac8
+   __TEXT.__eh_frame: 0x70
+   __TEXT.__objc_classname: 0x1e1
+-  __TEXT.__objc_methname: 0x48ec
++  __TEXT.__objc_methname: 0x4946
+   __TEXT.__objc_methtype: 0x57a4
+-  __TEXT.__objc_stubs: 0x1ea0
++  __TEXT.__objc_stubs: 0x1ec0
+   __DATA_CONST.__got: 0x2a0
+   __DATA_CONST.__const: 0x120
+   __DATA_CONST.__objc_classlist: 0xb0
+   __DATA_CONST.__objc_protolist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x23f8
+-  __DATA_CONST.__objc_selrefs: 0xc78
++  __DATA_CONST.__objc_const: 0x2428
++  __DATA_CONST.__objc_selrefs: 0xc80
++  __DATA_CONST.__objc_classrefs: 0x140
++  __DATA_CONST.__objc_superrefs: 0x70
+   __AUTH_CONST.__const: 0x3c8
+-  __AUTH_CONST.__cfstring: 0x2cc0
++  __AUTH_CONST.__cfstring: 0x2ce0
+   __AUTH_CONST.__objc_floatobj: 0x10
+   __AUTH_CONST.__objc_intobj: 0x90
+   __AUTH_CONST.__objc_const: 0x798
+-  __AUTH_CONST.__auth_got: 0xbd8
++  __AUTH_CONST.__auth_got: 0xbc8
+   __AUTH.__objc_data: 0x6e0
+   __AUTH.__const_weak: 0x120
+   __AUTH.__data: 0x8
+   __AUTH.__got_weak: 0x10
+-  __DATA.__got_weak: 0xa8
+-  __DATA.__objc_classrefs: 0x140
+-  __DATA.__objc_superrefs: 0x70
+-  __DATA.__objc_ivar: 0x270
+-  __DATA.__data: 0x12768
+-  __DATA.__common: 0x3
++  __DATA.__got_weak: 0xb0
++  __DATA.__objc_ivar: 0x274
++  __DATA.__data: 0x12770
++  __DATA.__common: 0x2
+   __DATA.__bss: 0x28aa14
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B7096E93-9294-3F6D-8D05-DC39EAA74E2E
+-  Functions: 1501
+-  Symbols:   3861
+-  CStrings:  2068
++  UUID: 697016BC-6D48-3C5D-9FF2-E382B58F5C26
++  Functions: 1500
++  Symbols:   3846
++  CStrings:  2092
+ 
+Symbols:
++ -[PDUserDefaults doubleBounceFlagOnly]
++ GCC_except_table1007
++ GCC_except_table1010
++ GCC_except_table1013
++ GCC_except_table1016
++ GCC_except_table1020
++ GCC_except_table1023
++ GCC_except_table1024
++ GCC_except_table1030
++ GCC_except_table1034
++ GCC_except_table1035
++ GCC_except_table1042
++ GCC_except_table1043
++ GCC_except_table1054
++ GCC_except_table1055
++ GCC_except_table109
++ GCC_except_table1111
++ GCC_except_table1116
++ GCC_except_table1119
++ GCC_except_table1122
++ GCC_except_table1123
++ GCC_except_table1131
++ GCC_except_table1137
++ GCC_except_table1138
++ GCC_except_table140
++ GCC_except_table144
++ GCC_except_table150
++ GCC_except_table153
++ GCC_except_table157
++ GCC_except_table43
++ GCC_except_table437
++ GCC_except_table475
++ GCC_except_table499
++ GCC_except_table506
++ GCC_except_table514
++ GCC_except_table515
++ GCC_except_table518
++ GCC_except_table526
++ GCC_except_table536
++ GCC_except_table542
++ GCC_except_table543
++ GCC_except_table558
++ GCC_except_table562
++ GCC_except_table563
++ GCC_except_table567
++ GCC_except_table572
++ GCC_except_table579
++ GCC_except_table62
++ GCC_except_table63
++ GCC_except_table640
++ GCC_except_table648
++ GCC_except_table649
++ GCC_except_table688
++ GCC_except_table689
++ GCC_except_table692
++ GCC_except_table71
++ GCC_except_table729
++ GCC_except_table730
++ GCC_except_table74
++ GCC_except_table740
++ GCC_except_table744
++ GCC_except_table745
++ GCC_except_table75
++ GCC_except_table757
++ GCC_except_table761
++ GCC_except_table762
++ GCC_except_table774
++ GCC_except_table775
++ GCC_except_table78
++ GCC_except_table782
++ GCC_except_table783
++ GCC_except_table786
++ GCC_except_table794
++ GCC_except_table795
++ GCC_except_table798
++ GCC_except_table803
++ GCC_except_table808
++ GCC_except_table809
++ GCC_except_table815
++ GCC_except_table82
++ GCC_except_table823
++ GCC_except_table826
++ GCC_except_table827
++ GCC_except_table835
++ GCC_except_table838
++ GCC_except_table847
++ GCC_except_table848
++ GCC_except_table862
++ GCC_except_table863
++ GCC_except_table867
++ GCC_except_table868
++ GCC_except_table878
++ GCC_except_table879
++ GCC_except_table882
++ GCC_except_table896
++ GCC_except_table897
++ GCC_except_table902
++ GCC_except_table910
++ GCC_except_table915
++ GCC_except_table926
++ GCC_except_table927
++ GCC_except_table935
++ GCC_except_table944
++ GCC_except_table948
++ GCC_except_table949
++ GCC_except_table95
++ GCC_except_table957
++ GCC_except_table958
++ GCC_except_table970
++ GCC_except_table977
++ GCC_except_table98
++ GCC_except_table982
++ GCC_except_table983
++ GCC_except_table993
++ GCC_except_table996
++ _OBJC_IVAR_$_PDUserDefaults._doubleBounceFlagOnly
++ _OUTLINED_FUNCTION_0
++ __ZN5coder10array_baseIaiLi1EE14ensureCapacityEi
++ __ZN5coder10array_baseIhiLi1EE14ensureCapacityEi
++ __ZN5coder10array_baseIhiLi2EE14ensureCapacityEi
++ __ZN7peridot17PeridotUserOutput14spotsFilteringEbPKfS2_S2_b
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorI12SpecsResultsNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorI6MatrixIdENS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN10ImageUtils4BlobENS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN10ImageUtils4BlobENS_9allocatorIS2_EEE20__throw_out_of_rangeB8ue170006Ev
++ __ZNKSt3__16vectorIN6common17PeridotSpotValuesI7CGPointEENS_9allocatorIS4_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN6common17PeridotSpotValuesIfEENS_9allocatorIS3_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN7peridot12ImgHistogramENS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN7peridot15PeridotDXPCalib11InputPriCfgENS_9allocatorIS3_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN7peridot17DoubleStaticArrayIfLi61ELi45EEENS_9allocatorIS3_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN7peridot20PeridotDepthSpotEchoENS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN7peridot20RefHistogramAllSpotsENS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorINS0_I12SpecsResultsNS_9allocatorIS1_EEEENS2_IS4_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorINS0_IN7peridot12ImgHistogramENS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorINS0_IN7peridot17DoubleStaticArrayIfLi61ELi45EEENS_9allocatorIS3_EEEENS4_IS6_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorINS0_ImNS_9allocatorImEEEENS1_IS3_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorINS_4pairIijEENS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorINS_4pairIjjEENS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIPN7peridot9HistogramENS_9allocatorIS3_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIPN7peridot9HistogramENS_9allocatorIS3_EEE20__throw_out_of_rangeB8ue170006Ev
++ __ZNKSt3__16vectorIPNS0_IN7peridot12ImgHistogramENS_9allocatorIS2_EEEENS3_IS6_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIbNS_9allocatorIbEEE20__throw_out_of_rangeB8ue170006Ev
++ __ZNKSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIdNS_9allocatorIdEEE20__throw_out_of_rangeB8ue170006Ev
++ __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_out_of_rangeB8ue170006Ev
++ __ZNKSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_out_of_rangeB8ue170006Ev
++ __ZNKSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ue170006Ev
++ __ZNSt12length_errorC1B8ue170006EPKc
++ __ZNSt12out_of_rangeC1B8ue170006EPKc
++ __ZNSt3__110unique_ptrINS_15__thread_structENS_14default_deleteIS1_EEED1B8ue170006Ev
++ __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEPFvPKdPdPFddEiES7_S8_SA_iEEENS3_ISD_EEED1B8ue170006Ev
++ __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEPFvPKdS7_PdPFdddEiES7_S7_S8_SA_iEEENS3_ISD_EEED1B8ue170006Ev
++ __ZNSt3__113__nth_elementB8ue170006INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPfEEEEvT1_S8_S8_T0_
++ __ZNSt3__113unordered_mapImN7peridot13ChannelsNamesENS_4hashImEENS_8equal_toImEENS_9allocatorINS_4pairIKmS2_EEEEED1B8ue170006Ev
++ __ZNSt3__114__thread_proxyB8ue170006INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEPFvPKdPdPFddEiES8_S9_SB_iEEEEEPvSF_
++ __ZNSt3__114__thread_proxyB8ue170006INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEPFvPKdS8_PdPFdddEiES8_S8_S9_SB_iEEEEEPvSF_
++ __ZNSt3__116__pad_and_outputB8ue170006IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ue170006Ev
++ __ZNSt3__119piecewise_constructE
++ __ZNSt3__120__throw_length_errorB8ue170006EPKc
++ __ZNSt3__120__throw_out_of_rangeB8ue170006EPKc
++ __ZNSt3__124__put_character_sequenceB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__127__tree_balance_after_insertB8ue170006IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN10ImageUtils4BlobEEEPS4_EEED1B8ue170006Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorIN7peridot20RefHistogramAllSpotsENS_9allocatorIS3_EEE16__destroy_vectorEED1B8ue170006Ev
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ue170006INS_9allocatorIN10ImageUtils4BlobEEEPS3_S5_S5_EET2_RT_T0_T1_S6_
++ __ZNSt3__14endlB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_
++ __ZNSt3__15dequeIN8TimeSync17TimestampedObjectINS1_5ImageEEENS_9allocatorIS4_EEED2B8ue170006Ev
++ __ZNSt3__15dequeIN8TimeSync17TimestampedObjectIU8__strongP18ADJasperPointCloudEENS_9allocatorIS6_EEED2B8ue170006Ev
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7peridot10DataBufferEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSL_IJEEEEEENS_4pairINS_15__tree_iteratorISA_PNS_11__tree_nodeISA_PvEElEEbEERKT_DpOT0_
++ __ZNSt3__16vectorI6MatrixIdENS_9allocatorIS2_EEEC2ERKS5_
++ __ZNSt3__16vectorI6MatrixIdENS_9allocatorIS2_EEEC2ERKS5_.cold.1
++ __ZNSt3__16vectorI6MatrixIdENS_9allocatorIS2_EEED1B8ue170006Ev
++ __ZNSt3__16vectorIN10ImageUtils4BlobENS_9allocatorIS2_EEEC2ERKS5_
++ __ZNSt3__16vectorIN10ImageUtils4BlobENS_9allocatorIS2_EEEC2ERKS5_.cold.1
++ __ZNSt3__16vectorIN10ImageUtils4BlobENS_9allocatorIS2_EEED1B8ue170006Ev
++ __ZNSt3__16vectorIN7peridot12ImgHistogramENS_9allocatorIS2_EEED1B8ue170006Ev
++ __ZNSt3__16vectorIN7peridot20RefHistogramAllSpotsENS_9allocatorIS2_EEED1B8ue170006Ev
++ __ZNSt3__16vectorINS0_IN7peridot12ImgHistogramENS_9allocatorIS2_EEEENS3_IS5_EEED1B8ue170006Ev
++ __ZNSt3__16vectorINS0_IN7peridot12RefHistogramENS_9allocatorIS2_EEEENS3_IS5_EEED1B8ue170006Ev
++ __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEED1B8ue170006Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEED1B8ue170006Ev
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEED1B8ue170006Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED1B8ue170006Ev
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEED1B8ue170006Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB8ue170006IPfS5_EEvT_T0_l
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB8ue170006INS_11__wrap_iterIPKfEES8_EENS5_IPfEES8_T_T0_l
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB8ue170006IPiS5_EEvT_T0_l
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE18__assign_with_sizeB8ue170006IPjS5_EEvT_T0_l
++ __ZNSt3__16vectorImNS_9allocatorImEEE18__assign_with_sizeB8ue170006IPmS5_EEvT_T0_l
++ __ZNSt3__16vectorImNS_9allocatorImEEE9push_backB8ue170006ERKm
++ __ZNSt3__1lsB8ue170006INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc
++ __ZSt28__throw_bad_array_new_lengthB8ue170006v
++ ___block_literal_global.958
++ _objc_msgSend$doubleBounceFlagOnly
+- GCC_except_table1011
+- GCC_except_table1014
+- GCC_except_table1015
+- GCC_except_table1018
+- GCC_except_table1022
+- GCC_except_table1025
+- GCC_except_table1026
+- GCC_except_table1032
+- GCC_except_table1036
+- GCC_except_table1037
+- GCC_except_table105
+- GCC_except_table1050
+- GCC_except_table1051
+- GCC_except_table1057
+- GCC_except_table1058
+- GCC_except_table1113
+- GCC_except_table1118
+- GCC_except_table1121
+- GCC_except_table1124
+- GCC_except_table1125
+- GCC_except_table113
+- GCC_except_table1133
+- GCC_except_table1139
+- GCC_except_table114
+- GCC_except_table1140
+- GCC_except_table115
+- GCC_except_table116
+- GCC_except_table117
+- GCC_except_table118
+- GCC_except_table119
+- GCC_except_table121
+- GCC_except_table123
+- GCC_except_table125
+- GCC_except_table127
+- GCC_except_table129
+- GCC_except_table130
+- GCC_except_table131
+- GCC_except_table132
+- GCC_except_table135
+- GCC_except_table136
+- GCC_except_table137
+- GCC_except_table139
+- GCC_except_table143
+- GCC_except_table147
+- GCC_except_table152
+- GCC_except_table155
+- GCC_except_table158
+- GCC_except_table38
+- GCC_except_table439
+- GCC_except_table477
+- GCC_except_table501
+- GCC_except_table508
+- GCC_except_table516
+- GCC_except_table517
+- GCC_except_table520
+- GCC_except_table528
+- GCC_except_table54
+- GCC_except_table540
+- GCC_except_table544
+- GCC_except_table545
+- GCC_except_table560
+- GCC_except_table564
+- GCC_except_table565
+- GCC_except_table57
+- GCC_except_table571
+- GCC_except_table574
+- GCC_except_table581
+- GCC_except_table642
+- GCC_except_table65
+- GCC_except_table650
+- GCC_except_table651
+- GCC_except_table690
+- GCC_except_table691
+- GCC_except_table694
+- GCC_except_table72
+- GCC_except_table73
+- GCC_except_table731
+- GCC_except_table734
+- GCC_except_table742
+- GCC_except_table751
+- GCC_except_table756
+- GCC_except_table759
+- GCC_except_table768
+- GCC_except_table769
+- GCC_except_table77
+- GCC_except_table777
+- GCC_except_table778
+- GCC_except_table784
+- GCC_except_table787
+- GCC_except_table792
+- GCC_except_table796
+- GCC_except_table80
+- GCC_except_table801
+- GCC_except_table802
+- GCC_except_table805
+- GCC_except_table81
+- GCC_except_table811
+- GCC_except_table812
+- GCC_except_table817
+- GCC_except_table825
+- GCC_except_table828
+- GCC_except_table829
+- GCC_except_table837
+- GCC_except_table840
+- GCC_except_table849
+- GCC_except_table850
+- GCC_except_table864
+- GCC_except_table865
+- GCC_except_table871
+- GCC_except_table876
+- GCC_except_table880
+- GCC_except_table883
+- GCC_except_table884
+- GCC_except_table90
+- GCC_except_table900
+- GCC_except_table901
+- GCC_except_table904
+- GCC_except_table916
+- GCC_except_table917
+- GCC_except_table928
+- GCC_except_table929
+- GCC_except_table937
+- GCC_except_table946
+- GCC_except_table953
+- GCC_except_table954
+- GCC_except_table959
+- GCC_except_table960
+- GCC_except_table97
+- GCC_except_table972
+- GCC_except_table979
+- GCC_except_table984
+- GCC_except_table985
+- GCC_except_table995
+- GCC_except_table998
+- __ZN7peridot17PeridotUserOutput14spotsFilteringEbPKfS2_S2_
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7peridot10DataBufferEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE4findIS7_EENS_21__tree_const_iteratorISA_PNS_11__tree_nodeISA_PvEElEERKT_
+- __ZNKSt3__16vectorI12SpecsResultsNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorI6MatrixIdENS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN10ImageUtils4BlobENS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN10ImageUtils4BlobENS_9allocatorIS2_EEE20__throw_out_of_rangeB7v160006Ev
+- __ZNKSt3__16vectorIN6common17PeridotSpotValuesI7CGPointEENS_9allocatorIS4_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN6common17PeridotSpotValuesIfEENS_9allocatorIS3_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN7peridot12ImgHistogramENS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN7peridot15PeridotDXPCalib11InputPriCfgENS_9allocatorIS3_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN7peridot17DoubleStaticArrayIfLi61ELi45EEENS_9allocatorIS3_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN7peridot20PeridotDepthSpotEchoENS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN7peridot20RefHistogramAllSpotsENS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorINS0_I12SpecsResultsNS_9allocatorIS1_EEEENS2_IS4_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorINS0_IN7peridot12ImgHistogramENS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorINS0_IN7peridot17DoubleStaticArrayIfLi61ELi45EEENS_9allocatorIS3_EEEENS4_IS6_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorINS0_ImNS_9allocatorImEEEENS1_IS3_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorINS_4pairIijEENS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorINS_4pairIjjEENS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIPN7peridot9HistogramENS_9allocatorIS3_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIPN7peridot9HistogramENS_9allocatorIS3_EEE20__throw_out_of_rangeB7v160006Ev
+- __ZNKSt3__16vectorIPNS0_IN7peridot12ImgHistogramENS_9allocatorIS2_EEEENS3_IS6_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIbNS_9allocatorIbEEE20__throw_out_of_rangeB7v160006Ev
+- __ZNKSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIdNS_9allocatorIdEEE20__throw_out_of_rangeB7v160006Ev
+- __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_out_of_rangeB7v160006Ev
+- __ZNKSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_out_of_rangeB7v160006Ev
+- __ZNKSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB7v160006Ev
+- __ZNSt12length_errorC1B7v160006EPKc
+- __ZNSt12out_of_rangeC1B7v160006EPKc
+- __ZNSt3__110unique_ptrINS_15__thread_structENS_14default_deleteIS1_EEED1B7v160006Ev
+- __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEPFvPKdPdPFddEiES7_S8_SA_iEEENS3_ISD_EEED1B7v160006Ev
+- __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEPFvPKdS7_PdPFdddEiES7_S7_S8_SA_iEEENS3_ISD_EEED1B7v160006Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_
+- __ZNSt3__113__nth_elementB7v160006INS_17_ClassicAlgPolicyERNS_6__lessIffEENS_11__wrap_iterIPfEEEEvT1_S8_S8_T0_
+- __ZNSt3__113unordered_mapImN7peridot13ChannelsNamesENS_4hashImEENS_8equal_toImEENS_9allocatorINS_4pairIKmS2_EEEEED1B7v160006Ev
+- __ZNSt3__114__thread_proxyB7v160006INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEPFvPKdPdPFddEiES8_S9_SB_iEEEEEPvSF_
+- __ZNSt3__114__thread_proxyB7v160006INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEPFvPKdS8_PdPFdddEiES8_S8_S9_SB_iEEEEEPvSF_
+- __ZNSt3__116__copy_unalignedB7v160006INS_6vectorIbNS_9allocatorIbEEEELb0EEENS_14__bit_iteratorIT_Lb0EXLi0EEEENS5_IS6_XT0_EXLi0EEEES8_S7_
+- __ZNSt3__116__pad_and_outputB7v160006IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B7v160006Ev
+- __ZNSt3__120__throw_length_errorB7v160006EPKc
+- __ZNSt3__120__throw_out_of_rangeB7v160006EPKc
+- __ZNSt3__124__put_character_sequenceB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__127__tree_balance_after_insertB7v160006IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN10ImageUtils4BlobEEEPS4_EEED1B7v160006Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorI6MatrixIdENS_9allocatorIS3_EEE16__destroy_vectorEED1B7v160006Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorIN7peridot20RefHistogramAllSpotsENS_9allocatorIS3_EEE16__destroy_vectorEED1B7v160006Ev
+- __ZNSt3__130__uninitialized_allocator_copyB7v160006INS_9allocatorIN10ImageUtils4BlobEEEPS3_S5_S5_EET2_RT_T0_T1_S6_
+- __ZNSt3__14endlB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_
+- __ZNSt3__15dequeIN8TimeSync17TimestampedObjectINS1_5ImageEEENS_9allocatorIS4_EEED2B7v160006Ev
+- __ZNSt3__15dequeIN8TimeSync17TimestampedObjectIU8__strongP18ADJasperPointCloudEENS_9allocatorIS6_EEED2B7v160006Ev
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7peridot10DataBufferEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISL_EERKT_
+- __ZNSt3__16vectorI6MatrixIdENS_9allocatorIS2_EEED1B7v160006Ev
+- __ZNSt3__16vectorIN10ImageUtils4BlobENS_9allocatorIS2_EEEC1ERKS5_
+- __ZNSt3__16vectorIN10ImageUtils4BlobENS_9allocatorIS2_EEEC1ERKS5_.cold.1
+- __ZNSt3__16vectorIN10ImageUtils4BlobENS_9allocatorIS2_EEED1B7v160006Ev
+- __ZNSt3__16vectorIN7peridot12ImgHistogramENS_9allocatorIS2_EEED1B7v160006Ev
+- __ZNSt3__16vectorIN7peridot20RefHistogramAllSpotsENS_9allocatorIS2_EEED1B7v160006Ev
+- __ZNSt3__16vectorINS0_IN7peridot12ImgHistogramENS_9allocatorIS2_EEEENS3_IS5_EEED1B7v160006Ev
+- __ZNSt3__16vectorINS0_IN7peridot12RefHistogramENS_9allocatorIS2_EEEENS3_IS5_EEED1B7v160006Ev
+- __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEED1B7v160006Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEED1B7v160006Ev
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEED1B7v160006Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED1B7v160006Ev
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEED1B7v160006Ev
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE18__construct_at_endINS_14__bit_iteratorIS3_Lb0ELm0EEEEENS_9enable_ifIXsr27__is_cpp17_forward_iteratorIT_EE5valueEvE4typeES8_S8_
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE6assignIPfLi0EEEvT_S6_
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE6insertINS_11__wrap_iterIPKfEELi0EEENS5_IPfEES8_T_SB_
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE6assignIPiLi0EEEvT_S6_
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE6assignIPjLi0EEEvT_S6_
+- __ZNSt3__16vectorImNS_9allocatorImEEE6assignIPmLi0EEEvT_S6_
+- __ZNSt3__16vectorImNS_9allocatorImEEE9push_backB7v160006ERKm
+- __ZNSt3__1L19piecewise_constructE
+- __ZNSt3__1L19piecewise_constructE.57
+- __ZNSt3__1L19piecewise_constructE.967
+- __ZNSt3__1lsB7v160006INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc
+- __ZSt28__throw_bad_array_new_lengthB7v160006v
+- ___block_literal_global.956
+- _objc_retain_x27
+CStrings:
++ "DoubleBounceFlagOnly"
++ "Error: global T0 is negative"
++ "T@\"NSString\",?,R,C"
++ "TB,R,V_doubleBounceFlagOnly"
++ "Warning: division by 0 (close_qs[%d] is 0)\n"
++ "Warning: division by 0 (close_tofs[%d] is 0)\n"
++ "Wrong Configuration: DTMmod_4LSB size"
++ "Wrong Configuration: LEDTailStart"
++ "Wrong Configuration: _HPFilter/_HSFilter size"
++ "Wrong Configuration: configuration failed for bank %d"
++ "Wrong Configuration: histEnd"
++ "Wrong Configuration: histEnd too large"
++ "Wrong Configuration: histEnd too small"
++ "Wrong Configuration: hp_pixel_idxs"
++ "Wrong Configuration: strayPeakUpdate"
++ "Wrong Configuration: strayRisingEdge"
++ "Wrong Temperature"
++ "Wrong configuration (DTMmod_4LSB size)"
++ "Wrong configuration: LEDTailYpriSize"
++ "Wrong input in LSB configuration"
++ "_doubleBounceFlagOnly"
++ "doubleBounceFlagOnly"
++ "doubleBounceFlagOnly: %d"
+
+```

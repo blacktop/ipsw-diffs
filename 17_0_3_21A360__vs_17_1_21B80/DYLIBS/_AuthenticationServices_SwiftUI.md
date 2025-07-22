@@ -1,0 +1,22 @@
+## _AuthenticationServices_SwiftUI
+
+> `/System/Library/Frameworks/_AuthenticationServices_SwiftUI.framework/_AuthenticationServices_SwiftUI`
+
+```diff
+
+-616.1.27.10.16
++616.2.9.10.10
+   __TEXT.__text: 0xc138
+   __TEXT.__auth_stubs: 0x9a0
+   __TEXT.__objc_methlist: 0x19c
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ADBA8797-4546-34D6-B577-56914EC9E405
++  UUID: FB18F12D-1D1C-30B0-98DF-A18FCF8709B9
+   Functions: 553
+   Symbols:   421
+   CStrings:  132
+
+```

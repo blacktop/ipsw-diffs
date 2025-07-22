@@ -1,0 +1,356 @@
+## GameControllerFoundation
+
+> `/System/Library/PrivateFrameworks/GameControllerFoundation.framework/GameControllerFoundation`
+
+```diff
+
+-11.0.24.0.0
+-  __TEXT.__text: 0x46f1c
++11.1.9.0.0
++  __TEXT.__text: 0x46f64
+   __TEXT.__auth_stubs: 0xe80
+   __TEXT.__objc_methlist: 0x4a0c
+   __TEXT.__const: 0x38
+-  __TEXT.__cstring: 0x5503
++  __TEXT.__cstring: 0x5571
+   __TEXT.__gcc_except_tab: 0x1c88
+   __TEXT.__oslogstring: 0x1bfa
+   __TEXT.__ustring: 0x58
+
+   __TEXT.__objc_methtype: 0x145c
+   __TEXT.__objc_stubs: 0x4340
+   __DATA_CONST.__got: 0xc8
+-  __DATA_CONST.__const: 0x1300
++  __DATA_CONST.__const: 0x1328
+   __DATA_CONST.__objc_classlist: 0x368
+   __DATA_CONST.__objc_catlist: 0x60
+   __DATA_CONST.__objc_protolist: 0xf0
+
+   __DATA_CONST.__objc_const: 0xbb60
+   __DATA_CONST.__objc_selrefs: 0x1660
+   __DATA_CONST.__objc_arraydata: 0x118
+-  __AUTH_CONST.__cfstring: 0x5d00
++  __AUTH_CONST.__cfstring: 0x5da0
+   __AUTH_CONST.__objc_const: 0x36c8
+   __AUTH_CONST.__objc_intobj: 0x210
+   __AUTH_CONST.__const: 0x4a8
+
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH_CONST.__auth_got: 0x758
+   __AUTH.__objc_data: 0x1950
+-  __AUTH.__data: 0xd40
++  __AUTH.__data: 0xdb8
+   __DATA.__objc_protorefs: 0x70
+   __DATA.__objc_classrefs: 0x378
+   __DATA.__objc_superrefs: 0x340
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B4E8C071-954B-3E1E-B172-43C0E0559445
++  UUID: FB0CC2E8-EE34-3875-A2B9-D6F0DE4381E4
+   Functions: 1812
+-  Symbols:   6791
+-  CStrings:  3376
++  Symbols:   6801
++  CStrings:  3386
+ 
+Symbols:
++ _.compoundliteral.103
++ _.compoundliteral.108
++ _.compoundliteral.113
++ _.compoundliteral.118
++ _.compoundliteral.123
++ _.compoundliteral.128
++ _.compoundliteral.133
++ _.compoundliteral.138
++ _.compoundliteral.143
++ _.compoundliteral.148
++ _.compoundliteral.153
++ _.compoundliteral.158
++ _.compoundliteral.163
++ _.compoundliteral.168
++ _.compoundliteral.173
++ _.compoundliteral.178
++ _.compoundliteral.18
++ _.compoundliteral.183
++ _.compoundliteral.188
++ _.compoundliteral.193
++ _.compoundliteral.198
++ _.compoundliteral.203
++ _.compoundliteral.208
++ _.compoundliteral.213
++ _.compoundliteral.218
++ _.compoundliteral.223
++ _.compoundliteral.228
++ _.compoundliteral.23
++ _.compoundliteral.233
++ _.compoundliteral.238
++ _.compoundliteral.243
++ _.compoundliteral.248
++ _.compoundliteral.253
++ _.compoundliteral.258
++ _.compoundliteral.263
++ _.compoundliteral.268
++ _.compoundliteral.273
++ _.compoundliteral.278
++ _.compoundliteral.28
++ _.compoundliteral.283
++ _.compoundliteral.288
++ _.compoundliteral.293
++ _.compoundliteral.298
++ _.compoundliteral.303
++ _.compoundliteral.308
++ _.compoundliteral.313
++ _.compoundliteral.318
++ _.compoundliteral.323
++ _.compoundliteral.328
++ _.compoundliteral.33
++ _.compoundliteral.333
++ _.compoundliteral.338
++ _.compoundliteral.343
++ _.compoundliteral.348
++ _.compoundliteral.353
++ _.compoundliteral.358
++ _.compoundliteral.363
++ _.compoundliteral.368
++ _.compoundliteral.373
++ _.compoundliteral.378
++ _.compoundliteral.38
++ _.compoundliteral.383
++ _.compoundliteral.388
++ _.compoundliteral.393
++ _.compoundliteral.398
++ _.compoundliteral.403
++ _.compoundliteral.408
++ _.compoundliteral.413
++ _.compoundliteral.418
++ _.compoundliteral.423
++ _.compoundliteral.428
++ _.compoundliteral.43
++ _.compoundliteral.433
++ _.compoundliteral.438
++ _.compoundliteral.443
++ _.compoundliteral.448
++ _.compoundliteral.453
++ _.compoundliteral.458
++ _.compoundliteral.463
++ _.compoundliteral.468
++ _.compoundliteral.473
++ _.compoundliteral.478
++ _.compoundliteral.48
++ _.compoundliteral.483
++ _.compoundliteral.488
++ _.compoundliteral.493
++ _.compoundliteral.498
++ _.compoundliteral.503
++ _.compoundliteral.508
++ _.compoundliteral.513
++ _.compoundliteral.518
++ _.compoundliteral.523
++ _.compoundliteral.528
++ _.compoundliteral.53
++ _.compoundliteral.533
++ _.compoundliteral.538
++ _.compoundliteral.543
++ _.compoundliteral.548
++ _.compoundliteral.553
++ _.compoundliteral.558
++ _.compoundliteral.563
++ _.compoundliteral.568
++ _.compoundliteral.573
++ _.compoundliteral.578
++ _.compoundliteral.58
++ _.compoundliteral.583
++ _.compoundliteral.588
++ _.compoundliteral.593
++ _.compoundliteral.598
++ _.compoundliteral.603
++ _.compoundliteral.608
++ _.compoundliteral.613
++ _.compoundliteral.618
++ _.compoundliteral.623
++ _.compoundliteral.628
++ _.compoundliteral.63
++ _.compoundliteral.633
++ _.compoundliteral.638
++ _.compoundliteral.643
++ _.compoundliteral.648
++ _.compoundliteral.653
++ _.compoundliteral.658
++ _.compoundliteral.663
++ _.compoundliteral.668
++ _.compoundliteral.673
++ _.compoundliteral.678
++ _.compoundliteral.68
++ _.compoundliteral.683
++ _.compoundliteral.688
++ _.compoundliteral.693
++ _.compoundliteral.698
++ _.compoundliteral.703
++ _.compoundliteral.708
++ _.compoundliteral.713
++ _.compoundliteral.718
++ _.compoundliteral.723
++ _.compoundliteral.728
++ _.compoundliteral.73
++ _.compoundliteral.733
++ _.compoundliteral.738
++ _.compoundliteral.78
++ _.compoundliteral.83
++ _.compoundliteral.88
++ _.compoundliteral.93
++ _.compoundliteral.98
++ _GCFLOC_SWITCH_N64_CONTROL_PAD
++ _GCFLOC_SWITCH_N64_C_BUTTONS
++ _GCFLOC_SWITCH_N64_START_BUTTON
++ _GCFLOC_SWITCH_N64_THUMBSTICK
++ _GCFLOC_SWITCH_N64_Z_BUTTON
+- _.compoundliteral.102
+- _.compoundliteral.107
+- _.compoundliteral.112
+- _.compoundliteral.117
+- _.compoundliteral.122
+- _.compoundliteral.127
+- _.compoundliteral.132
+- _.compoundliteral.137
+- _.compoundliteral.142
+- _.compoundliteral.147
+- _.compoundliteral.152
+- _.compoundliteral.157
+- _.compoundliteral.162
+- _.compoundliteral.167
+- _.compoundliteral.17
+- _.compoundliteral.172
+- _.compoundliteral.177
+- _.compoundliteral.182
+- _.compoundliteral.187
+- _.compoundliteral.192
+- _.compoundliteral.197
+- _.compoundliteral.202
+- _.compoundliteral.207
+- _.compoundliteral.212
+- _.compoundliteral.217
+- _.compoundliteral.22
+- _.compoundliteral.222
+- _.compoundliteral.227
+- _.compoundliteral.232
+- _.compoundliteral.237
+- _.compoundliteral.242
+- _.compoundliteral.247
+- _.compoundliteral.252
+- _.compoundliteral.257
+- _.compoundliteral.262
+- _.compoundliteral.267
+- _.compoundliteral.27
+- _.compoundliteral.272
+- _.compoundliteral.277
+- _.compoundliteral.282
+- _.compoundliteral.287
+- _.compoundliteral.292
+- _.compoundliteral.297
+- _.compoundliteral.302
+- _.compoundliteral.307
+- _.compoundliteral.312
+- _.compoundliteral.317
+- _.compoundliteral.32
+- _.compoundliteral.322
+- _.compoundliteral.327
+- _.compoundliteral.332
+- _.compoundliteral.337
+- _.compoundliteral.342
+- _.compoundliteral.347
+- _.compoundliteral.352
+- _.compoundliteral.357
+- _.compoundliteral.362
+- _.compoundliteral.367
+- _.compoundliteral.37
+- _.compoundliteral.372
+- _.compoundliteral.377
+- _.compoundliteral.382
+- _.compoundliteral.387
+- _.compoundliteral.392
+- _.compoundliteral.397
+- _.compoundliteral.402
+- _.compoundliteral.407
+- _.compoundliteral.412
+- _.compoundliteral.417
+- _.compoundliteral.42
+- _.compoundliteral.422
+- _.compoundliteral.427
+- _.compoundliteral.432
+- _.compoundliteral.437
+- _.compoundliteral.442
+- _.compoundliteral.447
+- _.compoundliteral.452
+- _.compoundliteral.457
+- _.compoundliteral.462
+- _.compoundliteral.467
+- _.compoundliteral.47
+- _.compoundliteral.472
+- _.compoundliteral.477
+- _.compoundliteral.482
+- _.compoundliteral.487
+- _.compoundliteral.492
+- _.compoundliteral.497
+- _.compoundliteral.502
+- _.compoundliteral.507
+- _.compoundliteral.512
+- _.compoundliteral.517
+- _.compoundliteral.52
+- _.compoundliteral.522
+- _.compoundliteral.527
+- _.compoundliteral.532
+- _.compoundliteral.537
+- _.compoundliteral.542
+- _.compoundliteral.547
+- _.compoundliteral.552
+- _.compoundliteral.557
+- _.compoundliteral.562
+- _.compoundliteral.567
+- _.compoundliteral.57
+- _.compoundliteral.572
+- _.compoundliteral.577
+- _.compoundliteral.582
+- _.compoundliteral.587
+- _.compoundliteral.592
+- _.compoundliteral.597
+- _.compoundliteral.602
+- _.compoundliteral.607
+- _.compoundliteral.612
+- _.compoundliteral.617
+- _.compoundliteral.62
+- _.compoundliteral.622
+- _.compoundliteral.627
+- _.compoundliteral.632
+- _.compoundliteral.637
+- _.compoundliteral.642
+- _.compoundliteral.647
+- _.compoundliteral.652
+- _.compoundliteral.657
+- _.compoundliteral.662
+- _.compoundliteral.667
+- _.compoundliteral.67
+- _.compoundliteral.672
+- _.compoundliteral.677
+- _.compoundliteral.682
+- _.compoundliteral.687
+- _.compoundliteral.692
+- _.compoundliteral.697
+- _.compoundliteral.702
+- _.compoundliteral.707
+- _.compoundliteral.712
+- _.compoundliteral.72
+- _.compoundliteral.77
+- _.compoundliteral.82
+- _.compoundliteral.87
+- _.compoundliteral.92
+- _.compoundliteral.97
+CStrings:
++ "SWITCH_N64_CONTROL_PAD"
++ "SWITCH_N64_C_BUTTONS"
++ "SWITCH_N64_START_BUTTON"
++ "SWITCH_N64_THUMBSTICK"
++ "SWITCH_N64_Z_BUTTON"
+
+```

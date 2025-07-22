@@ -1,0 +1,7342 @@
+## fileproviderd
+
+> `/System/Library/Frameworks/FileProvider.framework/Support/fileproviderd`
+
+```diff
+
+-1703.80.16.0.0
+-  __TEXT.__text: 0x8742a8
+-  __TEXT.__auth_stubs: 0x4ce0
+-  __TEXT.__objc_stubs: 0x1c40
+-  __TEXT.__objc_methlist: 0x13d0
+-  __TEXT.__const: 0x177fc
+-  __TEXT.__cstring: 0x3256e
+-  __TEXT.__objc_classname: 0x2e3
+-  __TEXT.__objc_methname: 0x883e
+-  __TEXT.__objc_methtype: 0x2869
+-  __TEXT.__oslogstring: 0xdd8
+-  __TEXT.__constg_swiftt: 0xd910
+-  __TEXT.__swift5_typeref: 0xd273
+-  __TEXT.__swift5_fieldmd: 0x7344
+-  __TEXT.__swift5_types: 0x784
+-  __TEXT.__ustring: 0x30
+-  __TEXT.__swift5_reflstr: 0x7d5e
+-  __TEXT.__swift5_capture: 0x11228
+-  __TEXT.__swift5_proto: 0x1110
+-  __TEXT.__gcc_except_tab: 0x424
+-  __TEXT.__swift5_builtin: 0x5b4
+-  __TEXT.__swift5_mpenum: 0xd4
+-  __TEXT.__swift5_protos: 0x68
+-  __TEXT.__swift5_assocty: 0x18e0
+-  __TEXT.__unwind_info: 0xf7e8
+-  __TEXT.__eh_frame: 0x1f028
+-  __DATA_CONST.__auth_got: 0x2680
+-  __DATA_CONST.__got: 0xd28
+-  __DATA_CONST.__auth_ptr: 0x428
+-  __DATA_CONST.__const: 0x3bc78
+-  __DATA_CONST.__cfstring: 0x820
+-  __DATA_CONST.__objc_classlist: 0x228
+-  __DATA_CONST.__objc_catlist: 0x50
+-  __DATA_CONST.__objc_protolist: 0x158
++1835.102.2.0.0
++  __TEXT.__text: 0x850
++  __TEXT.__auth_stubs: 0x2d0
++  __TEXT.__objc_stubs: 0x200
++  __TEXT.__objc_methlist: 0x44
++  __TEXT.__const: 0x66
++  __TEXT.__cstring: 0xe1
++  __TEXT.__objc_classname: 0x37
++  __TEXT.__objc_methname: 0x2aa
++  __TEXT.__objc_methtype: 0x102
++  __TEXT.__oslogstring: 0x1c1
++  __TEXT.__constg_swiftt: 0x38
++  __TEXT.__swift5_typeref: 0x14
++  __TEXT.__swift5_fieldmd: 0x10
++  __TEXT.__swift5_types: 0x4
++  __TEXT.__unwind_info: 0x7c
++  __DATA_CONST.__auth_got: 0x170
++  __DATA_CONST.__got: 0x8
++  __DATA_CONST.__const: 0x30
++  __DATA_CONST.__cfstring: 0xa0
++  __DATA_CONST.__objc_classlist: 0x10
++  __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_intobj: 0x18
+-  __DATA.__objc_const: 0xcf48
+-  __DATA.__objc_selrefs: 0x2150
+-  __DATA.__objc_protorefs: 0xa8
+-  __DATA.__objc_classrefs: 0x360
+-  __DATA.__objc_superrefs: 0x48
+-  __DATA.__objc_ivar: 0x118
+-  __DATA.__objc_data: 0x2758
+-  __DATA.__data: 0x12868
+-  __DATA.__common: 0x548
+-  __DATA.__bss: 0x215a0
++  __DATA_CONST.__objc_classrefs: 0x38
++  __DATA.__objc_const: 0x478
++  __DATA.__objc_selrefs: 0xa0
++  __DATA.__objc_ivar: 0x4
++  __DATA.__objc_data: 0x100
++  __DATA.__data: 0xe8
+   - /AppleInternal/Library/Frameworks/TapToRadarKit.framework/TapToRadarKit
+-  - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreServices.framework/CoreServices
+-  - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/FileProvider.framework/FileProvider
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/Network.framework/Network
+-  - /System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+   - /System/Library/PrivateFrameworks/APFS.framework/APFS
+   - /System/Library/PrivateFrameworks/CrashReporterSupport.framework/CrashReporterSupport
+-  - /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/DesktopServicesPriv
+   - /System/Library/PrivateFrameworks/FileProviderDaemon.framework/FileProviderDaemon
+   - /System/Library/PrivateFrameworks/FileProviderTelemetry.framework/FileProviderTelemetry
+   - /System/Library/PrivateFrameworks/GenerationalStorage.framework/GenerationalStorage
+-  - /System/Library/PrivateFrameworks/OSAnalytics.framework/OSAnalytics
+   - /System/Library/PrivateFrameworks/RTCReporting.framework/RTCReporting
+   - /System/Library/PrivateFrameworks/SpaceAttribution.framework/SpaceAttribution
+-  - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+-  - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprequelite.dylib
+-  - /usr/lib/libsqlite3.dylib
+-  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+-  - /usr/lib/swift/libswiftIntents.dylib
+-  - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+-  - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 08D6249A-A1EA-3C9E-81CE-7732D5BF7A10
+-  Functions: 27477
+-  Symbols:   1993
+-  CStrings:  5527
++  UUID: EC56611C-F757-35DA-8991-090EC3FC8208
++  Functions: 17
++  Symbols:   65
++  CStrings:  88
+ 
+Symbols:
++ _OBJC_CLASS_$_NSDate
++ _getFPCKTaskClass
++ _getFPDDomainFPFSBackendClass
++ _getFPDPurgerClass
++ _getFPFSSQLBackupManagerClass
++ _getFPFSSQLRestoreManagerClass
++ _sleep
+- _$s10Foundation10CocoaErrorV03_nsC0So7NSErrorCvg
+- _$s10Foundation10CocoaErrorV13userCancelledAC4CodeVvgZ
+- _$s10Foundation10CocoaErrorV14fileNoSuchFileAC4CodeVvgZ
+- _$s10Foundation10CocoaErrorV18featureUnsupportedAC4CodeVvgZ
+- _$s10Foundation10CocoaErrorV18fileReadNoSuchFileAC4CodeVvgZ
+- _$s10Foundation10CocoaErrorV19fileWriteFileExistsAC4CodeVvgZ
+- _$s10Foundation10CocoaErrorV19fileWriteOutOfSpaceAC4CodeVvgZ
+- _$s10Foundation10CocoaErrorV20fileReadNoPermissionAC4CodeVvgZ
+- _$s10Foundation10CocoaErrorV20xpcConnectionInvalidAC4CodeVvgZ
+- _$s10Foundation10CocoaErrorV4CodeV11fileLockingAEvgZ
+- _$s10Foundation10CocoaErrorV4CodeV13userCancelledAEvgZ
+- _$s10Foundation10CocoaErrorV4CodeV14fileNoSuchFileAEvgZ
+- _$s10Foundation10CocoaErrorV4CodeV15fileReadUnknownAEvgZ
+- _$s10Foundation10CocoaErrorV4CodeV16fileWriteUnknownAEvgZ
+- _$s10Foundation10CocoaErrorV4CodeV17coderInvalidValueAEvgZ
+- _$s10Foundation10CocoaErrorV4CodeV18featureUnsupportedAEvgZ
+- _$s10Foundation10CocoaErrorV4CodeV18fileReadNoSuchFileAEvgZ
+- _$s10Foundation10CocoaErrorV4CodeV19fileWriteFileExistsAEvgZ
+- _$s10Foundation10CocoaErrorV4CodeV20fileReadNoPermissionAEvgZ
+- _$s10Foundation10CocoaErrorV4CodeV21fileWriteNoPermissionAEvgZ
+- _$s10Foundation10CocoaErrorV4CodeV25ubiquitousFileUnavailableAEvgZ
+- _$s10Foundation10CocoaErrorV4CodeV8rawValueSivg
+- _$s10Foundation10CocoaErrorV4CodeVAA01_cD8ProtocolAAMc
+- _$s10Foundation10CocoaErrorV4CodeVMa
+- _$s10Foundation10CocoaErrorV5error_8userInfo3urls0C0_pAC4CodeV_SDys11AnyHashableVypGSgAA3URLVSgtFZ
+- _$s10Foundation10CocoaErrorVAA21_BridgedStoredNSErrorAAMc
+- _$s10Foundation10CocoaErrorVMa
+- _$s10Foundation10NSNotFoundSivg
+- _$s10Foundation10POSIXErrorV12ENAMETOOLONG6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV5EBUSY6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV5ENXIO6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV5EPERM6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV6EACCES6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV6EAGAIN6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV6EEXIST6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV6EINVAL6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV6EMLINK6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV6ENOENT6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV6ENOLCK6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV6ENOSPC6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV6ESTALE6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV7ENOATTR6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV7ENOTDIR6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV7ENOTSUP6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV8EALREADY6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorV8_nsErrorSo7NSErrorCvg
+- _$s10Foundation10POSIXErrorV9ENOTEMPTY6Darwin0B4CodeOvgZ
+- _$s10Foundation10POSIXErrorVAA21_BridgedStoredNSErrorAAMc
+- _$s10Foundation10POSIXErrorVMa
+- _$s10Foundation11FormatStylePA2A09ByteCountbC0VRszrlE04byteE05style12allowedUnits13spellsOutZero014includesActualdE0A2E0C0O_AE0I0VS2btFZ
+- _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
+- _$s10Foundation11JSONDecoderCACycfc
+- _$s10Foundation11JSONDecoderCMa
+- _$s10Foundation11JSONEncoderC6encodeyAA4DataVxKSERzlFTj
+- _$s10Foundation11JSONEncoderCACycfc
+- _$s10Foundation11JSONEncoderCMa
+- _$s10Foundation12CharacterSetV17controlCharactersACvgZ
+- _$s10Foundation12CharacterSetV8newlinesACvgZ
+- _$s10Foundation12CharacterSetVMa
+- _$s10Foundation13CustomNSErrorMp
+- _$s10Foundation13CustomNSErrorP11errorDomainSSvgZTq
+- _$s10Foundation13CustomNSErrorP13errorUserInfoSDySSypGvgTq
+- _$s10Foundation13CustomNSErrorP9errorCodeSivgTq
+- _$s10Foundation13CustomNSErrorPs5ErrorTb
+- _$s10Foundation13__DataStorageC5bytes6length4copy11deallocator6offsetACSvSg_SiSbySv_SitcSgSitcfc
+- _$s10Foundation13__DataStorageC5bytes6lengthACSVSg_Sitcfc
+- _$s10Foundation13__DataStorageC6_bytesSvSgvg
+- _$s10Foundation13__DataStorageC7_lengthSivg
+- _$s10Foundation13__DataStorageC7_offsetSivg
+- _$s10Foundation13__DataStorageC8capacityACSi_tcfc
+- _$s10Foundation13__DataStorageCMa
+- _$s10Foundation14DateComponentsV07isValidB0Sbvg
+- _$s10Foundation14DateComponentsV10nanosecondSiSgvs
+- _$s10Foundation14DateComponentsV4dateAA0B0VSgvg
+- _$s10Foundation14DateComponentsV4hourSiSgvs
+- _$s10Foundation14DateComponentsV6minuteSiSgvs
+- _$s10Foundation14DateComponentsV6secondSiSgvs
+- _$s10Foundation14DateComponentsVMa
+- _$s10Foundation14LocalizedErrorMp
+- _$s10Foundation14LocalizedErrorP10helpAnchorSSSgvgTq
+- _$s10Foundation14LocalizedErrorP13failureReasonSSSgvgTq
+- _$s10Foundation14LocalizedErrorP16errorDescriptionSSSgvgTq
+- _$s10Foundation14LocalizedErrorP18recoverySuggestionSSSgvgTq
+- _$s10Foundation14LocalizedErrorPAAE10helpAnchorSSSgvg
+- _$s10Foundation14LocalizedErrorPAAE13failureReasonSSSgvg
+- _$s10Foundation14LocalizedErrorPAAE18recoverySuggestionSSSgvg
+- _$s10Foundation14LocalizedErrorPs0C0Tb
+- _$s10Foundation15ContiguousBytesP010withUnsafeC0yqd__qd__SWKXEKlFTj
+- _$s10Foundation17URLResourceValuesV03allC0SDySo16NSURLResourceKeyaypGvg
+- _$s10Foundation17URLResourceValuesV11isDirectorySbSgvg
+- _$s10Foundation17URLResourceValuesV13canonicalPathSSSgvg
+- _$s10Foundation17URLResourceValuesV14typeIdentifierSSSgvg
+- _$s10Foundation17URLResourceValuesV18documentIdentifierSiSgvg
+- _$s10Foundation17URLResourceValuesV20isExcludedFromBackupSbSgvs
+- _$s10Foundation17URLResourceValuesV23contentModificationDateAA0F0VSgvg
+- _$s10Foundation17URLResourceValuesV32volumeSupportsCaseSensitiveNamesSbSgvg
+- _$s10Foundation17URLResourceValuesV8fileSizeSiSgvg
+- _$s10Foundation17URLResourceValuesVACycfC
+- _$s10Foundation17URLResourceValuesVMa
+- _$s10Foundation17URLResourceValuesVMn
+- _$s10Foundation18_ErrorCodeProtocolMp
+- _$s10Foundation18_ErrorCodeProtocolP01_B4TypeAC_AA21_BridgedStoredNSErrorTn
+- _$s10Foundation18_ErrorCodeProtocolPAAE2teoiySbx_s0B0_ptFZ
+- _$s10Foundation18_ErrorCodeProtocolPSQTb
+- _$s10Foundation19PropertyListDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
+- _$s10Foundation19PropertyListDecoderCACycfc
+- _$s10Foundation19PropertyListDecoderCMa
+- _$s10Foundation19PropertyListEncoderC12outputFormatSo010NSPropertycF0VvsTj
+- _$s10Foundation19PropertyListEncoderC6encodeyAA4DataVxKSERzlFTj
+- _$s10Foundation19PropertyListEncoderCACycfc
+- _$s10Foundation19PropertyListEncoderCMa
+- _$s10Foundation20ByteCountFormatStyleV0E0O6binaryyA2EmFWC
+- _$s10Foundation20ByteCountFormatStyleV0E0OMa
+- _$s10Foundation20ByteCountFormatStyleV5UnitsV3allAEvgZ
+- _$s10Foundation20ByteCountFormatStyleV5UnitsVMa
+- _$s10Foundation20ByteCountFormatStyleVAA0dE0AAMc
+- _$s10Foundation20ByteCountFormatStyleVMa
+- _$s10Foundation20PersonNameComponentsV19_bridgeToObjectiveCSo08NSPersoncD0CyF
+- _$s10Foundation20PersonNameComponentsV36_unconditionallyBridgeFromObjectiveCyACSo08NSPersoncD0CSgFZ
+- _$s10Foundation20PersonNameComponentsVMa
+- _$s10Foundation20PersonNameComponentsVMn
+- _$s10Foundation21NSKeyValueObservationCMn
+- _$s10Foundation21_BridgedStoredNSErrorMp
+- _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_8RawValueSYs17FixedWidthIntegerTn
+- _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_AA06_ErrorE8ProtocolTn
+- _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_SYTn
+- _$s10Foundation21_BridgedStoredNSErrorP8_nsErrorSo0D0CvgTq
+- _$s10Foundation21_BridgedStoredNSErrorP8_nsErrorxSo0D0C_tcfCTq
+- _$s10Foundation21_BridgedStoredNSErrorPAA06CustomD0Tb
+- _$s10Foundation21_BridgedStoredNSErrorPAA26_ObjectiveCBridgeableErrorTb
+- _$s10Foundation21_BridgedStoredNSErrorPAAE012_getEmbeddedD0yXlSgyF
+- _$s10Foundation21_BridgedStoredNSErrorPAAE08_bridgedD0xSgSo0D0C_tcfC
+- _$s10Foundation21_BridgedStoredNSErrorPAAE13errorUserInfoSDySSypGvg
+- _$s10Foundation21_BridgedStoredNSErrorPAAE2eeoiySbx_xtFZ
+- _$s10Foundation21_BridgedStoredNSErrorPAAE4code4CodeQzvg
+- _$s10Foundation21_BridgedStoredNSErrorPAAE4hash4intoys6HasherVz_tF
+- _$s10Foundation21_BridgedStoredNSErrorPAAE9errorCodeSivg
+- _$s10Foundation21_BridgedStoredNSErrorPAAE_8userInfox4CodeQz_SDySSypGtcfC
+- _$s10Foundation21_BridgedStoredNSErrorPSHTb
+- _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF
+- _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+- _$s10Foundation24FloatingPointFormatStyleV7PercentV6localeAEyx_GAA6LocaleV_tcfC
+- _$s10Foundation24FloatingPointFormatStyleV7PercentVMn
+- _$s10Foundation24FloatingPointFormatStyleV7PercentVyx_GAA0dE0AAMc
+- _$s10Foundation25NSFastEnumerationIteratorV4nextypSgyF
+- _$s10Foundation25NSFastEnumerationIteratorVMa
+- _$s10Foundation26_ObjectiveCBridgeableErrorMp
+- _$s10Foundation26_ObjectiveCBridgeableErrorP15_bridgedNSErrorxSgSo0F0Ch_tcfCTq
+- _$s10Foundation26_ObjectiveCBridgeableErrorPs0D0Tb
+- _$s10Foundation27_KeyValueCodingAndObservingPAAE7observe_7options13changeHandlerAA05NSKeyC11ObservationCs0B4PathCyxqd__G_So0kcF7OptionsVyx_AA0kC14ObservedChangeVyqd__GtctlF
+- _$s10Foundation37_KeyValueCodingAndObservingPublishingPAASo8NSObjectCRbzrlE9publisher3for7optionsAeAE0bcF9PublisherVy_xqd__Gs0B4PathCyxqd__G_So05NSKeycF7OptionsVtlF
+- _$s10Foundation3URLV06isFileB0Sbvg
+- _$s10Foundation3URLV11descriptionSSvg
+- _$s10Foundation3URLV12bookmarkData7options30includingResourceValuesForKeys10relativeToAA0D0VSo28NSURLBookmarkCreationOptionsV_ShySo16NSURLResourceKeyaGSgACSgtKF
+- _$s10Foundation3URLV13DirectoryHintO02isC0yA2EmFWC
+- _$s10Foundation3URLV13DirectoryHintO03notC0yA2EmFWC
+- _$s10Foundation3URLV13DirectoryHintO13inferFromPathyA2EmFWC
+- _$s10Foundation3URLV13DirectoryHintOMa
+- _$s10Foundation3URLV13pathExtensionSSvg
+- _$s10Foundation3URLV14resourceValues7forKeysAA011URLResourceD0VShySo16NSURLResourceKeyaG_tKF
+- _$s10Foundation3URLV15fileURLWithPath11isDirectoryACSSh_SbtcfC
+- _$s10Foundation3URLV15fileURLWithPathACSSh_tcfC
+- _$s10Foundation3URLV16desktopDirectoryACvgZ
+- _$s10Foundation3URLV17lastPathComponentSSvg
+- _$s10Foundation3URLV17setResourceValuesyyAA011URLResourceE0VKF
+- _$s10Foundation3URLV18documentsDirectoryACvgZ
+- _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
+- _$s10Foundation3URLV19appendPathComponentyySSF
+- _$s10Foundation3URLV21resolvingBookmarkData7options10relativeTo08bookmarkE7IsStaleAcA0E0Vh_So30NSURLBookmarkResolutionOptionsVACSghSbztKcfC
+- _$s10Foundation3URLV22appendingPathComponent_11isDirectoryACSS_SbtF
+- _$s10Foundation3URLV22appendingPathComponentyACSSF
+- _$s10Foundation3URLV22appendingPathExtensionyACSSF
+- _$s10Foundation3URLV25deletingLastPathComponentACyF
+- _$s10Foundation3URLV2eeoiySbAC_ACtFZ
+- _$s10Foundation3URLV34withUnsafeFileSystemRepresentationyxxSPys4Int8VGSgKXEKlF
+- _$s10Foundation3URLV35stopAccessingSecurityScopedResourceyyF
+- _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ
+- _$s10Foundation3URLV36startAccessingSecurityScopedResourceSbyF
+- _$s10Foundation3URLV4pathSSvg
+- _$s10Foundation3URLV8filePath13directoryHint10relativeToACSS_AC09DirectoryF0OACSgtcfC
+- _$s10Foundation3URLV9appending4path13directoryHintACx_AC09DirectoryF0OtSyRzlF
+- _$s10Foundation3URLVMa
+- _$s10Foundation3URLVMn
+- _$s10Foundation3URLVSEAAMc
+- _$s10Foundation3URLVSHAAMc
+- _$s10Foundation3URLVSQAAMc
+- _$s10Foundation3URLVSeAAMc
+- _$s10Foundation3URLVs23CustomStringConvertibleAAMc
+- _$s10Foundation4DataV10LargeSliceV21ensureUniqueReferenceyyF
+- _$s10Foundation4DataV11DeallocatorO12_deallocatoryySv_Sitcvg
+- _$s10Foundation4DataV11DeallocatorO4noneyA2EmFWC
+- _$s10Foundation4DataV11DeallocatorOMa
+- _$s10Foundation4DataV11InlineSliceV21ensureUniqueReferenceyyF
+- _$s10Foundation4DataV11descriptionSSvg
+- _$s10Foundation4DataV11referencingACSo6NSDataCh_tcfC
+- _$s10Foundation4DataV14RangeReferenceCMa
+- _$s10Foundation4DataV15_RepresentationO5countSivs
+- _$s10Foundation4DataV15_RepresentationO6append10contentsOfySW_tF
+- _$s10Foundation4DataV15_RepresentationON
+- _$s10Foundation4DataV15_RepresentationOyACSnySiGcig
+- _$s10Foundation4DataV15withUnsafeBytesyxxSWKXEKlF
+- _$s10Foundation4DataV16_copyBytesHelper2to4fromySv_SnySiGtF
+- _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
+- _$s10Foundation4DataV19base64EncodedString7optionsSSSo27NSDataBase64EncodingOptionsV_tF
+- _$s10Foundation4DataV26_forceBridgeFromObjectiveC_6resultySo6NSDataC_ACSgztFZ
+- _$s10Foundation4DataV34_conditionallyBridgeFromObjectiveC_6resultSbSo6NSDataC_ACSgztFZ
+- _$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ
+- _$s10Foundation4DataV4fromACs7Decoder_p_tKcfC
+- _$s10Foundation4DataV4hash4intoys6HasherVz_tF
+- _$s10Foundation4DataV5write2to7optionsyAA3URLV_So20NSDataWritingOptionsVtKF
+- _$s10Foundation4DataV6appendyyACF
+- _$s10Foundation4DataV6encode2toys7Encoder_p_tKF
+- _$s10Foundation4DataV7subdata2inACSnySiG_tF
+- _$s10Foundation4DataV9copyBytes2to5countySpys5UInt8VG_SitF
+- _$s10Foundation4DataV9hashValueSivg
+- _$s10Foundation4DataVAA0B8ProtocolAAMc
+- _$s10Foundation4DataVAA15ContiguousBytesAAWP
+- _$s10Foundation4DataVMn
+- _$s10Foundation4DataVN
+- _$s10Foundation4DataVSEAAMc
+- _$s10Foundation4DataVSHAAMc
+- _$s10Foundation4DataVSeAAMc
+- _$s10Foundation4DateV026timeIntervalSinceReferenceB0Sdvg
+- _$s10Foundation4DateV11descriptionSSvg
+- _$s10Foundation4DateV12timeInterval5sinceACSd_ACtcfC
+- _$s10Foundation4DateV17timeIntervalSinceySdACF
+- _$s10Foundation4DateV18addingTimeIntervalyACSdF
+- _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF
+- _$s10Foundation4DateV1loiySbAC_ACtFZ
+- _$s10Foundation4DateV20timeIntervalSinceNowSdvg
+- _$s10Foundation4DateV21timeIntervalSince1970ACSd_tcfC
+- _$s10Foundation4DateV21timeIntervalSince1970Sdvg
+- _$s10Foundation4DateV2eeoiySbAC_ACtFZ
+- _$s10Foundation4DateV36_unconditionallyBridgeFromObjectiveCyACSo6NSDateCSgFZ
+- _$s10Foundation4DateV3nowACvgZ
+- _$s10Foundation4DateV7compareySo18NSComparisonResultVACF
+- _$s10Foundation4DateVACycfC
+- _$s10Foundation4DateVMa
+- _$s10Foundation4DateVMn
+- _$s10Foundation4DateVSEAAMc
+- _$s10Foundation4DateVSLAAMc
+- _$s10Foundation4DateVSQAAMc
+- _$s10Foundation4DateVSeAAMc
+- _$s10Foundation4DateVs23CustomStringConvertibleAAMc
+- _$s10Foundation4UUIDV10uuidStringACSgSSh_tcfC
+- _$s10Foundation4UUIDV10uuidStringSSvg
+- _$s10Foundation4UUIDV11descriptionSSvg
+- _$s10Foundation4UUIDV19_bridgeToObjectiveCSo6NSUUIDCyF
+- _$s10Foundation4UUIDV2eeoiySbAC_ACtFZ
+- _$s10Foundation4UUIDV36_unconditionallyBridgeFromObjectiveCyACSo6NSUUIDCSgFZ
+- _$s10Foundation4UUIDV4uuidACs5UInt8V_A15Ft_tcfC
+- _$s10Foundation4UUIDV4uuids5UInt8V_A15Ftvg
+- _$s10Foundation4UUIDVACycfC
+- _$s10Foundation4UUIDVMa
+- _$s10Foundation4UUIDVMn
+- _$s10Foundation4UUIDVSEAAMc
+- _$s10Foundation4UUIDVSQAAMc
+- _$s10Foundation4UUIDVSeAAMc
+- _$s10Foundation4UUIDVs23CustomStringConvertibleAAMc
+- _$s10Foundation6LocaleV19autoupdatingCurrentACvgZ
+- _$s10Foundation6LocaleVMa
+- _$s10Foundation8CalendarV14dateComponents2in4fromAA04DateD0VAA8TimeZoneV_AA0G0VtF
+- _$s10Foundation8CalendarV7currentACvgZ
+- _$s10Foundation8CalendarVMa
+- _$s10Foundation8TimeZoneV7currentACvgZ
+- _$s10Foundation8TimeZoneVMa
+- _$s10Foundation8URLErrorVMa
+- _$s10ObjectiveC8ObjCBoolVMn
+- _$s10_ErrorType10Foundation01_A12CodeProtocolPTl
+- _$s11SubSequenceSlTl
+- _$s12CoreGraphics7CGFloatVMn
+- _$s15_ObjectiveCTypes01_A11CBridgeablePTl
+- _$s17StringLiteralTypes013ExpressibleByaB0PTl
+- _$s18IntegerLiteralTypes013ExpressibleByaB0PTl
+- _$s19ArrayLiteralElements013ExpressibleByaB0PTl
+- _$s22UniformTypeIdentifiers10UTTagClassV8rawValueACSS_tcfC
+- _$s22UniformTypeIdentifiers10UTTagClassVMa
+- _$s22UniformTypeIdentifiers6UTTypeV10identifierSSvg
+- _$s22UniformTypeIdentifiers6UTTypeV12symbolicLinkACvgZ
+- _$s22UniformTypeIdentifiers6UTTypeV17filenameExtension12conformingToACSgSS_ACtcfC
+- _$s22UniformTypeIdentifiers6UTTypeV19_bridgeToObjectiveCSoABCyF
+- _$s22UniformTypeIdentifiers6UTTypeV36_unconditionallyBridgeFromObjectiveCyACSoABCSgFZ
+- _$s22UniformTypeIdentifiers6UTTypeV3tag0E5Class12conformingToACSgSS_AA05UTTagF0VAGtcfC
+- _$s22UniformTypeIdentifiers6UTTypeV4dataACvgZ
+- _$s22UniformTypeIdentifiers6UTTypeV4itemACvgZ
+- _$s22UniformTypeIdentifiers6UTTypeV6folderACvgZ
+- _$s22UniformTypeIdentifiers6UTTypeV7packageACvgZ
+- _$s22UniformTypeIdentifiers6UTTypeV8conforms2toSbAC_tF
+- _$s22UniformTypeIdentifiers6UTTypeV9aliasFileACvgZ
+- _$s22UniformTypeIdentifiers6UTTypeV9directoryACvgZ
+- _$s22UniformTypeIdentifiers6UTTypeVMa
+- _$s22UniformTypeIdentifiers6UTTypeVMn
+- _$s24UnicodeScalarLiteralTypes013ExpressibleByabC0PTl
+- _$s2os0A9_signpost_3dso3log4name0B2ID__ySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VALs7CVarArg_pdtF
+- _$s2os0A9_signpost_3dso3log4name0B2IDySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VtF
+- _$s2os12OSSignpostIDV3logACSo03OS_a1_D0C_tcfC
+- _$s2os12OSSignpostIDV8rawValues6UInt64Vvg
+- _$s2os12OSSignpostIDVMa
+- _$s2os12OSSignpostIDVMn
+- _$s2os12OSSignposterV9logHandleSo03OS_a1_C0Cvg
+- _$s2os12OSSignposterV9subsystem8categoryACSS_SStcfC
+- _$s2os12OSSignposterVMa
+- _$s2os12OSSignposterVMn
+- _$s2os15OSSignpostErrorO9doubleEndyA2CmFWC
+- _$s2os15OSSignpostErrorOMa
+- _$s2os22OSLogIntegerFormattingV7decimalACvgZ
+- _$s2os23OSSignpostIntervalStateC10signpostIDAA0bF0Vvg
+- _$s2os23OSSignpostIntervalStateC2id6isOpenAcA0B2IDV_Sbtcfc
+- _$s2os23OSSignpostIntervalStateCMa
+- _$s2os23OSSignpostIntervalStateCMn
+- _$s2os28checkForErrorAndConsumeState5stateAA010OSSignpostD0OAA0i8IntervalG0C_tF
+- _$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg
+- _$s2os6LoggerVMa
+- _$s2os6LoggerVMn
+- _$s2os6LoggerVyACSo03OS_A4_logCcfC
+- _$s34ExtendedGraphemeClusterLiteralTypes013ExpressibleByabcD0PTl
+- _$s4Code10Foundation21_BridgedStoredNSErrorPTl
+- _$s5IndexSlTl
+- _$s6Darwin14POSIXErrorCodeO10Foundation06_ErrorC8ProtocolADMc
+- _$s6Darwin14POSIXErrorCodeO8rawValueACSgs5Int32V_tcfC
+- _$s6Darwin14POSIXErrorCodeO8rawValues5Int32Vvg
+- _$s6Darwin14POSIXErrorCodeOMn
+- _$s6Darwin14POSIXErrorCodeON
+- _$s6Darwin4openys5Int32VSPys4Int8VG_ADtF
+- _$s6Darwin5errnos5Int32Vvg
+- _$s6Darwin5errnos5Int32Vvs
+- _$s6Darwin5fcntlys5Int32VAD_A2DtF
+- _$s6Darwin6S_IFMTs6UInt16Vvg
+- _$s6Darwin7S_IFDIRs6UInt16Vvg
+- _$s6Darwin7S_IFLNKs6UInt16Vvg
+- _$s6Darwin7S_IRGRPs6UInt16Vvg
+- _$s6Darwin7S_IROTHs6UInt16Vvg
+- _$s6Darwin7S_IRUSRs6UInt16Vvg
+- _$s6Darwin7S_IWUSRs6UInt16Vvg
+- _$s6Darwin7S_IXGRPs6UInt16Vvg
+- _$s6Darwin7S_IXOTHs6UInt16Vvg
+- _$s6Darwin7S_IXUSRs6UInt16Vvg
+- _$s6StrideSxTl
+- _$s7Combine10PublishersO0A6LatestVMn
+- _$s7Combine10PublishersO0A6LatestVy_xq_GAA9PublisherAAMc
+- _$s7Combine10PublishersO3MapVMn
+- _$s7Combine10PublishersO3MapVy_xq_GAA9PublisherAAMc
+- _$s7Combine10PublishersO8DebounceVMn
+- _$s7Combine10PublishersO8DebounceVy_xq_GAA9PublisherAAMc
+- _$s7Combine10PublishersO8ThrottleVMn
+- _$s7Combine10PublishersO8ThrottleVy_xq_GAA9PublisherAAMc
+- _$s7Combine14AnyCancellableC6cancelyyF
+- _$s7Combine14AnyCancellableCMn
+- _$s7Combine9PublishedV12initialValueACyxGx_tcfC
+- _$s7Combine9PublishedV14projectedValueAC9PublisherVyx_Gvg
+- _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluiMZ
+- _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluigZ
+- _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluisZ
+- _$s7Combine9PublishedV9PublisherVMn
+- _$s7Combine9PublishedV9PublisherVyx_GAadAMc
+- _$s7Combine9PublishedVMa
+- _$s7Combine9PublishedVMn
+- _$s7Combine9PublisherPAAE13combineLatestyAA10PublishersO0aD0Vy_xqd__Gqd__AaBRd__7FailureQyd__AJRtzlF
+- _$s7Combine9PublisherPAAE3mapyAA10PublishersO3MapVy_xqd__Gqd__6OutputQzclF
+- _$s7Combine9PublisherPAAE8debounce3for9scheduler7optionsAA10PublishersO8DebounceVy_xqd__G17SchedulerTimeType_6StrideQYd___qd__0I7OptionsQyd__SgtAA0I0Rd__lF
+- _$s7Combine9PublisherPAAE8throttle3for9scheduler6latestAA10PublishersO8ThrottleVy_xqd__G17SchedulerTimeType_6StrideQYd___qd__SbtAA0I0Rd__lF
+- _$s7Combine9PublisherPAAs5NeverO7FailureRtzrlE4sink12receiveValueAA14AnyCancellableCy6OutputQzc_tF
+- _$s7Combine9PublisherPAAs5NeverO7FailureRtzrlE6assign2to2onAA14AnyCancellableCs24ReferenceWritableKeyPathCyqd__6OutputQzG_qd__tlF
+- _$s7ElementSTTl
+- _$s7ElementStTl
+- _$s7Elements10SetAlgebraPTl
+- _$s7IndicesSlTl
+- _$s7Network11NWInterfaceV13InterfaceTypeO13wiredEthernetyA2EmFWC
+- _$s7Network11NWInterfaceV13InterfaceTypeO4wifiyA2EmFWC
+- _$s7Network11NWInterfaceV13InterfaceTypeO8cellularyA2EmFWC
+- _$s7Network11NWInterfaceV13InterfaceTypeOMa
+- _$s7Network13NWPathMonitorC11currentPathAA0B0Vvg
+- _$s7Network13NWPathMonitorC17pathUpdateHandleryAA0B0VcSgvs
+- _$s7Network13NWPathMonitorC5start5queueySo012OS_dispatch_E0C_tF
+- _$s7Network13NWPathMonitorCACycfc
+- _$s7Network13NWPathMonitorCMa
+- _$s7Network13NWPathMonitorCMn
+- _$s7Network6NWPathV17usesInterfaceTypeySbAA11NWInterfaceV0dE0OF
+- _$s7Network6NWPathVMa
+- _$s8AllCasess12CaseIterablePTl
+- _$s8Dispatch0A12TimeIntervalO11nanosecondsyACSicACmFWC
+- _$s8Dispatch0A12TimeIntervalO12millisecondsyACSicACmFWC
+- _$s8Dispatch0A12TimeIntervalO5neveryA2CmFWC
+- _$s8Dispatch0A12TimeIntervalO7secondsyACSicACmFWC
+- _$s8Dispatch0A12TimeIntervalOMa
+- _$s8Dispatch0A12TimeIntervalOMn
+- _$s8Dispatch0A13WorkItemFlagsVMa
+- _$s8Dispatch0A13WorkItemFlagsVMn
+- _$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc
+- _$s8Dispatch0A3QoSV0B6SClassO7utilityyA2EmFWC
+- _$s8Dispatch0A3QoSV0B6SClassO8rawValueAESgSo11qos_class_ta_tcfC
+- _$s8Dispatch0A3QoSV0B6SClassO8rawValueSo11qos_class_tavg
+- _$s8Dispatch0A3QoSV0B6SClassOMa
+- _$s8Dispatch0A3QoSV0B6SClassOMn
+- _$s8Dispatch0A3QoSV10backgroundACvgZ
+- _$s8Dispatch0A3QoSV11unspecifiedACvgZ
+- _$s8Dispatch0A3QoSV7defaultACvgZ
+- _$s8Dispatch0A3QoSV7utilityACvgZ
+- _$s8Dispatch0A3QoSV8qosClass16relativePriorityA2C0B6SClassO_SitcfC
+- _$s8Dispatch0A3QoSV8qosClassAC0B6SClassOvg
+- _$s8Dispatch0A3QoSVMa
+- _$s8Dispatch0A3QoSVMn
+- _$s8Dispatch0A3QoSVSQAAMc
+- _$s8Dispatch0A4TimeV17uptimeNanosecondsACs6UInt64V_tcfC
+- _$s8Dispatch0A4TimeV1loiySbAC_ACtFZ
+- _$s8Dispatch0A4TimeV3nowACyFZ
+- _$s8Dispatch0A4TimeV8advanced2byAcA0aB8IntervalO_tF
+- _$s8Dispatch0A4TimeVMa
+- _$s8Dispatch0A4TimeVMn
+- _$s8Dispatch0A9PredicateO10notOnQueueyACSo17OS_dispatch_queueCcACmFWC
+- _$s8Dispatch0A9PredicateO7onQueueyACSo17OS_dispatch_queueCcACmFWC
+- _$s8Dispatch0A9PredicateOMa
+- _$s8Dispatch1poiyAA0A4TimeVAD_AA0aB8IntervalOtF
+- _$s8Dispatch25_dispatchPreconditionTestySbAA0A9PredicateOF
+- _$s8Elementss20LazySequenceProtocolPTl
+- _$s8IteratorSTTl
+- _$s8RawValueSYTl
+- _$s9CryptoKit12HashFunctionP6update13bufferPointerySW_tFTj
+- _$s9CryptoKit12HashFunctionP8finalize6DigestQzyFTj
+- _$s9CryptoKit12HashFunctionPxycfCTj
+- _$s9CryptoKit12SHA256DigestVMa
+- _$s9CryptoKit12SHA256DigestVMn
+- _$s9CryptoKit12SHA256DigestVSTAAMc
+- _$s9CryptoKit12SymmetricKeyV15withUnsafeBytesyxxSWKXEKlF
+- _$s9CryptoKit12SymmetricKeyV4dataACx_tc10Foundation15ContiguousBytesRzlufC
+- _$s9CryptoKit12SymmetricKeyV4sizeAcA0cD4SizeV_tcfC
+- _$s9CryptoKit12SymmetricKeyVMa
+- _$s9CryptoKit12SymmetricKeyVMn
+- _$s9CryptoKit16SymmetricKeySizeV7bits256ACvgZ
+- _$s9CryptoKit16SymmetricKeySizeVMa
+- _$s9CryptoKit24HashedAuthenticationCodeVMn
+- _$s9CryptoKit24HashedAuthenticationCodeVyxG10Foundation15ContiguousBytesAAMc
+- _$s9CryptoKit4HMACV18authenticationCode3for5usingAA020HashedAuthenticationE0VyxGqd___AA12SymmetricKeyVt10Foundation12DataProtocolRd__lFZ
+- _$s9CryptoKit4HMACV25isValidAuthenticationCode_14authenticating5usingSbqd___qd_0_AA12SymmetricKeyVt10Foundation15ContiguousBytesRd__AI12DataProtocolRd_0_r0_lFZ
+- _$s9CryptoKit6SHA256V8finalizeAA0C6DigestVyF
+- _$s9CryptoKit6SHA256VAA12HashFunctionAAMc
+- _$s9CryptoKit6SHA256VACycfC
+- _$s9CryptoKit6SHA256VMa
+- _$s9CryptoKit6SHA256VMn
+- _$sBbWV
+- _$sBi16_WV
+- _$sBi32_WV
+- _$sBi64_WV
+- _$sBi8_WV
+- _$sBoWV
+- _$sS2Dyxq_GycfC
+- _$sS2ayxGycfC
+- _$sSB10FoundationE9formattedy12FormatOutputQyd__qd__0C5InputQyd__RszAA0C5StyleRd__lF
+- _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
+- _$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ
+- _$sSD11descriptionSSvg
+- _$sSD11removeValue6forKeyq_Sgx_tF
+- _$sSD15minimumCapacitySDyxq_GSi_tcfC
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC
+- _$sSD4KeysVMa
+- _$sSD4KeysVMn
+- _$sSD4KeysVyxq__GSTsMc
+- _$sSD5IndexV8_VariantOMn
+- _$sSD5countSivg
+- _$sSD6ValuesVMa
+- _$sSD6ValuesVMn
+- _$sSD6ValuesVyxq__GSTsMc
+- _$sSD6ValuesVyxq__GSlsMc
+- _$sSD6filterySDyxq_GSbx3key_q_5valuet_tKXEKF
+- _$sSD7isEmptySbvg
+- _$sSD8_VariantVMa
+- _$sSD8_VariantVyq_SgxciM
+- _$sSDMa
+- _$sSDyq_SgxciM
+- _$sSDyq_Sgxcig
+- _$sSDyq_Sgxcis
+- _$sSDyxq_GSEsSERzSER_rlMc
+- _$sSDyxq_GSTsMc
+- _$sSDyxq_GSesSeRzSeR_rlMc
+- _$sSDyxq_GSlsMc
+- _$sSE6encode2toys7Encoder_p_tKFTq
+- _$sSEMp
+- _$sSH13_rawHashValue4seedS2i_tFTj
+- _$sSH13_rawHashValue4seedS2i_tFTq
+- _$sSH4hash4intoys6HasherVz_tFTj
+- _$sSH4hash4intoys6HasherVz_tFTq
+- _$sSH9hashValueSivgTj
+- _$sSH9hashValueSivgTq
+- _$sSHMp
+- _$sSHSQTb
+- _$sSIyxGSKsSKRzrlMc
+- _$sSIyxGSlsMc
+- _$sSJ5write2toyxz_ts16TextOutputStreamRzlF
+- _$sSK11SubSequenceSl_SKTn
+- _$sSK5index6before5IndexQzAD_tFTq
+- _$sSK5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
+- _$sSK5index_8offsetBy5IndexQzAD_SitFTq
+- _$sSK7IndicesSl_SKTn
+- _$sSK8distance4from2toSi5IndexQz_AEtFTq
+- _$sSK9formIndex6beforey0B0Qzz_tFTq
+- _$sSKMp
+- _$sSKSlTb
+- _$sSKsE10difference4from2bys20CollectionDifferenceVy7ElementQzGqd___SbAG_AGtXEtSKRd__AFQyd__AGRSlF
+- _$sSKsE5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF
+- _$sSKsE5index_8offsetBy5IndexQzAD_SitF
+- _$sSKsE8distance4from2toSi5IndexQz_AEtF
+- _$sSKsSS7ElementRtzrlE6joined9separatorS2S_tF
+- _$sSL1goiySbx_xtFZTq
+- _$sSL1loiySbx_xtFZTj
+- _$sSL1loiySbx_xtFZTq
+- _$sSL2geoiySbx_xtFZTq
+- _$sSL2leoiySbx_xtFZTj
+- _$sSL2leoiySbx_xtFZTq
+- _$sSLMp
+- _$sSLSQTb
+- _$sSLsE1goiySbx_xtFZ
+- _$sSLsE2geoiySbx_xtFZ
+- _$sSLsE2leoiySbx_xtFZ
+- _$sSMsEy11SubSequenceQzqd__cSXRd__5BoundQyd__5IndexRtzluig
+- _$sSMsSKRzrlE9partition2by5IndexSlQzSb7ElementSTQzKXE_tKF
+- _$sSMsSkRzSL7ElementSTRpzrlE4sortyyF
+- _$sSNMa
+- _$sSON
+- _$sSOSHsWP
+- _$sSQ2eeoiySbx_xtFZTj
+- _$sSQ2eeoiySbx_xtFZTq
+- _$sSQMp
+- _$sSS10FoundationE10utf8StringSSSgSPys4Int8VG_tcfC
+- _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+- _$sSS10FoundationE26_forceBridgeFromObjectiveC_6resultySo8NSStringC_SSSgztFZ
+- _$sSS10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo8NSStringC_SSSgztFZ
+- _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
+- _$sSS10FoundationE4data8encodingSSSgAA4DataVh_SSAAE8EncodingVtcfC
+- _$sSS10FoundationE7cString8encodingSSSgSPys4Int8VG_SSAAE8EncodingVtcfC
+- _$sSS10FoundationE8EncodingV4utf8ACvgZ
+- _$sSS10FoundationE8EncodingV5asciiACvgZ
+- _$sSS10FoundationE8EncodingVMa
+- _$sSS10describingSSx_tclufC
+- _$sSS10lowercasedSSyF
+- _$sSS10reflectingSSx_tclufC
+- _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
+- _$sSS11withCStringyxxSPys4Int8VGKXEKlF
+- _$sSS14_fromSubstringySSSshFZ
+- _$sSS14removeSubrangeyySnySS5IndexVGF
+- _$sSS18_uncheckedFromUTF8ySSSRys5UInt8VGFZ
+- _$sSS4fromSSs7Decoder_p_tKcfC
+- _$sSS4hash4intoys6HasherVz_tF
+- _$sSS5IndexVMn
+- _$sSS5countSivg
+- _$sSS5index5afterSS5IndexVAD_tF
+- _$sSS5index6beforeSS5IndexVAD_tF
+- _$sSS5index_8offsetBy07limitedC0SS5IndexVSgAE_SiAEtF
+- _$sSS5index_8offsetBySS5IndexVAD_SitF
+- _$sSS6append10contentsOfyx_tSTRzSJ7ElementRtzlF
+- _$sSS6appendyySSF
+- _$sSS6encode2toys7Encoder_p_tKF
+- _$sSS7cStringSSSPys4Int8VG_tcfC
+- _$sSS8IteratorV4nextSJSgyF
+- _$sSS8UTF8ViewV13_foreignCountSiyF
+- _$sSS8UTF8ViewV13_foreignIndex5afterSS0D0VAF_tF
+- _$sSS8UTF8ViewV13_foreignIndex_8offsetBySS0D0VAF_SitF
+- _$sSS8UTF8ViewV16_foreignDistance4from2toSiSS5IndexV_AGtF
+- _$sSS8UTF8ViewV17_foreignSubscript8positions5UInt8VSS5IndexV_tF
+- _$sSS9UTF16ViewV5index_8offsetBySS5IndexVAF_SitF
+- _$sSS9hasPrefixySbSSF
+- _$sSS9hasSuffixySbSSF
+- _$sSS9hashValueSivg
+- _$sSS9repeating5countS2S_SitcfC
+- _$sSSN
+- _$sSSSEsWP
+- _$sSSSHsWP
+- _$sSSSQsWP
+- _$sSSSTsWP
+- _$sSSSesWP
+- _$sSSSysMc
+- _$sSS_5radix9uppercaseSSx_SiSbtcSzRzlufC
+- _$sSSs25LosslessStringConvertiblesWP
+- _$sSSs34_ExpressibleByBuiltinStringLiteralsWP
+- _$sSSs41_ExpressibleByBuiltinUnicodeScalarLiteralsWP
+- _$sSSs51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralsWP
+- _$sSSs7CVarArg10FoundationMc
+- _$sSSySJSS5IndexVcig
+- _$sSSySSxcs25LosslessStringConvertibleRzSTRzSJ7ElementSTRtzlufC
+- _$sSSySsSnySS5IndexVGcig
+- _$sST12makeIterator0B0QzyFTj
+- _$sST12makeIterator0B0QzyFTq
+- _$sST13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tFTq
+- _$sST19underestimatedCountSivgTq
+- _$sST22_copyToContiguousArrays0cD0Vy7ElementQzGyFTq
+- _$sST31_customContainsEquatableElementySbSg0D0QzFTq
+- _$sST32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFTq
+- _$sST8IteratorST_StTn
+- _$sSTMp
+- _$sSTTL
+- _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlF
+- _$sSTsE13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tF
+- _$sSTsE32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlF
+- _$sSTsE3mapySayqd__Gqd__7ElementQzKXEKlF
+- _$sSTsE3max2by7ElementQzSgSbAD_ADtKXE_tKF
+- _$sSTsE4lazys12LazySequenceVyxGvg
+- _$sSTsE7forEachyyy7ElementQzKXEKF
+- _$sSTsE8contains5whereS2b7ElementQzKXE_tKF
+- _$sSTsSQ7ElementRpzrlE8containsySbABF
+- _$sSTsSy7ElementRpzrlE6joined9separatorS2S_tF
+- _$sSW10Foundation12DataProtocolAAMc
+- _$sSW10Foundation15ContiguousBytesAAWP
+- _$sSWN
+- _$sSY8rawValue03RawB0QzvgTj
+- _$sSY8rawValue03RawB0QzvgTq
+- _$sSY8rawValuexSg03RawB0Qz_tcfCTj
+- _$sSY8rawValuexSg03RawB0Qz_tcfCTq
+- _$sSYMp
+- _$sSYTL
+- _$sSYsSERzSS8RawValueSYRtzrlE6encode2toys7Encoder_p_tKF
+- _$sSYsSERzSi8RawValueSYRtzrlE6encode2toys7Encoder_p_tKF
+- _$sSYsSERzs5Int32V8RawValueSYRtzrlE6encode2toys7Encoder_p_tKF
+- _$sSYsSERzs6UInt64V8RawValueSYRtzrlE6encode2toys7Encoder_p_tKF
+- _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg
+- _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF
+- _$sSYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF
+- _$sSYsSeRzSS8RawValueSYRtzrlE4fromxs7Decoder_p_tKcfC
+- _$sSYsSeRzSi8RawValueSYRtzrlE4fromxs7Decoder_p_tKcfC
+- _$sSYsSeRzs5Int32V8RawValueSYRtzrlE4fromxs7Decoder_p_tKcfC
+- _$sSYsSeRzs6UInt64V8RawValueSYRtzrlE4fromxs7Decoder_p_tKcfC
+- _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFyXl_Ts5
+- _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
+- _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+- _$sSa11descriptionSSvg
+- _$sSa12_endMutationyyFyXl_Ts5
+- _$sSa15_checkSubscript_20wasNativeTypeCheckeds16_DependenceTokenVSi_SbtF
+- _$sSa16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyXl_Ts5
+- _$sSa1poiySayxGAB_ABtFZ
+- _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ
+- _$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ
+- _$sSa29_hoistableIsNativeTypeCheckedSbyF
+- _$sSa2peoiyySayxGz_ABtFZ
+- _$sSa37_appendElementAssumeUniqueAndCapacity_03newB0ySi_xntFyXl_Ts5
+- _$sSa5countSivg
+- _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF
+- _$sSa6appendyyxnF
+- _$sSa6remove2atxSi_tF
+- _$sSa8endIndexSivg
+- _$sSa9_getCountSiyF
+- _$sSaMa
+- _$sSasSHRzlE4hash4intoys6HasherVz_tF
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ
+- _$sSaySayxGqd__c7ElementQyd__RszSTRd__lufC
+- _$sSays10ArraySliceVyxGSnySiGcig
+- _$sSayxG10Foundation15ContiguousBytesABs5UInt8VRszlMc
+- _$sSayxGSEsSERzlMc
+- _$sSayxGSKsMc
+- _$sSayxGSMsMc
+- _$sSayxGSTsMc
+- _$sSayxGSesSeRzlMc
+- _$sSayxGSksMc
+- _$sSayxGSlsMc
+- _$sSayxGSmsMc
+- _$sSayxGs14_ArrayProtocolsMc
+- _$sSayxGs23CustomStringConvertiblesMc
+- _$sSayxSicig
+- _$sSb10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
+- _$sSbN
+- _$sSbSEsWP
+- _$sSbSesWP
+- _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
+- _$sScC6resume8throwingyq_n_tF
+- _$sScC6resume9returningyxn_tF
+- _$sScP8rawValues5UInt8Vvg
+- _$sScPMa
+- _$sSd11descriptionSSvg
+- _$sSd14_roundSlowPathyys25FloatingPointRoundingRuleOF
+- _$sSd5write2toyxz_ts16TextOutputStreamRzlF
+- _$sSdN
+- _$sSdSBsMc
+- _$sSe4fromxs7Decoder_p_tKcfCTq
+- _$sSeMp
+- _$sSh10FoundationE19_bridgeToObjectiveCSo5NSSetCyF
+- _$sSh10FoundationE36_unconditionallyBridgeFromObjectiveCyShyxGSo5NSSetCSgFZ
+- _$sSh11descriptionSSvg
+- _$sSh15minimumCapacityShyxGSi_tcfC
+- _$sSh5countSivg
+- _$sSh6insertySb8inserted_x17memberAfterInserttxnF
+- _$sSh6removeyxSgxF
+- _$sSh6update4withxSgxn_tF
+- _$sSh8IteratorV6_cocoaAByx_Gs10__CocoaSetVAACn_tcfC
+- _$sSh8containsySbxF
+- _$sSh9formUnionyyqd__n7ElementQyd__RszSTRd__lF
+- _$sShMa
+- _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufC
+- _$sShyxGSTsMc
+- _$sSi10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
+- _$sSi4fromSis7Decoder_p_tKcfC
+- _$sSi6encode2toys7Encoder_p_tKF
+- _$sSiN
+- _$sSiSEsWP
+- _$sSiSHsWP
+- _$sSiSLsWP
+- _$sSiSQsWP
+- _$sSiSzsMc
+- _$sSis13SignedNumericsWP
+- _$sSis17FixedWidthIntegersMc
+- _$sSis23CustomStringConvertiblesWP
+- _$sSis35_ExpressibleByBuiltinIntegerLiteralsWP
+- _$sSis7CVarArgsWP
+- _$sSl10startIndex0B0QzvgTj
+- _$sSl10startIndex0B0QzvgTq
+- _$sSl11SubSequenceSl_SlTn
+- _$sSl20_failEarlyRangeCheck_6boundsy5IndexQz_SNyADGtFTq
+- _$sSl20_failEarlyRangeCheck_6boundsy5IndexQz_SnyADGtFTq
+- _$sSl20_failEarlyRangeCheck_6boundsySny5IndexQzG_AEtFTq
+- _$sSl30_customIndexOfEquatableElementy0B0QzSgSg0E0QzFTq
+- _$sSl34_customLastIndexOfEquatableElementy0C0QzSgSg0F0QzFTq
+- _$sSl5IndexSl_SLTn
+- _$sSl5countSivgTq
+- _$sSl5index5after5IndexQzAD_tFTq
+- _$sSl5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
+- _$sSl5index_8offsetBy5IndexQzAD_SitFTq
+- _$sSl7IndicesSl_SlTn
+- _$sSl7indices7IndicesQzvgTq
+- _$sSl7isEmptySbvgTq
+- _$sSl8distance4from2toSi5IndexQz_AEtFTq
+- _$sSl8endIndex0B0QzvgTj
+- _$sSl8endIndex0B0QzvgTq
+- _$sSl9formIndex5aftery0B0Qzz_tFTj
+- _$sSl9formIndex5aftery0B0Qzz_tFTq
+- _$sSlMp
+- _$sSlSTTb
+- _$sSlTL
+- _$sSlsE19underestimatedCountSivg
+- _$sSlsE3mapySayqd__Gqd__7ElementQzKXEKlF
+- _$sSlsE5countSivg
+- _$sSlsE5first7ElementQzSgvg
+- _$sSlsE7isEmptySbvg
+- _$sSlsSIyxG7IndicesRtzrlE7indicesAAvg
+- _$sSlss5SliceVyxG11SubSequenceRtzrlEyACSny5IndexQzGcig
+- _$sSly11SubSequenceQzSny5IndexQzGcigTq
+- _$sSly7ElementQz5IndexQzcirTj
+- _$sSly7ElementQz5IndexQzcirTq
+- _$sSmsE2peoiyyxz_qd__tSTRd__7ElementQyd__ABRtzlFZ
+- _$sSmsSKRzrlE7popLast7ElementSTQzSgyF
+- _$sSmsSMRzrlE9removeAll5whereySb7ElementSTQzKXE_tKF
+- _$sSnMa
+- _$sSo10CFErrorRefas5Error10FoundationMc
+- _$sSo10NSProgressC10FoundationE14fileTotalCountSiSgvg
+- _$sSo10NSProgressC10FoundationE14fileTotalCountSiSgvs
+- _$sSo10NSProgressC10FoundationE18fileCompletedCountSiSgvg
+- _$sSo10NSProgressC10FoundationE18fileCompletedCountSiSgvs
+- _$sSo12NSEnumeratorC10FoundationE12makeIteratorAC017NSFastEnumerationD0VyF
+- _$sSo13NSFileManagerC10FoundationE10enumerator2at26includingPropertiesForKeys7options12errorHandlerSo21NSDirectoryEnumeratorCSgAC3URLV_SaySo16NSURLResourceKeyaGSgSo0M18EnumerationOptionsVSbAM_s5Error_ptcSgtF
+- _$sSo13os_log_type_ta0A0E4infoABvgZ
+- _$sSo13os_log_type_ta0A0E5debugABvgZ
+- _$sSo13os_log_type_ta0A0E5errorABvgZ
+- _$sSo13os_log_type_ta0A0E5faultABvgZ
+- _$sSo13os_log_type_ta0A0E7defaultABvgZ
+- _$sSo17OS_dispatch_groupC8DispatchE4waityyF
+- _$sSo17OS_dispatch_groupC8DispatchE6notify3qos5flags5queue7executeyAC0D3QoSV_AC0D13WorkItemFlagsVSo0a1_b1_H0CyyXBtF
+- _$sSo17OS_dispatch_queueC7Combine9Scheduler8DispatchMc
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMn
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVs10SetAlgebraACMc
+- _$sSo17OS_dispatch_queueC8DispatchE10asyncAfter8deadline3qos5flags7executeyAC0D4TimeV_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
+- _$sSo17OS_dispatch_queueC8DispatchE16SchedulerOptionsVMa
+- _$sSo17OS_dispatch_queueC8DispatchE16SchedulerOptionsVMn
+- _$sSo17OS_dispatch_queueC8DispatchE17SchedulerTimeTypeV6StrideV12millisecondsyAGSiFZ
+- _$sSo17OS_dispatch_queueC8DispatchE17SchedulerTimeTypeV6StrideV7secondsyAGSiFZ
+- _$sSo17OS_dispatch_queueC8DispatchE17SchedulerTimeTypeV6StrideVMa
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO8workItemyA2EmFWC
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
+- _$sSo17OS_dispatch_queueC8DispatchE4sync7executexxyKXE_tKlF
+- _$sSo17OS_dispatch_queueC8DispatchE5async5group3qos5flags7executeySo0a1_b1_F0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
+- _$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC
+- _$sSo17OS_dispatch_queueC8DispatchE5labelSSvg
+- _$sSo18OS_dispatch_sourceC8DispatchE10TimerFlagsVMa
+- _$sSo18OS_dispatch_sourceC8DispatchE10TimerFlagsVMn
+- _$sSo18OS_dispatch_sourceC8DispatchE10TimerFlagsVs10SetAlgebraACMc
+- _$sSo18OS_dispatch_sourceC8DispatchE15makeTimerSource5flags5queueSo0a1_b1_C6_timer_pAbCE0F5FlagsV_So0a1_b1_I0CSgtFZ
+- _$sSo18OS_dispatch_sourceC8DispatchE20makeUserDataOrSource5queueSo0a1_b1_C8_data_or_pSo0a1_b1_J0CSg_tFZ
+- _$sSo18OS_dispatch_sourceP8DispatchE15setEventHandler3qos5flags7handleryAC0D3QoSV_AC0D13WorkItemFlagsVyyXBSgtF
+- _$sSo18OS_dispatch_sourceP8DispatchE6cancelyyF
+- _$sSo18OS_dispatch_sourceP8DispatchE6resumeyyF
+- _$sSo18OS_dispatch_sourceP8DispatchE7suspendyyF
+- _$sSo18OS_dispatch_sourceP8DispatchE8activateyyF
+- _$sSo18os_signpost_type_ta0A0E3endABvgZ
+- _$sSo18os_signpost_type_ta0A0E5beginABvgZ
+- _$sSo18os_signpost_type_ta0A0E5eventABvgZ
+- _$sSo21OS_dispatch_semaphoreC8DispatchE4waityyF
+- _$sSo21OS_dispatch_semaphoreC8DispatchE6signalSiyF
+- _$sSo24OS_dispatch_source_timerP8DispatchE8schedule8deadline9repeating6leewayyAC0E4TimeV_AC0eJ8IntervalOAKtF
+- _$sSo24OS_dispatch_source_timerP8DispatchE8schedule8deadline9repeating6leewayyAC0E4TimeV_SdAC0eJ8IntervalOtF
+- _$sSo26OS_dispatch_source_data_orP8DispatchE0E00D0ySu_tF
+- _$sSo7NSErrorCs5Error10FoundationMc
+- _$sSo8NSNumberC10FoundationE14integerLiteralABSi_tcfC
+- _$sSo8NSObjectC10Foundation27_KeyValueCodingAndObservingACWP
+- _$sSo8NSObjectC10FoundationE26KeyValueObservingPublisherVMn
+- _$sSo8NSObjectC10FoundationE26KeyValueObservingPublisherVy_xq_G7Combine0F0ACMc
+- _$sSo8NSObjectC10ObjectiveCE13_rawHashValue4seedS2i_tF
+- _$sSo8NSObjectC10ObjectiveCE2eeoiySbAB_ABtFZ
+- _$sSo8NSObjectC10ObjectiveCE4hash4intoys6HasherVz_tF
+- _$sSo8NSObjectC10ObjectiveCE9hashValueSivg
+- _$sSo8NSObjectCSH10ObjectiveCMc
+- _$sSo8NSObjectCs23CustomStringConvertible10FoundationMc
+- _$sSo8NSStringC10FoundationE13stringLiteralABs12StaticStringV_tcfC
+- _$sSo9OS_os_logC0B0E16signpostsEnabledSbvg
+- _$sSo9OS_os_logC0B0E9subsystem8categoryABSS_SStcfC
+- _$sSq3mapyqd__Sgqd__xKXEKlF
+- _$sSqMa
+- _$sSqMn
+- _$sSqsSHRzlE4hash4intoys6HasherVz_tF
+- _$sSsN
+- _$sSsSTsMc
+- _$sSss25LosslessStringConvertiblesWP
+- _$sSt4next7ElementQzSgyFTj
+- _$sSt4next7ElementQzSgyFTq
+- _$sStMp
+- _$sSuN
+- _$sSuSzsMc
+- _$sSus23CustomStringConvertiblesWP
+- _$sSvN
+- _$sSx5_step5after4from2bySiSg5index_x5valuetAeF_xAGt_x6StrideQztFZTq
+- _$sSx6StrideSx_SLTn
+- _$sSx6StrideSx_s13SignedNumericTn
+- _$sSx8advanced2byx6StrideQz_tFTq
+- _$sSx8distance2to6StrideQzx_tFTq
+- _$sSxMp
+- _$sSxSLTb
+- _$sSy10FoundationE10components11separatedBySaySSGqd___tSyRd__lF
+- _$sSy10FoundationE13lengthOfBytes5usingSiSSAAE8EncodingV_tF
+- _$sSy10FoundationE16rangeOfCharacter4from7options0B0SnySS5IndexVGSgAA0D3SetV_So22NSStringCompareOptionsVAItF
+- _$sSy10FoundationE20replacingOccurrences2of4with7options5rangeSSqd___qd_0_So22NSStringCompareOptionsVSnySS5IndexVGSgtSyRd__SyRd_0_r0_lF
+- _$sSy10FoundationE22caseInsensitiveCompareySo18NSComparisonResultVqd__SyRd__lF
+- _$sSy10FoundationE4data5using20allowLossyConversionAA4DataVSgSSAAE8EncodingV_SbtF
+- _$sSy10FoundationE5write2to10atomically8encodingyAA3URLV_SbSSAAE8EncodingVtKF
+- _$sSz10FoundationE9formattedy12FormatOutputQyd__qd__AA0C5StyleRd__Sz0C5InputRpd__lF
+- _$sSz18truncatingIfNeededxqd___tcSzRd__lufCTj
+- _$sSz20trailingZeroBitCountSivgTj
+- _$sSz2lloiyxx_qd__tSzRd__lFZTj
+- _$sSz8_lowWordSuvgTj
+- _$sSz8bitWidthSivgTj
+- _$sSz8isSignedSbvgZTj
+- _$sSzMp
+- _$sSzsE11descriptionSSvg
+- _$ss018_bridgeAnyObjectToB0yypyXlSgF
+- _$ss10ArraySliceV10startIndexSivg
+- _$ss10ArraySliceV29_hoistableIsNativeTypeCheckedSbyF
+- _$ss10ArraySliceV5countSivg
+- _$ss10ArraySliceV8endIndexSivg
+- _$ss10ArraySliceVMa
+- _$ss10ArraySliceVMn
+- _$ss10ArraySliceVyxGSTsMc
+- _$ss10ArraySliceVyxGSlsMc
+- _$ss10SetAlgebraMp
+- _$ss10SetAlgebraP10isDisjoint4withSbx_tFTq
+- _$ss10SetAlgebraP10isSuperset2ofSbx_tFTq
+- _$ss10SetAlgebraP11subtractingyxxFTq
+- _$ss10SetAlgebraP12intersectionyxxFTq
+- _$ss10SetAlgebraP16formIntersectionyyxFTq
+- _$ss10SetAlgebraP19symmetricDifferenceyxxnFTq
+- _$ss10SetAlgebraP23formSymmetricDifferenceyyxnFTq
+- _$ss10SetAlgebraP5unionyxxnFTq
+- _$ss10SetAlgebraP6insertySb8inserted_7ElementQz17memberAfterInserttAFnFTq
+- _$ss10SetAlgebraP6removey7ElementQzSgAEFTj
+- _$ss10SetAlgebraP6removey7ElementQzSgAEFTq
+- _$ss10SetAlgebraP6update4with7ElementQzSgAFn_tFTq
+- _$ss10SetAlgebraP7isEmptySbvgTj
+- _$ss10SetAlgebraP7isEmptySbvgTq
+- _$ss10SetAlgebraP8containsySb7ElementQzFTq
+- _$ss10SetAlgebraP8isSubset2ofSbx_tFTq
+- _$ss10SetAlgebraP8subtractyyxFTq
+- _$ss10SetAlgebraP9formUnionyyxnFTq
+- _$ss10SetAlgebraPSQTb
+- _$ss10SetAlgebraPs25ExpressibleByArrayLiteralTb
+- _$ss10SetAlgebraPsEyxqd__ncSTRd__7ElementQyd__ACRtzlufC
+- _$ss10SetAlgebraPxycfCTq
+- _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
+- _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTq
+- _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
+- _$ss10_HashTableV14occupiedBucket5afterAB0D0VAF_tF
+- _$ss10_HashTableV8nextHole9atOrAfterAB6BucketVAF_tF
+- _$ss10__CocoaSetV12makeIteratorAB0D0CyF
+- _$ss10__CocoaSetV5countSivg
+- _$ss10__CocoaSetV6member3foryXlSgyXl_tF
+- _$ss10__CocoaSetV8IteratorC4nextyXlSgyF
+- _$ss10__CocoaSetV8containsySbyXlF
+- _$ss11AnyHashableV10FoundationE19_bridgeToObjectiveCSo8NSObjectCyF
+- _$ss11AnyHashableV11descriptionSSvg
+- _$ss11AnyHashableV13_rawHashValue4seedS2i_tF
+- _$ss11AnyHashableV2eeoiySbAB_ABtFZ
+- _$ss11AnyHashableVMn
+- _$ss11AnyHashableVN
+- _$ss11AnyHashableVSHsWP
+- _$ss11AnyHashableVyABxcSHRzlufC
+- _$ss11AnyIteratorV4nextxSgyF
+- _$ss11AnySequenceVMa
+- _$ss11AnySequenceVyAByxGqd__c7ElementQyd__RszSTRd__lufC
+- _$ss11AnySequenceVyxGSTsMc
+- _$ss11_MergeErrorON
+- _$ss11_MergeErrorOs0B0sWP
+- _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
+- _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
+- _$ss11_SetStorageC7convert_8capacityAByxGs07__CocoaA0V_SitFZ
+- _$ss11_SetStorageC8allocate8capacityAByxGSi_tFZ
+- _$ss11_SetStorageCMa
+- _$ss11_SetStorageCMn
+- _$ss11_StringGutsV16_slowWithCStringyxxSPys4Int8VGKXEKlF
+- _$ss11_StringGutsV4growyySiF
+- _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
+- _$ss11_StringGutsVN
+- _$ss12CaseIterableMp
+- _$ss12CaseIterableP8AllCasesAB_SlTn
+- _$ss12CaseIterableP8allCases03AllD0QzvgZTj
+- _$ss12CaseIterableP8allCases03AllD0QzvgZTq
+- _$ss12LazySequenceVMa
+- _$ss12LazySequenceVMn
+- _$ss12LazySequenceVyxGSlsSlRzrlMc
+- _$ss12LazySequenceVyxGs0aB8ProtocolsMc
+- _$ss12StaticStringV11descriptionSSvg
+- _$ss12StaticStringVMn
+- _$ss12_ArrayBufferV18_typeCheckSlowPathyySiF
+- _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiF
+- _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Ts5
+- _$ss12_SequenceBoxCMn
+- _$ss12_SliceBufferV8endIndexSivg
+- _$ss13DecodingErrorO013dataCorruptedB06forKey2in16debugDescriptionAB0F0Qz_xSSts05KeyedA17ContainerProtocolRzlFZ
+- _$ss13DecodingErrorO12typeMismatchyABypXp_AB7ContextVtcABmFWC
+- _$ss13DecodingErrorO7ContextV10codingPath16debugDescription010underlyingB0ADSays9CodingKey_pG_SSs0B0_pSgtcfC
+- _$ss13DecodingErrorO7ContextVMa
+- _$ss13DecodingErrorO7ContextVMn
+- _$ss13DecodingErrorOMa
+- _$ss13DecodingErrorOs0B0sWP
+- _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
+- _$ss14PrefixSequenceVMn
+- _$ss14_ArrayProtocolPsE6filterySay7ElementQzGSbAEKXEKF
+- _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyFyXl_Ts5
+- _$ss15ContiguousArrayV12_endMutationyyFyXl_Ts5
+- _$ss15ContiguousArrayV15reserveCapacityyySiFyXl_Ts5
+- _$ss15ContiguousArrayV36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFyXl_Ts5
+- _$ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntFyXl_Ts5
+- _$ss15FlattenSequenceVMa
+- _$ss15FlattenSequenceVyxGSTsMc
+- _$ss15FlattenSequenceVyxGSlsSlRzSl7ElementRpzrlMc
+- _$ss15LazyMapSequenceVMa
+- _$ss15LazyMapSequenceVMn
+- _$ss15LazyMapSequenceVyxq_GSKsSKRzrlMc
+- _$ss15LazyMapSequenceVyxq_GSTsMc
+- _$ss15LazyMapSequenceVyxq_GSlsSlRzrlMc
+- _$ss15LazyMapSequenceVyxq_Gs0aC8ProtocolsMc
+- _$ss15_AnySequenceBoxC13_makeIterators0aE0VyxGyFTj
+- _$ss15__VaListBuilderC14deallocStorage9wordCount7storageySi_SpySiGtF
+- _$ss15__VaListBuilderC7va_lists03CVaB7PointerVyF
+- _$ss15__VaListBuilderCMa
+- _$ss15_print_unlockedyyx_q_zts16TextOutputStreamR_r0_lF
+- _$ss16IndexingIteratorVMn
+- _$ss16IndexingIteratorVyxGStsMc
+- _$ss16PartialRangeFromVMn
+- _$ss16PartialRangeFromVyxGSXsMc
+- _$ss17_NativeDictionaryV12makeIteratorAB0D0Vyxq__GyF
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_SSAHSus6UInt32VtF
+- _$ss17_assertionFailure__5flagss5NeverOs12StaticStringV_SSs6UInt32VtF
+- _$ss17_bridgeCocoaArrayySayxGyXllF
+- _$ss18LazyFilterSequenceV6filteryAByxGSb7ElementQzcF
+- _$ss18LazyFilterSequenceVMa
+- _$ss18LazyFilterSequenceVyxGSTsMc
+- _$ss18LazyFilterSequenceVyxGSlsSlRzrlMc
+- _$ss18LazyFilterSequenceVyxGs0aC8ProtocolsMc
+- _$ss18_CocoaArrayWrapperV13_copyContents8subRange12initializingSpyyXlGSnySiG_AFtF
+- _$ss18_CocoaArrayWrapperV8endIndexSivg
+- _$ss18_CocoaArrayWrapperVyyXlSicig
+- _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
+- _$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ
+- _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
+- _$ss18_DictionaryStorageCMn
+- _$ss19_AnyIteratorBoxBaseC4nextxSgyFTj
+- _$ss20CollectionDifferenceV6ChangeOMn
+- _$ss20CollectionDifferenceVMn
+- _$ss20CollectionDifferenceVyxGSlsMc
+- _$ss20LazySequenceProtocolMp
+- _$ss20LazySequenceProtocolP8ElementsAB_STTn
+- _$ss20LazySequenceProtocolP8elements8ElementsQzvgTq
+- _$ss20LazySequenceProtocolPSTTb
+- _$ss20LazySequenceProtocolPs8ElementsQzRszrlE8elementsxvg
+- _$ss20LazySequenceProtocolPsE10compactMapys0aeB0Vys0a6FilterB0VyAEy8ElementsQzqd__SgGGqd__GAJ7ElementQzclF
+- _$ss20LazySequenceProtocolPsE3mapys0a3MapB0Vy8ElementsQzqd__Gqd__7ElementQzclF
+- _$ss20LazySequenceProtocolPsE6filterys0a6FilterB0Vy8ElementsQzGSb7ElementQzcF
+- _$ss20LazySequenceProtocolPsE7flatMapys0aB0Vys07FlattenB0Vys0aeB0Vy8ElementsQzqd__GGGqd__7ElementQzcSTRd__lF
+- _$ss20_SwiftNewtypeWrapperMp
+- _$ss20_SwiftNewtypeWrapperPSYTb
+- _$ss20_SwiftNewtypeWrapperPs35_HasCustomAnyHashableRepresentationTb
+- _$ss20_SwiftNewtypeWrapperPsSHRzSH8RawValueSYRpzrlE20_toCustomAnyHashables0hI0VSgyF
+- _$ss21_ObjectiveCBridgeableMp
+- _$ss21_ObjectiveCBridgeableP016_forceBridgeFromA1C_6resulty01_A5CTypeQz_xSgztFZTq
+- _$ss21_ObjectiveCBridgeableP024_conditionallyBridgeFromA1C_6resultSb01_A5CTypeQz_xSgztFZTq
+- _$ss21_ObjectiveCBridgeableP026_unconditionallyBridgeFromA1Cyx01_A5CTypeQzSgFZTq
+- _$ss21_ObjectiveCBridgeableP09_bridgeToA1C01_A5CTypeQzyFTq
+- _$ss21_findStringSwitchCase5cases6stringSiSays06StaticB0VG_SStF
+- _$ss22KeyedDecodingContainerV12superDecoders0E0_pyKF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySSSgSSm_xtKF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySbSgSbm_xtKF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySiSgSim_xtKF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySuSgSum_xtKF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeyqd__Sgqd__m_xtKSeRd__lF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeys5Int32VSgAFm_xtKF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeys5Int64VSgAFm_xtKF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeys6UInt32VSgAFm_xtKF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeys6UInt64VSgAFm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyS2Sm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyS2bm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyS2im_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyqd__qd__m_xtKSeRd__lF
+- _$ss22KeyedDecodingContainerV6decode_6forKeys5Int32VAFm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeys5Int64VAFm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeys6UInt16VAFm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeys6UInt32VAFm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeys6UInt64VAFm_xtKF
+- _$ss22KeyedDecodingContainerVMa
+- _$ss22KeyedDecodingContainerVMn
+- _$ss22KeyedDecodingContainerVyxGs0abC8ProtocolsMc
+- _$ss22KeyedEncodingContainerV12superEncoders0E0_pyF
+- _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySSSg_xtKF
+- _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySbSg_xtKF
+- _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyyqd__Sg_xtKSERd__lF
+- _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyys5Int32VSg_xtKF
+- _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyys5Int64VSg_xtKF
+- _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyys6UInt32VSg_xtKF
+- _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyys6UInt64VSg_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyySS_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyySb_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyySi_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyySu_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyyqd___xtKSERd__lF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyys5Int32V_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyys5Int64V_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyys6UInt16V_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyys6UInt32V_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyys6UInt64V_xtKF
+- _$ss22KeyedEncodingContainerVMa
+- _$ss22KeyedEncodingContainerVMn
+- _$ss22LazyCollectionProtocolMp
+- _$ss22LazyCollectionProtocolP8Elementss0a8SequenceC0P_SlTn
+- _$ss22LazyCollectionProtocolPSlTb
+- _$ss22LazyCollectionProtocolPs0a8SequenceC0Tb
+- _$ss22_minimumMergeRunLengthyS2iF
+- _$ss23CustomStringConvertibleMp
+- _$ss23CustomStringConvertibleP11descriptionSSvgTj
+- _$ss23CustomStringConvertibleP11descriptionSSvgTq
+- _$ss23_ContiguousArrayStorageCMa
+- _$ss23_ContiguousArrayStorageCMn
+- _$ss23_ContiguousArrayStorageCMo
+- _$ss24_getErrorEmbeddedNSErroryyXlSgxs0B0RzlF
+- _$ss25ExpressibleByArrayLiteralMp
+- _$ss25ExpressibleByArrayLiteralP05arrayD0x0cD7ElementQzd_tcfCTq
+- _$ss25FloatingPointRoundingRuleO10towardZeroyA2BmFWC
+- _$ss25FloatingPointRoundingRuleO12awayFromZeroyA2BmFWC
+- _$ss25FloatingPointRoundingRuleO15toNearestOrEvenyA2BmFWC
+- _$ss25FloatingPointRoundingRuleO23toNearestOrAwayFromZeroyA2BmFWC
+- _$ss25FloatingPointRoundingRuleO2upyA2BmFWC
+- _$ss25FloatingPointRoundingRuleO4downyA2BmFWC
+- _$ss25FloatingPointRoundingRuleOMa
+- _$ss26DefaultStringInterpolationV06appendC0yyxlF
+- _$ss26DefaultStringInterpolationV06appendC0yyxs06CustomB11ConvertibleRzlF
+- _$ss26DefaultStringInterpolationV13appendLiteralyySSF
+- _$ss26DefaultStringInterpolationVN
+- _$ss26DefaultStringInterpolationVs16TextOutputStreamsWP
+- _$ss26ExpressibleByStringLiteralMp
+- _$ss26ExpressibleByStringLiteralP06stringD0x0cD4TypeQz_tcfCTq
+- _$ss26ExpressibleByStringLiteralP0cD4TypeAB_s01_ab7BuiltincD0Tn
+- _$ss26ExpressibleByStringLiteralPs0ab23ExtendedGraphemeClusterD0Tb
+- _$ss26_forceBridgeFromObjectiveCyxyXl_xmtlF
+- _$ss27ExpressibleByIntegerLiteralMp
+- _$ss27ExpressibleByIntegerLiteralP07integerD0x0cD4TypeQz_tcfCTj
+- _$ss27ExpressibleByIntegerLiteralP07integerD0x0cD4TypeQz_tcfCTq
+- _$ss27ExpressibleByIntegerLiteralP0cD4TypeAB_s01_ab7BuiltincD0Tn
+- _$ss27ExpressibleByIntegerLiteralTL
+- _$ss27_bridgeAnythingToObjectiveCyyXlxlF
+- _$ss27_diagnoseUnexpectedEnumCase4types5NeverOxm_tlF
+- _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+- _$ss28CustomDebugStringConvertibleMp
+- _$ss28CustomDebugStringConvertibleP16debugDescriptionSSvgTq
+- _$ss28__ContiguousArrayStorageBaseC17staticElementTypeypXpvgTj
+- _$ss28__ContiguousArrayStorageBaseCMa
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF
+- _$ss30_findStringSwitchCaseWithCache5cases6string5cacheSiSays06StaticB0VG_SSs07_OpaquebcF0VztF
+- _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlF
+- _$ss32_diagnoseUnexpectedEnumCaseValue4type03rawE0s5NeverOxm_q_tr0_lF
+- _$ss33ExpressibleByUnicodeScalarLiteralMp
+- _$ss33ExpressibleByUnicodeScalarLiteralP07unicodedE0x0cdE4TypeQz_tcfCTq
+- _$ss33ExpressibleByUnicodeScalarLiteralP0cdE4TypeAB_s01_ab7BuiltincdE0Tn
+- _$ss35_ExpressibleByBuiltinIntegerLiteralP08_builtindE0xBI_tcfCTj
+- _$ss35_HasCustomAnyHashableRepresentationMp
+- _$ss35_HasCustomAnyHashableRepresentationP03_tobcD0s0cD0VSgyFTq
+- _$ss38_bridgeAnythingNonVerbatimToObjectiveCyyXlxnlF
+- _$ss43ExpressibleByExtendedGraphemeClusterLiteralMp
+- _$ss43ExpressibleByExtendedGraphemeClusterLiteralP08extendeddeF0x0cdeF4TypeQz_tcfCTq
+- _$ss43ExpressibleByExtendedGraphemeClusterLiteralP0cdeF4TypeAB_s01_ab7BuiltincdeF0Tn
+- _$ss43ExpressibleByExtendedGraphemeClusterLiteralPs0ab13UnicodeScalarF0Tb
+- _$ss4Int8VMn
+- _$ss4Int8VN
+- _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
+- _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
+- _$ss5ErrorMp
+- _$ss5ErrorP10FoundationAC13CustomNSErrorRzrlE5_codeSivg
+- _$ss5ErrorP10FoundationAC13CustomNSErrorRzrlE7_domainSSvg
+- _$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq
+- _$ss5ErrorP5_codeSivgTq
+- _$ss5ErrorP7_domainSSvgTq
+- _$ss5ErrorP9_userInfoyXlSgvgTq
+- _$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF
+- _$ss5ErrorPsE5_codeSivg
+- _$ss5ErrorPsE7_domainSSvg
+- _$ss5ErrorPsE9_userInfoyXlSgvg
+- _$ss5ErrorWS
+- _$ss5Int16VN
+- _$ss5Int32VMn
+- _$ss5Int32VN
+- _$ss5Int32Vs23CustomStringConvertiblesWP
+- _$ss5Int64V10FoundationE10truncatingABSo8NSNumberCh_tcfC
+- _$ss5Int64V10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
+- _$ss5Int64VMn
+- _$ss5Int64VN
+- _$ss5Int64VSEsWP
+- _$ss5Int64VSzsMc
+- _$ss5Int64Vs23CustomStringConvertiblesWP
+- _$ss5NeverOMn
+- _$ss5SliceVMn
+- _$ss5SliceVyxGSKsSKRzrlMc
+- _$ss5SliceVyxGSlsMc
+- _$ss5UInt8V4fromABs7Decoder_p_tKcfC
+- _$ss5UInt8V6encode2toys7Encoder_p_tKF
+- _$ss5UInt8VMn
+- _$ss5UInt8VN
+- _$ss6HasherV5_hash4seed_S2i_s6UInt64VtFZ
+- _$ss6HasherV5_seedABSi_tcfC
+- _$ss6HasherV8_combineyySuF
+- _$ss6HasherV8_combineyys5UInt8VF
+- _$ss6HasherV8_combineyys6UInt32VF
+- _$ss6HasherV8_combineyys6UInt64VF
+- _$ss6HasherV9_finalizeSiyF
+- _$ss6ResultO3getxyKF
+- _$ss6ResultO3mapyAByqd__q_Gqd__xXElF
+- _$ss6ResultO7flatMapyAByqd__q_GADxXElF
+- _$ss6ResultOMa
+- _$ss6ResultOMn
+- _$ss6UInt16VMn
+- _$ss6UInt16VN
+- _$ss6UInt16Vs23CustomStringConvertiblesWP
+- _$ss6UInt32V10FoundationE10truncatingABSo8NSNumberCh_tcfC
+- _$ss6UInt32V10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
+- _$ss6UInt32VMn
+- _$ss6UInt32VN
+- _$ss6UInt32VSEsWP
+- _$ss6UInt32Vs23CustomStringConvertiblesWP
+- _$ss6UInt64V10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
+- _$ss6UInt64VMn
+- _$ss6UInt64VN
+- _$ss6UInt64VSEsWP
+- _$ss6UInt64VSzsMc
+- _$ss6UInt64Vs17FixedWidthIntegersMc
+- _$ss6UInt64Vs23CustomStringConvertiblesWP
+- _$ss7CVarArgMp
+- _$ss7CVarArgP05_cVarB8EncodingSaySiGvgTj
+- _$ss7DecoderP9container7keyedBys22KeyedDecodingContainerVyqd__Gqd__m_tKs9CodingKeyRd__lFTj
+- _$ss7EncoderP9container7keyedBys22KeyedEncodingContainerVyqd__Gqd__m_ts9CodingKeyRd__lFTj
+- _$ss7KeyPathCMo
+- _$ss9CodingKeyMp
+- _$ss9CodingKeyP11stringValueSSvgTq
+- _$ss9CodingKeyP11stringValuexSgSS_tcfCTq
+- _$ss9CodingKeyP8intValueSiSgvgTq
+- _$ss9CodingKeyP8intValuexSgSi_tcfCTq
+- _$ss9CodingKeyPs23CustomStringConvertibleTb
+- _$ss9CodingKeyPs28CustomDebugStringConvertibleTb
+- _$ss9CodingKeyPsE11descriptionSSvg
+- _$ss9CodingKeyPsE16debugDescriptionSSvg
+- _$ss9OptionSetMp
+- _$ss9OptionSetP8rawValuex03RawD0Qz_tcfCTj
+- _$ss9OptionSetP8rawValuex03RawD0Qz_tcfCTq
+- _$ss9OptionSetPSYTb
+- _$ss9OptionSetPs0B7AlgebraTb
+- _$ss9_typeName_9qualifiedSSypXp_SbtF
+- _$ss9getVaListys03CVaC7PointerVSays7CVarArg_pGF
+- _$sxSgSEsSERzlMc
+- _$sxSgSesSeRzlMc
+- _$syXlN
+- _$sypN
+- _$sytN
+- _$sytWV
+- _$syycWV
+- _APFSVolumeGetVEKState
+- _APFSVolumeRole
+- _CFRelease
+- _CFURLSetResourcePropertyForKey
+- _CFUUIDCreateString
+- _FPCaptureLogsForOperation
+- _FPDiagnosticAttributeKeyAPFSAvailableSpace
+- _FPDiagnosticAttributeKeyAPFSBlockSize
+- _FPDiagnosticAttributeKeyAPFSEncrypted
+- _FPDiagnosticAttributeKeyAPFSFlags
+- _FPDiagnosticAttributeKeyAPFSRole
+- _FPDiagnosticAttributeKeyDBCapabilities
+- _FPDiagnosticAttributeKeyDBEffectiveContentPolicy
+- _FPDiagnosticAttributeKeyDBErrorCode
+- _FPDiagnosticAttributeKeyDBErrorDomain
+- _FPDiagnosticAttributeKeyDBErrorRetryCount
+- _FPDiagnosticAttributeKeyDBFPContentStatus
+- _FPDiagnosticAttributeKeyDBFPDeletionStatus
+- _FPDiagnosticAttributeKeyDBFPImportStatus
+- _FPDiagnosticAttributeKeyDBFParentItemID
+- _FPDiagnosticAttributeKeyDBFSContentStatus
+- _FPDiagnosticAttributeKeyDBFSDeletionStatus
+- _FPDiagnosticAttributeKeyDBFSImportStatus
+- _FPDiagnosticAttributeKeyDBIsAppLibrary
+- _FPDiagnosticAttributeKeyDBIsPackage
+- _FPDiagnosticAttributeKeyDBSharingState
+- _FPDiagnosticAttributeKeyDBTransferErrorCode
+- _FPDiagnosticAttributeKeyDBTransferErrorDomain
+- _FPDiagnosticAttributeKeyDBTransferIsDownload
+- _FPDiagnosticAttributeKeyDBTransferOperationType
+- _FPDiagnosticAttributeKeyDBTransferState
+- _FPDiagnosticAttributeKeyDiagErrorCode
+- _FPDiagnosticAttributeKeyDiagErrorDomain
+- _FPDiagnosticAttributeKeyDiagFailuresBitmap
+- _FPDiagnosticAttributeKeyDiagUnderlyingErrorCode
+- _FPDiagnosticAttributeKeyDiagUnderlyingErrorDomain
+- _FPDiagnosticAttributeKeyNameExtension
+- _FPDiagnosticAttributeKeyNameIsAppleDouble
+- _FPDiagnosticAttributeKeyNameIsTrashed
+- _FPDiagnosticAttributeKeyNameLength
+- _FPDiagnosticAttributeKeyNamePathDepth
+- _FPDiagnosticAttributeKeyNamePathLength
+- _FPDiagnosticAttributeKeyNameUTType
+- _FPDiagnosticAttributeKeyNameUnicodeNorm
+- _FPDiagnosticAttributeKeyPurgeAtime
+- _FPDiagnosticAttributeKeyPurgeFlags
+- _FPDiagnosticAttributeKeyPurgeGencount
+- _FPDiagnosticAttributeKeyPurgeSyncroot
+- _FPDiagnosticAttributeKeyStatBSDFlags
+- _FPDiagnosticAttributeKeyStatBtime
+- _FPDiagnosticAttributeKeyStatBtimeIsBusy
+- _FPDiagnosticAttributeKeyStatClosestSyncroot
+- _FPDiagnosticAttributeKeyStatDataProtectionClass
+- _FPDiagnosticAttributeKeyStatDirEntryCount
+- _FPDiagnosticAttributeKeyStatDocID
+- _FPDiagnosticAttributeKeyStatFileID
+- _FPDiagnosticAttributeKeyStatFinderInfoFlags
+- _FPDiagnosticAttributeKeyStatGencount
+- _FPDiagnosticAttributeKeyStatHasMoreLinks
+- _FPDiagnosticAttributeKeyStatIsDirstatEnabled
+- _FPDiagnosticAttributeKeyStatItemACLCount
+- _FPDiagnosticAttributeKeyStatLogicalSize
+- _FPDiagnosticAttributeKeyStatMode
+- _FPDiagnosticAttributeKeyStatMtime
+- _FPDiagnosticAttributeKeyStatParentACLCount
+- _FPDiagnosticAttributeKeyStatPhysicalSize
+- _FPDiagnosticAttributeKeyStatResourceForkSize
+- _FPDiagnosticAttributeKeyStatUID
+- _FPDiagnosticAttributeKeySysDocIDResolutionOK
+- _FPDiagnosticAttributeKeySysPageSize
+- _FPDiagnosticAttributeKeySysReadErrno
+- _FPDiagnosticAttributeKeySysUID
+- _FPDiagnosticAttributeKeyXattrCompressionType
+- _FPDiagnosticAttributeKeyXattrCount
+- _FPDiagnosticAttributeKeyXattrHasBeforeBounce
+- _FPDiagnosticAttributeKeyXattrHasDemotion
+- _FPDiagnosticAttributeKeyXattrHasPromotion
+- _FPDiagnosticAttributeKeyXattrIsQuarantined
+- _FPDictFromVendorItem
+- _FPDomainUnavailableError
+- _FPEvictionOnBusyItemError
+- _FPEvictionOnItemWithHardlinkError
+- _FPEvictionWithUnsyncedEditsError
+- _FPFeatureFlagEbihilIsEnabled
+- _FPFeatureFlagSpaceAttributionIsEnabled
+- _FPFeatureFlagUserIgnoredItemsIsEnabled
+- _FPGetTagsDataForTags
+- _FPGetTagsFromTagsData
+- _FPICloudDriveFeaturesUserDefaultsSuiteName
+- _FPICloudDriveOnFPFSEnabledUserDefaultsKey
+- _FPICloudDriveOnFPFSLastBootTimestampUserDefaultsKey
+- _FPInvalidParameterError
+- _FPItemFlattenedPackageExtension
+- _FPItemNotFoundError
+- _FPItemNotFoundErrorAtURL
+- _FPLocv
+- _FPMissingAllowsEvictingCapabilitiesError
+- _FPNonEvictableChildrenError
+- _FPNotSupportedError
+- _FPOSVersion
+- _FPProgressIsCreatedByCloudDocsKey
+- _FPProgressIsCreatedByFileProviderKey
+- _FPUserCancelledError
+- _FPVersion
+- _FPWriteImportCookieForDomainURL
+- _FSEventStreamCreate
+- _FSEventStreamFlushSync
+- _FSEventStreamInvalidate
+- _FSEventStreamRelease
+- _FSEventStreamSetDispatchQueue
+- _FSEventStreamStart
+- _FSEventStreamStop
+- _FSEventsCopyUUIDForDevice
+- _FSEventsGetCurrentEventId
+- _GSAdditionCreationDisplayNameKey
+- _GSAdditionCreationKeepFileIDKey
+- _GSAdditionCreationNameKey
+- _GSAdditionCreationNameSpaceKey
+- _GSAdditionCreationUserInfoKey
+- _GSDocumentVersionsNameSpace
+- _GSLibraryResolveDocumentId2
+- _GSUbiquitousConflictsNameSpace
+- _MGGetSInt32Answer
+- _NSClassFromString
+- _NSCocoaErrorDomain
+- _NSFileCreationDate
+- _NSFileGroupOwnerAccountName
+- _NSFileModificationDate
+- _NSFileOwnerAccountName
+- _NSFilePathErrorKey
+- _NSFileProviderCloudDocsContainerIdentifier
+- _NSFileProviderDomainDefaultIdentifier
+- _NSFileProviderErrorDomain
+- _NSFileProviderErrorItemKey
+- _NSFileProviderErrorNonExistentItemIdentifierKey
+- _NSFileProviderErrorSpeculativeCanceledByProvider
+- _NSFileProviderErrorTransientErrorKey
+- _NSFileProviderInitialPageSortedByDate
+- _NSFileProviderInitialPageSortedByName
+- _NSFileProviderInternalErrorDomain
+- _NSFileProviderItemCapabilitiesAllowsPinning
+- _NSFileProviderItemCapabilitiesAllowsRecursiveDownloading
+- _NSFileProviderItemCapabilitiesAllowsTagging
+- _NSFileProviderItemCapabilitiesAllowsUnpinning
+- _NSFileProviderProviderDisplayNameKey
+- _NSFileProviderRootContainerItemIdentifier
+- _NSFileProviderTrashContainerItemIdentifier
+- _NSFileProviderWorkingSetContainerItemIdentifier
+- _NSFileSystemFreeSize
+- _NSFileSystemSize
+- _NSLocalizedDescriptionKey
+- _NSMultipleUnderlyingErrorsKey
+- _NSPOSIXErrorDomain
+- _NSProgressFileOperationKindDownloading
+- _NSProgressFileOperationKindUploading
+- _NSProgressFileURLKey
+- _NSTemporaryDirectory
+- _NSURLCanonicalPathKey
+- _NSURLContentModificationDateKey
+- _NSURLContentTypeKey
+- _NSURLDocumentIdentifierKey
+- _NSURLErrorKey
+- _NSURLFileProtectionComplete
+- _NSURLFileProtectionCompleteUnlessOpen
+- _NSURLFileProtectionKey
+- _NSURLFileSizeKey
+- _NSURLIsDirectoryKey
+- _NSURLIsUbiquitousItemKey
+- _NSURLTypeIdentifierKey
+- _NSURLUbiquitousItemHasUnresolvedConflictsKey
+- _NSURLUbiquitousItemIsExcludedFromSyncKey
+- _NSURLVolumeSupportsCaseSensitiveNamesKey
+- _NSUnderlyingErrorKey
+- _OBJC_CLASS_$_DSArchiveService
+- _OBJC_CLASS_$_FPCKStats
+- _OBJC_CLASS_$_FPCTLTermDumper
+- _OBJC_CLASS_$_FPConflictLoser
+- _OBJC_CLASS_$_FPDAccessControlStore
+- _OBJC_CLASS_$_FPDConfigurationStore
+- _OBJC_CLASS_$_FPDDomainCleanupResult
+- _OBJC_CLASS_$_FPDDomainIndexer
+- _OBJC_CLASS_$_FPDDownloader
+- _OBJC_CLASS_$_FPDRequest
+- _OBJC_CLASS_$_FPDSharedScheduler
+- _OBJC_CLASS_$_FPDocumentAlternateContents
+- _OBJC_CLASS_$_FPExtensionEnumerationSettings
+- _OBJC_CLASS_$_FPExtensionResponse
+- _OBJC_CLASS_$_FPFSItem
+- _OBJC_CLASS_$_FPFileVersion
+- _OBJC_CLASS_$_FPFlattenedPackageSandboxingURLWrapper
+- _OBJC_CLASS_$_FPImportItemError
+- _OBJC_CLASS_$_FPImportItemPendingReconciliation
+- _OBJC_CLASS_$_FPImportItemPendingScanningDisk
+- _OBJC_CLASS_$_FPImportItemPendingScanningProvider
+- _OBJC_CLASS_$_FPImportProgressReport
+- _OBJC_CLASS_$_FPItem
+- _OBJC_CLASS_$_FPItemID
+- _OBJC_CLASS_$_FPOperation
+- _OBJC_CLASS_$_FPRTCReportingSessionManager
+- _OBJC_CLASS_$_FPSandboxingURLWrapper
+- _OBJC_CLASS_$_FPSpotlightIndexer
+- _OBJC_CLASS_$_FPTag
+- _OBJC_CLASS_$_FPTestingChildrenEnumeration
+- _OBJC_CLASS_$_FPTestingCollisionResolution
+- _OBJC_CLASS_$_FPTestingContentFetch
+- _OBJC_CLASS_$_FPTestingCreation
+- _OBJC_CLASS_$_FPTestingDeletion
+- _OBJC_CLASS_$_FPTestingIngestion
+- _OBJC_CLASS_$_FPTestingLookup
+- _OBJC_CLASS_$_FPTestingModification
+- _OBJC_CLASS_$_FPTestingOperation
+- _OBJC_CLASS_$_FPUserInfo
+- _OBJC_CLASS_$_FPXPCAutomaticErrorProxy
+- _OBJC_CLASS_$_FPXServiceDescriptor
+- _OBJC_CLASS_$_GSAddition
+- _OBJC_CLASS_$_GSStorageManager
+- _OBJC_CLASS_$_LSApplicationWorkspace
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSCache
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_CLASS_$_NSData
+- _OBJC_CLASS_$_NSDateFormatter
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSError
+- _OBJC_CLASS_$_NSFileAccessIntent
+- _OBJC_CLASS_$_NSFileCoordinator
+- _OBJC_CLASS_$_NSFileManager
+- _OBJC_CLASS_$_NSFileProviderDiagnosticAttributesDescriptor
+- _OBJC_CLASS_$_NSFileProviderDomain
+- _OBJC_CLASS_$_NSFileProviderDomainVersion
+- _OBJC_CLASS_$_NSFileProviderItemVersion
+- _OBJC_CLASS_$_NSFileProviderKnownFolderDescriptor
+- _OBJC_CLASS_$_NSFileProviderMovingResponse
+- _OBJC_CLASS_$_NSFileProviderRequest
+- _OBJC_CLASS_$_NSHashTable
+- _OBJC_CLASS_$_NSJSONSerialization
+- _OBJC_CLASS_$_NSKeyedArchiver
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSMutableString
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSOperationQueue
+- _OBJC_CLASS_$_NSPersonNameComponentsFormatter
+- _OBJC_CLASS_$_NSProgress
+- _OBJC_CLASS_$_NSRegularExpression
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSURL
+- _OBJC_CLASS_$_NSUUID
+- _OBJC_CLASS_$_NSValue
+- _OBJC_CLASS_$_OSASystemConfiguration
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _OBJC_CLASS_$_OS_dispatch_source
+- _OBJC_CLASS_$_OS_os_log
+- _OBJC_CLASS_$_PQLConnection
+- _OBJC_CLASS_$_PQLResultSet
+- _OBJC_CLASS_$_SAPathInfo
+- _OBJC_CLASS_$_SAPathManager
+- _OBJC_CLASS_$_UMUserManager
+- _OBJC_CLASS_$_UTType
+- _OBJC_CLASS_$__TtCs12_SwiftObject
+- _OBJC_METACLASS_$_FPDDomainIndexer
+- _OBJC_METACLASS_$_FPOperation
+- _OBJC_METACLASS_$_FPXPCAutomaticErrorProxy
+- _OBJC_METACLASS_$__TtCs12_SwiftObject
+- _PQLSqliteErrorDomain
+- _UTTypeAliasFile
+- _UTTypeData
+- _UTTypeDirectory
+- _UTTypeItem
+- _UTTypePackage
+- _UTTypePlainText
+- _UTTypeSymbolicLink
+- _XPC_ACTIVITY_ALLOW_BATTERY
+- _XPC_ACTIVITY_DELAY
+- _XPC_ACTIVITY_GRACE_PERIOD
+- _XPC_ACTIVITY_INTERVAL
+- _XPC_ACTIVITY_INTERVAL_1_DAY
+- _XPC_ACTIVITY_INTERVAL_1_HOUR
+- _XPC_ACTIVITY_INTERVAL_1_MIN
+- _XPC_ACTIVITY_INTERVAL_5_MIN
+- _XPC_ACTIVITY_NETWORK_DOWNLOAD_SIZE
+- _XPC_ACTIVITY_PRIORITY
+- _XPC_ACTIVITY_PRIORITY_MAINTENANCE
+- _XPC_ACTIVITY_PRIORITY_UTILITY
+- _XPC_ACTIVITY_REPEATING
+- _XPC_ACTIVITY_REQUIRES_CLASS_A
+- _XPC_ACTIVITY_REQUIRE_INEXPENSIVE_NETWORK_CONNECTIVITY
+- _XPC_ACTIVITY_REQUIRE_NETWORK_CONNECTIVITY
+- _XPC_ACTIVITY_REQUIRE_SCREEN_SLEEP
+- __Block_copy
+- __Block_object_dispose
+- __Block_release
+- __CFURLCStringIsPromiseName
+- __CFURLCopyPromiseURLOfLogicalURL
+- __Exit
+- __NSConcreteGlobalBlock
+- __NSConcreteStackBlock
+- __Unwind_Resume
+- ___NSDictionary0__struct
+- ___assert_rtn
+- ___chkstk_darwin
+- ___exp10
+- ___fp_create_section
+- ___fp_leave_section_Debug
+- ___fp_log_adopt
+- ___fp_log_fork
+- ___fp_pop_log
+- ___kCFBooleanFalse
+- ___kCFBooleanTrue
+- ___objc_personality_v0
+- ___strlcpy_chk
+- __dispatch_source_type_data_or
+- __dispatch_source_type_timer
+- __dispatch_source_type_vnode
+- __kCFURLInodeNumberKey
+- __kCFURLIsExcludedFromCloudBackupKey
+- __objc_autoreleasePoolPop
+- __objc_autoreleasePoolPush
+- __os_signpost_emit_with_name_impl
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swiftEmptySetSingleton
+- __swift_FORCE_LOAD_$_swiftAVFoundation
+- __swift_FORCE_LOAD_$_swiftCoreAudio
+- __swift_FORCE_LOAD_$_swiftCoreGraphics
+- __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreMIDI
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftIntents
+- __swift_FORCE_LOAD_$_swiftMetal
+- __swift_FORCE_LOAD_$_swiftQuartzCore
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
+- __swift_FORCE_LOAD_$_swiftos
+- __swift_FORCE_LOAD_$_swiftsimd
+- __swift_isClassOrObjCExistentialType
+- __swift_stdlib_bridgeErrorToNSError
+- __swift_stdlib_reportUnimplementedInitializer
+- _abort
+- _asprintf
+- _basename_r
+- _bzero
+- _clonefileat
+- _close
+- _copyfile
+- _copyfile_state_alloc
+- _copyfile_state_free
+- _copyfile_state_set
+- _dirname_r
+- _dispatch_activate
+- _dispatch_after
+- _dispatch_assert_queue$V2
+- _dispatch_async
+- _dispatch_async_and_wait
+- _dispatch_block_create_with_qos_class
+- _dispatch_group_async
+- _dispatch_group_create
+- _dispatch_group_enter
+- _dispatch_group_leave
+- _dispatch_group_notify
+- _dispatch_group_wait
+- _dispatch_once
+- _dispatch_queue_attr_make_with_autorelease_frequency
+- _dispatch_queue_attr_make_with_qos_class
+- _dispatch_queue_create
+- _dispatch_resume
+- _dispatch_semaphore_create
+- _dispatch_set_qos_class_fallback
+- _dispatch_source_cancel
+- _dispatch_source_create
+- _dispatch_source_merge_data
+- _dispatch_source_set_cancel_handler
+- _dispatch_source_set_event_handler
+- _dispatch_source_set_timer
+- _dispatch_suspend
+- _dispatch_sync
+- _dispatch_time
+- _dispatch_workloop_create
+- _dup
+- _errorInjectionPointEnabled
+- _faccessat
+- _fchmod
+- _fclonefileat
+- _fcntl
+- _ffsctl
+- _fgetattrlist
+- _fgetxattr
+- _flistxattr
+- _flock
+- _fpfs_adopt_log
+- _fpfs_clear_acl
+- _fpfs_clear_file_acl
+- _fpfs_create_dataless_fault_at
+- _fpfs_create_log_for_provider
+- _fpfs_current_log
+- _fpfs_current_or_default_log
+- _fpfs_delete_xattrs
+- _fpfs_deserialize_favorite_rank
+- _fpfs_deserialize_last_use_date
+- _fpfs_deserialize_tags
+- _fpfs_dirsize
+- _fpfs_evict
+- _fpfs_extension_in_filename
+- _fpfs_fchdir
+- _fpfs_fchflags
+- _fpfs_femptydir
+- _fpfs_fget_parent_id
+- _fpfs_fget_parent_syncroot
+- _fpfs_fget_syncroot
+- _fpfs_fgetdirentries
+- _fpfs_fgetfileattrs
+- _fpfs_fgethandle
+- _fpfs_fgetpath
+- _fpfs_fgetxattr_checked
+- _fpfs_file_is_flocked
+- _fpfs_fileattrs_fullpath
+- _fpfs_filename_contains_ext
+- _fpfs_finder_info_deserialize
+- _fpfs_fopendir
+- _fpfs_free_metadata_tag_data
+- _fpfs_fremovexattr
+- _fpfs_fset_acl
+- _fpfs_fset_metadata
+- _fpfs_fset_syncroot
+- _fpfs_fsetxattr
+- _fpfs_fsgetpath
+- _fpfs_get_finder_info
+- _fpfs_get_finder_info_buffer
+- _fpfs_get_flock_type
+- _fpfs_get_is_ignore_root
+- _fpfs_get_materialization_alignment
+- _fpfs_gethandle_at
+- _fpfs_icd_package_extension_list_reload
+- _fpfs_is_busy_date
+- _fpfs_is_dataless_fault
+- _fpfs_is_dataless_fault_at
+- _fpfs_is_detached_root
+- _fpfs_is_evictable
+- _fpfs_is_finder_alias_at
+- _fpfs_item_handle_gencmp
+- _fpfs_load_additional_attrs
+- _fpfs_lp_faccessat
+- _fpfs_lp_unlinkat
+- _fpfs_make_fsevent
+- _fpfs_materialize
+- _fpfs_num_entries
+- _fpfs_num_entries_at
+- _fpfs_open
+- _fpfs_open_longpath
+- _fpfs_openat
+- _fpfs_openat_longparent
+- _fpfs_openbyid
+- _fpfs_openbyid_ext
+- _fpfs_opendirat
+- _fpfs_path_is_safe_save_temp_file
+- _fpfs_path_is_safe_save_temp_filename
+- _fpfs_path_relative_to
+- _fpfs_pkg_demote
+- _fpfs_pkg_dirstat
+- _fpfs_pkg_enable_dirstat
+- _fpfs_pkg_is_demoted
+- _fpfs_pkg_is_demoted_at
+- _fpfs_pkg_is_package_item
+- _fpfs_pkg_is_package_root2
+- _fpfs_pkg_is_promoted
+- _fpfs_pkg_promote
+- _fpfs_pkg_relative_path_lookup
+- _fpfs_pkg_remove_demotion_xattr
+- _fpfs_pkg_remove_promotion_xattr
+- _fpfs_pkg_set_bundle_bit
+- _fpfs_pkg_system_lookup
+- _fpfs_pkg_system_relative_lookup
+- _fpfs_recursive_prune_fault
+- _fpfs_recursive_unlinkat
+- _fpfs_remove_before_bounce_filename
+- _fpfs_remove_resurrected
+- _fpfs_removeat
+- _fpfs_serialize_tags
+- _fpfs_set_dataless_cmpfs_attrs
+- _fpfs_set_is_ignore_root
+- _fpfs_set_resurrected
+- _fpfs_should_be_tracked
+- _fpfs_should_be_tracked_internal
+- _fpfs_supports_brm_sparse_files
+- _fpfs_supports_dir_eviction
+- _fpfs_supports_flock_timer_handler
+- _fpfs_supports_initial_sql_telemetry
+- _fpfs_supports_long_paths
+- _fpfs_supports_parent_mtime_iopolicy
+- _fpfs_supports_partial_materialization
+- _fpfs_supports_periodic_FPCK_run
+- _fpfs_supports_pkg_dataless_escape_prevention
+- _fpfs_supports_pkg_eviction
+- _fpfs_supports_sokoban
+- _fpfs_supports_targeted_purge
+- _fpfs_supports_vfs_ignore_permissions_iopolicy
+- _fpfs_track_document
+- _fpfs_transfer_xattrs
+- _fpfs_unset_dataless_cmpfs_attrs
+- _fpfs_unset_evictable
+- _fpfs_untrack_document
+- _fpfs_update_dataless_fault
+- _fpfs_user_package_extension_list_init
+- _fpfs_xattr_is_syncable
+- _free
+- _fremovexattr
+- _fsetxattr
+- _fsgetpath
+- _fssync_default_log
+- _fstat
+- _fstatat
+- _fstatfs
+- _ftruncate
+- _fts_close
+- _fts_open
+- _fts_read
+- _getattrlist
+- _getenv
+- _getpagesize
+- _getuid
+- _getxattr
+- _kCFBooleanTrue
+- _localtime_r
+- _log
+- _log10
+- _lseek
+- _lstat
+- _malloc
+- _malloc_size
+- _malloc_type_calloc
+- _malloc_type_malloc
+- _memcmp
+- _memcpy
+- _memmove
+- _mkdir
+- _mkdirat
+- _notify_post
+- _objc_autorelease
+- _objc_autoreleaseReturnValue
+- _objc_copyWeak
+- _objc_destroyWeak
+- _objc_enumerationMutation
+- _objc_initWeak
+- _objc_loadWeakRetained
+- _objc_opt_new
+- _objc_release
+- _objc_release_x1
+- _objc_release_x10
+- _objc_release_x2
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_release_x28
+- _objc_release_x9
+- _objc_retain
+- _objc_retainAutorelease
+- _objc_retainAutoreleaseReturnValue
+- _objc_retainAutoreleasedReturnValue
+- _objc_retainBlock
+- _objc_retain_x1
+- _objc_retain_x10
+- _objc_retain_x11
+- _objc_retain_x12
+- _objc_retain_x13
+- _objc_retain_x19
+- _objc_retain_x2
+- _objc_retain_x20
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_retain_x26
+- _objc_retain_x27
+- _objc_retain_x28
+- _objc_retain_x3
+- _objc_retain_x4
+- _objc_retain_x5
+- _objc_retain_x6
+- _objc_retain_x8
+- _objc_retain_x9
+- _objc_storeWeak
+- _objc_sync_enter
+- _objc_sync_exit
+- _objc_terminate
+- _open
+- _openat
+- _os_signpost_enabled
+- _os_signpost_id_generate
+- _os_transaction_create
+- _os_unfair_lock_lock
+- _os_unfair_lock_unlock
+- _os_unfair_recursive_lock_lock_with_options
+- _os_unfair_recursive_lock_unlock
+- _pread
+- _qos_class_self
+- _read
+- _removefile
+- _removexattr
+- _renameatx_np
+- _renamex_np
+- _rmdir
+- _setxattr
+- _snprintf
+- _sqlite3_bind_parameter_count
+- _sqlite3_column_count
+- _sqlite3_result_int64
+- _sqlite3_sql
+- _sqlite3_stmt_status
+- _sqlite3_value_blob
+- _sqlite3_value_bytes
+- _sqlite3_value_int
+- _sqlite3_value_int64
+- _sqlite3_value_type
+- _stat
+- _strcasecmp
+- _strcmp
+- _strdup
+- _strerror
+- _strlcpy
+- _strlen
+- _swift_allocBox
+- _swift_allocError
+- _swift_allocObject
+- _swift_allocateGenericClassMetadata
+- _swift_allocateGenericValueMetadata
+- _swift_arrayAssignWithTake
+- _swift_arrayDestroy
+- _swift_arrayInitWithCopy
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_beginAccess
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRelease_n
+- _swift_bridgeObjectRetain
+- _swift_bridgeObjectRetain_n
+- _swift_checkMetadataState
+- _swift_continuation_await
+- _swift_continuation_init
+- _swift_continuation_throwingResume
+- _swift_continuation_throwingResumeWithError
+- _swift_deallocBox
+- _swift_deallocClassInstance
+- _swift_deallocError
+- _swift_deallocObject
+- _swift_deallocPartialClassInstance
+- _swift_deallocUninitializedObject
+- _swift_deletedMethodError
+- _swift_dynamicCast
+- _swift_dynamicCastClass
+- _swift_dynamicCastClassUnconditional
+- _swift_dynamicCastMetatype
+- _swift_dynamicCastObjCClass
+- _swift_dynamicCastObjCClassUnconditional
+- _swift_dynamicCastObjCProtocolConditional
+- _swift_dynamicCastObjCProtocolUnconditional
+- _swift_endAccess
+- _swift_errorRelease
+- _swift_errorRetain
+- _swift_getAssociatedConformanceWitness
+- _swift_getAssociatedTypeWitness
+- _swift_getAtKeyPath
+- _swift_getDynamicType
+- _swift_getEnumCaseMultiPayload
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getErrorValue
+- _swift_getForeignTypeMetadata
+- _swift_getGenericMetadata
+- _swift_getKeyPath
+- _swift_getMetatypeMetadata
+- _swift_getObjCClassFromMetadata
+- _swift_getObjCClassMetadata
+- _swift_getObjectType
+- _swift_getSingletonMetadata
+- _swift_getTupleTypeLayout
+- _swift_getTupleTypeLayout2
+- _swift_getTupleTypeLayout3
+- _swift_getTupleTypeMetadata
+- _swift_getTupleTypeMetadata2
+- _swift_getTupleTypeMetadata3
+- _swift_getTypeByMangledNameInContext2
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_initClassMetadata2
+- _swift_initEnumMetadataMultiPayload
+- _swift_initEnumMetadataSingleCase
+- _swift_initEnumMetadataSinglePayload
+- _swift_initStackObject
+- _swift_initStaticObject
+- _swift_initStructMetadata
+- _swift_isClassType
+- _swift_isEscapingClosureAtFileLocation
+- _swift_isUniquelyReferenced_nonNull_bridgeObject
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_isaMask
+- _swift_makeBoxUnique
+- _swift_once
+- _swift_projectBox
+- _swift_release
+- _swift_release_n
+- _swift_retain
+- _swift_retain_n
+- _swift_setDeallocating
+- _swift_slowAlloc
+- _swift_slowDealloc
+- _swift_stdlib_isStackAllocationSafe
+- _swift_stdlib_random
+- _swift_storeEnumTagMultiPayload
+- _swift_storeEnumTagSinglePayloadGeneric
+- _swift_task_alloc
+- _swift_task_create
+- _swift_task_dealloc
+- _swift_task_switch
+- _swift_unexpectedError
+- _swift_unknownObjectRelease
+- _swift_unknownObjectRelease_n
+- _swift_unknownObjectRetain
+- _swift_unknownObjectRetain_n
+- _swift_unknownObjectUnownedDestroy
+- _swift_unknownObjectUnownedInit
+- _swift_unknownObjectUnownedLoadStrong
+- _swift_unknownObjectWeakAssign
+- _swift_unknownObjectWeakCopyAssign
+- _swift_unknownObjectWeakCopyInit
+- _swift_unknownObjectWeakDestroy
+- _swift_unknownObjectWeakInit
+- _swift_unknownObjectWeakLoadStrong
+- _swift_unknownObjectWeakTakeAssign
+- _swift_unknownObjectWeakTakeInit
+- _swift_unownedRelease
+- _swift_unownedRetain
+- _swift_unownedRetainStrong
+- _swift_updateClassMetadata2
+- _swift_weakAssign
+- _swift_weakDestroy
+- _swift_weakInit
+- _swift_weakLoadStrong
+- _swift_willThrow
+- _symlink
+- _symlinkat
+- _time
+- _unlink
+- _unlinkat
+- _usleep
+- _uuid_generate
+- _uuid_unparse
+- _xpc_activity_get_state
+- _xpc_activity_register
+- _xpc_activity_set_state
+- _xpc_activity_should_defer
+- _xpc_activity_unregister
+- _xpc_dictionary_create
+- _xpc_dictionary_set_bool
+- _xpc_dictionary_set_int64
+- _xpc_dictionary_set_string
+CStrings:
++ "T@\"NSString\",?,R,C"
++ "[DEBUG] Start date expired: %@ (%f)"
++ "[WARNING] fileproviderd is going to sleep for %lds"
++ "com.apple.fileproviderd.debug.sleepOnStartDuration"
++ "com.apple.fileproviderd.debug.sleepOnStartInitialDate"
++ "timeIntervalSinceNow"
+- "\x011"
+- "\x01B"
+- "\x02"
+- "\x02!\x111"
+- "\n\n    -- For items found in the other snapshot, resolve the id in the reconciliation table and\n    -- lookup the corresponding item in the local snapshot.\n    JOIN reconciliation_table AS rt ON other_snapshot.id = rt."
+- "\n\n   -- Use union to remove duplicates because we can have cases where\n   -- several items have the same filename, which will cause loops in the query\n   UNION\n\n  SELECT s.id, s.parent_id, s.filename, (rt."
+- "\n\n   UNION\n\n  SELECT rec_snap_"
+- "\n\n   UNION ALL\n\n   SELECT snap.id, snap.parent_id\n     FROM "
+- "\n\n   UNION ALL\n\n  SELECT "
+- "\n\n  UNION -- We may have cycles, don't use UNION ALL\n\n  SELECT "
+- "\n\n  UNION ALL\n\n  SELECT "
+- "\n\n  UNION ALL\n\n  SELECT snap.id, snap.parent_id\n    FROM "
+- "\n\nUNION -- We may have cycles, don't use UNION ALL\n\n  SELECT snap.parent_id, rt."
+- "\n                                                     WHERE id = new.parent_id\n                                                       AND id != new.id\n                                                       AND metadata_is_in_pinned_folder != 0))\n   WHERE id = new.id\n     AND (old.metadata_is_pinned != new.metadata_is_pinned\n          OR old.parent_id != new.parent_id);\nEND"
+- "\n                                                     WHERE id = new.parent_id\n                                                       AND id != new.id\n                                                       AND metadata_is_in_pinned_folder != 0))\n  WHERE id = new.id;\nEND"
+- "\n                                      WHERE parent_id = new.id AND id != new.id),\n                                    0)\n   WHERE id = new.id;\nEND"
+- "\n                                  AND throttle.last_error IS NOT NULL\nWHERE fp_snap.parent_id = "
+- "\n                  ELSE decoration_content_policy\n                 END)\n               ELSE decoration_content_policy\n               END)\n           FROM "
+- "\n                  THEN "
+- "\n                 AND id != parent_id\n                 AND reconciliation_table."
+- "\n                AND item_jobs.scheduling_state_conditions & "
+- "\n               AND +sibling_snap.id != "
+- "\n               THEN "
+- "\n               THEN decoration_inherited_content_policy\n               ELSE decoration_content_policy\n               END)\n           FROM "
+- "\n               THEN decoration_inherited_content_policy\n               ELSE decoration_content_policy\n               END)\n           FROM fp_snapshot\n         WHERE id = "
+- "\n               THEN decoration_inherited_content_policy\n               WHEN "
+- "\n               WHEN "
+- "\n              )\n            OR\n              (\n                item_jobs.scheduling_state = "
+- "\n              AND  rt.fp_content_status != "
+- "\n             AND fp.metadata_kind IN ("
+- "\n             AND jobs.diffs & "
+- "\n            AND fp.metadata_kind IN ("
+- "\n           )\n LIMIT 1"
+- "\n           LEFT JOIN reconciliation_table ON (reconciliation_table."
+- "\n          AND (reason & "
+- "\n          WHEN "
+- "\n          WHEN ("
+- "\n          WHEN new.metadata_kind = "
+- "\n          WHEN old."
+- "\n          WHEN old.metadata_is_in_pinned_folder != new.metadata_is_in_pinned_folder\nBEGIN\n  UPDATE "
+- "\n          WHEN old.parent_id != new.parent_id\nBEGIN\n  -- If the item was reparented, delete from the old parent\n  UPDATE "
+- "\n         AND fp.metadata_kind IN "
+- "\n         AND fp_scheduling_state_conditions & "
+- "\n         AND fs_scheduling_state_conditions & "
+- "\n         AND jobs.diffs & "
+- "\n         WHERE id = "
+- "\n        AND ((jobs.type == "
+- "\n        AND diffs & "
+- "\n        AND fp_scheduling_state_conditions == "
+- "\n        AND fs.metadata_kind IN ("
+- "\n        AND fs_scheduling_state_conditions == "
+- "\n        AND next_retry_date < "
+- "\n        AND rt.kind IN ("
+- "\n        OR fp_content_status = "
+- "\n        OR fp_deletion_status & "
+- "\n        OR fp_scheduling_state = "
+- "\n        OR fs_content_status = "
+- "\n        OR pending_scheduling_timestamp != "
+- "\n        OR rt.fs_scheduling_state_conditions & "
+- "\n       )\n INNER JOIN reconciliation_table AS rt ON rt."
+- "\n       AND (\n              (\n                item_jobs.scheduling_state = "
+- "\n       AND item_jobs.scheduling_state IN "
+- "\n       AND type = "
+- "\n      )\n    OR type == "
+- "\n      ELSE fp.decoration_content_policy IN "
+- "\n      ELSE new.decoration_content_policy\n    END)\n  ELSE\n    new.decoration_content_policy\n END)"
+- "\n      ELSE old.decoration_content_policy\n    END)\n  ELSE\n    old.decoration_content_policy\n END)"
+- "\n      THEN fp.decoration_inherited_content_policy IN "
+- "\n      THEN new.decoration_inherited_content_policy\n      WHEN new.decoration_inherited_content_policy == "
+- "\n      THEN old.decoration_inherited_content_policy\n      WHEN old.decoration_inherited_content_policy == "
+- "\n      WHERE id = "
+- "\n      WHERE state = "
+- "\n     AND +decoration_inherited_user_info IS NOT NULL;\n\n  -- Update the last change date\n  SELECT PROPAGATION_DATE_CHANGED(2, new.id);\nEND"
+- "\n     SET decoration_inherited_content_policy = "
+- "\n     SET decoration_inherited_user_info = NULL\n   WHERE parent_id = new.id AND id != new.id\n     AND +metadata_kind == "
+- "\n     SET decoration_inherited_user_info = NULL\n   WHERE rowID = new.rowID\n     AND +decoration_inherited_user_info IS NOT NULL;\nEND"
+- "\n     SET metadata_is_in_pinned_folder = (metadata_is_pinned != 0\n                                         OR EXISTS (SELECT id\n                                                      FROM "
+- "\n     SET metadata_is_in_pinned_folder = new.metadata_is_in_pinned_folder\n   WHERE parent_id = new.id AND metadata_is_pinned = 0;\n\n  SELECT PINNING_CHANGED(new.id, "
+- "\n     WHERE rowID = new.rowID\n     AND id != new.parent_id\n     AND decoration_inherited_content_policy != "
+- "\n    AND NOT (fs_id IS NULL AND fp_scheduling_state_conditions == "
+- "\n    AND rt.speculative_fulfilled = 0))"
+- "\n    AND throttle.job_type = "
+- "\n    END)\n  ELSE\n    "
+- "\n    END)\n  ELSE\n    fp.decoration_content_policy IN "
+- "\n    INDEXED BY "
+- "\n    JOIN parent_dirs ON "
+- "\n    SET decoration_inherited_content_policy = "
+- "\n   AND ((jobs.type = "
+- "\n   AND ((scheduling_state IN "
+- "\n   AND (jobs.reason & "
+- "\n   AND (scheduling_state IN "
+- "\n   AND +fs.metadata_kind IN "
+- "\n   AND +rt.fp_updated_fields & "
+- "\n   AND +scheduling_state IN "
+- "\n   AND +scheduling_state_conditions & "
+- "\n   AND +snap.id != snap.parent_id\n   AND "
+- "\n   AND NOT (fs_id IS NULL AND fp_scheduling_state_conditions == "
+- "\n   AND domain_wide_error = "
+- "\n   AND filename = "
+- "\n   AND fp_id IS NOT NULL\n   AND (fp_content_status = "
+- "\n   AND fp_scheduling_state = "
+- "\n   AND fp_scheduling_state NOT IN "
+- "\n   AND fp_scheduling_state_conditions & "
+- "\n   AND fs.metadata_is_dataless = 0\n   AND rt.speculative_fulfilled = 0\n   AND "
+- "\n   AND fs_content_status = "
+- "\n   AND fs_deletion_status & "
+- "\n   AND fs_disk_import_status = "
+- "\n   AND fs_id IS NOT NULL\n ORDER BY scheduling_priority DESC, scheduling_timestamp\n LIMIT 100"
+- "\n   AND fs_scheduling_state NOT IN ("
+- "\n   AND fs_scheduling_state_conditions & "
+- "\n   AND id != parent_id\n   "
+- "\n   AND item_id = "
+- "\n   AND j.scheduling_state IN "
+- "\n   AND j.scheduling_timestamp <= "
+- "\n   AND job_type = "
+- "\n   AND jobs.scheduling_state IN "
+- "\n   AND jobs.scheduling_state IN ("
+- "\n   AND metadata_is_dataless = 0\n   AND metadata_is_evictable != 0"
+- "\n   AND metadata_is_dataless = 0\n   AND metadata_is_ignoreroot = 0\n   AND rt.fs_deletion_status & "
+- "\n   AND metadata_is_locked = 0\n   AND +decoration_capabilities & "
+- "\n   AND next_retry_date <= "
+- "\n   AND parent_id != id"
+- "\n   AND parent_id != id\n   AND "
+- "\n   AND parent_id != id\n LIMIT 1"
+- "\n   AND reason != 0\n   AND reason != "
+- "\n   AND reason = "
+- "\n   AND rec.fp_id IS NOT NULL\nORDER BY rec.scheduling_timestamp DESC\nLIMIT 5"
+- "\n   AND rowID NOT IN "
+- "\n   AND rt.conflicting_versions_in_genstore = 1\n   AND rt.rowID > "
+- "\n   AND rt.fp_content_status IN "
+- "\n   AND rt.fs_deletion_status & "
+- "\n   AND rt.fs_updated_fields & "
+- "\n   AND rt.kind = "
+- "\n   AND rt.rowID > "
+- "\n   AND rt.scheduling_timestamp <= "
+- "\n   AND scheduling_state = "
+- "\n   AND scheduling_state NOT IN "
+- "\n   AND scheduling_state_conditions & "
+- "\n   AND scheduling_state_conditions = 0"
+- "\n   AND snap.id IS NULL\n LIMIT "
+- "\n   AND state != "
+- "\n   AND state = "
+- "\n   AND throttle.job_type IN ("
+- "\n   AND type IN ("
+- "\n   FROM parent_dirs AS pd\n  INNER JOIN reconciliation_table AS rt ON rt."
+- "\n   FROM reconciliation_table AS original_rt\n  INNER JOIN "
+- "\n   GROUP BY rec.fp_id"
+- "\n   ORDER BY rt.rowID\n   LIMIT "
+- "\n   SET decoration_inherited_user_info = "
+- "\n   SET pending_reason = pending_reason | "
+- "\n   SET reason = reason | "
+- "\n   SET recursive_disallow_deletion_count = 1\n WHERE (decoration_capabilities & "
+- "\n   SET recursive_disallow_exclusion_count = 1\n WHERE (decoration_capabilities & "
+- "\n   SET recursive_evictable_count = 1\n WHERE metadata_kind != "
+- "\n   SET scheduling_state = "
+- "\n   SET state = "
+- "\n   WHERE id = new.parent_id AND id != new.id AND old.parent_id != new.parent_id;\nEND"
+- "\n   WHERE id = old.parent_id\n     AND NOT (old.id IN ("
+- "\n   WHERE id = old.parent_id AND id != new.id AND old.parent_id != new.parent_id;\n\n  -- If the item was reparented, add to the new parent\n  UPDATE "
+- "\n   WHERE id = old.parent_id;\nEND"
+- "\n   WHERE rec_snap_"
+- "\n   WHERE rowID = new.rowID;\nEND"
+- "\n  AND ((metadata_kind == "
+- "\n  AND EXISTS (SELECT rt.fp_id\n              FROM reconciliation_table AS rt\n              WHERE rt.fp_id = new.id\n              AND rt.fs_id IS NOT NULL)\nBEGIN\n  UPDATE "
+- "\n  AND fs_snap.parent_id != fs_snap.id"
+- "\n  AND rt.fs_disk_import_status IS NULL\n  AND "
+- "\n  ELSE fs_id\nEND)\nWHERE fs_id IS NOT NULL"
+- "\n  FROM fs_snapshot AS fs\n  LEFT JOIN reconciliation_table AS rt ON (rt.fs_id = fs.id)\n  LEFT JOIN fp_snapshot AS fp ON (rt.fp_id = fp.id)\n WHERE fs.parent_id = "
+- "\n  FROM jobs\n WHERE "
+- "\n  FROM parent_dirs AS pd\n INNER JOIN reconciliation_table AS rt ON pd.id == rt."
+- "\n  FROM reconciliation_table"
+- "\n  FROM reconciliation_table\n  WHERE fs_deletion_status & "
+- "\n  FROM reconciliation_table\n WHERE "
+- "\n  FROM reconciliation_table\n WHERE ((fs_scheduling_state = "
+- "\n  FROM reconciliation_table\n WHERE (fs_scheduling_state = "
+- "\n  FROM reconciliation_table\n WHERE fp_scheduling_state = "
+- "\n  FROM reconciliation_table\n WHERE fs_disk_import_status = "
+- "\n  FROM reconciliation_table\n WHERE fs_scheduling_state = "
+- "\n  FROM reconciliation_table AS parent_rt\n INNER JOIN "
+- "\n  FROM reconciliation_table AS rt\n  LEFT JOIN fs_snapshot AS fs ON (fs.id = rt.fs_id)\n  LEFT JOIN fp_snapshot AS fp ON (fp.id = rt.fp_id)\n WHERE "
+- "\n  FROM reconciliation_table AS rt\n  LEFT JOIN fs_snapshot AS fs ON (rt.fs_id = fs.id)\n  LEFT JOIN fp_snapshot AS fp ON (rt.fp_id = fp.id)\n WHERE rt.last_change > "
+- "\n  FROM reconciliation_table AS rt\n WHERE "
+- "\n  FROM reconciliation_table AS rt INDEXED BY recursive_deletion_root\n WHERE rt.fs_deletion_status & "
+- "\n  OR (fp_scheduling_state_conditions & "
+- "\n  OR (fs_scheduling_state_conditions & "
+- "\n  OR (scheduling_state_conditions & "
+- "\n  SET metadata_closest_syncroot = "
+- "\n  WHEN new.decoration_inherited_user_info IS NULL AND new.metadata_kind == "
+- "\n  WHEN new.metadata_kind == "
+- "\n  WHEN new.parent_id != old.parent_id\n  AND EXISTS (SELECT rt.fp_id\n              FROM reconciliation_table AS rt\n              WHERE rt.fp_id = new.id\n              AND rt.fs_id IS NOT NULL)\n BEGIN\n   UPDATE "
+- "\n  WHERE id = new.fp_id\n  AND id != parent_id\n  AND decoration_inherited_content_policy != "
+- "\n  WHERE parent_id = new.id\n  AND id != new.id\n  AND decoration_inherited_content_policy != "
+- "\n  fpSnapshotCounters: "
+- "\n  fsSnapshotCounters: "
+- "\n  snapshot_version UNSIGNED INT NOT NULL DEFAULT 0,\n\n  metadata_kind TINYINT NOT NULL,\n  metadata_is_dataless BOOL NOT NULL,\n  metadata_is_package BOOL NOT NULL,\n  metadata_size UNSIGNED BIG INT NOT NULL,\n  metadata_posix_permissions SMALLINT NOT NULL,\n  metadata_creation_date BIGINT NULL,\n  metadata_content_modification_date BIGINT NULL,\n  metadata_last_used_date BIGINT NULL,\n  metadata_tag_data BLOB NULL,\n  metadata_favorite_rank BIGINT UNSIGNED NULL,\n  metadata_is_hidden BOOL NOT NULL,\n  metadata_extension_hidden BOOL NOT NULL,\n  metadata_child_item_count INT NULL,\n  metadata_extended_attributes BLOB NULL,\n  metadata_is_locked BOOL NOT NULL,\n  metadata_physical_size UNSIGNED BIG INT NULL,\n  metadata_is_evictable BOOL NOT NULL,\n  metadata_is_pinned BOOL NOT NULL,\n  metadata_is_in_pinned_folder BOOL NOT NULL,\n  metadata_before_bounce_filename TEXT DEFAULT NULL,\n  metadata_quarantine_blob BLOB NULL,\n  metadata_is_syncroot BOOL NOT NULL,\n\n  captured_content BLOB NULL,\n\n  "
+- "\n AND fp_snap.parent_id != fp_snap.id"
+- "\n INNER JOIN reconciliation_table AS rt ON rt."
+- "\n ORDER BY enumeration_anchor\n LIMIT "
+- "\n ORDER BY last_change ASC\n LIMIT "
+- "\n ORDER BY rec.scheduling_timestamp DESC\n LIMIT 5"
+- "\n ORDER BY rowID\n LIMIT "
+- "\n ORDER BY rowID ASC\n LIMIT "
+- "\n ORDER BY rt.last_change ASC\n LIMIT "
+- "\n ORDER BY rt.rowID\n LIMIT "
+- "\n ORDER BY scheduling_priority DESC, scheduling_timestamp\n LIMIT "
+- "\n ORDER BY scheduling_timestamp"
+- "\n ORDER BY scheduling_timestamp DESC"
+- "\n WHEN new.decoration_content_policy != old.decoration_content_policy\n AND new.id != new.parent_id\nBEGIN\n  UPDATE "
+- "\n WHERE (scheduling_state IN "
+- "\n WHERE domain_wide_error = "
+- "\n WHERE id IN (SELECT id\n                FROM "
+- "\n WHERE item_id = "
+- "\n WHERE item_jobs.type = "
+- "\n WHERE metadata_is_package = 1\n   AND rowID > "
+- "\n WHERE metadata_is_package AND +metadata_is_evictable = 0\n   AND "
+- "\n WHERE metadata_is_package AND +metadata_is_syncroot = 0\n   AND "
+- "\n WHERE metadata_kind = "
+- "\n WHERE parent_id = "
+- "\n WHERE rowID = "
+- "\n WHERE scheduling_state = "
+- "\n WHERE state = "
+- "\n)\n\nSELECT id\n  FROM path_matching\n WHERE id = "
+- "\n)\n\nSELECT p.id\n  FROM parent_dirs AS p\n INNER JOIN reconciliation_table AS rt ON rt."
+- "\n-- Don't include the conditions in the index lookup\nAND +scheduling_state = "
+- "\n-- Don't include the conditions in the index lookup\nAND +scheduling_state_conditions & "
+- "\nAND (\n      (\n        type == "
+- "\nAND +rt.fp_scheduling_state_conditions & "
+- "\nAND +rt.fs_scheduling_state_conditions & "
+- "\nAND +scheduling_state_conditions & "
+- "\nAND +type NOT IN ("
+- "\nAND container_fs.id != container_fs.parent_id\nAND container_fp.decoration_is_container == 1\nAND container_fp.decoration_is_container_pristine == 0\nORDER BY container_fs.rowID ASC\nLIMIT "
+- "\nAND container_fs.id != container_fs.parent_id\nAND container_fp.decoration_is_container == 1\nAND container_fs.metadata_is_dataless == 1"
+- "\nAND domain_wide_error = "
+- "\nAND rowID NOT IN "
+- "\nAND scheduling_state = "
+- "\nAND scheduling_state IN "
+- "\nAND scheduling_state_conditions & "
+- "\nAND scheduling_state_conditions = "
+- "\nAND source_item_id = "
+- "\nBEGIN\n  -- Update the count for the parent, supporting reparenting cases\n  UPDATE "
+- "\nBEGIN\n  DELETE FROM background_downloader\n   WHERE (id = new.id\n      AND extent_location IS old.extent_location\n      AND extent_length IS old.extent_length);\nEND"
+- "\nBEGIN\n  DELETE FROM background_downloader\n   WHERE id = new.id;\nEND"
+- "\nBEGIN\n  SELECT CONTENT_POLICY_CHANGED(new.id, "
+- "\nBEGIN\n  SELECT SCHEDULE_FP_BACKGROUND_DOWNLOAD(new.id, "
+- "\nBEGIN\n  UPDATE "
+- "\nFROM fs_snapshot AS container_fs\nINNER JOIN fs_snapshot AS document_fs ON (document_fs.parent_id = container_fs.id\nAND document_fs.id != container_fs.id\nAND document_fs.filename = "
+- "\nFROM reconciliation_table\nORDER BY\nCASE\nWHEN fs_id IS NULL AND fp_scheduling_state  == "
+- "\nGROUP BY metadata_kind, metadata_is_package, metadata_is_dataless"
+- "\nOR new.decoration_content_policy == "
+- "\nORDER BY rowID\nLIMIT "
+- "\nORDER BY rt.rowID ASC\n LIMIT "
+- "\nORDER BY scheduling_priority DESC, scheduling_timestamp"
+- "\nORDER BY scheduling_priority DESC, scheduling_timestamp\nLIMIT "
+- "\nORDER BY scheduling_priority DESC, scheduling_timestamp LIMIT "
+- "\nSET new_file_id = "
+- "\nWHERE NOT metadata_is_evictable AND NOT (metadata_is_dataless AND metadata_is_package)"
+- "\nWHERE doc_id = "
+- "\nWHERE file_id = "
+- "\nWHERE item_id = "
+- "\nWHERE metadata_closest_syncroot = "
+- "\nWHERE new_file_id IS NULL"
+- "\nWHERE relative_path = "
+- "\x0f%%"
+- "\x11"
+- "\x17%%"
+- " "
+- "  + active enumerators:\n"
+- "  SELECT rt.rowID, rt.fs_id\n    FROM reconciliation_table AS rt\n   INNER JOIN fs_snapshot AS item_snap ON (rt.fs_id = item_snap.id)\n   WHERE rt.fs_deletion_status & "
+- "  isRecursive reason "
+- "  readingOptions=%{public, signpost.telemetry:string1, name=readingOptions,public}s\n  enableTelemetry=NO\")"
+- "  readingOptions=%{public, signpost.telemetry:string1, name=readingOptions,public}s\n  enableTelemetry=YES\")"
+- "  state=%{public, signpost.telemetry:string2, name=state,public}s\n  providerID=%{public, signpost.telemetry:number1, name=providerID,public}llu"
+- "  state=%{public, signpost.telemetry:string2, name=state,public}s\n  providerID=%{public, signpost.telemetry:number1, name=providerID,public}llu\n  size=%{public, signpost.telemetry:number2, name=size,public}ld"
+- "  🚚  cannot initialize the database for domain %s, disconnecting domain (needs reimport).  Error domain: %{public}s. Error code: %{public}ld.  Error description: %@"
+- "  🚚  cannot initialize the database for domain %s, restarting with a fresh database.  Error domain: %{public}s. Error code: %{public}ld.  Error description: %@"
+- "  🚚  handling database error for domain %s, restarting with a fresh database.  Error domain: %{public}s. Error code: %{public}ld.  Error description: %@"
+- " != 0\n                AND throttle.domain_wide_error = "
+- " != 0\n        OR fp_content_status = "
+- " != 0\n        OR jobs.pending_reason & "
+- " != 0\n     AND NOT EXISTS (SELECT parent_snap.id\n                       FROM fs_snapshot AS parent_snap\n                      WHERE item_snap.parent_id = parent_snap.id\n                    )\n     AND "
+- " != 0\n   AND fs_deletion_status != 0\n   AND "
+- " != 0\n   AND fs_scheduling_state_conditions & "
+- " != 0\n   AND rt."
+- " (\n  id INTEGER PRIMARY KEY,\n  item_id "
+- " (\n  kind TINYINT NOT NULL,\n  item_id "
+- " (\n  relative_path blob not null,\n  file_id integer,\n  doc_id integer,\n  gen_count integer,\n  new_file_id integer,\n  new_doc_id integer,\n  new_gen_count integer\n)"
+- " (\n  relative_path,\n  file_id,\n  doc_id,\n  gen_count,\n  new_file_id,\n  new_doc_id,\n  new_gen_count\n)\nVALUES ("
+- " (invalid anchor: "
+- " (item_id, type, "
+- " (relative_path)"
+- " + 1\n                        ELSE "
+- " + 1\n   WHERE id = new.id;\nEND"
+- " + IFNULL((SELECT SUM("
+- " - 1\n                        END\n   WHERE id = new.id AND ("
+- " --> shoudFlush:"
+- " = 0\n   AND (rt.fs_scheduling_state != "
+- " = 0\n   AND EXISTS (SELECT snap.id\n                 FROM fs_snapshot AS snap\n           INNER JOIN reconciliation_table AS child_rt ON (child_rt.fs_id = snap.id)\n                WHERE snap.parent_id = parent_rt.fs_id\n                  AND snap.parent_id != snap.id\n                  AND child_rt.fs_deletion_status & "
+- " = 0\n   AND NOT (rt.fs_scheduling_state_conditions == "
+- " = 0\n   AND jobs.scheduling_state IN "
+- " = 0)\n   AND metadata_kind IN "
+- " == 0\n              )\n            OR\n              item_jobs.scheduling_state IN "
+- " == 0\n     AND +snap.parent_id != snap.id\n)\n\nSELECT 1\n  FROM ignored_parents\n WHERE rt_deletion_status & "
+- " == 0\n   AND +rt."
+- " ADD COLUMN decoration_conflicting_versions BLOB"
+- " ADD COLUMN decoration_content_policy UNSIGNED INT NOT NULL DEFAULT 0"
+- " ADD COLUMN decoration_inherited_content_policy UNSIGNED INT NOT NULL DEFAULT 0"
+- " ADD COLUMN decoration_inherited_user_info BLOB NULL"
+- " ADD COLUMN decoration_last_editor_device_name TEXT"
+- " ADD COLUMN decoration_shared_item_identifier TEXT NULL"
+- " ADD COLUMN metadata_closest_syncroot UNSIGNED INT NOT NULL DEFAULT 0"
+- " ADD COLUMN metadata_collaboration_identifier TEXT NULL"
+- " ADD COLUMN metadata_is_detached_root BOOL NOT NULL DEFAULT 0"
+- " ADD COLUMN metadata_is_ignoreroot BOOL NOT NULL DEFAULT 0"
+- " ADD COLUMN metadata_link_count UNSIGNED INT"
+- " ADD COLUMN metadata_os_type UNSIGNED INT DEFAULT NULL"
+- " ADD COLUMN recursive_disallow_deletion_count UNSIGNED INT NOT NULL DEFAULT 0"
+- " ADD COLUMN recursive_disallow_exclusion_count UNSIGNED INT NOT NULL DEFAULT 0"
+- " ADD COLUMN recursive_evictable_count UNSIGNED INT NOT NULL DEFAULT 0"
+- " AND\n     fp_scheduling_state  == "
+- " AND\nextent_length = "
+- " AND +domain_wide_error != "
+- " AND +metadata_kind = "
+- " AND +snap.parent_id != snap.id\n   AND "
+- " AND +snapshot_version = "
+- " AND fp_content_status IN "
+- " AND fs.id != fs.parent_id\n ORDER BY fs.rowID ASC\n LIMIT "
+- " AND id != parent_id\n   AND rowID >= "
+- " AND job_type = "
+- " AND next_retry_date = "
+- " AND rt.speculative_fulfilled = 0) THEN\n    "
+- " AND snap.parent_id != snap.id\n   AND ((rt."
+- " AND snap.parent_id != snap.id\n   AND (rt."
+- " AND snap.parent_id != snap.id\n   AND rt."
+- " AND snap.parent_id != snap.id\n LIMIT 1"
+- " AND source_item_id = "
+- " AND source_item_id == "
+- " AS jobs\n  LEFT JOIN "
+- " AS jobs\n WHERE jobs.type = "
+- " AS other_snap ON (other_snap.id = "
+- " AS s\n    JOIN reconciliation_table AS rt ON rt."
+- " AS s ON s.id = rt."
+- " AS snap\n INNER JOIN reconciliation_table AS rt ON (snap.id = rt."
+- " AS snap\n INNER JOIN reconciliation_table AS rt ON rt."
+- " AS snap\n INNER JOIN reconciliation_table AS rt ON snap.id = rt."
+- " AS snap\n WHERE snap.parent_id = "
+- " AS snap ON (snap.id = ignored_parents.id)\n   INNER JOIN reconciliation_table AS rt ON (rt."
+- " FROM engine_state"
+- " INT NOT NULL,\n          extent_location INT DEFAULT NULL,\n          extent_length INT DEFAULT NULL,\n          scheduling_timestamp INT NOT NULL,\n          state TINYINT NOT NULL,\n          reason INT NOT NULL,\n          CONSTRAINT PK_background_download PRIMARY KEY (id, extent_location, extent_length)\n)"
+- " NOT NULL,\n  filename TEXT NOT NULL,\n\n  "
+- " NOT NULL,\n  type TINYINT NOT NULL,\n\n  scheduling_priority UNSIGNED INTEGER NOT NULL,\n  scheduling_timestamp INTEGER NOT NULL,\n  scheduling_state TINYINT NOT NULL,\n  scheduling_state_conditions SMALLINT NOT NULL,\n  scheduling_state_continuation BLOB NULL,\n  reason INT NOT NULL,\n\n  pending_scheduling_priority UNSIGNED INTEGER NOT NULL DEFAULT 0,\n  pending_scheduling_timestamp INTEGER NOT NULL DEFAULT "
+- " NULL UNIQUE,\n  enumeration_anchor INT NULL,\n  last_change INT NULL\n)"
+- " NULL UNIQUE,\n  fp_deletion_status TINYINT NOT NULL,\n  fp_updated_fields SMALLINT NOT NULL,\n  fp_materialization_status TINYINT NULL,\n  "
+- " NULL UNIQUE,\n  fp_id "
+- " NULL UNIQUE,\n  fs_deletion_status TINYINT NOT NULL,\n  fs_updated_fields SMALLINT NOT NULL,\n  fs_materialization_status TINYINT NULL,\n  "
+- " NULL,\n  job_type INTEGER NULL,\n\n  state TINYINT NOT NULL,\n  priority UNSIGNED INT NOT NULL,\n  retry_count SMALLINT NOT NULL,\n  next_retry_date INTEGER NOT NULL,\n  last_error_date INTEGER NOT NULL,\n  last_error BLOB NULL,\n  domain_wide_error INT NOT NULL\n)"
+- " NULL,\nfp_structural_filename TEXT NULL"
+- " NULL,\nfs_structural_filename TEXT NULL"
+- " OR\n         fp_updated_fields != 0 OR\n         fp_deletion_status != 0))\nAND NOT (fs_id IS NULL AND fp_scheduling_state_conditions == "
+- " OR\n         fs_updated_fields != 0 OR\n         fs_deletion_status != 0) OR\n         fs_materialization_status == "
+- " OR\n        rec.fs_disk_import_status == "
+- " OR\n       rec.fs_disk_import_status == "
+- " OR\n      fp_updated_fields != 0 OR\n      fp_deletion_status != 0) OR\n      fs_materialization_status == "
+- " OR\n     fs_updated_fields != 0 OR\n     fs_deletion_status != 0)"
+- " ORDER BY RANDOM() LIMIT "
+- " PRIMARY KEY,\n  parent_id "
+- " PRIMARY KEY,\n  scheduling_timestamp INT NOT NULL,\n  state TINYINT NOT NULL,\n  reason INT NOT NULL\n)"
+- " RENAME COLUMN\ndecoration_collaboration_identifier TO metadata_collaboration_identifier"
+- " RENAME COLUMN\ndecoration_shared_item_identifier TO decoration_collaboration_identifier"
+- " SELECT rt.rowid, "
+- " THEN\n                (CASE\n                  WHEN metadata_kind == "
+- " THEN\n    fp.decoration_inherited_content_policy IN "
+- " THEN\n    new.decoration_inherited_content_policy\n  WHEN "
+- " THEN\n    old.decoration_inherited_content_policy\n  WHEN "
+- " THEN\n   (CASE\n      WHEN "
+- " THEN\n   (CASE\n      WHEN fp.metadata_kind == "
+- " THEN\n   (CASE\n      WHEN new.metadata_kind == "
+- " THEN\n   (CASE\n      WHEN old.metadata_kind == "
+- " THEN 1\nWHEN fs_scheduling_state == "
+- " THEN 2\nELSE 0\nEND\n"
+- " THEN 2 ELSE 0 END, fp_id)\n   WHERE fp_id = new.id;\nEND"
+- " THEN fs_id\n  WHEN fs_id < 0 THEN -(fs_id-"
+- " THEN id\n  WHEN id < 0 THEN -(id-"
+- " WITH RECURSIVE parent_dirs(id, parent_id) AS (\n   SELECT snap.id, snap.parent_id\n     FROM "
+- " [open stream]"
+- " as item_jobs\nLEFT JOIN "
+- " at "
+- " but errno is not set"
+- " by "
+- " complementary:<"
+- " content:partial"
+- " contentInSync metadataInSync "
+- " counter in unexpected negative counter: "
+- " counter in unexpected state: "
+- " destinationItemID baseVersion recursive domainVersion "
+- " didn't complete in time"
+- " droppedEventCount="
+- " error "
+- " error:<see throttling>"
+- " errorDescription:"
+- " filename below syncability "
+- " fpContentStatus fpDeletionStatus "
+- " from to "
+- " in "
+- " inParent "
+- " is importing and is pending enumeration"
+- " is importing but enumerations hasn't been scheduled yet"
+- " isIgnored "
+- " isRecursive reason "
+- " item "
+- " item destinationItemID baseVersion fields version domainVersion "
+- " item newName version "
+- " item version domainVersion "
+- " name "
+- " non-indexed sort"
+- " reason "
+- " recursively reason "
+- " remaining "
+- " reset:%d"
+- " rowID "
+- " rows, dump may be incomplete..."
+- " temporary index"
+- " to prevent sync-loop"
+- " underlyingErrorCode:"
+- " underlyingErrorDomain:"
+- " wait-for-continue:"
+- " wasDataless "
+- " ✍️  %{public}s snapshot mutation: %{public}s"
+- " ✍️  persist job: %{public}s"
+- " ✍️  reconciliation delete: %{public}s %{public}ld"
+- " ✍️  reconciliation insert: %{public}s"
+- " ✍️  reconciliation update: %{public}s"
+- " 🔏"
+- "!subscription.isActivated"
+- "#%%"
+- "$__lazy_storage_$__cachedRTCReporter"
+- "$__lazy_storage_$_importIsRunning"
+- "$__lazy_storage_$_itemCount"
+- "$__lazy_storage_$_swappedStorage"
+- "$__lazy_storage_$_value"
+- "$__lazy_storage_$_vendorExcludedFolders"
+- "%*s %d%s%s"
+- "%4\x11"
+- "%@"
+- "%@  ⚙️ reconciling: %{public}s"
+- "%@  💡 trigger: %{public}s"
+- "%@ %{public}s"
+- "%@ Running jobs"
+- "%@ db was flushed (commit)"
+- "%@ doesn't support trashing.."
+- "%@ evaluating disk import status for %{public}s"
+- "%@ processing item batch %{public}s -> <items:%{public}ld>"
+- "%@ removing FPFS domain data with mode %{public}s"
+- "%@ ‼️  done executing %{public}s%{public}s [duration %{public}s]"
+- "%@ ▶️  executing %{public}s"
+- "%@ ♻️  %{public}s all files for %s"
+- "%@ ♻️  invalidating fpfs for %s"
+- "%@ ⚙️  executing jobs, availabilities fetch-from-fs:\"%s\" other-fs:\"%s\"/%s fetch-from-fp:\"%s\" other-fp:\"%s\"/%s"
+- "%@ ✅  done executing %{public}s%{public}s [duration %{public}s]"
+- "%@ ✋🏻  invalidating database"
+- "%@ 👁  aggregate incoming FP tree changes"
+- "%@ 👁  aggregate incoming FS tree changes"
+- "%@ 👁  processing FP tree changes"
+- "%@ 👁  processing FS tree changes"
+- "%@ 👁  processing ingestion"
+- "%@ 📖  item %@ changed"
+- "%@ 🚚  reimporting below %s (%s disk content)"
+- "%@ 🚧  waiting for %{public}s prior to %s for %s: %s"
+- "%@ 🚧  waiting for ingestion of %{public}s prior to %s for %s: %s"
+- "%@ 🛑  cancelling request for %s: %s"
+- "%@ 🥄 Request to propagate item with ID %s for %s"
+- "%ld blocked jobs, cannot schedule any more jobs (limit: %ld)"
+- "%s"
+- "%s <fs:%s reason:%s> completed: %@"
+- "%s bitmapvalue exceeded alloted %ld bits"
+- "%s did not propagate: item is not bound"
+- "%s did not propagate: propagating is still in progress"
+- "%s was moved inside package %s"
+- "%s/%llu"
+- "%s/%s"
+- "%s/wharf"
+- "%s: fsevents-process"
+- "%s: fsevents-stream"
+- "%{public}s"
+- "%{public}s does not exist. No need to back up."
+- "%{public}s force fetch: %{public}s"
+- "%{public}s of %s failed: %@"
+- "%{public}s path %s"
+- "(\n  fp_scheduling_state != "
+- "(\n  fs_scheduling_state != "
+- "(\n  scheduling_state != "
+- "((fp.metadata_kind == "
+- "((new.metadata_kind == "
+- "(CASE decoration_inherited_content_policy\n  WHEN "
+- "(CASE fp.decoration_content_policy\n  WHEN "
+- "(CASE new.decoration_content_policy\n  WHEN "
+- "(CASE old.decoration_content_policy\n  WHEN "
+- "(SELECT parent_id FROM fp_snapshot\nWHERE id = "
+- "(file_id, gen_count)"
+- "(fp_scheduling_state_conditions & "
+- "(fs_scheduling_state_conditions & "
+- "(id) AS (\n  SELECT rec_snap_"
+- "(id, metadata_is_package)"
+- "(id, vfs_fileid, parent_id, metadata_is_syncroot)"
+- "(item_id, kind, job_type)"
+- "(kind, item_id, job_type)"
+- "(metadata_is_evictable)\n       WHERE NOT metadata_is_evictable"
+- "(metadata_kind, id, parent_id, metadata_is_ignoreroot)"
+- "(new.decoration_content_policy == "
+- "(parent_id, filename "
+- "(parent_id, metadata_is_dataless, metadata_kind)"
+- "(pending_reason IS NOT NULL)"
+- "(pkg item) expected %{public}s, but received %{public}s"
+- "(scheduling_state)"
+- "(scheduling_state, pending_reason)"
+- "(scheduling_state, pending_scheduling_timestamp)"
+- "(scheduling_state, scheduling_priority DESC, scheduling_timestamp)"
+- "(scheduling_state, scheduling_state_conditions, pending_scheduling_timestamp)"
+- "(scheduling_state, type, scheduling_priority DESC, scheduling_timestamp)"
+- "(state, domain_wide_error)"
+- "(state, next_retry_date)"
+- "(type, scheduling_state)"
+- "(undefined)"
+- ")\n                                       FROM "
+- ")\n                                  AND throttle.state = "
+- ")\n         OR jobs.type == "
+- ")\n         OR rt.fs_materialization_status == "
+- ")\n        AND fs.metadata_is_ignoreroot = 0"
+- ")\n        AND fs.metadata_is_ignoreroot = 0\n  UNION ALL\n     SELECT CASE fs.metadata_size\n       WHEN 0 THEN 1\n       ELSE fs.metadata_size\n        END metadata_size\n       FROM jobs\n INNER JOIN fs_snapshot AS fs ON (jobs.source_item_id = fs.id)\n      WHERE ((jobs.type == "
+- ")\n        AND jobs.side == "
+- ")\n        AND rt.kind == "
+- ")\n        OR (fp_scheduling_state = "
+- ")\n        OR (jobs.type = "
+- ")\n        OR jobs.type == "
+- ")\n      VALUES ("
+- ")\n    OR (fp_scheduling_state = "
+- ")\n    OR pending_scheduling_timestamp != "
+- ")\n   AND +scheduling_state_conditions & "
+- ")\n   AND +snap.id != snap.parent_id\n LIMIT 1"
+- ")\n   AND NOT (rt.fp_scheduling_state_conditions == "
+- ")\n   AND jobs.scheduling_state IN "
+- ")\n   AND jobs.scheduling_timestamp <= "
+- ")\n   AND jobs.side == "
+- ")\n   AND throttle.job_type IN ("
+- ")\n   AND throttle.last_error IS NOT NULL"
+- ")\n   AND throttle.last_error IS NOT NULL\n GROUP BY rec.fs_id\n LIMIT 100"
+- ")\n  FROM reconciliation_table AS rt\n  LEFT JOIN fp_snapshot AS fp ON (rt.fp_id = fp.id)\n  WHERE rt.rowID = new.rowID\n  AND rt.fp_content_status != "
+- ")\n  INNER JOIN reconciliation_table AS rt ON rt."
+- ")\n  OR (new.metadata_kind == "
+- ")\n  UNION ALL\n     SELECT CASE fp.metadata_size\n       WHEN 0 THEN 1\n       ELSE fp.metadata_size\n        END metadata_size\n       FROM jobs\n INNER JOIN fp_snapshot AS fp ON (jobs.source_item_id = fp.id)\n INNER JOIN reconciliation_table AS rt ON (jobs.source_item_id = rt.fp_id)\n      WHERE jobs.side == "
+- ")\n  WHEN fs_id > 0 THEN fs_id -"
+- ")\n  WHEN id > 0 THEN id -"
+- ")\n FROM fs_snapshot AS fs\n LEFT JOIN reconciliation_table AS rt ON (fs.id = rt.fs_id)\n LEFT JOIN fp_snapshot AS fp ON (fp.id = rt.fp_id)\n WHERE fs.rowID = new.rowID\n AND rt.fs_disk_import_status IS NULL\n AND "
+- ")\n GROUP BY rec.fs_id\n ORDER BY rec.scheduling_timestamp DESC\n LIMIT 5"
+- ")\n ORDER BY scheduling_priority DESC, scheduling_timestamp\n LIMIT "
+- ")\n WHERE scheduling_state = "
+- ")\nAND scheduling_state = "
+- ")\nBEGIN\n  -- Update the recursive_dataless_count for the current item\n  UPDATE "
+- ")\nBEGIN\n  SELECT UNSCHEDULE_BACKGROUND_DOWNLOAD(new.id, "
+- ")\nGROUP BY fs_disk_import_status"
+- ")\nLEFT JOIN reconciliation_table AS container_rt ON (container_rt.fs_id = container_fs.id)\nLEFT JOIN fp_snapshot AS container_fp ON (container_rt.fp_id = container_fp.id)\nLEFT JOIN reconciliation_table AS document_rt ON (document_rt.fs_id = document_fs.id)\nLEFT JOIN fp_snapshot AS document_fp ON (document_rt.fp_id = document_fp.id)\nWHERE container_fs.parent_id = "
+- ")\nORDER BY scheduling_priority DESC, scheduling_timestamp\nLIMIT "
+- ")\nORDER BY scheduling_timestamp ASC\nLIMIT 1"
+- ") != 0\n    FROM "
+- ") != 0\n    FROM path_matching AS pm\n    -- From the previously found item, lookup path-matching items in the other snapshot\n    -- by resolving the id in the reconciliation table, then performing a lookup by (parent_id, filename)\n    JOIN reconciliation_table AS parent_rt ON pm.parent_id = parent_rt."
+- ") != 0)\n        OR (pending_reason & "
+- "))\n         OR (jobs.type == "
+- "))\n        AND rt.fp_content_status == "
+- ")))\n   AND rt.fp_content_status = "
+- "),\n       pending_scheduling_timestamp = MIN(pending_scheduling_timestamp, "
+- "),\n       scheduling_priority = MAX(scheduling_priority, "
+- "),\n       scheduling_timestamp = MIN(scheduling_timestamp, "
+- "), add the registration in the FileTree that use that type:\n  "
+- "*"
+- "+ FSEvent: UUID="
+- "+ database history:"
+- "+ database: version="
+- "+ disk import scheduler: "
+- "+ domain version: "
+- "+ download progress: "
+- "+ error generation: "
+- "+ feature flags: "
+- "+ lock (in memory state)"
+- "+ pending set watched"
+- "+ processing requests"
+- "+ propagation jobs"
+- "+ reconciliation ("
+- "+ scheduling state: "
+- "+ stream reset scheduler: "
+- "+ throttling: next expiration in "
+- "+ throttling: no expiration scheduled"
+- "+ upload progress: "
+- "+rt.fp_scheduling_state = "
+- "+rt.fs_scheduling_state = "
+- ",\n                "
+- ",\n                        "
+- ",\n                             "
+- ",\n                                "
+- ",\n                                 "
+- ",\n                                  "
+- ",\n                                   "
+- ",\n                                         "
+- ",\n                                                            "
+- ",\n                                new.metadata_kind)\n    WHERE "
+- ",\n        NULL,\n        NULL,\n        NULL\n)"
+- ",\n       container_fs.recursive_dataless_count, container_fs.recursive_evictable_count,\n       container_fp.metadata_is_pinned, container_fp.metadata_is_in_pinned_folder,\n       container_fp.content_version, container_fp.structural_version,\n       container_fp.recursive_disallow_deletion_count, container_fp.recursive_disallow_exclusion_count,\n       "
+- ",\n       document_fs.recursive_dataless_count, document_fs.recursive_evictable_count,\n       document_fp.metadata_is_pinned, document_fp.metadata_is_in_pinned_folder,\n       document_fp.content_version, document_fp.structural_version,\n       document_fp.recursive_disallow_deletion_count, document_fp.recursive_disallow_exclusion_count,\n       "
+- ",\n       fs.recursive_dataless_count, fs.recursive_evictable_count,\n       fp.metadata_is_pinned, fp.metadata_is_in_pinned_folder,\n       fp.content_version, fp.structural_version,\n       fp.recursive_disallow_deletion_count, fp.recursive_disallow_exclusion_count,\n       "
+- ",\n       fs.recursive_dataless_count, fs.recursive_evictable_count,\n       fp.metadata_is_pinned, fp.metadata_is_in_pinned_folder,\n       fp.content_version, fp.structural_version,\n       fp.recursive_disallow_deletion_count, fp.recursive_disallow_exclusion_count,\n       rt.last_change,\n       rt.fs_deletion_status,\n       "
+- ",\n       fs_structural_filename = "
+- ",\n       pending_scheduling_priority = 0\n WHERE id = "
+- ",\n       pending_scheduling_priority = MAX(pending_scheduling_priority, "
+- ",\n       reason = "
+- ",\n       reason = pending_reason,\n       scheduling_timestamp = pending_scheduling_timestamp,\n       scheduling_priority = pending_scheduling_priority,\n       pending_reason = 0,\n       pending_scheduling_timestamp = "
+- ",\n       reason = reason | "
+- ",\n       scheduling_priority = "
+- ",\n       scheduling_priority = MAX(scheduling_priority, "
+- ",\n       scheduling_timestamp = "
+- ",\n       scheduling_timestamp = MIN(scheduling_timestamp, "
+- ",\n       snapshot_version = snapshot_version + 1\n WHERE id = "
+- ",\n    new_doc_id = "
+- ",\n    new_gen_count = "
+- ",\n  fp_content_status TINYINT NOT NULL,\n  fp_was_dataless_before_disk_import BOOL NOT NULL,\n  fp_disk_import_status TINYINT NULL,\n  fp_captured_content_file_id UNSIGNED INT NULL,\n  fp_captured_content_test_content BLOB NULL,\n  fp_scheduling_state TINYINT NOT NULL,\n  fp_scheduling_state_conditions SMALLINT NOT NULL,\n\n  kind TINYINT,\n  colliding_id BLOB NULL,\n  scheduling_priority UNSIGNED INTEGER NOT NULL,\n  scheduling_timestamp INTEGER NOT NULL,\n  item_is_flocked BOOL,\n\n  -- In order to be able to enumerate changes in the list of items that are\n  -- materialized on disk, we track the items from the reconciliation table\n  -- for which the children status (or has been) of interest.\n  --\n  -- In order to allow the change-based enumeration, we use an auto-incremented\n  -- integer and assign its value to items for which the children monitoring\n  -- has changed. This is done in two places:\n  --  - in reconciliation_table for items that are still live and reconciled\n  --  - in the new tombstone_table for delete items\n  enumeration_anchor INT NULL,\n\n  -- Update the enumeration on an item by keeping track of the last known\n  -- change for that item on disk or on the FP\n  last_change INT NULL\n)"
+- ",\n  fs_content_status TINYINT NOT NULL,\n  fs_was_dataless_before_disk_import BOOL NOT NULL,\n  fs_disk_import_status TINYINT NULL,\n  fs_captured_content_file_id UNSIGNED INT NULL,\n  fs_captured_content_test_content BLOB NULL,\n  fs_scheduling_state TINYINT NOT NULL,\n  fs_scheduling_state_conditions SMALLINT NOT NULL,\n\n  fp_id "
+- ",\n  pending_reason INT NOT NULL DEFAULT 0\n)"
+- ",\nWHERE rowID = "
+- ",\nfp_captured_content_file_id = "
+- ",\nfs_captured_content_file_id = "
+- ",\nfs_structural_parent_id = "
+- ",\nfs_vfs_generationid = "
+- ",\nmetadata_closest_syncroot = "
+- ",\ntarget_item_id = "
+- ",\nvfs_generationid = "
+- ", "
+- ", 0,\n  NULL, NULL, NULL\n)"
+- ", decoration_inherited_content_policy)\n     VALUES ("
+- ", fs_id)\n   WHERE fs_id = new.id;\nEND"
+- ", is_pending)\n     VALUES ("
+- ", losersToRemove:"
+- ", may-already-exists, why:"
+- ", new.metadata_kind);\nEND"
+- ", new.metadata_kind,\n                                         new.decoration_content_policy);\nEND"
+- ", reason,\n                           scheduling_timestamp, scheduling_priority)\n     VALUES ("
+- ", recursive_dataless_count, recursive_non_evictable_count, recursive_evictable_count"
+- ", recursive_disallow_deletion_count, recursive_disallow_exclusion_count"
+- ", requireProviderItemID: "
+- "-- Allowed operations on the item\ndecoration_capabilities INT,\n\n-- Transfer status\ndecoration_is_uploading BOOL NOT NULL,\ndecoration_is_uploaded BOOL NOT NULL,\ndecoration_uploading_error BLOB NULL,\ndecoration_downloading_error BLOB NULL,\ndecoration_is_excluded_from_sync BOOL NOT NULL,\n\n-- Sharing\ndecoration_is_shared BOOL NOT NULL,\ndecoration_is_top_level_shared_item BOOL NOT NULL,\ndecoration_is_shared_by_current_user BOOL NOT NULL,\ndecoration_preformatted_owner_name TEXT NULL,\ndecoration_preformatted_most_recent_editor_name TEXT NULL,\ndecoration_last_edited_by_current_user BOOL NOT NULL,\ndecoration_sharing_permissions TEXT NULL,\n\n-- App libraries\ndecoration_is_container BOOL NOT NULL,\ndecoration_is_container_pristine BOOL NOT NULL,\ndecoration_app_container_bundle_identifier TEXT NULL,\ndecoration_cloud_container_identifier TEXT NULL,\ndecoration_container_display_name TEXT NULL,\n\n-- Other\ndecoration_display_name TEXT NULL,\ndecoration_has_unresolved_conflicts BOOL NOT NULL,\n\n-- Free-form data\ndecoration_item_decoration BLOB NULL,\ndecoration_user_info BLOB NULL"
+- "-- Look at everything that seems to have pending propagations or\n-- metadata refreshes and that has the item in its parent hierarchy:\n--   * either an unstable reconciliation entry\n--   * or a pending (or running) FetchItem job\nSELECT rt."
+- "-- Looks for schedule fetch-children-metadata on those directories\nSELECT jobs.item_id\n  FROM "
+- "-[FSChangeMonitor _activateSubscription:error:]"
+- "-[FSChangeMonitor _queueEvents:markSelfEncountered:]"
+- "-[FSChangeMonitor resume]"
+- "-fail-with-dropped"
+- "-fail-with-errno-"
+- "."
+- ".Trash"
+- ".Trash-from-provider"
+- ".Trash-not-a-dir-in-fs"
+- "._"
+- ".id\n   WHERE id = "
+- ".id\n   WHERE rec_snap_"
+- ".id\n WHERE parent_id = "
+- ".id = parent_dirs.id AND "
+- ".id = parent_dirs.parent_id\n      AND parent_dirs.id != parent_dirs.parent_id\n)\n\nSELECT closest_sync_root\n  FROM parent_dirs\n WHERE closest_sync_root != 0"
+- ".id = parent_dirs.parent_id AND parent_dirs.id != parent_dirs.parent_id\n)\n\nSELECT 1\n  FROM parent_dirs AS p\n INNER JOIN "
+- ".id)\nSELECT id\n  FROM parent_"
+- ".materializedSetChanged"
+- ".metadata_is_syncroot != 0 THEN "
+- ".notify."
+- ".notify.%@.nosync"
+- ".parent_id\n    FROM "
+- ".parent_id\n    FROM parent_"
+- ".parent_id\n   WHERE "
+- ".parent_id\n)\n\nSELECT id\n  FROM parent_dirs\n WHERE id = "
+- ".parent_id != rec_snap_"
+- ".parent_id,\n    CASE\n      WHEN "
+- ".pendingSetChanged"
+- ".register(child: "
+- ".rendez-vous."
+- ".rendez-vous.%@.nosync"
+- ".vfs_fileid\n      ELSE 0\n    END\n    FROM "
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/fpfs/FPDDomainFPFSBackend.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/fpfs/FPFSGlobalProgress.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/fpfs/InternalPathsManager.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/fpfs/enumerators/ChangeEnumerator.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/fpck/PeriodicFPCK.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/implementations/file-system/persistence/Prequelite+FSSyncAdditions.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/implementations/file-system/persistence/SQLBackgroundDownloader.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/implementations/file-system/persistence/SQLDatabase.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/implementations/file-system/persistence/SQLItemJobRegistry.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/implementations/file-system/persistence/SQLJobRegistry.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/implementations/file-system/persistence/SQLReconciliationTable.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/implementations/file-system/tree/VFSFileTree+DiagnosticCollection.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/implementations/file-system/tree/VFSFileTree+Lookup.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/implementations/file-system/tree/VFSFileTree.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/implementations/file-system/tree/VFSItem.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/implementations/file-system/tree/VFSLookupScope.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/interfaces/file-tree/item/FileItemID.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/interfaces/file-tree/item/types/ItemMetadata.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/interfaces/file-tree/item/types/ItemNonSyncableAttributes.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/interfaces/job/Job.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/interfaces/job/TestingOperation.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/interfaces/persistence/JobRegistry.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/interfaces/persistence/ReconciliationTable.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/interfaces/persistence/SyncStateStore.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/interfaces/persistence/types/ItemReconciliation.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/sync-logic/ConcreteDatabase.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/sync-logic/Maintenance.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/sync-logic/Propagation.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/sync-logic/Reconciliation.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/utilities/Utilities.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/fssync/libfssync/wharf/DocumentWharf.swift"
+- "/background_download_on_insert\""
+- "/background_download_on_insert\"\n AFTER INSERT ON "
+- "/background_download_on_update\""
+- "/background_download_on_update\"\n AFTER UPDATE OF decoration_content_policy, decoration_inherited_content_policy ON "
+- "/delete\"\n  AFTER DELETE ON "
+- "/entry_update\"\n AFTER UPDATE OF decoration_user_info, parent_id ON "
+- "/evictable_update\""
+- "/evictable_update\"\n AFTER UPDATE OF decoration_content_policy ON "
+- "/insert\"\n  AFTER INSERT ON "
+- "/insert\"\n AFTER INSERT ON "
+- "/insert_parent\"\n  AFTER INSERT ON "
+- "/item_insertion\""
+- "/item_update\"\n AFTER UPDATE OF decoration_content_policy ON "
+- "/local_update\"\n  AFTER UPDATE OF "
+- "/local_update_evictable\""
+- "/local_update_non_evictable\""
+- "/parent_update\"\n AFTER UPDATE OF parent_id ON "
+- "/recursive_invalidation\"\n AFTER UPDATE OF decoration_inherited_user_info ON "
+- "/recursive_item_update\"\n AFTER UPDATE ON "
+- "/recursive_pinning_update\"\n  AFTER UPDATE OF metadata_is_in_pinned_folder ON "
+- "/recursive_update\""
+- "/recursive_update\"\n  AFTER UPDATE OF "
+- "/recursive_update\"\n AFTER UPDATE OF decoration_content_policy, decoration_inherited_content_policy ON "
+- "/recursive_update_reparent\""
+- "/recursive_update_reparent\"\n  AFTER UPDATE OF parent_id ON "
+- "/tmp/should_not_be_used/"
+- "/unschedule_background_download\""
+- "/unschedule_background_download\"\n AFTER UPDATE OF decoration_content_policy, decoration_inherited_content_policy ON "
+- "/var/mobile/Library/Application Support/FileProvider/backup/backup_manifest.db"
+- "1"
+- "1 ORDER BY item_id, kind, job_type"
+- "1 ORDER BY scheduling_priority DESC, scheduling_timestamp"
+- "1A"
+- "3%%"
+- ": domain-fpfsbackend"
+- ": errorGenerationPropertyQueue"
+- ": item contains diffs for still pending fields"
+- ": item contains unexpected diffs "
+- ": pending-set-watching"
+- ": propagation for "
+- ": waiting-items-watching"
+- ": wharf-housekeeping"
+- ": working-set-changed"
+- ":SQLBackgroundDownloaderDebounceQueue"
+- ":SQLBackgroundDownloaderRegistrationQueue"
+- ";\n   SELECT CONTENT_POLICY_CHANGED(new.id, "
+- ";\n  SELECT SCHEDULE_BACKGROUND_DOWNLOAD(new.fs_id, 1, "
+- "<%@ #%llu fileID:%llu flags:%@ path:'%@'>"
+- "<%@: %p %@ roots: %@>"
+- "<%@:%p>, device:'%s' mounted-on:'%s' fstype:%s"
+- "<actual:nil requested:"
+- "<id:%llu,flg:0x%x> "
+- "<nil>"
+- "<none>"
+- "<searchEnumerator requestedBy:"
+- "<subscription %@: (inactive)>"
+- "<subscription %@: observing>"
+- "@\"<FSChangeSubscriptionDelegate>\""
+- "@\"<OS_xpc_object>\"8@?0"
+- "@\"FPDDomainCleanupResult\"32@0:8Q16^@24"
+- "@\"FPDDomainIndexer\"36@0:8@\"FPDExtension\"16B24^@28"
+- "@\"FPRTCReportingSession\""
+- "@\"FSChangeMonitor\""
+- "@\"FSVolume\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSData\"16@0:8"
+- "@\"NSData\"8@?0"
+- "@\"NSFileProviderDomainVersion\"16@0:8"
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSObject<OS_dispatch_group>\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_dispatch_source>\""
+- "@\"NSObject<OS_os_log>\""
+- "@\"NSProgress\"32@0:8@\"FPItemID\"16@?<v@?@\"NSURL\"@\"NSError\">24"
+- "@\"NSProgress\"40@0:8@\"NSString\"16Q24@?<v@?@\"NSError\">32"
+- "@\"NSProgress\"40@0:8@\"NSURL\"16@\"FPDRequest\"24@?<v@?@\"FPItemID\"@\"NSError\">32"
+- "@\"NSProgress\"48@0:8@\"NSString\"16@\"NSArray\"24@\"NSString\"32@?<v@?@\"NSError\">40"
+- "@\"NSProgress\"56@0:8@\"FPItemID\"16@\"NSFileProviderItemVersion\"24Q32@\"NSFileProviderRequest\"40@?<v@?@\"FPExtensionResponse\"@\"NSError\">48"
+- "@\"NSProgress\"56@0:8@\"NSURL\"16@24Q32@\"FPDRequest\"40@?<v@?@\"NSError\">48"
+- "@\"NSProgress\"68@0:8@\"FPItem\"16Q24@\"FPSandboxingURLWrapper\"32Q40@\"NSFileProviderRequest\"48B56@?<v@?@\"FPItem\"QB@\"FPExtensionResponse\"@\"NSError\">60"
+- "@\"NSProgress\"72@0:8@\"FPItem\"16@\"NSFileProviderItemVersion\"24Q32@\"FPSandboxingURLWrapper\"40Q48@\"NSFileProviderRequest\"56@?<v@?@\"FPItem\"QB@\"FPExtensionResponse\"@\"NSError\">64"
+- "@\"NSProgress\"76@0:8@\"FPItemID\"16@\"NSFileProviderItemVersion\"24@\"FPSandboxingURLWrapper\"32@\"NSFileProviderItemVersion\"40@\"NSFileProviderRequest\"48q56B64@?<v@?@\"FPSandboxingURLWrapper\"@\"FPItem\"@\"FPExtensionResponse\"Q@\"NSError\">68"
+- "@\"NSProgress\"84@0:8@\"FPItemID\"16@\"NSFileProviderItemVersion\"24@\"NSFileProviderRequest\"32q40B48@\"NSValue\"52Q60Q68@?<v@?@\"FPSandboxingURLWrapper\"@\"FPItem\"@\"FPExtensionResponse\"@\"NSValue\"Q@\"NSError\">76"
+- "@\"NSString\""
+- "@\"NSString\"16@?0@\"PQLQueryBuilder\"8"
+- "@\"NSURL\""
+- "@\"NSURL\"24@0:8@\"FPItemID\"16"
+- "@\"NSURL\"40@0:8@\"NSURL\"16@\"NSArray\"24^@32"
+- "@\"NSUUID\""
+- "@\"_TtC9libfssync19FPFSSQLBackupEngine\""
+- "@\"_TtC9libfssync20FPFSSQLRestoreEngine\""
+- "@20@0:8i16"
+- "@24@0:8@\"FPDDomain\"16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8@?<v@?@\"NSError\">16"
+- "@28@0:8i16@20"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8Q16@24"
+- "@32@0:8Q16^@24"
+- "@36@0:8@16@24B32"
+- "@36@0:8@16B24^@28"
+- "@36@0:8i16Q20Q28"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24@?32"
+- "@40@0:8@16@24^@32"
+- "@40@0:8@16Q24@?32"
+- "@44@0:8@16Q24I32Q36"
+- "@48@0:8@16@24@32@?40"
+- "@52@0:8@16@24@32@40i48"
+- "@56@0:8@16@24@32Q40B48B52"
+- "@56@0:8@16@24Q32@40@?48"
+- "@60@0:8@16@24@32@40i48@?52"
+- "@64@0:8@16i24Q28@36B44@48@56"
+- "@68@0:8@16@24@32@40i48@?52@?60"
+- "@68@0:8@16Q24@32Q40@48B56@?60"
+- "@72@0:8@16@24Q32@40Q48@56@?64"
+- "@72@0:8@16i24@28Q36@44B52@56@64"
+- "@76@0:8@16@24@32@40@48q56B64@?68"
+- "@84@0:8@16@24@32q40B48@52Q60Q68@?76"
+- "@?<v@?>16@?0@\"NSProgress\"8"
+- "AB"
+- "ACL cleanup on item cloned from ino:%llu failed: %{errno}d"
+- "ALTER TABLE background_downloader_copy RENAME TO background_downloader"
+- "ALTER TABLE engine_state ADD COLUMN domain_version UNSIGNED INT NOT NULL DEFAULT 0"
+- "ALTER TABLE engine_state ADD COLUMN error_generation INT NOT NULL DEFAULT 0"
+- "ALTER TABLE engine_state ADD COLUMN feature_flags UNSIGNED INT NOT NULL DEFAULT 0"
+- "ALTER TABLE engine_state ADD COLUMN scheduling_state UNSIGNED INT NOT NULL DEFAULT 0"
+- "ALTER TABLE history\n ADD COLUMN reason TEXT NULL"
+- "ALTER TABLE jobs ADD COLUMN domain_version UNSIGNED INT NULL"
+- "ALTER TABLE reconciliation_table\n ADD COLUMN "
+- "ALTER TABLE reconciliation_table ADD COLUMN conflicting_versions_in_genstore BOOL NOT NULL DEFAULT 0"
+- "ALTER TABLE reconciliation_table ADD COLUMN fp_captured_content_length INT NULL;"
+- "ALTER TABLE reconciliation_table ADD COLUMN fp_captured_content_location INT NULL;"
+- "ALTER TABLE reconciliation_table ADD COLUMN fs_captured_content_length INT NULL;"
+- "ALTER TABLE reconciliation_table ADD COLUMN fs_captured_content_location INT NULL;"
+- "ALTER TABLE reconciliation_table ADD COLUMN fs_domain_version UNSIGNED INT NOT NULL DEFAULT 0"
+- "ALTER TABLE reconciliation_table ADD COLUMN is_pending UNSIGNED INT NOT NULL DEFAULT 0"
+- "ALTER TABLE reconciliation_table ADD COLUMN speculative_fulfilled BOOL NOT NULL DEFAULT 0"
+- "ALTER TABLE tombstone_table_copy RENAME TO tombstone_table"
+- "AND snap.filename = "
+- "Ai"
+- "All"
+- "An update of the package extension list was detected, reloading..."
+- "Attempting to import detached folder at %{public}s into new domain %{public}s"
+- "Attempting to import existing domain at %{public}s into new domain %{public}s"
+- "Auth state changed underneath fetchEventStream, from %{bool}d to %{bool}d. Forcing hasMore to cause retry."
+- "B"
+- "B16@?0@\"FSChangeSubscription\"8"
+- "B16@?0@\"PQLConnection\"8"
+- "B16@?0Q8"
+- "B16@?0^{fpfs_tag=*i}8"
+- "B16@?0r*8"
+- "B20@0:8B16"
+- "B24@0:8@\"NSURL\"16"
+- "B24@0:8^@16"
+- "B28@0:8@16B24"
+- "B32@0:8@\"NSString\"16^@24"
+- "B32@0:8@16I24I28"
+- "B32@0:8@16^@24"
+- "B32@0:8@16^{fpfs_item_handle=QQII*iI}24"
+- "B32@0:8Q16^@24"
+- "B32@0:8q16^@24"
+- "B40@0:8@\"FSChecker\"16@\"NSString\"24r^{fpfs_item_handle=QQII*iI}32"
+- "B40@0:8@16@24r^{fpfs_item_handle=QQII*iI}32"
+- "B44@0:8@16B24@28^@36"
+- "B48@0:8@16Q24^@32@?40"
+- "B52@0:8@\"FSChecker\"16i24r^{?=BBBBBBBBBB^{fpfs_fileattrs}^{stat}I}28@\"NSArray\"36Q44"
+- "B52@0:8@16i24r^{?=BBBBBBBBBB^{fpfs_fileattrs}^{stat}I}28@36Q44"
+- "BACKGROUND_GOOD_CONDITIONS"
+- "BSD flags cleanup on item cloned from ino:%llu failed: %{errno}d"
+- "C"
+- "CONTENT_POLICY_CHANGED"
+- "CREATE INDEX IF NOT EXISTS doc_id_index ON "
+- "CREATE INDEX IF NOT EXISTS file_id_gen_count_index ON "
+- "CREATE INDEX IF NOT EXISTS recursive_deletion_root ON reconciliation_table(fs_deletion_status)\n WHERE fs_deletion_status & "
+- "CREATE INDEX background_downloader__state__scheduling_timestamp\n    ON background_downloader(state, scheduling_timestamp)"
+- "CREATE INDEX jobs__side__scheduling_ordering\n    ON jobs(side, scheduling_priority DESC, scheduling_timestamp)"
+- "CREATE INDEX jobs_global_progress_fp ON jobs(side, source_item_id, type, diffs)\n       WHERE side == "
+- "CREATE INDEX jobs_side__source_id__type__scheduling_state\n    ON jobs(side, source_item_id, type, scheduling_state)"
+- "CREATE INDEX jobs_state__side__scheduling_ordering\n    ON jobs(scheduling_state, side, scheduling_priority DESC, scheduling_timestamp)"
+- "CREATE INDEX jobs_state__side__type__scheduling_ordering\n    ON jobs(scheduling_state, side, type, scheduling_priority DESC, scheduling_timestamp)"
+- "CREATE INDEX pending_set_probe_fp ON reconciliation_table(scheduling_timestamp, fp_scheduling_state, fp_updated_fields,\n    fp_deletion_status, fs_materialization_status, fs_id, fp_scheduling_state_conditions) WHERE\n    ((fp_scheduling_state IN "
+- "CREATE INDEX pending_set_probe_fs ON reconciliation_table(scheduling_timestamp, fs_scheduling_state, fs_updated_fields,\n    fs_deletion_status, fp_id) WHERE\n    fp_id IS NOT NULL AND\n    (fs_scheduling_state IN "
+- "CREATE INDEX reconciliation__fp_scheduling_state__fp_id ON reconciliation_table(fp_scheduling_state, fp_id)"
+- "CREATE INDEX reconciliation__fp_scheduling_state__fs_id ON reconciliation_table(fp_scheduling_state, fs_id)"
+- "CREATE INDEX reconciliation__fs_scheduling_state__fp_id ON reconciliation_table(fs_scheduling_state, fp_id)"
+- "CREATE INDEX reconciliation__fs_scheduling_state__fs_id ON reconciliation_table(fs_scheduling_state, fs_id)"
+- "CREATE INDEX reconciliation_fp_scheduling_state ON reconciliation_table(fp_scheduling_state)"
+- "CREATE INDEX reconciliation_fs_disk_import_status__fp_id ON reconciliation_table(fs_disk_import_status, fp_id)"
+- "CREATE INDEX reconciliation_fs_disk_import_status__fs_id ON reconciliation_table(fs_disk_import_status, fs_id)"
+- "CREATE INDEX reconciliation_fs_scheduling_state ON reconciliation_table(fs_scheduling_state)"
+- "CREATE INDEX reconciliation_global_progress_fp\n          ON reconciliation_table(kind, fp_id, fp_updated_fields, fp_content_status, fs_materialization_status, fs_id,\n                                  fp_scheduling_state_conditions)\n       WHERE kind == "
+- "CREATE INDEX reconciliation_global_progress_fp ON reconciliation_table(kind, fp_id)\n       WHERE fp_updated_fields & "
+- "CREATE INDEX reconciliation_global_progress_fs ON reconciliation_table(kind, fs_id)\n       WHERE fs_updated_fields & "
+- "CREATE INDEX reconciliation_global_progress_fs ON reconciliation_table(kind, fs_id, fs_updated_fields)\n       WHERE kind IN ("
+- "CREATE INDEX reconciliation_global_progress_materialize ON reconciliation_table(fs_materialization_status, kind)"
+- "CREATE INDEX reconciliation_is_pending ON reconciliation_table(is_pending)"
+- "CREATE INDEX reconciliation_item_is_flocked__fs_id ON reconciliation_table(item_is_flocked, fs_id)"
+- "CREATE INDEX reconciliation_pending_set\n          ON reconciliation_table(fp_id, fs_scheduling_state, fp_scheduling_state,\n                                  scheduling_timestamp ASC, fp_updated_fields, fs_updated_fields,\n                                  fp_deletion_status, fs_deletion_status, fs_id,\n                                  fp_scheduling_state_conditions)"
+- "CREATE INDEX reconciliation_state_scheduling_ordering\n    ON reconciliation_table(fs_scheduling_state,\n                            fp_scheduling_state,\n                            scheduling_priority DESC,\n                            scheduling_timestamp)"
+- "CREATE INDEX reconciliation_table__locked_items\n          ON reconciliation_table(fs_id, item_is_flocked != 0)"
+- "CREATE INDEX reconciliation_table_anchor ON reconciliation_table(enumeration_anchor)"
+- "CREATE INDEX reconciliation_table_last_change ON reconciliation_table(last_change)"
+- "CREATE INDEX tombstone_table_anchor ON tombstone_table(enumeration_anchor)"
+- "CREATE INDEX tombstone_table_asc ON tombstone_table(last_change ASC, fs_id, fp_id)"
+- "CREATE TABLE background_downloader (\n  id "
+- "CREATE TABLE background_downloader_copy (\n          id "
+- "CREATE TABLE engine_state (\n  rowid INTEGER PRIMARY KEY CHECK (rowid = 0),\n\n  db_uuid              BLOB NOT NULL,\n  db_bugfix_revision   UNSIGNED INT NOT NULL,\n\n  fs_stream_uuid       BLOB DEFAULT NULL,\n  fs_stream_event_id   INT DEFAULT NULL,\n  fp_stream_sync_token BLOB DEFAULT NULL\n)"
+- "CREATE TABLE history (\n  timestamp INT NOT NULL,\n  os_version TEXT NOT NULL,\n  db_version INT NOT NULL,\n  db_revision INT NOT NULL,\n  fs_version TEXT NOT NULL,\n  fp_version TEXT NOT NULL\n)"
+- "CREATE TABLE jobs (\n  id INTEGER PRIMARY KEY,\n  type TINYINT NOT NULL,\n  side TINYINT NOT NULL,\n\n  scheduling_priority UNSIGNED INTEGER NOT NULL,\n  scheduling_timestamp INTEGER NOT NULL,\n  scheduling_state TINYINT NOT NULL,\n  scheduling_state_conditions SMALLINT NOT NULL,\n  scheduling_state_continuation BLOB NULL,\n\n  reason INT NOT NULL,\n\n  source_item_id NULL,\n  source_snapshot_version UINT NULL,\n\n  target_item_id NULL,\n  target_filename TEXT NULL,\n\n  bouncing_context BLOB NULL,\n  captured_content UNSIGNED INT NULL,\n  diffs TINYINT NULL\n)"
+- "CREATE TABLE reconciliation_table (\n  fs_id "
+- "CREATE TABLE tombstone_table (\n  fp_id BLOB PRIMARY KEY,\n  enumeration_anchor INT NOT NULL\n)"
+- "CREATE TABLE tombstone_table_copy (\n  fs_id "
+- "CREATE TRIGGER \""
+- "CREATE TRIGGER \"background_download/fs_snapshot/delete\"\n AFTER DELETE ON fs_snapshot\nBEGIN\n  DELETE FROM background_downloader\n   WHERE id = old.id;\nEND"
+- "CREATE TRIGGER \"background_download/fs_snapshot/insert\"\n AFTER INSERT ON fs_snapshot\n  WHEN new.metadata_is_in_pinned_folder AND new.metadata_is_dataless\nBEGIN\n  SELECT SCHEDULE_BACKGROUND_DOWNLOAD(new.id, 1, "
+- "CREATE TRIGGER \"background_download/fs_snapshot/update\"\n AFTER UPDATE ON fs_snapshot\n  WHEN (old.metadata_is_dataless AND old.metadata_is_in_pinned_folder)\n       != (new.metadata_is_dataless AND new.metadata_is_in_pinned_folder)\nBEGIN\n  SELECT SCHEDULE_BACKGROUND_DOWNLOAD(new.id,\n                                      new.metadata_is_dataless AND new.metadata_is_in_pinned_folder,\n                                      "
+- "CREATE TRIGGER \"background_download/purge\"\n AFTER UPDATE ON background_downloader\n  WHEN new.reason = 0 AND new.state != "
+- "CREATE TRIGGER \"content_policy/"
+- "CREATE TRIGGER \"content_policy_downloader/fs_snapshot/fs_insert\"\n AFTER INSERT ON fs_snapshot\n WHEN new.metadata_is_dataless\nBEGIN\n SELECT SCHEDULE_BACKGROUND_DOWNLOAD(new.id, 1, "
+- "CREATE TRIGGER \"content_policy_downloader/fs_snapshot/fs_update\"\n AFTER UPDATE OF metadata_is_dataless ON fs_snapshot\n WHEN new.metadata_is_dataless\nBEGIN\n SELECT SCHEDULE_BACKGROUND_DOWNLOAD(new.id, 1, "
+- "CREATE TRIGGER \"content_policy_downloader/reconciliation_table/rt_update\"\nAFTER UPDATE OF fp_id, fs_id, fs_disk_import_status ON reconciliation_table\n  WHEN new.fp_id IS NOT NULL\n  AND new.fs_id IS NOT NULL\n  AND ((old.fp_id IS NULL OR old.fs_id IS NULL) OR\n       (old.fs_disk_import_status IS NOT NULL AND new.fs_disk_import_status IS NULL))\nBEGIN\n  UPDATE fp_snapshot\n    SET decoration_inherited_content_policy = "
+- "CREATE TRIGGER \"hierarchical_user_info/"
+- "CREATE TRIGGER \"last_change/fp_snapshot/decoration_change\"\n  AFTER UPDATE ON fp_snapshot\nBEGIN\n  -- Update the last change date\n  UPDATE reconciliation_table\n     SET last_change = PROPAGATION_DATE_CHANGED(0, fs_id)\n   WHERE fp_id = new.id;\nEND"
+- "CREATE TRIGGER \"last_change/fp_snapshot/recursive_capabilities_change\"\n  AFTER UPDATE OF recursive_disallow_deletion_count, recursive_disallow_exclusion_count ON fp_snapshot\n          WHEN (new.recursive_disallow_deletion_count != old.recursive_disallow_deletion_count\n                AND (new.recursive_disallow_deletion_count == 0 OR old.recursive_disallow_deletion_count == 0))\n            OR (new.recursive_disallow_exclusion_count != old.recursive_disallow_exclusion_count\n                AND (new.recursive_disallow_exclusion_count == 0 OR old.recursive_disallow_exclusion_count == 0))\nBEGIN\n  -- Update the last change date\n  UPDATE reconciliation_table\n     SET last_change = PROPAGATION_DATE_CHANGED(CASE WHEN kind = "
+- "CREATE TRIGGER \"last_change/fs_snapshot/recursive_dataless_change\"\n  AFTER UPDATE OF recursive_dataless_count ON fs_snapshot\n          WHEN new.recursive_dataless_count != old.recursive_dataless_count\n           AND (new.recursive_dataless_count == 0 OR old.recursive_dataless_count == 0)\nBEGIN\n  -- Update the last change date\n  UPDATE reconciliation_table\n     SET last_change = PROPAGATION_DATE_CHANGED(kind = "
+- "CREATE TRIGGER \"last_change/fs_snapshot/recursive_evictable_change\"\n  AFTER UPDATE OF recursive_evictable_count ON fs_snapshot\n          WHEN new.recursive_evictable_count != old.recursive_evictable_count\n           AND (new.recursive_evictable_count == 0 OR old.recursive_evictable_count == 0)\nBEGIN\n  -- Update the last change date\n  UPDATE reconciliation_table\n     SET last_change = PROPAGATION_DATE_CHANGED(kind = "
+- "CREATE TRIGGER \"last_change/reconciliation_table/creation\"\n  AFTER INSERT ON reconciliation_table\nBEGIN\n  -- Update the last change date\n  UPDATE reconciliation_table\n     SET last_change = PROPAGATION_DATE_CHANGED(0, new.fs_id)\n   WHERE rowID = new.rowID;\nEND"
+- "CREATE TRIGGER \"last_change/reconciliation_table/propagation_changes\"\n AFTER UPDATE OF fs_deletion_status, fs_deletion_status, fs_scheduling_state,\n                 fp_updated_fields, fp_deletion_status, fp_content_status, fp_scheduling_state\n              ON reconciliation_table\n  WHEN new.fs_updated_fields != old.fs_updated_fields\n       OR new.fs_deletion_status & 1 != old.fs_deletion_status & 1\n       OR new.fp_updated_fields != old.fp_updated_fields\n       OR new.fp_deletion_status & 1 != old.fp_deletion_status & 1\n       OR new.fp_content_status != old.fp_content_status\n       OR new.fs_scheduling_state != old.fs_scheduling_state\n       OR new.fp_scheduling_state != old.fp_scheduling_state\nBEGIN\n  -- Update the last change date\n  UPDATE reconciliation_table\n     SET last_change = PROPAGATION_DATE_CHANGED(0, fs_id)\n   WHERE rowID = new.rowID;\nEND"
+- "CREATE TRIGGER \"materialized_set/fs_snapshot/delete\"\n  AFTER DELETE ON fs_snapshot\n  WHEN old.metadata_is_dataless = 0\nBEGIN\n  -- Mark the item as updated in the reconciliation table if present\n  UPDATE reconciliation_table\n     SET enumeration_anchor = NEXT_ANCHOR((SELECT anchor FROM enumeration_view))\n   WHERE fs_id = old.id AND fp_id IS NOT NULL;\nEND"
+- "CREATE TRIGGER \"materialized_set/fs_snapshot/insert\"\n AFTER INSERT ON fs_snapshot\n  WHEN new.metadata_is_dataless = 0\nBEGIN\n  -- Mark the item as updated in the reconciliation table if present\n  UPDATE reconciliation_table\n     SET enumeration_anchor = NEXT_ANCHOR((SELECT anchor FROM enumeration_view))\n   WHERE fs_id = new.id AND fp_id IS NOT NULL;\nEND"
+- "CREATE TRIGGER \"materialized_set/fs_snapshot/metadata_is_dataless\"\n AFTER UPDATE OF metadata_is_dataless ON fs_snapshot\n  WHEN old.metadata_is_dataless != new.metadata_is_dataless\nBEGIN\n  -- Mark the item as updated in the reconciliation table if present\n  UPDATE reconciliation_table\n     SET enumeration_anchor = NEXT_ANCHOR((SELECT anchor FROM enumeration_view))\n   WHERE fs_id = new.id AND fp_id IS NOT NULL;\nEND"
+- "CREATE TRIGGER \"materialized_set/reconciliation_table/bind_fp_id\"\n AFTER UPDATE OF fp_id ON reconciliation_table\n  WHEN new.fp_id IS NOT NULL\nBEGIN\n  -- Mark the item has updated if we lost the binding and were previously dataless\n  UPDATE reconciliation_table\n     SET enumeration_anchor = NEXT_ANCHOR((SELECT anchor FROM enumeration_view))\n   WHERE rowID = new.rowID\n     AND EXISTS (SELECT id FROM fs_snapshot WHERE id = new.fs_id AND metadata_is_dataless = 0);\n\n  -- Delete the entry from the tombstone table if the fp_id is present\n  -- in the reconciliation table. If the the item was actually present\n  -- in the tombstone, a followup trigger will be called to move\n  -- the anchor from the tombstone table to the reconciliation table\n  -- Must be executed after the previous update to preserve the previous anchor\n  -- in the computation of the enumeration_view\n  DELETE FROM tombstone_table\n   WHERE fp_id = new.fp_id;\nEND"
+- "CREATE TRIGGER \"materialized_set/reconciliation_table/bind_fs_id\"\n AFTER UPDATE OF fs_id ON reconciliation_table\n  WHEN new.fs_id IS NOT NULL\nBEGIN\n  -- Mark the item has updated if we lost the binding and were previously dataless\n  UPDATE reconciliation_table\n     SET enumeration_anchor = NEXT_ANCHOR((SELECT anchor FROM enumeration_view))\n   WHERE rowID = new.rowID\n     AND EXISTS (SELECT id FROM fs_snapshot WHERE id = new.fs_id AND metadata_is_dataless = 0);\n\n  -- Delete the entry from the tombstone table if the fs_id is present\n  -- in the reconciliation table. If the the item was actually present\n  -- in the tombstone, a followup trigger will be called to move\n  -- the anchor from the tombstone table to the reconciliation table\n  -- Must be executed after the previous update to preserve the previous anchor\n  -- in the computation of the enumeration_view\n  DELETE FROM tombstone_table\n   WHERE fs_id = new.fs_id;\nEND"
+- "CREATE TRIGGER \"materialized_set/reconciliation_table/insert\"\n AFTER INSERT ON reconciliation_table\nBEGIN\n  -- Mark the item has updated if we are interested in its children, otherwise\n  UPDATE reconciliation_table\n     SET enumeration_anchor = NEXT_ANCHOR((SELECT anchor FROM enumeration_view))\n   WHERE rowID = new.rowID\n     AND EXISTS (SELECT id FROM fs_snapshot WHERE id = new.fs_id AND metadata_is_dataless = 0);\n\n  -- Delete the entry from the tombstone table if the fp_id is present\n  -- in the reconciliation table. If the the item was actually present\n  -- in the tombstone, a followup trigger will be called to move\n  -- the anchor from the tombstone table to the reconciliation table\n  -- Must be executed after the previous update to preserve the previous anchor\n  -- in the computation of the enumeration_view\n  DELETE FROM tombstone_table\n   WHERE (fp_id = new.fp_id OR fs_id = new.fs_id);\nEND"
+- "CREATE TRIGGER \"materialized_set/reconciliation_table/remove_item_fp_id\"\n AFTER DELETE ON reconciliation_table\n  WHEN old.fp_id IS NOT NULL\nBEGIN\n  -- Add the entry in tombstone table. Propagate the anchor from the reconciliation table\n  -- if the item was monitored at the time of removal\n  INSERT INTO tombstone_table (fs_id, fp_id, enumeration_anchor, last_change)\n       VALUES (NULL, old.fp_id,\n               CASE\n                   WHEN old.enumeration_anchor IS NULL THEN NULL\n                   WHEN EXISTS (SELECT id FROM fs_snapshot WHERE id = old.fs_id AND metadata_is_dataless = 0)\n                   THEN NEXT_ANCHOR(MAX((SELECT anchor FROM enumeration_view), old.enumeration_anchor))\n                   ELSE old.enumeration_anchor\n               END,\n               PROPAGATION_DATE_CHANGED(0, NULL));\nEND"
+- "CREATE TRIGGER \"materialized_set/reconciliation_table/remove_item_fs_id\"\n AFTER DELETE ON reconciliation_table\n  WHEN old.fs_id IS NOT NULL\nBEGIN\n  INSERT INTO tombstone_table (fs_id, fp_id, enumeration_anchor, last_change)\n       VALUES (old.fs_id, NULL, NULL, PROPAGATION_DATE_CHANGED(0, NULL));\nEND"
+- "CREATE TRIGGER \"materialized_set/reconciliation_table/unbind_fp_id\"\n AFTER UPDATE OF fp_id ON reconciliation_table\n  WHEN old.fp_id IS NOT NULL AND (new.fp_id IS NULL OR old.fp_id != new.fp_id)\nBEGIN\n  -- Add the entry in tombstone table. Propagate the anchor from the reconciliation table\n  -- if the item was monitored at the time of removal\n  INSERT INTO tombstone_table (fs_id, fp_id, enumeration_anchor, last_change)\n       VALUES (NULL, old.fp_id,\n               CASE\n                   WHEN old.enumeration_anchor IS NULL THEN NULL\n                   WHEN EXISTS (SELECT id FROM fs_snapshot WHERE id = old.fs_id AND metadata_is_dataless = 0)\n                   THEN NEXT_ANCHOR((SELECT anchor FROM enumeration_view))\n                   ELSE old.enumeration_anchor\n               END,\n               PROPAGATION_DATE_CHANGED(0, NULL));\n\n  -- Clear the enumeration anchor in the reconciliation table\n  -- Must be executed after the previous update to preserve the previous anchor\n  -- in the computation of the enumeration_view\n  UPDATE reconciliation_table\n     SET enumeration_anchor = NULL\n   WHERE rowID = old.rowID;\nEND"
+- "CREATE TRIGGER \"materialized_set/reconciliation_table/unbind_fs_id\"\n AFTER UPDATE OF fs_id ON reconciliation_table\n  WHEN old.fs_id IS NOT NULL AND (new.fs_id IS NULL OR old.fs_id != new.fs_id)\nBEGIN\n  -- Add the entry in tombstone table. Propagate the anchor from the reconciliation table\n  -- if the item was monitored at the time of removal\n  INSERT INTO tombstone_table (fs_id, fp_id, enumeration_anchor, last_change)\n       VALUES (old.fs_id, NULL, NULL, PROPAGATION_DATE_CHANGED(0, NULL));\n\n  -- Update the anchor for the corresponding item\n  UPDATE reconciliation_table\n     SET enumeration_anchor = NEXT_ANCHOR((SELECT anchor FROM enumeration_view))\n   WHERE rowID = old.rowID AND old.enumeration_anchor IS NOT NULL;\nEND"
+- "CREATE TRIGGER \"materialized_set/tombstone_table/garbage_collect\"\n AFTER UPDATE OF enumeration_anchor, last_change ON tombstone_table\n  WHEN new.enumeration_anchor IS NULL AND new.last_change IS NULL\nBEGIN\n  DELETE FROM tombstone_table\n   WHERE rowID = new.rowID;\nEND"
+- "CREATE TRIGGER \"materialized_set/tombstone_table/remove_entry\"\n AFTER DELETE ON tombstone_table\n  WHEN old.enumeration_anchor IS NOT NULL\nBEGIN\n  UPDATE reconciliation_table\n     SET enumeration_anchor = MAX(IFNULL(enumeration_anchor, 0), old.enumeration_anchor)\n   WHERE fp_id = old.fp_id;\nEND"
+- "CREATE TRIGGER \"pinning/"
+- "CREATE UNIQUE INDEX "
+- "CREATE UNIQUE INDEX IF NOT EXISTS relative_path_index ON "
+- "CREATE VIEW active_fp_jobs_view (metadata_size)\n  AS SELECT CASE fp.metadata_size\n       WHEN 0 THEN 1\n       ELSE fp.metadata_size\n        END metadata_size\n       FROM reconciliation_table AS rt\n INNER JOIN fp_snapshot AS fp ON (rt.fp_id = fp.id)\n      WHERE ((rt.fp_updated_fields & "
+- "CREATE VIEW active_fs_jobs_view (metadata_size)\n  AS SELECT CASE fs.metadata_size\n       WHEN 0 THEN 1\n       ELSE fs.metadata_size\n        END metadata_size\n       FROM reconciliation_table AS rt\n INNER JOIN fs_snapshot AS fs ON (rt.fs_id = fs.id)\n      WHERE rt.fs_updated_fields & "
+- "CREATE VIEW enumeration_view (anchor)\n    AS SELECT IFNULL(MAX(anchor), 0)\n         FROM (SELECT MAX(enumeration_anchor) as anchor\n                 FROM reconciliation_table\n                UNION ALL\n               SELECT MAX(enumeration_anchor) as anchor\n                 FROM tombstone_table)"
+- "Calling completion handler with %s"
+- "Calling completion handler with success."
+- "Can't close database %s: %@"
+- "Can't enumerate: %s: %@"
+- "Can't find %@ error %@"
+- "Can't get a collision in a delete"
+- "Can't insert into the database %s: %@"
+- "Can't open database at: %{public}s, launching only FPCK disk checks: %@"
+- "Can't unlink %s: %@"
+- "Cannot clear deletion directory: %{public}@"
+- "Cannot open parent sync-root: %{public}@"
+- "Checking if provider is iCloud Drive on FPFS"
+- "Cloning file failed [%llu]: %{errno}d"
+- "Collision with the root item is not allowed"
+- "Collision with the trash item is not allowed"
+- "Coordination: Acquiring for Creation"
+- "Could not create a unique index %s: %@"
+- "Could not delete %s from spotlight index: %@"
+- "Could not get canonical path for %s"
+- "Could not set protection class on %s: %d"
+- "Could not set protection class: %d"
+- "Couldn't find RT entry in updateDownloadJob: %s"
+- "Couldn't find item, bailing on job"
+- "Created dataless root %s"
+- "Created promise URL for thumbnail at URL: %s"
+- "Creating indexes"
+- "Creation of item that is not a folder/directory not supported"
+- "Creation reason: "
+- "D"
+- "DB queue"
+- "DB queue wait"
+- "DB queue wait for flush"
+- "DB: Signal Runnable Jobs"
+- "DELETE FROM background_downloader\n      WHERE id = "
+- "DELETE FROM jobs\n      WHERE id = "
+- "DELETE FROM reconciliation_table\n WHERE rowID = "
+- "DELETE FROM tombstone_table"
+- "DESKTOP_MOVED_ASIDE"
+- "DOCUMENTS_MOVED_ASIDE"
+- "DOMAIN_GLOBAL_PROGRESS_DOWNLOADING_ITEM_LOCALIZED_DESCRIPTION"
+- "DOMAIN_GLOBAL_PROGRESS_UPLOADING_ITEM_LOCALIZED_DESCRIPTION"
+- "DROP INDEX pending_set_probe_fp"
+- "DROP INDEX pending_set_probe_fs"
+- "DROP INDEX reconciliation_global_progress_fp"
+- "DROP INDEX reconciliation_global_progress_fs"
+- "DROP INDEX reconciliation_item_is_flocked__fs_id"
+- "DROP TABLE background_downloader"
+- "DROP TABLE tombstone_table"
+- "DROP TRIGGER IF EXISTS  \"content_policy_downloader/fs_snapshot/fs_insert\""
+- "DROP TRIGGER IF EXISTS  \"content_policy_downloader/fs_snapshot/fs_update\""
+- "DROP TRIGGER IF EXISTS  \"content_policy_downloader/reconciliation_table/rt_update\""
+- "DROP TRIGGER IF EXISTS \""
+- "DROP TRIGGER IF EXISTS \"content_policy/"
+- "DROP TRIGGER IF EXISTS \"keep_downloaded_content_policy/"
+- "DROP TRIGGER IF EXISTS \"last_change/fp_snapshot/decoration_change\""
+- "DROP TRIGGER IF EXISTS \"last_change/fp_snapshot/recursive_capabilities_change\""
+- "DROP TRIGGER IF EXISTS \"last_change/fs_snapshot/recursive_dataless_change\""
+- "DROP TRIGGER IF EXISTS \"last_change/fs_snapshot/recursive_evictable_change\""
+- "DROP TRIGGER IF EXISTS \"last_change/reconciliation_table/creation\""
+- "DROP TRIGGER IF EXISTS \"last_change/reconciliation_table/propagation_changes\""
+- "DROP TRIGGER IF EXISTS \"materialized_set/fs_item_jobs/materialization\""
+- "DROP TRIGGER IF EXISTS \"materialized_set/fs_snapshot/delete\""
+- "DROP TRIGGER IF EXISTS \"materialized_set/fs_snapshot/insert\""
+- "DROP TRIGGER IF EXISTS \"materialized_set/fs_snapshot/metadata_is_dataless\""
+- "DROP TRIGGER IF EXISTS \"materialized_set/reconciliation_table/bind_fp_id\""
+- "DROP TRIGGER IF EXISTS \"materialized_set/reconciliation_table/bind_fs_id\""
+- "DROP TRIGGER IF EXISTS \"materialized_set/reconciliation_table/insert\""
+- "DROP TRIGGER IF EXISTS \"materialized_set/reconciliation_table/remove_fp_id\""
+- "DROP TRIGGER IF EXISTS \"materialized_set/reconciliation_table/remove_item\""
+- "DROP TRIGGER IF EXISTS \"materialized_set/tombstone_table/remove_entry\""
+- "DROP TRIGGER IF EXISTS \"recursive_evictability/"
+- "DROP VIEW IF EXISTS enumeration_view"
+- "DROP VIEW active_fp_jobs_view"
+- "DROP VIEW active_fs_jobs_view"
+- "Decoration"
+- "Deleting item ids:%s, with indexer %@"
+- "Delivering FSEvent notification for change on %s"
+- "Destination %s for item is in the trash, falling back to %s"
+- "DeviceClassNumber"
+- "Discarding container %{public}@ from appLibraries"
+- "Domain Backend: Path %s for bundle %s Space Attribution registration error: %@"
+- "Domain Backend: Path %s for bundle %s Space Attribution unregistration error: %@"
+- "Domain Backend: Space Attribution registration for path %s and bundle %s"
+- "Domain Backend: Space Attribution unregistration for path %s and bundle %s"
+- "Domain syncroot URL %{public}s or destination URL %{public}s is invalid, did not move anything..."
+- "Down-casted Array element failed to match the target type\nExpected "
+- "DownloadVersion"
+- "Dropping fsevent for %{public}llu (event#%llu, flags:%x)"
+- "Duplicate values for key: '"
+- "ESTALE: root/trash changed during enumeration.\n%llu, %llu,\n%llu, %s"
+- "EndToEnd-testDomainWithFixedRoot-107263778"
+- "Enumeration returned a fileID for which no item can be found: %{public}llu"
+- "Error constructing VFSLookupScope for root URL fast path: %@"
+- "Error creating item %@ on disk; error %@"
+- "Error enumerating backend for search in enumerateWithSettings: %@"
+- "Error fetching the item in the FPSnapshot: %{public}@"
+- "Error fetching the item in the FSSnapshot: %@"
+- "Error fetching the item in the reconciliation table: %{public}@"
+- "Error gathering telemetry for scanning provider %@"
+- "Error looking up root item for root URL fast path: %@"
+- "Error resolving vfs item for url %s: %@"
+- "Error retrieving item %{public}llu error: %{public}@"
+- "Error retrieving item state item %@; error %@"
+- "Error running lstat for root URL fast path: %d"
+- "Error setting domain user info: %@"
+- "Error setting new domainUserInfo, provider was nil"
+- "Error signaling change after setting new domainUserInfo, server was nil"
+- "Error trying to access(%s): %@"
+- "Error updating item %@ error %@"
+- "Error updating item %@ error <nil>"
+- "Error while creating root %s: %@"
+- "Eviction of %s failed with %@"
+- "Expected materialization"
+- "Expected value of "
+- "Expecting an item for reconciliation: "
+- "FP descendent items will be revived, ignore delete rejected"
+- "FPCK called with empty root URL array"
+- "FPCK: FPDRTCReporting backupManifestVsFSSnapshotDiff %s "
+- "FPCK: FPDRTCReporting diskBrokenInvariants %s "
+- "FPCK: FPDRTCReporting diskVersusFSSnapshotDiff %s "
+- "FPCK: FPDRTCReporting fsSnapshotVersusFpSnapshotDiff %s "
+- "FPCK: FPDRTCReporting reconciliationTableBrokenInvariants %s "
+- "FPCK: FPDRTCReporting remainingDiskBrokenInvariants"
+- "FPCK: FPDRTCReporting remainingFSSnapshotDiffs"
+- "FPCK: all checks done."
+- "FPCK: error fetching item in the FSSnapshot."
+- "FPCK: error fetching the item in the reconciliation table: %{public}@"
+- "FPCK: launching FSSnapshot and FPSnapshot checks."
+- "FPCK: launching backup manifest checks."
+- "FPCK: launching disk and FSSnapshot checks."
+- "FPCK: launching purgePurgatory."
+- "FPCK: launching reconciliation table checks."
+- "FPCKPendingSetInternalErrorCodeFileLockErrorWithDiffWithContentDiffFP"
+- "FPCKPendingSetInternalErrorCodeFileLockErrorWithDiffWithContentDiffFS"
+- "FPCKPendingSetInternalErrorCodeFileLockErrorWithDiffWithoutContentDiffFP"
+- "FPCKPendingSetInternalErrorCodeFileLockErrorWithDiffWithoutContentDiffFS"
+- "FPCKPendingSetInternalErrorCodeFileLockErrorWithoutDiff"
+- "FPCKPendingSetInternalErrorCodeFileLockErrorWithoutReconciliationEntry"
+- "FPCKPendingSetInternalErrorCodeNilError"
+- "FPCKPendingSetInternalErrorCodePOSIXEACCESHasReadPermission"
+- "FPCKPendingSetInternalErrorCodePOSIXEACCESMissingReadPermission"
+- "FPCKPendingSetInternalErrorCodePOSIXEACCESUnknown"
+- "FPCKPendingSetInternalErrorDomain"
+- "FPCKTask"
+- "FPCKTask-queue"
+- "FPCancellable"
+- "FPDDomainBackend"
+- "FPDLifetimeExtender"
+- "FPDPurger"
+- "FPDRTCReporting: postReport with %ld entries"
+- "FPDiagnosticCollector"
+- "FPFS backend - enumerate pending %s, %ld"
+- "FPFS enumeration of "
+- "FPFS servicer for "
+- "FPFSAdditions"
+- "FPFSIndexer is missing for fpfs backed or no ids to delete: %s."
+- "FPFSSQLBackupManager"
+- "FPFSSQLRestoreManager"
+- "FPFSTapToRadarManager"
+- "FPFS_FSCHANGEMONITOR_NODELAY"
+- "FPLoggerScope"
+- "FPOperationClient"
+- "FPProgressProtocol"
+- "FPPublicLog"
+- "FPResolveErrorItemIdentifierKey"
+- "FPShouldRetryExclusion"
+- "FPSpotlightIndexerDelegate"
+- "FPXEnumerator"
+- "FPXEnumeratorObserver"
+- "FPXOperationService"
+- "FPXPCAutomaticErrorProxy"
+- "FPXVendor"
+- "FPXVendorObservation"
+- "FS creation [under coordination]"
+- "FS descendent items no longer needed, ignore delete rejected"
+- "FS stage creation"
+- "FS: event"
+- "FS: event batch"
+- "FS: handle event"
+- "FSChangeMonitor"
+- "FSChangeMonitor.m"
+- "FSChangeRecord"
+- "FSChangeSubscription"
+- "FSChangeSubscriptionDelegate"
+- "FSChecker"
+- "FSCheckerDelegate"
+- "FSEvent stream got reason: "
+- "FSPathAdditions"
+- "FSTree update to new url %s new parent %s"
+- "FSVolume"
+- "Failed gathering diag info for item with did %u: %@"
+- "Failed gathering diag info for item with fid %llu: %@"
+- "Failed gathering info for item pending scanning disk %@"
+- "Failed to capture a stable version of item: %{public}s != %{public}s"
+- "Failed to clear ACL on URL %s, error: %@"
+- "Failed to close database %s: %@"
+- "Failed to create doc_id_index: %@"
+- "Failed to create file_id_gen_count_index: %@"
+- "Failed to create indexes on %s: %@"
+- "Failed to create table %s: %@"
+- "Failed to create the SQLDatabase: "
+- "Failed to created thumbnail directory for URL: %s"
+- "Failed to created thumbnail directory for URL: %s, error: %@"
+- "Failed to delete item %@ with error %@"
+- "Failed to delete items %s with error %@"
+- "Failed to drop Demoted from sync root: %@"
+- "Failed to drop Promoted from item at %s: %@"
+- "Failed to drop purgeability on item at %s: %@"
+- "Failed to enable foreign keys: %@"
+- "Failed to enumerate %s: %@"
+- "Failed to execute periodic FPCK against %s : %@"
+- "Failed to fetch resource values for %s: %@"
+- "Failed to find new fileID for %llu"
+- "Failed to force ingestion of item %@ with error %@"
+- "Failed to get canonical path for %s"
+- "Failed to get contents for URL %{public}s"
+- "Failed to get contents of %s: %@"
+- "Failed to get enumerator for %s"
+- "Failed to get gen count for %s"
+- "Failed to get nonSyncableAttributes for item: %@"
+- "Failed to get the gen count for %s"
+- "Failed to get the inode for %s"
+- "Failed to identify in FSEvent#%llu item moved in package %s: %@"
+- "Failed to identify root of rename event #%llu against package at %s: %@"
+- "Failed to insert into %s: %@"
+- "Failed to issue FSEvent on item at %s: %@"
+- "Failed to make %s owned by mobile: %@"
+- "Failed to mark syncroot as dataless, error: %@"
+- "Failed to materialize fallback destination %s"
+- "Failed to materialize new parent, attempting to fall back to %s"
+- "Failed to mkdir for DB backup on %s : %@"
+- "Failed to move away domain syncroot %{public}s error: %@"
+- "Failed to open %s: %@"
+- "Failed to open database %s: %@"
+- "Failed to populate new columns for %s: %@"
+- "Failed to populate new columns. ENOENT %s does not exist."
+- "Failed to populate new columns. fileNoSuchFile %s does not exist."
+- "Failed to populate new columns. fileReadNoSuchFile %s does not exist."
+- "Failed to populate the backup manifest %s with new columns: %@"
+- "Failed to provide temporaryDirectoryURL because domain is invalidated"
+- "Failed to recursively change owner and group to mobile: %@"
+- "Failed to remove before bounce filename: %@"
+- "Failed to remove directory %s: %@"
+- "Failed to remove item at %s: %@"
+- "Failed to removexattr %s on URL %{public}s, error: %@"
+- "Failed to set _kCFURLIsExcludedFromCloudBackupKey on %s"
+- "Failed to set _kCFURLIsExcludedFromCloudBackupKey on %s: %@"
+- "Failed to set bundle bit: %@"
+- "Failed to set detached root bookmark: %@"
+- "Failed to set detached root bookmark: cannot find parent for item"
+- "Failed to set detached root bookmark: no db available"
+- "Failed to set detached root bookmark: no deviceID"
+- "Failed to set sync root bit: %@"
+- "Failed to set up pragmas %s: %@"
+- "Failed to unlink URL %s, error: %@"
+- "Failed to update detached root bookmark: %@"
+- "Failed to update the history table: %@"
+- "Fatal I/O or memory error in Prequelite: %@"
+- "Fatal error"
+- "Fetching pending set status from %s"
+- "FileProvider"
+- "FileProvider database corruption detected"
+- "Finished bulkItemChanges of %ld items"
+- "Finished purging %ld files."
+- "Finished updating %s for item %@; d: %s"
+- "Flushing database..."
+- "Found item %s for request %s"
+- "Found item %s, request %s"
+- "Found item on disk, but item is not accessible yet %s, request %s"
+- "Found item on disk, but item is not reconciled yet %s, request %s"
+- "Found item on the trash, lookup the root to make sure it's materialized"
+- "Found parent %s, behavior: %s, shouldReconcile: %{bool}d request %s"
+- "FruitBasket-EndToEnd-testDomainWithFixedRoot-107263778"
+- "GENERIC_FOLDER_MOVED_ASIDE_%@"
+- "Going full rescan for pending items after %f"
+- "Going through fast-path for the rootItem at startup (request: %{public}s)"
+- "Going through fast-path for the rootItem at startup for %{public}s"
+- "Handling FSEvent for %{public}s"
+- "I"
+- "I16@0:8"
+- "I20@0:8B16"
+- "IFNULL((SELECT (CASE decoration_content_policy\n               WHEN "
+- "INSERT INTO background_downloader\n     VALUES ("
+- "INSERT INTO background_downloader_copy (id, scheduling_timestamp, state, reason)\n    SELECT id, scheduling_timestamp, state, reason\n        FROM background_downloader"
+- "INSERT INTO engine_state (\n  rowid,\n\n  db_uuid,\n  db_bugfix_revision,\n\n  fs_stream_uuid,\n  fs_stream_event_id,\n  fp_stream_sync_token\n)\nVALUES (\n  0,\n  "
+- "INSERT INTO history (timestamp, os_version, db_version, db_revision, fs_version, fp_version, reason)\n     VALUES ("
+- "INSERT INTO jobs (scheduling_timestamp, scheduling_priority, "
+- "INSERT INTO reconciliation_table ("
+- "INSERT INTO tombstone_table_copy (fs_id, fp_id, enumeration_anchor, last_change)\n     SELECT NULL, fp_id, enumeration_anchor, 0\n       FROM tombstone_table"
+- "If the item is the domain root %s, no need to handle parent mtime"
+- "Ignoring entry %s in telemetry: unknown entry"
+- "Ignoring event for item in an ignored folder fileID(%{public}llu)"
+- "Ignoring unresolved own-event on fileID(%{public}llu)"
+- "Importing domain in provider %s. Turning on iCloud Drive on FPFS."
+- "Inconsistent kind "
+- "Invalid (nil) parent ID"
+- "Invalid identifier for parent folder "
+- "Invalid object: %s cannot be dataless"
+- "Invalid parent ID "
+- "Invalid partial materialization request for parent directory"
+- "Invalid synchronous mode "
+- "Item %@ does not exist, deleting from index"
+- "Item %s collided for request %s"
+- "Item cannot be found on disk, looking for parent for %s request %s"
+- "Item cannot be found on disk, only looking for existing item %s, request %s"
+- "Item is a sync root again, job is not valid anymore"
+- "Item is in ignored (request: %{public}s)"
+- "Item is in ignored for request %s"
+- "Item is not dataless, lookup and propagate %s request %s"
+- "Item kind undefined."
+- "Item mismatch when resolving FSEvent: got %s when expecting %s"
+- "ItemKindMismatch"
+- "KC"
+- "KD"
+- "Library/Application Support/CloudDocs/ciconia/files"
+- "Library/Application Support/FileProvider"
+- "Library/Application Support/FileProvider/"
+- "Library/CloudStorage/"
+- "Library/Mobile Documents/"
+- "Lookup itemID %s with behavior %s request %s iteration %ld"
+- "Marked the syncroot dataless, url: %s"
+- "Marking root dataless %s"
+- "Materialization"
+- "Materialization_startProvidingItem"
+- "Materializing container %{public}s for appLibraries"
+- "Max recursion reached while resolving %s known as %s"
+- "Missing domain in enumerateWithSettings for search"
+- "Missing extensionEnumerator in enumerateWithSettings for search"
+- "Missing required identifier and version for perThumbnailCompletionHandler: %@"
+- "NSArray element failed to match the Swift Array Element type\nExpected "
+- "NSXPCProxyCreating"
+- "Network path update %s"
+- "Next pending set checking arrives too soon (%f) - likely under load"
+- "Nil item for root URL fast path"
+- "No file at %s, so no need to patch."
+- "Normalization"
+- "Not Implemeneted"
+- "Notifications from the pending set got ignored, stopping it, last enumeration: %s, refresh date: %s (previous: %s"
+- "OS_dispatch_source"
+- "OS_dispatch_source_data_or"
+- "OS_dispatch_source_timer"
+- "OS_os_transaction"
+- "Output is limited to "
+- "POSIX syscall reached expiration date "
+- "PRAGMA cache_size = "
+- "PRAGMA cache_spill = "
+- "PRAGMA foreign_keys = OFF"
+- "PRAGMA foreign_keys = ON"
+- "PRAGMA page_count"
+- "PRAGMA page_size"
+- "PRAGMA recursive_triggers = true"
+- "PROPAGATION_DATE_CHANGED"
+- "Parent is materialized, lookup %s again request %s"
+- "Parent item is dataless, materializing %s request %s"
+- "Parent item is not dataless, lookup and propagate %s request %s"
+- "Parent item must be imported, materializing %s request %s"
+- "Patching FSItemJobs table..."
+- "Patching FSSnapshot table..."
+- "Patching FSThrottle table..."
+- "Patching Jobs table..."
+- "Patching Tombstone table..."
+- "Patching container %{public}@ with %{public}@"
+- "Patching database at %s"
+- "Patching reconciliation table..."
+- "Path %s was registered in Space Attribution with bundle %s"
+- "Path %s was unregistered from Space Attribution with bundle %s"
+- "Pending set updates found, notifying"
+- "Permission cleanup on item cloned from ino:%llu failed: %{errno}d"
+- "Persisted pending set status %{bool}d to %s"
+- "Populating new columns with base path: %s"
+- "Precondition failed "
+- "Publishing at url %s progress %@"
+- "Purging: %{public}s"
+- "Q"
+- "REJECT: new item in an unknown parent"
+- "REJECT: parent is an ignored folder"
+- "REJECT: parent is importing the disk and item is not reconciled"
+- "REJECT: parent is not watching its children"
+- "REJECT: parent is pending deletion"
+- "REJECT: parent is pending import, the item will be scanned when importing the parent"
+- "REJECT:parent is waiting for import ("
+- "RT entry missing both sides, cannot account download job: %s"
+- "RadarComponent"
+- "RadarDraft"
+- "Read put-back xattr for %s returned nothing"
+- "Recursion too deep for backgroundLookup of itemID %{public}s request %{public}s"
+- "Recursion too deep for lookup of itemID %{public}s request %{public}s"
+- "Reimport for domain: "
+- "Removing item capabilities for trash item"
+- "Repairing %{public}s on %s (clear bundle bit)"
+- "Repairing %{public}s on %s (drop purgeability)"
+- "Repairing %{public}s on %s (force re-ingestion)"
+- "Repairing %{public}s on %s (refreshing detached root bookmark)"
+- "Repairing %{public}s on %s (remove demoted flag)"
+- "Repairing %{public}s on %s (remove promotion xattr)"
+- "Repairing %{public}s on %s (removing before bounce filename)"
+- "Repairing %{public}s on %s (set bundle bit)"
+- "Repairing %{public}s on %s (set syncroot bit)"
+- "Repairing %{public}s on %s (setting a valid detached root bookmark)"
+- "Repairing %{public}s on %s (unlink if side fault)"
+- "Repairing %{public}s on %s is not supported"
+- "Request to background materialize content of itemID %s reason %s"
+- "Request to delete item with ID: %@; recursively %{bool}d"
+- "Request to delete items: %s"
+- "Request to enumerate with settings %s"
+- "Request to eviction of content of itemID %s request %s"
+- "Request to materialize content of itemID %s reason %s"
+- "Request to modify fields %s for %ld items"
+- "Request to modify fields %s for item with ID %@: %s"
+- "Reset stream"
+- "ResolveItemEvictability job for %s"
+- "Resolved item %{public}s (request: %{public}s)"
+- "Returning ignore root (request: %{public}s)"
+- "Returning ignored item (request: %{public}s)"
+- "Root propagated, retry lookup request %s"
+- "Running UpdateClosestSyncRoot on non-VFS item ID, not valid"
+- "Running UpdateClosestSyncRoot on non-directory, not valid"
+- "SCHEDULE_BACKGROUND_DOWNLOAD"
+- "SCHEDULE_FP_BACKGROUND_DOWNLOAD"
+- "SELECT 1\n  FROM "
+- "SELECT 1\n  FROM history\n WHERE reason = "
+- "SELECT 1\n  FROM jobs\n WHERE "
+- "SELECT 1\n  FROM reconciliation_table\n WHERE fs_disk_import_status IS NULL\n   AND fs_content_status = "
+- "SELECT COUNT(*)\n  FROM "
+- "SELECT COUNT(*)\n  FROM fp_item_jobs\n WHERE type = "
+- "SELECT COUNT(*)\n  FROM fs_item_jobs\n WHERE type = "
+- "SELECT COUNT(*)\n  FROM jobs\n WHERE type = "
+- "SELECT COUNT(*)\n  FROM reconciliation_table"
+- "SELECT COUNT(*)\n  FROM reconciliation_table\n WHERE fp_captured_content_file_id IS NOT NULL AND fp_captured_content_file_id != 0"
+- "SELECT COUNT(*)\n  FROM reconciliation_table\n WHERE fs_captured_content_file_id IS NOT NULL AND fs_captured_content_file_id != 0"
+- "SELECT COUNT(1)\n FROM reconciliation_table\nWHERE fs_id IS NOT NULL AND fp_id IS NOT NULL"
+- "SELECT COUNT(DISTINCT rec.fs_id)\n  FROM reconciliation_table AS rec\n INNER JOIN fs_throttle AS throttle ON throttle.item_id == rec.fs_id\n WHERE (rec.fs_disk_import_status == "
+- "SELECT COUNT(fp.metadata_size), SUM(MAX(1, fp.metadata_size))\n  FROM jobs\n INNER JOIN fp_snapshot AS fp ON (fp.id = jobs.source_item_id)\n INNER JOIN reconciliation_table AS rt ON (rt.fp_id = jobs.source_item_id)\n WHERE jobs.side = "
+- "SELECT COUNT(fp.metadata_size), SUM(MAX(1, fp.metadata_size))\n  FROM reconciliation_table AS rt\n INNER JOIN fp_snapshot AS fp ON (fp.id = rt.fp_id)\n WHERE rt.fp_updated_fields & "
+- "SELECT COUNT(fp.metadata_size), SUM(MAX(1, fp.metadata_size))\n  FROM reconciliation_table AS rt\n INNER JOIN fp_snapshot AS fp ON (fp.id = rt.fp_id)\n WHERE rt.fs_materialization_status == "
+- "SELECT COUNT(fs.metadata_size), SUM(MAX(1, fs.metadata_size))\n  FROM jobs\n INNER JOIN reconciliation_table AS rt ON (fs.id = rt.fs_id)\n INNER JOIN fs_snapshot AS fs ON (fs.id = jobs.source_item_id)\n WHERE ((jobs.type == "
+- "SELECT COUNT(fs.metadata_size), SUM(MAX(1, fs.metadata_size))\n  FROM reconciliation_table AS rt\n INNER JOIN fs_snapshot AS fs ON (fs.id = rt.fs_id)\n WHERE rt.kind IN "
+- "SELECT COUNT(id)\n  FROM background_downloader\n WHERE state = "
+- "SELECT COUNT(id) FROM background_downloader\nWHERE id = "
+- "SELECT COUNT(is_pending)\n  FROM reconciliation_table INDEXED BY reconciliation_is_pending\n WHERE is_pending == 1"
+- "SELECT MIN(next_retry_date)\n  FROM "
+- "SELECT SUM(metadata_physical_size)\nFROM "
+- "SELECT anchor FROM enumeration_view"
+- "SELECT container_fs.id\nFROM fs_snapshot AS container_fs\nLEFT JOIN reconciliation_table AS container_rt ON (container_rt.fs_id = container_fs.id)\nLEFT JOIN fp_snapshot AS container_fp ON (container_rt.fp_id = container_fp.id)\nWHERE container_fs.parent_id = "
+- "SELECT db_uuid,\n       db_bugfix_revision,\n       fs_stream_uuid,\n       fs_stream_event_id,\n       fp_stream_sync_token,\n       domain_version,\n       feature_flags,\n       scheduling_state,\n       error_generation\n  FROM engine_state"
+- "SELECT decoration_inherited_user_info, decoration_user_info, parent_id\n  FROM "
+- "SELECT domain_wide_error\n  FROM "
+- "SELECT fp_id\n  FROM reconciliation_table\n WHERE fs_id = "
+- "SELECT fp_id, is_watched, enumeration_anchor, parent_id, filename, kind\n  FROM (SELECT fp_id AS fp_id,\n               fs_snapshot.metadata_is_dataless = 0 AS is_watched,\n               enumeration_anchor AS enumeration_anchor,\n               fp_snapshot.parent_id AS parent_id,\n               fp_snapshot.filename AS filename,\n               fp_snapshot.metadata_kind AS kind\n          FROM reconciliation_table\n         INNER JOIN fp_snapshot ON fp_id = fp_snapshot.id\n          LEFT JOIN fs_snapshot ON fs_id = fs_snapshot.id\n         WHERE fp_snapshot.parent_id IS NOT NULL\n     UNION ALL\n       SELECT fp_id AS fp_id,\n              0 AS is_watched,\n              enumeration_anchor AS enumeration_anchor,\n              NULL AS parent_id,\n              NULL AS filename,\n              NULL AS kind\n         FROM tombstone_table)\n    WHERE enumeration_anchor > "
+- "SELECT fp_id, scheduling_timestamp, last_change\n  FROM reconciliation_table INDEXED BY reconciliation_is_pending\n WHERE is_pending == 1"
+- "SELECT fp_snap.id, rec.fp_deletion_status, rec.fp_updated_fields\n  FROM FP_snapshot as fp_snap\nINNER JOIN reconciliation_table AS rec ON fp_snap.id == rec.fp_id\nWHERE fp_snap.parent_id = "
+- "SELECT fs.metadata_is_dataless, fs.metadata_is_detached_root, fs.recursive_dataless_count, fs.recursive_evictable_count,\n       fs.vfs_fileid, fs.vfs_generationid, fs.metadata_size, fs.metadata_is_package, fs.metadata_kind,\n       fs.parent_id, fs.filename,\n\n       fp.metadata_is_pinned, fp.metadata_is_in_pinned_folder,\n       fp.content_version, fp.structural_version,\n       fp.recursive_disallow_deletion_count, fp.recursive_disallow_exclusion_count,\n       "
+- "SELECT fs_disk_import_status, COUNT(DISTINCT fs_id)\n  FROM reconciliation_table\n WHERE fs_disk_import_status IN ("
+- "SELECT fs_id\n  FROM reconciliation_table\n WHERE fp_id = "
+- "SELECT fs_id\n  FROM reconciliation_table\n WHERE fs_disk_import_status = "
+- "SELECT fs_id\n  FROM reconciliation_table\n WHERE fs_disk_import_status IN "
+- "SELECT fs_id\n  FROM reconciliation_table\n WHERE fs_id IS NOT NULL\n   AND fp_id IS NOT NULL\n   AND fp_scheduling_state = "
+- "SELECT fs_id\n  FROM reconciliation_table\n WHERE fs_scheduling_state =  "
+- "SELECT fs_id\n  FROM reconciliation_table\n WHERE item_is_flocked != 0"
+- "SELECT fs_id, fp_id, last_change\n  FROM tombstone_table\n WHERE last_change > "
+- "SELECT fs_id, fs_was_dataless_before_disk_import\n  FROM reconciliation_table\n WHERE fs_disk_import_status = "
+- "SELECT fs_id, scheduling_timestamp, fs_disk_import_status,\n       fs_updated_fields, fp_updated_fields, fp_content_status\n  FROM reconciliation_table\n  WHERE fs_disk_import_status IN ("
+- "SELECT fs_snap.id, rec.fs_disk_import_status, rec.fs_deletion_status, rec.fs_updated_fields\n  FROM FS_snapshot as fs_snap\nINNER JOIN reconciliation_table AS rec ON fs_snap.id == rec.fs_id\nWHERE fs_snap.parent_id = "
+- "SELECT id\n  FROM "
+- "SELECT id\n  FROM background_downloader\n    WHERE id = "
+- "SELECT id\n  FROM background_downloader\n WHERE state = "
+- "SELECT id\n  FROM jobs\n WHERE scheduling_state IN "
+- "SELECT id, extent_location, extent_length\n  FROM background_downloader\n WHERE state = "
+- "SELECT id, extent_location, extent_length, reason\n  FROM background_downloader\n WHERE state = "
+- "SELECT id, metadata_kind\n  FROM "
+- "SELECT id, pending_reason, pending_scheduling_timestamp, pending_scheduling_priority\n  FROM "
+- "SELECT id, scheduling_priority, scheduling_timestamp, pending_reason,\n       pending_scheduling_timestamp, pending_scheduling_priority, item_id, type,\n       reason, "
+- "SELECT id, scheduling_state, scheduling_state_continuation\n  FROM "
+- "SELECT id, state, reason\n  FROM background_downloader"
+- "SELECT item_id\n  FROM "
+- "SELECT item_id\n  FROM fs_item_jobs\n WHERE type = "
+- "SELECT j.item_id\n  FROM "
+- "SELECT jobs.item_id\n  FROM "
+- "SELECT metadata_kind,\n       metadata_is_package,\n       metadata_is_dataless,\n       COUNT(*),\n       SUM(metadata_physical_size)\n FROM "
+- "SELECT new_doc_id\nFROM "
+- "SELECT new_file_id\nFROM "
+- "SELECT new_file_id, new_gen_count, gen_count\nFROM "
+- "SELECT parent_id\n  FROM "
+- "SELECT parent_id, filename\n  FROM "
+- "SELECT priority\n  FROM "
+- "SELECT rec.fp_id, rec.fp_content_status, rec.fp_updated_fields, rec.fs_id\n  FROM reconciliation_table AS rec\nWHERE rec.fs_disk_import_status == "
+- "SELECT rec.fs_id, rec.fs_content_status, rec.fp_id\n  FROM reconciliation_table AS rec\nWHERE rec.fs_disk_import_status == "
+- "SELECT rec.fs_id, rec.item_is_flocked, throttle.job_type\n  FROM reconciliation_table AS rec\nLEFT JOIN fs_throttle AS throttle ON throttle.item_id == rec.fs_id\nWHERE rec.fs_disk_import_status == "
+- "SELECT rec.fs_id, throttle.last_error\n  FROM FP_snapshot as fp_snap\nINNER JOIN reconciliation_table AS rec ON fp_snap.id == rec.fp_id\nLEFT JOIN fp_throttle AS throttle ON throttle.item_id == rec.fp_id\n                                  AND throttle.job_type IN ("
+- "SELECT rec.fs_id, throttle.last_error, throttle.retry_count\n  FROM reconciliation_table AS rec\n INNER JOIN fs_throttle AS throttle ON throttle.item_id == rec.fs_id\nWHERE (rec.fs_disk_import_status == "
+- "SELECT recursive_dataless_count, recursive_non_evictable_count, recursive_evictable_count\n  FROM "
+- "SELECT recursive_disallow_deletion_count, recursive_disallow_exclusion_count\n  FROM "
+- "SELECT relative_path, gen_count\nFROM "
+- "SELECT rowID\n  FROM "
+- "SELECT rowID\n  FROM jobs\n WHERE scheduling_state = "
+- "SELECT rowID\n  FROM reconciliation_table\n WHERE fp_scheduling_state IN "
+- "SELECT rowID\n  FROM reconciliation_table\n WHERE fs_id IS NOT NULL AND fp_id IS NOT NULL AND fs_deletion_status & "
+- "SELECT rowID\n  FROM reconciliation_table\n WHERE fs_scheduling_state IN "
+- "SELECT rowID\n  FROM reconciliation_table\n WHERE item_is_flocked != 0\n LIMIT 1"
+- "SELECT rowID, filename, id\n  FROM "
+- "SELECT rowID, fp_id\n  FROM reconciliation_table\n WHERE fs_id IS NOT NULL\n   AND fp_deletion_status = "
+- "SELECT rowID, fp_id, fp_content_status, fp_deletion_status\n  FROM reconciliation_table\n WHERE fs_id IS NOT NULL\n   AND fs_disk_import_status = "
+- "SELECT rowID, fp_id, scheduling_timestamp, last_change FROM reconciliation_table\n WHERE is_pending == 0\n   AND ((fp_scheduling_state IN "
+- "SELECT rowID, fp_id, scheduling_timestamp, last_change FROM reconciliation_table\n WHERE is_pending == 0\n   AND fp_id IS NOT NULL\n   AND ((fs_scheduling_state IN "
+- "SELECT rowID, fs_id\n  FROM reconciliation_table\n WHERE fs_id IS NOT NULL\n   AND fs_scheduling_state = "
+- "SELECT rowID, fs_id\n  FROM reconciliation_table\n WHERE fs_scheduling_state = "
+- "SELECT rowID, fs_id, fp_id\n  FROM reconciliation_table\n WHERE "
+- "SELECT rowID, fs_vfs_fileid, fs_vfs_generationid, fs_id, fs_captured_content_file_id,\n              fp_captured_content_file_id, fs_structural_parent_id\nFROM reconciliation_table\nWHERE fs_id IS NOT NULL\n   OR fs_vfs_fileid IS NOT NULL\n   OR fs_captured_content_file_id IS NOT NULL\n   OR fp_captured_content_file_id IS NOT NULL\nORDER BY rowID"
+- "SELECT rowID, id FROM "
+- "SELECT rowID, id, metadata_kind FROM "
+- "SELECT rowID, item_id\n  FROM fs_throttle\n ORDER BY rowID"
+- "SELECT rowID, item_id, scheduling_state_continuation\n  FROM fs_item_jobs\n ORDER BY rowID"
+- "SELECT rowID, parent_rt.fs_id\n  FROM reconciliation_table AS parent_rt\n WHERE parent_rt.fs_id IS NOT NULL\n   AND parent_rt.fs_deletion_status & "
+- "SELECT rowID, side, type, source_item_id, target_item_id, scheduling_state_continuation, bouncing_context\n  FROM jobs\n WHERE source_item_id IS NOT NULL OR target_item_id IS NOT NULL\n ORDER BY rowID"
+- "SELECT rowID, vfs_fileid, id, parent_id, vfs_generationid, metadata_closest_syncroot\n  FROM fs_snapshot\n ORDER BY rowID"
+- "SELECT rt.rowID\n  FROM reconciliation_table AS rt\n  LEFT JOIN fp_snapshot AS fp ON (rt.fp_id = fp.id)\n  LEFT JOIN fs_snapshot AS fs ON (rt.fs_id = fs.id)\n WHERE fp.decoration_content_policy == "
+- "SELECT rt.rowID\n  FROM reconciliation_table AS rt\n  LEFT JOIN fp_snapshot AS fp ON (rt.fp_id = fp.id)\n WHERE fp.decoration_conflicting_versions IS NOT NULL\n   AND rt.conflicting_versions_in_genstore = 0\n   AND "
+- "SELECT rt.rowID, fs.parent_id, fs.filename\n  FROM reconciliation_table AS rt\n INNER JOIN fs_snapshot AS fs ON (rt.fs_id = fs.id)\n WHERE (fs_structural_parent_id != fs.parent_id\n        OR fs_structural_filename != fs.filename)\n   AND fs_updated_fields == 0\n   AND fs_deletion_status == 0\n   AND fs_scheduling_state != "
+- "SELECT rt.rowID, rt.fs_id\n  FROM fs_snapshot AS snap\n INNER JOIN reconciliation_table AS rt ON (rt.fs_id = snap.id)\n WHERE snap.parent_id = "
+- "SELECT rt.rowID, rt.fs_id\n  FROM reconciliation_table AS rt\n WHERE rt.fp_content_status == "
+- "SELECT rt.rowid, "
+- "SELECT snap.id\n  FROM "
+- "SELECT snapshot_version\n  FROM "
+- "SELECT timestamp, os_version, db_version, db_revision, fs_version, fp_version, reason\n  FROM history\n ORDER BY rowID "
+- "SELECT timestamp, os_version, db_version, db_revision, fs_version, fp_version, reason\n  FROM history\n ORDER BY rowID DESC"
+- "SQLDB: Build Hierarichal User Info"
+- "SQLDB: Check item with ID"
+- "SQLDB: Contains children"
+- "SQLDB: Contains pending deletion children"
+- "SQLDB: Count bound children"
+- "SQLDB: Count keep downloaded children"
+- "SQLDB: Count materialized children"
+- "SQLDB: Count pending rescan children"
+- "SQLDB: Count unbound children"
+- "SQLDB: Decoration Decoding"
+- "SQLDB: Decoration Query"
+- "SQLDB: Delete Children"
+- "SQLDB: Delete Item"
+- "SQLDB: Enumerate children IDs and Kind"
+- "SQLDB: Enumerate dataless containers"
+- "SQLDB: Enumerate non-locked directory that could be locked"
+- "SQLDB: Enumerate non-purgeable packages"
+- "SQLDB: Enumerate non-syncroot packages"
+- "SQLDB: Fetch Jobs"
+- "SQLDB: Fetch pending indexing deletions"
+- "SQLDB: Fetch pending indexing items"
+- "SQLDB: Find closest sync root in parent chain"
+- "SQLDB: Force flush of database"
+- "SQLDB: Has ignored parent"
+- "SQLDB: Has reseting parent"
+- "SQLDB: Lookup FP recursive properties"
+- "SQLDB: Lookup FS recursive properties"
+- "SQLDB: Lookup item by ID"
+- "SQLDB: Lookup item by fileID"
+- "SQLDB: Lookup item by parent ID and name"
+- "SQLDB: Lookup item non syncable attributes"
+- "SQLDB: Lookup parent ID"
+- "SQLDB: Lookup snapshot version"
+- "SQLDB: Persist Job"
+- "SQLDB: React to trigger"
+- "SQLDB: Recursive Delete Children"
+- "SQLDB: Scan decorated"
+- "SQLDB: Scan decorated app libraries"
+- "SQLDB: Scan directory"
+- "SQLDB: Scan ignored items"
+- "SQLDB: Scan pending reimport items"
+- "SQLDB: Snapshot insert"
+- "SQLDB: Snapshot update"
+- "SQLDB: Update closest sync root for descendents of unignored item"
+- "SQLDB: building telemetry report"
+- "SQLDB: check item is descendent of another item"
+- "SQLDB: check path-matching loop"
+- "SQLDB: enumerateChildrenIDAndKind"
+- "SQLDB: fetch reconciliation"
+- "SQLDB: fetch reconciliation FP id"
+- "SQLDB: fetch reconciliation FS id"
+- "SQLDB: list dataless items with conflicts"
+- "SQLDB: list not yet created descendents"
+- "SQLDB: list packages"
+- "SQLDB: listing descendents pending incoming propagation"
+- "SQLDB: reconciliation delete"
+- "SQLDB: reconciliation insert"
+- "SQLDB: reconciliation update"
+- "SQL_BACKUP_MANIFEST_SCHEMA_VERSION"
+- "Scheduler: Async Job execution (FP content update)"
+- "Scheduler: Async Job execution (FP fetch content)"
+- "Scheduler: Async Job execution (FP generic jobs)"
+- "Scheduler: Async Job execution (FS content update)"
+- "Scheduler: Async Job execution (FS fetch content)"
+- "Scheduler: Async Job execution (FS generic jobs)"
+- "Scheduler: Async Job execution (background downloads)"
+- "Scheduler: Async Job execution (no limit)"
+- "Should not call fixupOutOfSyncFSBaseVersion on non-ItemStateVersion types"
+- "Should not happen"
+- "Started purging..."
+- "Starting FPCK for %s with DB at %s"
+- "Starting backup..."
+- "Succeeded deleting %s from spotlight index."
+- "Succeeded deleting item with itemID %@, not wating on ingestion"
+- "Succeeded deleting items: %s"
+- "Succeeded ingesting deletion for item with itemID %@"
+- "Swift/Dictionary.swift"
+- "Swift/NativeDictionary.swift"
+- "SwiftWorkaround"
+- "T@\"<FSChangeSubscriptionDelegate>\",W,V_delegate"
+- "T@\"FPRTCReportingSession\",R,N,V_rtcReporting"
+- "T@\"GSStorageManager\",R"
+- "T@\"NSArray\",N,R"
+- "T@\"NSArray\",R,C"
+- "T@\"NSData\",N,C"
+- "T@\"NSData\",R,N"
+- "T@\"NSDictionary\",N,C"
+- "T@\"NSDictionary\",R,C,N,V_diagnostic"
+- "T@\"NSFileProviderDomainVersion\",N,R"
+- "T@\"NSFileProviderDomainVersion\",R,N"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_delegationQueue"
+- "T@\"NSString\",&,N,V_path"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_root"
+- "T@\"NSURL\",&,N,V_barrierFolderURL"
+- "T@\"NSURL\",N,R"
+- "T@\"NSUUID\",&,N,V_eventStreamUUID"
+- "T@\"NSUUID\",R,N"
+- "T@\"NSUUID\",R,N,V_barrierUUID"
+- "T@\"_TtC9libfssync19FPFSSQLBackupEngine\",&,N,V_backupEngine"
+- "T@\"_TtC9libfssync20FPFSSQLRestoreEngine\",&,N,V_restoreEngine"
+- "TB,N,GhasPlannedRescan,V_plannedRescan"
+- "TB,N,R"
+- "TB,N,R,VshouldRefreshBookmark"
+- "TB,N,V_isActivated"
+- "TB,R,N"
+- "TB,R,N,V_ignoreOwnEvents"
+- "TB,R,N,V_isNotification"
+- "TB,V_itemIsInsideAPackage"
+- "TB,V_itemIsInsideAnIgnoredFolder"
+- "TI,R,N"
+- "TI,R,N,V_additionalDebugFlags"
+- "TI,R,N,V_rawFlags"
+- "TQ"
+- "TQ,N,R,Vinode"
+- "TQ,N,V_lastDeliveredEventID"
+- "TQ,N,V_state"
+- "TQ,N,VtimeoutState"
+- "TQ,R,N,V_eventID"
+- "TQ,R,N,V_fileID"
+- "TQ,R,N,V_rootFileID"
+- "TapToRadarService"
+- "Td,N,R,Vtimeout"
+- "Td,R"
+- "Td,R,N"
+- "Ti,N,R"
+- "Ti,N,R,VrequestEffectivePID"
+- "Ti,R"
+- "Ti,R,N,V_deviceID"
+- "Ti,R,N,V_rootfd"
+- "Tq,N,R"
+- "Tq,N,VnumberOfBrokenFilesInBackupManifestCheck"
+- "Tq,N,VnumberOfBrokenFilesInFSAndFSSnapshotCheck"
+- "Tq,N,VnumberOfBrokenFilesInFSCheck"
+- "Tq,N,VnumberOfBrokenFilesInFSSnapshotAndFPSnapshotCheck"
+- "Tq,N,VnumberOfBrokenFilesInReconciliationTableCheck"
+- "Tq,N,VnumberOfFilesChecked"
+- "Tq,R,N"
+- "Type identifier resolution"
+- "UNREACHABLE : FPCK was called without a resultHandler"
+- "UNSCHEDULE_BACKGROUND_DOWNLOAD"
+- "UPDATE background_downloader\n   SET reason = reason & ~"
+- "UPDATE background_downloader\n   SET reason = reason | "
+- "UPDATE background_downloader\n   SET state = "
+- "UPDATE engine_state SET "
+- "UPDATE fs_item_jobs\nSET item_id = "
+- "UPDATE fs_item_jobs\nSET scheduling_state_continuation = "
+- "UPDATE fs_snapshot\nSET id = (SELECT CASE\n  WHEN id == "
+- "UPDATE fs_snapshot\nSET vfs_fileid = "
+- "UPDATE fs_throttle\nSET item_id = "
+- "UPDATE jobs\n   SET "
+- "UPDATE jobs\n   SET scheduling_state = "
+- "UPDATE jobs\n   SET scheduling_state_conditions = scheduling_state & ~("
+- "UPDATE jobs\nSET scheduling_state_continuation = "
+- "UPDATE jobs\nSET source_item_id = "
+- "UPDATE jobs\nSET target_item_id = "
+- "UPDATE reconciliation_table\n   SET "
+- "UPDATE reconciliation_table\n   SET fs_structural_parent_id = "
+- "UPDATE reconciliation_table\n   SET fs_vfs_generationid = 0, fs_content_size = NULL\n WHERE kind = "
+- "UPDATE reconciliation_table\n   SET last_change = PROPAGATION_DATE_CHANGED(0, fs_id)\n WHERE "
+- "UPDATE reconciliation_table\nSET conflicting_versions_in_genstore = 1\nWHERE rowID IN "
+- "UPDATE reconciliation_table\nSET fs_id = (SELECT CASE\n  WHEN fs_id == "
+- "UPDATE reconciliation_table\nSET fs_vfs_fileid = "
+- "UPDATE reconciliation_table\nSET is_pending = 1\nWHERE rowID IN "
+- "UPDATE reconciliation_table\nSET speculative_fulfilled = 1\nWHERE rowID IN "
+- "UPDATE tombstone_table\n   SET enumeration_anchor = NULL\n WHERE enumeration_anchor < "
+- "UPDATE tombstone_table\n   SET last_change = NULL\n WHERE last_change <= "
+- "URL"
+- "URLByAppendingPathComponent:"
+- "URLByAppendingPathComponent:isDirectory:"
+- "URLByDeletingLastPathComponent"
+- "URLForItemID:creatingPlaceholderIfMissing:ignoreAlternateContentsURL:completionHandler:"
+- "URLForItemID:creatingPlaceholderIfMissing:ignoreAlternateContentsURL:forBookmarkResolution:request:completionHandler:"
+- "UTF8String"
+- "UUID"
+- "UUIDString"
+- "Unable to capture database for Periodic FPCK on %s: %@"
+- "Unable to clear needsAuth, domain indexer not initialized"
+- "Unable to clear needsAuth, domain not initialized"
+- "Unable to compute out-of-sync / pinned volume: %@"
+- "Unable to create destination directory %s: %@"
+- "Unable to create extent map for %s : %@"
+- "Unable to delete existing destination directory at %s: %@"
+- "Unable to evaluate diskImport status: %@, ignoring"
+- "Unable to process fsevent#%llu for item at \"%s\": %@"
+- "Unable to resolve FSEvent item attributes for event on fileID(%{public}llu)"
+- "Unable to retrieve FSEvent stream UUID for device %d"
+- "Unable to retrieve home URL for current persona"
+- "Unable to stat(2) item after eviction attempt"
+- "Unexpected ItemID mismatch!"
+- "Unexpected waiting condition on job "
+- "Unhandled job type"
+- "Unsupported %s state, was the feature enabled and turned off?"
+- "Update for pending set, db is not a sql db"
+- "Updating %ld %u %u into database for %s"
+- "Updating history table..."
+- "VFSDirectoryLister.forEachElement skippedFiles"
+- "VFSItem parentID must be a fileID or well-known dir"
+- "WITH RECURSIVE ignored_parents(id, rt_deletion_status) AS (\n  SELECT parent_id, rt."
+- "WITH RECURSIVE parent_"
+- "WITH RECURSIVE parent_dirs(id) AS (\n  SELECT id\n    FROM "
+- "WITH RECURSIVE parent_dirs(id) AS (\n  SELECT parent_id\n    FROM "
+- "WITH RECURSIVE parent_dirs(id, parent_id) AS (\n  SELECT id, parent_id\n    FROM "
+- "WITH RECURSIVE parent_dirs(id, parent_id) AS (\n  SELECT snap.id, snap.parent_id\n    FROM "
+- "WITH RECURSIVE parent_dirs(id, parent_id, closest_sync_root) AS (\n  SELECT id, parent_id,\n    CASE\n      WHEN metadata_is_syncroot != 0 THEN vfs_fileid\n      ELSE 0\n    END\n    FROM "
+- "WITH RECURSIVE path_matching(id, parent_id, filename, wait_on_path_matching) AS (\n  SELECT s.id, s.parent_id, s.filename, (rt."
+- "Waiting for propagation of root to the FP request %s"
+- "Will force a second notify due to domain version change"
+- "[%s] Couldn't flush database %s: %@"
+- "[%s] Failed to disable foreign keys: %@"
+- "[%s] Failed to open database at %s: %@"
+- "[%s] Failed to patch the fs_item_jobs table: %@"
+- "[%s] Failed to patch the fs_snapshot table: %@"
+- "[%s] Failed to patch the fs_throttle table: %@"
+- "[%s] Failed to patch the jobs table: %@"
+- "[%s] Failed to patch the reconciliation_table table: %@"
+- "[%s] Failed to patch the tombstone table: %@"
+- "[ASSERT] ‼️  %s:%lu: %s"
+- "[CRIT] The root fileID changed from %llu to %llu"
+- "[DEBUG] %@ (dropped event)"
+- "[DEBUG] %@ (handling barrier - %@)"
+- "[DEBUG] %@ (ignored uninteresting path)"
+- "[DEBUG] %@ ignore event #%llu (own event)"
+- "[DEBUG] %@ processing"
+- "[DEBUG] Already need deep scan.  Dropping all incoming events"
+- "[DEBUG] Creating a radar draft request"
+- "[DEBUG] Creating new FSEvent stream %s"
+- "[DEBUG] Creating stream with name %s since %llu"
+- "[DEBUG] Defer processing of FSEvents on stream %s per XPC activity"
+- "[DEBUG] Dequeueing event: %u/%u path:'%@' fileID:%llu flags:%@ id:%llu"
+- "[DEBUG] Enqueuing event: %zd/%zd %@"
+- "[DEBUG] Historical stream is being processed - enqueuing barrier event %@"
+- "[DEBUG] Incoming events need deep scan.  Dropping all existing events"
+- "[DEBUG] Not internal build, ignoring tap to radar request"
+- "[DEBUG] Observing %@ (%s)"
+- "[DEBUG] Resuming FSEvent stream %s <XPC activity already running>"
+- "[DEBUG] Resuming FSEvent stream %s <XPC activity running>"
+- "[DEBUG] Starting FSEvents stream"
+- "[DEBUG] Stop processing of FSEvents on stream %s"
+- "[DEBUG] Suspending FSEvent stream %s"
+- "[DEBUG] Tap to radar returned successfuly"
+- "[DEBUG] creating the new stream"
+- "[DEBUG] draining %zd fsevents"
+- "[DEBUG] reporting d2d backup telemetry with %@"
+- "[DEBUG] reporting d2d restore telemetry with %@"
+- "[DEBUG] resetting the %@ because of %@"
+- "[DEBUG] resuming - suspendCount:%d->%d"
+- "[DEBUG] suspending - suspendCount:%d->%d"
+- "[DEBUG] ┏%llx closing the %@"
+- "[DEBUG] ┏%llx reset: drained all fsevents from the old stream"
+- "[DEBUG] 🚧  handle event on barrier %@"
+- "[DEBUG] 🚧  no reader (%@) or associated barrier folder URL"
+- "[DEBUG] 🚧  setting up new barrier with rendez-vous %@ (currentID=%llu)"
+- "[DEBUG] 🚧  updating existing barrier to new rendez-vous %@"
+- "[ERROR] Cannot stat root at '%@' after fsevent:%{errno}d"
+- "[ERROR] Couldn't get purgeable flags, errno %d"
+- "[ERROR] Couldn't open stream: %{errno}d"
+- "[ERROR] Dropping FSEvent, eventPaths=%p with numEvents=%zd (eventInfo.count=%lu): %@"
+- "[ERROR] Unable to defer FSEvent XPC activity on stream %s"
+- "[ERROR] Unable to getattrlist: %s"
+- "[ERROR] Unable to mark done FSEvent XPC activity on stream %s"
+- "[ERROR] cannot build descriptor for detached item %@: %@"
+- "[Error] Interval already ended"
+- "[GlobalProgress] Publishing %s for download"
+- "[GlobalProgress] Publishing %s for upload"
+- "[GlobalProgress] RT.agp, oldSide!=nil, side==nil, but no oldEntry"
+- "[GlobalProgress] RT.agp, oldSide!=side, but no entry"
+- "[GlobalProgress] RT.agp, oldSide!=side, but no oldEntry"
+- "[GlobalProgress] RT.agp, oldSide=nil, side!=nil, but no entry"
+- "[GlobalProgress] Unpublishing %s"
+- "[GlobalProgress] accountUploadJob, snapshot missing for itemID %{public}s"
+- "[GlobalProgress] activeChildProgress not empty at cleanup"
+- "[GlobalProgress] complementary progress published: %{public}@"
+- "[GlobalProgress] complementary progress unpublished: %{public}@"
+- "[GlobalProgress] computePartialProgress: missing fileURL for %{public}@"
+- "[GlobalProgress] computePartialProgress: size missing for:%{public}s"
+- "[GlobalProgress] fileSizeCache not empty at cleanup"
+- "[GlobalProgress] ignoring not CloudDocs progress"
+- "[GlobalProgress] ignoring progress:<%{public}@> with different URL: %{public}s"
+- "[GlobalProgress] ignoring progress:<%{public}@> with different kind"
+- "[GlobalProgress] missing fileURL in published progress: %{public}@"
+- "[GlobalProgress] pausing failed: %@"
+- "[GlobalProgress] received paused request on progress"
+- "[GlobalProgress] received resume request on progress"
+- "[GlobalProgress] resuming failed: %@"
+- "[GlobalProgress] subscribing for complementary progress"
+- "[GlobalProgress] unsubscribing from progress"
+- "[INFO] %@ root needs deep-scan"
+- "[INFO] done processing history"
+- "[INFO] dropped event during the processing of the historical stream"
+- "[INFO] dropped event during the processing of the live stream"
+- "[INFO] fsevents id wrapped"
+- "[INFO] kernel dropped an event"
+- "[WARNING] %lu barrier event%s not delivered, dropping!"
+- "[WARNING] FPCK checking %{public}@ (fileID=%llu) failed with %{errno}d"
+- "[WARNING] Tap to radar returned error: (%@)"
+- "[WARNING] We still have too many events in the queue, blocking until events are flushed"
+- "[can't get query plan]"
+- "[diskspace] database open likely to fail, returning error"
+- "[diskspace] disk is full, restarting: %@"
+- "[diskspace] wharf init failed due to lowSpace but disconnectionState (%lu) failed to catch that"
+- "[interactive] testingOperationForEntry, entry=%s, status=%s"
+- "[interactive] testingOperationForEntry, missing entry"
+- "[loadSyncEngine] Alternate content info update for %s"
+- "[loadSyncEngine] Pending set notification on start"
+- "[loadSyncEngine] Pending set was empty before stop"
+- "[loadSyncEngine] Pending set was not empty before stop"
+- "[loadSyncEngine] Unable to activate sync engine: %@"
+- "[loadSyncEngine] activated sync engine with %{public}s"
+- "[loadSyncEngine] activating sync engine"
+- "[loadSyncEngine] activating wharf"
+- "[loadSyncEngine] cannot init wharf: %@"
+- "[loadSyncEngine] cannot open database at %s: %@"
+- "[loadSyncEngine] creating FPFileTree"
+- "[loadSyncEngine] creating SQLDatabase"
+- "[loadSyncEngine] creating VFSFileTree"
+- "[loadSyncEngine] creating support paths"
+- "[loadSyncEngine] creating wharf"
+- "[loadSyncEngine] fstree initialization failed: %@"
+- "[loadSyncEngine] initializing RTC session"
+- "[loadSyncEngine] loading sync engine"
+- "[loadSyncEngine] missing domain in sync engine loading"
+- "[loadSyncEngine] read sync anchor"
+- "[loadSyncEngine] sync engine successfully loaded"
+- "[loadSyncEngine] unsupported database version on a non-default volume: disconnecting domain"
+- "[loadSyncEngine] wharf initialization failed: %@"
+- "[patchAppLibrary] App library: %@ for: %@ is not valid (request: %{public}s)"
+- "[patchAppLibrary] App library: cannot build app Library for %@ (request: %{public}s)"
+- "[patchAppLibrary] Error while trying to find the container for: %@, error: %@ (request: %{public}s)"
+- "[patchAppLibrary] No error and no container for: %@ (request: %{public}s)"
+- "[pathAppLibrary] Found possible container %{public}s (request: %{public}s)"
+- "[pathAppLibrary] resolving container item for %{public}@ (request: %{public}s"
+- "\\.notify\\.([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\\.nosync"
+- "\\.rendez-vous\\.([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\\.nosync"
+- "^{fpfs_fsevent_stream=}"
+- "^{fpfs_fsevent_stream=}40@0:8@16Q24@32"
+- "_NSURLGenerationCountKey"
+- "_TtC9libfssync10FPFileTree"
+- "_TtC9libfssync10FileDumper"
+- "_TtC9libfssync11FPFSIndexer"
+- "_TtC9libfssync11TaskTracker"
+- "_TtC9libfssync11VFSFileTree"
+- "_TtC9libfssync12Continuation"
+- "_TtC9libfssync12JobLimitSlot"
+- "_TtC9libfssync12PeriodicFPCK"
+- "_TtC9libfssync12StringDumper"
+- "_TtC9libfssync13DocumentWharf"
+- "_TtC9libfssync13ReadOnlyWharf"
+- "_TtC9libfssync13StagedContext"
+- "_TtC9libfssync14FPFSEnumerator"
+- "_TtC9libfssync14FPFSSyncEngine"
+- "_TtC9libfssync14VFSLookupScope"
+- "_TtC9libfssync15SQLHistoryTable"
+- "_TtC9libfssync16FPCKDetachedRoot"
+- "_TtC9libfssync16VFSStagedContext"
+- "_TtC9libfssync17ConcreteFPDPurger"
+- "_TtC9libfssync17FPDNetworkMonitor"
+- "_TtC9libfssync17FPSnapshotChecker"
+- "_TtC9libfssync17FSSnapshotChecker"
+- "_TtC9libfssync17GSConflictManager"
+- "_TtC9libfssync17SQLBackupManifest"
+- "_TtC9libfssync18FPFSGlobalProgress"
+- "_TtC9libfssync18URLDirectoryLister"
+- "_TtC9libfssync18VFSDirectoryLister"
+- "_TtC9libfssync19FPFSSQLBackupEngine"
+- "_TtC9libfssync19PersistenceCounters"
+- "_TtC9libfssync19RequestContinuation"
+- "_TtC9libfssync20DummyOperationClient"
+- "_TtC9libfssync20FPDDomainFPFSBackend"
+- "_TtC9libfssync20FPFSSQLRestoreEngine"
+- "_TtC9libfssync20FPFSSearchEnumerator"
+- "_TtC9libfssync20FPFSServicerExtender"
+- "_TtC9libfssync20InternalPathsManager"
+- "_TtC9libfssync20TrackingContinuation"
+- "_TtC9libfssync21FPFSOperationServicer"
+- "_TtC9libfssync21FileProviderPageToken"
+- "_TtC9libfssync21PaginatedContinuation"
+- "_TtC9libfssync22DiskImportContinuation"
+- "_TtC9libfssync23DownloadProgressMonitor"
+- "_TtC9libfssync23DummyEnumeratorObserver"
+- "_TtC9libfssync23GSRemoteVersionsManager"
+- "_TtC9libfssync23MaintenanceContinuation"
+- "_TtC9libfssync23VFSTrackingContinuation"
+- "_TtC9libfssync25VFSLookupItemContinuation"
+- "_TtC9libfssync28FPXPCNonSanitizingErrorProxy"
+- "_TtC9libfssync30RestoreUpgradeSchemaFPFileTree"
+- "_TtC9libfssync31DocumentTrackingTombstoneSlayer"
+- "_TtC9libfssync31RestoreUpgradeSchemaVFSFileTree"
+- "_TtC9libfssync37DownloadProgressNotificationPresenter"
+- "_TtC9libfssync4FPCK"
+- "_TtC9libfssync8FSRepair"
+- "_TtC9libfssync8JobLimit"
+- "_TtC9libfssyncP33_4832980660C328E96B083C662469F36526FPFileTreeLifetimeExtender"
+- "_TtC9libfssyncP33_48B452DE321F44F46865C1107F5BBC8315DownloadContext"
+- "_TtC9libfssyncP33_695A112A250415316549FF403B18C66413DummyObserver"
+- "_TtC9libfssyncP33_695A112A250415316549FF403B18C66416LifetimeExtender"
+- "_TtC9libfssyncP33_7F4FBB69DAA1D0B2DA22684CBB0F5CB316ProxyCancellable"
+- "_TtC9libfssyncP33_7F4FBB69DAA1D0B2DA22684CBB0F5CB320ProxyOperationClient"
+- "__cachedURLs"
+- "__fpfs"
+- "__itemAtURL:didGainVersionWithClientID:name:purposeID:"
+- "__itemAtURL:didLoseVersionWithClientID:name:purposeID:"
+- "__itemAtURL:didResolveConflictVersionWithClientID:name:purposeID:"
+- "__scheduling_state__pending_reason ON "
+- "__scheduling_state__pending_scheduling_timestamp\n          ON "
+- "__scheduling_state__scheduling_state_conditions__pending_scheduling_timestamp\n          ON "
+- "__swift_setObject:forKeyedSubscript:"
+- "__type__state ON "
+- "_activateSubscription:error:"
+- "_addSubscriberForFileURL:withPublishingHandler:"
+- "_additionalDebugFlags"
+- "_availableDiskSpace"
+- "_backupEngine"
+- "_barrierFolderURL"
+- "_barrierGroup"
+- "_barrierUUID"
+- "_cancel"
+- "_close"
+- "_collectFnameAttributesWithError:"
+- "_collectInodeAttributesWithError:"
+- "_collectMountAttributesWithError:"
+- "_collectParentACLCountWithError:"
+- "_collectPurgeAttributesWithError:"
+- "_collectXattrAttributesWithError:"
+- "_collectdocIDAttributesWithError:"
+- "_createNoDelay"
+- "_createStreamNamed:since:criteria:"
+- "_currentAnchor"
+- "_debouncedUnregistration"
+- "_delegate"
+- "_delegationQueue"
+- "_deletion_status\n    FROM "
+- "_deletion_status\n    FROM ignored_parents\n   INNER JOIN "
+- "_deletion_status != 0 "
+- "_deletion_status != 0)\n   AND rt."
+- "_deletion_status & "
+- "_deletion_status & ~"
+- "_deviceID"
+- "_diagnostic"
+- "_diskImportScheduler"
+- "_disk_import_status = "
+- "_docid"
+- "_drainEvents"
+- "_eventID"
+- "_eventStreamUUID"
+- "_evict(_:completion:)"
+- "_executionQueue"
+- "_fakeEventSeq"
+- "_fd"
+- "_fileID"
+- "_fseventProcessBatchSize"
+- "_fseventsProcessSource"
+- "_fseventsToProcess"
+- "_fseventsToProcess.count < _maxFSEventQueueSize"
+- "_fsid"
+- "_hasMarkSelf"
+- "_has_pending ON "
+- "_id\n               AND sibling_snap.filename = original_snap.filename "
+- "_id\n  FROM reconciliation_table AS rt\n WHERE rt."
+- "_id\n  FROM reconciliation_table AS rt\n WHERE rt.scheduling_timestamp <= "
+- "_id\n WHERE snap.parent_id = "
+- "_id = id)\n               WHERE parent_id = "
+- "_id = ignored_parents.id)\n     WHERE rt."
+- "_id = j.item_id)\n WHERE j.type = "
+- "_id = original_snap.parent_id\n  INNER JOIN "
+- "_id = other_snapshot.parent_id\n                                                           AND other_snapshot.filename = pm.filename\n                                                               "
+- "_id = p.id\n   AND rt."
+- "_id = pd.id\n  WHERE "
+- "_id = s.id\n   WHERE id = "
+- "_id = sibling_snap.id\n  WHERE original_rt."
+- "_id = snap.id\n    WHERE rt."
+- "_id = snap.id\n WHERE parent_rt."
+- "_id = snap.id\n WHERE snap.parent_id = "
+- "_id = snap.parent_id\n WHERE snap.id = "
+- "_id IS NOT NULL\n   AND "
+- "_id IS NOT NULL\n   AND +rt."
+- "_id IS NOT NULL)\n        OR (rt."
+- "_id IS NOT NULL)\n        OR rt."
+- "_id IS NULL\n   AND "
+- "_id IS NULL\n   AND rt."
+- "_id IS NULL\n LIMIT 1"
+- "_id)\n  INNER JOIN reconciliation_table AS parent_rt ON parent_rt."
+- "_id)\n INNER JOIN "
+- "_id__kind__job_type__ordering\n    ON "
+- "_ignoreOwnEvents"
+- "_inGreedyState"
+- "_ino"
+- "_isActivated"
+- "_isCancelled"
+- "_isCaseSensitive"
+- "_isInDiskImportStorage"
+- "_isNotification"
+- "_isProcessingHistory"
+- "_itemIsInsideAPackage"
+- "_itemIsInsideAnIgnoredFolder"
+- "_item_jobs AS j\n INNER JOIN reconciliation_table AS rt ON (rt."
+- "_item_jobs AS jobs ON p.id = jobs.item_id\n WHERE jobs.type IN ("
+- "_lastDeliveredEventID"
+- "_lastDiskSpaceCheckTime"
+- "_lastFSEventID"
+- "_log"
+- "_lookupScope"
+- "_materialization_status = "
+- "_materialize_children\n INNER JOIN reconciliation_table AS rt ON rt."
+- "_materialize_children ON "
+- "_maxFSEventQueueSize"
+- "_notifyEventId"
+- "_notifyStreamUUID"
+- "_optimizeOutOwnEvents"
+- "_ownRootFD"
+- "_parentURL"
+- "_parent_id__filename_idx\n    ON "
+- "_parent_id__id__ignore ON "
+- "_parent_id__id__syncroot\n    JOIN parent_dirs ON "
+- "_parent_id__id__syncroot\n   WHERE id = "
+- "_parent_id__id__syncroot ON "
+- "_parent_id_idx ON "
+- "_path"
+- "_pendingBarrierEvents"
+- "_per_job\n    ON "
+- "_performStep:error:"
+- "_plannedRescan"
+- "_processQueue"
+- "_purpose"
+- "_queueEvents:markSelfEncountered:"
+- "_rawFlags"
+- "_removeSubscriber:"
+- "_resetCount"
+- "_restoreEngine"
+- "_root"
+- "_rootFileID"
+- "_rootfd"
+- "_rtcReporting"
+- "_scheduleStateStorage"
+- "_scheduledDownloadsDictionary"
+- "_scheduling_state = "
+- "_scheduling_state_conditions & "
+- "_scheduling_state_conditions NOT IN "
+- "_signaledErrorGenerationDebouncer"
+- "_snapshot AS original_snap ON (original_snap.id = original_rt."
+- "_snapshot AS other_snapshot ON (parent_rt."
+- "_snapshot AS sibling_snap ON (\n               sibling_snap.parent_id = parent_rt."
+- "_snapshot AS snap\n    INNER JOIN parent_dirs AS pd ON pd.parent_id = snap.id\n    WHERE snap.id != pd.id\n    LIMIT 128\n )\n\n SELECT rt.rowid, "
+- "_snapshot AS snap\n    INNER JOIN reconciliation_table AS rt ON rt."
+- "_snapshot AS snap\n   INNER JOIN parent_dirs AS pd ON pd.parent_id = snap.id\n   WHERE snap.id != pd.id\n   LIMIT 128\n)\n\nSELECT rt.rowid, "
+- "_snapshot AS snap\n   WHERE snap.id = "
+- "_snapshot AS snap\n INNER JOIN reconciliation_table AS rt ON rt."
+- "_snapshot AS snap ON (\n        snap.parent_id = parent_rt."
+- "_snapshot AS snap ON (snap.id = jobs.item_id)\n WHERE jobs.type = "
+- "_state"
+- "_state__scheduling_ordering\n    ON "
+- "_state_domain_wide_error ON "
+- "_state_next_retry ON "
+- "_state_type__scheduling_ordering\n    ON "
+- "_stepsNeeded"
+- "_stfs"
+- "_stream"
+- "_streamQueue"
+- "_string"
+- "_subscriptions"
+- "_suspendCount"
+- "_test_callFileProviderManagerAPIs:"
+- "_throttle AS throttle ON throttle.item_id = item_jobs.item_id\n    AND throttle.kind = "
+- "_totalDiskSpace"
+- "_trashURL"
+- "_tryReadFirstByteOfFileWithError:"
+- "_updated_fields != 0\n   AND "
+- "_updated_fields != 0 OR rt."
+- "_updated_fields & "
+- "_updated_fields == 0"
+- "_vfs_fileid_idx\n WHERE vfs_fileid = "
+- "_vfs_fileid_idx ON "
+- "_vfs_not_evictable_idx\n          ON "
+- "_volume"
+- "_weakReader"
+- "a database corruption detected"
+- "accumulatedDownloads"
+- "accumulatedFileSizes"
+- "accumulatedSizeOfDisk"
+- "accumulatedUploads"
+- "activate()"
+- "activateSubscription:error:"
+- "activateWithError:"
+- "activated"
+- "activeChildProgress"
+- "activeCounters"
+- "activeDownloadJobs"
+- "activeRules"
+- "activeUploadJobs"
+- "add needs delete because %s"
+- "addActivityFPCKRepair()"
+- "addChild:withPendingUnitCount:"
+- "addCollidingItemID("
+- "addEntriesFromDictionary:"
+- "addKey:executor:"
+- "addLRUSignature:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addSubscriberForFileURL:withPublishingHandler:"
+- "adding new subscription"
+- "additionalDebugFlags"
+- "additionalDebugFlagsForHistoricalStream:"
+- "adopt"
+- "aggregators"
+- "all the roots have been resolved for request %{public}s"
+- "all the uploads completed in time"
+- "allObjects"
+- "allowsContextualMenuDownloadEntry"
+- "allowsResurrection"
+- "allowsUserControlledEviction"
+- "already fetching content on the other side"
+- "already fetching metadata for "
+- "already-tracked:"
+- "alternateContents"
+- "alternateContentsDictionaryForProviderIdentifier:"
+- "alwaysFailDownloadsWithInsufficiantStorage"
+- "alwaysFailInGSUpload"
+- "appContainerBundleIdentifier"
+- "appLibraryFromContainerItem:documentsItem:"
+- "appSupportPathForProviderDomainID:"
+- "appSupportURL"
+- "app_container_bundle_identifier"
+- "appendFormat:"
+- "appendString:"
+- "application is unresponsive"
+- "appliesChangesAtomically"
+- "applying database bugfixes %{public}s:%s -> %{public}s:%s"
+- "archiveItemsWithURLs:compressionFormat:destinationFolderURL:completionHandler:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "arrayByAddingObject:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:"
+- "arrayWithObjects:count:"
+- "asAppExtensionBackedProvider"
+- "asking to enumerate folder before reaching import:provider phase"
+- "asking to enumerate folder before selection for import"
+- "assertOnQueue"
+- "asyncBatch(function:side:afterNextDurableFlush:onCancel:updateBlock:)"
+- "asyncRead(function:onCancel:block:)"
+- "asyncUnregisterLifetimeExtensionForObject:"
+- "attachFolder(_:completion:)"
+- "attachInheritedUserInfo(_:completionHandler:)"
+- "attachKnownFolders(_:options:request:completionHandler:)"
+- "attachKnownFolders:options:request:completionHandler:"
+- "attaching %s for %s"
+- "attemptRecoveryFromError:optionIndex:completionHandler:"
+- "attempting create a domain at %{public}s, but that path already exists and is not owned by anyone"
+- "attempting create a domain root at %{public}s, but that path already exists and is owned by a different provider %{public}s, expected %{public}s"
+- "attempting create a domain root at %{public}s, but that path already exists and is owned by existing domain %{public}s, expected %{public}s"
+- "attempting create a domain root at %{public}s, but that path already exists and is owned by missing domain %{public}s, expected %{public}s"
+- "attributesOfFileSystemForPath:error:"
+- "attrs->item_handle.doc_id == 0"
+- "autoRollbackHandler(error:)"
+- "autovacuumableSpaceInBytes"
+- "availableContentVersion"
+- "availableDiskSpaceOverride"
+- "availableStructuralVersion"
+- "backUpWithCompletionHandler:"
+- "backend"
+- "backend or FPFS is invalidated, returning error"
+- "background materialize parent hierarchy"
+- "background-download-heartbeat-delay"
+- "background-materialize-parent-hierarchy"
+- "backgroundActivityIsPaused"
+- "backgroundDownloadLimit"
+- "backgroundDownloader"
+- "backgroundDownloads"
+- "backgroundMaterialize(_:request:completionHandler:)"
+- "backgroundMaterializeParentHierarchy("
+- "backingStoreIdentity"
+- "backoff"
+- "backupEngine"
+- "backupEngineInit"
+- "backupManifestInit"
+- "backupManifestURL"
+- "backupToURL:progress:"
+- "backup_manifest.db"
+- "backup_manifest_versus_fs_snapshot_diffs_"
+- "barrierFolderURL"
+- "barrierUUID"
+- "basePath"
+- "baseVersion"
+- "batch received after db has been closed will be ignored"
+- "beforeBounceFilename"
+- "beforeFirstSyncComponent"
+- "before_bounce_file_name_is_empty"
+- "before_bounce_filename"
+- "beginRequestWithDomain:alternateContentsDictionary:domainServicer:providerDomain:domainVersion:completionHandler:"
+- "below by "
+- "below reason "
+- "bindBooleanParameter:"
+- "bindCharParameter:"
+- "bindDoubleParameter:"
+- "bindIntegerParameter:"
+- "bindLongParameter:"
+- "bindObjectParameter:"
+- "bindShortParameter:"
+- "bindStringParameter:"
+- "bindUnsignedCharParameter:"
+- "bindUnsignedIntegerParameter:"
+- "bindUnsignedLongParameter:"
+- "bindUnsignedShortParameter:"
+- "blockedJobsLimit"
+- "blockedJobsRules"
+- "boolAtIndex:"
+- "boolForKey:"
+- "boolValue"
+- "bouncingContext"
+- "bouncing_context"
+- "bound children of "
+- "buildAppLibraries"
+- "bulkEvictItemsWithItemIDs:completionHandler:"
+- "bulkItemChanges:changedFields:completionHandler:"
+- "bulkItemChanges:changedFields:request:completionHandler:"
+- "bundleVersion"
+- "cacheByID"
+- "cacheCleared"
+- "call to block failed with "
+- "callDescription"
+- "can't close DB: "
+- "can't create dataless root at %{public}s: file already exists"
+- "can't create enumerator at %s"
+- "can't force ingestion of item at %s"
+- "can't mark the root dataless: %@"
+- "can't resolve the trash folder after receiving an fsevent in the trash: %{public}@"
+- "can't upgrade DB from %{public}s -> %{public}s: %{public}@"
+- "canRescanMarker"
+- "canSetEvictability"
+- "canSetEvictabilityHandler"
+- "canUnblockDependentOperationsMarker"
+- "cancel"
+- "cancel trees"
+- "cancel()"
+- "cancel-fetch-content"
+- "cancelAsync"
+- "cancelMaterialization"
+- "cancellable"
+- "cancellationHandler"
+- "cancelled"
+- "cancelledBinaries"
+- "cancelledRequests"
+- "cancelling in-flight requests"
+- "cannot access shared default for FP"
+- "cannot add new triggers on non-waiting job"
+- "cannot convert incomplete operation "
+- "cannot create symlink from %s to %s: %{darwin.errno}d"
+- "cannot decode anchor for pending set"
+- "cannot decode sync anchor"
+- "cannot decorate item: %@"
+- "cannot find root URL: %@"
+- "cannot get coordination to %{public}s %s: %@"
+- "cannot initialize database error for domain %s, disabling the domain: %@"
+- "cannot move detached root %s to %s: %@"
+- "cannot setup schema for %{public}s: %{public}@"
+- "cannot stat relocated folder at %s: %{darwin.errno}d"
+- "cannot stat target of symlink at %s: %{darwin.errno}d"
+- "cannot take ownership of %s, it's owned by %s for %{public}s"
+- "cannot update roots: "
+- "cannotBounce"
+- "cannotSynchronize"
+- "cannotSynchronizeTransient"
+- "capabilities"
+- "captureDB"
+- "capturedContent"
+- "capturedContent item "
+- "capturedContentMissing"
+- "captured_content"
+- "captured_content_"
+- "captured_content_flags UNSIGNED INT"
+- "category"
+- "changOwnerAndGroupToMobile"
+- "changedItemsByID"
+- "changes"
+- "changing scheduling state to %s"
+- "charAtIndex:"
+- "checkForPendingSetChanges(completionHandler:)"
+- "checkIfDiskImportCompleted"
+- "checkIsInIgnoredHierarchy(_:request:completion:)"
+- "checkableURLs"
+- "checker(_:handleItem:itemStatus:under:brokenInvariants:)"
+- "checker:handleItem:itemStatus:under:brokenInvariants:"
+- "checker:handleLockedItemAtPath:handle:"
+- "childItemCount"
+- "child_item_count"
+- "clean-remote-versions"
+- "cleanupDomainWithMode:error:"
+- "clearNeedsAuth"
+- "clearing all capabilities for notAuthenticated decoration"
+- "clearing capabilities besides .allowReading for notAuthenticated decoration"
+- "client"
+- "close"
+- "close()"
+- "close:"
+- "closest_syncroot"
+- "closing the wharf"
+- "closing trees"
+- "cloudContainerIdentifier"
+- "cloudStoragePathForProviderDomainID:"
+- "cloud_container_identifier"
+- "code"
+- "collaborationIdentifier"
+- "collaboration_identifier"
+- "collect-captured-content"
+- "collectDiagnosticDiskAttributesWithError:"
+- "collidingItemChangedBeforeBounce"
+- "color"
+- "columns"
+- "com.apple.CloudDocs.iCloudDriveFileProvider"
+- "com.apple.CloudDocs.iCloudDriveFileProviderManaged"
+- "com.apple.FileProvider.maintenance.fpck-repair"
+- "com.apple.FruitBasket.Provider"
+- "com.apple.decmpfs"
+- "com.apple.favorite-rank.number#PS"
+- "com.apple.file-provider-domain-id"
+- "com.apple.file-provider-domain-id#PN"
+- "com.apple.fileprovider.before-bounce#P"
+- "com.apple.fileprovider.detached"
+- "com.apple.fileprovider.detached#PN"
+- "com.apple.fileprovider.detached-link#P"
+- "com.apple.fileprovider.dir#N"
+- "com.apple.fileprovider.fpfs#P"
+- "com.apple.fileprovider.resurrection_info"
+- "com.apple.fileprovider.testing.failSpeculativeDownload"
+- "com.apple.fileprovider.trash"
+- "com.apple.fileprovider.trash-put-back#PN"
+- "com.apple.fileprovider.ttr-queue"
+- "com.apple.fileproviderd.auto-resume"
+- "com.apple.fileproviderd.background-download"
+- "com.apple.fileproviderd.device-unlock"
+- "com.apple.fileproviderd.disk-import"
+- "com.apple.fileproviderd.fpfs.running-jobs"
+- "com.apple.fileproviderd.fpfs.scheduler"
+- "com.apple.fileproviderd.hidden-disk-import"
+- "com.apple.fileproviderd.periodic-fpck"
+- "com.apple.fileproviderd.stream-reset"
+- "com.apple.fileproviderd.throttling-retry"
+- "com.apple.fileproviderd.upcall-timeout-retry"
+- "com.apple.fileproviderd.vacuum"
+- "com.apple.fpfs.fileid"
+- "com.apple.fpfs.fsevents"
+- "com.apple.fssync.fpfiletree"
+- "com.apple.fssync.fstree"
+- "com.apple.icloud-file-fault"
+- "com.apple.lastuseddate#PS"
+- "com.apple.metadata:_kMDItemUserTags"
+- "com.apple.metadata:kMDItemFavoriteRank"
+- "com.apple.ostype"
+- "com.apple.quarantine"
+- "compare:"
+- "complementaryProgress"
+- "complementaryProgressSubscriber"
+- "completed"
+- "completedDownloadJobs"
+- "completedUnitCount"
+- "completedUploadJobs"
+- "componentsJoinedByString:"
+- "compressedFileReadFailed"
+- "computation"
+- "com~apple~CloudDocs"
+- "concurrentContentUpdateLimit"
+- "concurrentOperationLimit"
+- "concurrentProvideFileLimit"
+- "conflictingVersions"
+- "conflicting_versions"
+- "conflicting_versions_in_genstore"
+- "conformsToType:"
+- "containerDisplayName"
+- "container_display_name"
+- "container_fp.decoration_"
+- "containsString:"
+- "content version "
+- "contentModificationDate"
+- "contentPolicy"
+- "contentPolicyChanged"
+- "contentType"
+- "contentUnavailable"
+- "contentVersion"
+- "content_modification_date"
+- "content_policy"
+- "content_status_fs_not_interested"
+- "content_version "
+- "content_version = "
+- "contentsOfDirectoryAtPath:error:"
+- "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:"
+- "continue-disk-import"
+- "coordinateAccessWithIntents:queue:byAccessor:"
+- "coordinateWritingItemAtURL:options:error:byAccessor:"
+- "coordination on "
+- "coordinationRootURLs"
+- "coordinatorPurposeIdentifier"
+- "coordinatorsByItemID"
+- "copy"
+- "copyDatabase(to:completionHandler:)"
+- "copyDatabaseToURL:completionHandler:"
+- "corrupted database: "
+- "corrupted table "
+- "corrupted table background_downloader: "
+- "could not decode the previous sync anchor, starting working set enumerator from scratch: %@"
+- "could not detach %s for request %{public}s"
+- "could not get support paths"
+- "could not resolve %s for request %{public}s"
+- "couldn't access hardlink for item %{public}s"
+- "couldn't acquire lock on "
+- "couldn't clone package"
+- "couldn't find FS snap for download job update: %s"
+- "couldn't release lock on "
+- "couldn't remove existing symlink: %{darwin.errno}d"
+- "count"
+- "count %llu"
+- "countByEnumeratingWithState:objects:count:"
+- "counters"
+- "crashOnGlobalProgressInconsistency"
+- "crashReporterKey"
+- "create fault at %s for %s"
+- "create fault completed with result %s request %s"
+- "create relocation symlink from %{public}s to %{public}s"
+- "create(_:with:capturedContent:from:reviving:domainVersion:options:nonSyncableAttributes:completion:)"
+- "create(capturedContent:stagedContext:requestedState:otherVersion:on:result:nonSyncableAttributes:completion:)"
+- "createAdditionStagedAtURL:creationInfo:completionHandler:"
+- "createAppLibraries"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "createDraft:forProcessNamed:withDisplayReason:completionHandler:"
+- "createFileAtPath:contents:attributes:"
+- "createIndexerWithExtension:enabled:error:"
+- "createItemBased(onTemplate:fields:urlWrapper:options:bounceOnCollision:request:completionHandler:)"
+- "createItemBasedOnTemplate:fields:contents:options:request:bounce:completionHandler:"
+- "createItemBasedOnTemplate:fields:urlWrapper:options:bounceOnCollision:request:completionHandler:"
+- "createRootByImportingURL:knownFolders:error:"
+- "creating a new fsevents stream"
+- "creating root at %{public}s"
+- "creating symlink from  %{public}s to detached root %{public}s"
+- "creating wharf directory at %s"
+- "creating wharf/delete directory at %s"
+- "creation of descendents"
+- "creation on both sides is an impossible state"
+- "creationDate"
+- "creationJobTypes"
+- "creation_date"
+- "currentContentVersion"
+- "currentJobsLimit"
+- "currentMaterializedSetSyncAnchor(completionHandler:)"
+- "currentMaterializedSetSyncAnchorWithCompletionHandler:"
+- "currentPendingSetSyncAnchor(completionHandler:)"
+- "currentPendingSetSyncAnchorWithCompletionHandler:"
+- "currentPersona"
+- "currentPosition"
+- "currentStructuralVersion"
+- "currentSyncAnchor(completion:)"
+- "currentSyncAnchorWithCompletion:"
+- "d16@0:8"
+- "d2d_backup_global"
+- "d2d_restore_global"
+- "d2d_restore_unkownProviderDomainID"
+- "dasContext"
+- "dataAtIndex:"
+- "dataProtectionClass"
+- "dataWithJSONObject:options:error:"
+- "database"
+- "database has already been dropped"
+- "database is ready"
+- "database removal failed %@"
+- "database was already dropped"
+- "databaseDidFlush()"
+- "databaseErrorAfterStartup"
+- "databaseErrorOnStartup"
+- "databaseInitError"
+- "database_creation_reason"
+- "dataless_file_in_ignored_folder"
+- "date"
+- "dateAtIndex:"
+- "db"
+- "dbBugfixRevision"
+- "dbBugfixRevision("
+- "dbDirectoryURL"
+- "dbURL"
+- "dbUUID"
+- "db_bugfix_revision"
+- "debouncePublisher"
+- "debounceQueue"
+- "decomposedStringWithCanonicalMapping"
+- "decomposedStringWithCompatibilityMapping"
+- "decorate(_:completionHandler:)"
+- "decorate(_:options:completionHandler:)"
+- "decorateItems(items:)"
+- "decorateItems:completionHandler:"
+- "decoration_app_container_bundle_identifier = "
+- "decoration_capabilities"
+- "decoration_capabilities & "
+- "decoration_capabilities = "
+- "decoration_cloud_container_identifier = "
+- "decoration_conflicting_versions = "
+- "decoration_container_display_name = "
+- "decoration_content_policy"
+- "decoration_content_policy = "
+- "decoration_display_name = "
+- "decoration_has_unresolved_conflicts = "
+- "decoration_inherited_content_policy"
+- "decoration_is_container = "
+- "decoration_is_container_pristine = "
+- "decoration_is_shared = "
+- "decoration_is_shared_by_current_user = "
+- "decoration_is_top_level_shared_item = "
+- "decoration_is_uploaded = "
+- "decoration_is_uploading = "
+- "decoration_item_decoration = "
+- "decoration_last_edited_by_current_user = "
+- "decoration_last_editor_device_name = "
+- "decoration_preformatted_most_recent_editor_name = "
+- "decoration_preformatted_owner_name = "
+- "decoration_sharing_permissions = "
+- "decoration_uploading_error = "
+- "decoration_user_info = "
+- "decorations"
+- "deduplicating FSEvent lookup for %llu at %s"
+- "deduplicating FSEvent parent lookup for %s"
+- "defaultBackend"
+- "defaultManager"
+- "defaultStore"
+- "defaultWorkspace"
+- "defer ingestion of %{public}s: %s"
+- "deferRescan reason "
+- "deferredWQ"
+- "delay tracking of temporary item %s"
+- "delayPropagation(reason:"
+- "delayedContinuation"
+- "delegate"
+- "delegateStore"
+- "delegationQueue"
+- "delete"
+- "delete children of "
+- "delete of %s"
+- "delete(_:recursively:baseVersion:domainVersion:completion:)"
+- "delete-children<id:"
+- "delete-folder-if-empty"
+- "delete-rejected-in-tree"
+- "deleteBusy"
+- "deleteChildrenReconciliations("
+- "deleteDisabledThrottles"
+- "deleteFinishedJobs"
+- "deleteItem(with:options:completionHandler:)"
+- "deleteItemWithID:baseVersion:options:request:completionHandler:"
+- "deleteItems(with:options:completionHandler:)"
+- "deleteItemsWithIDs:baseVersions:options:reply:"
+- "deleteReconciliation"
+- "deleteReconciliation("
+- "deleteSearchableItem(itemID:db:completionHandler:)"
+- "deleteSearchableItemsWithSpotlightDomainIdentifiers:domainIdentifier:completionHandler:"
+- "deleted not reconciled"
+- "deleted on both sides"
+- "deletedItemsIDs"
+- "deleting files for non-invalided domain"
+- "deletion of unknown item"
+- "deletion of unknown item while a folder is currently busy is running on "
+- "deletionDetectionDate"
+- "deletionRequest("
+- "deliverBarrierEvents"
+- "descriptor"
+- "destinationDirectoryURL"
+- "detachFolder(_:completion:)"
+- "detachKnownFolders(_:request:completionHandler:)"
+- "detachKnownFolders:request:completionHandler:"
+- "detachOptions"
+- "detachedRootLocations"
+- "detachedRootLogicalURL"
+- "detached_desktop"
+- "detached_documents"
+- "detached_root_count"
+- "detached_root_with_stale_bookmark"
+- "detached_root_without_sync_root_bit"
+- "detached_root_without_valid_bookmark"
+- "detaching %s for %s"
+- "device UUID changed"
+- "deviceID"
+- "deviceIdentifierForVendor"
+- "diagnostic"
+- "diagnosticAttributes"
+- "dictionaryWithObjects:forKeys:count:"
+- "did update alternate content failed to find item for: %{public}@"
+- "did update alternate content was called with no alternate contents association in place for document with ID: %{public}@"
+- "didChange(_:completionHandler:)"
+- "didChangeDomainConfiguration(_:)"
+- "didChangeDomainConfiguration:"
+- "didChangeItemID:completionHandler:"
+- "didChangeNeedsAuthentification(_:)"
+- "didChangeNeedsAuthentification:"
+- "didFinishIndexing"
+- "didIndexOneBatchWithError:updatedItems:deletedIDs:anchor:domainVersion:anchorPersisted:"
+- "didProcessBarrierEventUUID:"
+- "didProcessEventID:"
+- "didPublishComplementaryProgress(progress:)"
+- "didPublishItemProgress(progress:size:)"
+- "didRefreshRootURLsWithCompletionHandler:"
+- "didSetup"
+- "didUnpublishComplemetaryProgress(progress:)"
+- "didUnpublishItemProgress(progress:)"
+- "didUpdateAlternateContentsDocumentForDocument(with:request:completionHandler:)"
+- "didUpdateAlternateContentsDocumentForDocumentWithURL:completionHandler:"
+- "didUpdateAlternateContentsDocumentForDocumentWithURL:request:completionHandler:"
+- "didUpdateItem:"
+- "didWarnOfSetupFailure"
+- "different_before_bounce_filenames"
+- "different_children_count"
+- "different_collaboration_identifier"
+- "different_content_modification_date"
+- "different_creation_date"
+- "different_document_size"
+- "different_favorite_rank"
+- "different_filenames"
+- "different_gen_count"
+- "different_gencount"
+- "different_last_used_date"
+- "different_parent_IDs"
+- "different_permissions"
+- "different_physical_size"
+- "different_tag_data"
+- "diffs"
+- "directoryChangedWhileEnumerating"
+- "directoryID"
+- "directoryNotEmpty"
+- "disable event aggregation"
+- "disableDidFlush"
+- "disableForeignKeys"
+- "disableRetries"
+- "disableSubscription:"
+- "disableTrash"
+- "disabled-domain-fpx-enumerator"
+- "disabled-domain-fpx-vendor"
+- "disconnectDomainID:options:completionHandler:"
+- "disconnectionState"
+- "discoveredBackupManifestVsFSSnapshotDiffCounters"
+- "discoveredDiskBrokenInvariantsCounters"
+- "discoveredDiskVsFSSnapshotDiffCounters"
+- "discoveredFSSnapshotVsFPSnapshotDiffCounters"
+- "discoveredReconciliationTableBrokenInvariantsCounters"
+- "discreteProgressWithTotalUnitCount:"
+- "disk-import-finished"
+- "diskImportFailed"
+- "diskImportFinished"
+- "diskSpaceCheckInterval"
+- "diskSpaceRequiredToReturnToGreedyState"
+- "diskSpaceRequiredToReturnToGreedyStateOverride"
+- "diskVsFSSnapshotIgnoredFilenames"
+- "disk_broken_invariants_"
+- "disk_import_mismatch"
+- "disk_import_status"
+- "disk_versus_fs_snapshot_diffs_"
+- "dispatchQueue"
+- "dispatchTimer"
+- "displayName"
+- "display_name"
+- "dispose"
+- "docID"
+- "document as a parent?"
+- "document-wharf-resurrect"
+- "documentSize"
+- "documentURL"
+- "document_fp.decoration_"
+- "domain"
+- "domain removal failed: %@"
+- "domainForIdentifier:reason:"
+- "domainID"
+- "domainIdentifier"
+- "domainUserInfo"
+- "domainVersion"
+- "domainVersionStorage"
+- "domainVersionWithVersion:"
+- "domain_wide_error"
+- "domain_wide_error != "
+- "domain_wide_error = "
+- "don't ignore the root of the domain"
+- "doneCounters"
+- "dont-warn-user-of-slow-downloads"
+- "doubleAtIndex:"
+- "doubleForKey:"
+- "doubleValue"
+- "download"
+- "download got canceled since we are out of space"
+- "download made no progress since "
+- "download-heartbeat-delay"
+- "downloadCancelled"
+- "downloadItem(with:request:progress:completionHandler:)"
+- "downloadItemWithItemID:request:progress:completionHandler:"
+- "downloadPipelineDepth"
+- "downloadProgress"
+- "downloadRequest("
+- "downloadURL:recursively:request:withCompletion:"
+- "downloadVersion(with:version:originalURL:completionHandler:)"
+- "downloadVersionWithItemID:version:originalURL:completionHandler:"
+- "downloadingError"
+- "downloading_error"
+- "dropDomainWithCompletionHandler:"
+- "dropIndexForDomain:completionHandler:"
+- "dropIndexWithReason:completionHandler:"
+- "dropped historical event"
+- "dropped live event"
+- "droppedEventCount"
+- "dropping fsevent without file ID (event#%llu, flags:%x)"
+- "dump(to:limitNumberOfItems:includingFileTrees:)"
+- "dumpDatabaseAt:fullDump:writeTo:completionHandler:"
+- "dumpDatabaseAt:fullDump:writeTo:error:"
+- "dumpIndexStateForDomain:toFileHandler:completionHandler:"
+- "dumpInternalStateToTermDumper:domainIdentifier:completionHandler:"
+- "dumpState(to:limitNumberOfItems:)"
+- "dumpStateTo:"
+- "dumpStateTo:limitNumberOfItems:"
+- "embedded_detached_root"
+- "embedded_detached_root_in_package"
+- "enable-extension-upcall-timeout"
+- "encountered database error "
+- "enter"
+- "entry"
+- "entryCachePerID"
+- "enumerate(with:lifetimeExtender:observer:completionHandler:)"
+- "enumerateAppLibraries"
+- "enumerateChanges(fromAnchor:suggestedBatchSize:reply:)"
+- "enumerateChanges(fromToken:suggestedBatchSize:reply:)"
+- "enumerateChangesFromToken:suggestedBatchSize:reply:"
+- "enumerateItems(forceExhaustive:_:)"
+- "enumerateItems(fromPage:selfItem:suggestedPageSize:reply:)"
+- "enumerateItemsFromPage:suggestedPageSize:reply:"
+- "enumerateItemsFromPage:suggestedPageSize:upTo:reply:"
+- "enumerateItemsOnDiskAtURL:detachedRoots:usingFPFS:packageDetection:delegate:"
+- "enumerateMaterializedSet(fromSyncAnchor:suggestedBatchSize:completionHandler:)"
+- "enumerateMaterializedSetFromSyncAnchor:suggestedBatchSize:completionHandler:"
+- "enumeratePendingSet(fromSyncAnchor:suggestedBatchSize:completionHandler:)"
+- "enumeratePendingSetFromSyncAnchor:suggestedBatchSize:completionHandler:"
+- "enumerateWithSettings:lifetimeExtender:observer:completionHandler:"
+- "enumeratedItemID"
+- "enumeration(<unknown>, by:"
+- "enumerationAnchorChanged"
+- "enumerationAnchorChangedSource"
+- "enumerationResultsDidChange"
+- "enumerator"
+- "enumeratorAtPath:"
+- "enumeratorBecameFrontmost:inWindow:completionHandler:"
+- "enumeratorForAdditionsInNameSpace:withOptions:withoutOptions:ordering:"
+- "enumeratorHasBeenInvalidated(_:)"
+- "equivalentContentVersions"
+- "equivalentMetadataVersions"
+- "equivalentStructureVersions"
+- "error fetching diagnostic attributes: %@"
+- "error when resolving item: %@"
+- "error while computing root directory URL: %@"
+- "error while processing jobs: %@"
+- "errorGeneration"
+- "errorGeneration("
+- "errorGenerationCount"
+- "errorGenerationRecord"
+- "errorGenerationUpdateSeconds"
+- "errorRemovingUnOwnedDirectory"
+- "errorWithDomain:code:userInfo:"
+- "error_generation"
+- "etag"
+- "etagForVersion:providerDomainID:"
+- "eventAggregator"
+- "eventBarrier(_:)"
+- "eventID"
+- "eventStreamUUID"
+- "eventStreamUUIDForDevice:"
+- "evict(_:request:progress:completionHandler:)"
+- "evict(_:request:qos:completion:)"
+- "evictItem(at:request:completionHandler:)"
+- "evictItem(with:request:completionHandler:)"
+- "evictItemAtURL:completionHandler:"
+- "evictItemAtURL:request:completionHandler:"
+- "evictItemWithID:request:completionHandler:"
+- "evictability cannot be set"
+- "evictability should not be propagated from FS to FP"
+- "evictable_file_in_ignored_folder"
+- "eviction waiter"
+- "excludedFromSync"
+- "executablePath"
+- "execute(_:)"
+- "execute(on:continuation:result:completion:)"
+- "executeSwift:error:"
+- "executionIsTooLong"
+- "executionTimer"
+- "expected received "
+- "expectedContentVersion"
+- "expectedStructuralVersion"
+- "expirationDate"
+- "expirationPolicy"
+- "explain query plan "
+- "extendedAttributes"
+- "extended_attributes"
+- "extender"
+- "extensionBackend"
+- "extensionEnumerator"
+- "extensionManager"
+- "extensionPid"
+- "extensionUUID"
+- "extension_hidden"
+- "extension_is_hidden_in_FP_Snapshot_but_not_on_FS_Snapshot"
+- "extension_is_hidden_in_FS_Snapshot_but_not_on_disk"
+- "extension_is_hidden_on_FS_Snapshot_but_not_in_FP_Snapshot"
+- "extension_is_hidden_on_disk_but_not_in_FS_Snapshot"
+- "extent"
+- "extent_location = "
+- "extent_location IS NULL AND\nextent_length IS NULL"
+- "extraLogs"
+- "failed dumping %@"
+- "failed getting diagnostic attributes, %@"
+- "failed to add conflict to %{public}s: %@"
+- "failed to bump parent mTime %@"
+- "failed to open directory at %{public}s, error: %@"
+- "failed to re-create local folder for %{public}s: %@"
+- "failed to remove %s: %@"
+- "failed to start FPFS for domain %s"
+- "failed to start FPFS for domain %s after several attempts"
+- "failed to write import cookie for domain %{public}s: %s"
+- "failed to write import cookie for domain url %s: %@"
+- "fakeFSEvent(at:)"
+- "fakeFSEventAtURL:"
+- "fault-directory-in-tree"
+- "favoriteRank"
+- "favorite_rank"
+- "feature flag has been enabled: %s"
+- "feature flag is disabled"
+- "featureFlags"
+- "fetch content of "
+- "fetch id for %@"
+- "fetch id for %@ remapped to FS root (request: %{public}s)"
+- "fetch metadata for pending event: %s, reason: %s"
+- "fetch metadata of "
+- "fetch-children-metadata"
+- "fetch-event-stream"
+- "fetchAlternateContentsURLWrapperForDocument(with:request:completionHandler:)"
+- "fetchAlternateContentsURLWrapperForDocumentWithURL:request:completionHandler:"
+- "fetchAlternateContentsURLWrapperForURL:completionHandler:"
+- "fetchAndStartEnumeratingWithSettings:observer:request:completionHandler:"
+- "fetchContentJobsForA"
+- "fetchContentJobsForB"
+- "fetchContentsForItemWithID:version:request:estimatedItemSize:isSymlink:extent:alignment:options:completionHandler:"
+- "fetchContentsForItemWithID:version:usingExistingContentsAtURL:existingVersion:request:estimatedItemSize:isSymlink:completionHandler:"
+- "fetchCurrentIndexingAnchorWithCompletionHandler:"
+- "fetchCustomPushTopicsWithCompletionHandler:"
+- "fetchDefaultContainerForBundleIdentifier:defaultName:inDomainIdentifier:reply:"
+- "fetchEventStream"
+- "fetchEventStream(domainVersion:completion:)"
+- "fetchFSItems(forItemIdentifiers:materializingIfNeeded:request:completionHandler:)"
+- "fetchFSItemsForItemIdentifiers:materializingIfNeeded:request:completionHandler:"
+- "fetchHierarchy(for:recursively:reply:)"
+- "fetchHierarchyForItemID:recursively:reply:"
+- "fetchItem(with:inDomainID:)"
+- "fetchItemID:reply:"
+- "fetchOperationServiceEndpoint:"
+- "fetchOperationServiceOrEndpointWithRequest:completionHandler:"
+- "fetchProgressByItemID"
+- "fetchPublishingURLForItemID:completionHandler:"
+- "fetchPutBackURL("
+- "fetchServicesForItemID:allowRestrictedSources:completionHandler:"
+- "fetchServicesForItemID:allowRestrictedSources:request:completionHandler:"
+- "fetchSwift:error:"
+- "fetchThumbnails(at:versions:size:perThumbnailCompletionHandler:completionHandler:)"
+- "fetchThumbnailsAtURL:versions:size:perThumbnailCompletionHandler:completionHandler:"
+- "fetchTrashIdentifiersWithCompletionHandler:"
+- "fetchVendorEndpoint(with:completionHandler:)"
+- "fetchVendorEndpoint:"
+- "fetchVendorEndpointWithRequest:completionHandler:"
+- "fetchVersions(for:kind:expectedSize:versions:domainVersion:shouldForwardVersion:completion:)"
+- "fetching hierarchy from cache: %s (recursive: %{bool}d)"
+- "fetching hierarchy from provider: %s (recursive: %{bool}d)"
+- "fileDescriptor"
+- "fileExistsAtPath:"
+- "fileID"
+- "fileID of directory changed during enumeration: "
+- "fileID of the root changed"
+- "fileID of the trash changed"
+- "fileOperationKind"
+- "fileProviderErrorForCollisionWithItem:"
+- "fileProviderErrorForNonExistentItemWithIdentifier:"
+- "fileProviderErrorForRejectedDeletionOfItem:"
+- "fileSizeCache"
+- "fileSystemFlags"
+- "fileSystemRepresentation"
+- "fileTree"
+- "fileTreeChangesHandler"
+- "fileURL"
+- "fileURLWithFileSystemRepresentation:isDirectory:relativeToURL:"
+- "fileURLWithPath:"
+- "fileURLWithPath:isDirectory:"
+- "file_has_favorite_rank"
+- "file_has_more_than_one_hardlink"
+- "file_id"
+- "filename"
+- "filename below "
+- "filename id "
+- "fileprovider-fpck"
+- "findExistingVFSItemFor(itemID:parentIsImported:bypassIsHidden:request:completionHandler:)"
+- "findParentID(for:completionHandler:)"
+- "finished VFS item lookup for %s request %s: %s"
+- "finished gathering import progress"
+- "finished post-propagation VFS lookup for %s reason %s: %s"
+- "finished post-propagation VFS lookup for %s request %s: %s"
+- "finished propagating to FP %s request %s: %s"
+- "finished propagating to FS %s request %s: %s"
+- "firstMatchInString:options:range:"
+- "firstObject"
+- "fixup-conflicts-in-gs-for-dataless-items"
+- "fixup-out-of-sync-fs-base-version"
+- "flags"
+- "flockedDispatchDict"
+- "flockedGroup"
+- "flockedTimerDispatchDict"
+- "flush"
+- "flushIfJobsWaitingForFlush()"
+- "flushMessagesSynchronouslyWithError:"
+- "flushStream"
+- "flushTimer"
+- "flushWaiters"
+- "folder %s is a binary compatibility symlink %{public}s"
+- "folder %s will be imported for %{public}s"
+- "folder %s, is not properly detached %{public}s"
+- "folderCreatedInTree"
+- "folderDeletedInTree"
+- "for by "
+- "forceBatchStart"
+- "forceFSIngestion(for:completionHandler:)"
+- "forceFSIngestionForItemID:completionHandler:"
+- "forceFlattenedPackages"
+- "forceIngestion(for:completionHandler:)"
+- "forceIngestionAtURL:"
+- "forceIngestionForItemID("
+- "forceIngestionForItemID:completionHandler:"
+- "forceRunningWithReason:"
+- "forceUpdateBlockedProcessNamesFromDomain:completionHandler:"
+- "forcing recursive materialize of demoted package"
+- "foreachSubscriptionInState:apply:"
+- "forget change for "
+- "fork"
+- "formerItemID"
+- "found item %s already reconciled with %{public}s for %{public}s"
+- "found new domain version, setting new domainUserInfo"
+- "found package with .folder or .git extension, %s: %s"
+- "found vfs item %s for %{public}s"
+- "fpBarrierWaiters"
+- "fpChanges"
+- "fpDatabaseURLs"
+- "fpIngestionWaitingForFlush"
+- "fpItemID"
+- "fpItemId"
+- "fpItemJobs"
+- "fpJobsNeedingFlushWaitingForFlush"
+- "fpRootID"
+- "fpSnapshotChecker"
+- "fpSnapshotCounters"
+- "fpStreamSyncToken"
+- "fpStreamSyncToken("
+- "fpVersionLastEditorDeviceName"
+- "fpVersionLastEditorNameComponents"
+- "fp_appContainerBundleIdentifier"
+- "fp_associateThumbnailToVersionAtURL:thumbnailMetadata:error:"
+- "fp_bouncedNameWithIndex:"
+- "fp_cachedTypeWithIdentifier:"
+- "fp_content_version "
+- "fp_coordinatorReadingOptions:"
+- "fp_createPathIfNeeded:"
+- "fp_defaultManager"
+- "fp_deleteStaleBusyFileWithFileDescriptor:coordinatorPurposeIdentifier:"
+- "fp_displayName"
+- "fp_errorForDataProtectionClass:"
+- "fp_errorWithPOSIXCode:"
+- "fp_errorWithPOSIXCode:itemURL:debugDescription:"
+- "fp_isCiconiaDomain"
+- "fp_isCocoaErrorCode:"
+- "fp_isFileProviderError:"
+- "fp_isFileProviderInternalError:"
+- "fp_isInPinnedFolder"
+- "fp_isLastModifiedByCurrentUser"
+- "fp_isOfFileOperationKind:"
+- "fp_isPOSIXErrorCode:"
+- "fp_isPinned"
+- "fp_isiCloudDriveIdentifier"
+- "fp_isiCloudDriveOrCloudDocsIdentifier"
+- "fp_libnotifyPerUserNotificationName"
+- "fp_maximumBounceLevel"
+- "fp_nonEvictableChildrenErrorWithFD:trashIno:busyIno:"
+- "fp_obfuscatedDotSeparatedComponents"
+- "fp_obfuscatedExtendedAttributeName"
+- "fp_obfuscatedFilename"
+- "fp_obfuscatedPath"
+- "fp_obfuscatedProviderDomainID"
+- "fp_pathWithFileSystemRepresentation:"
+- "fp_personaSharedDirectory"
+- "fp_prettyDescription"
+- "fp_prettyPath"
+- "fp_protectionClassBehindError"
+- "fp_realpath"
+- "fp_realpathURL"
+- "fp_relationshipToItemAtURL:"
+- "fp_relativePathOf:"
+- "fp_relativePathWithRealpath:"
+- "fp_setFileOperationKind:"
+- "fp_shortDescription"
+- "fp_stream_sync_token"
+- "fp_stringByDeletingPathBounceNo:andPathExtension:isFolder:"
+- "fp_structural_parent_id "
+- "fp_structural_version "
+- "fp_supportDirectory"
+- "fp_task_tracker"
+- "fp_task_tracker.m"
+- "fp_task_tracker_cancel"
+- "fp_task_tracker_is_cancelled"
+- "fp_task_tracker_sync"
+- "fp_uniqueTempFolderWithError:"
+- "fp_userInfoFPItem"
+- "fp_vfs_fileid INT NULL,\nfp_vfs_generationid INT NULL,\nfp_content_size INT NULL"
+- "fpck should not use the wharf"
+- "fpfiletree"
+- "fpfs"
+- "fpfs_extractFSEventsBarrierUUID"
+- "fpfs_extractFSEventsNotifyUUID"
+- "fpfs_fetch_url_for_handle: unexpected nil buffer"
+- "fpfs_filenameExtension"
+- "fpfs_initWithFSEventsFlags:"
+- "fpfs_isAppleDoubleFile"
+- "fpfs_isSafeSaveTempFile:"
+- "fpfs_wharf.c"
+- "fpfs_wharf_unload"
+- "fractionCompleted"
+- "freeSize"
+- "from mayAlreadyExist reason "
+- "from to  reason "
+- "from to diffs "
+- "fsBarrierWaiters"
+- "fsChangeMonitor"
+- "fsChangeSubscriptions"
+- "fsChanges"
+- "fsForDomainID"
+- "fsIngestionWaitingForFlush"
+- "fsItemJobs"
+- "fsJobsNeedingFlushWaitingForFlush"
+- "fsOrFPJobColumns"
+- "fsRootID"
+- "fsSnapshotChecker"
+- "fsSnapshotCounters"
+- "fsStreamEventID"
+- "fsStreamEventID("
+- "fsStreamUUID"
+- "fs_content_version "
+- "fs_snapshot_versus_fp_snapshot_diffs_"
+- "fs_stream_event_id"
+- "fs_structural_parent_id "
+- "fs_structural_version "
+- "fs_vfs_fileid INT NULL,\nfs_vfs_generationid INT NULL,\nfs_content_size INT NULL"
+- "fseventProcessBatchSize"
+- "fsevents API inconsistency"
+- "fsevents ID wrapped"
+- "fseventsAggregationDelay"
+- "fullBarrier(_:)"
+- "garbageCollection"
+- "garbageCollectionSource"
+- "gathering import progress"
+- "genCount"
+- "gencount-mismatch"
+- "generateAndRestorePersonaContextWithPersonaUniqueString:"
+- "getAlternateContentsURLWrapperForItemID:"
+- "getCountersArray(completionHandler:)"
+- "getCountersArrayWithCompletionHandler:"
+- "getDiagnosticAttributes(forItems:completionHandler:)"
+- "getDiagnosticAttributesForItems:completionHandler:"
+- "getResourceValue:forKey:error:"
+- "getUnicodeNormalization"
+- "giving up trying to fault folder"
+- "group"
+- "gs"
+- "gsManager"
+- "handle"
+- "handle(reply:strictVersioning:itemUnchanged:error:lastKnownVersion:request:db:result:isSpeculative:completion:)"
+- "handleDatabaseError(db:error:)"
+- "handleFSEvent:indexInBatch:batchSize:"
+- "handleLookupResult(lookupResult:baseContinuation:result:db:expectTrackedItem:completion:)"
+- "hardConcurrentContentUpdateLimit"
+- "hardConcurrentOperationLimit"
+- "hardConcurrentProvideFileLimit"
+- "hardJobsLimit"
+- "hasBufferedEvents"
+- "hasNonUploadedFiles(completionHandler:)"
+- "hasNonUploadedFilesWithCompletionHandler:"
+- "hasPendingDeletionBackoff"
+- "hasPlannedRescan"
+- "hasPrefix:"
+- "hasRunTableVacuum"
+- "hasRunWharfVacuum"
+- "hasSeenBusy"
+- "hasSuffix:"
+- "hasUnresolvedConflicts"
+- "hasUpcallExecutionTimeLimits"
+- "has_decmpfs_xattr_but_not_evictable"
+- "has_flag_without_decmpfs_xattr"
+- "has_invalid_decmpfs_xattr"
+- "has_invalid_favorite_rank"
+- "has_invalid_last_used_date"
+- "has_invalid_tag_data"
+- "has_known_pkg_extension_without_bundle_bit"
+- "has_legacy_favorite_rank"
+- "has_no_extension_with_bundle_bit"
+- "has_uf_compressed_flag_without_sf_dataless"
+- "has_unresolved_conflicts"
+- "has_wrong_protection_class"
+- "hierarchyForURL:request:completionHandler:"
+- "historical"
+- "historical fsevents not available"
+- "history"
+- "historyTable"
+- "i"
+- "i12@?0i8"
+- "i16@0:8"
+- "i16@?0^{dirent=QQSSC[1024c]}8"
+- "i16@?0^{fpfs_fileattrs={fpfs_item_handle=QQII*iI}{fpfs_metadata=ib1b1b1b1b1b1b1b1b1b1b1b1b1b1b1Sq{timespec=qq}{timespec=qq}{timespec=qq}Q{fpfs_tag_data=^vQi}(?=II)QQq*q*^{fpfs_xattr}II*BB*ii}*Q[0c]}8"
+- "i16@?0^{fpfs_item_handle=QQII*iI}8"
+- "i20@?0^{fpfs_item_handle=QQII*iI}8B16"
+- "i20@?0i8^{dirent=QQSSC[1024c]}12"
+- "i24@?0^{fpfs_item_handle=QQII*iI}8q16"
+- "i28@?0i8^{dirent=QQSSC[1024c]}12r*20"
+- "i32@?0^{fpfs_item_handle=QQII*iI}8^{fpfs_item_handle=QQII*iI}16q24"
+- "i8@?0"
+- "iCDPackageExtensions"
+- "id"
+- "idLookupCache"
+- "idMap"
+- "identifier"
+- "identifierForItemAtURL:completionHandler:"
+- "idle stream timeouts: %ldms, long: %ldms"
+- "ignore item with pattern "
+- "ignoreOwnEvents"
+- "ignored_file_is_evictable"
+- "ignored_folder_in_ignored_folder_has_sync_root_bit_set"
+- "ignored_folder_missing_sync_root_bit"
+- "implement FullScanRowIDJob.executeFromRowID in sub-class"
+- "importDidFinishWithCompletionHandler:"
+- "importIsRunning"
+- "importProgress(completionHandler:)"
+- "importProgressForItemsPendingReconciliation(completionHandler:)"
+- "importProgressForItemsPendingReconciliationWithCompletionHandler:"
+- "importProgressForItemsPendingScanningDisk(completionHandler:)"
+- "importProgressForItemsPendingScanningDiskWithCompletionHandler:"
+- "importProgressForItemsPendingScanningProvider(completionHandler:)"
+- "importProgressForItemsPendingScanningProviderWithCompletionHandler:"
+- "importProgressWithCompletionHandler:"
+- "importing %{public}s as detached for %{public}s"
+- "importingFromDisk"
+- "include a side in your query"
+- "inconsistent attach request with different home folders for request %{public}s"
+- "inconsistent continuation type"
+- "inconsistent detach request with different home folders for request %{public}s"
+- "inconsistent detach request with different source parent folders for request %{public}s"
+- "inconsistent item kind %{public}s new kind %{public}s"
+- "inconsistent-continuation"
+- "inconsistent_scheduling_states"
+- "incrementalDBVacuum(force:size:completionHandler:)"
+- "incrementalVacuum:"
+- "indent"
+- "indexOneBatchFromAnchor:toAnchor:updatedItems:deletedItems:completionHandler:"
+- "indexOneBatchInDomain:completionHandler:"
+- "indexOneBatchWithCompletionHandler:"
+- "indexOutOfBandUpdatedItems:deletedItems:completionHandler:"
+- "indexer"
+- "ingest"
+- "ingest(itemChange:ignoreAfterFlush:result:db:)"
+- "ingestFromCacheItem(with:requestedFields:request:completionHandler:)"
+- "ingestFromCacheItemWithID:requestedFields:request:completionHandler:"
+- "ingestionFromFSWaiters"
+- "ingestionSource"
+- "inheritedUserInfo"
+- "inherited_content_policy"
+- "init()"
+- "init(connection:protocol:orError:name:requestPid:)"
+- "init(connection:protocol:orError:name:requestPid:requestWillBegin:)"
+- "init(connection:protocol:orError:name:requestPid:requestWillBegin:requestDidBegin:)"
+- "init(reconciliationTable:jobRegistry:snapshotA:snapshotB:syncState:telemetry:options:)"
+- "init(url:fsTree:fpTree:telemetry:options:creationReason:onError:)"
+- "init(with:domain:enabled:)"
+- "initFileURLWithPath:"
+- "initWithAlternateContentsDictionary:"
+- "initWithBase64EncodedString:options:"
+- "initWithBool:"
+- "initWithCapacity:"
+- "initWithConnection:protocol:orError:name:requestPid:"
+- "initWithConnection:protocol:orError:name:requestPid:requestWillBegin:"
+- "initWithConnection:protocol:orError:name:requestPid:requestWillBegin:requestDidBegin:"
+- "initWithContentVersion:metadataVersion:lastEditorDeviceName:"
+- "initWithContentsOfURL:options:error:"
+- "initWithDatabasesBackupsPaths:providerDomainID:domainUserInfo:reason:usingFPFS:iCDPackageDetection:"
+- "initWithDocID:"
+- "initWithDomain:"
+- "initWithDomain:callbackQueue:"
+- "initWithDomain:code:userInfo:"
+- "initWithDomain:providerDomain:log:supportURL:"
+- "initWithDouble:"
+- "initWithExtension:domain:enabled:"
+- "initWithFD:trashURL:"
+- "initWithFd:forceColor:"
+- "initWithFileID:"
+- "initWithIdentifier:displayName:pathRelativeToDocumentStorage:"
+- "initWithInteger:"
+- "initWithIsSpeculativeDownload:"
+- "initWithItemID:"
+- "initWithItemIdentifier:error:retryCount:"
+- "initWithKeys:values:"
+- "initWithKnownFolder:logicalLocation:"
+- "initWithLabel:color:"
+- "initWithLabel:criteria:"
+- "initWithLabel:criteriaBuilder:"
+- "initWithLabel:workloop:"
+- "initWithLongLong:"
+- "initWithName:version:identifier:"
+- "initWithOperationIdentifier:itemIdentifier:"
+- "initWithOperationIdentifier:itemIdentifier:item:"
+- "initWithOperationIdentifier:renamedItem:snapshotVersion:"
+- "initWithOperationIdentifier:sourceItem:domainVersion:snapshotVersion:"
+- "initWithOperationIdentifier:sourceItem:targetItemIdentifier:targetItemBaseVersion:changedFields:domainVersion:rawFields:snapshotVersion:"
+- "initWithOperationIdentifier:sourceItemIdentifier:targetItemIdentifier:targetItemBaseVersion:domainVersion:"
+- "initWithPath:fd:reader:sinceEventID:streamUUID:ignoreOwnEvents:delegate:purpose:"
+- "initWithPath:fileID:flags:eventID:"
+- "initWithPhysicalLocation:rootURL:error:"
+- "initWithProviderDomainID:itemIdentifier:"
+- "initWithProviderDomainID:itemIdentifier:parentItemIdentifier:filename:contentType:"
+- "initWithProviderDomainID:itemIdentifier:parentItemIdentifier:filename:isDirectory:"
+- "initWithProviderID:domainIdentifier:itemIdentifier:"
+- "initWithString:"
+- "initWithURL:"
+- "initWithURL:packageURL:error:"
+- "initWithUUIDString:"
+- "initWithUnsignedInt:"
+- "initWithUnsignedInteger:"
+- "initWithUnsignedLongLong:"
+- "initWithUserInfo:"
+- "initWithUserURL:"
+- "initWithUserURL:outputUserURL:"
+- "initWithVersion:displayName:originalURL:physicalURL:identifier:modificationDate:lastEditorNameComponents:size:"
+- "initialPageSortedByDate"
+- "initialPageSortedByName"
+- "initialState"
+- "initializationGroup"
+- "initializeErrorGeneration()"
+- "inode"
+- "insertObject:atIndex:"
+- "inserted memberAfterInsert "
+- "intAtIndex:"
+- "integerAtIndex:"
+- "integerValue"
+- "interestedContents"
+- "interrupting %{public}ld uploads"
+- "invalidate"
+- "invalidate()"
+- "invalidateSource()"
+- "invalidated"
+- "isActivated"
+- "isBarrier"
+- "isBusy"
+- "isCancellable"
+- "isCancelled"
+- "isCancelling"
+- "isConnectedToAppExtension"
+- "isContainer"
+- "isContainerPristine"
+- "isDataProtectedFileAtPath:handle:"
+- "isDeadEndBackend"
+- "isDir"
+- "isDiskIdentifier"
+- "isDownloaded"
+- "isDownloading"
+- "isEqualToString:"
+- "isExcludedFromSync"
+- "isFinished"
+- "isFlattenedPackage"
+- "isFolder"
+- "isFromPOSIX"
+- "isHidden"
+- "isICloudDriveFPFS"
+- "isIgnoreRoot"
+- "isInMemory"
+- "isInPinnedFolder"
+- "isInResetStream"
+- "isInitialGathering"
+- "isItemDataless(for:completion:)"
+- "isItemDataless:"
+- "isKnownByTheProvider"
+- "isNotification"
+- "isNullAtIndex:"
+- "isPackage"
+- "isPathExtensionHidden"
+- "isProviderForURL:"
+- "isProviderInitiated"
+- "isRecursive"
+- "isRegistered"
+- "isRunning"
+- "isShared"
+- "isSharedByCurrentUser"
+- "isStale"
+- "isStarving"
+- "isTopLevelSharedItem"
+- "isTrashed"
+- "isUnsafe"
+- "isUpcallTimeoutSchedulerRegister"
+- "isUploaded"
+- "isUploading"
+- "isVacuumInProgress"
+- "isValidAppLibrary"
+- "isWaitingForDeviceUnlock"
+- "is_both_promoted_and_demoted"
+- "is_brm_file_fully_materialized"
+- "is_ciconia_domain"
+- "is_container"
+- "is_container_pristine"
+- "is_dataless"
+- "is_dataless_directory_with_data"
+- "is_dataless_file_with_data"
+- "is_dataless_in_FP_Snapshot_but_not_on_FS_Snapshot"
+- "is_dataless_in_FS_Snapshot_but_not_on_disk"
+- "is_dataless_on_FS_Snapshot_but_not_in_FP_Snapshot"
+- "is_dataless_on_disk_but_not_in_FS_Snapshot"
+- "is_dataless_package_item"
+- "is_detached_root"
+- "is_detached_root_in_FS_Snapshot_but_not_on_disk"
+- "is_detached_root_on_disk_but_not_in_FS_Snapshot"
+- "is_directory_duplicate"
+- "is_empty_dir_with_extension"
+- "is_empty_package"
+- "is_evictable"
+- "is_evictable_in_FP_Snapshot_but_not_on_FS_Snapshot"
+- "is_evictable_in_FS_Snapshot_but_not_on_disk"
+- "is_evictable_on_FS_Snapshot_but_not_in_FP_Snapshot"
+- "is_evictable_on_disk_but_not_in_FS_Snapshot"
+- "is_evictable_package_item"
+- "is_evictable_under_wrong_sync_root"
+- "is_evictable_without_decmpfs_xattr"
+- "is_evictable_without_flags"
+- "is_excluded_from_sync"
+- "is_file_duplicate"
+- "is_filled_with_zeros"
+- "is_hidden"
+- "is_hidden_in_FP_Snapshot_but_not_on_FS_Snapshot"
+- "is_hidden_in_FS_Snapshot_but_not_on_disk"
+- "is_hidden_on_FS_Snapshot_but_not_in_FP_Snapshot"
+- "is_hidden_on_disk_but_not_in_FS_Snapshot"
+- "is_ignoreroot"
+- "is_in_FS_Snapshot_but_ignored_on_disk"
+- "is_in_FS_Snapshot_but_not_in_FP_Snapshot"
+- "is_in_FS_Snapshot_but_not_in_manifest"
+- "is_in_FS_Snapshot_but_not_on_disk"
+- "is_in_pinned_folder"
+- "is_locked"
+- "is_locked_in_FP_Snapshot_but_not_on_FS_Snapshot"
+- "is_locked_in_FS_Snapshot_but_not_on_disk"
+- "is_locked_on_FS_Snapshot_but_not_in_FP_Snapshot"
+- "is_locked_on_disk_but_not_in_FS_Snapshot"
+- "is_on_disk_but_not_in_FS_Snapshot"
+- "is_owned_by_other"
+- "is_owned_by_root"
+- "is_package"
+- "is_package_duplicate"
+- "is_pinned"
+- "is_pinned_in_FP_Snapshot_but_not_on_FS_Snapshot"
+- "is_pinned_in_FS_Snapshot_but_not_on_disk"
+- "is_pinned_on_FS_Snapshot_but_not_in_FP_Snapshot"
+- "is_pinned_on_disk_but_not_in_FS_Snapshot"
+- "is_purgeable_not_evictable"
+- "is_shared"
+- "is_shared_by_current_user"
+- "is_sync_root_in_FP_Snapshot_but_not_on_FS_Snapshot"
+- "is_sync_root_in_FS_Snapshot_but_not_on_disk"
+- "is_sync_root_on_FS_Snapshot_but_not_in_FP_Snapshot"
+- "is_sync_root_on_disk_but_not_in_FS_Snapshot"
+- "is_syncroot"
+- "is_top_level_shared_item"
+- "is_tracked_but_docid_is_stale"
+- "is_tracked_but_docid_is_unknown"
+- "is_tracked_but_docid_is_zero"
+- "is_tracked_but_fileid_mismatch"
+- "is_tracked_but_should_not_be"
+- "is_untracked_but_should_be"
+- "is_uploaded"
+- "is_uploading"
+- "item"
+- "item %s could not be reconciled with error %@ for %{public}s"
+- "item %s not reconciled after propagation attempt %{public}s"
+- "item %s reconciled with %{public}s for %{public}s"
+- "item %{public}s became the trash"
+- "item changed in wharf during wharfUnload"
+- "item does not exist anymore"
+- "item has been evicted"
+- "item is already being propagated"
+- "item is already being propagated from the other side"
+- "item is not ignored anymore"
+- "item is not in our database"
+- "item is root and not in the snapshot"
+- "item is still runnable after reconciliation, breaking loop"
+- "item is trash and not in the snapshot"
+- "item missing from FP snapshot, cannot account for download job: %s"
+- "item missing from FS snapshot, cannot account for download job: %s"
+- "item missing from RT, cannot account for download job: %s"
+- "item not needed anymore"
+- "item received from FPFS unexpectedly didn't have a fileURL"
+- "item type mismatch"
+- "item will be revived"
+- "item(for:ignoreAlternateContentsURL:userRequest:completionHandler:)"
+- "item(for:userRequest:hideIgnoredDescendents:completionHandler:)"
+- "itemAtURL:didMoveToURL:"
+- "itemAtURL:willMoveToURL:"
+- "itemCannotBeBouncedRemotely"
+- "itemChangedAtURL:completionHandler:"
+- "itemChangedAtURL:request:"
+- "itemChangedInTree"
+- "itemChangedQueue"
+- "itemChangedRemotely"
+- "itemChangedWhileFetchingContent"
+- "itemCollision"
+- "itemColumnCount"
+- "itemColumns"
+- "itemContentVersionMismatch"
+- "itemCount"
+- "itemCreation(<unknown>, by:"
+- "itemCreationConflicted"
+- "itemCreationRejected"
+- "itemDatalessOnDisk"
+- "itemDeletedInTree"
+- "itemForEvictabilityReevaluation"
+- "itemForItemID:ignoreAlternateContentsURL:request:completionHandler:"
+- "itemForItemID:request:completionHandler:"
+- "itemForURL:completionHandler:"
+- "itemForURL:request:completionHandler:"
+- "itemID"
+- "itemID by "
+- "itemID item fetchStrategy "
+- "itemID(for:requireProviderItemID:request:completionHandler:)"
+- "itemIDForURL:requireProviderItemID:request:completionHandler:"
+- "itemIdentifier"
+- "itemIgnoredDuringDiskImport"
+- "itemIsFlockedCanNotPropagate"
+- "itemIsInsideAPackage"
+- "itemIsInsideAnIgnoredFolder"
+- "itemLockingChangeHandler"
+- "itemMismatch"
+- "itemNeedDelayPropagation"
+- "itemNotEvictable"
+- "itemNotFound"
+- "itemNotTracked"
+- "itemPendingScanningDiskNumberOfChildrenNotPendingReconciliation"
+- "itemPendingScanningDiskNumberOfChildrenPendingReconciliation"
+- "itemPendingScanningDiskNumberOfChildrenPendingRejection"
+- "itemPendingScanningDiskNumberOfChildrenPendingSyncDown"
+- "itemPendingScanningDiskNumberOfChildrenPendingSyncDownDeletion"
+- "itemPendingScanningDiskNumberOfChildrenPendingSyncDownReparent"
+- "itemPendingScanningDiskNumberOfChildrenPendingSyncUp"
+- "itemPendingScanningDiskNumberOfChildrenPendingSyncUpDeletion"
+- "itemPendingScanningDiskNumberOfChildrenPendingSyncUpReparent"
+- "itemPendingScanningProviderNumberOfChildren"
+- "itemPendingScanningProviderNumberOfChildrenFailingCreation"
+- "itemPendingScanningProviderNumberOfChildrenPendingCreation"
+- "itemType"
+- "itemUpdateConflicted"
+- "itemUpdateRejected"
+- "itemVersion"
+- "itemWithPinningChange"
+- "item_decoration"
+- "item_id"
+- "item_in_use_side_a"
+- "item_in_use_side_b"
+- "item_not_checked_during_disk_enumeration"
+- "item_throttled_side_a"
+- "item_throttled_side_b"
+- "itemsChangedSource"
+- "job"
+- "job executing for more than 5 minutes, increasing limit for %{public}s: %{public}s"
+- "job must not be running when cancelled"
+- "job mutated during execution or completion handler got called twice: "
+- "job unexpectedly changed side"
+- "jobGroupStorage"
+- "jobID"
+- "jobLockForAStorage"
+- "jobLockForBStorage"
+- "jobRegistry"
+- "jobSchedulerEpoch"
+- "jobThrottlingParameters"
+- "jobType itemID "
+- "job_type"
+- "jobs"
+- "jobsNeedingFlushRunning"
+- "jobsProvider"
+- "jobsWaitingForPersistence"
+- "keep downloaded children of "
+- "keepAlive"
+- "keepAliveConnectionForRegisteredObserver:"
+- "keepDownloadedItemsWithDatalessParent"
+- "kernel"
+- "kernel dropped event"
+- "key"
+- "key value "
+- "keyColumns"
+- "keyForBundleIdentifier:generateIfNotFound:keyGenBlock:"
+- "keys"
+- "kind"
+- "kind not defined in "
+- "knownFolder"
+- "label"
+- "lastChange"
+- "lastChangeDate"
+- "lastDeliveredEventID"
+- "lastEditedByCurrentUser"
+- "lastEditorDeviceName"
+- "lastError"
+- "lastFSEventIDAndFakeEventShortWaitSubscription"
+- "lastFSEventIDLongWaitSubscription"
+- "lastIndexedAnchor"
+- "lastInsertedRowID"
+- "lastPathComponent"
+- "lastPropagationDateChanged"
+- "lastReceivedUpdate"
+- "lastRegistrationDate"
+- "lastTransactionError"
+- "lastTriggerDate"
+- "lastUsedDate"
+- "last_edited_by_current_user"
+- "last_editor_device_name"
+- "last_error"
+- "last_error_date"
+- "last_used_date"
+- "latency"
+- "launchOptions"
+- "launchWithTelemetryFromURLs:options:error:resultHandler:"
+- "learnNeedsAuthenticationFromBatchError"
+- "leave"
+- "length"
+- "libfssync"
+- "libfssync.DummyOperationClient"
+- "libfssync.FPCK"
+- "libfssync.FPCKDetachedRoot"
+- "libfssync.FPDDomainFPFSBackend"
+- "libfssync.FPFSEnumerator"
+- "libfssync.FPFSIndexer"
+- "libfssync.FPFSSQLBackupEngine"
+- "libfssync.FPFSSQLRestoreEngine"
+- "libfssync.FPFSSearchEnumerator"
+- "libfssync.FPFSServicerExtender"
+- "libfssync.FPFileTreeLifetimeExtender"
+- "libfssync.FPXPCNonSanitizingErrorProxy"
+- "libfssync.FileItemIDObject"
+- "libfssync.ProxyCancellable"
+- "libfssync.ProxyOperationClient"
+- "libfssync.ReconciliationIDObject"
+- "libfssync/CodableClass.swift"
+- "libfssync/ConcreteDatabase.swift"
+- "libfssync/Database+JobExecution.swift"
+- "libfssync/Database.swift"
+- "libfssync/FPCK.swift"
+- "libfssync/FPDDomainFPFSBackend.swift"
+- "libfssync/FPFSEnumerator.swift"
+- "libfssync/FPFSSQLRestoreEngine.swift"
+- "libfssync/FPFileTree.swift"
+- "libfssync/FPItemVersion.swift"
+- "libfssync/FSSnapshotChecker.swift"
+- "libfssync/FileTree.swift"
+- "libfssync/FileTreeWriter.swift"
+- "libfssync/InternalPathsManager.swift"
+- "libfssync/ItemMetadata.swift"
+- "libfssync/ItemNonSyncableAttributes.swift"
+- "libfssync/ItemState.swift"
+- "libfssync/Job+SQLCodable.swift"
+- "libfssync/Job.swift"
+- "libfssync/JobRegistry.swift"
+- "libfssync/JobResult.swift"
+- "libfssync/Maintenance.swift"
+- "libfssync/Prequelite+FSSyncAdditions.swift"
+- "libfssync/Propagation.swift"
+- "libfssync/ReadOnlyWharf.swift"
+- "libfssync/Reconciliation.swift"
+- "libfssync/ReconciliationTable.swift"
+- "libfssync/SQLDatabase.swift"
+- "libfssync/SQLItemJobRegistry.swift"
+- "libfssync/SQLJobRegistry.swift"
+- "libfssync/SQLSnapshot.swift"
+- "libfssync/Schedulable.swift"
+- "libfssync/Snapshot.swift"
+- "libfssync/VFSDirectoryLister.swift"
+- "libfssync/VFSFileTree+Lookup.swift"
+- "libfssync/VFSFileTree.swift"
+- "libfssync/VFSItem.swift"
+- "libfssync/fpfs_open.swift"
+- "lifetimeExtender"
+- "limit"
+- "limitSlot"
+- "link_count"
+- "list children of "
+- "listAvailableTestingOperations(with:completionHandler:)"
+- "listAvailableTestingOperationsWithRequest:completionHandler:"
+- "listConflicts(for:completionHandler:)"
+- "listRemoteVersions: item doesn't have a providerItemIdentifier, no versions"
+- "listRemoteVersionsOfItem(at:includeCachedVersions:completionHandler:)"
+- "listRemoteVersionsOfItemAtURL:includeCachedVersions:completionHandler:"
+- "listRemoteVersionsWithSettings:observer:request:completionHandler:"
+- "listTestingOperations(by: "
+- "listing directory %llu, cannot build element for fileID:%llu docID:%u: %{public}@"
+- "live"
+- "liveFSEventsXPCActivityCriteria"
+- "loadSyncEngine(creationReason:)"
+- "localizedName"
+- "location"
+- "lock"
+- "lockRegistration"
+- "lockedFileIDsFromDiskEnumeration"
+- "log"
+- "logger"
+- "logicalLocation"
+- "longAtIndex:"
+- "longLongAtIndex:"
+- "longLongValue"
+- "looking up VFS item for %s request %s"
+- "lookup %s on disk (request: %{public}s)"
+- "lookup %s on provider (request: %{public}s)"
+- "lookup parentID of "
+- "lookup(byFileID:)"
+- "lookup(continuation:requestedState:otherVersion:on:result:completion:)"
+- "lookupCache"
+- "lookupItem(by:lastKnownVersion:domainVersion:options:completion:)"
+- "lookupLRUSignature:"
+- "lookupLink(byFileID:)"
+- "lookupNotPermitted"
+- "lookupScope"
+- "lowercaseString"
+- "mainRootInode"
+- "mainRootURL"
+- "make sure we get idle stream notification"
+- "makeNextFlushBarrierFSync"
+- "makeNextFlushFullSync"
+- "manager"
+- "mark-disk-import-done"
+- "mark-locked-directories"
+- "mark-packages-evictable"
+- "mark-packages-syncroot"
+- "mark-parent-deleted"
+- "markDoneForKey:"
+- "mark_directories_as_locked"
+- "mark_package_syncroot"
+- "marking folder %{public}s as detached from %{public}s"
+- "marking package %s as sync root"
+- "marking sync root bit for folder %s"
+- "materialization waiter"
+- "materialization("
+- "materializationWaiters"
+- "materialization_status"
+- "materialize(_:request:qos:completion:)"
+- "materialize-ignored-item"
+- "materialize-parent-hierarchy"
+- "materializeIgnoredItem(_:continuation:duringDiskImport:request:completionHandler:)"
+- "materializeItem(with:requestedRange:request:completionHandler:)"
+- "materializeItemWithID:requestedRange:request:completionHandler:"
+- "materializeParentHierarchy("
+- "materializeSpeculativelyOnce"
+- "materialized children of "
+- "materializedURL vfsItem with ID %s is dataless"
+- "materializedURL(for:completion:)"
+- "materializedURLForItemID:"
+- "materialized_als"
+- "materialized_dir"
+- "materialized_pkg"
+- "materialized_reg"
+- "materialized_sym"
+- "materializingParent"
+- "max number of items reached"
+- "maxFPCKDatabaseChecks"
+- "maxFPCKDatabaseChecksDiagnostic"
+- "maxFSEventQueueSize"
+- "maxLookupDepth"
+- "mergeWithUserInfo:intoParentUserInfo:"
+- "merging old folder into relocated folder %s for %s"
+- "merging old folder into relocated folder %s for %s failed: %@"
+- "metadataVersion"
+- "metadata_before_bounce_filename = "
+- "metadata_child_item_count = "
+- "metadata_closest_syncroot = "
+- "metadata_collaboration_identifier =  "
+- "metadata_content_modification_date = "
+- "metadata_creation_date = "
+- "metadata_extended_attributes = "
+- "metadata_extension_hidden = "
+- "metadata_favorite_rank = "
+- "metadata_is_dataless"
+- "metadata_is_dataless != 0"
+- "metadata_is_dataless = "
+- "metadata_is_dataless = 0 AND "
+- "metadata_is_detached_root = "
+- "metadata_is_evictable"
+- "metadata_is_evictable != 0 AND "
+- "metadata_is_evictable = "
+- "metadata_is_evictable = 0 AND "
+- "metadata_is_hidden = "
+- "metadata_is_ignoreroot = "
+- "metadata_is_locked = "
+- "metadata_is_package = "
+- "metadata_is_pinned = "
+- "metadata_is_syncroot = "
+- "metadata_kind = "
+- "metadata_kind == "
+- "metadata_last_used_date = "
+- "metadata_link_count = "
+- "metadata_os_type = "
+- "metadata_physical_size = "
+- "metadata_posix_permissions = "
+- "metadata_size = "
+- "metadata_tag_data = "
+- "minimumDiskSpaceRequiredToBeGreedy"
+- "minimumDiskSpaceRequiredToBeGreedyOverride"
+- "missing beforeBounceFilename when bouncing file "
+- "missing case for ("
+- "missing database"
+- "mode"
+- "modificationDate"
+- "modifyItem:baseVersion:changedFields:contents:options:request:completionHandler:"
+- "mostRecentEditorNameComponents"
+- "mountPath"
+- "move aside failed with %{public}@"
+- "move detached folders to relocated location for %{public}s"
+- "move of un-owned directory %{public}s to purgatory, ended with error %@"
+- "move-out of descendents"
+- "moveItemAtPath:toPath:error:"
+- "moveItemAtURL:toURL:error:"
+- "movedAway"
+- "moving aside existing target folder %s for %{public}s"
+- "movingItem(at:with:completionHandler:)"
+- "movingItemAtURL:requiresProvidingWithDestinationURL:completionHandler:"
+- "movingItemAtURL:withInfo:completionHandler:"
+- "mtime fake change for parent of "
+- "multipleHardlinksExtensions"
+- "must create root directory at %s"
+- "must generate path for root directory"
+- "name"
+- "nameSpace"
+- "namespaceInheritEvict"
+- "namespaceInheritKeepDownload"
+- "namespaceInheritLazy"
+- "needUnregisterFromPendingFlush"
+- "needsAuthentication"
+- "needsNotifyGlobalProgress"
+- "needsRootsCreation"
+- "never delete the root item"
+- "new.decoration_content_policy"
+- "new.decoration_inherited_content_policy"
+- "new.metadata_kind == "
+- "newFileProviderProxyWithTimeout:pid:"
+- "newJobLockAggregator"
+- "next"
+- "nextObject"
+- "nextRetryDate"
+- "next_retry_date"
+- "next_retry_date <= "
+- "no FSEvent UUID stream for current volume"
+- "no id defined in "
+- "no identifier for domain "
+- "no provider for "
+- "no provider for domain "
+- "no read-only connection available, skipping non-evictable resolution"
+- "no recursivity defined"
+- "no requested state"
+- "no rescan pending for %s"
+- "no source item, and destination not directory"
+- "no source version"
+- "no step"
+- "no target itemID"
+- "no target version"
+- "no vfs item for %s (request: %{public}s)"
+- "no vfs item for %{public}s"
+- "no vfsItemID found for item %s, request %s"
+- "noProgressHardDelay"
+- "noProgressSoftDelay"
+- "non-empty-pending-set"
+- "nonEvictableSpace"
+- "nonEvictableSpace()"
+- "nonSyncableAttributes"
+- "nonSyncableAttributesColumns"
+- "nonSyncableAttributesColumnsCount"
+- "normalizeError(_:synchronous:completionHandler:)"
+- "not detaching already detached root %s for %s"
+- "not processing more jobs since we were cancelled"
+- "not ready while job on continuation"
+- "not reattaching already attached item %s for %s"
+- "not supported on FP"
+- "notDirectoryKinds"
+- "nothing to unpause"
+- "nothingToPropagate"
+- "notificationPresenter"
+- "notify scheduler we are ready"
+- "notifyRescan(_:)"
+- "notifying %s"
+- "nsDomain"
+- "nsDomainOrNilForDefault"
+- "nsfpRequestForSession:isSpeculative:"
+- "numberOfBrokenFilesInBackupManifestCheck"
+- "numberOfBrokenFilesInFSAndFSSnapshotCheck"
+- "numberOfBrokenFilesInFSCheck"
+- "numberOfBrokenFilesInFSSnapshotAndFPSnapshotCheck"
+- "numberOfBrokenFilesInReconciliationTableCheck"
+- "numberOfFilesChecked"
+- "numberOfItemsInError"
+- "numberOfItemsInFPSnapshot"
+- "numberOfItemsInFSSnapshot"
+- "numberOfItemsPendingReconciliation"
+- "numberOfItemsPendingScanningDisk"
+- "numberOfItemsPendingScanningProvider"
+- "numberWithBool:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithLong:"
+- "numberWithLongLong:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedInteger:"
+- "numberWithUnsignedLongLong:"
+- "numberWithUnsignedShort:"
+- "objCType"
+- "objectAtIndexedSubscript:"
+- "objectForKeyedSubscript:"
+- "observation"
+- "observedDefaults"
+- "observer"
+- "of by "
+- "of priority "
+- "old.decoration_content_policy"
+- "old.decoration_inherited_content_policy"
+- "oldItem newItem diffs reason "
+- "oldestStartingPoint"
+- "onActivatePendingSetNotification"
+- "onEnumerationAnchorChanged"
+- "onEnumeratorShouldUpdate"
+- "onError"
+- "onFolderHasBeenIgnored"
+- "onLastPropagationDateChanged"
+- "onNewSlot"
+- "onNextDurableFlush"
+- "onRunnableJobs()"
+- "onSchedulingStateChange"
+- "onUnblockedJobs"
+- "openAtURL:withFlags:error:"
+- "openBackupDatabases"
+- "openTelemetrySession"
+- "opening database %{public}s at %{public}s"
+- "operationDidProgressWithInfo:error:completionHandler:"
+- "operationDuration"
+- "operationQueue"
+- "operationType"
+- "optionsStorage"
+- "order"
+- "osLog"
+- "os_type"
+- "other version not defined"
+- "otherCollidingFilename"
+- "otherCollidingItemID"
+- "otherCollidingParentID"
+- "otherVersion"
+- "outputUserURL"
+- "over-released eviction prevention for "
+- "overriding item capabilities for item inside vendor excluded directory"
+- "overriding item capabilities for vendor excluded item"
+- "ownerNameComponents"
+- "packageDetection"
+- "package_has_sync_root_bit"
+- "page"
+- "parentID"
+- "parentItemID"
+- "parentItemIdentifier"
+- "parseEtag:"
+- "partialUnitCount"
+- "partiallyMaterialized"
+- "patchAppLibrary(documentsItem:backend:userRequest:)"
+- "patchFSItemJobsTable"
+- "patchFSSnapshotTable"
+- "patchFSThrottleTable"
+- "patchReconciliationTable"
+- "patchTombstoneTable"
+- "path"
+- "path %@ fileID %llu flags %@ eventID %llu"
+- "path should not be nil"
+- "pathComponents"
+- "pathExtension"
+- "pathManager"
+- "pathmon"
+- "pathsManager"
+- "pattern"
+- "pause"
+- "pauseAffordanceTimerSource"
+- "pauseHardTermination"
+- "pausingBackgroundActivity"
+- "pending rescan below "
+- "pendingFlushRules"
+- "pendingSet"
+- "pendingSetErrors"
+- "pendingSetItemPayload"
+- "pendingSetMaxItemCount"
+- "pendingSetOverflowing"
+- "pendingSetRefreshDate"
+- "pendingSetRefreshInterval"
+- "pendingSetRegatherThreshold"
+- "pendingSetSize"
+- "pendingSetSource"
+- "pendingSetState"
+- "pendingSetStateURL"
+- "pendingSetWatchingQueue"
+- "pendingTriggers"
+- "perThumbnailCompletionHandler"
+- "perfTelemetrySubSamplingPercentage"
+- "performActionWithIdentifier:onItemsWithIdentifiers:domainIdentifier:completionHandler:"
+- "performWithDBDiagnosticAttributes(for:block:)"
+- "performWithDiskDiagnosticAttributes(by:block:)"
+- "performWithDiskDiagnosticAttributes(for:block:)"
+- "performWithFlags:action:"
+- "periodicFPCKRunner"
+- "permanentStorageForItemAtURL:allocateIfNone:error:"
+- "persistenceCounterStorage"
+- "personNameComponentsFromString:"
+- "personaIdentifier"
+- "physicalLocation"
+- "physical_size"
+- "pid"
+- "pinItem(with:request:completionHandler:)"
+- "pinItemWithID:request:completionHandler:"
+- "ping"
+- "plannedRescan"
+- "pm.wait_on_path_matching"
+- "populate-conflicts"
+- "populateNewColumns"
+- "position"
+- "positionDirectoryID"
+- "positionGenerationCount"
+- "positionReadCount"
+- "positionUnreadCount"
+- "posixPermissions"
+- "posix_permissions"
+- "postReportWithCategory:type:payload:error:"
+- "precomposedStringWithCanonicalMapping"
+- "precomposedStringWithCompatibilityMapping"
+- "prefixedColumns"
+- "preflightReparentItemIDs:underParentID:reply:"
+- "preflightTrashItemIDs:completionHandler:"
+- "preformattedMostRecentEditorName"
+- "preformattedOwnerName"
+- "preformatted_most_recent_editor_name"
+- "preformatted_owner_name"
+- "prepareAdditionCreationWithItemAtURL:byMoving:creationInfo:error:"
+- "present-download-cancellation"
+- "preserve Domain Folder directory %s, reached max bounce number"
+- "preserveDirtyUserData"
+- "preserveUserData"
+- "preserving dirty user data"
+- "preserving user data"
+- "prettyDescription"
+- "preventedEvictabilityTable"
+- "previousAnchor"
+- "previousSequenceNumber"
+- "priority"
+- "processFseventBatch"
+- "processPendingIngestion()"
+- "processPendingStreamResetOrIdle()"
+- "processStreamEvent(db:)"
+- "progress"
+- "progress-monitor"
+- "progressCalculatingCancellable"
+- "progressMonitor"
+- "progressPerURL"
+- "progressReportingCancellable"
+- "progressWithTotalUnitCount:"
+- "propagate"
+- "propagate/dir"
+- "propagate/doc"
+- "propagate/fault"
+- "propagateToFP(itemID:request:completion:)"
+- "propagateToFS"
+- "propagateToFS(itemID:request:completion:)"
+- "propagation <fp:%s reason:%s> completed: %@"
+- "propagation <fs:%s reason:%s> completed: %@"
+- "propagation to FP"
+- "propagationFromFPWaiters"
+- "propagationFromFSWaiters"
+- "propagationJobTypes"
+- "propagationto FS"
+- "provideFile(for:kind:expectedFileSize:lastKnownVersion:domainVersion:requestor:options:completion:)"
+- "provideFile(for:kind:expectedFileSize:updating:domainVersion:requestor:options:completion:)"
+- "providePlaceholderAtURL:completionHandler:"
+- "provideWithExistingItem(for:db:result:completion:)"
+- "providedExtent"
+- "provider"
+- "providerDomainForDomain:"
+- "providerDomainID"
+- "providerID"
+- "providerItemIdentifier"
+- "providerVersion"
+- "providingNotRequiredResponseWithSyncRootID:"
+- "providingRequiredResponse"
+- "proxies"
+- "proxifiedDescription"
+- "publish"
+- "publishHandler"
+- "publishedProgress"
+- "purgatoryURL"
+- "purgeAndWait(at:)"
+- "purgeAndWaitAtUrl:"
+- "purgeAsync(at:)"
+- "purgeAsyncAtUrl:"
+- "purgeabilityErrorForReason:atURL:"
+- "purposeIdentifier"
+- "put-back location URL resolve for %s failed: %@"
+- "put-back location for URL success %s location: %s"
+- "put:"
+- "putBackURLForTrashedItem(at:request:completionHandler:)"
+- "putBackURLForTrashedItemAtURL:request:completionHandler:"
+- "q16@0:8"
+- "qos"
+- "quarantine_blob"
+- "queryDiskImportSchedulerLabel(completionHandler:)"
+- "queryDiskImportSchedulerLabelWithCompletionHandler:"
+- "queue"
+- "queueEvents:markSelfEncountered:"
+- "queueStorage"
+- "rangeAtIndex:"
+- "rangeValue"
+- "rawFields"
+- "rawFlags"
+- "re-creating local folder for %{public}s"
+- "readingIntentWithURL:options:"
+- "reapplyPurgeability"
+- "reason"
+- "received a change gathering for an outdated timestamp"
+- "received a non-empty sync anchor when pending set is not being computed anymore"
+- "received a pending set anchor for an outdated UUID"
+- "received delete ingestion while delete-item job running, delaying"
+- "receivedContentVersion"
+- "reconciledWithFP"
+- "reconciled_entry_for_dir_with_fp_content_changes"
+- "reconciled_entry_for_dir_with_fs_content_changes"
+- "reconciled_entry_without_fp_version"
+- "reconciled_entry_without_fs_version"
+- "reconciliation delete"
+- "reconciliation update unbinding FS"
+- "reconciliationForDomainID"
+- "reconciliationMutations"
+- "reconciliationTable"
+- "reconciliationTableCheck()"
+- "reconciliation_table_broken_invariant_"
+- "recovering running job %s"
+- "recovering running job %{public}s"
+- "recursive deletion of id, delete succeeded"
+- "recursive deletion of propagatedID, delete succeeded"
+- "recursive deletion, already unbound in FP"
+- "recursive deletion, already unbound in FP continuation"
+- "recursive_dataless"
+- "recursive_dataless_count"
+- "recursive_dataless_count UNSIGNED INT NOT NULL DEFAULT 0,\nrecursive_non_evictable_count UNSIGNED INT NOT NULL DEFAULT 0"
+- "recursive_disallow_deletion_count"
+- "recursive_disallow_exclusion_count"
+- "recursive_evictability"
+- "recursive_evictable_count"
+- "recursive_non_evictable_count"
+- "recursivelyDeleting("
+- "redactedDescription"
+- "reevaluateItemsEvictability changing evictability for %s"
+- "reevaluateItemsEvictability for %s"
+- "refreshing relocation symlink from %s to %s: %s"
+- "registerDeviceUnlockXPCActivity()"
+- "registerDiskImportScheduler()"
+- "registerFunction:nArgs:handler:"
+- "registerLifetimeExtensionForObject:"
+- "registerMoveOutPreprocessing(below:)"
+- "registerNewProxy(_:completionHandler:)"
+- "registerPaths:forBundleID:completionHandler:"
+- "registerResetStreamScheduler()"
+- "registerUpcallTimeoutRetryScheduler()"
+- "registerXPCActivities"
+- "registering xpc activities"
+- "registrationKeys"
+- "registrationQueue"
+- "regularExpressionWithPattern:options:error:"
+- "reimport-missing-jobs"
+- "reimport-on-git-or-folder-package"
+- "reimport-reason.json"
+- "reimportDataless"
+- "reimportEverything(removingCachedItems:markItemDataless:reason:completionHandler:)"
+- "reimportItems(below:removeCachedItems:markItemDataless:completionHandler:)"
+- "reimportItemsBelowItemWithID:removeCachedItems:markItemDataless:completionHandler:"
+- "reimportRemovingCachedItems"
+- "reimportWithReason"
+- "reimport_running_time_sec"
+- "relativeDiskSpaceRequiredToReturnToGreedyState"
+- "relativeDiskSpaceRequiredToReturnToGreedyStateOverride"
+- "reloadDomain:unableToStartup:needsReimport:startupError:completionHandler:"
+- "relocating %s into %s"
+- "relocating roots for %{public}s"
+- "remaining_disk_broken_invariants_"
+- "remaining_fs_snapshots_diffs_"
+- "remoteObjectProxy"
+- "remoteObjectProxyWithErrorHandler:"
+- "removal of %s failed: %@"
+- "remove-conflict-stuck-in-the-wharf"
+- "removeAdditions:completionHandler:"
+- "removeAllAdditionsForNamespaces:completionHandler:"
+- "removeAllObjects"
+- "removeCollidingItemID("
+- "removeItemAtURL:error:"
+- "removeKey:"
+- "removeLastObject"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removeObjectsInArray:"
+- "removeObjectsInRange:"
+- "removeStuckConflictsFromTheWharf(conflictsToRemove:completion:)"
+- "removeStuckWharfPropagationItems(completion:)"
+- "removeSubscriber:"
+- "removeTrashedItemsOlderThanDate:domainIdentifier:completionHandler:"
+- "remove_unowned_directory"
+- "removing support path %s"
+- "removingUnOwnedDirectory"
+- "renamedItem"
+- "repairedDiskBrokenInvariantsCounters"
+- "repairedDiskVsFSSnapshotDiffCounters"
+- "reply to %s: %s success"
+- "reply to %s: failure %@"
+- "reportCompletionTelemetryWithError:"
+- "reportCompletionTelemetryWithError:atStep:"
+- "reportProgressUpdate:totalUnitCount:completedFileCount:totalFileCount:"
+- "reporter"
+- "request"
+- "request for file %s doesn't allow resurrection"
+- "requestCompleted(isIgnored:db:)"
+- "requestEffectivePID"
+- "requestForPID:"
+- "requestForSelf"
+- "requestMaterialization completed for vfsItemID %s"
+- "requestMaterialization(%s) failed for vfsItemID: %@"
+- "requestMaterialization(%s) post-materialization lookup returned a dataless item - force ingestion"
+- "requestMaterialization(%s) post-materialization lookup returned an error %@"
+- "requestMaterialization(%s) post-materialization lookup returned no item"
+- "requestMaterialization(%s) post-materialization lookup succeeded"
+- "requestMaterialization(%s) post-materialization retry failed"
+- "requestTapToRadarWithTitle:description:componentName:componentVersion:componentID:keywords:attachments:displayReason:"
+- "requestTapToRadarWithTitle:description:keywords:attachments:displayReason:"
+- "requested by file tree"
+- "requestedContentVersion"
+- "requestedExtendedAttributes"
+- "requestedExtent"
+- "requestedState"
+- "requestedStructuralVersion"
+- "requestedXattrs"
+- "requestor"
+- "rescan ended for %s"
+- "rescan-materialized-speculative-items"
+- "rescan-parent-deleted-children"
+- "rescan-pending-set-fp-side"
+- "rescan-pending-set-fs-side"
+- "rescan-rec-table-set-conflicting_versions_in_genstore"
+- "reset()"
+- "resetCounters(completionHandler:)"
+- "resetCountersWithCompletionHandler:"
+- "resetWithReason:newFSEventID:"
+- "resnapshot-children"
+- "resolve-item-evictability"
+- "resolveConflict(at:completionHandler:)"
+- "resolveConflictAtURL:completionHandler:"
+- "resolveProviderItemID(_:completionHandler:)"
+- "resolved %s on disk (request: %{public}s)"
+- "resolved %s on provider (request: %{public}s)"
+- "resolvedWithDB"
+- "resolving URL for %s for %s"
+- "resolving logical URL for %{public}s for %{public}s"
+- "resourceValuesToFetch"
+- "restoreEngine"
+- "restoreWithCompletionHandler:"
+- "result of fetch id for %@: %s, %@"
+- "resultHandler"
+- "retrigger-resolved-vendor-exclusion"
+- "retry(on:result:conflictsToAdd:message:error:completion:)"
+- "retry_count"
+- "returnIfAlreadyOnFS"
+- "revivedIDAndVersion"
+- "roDB"
+- "roll-back of move-aside for %s failed: %@"
+- "root"
+- "root directory already exists at %s"
+- "root needs deep scan"
+- "rootFD"
+- "rootFileID"
+- "rootInodes"
+- "rootIsOwnedByDifferentProvider"
+- "rootIsOwnedByExistingDomain"
+- "rootIsOwnedByMissingDomain"
+- "rootIsPinnedCache"
+- "rootItemIDWithProviderIdentifier:domainIdentifier:"
+- "rootParent"
+- "rootURL"
+- "rootURLs"
+- "root_owned_by_different_provider"
+- "root_owned_by_existing_domain"
+- "root_owned_by_missing_domain"
+- "rootfd"
+- "roots haven't changed"
+- "rowID"
+- "rtcReporter"
+- "rtcReporting"
+- "rules"
+- "rules blockedBy "
+- "run(_:request:completionHandler:)"
+- "runBatch(function:updateBlock:)"
+- "runIfPossible:"
+- "runTestingOperations(_:request:completionHandler:)"
+- "runTestingOperations(by: "
+- "runTestingOperations:request:completionHandler:"
+- "runnable"
+- "running"
+- "running job: %s"
+- "runningCoordinators"
+- "runningEnumerator"
+- "runningJobMap"
+- "runningJobs"
+- "runningJobsOSTransaction"
+- "runningResetStreamJobs"
+- "runningRules"
+- "s"
+- "saPathManager"
+- "sanitizeErrors"
+- "saveConflicts(for:conflicts:completionHandler:)"
+- "schedule(db:)"
+- "scheduleDiskImportFinished(db:result:)"
+- "scheduleFPCKRun:domainUserInfo:databasesBackupsPath:urls:options:reason:fpfs:iCDPackageDetection:completionHandler:"
+- "scheduler is not running"
+- "schedulerIsEnabled"
+- "schedulerOSTransaction"
+- "scheduling a job that is not runnable"
+- "schedulingColumns"
+- "schedulingOrder"
+- "schedulingState"
+- "schedulingState("
+- "schedulingTimestamp"
+- "scheduling_state"
+- "scheduling_state = "
+- "scheduling_state_conditions != "
+- "scheduling_state_conditions IN (0, "
+- "searchContainerItemIdentifier"
+- "searchIdentifier"
+- "searchQuery"
+- "section"
+- "selectedForMaterialization"
+- "selectedIDsFromDiskEnumeration"
+- "sendPendingSetNotification(newState:)"
+- "sending notification %s"
+- "sent notification %s.materializedSetChanged.fp_libnotifyPerUserNotificationName())"
+- "sequence number received out of order: %ld <= %ld\n    %ld: %{public}s\n    %ld: %{public}s"
+- "sequenceNumber"
+- "serialQueue"
+- "server"
+- "serverUnreachable"
+- "session"
+- "sessionForDomainID:providerVersion:"
+- "sessionForProviderID:version:"
+- "setAllowsContextualMenuDownloadEntry:"
+- "setAlternateContentsURL:forDocumentWithURL:completionHandler:"
+- "setAlternateContentsURLWrapper(_:forDocumentWith:request:completionHandler:)"
+- "setAlternateContentsURLWrapper:forDocumentWithItemID:"
+- "setAlternateContentsURLWrapper:forDocumentWithURL:request:completionHandler:"
+- "setAttachments:"
+- "setAttributes:ofItemAtPath:error:"
+- "setAutoDiagnostics:"
+- "setAutoRollbackHandler:"
+- "setAutoRollbackHandlerForSwift:"
+- "setBackingStoreIdentity:"
+- "setBackupEngine:"
+- "setBarrierFolderURL:"
+- "setBool:forKey:"
+- "setCancellable:"
+- "setCancellationHandler:"
+- "setCapabilities:"
+- "setChildItemCount:"
+- "setClassification:"
+- "setCloudContainerIdentifier:"
+- "setCollaborationIdentifier:"
+- "setCompletedUnitCount:"
+- "setComponent:"
+- "setConflictingVersions:"
+- "setContainerDisplayName:"
+- "setContentModificationDate:"
+- "setContentPolicy:"
+- "setContentType:"
+- "setCountLimit:"
+- "setCreationDate:"
+- "setDateFormat:"
+- "setDateStyle:"
+- "setDbCreationTimestamp:"
+- "setDecorations:"
+- "setDeleteOnAttach:"
+- "setDetachedRootBookmark(at:attributes:rootURL:db:)"
+- "setDetachedRootLogicalURL:"
+- "setDiagnosticAttributes:"
+- "setDocumentID:"
+- "setDocumentSize:"
+- "setDomain:"
+- "setDomainUserInfo:forDomainIdentifier:completionHandler:"
+- "setDomainVersion:"
+- "setDownloaded:"
+- "setDownloading:"
+- "setDownloadingError:"
+- "setEffectiveContentPolicy:"
+- "setEnumeratedItemID:"
+- "setError:"
+- "setErrorDetails:"
+- "setEventStreamUUID:"
+- "setExcludedFromSync:"
+- "setExclusionType:"
+- "setExtendedAttributes:"
+- "setFavoriteRank:"
+- "setFileID:"
+- "setFileSystemFilename:"
+- "setFileSystemFlags:"
+- "setFileTreeHandlers()"
+- "setFileURL:"
+- "setFilename:"
+- "setFormerIdentifier:"
+- "setFp_appContainerBundleIdentifier:"
+- "setFp_displayName:"
+- "setFp_inPinnedFolder:"
+- "setFp_isDownloadRequested:"
+- "setFp_lastModifiedByCurrentUser:"
+- "setFp_pinned:"
+- "setHasUnresolvedConflicts:"
+- "setIgnoreRoot:"
+- "setInheritedContentPolicy:"
+- "setInheritedUserInfo:"
+- "setInteger:forKey:"
+- "setIsActivated:"
+- "setIsContainer:"
+- "setIsContainerPristine:"
+- "setItemFlockStatus("
+- "setItemIdentifier:"
+- "setItemIsInsideAPackage:"
+- "setItemIsInsideAnIgnoredFolder:"
+- "setItemPendingReconciliationIsLockedInDB:"
+- "setItemPendingReconciliationJobCode:"
+- "setItemPendingReconciliationJobSchedulingState:"
+- "setItemPendingScanningDiskEnumerationStatus:"
+- "setItemPendingScanningDiskHasMultiplePagesEnumeration:"
+- "setItemPendingScanningDiskNumberOfChildrenNotPendingReconciliation:"
+- "setItemPendingScanningDiskNumberOfChildrenPendingReconciliation:"
+- "setItemPendingScanningDiskNumberOfChildrenPendingRejection:"
+- "setItemPendingScanningDiskNumberOfChildrenPendingSyncDown:"
+- "setItemPendingScanningDiskNumberOfChildrenPendingSyncDownDeletion:"
+- "setItemPendingScanningDiskNumberOfChildrenPendingSyncDownReparent:"
+- "setItemPendingScanningDiskNumberOfChildrenPendingSyncUp:"
+- "setItemPendingScanningDiskNumberOfChildrenPendingSyncUpDeletion:"
+- "setItemPendingScanningDiskNumberOfChildrenPendingSyncUpReparent:"
+- "setItemPendingScanningProviderEnumerationStatus:"
+- "setItemPendingScanningProviderHasMultiplePagesEnumeration:"
+- "setItemPendingScanningProviderNumberOfChildren:"
+- "setItemPendingScanningProviderNumberOfChildrenFailingCreation:"
+- "setItemPendingScanningProviderNumberOfChildrenPendingCreation:"
+- "setItemPendingScanningProviderRemovalOfDatalessBitStatus:"
+- "setItemVersion:"
+- "setItemsPendingReconciliation:"
+- "setItemsPendingScanningDisk:"
+- "setItemsPendingScanningProvider:"
+- "setKeywords:"
+- "setLabel:"
+- "setLastDeliveredEventID:"
+- "setLastError:"
+- "setLastUsedDate:"
+- "setLatestFolderSelectedForImport:"
+- "setLatestFolderSelectedForImportIsMonitored:"
+- "setLatestFolderSelectedForImportState:"
+- "setLatestFolderSelectedForImportTimestamp:"
+- "setLatestFolderSelectedForImportWasModifiedOnDisk:"
+- "setLatestFolderSelectedForImportWasModifiedRemotely:"
+- "setLocalizedDescription:"
+- "setMaxConcurrentOperationCount:"
+- "setModifyDecoratedPayloadHook:forCategory:"
+- "setMostRecentEditorNameComponents:"
+- "setMostRecentVersionDownloaded:"
+- "setNeedsAuth"
+- "setNeedsReimport:"
+- "setNumberOfBrokenFilesInBackupManifestCheck:"
+- "setNumberOfBrokenFilesInFSAndFSSnapshotCheck:"
+- "setNumberOfBrokenFilesInFSCheck:"
+- "setNumberOfBrokenFilesInFSSnapshotAndFPSnapshotCheck:"
+- "setNumberOfBrokenFilesInReconciliationTableCheck:"
+- "setNumberOfFilesChecked:"
+- "setNumberOfItemsInError:"
+- "setNumberOfItemsPendingReconciliation:"
+- "setNumberOfItemsPendingScanningDisk:"
+- "setNumberOfItemsPendingScanningProvider:"
+- "setNumberOfItemsPendingSelection:"
+- "setNumberOfItemsReconciled:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOwnerNameComponents:"
+- "setParentItemIdentifier:"
+- "setPath:"
+- "setPausable:"
+- "setPausingHandler:"
+- "setPlannedRescan:"
+- "setPostFlushHook:"
+- "setProblemDescription:"
+- "setProfilingHook:"
+- "setProvidedExtent:"
+- "setProviderDomain:"
+- "setPurposeIdentifier:"
+- "setPutBackInfoOnItemAt(_:completionHandler:)"
+- "setPutBackInfoOnItemAtURL:completionHandler:"
+- "setQuarantineBlob:"
+- "setRecursivelyDownloaded:"
+- "setReproducibility:"
+- "setRequestedExtent:"
+- "setRestoreEngine:"
+- "setResultURL:"
+- "setResumingHandler:"
+- "setSelectedForMaterialization:"
+- "setShared:"
+- "setSharedByCurrentUser:"
+- "setSharingPermissions:"
+- "setShouldUseWALJournalMode:"
+- "setSpotlightDomainIdentifier:"
+- "setState:"
+- "setStateOfDownloadJobs:"
+- "setStateOfUploadJobs:"
+- "setStatementCacheMaxCount:"
+- "setStatus:"
+- "setSupportsMostRecentVersionDownloaded:"
+- "setSynchronousMode:"
+- "setTags:"
+- "setTelemetryReport:"
+- "setTimeStyle:"
+- "setTimeoutState:"
+- "setTitle:"
+- "setTopLevelSharedItem:"
+- "setTotalUnitCount:"
+- "setTraced:"
+- "setTrashed:"
+- "setTypeAndCreator:"
+- "setTypeIdentifier:"
+- "setUbiquitous:"
+- "setUnderlyingQueue:"
+- "setUpStreamForReason:error:"
+- "setUploaded:"
+- "setUploading:"
+- "setUploadingError:"
+- "setUserInfo:"
+- "setUserInfoObject:forKey:"
+- "setUserVersion:"
+- "setXpcActivityDasdContext:"
+- "setXpcActivityIsActive:"
+- "setXpcActivityRegisteredWithDuet:"
+- "setXpcActivityTimeSinceLastActivation:"
+- "setXpcActivityTimeSinceLastRegistration:"
+- "setupForPath:error:"
+- "setupPragmas"
+- "shared"
+- "sharedInstance"
+- "sharedManager"
+- "sharingPermissions"
+- "sharing_permissions"
+- "shortAtIndex:"
+- "shortDescription"
+- "should be implemented by subclass"
+- "should fetch updated item "
+- "should not be called"
+- "should not call itemIDForThrottling for ItemJob"
+- "should not call itemIDForThrottling on propagation job"
+- "should not happen"
+- "should not try to encode those types"
+- "should reattempt starting FPFS for domain %s"
+- "shouldFailCoordinationIfDownloadRequired"
+- "shouldPause"
+- "shouldRefreshBookmark"
+- "shouldSyncXattr"
+- "side"
+- "signalChangesWithCompletionHandler:"
+- "signalEnumeratorForMaterializedItemsWithCompletionHandler:"
+- "signalEnumeratorForPendingItemsWithCompletionHandler:"
+- "signalErrorResolved(_:completionHandler:)"
+- "signalErrorResolved:completionHandler:"
+- "signalNeedsReindexFromScratch(completionHandler:)"
+- "signalNeedsReindexFromScratchWithCompletionHandler:"
+- "signalProviderChanges"
+- "signalProviderChangesWithLowPriority"
+- "singleItemChange("
+- "singleItemChange(_:changedFields:bounce:coordinate:request:completionHandler:)"
+- "singleItemChange:changedFields:bounce:completionHandler:"
+- "size"
+- "skip item not watching content"
+- "skip item with pending children"
+- "skippedLockedItems"
+- "skipping compressed / unreadable object in package"
+- "skipping unsupported object in package"
+- "snapshotA"
+- "snapshotB"
+- "snapshotForDomainID"
+- "snapshotMutations"
+- "snapshotVersion"
+- "softConcurrentContentUpdateLimit"
+- "softConcurrentOperationLimit"
+- "softConcurrentProvideFileLimit"
+- "softJobsLimit"
+- "source"
+- "sourceID"
+- "sourceItem"
+- "sourceItemID"
+- "sourceItemIdentifier"
+- "sourceItemSnapshotVersion"
+- "source_snapshot_version"
+- "speculative content policy"
+- "speculative download got canceled by the provider going to update speculative fulfilled"
+- "speculative download got canceled by the user going to update speculative fulfilled"
+- "speculativeContentPolicy"
+- "speculativeDiskManagement"
+- "speculativeDownloadRejectedDueToLowDiskSpace"
+- "speculative_fulfilled"
+- "spotlightDomainIdentifier"
+- "spotlightIndexer"
+- "spotlightIndexerDidReindexAllSearchableItems:"
+- "sqlDatabase"
+- "sqlDatabaseBatchChangeCount"
+- "sqlDatabaseBatchDelay"
+- "sqlDatabaseFlushIntervalMilliseconds"
+- "sqlDatabaseOnNextDurableFlushTriggerThreshold"
+- "sqlDatabaseStatementCacheMaxCount"
+- "sqlDatabaseVacuumBatchSize"
+- "stabilization for "
+- "stabilization(by:"
+- "stabilizationWaiters"
+- "stable_entry_with_fp_captured_content"
+- "stable_entry_with_fs_captured_content"
+- "stable_entry_with_non_default_scheduling_priority"
+- "stageCreation(capturedContent:requestedState:otherVersion:on:result:nonSyncableAttributes:completion:)"
+- "stageUpdate(itemID:capturedContent:requestedState:otherVersion:baseVersion:on:result:nonSyncableAttributes:completion:)"
+- "startDate"
+- "startOperation:toFetchThumbnailsForItemIdentifiers:size:completionHandler:"
+- "startOperation:toFetchThumbnailsWithDictionary:size:completionHandler:"
+- "startProvidingItem(at:readerID:readingOptions:request:completionHandler:)"
+- "startProvidingItemAtURL:readerID:readingOptions:request:completionHandler:"
+- "startProvidingItemAtURL:readingOptions:completionHandler:"
+- "startStatus"
+- "startWithReason:error:"
+- "started"
+- "starting FPFS for domain %s"
+- "starting to observe fsevent on %s (was %s)"
+- "starting to run periodic FPCK for %s"
+- "starting without a FSEvent ID"
+- "starting without a an FSEvent stream UUID"
+- "startupError"
+- "startupQueue"
+- "stat of item cloned from ino:%llu failed: %{errno}d"
+- "state"
+- "state - asyncWithSyncEngine error: %@."
+- "state - fpfs.db.asyncRead error: %@."
+- "state(completionHandler:)"
+- "stateWithCompletionHandler:"
+- "state_conditions"
+- "state_continuation"
+- "stop dropping events"
+- "stopEventAggregation()"
+- "stopObservingComplementaryProgressIfNeeded()"
+- "stopping scheduler"
+- "stopping tracker"
+- "storage"
+- "stream is idle enough to allow reset stream scan"
+- "stream is idle enough to unblock dependent operations"
+- "stream was signaled"
+- "string"
+- "stringArrayForKey:"
+- "stringAtIndex:"
+- "stringByAppendingFormat:"
+- "stringByAppendingPathComponent:"
+- "stringByDeletingLastPathComponent"
+- "stringByDeletingPathExtension"
+- "stringFromDate:"
+- "stringFromPersonNameComponents:"
+- "stringWithFileSystemRepresentation:length:"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "strippedCopy"
+- "structuralVersion"
+- "structural_filename"
+- "structural_parent_id"
+- "structural_version"
+- "structural_version "
+- "structural_version = "
+- "subTables"
+- "subarrayWithRange:"
+- "subscribe(toDownloadProgressUpdates:completionHandler:)"
+- "subscribe(toUploadProgressUpdates:completionHandler:)"
+- "subscribeToDownloadProgressUpdates(_:completionHandler:)"
+- "subscribeToDownloadProgressUpdates:completionHandler:"
+- "subscribeToEventsAtPath:fd:sinceEventID:streamUUID:ignoreOwnEvents:delegate:purpose:"
+- "subscribeToUploadProgressUpdates(_:completionHandler:)"
+- "subscribeToUploadProgressUpdates:completionHandler:"
+- "subscriber"
+- "subscription:handleEventAtPath:targetItemID:eventID:flags:"
+- "subscription:handleResetWithReason:"
+- "subscriptionDidHandleBatchOfEvents:"
+- "subscriptionHandleDroppedEvent:"
+- "subscriptionHandleTermination:"
+- "subscriptionWillHandleBatchOfEvents:"
+- "substringWithRange:"
+- "success"
+- "superPendingSetErrors"
+- "superPendingSetItemPayload"
+- "superPendingSetSize"
+- "support files could not be removed: %@"
+- "supportURL"
+- "supportsSyncingTrash"
+- "suspend"
+- "suspendCount >= 0"
+- "suspended"
+- "suspending the scheduler"
+- "swift_bookmarkForItemID:consumerIdentifier:installSessionIdentifier:"
+- "swift_parseUnverifiedBookmark:"
+- "swift_verifyBookmark:consumerIdentifier:installSessionIdentifier:"
+- "symlink at %s doesn't target %s"
+- "symlink points to the wrong item"
+- "sync anchor expired"
+- "sync engine state:\n"
+- "sync root cannot be set"
+- "syncBatch(function:updateBlock:)"
+- "syncRead(quiet:function:block:)"
+- "syncState"
+- "sync_root_has_demoted_flag_bit"
+- "synchronousMode"
+- "synchronousRemoteObjectProxy"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "table"
+- "tag_data"
+- "tags"
+- "taking over %{public}s"
+- "taking over domain root at %{public}s, the path already exists and is not owned by anyone"
+- "takingOwnershipOfUnownedRoot"
+- "taking_ownership_of_unowned_root"
+- "target of symlink doesn't exists"
+- "targetFilename"
+- "targetID"
+- "targetItem"
+- "task_tracker"
+- "telemetry"
+- "telemetryReport"
+- "telemetryReport(completionHandler:)"
+- "telemetryReportWithCompletionHandler:"
+- "temporaryDirectoryURL"
+- "temporaryDirectoryURL(completionHandler:)"
+- "temporaryDirectoryURLWithCompletionHandler:"
+- "temporaryFileTrackingDelayForVariant:"
+- "temporaryPattern"
+- "terminateWithReason:"
+- "test_content"
+- "testingHarnessBarrier("
+- "testingHarnessEviction"
+- "testingHarnessMaterialization("
+- "testingHarnessPropagation"
+- "testingHarnessScheduling"
+- "testingHarnessStabilization"
+- "testingModes"
+- "testingOperationWaiters"
+- "testingOperations(request:completionHandler:)"
+- "the query should have prevented this"
+- "throttle"
+- "throttleColumns"
+- "throttleWaitGroup"
+- "thumbnailDataURLWrapper"
+- "thumbnailMetaData"
+- "timeSource"
+- "timeout"
+- "timeoutState"
+- "timestamp"
+- "to be implemented in sub-classes"
+- "tombstoneSlayer"
+- "too deep - stopping dump"
+- "totalDatalessItems"
+- "totalFixedDiskBrokenInvariants"
+- "totalFixedFSSnapshotDiffs"
+- "totalMaterializedItems"
+- "totalSize"
+- "totalUnitCount"
+- "track-temporary-item"
+- "trackCollidingSafeSaveItem"
+- "tracker"
+- "transitionItemKind("
+- "trashInode"
+- "trashItemAtURL:completionHandler:"
+- "trashItemAtURL:request:completionHandler:"
+- "trashURL"
+- "trigger(now:)"
+- "triggerMaterializationDatalessContainers(fpfs:backend:directory:)"
+- "triggersEnabled"
+- "true"
+- "trying to delete a non existing reconciliation: "
+- "trying to move un-owned directory %s to the purgatory %s"
+- "trying to roll-back move-aside for %s"
+- "trying_to_remove_unowned_directory"
+- "typeAndCreator"
+- "typeWithFilenameExtension:conformingToType:"
+- "unable to cancel materializations, job registry didn't cast"
+- "unableToStartup"
+- "unarchiveItemAtURL:passphrases:destinationFolderURL:acceptedFormats:completionHandler:"
+- "unarchivedObjectOfClass:atIndex:"
+- "unblock-children-deletion"
+- "unblock-disk-import-items"
+- "unblock-evictability"
+- "unblock-ignore-folder"
+- "unblock-item-rejection"
+- "unblock-path-matching-cycles"
+- "unblock-path-matching-import"
+- "unblock-remote-deletion"
+- "unblock-throttled-item-jobs"
+- "unblock-throttled-jobs"
+- "unblock-throttled-reconciliations"
+- "unblocking waiters on %s"
+- "unbound children of "
+- "underlyingErrors"
+- "unexpected binding"
+- "unexpected continuation type"
+- "unexpected error while retrieving info at %s"
+- "unexpected job in reconciliation "
+- "unexpected kind "
+- "unexpected materializing parent state on bound reconciliation "
+- "unexpected propagation job"
+- "unexpected retained job "
+- "unfault-directory-and-children"
+- "unfault-directory-in-tree"
+- "unhandled database persistence error in "
+- "unhandled database persistence error in %{public}s: %@"
+- "unhandled job type"
+- "unhandled testing operation "
+- "unknown item while listing children of parent item "
+- "unknownPath/unknownFilename"
+- "unlabeled"
+- "unlockedValue"
+- "unmark-parent-deleted-merge-source"
+- "unpause-reconciliations"
+- "unpinItem(with:request:completionHandler:)"
+- "unpinItemWithID:request:completionHandler:"
+- "unpublish"
+- "unregisterLifetimeExtensionForObject:"
+- "unregisterURLs:forBundleID:completionHandler:"
+- "unregistered"
+- "unsignedCharAtIndex:"
+- "unsignedIntAtIndex:"
+- "unsignedIntValue"
+- "unsignedIntegerAtIndex:"
+- "unsignedIntegerValue"
+- "unsignedLongAtIndex:"
+- "unsignedLongLongAtIndex:"
+- "unsignedLongLongValue"
+- "unsignedShortAtIndex:"
+- "unspecified reason"
+- "unsupported class"
+- "unsupported database version %{public}s"
+- "unsupported diff field "
+- "unsupported error type"
+- "unsupported feature flag enablement: "
+- "unsupported type"
+- "unsupportedFields"
+- "upcallExcutionTimeLimitProgressCancellationGracePeriod"
+- "upcallExecutionTimeLimitBase"
+- "upcallExecutionTimeLimitPerKiloByte"
+- "update(_:to:given:with:capturedContent:baseVersion:domainVersion:options:nonSyncableAttributes:completion:)"
+- "update(itemID:capturedContent:stagedContext:requestedState:otherVersion:baseVersion:on:result:nonSyncableAttributes:completion:)"
+- "update-closest-sync-root"
+- "updateConflictsInGenStoreStatus("
+- "updateContentJobsForA"
+- "updateContentJobsForB"
+- "updateEpoch"
+- "updateHistoryTable(database:)"
+- "updateIgnoreStateOfItem(_:ignoreState:fpfs:completionHandler:)"
+- "updateIgnoreStateOfItem(withIdentifiers:ignoreState:completionHandler:)"
+- "updateIgnoreStateOfItemWithIdentifiers:ignoreState:completionHandler:"
+- "updateListOfConflictsToGS(url:toAdd:toRemove:completion:)"
+- "updatePinning(of:to:request:completionHandler:)"
+- "updateRootAfterDomainChange()"
+- "updateRootAfterDomainChangeWithError:"
+- "updateSchedulingOrder("
+- "updateSchedulingState(_:)"
+- "updateShouldRetryThrottledOperations(_:completionHandler:)"
+- "updateShouldRetryThrottledOperations:completionHandler:"
+- "updateSpeculativeDownloadFulfilled("
+- "updateWithManagerAlternateContentsDictionary:"
+- "updatedItemsRank"
+- "updating, clearing the throttles"
+- "updatingHistoryTable"
+- "upgrading database %{public}s -> %{public}s"
+- "uploadCancelled"
+- "uploadInterrupted"
+- "uploadPipelineDepth"
+- "uploadProgress"
+- "uploadProgressByItemID"
+- "uploadingError"
+- "uploading_error"
+- "url"
+- "url(for:creatingPlaceholderIfMissing:ignoreAlternateContentsURL:forBookmarkResolution:request:completionHandler:)"
+- "useBatchingOnTargetQueue:delay:changeCount:"
+- "useBatchingWithDelay:changeCount:"
+- "useComplementaryProgress"
+- "user-download-warning-delay"
+- "user-download-warning-stickiness-delay"
+- "userCheckedSuppressionCheckboxForUserInteractionIdentifier:domainIdentifier:completionHandler:"
+- "userEnabled"
+- "userInfo"
+- "userInteractionErrorsForPerformingAction:sourceItems:destinationItem:fpProviderDomainId:sourceItemKeysAllowList:destinationItemKeysAllowList:completionHandler:"
+- "userPackageExtensions"
+- "userPersonaUniqueString"
+- "userURL"
+- "userVersion"
+- "user_info"
+- "usingFPFS"
+- "uuid"
+- "v12@?0B8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"NSObject<OS_xpc_object>\"8"
+- "v16@?0@\"NSString\"8"
+- "v16@?0@\"NSURL\"8"
+- "v16@?0@\"PQLConnection\"8"
+- "v20@0:8B16"
+- "v24@0:8@\"<FPCancellable>\"16"
+- "v24@0:8@\"FPItem\"16"
+- "v24@0:8@\"FPSpotlightIndexer\"16"
+- "v24@0:8@\"FSChangeSubscription\"16"
+- "v24@0:8@\"NSFileProviderDomain\"16"
+- "v24@0:8@\"NSURL\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"FPImportProgressReport\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSArray\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSData\">16"
+- "v24@0:8@?<v@?@\"NSData\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSDictionary\">16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSString\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSURL\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSXPCListenerEndpoint\"@\"NSError\">16"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v24@0:8@?<v@?Bd@\"NSData\">16"
+- "v24@0:8@?<v@?Q@\"NSError\">16"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v24@?0@\"<FPXEnumerator>\"8@\"NSError\"16"
+- "v24@?0@\"FPDDomain\"8@\"NSError\"16"
+- "v24@?0@\"FPExtensionResponse\"8@\"NSError\"16"
+- "v24@?0@\"FPItem\"8@\"NSError\"16"
+- "v24@?0@\"FPItemID\"8@\"NSError\"16"
+- "v24@?0@\"GSAddition\"8@\"NSError\"16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v24@?0@\"NSData\"8@\"NSError\"16"
+- "v24@?0@\"NSDictionary\"8@\"NSDictionary\"16"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "v24@?0@\"NSURL\"8@\"NSError\"16"
+- "v24@?0@\"NSXPCListenerEndpoint\"8@\"NSError\"16"
+- "v28@0:8@\"FPCTLTermDumper\"16B24"
+- "v28@0:8@16B24"
+- "v28@0:8B16@?20"
+- "v28@0:8B16@?<v@?@\"NSError\">20"
+- "v28@?0B8@\"NSError\"12@\"NSString\"20"
+- "v28@?0^v8i16^^v20"
+- "v32@0:8@\"<FPProgressProtocol>\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"FPDRequest\"16@?<v@?@\"<FPXOperationService>\"@\"NSXPCListenerEndpoint\"@\"NSError\">24"
+- "v32@0:8@\"FPDRequest\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"FPDRequest\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"FPDRequest\"16@?<v@?@\"NSXPCListenerEndpoint\"@\"NSError\">24"
+- "v32@0:8@\"FPItemID\"16@?<v@?>24"
+- "v32@0:8@\"FPItemID\"16@?<v@?@\"FPItem\"@\"NSError\">24"
+- "v32@0:8@\"FPItemID\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"FSChangeSubscription\"16q24"
+- "v32@0:8@\"NSArray\"16@?<v@?@\"NSArray\">24"
+- "v32@0:8@\"NSArray\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"NSArray\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSError\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"NSURL\"16@\"FPDRequest\"24"
+- "v32@0:8@\"NSURL\"16@?<v@?@\"FPItem\"@\"NSError\">24"
+- "v32@0:8@\"NSURL\"16@?<v@?@\"FPItemID\"@\"NSError\">24"
+- "v32@0:8@\"NSURL\"16@?<v@?@\"FPSandboxingURLWrapper\"@\"NSError\">24"
+- "v32@0:8@\"NSURL\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSURL\"16@?<v@?@\"NSURL\"@\"NSError\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16q24"
+- "v32@0:8Q16@?24"
+- "v32@0:8q16Q24"
+- "v32@?0@\"FPItem\"8@\"FPExtensionResponse\"16@\"NSError\"24"
+- "v32@?0@\"NSURL\"8@\"NSString\"16@\"NSError\"24"
+- "v32@?0@\"NSXPCListenerEndpoint\"8@\"NSArray\"16@\"NSError\"24"
+- "v32@?0@\"PQLConnection\"8@\"PQLStatement\"16@\"NSError\"24"
+- "v32@?0@\"PQLConnection\"8^v16q24"
+- "v32@?0q8@\"NSError\"16@\"NSMutableDictionary\"24"
+- "v36@0:8@\"FPItemID\"16B24@?<v@?@\"NSArray\"@\"NSError\">28"
+- "v36@0:8@\"FPItemID\"16B24@?<v@?@\"NSXPCListenerEndpoint\"@\"NSArray\"@\"NSError\">28"
+- "v36@0:8@\"NSArray\"16B24@?<v@?@\"NSDictionary\"@\"NSDictionary\"@\"NSError\">28"
+- "v36@0:8@\"NSURL\"16B24@?<v@?@\"FPItem\"@\"NSArray\"@\"NSError\">28"
+- "v36@0:8@16B24@?28"
+- "v36@0:8B16@\"NSNumber\"20@?<v@?@\"NSError\">28"
+- "v36@0:8B16@20@?28"
+- "v40@0:8@\"FPCTLTermDumper\"16@\"NSString\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"FPItemID\"16@\"FPDRequest\"24@?<v@?@\"FPItem\"@\"NSError\">32"
+- "v40@0:8@\"FPItemID\"16@\"FPDRequest\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"FPItemID\"16@\"NSFileProviderRequest\"24@?<v@?@\"FPItem\"@\"FPExtensionResponse\"@\"NSError\">32"
+- "v40@0:8@\"FPItemID\"16B24B28@?<v@?@\"FPSandboxingURLWrapper\"@\"FPSandboxingURLWrapper\"@\"NSError\">32"
+- "v40@0:8@\"FPItemID\"16B24B28@?<v@?@\"NSError\">32"
+- "v40@0:8@\"FPSandboxingURLWrapper\"16@\"NSURL\"24@?<v@?@\"FPItemID\"@\"NSError\">32"
+- "v40@0:8@\"NSArray\"16@\"FPDRequest\"24@?<v@?@\"NSDictionary\"@\"NSError\">32"
+- "v40@0:8@\"NSArray\"16@\"FPDRequest\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSArray\"16@\"FPItemID\"24@?<v@?@\"NSArray\">32"
+- "v40@0:8@\"NSArray\"16@\"FPItemID\"24@?<v@?@\"NSDictionary\"@\"NSError\">32"
+- "v40@0:8@\"NSArray\"16@\"NSString\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSArray\"16Q24@?<v@?@\"NSDictionary\"@\"NSDictionary\"@\"NSError\">32"
+- "v40@0:8@\"NSData\"16q24@?<v@?@\"NSArray\"@\"NSArray\"B@\"NSData\"@\"FPExtensionResponse\"@\"NSError\">32"
+- "v40@0:8@\"NSData\"16q24@?<v@?@\"NSArray\"@\"NSArray\"BBd@\"NSData\"@\"FPExtensionResponse\"@\"NSError\">32"
+- "v40@0:8@\"NSData\"16q24@?<v@?@\"NSArray\"@\"NSData\"@\"NSData\"@\"FPExtensionResponse\"@\"NSError\">32"
+- "v40@0:8@\"NSDate\"16@\"NSString\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSDictionary\"16@\"NSError\"24@?<v@?>32"
+- "v40@0:8@\"NSError\"16Q24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"FPDRequest\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"NSFileHandle\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSURL\"16@\"FPDRequest\"24@?<v@?@\"FPItem\"@\"NSError\">32"
+- "v40@0:8@\"NSURL\"16@\"FPDRequest\"24@?<v@?@\"FPSandboxingURLWrapper\"@\"NSError\">32"
+- "v40@0:8@\"NSURL\"16@\"FPDRequest\"24@?<v@?@\"NSArray\"@\"NSError\">32"
+- "v40@0:8@\"NSURL\"16@\"FPDRequest\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSURL\"16@\"FPDRequest\"24@?<v@?@\"NSURL\"@\"NSError\">32"
+- "v40@0:8@\"NSURL\"16@\"NSFileProviderMovingInfo\"24@?<v@?@\"NSFileProviderMovingResponse\">32"
+- "v40@0:8@\"NSURL\"16@\"NSURL\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSURL\"16Q24@?<v@?@\"NSError\">32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16B24B28@?32"
+- "v40@0:8@16Q24@?32"
+- "v40@0:8@16q24@?32"
+- "v44@0:8@\"FPItem\"16Q24B32@?<v@?@\"FPItem\"@\"NSError\">36"
+- "v44@0:8@\"FPItemID\"16B24@\"FPDRequest\"28@?<v@?@\"FPItem\"@\"NSError\">36"
+- "v44@0:8@\"FPItemID\"16B24@\"FPDRequest\"28@?<v@?@\"NSXPCListenerEndpoint\"@\"NSArray\"@\"NSError\">36"
+- "v44@0:8@\"NSArray\"16B24@\"FPDRequest\"28@?<v@?@\"NSDictionary\"@\"NSError\">36"
+- "v44@0:8@\"NSURL\"16B24@\"FPDRequest\"28@?<v@?@\"FPItemID\"@\"NSError\">36"
+- "v44@0:8@16B24@28@?36"
+- "v44@0:8@16Q24B32@?36"
+- "v44@?0@\"FPItem\"8Q16B24@\"FPExtensionResponse\"28@\"NSError\"36"
+- "v48@0:8@\"FPExtensionEnumerationSettings\"16@\"<FPDLifetimeExtender>\"24@\"<FPXEnumeratorObserver>\"32@?<v@?@\"<FPXEnumerator>\"@\"NSError\">40"
+- "v48@0:8@\"FPExtensionEnumerationSettings\"16@\"<FPXEnumeratorObserver>\"24@\"NSFileProviderRequest\"32@?<v@?@\"<FPXEnumerator>\"@\"NSError\">40"
+- "v48@0:8@\"FPItemID\"16@\"FPDRequest\"24@\"NSProgress\"32@?<v@?@\"NSURL\"@\"NSError\">40"
+- "v48@0:8@\"FPItemID\"16@\"NSFileProviderItemVersion\"24@\"NSURL\"32@?<v@?@\"FPFileVersion\"@\"NSURL\"@\"NSError\">40"
+- "v48@0:8@\"FPItemID\"16Q24@\"FPDRequest\"32@?<v@?@\"NSError\">40"
+- "v48@0:8@\"FPSandboxingURLWrapper\"16@\"NSURL\"24@\"FPDRequest\"32@?<v@?@\"FPItemID\"@\"NSError\">40"
+- "v48@0:8@\"NSArray\"16@\"NSArray\"24Q32@?<v@?@\"NSError\">40"
+- "v48@0:8@\"NSArray\"16@\"NSURL\"24@\"FPDRequest\"32@?<v@?@\"NSDictionary\"@\"NSError\">40"
+- "v48@0:8@\"NSArray\"16Q24@\"FPDRequest\"32@?<v@?@\"NSDictionary\"@\"NSDictionary\">40"
+- "v48@0:8@\"NSArray\"16Q24@\"FPDRequest\"32@?<v@?@\"NSError\">40"
+- "v48@0:8@\"NSData\"16q24q32@?<v@?@\"NSArray\"@\"NSError\">40"
+- "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"FPItem\"@\"NSError\">40"
+- "v48@0:8@16@24@32@?40"
+- "v48@0:8@16@24B32I36@40"
+- "v48@0:8@16@24Q32@?40"
+- "v48@0:8@16Q24@32@?40"
+- "v48@0:8@16q24q32@?40"
+- "v48@0:8q16q24q32q40"
+- "v48@?0@\"FPSandboxingURLWrapper\"8@\"FPItem\"16@\"FPExtensionResponse\"24Q32@\"NSError\"40"
+- "v48@?0@\"NSArray\"8@\"NSData\"16@\"NSData\"24@\"FPExtensionResponse\"32@\"NSError\"40"
+- "v52@0:8@\"FPItemID\"16B24B28B32@\"FPDRequest\"36@?<v@?@\"NSError\"@\"FPSandboxingURLWrapper\"@\"FPSandboxingURLWrapper\">44"
+- "v52@0:8@\"FSChangeSubscription\"16@\"NSString\"24Q32Q40I48"
+- "v52@0:8@16@24Q32Q40I48"
+- "v52@0:8@16B24B28B32@36@?44"
+- "v52@?0@\"NSArray\"8@\"NSArray\"16B24@\"NSData\"28@\"FPExtensionResponse\"36@\"NSError\"44"
+- "v56@0:8@\"<FPOperationClient>\"16@\"NSArray\"24{CGSize=dd}32@?<v@?@\"NSError\">48"
+- "v56@0:8@\"<FPOperationClient>\"16@\"NSDictionary\"24{CGSize=dd}32@?<v@?@\"NSError\">48"
+- "v56@0:8@\"FPItemID\"16{_NSRange=QQ}24@\"FPDRequest\"40@?<v@?@\"NSError\">48"
+- "v56@0:8@16@24@32@40@48"
+- "v56@0:8@16@24{CGSize=dd}32@?48"
+- "v56@0:8@16{_NSRange=QQ}24@40@?48"
+- "v56@?0@\"FPSandboxingURLWrapper\"8@\"FPItem\"16@\"FPExtensionResponse\"24@\"NSValue\"32Q40@\"NSError\"48"
+- "v64@0:8@\"NSError\"16@\"NSArray\"24@\"NSArray\"32@\"NSData\"40@\"NSFileProviderDomainVersion\"48@?<v@?@\"NSError\">56"
+- "v64@0:8@\"NSFileProviderDomain\"16@\"NSDictionary\"24@\"<FPDDomainServicing>\"32@\"FPProviderDomain\"40@\"NSFileProviderDomainVersion\"48@?<v@?@\"NSError\">56"
+- "v64@0:8@\"NSURL\"16@\"NSArray\"24{CGSize=dd}32@?<v@?@\"NSString\"@\"NSFileProviderItemVersion\"@\"FPSandboxingURLWrapper\"@\"NSString\"@\"NSData\"@\"NSError\">48@?<v@?@\"NSError\">56"
+- "v64@0:8@16@24@32@40@48@?56"
+- "v64@0:8@16@24{CGSize=dd}32@?48@?56"
+- "v68@0:8@\"FPItem\"16Q24@\"FPSandboxingURLWrapper\"32Q40B48@\"FPDRequest\"52@?<v@?@\"FPItem\"@\"NSError\">60"
+- "v68@0:8@16Q24@32Q40B48@52@?60"
+- "v72@0:8@\"NSString\"16@\"NSArray\"24@\"FPItem\"32@\"NSString\"40@\"NSSet\"48@\"NSSet\"56@?<v@?@\"NSArray\">64"
+- "v72@0:8@16@24@32@40@48@56@?64"
+- "v80@0:8@16@24@32@40Q48Q56B64B68@?72"
+- "v80@0:8@16@24@32@40q48@56@64@72"
+- "v8@?0"
+- "vacuum(force:completionHandler:)"
+- "vacuumBatchSize"
+- "valueForKey:"
+- "valueWithRange:"
+- "values"
+- "valuesForAttributes(at: "
+- "valuesForAttributes:forItemID:completionHandler:"
+- "valuesForAttributes:forURL:request:completionHandler:"
+- "vendorExcludedFolders"
+- "version"
+- "versionConflict"
+- "versionFaultName:identifier:ext:"
+- "versionsCache"
+- "vfsDirectoryListerLimit"
+- "vfsItemFromURL(_:skipResetingItems:pkgItemsLookupPolicy:options:)"
+- "vfsItemID"
+- "vfs_fileid INT NOT NULL,\nvfs_generationid INT NOT NULL,"
+- "vfs_generationid"
+- "vfs_generationid = "
+- "vfstree"
+- "volumeManager"
+- "volumeUUID"
+- "waitForChanges(below:request:completionHandler:)"
+- "waitForChangesOnItemsBelowItemWithIdentifier:request:completionHandler:"
+- "waitForIngestion(of:request:barrierTimestamp:jobs:completionHandler:)"
+- "waitForPropagation(for:request:barrierTimestamp:jobs:completionHandler:)"
+- "waitForRescan(request:_:)"
+- "waitForStabilization(for:completionHandler:)"
+- "waitForStabilization(request:_:)"
+- "waitForStabilizationForRequest:completionHandler:"
+- "waitForStabilizationWithCompletionHandler:"
+- "waitForSyncEngineStabilization(request:_:)"
+- "waitGroup"
+- "waitUntilAllOperationsAreFinished"
+- "waitableBarrier"
+- "waiting for job completion"
+- "waiting for rescan to start for %s"
+- "waitingItemsWatchingQueue"
+- "wakeForPush(completionHandler:)"
+- "wakeForPushWithCompletionHandler:"
+- "wakeForSessionIdentifier:completionHandler:"
+- "wal"
+- "wantsBundleBitOnlyPackageDetection"
+- "wantsFlattenedPackages"
+- "wasReopenedForReading"
+- "was_dataless_before_disk_import"
+- "weakObjectsHashTable"
+- "wharf"
+- "wharf/propagate/"
+- "wharfDirectoryURL"
+- "wharfHandle"
+- "wharfVacuum(force:completionHandler:)"
+- "willIndexOneBatch"
+- "withFPItemIdentifier(forDictionary:cb:)"
+- "workQueue"
+- "workingSetChangedQueue"
+- "workingSetDidChange(completionHandler:)"
+- "workingSetDidChangeWithCompletionHandler:"
+- "workingSetSyncAnchor"
+- "wrapped"
+- "wrapperWithURL:readonly:error:"
+- "writeData:"
+- "writingIntentWithURL:options:"
+- "xattr cleanup on item cloned from ino:%llu failed: %{errno}d"
+- "xpcActivityRegistered"
+- "yes"
+- "yyyy-MM-dd HH:mm:ss.SSSZ"
+- "{fsid=\"val\"[2i]}"
+- "{statfs=\"f_bsize\"I\"f_iosize\"i\"f_blocks\"Q\"f_bfree\"Q\"f_bavail\"Q\"f_files\"Q\"f_ffree\"Q\"f_fsid\"{fsid=\"val\"[2i]}\"f_owner\"I\"f_type\"I\"f_flags\"I\"f_fssubtype\"I\"f_fstypename\"[16c]\"f_mntonname\"[1024c]\"f_mntfromname\"[1024c]\"f_flags_ext\"I\"f_reserved\"[7I]}"
+- "↻"
+- "⌛️  %{public}s: %ld throttles expired"
+- "⌛️  cancelling download for %s because it is stuck at %f for %f (allowed: %f)"
+- "⌛️  cancelling download for %s by user policy"
+- "⏪  back-propagating "
+- "⏪  back-propagating content: content version didn't change on content propagation"
+- "⏪  back-propagating content: item contains an unexpected content change"
+- "⏪  back-propagating content: requested by file tree"
+- "⏰  finished background download <i:%s>"
+- "⏰  scheduling background download <i:%{public}s reason:%{public}s>"
+- "⏰  throttling background download <i:%s>"
+- "⏰  unscheduling background download <i:%{public}s reason:%{public}s>"
+- "⏰ BRM Materialization failed with %@, falling back to full materialization"
+- "⏰ Failed to get SQLJobRegistry"
+- "⏰ Failed to remove pending downloads %@"
+- "⏲  lookup of %s timed out after %f (backoff: %sns)"
+- "⏲  lookup of %s timed out after %f (backoff: %sns), item is stale, consider it's dead"
+- "⏳"
+- "⏳  %{public}s: asking to reschedule throttling at the same time as before, adding 1s of leeway"
+- "⏳  %{public}s: cannot notify of throttle expiry in %s: %@"
+- "⏳  %{public}s: cannot rearm throttling scheduler %s: %@"
+- "⏳  %{public}s: no pending throttles"
+- "⏳  %{public}s: only infinite throttles"
+- "⏳  %{public}s: retries are disabled"
+- "⏳  %{public}s: schedule throttling unchanged in %{public}s"
+- "⏳  application at %s is not allowed to download %s: user cancelled a similar request at %s"
+- "⏳  ignoring progress on the wrong URL %s != %s: %@"
+- "⏳  ignoring progress with wrong kind: %@"
+- "⏳  monitoring progress from %s: %s"
+- "⏳  subscribed to progress %@ for URL %s"
+- "⏳ %{public}s: schedule throttling handling in %{public}s"
+- "☢️  file providers don't support setting the bit: %{public}s"
+- "☢️  trying to propagate content from a dataless item %s"
+- "♻️  breaking move-back vs creation cycle by disabling path-matching condition for propagation of %s"
+- "♻️  breaking parent creation cycle by disabling path-matching condition for propagation of %s"
+- "♻️  breaking reparent cycle by disabling path-matching condition for propagation of %s"
+- "♻️  breaking reparent-to-new cycle by disabling path-matching condition for propagation of %s"
+- "♻️  breaking replacing a parent cycle by disabling path-matching condition for propagation of %s"
+- "♻️  detected move cycle by disabling path-matching condition for propagation of %s"
+- "♻️  move of %s -> %s: breaking concurrent rename cycle"
+- "♻️  move of %s -> %s: reparent cycle detected"
+- "♻️ forcing bounce of colliding item %s to break move cycle with %s"
+- "♻️ forcing bounce of colliding item %s to break reparent cycle with %s"
+- "♻️ forcing bounce of colliding item %s to break reparent-to-new cycle with %s"
+- "♻️ forcing bounce of colliding item %s to break replace cycle with %s"
+- "⚔️  Adding %ld conflicts..."
+- "⚔️  Error when updating conflict loser with version %s: %@"
+- "⚔️  Failed to fetch thumbnail for ConflictLoser %@ thumbnail: %@"
+- "⚔️  Fetching URL in the wharf for version %s..."
+- "⚔️  Fetching version %s..."
+- "⚔️  Impossible to fetch URL for Item %s, can not remove all remote versions for this item..."
+- "⚔️  Impossible to fetch URL for Item %s, can not update conflict losers for this item..."
+- "⚔️  Item %s not found, can not remove all remote versions for this item..."
+- "⚔️  Item %s not found, can not update conflict losers for this item..."
+- "⚔️  Loser %s has invalid format, ignoring it..."
+- "⚔️  Putting loser %s into the Genstore..."
+- "⚔️  Putting remote version %s into Genstore..."
+- "⚔️  Removing %ld conflicts..."
+- "⚔️  Removing all remote versions for item %s ..."
+- "⚔️  Scheduling conflict resolution for item %s.."
+- "⚔️  Staging version %s..."
+- "⚔️  associate thumnail %s for loser %s"
+- "⚔️  conflicts for %s: existing - %s new %s"
+- "⚔️  enter group for thumbnail fetching"
+- "⚠️  unexpected packageness diff: packageness changed but content hasn't changed"
+- "⛔️  already known %s"
+- "⛔️  discarded %s: %s"
+- "⛔️  invalid type transition from "
+- "✍️  %{public}s: throttle %s: %s"
+- "✍️  Cancelling eviction job due to new materialize job: %s"
+- "✍️  Cancelling materialize job due to %s: %s"
+- "✍️  Cancelling materialize job due to new eviction job: %s"
+- "✴️  cancelling eviction %{public}s"
+- "✴️  cancelling materialization %{public}s"
+- "❌  error in PROPAGATION_DATE_CHANGED: %@"
+- "❌  invalid transition %{public}s -> %{public}s"
+- "⧗childrenCreation"
+- "⧗childrenDeletion"
+- "⧗childrenEviction"
+- "⧗moveOutCompleted"
+- "⧗parentCreation"
+- "⧗parentEnumerated"
+- "⧗permanentThrottling"
+- "⧗recursiveDeletionBackOff"
+- "⧗safelyMaterialized"
+- "⧗setEvictability"
+- "⧗streamCalmsDown"
+- "⬆︎"
+- "⬇︎"
+- "🆕  Going to create an item with template %@ bounceOnCollision %{bool}d"
+- "🆕🔁 Bouncing item %s"
+- "🆕🔁 Can't make directory at URL %s, error: %@"
+- "🆕🔁 Can't make directory, item already exist at URL %s"
+- "🆕🔁 Forcing ingestion for existing item at %s"
+- "🆕🔁 Making directory for itemID %s at url %s"
+- "🌍  domain version updated %s -> %s"
+- "🌍  ignoring decreasing domain version %@ -> %@"
+- "🌍  ignoring disappearing domain version %@ -> nil"
+- "🏗 Dropping busy date for remotely provided file %{public}@"
+- "🏗 Forcing busy item return for URL resolution"
+- "🏗 Ignoring the busy file %s from enumeration"
+- "🏗 Removed stale busy file %s"
+- "🏗 denying update on busy file %{public}s"
+- "🏗 ignoring event for busy file %{public}s"
+- "🏗 ignoring event for temporary file %{public}s"
+- "🏪"
+- "🐌 Significantly too slow SQL statement: %{public}s\nvm steps: %ld (max: %ld)\nwarning: %{public}s\n%{public}s"
+- "🐢 Possible slow statement on %{public}s:\n  binds:    %ld\n  changes:  %ld\n  vm steps: %ld (max: %ld)\n  warning: %{public}s\n  %{public}s"
+- "🐢 Possible slow statement on %{public}s:\n  binds:    %ld\n  columns:  %ld\n  rows:     %ld\n  vm steps: %ld (max: %ld)\n  warning: %{public}s\n  %{public}s"
+- "👽  enumerating %{public}s is throttled, unfaulting folder to allow user access"
+- "👽  import of %{public}s within %{public}s is throttled, unfaulting folder to allow user access"
+- "👽  missing continue-disk-import job, adding a new one"
+- "👽 item content status is %{public}s instead of content:import: %{public}s"
+- "💀 cannot setup tombstone slayer: %@"
+- "💀 recreating tombstone slayer"
+- "💀 tombstone slayer setup succeeded after previous failure"
+- "💀 tombstone slaying failed: %{public}@"
+- "💾 failed to register root path for speculative downloader: %@"
+- "💾 marking SpeculativeDownloadsDiskManagement as ailDownloadsWithInsufficiantStorage: for root %s"
+- "📌  error in PINNING_CHANGED: %@"
+- "📌  error in SCHEDULE_BACKGROUND_DOWNLOAD: %@"
+- "📌  error in SCHEDULE_FP_BACKGROUND_DOWNLOAD: %@"
+- "📌  error in UNSCHEDULE_BACKGROUND_DOWNLOAD: %@"
+- "📌 CONTENT_POLICY_CHANGED: called for %s old:%ld new:%ld"
+- "📌 CONTENT_POLICY_CHANGED: going to reevaluate evictability for %s"
+- "📌 SCHEDULE_BACKGROUND_DOWNLOAD: for %s"
+- "📌 SCHEDULE_FP_BACKGROUND_DOWNLOAD: %s"
+- "📌 SCHEDULE_FP_BACKGROUND_DOWNLOAD: %s has dataless parent %s"
+- "📌 UNSCHEDULE_BACKGROUND_DOWNLOAD: unschedule %ld != %ld"
+- "📌 error in CONTENT_POLICY_CHANGED: %@"
+- "📖  %@: enumerating from change %llu"
+- "📖  %@: enumerating from change %llu done: %ld updated, %ld deleted%s, next anchor:%llu"
+- "📖  %@: enumerating from change %llu failed: %@"
+- "📖  %@: enumerating from change %s"
+- "📖  %@: enumerating from change %s done: %ld updated, %ld deleted%s, next anchor:%s"
+- "📖  %@: enumerating from change %s failed: %@"
+- "📖  %@: enumerating page %s"
+- "📖  %@: enumerating page %s done: %ld items next %s anchor:%s"
+- "📖  %@: enumerating page %s done: %ld items%s anchor:%llu"
+- "📖  %@: enumerating page %s failed: %@"
+- "📖  %@: ignoring item change %s -> %s"
+- "📖  %@: item get updated and we're ask to invalidate the children, reset"
+- "📖  %@: registering item deletion %s -> %s"
+- "📖  %@: registering item update %s -> %s"
+- "📖  new enumerator %@"
+- "📖  new search enumerator %@"
+- "📖  requested to reset stream"
+- "📖  reset stream for %@"
+- "📦 x-validated query for %s ino:%llu status:%x snapshotID:%s expected:%s"
+- "📦 x-validated result for %s returned:%s"
+- "📦 x-validation found %{public}s on folder with extension: demoting item"
+- "📦 x-validation found %{public}s while expecting %{public}s: demoting item"
+- "📦 x-validation found %{public}s while expecting %{public}s: promoting item"
+- "📸  did not have context for url %s"
+- "🔍"
+- "🔏  job locked out of execution %{public}s by rules %@"
+- "🔐"
+- "🔐  the database is still locked, retrying"
+- "🔑  updating %s"
+- "🔩  provider supports a %{public}s pipeline of %ld, setting limits to %ld"
+- "🗑  created .Trash with fileID %llu"
+- "🚀  FPTree stable for %s"
+- "🚀  FSTree stable for %s"
+- "🚀  engine is stable"
+- "🚀  job scheduler is stable, calling the stabilization waiters"
+- "🚀  processing pending ingestions for %s"
+- "🚀  scheduler not stable: jobs are running"
+- "🚀  scheduler not stable: some jobs are still pending execution"
+- "🚀  scheduler not stable: some reconciliations are pending scheduling"
+- "🚀  scheduler not stable: some throttles are still active"
+- "🚀  waiting for db stabilization for %s"
+- "🚀  waiting for engine stabilization"
+- "🚀  waiting for stabilization of FS and FP trees for %s"
+- "🚔  cannot propagate creation for %{public}s: parent folder is not reconciled"
+- "🚔  cannot propagate creation for %{public}s: snapshot version not found for %{public}s"
+- "🚔  cannot propagate update for %{public}s: snapshot version not found for %{public}s"
+- "🚚  reimporting the root item, dropping the database"
+- "🚦  resolved %s error signaled, clearing this error's throttles"
+- "🚧  %{public}s of %s failed for %s: %@"
+- "🚧  FS barrier observed for %s"
+- "🚧  FS: barrier observed, waiting for flocks to be released"
+- "🚧  FS: waiting for barrier on %s"
+- "🚧  finished %{public}s for %s"
+- "🚧  finished ingestions of %{public}s for %s"
+- "🚧  item is not a live directory"
+- "🚧  processing barrier request %s"
+- "🚧 FS: barrier wait completed"
+- "🚮  Delete the FPFS DB %s"
+- "🚮  Delete the FPFS Wharf %s"
+- "🚮  Move the FPFS DB away %s"
+- "🚮  Move the FPFS Wharf away %s"
+- "🤦🏼\u200d♂️  inconsistent children status for item %s"
+- "🤯  job scheduler is stable, download jobs are not!"
+- "🤯  job scheduler is stable, upload jobs are not!"
+- "🤯  there is no running jobs but the FP job lock is not empty!\n"
+- "🤯  there is no running jobs but the FP job lock is not empty!\n%s"
+- "🤯  there is no running jobs but the FS job lock is not empty!\n"
+- "🤯  there is no running jobs but the FS job lock is not empty!\n%s"
+- "🤯 [GlobalProgress] "
+- "🤯 [GlobalProgress] %s counter in unexpected negative counter: %s"
+- "🤯 [GlobalProgress] %s counter in unexpected state: %s"
+- "🥄 Forcing ingestion for item with ID %@"
+- "🥄 ✅ Finished force ingestion of item with ID %@"
+- "🥄 ❌ Failed force ingestion of item with ID %@ with error: %@"
+- "🧲  batch indexation succeeded for anchor %s"
+- "🧲  cannot encode indexer state: "
+- "🧲  current anchor is unknown, fetching from spotlight"
+- "🧲  enumeration error: %@"
+- "🧲  indexing failed: %@"
+- "🧲  indexing from %s"
+- "🧲  pushing batch: updating=%s, deleting=%s hasMore=%{bool}d"
+- "🧲  restarting indexing from scratch"
+- "🧹  finished vacuum in %fs, newSize: %s, reclaimed: %s (%s)"
+- "🧹  pausing vacuum because the XPC activity ask for deferral after %fs, newSize: %s, reclaimed: %s (%s)"
+- "🧹  purged %lld outdated entries from %s"
+- "🧹  vaccuum still running when triggered"
+- "🧹  vacuum-ed %ld files from <wharf>/ingest/, %ld files from <wharf>/propagate/"
+- "🧹  vacuum-ing"
+- "🧹  vacuum-ing wharf with an upper bound of %ld"
+- "🧹  wharf didn't have anything to vacuum"
+- "🧹  wharf vacuum failed: %@"
+
+```

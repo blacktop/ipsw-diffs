@@ -1,0 +1,1761 @@
+## RequestDispatcherBridges
+
+> `/System/Library/PrivateFrameworks/RequestDispatcherBridges.framework/RequestDispatcherBridges`
+
+```diff
+
+-3302.11.1.0.0
+-  __TEXT.__text: 0xaa984
+-  __TEXT.__auth_stubs: 0x3740
+-  __TEXT.__objc_methlist: 0x2bc
+-  __TEXT.__const: 0x23b8
+-  __TEXT.__cstring: 0xb1fa
+-  __TEXT.__constg_swiftt: 0x25f0
+-  __TEXT.__swift5_typeref: 0x13b4
+-  __TEXT.__swift5_reflstr: 0x19a7
+-  __TEXT.__swift5_fieldmd: 0x12cc
+-  __TEXT.__swift5_capture: 0xb10
+-  __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__swift5_assocty: 0x30
+-  __TEXT.__swift5_proto: 0x13c
+-  __TEXT.__swift5_types: 0x110
+-  __TEXT.__swift5_protos: 0x28
+-  __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x1fbc
+-  __TEXT.__eh_frame: 0xbe8
+-  __TEXT.__objc_classname: 0xc5
+-  __TEXT.__objc_methname: 0x2162
+-  __TEXT.__objc_methtype: 0xc1c
+-  __DATA_CONST.__got: 0x5a8
+-  __DATA_CONST.__const: 0x158
+-  __DATA_CONST.__objc_classlist: 0xf0
+-  __DATA_CONST.__objc_protolist: 0x80
++3304.73.1.0.0
++  __TEXT.__text: 0x1dc08
++  __TEXT.__auth_stubs: 0x1100
++  __TEXT.__const: 0x808
++  __TEXT.__cstring: 0x22ce
++  __TEXT.__constg_swiftt: 0x5d0
++  __TEXT.__swift5_typeref: 0x3b4
++  __TEXT.__swift5_builtin: 0x28
++  __TEXT.__swift5_fieldmd: 0x3ec
++  __TEXT.__swift5_proto: 0x3c
++  __TEXT.__swift5_types: 0x3c
++  __TEXT.__swift5_reflstr: 0x557
++  __TEXT.__swift5_protos: 0x8
++  __TEXT.__swift5_capture: 0xf8
++  __TEXT.__swift5_assocty: 0x18
++  __TEXT.__swift5_mpenum: 0x8
++  __TEXT.__unwind_info: 0x4c0
++  __TEXT.__eh_frame: 0x5c8
++  __TEXT.__objc_classname: 0x34
++  __TEXT.__objc_methname: 0x56c
++  __TEXT.__objc_methtype: 0x2ff
++  __DATA_CONST.__got: 0x150
++  __DATA_CONST.__const: 0x128
++  __DATA_CONST.__objc_classlist: 0x28
++  __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x3fa8
+-  __DATA_CONST.__objc_selrefs: 0x6f0
+-  __AUTH_CONST.__const: 0x3780
+-  __AUTH_CONST.__auth_got: 0x1ba0
+-  __AUTH.__objc_data: 0x268
+-  __AUTH.__data: 0x910
+-  __DATA.__objc_protorefs: 0x40
+-  __DATA.__objc_classrefs: 0x290
+-  __DATA.__data: 0xb88
+-  __DATA.__bss: 0x1ea0
+-  __DATA.__common: 0x120
+-  __DATA_DIRTY.__objc_data: 0xa50
+-  __DATA_DIRTY.__data: 0x2028
+-  __DATA_DIRTY.__common: 0x468
+-  __DATA_DIRTY.__bss: 0x380
+-  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
++  __DATA_CONST.__objc_const: 0xbe8
++  __DATA_CONST.__objc_selrefs: 0xf0
++  __DATA_CONST.__objc_protorefs: 0x18
++  __DATA_CONST.__objc_classrefs: 0x80
++  __AUTH_CONST.__const: 0x8c8
++  __AUTH_CONST.__auth_got: 0x880
++  __AUTH.__data: 0x30
++  __DATA.__data: 0x2c8
++  __DATA.__common: 0x40
++  __DATA.__bss: 0x580
++  __DATA_DIRTY.__objc_data: 0xe0
++  __DATA_DIRTY.__data: 0x730
++  __DATA_DIRTY.__common: 0xd0
++  __DATA_DIRTY.__bss: 0x180
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/BiomePubSub.framework/BiomePubSub
+   - /System/Library/PrivateFrameworks/CDMFoundation.framework/CDMFoundation
+-  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+-  - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+   - /System/Library/PrivateFrameworks/LocalSpeechRecognitionBridge.framework/LocalSpeechRecognitionBridge
+   - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
+   - /System/Library/PrivateFrameworks/SiriAnalytics.framework/SiriAnalytics
+-  - /System/Library/PrivateFrameworks/SiriCrossDeviceArbitration.framework/SiriCrossDeviceArbitration
+   - /System/Library/PrivateFrameworks/SiriInformationSearch.framework/SiriInformationSearch
+-  - /System/Library/PrivateFrameworks/SiriInformationTypes.framework/SiriInformationTypes
+   - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation
+   - /System/Library/PrivateFrameworks/SiriKitRuntime.framework/SiriKitRuntime
+   - /System/Library/PrivateFrameworks/SiriMessageTypes.framework/SiriMessageTypes
+
+   - /System/Library/PrivateFrameworks/SiriOntology.framework/SiriOntology
+   - /System/Library/PrivateFrameworks/SiriPowerInstrumentation.framework/SiriPowerInstrumentation
+   - /System/Library/PrivateFrameworks/SiriReferenceResolution.framework/SiriReferenceResolution
+-  - /System/Library/PrivateFrameworks/SiriReferenceResolutionDataModel.framework/SiriReferenceResolutionDataModel
+   - /System/Library/PrivateFrameworks/SiriRequestDispatcher.framework/SiriRequestDispatcher
+   - /System/Library/PrivateFrameworks/SiriTurnTakingManager.framework/SiriTurnTakingManager
+   - /System/Library/PrivateFrameworks/SiriUtilities.framework/SiriUtilities
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BC7864B7-84DE-3A67-8105-54590DC350A5
+-  Functions: 2201
+-  Symbols:   1251
+-  CStrings:  1169
++  UUID: 1F0EBB8B-0F70-3C6E-B499-3EFFC1440CC5
++  Functions: 434
++  Symbols:   369
++  CStrings:  270
+ 
+Symbols:
+- _AFDeviceContextKeyCallState
+- _AFDeviceSupportsFullSiriUOD
+- _AFDeviceSupportsHybridUOD
+- _AFDeviceSupportsMedoc
+- _AFDeviceSupportsSiriMUX
+- _AFIsATV
+- _AFIsHorseman
+- _AFIsSearchDictationRequest
+- _AFOfflineDictationStatusOnDeviceSearchKey
+- _OBJC_CLASS_$_AFASRSharedUserInfo
+- _OBJC_CLASS_$_AFCallStateSnapshot
+- _OBJC_CLASS_$_AFDictationNLUResult
+- _OBJC_CLASS_$_AFFeatureFlags
+- _OBJC_CLASS_$_AFMyriadMonitor
+- _OBJC_CLASS_$_AFPreferences
+- _OBJC_CLASS_$_AFServiceDeviceContext
+- _OBJC_CLASS_$_AFSpeechAudioAnalytics
+- _OBJC_CLASS_$_AFSpeechInterpretation
+- _OBJC_CLASS_$_AFSpeechPackage
+- _OBJC_CLASS_$_AFSpeechPhrase
+- _OBJC_CLASS_$_AFSpeechRecognition
+- _OBJC_CLASS_$_AFSpeechToken
+- _OBJC_CLASS_$_AFSpeechUtterance
+- _OBJC_CLASS_$_AFVoiceIdScoreCard
+- _OBJC_CLASS_$_AFWatchdogTimer
+- _OBJC_CLASS_$_CDMClient
+- _OBJC_CLASS_$_CDMClientSetup
+- _OBJC_CLASS_$_LBAttendingStatesServiceClient
+- _OBJC_CLASS_$_LBLocalSpeechRecognitionSettings
+- _OBJC_CLASS_$_LBLocalSpeechRecognizerClient
+- _OBJC_CLASS_$_NLXSchemaCDMSetupLink
+- _OBJC_CLASS_$_NLXSchemaCDMSiriClientSetupLink
+- _OBJC_CLASS_$_NLXSchemaNLXClientEvent
+- _OBJC_CLASS_$_NLXSchemaNLXClientEventMetadata
+- _OBJC_CLASS_$_NSError
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSRegularExpression
+- _OBJC_CLASS_$_NSUserDefaults
+- _OBJC_CLASS_$_ORCHSchemaORCHASRBridgeContext
+- _OBJC_CLASS_$_ORCHSchemaORCHASRCallEnded
+- _OBJC_CLASS_$_ORCHSchemaORCHASRCallFailed
+- _OBJC_CLASS_$_ORCHSchemaORCHASRCallStarted
+- _OBJC_CLASS_$_ORCHSchemaORCHCDMBridgeContext
+- _OBJC_CLASS_$_ORCHSchemaORCHCDMRequestEnded
+- _OBJC_CLASS_$_ORCHSchemaORCHCDMRequestFailed
+- _OBJC_CLASS_$_ORCHSchemaORCHCDMRequestStarted
+- _OBJC_CLASS_$_ORCHSchemaORCHMultiUserResultCandidateReceived
+- _OBJC_CLASS_$_ORCHSchemaORCHMultiUserResultCandidateSelected
+- _OBJC_CLASS_$_ORCHSchemaORCHNLV3ServerFallbackDeprecated
+- _OBJC_CLASS_$_ORCHSchemaORCHResultCandidateReceived
+- _OBJC_CLASS_$_ORCHSchemaORCHResultSelected
+- _OBJC_CLASS_$_ORCHSchemaORCHTRPCandidateReceived
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _OBJC_CLASS_$_SACommandFailed
+- _OBJC_CLASS_$_SAResultSelected
+- _OBJC_CLASS_$_SASMUXResultCandidate
+- _OBJC_CLASS_$_SASResultCandidate
+- _OBJC_CLASS_$_SASSpeechPartialResult
+- _OBJC_CLASS_$_SASSpeechRecognized
+- _OBJC_CLASS_$_SASSpeechServerEndpointIdentified
+- _OBJC_CLASS_$_SASToken
+- _OBJC_CLASS_$_SCDAMonitor
+- _OBJC_CLASS_$_SIRINLUINTERNALMatchingSpan
+- _OBJC_CLASS_$_SISchemaUUID
+- _OBJC_CLASS_$_SMTContinuityEnd
+- _OBJC_CLASS_$_SMTTCUPackage
+- _OBJC_CLASS_$_SMTTRPCandidate
+- _OBJC_CLASS_$_SMTTRPDetected
+- _OBJC_CLASS_$_SPIOrchAsrCallEndedEventContext
+- _OBJC_CLASS_$_SPIOrchAsrCallFailedEventContext
+- _OBJC_CLASS_$_SPIOrchAsrCallStartedEventContext
+- _OBJC_CLASS_$_SPIOrchCdmRequestEndedEventContext
+- _OBJC_CLASS_$_SPIOrchCdmRequestFailedEventContext
+- _OBJC_CLASS_$_SPIOrchCdmRequestStartedEventContext
+- _OBJC_CLASS_$_SiriNLUTypesUtilities
+- _OBJC_CLASS_$__TtC24RequestDispatcherBridges21CDMClientNotification
+- _OBJC_CLASS_$__TtC24RequestDispatcherBridges29AttendingStatesServiceHandler
+- _OBJC_CLASS_$__TtC24RequestDispatcherBridges31SpeechRecognizerResponseHandler
+- _OBJC_CLASS_$__TtC24RequestDispatcherBridges40AssistantSpeechRecognizerResponseHandler
+- _OBJC_CLASS_$__TtC24RequestDispatcherBridges40DictationSpeechRecognizerResponseHandler
+- _OBJC_METACLASS_$_NSObject
+- _OBJC_METACLASS_$__TtC24RequestDispatcherBridges21CDMClientNotification
+- _OBJC_METACLASS_$__TtC24RequestDispatcherBridges29AttendingStatesServiceHandler
+- _OBJC_METACLASS_$__TtC24RequestDispatcherBridges31SpeechRecognizerResponseHandler
+- _OBJC_METACLASS_$__TtC24RequestDispatcherBridges40AssistantSpeechRecognizerResponseHandler
+- _OBJC_METACLASS_$__TtC24RequestDispatcherBridges40DictationSpeechRecognizerResponseHandler
+- _SAInputOriginMagusFollowupValue
+- _SAInputOriginServerGeneratedValue
+- __AFPreferencesReplacementLanguageForLocalRecognizerLanguageCode
+- __DATA__TtC24RequestDispatcherBridges10LVCHistory
+- __DATA__TtC24RequestDispatcherBridges10RVSHistory
+- __DATA__TtC24RequestDispatcherBridges16TurnInputManager
+- __DATA__TtC24RequestDispatcherBridges18NLRequestProcessor
+- __DATA__TtC24RequestDispatcherBridges18ServerAsrProcessor
+- __DATA__TtC24RequestDispatcherBridges18TurnInputContainer
+- __DATA__TtC24RequestDispatcherBridges19AsrRequestProcessor
+- __DATA__TtC24RequestDispatcherBridges20ASRMUXRequestContext
+- __DATA__TtC24RequestDispatcherBridges21CDMClientNotification
+- __DATA__TtC24RequestDispatcherBridges21MyriadDecisionMonitor
+- __DATA__TtC24RequestDispatcherBridges23ResponseVariantSelector
+- __DATA__TtC24RequestDispatcherBridges25AssistantNLRequestHandler
+- __DATA__TtC24RequestDispatcherBridges25DictationNLRequestHandler
+- __DATA__TtC24RequestDispatcherBridges27NLBridgeInstrumentationUtil
+- __DATA__TtC24RequestDispatcherBridges28ASRBridgeInstrumentationUtil
+- __DATA__TtC24RequestDispatcherBridges28ASRMUXResultCandidateContext
+- __DATA__TtC24RequestDispatcherBridges28NLRequestTimeoutTimerManager
+- __DATA__TtC24RequestDispatcherBridges28ResultCandidateNlSpeechInput
+- __DATA__TtC24RequestDispatcherBridges28SiriReferenceResolutionProxy
+- __DATA__TtC24RequestDispatcherBridges29AttendingStatesServiceHandler
+- __DATA__TtC24RequestDispatcherBridges30BufferedResultCandidateHandler
+- __DATA__TtC24RequestDispatcherBridges31AsrCandidateRequestCacheManager
+- __DATA__TtC24RequestDispatcherBridges31SpeechRecognizerResponseHandler
+- __DATA__TtC24RequestDispatcherBridges38TurnConstructionCandidateNlSpeechInput
+- __DATA__TtC24RequestDispatcherBridges40AssistantSpeechRecognizerResponseHandler
+- __DATA__TtC24RequestDispatcherBridges40DictationSpeechRecognizerResponseHandler
+- __DATA__TtC24RequestDispatcherBridges8CDMProxy
+- __DATA__TtC24RequestDispatcherBridges8NLBridge
+- __DATA__TtC24RequestDispatcherBridges9AsrBridge
+- __IVARS__TtC24RequestDispatcherBridges10LVCHistory
+- __IVARS__TtC24RequestDispatcherBridges10RVSHistory
+- __IVARS__TtC24RequestDispatcherBridges16TurnInputManager
+- __IVARS__TtC24RequestDispatcherBridges18NLRequestProcessor
+- __IVARS__TtC24RequestDispatcherBridges18ServerAsrProcessor
+- __IVARS__TtC24RequestDispatcherBridges18TurnInputContainer
+- __IVARS__TtC24RequestDispatcherBridges19AsrRequestProcessor
+- __IVARS__TtC24RequestDispatcherBridges20ASRMUXRequestContext
+- __IVARS__TtC24RequestDispatcherBridges21CDMClientNotification
+- __IVARS__TtC24RequestDispatcherBridges23ResponseVariantSelector
+- __IVARS__TtC24RequestDispatcherBridges25AssistantNLRequestHandler
+- __IVARS__TtC24RequestDispatcherBridges25DictationNLRequestHandler
+- __IVARS__TtC24RequestDispatcherBridges27NLBridgeInstrumentationUtil
+- __IVARS__TtC24RequestDispatcherBridges28ASRBridgeInstrumentationUtil
+- __IVARS__TtC24RequestDispatcherBridges28ASRMUXResultCandidateContext
+- __IVARS__TtC24RequestDispatcherBridges28NLRequestTimeoutTimerManager
+- __IVARS__TtC24RequestDispatcherBridges28ResultCandidateNlSpeechInput
+- __IVARS__TtC24RequestDispatcherBridges28SiriReferenceResolutionProxy
+- __IVARS__TtC24RequestDispatcherBridges29AttendingStatesServiceHandler
+- __IVARS__TtC24RequestDispatcherBridges30BufferedResultCandidateHandler
+- __IVARS__TtC24RequestDispatcherBridges31AsrCandidateRequestCacheManager
+- __IVARS__TtC24RequestDispatcherBridges31SpeechRecognizerResponseHandler
+- __IVARS__TtC24RequestDispatcherBridges38TurnConstructionCandidateNlSpeechInput
+- __IVARS__TtC24RequestDispatcherBridges40AssistantSpeechRecognizerResponseHandler
+- __IVARS__TtC24RequestDispatcherBridges40DictationSpeechRecognizerResponseHandler
+- __IVARS__TtC24RequestDispatcherBridges8CDMProxy
+- __IVARS__TtC24RequestDispatcherBridges8NLBridge
+- __IVARS__TtC24RequestDispatcherBridges9AsrBridge
+- __METACLASS_DATA__TtC24RequestDispatcherBridges10LVCHistory
+- __METACLASS_DATA__TtC24RequestDispatcherBridges10RVSHistory
+- __METACLASS_DATA__TtC24RequestDispatcherBridges16TurnInputManager
+- __METACLASS_DATA__TtC24RequestDispatcherBridges18NLRequestProcessor
+- __METACLASS_DATA__TtC24RequestDispatcherBridges18ServerAsrProcessor
+- __METACLASS_DATA__TtC24RequestDispatcherBridges18TurnInputContainer
+- __METACLASS_DATA__TtC24RequestDispatcherBridges19AsrRequestProcessor
+- __METACLASS_DATA__TtC24RequestDispatcherBridges20ASRMUXRequestContext
+- __METACLASS_DATA__TtC24RequestDispatcherBridges21CDMClientNotification
+- __METACLASS_DATA__TtC24RequestDispatcherBridges21MyriadDecisionMonitor
+- __METACLASS_DATA__TtC24RequestDispatcherBridges23ResponseVariantSelector
+- __METACLASS_DATA__TtC24RequestDispatcherBridges25AssistantNLRequestHandler
+- __METACLASS_DATA__TtC24RequestDispatcherBridges25DictationNLRequestHandler
+- __METACLASS_DATA__TtC24RequestDispatcherBridges27NLBridgeInstrumentationUtil
+- __METACLASS_DATA__TtC24RequestDispatcherBridges28ASRBridgeInstrumentationUtil
+- __METACLASS_DATA__TtC24RequestDispatcherBridges28ASRMUXResultCandidateContext
+- __METACLASS_DATA__TtC24RequestDispatcherBridges28NLRequestTimeoutTimerManager
+- __METACLASS_DATA__TtC24RequestDispatcherBridges28ResultCandidateNlSpeechInput
+- __METACLASS_DATA__TtC24RequestDispatcherBridges28SiriReferenceResolutionProxy
+- __METACLASS_DATA__TtC24RequestDispatcherBridges29AttendingStatesServiceHandler
+- __METACLASS_DATA__TtC24RequestDispatcherBridges30BufferedResultCandidateHandler
+- __METACLASS_DATA__TtC24RequestDispatcherBridges31AsrCandidateRequestCacheManager
+- __METACLASS_DATA__TtC24RequestDispatcherBridges31SpeechRecognizerResponseHandler
+- __METACLASS_DATA__TtC24RequestDispatcherBridges38TurnConstructionCandidateNlSpeechInput
+- __METACLASS_DATA__TtC24RequestDispatcherBridges40AssistantSpeechRecognizerResponseHandler
+- __METACLASS_DATA__TtC24RequestDispatcherBridges40DictationSpeechRecognizerResponseHandler
+- __METACLASS_DATA__TtC24RequestDispatcherBridges8CDMProxy
+- __METACLASS_DATA__TtC24RequestDispatcherBridges8NLBridge
+- __METACLASS_DATA__TtC24RequestDispatcherBridges9AsrBridge
+- __OBJC_$_INSTANCE_METHODS__TtC24RequestDispatcherBridges21CDMClientNotification
+- __OBJC_$_INSTANCE_METHODS__TtC24RequestDispatcherBridges29AttendingStatesServiceHandler
+- __OBJC_$_INSTANCE_METHODS__TtC24RequestDispatcherBridges31SpeechRecognizerResponseHandler
+- __OBJC_$_INSTANCE_METHODS__TtC24RequestDispatcherBridges40AssistantSpeechRecognizerResponseHandler
+- __OBJC_$_INSTANCE_METHODS__TtC24RequestDispatcherBridges40DictationSpeechRecognizerResponseHandler
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AFRequestDispatcherServiceHelper
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_CDMTrialAssetsDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_LBAttendingStatesServiceDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_LBLocalSpeechRecognizerClientDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AFRequestDispatcherServiceHelper
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_CDMClientDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_LBAttendingStatesServiceDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_LBLocalSpeechRecognizerClientDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AFRequestDispatcherServiceHelper
+- __OBJC_$_PROTOCOL_METHOD_TYPES_CDMClientDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_CDMTrialAssetsDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_LBAttendingStatesServiceDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_LBLocalSpeechRecognizerClientDelegate
+- __OBJC_$_PROTOCOL_REFS_AFRequestDispatcherServiceHelper
+- __OBJC_$_PROTOCOL_REFS_CDMClientDelegate
+- __OBJC_$_PROTOCOL_REFS_CDMTrialAssetsDelegate
+- __OBJC_$_PROTOCOL_REFS_LBAttendingStatesServiceDelegate
+- __OBJC_$_PROTOCOL_REFS_LBLocalSpeechRecognizerClientDelegate
+- __OBJC_LABEL_PROTOCOL_$_AFRequestDispatcherServiceHelper
+- __OBJC_LABEL_PROTOCOL_$_CDMClientDelegate
+- __OBJC_LABEL_PROTOCOL_$_CDMTrialAssetsDelegate
+- __OBJC_LABEL_PROTOCOL_$_LBAttendingStatesServiceDelegate
+- __OBJC_LABEL_PROTOCOL_$_LBLocalSpeechRecognizerClientDelegate
+- __OBJC_PROTOCOL_$_AFRequestDispatcherServiceHelper
+- __OBJC_PROTOCOL_$_CDMClientDelegate
+- __OBJC_PROTOCOL_$_CDMTrialAssetsDelegate
+- __OBJC_PROTOCOL_$_LBAttendingStatesServiceDelegate
+- __OBJC_PROTOCOL_$_LBLocalSpeechRecognizerClientDelegate
+- __PROTOCOLS__TtC24RequestDispatcherBridges21CDMClientNotification
+- __PROTOCOLS__TtC24RequestDispatcherBridges21CDMClientNotification.68
+- __PROTOCOLS__TtC24RequestDispatcherBridges29AttendingStatesServiceHandler
+- __PROTOCOLS__TtC24RequestDispatcherBridges29AttendingStatesServiceHandler.2
+- __PROTOCOLS__TtC24RequestDispatcherBridges31SpeechRecognizerResponseHandler
+- __PROTOCOLS__TtC24RequestDispatcherBridges31SpeechRecognizerResponseHandler.2
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_assign_boxed_opaque_existential_1
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+- ___swift_memcpy0_1
+- ___swift_memcpy16_8
+- ___swift_memcpy56_8
+- ___swift_project_boxed_opaque_existential_0
+- __swiftEmptySetSingleton
+- __swift_stdlib_bridgeErrorToNSError
+- _associated conformance 24RequestDispatcherBridges10LVCHistoryC10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLOSHAASQ
+- _associated conformance 24RequestDispatcherBridges10LVCHistoryC10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 24RequestDispatcherBridges10LVCHistoryC10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 24RequestDispatcherBridges10RVSHistoryC10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLOSHAASQ
+- _associated conformance 24RequestDispatcherBridges10RVSHistoryC10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 24RequestDispatcherBridges10RVSHistoryC10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 24RequestDispatcherBridges10TTSHistoryV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLOSHAASQ
+- _associated conformance 24RequestDispatcherBridges10TTSHistoryV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 24RequestDispatcherBridges10TTSHistoryV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 24RequestDispatcherBridges11RVSResponseV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLOSHAASQ
+- _associated conformance 24RequestDispatcherBridges11RVSResponseV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 24RequestDispatcherBridges11RVSResponseV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 24RequestDispatcherBridges20IdentityFeatureFlagsOSHAASQ
+- _associated conformance 24RequestDispatcherBridges7LVCTurnV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLOSHAASQ
+- _associated conformance 24RequestDispatcherBridges7LVCTurnV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 24RequestDispatcherBridges7LVCTurnV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 24RequestDispatcherBridges8CacheKeyVSHAASQ
+- _associated conformance 24RequestDispatcherBridges8NLBridgeC0D5ErrorOSHAASQ
+- _associated conformance 24RequestDispatcherBridges9AsrBridgeC0dE5ErrorOSHAASQ
+- _block_copy_helper.104
+- _block_copy_helper.113
+- _block_copy_helper.115
+- _block_copy_helper.122
+- _block_copy_helper.127
+- _block_copy_helper.13
+- _block_copy_helper.131
+- _block_copy_helper.140
+- _block_copy_helper.150
+- _block_copy_helper.160
+- _block_copy_helper.170
+- _block_copy_helper.180
+- _block_copy_helper.183
+- _block_copy_helper.186
+- _block_copy_helper.189
+- _block_copy_helper.19
+- _block_copy_helper.207
+- _block_copy_helper.213
+- _block_copy_helper.219
+- _block_copy_helper.222
+- _block_copy_helper.232
+- _block_copy_helper.242
+- _block_copy_helper.25
+- _block_copy_helper.252
+- _block_copy_helper.30
+- _block_copy_helper.31
+- _block_copy_helper.36
+- _block_copy_helper.37
+- _block_copy_helper.42
+- _block_copy_helper.45
+- _block_copy_helper.47
+- _block_copy_helper.54
+- _block_copy_helper.68
+- _block_copy_helper.7
+- _block_copy_helper.74
+- _block_copy_helper.83
+- _block_copy_helper.89
+- _block_copy_helper.98
+- _block_descriptor.100
+- _block_descriptor.106
+- _block_descriptor.115
+- _block_descriptor.117
+- _block_descriptor.124
+- _block_descriptor.129
+- _block_descriptor.133
+- _block_descriptor.142
+- _block_descriptor.15
+- _block_descriptor.152
+- _block_descriptor.162
+- _block_descriptor.172
+- _block_descriptor.182
+- _block_descriptor.185
+- _block_descriptor.188
+- _block_descriptor.191
+- _block_descriptor.209
+- _block_descriptor.21
+- _block_descriptor.215
+- _block_descriptor.221
+- _block_descriptor.224
+- _block_descriptor.234
+- _block_descriptor.244
+- _block_descriptor.254
+- _block_descriptor.27
+- _block_descriptor.32
+- _block_descriptor.33
+- _block_descriptor.38
+- _block_descriptor.39
+- _block_descriptor.44
+- _block_descriptor.47
+- _block_descriptor.49
+- _block_descriptor.56
+- _block_descriptor.70
+- _block_descriptor.76
+- _block_descriptor.85
+- _block_descriptor.9
+- _block_descriptor.91
+- _block_destroy_helper.105
+- _block_destroy_helper.114
+- _block_destroy_helper.116
+- _block_destroy_helper.123
+- _block_destroy_helper.128
+- _block_destroy_helper.132
+- _block_destroy_helper.14
+- _block_destroy_helper.141
+- _block_destroy_helper.151
+- _block_destroy_helper.161
+- _block_destroy_helper.171
+- _block_destroy_helper.181
+- _block_destroy_helper.184
+- _block_destroy_helper.187
+- _block_destroy_helper.190
+- _block_destroy_helper.20
+- _block_destroy_helper.208
+- _block_destroy_helper.214
+- _block_destroy_helper.220
+- _block_destroy_helper.223
+- _block_destroy_helper.233
+- _block_destroy_helper.243
+- _block_destroy_helper.253
+- _block_destroy_helper.26
+- _block_destroy_helper.31
+- _block_destroy_helper.32
+- _block_destroy_helper.37
+- _block_destroy_helper.38
+- _block_destroy_helper.43
+- _block_destroy_helper.46
+- _block_destroy_helper.48
+- _block_destroy_helper.55
+- _block_destroy_helper.69
+- _block_destroy_helper.75
+- _block_destroy_helper.8
+- _block_destroy_helper.84
+- _block_destroy_helper.90
+- _block_destroy_helper.99
+- _dispatch_semaphore_create
+- _dispatch_sync
+- _free
+- _kLBLocalSpeechRecognizerMaximumLocalRecognitionDuration
+- _keypath_get_selector_daemonKilled
+- _keypath_get_selector_errorFromSetup
+- _keypath_get_selector_successFromSetup
+- _malloc
+- _objc_msgSendSuper2
+- _objc_release_x10
+- _objc_release_x9
+- _objc_retain_x10
+- _objc_retain_x28
+- _objc_retain_x9
+- _objectdestroy.102Tm
+- _objectdestroy.108Tm
+- _objectdestroy.119Tm
+- _objectdestroy.154Tm
+- _objectdestroy.160Tm
+- _objectdestroy.164Tm
+- _objectdestroy.17Tm
+- _objectdestroy.188Tm
+- _objectdestroy.205Tm
+- _objectdestroy.28Tm
+- _objectdestroy.58Tm
+- _objectdestroy.67Tm
+- _objectdestroy.84Tm
+- _objectdestroy.93Tm
+- _objectdestroyTm
+- _swift_arrayAssignWithTake
+- _swift_dynamicCastObjCClass
+- _swift_getErrorValue
+- _swift_getKeyPath
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_isEscapingClosureAtFileLocation
+- _swift_isaMask
+- _swift_setDeallocating
+- _swift_unknownObjectWeakDestroy
+- _swift_unknownObjectWeakInit
+- _swift_unknownObjectWeakLoadStrong
+- _swift_weakAssign
+- _swift_weakDestroy
+- _swift_weakInit
+- _swift_weakLoadStrong
+- _symbolic $s24RequestDispatcherBridges11CDMProxyingP
+- _symbolic $s24RequestDispatcherBridges19CDMCallbackHandlingP
+- _symbolic $s24RequestDispatcherBridges21NLSpeechInputTrackingP
+- _symbolic $s24RequestDispatcherBridges22NLRequestProcessorBaseP
+- _symbolic $s24RequestDispatcherBridges24MyriadDecisionMonitoringP
+- _symbolic $s24RequestDispatcherBridges24NLRequestMessageHandlingP
+- _symbolic $s24RequestDispatcherBridges24ResponseVariantSelectionP
+- _symbolic $s24RequestDispatcherBridges31SiriReferenceResolutionProxyingP
+- _symbolic Ig_
+- _symbolic SDyS2SG
+- _symbolic SDySSSbG
+- _symbolic SDySSShySSGG
+- _symbolic SDySSSo15AFWatchdogTimerCG
+- _symbolic SDySS_____9turnInput_SbSg8emptyASR_____6userIdtG 12SiriNLUTypes0A23_Nlu_External_TurnInputV 0A12MessageTypes6UserIDV
+- _symbolic SDySS_____G 16SiriMessageTypes018DictationAsrResultB0C
+- _symbolic SDySS_____G 16SiriMessageTypes022ResultCandidateRequestB4BaseC
+- _symbolic SDySS_____G 24RequestDispatcherBridges25AssistantNLRequestHandlerC15NluResponseType33_20C6C01556736E7F3CEA894F63BE058FLLO
+- _symbolic SDySS_____G 24RequestDispatcherBridges28ASRMUXResultCandidateContextC
+- _symbolic SDySS______pG 24RequestDispatcherBridges21NLSpeechInputTrackingP
+- _symbolic SDySS______pG 24RequestDispatcherBridges22NLRequestProcessorBaseP
+- _symbolic SDy_____So16SAHomeMemberInfoCGSg 16SiriMessageTypes6UserIDV
+- _symbolic SDy__________G 24RequestDispatcherBridges8CacheKeyV AA012AsrCandidateaD0V
+- _symbolic SS20siriLocaleIdentifier_t
+- _symbolic SS25languageVariantIdentifier_t
+- _symbolic SS______9turnInput_SbSg8emptyASR_____6userIdtt 12SiriNLUTypes0A23_Nlu_External_TurnInputV 0A12MessageTypes6UserIDV
+- _symbolic SS_______pt 24RequestDispatcherBridges21NLSpeechInputTrackingP
+- _symbolic SS_______pt 24RequestDispatcherBridges22NLRequestProcessorBaseP
+- _symbolic SaySSG
+- _symbolic SaySo13AFSpeechTokenCG
+- _symbolic SaySo16SAHomeMemberInfoCG
+- _symbolic SaySo22SASSpeechPartialResultCG
+- _symbolic SaySo8SASTokenCGSg
+- _symbolic Say_____G 12SiriNLUTypes0A29_Nlu_External_EntityCandidateV
+- _symbolic Say_____G 12SiriNLUTypes0A29_Nlu_External_SystemDialogActV
+- _symbolic Say_____G 24RequestDispatcherBridges11RVSResponseV
+- _symbolic Say_____G 24RequestDispatcherBridges18TurnInputContainerC0dE7WrapperV
+- _symbolic Say_____G 24RequestDispatcherBridges7LVCTurnV
+- _symbolic Say_____G 32SiriReferenceResolutionDataModel11RRCandidateV
+- _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
+- _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
+- _symbolic Say_____GSg 12SiriNLUTypes0A29_Nlu_External_SystemDialogActV
+- _symbolic Say_____Gz_Xx 32SiriReferenceResolutionDataModel11RRCandidateV
+- _symbolic SbIegy_
+- _symbolic SbSg
+- _symbolic SbSgz_Xx
+- _symbolic Sd
+- _symbolic ShySJG
+- _symbolic Si
+- _symbolic So10CLLocationCSg
+- _symbolic So12SAAceCommand_pSg______pSgIeggg_Sg s5ErrorP
+- _symbolic So13SMTTCUPackageC
+- _symbolic So14SMTTRPDetectedC
+- _symbolic So15AFSpeechPackageC
+- _symbolic So15AFWatchdogTimerC
+- _symbolic So15SMTTRPCandidateC
+- _symbolic So16SMTContinuityEndC
+- _symbolic So17OS_dispatch_queueC
+- _symbolic So18AFDictationOptionsC
+- _symbolic So18AFVoiceIdScoreCardC
+- _symbolic So18AFVoiceIdScoreCardCSg
+- _symbolic So18SAConfidenceScoresC
+- _symbolic So18SASResultCandidateC
+- _symbolic So19SASSpeechRecognizedC
+- _symbolic So21OS_dispatch_semaphoreC
+- _symbolic So21OS_dispatch_semaphoreCSg
+- _symbolic So21SMTTCUPackageMutating_pSgIgg_
+- _symbolic So22SMTTRPDetectedMutating_pSgIgg_
+- _symbolic So23SMTTRPCandidateMutating_pSgIgg_
+- _symbolic So24SMTContinuityEndMutating_pSgIgg_
+- _symbolic So29LBLocalSpeechRecognizerClientC
+- _symbolic So30LBAttendingStatesServiceClientCSg
+- _symbolic So32AFRequestDispatcherServiceHelper_p
+- _symbolic So33SASSpeechServerEndpointIdentifiedC
+- _symbolic So33SASSpeechServerEndpointIdentifiedCSg
+- _symbolic So7NSErrorC
+- _symbolic So8NSObjectC
+- _symbolic So9CDMClientC
+- _symbolic So9CDMClientCSg
+- _symbolic Su
+- _symbolic _____ 10Foundation4DateV
+- _symbolic _____ 10Foundation6LocaleV
+- _symbolic _____ 12SiriNLUTypes0A23_Nlu_External_RequestIDV
+- _symbolic _____ 12SiriNLUTypes0A23_Nlu_External_TurnInputV
+- _symbolic _____ 12SiriNLUTypes0A28_Nlu_External_ResponseStatusV0F4CodeO
+- _symbolic _____ 12SiriNLUTypes0a18_Nlu_External_Cdm_C7RequestV
+- _symbolic _____ 13CDMFoundation14CDMNluResponseC
+- _symbolic _____ 16SiriMessageTypes014ResultSelectedB4BaseC
+- _symbolic _____ 16SiriMessageTypes017NLResultCandidateB4BaseC
+- _symbolic _____ 16SiriMessageTypes018AsrResultCandidateB0C
+- _symbolic _____ 16SiriMessageTypes018StartSpeechRequestB0C
+- _symbolic _____ 16SiriMessageTypes019TRPCandidateRequestB0C
+- _symbolic _____ 16SiriMessageTypes022ResultCandidateRequestB4BaseC
+- _symbolic _____ 16SiriMessageTypes022StartTestSpeechRequestB0C
+- _symbolic _____ 16SiriMessageTypes027StartSpeechDictationRequestB0C
+- _symbolic _____ 16SiriMessageTypes033StartUnderstandingOnServerRequestB0C
+- _symbolic _____ 16SiriMessageTypes11RequestTypeO
+- _symbolic _____ 16SiriMessageTypes20ServerFallbackReasonO
+- _symbolic _____ 16SiriMessageTypes23ConversationSessionTypeO
+- _symbolic _____ 16SiriMessageTypes6UserIDV
+- _symbolic _____ 24RequestDispatcherBridges012AsrCandidateA12CacheManagerC
+- _symbolic _____ 24RequestDispatcherBridges012AsrCandidateA5CacheV
+- _symbolic _____ 24RequestDispatcherBridges03AsrA9ProcessorC
+- _symbolic _____ 24RequestDispatcherBridges10LVCHistoryC
+- _symbolic _____ 24RequestDispatcherBridges10LVCHistoryC10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLO
+- _symbolic _____ 24RequestDispatcherBridges10RVSHistoryC
+- _symbolic _____ 24RequestDispatcherBridges10RVSHistoryC10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLO
+- _symbolic _____ 24RequestDispatcherBridges10RVSRequestV
+- _symbolic _____ 24RequestDispatcherBridges10TTSHistoryV
+- _symbolic _____ 24RequestDispatcherBridges10TTSHistoryV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLO
+- _symbolic _____ 24RequestDispatcherBridges11DialogStateV
+- _symbolic _____ 24RequestDispatcherBridges11NLBridgeLogO
+- _symbolic _____ 24RequestDispatcherBridges11RVSResponseV
+- _symbolic _____ 24RequestDispatcherBridges11RVSResponseV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLO
+- _symbolic _____ 24RequestDispatcherBridges12ASRBridgeLogO
+- _symbolic _____ 24RequestDispatcherBridges16TurnInputManagerC
+- _symbolic _____ 24RequestDispatcherBridges18ExecutionBridgeLogO
+- _symbolic _____ 24RequestDispatcherBridges18NLRequestProcessorC
+- _symbolic _____ 24RequestDispatcherBridges18ServerAsrProcessorC
+- _symbolic _____ 24RequestDispatcherBridges18TurnInputContainerC
+- _symbolic _____ 24RequestDispatcherBridges18TurnInputContainerC0dE7WrapperV
+- _symbolic _____ 24RequestDispatcherBridges20ASRMUXRequestContextC
+- _symbolic _____ 24RequestDispatcherBridges20IdentityFeatureFlagsO
+- _symbolic _____ 24RequestDispatcherBridges21CDMClientNotificationC
+- _symbolic _____ 24RequestDispatcherBridges21MyriadDecisionMonitorC
+- _symbolic _____ 24RequestDispatcherBridges23ResponseVariantSelectorC
+- _symbolic _____ 24RequestDispatcherBridges25AssistantNLRequestHandlerC
+- _symbolic _____ 24RequestDispatcherBridges25AssistantNLRequestHandlerC15NluResponseType33_20C6C01556736E7F3CEA894F63BE058FLLO
+- _symbolic _____ 24RequestDispatcherBridges25DictationNLRequestHandlerC
+- _symbolic _____ 24RequestDispatcherBridges27NLBridgeInstrumentationUtilC
+- _symbolic _____ 24RequestDispatcherBridges28ASRBridgeInstrumentationUtilC
+- _symbolic _____ 24RequestDispatcherBridges28ASRMUXResultCandidateContextC
+- _symbolic _____ 24RequestDispatcherBridges28NLRequestTimeoutTimerManagerC
+- _symbolic _____ 24RequestDispatcherBridges28ResultCandidateNlSpeechInputC
+- _symbolic _____ 24RequestDispatcherBridges28SiriReferenceResolutionProxyC
+- _symbolic _____ 24RequestDispatcherBridges29AttendingStatesServiceHandlerC
+- _symbolic _____ 24RequestDispatcherBridges29ResponseVariantSelectorErrorsO
+- _symbolic _____ 24RequestDispatcherBridges30BufferedResultCandidateHandlerC
+- _symbolic _____ 24RequestDispatcherBridges31SpeechRecognizerResponseHandlerC
+- _symbolic _____ 24RequestDispatcherBridges38TurnConstructionCandidateNlSpeechInputC
+- _symbolic _____ 24RequestDispatcherBridges40AssistantSpeechRecognizerResponseHandlerC
+- _symbolic _____ 24RequestDispatcherBridges40DictationSpeechRecognizerResponseHandlerC
+- _symbolic _____ 24RequestDispatcherBridges7LVCTurnV
+- _symbolic _____ 24RequestDispatcherBridges7LVCTurnV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLO
+- _symbolic _____ 24RequestDispatcherBridges8CDMProxyC
+- _symbolic _____ 24RequestDispatcherBridges8CacheKeyV
+- _symbolic _____ 24RequestDispatcherBridges8NLBridgeC
+- _symbolic _____ 24RequestDispatcherBridges8NLBridgeC0D5ErrorO
+- _symbolic _____ 24RequestDispatcherBridges9AsrBridgeC
+- _symbolic _____ 24RequestDispatcherBridges9AsrBridgeC0dE5ErrorO
+- _symbolic _____ 2os12OSSignpostIDV
+- _symbolic _____ 8Dispatch0A12TimeIntervalO
+- _symbolic _____ So13AFSpeechEventV
+- _symbolic _____ So14AFEndpointModeV
+- _symbolic _____ So33LBLocalSpeechRecognizerStopReasonV
+- _symbolic _____ s5Int64V
+- _symbolic _____ s6UInt32V
+- _symbolic _____ s6UInt64V
+- _symbolic _____3key_yp5valuet s11AnyHashableV
+- _symbolic _____9turnInput_SbSg8emptyASR_____6userIdt 12SiriNLUTypes0A23_Nlu_External_TurnInputV 0A12MessageTypes6UserIDV
+- _symbolic _____9turnInput_SbSg8emptyASR_____6userIdtSg 12SiriNLUTypes0A23_Nlu_External_TurnInputV 0A12MessageTypes6UserIDV
+- _symbolic _____Sg 10Foundation21NSKeyValueObservationC
+- _symbolic _____Sg 10Foundation3URLV
+- _symbolic _____Sg 10Foundation6LocaleV
+- _symbolic _____Sg 12SiriNLUTypes0A18_Nlu_External_UUIDV
+- _symbolic _____Sg 12SiriNLUTypes0A23_Nlu_External_TurnInputV
+- _symbolic _____Sg 12SiriNLUTypes0A28_Nlu_External_ResponseStatusV0F4CodeO
+- _symbolic _____Sg 12SiriNLUTypes0A29_Nlu_External_EntityCandidateV
+- _symbolic _____Sg 12SiriNLUTypes0A29_Nlu_External_LegacyNLContextV
+- _symbolic _____Sg 12SiriNLUTypes0A29_Nlu_External_SystemDialogActV
+- _symbolic _____Sg 12SiriNLUTypes0A31_Nlu_External_RRGroupIdentifierV
+- _symbolic _____Sg 12SiriNLUTypes0A35_Nlu_External_LanguageVariantResultV
+- _symbolic _____Sg 12SiriNLUTypes0A36_Nlu_External_DelegatedUserDialogActV
+- _symbolic _____Sg 12SiriNLUTypes0a18_Nlu_External_Cdm_C8ResponseV
+- _symbolic _____Sg 16SiriMessageTypes010MUXContextB0C
+- _symbolic _____Sg 16SiriMessageTypes014ResultSelectedB4BaseC
+- _symbolic _____Sg 16SiriMessageTypes022ResultCandidateRequestB4BaseC
+- _symbolic _____Sg 16SiriMessageTypes11InputOriginO
+- _symbolic _____Sg 16SiriMessageTypes11RequestTypeO
+- _symbolic _____Sg 16SiriMessageTypes15NLParseResponseC
+- _symbolic _____Sg 16SiriMessageTypes20ServerFallbackReasonO
+- _symbolic _____Sg 16SiriMessageTypes22DictationAsrResultTypeO
+- _symbolic _____Sg 16SiriMessageTypes23ConversationSessionTypeO
+- _symbolic _____Sg 16SiriMessageTypes6UserIDV
+- _symbolic _____Sg 21SiriInformationSearch13PommesContextV
+- _symbolic _____Sg 23SiriReferenceResolution0bC6ClientC
+- _symbolic _____Sg 24RequestDispatcherBridges10LVCHistoryC
+- _symbolic _____Sg 24RequestDispatcherBridges10RVSHistoryC
+- _symbolic _____Sg 24RequestDispatcherBridges10TTSHistoryV
+- _symbolic _____Sg 24RequestDispatcherBridges11DialogStateV
+- _symbolic _____Sg 24RequestDispatcherBridges18ServerAsrProcessorC
+- _symbolic _____Sg 24RequestDispatcherBridges18TurnInputContainerC0dE7WrapperV
+- _symbolic _____Sg 24RequestDispatcherBridges25AssistantNLRequestHandlerC
+- _symbolic _____Sg 24RequestDispatcherBridges25AssistantNLRequestHandlerC15NluResponseType33_20C6C01556736E7F3CEA894F63BE058FLLO
+- _symbolic _____Sg 24RequestDispatcherBridges25DictationNLRequestHandlerC
+- _symbolic _____Sg 24RequestDispatcherBridges29AttendingStatesServiceHandlerC
+- _symbolic _____Sg 24RequestDispatcherBridges31SpeechRecognizerResponseHandlerC
+- _symbolic _____Sg 2os12OSSignpostIDV
+- _symbolic _____Sg 32SiriReferenceResolutionDataModel15GroupIdentifierV
+- _symbolic _____Sg 32SiriReferenceResolutionDataModel8RRFilterV
+- _symbolic _____Sg So13AFSpeechEventV
+- _symbolic _____Sg So14AFEndpointModeV
+- _symbolic _____Sg s5Int64V
+- _symbolic _____SgXw 24RequestDispatcherBridges18ServerAsrProcessorC
+- _symbolic _____SgXw 24RequestDispatcherBridges40AssistantSpeechRecognizerResponseHandlerC
+- _symbolic _____SgXw 24RequestDispatcherBridges8CDMProxyC
+- _symbolic _____SgXwz_Xx 24RequestDispatcherBridges18ServerAsrProcessorC
+- _symbolic _____SgXwz_Xx 24RequestDispatcherBridges40AssistantSpeechRecognizerResponseHandlerC
+- _symbolic _____SgXwz_Xx 24RequestDispatcherBridges8CDMProxyC
+- _symbolic _____Sg_ABt 10Foundation4UUIDV
+- _symbolic _____Sg_ABt 10Foundation6LocaleV
+- _symbolic _____Sg_ABt 16SiriMessageTypes11InputOriginO
+- _symbolic _____Sg_ABt 16SiriMessageTypes11RequestTypeO
+- _symbolic ______So15AFSpeechPackageCt 16SiriMessageTypes6UserIDV
+- _symbolic ___________t 24RequestDispatcherBridges8CacheKeyV AA012AsrCandidateaD0V
+- _symbolic ______p 16SiriMessageTypes0B10PublishingP
+- _symbolic ______p 16SiriMessageTypes24ConversationSessionStateP
+- _symbolic ______p 16SiriMessageTypes33ImmutableConversationSessionStateP
+- _symbolic ______p 21SiriRequestDispatcher23ServerFallbackDisablingP
+- _symbolic ______p 24RequestDispatcherBridges11CDMProxyingP
+- _symbolic ______p 24RequestDispatcherBridges21NLSpeechInputTrackingP
+- _symbolic ______p 24RequestDispatcherBridges22NLRequestProcessorBaseP
+- _symbolic ______p 24RequestDispatcherBridges24MyriadDecisionMonitoringP
+- _symbolic ______p 24RequestDispatcherBridges31SiriReferenceResolutionProxyingP
+- _symbolic ______pSg 16SiriMessageTypes24ConversationSessionStateP
+- _symbolic ______pSg 24RequestDispatcherBridges19CDMCallbackHandlingP
+- _symbolic ______pSg 24RequestDispatcherBridges21NLSpeechInputTrackingP
+- _symbolic ______pSg 24RequestDispatcherBridges22NLRequestProcessorBaseP
+- _symbolic _____yS2SG s18_DictionaryStorageC
+- _symbolic _____ySJG s11_SetStorageC
+- _symbolic _____ySJG s23_ContiguousArrayStorageC
+- _symbolic _____ySSG s11_SetStorageC
+- _symbolic _____ySSG s23_ContiguousArrayStorageC
+- _symbolic _____ySSSay_____GG s18_DictionaryStorageC 12SiriNLUTypes0C30_Nlu_External_RepetitionResultV
+- _symbolic _____ySSSbG s18_DictionaryStorageC
+- _symbolic _____ySSShySSGG s18_DictionaryStorageC
+- _symbolic _____ySSSo15AFWatchdogTimerCG s18_DictionaryStorageC
+- _symbolic _____ySSSo8NSNumberCG s18_DictionaryStorageC
+- _symbolic _____ySS_ShySSGtG s23_ContiguousArrayStorageC
+- _symbolic _____ySS_So8NSNumberCtG s23_ContiguousArrayStorageC
+- _symbolic _____ySS_____9turnInput_SbSg8emptyASR_____6userIdtG s18_DictionaryStorageC 12SiriNLUTypes0C23_Nlu_External_TurnInputV 0C12MessageTypes6UserIDV
+- _symbolic _____ySS_____G s18_DictionaryStorageC 16SiriMessageTypes018DictationAsrResultD0C
+- _symbolic _____ySS_____G s18_DictionaryStorageC 16SiriMessageTypes022ResultCandidateRequestD4BaseC
+- _symbolic _____ySS_____G s18_DictionaryStorageC 16SiriMessageTypes15NLParseResponseC
+- _symbolic _____ySS_____G s18_DictionaryStorageC 24RequestDispatcherBridges25AssistantNLRequestHandlerC15NluResponseType33_20C6C01556736E7F3CEA894F63BE058FLLO
+- _symbolic _____ySS_____G s18_DictionaryStorageC 24RequestDispatcherBridges28ASRMUXResultCandidateContextC
+- _symbolic _____ySS_____SgG s18_DictionaryStorageC 16SiriMessageTypes15NLParseResponseC
+- _symbolic _____ySS______pG s18_DictionaryStorageC 24RequestDispatcherBridges21NLSpeechInputTrackingP
+- _symbolic _____ySS______pG s18_DictionaryStorageC 24RequestDispatcherBridges22NLRequestProcessorBaseP
+- _symbolic _____ySbG 10Foundation24NSKeyValueObservedChangeV
+- _symbolic _____ySo13SMTTCUPackageC_______ptG s23_ContiguousArrayStorageC 16SiriMessageTypes33ImmutableConversationSessionStateP
+- _symbolic _____y_____G 21SiriRequestDispatcher09CandidateB15AwareBridgeBaseC 0bC7Bridges03AsrF0C
+- _symbolic _____y_____G 21SiriRequestDispatcher09CandidateB15AwareBridgeBaseC 0bC7Bridges8NLBridgeC
+- _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges10LVCHistoryC10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges10RVSHistoryC10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges10TTSHistoryV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges11RVSResponseV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges7LVCTurnV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges10LVCHistoryC10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges10RVSHistoryC10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges10TTSHistoryV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges11RVSResponseV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges7LVCTurnV10CodingKeys33_27EC4E58F792407EF3AF140A1512267BLLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12SiriNLUTypes0D23_Nlu_External_TurnInputV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12SiriNLUTypes0D23_Nlu_External_UserParseV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12SiriNLUTypes0D27_Nlu_External_AsrHypothesisV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12SiriNLUTypes0D27_Nlu_External_UserDialogActV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12SiriNLUTypes0D29_Nlu_External_EntityCandidateV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12SiriNLUTypes0D31_Nlu_External_RRSurroundingTextV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12SiriNLUTypes0D33_Nlu_External_AsrTokenInformationV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12SiriNLUTypes0D36_Nlu_External_DelegatedUserDialogActV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 16SiriMessageTypes22ConversationSessionKeyO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 24RequestDispatcherBridges11RVSResponseV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 24RequestDispatcherBridges18TurnInputContainerC0gH7WrapperV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 24RequestDispatcherBridges7LVCTurnV
+- _symbolic _____y_____So15AFSpeechPackageCG s18_DictionaryStorageC 16SiriMessageTypes6UserIDV
+- _symbolic _____y______So15AFSpeechPackageCtG s23_ContiguousArrayStorageC 16SiriMessageTypes6UserIDV
+- _symbolic _____y__________G s18_DictionaryStorageC 24RequestDispatcherBridges8CacheKeyV AC012AsrCandidatecF0V
+- _symbolic _____y______pG 10Foundation24NSKeyValueObservedChangeV s5ErrorP
+- _symbolic _____yyXlG s23_ContiguousArrayStorageC
+CStrings:
++ "    isSiriPromptImminent: %{bool}d\n    isCurrentRequestSiriPrompt: %{bool}d\n    isUserSpeechEmpty: %{bool}d"
++ "Canceling request for %s: context is:\n    isSiriPromptImminent: %{bool}d\n    isCurrentRequestSiriPrompt: %{bool}d\n    isUserSpeechEmpty: %{bool}d"
++ "Deinitializing SpeechRequestController with requestId: %s.  "
++ "Did not find a SpeechRequestController requestId: %s for sessionId: %s"
++ "Division by zero"
++ "Division results in an overflow"
++ "Fatal error"
++ "Handling TRPCandidateRequestMessage %s with speechController %s for sessionId: %s"
++ "Insufficient space allocated to copy string contents"
++ "RequestCompleted for %s: context is:\n    isSiriPromptImminent: %{bool}d\n    isCurrentRequestSiriPrompt: %{bool}d\n    isUserSpeechEmpty: %{bool}d"
++ "Reseting context.isCurrentRequestSiriPrompt and context.isUserSpeechEmpty"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/IntegerTypes.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawBufferPointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"NSString\",?,R,C"
++ "TRP candidate handling for %s: context is:\n    isSiriPromptImminent: %{bool}d\n    isCurrentRequestSiriPrompt: %{bool}d\n    isUserSpeechEmpty: %{bool}d"
++ "There is an active Siri prompt, and deteced user speech is empty. Retaining isSiriPromptImminent value."
++ "There is no active Siri prompt. Resetting isSiriPromptImminent value"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawBufferPointer.copyMemory source has too many elements"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "createRequestProcessor(withRequestId:assistantId:sessionId:isCandidateRequest:)"
++ "handleRequestCompletedMessage(_:)"
++ "handleTRPCandidateRequestMessage(_:)"
++ "invalid Collection: less than 'count' elements in collection"
++ "is user speech empty %{bool}d"
++ "isCurrentRequestSiriPrompt"
++ "isUserSpeechEmpty"
+- " but not taking any action"
+- " vs current requestId "
+- "#AsrOnServer ASR is being processed on server for requestId: %s. LocalSpeechRecognition is disabled."
+- "#AsrOnServer ASRBridge should not be handling AsrResultCandidateMessage messages unless both MUX is enabled and the request is being handled as asrOnServer"
+- "#AsrOnServer ASRMUXRequestContext already contains a cache entry: %s. This will be overwritten and may lead to inconsistent results."
+- "#AsrOnServer ASRMUXResultCandidateContext not found for rcID=%s"
+- "#AsrOnServer Caching ASRMUXResultCandidateContext: %s in the ASRBridge."
+- "#AsrOnServer Current speechResponseHandler is not for Assistant request"
+- "#AsrOnServer Did not receive SAResultSelected for RC acceptance. RC not accepted."
+- "#AsrOnServer Exiting as the requestType is unsupported. Request: %s"
+- "#AsrOnServer Failed to create %s for request: %s"
+- "#AsrOnServer Failed to create AsrResultCandidateMessage for request: %s"
+- "#AsrOnServer Failed to create ResultSelectedMessage for request: %s"
+- "#AsrOnServer Failed to parse processedAudioDuration for request: %s"
+- "#AsrOnServer Invoked posting of AsrResultCandidateMessage for request: %s rcId: %s"
+- "#AsrOnServer Invoked posting of ResultSelectedMessage for request: %s resultSelectedMsg: %@"
+- "#AsrOnServer Invoking RC acceptance for rcID: %s and asrRCId: %s"
+- "#AsrOnServer MUXResultCandidate received when MUX is disabled.  %@"
+- "#AsrOnServer Malformed or missing resultId in %@"
+- "#AsrOnServer No rcId found in %@"
+- "#AsrOnServer No result candidates found"
+- "#AsrOnServer Not posting AsrResultCandidateMessage as the requestType is uos. request: %s rcId: %s"
+- "#AsrOnServer Posting SASSpeechServerEndpointIdentified for requestId: %s)"
+- "#AsrOnServer Posting result acceptance event %s %@."
+- "#AsrOnServer Posting result candidate event %s for request: %s rcId: %s"
+- "#AsrOnServer Received %@"
+- "#AsrOnServer Received SASMUXResultCandidate for requestId:%s"
+- "#AsrOnServer Received SASResultCandidate for requestId:%s"
+- "#AsrOnServer Received SASSpeechRecognized for requestId:%s"
+- "#AsrOnServer Received SASSpeechServerEndpointIdentified for requestId:%s"
+- "#AsrOnServer Response refId does not match current requestId"
+- "#AsrOnServer Response requestId does not match current requestId"
+- "#AsrOnServer The refId of ResultSelected %s doesn't match the current requestId: %s. Ignoring RC acceptance result."
+- "#AsrOnServer Unsupported path for handling server RC. Either asrOnServer must be true or requestType must be uos. rcId: %s"
+- "#AsrOnServer Unsupported path for handling server RC. rcId: %s"
+- "#AsrOnServer muxResultCandidate received with recognitions for the following userIds: %s"
+- "#AsrOnServer no voiceIdScoreCard exists.  This could be caused by a missing or invalid HomeMemberInfo"
+- "#AsrOnServer no voiceIdScoreCard exists.  This would be caused by a missing or invalid HomeMemberInfo"
+- "#AsrOnServer resultCandidate does not contain resultId: using the default 0"
+- "#AsrOnServer self expired. Ignoring RC acceptance result for rcId:%s rc refId:%s"
+- "#AsrOnServer self expired. Ignoring SASSpeechRecognized response refId:%s"
+- "#AsrOnServer self expired. Ignoring SASSpeechServerEndpointIdentified response refId:%s"
+- "#AsrOnServer serverAsrResultCandidateProcessor is nil. Cannot process AsrResultCandidateMessage"
+- "#AsrOnServer serverAsrResultCandidateProcessor is nil. Cannot process the RC. rcId: %s"
+- "#AsrOnServer serverAsrResultCandidateProcessor is nil. Cannot process the SASSpeechRecognized. refId: %s"
+- "#AsrOnServer serverAsrResultCandidateProcessor is nil. Cannot process the SASSpeechServerEndpointIdentified. refId: %s"
+- "#AsrOnServer we are in StartUnderstaingOnServer path. Sent ResultSelected to the server."
+- "#AsrOnServer we are in StartUnderstandingOnServer path. Not posting ResultSelectedMessage. We shouldn't receive empty recognition for StartUnderstaingOnServer."
+- "%s called before ReferenceResolutionClient has been initialized. Cannot proceed further."
+- "%sFound session state for session id %s"
+- ", asrResultCandidateId:"
+- ", processedAudioDuration:"
+- ". Cannot process NL response."
+- ".cxx_destruct"
+- "AFRequestDispatcherServiceHelper"
+- "AFSpeechRecognition utterances/phrases is nil"
+- "ASR was already stopped for requestId = %s"
+- "ASRBridgeInit"
+- "Active locale is not the same as setup locale"
+- "Active service graph is not the same as setup service graph"
+- "Added new turnInput for requestId: %s"
+- "AsrBridge received message: %@"
+- "AsrCandidateRequestProcessor received message: %@"
+- "AsrCandidateRequestProcessor transitioning to being the active request processor"
+- "AsrRequestProcessor received message: %@"
+- "AsrRequestProcessor received message: %@ ignoring it..."
+- "Assets changed, releasing cdmClient"
+- "Assets didn't expired or changes not releasing cdmClient"
+- "Assets expired, releasing cdmClient"
+- "Attempting turnInput rollback to requestId: %s"
+- "AttendingClient not set while receiving SiriPromptedMessage, dropping"
+- "AttendingClient not set while receiving SiriWillPromptMessage, dropping"
+- "Auto-punctuation is disblaed"
+- "Both LegacyNLContext and SystemDialogActs are present for this request"
+- "Buffered MUX RC message does not exist"
+- "CDM setup call timedout for startRequestId: %s nluRequestId: %s"
+- "CDM setup failure. Sending cached ASR results to dictation client for nluRequestId %s"
+- "CDMClientDelegate"
+- "CDMMDSServiceGraph"
+- "CDMNLUServiceGraph"
+- "CDMNluResponse is corrupted as objcProto is nil"
+- "CDMProxy received nluRequest for startRequestId: %s nluRequestId: %s"
+- "CDMProxyExpirationInSeconds"
+- "CDMSetup failed while trying to send NLURequest for dictation"
+- "CDMSetupLatency"
+- "CDMSetupTime"
+- "CDMTrialAssetsDelegate"
+- "Cached SpeechPartialResult handled"
+- "Call to RRaaS for salientEntities timedout."
+- "Calling RRaaS for salientEntities"
+- "Calling SRR for warm-up only"
+- "Calling delegate callback with accept for fabricated SpeechPackage"
+- "Calling delegate callback with fabricated SpeechPackage"
+- "Can't get end setup signpost id, that should not happen"
+- "Cannot find cached SASSpeechServerEndpointIdentified message. Request will fail."
+- "CdmSetupTimeoutMillis"
+- "Completed local dictation recognition"
+- "ContinuityEnd requestId does not match current requestId"
+- "Could not create CommandFailed to fail the request, request will likely timeout"
+- "Could not create EndDictationRequestMessage msg"
+- "Could not create fabricated TCUPackage"
+- "Could not find a previous user in the session because perhaps this is the first request of the session. Fetching context for sessionUserId: %s"
+- "Could not handle TRPFinalizedMessage since assistantRequestHandler is nil"
+- "Could not post buffer RC message. The request will timeout"
+- "Could not rollback TurnInputContainer to requestId: %s"
+- "Could not rollback since requestId: %s was not found in TurnInputs array"
+- "Created a wrapper CDMNluRequest with native Siri_Nlu_External_Cdm_NluRequest"
+- "Created dictation nluRequest for requestId=%s nluRequest = %s"
+- "Created nluRequest for requestId=%s rcId=%s nluRequest = %s"
+- "Created nluRequest for requestId=%s tcuId=%s nluRequest = %s"
+- "Creating NLXTurnContext for userId:%s"
+- "Creating filter for userId: %s"
+- "Current speechResponseHandler is not for Assistant request"
+- "DataSource of entity not in NLXTypes enum"
+- "DictationSpeechRecognizerResponseHandler"
+- "Do not handle resultType finalResultCandidate"
+- "Dropping CDM request as Request is cancelled for startRequestId: %s nluRequestId: %s"
+- "Dropping NLURequest as NLRequestProcessor is not available for startRequestId: %s nluRequestId: %s"
+- "Dropping NLURequest as active session is not the same session for startRequestId: %s nluRequestId: %s"
+- "Dropping the StartSpeechRequestMessage as we already ran this request in Candidate mode."
+- "Entity callback from RRaSS failed"
+- "Entity callback from RRaSS succeeded with %ld candidates"
+- "EntityFetchingLatency"
+- "EntityRetrievingLatency"
+- "Error generating immediate NL message for machine utterance"
+- "ExecuteNLOnServerMessage could not be created for requestId: %s rcId: %s"
+- "Failed to create %s for request: %s"
+- "Failed to create ASRReadyForNewTurnMessage for session: %s"
+- "Failed to create AsrResultCandidateMessage for request: %s"
+- "Failed to create AttendingStartedMessage for session: %s"
+- "Failed to create AttendingStoppedUnexpectedlyMessage for session: %s"
+- "Failed to create AttendingWillStartMessage for session: %s"
+- "Failed to create CDM bridge context message"
+- "Failed to create CDM failed event"
+- "Failed to create CDM finished event"
+- "Failed to create DictationAsrResultMessage for requestId: %s"
+- "Failed to create MagusAttentionAssetDownloadRequestedMessage for session: %s"
+- "Failed to create NLTRPCandidateMessage for TrpId=%s and requestId=%s"
+- "Failed to create ResultSelectedMessage for request: %s"
+- "Failed to create SpeechStartDetectedMessage for session: %s"
+- "Failed to create SpeechStopDetectedMessage for request: %s"
+- "Failed to create StoppedListeningForSpeechContinuationMessage for request: %s"
+- "Failed to create TRPCandidateRequestMessage for request: %s"
+- "Failed to create VoiceIdScoreCardMessage for request: %s"
+- "Failed to create fabricated ContinuityEnd for request: %s"
+- "Failed to create fabricated TRPCandidate for request: %s"
+- "Failed to create fabricated TRPDetected for request: %s"
+- "Failed to create nlV3ServerFallbackDeprecated event"
+- "Failed to create speechPackage"
+- "Failed to create speechPartialDeliveryStartedMessage for request: %s"
+- "Failed to create wrapper event for logNLV3ServerFallbackDeprecated"
+- "Failed to map response status = %s for tcuId:%s"
+- "Failed to post AsrResultCandidateMessage: %@"
+- "Failed to post muxRcMsgBuffered: %@"
+- "Falling back to execute-NL-on-server path"
+- "Feature flag for auto-punctuation is off"
+- "Fetching context for sessionUserId: %s"
+- "Fetching context for the user selected in previous request: %s"
+- "Fetching isUserOnPhoneCall status for requestId: %s"
+- "Fetching salient entities now for userId: %s"
+- "First Voice Id Score card has not arrived yet. The unknown user shall be used for this result candidate."
+- "Found a DelegatedUserDialogAct for rcId: %s"
+- "Found a DelegatedUserDialogAct with externalParserId set to the right value, for rcId: %s"
+- "From PommesContext legacyNLContext: %s"
+- "From SessionState legacyNLContext: %s"
+- "From SessionState pommesContext: %s"
+- "From SessionState systemDialogActs: %s"
+- "Generating default user voice ID score card"
+- "Generating immediate NL message; Pommes will handle this machine utterance"
+- "Given locale %s is not the same as exists locale %s, should call setup again"
+- "Going to call startASR from AsrCandidateRequestProcessor with settings = %@"
+- "Going to post ASRReadyForNewTurnMessage"
+- "Going to post AttendingStartedMessage"
+- "Going to post AttendingStoppedUnexpectedlyMessage"
+- "Going to post AttendingWillStartMessage"
+- "Going to post MagusAttentionAssetDownloadRequestedMessage"
+- "Going to post SpeechStartDetectedMessage"
+- "Going to post StoppedListeningForSpeechContinuationMessage"
+- "Going to post TRPCandidateMessage"
+- "Going to post speechPartialDeliveryStartedMessage"
+- "Going to stop ASR for requestId = %s"
+- "Handling Error from CDM - removing entry from nluRequestIdToStartRequestId for nlRequestId: %s error: %s"
+- "Handling StartSpeechDictationSession for sessionId: %s"
+- "Handling nluResponse: %s"
+- "Invalid interpretation index."
+- "Invalid startRequestId UUID. Not emitting a NL setup linking message"
+- "LBAttendingStatesServiceDelegate"
+- "LBLocalSpeechRecognizerClientDelegate"
+- "LVC appending %s to existing LVCHistory.LVCTurns: %s"
+- "LegacyNLContext is present, ignoring SystemDialogActs"
+- "Linking nlSetupID: %s startRequestId UUID: %s"
+- "MUXAsrResultCandidateMessage"
+- "MUXContextMessage received for assistantId: %s with %ld home members and RMVEnabled=%{bool}d"
+- "MUXNLResultCandidateMessage could not be created for pommes machine utterance message for rcID: %s"
+- "MUXResultCandidateAcceptanceMessage"
+- "MUXResultSelectedMessage"
+- "MUXServerFallbackMessage could not be created for requestId: %s rcId: %s"
+- "MUXSpeechPackageMessage"
+- "Machine utterance fallback:  has legacy context=%{bool}d, has pommes context=%{bool}d"
+- "Making a response variant selector request for %s"
+- "Mapped %s to %s"
+- "Mapped TCU's for trpId=%s are missing"
+- "MaxEagerRCAllowed"
+- "Missing DictationAsrResult while logging error"
+- "Missing ResultCandidate while logging error"
+- "MyriadLatency"
+- "NLBridge received an RC which is not UserID aware"
+- "NLBridge received message: %@"
+- "NLBridgeInit"
+- "NLRequestProcessor received message: %@"
+- "NLResultCandidateMessage could not be created for pommes machine utterance message for rcID: %s"
+- "NLURequest timed out for startRequestId: %s nluRequestId: %s resultCandidateId: %s"
+- "NLURequestTimeoutManager: canceled and removed sendNluRequestTimeoutTimer for nluRequestId: %s."
+- "NLURequestTimeoutManager: canceling and removing all sendNluRequestTimeoutTimers"
+- "NLURequestTimeoutManager: no sendNluRequestTimeoutTimer exists to cancel and remove for nluRequestId: %s."
+- "NLURequestTimeoutManager: registered and started sendNluRequestTimeoutTimer for nlRequestId: %s."
+- "NLURequestTimeoutManager: sendNluRequestTimeoutTimer already exists for nluRequestId: %s. Not registering and not starting."
+- "NluRequest timed out, but the proxy instance was removed"
+- "No DelegatedUserDialogAct of right type found for rcId: %s "
+- "No recognition candidate accepted yet for requestId: "
+- "No recognition candidate accepted yet for requestId: %s"
+- "No relevant SDA found, using default task type"
+- "Not falling back to server yet, prevented by feature flag. We will defer the fallback decision to Conversation Bridge."
+- "Not posting ResultSelected since myriad selection is lost"
+- "Not posting ResultSelected since self is already out-of-scope"
+- "Not posting StoppedListeningForSpeechContinuationMessage since myriad selection is lost"
+- "Not posting StoppedListeningForSpeechContinuationMessage since self is already out of scope"
+- "Not setting LocalSpeechRecognizerClientDelegate for requestType %s"
+- "Not updating TurnContainer as it is already updated."
+- "Not updating TurnContainer as selectedRcId is nil"
+- "Not updating TurnContainer as this turnInput contains empty ASR. rcId: %s"
+- "Not updating TurnContainer as this turnInput contains empty ASR. tcuId: %s"
+- "Not updating TurnContainer as turnInput was not found for rcId: %s turnInputsByRcId: %s"
+- "Not updating TurnContainer as turnInput was not found for tcuId: %s turnInputsByTcuId: %s"
+- "Not updating TurnContainer as we don't know if this turnInput contains empty ASR. rcId: %s"
+- "Not updating TurnContainer as we don't know if this turnInput contains empty ASR. tcuId: %s"
+- "Not updating jitProfile for SDA: %s"
+- "Number of RC's generated by ASR is greater than maximum number of RC's allowed for the request [%ld]. Caching this RC until it has been accepted"
+- "PhoneCallStateQueryTime"
+- "PhoneCallStateQueryTimeout"
+- "Phrase length is not the same as interpretationIndices."
+- "Posted ExecuteNLOnServerMessage, so not posting nlResultMessage for rcId: %s"
+- "Posted ExecuteNLOnServerMessage: %@"
+- "Posted MUXServerFallbackMessage: %@"
+- "Posted NLTRPCandidateMessage for TrpId=%s"
+- "Posted buffered RC with id:%s to message bus before posting ResultSelectedMessage"
+- "Posted speechPartialDeliveryStartedMessage"
+- "Posting MUXServerFallbackMessage since MUX is enabled"
+- "Posting ResultSelectedMessage for rcId: %s"
+- "Posting nlRepetitionMessage: %@ for rcId: %s"
+- "Posting nluResultMessage: %@ for rcId: %s"
+- "Posting of nlResultMessage: %@ failed for rcId: %s"
+- "Pre NL user selection has not run for all RCs. Caching SASSpeechServerEndpointIdentified."
+- "Previous SDA contains a message payload prompt, enabling auto-punctuation"
+- "Previous setup failed or not run, should call setup again"
+- "Primary user is missing from homemebers list when RMV=%{bool}d"
+- "RVS appending %s to existing RVSHistory.RVSTurns: %s"
+- "Received ASR error "
+- "Received ASR error %ld %s but not taking any action"
+- "Received AttendingStoppedUnexpectedly with error = %@"
+- "Received CDMNluResponse for expired session, dropping on the the floor, CDMNluResponse's nluResponse: %@"
+- "Received CDMSetup failure callback for nluRequestId: %s"
+- "Received ContinuityEnd when Medoc is not enabled."
+- "Received ContinuityEnd with lastTRPCandidateId: %s"
+- "Received Eager RC in Medoc flow. Ignoring."
+- "Received InitiateMUXStateRollbackMessage, rollbackRequestId: %s, userId: %s"
+- "Received SiriDismissedMessage outside the scope of a session, dropping"
+- "Received SpeechRecognizerReadyForNewTurn with hostTime:%llu, audioRecordType: %lld, deviceId: %s"
+- "Received SpeechStartDetected in deprecated path, dropping."
+- "Received SpeechStartDetected with shouldDuckTTS:%{bool}d"
+- "Received StopAttendingRequestedMessage outside the scope of a session, dropping"
+- "Received Swift NluResponse: %s"
+- "Received TRPCandidate Medoc is not enabled. Ignoring."
+- "Received TRPCandidatePackage with trpCandidateId: %s"
+- "Received TRPDetected from CoreSpeech when Medoc is not enabled."
+- "Received TRPDetected."
+- "Received daemonKilled update from CDM, but the proxy instance was removed"
+- "Received daemonKilled value update from CDM"
+- "Received didCompletionRecognitionWithStatistics with endpointMode: %s"
+- "Received eager recognition candidate rcId:%lu processedDuration: %f"
+- "Received error from CDM for expired cdmProxy dropping on the floor, requestId: %@ %s"
+- "Received error from CDM: requestId: %s %s"
+- "Received error responseStatus: %s nlResponse: %s"
+- "Received errorFromSetup from CDM"
+- "Received errorFromSetup from CDM, but the proxy instance was removed"
+- "Received final result"
+- "Received partial result"
+- "Received partial result for dictation request with metadata"
+- "Received partial result package for dictation request"
+- "Received partial result tokens for dictation request"
+- "Received recognition candidate accepted for rcId:%lu"
+- "Received recognition statistics, with endpointMode: "
+- "Received requestAttentionAssetDownload"
+- "Received successFromSetup from CDM"
+- "Received successFromSetup from CDM, but the proxy instance was removed"
+- "Received unexpected %@ message. Current request is not dictation"
+- "Received voiceIdScoreCard.\nKnownUserScores=%s, UnknownUserScore=%@, UserClassification=%ld, Audio Duration= %@"
+- "Recieved final result candidate do not process as of now"
+- "Recognition is nil"
+- "Registering processor for startRequestId: %s"
+- "Replacing current TurnInput for requestId: %s with a new one"
+- "Request does not belong to current session id: %s, request session id: %s for request id: %s"
+- "Request execution still gated. Will not attempt posting ResultSelectedMessage for request: "
+- "Request execution still gated. Will not attempt posting ResultSelectedMessage for request: %s"
+- "Request is cancelled, ignoring nluResponse: %s"
+- "Request is cancelled, not processing CDMSetupFailure for nluRequestId: %s"
+- "Request: %s for start reques id: %s is not part of the active session, ignore the request"
+- "RequestDispatcherBridges.AsrBridge"
+- "RequestDispatcherBridges.AsrRequestProcessor"
+- "RequestDispatcherBridges.AttendingStatesServiceHandler"
+- "RequestDispatcherBridges.NLBridge"
+- "RequestDispatcherBridges.NLRequestProcessor"
+- "RequestDispatcherBridges.SpeechRecognizerResponseHandler"
+- "RequestSettings: %@ for requestId: %s"
+- "Response requestId = %s does not match current requestId = %s"
+- "Response requestId does not match current requestId"
+- "Response requestId does not match current requestId, response requestId "
+- "Result selection gate being removed for requestId=%s"
+- "Result selection gate in place for requestId=%s"
+- "ResultCandidateMessage requestId does not match current requestId"
+- "ResultSelected"
+- "ResultSelectedMessage requestId does not match current requestId"
+- "Retrieved isUserOnPhoneCall status: %{bool}d for requestId: %s"
+- "Retrieving salient entities"
+- "SDA found indicating SiriDictation task type"
+- "SDA found indicating confirmation task type"
+- "Schedule another check in %f..."
+- "Sending empty JITLME for MUX enabled device for improving ASR performance."
+- "Sending loggableSharedUserId: %s to NLX"
+- "Sending nluRequest to CDM for startRequestId: %s nluRequestId: %s"
+- "Sending userId: %s to NLX"
+- "Sent CommandFailed to fail the request with error %s"
+- "Sent voiceIdScoreCard to server with aceId: %s and refId:%s, error: %s"
+- "Server-fallback for machine utterance. requestId: %s, rcId: %s"
+- "SessionId of initiateMUXStateRollbackMessage: %s not equal to currentSessionId: %s . Ignoring the message"
+- "SessionId: %s is not the current session, ignoring"
+- "Setting sessionId to nil"
+- "Setting speech client delegate for requestId = %s"
+- "Siri"
+- "SiriDismissedMessage does not belong to current session id: %s"
+- "SiriDismissedMessage received for sessionId: %s, calling requestDismissed on the AttendingClient"
+- "SiriPromptedMessage does not belong to current session id: %s"
+- "Siri_Nlu_External_SystemDialogAct"
+- "Skipping StartSpeechRequest processing"
+- "Skipping: Could not get protobufGraph from usoGraph: %s"
+- "SpeechInput  supports turn taking but doesn't conform to TurnConstructionCandidate"
+- "SpeechInput supports turn taking but doesn't conform to TurnConstructionCandidate, cannot post NLTRPCandidateMessage for CDM Setup failure callback"
+- "SpeechPartialResult handled"
+- "SpeechRecognizerResponseHandler is nil, unable to submit cached partials"
+- "SpeechRecognizerResponseHandler is nil, will not be able to stop ASR."
+- "SpeechRecognizerResponseHandler is nil, will not be able to submit any cached partials"
+- "StopAttendingRequestedMessage does not belong to current session id: %s"
+- "StopAttendingRequestedMessage received for sessionId: %s, calling dismissAttending on the AttendingClient"
+- "Submitting partial text: \"%s\""
+- "Successfully rolled back TurnInputContainer to requestId: %s"
+- "Successfully rolled back turnInputContainer to requestId: %s"
+- "Successfully setup Attending handling in AsrBridge"
+- "SystemDialogActs are not present, disabling auto-punctuation"
+- "SystemDialogActs not present using default task type"
+- "TCU did not have a valid CDM response even though CDM setup suceeded"
+- "TCU doesn't have a valid tcuId"
+- "TCU list is empty. Cannot run NLX."
+- "TRPCandidate requestId = %s does not match current requestId = %s"
+- "TRPDetected requestId does not match current requestId"
+- "TRPFinalizedMessage does not have a finalTCUId, skipping calling updateTCUState."
+- "TcuId=%s doesn't have a mapped TrpId"
+- "The request to which we are rolling back to is already being processed. This might lead to race conditions"
+- "There is no finalized TCU available in TRPFinalizedMessage. Not updating TurnInputContainer"
+- "Timed out fetching phoneCallState."
+- "Transitioned to active"
+- "Unable to convert NLU response to Obj-C proto"
+- "Unable to deserialize to Swift Siri_Nlu_External_DelegatedUserDialogAct"
+- "Unable to find SessionState to pass to AsrRequestProcessor"
+- "Unable to find SessionState to pass to RequestProcessor"
+- "Unable to get response variant: %s"
+- "Understanding is not on device"
+- "Understanding on device is on"
+- "Unexpected %s called on base %s class"
+- "Unexpected DictationAsrResultMessage content. resultType is final but speechPackage is final"
+- "Unexpected DictationAsrResultMessage content. resultType is partial but speechTokens is nil"
+- "Unexpected nil assistantHandler while handling %@"
+- "Unexpected nil dictationHandler while handling %@"
+- "Unexpected nil dictationOptions when initializing %s"
+- "Unexpected requestType %s"
+- "Unexpected unknown taskName, setting deliverEager to true"
+- "Unknown element type in RRMetadata"
+- "Unknown user missing from homemebers list when RMV=%{bool}d"
+- "Unregistering processor startRequestId: %s"
+- "UoD for dictation is not supported"
+- "UoD for dictation is supported"
+- "Updating TurnContainer with turnInput for rcId: %s and userId: %s"
+- "Updating TurnContainer with turnInput for tcuId: %s and userId: %s"
+- "UserId has not been set for current session"
+- "Voice id card is nil. This is due to malformed homemembers list"
+- "Will wait on Myriad selection.."
+- "\\s*\\^[a-zA-Z0-9_]+\\^=\\^(.*?)\\^"
+- "_TtC24RequestDispatcherBridges10LVCHistory"
+- "_TtC24RequestDispatcherBridges10RVSHistory"
+- "_TtC24RequestDispatcherBridges16TurnInputManager"
+- "_TtC24RequestDispatcherBridges18NLRequestProcessor"
+- "_TtC24RequestDispatcherBridges18ServerAsrProcessor"
+- "_TtC24RequestDispatcherBridges18TurnInputContainer"
+- "_TtC24RequestDispatcherBridges19AsrRequestProcessor"
+- "_TtC24RequestDispatcherBridges20ASRMUXRequestContext"
+- "_TtC24RequestDispatcherBridges21CDMClientNotification"
+- "_TtC24RequestDispatcherBridges21MyriadDecisionMonitor"
+- "_TtC24RequestDispatcherBridges23ResponseVariantSelector"
+- "_TtC24RequestDispatcherBridges25AssistantNLRequestHandler"
+- "_TtC24RequestDispatcherBridges25DictationNLRequestHandler"
+- "_TtC24RequestDispatcherBridges27NLBridgeInstrumentationUtil"
+- "_TtC24RequestDispatcherBridges28ASRBridgeInstrumentationUtil"
+- "_TtC24RequestDispatcherBridges28ASRMUXResultCandidateContext"
+- "_TtC24RequestDispatcherBridges28NLRequestTimeoutTimerManager"
+- "_TtC24RequestDispatcherBridges28ResultCandidateNlSpeechInput"
+- "_TtC24RequestDispatcherBridges28SiriReferenceResolutionProxy"
+- "_TtC24RequestDispatcherBridges29AttendingStatesServiceHandler"
+- "_TtC24RequestDispatcherBridges30BufferedResultCandidateHandler"
+- "_TtC24RequestDispatcherBridges31AsrCandidateRequestCacheManager"
+- "_TtC24RequestDispatcherBridges31SpeechRecognizerResponseHandler"
+- "_TtC24RequestDispatcherBridges38TurnConstructionCandidateNlSpeechInput"
+- "_TtC24RequestDispatcherBridges40AssistantSpeechRecognizerResponseHandler"
+- "_TtC24RequestDispatcherBridges40DictationSpeechRecognizerResponseHandler"
+- "_TtC24RequestDispatcherBridges8CDMProxy"
+- "_TtC24RequestDispatcherBridges8NLBridge"
+- "_TtC24RequestDispatcherBridges9AsrBridge"
+- "aceId"
+- "aceToken"
+- "activeSessionId"
+- "activeSessionId is not equal to the current sessionId: %s we are trying to end"
+- "applicationName"
+- "asrASRReadyForNewTurn"
+- "asrAttendingStartedMessagePosted"
+- "asrAttendingStoppedUnexpectedlyMessagePosted"
+- "asrOnServer"
+- "asrRcId"
+- "asrRcIdPreNLUserSelectionCompleted"
+- "asrResult could not be found for nlResponse: %s"
+- "asrResult could not be found for nluRequestId: %s"
+- "asrResultCandidateAccepted"
+- "asrResultCandidateAcceptedFailure"
+- "asrResultCandidateAcceptedMUX"
+- "asrResultCandidateAcceptedMUXFailure"
+- "asrResultCandidateAcceptedMessagePosted"
+- "asrResultCandidateAcceptedMessagePostedFailure"
+- "asrResultCandidateReceived"
+- "asrResultCandidateReceivedFailure"
+- "asrResultCandidateWithEndpoint"
+- "asrResultCandidateWithEndpointFailure"
+- "asrSpeechRecognizerStarted"
+- "asrSpeechRecognizerStopped"
+- "asrSpeechStartDetected"
+- "asrSpeechStopDetectedPosted"
+- "asrStoppedListeningForSpeechContinuationPosted"
+- "asrTRPCandidateGenerated"
+- "assets changed and there is not active session check if we need to release cdmClient"
+- "assets changed, available: %{bool}d"
+- "assets changed, should call setup again"
+- "assetsAvailable"
+- "assetsAvailable for locale: %s"
+- "assetsAvailableForLocale:"
+- "assetsChanged"
+- "assetsUnavailable"
+- "assistantId"
+- "assistantRequestHandler"
+- "assistantRequestHandler had already been constructed by the time we entered initializeRequestHandler"
+- "assistant_cdmd was killed and subsequent setup tries also resulted in daemon death. Releasing cdmClient"
+- "attendingClient"
+- "attendingStatesServiceHandler"
+- "autoPunctuation"
+- "bufferedRcPending"
+- "bufferedResultCandidateHandler"
+- "cacheHolder"
+- "callState"
+- "cancelIfNotAlreadyCanceled"
+- "candidateRequestCacheManager"
+- "captureSnapshot"
+- "cdmActiveServiceGraph"
+- "cdmClient"
+- "cdmClient decouple expiration changed from default to : %ld seconds"
+- "cdmClient doesn't exist, creating one"
+- "cdmClient expired, releasing"
+- "cdmClient is nil so nothing to release here"
+- "cdmClient is nil, cannot send nluRequest for startRequestId: %s nluRequestId: %s"
+- "cdmClient is nil, this can't happen"
+- "cdmClient is not decoupled from session, releasing cdmClient"
+- "cdmClient observed cdm daemon death, but cdm previously failed setup. Aborting setup retry"
+- "cdmClient observed cdm daemon death, but cdm previously timed out. Aborting setup retry"
+- "cdmClient observed cdm daemon death, but setup retry has already been attempted once. Aborting setup retry"
+- "cdmClient observed cdm daemon death. Retrying setup"
+- "cdmClient observed cdmDaemonKilledStatus (daemonKilled) is nil"
+- "cdmClient observed cdmSetupStatus (successFromSetup) with a nil. Treating this a failure."
+- "cdmClient reset cdm daemon death value to false. self.daemonKilled = %{bool}d, self.cdmSetupRetried = %{bool}d"
+- "cdmClient setup result, cdmSetupSucceeded: %{bool}d"
+- "cdmClient setup result, cdmSetupSucceeded: false, error: %s"
+- "cdmClient timeout changed from default to : %ld ms"
+- "cdmClientNotification"
+- "cdmDaemonKilled"
+- "cdmObserverDaemonKilled"
+- "cdmObserverErrorFromSetup"
+- "cdmObserverSuccessFromSetup"
+- "cdmProxy"
+- "cdmProxyExpirationInSeconds"
+- "cdmSetupRetried"
+- "cdmSetupSucceeded"
+- "cdmSetupSucceeded is false or nil, or has timed out in the session, handling setup failure. startRequestId: %s nluRequestId: %s"
+- "cdmSetupTimeout"
+- "cdmSetupTimeoutMillis"
+- "code"
+- "collectSalientEntitiesInternal(filter:completion:)"
+- "com.apple.assistant"
+- "com.apple.siri.asr.attending.handler"
+- "com.apple.siri.asr.cache"
+- "com.apple.siri.nlBridge.NLRequestTimeoutTimerManager"
+- "com.apple.siri.nlBridge.SiriReferenceResolutionProxy"
+- "com.apple.siri.nlBridge.cdmProxy"
+- "com.apple.siri.nlBridge.cdmProxy.sendNluRequestTimeoutTimer"
+- "com.apple.siri.nlv3"
+- "commandGrammarParsePackage"
+- "confidenceScore"
+- "continuousListening"
+- "creating and handling empty speech result"
+- "currentNLSetupId"
+- "currentNLSetupId is not set. Not emitting a NL setup linking message"
+- "currentSessionId"
+- "daemonKilled"
+- "data"
+- "dealloc"
+- "delegatedUserDialogActs for rcId: %s delegatedUserDialogActs: %s"
+- "detectUtterances"
+- "dictationAutoPunctuationEnabled"
+- "dictationLanguage"
+- "dictationOptions"
+- "dictationRequestHandler"
+- "didCompleteRecognitionWithError:secureOfflineOnlyRecognition:sessionUUID:statistics:"
+- "didRecognizeFinalResultCandidatePackage:sessionUUID:"
+- "didRecognizePackage:nluResult:sessionUUID:"
+- "didRecognizePackage:sessionUUID:"
+- "didRecognizePartialPackage:nluResult:sessionUUID:"
+- "didRecognizeTokens:nluResult:sessionUUID:"
+- "didRecognizeTokens:sessionUUID:"
+- "didRecognizeVoiceCommandCandidatePackage:nluResult:sessionUUID:"
+- "didStopASR"
+- "didUpdateTurnContainer"
+- "disableLocalSpeechRecognitionForRequestId:"
+- "dismissAttending"
+- "displayHintsFromSession: %s"
+- "doubleValue"
+- "embeddedspeech probably crashed, failing current request"
+- "emojiRecognition"
+- "endTime"
+- "errorFromSetup"
+- "fetchContextsForKeys:forRequestID:includesNearbyDevices:completion:"
+- "firstMatchInString:options:range:"
+- "forceOfflineRecognition"
+- "handleCommand:withExecutionContextMatchingInfo:completion:"
+- "handleSpeechRecognized:completion:"
+- "handleSpeechServerEndpointIdentified:completion:"
+- "handling session started for session id: %s"
+- "hasTransitionedToActive"
+- "hasfirstVoiceIdScoreCardArrived"
+- "havePostedSpeechPartialDeliveryStartedMessage"
+- "homeMembers"
+- "idA"
+- "immutableSessionState"
+- "inRequestInternal(requestId:)"
+- "init()"
+- "initWithBuilder:"
+- "initWithDelegate:"
+- "initWithDomain:code:userInfo:"
+- "initWithLocaleIdentifier:sandboxId:activeServiceGraph:assetDirPath:overrideSiriVocabSpans:serviceStateDirectory:embeddingVersion:nlSetupId:invocationSource:"
+- "initWithNSUUID:"
+- "initWithPattern:options:error:"
+- "initWithReason:"
+- "initWithRecognition:rawRecognition:audioAnalytics:isFinal:utteranceStart:"
+- "initWithRequestId:inputOrigin:speechRecognitionTaskName:speechRecognitionMode:location:jitGrammar:overrideModelPath:applicationName:detectUtterances:continuousListening:shouldHandleCapitalization:secureOfflineOnly:maximumRecognitionDuration:recognitionOverrides:shouldStoreAudioOnDevice:deliverEagerPackage:enableEmojiRecognition:enableAutoPunctuation:UILanguage:enableVoiceCommands:dictationUIInteractionId:sharedUserInfos:prefixText:postfixText:selectedText:powerContext:shouldStartAudioCapture:audioCaptureStartHostTime:audioRecordType:audioRecordDeviceId:"
+- "initWithRequestId:inputOrigin:speechRecognitionTaskName:speechRecognitionMode:location:jitGrammar:overrideModelPath:applicationName:detectUtterances:continuousListening:shouldHandleCapitalization:secureOfflineOnly:maximumRecognitionDuration:recognitionOverrides:shouldStoreAudioOnDevice:deliverEagerPackage:enableEmojiRecognition:enableAutoPunctuation:UILanguage:enableVoiceCommands:dictationUIInteractionId:sharedUserInfos:prefixText:postfixText:selectedText:powerContext:shouldStartAudioCapture:audioCaptureStartHostTime:audioRecordType:audioRecordDeviceId:shouldGenerateVoiceCommandCandidates:"
+- "initWithSerializedBackingStore:"
+- "initWithSharedUserId:loggableSharedUserId:"
+- "initWithSpIdAudioProcessedDuration:spIdUnknownUserScore:spIdKnownUserScores:spIdUserScoresVersion:spIdScoreThresholdingType:spIdAssetVersion:userClassified:userIdentityClassification:"
+- "initWithSuiteName:"
+- "initWithTimeoutInterval:onQueue:timeoutHandler:"
+- "inlineItemList"
+- "integerForKey:"
+- "integerValue"
+- "interactionIdentifier"
+- "interpretationIndices"
+- "interpretations"
+- "invalidate"
+- "ipaPhoneSequence"
+- "isCandidateRequest"
+- "isDecoupleFromSession"
+- "isDictationAutoPunctuationEnabled"
+- "isFFRequest"
+- "isIdentityBridgeInstrumentationEnabled"
+- "isIdentityScoreConsumptionEnabled"
+- "isMUXEnabled"
+- "isMedocEnabled"
+- "isMitigated"
+- "isMultilingualResponseVariantSelectorEnabled"
+- "isRMVEnabed"
+- "isRMVEnabled"
+- "isRequestCancelled"
+- "isSCDAFrameworkEnabled"
+- "isUOS"
+- "is_identity_bridge_instrumentation_enabled"
+- "is_identity_score_consumption_enabled"
+- "languageVariantName"
+- "languageVariantNames"
+- "lastAccessTime"
+- "lastSetupTime"
+- "lastTRPCandidateId"
+- "limit"
+- "limitPerUser"
+- "localAttendingStarted"
+- "localAttendingStarted is deprecated, will handle localAttendingStarted with rootRequestId instead"
+- "localAttendingStartedWithRootRequestId:"
+- "localAttendingStoppedUnexpectedlyWithError:"
+- "localAttendingWillStartWithRootRequestId:"
+- "localSpeechRecognizerClient(_:didAcceptedEagerResultWithRequestId:rcId:mitigationSignal:featuresToLog:)"
+- "localSpeechRecognizerClient(_:receivedContinuityEndDetected:)"
+- "localSpeechRecognizerClient(_:receivedFinalResultCandidateWithRequestId:speechPackage:)"
+- "localSpeechRecognizerClient(_:receivedFinalResultWithRequestId:speechPackage:)"
+- "localSpeechRecognizerClient(_:receivedFinalResultWithRequestId:speechPackage:metadata:)"
+- "localSpeechRecognizerClient(_:receivedPartialResultWithRequestId:language:speechPackage:metadata:)"
+- "localSpeechRecognizerClient(_:receivedPartialResultWithRequestId:language:tokens:)"
+- "localSpeechRecognizerClient(_:receivedPartialResultWithRequestId:language:tokens:metadata:)"
+- "localSpeechRecognizerClient(_:receivedTRPCandidatePackage:)"
+- "localSpeechRecognizerClient(_:receivedTRPDetected:)"
+- "localSpeechRecognizerClient(_:receivedVoiceCommandCandidateWithRequestId:speechPackage:metadata:)"
+- "localSpeechRecognizerClient(_:receivedVoiceIdScoreCard:)"
+- "localSpeechRecognizerClient(_:requestAttentionAssetDownload:)"
+- "localSpeechRecognizerClient:didAcceptedEagerResultWithRequestId:rcId:mitigationSignal:featuresToLog:"
+- "localSpeechRecognizerClient:didCompletionRecognitionWithStatistics:requestId:endpointMode:error:"
+- "localSpeechRecognizerClient:didCompletionRecognitionWithStatistics:requestId:error:"
+- "localSpeechRecognizerClient:receivedContinuityEndDetected:"
+- "localSpeechRecognizerClient:receivedEagerRecognitionCandidateWithRequestId:rcId:speechPackage:duration:"
+- "localSpeechRecognizerClient:receivedEagerRecognitionCandidateWithRequestId:rcId:speechPackage:duration:metadata:"
+- "localSpeechRecognizerClient:receivedFinalResultCandidateWithRequestId:speechPackage:"
+- "localSpeechRecognizerClient:receivedFinalResultWithRequestId:speechPackage:"
+- "localSpeechRecognizerClient:receivedFinalResultWithRequestId:speechPackage:metadata:"
+- "localSpeechRecognizerClient:receivedPartialResultWithRequestId:language:speechPackage:metadata:"
+- "localSpeechRecognizerClient:receivedPartialResultWithRequestId:language:tokens:"
+- "localSpeechRecognizerClient:receivedPartialResultWithRequestId:language:tokens:metadata:"
+- "localSpeechRecognizerClient:receivedTCUStateUpdate:"
+- "localSpeechRecognizerClient:receivedTRPCandidatePackage:"
+- "localSpeechRecognizerClient:receivedTRPDetected:"
+- "localSpeechRecognizerClient:receivedVoiceCommandCandidateWithRequestId:speechPackage:metadata:"
+- "localSpeechRecognizerClient:receivedVoiceIdScoreCard:"
+- "localSpeechRecognizerClient:requestAttentionAssetDownload:"
+- "locale"
+- "localeToVariants"
+- "logWithEventContext:requestIdentifier:"
+- "loggableMultiUserSharedUserId"
+- "loggableSharedUserId"
+- "lvcHistory"
+- "lvcTurns"
+- "maxEagerRCAllowed"
+- "maxEagerRcAllowed: %ld"
+- "maximumRecognitionDuration"
+- "maybeStopLocalSpeechRecognition(forClient:reason:)"
+- "messagePublisher"
+- "messagePublishing"
+- "modelOverrideURL"
+- "muxContextMessage"
+- "muxRcMsgBuffered"
+- "muxRequestContext"
+- "myriadMonitor"
+- "nil audioRecordDeviceId from the AsrCandidateRequestCache"
+- "nil audioRecordType from AsrCandidateRequestCache"
+- "nil hostTime from AsrCandidateRequestCache"
+- "nil location from the AsrCandidateRequestCache"
+- "nlCdmSetupStarted"
+- "nlCdmSetupSuccess"
+- "nlRepetitionMessage could not be created for nluResponse: %s"
+- "nlRequestId"
+- "nlRequestTimeoutTimerManager"
+- "nlResultMessage could not be created for nluResponse: %s"
+- "nlTRPCandidateGenerated"
+- "nluCollectSalientEntityEnd"
+- "nluCollectSalientEntityStart"
+- "nluRequestIdToDictationAsrResult"
+- "nluRequestIdToResultCandidate"
+- "nluRequestIdToStartRequestId"
+- "nluRequestReceivedInCdmProxy"
+- "nluResponse.parses is empty, falling back on nlv3 server"
+- "nluResponse.parses is empty, returning false for executeNLOnServer"
+- "nluResponseExecuteOnServer"
+- "nluResponseReceived"
+- "nluResponseReceivedFailure"
+- "notifySpeechDetectedIsUndirected"
+- "numRCsPosted"
+- "offlineDictationStatus"
+- "offlineLanguage"
+- "oneBestTokenList"
+- "pauseLocalSpeechRecognitionForRequestId:"
+- "phoneSequence"
+- "phrases"
+- "postSucceeded: %{bool}d for nlResultMessage: %@"
+- "postfixText"
+- "prefixText"
+- "prevTCUIds"
+- "previousTurnInputs"
+- "processCDMNluRequest:"
+- "processCDMNluRequestCallback:"
+- "processCDMNluRequestErrorCallback:error:"
+- "processedAudioDuration"
+- "processor not available for handling error for nl request id: %s "
+- "processor not available for nl request id: %s response: %s"
+- "pullingEntitiesOnSiriPrompt"
+- "queue"
+- "rcBuffer"
+- "rcID"
+- "recognitionOverrides"
+- "refId"
+- "referenceResolutionClient"
+- "referenceResolutionProxy"
+- "registerProcessor for startRequestId: %s is not belong to the active session"
+- "registerWithAssetsDelegate:"
+- "removeSpaceAfter"
+- "removeSpaceBefore"
+- "removing entry from nluRequestIdToStartRequestId for nlRequestId: %s"
+- "reportSetupEventLink received outside allowed time window. ignoring"
+- "request service graph is different the exists one, should call setup again"
+- "requestDismissed"
+- "requestDownload = %{bool}d, returning."
+- "requestId"
+- "requestIdToTimeoutTimer"
+- "requestQueue"
+- "requestType"
+- "requestType %s should not receive CDM callback"
+- "resultCandidate"
+- "resultCandidateId:"
+- "resultCandidates"
+- "resultId"
+- "resultSelectedMsg"
+- "resultSelectionGated"
+- "resultType is final but speechPackage is nil"
+- "resultType is partial but speechTokens is nil"
+- "resumeLocalRecognitionWithRequestId:prefixText:postfixText:selectedText:"
+- "retrieveSalientEntitiesInternal(filter:)"
+- "rrCandidate size = %ld"
+- "rvsHistory"
+- "rvsTurns"
+- "salientEntities size = %ld"
+- "secureOfflineOnly"
+- "selectResultWithResultCandidate:completion:"
+- "selectedRcId"
+- "selectedText"
+- "serializedContextByKey"
+- "serverAsrProcessor"
+- "serverDelegatedUserDialogActFromNLUResponse:"
+- "serverEndPointReceived"
+- "serverEndPointSentToSpeech"
+- "serverEndpointIdentifiedMessage"
+- "serverFallbackDisablingUtils"
+- "sessionState"
+- "sessionUserId"
+- "setAsrBridgeContext:"
+- "setCdmBridgeContext:"
+- "setCdmSetupLink:"
+- "setCommandGrammarParsePackage:"
+- "setDelegatedUserDialogAct:"
+- "setError:"
+- "setErrorCode:"
+- "setEventMetadata:"
+- "setFailed:"
+- "setFallbackReason:"
+- "setLanguage:"
+- "setLastTRPCandidateId:"
+- "setLocalSpeechRecognizerClientDelegate:"
+- "setMultiUserResultCandidate:"
+- "setMultiUserResultSelected:"
+- "setNlId:"
+- "setNluResponse:"
+- "setNlv3ServerFallbackDeprecated:"
+- "setRequestId:"
+- "setResultCandidate:"
+- "setResultCandidateId:"
+- "setResultSelected:"
+- "setSiriClientSetupLink:"
+- "setSpeechEvent:"
+- "setSpeechPackage:"
+- "setStatus:"
+- "setTaskType:"
+- "setTcuId:"
+- "setTcuList:"
+- "setTokens:"
+- "setTrpCandidateId:"
+- "setTrpCandidateReceived:"
+- "setting sessionId and sessionState to nil"
+- "setup did not finish before the assets notification so ignore the change"
+- "setup finished before the assets notification so mark it as changed"
+- "setup:"
+- "setupSemaphore"
+- "setupTimeSignpostId"
+- "sharedMonitor"
+- "sharedPreferences"
+- "sharedUserId"
+- "shouldAssetsTimeout"
+- "shouldClassifyIntent"
+- "shouldDisableServerFallback return true for machineUtterance"
+- "shouldDisableServerFallback returns false for CDM setup failure. requestId: %s, rcId: %s; request falling back"
+- "shouldDisableServerFallback returns true for CDM setup failure. requestId: %s, rcId: %s; request will fail"
+- "shouldGenerateVoiceCommandCandidates"
+- "shouldHandleCapitalization"
+- "shouldRecognizeCommands"
+- "siriDidPromptWithRootRequestId:"
+- "siriInputLocale"
+- "siriPromptWillStartWithRootRequestId:"
+- "spIdAudioProcessedDuration"
+- "spIdKnownUserScores"
+- "spIdUnknownUserScore"
+- "speechClient"
+- "speechPartialResultsCache"
+- "speechRecognitionTask"
+- "speechRecognizerReadyForNewTurnWithSpeechStartDetectedAtHostTime:audioRecordType:audioRecordDeviceId:"
+- "speechResponseHandler"
+- "speechStartDetectedWithHostTime:audioRecordType:audioRecordDeviceId:"
+- "speechStartDetectedWithShouldDuckTTS:"
+- "start"
+- "startRequestId not available for response: %s"
+- "startRequestIdToProcessor"
+- "startSpeechRecognitionResultsWithSettings:"
+- "startTime"
+- "startUpdateStates"
+- "stopSpeechRecognitionTaskAndInvalidateWithReason:requestId:completion:"
+- "stopSpeechRecognitionTaskWithReason:requestId:"
+- "stringForKey:"
+- "submitCachedPartials()"
+- "submitExternalActivationRequest:completion:"
+- "successFromSetup"
+- "taskHint"
+- "tcuCandidate"
+- "tcuId %s did not have a valid NL response"
+- "tcuList"
+- "text"
+- "textBasedResultCandidateMessage is a machine utterance. requestId: %s, rcId: %s"
+- "tokens"
+- "transitionCandidateRequest()"
+- "transitionedToActive"
+- "trpCandidateId"
+- "trpIdToTcuIdMapping"
+- "turnConstructionCandidateIdToNLUResponse"
+- "turnConstructionCandidateIdToTrpId"
+- "turnInput tuple not found for rcId: "
+- "turnInput tuple not found for rcId: %s. Cannot process NL response."
+- "turnInputContainer"
+- "turnInputManager"
+- "turnInputsByRcId"
+- "turnInputsByTcuId"
+- "understandingOnDevice"
+- "unregisterProcessor for startRequestId: %s is not belong to the active session"
+- "unsignedIntValue"
+- "updateTCUState:"
+- "userId"
+- "userIdDict"
+- "userIdentityClassification"
+- "userRcId"
+- "userRcIdToMuxResultCandidateContext"
+- "utterances"
+- "v12@?0B8"
+- "v16@?0@\"<SMTContinuityEndMutating>\"8"
+- "v16@?0@\"<SMTTCUPackageMutating>\"8"
+- "v16@?0@\"<SMTTRPCandidateMutating>\"8"
+- "v16@?0@\"<SMTTRPDetectedMutating>\"8"
+- "v16@?0@\"NSArray\"8"
+- "v20@0:8B16"
+- "v24@0:8@\"CDMNluResponse\"16"
+- "v24@0:8@\"NSError\"16"
+- "v24@0:8@\"NSLocale\"16"
+- "v24@0:8@\"NSString\"16"
+- "v28@0:8@\"LBLocalSpeechRecognizerClient\"16B24"
+- "v28@0:8@16B24"
+- "v32@0:8@\"AFRequestInfo\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"AFSpeechPackage\"16@\"NSString\"24"
+- "v32@0:8@\"CDMNluRequestID\"16@\"NSError\"24"
+- "v32@0:8@\"LBLocalSpeechRecognizerClient\"16@\"AFVoiceIdScoreCard\"24"
+- "v32@0:8@\"LBLocalSpeechRecognizerClient\"16@\"NSDictionary\"24"
+- "v32@0:8@\"LBLocalSpeechRecognizerClient\"16@\"SMTContinuityEnd\"24"
+- "v32@0:8@\"LBLocalSpeechRecognizerClient\"16@\"SMTTRPCandidate\"24"
+- "v32@0:8@\"LBLocalSpeechRecognizerClient\"16@\"SMTTRPDetected\"24"
+- "v32@0:8@\"NSArray\"16@\"NSString\"24"
+- "v32@0:8@\"SASResultCandidate\"16@?<v@?@\"SABaseCommand\"@\"NSError\">24"
+- "v32@0:8@\"SASSpeechRecognized\"16@?<v@?@\"SABaseCommand\"@\"NSError\">24"
+- "v32@0:8@\"SASSpeechServerEndpointIdentified\"16@?<v@?@\"SABaseCommand\"@\"NSError\">24"
+- "v32@0:8@16@24"
+- "v40@0:8@\"AFSpeechPackage\"16@\"AFDictationNLUResult\"24@\"NSString\"32"
+- "v40@0:8@\"LBLocalSpeechRecognizerClient\"16@\"NSString\"24@\"AFSpeechPackage\"32"
+- "v40@0:8@\"NSArray\"16@\"AFDictationNLUResult\"24@\"NSString\"32"
+- "v40@0:8@\"SABaseCommand\"16@\"AFCommandExecutionInfo\"24@?<v@?@\"SABaseCommand\"@\"NSError\">32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8Q16q24@\"NSString\"32"
+- "v40@0:8Q16q24@32"
+- "v44@0:8@\"NSError\"16B24@\"NSString\"28@\"NSDictionary\"36"
+- "v44@0:8@\"NSSet\"16@\"NSString\"24B32@?<v@?@\"NSArray\">36"
+- "v44@0:8@16@24B32@?36"
+- "v44@0:8@16B24@28@36"
+- "v48@0:8@\"LBLocalSpeechRecognizerClient\"16@\"NSDictionary\"24@\"NSString\"32@\"NSError\"40"
+- "v48@0:8@\"LBLocalSpeechRecognizerClient\"16@\"NSString\"24@\"AFSpeechPackage\"32@\"AFSpeechInfoPackage\"40"
+- "v48@0:8@\"LBLocalSpeechRecognizerClient\"16@\"NSString\"24@\"NSString\"32@\"NSArray\"40"
+- "v48@0:8@16@24@32@40"
+- "v52@0:8@\"LBLocalSpeechRecognizerClient\"16@\"NSString\"24Q32B40@\"NSArray\"44"
+- "v52@0:8@16@24Q32B40@44"
+- "v56@0:8@\"LBLocalSpeechRecognizerClient\"16@\"NSDictionary\"24@\"NSString\"32q40@\"NSError\"48"
+- "v56@0:8@\"LBLocalSpeechRecognizerClient\"16@\"NSString\"24@\"NSString\"32@\"AFSpeechPackage\"40@\"AFSpeechInfoPackage\"48"
+- "v56@0:8@\"LBLocalSpeechRecognizerClient\"16@\"NSString\"24@\"NSString\"32@\"NSArray\"40@\"AFSpeechInfoPackage\"48"
+- "v56@0:8@\"LBLocalSpeechRecognizerClient\"16@\"NSString\"24Q32@\"AFSpeechPackage\"40d48"
+- "v56@0:8@16@24@32@40@48"
+- "v56@0:8@16@24@32q40@48"
+- "v56@0:8@16@24Q32@40d48"
+- "v64@0:8@\"LBLocalSpeechRecognizerClient\"16@\"NSString\"24Q32@\"AFSpeechPackage\"40d48@\"AFSpeechInfoPackage\"56"
+- "v64@0:8@16@24Q32@40d48@56"
+- "v8@?0"
+- "voiceIdScoreCard"
+- "waitForMyriadDecisionForReason:withCompletion:"
+
+```

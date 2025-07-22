@@ -1,0 +1,793 @@
+## iCloudQuotaUI
+
+> `/System/Library/PrivateFrameworks/iCloudQuotaUI.framework/iCloudQuotaUI`
+
+```diff
+
+-301.21.1.3.0
+-  __TEXT.__text: 0x1a09c4
+-  __TEXT.__auth_stubs: 0x3a70
+-  __TEXT.__objc_methlist: 0x8000
+-  __TEXT.__const: 0x8534
+-  __TEXT.__gcc_except_tab: 0xd18
+-  __TEXT.__cstring: 0xe5f1
+-  __TEXT.__oslogstring: 0x8ee5
++301.21.1.10.0
++  __TEXT.__text: 0x1bb560
++  __TEXT.__auth_stubs: 0x3d20
++  __TEXT.__objc_methlist: 0x8388
++  __TEXT.__const: 0x8b04
++  __TEXT.__gcc_except_tab: 0xd28
++  __TEXT.__cstring: 0xecd1
++  __TEXT.__oslogstring: 0x9054
+   __TEXT.__dlopen_cstrs: 0x689
+-  __TEXT.__swift5_typeref: 0xdeca
+-  __TEXT.__swift5_reflstr: 0x21aa
+-  __TEXT.__swift5_assocty: 0xb58
+-  __TEXT.__constg_swiftt: 0x37d4
+-  __TEXT.__swift5_fieldmd: 0x248c
+-  __TEXT.__swift5_capture: 0xe44
+-  __TEXT.__swift5_proto: 0x5a0
+-  __TEXT.__swift5_types: 0x2d8
+-  __TEXT.__swift5_builtin: 0x78
++  __TEXT.__swift5_typeref: 0xecfe
++  __TEXT.__swift5_reflstr: 0x22ca
++  __TEXT.__swift5_assocty: 0xba0
++  __TEXT.__constg_swiftt: 0x3abc
++  __TEXT.__swift5_fieldmd: 0x269c
++  __TEXT.__swift5_capture: 0x10dc
++  __TEXT.__swift5_proto: 0x5dc
++  __TEXT.__swift5_types: 0x2fc
++  __TEXT.__swift5_builtin: 0xa0
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x6888
+-  __TEXT.__eh_frame: 0x40a8
+-  __TEXT.__objc_classname: 0x1750
+-  __TEXT.__objc_methname: 0x198b0
+-  __TEXT.__objc_methtype: 0x5a6d
+-  __TEXT.__objc_stubs: 0x13180
+-  __DATA_CONST.__got: 0xf08
+-  __DATA_CONST.__const: 0x2610
+-  __DATA_CONST.__objc_classlist: 0x5c0
++  __TEXT.__unwind_info: 0x6f04
++  __TEXT.__eh_frame: 0x4f98
++  __TEXT.__objc_classname: 0x17b6
++  __TEXT.__objc_methname: 0x1a002
++  __TEXT.__objc_methtype: 0x5b9f
++  __TEXT.__objc_stubs: 0x135a0
++  __DATA_CONST.__got: 0x1008
++  __DATA_CONST.__const: 0x2678
++  __DATA_CONST.__objc_classlist: 0x5d8
+   __DATA_CONST.__objc_catlist: 0x78
+-  __DATA_CONST.__objc_protolist: 0x270
++  __DATA_CONST.__objc_protolist: 0x288
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x21338
+-  __DATA_CONST.__objc_selrefs: 0x5f80
++  __DATA_CONST.__objc_const: 0x21dc0
++  __DATA_CONST.__objc_selrefs: 0x6108
+   __DATA_CONST.__objc_arraydata: 0x578
+-  __AUTH_CONST.__cfstring: 0x7280
+-  __AUTH_CONST.__objc_const: 0x3810
+-  __AUTH_CONST.__const: 0xa020
++  __AUTH_CONST.__cfstring: 0x7320
++  __AUTH_CONST.__objc_const: 0x3930
++  __AUTH_CONST.__const: 0xad18
+   __AUTH_CONST.__objc_arrayobj: 0x120
+   __AUTH_CONST.__objc_intobj: 0x1c8
+   __AUTH_CONST.__objc_doubleobj: 0x40
+   __AUTH_CONST.__objc_dictobj: 0x488
+-  __AUTH_CONST.__auth_got: 0x1d48
+-  __AUTH.__objc_data: 0x42c8
+-  __AUTH.__data: 0x2808
+-  __DATA.__objc_protorefs: 0x88
+-  __DATA.__objc_classrefs: 0xbe0
+-  __DATA.__objc_superrefs: 0x370
+-  __DATA.__objc_ivar: 0xb3c
+-  __DATA.__objc_data: 0x60
+-  __DATA.__data: 0x5920
+-  __DATA.__bss: 0xc608
+-  __DATA.__common: 0x268
++  __AUTH_CONST.__auth_got: 0x1ea0
++  __AUTH.__objc_data: 0x4458
++  __AUTH.__data: 0x2a58
++  __DATA.__objc_protorefs: 0x90
++  __DATA.__objc_classrefs: 0xc28
++  __DATA.__objc_superrefs: 0x378
++  __DATA.__objc_ivar: 0xba0
++  __DATA.__objc_data: 0x80
++  __DATA.__data: 0x5e00
++  __DATA.__bss: 0xce10
++  __DATA.__common: 0x280
+   __DATA_DIRTY.__objc_data: 0x1e0
+   __DATA_DIRTY.__bss: 0x10
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices
+   - /System/Library/PrivateFrameworks/PhotoLibraryServicesCore.framework/PhotoLibraryServicesCore
++  - /System/Library/PrivateFrameworks/PhotosFormats.framework/PhotosFormats
++  - /System/Library/PrivateFrameworks/PhotosIntelligence.framework/PhotosIntelligence
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /System/Library/PrivateFrameworks/RemoteUI.framework/RemoteUI
+   - /System/Library/PrivateFrameworks/Settings.framework/Settings
+
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftVision.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BBF4C01D-4190-389D-98FE-C5D361DAB94B
+-  Functions: 9924
+-  Symbols:   15202
+-  CStrings:  8641
++  UUID: 75794394-D1F3-3955-81D0-DF980987C74A
++  Functions: 10527
++  Symbols:   15612
++  CStrings:  8779
+ 
+Symbols:
++ +[ICQCloudStorageInfo backupInfoHeadersForAccount:].cold.1
++ +[ICQLegacyBannerView replaceWordsIn:with:]
++ +[ICQUIImageLoader _hasURLForScale:inImageURL:]
++ +[ICQUIImageLoader _scaledImageURL:]
++ +[ICQUIImageLoader fetchIconForAssetID:]
++ +[ICQUIImageLoader fetchIconForBundleID:]
++ +[ICQUIImageLoader fetchIconFromIconSpecification:completion:]
++ +[ICQUIImageLoader fetchIconFromImageURL:completion:]
++ +[ICQUIImageLoader loadImageWithURL:completion:]
++ +[ICQUsageQuotaRequest addHeadersToRequest:forAccount:].cold.1
++ +[_ICQUIHelperFunctions appIconWithSize:forBundleID:drawBorder:]
++ +[_ICQUIHelperFunctions highestScreenScale]
++ -[ICQBannerView _initWithFrame:offer:]
++ -[ICQBannerView bubbleBanner]
++ -[ICQBannerView isLegacy]
++ -[ICQBannerView legacyBanner]
++ -[ICQBannerView performActionWith:]
++ -[ICQBannerView setBubbleBanner:]
++ -[ICQBannerView setIsLegacy:]
++ -[ICQBannerView setLegacyBanner:]
++ -[ICQInAppMessage bundleID]
++ -[ICQInAppMessage didDisplayMessage]
++ -[ICQInAppMessage fetchIconIfNeededWithCompletion:]
++ -[ICQInAppMessage iconSpecification]
++ -[ICQInAppMessage icon]
++ -[ICQInAppMessage initWithContentType:identifier:reason:title:subTitle:sfSymbolName:bundleID:actions:dismissAction:iconSpecification:]
++ -[ICQInAppMessage initWithContentType:identifier:reason:title:subTitle:sfSymbolName:bundleID:actions:iconSpecification:]
++ -[ICQInAppMessage placement]
++ -[ICQInAppMessage setBundleID:]
++ -[ICQInAppMessage setIconSpecification:]
++ -[ICQInAppMessaging _postMessage:]
++ -[ICQInAppMessaging observeUpdatesForBundleID:]
++ -[ICQInAppMessaging observeUpdatesForBundleID:placement:]
++ -[ICQInAppMessaging placement]
++ -[ICQInAppMessaging setPlacement:]
++ -[ICQLegacyBannerView .cxx_destruct]
++ -[ICQLegacyBannerView _applyTextParagraphAttributes]
++ -[ICQLegacyBannerView _applyTextStorageAttributes]
++ -[ICQLegacyBannerView _configureManageStorageButtonWithICQLink:]
++ -[ICQLegacyBannerView _configureManageStorageButtonWithICQLink:].cold.1
++ -[ICQLegacyBannerView _getOffer]
++ -[ICQLegacyBannerView _initWithFrame:]
++ -[ICQLegacyBannerView _performActionWithICQLink:]
++ -[ICQLegacyBannerView _updateBannerViewConstraints]
++ -[ICQLegacyBannerView activeConstraints]
++ -[ICQLegacyBannerView attributedText]
++ -[ICQLegacyBannerView delegate]
++ -[ICQLegacyBannerView detailAttributedText]
++ -[ICQLegacyBannerView detailMessageAttributes]
++ -[ICQLegacyBannerView detailMessageColor]
++ -[ICQLegacyBannerView detailMessageFont]
++ -[ICQLegacyBannerView flowOptions]
++ -[ICQLegacyBannerView font]
++ -[ICQLegacyBannerView initWithFrame:]
++ -[ICQLegacyBannerView initWithOffer:]
++ -[ICQLegacyBannerView initWithOffer:].cold.1
++ -[ICQLegacyBannerView linkAttributes]
++ -[ICQLegacyBannerView linkMessageColor]
++ -[ICQLegacyBannerView linkMessageFont]
++ -[ICQLegacyBannerView linkTextColor]
++ -[ICQLegacyBannerView linkTextFont]
++ -[ICQLegacyBannerView messageAttributes]
++ -[ICQLegacyBannerView offer]
++ -[ICQLegacyBannerView semanticContentAttribute]
++ -[ICQLegacyBannerView setActiveConstraints:]
++ -[ICQLegacyBannerView setDelegate:]
++ -[ICQLegacyBannerView setDetailMessageColor:]
++ -[ICQLegacyBannerView setDetailMessageFont:]
++ -[ICQLegacyBannerView setFlowOptions:]
++ -[ICQLegacyBannerView setFont:]
++ -[ICQLegacyBannerView setLinkMessageColor:]
++ -[ICQLegacyBannerView setLinkMessageFont:]
++ -[ICQLegacyBannerView setLinkTextColor:]
++ -[ICQLegacyBannerView setLinkTextFont:]
++ -[ICQLegacyBannerView setOffer:]
++ -[ICQLegacyBannerView setTextAlignment:]
++ -[ICQLegacyBannerView setTextColor:]
++ -[ICQLegacyBannerView setTextLineSpacing:]
++ -[ICQLegacyBannerView setTextMargins:]
++ -[ICQLegacyBannerView setTitleColor:]
++ -[ICQLegacyBannerView setTitleFont:]
++ -[ICQLegacyBannerView sizeThatFits:]
++ -[ICQLegacyBannerView textAlignment]
++ -[ICQLegacyBannerView textColor]
++ -[ICQLegacyBannerView textLineSpacing]
++ -[ICQLegacyBannerView textMargins]
++ -[ICQLegacyBannerView textParagraphStyleAttributes]
++ -[ICQLegacyBannerView textParagraphStyle]
++ -[ICQLegacyBannerView textView:shouldInteractWithURL:inRange:]
++ -[ICQLegacyBannerView textViewDidChangeSelection:]
++ -[ICQLegacyBannerView textView]
++ -[ICQLegacyBannerView titleAttributes]
++ -[ICQLegacyBannerView titleColor]
++ -[ICQLegacyBannerView titleFont]
++ -[ICQLegacyBannerView updateBannerView]
++ -[ICQLegacyBannerView updateConstraints]
++ -[ICQLegacyBannerView userInterfaceLayoutDirection]
++ -[ICQLocalBackupController setSpecifier:].cold.2
++ -[ICQUpgradeFlowManager _presentRemoteViewWithData:andRequest:]
++ -[ICQUpgradeFlowManager _presentRemoteViewWithData:andRequest:].cold.1
++ GCC_except_table29
++ GCC_except_table30
++ GCC_except_table35
++ GCC_except_table44
++ GCC_except_table53
++ GCC_except_table55
++ GCC_except_table81
++ _ICQBannerSourceBubbleBannerInfo
++ _ICQUIMessagePlacementInApp
++ _ICQUIMessagePlacementInSettingsAppDetail
++ _OBJC_CLASS_$_ICQIconSpecification
++ _OBJC_CLASS_$_ICQLegacyBannerView
++ _OBJC_CLASS_$_IMCloudKitHooks
++ _OBJC_CLASS_$_PFCropUtilities
++ _OBJC_CLASS_$_PHImageManager
++ _OBJC_CLASS_$_PHImageRequestOptions
++ _OBJC_CLASS_$_SwiftNativeNSObject
++ _OBJC_CLASS_$__TtC13iCloudQuotaUI19ICQBubbleBannerView
++ _OBJC_IVAR_$_ICQBannerView._bubbleBanner
++ _OBJC_IVAR_$_ICQBannerView._isLegacy
++ _OBJC_IVAR_$_ICQBannerView._legacyBanner
++ _OBJC_IVAR_$_ICQInAppMessage._bundleID
++ _OBJC_IVAR_$_ICQInAppMessage._icon
++ _OBJC_IVAR_$_ICQInAppMessage._iconSpecification
++ _OBJC_IVAR_$_ICQInAppMessage._placement
++ _OBJC_IVAR_$_ICQInAppMessaging._placement
++ _OBJC_IVAR_$_ICQLegacyBannerView._activeConstraints
++ _OBJC_IVAR_$_ICQLegacyBannerView._delegate
++ _OBJC_IVAR_$_ICQLegacyBannerView._detailMessageColor
++ _OBJC_IVAR_$_ICQLegacyBannerView._detailMessageFont
++ _OBJC_IVAR_$_ICQLegacyBannerView._flowOptions
++ _OBJC_IVAR_$_ICQLegacyBannerView._font
++ _OBJC_IVAR_$_ICQLegacyBannerView._linkMessageColor
++ _OBJC_IVAR_$_ICQLegacyBannerView._linkMessageFont
++ _OBJC_IVAR_$_ICQLegacyBannerView._linkTextColor
++ _OBJC_IVAR_$_ICQLegacyBannerView._linkTextFont
++ _OBJC_IVAR_$_ICQLegacyBannerView._manageStorageButton
++ _OBJC_IVAR_$_ICQLegacyBannerView._offer
++ _OBJC_IVAR_$_ICQLegacyBannerView._textAlignment
++ _OBJC_IVAR_$_ICQLegacyBannerView._textColor
++ _OBJC_IVAR_$_ICQLegacyBannerView._textLineSpacing
++ _OBJC_IVAR_$_ICQLegacyBannerView._textMargins
++ _OBJC_IVAR_$_ICQLegacyBannerView._textView
++ _OBJC_IVAR_$_ICQLegacyBannerView._titleColor
++ _OBJC_IVAR_$_ICQLegacyBannerView._titleFont
++ _OBJC_IVAR_$_ICQUpgradeFlowManager._nextRefreshBody
++ _OBJC_METACLASS_$_ICQLegacyBannerView
++ _OBJC_METACLASS_$_SwiftNativeNSObject
++ _OBJC_METACLASS_$__TtC13iCloudQuotaUI19ICQBubbleBannerView
++ __DATA__TtC13iCloudQuotaUI14PhotoGridModel
++ __DATA__TtC13iCloudQuotaUI19ICQBubbleBannerView
++ __IVARS__TtC13iCloudQuotaUI14PhotoGridModel
++ __IVARS__TtC13iCloudQuotaUI19ICQBubbleBannerView
++ __METACLASS_DATA__TtC13iCloudQuotaUI14PhotoGridModel
++ __METACLASS_DATA__TtC13iCloudQuotaUI19ICQBubbleBannerView
++ __OBJC_$_CLASS_METHODS_ICQAnalytics
++ __OBJC_$_CLASS_METHODS_ICQLegacyBannerView
++ __OBJC_$_CLASS_METHODS_ICQUIImageLoader
++ __OBJC_$_INSTANCE_METHODS_ICQLegacyBannerView
++ __OBJC_$_INSTANCE_METHODS__TtC13iCloudQuotaUI19ICQBubbleBannerView
++ __OBJC_$_INSTANCE_VARIABLES_ICQLegacyBannerView
++ __OBJC_$_PROP_LIST_ICQLegacyBannerView
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ICQLegacyBannerViewDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__TtP13iCloudQuotaUI27ICQBubbleBannerViewDelegate_
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ICQLegacyBannerViewDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES__TtP13iCloudQuotaUI27ICQBubbleBannerViewDelegate_
++ __OBJC_$_PROTOCOL_REFS_ICQLegacyBannerViewDelegate
++ __OBJC_CLASS_PROTOCOLS_$_ICQLegacyBannerView
++ __OBJC_CLASS_RO_$_ICQLegacyBannerView
++ __OBJC_LABEL_PROTOCOL_$_ICQLegacyBannerViewDelegate
++ __OBJC_LABEL_PROTOCOL_$__TtP13iCloudQuotaUI27ICQBubbleBannerViewDelegate_
++ __OBJC_METACLASS_RO_$_ICQLegacyBannerView
++ __OBJC_PROTOCOL_$_ICQLegacyBannerViewDelegate
++ __OBJC_PROTOCOL_$__TtP13iCloudQuotaUI27ICQBubbleBannerViewDelegate_
++ __PROPERTIES__TtC13iCloudQuotaUI19ICQBubbleBannerView
++ __PROTOCOL_INSTANCE_METHODS__TtP13iCloudQuotaUI27ICQBubbleBannerViewDelegate_
++ __PROTOCOL_METHOD_TYPES__TtP13iCloudQuotaUI27ICQBubbleBannerViewDelegate_
++ __PROTOCOL__TtP13iCloudQuotaUI27ICQBubbleBannerViewDelegate_
++ ___34-[ICQInAppMessaging _postMessage:]_block_invoke
++ ___34-[ICQInAppMessaging _postMessage:]_block_invoke_2
++ ___37-[ICQLegacyBannerView initWithOffer:]_block_invoke
++ ___39-[ICQInAppMessaging _fetchDefaultOffer]_block_invoke.77
++ ___39-[ICQInAppMessaging _fetchPremiumOffer]_block_invoke.75
++ ___39-[ICQInAppMessaging _fetchRegularOffer]_block_invoke.73
++ ___48+[ICQUIImageLoader loadImageWithURL:completion:]_block_invoke
++ ___48+[ICQUIImageLoader loadImageWithURL:completion:]_block_invoke.cold.1
++ ___48-[ICQCloudStorageSpecifierProvider setDelegate:]_block_invoke
++ ___48-[ICQCloudStorageSpecifierProvider setDelegate:]_block_invoke.cold.1
++ ___48-[ICQInAppMessaging fetchMessageWithCompletion:]_block_invoke
++ ___50-[ICQLegacyBannerView _applyTextStorageAttributes]_block_invoke
++ ___51-[ICQInAppMessage fetchIconIfNeededWithCompletion:]_block_invoke
++ ___53+[ICQUIImageLoader fetchIconFromImageURL:completion:]_block_invoke
++ ___53+[ICQUIImageLoader fetchIconFromImageURL:completion:]_block_invoke_2
++ ___56-[ICQCloudStorageSpecifierProvider _enterManageStorage:]_block_invoke.102
++ ___56-[ICQCloudStorageSpecifierProvider _enterManageStorage:]_block_invoke.cold.1
++ ___64-[ICQLegacyBannerView _configureManageStorageButtonWithICQLink:]_block_invoke
++ ___69-[ICQPreferencesRemoteUIDelegate loadURL:postBody:additionalHeaders:]_block_invoke
++ ___69-[ICQPreferencesRemoteUIDelegate loadURL:postBody:additionalHeaders:]_block_invoke.cold.1
++ ___76-[ICQInAppMessaging fetchMessageForReason:pendingItemsCount:withCompletion:]_block_invoke.69
++ ___76-[ICQUIRecommendationsSpecifierProvider _openRecommendationsViewController:]_block_invoke
++ ___76-[ICQUIRecommendationsSpecifierProvider _openRecommendationsViewController:]_block_invoke.cold.1
++ ___81-[ICQPreferencesRemoteUIDelegate _freshmintStorageUpgradeWithICQLink:completion:]_block_invoke.281
++ ___block_descriptor_40_e8_32bs_e28_v24?0"NSData"8"NSError"16ls32l8
++ ___block_descriptor_48_e8_32s40bs_e17_v16?0"UIImage"8ls32l8s40l8
++ ___block_descriptor_64_e8_32s40s48s56bs_e20_v20?0B8"NSError"12ls56l8s32l8s40l8s48l8
++ ___block_descriptor_73_e8_32s40s48s56s64bs_e5_v8?0ls32l8s64l8s40l8s48l8s56l8
++ ___block_literal_global.94
++ ___block_literal_global.98
++ _associated conformance 13iCloudQuotaUI12PhotoGridRowV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 13iCloudQuotaUI13PhotoGridItemVSHAASQ
++ _associated conformance 13iCloudQuotaUI13PhotoGridViewV04LiftC0010ModifiableF0AA1VAdEP_05SwiftC00F0
++ _associated conformance 13iCloudQuotaUI13PhotoGridViewV04LiftC003AnyF7ContentAASe
++ _associated conformance 13iCloudQuotaUI13PhotoGridViewV04LiftC003AnyF7ContentAaD16StringIdentified
++ _associated conformance 13iCloudQuotaUI13PhotoGridViewV05SwiftC00F0AA4BodyAdEP_AdE
++ _associated conformance 13iCloudQuotaUI13PhotoGridViewV10CodingKeys33_A9A7E05C5EAAC923EF90AE46C970DF23LLOSHAASQ
++ _associated conformance 13iCloudQuotaUI13PhotoGridViewV10CodingKeys33_A9A7E05C5EAAC923EF90AE46C970DF23LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13iCloudQuotaUI13PhotoGridViewV10CodingKeys33_A9A7E05C5EAAC923EF90AE46C970DF23LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.10
++ _block_copy_helper.167
++ _block_copy_helper.3
++ _block_copy_helper.58
++ _block_descriptor.12
++ _block_descriptor.169
++ _block_descriptor.43
++ _block_descriptor.5
++ _block_descriptor.60
++ _block_descriptor.93
++ _block_destroy_helper.11
++ _block_destroy_helper.168
++ _block_destroy_helper.4
++ _block_destroy_helper.59
++ _fmod
++ _get_witness_table 13iCloudQuotaUI20ReviewLargeFilesViewV05SwiftC00G0HPyHC.41
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE010navigationE5StyleyQrqd__AA010NavigationeG0Rd__lFQOyAA0hE0VyAeAE21disableAutocorrectionyQrSbSgFQOyAeAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVAA4TextVSgtFQOyAeAE0F5TitleyQrqd__SyRd__lFQOyAeAE0f3BarT11DisplayModeyQrAA0hU4ItemV0tvW0OFQOyAeAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQOyAeAE04listG0yQrqd__AA04ListG0Rd__lFQOyAA012_ConditionalD0VyAeAE5alert_11isPresented7actions7messageQrAA18LocalizedStringKeyV_AQySbGqd__yXEqd_0_yXEtAaDRd__AaDRd_0_r0_lFQOyAA4ListVys5NeverOAA05TupleE0VyAeAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyACyACy011iCloudQuotaB014DelayedSpinnerVAA14_PaddingLayoutVGAA16_FlexFrameLayoutVG_Qo__ACyAeAE20listSectionSeparator_A23_QrA25__A29_tFQOyAA7ForEachVySayA30_9ICQFPItemCGA44_A30_7FileRowVG_Qo_AA25_AlignmentWritingModifierVGtGG_AA6ButtonVyAVGAVQo_AeAE18confirmationDialog_A10_15titleVisibilityA11_Qrqd___A15_A25_qd_0_yXEtSyRd__AaDRd_0_r0_lFQOyA54__SSA57_Qo_G_AA09PlainListG0VQo__AA012TupleToolbarD0VyAA07ToolbarX0VyytA57_G_A70_AA07ToolbarD7BuilderV10buildBlockyQrxAAA4_RzlFZQOy_AA07ToolbarX5GroupVyA21_yAA6SpacerV_AVA77_ACyA56_yACyAA5ImageVAA31AccessibilityAttachmentModifierVGGAA32_EnvironmentKeyTransformModifierVySbGGtGGQo_SgtGQo__Qo__SSQo__Qo__Qo_G_AA05StackheG0VQo_AA25_AppearanceActionModifierVGAaDHPqd0__AaDHD3_A101_HO_A103_AA0E8ModifierHPyHCHC.34
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6ButtonVyACyAA5ImageVAA31AccessibilityAttachmentModifierVGGAA024_EnvironmentKeyTransformI0VySbGGAA4ViewHPAkaPHPyHC_AnA0mI0HPyHCHC.37
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewPAAE5alert_11isPresented7actions7messageQrAA18LocalizedStringKeyV_AA7BindingVySbGqd__yXEqd_0_yXEtAaDRd__AaDRd_0_r0_lFQOyAA4ListVys5NeverOAA05TupleE0VyAeAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA08ModifiedD0VyA2_y011iCloudQuotaB014DelayedSpinnerVAA14_PaddingLayoutVGAA16_FlexFrameLayoutVG_Qo__A2_yAeAE0r7SectionT0_AVQrAX_A0_tFQOyAA7ForEachVySayA3_9ICQFPItemCGA17_A3_04FileS0VG_Qo_AA25_AlignmentWritingModifierVGtGG_AA6ButtonVyAA4TextVGA31_Qo_AeAE18confirmationDialog_AG05titleV0AHQrqd___AnXqd_0_yXEtSyRd__AaDRd_0_r0_lFQOyA27__SSA32_Qo_GAaDHPqd0__AaDHD4_A33_HO_qd0__AaDHD4_A36_HOHC.39
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA08ModifiedD0VyAA6HStackVyAA9TupleViewVyAEyAA6SpacerVAA12_FrameLayoutVG_AA6ZStackVyAIyAEyAA4GridVyAA7ForEachVySaySay011iCloudQuotaB005PhotoM4ItemVGGAxU0rM3RowVGGAA20_MaskAlignmentEffectVyAEyAEyAEyAA5ImageVAA012_AspectRatioK0VGAMGAA07_OffsetW0VGGG_AEyAEyAEyAA03AnyH0VAMGA11_GAA07_ShadowW0VGSgtGGtGGAMGA16_SgGAEyAEyAA5ColorVAA13_TaskModifierVGAMGGAA0H0HPA29_AAA37_HPA27_AAA37_HPA26_AAA37_HPyHC_AmA0H8ModifierHPyHCHC_A28_AAA37_HpA16_AAA37_HPyHC_HCHC_A35_AAA37_HPA34_AAA37_HPA31_AAA37_HPyHC_A33_AAA38_HPyHCHC_AmAA38_HPyHCHCHC.7
++ _get_witness_table 7SwiftUI4ListVys5NeverOAA9TupleViewVyAA0F0PAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA15ModifiedContentVyASy011iCloudQuotaB014DelayedSpinnerVAA14_PaddingLayoutVGAA010_FlexFrameV0VG_Qo__ASyAiAE0g7SectionI0_AKQrAM_AQtFQOyAA7ForEachVySayAT9ICQFPItemCGA6_AT04FileH0VG_Qo_AA25_AlignmentWritingModifierVGtGGAaHHPyHC.38
++ _get_witness_table 7SwiftUI4TextVAA4ViewHPyHC.35
++ _get_witness_table 7SwiftUI6ButtonVyAA4TextVGAA4ViewHPyHC.36
++ _get_witness_table 7SwiftUI7AnyViewVAA0D0HPyHC.33
++ _get_witness_table 7SwiftUI7ForEachVySay011iCloudQuotaB09ICQFPItemCGAfD7FileRowVGAA4ViewHPAiaKHPyHC_HC.40
++ _get_witness_table 7SwiftUI7GridRowVyAA7ForEachVySay011iCloudQuotaB005PhotoC4ItemVGAhA15ModifiedContentVyAKyAKyAKyAA5ImageVAA18_AspectRatioLayoutVGAA010_FlexFrameP0VGAA11_ClipEffectVyAA9RectangleVGGAOGGGAA4ViewHPyHC.8
++ _objc_msgSend$_hasURLForScale:inImageURL:
++ _objc_msgSend$_initWithFrame:offer:
++ _objc_msgSend$_postMessage:
++ _objc_msgSend$_presentRemoteViewWithData:andRequest:
++ _objc_msgSend$appIconWithSize:forBundleID:drawBorder:
++ _objc_msgSend$assetID
++ _objc_msgSend$bannerSource
++ _objc_msgSend$bubbleBanner
++ _objc_msgSend$fetchIconForAssetID:
++ _objc_msgSend$fetchIconForBundleID:
++ _objc_msgSend$fetchIconFromIconSpecification:completion:
++ _objc_msgSend$fetchIconFromImageURL:completion:
++ _objc_msgSend$fetchIconIfNeededWithCompletion:
++ _objc_msgSend$highestScreenScale
++ _objc_msgSend$iconSpecification
++ _objc_msgSend$initWithAccount:delegate:eventQueue:error:
++ _objc_msgSend$initWithContentType:identifier:reason:title:subTitle:sfSymbolName:bundleID:actions:dismissAction:iconSpecification:
++ _objc_msgSend$initWithContentType:identifier:reason:title:subTitle:sfSymbolName:bundleID:actions:iconSpecification:
++ _objc_msgSend$isLegacy
++ _objc_msgSend$legacyBanner
++ _objc_msgSend$loadImageWithURL:completion:
++ _objc_msgSend$logInAppBannerImpressionWithAppIdentifier:
++ _objc_msgSend$logInAppBannerInteractionWithAppIdentifier:icqActionName:
++ _objc_msgSend$logInAppBannerViewWithAppIdentifier:
++ _objc_msgSend$messageSpecificationForPlacement:
++ _objc_msgSend$messageSpecificationForReason:bundleId:placement:
++ _objc_msgSend$observeUpdatesForBundleID:placement:
++ _objc_msgSend$performActionWith:
++ _objc_msgSend$placement
++ _objc_msgSend$sendManageStorageDisplayedEventWithCompletionHandler:
++ _objc_msgSend$sendRecommendedForYouTapEventWithCompletionHandler:
++ _objc_msgSend$sendiCloudSettingsDisplayedEventWithCompletionHandler:
++ _objc_msgSend$setAccessibilityElements:
++ _objc_msgSend$setDetailMessageColor:
++ _objc_msgSend$setDetailMessageFont:
++ _objc_msgSend$setLinkMessageColor:
++ _objc_msgSend$setLinkMessageFont:
++ _objc_msgSend$setLinkTextColor:
++ _objc_msgSend$setLinkTextFont:
++ _objc_msgSend$setPlacement:
++ _objc_msgSend$setTextLineSpacing:
++ _objc_msgSend$setTextMargins:
++ _objc_msgSend$setTitleColor:
++ _objc_msgSend$setTitleFont:
++ _objc_msgSend$systemLayoutSizeFittingSize:
++ _objectdestroy.43Tm
++ _objectdestroy.48Tm
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _swift_deletedAsyncMethodErrorTu
++ _swift_dynamicCastClass
++ _swift_projectBox
++ _swift_taskGroup_destroy
++ _swift_taskGroup_initialize
++ _symbolic $s13iCloudQuotaUI27ICQBubbleBannerViewDelegateP
++ _symbolic 13iCloudQuotaUI27ICQBubbleBannerViewDelegate_pSgXw
++ _symbolic BD
++ _symbolic IeghH_
++ _symbolic IeyB_
++ _symbolic SaySay_____GG 13iCloudQuotaUI13PhotoGridItemV
++ _symbolic SaySay_____GGSg 13iCloudQuotaUI13PhotoGridItemV
++ _symbolic SaySo8UIButtonCGSg
++ _symbolic Say_____G 13iCloudQuotaUI13PhotoGridItemV
++ _symbolic ScCySb_____G s5NeverO
++ _symbolic ScGy_____SgG 13iCloudQuotaUI13PhotoGridItemV
++ _symbolic ScGy_____SgGz_Xx 13iCloudQuotaUI13PhotoGridItemV
++ _symbolic Si10photoLimit_Si05childB0Si06peopleB0tSg
++ _symbolic So11UIImageViewC
++ _symbolic So13PHFetchResultCySo7PHAssetCG
++ _symbolic So19SwiftNativeNSObjectC
++ _symbolic So22CERecommendationActionCSg
++ _symbolic So23CEServerRecommendationsC
++ _symbolic So6UIViewC
++ _symbolic So7ICQLinkC
++ _symbolic So7PHAssetC
++ _symbolic So7UILabelC
++ _symbolic So8ICQOfferC
++ _symbolic _____ 11Observation0A9RegistrarV
++ _symbolic _____ 13iCloudQuotaUI12PhotoGridRowV
++ _symbolic _____ 13iCloudQuotaUI13PhotoGridItemV
++ _symbolic _____ 13iCloudQuotaUI13PhotoGridViewV
++ _symbolic _____ 13iCloudQuotaUI13PhotoGridViewV10CodingKeys33_A9A7E05C5EAAC923EF90AE46C970DF23LLO
++ _symbolic _____ 13iCloudQuotaUI14PhotoGridModelC
++ _symbolic _____ 13iCloudQuotaUI19ICQBubbleBannerViewC
++ _symbolic _____ 6LiftUI16DoubleResolvableO
++ _symbolic _____ So6CGRectV
++ _symbolic _____ So7CGPointV
++ _symbolic _____3lhs______8operatorAA3rhst 6LiftUI17NumericResolvableO AA13MathOperationO
++ _symbolic _____Sg 13iCloudQuotaUI13PhotoGridItemV
++ _symbolic _____Sg 13iCloudQuotaUI26RecommendationsViewContextO
++ _symbolic _____Sg 7SwiftUI7AnyViewV
++ _symbolic _____Sg So6CGRectV
++ _symbolic _____SgIeghHr_ 13iCloudQuotaUI13PhotoGridItemV
++ _symbolic _____Sgz_Xx 13iCloudQuotaUI13PhotoGridItemV
++ _symbolic ______AAt 6LiftUI12NumericValueO
++ _symbolic ___________8operatorAAt 6LiftUI17NumericResolvableO AA13MathOperationO
++ _symbolic _____yAAyAAyAAy__________G_____G_____y_____GGACG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA010_FlexFrameH0V AA11_ClipEffectV AA9RectangleV
++ _symbolic _____yAAyAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA010_FlexFrameH0V AA11_ClipEffectV AA9RectangleV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA5ColorV AA13_TaskModifierV AA12_FrameLayoutV
++ _symbolic _____yAAy_____y_____y_____yABy__________G______yADyABy_____y_____ySaySay_____GGAL_____GG_____yAByAByABy__________GAFG_____GGG_AByAByABy_____AFGAVG_____GSgtGGtGGAFGAZSgGAByABy__________GAFGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6HStackV AA9TupleViewV AA6SpacerV AA12_FrameLayoutV AA6ZStackV AA4GridV AA7ForEachV 011iCloudQuotaB005PhotoM4ItemV AT0rM3RowV AA20_MaskAlignmentEffectV AA5ImageV AA012_AspectRatioK0V AA07_OffsetW0V AA03AnyH0V AA07_ShadowW0V AA5ColorV AA13_TaskModifierV
++ _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
++ _symbolic _____ySay_____GG 7SwiftUI5StateV 011iCloudQuotaB013PhotoGridItemV
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 13iCloudQuotaUI13PhotoGridItemV
++ _symbolic _____ySdG 6LiftUI13ReferenceableO
++ _symbolic _____ySiG 6LiftUI13ReferenceableO
++ _symbolic _____ySiGSg 6LiftUI13ReferenceableO
++ _symbolic _____y_____G 6LiftUI13ReferenceableO AA12NumericValueO
++ _symbolic _____y_____G 7SwiftUI11_ClipEffectV AA9RectangleV
++ _symbolic _____y_____G 7SwiftUI5StateV 011iCloudQuotaB014PhotoGridModelC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13iCloudQuotaUI13PhotoGridViewV10CodingKeys33_A9A7E05C5EAAC923EF90AE46C970DF23LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13iCloudQuotaUI13PhotoGridItemV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18PhotosIntelligence19AssetFetcherFiltersO
++ _symbolic _____y_____Sg_G ScG8IteratorV 13iCloudQuotaUI13PhotoGridItemV
++ _symbolic _____y______Qo_ 6LiftUI14AnyViewContentPAA05SwiftB00D0RzrlE4bodyQrvpQO 011iCloudQuotaB009PhotoGridD0V
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ColorV AA13_TaskModifierV
++ _symbolic _____y__________G______y_____yAAy_____y_____ySaySay_____GGAJ_____GG_____yAAyAAyAAy__________GACG_____GGG_AAyAAyAAy_____ACGATG_____GSgtGGt 7SwiftUI15ModifiedContentV AA6SpacerV AA12_FrameLayoutV AA6ZStackV AA9TupleViewV AA4GridV AA7ForEachV 011iCloudQuotaB005PhotoK4ItemV AP0pK3RowV AA20_MaskAlignmentEffectV AA5ImageV AA012_AspectRatioG0V AA07_OffsetU0V AA03AnyJ0V AA07_ShadowU0V
++ _symbolic _____y___________ySaySay_____GGAE_____GG 7SwiftUI13_VariadicViewO4TreeV AA10GridLayoutV AA7ForEachV 011iCloudQuotaB005PhotoF4ItemV AJ0lF3RowV
++ _symbolic _____y___________y_____y__________G______yACyADy_____y_____ySaySay_____GGAL_____GG_____yADyADyADy__________GAFG_____GGG_ADyADyADy_____AFGAVG_____GSgtGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA6SpacerV AA06_FrameG0V AA6ZStackV AA4GridV AA7ForEachV 011iCloudQuotaB005PhotoN4ItemV AV0sN3RowV AA20_MaskAlignmentEffectV AA5ImageV AA012_AspectRatioG0V AA07_OffsetX0V AA03AnyD0V AA07_ShadowX0V
++ _symbolic _____y___________y_____y_____y_____ySaySay_____GGAH_____GG_____yADyADyADy__________G_____G_____GGG_ADyADyADy_____AQGASG_____GSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA15ModifiedContentV AA4GridV AA7ForEachV 011iCloudQuotaB005PhotoK4ItemV AP0pK3RowV AA20_MaskAlignmentEffectV AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA07_OffsetU0V AA03AnyD0V AA07_ShadowU0V
++ _symbolic _____y_____ySaySay_____GGAD_____GG 7SwiftUI4GridV AA7ForEachV 011iCloudQuotaB005PhotoC4ItemV AF0hC3RowV
++ _symbolic _____y_____ySay_____GAC_____yAEyAEyAEy__________G_____G_____y_____GGAGGGG 7SwiftUI7GridRowV AA7ForEachV 011iCloudQuotaB005PhotoC4ItemV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA010_FlexFrameP0V AA11_ClipEffectV AA9RectangleV
++ _symbolic _____y_____y__________y_____y_____yADy__________G_____G_Qo__ADy_____y_____ySay_____GAL_____G_Qo______GtGG______y_____GAVQo_ 7SwiftUI4ViewPAAE5alert_11isPresented7actions7messageQrAA18LocalizedStringKeyV_AA7BindingVySbGqd__yXEqd_0_yXEtAaBRd__AaBRd_0_r0_lFQO AA4ListV s5NeverO AA05TupleC0V AcAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA15ModifiedContentV 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AcAE0p7SectionR0_ATQrAV_AZtFQO AA7ForEachV A1_9ICQFPItemC A1_04FileQ0V AA25_AlignmentWritingModifierV AA6ButtonV AA4TextV
++ _symbolic _____y_____y_____yAAy__________G______yACyAAy_____y_____ySaySay_____GGAK_____GG_____yAAyAAyAAy__________GAEG_____GGG_AAyAAyAAy_____AEGAUG_____GSgtGGtGGAEG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA6SpacerV AA12_FrameLayoutV AA6ZStackV AA4GridV AA7ForEachV 011iCloudQuotaB005PhotoL4ItemV AR0qL3RowV AA20_MaskAlignmentEffectV AA5ImageV AA012_AspectRatioJ0V AA07_OffsetV0V AA03AnyG0V AA07_ShadowV0V
++ _symbolic _____y_____y_____ySaySay_____GGAE_____GG_____yAAyAAyAAy__________G_____G_____GGG 7SwiftUI15ModifiedContentV AA4GridV AA7ForEachV 011iCloudQuotaB005PhotoE4ItemV AH0jE3RowV AA20_MaskAlignmentEffectV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameS0V AA07_OffsetO0V
++ _symbolic _____y_____y_____ySaySay_____GGAE_____GG_____yAAyAAyAAy__________G_____G_____GGG_AAyAAyAAy_____ANGAPG_____GSgt 7SwiftUI15ModifiedContentV AA4GridV AA7ForEachV 011iCloudQuotaB005PhotoE4ItemV AH0jE3RowV AA20_MaskAlignmentEffectV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameS0V AA07_OffsetO0V AA7AnyViewV AA07_ShadowO0V
++ _symbolic _____y_____y_____y__________G______yAByACy_____y_____ySaySay_____GGAK_____GG_____yACyACyACy__________GAEG_____GGG_ACyACyACy_____AEGAUG_____GSgtGGtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA6SpacerV AA12_FrameLayoutV AA6ZStackV AA4GridV AA7ForEachV 011iCloudQuotaB005PhotoL4ItemV AR0qL3RowV AA20_MaskAlignmentEffectV AA5ImageV AA012_AspectRatioJ0V AA07_OffsetV0V AA03AnyE0V AA07_ShadowV0V
++ _symbolic _____y_____y_____y__________y_____y_____yAEy__________G_____G_Qo__AEy_____y_____ySay_____GAM_____G_Qo______GtGG______y_____GAWQo______yAU_SSAXQo_G 7SwiftUI19_ConditionalContentV AA4ViewPAAE5alert_11isPresented7actions7messageQrAA18LocalizedStringKeyV_AA7BindingVySbGqd__yXEqd_0_yXEtAaDRd__AaDRd_0_r0_lFQO AA4ListV s5NeverO AA05TupleE0V AeAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA08ModifiedD0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AeAE0r7SectionT0_AVQrAX_A0_tFQO AA7ForEachV A3_9ICQFPItemC A3_04FileS0V AA25_AlignmentWritingModifierV AA6ButtonV AA4TextV AeAE18confirmationDialog_AG05titleV0AHQrqd___AnXqd_0_yXEtSyRd__AaDRd_0_r0_lFQO
++ _symbolic _____y_____y_____y__________y_____y_____yAEy__________G_____G_Qo__AEy_____y_____ySay_____GAM_____G_Qo______GtGG______y_____GAWQo______yAU_SSAXQo__G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE5alert_11isPresented7actions7messageQrAA18LocalizedStringKeyV_AA7BindingVySbGqd__yXEqd_0_yXEtAaFRd__AaFRd_0_r0_lFQO AA4ListV s5NeverO AA05TupleF0V AgAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA08ModifiedD0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AgAE0s7SectionU0_AXQrAZ_A2_tFQO AA7ForEachV A5_9ICQFPItemC A5_04FileT0V AA25_AlignmentWritingModifierV AA6ButtonV AA4TextV AgAE18confirmationDialog_AI05titleW0AJQrqd___ApZqd_0_yXEtSyRd__AaFRd_0_r0_lFQO
++ _symbolic _____y_____y_____y_____yABy__________G______yADyABy_____y_____ySaySay_____GGAL_____GG_____yAByAByABy__________GAFG_____GGG_AByAByABy_____AFGAVG_____GSgtGGtGGAFGAZSgG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6HStackV AA9TupleViewV AA6SpacerV AA12_FrameLayoutV AA6ZStackV AA4GridV AA7ForEachV 011iCloudQuotaB005PhotoM4ItemV AT0rM3RowV AA20_MaskAlignmentEffectV AA5ImageV AA012_AspectRatioK0V AA07_OffsetW0V AA03AnyH0V AA07_ShadowW0V
++ _symbolic _____y_____y_____y_____yABy__________G______yADyABy_____y_____ySaySay_____GGAL_____GG_____yAByAByABy__________GAFG_____GGG_AByAByABy_____AFGAVG_____GSgtGGtGGAFGAZSg_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA6HStackV AA9TupleViewV AA6SpacerV AA12_FrameLayoutV AA6ZStackV AA4GridV AA7ForEachV 011iCloudQuotaB005PhotoN4ItemV AV0sN3RowV AA20_MaskAlignmentEffectV AA5ImageV AA012_AspectRatioL0V AA07_OffsetX0V AA03AnyI0V AA07_ShadowX0V
++ _symbolic _____y_____y_____y_____y__________y_____y_____yAEy__________G_____G_Qo__AEy_____y_____ySay_____GAM_____G_Qo______GtGG______y_____GAWQo______yAU_SSAXQo_G______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AA19_ConditionalContentV AcAE5alert_11isPresented7actions7messageQrAA18LocalizedStringKeyV_AA7BindingVySbGqd__yXEqd_0_yXEtAaBRd__AaBRd_0_r0_lFQO AA0F0V s5NeverO AA05TupleC0V AcAE0D12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA08ModifiedH0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AcAE0d7SectionU0_AXQrAZ_A2_tFQO AA7ForEachV A5_9ICQFPItemC A5_04FileT0V AA25_AlignmentWritingModifierV AA6ButtonV AA4TextV AcAE18confirmationDialog_AI05titleW0AJQrqd___ApZqd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA05PlainfE0V
++ _symbolic _____y_____y_____y_____y_____yACy__________G______yAEyACy_____y_____ySaySay_____GGAM_____GG_____yACyACyACy__________GAGG_____GGG_ACyACyACy_____AGGAWG_____GSgtGGtGGAGGA_SgGACyACy__________GAGG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA6HStackV AA9TupleViewV AA6SpacerV AA12_FrameLayoutV AA6ZStackV AA4GridV AA7ForEachV 011iCloudQuotaB005PhotoN4ItemV AV0sN3RowV AA20_MaskAlignmentEffectV AA5ImageV AA012_AspectRatioL0V AA07_OffsetX0V AA03AnyI0V AA07_ShadowX0V AA5ColorV AA13_TaskModifierV
++ _symbolic _____y_____y_____y_____y_____ySaySay_____GGAG_____GG_____yACyACyACy__________G_____G_____GGG_ACyACyACy_____APGARG_____GSgtGG 7SwiftUI6ZStackV AA9TupleViewV AA15ModifiedContentV AA4GridV AA7ForEachV 011iCloudQuotaB005PhotoH4ItemV AL0mH3RowV AA20_MaskAlignmentEffectV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameV0V AA07_OffsetR0V AA03AnyE0V AA07_ShadowR0V
++ _symbolic _____y_____y_____y_____y_____y__________y_____y_____yAEy__________G_____G_Qo__AEy_____y_____ySay_____GAM_____G_Qo______GtGG______y_____GAWQo______yAU_SSAXQo_G______Qo_______y_____yytAXG_A4______y______yADy______AWA6_AEyAVyAEy__________GG_____ySbGGtGGQo_SgtGQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE9listStyleyQrqd__AA04ListI0Rd__lFQO AA012_ConditionalG0V AcAE5alert_11isPresented7actions7messageQrAA18LocalizedStringKeyV_AA7BindingVySbGqd__yXEqd_0_yXEtAaBRd__AaBRd_0_r0_lFQO AA0J0V s5NeverO AA05TupleC0V AcAE0H12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA08ModifiedG0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AcAE0h7SectionX0_A_QrA1__A5_tFQO AA7ForEachV A8_9ICQFPItemC A8_04FileW0V AA25_AlignmentWritingModifierV AA6ButtonV AA4TextV AcAE18confirmationDialog_AL05titleZ0AMQrqd___ASA1_qd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA05PlainjI0V AA0vfG0V AA0F4ItemV AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQO AA0F9ItemGroupV AA6SpacerV AA5ImageV AA31AccessibilityAttachmentModifierV AA012_EnvironmentS17TransformModifierV
++ _symbolic _____y_____y_____y_____y_____y_____y__________y_____y_____yAEy__________G_____G_Qo__AEy_____y_____ySay_____GAM_____G_Qo______GtGG______y_____GAWQo______yAU_SSAXQo_G______Qo_______y_____yytAXG_A4______y______yADy______AWA6_AEyAVyAEy__________GG_____ySbGGtGGQo_SgtGQo__Qo_ 7SwiftUI4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE9listStyleyQrqd__AA04ListP0Rd__lFQO AA012_ConditionalN0V AcAE5alert_11isPresented7actions7messageQrAA18LocalizedStringKeyV_AA7BindingVySbGqd__yXEqd_0_yXEtAaBRd__AaBRd_0_r0_lFQO AA0Q0V s5NeverO AA05TupleC0V AcAE0O12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA08ModifiedN0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AcAE0O16SectionSeparator_A4_QrA6__A10_tFQO AA7ForEachV A13_9ICQFPItemC A13_7FileRowV AA25_AlignmentWritingModifierV AA6ButtonV AA4TextV AcAE18confirmationDialog_AQ15titleVisibilityARQrqd___AXA6_qd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA05PlainqP0V AA05TuplemN0V AA0mJ0V AA0mN7BuilderV10buildBlockyQrxAaKRzlFZQO AA0mJ5GroupV AA6SpacerV AA5ImageV AA31AccessibilityAttachmentModifierV AA012_EnvironmentZ17TransformModifierV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y__________y_____y_____yAEy__________G_____G_Qo__AEy_____y_____ySay_____GAM_____G_Qo______GtGG______y_____GAWQo______yAU_SSAXQo_G______Qo_______y_____yytAXG_A4______y______yADy______AWA6_AEyAVyAEy__________GG_____ySbGGtGGQo_SgtGQo__Qo__SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AcAE0d3BarE11DisplayModeyQrAA010NavigationF4ItemV0egH0OFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE9listStyleyQrqd__AA04ListP0Rd__lFQO AA012_ConditionalN0V AcAE5alert_11isPresented7actions7messageQrAA18LocalizedStringKeyV_AA7BindingVySbGqd__yXEqd_0_yXEtAaBRd__AaBRd_0_r0_lFQO AA0Q0V s5NeverO AA05TupleC0V AcAE0O12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA08ModifiedN0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AcAE0O16SectionSeparator_A5_QrA7__A11_tFQO AA7ForEachV A14_9ICQFPItemC A14_7FileRowV AA25_AlignmentWritingModifierV AA6ButtonV AA4TextV AcAE18confirmationDialog_AR15titleVisibilityASQrqd___AYA7_qd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA05PlainqP0V AA05TuplemN0V AA0mJ0V AA0mN7BuilderV10buildBlockyQrxAaLRzlFZQO AA0mJ5GroupV AA6SpacerV AA5ImageV AA31AccessibilityAttachmentModifierV AA012_EnvironmentZ17TransformModifierV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y__________y_____y_____yAEy__________G_____G_Qo__AEy_____y_____ySay_____GAM_____G_Qo______GtGG______y_____GAWQo______yAU_SSAXQo_G______Qo_______y_____yytAXG_A4______y______yADy______AWA6_AEyAVyAEy__________GG_____ySbGGtGGQo_SgtGQo__Qo__SSQo__Qo_ 7SwiftUI4ViewPAAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVAA4TextVSgtFQO AcAE15navigationTitleyQrqd__SyRd__lFQO AcAE0m3BarN11DisplayModeyQrAA010NavigationO4ItemV0npQ0OFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE9listStyleyQrqd__AA04ListY0Rd__lFQO AA012_ConditionalW0V AcAE5alert_11isPresented7actions7messageQrAA18LocalizedStringKeyV_AIySbGqd__yXEqd_0_yXEtAaBRd__AaBRd_0_r0_lFQO AA0Z0V s5NeverO AA05TupleC0V AcAE0X12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA08ModifiedW0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AcAE0X16SectionSeparator_A15_QrA17__A21_tFQO AA7ForEachV A24_9ICQFPItemC A24_7FileRowV AA25_AlignmentWritingModifierV AA6ButtonV AN AcAE18confirmationDialog_A2_15titleVisibilityA3_Qrqd___A7_A17_qd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA05PlainzY0V AA05TuplevW0V AA0vS0V AA0vW7BuilderV10buildBlockyQrxAaXRzlFZQO AA0vS5GroupV AA6SpacerV AA5ImageV AA31AccessibilityAttachmentModifierV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y__________y_____y_____yAEy__________G_____G_Qo__AEy_____y_____ySay_____GAM_____G_Qo______GtGG______y_____GAWQo______yAU_SSAXQo_G______Qo_______y_____yytAXG_A4______y______yADy______AWA6_AEyAVyAEy__________GG_____ySbGGtGGQo_SgtGQo__Qo__SSQo__Qo__Qo_ 7SwiftUI4ViewPAAE21disableAutocorrectionyQrSbSgFQO AcAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVAA4TextVSgtFQO AcAE15navigationTitleyQrqd__SyRd__lFQO AcAE0o3BarP11DisplayModeyQrAA010NavigationQ4ItemV0prS0OFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE9listStyleyQrqd__AA9ListStyleRd__lFQO AA012_ConditionalY0V AcAE5alert_11isPresented7actions7messageQrAA18LocalizedStringKeyV_AKySbGqd__yXEqd_0_yXEtAaBRd__AaBRd_0_r0_lFQO AA4ListV s5NeverO AA05TupleC0V AcAE0Z12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA08ModifiedY0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AcAE0Z16SectionSeparator_A17_QrA19__A23_tFQO AA7ForEachV A26_9ICQFPItemC A26_7FileRowV AA25_AlignmentWritingModifierV AA6ButtonV AP AcAE18confirmationDialog_A4_15titleVisibilityA5_Qrqd___A9_A19_qd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA14PlainListStyleV AA05TuplexY0V AA0xU0V AA0xY7BuilderV10buildBlockyQrxAaZRzlFZQO AA0xU5GroupV AA6SpacerV AA5ImageV AA31AccessibilityAttachmentModifierV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y_____y__________y_____y_____yAFy__________G_____G_Qo__AFy_____y_____ySay_____GAN_____G_Qo______GtGG______y_____GAXQo______yAV_SSAYQo_G______Qo_______y_____yytAYG_A5______y______yAEy______AXA7_AFyAWyAFy__________GG_____ySbGGtGGQo_SgtGQo__Qo__SSQo__Qo__Qo_G 7SwiftUI14NavigationViewV AA0D0PAAE21disableAutocorrectionyQrSbSgFQO AeAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVAA4TextVSgtFQO AeAE15navigationTitleyQrqd__SyRd__lFQO AeAE0p3BarQ11DisplayModeyQrAA0cR4ItemV0qsT0OFQO AeAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AeAE9listStyleyQrqd__AA9ListStyleRd__lFQO AA012_ConditionalY0V AeAE5alert_11isPresented7actions7messageQrAA18LocalizedStringKeyV_AMySbGqd__yXEqd_0_yXEtAaDRd__AaDRd_0_r0_lFQO AA4ListV s5NeverO AA05TupleD0V AeAE0Z12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA08ModifiedY0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AeAE0Z16SectionSeparator_A19_QrA21__A25_tFQO AA7ForEachV A28_9ICQFPItemC A28_7FileRowV AA25_AlignmentWritingModifierV AA6ButtonV AR AeAE18confirmationDialog_A6_15titleVisibilityA7_Qrqd___A11_A21_qd_0_yXEtSyRd__AaDRd_0_r0_lFQO AA14PlainListStyleV AA05TuplexY0V AA0xU0V AA0xY7BuilderV10buildBlockyQrxAAA0_RzlFZQO AA0xU5GroupV AA6SpacerV AA5ImageV AA31AccessibilityAttachmentModifierV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y__________y_____y_____yAFy__________G_____G_Qo__AFy_____y_____ySay_____GAN_____G_Qo______GtGG______y_____GAXQo______yAV_SSAYQo_G______Qo_______y_____yytAYG_A5______y______yAEy______AXA7_AFyAWyAFy__________GG_____ySbGGtGGQo_SgtGQo__Qo__SSQo__Qo__Qo_G______Qo_ 7SwiftUI4ViewPAAE010navigationC5StyleyQrqd__AA010NavigationcE0Rd__lFQO AA0fC0V AcAE21disableAutocorrectionyQrSbSgFQO AcAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVAA4TextVSgtFQO AcAE0D5TitleyQrqd__SyRd__lFQO AcAE0d3BarR11DisplayModeyQrAA0fS4ItemV0rtU0OFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE04listE0yQrqd__AA04ListE0Rd__lFQO AA012_ConditionalZ0V AcAE5alert_11isPresented7actions7messageQrAA18LocalizedStringKeyV_AOySbGqd__yXEqd_0_yXEtAaBRd__AaBRd_0_r0_lFQO AA4ListV s5NeverO AA05TupleC0V AcAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA08ModifiedZ0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AcAE20listSectionSeparator_A21_QrA23__A27_tFQO AA7ForEachV A30_9ICQFPItemC A30_7FileRowV AA25_AlignmentWritingModifierV AA6ButtonV AT AcAE18confirmationDialog_A8_15titleVisibilityA9_Qrqd___A13_A23_qd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA09PlainListE0V AA05TupleyZ0V AA0yV0V AA0yZ7BuilderV10buildBlockyQrxAAA2_RzlFZQO AA0yV5GroupV AA6SpacerV AA5ImageV AA31AccessibilityAttachmentModifierV AA32_EnvironmentKeyTransformModifierV AA05StackfcE0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y__________y_____yAAyAAy__________G_____G_Qo__AAy_____y_____ySay_____GAN_____G_Qo______GtGG______y_____GAXQo______yAV_SSAYQo_G______Qo_______y_____yytAYG_A5______y______yAFy______AXA7_AAyAWyAAy__________GG_____ySbGGtGGQo_SgtGQo__Qo__SSQo__Qo__Qo_G______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE010navigationE5StyleyQrqd__AA010NavigationeG0Rd__lFQO AA0hE0V AeAE21disableAutocorrectionyQrSbSgFQO AeAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVAA4TextVSgtFQO AeAE0F5TitleyQrqd__SyRd__lFQO AeAE0f3BarT11DisplayModeyQrAA0hU4ItemV0tvW0OFQO AeAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AeAE04listG0yQrqd__AA04ListG0Rd__lFQO AA012_ConditionalD0V AeAE5alert_11isPresented7actions7messageQrAA18LocalizedStringKeyV_AQySbGqd__yXEqd_0_yXEtAaDRd__AaDRd_0_r0_lFQO AA4ListV s5NeverO AA05TupleE0V AeAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AeAE20listSectionSeparator_A23_QrA25__A29_tFQO AA7ForEachV A30_9ICQFPItemC A30_7FileRowV AA25_AlignmentWritingModifierV AA6ButtonV AV AeAE18confirmationDialog_A10_15titleVisibilityA11_Qrqd___A15_A25_qd_0_yXEtSyRd__AaDRd_0_r0_lFQO AA09PlainListG0V AA012TupleToolbarD0V AA07ToolbarX0V AA07ToolbarD7BuilderV10buildBlockyQrxAAA4_RzlFZQO AA07ToolbarX5GroupV AA6SpacerV AA5ImageV AA31AccessibilityAttachmentModifierV AA32_EnvironmentKeyTransformModifierV AA05StackheG0V AA25_AppearanceActionModifierV
+- +[ICQBannerView replaceWordsIn:with:]
+- -[ICQBannerView _applyTextParagraphAttributes]
+- -[ICQBannerView _applyTextStorageAttributes]
+- -[ICQBannerView _configureManageStorageButtonWithICQLink:]
+- -[ICQBannerView _configureManageStorageButtonWithICQLink:].cold.1
+- -[ICQBannerView _delegateActionForAction:]
+- -[ICQBannerView _getOffer]
+- -[ICQBannerView _initWithFrame:]
+- -[ICQBannerView _legacyDelegateMethodHandlesAction:]
+- -[ICQBannerView _performActionWithICQLink:]
+- -[ICQBannerView _performLink:]
+- -[ICQBannerView _updateBannerViewConstraints]
+- -[ICQBannerView activeConstraints]
+- -[ICQBannerView attributedText]
+- -[ICQBannerView detailAttributedText]
+- -[ICQBannerView detailMessageAttributes]
+- -[ICQBannerView initWithOffer:].cold.1
+- -[ICQBannerView linkAttributes]
+- -[ICQBannerView messageAttributes]
+- -[ICQBannerView semanticContentAttribute]
+- -[ICQBannerView setActiveConstraints:]
+- -[ICQBannerView textParagraphStyleAttributes]
+- -[ICQBannerView textParagraphStyle]
+- -[ICQBannerView textView:shouldInteractWithURL:inRange:]
+- -[ICQBannerView textViewDidChangeSelection:]
+- -[ICQBannerView textView]
+- -[ICQBannerView titleAttributes]
+- -[ICQBannerView updateConstraints]
+- -[ICQBannerView userInterfaceLayoutDirection]
+- -[ICQInAppMessage initWithContentType:identifier:reason:title:subTitle:sfSymbolName:actions:]
+- -[ICQInAppMessage initWithContentType:identifier:reason:title:subTitle:sfSymbolName:actions:dismissAction:]
+- -[ICQUIImageLoader _scaledImageURL:]
+- -[ICQUIImageLoader loadImageWithURL:completion:]
+- -[ICQUpgradeFlowManager _launchRemoteUIWithRequest:]
+- -[ICQUpgradeFlowManager presentRemoteViewWithData:andURL:].cold.1
+- GCC_except_table52
+- GCC_except_table54
+- GCC_except_table62
+- GCC_except_table8
+- GCC_except_table80
+- _OBJC_IVAR_$_ICQBannerView._activeConstraints
+- _OBJC_IVAR_$_ICQBannerView._manageStorageButton
+- _OBJC_IVAR_$_ICQBannerView._textView
+- __OBJC_$_INSTANCE_METHODS_ICQUIImageLoader
+- ___31-[ICQBannerView initWithOffer:]_block_invoke
+- ___39-[ICQInAppMessaging _fetchDefaultOffer]_block_invoke.76
+- ___39-[ICQInAppMessaging _fetchPremiumOffer]_block_invoke.74
+- ___39-[ICQInAppMessaging _fetchRegularOffer]_block_invoke.72
+- ___44-[ICQBannerView _applyTextStorageAttributes]_block_invoke
+- ___48-[ICQUIImageLoader loadImageWithURL:completion:]_block_invoke
+- ___48-[ICQUIImageLoader loadImageWithURL:completion:]_block_invoke.cold.1
+- ___54-[ICQInAppMessaging _recalculateAndPostCurrentMessage]_block_invoke.131
+- ___58-[ICQBannerView _configureManageStorageButtonWithICQLink:]_block_invoke
+- ___81-[ICQPreferencesRemoteUIDelegate _freshmintStorageUpgradeWithICQLink:completion:]_block_invoke.279
+- ___block_descriptor_56_e8_32s40s48bs_e20_v20?0B8"NSError"12ls48l8s32l8s40l8
+- ___block_descriptor_65_e8_32s40s48s56bs_e5_v8?0ls32l8s56l8s40l8s48l8
+- _block_copy_helper.134
+- _block_descriptor.136
+- _block_destroy_helper.135
+- _get_witness_table 13iCloudQuotaUI20ReviewLargeFilesViewV05SwiftC00G0HPyHC.37
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE010navigationE5StyleyQrqd__AA010NavigationeG0Rd__lFQOyAA0hE0VyAeAE21disableAutocorrectionyQrSbSgFQOyAeAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVAA4TextVSgtFQOyAeAE0F5TitleyQrqd__SyRd__lFQOyAeAE0f3BarT11DisplayModeyQrAA0hU4ItemV0tvW0OFQOyAeAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQOyAeAE04listG0yQrqd__AA04ListG0Rd__lFQOyAeAE18confirmationDialog_11isPresented15titleVisibility7actionsQrqd___AQySbGAA10VisibilityOqd_0_yXEtSyRd__AaDRd_0_r0_lFQOyAA4ListVys5NeverOAA05TupleE0VyAeAE16listRowSeparator_5edgesQrA13__AA12VerticalEdgeO3SetVtFQOyACyACy011iCloudQuotaB014DelayedSpinnerVAA14_PaddingLayoutVGAA16_FlexFrameLayoutVG_Qo__ACyAeAE20listSectionSeparator_A21_QrA13__A25_tFQOyAA7ForEachVySayA26_9ICQFPItemCGA40_A26_7FileRowVG_Qo_AA25_AlignmentWritingModifierVGtGG_SSAA6ButtonVyAVGQo__AA09PlainListG0VQo__AA012TupleToolbarD0VyAA07ToolbarX0VyytA53_G_A62_AA07ToolbarD7BuilderV10buildBlockyQrxAAA4_RzlFZQOy_AA07ToolbarX5GroupVyA19_yAA6SpacerV_AVA69_ACyA52_yACyAA5ImageVAA31AccessibilityAttachmentModifierVGGAA32_EnvironmentKeyTransformModifierVySbGGtGGQo_SgtGQo__Qo__SSQo__Qo__Qo_G_AA05StackheG0VQo_AA25_AppearanceActionModifierVGAaDHPqd0__AaDHD3_A93_HO_A95_AA0E8ModifierHPyHCHC.31
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6ButtonVyACyAA5ImageVAA31AccessibilityAttachmentModifierVGGAA024_EnvironmentKeyTransformI0VySbGGAA4ViewHPAkaPHPyHC_AnA0mI0HPyHCHC.34
+- _get_witness_table 7SwiftUI4TextVAA4ViewHPyHC.32
+- _get_witness_table 7SwiftUI6ButtonVyAA4TextVGAA4ViewHPyHC.33
+- _get_witness_table 7SwiftUI7AnyViewVAA0D0HPyHC.30
+- _get_witness_table 7SwiftUI7ForEachVySay011iCloudQuotaB09ICQFPItemCGAfD7FileRowVGAA4ViewHPAiaKHPyHC_HC.36
+- _get_witness_table qd0__7SwiftUI4ViewHD4_AaBPAAE18confirmationDialog_11isPresented15titleVisibility7actionsQrqd___AA7BindingVySbGAA0I0Oqd_0_yXEtSyRd__AaBRd_0_r0_lFQOyAA4ListVys5NeverOAA05TupleC0VyAcAE16listRowSeparator_5edgesQrAL_AA12VerticalEdgeO3SetVtFQOyAA15ModifiedContentVyAZy011iCloudQuotaB014DelayedSpinnerVAA14_PaddingLayoutVGAA16_FlexFrameLayoutVG_Qo__AZyAcAE0o7SectionQ0_ATQrAL_AXtFQOyAA7ForEachVySayA_9ICQFPItemCGA13_A_04FileP0VG_Qo_AA25_AlignmentWritingModifierVGtGG_SSAA6ButtonVyAA4TextVGQo_HO.35
+- _objc_msgSend$_launchRemoteUIWithRequest:
+- _objc_msgSend$_legacyDelegateMethodHandlesAction:
+- _objc_msgSend$bannerView:action:parameters:dismiss:
+- _objc_msgSend$bannerView:performAction:parameters:
+- _objc_msgSend$inAppMessageSpecification
+- _objc_msgSend$inAppMessageSpecificationForReason:bundleId:
+- _objc_msgSend$initWithAccount:delegate:eventQueue:
+- _objc_msgSend$initWithContentType:identifier:reason:title:subTitle:sfSymbolName:actions:
+- _objc_msgSend$initWithContentType:identifier:reason:title:subTitle:sfSymbolName:actions:dismissAction:
+- _objc_msgSend$sendManageStorageDisplayedEvent
+- _objc_msgSend$sendRecommendedForYouTapEvent
+- _objc_msgSend$sendiCloudSettingsDisplayedEvent
+- _objectdestroy.39Tm
+- _symbolic _____y_____y_____y__________y_____y_____yADy__________G_____G_Qo__ADy_____y_____ySay_____GAL_____G_Qo______GtGG_SS_____y_____GQo_______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AcAE18confirmationDialog_11isPresented15titleVisibility7actionsQrqd___AA7BindingVySbGAA0L0Oqd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA0F0V s5NeverO AA05TupleC0V AcAE0D12RowSeparator_5edgesQrAN_AA12VerticalEdgeO3SetVtFQO AA15ModifiedContentV 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AcAE0d7SectionR0_AVQrAN_AZtFQO AA7ForEachV A1_9ICQFPItemC A1_04FileQ0V AA25_AlignmentWritingModifierV AA6ButtonV AA4TextV AA05PlainfE0V
+- _symbolic _____y_____y_____y_____y__________y_____y_____yADy__________G_____G_Qo__ADy_____y_____ySay_____GAL_____G_Qo______GtGG_SS_____y_____GQo_______Qo_______y_____yytAWG_A1______y______yACy______AVA3_ADyAUyADy__________GG_____ySbGGtGGQo_SgtGQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE9listStyleyQrqd__AA04ListI0Rd__lFQO AcAE18confirmationDialog_11isPresented15titleVisibility7actionsQrqd___AA7BindingVySbGAA0P0Oqd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA0J0V s5NeverO AA05TupleC0V AcAE0H12RowSeparator_5edgesQrAQ_AA12VerticalEdgeO3SetVtFQO AA08ModifiedG0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AcAE0h7SectionV0_AYQrAQ_A1_tFQO AA7ForEachV A4_9ICQFPItemC A4_04FileU0V AA25_AlignmentWritingModifierV AA6ButtonV AA4TextV AA05PlainjI0V AA0tfG0V AA0F4ItemV AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQO AA0F9ItemGroupV AA6SpacerV AA5ImageV AA31AccessibilityAttachmentModifierV AA32_EnvironmentKeyTransformModifierV
+- _symbolic _____y_____y_____y_____y_____y__________y_____y_____yADy__________G_____G_Qo__ADy_____y_____ySay_____GAL_____G_Qo______GtGG_SS_____y_____GQo_______Qo_______y_____yytAWG_A1______y______yACy______AVA3_ADyAUyADy__________GG_____ySbGGtGGQo_SgtGQo__Qo_ 7SwiftUI4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE9listStyleyQrqd__AA04ListP0Rd__lFQO AcAE18confirmationDialog_11isPresented15titleVisibility7actionsQrqd___AA7BindingVySbGAA0W0Oqd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA0Q0V s5NeverO AA05TupleC0V AcAE0O12RowSeparator_5edgesQrAV_AA12VerticalEdgeO3SetVtFQO AA08ModifiedN0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AcAE0O16SectionSeparator_A2_QrAV_A6_tFQO AA7ForEachV A9_9ICQFPItemC A9_7FileRowV AA25_AlignmentWritingModifierV AA6ButtonV AA4TextV AA05PlainqP0V AA05TuplemN0V AA0mJ0V AA0mN7BuilderV10buildBlockyQrxAaKRzlFZQO AA0mJ5GroupV AA6SpacerV AA5ImageV AA31AccessibilityAttachmentModifierV AA32_EnvironmentKeyTransformModifierV
+- _symbolic _____y_____y_____y_____y_____y_____y__________y_____y_____yADy__________G_____G_Qo__ADy_____y_____ySay_____GAL_____G_Qo______GtGG_SS_____y_____GQo_______Qo_______y_____yytAWG_A1______y______yACy______AVA3_ADyAUyADy__________GG_____ySbGGtGGQo_SgtGQo__Qo__SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AcAE0d3BarE11DisplayModeyQrAA010NavigationF4ItemV0egH0OFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE9listStyleyQrqd__AA04ListP0Rd__lFQO AcAE18confirmationDialog_11isPresented15titleVisibility7actionsQrqd___AA7BindingVySbGAA0W0Oqd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA0Q0V s5NeverO AA05TupleC0V AcAE0O12RowSeparator_5edgesQrAW_AA12VerticalEdgeO3SetVtFQO AA08ModifiedN0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AcAE0O16SectionSeparator_A3_QrAW_A7_tFQO AA7ForEachV A10_9ICQFPItemC A10_7FileRowV AA25_AlignmentWritingModifierV AA6ButtonV AA4TextV AA05PlainqP0V AA05TuplemN0V AA0mJ0V AA0mN7BuilderV10buildBlockyQrxAaLRzlFZQO AA0mJ5GroupV AA6SpacerV AA5ImageV AA31AccessibilityAttachmentModifierV AA32_EnvironmentKeyTransformModifierV
+- _symbolic _____y_____y_____y_____y_____y_____y_____y__________y_____y_____yADy__________G_____G_Qo__ADy_____y_____ySay_____GAL_____G_Qo______GtGG_SS_____y_____GQo_______Qo_______y_____yytAWG_A1______y______yACy______AVA3_ADyAUyADy__________GG_____ySbGGtGGQo_SgtGQo__Qo__SSQo__Qo_ 7SwiftUI4ViewPAAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVAA4TextVSgtFQO AcAE15navigationTitleyQrqd__SyRd__lFQO AcAE0m3BarN11DisplayModeyQrAA010NavigationO4ItemV0npQ0OFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE9listStyleyQrqd__AA04ListY0Rd__lFQO AcAE18confirmationDialog_11isPresented15titleVisibility7actionsQrqd___AIySbGAA10VisibilityOqd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA0Z0V s5NeverO AA05TupleC0V AcAE0X12RowSeparator_5edgesQrA5__AA12VerticalEdgeO3SetVtFQO AA08ModifiedW0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AcAE0X16SectionSeparator_A13_QrA5__A17_tFQO AA7ForEachV A20_9ICQFPItemC A20_7FileRowV AA25_AlignmentWritingModifierV AA6ButtonV AN AA05PlainzY0V AA05TuplevW0V AA0vS0V AA0vW7BuilderV10buildBlockyQrxAaXRzlFZQO AA0vS5GroupV AA6SpacerV AA5ImageV AA31AccessibilityAttachmentModifierV AA32_EnvironmentKeyTransformModifierV
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____y__________y_____y_____yADy__________G_____G_Qo__ADy_____y_____ySay_____GAL_____G_Qo______GtGG_SS_____y_____GQo_______Qo_______y_____yytAWG_A1______y______yACy______AVA3_ADyAUyADy__________GG_____ySbGGtGGQo_SgtGQo__Qo__SSQo__Qo__Qo_ 7SwiftUI4ViewPAAE21disableAutocorrectionyQrSbSgFQO AcAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVAA4TextVSgtFQO AcAE15navigationTitleyQrqd__SyRd__lFQO AcAE0o3BarP11DisplayModeyQrAA010NavigationQ4ItemV0prS0OFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE9listStyleyQrqd__AA9ListStyleRd__lFQO AcAE18confirmationDialog_11isPresented15titleVisibility7actionsQrqd___AKySbGAA10VisibilityOqd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA4ListV s5NeverO AA05TupleC0V AcAE0Z12RowSeparator_5edgesQrA7__AA12VerticalEdgeO3SetVtFQO AA08ModifiedY0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AcAE0Z16SectionSeparator_A15_QrA7__A19_tFQO AA7ForEachV A22_9ICQFPItemC A22_7FileRowV AA25_AlignmentWritingModifierV AA6ButtonV AP AA14PlainListStyleV AA05TuplexY0V AA0xU0V AA0xY7BuilderV10buildBlockyQrxAaZRzlFZQO AA0xU5GroupV AA6SpacerV AA5ImageV AA31AccessibilityAttachmentModifierV AA32_EnvironmentKeyTransformModifierV
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y__________y_____y_____yAEy__________G_____G_Qo__AEy_____y_____ySay_____GAM_____G_Qo______GtGG_SS_____y_____GQo_______Qo_______y_____yytAXG_A2______y______yADy______AWA4_AEyAVyAEy__________GG_____ySbGGtGGQo_SgtGQo__Qo__SSQo__Qo__Qo_G 7SwiftUI14NavigationViewV AA0D0PAAE21disableAutocorrectionyQrSbSgFQO AeAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVAA4TextVSgtFQO AeAE15navigationTitleyQrqd__SyRd__lFQO AeAE0p3BarQ11DisplayModeyQrAA0cR4ItemV0qsT0OFQO AeAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AeAE9listStyleyQrqd__AA9ListStyleRd__lFQO AeAE18confirmationDialog_11isPresented15titleVisibility7actionsQrqd___AMySbGAA10VisibilityOqd_0_yXEtSyRd__AaDRd_0_r0_lFQO AA4ListV s5NeverO AA05TupleD0V AeAE0Z12RowSeparator_5edgesQrA9__AA12VerticalEdgeO3SetVtFQO AA08ModifiedY0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AeAE0Z16SectionSeparator_A17_QrA9__A21_tFQO AA7ForEachV A24_9ICQFPItemC A24_7FileRowV AA25_AlignmentWritingModifierV AA6ButtonV AR AA14PlainListStyleV AA05TuplexY0V AA0xU0V AA0xY7BuilderV10buildBlockyQrxAAA0_RzlFZQO AA0xU5GroupV AA6SpacerV AA5ImageV AA31AccessibilityAttachmentModifierV AA32_EnvironmentKeyTransformModifierV
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y_____y__________y_____y_____yAEy__________G_____G_Qo__AEy_____y_____ySay_____GAM_____G_Qo______GtGG_SS_____y_____GQo_______Qo_______y_____yytAXG_A2______y______yADy______AWA4_AEyAVyAEy__________GG_____ySbGGtGGQo_SgtGQo__Qo__SSQo__Qo__Qo_G______Qo_ 7SwiftUI4ViewPAAE010navigationC5StyleyQrqd__AA010NavigationcE0Rd__lFQO AA0fC0V AcAE21disableAutocorrectionyQrSbSgFQO AcAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVAA4TextVSgtFQO AcAE0D5TitleyQrqd__SyRd__lFQO AcAE0d3BarR11DisplayModeyQrAA0fS4ItemV0rtU0OFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE04listE0yQrqd__AA04ListE0Rd__lFQO AcAE18confirmationDialog_11isPresented15titleVisibility7actionsQrqd___AOySbGAA10VisibilityOqd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA4ListV s5NeverO AA05TupleC0V AcAE16listRowSeparator_5edgesQrA11__AA12VerticalEdgeO3SetVtFQO AA08ModifiedZ0V 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AcAE20listSectionSeparator_A19_QrA11__A23_tFQO AA7ForEachV A26_9ICQFPItemC A26_7FileRowV AA25_AlignmentWritingModifierV AA6ButtonV AT AA09PlainListE0V AA05TupleyZ0V AA0yV0V AA0yZ7BuilderV10buildBlockyQrxAAA2_RzlFZQO AA0yV5GroupV AA6SpacerV AA5ImageV AA31AccessibilityAttachmentModifierV AA32_EnvironmentKeyTransformModifierV AA05StackfcE0V
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y__________y_____yAAyAAy__________G_____G_Qo__AAy_____y_____ySay_____GAM_____G_Qo______GtGG_SS_____y_____GQo_______Qo_______y_____yytAXG_A2______y______yAEy______AWA4_AAyAVyAAy__________GG_____ySbGGtGGQo_SgtGQo__Qo__SSQo__Qo__Qo_G______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE010navigationE5StyleyQrqd__AA010NavigationeG0Rd__lFQO AA0hE0V AeAE21disableAutocorrectionyQrSbSgFQO AeAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVAA4TextVSgtFQO AeAE0F5TitleyQrqd__SyRd__lFQO AeAE0f3BarT11DisplayModeyQrAA0hU4ItemV0tvW0OFQO AeAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AeAE04listG0yQrqd__AA04ListG0Rd__lFQO AeAE18confirmationDialog_11isPresented15titleVisibility7actionsQrqd___AQySbGAA10VisibilityOqd_0_yXEtSyRd__AaDRd_0_r0_lFQO AA4ListV s5NeverO AA05TupleE0V AeAE16listRowSeparator_5edgesQrA13__AA12VerticalEdgeO3SetVtFQO 011iCloudQuotaB014DelayedSpinnerV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AeAE20listSectionSeparator_A21_QrA13__A25_tFQO AA7ForEachV A26_9ICQFPItemC A26_7FileRowV AA25_AlignmentWritingModifierV AA6ButtonV AV AA09PlainListG0V AA012TupleToolbarD0V AA07ToolbarX0V AA07ToolbarD7BuilderV10buildBlockyQrxAAA4_RzlFZQO AA07ToolbarX5GroupV AA6SpacerV AA5ImageV AA31AccessibilityAttachmentModifierV AA32_EnvironmentKeyTransformModifierV AA05StackheG0V AA25_AppearanceActionModifierV
+CStrings:
++ "\x01\x11\x12\x12\x13\x1b"
++ "\x02\x11\x1d"
++ "\x02\x18%"
++ "\x11\x18&"
++ "\x1b"
++ "$defaultActor"
++ "%s unable to init MBManager with error: %@"
++ "+[ICQCloudStorageInfo backupInfoHeadersForAccount:]"
++ "+[ICQUsageQuotaRequest addHeadersToRequest:forAccount:]"
++ "-[ICQLocalBackupController setSpecifier:]"
++ "@\"<ICQLegacyBannerViewDelegate>\""
++ "@\"ICQIconSpecification\""
++ "@\"ICQLegacyBannerView\""
++ "@\"UIImage\""
++ "@\"_TtC13iCloudQuotaUI19ICQBubbleBannerView\""
++ "@44@0:8{CGSize=dd}16@32B40"
++ "@56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48"
++ "@88@0:8Q16@24@32@40@48@56@64@72@80"
++ "@96@0:8Q16@24@32@40@48@56@64@72@80@88"
++ "B24@0:8@\"ICQLink\"16"
++ "B32@0:8@\"<QLPreviewControllerConforming>\"16@\"<QLPreviewItem>\"24"
++ "B32@0:8d16@24"
++ "Bubble banner action performed: %{bool}d, for link: %s"
++ "Can messages data fit in iCloud?: %{bool}d"
++ "Client requested in-app message updates in bundle %{public}@ with placement %{public}@"
++ "Could not get user image %s"
++ "Delete confirmation action title multiple"
++ "Delete confirmation action title single"
++ "Delete files confirmation title"
++ "Did fetch thumbnail %@ for asset %@"
++ "Failed to resolve double value %s"
++ "Fetched icon from IconServices for bundleID %@"
++ "Fetched icon from assets catalog for asset ID %@"
++ "Fetched photos assets with error: %@"
++ "Fetching photos for grid..."
++ "Fetching remote icon asset from URL %@"
++ "Fetching thumbnail for %@"
++ "Finished photo grid fetch with count: %ld"
++ "HSA2 is not enabled. Cannot display messages recommendation."
++ "ICQLegacyBannerView"
++ "ICQLegacyBannerViewDelegate"
++ "In-App Message for bundle ID %@ with title: %@, subTitle: %@, actions:\n%@"
++ "InApp"
++ "InSettingsAppDetail"
++ "No change in parameters, not refetching photos for grid."
++ "No iconSpecification found on offer, falling back to default"
++ "No photos requested, not refetching photos for grid."
++ "Sending ManageStorage displayed event."
++ "Sending iCloudSettings displayed event"
++ "Sending recommendation specifier tapped event."
++ "Starting photo grid fetch"
++ "T@\"<ICQLegacyBannerViewDelegate>\",W,N,V_delegate"
++ "T@\"<_TtP13iCloudQuotaUI27ICQBubbleBannerViewDelegate_>\",N,W,Vdelegate"
++ "T@\"ICQIconSpecification\",&,N,V_iconSpecification"
++ "T@\"ICQLegacyBannerView\",&,N,V_legacyBanner"
++ "T@\"NSString\",C,N,V_placement"
++ "T@\"NSString\",R,C,N,V_placement"
++ "T@\"UIImage\",R,N,V_icon"
++ "T@\"_TtC13iCloudQuotaUI19ICQBubbleBannerView\",&,N,V_bubbleBanner"
++ "TB,N,V_isLegacy"
++ "_$observationRegistrar"
++ "_TtC13iCloudQuotaUI14PhotoGridModel"
++ "_TtC13iCloudQuotaUI19ICQBubbleBannerView"
++ "_TtP13iCloudQuotaUI27ICQBubbleBannerViewDelegate_"
++ "_bubbleBanner"
++ "_hasURLForScale:inImageURL:"
++ "_icon"
++ "_iconSpecification"
++ "_initWithFrame:offer:"
++ "_isLegacy"
++ "_isLoaded"
++ "_legacyBanner"
++ "_nextRefreshBody"
++ "_parameters"
++ "_photoGrid"
++ "_placement"
++ "_postMessage:"
++ "_presentRemoteViewWithData:andRequest:"
++ "_setFont:"
++ "acceptableCropRect"
++ "accessibilityElements"
++ "actionButtons"
++ "actionIdentifier"
++ "appIconWithSize:forBundleID:drawBorder:"
++ "assetID"
++ "bannerSource"
++ "bestCropRectForAspectRatio:verticalContentMode:cropMode:sourcePixelWidth:sourcePixelHeight:sourcePreferredCropRectNormalized:sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized:"
++ "bubbleBanner"
++ "com.apple.icqctl"
++ "cropping thumbnail to %s, %s, %s, %s"
++ "currentStorageOnDeviceWithReply:"
++ "didDisplayMessage"
++ "fetchError"
++ "fetchIconForAssetID:"
++ "fetchIconForBundleID:"
++ "fetchIconFromIconSpecification:completion:"
++ "fetchIconFromImageURL:completion:"
++ "fetchIconIfNeededWithCompletion:"
++ "fetchProfilePictureForAccountOwner:"
++ "hasStorageToSyncMessages(rule:)"
++ "highestScreenScale"
++ "iCloudQuotaUI.ICQBubbleBannerView"
++ "iCloudStorageAlmostFull"
++ "iCloudStorageFull"
++ "iconSpecification"
++ "inapp_banner_impression"
++ "inapp_banner_interaction"
++ "inapp_banner_view"
++ "init(frame:)"
++ "initWithAccount:delegate:eventQueue:error:"
++ "initWithContentType:identifier:reason:title:subTitle:sfSymbolName:bundleID:actions:dismissAction:iconSpecification:"
++ "initWithContentType:identifier:reason:title:subTitle:sfSymbolName:bundleID:actions:iconSpecification:"
++ "isLegacy"
++ "legacyBanner"
++ "logInAppBannerImpressionWithAppIdentifier:"
++ "logInAppBannerInteractionWithAppIdentifier:icqActionName:"
++ "logInAppBannerViewWithAppIdentifier:"
++ "messageSpecificationForPlacement:"
++ "messageSpecificationForReason:bundleId:placement:"
++ "nativeBounds"
++ "normalizedFaceAreaRect"
++ "observeUpdatesForBundleID:"
++ "observeUpdatesForBundleID:placement:"
++ "performActionWith:"
++ "pixelHeight"
++ "pixelWidth"
++ "placement"
++ "preferredCropRect"
++ "presenting remote view with request = %@"
++ "previewController:shouldDetectMachineReadableCodeForPreviewItem:"
++ "requestImageForAsset:targetSize:contentMode:options:resultHandler:"
++ "sendManageStorageDisplayedEventWithCompletionHandler:"
++ "sendRecommendedForYouTapEventWithCompletionHandler:"
++ "sendiCloudSettingsDisplayedEventWithCompletionHandler:"
++ "setAccessibilityElements:"
++ "setBubbleBanner:"
++ "setContentHorizontalAlignment:"
++ "setIconSpecification:"
++ "setIsLegacy:"
++ "setLegacyBanner:"
++ "setNetworkAccessAllowed:"
++ "setNormalizedCropRect:"
++ "setPlacement:"
++ "setResizeMode:"
++ "setSynchronous:"
++ "setUseLowMemoryMode:"
++ "sharedPhotoLibrary"
++ "subTitleLabel"
++ "systemLayoutSizeFittingSize:"
++ "v24@0:8@?<v@?>16"
++ "v24@?0@\"UIImage\"8@\"NSDictionary\"16"
++ "v24@?0@\"UIImage\"8@\"NSError\"16"
++ "v32@?0@\"PHAsset\"8q16^B24"
++ "\xd1"
+- "\x01\x11\x12\x11\x13\x1b"
+- "\x02\x11\x1c"
+- "\x02\x18&"
+- "\x17"
+- "@72@0:8Q16@24@32@40@48@56@64"
+- "@80@0:8Q16@24@32@40@48@56@64@72"
+- "B24@0:8q16"
+- "Could not get user raw image %s"
+- "Delete confirmation title multiple"
+- "Delete confirmation title single"
+- "Delete files confirmation"
+- "In-App Message with title: %@, subTitle: %@, actions:\n%@"
+- "_launchRemoteUIWithRequest:"
+- "_legacyDelegateMethodHandlesAction:"
+- "bannerView:action:parameters:dismiss:"
+- "bannerView:performAction:parameters:"
+- "iCloudAlmostFullViolation"
+- "iCloudFullViolation"
+- "inAppMessageSpecification"
+- "inAppMessageSpecificationForReason:bundleId:"
+- "initWithContentType:identifier:reason:title:subTitle:sfSymbolName:actions:"
+- "initWithContentType:identifier:reason:title:subTitle:sfSymbolName:actions:dismissAction:"
+- "sendManageStorageDisplayedEvent"
+- "sendRecommendedForYouTapEvent"
+- "sendiCloudSettingsDisplayedEvent"
+- "unexpected action %{public}@ being sent to banner view delegate"
+- "\xc1"
+
+```
