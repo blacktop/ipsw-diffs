@@ -1,0 +1,22 @@
+## FinanceUIService
+
+> `/Applications/FinanceUIService.app/FinanceUIService`
+
+```diff
+
+-143.7.1.1.0
++143.7.13.0.0
+   __TEXT.__text: 0x7b54
+   __TEXT.__auth_stubs: 0x6d0
+   __TEXT.__objc_methlist: 0x104
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FD751BAB-B991-3B15-A58B-FA76C630CC63
++  UUID: 51D1EC89-1C9C-3C9A-98D4-E5C6DD400C04
+   Functions: 230
+   Symbols:   208
+   CStrings:  120
+
+```

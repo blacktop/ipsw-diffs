@@ -1,0 +1,22 @@
+## NanoMapsNavigationCompanionDataSource
+
+> `/System/Library/RelevanceEngine/NanoDataSources/NanoMapsNavigationCompanionDataSource.bundle/NanoMapsNavigationCompanionDataSource`
+
+```diff
+
+-2811.30.7.31.8
++2811.31.8.9.19
+   __TEXT.__text: 0x6c
+   __TEXT.__auth_stubs: 0x30
+   __TEXT.__objc_methlist: 0x38
+
+   - /System/Library/PrivateFrameworks/RelevanceEngine.framework/RelevanceEngine
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FAFF2642-2661-3376-95D4-01E7809AB050
++  UUID: D8FC0D5D-6AE2-3F1A-9E55-7F6078D2B2B7
+   Functions: 3
+   Symbols:   18
+   CStrings:  12
+
+```

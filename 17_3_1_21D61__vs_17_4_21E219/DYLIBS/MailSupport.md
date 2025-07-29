@@ -1,0 +1,1973 @@
+## MailSupport
+
+> `/System/Library/PrivateFrameworks/MailSupport.framework/MailSupport`
+
+```diff
+
+-3774.400.21.0.0
+-  __TEXT.__text: 0x23d60
+-  __TEXT.__auth_stubs: 0x790
+-  __TEXT.__objc_methlist: 0x2b1c
+-  __TEXT.__gcc_except_tab: 0x3364
+-  __TEXT.__cstring: 0x44c8
+-  __TEXT.__const: 0x132
+-  __TEXT.__oslogstring: 0x60d
++3774.500.171.2.2
++  __TEXT.__text: 0xf040
++  __TEXT.__auth_stubs: 0x5a0
++  __TEXT.__objc_methlist: 0xfa4
++  __TEXT.__cstring: 0x3808
++  __TEXT.__gcc_except_tab: 0x1d98
++  __TEXT.__const: 0x11a
++  __TEXT.__oslogstring: 0x534
+   __TEXT.__dlopen_cstrs: 0x52
+   __TEXT.__ustring: 0x18
+   __TEXT.__swift5_typeref: 0xe
+
+   __TEXT.__swift5_fieldmd: 0x64
+   __TEXT.__swift5_proto: 0xc
+   __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0x134c
+-  __TEXT.__objc_classname: 0x6ff
+-  __TEXT.__objc_methname: 0x6ea0
+-  __TEXT.__objc_methtype: 0xd11
+-  __TEXT.__objc_stubs: 0x4320
+-  __DATA_CONST.__got: 0xd0
+-  __DATA_CONST.__const: 0x1560
+-  __DATA_CONST.__objc_classlist: 0x1f0
+-  __DATA_CONST.__objc_catlist: 0x0
+-  __DATA_CONST.__objc_protolist: 0x50
++  __TEXT.__unwind_info: 0x96c
++  __TEXT.__objc_classname: 0x4e3
++  __TEXT.__objc_methname: 0x4075
++  __TEXT.__objc_methtype: 0x611
++  __TEXT.__objc_stubs: 0x32a0
++  __DATA_CONST.__got: 0xa0
++  __DATA_CONST.__const: 0xf78
++  __DATA_CONST.__objc_classlist: 0x158
++  __DATA_CONST.__objc_protolist: 0x48
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x4448
+-  __DATA_CONST.__objc_selrefs: 0x1c60
++  __DATA_CONST.__objc_const: 0x2490
++  __DATA_CONST.__objc_selrefs: 0x1020
++  __DATA_CONST.__objc_classrefs: 0x2d0
++  __DATA_CONST.__objc_superrefs: 0xd8
+   __DATA_CONST.__objc_arraydata: 0x20
+-  __AUTH_CONST.__cfstring: 0x5560
++  __AUTH_CONST.__cfstring: 0x3b40
++  __AUTH_CONST.__objc_intobj: 0xf0
+   __AUTH_CONST.__objc_const: 0x48
+-  __AUTH_CONST.__objc_intobj: 0x450
+   __AUTH_CONST.__const: 0x90
+   __AUTH_CONST.__objc_arrayobj: 0x18
+-  __AUTH_CONST.__auth_got: 0x3d8
+-  __DATA.__objc_classrefs: 0x338
+-  __DATA.__objc_superrefs: 0x178
+-  __DATA.__objc_ivar: 0x2dc
+-  __DATA.__data: 0x3f0
+-  __DATA.__bss: 0x180
+-  __DATA_DIRTY.__const: 0x370
+-  __DATA_DIRTY.__objc_const: 0x15a8
+-  __DATA_DIRTY.__objc_data: 0x1360
++  __AUTH_CONST.__auth_got: 0x2e0
++  __DATA.__objc_ivar: 0x12c
++  __DATA.__data: 0x390
++  __DATA.__bss: 0x170
++  __DATA_DIRTY.__const: 0x330
++  __DATA_DIRTY.__objc_const: 0xf78
++  __DATA_DIRTY.__objc_data: 0xd70
+   __DATA_DIRTY.__data: 0x38
+-  __DATA_DIRTY.__bss: 0x178
++  __DATA_DIRTY.__bss: 0x158
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+-  - /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/WirelessDiagnostics
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: BF14F345-9615-3034-BEDD-022AE50424CE
+-  Functions: 1004
+-  Symbols:   4162
+-  CStrings:  2927
++  UUID: A190BCC6-B0F3-36E7-8029-47377332BB9C
++  Functions: 400
++  Symbols:   2376
++  CStrings:  1876
+ 
+Symbols:
+- +[AWDMailSearchEngagement engagementsType]
+- +[AWDMailSearchSessionReport engagementsType]
+- +[MSAccountToEmailProvider emailProviderFromAccountStatisticsKind:]
+- +[MSDiagnosticManager log]
+- -[AWDMailAutoFetchReport .cxx_destruct]
+- -[AWDMailAutoFetchReport StringAsEmailProvider:]
+- -[AWDMailAutoFetchReport StringAsMailboxType:]
+- -[AWDMailAutoFetchReport StringAsNewMessagesState:]
+- -[AWDMailAutoFetchReport StringAsProtocol:]
+- -[AWDMailAutoFetchReport StringAsTotalBytesReceived:]
+- -[AWDMailAutoFetchReport StringAsTotalBytesSent:]
+- -[AWDMailAutoFetchReport StringAsTrigger:]
+- -[AWDMailAutoFetchReport bucketedLocalNonDeletedCount]
+- -[AWDMailAutoFetchReport copyTo:]
+- -[AWDMailAutoFetchReport copyWithZone:]
+- -[AWDMailAutoFetchReport description]
+- -[AWDMailAutoFetchReport dictionaryRepresentation]
+- -[AWDMailAutoFetchReport didTimeout]
+- -[AWDMailAutoFetchReport duration]
+- -[AWDMailAutoFetchReport emailProviderAsString:]
+- -[AWDMailAutoFetchReport emailProvider]
+- -[AWDMailAutoFetchReport fetchSize]
+- -[AWDMailAutoFetchReport foreground]
+- -[AWDMailAutoFetchReport hasBucketedLocalNonDeletedCount]
+- -[AWDMailAutoFetchReport hasDidTimeout]
+- -[AWDMailAutoFetchReport hasDuration]
+- -[AWDMailAutoFetchReport hasEmailProvider]
+- -[AWDMailAutoFetchReport hasFetchSize]
+- -[AWDMailAutoFetchReport hasForeground]
+- -[AWDMailAutoFetchReport hasMailError]
+- -[AWDMailAutoFetchReport hasMailboxType]
+- -[AWDMailAutoFetchReport hasNewMessagesState]
+- -[AWDMailAutoFetchReport hasNumMessagesFetched]
+- -[AWDMailAutoFetchReport hasOptions]
+- -[AWDMailAutoFetchReport hasProtocol]
+- -[AWDMailAutoFetchReport hasTimestamp]
+- -[AWDMailAutoFetchReport hasTotalBytesReceived]
+- -[AWDMailAutoFetchReport hasTotalBytesSent]
+- -[AWDMailAutoFetchReport hasTrigger]
+- -[AWDMailAutoFetchReport hash]
+- -[AWDMailAutoFetchReport isEqual:]
+- -[AWDMailAutoFetchReport mailError]
+- -[AWDMailAutoFetchReport mailboxTypeAsString:]
+- -[AWDMailAutoFetchReport mailboxType]
+- -[AWDMailAutoFetchReport mergeFrom:]
+- -[AWDMailAutoFetchReport newMessagesStateAsString:]
+- -[AWDMailAutoFetchReport newMessagesState]
+- -[AWDMailAutoFetchReport numMessagesFetched]
+- -[AWDMailAutoFetchReport options]
+- -[AWDMailAutoFetchReport protocolAsString:]
+- -[AWDMailAutoFetchReport protocol]
+- -[AWDMailAutoFetchReport readFrom:]
+- -[AWDMailAutoFetchReport setBucketedLocalNonDeletedCount:]
+- -[AWDMailAutoFetchReport setDidTimeout:]
+- -[AWDMailAutoFetchReport setDuration:]
+- -[AWDMailAutoFetchReport setEmailProvider:]
+- -[AWDMailAutoFetchReport setFetchSize:]
+- -[AWDMailAutoFetchReport setForeground:]
+- -[AWDMailAutoFetchReport setHasBucketedLocalNonDeletedCount:]
+- -[AWDMailAutoFetchReport setHasDidTimeout:]
+- -[AWDMailAutoFetchReport setHasDuration:]
+- -[AWDMailAutoFetchReport setHasEmailProvider:]
+- -[AWDMailAutoFetchReport setHasFetchSize:]
+- -[AWDMailAutoFetchReport setHasForeground:]
+- -[AWDMailAutoFetchReport setHasMailboxType:]
+- -[AWDMailAutoFetchReport setHasNewMessagesState:]
+- -[AWDMailAutoFetchReport setHasNumMessagesFetched:]
+- -[AWDMailAutoFetchReport setHasOptions:]
+- -[AWDMailAutoFetchReport setHasProtocol:]
+- -[AWDMailAutoFetchReport setHasTimestamp:]
+- -[AWDMailAutoFetchReport setHasTotalBytesReceived:]
+- -[AWDMailAutoFetchReport setHasTotalBytesSent:]
+- -[AWDMailAutoFetchReport setHasTrigger:]
+- -[AWDMailAutoFetchReport setMailError:]
+- -[AWDMailAutoFetchReport setMailboxType:]
+- -[AWDMailAutoFetchReport setNewMessagesState:]
+- -[AWDMailAutoFetchReport setNumMessagesFetched:]
+- -[AWDMailAutoFetchReport setOptions:]
+- -[AWDMailAutoFetchReport setProtocol:]
+- -[AWDMailAutoFetchReport setTimestamp:]
+- -[AWDMailAutoFetchReport setTotalBytesReceived:]
+- -[AWDMailAutoFetchReport setTotalBytesSent:]
+- -[AWDMailAutoFetchReport setTrigger:]
+- -[AWDMailAutoFetchReport timestamp]
+- -[AWDMailAutoFetchReport totalBytesReceivedAsString:]
+- -[AWDMailAutoFetchReport totalBytesReceived]
+- -[AWDMailAutoFetchReport totalBytesSentAsString:]
+- -[AWDMailAutoFetchReport totalBytesSent]
+- -[AWDMailAutoFetchReport triggerAsString:]
+- -[AWDMailAutoFetchReport trigger]
+- -[AWDMailAutoFetchReport writeTo:]
+- -[AWDMailCannotGetMailErrorReport .cxx_destruct]
+- -[AWDMailCannotGetMailErrorReport StringAsProtocol:]
+- -[AWDMailCannotGetMailErrorReport StringAsProvider:]
+- -[AWDMailCannotGetMailErrorReport copyTo:]
+- -[AWDMailCannotGetMailErrorReport copyWithZone:]
+- -[AWDMailCannotGetMailErrorReport description]
+- -[AWDMailCannotGetMailErrorReport dictionaryRepresentation]
+- -[AWDMailCannotGetMailErrorReport hasHostname]
+- -[AWDMailCannotGetMailErrorReport hasMailError]
+- -[AWDMailCannotGetMailErrorReport hasProtocol]
+- -[AWDMailCannotGetMailErrorReport hasProvider]
+- -[AWDMailCannotGetMailErrorReport hasServerInfo]
+- -[AWDMailCannotGetMailErrorReport hasTimestamp]
+- -[AWDMailCannotGetMailErrorReport hash]
+- -[AWDMailCannotGetMailErrorReport hostname]
+- -[AWDMailCannotGetMailErrorReport isEqual:]
+- -[AWDMailCannotGetMailErrorReport mailError]
+- -[AWDMailCannotGetMailErrorReport mergeFrom:]
+- -[AWDMailCannotGetMailErrorReport protocolAsString:]
+- -[AWDMailCannotGetMailErrorReport protocol]
+- -[AWDMailCannotGetMailErrorReport providerAsString:]
+- -[AWDMailCannotGetMailErrorReport provider]
+- -[AWDMailCannotGetMailErrorReport readFrom:]
+- -[AWDMailCannotGetMailErrorReport serverInfo]
+- -[AWDMailCannotGetMailErrorReport setHasProtocol:]
+- -[AWDMailCannotGetMailErrorReport setHasProvider:]
+- -[AWDMailCannotGetMailErrorReport setHasTimestamp:]
+- -[AWDMailCannotGetMailErrorReport setHostname:]
+- -[AWDMailCannotGetMailErrorReport setMailError:]
+- -[AWDMailCannotGetMailErrorReport setProtocol:]
+- -[AWDMailCannotGetMailErrorReport setProvider:]
+- -[AWDMailCannotGetMailErrorReport setServerInfo:]
+- -[AWDMailCannotGetMailErrorReport setTimestamp:]
+- -[AWDMailCannotGetMailErrorReport timestamp]
+- -[AWDMailCannotGetMailErrorReport writeTo:]
+- -[AWDMailComposeAttachmentReport copyTo:]
+- -[AWDMailComposeAttachmentReport copyWithZone:]
+- -[AWDMailComposeAttachmentReport description]
+- -[AWDMailComposeAttachmentReport dictionaryRepresentation]
+- -[AWDMailComposeAttachmentReport drawingInsertCount]
+- -[AWDMailComposeAttachmentReport drawingSentCount]
+- -[AWDMailComposeAttachmentReport hasDrawingInsertCount]
+- -[AWDMailComposeAttachmentReport hasDrawingSentCount]
+- -[AWDMailComposeAttachmentReport hasMessageSent]
+- -[AWDMailComposeAttachmentReport hasTimestamp]
+- -[AWDMailComposeAttachmentReport hash]
+- -[AWDMailComposeAttachmentReport isEqual:]
+- -[AWDMailComposeAttachmentReport mergeFrom:]
+- -[AWDMailComposeAttachmentReport messageSent]
+- -[AWDMailComposeAttachmentReport readFrom:]
+- -[AWDMailComposeAttachmentReport setDrawingInsertCount:]
+- -[AWDMailComposeAttachmentReport setDrawingSentCount:]
+- -[AWDMailComposeAttachmentReport setHasDrawingInsertCount:]
+- -[AWDMailComposeAttachmentReport setHasDrawingSentCount:]
+- -[AWDMailComposeAttachmentReport setHasMessageSent:]
+- -[AWDMailComposeAttachmentReport setHasTimestamp:]
+- -[AWDMailComposeAttachmentReport setMessageSent:]
+- -[AWDMailComposeAttachmentReport setTimestamp:]
+- -[AWDMailComposeAttachmentReport timestamp]
+- -[AWDMailComposeAttachmentReport writeTo:]
+- -[AWDMailError StringAsErrorCode:]
+- -[AWDMailError copyTo:]
+- -[AWDMailError copyWithZone:]
+- -[AWDMailError description]
+- -[AWDMailError dictionaryRepresentation]
+- -[AWDMailError errorCodeAsString:]
+- -[AWDMailError errorCode]
+- -[AWDMailError genericErrorCode]
+- -[AWDMailError hasErrorCode]
+- -[AWDMailError hasGenericErrorCode]
+- -[AWDMailError hash]
+- -[AWDMailError isEqual:]
+- -[AWDMailError mergeFrom:]
+- -[AWDMailError readFrom:]
+- -[AWDMailError setErrorCode:]
+- -[AWDMailError setGenericErrorCode:]
+- -[AWDMailError setHasErrorCode:]
+- -[AWDMailError setHasGenericErrorCode:]
+- -[AWDMailError writeTo:]
+- -[AWDMailFeatureEngagementReport StringAsFeature:]
+- -[AWDMailFeatureEngagementReport StringAsFilterStatus:]
+- -[AWDMailFeatureEngagementReport StringAsInView:]
+- -[AWDMailFeatureEngagementReport StringAsInteractionGesture:]
+- -[AWDMailFeatureEngagementReport StringAsSourceType:]
+- -[AWDMailFeatureEngagementReport copyTo:]
+- -[AWDMailFeatureEngagementReport copyWithZone:]
+- -[AWDMailFeatureEngagementReport description]
+- -[AWDMailFeatureEngagementReport dictionaryRepresentation]
+- -[AWDMailFeatureEngagementReport featureAsString:]
+- -[AWDMailFeatureEngagementReport feature]
+- -[AWDMailFeatureEngagementReport filterStatusAsString:]
+- -[AWDMailFeatureEngagementReport filterStatus]
+- -[AWDMailFeatureEngagementReport fromSwipeMenu]
+- -[AWDMailFeatureEngagementReport hasFeature]
+- -[AWDMailFeatureEngagementReport hasFilterStatus]
+- -[AWDMailFeatureEngagementReport hasFromSwipeMenu]
+- -[AWDMailFeatureEngagementReport hasInView]
+- -[AWDMailFeatureEngagementReport hasIncludeAttachments]
+- -[AWDMailFeatureEngagementReport hasInteractionGesture]
+- -[AWDMailFeatureEngagementReport hasSourceType]
+- -[AWDMailFeatureEngagementReport hasTimestamp]
+- -[AWDMailFeatureEngagementReport hasUsedPrediction]
+- -[AWDMailFeatureEngagementReport hash]
+- -[AWDMailFeatureEngagementReport inViewAsString:]
+- -[AWDMailFeatureEngagementReport inView]
+- -[AWDMailFeatureEngagementReport includeAttachments]
+- -[AWDMailFeatureEngagementReport interactionGestureAsString:]
+- -[AWDMailFeatureEngagementReport interactionGesture]
+- -[AWDMailFeatureEngagementReport isEqual:]
+- -[AWDMailFeatureEngagementReport mergeFrom:]
+- -[AWDMailFeatureEngagementReport readFrom:]
+- -[AWDMailFeatureEngagementReport setFeature:]
+- -[AWDMailFeatureEngagementReport setFilterStatus:]
+- -[AWDMailFeatureEngagementReport setFromSwipeMenu:]
+- -[AWDMailFeatureEngagementReport setHasFeature:]
+- -[AWDMailFeatureEngagementReport setHasFilterStatus:]
+- -[AWDMailFeatureEngagementReport setHasFromSwipeMenu:]
+- -[AWDMailFeatureEngagementReport setHasInView:]
+- -[AWDMailFeatureEngagementReport setHasIncludeAttachments:]
+- -[AWDMailFeatureEngagementReport setHasInteractionGesture:]
+- -[AWDMailFeatureEngagementReport setHasSourceType:]
+- -[AWDMailFeatureEngagementReport setHasTimestamp:]
+- -[AWDMailFeatureEngagementReport setHasUsedPrediction:]
+- -[AWDMailFeatureEngagementReport setInView:]
+- -[AWDMailFeatureEngagementReport setIncludeAttachments:]
+- -[AWDMailFeatureEngagementReport setInteractionGesture:]
+- -[AWDMailFeatureEngagementReport setSourceType:]
+- -[AWDMailFeatureEngagementReport setTimestamp:]
+- -[AWDMailFeatureEngagementReport setUsedPrediction:]
+- -[AWDMailFeatureEngagementReport sourceTypeAsString:]
+- -[AWDMailFeatureEngagementReport sourceType]
+- -[AWDMailFeatureEngagementReport timestamp]
+- -[AWDMailFeatureEngagementReport usedPrediction]
+- -[AWDMailFeatureEngagementReport writeTo:]
+- -[AWDMailMessage .cxx_destruct]
+- -[AWDMailMessage body]
+- -[AWDMailMessage copyTo:]
+- -[AWDMailMessage copyWithZone:]
+- -[AWDMailMessage description]
+- -[AWDMailMessage dictionaryRepresentation]
+- -[AWDMailMessage hasBody]
+- -[AWDMailMessage hasMessageId]
+- -[AWDMailMessage hash]
+- -[AWDMailMessage isEqual:]
+- -[AWDMailMessage mergeFrom:]
+- -[AWDMailMessage messageId]
+- -[AWDMailMessage readFrom:]
+- -[AWDMailMessage setBody:]
+- -[AWDMailMessage setMessageId:]
+- -[AWDMailMessage writeTo:]
+- -[AWDMailMessage(Factory) initWithMailMessage:]
+- -[AWDMailMessageBody .cxx_destruct]
+- -[AWDMailMessageBody copyTo:]
+- -[AWDMailMessageBody copyWithZone:]
+- -[AWDMailMessageBody description]
+- -[AWDMailMessageBody dictionaryRepresentation]
+- -[AWDMailMessageBody hasMimeSubtype]
+- -[AWDMailMessageBody hasMimeType]
+- -[AWDMailMessageBody hasTotalTextSize]
+- -[AWDMailMessageBody hash]
+- -[AWDMailMessageBody isEqual:]
+- -[AWDMailMessageBody mergeFrom:]
+- -[AWDMailMessageBody mimeSubtype]
+- -[AWDMailMessageBody mimeType]
+- -[AWDMailMessageBody readFrom:]
+- -[AWDMailMessageBody setHasTotalTextSize:]
+- -[AWDMailMessageBody setMimeSubtype:]
+- -[AWDMailMessageBody setMimeType:]
+- -[AWDMailMessageBody setTotalTextSize:]
+- -[AWDMailMessageBody totalTextSize]
+- -[AWDMailMessageBody writeTo:]
+- -[AWDMailMessageBody(Factory) initWithMIMEBody:]
+- -[AWDMailMessageDisplayErrorReport .cxx_destruct]
+- -[AWDMailMessageDisplayErrorReport StringAsLoadingError:]
+- -[AWDMailMessageDisplayErrorReport StringAsMimeError:]
+- -[AWDMailMessageDisplayErrorReport copyTo:]
+- -[AWDMailMessageDisplayErrorReport copyWithZone:]
+- -[AWDMailMessageDisplayErrorReport description]
+- -[AWDMailMessageDisplayErrorReport dictionaryRepresentation]
+- -[AWDMailMessageDisplayErrorReport hasLoadingError]
+- -[AWDMailMessageDisplayErrorReport hasMessage]
+- -[AWDMailMessageDisplayErrorReport hasMimeError]
+- -[AWDMailMessageDisplayErrorReport hasTimestamp]
+- -[AWDMailMessageDisplayErrorReport hash]
+- -[AWDMailMessageDisplayErrorReport isEqual:]
+- -[AWDMailMessageDisplayErrorReport loadingErrorAsString:]
+- -[AWDMailMessageDisplayErrorReport loadingError]
+- -[AWDMailMessageDisplayErrorReport mergeFrom:]
+- -[AWDMailMessageDisplayErrorReport message]
+- -[AWDMailMessageDisplayErrorReport mimeErrorAsString:]
+- -[AWDMailMessageDisplayErrorReport mimeError]
+- -[AWDMailMessageDisplayErrorReport readFrom:]
+- -[AWDMailMessageDisplayErrorReport setHasLoadingError:]
+- -[AWDMailMessageDisplayErrorReport setHasMimeError:]
+- -[AWDMailMessageDisplayErrorReport setHasTimestamp:]
+- -[AWDMailMessageDisplayErrorReport setLoadingError:]
+- -[AWDMailMessageDisplayErrorReport setMessage:]
+- -[AWDMailMessageDisplayErrorReport setMimeError:]
+- -[AWDMailMessageDisplayErrorReport setTimestamp:]
+- -[AWDMailMessageDisplayErrorReport timestamp]
+- -[AWDMailMessageDisplayErrorReport writeTo:]
+- -[AWDMailMessageLoadingReport .cxx_destruct]
+- -[AWDMailMessageLoadingReport copyTo:]
+- -[AWDMailMessageLoadingReport copyWithZone:]
+- -[AWDMailMessageLoadingReport description]
+- -[AWDMailMessageLoadingReport dictionaryRepresentation]
+- -[AWDMailMessageLoadingReport hasMessage]
+- -[AWDMailMessageLoadingReport hasTimeLoadingSpinnerIsVisibleInSeconds]
+- -[AWDMailMessageLoadingReport hasTimestamp]
+- -[AWDMailMessageLoadingReport hash]
+- -[AWDMailMessageLoadingReport isEqual:]
+- -[AWDMailMessageLoadingReport mergeFrom:]
+- -[AWDMailMessageLoadingReport message]
+- -[AWDMailMessageLoadingReport readFrom:]
+- -[AWDMailMessageLoadingReport setHasTimeLoadingSpinnerIsVisibleInSeconds:]
+- -[AWDMailMessageLoadingReport setHasTimestamp:]
+- -[AWDMailMessageLoadingReport setMessage:]
+- -[AWDMailMessageLoadingReport setTimeLoadingSpinnerIsVisibleInSeconds:]
+- -[AWDMailMessageLoadingReport setTimestamp:]
+- -[AWDMailMessageLoadingReport timeLoadingSpinnerIsVisibleInSeconds]
+- -[AWDMailMessageLoadingReport timestamp]
+- -[AWDMailMessageLoadingReport writeTo:]
+- -[AWDMailMessageLoadingReport(Factory) initWithMailMessage:loadingSpinnerIsVisibleTimeInSeconds:]
+- -[AWDMailNetworkDiagnosticsReport .cxx_destruct]
+- -[AWDMailNetworkDiagnosticsReport cellData]
+- -[AWDMailNetworkDiagnosticsReport copyTo:]
+- -[AWDMailNetworkDiagnosticsReport copyWithZone:]
+- -[AWDMailNetworkDiagnosticsReport dataIndicator]
+- -[AWDMailNetworkDiagnosticsReport dataInterface]
+- -[AWDMailNetworkDiagnosticsReport description]
+- -[AWDMailNetworkDiagnosticsReport dictionaryRepresentation]
+- -[AWDMailNetworkDiagnosticsReport dnsEnabled]
+- -[AWDMailNetworkDiagnosticsReport hasCellData]
+- -[AWDMailNetworkDiagnosticsReport hasDataIndicator]
+- -[AWDMailNetworkDiagnosticsReport hasDataInterface]
+- -[AWDMailNetworkDiagnosticsReport hasDnsEnabled]
+- -[AWDMailNetworkDiagnosticsReport hasNumActiveCalls]
+- -[AWDMailNetworkDiagnosticsReport hasNumBackgroundWifiClients]
+- -[AWDMailNetworkDiagnosticsReport hasReachabilityFlags]
+- -[AWDMailNetworkDiagnosticsReport hasRoamingAllowed]
+- -[AWDMailNetworkDiagnosticsReport hasTimestamp]
+- -[AWDMailNetworkDiagnosticsReport hasWifiEnabled]
+- -[AWDMailNetworkDiagnosticsReport hash]
+- -[AWDMailNetworkDiagnosticsReport isEqual:]
+- -[AWDMailNetworkDiagnosticsReport mergeFrom:]
+- -[AWDMailNetworkDiagnosticsReport numActiveCalls]
+- -[AWDMailNetworkDiagnosticsReport numBackgroundWifiClients]
+- -[AWDMailNetworkDiagnosticsReport reachabilityFlags]
+- -[AWDMailNetworkDiagnosticsReport readFrom:]
+- -[AWDMailNetworkDiagnosticsReport roamingAllowed]
+- -[AWDMailNetworkDiagnosticsReport setCellData:]
+- -[AWDMailNetworkDiagnosticsReport setDataIndicator:]
+- -[AWDMailNetworkDiagnosticsReport setDataInterface:]
+- -[AWDMailNetworkDiagnosticsReport setDnsEnabled:]
+- -[AWDMailNetworkDiagnosticsReport setHasCellData:]
+- -[AWDMailNetworkDiagnosticsReport setHasDataInterface:]
+- -[AWDMailNetworkDiagnosticsReport setHasDnsEnabled:]
+- -[AWDMailNetworkDiagnosticsReport setHasNumActiveCalls:]
+- -[AWDMailNetworkDiagnosticsReport setHasNumBackgroundWifiClients:]
+- -[AWDMailNetworkDiagnosticsReport setHasReachabilityFlags:]
+- -[AWDMailNetworkDiagnosticsReport setHasRoamingAllowed:]
+- -[AWDMailNetworkDiagnosticsReport setHasTimestamp:]
+- -[AWDMailNetworkDiagnosticsReport setHasWifiEnabled:]
+- -[AWDMailNetworkDiagnosticsReport setNumActiveCalls:]
+- -[AWDMailNetworkDiagnosticsReport setNumBackgroundWifiClients:]
+- -[AWDMailNetworkDiagnosticsReport setReachabilityFlags:]
+- -[AWDMailNetworkDiagnosticsReport setRoamingAllowed:]
+- -[AWDMailNetworkDiagnosticsReport setTimestamp:]
+- -[AWDMailNetworkDiagnosticsReport setWifiEnabled:]
+- -[AWDMailNetworkDiagnosticsReport timestamp]
+- -[AWDMailNetworkDiagnosticsReport wifiEnabled]
+- -[AWDMailNetworkDiagnosticsReport writeTo:]
+- -[AWDMailSearchEngagement .cxx_destruct]
+- -[AWDMailSearchEngagement StringAsAtoms:]
+- -[AWDMailSearchEngagement StringAsSearchScope:]
+- -[AWDMailSearchEngagement addAtoms:]
+- -[AWDMailSearchEngagement addEngagements:]
+- -[AWDMailSearchEngagement atomsAsString:]
+- -[AWDMailSearchEngagement atomsAtIndex:]
+- -[AWDMailSearchEngagement atomsCount]
+- -[AWDMailSearchEngagement atoms]
+- -[AWDMailSearchEngagement clearAtoms]
+- -[AWDMailSearchEngagement clearEngagements]
+- -[AWDMailSearchEngagement copyTo:]
+- -[AWDMailSearchEngagement copyWithZone:]
+- -[AWDMailSearchEngagement dealloc]
+- -[AWDMailSearchEngagement description]
+- -[AWDMailSearchEngagement dictionaryRepresentation]
+- -[AWDMailSearchEngagement engagementsAtIndex:]
+- -[AWDMailSearchEngagement engagementsCount]
+- -[AWDMailSearchEngagement engagements]
+- -[AWDMailSearchEngagement hasNumSearchResults]
+- -[AWDMailSearchEngagement hasSearchScope]
+- -[AWDMailSearchEngagement hasSuggestionsEngagement]
+- -[AWDMailSearchEngagement hash]
+- -[AWDMailSearchEngagement isEqual:]
+- -[AWDMailSearchEngagement mergeFrom:]
+- -[AWDMailSearchEngagement numSearchResults]
+- -[AWDMailSearchEngagement readFrom:]
+- -[AWDMailSearchEngagement searchScopeAsString:]
+- -[AWDMailSearchEngagement searchScope]
+- -[AWDMailSearchEngagement setAtoms:count:]
+- -[AWDMailSearchEngagement setEngagements:]
+- -[AWDMailSearchEngagement setHasNumSearchResults:]
+- -[AWDMailSearchEngagement setHasSearchScope:]
+- -[AWDMailSearchEngagement setNumSearchResults:]
+- -[AWDMailSearchEngagement setSearchScope:]
+- -[AWDMailSearchEngagement setSuggestionsEngagement:]
+- -[AWDMailSearchEngagement suggestionsEngagement]
+- -[AWDMailSearchEngagement writeTo:]
+- -[AWDMailSearchEngagement(Factory) initWithAtoms:searchScope:suggestionsEngagement:]
+- -[AWDMailSearchSessionReport .cxx_destruct]
+- -[AWDMailSearchSessionReport StringAsEmailProvider:]
+- -[AWDMailSearchSessionReport addEngagements:]
+- -[AWDMailSearchSessionReport clearEngagements]
+- -[AWDMailSearchSessionReport copyTo:]
+- -[AWDMailSearchSessionReport copyWithZone:]
+- -[AWDMailSearchSessionReport description]
+- -[AWDMailSearchSessionReport dictionaryRepresentation]
+- -[AWDMailSearchSessionReport emailProviderAsString:]
+- -[AWDMailSearchSessionReport emailProvider]
+- -[AWDMailSearchSessionReport engagementsAtIndex:]
+- -[AWDMailSearchSessionReport engagementsCount]
+- -[AWDMailSearchSessionReport engagements]
+- -[AWDMailSearchSessionReport hasEmailProvider]
+- -[AWDMailSearchSessionReport hasMessagesLeftToIndex]
+- -[AWDMailSearchSessionReport hasPercentOfMessagesIndexed]
+- -[AWDMailSearchSessionReport hasTimestamp]
+- -[AWDMailSearchSessionReport hash]
+- -[AWDMailSearchSessionReport isEqual:]
+- -[AWDMailSearchSessionReport mergeFrom:]
+- -[AWDMailSearchSessionReport messagesLeftToIndex]
+- -[AWDMailSearchSessionReport percentOfMessagesIndexed]
+- -[AWDMailSearchSessionReport readFrom:]
+- -[AWDMailSearchSessionReport setEmailProvider:]
+- -[AWDMailSearchSessionReport setEngagements:]
+- -[AWDMailSearchSessionReport setHasEmailProvider:]
+- -[AWDMailSearchSessionReport setHasMessagesLeftToIndex:]
+- -[AWDMailSearchSessionReport setHasPercentOfMessagesIndexed:]
+- -[AWDMailSearchSessionReport setHasTimestamp:]
+- -[AWDMailSearchSessionReport setMessagesLeftToIndex:]
+- -[AWDMailSearchSessionReport setPercentOfMessagesIndexed:]
+- -[AWDMailSearchSessionReport setTimestamp:]
+- -[AWDMailSearchSessionReport timestamp]
+- -[AWDMailSearchSessionReport writeTo:]
+- -[AWDMailUserEngagement StringAsMailboxType:]
+- -[AWDMailUserEngagement StringAsType:]
+- -[AWDMailUserEngagement copyTo:]
+- -[AWDMailUserEngagement copyWithZone:]
+- -[AWDMailUserEngagement description]
+- -[AWDMailUserEngagement dictionaryRepresentation]
+- -[AWDMailUserEngagement hasIsTopHitMessage]
+- -[AWDMailUserEngagement hasMailboxType]
+- -[AWDMailUserEngagement hasMessageAgeInWeeks]
+- -[AWDMailUserEngagement hasTopHitIndexInSpotlightList]
+- -[AWDMailUserEngagement hasTopHitIndexInTopHitsList]
+- -[AWDMailUserEngagement hasType]
+- -[AWDMailUserEngagement hash]
+- -[AWDMailUserEngagement isEqual:]
+- -[AWDMailUserEngagement isTopHitMessage]
+- -[AWDMailUserEngagement mailboxTypeAsString:]
+- -[AWDMailUserEngagement mailboxType]
+- -[AWDMailUserEngagement mergeFrom:]
+- -[AWDMailUserEngagement messageAgeInWeeks]
+- -[AWDMailUserEngagement readFrom:]
+- -[AWDMailUserEngagement setHasIsTopHitMessage:]
+- -[AWDMailUserEngagement setHasMailboxType:]
+- -[AWDMailUserEngagement setHasMessageAgeInWeeks:]
+- -[AWDMailUserEngagement setHasTopHitIndexInSpotlightList:]
+- -[AWDMailUserEngagement setHasTopHitIndexInTopHitsList:]
+- -[AWDMailUserEngagement setHasType:]
+- -[AWDMailUserEngagement setIsTopHitMessage:]
+- -[AWDMailUserEngagement setMailboxType:]
+- -[AWDMailUserEngagement setMessageAgeInWeeks:]
+- -[AWDMailUserEngagement setTopHitIndexInSpotlightList:]
+- -[AWDMailUserEngagement setTopHitIndexInTopHitsList:]
+- -[AWDMailUserEngagement setType:]
+- -[AWDMailUserEngagement topHitIndexInSpotlightList]
+- -[AWDMailUserEngagement topHitIndexInTopHitsList]
+- -[AWDMailUserEngagement typeAsString:]
+- -[AWDMailUserEngagement type]
+- -[AWDMailUserEngagement writeTo:]
+- -[AWDMailUserEngagement(Factory) initWithEngagmentType:]
+- -[AWDMailUserEngagement(Factory) initWithEngagmentType:isTopHit:]
+- -[AWDMailUserEngagement(Factory) initWithEngagmentType:message:isTopHit:messageListIndex:spotlightListIndex:]
+- -[AWDMailUserEngagement(Factory) initWithEngagmentType:receivedDate:mailboxType:isTopHit:messageListIndex:spotlightListIndex:]
+- -[AWDMailUserSuggestionsEngagment copyTo:]
+- -[AWDMailUserSuggestionsEngagment copyWithZone:]
+- -[AWDMailUserSuggestionsEngagment description]
+- -[AWDMailUserSuggestionsEngagment dictionaryRepresentation]
+- -[AWDMailUserSuggestionsEngagment hasSearchTermLength]
+- -[AWDMailUserSuggestionsEngagment hasTopHitsPresent]
+- -[AWDMailUserSuggestionsEngagment hasUserSelectedTopHit]
+- -[AWDMailUserSuggestionsEngagment hash]
+- -[AWDMailUserSuggestionsEngagment isEqual:]
+- -[AWDMailUserSuggestionsEngagment mergeFrom:]
+- -[AWDMailUserSuggestionsEngagment readFrom:]
+- -[AWDMailUserSuggestionsEngagment searchTermLength]
+- -[AWDMailUserSuggestionsEngagment setHasSearchTermLength:]
+- -[AWDMailUserSuggestionsEngagment setHasTopHitsPresent:]
+- -[AWDMailUserSuggestionsEngagment setHasUserSelectedTopHit:]
+- -[AWDMailUserSuggestionsEngagment setSearchTermLength:]
+- -[AWDMailUserSuggestionsEngagment setTopHitsPresent:]
+- -[AWDMailUserSuggestionsEngagment setUserSelectedTopHit:]
+- -[AWDMailUserSuggestionsEngagment topHitsPresent]
+- -[AWDMailUserSuggestionsEngagment userSelectedTopHit]
+- -[AWDMailUserSuggestionsEngagment writeTo:]
+- -[AWDMailUserSuggestionsEngagment(Factory) initWithSearchTermLength:topHitsPresent:userSelectedTopHit:]
+- -[MSComposeAttachmentAnalyticController .cxx_destruct]
+- -[MSComposeAttachmentAnalyticController _submitFinalDrawingInsertCount:sentMessage:]
+- -[MSComposeAttachmentAnalyticController abandonMessageWithActualDrawingInsertCount:]
+- -[MSComposeAttachmentAnalyticController diagnosticManager]
+- -[MSComposeAttachmentAnalyticController initWithDiagnosticManager:totalDrawingsInsertedCount:]
+- -[MSComposeAttachmentAnalyticController sendMessageWithActualDrawingInsertCount:]
+- -[MSComposeAttachmentAnalyticController setDiagnosticManager:]
+- -[MSDiagnosticManager .cxx_destruct]
+- -[MSDiagnosticManager awdServerConnection]
+- -[MSDiagnosticManager init]
+- -[MSDiagnosticManager submitComposeAttachmentReport:]
+- -[MSDiagnosticManager submitFetchMetricsReport:]
+- -[MSDiagnosticManager submitMessageLoadingReport:]
+- -[MSDiagnosticManager submitSearchSessionWithSearchEngagement:numberOfMessagesLeftToIndex:percentOfMessagesIndexed:emailProvider:]
+- -[MSDiagnosticManager submitWithIdentifier:metricGenerator:]
+- -[MSFetchMetricsController .cxx_destruct]
+- -[MSFetchMetricsController dataSource]
+- -[MSFetchMetricsController initWithDataSource:]
+- -[MSFetchMetricsController start]
+- -[MSFetchMetricsController stopAndSubmitWithOptions:fetchSize:]
+- -[MSMessageLoadingAnalyticController .cxx_destruct]
+- -[MSMessageLoadingAnalyticController _calculateAndSubmitTimeForLoadingInfo:]
+- -[MSMessageLoadingAnalyticController _commonInitWithDiagnosticManager:maxLoadingTimeSeconds:]
+- -[MSMessageLoadingAnalyticController _endRecordingForMessage:]
+- -[MSMessageLoadingAnalyticController _retrieveAndRemoveMessageLoadingInfoForMessage:]
+- -[MSMessageLoadingAnalyticController _startTimeoutForMessage:]
+- -[MSMessageLoadingAnalyticController diagnosticManager]
+- -[MSMessageLoadingAnalyticController endAllRecording]
+- -[MSMessageLoadingAnalyticController endRecordingForMessage:]
+- -[MSMessageLoadingAnalyticController endedRecordingHandler]
+- -[MSMessageLoadingAnalyticController initWithDiagnosticManager:]
+- -[MSMessageLoadingAnalyticController initWithDiagnosticManager:maxLoadingTimeSeconds:]
+- -[MSMessageLoadingAnalyticController maxLoadingTimeSeconds]
+- -[MSMessageLoadingAnalyticController messageLoadTimes]
+- -[MSMessageLoadingAnalyticController serialMessageLoadingTimerQueue]
+- -[MSMessageLoadingAnalyticController setDiagnosticManager:]
+- -[MSMessageLoadingAnalyticController setEndedRecordingHandler:]
+- -[MSMessageLoadingAnalyticController setMaxLoadingTimeSeconds:]
+- -[MSMessageLoadingAnalyticController setSerialMessageLoadingTimerQueue:]
+- -[MSMessageLoadingAnalyticController setStartedRecordingHandler:]
+- -[MSMessageLoadingAnalyticController startRecordingForMessage:]
+- -[MSMessageLoadingAnalyticController startedRecordingHandler]
+- -[MSSearchSessionController .cxx_destruct]
+- -[MSSearchSessionController _addToLatestEngagementWithUserEngagement:]
+- -[MSSearchSessionController _recordEngagement:forMessage:isTopHit:messageListIndex:spotlightListIndex:]
+- -[MSSearchSessionController _recordUserDidNotSelectAnyMessage]
+- -[MSSearchSessionController addNewEngagementWithAWDAtoms:searchScope:suggestionsEngagements:]
+- -[MSSearchSessionController addNewEngagementWithAtoms:searchScope:suggestionsEngagement:]
+- -[MSSearchSessionController dataSource]
+- -[MSSearchSessionController emailProvider]
+- -[MSSearchSessionController endSession]
+- -[MSSearchSessionController initWithDataSource:]
+- -[MSSearchSessionController init]
+- -[MSSearchSessionController mutableSessionEngagements]
+- -[MSSearchSessionController numberOfMessagesLeftToIndex]
+- -[MSSearchSessionController percentOfMessagesIndexed]
+- -[MSSearchSessionController queue]
+- -[MSSearchSessionController recordUserDidOrbMessage:]
+- -[MSSearchSessionController recordUserDidOrbMessage:isTopHit:messageListIndex:spotlightListIndex:]
+- -[MSSearchSessionController recordUserDidRightClickMessage:]
+- -[MSSearchSessionController recordUserDidRightClickMessage:isTopHit:messageListIndex:spotlightListIndex:]
+- -[MSSearchSessionController recordUserDidSelectMessage:]
+- -[MSSearchSessionController recordUserDidSelectMessage:isTopHit:messageListIndex:spotlightListIndex:]
+- -[MSSearchSessionController recordUserDidSwipeMessage:]
+- -[MSSearchSessionController recordUserDidSwipeMessage:isTopHit:messageListIndex:spotlightListIndex:]
+- -[MSSearchSessionController sessionEngagements]
+- -[MSSearchSessionController updateLastEngagementSearchResultCount:]
+- GCC_except_table28
+- GCC_except_table29
+- GCC_except_table30
+- GCC_except_table31
+- GCC_except_table32
+- GCC_except_table33
+- GCC_except_table34
+- GCC_except_table35
+- GCC_except_table41
+- GCC_except_table42
+- GCC_except_table43
+- GCC_except_table49
+- GCC_except_table54
+- GCC_except_table60
+- GCC_except_table67
+- GCC_except_table68
+- GCC_except_table69
+- GCC_except_table71
+- GCC_except_table72
+- GCC_except_table73
+- GCC_except_table74
+- GCC_except_table76
+- OBJC_IVAR_$_AWDMailAutoFetchReport._bucketedLocalNonDeletedCount
+- OBJC_IVAR_$_AWDMailAutoFetchReport._didTimeout
+- OBJC_IVAR_$_AWDMailAutoFetchReport._duration
+- OBJC_IVAR_$_AWDMailAutoFetchReport._emailProvider
+- OBJC_IVAR_$_AWDMailAutoFetchReport._fetchSize
+- OBJC_IVAR_$_AWDMailAutoFetchReport._foreground
+- OBJC_IVAR_$_AWDMailAutoFetchReport._has
+- OBJC_IVAR_$_AWDMailAutoFetchReport._mailError
+- OBJC_IVAR_$_AWDMailAutoFetchReport._mailboxType
+- OBJC_IVAR_$_AWDMailAutoFetchReport._newMessagesState
+- OBJC_IVAR_$_AWDMailAutoFetchReport._numMessagesFetched
+- OBJC_IVAR_$_AWDMailAutoFetchReport._options
+- OBJC_IVAR_$_AWDMailAutoFetchReport._protocol
+- OBJC_IVAR_$_AWDMailAutoFetchReport._timestamp
+- OBJC_IVAR_$_AWDMailAutoFetchReport._totalBytesReceived
+- OBJC_IVAR_$_AWDMailAutoFetchReport._totalBytesSent
+- OBJC_IVAR_$_AWDMailAutoFetchReport._trigger
+- OBJC_IVAR_$_AWDMailCannotGetMailErrorReport._has
+- OBJC_IVAR_$_AWDMailCannotGetMailErrorReport._hostname
+- OBJC_IVAR_$_AWDMailCannotGetMailErrorReport._mailError
+- OBJC_IVAR_$_AWDMailCannotGetMailErrorReport._protocol
+- OBJC_IVAR_$_AWDMailCannotGetMailErrorReport._provider
+- OBJC_IVAR_$_AWDMailCannotGetMailErrorReport._serverInfo
+- OBJC_IVAR_$_AWDMailCannotGetMailErrorReport._timestamp
+- OBJC_IVAR_$_AWDMailComposeAttachmentReport._drawingInsertCount
+- OBJC_IVAR_$_AWDMailComposeAttachmentReport._drawingSentCount
+- OBJC_IVAR_$_AWDMailComposeAttachmentReport._has
+- OBJC_IVAR_$_AWDMailComposeAttachmentReport._messageSent
+- OBJC_IVAR_$_AWDMailComposeAttachmentReport._timestamp
+- OBJC_IVAR_$_AWDMailError._errorCode
+- OBJC_IVAR_$_AWDMailError._genericErrorCode
+- OBJC_IVAR_$_AWDMailError._has
+- OBJC_IVAR_$_AWDMailFeatureEngagementReport._feature
+- OBJC_IVAR_$_AWDMailFeatureEngagementReport._filterStatus
+- OBJC_IVAR_$_AWDMailFeatureEngagementReport._fromSwipeMenu
+- OBJC_IVAR_$_AWDMailFeatureEngagementReport._has
+- OBJC_IVAR_$_AWDMailFeatureEngagementReport._inView
+- OBJC_IVAR_$_AWDMailFeatureEngagementReport._includeAttachments
+- OBJC_IVAR_$_AWDMailFeatureEngagementReport._interactionGesture
+- OBJC_IVAR_$_AWDMailFeatureEngagementReport._sourceType
+- OBJC_IVAR_$_AWDMailFeatureEngagementReport._timestamp
+- OBJC_IVAR_$_AWDMailFeatureEngagementReport._usedPrediction
+- OBJC_IVAR_$_AWDMailMessage._body
+- OBJC_IVAR_$_AWDMailMessage._messageId
+- OBJC_IVAR_$_AWDMailMessageBody._has
+- OBJC_IVAR_$_AWDMailMessageBody._mimeSubtype
+- OBJC_IVAR_$_AWDMailMessageBody._mimeType
+- OBJC_IVAR_$_AWDMailMessageBody._totalTextSize
+- OBJC_IVAR_$_AWDMailMessageDisplayErrorReport._has
+- OBJC_IVAR_$_AWDMailMessageDisplayErrorReport._loadingError
+- OBJC_IVAR_$_AWDMailMessageDisplayErrorReport._message
+- OBJC_IVAR_$_AWDMailMessageDisplayErrorReport._mimeError
+- OBJC_IVAR_$_AWDMailMessageDisplayErrorReport._timestamp
+- OBJC_IVAR_$_AWDMailMessageLoadingReport._has
+- OBJC_IVAR_$_AWDMailMessageLoadingReport._message
+- OBJC_IVAR_$_AWDMailMessageLoadingReport._timeLoadingSpinnerIsVisibleInSeconds
+- OBJC_IVAR_$_AWDMailMessageLoadingReport._timestamp
+- OBJC_IVAR_$_AWDMailNetworkDiagnosticsReport._cellData
+- OBJC_IVAR_$_AWDMailNetworkDiagnosticsReport._dataIndicator
+- OBJC_IVAR_$_AWDMailNetworkDiagnosticsReport._dataInterface
+- OBJC_IVAR_$_AWDMailNetworkDiagnosticsReport._dnsEnabled
+- OBJC_IVAR_$_AWDMailNetworkDiagnosticsReport._has
+- OBJC_IVAR_$_AWDMailNetworkDiagnosticsReport._numActiveCalls
+- OBJC_IVAR_$_AWDMailNetworkDiagnosticsReport._numBackgroundWifiClients
+- OBJC_IVAR_$_AWDMailNetworkDiagnosticsReport._reachabilityFlags
+- OBJC_IVAR_$_AWDMailNetworkDiagnosticsReport._roamingAllowed
+- OBJC_IVAR_$_AWDMailNetworkDiagnosticsReport._timestamp
+- OBJC_IVAR_$_AWDMailNetworkDiagnosticsReport._wifiEnabled
+- OBJC_IVAR_$_AWDMailSearchEngagement._atoms
+- OBJC_IVAR_$_AWDMailSearchEngagement._engagements
+- OBJC_IVAR_$_AWDMailSearchEngagement._has
+- OBJC_IVAR_$_AWDMailSearchEngagement._numSearchResults
+- OBJC_IVAR_$_AWDMailSearchEngagement._searchScope
+- OBJC_IVAR_$_AWDMailSearchEngagement._suggestionsEngagement
+- OBJC_IVAR_$_AWDMailSearchSessionReport._emailProvider
+- OBJC_IVAR_$_AWDMailSearchSessionReport._engagements
+- OBJC_IVAR_$_AWDMailSearchSessionReport._has
+- OBJC_IVAR_$_AWDMailSearchSessionReport._messagesLeftToIndex
+- OBJC_IVAR_$_AWDMailSearchSessionReport._percentOfMessagesIndexed
+- OBJC_IVAR_$_AWDMailSearchSessionReport._timestamp
+- OBJC_IVAR_$_AWDMailUserEngagement._has
+- OBJC_IVAR_$_AWDMailUserEngagement._isTopHitMessage
+- OBJC_IVAR_$_AWDMailUserEngagement._mailboxType
+- OBJC_IVAR_$_AWDMailUserEngagement._messageAgeInWeeks
+- OBJC_IVAR_$_AWDMailUserEngagement._topHitIndexInSpotlightList
+- OBJC_IVAR_$_AWDMailUserEngagement._topHitIndexInTopHitsList
+- OBJC_IVAR_$_AWDMailUserEngagement._type
+- OBJC_IVAR_$_AWDMailUserSuggestionsEngagment._has
+- OBJC_IVAR_$_AWDMailUserSuggestionsEngagment._searchTermLength
+- OBJC_IVAR_$_AWDMailUserSuggestionsEngagment._topHitsPresent
+- OBJC_IVAR_$_AWDMailUserSuggestionsEngagment._userSelectedTopHit
+- OBJC_IVAR_$_PBDataReader._bytes
+- OBJC_IVAR_$_PBDataReader._error
+- OBJC_IVAR_$_PBDataReader._length
+- OBJC_IVAR_$_PBDataReader._pos
+- _AWDMailAutoFetchReportReadFrom
+- _AWDMailCannotGetMailErrorReportReadFrom
+- _AWDMailComposeAttachmentReportReadFrom
+- _AWDMailErrorReadFrom
+- _AWDMailFeatureEngagementReportReadFrom
+- _AWDMailMessageBodyReadFrom
+- _AWDMailMessageDisplayErrorReportReadFrom
+- _AWDMailMessageLoadingReportReadFrom
+- _AWDMailMessageReadFrom
+- _AWDMailNetworkDiagnosticsReportReadFrom
+- _AWDMailSearchEngagementReadFrom
+- _AWDMailSearchSessionReportReadFrom
+- _AWDMailUserEngagementReadFrom
+- _AWDMailUserSuggestionsEngagmentReadFrom
+- _AWDMailboxTypeFromECMailbox
+- _CFAbsoluteTimeGetCurrent
+- _EFRoundUnsignedInteger
+- _NSRangeException
+- _OBJC_CLASS_$_AWDMailAutoFetchReport
+- _OBJC_CLASS_$_AWDMailCannotGetMailErrorReport
+- _OBJC_CLASS_$_AWDMailComposeAttachmentReport
+- _OBJC_CLASS_$_AWDMailError
+- _OBJC_CLASS_$_AWDMailFeatureEngagementReport
+- _OBJC_CLASS_$_AWDMailMessage
+- _OBJC_CLASS_$_AWDMailMessageBody
+- _OBJC_CLASS_$_AWDMailMessageDisplayErrorReport
+- _OBJC_CLASS_$_AWDMailMessageLoadingReport
+- _OBJC_CLASS_$_AWDMailNetworkDiagnosticsReport
+- _OBJC_CLASS_$_AWDMailSearchEngagement
+- _OBJC_CLASS_$_AWDMailSearchSessionReport
+- _OBJC_CLASS_$_AWDMailUserEngagement
+- _OBJC_CLASS_$_AWDMailUserSuggestionsEngagment
+- _OBJC_CLASS_$_AWDServerConnection
+- _OBJC_CLASS_$_MSComposeAttachmentAnalyticController
+- _OBJC_CLASS_$_MSDiagnosticManager
+- _OBJC_CLASS_$_MSFetchMetricsController
+- _OBJC_CLASS_$_MSMessageLoadingAnalyticController
+- _OBJC_CLASS_$_MSSearchSessionController
+- _OBJC_CLASS_$_NSException
+- _OBJC_CLASS_$_PBCodable
+- _OBJC_IVAR_$_MSComposeAttachmentAnalyticController._diagnosticManager
+- _OBJC_IVAR_$_MSComposeAttachmentAnalyticController._totalDrawingsInsertedCount
+- _OBJC_IVAR_$_MSDiagnosticManager._awdServerConnection
+- _OBJC_IVAR_$_MSFetchMetricsController._dataSource
+- _OBJC_IVAR_$_MSFetchMetricsController._startTime
+- _OBJC_IVAR_$_MSMessageLoadingAnalyticController._diagnosticManager
+- _OBJC_IVAR_$_MSMessageLoadingAnalyticController._endedRecordingHandler
+- _OBJC_IVAR_$_MSMessageLoadingAnalyticController._maxLoadingTimeSeconds
+- _OBJC_IVAR_$_MSMessageLoadingAnalyticController._messageLoadTimes
+- _OBJC_IVAR_$_MSMessageLoadingAnalyticController._serialMessageLoadingTimerQueue
+- _OBJC_IVAR_$_MSMessageLoadingAnalyticController._startedRecordingHandler
+- _OBJC_IVAR_$_MSSearchSessionController._dataSource
+- _OBJC_IVAR_$_MSSearchSessionController._emailProvider
+- _OBJC_IVAR_$_MSSearchSessionController._mutableSessionEngagements
+- _OBJC_IVAR_$_MSSearchSessionController._numberOfMessagesLeftToIndex
+- _OBJC_IVAR_$_MSSearchSessionController._percentOfMessagesIndexed
+- _OBJC_IVAR_$_MSSearchSessionController._queue
+- _OBJC_METACLASS_$_AWDMailAutoFetchReport
+- _OBJC_METACLASS_$_AWDMailCannotGetMailErrorReport
+- _OBJC_METACLASS_$_AWDMailComposeAttachmentReport
+- _OBJC_METACLASS_$_AWDMailError
+- _OBJC_METACLASS_$_AWDMailFeatureEngagementReport
+- _OBJC_METACLASS_$_AWDMailMessage
+- _OBJC_METACLASS_$_AWDMailMessageBody
+- _OBJC_METACLASS_$_AWDMailMessageDisplayErrorReport
+- _OBJC_METACLASS_$_AWDMailMessageLoadingReport
+- _OBJC_METACLASS_$_AWDMailNetworkDiagnosticsReport
+- _OBJC_METACLASS_$_AWDMailSearchEngagement
+- _OBJC_METACLASS_$_AWDMailSearchSessionReport
+- _OBJC_METACLASS_$_AWDMailUserEngagement
+- _OBJC_METACLASS_$_AWDMailUserSuggestionsEngagment
+- _OBJC_METACLASS_$_MSComposeAttachmentAnalyticController
+- _OBJC_METACLASS_$_MSDiagnosticManager
+- _OBJC_METACLASS_$_MSFetchMetricsController
+- _OBJC_METACLASS_$_MSMessageLoadingAnalyticController
+- _OBJC_METACLASS_$_MSSearchSessionController
+- _OBJC_METACLASS_$_PBCodable
+- _PBDataWriterWriteBOOLField
+- _PBDataWriterWriteInt32Field
+- _PBDataWriterWriteInt64Field
+- _PBDataWriterWriteSint64Field
+- _PBDataWriterWriteStringField
+- _PBDataWriterWriteSubmessage
+- _PBDataWriterWriteUint32Field
+- _PBDataWriterWriteUint64Field
+- _PBReaderPlaceMark
+- _PBReaderReadString
+- _PBReaderRecallMark
+- _PBReaderSkipValueWithTag
+- _PBRepeatedInt32Add
+- _PBRepeatedInt32Clear
+- _PBRepeatedInt32Copy
+- _PBRepeatedInt32Hash
+- _PBRepeatedInt32IsEqual
+- _PBRepeatedInt32Set
+- __OBJC_$_CLASS_METHODS_AWDMailSearchEngagement(Factory)
+- __OBJC_$_CLASS_METHODS_AWDMailSearchSessionReport
+- __OBJC_$_CLASS_METHODS_MSDiagnosticManager
+- __OBJC_$_CLASS_PROP_LIST_MSDiagnosticManager
+- __OBJC_$_INSTANCE_METHODS_AWDMailAutoFetchReport
+- __OBJC_$_INSTANCE_METHODS_AWDMailCannotGetMailErrorReport
+- __OBJC_$_INSTANCE_METHODS_AWDMailComposeAttachmentReport
+- __OBJC_$_INSTANCE_METHODS_AWDMailError
+- __OBJC_$_INSTANCE_METHODS_AWDMailFeatureEngagementReport
+- __OBJC_$_INSTANCE_METHODS_AWDMailMessage(Factory)
+- __OBJC_$_INSTANCE_METHODS_AWDMailMessageBody(Factory)
+- __OBJC_$_INSTANCE_METHODS_AWDMailMessageDisplayErrorReport
+- __OBJC_$_INSTANCE_METHODS_AWDMailMessageLoadingReport(Factory)
+- __OBJC_$_INSTANCE_METHODS_AWDMailNetworkDiagnosticsReport
+- __OBJC_$_INSTANCE_METHODS_AWDMailSearchEngagement(Factory)
+- __OBJC_$_INSTANCE_METHODS_AWDMailSearchSessionReport
+- __OBJC_$_INSTANCE_METHODS_AWDMailUserEngagement(Factory)
+- __OBJC_$_INSTANCE_METHODS_AWDMailUserSuggestionsEngagment(Factory)
+- __OBJC_$_INSTANCE_METHODS_MSComposeAttachmentAnalyticController
+- __OBJC_$_INSTANCE_METHODS_MSDiagnosticManager
+- __OBJC_$_INSTANCE_METHODS_MSFetchMetricsController
+- __OBJC_$_INSTANCE_METHODS_MSMessageLoadingAnalyticController
+- __OBJC_$_INSTANCE_METHODS_MSSearchSessionController
+- __OBJC_$_INSTANCE_VARIABLES_AWDMailAutoFetchReport
+- __OBJC_$_INSTANCE_VARIABLES_AWDMailCannotGetMailErrorReport
+- __OBJC_$_INSTANCE_VARIABLES_AWDMailComposeAttachmentReport
+- __OBJC_$_INSTANCE_VARIABLES_AWDMailError
+- __OBJC_$_INSTANCE_VARIABLES_AWDMailFeatureEngagementReport
+- __OBJC_$_INSTANCE_VARIABLES_AWDMailMessage
+- __OBJC_$_INSTANCE_VARIABLES_AWDMailMessageBody
+- __OBJC_$_INSTANCE_VARIABLES_AWDMailMessageDisplayErrorReport
+- __OBJC_$_INSTANCE_VARIABLES_AWDMailMessageLoadingReport
+- __OBJC_$_INSTANCE_VARIABLES_AWDMailNetworkDiagnosticsReport
+- __OBJC_$_INSTANCE_VARIABLES_AWDMailSearchEngagement
+- __OBJC_$_INSTANCE_VARIABLES_AWDMailSearchSessionReport
+- __OBJC_$_INSTANCE_VARIABLES_AWDMailUserEngagement
+- __OBJC_$_INSTANCE_VARIABLES_AWDMailUserSuggestionsEngagment
+- __OBJC_$_INSTANCE_VARIABLES_MSComposeAttachmentAnalyticController
+- __OBJC_$_INSTANCE_VARIABLES_MSDiagnosticManager
+- __OBJC_$_INSTANCE_VARIABLES_MSFetchMetricsController
+- __OBJC_$_INSTANCE_VARIABLES_MSMessageLoadingAnalyticController
+- __OBJC_$_INSTANCE_VARIABLES_MSSearchSessionController
+- __OBJC_$_PROP_LIST_AWDMailAutoFetchReport
+- __OBJC_$_PROP_LIST_AWDMailCannotGetMailErrorReport
+- __OBJC_$_PROP_LIST_AWDMailComposeAttachmentReport
+- __OBJC_$_PROP_LIST_AWDMailError
+- __OBJC_$_PROP_LIST_AWDMailFeatureEngagementReport
+- __OBJC_$_PROP_LIST_AWDMailMessage
+- __OBJC_$_PROP_LIST_AWDMailMessageBody
+- __OBJC_$_PROP_LIST_AWDMailMessageDisplayErrorReport
+- __OBJC_$_PROP_LIST_AWDMailMessageLoadingReport
+- __OBJC_$_PROP_LIST_AWDMailNetworkDiagnosticsReport
+- __OBJC_$_PROP_LIST_AWDMailSearchEngagement
+- __OBJC_$_PROP_LIST_AWDMailSearchSessionReport
+- __OBJC_$_PROP_LIST_AWDMailUserEngagement
+- __OBJC_$_PROP_LIST_AWDMailUserSuggestionsEngagment
+- __OBJC_$_PROP_LIST_MSComposeAttachmentAnalyticController
+- __OBJC_$_PROP_LIST_MSDiagnosticManager
+- __OBJC_$_PROP_LIST_MSFetchMetricsController
+- __OBJC_$_PROP_LIST_MSMessageLoadingAnalyticController
+- __OBJC_$_PROP_LIST_MSSearchSessionController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_CLASS_PROTOCOLS_$_AWDMailAutoFetchReport
+- __OBJC_CLASS_PROTOCOLS_$_AWDMailCannotGetMailErrorReport
+- __OBJC_CLASS_PROTOCOLS_$_AWDMailComposeAttachmentReport
+- __OBJC_CLASS_PROTOCOLS_$_AWDMailError
+- __OBJC_CLASS_PROTOCOLS_$_AWDMailFeatureEngagementReport
+- __OBJC_CLASS_PROTOCOLS_$_AWDMailMessage
+- __OBJC_CLASS_PROTOCOLS_$_AWDMailMessageBody
+- __OBJC_CLASS_PROTOCOLS_$_AWDMailMessageDisplayErrorReport
+- __OBJC_CLASS_PROTOCOLS_$_AWDMailMessageLoadingReport
+- __OBJC_CLASS_PROTOCOLS_$_AWDMailNetworkDiagnosticsReport
+- __OBJC_CLASS_PROTOCOLS_$_AWDMailSearchEngagement
+- __OBJC_CLASS_PROTOCOLS_$_AWDMailSearchSessionReport
+- __OBJC_CLASS_PROTOCOLS_$_AWDMailUserEngagement
+- __OBJC_CLASS_PROTOCOLS_$_AWDMailUserSuggestionsEngagment
+- __OBJC_CLASS_PROTOCOLS_$_MSDiagnosticManager
+- __OBJC_CLASS_RO_$_AWDMailAutoFetchReport
+- __OBJC_CLASS_RO_$_AWDMailCannotGetMailErrorReport
+- __OBJC_CLASS_RO_$_AWDMailComposeAttachmentReport
+- __OBJC_CLASS_RO_$_AWDMailError
+- __OBJC_CLASS_RO_$_AWDMailFeatureEngagementReport
+- __OBJC_CLASS_RO_$_AWDMailMessage
+- __OBJC_CLASS_RO_$_AWDMailMessageBody
+- __OBJC_CLASS_RO_$_AWDMailMessageDisplayErrorReport
+- __OBJC_CLASS_RO_$_AWDMailMessageLoadingReport
+- __OBJC_CLASS_RO_$_AWDMailNetworkDiagnosticsReport
+- __OBJC_CLASS_RO_$_AWDMailSearchEngagement
+- __OBJC_CLASS_RO_$_AWDMailSearchSessionReport
+- __OBJC_CLASS_RO_$_AWDMailUserEngagement
+- __OBJC_CLASS_RO_$_AWDMailUserSuggestionsEngagment
+- __OBJC_CLASS_RO_$_MSComposeAttachmentAnalyticController
+- __OBJC_CLASS_RO_$_MSDiagnosticManager
+- __OBJC_CLASS_RO_$_MSFetchMetricsController
+- __OBJC_CLASS_RO_$_MSMessageLoadingAnalyticController
+- __OBJC_CLASS_RO_$_MSSearchSessionController
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_METACLASS_RO_$_AWDMailAutoFetchReport
+- __OBJC_METACLASS_RO_$_AWDMailCannotGetMailErrorReport
+- __OBJC_METACLASS_RO_$_AWDMailComposeAttachmentReport
+- __OBJC_METACLASS_RO_$_AWDMailError
+- __OBJC_METACLASS_RO_$_AWDMailFeatureEngagementReport
+- __OBJC_METACLASS_RO_$_AWDMailMessage
+- __OBJC_METACLASS_RO_$_AWDMailMessageBody
+- __OBJC_METACLASS_RO_$_AWDMailMessageDisplayErrorReport
+- __OBJC_METACLASS_RO_$_AWDMailMessageLoadingReport
+- __OBJC_METACLASS_RO_$_AWDMailNetworkDiagnosticsReport
+- __OBJC_METACLASS_RO_$_AWDMailSearchEngagement
+- __OBJC_METACLASS_RO_$_AWDMailSearchSessionReport
+- __OBJC_METACLASS_RO_$_AWDMailUserEngagement
+- __OBJC_METACLASS_RO_$_AWDMailUserSuggestionsEngagment
+- __OBJC_METACLASS_RO_$_MSComposeAttachmentAnalyticController
+- __OBJC_METACLASS_RO_$_MSDiagnosticManager
+- __OBJC_METACLASS_RO_$_MSFetchMetricsController
+- __OBJC_METACLASS_RO_$_MSMessageLoadingAnalyticController
+- __OBJC_METACLASS_RO_$_MSSearchSessionController
+- __OBJC_PROTOCOL_$_NSCopying
+- ___130-[MSDiagnosticManager submitSearchSessionWithSearchEngagement:numberOfMessagesLeftToIndex:percentOfMessagesIndexed:emailProvider:]_block_invoke
+- ___26+[MSDiagnosticManager log]_block_invoke
+- ___39-[MSSearchSessionController endSession]_block_invoke
+- ___48-[MSDiagnosticManager submitFetchMetricsReport:]_block_invoke
+- ___50-[MSDiagnosticManager submitMessageLoadingReport:]_block_invoke
+- ___53-[MSDiagnosticManager submitComposeAttachmentReport:]_block_invoke
+- ___53-[MSMessageLoadingAnalyticController endAllRecording]_block_invoke
+- ___53-[MSMessageLoadingAnalyticController endAllRecording]_block_invoke_2
+- ___61-[MSMessageLoadingAnalyticController endRecordingForMessage:]_block_invoke
+- ___62-[MSMessageLoadingAnalyticController _startTimeoutForMessage:]_block_invoke
+- ___62-[MSMessageLoadingAnalyticController _startTimeoutForMessage:]_block_invoke_2
+- ___67+[MSAccountToEmailProvider emailProviderFromAccountStatisticsKind:]_block_invoke
+- ___89-[MSSearchSessionController addNewEngagementWithAtoms:searchScope:suggestionsEngagement:]_block_invoke
+- ___block_descriptor_40_ea8_32s_e16_"PBCodable"8?0ls32l8
+- ___block_descriptor_40_ea8_32s_e39_v32?0"NSString"8"NSDictionary"16^B24ls32l8
+- ___block_descriptor_40_ea8_32s_e5_v8?0ls32l8
+- ___block_descriptor_48_ea8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_60_ea8_32s40s48w_e5_v8?0lw48l8s32l8s40l8
+- ___block_descriptor_60_ea8_32s_e16_"PBCodable"8?0ls32l8
+- ___block_literal_global.45
+- __bucketedByteCount
+- __dispatch_source_type_timer
+- _addNewEngagementWithAtoms:searchScope:suggestionsEngagement:.onceToken
+- _addNewEngagementWithAtoms:searchScope:suggestionsEngagement:.searchAtomMap
+- _dispatch_assert_queue$V2
+- _dispatch_block_create_with_qos_class
+- _dispatch_queue_create
+- _dispatch_resume
+- _dispatch_source_cancel
+- _dispatch_source_create
+- _dispatch_source_set_event_handler
+- _dispatch_source_set_timer
+- _emailProviderFromAccountStatisticsKind:._statisticsKindToProviderMapping
+- _emailProviderFromAccountStatisticsKind:.onceToken
+- _objc_copyWeak
+- _objc_initWeak
+- _objc_msgSend$_addToLatestEngagementWithUserEngagement:
+- _objc_msgSend$_calculateAndSubmitTimeForLoadingInfo:
+- _objc_msgSend$_commonInitWithDiagnosticManager:maxLoadingTimeSeconds:
+- _objc_msgSend$_endRecordingForMessage:
+- _objc_msgSend$_recordEngagement:forMessage:isTopHit:messageListIndex:spotlightListIndex:
+- _objc_msgSend$_recordUserDidNotSelectAnyMessage
+- _objc_msgSend$_retrieveAndRemoveMessageLoadingInfoForMessage:
+- _objc_msgSend$_startTimeoutForMessage:
+- _objc_msgSend$_submitFinalDrawingInsertCount:sentMessage:
+- _objc_msgSend$addAtoms:
+- _objc_msgSend$addEngagements:
+- _objc_msgSend$addNewEngagementWithAWDAtoms:searchScope:suggestionsEngagements:
+- _objc_msgSend$allocWithZone:
+- _objc_msgSend$arrayWithCapacity:
+- _objc_msgSend$atomsAtIndex:
+- _objc_msgSend$atomsCount
+- _objc_msgSend$awdServerConnection
+- _objc_msgSend$clearAtoms
+- _objc_msgSend$clearEngagements
+- _objc_msgSend$copyWithZone:
+- _objc_msgSend$dataSource
+- _objc_msgSend$date
+- _objc_msgSend$dateReceived
+- _objc_msgSend$diagnosticManager
+- _objc_msgSend$dictionaryRepresentation
+- _objc_msgSend$didTimeout
+- _objc_msgSend$emailProvider
+- _objc_msgSend$emailProviderForSearchSessionController:
+- _objc_msgSend$endedRecordingHandler
+- _objc_msgSend$engagementsAtIndex:
+- _objc_msgSend$engagementsCount
+- _objc_msgSend$enumerateKeysAndObjectsUsingBlock:
+- _objc_msgSend$exceptionWithName:reason:userInfo:
+- _objc_msgSend$hash
+- _objc_msgSend$init
+- _objc_msgSend$initWithAtoms:searchScope:suggestionsEngagement:
+- _objc_msgSend$initWithCapacity:
+- _objc_msgSend$initWithComponentId:
+- _objc_msgSend$initWithEngagmentType:message:isTopHit:messageListIndex:spotlightListIndex:
+- _objc_msgSend$initWithEngagmentType:receivedDate:mailboxType:isTopHit:messageListIndex:spotlightListIndex:
+- _objc_msgSend$initWithMIMEBody:
+- _objc_msgSend$initWithMailMessage:
+- _objc_msgSend$initWithMailMessage:loadingSpinnerIsVisibleTimeInSeconds:
+- _objc_msgSend$isForeground
+- _objc_msgSend$isMemberOfClass:
+- _objc_msgSend$lastObject
+- _objc_msgSend$localNonDeletedCount
+- _objc_msgSend$mailError
+- _objc_msgSend$mailbox
+- _objc_msgSend$mailboxType
+- _objc_msgSend$maxLoadingTimeSeconds
+- _objc_msgSend$mergeFrom:
+- _objc_msgSend$mimeBody
+- _objc_msgSend$mimeSubtype
+- _objc_msgSend$mimeType
+- _objc_msgSend$mutableSessionEngagements
+- _objc_msgSend$newMessagesState
+- _objc_msgSend$newMetricContainerWithIdentifier:
+- _objc_msgSend$numMessagesFetched
+- _objc_msgSend$numberOfMessagesLeftToIndexForSearchSessionController:
+- _objc_msgSend$numberWithInt:
+- _objc_msgSend$numberWithUnsignedInt:
+- _objc_msgSend$numberWithUnsignedLongLong:
+- _objc_msgSend$objectAtIndex:
+- _objc_msgSend$percentOfMessagesIndexedForSearchSessionController:
+- _objc_msgSend$persistentID
+- _objc_msgSend$protocol
+- _objc_msgSend$queue
+- _objc_msgSend$raise
+- _objc_msgSend$recordUserDidOrbMessage:isTopHit:messageListIndex:spotlightListIndex:
+- _objc_msgSend$recordUserDidRightClickMessage:isTopHit:messageListIndex:spotlightListIndex:
+- _objc_msgSend$recordUserDidSelectMessage:isTopHit:messageListIndex:spotlightListIndex:
+- _objc_msgSend$recordUserDidSwipeMessage:isTopHit:messageListIndex:spotlightListIndex:
+- _objc_msgSend$removeObjectForKey:
+- _objc_msgSend$serialMessageLoadingTimerQueue
+- _objc_msgSend$sessionEngagements
+- _objc_msgSend$setBody:
+- _objc_msgSend$setBucketedLocalNonDeletedCount:
+- _objc_msgSend$setDataIndicator:
+- _objc_msgSend$setDidTimeout:
+- _objc_msgSend$setDrawingInsertCount:
+- _objc_msgSend$setDrawingSentCount:
+- _objc_msgSend$setDuration:
+- _objc_msgSend$setEmailProvider:
+- _objc_msgSend$setFetchSize:
+- _objc_msgSend$setForeground:
+- _objc_msgSend$setHostname:
+- _objc_msgSend$setIsTopHitMessage:
+- _objc_msgSend$setMailError:
+- _objc_msgSend$setMailboxType:
+- _objc_msgSend$setMessage:
+- _objc_msgSend$setMessageAgeInWeeks:
+- _objc_msgSend$setMessageId:
+- _objc_msgSend$setMessageSent:
+- _objc_msgSend$setMessagesLeftToIndex:
+- _objc_msgSend$setMetric:
+- _objc_msgSend$setMimeSubtype:
+- _objc_msgSend$setMimeType:
+- _objc_msgSend$setNewMessagesState:
+- _objc_msgSend$setNumMessagesFetched:
+- _objc_msgSend$setNumSearchResults:
+- _objc_msgSend$setObject:forKey:
+- _objc_msgSend$setOptions:
+- _objc_msgSend$setPercentOfMessagesIndexed:
+- _objc_msgSend$setProtocol:
+- _objc_msgSend$setSearchScope:
+- _objc_msgSend$setSearchTermLength:
+- _objc_msgSend$setServerInfo:
+- _objc_msgSend$setSuggestionsEngagement:
+- _objc_msgSend$setTimeLoadingSpinnerIsVisibleInSeconds:
+- _objc_msgSend$setTopHitIndexInSpotlightList:
+- _objc_msgSend$setTopHitIndexInTopHitsList:
+- _objc_msgSend$setTopHitsPresent:
+- _objc_msgSend$setTotalBytesReceived:
+- _objc_msgSend$setTotalBytesSent:
+- _objc_msgSend$setTotalTextSize:
+- _objc_msgSend$setTrigger:
+- _objc_msgSend$setUserSelectedTopHit:
+- _objc_msgSend$shouldReport
+- _objc_msgSend$startedRecordingHandler
+- _objc_msgSend$submitComposeAttachmentReport:
+- _objc_msgSend$submitFetchMetricsReport:
+- _objc_msgSend$submitMessageLoadingReport:
+- _objc_msgSend$submitMetric:
+- _objc_msgSend$submitSearchSessionWithSearchEngagement:numberOfMessagesLeftToIndex:percentOfMessagesIndexed:emailProvider:
+- _objc_msgSend$submitWithIdentifier:metricGenerator:
+- _objc_msgSend$timeIntervalSinceDate:
+- _objc_msgSend$totalBytesReceived
+- _objc_msgSend$totalBytesSent
+- _objc_msgSend$totalTextSize
+- _objc_msgSend$trigger
+- _objc_msgSend$weeksSinceDate:
+- _objc_terminate
+CStrings:
++ "T@\"NSString\",?,R,C"
+- "\x03\x12"
+- "\x12\x11"
+- "%@ %@"
+- "(unknown: %i)"
+- "1\x11"
+- "@\"<MSFetchMetricsControllerDataSource>\""
+- "@\"<MSSearchSessionControllerDataSource>\""
+- "@\"AWDMailError\""
+- "@\"AWDMailMessage\""
+- "@\"AWDMailMessageBody\""
+- "@\"AWDMailUserSuggestionsEngagment\""
+- "@\"AWDServerConnection\""
+- "@\"MSDiagnosticManager\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"PBCodable\"8@?0"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8i16B20"
+- "@32@0:8@16Q24"
+- "@32@0:8@16q24"
+- "@32@0:8Q16B24B28"
+- "@48@0:8i16@20B28q32q40"
+- "@52@0:8i16@20i28B32q36q44"
+- "A"
+- "A\x11"
+- "ACCOUNT_IN_USE"
+- "ACCOUNT_LOCKOUT"
+- "ALL_MAILBOXES"
+- "AOL"
+- "ATTACHMENT"
+- "AUTHENTICATION_FAILED"
+- "AWDMailAutoFetchReport"
+- "AWDMailCannotGetMailErrorReport"
+- "AWDMailComposeAttachmentReport"
+- "AWDMailError"
+- "AWDMailFeatureEngagementReport"
+- "AWDMailMessage"
+- "AWDMailMessageBody"
+- "AWDMailMessageDisplayErrorReport"
+- "AWDMailMessageLoadingReport"
+- "AWDMailNetworkDiagnosticsReport"
+- "AWDMailSearchEngagement"
+- "AWDMailSearchSessionReport"
+- "AWDMailUserEngagement"
+- "AWDMailUserSuggestionsEngagment"
+- "B28@0:8I16@?20"
+- "BODY_FETCH_FAILED"
+- "CHARACTER_SET_ERROR"
+- "COMMAND_FAILED"
+- "CONTENT_LOAD_FAILED"
+- "CURRENT_MAILBOX"
+- "DATA_BLOCKED_BY_CALL"
+- "DATES"
+- "DECODE_FAILED"
+- "DELIVERY_CONFIGURATION_ERROR"
+- "DELIVERY_MESSAGE_REJECTED"
+- "DELIVERY_MESSAGE_TOO_LARGE"
+- "DISK_FULL"
+- "ENCRYPTION_ERROR"
+- "EXCHANGE"
+- "End Search Session Engagment"
+- "FLAGGED"
+- "Factory"
+- "From_0k_To_5k"
+- "From_100k_To_200k"
+- "From_10k_To_20k"
+- "From_200k_To_300k"
+- "From_20k_To_30k"
+- "From_300k_To_400k"
+- "From_30k_To_40k"
+- "From_400k_To_500k"
+- "From_40k_To_50k"
+- "From_50k_To_100k"
+- "From_5k_To_10k"
+- "GENERIC"
+- "GMAIL"
+- "HOTMAIL"
+- "I"
+- "I16@0:8"
+- "ICLOUD"
+- "IMAP"
+- "INACCESSIBLE_PASSWORD"
+- "INTERNAL"
+- "INVALID_RECIPIENT"
+- "INVALID_SENDER"
+- "Invalid initializer called, returning nil"
+- "LOGIN_DISABLED"
+- "MAILBOX"
+- "MAILBOX_ARCHIVE"
+- "MAILBOX_FULL"
+- "MAILBOX_INBOX"
+- "MAILBOX_OTHER"
+- "MAILBOX_SENT"
+- "MAILBOX_TRASH"
+- "MAILBOX_UNDEFINED"
+- "MESSAGE_ORB"
+- "MESSAGE_RIGHT_CLICK_AND_ACTED_ON"
+- "MESSAGE_SELECTED"
+- "MESSAGE_SWIPED_AND_ACTED_ON"
+- "MISSING_IDENTITY"
+- "MISSING_PASSWORD"
+- "MSComposeAttachmentAnalyticController"
+- "MSDiagnosticManager"
+- "MSDiagnosticManager.m"
+- "MSFetchMetricsController"
+- "MSMessageLoadingAnalyticController"
+- "MSSearchSessionController"
+- "MSSearchSessionController.m"
+- "MS_EXCHANGE"
+- "MULTIPLE_ACCOUNT_ERRORS"
+- "MessageLoadingKeyMessage"
+- "MessageLoadingKeyStartTime"
+- "MessageLoadingKeyTimer"
+- "More_Than_500k"
+- "NETEASE"
+- "NEW_MESSAGES_NONE"
+- "NEW_MESSAGES_PLAIN"
+- "NEW_MESSAGES_PROCESSED"
+- "NEW_MESSAGES_THREAD_NOTIFY"
+- "NEW_MESSAGES_VIP"
+- "NOT_APPLICABLE"
+- "NO_HOST"
+- "NO_INTERNET_CONNECTION"
+- "NO_MESSAGE_SELECTED"
+- "NO_RECIPIENTS"
+- "NSCopying"
+- "PEOPLE_FROM"
+- "PEOPLE_FULL"
+- "PEOPLE_TO"
+- "POP"
+- "POWERNAP"
+- "PUSH"
+- "QQ"
+- "RAW"
+- "SCHEDULED"
+- "SENDER_MAILBOX_FULL"
+- "SIGNATURE_ERROR"
+- "SOCKET_READ_ERROR"
+- "STRING"
+- "SUBJECT"
+- "SUBJECT_FULL"
+- "Search Session Engagment - Submitted these to AWD %@, number of message left to index %lu,  %lu%% messages indexed, email provider %i"
+- "Start Search Session Engagment with email provider %i"
+- "StringAsAtoms:"
+- "StringAsEmailProvider:"
+- "StringAsErrorCode:"
+- "StringAsFeature:"
+- "StringAsFilterStatus:"
+- "StringAsInView:"
+- "StringAsInteractionGesture:"
+- "StringAsLoadingError:"
+- "StringAsMailboxType:"
+- "StringAsMimeError:"
+- "StringAsNewMessagesState:"
+- "StringAsProtocol:"
+- "StringAsProvider:"
+- "StringAsSearchScope:"
+- "StringAsSourceType:"
+- "StringAsTotalBytesReceived:"
+- "StringAsTotalBytesSent:"
+- "StringAsTrigger:"
+- "StringAsType:"
+- "T@\"<MSFetchMetricsControllerDataSource>\",R,W,N,V_dataSource"
+- "T@\"<MSSearchSessionControllerDataSource>\",R,W,N,V_dataSource"
+- "T@\"AWDMailError\",&,N,V_mailError"
+- "T@\"AWDMailMessage\",&,N,V_message"
+- "T@\"AWDMailMessageBody\",&,N,V_body"
+- "T@\"AWDMailUserSuggestionsEngagment\",&,N,V_suggestionsEngagement"
+- "T@\"AWDServerConnection\",R,N,V_awdServerConnection"
+- "T@\"MSDiagnosticManager\",&,N,V_diagnosticManager"
+- "T@\"NSArray\",R,C,N"
+- "T@\"NSDictionary\",R,C,N,V_messageLoadTimes"
+- "T@\"NSMutableArray\",&,N,V_engagements"
+- "T@\"NSMutableArray\",R,N,V_mutableSessionEngagements"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_serialMessageLoadingTimerQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_queue"
+- "T@\"NSString\",&,N,V_dataIndicator"
+- "T@\"NSString\",&,N,V_hostname"
+- "T@\"NSString\",&,N,V_messageId"
+- "T@\"NSString\",&,N,V_mimeSubtype"
+- "T@\"NSString\",&,N,V_mimeType"
+- "T@\"NSString\",&,N,V_serverInfo"
+- "T@?,C,N,V_endedRecordingHandler"
+- "T@?,C,N,V_startedRecordingHandler"
+- "TB,N"
+- "TB,N,V_cellData"
+- "TB,N,V_didTimeout"
+- "TB,N,V_dnsEnabled"
+- "TB,N,V_foreground"
+- "TB,N,V_fromSwipeMenu"
+- "TB,N,V_includeAttachments"
+- "TB,N,V_isTopHitMessage"
+- "TB,N,V_messageSent"
+- "TB,N,V_roamingAllowed"
+- "TB,N,V_topHitsPresent"
+- "TB,N,V_usedPrediction"
+- "TB,N,V_userSelectedTopHit"
+- "TB,N,V_wifiEnabled"
+- "TI,N,V_reachabilityFlags"
+- "TIMEOUT"
+- "TQ,N,V_bucketedLocalNonDeletedCount"
+- "TQ,N,V_duration"
+- "TQ,N,V_fetchSize"
+- "TQ,N,V_maxLoadingTimeSeconds"
+- "TQ,N,V_messagesLeftToIndex"
+- "TQ,N,V_numActiveCalls"
+- "TQ,N,V_numBackgroundWifiClients"
+- "TQ,N,V_numMessagesFetched"
+- "TQ,N,V_numSearchResults"
+- "TQ,N,V_options"
+- "TQ,N,V_percentOfMessagesIndexed"
+- "TQ,N,V_timestamp"
+- "TQ,N,V_totalTextSize"
+- "TQ,R,N"
+- "TQ,R,N,V_numberOfMessagesLeftToIndex"
+- "TQ,R,N,V_percentOfMessagesIndexed"
+- "T^i,R,N"
+- "Ti,N,V_dataInterface"
+- "Ti,N,V_emailProvider"
+- "Ti,N,V_errorCode"
+- "Ti,N,V_feature"
+- "Ti,N,V_filterStatus"
+- "Ti,N,V_inView"
+- "Ti,N,V_interactionGesture"
+- "Ti,N,V_loadingError"
+- "Ti,N,V_mailboxType"
+- "Ti,N,V_mimeError"
+- "Ti,N,V_newMessagesState"
+- "Ti,N,V_protocol"
+- "Ti,N,V_provider"
+- "Ti,N,V_searchScope"
+- "Ti,N,V_sourceType"
+- "Ti,N,V_totalBytesReceived"
+- "Ti,N,V_totalBytesSent"
+- "Ti,N,V_trigger"
+- "Ti,N,V_type"
+- "Ti,R,N,V_emailProvider"
+- "Tq,N,V_drawingInsertCount"
+- "Tq,N,V_drawingSentCount"
+- "Tq,N,V_genericErrorCode"
+- "Tq,N,V_messageAgeInWeeks"
+- "Tq,N,V_searchTermLength"
+- "Tq,N,V_timeLoadingSpinnerIsVisibleInSeconds"
+- "Tq,N,V_topHitIndexInSpotlightList"
+- "Tq,N,V_topHitIndexInTopHitsList"
+- "UNAVAILABLE_SERVER"
+- "UNKNOWN_ERROR"
+- "UNKNOWN_PROTOCOL"
+- "UNKNOWN_PROVIDER"
+- "UNKNOWN_SERVICE"
+- "UNKNOWN_TRIGGER"
+- "UNREAD"
+- "UNRECOVERABLE_SERVER"
+- "UNSUPPORTED_FEATURE"
+- "USER_CANCELLED"
+- "USER_CONFIRMATION_REQUIRED"
+- "USER_REQUESTED"
+- "VIP"
+- "WEB_LOGIN_NEEDED"
+- "YAHOO"
+- "Zero"
+- "^i16@0:8"
+- "_addToLatestEngagementWithUserEngagement:"
+- "_atoms"
+- "_awdServerConnection"
+- "_body"
+- "_bucketedLocalNonDeletedCount"
+- "_calculateAndSubmitTimeForLoadingInfo:"
+- "_cellData"
+- "_commonInitWithDiagnosticManager:maxLoadingTimeSeconds:"
+- "_dataIndicator"
+- "_dataInterface"
+- "_dataSource"
+- "_diagnosticManager"
+- "_didTimeout"
+- "_dnsEnabled"
+- "_drawingInsertCount"
+- "_drawingSentCount"
+- "_duration"
+- "_emailProvider"
+- "_endRecordingForMessage:"
+- "_endedRecordingHandler"
+- "_engagements"
+- "_errorCode"
+- "_feature"
+- "_fetchSize"
+- "_filterStatus"
+- "_foreground"
+- "_fromSwipeMenu"
+- "_genericErrorCode"
+- "_has"
+- "_hostname"
+- "_inView"
+- "_includeAttachments"
+- "_interactionGesture"
+- "_isTopHitMessage"
+- "_loadingError"
+- "_mailError"
+- "_mailboxType"
+- "_maxLoadingTimeSeconds"
+- "_messageAgeInWeeks"
+- "_messageId"
+- "_messageLoadTimes"
+- "_messageSent"
+- "_messagesLeftToIndex"
+- "_mimeError"
+- "_mimeSubtype"
+- "_mimeType"
+- "_mutableSessionEngagements"
+- "_newMessagesState"
+- "_numActiveCalls"
+- "_numBackgroundWifiClients"
+- "_numMessagesFetched"
+- "_numSearchResults"
+- "_numberOfMessagesLeftToIndex"
+- "_options"
+- "_percentOfMessagesIndexed"
+- "_protocol"
+- "_provider"
+- "_queue"
+- "_reachabilityFlags"
+- "_recordEngagement:forMessage:isTopHit:messageListIndex:spotlightListIndex:"
+- "_recordUserDidNotSelectAnyMessage"
+- "_retrieveAndRemoveMessageLoadingInfoForMessage:"
+- "_roamingAllowed"
+- "_searchScope"
+- "_searchTermLength"
+- "_serialMessageLoadingTimerQueue"
+- "_serverInfo"
+- "_sourceType"
+- "_startTime"
+- "_startTimeoutForMessage:"
+- "_startedRecordingHandler"
+- "_submitFinalDrawingInsertCount:sentMessage:"
+- "_suggestionsEngagement"
+- "_timeLoadingSpinnerIsVisibleInSeconds"
+- "_timestamp"
+- "_topHitIndexInSpotlightList"
+- "_topHitIndexInTopHitsList"
+- "_topHitsPresent"
+- "_totalBytesReceived"
+- "_totalBytesSent"
+- "_totalDrawingsInsertedCount"
+- "_totalTextSize"
+- "_trigger"
+- "_type"
+- "_usedPrediction"
+- "_userSelectedTopHit"
+- "_wifiEnabled"
+- "abandonMessageWithActualDrawingInsertCount:"
+- "addAtoms:"
+- "addEngagements:"
+- "addNewEngagementWithAWDAtoms:searchScope:suggestionsEngagements:"
+- "addNewEngagementWithAtoms:searchScope:suggestionsEngagement:"
+- "allocWithZone:"
+- "archive"
+- "arrayWithCapacity:"
+- "atoms"
+- "atomsAsString:"
+- "atomsAtIndex:"
+- "atomsCount"
+- "awdServerConnection"
+- "bucketedLocalNonDeletedCount"
+- "cellData"
+- "cell_data"
+- "clearAtoms"
+- "clearEngagements"
+- "com.apple.mailSupport.messageLoadingTimer"
+- "com.apple.mobilemail.SearchSessionController"
+- "compose"
+- "composeView"
+- "configure"
+- "conversationOrSingleMessageView"
+- "copyTo:"
+- "copyWithZone:"
+- "d"
+- "dataIndicator"
+- "dataInterface"
+- "dataSource"
+- "data_indicator"
+- "data_interface"
+- "dateReceived"
+- "dealloc"
+- "delete"
+- "diagnosticManager"
+- "dictionaryRepresentation"
+- "didTimeout"
+- "dnsEnabled"
+- "dns_enabled"
+- "drawingInsertCount"
+- "drawingSentCount"
+- "duration"
+- "emailProvider"
+- "emailProviderAsString:"
+- "emailProviderForSearchSessionController:"
+- "emailProviderFromAccountStatisticsKind:"
+- "endAllRecording"
+- "endRecordingForMessage:"
+- "endSession"
+- "endedRecordingHandler"
+- "engagements"
+- "engagementsAtIndex:"
+- "engagementsCount"
+- "engagementsType"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "errorCodeAsString:"
+- "error_code"
+- "exceptionWithName:reason:userInfo:"
+- "feature"
+- "featureAsString:"
+- "fetchSize"
+- "filter"
+- "filterOff"
+- "filterOn"
+- "filterStatus"
+- "filterStatusAsString:"
+- "foreground"
+- "forward"
+- "fromSwipeMenu"
+- "generator"
+- "genericErrorCode"
+- "generic_error_code"
+- "hasBody"
+- "hasBucketedLocalNonDeletedCount"
+- "hasCellData"
+- "hasDataIndicator"
+- "hasDataInterface"
+- "hasDidTimeout"
+- "hasDnsEnabled"
+- "hasDrawingInsertCount"
+- "hasDrawingSentCount"
+- "hasDuration"
+- "hasEmailProvider"
+- "hasErrorCode"
+- "hasFeature"
+- "hasFetchSize"
+- "hasFilterStatus"
+- "hasForeground"
+- "hasFromSwipeMenu"
+- "hasGenericErrorCode"
+- "hasHostname"
+- "hasInView"
+- "hasIncludeAttachments"
+- "hasInteractionGesture"
+- "hasIsTopHitMessage"
+- "hasLoadingError"
+- "hasMailError"
+- "hasMailboxType"
+- "hasMessage"
+- "hasMessageAgeInWeeks"
+- "hasMessageId"
+- "hasMessageSent"
+- "hasMessagesLeftToIndex"
+- "hasMimeError"
+- "hasMimeSubtype"
+- "hasMimeType"
+- "hasNewMessagesState"
+- "hasNumActiveCalls"
+- "hasNumBackgroundWifiClients"
+- "hasNumMessagesFetched"
+- "hasNumSearchResults"
+- "hasOptions"
+- "hasPercentOfMessagesIndexed"
+- "hasProtocol"
+- "hasProvider"
+- "hasReachabilityFlags"
+- "hasRoamingAllowed"
+- "hasSearchScope"
+- "hasSearchTermLength"
+- "hasServerInfo"
+- "hasSourceType"
+- "hasSuggestionsEngagement"
+- "hasTimeLoadingSpinnerIsVisibleInSeconds"
+- "hasTimestamp"
+- "hasTopHitIndexInSpotlightList"
+- "hasTopHitIndexInTopHitsList"
+- "hasTopHitsPresent"
+- "hasTotalBytesReceived"
+- "hasTotalBytesSent"
+- "hasTotalTextSize"
+- "hasTrigger"
+- "hasType"
+- "hasUsedPrediction"
+- "hasUserSelectedTopHit"
+- "hasWifiEnabled"
+- "hostname"
+- "i"
+- "i16@0:8"
+- "i24@0:8@16"
+- "i24@0:8Q16"
+- "idx (%tu) is out of range (%tu)"
+- "inView"
+- "inViewAsString:"
+- "includeAttachments"
+- "initWithAtoms:searchScope:suggestionsEngagement:"
+- "initWithCapacity:"
+- "initWithComponentId:"
+- "initWithDataSource:"
+- "initWithDiagnosticManager:"
+- "initWithDiagnosticManager:maxLoadingTimeSeconds:"
+- "initWithDiagnosticManager:totalDrawingsInsertedCount:"
+- "initWithEngagmentType:"
+- "initWithEngagmentType:isTopHit:"
+- "initWithEngagmentType:message:isTopHit:messageListIndex:spotlightListIndex:"
+- "initWithEngagmentType:receivedDate:mailboxType:isTopHit:messageListIndex:spotlightListIndex:"
+- "initWithMIMEBody:"
+- "initWithMailMessage:"
+- "initWithMailMessage:loadingSpinnerIsVisibleTimeInSeconds:"
+- "initWithSearchTermLength:topHitsPresent:userSelectedTopHit:"
+- "interactionGesture"
+- "interactionGestureAsString:"
+- "isForeground"
+- "isTopHitMessage"
+- "keyCommand"
+- "lastObject"
+- "loadingError"
+- "loadingErrorAsString:"
+- "loading_error"
+- "localNonDeletedCount"
+- "longTap"
+- "mailError"
+- "mail_error"
+- "mailboxPickerView"
+- "mailboxType"
+- "mailboxTypeAsString:"
+- "mailbox_type"
+- "markAsRead"
+- "maxLoadingTimeSeconds"
+- "mergeFrom:"
+- "messageAgeInWeeks"
+- "messageId"
+- "messageListView"
+- "messageLoadTimes"
+- "messageSent"
+- "message_id"
+- "messagesLeftToIndex"
+- "messages_left_to_index"
+- "mimeBody"
+- "mimeError"
+- "mimeErrorAsString:"
+- "mimeSubtype"
+- "mimeType"
+- "mime_error"
+- "mime_subtype"
+- "mime_type"
+- "moveToJunk"
+- "moveToMailbox"
+- "multipleConversations"
+- "multipleMessages"
+- "mutableSessionEngagements"
+- "navigationArrowDown"
+- "navigationArrowUp"
+- "newMessagesState"
+- "newMessagesStateAsString:"
+- "newMetricContainerWithIdentifier:"
+- "notifyMe"
+- "numActiveCalls"
+- "numBackgroundWifiClients"
+- "numMessagesFetched"
+- "numSearchResults"
+- "num_active_calls"
+- "num_background_wifi_clients"
+- "num_search_results"
+- "numberOfMessagesLeftToIndex"
+- "numberOfMessagesLeftToIndexForSearchSessionController:"
+- "numberWithInt:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedLongLong:"
+- "objectAtIndex:"
+- "options"
+- "orbPreview"
+- "percentOfMessagesIndexed"
+- "percentOfMessagesIndexedForSearchSessionController:"
+- "persistentID"
+- "previousDraftPickerView"
+- "printMail"
+- "protocol"
+- "protocolAsString:"
+- "provider"
+- "providerAsString:"
+- "queue"
+- "raise"
+- "reachabilityFlags"
+- "reachability_flags"
+- "readFrom:"
+- "recordUserDidOrbMessage:"
+- "recordUserDidOrbMessage:isTopHit:messageListIndex:spotlightListIndex:"
+- "recordUserDidRightClickMessage:"
+- "recordUserDidRightClickMessage:isTopHit:messageListIndex:spotlightListIndex:"
+- "recordUserDidSelectMessage:"
+- "recordUserDidSelectMessage:isTopHit:messageListIndex:spotlightListIndex:"
+- "recordUserDidSwipeMessage:"
+- "recordUserDidSwipeMessage:isTopHit:messageListIndex:spotlightListIndex:"
+- "removeObjectForKey:"
+- "reply"
+- "roamingAllowed"
+- "roaming_allowed"
+- "searchScope"
+- "searchScopeAsString:"
+- "searchTermLength"
+- "search_scope"
+- "sendMessageWithActualDrawingInsertCount:"
+- "serialMessageLoadingTimerQueue"
+- "serverInfo"
+- "server_info"
+- "sessionEngagements"
+- "setAtoms:count:"
+- "setBody:"
+- "setBucketedLocalNonDeletedCount:"
+- "setCellData:"
+- "setDataIndicator:"
+- "setDataInterface:"
+- "setDiagnosticManager:"
+- "setDidTimeout:"
+- "setDnsEnabled:"
+- "setDrawingInsertCount:"
+- "setDrawingSentCount:"
+- "setDuration:"
+- "setEmailProvider:"
+- "setEndedRecordingHandler:"
+- "setEngagements:"
+- "setErrorCode:"
+- "setFeature:"
+- "setFetchSize:"
+- "setFilterStatus:"
+- "setForeground:"
+- "setFromSwipeMenu:"
+- "setGenericErrorCode:"
+- "setHasBucketedLocalNonDeletedCount:"
+- "setHasCellData:"
+- "setHasDataInterface:"
+- "setHasDidTimeout:"
+- "setHasDnsEnabled:"
+- "setHasDrawingInsertCount:"
+- "setHasDrawingSentCount:"
+- "setHasDuration:"
+- "setHasEmailProvider:"
+- "setHasErrorCode:"
+- "setHasFeature:"
+- "setHasFetchSize:"
+- "setHasFilterStatus:"
+- "setHasForeground:"
+- "setHasFromSwipeMenu:"
+- "setHasGenericErrorCode:"
+- "setHasInView:"
+- "setHasIncludeAttachments:"
+- "setHasInteractionGesture:"
+- "setHasIsTopHitMessage:"
+- "setHasLoadingError:"
+- "setHasMailboxType:"
+- "setHasMessageAgeInWeeks:"
+- "setHasMessageSent:"
+- "setHasMessagesLeftToIndex:"
+- "setHasMimeError:"
+- "setHasNewMessagesState:"
+- "setHasNumActiveCalls:"
+- "setHasNumBackgroundWifiClients:"
+- "setHasNumMessagesFetched:"
+- "setHasNumSearchResults:"
+- "setHasOptions:"
+- "setHasPercentOfMessagesIndexed:"
+- "setHasProtocol:"
+- "setHasProvider:"
+- "setHasReachabilityFlags:"
+- "setHasRoamingAllowed:"
+- "setHasSearchScope:"
+- "setHasSearchTermLength:"
+- "setHasSourceType:"
+- "setHasTimeLoadingSpinnerIsVisibleInSeconds:"
+- "setHasTimestamp:"
+- "setHasTopHitIndexInSpotlightList:"
+- "setHasTopHitIndexInTopHitsList:"
+- "setHasTopHitsPresent:"
+- "setHasTotalBytesReceived:"
+- "setHasTotalBytesSent:"
+- "setHasTotalTextSize:"
+- "setHasTrigger:"
+- "setHasType:"
+- "setHasUsedPrediction:"
+- "setHasUserSelectedTopHit:"
+- "setHasWifiEnabled:"
+- "setHostname:"
+- "setInView:"
+- "setIncludeAttachments:"
+- "setInteractionGesture:"
+- "setIsTopHitMessage:"
+- "setLoadingError:"
+- "setMailError:"
+- "setMailboxType:"
+- "setMaxLoadingTimeSeconds:"
+- "setMessage:"
+- "setMessageAgeInWeeks:"
+- "setMessageId:"
+- "setMessageSent:"
+- "setMessagesLeftToIndex:"
+- "setMetric:"
+- "setMimeError:"
+- "setMimeSubtype:"
+- "setMimeType:"
+- "setNewMessagesState:"
+- "setNumActiveCalls:"
+- "setNumBackgroundWifiClients:"
+- "setNumMessagesFetched:"
+- "setNumSearchResults:"
+- "setObject:forKey:"
+- "setOptions:"
+- "setPercentOfMessagesIndexed:"
+- "setProtocol:"
+- "setProvider:"
+- "setReachabilityFlags:"
+- "setRoamingAllowed:"
+- "setSearchScope:"
+- "setSearchTermLength:"
+- "setSerialMessageLoadingTimerQueue:"
+- "setServerInfo:"
+- "setSourceType:"
+- "setStartedRecordingHandler:"
+- "setSuggestionsEngagement:"
+- "setTimeLoadingSpinnerIsVisibleInSeconds:"
+- "setTimestamp:"
+- "setTopHitIndexInSpotlightList:"
+- "setTopHitIndexInTopHitsList:"
+- "setTopHitsPresent:"
+- "setTotalBytesReceived:"
+- "setTotalBytesSent:"
+- "setTotalTextSize:"
+- "setTrigger:"
+- "setUsedPrediction:"
+- "setUserSelectedTopHit:"
+- "setWifiEnabled:"
+- "shouldReport"
+- "singleConversation"
+- "singleMessage"
+- "sourceType"
+- "sourceTypeAsString:"
+- "start"
+- "startRecordingForMessage:"
+- "startedRecordingHandler"
+- "stopAndSubmitWithOptions:fetchSize:"
+- "submitComposeAttachmentReport:"
+- "submitFetchMetricsReport:"
+- "submitMessageLoadingReport:"
+- "submitMetric:"
+- "submitSearchSessionWithSearchEngagement:numberOfMessagesLeftToIndex:percentOfMessagesIndexed:emailProvider:"
+- "submitWithIdentifier:metricGenerator:"
+- "suggestionsEngagement"
+- "swipe"
+- "tap"
+- "timeIntervalSinceDate:"
+- "timeLoadingSpinnerIsVisibleInSeconds"
+- "timestamp"
+- "topHitIndexInSpotlightList"
+- "topHitIndexInTopHitsList"
+- "topHitsPresent"
+- "totalBytesReceived"
+- "totalBytesReceivedAsString:"
+- "totalBytesSent"
+- "totalBytesSentAsString:"
+- "totalTextSize"
+- "total_text_size"
+- "trigger"
+- "triggerAsString:"
+- "typeAsString:"
+- "unknownFilterStatus"
+- "unknownSourceType"
+- "unknownView"
+- "updateLastEngagementSearchResultCount:"
+- "usedPrediction"
+- "userSelectedTopHit"
+- "v20@0:8I16"
+- "v20@0:8i16"
+- "v28@0:8q16B24"
+- "v32@0:8@16Q24"
+- "v32@0:8Q16Q24"
+- "v32@0:8^i16Q24"
+- "v32@?0@\"NSString\"8@\"NSDictionary\"16^B24"
+- "v36@0:8@16B24@28"
+- "v44@0:8@16B24q28q36"
+- "v44@0:8@16Q24Q32i40"
+- "v48@0:8i16@20B28q32q40"
+- "weeksSinceDate:"
+- "wifiEnabled"
+- "wifi_enabled"
+- "writeTo:"
+- "{?=\"bucketedLocalNonDeletedCount\"b1\"duration\"b1\"fetchSize\"b1\"numMessagesFetched\"b1\"options\"b1\"timestamp\"b1\"emailProvider\"b1\"mailboxType\"b1\"newMessagesState\"b1\"protocol\"b1\"totalBytesReceived\"b1\"totalBytesSent\"b1\"trigger\"b1\"didTimeout\"b1\"foreground\"b1}"
+- "{?=\"drawingInsertCount\"b1\"drawingSentCount\"b1\"timestamp\"b1\"messageSent\"b1}"
+- "{?=\"genericErrorCode\"b1\"errorCode\"b1}"
+- "{?=\"list\"^i\"count\"Q\"size\"Q}"
+- "{?=\"messageAgeInWeeks\"b1\"topHitIndexInSpotlightList\"b1\"topHitIndexInTopHitsList\"b1\"mailboxType\"b1\"type\"b1\"isTopHitMessage\"b1}"
+- "{?=\"messagesLeftToIndex\"b1\"percentOfMessagesIndexed\"b1\"timestamp\"b1\"emailProvider\"b1}"
+- "{?=\"numActiveCalls\"b1\"numBackgroundWifiClients\"b1\"timestamp\"b1\"dataInterface\"b1\"reachabilityFlags\"b1\"cellData\"b1\"dnsEnabled\"b1\"roamingAllowed\"b1\"wifiEnabled\"b1}"
+- "{?=\"numSearchResults\"b1\"searchScope\"b1}"
+- "{?=\"searchTermLength\"b1\"topHitsPresent\"b1\"userSelectedTopHit\"b1}"
+- "{?=\"timeLoadingSpinnerIsVisibleInSeconds\"b1\"timestamp\"b1}"
+- "{?=\"timestamp\"b1\"feature\"b1\"filterStatus\"b1\"inView\"b1\"interactionGesture\"b1\"sourceType\"b1\"fromSwipeMenu\"b1\"includeAttachments\"b1\"usedPrediction\"b1}"
+- "{?=\"timestamp\"b1\"loadingError\"b1\"mimeError\"b1}"
+- "{?=\"timestamp\"b1\"protocol\"b1\"provider\"b1}"
+- "{?=\"totalTextSize\"b1}"
+
+```

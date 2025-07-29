@@ -1,0 +1,650 @@
+## fileproviderctl
+
+> `/usr/bin/fileproviderctl`
+
+```diff
+
+-1703.80.16.0.0
+-  __TEXT.__text: 0x146d4
+-  __TEXT.__auth_stubs: 0xa50
+-  __TEXT.__objc_stubs: 0x2780
+-  __TEXT.__objc_methlist: 0x3b0
++1835.102.2.0.0
++  __TEXT.__text: 0xc038
++  __TEXT.__auth_stubs: 0x740
++  __TEXT.__objc_stubs: 0x1c00
++  __TEXT.__objc_methlist: 0x8c
+   __TEXT.__const: 0x68
+-  __TEXT.__gcc_except_tab: 0x5c4
+-  __TEXT.__cstring: 0x39a2
+-  __TEXT.__ustring: 0x9a8
+-  __TEXT.__oslogstring: 0x22b
+-  __TEXT.__objc_methname: 0x25df
+-  __TEXT.__objc_classname: 0x1c0
+-  __TEXT.__objc_methtype: 0x493
++  __TEXT.__gcc_except_tab: 0x3d8
++  __TEXT.__cstring: 0x18e3
++  __TEXT.__ustring: 0x74e
++  __TEXT.__oslogstring: 0x8b
++  __TEXT.__objc_classname: 0x4a
++  __TEXT.__objc_methname: 0x1675
++  __TEXT.__objc_methtype: 0x174
+   __TEXT.__dlopen_cstrs: 0x94
+-  __TEXT.__unwind_info: 0x56c
+-  __DATA_CONST.__auth_got: 0x538
+-  __DATA_CONST.__got: 0x1f8
+-  __DATA_CONST.__const: 0x13e0
+-  __DATA_CONST.__cfstring: 0x2620
+-  __DATA_CONST.__objc_classlist: 0x40
+-  __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x48
++  __TEXT.__unwind_info: 0x31c
++  __DATA_CONST.__auth_got: 0x3b0
++  __DATA_CONST.__got: 0x138
++  __DATA_CONST.__const: 0xc20
++  __DATA_CONST.__cfstring: 0x16e0
++  __DATA_CONST.__objc_classlist: 0x8
++  __DATA_CONST.__objc_catlist: 0x8
++  __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__objc_classrefs: 0xe8
+   __DATA_CONST.__objc_arraydata: 0x40
+   __DATA_CONST.__objc_arrayobj: 0x18
+-  __DATA.__objc_const: 0x1d70
+-  __DATA.__objc_selrefs: 0xb40
+-  __DATA.__objc_protorefs: 0x8
+-  __DATA.__objc_classrefs: 0x140
+-  __DATA.__objc_superrefs: 0x20
+-  __DATA.__objc_ivar: 0x60
+-  __DATA.__objc_data: 0x280
+-  __DATA.__data: 0x734
+-  __DATA.__bss: 0xc60
++  __DATA.__objc_const: 0x4c0
++  __DATA.__objc_selrefs: 0x730
++  __DATA.__objc_ivar: 0x4
++  __DATA.__objc_data: 0x50
++  __DATA.__data: 0xc0
+   __DATA.__common: 0x18
++  __DATA.__bss: 0x30
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/FileProvider.framework/FileProvider
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libedit.3.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6F12F05B-E451-3F4E-ABB8-B383D356411A
+-  Functions: 342
+-  Symbols:   278
+-  CStrings:  1255
++  UUID: DE8E1660-CB98-32E8-84BA-6E946DC44329
++  Functions: 163
++  Symbols:   194
++  CStrings:  681
+ 
+Symbols:
++ _NSFileProviderInternalErrorDomain
++ _geteuid
+- _FPCFGetAttributeValuesForItem
+- _FPFileProviderServiceEndpointCreatingForItemAtURL
+- _FPNotSupportedError
+- _NSFileProviderWorkingSetContainerItemIdentifier
+- _NSKeyValueChangeNewKey
+- _NSStringFromSelector
+- _NSURLContentAccessDateKey
+- _NSURLContentModificationDateKey
+- _NSURLCreationDateKey
+- _NSURLFileSizeKey
+- _NSURLIsReadableKey
+- _NSURLIsUbiquitousItemKey
+- _NSURLIsWritableKey
+- _NSURLLocalizedNameKey
+- _NSURLNameKey
+- _NSURLTypeIdentifierKey
+- _NSURLUbiquitousItemDownloadingErrorKey
+- _NSURLUbiquitousItemHasUnresolvedConflictsKey
+- _NSURLUbiquitousItemIsDownloadingKey
+- _NSURLUbiquitousItemIsExcludedFromSyncKey
+- _NSURLUbiquitousItemIsSharedKey
+- _NSURLUbiquitousItemIsUploadedKey
+- _NSURLUbiquitousItemIsUploadingKey
+- _NSURLUbiquitousItemUploadingErrorKey
+- _NSURLUbiquitousSharedItemCurrentUserPermissionsKey
+- _NSURLUbiquitousSharedItemCurrentUserRoleKey
+- _NSURLUbiquitousSharedItemMostRecentEditorNameComponentsKey
+- _NSURLUbiquitousSharedItemOwnerNameComponentsKey
+- _NSURLUbiquitousSharedItemPermissionsKey
+- _OBJC_CLASS_$_FPItem
+- _OBJC_CLASS_$_FPItemCollection
+- _OBJC_CLASS_$_FPTask
+- _OBJC_CLASS_$_NSCharacterSet
+- _OBJC_CLASS_$_NSCountedSet
+- _OBJC_CLASS_$_NSData
+- _OBJC_CLASS_$_NSJSONSerialization
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSSet
+- _OBJC_CLASS_$_UMUserManager
+- _OBJC_METACLASS_$_FPItemCollection
+- __FPRestorePersona
+- __os_log_fault_impl
+- _atoi
+- _bzero
+- _close
+- _dispatch_once
+- _fclose
+- _fopen
+- _fpfs_create_dataless_fault_at
+- _fpfs_enable_fault_handling
+- _fpfs_evict
+- _fpfs_fgetfileattrs
+- _fpfs_materialize
+- _fpfs_open
+- _fpfs_set_dataless_cmpfs_attrs
+- _fpfs_xattr_is_syncable
+- _fstat
+- _getiopolicy_np
+- _getline
+- _getopt
+- _lseek
+- _memcpy
+- _mkdir
+- _nrand48
+- _objc_alloc_init
+- _objc_destroyWeak
+- _objc_getProperty
+- _objc_loadWeakRetained
+- _objc_msgSendSuper2
+- _objc_setProperty_atomic
+- _objc_storeWeak
+- _objc_terminate
+- _pthread_create
+- _pthread_join
+- _readline
+- _setiopolicy_np
+- _snprintf
+- _statfs
+- _strncmp
+- _strncpy
+- _strtod
+- _strtok
+- _strtol
+- _strtoul
+- _time
+- _write
+CStrings:
++ "-x check unrecognized option %@"
++ "File Provider control utility.\n%s <command> <options>\n\nCommands:\n  dump [<domain|provider>]                                       - dump state of fileprovider's daemon\n      --limit-dump-size                                                 limit the number of items dumped\n  evaluate <item>                                                - evaluate finder actions and decorations on item\n  evaluate <action> [<item>] <target item>                       - evaluate finder interactions\n  check | repair                                                 - run FPCK\n      -f                                                                perform a full dump (all items)\n      -a <path>                                                         perform check under path\n      -b <path>                                                         operate on an already created DB backup. If this is set you need to set -a to point to the domain root\n      -o <path>                                                         write output into file at path\n      -P                                                                no-pager output\n      -d                                                                dimisss low-importance invariants\n      -v                                                                print out files with broken invariants\n      -m [<providerDomainID>]                                           perform check on the d2d migration backup\n      -x xpc|daemon                                                     launch in XPC Service vs daemon (default)\n  obfuscate [<filename>/<path>...]                               - return the obfuscated form of the filename\n"
++ "T@\"NSString\",?,R,C"
++ "allKeys"
++ "connectionForUser:"
++ "daemon"
++ "hfa:o:Pdvb:mx:"
++ "providerDomainForItem:cachePolicy:error:"
++ "runFPCKForDomainWithID:domainRootURL:databaseBackupPath:options:reason:launchType:completionHandler:"
++ "v84@?0i8r^*12@\"NSFileHandle\"20@\"NSURL\"28@\"NSURL\"36B44B48B52B56@\"NSString\"60Q68@\"NSError\"76"
++ "xpc"
+- "\x01&\x0f\xfe"
+- "\x04"
+- "\x05'"
+- "\t"
+- "\nResults:\n"
+- "\x11"
+- "  "
+- "  [%lu] "
+- "  creation of "
+- "  deletion of "
+- "  ingest "
+- "  lookup "
+- "  update "
+- " &\x0f\xfe "
+- " - signalling item %@ on provider %@ failed with error %@"
+- " - signalling item %@ on provider %@ succeeded"
+- " from "
+- " of "
+- " to "
+- "!"
+- "%@\t"
+- "%@ presenters changed to %@"
+- "%@: nil\n"
+- "%lu available operations:\n"
+- "%lu%%\t"
+- "%s %d %s\n"
+- "%s/%s"
+- "%s/file%d"
+- "%s/file%zd"
+- "%s: not a directory"
+- "*"
+- ", "
+- "-[TestCollectionDelegate registerShouldBeReloadedExpectation:]"
+- "/AppleInternal/Library/Frameworks/FileProviderValidations.framework/FileProviderValidations"
+- "/Library/Caches/com.apple.xbs/Sources/FileProviderDaemons/tests/utilities/TestCollectionDelegate.m"
+- "/System/Library/Frameworks/FileProviderValidations.framework/FileProviderValidations"
+- "/System/Library/PrivateFrameworks/FileProviderValidations.framework/FileProviderValidations"
+- ": "
+- ": %@"
+- "<%@: %p>, last items %@"
+- "<%@:%p %@>"
+- "<cmd>"
+- "<command>"
+- "<domain url>"
+- "<domainid>"
+- "<domainid> [<error-code> [<error-domain> [<itemid>]]]"
+- "<dst> <src>"
+- "<path>"
+- "<path> <operations> <duration> <nitems> [seed]"
+- "<\xd81\xdf"
+- "<\xd8@\xdf "
+- "=\xd8h\xdc<\xd8\xfc\xdf\r =ػ\xdc "
+- "> "
+- "@\"<FPCollectionDataSourceDelegate>\""
+- "@\"<FPCollectionDataSourceDelegate>\"16@0:8"
+- "@\"<NSFileProviderEnumerator>\""
+- "@\"FPProviderDomain\""
+- "@\"NSArray\""
+- "@\"NSCountedSet\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSNumber\"16@?0@\"NSString\"8"
+- "@\"NSProgress\"16@0:8"
+- "@\"NSString\""
+- "@\"XCTestExpectation\""
+- "@32@0:8@16@24"
+- "B"
+- "B16@?0r*8"
+- "Bare wildcard in `fileproviderctl domain remove` is not allowed"
+- "Change the dataless files iopolicy. See getiopolicy_np(3)."
+- "Check FAILED at path %s\n"
+- "Check PASSED at path %s\n"
+- "Class getFPValidationCaseClass(void)_block_invoke"
+- "Connect (As the app) the domain indicated by <domainid>"
+- "Could not create thread %zu\n"
+- "Could not open file spec %s\n"
+- "Could not statfs directory %s"
+- "Created directory %@"
+- "Created thread %zu"
+- "Dataless fault test tool"
+- "Disconnect (As the app can do) the domain indicated by <domainid>"
+- "Download error: %@"
+- "Downloaded %s"
+- "Dump the decmpfs header of the file or directory at <path>, if present"
+- "Dump the value of the currents"
+- "Error Directory (%s) does not exist"
+- "Error creating directory %@"
+- "Error opening file %@"
+- "Error writting %zd bytes in %@"
+- "Error: %@"
+- "Error: fileproviderctl messaging <item>"
+- "Error: must supply a file to get attributes for"
+- "Error: must supply a url, or identifiers of form <provider> <domain> <item>"
+- "Evaluate the downloaded state of the items (finder information) and validate agains the spec"
+- "Evicted %s"
+- "Eviction error: %@"
+- "FPCTLCategoryAggregator"
+- "FPCTLLifetimeObserver"
+- "FPCollectionDataSource"
+- "FPDirectCollection"
+- "FPDirectCollectionDataSource"
+- "FPItemCollectionDelegate"
+- "FPItemCollectionIndexPathBasedDelegate"
+- "FPItemCollectionMinimalDelegate"
+- "FPProviderObserver"
+- "FPResolveErrorItemIdentifierKey"
+- "FPValidationCase"
+- "Fetch import progress report."
+- "File Provider control utility.\n%s <command> <options>\n\nCommands:\n  listproviders                                                  - Show registered providers\n  thumbnail [<provider> <domain> <itemid>]|[<url>]               - dump thumbnail for an item\n  attributes <item> [--direct]                                   - get attributes for a url [from fpd]\n  dump [<domain|provider>]                                       - dump state of fileprovider's daemon\n      --limit-dump-size                                                 limit the number of items dumped\n  signal <provider> [<item id>]                                  - signal a provider on the given item (defaults to working set)\n  materialize <item>                                             - materialize the path on disk\n  evict <item>...                                                - make the paths on disk dataless\n      -n,--namespace                                                    attempt to evict directories\n  coordinate                                                     - perform a coordination on a given path\n      -R, --recursive <path>                                            perform a recursive read\n      -r, --read <path>                                                 perform a single item read\n      -w, --write <path>                                                perform a coordinated write\n      -d, --delete <path>                                               perform a coordinated delete\n      -t, --time <seconds>                                              hold coordination for this long (default: inf)\n      -e, --debug                                                       dump file coordination info\n  stabilize [<domain>...]                                        - wait for the domain to stabilize\n      -B, --barrier <item id>                                           apply a barrier on the specified item instead of a full stabilization\n  evaluate <item>                                                - evaluate finder actions and decorations on item\n  evaluate <action> [<item>] <target item>                       - evaluate finder interactions\n  domain <action> [<domainid>]                                   - modify domains properties\n  interactive-scheduling <domain>                                - interactive scheduling session\n  check | repair                                                 - run FPCK\n      -f                                                                perform a full dump (all items)\n      -a <path>                                                         perform check under path\n      -b <path>                                                         operate on an already created DB backup. If this is set you need to set -a to point to the domain root\n      -o <path>                                                         write output into file at path\n      -P                                                                no-pager output\n      -d                                                                dimisss low-importance invariants\n      -v                                                                print out files with broken invariants\n      -m [<providerDomainID>]                                           perform check on the d2d migration backup\n  obfuscate [<filename>/<path>...]                               - return the obfuscated form of the filename\n"
+- "Force the dataless files materialization policy to off for <command>"
+- "Force the dataless files materialization policy to on for <command>"
+- "Getting attributes for item at %@"
+- "List the domains"
+- "List the possible operations"
+- "Make the app extension disappear as if the app was uninstalled"
+- "Make the app extension re-appear as if the app was re-installed"
+- "Manage counters"
+- "Manipulate the dataless files materialization iopolicy.\n  See getiopolicy_np(3)"
+- "Manual scheduling is not enable for domain %@"
+- "Materialized extents of %s:"
+- "Message interfaces for url %@: %@"
+- "Modify domains properties"
+- "Moves"
+- "NSFileProviderEnumerationObserver"
+- "NSProgressReporting"
+- "No materialized extents were found"
+- "Overall\t"
+- "PAD"
+- "Parsed bookmark string into provider id %@, item id %@"
+- "Please enter a list of space-separated operation numbers to run (or run 'all' and 'quit')\n"
+- "Please press enter to refresh\n"
+- "PresenterObserver"
+- "Progress updates: %@"
+- "ProgressObserver"
+- "Provider\t"
+- "Q"
+- "Remove the domain indicated by <domainid>. A single wildcard is allowed at the end of domainid, which will cause all domains with that prefix to be removed. Bare wildcards are not allowed. -P will preserve user data, -A will archive user data. Default is to delete everything from disk."
+- "Reset all counters for the domain"
+- "Run random FPFS operations"
+- "Run randomly operations(comma separated) for a duration(seconds) on the items at the path created for the test (number of items: file/dir)"
+- "Show the current default io policy"
+- "Signalling item %@ on provider %@"
+- "Simulates the provider signaling that an error is resolved. If no error code is passed, all signalable errors will be signaled."
+- "Specified operation %s is not available and it is ignored"
+- "T'"
+- "T'\t"
+- "T@\"<FPCollectionDataSourceDelegate>\",W,N"
+- "T@\"<FPCollectionDataSourceDelegate>\",W,N,V_delegate"
+- "T@\"FPProviderDomain\",&,N,V_providerDomain"
+- "T@\"NSProgress\",R"
+- "T@\"NSString\",&,N,V_providerID"
+- "T@\"NSString\",&,V_providerID"
+- "TB,R,N"
+- "TB,R,N,V_hasMoreIncoming"
+- "T^?,V_printError"
+- "T^?,V_printLog"
+- "TestCollectionDelegate"
+- "The file is fully materialized"
+- "Tq,R,N"
+- "Wrote %zd bytes in file %@"
+- "["
+- "[-PA] <domainid>"
+- "[CRIT] %{public}@"
+- "[ERROR] Invalid number of index paths; from (%lu) and to (%lu) should contain the same number of paths"
+- "[ERROR] items aren't sorted according to active descriptors %@ (should be %@)"
+- "[ERROR] items at index %lu doesn't match\n\told item: %@\n\tnew item: %@\n"
+- "[ERROR] move doesn't match\n\told item (%lu): %@\n\tnew item (%lu): %@\n"
+- "[ERROR] too many items: %lu/%lu replayed=%lu"
+- "[ERROR] won't restore persona: %@"
+- "^?"
+- "^?16@0:8"
+- "_FAKEITEM_"
+- "__fp/fs/"
+- "_countExpectations"
+- "_cr_file_state != NULL"
+- "_cr_file_state == NULL"
+- "_delegate"
+- "_deleteExpectations"
+- "_deletedIndexes"
+- "_enumExpectations"
+- "_enumerator"
+- "_failedTests"
+- "_hasMoreIncoming"
+- "_insertedIndexes"
+- "_lastState"
+- "_movedIndexes"
+- "_oldItems"
+- "_orderExpectations"
+- "_passedTests"
+- "_printError"
+- "_printLog"
+- "_providerDomain"
+- "_providerID"
+- "_shouldBeReloadedExpectation"
+- "_test_getCountersArray:completionHandler:"
+- "_test_resetCounters:completionHandler:"
+- "_totalTests"
+- "_updatedIndexes"
+- "a command to run needs to be provided"
+- "action completed"
+- "action completed with error: %@"
+- "add-app-ext"
+- "addDomain:forProviderIdentifier:completionHandler:"
+- "addObserver:forKeyPath:options:context:"
+- "addResult:forCategory:"
+- "adding extension at %s\n"
+- "all"
+- "archive-data"
+- "asChildrenEnumeration"
+- "asCollisionResolution"
+- "asContentFetch"
+- "asCreation"
+- "asDeletion"
+- "asIngestion"
+- "asLookup"
+- "asModification"
+- "attributes"
+- "can't %s domain named %s: %s\n"
+- "can't find domain for %s: %s"
+- "can't remove domain named %s: %s"
+- "can't set FPDomainRemovalModeArchiveUserData on iOS, not supported"
+- "can't set iopolicy: %s"
+- "caseInsensitiveCompare:"
+- "casesByCategories"
+- "changedFields"
+- "cmd-random.m"
+- "cmd-validate.m"
+- "cmd_create_filestate"
+- "cmd_create_items"
+- "cmd_dump_spec"
+- "collection (%p) data should be reloaded"
+- "collection (%p) did delete items at index paths: %@"
+- "collection (%p) did encounter error: %@"
+- "collection (%p) did insert items at index paths: %@"
+- "collection (%p) did move items from index paths %@ to index paths %@"
+- "collection (%p) did perform batch update with replay block: %p"
+- "collection (%p) did update items at indexes %@"
+- "collection (%p) did update observed item: %@"
+- "collection:didDeleteItemsAtIndexPaths:"
+- "collection:didEncounterError:"
+- "collection:didInsertItemsAtIndexPaths:"
+- "collection:didMoveItemsFromIndexPaths:toIndexPaths:"
+- "collection:didPerformBatchUpdateWithReplayBlock:"
+- "collection:didUpdateItemsAtIndexPaths:changes:"
+- "collection:didUpdateObservedItem:"
+- "collectionDidFinishGathering:"
+- "com.apple.decmpfs"
+- "compare:"
+- "componentsSeparatedByString:"
+- "connect"
+- "contents"
+- "coordinateReadingItemAtURL:options:error:byAccessor:"
+- "copyCurrentPersonaContextWithError:"
+- "countForObject:"
+- "counters"
+- "create"
+- "create a dataless fault at <dst> with the metadata of the file or directory at <src>"
+- "createDataSourceWithSortDescriptors:"
+- "ctime"
+- "currentPersona"
+- "d"
+- "data"
+- "dataForCollectionShouldBeReloaded:"
+- "dataForCollectionShouldBeReloaded:deleteItemsWithIDs:"
+- "dataSource:receivedUpdatedItems:deletedItems:hasMoreChanges:"
+- "dataSource:wasInvalidatedWithError:"
+- "dataWithJSONObject:options:error:"
+- "dataless iopolicy: default"
+- "dataless iopolicy: off"
+- "dataless iopolicy: on"
+- "dataless iopolicy: unknown, error: %s\n"
+- "decmpfs"
+- "delegate"
+- "deletion of "
+- "didEnumerateItems:"
+- "direct"
+- "disconnect"
+- "domain %s has been deleted\n"
+- "domain %s is now %sd"
+- "download"
+- "download_thread"
+- "dumpAggregators:"
+- "dumpImage:width:height:"
+- "enumerateItemsForObserver:startingAtPage:"
+- "enumerationMightHaveResumed"
+- "evict"
+- "evict the file or directory at <path>, -s will do a soft evict (mark the file as dataless without emptying it)"
+- "evict_thread"
+- "exec"
+- "extensionBundleURL"
+- "extent %d: (offset: %lld, length: %lld)"
+- "failed to signalErrorResolved %s"
+- "fault"
+- "fault iopolicy"
+- "favoriteRank"
+- "fetchItemForItemID:completionHandler:"
+- "file %s %d %d\n"
+- "filename"
+- "fileproviderctl"
+- "finishEnumeratingUpToPage:"
+- "finishEnumeratingWithError:"
+- "flags"
+- "fp_moveItemsAtIndexPaths:toIndexPaths:"
+- "fp_prettyDescription"
+- "fulfill"
+- "fulfillExpectationForDeletionOfItem:"
+- "fulfillExpectationForEnumerationOfItem:"
+- "fulfillExpectationForItemCount:"
+- "fulfillExpectationForItemOrder:"
+- "generateAndRestorePersonaContextWithPersonaUniqueString:"
+- "got thumbnail of length %lu, content type %@, error %@ for identifier %@"
+- "hadErrors"
+- "hasMoreIncoming"
+- "hasSuffix:"
+- "hfa:o:Pdvb:m"
+- "i12@?0i8"
+- "i16@?0^{fpfs_fileattrs={fpfs_item_handle=QQII*iI}{fpfs_metadata=ib1b1b1b1b1b1b1b1b1b1b1b1b1b1b1Sq{timespec=qq}{timespec=qq}{timespec=qq}Q{fpfs_tag_data=^vQi}(?=II)QQq*q*^{fpfs_xattr}II*BB*ii}*Q[0c]}8"
+- "id:%@"
+- "import-progress"
+- "importProgressForDomainWithID:completionHandler:"
+- "indexAtPosition:"
+- "indexOfObject:"
+- "init"
+- "initWithData:encoding:"
+- "initWithEnumerator:"
+- "initWithPacing:"
+- "initWithProviderDomainID:itemIdentifier:parentItemIdentifier:filename:isDirectory:"
+- "initWithProviderID:domainIdentifier:itemIdentifier:"
+- "insertObject:atIndex:"
+- "interactive-scheduling"
+- "invalidate"
+- "iopolicy"
+- "item"
+- "item %s should be %s and it has downloaded flag %d\n"
+- "item %s should be %s and it is downloaded\n"
+- "item %s should be %s and it is not downloaded\n"
+- "itemID"
+- "itemWithProviderDomainID:identifier:"
+- "items"
+- "json"
+- "list"
+- "listAvailableTestingOperationsWithError:"
+- "listproviders"
+- "longValue"
+- "materialize"
+- "materialize the dataless fault at <dst> with the content of <src>"
+- "messaging"
+- "mtime"
+- "non parsable error code '%s'"
+- "numberWithInteger:"
+- "numberWithUnsignedInteger:"
+- "observeValueForKeyPath:ofObject:change:context:"
+- "off"
+- "on"
+- "parent"
+- "personaIdentifier"
+- "pluginkit -a \"%@\""
+- "pluginkit -r \"%@\""
+- "preserve-data"
+- "preserve-dirty-data"
+- "print the materialized extents of the path on disk"
+- "print-extents"
+- "printError"
+- "printLog"
+- "progress"
+- "providerDidEnterBackground:"
+- "providerDidEnterForeground:"
+- "providerDisplayName"
+- "providerDomain"
+- "providerDomainForItem:error:"
+- "q16@0:8"
+- "q24@?0@8@16"
+- "quit"
+- "r+"
+- "random"
+- "registerExpectation:forDeletionOfItem:"
+- "registerExpectation:forEnumerationOfItem:"
+- "registerExpectation:forItemCount:"
+- "registerExpectation:forItemOrder:"
+- "registerShouldBeReloadedExpectation:"
+- "remove"
+- "remove-app-ext"
+- "removeDomainAndPreserveDataWithID:mode:completionHandler:"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeObserver:forKeyPath:"
+- "removing extension at %s\n"
+- "renamedItem"
+- "resolvableErrorCodes"
+- "resolve-error"
+- "resourceValuesForKeys:error:"
+- "runFPCKForDomainWithID:databasesBackupsPath:url:options:reason:completionHandler:"
+- "runTestingOperations:error:"
+- "s"
+- "scheduleAction:"
+- "setActionCompletionBlock:"
+- "setArray:"
+- "setDelegate:"
+- "setDisconnected:"
+- "setPrintError:"
+- "setPrintLog:"
+- "setProviderDomain:"
+- "setProviderID:"
+- "setThumbnailsFetchCompletionBlock:"
+- "sharedManager"
+- "show"
+- "side"
+- "signal"
+- "signalEnumeratorForContainerItemIdentifier:completionHandler:"
+- "signalErrorResolved:completionHandler:"
+- "sortDescriptors"
+- "sortedArrayUsingComparator:"
+- "sortedArrayUsingDescriptors:"
+- "sortedArrayUsingSelector:"
+- "sourceItem"
+- "spec"
+- "stabilize"
+- "start"
+- "startFgColor:"
+- "state != FPFS_MAX"
+- "stringByAppendingString:"
+- "stringByTrimmingCharactersInSet:"
+- "substringFromIndex:"
+- "substringToIndex:"
+- "suggestedPageSize"
+- "targetItemIdentifier"
+- "targetSide"
+- "taskWithCommandWithArguments:"
+- "test\n"
+- "thumbnail"
+- "unsignedIntegerValue"
+- "userData has been preserved at %s\n"
+- "v16@?0@\"NSURL\"8"
+- "v24@0:8@\"<FPCollectionDataSourceDelegate>\"16"
+- "v24@0:8@\"FPItemCollection\"16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSData\"16"
+- "v24@0:8@\"NSError\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8Q16"
+- "v24@0:8^?16"
+- "v24@?0@\"FPImportProgressReport\"8@\"NSError\"16"
+- "v24@?0@\"FPProviderDomain\"8@\"NSError\"16"
+- "v24@?0^{__CFDictionary=}8^{__CFError=}16"
+- "v32@0:8@\"FPItemCollection\"16@\"FPItem\"24"
+- "v32@0:8@\"FPItemCollection\"16@\"NSArray\"24"
+- "v32@0:8@\"FPItemCollection\"16@\"NSError\"24"
+- "v32@0:8@\"FPItemCollection\"16@?<v@?>24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16Q24"
+- "v32@0:8Q16@24"
+- "v32@?0@\"FPItem\"8Q16^B24"
+- "v32@?0@\"NSIndexPath\"8Q16^B24"
+- "v40@0:8@\"FPItemCollection\"16@\"NSArray\"24@\"NSArray\"32"
+- "v40@0:8@\"FPItemCollection\"16@\"NSArray\"24@\"NSDictionary\"32"
+- "v40@?0@\"<NSXPCProxyCreating><NSFileProviderServiceEndpointCreating>\"8@\"NSArray\"16@?<v@?>24@\"NSError\"32"
+- "v48@0:8@16@24@32^v40"
+- "v76@?0i8r^*12@\"NSFileHandle\"20@\"NSURL\"28@\"NSURL\"36B44B48B52B56@\"NSString\"60@\"NSError\"68"
+- "void *FileProviderValidationsLibrary(void)"
+- "w+"
+- "whitespaceCharacterSet"
+- "xattrs"
+- "|"
+
+```

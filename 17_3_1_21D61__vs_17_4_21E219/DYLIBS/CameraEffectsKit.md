@@ -1,0 +1,151 @@
+## CameraEffectsKit
+
+> `/System/Library/PrivateFrameworks/CameraEffectsKit.framework/CameraEffectsKit`
+
+```diff
+
+ 6203.0.0.0.0
+-  __TEXT.__text: 0x10b4bc
++  __TEXT.__text: 0x10b5d8
+   __TEXT.__auth_stubs: 0x1c20
+   __TEXT.__objc_methlist: 0x105a8
+   __TEXT.__const: 0x1970
+   __TEXT.__gcc_except_tab: 0x2240
+   __TEXT.__cstring: 0x67ac
+   __TEXT.__oslogstring: 0x7fc5
+-  __TEXT.__unwind_info: 0x45e0
++  __TEXT.__unwind_info: 0x45e8
+   __TEXT.__eh_frame: 0x74
+   __TEXT.__objc_classname: 0x208b
+-  __TEXT.__objc_methname: 0x380e6
++  __TEXT.__objc_methname: 0x38118
+   __TEXT.__objc_methtype: 0xaa7e
+   __TEXT.__objc_stubs: 0x24740
+   __DATA_CONST.__got: 0xd70
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x27c10
+   __DATA_CONST.__objc_selrefs: 0xa9c8
++  __DATA_CONST.__objc_protorefs: 0x48
++  __DATA_CONST.__objc_classrefs: 0xcb0
++  __DATA_CONST.__objc_superrefs: 0x580
+   __DATA_CONST.__objc_arraydata: 0x240
+   __AUTH_CONST.__objc_const: 0x5778
+   __AUTH_CONST.__cfstring: 0x6680
+
+   __AUTH_CONST.__objc_dictobj: 0x118
+   __AUTH_CONST.__auth_got: 0xe28
+   __AUTH.__objc_data: 0x4060
+-  __DATA.__objc_protorefs: 0x48
+-  __DATA.__objc_classrefs: 0xcb0
+-  __DATA.__objc_superrefs: 0x580
+   __DATA.__objc_ivar: 0x14e4
+   __DATA.__data: 0x2790
+   __DATA.__bss: 0xa80
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DF9774E6-9984-3AD6-B5DD-57BD8777192A
+-  Functions: 7215
+-  Symbols:   25188
+-  CStrings:  11993
++  UUID: A7E6E796-2F54-3964-89F8-0475248B9FDE
++  Functions: 7218
++  Symbols:   25194
++  CStrings:  11996
+ 
+Symbols:
++ __ZNKSt3__16vectorI8EdgeLineNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ue170006Ev
++ __ZNSt12length_errorC1B8ue170006EPKc
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineLb0EEEvT1_S6_T0_NS_15iterator_traitsIS6_E15difference_typeEb
++ __ZNSt3__111__sift_downB8ue170006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineEEvT1_OT0_NS_15iterator_traitsIS6_E15difference_typeES6_
++ __ZNSt3__116__insertion_sortB8ue170006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineEEvT1_S6_T0_
++ __ZNSt3__117__assoc_sub_state15__attach_futureB8ue170006Ev
++ __ZNSt3__117__floyd_sift_downB8ue170006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineEET1_S6_OT0_NS_15iterator_traitsIS6_E15difference_typeE
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorI8EdgeLineEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__partial_sort_implB8ue170006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineS5_EET1_S6_S6_T2_OT0_
++ __ZNSt3__120__throw_future_errorB8ue170006ENS_11future_errcE
++ __ZNSt3__120__throw_length_errorB8ue170006EPKc
++ __ZNSt3__126__insertion_sort_unguardedB8ue170006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineEEvT1_S6_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ue170006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineEEbT1_S6_T0_
++ __ZNSt3__131__partition_with_equals_on_leftB8ue170006INS_17_ClassicAlgPolicyEP8EdgeLineR11cmpEdgeLineEET0_S6_S6_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ue170006INS_17_ClassicAlgPolicyEP8EdgeLineR11cmpEdgeLineEENS_4pairIT0_bEES7_S7_T1_
++ __ZNSt3__14swapB8ue170006IU8__strongPU21objcproto10MTLTexture11objc_objectEENS_9enable_ifIXaasr21is_move_constructibleIT_EE5valuesr18is_move_assignableIS5_EE5valueEvE4typeERS5_S8_
++ __ZNSt3__17__sort3B8ue170006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineEEjT1_S6_S6_T0_
++ __ZNSt3__17__sort4B8ue170006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineEEvT1_S6_S6_S6_T0_
++ __ZNSt3__17__sort5B8ue170006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineEEvT1_S6_S6_S6_S6_T0_
++ __ZNSt3__19__sift_upB8ue170006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineEEvT1_S6_OT0_NS_15iterator_traitsIS6_E15difference_typeE
++ __ZSt18make_exception_ptrB8ue170006INSt3__112future_errorEESt13exception_ptrT_
++ __ZSt28__throw_bad_array_new_lengthB8ue170006v
++ ___89-[JFXEffect(AssetDownloading) requestAssetWithOptions:progressHandler:completionHandler:]_block_invoke.60
++ ___89-[JFXEffect(AssetDownloading) requestAssetWithOptions:progressHandler:completionHandler:]_block_invoke.60.cold.1
++ ___89-[JFXEffect(AssetDownloading) requestAssetWithOptions:progressHandler:completionHandler:]_block_invoke.60.cold.2
++ ___89-[JFXEffect(AssetDownloading) requestAssetWithOptions:progressHandler:completionHandler:]_block_invoke.60.cold.3
++ ___93-[JFXEffect(AssetDownloading) requestAllAssetsWithOptions:progressHandler:completionHandler:]_block_invoke.62
++ ___93-[JFXEffect(AssetDownloading) requestAllAssetsWithOptions:progressHandler:completionHandler:]_block_invoke.62.cold.1
++ ___93-[JFXEffect(AssetDownloading) requestAllAssetsWithOptions:progressHandler:completionHandler:]_block_invoke.62.cold.2
++ ___93-[JFXEffect(AssetDownloading) requestAllAssetsWithOptions:progressHandler:completionHandler:]_block_invoke.62.cold.3
++ ___block_literal_global.227
++ ___block_literal_global.236
++ ___block_literal_global.245
++ ___block_literal_global.281
++ ___block_literal_global.286
++ ___block_literal_global.649
++ ___block_literal_global.660
++ ___block_literal_global.662
++ ___block_literal_global.666
++ ___block_literal_global.668
++ __unnamed_array_storage.111
++ _updateDynamicTextWithCompletionBlock:.onceToken.284
+- __ZNKSt3__16vectorI8EdgeLineNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB7v160006Ev
+- __ZNSt12length_errorC1B7v160006EPKc
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineEEvT1_S6_T0_NS_15iterator_traitsIS6_E15difference_typeE
+- __ZNSt3__111__sift_downB7v160006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineEEvT1_OT0_NS_15iterator_traitsIS6_E15difference_typeES6_
+- __ZNSt3__117__assoc_sub_state15__attach_futureB7v160006Ev
+- __ZNSt3__117__floyd_sift_downB7v160006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineEET1_S6_OT0_NS_15iterator_traitsIS6_E15difference_typeE
+- __ZNSt3__118__insertion_sort_3B7v160006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineEEvT1_S6_T0_
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI8EdgeLineEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__partial_sort_implB7v160006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineS5_EET1_S6_S6_T2_OT0_
+- __ZNSt3__120__throw_future_errorB7v160006ENS_11future_errcE
+- __ZNSt3__120__throw_length_errorB7v160006EPKc
+- __ZNSt3__127__insertion_sort_incompleteIR11cmpEdgeLineP8EdgeLineEEbT0_S5_T_
+- __ZNSt3__14swapB7v160006IU8__strongPU21objcproto10MTLTexture11objc_objectEENS_9enable_ifIXaasr21is_move_constructibleIT_EE5valuesr18is_move_assignableIS5_EE5valueEvE4typeERS5_S8_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineEEjT1_S6_S6_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineEEjT1_S6_S6_S6_T0_
+- __ZNSt3__17__sort5IR11cmpEdgeLineP8EdgeLineEEjT0_S5_S5_S5_S5_T_
+- __ZNSt3__19__sift_upB7v160006INS_17_ClassicAlgPolicyER11cmpEdgeLineP8EdgeLineEEvT1_S6_OT0_NS_15iterator_traitsIS6_E15difference_typeE
+- __ZSt18make_exception_ptrB7v160006INSt3__112future_errorEESt13exception_ptrT_
+- __ZSt28__throw_bad_array_new_lengthB7v160006v
+- ___89-[JFXEffect(AssetDownloading) requestAssetWithOptions:progressHandler:completionHandler:]_block_invoke.59
+- ___89-[JFXEffect(AssetDownloading) requestAssetWithOptions:progressHandler:completionHandler:]_block_invoke.59.cold.1
+- ___89-[JFXEffect(AssetDownloading) requestAssetWithOptions:progressHandler:completionHandler:]_block_invoke.59.cold.2
+- ___89-[JFXEffect(AssetDownloading) requestAssetWithOptions:progressHandler:completionHandler:]_block_invoke.59.cold.3
+- ___93-[JFXEffect(AssetDownloading) requestAllAssetsWithOptions:progressHandler:completionHandler:]_block_invoke.61
+- ___93-[JFXEffect(AssetDownloading) requestAllAssetsWithOptions:progressHandler:completionHandler:]_block_invoke.61.cold.1
+- ___93-[JFXEffect(AssetDownloading) requestAllAssetsWithOptions:progressHandler:completionHandler:]_block_invoke.61.cold.2
+- ___93-[JFXEffect(AssetDownloading) requestAllAssetsWithOptions:progressHandler:completionHandler:]_block_invoke.61.cold.3
+- ___block_literal_global.226
+- ___block_literal_global.235
+- ___block_literal_global.244
+- ___block_literal_global.280
+- ___block_literal_global.285
+- ___block_literal_global.648
+- ___block_literal_global.659
+- ___block_literal_global.661
+- ___block_literal_global.665
+- ___block_literal_global.667
+- __unnamed_array_storage.110
+- _updateDynamicTextWithCompletionBlock:.onceToken.283
+CStrings:
++ "T@\"NSString\",?,R,C"
++ "TB,?,R,N"
++ "TQ,?,N"
++ "T{CGSize=dd},?,R,N"
+- "TQ,N"
+
+```

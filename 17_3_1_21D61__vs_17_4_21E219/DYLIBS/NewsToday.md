@@ -1,0 +1,520 @@
+## NewsToday
+
+> `/System/Library/PrivateFrameworks/NewsToday.framework/NewsToday`
+
+```diff
+
+-5325.6.0.0.0
+-  __TEXT.__text: 0x40878
++5345.2.0.0.0
++  __TEXT.__text: 0x3e958
+   __TEXT.__auth_stubs: 0x620
+-  __TEXT.__objc_methlist: 0x3a40
++  __TEXT.__objc_methlist: 0x37f8
+   __TEXT.__const: 0xd8
+   __TEXT.__oslogstring: 0xcdc
+-  __TEXT.__cstring: 0x8fc9
++  __TEXT.__cstring: 0x8a30
+   __TEXT.__ustring: 0x16
+-  __TEXT.__gcc_except_tab: 0x960
+-  __TEXT.__unwind_info: 0xc50
+-  __TEXT.__objc_classname: 0xb79
+-  __TEXT.__objc_methname: 0xcf92
+-  __TEXT.__objc_methtype: 0x1636
+-  __TEXT.__objc_stubs: 0x9340
+-  __DATA_CONST.__got: 0x390
+-  __DATA_CONST.__const: 0x1a38
+-  __DATA_CONST.__objc_classlist: 0x220
+-  __DATA_CONST.__objc_catlist: 0x88
++  __TEXT.__gcc_except_tab: 0x930
++  __TEXT.__unwind_info: 0xbcc
++  __TEXT.__objc_classname: 0xb1d
++  __TEXT.__objc_methname: 0xccc0
++  __TEXT.__objc_methtype: 0x15e1
++  __TEXT.__objc_stubs: 0x9120
++  __DATA_CONST.__got: 0x378
++  __DATA_CONST.__const: 0x19c0
++  __DATA_CONST.__objc_classlist: 0x208
++  __DATA_CONST.__objc_catlist: 0x80
+   __DATA_CONST.__objc_protolist: 0x100
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x9ae8
+-  __DATA_CONST.__objc_selrefs: 0x2828
++  __DATA_CONST.__objc_const: 0x9668
++  __DATA_CONST.__objc_selrefs: 0x27b8
++  __DATA_CONST.__objc_protorefs: 0x10
++  __DATA_CONST.__objc_classrefs: 0x568
++  __DATA_CONST.__objc_superrefs: 0x1d8
+   __DATA_CONST.__objc_arraydata: 0x20
+   __AUTH_CONST.__cfstring: 0x1e40
+-  __AUTH_CONST.__objc_const: 0x1910
+-  __AUTH_CONST.__const: 0x640
+-  __AUTH_CONST.__objc_intobj: 0xa8
++  __AUTH_CONST.__objc_const: 0x17f8
++  __AUTH_CONST.__const: 0x620
+   __AUTH_CONST.__objc_doubleobj: 0x20
++  __AUTH_CONST.__objc_intobj: 0x90
+   __AUTH_CONST.__objc_arrayobj: 0x18
+   __AUTH_CONST.__auth_got: 0x320
+-  __AUTH.__objc_data: 0x4b0
+-  __DATA.__objc_protorefs: 0x10
+-  __DATA.__objc_classrefs: 0x588
+-  __DATA.__objc_superrefs: 0x1f0
+-  __DATA.__objc_ivar: 0x588
++  __AUTH.__objc_data: 0x410
++  __DATA.__objc_ivar: 0x568
+   __DATA.__data: 0xc08
+   __DATA.__bss: 0x30
+-  __DATA_DIRTY.__objc_data: 0x1090
++  __DATA_DIRTY.__objc_data: 0x1040
+   __DATA_DIRTY.__bss: 0x80
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 206A6971-247D-3032-A2BF-C28DC1BA69CD
+-  Functions: 1978
+-  Symbols:   6800
+-  CStrings:  3251
++  UUID: EEAD2681-0164-317B-BD53-BFA69D667EE4
++  Functions: 1907
++  Symbols:   6597
++  CStrings:  3212
+ 
+Symbols:
++ -[NTHeadline setStoryTypeColorDark:]
++ -[NTHeadline setStoryTypeColorLight:]
++ -[NTHeadline storyTypeColorDark]
++ -[NTHeadline storyTypeColorLight]
++ -[NTItemAggregationResult initWithAggregatedItemsBySectionDescriptor:unusedSectionDescriptors:]
++ -[NTItemAggregationResult initWithAggregatedItemsBySectionDescriptor:unusedSectionDescriptors:].cold.1
++ -[NTItemAggregationResult initWithAggregatedItemsBySectionDescriptor:unusedSectionDescriptors:].cold.2
++ -[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:appConfiguration:feedPersonalizer:todayData:completion:]
++ -[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:appConfiguration:feedPersonalizer:todayData:completion:].cold.1
++ -[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:appConfiguration:feedPersonalizer:todayData:completion:].cold.2
++ -[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:appConfiguration:feedPersonalizer:todayData:completion:].cold.3
++ -[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:appConfiguration:feedPersonalizer:todayData:completion:].cold.4
++ -[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:appConfiguration:feedPersonalizer:todayData:completion:].cold.5
++ -[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:appConfiguration:feedPersonalizer:todayData:completion:].cold.6
++ -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:]
++ -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:].cold.1
++ -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:].cold.10
++ -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:].cold.11
++ -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:].cold.2
++ -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:].cold.3
++ -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:].cold.4
++ -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:].cold.5
++ -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:].cold.6
++ -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:].cold.7
++ -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:].cold.8
++ -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:].cold.9
++ -[NTNewsTodayResultsExplicitAllocationAggregator _sectionFilterTransformationWithDescriptor:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:]
++ -[NTNewsTodayResultsExplicitAllocationAggregator _sectionFilterTransformationWithDescriptor:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:].cold.1
++ -[NTNewsTodayResultsExplicitAllocationAggregator _sectionFilterTransformationWithDescriptor:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:].cold.2
++ -[NTNewsTodayResultsExplicitAllocationAggregator _sectionFilterTransformationWithDescriptor:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:].cold.3
++ -[NTNewsTodayResultsExplicitAllocationAggregator _sectionFilterTransformationWithDescriptor:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:].cold.4
++ -[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:]
++ -[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:].cold.1
++ -[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:].cold.2
++ -[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:].cold.3
++ -[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:].cold.4
++ -[NTTodayHeadlineProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:]
++ -[NTTodayHeadlineProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:].cold.1
++ -[NTTodayHeadlineProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:].cold.2
++ -[NTTodayHeadlineProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:].cold.3
++ -[NTTodayHeadlineProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:].cold.4
++ GCC_except_table34
++ _OBJC_IVAR_$_NTHeadline._storyTypeColorDark
++ _OBJC_IVAR_$_NTHeadline._storyTypeColorLight
++ __OBJC_$_PROP_LIST_NTTodayContext.167
++ ___172-[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:appConfiguration:feedPersonalizer:todayData:completion:]_block_invoke
++ ___172-[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:appConfiguration:feedPersonalizer:todayData:completion:]_block_invoke_2
++ ___233-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke
++ ___233-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke_2
++ ___233-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke_3
++ ___233-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke_4
++ ___233-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke_5
++ ___233-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke_6
++ ___233-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke_7
++ ___233-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke_8
++ ___233-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke_9
++ ___237-[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:]_block_invoke
++ ___40-[NTTodayItemOperation performOperation]_block_invoke.28
++ ___40-[NTTodayItemOperation performOperation]_block_invoke.30
++ ___40-[NTTodayItemOperation performOperation]_block_invoke_2.31
++ ___40-[NTTodayItemOperation performOperation]_block_invoke_3.34
++ ___90-[NTTodayResultsSource _fetchLatestResultsWithOperationInfo:prefetchedContent:completion:]_block_invoke.57
++ ___block_descriptor_112_e8_32s40s48s56s64s72s80s88s96s104r_e45_v32?0?<Q?"<NTSectionDescriptor>">8Q16^B24ls32l8r104l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8s96l8
++ ___block_descriptor_128_e8_32s40s48s56s64s72s80s88s96bs104r_e38_v32?0"<NTSectionDescriptor>"8Q16^B24lr104l8s32l8s40l8s48l8s96l8s56l8s64l8s72l8s80l8s88l8
++ ___block_descriptor_48_e8_32r_e47_v32?0"<NTSectionDescriptor>"8"NSArray"16^B24lr32l8
++ ___block_descriptor_56_e8_32s40s48r_e43_v32?0"<NTFeedTransformationItem>"8Q16^B24lr48l8s32l8s40l8
++ ___block_descriptor_64_e8_32s40s48bs56bs_e108_v40?0"NTTodayResults"8"NSDictionary"16"NSObject<NTTodayResultOperationFetchInfoProviding>"24"NSError"32ls32l8s40l8s48l8s56l8
++ ___block_descriptor_64_e8_32s40s48bs56bs_e5_v8?0ls32l8s48l8s40l8s56l8
++ ___block_descriptor_64_e8_32s40s48s56s_e57_"NSOrderedSet"24?0"<NTSectionDescriptor>"8"NSArray"16ls32l8s40l8s48l8s56l8
++ ___block_descriptor_72_e8_32s40s48s56bs64bs_e45_v32?0"NSArray"8"<NFCopying>"16"NSError"24ls32l8s56l8s64l8s40l8s48l8
++ ___block_descriptor_72_e8_32s40s48s56s64s_e43_"<NTTodayItem>"16?0"<NTTodayProtoitem>"8ls32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_80_e8_32s40s48s56s64s72s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8
++ ___block_literal_global.109
++ ___block_literal_global.112
++ ___block_literal_global.114
++ ___block_literal_global.136
++ ___block_literal_global.38
++ _dispatch_sync
++ _objc_msgSend$_finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:appConfiguration:feedPersonalizer:todayData:completion:
++ _objc_msgSend$_itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:
++ _objc_msgSend$_sectionFilterTransformationWithDescriptor:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:
++ _objc_msgSend$dark_style_foreground_color
++ _objc_msgSend$dynamicSupportedContentLanguage
++ _objc_msgSend$foreground_color
++ _objc_msgSend$initWithAggregatedItemsBySectionDescriptor:unusedSectionDescriptors:
++ _objc_msgSend$initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:
++ _objc_msgSend$itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:
++ _objc_msgSend$setStoryTypeColorDark:
++ _objc_msgSend$setStoryTypeColorLight:
++ _objc_msgSend$storyTypeColorDark
++ _objc_msgSend$storyTypeColorLight
+- -[NTCostAwareLimitTransformation .cxx_destruct]
+- -[NTCostAwareLimitTransformation appraiser]
+- -[NTCostAwareLimitTransformation budget]
+- -[NTCostAwareLimitTransformation costByFeedItemIDsForLastTransformation]
+- -[NTCostAwareLimitTransformation costOfFeedItemsForLastTransformation]
+- -[NTCostAwareLimitTransformation initWithBudget:appraiser:]
+- -[NTCostAwareLimitTransformation initWithBudget:appraiser:].cold.1
+- -[NTCostAwareLimitTransformation init]
+- -[NTCostAwareLimitTransformation setCostByFeedItemIDsForLastTransformation:]
+- -[NTCostAwareLimitTransformation setCostOfFeedItemsForLastTransformation:]
+- -[NTCostAwareLimitTransformation transformFeedItems:]
+- -[NTFeedTransformationFeedItem usesDynamicSlotAllocation]
+- -[NTFeedTransformationHeadlineItem usesDynamicSlotAllocation]
+- -[NTFeedTransformationWebEmbedItem .cxx_destruct]
+- -[NTFeedTransformationWebEmbedItem cacheCutoffTimeRelativeDate]
+- -[NTFeedTransformationWebEmbedItem cacheExpirationDate]
+- -[NTFeedTransformationWebEmbedItem clusterID]
+- -[NTFeedTransformationWebEmbedItem copyWithZone:]
+- -[NTFeedTransformationWebEmbedItem feedItemForHeadlineFetch]
+- -[NTFeedTransformationWebEmbedItem feedTransformationItem]
+- -[NTFeedTransformationWebEmbedItem hash]
+- -[NTFeedTransformationWebEmbedItem identifier]
+- -[NTFeedTransformationWebEmbedItem initWithWebEmbed:]
+- -[NTFeedTransformationWebEmbedItem initWithWebEmbed:].cold.1
+- -[NTFeedTransformationWebEmbedItem init]
+- -[NTFeedTransformationWebEmbedItem isEqual:]
+- -[NTFeedTransformationWebEmbedItem needsFeedItemHeadlinesFetch]
+- -[NTFeedTransformationWebEmbedItem preferredDynamicSlotAllocation]
+- -[NTFeedTransformationWebEmbedItem protoitemWithFetchedFeedItemHeadline:]
+- -[NTFeedTransformationWebEmbedItem searchResult]
+- -[NTFeedTransformationWebEmbedItem todayItemType]
+- -[NTFeedTransformationWebEmbedItem usesDynamicSlotAllocation]
+- -[NTFeedTransformationWebEmbedItem webEmbed]
+- -[NTHeadline(Placeholder) usesDynamicSlotAllocation]
+- -[NTItemAggregationResult initWithAggregatedItemsBySectionDescriptor:slotAllocationByDynamicSlotItemID:unusedSectionDescriptors:]
+- -[NTItemAggregationResult initWithAggregatedItemsBySectionDescriptor:slotAllocationByDynamicSlotItemID:unusedSectionDescriptors:].cold.1
+- -[NTItemAggregationResult initWithAggregatedItemsBySectionDescriptor:slotAllocationByDynamicSlotItemID:unusedSectionDescriptors:].cold.2
+- -[NTItemAggregationResult initWithAggregatedItemsBySectionDescriptor:slotAllocationByDynamicSlotItemID:unusedSectionDescriptors:].cold.3
+- -[NTItemAggregationResult setSlotAllocationByDynamicSlotItemID:]
+- -[NTItemAggregationResult slotAllocationByDynamicSlotItemID]
+- -[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:slotAllocationByDynamicSlotItemID:appConfiguration:feedPersonalizer:todayData:completion:]
+- -[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:slotAllocationByDynamicSlotItemID:appConfiguration:feedPersonalizer:todayData:completion:].cold.1
+- -[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:slotAllocationByDynamicSlotItemID:appConfiguration:feedPersonalizer:todayData:completion:].cold.2
+- -[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:slotAllocationByDynamicSlotItemID:appConfiguration:feedPersonalizer:todayData:completion:].cold.3
+- -[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:slotAllocationByDynamicSlotItemID:appConfiguration:feedPersonalizer:todayData:completion:].cold.4
+- -[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:slotAllocationByDynamicSlotItemID:appConfiguration:feedPersonalizer:todayData:completion:].cold.5
+- -[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:slotAllocationByDynamicSlotItemID:appConfiguration:feedPersonalizer:todayData:completion:].cold.6
+- -[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:slotAllocationByDynamicSlotItemID:appConfiguration:feedPersonalizer:todayData:completion:].cold.7
+- -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:]
+- -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:].cold.1
+- -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:].cold.10
+- -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:].cold.11
+- -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:].cold.12
+- -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:].cold.2
+- -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:].cold.3
+- -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:].cold.4
+- -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:].cold.5
+- -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:].cold.6
+- -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:].cold.7
+- -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:].cold.8
+- -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:].cold.9
+- -[NTNewsTodayResultsExplicitAllocationAggregator _sectionFilterTransformationWithDescriptor:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:embedsLimit:]
+- -[NTNewsTodayResultsExplicitAllocationAggregator _sectionFilterTransformationWithDescriptor:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:embedsLimit:].cold.1
+- -[NTNewsTodayResultsExplicitAllocationAggregator _sectionFilterTransformationWithDescriptor:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:embedsLimit:].cold.2
+- -[NTNewsTodayResultsExplicitAllocationAggregator _sectionFilterTransformationWithDescriptor:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:embedsLimit:].cold.3
+- -[NTNewsTodayResultsExplicitAllocationAggregator _sectionFilterTransformationWithDescriptor:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:embedsLimit:].cold.4
+- -[NTPBTodaySectionConfigWebEmbed(NTAdditions) URL]
+- -[NTPBTodaySectionConfigWebEmbed(NTAdditions) identifier]
+- -[NTPBTodaySectionConfigWebEmbed(NTAdditions) itemType]
+- -[NTSectionFeedFilterTransformation embedsLimit]
+- -[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:]
+- -[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:].cold.1
+- -[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:].cold.2
+- -[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:].cold.3
+- -[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:].cold.4
+- -[NTTodayHeadlineProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:preferredDynamicSlotAllocation:]
+- -[NTTodayHeadlineProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:preferredDynamicSlotAllocation:].cold.1
+- -[NTTodayHeadlineProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:preferredDynamicSlotAllocation:].cold.2
+- -[NTTodayHeadlineProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:preferredDynamicSlotAllocation:].cold.3
+- -[NTTodayHeadlineProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:preferredDynamicSlotAllocation:].cold.4
+- -[NTTodayItemOperation setSlotAllocationByDynamicSlotItemID:]
+- -[NTTodayItemOperation slotAllocationByDynamicSlotItemID]
+- -[NTTodayItemOperation validateOperation].cold.8
+- -[NTTodayWebEmbedProtoitem .cxx_destruct]
+- -[NTTodayWebEmbedProtoitem assetHandlesWithOperationInfo:]
+- -[NTTodayWebEmbedProtoitem assetHandlesWithOperationInfo:].cold.1
+- -[NTTodayWebEmbedProtoitem copyWithZone:]
+- -[NTTodayWebEmbedProtoitem hash]
+- -[NTTodayWebEmbedProtoitem identifier]
+- -[NTTodayWebEmbedProtoitem initWithIdentifier:webEmbed:]
+- -[NTTodayWebEmbedProtoitem initWithIdentifier:webEmbed:].cold.1
+- -[NTTodayWebEmbedProtoitem initWithIdentifier:webEmbed:].cold.2
+- -[NTTodayWebEmbedProtoitem init]
+- -[NTTodayWebEmbedProtoitem isEqual:]
+- -[NTTodayWebEmbedProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:preferredDynamicSlotAllocation:]
+- -[NTTodayWebEmbedProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:preferredDynamicSlotAllocation:].cold.1
+- -[NTTodayWebEmbedProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:preferredDynamicSlotAllocation:].cold.2
+- -[NTTodayWebEmbedProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:preferredDynamicSlotAllocation:].cold.3
+- -[NTTodayWebEmbedProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:preferredDynamicSlotAllocation:].cold.4
+- -[NTTodayWebEmbedProtoitem webEmbed]
+- GCC_except_table36
+- _FCCKWidgetSectionConfigItemPreferredSlotAllocation
+- _FCCKWidgetSectionConfigItemTypeWebEmbedKey
+- _FCCKWidgetSectionConfigItemWebEmbedURLKey
+- _FCSettingsOverrideEmbedURLTodayWidget
+- _OBJC_CLASS_$_NTCostAwareLimitTransformation
+- _OBJC_CLASS_$_NTFeedTransformationWebEmbedItem
+- _OBJC_CLASS_$_NTPBTodaySectionConfigWebEmbed
+- _OBJC_CLASS_$_NTTodayWebEmbedProtoitem
+- _OBJC_IVAR_$_NTCostAwareLimitTransformation._appraiser
+- _OBJC_IVAR_$_NTCostAwareLimitTransformation._budget
+- _OBJC_IVAR_$_NTCostAwareLimitTransformation._costByFeedItemIDsForLastTransformation
+- _OBJC_IVAR_$_NTCostAwareLimitTransformation._costOfFeedItemsForLastTransformation
+- _OBJC_IVAR_$_NTFeedTransformationWebEmbedItem._webEmbed
+- _OBJC_IVAR_$_NTItemAggregationResult._slotAllocationByDynamicSlotItemID
+- _OBJC_IVAR_$_NTSectionFeedFilterTransformation._embedsLimit
+- _OBJC_IVAR_$_NTTodayItemOperation._slotAllocationByDynamicSlotItemID
+- _OBJC_IVAR_$_NTTodayWebEmbedProtoitem._identifier
+- _OBJC_IVAR_$_NTTodayWebEmbedProtoitem._webEmbed
+- _OBJC_METACLASS_$_NTCostAwareLimitTransformation
+- _OBJC_METACLASS_$_NTFeedTransformationWebEmbedItem
+- _OBJC_METACLASS_$_NTTodayWebEmbedProtoitem
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_11
+- __OBJC_$_CATEGORY_NTPBTodaySectionConfigWebEmbed_$_NTAdditions
+- __OBJC_$_INSTANCE_METHODS_NTCostAwareLimitTransformation
+- __OBJC_$_INSTANCE_METHODS_NTFeedTransformationWebEmbedItem
+- __OBJC_$_INSTANCE_METHODS_NTPBTodaySectionConfigWebEmbed(NTAdditions)
+- __OBJC_$_INSTANCE_METHODS_NTTodayWebEmbedProtoitem
+- __OBJC_$_INSTANCE_VARIABLES_NTCostAwareLimitTransformation
+- __OBJC_$_INSTANCE_VARIABLES_NTFeedTransformationWebEmbedItem
+- __OBJC_$_INSTANCE_VARIABLES_NTTodayWebEmbedProtoitem
+- __OBJC_$_PROP_LIST_NTCostAwareLimitTransformation
+- __OBJC_$_PROP_LIST_NTFeedTransformationWebEmbedItem
+- __OBJC_$_PROP_LIST_NTTodayContext.166
+- __OBJC_$_PROP_LIST_NTTodayWebEmbedProtoitem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NTFeedTransformationItem
+- __OBJC_CLASS_PROTOCOLS_$_NTCostAwareLimitTransformation
+- __OBJC_CLASS_PROTOCOLS_$_NTFeedTransformationWebEmbedItem
+- __OBJC_CLASS_PROTOCOLS_$_NTTodayWebEmbedProtoitem
+- __OBJC_CLASS_RO_$_NTCostAwareLimitTransformation
+- __OBJC_CLASS_RO_$_NTFeedTransformationWebEmbedItem
+- __OBJC_CLASS_RO_$_NTTodayWebEmbedProtoitem
+- __OBJC_METACLASS_RO_$_NTCostAwareLimitTransformation
+- __OBJC_METACLASS_RO_$_NTFeedTransformationWebEmbedItem
+- __OBJC_METACLASS_RO_$_NTTodayWebEmbedProtoitem
+- ___104-[NTNewsTodayResultsExplicitAllocationAggregator aggregateSections:itemsBySectionDescriptor:budgetInfo:]_block_invoke_10
+- ___206-[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:slotAllocationByDynamicSlotItemID:appConfiguration:feedPersonalizer:todayData:completion:]_block_invoke
+- ___206-[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:slotAllocationByDynamicSlotItemID:appConfiguration:feedPersonalizer:todayData:completion:]_block_invoke_2
+- ___245-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke
+- ___245-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke_2
+- ___245-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke_3
+- ___245-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke_4
+- ___245-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke_5
+- ___245-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke_6
+- ___245-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke_7
+- ___245-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke_8
+- ___245-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:]_block_invoke_9
+- ___283-[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:]_block_invoke
+- ___283-[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:]_block_invoke_2
+- ___283-[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:]_block_invoke_3
+- ___40-[NTTodayItemOperation performOperation]_block_invoke.31
+- ___40-[NTTodayItemOperation performOperation]_block_invoke.33
+- ___40-[NTTodayItemOperation performOperation]_block_invoke_2.34
+- ___40-[NTTodayItemOperation performOperation]_block_invoke_3.37
+- ___53-[NTCostAwareLimitTransformation transformFeedItems:]_block_invoke
+- ___90-[NTTodayResultsSource _fetchLatestResultsWithOperationInfo:prefetchedContent:completion:]_block_invoke.56
+- ___NTPBTodaySectionConfigGenerateItems_block_invoke.cold.1
+- ___block_descriptor_128_e8_32s40s48s56s64s72s80s88s96s104s112r120r_e45_v32?0?<Q?"<NTSectionDescriptor>">8Q16^B24ls32l8r112l8s40l8s48l8s56l8s64l8s72l8s80l8r120l8s88l8s96l8s104l8
+- ___block_descriptor_144_e8_32s40s48s56s64s72s80s88s96s104bs112r120r_e38_v32?0"<NTSectionDescriptor>"8Q16^B24lr112l8s32l8s40l8s104l8s48l8s56l8s64l8s72l8r120l8s80l8s88l8s96l8
+- ___block_descriptor_40_e8_32s_e28_"NSNumber"16?0"NSNumber"8ls32l8
+- ___block_descriptor_40_e8_32s_e42_d32?0"<NTFeedTransformationItem>"8Q16d24ls32l8
+- ___block_descriptor_56_e8_32s40bs48bs_e108_v40?0"NTTodayResults"8"NSDictionary"16"NSObject<NTTodayResultOperationFetchInfoProviding>"24"NSError"32ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40bs48bs_e5_v8?0ls40l8s32l8s48l8
+- ___block_descriptor_56_e8_32s40r_e47_v32?0"<NTSectionDescriptor>"8"NSArray"16^B24ls32l8r40l8
+- ___block_descriptor_64_e8_32s40bs48r56r_e43_v32?0"<NTFeedTransformationItem>"8Q16^B24ls40l8r48l8r56l8s32l8
+- ___block_descriptor_72_e8_32s40s48r56r_e43_v32?0"<NTFeedTransformationItem>"8Q16^B24lr48l8r56l8s32l8s40l8
+- ___block_descriptor_72_e8_32s40s48s56bs64bs_e45_v32?0"NSArray"8"<NFCopying>"16"NSError"24ls56l8s64l8s32l8s40l8s48l8
+- ___block_descriptor_72_e8_32s40s48s56s64s_e57_"NSOrderedSet"24?0"<NTSectionDescriptor>"8"NSArray"16ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72s_e43_"<NTTodayItem>"16?0"<NTTodayProtoitem>"8ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_descriptor_88_e8_32s40s48s56s64s72s80s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
+- ___block_literal_global.116
+- ___block_literal_global.126
+- ___block_literal_global.128
+- ___block_literal_global.131
+- ___block_literal_global.146
+- _objc_msgSend$_finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:slotAllocationByDynamicSlotItemID:appConfiguration:feedPersonalizer:todayData:completion:
+- _objc_msgSend$_itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:
+- _objc_msgSend$_sectionFilterTransformationWithDescriptor:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:embedsLimit:
+- _objc_msgSend$addEntriesFromDictionary:
+- _objc_msgSend$appraiser
+- _objc_msgSend$budget
+- _objc_msgSend$costByFeedItemIDsForLastTransformation
+- _objc_msgSend$costOfFeedItemsForLastTransformation
+- _objc_msgSend$embedsLimit
+- _objc_msgSend$fc_countOfObjectsPassingTest:
+- _objc_msgSend$initWithAggregatedItemsBySectionDescriptor:slotAllocationByDynamicSlotItemID:unusedSectionDescriptors:
+- _objc_msgSend$initWithBudget:appraiser:
+- _objc_msgSend$initWithIdentifier:webEmbed:
+- _objc_msgSend$initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:
+- _objc_msgSend$initWithWebEmbed:
+- _objc_msgSend$itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:preferredDynamicSlotAllocation:
+- _objc_msgSend$length
+- _objc_msgSend$preferredDynamicSlotAllocation
+- _objc_msgSend$preferredSlotAllocation
+- _objc_msgSend$setCostByFeedItemIDsForLastTransformation:
+- _objc_msgSend$setCostOfFeedItemsForLastTransformation:
+- _objc_msgSend$setEmbedsLimit:
+- _objc_msgSend$setPreferredSlotAllocation:
+- _objc_msgSend$setSlotAllocationByDynamicSlotItemID:
+- _objc_msgSend$setWebEmbed:
+- _objc_msgSend$slotAllocationByDynamicSlotItemID
+- _objc_msgSend$supportedContentLanguage
+- _objc_msgSend$todayItemType
+- _objc_msgSend$usesDynamicSlotAllocation
+- _objc_msgSend$webEmbed
+CStrings:
++ "\r"
++ "\x19\x13\x1f"
++ "-[NTItemAggregationResult initWithAggregatedItemsBySectionDescriptor:unusedSectionDescriptors:]"
++ "-[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:appConfiguration:feedPersonalizer:todayData:completion:]"
++ "-[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:]"
++ "-[NTNewsTodayResultsExplicitAllocationAggregator _sectionFilterTransformationWithDescriptor:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:]"
++ "-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:]"
++ "-[NTTodayHeadlineProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:]"
++ "@\"<NTTodayItem>\"56@0:8@\"<FCContentContext>\"16@\"<NTTodayResultOperationInfoProviding>\"24@\"<NTSectionDescriptor>\"32@\"<FCTodayPrivateData>\"40@\"NSMutableDictionary\"48"
++ "@104@0:8@16@24@32@40@48Q56@64d72^d80^B88^B96"
++ "@80@0:8@16@24i32i36d40Q48@56@64@72"
++ "T@\"<FCChannelProviding>\",?,R,C,N"
++ "T@\"COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration\",?,R,N"
++ "T@\"FCHeadlineThumbnailMetadata\",?,R,N"
++ "T@\"NSArray\",?,R,C,N"
++ "T@\"NSData\",?,R,N"
++ "T@\"NSSet\",C,N,V_unusedSectionDescriptors"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",?,R,C,N"
++ "T@\"NSString\",?,R,N"
++ "T@\"NSString\",C,N,V_storyTypeColorDark"
++ "T@\"NSString\",C,N,V_storyTypeColorLight"
++ "T@\"NSURL\",?,R,N"
++ "TB,?,R,N"
++ "TB,?,R,N,GisBundlePaid"
++ "TQ,?,R,N"
++ "Tq,?,R,N"
++ "_finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:appConfiguration:feedPersonalizer:todayData:completion:"
++ "_itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:"
++ "_sectionFilterTransformationWithDescriptor:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:"
++ "_storyTypeColorDark"
++ "_storyTypeColorLight"
++ "dark_style_foreground_color"
++ "dynamicSupportedContentLanguage"
++ "foreground_color"
++ "initWithAggregatedItemsBySectionDescriptor:unusedSectionDescriptors:"
++ "initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:"
++ "itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:"
++ "setStoryTypeColorDark:"
++ "setStoryTypeColorLight:"
++ "storyTypeColorDark"
++ "storyTypeColorLight"
++ "v64@0:8@16@24@32@40@48@?56"
+- "\x0e"
+- "\x11\x11"
+- "\x19\x13\x1d"
+- "-[NTCostAwareLimitTransformation initWithBudget:appraiser:]"
+- "-[NTCostAwareLimitTransformation init]"
+- "-[NTFeedTransformationWebEmbedItem initWithWebEmbed:]"
+- "-[NTFeedTransformationWebEmbedItem init]"
+- "-[NTItemAggregationResult initWithAggregatedItemsBySectionDescriptor:slotAllocationByDynamicSlotItemID:unusedSectionDescriptors:]"
+- "-[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:slotAllocationByDynamicSlotItemID:appConfiguration:feedPersonalizer:todayData:completion:]"
+- "-[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:]"
+- "-[NTNewsTodayResultsExplicitAllocationAggregator _sectionFilterTransformationWithDescriptor:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:embedsLimit:]"
+- "-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:]"
+- "-[NTTodayHeadlineProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:preferredDynamicSlotAllocation:]"
+- "-[NTTodayWebEmbedProtoitem assetHandlesWithOperationInfo:]"
+- "-[NTTodayWebEmbedProtoitem initWithIdentifier:webEmbed:]"
+- "-[NTTodayWebEmbedProtoitem init]"
+- "-[NTTodayWebEmbedProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:preferredDynamicSlotAllocation:]"
+- "/Library/Caches/com.apple.xbs/Sources/FeldsparServices/feldspar/Frameworks/NewsToday/NTCostAwareLimitTransformation.m"
+- "/Library/Caches/com.apple.xbs/Sources/FeldsparServices/feldspar/Frameworks/NewsToday/NTFeedTransformationWebEmbedItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/FeldsparServices/feldspar/Frameworks/NewsToday/NTTodayWebEmbedProtoitem.m"
+- "@\"<NTTodayItem>\"64@0:8@\"<FCContentContext>\"16@\"<NTTodayResultOperationInfoProviding>\"24@\"<NTSectionDescriptor>\"32@\"<FCTodayPrivateData>\"40@\"NSMutableDictionary\"48Q56"
+- "@\"NSNumber\"16@?0@\"NSNumber\"8"
+- "@\"NTPBTodaySectionConfigWebEmbed\""
+- "@120@0:8@16@24@32@40@48Q56@64Q72d80^d88^B96^B104@112"
+- "@32@0:8d16@?24"
+- "@56@0:8@16@24@32@40Q48"
+- "@64@0:8@16@24@32@40@48Q56"
+- "@88@0:8@16@24i32i36d40Q48Q56@64@72@80"
+- "NSArray<NTPBTodaySectionConfigItem *> *NTPBTodaySectionConfigGenerateItems(NSArray<NSDictionary<NSString *,id> *> *__strong, NSArray<NTPBTodaySectionConfigFont *> *__strong, BOOL *)_block_invoke"
+- "NTCostAwareLimitTransformation"
+- "NTFeedTransformationWebEmbedItem"
+- "NTTodayWebEmbedProtoitem"
+- "T@\"<FCChannelProviding>\",R,C,N"
+- "T@\"COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration\",R,N"
+- "T@\"FCHeadlineThumbnailMetadata\",R,N"
+- "T@\"NSArray\",C,N,V_unusedSectionDescriptors"
+- "T@\"NSDictionary\",C,N,V_costByFeedItemIDsForLastTransformation"
+- "T@\"NSDictionary\",C,N,V_slotAllocationByDynamicSlotItemID"
+- "T@\"NSURL\",R,N"
+- "T@\"NTPBTodaySectionConfigWebEmbed\",R,C,N,V_webEmbed"
+- "T@?,R,C,N,V_appraiser"
+- "TB,R,N,GisBundlePaid"
+- "TQ,R,N,V_embedsLimit"
+- "Td,N,V_costOfFeedItemsForLastTransformation"
+- "Td,R,N,V_budget"
+- "_appraiser"
+- "_budget"
+- "_costByFeedItemIDsForLastTransformation"
+- "_costOfFeedItemsForLastTransformation"
+- "_finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:slotAllocationByDynamicSlotItemID:appConfiguration:feedPersonalizer:todayData:completion:"
+- "_itemsForSection:items:withBudgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:embedsLimit:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:slotAllocationByDynamicSlotItemID:"
+- "_sectionFilterTransformationWithDescriptor:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:embedsLimit:"
+- "_slotAllocationByDynamicSlotItemID"
+- "_webEmbed"
+- "addEntriesFromDictionary:"
+- "appraiser"
+- "budget"
+- "costByFeedItemIDsForLastTransformation"
+- "costOfFeedItemsForLastTransformation"
+- "d32@?0@\"<NTFeedTransformationItem>\"8Q16d24"
+- "fc_countOfObjectsPassingTest:"
+- "initWithAggregatedItemsBySectionDescriptor:slotAllocationByDynamicSlotItemID:unusedSectionDescriptors:"
+- "initWithBudget:appraiser:"
+- "initWithIdentifier:webEmbed:"
+- "initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:embedsLimit:otherArticleIDs:otherClusterIDs:filterDate:"
+- "initWithWebEmbed:"
+- "itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:preferredDynamicSlotAllocation:"
+- "items section config webEmbed JSON requires a url for every webEmbed"
+- "length"
+- "preferredDynamicSlotAllocation"
+- "preferredSlotAllocation"
+- "setCostByFeedItemIDsForLastTransformation:"
+- "setCostOfFeedItemsForLastTransformation:"
+- "setPreferredSlotAllocation:"
+- "setSlotAllocationByDynamicSlotItemID:"
+- "setWebEmbed:"
+- "slotAllocationByDynamicSlotItemID"
+- "supportedContentLanguage"
+- "today item operation requires slot allocations by dynamic slot item ID"
+- "usesDynamicSlotAllocation"
+- "webEmbed"
+
+```
