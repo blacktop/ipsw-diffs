@@ -1,0 +1,615 @@
+## Intents
+
+> `/System/Library/Frameworks/Intents.framework/Intents`
+
+```diff
+
+-4014.0.0.0.0
+-  __TEXT.__text: 0x450afc
++4015.0.0.0.0
++  __TEXT.__text: 0x450e08
+   __TEXT.__auth_stubs: 0xfd0
+-  __TEXT.__objc_methlist: 0x78bb4
+-  __TEXT.__const: 0x1eb8
++  __TEXT.__objc_methlist: 0x78bcc
++  __TEXT.__const: 0x1eb0
+   __TEXT.__dlopen_cstrs: 0xce9
+-  __TEXT.__gcc_except_tab: 0x2300
++  __TEXT.__gcc_except_tab: 0x2380
+   __TEXT.__oslogstring: 0x57c4
+   __TEXT.__cstring: 0x47461
+   __TEXT.__ustring: 0x512
+-  __TEXT.__unwind_info: 0x10e20
++  __TEXT.__unwind_info: 0x10e28
+   __TEXT.__objc_classname: 0x12221
+-  __TEXT.__objc_methname: 0x69e3a
++  __TEXT.__objc_methname: 0x69e66
+   __TEXT.__objc_methtype: 0xcc5e
+-  __TEXT.__objc_stubs: 0x33be0
+-  __DATA_CONST.__got: 0x28a0
+-  __DATA_CONST.__const: 0xb930
++  __TEXT.__objc_stubs: 0x33c00
++  __DATA_CONST.__got: 0x2898
++  __DATA_CONST.__const: 0xb8d0
+   __DATA_CONST.__objc_classlist: 0x2930
+   __DATA_CONST.__objc_catlist: 0x100
+   __DATA_CONST.__objc_protolist: 0x1940
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x15428
++  __DATA_CONST.__objc_selrefs: 0x15430
+   __DATA_CONST.__objc_protorefs: 0x90
+   __DATA_CONST.__objc_superrefs: 0x1398
+   __DATA_CONST.__objc_arraydata: 0xc298
+
+   __AUTH.__objc_data: 0x14500
+   __DATA.__objc_ivar: 0x3d48
+   __DATA.__data: 0x12f98
+-  __DATA.__bss: 0xc50
++  __DATA.__bss: 0xc58
+   __DATA.__common: 0x8
+   __DATA_DIRTY.__objc_data: 0x56e0
+   __DATA_DIRTY.__bss: 0x278
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libmis.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 61785C48-9299-369C-9BDC-E1A0202A24DE
+-  Functions: 30620
+-  Symbols:   87209
+-  CStrings:  37172
++  UUID: E1DC96BB-1D3B-30DD-A2E9-673D371A5F08
++  Functions: 30622
++  Symbols:   87221
++  CStrings:  37173
+ 
+Symbols:
++ +[INIntentCodableDescription(__Name) __NameKey].37615
++ -[INPerson(Readable) _intents_readableHandleWithLocalizer:metadata:]
++ -[INPerson(Readable) _intents_readableSubtitleWithLocalizer:metadata:]
++ GCC_except_table10127
++ GCC_except_table10139
++ GCC_except_table10144
++ GCC_except_table10209
++ GCC_except_table10215
++ GCC_except_table10768
++ GCC_except_table10893
++ GCC_except_table10897
++ GCC_except_table11010
++ GCC_except_table11123
++ GCC_except_table11150
++ GCC_except_table11151
++ GCC_except_table11373
++ GCC_except_table11815
++ GCC_except_table12105
++ GCC_except_table12548
++ GCC_except_table12555
++ GCC_except_table12558
++ GCC_except_table12566
++ GCC_except_table12587
++ GCC_except_table13192
++ GCC_except_table13724
++ GCC_except_table13763
++ GCC_except_table13767
++ GCC_except_table14012
++ GCC_except_table14539
++ GCC_except_table15217
++ GCC_except_table15221
++ GCC_except_table16358
++ GCC_except_table16461
++ GCC_except_table16469
++ GCC_except_table16470
++ GCC_except_table16772
++ GCC_except_table18418
++ GCC_except_table19073
++ GCC_except_table19243
++ GCC_except_table19270
++ GCC_except_table19837
++ GCC_except_table19840
++ GCC_except_table19918
++ GCC_except_table20918
++ GCC_except_table21013
++ GCC_except_table21234
++ GCC_except_table22302
++ GCC_except_table22305
++ GCC_except_table22308
++ GCC_except_table22923
++ GCC_except_table22940
++ GCC_except_table23656
++ GCC_except_table25130
++ GCC_except_table25142
++ GCC_except_table2535
++ GCC_except_table27013
++ GCC_except_table27018
++ GCC_except_table27019
++ GCC_except_table2795
++ GCC_except_table2796
++ GCC_except_table28711
++ GCC_except_table28718
++ GCC_except_table28728
++ GCC_except_table28737
++ GCC_except_table2878
++ GCC_except_table2914
++ GCC_except_table2946
++ GCC_except_table29785
++ GCC_except_table29793
++ GCC_except_table29794
++ GCC_except_table29800
++ GCC_except_table29803
++ GCC_except_table29810
++ GCC_except_table29813
++ GCC_except_table30002
++ GCC_except_table3166
++ GCC_except_table3169
++ GCC_except_table3177
++ GCC_except_table3190
++ GCC_except_table4168
++ GCC_except_table4172
++ GCC_except_table4181
++ GCC_except_table4194
++ GCC_except_table4407
++ GCC_except_table5381
++ GCC_except_table5382
++ GCC_except_table5439
++ GCC_except_table5599
++ GCC_except_table5602
++ GCC_except_table5608
++ GCC_except_table5845
++ GCC_except_table5854
++ GCC_except_table6404
++ GCC_except_table6438
++ GCC_except_table6439
++ GCC_except_table6473
++ GCC_except_table7034
++ GCC_except_table7119
++ GCC_except_table7120
++ GCC_except_table7841
++ GCC_except_table8107
++ GCC_except_table8452
++ GCC_except_table8456
++ GCC_except_table8706
++ GCC_except_table9383
++ GCC_except_table9939
++ _AssistantServicesLibraryCore.frameworkLibrary.54944
++ _ChronoServicesLibraryCore.frameworkLibrary.123625
++ _ContactsLibrary.33520
++ _ContactsLibrary.45495
++ _ContactsLibrary.60882
++ _ContactsLibraryCore.frameworkLibrary.111065
++ _ContactsLibraryCore.frameworkLibrary.33525
++ _ContactsLibraryCore.frameworkLibrary.45498
++ _ContactsLibraryCore.frameworkLibrary.60885
++ _CoreGraphicsLibrary.136662
++ _CoreGraphicsLibraryCore.frameworkLibrary.136667
++ _CoreSpotlightLibraryCore.frameworkLibrary.59715
++ _CoreSpotlightLibraryCore.frameworkLibrary.79775
++ _HealthKitLibraryCore.frameworkLibrary.95482
++ _INApplicationBundleIdentifierFromBundleIdentifier.lock
++ _IntentsUILibraryCore.frameworkLibrary.83647
++ _LinkServicesLibraryCore.frameworkLibrary.165968
++ _VoiceShortcutClientLibraryCore.frameworkLibrary.113000
++ _VoiceShortcutClientLibraryCore.frameworkLibrary.123548
++ __ZL32INSystemAppBundleIdentifierPages
++ __ZL34INSystemAppBundleIdentifierKeynote
++ __ZL34INSystemAppBundleIdentifierNumbers
++ __ZL41INSystemAppBundleIdentifierPagesMacPreV15
++ __ZL43INSystemAppBundleIdentifierKeynoteMacPreV15
++ __ZL43INSystemAppBundleIdentifierNumbersMacPreV15
++ ___AssistantServicesLibraryCore_block_invoke.54945
++ ___Block_byref_object_copy_.100527
++ ___Block_byref_object_copy_.104489
++ ___Block_byref_object_copy_.37075
++ ___Block_byref_object_copy_.49914
++ ___Block_byref_object_copy_.54533
++ ___Block_byref_object_copy_.54954
++ ___Block_byref_object_copy_.65242
++ ___Block_byref_object_copy_.68257
++ ___Block_byref_object_copy_.69066
++ ___Block_byref_object_copy_.71927
++ ___Block_byref_object_copy_.75138
++ ___Block_byref_object_copy_.90450
++ ___Block_byref_object_dispose_.100528
++ ___Block_byref_object_dispose_.104490
++ ___Block_byref_object_dispose_.37076
++ ___Block_byref_object_dispose_.49915
++ ___Block_byref_object_dispose_.54534
++ ___Block_byref_object_dispose_.54955
++ ___Block_byref_object_dispose_.65243
++ ___Block_byref_object_dispose_.68258
++ ___Block_byref_object_dispose_.69067
++ ___Block_byref_object_dispose_.71928
++ ___Block_byref_object_dispose_.75139
++ ___Block_byref_object_dispose_.90451
++ ___ChronoServicesLibraryCore_block_invoke.123626
++ ___ContactsLibraryCore_block_invoke.111066
++ ___ContactsLibraryCore_block_invoke.33526
++ ___ContactsLibraryCore_block_invoke.45499
++ ___ContactsLibraryCore_block_invoke.60886
++ ___CoreGraphicsLibraryCore_block_invoke.136668
++ ___CoreSpotlightLibraryCore_block_invoke.59716
++ ___CoreSpotlightLibraryCore_block_invoke.79776
++ ___HealthKitLibraryCore_block_invoke.95483
++ ___IntentsUILibraryCore_block_invoke.83648
++ ___LinkServicesLibraryCore_block_invoke.165969
++ ___VoiceShortcutClientLibraryCore_block_invoke.113001
++ ___VoiceShortcutClientLibraryCore_block_invoke.123549
++ ___block_literal_global.10.103455
++ ___block_literal_global.10.54969
++ ___block_literal_global.100.75133
++ ___block_literal_global.100273
++ ___block_literal_global.100449
++ ___block_literal_global.103445
++ ___block_literal_global.104590
++ ___block_literal_global.105606
++ ___block_literal_global.11.111709
++ ___block_literal_global.111737
++ ___block_literal_global.119832
++ ___block_literal_global.12.158247
++ ___block_literal_global.123648
++ ___block_literal_global.13.103457
++ ___block_literal_global.13.98761
++ ___block_literal_global.158235
++ ___block_literal_global.21.59682
++ ___block_literal_global.272
++ ___block_literal_global.3.111708
++ ___block_literal_global.34334
++ ___block_literal_global.37097
++ ___block_literal_global.37487
++ ___block_literal_global.40168
++ ___block_literal_global.40672
++ ___block_literal_global.42338
++ ___block_literal_global.43256
++ ___block_literal_global.43507
++ ___block_literal_global.44413
++ ___block_literal_global.47516
++ ___block_literal_global.5.94137
++ ___block_literal_global.53412
++ ___block_literal_global.53984
++ ___block_literal_global.54539
++ ___block_literal_global.54953
++ ___block_literal_global.59722
++ ___block_literal_global.6.111720
++ ___block_literal_global.6.72043
++ ___block_literal_global.60743
++ ___block_literal_global.62271
++ ___block_literal_global.66719
++ ___block_literal_global.68332
++ ___block_literal_global.68449
++ ___block_literal_global.69068
++ ___block_literal_global.70471
++ ___block_literal_global.71233
++ ___block_literal_global.71977
++ ___block_literal_global.72039
++ ___block_literal_global.74996
++ ___block_literal_global.77363
++ ___block_literal_global.82.66713
++ ___block_literal_global.82371
++ ___block_literal_global.91.71978
++ ___block_literal_global.91418
++ ___block_literal_global.92277
++ ___block_literal_global.94161
++ ___block_literal_global.98772
++ ___getAFPreferencesClass_block_invoke.54943
++ ___getCGColorCreateSRGBSymbolLoc_block_invoke.136713
++ ___getCGColorGetComponentsSymbolLoc_block_invoke.136661
++ ___getCNContactEmailAddressesKeySymbolLoc_block_invoke.33530
++ ___getCNContactPhoneNumbersKeySymbolLoc_block_invoke.33533
++ ___getCNLabeledValueClass_block_invoke.60902
++ ___getCNPostalAddressClass_block_invoke.111064
++ ___getCSSearchableIndexClass_block_invoke.59714
++ ___getCSSearchableItemAttributeSetClass_block_invoke.79774
++ ___getHKUnitClass_block_invoke.95481
++ _audit_stringAssistantServices.54950
++ _audit_stringChronoServices.123631
++ _audit_stringContacts.111071
++ _audit_stringContacts.33528
++ _audit_stringContacts.45501
++ _audit_stringContacts.60889
++ _audit_stringCoreGraphics.136670
++ _audit_stringCoreSpotlight.59721
++ _audit_stringCoreSpotlight.79781
++ _audit_stringHealthKit.95488
++ _audit_stringLinkServices.165974
++ _audit_stringVoiceShortcutClient.113006
++ _audit_stringVoiceShortcutClient.123554
++ _getAFPreferencesClass.softClass.54942
++ _getCGColorCreateSRGBSymbolLoc.ptr.136712
++ _getCGColorGetComponentsSymbolLoc.ptr.136660
++ _getCNContactEmailAddressesKeySymbolLoc.ptr.33529
++ _getCNContactPhoneNumbersKeySymbolLoc.ptr.33532
++ _getCNLabeledValueClass.60867
++ _getCNLabeledValueClass.softClass.60901
++ _getCNPostalAddressClass.softClass.111063
++ _getCSSearchableIndexClass.softClass.59713
++ _getCSSearchableItemAttributeSetClass.softClass.79773
++ _getHKUnitClass.95479
++ _getHKUnitClass.softClass.95480
++ _intentDescription.intentDescription.39163
++ _intentDescription.intentDescription.42686
++ _intentDescription.intentDescription.64207
++ _intentDescription.intentDescription.68450
++ _intentDescription.onceToken.39162
++ _intentDescription.onceToken.42685
++ _intentDescription.onceToken.64206
++ _intentDescription.onceToken.68448
++ _objc_msgSend$_intents_readableHandleWithLocalizer:metadata:
++ _objc_msgSend$autoupdatingCurrentLocale
++ _serviceIdentifier.onceToken.83621
++ _serviceIdentifier.sServiceIdentifier.83622
++ _sharedCache.onceToken.82370
++ _sharedManager.onceToken.123647
++ _sharedManager.onceToken.59712
++ _sharedManager.sharedManager.123649
++ _sharedProvider.onceToken.158246
+- +[INIntentCodableDescription(__Name) __NameKey].37613
+- GCC_except_table10125
+- GCC_except_table10135
+- GCC_except_table10142
+- GCC_except_table10207
+- GCC_except_table10213
+- GCC_except_table10766
+- GCC_except_table10891
+- GCC_except_table10895
+- GCC_except_table11008
+- GCC_except_table11121
+- GCC_except_table11148
+- GCC_except_table11149
+- GCC_except_table11371
+- GCC_except_table11813
+- GCC_except_table12103
+- GCC_except_table12546
+- GCC_except_table12553
+- GCC_except_table12556
+- GCC_except_table12564
+- GCC_except_table12585
+- GCC_except_table13190
+- GCC_except_table13722
+- GCC_except_table13761
+- GCC_except_table13765
+- GCC_except_table14010
+- GCC_except_table14537
+- GCC_except_table15215
+- GCC_except_table15219
+- GCC_except_table16356
+- GCC_except_table16459
+- GCC_except_table16467
+- GCC_except_table16468
+- GCC_except_table16770
+- GCC_except_table18416
+- GCC_except_table19071
+- GCC_except_table19241
+- GCC_except_table19268
+- GCC_except_table19833
+- GCC_except_table19838
+- GCC_except_table19916
+- GCC_except_table20916
+- GCC_except_table21011
+- GCC_except_table21232
+- GCC_except_table22300
+- GCC_except_table22303
+- GCC_except_table22306
+- GCC_except_table22921
+- GCC_except_table22938
+- GCC_except_table23654
+- GCC_except_table25128
+- GCC_except_table25140
+- GCC_except_table2533
+- GCC_except_table27011
+- GCC_except_table27014
+- GCC_except_table27015
+- GCC_except_table2793
+- GCC_except_table2794
+- GCC_except_table28709
+- GCC_except_table28714
+- GCC_except_table28724
+- GCC_except_table28735
+- GCC_except_table2876
+- GCC_except_table2912
+- GCC_except_table29783
+- GCC_except_table29791
+- GCC_except_table29792
+- GCC_except_table29796
+- GCC_except_table29797
+- GCC_except_table29804
+- GCC_except_table29807
+- GCC_except_table30000
+- GCC_except_table3164
+- GCC_except_table3167
+- GCC_except_table3175
+- GCC_except_table3188
+- GCC_except_table4166
+- GCC_except_table4170
+- GCC_except_table4177
+- GCC_except_table4192
+- GCC_except_table4405
+- GCC_except_table5379
+- GCC_except_table5380
+- GCC_except_table5437
+- GCC_except_table5597
+- GCC_except_table5600
+- GCC_except_table5604
+- GCC_except_table5843
+- GCC_except_table5852
+- GCC_except_table6400
+- GCC_except_table6434
+- GCC_except_table6435
+- GCC_except_table6471
+- GCC_except_table7032
+- GCC_except_table7117
+- GCC_except_table7118
+- GCC_except_table7839
+- GCC_except_table8105
+- GCC_except_table8450
+- GCC_except_table8454
+- GCC_except_table8702
+- GCC_except_table9381
+- GCC_except_table9937
+- _AssistantServicesLibraryCore.frameworkLibrary.54943
+- _ChronoServicesLibraryCore.frameworkLibrary.123621
+- _ContactsLibrary.33518
+- _ContactsLibrary.45494
+- _ContactsLibrary.60881
+- _ContactsLibraryCore.frameworkLibrary.111060
+- _ContactsLibraryCore.frameworkLibrary.33523
+- _ContactsLibraryCore.frameworkLibrary.45497
+- _ContactsLibraryCore.frameworkLibrary.60884
+- _CoreGraphicsLibrary.136658
+- _CoreGraphicsLibraryCore.frameworkLibrary.136663
+- _CoreSpotlightLibraryCore.frameworkLibrary.59714
+- _CoreSpotlightLibraryCore.frameworkLibrary.79772
+- _HealthKitLibraryCore.frameworkLibrary.95479
+- _IntentsUILibraryCore.frameworkLibrary.83644
+- _LinkServicesLibraryCore.frameworkLibrary.165970
+- _OBJC_CLASS_$_NSDataDetector
+- _VoiceShortcutClientLibraryCore.frameworkLibrary.112996
+- _VoiceShortcutClientLibraryCore.frameworkLibrary.123544
+- ___AssistantServicesLibraryCore_block_invoke.54944
+- ___Block_byref_object_copy_.100522
+- ___Block_byref_object_copy_.104484
+- ___Block_byref_object_copy_.37073
+- ___Block_byref_object_copy_.49913
+- ___Block_byref_object_copy_.54532
+- ___Block_byref_object_copy_.54953
+- ___Block_byref_object_copy_.65241
+- ___Block_byref_object_copy_.68255
+- ___Block_byref_object_copy_.69064
+- ___Block_byref_object_copy_.71925
+- ___Block_byref_object_copy_.75135
+- ___Block_byref_object_copy_.90447
+- ___Block_byref_object_dispose_.100523
+- ___Block_byref_object_dispose_.104485
+- ___Block_byref_object_dispose_.37074
+- ___Block_byref_object_dispose_.49914
+- ___Block_byref_object_dispose_.54533
+- ___Block_byref_object_dispose_.54954
+- ___Block_byref_object_dispose_.65242
+- ___Block_byref_object_dispose_.68256
+- ___Block_byref_object_dispose_.69065
+- ___Block_byref_object_dispose_.71926
+- ___Block_byref_object_dispose_.75136
+- ___Block_byref_object_dispose_.90448
+- ___ChronoServicesLibraryCore_block_invoke.123622
+- ___ContactsLibraryCore_block_invoke.111061
+- ___ContactsLibraryCore_block_invoke.33524
+- ___ContactsLibraryCore_block_invoke.45498
+- ___ContactsLibraryCore_block_invoke.60885
+- ___CoreGraphicsLibraryCore_block_invoke.136664
+- ___CoreSpotlightLibraryCore_block_invoke.59715
+- ___CoreSpotlightLibraryCore_block_invoke.79773
+- ___HealthKitLibraryCore_block_invoke.95480
+- ___IntentsUILibraryCore_block_invoke.83645
+- ___LinkServicesLibraryCore_block_invoke.165971
+- ___VoiceShortcutClientLibraryCore_block_invoke.112997
+- ___VoiceShortcutClientLibraryCore_block_invoke.123545
+- ___block_literal_global.10.103450
+- ___block_literal_global.10.54968
+- ___block_literal_global.100.75130
+- ___block_literal_global.100268
+- ___block_literal_global.100444
+- ___block_literal_global.103440
+- ___block_literal_global.104585
+- ___block_literal_global.105601
+- ___block_literal_global.11.111704
+- ___block_literal_global.111732
+- ___block_literal_global.119828
+- ___block_literal_global.12.158243
+- ___block_literal_global.123644
+- ___block_literal_global.13.103452
+- ___block_literal_global.13.98757
+- ___block_literal_global.158231
+- ___block_literal_global.21.59681
+- ___block_literal_global.270
+- ___block_literal_global.3.111703
+- ___block_literal_global.34331
+- ___block_literal_global.37095
+- ___block_literal_global.37485
+- ___block_literal_global.40166
+- ___block_literal_global.40670
+- ___block_literal_global.42336
+- ___block_literal_global.43254
+- ___block_literal_global.43505
+- ___block_literal_global.44412
+- ___block_literal_global.47515
+- ___block_literal_global.5.94134
+- ___block_literal_global.53411
+- ___block_literal_global.53983
+- ___block_literal_global.54538
+- ___block_literal_global.54952
+- ___block_literal_global.59721
+- ___block_literal_global.6.111715
+- ___block_literal_global.6.72041
+- ___block_literal_global.60742
+- ___block_literal_global.62270
+- ___block_literal_global.66717
+- ___block_literal_global.68330
+- ___block_literal_global.68447
+- ___block_literal_global.69066
+- ___block_literal_global.70469
+- ___block_literal_global.71231
+- ___block_literal_global.71975
+- ___block_literal_global.72037
+- ___block_literal_global.74993
+- ___block_literal_global.77360
+- ___block_literal_global.82.66711
+- ___block_literal_global.82368
+- ___block_literal_global.91.71976
+- ___block_literal_global.91415
+- ___block_literal_global.92274
+- ___block_literal_global.94158
+- ___block_literal_global.98768
+- ___getAFPreferencesClass_block_invoke.54942
+- ___getCGColorCreateSRGBSymbolLoc_block_invoke.136709
+- ___getCGColorGetComponentsSymbolLoc_block_invoke.136657
+- ___getCNContactEmailAddressesKeySymbolLoc_block_invoke.33528
+- ___getCNContactPhoneNumbersKeySymbolLoc_block_invoke.33531
+- ___getCNLabeledValueClass_block_invoke.60901
+- ___getCNPostalAddressClass_block_invoke.111059
+- ___getCSSearchableIndexClass_block_invoke.59713
+- ___getCSSearchableItemAttributeSetClass_block_invoke.79771
+- ___getHKUnitClass_block_invoke.95478
+- _audit_stringAssistantServices.54949
+- _audit_stringChronoServices.123627
+- _audit_stringContacts.111066
+- _audit_stringContacts.33526
+- _audit_stringContacts.45500
+- _audit_stringContacts.60888
+- _audit_stringCoreGraphics.136666
+- _audit_stringCoreSpotlight.59720
+- _audit_stringCoreSpotlight.79778
+- _audit_stringHealthKit.95485
+- _audit_stringLinkServices.165976
+- _audit_stringVoiceShortcutClient.113002
+- _audit_stringVoiceShortcutClient.123550
+- _getAFPreferencesClass.softClass.54941
+- _getCGColorCreateSRGBSymbolLoc.ptr.136708
+- _getCGColorGetComponentsSymbolLoc.ptr.136656
+- _getCNContactEmailAddressesKeySymbolLoc.ptr.33527
+- _getCNContactPhoneNumbersKeySymbolLoc.ptr.33530
+- _getCNLabeledValueClass.60866
+- _getCNLabeledValueClass.softClass.60900
+- _getCNPostalAddressClass.softClass.111058
+- _getCSSearchableIndexClass.softClass.59712
+- _getCSSearchableItemAttributeSetClass.softClass.79770
+- _getHKUnitClass.95476
+- _getHKUnitClass.softClass.95477
+- _intentDescription.intentDescription.39161
+- _intentDescription.intentDescription.42684
+- _intentDescription.intentDescription.64206
+- _intentDescription.intentDescription.68448
+- _intentDescription.onceToken.39160
+- _intentDescription.onceToken.42683
+- _intentDescription.onceToken.64205
+- _intentDescription.onceToken.68446
+- _objc_msgSend$dataDetectorWithTypes:error:
+- _serviceIdentifier.onceToken.83618
+- _serviceIdentifier.sServiceIdentifier.83619
+- _sharedCache.onceToken.82367
+- _sharedManager.onceToken.123643
+- _sharedManager.onceToken.59711
+- _sharedManager.sharedManager.123645
+- _sharedProvider.onceToken.158242
+CStrings:
++ "_intents_readableHandleWithLocalizer:metadata:"
++ "autoupdatingCurrentLocale"
+- "dataDetectorWithTypes:error:"
+
+```

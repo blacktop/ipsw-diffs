@@ -1,0 +1,77 @@
+## FitnessRemoteBrowsing
+
+> `/System/Library/PrivateFrameworks/FitnessRemoteBrowsing.framework/FitnessRemoteBrowsing`
+
+```diff
+
+-1161.0.0.0.0
+-  __TEXT.__text: 0xd734
+-  __TEXT.__auth_stubs: 0x760
+-  __TEXT.__const: 0x2204
+-  __TEXT.__swift5_typeref: 0x9a2
++2026.0.2.0.0
++  __TEXT.__text: 0xd84c
++  __TEXT.__auth_stubs: 0x7a0
++  __TEXT.__const: 0x2264
++  __TEXT.__swift5_typeref: 0xaaa
+   __TEXT.__cstring: 0x205
+   __TEXT.__constg_swiftt: 0x550
+   __TEXT.__swift5_reflstr: 0x3ab
+
+   __TEXT.__swift_as_ret: 0x20
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x630
++  __TEXT.__unwind_info: 0x638
+   __TEXT.__eh_frame: 0x900
+   __TEXT.__objc_methname: 0x65
+-  __DATA_CONST.__got: 0x118
++  __DATA_CONST.__got: 0x128
+   __DATA_CONST.__const: 0x90
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x3b0
++  __AUTH_CONST.__auth_got: 0x3d0
+   __AUTH_CONST.__const: 0x1038
+   __AUTH_CONST.__objc_const: 0x120
+   __AUTH.__data: 0x1b0
+-  __DATA.__data: 0x530
+-  __DATA.__bss: 0x3da0
++  __DATA.__data: 0x538
++  __DATA.__bss: 0x3db0
+   __DATA.__common: 0x18
+   __DATA_DIRTY.__bss: 0x180
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C7CA0A89-F4B6-3F12-9A0A-B33C50126289
+-  Functions: 558
+-  Symbols:   351
++  UUID: 3B73D4CC-7313-3952-806E-98E31B163A0C
++  Functions: 562
++  Symbols:   354
+   CStrings:  17
+ 
+Symbols:
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6HStackVyAA9TupleViewVyACyACyAA6VStackVyAGyACyAA4TextVAA14_OpacityEffectVG_ACyACyACyAkA30_EnvironmentKeyWritingModifierVySiSgGGAPyAA4FontVSgGGAMGtGGAA016_ForegroundStyleO0VyAA5ColorVGGAPyAA0I9AlignmentOGG_ACyAA5ImageVAA12_FrameLayoutVGtGGAA08_PaddingW0VGAA017_AppearanceActionO0VGAA0G0HPA19_AAA23_HPA16_AAA23_HPyHC_A18_AA0gO0HPyHCHC_A21_AAA24_HPyHCHC.4
++ _symbolic SiSg
++ _symbolic _____Sg 7SwiftUI4FontV
++ _symbolic _____yAAyAAy__________ySiSgGGACy_____SgGG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_OpacityEffectV
++ _symbolic _____yAAy_____y_____yAAyAAy_____yACyAAy__________G_AAyAAyAAyAE_____ySiSgGGAHy_____SgGGAFGtGG_____y_____GGAHy_____GG_AAy__________GtGG_____G_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA6VStackV AA4TextV AA14_OpacityEffectV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleO0V AA5ColorV AA0I9AlignmentO AA5ImageV AA12_FrameLayoutV AA08_PaddingW0V AA017_AppearanceActionO0V
++ _symbolic _____yAAy_____y_____yAAy__________G_AAyAAyAAyAD_____ySiSgGGAGy_____SgGGAEGtGG_____y_____GGAGy_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA14_OpacityEffectV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleN0V AA5ColorV AA0H9AlignmentO
++ _symbolic _____y_____yABy_____yAAyABy__________G_AByAByAByAD_____ySiSgGGAGy_____SgGGAEGtGG_____y_____GGAGy_____GG_ABy__________GtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA6VStackV AA4TextV AA14_OpacityEffectV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleN0V AA5ColorV AA0H9AlignmentO AA5ImageV AA12_FrameLayoutV
++ _symbolic _____y_____y__________G_AByAByAByAC_____ySiSgGGAFy_____SgGGADGtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA4TextV AA14_OpacityEffectV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____y_____yAAyAAy_____yACyAAy__________G_AAyAAyAAyAE_____ySiSgGGAHy_____SgGGAFGtGG_____y_____GGAHy_____GG_AAy__________GtGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA6VStackV AA4TextV AA14_OpacityEffectV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleO0V AA5ColorV AA0I9AlignmentO AA5ImageV AA12_FrameLayoutV AA08_PaddingW0V
++ _symbolic _____y_____y_____yACy_____yAByACy__________G_ACyACyACyAE_____ySiSgGGAHy_____SgGGAFGtGG_____y_____GGAHy_____GG_ACy__________GtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA6VStackV AA4TextV AA14_OpacityEffectV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleO0V AA5ColorV AA0I9AlignmentO AA5ImageV AA12_FrameLayoutV
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6HStackVyAA9TupleViewVyACyACyAA6VStackVyAGyACyAA4TextVAA14_OpacityEffectVG_ANtGGAA24_ForegroundStyleModifierVyAA5ColorVGGAA022_EnvironmentKeyWritingN0VyAA0I9AlignmentOGG_ACyAA5ImageVAA12_FrameLayoutVGtGGAA08_PaddingV0VGAA017_AppearanceActionN0VGAA0G0HPA10_AAA14_HPA7_AAA14_HPyHC_A9_AA0gN0HPyHCHC_A12_AAA15_HPyHCHC.4
+- _symbolic _____yAAy_____y_____yAAyAAy_____yACyAAy__________G_AGtGG_____y_____GG_____y_____GG_AAy__________GtGG_____G_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA6VStackV AA4TextV AA14_OpacityEffectV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingN0V AA0I9AlignmentO AA5ImageV AA12_FrameLayoutV AA08_PaddingV0V AA017_AppearanceActionN0V
+- _symbolic _____yAAy_____y_____yAAy__________G_AFtGG_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA14_OpacityEffectV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingM0V AA0H9AlignmentO
+- _symbolic _____y_____yABy_____yAAyABy__________G_AFtGG_____y_____GG_____y_____GG_ABy__________GtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA6VStackV AA4TextV AA14_OpacityEffectV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingM0V AA0H9AlignmentO AA5ImageV AA12_FrameLayoutV
+- _symbolic _____y_____y__________G_AEtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA4TextV AA14_OpacityEffectV
+- _symbolic _____y_____y_____yAAyAAy_____yACyAAy__________G_AGtGG_____y_____GG_____y_____GG_AAy__________GtGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA6VStackV AA4TextV AA14_OpacityEffectV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingN0V AA0I9AlignmentO AA5ImageV AA12_FrameLayoutV AA08_PaddingV0V
+- _symbolic _____y_____y_____yACy_____yAByACy__________G_AGtGG_____y_____GG_____y_____GG_ACy__________GtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA6VStackV AA4TextV AA14_OpacityEffectV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingN0V AA0I9AlignmentO AA5ImageV AA12_FrameLayoutV
+
+```

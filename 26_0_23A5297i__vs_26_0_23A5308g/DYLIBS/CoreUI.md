@@ -1,0 +1,153 @@
+## CoreUI
+
+> `/System/Library/PrivateFrameworks/CoreUI.framework/CoreUI`
+
+```diff
+
+-964.0.0.0.0
+-  __TEXT.__text: 0xc91ec
+-  __TEXT.__auth_stubs: 0x2bd0
++968.0.0.0.0
++  __TEXT.__text: 0xc9aa8
++  __TEXT.__auth_stubs: 0x2be0
+   __TEXT.__delay_stubs: 0x2c
+   __TEXT.__delay_helper: 0xa4
+-  __TEXT.__objc_methlist: 0xa278
+-  __TEXT.__const: 0x4ef0
+-  __TEXT.__gcc_except_tab: 0x1610
+-  __TEXT.__cstring: 0x2531b
++  __TEXT.__objc_methlist: 0xa298
++  __TEXT.__const: 0x4f00
++  __TEXT.__gcc_except_tab: 0x1614
++  __TEXT.__cstring: 0x2536b
+   __TEXT.__oslogstring: 0x200
+   __TEXT.__constg_swiftt: 0x33c
+   __TEXT.__swift5_typeref: 0x392
+
+   __TEXT.__swift5_capture: 0x15c
+   __TEXT.__swift5_proto: 0x20
+   __TEXT.__swift5_assocty: 0x58
+-  __TEXT.__unwind_info: 0x38b8
++  __TEXT.__unwind_info: 0x3900
+   __TEXT.__eh_frame: 0x130
+   __TEXT.__objc_classname: 0x10e8
+-  __TEXT.__objc_methname: 0x162b4
+-  __TEXT.__objc_methtype: 0x5f7b
+-  __TEXT.__objc_stubs: 0xe7e0
++  __TEXT.__objc_methname: 0x16350
++  __TEXT.__objc_methtype: 0x5f9b
++  __TEXT.__objc_stubs: 0xe820
+   __DATA_CONST.__got: 0x9e0
+   __DATA_CONST.__const: 0xe840
+   __DATA_CONST.__objc_classlist: 0x500
+   __DATA_CONST.__objc_catlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4f08
++  __DATA_CONST.__objc_selrefs: 0x4f20
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x4a8
+   __DATA_CONST.__objc_arraydata: 0xbc0
+-  __AUTH_CONST.__auth_got: 0x1608
++  __AUTH_CONST.__auth_got: 0x1610
+   __AUTH_CONST.__const: 0x3150
+   __AUTH_CONST.__cfstring: 0x11f40
+-  __AUTH_CONST.__objc_const: 0xef98
++  __AUTH_CONST.__objc_const: 0xefe8
+   __AUTH_CONST.__objc_intobj: 0x2d0
+   __AUTH_CONST.__objc_doubleobj: 0x20
+   __AUTH_CONST.__objc_arrayobj: 0x168
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__objc_floatobj: 0x20
+-  __AUTH.__objc_data: 0x23d0
++  __AUTH.__objc_data: 0x22e0
+   __AUTH.__data: 0x128
+-  __DATA.__objc_ivar: 0xbfc
++  __DATA.__objc_ivar: 0xc04
+   __DATA.__data: 0x77c
+-  __DATA.__bss: 0x848
+   __DATA.__common: 0x8
+-  __DATA_DIRTY.__objc_data: 0xeb0
++  __DATA.__bss: 0x7a8
++  __DATA_DIRTY.__objc_data: 0xfa0
+   __DATA_DIRTY.__crash_info: 0x148
+-  __DATA_DIRTY.__bss: 0x318
++  __DATA_DIRTY.__bss: 0x3b8
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 09AC1A40-DAC0-32E9-9CB7-561F379BDE1E
+-  Functions: 5294
+-  Symbols:   15804
+-  CStrings:  12098
++  UUID: AC009866-FAC1-3C7A-8B5F-02D842C8B8F6
++  Functions: 5307
++  Symbols:   15843
++  CStrings:  12110
+ 
+Symbols:
++ -[CUICommonAssetStorage facetValueNameDict]
++ -[CUICommonAssetStorage facetValueNameMap]
++ -[CUICommonAssetStorage setFacetValueNameDict:]
++ -[_CUIGraphicVariantVectorGlyph _createContentEffectsForTargetSize:scale:contentEffectStyle:]
++ _OBJC_IVAR_$_CUICatalog._skipLocalCaches
++ _OBJC_IVAR_$_CUICommonAssetStorage._facetValueNameDict
++ __ZN2RB4Path10ClipStroke12_GLOBAL__N_111BisectState7replaceERNS0_7SubpathERNSt3__14spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEE
++ __ZN2RB4Path10ClipStroke12_GLOBAL__N_111BisectState9cut_rangeERKNS0_7SubpathEffNSt3__14spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEEmj
++ __ZN2RB4Path10ClipStroke12_GLOBAL__N_111BisectStateD1Ev
++ __ZN2RB4Path10ClipStroke12_GLOBAL__N_121make_single_keyframesENSt3__14spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEERKNS0_7SubpathERNS3_6vectorINS1_14SingleKeyframeENS3_9allocatorISC_EEEERNS2_17KeyframesMetadataE
++ __ZN2RB4Path10ClipStroke9Transform12emit_cornersERNS0_7SubpathENSt3__14spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEERNS5_6vectorINS1_14SingleKeyframeENS5_9allocatorISB_EEEEPKS3_SH_
++ __ZN2RB4Path10ClipStroke9Transform15emit_bisectionsERNS0_7SubpathENSt3__14spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEERNS5_6vectorINS1_14SingleKeyframeENS5_9allocatorISB_EEEEPKS3_SH_
++ __ZN2RB4Path10ClipStroke9Transform17subpath_keyframesENSt3__14spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEE
++ __ZN2RB4Path10ClipStroke9Transform4emitERNS0_7SubpathENSt3__14spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEEjRNS5_6vectorINS1_14SingleKeyframeENS5_9allocatorISB_EEEEPKS3_SH_
++ __ZN2RB4Path10ClipStroke9Transform7ClipperD2Ev
++ __ZN2RB4Path10ClipStroke9TransformC1ERNS0_8ConsumerEjffNS0_7LineCapENSt3__14spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEENS7_IKNS1_16SubpathTransformELm18446744073709551615EEEPNS6_6vectorINS1_11RecordedCapENS6_9allocatorISF_EEEE
++ __ZN2RB4Path10ClipStroke9TransformC2ERNS0_8ConsumerEjffNS0_7LineCapENSt3__14spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEENS7_IKNS1_16SubpathTransformELm18446744073709551615EEEPNS6_6vectorINS1_11RecordedCapENS6_9allocatorISF_EEEE
++ __ZNK2RB4Path10ClipStroke9Transform10record_capEDv2_dS3_RNSt3__16vectorIjNS4_9allocatorIjEEEE
++ __ZNK2RB4Path7Subpath21end_point_and_tangentEv
++ __ZNK2RB4Path7Subpath21end_point_and_tangentEv.cold.1
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB4Path10ClipStroke12_GLOBAL__N_121make_single_keyframesENS_4spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEERKNS3_7SubpathERNS_6vectorINS4_14SingleKeyframeENS_9allocatorISE_EEEERNS5_17KeyframesMetadataEE3$_0PSE_Lb0EEEvT1_SO_T0_NS_15iterator_traitsISO_E15difference_typeEb
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN2RB4Path10ClipStroke11RecordedCapEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERZN2RB4Path10ClipStroke12_GLOBAL__N_121make_single_keyframesENS_4spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEERKNS3_7SubpathERNS_6vectorINS4_14SingleKeyframeENS_9allocatorISE_EEEERNS5_17KeyframesMetadataEE3$_0PSE_EEbT1_SO_T0_
++ __ZNSt3__16__sortIRNS_6__lessIjjEEPjEEvT0_S5_T_
++ __ZNSt3__16vectorIN2RB4Path10ClipStroke11RecordedCapENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE9push_backB8ne200100ERKj
++ __ZNSt3__17__sort5B8ne200100INS_17_ClassicAlgPolicyERZN2RB4Path10ClipStroke12_GLOBAL__N_121make_single_keyframesENS_4spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEERKNS3_7SubpathERNS_6vectorINS4_14SingleKeyframeENS_9allocatorISE_EEEERNS5_17KeyframesMetadataEE3$_0PSE_Li0EEEvT1_SO_SO_SO_SO_T0_
++ ___block_literal_global.554
++ _objc_msgSend$facetValueNameDict
++ _objc_msgSend$facetValueNameMap
+- -[_CUIGraphicVariantVectorGlyph _createContentEffectsForTargetSize:scale:]
+- __ZN2RB4Path10ClipStroke12_GLOBAL__N_121make_single_keyframesENSt3__14spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEERKNS0_7SubpathERNS3_6vectorINS1_14SingleKeyframeENS3_9allocatorISC_EEEERfSH_Rd
+- __ZN2RB4Path10ClipStroke9Transform7ClipperC2ERKS2_RKNS0_7SubpathEPS7_S9_NSt3__14spanINS1_14SingleKeyframeELm18446744073709551615EEEDv2_fd.cold.1
+- __ZN2RB4Path10ClipStroke9Transform7ClipperC2ERKS2_RKNS0_7SubpathEPS7_S9_NSt3__14spanINS1_14SingleKeyframeELm18446744073709551615EEEDv2_fd.cold.2
+- __ZN2RB4Path10ClipStroke9Transform7ClipperC2ERKS2_RKNS0_7SubpathEPS7_S9_NSt3__14spanINS1_14SingleKeyframeELm18446744073709551615EEEDv2_fd.cold.3
+- __ZN2RB4Path10ClipStroke9Transform7subpathERNS0_7SubpathENSt3__14spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEE
+- __ZN2RB4Path10ClipStroke9TransformC1ERNS0_8ConsumerEjffNS0_7LineCapENSt3__14spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEE
+- __ZN2RB4Path10ClipStroke9TransformC2ERNS0_8ConsumerEjffNS0_7LineCapENSt3__14spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB4Path10ClipStroke12_GLOBAL__N_121make_single_keyframesENS_4spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEERKNS3_7SubpathERNS_6vectorINS4_14SingleKeyframeENS_9allocatorISE_EEEERfSJ_RdE3$_0PSE_Lb0EEEvT1_SO_T0_NS_15iterator_traitsISO_E15difference_typeEb
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERZN2RB4Path10ClipStroke12_GLOBAL__N_121make_single_keyframesENS_4spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEERKNS3_7SubpathERNS_6vectorINS4_14SingleKeyframeENS_9allocatorISE_EEEERfSJ_RdE3$_0PSE_EEbT1_SO_T0_
+- __ZNSt3__17__sort5B8ne200100INS_17_ClassicAlgPolicyERZN2RB4Path10ClipStroke12_GLOBAL__N_121make_single_keyframesENS_4spanIK24CGPathClipStrokeKeyframeLm18446744073709551615EEERKNS3_7SubpathERNS_6vectorINS4_14SingleKeyframeENS_9allocatorISE_EEEERfSJ_RdE3$_0PSE_Li0EEEvT1_SO_SO_SO_SO_T0_
+- ___block_literal_global.553
+CStrings:
++ "!(all_flags & bisection_flag)"
++ "!_values.empty()"
++ "@48@0:8{CGSize=dd}16^d32q40"
++ "T@\"NSDictionary\",N,V_facetValueNameDict"
++ "_createContentEffectsForTargetSize:scale:contentEffectStyle:"
++ "_facetValueNameDict"
++ "_skipLocalCaches"
++ "b27"
++ "emit_bisections"
++ "end_point_and_tangent"
++ "facetValueNameDict"
++ "facetValueNameMap"
++ "setFacetValueNameDict:"
+- "_createContentEffectsForTargetSize:scale:"
+
+```

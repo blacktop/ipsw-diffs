@@ -1,0 +1,115 @@
+## _MusicKit_SwiftUI
+
+> `/System/Library/Frameworks/_MusicKit_SwiftUI.framework/_MusicKit_SwiftUI`
+
+```diff
+
+-4025.100.87.0.0
+-  __TEXT.__text: 0x1fc0c
++4025.100.93.0.0
++  __TEXT.__text: 0x20470
+   __TEXT.__auth_stubs: 0x1390
+   __TEXT.__objc_methlist: 0x5f4
+-  __TEXT.__const: 0x1f36
++  __TEXT.__const: 0x1fa6
+   __TEXT.__cstring: 0x17bd
+-  __TEXT.__constg_swiftt: 0xb74
+-  __TEXT.__swift5_typeref: 0xed8
+-  __TEXT.__swift5_fieldmd: 0x974
++  __TEXT.__constg_swiftt: 0xbc0
++  __TEXT.__swift5_typeref: 0xf5c
++  __TEXT.__swift5_fieldmd: 0x9a8
+   __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_reflstr: 0x83a
+-  __TEXT.__swift5_assocty: 0x1b8
+-  __TEXT.__swift5_proto: 0x164
+-  __TEXT.__swift5_types: 0xc0
++  __TEXT.__swift5_reflstr: 0x88a
++  __TEXT.__swift5_assocty: 0x1d0
++  __TEXT.__swift5_proto: 0x168
++  __TEXT.__swift5_types: 0xc4
+   __TEXT.__oslogstring: 0x4ef
+   __TEXT.__swift5_capture: 0x288
+   __TEXT.__swift5_protos: 0x10
+   __TEXT.__swift_as_entry: 0x14
+   __TEXT.__swift_as_ret: 0x14
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0xbd8
++  __TEXT.__unwind_info: 0xc00
+   __TEXT.__eh_frame: 0x678
+   __TEXT.__objc_classname: 0x189
+-  __TEXT.__objc_methname: 0x1087
++  __TEXT.__objc_methname: 0x1096
+   __TEXT.__objc_methtype: 0x558
+   __TEXT.__objc_stubs: 0x1e0
+   __DATA_CONST.__got: 0x320
+
+   __DATA_CONST.__objc_classlist: 0x68
+   __DATA_CONST.__objc_protolist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x518
++  __DATA_CONST.__objc_selrefs: 0x520
+   __DATA_CONST.__objc_protorefs: 0x48
+   __DATA_CONST.__objc_superrefs: 0x18
+   __AUTH_CONST.__auth_got: 0x9d0
+-  __AUTH_CONST.__const: 0x1680
++  __AUTH_CONST.__const: 0x1860
+   __AUTH_CONST.__cfstring: 0x200
+   __AUTH_CONST.__objc_const: 0xe18
+   __AUTH.__objc_data: 0x608
+   __AUTH.__data: 0x320
+   __DATA.__objc_ivar: 0x30
+-  __DATA.__data: 0x9e0
++  __DATA.__data: 0xa10
+   __DATA.__bss: 0x1fc0
+   __DATA.__common: 0x80
+   __DATA_DIRTY.__objc_data: 0xa0
+-  __DATA_DIRTY.__data: 0x8b0
+-  __DATA_DIRTY.__bss: 0xb00
++  __DATA_DIRTY.__data: 0x8d0
++  __DATA_DIRTY.__bss: 0xb80
+   __DATA_DIRTY.__common: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 59872B6D-246D-3029-A498-009EE12ED12C
+-  Functions: 1238
+-  Symbols:   1082
+-  CStrings:  439
++  UUID: 143E7992-6394-3549-80A8-8F0E289D6CA6
++  Functions: 1261
++  Symbols:   1092
++  CStrings:  440
+ 
+Symbols:
++ ___swift_memcpy17_8
++ ___swift_memcpy8_8
++ _associated conformance 17_MusicKit_SwiftUI12ArtworkFrame33_BF44B393294B0EEF9E43DE449B2B09FBLLV0cD012ViewModifierAA4BodyAeFP_AE0P0
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaDRd__lFQOyAeAE0I6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAeAEAnoP_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAeAEAnoP_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA01_e9Modifier_D0Vy010_MusicKit_aB00Q17SubscriptionOfferV017SheetPresentationP033_0F8ED255D826A66EB1861BB1DC154C13LLVG_AX0V7ContextVQo__AU18FailureAlertReasonOSgQo__AS017CloudServiceSetupE0V0V5StateOQo__ACyA6_AA30_SafeAreaRegionsIgnoringLayoutVGQo_AU012FailureAlertP0VGAaDHPqd0__AaDHD3_A13_HO_A15_AA0eP0HPyHCHC.28
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA11_ClipEffectVyAA9RectangleVGGAA45_AccessibilityIgnoresInvertColorsViewModifierVG010_MusicKit_aB012ArtworkFrame33_BF44B393294B0EEF9E43DE449B2B09FBLLVGAA011_BackgroundQ0VyAA5ColorVSgGGAA018_PreferenceWritingQ0VyAR0tE0V18ProxyPreferenceKeyVGGAA0P0HPA1_AAA10_HPAvAA10_HPAqAA10_HPAnAA10_HPAhAA10_HPAeAA10_HPyHC_AgA0pQ0HPyHCHC_AmAA11_HPyHCHC_ApAA11_HPyHCHC_AuAA11_HPyHCHC_A0_AAA11_HPyHCHC_A8_AAA11_HPyHCHC.21
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy010_MusicKit_aB012ArtworkFrame33_BF44B393294B0EEF9E43DE449B2B09FBLLVGAA01_K6LayoutVGALGAA0F0HPAoaQHPAlaQHPyHC_AnA0fG0HPyHCHC_AlaQHPyHCHC.22
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx010_MusicKit_aB00F17SubscriptionOfferV25SheetPresentationModifier33_0F8ED255D826A66EB1861BB1DC154C13LLVGAaBHPxAaBHD1__AjA0cL0HPyHCHC.5
++ _objectdestroy.17Tm
++ _symbolic _____ 17_MusicKit_SwiftUI12ArtworkFrame33_BF44B393294B0EEF9E43DE449B2B09FBLLV
++ _symbolic _____yAAyAAyAAyAAyAAy__________G_____y_____GG_____G_____G_____y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA11_ClipEffectV AA9RectangleV AA45_AccessibilityIgnoresInvertColorsViewModifierV 010_MusicKit_aB012ArtworkFrame33_BF44B393294B0EEF9E43DE449B2B09FBLLV AA011_BackgroundQ0V AA5ColorV AA018_PreferenceWritingQ0V AN0tE0V18ProxyPreferenceKeyV
++ _symbolic _____yAAyAAyAAyAAy__________G_____y_____GG_____G_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA11_ClipEffectV AA9RectangleV AA45_AccessibilityIgnoresInvertColorsViewModifierV 010_MusicKit_aB012ArtworkFrame33_BF44B393294B0EEF9E43DE449B2B09FBLLV AA011_BackgroundQ0V AA5ColorV
++ _symbolic _____yAAyAAyAAy__________G_____y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA11_ClipEffectV AA9RectangleV AA45_AccessibilityIgnoresInvertColorsViewModifierV 010_MusicKit_aB012ArtworkFrame33_BF44B393294B0EEF9E43DE449B2B09FBLLV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 010_MusicKit_aB012ArtworkFrame33_BF44B393294B0EEF9E43DE449B2B09FBLLV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 010_MusicKit_aB012ArtworkFrame33_BF44B393294B0EEF9E43DE449B2B09FBLLV AA01_J6LayoutV
++ _symbolic _____y_____y_____y_____G_____GAEG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 010_MusicKit_aB012ArtworkFrame33_BF44B393294B0EEF9E43DE449B2B09FBLLV AA01_K6LayoutV
++ _symbolic _____y_____y_____y_____G_____GAE_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 010_MusicKit_aB012ArtworkFrame33_BF44B393294B0EEF9E43DE449B2B09FBLLV AA01_L6LayoutV
++ _type_layout_string 17_MusicKit_SwiftUI12ArtworkFrame33_BF44B393294B0EEF9E43DE449B2B09FBLLV
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaDRd__lFQOyAeAE0I6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAeAEAnoP_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAeAEAnoP_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA01_e9Modifier_D0Vy010_MusicKit_aB00Q17SubscriptionOfferV017SheetPresentationP033_0F8ED255D826A66EB1861BB1DC154C13LLVG_AX0V7ContextVQo__AU18FailureAlertReasonOSgQo__AS017CloudServiceSetupE0V0V5StateOQo__ACyA6_AA30_SafeAreaRegionsIgnoringLayoutVGQo_AU012FailureAlertP0VGAaDHPqd0__AaDHD3_A13_HO_A15_AA0eP0HPyHCHC.24
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA11_ClipEffectVyAA9RectangleVGGAA45_AccessibilityIgnoresInvertColorsViewModifierVGAA06_FrameH0VGAA011_BackgroundQ0VyAA5ColorVSgGGAA018_PreferenceWritingQ0Vy010_MusicKit_aB007ArtworkE0V05ProxyU3KeyVGGAA0P0HPA_AAA9_HPAtAA9_HPAqAA9_HPAnAA9_HPAhAA9_HPAeAA9_HPyHC_AgA0pQ0HPyHCHC_AmAA10_HPyHCHC_ApAA10_HPyHCHC_AsAA10_HPyHCHC_AzAA10_HPyHCHC_A7_AAA10_HPyHCHC.17
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx010_MusicKit_aB00F17SubscriptionOfferV25SheetPresentationModifier33_0F8ED255D826A66EB1861BB1DC154C13LLVGAaBHPxAaBHD1__AjA0cL0HPyHCHC.1
+- _objectdestroy.13Tm
+- _symbolic _____yAAyAAyAAyAAyAAy__________G_____y_____GG_____G_____G_____y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA11_ClipEffectV AA9RectangleV AA45_AccessibilityIgnoresInvertColorsViewModifierV AA06_FrameH0V AA011_BackgroundQ0V AA5ColorV AA018_PreferenceWritingQ0V 010_MusicKit_aB007ArtworkE0V05ProxyU3KeyV
+- _symbolic _____yAAyAAyAAyAAy__________G_____y_____GG_____G_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA11_ClipEffectV AA9RectangleV AA45_AccessibilityIgnoresInvertColorsViewModifierV AA06_FrameH0V AA011_BackgroundQ0V AA5ColorV
+- _symbolic _____yAAyAAyAAy__________G_____y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA11_ClipEffectV AA9RectangleV AA45_AccessibilityIgnoresInvertColorsViewModifierV AA06_FrameH0V
+CStrings:
++ "setRenderHint:"
+
+```

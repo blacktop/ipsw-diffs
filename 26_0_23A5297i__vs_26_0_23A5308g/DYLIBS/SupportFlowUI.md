@@ -1,0 +1,125 @@
+## SupportFlowUI
+
+> `/System/Library/PrivateFrameworks/SupportFlowUI.framework/SupportFlowUI`
+
+```diff
+
+-32.0.0.0.0
+-  __TEXT.__text: 0x10cd8
++35.0.0.0.0
++  __TEXT.__text: 0x11ac8
+   __TEXT.__auth_stubs: 0xd60
+   __TEXT.__objc_methlist: 0x38c
+-  __TEXT.__const: 0x14d8
++  __TEXT.__const: 0x15e8
+   __TEXT.__cstring: 0x87c
+-  __TEXT.__swift5_typeref: 0x942
+-  __TEXT.__constg_swiftt: 0x968
+-  __TEXT.__swift5_reflstr: 0x29b
+-  __TEXT.__swift5_fieldmd: 0x468
+-  __TEXT.__swift5_capture: 0x10c
++  __TEXT.__swift5_typeref: 0xa42
++  __TEXT.__constg_swiftt: 0xaa8
++  __TEXT.__swift5_reflstr: 0x2bb
++  __TEXT.__swift5_fieldmd: 0x4b8
++  __TEXT.__swift5_capture: 0x140
+   __TEXT.__oslogstring: 0x175
+-  __TEXT.__swift5_types: 0x78
+-  __TEXT.__swift5_assocty: 0x110
++  __TEXT.__swift5_types: 0x80
++  __TEXT.__swift5_assocty: 0x140
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__swift5_proto: 0xd8
+-  __TEXT.__swift_as_entry: 0x1c
+-  __TEXT.__swift_as_ret: 0x10
++  __TEXT.__swift5_proto: 0xe0
++  __TEXT.__swift_as_entry: 0x20
++  __TEXT.__swift_as_ret: 0x14
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x7a0
+-  __TEXT.__eh_frame: 0x530
++  __TEXT.__unwind_info: 0x800
++  __TEXT.__eh_frame: 0x5d0
+   __TEXT.__objc_classname: 0x6d
+   __TEXT.__objc_methname: 0x74f
+   __TEXT.__objc_methtype: 0x247
+   __TEXT.__objc_stubs: 0x20
+-  __DATA_CONST.__got: 0x1c8
++  __DATA_CONST.__got: 0x1d0
+   __DATA_CONST.__const: 0xd8
+   __DATA_CONST.__objc_classlist: 0x38
+   __DATA_CONST.__objc_catlist: 0x8
+
+   __DATA_CONST.__objc_selrefs: 0x280
+   __DATA_CONST.__objc_protorefs: 0x30
+   __AUTH_CONST.__auth_got: 0x6b8
+-  __AUTH_CONST.__const: 0x9f0
++  __AUTH_CONST.__const: 0xc48
+   __AUTH_CONST.__cfstring: 0x20
+   __AUTH_CONST.__objc_const: 0x8c0
+   __AUTH.__objc_data: 0x540
+   __AUTH.__data: 0x3e0
+-  __DATA.__data: 0x708
++  __DATA.__data: 0x768
+   __DATA.__objc_stublist: 0x8
+   __DATA.__common: 0x18
+-  __DATA.__bss: 0x1ae0
++  __DATA.__bss: 0x1be0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D8C46E74-91C9-3BDD-9125-EF466A882137
+-  Functions: 706
+-  Symbols:   600
++  UUID: 03AABAA6-78D6-3396-A612-6F2CB3D7E12D
++  Functions: 754
++  Symbols:   636
+   CStrings:  186
+ 
+Symbols:
++ __PROTOCOLS__TtC13SupportFlowUIP33_2FF1053B602A1C99DA9867075A1A9B0728RemoteHandleObserverDelegate.16
++ _associated conformance 13SupportFlowUI20OnBackgroundModifier33_750130770D876F9AD2761B1FB97615DFLLV05SwiftC004ViewF0AA4BodyAeFP_AE0N0
++ _associated conformance 13SupportFlowUI21OnFirstAppearModifier33_750130770D876F9AD2761B1FB97615DFLLV05SwiftC004ViewG0AA4BodyAeFP_AE0O0
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy011SupportFlowB0013OnFirstAppearF033_750130770D876F9AD2761B1FB97615DFLLVGAA017_AppearanceActionF0VGAA0E0HPAjaNHPyHC_AlA0eF0HPyHCHC.74
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy011SupportFlowB006OnLoadF033_750130770D876F9AD2761B1FB97615DFLLVGAA05_TaskF0VGAA0E0HPAjaNHPyHC_AlA0eF0HPyHCHC.75
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA014_ViewModifier_D0Vy011SupportFlowB0019OnLoadAndForegroundF033_750130770D876F9AD2761B1FB97615DFLLVGAA08ModifiedD0VyALyAjF0ijF0AHLLVGAF0ilF0AHLLVGGAA0E0HPAjaTHPyHC_AraTHPAoaTHPAjaTHPyHC_AnA0eF0HPyHCHC_AqaUHPyHCHCHC.78
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA01_e9Modifier_D0Vy011SupportFlowB0012OnBackgroundJ033_750130770D876F9AD2761B1FB97615DFLLVG_AA10ScenePhaseOSgQo_AOGAaDHPqd0__AaDHD3_ASHO_AoaDHPyHCHC.77
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA01_e9Modifier_D0Vy011SupportFlowB0012OnForegroundJ033_750130770D876F9AD2761B1FB97615DFLLVG_AA10ScenePhaseOSgQo_AOGAaDHPqd0__AaDHD3_ASHO_AoaDHPyHCHC.76
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx011SupportFlowB014OnLoadModifier33_750130770D876F9AD2761B1FB97615DFLLVGAaBHPxAaBHD1__AhA0cJ0HPyHCHC.2
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx011SupportFlowB020OnBackgroundModifier33_750130770D876F9AD2761B1FB97615DFLLVGAaBHPxAaBHD1__AhA0cJ0HPyHCHC.4
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx011SupportFlowB020OnForegroundModifier33_750130770D876F9AD2761B1FB97615DFLLVGAaBHPxAaBHD1__AhA0cJ0HPyHCHC.3
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx011SupportFlowB021OnFirstAppearModifier33_750130770D876F9AD2761B1FB97615DFLLVGAaBHPxAaBHD1__AhA0cK0HPyHCHC.1
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx011SupportFlowB021OnFirstAppearModifier33_750130770D876F9AD2761B1FB97615DFLLVGAaBHPxAaBHD1__AhA0cK0HPyHCHCTm
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx011SupportFlowB027OnLoadAndForegroundModifier33_750130770D876F9AD2761B1FB97615DFLLVGAaBHPxAaBHD1__AhA0cL0HPyHCHC.5
++ _objectdestroy.20Tm
++ _objectdestroy.39Tm
++ _objectdestroy.42Tm
++ _objectdestroyTm
++ _symbolic _____ 13SupportFlowUI20OnBackgroundModifier33_750130770D876F9AD2761B1FB97615DFLLV
++ _symbolic _____ 13SupportFlowUI21OnFirstAppearModifier33_750130770D876F9AD2761B1FB97615DFLLV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 011SupportFlowB0012OnBackgroundD033_750130770D876F9AD2761B1FB97615DFLLV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 011SupportFlowB0013OnFirstAppearD033_750130770D876F9AD2761B1FB97615DFLLV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 011SupportFlowB0013OnFirstAppearF033_750130770D876F9AD2761B1FB97615DFLLV AA017_AppearanceActionF0V
++ _symbolic _____y_____y_____G______SgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA01_C16Modifier_ContentV 011SupportFlowB0012OnBackgroundH033_750130770D876F9AD2761B1FB97615DFLLV AA10ScenePhaseO
++ _symbolic _____y_____y_____y_____G______SgQo_ADG 7SwiftUI19_ConditionalContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA01_e9Modifier_D0V 011SupportFlowB0012OnBackgroundJ033_750130770D876F9AD2761B1FB97615DFLLV AA10ScenePhaseO
++ _symbolic _____y_____y_____y_____G______SgQo_AD_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA01_f9Modifier_D0V 011SupportFlowB0012OnBackgroundK033_750130770D876F9AD2761B1FB97615DFLLV AA10ScenePhaseO
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 011SupportFlowB020OnBackgroundModifier33_750130770D876F9AD2761B1FB97615DFLLV
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 011SupportFlowB021OnFirstAppearModifier33_750130770D876F9AD2761B1FB97615DFLLV
++ _symbolic yyc
++ _type_layout_string 13SupportFlowUI21OnFirstAppearModifier33_750130770D876F9AD2761B1FB97615DFLLV
+- __PROTOCOLS__TtC13SupportFlowUIP33_2FF1053B602A1C99DA9867075A1A9B0728RemoteHandleObserverDelegate.12
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy011SupportFlowB006OnLoadF033_750130770D876F9AD2761B1FB97615DFLLVGAA05_TaskF0VGAA0E0HPAjaNHPyHC_AlA0eF0HPyHCHC.48
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA014_ViewModifier_D0Vy011SupportFlowB0019OnLoadAndForegroundF033_750130770D876F9AD2761B1FB97615DFLLVGAA08ModifiedD0VyALyAjF0ijF0AHLLVGAF0ilF0AHLLVGGAA0E0HPAjaTHPyHC_AraTHPAoaTHPAjaTHPyHC_AnA0eF0HPyHCHC_AqaUHPyHCHCHC.50
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA01_e9Modifier_D0Vy011SupportFlowB0012OnForegroundJ033_750130770D876F9AD2761B1FB97615DFLLVG_AA10ScenePhaseOSgQo_AOGAaDHPqd0__AaDHD3_ASHO_AoaDHPyHCHC.49
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx011SupportFlowB014OnLoadModifier33_750130770D876F9AD2761B1FB97615DFLLVGAaBHPxAaBHD1__AhA0cJ0HPyHCHC.1
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx011SupportFlowB014OnLoadModifier33_750130770D876F9AD2761B1FB97615DFLLVGAaBHPxAaBHD1__AhA0cJ0HPyHCHCTm
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx011SupportFlowB020OnForegroundModifier33_750130770D876F9AD2761B1FB97615DFLLVGAaBHPxAaBHD1__AhA0cJ0HPyHCHC.2
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx011SupportFlowB027OnLoadAndForegroundModifier33_750130770D876F9AD2761B1FB97615DFLLVGAaBHPxAaBHD1__AhA0cL0HPyHCHC.3
+- _objectdestroy.16Tm
+
+```

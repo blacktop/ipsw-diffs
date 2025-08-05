@@ -1,0 +1,252 @@
+## libswiftCoreMedia.dylib
+
+> `/usr/lib/swift/libswiftCoreMedia.dylib`
+
+```diff
+
+-3255.73.1.11.3
+-  __TEXT.__text: 0x49ba0
++3255.77.2.11.2
++  __TEXT.__text: 0x49da0
+   __TEXT.__auth_stubs: 0x1f20
+   __TEXT.__const: 0x6780
+   __TEXT.__swift5_typeref: 0x18bd
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x10
+   __AUTH_CONST.__auth_got: 0xf90
+-  __AUTH_CONST.__const: 0x3d68
++  __AUTH_CONST.__const: 0x4c30
+   __AUTH_CONST.__objc_const: 0x270
+   __AUTH.__data: 0x360
+   __DATA.__data: 0x1b50
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CC724F2B-D516-39E6-99F9-4F6FBA404E09
+-  Functions: 3685
+-  Symbols:   11330
++  UUID: BE9F632E-E439-36CF-A916-F1BD493BEAF2
++  Functions: 3706
++  Symbols:   11562
+   CStrings:  53
+ 
+Symbols:
++ _$s9CoreMedia19CMReadySampleBufferVWV
++ _$s9CoreMedia19CMReadySampleBufferVwet
++ _$s9CoreMedia19CMReadySampleBufferVwst
++ _$s9CoreMedia25CMReadOnlyDataBlockBufferVWV
++ _$s9CoreMedia25CMReadOnlyDataBlockBufferVwet
++ _$s9CoreMedia25CMReadOnlyDataBlockBufferVwst
++ _$s9CoreMedia6CMSyncV5ErrorVWV
++ _$s9CoreMedia6CMSyncV5ErrorVwet
++ _$s9CoreMedia6CMSyncV5ErrorVwst
++ _$s9CoreMedia6CMSyncVWV
++ _$s9CoreMedia6CMSyncVwet
++ _$s9CoreMedia6CMSyncVwst
++ _$sSo10CMClockRefa9CoreMediaE5ErrorVWV
++ _$sSo10CMClockRefa9CoreMediaE5ErrorVwet
++ _$sSo10CMClockRefa9CoreMediaE5ErrorVwetTm
++ _$sSo10CMClockRefa9CoreMediaE5ErrorVwst
++ _$sSo10CMClockRefa9CoreMediaE5ErrorVwstTm
++ _$sSo13CMTimebaseRefa9CoreMediaE15NotificationKeyVWV
++ _$sSo13CMTimebaseRefa9CoreMediaE15NotificationKeyVwet
++ _$sSo13CMTimebaseRefa9CoreMediaE15NotificationKeyVwst
++ _$sSo13CMTimebaseRefa9CoreMediaE5ErrorVWV
++ _$sSo13CMTimebaseRefa9CoreMediaE5ErrorVwet
++ _$sSo13CMTimebaseRefa9CoreMediaE5ErrorVwst
++ _$sSo16CMBlockBufferRefa9CoreMediaE5ErrorVWV
++ _$sSo16CMBlockBufferRefa9CoreMediaE5ErrorVwet
++ _$sSo16CMBlockBufferRefa9CoreMediaE5ErrorVwst
++ _$sSo16CMBlockBufferRefa9CoreMediaE5FlagsVWV
++ _$sSo16CMBlockBufferRefa9CoreMediaE5FlagsVwet
++ _$sSo16CMBlockBufferRefa9CoreMediaE5FlagsVwst
++ _$sSo16CMBufferQueueRefa9CoreMediaE5ErrorVWV
++ _$sSo16CMBufferQueueRefa9CoreMediaE5ErrorVwet
++ _$sSo16CMBufferQueueRefa9CoreMediaE5ErrorVwst
++ _$sSo16CMBufferQueueRefa9CoreMediaE7BuffersVWV
++ _$sSo16CMBufferQueueRefa9CoreMediaE7BuffersVwet
++ _$sSo16CMBufferQueueRefa9CoreMediaE7BuffersVwst
++ _$sSo16CMSimpleQueueRefa9CoreMediaE5ErrorVWV
++ _$sSo16CMSimpleQueueRefa9CoreMediaE5ErrorVwet
++ _$sSo16CMSimpleQueueRefa9CoreMediaE5ErrorVwst
++ _$sSo17CMSampleBufferRefa9CoreMediaE13AttachmentKeyVWV
++ _$sSo17CMSampleBufferRefa9CoreMediaE13AttachmentKeyVwet
++ _$sSo17CMSampleBufferRefa9CoreMediaE13AttachmentKeyVwst
++ _$sSo17CMSampleBufferRefa9CoreMediaE15NotificationKeyVWV
++ _$sSo17CMSampleBufferRefa9CoreMediaE15NotificationKeyVwet
++ _$sSo17CMSampleBufferRefa9CoreMediaE15NotificationKeyVwst
++ _$sSo17CMSampleBufferRefa9CoreMediaE17SampleAttachmentsVWV
++ _$sSo17CMSampleBufferRefa9CoreMediaE17SampleAttachmentsVwet
++ _$sSo17CMSampleBufferRefa9CoreMediaE17SampleAttachmentsVwst
++ _$sSo17CMSampleBufferRefa9CoreMediaE19SingleSampleBuffersVWV
++ _$sSo17CMSampleBufferRefa9CoreMediaE19SingleSampleBuffersVwet
++ _$sSo17CMSampleBufferRefa9CoreMediaE19SingleSampleBuffersVwst
++ _$sSo17CMSampleBufferRefa9CoreMediaE30PerSampleAttachmentsDictionaryV3KeyVWV
++ _$sSo17CMSampleBufferRefa9CoreMediaE30PerSampleAttachmentsDictionaryV3KeyVwet
++ _$sSo17CMSampleBufferRefa9CoreMediaE30PerSampleAttachmentsDictionaryV3KeyVwetTm
++ _$sSo17CMSampleBufferRefa9CoreMediaE30PerSampleAttachmentsDictionaryV3KeyVwst
++ _$sSo17CMSampleBufferRefa9CoreMediaE30PerSampleAttachmentsDictionaryV3KeyVwstTm
++ _$sSo17CMSampleBufferRefa9CoreMediaE5ErrorVWV
++ _$sSo17CMSampleBufferRefa9CoreMediaE5ErrorVwet
++ _$sSo17CMSampleBufferRefa9CoreMediaE5ErrorVwst
++ _$sSo17CMSampleBufferRefa9CoreMediaE5FlagsVWV
++ _$sSo17CMSampleBufferRefa9CoreMediaE5FlagsVwet
++ _$sSo17CMSampleBufferRefa9CoreMediaE5FlagsVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE0E4TypeVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE0E4TypeVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE0E4TypeVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE0E7SubTypeVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE0E7SubTypeVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE0E7SubTypeVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV3KeyVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV3KeyVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV3KeyVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV11FieldDetailVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV11FieldDetailVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV11FieldDetailVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV11YCbCrMatrixVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV11YCbCrMatrixVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV11YCbCrMatrixVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV14ChromaLocationVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV14ChromaLocationVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV14ChromaLocationVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV14ColorPrimariesVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV14ColorPrimariesVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV14ColorPrimariesVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV14ProjectionKindVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV14ProjectionKindVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV14ProjectionKindVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV15ViewPackingKindVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV15ViewPackingKindVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV15ViewPackingKindVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV16AlphaChannelModeVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV16AlphaChannelModeVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV16AlphaChannelModeVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV16TextDisplayFlagsVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV16TextDisplayFlagsVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV16TextDisplayFlagsVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV16TransferFunctionVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV16TransferFunctionVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV16TransferFunctionVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV17MPEG2VideoProfileVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV17MPEG2VideoProfileVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV17MPEG2VideoProfileVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV17TextJustificationVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV17TextJustificationVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV17TextJustificationVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV6VendorVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV6VendorVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV6VendorVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV7HeroEyeVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV7HeroEyeVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV7HeroEyeVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV8FontFaceVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV8FontFaceVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV8FontFaceVwetTm
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV8FontFaceVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV8FontFaceVwstTm
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsVwetTm
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsVwstTm
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE12EqualityMaskVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE12EqualityMaskVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE12EqualityMaskVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE22ParameterSetCollectionVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE22ParameterSetCollectionVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE22ParameterSetCollectionVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE5ErrorVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE5ErrorVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE5ErrorVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE8TimeCodeV4FlagVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE8TimeCodeV4FlagVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE8TimeCodeV4FlagVwst
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE8TimeCodeVWV
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE8TimeCodeVwet
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE8TimeCodeVwst
++ _$syXlSbIeggd_yXlSbIegnr_TRTA.149
++ _$syXlSiIeggd_yXlSiIegnr_TRTA.129
++ _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.153
++ _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.161
++ _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.165
++ _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.173
++ _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.177
++ _$syXlSo6CMTimeaIegnr_yXlABIeggd_TRTA.157
++ _$syXlSo6CMTimeaIegnr_yXlABIeggd_TRTA.169
++ _$syXlyXlSo18CFComparisonResultVIegggd_yXlyXlABIegnnr_TRTA.139
++ ___swift_memcpy4_4
++ ___swift_memcpy8_8
++ _block_copy_helper.76
++ _block_copy_helper.78
++ _block_copy_helper.79
++ _block_copy_helper.81
++ _block_copy_helper.82
++ _block_copy_helper.84
++ _block_copy_helper.87
++ _block_copy_helper.90
++ _block_copy_helper.93
++ _block_descriptor.78
++ _block_descriptor.80
++ _block_descriptor.81
++ _block_descriptor.83
++ _block_descriptor.84
++ _block_descriptor.86
++ _block_descriptor.89
++ _block_descriptor.92
++ _block_descriptor.95
++ _block_destroy_helper.77
++ _block_destroy_helper.79
++ _block_destroy_helper.80
++ _block_destroy_helper.82
++ _block_destroy_helper.83
++ _block_destroy_helper.85
++ _block_destroy_helper.88
++ _block_destroy_helper.91
++ _block_destroy_helper.94
+- _$s9CoreMedia19CMReadySampleBufferVA2A019CMReadOnlyDataBlockE0VRszrlE7contentAEvpACyAEGTK
+- _$sBi8_WV
+- _$syXlSbIeggd_yXlSbIegnr_TRTA.139
+- _$syXlSiIeggd_yXlSiIegnr_TRTA.119
+- _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.143
+- _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.151
+- _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.155
+- _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.163
+- _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.167
+- _$syXlSo6CMTimeaIegnr_yXlABIeggd_TRTA.147
+- _$syXlSo6CMTimeaIegnr_yXlABIeggd_TRTA.159
+- _$syXlyXlSo18CFComparisonResultVIegggd_yXlyXlABIegnnr_TRTA.129
+- _block_copy_helper.45
+- _block_copy_helper.48
+- _block_copy_helper.51
+- _block_copy_helper.68
+- _block_copy_helper.71
+- _block_copy_helper.74
+- _block_copy_helper.77
+- _block_copy_helper.80
+- _block_copy_helper.83
+- _block_descriptor.47
+- _block_descriptor.50
+- _block_descriptor.53
+- _block_descriptor.70
+- _block_descriptor.73
+- _block_descriptor.76
+- _block_descriptor.79
+- _block_descriptor.82
+- _block_descriptor.85
+- _block_destroy_helper.46
+- _block_destroy_helper.49
+- _block_destroy_helper.52
+- _block_destroy_helper.69
+- _block_destroy_helper.72
+- _block_destroy_helper.75
+- _block_destroy_helper.78
+- _block_destroy_helper.81
+- _block_destroy_helper.84
+
+```

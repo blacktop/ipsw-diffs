@@ -1,0 +1,873 @@
+## SafariShared
+
+> `/System/Library/PrivateFrameworks/SafariShared.framework/SafariShared`
+
+```diff
+
+-622.1.19.10.4
+-  __TEXT.__text: 0x1a9574
++622.1.21.10.3
++  __TEXT.__text: 0x19fa28
+   __TEXT.__auth_stubs: 0x20a0
+-  __TEXT.__objc_methlist: 0x13d8c
+-  __TEXT.__const: 0xa7b98
+-  __TEXT.__gcc_except_tab: 0x1f840
+-  __TEXT.__cstring: 0x1d730
++  __TEXT.__objc_methlist: 0x13864
++  __TEXT.__const: 0xa7d08
++  __TEXT.__gcc_except_tab: 0x1e5c8
++  __TEXT.__cstring: 0x1cde0
+   __TEXT.__ustring: 0xcbf8
+-  __TEXT.__oslogstring: 0x11ca2
++  __TEXT.__oslogstring: 0x110b2
+   __TEXT.__dlopen_cstrs: 0x25f
+   __TEXT.__constg_swiftt: 0x134
+   __TEXT.__swift5_typeref: 0xfc
+
+   __TEXT.__swift5_assocty: 0x60
+   __TEXT.__swift5_proto: 0x24
+   __TEXT.__swift5_types: 0x18
+-  __TEXT.__unwind_info: 0xb990
+-  __TEXT.__objc_classname: 0x34cd
+-  __TEXT.__objc_methname: 0x39fd0
+-  __TEXT.__objc_methtype: 0xa5d5
+-  __TEXT.__objc_stubs: 0x1f800
+-  __DATA_CONST.__got: 0x1610
+-  __DATA_CONST.__const: 0x15250
+-  __DATA_CONST.__objc_classlist: 0xbc8
++  __TEXT.__unwind_info: 0xb4f8
++  __TEXT.__objc_classname: 0x332f
++  __TEXT.__objc_methname: 0x391a8
++  __TEXT.__objc_methtype: 0xa360
++  __TEXT.__objc_stubs: 0x1f120
++  __DATA_CONST.__got: 0x15e8
++  __DATA_CONST.__const: 0x150f0
++  __DATA_CONST.__objc_classlist: 0xb80
+   __DATA_CONST.__objc_catlist: 0x98
+-  __DATA_CONST.__objc_protolist: 0x280
++  __DATA_CONST.__objc_protolist: 0x270
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xaf00
++  __DATA_CONST.__objc_selrefs: 0xad10
+   __DATA_CONST.__objc_protorefs: 0x90
+-  __DATA_CONST.__objc_superrefs: 0x930
++  __DATA_CONST.__objc_superrefs: 0x8f8
+   __DATA_CONST.__objc_arraydata: 0xad0
+   __AUTH_CONST.__auth_got: 0x1068
+-  __AUTH_CONST.__const: 0x34a0
+-  __AUTH_CONST.__cfstring: 0x197e0
+-  __AUTH_CONST.__objc_const: 0x23e60
++  __AUTH_CONST.__const: 0x3480
++  __AUTH_CONST.__cfstring: 0x19320
++  __AUTH_CONST.__objc_const: 0x23300
+   __AUTH_CONST.__objc_intobj: 0x738
+   __AUTH_CONST.__objc_arrayobj: 0x330
+   __AUTH_CONST.__objc_dictobj: 0x140
+   __AUTH_CONST.__objc_doubleobj: 0xa0
+-  __AUTH.__objc_data: 0x4700
++  __AUTH.__objc_data: 0x4480
+   __AUTH.__data: 0x188
+-  __DATA.__objc_ivar: 0x1734
+-  __DATA.__data: 0x31e0
++  __DATA.__objc_ivar: 0x16b4
++  __DATA.__data: 0x3120
+   __DATA.__bss: 0x10f0
+   __DATA.__common: 0x18
+-  __DATA_DIRTY.__objc_data: 0x2e90
++  __DATA_DIRTY.__objc_data: 0x2e40
+   __DATA_DIRTY.__data: 0x10
+   __DATA_DIRTY.__bss: 0x558
+   __DATA_DIRTY.__common: 0x8
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 67931189-D748-3848-B5F5-D825499ADE3F
+-  Functions: 10169
+-  Symbols:   35109
+-  CStrings:  17330
++  UUID: 4D1021DD-7087-319D-ACCD-9E485508C248
++  Functions: 9976
++  Symbols:   34444
++  CStrings:  17086
+ 
+Symbols:
++ +[WBSFormAutoFillCorrectionsSQLiteStore _obsoleteLocalDatabaseURLForRemoval]
++ +[WBSInternalFeedbackRadarComponent webAccessibility]
++ +[WBSInternalFeedbackRadarComponent webAccessibility].cold.1
++ -[WBSCreditCardDataController _exportCreditCardDataToFileWithURL:completionHandler:]
++ -[WBSCreditCardDataController _exportCreditCardDataToFileWithURL:completionHandler:].cold.1
++ -[WBSCreditCardDataController _getCreditCardDataWithAllowedTypes:completionHandler:]
++ -[WBSCreditCardDataController exportCreditCardDataToFileWithURL:completionHandler:]
++ -[WBSCreditCardDataController exportCreditCardDataToFileWithURL:completionHandler:].cold.1
++ -[WBSCreditCardDataController numberOfCreditCardsToBeExportedWithCompletionHandler:]
++ -[WBSFormAutoFillCorrectionsSQLiteStore initWithParsecDatabaseURL:]
++ -[WBSFormAutoFillCorrectionsSQLiteStore removeObsoleteDatabase]
++ -[WBSParsecDSession initWithParsecdSession:skipAutoFillDataUpdates:].cold.1
++ _WBSDateOfLastForcedFetchOfCloudTabsKey
++ _WBSDebugForceFetchCloudTabsOnceKey
++ __ZL23_requestProcessingQueue
++ __ZZ68-[WBSParsecDSession initWithParsecdSession:skipAutoFillDataUpdates:]E9onceToken
++ ___104-[WBSBrowsingDataExportController computeNumberOfItemsToBeExportedForBrowsingDataExportType:usingBlock:]_block_invoke_5
++ ___104-[WBSBrowsingDataExportController computeNumberOfItemsToBeExportedForBrowsingDataExportType:usingBlock:]_block_invoke_6
++ ___121-[WBSCreditCardDataController getVirtualCardCredentialsWithExternalizedContext:shouldIncludeVPANCards:completionHandler:]_block_invoke.68
++ ___123-[WBSCreditCardDataController processQueueOfVirtualCardsToFetchDetailsForWithExternalizedContext:blockToUpdateCardDetails:]_block_invoke.67
++ ___142-[WBSCreditCardDataController importCreditCardDataWithCardNumber:cardName:cardholderName:cardExpirationMonth:cardExpirationYear:lastUsedDate:]_block_invoke
++ ___53+[WBSInternalFeedbackRadarComponent webAccessibility]_block_invoke
++ ___59-[WBSCreditCardDataController saveCreditCardDataIfAllowed:]_block_invoke_2
++ ___60-[WBSParsecDSession _setCurrentQuery:withKeyboardInputType:]_block_invoke.38
++ ___63-[WBSFormAutoFillCorrectionsSQLiteStore removeObsoleteDatabase]_block_invoke
++ ___63-[WBSFormAutoFillCorrectionsSQLiteStore removeObsoleteDatabase]_block_invoke.cold.1
++ ___68-[WBSCreditCardDataController saveCreditCardData:completionHandler:]_block_invoke.104
++ ___68-[WBSParsecDSession initWithParsecdSession:skipAutoFillDataUpdates:]_block_invoke
++ ___77+[WBSParsecDSession _updateAutoFillTLDsIfNeededForSession:completionHandler:]_block_invoke.59
++ ___77+[WBSParsecDSession _updateAutoFillTLDsIfNeededForSession:completionHandler:]_block_invoke.59.cold.1
++ ___77+[WBSParsecDSession _updateAutoFillTLDsIfNeededForSession:completionHandler:]_block_invoke.59.cold.2
++ ___80-[WBSParsecDSession _startUpdatingAutoFillDataInBackgroundIfPossibleForSession:]_block_invoke.53
++ ___80-[WBSParsecDSession _startUpdatingAutoFillDataInBackgroundIfPossibleForSession:]_block_invoke.54
++ ___80-[WBSParsecDSession _startUpdatingAutoFillDataInBackgroundIfPossibleForSession:]_block_invoke.54.cold.1
++ ___80-[WBSParsecDSession _startUpdatingAutoFillDataInBackgroundIfPossibleForSession:]_block_invoke.55
++ ___80-[WBSParsecDSession _startUpdatingAutoFillDataInBackgroundIfPossibleForSession:]_block_invoke_2.56
++ ___84-[WBSCreditCardDataController _exportCreditCardDataToFileWithURL:completionHandler:]_block_invoke
++ ___84-[WBSCreditCardDataController _exportCreditCardDataToFileWithURL:completionHandler:]_block_invoke_2
++ ___84-[WBSCreditCardDataController _exportCreditCardDataToFileWithURL:completionHandler:]_block_invoke_3
++ ___84-[WBSCreditCardDataController _exportCreditCardDataToFileWithURL:completionHandler:]_block_invoke_4
++ ___84-[WBSCreditCardDataController _getCreditCardDataWithAllowedTypes:completionHandler:]_block_invoke
++ ___84-[WBSCreditCardDataController numberOfCreditCardsToBeExportedWithCompletionHandler:]_block_invoke
++ ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.130
++ ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.130.cold.1
++ ___98-[WBSCreditCardDataController getCreditCardDataToFill:host:externalizedContext:completionHandler:]_block_invoke.72
++ ___98-[WBSCreditCardDataController getCreditCardDataToFill:host:externalizedContext:completionHandler:]_block_invoke.75
++ ___98-[WBSCreditCardDataController getCreditCardDataToFill:host:externalizedContext:completionHandler:]_block_invoke_2.74
++ ___98-[WBSCreditCardDataController getCreditCardDataToFill:host:externalizedContext:completionHandler:]_block_invoke_2.74.cold.1
++ ___block_descriptor_40_ea8_32bs_e17_v16?0"NSArray"8ls32l8
++ ___block_descriptor_48_e8_32s40s_e48_v32?0"_WKFrameHandle"8"WBSFormMetadata"16^B24ls32l8s40l8
++ ___block_descriptor_48_ea8_32s40s_e30_v24?0Q8"WBSCreditCardData"16ls32l8s40l8
++ ___block_descriptor_48_ea8_32s40s_e8_v16?0Q8ls32l8s40l8
++ ___block_descriptor_56_ea8_32s40s48bs_e27_v16?0"WBSCreditCardData"8ls32l8s40l8s48l8
++ ___block_descriptor_56_ea8_32s40s48s_e40_v32?0"WBSCreditCardData"8Q16?<v?B>24ls32l8s40l8s48l8
++ ___block_descriptor_64_ea8_32s40s48s56bs_e17_v16?0"NSArray"8ls32l8s40l8s48l8s56l8
++ ___block_descriptor_67_e8_32s40bs_e5_v8?0ls40l8s32l8
++ ___block_literal_global.103
++ ___block_literal_global.106
++ ___block_literal_global.123
++ ___block_literal_global.126
++ ___block_literal_global.129
++ ___block_literal_global.187
++ ___block_literal_global.32
++ ___block_literal_global.52
++ ___block_literal_global.67
++ _objc_msgSend$_exportCreditCardDataToFileWithURL:completionHandler:
++ _objc_msgSend$_getCreditCardDataWithAllowedTypes:completionHandler:
++ _objc_msgSend$_obsoleteLocalDatabaseURLForRemoval
++ _objc_msgSend$canSaveCardData:lastFilledCardData:completionHandler:
++ _objc_msgSend$exportCreditCardDataToFileWithURL:completionHandler:
++ _objc_msgSend$getCreditCardDataToFill:host:externalizedContext:completionHandler:
++ _objc_msgSend$initWithParsecDatabaseURL:
++ _objc_msgSend$numberOfCreditCardsToBeExportedWithCompletionHandler:
++ _objc_msgSend$safari_removeFileOnlyAtURL:error:
++ _webAccessibility.component
++ _webAccessibility.onceToken
+- +[WBSFormAutoFillClassificationToCorrectionsTransformer allowsReverseTransformation]
+- +[WBSFormAutoFillClassificationToCorrectionsTransformer transformedValueClass]
+- +[WBSFormAutoFillCorrectionsSQLiteStore _defaultLocalDatabaseURL]
+- +[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor _correctionsSchema]
+- +[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor _schemaWithExpectedClass:errorCode:isOptional:]
+- +[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor test_correctionsSchema]
+- +[WBSFormFieldFingerprinter _fingerprintComponentsForControlMetadata:]
+- +[WBSFormFieldFingerprinter _hashForString:]
+- +[WBSFormFieldFingerprinter fingerprintForControlMetadata:]
+- +[WBSParsecDSession _updateAutoFillCorrectionSetsIfNeededForSession:completionHandler:]
+- +[WBSParsecDSession _updateAutoFillCorrectionSetsIfNeededForSession:completionHandler:].cold.1
+- +[WBSParsecDSession sharedCorrectionsProcessor]
+- +[WBSParsecDSession sharedCorrectionsProcessor].cold.1
+- -[WBSCreditCardDataController exportCreditCardDataToFileWithURL:]
+- -[WBSCreditCardDataController exportCreditCardDataToFileWithURL:].cold.1
+- -[WBSCreditCardDataController numberOfCreditCardsToBeExported]
+- -[WBSFormAutoFillClassificationToCorrectionsTransformer reverseTransformedValue:]
+- -[WBSFormAutoFillClassificationToCorrectionsTransformer transformedValue:]
+- -[WBSFormAutoFillCorrectionManager .cxx_destruct]
+- -[WBSFormAutoFillCorrectionManager _feedbackProcessor]
+- -[WBSFormAutoFillCorrectionManager _setCorrections:forFingerprint:onDomain:]
+- -[WBSFormAutoFillCorrectionManager delegate]
+- -[WBSFormAutoFillCorrectionManager getCorrectionsForFormFieldFingerprint:onDomain:completionHandler:]
+- -[WBSFormAutoFillCorrectionManager initWithCorrectionsStore:]
+- -[WBSFormAutoFillCorrectionManager setCorrectionSet:]
+- -[WBSFormAutoFillCorrectionManager setCorrectionSet:].cold.1
+- -[WBSFormAutoFillCorrectionManager setCorrectionSet:].cold.2
+- -[WBSFormAutoFillCorrectionManager setDelegate:]
+- -[WBSFormAutoFillCorrectionSet .cxx_destruct]
+- -[WBSFormAutoFillCorrectionSet domain]
+- -[WBSFormAutoFillCorrectionSet fingerprintsToClassifications]
+- -[WBSFormAutoFillCorrectionSet fingerprintsToCorrections]
+- -[WBSFormAutoFillCorrectionSet hash]
+- -[WBSFormAutoFillCorrectionSet initWithDomain:fingerprintsToClassifications:]
+- -[WBSFormAutoFillCorrectionSet initWithDomain:fingerprintsToCorrections:]
+- -[WBSFormAutoFillCorrectionSet isEqual:]
+- -[WBSFormAutoFillCorrectionsHistoryObserver .cxx_destruct]
+- -[WBSFormAutoFillCorrectionsHistoryObserver _historyItemsWereRemoved:]
+- -[WBSFormAutoFillCorrectionsHistoryObserver _historyVisitsWereRemoved:]
+- -[WBSFormAutoFillCorrectionsHistoryObserver _historyWasCleared:]
+- -[WBSFormAutoFillCorrectionsHistoryObserver _invalidateUpdateCoalescingTimer]
+- -[WBSFormAutoFillCorrectionsHistoryObserver _normalizeURL:]
+- -[WBSFormAutoFillCorrectionsHistoryObserver _updateCorrectionsStoreNow]
+- -[WBSFormAutoFillCorrectionsHistoryObserver _updateCorrectionsStoreSoon]
+- -[WBSFormAutoFillCorrectionsHistoryObserver dealloc]
+- -[WBSFormAutoFillCorrectionsHistoryObserver flushPendingChangesAndDisconnectFromStoreAndHistory]
+- -[WBSFormAutoFillCorrectionsHistoryObserver initWithCorrectionsStore:]
+- -[WBSFormAutoFillCorrectionsSQLiteStore _classificationForFieldWithFingerprint:onDomain:]
+- -[WBSFormAutoFillCorrectionsSQLiteStore _classificationForFieldWithFingerprint:onDomain:].cold.1
+- -[WBSFormAutoFillCorrectionsSQLiteStore _classificationForFieldWithFingerprint:onDomain:].cold.10
+- -[WBSFormAutoFillCorrectionsSQLiteStore _classificationForFieldWithFingerprint:onDomain:].cold.2
+- -[WBSFormAutoFillCorrectionsSQLiteStore _classificationForFieldWithFingerprint:onDomain:].cold.3
+- -[WBSFormAutoFillCorrectionsSQLiteStore _classificationForFieldWithFingerprint:onDomain:].cold.4
+- -[WBSFormAutoFillCorrectionsSQLiteStore _classificationForFieldWithFingerprint:onDomain:].cold.5
+- -[WBSFormAutoFillCorrectionsSQLiteStore _classificationForFieldWithFingerprint:onDomain:].cold.6
+- -[WBSFormAutoFillCorrectionsSQLiteStore _classificationForFieldWithFingerprint:onDomain:].cold.7
+- -[WBSFormAutoFillCorrectionsSQLiteStore _classificationForFieldWithFingerprint:onDomain:].cold.8
+- -[WBSFormAutoFillCorrectionsSQLiteStore _classificationForFieldWithFingerprint:onDomain:].cold.9
+- -[WBSFormAutoFillCorrectionsSQLiteStore _createFreshLocalDatabaseSchema]
+- -[WBSFormAutoFillCorrectionsSQLiteStore _createFreshLocalDatabaseSchema].cold.1
+- -[WBSFormAutoFillCorrectionsSQLiteStore _createFreshLocalDatabaseSchema].cold.2
+- -[WBSFormAutoFillCorrectionsSQLiteStore _createFreshLocalDatabaseSchema].cold.3
+- -[WBSFormAutoFillCorrectionsSQLiteStore _createFreshLocalDatabaseSchema].cold.4
+- -[WBSFormAutoFillCorrectionsSQLiteStore _createFreshLocalDatabaseSchema].cold.5
+- -[WBSFormAutoFillCorrectionsSQLiteStore _createFreshLocalDatabaseSchema].cold.6
+- -[WBSFormAutoFillCorrectionsSQLiteStore _migrateToSchemaVersion_3]
+- -[WBSFormAutoFillCorrectionsSQLiteStore _migrateToSchemaVersion_3].cold.1
+- -[WBSFormAutoFillCorrectionsSQLiteStore _migrateToSchemaVersion_3].cold.2
+- -[WBSFormAutoFillCorrectionsSQLiteStore _migrateToSchemaVersion_3].cold.3
+- -[WBSFormAutoFillCorrectionsSQLiteStore _migrateToSchemaVersion_3].cold.4
+- -[WBSFormAutoFillCorrectionsSQLiteStore _migrateToSchemaVersion_4]
+- -[WBSFormAutoFillCorrectionsSQLiteStore _openLocalDatabase]
+- -[WBSFormAutoFillCorrectionsSQLiteStore _removeAllLocalClassifications]
+- -[WBSFormAutoFillCorrectionsSQLiteStore _removeAllLocalClassifications].cold.1
+- -[WBSFormAutoFillCorrectionsSQLiteStore _removeLocalClassificationsForDomain:recordedOnOrAfter:]
+- -[WBSFormAutoFillCorrectionsSQLiteStore _removeLocalClassificationsForDomain:recordedOnOrAfter:].cold.1
+- -[WBSFormAutoFillCorrectionsSQLiteStore _removeLocalClassificationsForDomain:recordedOnOrAfter:].cold.2
+- -[WBSFormAutoFillCorrectionsSQLiteStore _removeLocalClassificationsForDomain:recordedOnOrAfter:].cold.3
+- -[WBSFormAutoFillCorrectionsSQLiteStore _removeLocalClassificationsForDomain:recordedOnOrAfter:].cold.4
+- -[WBSFormAutoFillCorrectionsSQLiteStore _replaceCrowdsourcedCorrectionSetsWithCorrectionSets:retrievalURLString:]
+- -[WBSFormAutoFillCorrectionsSQLiteStore _replaceCrowdsourcedCorrectionSetsWithCorrectionSets:retrievalURLString:].cold.1
+- -[WBSFormAutoFillCorrectionsSQLiteStore _replaceCrowdsourcedCorrectionSetsWithCorrectionSets:retrievalURLString:].cold.2
+- -[WBSFormAutoFillCorrectionsSQLiteStore _setCrowdsourcedClassification:forFieldWithFingerprint:onDomain:]
+- -[WBSFormAutoFillCorrectionsSQLiteStore _setCrowdsourcedClassification:forFieldWithFingerprint:onDomain:].cold.1
+- -[WBSFormAutoFillCorrectionsSQLiteStore _setCrowdsourcedClassification:forFieldWithFingerprint:onDomain:].cold.2
+- -[WBSFormAutoFillCorrectionsSQLiteStore _setCrowdsourcedClassification:forFieldWithFingerprint:onDomain:].cold.3
+- -[WBSFormAutoFillCorrectionsSQLiteStore _setCrowdsourcedClassification:forFieldWithFingerprint:onDomain:].cold.4
+- -[WBSFormAutoFillCorrectionsSQLiteStore _setCrowdsourcedClassification:forFieldWithFingerprint:onDomain:].cold.5
+- -[WBSFormAutoFillCorrectionsSQLiteStore _setCrowdsourcedClassification:forFieldWithFingerprint:onDomain:].cold.6
+- -[WBSFormAutoFillCorrectionsSQLiteStore _setLocalClassification:forFieldWithFingerprint:onDomain:date:completionHandler:]
+- -[WBSFormAutoFillCorrectionsSQLiteStore _setLocalClassification:forFieldWithFingerprint:onDomain:dateReclassified:]
+- -[WBSFormAutoFillCorrectionsSQLiteStore _setLocalClassification:forFieldWithFingerprint:onDomain:dateReclassified:].cold.1
+- -[WBSFormAutoFillCorrectionsSQLiteStore _setLocalClassification:forFieldWithFingerprint:onDomain:dateReclassified:].cold.2
+- -[WBSFormAutoFillCorrectionsSQLiteStore _setLocalClassification:forFieldWithFingerprint:onDomain:dateReclassified:].cold.3
+- -[WBSFormAutoFillCorrectionsSQLiteStore _setLocalClassification:forFieldWithFingerprint:onDomain:dateReclassified:].cold.4
+- -[WBSFormAutoFillCorrectionsSQLiteStore getClassificationForFieldWithFingerprint:onDomain:completionHandler:]
+- -[WBSFormAutoFillCorrectionsSQLiteStore getLastCrowdsourcedCorrectionsRetrievalURLStringWithCompletionHandler:]
+- -[WBSFormAutoFillCorrectionsSQLiteStore initWithLocalDatabaseURL:parsecDatabaseURL:]
+- -[WBSFormAutoFillCorrectionsSQLiteStore removeAllLocalClassificationsWithCompletionHandler:]
+- -[WBSFormAutoFillCorrectionsSQLiteStore removeLocalClassificationsForDomain:recordedOnOrAfter:completionHandler:]
+- -[WBSFormAutoFillCorrectionsSQLiteStore replaceCrowdsourcedCorrectionSetsWithCorrectionSets:retrievalURLString:completionHandler:]
+- -[WBSFormAutoFillCorrectionsSQLiteStore setCrowdsourcedClassification:forFieldWithFingerprint:onDomain:completionHandler:]
+- -[WBSFormAutoFillCorrectionsSQLiteStore setLastCrowdsourcedCorrectionsRetrievalURLString:completionHandler:]
+- -[WBSFormAutoFillCorrectionsSQLiteStore setLocalClassification:forFieldWithFingerprint:onDomain:completionHandler:]
+- -[WBSFormAutoFillMetadataCorrector .cxx_destruct]
+- -[WBSFormAutoFillMetadataCorrector _commonInitWithDomain:correctionsStore:]
+- -[WBSFormAutoFillMetadataCorrector bestAvailableMetadataFromControlMetadata:]
+- -[WBSFormAutoFillMetadataCorrector bestAvailableMetadataFromMetadata:]
+- -[WBSFormAutoFillMetadataCorrector domain]
+- -[WBSFormAutoFillMetadataCorrector enqueueCorrectionsRequestForFormMetadata:completionHandler:]
+- -[WBSFormAutoFillMetadataCorrector enqueueCorrectionsRequestForFormMetadata:completionHandler:].cold.1
+- -[WBSFormAutoFillMetadataCorrector hasAttemptedToCorrectMetadata:]
+- -[WBSFormAutoFillMetadataCorrector initWithDomain:]
+- -[WBSFormAutoFillMetadataCorrector init]
+- -[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor .cxx_destruct]
+- -[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor getLastCorrectionsRetrievalURLStringWithResultHandler:]
+- -[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor initWithCorrectionsStore:]
+- -[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor setCorrectionsWithJSONData:retrievalURLString:]
+- -[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor setCorrectionsWithJSONData:retrievalURLString:].cold.1
+- -[WBSFormAutoFillParsecFeedbackProcessor .cxx_destruct]
+- -[WBSFormAutoFillParsecFeedbackProcessor _feedbackWithCorrectionSet:includeOrigin:]
+- -[WBSFormAutoFillParsecFeedbackProcessor _feedbackWithCorrectionSet:includeOrigin:].cold.1
+- -[WBSFormAutoFillParsecFeedbackProcessor _feedbackWithCorrectionSet:includeOrigin:].cold.2
+- -[WBSFormAutoFillParsecFeedbackProcessor _getFeedbackWithCorrectionSet:completionHandler:]
+- -[WBSFormAutoFillParsecFeedbackProcessor domainPolicyProvider]
+- -[WBSFormAutoFillParsecFeedbackProcessor initWithGlobalFeedbackDispatcher:domainPolicyProvider:autoFillVersion:]
+- -[WBSFormAutoFillParsecFeedbackProcessor init]
+- -[WBSFormAutoFillParsecFeedbackProcessor sendFeedbackWithCorrectionSet:]
+- -[WBSFormAutoFillParsecFeedbackProcessor setDomainPolicyProvider:]
+- -[WBSFormFieldClassificationCorrector .cxx_destruct]
+- -[WBSFormFieldClassificationCorrector _classificationCorrectionsForControlWithMetadata:wasIdentifiedAsAddressBookField:]
+- -[WBSFormFieldClassificationCorrector _classificationCorrectionsForControlWithMetadata:wasIdentifiedAsAddressBookField:].cold.1
+- -[WBSFormFieldClassificationCorrector delegate]
+- -[WBSFormFieldClassificationCorrector domain]
+- -[WBSFormFieldClassificationCorrector formMetadata]
+- -[WBSFormFieldClassificationCorrector formValues]
+- -[WBSFormFieldClassificationCorrector initWithDomain:formMetadata:formValues:uniqueIDsOfControlsThatWereAutoFilled:]
+- -[WBSFormFieldClassificationCorrector init]
+- -[WBSFormFieldClassificationCorrector processCorrections]
+- -[WBSFormFieldClassificationCorrector processCorrections].cold.1
+- -[WBSFormFieldClassificationCorrector setDelegate:]
+- -[WBSParsecDFeedbackDispatcher sendCrowdsourcedAutoFillFeedback:forQueryID:]
+- -[WBSParsecDFeedbackDispatcher sendCrowdsourcedAutoFillFeedback:forQueryID:].cold.1
+- _OBJC_CLASS_$_WBSFormAutoFillClassificationToCorrectionsTransformer
+- _OBJC_CLASS_$_WBSFormAutoFillCorrectionManager
+- _OBJC_CLASS_$_WBSFormAutoFillCorrectionSet
+- _OBJC_CLASS_$_WBSFormAutoFillCorrectionsHistoryObserver
+- _OBJC_CLASS_$_WBSFormAutoFillMetadataCorrector
+- _OBJC_CLASS_$_WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor
+- _OBJC_CLASS_$_WBSFormAutoFillParsecFeedbackProcessor
+- _OBJC_CLASS_$_WBSFormFieldClassificationCorrector
+- _OBJC_CLASS_$_WBSFormFieldFingerprinter
+- _OBJC_IVAR_$_WBSFormAutoFillCorrectionManager._classificationToCorrectionsTransformer
+- _OBJC_IVAR_$_WBSFormAutoFillCorrectionManager._correctionsStore
+- _OBJC_IVAR_$_WBSFormAutoFillCorrectionManager._delegate
+- _OBJC_IVAR_$_WBSFormAutoFillCorrectionSet._domain
+- _OBJC_IVAR_$_WBSFormAutoFillCorrectionSet._fingerprintsToClassifications
+- _OBJC_IVAR_$_WBSFormAutoFillCorrectionSet._fingerprintsToCorrections
+- _OBJC_IVAR_$_WBSFormAutoFillCorrectionsHistoryObserver._coalescingTimerSource
+- _OBJC_IVAR_$_WBSFormAutoFillCorrectionsHistoryObserver._correctionsStore
+- _OBJC_IVAR_$_WBSFormAutoFillCorrectionsHistoryObserver._domainNormalizer
+- _OBJC_IVAR_$_WBSFormAutoFillCorrectionsHistoryObserver._pendingRemovedHistoryItemsToProcess
+- _OBJC_IVAR_$_WBSFormAutoFillCorrectionsHistoryObserver._pendingRemovedHistoryVisitsToProcess
+- _OBJC_IVAR_$_WBSFormAutoFillCorrectionsHistoryObserver._processingQueue
+- _OBJC_IVAR_$_WBSFormAutoFillCorrectionsSQLiteStore._localDatabase
+- _OBJC_IVAR_$_WBSFormAutoFillCorrectionsSQLiteStore._localDatabaseURL
+- _OBJC_IVAR_$_WBSFormAutoFillMetadataCorrector._classificationToCorrectionsTransformer
+- _OBJC_IVAR_$_WBSFormAutoFillMetadataCorrector._correctedFormMetadataID
+- _OBJC_IVAR_$_WBSFormAutoFillMetadataCorrector._correctionsStore
+- _OBJC_IVAR_$_WBSFormAutoFillMetadataCorrector._domain
+- _OBJC_IVAR_$_WBSFormAutoFillMetadataCorrector._fingerprintsToCorrections
+- _OBJC_IVAR_$_WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor._correctionsStore
+- _OBJC_IVAR_$_WBSFormAutoFillParsecFeedbackProcessor._autoFillVersion
+- _OBJC_IVAR_$_WBSFormAutoFillParsecFeedbackProcessor._domainNormalizer
+- _OBJC_IVAR_$_WBSFormAutoFillParsecFeedbackProcessor._domainPolicyProvider
+- _OBJC_IVAR_$_WBSFormAutoFillParsecFeedbackProcessor._globalFeedbackDispatcher
+- _OBJC_IVAR_$_WBSFormAutoFillParsecFeedbackProcessor._internalQueue
+- _OBJC_IVAR_$_WBSFormFieldClassificationCorrector._classificationToCorrectionsTransformer
+- _OBJC_IVAR_$_WBSFormFieldClassificationCorrector._delegate
+- _OBJC_IVAR_$_WBSFormFieldClassificationCorrector._domain
+- _OBJC_IVAR_$_WBSFormFieldClassificationCorrector._formMetadata
+- _OBJC_IVAR_$_WBSFormFieldClassificationCorrector._formValues
+- _OBJC_IVAR_$_WBSFormFieldClassificationCorrector._uniqueIDsOfControlsThatWereAutoFilled
+- _OBJC_IVAR_$_WBSParsecDSession._requestProcessingQueue
+- _OBJC_METACLASS_$_WBSFormAutoFillClassificationToCorrectionsTransformer
+- _OBJC_METACLASS_$_WBSFormAutoFillCorrectionManager
+- _OBJC_METACLASS_$_WBSFormAutoFillCorrectionSet
+- _OBJC_METACLASS_$_WBSFormAutoFillCorrectionsHistoryObserver
+- _OBJC_METACLASS_$_WBSFormAutoFillMetadataCorrector
+- _OBJC_METACLASS_$_WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor
+- _OBJC_METACLASS_$_WBSFormAutoFillParsecFeedbackProcessor
+- _OBJC_METACLASS_$_WBSFormFieldClassificationCorrector
+- _OBJC_METACLASS_$_WBSFormFieldFingerprinter
+- _WBSFormAutoFillParsecCrowdsourcedCorrectionsErrorDomain
+- _WBS_LOG_CHANNEL_PREFIXCrowdsourcedAutoFill
+- _WBS_LOG_CHANNEL_PREFIXCrowdsourcedAutoFill.cold.1
+- _WBS_LOG_CHANNEL_PREFIXCrowdsourcedAutoFill.log
+- _WBS_LOG_CHANNEL_PREFIXCrowdsourcedAutoFill.onceToken
+- __OBJC_$_CLASS_METHODS_WBSFormAutoFillClassificationToCorrectionsTransformer
+- __OBJC_$_CLASS_METHODS_WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor
+- __OBJC_$_CLASS_METHODS_WBSFormFieldFingerprinter
+- __OBJC_$_INSTANCE_METHODS_WBSFormAutoFillClassificationToCorrectionsTransformer
+- __OBJC_$_INSTANCE_METHODS_WBSFormAutoFillCorrectionManager
+- __OBJC_$_INSTANCE_METHODS_WBSFormAutoFillCorrectionSet
+- __OBJC_$_INSTANCE_METHODS_WBSFormAutoFillCorrectionsHistoryObserver
+- __OBJC_$_INSTANCE_METHODS_WBSFormAutoFillMetadataCorrector
+- __OBJC_$_INSTANCE_METHODS_WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor
+- __OBJC_$_INSTANCE_METHODS_WBSFormAutoFillParsecFeedbackProcessor
+- __OBJC_$_INSTANCE_METHODS_WBSFormFieldClassificationCorrector
+- __OBJC_$_INSTANCE_VARIABLES_WBSFormAutoFillCorrectionManager
+- __OBJC_$_INSTANCE_VARIABLES_WBSFormAutoFillCorrectionSet
+- __OBJC_$_INSTANCE_VARIABLES_WBSFormAutoFillCorrectionsHistoryObserver
+- __OBJC_$_INSTANCE_VARIABLES_WBSFormAutoFillMetadataCorrector
+- __OBJC_$_INSTANCE_VARIABLES_WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor
+- __OBJC_$_INSTANCE_VARIABLES_WBSFormAutoFillParsecFeedbackProcessor
+- __OBJC_$_INSTANCE_VARIABLES_WBSFormFieldClassificationCorrector
+- __OBJC_$_PROP_LIST_WBSFormAutoFillCorrectionManager
+- __OBJC_$_PROP_LIST_WBSFormAutoFillCorrectionSet
+- __OBJC_$_PROP_LIST_WBSFormAutoFillCorrectionsSQLiteStore
+- __OBJC_$_PROP_LIST_WBSFormAutoFillFeedbackProcessor
+- __OBJC_$_PROP_LIST_WBSFormAutoFillMetadataCorrector
+- __OBJC_$_PROP_LIST_WBSFormAutoFillParsecFeedbackProcessor
+- __OBJC_$_PROP_LIST_WBSFormFieldClassificationCorrector
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_WBSFormAutoFillCorrectionsStore
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_WBSFormAutoFillFeedbackProcessor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_WBSParsecGlobalFeedbackDispatcher
+- __OBJC_$_PROTOCOL_METHOD_TYPES_WBSFormAutoFillCorrectionsStore
+- __OBJC_$_PROTOCOL_METHOD_TYPES_WBSFormAutoFillFeedbackProcessor
+- __OBJC_$_PROTOCOL_REFS_WBSFormAutoFillCorrectionsStore
+- __OBJC_$_PROTOCOL_REFS_WBSFormAutoFillFeedbackProcessor
+- __OBJC_CLASS_PROTOCOLS_$_WBSFormAutoFillParsecFeedbackProcessor
+- __OBJC_CLASS_RO_$_WBSFormAutoFillClassificationToCorrectionsTransformer
+- __OBJC_CLASS_RO_$_WBSFormAutoFillCorrectionManager
+- __OBJC_CLASS_RO_$_WBSFormAutoFillCorrectionSet
+- __OBJC_CLASS_RO_$_WBSFormAutoFillCorrectionsHistoryObserver
+- __OBJC_CLASS_RO_$_WBSFormAutoFillMetadataCorrector
+- __OBJC_CLASS_RO_$_WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor
+- __OBJC_CLASS_RO_$_WBSFormAutoFillParsecFeedbackProcessor
+- __OBJC_CLASS_RO_$_WBSFormFieldClassificationCorrector
+- __OBJC_CLASS_RO_$_WBSFormFieldFingerprinter
+- __OBJC_LABEL_PROTOCOL_$_WBSFormAutoFillCorrectionsStore
+- __OBJC_LABEL_PROTOCOL_$_WBSFormAutoFillFeedbackProcessor
+- __OBJC_METACLASS_RO_$_WBSFormAutoFillClassificationToCorrectionsTransformer
+- __OBJC_METACLASS_RO_$_WBSFormAutoFillCorrectionManager
+- __OBJC_METACLASS_RO_$_WBSFormAutoFillCorrectionSet
+- __OBJC_METACLASS_RO_$_WBSFormAutoFillCorrectionsHistoryObserver
+- __OBJC_METACLASS_RO_$_WBSFormAutoFillMetadataCorrector
+- __OBJC_METACLASS_RO_$_WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor
+- __OBJC_METACLASS_RO_$_WBSFormAutoFillParsecFeedbackProcessor
+- __OBJC_METACLASS_RO_$_WBSFormFieldClassificationCorrector
+- __OBJC_METACLASS_RO_$_WBSFormFieldFingerprinter
+- __OBJC_PROTOCOL_$_WBSFormAutoFillCorrectionsStore
+- __OBJC_PROTOCOL_$_WBSFormAutoFillFeedbackProcessor
+- __ZL25canonicalizedDateTemplateP8NSString
+- __ZN12SafariShared22WBSSQLiteDatabaseFetchIJRxEEEP22WBSSQLiteRowEnumeratorP17WBSSQLiteDatabaseP8NSStringDpOT_
+- __ZN12SafariShared22WBSSQLiteDatabaseFetchIJRxRU8__strongP8NSStringEEEP22WBSSQLiteRowEnumeratorP17WBSSQLiteDatabaseS3_DpOT_
+- __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi1ERU8__strongP8NSStringJRxS4_EEEvP18WBSSQLiteStatementOT0_DpOT1_
+- __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi1ERxJRU8__strongP8NSStringEEEvP18WBSSQLiteStatementOT0_DpOT1_
+- __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi1ERxJRU8__strongP8NSStringS5_EEEvP18WBSSQLiteStatementOT0_DpOT1_
+- __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi1ERxJRU8__strongP8NSStringS5_RdEEEvP18WBSSQLiteStatementOT0_DpOT1_
+- __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi1ERxJdEEEvP18WBSSQLiteStatementOT0_DpOT1_
+- __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi2ERU8__strongP8NSStringJS4_EEEvP18WBSSQLiteStatementOT0_DpOT1_
+- __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi2ERU8__strongP8NSStringJS4_RdEEEvP18WBSSQLiteStatementOT0_DpOT1_
+- __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi2ERxJRU8__strongP8NSStringEEEvP18WBSSQLiteStatementOT0_DpOT1_
+- __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi3ERU8__strongP8NSStringJRdEEEvP18WBSSQLiteStatementOT0_DpOT1_
+- __ZN12SafariShared39_WBSSQLiteDatabaseExecuteAndReturnErrorIJRU8__strongP8NSStringRxS4_EEEiP17WBSSQLiteDatabasePU15__autoreleasingP7NSErrorS2_DpOT_
+- __ZN12SafariShared39_WBSSQLiteDatabaseExecuteAndReturnErrorIJRxEEEiP17WBSSQLiteDatabasePU15__autoreleasingP7NSErrorP8NSStringDpOT_
+- __ZN12SafariShared39_WBSSQLiteDatabaseExecuteAndReturnErrorIJRxRU8__strongP8NSStringEEEiP17WBSSQLiteDatabasePU15__autoreleasingP7NSErrorS3_DpOT_
+- __ZN12SafariShared39_WBSSQLiteDatabaseExecuteAndReturnErrorIJRxRU8__strongP8NSStringS5_EEEiP17WBSSQLiteDatabasePU15__autoreleasingP7NSErrorS3_DpOT_
+- __ZN12SafariShared39_WBSSQLiteDatabaseExecuteAndReturnErrorIJRxRU8__strongP8NSStringS5_RdEEEiP17WBSSQLiteDatabasePU15__autoreleasingP7NSErrorS3_DpOT_
+- __ZN12SafariShared39_WBSSQLiteDatabaseExecuteAndReturnErrorIJRxdEEEiP17WBSSQLiteDatabasePU15__autoreleasingP7NSErrorP8NSStringDpOT_
+- __ZZ47+[WBSParsecDSession sharedCorrectionsProcessor]E26sharedCorrectionsProcessor
+- __ZZ47+[WBSParsecDSession sharedCorrectionsProcessor]E9onceToken
+- ___101-[WBSFormAutoFillCorrectionManager getCorrectionsForFormFieldFingerprint:onDomain:completionHandler:]_block_invoke
+- ___101-[WBSFormAutoFillCorrectionManager getCorrectionsForFormFieldFingerprint:onDomain:completionHandler:]_block_invoke_2
+- ___103-[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor setCorrectionsWithJSONData:retrievalURLString:]_block_invoke
+- ___103-[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor setCorrectionsWithJSONData:retrievalURLString:]_block_invoke.26
+- ___103-[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor setCorrectionsWithJSONData:retrievalURLString:]_block_invoke.26.cold.1
+- ___103-[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor setCorrectionsWithJSONData:retrievalURLString:]_block_invoke_2
+- ___103-[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor setCorrectionsWithJSONData:retrievalURLString:]_block_invoke_2.cold.1
+- ___103-[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor setCorrectionsWithJSONData:retrievalURLString:]_block_invoke_2.cold.2
+- ___103-[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor setCorrectionsWithJSONData:retrievalURLString:]_block_invoke_2.cold.3
+- ___108-[WBSFormAutoFillCorrectionsSQLiteStore setLastCrowdsourcedCorrectionsRetrievalURLString:completionHandler:]_block_invoke
+- ___108-[WBSFormAutoFillCorrectionsSQLiteStore setLastCrowdsourcedCorrectionsRetrievalURLString:completionHandler:]_block_invoke_2
+- ___109-[WBSFormAutoFillCorrectionsSQLiteStore getClassificationForFieldWithFingerprint:onDomain:completionHandler:]_block_invoke
+- ___109-[WBSFormAutoFillCorrectionsSQLiteStore getClassificationForFieldWithFingerprint:onDomain:completionHandler:]_block_invoke_2
+- ___111-[WBSFormAutoFillCorrectionsSQLiteStore getLastCrowdsourcedCorrectionsRetrievalURLStringWithCompletionHandler:]_block_invoke
+- ___111-[WBSFormAutoFillCorrectionsSQLiteStore getLastCrowdsourcedCorrectionsRetrievalURLStringWithCompletionHandler:]_block_invoke_2
+- ___111-[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor getLastCorrectionsRetrievalURLStringWithResultHandler:]_block_invoke
+- ___111-[WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor getLastCorrectionsRetrievalURLStringWithResultHandler:]_block_invoke_2
+- ___113-[WBSFormAutoFillCorrectionsSQLiteStore _replaceCrowdsourcedCorrectionSetsWithCorrectionSets:retrievalURLString:]_block_invoke
+- ___113-[WBSFormAutoFillCorrectionsSQLiteStore removeLocalClassificationsForDomain:recordedOnOrAfter:completionHandler:]_block_invoke
+- ___113-[WBSFormAutoFillCorrectionsSQLiteStore removeLocalClassificationsForDomain:recordedOnOrAfter:completionHandler:]_block_invoke_2
+- ___113-[WBSFormAutoFillCorrectionsSQLiteStore removeLocalClassificationsForDomain:recordedOnOrAfter:completionHandler:]_block_invoke_3
+- ___121-[WBSCreditCardDataController getVirtualCardCredentialsWithExternalizedContext:shouldIncludeVPANCards:completionHandler:]_block_invoke.69
+- ___121-[WBSFormAutoFillCorrectionsSQLiteStore _setLocalClassification:forFieldWithFingerprint:onDomain:date:completionHandler:]_block_invoke
+- ___121-[WBSFormAutoFillCorrectionsSQLiteStore _setLocalClassification:forFieldWithFingerprint:onDomain:date:completionHandler:]_block_invoke.200
+- ___121-[WBSFormAutoFillCorrectionsSQLiteStore _setLocalClassification:forFieldWithFingerprint:onDomain:date:completionHandler:]_block_invoke.cold.1
+- ___121-[WBSFormAutoFillCorrectionsSQLiteStore _setLocalClassification:forFieldWithFingerprint:onDomain:date:completionHandler:]_block_invoke_2
+- ___122-[WBSFormAutoFillCorrectionsSQLiteStore setCrowdsourcedClassification:forFieldWithFingerprint:onDomain:completionHandler:]_block_invoke
+- ___122-[WBSFormAutoFillCorrectionsSQLiteStore setCrowdsourcedClassification:forFieldWithFingerprint:onDomain:completionHandler:]_block_invoke_2
+- ___122-[WBSFormAutoFillCorrectionsSQLiteStore setCrowdsourcedClassification:forFieldWithFingerprint:onDomain:completionHandler:]_block_invoke_3
+- ___123-[WBSCreditCardDataController processQueueOfVirtualCardsToFetchDetailsForWithExternalizedContext:blockToUpdateCardDetails:]_block_invoke.68
+- ___130-[WBSFormAutoFillCorrectionsSQLiteStore replaceCrowdsourcedCorrectionSetsWithCorrectionSets:retrievalURLString:completionHandler:]_block_invoke
+- ___130-[WBSFormAutoFillCorrectionsSQLiteStore replaceCrowdsourcedCorrectionSetsWithCorrectionSets:retrievalURLString:completionHandler:]_block_invoke_2
+- ___130-[WBSFormAutoFillCorrectionsSQLiteStore replaceCrowdsourcedCorrectionSetsWithCorrectionSets:retrievalURLString:completionHandler:]_block_invoke_3
+- ___47+[WBSParsecDSession sharedCorrectionsProcessor]_block_invoke
+- ___53-[WBSFormAutoFillCorrectionManager setCorrectionSet:]_block_invoke
+- ___60-[WBSParsecDSession _setCurrentQuery:withKeyboardInputType:]_block_invoke.42
+- ___64-[WBSFormAutoFillCorrectionsHistoryObserver _historyWasCleared:]_block_invoke
+- ___64-[WBSFormAutoFillCorrectionsHistoryObserver _historyWasCleared:]_block_invoke_2
+- ___64-[WBSFormAutoFillCorrectionsHistoryObserver _historyWasCleared:]_block_invoke_3
+- ___68-[WBSCreditCardDataController saveCreditCardData:completionHandler:]_block_invoke.105
+- ___70-[WBSCreditCardDataController getCreditCardDataWithCompletionHandler:]_block_invoke.65
+- ___70-[WBSFormAutoFillCorrectionsHistoryObserver _historyItemsWereRemoved:]_block_invoke
+- ___71-[WBSFormAutoFillCorrectionsHistoryObserver _historyVisitsWereRemoved:]_block_invoke
+- ___71-[WBSFormAutoFillCorrectionsHistoryObserver _updateCorrectionsStoreNow]_block_invoke
+- ___71-[WBSFormAutoFillCorrectionsHistoryObserver _updateCorrectionsStoreNow]_block_invoke_2
+- ___72-[WBSFormAutoFillCorrectionsHistoryObserver _updateCorrectionsStoreSoon]_block_invoke
+- ___72-[WBSFormAutoFillParsecFeedbackProcessor sendFeedbackWithCorrectionSet:]_block_invoke
+- ___72-[WBSFormAutoFillParsecFeedbackProcessor sendFeedbackWithCorrectionSet:]_block_invoke.1
+- ___72-[WBSFormAutoFillParsecFeedbackProcessor sendFeedbackWithCorrectionSet:]_block_invoke.cold.1
+- ___77+[WBSParsecDSession _updateAutoFillTLDsIfNeededForSession:completionHandler:]_block_invoke.64
+- ___77+[WBSParsecDSession _updateAutoFillTLDsIfNeededForSession:completionHandler:]_block_invoke.64.cold.1
+- ___77+[WBSParsecDSession _updateAutoFillTLDsIfNeededForSession:completionHandler:]_block_invoke.64.cold.2
+- ___80-[WBSParsecDSession _startUpdatingAutoFillDataInBackgroundIfPossibleForSession:]_block_invoke.57
+- ___80-[WBSParsecDSession _startUpdatingAutoFillDataInBackgroundIfPossibleForSession:]_block_invoke.58
+- ___80-[WBSParsecDSession _startUpdatingAutoFillDataInBackgroundIfPossibleForSession:]_block_invoke.59
+- ___80-[WBSParsecDSession _startUpdatingAutoFillDataInBackgroundIfPossibleForSession:]_block_invoke.59.cold.1
+- ___80-[WBSParsecDSession _startUpdatingAutoFillDataInBackgroundIfPossibleForSession:]_block_invoke.60
+- ___80-[WBSParsecDSession _startUpdatingAutoFillDataInBackgroundIfPossibleForSession:]_block_invoke_2.61
+- ___83-[WBSFormAutoFillParsecFeedbackProcessor _feedbackWithCorrectionSet:includeOrigin:]_block_invoke
+- ___87+[WBSParsecDSession _updateAutoFillCorrectionSetsIfNeededForSession:completionHandler:]_block_invoke
+- ___87+[WBSParsecDSession _updateAutoFillCorrectionSetsIfNeededForSession:completionHandler:]_block_invoke.66
+- ___87+[WBSParsecDSession _updateAutoFillCorrectionSetsIfNeededForSession:completionHandler:]_block_invoke.66.cold.1
+- ___87+[WBSParsecDSession _updateAutoFillCorrectionSetsIfNeededForSession:completionHandler:]_block_invoke.66.cold.2
+- ___87+[WBSParsecDSession _updateAutoFillCorrectionSetsIfNeededForSession:completionHandler:]_block_invoke.66.cold.3
+- ___87+[WBSParsecDSession _updateAutoFillCorrectionSetsIfNeededForSession:completionHandler:]_block_invoke.cold.1
+- ___87+[WBSParsecDSession _updateAutoFillCorrectionSetsIfNeededForSession:completionHandler:]_block_invoke.cold.2
+- ___87+[WBSParsecDSession _updateAutoFillCorrectionSetsIfNeededForSession:completionHandler:]_block_invoke.cold.3
+- ___90-[WBSFormAutoFillParsecFeedbackProcessor _getFeedbackWithCorrectionSet:completionHandler:]_block_invoke
+- ___90-[WBSFormAutoFillParsecFeedbackProcessor _getFeedbackWithCorrectionSet:completionHandler:]_block_invoke_2
+- ___90-[WBSFormAutoFillParsecFeedbackProcessor _getFeedbackWithCorrectionSet:completionHandler:]_block_invoke_3
+- ___92-[WBSFormAutoFillCorrectionsSQLiteStore removeAllLocalClassificationsWithCompletionHandler:]_block_invoke
+- ___92-[WBSFormAutoFillCorrectionsSQLiteStore removeAllLocalClassificationsWithCompletionHandler:]_block_invoke_2
+- ___92-[WBSFormAutoFillCorrectionsSQLiteStore removeAllLocalClassificationsWithCompletionHandler:]_block_invoke_3
+- ___95-[WBSFormAutoFillMetadataCorrector enqueueCorrectionsRequestForFormMetadata:completionHandler:]_block_invoke
+- ___95-[WBSFormAutoFillMetadataCorrector enqueueCorrectionsRequestForFormMetadata:completionHandler:]_block_invoke_2
+- ___95-[WBSFormAutoFillMetadataCorrector enqueueCorrectionsRequestForFormMetadata:completionHandler:]_block_invoke_3
+- ___96-[WBSFormAutoFillCorrectionsHistoryObserver flushPendingChangesAndDisconnectFromStoreAndHistory]_block_invoke
+- ___98-[WBSCreditCardDataController getCreditCardDataToFill:host:externalizedContext:completionHandler:]_block_invoke.74
+- ___98-[WBSCreditCardDataController getCreditCardDataToFill:host:externalizedContext:completionHandler:]_block_invoke.76
+- ___98-[WBSCreditCardDataController getCreditCardDataToFill:host:externalizedContext:completionHandler:]_block_invoke_2.75
+- ___98-[WBSCreditCardDataController getCreditCardDataToFill:host:externalizedContext:completionHandler:]_block_invoke_2.75.cold.1
+- ___WBS_LOG_CHANNEL_PREFIXCrowdsourcedAutoFill_block_invoke
+- ___block_descriptor_40_ea8_32s_e33_v32?0"NSString"8"NSDate"16^B24ls32l8
+- ___block_descriptor_40_ea8_32s_e8_v12?0B8ls32l8
+- ___block_descriptor_48_e8_32s40r_e17_v16?0"NSError"8ls32l8r40l8
+- ___block_descriptor_48_e8_32s40s_e58_v32?0^{OpaqueFormAutoFillFrame=}8"WBSFormMetadata"16^B24ls32l8s40l8
+- ___block_descriptor_48_ea8_32s40s_e39_v32?0"NSString"8"NSDictionary"16^B24ls32l8s40l8
+- ___block_descriptor_56_ea8_32s40s48bs_e8_v16?0q8ls48l8s32l8s40l8
+- ___block_descriptor_56_ea8_32s40s48r_e35_v32?0"NSString"8"NSString"16^B24lr48l8s32l8s40l8
+- ___block_descriptor_56_ea8_32s40s_e22_v16?0"NSDictionary"8ls32l8s40l8
+- ___block_descriptor_57_ea8_32s40s48bs_e5_v8?0ls48l8s32l8s40l8
+- ___block_descriptor_64_e8_32s40s48s56w_e18_v16?0"NSString"8lw56l8s32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56w_e5_v8?0lw56l8s32l8s40l8s48l8
+- ___block_descriptor_64_ea8_32s40s48s56s_e5_B8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_72_ea8_32s40s48s56s64s_e5_B8?0ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_76_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_80_ea8_32s40bs48r56r64w_e18_v16?0"NSString"8lw64l8s32l8r48l8s40l8r56l8
+- ___block_descriptor_88_ea8_32s40s48bs56r64r72w_e5_v8?0lw72l8s32l8s40l8r56l8s48l8r64l8
+- ___block_descriptor_88_ea8_32s40s48s56s64s72bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_literal_global.100
+- ___block_literal_global.104
+- ___block_literal_global.121
+- ___block_literal_global.134
+- ___block_literal_global.145
+- ___block_literal_global.154
+- ___block_literal_global.46
+- ___block_literal_global.53
+- ___block_literal_global.64
+- ___block_literal_global.72
+- ___block_literal_global.76
+- _objc_msgSend$_classificationCorrectionsForControlWithMetadata:wasIdentifiedAsAddressBookField:
+- _objc_msgSend$_classificationForFieldWithFingerprint:onDomain:
+- _objc_msgSend$_commonInitWithDomain:correctionsStore:
+- _objc_msgSend$_correctionsSchema
+- _objc_msgSend$_createFreshLocalDatabaseSchema
+- _objc_msgSend$_customFeedbackOfType:JSONDictionary:
+- _objc_msgSend$_defaultLocalDatabaseURL
+- _objc_msgSend$_feedbackProcessor
+- _objc_msgSend$_feedbackWithCorrectionSet:includeOrigin:
+- _objc_msgSend$_fingerprintComponentsForControlMetadata:
+- _objc_msgSend$_getFeedbackWithCorrectionSet:completionHandler:
+- _objc_msgSend$_hashForString:
+- _objc_msgSend$_invalidateUpdateCoalescingTimer
+- _objc_msgSend$_normalizeURL:
+- _objc_msgSend$_openLocalDatabase
+- _objc_msgSend$_removeAllLocalClassifications
+- _objc_msgSend$_removeLocalClassificationsForDomain:recordedOnOrAfter:
+- _objc_msgSend$_replaceCrowdsourcedCorrectionSetsWithCorrectionSets:retrievalURLString:
+- _objc_msgSend$_schemaWithExpectedClass:errorCode:isOptional:
+- _objc_msgSend$_setCorrections:forFingerprint:onDomain:
+- _objc_msgSend$_setCrowdsourcedClassification:forFieldWithFingerprint:onDomain:
+- _objc_msgSend$_setLocalClassification:forFieldWithFingerprint:onDomain:date:completionHandler:
+- _objc_msgSend$_setLocalClassification:forFieldWithFingerprint:onDomain:dateReclassified:
+- _objc_msgSend$_updateAutoFillCorrectionSetsIfNeededForSession:completionHandler:
+- _objc_msgSend$_updateCorrectionsStoreNow
+- _objc_msgSend$_updateCorrectionsStoreSoon
+- _objc_msgSend$autoFillCorrectionManagerShouldProcessFeedback:
+- _objc_msgSend$autoFillFeedbackProcessor:determineWhetherToSendFeedbackForDomain:resultHandler:
+- _objc_msgSend$bestAvailableMetadataFromControlMetadata:
+- _objc_msgSend$exportCreditCardDataToFileWithURL:
+- _objc_msgSend$feedbackProcessorForAutoFillCorrectionManager:
+- _objc_msgSend$fieldClass
+- _objc_msgSend$fieldID
+- _objc_msgSend$fingerprintForControlMetadata:
+- _objc_msgSend$fingerprintsToClassifications
+- _objc_msgSend$fingerprintsToCorrections
+- _objc_msgSend$formAutoFillCorrectionManagerForFormFieldClassificationCorrector:
+- _objc_msgSend$formFieldClassificationCorrector:bestAddressBookLabelForControlValue:
+- _objc_msgSend$formFieldClassificationCorrector:hasAddressBookDataForAddressBookLabel:
+- _objc_msgSend$getClassificationForFieldWithFingerprint:onDomain:completionHandler:
+- _objc_msgSend$getLastCorrectionsRetrievalURLStringWithResultHandler:
+- _objc_msgSend$getLastCrowdsourcedCorrectionsRetrievalURLStringWithCompletionHandler:
+- _objc_msgSend$initWithCorrectionsStore:
+- _objc_msgSend$initWithDomain:
+- _objc_msgSend$initWithDomain:fingerprintsToClassifications:
+- _objc_msgSend$initWithDomain:fingerprintsToCorrections:
+- _objc_msgSend$initWithDomain:formMetadata:formValues:uniqueIDsOfControlsThatWereAutoFilled:
+- _objc_msgSend$initWithLocalDatabaseURL:parsecDatabaseURL:
+- _objc_msgSend$numberOfCreditCardsToBeExported
+- _objc_msgSend$removeAllLocalClassificationsWithCompletionHandler:
+- _objc_msgSend$removeLocalClassificationsForDomain:recordedOnOrAfter:completionHandler:
+- _objc_msgSend$replaceCrowdsourcedCorrectionSetsWithCorrectionSets:retrievalURLString:completionHandler:
+- _objc_msgSend$reverseTransformedValue:
+- _objc_msgSend$schemaForArrayWithElementSchema:
+- _objc_msgSend$schemaForDictionaryWithStructure:
+- _objc_msgSend$seekToEndOfFile
+- _objc_msgSend$seekToFileOffset:
+- _objc_msgSend$sendCrowdsourcedAutoFillFeedback:forQueryID:
+- _objc_msgSend$sendFeedbackWithCorrectionSet:
+- _objc_msgSend$setCorrectionSet:
+- _objc_msgSend$setCorrectionsWithJSONData:retrievalURLString:
+- _objc_msgSend$setLocalClassification:forFieldWithFingerprint:onDomain:completionHandler:
+- _objc_msgSend$sharedCorrectionsProcessor
+- _objc_msgSend$validateObject:withErrorHandler:
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~B6jCugDTpj1JNM6iaxWZ9gHuoUqlSjTZJ3MouAk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.Internal.sdk/usr/local/include/wtf/HashTable.h"
++ "/AppleInternal/Library/BuildRoots/4~B6jCugDTpj1JNM6iaxWZ9gHuoUqlSjTZJ3MouAk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.Internal.sdk/usr/local/include/wtf/RefCounted.h"
++ "235159"
++ "8622.1.21.10.3"
++ "Deleting obsolete local AutoFill corrections database."
++ "Failed to delete obsolete local AutoFill corrections database with error: %@"
++ "Failed to drop the v1 hosts table: %@ (%d)"
++ "Finished exporting Credit Cards"
++ "Successfully deleted obsolete local AutoFill corrections database."
++ "The format for the date to fill in a single field is missing, should have been populated by the JS classifier"
++ "WBSDateLastForceFetchedCloudTabs"
++ "WBSDebugForceFetchCloudTabsOnce"
++ "WebKit Accessibility"
++ "Website recommends another browser"
++ "_exportCreditCardDataToFileWithURL:completionHandler:"
++ "_getCreditCardDataWithAllowedTypes:completionHandler:"
++ "_obsoleteLocalDatabaseURLForRemoval"
++ "exportCreditCardDataToFileWithURL:completionHandler:"
++ "initWithParsecDatabaseURL:"
++ "numberOfCreditCardsToBeExportedWithCompletionHandler:"
++ "removeObsoleteDatabase"
++ "safari_removeFileOnlyAtURL:error:"
++ "v24@?0Q8@\"WBSCreditCardData\"16"
++ "webAccessibility"
+- "-[WBSFormAutoFillCorrectionsSQLiteStore _migrateToSchemaVersion_4]"
+- "/AppleInternal/Library/BuildRoots/4~B5hfugDPHYjs5QDsRFUO-X_1moJ1I0ANt4_WZz0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.Internal.sdk/usr/local/include/wtf/HashTable.h"
+- "/AppleInternal/Library/BuildRoots/4~B5hfugDPHYjs5QDsRFUO-X_1moJ1I0ANt4_WZz0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.Internal.sdk/usr/local/include/wtf/RefCounted.h"
+- "8622.1.19.10.4"
+- "@\"<WBSFormAutoFillCorrectionManagerDelegate>\""
+- "@\"<WBSFormAutoFillCorrectionsStore>\""
+- "@\"<WBSFormAutoFillFeedbackDomainPolicyProvider>\""
+- "@\"<WBSFormAutoFillFeedbackDomainPolicyProvider>\"16@0:8"
+- "@\"<WBSFormFieldClassificationCorrectorDelegate>\""
+- "@\"<WBSParsecGlobalFeedbackDispatcher>\""
+- "@\"WBSFormAutoFillClassificationToCorrectionsTransformer\""
+- "@36@0:8#16q24B32"
+- "Attempting to update cloud AutoFill corrections"
+- "Browser unsupported"
+- "CREATE TABLE corrections (id INTEGER PRIMARY KEY AUTOINCREMENT,host_id INTEGER NOT NULL REFERENCES hosts(id) ON DELETE CASCADE,fingerprint TEXT NOT NULL,classification TEXT)"
+- "CREATE TABLE user_corrections (id INTEGER PRIMARY KEY AUTOINCREMENT,host_id INTEGER NOT NULL REFERENCES visited_hosts(id) ON DELETE CASCADE,fingerprint TEXT NOT NULL,classification TEXT,first_correction_time REAL NOT NULL)"
+- "CREATE TABLE visited_hosts (id INTEGER PRIMARY KEY AUTOINCREMENT,domain TEXT NOT NULL UNIQUE)"
+- "Cloud AutoFill correction sets exceeded maximum length (%llu > %llu)"
+- "Completed update of correction sets"
+- "Corrections JSON data is not of kind dictionary: %{private}@"
+- "Could not fill date into field with max length %lu."
+- "CrowdsourcedAutoFill"
+- "DELETE FROM corrections"
+- "DELETE FROM corrections WHERE fingerprint = ? AND host_id IS NULL"
+- "DELETE FROM corrections WHERE host_id = ? AND fingerprint = ?"
+- "DELETE FROM hosts"
+- "DELETE FROM user_corrections WHERE classification = ''"
+- "DELETE FROM user_corrections WHERE host_id = ? AND fingerprint = ?"
+- "DELETE FROM user_corrections WHERE host_id = ? AND first_correction_time >= ?"
+- "DELETE FROM visited_hosts"
+- "DELETE FROM visited_hosts WHERE domain = ?"
+- "DELETE FROM visited_hosts WHERE id = ?"
+- "DELETE FROM visited_hosts WHERE id NOT IN (%@)"
+- "DROP TABLE whitelist"
+- "Did not find classification correction in either local or cloud database for fingerprint '%@"
+- "Enqueuing correction request for form metadata containing %lu controls"
+- "Failed to clear all visited hosts after pruning empty local classifications: %{public}@ (%d)"
+- "Failed to clear existing correction hosts: %@ (%d)"
+- "Failed to clear existing corrections: %@ (%d)"
+- "Failed to clear unneeded visited hosts after pruning empty local classifications: %{public}@ (%d)"
+- "Failed to create the user_corrections table: %@ (%d)"
+- "Failed to create the v2 corrections table: %@ (%d)"
+- "Failed to create the visited_hosts table: %@ (%d)"
+- "Failed to delete classifications: %@ (%d)"
+- "Failed to delete fingerprint: %@ (%d)"
+- "Failed to delete visited host: %@ (%d)"
+- "Failed to delete visited_hosts: %@ (%d)"
+- "Failed to drop old empty local classifications: %{public}@ (%d)"
+- "Failed to drop the corrections table: %@ (%d)"
+- "Failed to drop the hosts table: %@ (%d)"
+- "Failed to drop the metadata table: %@ (%d)"
+- "Failed to drop the whitelist table: %@ (%d)"
+- "Failed to enumerate visited host IDs after pruning empty local classifications: %{public}@ (%d)"
+- "Failed to fetch remaining user corrections: %@"
+- "Failed to find visited host: %@"
+- "Failed to insert fingerprint: %@ (%d)"
+- "Failed to insert host: %@ (%d)"
+- "Failed to update fingerprint: %@ (%d)"
+- "Failed to validate cloud AutoFill corrections: %{public}@, %{private}@"
+- "Fetching cloud AutoFill corrections resource"
+- "Field named '%@' is ineligible for AutoFill correction; returning nil corrections"
+- "Found host in cloud database"
+- "Found host in local database"
+- "Generating AutoFill feedback for %@: %@; submitting origin: %d"
+- "INSERT INTO corrections (fingerprint, classification) VALUES (?, ?)"
+- "INSERT INTO corrections (host_id, fingerprint, classification) VALUES (?, ?, ?)"
+- "INSERT INTO hosts (domain) VALUES (?)"
+- "INSERT INTO user_corrections (host_id, fingerprint, classification, first_correction_time) VALUES (?, ?, ?, ?)"
+- "INSERT INTO visited_hosts (domain) VALUES (?)"
+- "JSON deserialization failed with error: %{public}@"
+- "Last AutoFill corrections URL: %@"
+- "MMyy"
+- "Myy"
+- "Neither local nor cloud classification correction databases could be opened"
+- "No correction data retrieved; bailing"
+- "Not sending AutoFill correctionSet %@ on %@ since generated feedback was nil"
+- "Not sending AutoFill feedback since the correction manager told us not to"
+- "Not updating cloud AutoFill corrections since no update is needed"
+- "Preparing to send AutoFill corrections: %@ on domain: %@"
+- "Processing AutoFill corrections for %lu fields"
+- "Processing classification request considering *no* database"
+- "Processing classification request considering only cloud database"
+- "Processing classification request considering only local database"
+- "Processing classification request on database queue for control with fingerprint '%@'"
+- "Requesting asynchronous correction of control metadata at index %lu (name = '%@', fingerprint = '%@')"
+- "Returning classification '%@' from cloud database for fingerprint '%@"
+- "Returning classification '%@' from local database for fingerprint '%@'"
+- "SELECT COUNT(*) AS count FROM user_corrections WHERE host_id = ?"
+- "SELECT DISTINCT host_id FROM user_corrections"
+- "SELECT classification FROM corrections WHERE fingerprint = ? AND host_id IS NULL"
+- "SELECT classification FROM corrections WHERE host_id = ? AND fingerprint = ?"
+- "SELECT classification FROM user_corrections WHERE host_id = ? AND fingerprint = ?"
+- "SELECT id FROM hosts WHERE domain = ?"
+- "SELECT id FROM visited_hosts WHERE domain = ?"
+- "Sending AutoFill feedback: %@"
+- "Setting cloud AutoFill corrections with JSON data of length %lu"
+- "Setting local classification '%@' on database queue for control with fingerprint '%@'"
+- "Skipping AutoFill feedback generation due to missing domain"
+- "Skipping AutoFill feedback generation due to missing fingerprintsToCorrections"
+- "Skipping correction of control metadata at index %lu due to failure to generate fingerprint"
+- "T@\"<WBSFormAutoFillCorrectionManagerDelegate>\",W,N,V_delegate"
+- "T@\"<WBSFormAutoFillFeedbackDomainPolicyProvider>\",&,N"
+- "T@\"<WBSFormAutoFillFeedbackDomainPolicyProvider>\",&,N,V_domainPolicyProvider"
+- "T@\"<WBSFormFieldClassificationCorrectorDelegate>\",W,N,V_delegate"
+- "T@\"NSDictionary\",R,C,N,V_formValues"
+- "T@\"NSDictionary\",R,N,V_fingerprintsToClassifications"
+- "T@\"NSDictionary\",R,N,V_fingerprintsToCorrections"
+- "T@\"WBSFormMetadata\",R,C,N,V_formMetadata"
+- "UPDATE corrections SET classification = ? WHERE fingerprint = ? AND host_id IS NULL"
+- "UPDATE corrections SET classification = ? WHERE host_id = ? AND fingerprint = ?"
+- "UPDATE user_corrections SET classification = ? WHERE host_id = ? AND fingerprint = ?"
+- "Unable to read cloud AutoFill correction sets, error: %{public}@"
+- "Versions count is not 1 in correctionsDictionary"
+- "WBSFormAutoFillClassificationToCorrectionsTransformer"
+- "WBSFormAutoFillCorrectionManager"
+- "WBSFormAutoFillCorrectionSet"
+- "WBSFormAutoFillCorrectionsHistoryObserver"
+- "WBSFormAutoFillCorrectionsStore"
+- "WBSFormAutoFillFeedbackProcessor"
+- "WBSFormAutoFillMetadataCorrector"
+- "WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor"
+- "WBSFormAutoFillParsecFeedbackProcessor"
+- "WBSFormFieldClassificationCorrector"
+- "WBSFormFieldFingerprinter"
+- "_autoFillVersion"
+- "_classificationCorrectionsForControlWithMetadata:wasIdentifiedAsAddressBookField:"
+- "_classificationForFieldWithFingerprint:onDomain:"
+- "_classificationToCorrectionsTransformer"
+- "_coalescingTimerSource"
+- "_commonInitWithDomain:correctionsStore:"
+- "_correctedFormMetadataID"
+- "_correctionsSchema"
+- "_correctionsStore"
+- "_createFreshLocalDatabaseSchema"
+- "_defaultLocalDatabaseURL"
+- "_domainPolicyProvider"
+- "_feedbackProcessor"
+- "_feedbackWithCorrectionSet:includeOrigin:"
+- "_fingerprintComponentsForControlMetadata:"
+- "_fingerprintsToClassifications"
+- "_fingerprintsToCorrections"
+- "_formValues"
+- "_getFeedbackWithCorrectionSet:completionHandler:"
+- "_globalFeedbackDispatcher"
+- "_hashForString:"
+- "_historyVisitsWereRemoved:"
+- "_invalidateUpdateCoalescingTimer"
+- "_localDatabase"
+- "_localDatabaseURL"
+- "_normalizeURL:"
+- "_openLocalDatabase"
+- "_pendingRemovedHistoryItemsToProcess"
+- "_pendingRemovedHistoryVisitsToProcess"
+- "_removeAllLocalClassifications"
+- "_removeLocalClassificationsForDomain:recordedOnOrAfter:"
+- "_replaceCrowdsourcedCorrectionSetsWithCorrectionSets:retrievalURLString:"
+- "_requestProcessingQueue"
+- "_schemaWithExpectedClass:errorCode:isOptional:"
+- "_setCorrections:forFingerprint:onDomain:"
+- "_setCrowdsourcedClassification:forFieldWithFingerprint:onDomain:"
+- "_setLocalClassification:forFieldWithFingerprint:onDomain:date:completionHandler:"
+- "_setLocalClassification:forFieldWithFingerprint:onDomain:dateReclassified:"
+- "_uniqueIDsOfControlsThatWereAutoFilled"
+- "_updateAutoFillCorrectionSetsIfNeededForSession:completionHandler:"
+- "_updateCorrectionsStoreNow"
+- "_updateCorrectionsStoreSoon"
+- "autoFillCorrectionManagerShouldProcessFeedback:"
+- "autofill"
+- "autofill_corrections_url"
+- "bestAvailableMetadataFromControlMetadata:"
+- "bestAvailableMetadataFromMetadata:"
+- "com.apple.Safari.WBSFormAutoFillCorrectionsHistory"
+- "com.apple.SafariShared.FormAutoFillParsecCrowdsourcedCorrectionsErrorDomain"
+- "com.apple.SafariShared.WBSFormAutoFillParsecFeedbackProcessor"
+- "correct"
+- "correction_sets"
+- "correctionsForOrigin"
+- "domainPolicyProvider"
+- "enqueueCorrectionsRequestForFormMetadata:completionHandler:"
+- "exportCreditCardDataToFileWithURL:"
+- "feedbackProcessorForAutoFillCorrectionManager:"
+- "fingerprint"
+- "fingerprintForControlMetadata:"
+- "fingerprintsToClassifications"
+- "fingerprintsToCorrections"
+- "flushPendingChangesAndDisconnectFromStoreAndHistory"
+- "formAutoFillCorrectionManagerForFormFieldClassificationCorrector:"
+- "formFieldClassificationCorrector:bestAddressBookLabelForControlValue:"
+- "formFieldClassificationCorrector:hasAddressBookDataForAddressBookLabel:"
+- "formValues"
+- "getClassificationForFieldWithFingerprint:onDomain:completionHandler:"
+- "getCorrectionsForFormFieldFingerprint:onDomain:completionHandler:"
+- "getLastCorrectionsRetrievalURLStringWithResultHandler:"
+- "getLastCrowdsourcedCorrectionsRetrievalURLStringWithCompletionHandler:"
+- "hasAttemptedToCorrectMetadata:"
+- "initWithCorrectionsStore:"
+- "initWithDomain:"
+- "initWithDomain:fingerprintsToClassifications:"
+- "initWithDomain:fingerprintsToCorrections:"
+- "initWithDomain:formMetadata:formValues:uniqueIDsOfControlsThatWereAutoFilled:"
+- "initWithGlobalFeedbackDispatcher:domainPolicyProvider:autoFillVersion:"
+- "initWithLocalDatabaseURL:parsecDatabaseURL:"
+- "lastCorrectionsRetrievalURL"
+- "numberOfCreditCardsToBeExported"
+- "origins"
+- "processCorrections"
+- "removeAllLocalClassificationsWithCompletionHandler:"
+- "removeLocalClassificationsForDomain:recordedOnOrAfter:completionHandler:"
+- "replaceCrowdsourcedCorrectionSetsWithCorrectionSets:retrievalURLString:completionHandler:"
+- "reverseTransformedValue:"
+- "seekToEndOfFile"
+- "seekToFileOffset:"
+- "sendCrowdsourcedAutoFillFeedback:forQueryID:"
+- "sendFeedbackWithCorrectionSet:"
+- "setCorrectionSet:"
+- "setCorrectionsWithJSONData:retrievalURLString:"
+- "setCrowdsourcedClassification:forFieldWithFingerprint:onDomain:completionHandler:"
+- "setDomainPolicyProvider:"
+- "setLastCrowdsourcedCorrectionsRetrievalURLString:completionHandler:"
+- "setLocalClassification:forFieldWithFingerprint:onDomain:completionHandler:"
+- "sharedCorrectionsProcessor"
+- "test_correctionsSchema"
+- "v24@0:8@\"<WBSFormAutoFillFeedbackDomainPolicyProvider>\"16"
+- "v24@0:8@\"WBSFormAutoFillCorrectionSet\"16"
+- "v32@0:8@\"NSDictionary\"16q24"
+- "v32@?0@\"NSString\"8@\"NSDate\"16^B24"
+- "v40@0:8@\"NSString\"16@\"NSDate\"24@?<v@?B>32"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"NSString\">32"
+- "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@?<v@?B>40"
+
+```

@@ -1,0 +1,55 @@
+## AlarmUIFramework
+
+> `/System/Library/PrivateFrameworks/AlarmUIFramework.framework/AlarmUIFramework`
+
+```diff
+
+-3500.38.1.0.0
+-  __TEXT.__text: 0xb7c8
++3500.41.1.0.0
++  __TEXT.__text: 0xb89c
+   __TEXT.__auth_stubs: 0xc80
+   __TEXT.__const: 0x5d0
+   __TEXT.__swift5_typeref: 0x64b
+
+   __DATA_CONST.__const: 0xd8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __AUTH_CONST.__auth_got: 0x640
+-  __AUTH_CONST.__const: 0x348
++  __AUTH_CONST.__const: 0x3a0
+   __AUTH.__data: 0x3a0
+   __DATA.__data: 0x358
+   __DATA.__bss: 0x4c8
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 48F44BDF-6C8E-3522-92F6-63049B52ABF7
+-  Functions: 244
+-  Symbols:   226
++  UUID: BDA54133-A52B-363A-A522-EFBCA1C4C759
++  Functions: 248
++  Symbols:   230
+   CStrings:  7
+ 
+Symbols:
++ ___swift_get_extra_inhabitant_index.15Tm
++ ___swift_memcpy0_1
++ ___swift_noop_void_return
++ ___swift_store_extra_inhabitant_index.16Tm
++ _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO0A10AttributesV09DateFieldE0OAaBHPyHC.43
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewP07SnippetB0E17setHostBackgroundyQrAF0hI0OSgFQOyAF14ComponentStackVyAA7ForEachVySay21SiriTimeAlarmInternal0npF5ModelVGSSAA012_ConditionalD0Vy0P11UIFramework05SleeppE0VAU0pE0VGGG_Qo_AA30_EnvironmentKeyWritingModifierVyAA11ColorSchemeOGGAaDHPqd__AaDHD2_A1_HO_A6_AA0eY0HPyHCHC.7
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewP07SnippetB0E15componentTapped12isNavigation7performQrSb_yyctFQOyAA08ModifiedD0VyAA6VStackVyAA05TupleE0VyAF014SimpleItemRichE0V_AKyAF07Summaryp8StandardE0VAA14_PaddingLayoutVGtGGAUG_Qo_AZGAaDHPqd__AaDHD2_AZHO_qd__AaDHD2_AZHOHC.61
++ _get_witness_table 9SnippetUI0A7PreviewVy21SiriTimeAlarmInternal0fA5ModelV0F11UIFramework0fA0VG05SwiftB04ViewHPyHC.8
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBP07SnippetB0E15componentTapped12isNavigation7performQrSb_yyctFQOyAcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAD019SummaryItemSwitchV2C0V_SbQo__Qo_HO.62
++ _objectdestroy.29Tm
+- ___swift_get_extra_inhabitant_index.11Tm
+- ___swift_store_extra_inhabitant_index.12Tm
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO0A10AttributesV09DateFieldE0OAaBHPyHC.39
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewP07SnippetB0E17setHostBackgroundyQrAF0hI0OSgFQOyAF14ComponentStackVyAA7ForEachVySay21SiriTimeAlarmInternal0npF5ModelVGSSAA012_ConditionalD0Vy0P11UIFramework05SleeppE0VAU0pE0VGGG_Qo_AA30_EnvironmentKeyWritingModifierVyAA11ColorSchemeOGGAaDHPqd__AaDHD2_A1_HO_A6_AA0eY0HPyHCHC.3
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewP07SnippetB0E15componentTapped12isNavigation7performQrSb_yyctFQOyAA08ModifiedD0VyAA6VStackVyAA05TupleE0VyAF014SimpleItemRichE0V_AKyAF07Summaryp8StandardE0VAA14_PaddingLayoutVGtGGAUG_Qo_AZGAaDHPqd__AaDHD2_AZHO_qd__AaDHD2_AZHOHC.57
+- _get_witness_table 9SnippetUI0A7PreviewVy21SiriTimeAlarmInternal0fA5ModelV0F11UIFramework0fA0VG05SwiftB04ViewHPyHC.4
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBP07SnippetB0E15componentTapped12isNavigation7performQrSb_yyctFQOyAcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAD019SummaryItemSwitchV2C0V_SbQo__Qo_HO.58
+- _objectdestroy.25Tm
+
+```

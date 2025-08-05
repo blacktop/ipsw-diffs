@@ -1,0 +1,203 @@
+## AppleIDSetupUI
+
+> `/System/Library/PrivateFrameworks/AppleIDSetupUI.framework/AppleIDSetupUI`
+
+```diff
+
+-75.2.0.0.0
+-  __TEXT.__text: 0x10e860
+-  __TEXT.__auth_stubs: 0x3d70
+-  __TEXT.__objc_methlist: 0x1f6c
+-  __TEXT.__const: 0x8964
+-  __TEXT.__cstring: 0x68ae
++77.2.0.0.0
++  __TEXT.__text: 0x1102d4
++  __TEXT.__auth_stubs: 0x3db0
++  __TEXT.__objc_methlist: 0x1f74
++  __TEXT.__const: 0x8ac4
++  __TEXT.__cstring: 0x6a3e
+   __TEXT.__gcc_except_tab: 0x58
+-  __TEXT.__constg_swiftt: 0x378c
+-  __TEXT.__swift5_typeref: 0xcbf8
++  __TEXT.__constg_swiftt: 0x37f0
++  __TEXT.__swift5_typeref: 0xcca8
+   __TEXT.__swift5_builtin: 0x168
+-  __TEXT.__swift5_reflstr: 0x2b32
+-  __TEXT.__swift5_fieldmd: 0x2490
+-  __TEXT.__swift5_assocty: 0xa30
+-  __TEXT.__swift5_proto: 0x3b4
+-  __TEXT.__swift5_types: 0x2c0
+-  __TEXT.__oslogstring: 0x617d
+-  __TEXT.__swift_as_entry: 0x258
++  __TEXT.__swift5_reflstr: 0x2b92
++  __TEXT.__swift5_fieldmd: 0x24c4
++  __TEXT.__swift5_assocty: 0xa68
++  __TEXT.__swift5_proto: 0x3bc
++  __TEXT.__swift5_types: 0x2c4
++  __TEXT.__oslogstring: 0x632d
++  __TEXT.__swift_as_entry: 0x25c
+   __TEXT.__swift_as_ret: 0x228
+-  __TEXT.__swift5_capture: 0x1f64
++  __TEXT.__swift5_capture: 0x1fb8
+   __TEXT.__swift5_protos: 0x30
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x3a18
+-  __TEXT.__eh_frame: 0x5d14
++  __TEXT.__unwind_info: 0x3a90
++  __TEXT.__eh_frame: 0x5d94
+   __TEXT.__objc_classname: 0x342
+   __TEXT.__objc_methname: 0x552f
+   __TEXT.__objc_methtype: 0x1909
+   __TEXT.__objc_stubs: 0x1140
+-  __DATA_CONST.__got: 0x11b8
++  __DATA_CONST.__got: 0x11c8
+   __DATA_CONST.__const: 0x388
+   __DATA_CONST.__objc_classlist: 0x218
+   __DATA_CONST.__objc_catlist: 0x10
+
+   __DATA_CONST.__objc_protorefs: 0xf0
+   __DATA_CONST.__objc_superrefs: 0x18
+   __DATA_CONST.__objc_arraydata: 0xb0
+-  __AUTH_CONST.__auth_got: 0x1ec8
+-  __AUTH_CONST.__const: 0x77c8
++  __AUTH_CONST.__auth_got: 0x1ee8
++  __AUTH_CONST.__const: 0x79d8
+   __AUTH_CONST.__cfstring: 0xae0
+   __AUTH_CONST.__objc_const: 0xaee0
+   __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH.__objc_data: 0x35e0
++  __AUTH.__objc_data: 0x35e8
+   __AUTH.__data: 0x27f0
+   __DATA.__objc_ivar: 0x50
+-  __DATA.__data: 0x4468
++  __DATA.__data: 0x4568
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x6a20
++  __DATA.__bss: 0x6b20
+   __DATA.__common: 0x210
+   __DATA_DIRTY.__data: 0x158
+   __DATA_DIRTY.__bss: 0x100
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0B545DC3-B6A6-3E75-947B-5A751F97DD5B
+-  Functions: 5155
+-  Symbols:   3823
+-  CStrings:  2331
++  UUID: 9FC0B815-8594-360A-A13F-63F1E6D2A18C
++  Functions: 5186
++  Symbols:   3844
++  CStrings:  2350
+ 
+Symbols:
++ __PROTOCOLS__TtC14AppleIDSetupUI17RemoteUIPresenter.6
++ _associated conformance 14AppleIDSetupUI16FamilyRepairViewV0dE23NavigationRepresentable33_6B57F4BF787DBF8FEAB4AA02B56B60DCLLVy_xG05SwiftC0016UIViewControllerH0AaH0F0
++ _associated conformance 14AppleIDSetupUI16FamilyRepairViewV0dE23NavigationRepresentable33_6B57F4BF787DBF8FEAB4AA02B56B60DCLLVy_xG05SwiftC00F0AA4BodyAhIP_AhI
++ _block_copy_helper.130
++ _block_copy_helper.141
++ _block_copy_helper.157
++ _block_copy_helper.160
++ _block_copy_helper.21
++ _block_copy_helper.214
++ _block_copy_helper.221
++ _block_descriptor.132
++ _block_descriptor.143
++ _block_descriptor.159
++ _block_descriptor.162
++ _block_descriptor.216
++ _block_descriptor.223
++ _block_descriptor.23
++ _block_destroy_helper.131
++ _block_destroy_helper.142
++ _block_destroy_helper.158
++ _block_destroy_helper.161
++ _block_destroy_helper.215
++ _block_destroy_helper.22
++ _block_destroy_helper.222
++ _get_witness_table 7SwiftUI19_ConditionalContentVy012AppleIDSetupB016FamilyRepairViewV0gH23NavigationRepresentable33_6B57F4BF787DBF8FEAB4AA02B56B60DCLLVy_AA08ProgressI0VyAA05EmptyI0VAMGGAD0i10ControllerK0VyACyAD035TeenSetupContinueOnParentOrGuardianI0VAKyAA4TextVAMGGGGAA0I0HPAoaZHPyHC_AxaZHPyHCHC.17
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyACy012AppleIDSetupB015DiscoveringViewVAA08ModifiedD0VyAD010DiscoveredH0VAA30_EnvironmentKeyWritingModifierVy0eF014AISDeviceClassOGGGACyACyACyACyAD035TeenSetupContinueOnParentOrGuardianH0VAA08ProgressH0VyAA05EmptyH0VAXGGACyAHyAD08ProxCardH0VyAD0r5StartH10ControllerCGAA30_SafeAreaRegionsIgnoringLayoutVGAHyA0_yAD0z4CardH10ControllerCGA5_GGGACyACyAVyAA4TextVAXGAHyAD012AgeMigrationstuvwH0VAPGGA15_GGACyA0_ySo07PRXCarddH10ControllerCGA24_GGGA15_GAA0H0HPA27_AAA29_HPArAA29_HPAfAA29_HPyHC_AqAA29_HPAjAA29_HPyHC_ApA0hN0HPyHCHCHC_A26_AAA29_HPA21_AAA29_HPA12_AAA29_HPAzAA29_HPAtAA29_HPyHC_AyAA29_HPyHCHC_A11_AAA29_HPA6_AAA29_HPA3_AAA29_HPyHC_A5_AAA30_HPyHCHC_A10_AAA29_HPA9_AAA29_HPyHC_A5_AAA30_HPyHCHCHCHC_A20_AAA29_HPA19_AAA29_HPA15_AAA29_HPyHC_A18_AAA29_HPA17_AAA29_HPyHC_ApAA30_HPyHCHCHC_A15_AAA29_HPyHCHCHC_A25_AAA29_HPA24_AAA29_HPyHC_A24_AAA29_HPyHCHCHCHC_A15_AAA29_HPyHCHC.99
++ _objectdestroy.128Tm
++ _objectdestroy.36Tm
++ _symbolic _____ 12AppleIDSetup18_AgeMigrationErrorO
++ _symbolic _____ 14AppleIDSetupUI16FamilyRepairViewV0dE23NavigationRepresentable33_6B57F4BF787DBF8FEAB4AA02B56B60DCLLV
++ _symbolic _____SgXw 14AppleIDSetupUI17RemoteUIPresenterC
++ _symbolic _____SgXwz_Xx 14AppleIDSetupUI17RemoteUIPresenterC
++ _symbolic _____yAAyAAy__________y__________y_____GGGAAyAAyAAyAAy__________y_____ALGGAAyACy_____y_____G_____GACyAOy_____GARGGGAAyAAyAKy_____ALGACy_____AGGGAZGGAAyAOySo28PRXCardContentViewControllerCGA6_GGGAZG 7SwiftUI19_ConditionalContentV 012AppleIDSetupB015DiscoveringViewV AA08ModifiedD0V AD010DiscoveredH0V AA30_EnvironmentKeyWritingModifierV 0eF014AISDeviceClassO AD035TeenSetupContinueOnParentOrGuardianH0V AA08ProgressH0V AA05EmptyH0V AD08ProxCardH0V AD0r5StartH10ControllerC AA30_SafeAreaRegionsIgnoringLayoutV AD0z4CardH10ControllerC AA4TextV AD012AgeMigrationstuvwH0V
++ _symbolic _____yAAy__________y__________y_____GGGAAyAAyAAyAAy__________y_____ALGGAAyACy_____y_____G_____GACyAOy_____GARGGGAAyAAyAKy_____ALGACy_____AGGGAZGGAAyAOySo28PRXCardContentViewControllerCGA6_GGG 7SwiftUI19_ConditionalContentV 012AppleIDSetupB015DiscoveringViewV AA08ModifiedD0V AD010DiscoveredH0V AA30_EnvironmentKeyWritingModifierV 0eF014AISDeviceClassO AD035TeenSetupContinueOnParentOrGuardianH0V AA08ProgressH0V AA05EmptyH0V AD08ProxCardH0V AD0r5StartH10ControllerC AA30_SafeAreaRegionsIgnoringLayoutV AD0z4CardH10ControllerC AA4TextV AD012AgeMigrationstuvwH0V
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 012AppleIDSetupB014DiscoveredViewV AA30_EnvironmentKeyWritingModifierV 0eF014AISDeviceClassO
++ _symbolic _____y__________y__________y_____GGG 7SwiftUI19_ConditionalContentV 012AppleIDSetupB015DiscoveringViewV AA08ModifiedD0V AD010DiscoveredH0V AA30_EnvironmentKeyWritingModifierV 0eF014AISDeviceClassO
++ _symbolic _____y__________y__________y_____GG_G 7SwiftUI19_ConditionalContentV7StorageO 012AppleIDSetupB015DiscoveringViewV AA08ModifiedD0V AF010DiscoveredI0V AA30_EnvironmentKeyWritingModifierV 0fG014AISDeviceClassO
++ _symbolic _____y______y_____ACGG 14AppleIDSetupUI16FamilyRepairViewV0dE23NavigationRepresentable33_6B57F4BF787DBF8FEAB4AA02B56B60DCLLV 05SwiftC008ProgressF0V AG05EmptyF0V
++ _symbolic _____y_____yABy__________y__________y_____GGGAByAByAByABy__________y_____AMGGAByADy_____y_____G_____GADyAPy_____GASGGGAByAByALy_____AMGADy_____AHGGA_GGAByAPySo28PRXCardContentViewControllerCGA7_GGGA__G 7SwiftUI19_ConditionalContentV7StorageO AC 012AppleIDSetupB015DiscoveringViewV AA08ModifiedD0V AF010DiscoveredI0V AA30_EnvironmentKeyWritingModifierV 0fG014AISDeviceClassO AF035TeenSetupContinueOnParentOrGuardianI0V AA08ProgressI0V AA05EmptyI0V AF08ProxCardI0V AF0s5StartI10ControllerC AA30_SafeAreaRegionsIgnoringLayoutV AF08ProxCardI10ControllerC AA4TextV AF012AgeMigrationtuvwxI0V
++ _symbolic _____y_____y__________y__________GGG 14AppleIDSetupUI27ViewControllerRepresentableV 05SwiftC019_ConditionalContentV AA035TeenSetupContinueOnParentOrGuardianD0V AD08ProgressD0V AD4TextV AD05EmptyD0V
++ _symbolic _____y_____y__________y__________y_____GGGAByAByAByABy__________y_____AMGGAByADy_____y_____G_____GADyAPy_____GASGGGAByAByALy_____AMGADy_____AHGGA_GGAByAPySo28PRXCardContentViewControllerCGA7_GG_G 7SwiftUI19_ConditionalContentV7StorageO AC 012AppleIDSetupB015DiscoveringViewV AA08ModifiedD0V AF010DiscoveredI0V AA30_EnvironmentKeyWritingModifierV 0fG014AISDeviceClassO AF035TeenSetupContinueOnParentOrGuardianI0V AA08ProgressI0V AA05EmptyI0V AF08ProxCardI0V AF0s5StartI10ControllerC AA30_SafeAreaRegionsIgnoringLayoutV AF08ProxCardI10ControllerC AA4TextV AF012AgeMigrationtuvwxI0V
++ _symbolic _____y_____y______y_____ADGG_____yAAy_____ACy_____ADGGGG 7SwiftUI19_ConditionalContentV 012AppleIDSetupB016FamilyRepairViewV0gH23NavigationRepresentable33_6B57F4BF787DBF8FEAB4AA02B56B60DCLLV AA08ProgressI0V AA05EmptyI0V AD0i10ControllerK0V AD035TeenSetupContinueOnParentOrGuardianI0V AA4TextV
++ _symbolic _____y_xG 14AppleIDSetupUI16FamilyRepairViewV0dE23NavigationRepresentable33_6B57F4BF787DBF8FEAB4AA02B56B60DCLLV
++ _type_layout_string 7SwiftUI4ViewRzl012AppleIDSetupB0012FamilyRepairC0V0fG23NavigationRepresentable33_6B57F4BF787DBF8FEAB4AA02B56B60DCLLVy_xG
+- __PROTOCOLS__TtC14AppleIDSetupUI17RemoteUIPresenter.2
+- _block_copy_helper.124
+- _block_copy_helper.131
+- _block_copy_helper.135
+- _block_copy_helper.151
+- _block_copy_helper.154
+- _block_copy_helper.164
+- _block_copy_helper.208
+- _block_copy_helper.215
+- _block_descriptor.126
+- _block_descriptor.133
+- _block_descriptor.137
+- _block_descriptor.153
+- _block_descriptor.156
+- _block_descriptor.166
+- _block_descriptor.210
+- _block_descriptor.217
+- _block_destroy_helper.125
+- _block_destroy_helper.132
+- _block_destroy_helper.136
+- _block_destroy_helper.152
+- _block_destroy_helper.155
+- _block_destroy_helper.165
+- _block_destroy_helper.209
+- _block_destroy_helper.216
+- _get_witness_table 14AppleIDSetupUI27ViewControllerRepresentableVy05SwiftC019_ConditionalContentVyAFyAA035TeenSetupContinueOnParentOrGuardianD0VAD08ProgressD0VyAD4TextVAD05EmptyD0VGGAJyA2NGGGAD0D0HPyHC.12
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyACy012AppleIDSetupB015DiscoveringViewVAD010DiscoveredH0VGACyACyACyACyAD035TeenSetupContinueOnParentOrGuardianH0VAA08ProgressH0VyAA05EmptyH0VAOGGACyAA08ModifiedD0VyAD08ProxCardH0VyAD0k5StartH10ControllerCGAA30_SafeAreaRegionsIgnoringLayoutVGASyAUyAD0tuhW0CGAZGGGACyACyAMyAA4TextVAOGASyAD012AgeMigrationlmnopH0VAA30_EnvironmentKeyWritingModifierVy0eF014AISDeviceClassOGGGA8_GGACyAUySo07PRXCarddhW0CGA23_GGGA8_GAA0H0HPA26_AAA28_HPAiAA28_HPAfAA28_HPyHC_AhAA28_HPyHCHC_A25_AAA28_HPA20_AAA28_HPA5_AAA28_HPAqAA28_HPAkAA28_HPyHC_ApAA28_HPyHCHC_A4_AAA28_HPA_AAA28_HPAxAA28_HPyHC_AzA0H8ModifierHPyHCHC_A3_AAA28_HPA2_AAA28_HPyHC_AzAA29_HPyHCHCHCHC_A19_AAA28_HPA18_AAA28_HPA8_AAA28_HPyHC_A17_AAA28_HPA10_AAA28_HPyHC_A16_AAA29_HPyHCHCHC_A8_AAA28_HPyHCHCHC_A24_AAA28_HPA23_AAA28_HPyHC_A23_AAA28_HPyHCHCHCHC_A8_AAA28_HPyHCHC.99
+- _objectdestroy.122Tm
+- _objectdestroy.32Tm
+- _symbolic _____yAAyAAy__________GAAyAAyAAyAAy__________y_____AGGGAAy_____y_____y_____G_____GAJyAKy_____GANGGGAAyAAyAFy_____AGGAJy__________y_____GGGAVGGAAyAKySo28PRXCardContentViewControllerCGA5_GGGAVG 7SwiftUI19_ConditionalContentV 012AppleIDSetupB015DiscoveringViewV AD010DiscoveredH0V AD035TeenSetupContinueOnParentOrGuardianH0V AA08ProgressH0V AA05EmptyH0V AA08ModifiedD0V AD08ProxCardH0V AD0k5StartH10ControllerC AA30_SafeAreaRegionsIgnoringLayoutV AD0tuhW0C AA4TextV AD012AgeMigrationlmnopH0V AA30_EnvironmentKeyWritingModifierV 0eF014AISDeviceClassO
+- _symbolic _____yAAy__________GAAyAAyAAyAAy__________y_____AGGGAAy_____y_____y_____G_____GAJyAKy_____GANGGGAAyAAyAFy_____AGGAJy__________y_____GGGAVGGAAyAKySo28PRXCardContentViewControllerCGA5_GGG 7SwiftUI19_ConditionalContentV 012AppleIDSetupB015DiscoveringViewV AD010DiscoveredH0V AD035TeenSetupContinueOnParentOrGuardianH0V AA08ProgressH0V AA05EmptyH0V AA08ModifiedD0V AD08ProxCardH0V AD0k5StartH10ControllerC AA30_SafeAreaRegionsIgnoringLayoutV AD0tuhW0C AA4TextV AD012AgeMigrationlmnopH0V AA30_EnvironmentKeyWritingModifierV 0eF014AISDeviceClassO
+- _symbolic _____y__________G 7SwiftUI19_ConditionalContentV 012AppleIDSetupB015DiscoveringViewV AD010DiscoveredH0V
+- _symbolic _____y___________G 7SwiftUI19_ConditionalContentV7StorageO 012AppleIDSetupB015DiscoveringViewV AF010DiscoveredI0V
+- _symbolic _____y_____yABy__________GAByAByAByABy__________y_____AHGGABy_____y_____y_____G_____GAKyALy_____GAOGGGAByAByAGy_____AHGAKy__________y_____GGGAWGGAByALySo28PRXCardContentViewControllerCGA6_GGGAW_G 7SwiftUI19_ConditionalContentV7StorageO AC 012AppleIDSetupB015DiscoveringViewV AF010DiscoveredI0V AF035TeenSetupContinueOnParentOrGuardianI0V AA08ProgressI0V AA05EmptyI0V AA08ModifiedD0V AF08ProxCardI0V AF0l5StartI10ControllerC AA30_SafeAreaRegionsIgnoringLayoutV AF0uviX0C AA4TextV AF012AgeMigrationmnopqI0V AA30_EnvironmentKeyWritingModifierV 0fG014AISDeviceClassO
+- _symbolic _____y_____yABy__________y__________GGADyA2FGGG 14AppleIDSetupUI27ViewControllerRepresentableV 05SwiftC019_ConditionalContentV AA035TeenSetupContinueOnParentOrGuardianD0V AD08ProgressD0V AD4TextV AD05EmptyD0V
+- _symbolic _____y_____y__________GAByAByAByABy__________y_____AHGGABy_____y_____y_____G_____GAKyALy_____GAOGGGAByAByAGy_____AHGAKy__________y_____GGGAWGGAByALySo28PRXCardContentViewControllerCGA6_GG_G 7SwiftUI19_ConditionalContentV7StorageO AC 012AppleIDSetupB015DiscoveringViewV AF010DiscoveredI0V AF035TeenSetupContinueOnParentOrGuardianI0V AA08ProgressI0V AA05EmptyI0V AA08ModifiedD0V AF08ProxCardI0V AF0l5StartI10ControllerC AA30_SafeAreaRegionsIgnoringLayoutV AF0uviX0C AA4TextV AF012AgeMigrationmnopqI0V AA30_EnvironmentKeyWritingModifierV 0fG014AISDeviceClassO
+- _symbolic _____y_____y__________y__________GGADyA2FG_G 7SwiftUI19_ConditionalContentV7StorageO AC 012AppleIDSetupB039TeenSetupContinueOnParentOrGuardianViewV AA08ProgressO0V AA4TextV AA05EmptyO0V
+CStrings:
++ "?"
++ "@\"<AISChildSetupStoreProtocol>\""
++ "@\"AIDAServiceContext\""
++ "@\"AISAppleIDSignInConfiguration\""
++ "@\"AISShieldFlowContext\""
++ "@\"UIViewController<AISViewControllerPresentationHandlerProtocol>\""
++ "@\"_TtC14AppleIDSetupUI32ProtoAccountNavigationController\""
++ "AISFlowStepChildMigration: RemoteUI handled button %s"
++ "AISFlowStepChildMigration: User did not agree to family or iCloud terms. Tearing down flow"
++ "ConnectToFamilyViewController - Connect using email/phone backed out by user. no action required.)"
++ "FACircleStateController user did tap back"
++ "FamilyRepairView viewController type: %s (teenSetup: %{bool}d)"
++ "Q"
++ "SETUP_VIEW_BUTTON_DONE"
++ "User backed out of setup"
++ "User cancelled AgeMigration flow. Terminating with error: %@"
++ "User cancelled. Tearing down flow migration flow."
++ "onDisappear: No model coordination available, using direct assignment"
++ "onDisappear: Sending user cancellation response: %s"
++ "proximity_generic_ipad"
++ "proximity_generic_iphone"
++ "q"
+- "Error attempting to get name, using default no name: %@"
+- "Teen Setup onDisappear: No model coordination available, using direct assignment"
+- "Teen Setup onDisappear: Sending user cancellation response: %s"
+- "discovered-device"
+
+```

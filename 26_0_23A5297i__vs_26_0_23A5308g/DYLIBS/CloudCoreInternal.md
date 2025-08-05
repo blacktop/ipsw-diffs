@@ -1,0 +1,244 @@
+## CloudCoreInternal
+
+> `/System/Library/PrivateFrameworks/CloudCoreInternal.framework/CloudCoreInternal`
+
+```diff
+
+-2300.145.2.0.0
+-  __TEXT.__text: 0x50cb8
+-  __TEXT.__auth_stubs: 0x1080
+-  __TEXT.__const: 0x872c
+-  __TEXT.__cstring: 0xdce
+-  __TEXT.__swift5_typeref: 0x1ab9
+-  __TEXT.__constg_swiftt: 0x1798
+-  __TEXT.__swift5_reflstr: 0xc76
+-  __TEXT.__swift5_fieldmd: 0x15c0
++2300.147.2.0.0
++  __TEXT.__text: 0x5d62c
++  __TEXT.__auth_stubs: 0x1220
++  __TEXT.__const: 0x89fc
++  __TEXT.__cstring: 0xe6e
++  __TEXT.__swift5_typeref: 0x1cfd
++  __TEXT.__constg_swiftt: 0x1950
++  __TEXT.__swift5_reflstr: 0xdd6
++  __TEXT.__swift5_fieldmd: 0x16f4
+   __TEXT.__swift5_builtin: 0x3c
+   __TEXT.__swift5_assocty: 0x1c8
+-  __TEXT.__swift5_proto: 0x8bc
+-  __TEXT.__swift5_types: 0x218
++  __TEXT.__swift5_proto: 0x8cc
++  __TEXT.__swift5_types: 0x22c
+   __TEXT.__swift5_protos: 0x2c
+-  __TEXT.__swift5_capture: 0x194
+-  __TEXT.__swift_as_entry: 0x5c
+-  __TEXT.__swift_as_ret: 0x60
++  __TEXT.__swift5_capture: 0x2cc
++  __TEXT.__swift_as_entry: 0xa0
++  __TEXT.__swift_as_ret: 0xa4
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__oslogstring: 0x11b
+-  __TEXT.__unwind_info: 0x1f98
+-  __TEXT.__eh_frame: 0x2710
++  __TEXT.__oslogstring: 0x1ab
++  __TEXT.__unwind_info: 0x2350
++  __TEXT.__eh_frame: 0x3228
+   __TEXT.__objc_methname: 0xf
+-  __DATA_CONST.__got: 0x280
+-  __DATA_CONST.__const: 0xa8
++  __DATA_CONST.__got: 0x300
++  __DATA_CONST.__const: 0xf8
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x840
+-  __AUTH_CONST.__const: 0x3a78
+-  __AUTH_CONST.__objc_const: 0x208
+-  __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x718
+-  __DATA.__data: 0xc88
+-  __DATA.__bss: 0xa0a0
+-  __DATA.__common: 0x18
+-  __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__data: 0x1298
+-  __DATA_DIRTY.__bss: 0x7600
+-  __DATA_DIRTY.__common: 0x38
++  __AUTH_CONST.__auth_got: 0x910
++  __AUTH_CONST.__const: 0x3fa0
++  __AUTH_CONST.__objc_const: 0x298
++  __AUTH.__data: 0x200
++  __DATA.__data: 0xcd0
++  __DATA.__bss: 0x88a0
++  __DATA_DIRTY.__objc_data: 0xa0
++  __DATA_DIRTY.__data: 0x1ac8
++  __DATA_DIRTY.__bss: 0x9000
++  __DATA_DIRTY.__common: 0x50
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/Network.framework/Network
+   - /System/Library/Frameworks/Security.framework/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: F0B65265-0323-3370-95D2-C93DB95BC6E0
+-  Functions: 3273
+-  Symbols:   1850
+-  CStrings:  93
++  UUID: 7C1F44DC-B61B-30E4-B3D7-067784BBC7C5
++  Functions: 3544
++  Symbols:   1980
++  CStrings:  101
+ 
+Symbols:
++ _$s17CloudCoreInternal18ExponentialBackoffC3run9isolation_qd__ScA_pSgYi_qd__yYaKYTXEtYaKlF
++ _$s17CloudCoreInternal18ExponentialBackoffC3run9isolation_qd__ScA_pSgYi_qd__yYaKYTXEtYaKlFTu
++ _$s17CloudCoreInternal20AuthenticatedSessionC12AcquiredInfoV11serviceNameSSSgvM
++ _$s17CloudCoreInternal20AuthenticatedSessionC12AcquiredInfoV11serviceNameSSSgvg
++ _$s17CloudCoreInternal20AuthenticatedSessionC12AcquiredInfoV11serviceNameSSSgvpMV
++ _$s17CloudCoreInternal20AuthenticatedSessionC12AcquiredInfoV11serviceNameSSSgvs
++ _$s17CloudCoreInternal20AuthenticatedSessionC13ConfigurationV10EncryptionV15ServiceIdentityV11serviceNameSSSgvg
++ _$s17CloudCoreInternal20AuthenticatedSessionC13ConfigurationV10EncryptionV15ServiceIdentityV11serviceNameSSSgvpMV
++ _$s17CloudCoreInternal22AnySessionAcquiredInfoV11serviceNameSSSgvM
++ _$s17CloudCoreInternal22AnySessionAcquiredInfoV11serviceNameSSSgvg
++ _$s17CloudCoreInternal22AnySessionAcquiredInfoV11serviceNameSSSgvpMV
++ _$s17CloudCoreInternal22AnySessionAcquiredInfoV11serviceNameSSSgvs
++ _$s17CloudCoreInternal22AnySessionAcquiredInfoV9sessionID010privilegedG4Hash4user0L19PersonaUniqueString37keySyncRequestIdentityPublicKeyIDHash27previousInvalidationContext11serviceNameAcA0eI0V_10Foundation4DataVAA013AuthenticatedE0C12ResolvedUserVSgSSSgAA06SaltedK0VSgAA0exY0VSgAUtcfC
++ _$s17CloudCoreInternal22UnsafeSendableTransferC12extractValuexyF
++ _$s17CloudCoreInternal22UnsafeSendableTransferC8setValueyyxF
++ _$s17CloudCoreInternal22UnsafeSendableTransferCACyxGycfC
++ _$s17CloudCoreInternal22UnsafeSendableTransferCACyxGycfCTj
++ _$s17CloudCoreInternal22UnsafeSendableTransferCACyxGycfCTq
++ _$s17CloudCoreInternal22UnsafeSendableTransferCACyxGycfc
++ _$s17CloudCoreInternal22UnsafeSendableTransferCMa
++ _$s17CloudCoreInternal22UnsafeSendableTransferCMn
++ _$s17CloudCoreInternal22UnsafeSendableTransferCMo
++ _$s17CloudCoreInternal22UnsafeSendableTransferCMu
++ _$s17CloudCoreInternal22UnsafeSendableTransferCfD
++ _$s17CloudCoreInternal22UnsafeSendableTransferCfd
++ _$s17CloudCoreInternal22UnsafeSendableTransferCyACyxGxcfC
++ _$s17CloudCoreInternal22UnsafeSendableTransferCyACyxGxcfCTj
++ _$s17CloudCoreInternal22UnsafeSendableTransferCyACyxGxcfCTq
++ _$s17CloudCoreInternal22UnsafeSendableTransferCyACyxGxcfc
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC07currentF5CountSivg
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC07currentF5CountSivpMV
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC09incrementF5CountyyF
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC12currentDelay8DurationQzvg
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC12currentDelay8DurationQzvpMV
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC18networkPathMonitorq_vg
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC18networkPathMonitorq_vpMV
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC20initialEnforcedDelay8DurationQzvg
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC20initialEnforcedDelay8DurationQzvpMV
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC20maximumEnforcedDelay8DurationQzvg
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC20maximumEnforcedDelay8DurationQzvpMV
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC20propertyDescriptionsSayAA19PropertyDescriptionVGvg
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC20propertyDescriptionsSayAA19PropertyDescriptionVGvpMV
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC23backoffCountBeforeDelaySivg
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC23backoffCountBeforeDelaySivpMV
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC3run9isolation_qd__ScA_pSgYi_qd__yYaKYAYTXEtYaKlF
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC3run9isolation_qd__ScA_pSgYi_qd__yYaKYAYTXEtYaKlFTu
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC5clockxvg
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC5clockxvpMV
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC5label5clock23backoffCountBeforeDelay015initialEnforcedL007maximumnL09tolerance18networkPathMonitorACyxq_GSS_xSi8DurationQzA2MSgq_tcfC
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC5label5clock23backoffCountBeforeDelay015initialEnforcedL007maximumnL09tolerance18networkPathMonitorACyxq_GSS_xSi8DurationQzA2MSgq_tcfCTj
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC5label5clock23backoffCountBeforeDelay015initialEnforcedL007maximumnL09tolerance18networkPathMonitorACyxq_GSS_xSi8DurationQzA2MSgq_tcfCTq
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC5label5clock23backoffCountBeforeDelay015initialEnforcedL007maximumnL09tolerance18networkPathMonitorACyxq_GSS_xSi8DurationQzA2MSgq_tcfc
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC5labelSSvg
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC5labelSSvpMV
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC5resetyyF
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC9tolerance8DurationQzSgvg
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffC9tolerance8DurationQzSgvpMV
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffCAAs15ContinuousClockVRsz0E013NWPathMonitorCRs_rlE5label23backoffCountBeforeDelay015initialEnforcedO007maximumqO09toleranceACyAeHGSS_Sis8DurationVA2PSgtcfC
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffCMa
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffCMn
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffCMo
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffCMu
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffCfD
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffCfd
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffCyxq_GAA19PropertyDescribableAAMc
++ _$s17CloudCoreInternal25ExponentialNetworkBackoffCyxq_Gs23CustomStringConvertibleAAMc
++ _$s17CloudCoreInternal26SessionInvalidationContextV12deviceIDHash18primaryServiceName18privilegedInfoHash23userPersonaUniqueString14keySyncRequestAcA06SaltedN0V_SSSg10Foundation4DataVSgAkC03KeytU0VSgtcfC
++ _$s17CloudCoreInternal26SessionInvalidationContextV18primaryServiceNameSSSgvM
++ _$s17CloudCoreInternal26SessionInvalidationContextV18primaryServiceNameSSSgvg
++ _$s17CloudCoreInternal26SessionInvalidationContextV18primaryServiceNameSSSgvpMV
++ _$s17CloudCoreInternal26SessionInvalidationContextV18primaryServiceNameSSSgvs
++ _$s17CloudCoreInternal26SessionInvalidationContextV18privilegedInfoHash10Foundation4DataVSgvM
++ _$s17CloudCoreInternal26SessionInvalidationContextV18privilegedInfoHash10Foundation4DataVSgvg
++ _$s17CloudCoreInternal26SessionInvalidationContextV18privilegedInfoHash10Foundation4DataVSgvpMV
++ _$s17CloudCoreInternal26SessionInvalidationContextV18privilegedInfoHash10Foundation4DataVSgvs
++ _$s17CloudCoreInternal26SessionInvalidationContextV23userPersonaUniqueStringSSSgvM
++ _$s17CloudCoreInternal26SessionInvalidationContextV23userPersonaUniqueStringSSSgvg
++ _$s17CloudCoreInternal26SessionInvalidationContextV23userPersonaUniqueStringSSSgvpMV
++ _$s17CloudCoreInternal26SessionInvalidationContextV23userPersonaUniqueStringSSSgvs
++ _$s17CloudCoreInternal26withInterruptibleChildTask4name18executorPreference8priority9isolation9operationxSSSg_Sch_pSgScPSgScA_pSgYixScTAAE12CancelHandleVyxs5Error_p_GYaKYAcntYaKs8SendableRzlF
++ _$s17CloudCoreInternal26withInterruptibleChildTask4name18executorPreference8priority9isolation9operationxSSSg_Sch_pSgScPSgScA_pSgYixScTAAE12CancelHandleVyxs5Error_p_GYaKYAcntYaKs8SendableRzlFTu
++ _$s7Network13NWPathMonitorC8IteratorVMa
++ _$s7Network13NWPathMonitorC8IteratorVScIAAMc
++ _$s7Network13NWPathMonitorCACycfc
++ _$s7Network13NWPathMonitorCMa
++ _$s7Network13NWPathMonitorCMn
++ _$s7Network13NWPathMonitorCSciAAMc
++ _$s7Network6NWPathVMa
++ _$s7Network6NWPathVMn
++ _$sS2cEycfC
++ _$sScEMa
++ _$sScEs5ErrorsMc
++ _$sScITL
++ _$sScS10makeStream2of15bufferingPolicyScSyxG6stream_ScS12ContinuationVyx_G12continuationtxm_AG09BufferingE0Oyx__GtFZ
++ _$sScS12ContinuationV11YieldResultOMn
++ _$sScS12ContinuationV15BufferingPolicyO9unboundedyADyx__GAFmlFWC
++ _$sScS12ContinuationV15BufferingPolicyOMn
++ _$sScS12ContinuationV2eeoiySbAByx_G_ADtFZ
++ _$sScS12ContinuationV5yieldyAB11YieldResultOyx__GxnF
++ _$sScS12ContinuationVMa
++ _$sScS12ContinuationVMn
++ _$sScS12ContinuationVyx_GSHsMc
++ _$sScS17makeAsyncIteratorScS0C0Vyx_GyF
++ _$sScS8IteratorV4nextxSgyYaF
++ _$sScS8IteratorV4nextxSgyYaFTu
++ _$sScS8IteratorVMn
++ _$sScT17CloudCoreInternalE12CancelHandleV2eeoiySbACyxq__G_AEtFZ
++ _$sScT17CloudCoreInternalE12CancelHandleV4hash4intoys6HasherVz_tF
++ _$sScT17CloudCoreInternalE12CancelHandleV6cancelyyF
++ _$sScT17CloudCoreInternalE12CancelHandleV9hashValueSivg
++ _$sScT17CloudCoreInternalE12CancelHandleV9hashValueSivpMV
++ _$sScT17CloudCoreInternalE12CancelHandleVMa
++ _$sScT17CloudCoreInternalE12CancelHandleVMn
++ _$sScT17CloudCoreInternalE12CancelHandleVyxq__GSHAAMc
++ _$sScT17CloudCoreInternalE12CancelHandleVyxq__GSQAAMc
++ _$sScTss5NeverORszABRs_rlE11isCancelledSbvgZ
++ _$sScg4next9isolationxSgScA_pSgYi_tYaKF
++ _$sScg4next9isolationxSgScA_pSgYi_tYaKFTu
++ _$sScg9cancelAllyyF
++ _$sScgMa
++ _$sShMa
++ _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
++ _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
++ _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
++ _$ss11_SetStorageCMn
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lF
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lFTu
++ _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$ss6ResultOMa
++ _$ss6ResultOMn
++ _$ss8DurationV2eeoiySbAB_ABtFZ
++ __swiftEmptySetSingleton
++ _swift_endAccess
++ _swift_getExtendedFunctionTypeMetadata
+- _$s17CloudCoreInternal18ExponentialBackoffC3runyqd__qd__yYaKXEYaKlF
+- _$s17CloudCoreInternal18ExponentialBackoffC3runyqd__qd__yYaKXEYaKlFTu
+- _$s17CloudCoreInternal22AnySessionAcquiredInfoV9sessionID010privilegedG4Hash4user0L19PersonaUniqueString37keySyncRequestIdentityPublicKeyIDHash27previousInvalidationContextAcA0eI0V_10Foundation4DataVAA013AuthenticatedE0C12ResolvedUserVSgSSSgAA06SaltedK0VSgAA0exY0VSgtcfC
+- _$s17CloudCoreInternal26SessionInvalidationContextV12deviceIDHash14keySyncRequestAcA10SaltedHashV_AC03KeyjK0VSgtcfC
+CStrings:
++ "Interruptor task"
++ "NWPathMonitor indicated a network change while currentDelay is .zero"
++ "NWPathMonitor indicated a network change, resetting our backoff"
++ "networkPathMonitor"
++ "primaryServiceName"
++ "underlyingBackoff"
++ "userPersonalUniqueString"
++ "wrapped"
+
+```

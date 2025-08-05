@@ -1,0 +1,849 @@
+## PencilKit
+
+> `/System/Library/Frameworks/PencilKit.framework/PencilKit`
+
+```diff
+
+-563.100.0.0.0
+-  __TEXT.__text: 0x319734
+-  __TEXT.__auth_stubs: 0x30d0
+-  __TEXT.__objc_methlist: 0x25024
+-  __TEXT.__const: 0x7054
++566.0.0.0.0
++  __TEXT.__text: 0x320aa4
++  __TEXT.__auth_stubs: 0x3250
++  __TEXT.__objc_methlist: 0x251ac
++  __TEXT.__const: 0x7454
+   __TEXT.__dlopen_cstrs: 0x569
+-  __TEXT.__cstring: 0xd06e
+-  __TEXT.__constg_swiftt: 0xe50
+-  __TEXT.__swift5_typeref: 0x11a8
+-  __TEXT.__swift5_builtin: 0xa0
+-  __TEXT.__swift5_reflstr: 0xd82
+-  __TEXT.__swift5_fieldmd: 0x1280
+-  __TEXT.__swift5_assocty: 0x450
+-  __TEXT.__swift5_proto: 0x2d8
+-  __TEXT.__swift5_types: 0x134
+-  __TEXT.__swift5_capture: 0x58c
+-  __TEXT.__swift_as_entry: 0xbc
+-  __TEXT.__swift_as_ret: 0x88
++  __TEXT.__cstring: 0xd1dc
++  __TEXT.__constg_swiftt: 0xf88
++  __TEXT.__swift5_typeref: 0x12f6
++  __TEXT.__swift5_builtin: 0xc8
++  __TEXT.__swift5_reflstr: 0xe22
++  __TEXT.__swift5_fieldmd: 0x1304
++  __TEXT.__swift5_assocty: 0x4b0
++  __TEXT.__swift5_proto: 0x308
++  __TEXT.__swift5_types: 0x148
++  __TEXT.__swift5_capture: 0x5b8
++  __TEXT.__swift_as_entry: 0xc8
++  __TEXT.__swift_as_ret: 0x98
++  __TEXT.__oslogstring: 0xddb6
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__oslogstring: 0xdd15
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__gcc_except_tab: 0x24d4c
++  __TEXT.__gcc_except_tab: 0x24f30
+   __TEXT.__ustring: 0x21a
+-  __TEXT.__unwind_info: 0xf900
+-  __TEXT.__eh_frame: 0x25b8
+-  __TEXT.__objc_classname: 0x5582
+-  __TEXT.__objc_methname: 0x65183
+-  __TEXT.__objc_methtype: 0x18876
+-  __TEXT.__objc_stubs: 0x3b1e0
+-  __DATA_CONST.__got: 0x1ff0
+-  __DATA_CONST.__const: 0x6df0
+-  __DATA_CONST.__objc_classlist: 0x10e8
++  __TEXT.__unwind_info: 0xfa80
++  __TEXT.__eh_frame: 0x2828
++  __TEXT.__objc_classname: 0x5583
++  __TEXT.__objc_methname: 0x657cc
++  __TEXT.__objc_methtype: 0x188f9
++  __TEXT.__objc_stubs: 0x3b460
++  __DATA_CONST.__got: 0x2030
++  __DATA_CONST.__const: 0x6e28
++  __DATA_CONST.__objc_classlist: 0x10f0
+   __DATA_CONST.__objc_catlist: 0x80
+   __DATA_CONST.__objc_protolist: 0x7c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x12e88
++  __DATA_CONST.__objc_selrefs: 0x12f90
+   __DATA_CONST.__objc_protorefs: 0x100
+   __DATA_CONST.__objc_superrefs: 0xd68
+   __DATA_CONST.__objc_arraydata: 0x830
+-  __AUTH_CONST.__auth_got: 0x1880
+-  __AUTH_CONST.__const: 0x6810
+-  __AUTH_CONST.__cfstring: 0xe0a0
+-  __AUTH_CONST.__objc_const: 0x46ca8
++  __AUTH_CONST.__auth_got: 0x1940
++  __AUTH_CONST.__const: 0x6e50
++  __AUTH_CONST.__cfstring: 0xe120
++  __AUTH_CONST.__objc_const: 0x46fd8
+   __AUTH_CONST.__objc_intobj: 0x930
+   __AUTH_CONST.__objc_arrayobj: 0x648
+   __AUTH_CONST.__objc_doubleobj: 0xd0
+   __AUTH_CONST.__objc_dictobj: 0x3c0
+-  __AUTH.__objc_data: 0x9778
+-  __AUTH.__data: 0x728
+-  __DATA.__objc_ivar: 0x2b78
+-  __DATA.__data: 0x6370
+-  __DATA.__bss: 0x58b8
++  __AUTH.__objc_data: 0x9890
++  __AUTH.__data: 0x760
++  __DATA.__objc_ivar: 0x2b8c
++  __DATA.__data: 0x6480
++  __DATA.__bss: 0x5eb0
+   __DATA.__common: 0x128
+-  __DATA_DIRTY.__objc_ivar: 0x1160
++  __DATA_DIRTY.__objc_ivar: 0x1178
+   __DATA_DIRTY.__objc_data: 0x17c0
+   __DATA_DIRTY.__data: 0x38
+   __DATA_DIRTY.__bss: 0x6f8
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 30963DAE-9C21-391E-A364-996D345601B6
+-  Functions: 17068
+-  Symbols:   55845
+-  CStrings:  22767
++  UUID: 4143847A-AF0B-3603-A784-887E35178668
++  Functions: 17205
++  Symbols:   56374
++  CStrings:  22828
+ 
+Symbols:
++ +[PKImageRenderer createImageByUnpremultiplyingAlphaInImage:]
++ +[PKInkingTool invertColor:]
++ +[PKToolPicker _windowScenesForToolPicker:]
++ -[PKAttachmentView proofreadingView:willDismissStringsForProofreadingItem:]
++ -[PKDataDetectorInteractionHelper proofreadingView:willDismissStringsForProofreadingItem:]
++ -[PKDrawingPaletteView _paletteWidthForHorizontalOrientationWithoutTools]
++ -[PKImageRenderer _renderCGStrokes:clippedToStrokeSpaceRect:scale:strokeTransform:completion:]
++ -[PKImageRenderer renderCGStrokes:clippedToStrokeSpaceRect:scale:strokeTransform:completion:]
++ -[PKImageRenderer renderDrawing:clippedToStrokeSpaceRect:scale:strokeTransform:completion:]
++ -[PKImageRenderer renderStrokes:clippedToStrokeSpaceRect:scale:strokeTransform:completion:]
++ -[PKImageRenderer sixChannelCGRenderDrawing:clippedToStrokeSpaceRect:scale:strokeTransform:completion:]
++ -[PKPaletteAttributeViewController cornerLocation]
++ -[PKPaletteAttributeViewController edgeLocation]
++ -[PKPaletteAttributeViewController preferredContentSize]
++ -[PKPaletteAttributeViewController setCornerLocation:]
++ -[PKPaletteAttributeViewController setEdgeLocation:]
++ -[PKPaletteHostView _paletteEdgeMarginForEdge:isMinimized:]
++ -[PKPaletteMoreOptionsViewController scrollView]
++ -[PKPaletteMoreOptionsViewController setScrollView:]
++ -[PKProofreadingView allowsAutoHide]
++ -[PKProofreadingView autoHideSuppressionTokens]
++ -[PKProofreadingView cancelHideTimer]
++ -[PKProofreadingView popAllAutoHideSuppressionTokensAndFadeOutImmediately]
++ -[PKProofreadingView popAutoHideSuppressionToken:]
++ -[PKProofreadingView popAutoHideSuppressionTokens:fadeOutImmediately:]
++ -[PKProofreadingView pushAutoHideSuppressionToken:forceShow:]
++ -[PKProofreadingView setAutoHideSuppressionTokens:]
++ -[PKProofreadingView startHideTimer]
++ -[PKRendererTile initWithLevel:offset:drawingTransform:contentsScale:sixChannelMode:transparentBlending:wantsExtendedDynamicRangeContent:]
++ -[PKRendererTileProperties initWithLevel:offset:drawingTransform:sixChannelMode:transparentBlending:extendedDynamicRange:]
++ -[PKRendererTileProperties transparentBlending]
++ -[PKStrokeSelectionImageConfig initWithStrokeBounds:imageViewBounds:scale:imageSize:invertedColors:rotated:sixChannel:transparentBlending:highlighted:extendedDynamicRange:]
++ -[PKStrokeSelectionImageConfig transparentBlending]
++ -[PKTileController setTransparentBlending:]
++ -[PKTiledView _cleanupTilesWithStaleTransform]
++ -[PKToolPicker _directionalLayoutMargins]
++ -[PKToolPicker _setDirectionalLayoutMargins:]
++ GCC_except_table272
++ GCC_except_table277
++ GCC_except_table280
++ GCC_except_table285
++ GCC_except_table293
++ GCC_except_table300
++ GCC_except_table309
++ GCC_except_table319
++ GCC_except_table323
++ GCC_except_table326
++ GCC_except_table333
++ GCC_except_table335
++ GCC_except_table339
++ GCC_except_table343
++ GCC_except_table351
++ GCC_except_table358
++ GCC_except_table364
++ GCC_except_table368
++ GCC_except_table381
++ GCC_except_table387
++ GCC_except_table451
++ _$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWL
++ _$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl
++ _$s8Dispatch0A13WorkItemFlagsVMa
++ _$s8Dispatch0A13WorkItemFlagsVMn
++ _$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc
++ _$s8Dispatch0A3QoSV11unspecifiedACvgZ
++ _$s8Dispatch0A3QoSVMa
++ _$s9CoreImageMXM
++ _$s9PencilKit11InkFunctionV15InputPropertiesVWV
++ _$s9PencilKit11InkFunctionV15InputPropertiesVwet
++ _$s9PencilKit11InkFunctionV15InputPropertiesVwst
++ _$s9PencilKit11PKLassoToolVWV
++ _$s9PencilKit11PKLassoToolVwet
++ _$s9PencilKit11PKLassoToolVwst
++ _$s9PencilKit11PKRulerToolVWV
++ _$s9PencilKit11PKRulerToolVwet
++ _$s9PencilKit11PKRulerToolVwst
++ _$s9PencilKit12PKEraserToolVWV
++ _$s9PencilKit12PKEraserToolVwet
++ _$s9PencilKit12PKEraserToolVwst
++ _$s9PencilKit12PKInkingToolVWV
++ _$s9PencilKit12PKInkingToolVwet
++ _$s9PencilKit12PKInkingToolVwst
++ _$s9PencilKit12PKStrokePathVWV
++ _$s9PencilKit12PKStrokePathVwet
++ _$s9PencilKit12PKStrokePathVwst
++ _$s9PencilKit13PKStrokePointVWV
++ _$s9PencilKit13PKStrokePointVwet
++ _$s9PencilKit13PKStrokePointVwst
++ _$s9PencilKit16PKGenerationToolVWV
++ _$s9PencilKit16PKGenerationToolVwet
++ _$s9PencilKit16PKGenerationToolVwst
++ _$s9PencilKit17PKHandwritingToolVWV
++ _$s9PencilKit17PKHandwritingToolVwet
++ _$s9PencilKit17PKHandwritingToolVwst
++ _$s9PencilKit21RecognitionControllerC22EducationPanelFeaturesVWV
++ _$s9PencilKit21RecognitionControllerC22EducationPanelFeaturesVwet
++ _$s9PencilKit21RecognitionControllerC22EducationPanelFeaturesVwst
++ _$s9PencilKit21RecognitionControllerC25refineStrokeClustersBlock33_C07EB3BA79DD666E822D6A98FF7ECB3BLLySaySayAA8PKStrokeVGG_AItYacSgvpWvd
++ _$s9PencilKit21RecognitionControllerC28setRefineStrokeClustersBlockyyySaySayAA8PKStrokeVGG_AHtYacSgYaF
++ _$s9PencilKit21RecognitionControllerC28setRefineStrokeClustersBlockyyySaySayAA8PKStrokeVGG_AHtYacSgYaFTY0_
++ _$s9PencilKit21RecognitionControllerC28setRefineStrokeClustersBlockyyySaySayAA8PKStrokeVGG_AHtYacSgYaFTu
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLC11outputImageSo7CIImageCSgvg
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLC11outputImageSo7CIImageCSgvgTo
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLC13multiplyImageSo7CIImageCSgvpWvd
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLC15backgroundImageSo7CIImageCSgvpWvd
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLC5coderADSgSo7NSCoderC_tcfcTo
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLC6kernelSo13CIColorKernelCSgvpZ
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLC6kernelSo13CIColorKernelCSgvpZfiAHyXEfU_
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLC6kernel_WZ
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLC6kernel_Wz
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLC8addImageSo7CIImageCSgvpWvd
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLCADycfcTo
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLCMF
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLCMXX
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLCMa
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLCMf
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLCMn
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLCN
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLCfD
++ _$s9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLCfETo
++ _$s9PencilKit29CanvasDataDetectorInteractionC11setupHelper33_6CA4DD0836BA847654562546A8E159D1LL4view10parentViewySo6UIViewC_AISgtYaFySaySo06PKDataE4ItemCGcfU0_TA
++ _$s9PencilKit29CanvasDataDetectorInteractionC11setupHelper33_6CA4DD0836BA847654562546A8E159D1LL4view10parentViewySo6UIViewC_AISgtYaFySaySo06PKDataE4ItemCGcfU0_Tm
++ _$s9PencilKit29CanvasDataDetectorInteractionC11setupHelper33_6CA4DD0836BA847654562546A8E159D1LL4view10parentViewySo6UIViewC_AISgtYaFySaySo18PKProofreadingItemCGcfU1_TA
++ _$s9PencilKit29CanvasDataDetectorInteractionC11setupHelper33_6CA4DD0836BA847654562546A8E159D1LL4view10parentViewySo6UIViewC_AISgtYaFySo30PKProofreadingSettingsObserverCcfU_
++ _$s9PencilKit29CanvasDataDetectorInteractionC11setupHelper33_6CA4DD0836BA847654562546A8E159D1LL4view10parentViewySo6UIViewC_AISgtYaFySo30PKProofreadingSettingsObserverCcfU_TA
++ _$s9PencilKit29CanvasDataDetectorInteractionC11setupHelper33_6CA4DD0836BA847654562546A8E159D1LL4view10parentViewySo6UIViewC_AISgtYaFySo30PKProofreadingSettingsObserverCcfU_yyScMYccfU_
++ _$s9PencilKit29CanvasDataDetectorInteractionC11setupHelper33_6CA4DD0836BA847654562546A8E159D1LL4view10parentViewySo6UIViewC_AISgtYaFySo30PKProofreadingSettingsObserverCcfU_yyScMYccfU_TA
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.13
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.13TQ0_
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.13Tu
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.18
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.18TQ0_
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.18Tu
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.42
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.42TQ0_
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.42Tu
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.53
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.53TQ0_
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.53Tu
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.58
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.58TQ0_
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.58Tu
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.8
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.8TQ0_
++ _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.8Tu
++ _$s9PencilKit29CanvasDataDetectorInteractionC28proofreadingSettingsObserver33_6CA4DD0836BA847654562546A8E159D1LLSo014PKProofreadinghI0CSgvpWvd
++ _$s9PencilKit29CanvasDataDetectorInteractionC34forceProofreadingDetectionDisabledSbvM
++ _$s9PencilKit29CanvasDataDetectorInteractionC34forceProofreadingDetectionDisabledSbvM.resume.0
++ _$s9PencilKit29CanvasDataDetectorInteractionC34forceProofreadingDetectionDisabledSbvg
++ _$s9PencilKit29CanvasDataDetectorInteractionC34forceProofreadingDetectionDisabledSbvpMV
++ _$s9PencilKit29CanvasDataDetectorInteractionC34forceProofreadingDetectionDisabledSbvpWvd
++ _$s9PencilKit29CanvasDataDetectorInteractionC34forceProofreadingDetectionDisabledSbvs
++ _$s9PencilKit30PKTiledViewAnimationControllerC6refine4from2to2inSo13PKUndoCommandCSgSayAA8PKStrokeVG_AmA9PKDrawingVtYaFyScCyyts5NeverOGXEfU0_yycfU_
++ _$s9PencilKit30PKTiledViewAnimationControllerC6refine4from2to2inSo13PKUndoCommandCSgSayAA8PKStrokeVG_AmA9PKDrawingVtYaFyScCyyts5NeverOGXEfU0_yycfU_TA
++ _$s9PencilKit30PKTiledViewAnimationControllerC6refine4from2to2inSo13PKUndoCommandCSgSayAA8PKStrokeVG_AmA9PKDrawingVtYaFyScCyyts5NeverOGXEfU1_yycfU_
++ _$s9PencilKit30PKTiledViewAnimationControllerC6refine4from2to2inSo13PKUndoCommandCSgSayAA8PKStrokeVG_AmA9PKDrawingVtYaFyScCyyts5NeverOGXEfU1_yycfU_TA
++ _$s9PencilKit33AutoRefineTaskCoordinatorDelegate33_C07EB3BA79DD666E822D6A98FF7ECB3BLLC04autodeF0_21replaceStrokeClusters011withRefinedsT0ySo06PKAutodeF0C_SaySayAA8PKStrokeVGGAMtFTo
++ _$s9PencilKit33AutoRefineTaskCoordinatorDelegate33_C07EB3BA79DD666E822D6A98FF7ECB3BLLC04autodeF0_21replaceStrokeClusters011withRefinedsT0ySo06PKAutodeF0C_SaySayAA8PKStrokeVGGAMtFytSgyYacfU_
++ _$s9PencilKit33AutoRefineTaskCoordinatorDelegate33_C07EB3BA79DD666E822D6A98FF7ECB3BLLC04autodeF0_21replaceStrokeClusters011withRefinedsT0ySo06PKAutodeF0C_SaySayAA8PKStrokeVGGAMtFytSgyYacfU_TA
++ _$s9PencilKit33AutoRefineTaskCoordinatorDelegate33_C07EB3BA79DD666E822D6A98FF7ECB3BLLC04autodeF0_21replaceStrokeClusters011withRefinedsT0ySo06PKAutodeF0C_SaySayAA8PKStrokeVGGAMtFytSgyYacfU_TATQ0_
++ _$s9PencilKit33AutoRefineTaskCoordinatorDelegate33_C07EB3BA79DD666E822D6A98FF7ECB3BLLC04autodeF0_21replaceStrokeClusters011withRefinedsT0ySo06PKAutodeF0C_SaySayAA8PKStrokeVGGAMtFytSgyYacfU_TATu
++ _$s9PencilKit33AutoRefineTaskCoordinatorDelegate33_C07EB3BA79DD666E822D6A98FF7ECB3BLLC04autodeF0_21replaceStrokeClusters011withRefinedsT0ySo06PKAutodeF0C_SaySayAA8PKStrokeVGGAMtFytSgyYacfU_TQ2_
++ _$s9PencilKit33AutoRefineTaskCoordinatorDelegate33_C07EB3BA79DD666E822D6A98FF7ECB3BLLC04autodeF0_21replaceStrokeClusters011withRefinedsT0ySo06PKAutodeF0C_SaySayAA8PKStrokeVGGAMtFytSgyYacfU_TY0_
++ _$s9PencilKit33AutoRefineTaskCoordinatorDelegate33_C07EB3BA79DD666E822D6A98FF7ECB3BLLC04autodeF0_21replaceStrokeClusters011withRefinedsT0ySo06PKAutodeF0C_SaySayAA8PKStrokeVGGAMtFytSgyYacfU_TY1_
++ _$s9PencilKit33AutoRefineTaskCoordinatorDelegate33_C07EB3BA79DD666E822D6A98FF7ECB3BLLC04autodeF0_21replaceStrokeClusters011withRefinedsT0ySo06PKAutodeF0C_SaySayAA8PKStrokeVGGAMtFytSgyYacfU_TY3_
++ _$s9PencilKit33AutoRefineTaskCoordinatorDelegate33_C07EB3BA79DD666E822D6A98FF7ECB3BLLC04autodeF0_21replaceStrokeClusters011withRefinedsT0ySo06PKAutodeF0C_SaySayAA8PKStrokeVGGAMtFytSgyYacfU_TY4_
++ _$s9PencilKit33AutoRefineTaskCoordinatorDelegate33_C07EB3BA79DD666E822D6A98FF7ECB3BLLC04autodeF0_21replaceStrokeClusters011withRefinedsT0ySo06PKAutodeF0C_SaySayAA8PKStrokeVGGAMtFytSgyYacfU_Tu
++ _$s9PencilKit5PKInkVWV
++ _$s9PencilKit5PKInkVwet
++ _$s9PencilKit5PKInkVwst
++ _$s9PencilKit8PKStrokeVWV
++ _$s9PencilKit8PKStrokeVwet
++ _$s9PencilKit8PKStrokeVwst
++ _$s9PencilKit9PKDrawingV4draw2in5frame4from22darkUserInterfaceStyleySo12CGContextRefa_So6CGRectVALSbtYaF
++ _$s9PencilKit9PKDrawingV4draw2in5frame4from22darkUserInterfaceStyleySo12CGContextRefa_So6CGRectVALSbtYaFTQ1_
++ _$s9PencilKit9PKDrawingV4draw2in5frame4from22darkUserInterfaceStyleySo12CGContextRefa_So6CGRectVALSbtYaFTQ3_
++ _$s9PencilKit9PKDrawingV4draw2in5frame4from22darkUserInterfaceStyleySo12CGContextRefa_So6CGRectVALSbtYaFTQ5_
++ _$s9PencilKit9PKDrawingV4draw2in5frame4from22darkUserInterfaceStyleySo12CGContextRefa_So6CGRectVALSbtYaFTY0_
++ _$s9PencilKit9PKDrawingV4draw2in5frame4from22darkUserInterfaceStyleySo12CGContextRefa_So6CGRectVALSbtYaFTY2_
++ _$s9PencilKit9PKDrawingV4draw2in5frame4from22darkUserInterfaceStyleySo12CGContextRefa_So6CGRectVALSbtYaFTY4_
++ _$s9PencilKit9PKDrawingV4draw2in5frame4from22darkUserInterfaceStyleySo12CGContextRefa_So6CGRectVALSbtYaFTY6_
++ _$s9PencilKit9PKDrawingV4draw2in5frame4from22darkUserInterfaceStyleySo12CGContextRefa_So6CGRectVALSbtYaFTu
++ _$s9PencilKit9PKDrawingVWV
++ _$s9PencilKit9PKDrawingVwet
++ _$s9PencilKit9PKDrawingVwst
++ _$sIeg_IeyB_TR
++ _$sIeyBh_ytTz_
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo13CIImageOptiona_ypTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo13CIImageOptiona_ypTt0g5Tf4g_nTm
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo15CIContextOptiona_ypTt0g5Tf4g_n
++ _$sSS10FoundationE26_forceBridgeFromObjectiveC_6resultySo8NSStringC_SSSgztFZ
++ _$sSS10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo8NSStringC_SSSgztFZ
++ _$sSS9hashValueSivg
++ _$sSay8Dispatch0A13WorkItemFlagsVGMD
++ _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWL
++ _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl
++ _$sSayxGSTsMc
++ _$sSccySo10CGImageRefaSg_ACts5NeverOGMD
++ _$sSccyyts5NeverOGMD
++ _$sSo10CGImageRefaML
++ _$sSo10CGImageRefaMa
++ _$sSo10CGImageRefaMf
++ _$sSo10CGImageRefaMn
++ _$sSo10CGImageRefaSgACIeyBhyy_AC_ACtTz_
++ _$sSo12CGContextRefa12CoreGraphicsE4draw_2in8byTilingySo07CGImageB0a_So6CGRectVSbtF
++ _$sSo13CIColorKernelC12functionName20fromMetalLibraryDataABSS_10Foundation0H0VtKcfCTOTf4ngn_n
++ _$sSo13CIColorKernelCML
++ _$sSo13CIImageOptionaABSHSCWL
++ _$sSo13CIImageOptionaABSHSCWlTm
++ _$sSo13CIImageOptionaABSQSCWL
++ _$sSo13CIImageOptionaABSYSCWL
++ _$sSo13CIImageOptionaABSYSCWlTm
++ _$sSo13CIImageOptionaABs20_SwiftNewtypeWrapperSCWL
++ _$sSo13CIImageOptionaABs35_HasCustomAnyHashableRepresentationSCWL
++ _$sSo13CIImageOptionaMB
++ _$sSo13CIImageOptionaMF
++ _$sSo13CIImageOptionaML
++ _$sSo13CIImageOptionaMa
++ _$sSo13CIImageOptionaMf
++ _$sSo13CIImageOptionaMn
++ _$sSo13CIImageOptionaSHSCMc
++ _$sSo13CIImageOptionaSHSCMcMK
++ _$sSo13CIImageOptionaSHSCSH13_rawHashValue4seedS2i_tFTW
++ _$sSo13CIImageOptionaSHSCSH13_rawHashValue4seedS2i_tFTWTm
++ _$sSo13CIImageOptionaSHSCSH4hash4intoys6HasherVz_tFTW
++ _$sSo13CIImageOptionaSHSCSH4hash4intoys6HasherVz_tFTWTm
++ _$sSo13CIImageOptionaSHSCSH9hashValueSivgTW
++ _$sSo13CIImageOptionaSHSCSH9hashValueSivgTWTm
++ _$sSo13CIImageOptionaSHSCSQWb
++ _$sSo13CIImageOptionaSQSCMc
++ _$sSo13CIImageOptionaSQSCMcMK
++ _$sSo13CIImageOptionaSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo13CIImageOptionaSQSCSQ2eeoiySbx_xtFZTWTm
++ _$sSo13CIImageOptionaSYSCMA
++ _$sSo13CIImageOptionaSYSCMc
++ _$sSo13CIImageOptionaSYSCMcMK
++ _$sSo13CIImageOptionaSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo13CIImageOptionaSYSCSY8rawValuexSg03RawD0Qz_tcfCTW
++ _$sSo13CIImageOptionaSYSCSY8rawValuexSg03RawD0Qz_tcfCTWTm
++ _$sSo13CIImageOptiona_yptMD
++ _$sSo13CIImageOptiona_yptWOhTm
++ _$sSo13CIImageOptionas20_SwiftNewtypeWrapperSCMc
++ _$sSo13CIImageOptionas20_SwiftNewtypeWrapperSCMcMK
++ _$sSo13CIImageOptionas20_SwiftNewtypeWrapperSCSYWb
++ _$sSo13CIImageOptionas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb
++ _$sSo13CIImageOptionas21_ObjectiveCBridgeableSCMA
++ _$sSo13CIImageOptionas21_ObjectiveCBridgeableSCMc
++ _$sSo13CIImageOptionas21_ObjectiveCBridgeableSCMcMK
++ _$sSo13CIImageOptionas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromC1C_6resulty01_C5CTypeQz_xSgztFZTW
++ _$sSo13CIImageOptionas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromC1C_6resulty01_C5CTypeQz_xSgztFZTWTm
++ _$sSo13CIImageOptionas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromC1C_6resultSb01_C5CTypeQz_xSgztFZTW
++ _$sSo13CIImageOptionas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromC1C_6resultSb01_C5CTypeQz_xSgztFZTWTm
++ _$sSo13CIImageOptionas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromC1Cyx01_C5CTypeQzSgFZTW
++ _$sSo13CIImageOptionas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromC1Cyx01_C5CTypeQzSgFZTWTm
++ _$sSo13CIImageOptionas21_ObjectiveCBridgeableSCsACP09_bridgeToC1C01_C5CTypeQzyFTW
++ _$sSo13CIImageOptionas35_HasCustomAnyHashableRepresentationSCMc
++ _$sSo13CIImageOptionas35_HasCustomAnyHashableRepresentationSCMcMK
++ _$sSo13CIImageOptionas35_HasCustomAnyHashableRepresentationSCsACP03_todeF0s0eF0VSgyFTW
++ _$sSo13os_log_type_ta0A0E5errorABvgZ
++ _$sSo15CGColorSpaceRefaML
++ _$sSo15CGColorSpaceRefaMa
++ _$sSo15CGColorSpaceRefaMf
++ _$sSo15CGColorSpaceRefaMn
++ _$sSo15CIContextOptionaABSHSCWL
++ _$sSo15CIContextOptionaABSQSCWL
++ _$sSo15CIContextOptionaABSYSCWL
++ _$sSo15CIContextOptionaABs20_SwiftNewtypeWrapperSCWL
++ _$sSo15CIContextOptionaABs35_HasCustomAnyHashableRepresentationSCWL
++ _$sSo15CIContextOptionaMB
++ _$sSo15CIContextOptionaMF
++ _$sSo15CIContextOptionaML
++ _$sSo15CIContextOptionaMa
++ _$sSo15CIContextOptionaMf
++ _$sSo15CIContextOptionaMn
++ _$sSo15CIContextOptionaSHSCMc
++ _$sSo15CIContextOptionaSHSCMcMK
++ _$sSo15CIContextOptionaSHSCSH13_rawHashValue4seedS2i_tFTW
++ _$sSo15CIContextOptionaSHSCSH4hash4intoys6HasherVz_tFTW
++ _$sSo15CIContextOptionaSHSCSH9hashValueSivgTW
++ _$sSo15CIContextOptionaSHSCSQWb
++ _$sSo15CIContextOptionaSQSCMc
++ _$sSo15CIContextOptionaSQSCMcMK
++ _$sSo15CIContextOptionaSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo15CIContextOptionaSYSCMA
++ _$sSo15CIContextOptionaSYSCMc
++ _$sSo15CIContextOptionaSYSCMcMK
++ _$sSo15CIContextOptionaSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo15CIContextOptionaSYSCSY8rawValuexSg03RawD0Qz_tcfCTW
++ _$sSo15CIContextOptiona_yptMD
++ _$sSo15CIContextOptiona_yptWOcTm
++ _$sSo15CIContextOptionas20_SwiftNewtypeWrapperSCMc
++ _$sSo15CIContextOptionas20_SwiftNewtypeWrapperSCMcMK
++ _$sSo15CIContextOptionas20_SwiftNewtypeWrapperSCSYWb
++ _$sSo15CIContextOptionas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb
++ _$sSo15CIContextOptionas21_ObjectiveCBridgeableSCMA
++ _$sSo15CIContextOptionas21_ObjectiveCBridgeableSCMc
++ _$sSo15CIContextOptionas21_ObjectiveCBridgeableSCMcMK
++ _$sSo15CIContextOptionas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromC1C_6resulty01_C5CTypeQz_xSgztFZTW
++ _$sSo15CIContextOptionas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromC1C_6resultSb01_C5CTypeQz_xSgztFZTW
++ _$sSo15CIContextOptionas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromC1Cyx01_C5CTypeQzSgFZTW
++ _$sSo15CIContextOptionas21_ObjectiveCBridgeableSCsACP09_bridgeToC1C01_C5CTypeQzyFTW
++ _$sSo15CIContextOptionas35_HasCustomAnyHashableRepresentationSCMc
++ _$sSo15CIContextOptionas35_HasCustomAnyHashableRepresentationSCMcMK
++ _$sSo15CIContextOptionas35_HasCustomAnyHashableRepresentationSCsACP03_todeF0s0eF0VSgyFTW
++ _$sSo17CGAffineTransformV9PencilKitE11convertFrom2to7percentABSo6CGRectV_AH12CoreGraphics7CGFloatVtcfCTf4nnnd_n
++ _$sSo17OS_dispatch_queueC8DispatchE4mainABvgZ
++ _$sSo17OS_dispatch_queueC8DispatchE5async5group3qos5flags7executeySo0a1_b1_F0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
++ _$sSo17OS_dispatch_queueCML
++ _$sSo30PKProofreadingSettingsObserverCIegg_ABIeyBy_TR
++ _$sSo6NSNullCML
++ _$sSo6NSNullCMaTm
++ _$sSo7CIImageCML
++ _$sSo8NSObjectCSgMD
++ _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
++ _$ss18_DictionaryStorageCySo13CIImageOptionaypGMD
++ _$ss18_DictionaryStorageCySo15CIContextOptionaypGMD
++ _$ss20_SwiftNewtypeWrapperMp
++ _$ss20_SwiftNewtypeWrapperPSYTb
++ _$ss20_SwiftNewtypeWrapperPs35_HasCustomAnyHashableRepresentationTb
++ _$ss20_SwiftNewtypeWrapperPsSHRzSH8RawValueSYRpzrlE20_toCustomAnyHashables0hI0VSgyF
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo15CIContextOptiona_Tg5Tm
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo13CIImageOptiona_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo15CIContextOptiona_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo15CIContextOptiona_Tg5Tm
++ _$ss23_ContiguousArrayStorageCySo13CIImageOptiona_yptGMD
++ _$ss23_ContiguousArrayStorageCySo15CIContextOptiona_yptGMD
++ _$ss35_HasCustomAnyHashableRepresentationMp
++ _$ss35_HasCustomAnyHashableRepresentationP03_tobcD0s0cD0VSgyFTq
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.67
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.67TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.67Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.77
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.77TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.77Tu
++ _.str.290
++ _.str.364
++ _.str.53
++ _.str.76
++ _CGAffineTransformMake
++ _CGBitmapContextGetColorSpace
++ _CGColorSpaceIsHDR
++ _CGColorSpaceUsesExtendedRange
++ _CGContextGetType
++ _CGContextSetCTM
++ _CGContextSetInterpolationQuality
++ _CGImageGetColorSpace
++ _DKUColorIsEqualToColorIgnoringOpacityWithTolerance
++ _NSStringFromDirectionalEdgeInsets
++ _OBJC_CLASS_$_CIColorKernel
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_IVAR_$_PKPaletteAttributeViewController._cornerLocation
++ _OBJC_IVAR_$_PKPaletteAttributeViewController._edgeLocation
++ _OBJC_IVAR_$_PKRendererTile._transparentBlending
++ _OBJC_IVAR_$_PKRendererTileProperties._transparentBlending
++ _OBJC_IVAR_$_PKStrokeSelectionImageConfig._transparentBlending
++ _OBJC_IVAR_$_PKToolPicker.__directionalLayoutMargins
++ _OBJC_METACLASS_$_CIFilter
++ _OBJC_METACLASS_$__TtC9PencilKitP33_45B1B8C2C17199CF2EF5F41F5CBE091B25SixChannelCompositeFilter
++ _PKPalettePopoverArrowMargin
++ _PKPaletteToolsMinimumWidthInOrnament
++ _PKPaletteToolsWindowPaddingInOrnament
++ _PKPaletteTopLayoutMarginIgnoringSafeArea
++ __DATA__TtC9PencilKitP33_45B1B8C2C17199CF2EF5F41F5CBE091B25SixChannelCompositeFilter
++ __INSTANCE_METHODS__TtC9PencilKitP33_45B1B8C2C17199CF2EF5F41F5CBE091B25SixChannelCompositeFilter
++ __IVARS__TtC9PencilKitP33_45B1B8C2C17199CF2EF5F41F5CBE091B25SixChannelCompositeFilter
++ __METACLASS_DATA__TtC9PencilKitP33_45B1B8C2C17199CF2EF5F41F5CBE091B25SixChannelCompositeFilter
++ __MergedGlobals.291
++ __OBJC_CLASS_PROTOCOLS_$_PKPaletteAttributeViewController
++ __PROPERTIES__TtC9PencilKitP33_45B1B8C2C17199CF2EF5F41F5CBE091B25SixChannelCompositeFilter
++ __PROTOCOLS__TtC9PencilKitP33_6CA4DD0836BA847654562546A8E159D126DataDetectorHelperDelegate.33
++ __PROTOCOLS__TtC9PencilKitP33_C07EB3BA79DD666E822D6A98FF7ECB3B33AutoRefineTaskCoordinatorDelegate.23
++ ___111-[PKAutoRefineTaskCoordinator autoRefineTask:synthesizeRefinedDrawingForStrokes:transcription:completionBlock:]_block_invoke.12
++ ___111-[PKAutoRefineTaskCoordinator autoRefineTask:synthesizeRefinedDrawingForStrokes:transcription:completionBlock:]_block_invoke.8
++ ___111-[PKAutoRefineTaskCoordinator autoRefineTask:synthesizeRefinedDrawingForStrokes:transcription:completionBlock:]_block_invoke_2.18
++ ___34-[PKToolPicker initWithToolItems:]_block_invoke.135
++ ___36-[PKProofreadingView startHideTimer]_block_invoke
++ ___43-[PKPaletteAdditionalOptionsView _updateUI]_block_invoke_2
++ ___51-[PKTiledView renderAttachment:intoCanvas:showing:]_block_invoke.584
++ ___54-[PKTiledView _updateWantsExtendedDynamicRangeContent]_block_invoke.367
++ ___65-[PKTiledView _copyFromCanvas:intoAttachment:hideCanvas:strokes:]_block_invoke.585
++ ___65-[PKTiledView _copyFromCanvas:intoAttachment:hideCanvas:strokes:]_block_invoke.586
++ ___71-[PKRecognitionController refineStrokes:drawing:inputScale:completion:]_block_invoke.48
++ ___80-[PKDataDetectorInteractionHelper updateDetectionViews:withItems:previousItems:]_block_invoke.35
++ ___81-[PKToolPicker _setVisibleInWindow:forFirstResponder:animated:notify:completion:]_block_invoke.80
++ ___88-[PKTiledView updateTilesForVisibleRectOffscreenOverrideAdditionalStrokes:withCallback:]_block_invoke.588
++ ___89-[PKTiledView _setAdditionalStrokes:inDrawing:invalidateTiles:forceOffscreen:completion:]_block_invoke.604
++ ___91-[PKImageRenderer renderStrokes:clippedToStrokeSpaceRect:scale:strokeTransform:completion:]_block_invoke
++ ___93-[PKImageRenderer renderCGStrokes:clippedToStrokeSpaceRect:scale:strokeTransform:completion:]_block_invoke
++ ___Block_byref_object_copy_.566
++ ___Block_byref_object_dispose_.567
++ ___block_descriptor_48_e67_B24?0"PKPaletteInputAssistantButtonProvider"8"UIBarButtonItem"16l
++ ___block_descriptor_48_e8_32s40w_e17_v16?0"NSTimer"8lw40l8s32l8
++ ___block_literal_global.100
++ ___block_literal_global.117
++ ___block_literal_global.119
++ ___block_literal_global.138
++ ___block_literal_global.1489
++ ___block_literal_global.1496
++ ___block_literal_global.192
++ ___block_literal_global.196
++ ___block_literal_global.198
++ ___block_literal_global.361
++ ___block_literal_global.52
++ ___block_literal_global.539
++ ___block_literal_global.546
++ ___block_literal_global.555
++ ___block_literal_global.60
++ ___block_literal_global.603
++ ___block_literal_global.63
++ ___block_literal_global.65
++ ___block_literal_global.667
++ ___block_literal_global.90
++ ___block_literal_global.92
++ ___block_literal_global.94
++ ___block_literal_global.98
++ ___const.DKUColorIsEqualToColorIgnoringOpacityWithTolerance.firstColorRGBA
++ ___const.DKUColorIsEqualToColorIgnoringOpacityWithTolerance.secondColorRGBA
++ ___swift_memcpy8_8
++ __swift_stdlib_bridgeErrorToNSError
++ _associated conformance So13CIImageOptionaSHSCSQ
++ _associated conformance So13CIImageOptionas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So13CIImageOptionas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So15CIContextOptionaSHSCSQ
++ _associated conformance So15CIContextOptionas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So15CIContextOptionas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.1
++ _block_copy_helper.4
++ _block_copy_helper.53
++ _block_copy_helper.59
++ _block_copy_helper.65
++ _block_copy_helper.71
++ _block_copy_helper.97
++ _block_descriptor.3
++ _block_descriptor.55
++ _block_descriptor.6
++ _block_descriptor.61
++ _block_descriptor.67
++ _block_descriptor.73
++ _block_descriptor.99
++ _block_destroy_helper.2
++ _block_destroy_helper.5
++ _block_destroy_helper.54
++ _block_destroy_helper.60
++ _block_destroy_helper.66
++ _block_destroy_helper.72
++ _block_destroy_helper.98
++ _kCIContextOutputColorSpace
++ _kCIContextWorkingColorSpace
++ _kCIFormatARGB8
++ _kCIFormatRGBAh
++ _objc_msgSend$_directionalLayoutMargins
++ _objc_msgSend$_paletteEdgeMarginForEdge:isMinimized:
++ _objc_msgSend$_paletteHostView
++ _objc_msgSend$_paletteWidthForHorizontalOrientationWithoutTools
++ _objc_msgSend$_renderCGStrokes:clippedToStrokeSpaceRect:scale:strokeTransform:completion:
++ _objc_msgSend$allowsAutoHide
++ _objc_msgSend$autoHideSuppressionTokens
++ _objc_msgSend$autoRefineTaskCoordinator:replaceStrokeClusters:withRefinedStrokeClusters:
++ _objc_msgSend$cancelHideTimer
++ _objc_msgSend$createImageByUnpremultiplyingAlphaInImage:
++ _objc_msgSend$effectiveGeometry
++ _objc_msgSend$imageBySettingAlphaOneInExtent:
++ _objc_msgSend$imageByUnpremultiplyingAlpha
++ _objc_msgSend$initWithLevel:offset:drawingTransform:sixChannelMode:transparentBlending:extendedDynamicRange:
++ _objc_msgSend$initWithOptions:
++ _objc_msgSend$initWithStrokeBounds:imageViewBounds:scale:imageSize:invertedColors:rotated:sixChannel:transparentBlending:highlighted:extendedDynamicRange:
++ _objc_msgSend$layoutMargins
++ _objc_msgSend$popAllAutoHideSuppressionTokensAndFadeOutImmediately
++ _objc_msgSend$popAutoHideSuppressionToken:
++ _objc_msgSend$popAutoHideSuppressionTokens:fadeOutImmediately:
++ _objc_msgSend$proofreadingView:willDismissStringsForProofreadingItem:
++ _objc_msgSend$pushAutoHideSuppressionToken:forceShow:
++ _objc_msgSend$renderCGStrokes:clippedToStrokeSpaceRect:scale:strokeTransform:completion:
++ _objc_msgSend$renderStrokes:clippedToStrokeSpaceRect:scale:strokeTransform:completion:
++ _objc_msgSend$setDirectionalLayoutMargins:
++ _objc_msgSend$setInsetsLayoutMarginsFromSafeArea:
++ _objc_msgSend$startHideTimer
++ _objc_msgSend$transparentBlending
++ _objectdestroy.38Tm
++ _objectdestroy.48Tm
++ _swift_arrayDestroy
++ _swift_errorRetain
++ _symbolic SaySay_____GG 9PencilKit8PKStrokeV
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic Sccy_____Sg_ABt_____G So10CGImageRefa s5NeverO
++ _symbolic Sccyyt_____G s5NeverO
++ _symbolic So30PKProofreadingSettingsObserverCSg
++ _symbolic So7CIImageCSg
++ _symbolic So8CIFilterC
++ _symbolic So8NSObjectCSg
++ _symbolic So8NSStringC
++ _symbolic _____ 9PencilKit25SixChannelCompositeFilter33_45B1B8C2C17199CF2EF5F41F5CBE091BLLC
++ _symbolic _____ So13CIImageOptiona
++ _symbolic _____ So15CIContextOptiona
++ _symbolic ______ypt So13CIImageOptiona
++ _symbolic ______ypt So15CIContextOptiona
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC So13CIImageOptiona
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC So15CIContextOptiona
++ _symbolic _____y_____ypG s18_DictionaryStorageC So13CIImageOptiona
++ _symbolic _____y_____ypG s18_DictionaryStorageC So15CIContextOptiona
++ _symbolic ySaySay_____GG_ACtYacSg 9PencilKit8PKStrokeV
++ _type_layout_string So15CIContextOptiona
+- -[PKDetectionView ensureViewIsVisible]
+- -[PKImageRenderer _renderCGStrokes:clippedToStrokeSpaceRect:scale:completion:]
+- -[PKPaletteHostView _paletteEdgeMarginForTopEdge:isBottomEdge:isMinimized:]
+- -[PKPaletteHostView _paletteEdgeMarginForTopEdge:isMinimized:]
+- -[PKProofreadingView isMenuVisible]
+- -[PKProofreadingView setHideTimer]
+- -[PKProofreadingView setIsMenuVisible:]
+- -[PKRendererTile initWithLevel:offset:drawingTransform:contentsScale:sixChannelMode:wantsExtendedDynamicRangeContent:]
+- -[PKRendererTileProperties initWithLevel:offset:drawingTransform:sixChannelMode:extendedDynamicRange:]
+- -[PKStrokeSelectionImageConfig initWithStrokeBounds:imageViewBounds:scale:imageSize:invertedColors:rotated:sixChannel:highlighted:extendedDynamicRange:]
+- GCC_except_table273
+- GCC_except_table279
+- GCC_except_table282
+- GCC_except_table286
+- GCC_except_table295
+- GCC_except_table303
+- GCC_except_table310
+- GCC_except_table315
+- GCC_except_table322
+- GCC_except_table324
+- GCC_except_table331
+- GCC_except_table334
+- GCC_except_table336
+- GCC_except_table341
+- GCC_except_table348
+- GCC_except_table354
+- GCC_except_table360
+- GCC_except_table365
+- GCC_except_table369
+- GCC_except_table383
+- GCC_except_table450
+- _$s9PencilKit29CanvasDataDetectorInteractionC11setupHelper33_6CA4DD0836BA847654562546A8E159D1LL4view10parentViewySo6UIViewC_AISgtYaFySaySo06PKDataE4ItemCGcfU_TA
+- _$s9PencilKit29CanvasDataDetectorInteractionC11setupHelper33_6CA4DD0836BA847654562546A8E159D1LL4view10parentViewySo6UIViewC_AISgtYaFySaySo06PKDataE4ItemCGcfU_Tm
+- _$s9PencilKit29CanvasDataDetectorInteractionC11setupHelper33_6CA4DD0836BA847654562546A8E159D1LL4view10parentViewySo6UIViewC_AISgtYaFySaySo18PKProofreadingItemCGcfU0_TA
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.12
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.12TQ0_
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.12Tu
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.17
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.17TQ0_
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.17Tu
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.39
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.39TQ0_
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.39Tu
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.50
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.50TQ0_
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.50Tu
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.55
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.55TQ0_
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.55Tu
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.7
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.7TQ0_
+- _$s9PencilKit29CanvasDataDetectorInteractionC14setNeedsLayout33_6CA4DD0836BA847654562546A8E159D1LLyyFyyYaScMYccfU_TA.7Tu
+- _$s9PencilKit29CanvasDataDetectorInteractionC18_wantsProofreading33_6CA4DD0836BA847654562546A8E159D1LLSbvpWvd
+- _$s9PencilKit30PKTiledViewAnimationControllerC6refine4from2to2inSo13PKUndoCommandCSgSayAA8PKStrokeVG_AmA9PKDrawingVtYaFyScCyyts5NeverOGXEfU0_yyYbcfU_
+- _$s9PencilKit30PKTiledViewAnimationControllerC6refine4from2to2inSo13PKUndoCommandCSgSayAA8PKStrokeVG_AmA9PKDrawingVtYaFyScCyyts5NeverOGXEfU0_yyYbcfU_TA
+- _$s9PencilKit30PKTiledViewAnimationControllerC6refine4from2to2inSo13PKUndoCommandCSgSayAA8PKStrokeVG_AmA9PKDrawingVtYaFyScCyyts5NeverOGXEfU1_yyYbcfU_
+- _$s9PencilKit30PKTiledViewAnimationControllerC6refine4from2to2inSo13PKUndoCommandCSgSayAA8PKStrokeVG_AmA9PKDrawingVtYaFyScCyyts5NeverOGXEfU1_yyYbcfU_TA
+- _$sSay9PencilKit8PKStrokeVGADIegHgg_SgWOe
+- _$sSay9PencilKit8PKStrokeVGADIegHgg_SgWOy
+- _$sSo36PKToolPickerCustomItemControlOptionsVABSQSCWlTm
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.64
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.64TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.64Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.74
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.74TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.74Tu
+- _.str.287
+- _.str.361
+- _.str.50
+- _.str.75
+- _OBJC_IVAR_$_PKProofreadingView._isMenuVisible
+- __MergedGlobals.287
+- __PROTOCOLS__TtC9PencilKitP33_6CA4DD0836BA847654562546A8E159D126DataDetectorHelperDelegate.30
+- __PROTOCOLS__TtC9PencilKitP33_C07EB3BA79DD666E822D6A98FF7ECB3B33AutoRefineTaskCoordinatorDelegate.18
+- ___111-[PKAutoRefineTaskCoordinator autoRefineTask:synthesizeRefinedDrawingForStrokes:transcription:completionBlock:]_block_invoke.10
+- ___111-[PKAutoRefineTaskCoordinator autoRefineTask:synthesizeRefinedDrawingForStrokes:transcription:completionBlock:]_block_invoke.6
+- ___111-[PKAutoRefineTaskCoordinator autoRefineTask:synthesizeRefinedDrawingForStrokes:transcription:completionBlock:]_block_invoke_2.16
+- ___34-[PKProofreadingView setHideTimer]_block_invoke
+- ___34-[PKToolPicker initWithToolItems:]_block_invoke.134
+- ___51-[PKTiledView renderAttachment:intoCanvas:showing:]_block_invoke.581
+- ___54-[PKTiledView _updateWantsExtendedDynamicRangeContent]_block_invoke.364
+- ___65-[PKTiledView _copyFromCanvas:intoAttachment:hideCanvas:strokes:]_block_invoke.582
+- ___65-[PKTiledView _copyFromCanvas:intoAttachment:hideCanvas:strokes:]_block_invoke.583
+- ___71-[PKRecognitionController refineStrokes:drawing:inputScale:completion:]_block_invoke.49
+- ___75-[PKImageRenderer renderStrokes:clippedToStrokeSpaceRect:scale:completion:]_block_invoke
+- ___80-[PKDataDetectorInteractionHelper updateDetectionViews:withItems:previousItems:]_block_invoke.32
+- ___81-[PKToolPicker _setVisibleInWindow:forFirstResponder:animated:notify:completion:]_block_invoke.78
+- ___83-[PKProofreadingView editMenuInteraction:willDismissMenuForConfiguration:animator:]_block_invoke
+- ___88-[PKTiledView updateTilesForVisibleRectOffscreenOverrideAdditionalStrokes:withCallback:]_block_invoke.585
+- ___89-[PKTiledView _setAdditionalStrokes:inDrawing:invalidateTiles:forceOffscreen:completion:]_block_invoke.599
+- ___Block_byref_object_copy_.560
+- ___Block_byref_object_dispose_.561
+- ___block_descriptor_40_e67_B24?0"PKPaletteInputAssistantButtonProvider"8"UIBarButtonItem"16l
+- ___block_literal_global.116
+- ___block_literal_global.118
+- ___block_literal_global.137
+- ___block_literal_global.1483
+- ___block_literal_global.1490
+- ___block_literal_global.191
+- ___block_literal_global.193
+- ___block_literal_global.195
+- ___block_literal_global.197
+- ___block_literal_global.358
+- ___block_literal_global.53
+- ___block_literal_global.536
+- ___block_literal_global.543
+- ___block_literal_global.55
+- ___block_literal_global.552
+- ___block_literal_global.57
+- ___block_literal_global.59
+- ___block_literal_global.598
+- ___block_literal_global.62
+- ___block_literal_global.64
+- ___block_literal_global.662
+- ___block_literal_global.89
+- ___block_literal_global.91
+- ___block_literal_global.93
+- ___block_literal_global.95
+- ___block_literal_global.97
+- ___block_literal_global.99
+- ___const.DKUColorIsEqualToColorIgnoringOpacity.firstColorRGBA
+- ___const.DKUColorIsEqualToColorIgnoringOpacity.secondColorRGBA
+- _block_copy_helper.42
+- _block_copy_helper.48
+- _block_copy_helper.54
+- _block_copy_helper.60
+- _block_descriptor.44
+- _block_descriptor.50
+- _block_descriptor.56
+- _block_descriptor.62
+- _block_destroy_helper.43
+- _block_destroy_helper.49
+- _block_destroy_helper.55
+- _block_destroy_helper.61
+- _objc_msgSend$_paletteEdgeMarginForTopEdge:isBottomEdge:isMinimized:
+- _objc_msgSend$_paletteEdgeMarginForTopEdge:isMinimized:
+- _objc_msgSend$_renderCGStrokes:clippedToStrokeSpaceRect:scale:completion:
+- _objc_msgSend$initWithLevel:offset:drawingTransform:sixChannelMode:extendedDynamicRange:
+- _objc_msgSend$initWithStrokeBounds:imageViewBounds:scale:imageSize:invertedColors:rotated:sixChannel:highlighted:extendedDynamicRange:
+- _objc_msgSend$paletteViewBottomEdgeSpacing
+- _objc_msgSend$setHideTimer
+- _objc_msgSend$setIsMenuVisible:
+- _objectdestroy.37Tm
+CStrings:
++ "@100@0:8q16{CGPoint=dd}24{CGAffineTransform=dddddd}40B88B92B96"
++ "@128@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48d80{CGSize=dd}88B104B108B112B116B120B124"
++ "Cleanup tiles with delay: %g"
++ "Detected more than one stroke finished"
++ "Failed to create CIColorKernel: %@"
++ "Reflow"
++ "ReplacementMenu"
++ "SiblingMenu"
++ "SixChannelComposite"
++ "T@\"CIImage\",N,R"
++ "T@\"NSMutableSet\",&,N,V_autoHideSuppressionTokens"
++ "TB,R,N,V_transparentBlending"
++ "T{NSDirectionalEdgeInsets=dddd},N,S_setDirectionalLayoutMargins:,V__directionalLayoutMargins"
++ "^{CGImage=}24@0:8^{CGImage=}16"
++ "_TtC9PencilKitP33_45B1B8C2C17199CF2EF5F41F5CBE091B25SixChannelCompositeFilter"
++ "__directionalLayoutMargins"
++ "_autoHideSuppressionTokens"
++ "_cleanupTilesWithStaleTransform"
++ "_directionalLayoutMargins"
++ "_isDoingLayoutAfterLiveWindowResizing"
++ "_paletteEdgeMarginForEdge:isMinimized:"
++ "_paletteViewLayoutGuide"
++ "_paletteViewLayoutGuideTopConstant"
++ "_paletteViewLayoutGuideTopConstraint"
++ "_paletteWidthForHorizontalOrientationWithoutTools"
++ "_renderCGStrokes:clippedToStrokeSpaceRect:scale:strokeTransform:completion:"
++ "_setDirectionalLayoutMargins:"
++ "_windowScenesForToolPicker:"
++ "allowsAutoHide"
++ "applyWithExtent:arguments:"
++ "autoHideSuppressionTokens"
++ "autoRefineTaskCoordinator:replaceStrokeClusters:withRefinedStrokeClusters:"
++ "backgroundImage"
++ "cancelHideTimer"
++ "createCGImage:fromRect:format:colorSpace:"
++ "createImageByUnpremultiplyingAlphaInImage:"
++ "effectiveGeometry"
++ "forceProofreadingDetectionDisabled"
++ "imageByClampingToExtent"
++ "imageByCroppingToRect:"
++ "imageBySettingAlphaOneInExtent:"
++ "imageByUnpremultiplyingAlpha"
++ "initWithCGImage:options:"
++ "initWithLevel:offset:drawingTransform:sixChannelMode:transparentBlending:extendedDynamicRange:"
++ "initWithOptions:"
++ "initWithStrokeBounds:imageViewBounds:scale:imageSize:invertedColors:rotated:sixChannel:transparentBlending:highlighted:extendedDynamicRange:"
++ "inlineSketchAction:"
++ "invertColor:"
++ "kernelWithFunctionName:fromMetalLibraryData:error:"
++ "layoutMargins"
++ "multiplyImage"
++ "popAllAutoHideSuppressionTokensAndFadeOutImmediately"
++ "popAutoHideSuppressionToken:"
++ "popAutoHideSuppressionTokens:fadeOutImmediately:"
++ "proofreadingSettingsObserver"
++ "proofreadingView:willDismissStringsForProofreadingItem:"
++ "pushAutoHideSuppressionToken:forceShow:"
++ "refineStrokeClustersBlock"
++ "renderCGStrokes:clippedToStrokeSpaceRect:scale:strokeTransform:completion:"
++ "renderDrawing:clippedToStrokeSpaceRect:scale:strokeTransform:completion:"
++ "renderStrokes:clippedToStrokeSpaceRect:scale:strokeTransform:completion:"
++ "set directional layout margins to %{public}@"
++ "setAutoHideSuppressionTokens:"
++ "setDirectionalLayoutMargins:"
++ "setInsetsLayoutMarginsFromSafeArea:"
++ "sixChannelCGRenderDrawing:clippedToStrokeSpaceRect:scale:strokeTransform:completion:"
++ "startHideTimer"
++ "transparentBlending"
++ "v120@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24d56{CGAffineTransform=dddddd}64@?112"
++ "{?=\"delegateSupportsTiledView\"b1\"delegateSupportsReplaceStrokes\"b1\"delegateSupportsReplaceStrokeClusters\"b1}"
+- ">"
+- "@124@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48d80{CGSize=dd}88B104B108B112B116B120"
+- "@96@0:8q16{CGPoint=dd}24{CGAffineTransform=dddddd}40B88B92"
+- "TB,N,V_isMenuVisible"
+- "_isMenuVisible"
+- "_paletteEdgeMarginForTopEdge:isBottomEdge:isMinimized:"
+- "_paletteEdgeMarginForTopEdge:isMinimized:"
+- "_renderCGStrokes:clippedToStrokeSpaceRect:scale:completion:"
+- "_wantsProofreading"
+- "d24@0:8B16B20"
+- "d28@0:8B16B20B24"
+- "initWithLevel:offset:drawingTransform:sixChannelMode:extendedDynamicRange:"
+- "initWithStrokeBounds:imageViewBounds:scale:imageSize:invertedColors:rotated:sixChannel:highlighted:extendedDynamicRange:"
+- "setHideTimer"
+- "setIsMenuVisible:"
+- "{?=\"delegateSupportsTiledView\"b1\"delegateSupportsReplaceStrokes\"b1}"
+
+```

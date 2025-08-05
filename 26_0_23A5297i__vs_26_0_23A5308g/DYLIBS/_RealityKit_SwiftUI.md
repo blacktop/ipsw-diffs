@@ -1,0 +1,156 @@
+## _RealityKit_SwiftUI
+
+> `/System/Library/Frameworks/_RealityKit_SwiftUI.framework/_RealityKit_SwiftUI`
+
+```diff
+
+-403.0.21.0.1
+-  __TEXT.__text: 0xe9fd4
+-  __TEXT.__auth_stubs: 0x4900
++403.0.25.0.1
++  __TEXT.__text: 0xea50c
++  __TEXT.__auth_stubs: 0x4910
+   __TEXT.__objc_methlist: 0x142c
+-  __TEXT.__const: 0x9730
++  __TEXT.__const: 0x9760
+   __TEXT.__cstring: 0x5ef1
+-  __TEXT.__constg_swiftt: 0x8a28
++  __TEXT.__constg_swiftt: 0x8a84
+   __TEXT.__swift5_typeref: 0x48b9
+   __TEXT.__swift5_builtin: 0x1b8
+   __TEXT.__swift5_reflstr: 0x550c
+-  __TEXT.__swift5_fieldmd: 0x4c44
++  __TEXT.__swift5_fieldmd: 0x4c60
+   __TEXT.__swift5_assocty: 0x918
+   __TEXT.__swift5_proto: 0x410
+-  __TEXT.__swift5_types: 0x42c
++  __TEXT.__swift5_types: 0x430
+   __TEXT.__oslogstring: 0x7a12
+-  __TEXT.__swift5_capture: 0x9c4
++  __TEXT.__swift5_capture: 0x994
+   __TEXT.__swift_as_entry: 0x48
+   __TEXT.__swift_as_ret: 0x28
+   __TEXT.__swift5_protos: 0x3c
+   __TEXT.__swift5_mpenum: 0x38
+-  __TEXT.__unwind_info: 0x2b28
++  __TEXT.__unwind_info: 0x2a80
+   __TEXT.__eh_frame: 0x1c88
+   __TEXT.__objc_classname: 0x119
+   __TEXT.__objc_methname: 0x343a
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xfc0
+   __DATA_CONST.__objc_protorefs: 0x80
+-  __AUTH_CONST.__auth_got: 0x2480
+-  __AUTH_CONST.__const: 0x83e8
+-  __AUTH_CONST.__objc_const: 0x9810
+-  __AUTH.__objc_data: 0x1e68
+-  __AUTH.__data: 0x8118
+-  __DATA.__data: 0x43f0
++  __AUTH_CONST.__auth_got: 0x2488
++  __AUTH_CONST.__const: 0x8608
++  __AUTH_CONST.__objc_const: 0x9838
++  __AUTH.__objc_data: 0x1e48
++  __AUTH.__data: 0x80e8
++  __DATA.__data: 0x4460
+   __DATA.__objc_stublist: 0x8
+   __DATA.__bss: 0x7c00
+-  __DATA.__common: 0x228
++  __DATA.__common: 0x218
++  __DATA_DIRTY.__objc_data: 0x20
++  __DATA_DIRTY.__data: 0x38
++  __DATA_DIRTY.__common: 0x10
+   - /System/Library/Frameworks/ARKit.framework/ARKit
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F3E44DEB-3097-3930-AECD-2DF2FBC6E2BA
+-  Functions: 3974
+-  Symbols:   17029
+-  CStrings:  2132
++  UUID: 61E4670C-1542-3BFD-A4D2-FA04AE0BBC83
++  Functions: 3989
++  Symbols:   17085
++  CStrings:  2133
+ 
+Symbols:
++ _$s10RealityKit20ARKitAnchorComponentV015registerBuiltinE0yyyAA0E0_pXp_So19REComponentClassPtraSgSo0H4TypeVSg0A10Foundation0E4InfoV6AccessOAN12AvailabilityVtXEFZ
++ _$s17RealityFoundation12MeshResourceC21ShapeExtrusionOptionsV01_A11Kit_SwiftUIE14chamferProfile0iJ04PathVSgvpAETk
++ _$s17RealityFoundation17PostProcessEffectMp
++ _$s17RealityFoundation6EntityC10ObservableV10ComponentsV16hashableMetatypexSgAA08HashableG0VyxG_tcAA9ComponentRzluipAGRszAaMRd__r__lAGqd__Tk
++ _$s17RealityFoundation6EntityC10ObservableV10ComponentsV19hashableBuiltinTypexSgAA16HashableMetatypeVyxG_tcAA021_ImplicitlyAnimatableG9ComponentRzluipAGRszAaMRd__r__lAGqd__Tk
++ _$s19_RealityKit_SwiftUI0A16ViewDynamicRangeVWV
++ _$s19_RealityKit_SwiftUI0A16ViewDynamicRangeVwet
++ _$s19_RealityKit_SwiftUI0A16ViewDynamicRangeVwst
++ _$s19_RealityKit_SwiftUI0A16ViewLayoutOptionVWV
++ _$s19_RealityKit_SwiftUI0A16ViewLayoutOptionVwet
++ _$s19_RealityKit_SwiftUI0A16ViewLayoutOptionVwst
++ _$s19_RealityKit_SwiftUI0A20ViewEntityCollectionVWV
++ _$s19_RealityKit_SwiftUI0A20ViewEntityCollectionVwet
++ _$s19_RealityKit_SwiftUI0A20ViewEntityCollectionVwst
++ _$s19_RealityKit_SwiftUI0A21ViewPostProcessEffectV6effectyACx0A10Foundation0fgH0RzlFZyAE0fgH7ContextVySo16MTLCommandBuffer_pGcAC7StorageCy_xGcfu_yAJcfu0_TA
++ _$s19_RealityKit_SwiftUI0A21ViewPostProcessEffectV6effectyACx0A10Foundation0fgH0RzlFZySo9MTLDevice_pcAC7StorageCy_xGcfu1_ySoAG_pcfu2_TA
++ _$s19_RealityKit_SwiftUI0A21ViewPostProcessEffectV7StorageC04postG07contexty0A10Foundation0fgH7ContextVySo16MTLCommandBuffer_pG_tF
++ _$s19_RealityKit_SwiftUI0A21ViewPostProcessEffectV7StorageC7prepare3forySo9MTLDevice_p_tF
++ _$s19_RealityKit_SwiftUI0A21ViewPostProcessEffectV7StorageCMF
++ _$s19_RealityKit_SwiftUI0A21ViewPostProcessEffectV7StorageCMI
++ _$s19_RealityKit_SwiftUI0A21ViewPostProcessEffectV7StorageCMP
++ _$s19_RealityKit_SwiftUI0A21ViewPostProcessEffectV7StorageCMa
++ _$s19_RealityKit_SwiftUI0A21ViewPostProcessEffectV7StorageCMi
++ _$s19_RealityKit_SwiftUI0A21ViewPostProcessEffectV7StorageCMn
++ _$s19_RealityKit_SwiftUI0A21ViewPostProcessEffectV7StorageCMr
++ _$s19_RealityKit_SwiftUI0A21ViewPostProcessEffectV7StorageCfD
++ _$s19_RealityKit_SwiftUI0A21ViewPostProcessEffectV7StorageCyAEy_xGxcfC
++ _$s19_RealityKit_SwiftUI0A21ViewPostProcessEffectV7StorageCyAEy_xGxcfCTq
++ _$s19_RealityKit_SwiftUI0A22ViewDefaultPlaceholderVWV
++ _$s19_RealityKit_SwiftUI0A22ViewDefaultPlaceholderVwet
++ _$s19_RealityKit_SwiftUI0A22ViewDefaultPlaceholderVwst
++ _$s19_RealityKit_SwiftUI0A23ViewRenderingEffectModeVWV
++ _$s19_RealityKit_SwiftUI0A23ViewRenderingEffectModeVwet
++ _$s19_RealityKit_SwiftUI0A23ViewRenderingEffectModeVwst
++ _$s7SwiftUI17EnvironmentValuesVAAE10scenePhaseAA05SceneF0OvpACTk
++ __IVARS__TtCV19_RealityKit_SwiftUI28RealityViewPostProcessEffect7Storage
++ ___swift_assignWithCopy_strong
++ ___swift_assignWithTake_strong
++ ___swift_destroy_strong
++ ___swift_initWithCopy_strong
++ ___unnamed_51
++ _get_underlying_type_ref 7SwiftUI4ViewP012_RealityKit_aB0EAcDE40rootEntityGestureResponderBackDeployableQryFQOQr.213
++ _get_underlying_witness 7SwiftUI4ViewP012_RealityKit_aB0EAcDE40rootEntityGestureResponderBackDeployableQryFQOqd__AaBHC.214
++ _get_witness_table 10RealityKit12HasHierarchyRzlAA6EntityCAaBHPyHC.7
++ _get_witness_table 7SwiftUI12ProgressViewVyAA05EmptyD0VAEGAA0D0HPyHC.7
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyAA14GeometryReaderVy012_RealityKit_aB001_hC4ImplVyxGGAA16_FlexFrameLayoutVGAaBHPAkaBHPyHC_AmA0C8ModifierHPyHCHC.120
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyAA5GroupVyAA012_ConditionalE0VyAA012SubscriptionC0Vy012_RealityKit_aB023CameraControlsPublisherVADyAaBPAAE17onContinuousHover15coordinateSpace7performQrqd___yAA0P5PhaseOctAA010CoordinateR8ProtocolRd__lFQOyADyADyAnKE40rootEntityGestureResponderBackDeployableQryFQOyAK0C7AdaptorVy0iJ06ARViewCG_Qo_AA34_InsettableBackgroundShapeModifierVyAA15BackgroundStyleVAA9RectangleVGGAA35_EnvironmentBackgroundStyleModifierVyAA13AnyShapeStyleVGG_AA05LocaluR0VQo_AA26_PreferenceWritingModifierVyAK0icK14ConvertibleKeyVGGGxGGAA13_TaskModifierVGSgAaBHpA29_AaBHPA26_AaBHPA25_AaBHPA24_AaBHPyHC_xAaBHD1_HC_HC_A28_AA0C8ModifierHPyHCHC_HC.215
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyx012_RealityKit_aB022CameraControlsModifierVGAA022_EnvironmentKeyWritingJ0Vy0F10Foundation0hI0VGGAaBHPAhaBHPxAaBHD1__AgA0cJ0HPyHCHC_AnaPHPyHCHC.121
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy012_RealityKit_aB00jC12LayoutOptionVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.5
++ _get_witness_table 7SwiftUI4ViewRzlxAaBHD1_.6
++ _objectdestroy.129Tm
++ _objectdestroy.137Tm
++ _objectdestroy.146Tm
++ _symbolic _____ 19_RealityKit_SwiftUI0A21ViewPostProcessEffectV7StorageC
+- _$s17RealityFoundation12MeshResourceCAAE21ShapeExtrusionOptionsV01_A11Kit_SwiftUIE14chamferProfile0iJ04PathVSgvpAETk
+- _$s17RealityFoundation6EntityCAAE10ObservableV10ComponentsV16hashableMetatypexSgAA08HashableG0VyxG_tcAA9ComponentRzluipAGRszAaMRd__r__lAGqd__Tk
+- _$s17RealityFoundation6EntityCAAE10ObservableV10ComponentsV19hashableBuiltinTypexSgAA16HashableMetatypeVyxG_tcAA021_ImplicitlyAnimatableG9ComponentRzluipAGRszAaMRd__r__lAGqd__Tk
+- _$s19_RealityKit_SwiftUI0A21ViewPostProcessEffectV6effectyACx0A10Foundation0fgH0RzlFZyAE0fgH7ContextVySo16MTLCommandBuffer_pGcxcfu_yAJcfu0_TA
+- _$s19_RealityKit_SwiftUI0A21ViewPostProcessEffectV6effectyACx0A10Foundation0fgH0RzlFZySo9MTLDevice_pcxcfu1_ySoAG_pcfu2_TA
+- _$s7SwiftUI17EnvironmentValuesV10scenePhaseAA05SceneF0OvpACTk
+- _$sBi8_WV
+- _get_underlying_type_ref 7SwiftUI4ViewP012_RealityKit_aB0EAcDE40rootEntityGestureResponderBackDeployableQryFQOQr.208
+- _get_underlying_witness 7SwiftUI4ViewP012_RealityKit_aB0EAcDE40rootEntityGestureResponderBackDeployableQryFQOqd__AaBHC.209
+- _get_witness_table 10RealityKit12HasHierarchyRzlAA6EntityCAaBHPyHC.3
+- _get_witness_table 7SwiftUI12ProgressViewVyAA05EmptyD0VAEGAA0D0HPyHC.2
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyAA14GeometryReaderVy012_RealityKit_aB001_hC4ImplVyxGGAA16_FlexFrameLayoutVGAaBHPAkaBHPyHC_AmA0C8ModifierHPyHCHC.109
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyAA5GroupVyAA012_ConditionalE0VyAA012SubscriptionC0Vy012_RealityKit_aB023CameraControlsPublisherVADyAaBPAAE17onContinuousHover15coordinateSpace7performQrqd___yAA0P5PhaseOctAA010CoordinateR8ProtocolRd__lFQOyADyADyAnKE40rootEntityGestureResponderBackDeployableQryFQOyAK0C7AdaptorVy0iJ06ARViewCG_Qo_AA34_InsettableBackgroundShapeModifierVyAA15BackgroundStyleVAA9RectangleVGGAA35_EnvironmentBackgroundStyleModifierVyAA13AnyShapeStyleVGG_AA05LocaluR0VQo_AA26_PreferenceWritingModifierVyAK0icK14ConvertibleKeyVGGGxGGAA13_TaskModifierVGSgAaBHpA29_AaBHPA26_AaBHPA25_AaBHPA24_AaBHPyHC_xAaBHD1_HC_HC_A28_AA0C8ModifierHPyHCHC_HC.210
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyx012_RealityKit_aB022CameraControlsModifierVGAA022_EnvironmentKeyWritingJ0Vy0F10Foundation0hI0VGGAaBHPAhaBHPxAaBHD1__AgA0cJ0HPyHCHC_AnaPHPyHCHC.110
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy012_RealityKit_aB00jC12LayoutOptionVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.1
+- _get_witness_table 7SwiftUI4ViewRzlxAaBHD1_.1
+- _objectdestroy.118Tm
+- _objectdestroy.126Tm
+- _objectdestroy.135Tm
+CStrings:
++ "effect"
+
+```

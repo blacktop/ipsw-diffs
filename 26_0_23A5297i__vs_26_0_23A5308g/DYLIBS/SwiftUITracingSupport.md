@@ -1,0 +1,548 @@
+## SwiftUITracingSupport
+
+> `/System/Library/PrivateFrameworks/SwiftUITracingSupport.framework/SwiftUITracingSupport`
+
+```diff
+
+-74.0.0.0.0
+-  __TEXT.__text: 0x1c0e54
++75.0.0.0.0
++  __TEXT.__text: 0x1c13ec
+   __TEXT.__auth_stubs: 0x2a30
+   __TEXT.__objc_methlist: 0x144
+-  __TEXT.__const: 0x110b0
+-  __TEXT.__cstring: 0x3456
+-  __TEXT.__swift5_typeref: 0x5614
++  __TEXT.__const: 0x11140
++  __TEXT.__cstring: 0x34c6
++  __TEXT.__swift5_typeref: 0x5622
+   __TEXT.__swift5_capture: 0xc74
+-  __TEXT.__swift5_reflstr: 0x2f1d
++  __TEXT.__swift5_reflstr: 0x2f2d
+   __TEXT.__swift5_assocty: 0x1130
+-  __TEXT.__swift5_fieldmd: 0x6724
+-  __TEXT.__constg_swiftt: 0x5760
++  __TEXT.__swift5_fieldmd: 0x6740
++  __TEXT.__constg_swiftt: 0x577c
+   __TEXT.__swift5_builtin: 0xa00
+   __TEXT.__swift5_mpenum: 0x90
+   __TEXT.__swift5_protos: 0xf0
+-  __TEXT.__swift5_proto: 0x1468
+-  __TEXT.__swift5_types: 0x76c
++  __TEXT.__swift5_proto: 0x1474
++  __TEXT.__swift5_types: 0x770
+   __TEXT.__oslogstring: 0x5a8
+-  __TEXT.__unwind_info: 0x4d28
+-  __TEXT.__eh_frame: 0x2550
++  __TEXT.__unwind_info: 0x4d78
++  __TEXT.__eh_frame: 0x2678
+   __TEXT.__objc_classname: 0x17
+   __TEXT.__objc_methname: 0x572
+   __TEXT.__objc_methtype: 0xad
+
+   __DATA_CONST.__objc_selrefs: 0x248
+   __DATA_CONST.__objc_protorefs: 0x10
+   __AUTH_CONST.__auth_got: 0x1518
+-  __AUTH_CONST.__const: 0x17288
++  __AUTH_CONST.__const: 0x177e8
+   __AUTH_CONST.__objc_const: 0x1d90
+   __AUTH.__objc_data: 0x298
+   __AUTH.__data: 0x28b8
+-  __DATA.__data: 0x40d8
+-  __DATA.__bss: 0x10f00
++  __DATA.__data: 0x40e0
++  __DATA.__bss: 0x11080
+   __DATA.__common: 0x10d9
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ED77DBB3-398E-3F2E-BC25-E3B746281ABA
+-  Functions: 11391
+-  Symbols:   36169
+-  CStrings:  567
++  UUID: A6FE0393-A544-39CD-9CDC-81311D1D6A12
++  Functions: 11417
++  Symbols:   36303
++  CStrings:  569
+ 
+Symbols:
++ _$s21SwiftUITracingSupport0A7UITraceC6clientAA6ClientCSgyKFZ
++ _$s21SwiftUITracingSupport0A7UITraceC8register1hyxAA5TraceVc_tKAA0F7_HandleRzlFZ
++ _$s21SwiftUITracingSupport0A7UITraceC8register1hyxAA5TraceVc_tKAA0F7_HandleRzlFZyAGzcfU_
++ _$s21SwiftUITracingSupport0A7UITraceC8register1hyxAA5TraceVc_tKAA0F7_HandleRzlFZyAGzcfU_AG0A2UIV_Tg504$s21ab14Support26swiftd21RegisterCommonyyKFAA5F13V0A2UIVADcfU_Tf3npf_n
++ _$s21SwiftUITracingSupport0A7UITraceC8register1hyxAA5TraceVc_tKAA0F7_HandleRzlFZyAGzcfU_TA
++ _$s21SwiftUITracingSupport10AllocationVWV
++ _$s21SwiftUITracingSupport10AllocationVwet
++ _$s21SwiftUITracingSupport10AllocationVwst
++ _$s21SwiftUITracingSupport10ChangelistC4ModeVWV
++ _$s21SwiftUITracingSupport10ChangelistC4ModeVwet
++ _$s21SwiftUITracingSupport10ChangelistC4ModeVwetTm
++ _$s21SwiftUITracingSupport10ChangelistC4ModeVwst
++ _$s21SwiftUITracingSupport10ChangelistC4ModeVwstTm
++ _$s21SwiftUITracingSupport10UnsafeTreeV6SymbolV3RefVWV
++ _$s21SwiftUITracingSupport10UnsafeTreeV6SymbolV3RefVwet
++ _$s21SwiftUITracingSupport10UnsafeTreeV6SymbolV3RefVwst
++ _$s21SwiftUITracingSupport10UnsafeTreeVA2A0dE13_SuppliesRootRzAA8MergableR_rlE3add_2to2atyq__AC6SymbolV3RefVyxq___GyACyxq_GzXEtFAA09AggregateE7ElementOyAA5EventV2IdVG_AA9MergeOnceVyAA0pE5StatsVGTB504$s21ab57Support11CauseEffectV7addTime8rootedAt7partial6withinyAA8pm36V_AiA11InterpreterC8IteratorVtFyAA10de6VyAA09n2Q7o9OyAA0L0V2q5VGAA9rs8VyAA0lQ5T9VGGzXEfU_AA11InterpreterC8IteratorVAA0pM0VTf1nncn_n
++ _$s21SwiftUITracingSupport11TraceConfigV12MinorVersionVWV
++ _$s21SwiftUITracingSupport11TraceConfigV12MinorVersionVwet
++ _$s21SwiftUITracingSupport11TraceConfigV12MinorVersionVwst
++ _$s21SwiftUITracingSupport12synchronizedyyyyXEFyyXEfU_TA.193
++ _$s21SwiftUITracingSupport14EvolutionTableV5localxSgs6UInt32V_tcigAEyKXEfu_AESpyACyxGGXEfU0_TA.48
++ _$s21SwiftUITracingSupport14EvolutionTableV5localxSgs6UInt32V_tcigAEyKXEfu_AESpyACyxGGXEfU0_TA.50
++ _$s21SwiftUITracingSupport14EvolutionTableV5localxSgs6UInt32V_tcigAeGXEfU_TA.47
++ _$s21SwiftUITracingSupport14EvolutionTableV5localxSgs6UInt32V_tcigAeGXEfU_TA.49
++ _$s21SwiftUITracingSupport14TreeValueFlagsVWV
++ _$s21SwiftUITracingSupport14TreeValueFlagsVwet
++ _$s21SwiftUITracingSupport14TreeValueFlagsVwst
++ _$s21SwiftUITracingSupport15Evolution_TypesVWV
++ _$s21SwiftUITracingSupport15Evolution_TypesVwet
++ _$s21SwiftUITracingSupport15Evolution_TypesVwst
++ _$s21SwiftUITracingSupport17UnsafeTreeNodeRefV5TypedVWV
++ _$s21SwiftUITracingSupport17UnsafeTreeNodeRefV5TypedVwet
++ _$s21SwiftUITracingSupport17UnsafeTreeNodeRefV5TypedVwst
++ _$s21SwiftUITracingSupport17UnsafeTreeNodeRefVWV
++ _$s21SwiftUITracingSupport17UnsafeTreeNodeRefVwet
++ _$s21SwiftUITracingSupport17UnsafeTreeNodeRefVwst
++ _$s21SwiftUITracingSupport19AbstractionPositionVWV
++ _$s21SwiftUITracingSupport19AbstractionPositionVwet
++ _$s21SwiftUITracingSupport19AbstractionPositionVwst
++ _$s21SwiftUITracingSupport19ViewGraphRootValuesVWV
++ _$s21SwiftUITracingSupport19ViewGraphRootValuesVwet
++ _$s21SwiftUITracingSupport19ViewGraphRootValuesVwst
++ _$s21SwiftUITracingSupport20swiftUITraceRegisteryySo10AGGraphRefa_Spys6UInt64VGSgtFyyKXEfU_
++ _$s21SwiftUITracingSupport25ReuseTraceInternalTracingVWV
++ _$s21SwiftUITracingSupport25ReuseTraceInternalTracingVwet
++ _$s21SwiftUITracingSupport25ReuseTraceInternalTracingVwst
++ _$s21SwiftUITracingSupport26swiftUITraceRegisterCommonyyKF
++ _$s21SwiftUITracingSupport5EventV10AllocationVAEycfC
++ _$s21SwiftUITracingSupport5EventV17DynamicPropertiesV5FlagsVWV
++ _$s21SwiftUITracingSupport5EventV17DynamicPropertiesV5FlagsVwet
++ _$s21SwiftUITracingSupport5EventV17DynamicPropertiesV5FlagsVwst
++ _$s21SwiftUITracingSupport5EventV17DynamicPropertiesV7offsets5flagsAeA13AttachmentRefV5TypedVy_AA06BufferI0VySo02T_E14PropertyChangeaGG_AE5FlagsVtcfC
++ _$s21SwiftUITracingSupport5EventV17DynamicPropertiesVAEycfC
++ _$s21SwiftUITracingSupport5PTypeV12forEachField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0G0V_S2ixzSbztXEyAO_S2ixtcSgtlFyAO_AA13IterativePairVyxSiGAA0O13TreeTraversalVyAoSGtXEfU0_yt_TG5TA.1079
++ _$s21SwiftUITracingSupport5PTypeV12forEachField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0G0V_S2ixzSbztXEyAO_S2ixtcSgtlFyAO_AA13IterativePairVyxSiGAA0O13TreeTraversalVyAoSGtXEfU0_yt_TG5TA.1095
++ _$s21SwiftUITracingSupport5PTypeV12forEachField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0G0V_S2ixzSbztXEyAO_S2ixtcSgtlFyAO_AA13IterativePairVyxSiGAA0O13TreeTraversalVyAoSGtXEfU0_yt_TG5TA.903
++ _$s21SwiftUITracingSupport5PTypeV12forEachField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0G0V_S2ixzSbztXEyAO_S2ixtcSgtlFyAO_AA13IterativePairVyxSiGzAA0O13TreeTraversalVyAoSGztXEfU_yt_TG5TA.1078
++ _$s21SwiftUITracingSupport5PTypeV12forEachField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0G0V_S2ixzSbztXEyAO_S2ixtcSgtlFyAO_AA13IterativePairVyxSiGzAA0O13TreeTraversalVyAoSGztXEfU_yt_TG5TA.1094
++ _$s21SwiftUITracingSupport5PTypeV12forEachField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0G0V_S2ixzSbztXEyAO_S2ixtcSgtlFyAO_AA13IterativePairVyxSiGzAA0O13TreeTraversalVyAoSGztXEfU_yt_TG5TA.902
++ _$s21SwiftUITracingSupport5PTypeV22forEachLinearizedField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0H0V_S3ixzSbztXEyAO_S2ixtcSgtlFSbAO_S2ixzSbztXEfU_SbAO_S3iytzSbztXEfU_TA.1088
++ _$s21SwiftUITracingSupport5PTypeV22forEachLinearizedField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0H0V_S3ixzSbztXEyAO_S2ixtcSgtlFSbAO_S2ixzSbztXEfU_yt_Tg5TA.1073
++ _$s21SwiftUITracingSupport5PTypeV22forEachLinearizedField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0H0V_S3ixzSbztXEyAO_S2ixtcSgtlFSbAO_S2ixzSbztXEfU_yt_Tg5TA.1089
++ _$s21SwiftUITracingSupport5PTypeV22forEachLinearizedField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0H0V_S3ixzSbztXEyAO_S2ixtcSgtlFSbAO_S2ixzSbztXEfU_yt_Tg5TA.897
++ _$s21SwiftUITracingSupport5PTypeV22forEachLinearizedField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0H0V_S3ixzSbztXEyAO_S2ixtcSgtlFyAO_S2ixtcfU0_yt_TG5TA.1077
++ _$s21SwiftUITracingSupport5PTypeV22forEachLinearizedField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0H0V_S3ixzSbztXEyAO_S2ixtcSgtlFyAO_S2ixtcfU0_yt_TG5TA.1093
++ _$s21SwiftUITracingSupport5PTypeV22forEachLinearizedField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0H0V_S3ixzSbztXEyAO_S2ixtcSgtlFyAO_S2ixtcfU0_yt_TG5TA.901
++ _$s21SwiftUITracingSupport5PTypeV5FlagsV4SpecVWV
++ _$s21SwiftUITracingSupport5PTypeV5FlagsV4SpecVwet
++ _$s21SwiftUITracingSupport5PTypeV5FlagsV4SpecVwst
++ _$s21SwiftUITracingSupport5TraceVIegl_ACytIeglr_TR04$s21ab34Support0A7UITraceC8register1hyxAA5D108Vc_tKAA0F7_HandleRzlFZyAGzcfU_AG5UIKitV_Tg504$s21ab9Support18hF35RegisteryyFyyKXEfU_AA0E0V0D0VADcfU_Tf3npf_nTf3nnpf_n
++ _$s21SwiftUITracingSupport5TraceVIegl_ACytIeglr_TR04$s21ab34Support0A7UITraceC8register1hyxAA5d95Vc_tKAA0F7_HandleRzlFZyAGzcfU_AG0A2UIV_Tg504$s21ab14Support26swiftd21RegisterCommonyyKFAA5F13V0S17UIVADcfU_Tf3npf_nTf3nnpf_n
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciMyyScMYccfU_AA8SnapshotV_Tgq5TA.869
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tg5TA.855
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tg5TA.878
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1004
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1011
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1018
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1025
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1032
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1039
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1046
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1053
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1060
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1067
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.876
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.915
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.922
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.941
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.948
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.955
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.962
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.969
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.976
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.983
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.990
++ _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.997
++ _$s21SwiftUITracingSupport6ClientC12gracefulExityyFyyXEfU_TA.223
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorO2eeoiySbAE_AEtFZ
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorO4hash4intoys6HasherVz_tF
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorO7failureyA2EmFWC
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorO9hashValueSivg
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorO9hashValueSivpMV
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOAESQAAWL
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOAESQAAWl
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOAEs0F0AAWL
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOAEs0F0AAWl
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOMF
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOMa
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOMf
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOMn
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorON
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOSHAAMc
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOSHAAMcMK
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOSHAASH9hashValueSivgTW
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOSHAASQWb
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOSQAAMc
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOSQAAMcMK
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOSQAASQ2eeoiySbx_xtFZTW
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOWV
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOs0F0AAMc
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOs0F0AAMcMK
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOs0F0AAsAFP19_getEmbeddedNSErroryXlSgyFTW
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOs0F0AAsAFP5_codeSivgTW
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOs0F0AAsAFP7_domainSSvgTW
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOs0F0AAsAFP9_userInfoyXlSgvgTW
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOwet
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOwst
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOwug
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOwui
++ _$s21SwiftUITracingSupport6ClientC15ConnectionErrorOwup
++ _$s21SwiftUITracingSupport6ClientC8registeryyKF
++ _$s21SwiftUITracingSupport6ClientCACyKcfCTq
++ _$s21SwiftUITracingSupport6ClientCACyKcfc
++ _$s21SwiftUITracingSupport6ClientCACyKcfcTv_r
++ _$sIg_Ieg_TRTA.182
++ _$sIg_Ieg_TRTA.219
++ _$sIg_Ieg_TRTA.227
++ _$sSo8T_Headera21SwiftUITracingSupportE5FlagsVWV
++ _$sSo8T_Headera21SwiftUITracingSupportE5FlagsVwet
++ _$sSo8T_Headera21SwiftUITracingSupportE5FlagsVwst
++ _$sxq_21SwiftUITracingSupport22IterativeTreeTraversalVyxq_GIgnll_xq_ADIegnll_r0_lTRAA5PTypeV5FieldV_AA0D4PairVyytSiGTG5TA.1083
++ _$sxq_21SwiftUITracingSupport22IterativeTreeTraversalVyxq_GIgnll_xq_ADIegnll_r0_lTRAA5PTypeV5FieldV_AA0D4PairVyytSiGTG5TA.1099
++ _$sxq_21SwiftUITracingSupport22IterativeTreeTraversalVyxq_GIgnll_xq_ADIegnll_r0_lTRAA5PTypeV5FieldV_AA0D4PairVyytSiGTG5TA.907
++ _$sxq_21SwiftUITracingSupport22IterativeTreeTraversalVyxq_GIgnng_xq_ADIegnng_r0_lTRAA5PTypeV5FieldV_AA0D4PairVyytSiGTG5TA.1087
++ _$sxq_21SwiftUITracingSupport22IterativeTreeTraversalVyxq_GIgnng_xq_ADIegnng_r0_lTRAA5PTypeV5FieldV_AA0D4PairVyytSiGTG5TA.1103
++ _$sxq_21SwiftUITracingSupport22IterativeTreeTraversalVyxq_GIgnng_xq_ADIegnng_r0_lTRAA5PTypeV5FieldV_AA0D4PairVyytSiGTG5TA.911
++ ___swift_memcpy2_2
++ ___swift_memcpy4_4
++ ___unnamed_104
++ ___unnamed_108
++ ___unnamed_165
++ ___unnamed_209
++ ___unnamed_97
++ _associated conformance 21SwiftUITracingSupport6ClientC15ConnectionErrorOSHAASQ
++ _block_copy_helper.1005
++ _block_copy_helper.1012
++ _block_copy_helper.1019
++ _block_copy_helper.1026
++ _block_copy_helper.1033
++ _block_copy_helper.1040
++ _block_copy_helper.1047
++ _block_copy_helper.1054
++ _block_copy_helper.1061
++ _block_copy_helper.1068
++ _block_copy_helper.145
++ _block_copy_helper.151
++ _block_copy_helper.157
++ _block_copy_helper.163
++ _block_copy_helper.169
++ _block_copy_helper.175
++ _block_copy_helper.183
++ _block_copy_helper.189
++ _block_copy_helper.197
++ _block_copy_helper.204
++ _block_copy_helper.210
++ _block_copy_helper.220
++ _block_copy_helper.228
++ _block_copy_helper.856
++ _block_copy_helper.870
++ _block_copy_helper.877
++ _block_copy_helper.879
++ _block_copy_helper.889
++ _block_copy_helper.916
++ _block_copy_helper.923
++ _block_copy_helper.942
++ _block_copy_helper.949
++ _block_copy_helper.956
++ _block_copy_helper.963
++ _block_copy_helper.970
++ _block_copy_helper.977
++ _block_copy_helper.984
++ _block_copy_helper.991
++ _block_copy_helper.998
++ _block_descriptor.1000
++ _block_descriptor.1007
++ _block_descriptor.1014
++ _block_descriptor.1021
++ _block_descriptor.1028
++ _block_descriptor.1035
++ _block_descriptor.1042
++ _block_descriptor.1049
++ _block_descriptor.1056
++ _block_descriptor.1063
++ _block_descriptor.1070
++ _block_descriptor.147
++ _block_descriptor.153
++ _block_descriptor.159
++ _block_descriptor.165
++ _block_descriptor.171
++ _block_descriptor.177
++ _block_descriptor.185
++ _block_descriptor.191
++ _block_descriptor.199
++ _block_descriptor.206
++ _block_descriptor.212
++ _block_descriptor.222
++ _block_descriptor.230
++ _block_descriptor.858
++ _block_descriptor.872
++ _block_descriptor.879
++ _block_descriptor.881
++ _block_descriptor.891
++ _block_descriptor.918
++ _block_descriptor.925
++ _block_descriptor.944
++ _block_descriptor.951
++ _block_descriptor.958
++ _block_descriptor.965
++ _block_descriptor.972
++ _block_descriptor.979
++ _block_descriptor.986
++ _block_descriptor.993
++ _block_destroy_helper.1006
++ _block_destroy_helper.1013
++ _block_destroy_helper.1020
++ _block_destroy_helper.1027
++ _block_destroy_helper.1034
++ _block_destroy_helper.1041
++ _block_destroy_helper.1048
++ _block_destroy_helper.1055
++ _block_destroy_helper.1062
++ _block_destroy_helper.1069
++ _block_destroy_helper.146
++ _block_destroy_helper.152
++ _block_destroy_helper.158
++ _block_destroy_helper.164
++ _block_destroy_helper.170
++ _block_destroy_helper.176
++ _block_destroy_helper.184
++ _block_destroy_helper.190
++ _block_destroy_helper.198
++ _block_destroy_helper.205
++ _block_destroy_helper.211
++ _block_destroy_helper.221
++ _block_destroy_helper.229
++ _block_destroy_helper.857
++ _block_destroy_helper.871
++ _block_destroy_helper.878
++ _block_destroy_helper.880
++ _block_destroy_helper.890
++ _block_destroy_helper.917
++ _block_destroy_helper.924
++ _block_destroy_helper.943
++ _block_destroy_helper.950
++ _block_destroy_helper.957
++ _block_destroy_helper.964
++ _block_destroy_helper.971
++ _block_destroy_helper.978
++ _block_destroy_helper.985
++ _block_destroy_helper.992
++ _block_destroy_helper.999
++ _get_witness_table s16IteratorSequenceVy21SwiftUITracingSupport4TreeV05ValueA0Vy_AC06ConcatA0VyAC04JustA0VyAC0F3RefVGs08IndexingA0VyAC11UnsafeArrayVyAMGGGGGSTHPyHC.836
++ _get_witness_table s16IteratorSequenceVy21SwiftUITracingSupport4TreeV09AttributeA0Vy_AByAE05ValueA0Vy_AC06ConcatA0VyAC04JustA0VyAC0F3RefVGs08IndexingA0VyAC11UnsafeArrayVyAOGGGGGGGSTHPyHC.837
++ _objectdestroy.149Tm
++ _objectdestroy.167Tm
++ _symbolic _____ 21SwiftUITracingSupport6ClientC15ConnectionErrorO
+- _$s21SwiftUITracingSupport0A7UITraceC10initClientAA0F0CSgyFZ
+- _$s21SwiftUITracingSupport0A7UITraceC8register1hyxAA5TraceVc_tAA0F7_HandleRzlFZ
+- _$s21SwiftUITracingSupport0A7UITraceC8register1hyxAA5TraceVc_tAA0F7_HandleRzlFZyAGzcfU_
+- _$s21SwiftUITracingSupport0A7UITraceC8register1hyxAA5TraceVc_tAA0F7_HandleRzlFZyAGzcfU_AG0A2UIV_Tg504$s21ab14Support20swiftd14RegisteryyFAA5F13V0A2UIVADcfU_Tf3npf_n
+- _$s21SwiftUITracingSupport0A7UITraceC8register1hyxAA5TraceVc_tAA0F7_HandleRzlFZyAGzcfU_TA
+- _$s21SwiftUITracingSupport10UnsafeTreeVA2A8MergableR_rlE3add_2to2atyq__AC6SymbolV3RefVyxq___GyACyxq_GzXEtFAA09AggregateE7ElementOyAA5EventV2IdVG_AA9MergeOnceVyAA0nE5StatsVGTB504$s21ab57Support11CauseEffectV7addTime8rootedAt7partial6withinyAA8nk36V_AiA11InterpreterC8IteratorVtFyAA10de6VyAA09l2Q7m9OyAA0L0V2o5VGAA9pq8VyAA0lQ5R9VGGzXEfU_AA11InterpreterC8IteratorVAA0nK0VTf1nncn_n
+- _$s21SwiftUITracingSupport12synchronizedyyyyXEFyyXEfU_TA.176
+- _$s21SwiftUITracingSupport14EvolutionTableV5localxSgs6UInt32V_tcigAEyKXEfu_AESpyACyxGGXEfU0_TA.43
+- _$s21SwiftUITracingSupport14EvolutionTableV5localxSgs6UInt32V_tcigAEyKXEfu_AESpyACyxGGXEfU0_TA.45
+- _$s21SwiftUITracingSupport14EvolutionTableV5localxSgs6UInt32V_tcigAeGXEfU_TA.42
+- _$s21SwiftUITracingSupport14EvolutionTableV5localxSgs6UInt32V_tcigAeGXEfU_TA.44
+- _$s21SwiftUITracingSupport19HeterogeneousBufferV6typeAtypXpAC5IndexV_tcigTm
+- _$s21SwiftUITracingSupport20swiftUITraceRegisteryyF
+- _$s21SwiftUITracingSupport5PTypeV12forEachField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0G0V_S2ixzSbztXEyAO_S2ixtcSgtlFyAO_AA13IterativePairVyxSiGAA0O13TreeTraversalVyAoSGtXEfU0_yt_TG5TA.1056
+- _$s21SwiftUITracingSupport5PTypeV12forEachField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0G0V_S2ixzSbztXEyAO_S2ixtcSgtlFyAO_AA13IterativePairVyxSiGAA0O13TreeTraversalVyAoSGtXEfU0_yt_TG5TA.1072
+- _$s21SwiftUITracingSupport5PTypeV12forEachField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0G0V_S2ixzSbztXEyAO_S2ixtcSgtlFyAO_AA13IterativePairVyxSiGAA0O13TreeTraversalVyAoSGtXEfU0_yt_TG5TA.880
+- _$s21SwiftUITracingSupport5PTypeV12forEachField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0G0V_S2ixzSbztXEyAO_S2ixtcSgtlFyAO_AA13IterativePairVyxSiGzAA0O13TreeTraversalVyAoSGztXEfU_yt_TG5TA.1055
+- _$s21SwiftUITracingSupport5PTypeV12forEachField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0G0V_S2ixzSbztXEyAO_S2ixtcSgtlFyAO_AA13IterativePairVyxSiGzAA0O13TreeTraversalVyAoSGztXEfU_yt_TG5TA.1071
+- _$s21SwiftUITracingSupport5PTypeV12forEachField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0G0V_S2ixzSbztXEyAO_S2ixtcSgtlFyAO_AA13IterativePairVyxSiGzAA0O13TreeTraversalVyAoSGztXEfU_yt_TG5TA.879
+- _$s21SwiftUITracingSupport5PTypeV22forEachLinearizedField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0H0V_S3ixzSbztXEyAO_S2ixtcSgtlFSbAO_S2ixzSbztXEfU_SbAO_S3iytzSbztXEfU_TA.1065
+- _$s21SwiftUITracingSupport5PTypeV22forEachLinearizedField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0H0V_S3ixzSbztXEyAO_S2ixtcSgtlFSbAO_S2ixzSbztXEfU_yt_Tg5TA.1050
+- _$s21SwiftUITracingSupport5PTypeV22forEachLinearizedField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0H0V_S3ixzSbztXEyAO_S2ixtcSgtlFSbAO_S2ixzSbztXEfU_yt_Tg5TA.1066
+- _$s21SwiftUITracingSupport5PTypeV22forEachLinearizedField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0H0V_S3ixzSbztXEyAO_S2ixtcSgtlFSbAO_S2ixzSbztXEfU_yt_Tg5TA.874
+- _$s21SwiftUITracingSupport5PTypeV22forEachLinearizedField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0H0V_S3ixzSbztXEyAO_S2ixtcSgtlFyAO_S2ixtcfU0_yt_TG5TA.1054
+- _$s21SwiftUITracingSupport5PTypeV22forEachLinearizedField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0H0V_S3ixzSbztXEyAO_S2ixtcSgtlFyAO_S2ixtcfU0_yt_TG5TA.1070
+- _$s21SwiftUITracingSupport5PTypeV22forEachLinearizedField6within8userData_9revisitoryAA11InterpreterC7StorageV5TypesV_xSbAC0H0V_S3ixzSbztXEyAO_S2ixtcSgtlFyAO_S2ixtcfU0_yt_TG5TA.878
+- _$s21SwiftUITracingSupport5TraceVIegl_ACytIeglr_TR04$s21ab34Support0A7UITraceC8register1hyxAA5D99Vc_tAA0F7_HandleRzlFZyAGzcfU_AG5UIKitV_Tg504$s21ab9Support18hF27RegisteryyFAA0E0V0D0VADcfU_Tf3npf_nTf3nnpf_n
+- _$s21SwiftUITracingSupport5TraceVIegl_ACytIeglr_TR04$s21ab34Support0A7UITraceC8register1hyxAA5d87Vc_tAA0F7_HandleRzlFZyAGzcfU_AG0A2UIV_Tg504$s21ab14Support20swiftd14RegisteryyFAA5F13V0S17UIVADcfU_Tf3npf_nTf3nnpf_n
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciMyyScMYccfU_AA8SnapshotV_Tgq5TA.846
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tg5TA.840
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tg5TA.863
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1002
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1009
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1016
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1023
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1030
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1037
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.1044
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.853
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.892
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.899
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.918
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.925
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.932
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.939
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.946
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.953
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.960
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.967
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.974
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.981
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.988
+- _$s21SwiftUITracingSupport6AtomicV6onMainxSb_tciryyScMYccfU_AA8SnapshotV_Tgq5TA.995
+- _$s21SwiftUITracingSupport6ClientC12gracefulExityyFyyXEfU_TA.218
+- _$s21SwiftUITracingSupport6ClientC8registeryyF
+- _$s21SwiftUITracingSupport6ClientCACycfCTq
+- _$s21SwiftUITracingSupport6ClientCACycfc
+- _$s21SwiftUITracingSupport6ClientCACycfcTv_r
+- _$sIg_Ieg_TRTA.165
+- _$sIg_Ieg_TRTA.214
+- _$sIg_Ieg_TRTA.222
+- _$sxq_21SwiftUITracingSupport22IterativeTreeTraversalVyxq_GIgnll_xq_ADIegnll_r0_lTRAA5PTypeV5FieldV_AA0D4PairVyytSiGTG5TA.1060
+- _$sxq_21SwiftUITracingSupport22IterativeTreeTraversalVyxq_GIgnll_xq_ADIegnll_r0_lTRAA5PTypeV5FieldV_AA0D4PairVyytSiGTG5TA.1076
+- _$sxq_21SwiftUITracingSupport22IterativeTreeTraversalVyxq_GIgnll_xq_ADIegnll_r0_lTRAA5PTypeV5FieldV_AA0D4PairVyytSiGTG5TA.884
+- _$sxq_21SwiftUITracingSupport22IterativeTreeTraversalVyxq_GIgnng_xq_ADIegnng_r0_lTRAA5PTypeV5FieldV_AA0D4PairVyytSiGTG5TA.1064
+- _$sxq_21SwiftUITracingSupport22IterativeTreeTraversalVyxq_GIgnng_xq_ADIegnng_r0_lTRAA5PTypeV5FieldV_AA0D4PairVyytSiGTG5TA.1080
+- _$sxq_21SwiftUITracingSupport22IterativeTreeTraversalVyxq_GIgnng_xq_ADIegnng_r0_lTRAA5PTypeV5FieldV_AA0D4PairVyytSiGTG5TA.888
+- ___unnamed_103
+- ___unnamed_107
+- ___unnamed_163
+- ___unnamed_207
+- ___unnamed_95
+- _block_copy_helper.1003
+- _block_copy_helper.1010
+- _block_copy_helper.1017
+- _block_copy_helper.1024
+- _block_copy_helper.1031
+- _block_copy_helper.1038
+- _block_copy_helper.1045
+- _block_copy_helper.140
+- _block_copy_helper.146
+- _block_copy_helper.152
+- _block_copy_helper.158
+- _block_copy_helper.166
+- _block_copy_helper.172
+- _block_copy_helper.180
+- _block_copy_helper.186
+- _block_copy_helper.192
+- _block_copy_helper.199
+- _block_copy_helper.205
+- _block_copy_helper.215
+- _block_copy_helper.223
+- _block_copy_helper.841
+- _block_copy_helper.847
+- _block_copy_helper.854
+- _block_copy_helper.864
+- _block_copy_helper.866
+- _block_copy_helper.893
+- _block_copy_helper.900
+- _block_copy_helper.919
+- _block_copy_helper.926
+- _block_copy_helper.933
+- _block_copy_helper.940
+- _block_copy_helper.947
+- _block_copy_helper.954
+- _block_copy_helper.961
+- _block_copy_helper.968
+- _block_copy_helper.975
+- _block_copy_helper.982
+- _block_copy_helper.989
+- _block_copy_helper.996
+- _block_descriptor.1005
+- _block_descriptor.1012
+- _block_descriptor.1019
+- _block_descriptor.1026
+- _block_descriptor.1033
+- _block_descriptor.1040
+- _block_descriptor.1047
+- _block_descriptor.142
+- _block_descriptor.148
+- _block_descriptor.154
+- _block_descriptor.160
+- _block_descriptor.168
+- _block_descriptor.174
+- _block_descriptor.182
+- _block_descriptor.188
+- _block_descriptor.194
+- _block_descriptor.201
+- _block_descriptor.207
+- _block_descriptor.217
+- _block_descriptor.225
+- _block_descriptor.843
+- _block_descriptor.849
+- _block_descriptor.856
+- _block_descriptor.866
+- _block_descriptor.868
+- _block_descriptor.895
+- _block_descriptor.902
+- _block_descriptor.921
+- _block_descriptor.928
+- _block_descriptor.935
+- _block_descriptor.942
+- _block_descriptor.949
+- _block_descriptor.956
+- _block_descriptor.963
+- _block_descriptor.970
+- _block_descriptor.977
+- _block_descriptor.984
+- _block_descriptor.991
+- _block_descriptor.998
+- _block_destroy_helper.1004
+- _block_destroy_helper.1011
+- _block_destroy_helper.1018
+- _block_destroy_helper.1025
+- _block_destroy_helper.1032
+- _block_destroy_helper.1039
+- _block_destroy_helper.1046
+- _block_destroy_helper.141
+- _block_destroy_helper.147
+- _block_destroy_helper.153
+- _block_destroy_helper.159
+- _block_destroy_helper.167
+- _block_destroy_helper.173
+- _block_destroy_helper.181
+- _block_destroy_helper.187
+- _block_destroy_helper.193
+- _block_destroy_helper.200
+- _block_destroy_helper.206
+- _block_destroy_helper.216
+- _block_destroy_helper.224
+- _block_destroy_helper.842
+- _block_destroy_helper.848
+- _block_destroy_helper.855
+- _block_destroy_helper.865
+- _block_destroy_helper.867
+- _block_destroy_helper.894
+- _block_destroy_helper.901
+- _block_destroy_helper.920
+- _block_destroy_helper.927
+- _block_destroy_helper.934
+- _block_destroy_helper.941
+- _block_destroy_helper.948
+- _block_destroy_helper.955
+- _block_destroy_helper.962
+- _block_destroy_helper.969
+- _block_destroy_helper.976
+- _block_destroy_helper.983
+- _block_destroy_helper.990
+- _block_destroy_helper.997
+- _get_witness_table s16IteratorSequenceVy21SwiftUITracingSupport4TreeV05ValueA0Vy_AC06ConcatA0VyAC04JustA0VyAC0F3RefVGs08IndexingA0VyAC11UnsafeArrayVyAMGGGGGSTHPyHC.813
+- _get_witness_table s16IteratorSequenceVy21SwiftUITracingSupport4TreeV09AttributeA0Vy_AByAE05ValueA0Vy_AC06ConcatA0VyAC04JustA0VyAC0F3RefVGs08IndexingA0VyAC11UnsafeArrayVyAOGGGGGGGSTHPyHC.814
+- _objectdestroy.144Tm
+- _objectdestroy.184Tm
+CStrings:
++ "Couldn't connect to trace host. Likely due to a restrictive sandbox."
++ "Uncaught unknown error"
+
+```

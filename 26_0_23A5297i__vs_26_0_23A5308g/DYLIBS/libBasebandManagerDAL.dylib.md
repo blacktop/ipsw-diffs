@@ -1,0 +1,135 @@
+## libBasebandManagerDAL.dylib
+
+> `/usr/lib/libBasebandManagerDAL.dylib`
+
+```diff
+
+-1384.1.0.0.0
+-  __TEXT.__text: 0x188924
+-  __TEXT.__auth_stubs: 0x28f0
++1390.0.0.0.0
++  __TEXT.__text: 0x18b598
++  __TEXT.__auth_stubs: 0x2930
+   __TEXT.__init_offsets: 0x104
+   __TEXT.__objc_methlist: 0x314
+-  __TEXT.__const: 0xa4a3
+-  __TEXT.__gcc_except_tab: 0x239ac
++  __TEXT.__const: 0xa643
++  __TEXT.__gcc_except_tab: 0x23b94
+   __TEXT.__oslogstring: 0x88e1
+-  __TEXT.__cstring: 0x4b13
+-  __TEXT.__unwind_info: 0x7338
++  __TEXT.__cstring: 0x4b3c
++  __TEXT.__unwind_info: 0x7430
+   __TEXT.__objc_classname: 0xd3
+   __TEXT.__objc_methname: 0xc99
+   __TEXT.__objc_methtype: 0xe03
+   __TEXT.__objc_stubs: 0xc40
+-  __DATA_CONST.__got: 0x1678
+-  __DATA_CONST.__const: 0x1550
++  __DATA_CONST.__got: 0x1690
++  __DATA_CONST.__const: 0x1610
+   __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x3f0
+   __DATA_CONST.__objc_superrefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x1488
+-  __AUTH_CONST.__const: 0x9e68
++  __AUTH_CONST.__auth_got: 0x14a8
++  __AUTH_CONST.__const: 0x9fe0
+   __AUTH_CONST.__cfstring: 0x480
+   __AUTH_CONST.__objc_const: 0x6e8
+   __AUTH.__objc_data: 0x190
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprotobuf-lite.dylib
+   - /usr/lib/libprotobuf.dylib
+-  UUID: ACD7BD80-F70D-3C98-B755-D360F82BDE1C
+-  Functions: 4330
+-  Symbols:   13119
+-  CStrings:  1915
++  UUID: C6762969-56B5-3A1D-A55F-F5741C1A41C8
++  Functions: 4371
++  Symbols:   13228
++  CStrings:  1920
+ 
+Symbols:
++ __ZN21CircularFileLogWriter10clear_syncEv
++ __ZN21CircularFileLogWriter10close_syncEv
++ __ZN21CircularFileLogWriter10write_syncENSt3__110shared_ptrIN3ctu10LogMessageEEE
++ __ZN21CircularFileLogWriter11setCapacityEm
++ __ZN21CircularFileLogWriter11writeBufferEPKcm
++ __ZN21CircularFileLogWriter15openNewLog_syncEv
++ __ZN21CircularFileLogWriter16writeBuffer_syncEPKcm
++ __ZN21CircularFileLogWriter17clearOldLogs_syncEv
++ __ZN21CircularFileLogWriter17getFileIndex_syncERjS0_
++ __ZN21CircularFileLogWriter20closeRunningLog_syncEv
++ __ZN21CircularFileLogWriter4openEv
++ __ZN21CircularFileLogWriter5clearEv
++ __ZN21CircularFileLogWriter5closeEv
++ __ZN21CircularFileLogWriter5writeENSt3__110shared_ptrIN3ctu10LogMessageEEE
++ __ZN21CircularFileLogWriter6createERKNS_6ParamsE
++ __ZN21CircularFileLogWriterC1ERKNS_6ParamsE
++ __ZN21CircularFileLogWriterC2ERKNS_6ParamsE
++ __ZN21CircularFileLogWriterD0Ev
++ __ZN21CircularFileLogWriterD1Ev
++ __ZN21CircularFileLogWriterD2Ev
++ __ZN3ctu20SharedSynchronizableI21CircularFileLogWriterED2Ev
++ __ZN3ctu6asCharENS_8LogLevelE
++ __ZN3ctu9LogWriter13getFullConfigEv
++ __ZN3ctu9LogWriter15getSimpleConfigEv
++ __ZN3ctu9LogWriter5flushEN8dispatch13group_sessionE
++ __ZN3ctu9LogWriter5writeERKNS_10LogMessageE
++ __ZNK21CircularFileLogWriter21generateFileName_syncEm
++ __ZNK3ctu20SharedSynchronizableI21CircularFileLogWriterE15execute_wrappedEU13block_pointerFvvE
++ __ZNKSt3__120__shared_ptr_pointerIP21CircularFileLogWriterZN3ctu20SharedSynchronizableIS1_E15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS8_EUlS2_E_NS_9allocatorIS1_EEE13__get_deleterERKSt9type_info
++ __ZNSt3__110shared_ptrI21CircularFileLogWriterED2B8ne200100Ev
++ __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEd
++ __ZNSt3__120__shared_ptr_pointerIP21CircularFileLogWriterZN3ctu20SharedSynchronizableIS1_E15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS8_EUlS2_E_NS_9allocatorIS1_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_pointerIP21CircularFileLogWriterZN3ctu20SharedSynchronizableIS1_E15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS8_EUlS2_E_NS_9allocatorIS1_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_pointerIP21CircularFileLogWriterZN3ctu20SharedSynchronizableIS1_E15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS8_EUlS2_E_NS_9allocatorIS1_EEED0Ev
++ __ZNSt3__120__shared_ptr_pointerIP21CircularFileLogWriterZN3ctu20SharedSynchronizableIS1_E15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS8_EUlS2_E_NS_9allocatorIS1_EEED1Ev
++ __ZNSt3__15stoulERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPmi
++ __ZTI21CircularFileLogWriter
++ __ZTIN3ctu20SharedSynchronizableI21CircularFileLogWriterEE
++ __ZTIN3ctu9LogWriterE
++ __ZTINSt3__120__shared_ptr_pointerIP21CircularFileLogWriterZN3ctu20SharedSynchronizableIS1_E15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS8_EUlS2_E_NS_9allocatorIS1_EEEE
++ __ZTINSt3__123enable_shared_from_thisI21CircularFileLogWriterEE
++ __ZTS21CircularFileLogWriter
++ __ZTSN3ctu20SharedSynchronizableI21CircularFileLogWriterEE
++ __ZTSNSt3__120__shared_ptr_pointerIP21CircularFileLogWriterZN3ctu20SharedSynchronizableIS1_E15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS8_EUlS2_E_NS_9allocatorIS1_EEEE
++ __ZTSNSt3__123enable_shared_from_thisI21CircularFileLogWriterEE
++ __ZTSZN3ctu20SharedSynchronizableI21CircularFileLogWriterE15make_shared_ptrIS1_EENSt3__110shared_ptrIT_EEPS6_EUlPS1_E_
++ __ZTTNSt3__114basic_ofstreamIcNS_11char_traitsIcEEEE
++ __ZTV21CircularFileLogWriter
++ __ZTVN3ctu9LogWriterE
++ __ZTVNSt3__114basic_ofstreamIcNS_11char_traitsIcEEEE
++ __ZTVNSt3__120__shared_ptr_pointerIP21CircularFileLogWriterZN3ctu20SharedSynchronizableIS1_E15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS8_EUlS2_E_NS_9allocatorIS1_EEEE
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI20MipcTransportServiceE15execute_wrappedIZNS3_8snapshotENSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEEE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNS6_10unique_ptrISE_NS6_14default_deleteISE_EEEEENUlPvE_8__invokeESN_
++ __ZZZN3ctu20SharedSynchronizableI21CircularFileLogWriterE15make_shared_ptrIS1_EENSt3__110shared_ptrIT_EEPS6_ENKUlPS1_E_clES9_ENUlPvE_8__invokeESB_
++ ____ZN21CircularFileLogWriter11setCapacityEm_block_invoke
++ ____ZN21CircularFileLogWriter11writeBufferEPKcm_block_invoke
++ ____ZN21CircularFileLogWriter4openEv_block_invoke
++ ____ZN21CircularFileLogWriter5clearEv_block_invoke
++ ____ZN21CircularFileLogWriter5closeEv_block_invoke
++ ____ZN21CircularFileLogWriter5writeENSt3__110shared_ptrIN3ctu10LogMessageEEE_block_invoke
++ ____ZNK3ctu20SharedSynchronizableI21CircularFileLogWriterE15execute_wrappedEU13block_pointerFvvE_block_invoke
++ ____ZNK3ctu20SharedSynchronizableI21CircularFileLogWriterE20execute_wrapped_syncIRU13block_pointerFvvEEEDTclsr8dispatchE4syncLDnEclsr3stdE7forwardIT_Efp_EEEOS7__block_invoke
++ ___copy_helper_block_e8_40c44_ZTSNSt3__110shared_ptrIN3ctu10LogMessageEEE
++ ___copy_helper_block_e8_40c50_ZTSNSt3__110shared_ptrIK21CircularFileLogWriterEE
++ ___destroy_helper_block_e8_40c44_ZTSNSt3__110shared_ptrIN3ctu10LogMessageEEE
++ ___destroy_helper_block_e8_40c50_ZTSNSt3__110shared_ptrIK21CircularFileLogWriterEE
++ _symlink
+CStrings:
++ " ["
++ "%08zu"
++ "([0-9]{8})"
++ "AppleBasebandManager-AppleBasebandServices_Manager-1390"
++ "AppleBasebandServices_Manager-1390"
++ "CircularFileLogWriter"
++ "] "
+- "AppleBasebandManager-AppleBasebandServices_Manager-1384.1"
+- "AppleBasebandServices_Manager-1384.1"
+
+```

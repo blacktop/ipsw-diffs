@@ -1,0 +1,278 @@
+## AppStoreKit
+
+> `/System/Library/PrivateFrameworks/AppStoreKit.framework/AppStoreKit`
+
+```diff
+
+-11.0.70.0.0
+-  __TEXT.__text: 0x7b6894
+-  __TEXT.__auth_stubs: 0x9840
++11.0.77.0.0
++  __TEXT.__text: 0x7ba178
++  __TEXT.__auth_stubs: 0x9870
+   __TEXT.__init_offsets: 0x4
+-  __TEXT.__objc_methlist: 0x5b00
+-  __TEXT.__const: 0x50214
+-  __TEXT.__cstring: 0x323eb
++  __TEXT.__objc_methlist: 0x5b10
++  __TEXT.__const: 0x50754
++  __TEXT.__cstring: 0x32aeb
+   __TEXT.__oslogstring: 0x414
+   __TEXT.__gcc_except_tab: 0x964
+-  __TEXT.__swift5_typeref: 0x1794c
+-  __TEXT.__swift5_reflstr: 0x1fde0
++  __TEXT.__swift5_typeref: 0x17a0a
++  __TEXT.__swift5_reflstr: 0x1fea0
+   __TEXT.__swift5_assocty: 0x3748
+-  __TEXT.__constg_swiftt: 0x1f9c8
+-  __TEXT.__swift5_fieldmd: 0x1d358
++  __TEXT.__constg_swiftt: 0x1fa50
++  __TEXT.__swift5_fieldmd: 0x1d434
+   __TEXT.__swift5_builtin: 0x8c0
+-  __TEXT.__swift5_proto: 0x3018
+-  __TEXT.__swift5_types: 0x1acc
+-  __TEXT.__swift5_capture: 0xab18
++  __TEXT.__swift5_proto: 0x3050
++  __TEXT.__swift5_types: 0x1adc
++  __TEXT.__swift5_capture: 0xab50
+   __TEXT.__swift5_protos: 0x3b0
+-  __TEXT.__swift_as_entry: 0x3cc
+-  __TEXT.__swift_as_ret: 0x40c
++  __TEXT.__swift_as_entry: 0x3d0
++  __TEXT.__swift_as_ret: 0x414
+   __TEXT.__swift5_mpenum: 0x27c
+-  __TEXT.__unwind_info: 0x1ab20
+-  __TEXT.__eh_frame: 0x1bf94
++  __TEXT.__unwind_info: 0x1abf8
++  __TEXT.__eh_frame: 0x1bf7c
+   __TEXT.__objc_classname: 0x786
+-  __TEXT.__objc_methname: 0xea10
++  __TEXT.__objc_methname: 0xea50
+   __TEXT.__objc_methtype: 0x3b8a
+   __TEXT.__objc_stubs: 0x4400
+-  __DATA_CONST.__got: 0x2730
++  __DATA_CONST.__got: 0x2738
+   __DATA_CONST.__const: 0x45f0
+   __DATA_CONST.__objc_classlist: 0x13c8
+   __DATA_CONST.__objc_catlist: 0x78
+   __DATA_CONST.__objc_protolist: 0x380
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x46c8
++  __DATA_CONST.__objc_selrefs: 0x46d8
+   __DATA_CONST.__objc_protorefs: 0x220
+   __DATA_CONST.__objc_superrefs: 0xf8
+   __DATA_CONST.__objc_arraydata: 0x120
+-  __AUTH_CONST.__auth_got: 0x4c38
+-  __AUTH_CONST.__const: 0x42630
++  __AUTH_CONST.__auth_got: 0x4c50
++  __AUTH_CONST.__const: 0x44c40
+   __AUTH_CONST.__cfstring: 0x2020
+-  __AUTH_CONST.__objc_const: 0x40d88
++  __AUTH_CONST.__objc_const: 0x40db0
+   __AUTH_CONST.__objc_intobj: 0x30
+   __AUTH_CONST.__objc_arrayobj: 0x90
+-  __AUTH.__objc_data: 0x44a0
+-  __AUTH.__data: 0x11e30
++  __AUTH.__objc_data: 0x43c0
++  __AUTH.__data: 0x11b50
+   __DATA.__objc_ivar: 0x184
+-  __DATA.__data: 0xb5d8
+-  __DATA.__bss: 0x387e0
++  __DATA.__data: 0xb378
++  __DATA.__bss: 0x37380
+   __DATA.__common: 0xd48
+-  __DATA_DIRTY.__objc_data: 0x8ff0
+-  __DATA_DIRTY.__data: 0x29f90
+-  __DATA_DIRTY.__bss: 0x17808
+-  __DATA_DIRTY.__common: 0x2080
++  __DATA_DIRTY.__objc_data: 0x90d8
++  __DATA_DIRTY.__data: 0x2a5c0
++  __DATA_DIRTY.__bss: 0x19398
++  __DATA_DIRTY.__common: 0x2090
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
++  - /usr/lib/swift/libswiftCoreAudio_Private.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9B84A7E5-9DF7-310B-A931-4CC8E7CA712B
+-  Functions: 42639
+-  Symbols:   16803
+-  CStrings:  9236
++  UUID: C1AD2336-E08A-35A1-9FF2-9D9B1895EF76
++  Functions: 42715
++  Symbols:   16834
++  CStrings:  9284
+ 
+Symbols:
++ ___swift_assignWithCopy_strong
++ ___swift_assignWithTake_strong
++ ___swift_destroy_strong
++ ___swift_initWithCopy_strong
++ __swift_FORCE_LOAD_$_swiftCoreAudio_Private
++ __swift_FORCE_LOAD_$_swiftCoreAudio_Private_$_AppStoreKit
++ _associated conformance 11AppStoreKit21AccessibilityMetadataVSHAASQ
++ _associated conformance 11AppStoreKit21GamesUIDeepLinkTargetO17FriendsCodingKeys33_4B969D959C4C9BD5AD3816EC55502052LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 11AppStoreKit21GamesUIDeepLinkTargetO17FriendsCodingKeys33_4B969D959C4C9BD5AD3816EC55502052LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11AppStoreKit21GamesUIDeepLinkTargetO22AchievementsCodingKeys33_4B969D959C4C9BD5AD3816EC55502052LLOSHAASQ
++ _associated conformance 11AppStoreKit21GamesUIDeepLinkTargetO22AchievementsCodingKeys33_4B969D959C4C9BD5AD3816EC55502052LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 11AppStoreKit21GamesUIDeepLinkTargetO22AchievementsCodingKeys33_4B969D959C4C9BD5AD3816EC55502052LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11AppStoreKit21GamesUIDeepLinkTargetO26PageAchievementsCodingKeys33_4B969D959C4C9BD5AD3816EC55502052LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 11AppStoreKit21GamesUIDeepLinkTargetO26PageAchievementsCodingKeys33_4B969D959C4C9BD5AD3816EC55502052LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.120
++ _block_copy_helper.132
++ _block_copy_helper.28
++ _block_copy_helper.60
++ _block_copy_helper.77
++ _block_copy_helper.90
++ _block_descriptor.122
++ _block_descriptor.134
++ _block_descriptor.30
++ _block_descriptor.62
++ _block_descriptor.79
++ _block_descriptor.92
++ _block_destroy_helper.121
++ _block_destroy_helper.133
++ _block_destroy_helper.29
++ _block_destroy_helper.61
++ _block_destroy_helper.78
++ _block_destroy_helper.91
++ _get_witness_table 11AppStoreKit16LinkableTextViewV7SwiftUI0F0HPyHC.119
++ _get_witness_table 11AppStoreKit16LinkableTextViewV7SwiftUI0F0HPyHC.21
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4TextVAA14_PaddingLayoutVGAA4ViewHPAeaIHPyHC_AgA0H8ModifierHPyHCHC.124
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA4ViewHPAeaKHPyHC_AiA0jI0HPyHCHC.126
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyACyACy11AppStoreKit0A13UIArtworkViewVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA016_ForegroundStyleN0VyAA5ColorVGGSgGAA12_FrameLayoutVGAA0J0HPAwAA_HPAvAA_HpAuAA_HPAoAA_HPAhAA_HPyHC_AnA0jN0HPyHCHC_AtAA0_HPyHCHC_HC_HC_AyAA0_HPyHCHC.58
++ _get_witness_table 7SwiftUI15ModifiedContentVyACy11AppStoreKit0A13UIArtworkViewVAA12_FrameLayoutVGAA012_AspectRatioK0VGAA0I0HPAiaMHPAfaMHPyHC_AhA0I8ModifierHPyHCHC_AkaNHPyHCHC.125
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA6VStackVyAA9TupleViewVyAA4TextV_AItGGAA6HStackVyAGyAA08ModifiedD0VyAOyAiA30_EnvironmentKeyWritingModifierVySiSgGGAA06_TraitmN0VyAA014LayoutPriorityoL0VGG_AOyAA6SpacerVAA010_FlexFrameP0VGAZtGGGAA0G0HPAkAA7_HPyHC_A5_AAA7_HPyHCHC.122
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyACy011_JetEngine_aB09ComponentPADE5modelyQr5ModelQzFQOy11AppStoreKit21ProductCapabilityViewV_Qo_ACyAJ028AccessibilityFeaturesDetailsO0VAJ0pq4CardO0VGGACyAJ0p9ParagraphO0VAfDEAGyQrAIFQOyAJ015MediaPageHeaderO0V_Qo_GGAA05EmptyO0VGAA0O0HPAzAA2_HPAsAA2_HPqd__AAA2_HD2_AMHO_ArAA2_HPAoAA2_HPyHC_AqAA2_HPyHCHCHC_AyAA2_HPAuAA2_HPyHC_qd__AAA2_HD2_AXHOHCHC_A0_AAA2_HPyHCHC.14
++ _get_witness_table 7SwiftUI4ViewPAAE20accessibilityActionsyQrqd__yXEAaBRd__lFQOyAA15ModifiedContentVyAFyAFyAFyAFyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0H9AlignmentOGGAA016_ForegroundStyleL0VyAA5ColorVGGAJyAA08AnyShapeO0VSgGGAJyAA13OpenURLActionVGGAA16_FlexFrameLayoutVG_AA7ForEachVySay11AppStoreKit6ActionCGs0Q8HashableV011_JetEngine_aB012ActionButtonVyAHGSgGSgQo_SgAaBHpqd0__AaBHD3_A20_HO_HC.16
++ _get_witness_table 7SwiftUI4ViewRzAaBR_AaBR0_r1_lAA15ModifiedContentVy011_JetEngine_aB004TaskC0Vy11AppStoreKit15BootstrapResultVADyxAA01_H8ModifierVGq_q0_GALGAaBHPAnaBHPyHC_AlA0cN0HPyHCHC.27
++ _get_witness_table 7SwiftUI6SpacerVAA4ViewHPyHC.123
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAA4TextVAA14_PaddingLayoutVG_AGy11AppStoreKit08LinkablehE0VAKGAA6SpacerVtGGAA0E0HPyHC.57
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE010navigationC5StyleyQrqd__AA010NavigationcE0Rd__lFQOyAA0F5StackVyAA0F4PathV011_JetEngine_aB0018ContentUnavailableC0VyAA4TextVAnJ0kL6ButtonVyANGGG_AA0gfcE0VQo_HO.30
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE010navigationC5StyleyQrqd__AA010NavigationcE0Rd__lFQOyAA0F5StackVyAA0F4PathV011_JetEngine_aB007LoadingC0VyAA4TextVGG_AA0gfcE0VQo_HO.29
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQOy011_JetEngine_aB006ActionG0VyAA15ModifiedContentVyAJyAJyAA4TextVAA16_FlexFrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA011_ForegroundeT0VyAA5ColorVGGG_AA05PlaingE0VQo_HO.121
++ _objectdestroy.144Tm
++ _objectdestroy.22Tm
++ _symbolic SS8bundleID_t
++ _symbolic SS9productID_t
++ _symbolic ScCySo7UIImageCSg_____G s5NeverO
++ _symbolic So7CIImageCSgIegg_
++ _symbolic _____ 11AppStoreKit21AccessibilityMetadataV
++ _symbolic _____ 11AppStoreKit21GamesUIDeepLinkTargetO17FriendsCodingKeys33_4B969D959C4C9BD5AD3816EC55502052LLO
++ _symbolic _____ 11AppStoreKit21GamesUIDeepLinkTargetO22AchievementsCodingKeys33_4B969D959C4C9BD5AD3816EC55502052LLO
++ _symbolic _____ 11AppStoreKit21GamesUIDeepLinkTargetO26PageAchievementsCodingKeys33_4B969D959C4C9BD5AD3816EC55502052LLO
++ _symbolic _____ 17RealityFoundation0A8RendererC12CameraOutputV
++ _symbolic _____SgXw 11AppStoreKit016ThreeDimensionalA19IconRealityRendererC
++ _symbolic _____SgXwz_Xx 11AppStoreKit016ThreeDimensionalA19IconRealityRendererC
++ _symbolic _____ySay_____G__________y_____GSgGSg 7SwiftUI7ForEachV 11AppStoreKit6ActionC s11AnyHashableV 011_JetEngine_aB00H6ButtonV AA4TextV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11AppStoreKit21GamesUIDeepLinkTargetO17FriendsCodingKeys33_4B969D959C4C9BD5AD3816EC55502052LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11AppStoreKit21GamesUIDeepLinkTargetO22AchievementsCodingKeys33_4B969D959C4C9BD5AD3816EC55502052LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11AppStoreKit21GamesUIDeepLinkTargetO26PageAchievementsCodingKeys33_4B969D959C4C9BD5AD3816EC55502052LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11AppStoreKit21GamesUIDeepLinkTargetO17FriendsCodingKeys33_4B969D959C4C9BD5AD3816EC55502052LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11AppStoreKit21GamesUIDeepLinkTargetO22AchievementsCodingKeys33_4B969D959C4C9BD5AD3816EC55502052LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11AppStoreKit21GamesUIDeepLinkTargetO26PageAchievementsCodingKeys33_4B969D959C4C9BD5AD3816EC55502052LLO
++ _symbolic _____y_____yAAyAAyAAyAAy__________y_____GG_____y_____GGACy_____SgGGACy_____GG_____G______ySay_____G__________yABGSgGSgQo_ 7SwiftUI4ViewPAAE20accessibilityActionsyQrqd__yXEAaBRd__lFQO AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA016_ForegroundStyleL0V AA5ColorV AA08AnyShapeO0V AA13OpenURLActionV AA16_FlexFrameLayoutV AA7ForEachV 11AppStoreKit6ActionC s0Q8HashableV 011_JetEngine_aB012ActionButtonV
++ _symbolic _____y_____yAAyAAyAAyAAy__________y_____GG_____y_____GGACy_____SgGGACy_____GG_____G______ySay_____G__________yABGSgGSgQo_Sg 7SwiftUI4ViewPAAE20accessibilityActionsyQrqd__yXEAaBRd__lFQO AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA016_ForegroundStyleL0V AA5ColorV AA08AnyShapeO0V AA13OpenURLActionV AA16_FlexFrameLayoutV AA7ForEachV 11AppStoreKit6ActionC s0Q8HashableV 011_JetEngine_aB012ActionButtonV
++ _type_layout_string 11AppStoreKit21AccessibilityMetadataV
+- _block_copy_helper.115
+- _block_copy_helper.141
+- _block_copy_helper.63
+- _block_copy_helper.66
+- _block_descriptor.117
+- _block_descriptor.143
+- _block_descriptor.65
+- _block_descriptor.68
+- _block_destroy_helper.116
+- _block_destroy_helper.142
+- _block_destroy_helper.64
+- _block_destroy_helper.67
+- _get_witness_table 11AppStoreKit16LinkableTextViewV7SwiftUI0F0HPyHC.113
+- _get_witness_table 11AppStoreKit16LinkableTextViewV7SwiftUI0F0HPyHC.15
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4TextVAA14_PaddingLayoutVGAA4ViewHPAeaIHPyHC_AgA0H8ModifierHPyHCHC.118
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA4ViewHPAeaKHPyHC_AiA0jI0HPyHCHC.120
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyACyACy11AppStoreKit0A13UIArtworkViewVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA016_ForegroundStyleN0VyAA5ColorVGGSgGAA12_FrameLayoutVGAA0J0HPAwAA_HPAvAA_HpAuAA_HPAoAA_HPAhAA_HPyHC_AnA0jN0HPyHCHC_AtAA0_HPyHCHC_HC_HC_AyAA0_HPyHCHC.52
+- _get_witness_table 7SwiftUI15ModifiedContentVyACy11AppStoreKit0A13UIArtworkViewVAA12_FrameLayoutVGAA012_AspectRatioK0VGAA0I0HPAiaMHPAfaMHPyHC_AhA0I8ModifierHPyHCHC_AkaNHPyHCHC.119
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA6VStackVyAA9TupleViewVyAA4TextV_AItGGAA6HStackVyAGyAA08ModifiedD0VyAOyAiA30_EnvironmentKeyWritingModifierVySiSgGGAA06_TraitmN0VyAA014LayoutPriorityoL0VGG_AOyAA6SpacerVAA010_FlexFrameP0VGAZtGGGAA0G0HPAkAA7_HPyHC_A5_AAA7_HPyHCHC.116
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyACy011_JetEngine_aB09ComponentPADE5modelyQr5ModelQzFQOy11AppStoreKit21ProductCapabilityViewV_Qo_ACyAJ028AccessibilityFeaturesDetailsO0VAJ0pq4CardO0VGGACyAJ0p9ParagraphO0VAfDEAGyQrAIFQOyAJ015MediaPageHeaderO0V_Qo_GGAA05EmptyO0VGAA0O0HPAzAA2_HPAsAA2_HPqd__AAA2_HD2_AMHO_ArAA2_HPAoAA2_HPyHC_AqAA2_HPyHCHCHC_AyAA2_HPAuAA2_HPyHC_qd__AAA2_HD2_AXHOHCHC_A0_AAA2_HPyHCHC.10
+- _get_witness_table 7SwiftUI4ViewPAAE20accessibilityActionsyQrqd__yXEAaBRd__lFQOyAA15ModifiedContentVyAFyAFyAFyAFyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0H9AlignmentOGGAA016_ForegroundStyleL0VyAA5ColorVGGAJyAA08AnyShapeO0VSgGGAJyAA13OpenURLActionVGGAA16_FlexFrameLayoutVG_AA7ForEachVySay11AppStoreKit6ActionCGs0Q8HashableV011_JetEngine_aB012ActionButtonVyAHGSgGQo_SgAaBHpqd0__AaBHD3_A19_HO_HC.16
+- _get_witness_table 7SwiftUI4ViewRzAaBR_AaBR0_r1_lAA15ModifiedContentVy011_JetEngine_aB004TaskC0Vy11AppStoreKit15BootstrapResultVADyxAA01_H8ModifierVGq_q0_GALGAaBHPAnaBHPyHC_AlA0cN0HPyHCHC.23
+- _get_witness_table 7SwiftUI6SpacerVAA4ViewHPyHC.117
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAA4TextVAA14_PaddingLayoutVG_AGy11AppStoreKit08LinkablehE0VAKGAA6SpacerVtGGAA0E0HPyHC.51
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE010navigationC5StyleyQrqd__AA010NavigationcE0Rd__lFQOyAA0F5StackVyAA0F4PathV011_JetEngine_aB0018ContentUnavailableC0VyAA4TextVAnJ0kL6ButtonVyANGGG_AA0gfcE0VQo_HO.26
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE010navigationC5StyleyQrqd__AA010NavigationcE0Rd__lFQOyAA0F5StackVyAA0F4PathV011_JetEngine_aB007LoadingC0VyAA4TextVGG_AA0gfcE0VQo_HO.25
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQOy011_JetEngine_aB006ActionG0VyAA15ModifiedContentVyAJyAJyAA4TextVAA16_FlexFrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA011_ForegroundeT0VyAA5ColorVGGG_AA05PlaingE0VQo_HO.115
+- _objectdestroy.113Tm
+- _objectdestroy.20Tm
+- _symbolic SS11gamePageURL_t
+- _symbolic Say_____G 11AppStoreKit14TabBadgeActionC
+- _symbolic _____SgXw 11AppStoreKit24UnifiedTabBadgingManagerC
+- _symbolic _____SgXwz_Xx 11AppStoreKit24UnifiedTabBadgingManagerC
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 11AppStoreKit25UnifiedMessagingPlacementO
+- _symbolic _____y_____yAAyAAyAAyAAy__________y_____GG_____y_____GGACy_____SgGGACy_____GG_____G______ySay_____G__________yABGSgGQo_ 7SwiftUI4ViewPAAE20accessibilityActionsyQrqd__yXEAaBRd__lFQO AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA016_ForegroundStyleL0V AA5ColorV AA08AnyShapeO0V AA13OpenURLActionV AA16_FlexFrameLayoutV AA7ForEachV 11AppStoreKit6ActionC s0Q8HashableV 011_JetEngine_aB012ActionButtonV
+- _symbolic _____y_____yAAyAAyAAyAAy__________y_____GG_____y_____GGACy_____SgGGACy_____GG_____G______ySay_____G__________yABGSgGQo_Sg 7SwiftUI4ViewPAAE20accessibilityActionsyQrqd__yXEAaBRd__lFQO AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA016_ForegroundStyleL0V AA5ColorV AA08AnyShapeO0V AA13OpenURLActionV AA16_FlexFrameLayoutV AA7ForEachV 11AppStoreKit6ActionC s0Q8HashableV 011_JetEngine_aB012ActionButtonV
+- _xmlFree
+CStrings:
++ "?"
++ "@\"<JSExport>\""
++ "@\"<_TtP11AppStoreKit17LocalizerProtocol_>\""
++ "@\"ASKClient\""
++ "@\"NSTextStorage\""
++ "@\"UITraitCollection\""
++ "@\"_TtC11AppStoreKit11JSAdsObject\""
++ "@\"_TtC11AppStoreKit12AppleSilicon\""
++ "@\"_TtC11AppStoreKit12JSGameCenter\""
++ "@\"_TtC11AppStoreKit12JSUserObject\""
++ "@\"_TtC11AppStoreKit14JSArcadeObject\""
++ "@\"_TtC11AppStoreKit14JSFeatureFlags\""
++ "@\"_TtC11AppStoreKit14JSUserDefaults\""
++ "@\"_TtC11AppStoreKit15JSAMSEngagement\""
++ "@\"_TtC11AppStoreKit15JSStorageObject\""
++ "@\"_TtC11AppStoreKit16JSTimeoutManager\""
++ "@\"_TtC11AppStoreKit16JSTreatmentStore\""
++ "@\"_TtC11AppStoreKit20JSResilientDeepLinks\""
++ "@\"_TtC11AppStoreKit20JSStoreMetricsObject\""
++ "@\"_TtC11AppStoreKit21ClientOrderingWrapper\""
++ "@\"_TtC11AppStoreKit26JSMetricsIdentifiersObject\""
++ "@\"_TtC11AppStoreKit28JSPersonalizationStoreObject\""
++ "@\"_TtC11AppStoreKit28OnDeviceSearchHistoryManager\""
++ "@\"_TtC11AppStoreKit38AppStoreOnDeviceRecommendationsManager\""
++ "Failed to create ciImage."
++ "Failed to render three dimensional brick "
++ "Failed to snapshot brick"
++ "No valid navigation tab for "
++ "Q"
++ "accessibilityMetadata"
++ "appIconCompatibleArtworkURLString"
++ "arcadeStandardLargeTitle"
++ "autoScrollMaxInterval"
++ "canonicalAccountIdentifierOverride"
++ "createChallengeRematchAction"
++ "designDDenseGridLayout"
++ "enable-icon-artwork-in-purchased-apps"
++ "fetchInstallStatesForAdverts:"
++ "gameProductIdOpenGamesUIAction"
++ "offlineShelfVisibility"
++ "overlayHomeButtonDoublePress"
++ "pageAchievements"
++ "preprocessIadInSearchResult"
++ "searchEventMetrics"
++ "snapshot(for:with:traitCollection:)"
++ "socialIntegrationContactsListPageIntent"
++ "supportsNewRedChallengesAssets"
++ "supportsTopTrailingToolbarItems"
++ "turnOn3DChicletsForHero"
+- "Failed to take snapshot."
+- "offline-message-is-below-header"
+- "shouldHideToolbarOnScroll"
+
+```

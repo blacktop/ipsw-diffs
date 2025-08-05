@@ -1,0 +1,181 @@
+## RapidResourceDelivery
+
+> `/System/Library/PrivateFrameworks/RapidResourceDelivery.framework/RapidResourceDelivery`
+
+```diff
+
+-3500.42.1.0.0
+-  __TEXT.__text: 0x6d754
+-  __TEXT.__auth_stubs: 0x1810
++3500.45.1.0.0
++  __TEXT.__text: 0x74160
++  __TEXT.__auth_stubs: 0x1910
+   __TEXT.__objc_methlist: 0x29c
+-  __TEXT.__const: 0x57d0
+-  __TEXT.__cstring: 0x1159
+-  __TEXT.__constg_swiftt: 0x1244
+-  __TEXT.__swift5_typeref: 0x168d
+-  __TEXT.__swift5_reflstr: 0xb30
+-  __TEXT.__swift5_fieldmd: 0x1350
+-  __TEXT.__oslogstring: 0x1b48
++  __TEXT.__const: 0x6690
++  __TEXT.__cstring: 0x11d9
++  __TEXT.__constg_swiftt: 0x1478
++  __TEXT.__swift5_typeref: 0x1893
++  __TEXT.__swift5_reflstr: 0xca0
++  __TEXT.__swift5_fieldmd: 0x1718
++  __TEXT.__oslogstring: 0x1bb8
+   __TEXT.__swift5_builtin: 0x78
+   __TEXT.__swift5_assocty: 0x98
+-  __TEXT.__swift5_proto: 0x51c
+-  __TEXT.__swift5_types: 0x1a4
++  __TEXT.__swift5_proto: 0x5f0
++  __TEXT.__swift5_types: 0x1e8
+   __TEXT.__swift5_mpenum: 0x28
+   __TEXT.__swift_as_entry: 0xa8
+   __TEXT.__swift5_capture: 0x25c
+   __TEXT.__swift5_protos: 0x10
+   __TEXT.__swift_as_ret: 0xc4
+-  __TEXT.__unwind_info: 0x1778
+-  __TEXT.__eh_frame: 0x3470
++  __TEXT.__unwind_info: 0x1950
++  __TEXT.__eh_frame: 0x36b0
+   __TEXT.__objc_classname: 0x6c
+-  __TEXT.__objc_methname: 0xa6c
++  __TEXT.__objc_methname: 0xa95
+   __TEXT.__objc_methtype: 0x5c6
+   __DATA_CONST.__got: 0x360
+   __DATA_CONST.__const: 0x58
+   __DATA_CONST.__objc_classlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x328
++  __DATA_CONST.__objc_selrefs: 0x330
+   __DATA_CONST.__objc_protorefs: 0x30
+-  __AUTH_CONST.__auth_got: 0xc08
+-  __AUTH_CONST.__const: 0x2688
++  __AUTH_CONST.__auth_got: 0xc88
++  __AUTH_CONST.__const: 0x2fd0
+   __AUTH_CONST.__objc_const: 0xc98
+   __AUTH.__objc_data: 0xf0
+-  __AUTH.__data: 0x940
+-  __DATA.__data: 0x1438
+-  __DATA.__bss: 0xa190
+-  __DATA.__common: 0x108
++  __AUTH.__data: 0x840
++  __DATA.__data: 0x15c8
++  __DATA.__bss: 0xbc10
++  __DATA.__common: 0x100
+   __DATA_DIRTY.__objc_data: 0x248
+-  __DATA_DIRTY.__data: 0xab0
+-  __DATA_DIRTY.__common: 0x148
++  __DATA_DIRTY.__data: 0xc18
++  __DATA_DIRTY.__common: 0x150
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: F8D3D417-ADF4-3E27-9F44-DDFA8EAAF33A
+-  Functions: 1831
+-  Symbols:   921
+-  CStrings:  443
++  UUID: 99B89FA5-0232-365A-A2B5-BDCB35124047
++  Functions: 2023
++  Symbols:   1011
++  CStrings:  450
+ 
+Symbols:
++ ___swift_memcpy144_8
++ ___swift_memcpy288_8
++ ___swift_memcpy416_8
++ ___swift_memcpy72_8
++ ___swift_memcpy96_8
++ __objc_autoreleasePoolPop
++ __objc_autoreleasePoolPush
++ _associated conformance 21RapidResourceDelivery10RRDRequestO20ReadConfigCodingKeys33_DED965AFFD0F673F43CBB795EEE8C254LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery10RRDRequestO20ReadConfigCodingKeys33_DED965AFFD0F673F43CBB795EEE8C254LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery11RRDResponseO25SanitizedConfigCodingKeys33_DED965AFFD0F673F43CBB795EEE8C254LLOSHAASQ
++ _associated conformance 21RapidResourceDelivery11RRDResponseO25SanitizedConfigCodingKeys33_DED965AFFD0F673F43CBB795EEE8C254LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery11RRDResponseO25SanitizedConfigCodingKeys33_DED965AFFD0F673F43CBB795EEE8C254LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV08DownloadE0V10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOSHAASQ
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV08DownloadE0V10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV08DownloadE0V10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV0E0V10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOSHAASQ
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV0E0V10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV0E0V10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOSHAASQ
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV12ManifestDataV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOSHAASQ
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV12ManifestDataV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV12ManifestDataV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV5StoreV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOSHAASQ
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV5StoreV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV5StoreV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV8FileInfoV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOSHAASQ
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV8FileInfoV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV8FileInfoV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV9StoreInfoV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOSHAASQ
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV9StoreInfoV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery22SanitizedStateSnapshotV9StoreInfoV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery28rrd_store_config_sysdiagnose9directory5errorySo5NSURLC_SAySo7NSErrorCSgGSgtF15ReadConfigErrorL_OSHAASQ
++ _get_enum_tag_for_layout_string 21RapidResourceDelivery22SanitizedStateSnapshotV0E0VSg
++ _get_enum_tag_for_layout_string 21RapidResourceDelivery22SanitizedStateSnapshotV12ManifestDataVSg
++ _get_enum_tag_for_layout_string 21RapidResourceDelivery22SanitizedStateSnapshotV8FileInfoVSg
++ _get_enum_tag_for_layout_string 21RapidResourceDelivery22SanitizedStateSnapshotV9StoreInfoVSg
++ _objc_autorelease
++ _rrd_store_config_sysdiagnose
++ _symbolic SdSg
++ _symbolic _____ 21RapidResourceDelivery10RRDRequestO20ReadConfigCodingKeys33_DED965AFFD0F673F43CBB795EEE8C254LLO
++ _symbolic _____ 21RapidResourceDelivery11RRDResponseO25SanitizedConfigCodingKeys33_DED965AFFD0F673F43CBB795EEE8C254LLO
++ _symbolic _____ 21RapidResourceDelivery22SanitizedStateSnapshotV
++ _symbolic _____ 21RapidResourceDelivery22SanitizedStateSnapshotV08DownloadE0V
++ _symbolic _____ 21RapidResourceDelivery22SanitizedStateSnapshotV08DownloadE0V10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLO
++ _symbolic _____ 21RapidResourceDelivery22SanitizedStateSnapshotV0E0V
++ _symbolic _____ 21RapidResourceDelivery22SanitizedStateSnapshotV0E0V10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLO
++ _symbolic _____ 21RapidResourceDelivery22SanitizedStateSnapshotV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLO
++ _symbolic _____ 21RapidResourceDelivery22SanitizedStateSnapshotV12ManifestDataV
++ _symbolic _____ 21RapidResourceDelivery22SanitizedStateSnapshotV12ManifestDataV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLO
++ _symbolic _____ 21RapidResourceDelivery22SanitizedStateSnapshotV5StoreV
++ _symbolic _____ 21RapidResourceDelivery22SanitizedStateSnapshotV5StoreV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLO
++ _symbolic _____ 21RapidResourceDelivery22SanitizedStateSnapshotV8FileInfoV
++ _symbolic _____ 21RapidResourceDelivery22SanitizedStateSnapshotV8FileInfoV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLO
++ _symbolic _____ 21RapidResourceDelivery22SanitizedStateSnapshotV9StoreInfoV
++ _symbolic _____ 21RapidResourceDelivery22SanitizedStateSnapshotV9StoreInfoV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLO
++ _symbolic _____ 21RapidResourceDelivery28rrd_store_config_sysdiagnose9directory5errorySo5NSURLC_SAySo7NSErrorCSgGSgtF15ReadConfigErrorL_O
++ _symbolic _____Sg 21RapidResourceDelivery22SanitizedStateSnapshotV08DownloadE0V
++ _symbolic _____Sg 21RapidResourceDelivery22SanitizedStateSnapshotV0E0V
++ _symbolic _____Sg 21RapidResourceDelivery22SanitizedStateSnapshotV12ManifestDataV
++ _symbolic _____Sg 21RapidResourceDelivery22SanitizedStateSnapshotV8FileInfoV
++ _symbolic _____Sg 21RapidResourceDelivery22SanitizedStateSnapshotV9StoreInfoV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery10RRDRequestO20ReadConfigCodingKeys33_DED965AFFD0F673F43CBB795EEE8C254LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery11RRDResponseO25SanitizedConfigCodingKeys33_DED965AFFD0F673F43CBB795EEE8C254LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery10RRDRequestO20ReadConfigCodingKeys33_DED965AFFD0F673F43CBB795EEE8C254LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery11RRDResponseO25SanitizedConfigCodingKeys33_DED965AFFD0F673F43CBB795EEE8C254LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery22SanitizedStateSnapshotV08DownloadH0V10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery22SanitizedStateSnapshotV0H0V10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery22SanitizedStateSnapshotV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery22SanitizedStateSnapshotV12ManifestDataV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery22SanitizedStateSnapshotV5StoreV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery22SanitizedStateSnapshotV8FileInfoV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery22SanitizedStateSnapshotV9StoreInfoV10CodingKeys33_706EA4657FEF1A678F8269DA4EE1712FLLO
++ _type_layout_string 21RapidResourceDelivery22SanitizedStateSnapshotV
++ _type_layout_string 21RapidResourceDelivery22SanitizedStateSnapshotV08DownloadE0V
++ _type_layout_string 21RapidResourceDelivery22SanitizedStateSnapshotV0E0V
++ _type_layout_string 21RapidResourceDelivery22SanitizedStateSnapshotV12ManifestDataV
++ _type_layout_string 21RapidResourceDelivery22SanitizedStateSnapshotV5StoreV
++ _type_layout_string 21RapidResourceDelivery22SanitizedStateSnapshotV8FileInfoV
++ _type_layout_string 21RapidResourceDelivery22SanitizedStateSnapshotV9StoreInfoV
+CStrings:
++ ".sanitizedConfig(...)"
++ "Got config request"
++ "URLByAppendingPathComponent:isDirectory:"
++ "com.apple.aiml.rapidresourcedelivery.read-config"
++ "current_manifest"
++ "rejecting config request from unentitled peer"
++ "sysdiagnose shim failed: %@"
+
+```

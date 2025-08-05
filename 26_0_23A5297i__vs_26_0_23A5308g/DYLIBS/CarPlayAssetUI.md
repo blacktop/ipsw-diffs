@@ -1,0 +1,186 @@
+## CarPlayAssetUI
+
+> `/System/Library/PrivateFrameworks/CarPlayAssetUI.framework/CarPlayAssetUI`
+
+```diff
+
+-437.0.0.0.0
+-  __TEXT.__text: 0x289e20
+-  __TEXT.__auth_stubs: 0x3e90
+-  __TEXT.__objc_methlist: 0x1544
+-  __TEXT.__const: 0x49704
+-  __TEXT.__cstring: 0x648e
+-  __TEXT.__swift5_typeref: 0x11c5c
+-  __TEXT.__constg_swiftt: 0x8a5c
+-  __TEXT.__swift5_reflstr: 0x7521
+-  __TEXT.__swift5_fieldmd: 0xb4a0
++440.1.1.0.0
++  __TEXT.__text: 0x28cde4
++  __TEXT.__auth_stubs: 0x3ec0
++  __TEXT.__objc_methlist: 0x1524
++  __TEXT.__const: 0x49b14
++  __TEXT.__cstring: 0x65be
++  __TEXT.__swift5_typeref: 0x11d6a
++  __TEXT.__constg_swiftt: 0x8ad0
++  __TEXT.__swift5_reflstr: 0x75d1
++  __TEXT.__swift5_fieldmd: 0xb584
+   __TEXT.__swift5_builtin: 0x348
+   __TEXT.__swift5_assocty: 0x1b30
+-  __TEXT.__swift5_capture: 0x1bb8
+-  __TEXT.__swift5_proto: 0x2f2c
+-  __TEXT.__swift5_types: 0xc78
++  __TEXT.__swift5_capture: 0x1c08
++  __TEXT.__swift5_proto: 0x2f68
++  __TEXT.__swift5_types: 0xc84
+   __TEXT.__swift5_protos: 0x4c
+   __TEXT.__swift5_mpenum: 0x91c
+-  __TEXT.__oslogstring: 0x13b0
++  __TEXT.__oslogstring: 0x1456
+   __TEXT.__swift_as_entry: 0x14
+   __TEXT.__swift_as_ret: 0xc
+-  __TEXT.__unwind_info: 0xab10
+-  __TEXT.__eh_frame: 0xb000
++  __TEXT.__unwind_info: 0xabf8
++  __TEXT.__eh_frame: 0xb0c0
+   __TEXT.__objc_classname: 0x34b
+-  __TEXT.__objc_methname: 0x4707
+-  __TEXT.__objc_methtype: 0x2347
+-  __DATA_CONST.__got: 0xf78
+-  __DATA_CONST.__const: 0xc18
++  __TEXT.__objc_methname: 0x4687
++  __TEXT.__objc_methtype: 0x22de
++  __DATA_CONST.__got: 0xf80
++  __DATA_CONST.__const: 0xc28
+   __DATA_CONST.__objc_classlist: 0xc0
+   __DATA_CONST.__objc_protolist: 0x1d0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x12a8
++  __DATA_CONST.__objc_selrefs: 0x1298
+   __DATA_CONST.__objc_protorefs: 0xe8
+-  __AUTH_CONST.__auth_got: 0x1f48
+-  __AUTH_CONST.__const: 0x1c6a8
+-  __AUTH_CONST.__objc_const: 0x2ca0
+-  __AUTH.__objc_data: 0xb50
++  __AUTH_CONST.__auth_got: 0x1f60
++  __AUTH_CONST.__const: 0x1de08
++  __AUTH_CONST.__objc_const: 0x2c68
++  __AUTH.__objc_data: 0xb58
+   __AUTH.__data: 0x3a58
+-  __DATA.__data: 0xe560
+-  __DATA.__bss: 0x5bdc8
++  __DATA.__data: 0xe600
++  __DATA.__bss: 0x5c4c8
+   __DATA.__common: 0x260
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9BA939F5-58DE-3246-A1B7-1341F36BE7FA
+-  Functions: 17668
+-  Symbols:   5686
+-  CStrings:  1846
++  UUID: 7CA95CFB-181D-3E29-A1B6-CD969DBCADA5
++  Functions: 17767
++  Symbols:   5720
++  CStrings:  1852
+ 
+Symbols:
++ ___swift_assignWithCopy_strong
++ ___swift_assignWithTake_strong
++ ___swift_destroy_strong
++ ___swift_initWithCopy_strong
++ ___swift_memcpy82_8
++ ___swift_memcpy8_8
++ _associated conformance 14CarPlayAssetUI10InstrumentV10GaugeStyleO16SymbolCodingKeys33_BEDC0BCD5C078F9F42FAEA57B47C3E12LLOSHAASQ
++ _associated conformance 14CarPlayAssetUI10InstrumentV10GaugeStyleO16SymbolCodingKeys33_BEDC0BCD5C078F9F42FAEA57B47C3E12LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 14CarPlayAssetUI10InstrumentV10GaugeStyleO16SymbolCodingKeys33_BEDC0BCD5C078F9F42FAEA57B47C3E12LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14CarPlayAssetUI19SymbolConfigurationV10CodingKeys33_AE8D85B7FD47607B03A08467EE4BC936LLOSHAASQ
++ _associated conformance 14CarPlayAssetUI19SymbolConfigurationV10CodingKeys33_AE8D85B7FD47607B03A08467EE4BC936LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 14CarPlayAssetUI19SymbolConfigurationV10CodingKeys33_AE8D85B7FD47607B03A08467EE4BC936LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14CarPlayAssetUI19SymbolConfigurationVSHAASQ
++ _get_witness_table 7SwiftUI12_CALayerViewVy012CarPlayAssetB09WrapLayer33_D494934E4D2CED7DFF04AAA732ED178ELLCGAA0D0HPyHC.1
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6ZStackVyAA012_ConditionalD0VyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAKyAA19SymbolRenderingModeVSgGG012CarPlayAssetB021NotificationIconStyle33_3C79943DE7234CD91B110AE587DAE239LLVGACyACyAiA18_AspectRatioLayoutVGAA16_FlexFrameLayoutVGGGA3_GAA14_PaddingLayoutVGAA4ViewHPA7_AAA11_HPA6_AAA11_HPyHC_A3_AA04ViewK0HPyHCHC_A9_AAA12_HPyHCHC.41
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA16RoundedRectangleVAA24_ForegroundStyleModifierVyAA08AnyShapeH0VGGAA11_ClipEffectVyAEGG012CarPlayAssetB0017ConditionalShadowI0VGAA08_OverlayI0VyAP12TrackingViewVSgGGAA0U0HPAsAA_HPAoAA_HPAkAA_HPAeAA_HPyHC_AjA0uI0HPyHCHC_AnAA0_HPyHCHC_ArAA0_HPyHCHC_AyAA0_HPyHCHC.14
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy012CarPlayAssetB012LayoutOutputVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.5
++ _swift_unknownObjectRelease_n
++ _swift_unknownObjectRetain_n
++ _symbolic Si_SSt
++ _symbolic _____ 14CarPlayAssetUI10InstrumentV10GaugeStyleO16SymbolCodingKeys33_BEDC0BCD5C078F9F42FAEA57B47C3E12LLO
++ _symbolic _____ 14CarPlayAssetUI19SymbolConfigurationV
++ _symbolic _____ 14CarPlayAssetUI19SymbolConfigurationV10CodingKeys33_AE8D85B7FD47607B03A08467EE4BC936LLO
++ _symbolic _____13configuration_t 14CarPlayAssetUI19SymbolConfigurationV
++ _symbolic _____yAAyAAyAAy__________y_____GG_____yABGG_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA16RoundedRectangleV AA24_ForegroundStyleModifierV AA08AnyShapeH0V AA11_ClipEffectV 012CarPlayAssetB0017ConditionalShadowI0V AA08_OverlayI0V AL12TrackingViewV
++ _symbolic _____yAAyAAy__________y_____GG_____yABGG_____G 7SwiftUI15ModifiedContentV AA16RoundedRectangleV AA24_ForegroundStyleModifierV AA08AnyShapeH0V AA11_ClipEffectV 012CarPlayAssetB0017ConditionalShadowI0V
++ _symbolic _____yAAyAAy__________y_____SgGGACy_____SgGG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA19SymbolRenderingModeV 012CarPlayAssetB021NotificationIconStyle33_3C79943DE7234CD91B110AE587DAE239LLV
++ _symbolic _____yAAy__________y_____GG_____yABGG 7SwiftUI15ModifiedContentV AA16RoundedRectangleV AA24_ForegroundStyleModifierV AA08AnyShapeH0V AA11_ClipEffectV
++ _symbolic _____yAAy__________y_____SgGGACy_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA19SymbolRenderingModeV
++ _symbolic _____yAAy_____y_____yAAyAAyAAy__________y_____SgGGAEy_____SgGG_____GAAyAAyAD_____G_____GGGARG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA19SymbolRenderingModeV 012CarPlayAssetB021NotificationIconStyle33_3C79943DE7234CD91B110AE587DAE239LLV AA18_AspectRatioLayoutV AA16_FlexFrameLayoutV AA14_PaddingLayoutV
++ _symbolic _____ySiSSG s18_DictionaryStorageC
++ _symbolic _____ySi_SStG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G 7SwiftUI11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14CarPlayAssetUI10InstrumentV10GaugeStyleO16SymbolCodingKeys33_BEDC0BCD5C078F9F42FAEA57B47C3E12LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14CarPlayAssetUI19SymbolConfigurationV10CodingKeys33_AE8D85B7FD47607B03A08467EE4BC936LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14CarPlayAssetUI10InstrumentV10GaugeStyleO16SymbolCodingKeys33_BEDC0BCD5C078F9F42FAEA57B47C3E12LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14CarPlayAssetUI19SymbolConfigurationV10CodingKeys33_AE8D85B7FD47607B03A08467EE4BC936LLO
++ _symbolic _____y___________y_____yADyADy__________y_____SgGGAFy_____SgGG_____GADyADyAE_____G_____GGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA19_ConditionalContentV AA08ModifiedI0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA19SymbolRenderingModeV 012CarPlayAssetB021NotificationIconStyle33_3C79943DE7234CD91B110AE587DAE239LLV AA012_AspectRatioG0V AA010_FlexFrameG0V
++ _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____y_____yAByABy__________y_____SgGGADy_____SgGG_____GAByAByAC_____G_____G_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA19SymbolRenderingModeV 012CarPlayAssetB021NotificationIconStyle33_3C79943DE7234CD91B110AE587DAE239LLV AA18_AspectRatioLayoutV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____yAAyAAyAAy__________y_____SgGGAEy_____SgGG_____GAAyAAyAD_____G_____GGGARG 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA19SymbolRenderingModeV 012CarPlayAssetB021NotificationIconStyle33_3C79943DE7234CD91B110AE587DAE239LLV AA18_AspectRatioLayoutV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____yACyACy__________y_____SgGGAEy_____SgGG_____GACyACyAD_____G_____GGG 7SwiftUI6ZStackV AA19_ConditionalContentV AA08ModifiedE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA19SymbolRenderingModeV 012CarPlayAssetB021NotificationIconStyle33_3C79943DE7234CD91B110AE587DAE239LLV AA18_AspectRatioLayoutV AA16_FlexFrameLayoutV
++ _type_layout_string 14CarPlayAssetUI19SymbolConfigurationV
+- _get_witness_table 7SwiftUI12_CALayerViewVy012CarPlayAssetB09WrapLayer33_D494934E4D2CED7DFF04AAA732ED178ELLCGAA0D0HPyHC.2
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6ZStackVyAA012_ConditionalD0VyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA13AnyShapeStyleVSgGGAKyAA19SymbolRenderingModeVSgGG012CarPlayAssetB0016NotificationIconN033_3C79943DE7234CD91B110AE587DAE239LLVGACyACyAiA18_AspectRatioLayoutVGAA16_FlexFrameLayoutVGGGA3_GAA14_PaddingLayoutVGAA4ViewHPA7_AAA11_HPA6_AAA11_HPyHC_A3_AA04ViewK0HPyHCHC_A9_AAA12_HPyHCHC.41
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA16RoundedRectangleVAA24_ForegroundStyleModifierVyAA08AnyShapeH0VGG012CarPlayAssetB0017ConditionalShadowI0VGAA08_OverlayI0VyAL12TrackingViewVSgGGAA0S0HPAoaWHPAkaWHPAeaWHPyHC_AjA0sI0HPyHCHC_AnaXHPyHCHC_AuaXHPyHCHC.14
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy012CarPlayAssetB012LayoutOutputVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.1
+- _symbolic _____Sg 7SwiftUI13AnyShapeStyleV
+- _symbolic _____yAAyAAy__________y_____GG_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA16RoundedRectangleV AA24_ForegroundStyleModifierV AA08AnyShapeH0V 012CarPlayAssetB0017ConditionalShadowI0V AA08_OverlayI0V AJ12TrackingViewV
+- _symbolic _____yAAyAAy__________y_____SgGGACy_____SgGG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV AA19SymbolRenderingModeV 012CarPlayAssetB0016NotificationIconL033_3C79943DE7234CD91B110AE587DAE239LLV
+- _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV AA16RoundedRectangleV AA24_ForegroundStyleModifierV AA08AnyShapeH0V 012CarPlayAssetB0017ConditionalShadowI0V
+- _symbolic _____yAAy__________y_____SgGGACy_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV AA19SymbolRenderingModeV
+- _symbolic _____yAAy_____y_____yAAyAAyAAy__________y_____SgGGAEy_____SgGG_____GAAyAAyAD_____G_____GGGARG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV AA19SymbolRenderingModeV 012CarPlayAssetB0016NotificationIconN033_3C79943DE7234CD91B110AE587DAE239LLV AA18_AspectRatioLayoutV AA16_FlexFrameLayoutV AA14_PaddingLayoutV
+- _symbolic _____y___________y_____yADyADy__________y_____SgGGAFy_____SgGG_____GADyADyAE_____G_____GGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA19_ConditionalContentV AA08ModifiedI0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV AA19SymbolRenderingModeV 012CarPlayAssetB0016NotificationIconR033_3C79943DE7234CD91B110AE587DAE239LLV AA012_AspectRatioG0V AA010_FlexFrameG0V
+- _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV
+- _symbolic _____y_____yAByABy__________y_____SgGGADy_____SgGG_____GAByAByAC_____G_____G_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV AA19SymbolRenderingModeV 012CarPlayAssetB0016NotificationIconN033_3C79943DE7234CD91B110AE587DAE239LLV AA18_AspectRatioLayoutV AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____yAAyAAyAAy__________y_____SgGGAEy_____SgGG_____GAAyAAyAD_____G_____GGGARG 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV AA19SymbolRenderingModeV 012CarPlayAssetB0016NotificationIconN033_3C79943DE7234CD91B110AE587DAE239LLV AA18_AspectRatioLayoutV AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____yACyACy__________y_____SgGGAEy_____SgGG_____GACyACyAD_____G_____GGG 7SwiftUI6ZStackV AA19_ConditionalContentV AA08ModifiedE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV AA19SymbolRenderingModeV 012CarPlayAssetB0016NotificationIconN033_3C79943DE7234CD91B110AE587DAE239LLV AA18_AspectRatioLayoutV AA16_FlexFrameLayoutV
+CStrings:
++ ": unable to get scale factor for widget: "
++ ": unknown stack for "
++ ": unknown widget "
++ "@\"<SBIconListLayoutProvider>\""
++ "@\"NSString\"24@0:8@\"<SBLeafIconDataSource>\"16"
++ "B"
++ "Couldn't find chswidget %{public}@"
++ "Ignoring data source change as it is the same as the currently active data source: %{public}s for: %{public}s"
++ "Received touch event: %{public}s"
++ "Unable to find widget %{public}s)"
++ "[sortedInsert] item=%s items.count=%ld itemsIndex=%ld sibling=%s"
++ "_makeWidgetViewController(for:widget:)"
++ "_setAdditionalMinimumTopInset:"
++ "allowManufacturerAppIcon"
++ "backdropGroupNameForActiveDataSource:"
++ "com.apple.CarPlay-"
++ "d"
++ "lastUserSelectedDataSource"
++ "symbolDataIdentifier"
++ "viewWillAppear:"
++ "{SBIconImageInfo={CGSize=dd}dd}"
+- "@\"SBHIconImageAppearance\"16@0:8"
+- "@\"SBHIconImageStyleConfiguration\"16@0:8"
+- "No delegate set for WidgetMultiStackViewController, unable to create widget view controller for %{public}@"
+- "T@\"SBHIconImageAppearance\",?,C,N"
+- "T@\"SBHIconImageStyleConfiguration\",?,C,N"
+- "Unable to find chsWidget for widget %{public}s)"
+- "com.apple.CarPlay"
+- "layoutIfNeeded"
+- "overrideIconImageAppearance"
+- "overrideIconImageStyleConfiguration"
+- "setNeedsLayout"
+- "setOverrideIconImageAppearance:"
+- "setOverrideIconImageStyleConfiguration:"
+- "v24@0:8@\"SBHIconImageAppearance\"16"
+- "v24@0:8@\"SBHIconImageStyleConfiguration\"16"
+
+```

@@ -1,0 +1,109 @@
+## PermissionKit
+
+> `/System/Library/Frameworks/PermissionKit.framework/PermissionKit`
+
+```diff
+
+-62.0.0.0.0
+-  __TEXT.__text: 0x16a34
++64.1.0.0.0
++  __TEXT.__text: 0x180f0
+   __TEXT.__auth_stubs: 0x1140
+   __TEXT.__objc_methlist: 0x2c
+-  __TEXT.__const: 0x1c32
+-  __TEXT.__constg_swiftt: 0x6d4
+-  __TEXT.__swift5_typeref: 0x76e
+-  __TEXT.__swift5_fieldmd: 0x558
+-  __TEXT.__swift5_reflstr: 0x28d
+-  __TEXT.__swift5_proto: 0x1bc
+-  __TEXT.__swift5_types: 0x90
++  __TEXT.__const: 0x2002
++  __TEXT.__constg_swiftt: 0x788
++  __TEXT.__swift5_typeref: 0x868
++  __TEXT.__swift5_fieldmd: 0x620
++  __TEXT.__swift5_reflstr: 0x2bd
++  __TEXT.__swift5_proto: 0x1f8
++  __TEXT.__swift5_types: 0xa4
+   __TEXT.__cstring: 0x5ee
+   __TEXT.__swift5_capture: 0x20
+   __TEXT.__oslogstring: 0xa
+
+   __TEXT.__swift_as_ret: 0x1c
+   __TEXT.__swift5_assocty: 0x78
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x758
+-  __TEXT.__eh_frame: 0x790
++  __TEXT.__unwind_info: 0x7b0
++  __TEXT.__eh_frame: 0x788
+   __TEXT.__objc_methname: 0x79
+-  __DATA_CONST.__got: 0x288
++  __DATA_CONST.__got: 0x2b0
+   __DATA_CONST.__const: 0x110
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x8
+
+   __DATA_CONST.__objc_selrefs: 0x38
+   __DATA_CONST.__objc_protorefs: 0x8
+   __AUTH_CONST.__auth_got: 0x8a0
+-  __AUTH_CONST.__const: 0xc58
++  __AUTH_CONST.__const: 0xda8
+   __AUTH_CONST.__objc_const: 0x3f8
+   __AUTH.__data: 0x260
+-  __DATA.__data: 0x880
+-  __DATA.__bss: 0x3780
++  __DATA.__data: 0x948
++  __DATA.__bss: 0x3f00
+   __DATA.__common: 0x20
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 985A4602-9BE1-3310-AAF1-B872140DE745
+-  Functions: 633
+-  Symbols:   393
++  UUID: A55B64DC-6D21-3C7C-9448-739F0851336A
++  Functions: 677
++  Symbols:   420
+   CStrings:  51
+ 
+Symbols:
++ ___swift_memcpy8_8
++ _associated conformance 13PermissionKit18CommunicationTopicV6ActionO14ChatCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13PermissionKit18CommunicationTopicV6ActionO14ChatCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13PermissionKit18CommunicationTopicV6ActionO17ConnectCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13PermissionKit18CommunicationTopicV6ActionO17ConnectCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13PermissionKit18CommunicationTopicV6ActionO19AudioCallCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13PermissionKit18CommunicationTopicV6ActionO19AudioCallCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13PermissionKit18CommunicationTopicV6ActionO19VideoCallCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13PermissionKit18CommunicationTopicV6ActionO19VideoCallCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13PermissionKit18CommunicationTopicV6ActionO20BeFollowedCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13PermissionKit18CommunicationTopicV6ActionO20BeFollowedCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13PermissionKit18CommunicationTopicV6ActionO21CommunicateCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13PermissionKit18CommunicationTopicV6ActionO21CommunicateCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _symbolic _____ 13PermissionKit18CommunicationTopicV6ActionO14ChatCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____ 13PermissionKit18CommunicationTopicV6ActionO17ConnectCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____ 13PermissionKit18CommunicationTopicV6ActionO19AudioCallCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____ 13PermissionKit18CommunicationTopicV6ActionO19VideoCallCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____ 13PermissionKit18CommunicationTopicV6ActionO20BeFollowedCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____ 13PermissionKit18CommunicationTopicV6ActionO21CommunicateCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13PermissionKit18CommunicationTopicV6ActionO14ChatCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13PermissionKit18CommunicationTopicV6ActionO17ConnectCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13PermissionKit18CommunicationTopicV6ActionO19AudioCallCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13PermissionKit18CommunicationTopicV6ActionO19VideoCallCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13PermissionKit18CommunicationTopicV6ActionO20BeFollowedCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13PermissionKit18CommunicationTopicV6ActionO21CommunicateCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13PermissionKit18CommunicationTopicV6ActionO14ChatCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13PermissionKit18CommunicationTopicV6ActionO17ConnectCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13PermissionKit18CommunicationTopicV6ActionO19AudioCallCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13PermissionKit18CommunicationTopicV6ActionO19VideoCallCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13PermissionKit18CommunicationTopicV6ActionO20BeFollowedCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13PermissionKit18CommunicationTopicV6ActionO21CommunicateCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
+- _associated conformance 13PermissionKit18CommunicationTopicV6ActionO19VideoChatCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 13PermissionKit18CommunicationTopicV6ActionO19VideoChatCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _symbolic _____ 13PermissionKit18CommunicationTopicV6ActionO19VideoChatCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13PermissionKit18CommunicationTopicV6ActionO19VideoChatCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13PermissionKit18CommunicationTopicV6ActionO19VideoChatCodingKeys33_47AB0E3D2E47EF27C97DB5C2AE4AACDCLLO
+
+```

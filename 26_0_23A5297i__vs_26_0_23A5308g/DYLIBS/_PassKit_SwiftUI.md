@@ -1,0 +1,221 @@
+## _PassKit_SwiftUI
+
+> `/System/Library/Frameworks/_PassKit_SwiftUI.framework/_PassKit_SwiftUI`
+
+```diff
+
+-1626.8.0.0.0
+-  __TEXT.__text: 0x27f94
+-  __TEXT.__auth_stubs: 0x1230
+-  __TEXT.__objc_methlist: 0x764
+-  __TEXT.__const: 0x2dc4
+-  __TEXT.__oslogstring: 0x33f
+-  __TEXT.__cstring: 0x10ca
++1629.6.0.0.0
++  __TEXT.__text: 0x28a7c
++  __TEXT.__auth_stubs: 0x12f0
++  __TEXT.__objc_methlist: 0x7ac
++  __TEXT.__const: 0x2df4
++  __TEXT.__oslogstring: 0x39f
++  __TEXT.__cstring: 0x117a
+   __TEXT.__constg_swiftt: 0x14e8
+-  __TEXT.__swift5_typeref: 0x22fe
++  __TEXT.__swift5_typeref: 0x2354
+   __TEXT.__swift5_fieldmd: 0xbe0
+   __TEXT.__swift5_builtin: 0x154
+-  __TEXT.__swift5_reflstr: 0x999
++  __TEXT.__swift5_reflstr: 0x9a9
+   __TEXT.__swift5_assocty: 0x4f8
+   __TEXT.__swift5_capture: 0x498
+   __TEXT.__swift5_proto: 0x10c
+
+   __TEXT.__swift5_mpenum: 0x28
+   __TEXT.__swift_as_entry: 0x6c
+   __TEXT.__swift_as_ret: 0x64
+-  __TEXT.__unwind_info: 0xd08
++  __TEXT.__unwind_info: 0xd10
+   __TEXT.__eh_frame: 0xd90
+   __TEXT.__objc_classname: 0x11b
+-  __TEXT.__objc_methname: 0x15e1
+-  __TEXT.__objc_methtype: 0xb04
+-  __TEXT.__objc_stubs: 0x560
+-  __DATA_CONST.__got: 0x3f0
+-  __DATA_CONST.__const: 0x148
++  __TEXT.__objc_methname: 0x1733
++  __TEXT.__objc_methtype: 0xb1e
++  __TEXT.__objc_stubs: 0x640
++  __DATA_CONST.__got: 0x470
++  __DATA_CONST.__const: 0x1d0
+   __DATA_CONST.__objc_classlist: 0x70
+   __DATA_CONST.__objc_protolist: 0xa0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x670
++  __DATA_CONST.__objc_selrefs: 0x6d8
+   __DATA_CONST.__objc_protorefs: 0x50
+   __DATA_CONST.__objc_arraydata: 0x18
+-  __AUTH_CONST.__auth_got: 0x920
+-  __AUTH_CONST.__const: 0x1c30
+-  __AUTH_CONST.__cfstring: 0x40
++  __AUTH_CONST.__auth_got: 0x980
++  __AUTH_CONST.__const: 0x1eb0
++  __AUTH_CONST.__cfstring: 0xc0
+   __AUTH_CONST.__objc_const: 0xdc0
+   __AUTH_CONST.__objc_intobj: 0x48
+   __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH.__objc_data: 0xb90
+   __AUTH.__data: 0x570
+-  __DATA.__data: 0x12e0
++  __DATA.__data: 0x12c0
+   __DATA.__bss: 0x2290
+   __DATA.__common: 0x38
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8B215219-131E-3FC4-82BA-BA0D26E2C3D3
+-  Functions: 1199
+-  Symbols:   1057
+-  CStrings:  424
++  UUID: 79ACA4EE-2F64-3A00-A1E6-5DF26926967C
++  Functions: 1208
++  Symbols:   1120
++  CStrings:  449
+ 
+Symbols:
++ +[PKPassKitSwiftUIObjcBridge buttonTagForButtonType:]
++ +[PKPassKitSwiftUIObjcBridge networkNameForPass:]
++ +[PKPassKitSwiftUIObjcBridge paymentMethodTypeStringForPass:]
++ +[PKPassKitSwiftUIObjcBridge reportPaymentButtonRequestForButtonType:isDynamic:issuer:networkName:productSubType:errorType:]
++ +[PKPassKitSwiftUIObjcBridge signpostIntervalBeginForEvent:]
++ +[PKPassKitSwiftUIObjcBridge signpostIntervalEndForEvent:]
++ _NSLog
++ _OBJC_CLASS_$_NSBundle
++ _OBJC_CLASS_$_NSMutableDictionary
++ _PKAggDKeyApplePayButtonAppBundleIdentifierKey
++ _PKAggDKeyApplePayButtonDeviceTypeKey
++ _PKAggDKeyApplePayButtonEnvironmentInApp
++ _PKAggDKeyApplePayButtonEnvironmentKey
++ _PKAggDKeyApplePayButtonEvent
++ _PKAggDKeyApplePayButtonEventType
++ _PKAggDKeyApplePayButtonEventTypeApplePayButtonRequest
++ _PKAggDKeyApplePayButtonIsDynamicKey
++ _PKAggDKeyApplePayButtonIssuer
++ _PKAggDKeyApplePayButtonNetworkName
++ _PKAggDKeyApplePayButtonOSVersionKey
++ _PKAggDKeyApplePayButtonProductSubType
++ _PKAggDKeyApplePayButtonTypeAddMoney
++ _PKAggDKeyApplePayButtonTypeBook
++ _PKAggDKeyApplePayButtonTypeBuy
++ _PKAggDKeyApplePayButtonTypeCheckout
++ _PKAggDKeyApplePayButtonTypeContinue
++ _PKAggDKeyApplePayButtonTypeContribute
++ _PKAggDKeyApplePayButtonTypeDonate
++ _PKAggDKeyApplePayButtonTypeInStore
++ _PKAggDKeyApplePayButtonTypeKey
++ _PKAggDKeyApplePayButtonTypeOrder
++ _PKAggDKeyApplePayButtonTypePlain
++ _PKAggDKeyApplePayButtonTypeReload
++ _PKAggDKeyApplePayButtonTypeRent
++ _PKAggDKeyApplePayButtonTypeSetUp
++ _PKAggDKeyApplePayButtonTypeSubscribe
++ _PKAggDKeyApplePayButtonTypeSupport
++ _PKAggDKeyApplePayButtonTypeTip
++ _PKAggDKeyApplePayButtonTypeTopUp
++ _PKAnalyticsApplePayButtonRequestEventDailyLimit
++ _PKAnalyticsSendEventWithDailyLimit
++ _PKDefaultPaymentNetworkNameForPaymentPass
++ _PKDeviceClass
++ _PKOSVersion
++ _PKPaymentMethodTypeToString
++ ___swift_memcpy64_8
++ ___swift_memcpy8_8
++ ___swift_memcpy96_8
++ __os_signpost_emit_with_name_impl
++ _get_witness_table 7SwiftUI14GeometryReaderVyAA15ModifiedContentVyAEyAA6VStackVyAA012_ConditionalF0Vy09_PassKit_aB031DynamicPaymentButtonViewCardArt33_D07C3E3FE65977B041B955EF7A91DA12LLVAMGGAA12_FrameLayoutVGAA19_BackgroundModifierVyAA6ZStackVyAA05TupleN0VyAA06_ShapeN0VyAA16RoundedRectangleVAA5ColorVG_AA011StrokeShapeN0VyA0_A2_AA05EmptyN0VGSgtGGGGGAA0N0HPyHC.31
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA014_ViewModifier_D0Vy09_PassKit_aB030DynamicPaymentButtonTextFormat33_D07C3E3FE65977B041B955EF7A91DA12LLVGAA022_EnvironmentKeyWritingF0VyAA5ColorVSgGGALyAA4FontVSgGGALySiSgGGAA0E0HPAvaZHPAqaZHPAjaZHPyHC_ApA0eF0HPyHCHC_AuAA_HPyHCHC_AxAA_HPyHCHC.43
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy09_PassKit_aB0012PayWithAppleL11ButtonStyleVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.15
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy09_PassKit_aB008PayLaterC12DisplayStyleVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.16
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy09_PassKit_aB008PayLaterC6ActionVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.15
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy09_PassKit_aB035VerifyIdentityWithWalletButtonStyleVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.11
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySbGGAaBHPxAaBHD1__AgA0cI0HPyHCHC.16
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAA6SpacerVAA12_FrameLayoutVG_AEyAGyAGyAA4TextV09_PassKit_aB0020DynamicPaymentButtonK6Format33_D07C3E3FE65977B041B955EF7A91DA12LLVGAKG_ALtGSgAGyAA5ImageVAKGAEyAL_AGyAA06_ShapeE0VyAA9RectangleVAA5ColorVGAKGAlGyAGyAGyAGyAGyAxA012_AspectRatioJ0VGAKGAA033_AccessibilityIgnoresInvertColorsE8ModifierVGAA13_ShadowEffectVGA14_GtGSgALtGGAA0E0HPyHC.38
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$buttonTagForButtonType:
++ _objc_msgSend$isEqualToString:
++ _objc_msgSend$mainBundle
++ _objc_msgSend$paymentService
++ _objc_msgSend$paymentType
++ _objc_msgSend$setObject:forKey:
++ _objc_retain_x4
++ _objc_retain_x6
++ _os_signpost_enabled
++ _os_signpost_id_make_with_pointer
++ _symbolic So32PKPaymentRequestCouponCodeUpdateCIeyBy_
++ _symbolic So35PKPaymentRequestPaymentMethodUpdateCIeyBy_
++ _symbolic So36PKPaymentRequestShippingMethodUpdateCIeyBy_
++ _symbolic So37PKPaymentRequestMerchantSessionUpdateCIeyBy_
++ _symbolic So37PKPaymentRequestShippingContactUpdateCIeyBy_
++ _symbolic _____yAAyAAyAAyAAy__________G_____G_____G_____GAIG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA45_AccessibilityIgnoresInvertColorsViewModifierV AA13_ShadowEffectV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA4TextV 09_PassKit_aB0020DynamicPaymentButtonE6Format33_D07C3E3FE65977B041B955EF7A91DA12LLV AA12_FrameLayoutV
++ _symbolic _____yAAy_____y_____y_____ADGG_____G_____y_____y_____y_____y__________G______yAmN_____GSgtGGGG 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 09_PassKit_aB031DynamicPaymentButtonViewCardArt33_D07C3E3FE65977B041B955EF7A91DA12LLV AA12_FrameLayoutV AA19_BackgroundModifierV AA6ZStackV AA05TupleL0V AA06_ShapeL0V AA16RoundedRectangleV AA5ColorV AA011StrokeShapeL0V AA05EmptyL0V
++ _symbolic _____y_____yABy__________G_____G_ABy_____AFGtGSg 7SwiftUI9TupleViewV AA15ModifiedContentV AA4TextV 09_PassKit_aB0020DynamicPaymentButtonG6Format33_D07C3E3FE65977B041B955EF7A91DA12LLV AA12_FrameLayoutV AA6SpacerV
++ _symbolic _____y_____yABy_____y_____y_____AEGG_____G_____y_____y_____y_____y__________G______yAnO_____GSgtGGGGG 7SwiftUI14GeometryReaderV AA15ModifiedContentV AA6VStackV AA012_ConditionalF0V 09_PassKit_aB031DynamicPaymentButtonViewCardArt33_D07C3E3FE65977B041B955EF7A91DA12LLV AA12_FrameLayoutV AA19_BackgroundModifierV AA6ZStackV AA05TupleN0V AA06_ShapeN0V AA16RoundedRectangleV AA5ColorV AA011StrokeShapeN0V AA05EmptyN0V
++ _symbolic _____y_____y__________G_AAyAByABy__________GADG_AEtGSgABy_____ADGAAyAE_ABy_____y__________GADGAeByAByAByAByAByAL_____GADG_____G_____GAXGtGSgAEtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA6SpacerV AA12_FrameLayoutV AA4TextV 09_PassKit_aB0020DynamicPaymentButtonJ6Format33_D07C3E3FE65977B041B955EF7A91DA12LLV AA5ImageV AA06_ShapeD0V AA9RectangleV AA5ColorV AA012_AspectRatioI0V AA033_AccessibilityIgnoresInvertColorsD8ModifierV AA13_ShadowEffectV
++ _symbolic _____y_____y__________G_ABy_____y__________GADGAeByAByAByAByABy__________GADG_____G_____GAQGtGSg 7SwiftUI9TupleViewV AA15ModifiedContentV AA6SpacerV AA12_FrameLayoutV AA06_ShapeD0V AA9RectangleV AA5ColorV AA5ImageV AA012_AspectRatioI0V AA033_AccessibilityIgnoresInvertColorsD8ModifierV AA13_ShadowEffectV
++ _symbolic _____y_____y_____y__________G_AByACyACy__________GAEG_AFtGSgACy_____AEGAByAF_ACy_____y__________GAEGAfCyACyACyACyACyAM_____GAEG_____G_____GAYGtGSgAFtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA6SpacerV AA12_FrameLayoutV AA4TextV 09_PassKit_aB0020DynamicPaymentButtonK6Format33_D07C3E3FE65977B041B955EF7A91DA12LLV AA5ImageV AA06_ShapeE0V AA9RectangleV AA5ColorV AA012_AspectRatioJ0V AA033_AccessibilityIgnoresInvertColorsE8ModifierV AA13_ShadowEffectV
+- ___swift_memcpy88_8
+- _get_witness_table 7SwiftUI14GeometryReaderVyAA15ModifiedContentVyAEyAA6VStackVyAA012_ConditionalF0VyAIy09_PassKit_aB031DynamicPaymentButtonViewCardArt33_D07C3E3FE65977B041B955EF7A91DA12LLVAMGAIyAA5ImageVAMGGGAA12_FrameLayoutVGAA19_BackgroundModifierVyAA6ZStackVyAA05TupleN0VyAA06_ShapeN0VyAA16RoundedRectangleVAA5ColorVG_AA011StrokeShapeN0VyA4_A6_AA05EmptyN0VGSgtGGGGGAA0N0HPyHC.26
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA014_ViewModifier_D0Vy09_PassKit_aB030DynamicPaymentButtonTextFormat33_D07C3E3FE65977B041B955EF7A91DA12LLVGAA022_EnvironmentKeyWritingF0VyAA5ColorVSgGGALyAA4FontVSgGGALySiSgGGAA0E0HPAvaZHPAqaZHPAjaZHPyHC_ApA0eF0HPyHCHC_AuAA_HPyHCHC_AxAA_HPyHCHC.38
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy09_PassKit_aB0012PayWithAppleL11ButtonStyleVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.6
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy09_PassKit_aB008PayLaterC12DisplayStyleVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.7
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy09_PassKit_aB008PayLaterC6ActionVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.6
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy09_PassKit_aB035VerifyIdentityWithWalletButtonStyleVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.2
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySbGGAaBHPxAaBHD1__AgA0cI0HPyHCHC.7
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAA4TextV09_PassKit_aB0020DynamicPaymentButtonH6Format33_D07C3E3FE65977B041B955EF7A91DA12LLVGSg_AA5ImageVAEyAGyAA06_ShapeE0VyAA9RectangleVAA5ColorVGAA12_FrameLayoutVG_AGyAGyAGyAGyAqZGAA033_AccessibilityIgnoresInvertColorsE8ModifierVGAA13_ShadowEffectVGA5_GtGSgtGGAA0E0HPyHC.33
+- _swift_bridgeObjectRetain_n
+- _swift_retain_n
+- _symbolic So32PKPaymentRequestCouponCodeUpdateCIeyBhy_
+- _symbolic So35PKPaymentRequestPaymentMethodUpdateCIeyBhy_
+- _symbolic So36PKPaymentRequestShippingMethodUpdateCIeyBhy_
+- _symbolic So37PKPaymentRequestMerchantSessionUpdateCIeyBhy_
+- _symbolic So37PKPaymentRequestShippingContactUpdateCIeyBhy_
+- _symbolic _____yAAyAAyAAy__________G_____G_____GAGG 7SwiftUI15ModifiedContentV AA5ImageV AA12_FrameLayoutV AA45_AccessibilityIgnoresInvertColorsViewModifierV AA13_ShadowEffectV
+- _symbolic _____yAAy_____ABGAAy_____ABGG 7SwiftUI19_ConditionalContentV 09_PassKit_aB031DynamicPaymentButtonViewCardArt33_D07C3E3FE65977B041B955EF7A91DA12LLV AA5ImageV
+- _symbolic _____yAAy_____y_____yACy_____ADGACy_____ADGGG_____G_____y_____y_____y_____y__________G______yApQ_____GSgtGGGG 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 09_PassKit_aB031DynamicPaymentButtonViewCardArt33_D07C3E3FE65977B041B955EF7A91DA12LLV AA5ImageV AA12_FrameLayoutV AA19_BackgroundModifierV AA6ZStackV AA05TupleL0V AA06_ShapeL0V AA16RoundedRectangleV AA5ColorV AA011StrokeShapeL0V AA05EmptyL0V
+- _symbolic _____y_____ABG 7SwiftUI19_ConditionalContentV 09_PassKit_aB031DynamicPaymentButtonViewCardArt33_D07C3E3FE65977B041B955EF7A91DA12LLV
+- _symbolic _____y__________G 7SwiftUI19_ConditionalContentV AA5ImageV 09_PassKit_aB031DynamicPaymentButtonViewCardArt33_D07C3E3FE65977B041B955EF7A91DA12LLV
+- _symbolic _____y______yptG s23_ContiguousArrayStorageC So21NSAttributedStringKeya
+- _symbolic _____y_____yABy_____y_____yADy_____AEGADy_____AEGGG_____G_____y_____y_____y_____y__________G______yAqR_____GSgtGGGGG 7SwiftUI14GeometryReaderV AA15ModifiedContentV AA6VStackV AA012_ConditionalF0V 09_PassKit_aB031DynamicPaymentButtonViewCardArt33_D07C3E3FE65977B041B955EF7A91DA12LLV AA5ImageV AA12_FrameLayoutV AA19_BackgroundModifierV AA6ZStackV AA05TupleN0V AA06_ShapeN0V AA16RoundedRectangleV AA5ColorV AA011StrokeShapeN0V AA05EmptyN0V
+- _symbolic _____y_____y__________GSg______AAyABy_____y__________G_____G_AByAByAByAByAgLG_____G_____GAQGtGSgtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA4TextV 09_PassKit_aB0020DynamicPaymentButtonG6Format33_D07C3E3FE65977B041B955EF7A91DA12LLV AA5ImageV AA06_ShapeD0V AA9RectangleV AA5ColorV AA12_FrameLayoutV AA033_AccessibilityIgnoresInvertColorsD8ModifierV AA13_ShadowEffectV
+- _symbolic _____y_____y_____y__________GSg______AByACy_____y__________G_____G_ACyACyACyACyAhMG_____G_____GARGtGSgtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA4TextV 09_PassKit_aB0020DynamicPaymentButtonH6Format33_D07C3E3FE65977B041B955EF7A91DA12LLV AA5ImageV AA06_ShapeE0V AA9RectangleV AA5ColorV AA12_FrameLayoutV AA033_AccessibilityIgnoresInvertColorsE8ModifierV AA13_ShadowEffectV
+- _symbolic _____y_____y_____y__________G_____G_AByAByAByABy_____AGG_____G_____GAMGtGSg 7SwiftUI9TupleViewV AA15ModifiedContentV AA06_ShapeD0V AA9RectangleV AA5ColorV AA12_FrameLayoutV AA5ImageV AA033_AccessibilityIgnoresInvertColorsD8ModifierV AA13_ShadowEffectV
+CStrings:
++ ""
++ "Failed to render UIImage of card art"
++ "No supported pass to render card art"
++ "Warning: Unknown buttonType: %ld"
++ "bundleIdentifier"
++ "buttonTagForButtonType:"
++ "com.apple.wallet.ecom.smartButtons.errorType.NoPassImageReceived"
++ "isEqualToString:"
++ "mainBundle"
++ "networkNameForPass:"
++ "organizationName"
++ "paymentMethodTypeStringForPass:"
++ "paymentService"
++ "paymentType"
++ "paymentbuttons:renderSimpleButton"
++ "paymentbuttons:renderSmartButton"
++ "renderSimpleButton"
++ "renderSmartButton"
++ "reportPaymentButtonRequestForButtonType:isDynamic:issuer:networkName:productSubType:errorType:"
++ "setObject:forKey:"
++ "signpostIntervalBeginForEvent:"
++ "signpostIntervalEndForEvent:"
++ "smartbuttons:renderCardArt"
++ "v60@0:8q16B24@28@36@44@52"
+- "Falied to render UIImage of card art"
+- "No uniquePassID on tag to render card art"
+
+```

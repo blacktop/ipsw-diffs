@@ -1,0 +1,111 @@
+## HealthCharts
+
+> `/System/Library/PrivateFrameworks/HealthCharts.framework/HealthCharts`
+
+```diff
+
+-6100.0.0.0.0
+-  __TEXT.__text: 0xc4ba4
++6105.0.0.0.0
++  __TEXT.__text: 0xc4db8
+   __TEXT.__auth_stubs: 0x1dc0
+   __TEXT.__const: 0x6064
+   __TEXT.__cstring: 0x463c
+
+   __TEXT.__swift_as_ret: 0x14
+   __TEXT.__swift5_protos: 0x20
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x1f60
++  __TEXT.__unwind_info: 0x1f78
+   __TEXT.__eh_frame: 0xd88
+   __TEXT.__objc_methname: 0x333
+   __DATA_CONST.__got: 0x818
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xf8
+   __AUTH_CONST.__auth_got: 0xee0
+-  __AUTH_CONST.__const: 0x7c98
++  __AUTH_CONST.__const: 0x7fe0
+   __AUTH_CONST.__objc_const: 0x1c8
+   __AUTH.__data: 0x1308
+   __DATA.__data: 0x2128
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9FE2D04C-BB85-3C78-983B-C7A77DD571E8
+-  Functions: 3450
+-  Symbols:   11161
++  UUID: F59ED0EB-8149-37BB-A351-33987ED84A13
++  Functions: 3462
++  Symbols:   11230
+   CStrings:  457
+ 
+Symbols:
++ _$s12HealthCharts0A11StaticChartVWV
++ _$s12HealthCharts0A11StaticChartVwet
++ _$s12HealthCharts0A11StaticChartVwst
++ _$s12HealthCharts0aB10AttributesV6SeriesVWV
++ _$s12HealthCharts0aB10AttributesV6SeriesVwet
++ _$s12HealthCharts0aB10AttributesV6SeriesVwst
++ _$s12HealthCharts0aB5ColorOWV
++ _$s12HealthCharts0aB5ColorOwet
++ _$s12HealthCharts0aB5ColorOwst
++ _$s12HealthCharts0aB5ColorOwug
++ _$s12HealthCharts0aB5ColorOwui
++ _$s12HealthCharts0aB5ColorOwup
++ _$s12HealthCharts13BarAttributesOWV
++ _$s12HealthCharts13BarAttributesOwet
++ _$s12HealthCharts13BarAttributesOwst
++ _$s12HealthCharts13BarAttributesOwug
++ _$s12HealthCharts13BarAttributesOwui
++ _$s12HealthCharts13BarAttributesOwup
++ _$s12HealthCharts13NoDataMessageVWV
++ _$s12HealthCharts13NoDataMessageVwet
++ _$s12HealthCharts13NoDataMessageVwst
++ _$s12HealthCharts13RangeQuantityVWV
++ _$s12HealthCharts13RangeQuantityVwet
++ _$s12HealthCharts13RangeQuantityVwst
++ _$s12HealthCharts15AverageQuantityVWV
++ _$s12HealthCharts15AverageQuantityVwet
++ _$s12HealthCharts15AverageQuantityVwst
++ _$s12HealthCharts20BloodPressureMessageVWV
++ _$s12HealthCharts20BloodPressureMessageVwet
++ _$s12HealthCharts20BloodPressureMessageVwst
++ _$s12HealthCharts20SeriesContentBuilderVWV
++ _$s12HealthCharts20SeriesContentBuilderVwet
++ _$s12HealthCharts20SeriesContentBuilderVwst
++ ___swift_assignWithCopy_strong
++ ___swift_assignWithTake_strong
++ ___swift_destroy_strong
++ ___swift_initWithCopy_strong
++ ___swift_memcpy0_1
++ ___swift_memcpy8_8
++ _get_witness_table 12HealthCharts10AxisDomainRzl7SwiftUI6VStackVyAC9TupleViewVyAA011DescriptionI0VyxG_AC15ModifiedContentVyALyAA0A5ChartVyx0B003AnymL0VGAC14_PaddingLayoutVGAC11_ClipEffectVyAC9RectangleVGGtGGAC0I0HPyHC.2
++ _get_witness_table 12HealthCharts10AxisDomainRzl7SwiftUI7AnyViewVAC0H0HPyHC.11
++ _get_witness_table 12HealthCharts13SeriesContentRzAaBR_1XQy_ACRtzr0_l0B018BuilderConditionalVyxq_GAF05ChartD0HPxAaBHD1_AfJHI1__q_AaBHD2_AfJHI1_HC.54
++ _get_witness_table 12HealthCharts13SeriesContentRzAaBR_1XQy_ACRtzr0_lAA011ConditionalcD0Vyxq_GAaBHPyHC.10
++ _get_witness_table 12HealthCharts13SeriesContentRzAaBR_1XQy_ACRtzr0_lAA05GroupcD0Vy1SQzAHQy__QP0B012BuilderTupleVyx_q_QPGGAaBHPyHC.6
++ _get_witness_table 12HealthCharts13SeriesContentRzAaBR_AaBR0_1XQy_ACRtzACQy0_ADRSr1_lAA05GroupcD0Vy1SQzAIQy__AIQy0_QP0B012BuilderTupleVyx_q_q0_QPGGAaBHPyHC.7
++ _get_witness_table 12HealthCharts13SeriesContentRzAaBR_AaBR0_AaBR1_1XQy_ACRtzACQy0_ADRSACQy1_AFRSr2_lAA05GroupcD0Vy1SQzAJQy__AJQy0_AJQy1_QP0B012BuilderTupleVyx_q_q0_q1_QPGGAaBHPyHC.8
++ _get_witness_table 12HealthCharts13SeriesContentRzAaBR_AaBR0_AaBR1_AaBR2_1XQy_ACRtzACQy0_ADRSACQy1_AFRSACQy2_AGRSr3_lAA05GroupcD0Vy1SQzAKQy__AKQy0_AKQy1_AKQy2_QP0B012BuilderTupleVyx_q_q0_q1_q2_QPGGAaBHPyHC.9
++ _get_witness_table 12HealthCharts22CommonChartDescriptionV7SwiftUI4ViewHPyHC.5
++ _get_witness_table 6Charts12ChartContentRzlxAaBHD1_.11
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVy12HealthCharts22SymbolTitleDescriptionVyAA06_ShapeE0Vy0G0010BasicCharthK0VAA5ColorVGG_AA6SpacerVAQtGGSgAA0E0HpAuaWHPyHC_HC.5
++ _get_witness_table 7SwiftUI9ShapeViewRzlAA6VStackVyAA05TupleD0VyAA6HStackVyAFyAA15ModifiedContentVyxAA12_FrameLayoutVG_12HealthCharts22CommonDescriptionTitleVtGG_AN0nO5ValueVAN0nO4DateVSgtGGAA0D0HPyHC.6
++ _get_witness_table 7SwiftUI9TupleViewVy12HealthCharts22CommonChartDescriptionVSg_AA05EmptyD0VtGAA0D0HPyHC.5
+- _$sBbWV
+- _get_witness_table 12HealthCharts10AxisDomainRzl7SwiftUI6VStackVyAC9TupleViewVyAA011DescriptionI0VyxG_AC15ModifiedContentVyALyAA0A5ChartVyx0B003AnymL0VGAC14_PaddingLayoutVGAC11_ClipEffectVyAC9RectangleVGGtGGAC0I0HPyHC.1
+- _get_witness_table 12HealthCharts10AxisDomainRzl7SwiftUI7AnyViewVAC0H0HPyHC.10
+- _get_witness_table 12HealthCharts13SeriesContentRzAaBR_1XQy_ACRtzr0_l0B018BuilderConditionalVyxq_GAF05ChartD0HPxAaBHD1_AfJHI1__q_AaBHD2_AfJHI1_HC.50
+- _get_witness_table 12HealthCharts13SeriesContentRzAaBR_1XQy_ACRtzr0_lAA011ConditionalcD0Vyxq_GAaBHPyHC.6
+- _get_witness_table 12HealthCharts13SeriesContentRzAaBR_1XQy_ACRtzr0_lAA05GroupcD0Vy1SQzAHQy__QP0B012BuilderTupleVyx_q_QPGGAaBHPyHC.2
+- _get_witness_table 12HealthCharts13SeriesContentRzAaBR_AaBR0_1XQy_ACRtzACQy0_ADRSr1_lAA05GroupcD0Vy1SQzAIQy__AIQy0_QP0B012BuilderTupleVyx_q_q0_QPGGAaBHPyHC.3
+- _get_witness_table 12HealthCharts13SeriesContentRzAaBR_AaBR0_AaBR1_1XQy_ACRtzACQy0_ADRSACQy1_AFRSr2_lAA05GroupcD0Vy1SQzAJQy__AJQy0_AJQy1_QP0B012BuilderTupleVyx_q_q0_q1_QPGGAaBHPyHC.4
+- _get_witness_table 12HealthCharts13SeriesContentRzAaBR_AaBR0_AaBR1_AaBR2_1XQy_ACRtzACQy0_ADRSACQy1_AFRSACQy2_AGRSr3_lAA05GroupcD0Vy1SQzAKQy__AKQy0_AKQy1_AKQy2_QP0B012BuilderTupleVyx_q_q0_q1_q2_QPGGAaBHPyHC.5
+- _get_witness_table 12HealthCharts22CommonChartDescriptionV7SwiftUI4ViewHPyHC.1
+- _get_witness_table 6Charts12ChartContentRzlxAaBHD1_.7
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVy12HealthCharts22SymbolTitleDescriptionVyAA06_ShapeE0Vy0G0010BasicCharthK0VAA5ColorVGG_AA6SpacerVAQtGGSgAA0E0HpAuaWHPyHC_HC.1
+- _get_witness_table 7SwiftUI9ShapeViewRzlAA6VStackVyAA05TupleD0VyAA6HStackVyAFyAA15ModifiedContentVyxAA12_FrameLayoutVG_12HealthCharts22CommonDescriptionTitleVtGG_AN0nO5ValueVAN0nO4DateVSgtGGAA0D0HPyHC.2
+
+```

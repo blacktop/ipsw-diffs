@@ -1,0 +1,325 @@
+## ServicesIntelligence
+
+> `/System/Library/PrivateFrameworks/ServicesIntelligence.framework/ServicesIntelligence`
+
+```diff
+
+-1.23.0.0.0
+-  __TEXT.__text: 0x97384
+-  __TEXT.__auth_stubs: 0x1a70
++1.25.0.0.0
++  __TEXT.__text: 0xdfda4
++  __TEXT.__auth_stubs: 0x1ae0
+   __TEXT.__objc_methlist: 0x1bc
+-  __TEXT.__const: 0xd088
+-  __TEXT.__cstring: 0x3064
+-  __TEXT.__swift5_typeref: 0x273a
+-  __TEXT.__constg_swiftt: 0x2780
+-  __TEXT.__swift5_reflstr: 0x15a3
+-  __TEXT.__swift5_fieldmd: 0x2b64
++  __TEXT.__const: 0xe860
++  __TEXT.__cstring: 0x382c
++  __TEXT.__swift5_typeref: 0x295e
++  __TEXT.__constg_swiftt: 0x28f8
++  __TEXT.__swift5_reflstr: 0x1b13
++  __TEXT.__swift5_fieldmd: 0x2f3c
+   __TEXT.__swift5_builtin: 0x118
+-  __TEXT.__swift5_assocty: 0x2d8
+-  __TEXT.__swift5_proto: 0xc34
+-  __TEXT.__swift5_types: 0x3ac
+-  __TEXT.__swift_as_entry: 0x198
+-  __TEXT.__swift_as_ret: 0x1ac
+-  __TEXT.__swift5_mpenum: 0x78
+-  __TEXT.__swift5_capture: 0x144
++  __TEXT.__swift5_assocty: 0x320
++  __TEXT.__swift5_proto: 0xd04
++  __TEXT.__swift5_types: 0x3dc
++  __TEXT.__swift_as_entry: 0x2e8
++  __TEXT.__swift_as_ret: 0x59c
++  __TEXT.__swift5_capture: 0x1158
++  __TEXT.__swift5_mpenum: 0xa0
+   __TEXT.__swift5_protos: 0x1c
+   __TEXT.__oslogstring: 0x998
+-  __TEXT.__unwind_info: 0x31d8
+-  __TEXT.__eh_frame: 0x6db0
++  __TEXT.__unwind_info: 0x4320
++  __TEXT.__eh_frame: 0xb4d0
+   __TEXT.__objc_classname: 0x18
+-  __TEXT.__objc_methname: 0x4f5
++  __TEXT.__objc_methname: 0x5e4
+   __TEXT.__objc_methtype: 0x178
+-  __DATA_CONST.__got: 0x3c0
++  __DATA_CONST.__got: 0x3e0
+   __DATA_CONST.__const: 0xa8
+   __DATA_CONST.__objc_classlist: 0xc0
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x228
++  __DATA_CONST.__objc_selrefs: 0x280
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __AUTH_CONST.__auth_got: 0xd38
+-  __AUTH_CONST.__const: 0x7a80
++  __AUTH_CONST.__auth_got: 0xd70
++  __AUTH_CONST.__const: 0xa850
+   __AUTH_CONST.__objc_const: 0x1268
+-  __AUTH.__objc_data: 0x320
+-  __AUTH.__data: 0x1738
+-  __DATA.__data: 0x28c8
+-  __DATA.__common: 0x30
+-  __DATA.__bss: 0x17d80
++  __AUTH.__objc_data: 0x2d0
++  __AUTH.__data: 0xca8
++  __DATA.__data: 0x2338
++  __DATA.__bss: 0x16300
++  __DATA.__common: 0x8
++  __DATA_DIRTY.__objc_data: 0x50
++  __DATA_DIRTY.__data: 0x12d8
++  __DATA_DIRTY.__common: 0x30
++  __DATA_DIRTY.__bss: 0x3480
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreML.framework/CoreML
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BA67E5FE-E361-34FE-B295-337941AD945D
+-  Functions: 4067
+-  Symbols:   1531
+-  CStrings:  445
++  UUID: 13368C16-325C-3732-9288-606E820FDC1F
++  Functions: 5138
++  Symbols:   1636
++  CStrings:  501
+ 
+Symbols:
++ _CFAbsoluteTimeGetCurrent
++ _OBJC_CLASS_$_AMSURLRequest
++ _OBJC_CLASS_$_AMSURLRequestEncoder
++ _OBJC_CLASS_$_AMSURLSession
++ _OBJC_CLASS_$_NSISO8601DateFormatter
++ _OBJC_CLASS_$_NSURLSessionConfiguration
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___unnamed_12
++ _associated conformance 20ServicesIntelligence0aB10XPCRequestO22RunInferenceCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLOSHAASQ
++ _associated conformance 20ServicesIntelligence0aB10XPCRequestO22RunInferenceCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence0aB10XPCRequestO22RunInferenceCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence0aB10XPCRequestO25FetchTreatmentsCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLOSHAASQ
++ _associated conformance 20ServicesIntelligence0aB10XPCRequestO25FetchTreatmentsCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence0aB10XPCRequestO25FetchTreatmentsCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence0aB11XPCResponseO22RunInferenceCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLOSHAASQ
++ _associated conformance 20ServicesIntelligence0aB11XPCResponseO22RunInferenceCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence0aB11XPCResponseO22RunInferenceCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence0aB11XPCResponseO25FetchTreatmentsCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLOSHAASQ
++ _associated conformance 20ServicesIntelligence0aB11XPCResponseO25FetchTreatmentsCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence0aB11XPCResponseO25FetchTreatmentsCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence11RequestTypeOSHAASQ
++ _associated conformance 20ServicesIntelligence12SubOperationV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLOSHAASQ
++ _associated conformance 20ServicesIntelligence12SubOperationV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence12SubOperationV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence14RequestContextV10CodingKeys33_34FF3CF31647E1B124C2410F3E3CCEB7LLOSHAASQ
++ _associated conformance 20ServicesIntelligence14RequestContextV10CodingKeys33_34FF3CF31647E1B124C2410F3E3CCEB7LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence14RequestContextV10CodingKeys33_34FF3CF31647E1B124C2410F3E3CCEB7LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence17LogMetricsRequestV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLOyx_GSHAASQ
++ _associated conformance 20ServicesIntelligence17LogMetricsRequestV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLOyx_Gs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence17LogMetricsRequestV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLOyx_Gs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence18LogMetricsResponseV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLOSHAASQ
++ _associated conformance 20ServicesIntelligence18LogMetricsResponseV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence18LogMetricsResponseV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence20EnhancedMetricsEvent33_572772776B90F234B421D97A672995F6LLV10CodingKeysOyx_GSHAASQ
++ _associated conformance 20ServicesIntelligence20EnhancedMetricsEvent33_572772776B90F234B421D97A672995F6LLV10CodingKeysOyx_Gs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence20EnhancedMetricsEvent33_572772776B90F234B421D97A672995F6LLV10CodingKeysOyx_Gs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence26LogOperationMetricsRequestV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLOSHAASQ
++ _associated conformance 20ServicesIntelligence26LogOperationMetricsRequestV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence26LogOperationMetricsRequestV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence27CreateVectorDatabaseRequestV10CodingKeys33_4944AD3A434D57346057BF2C92F18937LLOSHAASQ
++ _associated conformance 20ServicesIntelligence27CreateVectorDatabaseRequestV10CodingKeys33_4944AD3A434D57346057BF2C92F18937LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence27CreateVectorDatabaseRequestV10CodingKeys33_4944AD3A434D57346057BF2C92F18937LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence27EnhancedRunInferenceRequestV10CodingKeys020_D3B6143DC4EA1D778E1I11B065EA18A2ELLOSHAASQ
++ _associated conformance 20ServicesIntelligence27EnhancedRunInferenceRequestV10CodingKeys020_D3B6143DC4EA1D778E1I11B065EA18A2ELLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence27EnhancedRunInferenceRequestV10CodingKeys020_D3B6143DC4EA1D778E1I11B065EA18A2ELLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence7ProcessOSHAASQ
++ _associated conformance 20ServicesIntelligence7ProcessOs12CaseIterableAA8AllCasessADP_Sl
++ _block_copy_helper.19
++ _block_copy_helper.22
++ _block_copy_helper.31
++ _block_copy_helper.35
++ _block_descriptor.21
++ _block_descriptor.24
++ _block_descriptor.33
++ _block_descriptor.37
++ _block_destroy_helper.20
++ _block_destroy_helper.23
++ _block_destroy_helper.32
++ _block_destroy_helper.36
++ _mach_task_self_
++ _objc_release_x28
++ _objectdestroy.28Tm
++ _objectdestroy.36Tm
++ _objectdestroyTm
++ _swift_release_n
++ _symbolic Say_____G 20ServicesIntelligence7ProcessO
++ _symbolic SccySo12AMSURLResultC______pG s5ErrorP
++ _symbolic SccySo12NSDictionaryC_Sbt______pG s5ErrorP
++ _symbolic _____ 20ServicesIntelligence0aB10XPCRequestO22RunInferenceCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLO
++ _symbolic _____ 20ServicesIntelligence0aB10XPCRequestO25FetchTreatmentsCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLO
++ _symbolic _____ 20ServicesIntelligence0aB11XPCResponseO22RunInferenceCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLO
++ _symbolic _____ 20ServicesIntelligence0aB11XPCResponseO25FetchTreatmentsCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLO
++ _symbolic _____ 20ServicesIntelligence11RequestTypeO
++ _symbolic _____ 20ServicesIntelligence12SubOperationV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLO
++ _symbolic _____ 20ServicesIntelligence12SubOperationV16StringifiedError33_64B99B28BDFAC3190BE46864E551ACB0LLO
++ _symbolic _____ 20ServicesIntelligence14RequestContextV
++ _symbolic _____ 20ServicesIntelligence14RequestContextV10CodingKeys33_34FF3CF31647E1B124C2410F3E3CCEB7LLO
++ _symbolic _____ 20ServicesIntelligence15LogMetricsErrorO
++ _symbolic _____ 20ServicesIntelligence17LogMetricsRequestV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLO
++ _symbolic _____ 20ServicesIntelligence18LogMetricsResponseV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLO
++ _symbolic _____ 20ServicesIntelligence20EnhancedMetricsEvent33_572772776B90F234B421D97A672995F6LLV
++ _symbolic _____ 20ServicesIntelligence20EnhancedMetricsEvent33_572772776B90F234B421D97A672995F6LLV10CodingKeysO
++ _symbolic _____ 20ServicesIntelligence26LogOperationMetricsRequestV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLO
++ _symbolic _____ 20ServicesIntelligence27CreateVectorDatabaseRequestV
++ _symbolic _____ 20ServicesIntelligence27CreateVectorDatabaseRequestV10CodingKeys33_4944AD3A434D57346057BF2C92F18937LLO
++ _symbolic _____ 20ServicesIntelligence27EnhancedRunInferenceRequestV
++ _symbolic _____ 20ServicesIntelligence27EnhancedRunInferenceRequestV10CodingKeys020_D3B6143DC4EA1D778E1I11B065EA18A2ELLO
++ _symbolic _____ 20ServicesIntelligence7ProcessO
++ _symbolic _____Sg 20ServicesIntelligence12ServiceOwnerO
++ _symbolic _____ySDySSSay_____GGG 20ServicesIntelligence20EnhancedMetricsEvent33_572772776B90F234B421D97A672995F6LLV AA12SubOperationV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence0dE10XPCRequestO22RunInferenceCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence0dE10XPCRequestO25FetchTreatmentsCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence0dE11XPCResponseO22RunInferenceCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence0dE11XPCResponseO25FetchTreatmentsCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence12SubOperationV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence14RequestContextV10CodingKeys33_34FF3CF31647E1B124C2410F3E3CCEB7LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence18LogMetricsResponseV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence26LogOperationMetricsRequestV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence27CreateVectorDatabaseRequestV10CodingKeys33_4944AD3A434D57346057BF2C92F18937LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence27EnhancedRunInferenceRequestV10CodingKeys020_D3B6143DC4EA1D778E1L11B065EA18A2ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence0dE10XPCRequestO22RunInferenceCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence0dE10XPCRequestO25FetchTreatmentsCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence0dE11XPCResponseO22RunInferenceCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence0dE11XPCResponseO25FetchTreatmentsCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence12SubOperationV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence14RequestContextV10CodingKeys33_34FF3CF31647E1B124C2410F3E3CCEB7LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence18LogMetricsResponseV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence26LogOperationMetricsRequestV10CodingKeys33_64B99B28BDFAC3190BE46864E551ACB0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence27CreateVectorDatabaseRequestV10CodingKeys33_4944AD3A434D57346057BF2C92F18937LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence27EnhancedRunInferenceRequestV10CodingKeys020_D3B6143DC4EA1D778E1L11B065EA18A2ELLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20ServicesIntelligence12SubOperationV
++ _symbolic _____y__________G s18_DictionaryStorageC 20ServicesIntelligence7ProcessO AC12ServiceOwnerO
++ _symbolic _____y_____ySDySSSay_____GGGG s23_ContiguousArrayStorageC 20ServicesIntelligence20EnhancedMetricsEvent33_572772776B90F234B421D97A672995F6LLV AC12SubOperationV
++ _task_info
++ _type_layout_string 20ServicesIntelligence12SubOperationV16StringifiedError33_64B99B28BDFAC3190BE46864E551ACB0LLO
++ _type_layout_string 20ServicesIntelligence14RequestContextV
++ _type_layout_string 20ServicesIntelligence27CreateVectorDatabaseRequestV
++ _type_layout_string 20ServicesIntelligence27EnhancedRunInferenceRequestV
+- ___unnamed_15
+- _associated conformance 20ServicesIntelligence12SubOperationV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLOSHAASQ
+- _associated conformance 20ServicesIntelligence12SubOperationV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 20ServicesIntelligence12SubOperationV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 20ServicesIntelligence17LogMetricsRequestV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLOyx_GSHAASQ
+- _associated conformance 20ServicesIntelligence17LogMetricsRequestV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLOyx_Gs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 20ServicesIntelligence17LogMetricsRequestV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLOyx_Gs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 20ServicesIntelligence18LogMetricsResponseV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLOSHAASQ
+- _associated conformance 20ServicesIntelligence18LogMetricsResponseV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 20ServicesIntelligence18LogMetricsResponseV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 20ServicesIntelligence20EnhancedMetricsEvent33_1F28A76BFF16A37888DB8E954AE83542LLV10CodingKeysOyx_GSHAASQ
+- _associated conformance 20ServicesIntelligence20EnhancedMetricsEvent33_1F28A76BFF16A37888DB8E954AE83542LLV10CodingKeysOyx_Gs0M3KeyAAs23CustomStringConvertible
+- _associated conformance 20ServicesIntelligence20EnhancedMetricsEvent33_1F28A76BFF16A37888DB8E954AE83542LLV10CodingKeysOyx_Gs0M3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 20ServicesIntelligence26LogOperationMetricsRequestV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLOSHAASQ
+- _associated conformance 20ServicesIntelligence26LogOperationMetricsRequestV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 20ServicesIntelligence26LogOperationMetricsRequestV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.15
+- _block_copy_helper.18
+- _block_descriptor.17
+- _block_descriptor.20
+- _block_destroy_helper.16
+- _block_destroy_helper.19
+- _symbolic SS______t 20ServicesIntelligence12ServiceOwnerO
+- _symbolic _____ 20ServicesIntelligence12MetricsErrorO
+- _symbolic _____ 20ServicesIntelligence12SubOperationV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLO
+- _symbolic _____ 20ServicesIntelligence12SubOperationV16StringifiedError33_1F28A76BFF16A37888DB8E954AE83542LLO
+- _symbolic _____ 20ServicesIntelligence17LogMetricsRequestV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLO
+- _symbolic _____ 20ServicesIntelligence18LogMetricsResponseV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLO
+- _symbolic _____ 20ServicesIntelligence20EnhancedMetricsEvent33_1F28A76BFF16A37888DB8E954AE83542LLV
+- _symbolic _____ 20ServicesIntelligence20EnhancedMetricsEvent33_1F28A76BFF16A37888DB8E954AE83542LLV10CodingKeysO
+- _symbolic _____ 20ServicesIntelligence26LogOperationMetricsRequestV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLO
+- _symbolic _____ySDySSSay_____GGG 20ServicesIntelligence20EnhancedMetricsEvent33_1F28A76BFF16A37888DB8E954AE83542LLV AA12SubOperationV
+- _symbolic _____ySS_____G s18_DictionaryStorageC 20ServicesIntelligence12ServiceOwnerO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence12SubOperationV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence18LogMetricsResponseV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence26LogOperationMetricsRequestV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence12SubOperationV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence18LogMetricsResponseV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence26LogOperationMetricsRequestV10CodingKeys33_1F28A76BFF16A37888DB8E954AE83542LLO
+- _symbolic _____y_____ySDySSSay_____GGGG s23_ContiguousArrayStorageC 20ServicesIntelligence20EnhancedMetricsEvent33_1F28A76BFF16A37888DB8E954AE83542LLV AC12SubOperationV
+- _type_layout_string 20ServicesIntelligence12SubOperationV16StringifiedError33_1F28A76BFF16A37888DB8E954AE83542LLO
+CStrings:
++ "Failure count from refreshTreatments: "
++ "ServicesIntelligenceCore"
++ "X-Apple-I-Client-Time"
++ "[ConfigurationServiceClient][canFetchConfigurationFromServer] Failed to get 'config' header information from bag."
++ "[ConfigurationServiceClient][getFetchConfigurationURL] Failed to get URL pathway from bag."
++ "[ConfigurationServiceClient][persistConfiguration] Failed"
++ "[ConfigurationServiceClient][persistConfiguration] Succeeded"
++ "[ConfigurationServiceClient][processConfiguration] Failed to create databases"
++ "[ConfigurationServiceClient][processConfiguration] Failed to persist configuration"
++ "[ConfigurationServiceClient][processConfiguration] Succeeded"
++ "[LoggingProvider] Failed to create core profile provider: "
++ "[LoggingProvider][PerformanceTracking] Starting %@ (correlationID: %@), loggingEnabled: %@, originator: %@"
++ "[LoggingProvider][PerformanceTracking] formed enqueue request"
++ "[LoggingProvider][PerformanceTracking] getting start time and memory"
++ "[LoggingProvider][PerformanceTracking] got end time and memory"
++ "[LoggingProvider][PerformanceTracking] in defer code, and the event is "
++ "[LoggingProvider][enqueueLogOperationMetrics]"
++ "[MLInferenceClient][run] Caching at "
++ "[TreatmentStoreClient][fetchActiveTreatments] Fetching for "
++ "addValue:forHTTPHeaderField:"
++ "clearInferenceCachce"
++ "com.apple.SIDInferenceProvider"
++ "createDatabases"
++ "createKVDatabase"
++ "createSQLDatabase"
++ "createSQLTable"
++ "createVectorDatabase"
++ "data"
++ "dataTaskPromiseWithRequestPromise:"
++ "defaultSessionConfiguration"
++ "deleteFromKVDatabase"
++ "fetchActiveTreatments"
++ "fetchAllActiveTreatments"
++ "fetchConfiguration"
++ "getActiveWorkflows"
++ "getConfiguration"
++ "getInferenceSession"
++ "getKVDatabaseClient"
++ "getSQLDatabaseClient"
++ "getVectorDatabaseClient"
++ "https://amd-infra.itunes.apple.com/infra/ondevice/v0/podium/config"
++ "infra/ondevice.config"
++ "initWithBag:"
++ "initWithConfiguration:"
++ "initWithURL:"
++ "isOperationLoggingEnabled"
++ "loadInferenceAsset"
++ "persistConfiguration"
++ "prewarmInference"
++ "processConfiguration"
++ "requestByEncodingRequest:parameters:"
++ "requestInferenceOneShot"
++ "retrieveTreatments"
++ "runInference"
++ "services-intelligence-config"
++ "setFormatOptions:"
++ "setInKVDatabase"
++ "v24@?0@\"AMSURLResult\"8@\"NSError\"16"
++ "v28@?0@\"NSDictionary\"8B16@\"NSError\"20"
++ "valueForKeyPath:"
++ "valueWithCompletion:"
++ "xpCorrelationKey"
+- "Got treatments for "
+- "No treatments found for "
+- "[ConfigurationServiceClient][fetchConfiguration] Started"
+- "[ConfigurationServiceClient][persistConfiguration] "
+- "[ConfigurationServiceClient][processConfiguration] "
+- "[TreatmentStoreClient][fetchActiveTreatments] for "
+
+```

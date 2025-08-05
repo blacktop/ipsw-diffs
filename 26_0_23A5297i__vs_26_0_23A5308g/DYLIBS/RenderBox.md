@@ -1,0 +1,356 @@
+## RenderBox
+
+> `/System/Library/PrivateFrameworks/RenderBox.framework/RenderBox`
+
+```diff
+
+-7.0.79.0.0
+-  __TEXT.__text: 0x14db94
+-  __TEXT.__auth_stubs: 0x2910
+-  __TEXT.__objc_methlist: 0x2a98
+-  __TEXT.__const: 0x5f78
+-  __TEXT.__gcc_except_tab: 0x740c
+-  __TEXT.__cstring: 0x5b55
++7.0.83.0.0
++  __TEXT.__text: 0x14eb70
++  __TEXT.__auth_stubs: 0x2920
++  __TEXT.__objc_methlist: 0x2a90
++  __TEXT.__const: 0x5f88
++  __TEXT.__gcc_except_tab: 0x74a8
++  __TEXT.__cstring: 0x5cfc
+   __TEXT.__oslogstring: 0xf7d
+-  __TEXT.__unwind_info: 0x6198
++  __TEXT.__unwind_info: 0x6208
+   __TEXT.__eh_frame: 0x60
+-  __TEXT.__objc_classname: 0x42e
+-  __TEXT.__objc_methname: 0x6382
+-  __TEXT.__objc_methtype: 0x34a6
+-  __TEXT.__objc_stubs: 0x47a0
++  __TEXT.__objc_classname: 0x41a
++  __TEXT.__objc_methname: 0x6340
++  __TEXT.__objc_methtype: 0x347e
++  __TEXT.__objc_stubs: 0x47c0
+   __DATA_CONST.__got: 0x528
+-  __DATA_CONST.__const: 0x1d98
++  __DATA_CONST.__const: 0x1db8
+   __DATA_CONST.__objc_classlist: 0x130
+   __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0xa0
++  __DATA_CONST.__objc_protolist: 0x98
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1df8
++  __DATA_CONST.__objc_selrefs: 0x1e10
+   __DATA_CONST.__objc_superrefs: 0xe0
+-  __AUTH_CONST.__auth_got: 0x1498
+-  __AUTH_CONST.__const: 0x8a88
+-  __AUTH_CONST.__cfstring: 0x2b80
+-  __AUTH_CONST.__objc_const: 0x4698
++  __AUTH_CONST.__auth_got: 0x14a0
++  __AUTH_CONST.__const: 0x8ab8
++  __AUTH_CONST.__cfstring: 0x3000
++  __AUTH_CONST.__objc_const: 0x4588
+   __AUTH_CONST.__objc_floatobj: 0x10
+   __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH.__objc_data: 0x140
+   __AUTH.__thread_vars: 0x30
+   __AUTH.__thread_bss: 0x10
+-  __DATA.__objc_ivar: 0x2c8
+-  __DATA.__data: 0x994
++  __DATA.__objc_ivar: 0x2b4
++  __DATA.__data: 0x934
+   __DATA.__crash_info: 0x148
+-  __DATA.__bss: 0x170
+-  __DATA.__common: 0x2c
++  __DATA.__bss: 0x288
++  __DATA.__common: 0x30
+   __DATA_DIRTY.__objc_data: 0xaa0
+   __DATA_DIRTY.__data: 0x4
+-  __DATA_DIRTY.__common: 0x48
+-  __DATA_DIRTY.__bss: 0x678
++  __DATA_DIRTY.__common: 0x50
++  __DATA_DIRTY.__bss: 0x550
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 425B76FF-0713-3671-A14F-A48D9377B911
+-  Functions: 6852
+-  Symbols:   18018
+-  CStrings:  3564
++  UUID: FD419AB5-BCB0-3F7E-9FC5-FADF43C70490
++  Functions: 6873
++  Symbols:   18081
++  CStrings:  3632
+ 
+Symbols:
++ +[RBDevice purgeResources]
++ +[RBDevice purgeResources].cold.1
++ -[RBDevice pipelineDescriptions:format:]
++ -[RBDevice purgeResources]
++ -[RBDrawable setStatisticsHandler:].cold.1
++ -[RBDrawable setStatisticsHandler:].cold.2
++ -[RBDrawable statisticsHandler].cold.1
++ -[RBDrawable statisticsHandler].cold.2
++ -[RBLayer _statisticsMask]
++ -[RBLayer _statisticsMask].cold.1
++ -[RBLayer _statisticsMask].cold.2
++ -[RBLayer setStatisticsHandler:].cold.3
++ -[RBLayer setStatisticsHandler:].cold.4
++ -[RBLayer statisticsHandler].cold.1
++ -[RBLayer statisticsHandler].cold.2
++ -[RBLayer statisticsHandler].cold.3
++ GCC_except_table195
++ GCC_except_table88
++ _CGColorSpaceGetModel
++ __ZGVZN2RB18SharedSurfaceGroup19prune_caches_lockedEjjE18disable_relocation
++ __ZN2RB10RenderPass11set_textureEmPNS_7TextureENS_12SamplerStateE
++ __ZN2RB11RenderFrame19alloc_buffer_regionEmmj.cold.3
++ __ZN2RB11SurfacePool5clearEv
++ __ZN2RB18SharedSurfaceGroup12prune_cachesEjj
++ __ZN2RB18SharedSurfaceGroup19prune_caches_lockedEjj
++ __ZN2RB18SharedSurfaceGroup19prune_caches_lockedEjj.cold.1
++ __ZN2RB4Path10ClipStroke15LengthEstimatorC1ENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEEd
++ __ZN2RB4Path10ClipStroke18AttachmentResolverC1ENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEEmfN2CG5PointEd
++ __ZN2RB4Path10ClipStroke9TransformC1ERNS0_8ConsumerEjffNS_7LineCapENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEEdNS7_IKNS1_16SubpathTransformELm18446744073709551615EEEPNS_6vectorINS1_11RecordedCapELm0EmEE
++ __ZN2RB4Path10ClipStroke9TransformC2ERNS0_8ConsumerEjffNS_7LineCapENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEEdNS7_IKNS1_16SubpathTransformELm18446744073709551615EEEPNS_6vectorINS1_11RecordedCapELm0EmEE
++ __ZN2RB4Path10JoinStrokeC1EPNS0_8ConsumerEjNS_7LineCapENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEEd
++ __ZN2RB4Path10JoinStrokeC2EPNS0_8ConsumerEjNS_7LineCapENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEEd
++ __ZN2RB6Device12prune_cachesEj
++ __ZN2RB6Device13sampler_stateENS_12SamplerStateE
++ __ZN2RB6Device15_last_unique_idE
++ __ZN2RB6Device19RenderPipelineEntry5Queue5clearEv
++ __ZN2RB6Device21resolve_sampler_stateENS_12SamplerStateEPKNS_7TextureE
++ __ZN2RB6Symbol12_GLOBAL__N_116mix_shape_strokeERNS0_5Glyph5ShapeES4_S4_fRKNS_15AffineTransformES7_S7_d
++ __ZN2RB6Symbol5Glyph5Shape13stroke_lengthEd
++ __ZN2RB7Surface7textureEPNS_6DeviceENSt3__18optionalINS_10ColorSpaceEEE
++ __ZN2RB7SurfaceC2EjDv2_i14MTLPixelFormatNS_10ColorSpaceEj
++ __ZN2RB8Drawable17StatisticsHandlerD0Ev
++ __ZN2RB8Drawable17StatisticsHandlerD1Ev
++ __ZN2RB8Drawable22set_statistics_handlerEPKNS0_17StatisticsHandlerE
++ __ZN2RB8DrawableD0Ev.cold.1
++ __ZN2RB8DrawableD1Ev.cold.1
++ __ZN2RB8RefcountINS_8Drawable17StatisticsHandlerENSt3__16atomicIjEEE8finalizeEv
++ __ZNK2CG9Quadratic5indexEdd
++ __ZNK2CG9Quadratic6lengthEd
++ __ZNK2RB11DisplayList8Contents11get_cgimageEDv2_iNS_10ColorSpaceERNS_6cf_ptrIP7CGImageEE
++ __ZNK2RB13ImageProvider18compatible_cgimageEP7CGImage
++ __ZNK2RB20FormattedRenderState11descriptionEv
++ __ZNK2RB4Fill5Color8is_whiteENS_10ColorSpaceE
++ __ZNK2RB4Fill5ImageINS_12ImageTextureEE11get_cgimageEDv2_iRKNS_15AffineTransformENS_10ColorSpaceERNS_6cf_ptrIP7CGImageEE
++ __ZNK2RB4Fill9ImageData13can_get_imageEDv2_iRKNS_15AffineTransformENS_10ColorSpaceE
++ __ZNK2RB6Symbol5Glyph5Layer13stroke_lengthEv
++ __ZNK2RB8Drawable15statistics_maskEv
++ __ZNK2RB8Drawable18statistics_handlerEv
++ __ZNK2RB8Drawable21statistics_dictionaryEv
++ __ZNK2RB8RefcountINS_8Drawable17StatisticsHandlerENSt3__16atomicIjEEE7releaseEv
++ __ZNK2RB8RefcountINS_8Drawable17StatisticsHandlerENSt3__16atomicIjEEE7releaseEv.cold.1
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.1
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.2
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.3
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.4
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.5
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.6
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.7
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.8
++ __ZNSt3__113__stable_sortINS_17_ClassicAlgPolicyERZN2RB6Device12prune_cachesEjE3$_4PNS2_20FormattedRenderStateEEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEPNSB_10value_typeEl
++ __ZNSt3__115__inplace_mergeINS_17_ClassicAlgPolicyERZN2RB6Device12prune_cachesEjE3$_4PNS2_20FormattedRenderStateEEEvT1_S8_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeESD_PNSC_10value_typeEl
++ __ZNSt3__118__stable_sort_moveINS_17_ClassicAlgPolicyERZN2RB6Device12prune_cachesEjE3$_4PNS2_20FormattedRenderStateEEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEPNSB_10value_typeE
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEEEEbT1_SA_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEEEEbT1_SA_T0_.cold.1
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEEEEbT1_SA_T0_.cold.2
++ __ZNSt3__17__sort4B8nn200100INS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELi0EEEvT1_SA_SA_SA_T0_
++ __ZTVN2RB8Drawable17StatisticsHandlerE
++ __ZZ27-[RBDevice _purgeResources]EN3$_58__invokeEPv
++ __ZZ31+[RBDevice didEnterBackground:]EN3$_68__invokeEPv
++ __ZZN2RB18SharedSurfaceGroup19prune_caches_lockedEjjE18disable_relocation
++ __ZZN2RB5TableIPKNS_15TextureCacheKeyEPNS_12TextureCacheEE9remove_ifIZNS_6Device12prune_cachesEjE3$_0EEvRKT_ENUlPKvSE_SE_E_8__invokeESE_SE_SE_
++ __ZZN2RB5TableIPKNS_20FormattedRenderStateEPNS_6Device19RenderPipelineEntryEE9remove_ifIZZNS4_12prune_cachesEjENK3$_1clEvEUlT_PT0_E_EEvRKSA_ENUlPKvSH_SH_E_8__invokeESH_SH_SH_
++ __ZZN2RB5TableIPNS_12CustomShader7LibraryEPNS_15FunctionLibraryEE9remove_ifIZNS_6Device12prune_cachesEjE3$_3EEvRKT_ENUlPKvSE_SE_E_8__invokeESE_SE_SE_
++ __ZZN2RB6Device12prune_cachesEjEN3$_28__invokeEPv
++ ___38-[RBLayer displayWithBounds:callback:]_block_invoke.36
++ ___38-[RBLayer displayWithBounds:callback:]_block_invoke_2.39
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke.51
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke.53
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke.58
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_2.55
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_2.59
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_3.56
++ ____ZN2RB13ImageProvider13render_deviceEv_block_invoke.6
++ ___block_descriptor_104_e8_32r40c30_ZTSN2RB8objc_ptrIP8RBDeviceEE48c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c29_ZTSN2RB8objc_ptrIP7RBLayerEE_e19_"<MTLTexture>"8?0l
++ ___block_descriptor_152_e16_48b64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE104c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE_e5_v8?0l
++ ___block_descriptor_48_e19_"<MTLTexture>"8?0l
++ ___block_descriptor_80_e19_"<MTLTexture>"8?0l
++ ___copy_helper_block_e16_64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE104c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE
++ ___copy_helper_block_e16_64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE104c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE.cold.1
++ ___copy_helper_block_e8_40c30_ZTSN2RB8objc_ptrIP8RBDeviceEE48c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c29_ZTSN2RB8objc_ptrIP7RBLayerEE
++ ___destroy_helper_block_e16_64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE104c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE
++ ___destroy_helper_block_e16_64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE104c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE.cold.1
++ ___destroy_helper_block_e8_40c30_ZTSN2RB8objc_ptrIP8RBDeviceEE48c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c29_ZTSN2RB8objc_ptrIP7RBLayerEE
++ _objc_msgSend$_purgeDevice
++ _objc_msgSend$sortUsingSelector:
++ _objc_retain_x1
+- -[RBDevice pipelineDescriptions:extraColorFormats:]
+- -[RBDrawable _RBDrawableStatisticsDidChange]
+- -[RBLayer _RBDrawableStatisticsDidChange]
+- GCC_except_table144
+- GCC_except_table184
+- GCC_except_table74
+- GCC_except_table83
+- GCC_except_table84
+- _OBJC_IVAR_$_RBDrawable._statistics_handler
+- _OBJC_IVAR_$_RBDrawable._statistics_handler_lock
+- _OBJC_IVAR_$_RBLayer._statistics_alpha
+- _OBJC_IVAR_$_RBLayer._statistics_handler
+- _OBJC_IVAR_$_RBLayer._statistics_mask
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS__RBDrawableDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES__RBDrawableDelegate
+- __OBJC_$_PROTOCOL_REFS__RBDrawableDelegate
+- __OBJC_LABEL_PROTOCOL_$__RBDrawableDelegate
+- __OBJC_PROTOCOL_$__RBDrawableDelegate
+- __ZGVZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE18disable_relocation
+- __ZN12_GLOBAL__N_117mtl_texture_identE
+- __ZN2RB10RenderPass9set_labelEP8NSString.cold.1
+- __ZN2RB18SharedSurfaceGroup12prune_cachesEj
+- __ZN2RB18SharedSurfaceGroup19prune_caches_lockedEj
+- __ZN2RB18SharedSurfaceGroup19prune_caches_lockedEj.cold.1
+- __ZN2RB4Path10ClipStroke15LengthEstimatorC1ENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEE
+- __ZN2RB4Path10ClipStroke18AttachmentResolverC1ENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEEmfN2CG5PointE
+- __ZN2RB4Path10ClipStroke9TransformC1ERNS0_8ConsumerEjffNS_7LineCapENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEENS7_IKNS1_16SubpathTransformELm18446744073709551615EEEPNS_6vectorINS1_11RecordedCapELm0EmEE
+- __ZN2RB4Path10ClipStroke9TransformC2ERNS0_8ConsumerEjffNS_7LineCapENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEENS7_IKNS1_16SubpathTransformELm18446744073709551615EEEPNS_6vectorINS1_11RecordedCapELm0EmEE
+- __ZN2RB4Path10JoinStrokeC1EPNS0_8ConsumerEjNS_7LineCapENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEE
+- __ZN2RB4Path10JoinStrokeC2EPNS0_8ConsumerEjNS_7LineCapENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEE
+- __ZN2RB6Device12prune_cachesEv
+- __ZN2RB6Device13sampler_stateENS_12SamplerStateEPKNS_7TextureE
+- __ZN2RB6Device20alloc_shared_textureE14MTLPixelFormatDv2_ijNS_10ColorSpaceENS_7Texture5UsageEb.cold.1
+- __ZN2RB6Symbol12_GLOBAL__N_116mix_shape_strokeERNS0_5Glyph5ShapeES4_S4_fRKNS_15AffineTransformES7_S7_
+- __ZN2RB6Symbol5Glyph5Shape13stroke_lengthEv
+- __ZN2RB7Surface7textureENSt3__18optionalINS_10ColorSpaceEEE
+- __ZN2RB7SurfaceC2EPNS_6DeviceEDv2_i14MTLPixelFormatNS_10ColorSpaceEj
+- __ZN2RB8Drawable12set_delegateEPU30objcproto19_RBDrawableDelegate11objc_object
+- __ZNK2CG9Quadratic5indexEd
+- __ZNK2CG9Quadratic6lengthEi
+- __ZNK2RB11DisplayList8Contents11get_cgimageEDv2_iRNS_6cf_ptrIP7CGImageEE
+- __ZNK2RB4Fill5ImageINS_12ImageTextureEE11get_cgimageEDv2_iRKNS_15AffineTransformERNS_6cf_ptrIP7CGImageEE
+- __ZNK2RB4Fill9ImageData13can_get_imageEDv2_iRKNS_15AffineTransformE
+- __ZNK2RB8Drawable10statisticsEv
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.1
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.2
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.3
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.4
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.5
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.6
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.7
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.8
+- __ZNSt3__113__stable_sortINS_17_ClassicAlgPolicyERZN2RB6Device12prune_cachesEvE3$_4PNS2_20FormattedRenderStateEEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEPNSB_10value_typeEl
+- __ZNSt3__115__inplace_mergeINS_17_ClassicAlgPolicyERZN2RB6Device12prune_cachesEvE3$_4PNS2_20FormattedRenderStateEEEvT1_S8_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeESD_PNSC_10value_typeEl
+- __ZNSt3__118__stable_sort_moveINS_17_ClassicAlgPolicyERZN2RB6Device12prune_cachesEvE3$_4PNS2_20FormattedRenderStateEEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEPNSB_10value_typeE
+- __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEEEEbT1_SA_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEEEEbT1_SA_T0_.cold.1
+- __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEEEEbT1_SA_T0_.cold.2
+- __ZNSt3__17__sort4B8nn200100INS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELi0EEEvT1_SA_SA_SA_T0_
+- __ZZ31+[RBDevice didEnterBackground:]EN3$_58__invokeEPv
+- __ZZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE18disable_relocation
+- __ZZN2RB5TableIPKNS_15TextureCacheKeyEPNS_12TextureCacheEE9remove_ifIZNS_6Device12prune_cachesEvE3$_0EEvRKT_ENUlPKvSE_SE_E_8__invokeESE_SE_SE_
+- __ZZN2RB5TableIPKNS_20FormattedRenderStateEPNS_6Device19RenderPipelineEntryEE9remove_ifIZZNS4_12prune_cachesEvENK3$_1clEvEUlT_PT0_E_EEvRKSA_ENUlPKvSH_SH_E_8__invokeESH_SH_SH_
+- __ZZN2RB5TableIPKNS_20FormattedRenderStateEPNS_6Device19RenderPipelineEntryEE9remove_ifIZZNS4_12prune_cachesEvENK3$_1clEvEUlT_PT0_E_EEvRKSA_ENUlPKvSH_SH_E_8__invokeESH_SH_SH_.cold.1
+- __ZZN2RB5TableIPNS_12CustomShader7LibraryEPNS_15FunctionLibraryEE9remove_ifIZNS_6Device12prune_cachesEvE3$_3EEvRKT_ENUlPKvSE_SE_E_8__invokeESE_SE_SE_
+- __ZZN2RB6Device12prune_cachesEvEN3$_28__invokeEPv
+- ___38-[RBLayer displayWithBounds:callback:]_block_invoke.33
+- ___38-[RBLayer displayWithBounds:callback:]_block_invoke_2.36
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke.48
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke.50
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke.55
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_2.52
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_2.56
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_3.53
+- ____ZN2RB13ImageProvider13render_deviceEv_block_invoke.4
+- ___block_descriptor_104_e8_32r40c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c29_ZTSN2RB8objc_ptrIP7RBLayerEE_e19_"<MTLTexture>"8?0l
+- ___block_descriptor_152_e16_48b64c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c30_ZTSN2RB8objc_ptrIP8RBDeviceEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE104c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE_e5_v8?0l
+- ___block_descriptor_72_e19_"<MTLTexture>"8?0l
+- ___copy_helper_block_e16_64c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c30_ZTSN2RB8objc_ptrIP8RBDeviceEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE104c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE
+- ___copy_helper_block_e16_64c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c30_ZTSN2RB8objc_ptrIP8RBDeviceEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE104c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE.cold.1
+- ___copy_helper_block_e8_40c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c29_ZTSN2RB8objc_ptrIP7RBLayerEE
+- ___destroy_helper_block_e16_64c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c30_ZTSN2RB8objc_ptrIP8RBDeviceEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE104c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE
+- ___destroy_helper_block_e16_64c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c30_ZTSN2RB8objc_ptrIP8RBDeviceEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE104c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE.cold.1
+- ___destroy_helper_block_e8_40c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c29_ZTSN2RB8objc_ptrIP7RBLayerEE
+- _objc_msgSend$_RBDrawableStatisticsDidChange
+- _objc_release_x1
+CStrings:
++ "7.0.83"
++ "@28@0:8@16i24"
++ "RBLayer.shared"
++ "_purgeDevice"
++ "blend_mode"
++ "cgimage-buffer"
++ "cgimage-texture"
++ "clear-texture"
++ "color-convert"
++ "color_format"
++ "compare:"
++ "copied-texture"
++ "coverage_state"
++ "custom_id"
++ "data-buffer"
++ "data-texture"
++ "dest_alpha_only"
++ "distance-lut"
++ "downsample-image"
++ "fill_alpha_only"
++ "fill_state"
++ "gamma-lut"
++ "has_clip_coverage"
++ "has_coverage"
++ "has_fb_read"
++ "has_fn_table"
++ "has_layer"
++ "image-level-texture"
++ "image-texture"
++ "index-buffer"
++ "invalid-texture"
++ "layer_attachment"
++ "linear_color"
++ "nocopy-data-texture"
++ "noise-texture"
++ "packed-filters"
++ "packed-filters.even"
++ "packed-filters.odd"
++ "packed-layer"
++ "pipelineDescriptions:format:"
++ "purgeResources"
++ "root-layer"
++ "shape_alpha_only"
++ "shared-buffer"
++ "shared-surface-copy"
++ "shared-texture"
++ "shared-view"
++ "sortUsingSelector:"
++ "unable to create index buffer"
++ "variable-blur-downsample"
++ "working-color"
+- "7.0.79"
+- "RB: Color conversion"
+- "RB: Image downsampling"
+- "RB: Packed filters"
+- "RB: Packed filters [even]"
+- "RB: Packed filters [odd]"
+- "RB: Packed layer"
+- "RB: Root layer"
+- "RB: Shared surface copy"
+- "RB: Variable blur downsample"
+- "RB: working color space"
+- "_RBDrawableDelegate"
+- "_RBDrawableStatisticsDidChange"
+- "_statistics_alpha"
+- "_statistics_handler"
+- "_statistics_handler_lock"
+- "_statistics_mask"
+- "pipelineDescriptions:extraColorFormats:"
+- "unable to create quad buffer"
+- "{objc_ptr<void (^)(id<RBDrawableStatistics>)>=\"_p\"@?}"
+
+```

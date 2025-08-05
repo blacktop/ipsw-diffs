@@ -1,0 +1,270 @@
+## NewsFeed
+
+> `/System/Library/PrivateFrameworks/NewsFeed.framework/NewsFeed`
+
+```diff
+
+-5728.0.0.0.0
+-  __TEXT.__text: 0x16f2c60
+-  __TEXT.__auth_stubs: 0xed90
++5737.0.0.0.0
++  __TEXT.__text: 0x16f72e8
++  __TEXT.__auth_stubs: 0xeda0
+   __TEXT.__delay_helper: 0x17c
+   __TEXT.__objc_methlist: 0xa8b4
+-  __TEXT.__const: 0x143ae4
+-  __TEXT.__cstring: 0x4cfb2
++  __TEXT.__const: 0x145654
++  __TEXT.__cstring: 0x4d122
+   __TEXT.__oslogstring: 0x6877
+-  __TEXT.__constg_swiftt: 0x36d18
+-  __TEXT.__swift5_typeref: 0x27c02
+-  __TEXT.__swift5_reflstr: 0x36306
+-  __TEXT.__swift5_fieldmd: 0x4c7d8
+-  __TEXT.__swift5_builtin: 0x1c84
+-  __TEXT.__swift5_assocty: 0x8d90
+-  __TEXT.__swift5_proto: 0x1078c
+-  __TEXT.__swift5_types: 0x4c04
++  __TEXT.__constg_swiftt: 0x36db0
++  __TEXT.__swift5_typeref: 0x27c82
++  __TEXT.__swift5_reflstr: 0x36436
++  __TEXT.__swift5_fieldmd: 0x4c998
++  __TEXT.__swift5_builtin: 0x1c98
++  __TEXT.__swift5_assocty: 0x8da8
++  __TEXT.__swift5_proto: 0x107dc
++  __TEXT.__swift5_types: 0x4c14
+   __TEXT.__swift5_protos: 0x5d4
+-  __TEXT.__swift5_capture: 0x3135c
+-  __TEXT.__swift5_mpenum: 0x1440
+-  __TEXT.__swift_as_entry: 0x9a8
+-  __TEXT.__swift_as_ret: 0xab8
+-  __TEXT.__unwind_info: 0x4bb70
+-  __TEXT.__eh_frame: 0x85e90
++  __TEXT.__swift5_capture: 0x313a0
++  __TEXT.__swift5_mpenum: 0x1448
++  __TEXT.__swift_as_entry: 0x9b0
++  __TEXT.__swift_as_ret: 0xac0
++  __TEXT.__unwind_info: 0x4bc58
++  __TEXT.__eh_frame: 0x86248
+   __TEXT.__objc_classname: 0xbbc
+-  __TEXT.__objc_methname: 0x19e65
++  __TEXT.__objc_methname: 0x19e2a
+   __TEXT.__objc_methtype: 0x4f3d
+   __TEXT.__objc_stubs: 0xec0
+-  __DATA_CONST.__got: 0x4ad8
++  __DATA_CONST.__got: 0x4ae0
+   __DATA_CONST.__const: 0x4108
+   __DATA_CONST.__objc_classlist: 0x1bd8
+   __DATA_CONST.__objc_catlist: 0x48
+   __DATA_CONST.__objc_catlist2: 0x18
+   __DATA_CONST.__objc_protolist: 0x7b8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x7358
++  __DATA_CONST.__objc_selrefs: 0x7350
+   __DATA_CONST.__objc_protorefs: 0x408
+   __DATA_CONST.__objc_superrefs: 0x40
+-  __AUTH_CONST.__auth_got: 0x76d0
+-  __AUTH_CONST.__const: 0x1010e0
++  __AUTH_CONST.__auth_got: 0x76d8
++  __AUTH_CONST.__const: 0x107000
+   __AUTH_CONST.__cfstring: 0xa0
+-  __AUTH_CONST.__objc_const: 0x47e68
+-  __AUTH.__objc_data: 0xb330
+-  __AUTH.__data: 0xfbc0
++  __AUTH_CONST.__objc_const: 0x47e88
++  __AUTH.__objc_data: 0xb118
++  __AUTH.__data: 0xf0b0
+   __DATA.__objc_ivar: 0x4c
+-  __DATA.__data: 0x20420
++  __DATA.__data: 0x1fe10
+   __DATA.__objc_stublist: 0x58
+-  __DATA.__bss: 0x120a08
+-  __DATA.__common: 0x970
+-  __DATA_DIRTY.__objc_data: 0x49c0
+-  __DATA_DIRTY.__data: 0x42be0
+-  __DATA_DIRTY.__bss: 0xb2680
+-  __DATA_DIRTY.__common: 0xa98
++  __DATA.__bss: 0x11ef88
++  __DATA.__common: 0x8e0
++  __DATA_DIRTY.__objc_data: 0x4bd8
++  __DATA_DIRTY.__data: 0x43ec8
++  __DATA_DIRTY.__bss: 0xb4980
++  __DATA_DIRTY.__common: 0xb28
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AVKit.framework/AVKit
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 15F38C81-C696-392B-A611-FFC4C3297346
+-  Functions: 109163
+-  Symbols:   26489
+-  CStrings:  13627
++  UUID: E9F0B9F9-7E09-37C6-9DD7-E8DC357EECD7
++  Functions: 109282
++  Symbols:   26496
++  CStrings:  13640
+ 
+Symbols:
++ ___swift_memcpy4_4
++ ___unnamed_13
++ _associated conformance 8NewsFeed015FormatWorkspaceB14DescriptorKindO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLOSHAASQ
++ _associated conformance 8NewsFeed015FormatWorkspaceB14DescriptorKindOSHAASQ
++ _associated conformance 8NewsFeed0B12ServiceStateC03GapD0Oyx_GSHAASQ
++ _block_copy_helper.106
++ _block_copy_helper.109
++ _block_copy_helper.141
++ _block_copy_helper.148
++ _block_copy_helper.150
++ _block_copy_helper.158
++ _block_copy_helper.168
++ _block_copy_helper.178
++ _block_copy_helper.193
++ _block_copy_helper.236
++ _block_copy_helper.76
++ _block_descriptor.108
++ _block_descriptor.111
++ _block_descriptor.143
++ _block_descriptor.150
++ _block_descriptor.152
++ _block_descriptor.160
++ _block_descriptor.170
++ _block_descriptor.180
++ _block_descriptor.195
++ _block_descriptor.238
++ _block_descriptor.78
++ _block_destroy_helper.107
++ _block_destroy_helper.110
++ _block_destroy_helper.142
++ _block_destroy_helper.149
++ _block_destroy_helper.151
++ _block_destroy_helper.159
++ _block_destroy_helper.169
++ _block_destroy_helper.179
++ _block_destroy_helper.194
++ _block_destroy_helper.237
++ _block_destroy_helper.77
++ _flat unique So18FCSectionProviding_p
++ _get_enum_tag_for_layout_string 8NewsFeed011DebugFormatB14ViewDescriptorO
++ _get_enum_tag_for_layout_string 8NewsFeed011DebugFormatB14ViewDescriptorOSg
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOQr.2085
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOqd0__AaBHC.2086
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOyAA6HStackVyAA05TupleE0VyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_AA6VStackVyALyAA4TextV_AYSgAZtGGtGG_Qo_AA033_ContainerRoundedRectangularShapeQ0VyAA9RectangleVGGAaDHPqd__AaDHD2_A3_HO_A8_AA0eQ0HPyHCHC.8
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA012_ConditionalD0Vy8NewsFeed011DebugFormatH4ViewVAJGGAA13_TaskModifierVGAA0K0HPAlaPHPyHC_AnA0kM0HPyHCHC.38
++ _get_witness_table 7SwiftUI19_ConditionalContentVy8NewsFeed31DebugFormatInspectorPopoverViewVyAA08ModifiedD0VyAHyAA6HStackVyAA05TupleK0VyACyACyAHyAHyAA5ImageVAA11_ClipEffectVyAA16RoundedRectangleVGGAA16_OverlayModifierVyAA011StrokeShapeK0VyArA012HierarchicalW5StyleVAA05EmptyK0VGGGAHyAnA022_EnvironmentKeyWritingU0VyAA5ColorVSgGGGAA08ProgressK0VyA0_A0_GG_AA6VStackVyALyAA4TextV_AHyA19_A5_ySiSgGGtGGAA6SpacerVtGGAA01_dwU0VyAA0S0VGGAA010_TaskValueU0VyAD0h9WorkspaceF0VGGGA40_GAA0K0HPA41_AAA43_HPyHC_A40_AAA43_HPA34_AAA43_HPA28_AAA43_HPyHC_A33_AA0kU0HPyHCHC_A39_AAA44_HPyHCHCHC.27
++ _get_witness_table 7SwiftUI9TupleViewVyAA6ButtonVy8NewsFeed039DebugFormatInventoryTreeWorkspaceHeaderD033_214DF46B78DAF5313C7B1FD133CD0D78LLVG_AA19_ConditionalContentVyACyAF0higD0V_ANSgAA7ForEachVySayAF0G8ItemType_pGSSAF0higzD0VGAA08ModifiedW0VyAXyAXyAQySayAF0hi7PackageJ0CGSSAA0D0PAAE12onTapGesture5count7performQrSi_yyctFQOyAF0hi7PackageD0V_Qo_GAA21_TraitWritingModifierVyAA14OnMoveTraitKeyVGGA10_yAA16OnDeleteTraitKeyVGGA10_yAA21ListRowInsetsTraitKeyVGGAXyAXyAXyAQySayAF0hi6EditorL5GroupVGSSAXyA7_A10_yAA25ListRowBackgroundTraitKeyVGGGA13_GA17_GA21_GA1_AAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA6SpacerV_Qo_tGAA4TextVSgGtGAAA0_HPyHC.65
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE21scrollEdgeEffectStyle_3forQrAA06ScrollefG0VSg_AA0E0O3SetVtFQOyAcAEAD_AEQrAH_ALtFQOyAcAE16listRowSeparator_5edgesQrAA10VisibilityO_AA08VerticalE0OAKVtFQOyAA15ModifiedContentVyAUyAA15DisclosureGroupVy8NewsFeed024DebugFormatWorkspaceTreey6HeaderC0VAA05TupleC0VyAUyAUyAUyAUyAX0wxv5AsyncC0VAA21_TraitWritingModifierVyAA04ListL14InsetsTraitKeyVGGA4_yAA24IsDeleteDisabledTraitKeyVGGA4_yAA22IsMoveDisabledTraitKeyVGGA4_yAA04ListL18BackgroundTraitKeyVGG_A20_SgAUyAUyAUyAUyAA7ForEachVySaySi6offset_AX0V8ItemType_pSgyYaKc7elementtGSiAX0wxv9ItemAsyncC0VGA7_GA11_GA15_GA19_GAUyAUyAUyAUyAUyAUyA23_ySayAX0wX16PackageInventoryCGSSAX0wx7PackageC0VGA4_yAA16OnDeleteTraitKeyVGGA4_yAA14OnMoveTraitKeyVGGA11_GA15_GA7_GA19_GAUyAUyAUyAUyAUyAUyA23_ySayAX0wxyT0VGSSA40_GA44_GA48_GA11_GA15_GA7_GA19_GtGGA7_GA19_G_Qo__Qo__Qo_HO.107
++ _objectdestroy.508Tm
++ _objectdestroy.541Tm
++ _objectdestroy.590Tm
++ _objectdestroy.623Tm
++ _objectdestroy.74Tm
++ _objectdestroy.83Tm
++ _objectdestroy.86Tm
++ _symbolic ScTy_____Sg______pG 8NewsFeed011DebugFormatB14ViewDescriptorO s5ErrorP
++ _symbolic _____ 8NewsFeed011DebugFormatB14ViewDescriptorO
++ _symbolic _____ 8NewsFeed015FormatWorkspaceB14DescriptorKindO
++ _symbolic _____ 8NewsFeed015FormatWorkspaceB14DescriptorKindO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____ 8NewsFeed0B12ServiceStateC03GapD0O
++ _symbolic _____Sg 8NewsFeed011DebugFormatB14ViewDescriptorO
++ _symbolic _____Sg 8NewsFeed015FormatWorkspaceB14DescriptorKindO
++ _symbolic _____Sg______pIegHrzo_ 8NewsFeed011DebugFormatB14ViewDescriptorO s5ErrorP
++ _symbolic ____________p7sectiont 8NewsFeed0B10DescriptorV So18FCSectionProvidingP
++ _symbolic ___________t 8NewsFeed0B18BannerAdViewLayoutV7ContextV 0A3Ads0cdeF10AttributesV
++ _symbolic _____y_____SgG 7SwiftUI5StateV 8NewsFeed011DebugFormatE14ViewDescriptorO
++ _symbolic _____y_____y_____G______yAAy______AFSg_____ySay______pGSS_____G_____yAMyAMyAHySay_____GSS_____y______Qo_G_____y_____GGASy_____GGASy_____GGAMyAMyAMyAHySay_____GSSAMyAqSy_____GGGAUGAXGA_G_____y______Qo_tG_____SgGtG 7SwiftUI9TupleViewV AA6ButtonV 8NewsFeed039DebugFormatInventoryTreeWorkspaceHeaderD033_214DF46B78DAF5313C7B1FD133CD0D78LLV AA19_ConditionalContentV AF0higD0V AA7ForEachV AF0G8ItemTypeP AF0higzD0V AA08ModifiedW0V AF0hi7PackageJ0C AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO AF0hi7PackageD0V AA21_TraitWritingModifierV AA14OnMoveTraitKeyV AA16OnDeleteTraitKeyV AA21ListRowInsetsTraitKeyV AF0hi6EditorL5GroupV AA25ListRowBackgroundTraitKeyV AyAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA6SpacerV AA4TextV
++ _symbolic _____y_____y_____y_____yAAy__________y_____SgGG______yACy______AKSgALtGGtGG_Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA6HStackV AA05TupleE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA6VStackV AA4TextV AA033_ContainerRoundedRectangularShapeQ0V AA9RectangleV
++ _symbolic _____y_____y_____y_____yAAy_____y__________yAAyAAyAAyAAy__________y_____GGAFy_____GGAFy_____GGAFy_____GG_ARSgAAyAAyAAyAAy_____ySaySi6offset_______pSgyYaKc7elementtGSi_____GAHGAKGANGAQGAAyAAyAAyAAyAAyAAyATySay_____GSS_____GAFy_____GGAFy_____GGAKGANGAHGAQGAAyAAyAAyAAyAAyAAyATySay_____GSSA6_GA9_GA12_GAKGANGAHGAQGtGGAHGAQG_Qo__Qo__Qo_ 7SwiftUI4ViewPAAE21scrollEdgeEffectStyle_3forQrAA06ScrollefG0VSg_AA0E0O3SetVtFQO AcAEAD_AEQrAH_ALtFQO AcAE16listRowSeparator_5edgesQrAA10VisibilityO_AA08VerticalE0OAKVtFQO AA15ModifiedContentV AA15DisclosureGroupV 8NewsFeed024DebugFormatWorkspaceTreey6HeaderC0V AA05TupleC0V AX0wxv5AsyncC0V AA21_TraitWritingModifierV AA04ListL14InsetsTraitKeyV AA24IsDeleteDisabledTraitKeyV AA22IsMoveDisabledTraitKeyV AA04ListL18BackgroundTraitKeyV AA7ForEachV AX0V8ItemTypeP AX0wxv9ItemAsyncC0V AX0wX16PackageInventoryC AX0wx7PackageC0V AA16OnDeleteTraitKeyV AA14OnMoveTraitKeyV AX0wxyT0V
++ _symbolic _____y_____yx_GG 13TeaFoundation15AsyncObservableC 8NewsFeed0F12ServiceStateC03GapH0O
++ _type_layout_string 8NewsFeed011DebugFormatB14ViewDescriptorO
+- _block_copy_helper.102
+- _block_copy_helper.105
+- _block_copy_helper.137
+- _block_copy_helper.144
+- _block_copy_helper.145
+- _block_copy_helper.153
+- _block_copy_helper.164
+- _block_copy_helper.174
+- _block_copy_helper.185
+- _block_copy_helper.209
+- _block_copy_helper.232
+- _block_copy_helper.241
+- _block_copy_helper.72
+- _block_descriptor.104
+- _block_descriptor.107
+- _block_descriptor.139
+- _block_descriptor.146
+- _block_descriptor.147
+- _block_descriptor.155
+- _block_descriptor.166
+- _block_descriptor.176
+- _block_descriptor.187
+- _block_descriptor.211
+- _block_descriptor.234
+- _block_descriptor.243
+- _block_descriptor.74
+- _block_destroy_helper.103
+- _block_destroy_helper.106
+- _block_destroy_helper.138
+- _block_destroy_helper.145
+- _block_destroy_helper.146
+- _block_destroy_helper.154
+- _block_destroy_helper.165
+- _block_destroy_helper.175
+- _block_destroy_helper.186
+- _block_destroy_helper.210
+- _block_destroy_helper.233
+- _block_destroy_helper.242
+- _block_destroy_helper.73
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOQr.2086
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOqd0__AaBHC.2087
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOyAA6HStackVyAA05TupleE0VyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_AA6VStackVyALyAA4TextV_AYSgAZtGGtGG_Qo_AA015_ContainerShapeQ0VyAA9RectangleVGGAaDHPqd__AaDHD2_A3_HO_A8_AA0eQ0HPyHCHC.8
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA012_ConditionalD0Vy8NewsFeed011DebugFormatH4ViewVAJGGAA13_TaskModifierVGAA0K0HPAlaPHPyHC_AnA0kM0HPyHCHC.32
+- _get_witness_table 7SwiftUI19_ConditionalContentVy8NewsFeed31DebugFormatInspectorPopoverViewVyAA08ModifiedD0VyAHyAA6HStackVyAA05TupleK0VyACyACyAHyAHyAA5ImageVAA11_ClipEffectVyAA16RoundedRectangleVGGAA16_OverlayModifierVyAA011StrokeShapeK0VyArA012HierarchicalW5StyleVAA05EmptyK0VGGGAHyAnA022_EnvironmentKeyWritingU0VyAA5ColorVSgGGGAA08ProgressK0VyA0_A0_GG_AA6VStackVyALyAA4TextV_AHyA19_A5_ySiSgGGtGGAA6SpacerVtGGAA01_dwU0VyAA0S0VGGAA010_TaskValueU0VyAD0h9WorkspaceF0VGGGA40_GAA0K0HPA41_AAA43_HPyHC_A40_AAA43_HPA34_AAA43_HPA28_AAA43_HPyHC_A33_AA0kU0HPyHCHC_A39_AAA44_HPyHCHCHC.22
+- _get_witness_table 7SwiftUI9TupleViewVyAA6ButtonVy8NewsFeed039DebugFormatInventoryTreeWorkspaceHeaderD033_214DF46B78DAF5313C7B1FD133CD0D78LLVG_AA19_ConditionalContentVyACyAF0higD0V_AA7ForEachVySayAF0G8ItemType_pGSSAF0higzD0VGAA08ModifiedW0VyAWyAWyAPySayAF0hi7PackageJ0CGSSAA0D0PAAE12onTapGesture5count7performQrSi_yyctFQOyAF0hi7PackageD0V_Qo_GAA21_TraitWritingModifierVyAA14OnMoveTraitKeyVGGA9_yAA16OnDeleteTraitKeyVGGA9_yAA21ListRowInsetsTraitKeyVGGAWyAWyAWyAPySayAF0hi6EditorL5GroupVGSSAWyA6_A9_yAA25ListRowBackgroundTraitKeyVGGGA12_GA16_GA20_GA0_AAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA6SpacerV_Qo_tGAA4TextVSgGtGAAA_HPyHC.65
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE21scrollEdgeEffectStyle_3forQrAA06ScrollefG0VSg_AA0E0O3SetVtFQOyAcAEAD_AEQrAH_ALtFQOyAcAE16listRowSeparator_5edgesQrAA10VisibilityO_AA08VerticalE0OAKVtFQOyAA15ModifiedContentVyAUyAA15DisclosureGroupVy8NewsFeed024DebugFormatWorkspaceTreey6HeaderC0VAA05TupleC0VyAUyAUyAUyAUyAX0wxv5AsyncC0VAA21_TraitWritingModifierVyAA04ListL14InsetsTraitKeyVGGA4_yAA24IsDeleteDisabledTraitKeyVGGA4_yAA22IsMoveDisabledTraitKeyVGGA4_yAA04ListL18BackgroundTraitKeyVGG_AUyAUyAUyAUyAA7ForEachVySaySi6offset_AX0V8ItemType_pSgyYaKc7elementtGSiAX0wxv9ItemAsyncC0VGA7_GA11_GA15_GA19_GAUyAUyAUyAUyAUyAUyA22_ySayAX0wX16PackageInventoryCGSSAX0wx7PackageC0VGA4_yAA16OnDeleteTraitKeyVGGA4_yAA14OnMoveTraitKeyVGGA11_GA15_GA7_GA19_GAUyAUyAUyAUyAUyAUyA22_ySayAX0wxyT0VGSSA39_GA43_GA47_GA11_GA15_GA7_GA19_GtGGA7_GA19_G_Qo__Qo__Qo_HO.98
+- _objectdestroy.117Tm
+- _objectdestroy.505Tm
+- _objectdestroy.538Tm
+- _objectdestroy.583Tm
+- _objectdestroy.609Tm
+- _objectdestroy.65Tm
+- _objectdestroy.85Tm
+- _symbolic ScTy_____Sg______pG 8NewsFeed0B10DescriptorV s5ErrorP
+- _symbolic _____Sg 8NewsFeed0B10DescriptorV
+- _symbolic _____Sg______pIegHrzo_ 8NewsFeed0B10DescriptorV s5ErrorP
+- _symbolic ___________t 8NewsFeed0B18BannerAdViewLayoutV7ContextV AC10AttributesV
+- _symbolic _____ySbG 13TeaFoundation15AsyncObservableC
+- _symbolic _____y_____SgG 7SwiftUI5StateV 8NewsFeed0E10DescriptorV
+- _symbolic _____y_____y_____G______yAAy___________ySay______pGSS_____G_____yALyALyAGySay_____GSS_____y______Qo_G_____y_____GGARy_____GGARy_____GGALyALyALyAGySay_____GSSALyApRy_____GGGATGAWGAZG_____y______Qo_tG_____SgGtG 7SwiftUI9TupleViewV AA6ButtonV 8NewsFeed039DebugFormatInventoryTreeWorkspaceHeaderD033_214DF46B78DAF5313C7B1FD133CD0D78LLV AA19_ConditionalContentV AF0higD0V AA7ForEachV AF0G8ItemTypeP AF0higzD0V AA08ModifiedW0V AF0hi7PackageJ0C AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO AF0hi7PackageD0V AA21_TraitWritingModifierV AA14OnMoveTraitKeyV AA16OnDeleteTraitKeyV AA21ListRowInsetsTraitKeyV AF0hi6EditorL5GroupV AA25ListRowBackgroundTraitKeyV AyAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA6SpacerV AA4TextV
+- _symbolic _____y_____y_____y_____yAAy__________y_____SgGG______yACy______AKSgALtGGtGG_Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA6HStackV AA05TupleE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA6VStackV AA4TextV AA015_ContainerShapeQ0V AA9RectangleV
+- _symbolic _____y_____y_____y_____yAAy_____y__________yAAyAAyAAyAAy__________y_____GGAFy_____GGAFy_____GGAFy_____GG_AAyAAyAAyAAy_____ySaySi6offset_______pSgyYaKc7elementtGSi_____GAHGAKGANGAQGAAyAAyAAyAAyAAyAAyASySay_____GSS_____GAFy_____GGAFy_____GGAKGANGAHGAQGAAyAAyAAyAAyAAyAAyASySay_____GSSA5_GA8_GA11_GAKGANGAHGAQGtGGAHGAQG_Qo__Qo__Qo_ 7SwiftUI4ViewPAAE21scrollEdgeEffectStyle_3forQrAA06ScrollefG0VSg_AA0E0O3SetVtFQO AcAEAD_AEQrAH_ALtFQO AcAE16listRowSeparator_5edgesQrAA10VisibilityO_AA08VerticalE0OAKVtFQO AA15ModifiedContentV AA15DisclosureGroupV 8NewsFeed024DebugFormatWorkspaceTreey6HeaderC0V AA05TupleC0V AX0wxv5AsyncC0V AA21_TraitWritingModifierV AA04ListL14InsetsTraitKeyV AA24IsDeleteDisabledTraitKeyV AA22IsMoveDisabledTraitKeyV AA04ListL18BackgroundTraitKeyV AA7ForEachV AX0V8ItemTypeP AX0wxv9ItemAsyncC0V AX0wX16PackageInventoryC AX0wx7PackageC0V AA16OnDeleteTraitKeyV AA14OnMoveTraitKeyV AX0wxyT0V
+CStrings:
++ "?"
++ "@"
++ "@\"<WKURLSchemeTask>\""
++ "@\"FCHeadlineThumbnailMetadata\""
++ "B"
++ "Emit Task [%{public}@] is starting to emit from %{public}@ emitter, identifier=%{public}@, settings=%{public}@"
++ "Not a Feed Section"
++ "Q"
++ "Skipped (AIGC Max Limit)"
++ "Skipped (Duplicate Thumbnail)"
++ "feed-has-feed-section"
++ "feed-section-is-default"
++ "feedSection"
++ "gapState"
++ "isDeferredUntilOnscreen=true"
++ "onscreenDiscardTimeout="
++ "q"
++ "setSubtitleTextAttributes:"
++ "setWidth:"
+- "@\"NSArray\"8@?0"
+- "Emit Task [%{public}@] is starting to emit from %{public}@ emitter, identifier=%{public}@"
+- "gapOnScreen"
+- "setAccessibilityCustomActionsBlock:"
+- "setAccessibilityElementsBlock:"
+- "setLargeTitleTextAttributes:"
+
+```
