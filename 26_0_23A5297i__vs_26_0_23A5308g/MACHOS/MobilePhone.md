@@ -1,0 +1,538 @@
+## MobilePhone
+
+> `/Applications/MobilePhone.app/MobilePhone`
+
+```diff
+
+-3021.100.15.1.5
+-  __TEXT.__text: 0x1ca218
+-  __TEXT.__auth_stubs: 0x4750
+-  __TEXT.__objc_stubs: 0x195e0
+-  __TEXT.__objc_methlist: 0x10538
+-  __TEXT.__const: 0x6b0c
+-  __TEXT.__objc_methname: 0x2b532
+-  __TEXT.__cstring: 0xc78a
+-  __TEXT.__oslogstring: 0xa676
+-  __TEXT.__objc_classname: 0x18bf
++3024.100.7.0.0
++  __TEXT.__text: 0x1cd820
++  __TEXT.__auth_stubs: 0x4840
++  __TEXT.__objc_stubs: 0x19700
++  __TEXT.__objc_methlist: 0x10608
++  __TEXT.__const: 0x6b4c
++  __TEXT.__objc_methname: 0x2b7d9
++  __TEXT.__cstring: 0xc9ca
++  __TEXT.__oslogstring: 0xa7f6
++  __TEXT.__objc_classname: 0x18c1
+   __TEXT.__objc_methtype: 0x6aa8
+-  __TEXT.__gcc_except_tab: 0xc90
++  __TEXT.__gcc_except_tab: 0xc9c
+   __TEXT.__dlopen_cstrs: 0x5e
+   __TEXT.__ustring: 0x10
+-  __TEXT.__swift5_typeref: 0x64a8
+-  __TEXT.__swift5_capture: 0x25d8
+-  __TEXT.__constg_swiftt: 0x32e8
++  __TEXT.__swift5_typeref: 0x6554
++  __TEXT.__swift5_capture: 0x2648
++  __TEXT.__constg_swiftt: 0x3360
+   __TEXT.__swift5_builtin: 0x208
+-  __TEXT.__swift5_reflstr: 0x29c2
+-  __TEXT.__swift5_fieldmd: 0x24b0
++  __TEXT.__swift5_reflstr: 0x2a62
++  __TEXT.__swift5_fieldmd: 0x2514
+   __TEXT.__swift5_assocty: 0x640
+   __TEXT.__swift5_proto: 0x31c
+-  __TEXT.__swift5_types: 0x2b4
++  __TEXT.__swift5_types: 0x2b8
+   __TEXT.__swift5_mpenum: 0x40
+-  __TEXT.__swift_as_entry: 0x34c
++  __TEXT.__swift_as_entry: 0x350
+   __TEXT.__swift_as_ret: 0x350
+   __TEXT.__swift5_protos: 0x40
+-  __TEXT.__unwind_info: 0x7b40
+-  __TEXT.__eh_frame: 0x8e94
+-  __DATA_CONST.__auth_got: 0x23b8
+-  __DATA_CONST.__got: 0x17f0
+-  __DATA_CONST.__auth_ptr: 0x12c8
+-  __DATA_CONST.__const: 0xa108
+-  __DATA_CONST.__cfstring: 0x4f40
+-  __DATA_CONST.__objc_classlist: 0x698
++  __TEXT.__unwind_info: 0x7c18
++  __TEXT.__eh_frame: 0x8ef4
++  __DATA_CONST.__auth_got: 0x2430
++  __DATA_CONST.__got: 0x1830
++  __DATA_CONST.__auth_ptr: 0x1308
++  __DATA_CONST.__const: 0xa1e8
++  __DATA_CONST.__cfstring: 0x4fe0
++  __DATA_CONST.__objc_classlist: 0x6a8
+   __DATA_CONST.__objc_catlist: 0xb8
+   __DATA_CONST.__objc_catlist2: 0x8
+-  __DATA_CONST.__objc_protolist: 0x4a0
++  __DATA_CONST.__objc_protolist: 0x498
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x1c0
++  __DATA_CONST.__objc_protorefs: 0x1b8
+   __DATA_CONST.__objc_superrefs: 0x370
+   __DATA_CONST.__objc_intobj: 0x168
+   __DATA_CONST.__objc_arraydata: 0x60
+   __DATA_CONST.__objc_arrayobj: 0xa8
+   __DATA_CONST.__objc_dictobj: 0x28
+-  __DATA.__objc_const: 0x18fd8
+-  __DATA.__objc_selrefs: 0x9308
+-  __DATA.__objc_ivar: 0xc00
+-  __DATA.__objc_data: 0x68c8
+-  __DATA.__data: 0x7200
++  __DATA.__objc_const: 0x191c0
++  __DATA.__objc_selrefs: 0x9380
++  __DATA.__objc_ivar: 0xc0c
++  __DATA.__objc_data: 0x6aa0
++  __DATA.__data: 0x72f8
+   __DATA.__objc_stublist: 0x8
+   __DATA.__bss: 0x5c48
+   __DATA.__common: 0x8d0
+
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
++  - /usr/lib/swift/libswiftCoreAudio_Private.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 72481B59-B8F2-31CA-82E6-98FE25F322F7
+-  Functions: 11047
+-  Symbols:   75930
+-  CStrings:  10055
++  UUID: DE970178-D9A1-3AFC-9695-48BC5675A8C6
++  Functions: 11116
++  Symbols:   76389
++  CStrings:  10110
+ 
+Symbols:
++ $s11MobilePhone0B21RecentsViewControllerC15numberFormatterSo08NSNumberG0CvM.resume.0
++ $s11MobilePhone0B24VoicemailBadgeControllerC09voicemailE0So011MPVoicemailE0CyyXlGSgvM.resume.0
++ $s11MobilePhone0B24VoicemailBadgeControllerC9listenersyXlSgvM.resume.0
++ $s11MobilePhone22ClarityUISceneDelegateC9rootSceneQrvgZAC23assistiveAccessRootView33_001DBC0BEC4104ED794DAD8E6954EC07LLQrvpZQOy_Qo_yXEfU_TA.3
++ +[PHVoicemailNavigationController _invalidateBadge]
++ -[MobilePhoneApplication isOpenedFromReceptionistOnboardingNotification]
++ -[MobilePhoneApplication setIsOpenedFromReceptionistOnboardingNotification:]
++ -[MobilePhoneApplication shouldShowReceptionistOnboarding]
++ -[MobilePhoneApplication userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:]
++ -[PhoneApplication shouldShowReceptionistOnboarding]
++ -[PhoneTabBarController applicationWillSuspend]
++ -[PhoneTabBarController dismissScreenUnknownCallers:]
++ -[PhoneTabBarController enableScreenUnknownCallers:]
++ -[PhoneTabBarController handleUIApplicationWillEnterForegroundNotification:]
++ -[PhoneTabBarController isAllowedToSwitchToSearch]
++ -[PhoneTabBarController setIsAllowedToSwitchToSearch:]
++ -[PhoneTabBarController showReceptionistOnboarding]
++ /Library/Caches/com.apple.xbs/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/PhoneVoicemailBadgeController.o
++ GCC_except_table39
++ GCC_except_table44
++ GCC_except_table68
++ OBJC_IVAR_$_MobilePhoneApplication._isOpenedFromReceptionistOnboardingNotification
++ OBJC_IVAR_$_PhoneApplication._shouldShowReceptionistOnboarding
++ OBJC_IVAR_$_PhoneTabBarController._isAllowedToSwitchToSearch
++ PhoneVoicemailBadgeController.swift
++ _$s10CallsAppUI21RecentsViewControllerC25hasLegacyUnreadVoicemailsSbvs
++ _$s10Foundation12NotificationVSgWOc
++ _$s11MobilePhone0B21RecentsViewControllerC014voicemailBadgeE0AA0b9VoicemailgE0Cvg
++ _$s11MobilePhone0B21RecentsViewControllerC014voicemailBadgeE0AA0b9VoicemailgE0CvpMV
++ _$s11MobilePhone0B21RecentsViewControllerC014voicemailBadgeE0AA0b9VoicemailgE0CvpWvd
++ _$s11MobilePhone0B21RecentsViewControllerC014voicemailBadgeE0AA0b9VoicemailgE0Cvpfi
++ _$s11MobilePhone0B21RecentsViewControllerC016searchNavigationE0So0bgE0CvgTm
++ _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFyAA14VoicemailBadgeCcfU1_TA
++ _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFySicfU0_TA
++ _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFyyScMYccfU2_
++ _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFyyScMYccfU2_TA
++ _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFyycfU_
++ _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFyycfU_TA
++ _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFyycfU_TATm
++ _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFyycfU_yyYbScMYccfU_
++ _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFyycfU_yyYbScMYccfU_TA
++ _$s11MobilePhone0B21RecentsViewControllerC15numberFormatterSo08NSNumberG0CvM
++ _$s11MobilePhone0B21RecentsViewControllerC15numberFormatterSo08NSNumberG0Cvg
++ _$s11MobilePhone0B21RecentsViewControllerC15numberFormatterSo08NSNumberG0CvpMV
++ _$s11MobilePhone0B21RecentsViewControllerC15numberFormatterSo08NSNumberG0Cvs
++ _$s11MobilePhone0B21RecentsViewControllerC22updateTabBarBadgeCount33_44E950A0B3802FBB9FA72574D95EE3A8LL2to5knownySi_SbtF
++ _$s11MobilePhone0B21RecentsViewControllerC24unreadVoicemailBadgeSink33_44E950A0B3802FBB9FA72574D95EE3A8LL7Combine14AnyCancellableCSgvpWvd
++ _$s11MobilePhone0B21RecentsViewControllerC24unreadVoicemailBadgeSink33_44E950A0B3802FBB9FA72574D95EE3A8LL7Combine14AnyCancellableCSgvpfi
++ _$s11MobilePhone0B21RecentsViewControllerC33$__lazy_storage_$_numberFormatter33_44E950A0B3802FBB9FA72574D95EE3A8LLSo08NSNumberI0CSgvpWvd
++ _$s11MobilePhone0B21RecentsViewControllerC33$__lazy_storage_$_numberFormatter33_44E950A0B3802FBB9FA72574D95EE3A8LLSo08NSNumberI0CSgvpfi
++ _$s11MobilePhone0B24VoicemailBadgeControllerC06unreadC14CountPublisher7Combine03AnyH0VyAA0cD0Cs5NeverOGvg
++ _$s11MobilePhone0B24VoicemailBadgeControllerC06unreadC14CountPublisher7Combine03AnyH0VyAA0cD0Cs5NeverOGvgTq
++ _$s11MobilePhone0B24VoicemailBadgeControllerC06unreadC14CountPublisher7Combine03AnyH0VyAA0cD0Cs5NeverOGvpMV
++ _$s11MobilePhone0B24VoicemailBadgeControllerC06unreadC5Count7Combine19CurrentValueSubjectCyAA0cD0Cs5NeverOGvg
++ _$s11MobilePhone0B24VoicemailBadgeControllerC06unreadC5Count7Combine19CurrentValueSubjectCyAA0cD0Cs5NeverOGvpMV
++ _$s11MobilePhone0B24VoicemailBadgeControllerC06unreadC5Count7Combine19CurrentValueSubjectCyAA0cD0Cs5NeverOGvpWvd
++ _$s11MobilePhone0B24VoicemailBadgeControllerC06unreadC5Count7Combine19CurrentValueSubjectCyAA0cD0Cs5NeverOGvpfi
++ _$s11MobilePhone0B24VoicemailBadgeControllerC09voicemailE0So011MPVoicemailE0CyyXlGSgvM
++ _$s11MobilePhone0B24VoicemailBadgeControllerC09voicemailE0So011MPVoicemailE0CyyXlGSgvMTq
++ _$s11MobilePhone0B24VoicemailBadgeControllerC09voicemailE0So011MPVoicemailE0CyyXlGSgvg
++ _$s11MobilePhone0B24VoicemailBadgeControllerC09voicemailE0So011MPVoicemailE0CyyXlGSgvgTq
++ _$s11MobilePhone0B24VoicemailBadgeControllerC09voicemailE0So011MPVoicemailE0CyyXlGSgvpMV
++ _$s11MobilePhone0B24VoicemailBadgeControllerC09voicemailE0So011MPVoicemailE0CyyXlGSgvpWvd
++ _$s11MobilePhone0B24VoicemailBadgeControllerC09voicemailE0So011MPVoicemailE0CyyXlGSgvpfi
++ _$s11MobilePhone0B24VoicemailBadgeControllerC09voicemailE0So011MPVoicemailE0CyyXlGSgvs
++ _$s11MobilePhone0B24VoicemailBadgeControllerC09voicemailE0So011MPVoicemailE0CyyXlGSgvsTq
++ _$s11MobilePhone0B24VoicemailBadgeControllerC10sendUpdate33_7319D8C597758273677548356ECD2C0ALLyyF
++ _$s11MobilePhone0B24VoicemailBadgeControllerC14setupListeners33_7319D8C597758273677548356ECD2C0ALLyyF
++ _$s11MobilePhone0B24VoicemailBadgeControllerC14setupListeners33_7319D8C597758273677548356ECD2C0ALLyyFyAA0C20AccountManagerUpdateC_10Foundation4UUIDVSgtcfU0_
++ _$s11MobilePhone0B24VoicemailBadgeControllerC14setupListeners33_7319D8C597758273677548356ECD2C0ALLyyFyAA0C20AccountManagerUpdateC_10Foundation4UUIDVSgtcfU0_TA
++ _$s11MobilePhone0B24VoicemailBadgeControllerC14setupListeners33_7319D8C597758273677548356ECD2C0ALLyyFyyYacfU_
++ _$s11MobilePhone0B24VoicemailBadgeControllerC14setupListeners33_7319D8C597758273677548356ECD2C0ALLyyFyyYacfU_TA
++ _$s11MobilePhone0B24VoicemailBadgeControllerC14setupListeners33_7319D8C597758273677548356ECD2C0ALLyyFyyYacfU_TATQ0_
++ _$s11MobilePhone0B24VoicemailBadgeControllerC14setupListeners33_7319D8C597758273677548356ECD2C0ALLyyFyyYacfU_TATu
++ _$s11MobilePhone0B24VoicemailBadgeControllerC14setupListeners33_7319D8C597758273677548356ECD2C0ALLyyFyyYacfU_TY0_
++ _$s11MobilePhone0B24VoicemailBadgeControllerC14setupListeners33_7319D8C597758273677548356ECD2C0ALLyyFyyYacfU_TY1_
++ _$s11MobilePhone0B24VoicemailBadgeControllerC14setupListeners33_7319D8C597758273677548356ECD2C0ALLyyFyyYacfU_TY2_
++ _$s11MobilePhone0B24VoicemailBadgeControllerC14setupListeners33_7319D8C597758273677548356ECD2C0ALLyyFyyYacfU_Tu
++ _$s11MobilePhone0B24VoicemailBadgeControllerC18handleNotification33_7319D8C597758273677548356ECD2C0ALLyy10Foundation0G0VF
++ _$s11MobilePhone0B24VoicemailBadgeControllerC18handleNotification33_7319D8C597758273677548356ECD2C0ALLyy10Foundation0G0VFTo
++ _$s11MobilePhone0B24VoicemailBadgeControllerC9listenersyXlSgvM
++ _$s11MobilePhone0B24VoicemailBadgeControllerC9listenersyXlSgvMTq
++ _$s11MobilePhone0B24VoicemailBadgeControllerC9listenersyXlSgvg
++ _$s11MobilePhone0B24VoicemailBadgeControllerC9listenersyXlSgvgTq
++ _$s11MobilePhone0B24VoicemailBadgeControllerC9listenersyXlSgvpMV
++ _$s11MobilePhone0B24VoicemailBadgeControllerC9listenersyXlSgvpWvd
++ _$s11MobilePhone0B24VoicemailBadgeControllerC9listenersyXlSgvpfi
++ _$s11MobilePhone0B24VoicemailBadgeControllerC9listenersyXlSgvs
++ _$s11MobilePhone0B24VoicemailBadgeControllerC9listenersyXlSgvsTq
++ _$s11MobilePhone0B24VoicemailBadgeControllerCACycfC
++ _$s11MobilePhone0B24VoicemailBadgeControllerCACycfc
++ _$s11MobilePhone0B24VoicemailBadgeControllerCACycfcTo
++ _$s11MobilePhone0B24VoicemailBadgeControllerCMF
++ _$s11MobilePhone0B24VoicemailBadgeControllerCMa
++ _$s11MobilePhone0B24VoicemailBadgeControllerCMf
++ _$s11MobilePhone0B24VoicemailBadgeControllerCMn
++ _$s11MobilePhone0B24VoicemailBadgeControllerCN
++ _$s11MobilePhone0B24VoicemailBadgeControllerCfD
++ _$s11MobilePhone0B24VoicemailBadgeControllerCfETo
++ _$s11MobilePhone14VoicemailBadgeC5count5knownACSi_SbtcfC
++ _$s11MobilePhone14VoicemailBadgeC5count5knownACSi_SbtcfCTq
++ _$s11MobilePhone14VoicemailBadgeC5count5knownACSi_Sbtcfc
++ _$s11MobilePhone14VoicemailBadgeC5countSivg
++ _$s11MobilePhone14VoicemailBadgeC5countSivpMV
++ _$s11MobilePhone14VoicemailBadgeC5countSivpWvd
++ _$s11MobilePhone14VoicemailBadgeC5knownSbvg
++ _$s11MobilePhone14VoicemailBadgeC5knownSbvpMV
++ _$s11MobilePhone14VoicemailBadgeC5knownSbvpWvd
++ _$s11MobilePhone14VoicemailBadgeCACycfC
++ _$s11MobilePhone14VoicemailBadgeCACycfc
++ _$s11MobilePhone14VoicemailBadgeCACycfcTo
++ _$s11MobilePhone14VoicemailBadgeCMF
++ _$s11MobilePhone14VoicemailBadgeCMa
++ _$s11MobilePhone14VoicemailBadgeCMf
++ _$s11MobilePhone14VoicemailBadgeCMn
++ _$s11MobilePhone14VoicemailBadgeCN
++ _$s11MobilePhone14VoicemailBadgeCSo8NSObjectCSQ10ObjectiveCWL
++ _$s11MobilePhone14VoicemailBadgeCSo8NSObjectCSQ10ObjectiveCWlTm
++ _$s11MobilePhone14VoicemailBadgeCfD
++ _$s11MobilePhone14VoicemailBadgeCfDTm
++ _$s11MobilePhone19ReportFlowPresenterC22showReportingExtension3forySo12CHRecentCallC_tFys5Error_pSgcfU_
++ _$s11MobilePhone19ReportFlowPresenterC22showReportingExtension3forySo12CHRecentCallC_tFys5Error_pSgcfU_TA
++ _$s11MobilePhone20LegacyMailboxServiceC12cancellables33_09860C7E86BF92F704260DAA65EF23C1LLSayypGvpWvd
++ _$s11MobilePhone20LegacyMailboxServiceC12cancellables33_09860C7E86BF92F704260DAA65EF23C1LLSayypGvpfi
++ _$s11MobilePhone20LegacyMailboxServiceC16voicemailManagerAcA016VoicemailAccountG8Protocol_p_tcfcy10Foundation12NotificationVcfU0_
++ _$s11MobilePhone20LegacyMailboxServiceC16voicemailManagerAcA016VoicemailAccountG8Protocol_p_tcfcy10Foundation12NotificationVcfU0_TA
++ _$s11MobilePhone22ClarityUISceneDelegateC23assistiveAccessRootView33_001DBC0BEC4104ED794DAD8E6954EC07LLQrvgZ
++ _$s11MobilePhone22ClarityUISceneDelegateC23assistiveAccessRootView33_001DBC0BEC4104ED794DAD8E6954EC07LLQrvgZ7projectL_5value7SwiftUI03AnyI0Vx_tAH0I0RzlF
++ _$s11MobilePhone22ClarityUISceneDelegateC7SwiftUI014UIHostingSceneE0AA04RootI0AdEP_AD0I0PWT
++ _$s11MobilePhone22ClarityUISceneDelegateC7SwiftUI014UIHostingSceneE0AAMA
++ _$s11MobilePhone22ClarityUISceneDelegateC7SwiftUI014UIHostingSceneE0AAMc
++ _$s11MobilePhone22ClarityUISceneDelegateC7SwiftUI014UIHostingSceneE0AAMcMK
++ _$s11MobilePhone22ClarityUISceneDelegateC7SwiftUI014UIHostingSceneE0AadEP04rootI004RootI0QzvgZTW
++ _$s11MobilePhone22ClarityUISceneDelegateC9rootSceneQrvgZ
++ _$s11MobilePhone22ClarityUISceneDelegateC9rootSceneQrvgZAC23assistiveAccessRootView33_001DBC0BEC4104ED794DAD8E6954EC07LLQrvpZQOy_Qo_yXEfU_TA
++ _$s11MobilePhone22ClarityUISceneDelegateC9rootSceneQrvpZMV
++ _$s11MobilePhone22ClarityUISceneDelegateC9rootSceneQrvpZQOMQ
++ _$s11MobilePhone23VoicemailSearchViewCellC08metadataE033_EEC304817A764917AF249F557FC710C2LLAA0cd8MetadataE0CvpfiTm
++ _$s11MobilePhone30PersonalNicknameAvatarProviderC19generatePosterImage7handleryySo7UIImageCSg_s5Error_pSgtc_tFyAH_AJtcfU_
++ _$s11MobilePhone30PersonalNicknameAvatarProviderC19generatePosterImage7handleryySo7UIImageCSg_s5Error_pSgtc_tFyAH_AJtcfU_TA
++ _$s16CallsAppServices30RecentsDataSourceConfigurationV15unreadCallCountSivg
++ _$s16CallsAppServices30RecentsDataSourceConfigurationVMn
++ _$s7Combine10PublishersO16RemoveDuplicatesVMn
++ _$s7Combine10PublishersO16RemoveDuplicatesVy_AA19CurrentValueSubjectCy11MobilePhone14VoicemailBadgeCs5NeverOGGAEy_xGAA9PublisherAAWL
++ _$s7Combine10PublishersO16RemoveDuplicatesVy_AA19CurrentValueSubjectCy11MobilePhone14VoicemailBadgeCs5NeverOGGMD
++ _$s7Combine10PublishersO16RemoveDuplicatesVy_xGAA9PublisherAAMc
++ _$s7Combine10PublishersO8DebounceVMn
++ _$s7Combine10PublishersO8DebounceVy_AC16RemoveDuplicatesVy_AA19CurrentValueSubjectCy11MobilePhone14VoicemailBadgeCs5NeverOGGSo9NSRunLoopCGAEy_xq_GAA9PublisherAAWL
++ _$s7Combine10PublishersO8DebounceVy_AC16RemoveDuplicatesVy_AA19CurrentValueSubjectCy11MobilePhone14VoicemailBadgeCs5NeverOGGSo9NSRunLoopCGMD
++ _$s7Combine10PublishersO8DebounceVy_xq_GAA9PublisherAAMc
++ _$s7Combine12AnyPublisherVy11MobilePhone14VoicemailBadgeCs5NeverOGACyxq_GAA0C0AAWL
++ _$s7Combine12AnyPublisherVy11MobilePhone14VoicemailBadgeCs5NeverOGMD
++ _$s7Combine19CurrentValueSubjectCy11MobilePhone14VoicemailBadgeCs5NeverOGACyxq_GAA9PublisherAAWL
++ _$s7Combine19CurrentValueSubjectCy11MobilePhone14VoicemailBadgeCs5NeverOGACyxq_GAA9PublisherAAWlTm
++ _$s7Combine19CurrentValueSubjectCy11MobilePhone14VoicemailBadgeCs5NeverOGMD
++ _$s7Combine9PublisherPAAE010eraseToAnyB0AA0eB0Vy6OutputQz7FailureQzGyF
++ _$s7Combine9PublisherPAAE8debounce3for9scheduler7optionsAA10PublishersO8DebounceVy_xqd__G17SchedulerTimeType_6StrideQYd___qd__0I7OptionsQyd__SgtAA0I0Rd__lF
++ _$s7Combine9PublisherPAASQ6OutputRpzrlE16removeDuplicatesAA10PublishersO06RemoveE0Vy_xGyF
++ _$s7SwiftUI12SceneBuilderV10buildBlockyxxAA0C0RzlFZ
++ _$s7SwiftUI15AssistiveAccessV7contentACyxGxyXE_tcfC
++ _$s7SwiftUI15AssistiveAccessVMn
++ _$s7SwiftUI15AssistiveAccessVyAA7AnyViewVGACyxGAA5SceneAAWL
++ _$s7SwiftUI15AssistiveAccessVyAA7AnyViewVGACyxGAA5SceneAAWl
++ _$s7SwiftUI15AssistiveAccessVyAA7AnyViewVGMD
++ _$s7SwiftUI15AssistiveAccessVyxGAA5SceneAAMc
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE18accessibilityLabelyACyxAEGqd__SyRd__lF
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE22accessibilityAddTraitsyACyxAEGAA0eJ0VF
++ _$s7SwiftUI15ModifiedContentVyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA023AccessibilityAttachmentI0VGWOhTm
++ _$s7SwiftUI17EnvironmentValuesVAAE8editModeAA7BindingVyAA04EditF0OGSgvpACTK
++ _$s7SwiftUI17EnvironmentValuesVAAE8editModeAA7BindingVyAA04EditF0OGSgvpACTk
++ _$s7SwiftUI19AccessibilityTraitsV8isButtonACvgZ
++ _$s7SwiftUI19AccessibilityTraitsVMa
++ _$s7SwiftUI22UIHostingSceneDelegateMp
++ _$s7SwiftUI22UIHostingSceneDelegateP04RootD0AC_AA0D0Tn
++ _$s7SwiftUI22UIHostingSceneDelegateP04rootD004RootD0QzvgZTq
++ _$s7SwiftUI5SceneMp
++ _$s9RootScene7SwiftUI09UIHostingB8DelegatePTl
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVAEs10SetAlgebraACWlTm
++ _$sSo31PHVoicemailNavigationControllerCML
++ _$sSo7NSArrayCSgSo7NSErrorCSgIeyByy_SaySSGTz_
++ _$sSo7UIImageCSgs5Error_pSgIeggg_ACSo7NSErrorCSgIeyByy_TR
++ _$sSo8NSNumberC10FoundationE14integerLiteralABSi_tcfC
++ _$sSo9NSRunLoopC10FoundationE16SchedulerOptionsVMa
++ _$sSo9NSRunLoopC10FoundationE16SchedulerOptionsVMn
++ _$sSo9NSRunLoopC10FoundationE16SchedulerOptionsVSgMD
++ _$sSo9NSRunLoopC10FoundationE16SchedulerOptionsVSgWOhTm
++ _$sSo9NSRunLoopC10FoundationE17SchedulerTimeTypeV6StrideV7secondsyAGSdFZ
++ _$sSo9NSRunLoopC10FoundationE17SchedulerTimeTypeV6StrideVMa
++ _$sSo9NSRunLoopC7Combine9Scheduler10FoundationMc
++ _$sSo9NSRunLoopCAB7Combine9Scheduler10FoundationWL
++ _$sSo9NSRunLoopCAB7Combine9Scheduler10FoundationWl
++ _$sSo9NSRunLoopCML
++ _$sSo9NSRunLoopCMaTm
++ _$ss5Error_pSgIegg_So7NSErrorCSgIeyBy_TR
++ _$ss6UInt64VN
++ _OBJC_CLASS_$_NSRunLoop
++ _OBJC_CLASS_$__TtC11MobilePhone14VoicemailBadge
++ _OBJC_CLASS_$__TtC11MobilePhone29PhoneVoicemailBadgeController
++ _OBJC_METACLASS_$__TtC11MobilePhone14VoicemailBadge
++ _OBJC_METACLASS_$__TtC11MobilePhone29PhoneVoicemailBadgeController
++ __77-[MPVoicemailTableViewController exportVoicemailDataForVoicemail:sourceView:]_block_invoke.246
++ __77-[MPVoicemailTableViewController exportVoicemailDataForVoicemail:sourceView:]_block_invoke.246.cold.1
++ __84-[MPVoicemailTableViewController voicemailMessageTableViewCell:didRequestPlayState:]_block_invoke.235
++ __DATA__TtC11MobilePhone14VoicemailBadge
++ __DATA__TtC11MobilePhone29PhoneVoicemailBadgeController
++ __INSTANCE_METHODS__TtC11MobilePhone14VoicemailBadge
++ __INSTANCE_METHODS__TtC11MobilePhone29PhoneVoicemailBadgeController
++ __IVARS__TtC11MobilePhone14VoicemailBadge
++ __IVARS__TtC11MobilePhone29PhoneVoicemailBadgeController
++ __METACLASS_DATA__TtC11MobilePhone14VoicemailBadge
++ __METACLASS_DATA__TtC11MobilePhone29PhoneVoicemailBadgeController
++ __OBJC_$_INSTANCE_METHODS_PhoneApplication(Telephony|Testing|VideoConference|MobilePhone|MobilePhone1)
++ __block_literal_global.121
++ __swift_FORCE_LOAD_$_swiftCoreAudio_Private
++ __swift_FORCE_LOAD_$_swiftCoreAudio_Private_$_MobilePhone
++ _associated conformance 11MobilePhone22ClarityUISceneDelegateC7SwiftUI014UIHostingSceneE0AA04RootI0AdEP_AD0I0
++ _objc_msgSend$_systemImageNamed:
++ _objc_msgSend$accessibilityIdentifier
++ _objc_msgSend$donateHasDismissedScreeningOnboardingModal
++ _objc_msgSend$isAllowedToSwitchToSearch
++ _objc_msgSend$isOpenedFromReceptionistOnboardingNotification
++ _objc_msgSend$notification
++ _objc_msgSend$setIsAllowedToSwitchToSearch:
++ _objc_msgSend$setIsOpenedFromReceptionistOnboardingNotification:
++ _objc_msgSend$shouldShowReceptionistOnboarding
++ _objc_msgSend$showReceptionistOnboarding
++ _symbolic $s7SwiftUI22UIHostingSceneDelegateP
++ _symbolic So17NSNumberFormatterCSg
++ _symbolic So21MPVoicemailControllerCyyXlGSg
++ _symbolic _____ 11MobilePhone0B24VoicemailBadgeControllerC
++ _symbolic _____ 11MobilePhone14VoicemailBadgeC
++ _symbolic _____ 16CallsAppServices30RecentsDataSourceConfigurationV
++ _symbolic _____Sg So9NSRunLoopC10FoundationE16SchedulerOptionsV
++ _symbolic _____SgXw 11MobilePhone0B24VoicemailBadgeControllerC
++ _symbolic _____y_____G 7SwiftUI15AssistiveAccessV AA7AnyViewV
++ _symbolic _____y__________G 7Combine12AnyPublisherV 11MobilePhone14VoicemailBadgeC s5NeverO
++ _symbolic _____y__________G 7Combine19CurrentValueSubjectC 11MobilePhone14VoicemailBadgeC s5NeverO
++ _symbolic _____y______y__________GG 7Combine10PublishersO16RemoveDuplicatesV AA19CurrentValueSubjectC 11MobilePhone14VoicemailBadgeC s5NeverO
++ _symbolic _____y______y______y__________GGSo9NSRunLoopCG 7Combine10PublishersO8DebounceV AC16RemoveDuplicatesV AA19CurrentValueSubjectC 11MobilePhone14VoicemailBadgeC s5NeverO
++ block_copy_helper.101
++ block_copy_helper.104
++ block_copy_helper.107
++ block_copy_helper.110
++ block_copy_helper.32
++ block_copy_helper.62
++ block_copy_helper.79
++ block_copy_helper.89
++ block_descriptor.103
++ block_descriptor.106
++ block_descriptor.109
++ block_descriptor.112
++ block_descriptor.34
++ block_descriptor.64
++ block_descriptor.81
++ block_descriptor.91
++ block_destroy_helper.102
++ block_destroy_helper.105
++ block_destroy_helper.108
++ block_destroy_helper.111
++ block_destroy_helper.33
++ block_destroy_helper.63
++ block_destroy_helper.80
++ block_destroy_helper.90
++ get_witness_table 7SwiftUI15AssistiveAccessVyAA7AnyViewVGAA5SceneHPyHC.2
++ objectdestroy.67Tm
+- $s11MobilePhone22ClarityUISceneDelegateC6windowSo8UIWindowCSgvM.resume.0
+- GCC_except_table63
+- _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFySicfU_
+- _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFySicfU_TA
+- _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFySicfU_yyYbScMYccfU_
+- _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFySicfU_yyYbScMYccfU_TA
+- _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFyyScMYccfU0_
+- _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFyyScMYccfU0_TA
+- _$s11MobilePhone0B21RecentsViewControllerC22updateTabBarBadgeCount33_44E950A0B3802FBB9FA72574D95EE3A8LL2toySi_tF
+- _$s11MobilePhone19ReportFlowPresenterC22showReportingExtension3forySo12CHRecentCallC_tFys5Error_pSgYbcfU_
+- _$s11MobilePhone19ReportFlowPresenterC22showReportingExtension3forySo12CHRecentCallC_tFys5Error_pSgYbcfU_TA
+- _$s11MobilePhone20LegacyMailboxServiceC17changeCancellable33_09860C7E86BF92F704260DAA65EF23C1LLyXlSgvpWvd
+- _$s11MobilePhone20LegacyMailboxServiceC17changeCancellable33_09860C7E86BF92F704260DAA65EF23C1LLyXlSgvpfi
+- _$s11MobilePhone22ClarityUISceneDelegateC6windowSo8UIWindowCSgvM
+- _$s11MobilePhone22ClarityUISceneDelegateC6windowSo8UIWindowCSgvMTq
+- _$s11MobilePhone22ClarityUISceneDelegateC6windowSo8UIWindowCSgvg
+- _$s11MobilePhone22ClarityUISceneDelegateC6windowSo8UIWindowCSgvgTo
+- _$s11MobilePhone22ClarityUISceneDelegateC6windowSo8UIWindowCSgvgTq
+- _$s11MobilePhone22ClarityUISceneDelegateC6windowSo8UIWindowCSgvpMV
+- _$s11MobilePhone22ClarityUISceneDelegateC6windowSo8UIWindowCSgvpWvd
+- _$s11MobilePhone22ClarityUISceneDelegateC6windowSo8UIWindowCSgvpfi
+- _$s11MobilePhone22ClarityUISceneDelegateC6windowSo8UIWindowCSgvs
+- _$s11MobilePhone22ClarityUISceneDelegateC6windowSo8UIWindowCSgvsTo
+- _$s11MobilePhone22ClarityUISceneDelegateC6windowSo8UIWindowCSgvsTq
+- _$s11MobilePhone22ClarityUISceneDelegateCfETo
+- _$s11MobilePhone30PersonalNicknameAvatarProviderC19generatePosterImage7handleryySo7UIImageCSg_s5Error_pSgtc_tFyAH_AJtYbcfU_
+- _$s11MobilePhone30PersonalNicknameAvatarProviderC19generatePosterImage7handleryySo7UIImageCSg_s5Error_pSgtc_tFyAH_AJtYbcfU_TA
+- _$s4Body7SwiftUI40RootViewForSimplifiedApplicationProviderPTl
+- _$s7SwiftUI15ModifiedContentVyACyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA016_ForegroundStyleI0VyAA5ColorVGGAA16_BlendModeEffectVGAA023AccessibilityAttachmentI0VGSgWOhTm
+- _$s7SwiftUI17EnvironmentValuesV8editModeAA7BindingVyAA04EditF0OGSgvpACTK
+- _$s7SwiftUI17EnvironmentValuesV8editModeAA7BindingVyAA04EditF0OGSgvpACTk
+- _$s7SwiftUI40RootViewForSimplifiedApplicationProviderMp
+- _$s7SwiftUI40RootViewForSimplifiedApplicationProviderP04rootdefG04BodyQzvgTq
+- _$s7SwiftUI40RootViewForSimplifiedApplicationProviderP4BodyAC_AA0D0Tn
+- _$sSis23CustomStringConvertiblesWP
+- _$sSo16PhoneApplicationC06MobileA0E029swiftui_rootViewForSimplifiedB8Providerypvg
+- _$sSo16PhoneApplicationC06MobileA0E029swiftui_rootViewForSimplifiedB8ProviderypvgTo
+- _$sSo16PhoneApplicationC06MobileA0E029swiftui_rootViewForSimplifiedB8ProviderypvpMV
+- _$sSo16PhoneApplicationC06MobileA0E8ProviderV021rootViewForSimplifiedB0Qrvg
+- _$sSo16PhoneApplicationC06MobileA0E8ProviderV021rootViewForSimplifiedB0Qrvg7projectL_5value7SwiftUI03AnyF0Vx_tAI0F0RzlF
+- _$sSo16PhoneApplicationC06MobileA0E8ProviderV021rootViewForSimplifiedB0QrvpMV
+- _$sSo16PhoneApplicationC06MobileA0E8ProviderV021rootViewForSimplifiedB0QrvpQOMQ
+- _$sSo16PhoneApplicationC06MobileA0E8ProviderV7SwiftUI021RootViewForSimplifiedbD0AC4BodyAfGP_AF0H0PWT
+- _$sSo16PhoneApplicationC06MobileA0E8ProviderV7SwiftUI021RootViewForSimplifiedbD0ACMA
+- _$sSo16PhoneApplicationC06MobileA0E8ProviderV7SwiftUI021RootViewForSimplifiedbD0ACMc
+- _$sSo16PhoneApplicationC06MobileA0E8ProviderV7SwiftUI021RootViewForSimplifiedbD0ACMcMK
+- _$sSo16PhoneApplicationC06MobileA0E8ProviderV7SwiftUI021RootViewForSimplifiedbD0AcfGP04roothijB04BodyQzvgTW
+- _$sSo16PhoneApplicationC06MobileA0E8ProviderVAEycfC
+- _$sSo16PhoneApplicationC06MobileA0E8ProviderVMF
+- _$sSo16PhoneApplicationC06MobileA0E8ProviderVMa
+- _$sSo16PhoneApplicationC06MobileA0E8ProviderVMf
+- _$sSo16PhoneApplicationC06MobileA0E8ProviderVMn
+- _$sSo16PhoneApplicationC06MobileA0E8ProviderVN
+- _$sSo16PhoneApplicationC06MobileA0EMXE
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVAEs10SetAlgebraACWl
+- _$sSo7NSArrayCSgSo7NSErrorCSgIeyBhyy_SaySSGTz_
+- _$sSo7UIImageCSgs5Error_pSgIeghgg_ACSo7NSErrorCSgIeyBhyy_TR
+- _$ss5Error_pSgIeghg_So7NSErrorCSgIeyBhy_TR
+- __77-[MPVoicemailTableViewController exportVoicemailDataForVoicemail:sourceView:]_block_invoke.249
+- __77-[MPVoicemailTableViewController exportVoicemailDataForVoicemail:sourceView:]_block_invoke.249.cold.1
+- __84-[MPVoicemailTableViewController voicemailMessageTableViewCell:didRequestPlayState:]_block_invoke.238
+- __IVARS_CNKClarityUISceneDelegate
+- __OBJC_$_INSTANCE_METHODS_PhoneApplication(Telephony|Testing|VideoConference|MobilePhone|MobilePhone1|MobilePhone2)
+- __PROPERTIES_CNKClarityUISceneDelegate
+- __block_literal_global.124
+- _associated conformance So16PhoneApplicationC06MobileA0E8ProviderV7SwiftUI021RootViewForSimplifiedbD0AC4BodyAfGP_AF0H0
+- _objc_msgSend$bundleWithPath:
+- _symbolic $s7SwiftUI40RootViewForSimplifiedApplicationProviderP
+- _symbolic So8UIWindowCSg
+- _symbolic _____ 7SwiftUI7AnyViewV
+- _symbolic _____ So16PhoneApplicationC06MobileA0E8ProviderV
+- block_copy_helper.36
+- block_copy_helper.54
+- block_copy_helper.60
+- block_copy_helper.68
+- block_copy_helper.78
+- block_copy_helper.90
+- block_copy_helper.93
+- block_copy_helper.96
+- block_copy_helper.99
+- block_descriptor.101
+- block_descriptor.38
+- block_descriptor.56
+- block_descriptor.62
+- block_descriptor.70
+- block_descriptor.80
+- block_descriptor.92
+- block_descriptor.95
+- block_descriptor.98
+- block_destroy_helper.100
+- block_destroy_helper.37
+- block_destroy_helper.55
+- block_destroy_helper.61
+- block_destroy_helper.69
+- block_destroy_helper.79
+- block_destroy_helper.91
+- block_destroy_helper.94
+- block_destroy_helper.97
+- get_witness_table 7SwiftUI7AnyViewVAA0D0HPyHC.2
+CStrings:
++ "$__lazy_storage_$_numberFormatter"
++ "%@ is handling <%@> to show Receptionist onboarding"
++ "%@ is handling viewWillAppear to show Receptionist onboarding"
++ "?"
++ "@\"<_TtP11MobilePhone18ReportSpamManaging_>\""
++ "@\"CNContact\""
++ "@\"NSProgress\""
++ "@\"VMVoicemail\""
++ "@\"_TtC10CallsAppUI21RecentsViewController\""
++ "@\"_TtC20FaceTimeMessageStore7Message\""
++ "I"
++ "MobilePhone.VoicemailBadge"
++ "PhoneRecentsViewController updating badge with voicemailCount: %s, recentsCount: %s, known: %s layout: %s"
++ "PhoneVoicemailBadgeController: handling notification %s"
++ "PhoneVoicemailBadgeController: sending update of badge %s known: %s"
++ "RECEPTIONIST_ONBOARDING_MESSAGE"
++ "RECEPTIONIST_ONBOARDING_SCREEN_CALLS"
++ "RECEPTIONIST_ONBOARDING_SET_UP_LATER"
++ "RECEPTIONIST_ONBOARDING_TITLE"
++ "ReceptionistOnboardingNotification"
++ "Setting tab bar item badge value to %s known: %s"
++ "TB,N,V_isOpenedFromReceptionistOnboardingNotification"
++ "TB,R,N,V_shouldShowReceptionistOnboarding"
++ "TB,V_isAllowedToSwitchToSearch"
++ "_TtC11MobilePhone14VoicemailBadge"
++ "_TtC11MobilePhone29PhoneVoicemailBadgeController"
++ "_isAllowedToSwitchToSearch"
++ "_isOpenedFromReceptionistOnboardingNotification"
++ "_shouldShowReceptionistOnboarding"
++ "_systemImageNamed:"
++ "accessibilityIdentifier"
++ "applicationWillSuspend"
++ "dismissScreenUnknownCallers:"
++ "donateHasDismissedScreeningOnboardingModal"
++ "ellipsis.below.phone.down.fill"
++ "enableScreenUnknownCallers:"
++ "handleNotification:"
++ "isAllowedToSwitchToSearch"
++ "isOpenedFromReceptionistOnboardingNotification"
++ "known"
++ "mainRunLoop"
++ "notification"
++ "setIsAllowedToSwitchToSearch:"
++ "setIsOpenedFromReceptionistOnboardingNotification:"
++ "setSearchBarPlacementAllowsToolbarIntegration:"
++ "shouldShowReceptionistOnboarding"
++ "showReceptionistOnboarding"
++ "transcriptionServiceStatusDidChange"
++ "unreadVoicemailBadgeSink"
++ "unreadVoicemailCount"
++ "voicemailBadgeController"
+- "/Applications/MobilePhone.app"
+- "Setting tab bar item badge value to %ld"
+- "T@\"UIWindow\",N,&,Vwindow"
+- "bundleWithPath:"
+- "changeCancellable"
+- "swiftui_rootViewForSimplifiedApplicationProvider"
+
+```

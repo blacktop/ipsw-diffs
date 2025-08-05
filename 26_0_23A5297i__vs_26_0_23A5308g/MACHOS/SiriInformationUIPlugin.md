@@ -1,0 +1,438 @@
+## SiriInformationUIPlugin
+
+> `/System/Library/Snippets/UIPlugins/SiriInformationUIPlugin.bundle/SiriInformationUIPlugin`
+
+```diff
+
+-3500.61.1.0.0
+-  __TEXT.__text: 0x4bbc
+-  __TEXT.__auth_stubs: 0x4c0
+-  __TEXT.__const: 0x9d8
+-  __TEXT.__swift5_typeref: 0x2bb
+-  __TEXT.__swift5_capture: 0x80
+-  __TEXT.__swift5_reflstr: 0xc7
+-  __TEXT.__swift5_assocty: 0x48
+-  __TEXT.__cstring: 0xfc
+-  __TEXT.__constg_swiftt: 0x1f0
+-  __TEXT.__swift5_fieldmd: 0x1d0
+-  __TEXT.__swift5_proto: 0x8c
+-  __TEXT.__swift5_types: 0x2c
++3500.67.2.0.0
++  __TEXT.__text: 0x8888
++  __TEXT.__auth_stubs: 0x9d0
++  __TEXT.__const: 0xaf6
++  __TEXT.__swift5_typeref: 0x345
++  __TEXT.__swift5_capture: 0xc0
++  __TEXT.__swift5_reflstr: 0x106
++  __TEXT.__swift5_assocty: 0x60
++  __TEXT.__cstring: 0x23f
++  __TEXT.__constg_swiftt: 0x2fc
++  __TEXT.__swift5_fieldmd: 0x254
++  __TEXT.__swift5_proto: 0x90
++  __TEXT.__swift5_types: 0x44
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x290
+-  __TEXT.__eh_frame: 0x180
+-  __DATA_CONST.__auth_got: 0x260
+-  __DATA_CONST.__got: 0x60
+-  __DATA_CONST.__auth_ptr: 0x220
+-  __DATA_CONST.__const: 0x688
+-  __DATA_CONST.__objc_classlist: 0x8
++  __TEXT.__objc_methname: 0x19
++  __TEXT.__oslogstring: 0xb4
++  __TEXT.__swift_as_entry: 0x8
++  __TEXT.__swift_as_ret: 0x8
++  __TEXT.__unwind_info: 0x3b0
++  __TEXT.__eh_frame: 0x2b0
++  __DATA_CONST.__auth_got: 0x4e8
++  __DATA_CONST.__got: 0xd8
++  __DATA_CONST.__auth_ptr: 0x290
++  __DATA_CONST.__const: 0x8b0
++  __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA.__objc_const: 0x90
+-  __DATA.__data: 0x3a8
+-  __DATA.__bss: 0x1180
++  __DATA.__objc_const: 0x100
++  __DATA.__objc_selrefs: 0x10
++  __DATA.__objc_data: 0x50
++  __DATA.__data: 0x520
++  __DATA.__bss: 0x1210
++  __DATA.__common: 0x60
++  - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+
+   - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B38A648E-7517-3E48-8795-147DC66E42F1
+-  Functions: 254
+-  Symbols:   1936
+-  CStrings:  6
++  UUID: 05E57C1C-29F9-3C49-9F73-B658E0C81252
++  Functions: 373
++  Symbols:   2816
++  CStrings:  23
+ 
+Symbols:
++ $s23SiriInformationUIPlugin15CommandThrottleC10throttlingSbvM.resume.0
++ $s23SiriInformationUIPlugin15CommandThrottleC11$throttling7Combine9PublishedV9PublisherVySb_GvM.resume.0
++ /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/SiriInformationUIPlugin.build/Objects-normal/arm64e/CommandThrottle.o
++ /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/SiriInformationUIPlugin.build/Objects-normal/arm64e/InformationLog.o
++ /Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/InformationFlowPlugin/
++ /Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/SiriInformationUIPlugin/Utils/
++ CommandThrottle.swift
++ InformationLog.swift
++ _$s11SiriKitFlow0aB9LifecycleO19_logCrashToEventBusyySSFZ
++ _$s23SiriInformationUIPlugin10SignposterO11information2os12OSSignposterVvau
++ _$s23SiriInformationUIPlugin10SignposterO11information2os12OSSignposterVvgZ
++ _$s23SiriInformationUIPlugin10SignposterO11information2os12OSSignposterVvpZ
++ _$s23SiriInformationUIPlugin10SignposterO11information2os12OSSignposterVvpZMV
++ _$s23SiriInformationUIPlugin10SignposterO11information_WZ
++ _$s23SiriInformationUIPlugin10SignposterO11information_WZTm
++ _$s23SiriInformationUIPlugin10SignposterO11information_Wz
++ _$s23SiriInformationUIPlugin10SignposterO12videoSnippet2os12OSSignposterVvau
++ _$s23SiriInformationUIPlugin10SignposterO12videoSnippet2os12OSSignposterVvgZ
++ _$s23SiriInformationUIPlugin10SignposterO12videoSnippet2os12OSSignposterVvpZ
++ _$s23SiriInformationUIPlugin10SignposterO12videoSnippet2os12OSSignposterVvpZMV
++ _$s23SiriInformationUIPlugin10SignposterO12videoSnippet_WZ
++ _$s23SiriInformationUIPlugin10SignposterO12videoSnippet_Wz
++ _$s23SiriInformationUIPlugin10SignposterOMF
++ _$s23SiriInformationUIPlugin10SignposterOMa
++ _$s23SiriInformationUIPlugin10SignposterOMf
++ _$s23SiriInformationUIPlugin10SignposterOMn
++ _$s23SiriInformationUIPlugin10SignposterON
++ _$s23SiriInformationUIPlugin15CommandThrottleC10throttlingSbvM
++ _$s23SiriInformationUIPlugin15CommandThrottleC10throttlingSbvMTq
++ _$s23SiriInformationUIPlugin15CommandThrottleC10throttlingSbvg
++ _$s23SiriInformationUIPlugin15CommandThrottleC10throttlingSbvgTq
++ _$s23SiriInformationUIPlugin15CommandThrottleC10throttlingSbvpACTK
++ _$s23SiriInformationUIPlugin15CommandThrottleC10throttlingSbvpACTk
++ _$s23SiriInformationUIPlugin15CommandThrottleC10throttlingSbvpMV
++ _$s23SiriInformationUIPlugin15CommandThrottleC10throttlingSbvpfP
++ _$s23SiriInformationUIPlugin15CommandThrottleC10throttlingSbvs
++ _$s23SiriInformationUIPlugin15CommandThrottleC10throttlingSbvsTq
++ _$s23SiriInformationUIPlugin15CommandThrottleC11$throttling7Combine9PublishedV9PublisherVySb_GvM
++ _$s23SiriInformationUIPlugin15CommandThrottleC11$throttling7Combine9PublishedV9PublisherVySb_GvMTq
++ _$s23SiriInformationUIPlugin15CommandThrottleC11$throttling7Combine9PublishedV9PublisherVySb_Gvg
++ _$s23SiriInformationUIPlugin15CommandThrottleC11$throttling7Combine9PublishedV9PublisherVySb_GvgTq
++ _$s23SiriInformationUIPlugin15CommandThrottleC11$throttling7Combine9PublishedV9PublisherVySb_GvpACTk
++ _$s23SiriInformationUIPlugin15CommandThrottleC11$throttling7Combine9PublishedV9PublisherVySb_GvpMV
++ _$s23SiriInformationUIPlugin15CommandThrottleC11$throttling7Combine9PublishedV9PublisherVySb_Gvs
++ _$s23SiriInformationUIPlugin15CommandThrottleC11$throttling7Combine9PublishedV9PublisherVySb_GvsTq
++ _$s23SiriInformationUIPlugin15CommandThrottleC11_throttling33_ABA55C332438559071BB3255555FECC9LL7Combine9PublishedVySbGvpWvd
++ _$s23SiriInformationUIPlugin15CommandThrottleC11_throttling33_ABA55C332438559071BB3255555FECC9LL7Combine9PublishedVySbGvpfi
++ _$s23SiriInformationUIPlugin15CommandThrottleC7Combine16ObservableObjectAA0H19WillChangePublisherAdEP_AD0K0PWT
++ _$s23SiriInformationUIPlugin15CommandThrottleC7Combine16ObservableObjectAAMA
++ _$s23SiriInformationUIPlugin15CommandThrottleC7Combine16ObservableObjectAAMc
++ _$s23SiriInformationUIPlugin15CommandThrottleC7Combine16ObservableObjectAAMcMK
++ _$s23SiriInformationUIPlugin15CommandThrottleC7Combine16ObservableObjectAadEP16objectWillChange0hjK9PublisherQzvgTW
++ _$s23SiriInformationUIPlugin15CommandThrottleC8throttleyyyycF
++ _$s23SiriInformationUIPlugin15CommandThrottleC8throttleyyyycFTq
++ _$s23SiriInformationUIPlugin15CommandThrottleC8throttleyyyycFyyScMYccfU_TA
++ _$s23SiriInformationUIPlugin15CommandThrottleCACycfC
++ _$s23SiriInformationUIPlugin15CommandThrottleCACycfCTq
++ _$s23SiriInformationUIPlugin15CommandThrottleCACycfc
++ _$s23SiriInformationUIPlugin15CommandThrottleCMF
++ _$s23SiriInformationUIPlugin15CommandThrottleCMU
++ _$s23SiriInformationUIPlugin15CommandThrottleCMa
++ _$s23SiriInformationUIPlugin15CommandThrottleCMf
++ _$s23SiriInformationUIPlugin15CommandThrottleCMl
++ _$s23SiriInformationUIPlugin15CommandThrottleCMm
++ _$s23SiriInformationUIPlugin15CommandThrottleCMn
++ _$s23SiriInformationUIPlugin15CommandThrottleCMr
++ _$s23SiriInformationUIPlugin15CommandThrottleCN
++ _$s23SiriInformationUIPlugin15CommandThrottleCfD
++ _$s23SiriInformationUIPlugin15CommandThrottleCfd
++ _$s23SiriInformationUIPlugin33KnowledgeFallbackConfirmationViewV15commandThrottleAA07CommandI0Cvg
++ _$s23SiriInformationUIPlugin33KnowledgeFallbackConfirmationViewV15commandThrottleAA07CommandI0CvpMV
++ _$s23SiriInformationUIPlugin33KnowledgeFallbackConfirmationViewV15commandThrottleAA07CommandI0Cvpfi
++ _$s23SiriInformationUIPlugin33KnowledgeFallbackConfirmationViewV15commandThrottleAA07CommandI0CvpfiTm
++ _$s23SiriInformationUIPlugin33KnowledgeFallbackConfirmationViewV4bodyQrvg9SnippetUI012BinaryButtonG0VycfU_yycACcfu_yycfu0_TATm
++ _$s23SiriInformationUIPlugin33KnowledgeFallbackConfirmationViewV4bodyQrvg9SnippetUI012BinaryButtonG0VycfU_yycACcfu_yycfu0_Tm
++ _$s23SiriInformationUIPlugin33KnowledgeFallbackConfirmationViewV8noAction33_21F3A906ECEB3DF9F2DE3EE61437B50CLLyyFyycfU_TA
++ _$s23SiriInformationUIPlugin33KnowledgeFallbackConfirmationViewV8noAction33_21F3A906ECEB3DF9F2DE3EE61437B50CLLyyFyycfU_Tm
++ _$s23SiriInformationUIPlugin33KnowledgeFallbackConfirmationViewV9yesAction33_21F3A906ECEB3DF9F2DE3EE61437B50CLLyyFyycfU_TA
++ _$s23SiriInformationUIPlugin33KnowledgeFallbackConfirmationViewV9yesAction33_21F3A906ECEB3DF9F2DE3EE61437B50CLLyyFyycfU_Tm
++ _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV15commandThrottleAA07CommandJ0Cvg
++ _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV15commandThrottleAA07CommandJ0CvpMV
++ _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV15commandThrottleAA07CommandJ0Cvpfi
++ _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV8noAction33_21F3A906ECEB3DF9F2DE3EE61437B50CLLyyFyycfU_TA
++ _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV8noAction33_21F3A906ECEB3DF9F2DE3EE61437B50CLLyyFyycfU_TATm
++ _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV9yesAction33_21F3A906ECEB3DF9F2DE3EE61437B50CLLyyFyycfU_TA
++ _$s23SiriInformationUIPlugin6LoggerO11information2osABVvau
++ _$s23SiriInformationUIPlugin6LoggerO11information2osABVvauTm
++ _$s23SiriInformationUIPlugin6LoggerO11information2osABVvgZ
++ _$s23SiriInformationUIPlugin6LoggerO11information2osABVvgZTm
++ _$s23SiriInformationUIPlugin6LoggerO11information2osABVvpZ
++ _$s23SiriInformationUIPlugin6LoggerO11information2osABVvpZMV
++ _$s23SiriInformationUIPlugin6LoggerO11information_WZ
++ _$s23SiriInformationUIPlugin6LoggerO11information_Wz
++ _$s23SiriInformationUIPlugin6LoggerO12videoSnippet2osABVvau
++ _$s23SiriInformationUIPlugin6LoggerO12videoSnippet2osABVvgZ
++ _$s23SiriInformationUIPlugin6LoggerO12videoSnippet2osABVvpZ
++ _$s23SiriInformationUIPlugin6LoggerO12videoSnippet2osABVvpZMV
++ _$s23SiriInformationUIPlugin6LoggerO12videoSnippet_WZ
++ _$s23SiriInformationUIPlugin6LoggerO12videoSnippet_Wz
++ _$s23SiriInformationUIPlugin6LoggerO14informationLog33_EB005610E00ECA090B690B17D4AE7003LLSo9OS_os_logCvpZ
++ _$s23SiriInformationUIPlugin6LoggerO14informationLog33_EB005610E00ECA090B690B17D4AE7003LL_WZ
++ _$s23SiriInformationUIPlugin6LoggerO14informationLog33_EB005610E00ECA090B690B17D4AE7003LL_Wz
++ _$s23SiriInformationUIPlugin6LoggerOMF
++ _$s23SiriInformationUIPlugin6LoggerOMa
++ _$s23SiriInformationUIPlugin6LoggerOMf
++ _$s23SiriInformationUIPlugin6LoggerOMn
++ _$s23SiriInformationUIPlugin6LoggerON
++ _$s23SiriInformationUIPlugin8LogConstO8CategoryO12videoSnippetSSvau
++ _$s23SiriInformationUIPlugin8LogConstO8CategoryO12videoSnippetSSvgZ
++ _$s23SiriInformationUIPlugin8LogConstO8CategoryO12videoSnippetSSvpZ
++ _$s23SiriInformationUIPlugin8LogConstO8CategoryO12videoSnippetSSvpZMV
++ _$s23SiriInformationUIPlugin8LogConstO8CategoryO17informationPluginSSvau
++ _$s23SiriInformationUIPlugin8LogConstO8CategoryO17informationPluginSSvgZ
++ _$s23SiriInformationUIPlugin8LogConstO8CategoryO17informationPluginSSvpZ
++ _$s23SiriInformationUIPlugin8LogConstO8CategoryO17informationPluginSSvpZMV
++ _$s23SiriInformationUIPlugin8LogConstO8CategoryOMF
++ _$s23SiriInformationUIPlugin8LogConstO8CategoryOMa
++ _$s23SiriInformationUIPlugin8LogConstO8CategoryOMf
++ _$s23SiriInformationUIPlugin8LogConstO8CategoryOMn
++ _$s23SiriInformationUIPlugin8LogConstO8CategoryON
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostO19renderPegasusResults12StaticStringVvau
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostO19renderPegasusResults12StaticStringVvgZ
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostO19renderPegasusResults12StaticStringVvpZ
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostO19renderPegasusResults12StaticStringVvpZMV
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostO23selectSportsAlternatives12StaticStringVvau
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostO23selectSportsAlternatives12StaticStringVvgZ
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostO23selectSportsAlternatives12StaticStringVvpZ
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostO23selectSportsAlternatives12StaticStringVvpZMV
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostO31attemptResolveParseSearchResults12StaticStringVvau
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostO31attemptResolveParseSearchResults12StaticStringVvgZ
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostO31attemptResolveParseSearchResults12StaticStringVvpZ
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostO31attemptResolveParseSearchResults12StaticStringVvpZMV
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostOMF
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostOMa
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostOMf
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostOMn
++ _$s23SiriInformationUIPlugin8LogConstO8SignpostON
++ _$s23SiriInformationUIPlugin8LogConstO9subsystemSSvau
++ _$s23SiriInformationUIPlugin8LogConstO9subsystemSSvgZ
++ _$s23SiriInformationUIPlugin8LogConstO9subsystemSSvpZ
++ _$s23SiriInformationUIPlugin8LogConstO9subsystemSSvpZMV
++ _$s23SiriInformationUIPlugin8LogConstOMF
++ _$s23SiriInformationUIPlugin8LogConstOMa
++ _$s23SiriInformationUIPlugin8LogConstOMf
++ _$s23SiriInformationUIPlugin8LogConstOMn
++ _$s23SiriInformationUIPlugin8LogConstON
++ _$s25ObjectWillChangePublisher7Combine010ObservableA0PTl
++ _$s2os0A9_signpost_3dso3log4name0B2IDySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VtF
++ _$s2os12OSSignpostIDV3logACSo03OS_a1_D0C_tcfC
++ _$s2os12OSSignpostIDV8rawValues6UInt64Vvg
++ _$s2os12OSSignpostIDV9exclusiveACvgZ
++ _$s2os12OSSignpostIDVMa
++ _$s2os12OSSignposterV20withIntervalSignpost_2id_6aroundxs12StaticStringV_AA12OSSignpostIDVAA12OSLogMessageVxyKXEtKlFxSpys5UInt8VG_s6UInt32VtKXEfU_
++ _$s2os12OSSignposterV23SiriInformationUIPluginE20withIntervalSignpost_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyYaKXEtYaKlF
++ _$s2os12OSSignposterV23SiriInformationUIPluginE20withIntervalSignpost_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyYaKXEtYaKlF6$deferL_yylFTm
++ _$s2os12OSSignposterV23SiriInformationUIPluginE20withIntervalSignpost_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyYaKXEtYaKlFTQ1_
++ _$s2os12OSSignposterV23SiriInformationUIPluginE20withIntervalSignpost_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyYaKXEtYaKlFTY0_
++ _$s2os12OSSignposterV23SiriInformationUIPluginE20withIntervalSignpost_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyYaKXEtYaKlFTY2_
++ _$s2os12OSSignposterV23SiriInformationUIPluginE20withIntervalSignpost_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyYaKXEtYaKlFTY3_
++ _$s2os12OSSignposterV23SiriInformationUIPluginE20withIntervalSignpost_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyYaKXEtYaKlFTu
++ _$s2os12OSSignposterV23SiriInformationUIPluginE20withIntervalSignpost_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyYaKXEtYaKlFfA0_
++ _$s2os12OSSignposterV23SiriInformationUIPluginE29beginIntervalTelemetryEnabled_2idAA010OSSignpostG5StateCs12StaticStringV_AA0K2IDVtF
++ _$s2os12OSSignposterV23SiriInformationUIPluginE29beginIntervalTelemetryEnabled_2idAA010OSSignpostG5StateCs12StaticStringV_AA0K2IDVtFfA0_
++ _$s2os12OSSignposterV23SiriInformationUIPluginE36withIntervalSignpostTelemetryEnabled_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyKXEtKlF
++ _$s2os12OSSignposterV23SiriInformationUIPluginE36withIntervalSignpostTelemetryEnabled_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyKXEtKlFfA0_
++ _$s2os12OSSignposterV23SiriInformationUIPluginE36withIntervalSignpostTelemetryEnabled_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyYaKXEtYaKlF
++ _$s2os12OSSignposterV23SiriInformationUIPluginE36withIntervalSignpostTelemetryEnabled_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyYaKXEtYaKlFTQ1_
++ _$s2os12OSSignposterV23SiriInformationUIPluginE36withIntervalSignpostTelemetryEnabled_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyYaKXEtYaKlFTY0_
++ _$s2os12OSSignposterV23SiriInformationUIPluginE36withIntervalSignpostTelemetryEnabled_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyYaKXEtYaKlFTY2_
++ _$s2os12OSSignposterV23SiriInformationUIPluginE36withIntervalSignpostTelemetryEnabled_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyYaKXEtYaKlFTY3_
++ _$s2os12OSSignposterV23SiriInformationUIPluginE36withIntervalSignpostTelemetryEnabled_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyYaKXEtYaKlFTu
++ _$s2os12OSSignposterV23SiriInformationUIPluginE36withIntervalSignpostTelemetryEnabled_2id6aroundxs12StaticStringV_AA12OSSignpostIDVxyYaKXEtYaKlFfA0_
++ _$s2os12OSSignposterV6loggerAcA6LoggerV_tcfC
++ _$s2os12OSSignposterV9logHandleSo03OS_a1_C0Cvg
++ _$s2os12OSSignposterVMa
++ _$s2os15OSSignpostErrorO9doubleEndyA2CmFWC
++ _$s2os15OSSignpostErrorOMa
++ _$s2os23OSSignpostIntervalStateC10signpostIDAA0bF0Vvg
++ _$s2os23OSSignpostIntervalStateC2id6isOpenAcA0B2IDV_Sbtcfc
++ _$s2os23OSSignpostIntervalStateCMa
++ _$s2os28checkForErrorAndConsumeState5stateAA010OSSignpostD0OAA0i8IntervalG0C_tF
++ _$s2os32getNullTerminatedUTF8PointerImpl_21storingStringOwnersInSVSS_SpyypGSgztF
++ _$s2os6LoggerV23SiriInformationUIPluginE11logAndCrash_4file4lines5NeverOSS_s12StaticStringVSutF
++ _$s2os6LoggerV23SiriInformationUIPluginE18generateSignpostIDAA010OSSignpostH0VyFZ
++ _$s2os6LoggerV23SiriInformationUIPluginE3endyyAA12OSSignpostIDV_s12StaticStringVtFZ
++ _$s2os6LoggerV23SiriInformationUIPluginE5beginyAA12OSSignpostIDVs12StaticStringVFZ
++ _$s2os6LoggerV23SiriInformationUIPluginE5eventyys12StaticStringVF
++ _$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg
++ _$s2os6LoggerVMa
++ _$s2os6LoggerVMn
++ _$s2os6LoggerVSgMD
++ _$s2os6LoggerVSgWOc
++ _$s2os6LoggerVSgWOh
++ _$s2os6LoggerVyACSo03OS_A4_logCcfC
++ _$s2os9serialize_2atys5UInt8V_SpyAEGztF
++ _$s7Combine16ObservableObjectMp
++ _$s7Combine16ObservableObjectP0C19WillChangePublisherAC_AA0F0Tn
++ _$s7Combine16ObservableObjectP16objectWillChange0ceF9PublisherQzvgTq
++ _$s7Combine16ObservableObjectPA2A0bC9PublisherC0c10WillChangeD0RtzrlE06objecteF0AEvg
++ _$s7Combine25ObservableObjectPublisherCAA0D0AAWP
++ _$s7Combine25ObservableObjectPublisherCMn
++ _$s7Combine9PublishedV12initialValueACyxGx_tcfC
++ _$s7Combine9PublishedV14projectedValueAC9PublisherVyx_Gvg
++ _$s7Combine9PublishedV14projectedValueAC9PublisherVyx_Gvs
++ _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluiMZ
++ _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluigZ
++ _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluisZ
++ _$s7Combine9PublishedV9PublisherVMn
++ _$s7Combine9PublishedV9PublisherVySb_GMD
++ _$s7Combine9PublishedVMa
++ _$s7Combine9PublishedVMn
++ _$s7Combine9PublishedVySbGMD
++ _$s7Combine9PublishedVySbGML
++ _$s7Combine9PublishedVySbGMa
++ _$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWL
++ _$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl
++ _$s8Dispatch0A13WorkItemFlagsVMa
++ _$s8Dispatch0A13WorkItemFlagsVMn
++ _$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc
++ _$s8Dispatch0A3QoSV11unspecifiedACvgZ
++ _$s8Dispatch0A3QoSVMa
++ _$s8Dispatch0A4TimeV3nowACyFZ
++ _$s8Dispatch0A4TimeVMa
++ _$s8Dispatch1poiyAA0A4TimeVAD_SdtF
++ _$sIeg_IeyB_TR
++ _$sSS8UTF8ViewV13_foreignCountSiyF
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5
++ _$sSay8Dispatch0A13WorkItemFlagsVGMD
++ _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWL
++ _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl
++ _$sSayxGSTsMc
++ _$sSbN
++ _$sSo13os_log_type_ta0A0E4infoABvgZ
++ _$sSo13os_log_type_ta0A0E5errorABvgZ
++ _$sSo17OS_dispatch_queueC8DispatchE10asyncAfter8deadline3qos5flags7executeyAC0D4TimeV_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
++ _$sSo17OS_dispatch_queueC8DispatchE4mainABvgZ
++ _$sSo17OS_dispatch_queueCML
++ _$sSo18os_signpost_type_ta0A0E3endABvgZ
++ _$sSo18os_signpost_type_ta0A0E5beginABvgZ
++ _$sSo18os_signpost_type_ta0A0E5eventABvgZ
++ _$sSo8NSObjectC10ObjectiveCE2eeoiySbAB_ABtFZ
++ _$sSo8NSThreadCML
++ _$sSo8NSThreadCMaTm
++ _$sSo9OS_os_logC0B0E16signpostsEnabledSbvg
++ _$sSo9OS_os_logC0B0E9subsystem8categoryABSS_SStcfC
++ _$sSo9OS_os_logCML
++ _$sSo9OS_os_logCMa
++ _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
++ _$ss11_StringGutsV16_deconstructUTF87scratchyXlSg5owner_xSi6lengthSb11usesScratchSb15allocatedMemorytSwSg_ts8_PointerRzlFSV_Tgq5
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyF
++ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyFTv_r
++ _$ss11_StringGutsVN
++ _$ss12StaticStringV11descriptionSSvg
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5
++ _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_SSAHSus6UInt32VtF
++ _$ss20__StaticArrayStorageCN
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5
++ _$ss23_ContiguousArrayStorageCMn
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMD
++ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFSS8UTF8ViewV_Tgq5
++ _$ss5UInt8VMn
++ _$sypN
++ _$sypWOc
++ _$sytWV
++ _OBJC_CLASS_$_NSThread
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$_OS_os_log
++ __Block_copy
++ __Block_release
++ __DATA__TtC23SiriInformationUIPlugin15CommandThrottle
++ __IVARS__TtC23SiriInformationUIPlugin15CommandThrottle
++ __METACLASS_DATA__TtC23SiriInformationUIPlugin15CommandThrottle
++ __NSConcreteStackBlock
++ ___swift_allocate_value_buffer
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_project_value_buffer
++ __os_log_impl
++ __os_signpost_emit_with_name_impl
++ __swiftEmptyArrayStorage
++ __swiftImmortalRefCount
++ __swift_stdlib_malloc_size
++ _associated conformance 23SiriInformationUIPlugin15CommandThrottleC7Combine16ObservableObjectAA0H19WillChangePublisherAdEP_AD0K0
++ _block_copy_helper
++ _block_descriptor
++ _block_destroy_helper
++ _free
++ _malloc
++ _malloc_size
++ _memcpy
++ _memmove
++ _objc_msgSend
++ _objc_release
++ _objc_release_x19
++ _objc_release_x20
++ _objc_release_x21
++ _objc_release_x22
++ _objc_retainAutoreleasedReturnValue
++ _objc_retain_x8
++ _os_log_type_enabled
++ _swift_arrayDestroy
++ _swift_beginAccess
++ _swift_coroFrameAlloc
++ _swift_endAccess
++ _swift_getKeyPath
++ _swift_getObjectType
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_once
++ _swift_retain
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _swift_task_alloc
++ _swift_task_dealloc
++ _swift_task_switch
++ _swift_unknownObjectRetain
++ _swift_updateClassMetadata2
++ _symbolic $s7Combine16ObservableObjectP
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic Sb
++ _symbolic _____ 23SiriInformationUIPlugin10SignposterO
++ _symbolic _____ 23SiriInformationUIPlugin15CommandThrottleC
++ _symbolic _____ 23SiriInformationUIPlugin6LoggerO
++ _symbolic _____ 23SiriInformationUIPlugin8LogConstO
++ _symbolic _____ 23SiriInformationUIPlugin8LogConstO8CategoryO
++ _symbolic _____ 23SiriInformationUIPlugin8LogConstO8SignpostO
++ _symbolic _____ 7Combine25ObservableObjectPublisherC
++ _symbolic _____Sg 2os6LoggerV
++ _symbolic _____ySbG 7Combine9PublishedV
++ _symbolic _____ySb_G 7Combine9PublishedV9PublisherV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
+- _$s23SiriInformationUIPlugin33KnowledgeFallbackConfirmationViewV8noAction33_21F3A906ECEB3DF9F2DE3EE61437B50CLLyyFTm
+- _$s23SiriInformationUIPlugin33KnowledgeFallbackConfirmationViewV9yesAction33_21F3A906ECEB3DF9F2DE3EE61437B50CLLyyFTm
+CStrings:
++ "CommandThrottle action called from background thread."
++ "CommandThrottle action dropped due to throttling state."
++ "Fatal error"
++ "FatalError at %s:%lu - %s"
++ "InformationFlowPlugin"
++ "VideoSnippetUtils"
++ "[Error] Interval already ended"
++ "_TtC23SiriInformationUIPlugin15CommandThrottle"
++ "_throttling"
++ "attemptResolveParse"
++ "com.apple.siri.information"
++ "currentThread"
++ "enableTelemetry=YES"
++ "mainThread"
++ "renderPegasusResult"
++ "selectSportsAlternative"
++ "v8@?0"
+
+```

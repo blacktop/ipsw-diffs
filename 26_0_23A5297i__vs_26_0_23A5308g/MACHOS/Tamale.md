@@ -1,0 +1,430 @@
+## Tamale
+
+> `/Applications/Tamale.app/Tamale`
+
+```diff
+
+-83.0.0.0.0
+-  __TEXT.__text: 0x14c908
+-  __TEXT.__auth_stubs: 0x6740
++88.100.0.0.0
++  __TEXT.__text: 0x144afc
++  __TEXT.__auth_stubs: 0x64e0
+   __TEXT.__objc_stubs: 0x160
+-  __TEXT.__objc_methlist: 0x12bc
+-  __TEXT.__cstring: 0x499a
+-  __TEXT.__const: 0xbca4
+-  __TEXT.__constg_swiftt: 0x4784
+-  __TEXT.__swift5_typeref: 0x21c30
++  __TEXT.__objc_methlist: 0x12c4
++  __TEXT.__cstring: 0x47b5
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__swift5_builtin: 0x190
+-  __TEXT.__swift5_reflstr: 0x3878
+-  __TEXT.__swift5_fieldmd: 0x338c
+-  __TEXT.__swift5_assocty: 0xac0
+-  __TEXT.__swift5_proto: 0x7e0
+-  __TEXT.__swift5_types: 0x39c
++  __TEXT.__const: 0xb7b4
++  __TEXT.__constg_swiftt: 0x462c
++  __TEXT.__swift5_typeref: 0x1dc8e
++  __TEXT.__swift5_builtin: 0x1a4
++  __TEXT.__swift5_reflstr: 0x3838
++  __TEXT.__swift5_fieldmd: 0x32b0
++  __TEXT.__swift5_assocty: 0xa18
++  __TEXT.__swift5_proto: 0x7a0
++  __TEXT.__swift5_types: 0x384
+   __TEXT.__objc_classname: 0x279
+-  __TEXT.__objc_methname: 0x3e90
++  __TEXT.__objc_methname: 0x3f25
+   __TEXT.__objc_methtype: 0x1ced
+   __TEXT.__swift5_mpenum: 0x2c
+-  __TEXT.__swift5_protos: 0x28
+-  __TEXT.__swift5_capture: 0x1a1c
+-  __TEXT.__oslogstring: 0x1b47
++  __TEXT.__swift5_protos: 0x24
++  __TEXT.__swift5_capture: 0x1a9c
++  __TEXT.__oslogstring: 0x1c07
+   __TEXT.__swift_as_entry: 0x29c
+   __TEXT.__swift_as_ret: 0x264
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x44a8
+-  __TEXT.__eh_frame: 0x6df0
+-  __DATA_CONST.__auth_got: 0x33a8
+-  __DATA_CONST.__got: 0x1980
+-  __DATA_CONST.__auth_ptr: 0x1b18
+-  __DATA_CONST.__const: 0x87f0
++  __TEXT.__unwind_info: 0x4258
++  __TEXT.__eh_frame: 0x6a00
++  __DATA_CONST.__auth_got: 0x3278
++  __DATA_CONST.__got: 0x1888
++  __DATA_CONST.__auth_ptr: 0x1a78
++  __DATA_CONST.__const: 0x86c0
+   __DATA_CONST.__cfstring: 0x20
+-  __DATA_CONST.__objc_classlist: 0x178
++  __DATA_CONST.__objc_classlist: 0x170
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x1a0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0xd0
+-  __DATA.__objc_const: 0x7d60
+-  __DATA.__objc_selrefs: 0x11c8
++  __DATA.__objc_const: 0x7dd0
++  __DATA.__objc_selrefs: 0x11e0
+   __DATA.__objc_data: 0x1b90
+-  __DATA.__data: 0xa0a8
+-  __DATA.__bss: 0xfc70
+-  __DATA.__common: 0x140
++  __DATA.__data: 0x9b28
++  __DATA.__bss: 0xf578
++  __DATA.__common: 0x158
+   - /System/Library/Frameworks/ARKit.framework/ARKit
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/Symbols.framework/Symbols
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+-  - /System/Library/Frameworks/VideoToolbox.framework/VideoToolbox
+   - /System/Library/Frameworks/_PhotosUI_SwiftUI.framework/_PhotosUI_SwiftUI
+   - /System/Library/PrivateFrameworks/AppleDepth.framework/AppleDepth
+   - /System/Library/PrivateFrameworks/AssistantUI.framework/AssistantUI
++  - /System/Library/PrivateFrameworks/AtomicsInternal.framework/AtomicsInternal
+   - /System/Library/PrivateFrameworks/BarcodeSupport.framework/BarcodeSupport
+   - /System/Library/PrivateFrameworks/CMCapture.framework/CMCapture
+   - /System/Library/PrivateFrameworks/CMImaging.framework/CMImaging
+
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/SystemUIAnimationKit.framework/SystemUIAnimationKit
+   - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
++  - /System/Library/PrivateFrameworks/VisualActionPrediction.framework/VisualActionPrediction
++  - /System/Library/PrivateFrameworks/VisualActionPredictionSupport.framework/VisualActionPredictionSupport
+   - /System/Library/PrivateFrameworks/VisualIntelligenceCore.framework/VisualIntelligenceCore
+   - /System/Library/PrivateFrameworks/VisualIntelligenceUI.framework/VisualIntelligenceUI
+   - /System/Library/PrivateFrameworks/VisualLookUp.framework/VisualLookUp
+
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
++  - /usr/lib/swift/libswiftCoreAudio_Private.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C55FA4C6-C263-3D47-823A-E192AE09978D
+-  Functions: 5725
+-  Symbols:   3027
+-  CStrings:  1508
++  UUID: 2132A807-8FEA-3F30-8C69-B0F4EF49641B
++  Functions: 5609
++  Symbols:   2944
++  CStrings:  1496
+ 
+Symbols:
++ _$s15AtomicsInternal13ManagedAtomicCMn
++ _$s20SystemUIAnimationKit22ScanwaveViewControllerC8activateyyFTj
++ _$s20VisualIntelligenceUI14NewEntityModelC2id10Foundation4UUIDVvg
++ _$s20VisualIntelligenceUI16NewSaliencyModelC10entryPoint0aB4Core05EntryH0Ovg
++ _$s20VisualIntelligenceUI16NewSaliencyModelC13performAction_4from18executionParameter19updatesPresentation15analyticsSourceyAA0dhF0C_AA0d6EntityF0C0aB4Core09ExecutionK0OSgSbAA0H9AnalyticsC0hO0OSgtYaF
++ _$s20VisualIntelligenceUI16NewSaliencyModelC13performAction_4from18executionParameter19updatesPresentation15analyticsSourceyAA0dhF0C_AA0d6EntityF0C0aB4Core09ExecutionK0OSgSbAA0H9AnalyticsC0hO0OSgtYaFTu
++ _$s20VisualIntelligenceUI16NewSaliencyModelC13performAction_4from18executionParameter19updatesPresentation15analyticsSourceyAA0dhF0C_AA0d6EntityF0C0aB4Core09ExecutionK0OSgSbAA0H9AnalyticsC0hO0OSgtYaFfA2_
++ _$s20VisualIntelligenceUI16NewSaliencyModelC17viuiConfigurationAA17VIUIConfigurationVvg
++ _$s20VisualIntelligenceUI16NewSaliencyModelC17viuiConfigurationAA17VIUIConfigurationVvpMV
++ _$s20VisualIntelligenceUI16NewSaliencyModelC17viuiConfigurationAA17VIUIConfigurationVvs
++ _$s20VisualIntelligenceUI16NewSaliencyModelC19barItemsDisappearedyyF
++ _$s20VisualIntelligenceUI16SessionAnalyticsC14pillQueryResetyyFTj
++ _$s20VisualIntelligenceUI17VIUIConfigurationVAA26ConfigurationFormProvidingAAMc
++ _$s20VisualIntelligenceUI17VIUIConfigurationVMa
++ _$s20VisualIntelligenceUI17VIUIConfigurationVMn
++ _$s20VisualIntelligenceUI20BundleTextDetailViewV6bundle10renderOnlyAC0aB4Core8CVBundleV_SbtcfC
++ _$s20VisualIntelligenceUI20BundleTextDetailViewV6bundle10renderOnlyAC0aB4Core8CVBundleV_SbtcfcfA0_
++ _$s20VisualIntelligenceUI20BundleTextDetailViewVMa
++ _$s20VisualIntelligenceUI20BundleTextDetailViewVMn
++ _$s20VisualIntelligenceUI20VIUIAnnotationCanvasV10entryPoint13configuration10renderableAC0aB4Core05EntryG0O_AG27AnnotationViewConfigurationVAA0dE10Renderable_ptcfC
++ _$s20VisualIntelligenceUI21ImageSearchResultViewV5state5modelAC0aB4Core0dE5StateO_AA16NewSaliencyModelCtcfC
++ _$s20VisualIntelligenceUI22SheetTrackingAssistantC24sheetTransitionNamespace05SwiftC00I0V2IDVvg
++ _$s20VisualIntelligenceUI27SelectedSubjectReticuleViewV05SwiftC00G0AAMc
++ _$s20VisualIntelligenceUI27SelectedSubjectReticuleViewV12contentsRect10entryPoint08selectedE6BundleACSo6CGRectV_0aB4Core05EntryK0OAI8CVBundleVtcfC
++ _$s20VisualIntelligenceUI27SelectedSubjectReticuleViewVMa
++ _$s20VisualIntelligenceUI27SelectedSubjectReticuleViewVMn
++ _$s20VisualIntelligenceUI30VIUIAnnotationCanvasRenderableP27bundleIdToDetectionRequestsSDy10Foundation4UUIDVShy0aB4Core0J7RequestVGGvgTq
++ _$s20VisualIntelligenceUI30VIUIAnnotationCanvasRenderablePAAE21selectedSubjectBundle0aB4Core8CVBundleVSgvg
++ _$s20VisualIntelligenceUI9CardModelC33shouldUseNavigationZoomTransition3forSbAA0D6LayoutO_tF
++ _$s22VisualActionPrediction0abC6ClientC8workflowAC0abC7Support8WorkflowO_tcfc
++ _$s22VisualActionPrediction0abC6ClientCMa
++ _$s22VisualIntelligenceCore10EntryPointO10viewfinderyA2CmFWC
++ _$s22VisualIntelligenceCore10EntryPointO11vapWorkflow0A23ActionPredictionSupport0G0Ovg
++ _$s22VisualIntelligenceCore10EntryPointOMa
++ _$s22VisualIntelligenceCore12TrackManagerC13ConfigurationV0aB2UI0F13FormProvidingAFMc
++ _$s22VisualIntelligenceCore13BundleManagerC5resetyyFTj
++ _$s22VisualIntelligenceCore13BundleManagerC6OutputV27bundleIdToDetectionRequestsSDy10Foundation4UUIDVShyAA0J7RequestVGGvg
++ _$s22VisualIntelligenceCore13BundleManagerC6OutputVSQAAMc
++ _$s22VisualIntelligenceCore13BundleManagerCMa
++ _$s22VisualIntelligenceCore13BundleManagerCScAAAMc
++ _$s22VisualIntelligenceCore14TextSummarizerV10entryPointAcA05EntryG0O_tcfC
++ _$s22VisualIntelligenceCore17CameraSourceFramePAAE7cgImageSo10CGImageRefaSgvg
++ _$s22VisualIntelligenceCore17CameraSourceFramePAAE7surfaceSo9IOSurfaceCSgvg
++ _$s22VisualIntelligenceCore21RellenoGlobalSettingsC10isUnitTestSbvgTj
++ _$s22VisualIntelligenceCore24SaliencyStreamActionableP26actionPinFromUserSelection_19excludedIdentifiersAA06ActionH0VSgSo6CGRectV_Shy10Foundation4UUIDVGtYaFTj
++ _$s22VisualIntelligenceCore24SaliencyStreamActionableP26actionPinFromUserSelection_19excludedIdentifiersAA06ActionH0VSgSo6CGRectV_Shy10Foundation4UUIDVGtYaFTjTu
++ _$s22VisualIntelligenceCore24SaliencyStreamActionableP26actionPinFromUserSelection_19excludedIdentifiersAA06ActionH0VSgSo6CGRectV_Shy10Foundation4UUIDVGtYaFTq
++ _$s22VisualIntelligenceCore25SaliencyStreamIngredientsV13configuration13configStorage22trackManagerSupporting9vapClientAcA0dE13ConfigurationV_xAA05TrackkL0_pSg0A16ActionPrediction0aqrN0CtcAA06ConfigI0RzlufC
++ _$s22VisualIntelligenceCore27AnnotationViewConfigurationV0aB2UIE05wantsD6CanvasSbvg
++ _$s22VisualIntelligenceCore27AnnotationViewConfigurationV21showDetectionRequests0G12PinsAndBoxes0g8SafeAreaK8Reticule0g15SelectedSubjectO00G4TextACSb_S4btcfC
++ _$s22VisualIntelligenceCore27AnnotationViewConfigurationV21showDetectionRequests0G12PinsAndBoxes0g8SafeAreaK8Reticule0g15SelectedSubjectO00G4TextACSb_S4btcfcfA1_
++ _$s22VisualIntelligenceCore27AnnotationViewConfigurationV21showDetectionRequests0G12PinsAndBoxes0g8SafeAreaK8Reticule0g15SelectedSubjectO00G4TextACSb_S4btcfcfA2_
++ _$s22VisualIntelligenceCore27AnnotationViewConfigurationV21showDetectionRequests0G12PinsAndBoxes0g8SafeAreaK8Reticule0g15SelectedSubjectO00G4TextACSb_S4btcfcfA_
++ _$s22VisualIntelligenceCore27SaliencyStreamConfigurationV10entryPoint013cvCoordinatorF6Preset012trackManagerF006bundlemF00n8SelectorF0015actionPredictorF0AcA05EntryH0O_AA013CVCoordinatorF0V0K0OAA05TrackM0C0F0VAA06BundleM0CARVAA0uO0CARVAA06ActionQ0CARVtcfC
++ _$s22VisualIntelligenceCore27SaliencyStreamConfigurationV10entryPointAA05EntryH0Ovg
++ _$s22VisualIntelligenceCore29SaliencyStreamActionProvidingPAAE26actionPinFromUserSelection_19excludedIdentifiersAA0fI0VSgSo6CGRectV_Shy10Foundation4UUIDVGtYaF
++ _$s22VisualIntelligenceCore29SaliencyStreamActionProvidingPAAE26actionPinFromUserSelection_19excludedIdentifiersAA0fI0VSgSo6CGRectV_Shy10Foundation4UUIDVGtYaFTu
++ _$s22VisualIntelligenceCore7CornersV2eeoiySbAC_ACtFZ
++ _$s22VisualIntelligenceCore7CornersVMn
++ _$s22VisualIntelligenceCore7CornersVs23CustomStringConvertibleAAMc
++ _$s22VisualIntelligenceCore9ActionPinV13PermanentPillO11imageSearchyA2EmFWC
++ _$s22VisualIntelligenceCore9ActionPinV13PermanentPillO4pillAC0G0Vvg
++ _$s22VisualIntelligenceCore9ActionPinV13PermanentPillO7askAcmeyA2EmFWC
++ _$s22VisualIntelligenceCore9ActionPinV13PermanentPillOMa
++ _$s29VisualActionPredictionSupport8WorkflowOMa
++ _$s7SwiftUI15DynamicTypeSizeO8xxxLargeyA2CmFWC
++ _$s7SwiftUI15DynamicTypeSizeOMn
++ _$s7SwiftUI15DynamicTypeSizeOSQAAMc
++ _$s7SwiftUI4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiceF0O5BoundRtd__lF
++ _$s7SwiftUI4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiceF0O5BoundRtd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE23matchedTransitionSource2id2inQrqd___AA9NamespaceV2IDVtSHRd__lF
++ _$s7SwiftUI4ViewPAAE23matchedTransitionSource2id2inQrqd___AA9NamespaceV2IDVtSHRd__lFQOMQ
++ _$s7SwiftUI8BindableV14projectedValueACyxGvg
++ _$s7SwiftUI8BindableVAARlzClE13dynamicMemberAA7BindingVyqd__Gs24ReferenceWritableKeyPathCyxqd__G_tcluig
++ _$ss19PartialRangeThroughVMn
++ _$ss19PartialRangeThroughVyxGSXsMc
++ _$ss8DurationV12millisecondsyABSdFZ
++ __swift_FORCE_LOAD_$_swiftCoreAudio_Private
+- _$s12CoreGraphics7CGFloatVSBAAMc
+- _$s20SystemUIAnimationKit22ScanwaveViewControllerC8activate4withyySbc_tFTj
+- _$s20VisualIntelligenceUI12ConfigSliderV5value12initialValue5label5range16onEditingChangedACyxG05SwiftC07BindingVyxG_xSSSNyxGySbctcfC
+- _$s20VisualIntelligenceUI12ConfigSliderV5value12initialValue5label5range16onEditingChangedACyxG05SwiftC07BindingVyxG_xSSSNyxGySbctcfcfA3_
+- _$s20VisualIntelligenceUI12ConfigSliderVMn
+- _$s20VisualIntelligenceUI12ConfigSliderVyxG05SwiftC04ViewAAMc
+- _$s20VisualIntelligenceUI13CanvasUtilityV5scale_2to4fromSo7CGPointVAH_So6CGSizeVAJtFZ
+- _$s20VisualIntelligenceUI14NewEntityModelCMa
+- _$s20VisualIntelligenceUI14NewEntityModelCSQAAMc
+- _$s20VisualIntelligenceUI14ReticleCornersV6bounds12cornerRadius0G4Size9lineWidthACSo6CGRectV_12CoreGraphics7CGFloatVSo6CGSizeVALtcfC
+- _$s20VisualIntelligenceUI14ReticleCornersVMn
+- _$s20VisualIntelligenceUI16NewSaliencyModelC13performAction_4from18executionParameter19updatesPresentationyAA0dhF0C_AA0d6EntityF0C0aB4Core09ExecutionK0OSgSbtYaF
+- _$s20VisualIntelligenceUI16NewSaliencyModelC13performAction_4from18executionParameter19updatesPresentationyAA0dhF0C_AA0d6EntityF0C0aB4Core09ExecutionK0OSgSbtYaFTu
+- _$s20VisualIntelligenceUI16NewSaliencyModelC13performAction_4from18executionParameter19updatesPresentationyAA0dhF0C_AA0d6EntityF0C0aB4Core09ExecutionK0OSgSbtYaFfA2_
+- _$s20VisualIntelligenceUI20VIUIAnnotationCanvasV13configuration10renderableAC0aB4Core27AnnotationViewConfigurationV_AA0dE10Renderable_ptcfC
+- _$s20VisualIntelligenceUI21ImageSearchResultViewV5stateAC0aB4Core0dE5StateO_tcfC
+- _$s20VisualIntelligenceUI27LighterRotatingContentLightV05SwiftC012ViewModifierAAMc
+- _$s20VisualIntelligenceUI27LighterRotatingContentLightV7shimmerACSb_tcfC
+- _$s20VisualIntelligenceUI27LighterRotatingContentLightV7shimmerACSb_tcfcfA_
+- _$s20VisualIntelligenceUI27LighterRotatingContentLightVMa
+- _$s20VisualIntelligenceUI27LighterRotatingContentLightVMn
+- _$s20VisualIntelligenceUI3PinV3pin5style8maxWidthACyxGx_AA0D5StyleO12CoreGraphics7CGFloatVSgtcfC
+- _$s20VisualIntelligenceUI3PinVMn
+- _$s20VisualIntelligenceUI8PinStyleO6normalyA2CmFWC
+- _$s20VisualIntelligenceUI8PinStyleOMa
+- _$s22VisualIntelligenceCore0A16LookupClassifierV6ResultV11systemImageSSvg
+- _$s22VisualIntelligenceCore0A16LookupClassifierV6ResultVMa
+- _$s22VisualIntelligenceCore0A16LookupClassifierV6ResultVMn
+- _$s22VisualIntelligenceCore11CVDetectionO0aB2UI17PinStyleProvidingADMc
+- _$s22VisualIntelligenceCore11CameraImageO02cgE0yACSo10CGImageRefacACmFWC
+- _$s22VisualIntelligenceCore11CameraImageO6failedyACs5Error_pcACmFWC
+- _$s22VisualIntelligenceCore12TrackManagerC13ConfigurationV28scoreToMatchMinimumThresholdSfvg
+- _$s22VisualIntelligenceCore12TrackManagerC13ConfigurationV28scoreToMatchMinimumThresholdSfvpMV
+- _$s22VisualIntelligenceCore12TrackManagerC13ConfigurationV28scoreToMatchMinimumThresholdSfvs
+- _$s22VisualIntelligenceCore12TrackManagerC13ConfigurationVAA12ConfigurableAAMc
+- _$s22VisualIntelligenceCore14TextSummarizerVACycfC
+- _$s22VisualIntelligenceCore15RefinementStateO12notRefinableyAcA32BundleClassificationRuntimeErrorV_tcACmFWC
+- _$s22VisualIntelligenceCore15RefinementStateO2eeoiySbAC_ACtFZ
+- _$s22VisualIntelligenceCore15RefinementStateO8refiningyAcA20BundleClassificationVSg_tcACmFWC
+- _$s22VisualIntelligenceCore15RefinementStateO9canRefineyA2CmFWC
+- _$s22VisualIntelligenceCore15RefinementStateO9completedyAcA20BundleClassificationVcACmFWC
+- _$s22VisualIntelligenceCore15RefinementStateOMa
+- _$s22VisualIntelligenceCore15RefinementStateOMn
+- _$s22VisualIntelligenceCore15RefinementStateOSHAAMc
+- _$s22VisualIntelligenceCore18TextDetectorResultV4LineV10confidenceSfvg
+- _$s22VisualIntelligenceCore18TextDetectorResultV4LineV10transcriptSSvg
+- _$s22VisualIntelligenceCore18TextDetectorResultV4LineV8languageSSvg
+- _$s22VisualIntelligenceCore18TextDetectorResultV4LineVMa
+- _$s22VisualIntelligenceCore18TextDetectorResultV4LineVMn
+- _$s22VisualIntelligenceCore18TextDetectorResultV4LineVSHAAMc
+- _$s22VisualIntelligenceCore18TextDetectorResultV5linesSayAC4LineVGvg
+- _$s22VisualIntelligenceCore18TextDetectorResultVMa
+- _$s22VisualIntelligenceCore18TextDetectorResultVMn
+- _$s22VisualIntelligenceCore18TextDetectorResultVSHAAMc
+- _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO11mapsResultsyAESayAA9GeoLookupC0iJ6ResultVG_SdtcAEmFWC
+- _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO11textActionsyAeA04TextH10ClassifierV6ResultVcAEmFWC
+- _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO15caseDescriptionSSvg
+- _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO15verticalContentyAE05SceneB07AFMDataOcAEmFWC
+- _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO2eeoiySbAE_AEtFZ
+- _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO5eventyA2EmFWC
+- _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO6searchyAeA22SearchClassifierResultVcAEmFWC
+- _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO7barcodeyAeA18BCSActionContainerVcAEmFWC
+- _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO8identifyyAeA0A16LookupClassifierV6ResultVSgcAEmFWC
+- _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO9readAloudyA2EmFWC
+- _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO9summarizeyA2EmFWC
+- _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeO9translateyA2EmFWC
+- _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeOMa
+- _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeOMn
+- _$s22VisualIntelligenceCore20BundleClassificationV0E4TypeOSHAAMc
+- _$s22VisualIntelligenceCore20BundleClassificationV12runtimeErrorAA0de7RuntimeG0VSgvg
+- _$s22VisualIntelligenceCore20BundleClassificationVMa
+- _$s22VisualIntelligenceCore20BundleClassificationVMn
+- _$s22VisualIntelligenceCore24SaliencyStreamActionableP26actionPinFromUserSelectionyAA06ActionH0VSo6CGRectVYaFTj
+- _$s22VisualIntelligenceCore24SaliencyStreamActionableP26actionPinFromUserSelectionyAA06ActionH0VSo6CGRectVYaFTjTu
+- _$s22VisualIntelligenceCore24SaliencyStreamActionableP26actionPinFromUserSelectionyAA06ActionH0VSo6CGRectVYaFTq
+- _$s22VisualIntelligenceCore25SaliencyStreamIngredientsV13configuration13configStorage22trackManagerSupportingAcA0dE13ConfigurationV_xAA05TrackkL0_pSgtcAA06ConfigI0RzlufC
+- _$s22VisualIntelligenceCore27AnnotationViewConfigurationV14showActionPinsSbvg
+- _$s22VisualIntelligenceCore27AnnotationViewConfigurationV16showPinsAndBoxes0g6ActionH00G4Text33alternateDisambiguationPinStyling25classificationOverlayType0G23SelectedSubjectReticuleACSb_S3bAA025BundleClassificationDebugR5StyleOSbtcfC
+- _$s22VisualIntelligenceCore27AnnotationViewConfigurationV16showPinsAndBoxes0g6ActionH00G4Text33alternateDisambiguationPinStyling25classificationOverlayType0G23SelectedSubjectReticuleACSb_S3bAA025BundleClassificationDebugR5StyleOSbtcfcfA0_
+- _$s22VisualIntelligenceCore27AnnotationViewConfigurationV16showPinsAndBoxes0g6ActionH00G4Text33alternateDisambiguationPinStyling25classificationOverlayType0G23SelectedSubjectReticuleACSb_S3bAA025BundleClassificationDebugR5StyleOSbtcfcfA2_
+- _$s22VisualIntelligenceCore27AnnotationViewConfigurationV16showPinsAndBoxes0g6ActionH00G4Text33alternateDisambiguationPinStyling25classificationOverlayType0G23SelectedSubjectReticuleACSb_S3bAA025BundleClassificationDebugR5StyleOSbtcfcfA3_
+- _$s22VisualIntelligenceCore27AnnotationViewConfigurationV16showPinsAndBoxes0g6ActionH00G4Text33alternateDisambiguationPinStyling25classificationOverlayType0G23SelectedSubjectReticuleACSb_S3bAA025BundleClassificationDebugR5StyleOSbtcfcfA4_
+- _$s22VisualIntelligenceCore27AnnotationViewConfigurationV25classificationOverlayTypeAA025BundleClassificationDebugH5StyleOvg
+- _$s22VisualIntelligenceCore27SaliencyStreamConfigurationV013cvCoordinatorF6Preset012trackManagerF006bundlekF00l8SelectorF0015actionPredictorF0AcA013CVCoordinatorF0V0I0O_AA05TrackK0C0F0VAA06BundleK0CAOVAA0rM0CAOVAA06ActionO0CAOVtcfC
+- _$s22VisualIntelligenceCore29SaliencyStreamActionProvidingPAAE26actionPinFromUserSelectionyAA0fI0VSo6CGRectVYaF
+- _$s22VisualIntelligenceCore29SaliencyStreamActionProvidingPAAE26actionPinFromUserSelectionyAA0fI0VSo6CGRectVYaFTu
+- _$s22VisualIntelligenceCore32BundleClassificationRuntimeErrorVMa
+- _$s22VisualIntelligenceCore32BundleClassificationRuntimeErrorVMn
+- _$s22VisualIntelligenceCore37BundleClassificationDebugOverlayStyleO2eeoiySbAC_ACtFZ
+- _$s22VisualIntelligenceCore37BundleClassificationDebugOverlayStyleO4noneyA2CmFWC
+- _$s22VisualIntelligenceCore37BundleClassificationDebugOverlayStyleO8standardyA2CmFWC
+- _$s22VisualIntelligenceCore37BundleClassificationDebugOverlayStyleOMa
+- _$s22VisualIntelligenceCore37BundleClassificationDebugOverlayStyleOMn
+- _$s22VisualIntelligenceCore37BundleClassificationDebugOverlayStyleOSQAAMc
+- _$s22VisualIntelligenceCore8CVBundleV10debugLabelSSvg
+- _$s22VisualIntelligenceCore8CVBundleV15refinementState2ofAA010RefinementF0OSgAA20BundleClassificationV0J4TypeO_tF
+- _$s22VisualIntelligenceCore8CVBundleV19textDetectorResultsSayAA04TextF6ResultVGvg
+- _$s22VisualIntelligenceCore8CVBundleV6boundsSo6CGRectVvg
+- _$s22VisualIntelligenceCore8CVBundleVSQAAMc
+- _$s7SwiftUI11_MaskEffectVMn
+- _$s7SwiftUI11_MaskEffectVyxGAA12ViewModifierAAMc
+- _$s7SwiftUI12ScaledMetricV12wrappedValue10relativeToACyxGx_AA4FontV9TextStyleOtcfC
+- _$s7SwiftUI12ScaledMetricV12wrappedValuexvg
+- _$s7SwiftUI12ScaledMetricVMa
+- _$s7SwiftUI12ScaledMetricVMn
+- _$s7SwiftUI16TagValueTraitKeyVMa
+- _$s7SwiftUI16TagValueTraitKeyVyxGAA05_VieweF0AAMc
+- _$s7SwiftUI18_OpacityShapeStyleVMn
+- _$s7SwiftUI19ContentSizeCategoryO015isAccessibilityE0Sbvg
+- _$s7SwiftUI20SegmentedPickerStyleVAA0dE0AAWP
+- _$s7SwiftUI20SegmentedPickerStyleVACycfC
+- _$s7SwiftUI20SegmentedPickerStyleVMa
+- _$s7SwiftUI20SegmentedPickerStyleVMn
+- _$s7SwiftUI21_TraitWritingModifierVMa
+- _$s7SwiftUI22ContainerRelativeShapeVMn
+- _$s7SwiftUI23_CompositingGroupEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI23_CompositingGroupEffectVMn
+- _$s7SwiftUI24_TagTraitWritingModifierVMa
+- _$s7SwiftUI24_TagTraitWritingModifierVyxGAA04ViewF0AAMc
+- _$s7SwiftUI4FontV8caption2ACvgZ
+- _$s7SwiftUI4FontV8footnoteACvgZ
+- _$s7SwiftUI4FontV9TextStyleO8headlineyA2EmFWC
+- _$s7SwiftUI4FontV9TextStyleOMa
+- _$s7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lF
+- _$s7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lFQOMQ
+- _$s7SwiftUI5ColorV3mix4with2by2inA2C_SdAA8GradientV0C5SpaceVtF
+- _$s7SwiftUI6PickerVA2A4TextVRszrlE_9selection7contentACyAEq_q0_GAA18LocalizedStringKeyV_AA7BindingVyq_Gq0_yXEtcfC
+- _$s7SwiftUI6PickerVMn
+- _$s7SwiftUI6PickerVyxq_q0_GAA4ViewAAMc
+- _$s7SwiftUI7ForEachVA2A4ViewR0_rlE_2id7contentACyxq_q0_Gx_s7KeyPathCy7ElementQzq_Gq0_AKctcfC
+- _$s7SwiftUI7ForEachVMn
+- _$s7SwiftUI7ForEachVyxq_q0_GAA4ViewA2aER0_rlMc
+- _$s7SwiftUI8GradientV10ColorSpaceV10perceptualAEvgZ
+- _$s7SwiftUI8GradientV10ColorSpaceVMa
+- _$s7SwiftUI9AlignmentV13bottomLeadingACvgZ
+- _$s7SwiftUI9AnimationV6easeIn8durationACSd_tFZ
+- _$sSfSEsWP
+- _$sSfSLsWP
+- _$sSfSesWP
+- _$sSfSjsWP
+- _$sSo6CGRectV12VisualLookUpE5scale0E1X0E1YAB12CoreGraphics7CGFloatV_AItF
+- _$ss9_typeName_9qualifiedSSypXp_SbtF
+- _$sxSgSHsSHRzlMc
+- _CGImageCreateWithImageInRect
+- _CGImageGetHeight
+- _CGImageGetWidth
+- _CGRectInset
+- _CGRectIntersection
+- _VTCreateCGImageFromCVPixelBuffer
+- __availability_version_check
+- _dispatch_once_f
+- _dlsym
+- _fclose
+- _fopen
+- _fread
+- _fseek
+- _ftell
+- _rewind
+- _sscanf
+- _swift_task_getMainExecutor
+- _swift_task_isCurrentExecutor
+CStrings:
++ "$__lazy_storage_$_monocularDepthExecutor"
++ "?"
++ "@\"UIWindow\""
++ "ARCameraSource TrackManagerSupporting work queue"
++ "CVFS ignoring reset while preview is running"
++ "CVFrameSynchronizer preview layer serial queue"
++ "Hiding capture effects"
++ "_TtC6TamaleP33_496EA42FE05FE07634A3AC62A349A9F626FrameSynchronizerContainer"
++ "_latestBundleManagerOutput"
++ "_previewRunningInternal"
++ "anchorFrame.camera.transform: %s @ %f, frame.camera.trackingState == .normal: %{bool}d"
++ "assumed visible. estimate.corners: %s"
++ "cleaning"
++ "debugPreviewLayer"
++ "imageAnalysisInteraction:isDraggingVisualIntelligenceSheetDidChange:"
++ "previewFrameDisplayedCallback"
++ "previewLayerCallbackQueue"
++ "previewLayerInvalidatedCallback"
++ "previewStartedCallback"
++ "runDeferredStartWhenNeeded"
++ "setAutomaticallyRunsDeferredStart:"
++ "setRelocalizationEnabled:"
++ "smallcircle.grid.dotted.xaxis.bold.yaxis.bold"
++ "synchronizer"
++ "unstableTrackingState "
+- "%d.%d.%d"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "Access to streaming pixels is not allowed"
+- "CFDataCreateWithBytesNoCopy"
+- "CFDictionaryGetValue"
+- "CFGetTypeID"
+- "CFPropertyListCreateFromXMLData"
+- "CFPropertyListCreateWithData"
+- "CFRelease"
+- "CFStringCreateWithCStringNoCopy"
+- "CFStringGetCString"
+- "CFStringGetTypeID"
+- "Contradictory frame constraints specified."
+- "Incorrect actor executor assumption; Expected same executor as "
+- "No text in bundle"
+- "ProductVersion"
+- "Score to match >="
+- "Tamale/CameraSourceFrameExtensions.swift"
+- "Tamale/ScanwaveViewControllerWrapper.swift"
+- "Unable to get CGImage copy: %s"
+- "_TtC6TamaleP33_496EA42FE05FE07634A3AC62A349A9F622FrameConsumerContainer"
+- "_TtC6TamaleP33_53E8A0D3DC629A46C4F75C275010103622FrameConsumerContainer"
+- "_bundles"
+- "bundle-text-debug-view"
+- "calendar.badge.plus"
+- "cleanup"
+- "consumers"
+- "document.badge.gearshape"
+- "document.viewfinder"
+- "kCFAllocatorNull"
+- "monocularDepthExecutor"
+- "pin.point.of.interest.fill"
+- "qrcode.viewfinder"
+- "r"
+- "sparkle.magnifyingglass"
+- "subsequentConsumer"
+- "text.line.3.summary"
+
+```
