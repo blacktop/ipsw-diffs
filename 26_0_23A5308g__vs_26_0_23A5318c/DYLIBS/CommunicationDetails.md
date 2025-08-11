@@ -1,0 +1,231 @@
+## CommunicationDetails
+
+> `/System/Library/PrivateFrameworks/CommunicationDetails.framework/CommunicationDetails`
+
+```diff
+
+-1447.100.7.2.3
+-  __TEXT.__text: 0xb4a10
+-  __TEXT.__auth_stubs: 0x2a90
+-  __TEXT.__objc_methlist: 0x1440
+-  __TEXT.__const: 0x6082
+-  __TEXT.__swift5_typeref: 0x5688
+-  __TEXT.__swift5_reflstr: 0x2c22
+-  __TEXT.__swift5_assocty: 0x648
+-  __TEXT.__constg_swiftt: 0x3aac
+-  __TEXT.__swift5_fieldmd: 0x22f4
+-  __TEXT.__cstring: 0x40cf
+-  __TEXT.__swift5_capture: 0xd3c
+-  __TEXT.__swift5_proto: 0x258
+-  __TEXT.__swift5_types: 0x27c
++1448.100.1.2.41
++  __TEXT.__text: 0xb66f8
++  __TEXT.__auth_stubs: 0x2ab0
++  __TEXT.__objc_methlist: 0x1478
++  __TEXT.__const: 0x6122
++  __TEXT.__swift5_typeref: 0x569e
++  __TEXT.__swift5_reflstr: 0x2c82
++  __TEXT.__swift5_assocty: 0x660
++  __TEXT.__constg_swiftt: 0x3b20
++  __TEXT.__swift5_fieldmd: 0x2328
++  __TEXT.__cstring: 0x411f
++  __TEXT.__swift5_capture: 0xd4c
++  __TEXT.__swift5_proto: 0x25c
++  __TEXT.__swift5_types: 0x280
+   __TEXT.__oslogstring: 0xde7
+   __TEXT.__swift_as_entry: 0x80
+   __TEXT.__swift_as_ret: 0x68
+   __TEXT.__swift5_protos: 0x2c
+   __TEXT.__swift5_builtin: 0x17c
+   __TEXT.__swift5_mpenum: 0x38
+-  __TEXT.__unwind_info: 0x3410
++  __TEXT.__unwind_info: 0x3488
+   __TEXT.__eh_frame: 0x2020
+   __TEXT.__objc_classname: 0x2b0
+-  __TEXT.__objc_methname: 0x3f32
++  __TEXT.__objc_methname: 0x3fa9
+   __TEXT.__objc_methtype: 0x1679
+   __TEXT.__objc_stubs: 0x80
+-  __DATA_CONST.__got: 0x9f8
+-  __DATA_CONST.__const: 0x9e0
++  __DATA_CONST.__got: 0xa08
++  __DATA_CONST.__const: 0x9f0
+   __DATA_CONST.__objc_classlist: 0x168
+   __DATA_CONST.__objc_protolist: 0x1b0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1268
++  __DATA_CONST.__objc_selrefs: 0x1290
+   __DATA_CONST.__objc_protorefs: 0xd8
+-  __AUTH_CONST.__auth_got: 0x1550
+-  __AUTH_CONST.__const: 0x45b8
++  __AUTH_CONST.__auth_got: 0x1560
++  __AUTH_CONST.__const: 0x4688
+   __AUTH_CONST.__cfstring: 0x60
+-  __AUTH_CONST.__objc_const: 0x3858
+-  __AUTH.__objc_data: 0x2558
++  __AUTH_CONST.__objc_const: 0x38c0
++  __AUTH.__objc_data: 0x2598
+   __AUTH.__data: 0x2018
+-  __DATA.__data: 0x2280
+-  __DATA.__bss: 0x5440
++  __DATA.__data: 0x2290
++  __DATA.__bss: 0x54c0
+   __DATA.__common: 0x150
+   __DATA_DIRTY.__objc_data: 0x2f0
+   __DATA_DIRTY.__data: 0x400
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 59DDDE15-0A9A-3330-A075-ED645AC60026
+-  Functions: 5693
+-  Symbols:   14983
+-  CStrings:  1304
++  UUID: 90775894-FC89-385F-B4C3-71020D781A02
++  Functions: 5733
++  Symbols:   15072
++  CStrings:  1312
+ 
+Symbols:
++ _$s20CommunicationDetails0B10TabBarViewC04TabsE0C021accessibilitySelectedC0AA0bC0VSgvM
++ _$s20CommunicationDetails0B10TabBarViewC04TabsE0C021accessibilitySelectedC0AA0bC0VSgvM.resume.0
++ _$s20CommunicationDetails0B10TabBarViewC04TabsE0C021accessibilitySelectedC0AA0bC0VSgvM.resume.0Tm
++ _$s20CommunicationDetails0B10TabBarViewC04TabsE0C021accessibilitySelectedC0AA0bC0VSgvMTj
++ _$s20CommunicationDetails0B10TabBarViewC04TabsE0C021accessibilitySelectedC0AA0bC0VSgvMTq
++ _$s20CommunicationDetails0B10TabBarViewC04TabsE0C021accessibilitySelectedC0AA0bC0VSgvW
++ _$s20CommunicationDetails0B10TabBarViewC04TabsE0C021accessibilitySelectedC0AA0bC0VSgvg
++ _$s20CommunicationDetails0B10TabBarViewC04TabsE0C021accessibilitySelectedC0AA0bC0VSgvgTj
++ _$s20CommunicationDetails0B10TabBarViewC04TabsE0C021accessibilitySelectedC0AA0bC0VSgvgTq
++ _$s20CommunicationDetails0B10TabBarViewC04TabsE0C021accessibilitySelectedC0AA0bC0VSgvpAETK
++ _$s20CommunicationDetails0B10TabBarViewC04TabsE0C021accessibilitySelectedC0AA0bC0VSgvpAETk
++ _$s20CommunicationDetails0B10TabBarViewC04TabsE0C021accessibilitySelectedC0AA0bC0VSgvpMV
++ _$s20CommunicationDetails0B10TabBarViewC04TabsE0C021accessibilitySelectedC0AA0bC0VSgvpWvd
++ _$s20CommunicationDetails0B10TabBarViewC04TabsE0C021accessibilitySelectedC0AA0bC0VSgvs
++ _$s20CommunicationDetails0B10TabBarViewC04TabsE0C021accessibilitySelectedC0AA0bC0VSgvsTj
++ _$s20CommunicationDetails0B10TabBarViewC04TabsE0C021accessibilitySelectedC0AA0bC0VSgvsTq
++ _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animatedyAA0bC0VSg_SbtF
++ _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animatedyAA0bC0VSg_SbtFTj
++ _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animatedyAA0bC0VSg_SbtFTq
++ _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animatedyAA0bC0VSg_SbtFySbcfU2_TA
++ _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animatedyAA0bC0VSg_SbtFySbcfU2_yycfU_TA
++ _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animatedyAA0bC0VSg_SbtFyycfU0_TA
++ _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animatedyAA0bC0VSg_SbtFyycfU1_TA
++ _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animatedyAA0bC0VSg_SbtFyycfU1_TATm
++ _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animatedyAA0bC0VSg_SbtFyycfU_TA
++ _$s20CommunicationDetails0B10TabBarViewC0c7SegmentE0C18accessibilityLabelSSSgvg
++ _$s20CommunicationDetails0B10TabBarViewC0c7SegmentE0C18accessibilityLabelSSSgvgTo
++ _$s20CommunicationDetails0B10TabBarViewC0c7SegmentE0C18accessibilityLabelSSSgvs
++ _$s20CommunicationDetails0B10TabBarViewC0c7SegmentE0C18accessibilityLabelSSSgvsTo
++ _$s20CommunicationDetails0B10TabBarViewC0c7SegmentE0C22isAccessibilityElementSbvg
++ _$s20CommunicationDetails0B10TabBarViewC0c7SegmentE0C22isAccessibilityElementSbvgTo
++ _$s20CommunicationDetails0B10TabBarViewC0c7SegmentE0C22isAccessibilityElementSbvs
++ _$s20CommunicationDetails0B10TabBarViewC0c7SegmentE0C22isAccessibilityElementSbvsTo
++ _$s20CommunicationDetails0B10TabBarViewC12scrubStarted33_D0A65D95C34265A58F556A49A54A91C7LL2aty12CoreGraphics7CGFloatV_tFyycfU_TA.84
++ _$s20CommunicationDetails0B14ViewControllerC07contactcD0_9didDeleteySo09CNContactcD0C_So0H0CSgtF
++ _$s20CommunicationDetails0B14ViewControllerC07contactcD0_9didDeleteySo09CNContactcD0C_So0H0CSgtFTo
++ _$s20CommunicationDetails0B14ViewControllerC14setSelectedTab_8animatedySSSg_SbtF
++ _$s20CommunicationDetails0B14ViewControllerC14setSelectedTab_8animatedySSSg_SbtFfA0_
++ _$s20CommunicationDetails0B14ViewControllerC19didFinishTransition2to8animatedySi_SbtF
++ _$s20CommunicationDetails0B14ViewControllerC23performHeaderTransition10toTabIndex5tabId8animatedySi_SSSbtF
++ _$s20CommunicationDetails0B14ViewControllerC23performHeaderTransition10toTabIndex5tabId8animatedySi_SSSbtFfA1_
++ _$s20CommunicationDetails0B14ViewControllerC23performHeaderTransition10toTabIndex5tabId8animatedySi_SSSbtFyyYbScMYccfU_
++ _$s20CommunicationDetails0B14ViewControllerC23performHeaderTransition10toTabIndex5tabId8animatedySi_SSSbtFyyYbScMYccfU_TA
++ _$s20CommunicationDetails0B14ViewControllerC23performHeaderTransition10toTabIndex5tabId8animatedySi_SSSbtFyyYbScMYccfU_yyXEfU_
++ _$s20CommunicationDetails0B14ViewControllerC23performHeaderTransition10toTabIndex5tabId8animatedySi_SSSbtFyyYbScMYccfU_yyXEfU_TA
++ _$s20CommunicationDetails0B14ViewControllerC23performHeaderTransition10toTabIndex5tabId8animatedySi_SSSbtFyyYbScMYccfU_yyXEfU_yyXEfU_TA
++ _$s20CommunicationDetails0B14ViewControllerCAA0b4PagecD8DelegateA2aDP19didFinishTransition2to8animatedySi_SbtFTW
++ _$s20CommunicationDetails0B17TabBarViewWrapperV4bodyQrvg
++ _$s20CommunicationDetails0B17TabBarViewWrapperV4bodyQrvpMV
++ _$s20CommunicationDetails0B17TabBarViewWrapperV4bodyQrvpQOMQ
++ _$s20CommunicationDetails0B17TabBarViewWrapperV7SwiftUI0E0AA4BodyAdEP_AGWT
++ _$s20CommunicationDetails0B17TabBarViewWrapperV7SwiftUI0E0AAMA
++ _$s20CommunicationDetails0B17TabBarViewWrapperV7SwiftUI0E0AAMc
++ _$s20CommunicationDetails0B17TabBarViewWrapperV7SwiftUI0E0AAMcMK
++ _$s20CommunicationDetails0B17TabBarViewWrapperV7SwiftUI0E0AadEP05_makeE04view6inputsAD01_E7OutputsVAD11_GraphValueVyxG_AD01_E6InputsVtFZTW
++ _$s20CommunicationDetails0B17TabBarViewWrapperV7SwiftUI0E0AadEP05_makeE4List4view6inputsAD01_eJ7OutputsVAD11_GraphValueVyxG_AD01_eJ6InputsVtFZTW
++ _$s20CommunicationDetails0B17TabBarViewWrapperV7SwiftUI0E0AadEP14_viewListCount6inputsSiSgAD01_ejK6InputsV_tFZTW
++ _$s20CommunicationDetails0B17TabBarViewWrapperV7SwiftUI0E0AadEP4body4BodyQzvgTW
++ _$s20CommunicationDetails0B17TabBarViewWrapperV9viewModelAcA010HorizontalC7ControlV0eH0C_tcfC
++ _$s20CommunicationDetails0B17TabBarViewWrapperVMF
++ _$s20CommunicationDetails0B17TabBarViewWrapperVMa
++ _$s20CommunicationDetails0B17TabBarViewWrapperVMf
++ _$s20CommunicationDetails0B17TabBarViewWrapperVMn
++ _$s20CommunicationDetails0B17TabBarViewWrapperVN
++ _$s20CommunicationDetails0B17TabBarViewWrapperVWV
++ _$s20CommunicationDetails0B17TabBarViewWrapperVwet
++ _$s20CommunicationDetails0B17TabBarViewWrapperVwst
++ _$s20CommunicationDetails0B18PageViewControllerC31isCurrentIndexSelectionAnimated33_25673BBC73956491509BE56778D92ABCLLSbvM
++ _$s20CommunicationDetails0B18PageViewControllerC31isCurrentIndexSelectionAnimated33_25673BBC73956491509BE56778D92ABCLLSbvg
++ _$s20CommunicationDetails0B18PageViewControllerC31isCurrentIndexSelectionAnimated33_25673BBC73956491509BE56778D92ABCLLSbvpWvd
++ _$s20CommunicationDetails0B18PageViewControllerC31isCurrentIndexSelectionAnimated33_25673BBC73956491509BE56778D92ABCLLSbvs
++ _$s20CommunicationDetails0B18PageViewControllerC8navigate2to8animatedySi_SbtF
++ _$s20CommunicationDetails0B18PageViewControllerC8navigate2to8animatedySi_SbtFTj
++ _$s20CommunicationDetails0B18PageViewControllerC8navigate2to8animatedySi_SbtFTq
++ _$s20CommunicationDetails0B18PageViewControllerC8navigate2to8animatedySi_SbtFfA0_
++ _$s20CommunicationDetails0B18PageViewControllerC8navigate2to8animatedySi_SbtFySbcfU_TA
++ _$s20CommunicationDetails0B26PageViewControllerDelegateP19didFinishTransition2to8animatedySi_SbtFTj
++ _$s20CommunicationDetails0B26PageViewControllerDelegateP19didFinishTransition2to8animatedySi_SbtFTq
++ _$s20CommunicationDetails0aB11ContactCardV21contactViewController3for10inEditModeSo09CNContactfG0CAA0abC0V_SbtFZTf4nnd_n
++ _$s20CommunicationDetails20HorizontalTabControlV9ViewModelC09_selectedD033_41918102293933F9D9056016D7FA635ALLAA0bD0VSgvW
++ _$s8Dispatch0A8WorkItemC5flags5blockAcA0abC5FlagsV_yyXBtcfc
++ _$s8Dispatch0A8WorkItemCMa
++ _$sSo17OS_dispatch_queueC8DispatchE10asyncAfter8deadline7executeyAC0D4TimeV_AC0D8WorkItemCtF
++ _UIAccessibilityTraitButton
++ _UIAccessibilityTraitSelected
++ __PROPERTIES__TtCC20CommunicationDetails17DetailsTabBarView14TabSegmentView
++ _associated conformance 20CommunicationDetails0B17TabBarViewWrapperV7SwiftUI0E0AA4BodyAdEP_AdE
++ _block_copy_helper.36
++ _block_copy_helper.78
++ _block_copy_helper.91
++ _block_descriptor.38
++ _block_descriptor.80
++ _block_descriptor.93
++ _block_destroy_helper.37
++ _block_destroy_helper.79
++ _block_destroy_helper.92
++ _get_witness_table 20CommunicationDetails0B23TabBarViewRepresentableV7SwiftUI0E0HPyHC.1
++ _symbolic _____ 20CommunicationDetails0B17TabBarViewWrapperV
++ _type_layout_string 20CommunicationDetails0B17TabBarViewWrapperV
+- _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animated15scrollToVisibleyAA0bC0VSg_S2btF
+- _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animated15scrollToVisibleyAA0bC0VSg_S2btFTj
+- _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animated15scrollToVisibleyAA0bC0VSg_S2btFTq
+- _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animated15scrollToVisibleyAA0bC0VSg_S2btFfA1_
+- _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animated15scrollToVisibleyAA0bC0VSg_S2btFySbcfU1_TA
+- _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animated15scrollToVisibleyAA0bC0VSg_S2btFySbcfU1_yycfU_TA
+- _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animated15scrollToVisibleyAA0bC0VSg_S2btFyycfU0_TA
+- _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animated15scrollToVisibleyAA0bC0VSg_S2btFyycfU0_TATm
+- _$s20CommunicationDetails0B10TabBarViewC06selectC0_8animated15scrollToVisibleyAA0bC0VSg_S2btFyycfU_TA
+- _$s20CommunicationDetails0B10TabBarViewC12scrubStarted33_D0A65D95C34265A58F556A49A54A91C7LL2aty12CoreGraphics7CGFloatV_tFyycfU_TA.78
+- _$s20CommunicationDetails0B14ViewControllerC14setSelectedTabyySSSgF
+- _$s20CommunicationDetails0B14ViewControllerC19didFinishTransition2toySi_tF
+- _$s20CommunicationDetails0B14ViewControllerC23performHeaderTransition10toTabIndex5tabIdySi_SStF
+- _$s20CommunicationDetails0B14ViewControllerC23performHeaderTransition10toTabIndex5tabIdySi_SStFyyYbScMYccfU_
+- _$s20CommunicationDetails0B14ViewControllerC23performHeaderTransition10toTabIndex5tabIdySi_SStFyyYbScMYccfU_TA
+- _$s20CommunicationDetails0B14ViewControllerC23performHeaderTransition10toTabIndex5tabIdySi_SStFyyYbScMYccfU_yyXEfU_
+- _$s20CommunicationDetails0B14ViewControllerC23performHeaderTransition10toTabIndex5tabIdySi_SStFyyYbScMYccfU_yyXEfU_TA
+- _$s20CommunicationDetails0B14ViewControllerC23performHeaderTransition10toTabIndex5tabIdySi_SStFyyYbScMYccfU_yyXEfU_yyXEfU_TA
+- _$s20CommunicationDetails0B14ViewControllerCAA0b4PagecD8DelegateA2aDP19didFinishTransition2toySi_tFTW
+- _$s20CommunicationDetails0B18PageViewControllerC8navigate2toySi_tF
+- _$s20CommunicationDetails0B18PageViewControllerC8navigate2toySi_tFTj
+- _$s20CommunicationDetails0B18PageViewControllerC8navigate2toySi_tFTq
+- _$s20CommunicationDetails0B18PageViewControllerC8navigate2toySi_tFySbcfU_TA
+- _$s20CommunicationDetails0B26PageViewControllerDelegateP19didFinishTransition2toySi_tFTj
+- _$s20CommunicationDetails0B26PageViewControllerDelegateP19didFinishTransition2toySi_tFTq
+- _$sSo14UIPointerStyleCMaTm
+- _$sSo6UIViewC5UIKitE12InvalidatingV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAJyqd__AEy_xq_GGtcABRbd__luiMZ
+- _block_copy_helper.60
+- _block_copy_helper.79
+- _block_descriptor.62
+- _block_descriptor.81
+- _block_destroy_helper.61
+- _block_destroy_helper.80
+CStrings:
++ "accessibilitySelectedTab"
++ "contactViewController:didDeleteContact:"
++ "isAccessibilityElement"
++ "isCurrentIndexSelectionAnimated"
++ "setAccessibilityTraits:"
++ "setIsAccessibilityElement:"
++ "text"
+
+```

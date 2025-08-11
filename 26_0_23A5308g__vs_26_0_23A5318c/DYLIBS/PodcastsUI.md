@@ -1,0 +1,101 @@
+## PodcastsUI
+
+> `/System/Library/PrivateFrameworks/PodcastsUI.framework/PodcastsUI`
+
+```diff
+
+-4025.100.100.0.0
+-  __TEXT.__text: 0x1578ec
+-  __TEXT.__auth_stubs: 0x6db0
++4025.110.1.0.0
++  __TEXT.__text: 0x157fa8
++  __TEXT.__auth_stubs: 0x6dc0
+   __TEXT.__objc_methlist: 0x55f4
+-  __TEXT.__const: 0x99ca
+-  __TEXT.__cstring: 0x7299
++  __TEXT.__const: 0x99fa
++  __TEXT.__cstring: 0x72a9
+   __TEXT.__oslogstring: 0x397d
+   __TEXT.__gcc_except_tab: 0xbac
+   __TEXT.__ustring: 0x8
+   __TEXT.__dlopen_cstrs: 0x8e
+-  __TEXT.__swift5_typeref: 0x66a0
+-  __TEXT.__swift5_capture: 0x1720
++  __TEXT.__swift5_typeref: 0x6730
++  __TEXT.__swift5_capture: 0x1724
+   __TEXT.__constg_swiftt: 0x35d8
+-  __TEXT.__swift5_reflstr: 0x2626
++  __TEXT.__swift5_reflstr: 0x2636
+   __TEXT.__swift5_fieldmd: 0x2e88
+   __TEXT.__swift5_builtin: 0x1b8
+-  __TEXT.__swift5_assocty: 0x7a8
+-  __TEXT.__swift5_proto: 0x578
++  __TEXT.__swift5_assocty: 0x7c0
++  __TEXT.__swift5_proto: 0x57c
+   __TEXT.__swift5_types: 0x3a8
+   __TEXT.__swift5_protos: 0x68
+   __TEXT.__swift_as_entry: 0x1f0
+   __TEXT.__swift_as_ret: 0x254
+   __TEXT.__swift5_mpenum: 0x28
+-  __TEXT.__unwind_info: 0x5ad0
++  __TEXT.__unwind_info: 0x5ae8
+   __TEXT.__eh_frame: 0x74ac
+   __TEXT.__objc_classname: 0x6d2
+   __TEXT.__objc_methname: 0x109e2
+
+   __DATA_CONST.__objc_protorefs: 0xc0
+   __DATA_CONST.__objc_superrefs: 0x108
+   __DATA_CONST.__objc_arraydata: 0x58
+-  __AUTH_CONST.__auth_got: 0x36f0
+-  __AUTH_CONST.__const: 0x8d30
++  __AUTH_CONST.__auth_got: 0x36f8
++  __AUTH_CONST.__const: 0x8d80
+   __AUTH_CONST.__cfstring: 0x29c0
+   __AUTH_CONST.__objc_const: 0xe258
+   __AUTH_CONST.__objc_doubleobj: 0x70
+
+   __AUTH.__objc_data: 0xe60
+   __AUTH.__data: 0x690
+   __DATA.__objc_ivar: 0x464
+-  __DATA.__data: 0x2538
++  __DATA.__data: 0x2578
+   __DATA.__common: 0x20
+-  __DATA.__bss: 0x6a90
++  __DATA.__bss: 0x6b10
+   __DATA_DIRTY.__objc_data: 0x1888
+   __DATA_DIRTY.__data: 0x4990
+   __DATA_DIRTY.__bss: 0x4098
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D16D0000-6669-37C7-B968-3E7BC62E1976
+-  Functions: 7917
+-  Symbols:   9504
+-  CStrings:  4978
++  UUID: D8BDD0C4-B75A-309E-85C1-1FA908186912
++  Functions: 7923
++  Symbols:   9505
++  CStrings:  4980
+ 
+Symbols:
++ _get_witness_table STRzlSay18PodcastsFoundation12ArtworkModelVGSTHPyHC.77
++ _get_witness_table STRzlSaySSGSTHPyHC.75
++ _symbolic _____y__________y_____y_____yAAy__________yACy_____yAAyAF_____y_____yADy_____yAKy_____yAF_____yAF_____GGAPGALyAF_____GGGGG_____yAfNGGGGGAYGGGG_____yABSo7UIImageCA8______10PodcastsUIyHCg0_GG 18PodcastsFoundation24CacheAssetProcessingStepV 0A2UI22PreparedArtworkRequestV AA14UniquePipelineV AA021ReceiveAndSubscribeOndeF0V AD014PrepareUIImageeF0V AA0iJ0V AD06ResizeieF0V AD025InvalidateImageStoreValueeF0V AD07EffectsieF0V AA0u13NormalizationeF0V AA08FallbackeF0V AA0d6SourceF0V AA03AnyD6SourceV AA0I7ContentO AD0uvI6SourceV AA04DiskdC0C AA08InMemorydC0C AA15InMemorySizableP
++ _symbolic _____y__________y_____y_____y_____y__________yABy_____yAEyAF_____y_____yACy_____yAKy_____yAF_____yAF_____GGAPGALyAF_____GGGGG_____yAfNGGGGGAYGGGG_____yAASo7UIImageCA8______10PodcastsUIyHCg0_G_Qo_ 18PodcastsFoundation24CacheAssetProcessingStepV9publisherQrvpQO 0A2UI22PreparedArtworkRequestV AA14UniquePipelineV AA021ReceiveAndSubscribeOndeF0V AE014PrepareUIImageeF0V AC AA0jK0V AE06ResizejeF0V AE025InvalidateImageStoreValueeF0V AE07EffectsjeF0V AA0v13NormalizationeF0V AA08FallbackeF0V AA0d6SourceF0V AA03AnyD6SourceV AA0J7ContentO AE0vwJ6SourceV AA04DiskdC0C AA08InMemorydC0C AA15InMemorySizableP
++ _symbolic _____y______y_____y__________y_____y_____y_____y__________yADy_____yAGyAH_____y_____yAEy_____yAMy_____yAH_____yAH_____GGARGANyAH_____GGGGG_____yAhPGGGGGA_GGGG_____yACSo7UIImageCA10______10PodcastsUIyHCg0_G_Qo_GG 7Combine10PublishersO12HandleEventsV 18PodcastsFoundation13EmitLifecycleV AF24CacheAssetProcessingStepV9publisherQrvpQO 0E2UI22PreparedArtworkRequestV AF14UniquePipelineV AF021ReceiveAndSubscribeOnjkL0V AL014PrepareUIImagekL0V AJ AF0pQ0V AL06ResizepkL0V AL025InvalidateImageStoreValuekL0V AL07EffectspkL0V AF018ImageNormalizationkL0V AF08FallbackkL0V AF0j6SourceL0V AF03AnyJ6SourceV AF0P7ContentO AL010ImageStoreP6SourceV AF04DiskjI0C AF08InMemoryjI0C AF15InMemorySizableP
++ _symbolic _____y_____y__________y_____y_____y_____y__________yACy_____yAFyAG_____y_____yADy_____yALy_____yAG_____yAG_____GGAQGAMyAG_____GGGGG_____yAgOGGGGGAZGGGG_____yABSo7UIImageCA9______10PodcastsUIyHCg0_G_Qo_G 18PodcastsFoundation13EmitLifecycleV AA24CacheAssetProcessingStepV9publisherQrvpQO 0A2UI22PreparedArtworkRequestV AA14UniquePipelineV AA021ReceiveAndSubscribeOnfgH0V AG014PrepareUIImagegH0V AE AA0lM0V AG06ResizelgH0V AG025InvalidateImageStoreValuegH0V AG07EffectslgH0V AA0x13NormalizationgH0V AA08FallbackgH0V AA0f6SourceH0V AA03AnyF6SourceV AA0L7ContentO AG0xyL6SourceV AA04DiskfE0C AA08InMemoryfE0C AA15InMemorySizableP
++ _symbolic _____y_____y_____y__________y_____y_____yACyAD_____y_____yAAy_____yAJy_____yAD_____yAD_____GGAOGAKyAD_____GGGGG_____yAdMGGGGGAXGGG 18PodcastsFoundation40ReceiveAndSubscribeOnAssetProcessingStepV 0A2UI014PrepareUIImagehI0V AA05CacheghI0V AA14ArtworkRequestV AD06ResizenhI0V AA14UniquePipelineV AD025InvalidateImageStoreValuehI0V AD07EffectsnhI0V AA0t13NormalizationhI0V AA08FallbackhI0V AA0g6SourceI0V AA03AnygZ0V AA0N7ContentO AD0tunZ0V AA04DiskgM0C
++ _symbolic _____y_____y_____y_____y__________yAAy_____yADyAE_____y_____yABy_____yAJy_____yAE_____yAE_____GGAOGAKyAE_____GGGGG_____yAeMGGGGGAXGGGG 18PodcastsFoundation14UniquePipelineV AA40ReceiveAndSubscribeOnAssetProcessingStepV 0A2UI014PrepareUIImagejK0V AA05CacheijK0V AA14ArtworkRequestV AF06ResizepjK0V AF025InvalidateImageStoreValuejK0V AF07EffectspjK0V AA0t13NormalizationjK0V AA08FallbackjK0V AA0i6SourceK0V AA03AnyiZ0V AA0P7ContentO AF0tupZ0V AA04DiskiO0C
+- _get_witness_table STRzlSay18PodcastsFoundation12ArtworkModelVGSTHPyHC.76
+- _get_witness_table STRzlSaySSGSTHPyHC.74
+- _symbolic _____y__________y_____yAAy__________yACy_____yAAyAE_____y_____y_____y_____yAKy_____yAE_____yAE_____GGAPGALyAE_____GGGGG_____yAeNGGGGGAYGGG_____yABSo7UIImageCA7______10PodcastsUIyHCg0_GG 18PodcastsFoundation24CacheAssetProcessingStepV 0A2UI22PreparedArtworkRequestV AA14UniquePipelineV AD014PrepareUIImageeF0V AA0iJ0V AD06ResizeieF0V AD025InvalidateImageStoreValueeF0V AD07EffectsieF0V AA0q13NormalizationeF0V AA021ReceiveAndSubscribeOndeF0V AA08FallbackeF0V AA0d6SourceF0V AA03AnyD6SourceV AA0I7ContentO AD0qrI6SourceV AA04DiskdC0C AA08InMemorydC0C AA15InMemorySizableP
+- _symbolic _____y__________y_____y_____y__________yABy_____yADyAE_____y_____y_____y_____yAKy_____yAE_____yAE_____GGAPGALyAE_____GGGGG_____yAeNGGGGGAYGGG_____yAASo7UIImageCA7______10PodcastsUIyHCg0_G_Qo_ 18PodcastsFoundation24CacheAssetProcessingStepV9publisherQrvpQO 0A2UI22PreparedArtworkRequestV AA14UniquePipelineV AE014PrepareUIImageeF0V AC AA0jK0V AE06ResizejeF0V AE025InvalidateImageStoreValueeF0V AE07EffectsjeF0V AA0r13NormalizationeF0V AA021ReceiveAndSubscribeOndeF0V AA08FallbackeF0V AA0d6SourceF0V AA03AnyD6SourceV AA0J7ContentO AE0rsJ6SourceV AA04DiskdC0C AA08InMemorydC0C AA15InMemorySizableP
+- _symbolic _____y______y_____y__________y_____y_____y__________yADy_____yAFyAG_____y_____y_____y_____yAMy_____yAG_____yAG_____GGARGANyAG_____GGGGG_____yAgPGGGGGA_GGG_____yACSo7UIImageCA9______10PodcastsUIyHCg0_G_Qo_GG 7Combine10PublishersO12HandleEventsV 18PodcastsFoundation13EmitLifecycleV AF24CacheAssetProcessingStepV9publisherQrvpQO 0E2UI22PreparedArtworkRequestV AF14UniquePipelineV AL014PrepareUIImagekL0V AJ AF0pQ0V AL06ResizepkL0V AL025InvalidateImageStoreValuekL0V AL07EffectspkL0V AF0x13NormalizationkL0V AF021ReceiveAndSubscribeOnjkL0V AF08FallbackkL0V AF0j6SourceL0V AF03AnyJ6SourceV AF0P7ContentO AL0xyP6SourceV AF04DiskjI0C AF08InMemoryjI0C AF15InMemorySizableP
+- _symbolic _____y_____y__________y_____y_____y__________yACy_____yAEyAF_____y_____y_____y_____yALy_____yAF_____yAF_____GGAQGAMyAF_____GGGGG_____yAfOGGGGGAZGGG_____yABSo7UIImageCA8______10PodcastsUIyHCg0_G_Qo_G 18PodcastsFoundation13EmitLifecycleV AA24CacheAssetProcessingStepV9publisherQrvpQO 0A2UI22PreparedArtworkRequestV AA14UniquePipelineV AG014PrepareUIImagegH0V AE AA0lM0V AG06ResizelgH0V AG025InvalidateImageStoreValuegH0V AG07EffectslgH0V AA0t13NormalizationgH0V AA021ReceiveAndSubscribeOnfgH0V AA08FallbackgH0V AA0f6SourceH0V AA03AnyF6SourceV AA0L7ContentO AG0tuL6SourceV AA04DiskfE0C AA08InMemoryfE0C AA15InMemorySizableP
+- _symbolic _____y_____y_____y__________yAAy_____yACyAD_____y_____y_____y_____yAJy_____yAD_____yAD_____GGAOGAKyAD_____GGGGG_____yAdMGGGGGAXGGG 18PodcastsFoundation14UniquePipelineV 0A2UI28PrepareUIImageProcessingStepV AA010CacheAssethI0V AA14ArtworkRequestV AD06ResizelhI0V AD025InvalidateImageStoreValuehI0V AD07EffectslhI0V AA0p13NormalizationhI0V AA021ReceiveAndSubscribeOnkhI0V AA08FallbackhI0V AA0k6SourceI0V AA03AnykZ0V AA0L7ContentO AD0pqlZ0V AA04DiskkJ0C
+CStrings:
++ "fullScreen"
++ "mini"
+
+```

@@ -1152,654 +1152,654 @@
 <details>
   <summary><i>View NEW</i></summary>
 
-##### `RTKit.bin`
-  - `RS: RX: RS_EVT_DEVICE_TETHERED; invoke poutTriggerSet`
-  - `POP: TXFW: %s: drct: %u (targ) | %u (program)`
-  - `RS: TX: RS_EVT_DEVICE_UNTETHERED: start poutUntethered timer for %llu ms`
-  - `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Accept; loadFirmware(TX)`
-  - `RS: RX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; invoke poutTriggerSet`
-  - `configureTxPout`
-  - `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Accept; loadFirmware(RX)`
-  - `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Reject(%d); stay in TX mode`
-  - `ACSt: iBoot HP %d Lp %d OS=%d ACSt 0x%02x AC %d GG %d ACPW %d SOC1 %d SMCFixturePresent %d`
-  - `inductivePoutPolicy.cpp`
-  - `RS: RX: RS_EVT_FW_DOWNLOADED received; invoke poutTriggerSet`
-  - `inductiveRoleSwap.cpp`
-  - `RS: RX: RS_EVT_ACCESSORY_DETACHED`
-  - `RS: TX: RS_EVT_DEVICE_TETHERED: cancel poutUntethered timer (%llu)`
-  - `RS: RX: RS_EVT_ACCESSORY_UNTETHERED; invoke poutTriggerSet`
-  - `NVMIT: i %d`
-  - `RS: RX: RS_EVT_DEAD_ACCESSORY_CLEARED; invoke poutTriggerSet`
-  - `RS: RX: RS_EVT_POUT_CAPABLE; invoke poutTriggerSet`
-  - `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Reject(%d); stay in RX mode`
-  - `POP: TXFW: pout_set_power_limit failed; ret=%d`
-  - `RS: RX: RS_EVT_DEVICE_UNTETHERED; invoke poutTriggerSet`
-  - `RS: RX: RS_EVT_DEAD_ACCESSORY_DETECTED; invoke poutTriggerSet`
-  - `smc/forceKeyAccess.cpp`
-  - `RS: RX: RS_EVT_POUT_ABOVE_THRESHOLD; poutTriggerSet`
-  - `RS: RX: RS_EVT_HLOS_BOOTED; invoke poutTriggerSet`
-  - `RS: TX: RS_EVT_ACCESSORY_ATTACHED`
-  - `smc/i2c.cpp`
-  - `RS: RX: RS_EVT_ACCESSORY_ATTACHED`
-  - `RS: RX: RS_EVT_WAIKATO_MITIGATION_READY; invoke poutTriggerSet`
-  - `extPwriOS.cpp`
-  - `POP: TXFW: %s: ramp: %u (targ) | %lld %+lld => %u (program)`
-##### `AppleSMCFirmware.bin`
-  - `AppleSMCFirmware_H17-6164.0.186.0.11.d93.REL`
-##### `iboot`
-  - `^/TY4Xs@wG`
-  - `(}F?mnâZv`
-  - `t]V:~KlWǎ`
-  - `MCE FW E001- built on Wed Jul 23 06:55:02 UTC 2025 by root`
-  - ` ApplePMUFirmware-608.0.9~463.release`
-  - `l!}^uVſ=5`
-  - `0SxM1SxM2SxM3SxM`
-  - `ZU[T[R[Q[P[O-`
-  - `dart-gapf-sr-region`
-  - `^:xZ5\qDn*B9`
-  - `%s:%i 0x%X`
-  - `i_z¢SQT"j`
-  - `dmem_regioning.c`
-  - `ussqqttvpx`
-  - `9?mŸO$1\VB`
-  - `}sqqptsppttpq`
-  - `ƚQsR)Hlnb`
-  - `root@nx748.p1l.plx.sd...2025/07/26@17:10:24`
-  - `%:r  9RGnr%`
-  - `eqQ2-&OXeV`
-  - `z0Hb_QfTJ5`
-  - `B,ae-ĺ*T%K`
-  - `|NÕS9MtJ+`
-  - `˸DWrQd=}-`
-  - `ERp]œ&d_:Y/y`
-  - `:߂ɱǫpi5`
-  - `PpnkhXu.46`
-  - `']>|t\qL"(b`
-  - `52f839d5283d0327ef2df831b96bd134`
-  - `iBoot-13822.0.277.0.3`
-  - `Unsupported Core Type`
-  - `HʎND>[èCU`
 ##### `iboot_blob29.bin`
-  - `N-A1F1I1P1S1V1i1p1q1u1v1A2F2I2P2S2V2i2p2q2u2v2`
-  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmEdth`
-  - `\\\\\\\\?\`
+  - `QAIB1DEDUFVF`
+  - `DACEACNKDADGBDGCDGSDG1GL2GL4GLFONSGOIMPSMPcMP"`
   - `VKSPSSTSEW0n`
-  - `DCADBDNDTDLFCSNS1W2W6+`
+  - `\\\\\\\\?\`
   - `M???9M\\"\`
-  - `YNU=ahWtLp;?c6S4\jw`
+  - `!B-C-E-F-I-J-M-N-P-Q-R-S-T-U-W-X-PAIBFCPCBDIDLDCEQEPFDIEIMLKPWPtSSV`
+  - `00102030405060708090C0W00111213141W10C1CSOCSSS6-`
   - `7777777.77)`
+  - `\\\\\\\?\\\???\\\\\\\\\\\\\\\\`
+  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTF`
   - `_ _________/Q>`
   - `30BiB0C1C2CiCjCkC0I0KiK0L1L2L3L4L5L6L7L8L9LALBLiLjLkLlLmLnLoLpLqLrLsLtL0PRPdPkPsP1R2RiRjR0SiS0TiT0WiW0XC`
-  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTF`
+  - `DCADBDNDTDLFCSNS1W2W6+`
+  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmEdth`
+  - `YNU=ahWtLp;?c6S4\jw`
+  - `N-A1F1I1P1S1V1i1p1q1u1v1A2F2I2P2S2V2i2p2q2u2v2`
   - `rrNrBBLBBBD`
   - `0P2PaPmPITCȟ`
-  - `!B-C-E-F-I-J-M-N-P-Q-R-S-T-U-W-X-PAIBFCPCBDIDLDCEQEPFDIEIMLKPWPtSSV`
-  - `\\\\\\\?\\\???\\\\\\\\\\\\\\\\`
-  - `DACEACNKDADGBDGCDGSDG1GL2GL4GLFONSGOIMPSMPcMP"`
-  - `QAIB1DEDUFVF`
-  - `00102030405060708090C0W00111213141W10C1CSOCSSS6-`
+##### `AppleSMCFirmware.bin`
+  - `AppleSMCFirmware_H17-6164.0.186.0.11.d93.REL`
+##### `RTKit.bin`
+  - `RS: RX: RS_EVT_DEAD_ACCESSORY_DETECTED; invoke poutTriggerSet`
+  - `POP: TXFW: pout_set_power_limit failed; ret=%d`
+  - `RS: RX: RS_EVT_POUT_ABOVE_THRESHOLD; poutTriggerSet`
+  - `POP: TXFW: %s: drct: %u (targ) | %u (program)`
+  - `RS: TX: RS_EVT_DEVICE_UNTETHERED: start poutUntethered timer for %llu ms`
+  - `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Reject(%d); stay in RX mode`
+  - `RS: RX: RS_EVT_ACCESSORY_DETACHED`
+  - `RS: RX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; invoke poutTriggerSet`
+  - `RS: TX: RS_EVT_DEVICE_TETHERED: cancel poutUntethered timer (%llu)`
+  - `smc/forceKeyAccess.cpp`
+  - `RS: RX: RS_EVT_WAIKATO_MITIGATION_READY; invoke poutTriggerSet`
+  - `ACSt: iBoot HP %d Lp %d OS=%d ACSt 0x%02x AC %d GG %d ACPW %d SOC1 %d SMCFixturePresent %d`
+  - `RS: RX: RS_EVT_HLOS_BOOTED; invoke poutTriggerSet`
+  - `RS: TX: RS_EVT_ACCESSORY_ATTACHED`
+  - `NVMIT: i %d`
+  - `smc/i2c.cpp`
+  - `RS: RX: RS_EVT_DEVICE_TETHERED; invoke poutTriggerSet`
+  - `RS: RX: RS_EVT_ACCESSORY_ATTACHED`
+  - `inductiveRoleSwap.cpp`
+  - `RS: RX: RS_EVT_DEAD_ACCESSORY_CLEARED; invoke poutTriggerSet`
+  - `extPwriOS.cpp`
+  - `RS: RX: RS_EVT_DEVICE_UNTETHERED; invoke poutTriggerSet`
+  - `configureTxPout`
+  - `RS: RX: RS_EVT_FW_DOWNLOADED received; invoke poutTriggerSet`
+  - `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Reject(%d); stay in TX mode`
+  - `inductivePoutPolicy.cpp`
+  - `POP: TXFW: %s: ramp: %u (targ) | %lld %+lld => %u (program)`
+  - `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Accept; loadFirmware(RX)`
+  - `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Accept; loadFirmware(TX)`
+  - `RS: RX: RS_EVT_ACCESSORY_UNTETHERED; invoke poutTriggerSet`
+  - `RS: RX: RS_EVT_POUT_CAPABLE; invoke poutTriggerSet`
+##### `iboot`
+  - `HʎND>[èCU`
+  - `ƚQsR)Hlnb`
+  - `9?mŸO$1\VB`
+  - `ZU[T[R[Q[P[O-`
+  - `eqQ2-&OXeV`
+  - `%s:%i 0x%X`
+  - `B,ae-ĺ*T%K`
+  - `:߂ɱǫpi5`
+  - `ERp]œ&d_:Y/y`
+  - `^/TY4Xs@wG`
+  - `Unsupported Core Type`
+  - `iBoot-13822.0.277.0.3`
+  - `^:xZ5\qDn*B9`
+  - `52f839d5283d0327ef2df831b96bd134`
+  - `ussqqttvpx`
+  - `MCE FW E001- built on Wed Jul 23 06:55:02 UTC 2025 by root`
+  - `dart-gapf-sr-region`
+  - `|NÕS9MtJ+`
+  - `PpnkhXu.46`
+  - `˸DWrQd=}-`
+  - ` ApplePMUFirmware-608.0.9~463.release`
+  - `%:r  9RGnr%`
+  - `z0Hb_QfTJ5`
+  - `}sqqptsppttpq`
+  - `(}F?mnâZv`
+  - `']>|t\qL"(b`
+  - `root@nx748.p1l.plx.sd...2025/07/26@17:10:24`
+  - `t]V:~KlWǎ`
+  - `0SxM1SxM2SxM3SxM`
+  - `l!}^uVſ=5`
+  - `dmem_regioning.c`
+  - `i_z¢SQT"j`
 ##### `iboot_blob30.bin`
-  - `jHq`
-  - `?:Z`
-  - `disabled`
-  - `wallet_agent_silent_check`
-  - `apKeys`
-  - `OH`
-  - `+L`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/delay.cpp`
-  - `drivers/devices/aon_ptd.cpp`
-  - `X{`
-  - `X{`
-  - `X{`
-  - `invalid_objc_cast`
-  - `lc_transfer_core`
-  - `platform/t8140/device_spmi.cpp`
-  - `Op %d`
-  - `smc/bms/bms_v1/bms.cpp`
-  - `external2`
-  - `X{`
-  - `X{`
-  - `drv_gg_veridian.cpp`
-  - `thresholding_assert`
-  - `adc_logging_task`
-  - `bI-`
-  - `X{`
+  - `out_of_bounds`
   - `scan_agent_push`
-  - `ppmtask`
-  - `RTKSTACK`
-  - `KK`
-  - `E/`
-  - `drivers/charger/waikato/drv_waikato_charger.cpp`
-  - `pfsm_interpolation_agent_callback`
-  - `Address Remapper %d Error: 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x `
-  - `nullability_arg`
-  - `fw status invalid`
-  - `AONPTDTask`
-  - `Notf: A%d uvdmDone`
-  - `charger.cpp`
-  - `Not charging:%llx`
-  - `s-`
-  - `knv`
-  - ` @`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/acBlock.cpp`
-  - `pfsm_wallet_agent_callback`
-  - `6V`
-  - `ld`
-  - `%s: error in mbox rsp: embox.error=%d`
-  - `platform/t8140/device_aon_ptd.cpp`
-  - `A%d, SMC did not acquire the uvdm Lock %d, uvdm Timer %d`
-  - `magsafe chg`
-  - `t9G`
-  - `$tI`
+  - `0+`
   - `X{`
-  - `Write Shelf life state requested = %d, data=%d, rc = %d, `
-  - `:L`
-  - `[&`
-  - `EHLC`
-  - `scheduler`
-  - `smc/comms.cpp`
-  - `mpp chg`
   - `X{`
-  - `platform/t8140/device_forcewakeup.cpp`
-  - `BMSTask`
-  - `pd charger`
-  - `Critical Shutdown Requested`
-  - `\5`
-  - `platform/common/platform_tunables.cpp`
-  - `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
-  - `pfsm_pbatt_callback`
-  - `pmu_workloop`
-  - `)W`
-  - `t?`
-  - `#<`
-  - `X{`
+  - `~?F`
+  - `h㈵`
+  - `dotara_spmi_irq_handler`
+  - `wrong response type:%d, id:0x%x`
+  - `adc_sensing_task`
+  - `go`
+  - `tx sreg %x ar %x h %x state %x qpp %d assert %d lpm %d`
+  - `Xa`
+  - `Read Shelf life- data=%d, return state=%d, rc=%#x`
+  - `thresholding_task`
+  - `platform/t8140/device_pmgr.cpp`
+  - `SCfg`
+  - `UFPf`
+  - `TD`
   - `X{`
   - `bcm5935x fexcept %x`
-  - `Debug counters: {`
-  - `inValid Op %d`
-  - `=m`
-  - `o%6`
-  - `float_cast_overflow`
-  - `%s: (spmi_addr=0x%x)`
-  - `l{`
-  - `:t`
-  - `)= `
-  - `X{`
-  - `UNKNOWN`
-  - `DE: correcting shutdown_threshold from %d to %d`
-  - `<G`
-  - `missing_return`
-  - `PMU Critical Shutdown IRQ %s`
-  - `  `
-  - `@,`
-  - `root@Jul 24 2025@22:47:23~.release`
-  - `builtin_unreachable`
-  - `adc_sensing_results_handler`
-  - `wallet_agent_sample`
-  - `adc_worker_task`
-  - ` E%d %d %x`
-  - `X{`
-  - `IDLE`
-  - `3t@ȯ`
-  - `MGiI`
-  - `Q8`
-  - `X{`
-  - `base_band_agent_event_start`
-  - `pfsm_dynamic_agent_callback`
-  - `&:`
-  - `?K6`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/mux.cpp`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/singlePoleFilter.cpp`
-  - `drv_pmu_events.cpp`
-  - `X{`
-  - `X{`
-  - `aon_ptd.cpp`
-  - `RxStChg: FW st chg: 0x%02x <- 0x%02x`
-  - `current_histogram_task`
-  - `(F`
-  - `DCL%02x: 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x`
-  - `battery_authentication.cpp`
-  - `P `
-  - `dotara_spmi_irq_handler`
-  - `SWUF`
-  - `apComms.cpp`
-  - `3_L`
-  - `X{`
-  - `%s: %s:%d: %s, Outbound GAPF error: addr=0x%llx, cmd=%c, valid=%d, id=%d`
-  - `RxNegoPwr: Ng: %d, Pt: %d, Rs: %d`
   - `interpolation`
-  - `management`
-  - `usb host`
-  - `smc/aceUtilEmbedded.cpp`
-  - `hW`
-  - `TXDS: IND RX: stream=%d status=%d size=%d buff=0x%08x`
-  - `TXDS: error in alloc_stream: embox.error=%d; (sid=%d size=%d)`
-  - `HE-nRCS %d First Error: Cmd = 0x%x, Timestamp = 0x%x, Status = 0x%x `
-  - `TSCw`
-  - `X{`
-  - `X{`
-  - `platform/tunables/tunableh.c`
-  - `lc_pout_request_tx_initiated_role_swap`
-  - `scheduler_enable`
-  - `smc/event_buf.`
-  - `owG`
-  - `platform/t8140/device_gpio.cpp`
-  - `platform/t8140/device_trigger_interface.cpp`
-  - `i]Wb`
-  - `X{`
-  - `Ace: End HostAct %c%c%c%c`
-  - `X{`
-  - `ADC_GAIN: %08X, %08X, %08X (%d, %d, %d)`
-  - `platform/t8140/device_dockchannel.cpp`
-  - `X{`
-  - `asmi`
-  - `jp5`
-  - `!#ĳV`
-  - `load_invalid_value`
-  - `RS: st_set_local_tether_state failed with ret=0x%x`
-  - `DCP idle failed (%d)`
-  - `%s: %s:%d: %s, Invalid register size %u`
-  - `eP`
-  - `FIQ`
-  - `cfi_check_fail`
-  - `pfsm_adc_worker_callback`
-  - `X{`
-  - `TXDS: alloc_stream failed with ret=%d`
-  - `platform/common/platform_mem.cpp`
-  - `A%d lock not acquired, timeout was set %d`
-  - `go`
-  - `pmu man1_conv %Xh %Xh %Xh %Xh %Xh`
-  - `iC`
-  - `X{`
-  - `:/`
-  - `.;\`
-  - `iF`
-  - `PCF`
-  - `shift_out_of_bounds`
-  - `pi_control_task`
-  - `Unsupported IRQ Number to read PMU DVC Status (%02Xh)`
-  - `HE-nRCS %d Error Count: In = 0x%x, Out = 0x%x, Bus = 0x%x `
-  - `smc/acam.cpp`
-  - `ace.cpp`
-  - `kaE`
-  - `CrashlogData_t ptr = 0x%08lx`
-  - `X{`
-  - `UBSAN triggered SMC panic: %s`
-  - `-=m`
-  - `|!`
-  - `#=`
-  - `X{`
-  - `TXDS: start_xfr: err=%d, stream_id=%d`
-  - `kdz`
-  - `<q`
-  - `smc/apComms.cpp`
-  - `X(`
-  - `wrong response type:%d, id:0x%x`
-  - `AP`
-  - `Px`
-  - `O\`
-  - `filtering_task`
-  - `InductiveTask`
-  - `battery_dynamic_shutdown.cpp`
-  - `vla_bound_not_positive`
-  - `dynamic_agent_results`
-  - `smc/ap_watchdog.cpp`
-  - `X{`
-  - `mul_overflow`
-  - `drv_fury.cpp`
-  - `smc/bms/bms_v1/charger.cpp`
-  - `X{`
-  - `DRAM`
-  - `A%d SSPS%d`
-  - `Ace: HostAct %c%c%c%c`
-  - `eL`
-  - `X{`
-  - `enable`
-  - `FW info: status = 0x%llx, fw_ver_string = %s, assert_id = %d`
-  - `smc/bms/batterySocFilter/batterySocFilter.cpp`
-  - `SPMIv02`
-  - `disable`
-  - `gmadc_scan_agent_irq_clr`
-  - `DFUf`
-  - `DE: invalid checksum SMC %d AP %d`
-  - `d1PTd2PTd3PTd4PTd5PT`
-  - `0e`
-  - `eA`
-  - `X{`
-  - `drivers/devices/gapf.cpp`
-  - `CLTM`
-  - `lc_read_multiple`
-  - `>d;`
-  - `h㈵`
-  - `X{`
-  - `smc/ace.cpp`
-  - `)"`
-  - `+o*7`
-  - `X{`
-  - `%02x %s`
-  - `fury_enable_scan: %d`
-  - `HE-nRCS %d Error Status = 0x%x `
-  - `GBaC`
+  - `SRYR`
+  - `SWDF`
+  - `'d`
   - `hR`
-  - `?6`
-  - `?P`
-  - `X{`
-  - `fw read zero. retrying: %d`
-  - `pbuck_adc_push`
-  - `smc/ap_watchdog_logger.cpp`
-  - `=-f`
-  - `Qkkbal`
-  - `LKTR`
-  - `?-`
-  - `X{`
-  - `nonnull_arg`
-  - `pfsm_scan_agent_callback`
-  - `dynamic_agent_push`
-  - `Tx`
-  - `s?`
-  - `?ffffff`
-  - `IND wake poll %d fwr %d fws %x ret %x st %d lk %d wk %u/%d`
-  - `PMU Critical Shutdown Request exit (%02Xh)`
-  - `platform/t8140/device_pmgr.cpp`
-  - `' ).;<52`
-  - `zƳ@`
-  - `d*`
-  - `X{`
-  - `X{`
-  - `%02x %02x %02x %02x   %02x %02x %02x %02x   %02x %02x %02x %02x   %02x %02x %02x %02x`
-  - `%s: %s:%d: %s, Invalid pmu initialization index. Max pmu index is : %d`
-  - `dcp_to_smc`
   - `TXDS: IND TX: stream=%d status=%d all_data_transmitted=%d`
-  - `host_irq_triggered`
-  - `platform/common/platform_power.cpp`
-  - `Get Interrupt Mask Fail OneAceInt 0x%x`
-  - `A%d unable to acquire smc uvdm lock %d`
-  - `'DH`
-  - `hn`
-  - `X{`
-  - `pmu_drv_adc_read error ch%d: status=%Xh value=%d (%d)`
-  - `%s: %s:%d: %s, DVC_DONE_ERROR/DVC_GROUP_DONE_ERROR (PMU[%d] %d)`
+  - `DCL%02x: 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x`
+  - `?K6`
+  - `lc_transfer_core`
+  - `lc_pout_request_tx_initiated_role_swap`
   - `    %*s = %d`
-  - `duty_cycler_task`
-  - `ioreporting`
-  - `TD`
-  - `cc=`
-  - `X{`
-  - `X{`
-  - `drivers/thermal/ptdCore.cpp`
-  - `platform/t8140/device_i2c.cpp`
-  - `battery.cpp`
-  - `iL`
-  - `tx sreg %x ar %x h %x state %x qpp %d assert %d lpm %d`
-  - `v `
-  - `L7`
-  - `_(`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/signalConvert.cpp`
-  - `%s: %s:%d: %s, DVC_DONE_ERROR/DVC_GROUP_DONE_ERROR HW_Q Error! 0x%x (%d)`
-  - `systask`
-  - `mQ`
-  - `pj`
-  - `X{`
-  - `drivers/pmu/v3/drv_pmu_events.cpp`
+  - `adc_sensing_results_handler`
+  - `current_histogram_task`
+  - `vBMSTaskStop fail`
+  - `OH`
+  - `=-f`
+  - `#.zf`
   - `E%`
   - `X{`
-  - `%s: %s:%d: %s, SMC MTR Offset Case not Handled Type %d Idx %d Calc %d`
-  - ` R`
-  - `rqg`
-  - `gW`
-  - `X{`
-  - `pfsm_fw_health_callback`
-  - `w,a`
+  - `pointer_overflow`
+  - `host_irq_triggered`
+  - `Failed to read PMU DVC Status`
+  - `' ).;<52`
+  - `8R`
+  - `wn>Jj`
+  - `E/`
+  - `add_overflow`
+  - `Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d gg_vcut=%d iss=%d.`
+  - `tTDPhTTR`
   - `c?`
   - `X{`
-  - `Failed to %s PMU Critical Shutdown IRQ (%d)`
-  - `n1y`
   - `X{`
-  - `Read Shelf life- data=%d, return state=%d, rc=%#x`
-  - `IND wk%u try%d`
-  - `interpolation_agent_task`
-  - `ADC_OFST: %04hX, %04hX, %04hX`
-  - `(%u%)`
-  - `?d;`
+  - `2u\`
+  - `bcm59367.cpp`
+  - `base_band_agent_event_start`
+  - `SWUF`
+  - ` R`
+  - `333333`
+  - `X{`
+  - `oslog`
+  - `ACE_REG_MODE: Ace%d Mode=%c%c%c%c`
+  - `B0GTC0GTH0GTV0GT`
+  - `eL`
+  - `(8`
+  - `no response available fifo_avail 0x%x, header 0x%x`
+  - `thresholding_assert`
+  - `drivers/thermal/ptdCore.cpp`
+  - `ppmtask`
+  - `:L`
+  - `X{`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/acBlock.cpp`
+  - `AON PTD Update for Id = %c%c%c%c, msg = 0x%llx, metadata = 0x%llx `
+  - `disabled`
+  - `LDO%d: 50mA`
+  - `!#ĳV`
+  - `X{`
+  - `DCP idle failed (%d)`
+  - `platform/common/platform_power.cpp`
+  - `nullability_arg`
+  - `Failed to %s PMU Critical Shutdown IRQ (%d)`
+  - `pd charger`
+  - `7S`
+  - `builtin_unreachable`
+  - `fw read zero. retrying: %d`
+  - `ioreporting`
+  - ` E%d %d %x`
+  - `X{`
+  - `Debug counters: {`
+  - `Px`
+  - `TXDS: error in alloc_stream: embox.error=%d; (sid=%d size=%d)`
+  - `knv`
+  - `%s: %s:%d: %s, Outbound GAPF error: addr=0x%llx, cmd=%c, valid=%d, id=%d`
+  - `RS: st_role_swap_preferred failed with ret=0x%x`
+  - `filtering_task`
+  - `platform/common/platform_mem.cpp`
+  - `usb brick`
+  - `smc/bms/bms_v1/bms.cpp`
+  - `IDLE`
+  - `bms.cpp`
+  - `rqg`
+  - `$tI`
+  - `stk_fail`
+  - `x4`
+  - `%s:%d error: %x`
+  - `battery_authentication.cpp`
+  - `Not charging:%llx`
+  - `DE: invalid checksum SMC %d AP %d`
+  - `function_type_mismatch`
+  - `PMU DVC Status LDO_DVC_ERROR%d : %02Xh`
   - `fff?fff`
-  - `u=`
+  - `|3`
+  - `%s: error in mbox rsp: embox.error=%d`
+  - `TXDS: error in release_buf: embox.error=%d`
+  - `%12s`
+  - `smc/aopComms.cpp`
+  - `O\`
+  - `\c`
+  - `root@Jul 24 2025@22:47:23~.release`
+  - `X{`
+  - `TXDS: error in alloc_stream: buf_size (%d) < req_buf_size (%d)`
+  - `battery_health_task`
+  - `smc/ace.cpp`
   - `X{`
   - `no response available fifo_avail 0x%x ext header 0x%x`
-  - `Zjz`
-  - `333333`
-  - `add_overflow`
-  - `drivers/inductive/drv_inductive_hal.cpp`
-  - `PMU DVC Status GROUP_DVC_ERROR0 : %02Xh`
-  - `jmdc>907"%,+`
-  - `o `
-  - `X{`
-  - `X{`
-  - `pfsm_gmadc_scan_agent_callback`
-  - `rail_energy_agent_results`
-  - `device_aon_ptd.cpp`
-  - `SWSr`
-  - `7S`
-  - `.A`
-  - `smc/acePoutBudgetManager.cpp`
-  - `bms.cpp`
-  - `n4F`
-  - `8R`
-  - `drivers/pmu/v3/drv_pmu_interface.cpp`
-  - `Xa`
-  - `(8`
-  - `SWDF`
-  - `{8`
-  - `AB`
-  - `%12s`
-  - `drv_pmu_common_adc.cpp`
-  - `!pmu_ecb.dde_triggered`
-  - `%s:%d error: %x`
-  - `0+`
-  - `dynamic_type_cache_miss`
-  - `crashlog: dump from dotara SRAM: %d bytes from 0x%x`
-  - `pbuck_results`
-  - `pi_engaged`
-  - `smc/acePowerOut.cpp`
-  - `DE: Checksum becomes valid SMC %d AP %d`
-  - `|o/`
-  - `thresholding_deassert`
-  - `thresholding_task`
-  - `>jm`
-  - `?R`
-  - `X{`
-  - `negate_overflow`
-  - `pfsm_irq_0`
-  - `2u\`
-  - `HRSS`
-  - `X{`
-  - `platform/t8140/device_aop.cpp`
-  - `syslog`
-  - `B0GTC0GTH0GTV0GT`
-  - `L"`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/signalStore.cpp`
-  - `____`
-  - `$tI`
-  - `X{`
-  - `type_mismatch`
-  - `gmadc_scan_agent_task`
-  - `X{`
-  - `adc_sensing_task`
-  - `magsafe acc`
-  - `333?`
-  - `T(`
-  - `iD`
-  - `|3`
-  - `X{`
-  - `platform/t8140/device_awl_bus.cpp`
-  - `platform/t8140/device_mtr_die_temps.cpp`
-  - `CF`
-  - `(\`
-  - `stk_fail`
-  - `AON PTD Update for Id = %c%c%c%c, msg = 0x%llx, metadata = 0x%llx `
-  - `TXDS: error in start_transfer: embox.error=%d`
-  - `l9`
-  - `rkosftab`
-  - `5l`
-  - `Y=`
-  - `LhX`
-  - `ju`
-  - `X{`
-  - `RESET_WARN timer started`
-  - `X{`
-  - `X{`
-  - `X{`
-  - `alignment_assumption`
-  - `TXDS: start_transfer failed with ret=%d`
-  - `scan_agent_results`
-  - `ACE_REG_CFVIDSTATUS: baAceI2cRx[%d] = 0x%x and baAceI2cRx[%d] = 0x%x`
-  - `~?F`
-  - `>L7`
-  - `divrem_overflow`
-  - `drivers/devices/ptd.cpp`
-  - `Misc`
-  - `8?61$#*-pw~ylkbeHOFATSZ]`
-  - `#<`
-  - `X{`
-  - `X{`
-  - `crashlog`
-  - `\c`
-  - `h]`
-  - `@ffffff`
-  - `bcm59367.cpp`
-  - `PwrProf: %d`
-  - `fury_irq_handler`
-  - `tTDPhTTR`
-  - `nullability_return`
-  - ` a/n*8hcgalf tlf_xehtfoi 8is61is23is46is 8iu61iu23iu46iu*8iutsj{crs{hlc{f1pf`
-  - `#.zf`
-  - `X{`
-  - `misc_workloop`
-  - `SRDY`
-  - `(knN`
-  - `vPMUEventTaskStop fail`
-  - `enabled`
-  - `pfsm_irq_1`
-  - `battery_health_task`
-  - `smc/aopComms.cpp`
+  - `pfsm_fw_health_callback`
   - `0000000000WWWWWWWWWWWWWWWWWWWWWWWWWW`
-  - `IND wake fail %d fwr %d st %d wk %u/%d`
-  - `SSPS`
-  - `;d`
-  - `Gaid`
-  - `X{`
-  - `RESET_WARN false-trigger!`
-  - `PMU DVC Status BUCK_DVC_ERROR%d : %02Xh`
-  - `ACE_REG_MODE: Ace%d Mode=%c%c%c%c`
+  - `hW`
+  - `%s:%d SPMI error: %x`
+  - `fury_irq_handler`
+  - `asmi`
+  - `Notf: A%d uvdmDone`
+  - `smc/ap_watchdog_logger.cpp`
+  - `RTKSTACK`
+  - `?-`
+  - `pfsm_interpolation_agent_callback`
+  - `(%u%)`
+  - `pmu_workloop`
+  - `l9`
+  - `owG`
   - `dZ`
-  - ` VDO %d not found`
-  - `f\`
-  - `PMU DVC Status LDO_DVC_ERROR%d : %02Xh`
-  - `MBComms`
-  - `smc/crashlog.cpp`
+  - `X{`
+  - `UBSAN triggered SMC panic: unknown`
+  - `smc/apComms.cpp`
+  - `#<`
+  - `;d`
+  - `X{`
+  - `management`
+  - `TXDS: IND RX: stream=%d status=%d size=%d buff=0x%08x`
+  - `pfsm_pbatt_callback`
+  - `X{`
+  - `WPY^KLEBohafst}z`
+  - `HRSS`
+  - `dynamic_type_cache_miss`
+  - `platform/t8140/device_mtr_die_temps.cpp`
+  - `is Shutdwn needed: Req %d, budV %d isBattbt %d isPT %d`
+  - `X{`
+  - `IND wk%u try%d`
+  - `drv_pmu_common_adc.cpp`
+  - `em_task`
+  - `Gaid`
+  - `zƳ@`
+  - `:t`
+  - `X{`
+  - `aceCommon.cpp`
+  - `inValid Op %d`
+  - `v `
+  - ` n;^`
+  - `?ffffff`
+  - `X{`
+  - `divrem_overflow`
+  - `fw status invalid`
+  - `A%d SSPS%d`
+  - `smc/ap_watchdog.cpp`
+  - `magsafe acc`
+  - `'DH`
+  - `333?`
+  - `t9G`
+  - `>L7`
+  - `drv_gg_veridian.cpp`
+  - `PMU Critical Shutdown Request exit (%02Xh)`
+  - `8?61$#*-pw~ylkbeHOFATSZ]`
+  - `@,`
+  - `dynamic_agent_push`
+  - `%llu`
+  - `magsafe chg`
+  - `.A`
+  - `TXDS: error in start_transfer: embox.error=%d`
+  - `pmu man1_conv %Xh %Xh %Xh %Xh %Xh`
+  - `  `
+  - `usb host`
+  - `$@`
+  - `%s: %s:%d: %s, DVC_DONE_ERROR/DVC_GROUP_DONE_ERROR HW_Q Error! 0x%x (%d)`
+  - `CLTM`
+  - `!&/(=:34NI@GRU\[vqx`
+  - `L"`
+  - ` @`
+  - `X{`
+  - `0e`
+  - `t?`
+  - `nonnull_return`
+  - `drv_t5090_baku.cpp`
+  - `device_aon_ptd.cpp`
+  - `ACE_REG_DATASTATUS: Ace%d baAceI2cRx[1] = 0x%x,            baAceI2cRx[2]: 0x%x, baAceI2cRx[3]: 0x%x, baAceI2cRx[4]: 0x%x`
+  - `h]`
   - `to`
   - `X{`
-  - `error: unknown fc=%u`
-  - `Thread stats (last %u.%03u ms)`
-  - `Ťp}?`
-  - `invalid_builtin`
-  - `pfsm_adc_sense_callback`
-  - `em_task`
-  - `platform/t8140/device_watchdog.cpp`
-  - `SMC HID Event: %02x %02x %02x`
-  - `0PF`
   - `X{`
-  - `drv_t5090_baku.cpp`
-  - `ACE_REG_DATASTATUS: Ace%d baAceI2cRx[1] = 0x%x,            baAceI2cRx[2]: 0x%x, baAceI2cRx[3]: 0x%x, baAceI2cRx[4]: 0x%x`
-  - ` noVDOs`
-  - `?d;`
+  - `drivers/charger/waikato/drv_waikato_charger.cpp`
+  - `lc_read_multiple`
+  - `ACE_REG_CFVIDSTATUS: baAceI2cRx[%d] = 0x%x and baAceI2cRx[%d] = 0x%x`
+  - `d*`
   - `X{`
-  - `RS: st_role_swap_preferred failed with ret=0x%x`
-  - `SRYR`
+  - `pfsm_dynamic_agent_callback`
+  - `%s: %s:%d: %s, Invalid pmu initialization index. Max pmu index is : %d`
+  - `i]Wb`
+  - `IND wake fail %d fwr %d st %d wk %u/%d`
+  - `platform/t8140/device_aop.cpp`
+  - `X{`
+  - `X{`
+  - `sub_overflow`
+  - `drivers/devices/ptd.cpp`
+  - `Qkkbal`
+  - `X{`
+  - `!pmu_ecb.dde_triggered`
   - `Aborting AOP iop_ringbuffer at %s:%d`
-  - `"/&`
-  - `-0123456789abcdef0123456789ABCDEF`
-  - `%s:%d SPMI error: %x`
+  - `<G`
+  - `X{`
+  - `nullability_return`
+  - `smc/bms/batterySocFilter/batterySocFilter.cpp`
+  - `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
+  - `smc/bms/bms_v1/charger.cpp`
+  - `ju`
+  - `:/`
+  - `-=m`
+  - `SWSr`
+  - `iC`
+  - `d3`
+  - `X{`
+  - `crashlog: dump from dotara SRAM: %d bytes from 0x%x`
+  - `SRDY`
+  - `Y=`
+  - `platform/t8140/device_aon_ptd.cpp`
+  - `misc_workloop`
+  - `eA`
+  - `Unsupported IRQ Number to read PMU DVC Status (%02Xh)`
+  - `HE-nRCS %d First Error: Cmd = 0x%x, Timestamp = 0x%x, Status = 0x%x `
+  - `Ace: HostAct %c%c%c%c`
+  - `X{`
+  - `?:Z`
+  - `X{`
+  - `X{`
+  - `smc/acam.cpp`
+  - `UNKNOWN`
+  - `X{`
+  - `%s: %s:%d: %s, SMC MTR Offset Case not Handled Type %d Idx %d Calc %d`
+  - `Get Interrupt Mask Fail OneAceInt 0x%x`
+  - `NPOC`
+  - `L7`
+  - `?P`
+  - `X|`
+  - `load_invalid_value`
+  - `RESET_WARN false-trigger!`
+  - `Address Remapper %d Error: 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x `
+  - `battery_dynamic_shutdown.cpp`
+  - `X{`
+  - `X{`
+  - `TXDS: alloc_stream failed with ret=%d`
+  - `CrashlogData_t ptr = 0x%08lx`
+  - `X{`
+  - `X{`
+  - `pfsm_rail_energy_agent_callback`
+  - `UBaS`
+  - `apComms.cpp`
+  - `RS: st_set_local_tether_state failed with ret=0x%x`
+  - `0PF`
+  - `float_cast_overflow`
+  - `drivers/devices/gapf.cpp`
   - `%s:%d Unexpected interrupt source: %x`
-  - `drv_bcm59367.cpp`
+  - `enable`
+  - `adc_worker_task`
+  - `ACE`
+  - `X{`
+  - `jHq`
+  - `pj`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/mux.cpp`
+  - `drivers/devices/awl_bus.cpp`
+  - `apKeys`
+  - `3t@ȯ`
   - `L=`
   - `X{`
+  - `TXDS: start_xfr: err=%d, stream_id=%d`
+  - `gW`
+  - `?6`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/singlePoleFilter.cpp`
+  - `AON PTD GAPF start_addr = %llx, size = %llx `
+  - `%s: %s:%d: %s, Invalid register size %u`
+  - `GBaS`
+  - `o%6`
+  - `#<o`
+  - `X{`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/signalConvert.cpp`
+  - `charger.cpp`
+  - `3_L`
+  - `ge`
+  - `s?`
+  - `X{`
+  - `X{`
+  - `pfsm_irq_1`
+  - `platform/t8140/device_trigger_interface.cpp`
+  - `-0123456789abcdef0123456789ABCDEF`
+  - `shift_out_of_bounds`
+  - `pmu_drv_adc_read error ch%d: status=%Xh value=%d (%d)`
+  - `platform/t8140/device_awl_bus.cpp`
+  - `GAID`
+  - `rkosftab`
+  - `=m`
+  - `s-`
+  - `PMU Critical Shutdown IRQ %s`
+  - `pfsm_irq_0`
+  - `DE: correcting shutdown_threshold from %d to %d`
+  - `MGiI`
+  - `pfsm_wallet_agent_callback`
+  - `cc=`
+  - `CF`
+  - `Write Shelf life state requested = %d, data=%d, rc = %d, `
+  - `HE-nRCS %d Error Status = 0x%x `
+  - `smc/aceUtilEmbedded.cpp`
+  - `alignment_assumption`
+  - `vla_bound_not_positive`
+  - `X{`
+  - `ld`
+  - `>jm`
+  - `_(`
+  - `X{`
+  - `Ace: End HostAct %c%c%c%c`
+  - `tTxEhTTR`
+  - `PCF`
+  - `X(`
+  - `TXDS: start_transfer failed with ret=%d`
+  - `SPMIv02`
+  - `X{`
+  - `X{`
+  - `smc/crashlog.cpp`
+  - `bI-`
+  - `.;\`
+  - `smc/comms.cpp`
+  - `iF`
+  - `external2`
+  - `X{`
+  - `pfsm_gmadc_scan_agent_callback`
+  - `}D`
+  - `X{`
+  - `invalid_objc_cast`
+  - `hn`
+  - `jp5`
+  - `X{`
+  - `negate_overflow`
+  - `RxStChg: FW st chg: 0x%02x <- 0x%02x`
+  - `acePoutExtClientIF.cpp`
+  - `?d;`
+  - `mpp chg`
+  - `KK`
+  - `f\`
+  - `#=`
+  - `platform/t8140/device_i2c.cpp`
+  - `Critical Shutdown Requested`
+  - `P `
+  - `|o/`
+  - `"/&`
+  - `)= `
+  - `X{`
+  - `X{`
+  - `X{`
+  - `dynamic_agent_results`
+  - `X{`
+  - `X{`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/delay.cpp`
+  - `platform/t8140/device_asc.cpp`
+  - `SWSk`
+  - `battery.cpp`
+  - `Ja`
+  - `RESET_WARN timer started`
+  - `pbuck_adc_push`
+  - `accumulator_task`
+  - `Misc`
+  - `smc/acePowerOut.cpp`
+  - `pi_control_task`
+  - `PMU DVC Status BUCK_DVC_ERROR%d : %02Xh`
+  - ` noVDOs`
+  - `n1y`
+  - `PMU Critical Shutdown Request entry (%02Xh)`
+  - `MBComms`
+  - `|!`
+  - `type_mismatch`
+  - `IND wake poll %d fwr %d fws %x ret %x st %d lk %d wk %u/%d`
+  - `crashlog`
+  - `UBSAN triggered SMC panic: %s`
+  - `ADC_GAIN: %08X, %08X, %08X (%d, %d, %d)`
+  - `DRAM`
+  - `kdz`
+  - `PwrProf: %d`
+  - `TXDS: release_buf failed with ret=%d`
+  - `error: unknown fc=%u`
+  - `l{`
+  - `)"`
+  - `pfsm_adc_worker_callback`
+  - `fury_enable_scan: %d`
+  - `systask`
+  - `A%d lock not acquired, timeout was set %d`
+  - `DE: Checksum becomes valid SMC %d AP %d`
+  - `(\`
+  - `platform/tunables/tunableh.c`
+  - `iop_ringbuffer.h`
+  - `eP`
+  - `X{`
+  - `X{`
+  - `enabled`
+  - `%02x %s`
+  - `PMU DVC Status GROUP_DVC_ERROR0 : %02Xh`
+  - `AP`
+  - `platform/t8140/device_watchdog.cpp`
+  - `{8`
+  - `u=`
+  - `X{`
+  - `InductiveTask`
+  - `smc/acePoutBudgetManager.cpp`
+  - `rc:%d, err:%d`
+  - `LKTR`
+  - `A%d, SMC did not acquire the uvdm Lock %d, uvdm Timer %d`
+  - ` VDO %d not found`
+  - `?d;`
+  - `)xi`
+  - `y?`
+  - `%02x %02x %02x %02x   %02x %02x %02x %02x   %02x %02x %02x %02x   %02x %02x %02x %02x`
+  - `AONPTDTask`
+  - `X{`
+  - `d1PTd2PTd3PTd4PTd5PT`
+  - `@ffffff`
+  - `aon_ptd.cpp`
+  - `BMSTask`
+  - `?R`
+  - `AB`
+  - `EHLC`
+  - `vPMUEventTaskStop fail`
+  - `%s: %s:%d: %s, DVC_DONE_ERROR/DVC_GROUP_DONE_ERROR (PMU[%d] %d)`
+  - `wallet_agent_sample`
+  - `#<`
+  - `LhX`
+  - `[&`
+  - `Q8`
+  - `(knNcM`
+  - `implicit_conversion`
+  - `ADC_OFST: %04hX, %04hX, %04hX`
+  - `Thread stats (last %u.%03u ms)`
+  - `cfi_check_fail`
+  - `drv_pmu_events.cpp`
   - `RESET_WARN timer cancelled`
+  - `rail_energy_agent_push`
+  - `o `
+  - `$tI`
+  - ` a/n*8hcgalf tlf_xehtfoi 8is61is23is46is 8iu61iu23iu46iu*8iutsj{crs{hlc{f1pf`
+  - `X{`
+  - `<q`
+  - `X{`
+  - `platform/common/platform_tunables.cpp`
+  - `jmdc>907"%,+`
+  - `X{`
+  - `nonnull_arg`
+  - `scan_agent_results`
+  - `dcp_to_smc`
+  - `X{`
+  - `invalid_builtin`
+  - `platform/t8140/device_spmi.cpp`
+  - `platform/t8140/device_gpio.cpp`
+  - `X{`
+  - `X{`
+  - `drv_fury.cpp`
+  - `Ťp}?`
+  - `X{`
+  - `pfsm_pbuck_agent_callback`
+  - `X{`
+  - `X{`
+  - `FIQ`
+  - `platform/t8140/device_forcewakeup.cpp`
+  - `drivers/devices/aon_ptd.cpp`
+  - `drivers/pmu/v3/drv_t5090_baku.cpp`
+  - `platform/t8140/device_dockchannel.cpp`
+  - `TSCw`
+  - `mul_overflow`
+  - `+L`
+  - `mQ`
+  - `Tx`
+  - `)W`
+  - `+o*7`
+  - `RxNegoPwr: Ng: %d, Pt: %d, Rs: %d`
+  - `thresholding_deassert`
+  - `GBaC`
+  - `w,a`
+  - `adc_logging_task`
+  - `(knN`
+  - `X{`
+  - `missing_return`
+  - `interpolation_agent_task`
+  - `>d;`
+  - `drivers/inductive/drv_inductive_hal.cpp`
+  - `drivers/pmu/v3/drv_pmu_events.cpp`
+  - `gmadc_scan_agent_irq_clr`
+  - `wallet_agent_silent_check`
+  - `scheduler_enable`
+  - `pi_engaged`
+  - `SSPS`
+  - `Zz`
+  - `\5`
+  - `duty_cycler_task`
+  - `SMC HID Event: %02x %02x %02x`
+  - `smc/event_buf.`
+  - `(F`
+  - `&:`
+  - `kaE`
+  - `X{`
+  - `X{`
+  - `pfsm_scan_agent_callback`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/signalStore.cpp`
+  - `A%d unable to acquire smc uvdm lock %d`
+  - `X{`
+  - `DFUf`
+  - `iD`
+  - `X{`
+  - `X{`
+  - `pbuck_results`
+  - `9a&g`
+  - `FW info: status = 0x%llx, fw_ver_string = %s, assert_id = %d`
+  - `rail_energy_agent_results`
+  - `syslog`
+  - `ace.cpp`
+  - `X{`
+  - `X{`
+  - `X{`
+  - `gmadc_scan_agent_task`
+  - `n4F`
+  - `____`
+  - `drivers/pmu/v3/drv_pmu_interface.cpp`
+  - `scheduler_disable`
+  - `smc/aceCommon.cpp`
+  - `T(`
+  - `disable`
+  - `%s: (spmi_addr=0x%x)`
+  - `HE-nRCS %d Error Count: In = 0x%x, Out = 0x%x, Bus = 0x%x `
+  - `Zjz`
   - `q6l`
   - `X{`
   - `X{`
-  - `TXDS: error in alloc_stream: buf_size (%d) < req_buf_size (%d)`
-  - `TXDS: error in release_buf: embox.error=%d`
-  - `rc:%d, err:%d`
-  - `WPY^KLEBohafst}z`
-  - `drivers/devices/awl_bus.cpp`
-  - `drivers/pmu/v3/drv_t5090_baku.cpp`
-  - `smc/aceCommon.cpp`
+  - `drv_bcm59367.cpp`
+  - `pfsm_adc_sense_callback`
   - `X{`
-  - `X{`
-  - `%llu`
-  - `platform/t8140/device_asc.cpp`
-  - `UFPf`
-  - `NPOC`
-  - `function_type_mismatch`
-  - `TXDS: release_buf failed with ret=%d`
-  - ` n;^`
-  - `x4`
-  - `X{`
-  - `X{`
-  - `rail_energy_agent_push`
-  - `LDO%d: 50mA`
-  - `#<o`
-  - `X{`
-  - `'d`
-  - `Ja`
-  - `X{`
-  - `X|`
-  - `sub_overflow`
-  - `UBSAN triggered SMC panic: unknown`
-  - `Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d gg_vcut=%d iss=%d.`
-  - `nonnull_return`
-  - `PMU Critical Shutdown Request entry (%02Xh)`
-  - `Zz`
-  - `y?`
-  - `scheduler_disable`
-  - `is Shutdwn needed: Req %d, budV %d isBattbt %d isPT %d`
-  - `$@`
-  - `X{`
-  - `X{`
-  - `Failed to read PMU DVC Status`
-  - `GAID`
-  - `usb brick`
-  - `SWSk`
-  - `aceCommon.cpp`
-  - `!&/(=:34NI@GRU\[vqx`
-  - `9a&g`
-  - `X{`
-  - `no response available fifo_avail 0x%x, header 0x%x`
-  - `}D`
-  - `ge`
-  - `(knNcM`
-  - `AON PTD GAPF start_addr = %llx, size = %llx `
-  - `pfsm_pbuck_agent_callback`
-  - `GBaS`
-  - `X{`
-  - `out_of_bounds`
-  - `pointer_overflow`
-  - `wn>Jj`
-  - `X{`
-  - `implicit_conversion`
-  - `ACE`
-  - `SCfg`
-  - `iop_ringbuffer.h`
-  - `d3`
-  - `acePoutExtClientIF.cpp`
-  - `vBMSTaskStop fail`
-  - `pfsm_rail_energy_agent_callback`
-  - `oslog`
-  - `)xi`
-  - `tTxEhTTR`
-  - `X{`
-  - `accumulator_task`
-  - `UBaS`
+  - `6V`
+  - `iL`
+  - `5l`
+  - `scheduler`
+  - `Op %d`
 
 </details>
 
@@ -1808,54 +1808,54 @@
 <details>
   <summary><i>View Removed</i></summary>
 
-##### `iboot_blob29.bin`
-  - `WPY^KLEBohafst}z`
-  - `magsafe acc`
-  - `0P2PaPmPITCX`
-  - `jmdc>907"%,+`
-  - `DCADBDNDTDLFCSNS1W2W6)`
-  - `8?61$#*-pw~ylkbeHOFATSZ]`
-  - `DACEACNKDADGBDGCDGSDG1GL2GL4GLFONSGOIMPSMPcMP"R`
-  - `00102030405060708090C0W00111213141W10C1CSOCSSS6+`
-  - `30BiB0C1C2CiCjCkC0I0KiK0L1L2L3L4L5L6L7L8L9LALBLiLjLkLlLmLnLoLpLqLrLsLtL0PRPdPkPsP1R2RiRjR0SiS0TiT0WiW0XC8`
-  - `VKSPSSTSEW0`
-  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmEdth@[`
-  - `!C#C?CRCYT`
-  - `QAIB1DEDUFVF°`
-  - `B0GTC0GTH0GTV0GT`
-  - `!&/(=:34NI@GRU\[vqx`
-  - `magsafe chg`
 ##### `RTKit.bin`
   - `ORY_ATTACHED`
+##### `iboot_blob29.bin`
+  - `!C#C?CRCYT`
+  - `0P2PaPmPITCX`
+  - `QAIB1DEDUFVF°`
+  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmEdth@[`
+  - `00102030405060708090C0W00111213141W10C1CSOCSSS6+`
+  - `30BiB0C1C2CiCjCkC0I0KiK0L1L2L3L4L5L6L7L8L9LALBLiLjLkLlLmLnLoLpLqLrLsLtL0PRPdPkPsP1R2RiRjR0SiS0TiT0WiW0XC8`
+  - `WPY^KLEBohafst}z`
+  - `magsafe chg`
+  - `8?61$#*-pw~ylkbeHOFATSZ]`
+  - `magsafe acc`
+  - `B0GTC0GTH0GTV0GT`
+  - `jmdc>907"%,+`
+  - `VKSPSSTSEW0`
+  - `DACEACNKDADGBDGCDGSDG1GL2GL4GLFONSGOIMPSMPcMP"R`
+  - `!&/(=:34NI@GRU\[vqx`
+  - `DCADBDNDTDLFCSNS1W2W6)`
 ##### `AppleSMCFirmware.bin`
   - `AppleSMCFirmware_H17-6164.0.157.0.3.d93.REL`
 ##### `iboot`
+  - `\6,_."QKH5`
+  - ` ƐhT)sOB+`
+  - `J5DiQI'{fIP`
+  - `#g8r>uR>cb`
+  - `_?AE?/Mce^`
+  - `FMPaJ*=% RQ`
+  - `MCE FW E001- built on Tue Jul  8 07:13:38 UTC 2025 by root`
   - `ǾƶfWcOcKcGc?`
   - `iBoot-13822.0.233`
-  - `]mJɗUoRC `
-  - `Op1<N*4=<c{G`
   - `c894b37d3fa77a1e37a06f858bf4b431`
-  - `J5DiQI'{fIP`
-  - `\6,_."QKH5`
-  - `gBʱ!Rr3EJl`
-  - `FMPaJ*=% RQ`
-  - ` ApplePMUFirmware-608.0.8~699.release`
-  - ` ƐhT)sOB+`
-  - `_?AE?/Mce^`
+  - `Op1<N*4=<c{G`
+  - `]mJɗUoRC `
   - `root@84d8c.p1l.plx.sd...2025/07/15@03:08:18`
-  - `MCE FW E001- built on Tue Jul  8 07:13:38 UTC 2025 by root`
+  - `gBʱ!Rr3EJl`
+  - ` ApplePMUFirmware-608.0.8~699.release`
   - `,<mgal;,ē`
-  - `#g8r>uR>cb`
 ##### `iboot_blob28.bin`
+  - `!B-C-E-F-I-J-M-N-P-Q-R-S-T-U-W-X-PAIBFCPCBDIDLDCEQEPFDIEIMLKPWPtSSV`
+  - `YNU=ahWtLp;?c6S4\jw`
+  - `7777777.77)`
+  - `\\\\\\\?\\\???\\\\\\\\\\\\\\\\`
   - `\\\\\\\\?\`
   - `M???9M\\"\`
-  - `YNU=ahWtLp;?c6S4\jw`
-  - `\\\\\\\?\\\???\\\\\\\\\\\\\\\\`
-  - `!B-C-E-F-I-J-M-N-P-Q-R-S-T-U-W-X-PAIBFCPCBDIDLDCEQEPFDIEIMLKPWPtSSV`
-  - `7777777.77)`
-  - `_ _________/Q>`
-  - `N-A1F1I1P1S1V1i1p1q1u1v1A2F2I2P2S2V2i2p2q2u2v2`
   - `rrNrBBLBBBD`
+  - `N-A1F1I1P1S1V1i1p1q1u1v1A2F2I2P2S2V2i2p2q2u2v2`
+  - `_ _________/Q>`
 
 </details>
 
@@ -3873,7 +3873,7 @@
 - `Firmware/Mav24-2.04.02.Release.bbfw`
 - `Firmware/Mav24-2.04.02.Release.plist`
 
-#### filesystem (831)
+#### filesystem (830)
 
 <details>
   <summary><i>View Files</i></summary>
@@ -4708,7 +4708,6 @@
 - `/usr/libexec/battery_analysis_tt80_model_xtgs7ejyqa.mlmodelc/neural_network_optionals/coremldata.bin`
 - `/usr/share/firmware/bluetooth/BCM4399C2_23.1.185.959_PCIE_Cephalotus_CLPC_OS_STATS_20250721.bin`
 - `/usr/share/firmware/bluetooth/BCM4399C2_23.1.185.960_PCIE_Cephalotus_CLPC_OS_USI_20250721.bin`
-- `/usr/share/zoneinfo.default/America/Coyhaique`
 
 </details>
 

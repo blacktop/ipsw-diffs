@@ -1,0 +1,163 @@
+## MediaControl
+
+> `/System/Library/PrivateFrameworks/MediaControl.framework/MediaControl`
+
+```diff
+
+-4025.100.115.1.0
+-  __TEXT.__text: 0x925a8
+-  __TEXT.__auth_stubs: 0x1510
++4025.110.3.0.0
++  __TEXT.__text: 0x95f64
++  __TEXT.__auth_stubs: 0x1520
+   __TEXT.__objc_methlist: 0x2c
+-  __TEXT.__cstring: 0x1abe
+-  __TEXT.__const: 0x12ff4
+-  __TEXT.__swift5_typeref: 0x20b5
+-  __TEXT.__constg_swiftt: 0x3578
+-  __TEXT.__swift5_fieldmd: 0x3424
+-  __TEXT.__swift5_reflstr: 0x12c3
++  __TEXT.__cstring: 0x1b5e
++  __TEXT.__const: 0x13a04
++  __TEXT.__swift5_typeref: 0x21e1
++  __TEXT.__constg_swiftt: 0x377c
++  __TEXT.__swift5_fieldmd: 0x3624
++  __TEXT.__swift5_reflstr: 0x1333
+   __TEXT.__swift5_builtin: 0xb4
+-  __TEXT.__swift5_proto: 0x13b4
+-  __TEXT.__swift5_types: 0x4f0
++  __TEXT.__swift5_proto: 0x1460
++  __TEXT.__swift5_types: 0x528
+   __TEXT.__swift5_mpenum: 0x40
+   __TEXT.__oslogstring: 0x13be
+   __TEXT.__swift5_capture: 0x2e8
+
+   __TEXT.__swift_as_ret: 0x8
+   __TEXT.__swift5_assocty: 0x210
+   __TEXT.__swift5_protos: 0x1c
+-  __TEXT.__unwind_info: 0x37a0
+-  __TEXT.__eh_frame: 0x2ba0
+-  __TEXT.__objc_methname: 0x425
++  __TEXT.__unwind_info: 0x3898
++  __TEXT.__eh_frame: 0x2c10
++  __TEXT.__objc_methname: 0x437
+   __DATA_CONST.__got: 0x430
+-  __DATA_CONST.__const: 0x178
+-  __DATA_CONST.__objc_classlist: 0x70
++  __DATA_CONST.__const: 0x188
++  __DATA_CONST.__objc_classlist: 0x78
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x188
+-  __AUTH_CONST.__auth_got: 0xa88
+-  __AUTH_CONST.__const: 0x9238
+-  __AUTH_CONST.__objc_const: 0xdc8
++  __DATA_CONST.__objc_selrefs: 0x190
++  __AUTH_CONST.__auth_got: 0xa90
++  __AUTH_CONST.__const: 0x9448
++  __AUTH_CONST.__objc_const: 0xe80
+   __AUTH.__objc_data: 0xb0
+-  __AUTH.__data: 0x3e8
+-  __DATA.__data: 0x1728
+-  __DATA.__bss: 0x167b0
++  __AUTH.__data: 0x480
++  __DATA.__data: 0x1940
++  __DATA.__bss: 0x17d30
+   __DATA.__common: 0x18
+-  __DATA_DIRTY.__objc_data: 0xa0
+-  __DATA_DIRTY.__data: 0x2e50
++  __DATA_DIRTY.__objc_data: 0x50
++  __DATA_DIRTY.__data: 0x2e38
+   __DATA_DIRTY.__bss: 0x10600
+-  __DATA_DIRTY.__common: 0xb8
++  __DATA_DIRTY.__common: 0xa8
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 30746F3A-10DF-37CA-864A-E0F5FFC47A07
+-  Functions: 6633
+-  Symbols:   3874
+-  CStrings:  318
++  UUID: F24AAF80-72C6-3137-912F-B3A8E3FDED5D
++  Functions: 6788
++  Symbols:   3965
++  CStrings:  322
+ 
+Symbols:
++ _OUTLINED_FUNCTION_384
++ _OUTLINED_FUNCTION_385
++ _OUTLINED_FUNCTION_386
++ _OUTLINED_FUNCTION_387
++ _OUTLINED_FUNCTION_388
++ _OUTLINED_FUNCTION_389
++ _OUTLINED_FUNCTION_390
++ _OUTLINED_FUNCTION_391
++ _OUTLINED_FUNCTION_392
++ _OUTLINED_FUNCTION_393
++ _OUTLINED_FUNCTION_394
++ _OUTLINED_FUNCTION_395
++ _OUTLINED_FUNCTION_396
++ __DATA__TtCC12MediaControl11Preferences7Storage
++ __METACLASS_DATA__TtCC12MediaControl11Preferences7Storage
++ ___swift_memcpy52_8
++ ___swift_project_boxed_opaque_existential_0
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO0B16CenterCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO0B16CenterCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO10CodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOSHAASQ
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO10CodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO10CodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO13AppCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO13AppCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO14HomeCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO14HomeCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO14SiriCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO14SiriCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO15OtherCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO15OtherCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO17AmbientCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO17AmbientCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO18BluePillCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO18BluePillCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO20CoverSheetCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO20CoverSheetCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO23DynamicIslandCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO23DynamicIslandCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO23ProximityCardCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO23ProximityCardCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO24ActivityBannerCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO24ActivityBannerCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO29RouteRecommendationCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceO29RouteRecommendationCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MediaControl27RoutingSessionConfigurationV7SurfaceOSHAASQ
++ _symbolic _____ 12MediaControl11PreferencesC7StorageC
++ _symbolic _____ 12MediaControl27RoutingSessionConfigurationV7SurfaceO
++ _symbolic _____ 12MediaControl27RoutingSessionConfigurationV7SurfaceO0B16CenterCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLO
++ _symbolic _____ 12MediaControl27RoutingSessionConfigurationV7SurfaceO10CodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLO
++ _symbolic _____ 12MediaControl27RoutingSessionConfigurationV7SurfaceO13AppCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLO
++ _symbolic _____ 12MediaControl27RoutingSessionConfigurationV7SurfaceO14HomeCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLO
++ _symbolic _____ 12MediaControl27RoutingSessionConfigurationV7SurfaceO14SiriCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLO
++ _symbolic _____ 12MediaControl27RoutingSessionConfigurationV7SurfaceO15OtherCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLO
++ _symbolic _____ 12MediaControl27RoutingSessionConfigurationV7SurfaceO17AmbientCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLO
++ _symbolic _____ 12MediaControl27RoutingSessionConfigurationV7SurfaceO18BluePillCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLO
++ _symbolic _____ 12MediaControl27RoutingSessionConfigurationV7SurfaceO20CoverSheetCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLO
++ _symbolic _____ 12MediaControl27RoutingSessionConfigurationV7SurfaceO23DynamicIslandCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLO
++ _symbolic _____ 12MediaControl27RoutingSessionConfigurationV7SurfaceO23ProximityCardCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLO
++ _symbolic _____ 12MediaControl27RoutingSessionConfigurationV7SurfaceO24ActivityBannerCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLO
++ _symbolic _____ 12MediaControl27RoutingSessionConfigurationV7SurfaceO29RouteRecommendationCodingKeys33_06619627715255CF8E93EFE1EBE52B7DLLO
+- ___swift_memcpy51_8
+- _associated conformance 12MediaControl8FeaturesO5SonicOSHAASQ
+- _symbolic _____ 12MediaControl8FeaturesO5SonicO
+CStrings:
++ ".routeRecommendation"
++ "_TtCC12MediaControl11Preferences7Storage"
++ "lastItemInteraction"
++ "lastRoutePickerPresentationFinish"
++ "routeRecommendation"
++ "setObject:forKey:"
+- "CayenneClearQueue"
+- "snapshot"
+
+```

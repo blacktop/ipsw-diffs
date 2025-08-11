@@ -1,0 +1,1629 @@
+## UIKitCore
+
+> `/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore`
+
+```diff
+
+-9087.1.102.0.0
+-  __TEXT.__text: 0x19d6328
+-  __TEXT.__auth_stubs: 0xd0e0
++9088.1.106.0.0
++  __TEXT.__text: 0x19e86d4
++  __TEXT.__auth_stubs: 0xd310
+   __TEXT.__delay_helper: 0x158
+   __TEXT.__init_offsets: 0x4
+-  __TEXT.__objc_methlist: 0x190b28
+-  __TEXT.__const: 0x37e10
+-  __TEXT.__dlopen_cstrs: 0x4841
+-  __TEXT.__cstring: 0x1075a0
+-  __TEXT.__swift5_typeref: 0x125bc
+-  __TEXT.__swift5_capture: 0xd0e4
+-  __TEXT.__swift5_reflstr: 0x11327
+-  __TEXT.__swift5_assocty: 0x36e0
+-  __TEXT.__swift5_fieldmd: 0x117a0
+-  __TEXT.__constg_swiftt: 0x16ea4
+-  __TEXT.__swift5_builtin: 0x1054
++  __TEXT.__objc_methlist: 0x1913d8
++  __TEXT.__const: 0x37f70
++  __TEXT.__dlopen_cstrs: 0x48a9
++  __TEXT.__cstring: 0x108260
++  __TEXT.__swift5_typeref: 0x126e0
++  __TEXT.__swift5_capture: 0xd22c
++  __TEXT.__swift5_reflstr: 0x11537
++  __TEXT.__swift5_assocty: 0x3728
++  __TEXT.__swift5_fieldmd: 0x119b8
++  __TEXT.__constg_swiftt: 0x172b4
++  __TEXT.__swift5_builtin: 0x1068
+   __TEXT.__swift5_protos: 0x1ec
+-  __TEXT.__swift5_proto: 0x1a38
+-  __TEXT.__swift5_types: 0x1524
+-  __TEXT.__oslogstring: 0x4b059
++  __TEXT.__swift5_proto: 0x1a58
++  __TEXT.__swift5_types: 0x1550
++  __TEXT.__oslogstring: 0x4b375
+   __TEXT.__swift_as_entry: 0x180
+   __TEXT.__swift_as_ret: 0x12c
+   __TEXT.__swift5_mpenum: 0x1f4
+-  __TEXT.__gcc_except_tab: 0x27094
++  __TEXT.__swift5_types2: 0x4
++  __TEXT.__gcc_except_tab: 0x2723c
+   __TEXT.__ustring: 0x2752
+-  __TEXT.__unwind_info: 0x688b8
+-  __TEXT.__eh_frame: 0x7088
+-  __TEXT.__objc_classname: 0x359a5
+-  __TEXT.__objc_methname: 0x309127
+-  __TEXT.__objc_methtype: 0x74616
+-  __TEXT.__objc_stubs: 0x1d9140
+-  __DATA_CONST.__got: 0x77c0
+-  __DATA_CONST.__const: 0x3bd38
+-  __DATA_CONST.__objc_classlist: 0xac70
++  __TEXT.__unwind_info: 0x68c68
++  __TEXT.__eh_frame: 0x7108
++  __TEXT.__objc_classname: 0x35ab4
++  __TEXT.__objc_methname: 0x3099b1
++  __TEXT.__objc_methtype: 0x747a3
++  __TEXT.__objc_stubs: 0x1d96e0
++  __DATA_CONST.__got: 0x7810
++  __DATA_CONST.__const: 0x3bec0
++  __DATA_CONST.__objc_classlist: 0xace0
+   __DATA_CONST.__objc_catlist: 0x328
+-  __DATA_CONST.__objc_protolist: 0x3140
++  __DATA_CONST.__objc_protolist: 0x3158
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x91830
+-  __DATA_CONST.__objc_protorefs: 0xbf0
+-  __DATA_CONST.__objc_superrefs: 0x7358
+-  __DATA_CONST.__objc_arraydata: 0x45e0
+-  __AUTH_CONST.__auth_got: 0x6888
+-  __AUTH_CONST.__const: 0x58a88
+-  __AUTH_CONST.__cfstring: 0xaf200
+-  __AUTH_CONST.__objc_const: 0x260300
++  __DATA_CONST.__objc_selrefs: 0x91a40
++  __DATA_CONST.__objc_protorefs: 0xc00
++  __DATA_CONST.__objc_superrefs: 0x7380
++  __DATA_CONST.__objc_arraydata: 0x4620
++  __AUTH_CONST.__auth_got: 0x69a0
++  __AUTH_CONST.__const: 0x58f30
++  __AUTH_CONST.__cfstring: 0xaf6a0
++  __AUTH_CONST.__objc_const: 0x261590
+   __AUTH_CONST.__objc_arrayobj: 0x2f28
+-  __AUTH_CONST.__objc_doubleobj: 0xff0
++  __AUTH_CONST.__objc_doubleobj: 0x1000
+   __AUTH_CONST.__objc_intobj: 0x4f98
+-  __AUTH_CONST.__objc_dictobj: 0xac8
++  __AUTH_CONST.__objc_dictobj: 0xb40
+   __AUTH_CONST.__objc_floatobj: 0x20
+-  __AUTH.__objc_data: 0x527e8
+-  __AUTH.__data: 0x85e8
+-  __DATA.__objc_ivar: 0x10900
+-  __DATA.__data: 0x2dd5c
+-  __DATA.__uikit_ip: 0x8c0
++  __AUTH.__objc_data: 0x53730
++  __AUTH.__data: 0x86e8
++  __DATA.__objc_ivar: 0x10bb4
++  __DATA.__data: 0x2e064
++  __DATA.__uikit_ip: 0x8c8
+   __DATA.__uikit_ipl: 0x18
+-  __DATA.__bss: 0x2ec60
+-  __DATA.__common: 0x29b0
+-  __DATA_DIRTY.__objc_ivar: 0x955c
+-  __DATA_DIRTY.__objc_data: 0x29330
++  __DATA.__bss: 0x2f178
++  __DATA.__common: 0x29d8
++  __DATA_DIRTY.__objc_ivar: 0x930c
++  __DATA_DIRTY.__objc_data: 0x29158
+   __DATA_DIRTY.__uikit_ip: 0x11f0
+-  __DATA_DIRTY.__data: 0x6788
+-  __DATA_DIRTY.__bss: 0x10bc8
++  __DATA_DIRTY.__data: 0x66d8
++  __DATA_DIRTY.__bss: 0x10ab8
+   __DATA_DIRTY.__common: 0x430
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B1547804-B1C4-3637-8ADF-2EED1ADEF634
+-  Functions: 170310
+-  Symbols:   432308
+-  CStrings:  180509
++  UUID: A8BAD607-EAE6-3324-A030-D5B04C1AE681
++  Functions: 170643
++  Symbols:   432864
++  CStrings:  180755
+ 
+Symbols:
++ +[UIImage(UIApplicationIconPrivate) _applicationIconImageForBundleIdentifier:format:scale:appearance:style:]
++ +[UIImageAsset _uncachedDynamicIconAssetNamed:generator:]
++ +[UIKeyboardInputModeController filteredCarPlayInputModesFromInputModes:]
++ +[UITraitCollection _traitCollectionWithSystemIconAppearance:]
++ +[UIView(Animation) _finalizeStoppedAnimationWithUUID:reverseAnimation:state:performCompletionsImmediately:]
++ +[_UIHybridStateStore stateStoreForSceneSession:]
++ +[_UISplitViewControllerLayoutState supportsSecureCoding]
++ +[_UISwipeActionDynamicButtonView preferredSymbolConfigurationForImage]
++ +[_UISystemIconAppearance appearanceWithSBSHomeScreenIconStyleConfiguration:]
++ +[_UITraitColorMaterialRenderingMode _isPrivate]
++ +[_UITraitColorMaterialRenderingMode affectsColorAppearance]
++ +[_UITraitColorMaterialRenderingMode defaultValueRepresentsUnspecified]
++ +[_UITraitColorMaterialRenderingMode defaultValue]
++ +[_UITraitColorMaterialRenderingMode identifier]
++ +[_UITraitColorMaterialRenderingMode name]
++ +[_UITraitSystemIconAppearance affectsColorAppearance]
++ +[_UITraitSystemIconAppearance defaultValue]
++ +[_UITraitSystemIconAppearance identifier]
++ +[_UITraitSystemIconAppearance name]
++ -[UIAlertControllerVisualStyle textFieldCornerRadius]
++ -[UIAlertControllerVisualStyleAlert textFieldContentInset]
++ -[UIButtonLegacyVisualProvider _removeContentBackdropView]
++ -[UIImage _isIconImage]
++ -[UIImage _rasterizedCustomSymbolImageForFastXPCCoding]
++ -[UIImageAsset _isIconAsset]
++ -[UIImageConfiguration _configurationWithSystemIconAppearance:]
++ -[UIImageConfiguration _setSystemIconAppearance:]
++ -[UIImageConfiguration _systemIconAppearance]
++ -[UIImageView _systemIconAppearanceDidChange]
++ -[UIInterfaceActionConcreteVisualStyle_CarPlay _shouldHighlightAppearanceForViewState:]
++ -[UIKBTree inheritedRowSetTypeForKeyboardType:]
++ -[UIKBTree keysOrderedByPositionLinear:]
++ -[UIKBTree updateCachedKeyList]
++ -[UIKeyboardVisualModeManager hardwareKeyboardAttached]
++ -[UIKeyboardVisualModeManager isCustomInputViewSet]
++ -[UIKeyboardVisualModeManager isWantsAssistantWhileSuppressingKeyboard]
++ -[UIKeyboardVisualModeManager keyboardCameraPresentedOrPresenting]
++ -[UIKeyboardVisualModeManager keyboardHasBeenInitialized]
++ -[UIKeyboardVisualModeManager keyboardSubstitutePresentedOrPresenting]
++ -[UIKeyboardVisualModeManager softwareKeyboardMinimized]
++ -[UINavigationController preferredTrafficLightStyle]
++ -[UIScene(_UISystemIconAppearanceSceneComponent) _systemIconAppearanceSceneComponent]
++ -[UISceneSession _setInternalUserInfo:]
++ -[UIScrollView _scrollIndicatorContainerRectForAxis:]
++ -[UISearchTab _isSearchTab]
++ -[UISearchTextField addAction:forControlEvents:]
++ -[UISearchTextField addTarget:action:forControlEvents:]
++ -[UISearchTextField removeAction:forControlEvents:]
++ -[UISearchTextField removeActionForIdentifier:forControlEvents:]
++ -[UISearchTextField removeTarget:action:forControlEvents:]
++ -[UISheetPresentationController _includesSafeAreaInsetWhenInset]
++ -[UISheetPresentationController _setIncludesSafeAreaInsetWhenInset:]
++ -[UISplitViewController preferredTrafficLightStyle]
++ -[UISplitViewControllerClassicImpl preferredTrafficLightStyle]
++ -[UISplitViewControllerPanelImpl preferredTrafficLightStyle]
++ -[UISwipeActionDynamicPullView extraInsets]
++ -[UISwipeActionDynamicPullView pullViewInsets]
++ -[UISwipeActionDynamicPullView setExtraInsets:]
++ -[UISwipeActionDynamicPullView setPullViewInsets:]
++ -[UISwipeActionPullView extraInsets]
++ -[UISwipeActionPullView pullViewInsets]
++ -[UISwipeActionPullView setExtraInsets:]
++ -[UISwipeActionPullView setPullViewInsets:]
++ -[UISwipeOccurrence pullViewInsets]
++ -[UISwipeOccurrence setPullViewInsets:]
++ -[UISwitchModernVisualElement _knobPositionAdjusted:on:offset:pressed:forBounds:]
++ -[UITab _isSearchTab]
++ -[UITabBarController preferredTrafficLightStyle]
++ -[UITableView swipeActionController:pullViewInsetsForItemAtIndexPath:]
++ -[UITextField _initTraitChangeRegistrations]
++ -[UITextField _legibilityWeightDidChange]
++ -[UITextField _preferredContentSizeCategoryDidChange]
++ -[UITraitCollection _systemIconAppearance]
++ -[UIView _flipsHorizontalAxis]
++ -[UIView _isRenderedHorizontallyFlipped]
++ -[UIView _setFlipsHorizontalAxis:]
++ -[UIView _shouldNotifyGeometryObservers]
++ -[UIView _updateRenderedHorizontallyFlippedFromSuperview:]
++ -[UIViewController(TrafficLightStyle) preferredTrafficLightStyle]
++ -[UIViewPropertyAnimator _canAddAnimations]
++ -[UIWindow layoutSubviews]
++ -[_NoAnimationDelegate actionForLayer:forKey:]
++ -[_UIContextMenuScrollObservationInteraction _shouldBeFoundByDescendentScrollView:]
++ -[_UIFloatingContentView removeSecondaryBackdropView]
++ -[_UIFloatingContentView setSecondaryBackdropView:]
++ -[_UIFloatingTabBar effectiveUserInterfaceStyle]
++ -[_UIFloatingTabBar isSearchTabSelected]
++ -[_UIHybridStateStore description]
++ -[_UIHybridStateStore objectForKey:]
++ -[_UIHybridStateStore setObject:forKey:]
++ -[_UIImageIconCacheKey .cxx_destruct]
++ -[_UIImageIconCacheKey copyWithZone:]
++ -[_UIImageIconCacheKey description]
++ -[_UIImageIconCacheKey hash]
++ -[_UIImageIconCacheKey isEqual:]
++ -[_UIMainMenuManager _fastXPCCodingImageForImage:]
++ -[_UINavigationBarVisualProvider glassUserInterfaceStyle]
++ -[_UINavigationBarVisualProviderModernIOS permitsSearchBarPlacementIntegratedCentered]
++ -[_UIPopoverShapeLayerChromeView _disableGlassForProcess]
++ -[_UISceneHostingView inheritsSecurity]
++ -[_UISceneHostingView setInheritsSecurity:]
++ -[_UISearchCancelButtonCarPlay .cxx_destruct]
++ -[_UISearchCancelButtonCarPlay didUpdateFocusInContext:withAnimationCoordinator:]
++ -[_UISearchCancelButtonCarPlay initWithFrame:]
++ -[_UISearchCancelButtonCarPlay layoutSubviews]
++ -[_UISearchFormSheetPresentationController _searchBar:didMoveFromWindow:newWindow:]
++ -[_UISearchPopoverPresentationController _searchBar:didMoveFromWindow:newWindow:]
++ -[_UISearchPresentationController _searchBar:didMoveFromWindow:newWindow:]
++ -[_UISearchTextFieldVisualStyle_iOS _defaultHeightForBarMetrics:floating:idiom:]
++ -[_UISheetInteraction _shouldBeFoundByDescendentScrollView:]
++ -[_UISplitViewControllerAdaptiveImpl preferredTrafficLightStyle]
++ -[_UISplitViewControllerBaseImpl preferredTrafficLightStyle]
++ -[_UISplitViewControllerLayoutState copyWithZone:]
++ -[_UISplitViewControllerLayoutState description]
++ -[_UISplitViewControllerLayoutState dictionary]
++ -[_UISplitViewControllerLayoutState encodeWithCoder:]
++ -[_UISplitViewControllerLayoutState initWithCoder:]
++ -[_UISplitViewControllerLayoutState initWithDictionary:]
++ -[_UISplitViewControllerLayoutState initWithLayout:preferredColumns:]
++ -[_UISplitViewControllerLayoutState isEqual:]
++ -[_UISwipeActionDynamicButtonView canUseInlineStyle]
++ -[_UISwipeActionDynamicButtonView setCanUseInlineStyle:]
++ -[_UISystemIconAppearance .cxx_destruct]
++ -[_UISystemIconAppearance applyAppearanceToDescriptor:userInterfaceStyle:]
++ -[_UISystemIconAppearance copyWithZone:]
++ -[_UISystemIconAppearance description]
++ -[_UISystemIconAppearance hash]
++ -[_UISystemIconAppearance isEqual:]
++ -[_UISystemIconAppearanceSceneComponent .cxx_destruct]
++ -[_UISystemIconAppearanceSceneComponent _currentIconAppearance]
++ -[_UISystemIconAppearanceSceneComponent _sceneWillInvalidate:]
++ -[_UISystemIconAppearanceSceneComponent _scene]
++ -[_UISystemIconAppearanceSceneComponent _setScene:]
++ -[_UISystemIconAppearanceSceneComponent _systemIconStyleDidChange]
++ -[_UISystemIconAppearanceSceneComponent _traitOverrides]
++ -[_UISystemIconAppearanceSceneComponent initWithScene:]
++ -[_UITabBarControllerVisualStyle preferredTrafficLightStyle]
++ -[_UITabBarControllerVisualStyle_Pad preferredTrafficLightStyle]
++ -[_UITabSearchElement _isSearchTab]
++ GCC_except_table1002
++ GCC_except_table1010
++ GCC_except_table1014
++ GCC_except_table1017
++ GCC_except_table1024
++ GCC_except_table1172
++ GCC_except_table1248
++ GCC_except_table1301
++ GCC_except_table1303
++ GCC_except_table1456
++ GCC_except_table1458
++ GCC_except_table174
++ GCC_except_table183
++ GCC_except_table185
++ GCC_except_table242
++ GCC_except_table248
++ GCC_except_table256
++ GCC_except_table266
++ GCC_except_table277
++ GCC_except_table281
++ GCC_except_table308
++ GCC_except_table309
++ GCC_except_table335
++ GCC_except_table341
++ GCC_except_table347
++ GCC_except_table384
++ GCC_except_table413
++ GCC_except_table448
++ GCC_except_table450
++ GCC_except_table470
++ GCC_except_table471
++ GCC_except_table513
++ GCC_except_table527
++ GCC_except_table543
++ GCC_except_table546
++ GCC_except_table621
++ GCC_except_table627
++ GCC_except_table629
++ GCC_except_table660
++ GCC_except_table709
++ GCC_except_table779
++ GCC_except_table786
++ GCC_except_table793
++ GCC_except_table799
++ GCC_except_table804
++ GCC_except_table888
++ GCC_except_table891
++ GCC_except_table897
++ GCC_except_table930
++ _.str.191
++ _.str.4170
++ _CGRectInfinite
++ _OBJC_CLASS_$_IFColor
++ _OBJC_CLASS_$__NoAnimationDelegate
++ _OBJC_CLASS_$__TtC5UIKit28_UILiquidLensViewVariantSpec
++ _OBJC_CLASS_$__TtC5UIKit33_UILiquidLensViewLargeVariantSpec
++ _OBJC_CLASS_$__TtC5UIKit33_UILiquidLensViewSmallVariantSpec
++ _OBJC_CLASS_$__TtC5UIKit39_UIFlexInteractionUltraSmallVariantSpec
++ _OBJC_CLASS_$__TtCE5UIKitCSo15_UIScrollPocket10PocketBlur
++ _OBJC_CLASS_$__UIHybridStateStore
++ _OBJC_CLASS_$__UIImageIconCacheKey
++ _OBJC_CLASS_$__UISearchCancelButtonCarPlay
++ _OBJC_CLASS_$__UISplitViewControllerLayoutState
++ _OBJC_CLASS_$__UISystemIconAppearance
++ _OBJC_CLASS_$__UISystemIconAppearanceSceneComponent
++ _OBJC_CLASS_$__UITraitColorMaterialRenderingMode
++ _OBJC_CLASS_$__UITraitSystemIconAppearance
++ _OBJC_IVAR_$_UIControl._targetActions
++ _OBJC_IVAR_$_UIImageConfiguration._flags
++ _OBJC_IVAR_$_UINavigationBar._requestedContentSize
++ _OBJC_IVAR_$_UINavigationBar._visualProvider
++ _OBJC_IVAR_$_UISwipeActionPullView._extraInsets
++ _OBJC_IVAR_$_UISwipeActionPullView._pullViewInsets
++ _OBJC_IVAR_$_UISwipeOccurrence._pullViewInsets
++ _OBJC_IVAR_$_UISwitchModernVisualElement._zeroOffset
++ _OBJC_IVAR_$_UIWindow._lastPropagatedStatusBarHeight
++ _OBJC_IVAR_$__UIHybridStateStore._sceneSession
++ _OBJC_IVAR_$__UIImageIconCacheKey._appearance
++ _OBJC_IVAR_$__UIImageIconCacheKey._userInterfaceStyle
++ _OBJC_IVAR_$__UISearchCancelButtonCarPlay.focusedView
++ _OBJC_IVAR_$__UISplitViewControllerLayoutState._primaryEdgeSplitViewControllerColumn
++ _OBJC_IVAR_$__UISplitViewControllerLayoutState._secondaryEdgeSplitViewControllerColumn
++ _OBJC_IVAR_$__UISwipeActionDynamicButtonView._canUseInlineStyle
++ _OBJC_IVAR_$__UISystemIconAppearance._configuration
++ _OBJC_IVAR_$__UISystemIconAppearance._flags
++ _OBJC_IVAR_$__UISystemIconAppearanceSceneComponent._appearance
++ _OBJC_IVAR_$__UISystemIconAppearanceSceneComponent._scene
++ _OBJC_IVAR_$__UISystemIconAppearanceSceneComponent._sceneTraitObserver
++ _OBJC_METACLASS_$__NoAnimationDelegate
++ _OBJC_METACLASS_$__TtC5UIKit28_UILiquidLensViewVariantSpec
++ _OBJC_METACLASS_$__TtC5UIKit33_UILiquidLensViewLargeVariantSpec
++ _OBJC_METACLASS_$__TtC5UIKit33_UILiquidLensViewSmallVariantSpec
++ _OBJC_METACLASS_$__TtC5UIKit39_UIFlexInteractionUltraSmallVariantSpec
++ _OBJC_METACLASS_$__TtC5UIKitP33_85E9C0EF4CE083FCE5405A75E0676D6F11ShadowLayer
++ _OBJC_METACLASS_$__TtCE5UIKitCSo15_UIScrollPocket10PocketBlur
++ _OBJC_METACLASS_$__UIHybridStateStore
++ _OBJC_METACLASS_$__UIImageIconCacheKey
++ _OBJC_METACLASS_$__UISearchCancelButtonCarPlay
++ _OBJC_METACLASS_$__UISplitViewControllerLayoutState
++ _OBJC_METACLASS_$__UISystemIconAppearance
++ _OBJC_METACLASS_$__UISystemIconAppearanceSceneComponent
++ _OBJC_METACLASS_$__UITraitColorMaterialRenderingMode
++ _OBJC_METACLASS_$__UITraitSystemIconAppearance
++ _TIInputModeCanBePrimaryMultiscript
++ _UIKeyboardInputModeIsMultiscript
++ _UIKeyboardTraitsCanSplit
++ __CLASS_METHODS__TtC5UIKit28_UILiquidLensViewVariantSpec
++ __CLASS_METHODS__UIScrollPocket
++ __DATA__TtC5UIKit28_UILiquidLensViewVariantSpec
++ __DATA__TtC5UIKit33_UILiquidLensViewLargeVariantSpec
++ __DATA__TtC5UIKit33_UILiquidLensViewSmallVariantSpec
++ __DATA__TtC5UIKit39_UIFlexInteractionUltraSmallVariantSpec
++ __DATA__TtC5UIKitP33_85E9C0EF4CE083FCE5405A75E0676D6F11ShadowLayer
++ __DATA__TtCE5UIKitCSo15_UIScrollPocket10PocketBlur
++ __GetNormalizedIdentifiersForMultiscriptInputModes
++ __INSTANCE_METHODS__TtC5UIKit28_UILiquidLensViewVariantSpec
++ __INSTANCE_METHODS__TtC5UIKit33_UILiquidLensViewLargeVariantSpec
++ __INSTANCE_METHODS__TtC5UIKit33_UILiquidLensViewSmallVariantSpec
++ __INSTANCE_METHODS__TtC5UIKit39_UIFlexInteractionUltraSmallVariantSpec
++ __INSTANCE_METHODS__TtC5UIKitP33_85E9C0EF4CE083FCE5405A75E0676D6F11ShadowLayer
++ __INSTANCE_METHODS__TtCE5UIKitCSo15_UIScrollPocket10PocketBlur
++ __INSTANCE_METHODS__UIScrollPocket
++ __IVARS__TtC5UIKit28_UILiquidLensViewVariantSpec
++ __IVARS__TtC5UIKitP33_85E9C0EF4CE083FCE5405A75E0676D6F11ShadowLayer
++ __IVARS__TtCE5UIKitCSo15_UIScrollPocket10PocketBlur
++ __METACLASS_DATA__TtC5UIKit28_UILiquidLensViewVariantSpec
++ __METACLASS_DATA__TtC5UIKit33_UILiquidLensViewLargeVariantSpec
++ __METACLASS_DATA__TtC5UIKit33_UILiquidLensViewSmallVariantSpec
++ __METACLASS_DATA__TtC5UIKit39_UIFlexInteractionUltraSmallVariantSpec
++ __METACLASS_DATA__TtC5UIKitP33_85E9C0EF4CE083FCE5405A75E0676D6F11ShadowLayer
++ __METACLASS_DATA__TtCE5UIKitCSo15_UIScrollPocket10PocketBlur
++ __MergedGlobals.117
++ __MergedGlobals.121
++ __MergedGlobals.122
++ __MergedGlobals.92
++ __OBJC_$_CLASS_METHODS_UIScene(_UIHDRUsageCoordinatorSceneComponent|_UIHomeAffordanceNotifier|MainMenu|EventDeferring|ViewControllerAppearanceComponent|SystemProtection|EventDeferringComponent|UIFocusSystemSceneComponent|AVAudioSession|PointerLockState|_UISystemIconAppearanceSceneComponent|_UIApplicationSceneDisplayClientComponent|KeyWindowSceneObserver|IntelligenceSupport|SceneType|PhysicalButtonInteractionArbiterInternal|PhysicalButtonInteractionArbiter|_UISceneDestructionClientComponent|UIFocusSystem|FocusSystemExtension|UIKitBacklightServices|SystemShellHostingEnvironment|RenderingEnvironment|_UIApplicationSceneKeyboardClientComponent|SafeArea|_UISceneEnhancedStateRestoration_Private|UISceneEnhancedStateRestoration)
++ __OBJC_$_CLASS_METHODS_UIView(CornerConfiguration|CornerProvider|UIKitCore|AppIntentsAnnotationsDebugDescription|_UIFlexInteraction|SwiftC2|ViewMasking|ConcentricLayout|ViewMaskingProvider|UIKitCore1|UIKitCore2|UIKitCore3|AlphaOverride|UIKitCore4|_UIViewMaterial|Glass|BackgroundSuppression|MonochromaticTreatment|Monochromatic|UIKitCore5|InProcessAlongsideAnimations|LayoutRegions|SwiftUIAnimation|DynamicLayoutGuides|UIObservationTracking|_UIUpdateContent|HybridPropertyAnimator|UIHoverStyle|UIShapeInternal|UIKitAccessibilityInterfaceBuilderSupport|UIAccessibilityInvertColors|UIAccessibilityInvertColorsInternal|UIInterfaceActionRepresentationView|_UIShapeConvenience|UIRenderingGroupFlags|UIContentSizeCategoryLimit|_UIButtonBarItemLayout|UINavigationBarAdditions|_UIWTCProofreadDecorating|_UIWritingToolsResponderSupport|VisualDescriptionAdditions|UIReferenceLibraryViewController_UIViewExtensions|_UIFlocker|_UIBarCustomizationChiclet|UIDragging|KeyboardSceneDelegate|UIKit_StandardEditActions|UIActivityItemsConfiguration_Private|inputResponderController|_UIViewBacking|_UIViewBackingMaterialThemesSupport|MaterialThemes|MultiLayer|_UIFallbackEnvironment|UIKB_UIViewExtras|UIAutocorrectInlinePrompt|_UISearchBarCompatibilityClippingViewSupport|_UIConstraintBasedLayoutEmbedding|_UIConstraintBasedLayoutMeasuring|UIHoverStyle_Internal|UITextInputView|UIMorphableInternal|_UIPortalView|_UIPickerReuse|_UITouchForceObservable|_UIHDRAnimations|_UIDragEventSupport|UISystemStatusUISupport|StatusBarAdditions_Internal|AddStickerAnimation|_UIMorphingView|UITextEffectsOrdering|UITextEffectsWindowAdditions|UITextField|UILargeContentViewer|UILargeContentViewerPrivate|UILargeContentViewerInternal|UICatalystMacIdiomUnsupported_Private|UICatalystMacIdiomUnsupported_Internal|XcodeDebuggerSupport|ViewService|FluidTransitions|_UILayoutArrangementInternalAdditions|_UIOrderedLayoutArrangementInternalAdditions|_UILACanvasSupport|_UIOldConstraintBasedLayoutSupport|UIAutolayoutTAMIC_NO_EngineHosting|UIDisableLayoutFlushingCount|UIConstraintBasedLayout|AdditionalLayoutSupport|UIConstraintBasedLayout_EngineDelegate|_UIKitLayoutSpacing|_UIKitLayoutSpacing_Private|Geometry|InProcessAnimations_Internal|Hierarchy|Rendering|Animation|UIViewAnimationWithBlocks|UIViewAnimationWithBlocksPrivate|UIViewKeyframeAnimations|Deprecated|ScrollNotification|Internal|UIViewAnimation_ForSystemShellOnly|UIView_ForSpringBoardOnly|_UIPointerInteractionAssistant|Dragging|UIViewGestures|CALayerDelegate|UIDebugging|SyntheticEvents|UIViewStyleAdditions|ClassicAdditions|UIAutoscrollAdditions|UIScrollAdditions|ActivityContinuation|UIViewRTL|UIViewLayoutConstraintCreation|UIViewBoundingPathSupport|UIViewBoundingPathSupportInternal|UserInterfaceStyle|_UIDynamicUserInterfaceStyleSPI|DictationSPI|_UIKitViewLandmarks|UIKitManual|AutoLayoutManual|ContentEffects|_UIPopoverPresentationControllerSourceItem_Internal|_UIViewLayoutFeedbackDebuggingSupport)
++ __OBJC_$_CLASS_METHODS_UIViewController(UIKitCore|UIKitCore1|UIObservationTracking|UIAlertControllerContentViewController|UIResponderChainTraversal|UIActionSheetPresentationControllerAccess|UIImagePickerControllerAdditions|PLImagePickerViewControllerInterface|UIPopoverController_Internal|_UIMultiColumnViewController|_UIKitIsUIViewController|_UIFocusEnvironmentPrivate|UIPerformsActions|UITab|UITab_Private|UITab_Internal|UITabBarControllerItem|UISplitViewController|BinaryCompatibility|UINavigationControllerItemInternal|UINavigationControllerItem|UINavigationControllerContextualToolbar|UINavigationControllerContextToolbar_Internal|UIContainerViewControllerProtectedMethods|UIContainerViewControllerCallbacks|UIContainerViewControllerCallbacks_Internal|StateRestoration_Internal|StateRestoration|ActivityContinuationPrivate|ActivityContinuationInternal|ActivityContinuation|EmbeddedViewSupport|UIFirstResponderSupport|UICollectionViewControllerSupport|UIViewControllerTransitioning|AdaptiveSizing|AdaptiveSizing_Internal|UIViewControllerClassDumpWarning|UIKeyCommand|ForUISplitViewController|TrafficLightStyle|AccessibilityHUD|OrientationDebugging|NSExtensionAdditionsInternal|NSExtensionAdditions|_UIApplicationRotationFollowing|_UIAlwaysOnEnvironment|_UIFallbackEnvironment|UIViewControllerTransition|_UIContainerWindowPortalView|UnwindSegueSupport|_UIHostedWindowScene|_UISheetPresentationController|ViewServices|ViewService_Internal)
++ __OBJC_$_CLASS_METHODS__UISplitViewControllerLayoutState
++ __OBJC_$_CLASS_METHODS__UITraitColorMaterialRenderingMode
++ __OBJC_$_CLASS_METHODS__UITraitSystemIconAppearance
++ __OBJC_$_CLASS_PROP_LIST__UISplitViewControllerLayoutState
++ __OBJC_$_CLASS_PROP_LIST__UITraitColorMaterialRenderingMode
++ __OBJC_$_CLASS_PROP_LIST__UITraitSystemIconAppearance
++ __OBJC_$_INSTANCE_METHODS_UIScene(_UIHDRUsageCoordinatorSceneComponent|_UIHomeAffordanceNotifier|MainMenu|EventDeferring|ViewControllerAppearanceComponent|SystemProtection|EventDeferringComponent|UIFocusSystemSceneComponent|AVAudioSession|PointerLockState|_UISystemIconAppearanceSceneComponent|_UIApplicationSceneDisplayClientComponent|KeyWindowSceneObserver|IntelligenceSupport|SceneType|PhysicalButtonInteractionArbiterInternal|PhysicalButtonInteractionArbiter|_UISceneDestructionClientComponent|UIFocusSystem|FocusSystemExtension|UIKitBacklightServices|SystemShellHostingEnvironment|RenderingEnvironment|_UIApplicationSceneKeyboardClientComponent|SafeArea|_UISceneEnhancedStateRestoration_Private|UISceneEnhancedStateRestoration)
++ __OBJC_$_INSTANCE_METHODS_UIView(CornerConfiguration|CornerProvider|UIKitCore|AppIntentsAnnotationsDebugDescription|_UIFlexInteraction|SwiftC2|ViewMasking|ConcentricLayout|ViewMaskingProvider|UIKitCore1|UIKitCore2|UIKitCore3|AlphaOverride|UIKitCore4|_UIViewMaterial|Glass|BackgroundSuppression|MonochromaticTreatment|Monochromatic|UIKitCore5|InProcessAlongsideAnimations|LayoutRegions|SwiftUIAnimation|DynamicLayoutGuides|UIObservationTracking|_UIUpdateContent|HybridPropertyAnimator|UIHoverStyle|UIShapeInternal|UIKitAccessibilityInterfaceBuilderSupport|UIAccessibilityInvertColors|UIAccessibilityInvertColorsInternal|UIInterfaceActionRepresentationView|_UIShapeConvenience|UIRenderingGroupFlags|UIContentSizeCategoryLimit|_UIButtonBarItemLayout|UINavigationBarAdditions|_UIWTCProofreadDecorating|_UIWritingToolsResponderSupport|VisualDescriptionAdditions|UIReferenceLibraryViewController_UIViewExtensions|_UIFlocker|_UIBarCustomizationChiclet|UIDragging|KeyboardSceneDelegate|UIKit_StandardEditActions|UIActivityItemsConfiguration_Private|inputResponderController|_UIViewBacking|_UIViewBackingMaterialThemesSupport|MaterialThemes|MultiLayer|_UIFallbackEnvironment|UIKB_UIViewExtras|UIAutocorrectInlinePrompt|_UISearchBarCompatibilityClippingViewSupport|_UIConstraintBasedLayoutEmbedding|_UIConstraintBasedLayoutMeasuring|UIHoverStyle_Internal|UITextInputView|UIMorphableInternal|_UIPortalView|_UIPickerReuse|_UITouchForceObservable|_UIHDRAnimations|_UIDragEventSupport|UISystemStatusUISupport|StatusBarAdditions_Internal|AddStickerAnimation|_UIMorphingView|UITextEffectsOrdering|UITextEffectsWindowAdditions|UITextField|UILargeContentViewer|UILargeContentViewerPrivate|UILargeContentViewerInternal|UICatalystMacIdiomUnsupported_Private|UICatalystMacIdiomUnsupported_Internal|XcodeDebuggerSupport|ViewService|FluidTransitions|_UILayoutArrangementInternalAdditions|_UIOrderedLayoutArrangementInternalAdditions|_UILACanvasSupport|_UIOldConstraintBasedLayoutSupport|UIAutolayoutTAMIC_NO_EngineHosting|UIDisableLayoutFlushingCount|UIConstraintBasedLayout|AdditionalLayoutSupport|UIConstraintBasedLayout_EngineDelegate|_UIKitLayoutSpacing|_UIKitLayoutSpacing_Private|Geometry|InProcessAnimations_Internal|Hierarchy|Rendering|Animation|UIViewAnimationWithBlocks|UIViewAnimationWithBlocksPrivate|UIViewKeyframeAnimations|Deprecated|ScrollNotification|Internal|UIViewAnimation_ForSystemShellOnly|UIView_ForSpringBoardOnly|_UIPointerInteractionAssistant|Dragging|UIViewGestures|CALayerDelegate|UIDebugging|SyntheticEvents|UIViewStyleAdditions|ClassicAdditions|UIAutoscrollAdditions|UIScrollAdditions|ActivityContinuation|UIViewRTL|UIViewLayoutConstraintCreation|UIViewBoundingPathSupport|UIViewBoundingPathSupportInternal|UserInterfaceStyle|_UIDynamicUserInterfaceStyleSPI|DictationSPI|_UIKitViewLandmarks|UIKitManual|AutoLayoutManual|ContentEffects|_UIPopoverPresentationControllerSourceItem_Internal|_UIViewLayoutFeedbackDebuggingSupport)
++ __OBJC_$_INSTANCE_METHODS_UIViewController(UIKitCore|UIKitCore1|UIObservationTracking|UIAlertControllerContentViewController|UIResponderChainTraversal|UIActionSheetPresentationControllerAccess|UIImagePickerControllerAdditions|PLImagePickerViewControllerInterface|UIPopoverController_Internal|_UIMultiColumnViewController|_UIKitIsUIViewController|_UIFocusEnvironmentPrivate|UIPerformsActions|UITab|UITab_Private|UITab_Internal|UITabBarControllerItem|UISplitViewController|BinaryCompatibility|UINavigationControllerItemInternal|UINavigationControllerItem|UINavigationControllerContextualToolbar|UINavigationControllerContextToolbar_Internal|UIContainerViewControllerProtectedMethods|UIContainerViewControllerCallbacks|UIContainerViewControllerCallbacks_Internal|StateRestoration_Internal|StateRestoration|ActivityContinuationPrivate|ActivityContinuationInternal|ActivityContinuation|EmbeddedViewSupport|UIFirstResponderSupport|UICollectionViewControllerSupport|UIViewControllerTransitioning|AdaptiveSizing|AdaptiveSizing_Internal|UIViewControllerClassDumpWarning|UIKeyCommand|ForUISplitViewController|TrafficLightStyle|AccessibilityHUD|OrientationDebugging|NSExtensionAdditionsInternal|NSExtensionAdditions|_UIApplicationRotationFollowing|_UIAlwaysOnEnvironment|_UIFallbackEnvironment|UIViewControllerTransition|_UIContainerWindowPortalView|UnwindSegueSupport|_UIHostedWindowScene|_UISheetPresentationController|ViewServices|ViewService_Internal)
++ __OBJC_$_INSTANCE_METHODS__NoAnimationDelegate
++ __OBJC_$_INSTANCE_METHODS__UIHybridStateStore
++ __OBJC_$_INSTANCE_METHODS__UIImageIconCacheKey
++ __OBJC_$_INSTANCE_METHODS__UISearchCancelButtonCarPlay
++ __OBJC_$_INSTANCE_METHODS__UISplitViewControllerLayoutState
++ __OBJC_$_INSTANCE_METHODS__UISystemIconAppearance
++ __OBJC_$_INSTANCE_METHODS__UISystemIconAppearanceSceneComponent
++ __OBJC_$_INSTANCE_VARIABLES__UIHybridStateStore
++ __OBJC_$_INSTANCE_VARIABLES__UIImageIconCacheKey
++ __OBJC_$_INSTANCE_VARIABLES__UISearchCancelButtonCarPlay
++ __OBJC_$_INSTANCE_VARIABLES__UISplitViewControllerLayoutState
++ __OBJC_$_INSTANCE_VARIABLES__UISystemIconAppearance
++ __OBJC_$_INSTANCE_VARIABLES__UISystemIconAppearanceSceneComponent
++ __OBJC_$_PROP_LIST_UIImageConfiguration.137
++ __OBJC_$_PROP_LIST_UIViewImplicitlyAnimating_Internal
++ __OBJC_$_PROP_LIST__NoAnimationDelegate
++ __OBJC_$_PROP_LIST__UISystemIconAppearanceSceneComponent
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIViewImplicitlyAnimating_Internal
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UIViewImplicitlyAnimating_Internal
++ __OBJC_$_PROTOCOL_REFS_UIViewImplicitlyAnimating_Internal
++ __OBJC_CLASS_PROTOCOLS_$_UIView(CornerConfiguration|CornerProvider|UIKitCore|AppIntentsAnnotationsDebugDescription|_UIFlexInteraction|SwiftC2|ViewMasking|ConcentricLayout|ViewMaskingProvider|UIKitCore1|UIKitCore2|UIKitCore3|AlphaOverride|UIKitCore4|_UIViewMaterial|Glass|BackgroundSuppression|MonochromaticTreatment|Monochromatic|UIKitCore5|InProcessAlongsideAnimations|LayoutRegions|SwiftUIAnimation|DynamicLayoutGuides|UIObservationTracking|_UIUpdateContent|HybridPropertyAnimator|UIHoverStyle|UIShapeInternal|UIKitAccessibilityInterfaceBuilderSupport|UIAccessibilityInvertColors|UIAccessibilityInvertColorsInternal|UIInterfaceActionRepresentationView|_UIShapeConvenience|UIRenderingGroupFlags|UIContentSizeCategoryLimit|_UIButtonBarItemLayout|UINavigationBarAdditions|_UIWTCProofreadDecorating|_UIWritingToolsResponderSupport|VisualDescriptionAdditions|UIReferenceLibraryViewController_UIViewExtensions|_UIFlocker|_UIBarCustomizationChiclet|UIDragging|KeyboardSceneDelegate|UIKit_StandardEditActions|UIActivityItemsConfiguration_Private|inputResponderController|_UIViewBacking|_UIViewBackingMaterialThemesSupport|MaterialThemes|MultiLayer|_UIFallbackEnvironment|UIKB_UIViewExtras|UIAutocorrectInlinePrompt|_UISearchBarCompatibilityClippingViewSupport|_UIConstraintBasedLayoutEmbedding|_UIConstraintBasedLayoutMeasuring|UIHoverStyle_Internal|UITextInputView|UIMorphableInternal|_UIPortalView|_UIPickerReuse|_UITouchForceObservable|_UIHDRAnimations|_UIDragEventSupport|UISystemStatusUISupport|StatusBarAdditions_Internal|AddStickerAnimation|_UIMorphingView|UITextEffectsOrdering|UITextEffectsWindowAdditions|UITextField|UILargeContentViewer|UILargeContentViewerPrivate|UILargeContentViewerInternal|UICatalystMacIdiomUnsupported_Private|UICatalystMacIdiomUnsupported_Internal|XcodeDebuggerSupport|ViewService|FluidTransitions|_UILayoutArrangementInternalAdditions|_UIOrderedLayoutArrangementInternalAdditions|_UILACanvasSupport|_UIOldConstraintBasedLayoutSupport|UIAutolayoutTAMIC_NO_EngineHosting|UIDisableLayoutFlushingCount|UIConstraintBasedLayout|AdditionalLayoutSupport|UIConstraintBasedLayout_EngineDelegate|_UIKitLayoutSpacing|_UIKitLayoutSpacing_Private|Geometry|InProcessAnimations_Internal|Hierarchy|Rendering|Animation|UIViewAnimationWithBlocks|UIViewAnimationWithBlocksPrivate|UIViewKeyframeAnimations|Deprecated|ScrollNotification|Internal|UIViewAnimation_ForSystemShellOnly|UIView_ForSpringBoardOnly|_UIPointerInteractionAssistant|Dragging|UIViewGestures|CALayerDelegate|UIDebugging|SyntheticEvents|UIViewStyleAdditions|ClassicAdditions|UIAutoscrollAdditions|UIScrollAdditions|ActivityContinuation|UIViewRTL|UIViewLayoutConstraintCreation|UIViewBoundingPathSupport|UIViewBoundingPathSupportInternal|UserInterfaceStyle|_UIDynamicUserInterfaceStyleSPI|DictationSPI|_UIKitViewLandmarks|UIKitManual|AutoLayoutManual|ContentEffects|_UIPopoverPresentationControllerSourceItem_Internal|_UIViewLayoutFeedbackDebuggingSupport)
++ __OBJC_CLASS_PROTOCOLS_$_UIViewController(UIKitCore|UIKitCore1|UIObservationTracking|UIAlertControllerContentViewController|UIResponderChainTraversal|UIActionSheetPresentationControllerAccess|UIImagePickerControllerAdditions|PLImagePickerViewControllerInterface|UIPopoverController_Internal|_UIMultiColumnViewController|_UIKitIsUIViewController|_UIFocusEnvironmentPrivate|UIPerformsActions|UITab|UITab_Private|UITab_Internal|UITabBarControllerItem|UISplitViewController|BinaryCompatibility|UINavigationControllerItemInternal|UINavigationControllerItem|UINavigationControllerContextualToolbar|UINavigationControllerContextToolbar_Internal|UIContainerViewControllerProtectedMethods|UIContainerViewControllerCallbacks|UIContainerViewControllerCallbacks_Internal|StateRestoration_Internal|StateRestoration|ActivityContinuationPrivate|ActivityContinuationInternal|ActivityContinuation|EmbeddedViewSupport|UIFirstResponderSupport|UICollectionViewControllerSupport|UIViewControllerTransitioning|AdaptiveSizing|AdaptiveSizing_Internal|UIViewControllerClassDumpWarning|UIKeyCommand|ForUISplitViewController|TrafficLightStyle|AccessibilityHUD|OrientationDebugging|NSExtensionAdditionsInternal|NSExtensionAdditions|_UIApplicationRotationFollowing|_UIAlwaysOnEnvironment|_UIFallbackEnvironment|UIViewControllerTransition|_UIContainerWindowPortalView|UnwindSegueSupport|_UIHostedWindowScene|_UISheetPresentationController|ViewServices|ViewService_Internal)
++ __OBJC_CLASS_PROTOCOLS_$__NoAnimationDelegate
++ __OBJC_CLASS_PROTOCOLS_$__UIImageIconCacheKey
++ __OBJC_CLASS_PROTOCOLS_$__UISplitViewControllerLayoutState
++ __OBJC_CLASS_PROTOCOLS_$__UISystemIconAppearance
++ __OBJC_CLASS_PROTOCOLS_$__UISystemIconAppearanceSceneComponent
++ __OBJC_CLASS_PROTOCOLS_$__UITraitColorMaterialRenderingMode
++ __OBJC_CLASS_PROTOCOLS_$__UITraitSystemIconAppearance
++ __OBJC_CLASS_RO_$__NoAnimationDelegate
++ __OBJC_CLASS_RO_$__UIHybridStateStore
++ __OBJC_CLASS_RO_$__UIImageIconCacheKey
++ __OBJC_CLASS_RO_$__UISearchCancelButtonCarPlay
++ __OBJC_CLASS_RO_$__UISplitViewControllerLayoutState
++ __OBJC_CLASS_RO_$__UISystemIconAppearance
++ __OBJC_CLASS_RO_$__UISystemIconAppearanceSceneComponent
++ __OBJC_CLASS_RO_$__UITraitColorMaterialRenderingMode
++ __OBJC_CLASS_RO_$__UITraitSystemIconAppearance
++ __OBJC_LABEL_PROTOCOL_$_UIViewImplicitlyAnimating_Internal
++ __OBJC_METACLASS_RO_$__NoAnimationDelegate
++ __OBJC_METACLASS_RO_$__UIHybridStateStore
++ __OBJC_METACLASS_RO_$__UIImageIconCacheKey
++ __OBJC_METACLASS_RO_$__UISearchCancelButtonCarPlay
++ __OBJC_METACLASS_RO_$__UISplitViewControllerLayoutState
++ __OBJC_METACLASS_RO_$__UISystemIconAppearance
++ __OBJC_METACLASS_RO_$__UISystemIconAppearanceSceneComponent
++ __OBJC_METACLASS_RO_$__UITraitColorMaterialRenderingMode
++ __OBJC_METACLASS_RO_$__UITraitSystemIconAppearance
++ __OBJC_PROTOCOL_$_UIViewImplicitlyAnimating_Internal
++ __PROPERTIES__TtC5UIKit28_UILiquidLensViewVariantSpec
++ __PROPERTIES__TtCE5UIKitCSo15_UIScrollPocket10PocketMask
++ __PROPERTIES__TtCE5UIKitCSo15_UIScrollPocketP33_54F5B0BEB96954C1867D8C3082E9F3FD12TouchBlocker
++ __UICornerRadiiFlippedHorizontally
++ __UIImageConfigurationSystemIconAppearanceKey
++ __UIImageIsCustomSymbol
++ __UIInternalPreference_ScrollPocketFrameCache
++ __UIInternalPreference_SplitViewControllerSecondaryEdgeBarButtonItemEnabled_block_invoke_17.__s_category
++ __UIScreenUsesMinimumSafeAreas
++ __UIScrollPocketFrameCacheEnabled
++ __UISplitViewControllerColumnForKey
++ __UIStatusBarPartIdentifierTrafficLight
++ __UISystemIconAppearanceSceneComponentKey
++ ___103-[_UIFocusMap _nextFocusedItemForLinearFocusMovementRequest:startingFromRegion:inRegions:withSnapshot:]_block_invoke_2
++ ___103-[_UIFocusMap _nextFocusedItemForLinearFocusMovementRequest:startingFromRegion:inRegions:withSnapshot:]_block_invoke_3
++ ___106-[UICollectionViewCell systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:]_block_invoke.328
++ ___108-[_UIViewServiceSceneDelegate badlyBehavedAppWantsUnnecessaryDelayForMaterializedViewControllerInstallation]_block_invoke
++ ___43-[UISystemInputViewController setDelegate:]_block_invoke_2
++ ___43-[_UISceneHostingView setInheritsSecurity:]_block_invoke
++ ___45-[UIKeyboardLayoutStar createLayoutFromName:]_block_invoke_2
++ ___45-[UIKeyboardLayoutStar createLayoutFromName:]_block_invoke_3
++ ___48-[UISearchTextField addAction:forControlEvents:]_block_invoke
++ ___51-[UISearchTextField removeAction:forControlEvents:]_block_invoke
++ ___51-[_UIViewServiceSceneDelegate initWithWindowScene:]_block_invoke
++ ___54-[_UIKBFeedbackGenerator activateWithCompletionBlock:]_block_invoke.407
++ ___55-[UISearchTextField addTarget:action:forControlEvents:]_block_invoke
++ ___57-[_UIKBFeedbackGenerator _deactivateWithCompletionBlock:]_block_invoke.408
++ ___57-[_UIPopoverShapeLayerChromeView _disableGlassForProcess]_block_invoke
++ ___58-[UISearchTextField removeTarget:action:forControlEvents:]_block_invoke
++ ___63-[UIView(Geometry) _applyAutoresizingMaskWithOldSuperviewSize:]_block_invoke.2544
++ ___64-[UISearchTextField removeActionForIdentifier:forControlEvents:]_block_invoke
++ ___64-[UIView(UIDebugging) _dumpClippedViewWithScreenshotIfNecessary]_block_invoke.3647
++ ___64-[_UISplitViewControllerAdaptiveImpl _isRootSplitViewController]_block_invoke
++ ___64-[_UISplitViewControllerAdaptiveImpl preferredTrafficLightStyle]_block_invoke
++ ___68-[UISwitchModernVisualElement _transitionKnobToPressed:on:animated:]_block_invoke_5
++ ___71+[UIView(Animation) _completeAnimationWithUUID:duration:curve:reverse:]_block_invoke.2861
++ ___71-[UIWindow _scrollToTopViewsUnderScreenPointIfNecessary:resultHandler:]_block_invoke.448
++ ___73+[UIKeyboardInputModeController filteredCarPlayInputModesFromInputModes:]_block_invoke
++ ___82-[UIButtonConfigurationVisualProviderTVOS _updateBackgroundViewWithConfiguration:]_block_invoke_2
++ ___82-[UINavigationController transitionConductor:didStartCustomTransitionWithContext:]_block_invoke_3
++ ___84-[UISegmentedControl _updateSelectionToSegment:highlight:shouldAnimate:sameSegment:]_block_invoke.698
++ ___84-[UISegmentedControl _updateSelectionToSegment:highlight:shouldAnimate:sameSegment:]_block_invoke_4
++ ___84-[UISegmentedControl _updateSelectionToSegment:highlight:shouldAnimate:sameSegment:]_block_invoke_5
++ ___84-[UISegmentedControl _updateSelectionToSegment:highlight:shouldAnimate:sameSegment:]_block_invoke_6
++ ___88-[_UISplitViewControllerAdaptiveImpl _suspendAppearanceTransitionsInSplitViewController]_block_invoke.425
++ ___91-[_UIKBFeedbackGenerator _stopEngineIfNecessaryOnQueueAndReleaseResources:completionBlock:]_block_invoke.390
++ ___96-[_UIStackedImageContainerLayer _setControlState:animated:focusAnimationCoordinator:completion:]_block_invoke_5
++ ___96-[_UIStackedImageContainerLayer _setControlState:animated:focusAnimationCoordinator:completion:]_block_invoke_6
++ ___98+[UIView(UIViewAnimationWithBlocks) performSystemAnimation:onViews:options:animations:completion:]_block_invoke.3016
++ ___Block_byref_object_copy_.309
++ ___Block_byref_object_copy_.446
++ ___Block_byref_object_dispose_.310
++ ___Block_byref_object_dispose_.447
++ ___SpringBoardUIServicesLibraryCore_block_invoke
++ ____ForcePermitsSearchBarPlacementIntegratedCentered_block_invoke
++ _____updateTouchVisualisation_block_invoke.1578
++ ___block_descriptor_40_e8_32s_e23_16?0"<UIFocusItem>"8ls32l8
++ ___block_descriptor_40_e8_32s_e63_v24?0"UIBackgroundConfiguration"8"_UISystemBackgroundView"16ls32l8
++ ___block_descriptor_40_e8_32w_e56_v16?0"_UISplitViewControllerAdaptiveLayoutTransition"8lw32l8
++ ___block_descriptor_41_e8_32s_e18_v16?0"UIAction"8ls32l8
++ ___block_descriptor_44_e8_32bs_e5_v8?0ls32l8
++ ___block_descriptor_48_e8_32s40r_e30_B24?0"UIViewController"8^B16lr40l8s32l8
++ ___block_descriptor_48_e8_32s40s_e30_v32?0"<UIFocusItem>"8Q16^B24ls32l8s40l8
++ ___block_descriptor_48_e8_32s_e27_v16?0"UISearchTextField"8ls32l8
++ ___block_descriptor_56_e8_32s_e27_q24?0"UIView"8"UIView"16ls32l8
++ ___block_descriptor_56_e8_32s_e27_v16?0"UISearchTextField"8ls32l8
++ ___block_descriptor_72_e8_32w_e5_v8?0lw32l8
++ ___block_literal_global.1014
++ ___block_literal_global.1046
++ ___block_literal_global.1062
++ ___block_literal_global.1064
++ ___block_literal_global.1136
++ ___block_literal_global.1149
++ ___block_literal_global.1161
++ ___block_literal_global.1167
++ ___block_literal_global.1185
++ ___block_literal_global.1190
++ ___block_literal_global.1196
++ ___block_literal_global.1215
++ ___block_literal_global.1222
++ ___block_literal_global.1270
++ ___block_literal_global.1559
++ ___block_literal_global.1563
++ ___block_literal_global.1587
++ ___block_literal_global.1592
++ ___block_literal_global.1597
++ ___block_literal_global.1602
++ ___block_literal_global.1799
++ ___block_literal_global.1804
++ ___block_literal_global.1815
++ ___block_literal_global.1931
++ ___block_literal_global.1934
++ ___block_literal_global.1937
++ ___block_literal_global.1940
++ ___block_literal_global.1943
++ ___block_literal_global.1946
++ ___block_literal_global.1949
++ ___block_literal_global.1952
++ ___block_literal_global.1955
++ ___block_literal_global.1958
++ ___block_literal_global.1961
++ ___block_literal_global.1964
++ ___block_literal_global.1967
++ ___block_literal_global.197
++ ___block_literal_global.1970
++ ___block_literal_global.1973
++ ___block_literal_global.1976
++ ___block_literal_global.1989
++ ___block_literal_global.199
++ ___block_literal_global.1992
++ ___block_literal_global.1998
++ ___block_literal_global.2001
++ ___block_literal_global.2004
++ ___block_literal_global.2008
++ ___block_literal_global.2010
++ ___block_literal_global.2013
++ ___block_literal_global.2014
++ ___block_literal_global.2016
++ ___block_literal_global.2019
++ ___block_literal_global.2022
++ ___block_literal_global.2035
++ ___block_literal_global.2038
++ ___block_literal_global.2041
++ ___block_literal_global.2044
++ ___block_literal_global.2047
++ ___block_literal_global.2050
++ ___block_literal_global.2053
++ ___block_literal_global.2057
++ ___block_literal_global.2059
++ ___block_literal_global.2062
++ ___block_literal_global.2065
++ ___block_literal_global.2068
++ ___block_literal_global.2071
++ ___block_literal_global.2074
++ ___block_literal_global.2077
++ ___block_literal_global.2080
++ ___block_literal_global.2083
++ ___block_literal_global.2086
++ ___block_literal_global.2090
++ ___block_literal_global.2092
++ ___block_literal_global.2095
++ ___block_literal_global.2098
++ ___block_literal_global.2101
++ ___block_literal_global.2104
++ ___block_literal_global.2107
++ ___block_literal_global.2110
++ ___block_literal_global.2113
++ ___block_literal_global.2116
++ ___block_literal_global.2119
++ ___block_literal_global.2122
++ ___block_literal_global.2126
++ ___block_literal_global.2128
++ ___block_literal_global.2131
++ ___block_literal_global.2134
++ ___block_literal_global.2137
++ ___block_literal_global.2140
++ ___block_literal_global.2143
++ ___block_literal_global.2146
++ ___block_literal_global.2149
++ ___block_literal_global.2152
++ ___block_literal_global.2155
++ ___block_literal_global.2158
++ ___block_literal_global.2161
++ ___block_literal_global.2164
++ ___block_literal_global.2167
++ ___block_literal_global.2170
++ ___block_literal_global.2173
++ ___block_literal_global.2176
++ ___block_literal_global.2179
++ ___block_literal_global.2185
++ ___block_literal_global.2188
++ ___block_literal_global.2240
++ ___block_literal_global.2246
++ ___block_literal_global.2248
++ ___block_literal_global.2252
++ ___block_literal_global.2254
++ ___block_literal_global.2336
++ ___block_literal_global.2550
++ ___block_literal_global.2552
++ ___block_literal_global.2554
++ ___block_literal_global.2578
++ ___block_literal_global.2583
++ ___block_literal_global.2591
++ ___block_literal_global.2619
++ ___block_literal_global.2621
++ ___block_literal_global.2630
++ ___block_literal_global.2868
++ ___block_literal_global.2872
++ ___block_literal_global.2993
++ ___block_literal_global.2995
++ ___block_literal_global.3137
++ ___block_literal_global.3145
++ ___block_literal_global.3147
++ ___block_literal_global.3370
++ ___block_literal_global.3421
++ ___block_literal_global.3423
++ ___block_literal_global.3427
++ ___block_literal_global.352
++ ___block_literal_global.3582
++ ___block_literal_global.3594
++ ___block_literal_global.3803
++ ___block_literal_global.3806
++ ___block_literal_global.3857
++ ___block_literal_global.3868
++ ___block_literal_global.4067
++ ___block_literal_global.4091
++ ___block_literal_global.4093
++ ___block_literal_global.4098
++ ___block_literal_global.4103
++ ___block_literal_global.4124
++ ___block_literal_global.4126
++ ___block_literal_global.4134
++ ___block_literal_global.4136
++ ___block_literal_global.4142
++ ___block_literal_global.4147
++ ___block_literal_global.4158
++ ___block_literal_global.4160
++ ___block_literal_global.4172
++ ___block_literal_global.4188
++ ___block_literal_global.453
++ ___block_literal_global.527
++ ___block_literal_global.618
++ ___block_literal_global.635
++ ___block_literal_global.646
++ ___block_literal_global.668
++ ___block_literal_global.703
++ ___block_literal_global.771
++ ___block_literal_global.777
++ ___block_literal_global.778
++ ___block_literal_global.782
++ ___block_literal_global.785
++ ___block_literal_global.788
++ ___block_literal_global.794
++ ___block_literal_global.970
++ ___block_literal_global.989
++ ___block_literal_global.991
++ ___getSBSUITraitHomeScreenIconStyleClass_block_invoke
++ ___swift_cannot_copy_noncopyable_type
++ ___swift_memcpy453_8
++ ___swift_memcpy45_8
++ ___swift_memcpy474_8
++ ___swift_memcpy54_8
++ __resolvedColorWithTraitCollection:.__s_category.1887
++ __saveSceneSessionInternalUserInfo
++ __stores
++ _associated conformance So10CGColorRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So10CGColorRefaSHSCSQ
++ _associated conformance So15_UIScrollPocketC5UIKitE0B12ElementModelC0D10DescriptorVs12IdentifiableAC2IDsAHP_SH
++ _audit_stringSpringBoardUIServices
++ _block_copy_helper.140
++ _block_copy_helper.176
++ _block_copy_helper.194
++ _block_copy_helper.198
++ _block_copy_helper.201
++ _block_copy_helper.206
++ _block_copy_helper.223
++ _block_copy_helper.229
++ _block_copy_helper.236
++ _block_copy_helper.239
++ _block_copy_helper.267
++ _block_copy_helper.273
++ _block_copy_helper.275
++ _block_copy_helper.295
++ _block_copy_helper.332
++ _block_copy_helper.335
++ _block_copy_helper.340
++ _block_copy_helper.350
++ _block_copy_helper.359
++ _block_copy_helper.361
++ _block_copy_helper.390
++ _block_copy_helper.397
++ _block_copy_helper.432
++ _block_copy_helper.439
++ _block_copy_helper.453
++ _block_copy_helper.463
++ _block_descriptor.142
++ _block_descriptor.178
++ _block_descriptor.196
++ _block_descriptor.200
++ _block_descriptor.203
++ _block_descriptor.208
++ _block_descriptor.225
++ _block_descriptor.231
++ _block_descriptor.238
++ _block_descriptor.241
++ _block_descriptor.269
++ _block_descriptor.275
++ _block_descriptor.277
++ _block_descriptor.297
++ _block_descriptor.334
++ _block_descriptor.337
++ _block_descriptor.342
++ _block_descriptor.352
++ _block_descriptor.361
++ _block_descriptor.363
++ _block_descriptor.392
++ _block_descriptor.399
++ _block_descriptor.434
++ _block_descriptor.441
++ _block_descriptor.455
++ _block_descriptor.465
++ _block_destroy_helper.141
++ _block_destroy_helper.177
++ _block_destroy_helper.195
++ _block_destroy_helper.199
++ _block_destroy_helper.202
++ _block_destroy_helper.207
++ _block_destroy_helper.224
++ _block_destroy_helper.230
++ _block_destroy_helper.237
++ _block_destroy_helper.240
++ _block_destroy_helper.268
++ _block_destroy_helper.274
++ _block_destroy_helper.276
++ _block_destroy_helper.296
++ _block_destroy_helper.333
++ _block_destroy_helper.336
++ _block_destroy_helper.341
++ _block_destroy_helper.351
++ _block_destroy_helper.360
++ _block_destroy_helper.362
++ _block_destroy_helper.391
++ _block_destroy_helper.398
++ _block_destroy_helper.433
++ _block_destroy_helper.440
++ _block_destroy_helper.454
++ _block_destroy_helper.464
++ _flat unique So11UIFocusItem_p
++ _flat unique So15CALayerDelegate_p
++ _getSBSUITraitHomeScreenIconStyleClass
++ _get_type_metadata 5UIKit9LayerPoolVyAA06ShadowB033_85E9C0EF4CE083FCE5405A75E0676D6FLLCG.12
++ _get_witness_table RlzCls15LazyMapSequenceV8IteratorVys0a6FilterC0VyABySD6ValuesVySO5UIKit18WeakReferenceTable33_1C2F3DC4D5EC520AE8BBA3AF80D8421DLLV0hI0Vyx_G_GxSgGGx_GStHPyHC.305
++ _get_witness_table SHRzlSD4KeysV8IteratorVyxSi__GStHPyHC.306
++ _kCAFilterInputClamp
++ _objc_msgSend$_allTargetActions
++ _objc_msgSend$_applicationIconImageForBundleIdentifier:format:scale:appearance:style:
++ _objc_msgSend$_applyEffectiveCornerRadiiToLayer
++ _objc_msgSend$_canAddAnimations
++ _objc_msgSend$_configurationWithSystemIconAppearance:
++ _objc_msgSend$_containerConcentricRadiusForCorner:
++ _objc_msgSend$_currentIconAppearance
++ _objc_msgSend$_defaultHeightForBarMetrics:floating:idiom:
++ _objc_msgSend$_disableGlassForProcess
++ _objc_msgSend$_includesSafeAreaInsetWhenInset
++ _objc_msgSend$_initTraitChangeRegistrations
++ _objc_msgSend$_isIconAsset
++ _objc_msgSend$_isIconImage
++ _objc_msgSend$_isPoint:inExpandedIndicatorForAxis:
++ _objc_msgSend$_isRenderedHorizontallyFlipped
++ _objc_msgSend$_isSearchTab
++ _objc_msgSend$_labelMaterial
++ _objc_msgSend$_percentSafeAreaInsetToInclude
++ _objc_msgSend$_removeContentBackdropView
++ _objc_msgSend$_scrollIndicatorContainerRectForAxis:
++ _objc_msgSend$_searchBar:didMoveFromWindow:newWindow:
++ _objc_msgSend$_setImage:
++ _objc_msgSend$_setIncludesSafeAreaInsetWhenInset:
++ _objc_msgSend$_shouldBeFoundByDescendentScrollView:
++ _objc_msgSend$_shouldHighlightAppearanceForViewState:
++ _objc_msgSend$_shouldNotifyGeometryObservers
++ _objc_msgSend$_solariumMaterialForColor:traitCollection:
++ _objc_msgSend$_systemIconAppearance
++ _objc_msgSend$_tabBarHostedView
++ _objc_msgSend$_uncachedDynamicIconAssetNamed:generator:
++ _objc_msgSend$canUseInlineStyle
++ _objc_msgSend$effectiveUserInterfaceStyle
++ _objc_msgSend$glassUserInterfaceStyle
++ _objc_msgSend$iconServicesAppearanceUsingDarkInterfaceStyle:
++ _objc_msgSend$iconServicesAppearanceVariantUsingDarkInterfaceStyle:
++ _objc_msgSend$inheritedRowSetTypeForKeyboardType:
++ _objc_msgSend$isCustomInputViewSet
++ _objc_msgSend$isWantsAssistantWhileSuppressingKeyboard
++ _objc_msgSend$keyboardCameraPresentedOrPresenting
++ _objc_msgSend$keyboardHasBeenInitialized
++ _objc_msgSend$keyboardSubstitutePresentedOrPresenting
++ _objc_msgSend$keysOrderedByPositionLinear:
++ _objc_msgSend$lifted
++ _objc_msgSend$overrideTrackingState:
++ _objc_msgSend$preferredTrafficLightStyle
++ _objc_msgSend$pullViewInsets
++ _objc_msgSend$removeActionForIdentifier:forControlEvents:
++ _objc_msgSend$removeSecondaryBackdropView
++ _objc_msgSend$scrollViewWasRemovedFromWindow
++ _objc_msgSend$setAppearanceVariant:
++ _objc_msgSend$setCanUseInlineStyle:
++ _objc_msgSend$setPullViewInsets:
++ _objc_msgSend$setSecondaryBackdropView:
++ _objc_msgSend$setShowsHighContrastFocusIndicator:
++ _objc_msgSend$softwareKeyboardMinimized
++ _objc_msgSend$swipeActionController:pullViewInsetsForItemAtIndexPath:
++ _objc_msgSend$textFieldCornerRadius
++ _objectdestroy.157Tm
++ _objectdestroy.163Tm
++ _objectdestroy.211Tm
++ _objectdestroy.71Tm
++ _swift_runtimeSupportsNoncopyableTypes
++ _swift_unknownObjectWeakTakeAssign
++ _swift_unknownObjectWeakTakeInit
++ _symbolic SDySO_____G So15_UIScrollPocketC5UIKitE0B12ElementModelC0D10DescriptorV
++ _symbolic SDySSypG
++ _symbolic SDySSypGz_Xx
++ _symbolic Say_____G 12CoreGraphics6RegionV14ContourOptionsV
++ _symbolic Say_____G So15_UIScrollPocketC5UIKitE0B12ElementModelC0D10DescriptorV
++ _symbolic Say_____G So6CGRectV
++ _symbolic SayxG
++ _symbolic So15_UIScrollPocketCXoz_Xx
++ _symbolic _____ 5UIKit11ShadowLayer33_85E9C0EF4CE083FCE5405A75E0676D6FLLC
++ _symbolic _____ 5UIKit11ShadowLayer33_85E9C0EF4CE083FCE5405A75E0676D6FLLC7ContourO
++ _symbolic _____ 5UIKit15SheetLayoutInfo33_A96866C2920FEF12151F6D0347E0D9CELLC17PercentFullHeightV
++ _symbolic _____ 5UIKit28_UILiquidLensViewVariantSpecC
++ _symbolic _____ 5UIKit33_UILiquidLensViewLargeVariantSpecC
++ _symbolic _____ 5UIKit33_UILiquidLensViewSmallVariantSpecC
++ _symbolic _____ 5UIKit34_UITraitColorMaterialRenderingModeV
++ _symbolic _____ 5UIKit39_UIFlexInteractionUltraSmallVariantSpecC
++ _symbolic _____ 5UIKit9LayerPoolV
++ _symbolic _____ 5UIKit9_MaterialV5LayerV8BackdropV
++ _symbolic _____ So15_UIScrollPocketC5UIKitE0B12ElementModelC0D10DescriptorV
++ _symbolic _____ So15_UIScrollPocketC5UIKitE0B4BlurC
++ _symbolic _____ So15_UIScrollPocketC5UIKitE0B4MaskC12ElementStyleV
++ _symbolic _____ So29_UIColorMaterialRenderingModeV
++ _symbolic _____ So9CGPathRefa
++ _symbolic _____Sg 7SwiftUI14GlassContainerO18ScalePulseSettingsV
++ _symbolic _____Sg 7SwiftUI14GlassContainerO18TransitionSettingsV
++ _symbolic _____Sg So11_UIMaterialC5UIKitE8CacheKey33_DB0DA4A51F52ED2DD787F629AB27DCF1LLV
++ _symbolic _____Sg So15_UIScrollPocketC5UIKitE0B12ElementModelC0D10DescriptorV
++ _symbolic _____Sg So20UIUserInterfaceStyleV
++ _symbolic _____SgXw 5UIKit24ToolbarKeyboardAssistantC
++ _symbolic _____Sgz_Xx 12CoreGraphics7CGFloatV
++ _symbolic _____XDXMT So6UIViewC5UIKitE20MonochromaticDataVCM33_FE53B1CE385CEEC5B789D2CA9BD7C0EBLLC
++ _symbolic ______p So11UIFocusItemP
++ _symbolic ______p So15CALayerDelegateP
++ _symbolic _____ySO_____G s18_DictionaryStorageC So15_UIScrollPocketC5UIKitE0D12ElementModelC0F10DescriptorV
++ _symbolic _____y_Qo_ 12CoreGraphics6RegionV10subregions7optionsQrAC14ContourOptionsV_tFQO
++ _symbolic _____y_Qo_8IteratorSTQx 12CoreGraphics6RegionV10subregions7optionsQrAC14ContourOptionsV_tFQO
++ _symbolic _____y_____G 5UIKit9LayerPoolV AA06ShadowB033_85E9C0EF4CE083FCE5405A75E0676D6FLLC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So15_UIScrollPocketC5UIKitE0E12ElementModelC0G10DescriptorV
++ _symbolic _____y______G So15_UIScrollPocketC5UIKitE12PortalHelperV AbCE0B4MaskC
++ _symbolic _____y______GSg So15_UIScrollPocketC5UIKitE12PortalHelperV AbCE0B4MaskC
++ _type_layout_string 5UIKit11ShadowLayer33_85E9C0EF4CE083FCE5405A75E0676D6FLLC7ContourO
++ _type_layout_string 5UIKit15SheetLayoutInfo33_A96866C2920FEF12151F6D0347E0D9CELLC17PercentFullHeightV
++ _type_layout_string 5UIKit9_MaterialV5LayerV8BackdropV
++ _type_layout_string So15_UIScrollPocketC5UIKitE0B12ElementModelC0D10DescriptorV
++ _type_layout_string So15_UIScrollPocketC5UIKitE0B4MaskC12ElementStyleV
++ _type_layout_string So6UIViewCRbzlSo15_UIScrollPocketC5UIKitE12PortalHelperVy_xG
+- +[UIImage(UIApplicationIconPrivate) _applicationIconImageForBundleIdentifier:format:scale:style:]
+- +[_UIImageCacheKey keyWithSystemName:private:configuration:]
+- +[_UIScrollPocket(Focus) _supportsInvalidatingFocusCache]
+- -[UIKeyboardInputModeController filteredCarPlayInputModesFromInputModes:]
+- -[UIPopoverPresentationController _shouldSubduePresentingViewControllerDuringPresentation]
+- -[UIScrollView _scrollIndicatorContainerRect]
+- -[UIView(_UICollectionViewRTLMirroring) _flipsHorizontalAxis]
+- -[UIView(_UICollectionViewRTLMirroring) _setFlipsHorizontalAxis:]
+- -[_UINavigationInteractiveTransitionBase _contentBackSwipeShouldBegin]
+- -[_UINavigationInteractiveTransitionBase _gestureRecognizerFailed:]
+- -[_UINavigationInteractiveTransitionBase _trackContentBackSwipeConflictingGesture:]
+- -[_UIScrollPocket(Focus) _isEligibleForFocusInteraction]
+- -[_UIScrollPocket(Focus) _isEligibleForFocusOcclusion]
+- -[_UIScrollPocket(Focus) _shouldInformFocusAboutBecomingVisible]
+- -[_UIScrollPocket(Focus) focusItemsInRect:]
+- -[_UIScrollPocket(Focus) isTransparentFocusItem]
+- GCC_except_table1001
+- GCC_except_table1009
+- GCC_except_table1019
+- GCC_except_table1166
+- GCC_except_table1242
+- GCC_except_table1295
+- GCC_except_table1297
+- GCC_except_table138
+- GCC_except_table1444
+- GCC_except_table1452
+- GCC_except_table177
+- GCC_except_table210
+- GCC_except_table247
+- GCC_except_table255
+- GCC_except_table298
+- GCC_except_table307
+- GCC_except_table330
+- GCC_except_table333
+- GCC_except_table339
+- GCC_except_table383
+- GCC_except_table411
+- GCC_except_table412
+- GCC_except_table430
+- GCC_except_table469
+- GCC_except_table521
+- GCC_except_table541
+- GCC_except_table545
+- GCC_except_table619
+- GCC_except_table625
+- GCC_except_table628
+- GCC_except_table658
+- GCC_except_table774
+- GCC_except_table791
+- GCC_except_table797
+- GCC_except_table802
+- GCC_except_table883
+- GCC_except_table886
+- GCC_except_table892
+- GCC_except_table925
+- OBJC_IVAR_$__UINavigationInteractiveTransitionBase._conflictingScrollViews
+- _.str.186
+- _.str.4161
+- _OBJC_IVAR_$__UIRemoteViewControllerSceneHostingImpl.inheritsSecurity
+- _OBJC_METACLASS_$__TtCE5UIKitCSo15_UIScrollPocketP33_54F5B0BEB96954C1867D8C3082E9F3FD10PocketBlur
+- __DATA__TtCE5UIKitCSo15_UIScrollPocketP33_54F5B0BEB96954C1867D8C3082E9F3FD10PocketBlur
+- __INSTANCE_METHODS__TtCE5UIKitCSo15_UIScrollPocketP33_54F5B0BEB96954C1867D8C3082E9F3FD10PocketBlur
+- __IVARS__TtCE5UIKitCSo15_UIScrollPocketP33_54F5B0BEB96954C1867D8C3082E9F3FD10PocketBlur
+- __METACLASS_DATA__TtCE5UIKitCSo15_UIScrollPocketP33_54F5B0BEB96954C1867D8C3082E9F3FD10PocketBlur
+- __MergedGlobals.111
+- __MergedGlobals.125
+- __MergedGlobals.126
+- __MergedGlobals.34
+- __MergedGlobals.59
+- __MergedGlobals.89
+- __OBJC_$_CLASS_METHODS_UIScene(_UIHDRUsageCoordinatorSceneComponent|_UIHomeAffordanceNotifier|MainMenu|EventDeferring|ViewControllerAppearanceComponent|SystemProtection|EventDeferringComponent|UIFocusSystemSceneComponent|AVAudioSession|PointerLockState|_UIApplicationSceneDisplayClientComponent|KeyWindowSceneObserver|IntelligenceSupport|SceneType|PhysicalButtonInteractionArbiterInternal|PhysicalButtonInteractionArbiter|_UISceneDestructionClientComponent|UIFocusSystem|FocusSystemExtension|UIKitBacklightServices|SystemShellHostingEnvironment|RenderingEnvironment|_UIApplicationSceneKeyboardClientComponent|SafeArea|_UISceneEnhancedStateRestoration_Private|UISceneEnhancedStateRestoration)
+- __OBJC_$_CLASS_METHODS_UIView(CornerConfiguration|CornerProvider|UIKitCore|AppIntentsAnnotationsDebugDescription|_UIFlexInteraction|SwiftC2|ViewMasking|ConcentricLayout|ViewMaskingProvider|UIKitCore1|UIKitCore2|UIKitCore3|AlphaOverride|UIKitCore4|_UIViewMaterial|Glass|BackgroundSuppression|MonochromaticTreatment|Monochromatic|UIKitCore5|InProcessAlongsideAnimations|LayoutRegions|SwiftUIAnimation|DynamicLayoutGuides|UIObservationTracking|_UIUpdateContent|HybridPropertyAnimator|UIHoverStyle|UIShapeInternal|UIKitAccessibilityInterfaceBuilderSupport|UIAccessibilityInvertColors|UIAccessibilityInvertColorsInternal|UIInterfaceActionRepresentationView|_UIShapeConvenience|UIRenderingGroupFlags|UIContentSizeCategoryLimit|_UIButtonBarItemLayout|UINavigationBarAdditions|_UIWTCProofreadDecorating|_UIWritingToolsResponderSupport|VisualDescriptionAdditions|_UICollectionViewRTLMirroring|UIReferenceLibraryViewController_UIViewExtensions|_UIFlocker|_UIBarCustomizationChiclet|UIDragging|KeyboardSceneDelegate|UIKit_StandardEditActions|UIActivityItemsConfiguration_Private|inputResponderController|_UIViewBacking|_UIViewBackingMaterialThemesSupport|MaterialThemes|MultiLayer|_UIFallbackEnvironment|UIKB_UIViewExtras|UIAutocorrectInlinePrompt|_UISearchBarCompatibilityClippingViewSupport|_UIConstraintBasedLayoutEmbedding|_UIConstraintBasedLayoutMeasuring|UIHoverStyle_Internal|UITextInputView|UIMorphableInternal|_UIPortalView|_UIPickerReuse|_UITouchForceObservable|_UIHDRAnimations|_UIDragEventSupport|UISystemStatusUISupport|StatusBarAdditions_Internal|AddStickerAnimation|_UIMorphingView|UITextEffectsOrdering|UITextEffectsWindowAdditions|UITextField|UILargeContentViewer|UILargeContentViewerPrivate|UILargeContentViewerInternal|UICatalystMacIdiomUnsupported_Private|UICatalystMacIdiomUnsupported_Internal|XcodeDebuggerSupport|ViewService|FluidTransitions|_UILayoutArrangementInternalAdditions|_UIOrderedLayoutArrangementInternalAdditions|_UILACanvasSupport|_UIOldConstraintBasedLayoutSupport|UIAutolayoutTAMIC_NO_EngineHosting|UIDisableLayoutFlushingCount|UIConstraintBasedLayout|AdditionalLayoutSupport|UIConstraintBasedLayout_EngineDelegate|_UIKitLayoutSpacing|_UIKitLayoutSpacing_Private|Geometry|InProcessAnimations_Internal|Hierarchy|Rendering|Animation|UIViewAnimationWithBlocks|UIViewAnimationWithBlocksPrivate|UIViewKeyframeAnimations|Deprecated|ScrollNotification|Internal|UIViewAnimation_ForSystemShellOnly|UIView_ForSpringBoardOnly|_UIPointerInteractionAssistant|Dragging|UIViewGestures|CALayerDelegate|UIDebugging|SyntheticEvents|UIViewStyleAdditions|ClassicAdditions|UIAutoscrollAdditions|UIScrollAdditions|ActivityContinuation|UIViewRTL|UIViewLayoutConstraintCreation|UIViewBoundingPathSupport|UIViewBoundingPathSupportInternal|UserInterfaceStyle|_UIDynamicUserInterfaceStyleSPI|DictationSPI|_UIKitViewLandmarks|UIKitManual|AutoLayoutManual|ContentEffects|_UIPopoverPresentationControllerSourceItem_Internal|_UIViewLayoutFeedbackDebuggingSupport)
+- __OBJC_$_CLASS_METHODS_UIViewController(UIKitCore|UIKitCore1|UIObservationTracking|UIAlertControllerContentViewController|UIResponderChainTraversal|UIActionSheetPresentationControllerAccess|UIImagePickerControllerAdditions|PLImagePickerViewControllerInterface|UIPopoverController_Internal|_UIMultiColumnViewController|_UIKitIsUIViewController|_UIFocusEnvironmentPrivate|UIPerformsActions|UITab|UITab_Private|UITab_Internal|UITabBarControllerItem|UISplitViewController|BinaryCompatibility|UINavigationControllerItemInternal|UINavigationControllerItem|UINavigationControllerContextualToolbar|UINavigationControllerContextToolbar_Internal|UIContainerViewControllerProtectedMethods|UIContainerViewControllerCallbacks|UIContainerViewControllerCallbacks_Internal|StateRestoration_Internal|StateRestoration|ActivityContinuationPrivate|ActivityContinuationInternal|ActivityContinuation|EmbeddedViewSupport|UIFirstResponderSupport|UICollectionViewControllerSupport|UIViewControllerTransitioning|AdaptiveSizing|AdaptiveSizing_Internal|UIViewControllerClassDumpWarning|UIKeyCommand|ForUISplitViewController|AccessibilityHUD|OrientationDebugging|NSExtensionAdditionsInternal|NSExtensionAdditions|_UIApplicationRotationFollowing|_UIAlwaysOnEnvironment|_UIFallbackEnvironment|UIViewControllerTransition|_UIContainerWindowPortalView|UnwindSegueSupport|_UIHostedWindowScene|_UISheetPresentationController|ViewServices|ViewService_Internal)
+- __OBJC_$_CLASS_METHODS__UIImageCacheKey
+- __OBJC_$_CLASS_METHODS__UIImageContentRenditionCacheKey
+- __OBJC_$_CLASS_METHODS__UIScrollPocket(Focus)
+- __OBJC_$_INSTANCE_METHODS_UIScene(_UIHDRUsageCoordinatorSceneComponent|_UIHomeAffordanceNotifier|MainMenu|EventDeferring|ViewControllerAppearanceComponent|SystemProtection|EventDeferringComponent|UIFocusSystemSceneComponent|AVAudioSession|PointerLockState|_UIApplicationSceneDisplayClientComponent|KeyWindowSceneObserver|IntelligenceSupport|SceneType|PhysicalButtonInteractionArbiterInternal|PhysicalButtonInteractionArbiter|_UISceneDestructionClientComponent|UIFocusSystem|FocusSystemExtension|UIKitBacklightServices|SystemShellHostingEnvironment|RenderingEnvironment|_UIApplicationSceneKeyboardClientComponent|SafeArea|_UISceneEnhancedStateRestoration_Private|UISceneEnhancedStateRestoration)
+- __OBJC_$_INSTANCE_METHODS_UIView(CornerConfiguration|CornerProvider|UIKitCore|AppIntentsAnnotationsDebugDescription|_UIFlexInteraction|SwiftC2|ViewMasking|ConcentricLayout|ViewMaskingProvider|UIKitCore1|UIKitCore2|UIKitCore3|AlphaOverride|UIKitCore4|_UIViewMaterial|Glass|BackgroundSuppression|MonochromaticTreatment|Monochromatic|UIKitCore5|InProcessAlongsideAnimations|LayoutRegions|SwiftUIAnimation|DynamicLayoutGuides|UIObservationTracking|_UIUpdateContent|HybridPropertyAnimator|UIHoverStyle|UIShapeInternal|UIKitAccessibilityInterfaceBuilderSupport|UIAccessibilityInvertColors|UIAccessibilityInvertColorsInternal|UIInterfaceActionRepresentationView|_UIShapeConvenience|UIRenderingGroupFlags|UIContentSizeCategoryLimit|_UIButtonBarItemLayout|UINavigationBarAdditions|_UIWTCProofreadDecorating|_UIWritingToolsResponderSupport|VisualDescriptionAdditions|_UICollectionViewRTLMirroring|UIReferenceLibraryViewController_UIViewExtensions|_UIFlocker|_UIBarCustomizationChiclet|UIDragging|KeyboardSceneDelegate|UIKit_StandardEditActions|UIActivityItemsConfiguration_Private|inputResponderController|_UIViewBacking|_UIViewBackingMaterialThemesSupport|MaterialThemes|MultiLayer|_UIFallbackEnvironment|UIKB_UIViewExtras|UIAutocorrectInlinePrompt|_UISearchBarCompatibilityClippingViewSupport|_UIConstraintBasedLayoutEmbedding|_UIConstraintBasedLayoutMeasuring|UIHoverStyle_Internal|UITextInputView|UIMorphableInternal|_UIPortalView|_UIPickerReuse|_UITouchForceObservable|_UIHDRAnimations|_UIDragEventSupport|UISystemStatusUISupport|StatusBarAdditions_Internal|AddStickerAnimation|_UIMorphingView|UITextEffectsOrdering|UITextEffectsWindowAdditions|UITextField|UILargeContentViewer|UILargeContentViewerPrivate|UILargeContentViewerInternal|UICatalystMacIdiomUnsupported_Private|UICatalystMacIdiomUnsupported_Internal|XcodeDebuggerSupport|ViewService|FluidTransitions|_UILayoutArrangementInternalAdditions|_UIOrderedLayoutArrangementInternalAdditions|_UILACanvasSupport|_UIOldConstraintBasedLayoutSupport|UIAutolayoutTAMIC_NO_EngineHosting|UIDisableLayoutFlushingCount|UIConstraintBasedLayout|AdditionalLayoutSupport|UIConstraintBasedLayout_EngineDelegate|_UIKitLayoutSpacing|_UIKitLayoutSpacing_Private|Geometry|InProcessAnimations_Internal|Hierarchy|Rendering|Animation|UIViewAnimationWithBlocks|UIViewAnimationWithBlocksPrivate|UIViewKeyframeAnimations|Deprecated|ScrollNotification|Internal|UIViewAnimation_ForSystemShellOnly|UIView_ForSpringBoardOnly|_UIPointerInteractionAssistant|Dragging|UIViewGestures|CALayerDelegate|UIDebugging|SyntheticEvents|UIViewStyleAdditions|ClassicAdditions|UIAutoscrollAdditions|UIScrollAdditions|ActivityContinuation|UIViewRTL|UIViewLayoutConstraintCreation|UIViewBoundingPathSupport|UIViewBoundingPathSupportInternal|UserInterfaceStyle|_UIDynamicUserInterfaceStyleSPI|DictationSPI|_UIKitViewLandmarks|UIKitManual|AutoLayoutManual|ContentEffects|_UIPopoverPresentationControllerSourceItem_Internal|_UIViewLayoutFeedbackDebuggingSupport)
+- __OBJC_$_INSTANCE_METHODS_UIViewController(UIKitCore|UIKitCore1|UIObservationTracking|UIAlertControllerContentViewController|UIResponderChainTraversal|UIActionSheetPresentationControllerAccess|UIImagePickerControllerAdditions|PLImagePickerViewControllerInterface|UIPopoverController_Internal|_UIMultiColumnViewController|_UIKitIsUIViewController|_UIFocusEnvironmentPrivate|UIPerformsActions|UITab|UITab_Private|UITab_Internal|UITabBarControllerItem|UISplitViewController|BinaryCompatibility|UINavigationControllerItemInternal|UINavigationControllerItem|UINavigationControllerContextualToolbar|UINavigationControllerContextToolbar_Internal|UIContainerViewControllerProtectedMethods|UIContainerViewControllerCallbacks|UIContainerViewControllerCallbacks_Internal|StateRestoration_Internal|StateRestoration|ActivityContinuationPrivate|ActivityContinuationInternal|ActivityContinuation|EmbeddedViewSupport|UIFirstResponderSupport|UICollectionViewControllerSupport|UIViewControllerTransitioning|AdaptiveSizing|AdaptiveSizing_Internal|UIViewControllerClassDumpWarning|UIKeyCommand|ForUISplitViewController|AccessibilityHUD|OrientationDebugging|NSExtensionAdditionsInternal|NSExtensionAdditions|_UIApplicationRotationFollowing|_UIAlwaysOnEnvironment|_UIFallbackEnvironment|UIViewControllerTransition|_UIContainerWindowPortalView|UnwindSegueSupport|_UIHostedWindowScene|_UISheetPresentationController|ViewServices|ViewService_Internal)
+- __OBJC_$_INSTANCE_METHODS__UIScrollPocket(Focus)
+- __OBJC_$_PROP_LIST_UIImageConfiguration.124
+- __OBJC_CLASS_PROTOCOLS_$_UIView(CornerConfiguration|CornerProvider|UIKitCore|AppIntentsAnnotationsDebugDescription|_UIFlexInteraction|SwiftC2|ViewMasking|ConcentricLayout|ViewMaskingProvider|UIKitCore1|UIKitCore2|UIKitCore3|AlphaOverride|UIKitCore4|_UIViewMaterial|Glass|BackgroundSuppression|MonochromaticTreatment|Monochromatic|UIKitCore5|InProcessAlongsideAnimations|LayoutRegions|SwiftUIAnimation|DynamicLayoutGuides|UIObservationTracking|_UIUpdateContent|HybridPropertyAnimator|UIHoverStyle|UIShapeInternal|UIKitAccessibilityInterfaceBuilderSupport|UIAccessibilityInvertColors|UIAccessibilityInvertColorsInternal|UIInterfaceActionRepresentationView|_UIShapeConvenience|UIRenderingGroupFlags|UIContentSizeCategoryLimit|_UIButtonBarItemLayout|UINavigationBarAdditions|_UIWTCProofreadDecorating|_UIWritingToolsResponderSupport|VisualDescriptionAdditions|_UICollectionViewRTLMirroring|UIReferenceLibraryViewController_UIViewExtensions|_UIFlocker|_UIBarCustomizationChiclet|UIDragging|KeyboardSceneDelegate|UIKit_StandardEditActions|UIActivityItemsConfiguration_Private|inputResponderController|_UIViewBacking|_UIViewBackingMaterialThemesSupport|MaterialThemes|MultiLayer|_UIFallbackEnvironment|UIKB_UIViewExtras|UIAutocorrectInlinePrompt|_UISearchBarCompatibilityClippingViewSupport|_UIConstraintBasedLayoutEmbedding|_UIConstraintBasedLayoutMeasuring|UIHoverStyle_Internal|UITextInputView|UIMorphableInternal|_UIPortalView|_UIPickerReuse|_UITouchForceObservable|_UIHDRAnimations|_UIDragEventSupport|UISystemStatusUISupport|StatusBarAdditions_Internal|AddStickerAnimation|_UIMorphingView|UITextEffectsOrdering|UITextEffectsWindowAdditions|UITextField|UILargeContentViewer|UILargeContentViewerPrivate|UILargeContentViewerInternal|UICatalystMacIdiomUnsupported_Private|UICatalystMacIdiomUnsupported_Internal|XcodeDebuggerSupport|ViewService|FluidTransitions|_UILayoutArrangementInternalAdditions|_UIOrderedLayoutArrangementInternalAdditions|_UILACanvasSupport|_UIOldConstraintBasedLayoutSupport|UIAutolayoutTAMIC_NO_EngineHosting|UIDisableLayoutFlushingCount|UIConstraintBasedLayout|AdditionalLayoutSupport|UIConstraintBasedLayout_EngineDelegate|_UIKitLayoutSpacing|_UIKitLayoutSpacing_Private|Geometry|InProcessAnimations_Internal|Hierarchy|Rendering|Animation|UIViewAnimationWithBlocks|UIViewAnimationWithBlocksPrivate|UIViewKeyframeAnimations|Deprecated|ScrollNotification|Internal|UIViewAnimation_ForSystemShellOnly|UIView_ForSpringBoardOnly|_UIPointerInteractionAssistant|Dragging|UIViewGestures|CALayerDelegate|UIDebugging|SyntheticEvents|UIViewStyleAdditions|ClassicAdditions|UIAutoscrollAdditions|UIScrollAdditions|ActivityContinuation|UIViewRTL|UIViewLayoutConstraintCreation|UIViewBoundingPathSupport|UIViewBoundingPathSupportInternal|UserInterfaceStyle|_UIDynamicUserInterfaceStyleSPI|DictationSPI|_UIKitViewLandmarks|UIKitManual|AutoLayoutManual|ContentEffects|_UIPopoverPresentationControllerSourceItem_Internal|_UIViewLayoutFeedbackDebuggingSupport)
+- __OBJC_CLASS_PROTOCOLS_$_UIViewController(UIKitCore|UIKitCore1|UIObservationTracking|UIAlertControllerContentViewController|UIResponderChainTraversal|UIActionSheetPresentationControllerAccess|UIImagePickerControllerAdditions|PLImagePickerViewControllerInterface|UIPopoverController_Internal|_UIMultiColumnViewController|_UIKitIsUIViewController|_UIFocusEnvironmentPrivate|UIPerformsActions|UITab|UITab_Private|UITab_Internal|UITabBarControllerItem|UISplitViewController|BinaryCompatibility|UINavigationControllerItemInternal|UINavigationControllerItem|UINavigationControllerContextualToolbar|UINavigationControllerContextToolbar_Internal|UIContainerViewControllerProtectedMethods|UIContainerViewControllerCallbacks|UIContainerViewControllerCallbacks_Internal|StateRestoration_Internal|StateRestoration|ActivityContinuationPrivate|ActivityContinuationInternal|ActivityContinuation|EmbeddedViewSupport|UIFirstResponderSupport|UICollectionViewControllerSupport|UIViewControllerTransitioning|AdaptiveSizing|AdaptiveSizing_Internal|UIViewControllerClassDumpWarning|UIKeyCommand|ForUISplitViewController|AccessibilityHUD|OrientationDebugging|NSExtensionAdditionsInternal|NSExtensionAdditions|_UIApplicationRotationFollowing|_UIAlwaysOnEnvironment|_UIFallbackEnvironment|UIViewControllerTransition|_UIContainerWindowPortalView|UnwindSegueSupport|_UIHostedWindowScene|_UISheetPresentationController|ViewServices|ViewService_Internal)
+- __UIInternalPreference_SplitViewControllerSecondaryEdgeBarButtonItemEnabled_block_invoke_18.__s_category
+- __UISplitViewControllerColumnResizeTapGestureRecognizerName_block_invoke_15.__s_category
+- ___106-[UICollectionViewCell systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:]_block_invoke.333
+- ___54-[_UIKBFeedbackGenerator activateWithCompletionBlock:]_block_invoke.403
+- ___57-[_UIKBFeedbackGenerator _deactivateWithCompletionBlock:]_block_invoke.404
+- ___63-[UIView(Geometry) _applyAutoresizingMaskWithOldSuperviewSize:]_block_invoke.2537
+- ___64-[UIView(UIDebugging) _dumpClippedViewWithScreenshotIfNecessary]_block_invoke.3638
+- ___71+[UIView(Animation) _completeAnimationWithUUID:duration:curve:reverse:]_block_invoke.2854
+- ___71-[UIWindow _scrollToTopViewsUnderScreenPointIfNecessary:resultHandler:]_block_invoke.446
+- ___84-[UISegmentedControl _updateSelectionToSegment:highlight:shouldAnimate:sameSegment:]_block_invoke.700
+- ___88-[_UISplitViewControllerAdaptiveImpl _suspendAppearanceTransitionsInSplitViewController]_block_invoke.417
+- ___91-[_UIKBFeedbackGenerator _stopEngineIfNecessaryOnQueueAndReleaseResources:completionBlock:]_block_invoke.386
+- ___97-[_UIContextMenuStackedHierarchyLayout navigateUpFromNode:toNode:alongsideAnimations:completion:]_block_invoke_6
+- ___98+[UIView(UIViewAnimationWithBlocks) performSystemAnimation:onViews:options:animations:completion:]_block_invoke.3007
+- ___Block_byref_object_copy_.314
+- ___Block_byref_object_copy_.444
+- ___Block_byref_object_dispose_.315
+- ___Block_byref_object_dispose_.445
+- _____updateTouchVisualisation_block_invoke.1576
+- ___block_descriptor_40_e8_32s_e27_q24?0"UIView"8"UIView"16ls32l8
+- ___block_descriptor_40_e8_32w_e44_v16?0"_UIMainMenuDeferredElementResponse"8lw32l8
+- ___block_literal_global.1040
+- ___block_literal_global.1059
+- ___block_literal_global.1061
+- ___block_literal_global.1068
+- ___block_literal_global.1133
+- ___block_literal_global.1147
+- ___block_literal_global.1164
+- ___block_literal_global.1183
+- ___block_literal_global.1186
+- ___block_literal_global.1212
+- ___block_literal_global.1214
+- ___block_literal_global.1221
+- ___block_literal_global.1227
+- ___block_literal_global.1243
+- ___block_literal_global.1258
+- ___block_literal_global.1557
+- ___block_literal_global.1561
+- ___block_literal_global.1585
+- ___block_literal_global.1590
+- ___block_literal_global.1595
+- ___block_literal_global.1600
+- ___block_literal_global.1797
+- ___block_literal_global.1802
+- ___block_literal_global.1803
+- ___block_literal_global.1917
+- ___block_literal_global.1921
+- ___block_literal_global.1924
+- ___block_literal_global.1930
+- ___block_literal_global.1933
+- ___block_literal_global.1936
+- ___block_literal_global.1939
+- ___block_literal_global.1942
+- ___block_literal_global.1945
+- ___block_literal_global.1948
+- ___block_literal_global.1951
+- ___block_literal_global.1954
+- ___block_literal_global.1957
+- ___block_literal_global.1960
+- ___block_literal_global.1963
+- ___block_literal_global.1966
+- ___block_literal_global.1969
+- ___block_literal_global.1972
+- ___block_literal_global.1975
+- ___block_literal_global.1988
+- ___block_literal_global.1991
+- ___block_literal_global.1994
+- ___block_literal_global.1997
+- ___block_literal_global.2000
+- ___block_literal_global.2003
+- ___block_literal_global.2005
+- ___block_literal_global.2006
+- ___block_literal_global.2009
+- ___block_literal_global.2011
+- ___block_literal_global.2015
+- ___block_literal_global.2018
+- ___block_literal_global.2021
+- ___block_literal_global.2034
+- ___block_literal_global.2037
+- ___block_literal_global.2040
+- ___block_literal_global.2043
+- ___block_literal_global.2046
+- ___block_literal_global.2049
+- ___block_literal_global.2052
+- ___block_literal_global.2054
+- ___block_literal_global.2055
+- ___block_literal_global.2058
+- ___block_literal_global.2061
+- ___block_literal_global.2064
+- ___block_literal_global.2067
+- ___block_literal_global.2070
+- ___block_literal_global.2073
+- ___block_literal_global.2076
+- ___block_literal_global.2079
+- ___block_literal_global.2082
+- ___block_literal_global.2085
+- ___block_literal_global.2088
+- ___block_literal_global.2091
+- ___block_literal_global.2094
+- ___block_literal_global.2097
+- ___block_literal_global.2100
+- ___block_literal_global.2103
+- ___block_literal_global.2106
+- ___block_literal_global.2109
+- ___block_literal_global.2112
+- ___block_literal_global.2115
+- ___block_literal_global.2118
+- ___block_literal_global.2121
+- ___block_literal_global.2124
+- ___block_literal_global.2127
+- ___block_literal_global.2130
+- ___block_literal_global.2133
+- ___block_literal_global.2136
+- ___block_literal_global.2139
+- ___block_literal_global.2142
+- ___block_literal_global.2145
+- ___block_literal_global.2148
+- ___block_literal_global.2151
+- ___block_literal_global.2154
+- ___block_literal_global.2157
+- ___block_literal_global.2160
+- ___block_literal_global.2163
+- ___block_literal_global.2166
+- ___block_literal_global.2169
+- ___block_literal_global.2172
+- ___block_literal_global.2175
+- ___block_literal_global.2178
+- ___block_literal_global.2230
+- ___block_literal_global.2232
+- ___block_literal_global.2234
+- ___block_literal_global.2236
+- ___block_literal_global.2238
+- ___block_literal_global.2327
+- ___block_literal_global.250
+- ___block_literal_global.2540
+- ___block_literal_global.2543
+- ___block_literal_global.2545
+- ___block_literal_global.2575
+- ___block_literal_global.2580
+- ___block_literal_global.2588
+- ___block_literal_global.2612
+- ___block_literal_global.2614
+- ___block_literal_global.2627
+- ___block_literal_global.2861
+- ___block_literal_global.2865
+- ___block_literal_global.2992
+- ___block_literal_global.2994
+- ___block_literal_global.3128
+- ___block_literal_global.3136
+- ___block_literal_global.3138
+- ___block_literal_global.326
+- ___block_literal_global.330
+- ___block_literal_global.332
+- ___block_literal_global.3361
+- ___block_literal_global.3403
+- ___block_literal_global.3414
+- ___block_literal_global.3418
+- ___block_literal_global.3573
+- ___block_literal_global.3585
+- ___block_literal_global.366
+- ___block_literal_global.372
+- ___block_literal_global.3794
+- ___block_literal_global.3797
+- ___block_literal_global.3848
+- ___block_literal_global.3859
+- ___block_literal_global.4049
+- ___block_literal_global.4082
+- ___block_literal_global.4084
+- ___block_literal_global.4089
+- ___block_literal_global.4094
+- ___block_literal_global.4115
+- ___block_literal_global.4117
+- ___block_literal_global.4125
+- ___block_literal_global.4127
+- ___block_literal_global.4129
+- ___block_literal_global.4131
+- ___block_literal_global.4133
+- ___block_literal_global.4151
+- ___block_literal_global.4163
+- ___block_literal_global.4179
+- ___block_literal_global.435
+- ___block_literal_global.451
+- ___block_literal_global.457
+- ___block_literal_global.519
+- ___block_literal_global.524
+- ___block_literal_global.529
+- ___block_literal_global.555
+- ___block_literal_global.644
+- ___block_literal_global.661
+- ___block_literal_global.674
+- ___block_literal_global.695
+- ___block_literal_global.756
+- ___block_literal_global.775
+- ___block_literal_global.779
+- ___block_literal_global.786
+- ___block_literal_global.789
+- ___block_literal_global.795
+- ___block_literal_global.869
+- ___block_literal_global.901
+- ___block_literal_global.964
+- ___block_literal_global.985
+- ___block_literal_global.987
+- ___block_literal_global.997
+- ___swift_memcpy426_8
+- ___swift_memcpy44_8
+- ___swift_memcpy452_8
+- __resolvedColorWithTraitCollection:.__s_category.1877
+- _block_copy_helper.175
+- _block_copy_helper.192
+- _block_copy_helper.203
+- _block_copy_helper.204
+- _block_copy_helper.233
+- _block_copy_helper.241
+- _block_copy_helper.243
+- _block_copy_helper.251
+- _block_copy_helper.262
+- _block_copy_helper.269
+- _block_copy_helper.272
+- _block_copy_helper.306
+- _block_copy_helper.325
+- _block_copy_helper.327
+- _block_copy_helper.334
+- _block_copy_helper.347
+- _block_copy_helper.377
+- _block_copy_helper.387
+- _block_copy_helper.400
+- _block_copy_helper.426
+- _block_copy_helper.438
+- _block_copy_helper.441
+- _block_copy_helper.451
+- _block_copy_helper.461
+- _block_copy_helper.487
+- _block_copy_helper.494
+- _block_copy_helper.497
+- _block_copy_helper.80
+- _block_descriptor.177
+- _block_descriptor.194
+- _block_descriptor.205
+- _block_descriptor.206
+- _block_descriptor.235
+- _block_descriptor.243
+- _block_descriptor.245
+- _block_descriptor.253
+- _block_descriptor.264
+- _block_descriptor.271
+- _block_descriptor.274
+- _block_descriptor.308
+- _block_descriptor.327
+- _block_descriptor.329
+- _block_descriptor.336
+- _block_descriptor.349
+- _block_descriptor.379
+- _block_descriptor.389
+- _block_descriptor.402
+- _block_descriptor.428
+- _block_descriptor.440
+- _block_descriptor.443
+- _block_descriptor.453
+- _block_descriptor.463
+- _block_descriptor.489
+- _block_descriptor.496
+- _block_descriptor.499
+- _block_descriptor.82
+- _block_destroy_helper.176
+- _block_destroy_helper.193
+- _block_destroy_helper.204
+- _block_destroy_helper.205
+- _block_destroy_helper.234
+- _block_destroy_helper.242
+- _block_destroy_helper.244
+- _block_destroy_helper.252
+- _block_destroy_helper.263
+- _block_destroy_helper.270
+- _block_destroy_helper.273
+- _block_destroy_helper.307
+- _block_destroy_helper.326
+- _block_destroy_helper.328
+- _block_destroy_helper.335
+- _block_destroy_helper.348
+- _block_destroy_helper.378
+- _block_destroy_helper.388
+- _block_destroy_helper.401
+- _block_destroy_helper.427
+- _block_destroy_helper.439
+- _block_destroy_helper.442
+- _block_destroy_helper.452
+- _block_destroy_helper.462
+- _block_destroy_helper.488
+- _block_destroy_helper.495
+- _block_destroy_helper.498
+- _block_destroy_helper.81
+- _get_witness_table RlzCls15LazyMapSequenceV8IteratorVys0a6FilterC0VyABySD6ValuesVySO5UIKit18WeakReferenceTable33_1C2F3DC4D5EC520AE8BBA3AF80D8421DLLV0hI0Vyx_G_GxSgGGx_GStHPyHC.302
+- _get_witness_table SHRzlSD4KeysV8IteratorVyxSi__GStHPyHC.303
+- _objc_msgSend$_applicationIconImageForBundleIdentifier:format:scale:style:
+- _objc_msgSend$_contentBackSwipeShouldBegin
+- _objc_msgSend$_percentCapsular
+- _objc_msgSend$_scrollIndicatorContainerRect
+- _objc_msgSend$_solariumMaterialForSystemColorName:traitCollection:
+- _objc_msgSend$_trackContentBackSwipeConflictingGesture:
+- _objc_msgSend$copyTokenWithoutContentProperties
+- _objc_msgSend$fallbackCornerRadius
+- _objc_msgSend$keyWithName:configuration:
+- _objc_msgSend$keyWithName:configuration:bundle:
+- _objc_msgSend$keyWithSize:unresolvedTintColor:traitCollection:bold:drawMode:
+- _objc_msgSend$keyWithSystemName:private:configuration:
+- _objectdestroy.131Tm
+- _objectdestroy.151Tm
+- _objectdestroy.208Tm
+- _objectdestroy.391Tm
+- _objectdestroy.62Tm
+- _symbolic Say_____G So15_UIScrollPocketC5UIKitE0B7ElementV
+- _symbolic Sd5scale_Sb10tracksLumaSb17windowServerAwareSd10updateRatet
+- _symbolic So8UIWindowCSgz_Xx
+- _symbolic _____ So15_UIScrollPocketC5UIKitE0B4Blur33_54F5B0BEB96954C1867D8C3082E9F3FDLLC
+- _symbolic _____ So15_UIScrollPocketC5UIKitE0B7ElementV
+- _symbolic _____Sg So15_UIScrollPocketC5UIKitE0B12ElementModelC
+- _symbolic _____Sg So15_UIScrollPocketC5UIKitE12PortalHelperV
+- _symbolic _____SgXw So15_UIScrollPocketC5UIKitE0B4MaskC
+- _symbolic _____Xo 5UIKit27_UISliderGlassVisualElementC
+- _symbolic _____Xoz_Xx 5UIKit27_UISliderGlassVisualElementC
+- _symbolic _____y_____G s23_ContiguousArrayStorageC So15_UIScrollPocketC5UIKitE0E7ElementV
+- _type_layout_string So15_UIScrollPocketC5UIKitE0B7ElementV
+- _type_layout_string So15_UIScrollPocketC5UIKitE12PortalHelperV
+CStrings:
++ "\n%@: %@"
++ "\v7"
++ "!a\xa2"
++ "%@ (chamois: %d, initialized: %d, hw kb: %d, sw kb min: %d, custom iv %d, isExternal: %d, specialized: %d, wantsAssistant: %d, kb cam: %d, kb substitute: %d)"
++ "%s svc = %p; enabling layout state restoration"
++ "%s svc = %p; restoring layout state"
++ "%s svc = %p; transition = %p"
++ "%s: Could not save Scene Session internal userInfo dictionary error = %@"
++ "%s: Could not save Scene Session userInfo dictionary error = %@"
++ "%s: Exception saving Scene Session internal userInfo dictionary: %@"
++ "%s: Exception saving Scene Session userInfo dictionary: %@"
++ "%s: Nothing to save for UIScene's saved internal userInfo file, deleting existing file if it exists: %@"
++ "%s: Nothing to save for UIScene's saved userInfo file, deleting existing file if it exists: %@"
++ "%s: Saved Scene Session internal userInfo dictionary"
++ "%s: Saved Scene Session userInfo dictionary"
++ "%s: Scene Session internal userInfo dictionary is not valid property list, skipping save"
++ "%s: Scene Session userInfo dictionary is not valid property list, skipping save"
++ "%s: Warning: Unable to delete UIScene internal userInfo file: %@, error = %@"
++ "%s: Warning: Unable to delete UIScene userInfo file: %@, error = %@"
++ "+[_UISceneUserActivityManager _scheduleDataSaveForSceneSession:saveRestorationActivity:]_block_invoke"
++ "-[_UISplitViewControllerAdaptiveImpl _completeTransition:]"
++ "-[_UISplitViewControllerAdaptiveImpl _restoreLayoutStateIfNeededWithProposedLayout:]"
++ "-[_UISplitViewControllerAdaptiveImpl _saveLayoutStateIfNeeded]"
++ "<%@: %p; layout = %@; columns = %@>"
++ "<%@: %p; sceneSession = %@>"
++ "@\"_TtC5UIKit33_UILiquidLensViewLargeVariantSpec\""
++ "@\"_TtC5UIKit33_UILiquidLensViewSmallVariantSpec\""
++ "@\"_TtC5UIKit39_UIFlexInteractionUltraSmallVariantSpec\""
++ "@\"_TtCE5UIKitCSo15_UIScrollPocket10PocketBlur\""
++ "@\"_UISplitViewControllerLayoutState\""
++ "@\"_UISystemIconAppearance\""
++ "@16@?0@\"<UIFocusItem>\"8"
++ "@52@0:8@16i24d28@36q44"
++ "Class getSBSUITraitHomeScreenIconStyleClass(void)_block_invoke"
++ "Dynamic-Pinyin10"
++ "H:|-(separatorViewInsetH)-[separatorView]-(separatorViewInsetH)-|"
++ "Hang Time (Min Lift Duration)"
++ "Large (Tab bar, Segmented Control)"
++ "Lifted Displacement"
++ "Linearly sorted items for rects:%@"
++ "OverflowBarButtonItem"
++ "SBSUITraitHomeScreenIconStyle"
++ "SceneStateRestoration"
++ "ScrollPocketFrameCache"
++ "Small (Switch, Slider)"
++ "SystemIconAppearance"
++ "T@\"CALayer\",N,&,VlayerToFlex"
++ "T@\"NSTimer\",N,&,VunliftDelayTimer"
++ "T@\"_TtC5UIKit28_UILiquidLensViewVariantSpec\",N,R"
++ "T@\"_TtC5UIKit33_UILiquidLensViewLargeVariantSpec\",N,&,Vlarge"
++ "T@\"_TtC5UIKit33_UILiquidLensViewSmallVariantSpec\",N,&,Vsmall"
++ "T@\"_TtC5UIKit39_UIFlexInteractionUltraSmallVariantSpec\",N,&,VultraSmall"
++ "T@\"_TtCE5UIKitCSo15_UIScrollPocket10PocketBlur\",N,R,VpocketMaskedBlur"
++ "T@\"_UIGroupCompletion\",N,R,VgroupCompletion"
++ "T@\"_UIMaterial\",N,R"
++ "T@\"_UISystemIconAppearance\",R,N"
++ "T@\"_UISystemIconAppearanceSceneComponent\",R,N"
++ "TB,N,S_setIncludesSafeAreaInsetWhenInset:"
++ "TB,N,V_canUseInlineStyle"
++ "TB,N,V_lifted"
++ "TB,N,VtryMe"
++ "Td,N,VlensHangTime"
++ "Td,N,VliftedDisplacement"
++ "Td,N,VunliftedBlurRadius"
++ "Td,N,VunliftedDisplacement"
++ "This should only ever be called for custom symbol images."
++ "TrafficLightStyle"
++ "T{UIEdgeInsets=dddd},N,V_pullViewInsets"
++ "UIColor.materialRenderingMode"
++ "UIKitCore/PocketBlur.swift"
++ "UITraitColorMaterialRenderingMode"
++ "UIViewImplicitlyAnimating_Internal"
++ "Ultra Small Views"
++ "Unlifted Blur Radius"
++ "Unlifted Displacement"
++ "V:[separatorView(1)]"
++ "V:|[textFieldContainer][separatorView]|"
++ "_NoAnimationDelegate"
++ "_TtC5UIKit28_UILiquidLensViewVariantSpec"
++ "_TtC5UIKit33_UILiquidLensViewLargeVariantSpec"
++ "_TtC5UIKit33_UILiquidLensViewSmallVariantSpec"
++ "_TtC5UIKit39_UIFlexInteractionUltraSmallVariantSpec"
++ "_TtC5UIKitP33_85E9C0EF4CE083FCE5405A75E0676D6F11ShadowLayer"
++ "_TtCE5UIKitCSo15_UIScrollPocket10PocketBlur"
++ "_UIHybridStateStore"
++ "_UIHybridStateStore.m"
++ "_UIImageIconCacheKey"
++ "_UIMainMenu initializer should only take in a UIMenu with empty children. This is a UIKit internal bug."
++ "_UIMainMenuElement.m"
++ "_UISearchCancelButtonCarPlay"
++ "_UISplitViewControllerLayoutState"
++ "_UISplitViewControllerLayoutState.m"
++ "_UISystemIconAppearance"
++ "_UISystemIconAppearanceSceneComponent"
++ "_UISystemIconAppearanceSceneComponent.m"
++ "_UISystemIconAppearanceSceneComponentKey"
++ "_UITraitColorMaterialRenderingMode"
++ "_UITraitSystemIconAppearance"
++ "_applicationIconImageForBundleIdentifier:format:scale:appearance:style:"
++ "_applyEffectiveCornerRadiiToLayer"
++ "_canAddAnimations"
++ "_canUseInlineStyle"
++ "_configurationWithSystemIconAppearance:"
++ "_containerConcentricRadiusForCorner:"
++ "_currentIconAppearance"
++ "_defaultHeightForBarMetrics:floating:idiom:"
++ "_disableGlassForProcess"
++ "_focusGuide"
++ "_geometryChangeLevel"
++ "_includesSafeAreaInsetWhenInset"
++ "_initTraitChangeRegistrations"
++ "_isIconAsset"
++ "_isIconImage"
++ "_isRenderedHorizontallyFlipped"
++ "_isSearchTab"
++ "_labelMaterial"
++ "_legibilityWeightDidChange"
++ "_percentFullHeight.betweenNonDismissDetents"
++ "_percentFullHeight.includingDismissDetent"
++ "_percentSafeAreaInsetToInclude"
++ "_primaryEdgeSplitViewControllerColumn"
++ "_pullViewInsets"
++ "_rasterizedCustomSymbolImageForFastXPCCoding"
++ "_removeContentBackdropView"
++ "_requiresFencingHack"
++ "_sceneSession"
++ "_sceneTraitObserver"
++ "_scrollIndicatorContainerRectForAxis:"
++ "_searchBar:didMoveFromWindow:newWindow:"
++ "_secondaryBackdropView"
++ "_secondaryEdgeSplitViewControllerColumn"
++ "_setIncludesSafeAreaInsetWhenInset:"
++ "_shouldBeFoundByDescendentScrollView:"
++ "_shouldHighlightAppearanceForViewState:"
++ "_shouldNotifyGeometryObservers"
++ "_solariumMaterialForColor:traitCollection:"
++ "_startedOn"
++ "_systemIconAppearance"
++ "_systemIconAppearance=(%@)"
++ "_systemIconAppearanceDidChange"
++ "_systemIconAppearanceSceneComponent"
++ "_systemIconAppearanceTraitRegistration"
++ "_systemIconStyleDidChange"
++ "_transitionEffectiveGeometry"
++ "_uncachedDynamicIconAssetNamed:generator:"
++ "_updateUserInterfaceStyleIfNeeded"
++ "_zeroOffset"
++ "actuallySetLifted:animated:alongsideAnimations:completion:"
++ "assets initialized with _uncachedDynamicAssetNamed:generator must provide a block"
++ "backdropLayer:didSampleProtectedLuma:"
++ "blurAttenuation"
++ "canUseInlineStyle"
++ "captureColorLuminance"
++ "com.apple.ScreenTime.ScreenTimeWebExtension"
++ "com.apple.UIKit.UISplitViewController.Root"
++ "com.apple.commandandcontrol"
++ "com.google.Dynamite.ShareExtension"
++ "contour"
++ "currentLuma"
++ "d36@0:8q16B24q28"
++ "dictionary != nil"
++ "effectiveUserInterfaceStyle"
++ "elementColor"
++ "elementDescriptors"
++ "elementStyle"
++ "glassGroupBackgroundEnabled"
++ "glassUserInterfaceStyle"
++ "iconServicesAppearanceUsingDarkInterfaceStyle:"
++ "iconServicesAppearanceVariantUsingDarkInterfaceStyle:"
++ "includesSafeAreaInsetWhenInset"
++ "inferGlassGroupFromContainer"
++ "inheritedRowSetTypeForKeyboardType:"
++ "initWithLayout:preferredColumns:"
++ "initWithMorphAnimationSpec:"
++ "initWithSceneSession:"
++ "isCustomInputViewSet"
++ "isSearchTabSelected"
++ "isWantsAssistantWhileSuppressingKeyboard"
++ "key != nil"
++ "keyboardCameraPresentedOrPresenting"
++ "keyboardHasBeenInitialized"
++ "keyboardSubstitutePresentedOrPresenting"
++ "keysOrderedByPositionLinear:"
++ "layerPool"
++ "layout != nil"
++ "lensHangTime"
++ "liftTimestamp"
++ "liftedDisplacement"
++ "overrideTrackingState:"
++ "preferredTrafficLightStyle"
++ "previousBarFrame"
++ "previousEffectiveLuma"
++ "primaryEdgeSplitViewControllerColumn"
++ "primaryEdgeSplitViewControllerColumn = %@"
++ "pullViewInsets"
++ "recipientScrollViewRemovedFromWindowHandler"
++ "removeSecondaryBackdropView"
++ "sbsHomeScreenIconStyleConfiguration"
++ "scrollViewWasRemovedFromWindow"
++ "secondaryEdgeSplitViewControllerColumn"
++ "secondaryEdgeSplitViewControllerColumn = %@"
++ "separatorViewInsetH"
++ "setAppearanceVariant:"
++ "setCanUseInlineStyle:"
++ "setInverseMeshed:"
++ "setLayerToFlex:"
++ "setLensHangTime:"
++ "setLiftedDisplacement:"
++ "setPullViewInsets:"
++ "setSecondaryBackdropView:"
++ "setTryMe:"
++ "setUltraSmall:"
++ "setUnliftDelayTimer:"
++ "setUnliftedBlurRadius:"
++ "setUnliftedDisplacement:"
++ "set_lifted:"
++ "slsIconAppearanceConfiguration"
++ "softlink:r:path:/System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices"
++ "softwareKeyboardMinimized"
++ "swipeActionController:pullViewInsetsForItemAtIndexPath:"
++ "textField, textFieldContainer"
++ "textField, textFieldContainer, separatorView"
++ "textFieldCornerRadius"
++ "trafficLightPartIdentifier"
++ "transitionEffectiveGeometry"
++ "tryMe"
++ "ultraSmall"
++ "unliftDelayTimer"
++ "unliftedBlurRadius"
++ "unliftedDisplacement"
++ "updateCachedKeyList"
++ "useHeavyReplay"
++ "v24@?0@\"UIBackgroundConfiguration\"8@\"_UISystemBackgroundView\"16"
++ "v28@0:8@\"CABackdropLayer\"16B24"
++ "v32@?0@\"<UIFocusItem>\"8Q16^B24"
++ "v40@0:8@\"UISearchBar\"16@\"UIWindow\"24@\"UIWindow\"32"
++ "visualMode %u -> %u"
++ "void *SpringBoardUIServicesLibrary(void)"
++ "void _saveSceneSessionInternalUserInfo(UISceneSession *__strong)"
++ "void _saveSceneSessionUserInfo(UISceneSession *__strong)"
++ "{?=\"allowEdgeBarButtonItemsWithoutGesture\"b1\"delegateWillChangeToDisplayMode\"b1\"delegateDidChangeToDisplayMode\"b1\"delegateWillShowColumn\"b1\"delegateWillHideColumn\"b1\"delegateDidShowColumn\"b1\"delegateDidHideColumn\"b1\"delegateDidCollapse\"b1\"delegateDidExpand\"b1\"delegateTopColumnForCollapsingToProposedTopColumn\"b1\"delegateWillCollapseToProposedTopColumn\"b1\"delegateUnderscoreWillCollapseToProposedTopColumn\"b1\"delegateDisplayModeForExpandingToProposedDisplayMode\"b1\"delegateWillExpandToProposedDisplayMode\"b1\"delegateConstrainPrimaryColumnWidthForResizeWidth\"b1\"delegateConstrainSupplementaryColumnWidthForResizeWidth\"b1\"delegateWillBeginResizingColumn\"b1\"delegateDidEndResizingColumn\"b1\"delegateShowViewController\"b1\"delegateShowDetailViewController\"b1\"delegatePrimaryViewControllerForCollapsingSplitViewController\"b1\"delegatePrimaryViewControllerForExpandingSplitViewController\"b1\"delegateCollapseSecondaryViewControllerOntoPrimaryViewController\"b1\"delegateSeparateSecondaryViewControllerFromPrimaryViewController\"b1\"delegatePreferredSearchColumnForSplitViewController\"b1\"delegateInteractivePresentationGestureWillBegin\"b1\"delegateInteractivePresentationGestureDidEnd\"b1\"delegateDisplayModeButtonViewInColumn\"b1\"forcePrimaryEdgeBarButtonItemHidden\"b1\"forceSecondaryEdgeBarButtonItemHidden\"b1\"hasAttemptedLayoutStateRestoration\"b1\"hasSuspendedEnforcingColumnPreferencesForSceneResize\"b1\"isLayoutPrepared\"b1\"isLayoutStatePersistenceEnabled\"b1\"isPreparingLayout\"b1\"isPreparingLayoutForExpandOrCollapse\"b1\"isSceneResizePermitted\"b1\"isTogglingPrimaryEdgeColumnEnabled\"b1\"isTogglingSecondaryEdgeColumnEnabled\"b1\"isTogglingPresentedColumnEnabled\"b1}"
++ "{?=\"delegateSupportsWindow\"b1\"delegateSupportsSetWindow\"b1\"delegateSupportsDidUpdateCoordinateSpace\"b1\"delegateSupportsDidUpdateEffectiveGeometry\"b1\"isPerformingSystemSnapshot\"b1\"needsScheduleLiveResizeFinishedActionWhenDoneHoldingSnapshot\"b1\"enhancedWindowingEnabled\"I\"holdingLiveResizeSnapshot\"b1\"shouldDisableTouchCancellationOnRotation\"b1\"enqueuedEvaluationOfDisablesMirroring\"b1}"
++ "{?=\"hasRegisteredImages\"b1\"supportsBlockGeneration\"b1\"isUncached\"b1\"isIconAsset\"b1}"
++ "{?=\"hasSystemIconAppearance\"b1}"
++ "{?=\"isSpringBoardConfiguration\"b1\"isSkyLightConfiguration\"b1}"
++ "{?=\"size\"b2\"delegateAlwaysNotifiesDelegateOfSegmentClicks\"b1\"momentaryClick\"b1\"tracking\"b1\"autosizeToFitSegments\"b1\"isSizingToFit\"b1\"autosizeText\"b1\"transparentBackground\"b1\"useProportionalWidthSegments\"b1\"translucentBackground\"b1\"appearanceNeedsUpdate\"b1\"selectionIndicatorDragged\"b1\"useInnerSegmentSpacing\"b1\"adjustsForContentSizeCategory\"b1\"focusUpdatedBeforeSelection\"b1\"useDynamicShadow\"b1\"animatingOutDynamicShadow\"b1\"animatingSeleciton\"b1\"animatingHoverOut\"b1\"styleProviderSupportsExtraTraitCollectionChanges\"b1\"styleProviderSupportsFocusWithoutSelection\"b1\"styleProviderSupportsHidingSelectionOnFocusUpdate\"b1\"styleProviderSupportsSegmentHighlightAnimation\"b1\"appCustomizedSelectedVisualEffect\"b1\"overridesCustomInfoViewForSegments\"b1\"styleProviderSupportsFeedbackGeneration\"b1\"styleProviderSupportsLegacyActiveSegmentControl\"b1\"hasBackdropView\"b1\"hasMaterial\"b1\"forceUseGlass\"b1\"backdropIsVisualEffectView\"b1\"shouldPlayFeedback\"b1\"styleProviderSupportsGlassProvider\"b1\"styleProviderWantsLensView\"b1\"styleProviderWantsC2Animation\"b1\"useSpringBoardVibrancy\"b1\"styleProviderWantsFreeSlidingSelection\"b1\"shouldLiftLensView\"b1}"
++ "{?=\"userInteractionDisabled\"b1\"implementsDrawRect\"b1\"implementsDidScroll\"b1\"implementsMouseTracking\"b1\"implementsIntrinsicContentSize\"b1\"hasBackgroundColor\"b1\"hasBackgroundColorSystemColorName\"b1\"hasInteractionTintColor\"b1\"hasOverrideTintColor\"b1\"isOpaque\"b1\"becomeFirstResponderWhenCapable\"b1\"isDeallocInitiated\"b1\"isInUIViewDealloc\"b1\"hasPreparedForWindowDealloc\"b1\"isFirstResponder\"b1\"isAncestorOfFirstResponder\"b1\"dontAutoresizeSubviews\"b1\"autoresizeMask\"b6\"patternBackground\"b1\"fixedBackgroundPattern\"b1\"dontAnimate\"b1\"superLayerIsView\"b1\"layerKitPatternDrawing\"b1\"multipleTouchEnabled\"b1\"exclusiveTouch\"b1\"hasViewController\"b1\"needsDidAppearOrDisappear\"b1\"deliversTouchesForGesturesToSuperview\"b1\"deliversPressesForGesturesToSuperview\"b1\"chargeEnabled\"b1\"skipsSubviewEnumeration\"b1\"needsDisplayOnBoundsChange\"b1\"hasTiledLayer\"b1\"hasContentSizeCategoryLimits\"b1\"traversalMark\"b1\"appearanceIsInvalid\"b1\"monitorsSubtree\"b1\"hostsAutolayoutEngine\"b1\"constraintsAreClean\"b1\"subviewLayoutConstraintsAreClean\"b1\"intrinsicContentSizeConstraintsAreClean\"b1\"strictDescendantNeedsDoubleUpdateConstraints\"b1\"strictDescendantNeedsDoubleUpdateConstraintsIsInvalid\"b1\"hasStoredLayoutEngineWidth\"b1\"determiningWidthForDoubleUpdateConstraints\"b1\"inSecondConstraintsPass\"b1\"potentiallyHasDanglyConstraints\"b1\"doesNotTranslateAutoresizingMaskIntoConstraints\"b1\"autolayoutIsClean\"b1\"autolayoutBoundsAreClean\"b1\"layoutFlushingDisabled\"b1\"layingOutFromConstraints\"b1\"wantsAutolayout\"b1\"subviewWantsAutolayout\"b1\"isApplyingValuesFromEngine\"b1\"autolayoutIsSendingSetBoundsWithNoChanges\"b1\"isResizingDueToParentResize\"b1\"isInLayoutSubviewsOrVCCallback\"b1\"isInUpdateProperties\"b1\"isInAnimatedLayout\"b1\"isSubviewUpdatingAutoresizingConstraints\"b1\"isUpdatingConstraints\"b1\"isReapplyingStillActiveBrokenConstraints\"b1\"isSuppressingUnsatisfiableConstraintsLoggingForNestedLayoutEngines\"b1\"isHostingUpdateConstraintsPassDuringLayout\"b1\"isRunningEngineLevelConstraintsPass\"b1\"isUpdatingLayoutEngineHostConstraints\"b1\"isExpectingToFlushPendingLayoutChangeNotifications\"b1\"invalidatesIntrinsicContentSizeForSubviewAutoLayoutChanges\"b1\"systemLayoutFittingSizeNeedsUpdate\"b1\"systemLayoutFittingSizeNeedsUpdateInWholeSubtree\"b1\"isCalculatingSystemLayoutFittingSize\"b1\"suppressEncapsulationConstraints\"b1\"suppressAutoresizingMaskConstraintsUpdate\"b1\"isFetchingSizeForTAMIC_NOEngineHost\"b1\"internallyHiddenForReason\"b2\"stayHiddenAfterBeingInternallyHiddenForReason\"b1\"skippedPreLayoutWhileInternallyHiddenForReason\"b1\"skippedLayoutWhileInternallyHiddenForReason\"b1\"isPendingHiddenForAnimation\"b1\"hasMaskView\"b1\"isSettingMaskView\"b1\"hasVisualAltitude\"b1\"hasBackdropMaskViews\"b1\"backdropMaskViewFlags\"b5\"delaysTouchesForSystemGestures\"b1\"subclassShouldDelayTouchForSystemGestures\"b1\"hasMotionEffects\"b1\"backdropOverlayMode\"b2\"tintAdjustmentMode\"b2\"isReferenceView\"b1\"focusState\"b2\"hasUserInterfaceIdiom\"b1\"userInterfaceIdiom\"b3\"ancestorDefinesTintColor\"b1\"ancestorDefinesTintAdjustmentMode\"b1\"ancestorIgnoresInvertColors\"b1\"needsUpdateProperties\"b1\"needsTraitCollectionDidChangePropagation\"b1\"isRootOfTraitCollectionDidChangePropagation\"b1\"implementsTraitCollectionForChildEnvironment\"b1\"implementsBaselineOffsetsAtSize\"b1\"coloredViewBounds\"b1\"coloredAlignmentRects\"b1\"preservesSuperviewMargins\"b4\"insettingLayoutMarginsFromSafeArea\"b4\"safeAreaInsetsFrozen\"b1\"viewDelegateContentOverlayInsetsAreClean\"b1\"hasGeometryObservers\"b1\"notifyObserversForBaselineChanges\"b1\"notifySuperviewForBaselineChanges\"b1\"observingGeometryChangesForSelfCount\"b4\"isObservingBoundingPathRotationNotificationsForWindow\"b1\"hasTraitStorageList\"b1\"cachedTraitCollectionIsValid\"b1\"hasTraitOverrides\"b1\"dontUpdateInferredLayoutMargins\"b1\"areLayoutMarginsDirectional\"b1\"implementsViewForBaselineLayout\"b1\"tracksFocusedAncestors\"b1\"hasLayoutArrangements\"b1\"isHiddenManagedByLayoutArrangement\"b1\"hasAddedFocusGuides\"b1\"hasFocusSpeedBumpEdges\"b1\"hasFocusableContentMargins\"b1\"focusInteractionDisabled\"b1\"shouldReverseLayoutDirection\"b1\"cannotBeParentTraitEnvironment\"b1\"needsContentsFormatUpdate\"b1\"accessibilityIgnoresInvertColors\"b1\"ignoresLayerTransformForSafeAreaInsets\"b1\"accessibilityInterfaceStyleIntent\"b2\"accessibilityResolvedInterfaceStyle\"b2\"shouldArchiveUIAppearanceTags\"b1\"wantsDeepColorDrawing\"b1\"preferredContentsFormat\"b3\"sceneDraggingBehaviorOnPan\"b2\"tagEnabled\"b1\"chargeSet\"b1\"ignoreBackdropViewsWhenHiding\"b1\"hasInteractionsArray\"b1\"hasHitTestDirectionalInsets\"b1\"hasLayoutDebuggingIdentifier\"b1\"hasAppIntentsIntelligenceProvider\"b1\"hasContentSizeNotificationToken\"b1\"hasPresentationControllerToNotifyOnLayoutSubviews\"b1\"hasWritingToolsCoordinator\"b1\"semanticContentAttribute\"b3\"hasDynamicBackgroundColor\"b1\"forceEffectiveThemeDidChange\"b1\"allowsHighContrastForBackgroundColor\"b1\"hasPendingTraitStorageConstraints\"b1\"hasPendingLayoutAfterTraitStorageConstraintsUpdate\"b1\"hasEverBeenInAWindow\"b1\"hasFocusGroupIdentifier\"b2\"hasFocusGroupPriority\"b1\"hasFocusEffect\"b2\"conformsToUIFocusItemScrollableContainer\"b2\"allowsSkippingLayout\"b1\"isResolvingTraitCollection\"b1\"needsLayoutAndDisplayOnTintColorChanges\"b1\"subviewNeedsAnimationRestorationMessage\"b1\"isHostingTrackingForAnimationRestoration\"b1\"implementsFocusItemsInRect\"b1\"isPrivateSubview\"b1\"wasPrivateSubview\"b1\"shouldAdaptToMaterials\"b1\"hasMultiLayerDelegate\"b1\"useMinimumSafeArea\"b1\"useMinimumSafeAreaFrozen\"b1\"minimumSafeAreaAccessed\"b1\"minimumSafeAreaIsClassicSafeArea\"b1\"minimumSafeAreaNeedsUpdate\"b1\"mt_hasCustomizedCaptureGroup\"b1\"mt_backgroundMergeBehavior\"b2\"shouldContinueRemovingFromSuperview\"b1\"isMaskingIntermediateLayer\"b1\"hasLayoutRules\"b1\"maskingConfigurationIsInvalid\"b1\"needsCornersUpdate\"b1\"invalidatesCornersForGeometryChange\"b1\"suppressesBackground\"b1\"glassBackgroundNeedsUpdate\"b1\"hasChildrenRequestingSubduing\"b1\"safeAreaCornerAdaptation\"b3\"isRenderedHorizontallyFlipped\"b1}"
++ "{?=\"visualElementIsFluid\"b1\"visualElementRespondsToDidUpdateConfiguration\"b1\"visualElementRespondsToDidUpdateSliderStyle\"b1\"visualElementRespondsToDidSetUserInteractionEnabled\"b1\"visualElementRespondsToOverrideTrackingState\"b1\"visualElementRespondsToDidSetSpeedMultiplier\"b1\"visualElementRespondsToAdditionalTrackingViews\"b1\"visualElementDefersFinalActions\"b1\"visualElementNeedsReevaluationForTrackImages\"b1}"
+- "!b\xa2"
+- "%s completion svc = %p; transition = %p"
+- "%s: Could not save Scene Session %suserInfo dictionary error = %@"
+- "%s: Exception saving Scene Session %suserInfo dictionary: %@"
+- "%s: Inconsistency issue updating effective geometry: it is invalid to start another geometry change before the previous one is complete: %@"
+- "%s: Nothing to save for UIScene's saved %suserInfo file, deleting existing file if it exists: %@"
+- "%s: Saved Scene Session %suserInfo dictionary"
+- "%s: Scene Session %suserInfo dictionary is not valid property list, skipping save"
+- "%s: Warning: Unable to delete UIScene %suserInfo file: %@, error = %@"
+- "-[UIWindowScene _startChangeToNewEffectiveGeometrySettingValue:]"
+- "-[_UISplitViewControllerAdaptiveImpl _prepareTransitionToLayout:]_block_invoke_8"
+- "<%@: %p layout = %@; columns = %@>"
+- "@\"_TtCE5UIKitCSo15_UIScrollPocketP33_54F5B0BEB96954C1867D8C3082E9F3FD10PocketBlur\""
+- "@44@0:8@16i24d28q36"
+- "@56@0:8{CGSize=dd}16@32@40B48I52"
+- "Focus"
+- "MPPocketMaskFilter"
+- "MPPocketMaskFilterCarPlay"
+- "MPPocketMaskFilterNonFloating"
+- "MPPocketMaskFilterWatch"
+- "T@\"CALayer\",N,R"
+- "T@\"_TtCE5UIKitCSo15_UIScrollPocketP33_54F5B0BEB96954C1867D8C3082E9F3FD10PocketBlur\",N,R,VpocketMaskedBlur"
+- "TB,N,VinheritsSecurity"
+- "TB,N,Vlifted"
+- "_TtCE5UIKitCSo15_UIScrollPocketP33_54F5B0BEB96954C1867D8C3082E9F3FD10PocketBlur"
+- "_UICollectionViewRTLMirroring"
+- "_applicationIconImageForBundleIdentifier:format:scale:style:"
+- "_applyStyling:"
+- "_conflictingScrollViews"
+- "_contentBackSwipeShouldBegin"
+- "_percentFullHeight"
+- "_scrollIndicatorContainerRect"
+- "_setupStyling:"
+- "_solariumMaterialForSystemColorName:traitCollection:"
+- "_startChangeToNewEffectiveGeometrySettingValue:"
+- "_trackContentBackSwipeConflictingGesture:"
+- "animateLifted"
+- "blurred"
+- "connector"
+- "connectorElement"
+- "derivedBarElement"
+- "internal "
+- "keyWithName:configuration:"
+- "keyWithName:configuration:bundle:"
+- "keyWithSize:unresolvedTintColor:traitCollection:bold:drawMode:"
+- "keyWithSystemName:private:configuration:"
+- "previousLuma"
+- "visualMode %u -> %u (chamois: %d, initialized: %d, hw kb: %d, sw kb min: %d, custom iv %d, isExternal: %d, kb cam: %d, specialized: %d, wantsAssistant: %d)"
+- "void _saveSceneSessionUserInfo(UISceneSession *__strong, BOOL)"
+- "warpsContentBelowDidChange"
+- "{?=\"allowEdgeBarButtonItemsWithoutGesture\"b1\"delegateWillChangeToDisplayMode\"b1\"delegateDidChangeToDisplayMode\"b1\"delegateWillShowColumn\"b1\"delegateWillHideColumn\"b1\"delegateDidShowColumn\"b1\"delegateDidHideColumn\"b1\"delegateDidCollapse\"b1\"delegateDidExpand\"b1\"delegateTopColumnForCollapsingToProposedTopColumn\"b1\"delegateWillCollapseToProposedTopColumn\"b1\"delegateUnderscoreWillCollapseToProposedTopColumn\"b1\"delegateDisplayModeForExpandingToProposedDisplayMode\"b1\"delegateWillExpandToProposedDisplayMode\"b1\"delegateConstrainPrimaryColumnWidthForResizeWidth\"b1\"delegateConstrainSupplementaryColumnWidthForResizeWidth\"b1\"delegateWillBeginResizingColumn\"b1\"delegateDidEndResizingColumn\"b1\"delegateShowViewController\"b1\"delegateShowDetailViewController\"b1\"delegatePrimaryViewControllerForCollapsingSplitViewController\"b1\"delegatePrimaryViewControllerForExpandingSplitViewController\"b1\"delegateCollapseSecondaryViewControllerOntoPrimaryViewController\"b1\"delegateSeparateSecondaryViewControllerFromPrimaryViewController\"b1\"delegatePreferredSearchColumnForSplitViewController\"b1\"delegateInteractivePresentationGestureWillBegin\"b1\"delegateInteractivePresentationGestureDidEnd\"b1\"delegateDisplayModeButtonViewInColumn\"b1\"forcePrimaryEdgeBarButtonItemHidden\"b1\"forceSecondaryEdgeBarButtonItemHidden\"b1\"hasSuspendedEnforcingColumnPreferencesForSceneResize\"b1\"isLayoutPrepared\"b1\"isPreparingLayout\"b1\"isPreparingLayoutForExpandOrCollapse\"b1\"isSceneResizePermitted\"b1\"isTogglingPrimaryEdgeColumnEnabled\"b1\"isTogglingSecondaryEdgeColumnEnabled\"b1\"isTogglingPresentedColumnEnabled\"b1}"
+- "{?=\"delegateSupportsWindow\"b1\"delegateSupportsSetWindow\"b1\"delegateSupportsDidUpdateCoordinateSpace\"b1\"delegateSupportsDidUpdateEffectiveGeometry\"b1\"isPerformingSystemSnapshot\"b1\"needsScheduleLiveResizeFinishedActionWhenDoneHoldingSnapshot\"b1\"enhancedWindowingEnabled\"I\"holdingLiveResizeSnapshot\"b1\"shouldDisableTouchCancellationOnRotation\"b1\"enqueuedEvaluationOfDisablesMirroring\"b1\"startedEffectiveGeometryChange\"b1}"
+- "{?=\"hasRegisteredImages\"b1\"supportsBlockGeneration\"b1}"
+- "{?=\"size\"b2\"delegateAlwaysNotifiesDelegateOfSegmentClicks\"b1\"momentaryClick\"b1\"tracking\"b1\"autosizeToFitSegments\"b1\"isSizingToFit\"b1\"autosizeText\"b1\"transparentBackground\"b1\"useProportionalWidthSegments\"b1\"translucentBackground\"b1\"appearanceNeedsUpdate\"b1\"selectionIndicatorDragged\"b1\"useInnerSegmentSpacing\"b1\"adjustsForContentSizeCategory\"b1\"focusUpdatedBeforeSelection\"b1\"useDynamicShadow\"b1\"animatingOutDynamicShadow\"b1\"animatingSeleciton\"b1\"animatingHoverOut\"b1\"styleProviderSupportsExtraTraitCollectionChanges\"b1\"styleProviderSupportsFocusWithoutSelection\"b1\"styleProviderSupportsHidingSelectionOnFocusUpdate\"b1\"styleProviderSupportsSegmentHighlightAnimation\"b1\"appCustomizedSelectedVisualEffect\"b1\"overridesCustomInfoViewForSegments\"b1\"styleProviderSupportsFeedbackGeneration\"b1\"styleProviderSupportsLegacyActiveSegmentControl\"b1\"hasBackdropView\"b1\"hasMaterial\"b1\"forceUseGlass\"b1\"backdropIsVisualEffectView\"b1\"shouldPlayFeedback\"b1\"styleProviderSupportsGlassProvider\"b1\"styleProviderWantsLensView\"b1\"styleProviderWantsC2Animation\"b1\"useSpringBoardVibrancy\"b1\"styleProviderWantsFreeSlidingSelection\"b1}"
+- "{?=\"userInteractionDisabled\"b1\"implementsDrawRect\"b1\"implementsDidScroll\"b1\"implementsMouseTracking\"b1\"implementsIntrinsicContentSize\"b1\"hasBackgroundColor\"b1\"hasBackgroundColorSystemColorName\"b1\"hasInteractionTintColor\"b1\"hasOverrideTintColor\"b1\"isOpaque\"b1\"becomeFirstResponderWhenCapable\"b1\"isDeallocInitiated\"b1\"isInUIViewDealloc\"b1\"hasPreparedForWindowDealloc\"b1\"isFirstResponder\"b1\"isAncestorOfFirstResponder\"b1\"dontAutoresizeSubviews\"b1\"autoresizeMask\"b6\"patternBackground\"b1\"fixedBackgroundPattern\"b1\"dontAnimate\"b1\"superLayerIsView\"b1\"layerKitPatternDrawing\"b1\"multipleTouchEnabled\"b1\"exclusiveTouch\"b1\"hasViewController\"b1\"needsDidAppearOrDisappear\"b1\"deliversTouchesForGesturesToSuperview\"b1\"deliversPressesForGesturesToSuperview\"b1\"chargeEnabled\"b1\"skipsSubviewEnumeration\"b1\"needsDisplayOnBoundsChange\"b1\"hasTiledLayer\"b1\"hasContentSizeCategoryLimits\"b1\"traversalMark\"b1\"appearanceIsInvalid\"b1\"monitorsSubtree\"b1\"hostsAutolayoutEngine\"b1\"constraintsAreClean\"b1\"subviewLayoutConstraintsAreClean\"b1\"intrinsicContentSizeConstraintsAreClean\"b1\"strictDescendantNeedsDoubleUpdateConstraints\"b1\"strictDescendantNeedsDoubleUpdateConstraintsIsInvalid\"b1\"hasStoredLayoutEngineWidth\"b1\"determiningWidthForDoubleUpdateConstraints\"b1\"inSecondConstraintsPass\"b1\"potentiallyHasDanglyConstraints\"b1\"doesNotTranslateAutoresizingMaskIntoConstraints\"b1\"autolayoutIsClean\"b1\"autolayoutBoundsAreClean\"b1\"layoutFlushingDisabled\"b1\"layingOutFromConstraints\"b1\"wantsAutolayout\"b1\"subviewWantsAutolayout\"b1\"isApplyingValuesFromEngine\"b1\"autolayoutIsSendingSetBoundsWithNoChanges\"b1\"isResizingDueToParentResize\"b1\"isInLayoutSubviewsOrVCCallback\"b1\"isInUpdateProperties\"b1\"isInAnimatedLayout\"b1\"isSubviewUpdatingAutoresizingConstraints\"b1\"isUpdatingConstraints\"b1\"isReapplyingStillActiveBrokenConstraints\"b1\"isSuppressingUnsatisfiableConstraintsLoggingForNestedLayoutEngines\"b1\"isHostingUpdateConstraintsPassDuringLayout\"b1\"isRunningEngineLevelConstraintsPass\"b1\"isUpdatingLayoutEngineHostConstraints\"b1\"isExpectingToFlushPendingLayoutChangeNotifications\"b1\"invalidatesIntrinsicContentSizeForSubviewAutoLayoutChanges\"b1\"systemLayoutFittingSizeNeedsUpdate\"b1\"systemLayoutFittingSizeNeedsUpdateInWholeSubtree\"b1\"isCalculatingSystemLayoutFittingSize\"b1\"suppressEncapsulationConstraints\"b1\"suppressAutoresizingMaskConstraintsUpdate\"b1\"isFetchingSizeForTAMIC_NOEngineHost\"b1\"internallyHiddenForReason\"b2\"stayHiddenAfterBeingInternallyHiddenForReason\"b1\"skippedPreLayoutWhileInternallyHiddenForReason\"b1\"skippedLayoutWhileInternallyHiddenForReason\"b1\"isPendingHiddenForAnimation\"b1\"hasMaskView\"b1\"isSettingMaskView\"b1\"hasVisualAltitude\"b1\"hasBackdropMaskViews\"b1\"backdropMaskViewFlags\"b5\"delaysTouchesForSystemGestures\"b1\"subclassShouldDelayTouchForSystemGestures\"b1\"hasMotionEffects\"b1\"backdropOverlayMode\"b2\"tintAdjustmentMode\"b2\"isReferenceView\"b1\"focusState\"b2\"hasUserInterfaceIdiom\"b1\"userInterfaceIdiom\"b3\"ancestorDefinesTintColor\"b1\"ancestorDefinesTintAdjustmentMode\"b1\"ancestorIgnoresInvertColors\"b1\"needsUpdateProperties\"b1\"needsTraitCollectionDidChangePropagation\"b1\"isRootOfTraitCollectionDidChangePropagation\"b1\"implementsTraitCollectionForChildEnvironment\"b1\"implementsBaselineOffsetsAtSize\"b1\"coloredViewBounds\"b1\"coloredAlignmentRects\"b1\"preservesSuperviewMargins\"b4\"insettingLayoutMarginsFromSafeArea\"b4\"safeAreaInsetsFrozen\"b1\"viewDelegateContentOverlayInsetsAreClean\"b1\"hasGeometryObservers\"b1\"notifyObserversForBaselineChanges\"b1\"notifySuperviewForBaselineChanges\"b1\"observingGeometryChangesForSelfCount\"b4\"isObservingBoundingPathRotationNotificationsForWindow\"b1\"hasTraitStorageList\"b1\"cachedTraitCollectionIsValid\"b1\"hasTraitOverrides\"b1\"dontUpdateInferredLayoutMargins\"b1\"areLayoutMarginsDirectional\"b1\"implementsViewForBaselineLayout\"b1\"tracksFocusedAncestors\"b1\"hasLayoutArrangements\"b1\"isHiddenManagedByLayoutArrangement\"b1\"hasAddedFocusGuides\"b1\"hasFocusSpeedBumpEdges\"b1\"hasFocusableContentMargins\"b1\"focusInteractionDisabled\"b1\"shouldReverseLayoutDirection\"b1\"cannotBeParentTraitEnvironment\"b1\"needsContentsFormatUpdate\"b1\"accessibilityIgnoresInvertColors\"b1\"ignoresLayerTransformForSafeAreaInsets\"b1\"accessibilityInterfaceStyleIntent\"b2\"accessibilityResolvedInterfaceStyle\"b2\"shouldArchiveUIAppearanceTags\"b1\"wantsDeepColorDrawing\"b1\"preferredContentsFormat\"b3\"sceneDraggingBehaviorOnPan\"b2\"tagEnabled\"b1\"chargeSet\"b1\"ignoreBackdropViewsWhenHiding\"b1\"hasInteractionsArray\"b1\"hasHitTestDirectionalInsets\"b1\"hasLayoutDebuggingIdentifier\"b1\"hasAppIntentsIntelligenceProvider\"b1\"hasContentSizeNotificationToken\"b1\"hasPresentationControllerToNotifyOnLayoutSubviews\"b1\"hasWritingToolsCoordinator\"b1\"semanticContentAttribute\"b3\"hasDynamicBackgroundColor\"b1\"forceEffectiveThemeDidChange\"b1\"allowsHighContrastForBackgroundColor\"b1\"hasPendingTraitStorageConstraints\"b1\"hasPendingLayoutAfterTraitStorageConstraintsUpdate\"b1\"hasEverBeenInAWindow\"b1\"hasFocusGroupIdentifier\"b2\"hasFocusGroupPriority\"b1\"hasFocusEffect\"b2\"conformsToUIFocusItemScrollableContainer\"b2\"allowsSkippingLayout\"b1\"isResolvingTraitCollection\"b1\"needsLayoutAndDisplayOnTintColorChanges\"b1\"subviewNeedsAnimationRestorationMessage\"b1\"isHostingTrackingForAnimationRestoration\"b1\"implementsFocusItemsInRect\"b1\"isPrivateSubview\"b1\"wasPrivateSubview\"b1\"shouldAdaptToMaterials\"b1\"hasMultiLayerDelegate\"b1\"useMinimumSafeArea\"b1\"useMinimumSafeAreaFrozen\"b1\"minimumSafeAreaAccessed\"b1\"minimumSafeAreaIsClassicSafeArea\"b1\"minimumSafeAreaNeedsUpdate\"b1\"mt_hasCustomizedCaptureGroup\"b1\"mt_backgroundMergeBehavior\"b2\"shouldContinueRemovingFromSuperview\"b1\"isMaskingIntermediateLayer\"b1\"hasLayoutRules\"b1\"maskingConfigurationIsInvalid\"b1\"needsCornersUpdate\"b1\"invalidatesCornersForGeometryChange\"b1\"suppressesBackground\"b1\"glassBackgroundNeedsUpdate\"b1\"hasChildrenRequestingSubduing\"b1\"safeAreaCornerAdaptation\"b3}"
+- "{?=\"visualElementIsFluid\"b1\"visualElementRespondsToDidUpdateConfiguration\"b1\"visualElementRespondsToDidUpdateSliderStyle\"b1\"visualElementRespondsToDidSetUserInteractionEnabled\"b1\"visualElementRespondsToDidSetSpeedMultiplier\"b1\"visualElementRespondsToAdditionalTrackingViews\"b1\"visualElementDefersFinalActions\"b1\"visualElementNeedsReevaluationForTrackImages\"b1}"
+- "\xf0\xd2"
+
+```

@@ -1,0 +1,249 @@
+## HeadphoneManager
+
+> `/System/Library/PrivateFrameworks/HeadphoneManager.framework/HeadphoneManager`
+
+```diff
+
+-30.58.1.0.0
+-  __TEXT.__text: 0x123c30
++30.59.1.7.0
++  __TEXT.__text: 0x1272e8
+   __TEXT.__auth_stubs: 0x1560
+   __TEXT.__objc_methlist: 0xfd4
+-  __TEXT.__const: 0x6622
++  __TEXT.__const: 0x67e2
+   __TEXT.__oslogstring: 0x1855
+-  __TEXT.__swift5_typeref: 0x1366
++  __TEXT.__swift5_typeref: 0x13aa
+   __TEXT.__swift5_capture: 0x3254
+-  __TEXT.__constg_swiftt: 0x2c64
+-  __TEXT.__swift5_builtin: 0x3c0
+-  __TEXT.__swift5_reflstr: 0x20ec
+-  __TEXT.__swift5_assocty: 0x638
+-  __TEXT.__cstring: 0x4db6
+-  __TEXT.__swift5_proto: 0x23c
+-  __TEXT.__swift5_types: 0x194
+-  __TEXT.__swift5_fieldmd: 0x1364
++  __TEXT.__constg_swiftt: 0x2d34
++  __TEXT.__swift5_builtin: 0x3e8
++  __TEXT.__swift5_reflstr: 0x213c
++  __TEXT.__swift5_assocty: 0x668
++  __TEXT.__cstring: 0x4e06
++  __TEXT.__swift5_proto: 0x24c
++  __TEXT.__swift5_types: 0x19c
++  __TEXT.__swift5_fieldmd: 0x1388
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift_as_entry: 0x10
+   __TEXT.__swift_as_ret: 0x10
+-  __TEXT.__unwind_info: 0x2410
++  __TEXT.__unwind_info: 0x2488
+   __TEXT.__eh_frame: 0xc24
+   __TEXT.__objc_classname: 0x32
+-  __TEXT.__objc_methname: 0x2aa6
++  __TEXT.__objc_methname: 0x2aca
+   __TEXT.__objc_methtype: 0x9f9
+   __DATA_CONST.__got: 0x4e8
+-  __DATA_CONST.__const: 0x1098
++  __DATA_CONST.__const: 0x10f8
+   __DATA_CONST.__objc_classlist: 0x90
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x48
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xe58
++  __DATA_CONST.__objc_selrefs: 0xe68
+   __DATA_CONST.__objc_protorefs: 0x30
+   __AUTH_CONST.__auth_got: 0xab0
+-  __AUTH_CONST.__const: 0x8e08
+-  __AUTH_CONST.__objc_const: 0x2d78
++  __AUTH_CONST.__const: 0x8e48
++  __AUTH_CONST.__objc_const: 0x2dd8
+   __AUTH.__objc_data: 0x10a0
+   __AUTH.__data: 0x768
+-  __DATA.__data: 0xcf0
+-  __DATA.__bss: 0x4d20
++  __DATA.__data: 0xd50
++  __DATA.__bss: 0x4f70
+   __DATA.__common: 0x7c
+   __DATA_DIRTY.__objc_data: 0x1920
+-  __DATA_DIRTY.__data: 0xfd8
++  __DATA_DIRTY.__data: 0x1080
+   __DATA_DIRTY.__bss: 0xbe8
+   __DATA_DIRTY.__common: 0x90
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 99D5AD70-C429-39E8-B507-906D27471B79
+-  Functions: 7133
+-  Symbols:   15569
+-  CStrings:  1322
++  UUID: 86436712-A4DB-3C34-ACB1-4CB787C2100C
++  Functions: 7217
++  Symbols:   15780
++  CStrings:  1327
+ 
+Symbols:
++ _$s16HeadphoneManager8AADeviceC10IEDEnabledSo0C13PlacementModeVvM
++ _$s16HeadphoneManager8AADeviceC10IEDEnabledSo0C13PlacementModeVvM.resume.0
++ _$s16HeadphoneManager8AADeviceC10IEDEnabledSo0C13PlacementModeVvMTj
++ _$s16HeadphoneManager8AADeviceC10IEDEnabledSo0C13PlacementModeVvMTq
++ _$s16HeadphoneManager8AADeviceC10IEDEnabledSo0C13PlacementModeVvg
++ _$s16HeadphoneManager8AADeviceC10IEDEnabledSo0C13PlacementModeVvgTj
++ _$s16HeadphoneManager8AADeviceC10IEDEnabledSo0C13PlacementModeVvgTq
++ _$s16HeadphoneManager8AADeviceC10IEDEnabledSo0C13PlacementModeVvpACTK
++ _$s16HeadphoneManager8AADeviceC10IEDEnabledSo0C13PlacementModeVvpACTk
++ _$s16HeadphoneManager8AADeviceC10IEDEnabledSo0C13PlacementModeVvpMV
++ _$s16HeadphoneManager8AADeviceC10IEDEnabledSo0C13PlacementModeVvpfP
++ _$s16HeadphoneManager8AADeviceC10IEDEnabledSo0C13PlacementModeVvs
++ _$s16HeadphoneManager8AADeviceC10IEDEnabledSo0C13PlacementModeVvsTj
++ _$s16HeadphoneManager8AADeviceC10IEDEnabledSo0C13PlacementModeVvsTq
++ _$s16HeadphoneManager8AADeviceC11$IEDEnabled7Combine9PublishedV9PublisherVySo0C13PlacementModeV_GvM
++ _$s16HeadphoneManager8AADeviceC11$IEDEnabled7Combine9PublishedV9PublisherVySo0C13PlacementModeV_GvM.resume.0
++ _$s16HeadphoneManager8AADeviceC11$IEDEnabled7Combine9PublishedV9PublisherVySo0C13PlacementModeV_GvMTj
++ _$s16HeadphoneManager8AADeviceC11$IEDEnabled7Combine9PublishedV9PublisherVySo0C13PlacementModeV_GvMTq
++ _$s16HeadphoneManager8AADeviceC11$IEDEnabled7Combine9PublishedV9PublisherVySo0C13PlacementModeV_Gvg
++ _$s16HeadphoneManager8AADeviceC11$IEDEnabled7Combine9PublishedV9PublisherVySo0C13PlacementModeV_GvgTj
++ _$s16HeadphoneManager8AADeviceC11$IEDEnabled7Combine9PublishedV9PublisherVySo0C13PlacementModeV_GvgTq
++ _$s16HeadphoneManager8AADeviceC11$IEDEnabled7Combine9PublishedV9PublisherVySo0C13PlacementModeV_GvpACTK
++ _$s16HeadphoneManager8AADeviceC11$IEDEnabled7Combine9PublishedV9PublisherVySo0C13PlacementModeV_GvpACTk
++ _$s16HeadphoneManager8AADeviceC11$IEDEnabled7Combine9PublishedV9PublisherVySo0C13PlacementModeV_GvpMV
++ _$s16HeadphoneManager8AADeviceC11$IEDEnabled7Combine9PublishedV9PublisherVySo0C13PlacementModeV_Gvs
++ _$s16HeadphoneManager8AADeviceC11$IEDEnabled7Combine9PublishedV9PublisherVySo0C13PlacementModeV_GvsTj
++ _$s16HeadphoneManager8AADeviceC11$IEDEnabled7Combine9PublishedV9PublisherVySo0C13PlacementModeV_GvsTq
++ _$s16HeadphoneManager8AADeviceC11_IEDEnabled33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySo0C13PlacementModeVGvg
++ _$s16HeadphoneManager8AADeviceC11_IEDEnabled33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySo0C13PlacementModeVGvpWvd
++ _$s16HeadphoneManager8AADeviceC11_IEDEnabled33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySo0C13PlacementModeVGvpfi
++ _$s16HeadphoneManager8AADeviceC11_IEDEnabled33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySo0C13PlacementModeVGvs
++ _$s16HeadphoneManager8AADeviceC18primaryInEarStatusSo11AAPlacementVvM
++ _$s16HeadphoneManager8AADeviceC18primaryInEarStatusSo11AAPlacementVvM.resume.0
++ _$s16HeadphoneManager8AADeviceC18primaryInEarStatusSo11AAPlacementVvMTj
++ _$s16HeadphoneManager8AADeviceC18primaryInEarStatusSo11AAPlacementVvMTq
++ _$s16HeadphoneManager8AADeviceC18primaryInEarStatusSo11AAPlacementVvg
++ _$s16HeadphoneManager8AADeviceC18primaryInEarStatusSo11AAPlacementVvgTj
++ _$s16HeadphoneManager8AADeviceC18primaryInEarStatusSo11AAPlacementVvgTq
++ _$s16HeadphoneManager8AADeviceC18primaryInEarStatusSo11AAPlacementVvpACTK
++ _$s16HeadphoneManager8AADeviceC18primaryInEarStatusSo11AAPlacementVvpACTk
++ _$s16HeadphoneManager8AADeviceC18primaryInEarStatusSo11AAPlacementVvpMV
++ _$s16HeadphoneManager8AADeviceC18primaryInEarStatusSo11AAPlacementVvpfP
++ _$s16HeadphoneManager8AADeviceC18primaryInEarStatusSo11AAPlacementVvs
++ _$s16HeadphoneManager8AADeviceC18primaryInEarStatusSo11AAPlacementVvsTj
++ _$s16HeadphoneManager8AADeviceC18primaryInEarStatusSo11AAPlacementVvsTq
++ _$s16HeadphoneManager8AADeviceC19$primaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvM
++ _$s16HeadphoneManager8AADeviceC19$primaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvM.resume.0
++ _$s16HeadphoneManager8AADeviceC19$primaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvMTj
++ _$s16HeadphoneManager8AADeviceC19$primaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvMTq
++ _$s16HeadphoneManager8AADeviceC19$primaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_Gvg
++ _$s16HeadphoneManager8AADeviceC19$primaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvgTj
++ _$s16HeadphoneManager8AADeviceC19$primaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvgTq
++ _$s16HeadphoneManager8AADeviceC19$primaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvpACTK
++ _$s16HeadphoneManager8AADeviceC19$primaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvpACTk
++ _$s16HeadphoneManager8AADeviceC19$primaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvpMV
++ _$s16HeadphoneManager8AADeviceC19$primaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_Gvs
++ _$s16HeadphoneManager8AADeviceC19$primaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvsTj
++ _$s16HeadphoneManager8AADeviceC19$primaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvsTq
++ _$s16HeadphoneManager8AADeviceC19_primaryInEarStatus33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySo11AAPlacementVGvg
++ _$s16HeadphoneManager8AADeviceC19_primaryInEarStatus33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySo11AAPlacementVGvpWvd
++ _$s16HeadphoneManager8AADeviceC19_primaryInEarStatus33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySo11AAPlacementVGvpfi
++ _$s16HeadphoneManager8AADeviceC19_primaryInEarStatus33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySo11AAPlacementVGvs
++ _$s16HeadphoneManager8AADeviceC20secondaryInEarStatusSo11AAPlacementVvM
++ _$s16HeadphoneManager8AADeviceC20secondaryInEarStatusSo11AAPlacementVvM.resume.0
++ _$s16HeadphoneManager8AADeviceC20secondaryInEarStatusSo11AAPlacementVvMTj
++ _$s16HeadphoneManager8AADeviceC20secondaryInEarStatusSo11AAPlacementVvMTq
++ _$s16HeadphoneManager8AADeviceC20secondaryInEarStatusSo11AAPlacementVvg
++ _$s16HeadphoneManager8AADeviceC20secondaryInEarStatusSo11AAPlacementVvgTj
++ _$s16HeadphoneManager8AADeviceC20secondaryInEarStatusSo11AAPlacementVvgTq
++ _$s16HeadphoneManager8AADeviceC20secondaryInEarStatusSo11AAPlacementVvpACTK
++ _$s16HeadphoneManager8AADeviceC20secondaryInEarStatusSo11AAPlacementVvpACTk
++ _$s16HeadphoneManager8AADeviceC20secondaryInEarStatusSo11AAPlacementVvpMV
++ _$s16HeadphoneManager8AADeviceC20secondaryInEarStatusSo11AAPlacementVvpfP
++ _$s16HeadphoneManager8AADeviceC20secondaryInEarStatusSo11AAPlacementVvs
++ _$s16HeadphoneManager8AADeviceC20secondaryInEarStatusSo11AAPlacementVvsTj
++ _$s16HeadphoneManager8AADeviceC20secondaryInEarStatusSo11AAPlacementVvsTq
++ _$s16HeadphoneManager8AADeviceC21$secondaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvM
++ _$s16HeadphoneManager8AADeviceC21$secondaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvM.resume.0
++ _$s16HeadphoneManager8AADeviceC21$secondaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvMTj
++ _$s16HeadphoneManager8AADeviceC21$secondaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvMTq
++ _$s16HeadphoneManager8AADeviceC21$secondaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_Gvg
++ _$s16HeadphoneManager8AADeviceC21$secondaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvgTj
++ _$s16HeadphoneManager8AADeviceC21$secondaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvgTq
++ _$s16HeadphoneManager8AADeviceC21$secondaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvpACTK
++ _$s16HeadphoneManager8AADeviceC21$secondaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvpACTk
++ _$s16HeadphoneManager8AADeviceC21$secondaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvpMV
++ _$s16HeadphoneManager8AADeviceC21$secondaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_Gvs
++ _$s16HeadphoneManager8AADeviceC21$secondaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvsTj
++ _$s16HeadphoneManager8AADeviceC21$secondaryInEarStatus7Combine9PublishedV9PublisherVySo11AAPlacementV_GvsTq
++ _$s16HeadphoneManager8AADeviceC21_secondaryInEarStatus33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySo11AAPlacementVGvg
++ _$s16HeadphoneManager8AADeviceC21_secondaryInEarStatus33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySo11AAPlacementVGvpWvd
++ _$s16HeadphoneManager8AADeviceC21_secondaryInEarStatus33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySo11AAPlacementVGvpfi
++ _$s16HeadphoneManager8AADeviceC21_secondaryInEarStatus33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySo11AAPlacementVGvs
++ _$s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.296
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.292
++ _$s7Combine9PublishedV9PublisherVySo11AAPlacementV_GMD
++ _$s7Combine9PublishedV9PublisherVySo21AADevicePlacementModeV_GMD
++ _$s7Combine9PublishedVySo11AAPlacementVGMD
++ _$s7Combine9PublishedVySo11AAPlacementVGML
++ _$s7Combine9PublishedVySo11AAPlacementVGMa
++ _$s7Combine9PublishedVySo21AADevicePlacementModeVGMD
++ _$s7Combine9PublishedVySo21AADevicePlacementModeVGML
++ _$s7Combine9PublishedVySo21AADevicePlacementModeVGMa
++ _$sSo11AAPlacementV8rawValueABSgs5Int32V_tcfC
++ _$sSo11AAPlacementV8rawValues5Int32Vvg
++ _$sSo11AAPlacementVABSQSCWL
++ _$sSo11AAPlacementVABSQSCWl
++ _$sSo11AAPlacementVABSYSCWL
++ _$sSo11AAPlacementVABSYSCWl
++ _$sSo11AAPlacementVMB
++ _$sSo11AAPlacementVML
++ _$sSo11AAPlacementVMa
++ _$sSo11AAPlacementVMf
++ _$sSo11AAPlacementVMn
++ _$sSo11AAPlacementVSQSCMc
++ _$sSo11AAPlacementVSQSCMcMK
++ _$sSo11AAPlacementVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo11AAPlacementVSYSCMA
++ _$sSo11AAPlacementVSYSCMc
++ _$sSo11AAPlacementVSYSCMcMK
++ _$sSo11AAPlacementVSYSCSY8rawValue03RawC0QzvgTW
++ _$sSo11AAPlacementVSYSCSY8rawValuexSg03RawC0Qz_tcfCTW
++ _$sSo21AADevicePlacementModeV8rawValueABSgs4Int8V_tcfC
++ _$sSo21AADevicePlacementModeV8rawValues4Int8Vvg
++ _$sSo21AADevicePlacementModeVABSQSCWL
++ _$sSo21AADevicePlacementModeVABSQSCWl
++ _$sSo21AADevicePlacementModeVABSYSCWL
++ _$sSo21AADevicePlacementModeVABSYSCWl
++ _$sSo21AADevicePlacementModeVMB
++ _$sSo21AADevicePlacementModeVML
++ _$sSo21AADevicePlacementModeVMa
++ _$sSo21AADevicePlacementModeVMf
++ _$sSo21AADevicePlacementModeVMn
++ _$sSo21AADevicePlacementModeVSQSCMc
++ _$sSo21AADevicePlacementModeVSQSCMcMK
++ _$sSo21AADevicePlacementModeVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo21AADevicePlacementModeVSYSCMA
++ _$sSo21AADevicePlacementModeVSYSCMc
++ _$sSo21AADevicePlacementModeVSYSCMcMK
++ _$sSo21AADevicePlacementModeVSYSCSY8rawValue03RawE0QzvgTW
++ _$sSo21AADevicePlacementModeVSYSCSY8rawValuexSg03RawE0Qz_tcfCTW
++ _symbolic _____ So11AAPlacementV
++ _symbolic _____ So21AADevicePlacementModeV
++ _symbolic _____y_____G 7Combine9PublishedV So11AAPlacementV
++ _symbolic _____y_____G 7Combine9PublishedV So21AADevicePlacementModeV
++ _symbolic _____y______G 7Combine9PublishedV9PublisherV So11AAPlacementV
++ _symbolic _____y______G 7Combine9PublishedV9PublisherV So21AADevicePlacementModeV
+- _$s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.250
+- _$s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.266
+- _$s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.282
+- _$s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.254
+- _$s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.258
+- _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.246
+- _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.262
+- _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.278
+CStrings:
++ "_IEDEnabled"
++ "_primaryInEarStatus"
++ "_secondaryInEarStatus"
++ "primaryPlacement"
++ "secondaryPlacement"
+
+```

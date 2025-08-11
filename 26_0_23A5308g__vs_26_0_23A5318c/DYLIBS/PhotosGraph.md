@@ -1,0 +1,402 @@
+## PhotosGraph
+
+> `/System/Library/PrivateFrameworks/PhotosGraph.framework/PhotosGraph`
+
+```diff
+
+-800.38.103.0.0
+-  __TEXT.__text: 0x628b70
++802.43.190.0.0
++  __TEXT.__text: 0x628c98
+   __TEXT.__auth_stubs: 0x49e0
+   __TEXT.__objc_methlist: 0x2bf6c
+   __TEXT.__const: 0x1b0f8
+
+   __TEXT.__swift5_reflstr: 0x78c2
+   __TEXT.__swift5_fieldmd: 0x8ef0
+   __TEXT.__swift5_assocty: 0x5f0
+-  __TEXT.__oslogstring: 0x27579
++  __TEXT.__oslogstring: 0x2762b
+   __TEXT.__swift5_proto: 0x128c
+   __TEXT.__swift5_types: 0xc4c
+   __TEXT.__swift5_protos: 0xb4
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A3A13441-B50F-3740-9245-496203D7A865
++  UUID: 5962DF51-586C-3C7E-8919-3A3C3FDF297D
+   Functions: 26517
+   Symbols:   56476
+-  CStrings:  30280
++  CStrings:  30283
+ 
+Symbols:
++ ___Block_byref_object_copy_.29843
++ ___Block_byref_object_copy_.30783
++ ___Block_byref_object_copy_.30963
++ ___Block_byref_object_copy_.31375
++ ___Block_byref_object_copy_.31819
++ ___Block_byref_object_copy_.32083
++ ___Block_byref_object_copy_.32406
++ ___Block_byref_object_copy_.32889
++ ___Block_byref_object_copy_.33020
++ ___Block_byref_object_copy_.33311
++ ___Block_byref_object_copy_.36090
++ ___Block_byref_object_copy_.36385
++ ___Block_byref_object_copy_.37869
++ ___Block_byref_object_copy_.38364
++ ___Block_byref_object_copy_.39249
++ ___Block_byref_object_copy_.39477
++ ___Block_byref_object_copy_.42267
++ ___Block_byref_object_copy_.42807
++ ___Block_byref_object_copy_.44144
++ ___Block_byref_object_copy_.47811
++ ___Block_byref_object_copy_.48133
++ ___Block_byref_object_copy_.48263
++ ___Block_byref_object_copy_.48751
++ ___Block_byref_object_copy_.48994
++ ___Block_byref_object_copy_.50864
++ ___Block_byref_object_copy_.51372
++ ___Block_byref_object_copy_.51449
++ ___Block_byref_object_copy_.51591
++ ___Block_byref_object_copy_.52682
++ ___Block_byref_object_copy_.54295
++ ___Block_byref_object_copy_.54608
++ ___Block_byref_object_copy_.55565
++ ___Block_byref_object_copy_.55775
++ ___Block_byref_object_copy_.56356
++ ___Block_byref_object_copy_.59563
++ ___Block_byref_object_copy_.62603
++ ___Block_byref_object_copy_.63030
++ ___Block_byref_object_copy_.63108
++ ___Block_byref_object_copy_.63366
++ ___Block_byref_object_copy_.65070
++ ___Block_byref_object_copy_.65528
++ ___Block_byref_object_copy_.66613
++ ___Block_byref_object_copy_.67460
++ ___Block_byref_object_copy_.68033
++ ___Block_byref_object_copy_.68402
++ ___Block_byref_object_copy_.69432
++ ___Block_byref_object_copy_.69495
++ ___Block_byref_object_copy_.70448
++ ___Block_byref_object_copy_.72257
++ ___Block_byref_object_dispose_.29844
++ ___Block_byref_object_dispose_.30784
++ ___Block_byref_object_dispose_.30964
++ ___Block_byref_object_dispose_.31376
++ ___Block_byref_object_dispose_.31820
++ ___Block_byref_object_dispose_.32084
++ ___Block_byref_object_dispose_.32407
++ ___Block_byref_object_dispose_.32890
++ ___Block_byref_object_dispose_.33021
++ ___Block_byref_object_dispose_.33312
++ ___Block_byref_object_dispose_.36091
++ ___Block_byref_object_dispose_.36386
++ ___Block_byref_object_dispose_.37870
++ ___Block_byref_object_dispose_.38365
++ ___Block_byref_object_dispose_.39250
++ ___Block_byref_object_dispose_.39478
++ ___Block_byref_object_dispose_.42268
++ ___Block_byref_object_dispose_.42808
++ ___Block_byref_object_dispose_.44145
++ ___Block_byref_object_dispose_.47812
++ ___Block_byref_object_dispose_.48134
++ ___Block_byref_object_dispose_.48264
++ ___Block_byref_object_dispose_.48752
++ ___Block_byref_object_dispose_.48995
++ ___Block_byref_object_dispose_.50865
++ ___Block_byref_object_dispose_.51373
++ ___Block_byref_object_dispose_.51450
++ ___Block_byref_object_dispose_.51592
++ ___Block_byref_object_dispose_.52683
++ ___Block_byref_object_dispose_.54296
++ ___Block_byref_object_dispose_.54609
++ ___Block_byref_object_dispose_.55566
++ ___Block_byref_object_dispose_.55776
++ ___Block_byref_object_dispose_.56357
++ ___Block_byref_object_dispose_.59564
++ ___Block_byref_object_dispose_.62604
++ ___Block_byref_object_dispose_.63031
++ ___Block_byref_object_dispose_.63109
++ ___Block_byref_object_dispose_.63367
++ ___Block_byref_object_dispose_.65071
++ ___Block_byref_object_dispose_.65529
++ ___Block_byref_object_dispose_.66614
++ ___Block_byref_object_dispose_.67461
++ ___Block_byref_object_dispose_.68034
++ ___Block_byref_object_dispose_.68403
++ ___Block_byref_object_dispose_.69433
++ ___Block_byref_object_dispose_.69496
++ ___Block_byref_object_dispose_.70449
++ ___Block_byref_object_dispose_.72258
++ ___block_literal_global.256.62040
++ ___block_literal_global.30066
++ ___block_literal_global.30865
++ ___block_literal_global.31126
++ ___block_literal_global.32140
++ ___block_literal_global.32281
++ ___block_literal_global.32627
++ ___block_literal_global.32955
++ ___block_literal_global.33293
++ ___block_literal_global.33581
++ ___block_literal_global.338.40716
++ ___block_literal_global.338.54210
++ ___block_literal_global.33840
++ ___block_literal_global.341.54211
++ ___block_literal_global.34241
++ ___block_literal_global.34404
++ ___block_literal_global.352.54197
++ ___block_literal_global.35498
++ ___block_literal_global.35914
++ ___block_literal_global.36125
++ ___block_literal_global.36389
++ ___block_literal_global.37782
++ ___block_literal_global.38134
++ ___block_literal_global.38694
++ ___block_literal_global.39916
++ ___block_literal_global.40071
++ ___block_literal_global.40641
++ ___block_literal_global.41115
++ ___block_literal_global.41290
++ ___block_literal_global.422.63928
++ ___block_literal_global.42616
++ ___block_literal_global.42854
++ ___block_literal_global.43039
++ ___block_literal_global.43614
++ ___block_literal_global.43776
++ ___block_literal_global.44133
++ ___block_literal_global.44431
++ ___block_literal_global.45368
++ ___block_literal_global.45771
++ ___block_literal_global.47214
++ ___block_literal_global.47603
++ ___block_literal_global.48125
++ ___block_literal_global.48260
++ ___block_literal_global.49713
++ ___block_literal_global.50180
++ ___block_literal_global.51049
++ ___block_literal_global.51585
++ ___block_literal_global.53251
++ ___block_literal_global.54237
++ ___block_literal_global.54949
++ ___block_literal_global.55117
++ ___block_literal_global.55322
++ ___block_literal_global.55758
++ ___block_literal_global.55995
++ ___block_literal_global.56361
++ ___block_literal_global.56402
++ ___block_literal_global.57059
++ ___block_literal_global.57714
++ ___block_literal_global.58026
++ ___block_literal_global.58372
++ ___block_literal_global.59750
++ ___block_literal_global.60291
++ ___block_literal_global.60358
++ ___block_literal_global.61652
++ ___block_literal_global.61904
++ ___block_literal_global.62054
++ ___block_literal_global.62210
++ ___block_literal_global.63072
++ ___block_literal_global.63232
++ ___block_literal_global.63371
++ ___block_literal_global.63903
++ ___block_literal_global.67499
++ ___block_literal_global.69170
++ ___block_literal_global.7.38142
++ ___block_literal_global.7.39924
++ ___block_literal_global.7.41298
++ ___block_literal_global.7.42862
++ ___block_literal_global.7.45376
++ ___block_literal_global.7.69180
++ ___block_literal_global.70452
++ ___block_literal_global.8.63082
++ _initialize.onceToken.30065
+- ___Block_byref_object_copy_.29850
+- ___Block_byref_object_copy_.30782
+- ___Block_byref_object_copy_.30962
+- ___Block_byref_object_copy_.31372
+- ___Block_byref_object_copy_.31816
+- ___Block_byref_object_copy_.32080
+- ___Block_byref_object_copy_.32403
+- ___Block_byref_object_copy_.32886
+- ___Block_byref_object_copy_.33017
+- ___Block_byref_object_copy_.33308
+- ___Block_byref_object_copy_.36088
+- ___Block_byref_object_copy_.36383
+- ___Block_byref_object_copy_.37867
+- ___Block_byref_object_copy_.38362
+- ___Block_byref_object_copy_.39247
+- ___Block_byref_object_copy_.39475
+- ___Block_byref_object_copy_.42265
+- ___Block_byref_object_copy_.42805
+- ___Block_byref_object_copy_.44142
+- ___Block_byref_object_copy_.47808
+- ___Block_byref_object_copy_.48130
+- ___Block_byref_object_copy_.48260
+- ___Block_byref_object_copy_.48748
+- ___Block_byref_object_copy_.48991
+- ___Block_byref_object_copy_.50858
+- ___Block_byref_object_copy_.51366
+- ___Block_byref_object_copy_.51443
+- ___Block_byref_object_copy_.51585
+- ___Block_byref_object_copy_.52676
+- ___Block_byref_object_copy_.54289
+- ___Block_byref_object_copy_.54602
+- ___Block_byref_object_copy_.55559
+- ___Block_byref_object_copy_.55769
+- ___Block_byref_object_copy_.56350
+- ___Block_byref_object_copy_.59557
+- ___Block_byref_object_copy_.62597
+- ___Block_byref_object_copy_.63024
+- ___Block_byref_object_copy_.63102
+- ___Block_byref_object_copy_.63360
+- ___Block_byref_object_copy_.65064
+- ___Block_byref_object_copy_.65522
+- ___Block_byref_object_copy_.66607
+- ___Block_byref_object_copy_.67455
+- ___Block_byref_object_copy_.68029
+- ___Block_byref_object_copy_.68398
+- ___Block_byref_object_copy_.69428
+- ___Block_byref_object_copy_.69491
+- ___Block_byref_object_copy_.70444
+- ___Block_byref_object_copy_.72253
+- ___Block_byref_object_dispose_.29851
+- ___Block_byref_object_dispose_.30783
+- ___Block_byref_object_dispose_.30963
+- ___Block_byref_object_dispose_.31373
+- ___Block_byref_object_dispose_.31817
+- ___Block_byref_object_dispose_.32081
+- ___Block_byref_object_dispose_.32404
+- ___Block_byref_object_dispose_.32887
+- ___Block_byref_object_dispose_.33018
+- ___Block_byref_object_dispose_.33309
+- ___Block_byref_object_dispose_.36089
+- ___Block_byref_object_dispose_.36384
+- ___Block_byref_object_dispose_.37868
+- ___Block_byref_object_dispose_.38363
+- ___Block_byref_object_dispose_.39248
+- ___Block_byref_object_dispose_.39476
+- ___Block_byref_object_dispose_.42266
+- ___Block_byref_object_dispose_.42806
+- ___Block_byref_object_dispose_.44143
+- ___Block_byref_object_dispose_.47809
+- ___Block_byref_object_dispose_.48131
+- ___Block_byref_object_dispose_.48261
+- ___Block_byref_object_dispose_.48749
+- ___Block_byref_object_dispose_.48992
+- ___Block_byref_object_dispose_.50859
+- ___Block_byref_object_dispose_.51367
+- ___Block_byref_object_dispose_.51444
+- ___Block_byref_object_dispose_.51586
+- ___Block_byref_object_dispose_.52677
+- ___Block_byref_object_dispose_.54290
+- ___Block_byref_object_dispose_.54603
+- ___Block_byref_object_dispose_.55560
+- ___Block_byref_object_dispose_.55770
+- ___Block_byref_object_dispose_.56351
+- ___Block_byref_object_dispose_.59558
+- ___Block_byref_object_dispose_.62598
+- ___Block_byref_object_dispose_.63025
+- ___Block_byref_object_dispose_.63103
+- ___Block_byref_object_dispose_.63361
+- ___Block_byref_object_dispose_.65065
+- ___Block_byref_object_dispose_.65523
+- ___Block_byref_object_dispose_.66608
+- ___Block_byref_object_dispose_.67456
+- ___Block_byref_object_dispose_.68030
+- ___Block_byref_object_dispose_.68399
+- ___Block_byref_object_dispose_.69429
+- ___Block_byref_object_dispose_.69492
+- ___Block_byref_object_dispose_.70445
+- ___Block_byref_object_dispose_.72254
+- ___block_literal_global.256.62034
+- ___block_literal_global.30065
+- ___block_literal_global.30864
+- ___block_literal_global.31123
+- ___block_literal_global.32137
+- ___block_literal_global.32278
+- ___block_literal_global.32624
+- ___block_literal_global.32952
+- ___block_literal_global.33290
+- ___block_literal_global.33578
+- ___block_literal_global.338.40714
+- ___block_literal_global.338.54204
+- ___block_literal_global.33837
+- ___block_literal_global.341.54205
+- ___block_literal_global.34239
+- ___block_literal_global.34402
+- ___block_literal_global.352.54191
+- ___block_literal_global.35496
+- ___block_literal_global.35912
+- ___block_literal_global.36123
+- ___block_literal_global.36387
+- ___block_literal_global.37780
+- ___block_literal_global.38132
+- ___block_literal_global.38692
+- ___block_literal_global.39914
+- ___block_literal_global.40069
+- ___block_literal_global.40639
+- ___block_literal_global.41113
+- ___block_literal_global.41288
+- ___block_literal_global.422.63922
+- ___block_literal_global.42614
+- ___block_literal_global.42852
+- ___block_literal_global.43037
+- ___block_literal_global.43612
+- ___block_literal_global.43774
+- ___block_literal_global.44131
+- ___block_literal_global.44429
+- ___block_literal_global.45366
+- ___block_literal_global.45769
+- ___block_literal_global.47212
+- ___block_literal_global.47600
+- ___block_literal_global.48122
+- ___block_literal_global.48257
+- ___block_literal_global.49709
+- ___block_literal_global.50174
+- ___block_literal_global.51043
+- ___block_literal_global.51579
+- ___block_literal_global.53245
+- ___block_literal_global.54231
+- ___block_literal_global.54943
+- ___block_literal_global.55111
+- ___block_literal_global.55316
+- ___block_literal_global.55752
+- ___block_literal_global.55989
+- ___block_literal_global.56355
+- ___block_literal_global.56396
+- ___block_literal_global.57053
+- ___block_literal_global.57708
+- ___block_literal_global.58020
+- ___block_literal_global.58366
+- ___block_literal_global.59744
+- ___block_literal_global.60285
+- ___block_literal_global.60352
+- ___block_literal_global.61646
+- ___block_literal_global.61898
+- ___block_literal_global.62048
+- ___block_literal_global.62204
+- ___block_literal_global.63066
+- ___block_literal_global.63226
+- ___block_literal_global.63365
+- ___block_literal_global.63897
+- ___block_literal_global.67494
+- ___block_literal_global.69166
+- ___block_literal_global.7.38140
+- ___block_literal_global.7.39922
+- ___block_literal_global.7.41296
+- ___block_literal_global.7.42860
+- ___block_literal_global.7.45374
+- ___block_literal_global.7.69176
+- ___block_literal_global.70448
+- ___block_literal_global.8.63076
+- _initialize.onceToken.30064
+Functions:
+~ -[PGManager _isReadyWithError:] : 328 -> 624
+CStrings:
++ "Loaded a usable graph from URL %@, but unexpectedly had a nil graph in this manager"
++ "Loaded graph from URL %@, is graph usable: %@"
++ "Tried and failed to load the graph from URL: %@"
+
+```
