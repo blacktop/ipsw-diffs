@@ -48,6 +48,10 @@
 
 </details>
 
+### KDKs
+
+- [KDK DIFF](KDK.md)
+
 ## MachO
 
 ### 🆕 NEW (2)
@@ -1025,60 +1029,60 @@ CStrings:
 <details>
   <summary><i>View NEW</i></summary>
 
-##### `iboot`
-  - `root@krnww.p1l.plx.sd...2025/08/05@22:05:22`
-  - `iBoot-13822.2.9`
-  - `@$E2Ƃ)f?B`
-  - ` ApplePMUFirmware-608.0.9~867.release`
-  - `W_.v3B.-!K`
-  - `3@6Qu[iUdJ`
-  - `M0#&""""""""`
-  - `j#I,k1)~@z`
-  - `E!?>dr9Lj&`
-  - `I1enU)(4RG`
-  - `eAv4]>|N#Hg`
-  - `MCE FW E001- built on Mon Aug  4 06:34:21 UTC 2025 by root`
-  - `⯖؆5$PL1@ZƢl`
-  - `mCLy4s/[/F`
-  - `=r0Emd|"\~`
-  - `DDDDDDDDDDDD`
-  - `4?tcb<8as'`
-  - `1IIIIIIIIIII!`
-  - `61cd62a0752c2e0becd667889078c556`
-  - `g"YQɲ߅h!`
-  - `%q*ǀ1:?:q`
-  - `-T!Z.jYh,LCŘ`
-  - `ysp2/Fǈk5c`
-##### `iboot_blob28.bin`
-  - `299wR99wr99|b`
-  - `<9w2<9wR<9W`
-  - `:9wR;9wr;9w`
-  - `09wr09wR09`
-  - `r/9wR/9w2/9`
-##### `iboot_blob27.bin`
-  - `=℃=☃=⬃=`
 ##### `iboot_blob29.bin`
-  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpW\`
   - `A1I1V1A2I2LBACCDDDWD0FPFRFWFLSnHu`
-  - `Cb0b1l1b2l2l3b4l4b5l5b6l6b7l7l8l9balabbbd`
   - `!C#C?CRCYX`
   - `0P2PaPmPITC`
+  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpW\`
   - `30BiB0C1C2CiCjCkC0I0KiK0L1L2L3L4L5L6L7L8L9LALBLiLjLkLlLmLnLoLpLqLrLsLtL0PRPdPkPsP1R2RiRjR0SiS0TiT0WiW0XCx`
   - `VKSPSSTSEW0>`
-##### `RTKit.bin`
-  - `smc/crashlog.cpp`
-  - `battery_dynamic_shutdown.cpp`
-  - `DE: invalid checksum SMC %d AP %d`
-  - `charger.cpp`
-  - `DE: correcting shutdown_threshold from %d to %d`
-  - `DE: Checksum becomes valid SMC %d AP %d`
-  - `smc/event_buf.cpp`
-  - `smc/comms.cpp`
+  - `Cb0b1l1b2l2l3b4l4b5l5b6l6b7l7l8l9balabbbd`
+##### `iboot_blob28.bin`
+  - `09wr09wR09`
+  - `299wR99wr99|b`
+  - `:9wR;9wr;9w`
+  - `<9w2<9wR<9W`
+  - `r/9wR/9w2/9`
+##### `iboot`
+  - `@$E2Ƃ)f?B`
+  - `M0#&""""""""`
+  - ` ApplePMUFirmware-608.0.9~867.release`
+  - `eAv4]>|N#Hg`
+  - `W_.v3B.-!K`
+  - `ysp2/Fǈk5c`
+  - `I1enU)(4RG`
+  - `E!?>dr9Lj&`
+  - `61cd62a0752c2e0becd667889078c556`
+  - `iBoot-13822.2.9`
+  - `root@krnww.p1l.plx.sd...2025/08/05@22:05:22`
+  - `-T!Z.jYh,LCŘ`
+  - `MCE FW E001- built on Mon Aug  4 06:34:21 UTC 2025 by root`
+  - `j#I,k1)~@z`
+  - `3@6Qu[iUdJ`
+  - `1IIIIIIIIIII!`
+  - `g"YQɲ߅h!`
+  - `⯖؆5$PL1@ZƢl`
+  - `%q*ǀ1:?:q`
+  - `DDDDDDDDDDDD`
+  - `=r0Emd|"\~`
+  - `4?tcb<8as'`
+  - `mCLy4s/[/F`
 ##### `iboot_blob30.bin`
   - `smc/bms/bms_v1/`
   - `root@Aug 04 2025@00:07:09~.release`
+##### `RTKit.bin`
+  - `DE: invalid checksum SMC %d AP %d`
+  - `smc/crashlog.cpp`
+  - `battery_dynamic_shutdown.cpp`
+  - `DE: Checksum becomes valid SMC %d AP %d`
+  - `charger.cpp`
+  - `smc/comms.cpp`
+  - `DE: correcting shutdown_threshold from %d to %d`
+  - `smc/event_buf.cpp`
 ##### `AppleSMCFirmware.bin`
   - `AppleSMCFirmware_H17-6164.2.8.d93.REL`
+##### `iboot_blob27.bin`
+  - `=℃=☃=⬃=`
 
 </details>
 
@@ -1087,64 +1091,64 @@ CStrings:
 <details>
   <summary><i>View Removed</i></summary>
 
-##### `iboot_blob30.bin`
-  - `smc/event_buf.`
-  - `root@Jul 24 2025@22:47:23~.release`
-  - `DE: invalid checksum SMC %d AP %d`
-  - `smc/comms.cpp`
-  - `DE: correcting shutdown_threshold from %d to %d`
-  - `smc/crashlog.cpp`
-  - `DE: Checksum becomes valid SMC %d AP %d`
-  - `battery_dynamic_shutdown.cpp`
-  - `smc/bms/bms_v1/charger.cpp`
-##### `iboot`
-  - `l!}^uVſ=5`
-  - `˸DWrQd=}-`
-  - `M0#&""""""""""""""""""n`
-  - `B,ae-ĺ*T%K`
-  - `z0Hb_QfTJ5`
-  - `ZU[T[R[Q[P[O-`
-  - `ussqqttvpx`
-  - `PpnkhXu.46`
-  - `']>|t\qL"(b`
-  - `iBoot-13822.0.277.0.3`
-  - ` ApplePMUFirmware-608.0.9~463.release`
-  - `^/TY4Xs@wG`
-  - `:߂ɱǫpi5`
-  - `i_z¢SQT"j`
-  - `%:r  9RGnr%`
-  - `^:xZ5\qDn*B9`
-  - `52f839d5283d0327ef2df831b96bd134`
-  - `eqQ2-&OXeV`
-  - `ERp]œ&d_:Y/y`
-  - `HʎND>[èCU`
-  - `(}F?mnâZv`
-  - `}sqqptsppttpq`
-  - `|NÕS9MtJ+`
-  - `ƚQsR)Hlnb`
-  - `t]V:~KlWǎ`
-  - `MCE FW E001- built on Wed Jul 23 06:55:02 UTC 2025 by root`
-  - `9?mŸO$1\VB`
-  - `root@nx748.p1l.plx.sd...2025/07/26@17:10:24`
-##### `iboot_blob29.bin`
-  - `30BiB0C1C2CiCjCkC0I0KiK0L1L2L3L4L5L6L7L8L9LALBLiLjLkLlLmLnLoLpLqLrLsLtL0PRPdPkPsP1R2RiRjR0SiS0TiT0WiW0XC`
-  - `Cb0b1l1b2l2l3b4l4b5l5b6l6b7l7l8l9balabbbd,k`
-  - `A1I1V1A2I2LBACCDDDWD0FPFRFWFLSnxu`
-  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpW`
-  - `0P2PaPmPITCȟ`
-  - `VKSPSSTSEW0n`
-  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTF`
-##### `iboot_blob27.bin`
-  - `kR99kR)9k299k`
 ##### `RTKit.bin`
   - `noPowerScanTimerHandler:%d`
+##### `iboot_blob27.bin`
+  - `kR99kR)9k299k`
 ##### `AppleSMCFirmware.bin`
   - `AppleSMCFirmware_H17-6164.0.186.0.11.d93.REL`
+##### `iboot`
+  - `ZU[T[R[Q[P[O-`
+  - `MCE FW E001- built on Wed Jul 23 06:55:02 UTC 2025 by root`
+  - `ƚQsR)Hlnb`
+  - `t]V:~KlWǎ`
+  - `']>|t\qL"(b`
+  - `eqQ2-&OXeV`
+  - `l!}^uVſ=5`
+  - `M0#&""""""""""""""""""n`
+  - `HʎND>[èCU`
+  - `9?mŸO$1\VB`
+  - `^/TY4Xs@wG`
+  - `˸DWrQd=}-`
+  - `(}F?mnâZv`
+  - `:߂ɱǫpi5`
+  - `root@nx748.p1l.plx.sd...2025/07/26@17:10:24`
+  - `52f839d5283d0327ef2df831b96bd134`
+  - `PpnkhXu.46`
+  - ` ApplePMUFirmware-608.0.9~463.release`
+  - `}sqqptsppttpq`
+  - `z0Hb_QfTJ5`
+  - `i_z¢SQT"j`
+  - `|NÕS9MtJ+`
+  - `%:r  9RGnr%`
+  - `ERp]œ&d_:Y/y`
+  - `B,ae-ĺ*T%K`
+  - `iBoot-13822.0.277.0.3`
+  - `ussqqttvpx`
+  - `^:xZ5\qDn*B9`
+##### `iboot_blob30.bin`
+  - `DE: correcting shutdown_threshold from %d to %d`
+  - `battery_dynamic_shutdown.cpp`
+  - `smc/event_buf.`
+  - `smc/comms.cpp`
+  - `smc/crashlog.cpp`
+  - `DE: Checksum becomes valid SMC %d AP %d`
+  - `smc/bms/bms_v1/charger.cpp`
+  - `root@Jul 24 2025@22:47:23~.release`
+  - `DE: invalid checksum SMC %d AP %d`
 ##### `iboot_blob28.bin`
-  - `<9w2<9wR<9wr<9w`
-  - `29wr79wR79w`
   - `39wr39wR39`
   - `;9w2;9wR;9v`
+  - `<9w2<9wR<9wr<9w`
+  - `29wr79wR79w`
+##### `iboot_blob29.bin`
+  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTF`
+  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpW`
+  - `A1I1V1A2I2LBACCDDDWD0FPFRFWFLSnxu`
+  - `0P2PaPmPITCȟ`
+  - `Cb0b1l1b2l2l3b4l4b5l5b6l6b7l7l8l9balabbbd,k`
+  - `VKSPSSTSEW0n`
+  - `30BiB0C1C2CiCjCkC0I0KiK0L1L2L3L4L5L6L7L8L9LALBLiLjLkLlLmLnLoLpLqLrLsLtL0PRPdPkPsP1R2RiRjR0SiS0TiT0WiW0XC`
 
 </details>
 
