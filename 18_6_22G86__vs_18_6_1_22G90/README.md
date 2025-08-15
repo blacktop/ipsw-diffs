@@ -1,8 +1,8 @@
-# 18.6 (22G84) .vs 18.6.1 (22G90)
+# 18.6 (22G86) .vs 18.6.1 (22G90)
 
 ## IPSWs
 
-- `iPhone17,1_18.6_22G84_Restore.ipsw`
+- `iPhone17,1_18.6_22G86_Restore.ipsw`
 - `iPhone17,1_18.6.1_22G90_Restore.ipsw`
 
 ## Kernel
@@ -11,18 +11,17 @@
 
 | iOS | Version | Build | Date |
 | :-- | :------ | :---- | :--- |
-| 18.6 *(22G84)* | 24.6.0 | 11417.140.69~16 | Tue, 15Jul2025 21:54:57 PDT |
+| 18.6 *(22G86)* | 24.6.0 | 11417.140.69~16 | Tue, 15Jul2025 21:54:57 PDT |
 | 18.6.1 *(22G90)* | 24.6.0 | 11417.140.69~16 | Tue, 15Jul2025 21:54:57 PDT |
 
 ## MachO
 
-### ⬆️ Updated (66)
+### ⬆️ Updated (63)
 
 <details>
   <summary><i>View Updated</i></summary>
 
 - [/Applications/AirDropUI.app/AirDropUI](MACHOS/AirDropUI.md)
-- [/Applications/AppDistributionLaunchAngel.app/AppDistributionLaunchAngel](MACHOS/AppDistributionLaunchAngel.md)
 - [/Applications/ClarityCamera.app/ClarityCamera](MACHOS/ClarityCamera.md)
 - [/Applications/ClockAngel.app/ClockAngel](MACHOS/ClockAngel.md)
 - [/Applications/CompanionViewService.app/CompanionViewService](MACHOS/CompanionViewService.md)
@@ -51,7 +50,6 @@
 - [/System/Library/NanoPreferenceBundles/General/CompanionAutoLaunchSettings.bundle/CompanionAutoLaunchSettings](MACHOS/CompanionAutoLaunchSettings.md)
 - [/System/Library/NanoTimeKit/ComplicationBundles/DepthComplicationBundleCompanion.bundle/DepthComplicationBundleCompanion](MACHOS/DepthComplicationBundleCompanion.md)
 - [/System/Library/PreferenceBundles/AccessibilitySettings.bundle/AccessibilitySettings](MACHOS/AccessibilitySettings.md)
-- [/System/Library/PreferenceBundles/AppInstallationSettings.bundle/AppInstallationSettings](MACHOS/AppInstallationSettings.md)
 - [/System/Library/PreferenceBundles/JournalSettings.bundle/JournalSettings](MACHOS/JournalSettings.md)
 - [/System/Library/PreferenceBundles/PrivacyAndSecuritySettings.bundle/PrivacyAndSecuritySettings](MACHOS/PrivacyAndSecuritySettings.md)
 - [/System/Library/PreferenceBundles/WallpaperSettings.bundle/WallpaperSettings](MACHOS/WallpaperSettings.md)
@@ -73,7 +71,6 @@
 - [/private/var/staged_system_apps/Journal.app/PlugIns/JournalShareExtension.appex/JournalShareExtension](MACHOS/JournalShareExtension.md)
 - [/private/var/staged_system_apps/Journal.app/PlugIns/JournalWidgets.appex/JournalWidgets](MACHOS/JournalWidgets.md)
 - [/private/var/staged_system_apps/Journal.app/PlugIns/JournalWidgetsSecure.appex/JournalWidgetsSecure](MACHOS/JournalWidgetsSecure.md)
-- [/private/var/staged_system_apps/MobileMail.app/MobileMail](MACHOS/MobileMail.md)
 - [/private/var/staged_system_apps/Music.app/Frameworks/MusicApplication.framework/MusicApplication](MACHOS/MusicApplication.md)
 - [/private/var/staged_system_apps/Music.app/Music](MACHOS/Music.md)
 - [/private/var/staged_system_apps/Music.app/PlugIns/MusicWidgets.appex/MusicWidgets](MACHOS/MusicWidgets.md)
@@ -94,7 +91,7 @@
 
 | iOS | Version |
 | :-- | :------ |
-| 18.6 *(22G84)* | iBoot-11881.140.96 |
+| 18.6 *(22G86)* | iBoot-11881.140.96 |
 | 18.6.1 *(22G90)* | iBoot-11881.140.96 |
 
 ## DSC
@@ -103,7 +100,7 @@
 
 | iOS | Version |
 | :-- | :------ |
-| 18.6 *(22G84)* | 621.3.11.10.3 |
+| 18.6 *(22G86)* | 621.3.11.10.3 |
 | 18.6.1 *(22G90)* | 621.3.11.10.3 |
 
 ### Dylibs
