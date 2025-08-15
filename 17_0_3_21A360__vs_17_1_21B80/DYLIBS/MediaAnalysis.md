@@ -1,0 +1,537 @@
+## MediaAnalysis
+
+> `/System/Library/PrivateFrameworks/MediaAnalysis.framework/MediaAnalysis`
+
+```diff
+
+-165.82.1.2.0
+-  __TEXT.__text: 0x2a95f0
+-  __TEXT.__auth_stubs: 0x2d80
+-  __TEXT.__objc_methlist: 0x15538
++200.8.1.0.0
++  __TEXT.__text: 0x2abb7c
++  __TEXT.__auth_stubs: 0x2da0
++  __TEXT.__objc_methlist: 0x15590
+   __TEXT.__const: 0x13000
+-  __TEXT.__gcc_except_tab: 0x39664
+-  __TEXT.__cstring: 0x1010b
+-  __TEXT.__oslogstring: 0x19bb8
++  __TEXT.__gcc_except_tab: 0x39b78
++  __TEXT.__cstring: 0x101fb
++  __TEXT.__oslogstring: 0x1a051
+   __TEXT.__dlopen_cstrs: 0x4a3
+   __TEXT.__ustring: 0x40
+   __TEXT.__swift5_typeref: 0x4f
+
+   __TEXT.__swift5_reflstr: 0xd
+   __TEXT.__swift5_fieldmd: 0x28
+   __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0xc1a0
++  __TEXT.__unwind_info: 0xc1e4
+   __TEXT.__eh_frame: 0x168
+   __TEXT.__objc_classname: 0x3221
+-  __TEXT.__objc_methname: 0x30ef2
+-  __TEXT.__objc_methtype: 0xb3c8
+-  __TEXT.__objc_stubs: 0x21820
+-  __DATA_CONST.__got: 0xd30
+-  __DATA_CONST.__const: 0x5510
++  __TEXT.__objc_methname: 0x31088
++  __TEXT.__objc_methtype: 0xb407
++  __TEXT.__objc_stubs: 0x21900
++  __DATA_CONST.__got: 0xd38
++  __DATA_CONST.__const: 0x5528
+   __DATA_CONST.__objc_classlist: 0xdd0
+   __DATA_CONST.__objc_catlist: 0x170
+   __DATA_CONST.__objc_protolist: 0x110
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x20838
+-  __DATA_CONST.__objc_selrefs: 0x9d00
+-  __DATA_CONST.__objc_arraydata: 0xd50
++  __DATA_CONST.__objc_const: 0x20858
++  __DATA_CONST.__objc_selrefs: 0x9d48
++  __DATA_CONST.__objc_arraydata: 0xd98
+   __AUTH_CONST.__objc_floatobj: 0x1c0
+   __AUTH_CONST.__objc_const: 0x240
+-  __AUTH_CONST.__cfstring: 0x10520
++  __AUTH_CONST.__cfstring: 0x105c0
+   __AUTH_CONST.__objc_doubleobj: 0x3c0
+-  __AUTH_CONST.__objc_intobj: 0x23d0
+-  __AUTH_CONST.__objc_arrayobj: 0x840
++  __AUTH_CONST.__objc_intobj: 0x2400
++  __AUTH_CONST.__objc_arrayobj: 0x858
+   __AUTH_CONST.__objc_dictobj: 0xa0
+-  __AUTH_CONST.__const: 0x990
+-  __AUTH_CONST.__auth_got: 0x16d8
++  __AUTH_CONST.__const: 0x9b0
++  __AUTH_CONST.__auth_got: 0x16e8
+   __AUTH.__objc_data: 0x140
+   __DATA.__objc_protorefs: 0x48
+   __DATA.__objc_classrefs: 0x1510
+   __DATA.__objc_superrefs: 0xbe8
+-  __DATA.__objc_ivar: 0x2934
++  __DATA.__objc_ivar: 0x2938
+   __DATA.__data: 0x15b0
+   __DATA.__bss: 0x370
+-  __DATA_DIRTY.__const: 0x2110
++  __DATA_DIRTY.__const: 0x20f0
+   __DATA_DIRTY.__objc_const: 0xcb08
+   __DATA_DIRTY.__objc_data: 0x8968
+   __DATA_DIRTY.__data: 0x2c
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 47BDBFCF-0B5D-33BD-9C39-FDEF3EC5B50C
+-  Functions: 9727
+-  Symbols:   35817
+-  CStrings:  15897
++  UUID: 75D696A1-21B8-316F-AA14-0A3BFA0ECD7D
++  Functions: 9736
++  Symbols:   35855
++  CStrings:  15943
+ 
+Symbols:
++ +[VCPFaceAnalyzer _forwardCompatibleFaceSigmaThreshold]
++ +[VCPFaceAnalyzer _forwardCompatibleTorsoSigmaThreshold]
++ +[VCPFaceAnalyzer _smallFaceWarningThreshold]
++ +[VCPSettlingEffectAnalyzer getFramePTSList:before:withOptions:]
++ -[AVAsset(MediaAnalysis) vcp_frameAtTimeStamp:withMaxDimension:]
++ -[PHAsset(VCPPHFaces) vcp_needsFaceProcessing]
++ -[PHPhotoLibrary(MediaAnalysis) mad_pauseFCPeopleFurtherProcessing]
++ -[VCPFaceAnalyzer _processForwardCompatibleFaces:withExistingFaces:orientedWidth:orientedHeight:session:]
++ -[VCPFaceAnalyzer _refineAnalysis:requestHandler:forAsset:resource:orientedWidth:orientedHeight:]
++ -[VCPImageCaptionAnalyzer dealloc]
++ _AVAssetImageGeneratorApertureModeEncodedPixels
++ _MediaAnalysisResultSettlingEffectLivePhotoKeyFrameTimeOutOfBoundFailureKey
++ _MediaAnalysisResultSettlingEffectMinSettlingDurationThresholdFailureKey
++ _OBJC_IVAR_$_VCPSettlingEffectAnalyzer._minSettlingDurationThresholdFailure
++ _VCPMediaAnalysisService_LivePhotoKeyFrameTimestampOption
++ _VNUpgradeFaceprint
++ _VNUpgradeTorsoprint
++ __ZL27CGImage_CreateCVPixelBufferP7CGImagePP10__CVBuffer
++ __ZL27CGImage_CreateCVPixelBufferP7CGImagePP10__CVBuffer.cold.1
++ __ZL27CGImage_CreateCVPixelBufferP7CGImagePP10__CVBuffer.cold.2
++ __ZL27CGImage_CreateCVPixelBufferP7CGImagePP10__CVBuffer.cold.3
++ __ZL27CGImage_CreateCVPixelBufferP7CGImagePP10__CVBuffer.cold.4
++ __ZL27CGImage_CreateCVPixelBufferP7CGImagePP10__CVBuffer.cold.5
++ __ZL27CGImage_CreateCVPixelBufferP7CGImagePP10__CVBuffer.cold.6
++ ___100-[VCPMediaAnalysisService requestVIPModelFilepathForPhotoLibraryURL:forModelType:completionHandler:]_block_invoke.497
++ ___100-[VCPMediaAnalysisService requestVIPModelFilepathForPhotoLibraryURL:forModelType:completionHandler:]_block_invoke_2.498
++ ___100-[VCPMediaAnalysisService requestVIPModelFilepathForPhotoLibraryURL:forModelType:completionHandler:]_block_invoke_3.496
++ ___101-[VCPMediaAnalysisService(InternalTools) requestDumpAutoCounterForPhotoLibraryURL:completionHandler:]_block_invoke.762
++ ___101-[VCPMediaAnalysisService(InternalTools) requestDumpAutoCounterForPhotoLibraryURL:completionHandler:]_block_invoke_2.763
++ ___101-[VCPMediaAnalysisService(InternalTools) requestDumpAutoCounterForPhotoLibraryURL:completionHandler:]_block_invoke_3.761
++ ___101-[VCPMediaAnalysisService(Stickers) requestStaticStickerScoringForLibrary:options:completionHandler:]_block_invoke.855
++ ___101-[VCPMediaAnalysisService(Stickers) requestStaticStickerScoringForLibrary:options:completionHandler:]_block_invoke_2.856
++ ___101-[VCPMediaAnalysisService(Stickers) requestStaticStickerScoringForLibrary:options:completionHandler:]_block_invoke_3.854
++ ___102-[VCPMediaAnalysisService requestMediaAnalysisDatabaseBackupForPhotoLibraryURL:withCompletionHandler:]_block_invoke.505
++ ___102-[VCPMediaAnalysisService requestMediaAnalysisDatabaseBackupForPhotoLibraryURL:withCompletionHandler:]_block_invoke_2.506
++ ___102-[VCPMediaAnalysisService requestMediaAnalysisDatabaseBackupForPhotoLibraryURL:withCompletionHandler:]_block_invoke_3.504
++ ___105-[VCPMediaAnalysisService requestVideoCaptionForFrames:withOptions:progressHandler:andCompletionHandler:]_block_invoke.425
++ ___105-[VCPMediaAnalysisService requestVideoCaptionForFrames:withOptions:progressHandler:andCompletionHandler:]_block_invoke_2.426
++ ___105-[VCPMediaAnalysisService requestVideoCaptionForFrames:withOptions:progressHandler:andCompletionHandler:]_block_invoke_3.424
++ ___106-[VCPMediaAnalysisService requestWallpaperUpgradeAtURL:toDestinationURL:withOptions:andCompletionHandler:]_block_invoke.475
++ ___106-[VCPMediaAnalysisService requestWallpaperUpgradeAtURL:toDestinationURL:withOptions:andCompletionHandler:]_block_invoke_2.476
++ ___106-[VCPMediaAnalysisService requestWallpaperUpgradeAtURL:toDestinationURL:withOptions:andCompletionHandler:]_block_invoke_3.474
++ ___106-[VCPMediaAnalysisService(Moments) requestForceDeferredProcessingWithProgessHandler:andCompletionHandler:]_block_invoke.837
++ ___106-[VCPMediaAnalysisService(Moments) requestForceDeferredProcessingWithProgessHandler:andCompletionHandler:]_block_invoke_2.838
++ ___106-[VCPMediaAnalysisService(Moments) requestForceDeferredProcessingWithProgessHandler:andCompletionHandler:]_block_invoke_3.836
++ ___107-[VCPMediaAnalysisService requestAnalysisTypes:forAssets:withOptions:progressHandler:andCompletionHandler:]_block_invoke.403
++ ___107-[VCPMediaAnalysisService requestAnalysisTypes:forAssets:withOptions:progressHandler:andCompletionHandler:]_block_invoke_2.404
++ ___107-[VCPMediaAnalysisService requestAnalysisTypes:forAssets:withOptions:progressHandler:andCompletionHandler:]_block_invoke_3.402
++ ___109-[VCPMediaAnalysisService requestQuickFaceIdentificationForPhotoLibraryURL:withOptions:andCompletionHandler:]_block_invoke.446
++ ___109-[VCPMediaAnalysisService requestQuickFaceIdentificationForPhotoLibraryURL:withOptions:andCompletionHandler:]_block_invoke_2.447
++ ___109-[VCPMediaAnalysisService requestQuickFaceIdentificationForPhotoLibraryURL:withOptions:andCompletionHandler:]_block_invoke_3.445
++ ___110-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetPersons:forPhotoLibraryURL:completionHandler:]_block_invoke.702
++ ___110-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetPersons:forPhotoLibraryURL:completionHandler:]_block_invoke.704
++ ___110-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetPersons:forPhotoLibraryURL:completionHandler:]_block_invoke_2.703
++ ___110-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetPersons:forPhotoLibraryURL:completionHandler:]_block_invoke_2.705
++ ___114-[VCPMediaAnalysisService requestProcessingWithTaskID:forAssets:withOptions:progressHandler:andCompletionHandler:]_block_invoke.439
++ ___114-[VCPMediaAnalysisService requestProcessingWithTaskID:forAssets:withOptions:progressHandler:andCompletionHandler:]_block_invoke_2.440
++ ___114-[VCPMediaAnalysisService requestProcessingWithTaskID:forAssets:withOptions:progressHandler:andCompletionHandler:]_block_invoke_3.438
++ ___114-[VCPMediaAnalysisService(InternalTools) requestOptInAutoCounterForPhotoLibraryURL:withPersons:completionHandler:]_block_invoke.755
++ ___114-[VCPMediaAnalysisService(InternalTools) requestOptInAutoCounterForPhotoLibraryURL:withPersons:completionHandler:]_block_invoke_2.756
++ ___114-[VCPMediaAnalysisService(InternalTools) requestOptInAutoCounterForPhotoLibraryURL:withPersons:completionHandler:]_block_invoke_3.754
++ ___116-[VCPMediaAnalysisService(InternalTools) requestAutoCounterAccuracyCalculationForPhotoLibraryURL:completionHandler:]_block_invoke.769
++ ___116-[VCPMediaAnalysisService(InternalTools) requestAutoCounterAccuracyCalculationForPhotoLibraryURL:completionHandler:]_block_invoke_2.770
++ ___116-[VCPMediaAnalysisService(InternalTools) requestAutoCounterAccuracyCalculationForPhotoLibraryURL:completionHandler:]_block_invoke_3.768
++ ___117-[VCPMediaAnalysisService(InternalTools) requestReclusterFacesWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke.734
++ ___117-[VCPMediaAnalysisService(InternalTools) requestReclusterFacesWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_2.735
++ ___117-[VCPMediaAnalysisService(InternalTools) requestReclusterFacesWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_3.733
++ ___119-[VCPMediaAnalysisService requestProcessingWithTaskID:forPhotoLibrary:withOptions:progessHandler:andCompletionHandler:]_block_invoke.418
++ ___119-[VCPMediaAnalysisService requestProcessingWithTaskID:forPhotoLibrary:withOptions:progessHandler:andCompletionHandler:]_block_invoke_2.419
++ ___119-[VCPMediaAnalysisService requestProcessingWithTaskID:forPhotoLibrary:withOptions:progessHandler:andCompletionHandler:]_block_invoke_3.417
++ ___122-[VCPMediaAnalysisService requestAnalysisTypes:forAssetWithResourceURLs:withOptions:progressHandler:andCompletionHandler:]_block_invoke.379
++ ___122-[VCPMediaAnalysisService requestAnalysisTypes:forAssetWithResourceURLs:withOptions:progressHandler:andCompletionHandler:]_block_invoke.386
++ ___122-[VCPMediaAnalysisService requestAnalysisTypes:forAssetWithResourceURLs:withOptions:progressHandler:andCompletionHandler:]_block_invoke.390
++ ___122-[VCPMediaAnalysisService requestAnalysisTypes:forAssetWithResourceURLs:withOptions:progressHandler:andCompletionHandler:]_block_invoke_2.387
++ ___122-[VCPMediaAnalysisService requestAnalysisTypes:forAssetWithResourceURLs:withOptions:progressHandler:andCompletionHandler:]_block_invoke_2.391
++ ___122-[VCPMediaAnalysisService requestAnalysisTypes:forAssetWithResourceURLs:withOptions:progressHandler:andCompletionHandler:]_block_invoke_3.389
++ ___125-[VCPMediaAnalysisService(InternalTools) requestClusterCacheValidationWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke.720
++ ___125-[VCPMediaAnalysisService(InternalTools) requestClusterCacheValidationWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_2.721
++ ___125-[VCPMediaAnalysisService(InternalTools) requestClusterCacheValidationWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_3.719
++ ___127-[VCPMediaAnalysisService(InternalTools) requestResetFaceClusteringStateWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke.727
++ ___127-[VCPMediaAnalysisService(InternalTools) requestResetFaceClusteringStateWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_2.728
++ ___127-[VCPMediaAnalysisService(InternalTools) requestResetFaceClusteringStateWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_3.726
++ ___128-[VCPMediaAnalysisService requestBackgroundAnalysisForAssets:fromPhotoLibraryWithURL:realTime:progessHandler:completionHandler:]_block_invoke.410
++ ___128-[VCPMediaAnalysisService requestBackgroundAnalysisForAssets:fromPhotoLibraryWithURL:realTime:progessHandler:completionHandler:]_block_invoke_2.411
++ ___128-[VCPMediaAnalysisService requestBackgroundAnalysisForAssets:fromPhotoLibraryWithURL:realTime:progessHandler:completionHandler:]_block_invoke_3.409
++ ___130-[VCPMediaAnalysisService(InternalTools) requestAutoCounterSIMLValidationForPhotoLibraryURL:simlGroundTruthURL:completionHandler:]_block_invoke.783
++ ___130-[VCPMediaAnalysisService(InternalTools) requestAutoCounterSIMLValidationForPhotoLibraryURL:simlGroundTruthURL:completionHandler:]_block_invoke_2.784
++ ___130-[VCPMediaAnalysisService(InternalTools) requestAutoCounterSIMLValidationForPhotoLibraryURL:simlGroundTruthURL:completionHandler:]_block_invoke_3.782
++ ___133-[VCPMediaAnalysisService(InternalTools) queryAutoCounterOptInStatusForPhotoLibraryURL:withPersonLocalIdentifiers:completionHandler:]_block_invoke.748
++ ___133-[VCPMediaAnalysisService(InternalTools) queryAutoCounterOptInStatusForPhotoLibraryURL:withPersonLocalIdentifiers:completionHandler:]_block_invoke_2.749
++ ___133-[VCPMediaAnalysisService(InternalTools) queryAutoCounterOptInStatusForPhotoLibraryURL:withPersonLocalIdentifiers:completionHandler:]_block_invoke_3.747
++ ___134-[VCPMediaAnalysisService(InternalTools) requestRebuildPersonsWithLocalIdentifiers:photoLibraryURL:progressHandler:completionHandler:]_block_invoke.741
++ ___134-[VCPMediaAnalysisService(InternalTools) requestRebuildPersonsWithLocalIdentifiers:photoLibraryURL:progressHandler:completionHandler:]_block_invoke_2.742
++ ___134-[VCPMediaAnalysisService(InternalTools) requestRebuildPersonsWithLocalIdentifiers:photoLibraryURL:progressHandler:completionHandler:]_block_invoke_3.740
++ ___137-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestPersonProcessingForPhotoLibraryURL:options:progressHandler:completionHandler:]_block_invoke.700
++ ___137-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestPersonProcessingForPhotoLibraryURL:options:progressHandler:completionHandler:]_block_invoke_2.701
++ ___137-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestPersonProcessingForPhotoLibraryURL:options:progressHandler:completionHandler:]_block_invoke_3.699
++ ___140-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetPetClassificationModelForPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke.679
++ ___140-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetPetClassificationModelForPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_2.680
++ ___140-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetPetClassificationModelForPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_3.678
++ ___141-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetFaceClassificationModelForPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke.672
++ ___141-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetFaceClassificationModelForPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_2.673
++ ___141-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetFaceClassificationModelForPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_3.671
++ ___146-[VCPMediaAnalysisService(Hubble) requestProcessingTypes:forAssetsWithLocalIdentifiers:fromPhotoLibraryWithURL:progressHandler:completionHandler:]_block_invoke.803
++ ___146-[VCPMediaAnalysisService(Hubble) requestProcessingTypes:forAssetsWithLocalIdentifiers:fromPhotoLibraryWithURL:progressHandler:completionHandler:]_block_invoke_2.804
++ ___146-[VCPMediaAnalysisService(Hubble) requestProcessingTypes:forAssetsWithLocalIdentifiers:fromPhotoLibraryWithURL:progressHandler:completionHandler:]_block_invoke_3.805
++ ___147-[VCPMediaAnalysisService(InternalTools) requestAutoCounterAccuracyCalculationForPhotoLibraryURL:clusterStateURL:groundTruthURL:completionHandler:]_block_invoke.776
++ ___147-[VCPMediaAnalysisService(InternalTools) requestAutoCounterAccuracyCalculationForPhotoLibraryURL:clusterStateURL:groundTruthURL:completionHandler:]_block_invoke_2.777
++ ___147-[VCPMediaAnalysisService(InternalTools) requestAutoCounterAccuracyCalculationForPhotoLibraryURL:clusterStateURL:groundTruthURL:completionHandler:]_block_invoke_3.775
++ ___147-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestPersonPromoterStatusWithAdvancedFlag:photoLibraryURL:progressHandler:completionHandler:]_block_invoke.693
++ ___147-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestPersonPromoterStatusWithAdvancedFlag:photoLibraryURL:progressHandler:completionHandler:]_block_invoke_2.694
++ ___147-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestPersonPromoterStatusWithAdvancedFlag:photoLibraryURL:progressHandler:completionHandler:]_block_invoke_3.692
++ ___149-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestSuggestedMePersonIdentifierWithContext:photoLibraryURL:progressHandler:completionHandler:]_block_invoke.686
++ ___149-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestSuggestedMePersonIdentifierWithContext:photoLibraryURL:progressHandler:completionHandler:]_block_invoke_2.687
++ ___149-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestSuggestedMePersonIdentifierWithContext:photoLibraryURL:progressHandler:completionHandler:]_block_invoke_3.685
++ ___155-[VCPMediaAnalysisService(FaceSuggestions) requestFaceCandidatesforKeyFaceForPersonsWithLocalIdentifiers:photoLibraryURL:progessHandler:completionHandler:]_block_invoke.659
++ ___155-[VCPMediaAnalysisService(FaceSuggestions) requestFaceCandidatesforKeyFaceForPersonsWithLocalIdentifiers:photoLibraryURL:progessHandler:completionHandler:]_block_invoke_2.660
++ ___155-[VCPMediaAnalysisService(FaceSuggestions) requestFaceCandidatesforKeyFaceForPersonsWithLocalIdentifiers:photoLibraryURL:progessHandler:completionHandler:]_block_invoke_3.658
++ ___156-[VCPMediaAnalysisService(FaceSuggestions) requestUpdateKeyFacesOfPersonsWithLocalIdentifiers:forceUpdate:photoLibraryURL:progessHandler:completionHandler:]_block_invoke.651
++ ___156-[VCPMediaAnalysisService(FaceSuggestions) requestUpdateKeyFacesOfPersonsWithLocalIdentifiers:forceUpdate:photoLibraryURL:progessHandler:completionHandler:]_block_invoke_2.652
++ ___156-[VCPMediaAnalysisService(FaceSuggestions) requestUpdateKeyFacesOfPersonsWithLocalIdentifiers:forceUpdate:photoLibraryURL:progessHandler:completionHandler:]_block_invoke_3.650
++ ___206-[VCPMediaAnalysisService(FaceSuggestions) requestSuggestedPersonsForPersonWithLocalIdentifier:toBeConfirmedPersonSuggestions:toBeRejectedPersonSuggestions:photoLibraryURL:progessHandler:completionHandler:]_block_invoke.643
++ ___206-[VCPMediaAnalysisService(FaceSuggestions) requestSuggestedPersonsForPersonWithLocalIdentifier:toBeConfirmedPersonSuggestions:toBeRejectedPersonSuggestions:photoLibraryURL:progessHandler:completionHandler:]_block_invoke_2.644
++ ___206-[VCPMediaAnalysisService(FaceSuggestions) requestSuggestedPersonsForPersonWithLocalIdentifier:toBeConfirmedPersonSuggestions:toBeRejectedPersonSuggestions:photoLibraryURL:progessHandler:completionHandler:]_block_invoke_3.642
++ ___37-[VCPMediaAnalysisService connection]_block_invoke.373
++ ___51-[VCPMediaAnalysisService cancelBackgroundActivity]_block_invoke.481
++ ___64+[VCPSettlingEffectAnalyzer getFramePTSList:before:withOptions:]_block_invoke
++ ___64-[AVAsset(MediaAnalysis) vcp_frameAtTimeStamp:withMaxDimension:]_block_invoke
++ ___80-[VCPMediaAnalysisService(Moments) requestDeferredProcessingTypes:assets:error:]_block_invoke.828
++ ___84-[VCPMediaAnalysisService(Accessibility) downloadVideoEncoderWithCompletionHandler:]_block_invoke.809
++ ___84-[VCPMediaAnalysisService(Accessibility) downloadVideoEncoderWithCompletionHandler:]_block_invoke_2.810
++ ___86-[VCPMediaAnalysisService(Hubble) requestIdentificationOfFaces:withCompletionHandler:]_block_invoke.798
++ ___86-[VCPMediaAnalysisService(Hubble) requestIdentificationOfFaces:withCompletionHandler:]_block_invoke_2.799
++ ___86-[VCPMediaAnalysisService(Hubble) requestIdentificationOfFaces:withCompletionHandler:]_block_invoke_3.800
++ ___87-[VCPMediaAnalysisService requestPersonPreferenceForPhotoLibraryURL:completionHandler:]_block_invoke.490
++ ___87-[VCPMediaAnalysisService requestPersonPreferenceForPhotoLibraryURL:completionHandler:]_block_invoke_2.491
++ ___87-[VCPMediaAnalysisService requestPersonPreferenceForPhotoLibraryURL:completionHandler:]_block_invoke_3.489
++ ___93-[VCPMediaAnalysisService(Moments) assetsPendingDeferredProcessingWithPhotoLibraryURL:error:]_block_invoke.831
++ ___98-[VCPMediaAnalysisService requestFRCForAssetURL:withOptions:progressHandler:andCompletionHandler:]_block_invoke.457
++ ___98-[VCPMediaAnalysisService requestFRCForAssetURL:withOptions:progressHandler:andCompletionHandler:]_block_invoke.461
++ ___98-[VCPMediaAnalysisService requestFRCForAssetURL:withOptions:progressHandler:andCompletionHandler:]_block_invoke_2.458
++ ___98-[VCPMediaAnalysisService requestFRCForAssetURL:withOptions:progressHandler:andCompletionHandler:]_block_invoke_2.462
++ ___98-[VCPMediaAnalysisService requestFRCForAssetURL:withOptions:progressHandler:andCompletionHandler:]_block_invoke_3.463
++ ___99-[VCPMediaAnalysisService requestRecentsProcessing:photoLibrary:progressHandler:completionHandler:]_block_invoke.432
++ ___99-[VCPMediaAnalysisService requestRecentsProcessing:photoLibrary:progressHandler:completionHandler:]_block_invoke_2.433
++ ___99-[VCPMediaAnalysisService requestRecentsProcessing:photoLibrary:progressHandler:completionHandler:]_block_invoke_3.431
++ ___block_literal_global.1005
++ ___block_literal_global.1079
++ ___block_literal_global.1565
++ ___block_literal_global.1858
++ ___block_literal_global.1940
++ ___block_literal_global.372
++ ___block_literal_global.382
++ ___block_literal_global.399
++ ___block_literal_global.406
++ ___block_literal_global.414
++ ___block_literal_global.428
++ ___block_literal_global.435
++ ___block_literal_global.460
++ ___block_literal_global.471
++ ___block_literal_global.478
++ ___block_literal_global.486
++ ___block_literal_global.493
++ ___block_literal_global.501
++ ___block_literal_global.639
++ ___block_literal_global.647
++ ___block_literal_global.655
++ ___block_literal_global.668
++ ___block_literal_global.675
++ ___block_literal_global.682
++ ___block_literal_global.689
++ ___block_literal_global.696
++ ___block_literal_global.716
++ ___block_literal_global.723
++ ___block_literal_global.730
++ ___block_literal_global.737
++ ___block_literal_global.744
++ ___block_literal_global.751
++ ___block_literal_global.758
++ ___block_literal_global.765
++ ___block_literal_global.772
++ ___block_literal_global.779
++ ___block_literal_global.797
++ ___block_literal_global.802
++ ___block_literal_global.833
++ ___block_literal_global.851
++ __unnamed_array_storage.1938
++ __unnamed_array_storage.254
++ __unnamed_array_storage.263
++ __unnamed_array_storage.492
++ _objc_msgSend$_processForwardCompatibleFaces:withExistingFaces:orientedWidth:orientedHeight:session:
++ _objc_msgSend$_refineAnalysis:requestHandler:forAsset:resource:orientedWidth:orientedHeight:
++ _objc_msgSend$_smallFaceWarningThreshold
++ _objc_msgSend$faceAnalysisVersion
++ _objc_msgSend$generateMaskedImageOfInstances:fromRequestHandler:inPlace:croppedToInstancesExtent:returnCropRect:error:
++ _objc_msgSend$getFramePTSList:before:withOptions:
++ _objc_msgSend$initWithSurface:cropRect:
++ _objc_msgSend$mad_pauseFCPeopleFurtherProcessing
++ _objc_msgSend$setApertureMode:
++ _objc_msgSend$vcp_frameAtTimeStamp:withMaxDimension:
++ _objc_msgSend$vcp_needsFaceProcessing
+- +[VCPSettlingEffectAnalyzer getFramePTSList:before:]
+- -[PHAsset(VCPPHFaces) vcp_needFaceProcessing]
+- -[VCPFaceAnalyzer refineAnalysis:requestHandler:forAsset:orientedWidth:orientedHeight:]
+- ___100-[VCPMediaAnalysisService requestVIPModelFilepathForPhotoLibraryURL:forModelType:completionHandler:]_block_invoke.491
+- ___100-[VCPMediaAnalysisService requestVIPModelFilepathForPhotoLibraryURL:forModelType:completionHandler:]_block_invoke_2.492
+- ___100-[VCPMediaAnalysisService requestVIPModelFilepathForPhotoLibraryURL:forModelType:completionHandler:]_block_invoke_3.493
+- ___101-[VCPMediaAnalysisService(InternalTools) requestDumpAutoCounterForPhotoLibraryURL:completionHandler:]_block_invoke.756
+- ___101-[VCPMediaAnalysisService(InternalTools) requestDumpAutoCounterForPhotoLibraryURL:completionHandler:]_block_invoke_2.757
+- ___101-[VCPMediaAnalysisService(InternalTools) requestDumpAutoCounterForPhotoLibraryURL:completionHandler:]_block_invoke_3.758
+- ___101-[VCPMediaAnalysisService(Stickers) requestStaticStickerScoringForLibrary:options:completionHandler:]_block_invoke.849
+- ___101-[VCPMediaAnalysisService(Stickers) requestStaticStickerScoringForLibrary:options:completionHandler:]_block_invoke_2.850
+- ___101-[VCPMediaAnalysisService(Stickers) requestStaticStickerScoringForLibrary:options:completionHandler:]_block_invoke_3.851
+- ___102-[VCPMediaAnalysisService requestMediaAnalysisDatabaseBackupForPhotoLibraryURL:withCompletionHandler:]_block_invoke.499
+- ___102-[VCPMediaAnalysisService requestMediaAnalysisDatabaseBackupForPhotoLibraryURL:withCompletionHandler:]_block_invoke_2.500
+- ___102-[VCPMediaAnalysisService requestMediaAnalysisDatabaseBackupForPhotoLibraryURL:withCompletionHandler:]_block_invoke_3.501
+- ___105-[VCPMediaAnalysisService requestVideoCaptionForFrames:withOptions:progressHandler:andCompletionHandler:]_block_invoke.419
+- ___105-[VCPMediaAnalysisService requestVideoCaptionForFrames:withOptions:progressHandler:andCompletionHandler:]_block_invoke_2.420
+- ___105-[VCPMediaAnalysisService requestVideoCaptionForFrames:withOptions:progressHandler:andCompletionHandler:]_block_invoke_3.421
+- ___106-[VCPMediaAnalysisService requestWallpaperUpgradeAtURL:toDestinationURL:withOptions:andCompletionHandler:]_block_invoke.469
+- ___106-[VCPMediaAnalysisService requestWallpaperUpgradeAtURL:toDestinationURL:withOptions:andCompletionHandler:]_block_invoke_2.470
+- ___106-[VCPMediaAnalysisService requestWallpaperUpgradeAtURL:toDestinationURL:withOptions:andCompletionHandler:]_block_invoke_3.471
+- ___106-[VCPMediaAnalysisService(Moments) requestForceDeferredProcessingWithProgessHandler:andCompletionHandler:]_block_invoke.831
+- ___106-[VCPMediaAnalysisService(Moments) requestForceDeferredProcessingWithProgessHandler:andCompletionHandler:]_block_invoke_2.832
+- ___106-[VCPMediaAnalysisService(Moments) requestForceDeferredProcessingWithProgessHandler:andCompletionHandler:]_block_invoke_3.833
+- ___107-[VCPMediaAnalysisService requestAnalysisTypes:forAssets:withOptions:progressHandler:andCompletionHandler:]_block_invoke.397
+- ___107-[VCPMediaAnalysisService requestAnalysisTypes:forAssets:withOptions:progressHandler:andCompletionHandler:]_block_invoke_2.398
+- ___107-[VCPMediaAnalysisService requestAnalysisTypes:forAssets:withOptions:progressHandler:andCompletionHandler:]_block_invoke_3.399
+- ___109-[VCPMediaAnalysisService requestQuickFaceIdentificationForPhotoLibraryURL:withOptions:andCompletionHandler:]_block_invoke.440
+- ___109-[VCPMediaAnalysisService requestQuickFaceIdentificationForPhotoLibraryURL:withOptions:andCompletionHandler:]_block_invoke_2.441
+- ___109-[VCPMediaAnalysisService requestQuickFaceIdentificationForPhotoLibraryURL:withOptions:andCompletionHandler:]_block_invoke_3.442
+- ___110-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetPersons:forPhotoLibraryURL:completionHandler:]_block_invoke.699
+- ___110-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetPersons:forPhotoLibraryURL:completionHandler:]_block_invoke.701
+- ___110-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetPersons:forPhotoLibraryURL:completionHandler:]_block_invoke_2.700
+- ___110-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetPersons:forPhotoLibraryURL:completionHandler:]_block_invoke_2.702
+- ___114-[VCPMediaAnalysisService requestProcessingWithTaskID:forAssets:withOptions:progressHandler:andCompletionHandler:]_block_invoke.433
+- ___114-[VCPMediaAnalysisService requestProcessingWithTaskID:forAssets:withOptions:progressHandler:andCompletionHandler:]_block_invoke_2.434
+- ___114-[VCPMediaAnalysisService requestProcessingWithTaskID:forAssets:withOptions:progressHandler:andCompletionHandler:]_block_invoke_3.435
+- ___114-[VCPMediaAnalysisService(InternalTools) requestOptInAutoCounterForPhotoLibraryURL:withPersons:completionHandler:]_block_invoke.749
+- ___114-[VCPMediaAnalysisService(InternalTools) requestOptInAutoCounterForPhotoLibraryURL:withPersons:completionHandler:]_block_invoke_2.750
+- ___114-[VCPMediaAnalysisService(InternalTools) requestOptInAutoCounterForPhotoLibraryURL:withPersons:completionHandler:]_block_invoke_3.751
+- ___116-[VCPMediaAnalysisService(InternalTools) requestAutoCounterAccuracyCalculationForPhotoLibraryURL:completionHandler:]_block_invoke.763
+- ___116-[VCPMediaAnalysisService(InternalTools) requestAutoCounterAccuracyCalculationForPhotoLibraryURL:completionHandler:]_block_invoke_2.764
+- ___116-[VCPMediaAnalysisService(InternalTools) requestAutoCounterAccuracyCalculationForPhotoLibraryURL:completionHandler:]_block_invoke_3.765
+- ___117-[VCPMediaAnalysisService(InternalTools) requestReclusterFacesWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke.728
+- ___117-[VCPMediaAnalysisService(InternalTools) requestReclusterFacesWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_2.729
+- ___117-[VCPMediaAnalysisService(InternalTools) requestReclusterFacesWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_3.730
+- ___119-[VCPMediaAnalysisService requestProcessingWithTaskID:forPhotoLibrary:withOptions:progessHandler:andCompletionHandler:]_block_invoke.412
+- ___119-[VCPMediaAnalysisService requestProcessingWithTaskID:forPhotoLibrary:withOptions:progessHandler:andCompletionHandler:]_block_invoke_2.413
+- ___119-[VCPMediaAnalysisService requestProcessingWithTaskID:forPhotoLibrary:withOptions:progessHandler:andCompletionHandler:]_block_invoke_3.414
+- ___122-[VCPMediaAnalysisService requestAnalysisTypes:forAssetWithResourceURLs:withOptions:progressHandler:andCompletionHandler:]_block_invoke.376
+- ___122-[VCPMediaAnalysisService requestAnalysisTypes:forAssetWithResourceURLs:withOptions:progressHandler:andCompletionHandler:]_block_invoke.383
+- ___122-[VCPMediaAnalysisService requestAnalysisTypes:forAssetWithResourceURLs:withOptions:progressHandler:andCompletionHandler:]_block_invoke.387
+- ___122-[VCPMediaAnalysisService requestAnalysisTypes:forAssetWithResourceURLs:withOptions:progressHandler:andCompletionHandler:]_block_invoke_2.384
+- ___122-[VCPMediaAnalysisService requestAnalysisTypes:forAssetWithResourceURLs:withOptions:progressHandler:andCompletionHandler:]_block_invoke_2.388
+- ___122-[VCPMediaAnalysisService requestAnalysisTypes:forAssetWithResourceURLs:withOptions:progressHandler:andCompletionHandler:]_block_invoke_3.386
+- ___125-[VCPMediaAnalysisService(InternalTools) requestClusterCacheValidationWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke.714
+- ___125-[VCPMediaAnalysisService(InternalTools) requestClusterCacheValidationWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_2.715
+- ___125-[VCPMediaAnalysisService(InternalTools) requestClusterCacheValidationWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_3.716
+- ___127-[VCPMediaAnalysisService(InternalTools) requestResetFaceClusteringStateWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke.721
+- ___127-[VCPMediaAnalysisService(InternalTools) requestResetFaceClusteringStateWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_2.722
+- ___127-[VCPMediaAnalysisService(InternalTools) requestResetFaceClusteringStateWithPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_3.723
+- ___128-[VCPMediaAnalysisService requestBackgroundAnalysisForAssets:fromPhotoLibraryWithURL:realTime:progessHandler:completionHandler:]_block_invoke.404
+- ___128-[VCPMediaAnalysisService requestBackgroundAnalysisForAssets:fromPhotoLibraryWithURL:realTime:progessHandler:completionHandler:]_block_invoke_2.405
+- ___128-[VCPMediaAnalysisService requestBackgroundAnalysisForAssets:fromPhotoLibraryWithURL:realTime:progessHandler:completionHandler:]_block_invoke_3.406
+- ___130-[VCPMediaAnalysisService(InternalTools) requestAutoCounterSIMLValidationForPhotoLibraryURL:simlGroundTruthURL:completionHandler:]_block_invoke.777
+- ___130-[VCPMediaAnalysisService(InternalTools) requestAutoCounterSIMLValidationForPhotoLibraryURL:simlGroundTruthURL:completionHandler:]_block_invoke_2.778
+- ___130-[VCPMediaAnalysisService(InternalTools) requestAutoCounterSIMLValidationForPhotoLibraryURL:simlGroundTruthURL:completionHandler:]_block_invoke_3.779
+- ___133-[VCPMediaAnalysisService(InternalTools) queryAutoCounterOptInStatusForPhotoLibraryURL:withPersonLocalIdentifiers:completionHandler:]_block_invoke.742
+- ___133-[VCPMediaAnalysisService(InternalTools) queryAutoCounterOptInStatusForPhotoLibraryURL:withPersonLocalIdentifiers:completionHandler:]_block_invoke_2.743
+- ___133-[VCPMediaAnalysisService(InternalTools) queryAutoCounterOptInStatusForPhotoLibraryURL:withPersonLocalIdentifiers:completionHandler:]_block_invoke_3.744
+- ___134-[VCPMediaAnalysisService(InternalTools) requestRebuildPersonsWithLocalIdentifiers:photoLibraryURL:progressHandler:completionHandler:]_block_invoke.735
+- ___134-[VCPMediaAnalysisService(InternalTools) requestRebuildPersonsWithLocalIdentifiers:photoLibraryURL:progressHandler:completionHandler:]_block_invoke_2.736
+- ___134-[VCPMediaAnalysisService(InternalTools) requestRebuildPersonsWithLocalIdentifiers:photoLibraryURL:progressHandler:completionHandler:]_block_invoke_3.737
+- ___137-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestPersonProcessingForPhotoLibraryURL:options:progressHandler:completionHandler:]_block_invoke.694
+- ___137-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestPersonProcessingForPhotoLibraryURL:options:progressHandler:completionHandler:]_block_invoke_2.695
+- ___137-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestPersonProcessingForPhotoLibraryURL:options:progressHandler:completionHandler:]_block_invoke_3.696
+- ___140-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetPetClassificationModelForPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke.673
+- ___140-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetPetClassificationModelForPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_2.674
+- ___140-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetPetClassificationModelForPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_3.675
+- ___141-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetFaceClassificationModelForPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke.666
+- ___141-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetFaceClassificationModelForPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_2.667
+- ___141-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestResetFaceClassificationModelForPhotoLibraryURL:progressHandler:completionHandler:]_block_invoke_3.668
+- ___146-[VCPMediaAnalysisService(Hubble) requestProcessingTypes:forAssetsWithLocalIdentifiers:fromPhotoLibraryWithURL:progressHandler:completionHandler:]_block_invoke.800
+- ___146-[VCPMediaAnalysisService(Hubble) requestProcessingTypes:forAssetsWithLocalIdentifiers:fromPhotoLibraryWithURL:progressHandler:completionHandler:]_block_invoke_2.801
+- ___146-[VCPMediaAnalysisService(Hubble) requestProcessingTypes:forAssetsWithLocalIdentifiers:fromPhotoLibraryWithURL:progressHandler:completionHandler:]_block_invoke_3.802
+- ___147-[VCPMediaAnalysisService(InternalTools) requestAutoCounterAccuracyCalculationForPhotoLibraryURL:clusterStateURL:groundTruthURL:completionHandler:]_block_invoke.770
+- ___147-[VCPMediaAnalysisService(InternalTools) requestAutoCounterAccuracyCalculationForPhotoLibraryURL:clusterStateURL:groundTruthURL:completionHandler:]_block_invoke_2.771
+- ___147-[VCPMediaAnalysisService(InternalTools) requestAutoCounterAccuracyCalculationForPhotoLibraryURL:clusterStateURL:groundTruthURL:completionHandler:]_block_invoke_3.772
+- ___147-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestPersonPromoterStatusWithAdvancedFlag:photoLibraryURL:progressHandler:completionHandler:]_block_invoke.687
+- ___147-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestPersonPromoterStatusWithAdvancedFlag:photoLibraryURL:progressHandler:completionHandler:]_block_invoke_2.688
+- ___147-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestPersonPromoterStatusWithAdvancedFlag:photoLibraryURL:progressHandler:completionHandler:]_block_invoke_3.689
+- ___149-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestSuggestedMePersonIdentifierWithContext:photoLibraryURL:progressHandler:completionHandler:]_block_invoke.680
+- ___149-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestSuggestedMePersonIdentifierWithContext:photoLibraryURL:progressHandler:completionHandler:]_block_invoke_2.681
+- ___149-[VCPMediaAnalysisService(PersonBuilderAndPromoter) requestSuggestedMePersonIdentifierWithContext:photoLibraryURL:progressHandler:completionHandler:]_block_invoke_3.682
+- ___155-[VCPMediaAnalysisService(FaceSuggestions) requestFaceCandidatesforKeyFaceForPersonsWithLocalIdentifiers:photoLibraryURL:progessHandler:completionHandler:]_block_invoke.653
+- ___155-[VCPMediaAnalysisService(FaceSuggestions) requestFaceCandidatesforKeyFaceForPersonsWithLocalIdentifiers:photoLibraryURL:progessHandler:completionHandler:]_block_invoke_2.654
+- ___155-[VCPMediaAnalysisService(FaceSuggestions) requestFaceCandidatesforKeyFaceForPersonsWithLocalIdentifiers:photoLibraryURL:progessHandler:completionHandler:]_block_invoke_3.655
+- ___156-[VCPMediaAnalysisService(FaceSuggestions) requestUpdateKeyFacesOfPersonsWithLocalIdentifiers:forceUpdate:photoLibraryURL:progessHandler:completionHandler:]_block_invoke.645
+- ___156-[VCPMediaAnalysisService(FaceSuggestions) requestUpdateKeyFacesOfPersonsWithLocalIdentifiers:forceUpdate:photoLibraryURL:progessHandler:completionHandler:]_block_invoke_2.646
+- ___156-[VCPMediaAnalysisService(FaceSuggestions) requestUpdateKeyFacesOfPersonsWithLocalIdentifiers:forceUpdate:photoLibraryURL:progessHandler:completionHandler:]_block_invoke_3.647
+- ___206-[VCPMediaAnalysisService(FaceSuggestions) requestSuggestedPersonsForPersonWithLocalIdentifier:toBeConfirmedPersonSuggestions:toBeRejectedPersonSuggestions:photoLibraryURL:progessHandler:completionHandler:]_block_invoke.637
+- ___206-[VCPMediaAnalysisService(FaceSuggestions) requestSuggestedPersonsForPersonWithLocalIdentifier:toBeConfirmedPersonSuggestions:toBeRejectedPersonSuggestions:photoLibraryURL:progessHandler:completionHandler:]_block_invoke_2.638
+- ___206-[VCPMediaAnalysisService(FaceSuggestions) requestSuggestedPersonsForPersonWithLocalIdentifier:toBeConfirmedPersonSuggestions:toBeRejectedPersonSuggestions:photoLibraryURL:progessHandler:completionHandler:]_block_invoke_3.639
+- ___37-[VCPMediaAnalysisService connection]_block_invoke.370
+- ___51-[VCPMediaAnalysisService cancelBackgroundActivity]_block_invoke.478
+- ___52+[VCPSettlingEffectAnalyzer getFramePTSList:before:]_block_invoke
+- ___55-[AVAsset(MediaAnalysis) vcp_keyFrameWithMaxDimension:]_block_invoke.cold.1
+- ___55-[AVAsset(MediaAnalysis) vcp_keyFrameWithMaxDimension:]_block_invoke.cold.2
+- ___55-[AVAsset(MediaAnalysis) vcp_keyFrameWithMaxDimension:]_block_invoke.cold.3
+- ___55-[AVAsset(MediaAnalysis) vcp_keyFrameWithMaxDimension:]_block_invoke.cold.4
+- ___55-[AVAsset(MediaAnalysis) vcp_keyFrameWithMaxDimension:]_block_invoke.cold.5
+- ___55-[AVAsset(MediaAnalysis) vcp_keyFrameWithMaxDimension:]_block_invoke.cold.6
+- ___80-[VCPMediaAnalysisService(Moments) requestDeferredProcessingTypes:assets:error:]_block_invoke.822
+- ___84-[VCPMediaAnalysisService(Accessibility) downloadVideoEncoderWithCompletionHandler:]_block_invoke.806
+- ___84-[VCPMediaAnalysisService(Accessibility) downloadVideoEncoderWithCompletionHandler:]_block_invoke_2.807
+- ___86-[VCPMediaAnalysisService(Hubble) requestIdentificationOfFaces:withCompletionHandler:]_block_invoke.795
+- ___86-[VCPMediaAnalysisService(Hubble) requestIdentificationOfFaces:withCompletionHandler:]_block_invoke_2.796
+- ___86-[VCPMediaAnalysisService(Hubble) requestIdentificationOfFaces:withCompletionHandler:]_block_invoke_3.797
+- ___87-[VCPMediaAnalysisService requestPersonPreferenceForPhotoLibraryURL:completionHandler:]_block_invoke.484
+- ___87-[VCPMediaAnalysisService requestPersonPreferenceForPhotoLibraryURL:completionHandler:]_block_invoke_2.485
+- ___87-[VCPMediaAnalysisService requestPersonPreferenceForPhotoLibraryURL:completionHandler:]_block_invoke_3.486
+- ___93-[VCPMediaAnalysisService(Moments) assetsPendingDeferredProcessingWithPhotoLibraryURL:error:]_block_invoke.828
+- ___98-[VCPMediaAnalysisService requestFRCForAssetURL:withOptions:progressHandler:andCompletionHandler:]_block_invoke.454
+- ___98-[VCPMediaAnalysisService requestFRCForAssetURL:withOptions:progressHandler:andCompletionHandler:]_block_invoke.458
+- ___98-[VCPMediaAnalysisService requestFRCForAssetURL:withOptions:progressHandler:andCompletionHandler:]_block_invoke_2.455
+- ___98-[VCPMediaAnalysisService requestFRCForAssetURL:withOptions:progressHandler:andCompletionHandler:]_block_invoke_2.459
+- ___98-[VCPMediaAnalysisService requestFRCForAssetURL:withOptions:progressHandler:andCompletionHandler:]_block_invoke_3.460
+- ___99-[VCPMediaAnalysisService requestRecentsProcessing:photoLibrary:progressHandler:completionHandler:]_block_invoke.426
+- ___99-[VCPMediaAnalysisService requestRecentsProcessing:photoLibrary:progressHandler:completionHandler:]_block_invoke_2.427
+- ___99-[VCPMediaAnalysisService requestRecentsProcessing:photoLibrary:progressHandler:completionHandler:]_block_invoke_3.428
+- ___block_literal_global.1073
+- ___block_literal_global.1559
+- ___block_literal_global.1852
+- ___block_literal_global.1934
+- ___block_literal_global.369
+- ___block_literal_global.379
+- ___block_literal_global.403
+- ___block_literal_global.425
+- ___block_literal_global.432
+- ___block_literal_global.439
+- ___block_literal_global.457
+- ___block_literal_global.468
+- ___block_literal_global.475
+- ___block_literal_global.490
+- ___block_literal_global.498
+- ___block_literal_global.636
+- ___block_literal_global.644
+- ___block_literal_global.652
+- ___block_literal_global.665
+- ___block_literal_global.672
+- ___block_literal_global.679
+- ___block_literal_global.686
+- ___block_literal_global.693
+- ___block_literal_global.713
+- ___block_literal_global.720
+- ___block_literal_global.727
+- ___block_literal_global.734
+- ___block_literal_global.741
+- ___block_literal_global.748
+- ___block_literal_global.755
+- ___block_literal_global.762
+- ___block_literal_global.769
+- ___block_literal_global.776
+- ___block_literal_global.794
+- ___block_literal_global.799
+- ___block_literal_global.824
+- ___block_literal_global.848
+- ___block_literal_global.999
+- __unnamed_array_storage.1932
+- __unnamed_array_storage.262
+- __unnamed_array_storage.272
+- __unnamed_array_storage.275
+- __unnamed_array_storage.278
+- _objc_msgSend$createMattedImageForInstances:fromRequestHandler:inPlace:croppedToInstancesExtent:error:
+- _objc_msgSend$getFramePTSList:before:
+- _objc_msgSend$refineAnalysis:requestHandler:forAsset:orientedWidth:orientedHeight:
+- _objc_msgSend$vcp_needFaceProcessing
+CStrings:
++ "%@ FC faceprint sigma %.3f and confidence: %.3f"
++ "%@ FC torsoprint sigma %.3f and confidence: %.3f"
++ "%@ Failed to upgrade faceprint - %@; skipping"
++ "%@ Failed to upgrade torsoprint - %@; skipping"
++ "%@ Processing forward-compabitle face %@"
++ "%@ Skipping data incomplete face %@ %lu %d %@"
++ "%@ Skipping new face %@"
++ "%@ Skipping non-human face %@"
++ "%@ Unable to serialize forward-compatible faceTorsoprint - %@; ignore"
++ "%@ Wrapping forward-compatible faceprint for face %@"
++ "(faceAlgorithmVersion >= %d) AND (vuObservationID = 0) AND (((hidden = 0) AND (manual = 0) AND ((trainingType = %d) OR (trainingType = nil))) OR ((trainingType = %d) OR (trainingType = %d) OR (trainingType = %d)))"
++ "@56@0:8@16@24Q32Q40@48"
++ "@56@0:8@16{?=qiIq}24@48"
++ "FCPeople"
++ "LivePhotoKeyFrameTimestamp"
++ "MADUpgradeFaceprint"
++ "MADUpgradeTorsoprint"
++ "Reset faceAdjustmentVersion"
++ "Reset for Forward Compatible version bump (asset.faceAdjustmentVersion + facecrops)"
++ "[%@][FaceAnalysisStateCheck] faceAdjustmentVersion %@ != adjustmentTimestamp %@"
++ "[%@][FaceAnalysisStateCheck] faceAnalysisVersion %d (target %d)"
++ "[%@][FaceAnalysisStateCheck] no faceAdjustmentVersion"
++ "[FaceAnalyzer][FC] Feature is disabled; skip"
++ "[FaceAnalyzer][FC] Start processing resource %lu x %lu"
++ "[FaceAnalyzer][FC][%@]"
++ "[FaceAnalyzer][FC][SmallFace][%@] Face faceprint version %d"
++ "[FaceAnalyzer][FC][SmallFace][%@] Ignore non-human face"
++ "[FaceAnalyzer][FC][SmallFace][%@] face-%.3f|%dpx(%dpx), torso-%.3fx%.3f|%dpx(%dpx)"
++ "[FaceAnalyzer][FC][SmallFace][asset-%@] Invert decision"
++ "[FaceAnalyzer][FC][SmallFace][asset-%@] Resource size is good"
++ "[FaceAnalyzer][FC][SmallFace][asset-%@] Resource size is too small"
++ "[FaceAnalyzer][FC][SmallFace][asset-%@] Vision image-too-small decision: %@"
++ "[FaceProcessing] Pause streaming for FC people processing"
++ "^{__CVBuffer=}48@0:8{?=qiIq}16Q40"
++ "_forwardCompatibleFaceSigmaThreshold"
++ "_forwardCompatibleTorsoSigmaThreshold"
++ "_minSettlingDurationThresholdFailure"
++ "_processForwardCompatibleFaces:withExistingFaces:orientedWidth:orientedHeight:session:"
++ "_refineAnalysis:requestHandler:forAsset:resource:orientedWidth:orientedHeight:"
++ "_smallFaceWarningThreshold"
++ "faceAnalysisVersion"
++ "generateMaskedImageOfInstances:fromRequestHandler:inPlace:croppedToInstancesExtent:returnCropRect:error:"
++ "getFramePTSList:before:withOptions:"
++ "i64@0:8^@16@24@32@40Q48Q56"
++ "initWithSurface:cropRect:"
++ "mad_pauseFCPeopleFurtherProcessing"
++ "missing faceprint"
++ "setApertureMode:"
++ "settlingEffectLivePhotoKeyFrameTimeOutOfBoundFailure"
++ "settlingEffectMinSettlingDurationThresholdFailure"
++ "vcp_frameAtTimeStamp:withMaxDimension:"
++ "vcp_needsFaceProcessing"
+- "  [%@] Need Face Processing: faceAdjustmentVersion %@ != adjustmentTimestamp %@"
+- "  [%@] Need Face Processing: no faceAdjustmentVersion"
+- "(faceAlgorithmVersion = %d) AND (vuObservationID = 0) AND (((hidden = 0) AND (manual = 0) AND ((trainingType = %d) OR (trainingType = nil))) OR ((trainingType = %d) OR (trainingType = %d) OR (trainingType = %d)))"
+- "@48@0:8@16{?=qiIq}24"
+- "Reset AnalysisStates"
+- "Reset Clustering"
+- "createMattedImageForInstances:fromRequestHandler:inPlace:croppedToInstancesExtent:error:"
+- "getFramePTSList:before:"
+- "i56@0:8^@16@24@32Q40Q48"
+- "refineAnalysis:requestHandler:forAsset:orientedWidth:orientedHeight:"
+- "vcp_needFaceProcessing"
+
+```

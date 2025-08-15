@@ -1,0 +1,83 @@
+## iCloudSubscriptionOptimizerPFLTraining
+
+> `/System/Library/PrivateFrameworks/iCloudSubscriptionOptimizerPFLTraining.framework/iCloudSubscriptionOptimizerPFLTraining`
+
+```diff
+
+ 69.0.0.0.0
+-  __TEXT.__text: 0x6e00
++  __TEXT.__text: 0x6df0
+   __TEXT.__auth_stubs: 0x400
+   __TEXT.__objc_methlist: 0x404
+   __TEXT.__const: 0x140
+
+   __TEXT.__unwind_info: 0x27c
+   __TEXT.__eh_frame: 0x38
+   __TEXT.__objc_classname: 0xb1
+-  __TEXT.__objc_methname: 0xfd0
++  __TEXT.__objc_methname: 0xfe2
+   __TEXT.__objc_methtype: 0x282
+   __TEXT.__objc_stubs: 0x11a0
+   __DATA_CONST.__got: 0x40
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0xdb0
+   __DATA_CONST.__objc_selrefs: 0x500
++  __DATA_CONST.__objc_classrefs: 0xd8
++  __DATA_CONST.__objc_superrefs: 0x18
+   __DATA_CONST.__objc_arraydata: 0x8
+   __AUTH_CONST.__cfstring: 0xac0
+   __AUTH_CONST.__objc_const: 0x288
+
+   __AUTH_CONST.__objc_doubleobj: 0x50
+   __AUTH_CONST.__auth_got: 0x210
+   __AUTH.__objc_data: 0x1e0
+-  __DATA.__objc_classrefs: 0xd8
+-  __DATA.__objc_superrefs: 0x18
+   __DATA.__objc_ivar: 0x28
+   __DATA.__data: 0x180
+   __DATA.__bss: 0x18
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 79EE756A-569F-35C5-882D-3BEEFCD4B6D3
++  UUID: FAC6908E-BC07-39C6-835D-BB6ADF2A2E5E
+   Functions: 128
+   Symbols:   626
+-  CStrings:  472
++  CStrings:  473
+ 
+Symbols:
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ue170006ERKS6_S9_
++ __ZNSt12length_errorC1B8ue170006EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ue170006ILi0EEEPKc
++ __ZNSt3__115allocate_sharedB8ue170006IN8Espresso4blobIfLi1EEENS_9allocatorIS3_EEJRiS6_S6_S6_EvEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ue170006IN8Espresso4blobIfLi2EEENS_9allocatorIS3_EEJRiS6_S6_S6_EvEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_10shared_ptrIN8Espresso4blobIfLi1EEEEEEEPvEEEEE7destroyB8ue170006INS_4pairIKS8_SD_EEvvEEvRSH_PT_
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_10shared_ptrIN8Espresso4blobIfLi2EEEEEEEPvEEEEE7destroyB8ue170006INS_4pairIKS8_SD_EEvvEEvRSH_PT_
++ __ZNSt3__119__shared_weak_count16__release_sharedB8ue170006Ev
++ __ZNSt3__119piecewise_constructE
++ __ZNSt3__120__shared_ptr_emplaceIN8Espresso4blobIfLi1EEENS_9allocatorIS3_EEEC2B8ue170006IJRiS8_S8_S8_EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN8Espresso4blobIfLi2EEENS_9allocatorIS3_EEEC2B8ue170006IJRiS8_S8_S8_EEES5_DpOT_
++ __ZNSt3__120__throw_length_errorB8ue170006EPKc
++ __ZNSt3__127__tree_balance_after_insertB8ue170006IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB7v160006ERKS6_S9_
+- __ZNSt12length_errorC1B7v160006EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006IDnEEPKc
+- __ZNSt3__115allocate_sharedB7v160006IN8Espresso4blobIfLi1EEENS_9allocatorIS3_EEJRiS6_S6_S6_EvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB7v160006IN8Espresso4blobIfLi2EEENS_9allocatorIS3_EEJRiS6_S6_S6_EvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_10shared_ptrIN8Espresso4blobIfLi1EEEEEEEPvEEEEE7destroyB7v160006INS_4pairIKS8_SD_EEvvEEvRSH_PT_
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_10shared_ptrIN8Espresso4blobIfLi2EEEEEEEPvEEEEE7destroyB7v160006INS_4pairIKS8_SD_EEvvEEvRSH_PT_
+- __ZNSt3__119__shared_weak_count16__release_sharedB7v160006Ev
+- __ZNSt3__120__shared_ptr_emplaceIN8Espresso4blobIfLi1EEENS_9allocatorIS3_EEEC2B7v160006IJRiS8_S8_S8_EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN8Espresso4blobIfLi2EEENS_9allocatorIS3_EEEC2B7v160006IJRiS8_S8_S8_EEES5_DpOT_
+- __ZNSt3__120__throw_length_errorB7v160006EPKc
+- __ZNSt3__127__tree_balance_after_insertB7v160006IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__1L19piecewise_constructE
+CStrings:
++ "T@\"NSString\",?,R,C"
+
+```

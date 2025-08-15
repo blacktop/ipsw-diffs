@@ -1,0 +1,257 @@
+## SmartReplies
+
+> `/System/Library/PrivateFrameworks/SmartReplies.framework/SmartReplies`
+
+```diff
+
+ 42.9.0.0.0
+-  __TEXT.__text: 0x8bf40
+-  __TEXT.__auth_stubs: 0x19d0
++  __TEXT.__text: 0x8ea24
++  __TEXT.__auth_stubs: 0x1a00
+   __TEXT.__objc_methlist: 0xd90
+-  __TEXT.__const: 0x2cb8
+-  __TEXT.__cstring: 0x4b5e
++  __TEXT.__const: 0x2cc8
++  __TEXT.__cstring: 0x4eee
+   __TEXT.__oslogstring: 0xc6
+   __TEXT.__swift5_typeref: 0x1024
+   __TEXT.__swift5_capture: 0x4ac
+
+   __TEXT.__swift5_types: 0x164
+   __TEXT.__swift5_protos: 0x14
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x21c4
+-  __TEXT.__eh_frame: 0x30c8
++  __TEXT.__unwind_info: 0x22e8
++  __TEXT.__eh_frame: 0x31d0
+   __TEXT.__objc_classname: 0x236
+-  __TEXT.__objc_methname: 0x2717
++  __TEXT.__objc_methname: 0x2729
+   __TEXT.__objc_methtype: 0xa54
+   __TEXT.__objc_stubs: 0xb00
+-  __DATA_CONST.__got: 0x2b8
++  __DATA_CONST.__got: 0x2b0
+   __DATA_CONST.__const: 0x398
+   __DATA_CONST.__objc_classlist: 0xf0
+   __DATA_CONST.__objc_catlist: 0x0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x2fd8
+   __DATA_CONST.__objc_selrefs: 0x908
++  __DATA_CONST.__objc_protorefs: 0x60
++  __DATA_CONST.__objc_classrefs: 0x1e8
++  __DATA_CONST.__objc_superrefs: 0x38
+   __AUTH_CONST.__objc_const: 0x630
+-  __AUTH_CONST.__const: 0x3920
+-  __AUTH_CONST.__auth_got: 0xcf0
++  __AUTH_CONST.__const: 0x3930
++  __AUTH_CONST.__auth_got: 0xd08
+   __AUTH.__objc_data: 0x7e8
+-  __AUTH.__data: 0x770
+-  __DATA.__objc_protorefs: 0x60
+-  __DATA.__objc_classrefs: 0x1e8
+-  __DATA.__objc_superrefs: 0x38
++  __AUTH.__data: 0x760
+   __DATA.__objc_ivar: 0x20
+   __DATA.__objc_data: 0x20
+-  __DATA.__data: 0x1260
++  __DATA.__data: 0x13a0
+   __DATA.__bss: 0x2290
+   __DATA.__common: 0x40
+   __DATA_DIRTY.__objc_data: 0xaf0
+-  __DATA_DIRTY.__data: 0xdd8
+-  __DATA_DIRTY.__bss: 0xb90
++  __DATA_DIRTY.__data: 0xdb0
++  __DATA_DIRTY.__bss: 0xba0
+   __DATA_DIRTY.__common: 0x88
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 242D6B61-E185-32E1-8E0E-9BB91B368D4D
+-  Functions: 3000
+-  Symbols:   7858
+-  CStrings:  953
++  UUID: 55140995-8968-35D2-8D96-35C7DABA2408
++  Functions: 3035
++  Symbols:   7940
++  CStrings:  973
+ 
+Symbols:
++ _$s12SmartReplies05TrialaB7FactorsV10CodingKeysO8rawValueAESgSS_tcfCTf4nd_n
++ _$s12SmartReplies07SRSmartB11CaptionTypeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s12SmartReplies07SRSmartB17ActionPointOfViewO8allCasesSayACGvgZTv_
++ _$s12SmartReplies07SRSmartB17ActionPointOfViewOs12CaseIterableAAsADP8allCases03AllK0QzvgZTWTv_
++ _$s12SmartReplies07SRSmartB20ActionSieveComponentO8rawValueACSgSS_tcfCTf4nd_n
++ _$s12SmartReplies07SRSmartB23ActionAttributionSourceO8rawValueACSgSi_tcfCTf4nd_n
++ _$s12SmartReplies07SRSmartB5ErrorOwCPTm
++ _$s12SmartReplies12ResponseTypeO8rawValueACSgSS_tcfCTf4nd_n
++ _$s12SmartReplies16SRPredictionItemVwCPTm
++ _$s12SmartReplies16SRPredictionTypeO8rawValueACSgSS_tcfCTf4nd_n
++ _$s12SmartReplies17SemanticFocusTypeO8rawValueACSgSS_tcfCTf4nd_n
++ _$s12SmartReplies19MetricsReplyEngagedV11replyString8metadata20repliesListGenerated14displaySettingACSSSg_SDys11AnyHashableVypGSgAA0cbjK0VSgAHtcfCTf4nnnnd_n
++ _$s12SmartReplies20ModelResponseManagerVwCPTm
++ _$s12SmartReplies22MetricsActionPredictedV24actionInferencePerformed09predictedD10InfoString8rawScore05otheredJ7StringsAcA0cdG6ResultV_SSSfSaySSGtcfCTf4gnnnd_n
++ _$s12SmartReplies23TrialExemptTermsFactors33_A7D5ABA0252DD177ED346B563837B7FELLV11descriptionSSvg
++ _$s12SmartReplies26ShortcodeResolutionManagerVwCPTm
++ _$s12SmartReplies29PredictionExemptTermsDetectorV08checkForcD4Text2in12languageCodeSbSSSg_AGtYaFTv_
++ _$s12SmartReplies35ExtractiveSummarizationStrategyTypeO8allCasesSayACGvgZTv_
++ _$s12SmartReplies35ExtractiveSummarizationStrategyTypeOs12CaseIterableAAsADP8allCases03AllJ0QzvgZTWTv_
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SSTgm5
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SdTgm5
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_So8NSObjectCTgm5
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefa_ypTgm5
++ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSrySSG_Tg508$sSTsSL7h33RpzrlE6sortedSayABGyFSbAB_ABtcfu_N8SSG_TGm5Tf1nncn_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVySSG_Tg508$sSTsSL7c33RpzrlE6sortedSayABGyFSbAB_ABtcfu_K8SSG_TGm5Tf1cn_n
++ _$sSa9repeating5countSayxGx_SitcfCSaySdG_Tgm5
++ _$sSa9repeating5countSayxGx_SitcfCSd_Tgm5
++ _$sSa9repeating5countSayxGx_SitcfCSf_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ12SmartReplies07SRSmartC10SuggestionC_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ12SmartReplies07SRSmartC7MessageC_Tgm5Tm
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZSS_Tgm5
++ _$sSay12SmartReplies07SRSmartB10SuggestionCGSayxGSlsWL
++ _$sSay12SmartReplies07SRSmartB16ConversationTurnCGMD
++ _$sSay12SmartReplies07SRSmartB16ConversationTurnCGSayxGSlsWL
++ _$sSay12SmartReplies07SRSmartB7CaptionCGMD
++ _$sSay12SmartReplies07SRSmartB7CaptionCGSayxGSlsWL
++ _$sSaySo7EKEventCGSayxGSlsWL
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTW12SmartReplies07SRSmartD10SuggestionC_Tg5
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTW12SmartReplies07SRSmartD10SuggestionC_Tg5.resume.0
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTW12SmartReplies07SRSmartD16ConversationTurnC_Tg5
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTW12SmartReplies07SRSmartD16ConversationTurnC_Tg5.resume.0
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTW12SmartReplies07SRSmartD7CaptionC_Tg5
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTW12SmartReplies07SRSmartD7CaptionC_Tg5.resume.0
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTWSo7EKEventC_Tg5
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTWSo7EKEventC_Tg5.resume.0
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTWSo7EKEventC_Tg5.resume.0Tm
++ _$sSayxSicir12SmartReplies07SRSmartB10SuggestionC_Tg5
++ _$sSayxSicir12SmartReplies07SRSmartB10SuggestionC_Tg5.resume.0
++ _$sSayxSicir12SmartReplies07SRSmartB16ConversationTurnC_Tg5
++ _$sSayxSicir12SmartReplies07SRSmartB16ConversationTurnC_Tg5.resume.0
++ _$sSayxSicir12SmartReplies07SRSmartB7CaptionC_Tg5
++ _$sSayxSicir12SmartReplies07SRSmartB7CaptionC_Tg5.resume.0
++ _$sSayxSicirSo7EKEventC_Tg5
++ _$sSayxSicirSo7EKEventC_Tg5.resume.0
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufC10Foundation8CalendarV9ComponentO_SayAHGTgm5Tf4g_n
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSS_SaySSGTgm5Tf4g_n
++ _$sSp14moveInitialize4from5countySpyxG_SitF10Foundation3URLV_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitF12SmartReplies07SRSmartF10ActionInfoV_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitF12SmartReplies07SRSmartF11PersonMatchV_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitF12SmartReplies07SRSmartF16ConversationTurnC_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitF12SmartReplies07SRSmartF7CaptionC_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitF12SmartReplies07SRSmartF7CaptionC_Tg5Tm
++ _$sSp14moveInitialize4from5countySpyxG_SitF12SmartReplies12ResponseTypeO_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitF12SmartReplies16SRPredictionItemV_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitFSS3key_Sd5valuet_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitFSS_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitFSaySdG_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitFSaySdG_Tg5Tm
++ _$sSp14moveInitialize4from5countySpyxG_SitFSd_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitFSf_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitFSi6offset_Sd7elementt_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitFs5UInt8V_Tgq5
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSS_Tg5048$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_K8SSG_TGm5Tf1cn_n
++ _$sSw10copyMemory4fromySW_tF
++ _$ss10_NativeSetV_8capacityAByxGs07__CocoaB0Vn_SitcfC12SmartReplies07SRSmartF7CaptionC_Tgm5
++ _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF12SmartReplies07SRSmartI10ActionInfoV_Tg5Tf4nng_n
++ _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF12SmartReplies07SRSmartI11PersonMatchV_Tg5Tf4nng_n
++ _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF12SmartReplies12ResponseTypeO_Tg5Tf4nng_n
++ _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF12SmartReplies16SRPredictionItemV_Tg5Tf4nng_n
++ _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFSS_Tg5Tf4nng_n
++ _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFSaySdG_Tg5Tf4nng_n
++ _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFSd_Tg5Tf4nng_n
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSd_Tg5Tm
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFSS_Tg5048$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_M8SSG_TGm5Tf1nnnnc_n
++ __PROTOCOLS__TtC12SmartReplies28SRSmartRepliesPredictionItem.8
++ _block_copy_helper.30
++ _block_copy_helper.34
++ _block_descriptor.26
++ _block_descriptor.32
++ _block_descriptor.36
++ _block_destroy_helper.31
++ _block_destroy_helper.35
++ _swift_unknownObjectRetain_n
++ _symbolic Say_____G 12SmartReplies07SRSmartB16ConversationTurnC
++ _symbolic Say_____G 12SmartReplies07SRSmartB7CaptionC
+- _$s10Foundation4DateVSgWOf
+- _$s12SmartReplies07MetricsB9DisplayedV20repliesListGenerated14displaySettingAcA0cbfG0VSg_SSSgtcfCTf4nnd_n
+- _$s12SmartReplies07MetricsB9DisplayedVWOs
+- _$s12SmartReplies07SRSmartB14ActionMetadataC4type5title11attribution20stringRepresentation4date07hasRichD4Type3url16locationLatitude0P9Longitude9imageName0H6SourceAcA0cbdN0O_SSSgA2Q10Foundation4DateVSbAR3URLVSgS2dAqA0cbd11AttributionU0OtcfcTf4ngggnnnnngnn_n
+- _$s12SmartReplies07SRSmartB16ConversationTurnCACycfCTm
+- _$s12SmartReplies07SRSmartB17SuggestionRequestC31includeLowConfidenceSuggestionsSbvgTm
+- _$s12SmartReplies07SRSmartB17SuggestionRequestC31includeLowConfidenceSuggestionsSbvgToTm
+- _$s12SmartReplies07SRSmartB17SuggestionRequestC31includeLowConfidenceSuggestionsSbvsTm
+- _$s12SmartReplies07SRSmartB17SuggestionRequestC31includeLowConfidenceSuggestionsSbvsToTm
+- _$s12SmartReplies07SRSmartB7ManagerC25retrieveActionSuggestions33_F05666F7374E1FA2AEF398D1A99D60D9LL3forSayAA0cbF10SuggestionCGAA0cbR7RequestC_tYaFSayAA0cbF4InfoVG18actionTypesAndPOVs_SaySfGSg9rawScorestAKYacACcfu8_AnO_AqRtAKYacfu9_TY2_
+- _$s12SmartReplies07SRSmartB7ManagerC29retrieveSimpleTextSuggestions33_F05666F7374E1FA2AEF398D1A99D60D9LL3for014includeDynamicH0SayAA0cB10SuggestionCGAA0cbU7RequestC_SbtYaFTY2_
+- _$s12SmartReplies07SRSmartB7MessageC9isTapBackSbvgTm
+- _$s12SmartReplies07SRSmartB7MessageC9isTapBackSbvgToTm
+- _$s12SmartReplies07SRSmartB7MessageC9isTapBackSbvsTm
+- _$s12SmartReplies07SRSmartB7MessageC9isTapBackSbvsToTm
+- _$s12SmartReplies19MetricsReplyEngagedV11replyString8metadata20repliesListGenerated14displaySettingACSSSg_SDys11AnyHashableVypGSgAA0cbjK0VSgAHtcfCTf4ggggd_n
+- _$s12SmartReplies22MetricsActionPredictedV24actionInferencePerformed09predictedD10InfoString8rawScore05otheredJ7StringsAcA0cdG6ResultV_SSSfSaySSGtcfCTf4ngnnd_n
+- _$s12SmartReplies35MetricsMessageTopicExtractionResultVWOs
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SSTg5Tf4nd_n
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SdTg5Tf4nd_n
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_So8NSObjectCTg5Tf4nd_n
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefa_ypTg5Tf4nd_n
+- _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSrySSG_Tg508$sSTsSL7h33RpzrlE6sortedSayABGyFSbAB_ABtcfu_N15SSG_TG5Tf4nnd_nTf1nncn_n
+- _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVySSG_Tg508$sSTsSL7c33RpzrlE6sortedSayABGyFSbAB_ABtcfu_K15SSG_TG5Tf4nnd_nTf1cn_n
+- _$sSS3key_yp5valuetSgMD
+- _$sSa9repeating5countSayxGx_SitcfCSaySdG_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ12SmartReplies07SRSmartC10SuggestionC_Tg5Tf4nnd_n
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ12SmartReplies07SRSmartC7MessageC_Tg5Tf4nnd_nTm
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZSS_Tg5Tf4nnd_n
+- _$sSaySayxGqd__c7ElementQyd__RszSTRd__lufCSS_s10ArraySliceVySSGTg5Tf4nd_n
+- _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufC10Foundation8CalendarV9ComponentO_SayAHGTg5Tf4gn_n
+- _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSS_SaySSGTg5Tf4gn_n
+- _$sSo5NLTagaSYSCSY8rawValue03RawC0QzvgTWTm
+- _$sSo8NSBundleC12SmartRepliesE028isBundleDisallowedForDynamicC0SbyFZTf4d_n
+- _$sSo8NSBundleC12SmartRepliesE20isDonatingBundleOnlySbyFZTf4d_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSS_Tg5048$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_K15SSG_TG5Tf4nnd_nTf1cn_n
+- _$ss10ArraySliceV017_copyToContiguousA0s0eA0VyxGyFSi6offset_Sd7elementt_Tg5
+- _$ss10ArraySliceV017_copyToContiguousA0s0eA0VyxGyFSi6offset_Sd7elementt_Tg5Tm
+- _$ss10_NativeSetV_8capacityAByxGs07__CocoaB0Vn_SitcfC12SmartReplies07SRSmartF7CaptionC_Tg5Tf4nnd_n
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgq5Tf4nnd_n
+- _$ss6ResultOySDy12SmartReplies16SRPredictionTypeOSayAC0D4ItemVGGSgs5Error_pGSgWOy
+- _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFSS_Tg5048$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_M15SSG_TG5Tf4nnd_nTf1nnnnc_n
+- __PROTOCOLS__TtC12SmartReplies28SRSmartRepliesPredictionItem.9
+- _block_copy_helper.31
+- _block_copy_helper.35
+- _block_descriptor.27
+- _block_descriptor.33
+- _block_descriptor.37
+- _block_destroy_helper.32
+- _block_destroy_helper.36
+- _memset_pattern16
+- _symbolic SS3key_yp5valuetSg
+CStrings:
++ "Can't construct Array with count < 0"
++ "Fatal error"
++ "Insufficient space allocated to copy string contents"
++ "Swift/Array.swift"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawBufferPointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"NSString\",?,R,C"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawBufferPointer.copyMemory source has too many elements"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "invalid Collection: less than 'count' elements in collection"
+
+```

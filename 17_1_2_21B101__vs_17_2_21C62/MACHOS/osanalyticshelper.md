@@ -1,0 +1,22 @@
+## osanalyticshelper
+
+> `/System/Library/CoreServices/osanalyticshelper`
+
+```diff
+
+-614.40.23.0.0
++614.60.3.0.0
+   __TEXT.__text: 0xe610
+   __TEXT.__auth_stubs: 0x890
+   __TEXT.__objc_stubs: 0x2140
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1716A42F-FA87-3ACB-B32B-CFEC6F071CE4
++  UUID: 8AA29FFA-C85A-3AAF-9D05-D7F2B3EEA3B7
+   Functions: 229
+   Symbols:   234
+   CStrings:  1120
+
+```

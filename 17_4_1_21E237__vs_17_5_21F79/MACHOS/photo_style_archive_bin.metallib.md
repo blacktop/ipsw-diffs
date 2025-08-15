@@ -1,0 +1,105 @@
+## photo_style_archive_bin.metallib
+
+> `/System/Library/Frameworks/CoreImage.framework/photo_style_archive_bin.metallib`
+
+```diff
+
+   __TEXT.__descriptor: 0x9a0
+   __TEXT.__compute: 0x14cd0
+   __TEXT.__reflection: 0x3b70
+-  UUID: A979D605-F93C-37D9-9A73-C84322EC5D6F
++  UUID: AC25A986-ADCD-34F4-AA6D-46E30FE410B1
+   Functions: 0
+   Symbols:   222
+   CStrings:  0
+Symbols:
++ _air-lipo-2bda09.out_10_descriptor_begin
++ _air-lipo-2bda09.out_10_descriptor_end
++ _air-lipo-2bda09.out_11_descriptor_begin
++ _air-lipo-2bda09.out_11_descriptor_end
++ _air-lipo-2bda09.out_12_descriptor_begin
++ _air-lipo-2bda09.out_12_descriptor_end
++ _air-lipo-2bda09.out_13_descriptor_begin
++ _air-lipo-2bda09.out_13_descriptor_end
++ _air-lipo-2bda09.out_14_descriptor_begin
++ _air-lipo-2bda09.out_14_descriptor_end
++ _air-lipo-2bda09.out_15_descriptor_begin
++ _air-lipo-2bda09.out_15_descriptor_end
++ _air-lipo-2bda09.out_16_descriptor_begin
++ _air-lipo-2bda09.out_16_descriptor_end
++ _air-lipo-2bda09.out_17_descriptor_begin
++ _air-lipo-2bda09.out_17_descriptor_end
++ _air-lipo-2bda09.out_18_descriptor_begin
++ _air-lipo-2bda09.out_18_descriptor_end
++ _air-lipo-2bda09.out_19_descriptor_begin
++ _air-lipo-2bda09.out_19_descriptor_end
++ _air-lipo-2bda09.out_1_descriptor_begin
++ _air-lipo-2bda09.out_1_descriptor_end
++ _air-lipo-2bda09.out_20_descriptor_begin
++ _air-lipo-2bda09.out_20_descriptor_end
++ _air-lipo-2bda09.out_21_descriptor_begin
++ _air-lipo-2bda09.out_21_descriptor_end
++ _air-lipo-2bda09.out_2_descriptor_begin
++ _air-lipo-2bda09.out_2_descriptor_end
++ _air-lipo-2bda09.out_3_descriptor_begin
++ _air-lipo-2bda09.out_3_descriptor_end
++ _air-lipo-2bda09.out_4_descriptor_begin
++ _air-lipo-2bda09.out_4_descriptor_end
++ _air-lipo-2bda09.out_5_descriptor_begin
++ _air-lipo-2bda09.out_5_descriptor_end
++ _air-lipo-2bda09.out_6_descriptor_begin
++ _air-lipo-2bda09.out_6_descriptor_end
++ _air-lipo-2bda09.out_7_descriptor_begin
++ _air-lipo-2bda09.out_7_descriptor_end
++ _air-lipo-2bda09.out_8_descriptor_begin
++ _air-lipo-2bda09.out_8_descriptor_end
++ _air-lipo-2bda09.out_9_descriptor_begin
++ _air-lipo-2bda09.out_9_descriptor_end
++ _air-lipo-2bda09.out_descriptor_begin
++ _air-lipo-2bda09.out_descriptor_end
+- _air-lipo-5a4128.out_10_descriptor_begin
+- _air-lipo-5a4128.out_10_descriptor_end
+- _air-lipo-5a4128.out_11_descriptor_begin
+- _air-lipo-5a4128.out_11_descriptor_end
+- _air-lipo-5a4128.out_12_descriptor_begin
+- _air-lipo-5a4128.out_12_descriptor_end
+- _air-lipo-5a4128.out_13_descriptor_begin
+- _air-lipo-5a4128.out_13_descriptor_end
+- _air-lipo-5a4128.out_14_descriptor_begin
+- _air-lipo-5a4128.out_14_descriptor_end
+- _air-lipo-5a4128.out_15_descriptor_begin
+- _air-lipo-5a4128.out_15_descriptor_end
+- _air-lipo-5a4128.out_16_descriptor_begin
+- _air-lipo-5a4128.out_16_descriptor_end
+- _air-lipo-5a4128.out_17_descriptor_begin
+- _air-lipo-5a4128.out_17_descriptor_end
+- _air-lipo-5a4128.out_18_descriptor_begin
+- _air-lipo-5a4128.out_18_descriptor_end
+- _air-lipo-5a4128.out_19_descriptor_begin
+- _air-lipo-5a4128.out_19_descriptor_end
+- _air-lipo-5a4128.out_1_descriptor_begin
+- _air-lipo-5a4128.out_1_descriptor_end
+- _air-lipo-5a4128.out_20_descriptor_begin
+- _air-lipo-5a4128.out_20_descriptor_end
+- _air-lipo-5a4128.out_21_descriptor_begin
+- _air-lipo-5a4128.out_21_descriptor_end
+- _air-lipo-5a4128.out_2_descriptor_begin
+- _air-lipo-5a4128.out_2_descriptor_end
+- _air-lipo-5a4128.out_3_descriptor_begin
+- _air-lipo-5a4128.out_3_descriptor_end
+- _air-lipo-5a4128.out_4_descriptor_begin
+- _air-lipo-5a4128.out_4_descriptor_end
+- _air-lipo-5a4128.out_5_descriptor_begin
+- _air-lipo-5a4128.out_5_descriptor_end
+- _air-lipo-5a4128.out_6_descriptor_begin
+- _air-lipo-5a4128.out_6_descriptor_end
+- _air-lipo-5a4128.out_7_descriptor_begin
+- _air-lipo-5a4128.out_7_descriptor_end
+- _air-lipo-5a4128.out_8_descriptor_begin
+- _air-lipo-5a4128.out_8_descriptor_end
+- _air-lipo-5a4128.out_9_descriptor_begin
+- _air-lipo-5a4128.out_9_descriptor_end
+- _air-lipo-5a4128.out_descriptor_begin
+- _air-lipo-5a4128.out_descriptor_end
+
+```

@@ -1,0 +1,340 @@
+## MapsSuggestions
+
+> `/System/Library/PrivateFrameworks/MapsSuggestions.framework/MapsSuggestions`
+
+```diff
+
+-2811.31.8.9.19
+-  __TEXT.__text: 0x121434
++2811.32.9.28.15
++  __TEXT.__text: 0x120418
+   __TEXT.__auth_stubs: 0x1720
+   __TEXT.__objc_methlist: 0x601c
+-  __TEXT.__const: 0x720
+-  __TEXT.__cstring: 0x2664e
++  __TEXT.__const: 0x730
++  __TEXT.__cstring: 0x26458
+   __TEXT.__swift5_typeref: 0x6a7
+   __TEXT.__constg_swiftt: 0x46c
+   __TEXT.__swift5_reflstr: 0x264
+
+   __TEXT.__swift5_types: 0x30
+   __TEXT.__swift5_proto: 0x4
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__gcc_except_tab: 0xdd34
+-  __TEXT.__oslogstring: 0x11bbd
++  __TEXT.__gcc_except_tab: 0xdb1c
++  __TEXT.__oslogstring: 0x119c2
+   __TEXT.__ustring: 0x1b2
+   __TEXT.__dlopen_cstrs: 0xb0
+-  __TEXT.__unwind_info: 0x5890
++  __TEXT.__unwind_info: 0x5874
+   __TEXT.__eh_frame: 0xda0
+-  __TEXT.__objc_classname: 0x22b8
+-  __TEXT.__objc_methname: 0xfd47
+-  __TEXT.__objc_methtype: 0x5e45
+-  __TEXT.__objc_stubs: 0x9fc0
++  __TEXT.__objc_classname: 0x22b6
++  __TEXT.__objc_methname: 0xfd33
++  __TEXT.__objc_methtype: 0x5d8d
++  __TEXT.__objc_stubs: 0x9f00
+   __DATA_CONST.__got: 0x320
+-  __DATA_CONST.__const: 0xb8f8
++  __DATA_CONST.__const: 0xb938
+   __DATA_CONST.__objc_classlist: 0x660
+   __DATA_CONST.__objc_catlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x2b0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x12000
++  __DATA_CONST.__objc_const: 0x11fb0
+   __DATA_CONST.__objc_selrefs: 0x31e0
+   __DATA_CONST.__objc_arraydata: 0x78
+-  __AUTH_CONST.__const: 0x6c48
+-  __AUTH_CONST.__cfstring: 0xc9c0
++  __AUTH_CONST.__const: 0x6c68
++  __AUTH_CONST.__cfstring: 0xc900
+   __AUTH_CONST.__objc_const: 0x5048
+   __AUTH_CONST.__objc_intobj: 0x6a8
+   __AUTH_CONST.__objc_dictobj: 0x50
+
+   __AUTH.__objc_data: 0x910
+   __AUTH.__data: 0x60
+   __DATA.__objc_protorefs: 0xe8
+-  __DATA.__objc_classrefs: 0x8e8
++  __DATA.__objc_classrefs: 0x8c8
+   __DATA.__objc_superrefs: 0x3a8
+-  __DATA.__objc_ivar: 0x684
++  __DATA.__objc_ivar: 0x674
+   __DATA.__objc_data: 0x90
+-  __DATA.__data: 0x4718
++  __DATA.__data: 0x4728
+   __DATA.__common: 0x48
+   __DATA.__bss: 0x18
+   __DATA_DIRTY.__objc_ivar: 0x17c
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EC28F77B-98CA-3C61-97BE-61D64B460DCE
+-  Functions: 4320
+-  Symbols:   14742
+-  CStrings:  10056
++  UUID: D3FD081F-A3D7-3294-B9C2-B2B5B547634D
++  Functions: 4321
++  Symbols:   14734
++  CStrings:  10022
+ 
+Symbols:
++ _GEOConfigMapsSuggestionsVehicleBluetoothFeelerEnabled
++ _GEOConfigMapsSuggestionsVehicleBluetoothFeelerEnabled_Metadata
++ _GEOConfigMapsSuggestionsVehicleBluetoothFeelerEnabled_Metadata_block_invoke_535
++ _GEOConfigMapsSuggestionsVehicleSetupResumeRouteDeduperEnabled_Metadata_block_invoke_536
++ _GEOConfigMapsSuggestionsVerboseLogging_Metadata_block_invoke_537
++ _GEOConfigMapsSuggestionsVirtualGarageExpirationOverflowInSeconds_Metadata_block_invoke_538
++ _GEOConfigMapsSuggestionsVirtualGarageImproverEnabled_Metadata_block_invoke_539
++ _GEOConfigMapsSuggestionsVirtualGarageInitialWeight_Metadata_block_invoke_540
++ _GEOConfigMapsSuggestionsVirtualGarageSinkRank_Metadata_block_invoke_541
++ _GEOConfigMapsSuggestionsVirtualGarageSourceEnabled_Metadata_block_invoke_542
++ _GEOConfigMapsSuggestionsVirtualGarageUpdateIntervalInSeconds_Metadata_block_invoke_543
++ _GEOConfigMapsSuggestionsVisitTrackingLocationUpdaterDistanceBuffer_Metadata_block_invoke_544
++ _GEOConfigMapsSuggestionsWalkableDistance_Metadata_block_invoke_545
++ _GEOConfigMapsSuggestionsWalletFeelerEnabled_Metadata_block_invoke_546
++ _GEOConfigMapsSuggestionsWalletFeelerPollingFrequency_Metadata_block_invoke_547
++ _GEOConfigMapsSuggestionsWalletMaxMapItemCache_Metadata_block_invoke_548
++ _GEOConfigMapsSuggestionsWalletSourceEnabled_Metadata_block_invoke_549
++ _GEOConfigMapsSuggestionsWalletUpdateIntervalInSeconds_Metadata_block_invoke_550
++ _GEOConfigMapsSuggestionsWeatherFeelerEnabled_Metadata_block_invoke_551
++ _GEOConfigMapsSuggestionsWeatherFeelerExpireTimeForNonSignalValue_Metadata_block_invoke_552
++ _GEOConfigMapsSuggestionsWeightForSharedToMeEvents_Metadata_block_invoke_553
++ _GEOConfigMapsSuggestionsXPCActivityTimerDefaultDownloadEstimated_Metadata_block_invoke_554
++ _GEOConfigMapsSuggestionsXPCActivityTimerDefaultUploadEstimated_Metadata_block_invoke_555
++ _GEOConfigMapsSuggestionsZeroWeightFilterEnabled_Metadata_block_invoke_556
++ _GEOConfigNMGSuggestionsRelayDefaultInterval_Metadata_block_invoke_557
++ _GEOConfigNMGSuggestionsRelayDefaultLeeway_Metadata_block_invoke_558
++ _GEOConfigNanoMapsSuggestionsExitTimeCacheExpiration_Metadata_block_invoke_559
++ _GEOConfigNanoMapsSuggestionsExitTimeOverrideInSeconds_Metadata_block_invoke_560
++ _GEOConfigNavdAirportArrivalAnnouncerEnabled_Metadata_block_invoke_561
++ _GEOConfigNavdAirportArrivalAnnouncerEngineRunnerMaxEntries_Metadata_block_invoke_562
++ _GEOConfigNavdAirportArrivalAnnouncerInsideAirportThreshold_Metadata_block_invoke_563
++ _GEOConfigNavdAirportArrivalAnnouncerLocationForceTime_Metadata_block_invoke_564
++ _GEOConfigNavdAirportArrivalAnnouncerMaxRunTime_Metadata_block_invoke_565
++ _GEOConfigNavdAirportArrivalAnnouncerMaxSleepTime_Metadata_block_invoke_566
++ _GEOConfigNavdAirportArrivalAnnouncerMinRunTime_Metadata_block_invoke_567
++ _GEOConfigNavdAirportArrivalAnnouncerMinSleepTime_Metadata_block_invoke_568
++ _GEOConfigNavdAirportArrivalAnnouncerNotificationFrequencyWindowDuration_Metadata_block_invoke_570
++ _GEOConfigNavdAirportArrivalAnnouncerNotificationFrequency_Metadata_block_invoke_569
++ _GEOConfigNavdAirportArrivalAnnouncerRunTimeLeeway_Metadata_block_invoke_571
++ _GEOConfigNavdAirportArrivalAnnouncerSleepTimeLeeway_Metadata_block_invoke_572
++ _GEOConfigNavdAvocadoUpdaterEnabled_Metadata_block_invoke_573
++ _GEOConfigNavdAvocadoUpdaterEngineRunnerMaxEntries_Metadata_block_invoke_574
++ _GEOConfigNavdAvocadoUpdaterMaxRunTime_Metadata_block_invoke_575
++ _GEOConfigNavdAvocadoUpdaterMaxSleepTime_Metadata_block_invoke_576
++ _GEOConfigNavdAvocadoUpdaterMinRunTime_Metadata_block_invoke_577
++ _GEOConfigNavdAvocadoUpdaterMinSleepTime_Metadata_block_invoke_578
++ _GEOConfigNavdAvocadoUpdaterRunTimeLeeway_Metadata_block_invoke_579
++ _GEOConfigNavdAvocadoUpdaterSleepTimeLeeway_Metadata_block_invoke_580
++ _GEOConfigNavdCarplayDisconnectDelay_Metadata_block_invoke_581
++ _GEOConfigNavdVehicleBTNotificationDeparturePerimeter_Metadata_block_invoke_582
++ _GEOConfigNavdVehicleBTNotificationDestinationMaxAccuracy_Metadata_block_invoke_583
++ _GEOConfigNavdVehicleBTNotificationDestinationMaxAge_Metadata_block_invoke_584
++ _GEOConfigNavdVehicleBTNotificationDestinationMaxDistance_Metadata_block_invoke_585
++ _GEOConfigNavdVehicleBTNotificationDisconnectDelay_Metadata_block_invoke_586
++ _GEOConfigNavdVehicleBTNotificationEnabled_Metadata_block_invoke_587
++ _GEOConfigNavdVehicleBTNotificationLeftLocationPerimeter_Metadata_block_invoke_588
++ _GEOConfigNavdVehicleBTNotificationLocationBudget_Metadata_block_invoke_589
++ _GEOConfigNavdVehicleBTNotificationMinimumETA_Metadata_block_invoke_590
++ _GEOConfigNavdVenueAnnouncerDepartureRadius_Metadata_block_invoke_591
++ _GEOConfigNavdVenueAnnouncerDistanceFraction_Metadata_block_invoke_592
++ _GEOConfigNavdVenueAnnouncerEnabled_Metadata_block_invoke_593
++ _GEOConfigNavdVenueAnnouncerEngineRunnerMaxEntries_Metadata_block_invoke_594
++ _GEOConfigNavdVenueAnnouncerLocationForceTime_Metadata_block_invoke_595
++ _GEOConfigNavdVenueAnnouncerMaxRunTime_Metadata_block_invoke_596
++ _GEOConfigNavdVenueAnnouncerMaxSleepTime_Metadata_block_invoke_597
++ _GEOConfigNavdVenueAnnouncerMinRunTime_Metadata_block_invoke_598
++ _GEOConfigNavdVenueAnnouncerMinSleepTime_Metadata_block_invoke_599
++ _GEOConfigNavdVenueAnnouncerNotificationFrequencyLongWindowDuration_Metadata_block_invoke_601
++ _GEOConfigNavdVenueAnnouncerNotificationFrequencyLongWindow_Metadata_block_invoke_600
++ _GEOConfigNavdVenueAnnouncerNotificationFrequencyShortWindowDuration_Metadata_block_invoke_603
++ _GEOConfigNavdVenueAnnouncerNotificationFrequencyShortWindow_Metadata_block_invoke_602
++ _GEOConfigNavdVenueAnnouncerRunTimeLeeway_Metadata_block_invoke_604
++ _GEOConfigNavdVenueAnnouncerSleepTimeLeeway_Metadata_block_invoke_605
++ _GEOConfigNavdVenueAnnouncerSpeed_Metadata_block_invoke_606
++ _GEOConfigRideBookingRideOptionRefreshInterval_Metadata_block_invoke_607
++ ___57-[MapsSuggestionsRealInsights _openConnectionIfNecessary]_block_invoke.160
++ ___57-[MapsSuggestionsRealInsights _openConnectionIfNecessary]_block_invoke.161
++ ___57-[MapsSuggestionsRealInsights _openConnectionIfNecessary]_block_invoke.162
++ ___57-[MapsSuggestionsRealInsights _openConnectionIfNecessary]_block_invoke.163
++ ___57-[MapsSuggestionsRealInsights _openConnectionIfNecessary]_block_invoke.164
++ ___60-[MapsSuggestionsRealInsights signalPackForHereWithHandler:]_block_invoke.103
++ ___86-[MapsSuggestionsRealInsights signalPackForDestinationEntry:originCoordinate:handler:]_block_invoke.101
++ ___88-[MapsSuggestionsRealInsights signalPackForDestinationMapItem:originCoordinate:handler:]_block_invoke.95
++ ___block_literal_global.3369
++ ___block_literal_global.3416
++ ___block_literal_global.3443
++ ___block_literal_global.3465
++ ___block_literal_global.3472
++ ___block_literal_global.3479
++ ___block_literal_global.3486
++ ___block_literal_global.3498
++ ___block_literal_global.3510
++ ___block_literal_global.3522
++ ___block_literal_global.3549
++ ___block_literal_global.3571
++ ___block_literal_global.3583
++ ___block_literal_global.3590
++ ___block_literal_global.3597
++ ___block_literal_global.3624
++ ___block_literal_global.3711
+- _GEOConfigMapsSuggestionsVehicleSetupResumeRouteDeduperEnabled_Metadata_block_invoke_535
+- _GEOConfigMapsSuggestionsVerboseLogging_Metadata_block_invoke_536
+- _GEOConfigMapsSuggestionsVirtualGarageExpirationOverflowInSeconds_Metadata_block_invoke_537
+- _GEOConfigMapsSuggestionsVirtualGarageImproverEnabled_Metadata_block_invoke_538
+- _GEOConfigMapsSuggestionsVirtualGarageInitialWeight_Metadata_block_invoke_539
+- _GEOConfigMapsSuggestionsVirtualGarageSinkRank_Metadata_block_invoke_540
+- _GEOConfigMapsSuggestionsVirtualGarageSourceEnabled_Metadata_block_invoke_541
+- _GEOConfigMapsSuggestionsVirtualGarageUpdateIntervalInSeconds_Metadata_block_invoke_542
+- _GEOConfigMapsSuggestionsVisitTrackingLocationUpdaterDistanceBuffer_Metadata_block_invoke_543
+- _GEOConfigMapsSuggestionsWalkableDistance_Metadata_block_invoke_544
+- _GEOConfigMapsSuggestionsWalletFeelerEnabled_Metadata_block_invoke_545
+- _GEOConfigMapsSuggestionsWalletFeelerPollingFrequency_Metadata_block_invoke_546
+- _GEOConfigMapsSuggestionsWalletMaxMapItemCache_Metadata_block_invoke_547
+- _GEOConfigMapsSuggestionsWalletSourceEnabled_Metadata_block_invoke_548
+- _GEOConfigMapsSuggestionsWalletUpdateIntervalInSeconds_Metadata_block_invoke_549
+- _GEOConfigMapsSuggestionsWeatherFeelerEnabled_Metadata_block_invoke_550
+- _GEOConfigMapsSuggestionsWeatherFeelerExpireTimeForNonSignalValue_Metadata_block_invoke_551
+- _GEOConfigMapsSuggestionsWeightForSharedToMeEvents_Metadata_block_invoke_552
+- _GEOConfigMapsSuggestionsXPCActivityTimerDefaultDownloadEstimated_Metadata_block_invoke_553
+- _GEOConfigMapsSuggestionsXPCActivityTimerDefaultUploadEstimated_Metadata_block_invoke_554
+- _GEOConfigMapsSuggestionsZeroWeightFilterEnabled_Metadata_block_invoke_555
+- _GEOConfigNMGSuggestionsRelayDefaultInterval_Metadata_block_invoke_556
+- _GEOConfigNMGSuggestionsRelayDefaultLeeway_Metadata_block_invoke_557
+- _GEOConfigNanoMapsSuggestionsExitTimeCacheExpiration_Metadata_block_invoke_558
+- _GEOConfigNanoMapsSuggestionsExitTimeOverrideInSeconds_Metadata_block_invoke_559
+- _GEOConfigNavdAirportArrivalAnnouncerEnabled_Metadata_block_invoke_560
+- _GEOConfigNavdAirportArrivalAnnouncerEngineRunnerMaxEntries_Metadata_block_invoke_561
+- _GEOConfigNavdAirportArrivalAnnouncerInsideAirportThreshold_Metadata_block_invoke_562
+- _GEOConfigNavdAirportArrivalAnnouncerLocationForceTime_Metadata_block_invoke_563
+- _GEOConfigNavdAirportArrivalAnnouncerMaxRunTime_Metadata_block_invoke_564
+- _GEOConfigNavdAirportArrivalAnnouncerMaxSleepTime_Metadata_block_invoke_565
+- _GEOConfigNavdAirportArrivalAnnouncerMinRunTime_Metadata_block_invoke_566
+- _GEOConfigNavdAirportArrivalAnnouncerMinSleepTime_Metadata_block_invoke_567
+- _GEOConfigNavdAirportArrivalAnnouncerNotificationFrequencyWindowDuration_Metadata_block_invoke_569
+- _GEOConfigNavdAirportArrivalAnnouncerNotificationFrequency_Metadata_block_invoke_568
+- _GEOConfigNavdAirportArrivalAnnouncerRunTimeLeeway_Metadata_block_invoke_570
+- _GEOConfigNavdAirportArrivalAnnouncerSleepTimeLeeway_Metadata_block_invoke_571
+- _GEOConfigNavdAvocadoUpdaterEnabled_Metadata_block_invoke_572
+- _GEOConfigNavdAvocadoUpdaterEngineRunnerMaxEntries_Metadata_block_invoke_573
+- _GEOConfigNavdAvocadoUpdaterMaxRunTime_Metadata_block_invoke_574
+- _GEOConfigNavdAvocadoUpdaterMaxSleepTime_Metadata_block_invoke_575
+- _GEOConfigNavdAvocadoUpdaterMinRunTime_Metadata_block_invoke_576
+- _GEOConfigNavdAvocadoUpdaterMinSleepTime_Metadata_block_invoke_577
+- _GEOConfigNavdAvocadoUpdaterRunTimeLeeway_Metadata_block_invoke_578
+- _GEOConfigNavdAvocadoUpdaterSleepTimeLeeway_Metadata_block_invoke_579
+- _GEOConfigNavdCarplayDisconnectDelay_Metadata_block_invoke_580
+- _GEOConfigNavdVehicleBTNotificationDeparturePerimeter_Metadata_block_invoke_581
+- _GEOConfigNavdVehicleBTNotificationDestinationMaxAccuracy_Metadata_block_invoke_582
+- _GEOConfigNavdVehicleBTNotificationDestinationMaxAge_Metadata_block_invoke_583
+- _GEOConfigNavdVehicleBTNotificationDestinationMaxDistance_Metadata_block_invoke_584
+- _GEOConfigNavdVehicleBTNotificationDisconnectDelay_Metadata_block_invoke_585
+- _GEOConfigNavdVehicleBTNotificationEnabled_Metadata_block_invoke_586
+- _GEOConfigNavdVehicleBTNotificationLeftLocationPerimeter_Metadata_block_invoke_587
+- _GEOConfigNavdVehicleBTNotificationLocationBudget_Metadata_block_invoke_588
+- _GEOConfigNavdVehicleBTNotificationMinimumETA_Metadata_block_invoke_589
+- _GEOConfigNavdVenueAnnouncerDepartureRadius_Metadata_block_invoke_590
+- _GEOConfigNavdVenueAnnouncerDistanceFraction_Metadata_block_invoke_591
+- _GEOConfigNavdVenueAnnouncerEnabled_Metadata_block_invoke_592
+- _GEOConfigNavdVenueAnnouncerEngineRunnerMaxEntries_Metadata_block_invoke_593
+- _GEOConfigNavdVenueAnnouncerLocationForceTime_Metadata_block_invoke_594
+- _GEOConfigNavdVenueAnnouncerMaxRunTime_Metadata_block_invoke_595
+- _GEOConfigNavdVenueAnnouncerMaxSleepTime_Metadata_block_invoke_596
+- _GEOConfigNavdVenueAnnouncerMinRunTime_Metadata_block_invoke_597
+- _GEOConfigNavdVenueAnnouncerMinSleepTime_Metadata_block_invoke_598
+- _GEOConfigNavdVenueAnnouncerNotificationFrequencyLongWindowDuration_Metadata_block_invoke_600
+- _GEOConfigNavdVenueAnnouncerNotificationFrequencyLongWindow_Metadata_block_invoke_599
+- _GEOConfigNavdVenueAnnouncerNotificationFrequencyShortWindowDuration_Metadata_block_invoke_602
+- _GEOConfigNavdVenueAnnouncerNotificationFrequencyShortWindow_Metadata_block_invoke_601
+- _GEOConfigNavdVenueAnnouncerRunTimeLeeway_Metadata_block_invoke_603
+- _GEOConfigNavdVenueAnnouncerSleepTimeLeeway_Metadata_block_invoke_604
+- _GEOConfigNavdVenueAnnouncerSpeed_Metadata_block_invoke_605
+- _GEOConfigRideBookingRideOptionRefreshInterval_Metadata_block_invoke_606
+- _OBJC_IVAR_$_MapsSuggestionsRealInsights._fwdGeoCodingRoutineScoreProvider
+- _OBJC_IVAR_$_MapsSuggestionsRealInsights._portraitScoreProvider
+- _OBJC_IVAR_$_MapsSuggestionsRealInsights._relevanceScorer
+- _OBJC_IVAR_$_MapsSuggestionsRealInsights._routineScoreProvider
+- ___57-[MapsSuggestionsRealInsights _openConnectionIfNecessary]_block_invoke.195
+- ___57-[MapsSuggestionsRealInsights _openConnectionIfNecessary]_block_invoke.196
+- ___57-[MapsSuggestionsRealInsights _openConnectionIfNecessary]_block_invoke.197
+- ___57-[MapsSuggestionsRealInsights _openConnectionIfNecessary]_block_invoke.198
+- ___57-[MapsSuggestionsRealInsights _openConnectionIfNecessary]_block_invoke.199
+- ___60-[MapsSuggestionsRealInsights signalPackForHereWithHandler:]_block_invoke.138
+- ___86-[MapsSuggestionsRealInsights signalPackForDestinationEntry:originCoordinate:handler:]_block_invoke.136
+- ___88-[MapsSuggestionsRealInsights signalPackForDestinationMapItem:originCoordinate:handler:]_block_invoke.130
+- ___block_literal_global.3371
+- ___block_literal_global.3418
+- ___block_literal_global.3445
+- ___block_literal_global.3467
+- ___block_literal_global.3474
+- ___block_literal_global.3481
+- ___block_literal_global.3488
+- ___block_literal_global.3500
+- ___block_literal_global.3512
+- ___block_literal_global.3524
+- ___block_literal_global.3551
+- ___block_literal_global.3573
+- ___block_literal_global.3585
+- ___block_literal_global.3592
+- ___block_literal_global.3599
+- ___block_literal_global.3626
+- _objc_msgSend$addScorer:
+- _objc_msgSend$confidenceForContacts:addresses:
+- _objc_msgSend$confidenceForMapItems:
+- _objc_msgSend$initDecoratingRelevanceScoreProvider:networkRequester:
+- _objc_msgSend$initWithPortrait:
+- _objc_msgSend$preLoadAllScorers
+CStrings:
++ "22:06:20"
++ "IsVehicleBluetoothConnected"
++ "MapsSuggestionsSignalTypeIsVehicleBluetoothConnected"
++ "MapsSuggestionsVehicleBluetoothFeelerEnabledKey"
++ "Nov 16 2023"
++ "TB,R,N,G_isPartiallyClientized"
++ "_isPartiallyClientized"
++ "isPartiallyClientized"
+- "%@, %f, %f, %d"
+- "-[MapsSuggestionsRealInsights confidenceScoresForContacts:addresses:]"
+- "-[MapsSuggestionsRealInsights confidenceScoresForMapItems:]"
+- "-[MapsSuggestionsRealInsights preload]"
+- "22:07:12"
+- "@\"MapsSuggestionsFwdGeocodingRelevanceScoreProvider\""
+- "@\"MapsSuggestionsPortraitRelevanceScoreProvider\""
+- "@\"MapsSuggestionsRelevanceScorer\""
+- "@\"MapsSuggestionsRoutineRelevanceScoreProvider\""
+- "At %{public}s:%d, %{public}s forbids: %{public}s. Addresses for Contacts cannot be nil"
+- "At %{public}s:%d, %{public}s forbids: %{public}s. Contacts array cannot be nil"
+- "At %{public}s:%d, %{public}s forbids: %{public}s. Information mismatch!! No. of contacts is different from no. of aaddresses passed."
+- "At %{public}s:%d, %{public}s forbids: %{public}s. MapItems array cannot be nil"
+- "INPUT Contacts %u: %@, \nAddresses %u: %@"
+- "INPUT MapItems %lu"
+- "MSGPPTTest_Insights_ACRanking_Contacts"
+- "MSGPPTTest_Insights_ACRanking_ContactsBEGIN"
+- "MSGPPTTest_Insights_ACRanking_ContactsEND"
+- "MSGPPTTest_Insights_ACRanking_MapItems"
+- "MSGPPTTest_Insights_ACRanking_MapItemsBEGIN"
+- "MSGPPTTest_Insights_ACRanking_MapItemsEND"
+- "MSGPPTTest_Insights_ACRanking_PreLoad"
+- "MSGPPTTest_Insights_ACRanking_PreLoadBEGIN"
+- "MSGPPTTest_Insights_ACRanking_PreLoadEND"
+- "OUTPUT Scores for Contacts"
+- "OUTPUT Scores for MapItems"
+- "Oct  3 2023"
+- "_fwdGeoCodingRoutineScoreProvider"
+- "_portraitScoreProvider"
+- "_relevanceScorer"
+- "_routineScoreProvider"
+- "contactsCount != [addresses count]"
+- "nil == (addresses)"
+- "nil == (contacts)"
+- "nil == (mapItems)"
+- "\x91"
+
+```
