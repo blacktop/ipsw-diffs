@@ -144,6 +144,7 @@
 - [26.0 (23A5297i) .vs 26.0 (23A5308g)](26_0_23A5297i__vs_26_0_23A5308g/README.md)
 - [26.0 beta 5 (23A5308g) .vs 26.0 beta 6 (23A5318c)](26_0_23A5308g__vs_26_0_23A5318c/README.md)
 - [26.0 beta 6 (23A5308g) .vs 26.0 beta 7 (23A5326a)](26_0_23A5318c__vs_26_0_23A5326a/README.md)
+- [26.0 beta 7 (23A5326a) .vs 26.0 beta 8 (23A5330a)](26_0_23A5326a__vs_26_0_23A5330a/README.md)
 
 ### Generating Diffs
 
