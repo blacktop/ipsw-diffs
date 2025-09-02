@@ -1,0 +1,187 @@
+## TextToSpeechVoiceBankingSupport
+
+> `/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingSupport.framework/TextToSpeechVoiceBankingSupport`
+
+```diff
+
+-677.0.0.0.0
+-  __TEXT.__text: 0x17b0f0
++677.1.0.0.0
++  __TEXT.__text: 0x17bdfc
+   __TEXT.__auth_stubs: 0x2c60
+   __TEXT.__objc_methlist: 0xc28
+   __TEXT.__const: 0x12c70
+
+   __DATA_CONST.__objc_superrefs: 0x20
+   __DATA_CONST.__objc_arraydata: 0x28
+   __AUTH_CONST.__auth_got: 0x1640
+-  __AUTH_CONST.__const: 0xb200
++  __AUTH_CONST.__const: 0xb258
+   __AUTH_CONST.__cfstring: 0x480
+   __AUTH_CONST.__objc_const: 0x2858
+   __AUTH_CONST.__objc_arrayobj: 0x30
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 71C5BC37-9857-35CB-82B9-909A2417B442
++  UUID: 2EC7D71D-3F64-3503-8341-B989D0C63A7D
+   Functions: 7605
+   Symbols:   3850
+   CStrings:  2183
+Symbols:
++ _block_copy_helper.100
++ _block_copy_helper.106
++ _block_copy_helper.115
++ _block_copy_helper.121
++ _block_copy_helper.130
++ _block_copy_helper.136
++ _block_copy_helper.160
++ _block_copy_helper.166
++ _block_copy_helper.175
++ _block_copy_helper.184
++ _block_copy_helper.193
++ _block_copy_helper.199
++ _block_copy_helper.208
++ _block_copy_helper.226
++ _block_copy_helper.235
++ _block_copy_helper.244
++ _block_copy_helper.250
++ _block_copy_helper.259
++ _block_copy_helper.265
++ _block_copy_helper.281
++ _block_copy_helper.34
++ _block_copy_helper.52
++ _block_copy_helper.61
++ _block_copy_helper.73
++ _block_copy_helper.91
++ _block_descriptor.102
++ _block_descriptor.108
++ _block_descriptor.117
++ _block_descriptor.123
++ _block_descriptor.132
++ _block_descriptor.138
++ _block_descriptor.162
++ _block_descriptor.168
++ _block_descriptor.177
++ _block_descriptor.186
++ _block_descriptor.195
++ _block_descriptor.201
++ _block_descriptor.210
++ _block_descriptor.228
++ _block_descriptor.237
++ _block_descriptor.246
++ _block_descriptor.252
++ _block_descriptor.261
++ _block_descriptor.267
++ _block_descriptor.283
++ _block_descriptor.36
++ _block_descriptor.54
++ _block_descriptor.63
++ _block_descriptor.75
++ _block_descriptor.93
++ _block_destroy_helper.101
++ _block_destroy_helper.107
++ _block_destroy_helper.116
++ _block_destroy_helper.122
++ _block_destroy_helper.131
++ _block_destroy_helper.137
++ _block_destroy_helper.161
++ _block_destroy_helper.167
++ _block_destroy_helper.176
++ _block_destroy_helper.185
++ _block_destroy_helper.194
++ _block_destroy_helper.200
++ _block_destroy_helper.209
++ _block_destroy_helper.227
++ _block_destroy_helper.236
++ _block_destroy_helper.245
++ _block_destroy_helper.251
++ _block_destroy_helper.260
++ _block_destroy_helper.266
++ _block_destroy_helper.282
++ _block_destroy_helper.35
++ _block_destroy_helper.53
++ _block_destroy_helper.62
++ _block_destroy_helper.74
++ _block_destroy_helper.92
++ _objectdestroy.104Tm
++ _objectdestroy.134Tm
++ _objectdestroy.197Tm
+- _block_copy_helper.102
+- _block_copy_helper.111
+- _block_copy_helper.117
+- _block_copy_helper.126
+- _block_copy_helper.132
+- _block_copy_helper.141
+- _block_copy_helper.147
+- _block_copy_helper.156
+- _block_copy_helper.162
+- _block_copy_helper.171
+- _block_copy_helper.180
+- _block_copy_helper.189
+- _block_copy_helper.195
+- _block_copy_helper.213
+- _block_copy_helper.222
+- _block_copy_helper.231
+- _block_copy_helper.240
+- _block_copy_helper.246
+- _block_copy_helper.273
+- _block_copy_helper.30
+- _block_copy_helper.39
+- _block_copy_helper.57
+- _block_copy_helper.78
+- _block_copy_helper.96
+- _block_descriptor.104
+- _block_descriptor.113
+- _block_descriptor.119
+- _block_descriptor.128
+- _block_descriptor.134
+- _block_descriptor.143
+- _block_descriptor.149
+- _block_descriptor.158
+- _block_descriptor.164
+- _block_descriptor.173
+- _block_descriptor.182
+- _block_descriptor.191
+- _block_descriptor.197
+- _block_descriptor.215
+- _block_descriptor.224
+- _block_descriptor.233
+- _block_descriptor.242
+- _block_descriptor.248
+- _block_descriptor.275
+- _block_descriptor.32
+- _block_descriptor.41
+- _block_descriptor.59
+- _block_descriptor.80
+- _block_descriptor.98
+- _block_destroy_helper.103
+- _block_destroy_helper.112
+- _block_destroy_helper.118
+- _block_destroy_helper.127
+- _block_destroy_helper.133
+- _block_destroy_helper.142
+- _block_destroy_helper.148
+- _block_destroy_helper.157
+- _block_destroy_helper.163
+- _block_destroy_helper.172
+- _block_destroy_helper.181
+- _block_destroy_helper.190
+- _block_destroy_helper.196
+- _block_destroy_helper.214
+- _block_destroy_helper.223
+- _block_destroy_helper.232
+- _block_destroy_helper.241
+- _block_destroy_helper.247
+- _block_destroy_helper.274
+- _block_destroy_helper.31
+- _block_destroy_helper.40
+- _block_destroy_helper.58
+- _block_destroy_helper.79
+- _block_destroy_helper.97
+- _objectdestroy.100Tm
+- _objectdestroy.130Tm
+- _objectdestroy.193Tm
+
+```

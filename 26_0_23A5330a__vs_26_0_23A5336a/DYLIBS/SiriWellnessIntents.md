@@ -1,0 +1,67 @@
+## SiriWellnessIntents
+
+> `/System/Library/PrivateFrameworks/SiriWellnessIntents.framework/SiriWellnessIntents`
+
+```diff
+
+ 3500.38.1.0.0
+-  __TEXT.__text: 0x1447c0
++  __TEXT.__text: 0x144ce8
+   __TEXT.__auth_stubs: 0x1340
+   __TEXT.__objc_methlist: 0x1180
+   __TEXT.__const: 0x4638
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1A9AA090-8B96-3C70-AFF7-7BF6FD12834E
++  UUID: 43227A6B-9B98-3A0E-AB91-1D23A8CAFAA8
+   Functions: 3933
+   Symbols:   11309
+   CStrings:  1109
+Functions:
+~ _$s19SiriWellnessIntents24LogQuantityIntentHandlerC6handle6intentAA0deF8ResponseCAA0deF0C_tYaFTY0_ : 4988 -> 5016
+~ _$s19SiriWellnessIntents24LogQuantityIntentHandlerC6handle6intentAA0deF8ResponseCAA0deF0C_tYaFTY2_ : 8732 -> 8760
+~ _$sIeghH_IeAgH_TR : 248 -> 268
+~ _$sIeAgH_ytIeAgHr_TR : 248 -> 268
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5 : 256 -> 276
+~ _$s19SiriWellnessIntents33GetAmbiguousDistanceIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY0_ : 332 -> 364
+~ _$s19SiriWellnessIntents33GetAmbiguousDistanceIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY2_ : 1128 -> 1156
+~ _$s19SiriWellnessIntents30GetHealthQuantityIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY0_ : 5192 -> 5220
+~ _$s19SiriWellnessIntents30GetHealthQuantityIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY2_ : 4132 -> 4160
+~ _$s19SiriWellnessIntents21UndoMedsIntentHandlerC6handle6intentAA0deF8ResponseCAA0deF0C_tYaFTY0_ : 1464 -> 1492
+~ _$s19SiriWellnessIntents38GetMenstruationPredictionIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY0_ : 324 -> 356
+~ _$s19SiriWellnessIntents38GetMenstruationPredictionIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY2_ : 536 -> 564
+~ _$s19SiriWellnessIntents31GetActivitySummaryIntentHandlerC6handle6intentAA0d9AcitivityfG8ResponseCAA0dkfG0C_tYaFTY0_ : 324 -> 356
+~ _$s19SiriWellnessIntents31GetActivitySummaryIntentHandlerC6handle6intentAA0d9AcitivityfG8ResponseCAA0dkfG0C_tYaFTY2_ : 544 -> 572
+~ _$s19SiriWellnessIntents35LogSpecificMedicationsIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY0_ : 1196 -> 1224
+~ _$s19SiriWellnessIntents35LogSpecificMedicationsIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY2_ : 20620 -> 20704
+~ _$s19SiriWellnessIntents22LogPeriodIntentHandlerC6handle6intentAA0deF8ResponseCAA0deF0C_tYaFTY0_ : 1196 -> 1224
+~ _$s19SiriWellnessIntents22LogPeriodIntentHandlerC6handle6intentAA0deF8ResponseCAA0deF0C_tYaFTY2_ : 3936 -> 3964
+~ _$s19SiriWellnessIntents34LogGenericMedicationsIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY0_ : 1196 -> 1224
+~ _$s19SiriWellnessIntents34LogGenericMedicationsIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY2_ : 11260 -> 11316
+~ _$s19SiriWellnessIntents27GenericMedicationsPersistor33_02409E86145BA3AA596D9418C9B819E0LLV14writeDoseEvent20medicationController10doseEvents14medStatusTakenAA03LogdE14IntentResponseCSo021HKMedicationExposableoP7ControlC_SaySo021HKMedicationExposableoP0CGSbtYaFTY0_ : 2356 -> 2384
+~ _$s19SiriWellnessIntents27GenericMedicationsPersistor33_02409E86145BA3AA596D9418C9B819E0LLV14writeDoseEvent20medicationController10doseEvents14medStatusTakenAA03LogdE14IntentResponseCSo021HKMedicationExposableoP7ControlC_SaySo021HKMedicationExposableoP0CGSbtYaFTY2_ : 604 -> 632
+~ _$s19SiriWellnessIntents27GenericMedicationsPersistor33_02409E86145BA3AA596D9418C9B819E0LLV14writeDoseEvent20medicationController10doseEvents14medStatusTakenAA03LogdE14IntentResponseCSo021HKMedicationExposableoP7ControlC_SaySo021HKMedicationExposableoP0CGSbtYaFTY4_ : 1480 -> 1508
+~ _$s19SiriWellnessIntents27GenericMedicationsPersistor33_02409E86145BA3AA596D9418C9B819E0LLV4save16isTimeframeToday14medStatusTaken23confirmedLogAsScheduledAA0vdE14IntentResponseCSb_S2btYaFTY2_ : 4956 -> 4984
+~ _$s19SiriWellnessIntents27GenericMedicationsPersistor33_02409E86145BA3AA596D9418C9B819E0LLV4save16isTimeframeToday14medStatusTaken23confirmedLogAsScheduledAA0vdE14IntentResponseCSb_S2btYaFTY6_ : 6752 -> 6808
+~ _$s19SiriWellnessIntents27GenericMedicationsPersistor33_02409E86145BA3AA596D9418C9B819E0LLV4save16isTimeframeToday14medStatusTaken23confirmedLogAsScheduledAA0vdE14IntentResponseCSb_S2btYaFTY10_ : 2388 -> 2416
+~ _$s19SiriWellnessIntents27GenericMedicationsPersistor33_02409E86145BA3AA596D9418C9B819E0LLV4save16isTimeframeToday14medStatusTaken23confirmedLogAsScheduledAA0vdE14IntentResponseCSb_S2btYaFTY12_ : 2388 -> 2416
+~ _$s19SiriWellnessIntents27GenericMedicationsPersistor33_02409E86145BA3AA596D9418C9B819E0LLV29getConfirmationLogAsScheduled10doseEventsAA0pdE14IntentResponseCSaySo30HKMedicationExposableDoseEventCG_tYaKFTY0_ : 1644 -> 1672
+~ _$s19SiriWellnessIntents27GenericMedicationsPersistor33_02409E86145BA3AA596D9418C9B819E0LLV29getConfirmationLogAsScheduled10doseEventsAA0pdE14IntentResponseCSaySo30HKMedicationExposableDoseEventCG_tYaKFTY2_ : 964 -> 992
+~ _$s19SiriWellnessIntents29GetSleepAnalysisIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY0_ : 1796 -> 1824
+~ _$s19SiriWellnessIntents29GetSleepAnalysisIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY2_ : 2348 -> 2376
+~ _$s19SiriWellnessIntents29GetBloodPressureIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY0_ : 1536 -> 1564
+~ _$s19SiriWellnessIntents31DeleteHealthSampleIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY0_ : 1708 -> 1736
+~ _$s19SiriWellnessIntents16MedStorageHelperC19sampleScheduleIDFor12dateIntervalSS10Foundation04DateK0V_tYaFTY0_ : 324 -> 356
+~ _$s19SiriWellnessIntents16MedStorageHelperC19sampleScheduleIDFor12dateIntervalSS10Foundation04DateK0V_tYaFTY2_ : 1316 -> 1344
+~ _$s19SiriWellnessIntents16MedStorageHelperC14displayNameFor10identifierS2SSg_tYaFTY0_ : 324 -> 356
+~ _$s19SiriWellnessIntents16MedStorageHelperC14displayNameFor10identifierS2SSg_tYaFTY2_ : 1320 -> 1348
+~ _$s19SiriWellnessIntents16MedStorageHelperC012buildMatchedD4Name4from27shouldIncludeAsNeededParamsAA0hdI0CSgSo30HKMedicationExposableDoseEventC_SbtYaFTY0_ : 324 -> 356
+~ _$s19SiriWellnessIntents16MedStorageHelperC012buildMatchedD4Name4from27shouldIncludeAsNeededParamsAA0hdI0CSgSo30HKMedicationExposableDoseEventC_SbtYaFTY2_ : 1324 -> 1352
+~ _$s19SiriWellnessIntents29LogBloodPressureIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY0_ : 1196 -> 1224
+~ _$s19SiriWellnessIntents29LogBloodPressureIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY2_ : 5176 -> 5204
+~ _$s19SiriWellnessIntents29GetCardioFitnessIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY0_ : 324 -> 356
+~ _$s19SiriWellnessIntents29GetCardioFitnessIntentHandlerC6handle6intentAA0defG8ResponseCAA0defG0C_tYaFTY2_ : 2340 -> 2368
+
+```

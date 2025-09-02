@@ -1,0 +1,484 @@
+## PhotoImaging
+
+> `/System/Library/PrivateFrameworks/PhotoImaging.framework/PhotoImaging`
+
+```diff
+
+-802.43.252.0.0
+-  __TEXT.__text: 0x19bdd0
++802.43.254.0.0
++  __TEXT.__text: 0x19be64
+   __TEXT.__auth_stubs: 0x2170
+   __TEXT.__delay_helper: 0x158
+-  __TEXT.__objc_methlist: 0x10cc0
++  __TEXT.__objc_methlist: 0x10cd8
+   __TEXT.__const: 0x8064
+   __TEXT.__dlopen_cstrs: 0x23a
+   __TEXT.__swift5_typeref: 0xbb
+
+   __TEXT.__swift5_types: 0x8
+   __TEXT.__swift_as_entry: 0x14
+   __TEXT.__swift_as_ret: 0x14
+-  __TEXT.__gcc_except_tab: 0x44b8
++  __TEXT.__gcc_except_tab: 0x44bc
+   __TEXT.__unwind_info: 0x3e50
+   __TEXT.__eh_frame: 0x2d0
+   __TEXT.__objc_classname: 0x2b04
+-  __TEXT.__objc_methname: 0x28472
++  __TEXT.__objc_methname: 0x28562
+   __TEXT.__objc_methtype: 0x4291
+-  __TEXT.__objc_stubs: 0x1e500
++  __TEXT.__objc_stubs: 0x1e5a0
+   __DATA_CONST.__got: 0x1d30
+   __DATA_CONST.__const: 0x30c0
+   __DATA_CONST.__objc_classlist: 0xba0
+   __DATA_CONST.__objc_catlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x168
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x93f8
++  __DATA_CONST.__objc_selrefs: 0x9428
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x558
+   __DATA_CONST.__objc_arraydata: 0x7630
+   __AUTH_CONST.__auth_got: 0x10d0
+   __AUTH_CONST.__const: 0x3d18
+   __AUTH_CONST.__cfstring: 0x14aa0
+-  __AUTH_CONST.__objc_const: 0x1f5c8
++  __AUTH_CONST.__objc_const: 0x1f5f8
+   __AUTH_CONST.__objc_intobj: 0xa50
+   __AUTH_CONST.__objc_doubleobj: 0x950
+   __AUTH_CONST.__objc_arrayobj: 0x288
+
+   __AUTH_CONST.__objc_floatobj: 0x90
+   __AUTH.__objc_data: 0xef0
+   __AUTH.__data: 0x50
+-  __DATA.__objc_ivar: 0x12b0
++  __DATA.__objc_ivar: 0x12b4
+   __DATA.__data: 0x1310
+   __DATA.__bss: 0x710
+   __DATA_DIRTY.__objc_data: 0x6590
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E08BC836-C0AF-347A-B7AC-BA79803FE040
+-  Functions: 6556
+-  Symbols:   23330
+-  CStrings:  14351
++  UUID: E4C0BCAB-02BF-34AB-930A-A95BD1F54C04
++  Functions: 6558
++  Symbols:   23340
++  CStrings:  14359
+ 
+Symbols:
++ +[PISegmentation _upgradeWallpaperAtURL:existingEditConfiguration:exportToURL:options:completion:]
++ -[PIParallaxLayerStackRequest headroomDisabled]
++ -[PIParallaxLayerStackRequest setHeadroomDisabled:]
++ GCC_except_table4994
++ GCC_except_table5306
++ GCC_except_table5314
++ GCC_except_table5323
++ GCC_except_table5338
++ GCC_except_table5388
++ GCC_except_table5521
++ GCC_except_table5606
++ GCC_except_table5661
++ GCC_except_table5755
++ GCC_except_table5760
++ GCC_except_table5761
++ GCC_except_table5766
++ GCC_except_table5767
++ GCC_except_table5776
++ GCC_except_table5777
++ GCC_except_table5828
++ GCC_except_table5833
++ GCC_except_table5845
++ GCC_except_table5846
++ GCC_except_table5881
++ GCC_except_table5882
++ GCC_except_table5885
++ GCC_except_table5888
++ GCC_except_table5925
++ GCC_except_table6035
++ GCC_except_table6046
++ GCC_except_table6057
++ GCC_except_table6058
++ GCC_except_table6089
++ GCC_except_table6246
++ GCC_except_table6271
++ GCC_except_table6274
++ GCC_except_table6280
++ GCC_except_table6296
++ GCC_except_table6313
++ GCC_except_table6321
++ GCC_except_table6325
++ GCC_except_table6326
++ GCC_except_table6334
++ GCC_except_table6344
++ GCC_except_table6345
++ GCC_except_table6350
++ GCC_except_table6356
++ GCC_except_table6357
++ GCC_except_table6369
++ _MediaAnalysisLibraryCore.frameworkLibrary.27200
++ _NUAssertLogger.21721
++ _NUAssertLogger.21841
++ _NUAssertLogger.22033
++ _NUAssertLogger.22519
++ _NUAssertLogger.23754
++ _NUAssertLogger.24174
++ _NUAssertLogger.24372
++ _NUAssertLogger.25662
++ _NUAssertLogger.26046
++ _NUAssertLogger.26393
++ _NUAssertLogger.26551
++ _NUAssertLogger.27078
++ _NUAssertLogger.27337
++ _NUAssertLogger.27574
++ _NUAssertLogger.28133
++ _NUAssertLogger.28527
++ _NUAssertLogger.28736
++ _NUAssertLogger.28925
++ _NUAssertLogger.29060
++ _NUAssertLogger.29291
++ _NUAssertLogger.29370
++ _NUAssertLogger.29569
++ _NULogger.24380
++ _NULogger.25783
++ _NULogger.27691
++ _NURenderLogger.22986
++ _OBJC_IVAR_$_PIParallaxLayerStackRequest._headroomDisabled
++ __ZL14NUAssertLoggerv.26600
++ __ZL14NUAssertLoggerv.27451
++ __ZL14NUAssertLoggerv.28351
++ ___98+[PISegmentation _upgradeWallpaperAtURL:existingEditConfiguration:exportToURL:options:completion:]_block_invoke
++ ___98+[PISegmentation _upgradeWallpaperAtURL:existingEditConfiguration:exportToURL:options:completion:]_block_invoke.159
++ ___Block_byref_object_copy_.26072
++ ___Block_byref_object_copy_.26620
++ ___Block_byref_object_copy_.27173
++ ___Block_byref_object_dispose_.26073
++ ___Block_byref_object_dispose_.26621
++ ___Block_byref_object_dispose_.27174
++ ___MediaAnalysisLibraryCore_block_invoke.27201
++ ___NUAssertLogger_block_invoke.21758
++ ___NUAssertLogger_block_invoke.21840
++ ___NUAssertLogger_block_invoke.22045
++ ___NUAssertLogger_block_invoke.22543
++ ___NUAssertLogger_block_invoke.23778
++ ___NUAssertLogger_block_invoke.24190
++ ___NUAssertLogger_block_invoke.25747
++ ___NUAssertLogger_block_invoke.26091
++ ___NUAssertLogger_block_invoke.26414
++ ___NUAssertLogger_block_invoke.26574
++ ___NUAssertLogger_block_invoke.26901
++ ___NUAssertLogger_block_invoke.27032
++ ___NUAssertLogger_block_invoke.27363
++ ___NUAssertLogger_block_invoke.27727
++ ___NUAssertLogger_block_invoke.28147
++ ___NUAssertLogger_block_invoke.28555
++ ___NUAssertLogger_block_invoke.28751
++ ___NUAssertLogger_block_invoke.28941
++ ___NUAssertLogger_block_invoke.29080
++ ___NUAssertLogger_block_invoke.29312
++ ___NUAssertLogger_block_invoke.29403
++ ___NUAssertLogger_block_invoke.29568
++ ___NULogger_block_invoke.21748
++ ___NULogger_block_invoke.22537
++ ___NULogger_block_invoke.23637
++ ___NULogger_block_invoke.24371
++ ___NULogger_block_invoke.25788
++ ___NULogger_block_invoke.26152
++ ___NULogger_block_invoke.27144
++ ___NULogger_block_invoke.27697
++ ___NULogger_block_invoke.29594
++ ___NULogger_block_invoke.29688
++ ___NURenderLogger_block_invoke.23015
++ ____ZL14NUAssertLoggerv_block_invoke.26647
++ ____ZL14NUAssertLoggerv_block_invoke.27467
++ ____ZL14NUAssertLoggerv_block_invoke.28393
++ ____ZL8NULoggerv_block_invoke.27494
++ ___block_descriptor_64_e8_32s40s48s_e85_"PFPosterEditConfiguration"24?0"PFWallpaperCompoundLayerStack"8"PFPosterLayout"16ls32l8s40l8s48l8
++ ___block_literal_global.105.28062
++ ___block_literal_global.116.28057
++ ___block_literal_global.118.22978
++ ___block_literal_global.122.28052
++ ___block_literal_global.1260.23775
++ ___block_literal_global.1262.23120
++ ___block_literal_global.128.26411
++ ___block_literal_global.143.28038
++ ___block_literal_global.166.28024
++ ___block_literal_global.176.27998
++ ___block_literal_global.18.26879
++ ___block_literal_global.182.24171
++ ___block_literal_global.184.27989
++ ___block_literal_global.194.22853
++ ___block_literal_global.21755
++ ___block_literal_global.21825
++ ___block_literal_global.22046
++ ___block_literal_global.22242
++ ___block_literal_global.22312
++ ___block_literal_global.23028
++ ___block_literal_global.23153
++ ___block_literal_global.23952
++ ___block_literal_global.25744
++ ___block_literal_global.26.29679
++ ___block_literal_global.26145
++ ___block_literal_global.26296
++ ___block_literal_global.26459
++ ___block_literal_global.26563
++ ___block_literal_global.26596
++ ___block_literal_global.26885
++ ___block_literal_global.27017
++ ___block_literal_global.27360
++ ___block_literal_global.27464
++ ___block_literal_global.27747
++ ___block_literal_global.28166
++ ___block_literal_global.28390
++ ___block_literal_global.28552
++ ___block_literal_global.28734
++ ___block_literal_global.29077
++ ___block_literal_global.29318
++ ___block_literal_global.29481
++ ___block_literal_global.29527
++ ___block_literal_global.29676
++ ___block_literal_global.309.27119
++ ___block_literal_global.38.26848
++ ___block_literal_global.54.29309
++ ___block_literal_global.56.22974
++ ___block_literal_global.56.26230
++ ___block_literal_global.56.28105
++ ___block_literal_global.58.22972
++ ___block_literal_global.63.21733
++ ___block_literal_global.642
++ ___block_literal_global.644
++ ___block_literal_global.71.28094
++ ___block_literal_global.81.22231
++ ___block_literal_global.91.22222
++ ___block_literal_global.93.29400
++ ___block_literal_global.95.26571
++ ___getVCPMediaAnalysisServiceClass_block_invoke.27193
++ _audit_stringMediaAnalysis.27212
++ _colorBalanceKernels.colorBalanceKernels.26488
++ _colorBalanceKernels.onceToken.26487
++ _getVCPMediaAnalysisServiceClass.softClass.27192
++ _initialize.onceToken.23052
++ _initialize.onceToken.26196
++ _objc_msgSend$_upgradeWallpaperAtURL:existingEditConfiguration:exportToURL:options:completion:
++ _objc_msgSend$additionalTitleLabelHeight
++ _objc_msgSend$headroomDisabled
++ _objc_msgSend$landscapeAdditionalTitleLabelHeight
++ _objc_msgSend$setAdditionalTitleLabelHeight:
++ _objc_msgSend$setLandscapeAdditionalTitleLabelHeight:
++ _roiCallback_block_invoke.26566
++ _s_log.24368
++ _s_log.26064
++ _s_signpost.24369
++ _s_signpost.26065
+- +[PISegmentation _upgradeWallpaperAtURL:exportToURL:options:completion:]
+- GCC_except_table4992
+- GCC_except_table5304
+- GCC_except_table5312
+- GCC_except_table5321
+- GCC_except_table5336
+- GCC_except_table5386
+- GCC_except_table5519
+- GCC_except_table5604
+- GCC_except_table5657
+- GCC_except_table5753
+- GCC_except_table5757
+- GCC_except_table5758
+- GCC_except_table5762
+- GCC_except_table5763
+- GCC_except_table5768
+- GCC_except_table5769
+- GCC_except_table5826
+- GCC_except_table5831
+- GCC_except_table5842
+- GCC_except_table5843
+- GCC_except_table5878
+- GCC_except_table5879
+- GCC_except_table5883
+- GCC_except_table5886
+- GCC_except_table5921
+- GCC_except_table6033
+- GCC_except_table6044
+- GCC_except_table6051
+- GCC_except_table6052
+- GCC_except_table6087
+- GCC_except_table6244
+- GCC_except_table6267
+- GCC_except_table6272
+- GCC_except_table6276
+- GCC_except_table6294
+- GCC_except_table6311
+- GCC_except_table6319
+- GCC_except_table6323
+- GCC_except_table6324
+- GCC_except_table6332
+- GCC_except_table6342
+- GCC_except_table6343
+- GCC_except_table6346
+- GCC_except_table6352
+- GCC_except_table6355
+- GCC_except_table6367
+- _MediaAnalysisLibraryCore.frameworkLibrary.27204
+- _NUAssertLogger.21726
+- _NUAssertLogger.21846
+- _NUAssertLogger.22038
+- _NUAssertLogger.22524
+- _NUAssertLogger.23753
+- _NUAssertLogger.24173
+- _NUAssertLogger.24370
+- _NUAssertLogger.25666
+- _NUAssertLogger.26050
+- _NUAssertLogger.26397
+- _NUAssertLogger.26555
+- _NUAssertLogger.27082
+- _NUAssertLogger.27341
+- _NUAssertLogger.27578
+- _NUAssertLogger.28137
+- _NUAssertLogger.28531
+- _NUAssertLogger.28740
+- _NUAssertLogger.28929
+- _NUAssertLogger.29064
+- _NUAssertLogger.29295
+- _NUAssertLogger.29374
+- _NUAssertLogger.29573
+- _NULogger.24378
+- _NULogger.25787
+- _NULogger.27695
+- _NURenderLogger.22991
+- __ZL14NUAssertLoggerv.26604
+- __ZL14NUAssertLoggerv.27455
+- __ZL14NUAssertLoggerv.28355
+- ___72+[PISegmentation _upgradeWallpaperAtURL:exportToURL:options:completion:]_block_invoke
+- ___72+[PISegmentation _upgradeWallpaperAtURL:exportToURL:options:completion:]_block_invoke.159
+- ___Block_byref_object_copy_.26076
+- ___Block_byref_object_copy_.26624
+- ___Block_byref_object_copy_.27177
+- ___Block_byref_object_dispose_.26077
+- ___Block_byref_object_dispose_.26625
+- ___Block_byref_object_dispose_.27178
+- ___MediaAnalysisLibraryCore_block_invoke.27205
+- ___NUAssertLogger_block_invoke.21763
+- ___NUAssertLogger_block_invoke.21845
+- ___NUAssertLogger_block_invoke.22050
+- ___NUAssertLogger_block_invoke.22548
+- ___NUAssertLogger_block_invoke.23777
+- ___NUAssertLogger_block_invoke.24189
+- ___NUAssertLogger_block_invoke.25751
+- ___NUAssertLogger_block_invoke.26095
+- ___NUAssertLogger_block_invoke.26418
+- ___NUAssertLogger_block_invoke.26578
+- ___NUAssertLogger_block_invoke.26905
+- ___NUAssertLogger_block_invoke.27036
+- ___NUAssertLogger_block_invoke.27367
+- ___NUAssertLogger_block_invoke.27731
+- ___NUAssertLogger_block_invoke.28151
+- ___NUAssertLogger_block_invoke.28559
+- ___NUAssertLogger_block_invoke.28755
+- ___NUAssertLogger_block_invoke.28945
+- ___NUAssertLogger_block_invoke.29084
+- ___NUAssertLogger_block_invoke.29316
+- ___NUAssertLogger_block_invoke.29407
+- ___NUAssertLogger_block_invoke.29572
+- ___NULogger_block_invoke.21753
+- ___NULogger_block_invoke.22542
+- ___NULogger_block_invoke.23636
+- ___NULogger_block_invoke.24369
+- ___NULogger_block_invoke.25792
+- ___NULogger_block_invoke.26156
+- ___NULogger_block_invoke.27148
+- ___NULogger_block_invoke.27701
+- ___NULogger_block_invoke.29598
+- ___NULogger_block_invoke.29692
+- ___NURenderLogger_block_invoke.23020
+- ____ZL14NUAssertLoggerv_block_invoke.26651
+- ____ZL14NUAssertLoggerv_block_invoke.27471
+- ____ZL14NUAssertLoggerv_block_invoke.28397
+- ____ZL8NULoggerv_block_invoke.27498
+- ___block_descriptor_56_e8_32s40s_e85_"PFPosterEditConfiguration"24?0"PFWallpaperCompoundLayerStack"8"PFPosterLayout"16ls32l8s40l8
+- ___block_literal_global.105.28066
+- ___block_literal_global.116.28061
+- ___block_literal_global.118.22983
+- ___block_literal_global.122.28056
+- ___block_literal_global.1260.23774
+- ___block_literal_global.1262.23125
+- ___block_literal_global.128.26415
+- ___block_literal_global.143.28042
+- ___block_literal_global.166.28028
+- ___block_literal_global.176.28002
+- ___block_literal_global.18.26883
+- ___block_literal_global.182.24170
+- ___block_literal_global.184.27993
+- ___block_literal_global.194.22858
+- ___block_literal_global.21760
+- ___block_literal_global.21830
+- ___block_literal_global.22051
+- ___block_literal_global.22247
+- ___block_literal_global.22317
+- ___block_literal_global.23033
+- ___block_literal_global.23158
+- ___block_literal_global.23951
+- ___block_literal_global.25748
+- ___block_literal_global.26.29683
+- ___block_literal_global.26149
+- ___block_literal_global.26300
+- ___block_literal_global.26463
+- ___block_literal_global.26567
+- ___block_literal_global.26600
+- ___block_literal_global.26889
+- ___block_literal_global.27021
+- ___block_literal_global.27364
+- ___block_literal_global.27468
+- ___block_literal_global.27751
+- ___block_literal_global.28170
+- ___block_literal_global.28394
+- ___block_literal_global.28556
+- ___block_literal_global.28738
+- ___block_literal_global.29081
+- ___block_literal_global.29322
+- ___block_literal_global.29485
+- ___block_literal_global.29531
+- ___block_literal_global.29680
+- ___block_literal_global.309.27123
+- ___block_literal_global.38.26852
+- ___block_literal_global.54.29313
+- ___block_literal_global.56.22979
+- ___block_literal_global.56.26234
+- ___block_literal_global.56.28109
+- ___block_literal_global.58.22977
+- ___block_literal_global.63.21738
+- ___block_literal_global.637.24383
+- ___block_literal_global.639
+- ___block_literal_global.71.28098
+- ___block_literal_global.81.22236
+- ___block_literal_global.91.22227
+- ___block_literal_global.93.29404
+- ___block_literal_global.95.26575
+- ___getVCPMediaAnalysisServiceClass_block_invoke.27197
+- _audit_stringMediaAnalysis.27216
+- _colorBalanceKernels.colorBalanceKernels.26492
+- _colorBalanceKernels.onceToken.26491
+- _getVCPMediaAnalysisServiceClass.softClass.27196
+- _initialize.onceToken.23057
+- _initialize.onceToken.26200
+- _objc_msgSend$_upgradeWallpaperAtURL:exportToURL:options:completion:
+- _roiCallback_block_invoke.26570
+- _s_log.24366
+- _s_log.26068
+- _s_signpost.24367
+- _s_signpost.26069
+CStrings:
++ "TB,N,V_headroomDisabled"
++ "_headroomDisabled"
++ "_upgradeWallpaperAtURL:existingEditConfiguration:exportToURL:options:completion:"
++ "additionalTitleLabelHeight"
++ "headroomDisabled"
++ "landscapeAdditionalTitleLabelHeight"
++ "setAdditionalTitleLabelHeight:"
++ "setHeadroomDisabled:"
++ "setLandscapeAdditionalTitleLabelHeight:"
+- "_upgradeWallpaperAtURL:exportToURL:options:completion:"
+
+```
