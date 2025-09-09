@@ -1,0 +1,53 @@
+## com.apple.driver.usb.AppleSynopsysUSBXHCI
+
+> `com.apple.driver.usb.AppleSynopsysUSBXHCI`
+
+```diff
+
+ 679.0.3.0.0
+-  __TEXT.__cstring: 0x4130
+-  __TEXT.__os_log: 0x4cfb
++  __TEXT.__cstring: 0x4532
++  __TEXT.__os_log: 0x6a34
+   __TEXT.__const: 0x20
+-  __TEXT_EXEC.__text: 0x38fe0
++  __TEXT_EXEC.__text: 0x4b1fc
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+-  __DATA.__common: 0x290
+-  __DATA.__bss: 0x10
+-  __DATA_CONST.__auth_got: 0x2b8
++  __DATA.__common: 0x2b8
++  __DATA.__bss: 0x18
++  __DATA_CONST.__auth_got: 0x2c8
+   __DATA_CONST.__got: 0x118
+-  __DATA_CONST.__mod_init_func: 0x80
+-  __DATA_CONST.__mod_term_func: 0x80
+-  __DATA_CONST.__const: 0x7820
+-  __DATA_CONST.__kalloc_type: 0x480
+-  UUID: 4F0A5A03-D7E7-3382-BBB6-E4BBF17ED864
+-  Functions: 549
++  __DATA_CONST.__mod_init_func: 0x88
++  __DATA_CONST.__mod_term_func: 0x88
++  __DATA_CONST.__const: 0x8318
++  __DATA_CONST.__kalloc_type: 0x4c0
++  UUID: 18E98B79-64C8-36FB-B625-98A500E9ACCF
++  Functions: 602
+   Symbols:   0
+-  CStrings:  380
++  CStrings:  396
+ 
+CStrings:
++ "%s@%s: %s::%s: DVFM_IF_BWR_AGENT_INTERFACE_AGENT_BWR = 0x%llx\n"
++ "%s@%s: %s::%s: PMC disabled via boot arg\n"
++ "%s@%s: %s::%s: creating _pmcBWRRegistersMap failed\n"
++ "%s@%s: %s::%s: function-vote_force_wakeup_dram not found\n"
++ "%s@%s: %s::%s: in bandwidth: %u KB/µFrame, out bandwidth: %u KB/µFrame\n"
++ "12111112122212121121111122222222222222222222222222222222222222222222222222222222222222221212112111121211222222222222222222222222222222222222222222222222212111111122212222222211122221111222222221111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111122111111111211112211111112112111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111112"
++ "AppleT8150USBXHCI"
++ "AppleT8150USBXHCI.cpp"
++ "function-vote_force_wakeup_dram"
++ "site.AppleT8150USBXHCI"
++ "usbdrd-disablepmcbwr"
+
+```

@@ -1,0 +1,59 @@
+## SiriInformationSearch
+
+> `/System/Library/PrivateFrameworks/SiriInformationSearch.framework/SiriInformationSearch`
+
+```diff
+
+ 3500.67.2.0.0
+-  __TEXT.__text: 0x1fea04
++  __TEXT.__text: 0x1fed10
+   __TEXT.__auth_stubs: 0x85d0
+   __TEXT.__objc_methlist: 0x83c
+   __TEXT.__const: 0x83c4
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 786A9A5F-A488-3990-912A-9EF55DC5070B
++  UUID: 25819C69-50DF-3E25-948B-856E71E2C4EA
+   Functions: 7438
+   Symbols:   23123
+   CStrings:  2785
+Functions:
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5 : 220 -> 248
+~ _$s21SiriInformationSearch06PommesC7ServiceC16searchInfiEntity7requestAA0D8ResponseCAA0dC10RequestXPCC_tYaKF : 260 -> 292
+~ _$s21SiriInformationSearch06PommesC7ServiceC16searchInfiEntity7requestAA0D8ResponseCAA0dC10RequestXPCC_tYaKFyyYacfU_To : 300 -> 328
+~ _$s21SiriInformationSearch06PommesC7ServiceC016searchToolGlobalC07requestAA0D8ResponseCAA0cgH10RequestXPCC_tYaKFTY0_ : 444 -> 476
+~ _$sIeghH_IeAgH_TR : 204 -> 232
+~ _$sIeAgH_ytIeAgHr_TR : 204 -> 232
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5 : 220 -> 248
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRs6ResultOy21SiriInformationSearch14PommesResponseCsAA_pG_TG5 : 216 -> 244
+~ _$s21SiriInformationSearch06PommesC7ServiceC16searchInfiEntity7requestAA0D8ResponseCAA0dC10RequestXPCC_tYaKFTj : 256 -> 288
+~ _$s21SiriInformationSearch06PommesC7ServiceC16searchInfiEntity7request12timeoutInSecAA0D8ResponseCAA0dC10RequestXPCC_s6UInt64VtYaKFTj : 264 -> 296
+~ _$s21SiriInformationSearch06PommesC7ServiceC016searchToolGlobalC07requestAA0D8ResponseCAA0cgH10RequestXPCC_tYaKFTj : 256 -> 288
+~ _$s21SiriInformationSearch24PommesEngagementProtocolP03tapE017engagementContext4with10PegasusAPI031Apple_Parsec_Responseframework_e9_V1alpha_E8ResponseVAG0m1_n1_o1_e1_I0V_AG0m1_n1_c1_k5QueryI0VtYaKFTj : 288 -> 324
+~ _$s21SiriInformationSearch27MarketplaceInfoDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tKFyyYacfU0_TY0_ : 628 -> 660
+~ _$s21SiriInformationSearch15PerformanceUtilC17recordMeasurement3for03logG04date6fileId10lineNumber15callingFunction5blockxSS_Sb10Foundation4DateVs12StaticStringVSiAPxyYaKXEtYaKlFTY0_ : 420 -> 448
+~ _$s21SiriInformationSearch15PerformanceUtilC17recordMeasurement3for03logG04date6fileId10lineNumber15callingFunction5blockxSS_Sb10Foundation4DateVs12StaticStringVSiAPxyYaKXEtYaKlFTj : 368 -> 396
+~ _$s21SiriInformationSearch13ResponseCacheC5store8response10expirationSbAA06PommesD0C_SdtKF : 3980 -> 3984
+~ _$s21SiriInformationSearch13ResponseCacheC05fetchD04with12domainWarmupAA06PommesD0CSgAA0jC7RequestV_AA06DomainI0CtKF : 4448 -> 4308
+~ _$s21SiriInformationSearch13ResponseCacheC6delete4path9requestId015pommesCandidateI06reasony10Foundation3URLV_SSSg0aB5Types06PommeskI0OSgSo48POMMESSchemaPOMMESCacheInvalidationStartedReasonVtKF : 1660 -> 1668
+~ _$s21SiriInformationSearch13ResponseCacheC5purge19expirationThreshold9requestId015pommesCandidateJ06reasons5Int32VSd_SSSg0aB5Types06PommeslJ0OSgSo48POMMESSchemaPOMMESCacheInvalidationStartedReasonVtKF : 1952 -> 1960
+~ _$s21SiriInformationSearch13ResponseCacheC5purge8response6reasons5Int32VAA06PommesD0C_So48POMMESSchemaPOMMESCacheInvalidationStartedReasonVtKF : 2296 -> 2292
+~ _$s21SiriInformationSearch13ResponseCacheC12createTables33_78A27A4CF3DECC0665A56F64C6173B23LLyyKF : 1536 -> 1532
+~ _$s21SiriInformationSearch04SageC0C6search5query8locationAA14PommesResponseCSgSS_So10CLLocationCSgtYaF : 288 -> 320
+~ _$s21SiriInformationSearch04SageC0C6search5query14clientEntities8locationAA14PommesResponseCSS_Say10PegasusAPI013Apple_Parsec_A21_Context_ClientEntityVGSo10CLLocationCSgtYaKFTY0_ : 2072 -> 2104
+~ _$s21SiriInformationSearch04SageC0C6search0E11ToolRequestAA14PommesResponseCAA0cf6GlobalG3XPCC_tYaKFTY0_ : 380 -> 412
+~ _$s21SiriInformationSearch04SageC0C12searchRemote33_F6B909C548DB8AAB838610AF9476D5CALL06pommesC7Request14clientEntities8location7timeoutAA14PommesResponseCAA0ucP0V_Say10PegasusAPI013Apple_Parsec_A21_Context_ClientEntityVGSo10CLLocationCSgSitYaKFAKScgyAKs5Error_pGzYaKXEfU_AKyYaKcfU_ : 248 -> 280
+~ _$s21SiriInformationSearch04SageC0C6search5query8locationAA14PommesResponseCSgSS_So10CLLocationCSgtYaFTj : 280 -> 312
+~ _$s21SiriInformationSearch04SageC0C6search5query14clientEntities8locationAA14PommesResponseCSS_Say10PegasusAPI013Apple_Parsec_A21_Context_ClientEntityVGSo10CLLocationCSgtYaKFTj : 288 -> 320
+~ _$s21SiriInformationSearch04SageC0C6search7request14clientEntities8location0E12ToolClientIdAA14PommesResponseCAA0mC7RequestV_Say10PegasusAPI013Apple_Parsec_a9_Context_K6EntityVGSo10CLLocationCSgSSSgtYaKFTj : 304 -> 336
+~ _$s21SiriInformationSearch04SageC0C6search0E11ToolRequestAA14PommesResponseCAA0cf6GlobalG3XPCC_tYaKFTj : 256 -> 288
+~ _$s21SiriInformationSearch18PommesXPCSearchingP16searchInfiEntity7requestAA0D8ResponseCAA0dC10RequestXPCC_tYaKFTj : 260 -> 296
+~ _$s21SiriInformationSearch16SagePegasusProxyC6search0G7Request14clientEntitiesAA0eC8ResponseVAA06PommescH0V_Say0E3API013Apple_Parsec_A21_Context_ClientEntityVGtYaKFTj : 292 -> 324
+~ _$s21SiriInformationSearch04SageC16RequestProcessorC6searchAA14PommesResponseCyYaKFTY0_ : 368 -> 404
+~ _$s21SiriInformationSearch04SageC16RequestProcessorC21handlePegasusResponse33_5292F9C8DB5006AF15A85D39EEA3A63BLLyAA06PommesI0CAA0hcI0VYaKFTY0_ : 5392 -> 5424
+~ _$s21SiriInformationSearch04SageC16RequestProcessorC6searchAA14PommesResponseCyYaKFTj : 240 -> 272
+~ _$s21SiriInformationSearch27PommesPhoneCallStateManagerC013fetchIsUserOneF09requestIdSbSS_tYaFTj : 264 -> 296
+
+```

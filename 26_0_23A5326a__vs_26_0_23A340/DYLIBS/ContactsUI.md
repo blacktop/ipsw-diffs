@@ -1,0 +1,614 @@
+## ContactsUI
+
+> `/System/Library/Frameworks/ContactsUI.framework/ContactsUI`
+
+```diff
+
+-1424.100.1.2.5
+-  __TEXT.__text: 0x378464
++1424.100.1.2.8
++  __TEXT.__text: 0x3786e4
+   __TEXT.__auth_stubs: 0x56a0
+   __TEXT.__objc_methlist: 0x38b94
+   __TEXT.__dlopen_cstrs: 0x17a3
+
+   __TEXT.__swift_as_ret: 0x94
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_protos: 0x14
+-  __TEXT.__gcc_except_tab: 0x3694
++  __TEXT.__gcc_except_tab: 0x36d8
+   __TEXT.__ustring: 0x79a
+-  __TEXT.__unwind_info: 0xde10
++  __TEXT.__unwind_info: 0xde20
+   __TEXT.__eh_frame: 0x2408
+   __TEXT.__objc_classname: 0x742d
+-  __TEXT.__objc_methname: 0x79f4d
++  __TEXT.__objc_methname: 0x79f9a
+   __TEXT.__objc_methtype: 0x105b3
+-  __TEXT.__objc_stubs: 0x4fb40
++  __TEXT.__objc_stubs: 0x4fb80
+   __DATA_CONST.__got: 0x28b0
+-  __DATA_CONST.__const: 0x6668
++  __DATA_CONST.__const: 0x66b8
+   __DATA_CONST.__objc_classlist: 0x1758
+   __DATA_CONST.__objc_catlist: 0x130
+   __DATA_CONST.__objc_protolist: 0x968
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x180b0
++  __DATA_CONST.__objc_selrefs: 0x180c0
+   __DATA_CONST.__objc_protorefs: 0x1a0
+   __DATA_CONST.__objc_superrefs: 0xf28
+   __DATA_CONST.__objc_arraydata: 0x5d8
+   __AUTH_CONST.__auth_got: 0x2b60
+-  __AUTH_CONST.__const: 0xa560
++  __AUTH_CONST.__const: 0xa5b8
+   __AUTH_CONST.__cfstring: 0xb880
+   __AUTH_CONST.__objc_const: 0x58848
+   __AUTH_CONST.__objc_doubleobj: 0xd0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F8D47E9D-4B55-3E77-ABFD-5FBE4F54039B
+-  Functions: 24295
+-  Symbols:   64131
+-  CStrings:  24891
++  UUID: E9DFE9E5-5728-3942-9D49-4E0AC5078225
++  Functions: 24300
++  Symbols:   64142
++  CStrings:  24893
+ 
+Symbols:
++ GCC_except_table14075
++ GCC_except_table14082
++ GCC_except_table14119
++ GCC_except_table14377
++ GCC_except_table14380
++ GCC_except_table14486
++ GCC_except_table14765
++ GCC_except_table14837
++ GCC_except_table14958
++ GCC_except_table14962
++ GCC_except_table15034
++ GCC_except_table15100
++ GCC_except_table15110
++ GCC_except_table15114
++ GCC_except_table15135
++ GCC_except_table15304
++ GCC_except_table15405
++ GCC_except_table15485
++ GCC_except_table15489
++ GCC_except_table15507
++ GCC_except_table15557
++ GCC_except_table15680
++ GCC_except_table15984
++ GCC_except_table15999
++ GCC_except_table16015
++ GCC_except_table16028
++ GCC_except_table16029
++ GCC_except_table16033
++ GCC_except_table16034
++ GCC_except_table16054
++ GCC_except_table16130
++ GCC_except_table16518
++ GCC_except_table16527
++ GCC_except_table16621
++ GCC_except_table16684
++ GCC_except_table16724
++ GCC_except_table16854
++ GCC_except_table17131
++ GCC_except_table17135
++ GCC_except_table17599
++ GCC_except_table17616
++ GCC_except_table17668
++ GCC_except_table17678
++ GCC_except_table17717
++ GCC_except_table17737
++ GCC_except_table17769
++ GCC_except_table17770
++ GCC_except_table17777
++ GCC_except_table17778
++ GCC_except_table17803
++ GCC_except_table17930
++ GCC_except_table17940
++ GCC_except_table17956
++ GCC_except_table17960
++ GCC_except_table17966
++ GCC_except_table18012
++ GCC_except_table18212
++ GCC_except_table18269
++ GCC_except_table18270
++ GCC_except_table18277
++ GCC_except_table18282
++ GCC_except_table18287
++ GCC_except_table18296
++ GCC_except_table18299
++ GCC_except_table18324
++ GCC_except_table18332
++ GCC_except_table18346
++ GCC_except_table18364
++ GCC_except_table18365
++ GCC_except_table18376
++ GCC_except_table18383
++ GCC_except_table18384
++ GCC_except_table18391
++ GCC_except_table18404
++ GCC_except_table18545
++ _AssistantServicesLibraryCore.frameworkLibrary.54898
++ _AvatarKitLibraryCore.frameworkLibrary.55461
++ _AvatarUILibrary.53412
++ _AvatarUILibraryCore.frameworkLibrary.53417
++ _AvatarUILibraryCore.frameworkLibrary.55437
++ _IDSLibraryCore.frameworkLibrary.52228
++ _IMCoreLibraryCore.frameworkLibrary.64525
++ _IntlPreferencesUILibraryCore.frameworkLibrary.58441
++ _MobileCoreServicesLibrary.57895
++ _MobileCoreServicesLibraryCore.frameworkLibrary.57905
++ _PosterBoardServicesLibrary.65463
++ _PosterBoardServicesLibraryCore.frameworkLibrary.65470
++ _PosterBoardUIServicesLibraryCore.frameworkLibrary.65519
++ _PosterKitLibraryCore.frameworkLibrary.65657
++ _SiriActivationLibrary.54880
++ _SiriActivationLibraryCore.frameworkLibrary.54886
++ _SocialLibraryCore.frameworkLibrary.59551
++ _SocialLibraryCore.frameworkLibrary.64666
++ _ToneKitLibraryCore.frameworkLibrary.57667
++ ___67-[CNContactContentUnitaryViewController performSaveToSharedProfile]_block_invoke.507
++ ___69-[CNContactContentUnitaryViewController reloadDataPreservingChanges:]_block_invoke.455
++ ___AssistantServicesLibraryCore_block_invoke.54899
++ ___AvatarKitLibraryCore_block_invoke.55462
++ ___AvatarUILibraryCore_block_invoke.53418
++ ___AvatarUILibraryCore_block_invoke.55438
++ ___Block_byref_object_copy_.52015
++ ___Block_byref_object_copy_.53038
++ ___Block_byref_object_copy_.54635
++ ___Block_byref_object_copy_.55781
++ ___Block_byref_object_copy_.56817
++ ___Block_byref_object_copy_.59485
++ ___Block_byref_object_copy_.62404
++ ___Block_byref_object_copy_.64137
++ ___Block_byref_object_copy_.64565
++ ___Block_byref_object_dispose_.52016
++ ___Block_byref_object_dispose_.53039
++ ___Block_byref_object_dispose_.54636
++ ___Block_byref_object_dispose_.55782
++ ___Block_byref_object_dispose_.56818
++ ___Block_byref_object_dispose_.59486
++ ___Block_byref_object_dispose_.62405
++ ___Block_byref_object_dispose_.64138
++ ___Block_byref_object_dispose_.64566
++ ___IDSLibraryCore_block_invoke.52229
++ ___IMCoreLibraryCore_block_invoke.64526
++ ___IntlPreferencesUILibraryCore_block_invoke.58442
++ ___MobileCoreServicesLibraryCore_block_invoke.57906
++ ___PosterBoardServicesLibraryCore_block_invoke.65471
++ ___PosterBoardUIServicesLibraryCore_block_invoke.65520
++ ___PosterKitLibraryCore_block_invoke.65658
++ ___SiriActivationLibraryCore_block_invoke.54887
++ ___SocialLibraryCore_block_invoke.59552
++ ___SocialLibraryCore_block_invoke.64667
++ ___ToneKitLibraryCore_block_invoke.57668
++ ___block_descriptor_56_e8_32s40bs48r_e5_v8?0lr48l8s32l8s40l8
++ ___block_descriptor_80_e8_32s40s48s56s64r_e5_v8?0lr64l8s32l8s40l8s48l8s56l8
++ ___block_literal_global.10.64167
++ ___block_literal_global.1077
++ ___block_literal_global.11.63817
++ ___block_literal_global.1122
++ ___block_literal_global.1125
++ ___block_literal_global.127.52701
++ ___block_literal_global.14.57571
++ ___block_literal_global.2.62958
++ ___block_literal_global.23.63117
++ ___block_literal_global.25.63118
++ ___block_literal_global.25.64157
++ ___block_literal_global.26.57567
++ ___block_literal_global.29.63637
++ ___block_literal_global.3.57606
++ ___block_literal_global.3.58623
++ ___block_literal_global.3.58856
++ ___block_literal_global.38.64145
++ ___block_literal_global.42.66776
++ ___block_literal_global.451
++ ___block_literal_global.47.60445
++ ___block_literal_global.472
++ ___block_literal_global.475
++ ___block_literal_global.489
++ ___block_literal_global.49.56516
++ ___block_literal_global.52104
++ ___block_literal_global.52810
++ ___block_literal_global.53047
++ ___block_literal_global.531
++ ___block_literal_global.53154
++ ___block_literal_global.53466
++ ___block_literal_global.53696
++ ___block_literal_global.53776
++ ___block_literal_global.54.61025
++ ___block_literal_global.54134
++ ___block_literal_global.545
++ ___block_literal_global.54634
++ ___block_literal_global.55112
++ ___block_literal_global.55479
++ ___block_literal_global.56.66766
++ ___block_literal_global.56036
++ ___block_literal_global.56560
++ ___block_literal_global.573
++ ___block_literal_global.57616
++ ___block_literal_global.581
++ ___block_literal_global.58358
++ ___block_literal_global.58616
++ ___block_literal_global.58851
++ ___block_literal_global.59582
++ ___block_literal_global.60.61013
++ ___block_literal_global.60450
++ ___block_literal_global.61079
++ ___block_literal_global.62355
++ ___block_literal_global.62965
++ ___block_literal_global.63131
++ ___block_literal_global.63666
++ ___block_literal_global.63823
++ ___block_literal_global.64181
++ ___block_literal_global.64783
++ ___block_literal_global.65118
++ ___block_literal_global.65721
++ ___block_literal_global.65921
++ ___block_literal_global.66166
++ ___block_literal_global.66383
++ ___block_literal_global.66560
++ ___block_literal_global.887
++ ___block_literal_global.914
++ ___block_literal_global.917
++ ___block_literal_global.920
++ ___block_literal_global.974
++ ___block_literal_global.997
++ ___block_literal_global.999
++ ___getAVTAvatarRecordImageProviderClass_block_invoke.53408
++ ___getAVTAvatarRecordRenderingClass_block_invoke.55436
++ ___getAVTRenderingScopeClass_block_invoke.53410
++ ___getAVTViewClass_block_invoke.55458
++ ___getIDSServiceNameiMessageSymbolLoc_block_invoke.52220
++ ___getIMNicknameControllerClass_block_invoke.64524
++ ___getIPPronounPickerViewControllerClass_block_invoke.58440
++ ___getPRSPosterConfigurationAttributesClass_block_invoke.65491
++ ___getPRSPosterRoleIncomingCallSymbolLoc_block_invoke.65462
++ ___getSLComposeViewControllerClass_block_invoke.59547
++ ___getSLComposeViewControllerClass_block_invoke.64660
++ ___getSiriDirectActionContextClass_block_invoke.54877
++ ___getSiriDirectActionSourceClass_block_invoke.54879
++ ___getkAssistantDirectActionEventKeySymbolLoc_block_invoke.54869
++ ___getkUTTypeJPEGSymbolLoc_block_invoke.57901
++ ___getkUTTypePNGSymbolLoc_block_invoke.57894
++ ___swift_memcpy4_4
++ _audit_stringAssistantServices.54903
++ _audit_stringAvatarKit.55467
++ _audit_stringAvatarUI.53424
++ _audit_stringAvatarUI.55453
++ _audit_stringIDS.52233
++ _audit_stringIMCore.64530
++ _audit_stringIntlPreferencesUI.58458
++ _audit_stringMobileCoreServices.57909
++ _audit_stringPosterBoardServices.65474
++ _audit_stringPosterBoardUIServices.65522
++ _audit_stringPosterKit.65660
++ _audit_stringSiriActivation.54890
++ _audit_stringSocial.59556
++ _audit_stringSocial.64671
++ _audit_stringToneKit.57682
++ _descriptorForRequiredKeys.cn_once_object_1.53467
++ _descriptorForRequiredKeys.cn_once_token_1.53465
++ _descriptorForRequiredKeysWithDescription:.cn_once_object_13.59640
++ _descriptorForRequiredKeysWithDescription:.cn_once_object_13.64810
++ _descriptorForRequiredKeysWithDescription:.cn_once_token_13.59639
++ _descriptorForRequiredKeysWithDescription:.cn_once_token_13.64809
++ _enablesTransportButtons.s_enableTransportButtons.64807
++ _enablesTransportButtons.s_onceToken.64806
++ _getAVTAvatarRecordImageProviderClass.softClass.53407
++ _getAVTAvatarRecordRenderingClass.softClass.55435
++ _getAVTRenderingScopeClass.softClass.53409
++ _getAVTViewClass.softClass.55457
++ _getIDSServiceNameiMessageSymbolLoc.ptr.52219
++ _getIMNicknameControllerClass.softClass.64523
++ _getIPPronounPickerViewControllerClass.softClass.58439
++ _getPRSPosterConfigurationAttributesClass.softClass.65490
++ _getPRSPosterRoleIncomingCallSymbolLoc.ptr.65461
++ _getSLComposeViewControllerClass.softClass.59546
++ _getSLComposeViewControllerClass.softClass.64659
++ _getSiriDirectActionContextClass.softClass.54876
++ _getSiriDirectActionSourceClass.softClass.54878
++ _getkAssistantDirectActionEventKeySymbolLoc.ptr.54868
++ _getkUTTypeJPEGSymbolLoc.ptr.57900
++ _getkUTTypePNGSymbolLoc.ptr.57893
++ _log.cn_once_object_1.52811
++ _log.cn_once_object_1.55480
++ _log.cn_once_object_1.58359
++ _log.cn_once_object_1.61080
++ _log.cn_once_object_6.66561
++ _log.cn_once_token_1.52809
++ _log.cn_once_token_1.55478
++ _log.cn_once_token_1.58357
++ _log.cn_once_token_1.61078
++ _log.cn_once_token_6.66559
++ _objc_msgSend$contactCardIgnorableContactChangeProperties
++ _objc_msgSend$isEquivalent:ignoringProperties:
++ _os_log.cn_once_object_1.63667
++ _os_log.cn_once_object_1.64182
++ _os_log.cn_once_object_6.53697
++ _os_log.cn_once_object_6.66167
++ _os_log.cn_once_token_1.63665
++ _os_log.cn_once_token_1.64180
++ _os_log.cn_once_token_6.53695
++ _os_log.cn_once_token_6.66165
+- GCC_except_table14076
+- GCC_except_table14117
+- GCC_except_table14375
+- GCC_except_table14378
+- GCC_except_table14484
+- GCC_except_table14763
+- GCC_except_table14835
+- GCC_except_table14956
+- GCC_except_table14960
+- GCC_except_table15032
+- GCC_except_table15098
+- GCC_except_table15106
+- GCC_except_table15112
+- GCC_except_table15131
+- GCC_except_table15302
+- GCC_except_table15403
+- GCC_except_table15483
+- GCC_except_table15487
+- GCC_except_table15505
+- GCC_except_table15555
+- GCC_except_table15678
+- GCC_except_table15982
+- GCC_except_table15997
+- GCC_except_table16013
+- GCC_except_table16026
+- GCC_except_table16027
+- GCC_except_table16031
+- GCC_except_table16032
+- GCC_except_table16052
+- GCC_except_table16128
+- GCC_except_table16514
+- GCC_except_table16525
+- GCC_except_table16619
+- GCC_except_table16682
+- GCC_except_table16722
+- GCC_except_table16852
+- GCC_except_table17129
+- GCC_except_table17133
+- GCC_except_table17597
+- GCC_except_table17614
+- GCC_except_table17666
+- GCC_except_table17676
+- GCC_except_table17715
+- GCC_except_table17735
+- GCC_except_table17767
+- GCC_except_table17768
+- GCC_except_table17775
+- GCC_except_table17776
+- GCC_except_table17801
+- GCC_except_table17928
+- GCC_except_table17938
+- GCC_except_table17954
+- GCC_except_table17958
+- GCC_except_table17962
+- GCC_except_table18010
+- GCC_except_table18210
+- GCC_except_table18267
+- GCC_except_table18268
+- GCC_except_table18275
+- GCC_except_table18280
+- GCC_except_table18285
+- GCC_except_table18294
+- GCC_except_table18297
+- GCC_except_table18322
+- GCC_except_table18330
+- GCC_except_table18344
+- GCC_except_table18362
+- GCC_except_table18363
+- GCC_except_table18374
+- GCC_except_table18381
+- GCC_except_table18382
+- GCC_except_table18385
+- GCC_except_table18402
+- GCC_except_table18543
+- _AssistantServicesLibraryCore.frameworkLibrary.54896
+- _AvatarKitLibraryCore.frameworkLibrary.55459
+- _AvatarUILibrary.53410
+- _AvatarUILibraryCore.frameworkLibrary.53415
+- _AvatarUILibraryCore.frameworkLibrary.55435
+- _IDSLibraryCore.frameworkLibrary.52226
+- _IMCoreLibraryCore.frameworkLibrary.64504
+- _IntlPreferencesUILibraryCore.frameworkLibrary.58439
+- _MobileCoreServicesLibrary.57893
+- _MobileCoreServicesLibraryCore.frameworkLibrary.57903
+- _PosterBoardServicesLibrary.65405
+- _PosterBoardServicesLibraryCore.frameworkLibrary.65412
+- _PosterBoardUIServicesLibraryCore.frameworkLibrary.65461
+- _PosterKitLibraryCore.frameworkLibrary.65599
+- _SiriActivationLibrary.54878
+- _SiriActivationLibraryCore.frameworkLibrary.54884
+- _SocialLibraryCore.frameworkLibrary.59549
+- _SocialLibraryCore.frameworkLibrary.64628
+- _ToneKitLibraryCore.frameworkLibrary.57665
+- ___67-[CNContactContentUnitaryViewController performSaveToSharedProfile]_block_invoke.506
+- ___69-[CNContactContentUnitaryViewController reloadDataPreservingChanges:]_block_invoke.454
+- ___AssistantServicesLibraryCore_block_invoke.54897
+- ___AvatarKitLibraryCore_block_invoke.55460
+- ___AvatarUILibraryCore_block_invoke.53416
+- ___AvatarUILibraryCore_block_invoke.55436
+- ___Block_byref_object_copy_.53036
+- ___Block_byref_object_copy_.54633
+- ___Block_byref_object_copy_.55779
+- ___Block_byref_object_copy_.56815
+- ___Block_byref_object_copy_.59483
+- ___Block_byref_object_copy_.62402
+- ___Block_byref_object_copy_.64135
+- ___Block_byref_object_copy_.64541
+- ___Block_byref_object_dispose_.53037
+- ___Block_byref_object_dispose_.54634
+- ___Block_byref_object_dispose_.55780
+- ___Block_byref_object_dispose_.56816
+- ___Block_byref_object_dispose_.59484
+- ___Block_byref_object_dispose_.62403
+- ___Block_byref_object_dispose_.64136
+- ___Block_byref_object_dispose_.64542
+- ___IDSLibraryCore_block_invoke.52227
+- ___IMCoreLibraryCore_block_invoke.64505
+- ___IntlPreferencesUILibraryCore_block_invoke.58440
+- ___MobileCoreServicesLibraryCore_block_invoke.57904
+- ___PosterBoardServicesLibraryCore_block_invoke.65413
+- ___PosterBoardUIServicesLibraryCore_block_invoke.65462
+- ___PosterKitLibraryCore_block_invoke.65600
+- ___SiriActivationLibraryCore_block_invoke.54885
+- ___SocialLibraryCore_block_invoke.59550
+- ___SocialLibraryCore_block_invoke.64629
+- ___ToneKitLibraryCore_block_invoke.57666
+- ___block_literal_global.10.64165
+- ___block_literal_global.1076
+- ___block_literal_global.11.63815
+- ___block_literal_global.1121
+- ___block_literal_global.1124
+- ___block_literal_global.127.52699
+- ___block_literal_global.14.57569
+- ___block_literal_global.2.62956
+- ___block_literal_global.23.63115
+- ___block_literal_global.25.63116
+- ___block_literal_global.25.64155
+- ___block_literal_global.26.57565
+- ___block_literal_global.29.63635
+- ___block_literal_global.3.57604
+- ___block_literal_global.3.58621
+- ___block_literal_global.3.58854
+- ___block_literal_global.38.64143
+- ___block_literal_global.42.66718
+- ___block_literal_global.450
+- ___block_literal_global.47.60443
+- ___block_literal_global.471
+- ___block_literal_global.474
+- ___block_literal_global.488
+- ___block_literal_global.49.56514
+- ___block_literal_global.52102
+- ___block_literal_global.52808
+- ___block_literal_global.530
+- ___block_literal_global.53045
+- ___block_literal_global.53152
+- ___block_literal_global.53464
+- ___block_literal_global.53694
+- ___block_literal_global.53774
+- ___block_literal_global.54.61023
+- ___block_literal_global.54132
+- ___block_literal_global.544
+- ___block_literal_global.54632
+- ___block_literal_global.55110
+- ___block_literal_global.55477
+- ___block_literal_global.56.66708
+- ___block_literal_global.56034
+- ___block_literal_global.56558
+- ___block_literal_global.572
+- ___block_literal_global.57614
+- ___block_literal_global.580
+- ___block_literal_global.58356
+- ___block_literal_global.58614
+- ___block_literal_global.58849
+- ___block_literal_global.59580
+- ___block_literal_global.60.61011
+- ___block_literal_global.60448
+- ___block_literal_global.61077
+- ___block_literal_global.62353
+- ___block_literal_global.62963
+- ___block_literal_global.63129
+- ___block_literal_global.63664
+- ___block_literal_global.63821
+- ___block_literal_global.64179
+- ___block_literal_global.64741
+- ___block_literal_global.65060
+- ___block_literal_global.65663
+- ___block_literal_global.65863
+- ___block_literal_global.66108
+- ___block_literal_global.66325
+- ___block_literal_global.66502
+- ___block_literal_global.886
+- ___block_literal_global.913
+- ___block_literal_global.916
+- ___block_literal_global.919
+- ___block_literal_global.973
+- ___block_literal_global.996
+- ___block_literal_global.998
+- ___getAVTAvatarRecordImageProviderClass_block_invoke.53406
+- ___getAVTAvatarRecordRenderingClass_block_invoke.55434
+- ___getAVTRenderingScopeClass_block_invoke.53408
+- ___getAVTViewClass_block_invoke.55456
+- ___getIDSServiceNameiMessageSymbolLoc_block_invoke.52218
+- ___getIMNicknameControllerClass_block_invoke.64503
+- ___getIPPronounPickerViewControllerClass_block_invoke.58438
+- ___getPRSPosterConfigurationAttributesClass_block_invoke.65433
+- ___getPRSPosterRoleIncomingCallSymbolLoc_block_invoke.65404
+- ___getSLComposeViewControllerClass_block_invoke.59545
+- ___getSLComposeViewControllerClass_block_invoke.64622
+- ___getSiriDirectActionContextClass_block_invoke.54875
+- ___getSiriDirectActionSourceClass_block_invoke.54877
+- ___getkAssistantDirectActionEventKeySymbolLoc_block_invoke.54867
+- ___getkUTTypeJPEGSymbolLoc_block_invoke.57899
+- ___getkUTTypePNGSymbolLoc_block_invoke.57892
+- _audit_stringAssistantServices.54901
+- _audit_stringAvatarKit.55465
+- _audit_stringAvatarUI.53422
+- _audit_stringAvatarUI.55451
+- _audit_stringIDS.52231
+- _audit_stringIMCore.64509
+- _audit_stringIntlPreferencesUI.58456
+- _audit_stringMobileCoreServices.57907
+- _audit_stringPosterBoardServices.65416
+- _audit_stringPosterBoardUIServices.65464
+- _audit_stringPosterKit.65602
+- _audit_stringSiriActivation.54888
+- _audit_stringSocial.59554
+- _audit_stringSocial.64633
+- _audit_stringToneKit.57680
+- _descriptorForRequiredKeys.cn_once_object_1.53465
+- _descriptorForRequiredKeys.cn_once_token_1.53463
+- _descriptorForRequiredKeysWithDescription:.cn_once_object_13.59638
+- _descriptorForRequiredKeysWithDescription:.cn_once_object_13.64769
+- _descriptorForRequiredKeysWithDescription:.cn_once_token_13.59637
+- _descriptorForRequiredKeysWithDescription:.cn_once_token_13.64768
+- _enablesTransportButtons.s_enableTransportButtons.64766
+- _enablesTransportButtons.s_onceToken.64765
+- _getAVTAvatarRecordImageProviderClass.softClass.53405
+- _getAVTAvatarRecordRenderingClass.softClass.55433
+- _getAVTRenderingScopeClass.softClass.53407
+- _getAVTViewClass.softClass.55455
+- _getIDSServiceNameiMessageSymbolLoc.ptr.52217
+- _getIMNicknameControllerClass.softClass.64502
+- _getIPPronounPickerViewControllerClass.softClass.58437
+- _getPRSPosterConfigurationAttributesClass.softClass.65432
+- _getPRSPosterRoleIncomingCallSymbolLoc.ptr.65403
+- _getSLComposeViewControllerClass.softClass.59544
+- _getSLComposeViewControllerClass.softClass.64621
+- _getSiriDirectActionContextClass.softClass.54874
+- _getSiriDirectActionSourceClass.softClass.54876
+- _getkAssistantDirectActionEventKeySymbolLoc.ptr.54866
+- _getkUTTypeJPEGSymbolLoc.ptr.57898
+- _getkUTTypePNGSymbolLoc.ptr.57891
+- _log.cn_once_object_1.52809
+- _log.cn_once_object_1.55478
+- _log.cn_once_object_1.58357
+- _log.cn_once_object_1.61078
+- _log.cn_once_object_6.66503
+- _log.cn_once_token_1.52807
+- _log.cn_once_token_1.55476
+- _log.cn_once_token_1.58355
+- _log.cn_once_token_1.61076
+- _log.cn_once_token_6.66501
+- _os_log.cn_once_object_1.63665
+- _os_log.cn_once_object_1.64180
+- _os_log.cn_once_object_6.53695
+- _os_log.cn_once_object_6.66109
+- _os_log.cn_once_token_1.63663
+- _os_log.cn_once_token_1.64178
+- _os_log.cn_once_token_6.53693
+- _os_log.cn_once_token_6.66107
+CStrings:
++ "contactCardIgnorableContactChangeProperties"
++ "isEquivalent:ignoringProperties:"
+
+```

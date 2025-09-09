@@ -1,0 +1,448 @@
+## BatteryAlgorithms
+
+> `/System/Library/PrivateFrameworks/BatteryAlgorithms.framework/BatteryAlgorithms`
+
+```diff
+
+ 110.0.0.0.0
+-  __TEXT.__text: 0x321bc
++  __TEXT.__text: 0x3e158
+   __TEXT.__auth_stubs: 0x600
+   __TEXT.__objc_methlist: 0x7b4
+-  __TEXT.__const: 0x1680
+-  __TEXT.__gcc_except_tab: 0x3b84
++  __TEXT.__const: 0x4970
++  __TEXT.__gcc_except_tab: 0x44e0
+   __TEXT.__oslogstring: 0x95
+-  __TEXT.__cstring: 0x2476
+-  __TEXT.__unwind_info: 0xd38
++  __TEXT.__cstring: 0x24f9
++  __TEXT.__unwind_info: 0xdd0
+   __TEXT.__objc_classname: 0x65
+   __TEXT.__objc_methname: 0xfcc
+   __TEXT.__objc_methtype: 0xcee
+
+   __DATA_CONST.__objc_arraydata: 0x618
+   __AUTH_CONST.__auth_got: 0x310
+   __AUTH_CONST.__const: 0x90
+-  __AUTH_CONST.__cfstring: 0x2cc0
++  __AUTH_CONST.__cfstring: 0x2f20
+   __AUTH_CONST.__objc_const: 0x1188
+   __AUTH_CONST.__objc_dictobj: 0x168
+-  __AUTH_CONST.__objc_intobj: 0x6a20
++  __AUTH_CONST.__objc_intobj: 0x77a0
+   __AUTH_CONST.__objc_arrayobj: 0x480
+   __AUTH_CONST.__objc_doubleobj: 0x1a0
+   __AUTH.__objc_data: 0x140
+   __DATA.__objc_ivar: 0xe4
+-  __DATA.__data: 0x3d4a08
++  __DATA.__data: 0x712c08
+   __DATA.__bss: 0x30
+-  __DATA.__common: 0x2
++  __DATA.__common: 0xa
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__bss: 0x10
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 81662757-7FCB-30F0-9BE6-C3E52F25E104
+-  Functions: 608
+-  Symbols:   1972
+-  CStrings:  993
++  UUID: 3568A2EB-77B5-382F-9244-DB7522E7C130
++  Functions: 626
++  Symbols:   2323
++  CStrings:  1031
+ 
+Symbols:
++ GCC_except_table111
++ GCC_except_table112
++ GCC_except_table113
++ GCC_except_table36
++ GCC_except_table37
++ GCC_except_table40
++ GCC_except_table43
++ GCC_except_table59
++ GCC_except_table60
++ GCC_except_table68
++ GCC_except_table69
++ GCC_except_table70
++ GCC_except_table81
++ GCC_except_table82
++ GCC_except_table94
++ GCC_except_table95
++ GCC_except_table96
++ GCC_except_table98
++ __ZN13CafeSwellAlgo11slewRateD23E
++ __ZN13CafeSwellAlgo11slewRateV53E
++ __ZN13CafeSwellAlgo11slewRateV54E
++ __ZN13CafeSwellAlgo11slewRateV57E
++ __ZN13CafeSwellAlgo13deltaVStepD23E
++ __ZN13CafeSwellAlgo13deltaVStepV53E
++ __ZN13CafeSwellAlgo13deltaVStepV54E
++ __ZN13CafeSwellAlgo13deltaVStepV57E
++ __ZN13CafeSwellAlgo14numCafeTierD23E
++ __ZN13CafeSwellAlgo14numCafeTierV53E
++ __ZN13CafeSwellAlgo14numCafeTierV54E
++ __ZN13CafeSwellAlgo14numCafeTierV57E
++ __ZN13CafeSwellAlgo15cafeTierVmaxD23E
++ __ZN13CafeSwellAlgo15cafeTierVmaxV53E
++ __ZN13CafeSwellAlgo15cafeTierVmaxV54E
++ __ZN13CafeSwellAlgo15cafeTierVmaxV57E
++ __ZN13CafeSwellAlgo15cafeTierVminD23E
++ __ZN13CafeSwellAlgo15cafeTierVminV53E
++ __ZN13CafeSwellAlgo15cafeTierVminV54E
++ __ZN13CafeSwellAlgo15cafeTierVminV57E
++ __ZN13CafeSwellAlgo15vacCyclesRawD23E
++ __ZN13CafeSwellAlgo15vacCyclesRawV53E
++ __ZN13CafeSwellAlgo15vacCyclesRawV54E
++ __ZN13CafeSwellAlgo15vacCyclesRawV57E
++ __ZN13CafeSwellAlgo16deltaTimeStepD23E
++ __ZN13CafeSwellAlgo16deltaTimeStepV53E
++ __ZN13CafeSwellAlgo16deltaTimeStepV54E
++ __ZN13CafeSwellAlgo16deltaTimeStepV57E
++ __ZN13CafeSwellAlgo18longevityTargetD23E
++ __ZN13CafeSwellAlgo18longevityTargetV53E
++ __ZN13CafeSwellAlgo18longevityTargetV54E
++ __ZN13CafeSwellAlgo18longevityTargetV57E
++ __ZN13CafeSwellAlgo19deferralDurationD23E
++ __ZN13CafeSwellAlgo19deferralDurationV53E
++ __ZN13CafeSwellAlgo19deferralDurationV54E
++ __ZN13CafeSwellAlgo19deferralDurationV57E
++ __ZN13CafeSwellAlgo19fastAlgoIntervalD23E
++ __ZN13CafeSwellAlgo19fastAlgoIntervalV53E
++ __ZN13CafeSwellAlgo19fastAlgoIntervalV54E
++ __ZN13CafeSwellAlgo19fastAlgoIntervalV57E
++ __ZN13CafeSwellAlgo19slowAlgoIntervalD23E
++ __ZN13CafeSwellAlgo19slowAlgoIntervalV53E
++ __ZN13CafeSwellAlgo19slowAlgoIntervalV54E
++ __ZN13CafeSwellAlgo19slowAlgoIntervalV57E
++ __ZN13CafeSwellAlgo20datacheckOverrideD23E
++ __ZN13CafeSwellAlgo20datacheckOverrideV53E
++ __ZN13CafeSwellAlgo20datacheckOverrideV54E
++ __ZN13CafeSwellAlgo20datacheckOverrideV57E
++ __ZN13CafeSwellAlgo20vacCyclesTiersRawD23E
++ __ZN13CafeSwellAlgo20vacCyclesTiersRawV53E
++ __ZN13CafeSwellAlgo20vacCyclesTiersRawV54E
++ __ZN13CafeSwellAlgo20vacCyclesTiersRawV57E
++ __ZN13CafeSwellAlgo7VmaxD23E
++ __ZN13CafeSwellAlgo7VmaxV53E
++ __ZN13CafeSwellAlgo7VmaxV54E
++ __ZN13CafeSwellAlgo7VmaxV57E
++ __ZN15AdaptiveOcvAlgo31gAdaptiveOCVConfigurationD23ATLE
++ __ZN15AdaptiveOcvAlgo31gAdaptiveOCVConfigurationV57ATLE
++ __ZN15AdaptiveOcvAlgo31gAdaptiveOCVConfigurationV57COSE
++ __ZN15AdaptiveOcvAlgo32gAdaptiveOCVConfigurationV53eATLE
++ __ZN15AdaptiveOcvAlgo32gAdaptiveOCVConfigurationV53eCOSE
++ __ZN15AdaptiveOcvAlgo32gAdaptiveOCVConfigurationV53pATLE
++ __ZN15AdaptiveOcvAlgo32gAdaptiveOCVConfigurationV53pCOSE
++ __ZN15AdaptiveOcvAlgo32gAdaptiveOCVConfigurationV54eATLE
++ __ZN15AdaptiveOcvAlgo32gAdaptiveOCVConfigurationV54eLGCE
++ __ZN15AdaptiveOcvAlgo32gAdaptiveOCVConfigurationV54pATLE
++ __ZN15AdaptiveOcvAlgo32gAdaptiveOCVConfigurationV54pLGCE
++ __ZN25AugmentedBatteryHealthLib20initParametersD23ATLEv
++ __ZN25AugmentedBatteryHealthLib20initParametersV57ATLEv
++ __ZN25AugmentedBatteryHealthLib20initParametersV57COSEv
++ __ZN25AugmentedBatteryHealthLib21initParametersV53eATLEv
++ __ZN25AugmentedBatteryHealthLib21initParametersV53eCOSEv
++ __ZN25AugmentedBatteryHealthLib21initParametersV53pATLEv
++ __ZN25AugmentedBatteryHealthLib21initParametersV53pCOSEv
++ __ZN25AugmentedBatteryHealthLib21initParametersV54eATLEv
++ __ZN25AugmentedBatteryHealthLib21initParametersV54eLGCEv
++ __ZN25AugmentedBatteryHealthLib21initParametersV54pATLEv
++ __ZN25AugmentedBatteryHealthLib21initParametersV54pLGCEv
++ __ZN29ACAMPerformanceModelParameterC2ILi190ELi149ELi3ELi19ELi2ELi103ELi3EEERA2_AT__dRA2_AT0__dRAT1__dRAT2__dRAT3__dRAT1__AT2__A2_AT4__dSH_RAT1__AT3__SE_SK_RA2_AT5__dSN_36ACAMPerformanceModelParameterYShrink
++ __ZN29ACAMPerformanceModelParameterC2ILi190ELi149ELi3ELi25ELi2ELi103ELi3EEERA2_AT__dRA2_AT0__dRAT1__dRAT2__dRAT3__dRAT1__AT2__A2_AT4__dSH_RAT1__AT3__SE_SK_RA2_AT5__dSN_36ACAMPerformanceModelParameterYShrink
++ __ZN29ACAMPerformanceModelParameterC2ILi198ELi149ELi3ELi16ELi2ELi103ELi3EEERA2_AT__dRA2_AT0__dRAT1__dRAT2__dRAT3__dRAT1__AT2__A2_AT4__dSH_RAT1__AT3__SE_SK_RA2_AT5__dSN_36ACAMPerformanceModelParameterYShrink
++ __ZN29ACAMPerformanceModelParameterC2ILi198ELi149ELi3ELi19ELi2ELi103ELi3EEERA2_AT__dRA2_AT0__dRAT1__dRAT2__dRAT3__dRAT1__AT2__A2_AT4__dSH_RAT1__AT3__SE_SK_RA2_AT5__dSN_36ACAMPerformanceModelParameterYShrink
++ __ZN29ACAMPerformanceModelParameterC2ILi234ELi148ELi3ELi25ELi2ELi103ELi3EEERA2_AT__dRA2_AT0__dRAT1__dRAT2__dRAT3__dRAT1__AT2__A2_AT4__dSH_RAT1__AT3__SE_SK_RA2_AT5__dSN_36ACAMPerformanceModelParameterYShrink
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB8ne200100Ev
++ __ZNSt3__1eqB8ne200100IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_
++ _gACAMAgingModelParameterD23ATL
++ _gACAMAgingModelParameterN227bATL
++ _gACAMAgingModelParameterN227bMUR
++ _gACAMAgingModelParameterV53eATL
++ _gACAMAgingModelParameterV53eCOS
++ _gACAMAgingModelParameterV53pATL
++ _gACAMAgingModelParameterV53pCOS
++ _gACAMAgingModelParameterV54eATL
++ _gACAMAgingModelParameterV54eLGC
++ _gACAMAgingModelParameterV54pATL
++ _gACAMAgingModelParameterV54pLGC
++ _gACAMAgingModelParameterV57ATL
++ _gACAMAgingModelParameterV57COS
++ _gACAMAgingTableD23ATL
++ _gACAMAgingTableN227bATL
++ _gACAMAgingTableN227bMUR
++ _gACAMAgingTableV53eATL
++ _gACAMAgingTableV53eCOS
++ _gACAMAgingTableV53pATL
++ _gACAMAgingTableV53pCOS
++ _gACAMAgingTableV54eATL
++ _gACAMAgingTableV54eLGC
++ _gACAMAgingTableV54pATL
++ _gACAMAgingTableV54pLGC
++ _gACAMAgingTableV57ATL
++ _gACAMAgingTableV57COS
++ _gACAMAgingUpdatorParameterD23ATL
++ _gACAMAgingUpdatorParameterN227bATL
++ _gACAMAgingUpdatorParameterN227bMUR
++ _gACAMAgingUpdatorParameterV53eATL
++ _gACAMAgingUpdatorParameterV53eCOS
++ _gACAMAgingUpdatorParameterV53pATL
++ _gACAMAgingUpdatorParameterV53pCOS
++ _gACAMAgingUpdatorParameterV54eATL
++ _gACAMAgingUpdatorParameterV54eLGC
++ _gACAMAgingUpdatorParameterV54pATL
++ _gACAMAgingUpdatorParameterV54pLGC
++ _gACAMAgingUpdatorParameterV57ATL
++ _gACAMAgingUpdatorParameterV57COS
++ _gACAMCommonParameterD23ATL
++ _gACAMCommonParameterN227bATL
++ _gACAMCommonParameterN227bMUR
++ _gACAMCommonParameterV53eATL
++ _gACAMCommonParameterV53eCOS
++ _gACAMCommonParameterV53pATL
++ _gACAMCommonParameterV53pCOS
++ _gACAMCommonParameterV54eATL
++ _gACAMCommonParameterV54eLGC
++ _gACAMCommonParameterV54pATL
++ _gACAMCommonParameterV54pLGC
++ _gACAMCommonParameterV57ATL
++ _gACAMCommonParameterV57COS
++ _gACAMConfigurationD23ATL
++ _gACAMConfigurationN227bATL
++ _gACAMConfigurationN227bMUR
++ _gACAMConfigurationV53eATL
++ _gACAMConfigurationV53eCOS
++ _gACAMConfigurationV53pATL
++ _gACAMConfigurationV53pCOS
++ _gACAMConfigurationV54eATL
++ _gACAMConfigurationV54eLGC
++ _gACAMConfigurationV54pATL
++ _gACAMConfigurationV54pLGC
++ _gACAMConfigurationV57ATL
++ _gACAMConfigurationV57COS
++ _gCRateChgGridRawDataD23ATL
++ _gCRateChgGridRawDataN227bATL
++ _gCRateChgGridRawDataN227bMUR
++ _gCRateChgGridRawDataV53eATL
++ _gCRateChgGridRawDataV53eCOS
++ _gCRateChgGridRawDataV53pATL
++ _gCRateChgGridRawDataV53pCOS
++ _gCRateChgGridRawDataV54eATL
++ _gCRateChgGridRawDataV54eLGC
++ _gCRateChgGridRawDataV54pATL
++ _gCRateChgGridRawDataV54pLGC
++ _gCRateChgGridRawDataV57ATL
++ _gCRateChgGridRawDataV57COS
++ _gCRateDcgGridRawDataD23ATL
++ _gCRateDcgGridRawDataN227bATL
++ _gCRateDcgGridRawDataN227bMUR
++ _gCRateDcgGridRawDataV53eATL
++ _gCRateDcgGridRawDataV53eCOS
++ _gCRateDcgGridRawDataV53pATL
++ _gCRateDcgGridRawDataV53pCOS
++ _gCRateDcgGridRawDataV54eATL
++ _gCRateDcgGridRawDataV54eLGC
++ _gCRateDcgGridRawDataV54pATL
++ _gCRateDcgGridRawDataV54pLGC
++ _gCRateDcgGridRawDataV57ATL
++ _gCRateDcgGridRawDataV57COS
++ _gCRateDcgRawDataD23ATL
++ _gCRateDcgRawDataN227bATL
++ _gCRateDcgRawDataN227bMUR
++ _gCRateDcgRawDataV53eATL
++ _gCRateDcgRawDataV53eCOS
++ _gCRateDcgRawDataV53pATL
++ _gCRateDcgRawDataV53pCOS
++ _gCRateDcgRawDataV54eATL
++ _gCRateDcgRawDataV54eLGC
++ _gCRateDcgRawDataV54pATL
++ _gCRateDcgRawDataV54pLGC
++ _gCRateDcgRawDataV57ATL
++ _gCRateDcgRawDataV57COS
++ _gOcpNegRawDataD23ATL
++ _gOcpNegRawDataN227bATL
++ _gOcpNegRawDataN227bMUR
++ _gOcpNegRawDataV53eATL
++ _gOcpNegRawDataV53eCOS
++ _gOcpNegRawDataV53pATL
++ _gOcpNegRawDataV53pCOS
++ _gOcpNegRawDataV54eATL
++ _gOcpNegRawDataV54eLGC
++ _gOcpNegRawDataV54pATL
++ _gOcpNegRawDataV54pLGC
++ _gOcpNegRawDataV57ATL
++ _gOcpNegRawDataV57COS
++ _gOcpPosRawDataD23ATL
++ _gOcpPosRawDataN227bATL
++ _gOcpPosRawDataN227bMUR
++ _gOcpPosRawDataV53eATL
++ _gOcpPosRawDataV53eCOS
++ _gOcpPosRawDataV53pATL
++ _gOcpPosRawDataV53pCOS
++ _gOcpPosRawDataV54eATL
++ _gOcpPosRawDataV54eLGC
++ _gOcpPosRawDataV54pATL
++ _gOcpPosRawDataV54pLGC
++ _gOcpPosRawDataV57ATL
++ _gOcpPosRawDataV57COS
++ _gResistanceNegChgRawDataD23ATL
++ _gResistanceNegChgRawDataN227bATL
++ _gResistanceNegChgRawDataN227bMUR
++ _gResistanceNegChgRawDataV53eATL
++ _gResistanceNegChgRawDataV53eCOS
++ _gResistanceNegChgRawDataV53pATL
++ _gResistanceNegChgRawDataV53pCOS
++ _gResistanceNegChgRawDataV54eATL
++ _gResistanceNegChgRawDataV54eLGC
++ _gResistanceNegChgRawDataV54pATL
++ _gResistanceNegChgRawDataV54pLGC
++ _gResistanceNegChgRawDataV57ATL
++ _gResistanceNegChgRawDataV57COS
++ _gResistanceNegDcgRawDataD23ATL
++ _gResistanceNegDcgRawDataN227bATL
++ _gResistanceNegDcgRawDataN227bMUR
++ _gResistanceNegDcgRawDataV53eATL
++ _gResistanceNegDcgRawDataV53eCOS
++ _gResistanceNegDcgRawDataV53pATL
++ _gResistanceNegDcgRawDataV53pCOS
++ _gResistanceNegDcgRawDataV54eATL
++ _gResistanceNegDcgRawDataV54eLGC
++ _gResistanceNegDcgRawDataV54pATL
++ _gResistanceNegDcgRawDataV54pLGC
++ _gResistanceNegDcgRawDataV57ATL
++ _gResistanceNegDcgRawDataV57COS
++ _gResistancePosChgRawDataD23ATL
++ _gResistancePosChgRawDataN227bATL
++ _gResistancePosChgRawDataN227bMUR
++ _gResistancePosChgRawDataV53eATL
++ _gResistancePosChgRawDataV53eCOS
++ _gResistancePosChgRawDataV53pATL
++ _gResistancePosChgRawDataV53pCOS
++ _gResistancePosChgRawDataV54eATL
++ _gResistancePosChgRawDataV54eLGC
++ _gResistancePosChgRawDataV54pATL
++ _gResistancePosChgRawDataV54pLGC
++ _gResistancePosChgRawDataV57ATL
++ _gResistancePosChgRawDataV57COS
++ _gResistancePosDcgRawDataD23ATL
++ _gResistancePosDcgRawDataN227bATL
++ _gResistancePosDcgRawDataN227bMUR
++ _gResistancePosDcgRawDataV53eATL
++ _gResistancePosDcgRawDataV53eCOS
++ _gResistancePosDcgRawDataV53pATL
++ _gResistancePosDcgRawDataV53pCOS
++ _gResistancePosDcgRawDataV54eATL
++ _gResistancePosDcgRawDataV54eLGC
++ _gResistancePosDcgRawDataV54pATL
++ _gResistancePosDcgRawDataV54pLGC
++ _gResistancePosDcgRawDataV57ATL
++ _gResistancePosDcgRawDataV57COS
++ _gSocGridRawDataD23ATL
++ _gSocGridRawDataN227bATL
++ _gSocGridRawDataN227bMUR
++ _gSocGridRawDataV53eATL
++ _gSocGridRawDataV53eCOS
++ _gSocGridRawDataV53pATL
++ _gSocGridRawDataV53pCOS
++ _gSocGridRawDataV54eATL
++ _gSocGridRawDataV54eLGC
++ _gSocGridRawDataV54pATL
++ _gSocGridRawDataV54pLGC
++ _gSocGridRawDataV57ATL
++ _gSocGridRawDataV57COS
++ _gTempGridRawDataD23ATL
++ _gTempGridRawDataN227bATL
++ _gTempGridRawDataN227bMUR
++ _gTempGridRawDataV53eATL
++ _gTempGridRawDataV53eCOS
++ _gTempGridRawDataV53pATL
++ _gTempGridRawDataV53pCOS
++ _gTempGridRawDataV54eATL
++ _gTempGridRawDataV54eLGC
++ _gTempGridRawDataV54pATL
++ _gTempGridRawDataV54pLGC
++ _gTempGridRawDataV57ATL
++ _gTempGridRawDataV57COS
++ _gWRaFreshRawDataD23ATL
++ _gWRaFreshRawDataN227bATL
++ _gWRaFreshRawDataN227bMUR
++ _gWRaFreshRawDataV53eATL
++ _gWRaFreshRawDataV53eCOS
++ _gWRaFreshRawDataV53pATL
++ _gWRaFreshRawDataV53pCOS
++ _gWRaFreshRawDataV54eATL
++ _gWRaFreshRawDataV54eLGC
++ _gWRaFreshRawDataV54pATL
++ _gWRaFreshRawDataV54pLGC
++ _gWRaFreshRawDataV57ATL
++ _gWRaFreshRawDataV57COS
++ _gWRcFreshRawDataD23ATL
++ _gWRcFreshRawDataN227bATL
++ _gWRcFreshRawDataN227bMUR
++ _gWRcFreshRawDataV53eATL
++ _gWRcFreshRawDataV53eCOS
++ _gWRcFreshRawDataV53pATL
++ _gWRcFreshRawDataV53pCOS
++ _gWRcFreshRawDataV54eATL
++ _gWRcFreshRawDataV54eLGC
++ _gWRcFreshRawDataV54pATL
++ _gWRcFreshRawDataV54pLGC
++ _gWRcFreshRawDataV57ATL
++ _gWRcFreshRawDataV57COS
++ _gYShrinkD23ATL
++ _gYShrinkN227bATL
++ _gYShrinkN227bMUR
++ _gYShrinkV53eATL
++ _gYShrinkV53eCOS
++ _gYShrinkV53pATL
++ _gYShrinkV53pCOS
++ _gYShrinkV54eATL
++ _gYShrinkV54eLGC
++ _gYShrinkV54pATL
++ _gYShrinkV54pLGC
++ _gYShrinkV57ATL
++ _gYShrinkV57COS
+- GCC_except_table106
+- GCC_except_table107
+- GCC_except_table108
+- GCC_except_table31
+- GCC_except_table32
+- GCC_except_table35
+- GCC_except_table53
+- GCC_except_table54
+- GCC_except_table55
+- GCC_except_table62
+- GCC_except_table64
+- GCC_except_table65
+- GCC_except_table76
+- GCC_except_table89
+- GCC_except_table90
+- GCC_except_table91
+- GCC_except_table93
+CStrings:
++ "D23"
++ "D23ATL"
++ "N227b"
++ "N227bATL"
++ "N227bMUR"
++ "N228b"
++ "V53"
++ "V53eATL"
++ "V53eCOS"
++ "V53pATL"
++ "V53pCOS"
++ "V54"
++ "V54eATL"
++ "V54eLGC"
++ "V54pATL"
++ "V54pLGC"
++ "V57"
++ "V57ATL"
++ "V57COS"
+
+```

@@ -1,0 +1,94 @@
+## libRoseBooter.dylib
+
+> `/usr/lib/libRoseBooter.dylib`
+
+```diff
+
+ 115.0.0.0.0
+-  __TEXT.__text: 0x13cb0
+-  __TEXT.__auth_stubs: 0x9a0
+-  __TEXT.__gcc_except_tab: 0xd9c
+-  __TEXT.__cstring: 0x491e
+-  __TEXT.__const: 0xb1b
+-  __TEXT.__unwind_info: 0x798
++  __TEXT.__text: 0x14848
++  __TEXT.__auth_stubs: 0x9c0
++  __TEXT.__gcc_except_tab: 0xe1c
++  __TEXT.__cstring: 0x498d
++  __TEXT.__const: 0x11db
++  __TEXT.__unwind_info: 0x7d0
+   __TEXT.__objc_classname: 0x1
+   __TEXT.__objc_methname: 0x2c
+   __TEXT.__objc_stubs: 0x60
+
+   __DATA_CONST.__const: 0x178
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x4e0
+-  __AUTH_CONST.__const: 0x7e0
+-  __AUTH_CONST.__cfstring: 0x800
+-  __DATA.__bss: 0x10
+-  __DATA_DIRTY.__bss: 0x48
++  __AUTH_CONST.__auth_got: 0x4f0
++  __AUTH_CONST.__const: 0x800
++  __AUTH_CONST.__cfstring: 0x820
++  __DATA.__bss: 0x30
++  __DATA_DIRTY.__data: 0x8
++  __DATA_DIRTY.__bss: 0x50
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+
+   - /usr/lib/libamsupport.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 823C0780-521A-3E53-BBDA-C5BBE6DB949C
+-  Functions: 437
+-  Symbols:   1356
+-  CStrings:  588
++  UUID: E064135F-D9D6-31F3-A7CD-6169E3792B3F
++  Functions: 448
++  Symbols:   1393
++  CStrings:  595
+ 
+Symbols:
++ GCC_except_table45
++ GCC_except_table51
++ GCC_except_table57
++ GCC_except_table63
++ GCC_except_table73
++ GCC_except_table76
++ _AMSupportSafeRelease
++ __ZGVZN15RoseCalibration15sendCalibrationENSt3__110shared_ptrI13ACFUTransportEENS1_I7ACFUROMEENS1_I16RoseCapabilitiesEERKN7ACFUFDR6ConfigERNS0_6vectorINS6_15CalibrationTypeENS0_9allocatorISD_EEEEE18kT2030GoldenCalMap
++ __ZL17kT2030GoldenFFCal
++ __ZL17kT2030GoldenNBCal
++ __ZL18kT2030GoldenMLBCal
++ __ZN15RoseCalibration15sendCalibrationENSt3__110shared_ptrI13ACFUTransportEENS1_I7ACFUROMEENS1_I16RoseCapabilitiesEERKN7ACFUFDR6ConfigERNS0_6vectorINS6_15CalibrationTypeENS0_9allocatorISD_EEEE.cold.1
++ __ZNKSt3__13mapIN16RoseCapabilities15CalibrationTypeENS_5tupleIJPKhmNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEENS_4lessIS2_EENS9_INS_4pairIKS2_SC_EEEEE2atERSG_
++ __ZNSt3__112__tuple_implINS_15__tuple_indicesIJLm0ELm1ELm2EEEEJPKhmNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEC2ERKSB_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIN16RoseCapabilities15CalibrationTypeENS_5tupleIJPKhmNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEEEPvEEEEEclB8ne200100EPSH_
++ __ZNSt3__13mapIN16RoseCapabilities15CalibrationTypeENS_5tupleIJPKhmNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEENS_4lessIS2_EENS9_INS_4pairIKS2_SC_EEEEEC2B8ne200100ESt16initializer_listISH_ERKSE_
++ __ZNSt3__13mapIN16RoseCapabilities15CalibrationTypeENS_5tupleIJPKhmNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEENS_4lessIS2_EENS9_INS_4pairIKS2_SC_EEEEED1B8ne200100Ev
++ __ZNSt3__16__treeINS_12__value_typeIN16RoseCapabilities15CalibrationTypeENS_5tupleIJPKhmNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEEENS_19__map_value_compareIS3_SE_NS_4lessIS3_EELb1EEENSA_ISE_EEE12__find_equalIS3_EERPNS_16__tree_node_baseIPvEENS_21__tree_const_iteratorISE_PNS_11__tree_nodeISE_SN_EElEERPNS_15__tree_end_nodeISP_EESQ_RKT_
++ __ZNSt3__16__treeINS_12__value_typeIN16RoseCapabilities15CalibrationTypeENS_5tupleIJPKhmNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEEENS_19__map_value_compareIS3_SE_NS_4lessIS3_EELb1EEENSA_ISE_EEE16__construct_nodeIJRKNS_4pairIKS3_SD_EEEEENS_10unique_ptrINS_11__tree_nodeISE_PvEENS_22__tree_node_destructorINSA_ISU_EEEEEEDpOT_
++ __ZNSt3__16__treeINS_12__value_typeIN16RoseCapabilities15CalibrationTypeENS_5tupleIJPKhmNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEEENS_19__map_value_compareIS3_SE_NS_4lessIS3_EELb1EEENSA_ISE_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSP_SP_
++ __ZNSt3__16__treeINS_12__value_typeIN16RoseCapabilities15CalibrationTypeENS_5tupleIJPKhmNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEEENS_19__map_value_compareIS3_SE_NS_4lessIS3_EELb1EEENSA_ISE_EEE30__emplace_hint_unique_key_argsIS3_JRKNS_4pairIKS3_SD_EEEEENSM_INS_15__tree_iteratorISE_PNS_11__tree_nodeISE_PvEElEEbEENS_21__tree_const_iteratorISE_SV_lEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeIN16RoseCapabilities15CalibrationTypeENS_5tupleIJPKhmNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEEENS_19__map_value_compareIS3_SE_NS_4lessIS3_EELb1EEENSA_ISE_EEE7destroyEPNS_11__tree_nodeISE_PvEE
++ __ZZN15RoseCalibration15sendCalibrationENSt3__110shared_ptrI13ACFUTransportEENS1_I7ACFUROMEENS1_I16RoseCapabilitiesEERKN7ACFUFDR6ConfigERNS0_6vectorINS6_15CalibrationTypeENS0_9allocatorISD_EEEEE11productType
++ __ZZN15RoseCalibration15sendCalibrationENSt3__110shared_ptrI13ACFUTransportEENS1_I7ACFUROMEENS1_I16RoseCapabilitiesEERKN7ACFUFDR6ConfigERNS0_6vectorINS6_15CalibrationTypeENS0_9allocatorISD_EEEEE18kT2030GoldenCalMap
++ __ZZN15RoseCalibration15sendCalibrationENSt3__110shared_ptrI13ACFUTransportEENS1_I7ACFUROMEENS1_I16RoseCapabilitiesEERKN7ACFUFDR6ConfigERNS0_6vectorINS6_15CalibrationTypeENS0_9allocatorISD_EEEEE9only_once
++ ____ZN15RoseCalibration15sendCalibrationENSt3__110shared_ptrI13ACFUTransportEENS1_I7ACFUROMEENS1_I16RoseCapabilitiesEERKN7ACFUFDR6ConfigERNS0_6vectorINS6_15CalibrationTypeENS0_9allocatorISD_EEEE_block_invoke
++ ___cxa_guard_abort
+- GCC_except_table35
+- GCC_except_table46
+- GCC_except_table53
+- GCC_except_table62
+CStrings:
++ "%s::%s: Handling %s\n"
++ "%s::%s: failed to allocate CFData for %s\n"
++ "T2030GoldenFF"
++ "T2030GoldenMLB"
++ "T2030GoldenNB"
++ "r2w2"
+
+```

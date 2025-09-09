@@ -1,0 +1,440 @@
+## ABMHelper
+
+> `/System/Library/PrivateFrameworks/ABMHelper.framework/ABMHelper`
+
+```diff
+
+ 1391.0.0.0.0
+-  __TEXT.__text: 0x14673c
+-  __TEXT.__auth_stubs: 0x2460
+-  __TEXT.__init_offsets: 0x124
++  __TEXT.__text: 0x163e6c
++  __TEXT.__auth_stubs: 0x24d0
++  __TEXT.__init_offsets: 0x13c
+   __TEXT.__objc_methlist: 0x14
+-  __TEXT.__const: 0x5cea
+-  __TEXT.__gcc_except_tab: 0x196d0
+-  __TEXT.__cstring: 0x6bc7
+-  __TEXT.__oslogstring: 0x9fa5
+-  __TEXT.__unwind_info: 0x5fa0
++  __TEXT.__const: 0x6176
++  __TEXT.__gcc_except_tab: 0x1bbb0
++  __TEXT.__cstring: 0x7111
++  __TEXT.__oslogstring: 0xaf1d
++  __TEXT.__unwind_info: 0x65e8
+   __TEXT.__objc_classname: 0x16
+   __TEXT.__objc_methname: 0x660
+   __TEXT.__objc_methtype: 0x28
+   __TEXT.__objc_stubs: 0xa00
+-  __DATA_CONST.__got: 0x5b8
+-  __DATA_CONST.__const: 0x2288
++  __DATA_CONST.__got: 0x5c8
++  __DATA_CONST.__const: 0x23e8
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x280
+   __DATA_CONST.__objc_arraydata: 0x10
+-  __AUTH_CONST.__auth_got: 0x1248
+-  __AUTH_CONST.__const: 0x7860
++  __AUTH_CONST.__auth_got: 0x1280
++  __AUTH_CONST.__const: 0x8098
+   __AUTH_CONST.__cfstring: 0x7c0
+   __AUTH_CONST.__objc_const: 0x90
+   __AUTH_CONST.__objc_intobj: 0x30
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsysdiagnose.dylib
+-  UUID: A45B04CD-82DA-3827-9EDB-D52A9E976FB7
+-  Functions: 3621
+-  Symbols:   10374
+-  CStrings:  2329
++  UUID: 39C53C98-CB40-3856-9987-487BA1CED3D7
++  Functions: 3800
++  Symbols:   10880
++  CStrings:  2471
+ 
+Symbols:
++ GCC_except_table122
++ GCC_except_table143
++ GCC_except_table149
++ GCC_except_table166
++ GCC_except_table172
++ GCC_except_table175
++ GCC_except_table176
++ GCC_except_table184
++ GCC_except_table191
++ __Z11CreateErrorNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEl
++ __ZN11Preferences13getPreferenceIbEEbRKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERT_
++ __ZN12capabilities5radio3dalEv
++ __ZN16BasebandCoredump6createE22BasebandCoredumpParams
++ __ZN16DALCoredumpTrace13snapshot_syncEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEE
++ __ZN16DALCoredumpTrace14createInternalEv
++ __ZN16DALCoredumpTrace15makeCrashStringERKN3xpc4dictE
++ __ZN16DALCoredumpTrace18crashBaseband_syncENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZN16DALCoredumpTrace21parseCrashReason_syncERKN3xpc4dictE
++ __ZN16DALCoredumpTrace22crashBasebandMIPC_syncENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZN16DALCoredumpTrace25updateAnalyticsEvent_syncERKN3xpc4dictES3_
++ __ZN16DALCoredumpTrace28collectBasebandCoreDump_syncEv
++ __ZN16DALCoredumpTraceD0Ev
++ __ZN16DALCoredumpTraceD1Ev
++ __ZN18BasebandBootLogger17getBootLoggerTypeERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZN18BasebandBootLogger6createE24BasebandBootLoggerParams
++ __ZN22BasebandCoredumpParams6anchorEv
++ __ZN22BasebandCoredumpParamsD2Ev
++ __ZN24BasebandBootLoggerParams6anchorEv
++ __ZN3abm5trace11TraceReader4waitEj
++ __ZN3ctu2cf11CFSharedRefI9__CFErrorED1Ev
++ __ZN4util6to_strIN5trace7LogModeEEENSt3__19enable_ifIXoosr3std11is_integralIT_EE5valuesr3std7is_enumIS5_EE5valueENS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEE4typeES5_
++ __ZN4util6to_strIN5trace8LogLevelEEENSt3__19enable_ifIXoosr3std11is_integralIT_EE5valuesr3std7is_enumIS5_EE5valueENS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEE4typeES5_
++ __ZN8DALTrace10abort_syncEN8dispatch5groupE
++ __ZN8DALTrace10start_syncEN8dispatch5groupE
++ __ZN8DALTrace11getPropertyERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERS6_
++ __ZN8DALTrace11setPropertyEN8dispatch5groupERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_
++ __ZN8DALTrace12exitLowPowerEN8dispatch5groupE
++ __ZN8DALTrace12prepare_syncEv
++ __ZN8DALTrace13enterLowPowerEN8dispatch5groupE
++ __ZN8DALTrace14createInternalEv
++ __ZN8DALTrace14dumpState_syncERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZN8DALTrace15doErrorHandlingERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_S8_
++ __ZN8DALTrace15setLogMode_syncEN5trace7LogModeEbN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEEEEENSt3__16chrono8durationIxNSC_5ratioILl1ELl1EEEEE
++ __ZN8DALTrace16enableTimer_syncEjN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEEEEE
++ __ZN8DALTrace16getSettingPrefixEv
++ __ZN8DALTrace16isCustomizedMaskERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZN8DALTrace16moveBootLog_syncEN3ctu2cf11CFSharedRefIK14__CFDictionaryEE
++ __ZN8DALTrace16setLogLevel_syncERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEEEEE
++ __ZN8DALTrace17disableTimer_syncEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEEEEE
++ __ZN8DALTrace18setFlushTimer_syncEjN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEEEEE
++ __ZN8DALTrace19closeTransport_syncEv
++ __ZN8DALTrace19getStateAsDict_syncERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZN8DALTrace19leaveTaskGroup_syncEv
++ __ZN8DALTrace19setLPMHandlers_syncEN8dispatch5groupE
++ __ZN8DALTrace19setPropEnabled_syncEN8dispatch5groupERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_
++ __ZN8DALTrace19setPropHistory_syncEN8dispatch5groupERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_
++ __ZN8DALTrace20cleanupScratchFolderERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZN8DALTrace20setPropFileSize_syncEN8dispatch5groupENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEES8_
++ __ZN8DALTrace20stopTraceReader_syncEv
++ __ZN8DALTrace20triggerLogFlush_syncEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEEEEENSt3__16chrono8durationIxNSA_5ratioILl1ELl1EEEEE
++ __ZN8DALTrace21setPropTraceMode_syncEN8dispatch5groupENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEES8_
++ __ZN8DALTrace21startTraceReader_syncEv
++ __ZN8DALTrace22createTraceReader_syncEv
++ __ZN8DALTrace23sendCustomizedMask_syncERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEEEEE
++ __ZN8DALTrace24createTraceCommandDriverEv
++ __ZN8DALTrace24setPropSleepLogMode_syncEN8dispatch5groupERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_
++ __ZN8DALTrace24setPropTraceLogMode_syncEN8dispatch5groupERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_
++ __ZN8DALTrace25initBootSessionPrefs_syncEv
++ __ZN8DALTrace25setPropErrorHandling_syncEN8dispatch5groupERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_
++ __ZN8DALTrace25setPropSleepLogLevel_syncEN8dispatch5groupERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_
++ __ZN8DALTrace25setPropTraceLogLevel_syncEN8dispatch5groupERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_
++ __ZN8DALTrace26setPropTraceOwnership_syncEN8dispatch5groupENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEES8_
++ __ZN8DALTrace27isValidTraceHistorySizeInMBEi
++ __ZN8DALTrace29setPropPeakBandwidthMbps_syncEN8dispatch5groupENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEES8_
++ __ZN8DALTrace30cleanupTransportResources_syncEv
++ __ZN8DALTrace30setPropFlushTimerInterval_syncEN8dispatch5groupERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_
++ __ZN8DALTrace30setPropMaxMemoryFileCount_syncEN8dispatch5groupENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEES8_
++ __ZN8DALTrace31handleSleepTransitionToDisabledEN8dispatch13group_sessionE
++ __ZN8DALTrace31handleSleepTransitionToWrappingEN8dispatch13group_sessionE
++ __ZN8DALTrace31setPropRetainPreviousTrace_syncEN8dispatch5groupERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_
++ __ZN8DALTrace32handleSleepTransitionToStreamingEN8dispatch13group_sessionE
++ __ZN8DALTrace32setPropTraceResetModeReboot_syncEN8dispatch5groupENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEES8_
++ __ZN8DALTrace32startTraceWithUSBBridgeInterfaceEv
++ __ZN8DALTrace36handleWakeTransistionToWrapping_syncEv
++ __ZN8DALTrace37handleWakeTransistionToStreaming_syncEv
++ __ZN8DALTrace4initENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS0_8weak_ptrIN3abm19BasebandTracingTaskEEEN8dispatch5groupE
++ __ZN8DALTrace4stopEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEE
++ __ZN8DALTrace5abortEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEE
++ __ZN8DALTrace5startEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEE
++ __ZN8DALTrace6reinitEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEE
++ __ZN8DALTrace7getNameEv
++ __ZN8DALTrace7prepareEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEE
++ __ZN8DALTrace8shutdownEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEE
++ __ZN8DALTrace8snapshotEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEE
++ __ZN8DALTrace9dumpStateEN8dispatch5groupENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
++ __ZN8DALTrace9stop_syncEN8dispatch5groupENS0_8callbackIU13block_pointerFvvEEE
++ __ZN8DALTraceC1Ev
++ __ZN8DALTraceC2Ev
++ __ZN8DALTraceD0Ev
++ __ZN8DALTraceD1Ev
++ __ZN8DALTraceD2Ev
++ __ZNKSt3__110__function6__funcIZN8DALTrace22createTraceReader_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN8DALTrace22createTraceReader_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN8DALTrace22createTraceReader_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEE7__cloneEPNS0_6__baseISA_EE
++ __ZNKSt3__110__function6__funcIZN8DALTrace22createTraceReader_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEE7__cloneEv
++ __ZNKSt3__120__shared_ptr_pointerIP16DALCoredumpTraceZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS9_EUlS2_E_NS_9allocatorIS1_EEE13__get_deleterERKSt9type_info
++ __ZNKSt3__120__shared_ptr_pointerIP8DALTraceZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS9_EUlS2_E_NS_9allocatorIS1_EEE13__get_deleterERKSt9type_info
++ __ZNSt3__110__function12__value_funcIFvRKN3xpc4dictEEE4swapB8ne200100ERS7_
++ __ZNSt3__110__function6__funcIZN8DALTrace22createTraceReader_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN8DALTrace22createTraceReader_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN8DALTrace22createTraceReader_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEED0Ev
++ __ZNSt3__110__function6__funcIZN8DALTrace22createTraceReader_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEED1Ev
++ __ZNSt3__110__function6__funcIZN8DALTrace22createTraceReader_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEEclES9_
++ __ZNSt3__110shared_ptrI16DALCoredumpTraceEC2B8ne200100IS1_ZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS0_IT_EEPS9_EUlPS1_E_Li0EEESB_T0_
++ __ZNSt3__110shared_ptrI8DALTraceEC2B8ne200100IS1_ZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS0_IT_EEPS9_EUlPS1_E_Li0EEESB_T0_
++ __ZNSt3__110unique_ptrIZN8DALTrace4stopEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEEE3$_0NS_14default_deleteISA_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZN8DALTrace5abortEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEEE3$_0NS_14default_deleteISA_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZN8DALTrace5startEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEEE3$_0NS_14default_deleteISA_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZN8DALTrace7prepareEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEEE3$_0NS_14default_deleteISA_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZN8DALTrace8shutdownEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEEE3$_0NS_14default_deleteISA_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZN8DALTrace8snapshotEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEEE3$_0NS_14default_deleteISA_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZN8DALTrace9dumpStateEN8dispatch5groupENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE3$_0NS_14default_deleteISA_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZN8DALTrace9stop_syncEN8dispatch5groupENS2_8callbackIU13block_pointerFvvEEEE3$_0NS_14default_deleteIS8_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZN8DALTrace4initENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN3abm19BasebandTracingTaskEEEN8dispatch5groupEE3$_1EEvOT_EUlvE_NS_14default_deleteISM_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZN8DALTrace4stopEN8dispatch5groupENS1_2cf11CFSharedRefIK14__CFDictionaryEEE3$_0EEvOT_EUlvE_NS_14default_deleteISH_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZN8DALTrace5abortEN8dispatch5groupENS1_2cf11CFSharedRefIK14__CFDictionaryEEE3$_0EEvOT_EUlvE_NS_14default_deleteISH_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZN8DALTrace5startEN8dispatch5groupENS1_2cf11CFSharedRefIK14__CFDictionaryEEE3$_0EEvOT_EUlvE_NS_14default_deleteISH_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZN8DALTrace7prepareEN8dispatch5groupENS1_2cf11CFSharedRefIK14__CFDictionaryEEE3$_0EEvOT_EUlvE_NS_14default_deleteISH_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZN8DALTrace8shutdownEN8dispatch5groupENS1_2cf11CFSharedRefIK14__CFDictionaryEEE3$_0EEvOT_EUlvE_NS_14default_deleteISH_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZN8DALTrace8snapshotEN8dispatch5groupENS1_2cf11CFSharedRefIK14__CFDictionaryEEE3$_0EEvOT_EUlvE_NS_14default_deleteISH_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZN8DALTrace9dumpStateEN8dispatch5groupENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE3$_0EEvOT_EUlvE_NS_14default_deleteISI_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZZN8DALTrace22createTraceReader_syncEvENK3$_0clERKN3xpc4dictEEUlvE_EEvOT_EUlvE_NS_14default_deleteISF_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZZN8DALTrace22createTraceReader_syncEvENK3$_0clERKN3xpc4dictEEUlvE_NS_14default_deleteIS7_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZZN8DALTrace8shutdownEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEEENK3$_0clEvEUlvE_NS_14default_deleteISB_EEED1B8ne200100Ev
++ __ZNSt3__120__shared_ptr_pointerIP16DALCoredumpTraceZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS9_EUlS2_E_NS_9allocatorIS1_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_pointerIP16DALCoredumpTraceZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS9_EUlS2_E_NS_9allocatorIS1_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_pointerIP16DALCoredumpTraceZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS9_EUlS2_E_NS_9allocatorIS1_EEED0Ev
++ __ZNSt3__120__shared_ptr_pointerIP16DALCoredumpTraceZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS9_EUlS2_E_NS_9allocatorIS1_EEED1Ev
++ __ZNSt3__120__shared_ptr_pointerIP8DALTraceZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS9_EUlS2_E_NS_9allocatorIS1_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_pointerIP8DALTraceZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS9_EUlS2_E_NS_9allocatorIS1_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_pointerIP8DALTraceZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS9_EUlS2_E_NS_9allocatorIS1_EEED0Ev
++ __ZNSt3__120__shared_ptr_pointerIP8DALTraceZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS9_EUlS2_E_NS_9allocatorIS1_EEED1Ev
++ __ZTI16DALCoredumpTrace
++ __ZTI22BasebandCoredumpParams
++ __ZTI24BasebandBootLoggerParams
++ __ZTI8DALTrace
++ __ZTINSt3__110__function6__funcIZN8DALTrace22createTraceReader_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEEE
++ __ZTINSt3__120__shared_ptr_pointerIP16DALCoredumpTraceZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS9_EUlS2_E_NS_9allocatorIS1_EEEE
++ __ZTINSt3__120__shared_ptr_pointerIP8DALTraceZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS9_EUlS2_E_NS_9allocatorIS1_EEEE
++ __ZTIZN8DALTrace22createTraceReader_syncEvE3$_0
++ __ZTS16DALCoredumpTrace
++ __ZTS8DALTrace
++ __ZTSNSt3__110__function6__funcIZN8DALTrace22createTraceReader_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEEE
++ __ZTSNSt3__120__shared_ptr_pointerIP16DALCoredumpTraceZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS9_EUlS2_E_NS_9allocatorIS1_EEEE
++ __ZTSNSt3__120__shared_ptr_pointerIP8DALTraceZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS9_EUlS2_E_NS_9allocatorIS1_EEEE
++ __ZTSZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrI16DALCoredumpTraceEENSt3__110shared_ptrIT_EEPS7_EUlPS4_E_
++ __ZTSZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrI8DALTraceEENSt3__110shared_ptrIT_EEPS7_EUlPS4_E_
++ __ZTSZN8DALTrace22createTraceReader_syncEvE3$_0
++ __ZTV16DALCoredumpTrace
++ __ZTV22BasebandCoredumpParams
++ __ZTV24BasebandBootLoggerParams
++ __ZTV8DALTrace
++ __ZTVNSt3__110__function6__funcIZN8DALTrace22createTraceReader_syncEvE3$_0NS_9allocatorIS3_EEFvRKN3xpc4dictEEEE
++ __ZTVNSt3__120__shared_ptr_pointerIP16DALCoredumpTraceZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS9_EUlS2_E_NS_9allocatorIS1_EEEE
++ __ZTVNSt3__120__shared_ptr_pointerIP8DALTraceZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrIS1_EENS_10shared_ptrIT_EEPS9_EUlS2_E_NS_9allocatorIS1_EEEE
++ __ZZN8DALTrace7getNameEvE4kRet
++ __ZZN8DALTrace9stop_syncEN8dispatch5groupENS0_8callbackIU13block_pointerFvvEEEEN3$_0D1Ev
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZN8DALTrace4initENSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEENS7_8weak_ptrIN3abm19BasebandTracingTaskEEENS_5groupEE3$_1EEvOT_EUlvE_EEvP16dispatch_queue_sNS7_10unique_ptrISK_NS7_14default_deleteISK_EEEEENUlPvE_8__invokeEST_
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZN8DALTrace4stopENS_5groupENS1_2cf11CFSharedRefIK14__CFDictionaryEEE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrISE_NSJ_14default_deleteISE_EEEEENUlPvE_8__invokeESO_
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZN8DALTrace5abortENS_5groupENS1_2cf11CFSharedRefIK14__CFDictionaryEEE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrISE_NSJ_14default_deleteISE_EEEEENUlPvE_8__invokeESO_
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZN8DALTrace5startENS_5groupENS1_2cf11CFSharedRefIK14__CFDictionaryEEE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrISE_NSJ_14default_deleteISE_EEEEENUlPvE_8__invokeESO_
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZN8DALTrace7prepareENS_5groupENS1_2cf11CFSharedRefIK14__CFDictionaryEEE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrISE_NSJ_14default_deleteISE_EEEEENUlPvE_8__invokeESO_
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZN8DALTrace8shutdownENS_5groupENS1_2cf11CFSharedRefIK14__CFDictionaryEEE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrISE_NSJ_14default_deleteISE_EEEEENUlPvE_8__invokeESO_
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZN8DALTrace8snapshotENS_5groupENS1_2cf11CFSharedRefIK14__CFDictionaryEEE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrISE_NSJ_14default_deleteISE_EEEEENUlPvE_8__invokeESO_
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZN8DALTrace9dumpStateENS_5groupENSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNS8_10unique_ptrISG_NS8_14default_deleteISG_EEEEENUlPvE_8__invokeESP_
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI5TraceE15execute_wrappedIZZN8DALTrace22createTraceReader_syncEvENK3$_0clERKN3xpc4dictEEUlvE_EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrISD_NSI_14default_deleteISD_EEEEENUlPvE_8__invokeESN_
++ __ZZN8dispatch6detail12group_notifyIZN8DALTrace9stop_syncENS_5groupENS_8callbackIU13block_pointerFvvEEEE3$_0EEvP16dispatch_group_sP16dispatch_queue_sOT_NSt3__117integral_constantIbLb0EEEENUlPvE_8__invokeESI_
++ __ZZN8dispatch6detail12group_notifyIZZN8DALTrace8shutdownENS_5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEEENK3$_0clEvEUlvE_EEvP16dispatch_group_sP16dispatch_queue_sOT_NSt3__117integral_constantIbLb0EEEENUlPvE_8__invokeESL_
++ __ZZZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrI16DALCoredumpTraceEENSt3__110shared_ptrIT_EEPS7_ENKUlPS4_E_clESA_ENUlPvE_8__invokeESC_
++ __ZZZN3ctu20SharedSynchronizableI5TraceE15make_shared_ptrI8DALTraceEENSt3__110shared_ptrIT_EEPS7_ENKUlPS4_E_clESA_ENUlPvE_8__invokeESC_
++ __ZZZN8DALTrace8shutdownEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEEENK3$_0clEvENUlvE_D1Ev
++ ____ZN8DALTrace10start_syncEN8dispatch5groupE_block_invoke
++ ____ZN8DALTrace10start_syncEN8dispatch5groupE_block_invoke.15
++ ____ZN8DALTrace10start_syncEN8dispatch5groupE_block_invoke.17
++ ____ZN8DALTrace19setLPMHandlers_syncEN8dispatch5groupE_block_invoke
++ ____ZN8DALTrace19setLPMHandlers_syncEN8dispatch5groupE_block_invoke.62
++ ____ZN8DALTrace19setPropEnabled_syncEN8dispatch5groupERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA__block_invoke
++ ____ZN8DALTrace21startTraceReader_syncEv_block_invoke
++ ____ZN8DALTrace24setPropTraceLogMode_syncEN8dispatch5groupERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA__block_invoke
++ ____ZN8DALTrace25setPropTraceLogLevel_syncEN8dispatch5groupERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA__block_invoke
++ ____ZN8DALTrace30setPropFlushTimerInterval_syncEN8dispatch5groupERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA__block_invoke
++ ____ZN8DALTrace31handleSleepTransitionToDisabledEN8dispatch13group_sessionE_block_invoke
++ ____ZN8DALTrace31handleSleepTransitionToWrappingEN8dispatch13group_sessionE_block_invoke
++ ____ZN8DALTrace31handleSleepTransitionToWrappingEN8dispatch13group_sessionE_block_invoke.89
++ ____ZN8DALTrace31handleSleepTransitionToWrappingEN8dispatch13group_sessionE_block_invoke.93
++ ____ZN8DALTrace32handleSleepTransitionToStreamingEN8dispatch13group_sessionE_block_invoke
++ ____ZN8DALTrace32handleSleepTransitionToStreamingEN8dispatch13group_sessionE_block_invoke.73
++ ____ZN8DALTrace32handleSleepTransitionToStreamingEN8dispatch13group_sessionE_block_invoke.76
++ ____ZN8DALTrace32handleSleepTransitionToStreamingEN8dispatch13group_sessionE_block_invoke.81
++ ____ZN8DALTrace36handleWakeTransistionToWrapping_syncEv_block_invoke
++ ____ZN8DALTrace36handleWakeTransistionToWrapping_syncEv_block_invoke.124
++ ____ZN8DALTrace36handleWakeTransistionToWrapping_syncEv_block_invoke.128
++ ____ZN8DALTrace36handleWakeTransistionToWrapping_syncEv_block_invoke.133
++ ____ZN8DALTrace37handleWakeTransistionToStreaming_syncEv_block_invoke
++ ____ZN8DALTrace37handleWakeTransistionToStreaming_syncEv_block_invoke.105
++ ____ZN8DALTrace37handleWakeTransistionToStreaming_syncEv_block_invoke.110
++ ____ZN8DALTrace37handleWakeTransistionToStreaming_syncEv_block_invoke.115
++ ____ZN8DALTrace9stop_syncEN8dispatch5groupENS0_8callbackIU13block_pointerFvvEEE_block_invoke
++ ____ZN8DALTrace9stop_syncEN8dispatch5groupENS0_8callbackIU13block_pointerFvvEEE_block_invoke.22
++ ____ZNK3ctu20SharedSynchronizableI5TraceE20execute_wrapped_syncIZN8DALTrace11getPropertyERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERSB_E3$_0EEDTclsr8dispatchE4syncLDnEclsr3stdE7forwardIT_Efp_EEEOSG__block_invoke
++ ____ZNK3ctu20SharedSynchronizableI5TraceE20execute_wrapped_syncIZN8DALTrace11setPropertyEN8dispatch5groupERKNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEESF_E3$_0EEDTclsr8dispatchE4syncLDnEclsr3stdE7forwardIT_Efp_EEEOSH__block_invoke
++ ____ZNK3ctu20SharedSynchronizableI5TraceE20execute_wrapped_syncIZN8DALTrace4initENSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEENS5_8weak_ptrIN3abm19BasebandTracingTaskEEEN8dispatch5groupEE3$_0EEDTclsr8dispatchE4syncLDnEclsr3stdE7forwardIT_Efp_EEEOSJ__block_invoke
++ ____ZNK8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEEEEclIJS5_EEEvDpT__block_invoke
++ ____ZNK8dispatch8callbackIU13block_pointerFvvEEclIJEEEvDpT__block_invoke
++ ____ZZN8DALTrace8shutdownEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEEENK3$_0clEv_block_invoke
++ ____ZZN8DALTrace8snapshotEN8dispatch5groupEN3ctu2cf11CFSharedRefIK14__CFDictionaryEEENK3$_0clEv_block_invoke
++ ___block_descriptor_tmp.104
++ ___block_descriptor_tmp.109
++ ___block_descriptor_tmp.119
++ ___block_descriptor_tmp.180
++ ___block_descriptor_tmp.183
++ ___block_descriptor_tmp.195
++ ___block_descriptor_tmp.75
++ ___block_descriptor_tmp.99
++ ___copy_helper_block_e8_32c43_ZTSN8dispatch5blockIU13block_pointerFvvEEE
++ ___copy_helper_block_e8_32c76_ZTSN8dispatch5blockIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEEEEE40c38_ZTSN3ctu2cf11CFSharedRefI9__CFErrorEE
++ ___copy_helper_block_e8_40c30_ZTSN8dispatch13group_sessionE48c29_ZTSNSt3__18weak_ptrI5TraceEE64c45_ZTSN3ctu2cf11CFSharedRefIK14__CFDictionaryEE
++ ___copy_helper_block_e8_40c30_ZTSN8dispatch13group_sessionE48c30_ZTSN8dispatch13group_sessionE56c29_ZTSNSt3__18weak_ptrI5TraceEE72c79_ZTSN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEEEEE
++ ___copy_helper_block_e8_40c30_ZTSN8dispatch13group_sessionE48c30_ZTSN8dispatch13group_sessionE56c30_ZTSN8dispatch13group_sessionE64c29_ZTSNSt3__18weak_ptrI5TraceEE
++ ___copy_helper_block_e8_48c29_ZTSNSt3__18weak_ptrI5TraceEE64c30_ZTSN8dispatch13group_sessionE80c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
++ ___cxx_global_var_init.145
++ ___cxx_global_var_init.146
++ ___cxx_global_var_init.147
++ ___destroy_helper_block_e8_32c43_ZTSN8dispatch5blockIU13block_pointerFvvEEE
++ ___destroy_helper_block_e8_32c76_ZTSN8dispatch5blockIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEEEEE40c38_ZTSN3ctu2cf11CFSharedRefI9__CFErrorEE
++ ___destroy_helper_block_e8_40c30_ZTSN8dispatch13group_sessionE48c29_ZTSNSt3__18weak_ptrI5TraceEE64c45_ZTSN3ctu2cf11CFSharedRefIK14__CFDictionaryEE
++ ___destroy_helper_block_e8_40c30_ZTSN8dispatch13group_sessionE48c30_ZTSN8dispatch13group_sessionE56c29_ZTSNSt3__18weak_ptrI5TraceEE72c79_ZTSN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEEEEE
++ ___destroy_helper_block_e8_40c30_ZTSN8dispatch13group_sessionE48c30_ZTSN8dispatch13group_sessionE56c30_ZTSN8dispatch13group_sessionE64c29_ZTSNSt3__18weak_ptrI5TraceEE
++ ___destroy_helper_block_e8_48c29_ZTSNSt3__18weak_ptrI5TraceEE64c30_ZTSN8dispatch13group_sessionE80c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
++ _sleep
+CStrings:
++ "#D Created trace reader!"
++ "#D No Logging Traffic detected (Stalled?)"
++ "#I %s, %s is removed"
++ "#I Baseband coredump successfully saved at: %s"
++ "#I Boot log is placed in %s"
++ "#I Closing Transport"
++ "#I Crashing baseband (MIPC)"
++ "#I Creating coredump command driver!"
++ "#I Creating trace command driver"
++ "#I Enter low power not implemented"
++ "#I Exit low power not implemented"
++ "#I File size is already %u"
++ "#I Flush timer already set to %u"
++ "#I Flush timer set to %u successfully"
++ "#I Flushing in progress..."
++ "#I History size is already %d MB"
++ "#I Logging through proxy bridge"
++ "#I Low power exit event received"
++ "#I No boot log present"
++ "#I Reset mode on AP boot is already %s (%d)"
++ "#I Setting bbtrace property with key %s and value %s"
++ "#I Setting flush timer from %u to %u"
++ "#I Setting peak bandwidth from %u Mbps to %u Mbps"
++ "#I Setting sleep log level to %s"
++ "#I Setting sleep log mode to %s to %s"
++ "#I Setting trace log mode from %s to %s"
++ "#I Skipped coredump/crash reason collection"
++ "#I Sleeping for 1 second after triggering a SPMI coredump"
++ "#I Snapshotting"
++ "#I Succeed to set log level %s"
++ "#I Succeeded in starting usb bridge"
++ "#I Succeeded stopping reader"
++ "#I Successfully collected crash reason"
++ "#I Trace is disabled, not sending mipc command to baseband to set %s"
++ "#I Trace is not enabled; skip prepare processing"
++ "#I Trace is not enabled; skip processing trace stop"
++ "#I Trace is not enabled; skip starting trace reader"
++ "#I Trace not yet prepared; begin the preparation process before starting the trace"
++ "#I reinit not implemented"
++ "#I scratch path is %s"
++ "#I starting USB bridge interface"
++ "#I stop_sync: disabled timer successfully"
++ "#I trace collection is disabled, no action is needed"
++ "#N reset mode on AP boot: %s"
++ ".*\\.bin"
++ "/Library/Caches/com.apple.xbs/Sources/AppleBasebandServices_Manager/AppleBasebandManager/ABMHelper/Server/Tasks/Wireless/Trace/DALTrace/DALTrace.cpp"
++ "/private/var/wireless/Library/Logs/AppleBasebandManager/Boot.scratch"
++ "Baseband's Log Level  : "
++ "Baseband's Log Mode   : "
++ "DAL trace created"
++ "Entering sleep: reacing Unkown state"
++ "Error Handling        : "
++ "Exiting sleep: reacing Unkown state"
++ "FW version has changed"
++ "Failed to clean  up scratch path %s"
++ "Failed to collect baseband coredump"
++ "Failed to collect baseband crash reason"
++ "Failed to convert level %s"
++ "Failed to convert sleep log level %s"
++ "Failed to create coredump command driver"
++ "Failed to create coredump object"
++ "Failed to create state dump"
++ "Failed to create trace reader"
++ "Failed to disable timer when entering sleep"
++ "Failed to disable timer when entering sleep (%@)"
++ "Failed to enable timer (%@)"
++ "Failed to enable timer when ap wakes"
++ "Failed to enable timer when ap wakes (%@)"
++ "Failed to enable timer when exiting sleep"
++ "Failed to enable timer when exiting sleep (%@)"
++ "Failed to flush log (%@)"
++ "Failed to flush log (baseband might be down)"
++ "Failed to flush log when entering sleep"
++ "Failed to flush log when entering sleep (%@)"
++ "Failed to flush log when entering sleep from wrapping mode"
++ "Failed to flush log when entering sleep from wrapping mode (%@)"
++ "Failed to flush log when exiting sleep"
++ "Failed to flush log when exiting sleep (%@)"
++ "Failed to flush log when exiting sleep from wrapping mode"
++ "Failed to flush log when exiting sleep from wrapping mode (%@)"
++ "Failed to get flush timer property"
++ "Failed to get trace log level"
++ "Failed to get trace log mode"
++ "Failed to get value of key %s from plist"
++ "Failed to load customized file"
++ "Failed to load customized file %s"
++ "Failed to open TRACE transport during prepare stage; ignore this failure and proceed"
++ "Failed to open transport"
++ "Failed to open transport during ap sleep"
++ "Failed to reset trace log level to %s"
++ "Failed to revert trace log mode to %s"
++ "Failed to set flush timer interval to %u (%@)"
++ "Failed to set flush timer property"
++ "Failed to set log level %s (%@)"
++ "Failed to set log level to %s (%@)"
++ "Failed to set log level when entering sleep"
++ "Failed to set log level when entering sleep (%@)"
++ "Failed to set log level when exiting sleep"
++ "Failed to set log level when exiting sleep (%@)"
++ "Failed to set log mode (%@)"
++ "Failed to set log mode to %s (%@)"
++ "Failed to set log mode when entering sleep"
++ "Failed to set log mode when entering sleep (%@)"
++ "Failed to set log mode when exiting sleep"
++ "Failed to set log mode when exiting sleep (%@)"
++ "Failed to set sleep log level"
++ "Failed to set sleep log level to %s"
++ "Failed to set sleep log mode"
++ "Failed to set sleep log mode to %s"
++ "Failed to set trace log level to %s"
++ "Failed to set trace log mode to %s"
++ "Failed to start Trace reader; object does not exist"
++ "File Size (Bytes)     : "
++ "Flush Timer Interval:   "
++ "Flush timer can only be set when log mode is streaming, current log mode: %s"
++ "History (MB)          : "
++ "Invalid log level %d"
++ "Max memory file count : "
++ "Mode                  : "
++ "NA (Not in BBProxy)"
++ "Peak Bandwidth (Mbps) : "
++ "Property 'Retain Previous Trace' is set to false"
++ "Reason                : "
++ "Reset Mode On AP Boot : "
++ "Sleep Level           : "
++ "Sleep Mode            : "
++ "TRACE transport error, triggering modem reset for Trace transport error"
++ "Trace Enabled         : "
++ "Trace Ownership       : "
++ "Trace command driver is not ready"
++ "Trace command driver must be present"
++ "Trace is disabled; skip snapshot processing!"
++ "TraceReader is not ready"
++ "Unable to set timer when bbproxy is active"
++ "exp_reg"
++ "lpc_reg"
++ "rgu_reg"
++ "signature"
++ "stop_sync: failed to disable the timer (%@)"
++ "stop_sync: failed to set log to disabled (%@)"
+
+```

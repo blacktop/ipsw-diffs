@@ -1,0 +1,1407 @@
+## HeartHealth
+
+> `/System/Library/PrivateFrameworks/HeartHealth.framework/HeartHealth`
+
+```diff
+
+-6106.1.2.9.0
+-  __TEXT.__text: 0x1a724
+-  __TEXT.__auth_stubs: 0x700
+-  __TEXT.__objc_methlist: 0x2274
+-  __TEXT.__const: 0xe2
+-  __TEXT.__cstring: 0x2407
+-  __TEXT.__oslogstring: 0xec4
+-  __TEXT.__gcc_except_tab: 0x14c
+-  __TEXT.__unwind_info: 0x858
+-  __TEXT.__objc_classname: 0x7f2
+-  __TEXT.__objc_methname: 0x6c68
+-  __TEXT.__objc_methtype: 0xc8d
+-  __TEXT.__objc_stubs: 0x3840
+-  __DATA_CONST.__got: 0x480
+-  __DATA_CONST.__const: 0xaf8
+-  __DATA_CONST.__objc_classlist: 0x170
+-  __DATA_CONST.__objc_catlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0x78
++6106.1.2.11.0
++  __TEXT.__text: 0x28e28
++  __TEXT.__auth_stubs: 0xa10
++  __TEXT.__objc_methlist: 0x2f34
++  __TEXT.__const: 0x272
++  __TEXT.__cstring: 0x36b1
++  __TEXT.__oslogstring: 0x17b4
++  __TEXT.__gcc_except_tab: 0x26c
++  __TEXT.__swift5_typeref: 0x23
++  __TEXT.__swift5_reflstr: 0x57
++  __TEXT.__swift5_assocty: 0x18
++  __TEXT.__constg_swiftt: 0x64
++  __TEXT.__swift5_fieldmd: 0x74
++  __TEXT.__swift5_proto: 0xc
++  __TEXT.__swift5_types: 0x8
++  __TEXT.__unwind_info: 0xc08
++  __TEXT.__eh_frame: 0x70
++  __TEXT.__objc_classname: 0xc33
++  __TEXT.__objc_methname: 0x89de
++  __TEXT.__objc_methtype: 0x1088
++  __TEXT.__objc_stubs: 0x4d00
++  __DATA_CONST.__got: 0x618
++  __DATA_CONST.__const: 0xd90
++  __DATA_CONST.__objc_classlist: 0x210
++  __DATA_CONST.__objc_catlist: 0x30
++  __DATA_CONST.__objc_protolist: 0xb8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x15e0
+-  __DATA_CONST.__objc_protorefs: 0x48
+-  __DATA_CONST.__objc_superrefs: 0x128
++  __DATA_CONST.__objc_selrefs: 0x1c30
++  __DATA_CONST.__objc_protorefs: 0x68
++  __DATA_CONST.__objc_superrefs: 0x1a8
+   __DATA_CONST.__objc_arraydata: 0x28
+-  __AUTH_CONST.__auth_got: 0x390
+-  __AUTH_CONST.__const: 0x1e1
+-  __AUTH_CONST.__cfstring: 0x2160
+-  __AUTH_CONST.__objc_const: 0x4100
+-  __AUTH_CONST.__objc_intobj: 0x138
++  __AUTH_CONST.__auth_got: 0x518
++  __AUTH_CONST.__const: 0x350
++  __AUTH_CONST.__cfstring: 0x2d20
++  __AUTH_CONST.__objc_const: 0x5c80
++  __AUTH_CONST.__objc_intobj: 0x198
+   __AUTH_CONST.__objc_arrayobj: 0x18
+-  __AUTH.__objc_data: 0xa50
+-  __DATA.__objc_ivar: 0x214
+-  __DATA.__data: 0x5c0
+-  __DATA.__bss: 0x18
+-  __DATA.__common: 0x8
+-  __DATA_DIRTY.__objc_data: 0x410
++  __AUTH.__objc_data: 0xf00
++  __AUTH.__data: 0xa8
++  __DATA.__objc_ivar: 0x2f8
++  __DATA.__data: 0x8c8
++  __DATA.__bss: 0x1c0
++  __DATA.__common: 0x20
++  __DATA_DIRTY.__objc_data: 0x550
+   __DATA_DIRTY.__bss: 0x30
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: DF45D375-BCAD-3476-91D8-C37AFD31573C
+-  Functions: 847
+-  Symbols:   3059
+-  CStrings:  1729
++  UUID: F8C78E7F-5E12-399F-9D3B-8C087F243107
++  Functions: 1213
++  Symbols:   4191
++  CStrings:  2319
+ 
+Symbols:
++ +[HKHRBloodPressureJournal supportsSecureCoding]
++ +[HKHRBloodPressureJournal(HKHRTestingSupport) hkhr_defaultDate]
++ +[HKHRBloodPressureJournal(HKHRTestingSupport) hkhr_defaultDate].cold.1
++ +[HKHRBloodPressureJournal(HKHRTestingSupport) hkhr_defaultJournal]
++ +[HKHRBloodPressureJournal(HKHRTestingSupport) hkhr_defaultTimeIntervals]
++ +[HKHRBloodPressureJournal(HKHRTestingSupport) hkhr_defaultTimeIntervals].cold.1
++ +[HKHRBloodPressureJournal(HKHRTestingSupport) hkhr_defaultTimeIntervals].cold.2
++ +[HKHRBloodPressureJournal(HKHRTestingSupport) hkhr_journalWithStartDate:timeIntervals:]
++ +[HKHRBloodPressureJournal(HKHRTestingSupport) hkhr_timeIntervalsWithWake:bed:]
++ +[HKHRBloodPressureJournal(HKHRTestingSupport) hkhr_timeIntervalsWithWake:bed:].cold.1
++ +[HKHRBloodPressureJournal(HKHRTestingSupport) hkhr_timeIntervalsWithWake:bed:].cold.2
++ +[HKHRBloodPressureJournalControl clientInterface]
++ +[HKHRBloodPressureJournalControl serverInterface]
++ +[HKHRBloodPressureJournalControl taskIdentifier]
++ +[HKHRBloodPressureJournalNotification allBloodPressureJournalNotificationCategoryIdentifiers]
++ +[HKHRBloodPressureJournalNotification notificationForLearnHypertensionRiskWithIdentifier:dueDate:isFollowUp:measurementIndex:measurementCount:measurementWindowType:]
++ +[HKHRBloodPressureJournalNotification notificationToMonitorHypertensionWithIdentifier:dueDate:isFollowUp:]
++ +[HKHRBloodPressureJournalScheduleTimeInterval supportsSecureCoding]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements _analysis]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements _backgroundDelivery]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements _basePromotionRequirements]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements _baseUsageWithFeatureOnRequirementIncluded:]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements _dtdrEducationVisibility]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements _dtdrStatusVisibility]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements _hypertensionIdentifier]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements _notificationSettingsVisibility]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements _onboardingInitiation]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements _pregnancyAdjustmentEligibility]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements _promotion]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements _requirementIdentifiersForRequirements:]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements _settingsUserInteractionEnabled]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements _settingsVisibilityWithFeatureOnboarded:]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements _usage]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements onboardingInitiationRequirementIdentifiers]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements promotionRequirementIdentifiers]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements requirementSet]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements settingsUserInteractionRequirementIdentifiers]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements settingsVisibilityRequirementIdentifiersWithFeatureOnboarded:]
++ +[HKHRHypertensionNotificationsFeatureAvailabilityRequirements usageRequirementIdentifiers]
++ +[HKHRLearnHypertensionJournalSummaryBuilder summaryFromSamples:journal:]
++ +[HKHRLearnHypertensionJournalSummaryBuilder summaryFromSamples:journal:].cold.1
++ +[HKHRMonitorHypertensionJournalSummaryBuilder summaryFromSamples:journal:]
++ +[HKHRMonitorHypertensionJournalSummaryBuilder summaryFromSamples:journal:calendar:]
++ +[NSDate(HKHRLearnHypertensionJournalEntry) hkhr_prettyStringForDateArray:]
++ +[NSUserDefaults(BloodPressureJournal) hkhr_bloodPressureJournalDefaults]
++ +[NSUserDefaults(HypertensionNotifications) hkhr_hypertensionNotificationsDefaults]
++ +[UNNotificationRequest(HKHRBloodPressureJournal) _contentForNotification:]
++ +[UNNotificationRequest(HKHRBloodPressureJournal) _requestIDForNotification:]
++ +[UNNotificationRequest(HKHRBloodPressureJournal) hkhrBPJ_requestForNotification:]
++ -[HKHRBloodPressureJournal .cxx_destruct]
++ -[HKHRBloodPressureJournal UUID]
++ -[HKHRBloodPressureJournal bedtimeTimeInterval]
++ -[HKHRBloodPressureJournal closedJournal]
++ -[HKHRBloodPressureJournal conciseDescription]
++ -[HKHRBloodPressureJournal copyWithZone:]
++ -[HKHRBloodPressureJournal description]
++ -[HKHRBloodPressureJournal encodeWithCoder:]
++ -[HKHRBloodPressureJournal endDate]
++ -[HKHRBloodPressureJournal hash]
++ -[HKHRBloodPressureJournal initWithCoder:]
++ -[HKHRBloodPressureJournal initWithUUID:startDate:endDate:timestamp:journalType:scheduleType:journalState:timeIntervals:]
++ -[HKHRBloodPressureJournal initWithUUID:startDate:journalType:scheduleType:journalState:timeIntervals:]
++ -[HKHRBloodPressureJournal isEqual:]
++ -[HKHRBloodPressureJournal journalStartDayFor:]
++ -[HKHRBloodPressureJournal journalState]
++ -[HKHRBloodPressureJournal journalType]
++ -[HKHRBloodPressureJournal measurementsRequiredToCompleteJournal]
++ -[HKHRBloodPressureJournal notificationEndDateForIncompleteJournal:]
++ -[HKHRBloodPressureJournal scheduleType]
++ -[HKHRBloodPressureJournal startDate]
++ -[HKHRBloodPressureJournal timeIntervals]
++ -[HKHRBloodPressureJournal timestamp]
++ -[HKHRBloodPressureJournal updatedJournalWithTimeIntervals:]
++ -[HKHRBloodPressureJournal wakeupTimeInterval]
++ -[HKHRBloodPressureJournalAnalyticsUtilities .cxx_destruct]
++ -[HKHRBloodPressureJournalAnalyticsUtilities fetchNumDaysSinceMostRecentBPJCycleStart:]
++ -[HKHRBloodPressureJournalAnalyticsUtilities initWithLatestActiveJournal:]
++ -[HKHRBloodPressureJournalAnalyticsUtilities numberOfDaysBetweenStartDate:endDate:withCalendar:]
++ -[HKHRBloodPressureJournalControl .cxx_destruct]
++ -[HKHRBloodPressureJournalControl _callUnitTestObservationChangeHandlerWith:isObserving:error:]
++ -[HKHRBloodPressureJournalControl _handleAutomaticProxyReconnection]
++ -[HKHRBloodPressureJournalControl _handleAutomaticProxyReconnection].cold.1
++ -[HKHRBloodPressureJournalControl _registerForJournalChanges:completion:]
++ -[HKHRBloodPressureJournalControl _startObservingJournalChanges]
++ -[HKHRBloodPressureJournalControl _stopObservingJournalChanges]
++ -[HKHRBloodPressureJournalControl _synchronouslyRegisterForJournalChangesWithError:]
++ -[HKHRBloodPressureJournalControl client_notifyDidAddOrModifyBloodPressureJournals:]
++ -[HKHRBloodPressureJournalControl closeJournal:completion:]
++ -[HKHRBloodPressureJournalControl closeJournalWithIdentifier:completion:]
++ -[HKHRBloodPressureJournalControl connectionInvalidated]
++ -[HKHRBloodPressureJournalControl exportedInterface]
++ -[HKHRBloodPressureJournalControl fetchActiveJournalWithCompletion:]
++ -[HKHRBloodPressureJournalControl fetchAllJournalsWithCompletion:]
++ -[HKHRBloodPressureJournalControl initWithHealthStore:]
++ -[HKHRBloodPressureJournalControl registerObserver:queue:]
++ -[HKHRBloodPressureJournalControl remoteInterface]
++ -[HKHRBloodPressureJournalControl saveJournal:completion:]
++ -[HKHRBloodPressureJournalControl setUnitTest_didChangeObservationHandler:]
++ -[HKHRBloodPressureJournalControl snoozeJournalNotificationWithIdentifier:journalType:userInfo:onDate:completion:]
++ -[HKHRBloodPressureJournalControl unitTest_didChangeObservationHandler]
++ -[HKHRBloodPressureJournalControl unitTest_noOpWithCompletion:]
++ -[HKHRBloodPressureJournalControl unregisterObserver:]
++ -[HKHRBloodPressureJournalNotification .cxx_destruct]
++ -[HKHRBloodPressureJournalNotification category]
++ -[HKHRBloodPressureJournalNotification dueDate]
++ -[HKHRBloodPressureJournalNotification identifier]
++ -[HKHRBloodPressureJournalNotification initWithIdentifier:dueDate:category:userInfo:]
++ -[HKHRBloodPressureJournalNotification userInfo]
++ -[HKHRBloodPressureJournalNotificationAnalyticsEvent .cxx_destruct]
++ -[HKHRBloodPressureJournalNotificationAnalyticsEvent actionValue]
++ -[HKHRBloodPressureJournalNotificationAnalyticsEvent eventName]
++ -[HKHRBloodPressureJournalNotificationAnalyticsEvent initWithAction:latestActiveJournal:windowType:]
++ -[HKHRBloodPressureJournalNotificationAnalyticsEvent isEventSubmissionIHAGated]
++ -[HKHRBloodPressureJournalNotificationAnalyticsEvent makeIHAGatedEventPayloadWithDataSource:error:]
++ -[HKHRBloodPressureJournalNotificationAnalyticsEvent makeIHAGatedEventPayloadWithDataSource:error:].cold.1
++ -[HKHRBloodPressureJournalNotificationAnalyticsEvent makeIHAGatedEventPayloadWithDataSource:error:].cold.2
++ -[HKHRBloodPressureJournalNotificationAnalyticsEvent makeIHAGatedEventPayloadWithDataSource:error:].cold.3
++ -[HKHRBloodPressureJournalNotificationAnalyticsEvent makeUnrestrictedEventPayloadWithDataSource:error:]
++ -[HKHRBloodPressureJournalNotificationAnalyticsEvent windowType]
++ -[HKHRBloodPressureJournalNotificationAnalyticsEvent windowValue:]
++ -[HKHRBloodPressureJournalNotificationAnalyticsUtilities .cxx_destruct]
++ -[HKHRBloodPressureJournalNotificationAnalyticsUtilities initWithEventSubmissionManager:]
++ -[HKHRBloodPressureJournalNotificationAnalyticsUtilities submitAnalyticsEvent:forJournal:windowType:]
++ -[HKHRBloodPressureJournalScheduleTimeInterval .cxx_destruct]
++ -[HKHRBloodPressureJournalScheduleTimeInterval copyWithZone:]
++ -[HKHRBloodPressureJournalScheduleTimeInterval dayWindowType]
++ -[HKHRBloodPressureJournalScheduleTimeInterval description]
++ -[HKHRBloodPressureJournalScheduleTimeInterval encodeWithCoder:]
++ -[HKHRBloodPressureJournalScheduleTimeInterval hash]
++ -[HKHRBloodPressureJournalScheduleTimeInterval initWithCoder:]
++ -[HKHRBloodPressureJournalScheduleTimeInterval initWithDayWindowType:scheduledTime:]
++ -[HKHRBloodPressureJournalScheduleTimeInterval isEqual:]
++ -[HKHRBloodPressureJournalScheduleTimeInterval scheduleTimeString]
++ -[HKHRBloodPressureJournalScheduleTimeInterval scheduledTime]
++ -[HKHRBloodPressureJournalSummaryBuilder .cxx_destruct]
++ -[HKHRBloodPressureJournalSummaryBuilder buildAverageClassification]
++ -[HKHRBloodPressureJournalSummaryBuilder buildAverageClassification].cold.1
++ -[HKHRBloodPressureJournalSummaryBuilder buildSummary]
++ -[HKHRBloodPressureJournalSummaryBuilder dateOfLastSample]
++ -[HKHRBloodPressureJournalSummaryBuilder fetchSamplesWithResultsHandler:]
++ -[HKHRBloodPressureJournalSummaryBuilder fetchStatisticsForQuantityType:resultsHandler:]
++ -[HKHRBloodPressureJournalSummaryBuilder healthStore]
++ -[HKHRBloodPressureJournalSummaryBuilder initWithJournal:healthStore:]
++ -[HKHRBloodPressureJournalSummaryBuilder journal]
++ -[HKHRBloodPressureJournalSummaryBuilder setDateOfLastSample:]
++ -[HKHRBloodPressureJournalSummaryBuilder setHealthStore:]
++ -[HKHRBloodPressureJournalSummaryBuilder setJournal:]
++ -[HKHRHypertensionNotificationsBridgeSettings .cxx_destruct]
++ -[HKHRHypertensionNotificationsBridgeSettings footer]
++ -[HKHRHypertensionNotificationsBridgeSettings initWithSettingsVisible:settingsEnabled:showOnboarding:userInteractionEnabled:footer:]
++ -[HKHRHypertensionNotificationsBridgeSettings settingEnabled]
++ -[HKHRHypertensionNotificationsBridgeSettings settingVisible]
++ -[HKHRHypertensionNotificationsBridgeSettings showOnboarding]
++ -[HKHRHypertensionNotificationsBridgeSettings userInteractionEnabled]
++ -[HKHRHypertensionNotificationsFooter .cxx_destruct]
++ -[HKHRHypertensionNotificationsFooter footerLink]
++ -[HKHRHypertensionNotificationsFooter footerText]
++ -[HKHRHypertensionNotificationsFooter initWithText:link:url:]
++ -[HKHRHypertensionNotificationsFooter linkURL]
++ -[HKHRHypertensionNotificationsSettings .cxx_destruct]
++ -[HKHRHypertensionNotificationsSettings _featureOnboardedWithFeatureStatus:]
++ -[HKHRHypertensionNotificationsSettings _footerDefaultSupportingLink:]
++ -[HKHRHypertensionNotificationsSettings _footerPostPregnancyModeEnabled:]
++ -[HKHRHypertensionNotificationsSettings _footerPregnancyModeEnabled:]
++ -[HKHRHypertensionNotificationsSettings _footerRegionNotSupported:]
++ -[HKHRHypertensionNotificationsSettings _footerRemoteDisabled:]
++ -[HKHRHypertensionNotificationsSettings _footerSeedExpired:]
++ -[HKHRHypertensionNotificationsSettings _footerWithRequirementsEvaluation:supportsLink:]
++ -[HKHRHypertensionNotificationsSettings _footerWristDetectionNotEnabled]
++ -[HKHRHypertensionNotificationsSettings _isWatchSettingsVisibleWithFeatureStatus:]
++ -[HKHRHypertensionNotificationsSettings _notificationsEnabledWithFeatureStatus:]
++ -[HKHRHypertensionNotificationsSettings _notificationsEnabledWithFeatureStatus:].cold.1
++ -[HKHRHypertensionNotificationsSettings _showOnboardingWithFeatureStatus:]
++ -[HKHRHypertensionNotificationsSettings bridgeSettings]
++ -[HKHRHypertensionNotificationsSettings initWithFeatureStatus:]
++ -[HKHRHypertensionNotificationsSettings watchSettings]
++ -[HKHRHypertensionNotificationsWatchSettings .cxx_destruct]
++ -[HKHRHypertensionNotificationsWatchSettings footer]
++ -[HKHRHypertensionNotificationsWatchSettings initWithSettingsVisible:settingsEnabled:userInteractionEnabled:footer:]
++ -[HKHRHypertensionNotificationsWatchSettings settingEnabled]
++ -[HKHRHypertensionNotificationsWatchSettings settingVisible]
++ -[HKHRHypertensionNotificationsWatchSettings userInteractionEnabled]
++ -[HKHRLearnHypertensionJournalEntry .cxx_destruct]
++ -[HKHRLearnHypertensionJournalEntry dayIndex]
++ -[HKHRLearnHypertensionJournalEntry dayWindowType]
++ -[HKHRLearnHypertensionJournalEntry hash]
++ -[HKHRLearnHypertensionJournalEntry initWithSampleUUID:dayWindowType:dayIndex:]
++ -[HKHRLearnHypertensionJournalEntry isEqual:]
++ -[HKHRLearnHypertensionJournalEntry sampleUUID]
++ -[HKHRLearnHypertensionJournalEntryProvider .cxx_destruct]
++ -[HKHRLearnHypertensionJournalEntryProvider _setAnchorsFromJournal:]
++ -[HKHRLearnHypertensionJournalEntryProvider _setAnchorsFromJournal:].cold.1
++ -[HKHRLearnHypertensionJournalEntryProvider bedtime]
++ -[HKHRLearnHypertensionJournalEntryProvider calendarCache]
++ -[HKHRLearnHypertensionJournalEntryProvider initWithJournal:]
++ -[HKHRLearnHypertensionJournalEntryProvider initWithJournal:].cold.1
++ -[HKHRLearnHypertensionJournalEntryProvider journalEntryForSample:]
++ -[HKHRLearnHypertensionJournalEntryProvider journalEntryForSample:].cold.1
++ -[HKHRLearnHypertensionJournalEntryProvider journalEntryForSample:].cold.2
++ -[HKHRLearnHypertensionJournalEntryProvider journalEntryForSample:].cold.3
++ -[HKHRLearnHypertensionJournalEntryProvider journal]
++ -[HKHRLearnHypertensionJournalEntryProvider setBedtime:]
++ -[HKHRLearnHypertensionJournalEntryProvider setCalendarCache:]
++ -[HKHRLearnHypertensionJournalEntryProvider setJournal:]
++ -[HKHRLearnHypertensionJournalEntryProvider setWakeup:]
++ -[HKHRLearnHypertensionJournalEntryProvider wakeup]
++ -[HKHRLearnHypertensionJournalSummary .cxx_destruct]
++ -[HKHRLearnHypertensionJournalSummary averageClassificationCategory]
++ -[HKHRLearnHypertensionJournalSummary bedTimeCount]
++ -[HKHRLearnHypertensionJournalSummary bedtimeSampleMap]
++ -[HKHRLearnHypertensionJournalSummary description]
++ -[HKHRLearnHypertensionJournalSummary hasBedtimeSamplesForDayIndex:]
++ -[HKHRLearnHypertensionJournalSummary hasWakeupSamplesForDayIndex:]
++ -[HKHRLearnHypertensionJournalSummary hash]
++ -[HKHRLearnHypertensionJournalSummary initWithWakeupSampleMap:bedtimeSampleMap:]
++ -[HKHRLearnHypertensionJournalSummary isComplete]
++ -[HKHRLearnHypertensionJournalSummary isEqual:]
++ -[HKHRLearnHypertensionJournalSummary nextMeasurement]
++ -[HKHRLearnHypertensionJournalSummary setAverageClassificationCategory:]
++ -[HKHRLearnHypertensionJournalSummary wakeUpCount]
++ -[HKHRLearnHypertensionJournalSummary wakeupSampleMap]
++ -[HKHRMonitorHypertensionJournalSummary .cxx_destruct]
++ -[HKHRMonitorHypertensionJournalSummary averageClassificationCategory]
++ -[HKHRMonitorHypertensionJournalSummary calendar]
++ -[HKHRMonitorHypertensionJournalSummary datesWithSamples]
++ -[HKHRMonitorHypertensionJournalSummary description]
++ -[HKHRMonitorHypertensionJournalSummary extractDates:]
++ -[HKHRMonitorHypertensionJournalSummary hash]
++ -[HKHRMonitorHypertensionJournalSummary initWithSamples:calendar:journal:]
++ -[HKHRMonitorHypertensionJournalSummary isCompleteOnDate:]
++ -[HKHRMonitorHypertensionJournalSummary isComplete]
++ -[HKHRMonitorHypertensionJournalSummary isEqual:]
++ -[HKHRMonitorHypertensionJournalSummary journal]
++ -[HKHRMonitorHypertensionJournalSummary setAverageClassificationCategory:]
++ -[HKHRMonitorHypertensionJournalSummary setDatesWithSamples:]
++ -[HKHRMonitorHypertensionJournalSummaryBuilder .cxx_destruct]
++ -[HKHRMonitorHypertensionJournalSummaryBuilder setUnitTest_calendar:]
++ -[HKHRMonitorHypertensionJournalSummaryBuilder unitTest_calendar]
++ GCC_except_table0
++ GCC_except_table3
++ _CFAbsoluteTimeGetCurrent
++ _HKAnalyticsDecadeBucketedAgeForAgeWithMinimumAge
++ _HKAnalyticsPropertyNameActiveWatchProductType
++ _HKAnalyticsPropertyNameAge
++ _HKAnalyticsPropertyNameAreHealthNotificationsAuthorized
++ _HKAnalyticsPropertyNameBiologicalSex
++ _HKBloodPressureClassificationCategoryUnavailable
++ _HKConditionallyRedactedHeartRhythmString
++ _HKFeatureAvailabilityContextAnalysis
++ _HKFeatureAvailabilityContextBloodPressureJournalCanBeStarted
++ _HKFeatureAvailabilityContextNotOnboardedSettingsVisibility
++ _HKFeatureAvailabilityContextNotificationSettingsVisibility
++ _HKFeatureAvailabilityContextRoomEducationSectionVisibility
++ _HKFeatureAvailabilityContextRoomStatusSectionVisibility
++ _HKFeatureAvailabilityRequirementIdentifierFeatureFlagIsEnabled
++ _HKFeatureAvailabilityRequirementIdentifierNoOngoingPregnancy
++ _HKFeatureAvailabilityRequirementIdentifierNotInPostPregnancy
++ _HKFeatureAvailabilityRequirementIdentifierOnboardingAcknowledged
++ _HKFeatureAvailabilityRequirementIdentifierProfileIsNotFamilySetupPairingProfile
++ _HKFeatureIdentifierHypertensionNotifications
++ _HKHRBPJNotificationActionIdentifierSnooze
++ _HKHRBloodPressureJournalDefaultsSuiteName
++ _HKHRBloodPressureJournalLocalizedString
++ _HKHRBloodPressureJournalNotificationAnalyticsEventName
++ _HKHRBloodPressureJournalNotificationCategoryLearnHypertensionRisk
++ _HKHRBloodPressureJournalNotificationCategoryMonitorHypertension
++ _HKHRBloodPressureJournalNotificationIsFollowUpKey
++ _HKHRBloodPressureJournalNotificationJournalTypeKey
++ _HKHRBloodPressureJournalNotificationMeasurementCountKey
++ _HKHRBloodPressureJournalNotificationMeasurementIndexKey
++ _HKHRBloodPressureJournalNotificationMeasurementWindowTypeKey
++ _HKHRBloodPressureJournalTimeZoneNameKey
++ _HKHRBloodPressureJournalTypeLearnHypertensionRiskMeasurementCount
++ _HKHRBloodPressureJournalTypeMonitorHypertensionMeasurementCount
++ _HKHRBloodPressureJournalValidTimeInDays
++ _HKHRBloodPressureLogCategoryDefault
++ _HKHRBloodPressureLogCategoryForCategory
++ _HKHRBloodPressureLogCategoryJournal
++ _HKHRBloodPressureLogForCategory
++ _HKHRBloodPressureLogForCategory.cold.1
++ _HKHRBloodPressureLogForCategory.logObjects
++ _HKHRBloodPressureLogForCategory.onceToken
++ _HKHRBloodPressureLogSubsystem
++ _HKHRHypertensionEventSampleDetailsLink
++ _HKHRHypertensionEventSampleDetailsLinkUrlPathComponent
++ _HKHRHypertensionNotificationsDefaultsDomain
++ _HKHRHypertensionNotificationsDetailRoomBaseLink
++ _HKHRHypertensionNotificationsLastAnalysisWindowEndDateKey
++ _HKHRHypertensionNotificationsLocalFeatureAttributes
++ _HKHRHypertensionNotificationsOnboardingDeepLink
++ _HKHRHypertensionNotificationsSettingsLocstr
++ _HKLogBloodPressureJournal
++ _HKSampleSortIdentifierEndDate
++ _NSStringFromProtocol
++ _OBJC_CLASS_$_HKBloodPressureClassificationManager
++ _OBJC_CLASS_$_HKCalendarCache
++ _OBJC_CLASS_$_HKCorrelationType
++ _OBJC_CLASS_$_HKHRBloodPressureJournal
++ _OBJC_CLASS_$_HKHRBloodPressureJournalAnalyticsUtilities
++ _OBJC_CLASS_$_HKHRBloodPressureJournalControl
++ _OBJC_CLASS_$_HKHRBloodPressureJournalNotification
++ _OBJC_CLASS_$_HKHRBloodPressureJournalNotificationAnalyticsEvent
++ _OBJC_CLASS_$_HKHRBloodPressureJournalNotificationAnalyticsUtilities
++ _OBJC_CLASS_$_HKHRBloodPressureJournalScheduleTimeInterval
++ _OBJC_CLASS_$_HKHRBloodPressureJournalSummaryBuilder
++ _OBJC_CLASS_$_HKHRHypertensionNotificationsBridgeSettings
++ _OBJC_CLASS_$_HKHRHypertensionNotificationsFeatureAvailabilityRequirements
++ _OBJC_CLASS_$_HKHRHypertensionNotificationsFooter
++ _OBJC_CLASS_$_HKHRHypertensionNotificationsSettings
++ _OBJC_CLASS_$_HKHRHypertensionNotificationsWatchSettings
++ _OBJC_CLASS_$_HKHRLearnHypertensionJournalEntry
++ _OBJC_CLASS_$_HKHRLearnHypertensionJournalEntryProvider
++ _OBJC_CLASS_$_HKHRLearnHypertensionJournalSummary
++ _OBJC_CLASS_$_HKHRLearnHypertensionJournalSummaryBuilder
++ _OBJC_CLASS_$_HKHRMonitorHypertensionJournalSummary
++ _OBJC_CLASS_$_HKHRMonitorHypertensionJournalSummaryBuilder
++ _OBJC_CLASS_$_HKSampleQuery
++ _OBJC_CLASS_$_HKStatisticsQuery
++ _OBJC_CLASS_$_NSCompoundPredicate
++ _OBJC_CLASS_$_NSMutableSet
++ _OBJC_CLASS_$_NSSortDescriptor
++ _OBJC_CLASS_$_UNMutableNotificationContent
++ _OBJC_CLASS_$_UNNotificationRequest
++ _OBJC_CLASS_$_UNNotificationSound
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ _OBJC_IVAR_$_HKHRBloodPressureJournal._UUID
++ _OBJC_IVAR_$_HKHRBloodPressureJournal._endDate
++ _OBJC_IVAR_$_HKHRBloodPressureJournal._journalState
++ _OBJC_IVAR_$_HKHRBloodPressureJournal._journalType
++ _OBJC_IVAR_$_HKHRBloodPressureJournal._scheduleType
++ _OBJC_IVAR_$_HKHRBloodPressureJournal._startDate
++ _OBJC_IVAR_$_HKHRBloodPressureJournal._timeIntervals
++ _OBJC_IVAR_$_HKHRBloodPressureJournal._timestamp
++ _OBJC_IVAR_$_HKHRBloodPressureJournalAnalyticsUtilities._latestActiveJournal
++ _OBJC_IVAR_$_HKHRBloodPressureJournalControl._observers
++ _OBJC_IVAR_$_HKHRBloodPressureJournalControl._proxyProvider
++ _OBJC_IVAR_$_HKHRBloodPressureJournalControl._unitTest_didChangeObservationHandler
++ _OBJC_IVAR_$_HKHRBloodPressureJournalNotification._category
++ _OBJC_IVAR_$_HKHRBloodPressureJournalNotification._dueDate
++ _OBJC_IVAR_$_HKHRBloodPressureJournalNotification._identifier
++ _OBJC_IVAR_$_HKHRBloodPressureJournalNotification._userInfo
++ _OBJC_IVAR_$_HKHRBloodPressureJournalNotificationAnalyticsEvent._action
++ _OBJC_IVAR_$_HKHRBloodPressureJournalNotificationAnalyticsEvent._activeJournal
++ _OBJC_IVAR_$_HKHRBloodPressureJournalNotificationAnalyticsEvent._commonUtilities
++ _OBJC_IVAR_$_HKHRBloodPressureJournalNotificationAnalyticsEvent._windowType
++ _OBJC_IVAR_$_HKHRBloodPressureJournalNotificationAnalyticsUtilities._eventSubmissionManager
++ _OBJC_IVAR_$_HKHRBloodPressureJournalScheduleTimeInterval._dayWindowType
++ _OBJC_IVAR_$_HKHRBloodPressureJournalScheduleTimeInterval._scheduledTime
++ _OBJC_IVAR_$_HKHRBloodPressureJournalSummaryBuilder._dateOfLastSample
++ _OBJC_IVAR_$_HKHRBloodPressureJournalSummaryBuilder._healthStore
++ _OBJC_IVAR_$_HKHRBloodPressureJournalSummaryBuilder._journal
++ _OBJC_IVAR_$_HKHRHypertensionNotificationsBridgeSettings._footer
++ _OBJC_IVAR_$_HKHRHypertensionNotificationsBridgeSettings._settingEnabled
++ _OBJC_IVAR_$_HKHRHypertensionNotificationsBridgeSettings._settingVisible
++ _OBJC_IVAR_$_HKHRHypertensionNotificationsBridgeSettings._showOnboarding
++ _OBJC_IVAR_$_HKHRHypertensionNotificationsBridgeSettings._userInteractionEnabled
++ _OBJC_IVAR_$_HKHRHypertensionNotificationsFooter._footerLink
++ _OBJC_IVAR_$_HKHRHypertensionNotificationsFooter._footerText
++ _OBJC_IVAR_$_HKHRHypertensionNotificationsFooter._linkURL
++ _OBJC_IVAR_$_HKHRHypertensionNotificationsSettings._featureStatus
++ _OBJC_IVAR_$_HKHRHypertensionNotificationsWatchSettings._footer
++ _OBJC_IVAR_$_HKHRHypertensionNotificationsWatchSettings._settingEnabled
++ _OBJC_IVAR_$_HKHRHypertensionNotificationsWatchSettings._settingVisible
++ _OBJC_IVAR_$_HKHRHypertensionNotificationsWatchSettings._userInteractionEnabled
++ _OBJC_IVAR_$_HKHRLearnHypertensionJournalEntry._dayIndex
++ _OBJC_IVAR_$_HKHRLearnHypertensionJournalEntry._dayWindowType
++ _OBJC_IVAR_$_HKHRLearnHypertensionJournalEntry._sampleUUID
++ _OBJC_IVAR_$_HKHRLearnHypertensionJournalEntryProvider._bedtime
++ _OBJC_IVAR_$_HKHRLearnHypertensionJournalEntryProvider._calendarCache
++ _OBJC_IVAR_$_HKHRLearnHypertensionJournalEntryProvider._journal
++ _OBJC_IVAR_$_HKHRLearnHypertensionJournalEntryProvider._wakeup
++ _OBJC_IVAR_$_HKHRLearnHypertensionJournalSummary._bedTimeCount
++ _OBJC_IVAR_$_HKHRLearnHypertensionJournalSummary._bedtimeSampleMap
++ _OBJC_IVAR_$_HKHRLearnHypertensionJournalSummary._wakeUpCount
++ _OBJC_IVAR_$_HKHRLearnHypertensionJournalSummary._wakeupSampleMap
++ _OBJC_IVAR_$_HKHRLearnHypertensionJournalSummary.averageClassificationCategory
++ _OBJC_IVAR_$_HKHRMonitorHypertensionJournalSummary._calendar
++ _OBJC_IVAR_$_HKHRMonitorHypertensionJournalSummary._datesWithSamples
++ _OBJC_IVAR_$_HKHRMonitorHypertensionJournalSummary._journal
++ _OBJC_IVAR_$_HKHRMonitorHypertensionJournalSummary.averageClassificationCategory
++ _OBJC_IVAR_$_HKHRMonitorHypertensionJournalSummary.isComplete
++ _OBJC_IVAR_$_HKHRMonitorHypertensionJournalSummaryBuilder._unitTest_calendar
++ _OBJC_METACLASS_$_HKHRBloodPressureJournal
++ _OBJC_METACLASS_$_HKHRBloodPressureJournalAnalyticsUtilities
++ _OBJC_METACLASS_$_HKHRBloodPressureJournalControl
++ _OBJC_METACLASS_$_HKHRBloodPressureJournalNotification
++ _OBJC_METACLASS_$_HKHRBloodPressureJournalNotificationAnalyticsEvent
++ _OBJC_METACLASS_$_HKHRBloodPressureJournalNotificationAnalyticsUtilities
++ _OBJC_METACLASS_$_HKHRBloodPressureJournalScheduleTimeInterval
++ _OBJC_METACLASS_$_HKHRBloodPressureJournalSummaryBuilder
++ _OBJC_METACLASS_$_HKHRHypertensionNotificationsBridgeSettings
++ _OBJC_METACLASS_$_HKHRHypertensionNotificationsFeatureAvailabilityRequirements
++ _OBJC_METACLASS_$_HKHRHypertensionNotificationsFooter
++ _OBJC_METACLASS_$_HKHRHypertensionNotificationsSettings
++ _OBJC_METACLASS_$_HKHRHypertensionNotificationsWatchSettings
++ _OBJC_METACLASS_$_HKHRLearnHypertensionJournalEntry
++ _OBJC_METACLASS_$_HKHRLearnHypertensionJournalEntryProvider
++ _OBJC_METACLASS_$_HKHRLearnHypertensionJournalSummary
++ _OBJC_METACLASS_$_HKHRLearnHypertensionJournalSummaryBuilder
++ _OBJC_METACLASS_$_HKHRMonitorHypertensionJournalSummary
++ _OBJC_METACLASS_$_HKHRMonitorHypertensionJournalSummaryBuilder
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ __DATA__TtC11HeartHealth40HypertensionNotificationInteractionEvent
++ __INSTANCE_METHODS__TtC11HeartHealth40HypertensionNotificationInteractionEvent
++ __IVARS__TtC11HeartHealth40HypertensionNotificationInteractionEvent
++ __METACLASS_DATA__TtC11HeartHealth40HypertensionNotificationInteractionEvent
++ __OBJC_$_CATEGORY_CLASS_METHODS_UNNotificationRequest_$_HKHRBloodPressureJournal
++ __OBJC_$_CATEGORY_NSDate_$_HKHRLearnHypertensionJournalEntry
++ __OBJC_$_CATEGORY_NSUserDefaults_$_BloodPressureJournal
++ __OBJC_$_CATEGORY_UNNotificationRequest_$_HKHRBloodPressureJournal
++ __OBJC_$_CLASS_METHODS_HKHRBloodPressureJournal(HKHRTestingSupport)
++ __OBJC_$_CLASS_METHODS_HKHRBloodPressureJournalControl
++ __OBJC_$_CLASS_METHODS_HKHRBloodPressureJournalNotification
++ __OBJC_$_CLASS_METHODS_HKHRBloodPressureJournalScheduleTimeInterval
++ __OBJC_$_CLASS_METHODS_HKHRHypertensionNotificationsFeatureAvailabilityRequirements
++ __OBJC_$_CLASS_METHODS_HKHRLearnHypertensionJournalSummaryBuilder
++ __OBJC_$_CLASS_METHODS_HKHRMonitorHypertensionJournalSummaryBuilder
++ __OBJC_$_CLASS_METHODS_NSDate(HKHRLearnHypertensionJournalEntry|HeartHealth)
++ __OBJC_$_CLASS_METHODS_NSUserDefaults(BloodPressureJournal|HypertensionNotifications)
++ __OBJC_$_CLASS_PROP_LIST_HKHRBloodPressureJournal
++ __OBJC_$_CLASS_PROP_LIST_HKHRBloodPressureJournalScheduleTimeInterval
++ __OBJC_$_INSTANCE_METHODS_HKHRBloodPressureJournal
++ __OBJC_$_INSTANCE_METHODS_HKHRBloodPressureJournalAnalyticsUtilities
++ __OBJC_$_INSTANCE_METHODS_HKHRBloodPressureJournalControl
++ __OBJC_$_INSTANCE_METHODS_HKHRBloodPressureJournalNotification
++ __OBJC_$_INSTANCE_METHODS_HKHRBloodPressureJournalNotificationAnalyticsEvent
++ __OBJC_$_INSTANCE_METHODS_HKHRBloodPressureJournalNotificationAnalyticsUtilities
++ __OBJC_$_INSTANCE_METHODS_HKHRBloodPressureJournalScheduleTimeInterval
++ __OBJC_$_INSTANCE_METHODS_HKHRBloodPressureJournalSummaryBuilder
++ __OBJC_$_INSTANCE_METHODS_HKHRHypertensionNotificationsBridgeSettings
++ __OBJC_$_INSTANCE_METHODS_HKHRHypertensionNotificationsFooter
++ __OBJC_$_INSTANCE_METHODS_HKHRHypertensionNotificationsSettings
++ __OBJC_$_INSTANCE_METHODS_HKHRHypertensionNotificationsWatchSettings
++ __OBJC_$_INSTANCE_METHODS_HKHRLearnHypertensionJournalEntry
++ __OBJC_$_INSTANCE_METHODS_HKHRLearnHypertensionJournalEntryProvider
++ __OBJC_$_INSTANCE_METHODS_HKHRLearnHypertensionJournalSummary
++ __OBJC_$_INSTANCE_METHODS_HKHRMonitorHypertensionJournalSummary
++ __OBJC_$_INSTANCE_METHODS_HKHRMonitorHypertensionJournalSummaryBuilder
++ __OBJC_$_INSTANCE_VARIABLES_HKHRBloodPressureJournal
++ __OBJC_$_INSTANCE_VARIABLES_HKHRBloodPressureJournalAnalyticsUtilities
++ __OBJC_$_INSTANCE_VARIABLES_HKHRBloodPressureJournalControl
++ __OBJC_$_INSTANCE_VARIABLES_HKHRBloodPressureJournalNotification
++ __OBJC_$_INSTANCE_VARIABLES_HKHRBloodPressureJournalNotificationAnalyticsEvent
++ __OBJC_$_INSTANCE_VARIABLES_HKHRBloodPressureJournalNotificationAnalyticsUtilities
++ __OBJC_$_INSTANCE_VARIABLES_HKHRBloodPressureJournalScheduleTimeInterval
++ __OBJC_$_INSTANCE_VARIABLES_HKHRBloodPressureJournalSummaryBuilder
++ __OBJC_$_INSTANCE_VARIABLES_HKHRHypertensionNotificationsBridgeSettings
++ __OBJC_$_INSTANCE_VARIABLES_HKHRHypertensionNotificationsFooter
++ __OBJC_$_INSTANCE_VARIABLES_HKHRHypertensionNotificationsSettings
++ __OBJC_$_INSTANCE_VARIABLES_HKHRHypertensionNotificationsWatchSettings
++ __OBJC_$_INSTANCE_VARIABLES_HKHRLearnHypertensionJournalEntry
++ __OBJC_$_INSTANCE_VARIABLES_HKHRLearnHypertensionJournalEntryProvider
++ __OBJC_$_INSTANCE_VARIABLES_HKHRLearnHypertensionJournalSummary
++ __OBJC_$_INSTANCE_VARIABLES_HKHRMonitorHypertensionJournalSummary
++ __OBJC_$_INSTANCE_VARIABLES_HKHRMonitorHypertensionJournalSummaryBuilder
++ __OBJC_$_PROP_LIST_HKAnalyticsEvent
++ __OBJC_$_PROP_LIST_HKHRBloodPressureJournal
++ __OBJC_$_PROP_LIST_HKHRBloodPressureJournalControl
++ __OBJC_$_PROP_LIST_HKHRBloodPressureJournalNotification
++ __OBJC_$_PROP_LIST_HKHRBloodPressureJournalNotificationAnalyticsEvent
++ __OBJC_$_PROP_LIST_HKHRBloodPressureJournalScheduleTimeInterval
++ __OBJC_$_PROP_LIST_HKHRBloodPressureJournalSummaryBuilder
++ __OBJC_$_PROP_LIST_HKHRBloodPressureSummaryProviding
++ __OBJC_$_PROP_LIST_HKHRHypertensionNotificationsBridgeSettings
++ __OBJC_$_PROP_LIST_HKHRHypertensionNotificationsFooter
++ __OBJC_$_PROP_LIST_HKHRHypertensionNotificationsWatchSettings
++ __OBJC_$_PROP_LIST_HKHRLearnHypertensionJournalEntry
++ __OBJC_$_PROP_LIST_HKHRLearnHypertensionJournalEntryProvider
++ __OBJC_$_PROP_LIST_HKHRLearnHypertensionJournalSummary
++ __OBJC_$_PROP_LIST_HKHRLearnHypertensionJournalSummaryBuilder
++ __OBJC_$_PROP_LIST_HKHRMonitorHypertensionJournalSummary
++ __OBJC_$_PROP_LIST_HKHRMonitorHypertensionJournalSummaryBuilder
++ __OBJC_$_PROTOCOL_CLASS_METHODS_HKHRBloodPressureSummaryBuilder
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKAnalyticsEvent
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKHRBloodPressureJournalControlClientInterface
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKHRBloodPressureJournalControlObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKHRBloodPressureJournalControlServerInterface
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKHRBloodPressureSummaryProviding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKUnitTestingTaskServerInterface
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKAnalyticsEvent
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKHRBloodPressureJournalControlClientInterface
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKHRBloodPressureJournalControlObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKHRBloodPressureJournalControlServerInterface
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKHRBloodPressureSummaryBuilder
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKHRBloodPressureSummaryProviding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKUnitTestingTaskServerInterface
++ __OBJC_$_PROTOCOL_REFS_HKHRBloodPressureJournalControlClientInterface
++ __OBJC_$_PROTOCOL_REFS_HKHRBloodPressureJournalControlObserver
++ __OBJC_$_PROTOCOL_REFS_HKHRBloodPressureJournalControlServerInterface
++ __OBJC_$_PROTOCOL_REFS_HKHRBloodPressureSummaryBuilder
++ __OBJC_$_PROTOCOL_REFS_HKHRBloodPressureSummaryProviding
++ __OBJC_CLASS_PROTOCOLS_$_HKHRBloodPressureJournal
++ __OBJC_CLASS_PROTOCOLS_$_HKHRBloodPressureJournalControl
++ __OBJC_CLASS_PROTOCOLS_$_HKHRBloodPressureJournalNotificationAnalyticsEvent
++ __OBJC_CLASS_PROTOCOLS_$_HKHRBloodPressureJournalScheduleTimeInterval
++ __OBJC_CLASS_PROTOCOLS_$_HKHRLearnHypertensionJournalSummary
++ __OBJC_CLASS_PROTOCOLS_$_HKHRLearnHypertensionJournalSummaryBuilder
++ __OBJC_CLASS_PROTOCOLS_$_HKHRMonitorHypertensionJournalSummary
++ __OBJC_CLASS_PROTOCOLS_$_HKHRMonitorHypertensionJournalSummaryBuilder
++ __OBJC_CLASS_RO_$_HKHRBloodPressureJournal
++ __OBJC_CLASS_RO_$_HKHRBloodPressureJournalAnalyticsUtilities
++ __OBJC_CLASS_RO_$_HKHRBloodPressureJournalControl
++ __OBJC_CLASS_RO_$_HKHRBloodPressureJournalNotification
++ __OBJC_CLASS_RO_$_HKHRBloodPressureJournalNotificationAnalyticsEvent
++ __OBJC_CLASS_RO_$_HKHRBloodPressureJournalNotificationAnalyticsUtilities
++ __OBJC_CLASS_RO_$_HKHRBloodPressureJournalScheduleTimeInterval
++ __OBJC_CLASS_RO_$_HKHRBloodPressureJournalSummaryBuilder
++ __OBJC_CLASS_RO_$_HKHRHypertensionNotificationsBridgeSettings
++ __OBJC_CLASS_RO_$_HKHRHypertensionNotificationsFeatureAvailabilityRequirements
++ __OBJC_CLASS_RO_$_HKHRHypertensionNotificationsFooter
++ __OBJC_CLASS_RO_$_HKHRHypertensionNotificationsSettings
++ __OBJC_CLASS_RO_$_HKHRHypertensionNotificationsWatchSettings
++ __OBJC_CLASS_RO_$_HKHRLearnHypertensionJournalEntry
++ __OBJC_CLASS_RO_$_HKHRLearnHypertensionJournalEntryProvider
++ __OBJC_CLASS_RO_$_HKHRLearnHypertensionJournalSummary
++ __OBJC_CLASS_RO_$_HKHRLearnHypertensionJournalSummaryBuilder
++ __OBJC_CLASS_RO_$_HKHRMonitorHypertensionJournalSummary
++ __OBJC_CLASS_RO_$_HKHRMonitorHypertensionJournalSummaryBuilder
++ __OBJC_LABEL_PROTOCOL_$_HKAnalyticsEvent
++ __OBJC_LABEL_PROTOCOL_$_HKHRBloodPressureJournalControlClientInterface
++ __OBJC_LABEL_PROTOCOL_$_HKHRBloodPressureJournalControlObserver
++ __OBJC_LABEL_PROTOCOL_$_HKHRBloodPressureJournalControlServerInterface
++ __OBJC_LABEL_PROTOCOL_$_HKHRBloodPressureSummaryBuilder
++ __OBJC_LABEL_PROTOCOL_$_HKHRBloodPressureSummaryProviding
++ __OBJC_LABEL_PROTOCOL_$_HKUnitTestingTaskServerInterface
++ __OBJC_METACLASS_RO_$_HKHRBloodPressureJournal
++ __OBJC_METACLASS_RO_$_HKHRBloodPressureJournalAnalyticsUtilities
++ __OBJC_METACLASS_RO_$_HKHRBloodPressureJournalControl
++ __OBJC_METACLASS_RO_$_HKHRBloodPressureJournalNotification
++ __OBJC_METACLASS_RO_$_HKHRBloodPressureJournalNotificationAnalyticsEvent
++ __OBJC_METACLASS_RO_$_HKHRBloodPressureJournalNotificationAnalyticsUtilities
++ __OBJC_METACLASS_RO_$_HKHRBloodPressureJournalScheduleTimeInterval
++ __OBJC_METACLASS_RO_$_HKHRBloodPressureJournalSummaryBuilder
++ __OBJC_METACLASS_RO_$_HKHRHypertensionNotificationsBridgeSettings
++ __OBJC_METACLASS_RO_$_HKHRHypertensionNotificationsFeatureAvailabilityRequirements
++ __OBJC_METACLASS_RO_$_HKHRHypertensionNotificationsFooter
++ __OBJC_METACLASS_RO_$_HKHRHypertensionNotificationsSettings
++ __OBJC_METACLASS_RO_$_HKHRHypertensionNotificationsWatchSettings
++ __OBJC_METACLASS_RO_$_HKHRLearnHypertensionJournalEntry
++ __OBJC_METACLASS_RO_$_HKHRLearnHypertensionJournalEntryProvider
++ __OBJC_METACLASS_RO_$_HKHRLearnHypertensionJournalSummary
++ __OBJC_METACLASS_RO_$_HKHRLearnHypertensionJournalSummaryBuilder
++ __OBJC_METACLASS_RO_$_HKHRMonitorHypertensionJournalSummary
++ __OBJC_METACLASS_RO_$_HKHRMonitorHypertensionJournalSummaryBuilder
++ __OBJC_PROTOCOL_$_HKAnalyticsEvent
++ __OBJC_PROTOCOL_$_HKHRBloodPressureJournalControlClientInterface
++ __OBJC_PROTOCOL_$_HKHRBloodPressureJournalControlObserver
++ __OBJC_PROTOCOL_$_HKHRBloodPressureJournalControlServerInterface
++ __OBJC_PROTOCOL_$_HKHRBloodPressureSummaryBuilder
++ __OBJC_PROTOCOL_$_HKHRBloodPressureSummaryProviding
++ __OBJC_PROTOCOL_$_HKUnitTestingTaskServerInterface
++ __OBJC_PROTOCOL_REFERENCE_$_HKHRBloodPressureJournalControlClientInterface
++ __OBJC_PROTOCOL_REFERENCE_$_HKHRBloodPressureJournalControlObserver
++ __OBJC_PROTOCOL_REFERENCE_$_HKHRBloodPressureJournalControlServerInterface
++ __PROPERTIES__TtC11HeartHealth40HypertensionNotificationInteractionEvent
++ __PROTOCOLS__TtC11HeartHealth40HypertensionNotificationInteractionEvent
++ __PROTOCOLS__TtC11HeartHealth40HypertensionNotificationInteractionEvent.6
++ ___114-[HKHRBloodPressureJournalControl snoozeJournalNotificationWithIdentifier:journalType:userInfo:onDate:completion:]_block_invoke
++ ___114-[HKHRBloodPressureJournalControl snoozeJournalNotificationWithIdentifier:journalType:userInfo:onDate:completion:]_block_invoke_2
++ ___114-[HKHRBloodPressureJournalControl snoozeJournalNotificationWithIdentifier:journalType:userInfo:onDate:completion:]_block_invoke_2.cold.1
++ ___54-[HKHRBloodPressureJournalControl unregisterObserver:]_block_invoke
++ ___54-[HKHRBloodPressureJournalSummaryBuilder buildSummary]_block_invoke
++ ___55-[HKHRBloodPressureJournalControl initWithHealthStore:]_block_invoke
++ ___58-[HKHRBloodPressureJournalControl registerObserver:queue:]_block_invoke
++ ___58-[HKHRBloodPressureJournalControl saveJournal:completion:]_block_invoke
++ ___58-[HKHRBloodPressureJournalControl saveJournal:completion:]_block_invoke_2
++ ___58-[HKHRBloodPressureJournalControl saveJournal:completion:]_block_invoke_2.cold.1
++ ___59-[HKHRBloodPressureJournalControl closeJournal:completion:]_block_invoke
++ ___59-[HKHRBloodPressureJournalControl closeJournal:completion:]_block_invoke_2
++ ___59-[HKHRBloodPressureJournalControl closeJournal:completion:]_block_invoke_2.cold.1
++ ___63-[HKHRBloodPressureJournalControl _stopObservingJournalChanges]_block_invoke
++ ___63-[HKHRBloodPressureJournalControl _stopObservingJournalChanges]_block_invoke.cold.1
++ ___63-[HKHRBloodPressureJournalControl unitTest_noOpWithCompletion:]_block_invoke
++ ___63-[HKHRBloodPressureJournalControl unitTest_noOpWithCompletion:]_block_invoke_2
++ ___64+[HKHRBloodPressureJournal(HKHRTestingSupport) hkhr_defaultDate]_block_invoke
++ ___64-[HKHRBloodPressureJournalControl _startObservingJournalChanges]_block_invoke
++ ___64-[HKHRBloodPressureJournalControl _startObservingJournalChanges]_block_invoke.cold.1
++ ___66-[HKHRBloodPressureJournalControl fetchAllJournalsWithCompletion:]_block_invoke
++ ___66-[HKHRBloodPressureJournalControl fetchAllJournalsWithCompletion:]_block_invoke_2
++ ___66-[HKHRBloodPressureJournalControl fetchAllJournalsWithCompletion:]_block_invoke_2.cold.1
++ ___67-[HKHRLearnHypertensionJournalEntryProvider journalEntryForSample:]_block_invoke
++ ___67-[HKHRLearnHypertensionJournalEntryProvider journalEntryForSample:]_block_invoke.cold.1
++ ___68-[HKHRBloodPressureJournalControl fetchActiveJournalWithCompletion:]_block_invoke
++ ___68-[HKHRBloodPressureJournalControl fetchActiveJournalWithCompletion:]_block_invoke_2
++ ___68-[HKHRBloodPressureJournalControl fetchActiveJournalWithCompletion:]_block_invoke_2.cold.1
++ ___68-[HKHRBloodPressureJournalSummaryBuilder buildAverageClassification]_block_invoke
++ ___68-[HKHRBloodPressureJournalSummaryBuilder buildAverageClassification]_block_invoke_2
++ ___68-[HKHRBloodPressureJournalSummaryBuilder buildAverageClassification]_block_invoke_3
++ ___73-[HKHRBloodPressureJournalControl _registerForJournalChanges:completion:]_block_invoke
++ ___73-[HKHRBloodPressureJournalControl _registerForJournalChanges:completion:]_block_invoke_2
++ ___73-[HKHRBloodPressureJournalControl closeJournalWithIdentifier:completion:]_block_invoke
++ ___73-[HKHRBloodPressureJournalControl closeJournalWithIdentifier:completion:]_block_invoke_2
++ ___73-[HKHRBloodPressureJournalControl closeJournalWithIdentifier:completion:]_block_invoke_2.cold.1
++ ___84-[HKHRBloodPressureJournalControl _synchronouslyRegisterForJournalChangesWithError:]_block_invoke
++ ___84-[HKHRBloodPressureJournalControl _synchronouslyRegisterForJournalChangesWithError:]_block_invoke_2
++ ___84-[HKHRBloodPressureJournalControl _synchronouslyRegisterForJournalChangesWithError:]_block_invoke_3
++ ___84-[HKHRBloodPressureJournalControl client_notifyDidAddOrModifyBloodPressureJournals:]_block_invoke
++ ___HKHRBloodPressureLogForCategory_block_invoke
++ ___block_descriptor_40_e8_32bs_e58_v16?0"<HKHRBloodPressureJournalControlServerInterface>"8ls32l8
++ ___block_descriptor_40_e8_32s_e20_v20?0B8"NSError"12ls32l8
++ ___block_descriptor_40_e8_32s_e61_v40?0"NSDate"8"NSDate"16"NSCalendar"24"NSMutableArray"32ls32l8
++ ___block_descriptor_41_e8_32bs_e58_v16?0"<HKHRBloodPressureJournalControlServerInterface>"8ls32l8
++ ___block_descriptor_48_e8_32r40r_e58_v16?0"<HKHRBloodPressureJournalControlServerInterface>"8lr32l8r40l8
++ ___block_descriptor_48_e8_32s40bs_e58_v16?0"<HKHRBloodPressureJournalControlServerInterface>"8ls32l8s40l8
++ ___block_descriptor_48_e8_32s40r_e56_v32?0"HKStatisticsQuery"8"HKStatistics"16"NSError"24lr40l8s32l8
++ ___block_descriptor_48_e8_32s40r_e8_v16?0q8lr40l8s32l8
++ ___block_descriptor_48_e8_32s40s_e51_v16?0"<HKHRBloodPressureJournalControlObserver>"8ls32l8s40l8
++ ___block_descriptor_56_e8_32s40s48r_e47_v32?0"HKSampleQuery"8"NSArray"16"NSError"24ls32l8r48l8s40l8
++ ___block_descriptor_72_e8_32s40s48s56bs_e58_v16?0"<HKHRBloodPressureJournalControlServerInterface>"8ls32l8s40l8s48l8s56l8
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_allocate_value_buffer
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_memcpy1_1
++ ___swift_mutable_project_boxed_opaque_existential_1
++ ___swift_noop_void_return
++ ___swift_project_value_buffer
++ __swiftEmptyDictionarySingleton
++ _associated conformance 11HeartHealth46HypertensionNotificationInteractionEventActionOSHAASQ
++ _bzero
++ _dispatch_group_create
++ _dispatch_group_enter
++ _dispatch_group_leave
++ _dispatch_group_wait
++ _dispatch_semaphore_create
++ _dispatch_semaphore_signal
++ _dispatch_semaphore_wait
++ _hkhr_defaultDate.defaultDate
++ _hkhr_defaultDate.onceToken
++ _kHDHRHypertensionNotificationsThreadIdentifier
++ _kHKBloodPressureClassificationAgeGatingAge
++ _kHKHRHypertensionNotificationsCategoryIdentifier
++ _kHKHRHypertensionNotificationsRescindedCategoryIdentifier
++ _kHKNotificationsDomainKey
++ _kHKNotificationsURLKey
++ _objc_getProperty
++ _objc_msgSend$_basePromotionRequirements
++ _objc_msgSend$_baseUsageWithFeatureOnRequirementIncluded:
++ _objc_msgSend$_callUnitTestObservationChangeHandlerWith:isObserving:error:
++ _objc_msgSend$_contentForNotification:
++ _objc_msgSend$_dtdrEducationVisibility
++ _objc_msgSend$_dtdrStatusVisibility
++ _objc_msgSend$_footerDefaultSupportingLink:
++ _objc_msgSend$_footerPostPregnancyModeEnabled:
++ _objc_msgSend$_footerPregnancyModeEnabled:
++ _objc_msgSend$_footerRegionNotSupported:
++ _objc_msgSend$_footerRemoteDisabled:
++ _objc_msgSend$_footerSeedExpired:
++ _objc_msgSend$_footerWithRequirementsEvaluation:supportsLink:
++ _objc_msgSend$_footerWristDetectionNotEnabled
++ _objc_msgSend$_hk_urlForHypertensionEventType
++ _objc_msgSend$_hypertensionIdentifier
++ _objc_msgSend$_isWatchSettingsVisibleWithFeatureStatus:
++ _objc_msgSend$_notificationSettingsVisibility
++ _objc_msgSend$_notificationsEnabledWithFeatureStatus:
++ _objc_msgSend$_registerForJournalChanges:completion:
++ _objc_msgSend$_requestIDForNotification:
++ _objc_msgSend$_setAnchorsFromJournal:
++ _objc_msgSend$_settingsUserInteractionEnabled
++ _objc_msgSend$_settingsVisibilityWithFeatureOnboarded:
++ _objc_msgSend$_showOnboardingWithFeatureStatus:
++ _objc_msgSend$_startObservingJournalChanges
++ _objc_msgSend$_stopObservingJournalChanges
++ _objc_msgSend$_synchronouslyRegisterForJournalChangesWithError:
++ _objc_msgSend$_timeZone
++ _objc_msgSend$actionValue
++ _objc_msgSend$addEntriesFromDictionary:
++ _objc_msgSend$ageWithCurrentDate:error:
++ _objc_msgSend$allObjects
++ _objc_msgSend$andPredicateWithSubpredicates:
++ _objc_msgSend$arrayWithArray:
++ _objc_msgSend$arrayWithCapacity:
++ _objc_msgSend$averageQuantity
++ _objc_msgSend$bedTimeCount
++ _objc_msgSend$bedtime
++ _objc_msgSend$bedtimeSampleMap
++ _objc_msgSend$buildAverageClassification
++ _objc_msgSend$calendar
++ _objc_msgSend$calendarCache
++ _objc_msgSend$calendarForTimeZone:
++ _objc_msgSend$category
++ _objc_msgSend$categoryForClassificationGuidelines:systolic:diastolic:age:
++ _objc_msgSend$classificationGuidelinesOnDate:completionHandler:
++ _objc_msgSend$clientInterface
++ _objc_msgSend$components:fromDate:toDate:options:
++ _objc_msgSend$currentCalendar
++ _objc_msgSend$currentDate
++ _objc_msgSend$dateByAddingComponents:toDate:options:
++ _objc_msgSend$dateByAddingUnit:value:toDate:options:
++ _objc_msgSend$dateWithTimeIntervalSinceReferenceDate:
++ _objc_msgSend$datesWithSamples
++ _objc_msgSend$day
++ _objc_msgSend$dayIndex
++ _objc_msgSend$dayWindowType
++ _objc_msgSend$decodeDoubleForKey:
++ _objc_msgSend$encodeDouble:forKey:
++ _objc_msgSend$environmentDataSource
++ _objc_msgSend$eventName
++ _objc_msgSend$executeQuery:
++ _objc_msgSend$extractDates:
++ _objc_msgSend$featureFlagIsEnabled:
++ _objc_msgSend$features
++ _objc_msgSend$fetchNumDaysSinceMostRecentBPJCycleStart:
++ _objc_msgSend$fetchSamplesWithResultsHandler:
++ _objc_msgSend$fetchStatisticsForQuantityType:resultsHandler:
++ _objc_msgSend$healthDataSource
++ _objc_msgSend$healthStore
++ _objc_msgSend$hermit
++ _objc_msgSend$hk_addNonNilObject:
++ _objc_msgSend$hk_ageWithCurrentDate:
++ _objc_msgSend$hk_gregorianCalendar
++ _objc_msgSend$hk_isAfterDate:
++ _objc_msgSend$hk_isAfterOrEqualToDate:
++ _objc_msgSend$hk_isBeforeOrEqualToDate:
++ _objc_msgSend$hk_setArrayOfClass:forSelector:argumentIndex:ofReply:
++ _objc_msgSend$hk_typesForArrayOf:
++ _objc_msgSend$hkhr_ISO8601StringForDate:
++ _objc_msgSend$hkhr_dateWithISO8601String:
++ _objc_msgSend$hkhr_defaultDate
++ _objc_msgSend$hkhr_defaultTimeIntervals
++ _objc_msgSend$hkhr_journalWithStartDate:timeIntervals:
++ _objc_msgSend$hkhr_prettyStringForDateArray:
++ _objc_msgSend$hour
++ _objc_msgSend$identifier
++ _objc_msgSend$initWithAction:latestActiveJournal:windowType:
++ _objc_msgSend$initWithDayWindowType:scheduledTime:
++ _objc_msgSend$initWithHealthStore:
++ _objc_msgSend$initWithIdentifier:dueDate:category:userInfo:
++ _objc_msgSend$initWithJournal:
++ _objc_msgSend$initWithLatestActiveJournal:
++ _objc_msgSend$initWithQuantityType:quantitySamplePredicate:options:completionHandler:
++ _objc_msgSend$initWithSampleType:predicate:limit:sortDescriptors:resultsHandler:
++ _objc_msgSend$initWithSampleUUID:dayWindowType:dayIndex:
++ _objc_msgSend$initWithSamples:calendar:journal:
++ _objc_msgSend$initWithSettingsVisible:settingsEnabled:showOnboarding:userInteractionEnabled:footer:
++ _objc_msgSend$initWithSettingsVisible:settingsEnabled:userInteractionEnabled:footer:
++ _objc_msgSend$initWithUUID:startDate:endDate:timestamp:journalType:scheduleType:journalState:timeIntervals:
++ _objc_msgSend$initWithUUID:startDate:journalType:scheduleType:journalState:timeIntervals:
++ _objc_msgSend$initWithWakeupSampleMap:bedtimeSampleMap:
++ _objc_msgSend$isCompanionCapable
++ _objc_msgSend$isComplete
++ _objc_msgSend$isCompleteOnDate:
++ _objc_msgSend$isEqualToDictionary:
++ _objc_msgSend$journal
++ _objc_msgSend$journalControl:didAddOrModifyJournals:
++ _objc_msgSend$journalEntryForSample:
++ _objc_msgSend$journalState
++ _objc_msgSend$journalType
++ _objc_msgSend$lastObject
++ _objc_msgSend$minute
++ _objc_msgSend$numberOfDaysBetweenStartDate:endDate:withCalendar:
++ _objc_msgSend$onboardingAcknowledgedWithIdentifier:
++ _objc_msgSend$onboardingNotAcknowledgedWithIdentifier:
++ _objc_msgSend$predicateForSamplesWithCorrelationedSample
++ _objc_msgSend$predicateForSamplesWithStartDate:endDate:options:
++ _objc_msgSend$remote_closeJournal:completion:
++ _objc_msgSend$remote_closeJournalWithIdentifier:completion:
++ _objc_msgSend$remote_fetchActiveJournalWithCompletion:
++ _objc_msgSend$remote_fetchAllJournalsWithCompletion:
++ _objc_msgSend$remote_observeJournalChanges:completion:
++ _objc_msgSend$remote_saveJournal:completion:
++ _objc_msgSend$remote_snoozeJournalNotificationWithIdentifier:journalType:userInfo:onDate:completion:
++ _objc_msgSend$remote_unitTesting_createTaskServerNoOpWithCompletion:
++ _objc_msgSend$requestWithIdentifier:content:trigger:
++ _objc_msgSend$sampleUUID
++ _objc_msgSend$scheduleType
++ _objc_msgSend$scheduledTime
++ _objc_msgSend$serverInterface
++ _objc_msgSend$setAverageClassificationCategory:
++ _objc_msgSend$setBedtime:
++ _objc_msgSend$setBody:
++ _objc_msgSend$setCalendarCache:
++ _objc_msgSend$setCategoryIdentifier:
++ _objc_msgSend$setDateOfLastSample:
++ _objc_msgSend$setDatesWithSamples:
++ _objc_msgSend$setDay:
++ _objc_msgSend$setHealthStore:
++ _objc_msgSend$setIncludeAutomaticTimeZones:
++ _objc_msgSend$setJournal:
++ _objc_msgSend$setSound:
++ _objc_msgSend$setTitle:
++ _objc_msgSend$setUserInfo:
++ _objc_msgSend$setWakeup:
++ _objc_msgSend$someRegionIsSupportedForFeatureWithIdentifier:
++ _objc_msgSend$sortDescriptorWithKey:ascending:
++ _objc_msgSend$soundWithAlertType:
++ _objc_msgSend$startOfDayForDate:
++ _objc_msgSend$stringByAppendingFormat:
++ _objc_msgSend$submitEvent:error:
++ _objc_msgSend$summaryFromSamples:journal:
++ _objc_msgSend$summaryFromSamples:journal:calendar:
++ _objc_msgSend$timeIntervalSinceDate:
++ _objc_msgSend$timeIntervals
++ _objc_msgSend$timestamp
++ _objc_msgSend$unsatisfiedRequirementIdentifiersDescription
++ _objc_msgSend$userInfo
++ _objc_msgSend$valueForKeyPath:
++ _objc_msgSend$wakeUpCount
++ _objc_msgSend$wakeup
++ _objc_msgSend$wakeupSampleMap
++ _objc_msgSend$windowType
++ _objc_msgSend$windowValue:
++ _objc_opt_self
++ _objc_retain_x7
++ _objc_setProperty_atomic
++ _swift_allocBox
++ _swift_deallocClassInstance
++ _swift_dynamicCast
++ _swift_getExistentialTypeMetadata
++ _swift_getObjCClassMetadata
++ _swift_getTupleTypeMetadata2
++ _swift_getWitnessTable
++ _swift_lookUpClassMethod
++ _swift_makeBoxUnique
++ _swift_once
++ _swift_retain
++ _swift_unknownObjectRelease
++ _symbolic $sSY
++ _symbolic SS
++ _symbolic SSSg
++ _symbolic _____ 11HeartHealth40HypertensionNotificationInteractionEventC
++ _symbolic _____ 11HeartHealth46HypertensionNotificationInteractionEventActionO
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSDate_$_HeartHealth
+- __OBJC_$_CATEGORY_NSDate_$_HeartHealth
+CStrings:
++ "%02d:%02d"
++ "%@, "
++ "%{public}@: Error registering observer for journal changes : %{public}@"
++ "%{public}@: Error unregistering observer for journal changes : %{public}@"
++ "%{public}@: No need to restart observation as there are no registered observers"
++ "%{public}@: Resume observation on server reconnection"
++ "%{public}@: Successfully resumed observation on server reconnection"
++ "(01)00195949001789"
++ "(01)00195949001796"
++ "+[HKHRLearnHypertensionJournalSummaryBuilder summaryFromSamples:journal:]"
++ "-[HKHRHypertensionNotificationsSettings _isWatchSettingsVisibleWithFeatureStatus:]"
++ "-[HKHRHypertensionNotificationsSettings bridgeSettings]"
++ "-[HKHRHypertensionNotificationsSettings watchSettings]"
++ "-[HKHRLearnHypertensionJournalEntryProvider journalEntryForSample:]"
++ "-[HKHRLearnHypertensionJournalEntryProvider journalEntryForSample:]_block_invoke"
++ "2023-12-01T10:00:00-0800"
++ "22:00"
++ "8:00"
++ ":"
++ "<%@: %p %@-%f>"
++ "<%@: %p, UUID: %@, timestamp:%f, startDate: %@, endDate: %@, journalType: %@, scheduleType: %@, journalState: %@, timeIntervals: %@"
++ "<%@: %p, Window Type: %@, Scheduled Time: %@"
++ "<%@: %p, _datesWithSamples.count: %lu, _datesWithSamples:%@>"
++ "<%@: %p, wakeupCount: %lu, bedTimeCount:%lu, _wakeupSampleMap: %@, _bedtimeSampleMap: %@>"
++ "@\"<HKHRBloodPressureSummaryProviding>\"32@0:8@\"NSArray\"16@\"HKHRBloodPressureJournal\"24"
++ "@\"HKAnalyticsEventSubmissionManager\""
++ "@\"HKCalendarCache\""
++ "@\"HKHRBloodPressureJournal\""
++ "@\"HKHRBloodPressureJournalAnalyticsUtilities\""
++ "@\"HKHRHypertensionNotificationsFooter\""
++ "@\"HKObserverSet<HKHRBloodPressureJournalControlObserver>\""
++ "@\"NSCalendar\""
++ "@\"NSDateComponents\""
++ "@\"NSDictionary\"32@0:8@\"HKAnalyticsDataSource\"16^@24"
++ "@\"NSSet\""
++ "@24@0:8Q16"
++ "@36@0:8@16@24B32"
++ "@40@0:8@16q24q32"
++ "@40@0:8B16B20B24B28@32"
++ "@40@0:8Q16@24@32"
++ "@48@0:8@16@24@32@40"
++ "@60@0:8@16@24B32q36q44q52"
++ "@64@0:8@16@24q32q40q48@56"
++ "@80@0:8@16@24@32d40q48q56q64@72"
++ "@?16@0:8"
++ "@max.self"
++ "A0A8CBBD-8F56-46ED-A36B-446D452C0515"
++ "Active"
++ "B24@0:8q16"
++ "BPJ_NOTIFICATION_BODY"
++ "BPJ_NOTIFICATION_TITLE"
++ "Bed Time"
++ "Bedtime"
++ "BloodPressureJournal"
++ "BloodPressureJournal-Notifications"
++ "BloodPressureJournalCanBeStarted"
++ "BloodPressureJournalNotificationCategoryLearnHypertensionRisk"
++ "BloodPressureJournalNotificationCategoryMonitorHypertension"
++ "BloodPressureJournalNotificationIsFollowUpKey"
++ "BloodPressureJournalNotificationJournalTypeKey"
++ "BloodPressureJournalNotificationMeasurementCountKey"
++ "BloodPressureJournalNotificationMeasurementIndexKey"
++ "BloodPressureJournalNotificationMeasurementWindowTypeKey"
++ "BloodPressureJournalTimeZoneName"
++ "Closed"
++ "Daily"
++ "Delivered"
++ "Dismiss"
++ "Fatal error"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_FOOTER"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_FOOTER_LINK"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_FOOTER_POST_PREGNANCY_MODE_ENABLED"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_FOOTER_POST_PREGNANCY_MODE_ENABLED_NANO"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_FOOTER_PREGNANCY_MODE_ENABLED"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_FOOTER_PREGNANCY_MODE_ENABLED_NANO"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_FOOTER_REGION_NOT_SUPPORTED"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_FOOTER_REGION_NOT_SUPPORTED_NANO"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_FOOTER_REMOTE_DISABLED"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_FOOTER_REMOTE_DISABLED_NANO"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_FOOTER_SEED_EXPIRED"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_FOOTER_SEED_EXPIRED_NANO"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_FOOTER_WRIST_DETECTION_%@"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_GENERIC_LEARN_MORE_URL"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_NANO_FOOTER"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_PASSCODE_SETTINGS_FOOTER_LINK"
++ "HEART_NOTIFICATION_HYPERTENSION_NOTIFICATIONS_REGION_GATED_LEARN_MORE_URL"
++ "HKAnalyticsEvent"
++ "HKHRBPJNotificationActionIdentifierSnooze"
++ "HKHRBloodPressureJournal"
++ "HKHRBloodPressureJournal+HKHRTestingSupport.m"
++ "HKHRBloodPressureJournalAnalyticsUtilities"
++ "HKHRBloodPressureJournalControl"
++ "HKHRBloodPressureJournalControlClientInterface"
++ "HKHRBloodPressureJournalControlObserver"
++ "HKHRBloodPressureJournalControlServerInterface"
++ "HKHRBloodPressureJournalNotification"
++ "HKHRBloodPressureJournalNotificationAnalyticsEvent"
++ "HKHRBloodPressureJournalNotificationAnalyticsEvent.m"
++ "HKHRBloodPressureJournalNotificationAnalyticsUtilities"
++ "HKHRBloodPressureJournalScheduleTimeInterval"
++ "HKHRBloodPressureJournalSummaryBuilder"
++ "HKHRBloodPressureSummaryBuilder"
++ "HKHRBloodPressureSummaryProviding"
++ "HKHRHypertensionNotificationsBridgeSettings"
++ "HKHRHypertensionNotificationsFeatureAvailabilityRequirements"
++ "HKHRHypertensionNotificationsFooter"
++ "HKHRHypertensionNotificationsSettings"
++ "HKHRHypertensionNotificationsWatchSettings"
++ "HKHRLearnHypertensionJournalEntry"
++ "HKHRLearnHypertensionJournalEntryProvider"
++ "HKHRLearnHypertensionJournalSummary"
++ "HKHRLearnHypertensionJournalSummaryBuilder"
++ "HKHRMonitorHypertensionJournalSummary"
++ "HKHRMonitorHypertensionJournalSummaryBuilder"
++ "HKUnitTestingTaskServerInterface"
++ "HeartAppPlugin.HypertensionNotifications.Rescinded"
++ "HeartHealth/HypertensionNotificationInteractionEvent.swift"
++ "HeartRateSettings-HypertensionNotifications"
++ "HypertensionEventSampleDetails"
++ "HypertensionNotifications"
++ "HypertensionNotificationsCategory"
++ "HypertensionNotificationsThread"
++ "JournalType"
++ "Learn Hypertension Risk"
++ "Monitor Hypertension"
++ "NotOnboardedSettingsVisibility"
++ "Open App"
++ "Remind Me Later"
++ "RoomEducationSectionVisibility"
++ "RoomStatusSectionVisibility"
++ "T@\"HKCalendarCache\",&,V_calendarCache"
++ "T@\"HKHRBloodPressureJournal\",&,V_journal"
++ "T@\"HKHRBloodPressureJournal\",R,C,N,V_journal"
++ "T@\"HKHRHypertensionNotificationsFooter\",R,N,V_footer"
++ "T@\"HKHealthStore\",&,V_healthStore"
++ "T@\"NSArray\",R,C,N,V_timeIntervals"
++ "T@\"NSCalendar\",&,V_unitTest_calendar"
++ "T@\"NSCalendar\",R,C,N,V_calendar"
++ "T@\"NSDate\",&,V_dateOfLastSample"
++ "T@\"NSDate\",R,C,N,V_endDate"
++ "T@\"NSDate\",R,C,N,V_startDate"
++ "T@\"NSDate\",R,N,V_dueDate"
++ "T@\"NSDateComponents\",&,V_bedtime"
++ "T@\"NSDateComponents\",&,V_wakeup"
++ "T@\"NSDateComponents\",R,C,N,V_scheduledTime"
++ "T@\"NSDictionary\",R,C,N,V_bedtimeSampleMap"
++ "T@\"NSDictionary\",R,C,N,V_wakeupSampleMap"
++ "T@\"NSDictionary\",R,N,V_userInfo"
++ "T@\"NSSet\",C,N,V_datesWithSamples"
++ "T@\"NSString\",&,N"
++ "T@\"NSString\",&,N,VaverageClassificationCategory"
++ "T@\"NSString\",N,R"
++ "T@\"NSString\",R,N,V_category"
++ "T@\"NSString\",R,N,V_identifier"
++ "T@\"NSUUID\",R,C,N,V_UUID"
++ "T@\"NSUUID\",R,C,N,V_sampleUUID"
++ "T@\"NSUserDefaults\",R,N"
++ "T@?,C,N,V_unitTest_didChangeObservationHandler"
++ "TB,N,R"
++ "TB,R,N,V_settingEnabled"
++ "TB,R,N,VisComplete"
++ "TQ,R,N,V_bedTimeCount"
++ "TQ,R,N,V_wakeUpCount"
++ "Td,R,N,V_timestamp"
++ "Tq,R,N"
++ "Tq,R,N,V_dayIndex"
++ "Tq,R,N,V_dayWindowType"
++ "Tq,R,N,V_journalState"
++ "Tq,R,N,V_journalType"
++ "Tq,R,N,V_scheduleType"
++ "Typical Day"
++ "Unexpected Notification Type %ld"
++ "User Defined"
++ "Wake Up"
++ "Wakeup"
++ "[%@] Failed to query HKStatistics for Journal Summary: Journal ID:(%@) scheduleType:%ld "
++ "[%@] Journal ID:(%@) scheduleTypeUnsupported:%ld "
++ "[%@] Unable to retrieve date of birth %{public}@"
++ "[%@] Unsupported HKHRBloodPressureJournalDayWindowType: %ld "
++ "[%{public}@:%{public}@] Analytic submission failed with error: %{public}@"
++ "[%{public}@:%{public}@] Event not submitted but no error"
++ "[%{public}@:%{public}@] Event submitted"
++ "[%{public}@] Could not snooze Notification with identifier: %{public}@ Error: %{public}@ "
++ "[%{public}@] Error closing journal: %{public}@"
++ "[%{public}@] Error fetching active journal: %{public}@"
++ "[%{public}@] Error fetching all journals: %{public}@"
++ "[%{public}@] Error inserting journal: %{public}@"
++ "[%{public}@] Error when determining age, continuing daily analytics submission: %{public}@"
++ "[%{public}@] Error when determining biological sex, continuing daily analytics submission: %{public}@"
++ "[%{public}@] Hypertension notifications enabled in settings: %{public}@"
++ "[%{public}@] No error when fetching biological sex but also didn't get object"
++ "[%{public}s] Unable to initialize entryProvider with journal:%@"
++ "[%{public}s] Unsupported dayWindowType:%ld entry:%@"
++ "[%{public}s] sampleUUID:(%{public}@) BEGIN"
++ "[%{public}s] sampleUUID:(%{public}@) STOP: found closest at index:%d date:%@ type:%s"
++ "[%{public}s] sampleUUID:(%{public}@) date:%@ diff:%f"
++ "[%{public}s] sampleUUID:(%{public}@) sampleDate:%@ | %ld dates to scan:%@"
++ "[%{public}s] sampleUUID:(%{public}@) swap wakeup and bedtime so that they are in order"
++ "[%{public}s] sampleUUID:(%{public}@) using timezone:%@"
++ "[%{public}s]: onboarded: %i settingsVisible: %i visibilityUnsatisfiedRequirements: %@"
++ "[%{public}s]: settingsVisible: %i enabled: %i showOnboarding: %i userInteractionEnabled: %i visibilityUnsatisfiedRequirements: %@ interactionUnsatisfiedRequirements: %@"
++ "[%{public}s]: settingsVisible: %i enabled: %i userInteractionEnabled: %i interactionUnsatisfiedRequirements: %@"
++ "] Tried to create a payload with a dataSource containing nil healthDataSource"
++ "_TtC11HeartHealth40HypertensionNotificationInteractionEvent"
++ "_UUID"
++ "_action"
++ "_activeJournal"
++ "_basePromotionRequirements"
++ "_baseUsageWithFeatureOnRequirementIncluded:"
++ "_bedTimeCount"
++ "_bedtime"
++ "_bedtimeSampleMap"
++ "_calendar"
++ "_calendarCache"
++ "_callUnitTestObservationChangeHandlerWith:isObserving:error:"
++ "_category"
++ "_commonUtilities"
++ "_contentForNotification:"
++ "_dateOfLastSample"
++ "_datesWithSamples"
++ "_dayWindowType"
++ "_dtdrEducationVisibility"
++ "_dtdrStatusVisibility"
++ "_dueDate"
++ "_endDate"
++ "_eventSubmissionManager"
++ "_footerDefaultSupportingLink:"
++ "_footerPostPregnancyModeEnabled:"
++ "_footerPregnancyModeEnabled:"
++ "_footerRegionNotSupported:"
++ "_footerRemoteDisabled:"
++ "_footerSeedExpired:"
++ "_footerWithRequirementsEvaluation:supportsLink:"
++ "_footerWristDetectionNotEnabled"
++ "_hk_urlForHypertensionEventType"
++ "_hypertensionIdentifier"
++ "_identifier"
++ "_isWatchSettingsVisibleWithFeatureStatus:"
++ "_journal"
++ "_journalState"
++ "_journalType"
++ "_latestActiveJournal"
++ "_notificationSettingsVisibility"
++ "_notificationsEnabledWithFeatureStatus:"
++ "_registerForJournalChanges:completion:"
++ "_requestIDForNotification:"
++ "_scheduleType"
++ "_scheduledTime"
++ "_setAnchorsFromJournal:"
++ "_settingsUserInteractionEnabled"
++ "_settingsVisibilityWithFeatureOnboarded:"
++ "_showOnboardingWithFeatureStatus:"
++ "_startObservingJournalChanges"
++ "_stopObservingJournalChanges"
++ "_synchronouslyRegisterForJournalChangesWithError:"
++ "_timeIntervals"
++ "_timestamp"
++ "_unitTest_calendar"
++ "_unitTest_didChangeObservationHandler"
++ "_userInfo"
++ "_wakeUpCount"
++ "_wakeup"
++ "_wakeupSampleMap"
++ "_windowType"
++ "action"
++ "actionValue"
++ "activePairedDeviceProductType"
++ "addEntriesFromDictionary:"
++ "allBloodPressureJournalNotificationCategoryIdentifiers"
++ "allObjects"
++ "andPredicateWithSubpredicates:"
++ "arrayWithArray:"
++ "arrayWithCapacity:"
++ "averageClassificationCategory"
++ "averageQuantity"
++ "bedTimeCount"
++ "bedtime"
++ "bedtime formatted incorrectly"
++ "bedtimeSampleMap"
++ "bedtimeTimeInterval"
++ "bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID"
++ "buildAverageClassification"
++ "buildSummary"
++ "calendar"
++ "calendarCache"
++ "calendarForTimeZone:"
++ "category"
++ "categoryForClassificationGuidelines:systolic:diastolic:age:"
++ "classificationGuidelinesOnDate:completionHandler:"
++ "clientInterface"
++ "client_notifyDidAddOrModifyBloodPressureJournals:"
++ "closeJournal:completion:"
++ "closeJournalWithIdentifier:completion:"
++ "closedJournal"
++ "com.apple.Health"
++ "com.apple.Health.BloodPressure"
++ "com.apple.health.bpj.notificationinteractions"
++ "com.apple.health.htn.notificationinteractions"
++ "com.apple.private.health.bloodPressureJournal"
++ "com.apple.private.health.hypertension-notifications"
++ "components:fromDate:toDate:options:"
++ "conciseDescription"
++ "currentCalendar"
++ "d"
++ "d16@0:8"
++ "dateByAddingComponents:toDate:options:"
++ "dateByAddingUnit:value:toDate:options:"
++ "dateOfLastSample"
++ "dateWithTimeIntervalSinceReferenceDate:"
++ "datesWithSamples"
++ "day"
++ "dayWindowType"
++ "decodeDoubleForKey:"
++ "dismiss"
++ "dueDate"
++ "encodeDouble:forKey:"
++ "endDateTime"
++ "environmentDataSource"
++ "eventName"
++ "executeQuery:"
++ "extractDates:"
++ "featureFlagIsEnabled:"
++ "features"
++ "fetchActiveJournalWithCompletion:"
++ "fetchAllJournalsWithCompletion:"
++ "fetchNumDaysSinceMostRecentBPJCycleStart:"
++ "fetchSamplesWithResultsHandler:"
++ "fetchStatisticsForQuantityType:resultsHandler:"
++ "hasBedtimeSamplesForDayIndex:"
++ "hasWakeupSamplesForDayIndex:"
++ "healthDataSource"
++ "hermit"
++ "hk_addNonNilObject:"
++ "hk_ageWithCurrentDate:"
++ "hk_gregorianCalendar"
++ "hk_isAfterDate:"
++ "hk_isAfterOrEqualToDate:"
++ "hk_isBeforeOrEqualToDate:"
++ "hk_setArrayOfClass:forSelector:argumentIndex:ofReply:"
++ "hk_typesForArrayOf:"
++ "hkhrBPJ_requestForNotification:"
++ "hkhr_bloodPressureJournalDefaults"
++ "hkhr_defaultDate"
++ "hkhr_defaultJournal"
++ "hkhr_defaultTimeIntervals"
++ "hkhr_hypertensionNotificationsDefaults"
++ "hkhr_journalWithStartDate:timeIntervals:"
++ "hkhr_prettyStringForDateArray:"
++ "hkhr_timeIntervalsWithWake:bed:"
++ "hour"
++ "identifier"
++ "initWithAction:latestActiveJournal:windowType:"
++ "initWithDayWindowType:scheduledTime:"
++ "initWithEventSubmissionManager:"
++ "initWithIdentifier:dueDate:category:userInfo:"
++ "initWithJournal:"
++ "initWithJournal:healthStore:"
++ "initWithLatestActiveJournal:"
++ "initWithQuantityType:quantitySamplePredicate:options:completionHandler:"
++ "initWithSampleType:predicate:limit:sortDescriptors:resultsHandler:"
++ "initWithSampleUUID:dayWindowType:dayIndex:"
++ "initWithSamples:calendar:journal:"
++ "initWithSettingsVisible:settingsEnabled:showOnboarding:userInteractionEnabled:footer:"
++ "initWithSettingsVisible:settingsEnabled:userInteractionEnabled:footer:"
++ "initWithUUID:startDate:endDate:timestamp:journalType:scheduleType:journalState:timeIntervals:"
++ "initWithUUID:startDate:journalType:scheduleType:journalState:timeIntervals:"
++ "initWithWakeupSampleMap:bedtimeSampleMap:"
++ "isCompanionCapable"
++ "isComplete"
++ "isCompleteOnDate:"
++ "isEqualToDictionary:"
++ "isEventSubmissionIHAGated"
++ "journal"
++ "journalControl:didAddOrModifyJournals:"
++ "journalEntryForSample:"
++ "journalStartDayFor:"
++ "journalState"
++ "journalType"
++ "lastAnalysisWindowEndDate"
++ "lastObject"
++ "learnMore"
++ "makeIHAGatedEventPayloadWithDataSource:error:"
++ "makeUnrestrictedEventPayloadWithDataSource:error:"
++ "measurementsRequiredToCompleteJournal"
++ "minute"
++ "nextMeasurement"
++ "notificationEndDateForIncompleteJournal:"
++ "notificationForLearnHypertensionRiskWithIdentifier:dueDate:isFollowUp:measurementIndex:measurementCount:measurementWindowType:"
++ "notificationToMonitorHypertensionWithIdentifier:dueDate:isFollowUp:"
++ "numDaysSinceMostRecentBPJCycleStart"
++ "numberOfDaysBetweenStartDate:endDate:withCalendar:"
++ "onboardingAcknowledgedWithIdentifier:"
++ "onboardingNotAcknowledgedWithIdentifier:"
++ "openApp"
++ "possibleHypertension"
++ "predicateForSamplesWithCorrelationedSample"
++ "predicateForSamplesWithStartDate:endDate:options:"
++ "q40@0:8@16@24@32"
++ "remote_closeJournal:completion:"
++ "remote_closeJournalWithIdentifier:completion:"
++ "remote_fetchActiveJournalWithCompletion:"
++ "remote_fetchAllJournalsWithCompletion:"
++ "remote_observeJournalChanges:completion:"
++ "remote_saveJournal:completion:"
++ "remote_snoozeJournalNotificationWithIdentifier:journalType:userInfo:onDate:completion:"
++ "remote_unitTesting_createTaskServerNoOpWithCompletion:"
++ "requestWithIdentifier:content:trigger:"
++ "rescindedOrReenabled"
++ "saveJournal:completion:"
++ "scheduleTime"
++ "scheduleType"
++ "scheduledTime"
++ "serverInterface"
++ "setAverageClassificationCategory:"
++ "setBedtime:"
++ "setBody:"
++ "setCalendarCache:"
++ "setCategoryIdentifier:"
++ "setDateOfLastSample:"
++ "setDatesWithSamples:"
++ "setDay:"
++ "setHealthStore:"
++ "setIncludeAutomaticTimeZones:"
++ "setJournal:"
++ "setSound:"
++ "setTitle:"
++ "setUnitTest_calendar:"
++ "setUnitTest_didChangeObservationHandler:"
++ "setUserInfo:"
++ "setWakeup:"
++ "settingsUserInteractionRequirementIdentifiers"
++ "settingsVisibilityRequirementIdentifiersWithFeatureOnboarded:"
++ "snoozeJournalNotificationWithIdentifier:journalType:userInfo:onDate:completion:"
++ "someRegionIsSupportedForFeatureWithIdentifier:"
++ "sortDescriptorWithKey:ascending:"
++ "soundWithAlertType:"
++ "startDateTime"
++ "startOfDayForDate:"
++ "stringByAppendingFormat:"
++ "submitAnalyticsEvent:forJournal:windowType:"
++ "submitEvent:error:"
++ "summaryFromSamples:journal:"
++ "summaryFromSamples:journal:calendar:"
++ "timeIntervalSinceDate:"
++ "timeIntervals"
++ "timestamp"
++ "unitTest_calendar"
++ "unitTest_didChangeObservationHandler"
++ "unitTest_noOpWithCompletion:"
++ "unknown"
++ "unsatisfiedRequirementIdentifiersDescription"
++ "updatedJournalWithTimeIntervals:"
++ "userInfo"
++ "uuid"
++ "v16@?0@\"<HKHRBloodPressureJournalControlObserver>\"8"
++ "v16@?0@\"<HKHRBloodPressureJournalControlServerInterface>\"8"
++ "v16@?0q8"
++ "v24@0:8@\"NSArray\"16"
++ "v24@0:8@\"NSString\"16"
++ "v24@0:8@?<v@?@\"HKHRBloodPressureJournal\"@\"NSError\">16"
++ "v24@0:8@?<v@?@\"NSArray\"@\"NSError\">16"
++ "v32@0:8@\"HKHRBloodPressureJournal\"16@?<v@?B@\"NSError\">24"
++ "v32@0:8@\"HKHRBloodPressureJournalControl\"16@\"NSArray\"24"
++ "v32@0:8B16B20@24"
++ "v32@?0@\"HKSampleQuery\"8@\"NSArray\"16@\"NSError\"24"
++ "v32@?0@\"HKStatisticsQuery\"8@\"HKStatistics\"16@\"NSError\"24"
++ "v40@0:8Q16@24@32"
++ "v40@?0@\"NSDate\"8@\"NSDate\"16@\"NSCalendar\"24@\"NSMutableArray\"32"
++ "v56@0:8@\"NSString\"16q24@\"NSDictionary\"32@\"NSDate\"40@?<v@?B@\"NSError\">48"
++ "v56@0:8@16q24@32@40@?48"
++ "valueForKeyPath:"
++ "viewedNotification"
++ "wakeUpCount"
++ "wakeup"
++ "wakeup formatted incorrectly"
++ "wakeupSampleMap"
++ "wakeupTimeInterval"
++ "windowType"
++ "windowValue:"
++ "x-apple-health://Heart.healthplugin/%@/%@"
++ "x-apple-health://Heart.healthplugin/HKCorrelationTypeIdentifierBloodPressure"
++ "x-apple-health://Heart.healthplugin/HypertensionNotificationsOnboarding"
+
+```

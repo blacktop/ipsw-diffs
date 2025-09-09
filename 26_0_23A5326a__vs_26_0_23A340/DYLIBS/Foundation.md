@@ -1,0 +1,81 @@
+## Foundation
+
+> `/System/Library/Frameworks/Foundation.framework/Foundation`
+
+```diff
+
+ 4040.1.0.0.0
+-  __TEXT.__text: 0xa751c8
++  __TEXT.__text: 0xa765d8
+   __TEXT.__auth_stubs: 0x9d70
+   __TEXT.__delay_stubs: 0x580
+   __TEXT.__delay_helper: 0x134
+
+   __TEXT.__gcc_except_tab: 0x5fc4
+   __TEXT.__ustring: 0x53a
+   __TEXT.__dof_NSProcess: 0x34f
+-  __TEXT.__dof_NSXPCProx: 0x7a2
++  __TEXT.__dof_NSXPCProx: 0x7a3
+   __TEXT.__dof_NSXPCList: 0x2e9
+   __TEXT.__dof_NSXPCConn: 0x26cc
+   __TEXT.__dof_NSXPCLis0: 0x865
+
+   __DATA_CONST.__objc_superrefs: 0xf68
+   __DATA_CONST.__objc_arraydata: 0xe098
+   __AUTH_CONST.__auth_got: 0x4fc8
+-  __AUTH_CONST.__const: 0x31e38
++  __AUTH_CONST.__const: 0x31ee8
+   __AUTH_CONST.__cfstring: 0x25cc0
+   __AUTH_CONST.__objc_const: 0x32fb8
+   __AUTH_CONST.__objc_intobj: 0x1260
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 5667FF78-6FB5-393E-BE52-AA8C45233580
++  UUID: 457AF377-CACC-3719-993B-6187AE01BAEB
+   Functions: 40952
+-  Symbols:   139239
++  Symbols:   139249
+   CStrings:  22836
+ 
+Symbols:
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSSSgAD_So24CFStringBuiltInEncodingsVSitcfU0_SiSrys5UInt8VGXEfU_TA.499
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSSSgAD_So24CFStringBuiltInEncodingsVSitcfU0_SiSrys5UInt8VGXEfU_TA.502
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSSSgAD_So24CFStringBuiltInEncodingsVSitcfU0_SiSrys5UInt8VGXEfU_TA.505
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSSSgAD_So24CFStringBuiltInEncodingsVSitcfU0_SiSrys5UInt8VGXEfU_TA.508
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSSSgAD_So24CFStringBuiltInEncodingsVSitcfU0_SiSrys5UInt8VGXEfU_TA.511
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSSSgAD_So24CFStringBuiltInEncodingsVSitcfU0_SiSrys5UInt8VGXEfU_TA.514
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSSSgAD_So24CFStringBuiltInEncodingsVSitcfU0_SiSrys5UInt8VGXEfU_TA.517
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSSSgAD_So24CFStringBuiltInEncodingsVSitcfU0_SiSrys5UInt8VGXEfU_TA.520
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSSSgAD_So24CFStringBuiltInEncodingsVSitcfU0_SiSrys5UInt8VGXEfU_TA.523
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSSSgAD_So24CFStringBuiltInEncodingsVSitcfU0_SiSrys5UInt8VGXEfU_TA.526
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSSSgAD_So24CFStringBuiltInEncodingsVSitcfU0_SiSrys5UInt8VGXEfU_TA.571
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSiSrys5UInt8VGXEfU_TA.500
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSiSrys5UInt8VGXEfU_TA.503
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSiSrys5UInt8VGXEfU_TA.506
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSiSrys5UInt8VGXEfU_TA.509
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSiSrys5UInt8VGXEfU_TA.512
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSiSrys5UInt8VGXEfU_TA.515
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSiSrys5UInt8VGXEfU_TA.518
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSiSrys5UInt8VGXEfU_TA.521
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSiSrys5UInt8VGXEfU_TA.524
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSiSrys5UInt8VGXEfU_TA.527
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSiSrys5UInt8VGXEfU_TA.570
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSiSrys5UInt8VGXEfU_TA.573
++ _$sSo16os_unfair_lock_sVWV
++ _$sSo16os_unfair_lock_sVwet
++ _$sSo16os_unfair_lock_sVwst
++ _$sSo3FTSa34__Unnamed_union___Anonymous_field8VWV
++ _$sSo3FTSa34__Unnamed_union___Anonymous_field8Vwet
++ _$sSo3FTSa34__Unnamed_union___Anonymous_field8Vwst
++ ___unnamed_42
++ ___unnamed_46
+- _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSSSgAD_So24CFStringBuiltInEncodingsVSitcfU0_SiSrys5UInt8VGXEfU_TA.493
+- _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSSSgAD_So24CFStringBuiltInEncodingsVSitcfU0_SiSrys5UInt8VGXEfU_TA.565
+- _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSiSrys5UInt8VGXEfU_TA.566
+- _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZSiSrys5UInt8VGXEfU_TA.569
+- ___unnamed_41
+- ___unnamed_45
+
+```

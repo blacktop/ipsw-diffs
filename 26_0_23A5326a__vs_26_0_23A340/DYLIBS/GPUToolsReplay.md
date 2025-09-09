@@ -1,0 +1,586 @@
+## GPUToolsReplay
+
+> `/System/Library/PrivateFrameworks/GPUToolsReplay.framework/GPUToolsReplay`
+
+```diff
+
+ 310.33.0.0.0
+-  __TEXT.__text: 0x319bec
++  __TEXT.__text: 0x31aa94
+   __TEXT.__auth_stubs: 0x1e70
+   __TEXT.__init_offsets: 0xc
+-  __TEXT.__objc_methlist: 0x6dc4
+-  __TEXT.__const: 0x93d0
++  __TEXT.__objc_methlist: 0x6de4
++  __TEXT.__const: 0x93d8
+   __TEXT.__oslogstring: 0x124f
+-  __TEXT.__cstring: 0xedc56
+-  __TEXT.__gcc_except_tab: 0xf330
++  __TEXT.__cstring: 0xedcaf
++  __TEXT.__gcc_except_tab: 0xf374
+   __TEXT.__ustring: 0x4f6
+   __TEXT.__unwind_info: 0x3b38
+   __TEXT.__objc_classname: 0xced
+-  __TEXT.__objc_methname: 0x17819
+-  __TEXT.__objc_methtype: 0x5634
+-  __TEXT.__objc_stubs: 0x14b60
++  __TEXT.__objc_methname: 0x17c76
++  __TEXT.__objc_methtype: 0x5642
++  __TEXT.__objc_stubs: 0x150e0
+   __DATA_CONST.__got: 0x930
+   __DATA_CONST.__const: 0x3466e0
+   __DATA_CONST.__objc_classlist: 0x278
+   __DATA_CONST.__objc_catlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x170
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x62c8
++  __DATA_CONST.__objc_selrefs: 0x6498
+   __DATA_CONST.__objc_protorefs: 0xc8
+   __DATA_CONST.__objc_superrefs: 0x258
+   __DATA_CONST.__objc_arraydata: 0xae8
+   __AUTH_CONST.__auth_got: 0xf50
+-  __AUTH_CONST.__const: 0x1740
++  __AUTH_CONST.__const: 0x18a0
+   __AUTH_CONST.__cfstring: 0xe4c0
+-  __AUTH_CONST.__objc_const: 0xab58
++  __AUTH_CONST.__objc_const: 0xab68
+   __AUTH_CONST.__objc_arrayobj: 0x258
+   __AUTH_CONST.__objc_dictobj: 0x780
+   __AUTH_CONST.__objc_intobj: 0x6c0
+
+   __AUTH.__thread_bss: 0x1088
+   __DATA.__objc_ivar: 0x720
+   __DATA.__data: 0x22c0
+-  __DATA.__bss: 0x13f8
++  __DATA.__bss: 0x1450
+   __DATA.__common: 0x4a
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 177961F5-A6B7-3A6D-8657-73E1ABF198BF
+-  Functions: 5989
+-  Symbols:   15768
+-  CStrings:  22980
++  UUID: 323172A3-FD84-3245-901E-7593A951BD47
++  Functions: 6000
++  Symbols:   15858
++  CStrings:  23039
+ 
+Symbols:
++ GCC_except_table1217
++ GCC_except_table1230
++ GCC_except_table1234
++ GCC_except_table1242
++ GCC_except_table1306
++ GCC_except_table1419
++ GCC_except_table1441
++ GCC_except_table1442
++ GCC_except_table1497
++ GCC_except_table1522
++ GCC_except_table1554
++ GCC_except_table1557
++ GCC_except_table1558
++ GCC_except_table1559
++ GCC_except_table1560
++ GCC_except_table1561
++ GCC_except_table1562
++ GCC_except_table1575
++ GCC_except_table1577
++ GCC_except_table1579
++ GCC_except_table1581
++ GCC_except_table1583
++ GCC_except_table1591
++ GCC_except_table1702
++ GCC_except_table1703
++ GCC_except_table1704
++ GCC_except_table1706
++ GCC_except_table1711
++ GCC_except_table1716
++ GCC_except_table1724
++ GCC_except_table1726
++ GCC_except_table1728
++ GCC_except_table1730
++ GCC_except_table1731
++ GCC_except_table1733
++ GCC_except_table1734
++ GCC_except_table1736
++ GCC_except_table1746
++ GCC_except_table1776
++ GCC_except_table1793
++ GCC_except_table1794
++ GCC_except_table1795
++ GCC_except_table1796
++ GCC_except_table1797
++ GCC_except_table1798
++ GCC_except_table1801
++ GCC_except_table1874
++ GCC_except_table1875
++ GCC_except_table1876
++ GCC_except_table1877
++ GCC_except_table1896
++ GCC_except_table1913
++ GCC_except_table1914
++ GCC_except_table1915
++ GCC_except_table1920
++ GCC_except_table1922
++ GCC_except_table1934
++ GCC_except_table1935
++ GCC_except_table1938
++ GCC_except_table1940
++ GCC_except_table1941
++ GCC_except_table1948
++ GCC_except_table1950
++ GCC_except_table1986
++ GCC_except_table1988
++ GCC_except_table1990
++ GCC_except_table1991
++ GCC_except_table1992
++ GCC_except_table2000
++ GCC_except_table2022
++ GCC_except_table2025
++ GCC_except_table2041
++ GCC_except_table2044
++ GCC_except_table2046
++ GCC_except_table2051
++ GCC_except_table2061
++ GCC_except_table2064
++ GCC_except_table2065
++ GCC_except_table2068
++ GCC_except_table2069
++ GCC_except_table2091
++ GCC_except_table2101
++ GCC_except_table2103
++ GCC_except_table2104
++ GCC_except_table2105
++ GCC_except_table2108
++ GCC_except_table2109
++ GCC_except_table2110
++ GCC_except_table2111
++ GCC_except_table2118
++ GCC_except_table2130
++ GCC_except_table2136
++ GCC_except_table2137
++ GCC_except_table2139
++ GCC_except_table2144
++ GCC_except_table2145
++ GCC_except_table2146
++ GCC_except_table2153
++ GCC_except_table2506
++ GCC_except_table2512
++ GCC_except_table2530
++ GCC_except_table2537
++ GCC_except_table2601
++ GCC_except_table2605
++ GCC_except_table2609
++ GCC_except_table2611
++ GCC_except_table2630
++ GCC_except_table2650
++ GCC_except_table2651
++ GCC_except_table2653
++ GCC_except_table2654
++ GCC_except_table2655
++ GCC_except_table2656
++ GCC_except_table2657
++ GCC_except_table2670
++ GCC_except_table2673
++ GCC_except_table2676
++ GCC_except_table2683
++ GCC_except_table2686
++ GCC_except_table2695
++ GCC_except_table2699
++ GCC_except_table2703
++ GCC_except_table2713
++ GCC_except_table2717
++ GCC_except_table2731
++ GCC_except_table2732
++ GCC_except_table2751
++ GCC_except_table2782
++ GCC_except_table2783
++ GCC_except_table2785
++ GCC_except_table2786
++ GCC_except_table2787
++ GCC_except_table2808
++ GCC_except_table2809
++ GCC_except_table2811
++ GCC_except_table2823
++ GCC_except_table2824
++ GCC_except_table2825
++ GCC_except_table2855
++ GCC_except_table2858
++ GCC_except_table2859
++ GCC_except_table2860
++ GCC_except_table2862
++ GCC_except_table2863
++ GCC_except_table2868
++ GCC_except_table2872
++ GCC_except_table2877
++ GCC_except_table2882
++ GCC_except_table2913
++ GCC_except_table2916
++ GCC_except_table2917
++ GCC_except_table3004
++ _AppendString.13783
++ _GTMTLDecodeIndirectRenderCommandBuffer.onceToken.46
++ _GTMTLDecodeIndirectRenderCommandBuffer.onceToken.51
++ _GTMTLDecodeIndirectRenderCommandBuffer.onceToken.56
++ _GTMTLDecodeIndirectRenderCommandBuffer.onceToken.61
++ _GTMTLDecodeIndirectRenderCommandBuffer.onceToken.66
++ _GTMTLDecodeIndirectRenderCommandBuffer.onceToken.71
++ _GTMTLDecodeIndirectRenderCommandBuffer.onceToken.76
++ _GTMTLDecodeIndirectRenderCommandBuffer.onceToken.81
++ _GTMTLDecodeIndirectRenderCommandBuffer.onceToken.86
++ _GTMTLDecodeIndirectRenderCommandBuffer.onceToken.91
++ _GTMTLDecodeIndirectRenderCommandBuffer.onceToken.96
++ _GTMTLIndirectResources_depthStencilStateIdForUniqueIdentifier
++ _GetStream.13338
++ _GroupBuilder_getCommandEncoder.5240
++ _NewCommandBuffer.5703
++ ___Block_byref_object_copy_.1899
++ ___Block_byref_object_copy_.5894
++ ___Block_byref_object_copy_.7207
++ ___Block_byref_object_copy_.9189
++ ___Block_byref_object_copy_.9828
++ ___Block_byref_object_copy_.9862
++ ___Block_byref_object_dispose_.1900
++ ___Block_byref_object_dispose_.5895
++ ___Block_byref_object_dispose_.7208
++ ___Block_byref_object_dispose_.9190
++ ___Block_byref_object_dispose_.9829
++ ___Block_byref_object_dispose_.9863
++ ___GTMTLDecodeIndirectRenderCommandBuffer_block_invoke_10
++ ___GTMTLDecodeIndirectRenderCommandBuffer_block_invoke_11
++ ___GTMTLDecodeIndirectRenderCommandBuffer_block_invoke_12
++ ___GTMTLDecodeIndirectRenderCommandBuffer_block_invoke_13
++ ___GTMTLDecodeIndirectRenderCommandBuffer_block_invoke_3
++ ___GTMTLDecodeIndirectRenderCommandBuffer_block_invoke_4
++ ___GTMTLDecodeIndirectRenderCommandBuffer_block_invoke_5
++ ___GTMTLDecodeIndirectRenderCommandBuffer_block_invoke_6
++ ___GTMTLDecodeIndirectRenderCommandBuffer_block_invoke_7
++ ___GTMTLDecodeIndirectRenderCommandBuffer_block_invoke_8
++ ___GTMTLDecodeIndirectRenderCommandBuffer_block_invoke_9
++ ___block_literal_global.10834
++ ___block_literal_global.10922
++ ___block_literal_global.11416
++ ___block_literal_global.1606
++ ___block_literal_global.1746
++ ___block_literal_global.2499
++ ___block_literal_global.2634
++ ___block_literal_global.2946
++ ___block_literal_global.3025
++ ___block_literal_global.4368
++ ___block_literal_global.48
++ ___block_literal_global.53
++ ___block_literal_global.5453
++ ___block_literal_global.58.3026
++ ___block_literal_global.5940
++ ___block_literal_global.63
++ ___block_literal_global.6374
++ ___block_literal_global.6739
++ ___block_literal_global.6760
++ ___block_literal_global.68
++ ___block_literal_global.6919
++ ___block_literal_global.73
++ ___block_literal_global.7578
++ ___block_literal_global.78
++ ___block_literal_global.83
++ ___block_literal_global.88
++ ___block_literal_global.93
++ ___block_literal_global.98.3056
++ _g_null_string_token.13784
++ _objc_msgSend$alpha
++ _objc_msgSend$backReferenceValue
++ _objc_msgSend$blue
++ _objc_msgSend$clamp
++ _objc_msgSend$depthBias
++ _objc_msgSend$frontReferenceValue
++ _objc_msgSend$getBlendColor
++ _objc_msgSend$getCullMode
++ _objc_msgSend$getDepthBiasInfo
++ _objc_msgSend$getDepthClipMode
++ _objc_msgSend$getDepthStencilStateUniqueIdentifier
++ _objc_msgSend$getDepthTestBounds
++ _objc_msgSend$getFrontFacingWinding
++ _objc_msgSend$getScissorRects
++ _objc_msgSend$getStencilReferenceValues
++ _objc_msgSend$getTriangleFillMode
++ _objc_msgSend$getViewports
++ _objc_msgSend$green
++ _objc_msgSend$lodBias
++ _objc_msgSend$maxBounds
++ _objc_msgSend$minBounds
++ _objc_msgSend$red
++ _objc_msgSend$reductionMode
++ _objc_msgSend$scissorRects
++ _objc_msgSend$setDepthStencilState:atIndex:
++ _objc_msgSend$setDepthStencilStates:withRange:
++ _objc_msgSend$setDepthTestMinBound:maxBound:
++ _objc_msgSend$setInheritBlendColor:
++ _objc_msgSend$setInheritCullMode:
++ _objc_msgSend$setInheritDepthBias:
++ _objc_msgSend$setInheritDepthClipMode:
++ _objc_msgSend$setInheritDepthStencilState:
++ _objc_msgSend$setInheritDepthTestBounds:
++ _objc_msgSend$setInheritFrontFacingWinding:
++ _objc_msgSend$setInheritScissorRects:
++ _objc_msgSend$setInheritStencilReferenceValues:
++ _objc_msgSend$setInheritTriangleFillMode:
++ _objc_msgSend$setInheritViewports:
++ _objc_msgSend$setLodBias:
++ _objc_msgSend$setMaxScissorRectCount:
++ _objc_msgSend$setMaxViewportCount:
++ _objc_msgSend$setReductionMode:
++ _objc_msgSend$slopeScale
++ _objc_msgSend$viewports
+- GCC_except_table1206
+- GCC_except_table1219
+- GCC_except_table1223
+- GCC_except_table1231
+- GCC_except_table1295
+- GCC_except_table1408
+- GCC_except_table1430
+- GCC_except_table1431
+- GCC_except_table1486
+- GCC_except_table1511
+- GCC_except_table1542
+- GCC_except_table1543
+- GCC_except_table1546
+- GCC_except_table1547
+- GCC_except_table1548
+- GCC_except_table1549
+- GCC_except_table1550
+- GCC_except_table1551
+- GCC_except_table1566
+- GCC_except_table1568
+- GCC_except_table1570
+- GCC_except_table1572
+- GCC_except_table1580
+- GCC_except_table1690
+- GCC_except_table1691
+- GCC_except_table1692
+- GCC_except_table1693
+- GCC_except_table1694
+- GCC_except_table1695
+- GCC_except_table1700
+- GCC_except_table1713
+- GCC_except_table1714
+- GCC_except_table1715
+- GCC_except_table1717
+- GCC_except_table1719
+- GCC_except_table1720
+- GCC_except_table1722
+- GCC_except_table1735
+- GCC_except_table1765
+- GCC_except_table1782
+- GCC_except_table1783
+- GCC_except_table1784
+- GCC_except_table1785
+- GCC_except_table1786
+- GCC_except_table1787
+- GCC_except_table1790
+- GCC_except_table1863
+- GCC_except_table1864
+- GCC_except_table1865
+- GCC_except_table1866
+- GCC_except_table1885
+- GCC_except_table1900
+- GCC_except_table1901
+- GCC_except_table1902
+- GCC_except_table1903
+- GCC_except_table1904
+- GCC_except_table1909
+- GCC_except_table1924
+- GCC_except_table1926
+- GCC_except_table1927
+- GCC_except_table1928
+- GCC_except_table1929
+- GCC_except_table1930
+- GCC_except_table1975
+- GCC_except_table1977
+- GCC_except_table1978
+- GCC_except_table1979
+- GCC_except_table1980
+- GCC_except_table1981
+- GCC_except_table2011
+- GCC_except_table2014
+- GCC_except_table2030
+- GCC_except_table2033
+- GCC_except_table2035
+- GCC_except_table2040
+- GCC_except_table2043
+- GCC_except_table2050
+- GCC_except_table2052
+- GCC_except_table2053
+- GCC_except_table2057
+- GCC_except_table2058
+- GCC_except_table2070
+- GCC_except_table2071
+- GCC_except_table2072
+- GCC_except_table2075
+- GCC_except_table2080
+- GCC_except_table2084
+- GCC_except_table2087
+- GCC_except_table2088
+- GCC_except_table2089
+- GCC_except_table2090
+- GCC_except_table2112
+- GCC_except_table2114
+- GCC_except_table2119
+- GCC_except_table2124
+- GCC_except_table2126
+- GCC_except_table2131
+- GCC_except_table2133
+- GCC_except_table2495
+- GCC_except_table2501
+- GCC_except_table2519
+- GCC_except_table2526
+- GCC_except_table2590
+- GCC_except_table2594
+- GCC_except_table2598
+- GCC_except_table2600
+- GCC_except_table2619
+- GCC_except_table2626
+- GCC_except_table2633
+- GCC_except_table2635
+- GCC_except_table2639
+- GCC_except_table2640
+- GCC_except_table2642
+- GCC_except_table2643
+- GCC_except_table2645
+- GCC_except_table2662
+- GCC_except_table2665
+- GCC_except_table2672
+- GCC_except_table2675
+- GCC_except_table2684
+- GCC_except_table2688
+- GCC_except_table2692
+- GCC_except_table2702
+- GCC_except_table2706
+- GCC_except_table2720
+- GCC_except_table2721
+- GCC_except_table2740
+- GCC_except_table2763
+- GCC_except_table2771
+- GCC_except_table2772
+- GCC_except_table2775
+- GCC_except_table2776
+- GCC_except_table2797
+- GCC_except_table2798
+- GCC_except_table2800
+- GCC_except_table2801
+- GCC_except_table2802
+- GCC_except_table2814
+- GCC_except_table2844
+- GCC_except_table2847
+- GCC_except_table2848
+- GCC_except_table2849
+- GCC_except_table2850
+- GCC_except_table2851
+- GCC_except_table2852
+- GCC_except_table2857
+- GCC_except_table2866
+- GCC_except_table2871
+- GCC_except_table2902
+- GCC_except_table2905
+- GCC_except_table2906
+- GCC_except_table2993
+- _AppendString.13737
+- _GetStream.13292
+- _GroupBuilder_getCommandEncoder.5209
+- _NewCommandBuffer.5672
+- ___Block_byref_object_copy_.1880
+- ___Block_byref_object_copy_.5863
+- ___Block_byref_object_copy_.7177
+- ___Block_byref_object_copy_.9159
+- ___Block_byref_object_copy_.9798
+- ___Block_byref_object_copy_.9832
+- ___Block_byref_object_dispose_.1881
+- ___Block_byref_object_dispose_.5864
+- ___Block_byref_object_dispose_.7178
+- ___Block_byref_object_dispose_.9160
+- ___Block_byref_object_dispose_.9799
+- ___Block_byref_object_dispose_.9833
+- ___block_literal_global.10804
+- ___block_literal_global.10892
+- ___block_literal_global.11386
+- ___block_literal_global.1587
+- ___block_literal_global.1727
+- ___block_literal_global.2479
+- ___block_literal_global.2613
+- ___block_literal_global.2924
+- ___block_literal_global.3003
+- ___block_literal_global.4342
+- ___block_literal_global.5422
+- ___block_literal_global.5909
+- ___block_literal_global.6344
+- ___block_literal_global.6709
+- ___block_literal_global.6730
+- ___block_literal_global.6889
+- ___block_literal_global.7548
+- _g_null_string_token.13738
+CStrings:
++ "alpha"
++ "backReferenceValue"
++ "blue"
++ "clamp"
++ "depthBias"
++ "frontReferenceValue"
++ "getBlendColor"
++ "getCullMode"
++ "getDepthBiasInfo"
++ "getDepthClipMode"
++ "getDepthStencilStateUniqueIdentifier"
++ "getDepthTestBounds"
++ "getFrontFacingWinding"
++ "getScissorRects"
++ "getStencilReferenceValues"
++ "getTriangleFillMode"
++ "getViewports"
++ "green"
++ "inheritBlendColor"
++ "inheritCullMode"
++ "inheritDepthBias"
++ "inheritDepthClipMode"
++ "inheritDepthStencilState"
++ "inheritDepthTestBounds"
++ "inheritFrontFacingWinding"
++ "inheritScissorRects"
++ "inheritStencilReferenceValues"
++ "inheritTriangleFillMode"
++ "inheritViewports"
++ "kDYFEMTLCommandBuffer_computeCommandEncoderWithParallelExecution"
++ "kDYFEMTLComputeCommandEncoder_dispatchBarrier"
++ "maxBounds"
++ "maxScissorRectCount"
++ "maxViewportCount"
++ "minBounds"
++ "red"
++ "samplerReductionModeSupport"
++ "scissorRects"
++ "setDepthStencilState:atIndex:"
++ "setDepthStencilStates:withRange:"
++ "setDepthTestMinBound:maxBound:"
++ "setInheritBlendColor:"
++ "setInheritCullMode:"
++ "setInheritDepthBias:"
++ "setInheritDepthClipMode:"
++ "setInheritDepthStencilState:"
++ "setInheritDepthTestBounds:"
++ "setInheritFrontFacingWinding:"
++ "setInheritScissorRects:"
++ "setInheritStencilReferenceValues:"
++ "setInheritTriangleFillMode:"
++ "setInheritViewports:"
++ "setLodBias:"
++ "setMaxScissorRectCount:"
++ "setMaxViewportCount:"
++ "setReductionMode:"
++ "slopeScale"
++ "v24@0:8f16f20"
++ "viewports"
+- "0xffffc0e9"
+- "0xffffc0ea"
+
+```

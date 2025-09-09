@@ -1,0 +1,94 @@
+## MobilePhone
+
+> `/Applications/MobilePhone.app/MobilePhone`
+
+```diff
+
+-3025.100.1.2.22
+-  __TEXT.__text: 0x1cde14
++3025.100.1.2.25
++  __TEXT.__text: 0x1ce404
+   __TEXT.__auth_stubs: 0x4840
+   __TEXT.__objc_stubs: 0x19820
+   __TEXT.__objc_methlist: 0x10638
+
+   __TEXT.__swift_as_entry: 0x350
+   __TEXT.__swift_as_ret: 0x350
+   __TEXT.__swift5_protos: 0x40
+-  __TEXT.__unwind_info: 0x7c28
++  __TEXT.__unwind_info: 0x7c30
+   __TEXT.__eh_frame: 0x8ef4
+   __DATA_CONST.__auth_got: 0x2430
+   __DATA_CONST.__got: 0x1848
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 454D22B6-6797-371C-B359-B980BAF61335
+-  Functions: 11122
+-  Symbols:   76431
++  UUID: 2E76BD58-4EE8-3374-A619-78F2EBEB6FA3
++  Functions: 11124
++  Symbols:   76441
+   CStrings:  10122
+ 
+Symbols:
++ _$sSo19CoreTelephonyClientC11MobilePhone035VMDVoicemailCountSourceSubscriptionH0A2cDP14_voicemailInfoySb_So8NSNumberCSSt0iK0_0I7ContextQZYaKFTWTQ1_
++ _$sSo19CoreTelephonyClientC11MobilePhone035VMDVoicemailCountSourceSubscriptionH0A2cDP14_voicemailInfoySb_So8NSNumberCSSt0iK0_0I7ContextQZYaKFTWTY0_
++ _$sSo19CoreTelephonyClientC11MobilePhone035VMDVoicemailCountSourceSubscriptionH0A2cDP16subscriptionInfo0iK0QzyYaKFTWTQ1_
++ _$sSo19CoreTelephonyClientC11MobilePhone035VMDVoicemailCountSourceSubscriptionH0A2cDP16subscriptionInfo0iK0QzyYaKFTWTY0_
+- _$sSo19CoreTelephonyClientC11MobilePhone035VMDVoicemailCountSourceSubscriptionH0A2cDP14_voicemailInfoySb_So8NSNumberCSSt0iK0_0I7ContextQZYaKFTWTQ0_
+- _$sSo19CoreTelephonyClientC11MobilePhone035VMDVoicemailCountSourceSubscriptionH0A2cDP16subscriptionInfo0iK0QzyYaKFTWTQ0_
+Functions:
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5 : 220 -> 248
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR7Combine14AnyCancellableC_TG5 : 216 -> 244
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR11MobilePhone22CachedVoicemailManagerC5Cache33_CFC589FF927D3725ACAAF49197D752FALLC_TG5 : 216 -> 244
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5 : 216 -> 244
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRSo10PhoneBadgea_TG5 : 216 -> 244
+~ _$sSo31PHVoicemailMessageTableViewCellC11MobilePhoneE10observeTip33_51E9F82CA7CE2B6FE675D47496CD4C28LL_6actionyx_y0I3Kit4TipsO6ActionVcSgtYaAG0I0RzlFyyYacfU_11TelephonyUI013LiveVoicemailI0V_Tg5TY3_ : 416 -> 444
+~ _$sSo34PHVoicemailInboxListViewControllerC11MobilePhoneE10observeTip33_73CB170AA31F50E550F54856C4662943LL_6actionyx_y0I3Kit4TipsO6ActionVcSgtYaAG0I0RzlFyyYacfU_11TelephonyUI013LiveVoicemailI0V_Tg5TY3_ : 420 -> 448
+~ _$s11MobilePhone22CachedVoicemailManagerC13fetchMessagesSayAA7Message_pGyYaFAC5Cache33_CFC589FF927D3725ACAAF49197D752FALLCyYacfU_TY0_ : 700 -> 732
+~ _$s11MobilePhone26VoicemailDelegateDecoratorC21onlineStatusDidChangeyyFyScTyyts5NeverOGSgzYuYTXEfU_yyYaYbcfU_TY0_ : 368 -> 396
+~ _$s11MobilePhone26VoicemailDelegateDecoratorC21capabilitiesDidChangeyyFyScTyyts5NeverOGSgzYuYTXEfU_yyYaYbcfU_TY0_ : 368 -> 396
+~ _$s11MobilePhone26VoicemailDelegateDecoratorC32subscriptionStateStatusDidChangeyyFyScTyyts5NeverOGSgzYuYTXEfU_yyYaYbcfU_TY0_ : 368 -> 396
+~ _$s11MobilePhone26VoicemailDelegateDecoratorC22syncInProgresDidChangeyyFyScTyyts5NeverOGSgzYuYTXEfU_yyYaYbcfU_TY0_ : 368 -> 396
+~ _$s11MobilePhone26VoicemailDelegateDecoratorC28managerStorageUsageDidChangeyyFyScTyyts5NeverOGSgzYuYTXEfU_yyYaYbcfU_TY0_ : 368 -> 396
+~ _$s11MobilePhone26VoicemailDelegateDecoratorC27transcribingStatusDidChangeyyFyScTyyts5NeverOGSgzYuYTXEfU_yyYaYbcfU_TY0_ : 368 -> 396
+~ _$s11MobilePhone26VoicemailDelegateDecoratorC17accountsDidChangeyyFyScTyyts5NeverOGSgzYuYTXEfU_yyYaYbcfU_TY0_ : 368 -> 396
+~ _$s11MobilePhone26VoicemailDelegateDecoratorC17greetingDidChange9byCarriery10Foundation4UUIDV_tFyScTyyts5NeverOGSgzYuYTXEfU_yyYaYbcfU_TY0_ : 432 -> 460
+~ _$s11MobilePhone26VoicemailDelegateDecoratorC26voicemailsDidChangeInitial_5added7deleted7updatedySb_SaySo11VMVoicemailCGSgA2KtFyScTyyts5NeverOGSgzYuYTXEfU_yyYaYbcfU_TY0_ : 368 -> 396
+~ _$sSo28MPRecentsTableViewControllerC11MobilePhoneE10observeTip33_F99F05B29EBE9F4449BC05DBD0EF5294LL_6actionyx_y0H3Kit4TipsO6ActionVcSgtYaAG0H0RzlFyyYacfU_11TelephonyUI021RecentsUnknownCallersH0V_Tg5TY3_ : 416 -> 444
+~ _$sSo28MPRecentsTableViewControllerC11MobilePhoneE10observeTip33_F99F05B29EBE9F4449BC05DBD0EF5294LL_6actionyx_y0H3Kit4TipsO6ActionVcSgtYaAG0H0RzlFyyYacfU_11TelephonyUI021RecentsBrandedCallingH0V_Tg5TY3_ : 416 -> 444
+~ _$sSo28MPRecentsTableViewControllerC11MobilePhoneE10observeTip33_F99F05B29EBE9F4449BC05DBD0EF5294LL_6actionyx_y0H3Kit4TipsO6ActionVcSgtYaAG0H0RzlFyyYacfU_11TelephonyUI022RecentsSaveAsFavoritesH0V_Tg5TY3_ : 416 -> 444
+~ _$sSo28MPRecentsTableViewControllerC11MobilePhoneE10observeTip33_F99F05B29EBE9F4449BC05DBD0EF5294LL_6actionyx_y0H3Kit4TipsO6ActionVcSgtYaAG0H0RzlFyyYacfU_11TelephonyUI020RecentsSaveAsContactH0V_Tg5TY3_ : 416 -> 444
+~ _$sSo28MPRecentsTableViewControllerC11MobilePhoneE10observeTip33_F99F05B29EBE9F4449BC05DBD0EF5294LL_6actionyx_y0H3Kit4TipsO6ActionVcSgtYaAG0H0RzlFyyYacfU_11TelephonyUI013LiveVoicemailH0V_Tg5TY3_ : 416 -> 444
+~ _$sSo28MPRecentsTableViewControllerC11MobilePhoneE17observePopoverTip33_F99F05B29EBE9F4449BC05DBD0EF5294LLyyxYa0I3Kit0I0RzlFyyYacfU_11TelephonyUI017CallHistorySearchI0V_Tg5TY3_ : 420 -> 448
+~ _$ss16AsyncMapSequenceV8IteratorV4next9isolationq_SgScA_pSgYi_tYa7FailureQzYKFScSy6TipKit4TipsO6StatusOG_SbTg5TY2_ : 420 -> 448
+~ _$s11MobilePhone24FaceTimeVoicemailManagerC26fetchMessagesFromDataStoreSayAA7Message_pGyYaKFScTySay0cdlK0AECGs5Error_pGyYaYbcfu_AIyYaKcfU_TY0_ : 564 -> 600
+~ _$s11MobilePhone24FaceTimeVoicemailManagerC04faceD15MessageForQueryyAA0H0_pSg0cdH5Store0hkJ0OYaFTY0_ : 652 -> 688
+~ _$s11MobilePhone24FaceTimeVoicemailManagerC6deleteyySayAA7Message_pGYaFTY3_ : 1192 -> 1228
+~ _$s11MobilePhone24FaceTimeVoicemailManagerC10markAsReadyySayAA7Message_pGYaFTY3_ : 1520 -> 1556
+~ _$s11MobilePhone24FaceTimeVoicemailManagerC11moveToTrashyySayAA7Message_pGYaFTY3_ : 1472 -> 1508
+~ _$s11MobilePhone24FaceTimeVoicemailManagerC15removeFromTrashyySayAA7Message_pGYaFTY3_ : 1460 -> 1496
+~ _$s11MobilePhone24FaceTimeVoicemailManagerC21countOfUnreadMessagesSuyYaFTY0_ : 852 -> 888
+~ _$s11MobilePhone24VoicemailBadgeCalculatorC6listeny7Combine14AnyCancellableCySo0bD0aYacFyyYacfU_TY3_ : 328 -> 360
+~ _$s11MobilePhone24VoicemailBadgeCalculatorC06updateD0ScTySo0bD0as5NeverOGyFAFyYacfU_ : 412 -> 444
+~ _$s11MobilePhone24VoicemailBadgeCalculatorC06updateD0ScTySo0bD0as5NeverOGyFAFyYacfU_TY1_ : 264 -> 296
+~ _$s11MobilePhone24VoicemailBadgeCalculatorC07_updateD0AC11CountResultOyYaFTY0_ : 752 -> 824
+~ _$s11MobilePhone23VVMVoicemailCountSourceC6listeny7Combine14AnyCancellableCyyYaYbcFyyYacfU_TY3_ : 316 -> 348
+~ _$s11MobilePhone23VVMVoicemailCountSourceC016unreadVoicemailsD0AA24VoicemailBadgeCalculatorC0D6ResultOyYaFTY0_ : 348 -> 384
+~ _$s11MobilePhone23VVMVoicemailCountSourceCAA024VoicemailBadgeCalculatorfE0A2aDP016unreadVoicemailsD0AA0fgH0C0D6ResultOyYaFTW : 244 -> 276
+~ _$s11MobilePhone23VMDVoicemailCountSourceC15invalidateBadgeyyFyyYacfU_ : 244 -> 276
+~ _$s11MobilePhone23VMDVoicemailCountSourceC6listeny7Combine14AnyCancellableCyyYaYbcFyyYacfU_TY3_ : 316 -> 348
+~ _$s11MobilePhone23VMDVoicemailCountSourceC016unreadVoicemailsD0AA24VoicemailBadgeCalculatorC0D6ResultOyYaFAHyYaXEfU_TY0_ : 1056 -> 1088
+~ _$s11MobilePhone23VMDVoicemailCountSourceC18fetchNonVVMessages23ignoringAccountsWithIdsAA24VoicemailBadgeCalculatorC0D6ResultOShySSG_tYaKFTY0_ : 512 -> 548
+~ _$s11MobilePhone23VMDVoicemailCountSourceC18fetchNonVVMessages23ignoringAccountsWithIdsAA24VoicemailBadgeCalculatorC0D6ResultOShySSG_tYaKFAIScGyAISgGzYaXEfU_AKyYacfU_ : 272 -> 308
+~ _$s11MobilePhone23VMDVoicemailCountSourceCyxGAA024VoicemailBadgeCalculatorfE0A2aEP016unreadVoicemailsD0AA0fgH0C0D6ResultOyYaFTW : 244 -> 276
+~ _$sSo19CoreTelephonyClientC11MobilePhone035VMDVoicemailCountSourceSubscriptionH0A2cDP16subscriptionInfo0iK0QzyYaKFTW : 280 -> 36
++ _$sSo19CoreTelephonyClientC11MobilePhone035VMDVoicemailCountSourceSubscriptionH0A2cDP16subscriptionInfo0iK0QzyYaKFTWTY0_
+~ _$sSo19CoreTelephonyClientC11MobilePhone035VMDVoicemailCountSourceSubscriptionH0A2cDP14_voicemailInfoySb_So8NSNumberCSSt0iK0_0I7ContextQZYaKFTW : 292 -> 40
++ _$sSo19CoreTelephonyClientC11MobilePhone035VMDVoicemailCountSourceSubscriptionH0A2cDP14_voicemailInfoySb_So8NSNumberCSSt0iK0_0I7ContextQZYaKFTWTY0_
+~ _$sIeghH_IeAgH_TR : 204 -> 232
+~ _$sIeAgH_ytIeAgHr_TR : 204 -> 232
+
+```
