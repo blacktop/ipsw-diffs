@@ -1,1 +1,1 @@
-# ⚠️ Please see corrected [README](26_0_23A5336a__vs_26_0_23A340/README.md)
+# ⚠️ Please see corrected [README](../26_0_23A5336a__vs_26_0_23A340/README.md)
