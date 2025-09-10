@@ -1,0 +1,1116 @@
+## LocalAuthenticationCore
+
+> `/System/Library/PrivateFrameworks/LocalAuthenticationCore.framework/LocalAuthenticationCore`
+
+```diff
+
+-1394.82.1.0.0
+-  __TEXT.__text: 0x28d80
+-  __TEXT.__auth_stubs: 0xe70
+-  __TEXT.__objc_methlist: 0x1780
+-  __TEXT.__const: 0x758
+-  __TEXT.__cstring: 0x1cd3
+-  __TEXT.__gcc_except_tab: 0x4a0
+-  __TEXT.__oslogstring: 0xd27
+-  __TEXT.__dlopen_cstrs: 0xa0
+-  __TEXT.__swift5_typeref: 0x4a4
+-  __TEXT.__swift5_fieldmd: 0x17c
+-  __TEXT.__constg_swiftt: 0x314
+-  __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_reflstr: 0x147
+-  __TEXT.__swift5_assocty: 0x18
+-  __TEXT.__swift5_proto: 0x28
+-  __TEXT.__swift5_types: 0x24
+-  __TEXT.__swift5_capture: 0x350
+-  __TEXT.__unwind_info: 0x1cb0
+-  __TEXT.__eh_frame: 0xd98
+-  __TEXT.__objc_classname: 0x6e6
+-  __TEXT.__objc_methname: 0x38e4
+-  __TEXT.__objc_methtype: 0x1198
+-  __TEXT.__objc_stubs: 0x2840
+-  __DATA_CONST.__got: 0x128
+-  __DATA_CONST.__const: 0xe20
+-  __DATA_CONST.__objc_classlist: 0x198
++1394.100.151.0.1
++  __TEXT.__text: 0x2e9bc
++  __TEXT.__auth_stubs: 0xf40
++  __TEXT.__objc_methlist: 0x1a90
++  __TEXT.__const: 0x968
++  __TEXT.__cstring: 0x24a6
++  __TEXT.__gcc_except_tab: 0x5d0
++  __TEXT.__oslogstring: 0x1025
++  __TEXT.__dlopen_cstrs: 0xf9
++  __TEXT.__swift5_typeref: 0x56c
++  __TEXT.__swift5_fieldmd: 0x1b0
++  __TEXT.__constg_swiftt: 0x360
++  __TEXT.__swift5_builtin: 0x3c
++  __TEXT.__swift5_reflstr: 0x177
++  __TEXT.__swift5_assocty: 0x48
++  __TEXT.__swift5_proto: 0x40
++  __TEXT.__swift5_types: 0x28
++  __TEXT.__swift5_capture: 0x370
++  __TEXT.__unwind_info: 0x1ff8
++  __TEXT.__eh_frame: 0xe98
++  __TEXT.__objc_classname: 0x838
++  __TEXT.__objc_methname: 0x3f14
++  __TEXT.__objc_methtype: 0x133e
++  __TEXT.__objc_stubs: 0x3020
++  __DATA_CONST.__got: 0x178
++  __DATA_CONST.__const: 0x1068
++  __DATA_CONST.__objc_classlist: 0x1d8
+   __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x168
++  __DATA_CONST.__objc_protolist: 0x190
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0xa178
+-  __DATA_CONST.__objc_selrefs: 0xd70
+-  __DATA_CONST.__objc_arraydata: 0x38
+-  __AUTH_CONST.__cfstring: 0xc00
+-  __AUTH_CONST.__objc_const: 0xfb8
+-  __AUTH_CONST.__const: 0xe48
++  __DATA_CONST.__objc_const: 0xbe80
++  __DATA_CONST.__objc_selrefs: 0xec0
++  __DATA_CONST.__objc_protorefs: 0x88
++  __DATA_CONST.__objc_classrefs: 0x1e0
++  __DATA_CONST.__objc_superrefs: 0x140
++  __DATA_CONST.__objc_arraydata: 0x48
++  __AUTH_CONST.__cfstring: 0xd00
++  __AUTH_CONST.__objc_const: 0x11b0
++  __AUTH_CONST.__const: 0xf80
+   __AUTH_CONST.__objc_intobj: 0xc0
+-  __AUTH_CONST.__objc_arrayobj: 0x60
+-  __AUTH_CONST.__auth_got: 0x748
+-  __AUTH.__objc_data: 0x12f0
+-  __AUTH.__data: 0x170
+-  __DATA.__objc_protorefs: 0x88
+-  __DATA.__objc_classrefs: 0x1c0
+-  __DATA.__objc_superrefs: 0x110
+-  __DATA.__objc_ivar: 0x1cc
++  __AUTH_CONST.__objc_arrayobj: 0x78
++  __AUTH_CONST.__auth_got: 0x7b0
++  __AUTH.__objc_data: 0xbf8
++  __AUTH.__data: 0x180
++  __DATA.__objc_ivar: 0x218
+   __DATA.__objc_data: 0x98
+-  __DATA.__data: 0xfe8
+-  __DATA.__bss: 0x650
++  __DATA.__data: 0x1278
++  __DATA.__bss: 0x910
+   __DATA.__common: 0x20
++  __DATA_DIRTY.__objc_data: 0x910
++  __DATA_DIRTY.__data: 0x98
++  __DATA_DIRTY.__bss: 0x80
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+-  - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CACFD424-5F78-388A-A601-FC80F22AF892
+-  Functions: 1148
+-  Symbols:   4212
+-  CStrings:  1260
++  UUID: F4B7B999-18D4-3166-969C-D88D93F468D9
++  Functions: 1305
++  Symbols:   4859
++  CStrings:  1414
+ 
+Symbols:
++ +[LACDTOLocationControllerFactory controllerWithStore:featureController:eventBus:workQueue:]
++ +[LACDTOLocationState strictLocationState]
++ +[LACError errorWithCode:localizedDescription:]
++ +[LACError errorWithCode:subcode:userInfo:]
++ +[LACError errorWithCode:underlyingError:]
++ +[LACError errorWithCode:userInfo:]
++ +[LACMobileGestalt marketingDeviceName]
++ -[LACDTOFeatureController checkIsFeatureStrictModeEnabledWithCompletion:]
++ -[LACDTOLocationController .cxx_destruct]
++ -[LACDTOLocationController checkIsInFamiliarLocationWithCompletion:]
++ -[LACDTOLocationController description]
++ -[LACDTOLocationController eventBus]
++ -[LACDTOLocationController initWithLocationProvider:monitor:workQueue:]
++ -[LACDTOLocationController locationMonitor:didReceiveLocationState:]
++ -[LACDTOLocationController locationState]
++ -[LACDTOLocationController pendingEvaluationController:updatedPendingEvaluation:]
++ -[LACDTOLocationController pendingEvaluationControllerDidStartTrackingPendingEvaluations:]
++ -[LACDTOLocationController pendingEvaluationControllerDidStopTrackingPendingEvaluations:]
++ -[LACDTOLocationController setEventBus:]
++ -[LACDTOLocationController setLocationState:]
++ -[LACDTOLocationController setWorkQueue:]
++ -[LACDTOLocationController workQueue]
++ -[LACDTOLocationMonitor delegate]
++ -[LACDTOLocationMonitor initWithLocationProvider:workQueue:]
++ -[LACDTOLocationMonitor setDelegate:]
++ -[LACDTOLocationMonitor startMonitoringWithReason:]
++ -[LACDTOLocationMonitor startMonitoringWithReason:].cold.1
++ -[LACDTOLocationMonitor stopMonitoringWithReason:]
++ -[LACDTOLocationProviderModeDecorator .cxx_destruct]
++ -[LACDTOLocationProviderModeDecorator _checkIsFeatureStrictModeEnabledWithCompletion:]
++ -[LACDTOLocationProviderModeDecorator checkIsInFamiliarLocationWithCompletion:]
++ -[LACDTOLocationProviderModeDecorator initWithLocationProvider:featureController:]
++ -[LACDTOLocationProviderPersistenceDecorator .cxx_destruct]
++ -[LACDTOLocationProviderPersistenceDecorator checkIsInFamiliarLocationWithCompletion:]
++ -[LACDTOLocationProviderPersistenceDecorator initWithLocationProvider:store:cacheEnabled:]
++ -[LACDTOLocationProviderTaskDecorator .cxx_destruct]
++ -[LACDTOLocationProviderTaskDecorator _locationStateFromBackgroundTaskResult:]
++ -[LACDTOLocationProviderTaskDecorator _runLocationStateBackgroundTask:completion:]
++ -[LACDTOLocationProviderTaskDecorator checkIsInFamiliarLocationWithCompletion:]
++ -[LACDTOLocationProviderTaskDecorator description]
++ -[LACDTOLocationProviderTaskDecorator initWithLocationProvider:workQueue:]
++ -[LACDTOLocationProviderTaskDecorator locationStateBackgroundTask]
++ -[LACDTOLocationProviderTaskDecorator setLocationStateBackgroundTask:]
++ -[LACDTOLocationProviderTaskDecorator setWorkQueue:]
++ -[LACDTOLocationProviderTaskDecorator workQueue]
++ -[LACDTOMutableEnvironment isStrictModeEnabled]
++ -[LACDTOMutableFeatureState isStrictModeEnabled]
++ -[LACDTOMutableFeatureState setIsStrictModeEnabled:]
++ -[LACDTOPendingPolicyEvaluationController _registerObserverForTimeChanges]
++ -[LACDTOPendingPolicyEvaluationController _rescheduleNotifications]
++ -[LACDTOPendingPolicyEvaluationController dealloc]
++ -[LACDTOPendingPolicyEvaluationController notificationCenter:didReceiveNotification:]
++ -[LACDTORatchetEndpointProvider .cxx_destruct]
++ -[LACDTORatchetEndpointProvider endpoint:]
++ -[LACDTORatchetEndpointProvider initWithContextProvider:]
++ -[LACDTORatchetManager .cxx_destruct]
++ -[LACDTORatchetManager _armPolicy]
++ -[LACDTORatchetManager _performArmRequestWithIdentifier:context:options:completion:]
++ -[LACDTORatchetManager _remoteObjectProxyWithErrorHandler:]
++ -[LACDTORatchetManager addObserver:]
++ -[LACDTORatchetManager cancelArmRequestWithIdentifier:reason:completion:]
++ -[LACDTORatchetManager checkCanEnableFeatureWithCompletion:]
++ -[LACDTORatchetManager disableFeatureWithContext:completion:]
++ -[LACDTORatchetManager enableFeatureWithReply:]
++ -[LACDTORatchetManager initWithContextProvider:]
++ -[LACDTORatchetManager isFeatureAvailable]
++ -[LACDTORatchetManager isFeatureEnabled]
++ -[LACDTORatchetManager isFeatureSupported]
++ -[LACDTORatchetManager notificationCenter:didReceiveNotification:]
++ -[LACDTORatchetManager performArmRequestWithIdentifier:context:options:completion:]
++ -[LACDTORatchetManager ratchetState]
++ -[LACDTORatchetManager removeObserver:]
++ -[LACDTORatchetManager reset]
++ -[LACDTORatchetManager stateInContext:completion:]
++ -[LACDTORatchetManager stateWithCompletion:]
++ -[LACDTORatchetNotificationCoolOff isBodyLocalized]
++ -[LACDTORatchetNotificationCoolOff isTitleLocalized]
++ -[LACDTORatchetNotificationCoolOff setIsBodyLocalized:]
++ -[LACDTORatchetNotificationCoolOff setIsTitleLocalized:]
++ -[LACUNManager _makeNotificationWithConfiguration:]
++ -[LACUNManager _makeNotificationWithConfiguration:].cold.1
++ -[LACUNManager _postNotificationWithIdentifier:content:delay:center:completion:]
++ -[LACUNManager _postNotificationWithIdentifier:content:delay:center:completion:].cold.1
++ -[LACUNManager cancelNotificationsWithIdentifiers:completion:]
++ -[LACUNManager cancelNotificationsWithIdentifiers:completion:].cold.1
++ -[LACUNManager postNotificationWithConfiguration:delay:completion:]
++ -[LACUNManager postNotificationWithConfiguration:delay:completion:].cold.1
++ GCC_except_table16
++ GCC_except_table22
++ GCC_except_table23
++ GCC_except_table27
++ GCC_except_table31
++ GCC_except_table37
++ GCC_except_table46
++ GCC_except_table51
++ GCC_except_table54
++ GCC_except_table55
++ _$s10Foundation4DateVSgWOhTm
++ _$s15_ObjectiveCTypes01_A11CBridgeablePTl
++ _$s23LocalAuthenticationCore10SerialTaskC12continuation33_DA3D6A38AA7074209CBAAB7738A65E5FLLScS12ContinuationVyyyYac_GSgvpWvd
++ _$s23LocalAuthenticationCore10SerialTaskC3addyyyyYacF
++ _$s23LocalAuthenticationCore10SerialTaskC3addyyyyYacFTj
++ _$s23LocalAuthenticationCore10SerialTaskC3addyyyyYacFTq
++ _$s23LocalAuthenticationCore10SerialTaskC5start33_DA3D6A38AA7074209CBAAB7738A65E5FLLyyF
++ _$s23LocalAuthenticationCore10SerialTaskC5start33_DA3D6A38AA7074209CBAAB7738A65E5FLLyyFyScS12ContinuationVyyyYac_GXEfU_
++ _$s23LocalAuthenticationCore10SerialTaskC5start33_DA3D6A38AA7074209CBAAB7738A65E5FLLyyFyScS12ContinuationVyyyYac_GXEfU_TA
++ _$s23LocalAuthenticationCore10SerialTaskC5start33_DA3D6A38AA7074209CBAAB7738A65E5FLLyyFyyYaYbcfU0_
++ _$s23LocalAuthenticationCore10SerialTaskC5start33_DA3D6A38AA7074209CBAAB7738A65E5FLLyyFyyYaYbcfU0_TA
++ _$s23LocalAuthenticationCore10SerialTaskC5start33_DA3D6A38AA7074209CBAAB7738A65E5FLLyyFyyYaYbcfU0_TATQ0_
++ _$s23LocalAuthenticationCore10SerialTaskC5start33_DA3D6A38AA7074209CBAAB7738A65E5FLLyyFyyYaYbcfU0_TATu
++ _$s23LocalAuthenticationCore10SerialTaskC5start33_DA3D6A38AA7074209CBAAB7738A65E5FLLyyFyyYaYbcfU0_TQ1_
++ _$s23LocalAuthenticationCore10SerialTaskC5start33_DA3D6A38AA7074209CBAAB7738A65E5FLLyyFyyYaYbcfU0_TQ3_
++ _$s23LocalAuthenticationCore10SerialTaskC5start33_DA3D6A38AA7074209CBAAB7738A65E5FLLyyFyyYaYbcfU0_TY0_
++ _$s23LocalAuthenticationCore10SerialTaskC5start33_DA3D6A38AA7074209CBAAB7738A65E5FLLyyFyyYaYbcfU0_TY2_
++ _$s23LocalAuthenticationCore10SerialTaskC5start33_DA3D6A38AA7074209CBAAB7738A65E5FLLyyFyyYaYbcfU0_TY4_
++ _$s23LocalAuthenticationCore10SerialTaskC5start33_DA3D6A38AA7074209CBAAB7738A65E5FLLyyFyyYaYbcfU0_Tu
++ _$s23LocalAuthenticationCore10SerialTaskCACycfC
++ _$s23LocalAuthenticationCore10SerialTaskCACycfCTj
++ _$s23LocalAuthenticationCore10SerialTaskCACycfCTq
++ _$s23LocalAuthenticationCore10SerialTaskCACycfc
++ _$s23LocalAuthenticationCore10SerialTaskCMF
++ _$s23LocalAuthenticationCore10SerialTaskCMU
++ _$s23LocalAuthenticationCore10SerialTaskCMa
++ _$s23LocalAuthenticationCore10SerialTaskCMf
++ _$s23LocalAuthenticationCore10SerialTaskCMl
++ _$s23LocalAuthenticationCore10SerialTaskCMm
++ _$s23LocalAuthenticationCore10SerialTaskCMn
++ _$s23LocalAuthenticationCore10SerialTaskCMo
++ _$s23LocalAuthenticationCore10SerialTaskCMr
++ _$s23LocalAuthenticationCore10SerialTaskCMu
++ _$s23LocalAuthenticationCore10SerialTaskCN
++ _$s23LocalAuthenticationCore10SerialTaskCfD
++ _$s23LocalAuthenticationCore10SerialTaskCfd
++ _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC16fetchEnvironment6policy7options10completionySo9LACPolicya_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctF
++ _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC16fetchEnvironment6policy7options10completionySo9LACPolicya_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFTj
++ _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC16fetchEnvironment6policy7options10completionySo9LACPolicya_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFTo
++ _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC16fetchEnvironment6policy7options10completionySo9LACPolicya_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFTq
++ _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC16fetchEnvironment6policy7options10completionySo9LACPolicya_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFyAN_APtcfU_
++ _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC16fetchEnvironment6policy7options10completionySo9LACPolicya_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFyAN_APtcfU_TA
++ _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySo9LACPolicya_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_
++ _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySo9LACPolicya_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_TA
++ _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySo9LACPolicya_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetY13WithWatchdogsCSg_AQtcfU_
++ _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySo9LACPolicya_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetY13WithWatchdogsCSg_AQtcfU_TA
++ _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySo9LACPolicya_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetY13WithWatchdogsCSg_AQtcfU_ySo014LACDTOLostModeY0CcfU_
++ _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySo9LACPolicya_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetY13WithWatchdogsCSg_AQtcfU_ySo014LACDTOLostModeY0CcfU_TA
++ _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySo9LACPolicya_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetY13WithWatchdogsCSg_AQtcfU_ySo014LACDTOLostModeY0CcfU_ySo014LACDTOLocationY0CcfU_
++ _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySo9LACPolicya_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetY13WithWatchdogsCSg_AQtcfU_ySo014LACDTOLostModeY0CcfU_ySo014LACDTOLocationY0CcfU_TA
++ _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySo9LACPolicya_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetY13WithWatchdogsCSg_AQtcfU_ySo014LACDTOLostModeY0CcfU_ySo014LACDTOLocationY0CcfU_yAU_AQtcfU_
++ _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySo9LACPolicya_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetY13WithWatchdogsCSg_AQtcfU_ySo014LACDTOLostModeY0CcfU_ySo014LACDTOLocationY0CcfU_yAU_AQtcfU_TA
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC010persistentG09workQueueACSo013LACPersistentG0_p_So17OS_dispatch_queueCtcfcTf4ggn_n
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC22pendingEvaluationsDict33_2F3A14333F740D7E8D468D748269021ELLSDySSAA020LACDTOMutablePendingeF0CGvs
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYacfU_
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYacfU_TA
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYacfU_TA.23
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYacfU_TA.23TQ0_
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYacfU_TA.23Tu
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYacfU_TA.46
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYacfU_TA.46TQ0_
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYacfU_TA.46Tu
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYacfU_TATQ0_
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYacfU_TATu
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYacfU_TQ1_
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYacfU_TY0_
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYacfU_TY2_
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYacfU_TY3_
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYacfU_Tu
++ _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC9taskGroup33_2F3A14333F740D7E8D468D748269021ELLAA10SerialTaskCvpWvd
++ _$s23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationC10CodingKeys33_4BC7126A1542EEEDCA6425CD3A877DA1LLO11stringValueSSvg
++ _$s23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationC11callbackURL10Foundation0I0VSgvgToTm
++ _$s23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationC11callbackURL10Foundation0I0VSgvsToTm
++ _$sIegH_ytIegHr_TR
++ _$sIegH_ytIegHr_TRTA
++ _$sIegH_ytIegHr_TRTATQ0_
++ _$sIegH_ytIegHr_TRTATu
++ _$sIegH_ytIegHr_TRTQ0_
++ _$sIegH_ytIegHr_TRTu
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationCTgm5
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCs11AnyHashableV_ypTgm5
++ _$sSDsSQR_rlE2eeoiySbSDyxq_G_ABtFZSS_23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationCTgm5
++ _$sSNy10Foundation4DateVGWObTm
++ _$sScS12ContinuationV11YieldResultOMn
++ _$sScS12ContinuationV11YieldResultOyyyYac__GMD
++ _$sScS12ContinuationV11YieldResultOyyyYac__GSgMD
++ _$sScS12ContinuationV15BufferingPolicyO9unboundedyADyx__GAFmlFWC
++ _$sScS12ContinuationV15BufferingPolicyOMn
++ _$sScS12ContinuationV15BufferingPolicyOyyyYac__GMD
++ _$sScS12ContinuationV5yieldyAB11YieldResultOyx__GxnF
++ _$sScS12ContinuationV6finishyyF
++ _$sScS12ContinuationVMn
++ _$sScS12ContinuationVyyyYac_GMD
++ _$sScS12ContinuationVyyyYac_GSgMD
++ _$sScS12ContinuationVyyyYac_GSgML
++ _$sScS12ContinuationVyyyYac_GSgMa
++ _$sScS12ContinuationVyyyYac_GSgWOc
++ _$sScS12ContinuationVyyyYac_GSgWOd
++ _$sScS12ContinuationVyyyYac_GSgWOhTm
++ _$sScS17makeAsyncIteratorScS0C0Vyx_GyF
++ _$sScS8IteratorV4nextxSgyYaF
++ _$sScS8IteratorV4nextxSgyYaFTu
++ _$sScS8IteratorVMn
++ _$sScS8IteratorVyyyYac_GMD
++ _$sScS_15bufferingPolicy_ScSyxGxm_ScS12ContinuationV09BufferingB0Oyx__GyADyx_GXEtcfC
++ _$sScSyyyYacGMD
++ _$sSi10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _$sSi10FoundationE26_forceBridgeFromObjectiveC_6resultySo8NSNumberC_SiSgztFZ
++ _$sSi10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo8NSNumberC_SiSgztFZ
++ _$sSi10FoundationE36_unconditionallyBridgeFromObjectiveCySiSo8NSNumberCSgFZ
++ _$sSi9hashValueSivg
++ _$sSiSHsWP
++ _$sSo15LACLocalizationC23LocalAuthenticationCoreE15localizedString33_06C5009961CF12380B02F6187ECF7956LL3key5value11tableSuffixS2S_S2StFZTf4ndnd_n
++ _$sSo15LACLocalizationC23LocalAuthenticationCoreE18ratchetTableSuffix33_06C5009961CF12380B02F6187ECF7956LLSSvpZ
++ _$sSo15LACLocalizationC23LocalAuthenticationCoreE18ratchetTableSuffix33_06C5009961CF12380B02F6187ECF7956LL_WZ
++ _$sSo15LACLocalizationC23LocalAuthenticationCoreE18ratchetTableSuffix33_06C5009961CF12380B02F6187ECF7956LL_Wz
++ _$sSo15LACLocalizationC23LocalAuthenticationCoreE22dtoErrorPasscodeNotSetSSyFZ
++ _$sSo15LACLocalizationC23LocalAuthenticationCoreE22dtoErrorPasscodeNotSetSSyFZTm
++ _$sSo15LACLocalizationC23LocalAuthenticationCoreE22dtoErrorPasscodeNotSetSSyFZTo
++ _$sSo15LACLocalizationC23LocalAuthenticationCoreE22dtoErrorPasscodeNotSetSSyFZToTm
++ _$sSo15LACLocalizationC23LocalAuthenticationCoreE27dtoErrorBiometryNotEnrolledSSyFZ
++ _$sSo15LACLocalizationC23LocalAuthenticationCoreE27dtoErrorBiometryNotEnrolledSSyFZTo
++ _$sSo15LACLocalizationC23LocalAuthenticationCoreE30dtoErrorDeviceTypeNotSupportedSSyFZ
++ _$sSo15LACLocalizationC23LocalAuthenticationCoreE30dtoErrorDeviceTypeNotSupportedSSyFZTo
++ _$sSo33LACDTOMutableLostModeFetchRequestC23LocalAuthenticationCoreE6policy7options12featureState07ratchetL0ABSo9LACPolicya_SDys11AnyHashableVypGSo013LACDTOFeatureL0_pSo013LACDTORatchetL13WithWatchdogsCtc33_E856350D1C5EB666EF0471B129C641C4LlfC
++ _$sSo9LACPolicyaABSHSCWL
++ _$sSo9LACPolicyaABSQSCWL
++ _$sSo9LACPolicyaABSYSCWL
++ _$sSo9LACPolicyaABSYSCWlTm
++ _$sSo9LACPolicyaABs20_SwiftNewtypeWrapperSCWL
++ _$sSo9LACPolicyaABs35_HasCustomAnyHashableRepresentationSCWL
++ _$sSo9LACPolicyaMB
++ _$sSo9LACPolicyaMF
++ _$sSo9LACPolicyaML
++ _$sSo9LACPolicyaMa
++ _$sSo9LACPolicyaMaTm
++ _$sSo9LACPolicyaMf
++ _$sSo9LACPolicyaMn
++ _$sSo9LACPolicyaSHSCMc
++ _$sSo9LACPolicyaSHSCMcMK
++ _$sSo9LACPolicyaSHSCSH13_rawHashValue4seedS2i_tFTW
++ _$sSo9LACPolicyaSHSCSH4hash4intoys6HasherVz_tFTW
++ _$sSo9LACPolicyaSHSCSH9hashValueSivgTW
++ _$sSo9LACPolicyaSHSCSQWb
++ _$sSo9LACPolicyaSQSCMc
++ _$sSo9LACPolicyaSQSCMcMK
++ _$sSo9LACPolicyaSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo9LACPolicyaSYSCMA
++ _$sSo9LACPolicyaSYSCMc
++ _$sSo9LACPolicyaSYSCMcMK
++ _$sSo9LACPolicyaSYSCSY8rawValue03RawC0QzvgTW
++ _$sSo9LACPolicyaSYSCSY8rawValuexSg03RawC0Qz_tcfCTW
++ _$sSo9LACPolicyas20_SwiftNewtypeWrapperSCMc
++ _$sSo9LACPolicyas20_SwiftNewtypeWrapperSCMcMK
++ _$sSo9LACPolicyas20_SwiftNewtypeWrapperSCSYWb
++ _$sSo9LACPolicyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb
++ _$sSo9LACPolicyas21_ObjectiveCBridgeableSCMA
++ _$sSo9LACPolicyas21_ObjectiveCBridgeableSCMc
++ _$sSo9LACPolicyas21_ObjectiveCBridgeableSCMcMK
++ _$sSo9LACPolicyas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromB1C_6resulty01_B5CTypeQz_xSgztFZTW
++ _$sSo9LACPolicyas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromB1C_6resultSb01_B5CTypeQz_xSgztFZTW
++ _$sSo9LACPolicyas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromB1Cyx01_B5CTypeQzSgFZTW
++ _$sSo9LACPolicyas21_ObjectiveCBridgeableSCsACP09_bridgeToB1C01_B5CTypeQzyFTW
++ _$sSo9LACPolicyas35_HasCustomAnyHashableRepresentationSCMc
++ _$sSo9LACPolicyas35_HasCustomAnyHashableRepresentationSCMcMK
++ _$sSo9LACPolicyas35_HasCustomAnyHashableRepresentationSCsACP03_tocdE0s0dE0VSgyFTW
++ _$sSp14moveInitialize4from5countySpyxG_SitFs5UInt8V_Tgq5
++ _$sSw10copyMemory4fromySW_tF
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss20_SwiftNewtypeWrapperMp
++ _$ss20_SwiftNewtypeWrapperPSYTb
++ _$ss20_SwiftNewtypeWrapperPs35_HasCustomAnyHashableRepresentationTb
++ _$ss20_SwiftNewtypeWrapperPsSHRzSH8RawValueSYRpzrlE20_toCustomAnyHashables0hI0VSgyF
++ _$ss21_ObjectiveCBridgeableMp
++ _$ss21_ObjectiveCBridgeableP016_forceBridgeFromA1C_6resulty01_A5CTypeQz_xSgztFZTq
++ _$ss21_ObjectiveCBridgeableP024_conditionallyBridgeFromA1C_6resultSb01_A5CTypeQz_xSgztFZTq
++ _$ss21_ObjectiveCBridgeableP026_unconditionallyBridgeFromA1Cyx01_A5CTypeQzSgFZTq
++ _$ss21_ObjectiveCBridgeableP09_bridgeToA1C01_A5CTypeQzyFTq
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5
++ _$ss35_HasCustomAnyHashableRepresentationMp
++ _$ss35_HasCustomAnyHashableRepresentationP03_tobcD0s0cD0VSgyFTq
++ _$ss6HasherV5_hash4seed_S2i_s6UInt64VtFZ
++ _$sxlyytIsegHr_SgWOe
++ _$syyYacMD
++ _CFStringCompare
++ _LACDarwinNotificationSignificantTimeChange
++ _LACDarwinNotificationsEqual
++ _LACErrorCodeDeviceTypeNotSupported
++ _LACErrorInfoKeyRatchetState
++ _LACEventAvailability
++ _LACEventDFRConfirmation
++ _LACEventOyster
++ _LACEventPasscode
++ _LACEventPassphrase
++ _LACEventPassword
++ _LACEventPearl
++ _LACEventPushButton
++ _LACEventPushButtonSecondary
++ _LACEventRatchet
++ _LACEventSecureIntent
++ _LACEventTouchID
++ _LACEventWatch
++ _LACPolicyOptionBeginSecurityDelayImmediately
++ _LACPolicyOptionCallerIconPath
++ _LACPolicyOptionCustomRatchetCancelLocalizedTitle
++ _LACPolicyOptionNoCountdownUI
++ _LACResultContext
++ _LACResultPassedBiometry
++ _LACResultPassedPasscode
++ _LACResultRatchetState
++ _NSLocalizedDescriptionKey
++ _NSUnderlyingErrorKey
++ _OBJC_CLASS_$_LACDTOLocationController
++ _OBJC_CLASS_$_LACDTOLocationControllerFactory
++ _OBJC_CLASS_$_LACDTOLocationProviderModeDecorator
++ _OBJC_CLASS_$_LACDTOLocationProviderPersistenceDecorator
++ _OBJC_CLASS_$_LACDTOLocationProviderTaskDecorator
++ _OBJC_CLASS_$_LACDTORatchetEndpointProvider
++ _OBJC_CLASS_$_LACDTORatchetManager
++ _OBJC_CLASS_$_LACLocalization
++ _OBJC_CLASS_$_NSUUID
++ _OBJC_IVAR_$_LACDTOLocationController._locationProvider
++ _OBJC_IVAR_$_LACDTOLocationController._locationState
++ _OBJC_IVAR_$_LACDTOLocationController._monitor
++ _OBJC_IVAR_$_LACDTOLocationController._workQueue
++ _OBJC_IVAR_$_LACDTOLocationController.eventBus
++ _OBJC_IVAR_$_LACDTOLocationMonitor._delegate
++ _OBJC_IVAR_$_LACDTOLocationProviderModeDecorator._featureController
++ _OBJC_IVAR_$_LACDTOLocationProviderModeDecorator._locationProvider
++ _OBJC_IVAR_$_LACDTOLocationProviderPersistenceDecorator._isCacheEnabled
++ _OBJC_IVAR_$_LACDTOLocationProviderPersistenceDecorator._locationProvider
++ _OBJC_IVAR_$_LACDTOLocationProviderPersistenceDecorator._locationState
++ _OBJC_IVAR_$_LACDTOLocationProviderPersistenceDecorator._store
++ _OBJC_IVAR_$_LACDTOLocationProviderTaskDecorator._locationProvider
++ _OBJC_IVAR_$_LACDTOLocationProviderTaskDecorator._locationStateBackgroundTask
++ _OBJC_IVAR_$_LACDTOLocationProviderTaskDecorator._workQueue
++ _OBJC_IVAR_$_LACDTOMutableFeatureState._isStrictModeEnabled
++ _OBJC_IVAR_$_LACDTORatchetEndpointProvider._contextProvider
++ _OBJC_IVAR_$_LACDTORatchetManager._contextProvider
++ _OBJC_IVAR_$_LACDTORatchetManager._notificationCenter
++ _OBJC_IVAR_$_LACDTORatchetManager._observers
++ _OBJC_IVAR_$_LACDTORatchetManager._remoteObjectProxy
++ _OBJC_IVAR_$_LACDTORatchetNotificationCoolOff.isBodyLocalized
++ _OBJC_IVAR_$_LACDTORatchetNotificationCoolOff.isTitleLocalized
++ _OBJC_METACLASS_$_LACDTOLocationController
++ _OBJC_METACLASS_$_LACDTOLocationControllerFactory
++ _OBJC_METACLASS_$_LACDTOLocationProviderModeDecorator
++ _OBJC_METACLASS_$_LACDTOLocationProviderPersistenceDecorator
++ _OBJC_METACLASS_$_LACDTOLocationProviderTaskDecorator
++ _OBJC_METACLASS_$_LACDTORatchetEndpointProvider
++ _OBJC_METACLASS_$_LACDTORatchetManager
++ _OBJC_METACLASS_$_LACLocalization
++ _OUTLINED_FUNCTION_2
++ _UserNotificationsLibrary
++ _UserNotificationsLibraryCore.frameworkLibrary
++ __DATA__TtC23LocalAuthenticationCore10SerialTask
++ __IVARS__TtC23LocalAuthenticationCore10SerialTask
++ __METACLASS_DATA__TtC23LocalAuthenticationCore10SerialTask
++ __OBJC_$_CLASS_METHODS_LACDTOLocationControllerFactory
++ __OBJC_$_CLASS_METHODS_LACLocalization(Base)
++ __OBJC_$_INSTANCE_METHODS_LACDTOLocationController
++ __OBJC_$_INSTANCE_METHODS_LACDTOLocationProviderModeDecorator
++ __OBJC_$_INSTANCE_METHODS_LACDTOLocationProviderPersistenceDecorator
++ __OBJC_$_INSTANCE_METHODS_LACDTOLocationProviderTaskDecorator
++ __OBJC_$_INSTANCE_METHODS_LACDTORatchetEndpointProvider
++ __OBJC_$_INSTANCE_METHODS_LACDTORatchetManager
++ __OBJC_$_INSTANCE_METHODS_LACUNManager
++ __OBJC_$_INSTANCE_VARIABLES_LACDTOLocationController
++ __OBJC_$_INSTANCE_VARIABLES_LACDTOLocationProviderModeDecorator
++ __OBJC_$_INSTANCE_VARIABLES_LACDTOLocationProviderPersistenceDecorator
++ __OBJC_$_INSTANCE_VARIABLES_LACDTOLocationProviderTaskDecorator
++ __OBJC_$_INSTANCE_VARIABLES_LACDTORatchetEndpointProvider
++ __OBJC_$_INSTANCE_VARIABLES_LACDTORatchetManager
++ __OBJC_$_PROP_LIST_LACDTOLocationController
++ __OBJC_$_PROP_LIST_LACDTOLocationMonitor.70
++ __OBJC_$_PROP_LIST_LACDTOLocationProviderModeDecorator
++ __OBJC_$_PROP_LIST_LACDTOLocationProviderPersistenceDecorator
++ __OBJC_$_PROP_LIST_LACDTOLocationProviderTaskDecorator
++ __OBJC_$_PROP_LIST_LACDTORatchetEndpointProvider
++ __OBJC_$_PROP_LIST_LACDTORatchetManager
++ __OBJC_$_PROP_LIST_LACXPCClientInfo.63
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_LACDTOLocationMonitor
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_LACDTOLocationMonitorDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_LACDTOServiceXPCEndpointProvider
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_LACDarwinNotificationCenterObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_LACDTOLocationMonitor
++ __OBJC_$_PROTOCOL_METHOD_TYPES_LACDTOLocationMonitorDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_LACDTOServiceXPCEndpointProvider
++ __OBJC_$_PROTOCOL_METHOD_TYPES_LACDarwinNotificationCenterObserver
++ __OBJC_$_PROTOCOL_REFS_LACDTOLocationController
++ __OBJC_$_PROTOCOL_REFS_LACDTOLocationMonitor
++ __OBJC_$_PROTOCOL_REFS_LACDTOLocationMonitorDelegate
++ __OBJC_$_PROTOCOL_REFS_LACDTOServiceXPCEndpointProvider
++ __OBJC_$_PROTOCOL_REFS_LACDarwinNotificationCenterObserver
++ __OBJC_CLASS_PROTOCOLS_$_LACDTOLocationController
++ __OBJC_CLASS_PROTOCOLS_$_LACDTOLocationProviderModeDecorator
++ __OBJC_CLASS_PROTOCOLS_$_LACDTOLocationProviderPersistenceDecorator
++ __OBJC_CLASS_PROTOCOLS_$_LACDTOLocationProviderTaskDecorator
++ __OBJC_CLASS_PROTOCOLS_$_LACDTORatchetEndpointProvider
++ __OBJC_CLASS_PROTOCOLS_$_LACDTORatchetManager
++ __OBJC_CLASS_RO_$_LACDTOLocationController
++ __OBJC_CLASS_RO_$_LACDTOLocationControllerFactory
++ __OBJC_CLASS_RO_$_LACDTOLocationProviderModeDecorator
++ __OBJC_CLASS_RO_$_LACDTOLocationProviderPersistenceDecorator
++ __OBJC_CLASS_RO_$_LACDTOLocationProviderTaskDecorator
++ __OBJC_CLASS_RO_$_LACDTORatchetEndpointProvider
++ __OBJC_CLASS_RO_$_LACDTORatchetManager
++ __OBJC_CLASS_RO_$_LACLocalization
++ __OBJC_LABEL_PROTOCOL_$_LACDTOLocationController
++ __OBJC_LABEL_PROTOCOL_$_LACDTOLocationMonitor
++ __OBJC_LABEL_PROTOCOL_$_LACDTOLocationMonitorDelegate
++ __OBJC_LABEL_PROTOCOL_$_LACDTOServiceXPCEndpointProvider
++ __OBJC_LABEL_PROTOCOL_$_LACDarwinNotificationCenterObserver
++ __OBJC_METACLASS_RO_$_LACDTOLocationController
++ __OBJC_METACLASS_RO_$_LACDTOLocationControllerFactory
++ __OBJC_METACLASS_RO_$_LACDTOLocationProviderModeDecorator
++ __OBJC_METACLASS_RO_$_LACDTOLocationProviderPersistenceDecorator
++ __OBJC_METACLASS_RO_$_LACDTOLocationProviderTaskDecorator
++ __OBJC_METACLASS_RO_$_LACDTORatchetEndpointProvider
++ __OBJC_METACLASS_RO_$_LACDTORatchetManager
++ __OBJC_METACLASS_RO_$_LACLocalization
++ __OBJC_PROTOCOL_$_LACDTOLocationController
++ __OBJC_PROTOCOL_$_LACDTOLocationMonitor
++ __OBJC_PROTOCOL_$_LACDTOLocationMonitorDelegate
++ __OBJC_PROTOCOL_$_LACDTOServiceXPCEndpointProvider
++ __OBJC_PROTOCOL_$_LACDarwinNotificationCenterObserver
++ __PROTOCOLS__TtC23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStore.16
++ ___36-[LACDTORatchetManager ratchetState]_block_invoke
++ ___40-[LACDTORatchetManager isFeatureEnabled]_block_invoke
++ ___42-[LACDTORatchetEndpointProvider endpoint:]_block_invoke
++ ___42-[LACDTORatchetManager isFeatureAvailable]_block_invoke
++ ___42-[LACDTORatchetManager isFeatureSupported]_block_invoke
++ ___44-[LACDTORatchetManager stateWithCompletion:]_block_invoke
++ ___44-[LACDTORatchetManager stateWithCompletion:]_block_invoke.10
++ ___44-[LACDTORatchetManager stateWithCompletion:]_block_invoke.10.cold.1
++ ___44-[LACDTORatchetManager stateWithCompletion:]_block_invoke.cold.1
++ ___47-[LACDTORatchetManager enableFeatureWithReply:]_block_invoke
++ ___47-[LACDTORatchetManager enableFeatureWithReply:]_block_invoke.14
++ ___47-[LACDTORatchetManager enableFeatureWithReply:]_block_invoke.cold.1
++ ___50-[LACDTORatchetManager stateInContext:completion:]_block_invoke
++ ___51-[LACDTOLocationMonitor startMonitoringWithReason:]_block_invoke
++ ___51-[LACDTOLocationMonitor startMonitoringWithReason:]_block_invoke.1
++ ___52-[LACDTOFeatureController fetchStateWithCompletion:]_block_invoke_5
++ ___55-[LACDTOFeatureController enableFeatureWithCompletion:]_block_invoke.16
++ ___55-[LACDTOFeatureController enableFeatureWithCompletion:]_block_invoke.16.cold.1
++ ___55-[LACDTOFeatureController enableFeatureWithCompletion:]_block_invoke.17
++ ___60-[LACDTORatchetManager checkCanEnableFeatureWithCompletion:]_block_invoke
++ ___60-[LACDTORatchetManager checkCanEnableFeatureWithCompletion:]_block_invoke.12
++ ___60-[LACDTORatchetManager checkCanEnableFeatureWithCompletion:]_block_invoke.cold.1
++ ___61-[LACDTORatchetManager disableFeatureWithContext:completion:]_block_invoke
++ ___61-[LACDTORatchetManager disableFeatureWithContext:completion:]_block_invoke.15
++ ___61-[LACDTORatchetManager disableFeatureWithContext:completion:]_block_invoke.cold.1
++ ___63-[LACDTOFeatureController checkCanEnableFeatureWithCompletion:]_block_invoke.14
++ ___66-[LACDTOLocationProviderTaskDecorator locationStateBackgroundTask]_block_invoke
++ ___66-[LACDTOLocationProviderTaskDecorator locationStateBackgroundTask]_block_invoke_2
++ ___66-[LACDTOPendingPolicyEvaluationController _loadPendingEvaluations]_block_invoke.49
++ ___66-[LACDTOPendingPolicyEvaluationController _loadPendingEvaluations]_block_invoke.49.cold.1
++ ___66-[LACDTORatchetManager notificationCenter:didReceiveNotification:]_block_invoke
++ ___66-[LACDTORatchetManager notificationCenter:didReceiveNotification:]_block_invoke_2
++ ___67-[LACDTOPendingPolicyEvaluationController _rescheduleNotifications]_block_invoke
++ ___68-[LACDTOLocationController checkIsInFamiliarLocationWithCompletion:]_block_invoke
++ ___73-[LACDTOFeatureController checkIsFeatureStrictModeEnabledWithCompletion:]_block_invoke
++ ___73-[LACDTORatchetManager cancelArmRequestWithIdentifier:reason:completion:]_block_invoke
++ ___73-[LACDTORatchetManager cancelArmRequestWithIdentifier:reason:completion:]_block_invoke.16
++ ___73-[LACDTORatchetManager cancelArmRequestWithIdentifier:reason:completion:]_block_invoke.cold.1
++ ___79-[LACDTOLocationProviderModeDecorator checkIsInFamiliarLocationWithCompletion:]_block_invoke
++ ___82-[LACDTOLocationProviderTaskDecorator _runLocationStateBackgroundTask:completion:]_block_invoke
++ ___83-[LACDTORatchetManager performArmRequestWithIdentifier:context:options:completion:]_block_invoke
++ ___84-[LACDTORatchetManager _performArmRequestWithIdentifier:context:options:completion:]_block_invoke
++ ___84-[LACDTORatchetManager _performArmRequestWithIdentifier:context:options:completion:]_block_invoke_2
++ ___84-[LACDTORatchetManager _performArmRequestWithIdentifier:context:options:completion:]_block_invoke_3
++ ___85-[LACDTOPendingPolicyEvaluationController notificationCenter:didReceiveNotification:]_block_invoke
++ ___86-[LACDTOLocationProviderModeDecorator _checkIsFeatureStrictModeEnabledWithCompletion:]_block_invoke
++ ___86-[LACDTOLocationProviderPersistenceDecorator checkIsInFamiliarLocationWithCompletion:]_block_invoke
++ ___86-[LACDTOLocationProviderPersistenceDecorator checkIsInFamiliarLocationWithCompletion:]_block_invoke_2
++ ___86-[LACDTOLocationProviderPersistenceDecorator checkIsInFamiliarLocationWithCompletion:]_block_invoke_2.cold.1
++ ___92+[LACDTOLocationControllerFactory controllerWithStore:featureController:eventBus:workQueue:]_block_invoke
++ ___92+[LACDTOLocationControllerFactory controllerWithStore:featureController:eventBus:workQueue:]_block_invoke_2
++ ___92+[LACDTOLocationControllerFactory controllerWithStore:featureController:eventBus:workQueue:]_block_invoke_3
++ ___92+[LACDTOLocationControllerFactory controllerWithStore:featureController:eventBus:workQueue:]_block_invoke_4
++ ___99-[LACDTOPendingPolicyEvaluationController _removePendingEvaluationRecordWithIdentifier:completion:]_block_invoke.29
++ ___UserNotificationsLibraryCore_block_invoke
++ ___block_descriptor_36_e32_"LACDTOMutableFeatureState"8?0l
++ ___block_descriptor_40_e8_32bs_e20_v20?0B8"NSError"12ls32l8
++ ___block_descriptor_40_e8_32bs_e34_v24?0"NSDictionary"8"NSError"16ls32l8
++ ___block_descriptor_40_e8_32bs_e40_v24?0"LACDTORatchetState"8"NSError"16ls32l8
++ ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
++ ___block_descriptor_40_e8_32w_e29_v16?0"LACDTOLocationState"8lw32l8
++ ___block_descriptor_40_e8_32w_e31_v20?0B8"LACDTORatchetState"12lw32l8
++ ___block_descriptor_48_e8_32bs40w_e8_v12?0B8lw40l8s32l8
++ ___block_descriptor_48_e8_32s40s_e26_"NSMutableDictionary"8?0ls32l8s40l8
++ ___block_descriptor_48_e8_32s40s_e31_"<LACDTOLocationProvider>"8?0ls32l8s40l8
++ ___block_descriptor_51_e8_32s40bs_e20_v20?0B8"NSError"12ls32l8s40l8
++ ___block_descriptor_56_e8_32s40r48r_e43_v24?0"NSXPCListenerEndpoint"8"NSError"16lr40l8r48l8s32l8
++ ___block_descriptor_56_e8_32s40s48s_e28_"LACDTOLocationMonitor"8?0ls32l8s40l8s48l8
++ ___block_descriptor_56_e8_32s40s48s_e42_"LACDTOLocationProviderModeDecorator"8?0ls32l8s40l8s48l8
++ ___block_descriptor_64_e8_32s40s48s56s_e31_"LACDTOLocationController"8?0ls32l8s40l8s48l8s56l8
++ ___block_descriptor_72_e8_32s40s48s56bs64w_e40_v24?0"LACDTORatchetState"8"NSError"16lw64l8s56l8s32l8s40l8s48l8
++ ___block_literal_global.44
++ ___block_literal_global.48
++ ___block_literal_global.52
++ ___block_literal_global.9
++ ___getUNMutableNotificationContentClass_block_invoke
++ ___getUNMutableNotificationContentClass_block_invoke.cold.1
++ ___getUNNotificationCategoryClass_block_invoke
++ ___getUNNotificationCategoryClass_block_invoke.cold.1
++ ___getUNNotificationIconClass_block_invoke
++ ___getUNNotificationIconClass_block_invoke.cold.1
++ ___getUNNotificationRequestClass_block_invoke
++ ___getUNNotificationRequestClass_block_invoke.cold.1
++ ___getUNTimeIntervalNotificationTriggerClass_block_invoke
++ ___getUNTimeIntervalNotificationTriggerClass_block_invoke.cold.1
++ ___getUNUserNotificationCenterClass_block_invoke
++ ___getUNUserNotificationCenterClass_block_invoke.cold.1
++ ___kCFBooleanFalse
++ __os_feature_enabled_impl
++ __unnamed_array_storage.16
++ __unnamed_array_storage.20
++ __unnamed_array_storage.31
++ __unnamed_array_storage.40
++ _associated conformance So9LACPolicyaSHSCSQ
++ _associated conformance So9LACPolicyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So9LACPolicyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _audit_stringUserNotifications
++ _block_copy_helper.56
++ _block_descriptor.58
++ _block_destroy_helper.57
++ _getUNMutableNotificationContentClass
++ _getUNMutableNotificationContentClass.softClass
++ _getUNNotificationCategoryClass
++ _getUNNotificationCategoryClass.softClass
++ _getUNNotificationIconClass
++ _getUNNotificationIconClass.softClass
++ _getUNNotificationRequestClass
++ _getUNNotificationRequestClass.softClass
++ _getUNTimeIntervalNotificationTriggerClass
++ _getUNTimeIntervalNotificationTriggerClass.softClass
++ _getUNUserNotificationCenterClass
++ _getUNUserNotificationCenterClass.softClass
++ _objc_msgSend$UUID
++ _objc_msgSend$UUIDString
++ _objc_msgSend$_armPolicy
++ _objc_msgSend$_checkIsFeatureStrictModeEnabledWithCompletion:
++ _objc_msgSend$_makeNotificationWithConfiguration:
++ _objc_msgSend$_performArmRequestWithIdentifier:context:options:completion:
++ _objc_msgSend$_postNotificationWithIdentifier:content:delay:center:completion:
++ _objc_msgSend$_registerObserverForTimeChanges
++ _objc_msgSend$_rescheduleNotifications
++ _objc_msgSend$addNotificationRequest:withCompletionHandler:
++ _objc_msgSend$addObserver:notification:
++ _objc_msgSend$body
++ _objc_msgSend$bootstrapServiceType:completionHandler:
++ _objc_msgSend$checkIsFeatureStrictModeEnabledWithCompletion:
++ _objc_msgSend$createContext
++ _objc_msgSend$dateByAddingTimeInterval:
++ _objc_msgSend$defaultActionURL
++ _objc_msgSend$dtoErrorBiometryNotEnrolled
++ _objc_msgSend$dtoErrorDeviceTypeNotSupported
++ _objc_msgSend$dtoErrorPasscodeNotSet
++ _objc_msgSend$errorWithCode:localizedDescription:
++ _objc_msgSend$evaluateCorePolicy:options:reply:
++ _objc_msgSend$hasObserver:
++ _objc_msgSend$iconForSystemImageNamed:
++ _objc_msgSend$initWithContextProvider:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithEndpointProvider:
++ _objc_msgSend$initWithKVStore:
++ _objc_msgSend$initWithLocationProvider:featureController:
++ _objc_msgSend$initWithLocationProvider:monitor:workQueue:
++ _objc_msgSend$initWithLocationProvider:store:cacheEnabled:
++ _objc_msgSend$initWithLocationProvider:workQueue:
++ _objc_msgSend$initWithWorkQueue:
++ _objc_msgSend$isBodyLocalized
++ _objc_msgSend$isFeatureAvailable
++ _objc_msgSend$isFeatureEnabled
++ _objc_msgSend$isFeatureSupported
++ _objc_msgSend$isStrictModeEnabled
++ _objc_msgSend$isTimeSensitive
++ _objc_msgSend$isTitleLocalized
++ _objc_msgSend$localizedUserNotificationStringForKey:arguments:
++ _objc_msgSend$locationMonitor:didReceiveLocationState:
++ _objc_msgSend$mutableCopy
++ _objc_msgSend$ratchetStateDidChange:
++ _objc_msgSend$removeDeliveredNotificationsWithIdentifiers:
++ _objc_msgSend$removeObserver:
++ _objc_msgSend$removePendingNotificationRequestsWithIdentifiers:
++ _objc_msgSend$requestWithIdentifier:content:trigger:
++ _objc_msgSend$setCategoryIdentifier:
++ _objc_msgSend$setEventBus:
++ _objc_msgSend$setExpirationDate:
++ _objc_msgSend$setHasDefaultAction:
++ _objc_msgSend$setIcon:
++ _objc_msgSend$setInterruptionLevel:
++ _objc_msgSend$setIsBodyLocalized:
++ _objc_msgSend$setIsStrictModeEnabled:
++ _objc_msgSend$setIsTitleLocalized:
++ _objc_msgSend$setShouldBackgroundDefaultAction:
++ _objc_msgSend$setShouldIgnoreDoNotDisturb:
++ _objc_msgSend$startMonitoringWithReason:
++ _objc_msgSend$stateInContext:completion:
++ _objc_msgSend$stateWithCompletion:
++ _objc_msgSend$stopMonitoringWithReason:
++ _objc_msgSend$strictLocationState
++ _objc_msgSend$systemIconName
++ _objc_msgSend$title
++ _objc_msgSend$triggerWithTimeInterval:repeats:
++ _objectdestroy.12Tm
++ _objectdestroy.50Tm
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _symbolic $ss21_ObjectiveCBridgeableP
++ _symbolic IegH_
++ _symbolic ScSyyyYacG
++ _symbolic So8NSNumberC
++ _symbolic _____ 23LocalAuthenticationCore10SerialTaskC
++ _symbolic _____ So9LACPolicya
++ _symbolic _____SgXw 23LocalAuthenticationCore10SerialTaskC
++ _symbolic _____yyyYac_G ScS12ContinuationV
++ _symbolic _____yyyYac_G ScS8IteratorV
++ _symbolic _____yyyYac_GSg ScS12ContinuationV
++ _symbolic _____yyyYac__G ScS12ContinuationV11YieldResultO
++ _symbolic _____yyyYac__G ScS12ContinuationV15BufferingPolicyO
++ _symbolic _____yyyYac__GSg ScS12ContinuationV11YieldResultO
++ _symbolic yyYac
+- -[LACDTOLocationMonitor _locationStateFromBackgroundTaskResult:]
+- -[LACDTOLocationMonitor _runLocationStateBackgroundTask:completion:]
+- -[LACDTOLocationMonitor _startMonitoringWithReason:]
+- -[LACDTOLocationMonitor _startMonitoringWithReason:].cold.1
+- -[LACDTOLocationMonitor _stopMonitoringWithReason:]
+- -[LACDTOLocationMonitor checkIsInFamiliarLocationWithCompletion:]
+- -[LACDTOLocationMonitor description]
+- -[LACDTOLocationMonitor eventBus]
+- -[LACDTOLocationMonitor initWithLocationProvider:store:workQueue:]
+- -[LACDTOLocationMonitor locationStateBackgroundTask]
+- -[LACDTOLocationMonitor locationState]
+- -[LACDTOLocationMonitor pendingEvaluationController:updatedPendingEvaluation:]
+- -[LACDTOLocationMonitor pendingEvaluationControllerDidStartTrackingPendingEvaluations:]
+- -[LACDTOLocationMonitor pendingEvaluationControllerDidStopTrackingPendingEvaluations:]
+- -[LACDTOLocationMonitor setEventBus:]
+- -[LACDTOLocationMonitor setLocationState:]
+- -[LACDTOLocationMonitor setLocationStateBackgroundTask:]
+- -[LACDTOLocationMonitor setWorkQueue:]
+- -[LACDTOLocationMonitor workQueue]
+- -[LACUNManager notificationCenter]
+- GCC_except_table15
+- GCC_except_table19
+- GCC_except_table24
+- GCC_except_table45
+- GCC_except_table48
+- GCC_except_table49
+- _$s10Foundation3URLVSgWOfTm
+- _$s10Foundation3URLVSgWOh
+- _$s10Foundation3URLVSgWOhTm
+- _$s10Foundation4DateVSgWOb
+- _$s10Foundation4UUIDV10uuidStringSSvg
+- _$s10Foundation4UUIDVACycfC
+- _$s10Foundation4UUIDVMa
+- _$s23LocalAuthenticationCore19LACLocalizedStringsC15localizedString33_06C5009961CF12380B02F6187ECF7956LL3key5value11tableSuffixS2S_S2StFZTf4ndnd_n
+- _$s23LocalAuthenticationCore19LACLocalizedStringsC18securityDelayEndedSSvgZ
+- _$s23LocalAuthenticationCore19LACLocalizedStringsC18securityDelayEndedSSvgZTj
+- _$s23LocalAuthenticationCore19LACLocalizedStringsC18securityDelayEndedSSvgZTo
+- _$s23LocalAuthenticationCore19LACLocalizedStringsC18securityDelayEndedSSvgZToTm
+- _$s23LocalAuthenticationCore19LACLocalizedStringsC18securityDelayEndedSSvgZTq
+- _$s23LocalAuthenticationCore19LACLocalizedStringsC20continueWithSettingsSSvgZ
+- _$s23LocalAuthenticationCore19LACLocalizedStringsC20continueWithSettingsSSvgZTj
+- _$s23LocalAuthenticationCore19LACLocalizedStringsC20continueWithSettingsSSvgZTo
+- _$s23LocalAuthenticationCore19LACLocalizedStringsC20continueWithSettingsSSvgZTq
+- _$s23LocalAuthenticationCore19LACLocalizedStringsCACycfC
+- _$s23LocalAuthenticationCore19LACLocalizedStringsCACycfc
+- _$s23LocalAuthenticationCore19LACLocalizedStringsCACycfcTo
+- _$s23LocalAuthenticationCore19LACLocalizedStringsCMF
+- _$s23LocalAuthenticationCore19LACLocalizedStringsCMa
+- _$s23LocalAuthenticationCore19LACLocalizedStringsCMf
+- _$s23LocalAuthenticationCore19LACLocalizedStringsCMn
+- _$s23LocalAuthenticationCore19LACLocalizedStringsCMo
+- _$s23LocalAuthenticationCore19LACLocalizedStringsCMu
+- _$s23LocalAuthenticationCore19LACLocalizedStringsCN
+- _$s23LocalAuthenticationCore19LACLocalizedStringsCfD
+- _$s23LocalAuthenticationCore19LACLocalizedStringsCfETo
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC16fetchEnvironment6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctF
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC16fetchEnvironment6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFTj
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC16fetchEnvironment6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFTo
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC16fetchEnvironment6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFTq
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC16fetchEnvironment6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFyAL_ANtcfU_
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC16fetchEnvironment6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFyAL_ANtcfU_TA
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_TA
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetX13WithWatchdogsCSg_AOtcfU_
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetX13WithWatchdogsCSg_AOtcfU_TA
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetX13WithWatchdogsCSg_AOtcfU_ySo014LACDTOLostModeX0CcfU_
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetX13WithWatchdogsCSg_AOtcfU_ySo014LACDTOLostModeX0CcfU_TA
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetX13WithWatchdogsCSg_AOtcfU_ySo014LACDTOLostModeX0CcfU_TATm
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetX13WithWatchdogsCSg_AOtcfU_ySo014LACDTOLostModeX0CcfU_ySo014LACDTOLocationX0CcfU_
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetX13WithWatchdogsCSg_AOtcfU_ySo014LACDTOLostModeX0CcfU_ySo014LACDTOLocationX0CcfU_TA
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetX13WithWatchdogsCSg_AOtcfU_ySo014LACDTOLostModeX0CcfU_ySo014LACDTOLocationX0CcfU_yAS_AOtcfU_
+- _$s23LocalAuthenticationCore25LACDTOEnvironmentProviderC23performFetchEnvironment33_E856350D1C5EB666EF0471B129C641C4LL6policy7options10completionySi_SDys11AnyHashableVypGySo0D0_pSg_s5Error_pSgtctFySo18LACDTOFeatureState_pcfU_ySo013LACDTORatchetX13WithWatchdogsCSg_AOtcfU_ySo014LACDTOLostModeX0CcfU_ySo014LACDTOLocationX0CcfU_yAS_AOtcfU_TA
+- _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC22pendingEvaluationsDict33_2F3A14333F740D7E8D468D748269021ELLSDySSAA020LACDTOMutablePendingeF0CGvM
+- _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC22pendingEvaluationsDict33_2F3A14333F740D7E8D468D748269021ELLSDySSAA020LACDTOMutablePendingeF0CGvM.resume.0
+- _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyF
+- _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYaYbcfU_
+- _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYaYbcfU_TA
+- _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYaYbcfU_TA.47
+- _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYaYbcfU_TA.47TQ0_
+- _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYaYbcfU_TA.47Tu
+- _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYaYbcfU_TATQ0_
+- _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYaYbcfU_TATu
+- _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYaYbcfU_TQ1_
+- _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYaYbcfU_TY0_
+- _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYaYbcfU_TY2_
+- _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYaYbcfU_TY3_
+- _$s23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStoreC7persist33_2F3A14333F740D7E8D468D748269021ELLyyFyyYaYbcfU_Tu
+- _$s23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationC23notificationScheduledAt10Foundation4DateVSgvgToTm
+- _$s23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationC23notificationScheduledAt10Foundation4DateVSgvsToTm
+- _$s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_
+- _$s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_
+- _$s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_
+- _$s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_
+- _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_
+- _$s2os6LoggerV23LocalAuthenticationCoreE14dtoEnvironmentACvgZTm
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationCTg5Tf4nd_n
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCs11AnyHashableV_ypTg5Tf4nd_n
+- _$sSDsSQR_rlE2eeoiySbSDyxq_G_ABtFZSS_23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationCTg5Tf4nnd_n
+- _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+- _$sSo12LACUNManagerC23LocalAuthenticationCoreE16makeNotification33_AD50F919EBABD1A30556CF15258AB3F4LL4withSo09UNMutableF7ContentCSo30LACUNNotificationConfiguration_p_tFTf4nd_n
+- _$sSo12LACUNManagerC23LocalAuthenticationCoreE16postNotification33_AD50F919EBABD1A30556CF15258AB3F4LL4with7content5delay6center10completionySSSg_So21UNNotificationContentCSdSo06UNUserF6CenterCys5Error_pSgcSgtFTf4nnnnnd_n
+- _$sSo12LACUNManagerC23LocalAuthenticationCoreE16postNotification4with5delay10completionySo30LACUNNotificationConfiguration_p_Sdys5Error_pSgcSgtF
+- _$sSo12LACUNManagerC23LocalAuthenticationCoreE16postNotification4with5delay10completionySo30LACUNNotificationConfiguration_p_Sdys5Error_pSgcSgtFTo
+- _$sSo12LACUNManagerC23LocalAuthenticationCoreE19cancelNotifications15withIdentifiers10completionySaySSG_ys5Error_pSgcSgtF
+- _$sSo12LACUNManagerC23LocalAuthenticationCoreE19cancelNotifications15withIdentifiers10completionySaySSG_ys5Error_pSgcSgtFTo
+- _$sSo13os_log_type_ta0A0E5errorABvgZ
+- _$sSo26LACAuthUIPresentationStyleVMaTm
+- _$sSo33LACDTOMutableLostModeFetchRequestC23LocalAuthenticationCoreE6policy7options12featureState07ratchetL0ABSi_SDys11AnyHashableVypGSo013LACDTOFeatureL0_pSo013LACDTORatchetL13WithWatchdogsCtc33_E856350D1C5EB666EF0471B129C641C4LlfC
+- _$sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.4
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgq5Tf4nnd_n
+- _$ss5Error_pSgIegg_SgWOe
+- _$ss5Error_pSgIegg_So7NSErrorCSgIeyBy_TR
+- _$sxIeghHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.18
+- _$sxIeghHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.18TQ0_
+- _$sxIeghHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.18Tu
+- _$sxIeghHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.52
+- _$sxIeghHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.52TQ0_
+- _$sxIeghHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.52Tu
+- _OBJC_CLASS_$_UNMutableNotificationContent
+- _OBJC_CLASS_$_UNNotificationCategory
+- _OBJC_CLASS_$_UNNotificationIcon
+- _OBJC_CLASS_$_UNNotificationRequest
+- _OBJC_CLASS_$_UNTimeIntervalNotificationTrigger
+- _OBJC_CLASS_$_UNUserNotificationCenter
+- _OBJC_CLASS_$__TtC23LocalAuthenticationCore19LACLocalizedStrings
+- _OBJC_IVAR_$_LACDTOLocationMonitor._locationState
+- _OBJC_IVAR_$_LACDTOLocationMonitor._locationStateBackgroundTask
+- _OBJC_IVAR_$_LACDTOLocationMonitor._store
+- _OBJC_IVAR_$_LACDTOLocationMonitor.eventBus
+- _OBJC_METACLASS_$__TtC23LocalAuthenticationCore19LACLocalizedStrings
+- __CLASS_PROPERTIES__TtC23LocalAuthenticationCore19LACLocalizedStrings
+- __DATA__TtC23LocalAuthenticationCore19LACLocalizedStrings
+- __METACLASS_DATA__TtC23LocalAuthenticationCore19LACLocalizedStrings
+- __OBJC_$_CLASS_METHODS__TtC23LocalAuthenticationCore19LACLocalizedStrings
+- __OBJC_$_INSTANCE_METHODS_LACUNManager(Base)
+- __OBJC_$_INSTANCE_METHODS__TtC23LocalAuthenticationCore19LACLocalizedStrings
+- __OBJC_$_PROP_LIST_LACXPCClientInfo.62
+- __PROTOCOLS__TtC23LocalAuthenticationCore34LACDTOPendingPolicyEvaluationStore.21
+- ___52-[LACDTOLocationMonitor _startMonitoringWithReason:]_block_invoke
+- ___52-[LACDTOLocationMonitor _startMonitoringWithReason:]_block_invoke.15
+- ___52-[LACDTOLocationMonitor locationStateBackgroundTask]_block_invoke
+- ___52-[LACDTOLocationMonitor locationStateBackgroundTask]_block_invoke_2
+- ___55-[LACDTOFeatureController enableFeatureWithCompletion:]_block_invoke.21
+- ___55-[LACDTOFeatureController enableFeatureWithCompletion:]_block_invoke.21.cold.1
+- ___55-[LACDTOFeatureController enableFeatureWithCompletion:]_block_invoke.22
+- ___63-[LACDTOFeatureController checkCanEnableFeatureWithCompletion:]_block_invoke.19
+- ___65-[LACDTOLocationMonitor checkIsInFamiliarLocationWithCompletion:]_block_invoke
+- ___65-[LACDTOLocationMonitor checkIsInFamiliarLocationWithCompletion:]_block_invoke.2
+- ___65-[LACDTOLocationMonitor checkIsInFamiliarLocationWithCompletion:]_block_invoke.2.cold.1
+- ___66-[LACDTOPendingPolicyEvaluationController _loadPendingEvaluations]_block_invoke.43
+- ___66-[LACDTOPendingPolicyEvaluationController _loadPendingEvaluations]_block_invoke.43.cold.1
+- ___68-[LACDTOLocationMonitor _runLocationStateBackgroundTask:completion:]_block_invoke
+- ___99-[LACDTOPendingPolicyEvaluationController _removePendingEvaluationRecordWithIdentifier:completion:]_block_invoke.21
+- ___block_descriptor_32_e29_v16?0"LACDTOLocationState"8l
+- ___block_descriptor_35_e32_"LACDTOMutableFeatureState"8?0l
+- ___block_literal_global.26
+- ___block_literal_global.38
+- ___block_literal_global.42
+- ___block_literal_global.46
+- __swift_FORCE_LOAD_$_swiftCoreGraphics
+- __swift_FORCE_LOAD_$_swiftCoreGraphics_$_LocalAuthenticationCore
+- __swift_FORCE_LOAD_$_swiftCoreMIDI
+- __swift_FORCE_LOAD_$_swiftCoreMIDI_$_LocalAuthenticationCore
+- __swift_FORCE_LOAD_$_swiftMetal
+- __swift_FORCE_LOAD_$_swiftMetal_$_LocalAuthenticationCore
+- __swift_FORCE_LOAD_$_swiftQuartzCore
+- __swift_FORCE_LOAD_$_swiftQuartzCore_$_LocalAuthenticationCore
+- __swift_FORCE_LOAD_$_swiftsimd
+- __swift_FORCE_LOAD_$_swiftsimd_$_LocalAuthenticationCore
+- __unnamed_array_storage.11
+- __unnamed_array_storage.23
+- __unnamed_array_storage.34
+- _block_copy_helper.61
+- _block_descriptor.63
+- _block_destroy_helper.62
+- _objc_msgSend$_startMonitoringWithReason:
+- _objc_msgSend$_stopMonitoringWithReason:
+- _objc_msgSend$continueWithSettings
+- _objc_msgSend$securityDelayEnded
+- _objc_retain_x10
+- _objectdestroy.55Tm
+- _symbolic _____ 23LocalAuthenticationCore19LACLocalizedStringsC
+CStrings:
++ "%s context:%{public}@ options:%{public}@"
++ "%s finished with error: %{public}@"
++ "%s finished with result: %{public}@, error: %{public}@"
++ "%s finished with state: %{public}@"
++ "%s identifier:%{public}@, reason:%{public}@"
++ "%s returned %s"
++ "%s returned %{public}@"
++ "%{public}@ will use strict mode value %@"
++ "-[LACDTORatchetManager addObserver:]"
++ "-[LACDTORatchetManager cancelArmRequestWithIdentifier:reason:completion:]"
++ "-[LACDTORatchetManager cancelArmRequestWithIdentifier:reason:completion:]_block_invoke"
++ "-[LACDTORatchetManager checkCanEnableFeatureWithCompletion:]"
++ "-[LACDTORatchetManager checkCanEnableFeatureWithCompletion:]_block_invoke"
++ "-[LACDTORatchetManager disableFeatureWithContext:completion:]"
++ "-[LACDTORatchetManager disableFeatureWithContext:completion:]_block_invoke"
++ "-[LACDTORatchetManager enableFeatureWithReply:]"
++ "-[LACDTORatchetManager enableFeatureWithReply:]_block_invoke"
++ "-[LACDTORatchetManager isFeatureAvailable]"
++ "-[LACDTORatchetManager isFeatureEnabled]"
++ "-[LACDTORatchetManager isFeatureSupported]"
++ "-[LACDTORatchetManager performArmRequestWithIdentifier:context:options:completion:]"
++ "-[LACDTORatchetManager performArmRequestWithIdentifier:context:options:completion:]_block_invoke"
++ "-[LACDTORatchetManager ratchetState]"
++ "-[LACDTORatchetManager removeObserver:]"
++ "-[LACDTORatchetManager stateInContext:completion:]"
++ "-[LACDTORatchetManager stateInContext:completion:]_block_invoke"
++ "-[LACDTORatchetManager stateWithCompletion:]"
++ "-[LACDTORatchetManager stateWithCompletion:]_block_invoke"
++ "@\"<LACContextProviding>\""
++ "@\"<LACDTOLocationMonitor>\""
++ "@\"<LACDTOLocationMonitorDelegate>\""
++ "@\"<LACDTOLocationMonitorDelegate>\"16@0:8"
++ "@\"<LACDTOLocationProvider>\"8@?0"
++ "@\"<LACDTOServiceXPCClient>\""
++ "@\"LACDTOLocationController\"8@?0"
++ "@\"LACDTOLocationMonitor\"8@?0"
++ "@\"LACDTOLocationProviderModeDecorator\"8@?0"
++ "@\"NSMutableDictionary\"8@?0"
++ "@\"NSXPCListenerEndpoint\"24@0:8^@16"
++ "@24@0:8^@16"
++ "@36@0:8@16@24B32"
++ "AuthorizedLocation"
++ "Cancelling notifications with identifiers: (%@)"
++ "CoreRoutine"
++ "DTO_ERROR_BIOMETRY_NOT_ENROLLED"
++ "DTO_ERROR_DEVICE_TYPE_NOT_SUPPORTED"
++ "DTO_ERROR_PASSCODE_NOT_SET"
++ "Did not update pending evaluations after significant time change because we are not in the state of interest"
++ "Fatal error"
++ "Insufficient space allocated to copy string contents"
++ "LA.dto.strictModeEnabled"
++ "LACDTOLocationController"
++ "LACDTOLocationControllerFactory"
++ "LACDTOLocationMonitorDelegate"
++ "LACDTOLocationProviderModeDecorator"
++ "LACDTOLocationProviderPersistenceDecorator"
++ "LACDTOLocationProviderTaskDecorator"
++ "LACDTORatchetEndpointProvider"
++ "LACDTORatchetManager"
++ "LACDTOServiceXPCEndpointProvider"
++ "LACDarwinNotificationCenterObserver"
++ "LACLocalization"
++ "Platform not supported"
++ "Posted notification with content: (%@) identifier: %@)"
++ "RatchetState"
++ "Setting category identifier for notification: (%@)"
++ "SignificantTimeChangeNotification"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"<LACDTOLocationMonitorDelegate>\",W,N"
++ "T@\"<LACDTOLocationMonitorDelegate>\",W,N,V_delegate"
++ "T@\"NSString\",?,R,C"
++ "TB,N,V_isStrictModeEnabled"
++ "TB,N,VisBodyLocalized"
++ "TB,N,VisTitleLocalized"
++ "UNMutableNotificationContent"
++ "UNNotificationCategory"
++ "UNNotificationIcon"
++ "UNNotificationRequest"
++ "UNTimeIntervalNotificationTrigger"
++ "UNUserNotificationCenter"
++ "UUID"
++ "UUIDString"
++ "Unable to create context"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "Updated pending evaluations after significant time change: %@"
++ "Will notify %d observers about new state: %{public}@"
++ "_TtC23LocalAuthenticationCore10SerialTask"
++ "_armPolicy"
++ "_checkIsFeatureStrictModeEnabledWithCompletion:"
++ "_contextProvider"
++ "_isCacheEnabled"
++ "_isStrictModeEnabled"
++ "_makeNotificationWithConfiguration:"
++ "_monitor"
++ "_performArmRequestWithIdentifier:context:options:completion:"
++ "_postNotificationWithIdentifier:content:delay:center:completion:"
++ "_registerObserverForTimeChanges"
++ "_remoteObjectProxy"
++ "_rescheduleNotifications"
++ "bootstrapServiceType:completionHandler:"
++ "cancelArmRequestWithIdentifier:reason:completion:"
++ "checkIsFeatureStrictModeEnabledWithCompletion:"
++ "continuation"
++ "controllerWithStore:featureController:eventBus:workQueue:"
++ "createContext"
++ "dateByAddingTimeInterval:"
++ "dtoErrorBiometryNotEnrolled"
++ "dtoErrorDeviceTypeNotSupported"
++ "dtoErrorPasscodeNotSet"
++ "enableFeatureWithReply:"
++ "errorWithCode:localizedDescription:"
++ "errorWithCode:subcode:userInfo:"
++ "errorWithCode:underlyingError:"
++ "errorWithCode:userInfo:"
++ "evaluateCorePolicy:options:reply:"
++ "initWithContextProvider:"
++ "initWithDomain:code:userInfo:"
++ "initWithLocationProvider:featureController:"
++ "initWithLocationProvider:monitor:workQueue:"
++ "initWithLocationProvider:store:cacheEnabled:"
++ "initWithLocationProvider:workQueue:"
++ "invalid Collection: less than 'count' elements in collection"
++ "isBodyLocalized"
++ "isFeatureEnabled returned %s"
++ "isStrictModeEnabled"
++ "isStrictModeEnabled: %@"
++ "isTitleLocalized"
++ "kLAServiceTypeRatchet"
++ "localizedUserNotificationStringForKey:arguments:"
++ "locationMonitor:didReceiveLocationState:"
++ "marketing-name"
++ "marketingDeviceName"
++ "mutableCopy"
++ "performArmRequestWithIdentifier:context:options:completion:"
++ "ratchetStateDidChange:"
++ "reset"
++ "setData:forKey:completion:"
++ "setIsBodyLocalized:"
++ "setIsStrictModeEnabled:"
++ "setIsTitleLocalized:"
++ "softlink:r:path:/System/Library/Frameworks/UserNotifications.framework/UserNotifications"
++ "startMonitoringWithReason:"
++ "stateInContext:completion:"
++ "stateWithCompletion:"
++ "stopMonitoringWithReason:"
++ "strictLocationState"
++ "taskGroup"
++ "v12@?0B8"
++ "v24@0:8@\"<LACDTOLocationMonitorDelegate>\"16"
++ "v24@?0@\"NSXPCListenerEndpoint\"8@\"NSError\"16"
++ "v32@0:8@\"<LACDarwinNotificationCenter>\"16^{__CFString=}24"
++ "v32@0:8@\"LACDTOLocationMonitor\"16@\"LACDTOLocationState\"24"
++ "v56@0:8@16@24d32@40@?48"
+- "Cancelling notifications with identifiers: %s"
+- "Feature not available because biometry is not enrolled"
+- "Feature not available because passcode is not set"
+- "Feature not supported for device type"
+- "Posted notification with content: %@ identifier: %s"
+- "Setting category identifier for notification: %s"
+- "_TtC23LocalAuthenticationCore19LACLocalizedStrings"
+- "_startMonitoringWithReason:"
+- "_stopMonitoringWithReason:"
+- "continueWithSettings"
+- "initWithLocationProvider:store:workQueue:"
+- "notificationCenter"
+- "securityDelayEnded"
+- "setData:ForKey:completion:"
+
+```

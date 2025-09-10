@@ -1,0 +1,25 @@
+## AutoFillUI
+
+> `/System/Library/PrivateFrameworks/AutoFillUI.framework/AutoFillUI`
+
+```diff
+
+   __TEXT.__ustring: 0xb0
+   __TEXT.__dlopen_cstrs: 0x104
+   __TEXT.__oslogstring: 0x3
+-  __TEXT.__unwind_info: 0x7ac
++  __TEXT.__unwind_info: 0x808
+   __TEXT.__objc_classname: 0x4e1
+   __TEXT.__objc_methname: 0x83b6
+   __TEXT.__objc_methtype: 0x24ba
+
+   - /System/Library/PrivateFrameworks/WebKitLegacy.framework/WebKitLegacy
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1C55685B-CBAE-32D4-ADB3-C3EFD3C1BCC0
++  UUID: 9B84F267-66CB-3C8D-B2E8-6E6BFAD74104
+   Functions: 713
+   Symbols:   3045
+   CStrings:  1991
+
+```
