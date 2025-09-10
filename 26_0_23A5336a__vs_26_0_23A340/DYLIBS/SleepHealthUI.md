@@ -1,0 +1,229 @@
+## SleepHealthUI
+
+> `/System/Library/PrivateFrameworks/SleepHealthUI.framework/SleepHealthUI`
+
+```diff
+
+ 6106.1.2.11.0
+-  __TEXT.__text: 0x164698
+-  __TEXT.__auth_stubs: 0x4c10
++  __TEXT.__text: 0x1788f0
++  __TEXT.__auth_stubs: 0x5380
+   __TEXT.__objc_methlist: 0x2864
+-  __TEXT.__const: 0xc4b0
+-  __TEXT.__cstring: 0x9971
+-  __TEXT.__swift5_typeref: 0x457a
+-  __TEXT.__swift5_capture: 0x1500
+-  __TEXT.__oslogstring: 0x40b8
+-  __TEXT.__constg_swiftt: 0x6d40
+-  __TEXT.__swift5_reflstr: 0x456a
+-  __TEXT.__swift5_fieldmd: 0x3eb8
++  __TEXT.__const: 0xd290
++  __TEXT.__cstring: 0x9c31
++  __TEXT.__swift5_typeref: 0x4988
++  __TEXT.__swift5_capture: 0x1544
++  __TEXT.__oslogstring: 0x4108
++  __TEXT.__constg_swiftt: 0x7120
++  __TEXT.__swift5_reflstr: 0x4b2a
++  __TEXT.__swift5_fieldmd: 0x448c
+   __TEXT.__swift5_builtin: 0x294
+-  __TEXT.__swift5_assocty: 0xf58
++  __TEXT.__swift5_assocty: 0x1060
+   __TEXT.__swift5_protos: 0xb0
+-  __TEXT.__swift5_proto: 0x754
+-  __TEXT.__swift5_types: 0x494
++  __TEXT.__swift5_proto: 0x7b4
++  __TEXT.__swift5_types: 0x4e0
+   __TEXT.__swift5_mpenum: 0x18
+   __TEXT.__swift_as_entry: 0x54
+   __TEXT.__swift_as_ret: 0x1c
+-  __TEXT.__unwind_info: 0x4ef0
+-  __TEXT.__eh_frame: 0x15f0
++  __TEXT.__unwind_info: 0x5328
++  __TEXT.__eh_frame: 0x1638
+   __TEXT.__objc_classname: 0x3ee
+-  __TEXT.__objc_methname: 0x7d4f
++  __TEXT.__objc_methname: 0x7e1b
+   __TEXT.__objc_methtype: 0x198d
+   __TEXT.__objc_stubs: 0x1660
+-  __DATA_CONST.__got: 0x1908
+-  __DATA_CONST.__const: 0x8a0
++  __DATA_CONST.__got: 0x1a88
++  __DATA_CONST.__const: 0x8b0
+   __DATA_CONST.__objc_classlist: 0x350
+   __DATA_CONST.__objc_catlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x1a0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x22d8
++  __DATA_CONST.__objc_selrefs: 0x2318
+   __DATA_CONST.__objc_protorefs: 0xd8
+   __DATA_CONST.__objc_superrefs: 0x40
+-  __AUTH_CONST.__auth_got: 0x2610
+-  __AUTH_CONST.__const: 0xac20
++  __AUTH_CONST.__auth_got: 0x29c8
++  __AUTH_CONST.__const: 0xb498
+   __AUTH_CONST.__cfstring: 0x3e0
+   __AUTH_CONST.__objc_const: 0x6e08
+   __AUTH.__objc_data: 0x5440
+-  __AUTH.__data: 0x28b0
++  __AUTH.__data: 0x2ae0
+   __DATA.__objc_ivar: 0x54
+-  __DATA.__data: 0x4370
++  __DATA.__data: 0x4890
+   __DATA.__objc_stublist: 0x18
+-  __DATA.__bss: 0xb778
++  __DATA.__bss: 0xc408
+   __DATA.__common: 0x418
+   __DATA_DIRTY.__objc_data: 0xd10
+-  __DATA_DIRTY.__data: 0x1258
++  __DATA_DIRTY.__data: 0x13a8
+   __DATA_DIRTY.__bss: 0x1700
+   __DATA_DIRTY.__common: 0x18
+   - /System/Library/Frameworks/Charts.framework/Charts
+
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
++  - /System/Library/Frameworks/CoreText.framework/CoreText
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/HealthKit.framework/HealthKit
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2E6A2DE5-6F61-3121-BF5E-82CC4C7D9852
+-  Functions: 8161
+-  Symbols:   3766
+-  CStrings:  2688
++  UUID: D26D046E-7FDC-3DAA-AF23-4BE7BED99633
++  Functions: 8656
++  Symbols:   3850
++  CStrings:  2714
+ 
+Symbols:
++ _CTFontGetAscent
++ _CTFontGetCapHeight
++ _CTFontGetDescent
++ _OBJC_CLASS_$_HKDisplayTypeController
++ ___swift_memcpy145_8
++ ___swift_memcpy89_8
++ _asin
++ _associated conformance 13SleepHealthUI06StaticA18ScoreVisualizationV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 13SleepHealthUI08AnimatedA18ScoreVisualizationV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 13SleepHealthUI0A10ScoreModelV0A8DurationV010REMAndDeepaF8CoachingOSHAASQ
++ _associated conformance 13SleepHealthUI0A10ScoreModelV0A8DurationVSHAASQ
++ _associated conformance 13SleepHealthUI0A10ScoreModelV13InterruptionsVSHAASQ
++ _associated conformance 13SleepHealthUI0A10ScoreModelV7BedtimeVSHAASQ
++ _associated conformance 13SleepHealthUI0A10ScoreModelVSHAASQ
++ _associated conformance 13SleepHealthUI0A11ScorePetalsV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 13SleepHealthUI0A17ScoreCountingTextV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 13SleepHealthUI0A18ScoreVisualizationV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 13SleepHealthUI0A19ScoreComponentModelVSHAASQ
++ _associated conformance 13SleepHealthUI12CountingTextV05SwiftC010AnimatableAA0G4DataAdEP_AD16VectorArithmetic
++ _associated conformance 13SleepHealthUI12CountingTextV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 13SleepHealthUI13FillablePetalV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 13SleepHealthUI5PetalV05SwiftC010AnimatableAA0F4DataAdEP_AD16VectorArithmetic
++ _associated conformance 13SleepHealthUI5PetalV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 13SleepHealthUI5PetalV05SwiftC05ShapeAaD10Animatable
++ _associated conformance 13SleepHealthUI5PetalV05SwiftC05ShapeAaD4View
++ _block_copy_helper.35
++ _block_copy_helper.42
++ _block_descriptor.37
++ _block_descriptor.44
++ _block_destroy_helper.36
++ _block_destroy_helper.43
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOy011SleepHealthB00E22ScoreVisualizationSpecV_G
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4TextVAA18_AnimationModifierVySdGGAA4ViewHPAeaJHPyHC_AhA0hG0HPyHCHC.2
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyACyAA14GeometryReaderVyACyAE9WidgetKitE16widgetAccentableyQrSbFQOyACyACy011SleepHealthB00R11ScorePetalsVAA12_ScaleEffectVGAA08_OpacityW0VG_Qo_AA16_OverlayModifierVyAN0rT12CountingTextVSgGGGAA18_AspectRatioLayoutVG_Qo_AA0i10AttachmentZ0VGAaDHPqd__AaDHD2_A7_HO_A9_AA0eZ0HPyHCHC.6
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyACyACyACyACyACyACyACyACy011SleepHealthB012CountingTextVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA16_FlexFrameLayoutVGANySiSgGGANy12CoreGraphics7CGFloatVGGANySbGGAA12_ScaleEffectVGAA14_OpacityEffectVGAA13_OffsetEffectVG_Qo_AA0i10AttachmentS0VGAaDHPqd__AaDHD2_A14_HO_A16_AA0eS0HPyHCHC.15
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA9TupleViewVyACyACy011SleepHealthB013FillablePetalVAA15_RotationEffectVGAA31AccessibilityAttachmentModifierVG_A2PtGGALGAA0G0HPAraTHPyHC_AlA0gP0HPyHCHC.6
++ _get_witness_table 7SwiftUI16AnimatableValuesVySd_QPGAA16VectorArithmeticHPyHC.1
++ _get_witness_table 7SwiftUI16AnimatableValuesVySd_S3dQPGAA16VectorArithmeticHPyHC.4
++ _get_witness_table 7SwiftUI19_ConditionalContentVy011SleepHealthB006StaticE18ScoreVisualizationVAD08AnimatedehI0VGAA4ViewHPAfaJHPyHC_AhaJHPyHCHC.6
++ _get_witness_table 7SwiftUI6ZStackVyAA9TupleViewVyAA06_ShapeE0VyAA01_F5UnionVy011SleepHealthB05PetalVAA08_StrokedF0VyALGGAA5ColorVG_AA15ModifiedContentVyAUyAsA14_OpacityEffectVGAA05_ClipP0VyAIyApNyAA6CircleVGGGGtGGAA0E0HPyHC.1
++ _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE16keyframeAnimator12initialValue7trigger7content9keyframesQrqd___qd_0_qd_1_AA018PlaceholderContentC0VyxG_qd__tYbcqd_2_qd__ct0G0Qyd_2_Rsd__SQRd_0_AaBRd_1_AA9KeyframesRd_2_r2_lFQOyAA06_ShapeC0VyAA6CircleVAA5ColorVG_011SleepHealthB00Q19ScoreAnimationStateVSbAA08ModifiedL0VyAJyAUGAA16_OverlayModifierVyAZyAZyAV06StaticqS13VisualizationVAA022_EnvironmentKeyWritingX0VyAV0qsZ4SpecVGGAA012_TransactionX0VGGGAA0M7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tALQyd__RszAaNRd__AaNRd_0_ALQyd_0_A20_RSr0_lFZQOyAX_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaNRd__AaNRd_0_A21_A20_RSr0_lFZQOyAX_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaNRd__AaNRd_0_A21_A20_RSr0_lFZQOyAX_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaNRd__AaNRd_0_A21_A20_RSr0_lFZQOyAX_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaNRd__AaNRd_0_A21_A20_RSr0_lFZQOyAX_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaNRd__AaNRd_0_A21_A20_RSr0_lFZQOyAX_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaNRd__AaNRd_0_A21_A20_RSr0_lFZQOyAX_AA13KeyframeTrackVyAXSdAA14LinearKeyframeVySdGGA27_Qo_A23_yAXSdAA013KeyframeTrackL7BuilderVA17_A18_A19_Qrqd___qd_0_tA20_RszAA013KeyframeTrackL0Rd__AAA31_Rd_0_A21_A20_RSr0_lFZQOySd_A26_A26_Qo_GQo_A33_Qo_A33_Qo_A33_Qo_A33_Qo_A33_Qo_Qo_HO.26
++ _symbolic _____ 11SleepHealth0A14ScoreComponentO
++ _symbolic _____ 11SleepHealth0A22ScoreMetricsDaySummaryV0A13StartBaselineO
++ _symbolic _____ 13SleepHealthUI06StaticA18ScoreVisualizationV
++ _symbolic _____ 13SleepHealthUI08AnimatedA18ScoreVisualizationV
++ _symbolic _____ 13SleepHealthUI0A10ScoreModelV
++ _symbolic _____ 13SleepHealthUI0A10ScoreModelV0A8DurationV
++ _symbolic _____ 13SleepHealthUI0A10ScoreModelV0A8DurationV010REMAndDeepaF8CoachingO
++ _symbolic _____ 13SleepHealthUI0A10ScoreModelV13InterruptionsV
++ _symbolic _____ 13SleepHealthUI0A10ScoreModelV7BedtimeV
++ _symbolic _____ 13SleepHealthUI0A11ScorePetalsV
++ _symbolic _____ 13SleepHealthUI0A15ScorePetalStateV
++ _symbolic _____ 13SleepHealthUI0A17ScoreCountingTextV
++ _symbolic _____ 13SleepHealthUI0A18ScoreVisualizationV
++ _symbolic _____ 13SleepHealthUI0A18ScoreVisualizationV16AnimationTriggerO
++ _symbolic _____ 13SleepHealthUI0A19ScoreAnimationStateV
++ _symbolic _____ 13SleepHealthUI0A19ScoreComponentModelV
++ _symbolic _____ 13SleepHealthUI0A22ScoreVisualizationSpecV
++ _symbolic _____ 13SleepHealthUI12CountingTextV
++ _symbolic _____ 13SleepHealthUI13FillablePetalV
++ _symbolic _____ 13SleepHealthUI5PetalV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV011SleepHealthB0E23__Key_visualizationSpec33_CD1C3FA2573674A651728E84F215D02ELLV
++ _symbolic _____ 7SwiftUI5AngleV
++ _symbolic _____ 9HealthKit8DayIndexV
++ _symbolic _____ s8DurationV
++ _symbolic _____Sg 11SleepHealth0A23ScoreVisualizationModelV
++ _symbolic _____ySd_QPG 7SwiftUI16AnimatableValuesV
++ _symbolic _____ySd_S3dQPG 7SwiftUI16AnimatableValuesV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 011SleepHealthB00D22ScoreVisualizationSpecV
++ _symbolic _____y__________G 7SwiftUI10_ShapeViewV 011SleepHealthB05PetalV AA15ForegroundStyleV
++ _symbolic _____y__________G 7SwiftUI19_ConditionalContentV 011SleepHealthB006StaticE18ScoreVisualizationV AD08AnimatedehI0V
++ _symbolic _____y__________ySdGG 7SwiftUI15ModifiedContentV AA4TextV AA18_AnimationModifierV
++ _symbolic _____y_____yAAyAAyAAyAAyAAyAAyAAyAAy__________y_____SgGG_____GACySiSgGGACy_____GGACySbGG_____G_____G_____G_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 011SleepHealthB012CountingTextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA16_FlexFrameLayoutV 12CoreGraphics7CGFloatV AA12_ScaleEffectV AA14_OpacityEffectV AA13_OffsetEffectV AA0i10AttachmentS0V
++ _symbolic _____y_____yAAy_____yAAy_____yAAyAAy__________G_____G_Qo______y_____SgGGG_____G_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA14GeometryReaderV AE9WidgetKitE16widgetAccentableyQrSbFQO 011SleepHealthB00R11ScorePetalsV AA12_ScaleEffectV AA08_OpacityW0V AA16_OverlayModifierV AN0rT12CountingTextV AA18_AspectRatioLayoutV AA0i10AttachmentZ0V
++ _symbolic _____y_____y__________G______Sb_____y_____yADG_____yAFyAFy__________y_____GG_____GGG_____yAE______yAE______yAE______yAE______yAE______yAE______yAE______yAESd_____ySdGGAVQo_ASyAESd_____ySd_A2UQo_GQo_AYQo_AYQo_AYQo_AYQo_AYQo_Qo_ 7SwiftUI4ViewPAAE16keyframeAnimator12initialValue7trigger7content9keyframesQrqd___qd_0_qd_1_AA018PlaceholderContentC0VyxG_qd__tYbcqd_2_qd__ct0G0Qyd_2_Rsd__SQRd_0_AaBRd_1_AA9KeyframesRd_2_r2_lFQO AA06_ShapeC0V AA6CircleV AA5ColorV 011SleepHealthB00Q19ScoreAnimationStateV AA08ModifiedL0V AJ AA16_OverlayModifierV AU06StaticqS13VisualizationV AA022_EnvironmentKeyWritingX0V AU0qsZ4SpecV AA012_TransactionX0V AA0M7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tALQyd__RszAaNRd__AaNRd_0_ALQyd_0_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaNRd__AaNRd_0_A14_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaNRd__AaNRd_0_A14_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaNRd__AaNRd_0_A14_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaNRd__AaNRd_0_A14_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaNRd__AaNRd_0_A14_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaNRd__AaNRd_0_A14_A13_RSr0_lFZQO AA13KeyframeTrackV AA14LinearKeyframeV AA013KeyframeTrackL7BuilderVA10_A11_A12_Qrqd___qd_0_tA13_RszAA013KeyframeTrackL0Rd__AAA21_Rd_0_A14_A13_RSr0_lFZQO
++ _symbolic _____y_____y_____yAAyAAy__________G_____G_A2HtGGAEG 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV 011SleepHealthB013FillablePetalV AA15_RotationEffectV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____y_____y__________yAEGG_____G______yAKyAJ_____G_____yADyAhFy_____GGGGtGG 7SwiftUI6ZStackV AA9TupleViewV AA06_ShapeE0V AA01_F5UnionV 011SleepHealthB05PetalV AA08_StrokedF0V AA5ColorV AA15ModifiedContentV AA14_OpacityEffectV AA05_ClipP0V AA6CircleV
++ _type_layout_string 13SleepHealthUI06StaticA18ScoreVisualizationV
++ _type_layout_string 13SleepHealthUI08AnimatedA18ScoreVisualizationV
++ _type_layout_string 13SleepHealthUI0A10ScoreModelV0A8DurationV
++ _type_layout_string 13SleepHealthUI0A10ScoreModelV13InterruptionsV
++ _type_layout_string 13SleepHealthUI0A15ScorePetalStateV
++ _type_layout_string 13SleepHealthUI0A19ScoreAnimationStateV
++ _type_layout_string 13SleepHealthUI0A22ScoreVisualizationSpecV
++ _type_layout_string 13SleepHealthUI12CountingTextV
++ _type_layout_string 13SleepHealthUI13FillablePetalV
++ _type_layout_string 13SleepHealthUI5PetalV
+- _block_copy_helper.24
+- _block_copy_helper.36
+- _block_copy_helper.43
+- _block_descriptor.26
+- _block_descriptor.38
+- _block_descriptor.45
+- _block_destroy_helper.25
+- _block_destroy_helper.37
+- _block_destroy_helper.44
+CStrings:
++ "APPLE_SLEEP_SCORE"
++ "Contradictory frame constraints specified."
++ "Localizable-SleepDetails"
++ "SLEEP_ONBOARDING_SCORE_DESCRIPTION"
++ "SleepHealthUI/AnimatedSleepScoreVisualization.swift"
++ "SleepHealthUI/FillablePetal.swift"
++ "SleepHealthUI/SleepScoreModel.swift"
++ "SleepHealthUI/SleepScorePetals.swift"
++ "SleepHealthUI/StaticSleepScoreVisualization.swift"
++ "Unrecognized metric "
++ "[%{public}s] Unable to create display type from identifier %{public}@"
++ "_DISTANT_BEDTIME"
++ "_EARLIER_BEDTIME"
++ "_MATCHED_BEDTIME"
++ "_SLEEP_SCORE_POINT_FRACTION"
++ "_SLEEP_SCORE_POINT_FRACTION_AX"
++ "com.apple.health.Sleep.sleepScore"
++ "displayTypeWithIdentifier:"
++ "hk_sleepScoreBedtimeComponentColor"
++ "hk_sleepScoreDurationComponentColor"
++ "hk_sleepScoreInterruptionsComponentColor"
++ "mainBundle"
++ "objectType"
++ "score-bullet-loc"
++ "sharedInstanceForHealthStore:"
++ "sleepDetails"
+
+```
