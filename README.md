@@ -149,6 +149,12 @@
 - [26.0 beta 9 (23A5336a) .vs 26.0 RC (23A340)](26_0_23A5336a__vs_26_0_23A340/README.md)
 - [26.0 RC (23A23A3405336a) .vs 26.0 (23A341)](26_0_23A340__vs_26_0_23A341/README.md)
 
+### iOS 26.0
+
+> **NOTE:** switch from iPhone17,1 to iPhone18,1
+
+- [26.0 (23A341) .vs 26.0 revision (23A345)](26_0_23A341__vs_26_0_23A345/README.md)
+
 ### Generating Diffs
 
 Clone the kernel symbolicator signatures
