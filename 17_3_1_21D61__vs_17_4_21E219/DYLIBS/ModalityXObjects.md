@@ -1,0 +1,210 @@
+## ModalityXObjects
+
+> `/System/Library/PrivateFrameworks/ModalityXObjects.framework/ModalityXObjects`
+
+```diff
+
+ 3300.2.1.0.0
+-  __TEXT.__text: 0x9b720
+-  __TEXT.__auth_stubs: 0x7d0
++  __TEXT.__text: 0x9b1e0
++  __TEXT.__auth_stubs: 0x7e0
+   __TEXT.__objc_methlist: 0x39d8
+-  __TEXT.__const: 0x5ca8
++  __TEXT.__const: 0x5c88
+   __TEXT.__cstring: 0x1d2b
+   __TEXT.__swift5_typeref: 0xc96
+   __TEXT.__swift5_reflstr: 0x11f1
+
+   __TEXT.__swift5_fieldmd: 0x137c
+   __TEXT.__swift5_proto: 0x534
+   __TEXT.__swift5_types: 0xf8
+-  __TEXT.__unwind_info: 0x3c08
+-  __TEXT.__eh_frame: 0x4038
++  __TEXT.__unwind_info: 0x4a18
++  __TEXT.__eh_frame: 0x3ee0
+   __TEXT.__objc_classname: 0x3de
+   __TEXT.__objc_methname: 0x494e
+   __TEXT.__objc_methtype: 0x911
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x4e90
+   __DATA_CONST.__objc_selrefs: 0x1370
++  __DATA_CONST.__objc_classrefs: 0x170
++  __DATA_CONST.__objc_superrefs: 0x158
+   __DATA_CONST.__objc_arraydata: 0x50
+   __AUTH_CONST.__cfstring: 0x1f00
+   __AUTH_CONST.__objc_const: 0x1050
+   __AUTH_CONST.__const: 0xca8
+   __AUTH_CONST.__objc_dictobj: 0xc8
+-  __AUTH_CONST.__auth_got: 0x3f0
++  __AUTH_CONST.__auth_got: 0x3f8
+   __AUTH.__objc_data: 0xeb0
+   __AUTH.__data: 0x2288
+-  __DATA.__objc_classrefs: 0x170
+-  __DATA.__objc_superrefs: 0x158
+   __DATA.__objc_ivar: 0x350
+-  __DATA.__data: 0x1780
++  __DATA.__data: 0x19e0
+   __DATA.__bss: 0xa6d0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: DDD4CD22-985F-3866-B8FF-B114F3A4126D
+-  Functions: 6532
+-  Symbols:   14237
++  UUID: E8AF230F-C9E9-3324-AC01-BAE6FBA367F4
++  Functions: 6582
++  Symbols:   14350
+   CStrings:  1638
+ 
+Symbols:
++ _$s16ModalityXObjects0A10XASRResultV9requestIDSSvpACTk
++ _$s16ModalityXObjects0A11XAudioFrameV9requestIDSSvpACTk
++ _$s16ModalityXObjects0A11XDeviceInfoV10deviceNameSSvpACTk
++ _$s16ModalityXObjects0A11XDeviceInfoV10systemNameSSvpACTk
++ _$s16ModalityXObjects0A11XDeviceInfoV11systemBuildSSvpACTk
++ _$s16ModalityXObjects0A11XDeviceInfoV13deviceVersionSSvpACTk
++ _$s16ModalityXObjects0A11XDeviceInfoV13systemVersionSSvpACTk
++ _$s16ModalityXObjects0A12XAudioSourceO8allCasesSayACGvgZTv_
++ _$s16ModalityXObjects0A12XEntityWordsV13decodeMessage7decoderyxz_tK21InternalSwiftProtobuf7DecoderRzlFTm
++ _$s16ModalityXObjects0A12XErrorSourceO8allCasesSayACGvgZTv_
++ _$s16ModalityXObjects0A12XInputOriginO8allCasesSayACGvgZTv_
++ _$s16ModalityXObjects0A13XBeginRequestV15foregroundAppIDSSvpACTk
++ _$s16ModalityXObjects0A13XBeginRequestV9requestIDSSvpACTk
++ _$s16ModalityXObjects0A14XAudioMetadataV18clientModelVersionSSvpACTk
++ _$s16ModalityXObjects0A14XCancelRequestV13decodeMessage7decoderyxz_tK21InternalSwiftProtobuf7DecoderRzlFTm
++ _$s16ModalityXObjects0A14XCancelRequestV9requestIDSSvpACTk
++ _$s16ModalityXObjects0A14XSpeechProfileV08languageD010Foundation4DataVvpACTk
++ _$s16ModalityXObjects0A15XBeginDictationV10fieldLabelSSvpACTk
++ _$s16ModalityXObjects0A15XBeginDictationV10prefixTextSSvpACTk
++ _$s16ModalityXObjects0A15XBeginDictationV11postfixTextSSvpACTk
++ _$s16ModalityXObjects0A15XBeginDictationV12selectedTextSSvpACTk
++ _$s16ModalityXObjects0A15XBeginDictationV15activationToken10Foundation4DataVvpACTk
++ _$s16ModalityXObjects0A15XBeginDictationV15applicationNameSSvpACTk
++ _$s16ModalityXObjects0A15XBeginDictationV18applicationVersionSSvpACTk
++ _$s16ModalityXObjects0A15XBeginDictationV18keyboardIdentifierSSvpACTk
++ _$s16ModalityXObjects0A15XBeginDictationV6regionSSvpACTk
++ _$s16ModalityXObjects0A15XBeginDictationV7fieldIDSSvpACTk
++ _$s16ModalityXObjects0A15XBeginDictationV9requestIDSSvpACTk
++ _$s16ModalityXObjects0A15XMitigationTypeO8allCasesSayACGvgZTv_
++ _$s16ModalityXObjects0A16XProcessingErrorV16errorDescriptionSSvpACTk
++ _$s16ModalityXObjects0A16XProcessingErrorV9requestIDSSvpACTk
++ _$s16ModalityXObjects0A16XRequestCompleteV9requestIDSSvpACTk
++ _$s16ModalityXObjects0A16XSessionMetadataV10deviceInfoAA0a7XDeviceF0VvM.resume.0Tm
++ _$s16ModalityXObjects0A16XSessionMetadataV8languageSSvpACTk
++ _$s16ModalityXObjects0A17XCategoryEntitiesV3keySSvpACTk
++ _$s16ModalityXObjects0A17XRecognitionTokenV11ipaPhoneSeqSSvpACTk
++ _$s16ModalityXObjects0A17XRecognitionTokenV8phoneSeqSSvpACTk
++ _$s16ModalityXObjects0A17XRecognitionTokenV9tokenTextSSvpACTk
++ _$s16ModalityXObjects0A17XRequestMitigatedV9requestIDSSvpACTk
++ _$s16ModalityXObjects0A17XServerBoundFrameV15sessionMetadataAA0a8XSessionG0VvsTm
++ _$s16ModalityXObjects0A17XVoiceTriggerInfoV13configVersionSSvpACTk
++ _$s16ModalityXObjects0A18XFieldKeyboardTypeO8allCasesSayACGvgZTv_
++ _$s16ModalityXObjects0A19XCancellationReasonO8allCasesSayACGvgZTv_
++ _$s16ModalityXObjects0A19XUserInterfaceIdiomO8allCasesSayACGvgZTv_
++ _$s16ModalityXObjects0A21XLatnnMitigatorResultV7versionSSvpACTk
++ _$s16ModalityXObjects0A21XRecognitionCandidateV13requestLocaleSSvpACTk
++ _$s16ModalityXObjects0A21XRecognitionCandidateV17recognitionResultAA0acF0VvsTm
++ _$s16ModalityXObjects0A21XRecognitionCandidateV20hasRecognitionResultSbvgTm
++ _$s16ModalityXObjects0A21XRecognitionCandidateV22clearRecognitionResultyyFTm
++ _$s16ModalityXObjects0A21XRecognitionCandidateV8languageSSvpACTk
++ _$s16ModalityXObjects0A21XRecognitionCandidateV8resultIDSSvpACTk
++ _$s16ModalityXObjects0A21XRecognitionCandidateV8speechIDSSvpACTk
++ _$s16ModalityXObjects0A21XRecognitionCandidateV9returnStrSSvpACTk
++ _$s16ModalityXObjects0A21XRecognitionCandidateV9sessionIDSSvpACTk
++ _$s16ModalityXObjects0A23XFieldKeyboardReturnKeyO8allCasesSayACGvgZTv_
++ _$s16ModalityXObjects0A23XWordWithPronunciationsV11orthographySSvpACTk
++ _$s16ModalityXObjects0A23XWordWithPronunciationsV3tagSSvpACTk
++ _$s16ModalityXObjects0A24XRecognitionPhraseTokensV13decodeMessage7decoderyxz_tK21InternalSwiftProtobuf7DecoderRzlFTm
++ _$s16ModalityXObjects0A25XSpeechRecognitionFeatureV3keySSvpACTk
++ _$s16ModalityXObjects0A25XWatermarkDetectionResultO8allCasesSayACGvgZTv_
++ _$s16ModalityXObjects0A26XSpeechProfileBuildRequestV016existingLanguageD010Foundation4DataVvpACTk
++ _$s16ModalityXObjects0A26XSpeechProfileBuildRequestV15phoneSetVersionSSvpACTk
++ _$s16ModalityXObjects0A26XSpeechProfileBuildRequestV26existingPronunciationCache10Foundation4DataVvpACTk
++ _$s16ModalityXObjects0A26XSpeechProfileBuildRequestV6localeSSvpACTk
++ _$s16ModalityXObjects0A26XSpeechProfileBuildRequestV9requestIDSSvpACTk
++ _$s16ModalityXObjects0A27XFingerprintDetectionResultO8allCasesSayACGvgZTv_
++ _$s16ModalityXObjects0A27XSpeechProfileBuildResponseV08languageD010Foundation4DataVvpACTk
++ _$s16ModalityXObjects0A27XSpeechProfileBuildResponseV18pronunciationCache10Foundation4DataVvpACTk
++ _$s16ModalityXObjects0A27XSpeechProfileBuildResponseV9requestIDSSvpACTk
++ _$s16ModalityXObjects0A27XSpeechProfileRebuildNeededV9requestIDSSvpACTk
++ _$s16ModalityXObjects0A28XStreamingSpeechProfileBeginV15phoneSetVersionSSvpACTk
++ _$s16ModalityXObjects0A28XStreamingSpeechProfileBeginV6localeSSvpACTk
++ _$s16ModalityXObjects0A28XStreamingSpeechProfileBeginV9requestIDSSvpACTk
++ _$s16ModalityXObjects0A29XLanguageProfileRecreateCodesO8allCasesSayACGvgZTv_
++ _$s16ModalityXObjects0A29XStreamingSpeechProfileCommitV9requestIDSSvpACTk
++ _$s16ModalityXObjects0A30XAudioAnalyticsAcousticFeatureV3keySSvpACTk
++ _$s16ModalityXObjects0A30XStreamingSpeechProfileAddDataV016existingLanguageE010Foundation0G0VvpACTk
++ _$s16ModalityXObjects0A30XStreamingSpeechProfileAddDataV26existingPronunciationCache10Foundation0G0VvpACTk
++ _$s16ModalityXObjects0A30XStreamingSpeechProfileAddDataV9requestIDSSvpACTk
++ _$s16ModalityXObjects0A31XFinalSpeechRecognitionResponseV13requestLocaleSSvpACTk
++ _$s16ModalityXObjects0A31XFinalSpeechRecognitionResponseV8languageSSvpACTk
++ _$s16ModalityXObjects0A31XFinalSpeechRecognitionResponseV8speechIDSSvpACTk
++ _$s16ModalityXObjects0A31XFinalSpeechRecognitionResponseV9returnStrSSvpACTk
++ _$s16ModalityXObjects0A31XFinalSpeechRecognitionResponseV9sessionIDSSvpACTk
++ _$s16ModalityXObjects0A6XCodecO8allCasesSayACGvgZTv_
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ10Foundation4DataV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B12XEntityWordsV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B13XItnAlignmentV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B16XChoiceAlignmentV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B17XCategoryEntitiesV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B17XRecognitionTokenV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B18XRecognitionChoiceV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B21XRepeatedItnAlignmentV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B23XWordWithPronunciationsV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B24XRecognitionPhraseTokensV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B25XSpeechRecognitionFeatureV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B30XAudioAnalyticsAcousticFeatureV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B36XRecognitionPhraseTokensAlternativesV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZSS_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZSf_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZs5Int32V_Tgm5
++ _swift_initStaticObject
+- _$s16ModalityXObjects0A11XAudioFrameV07hasLastD0SbvgTm
+- _$s16ModalityXObjects0A11XDeviceInfoV10deviceNameSSvpACTkTm
+- _$s16ModalityXObjects0A14XAudioMetadataV10isFarFieldSbvM.resume.0Tm
+- _$s16ModalityXObjects0A14XAudioMetadataVSgWOf
+- _$s16ModalityXObjects0A14XSpeechProfileV08languageD010Foundation4DataVvpACTkTm
+- _$s16ModalityXObjects0A16XAcousticFeatureV13frameDurationSfvM.resume.0Tm
+- _$s16ModalityXObjects0A16XSessionMetadataV22dataSharingOptInStatusSbvM.resume.0Tm
+- _$s16ModalityXObjects0A16XSessionMetadataV23clearUserInterfaceIdiomyyFTm
+- _$s16ModalityXObjects0A16XSessionMetadataV27clearDataSharingOptInStatusyyFTm
+- _$s16ModalityXObjects0A16XSessionMetadataV8languageSSvpACTkTm
+- _$s16ModalityXObjects0A17XRecognitionTokenV13addSpaceAfterSbvM.resume.0Tm
+- _$s16ModalityXObjects0A17XRecognitionTokenV17startMilliSecondss5Int32VvM.resume.0Tm
+- _$s16ModalityXObjects0A17XRecognitionTokenV9tokenTextSSvpACTkTm
+- _$s16ModalityXObjects0A17XVoiceTriggerInfoV12triggerScoreSdvM.resume.0Tm
+- _$s16ModalityXObjects0A18XRecognitionResultVSgWOfTm
+- _$s16ModalityXObjects0A19XCancellationReasonO8allCasesSayACGvgZTm
+- _$s16ModalityXObjects0A19XUserInterfaceIdiomO8allCasesSayACGvgZTm
+- _$s16ModalityXObjects0A21XLatnnMitigatorResultV9thresholdSdvM.resume.0Tm
+- _$s16ModalityXObjects0A23XWordWithPronunciationsV11orthographySSvpACTkTm
+- _$s16ModalityXObjects0A27XFingerprintDetectionResultO8allCasesSayACGvgZTm
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ10Foundation4DataV_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B12XEntityWordsV_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B13XItnAlignmentV_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B16XChoiceAlignmentV_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B17XCategoryEntitiesV_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B17XRecognitionTokenV_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B18XRecognitionChoiceV_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B21XRepeatedItnAlignmentV_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B23XWordWithPronunciationsV_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B24XRecognitionPhraseTokensV_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B25XSpeechRecognitionFeatureV_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B30XAudioAnalyticsAcousticFeatureV_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B36XRecognitionPhraseTokensAlternativesV_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZSS_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZSf_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZs5Int32V_Tg5
+- _OUTLINED_FUNCTION_343
+- _OUTLINED_FUNCTION_344
+- _OUTLINED_FUNCTION_345
+- _OUTLINED_FUNCTION_346
+- _OUTLINED_FUNCTION_347
+- _OUTLINED_FUNCTION_348
+
+```

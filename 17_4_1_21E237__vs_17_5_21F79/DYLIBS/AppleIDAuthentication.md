@@ -1,0 +1,31 @@
+## AppleIDAuthentication
+
+> `/System/Library/Accounts/Authentication/AppleIDAuthentication.bundle/AppleIDAuthentication`
+
+```diff
+
+-981.12.0.0.0
++981.20.0.0.0
+   __TEXT.__text: 0xadd4
+   __TEXT.__auth_stubs: 0x560
+   __TEXT.__objc_methlist: 0x290
+
+   __TEXT.__const: 0x18
+   __TEXT.__gcc_except_tab: 0xe8
+   __TEXT.__dlopen_cstrs: 0x5a
+-  __TEXT.__unwind_info: 0x1f0
++  __TEXT.__unwind_info: 0x1f8
+   __TEXT.__objc_classname: 0x96
+   __TEXT.__objc_methname: 0x1a62
+   __TEXT.__objc_methtype: 0x5fc
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F0AA6BAE-B427-395D-8E45-4203C6503CED
++  UUID: D896F971-73DD-3B8B-A54E-E0DECA9FADA2
+   Functions: 112
+   Symbols:   192
+   CStrings:  548
+
+```

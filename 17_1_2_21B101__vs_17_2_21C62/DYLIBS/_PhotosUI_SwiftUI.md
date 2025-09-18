@@ -1,0 +1,65 @@
+## _PhotosUI_SwiftUI
+
+> `/System/Library/Frameworks/_PhotosUI_SwiftUI.framework/_PhotosUI_SwiftUI`
+
+```diff
+
+-612.0.160.0.0
+-  __TEXT.__text: 0x11e04
+-  __TEXT.__auth_stubs: 0xde0
++622.0.130.0.0
++  __TEXT.__text: 0x11bd0
++  __TEXT.__auth_stubs: 0xdc0
+   __TEXT.__const: 0xaa6
+   __TEXT.__swift5_typeref: 0x4e0
+   __TEXT.__swift5_capture: 0x1a0
+
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_proto: 0x6c
+   __TEXT.__swift5_types: 0x34
+-  __TEXT.__unwind_info: 0x4d4
++  __TEXT.__unwind_info: 0x4c8
+   __TEXT.__eh_frame: 0x1a8
+   __TEXT.__objc_methname: 0x10b
+   __DATA_CONST.__got: 0x180
+
+   __DATA_CONST.__objc_const: 0x70
+   __DATA_CONST.__objc_selrefs: 0x48
+   __AUTH_CONST.__const: 0x8a0
+-  __AUTH_CONST.__auth_got: 0x6f0
++  __AUTH_CONST.__auth_got: 0x6e0
+   __AUTH.__data: 0x2c0
+   __AUTH.__objc_data: 0x50
+   __DATA.__objc_classrefs: 0x38
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B27B6B26-4DE3-34B2-B5F9-2AC5F6AF910A
+-  Functions: 599
+-  Symbols:   511
++  UUID: 49A6A803-20D9-3E9A-BD34-C16DEA365B1A
++  Functions: 589
++  Symbols:   507
+   CStrings:  18
+ 
+Symbols:
++ _get_witness_table 16CoreTransferable18DataRepresentationVySo11PHLivePhotoCAeA0B0015_PhotosUI_SwiftH0yHCg_GAA08TransferD0HPyHC.62
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyxAA30_EnvironmentKeyWritingModifierVySbGGAFy06PhotosB012PHPickerModeVGGAaBHPAhaBHPxAaBHD1__AgA0cI0HPyHCHC_AlaNHPyHCHC.65
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySo20PHPickerCapabilitiesVGGAaBHPxAaBHD1__AiA0cI0HPyHCHC.67
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVyAA4EdgeO3SetVGGAaBHPxAaBHD1__AkA0cI0HPyHCHC.66
++ _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAaBPAAE9formSheet11isPresented7contentQrAA7BindingVySbG_qd__yctAaBRd__lFQOyAA6ButtonVyxG_AA08ModifiedE0Vy07_Photosb1_aB00n6PickerC10Controller33_017389DAE44781501AADB4871649B487LLVAA30_SafeAreaRegionsIgnoringLayoutVGQo_ATGAaBHPqd0__AaBHD3_AXHO_AtaBHPyHCHC.63
++ _get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE9formSheet11isPresented7contentQrAA7BindingVySbG_qd__yctAaBRd__lFQOyx_AA15ModifiedContentVy07_Photosb1_aB00l6PickerC10Controller33_017389DAE44781501AADB4871649B487LLVAA30_SafeAreaRegionsIgnoringLayoutVGQo_HO.64
++ _objectdestroy.11Tm
+- _OUTLINED_FUNCTION_111
+- _get_witness_table 16CoreTransferable18DataRepresentationVySo11PHLivePhotoCAeA0B0015_PhotosUI_SwiftH0yHCg_GAA08TransferD0HPyHC.63
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyxAA30_EnvironmentKeyWritingModifierVySbGGAFy06PhotosB012PHPickerModeVGGAaBHPAhaBHPxAaBHD1__AgA0cI0HPyHCHC_AlaNHPyHCHC.66
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySo20PHPickerCapabilitiesVGGAaBHPxAaBHD1__AiA0cI0HPyHCHC.68
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVyAA4EdgeO3SetVGGAaBHPxAaBHD1__AkA0cI0HPyHCHC.67
+- _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAaBPAAE9formSheet11isPresented7contentQrAA7BindingVySbG_qd__yctAaBRd__lFQOyAA6ButtonVyxG_AA08ModifiedE0Vy07_Photosb1_aB00n6PickerC10Controller33_017389DAE44781501AADB4871649B487LLVAA30_SafeAreaRegionsIgnoringLayoutVGQo_ATGAaBHPqd0__AaBHD3_AXHO_AtaBHPyHCHC.64
+- _get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE9formSheet11isPresented7contentQrAA7BindingVySbG_qd__yctAaBRd__lFQOyx_AA15ModifiedContentVy07_Photosb1_aB00l6PickerC10Controller33_017389DAE44781501AADB4871649B487LLVAA30_SafeAreaRegionsIgnoringLayoutVGQo_HO.65
+- _objectdestroy.12Tm
+- _swift_beginAccess
+- _swift_endAccess
+
+```
