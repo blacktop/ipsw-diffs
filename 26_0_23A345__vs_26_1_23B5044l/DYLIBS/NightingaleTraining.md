@@ -1,0 +1,165 @@
+## NightingaleTraining
+
+> `/System/Library/PrivateFrameworks/NightingaleTraining.framework/NightingaleTraining`
+
+```diff
+
+-69.0.0.0.0
+-  __TEXT.__text: 0x1998e4
+-  __TEXT.__auth_stubs: 0x20b0
++70.0.0.0.0
++  __TEXT.__text: 0x19a004
++  __TEXT.__auth_stubs: 0x20c0
+   __TEXT.__objc_methlist: 0x18e0
+   __TEXT.__const: 0x283d
+-  __TEXT.__swift5_typeref: 0x16e3
+-  __TEXT.__cstring: 0x3fc2
++  __TEXT.__swift5_typeref: 0x16cf
++  __TEXT.__cstring: 0x3f82
+   __TEXT.__constg_swiftt: 0x1500
+-  __TEXT.__swift5_fieldmd: 0x14f0
++  __TEXT.__swift5_fieldmd: 0x1514
+   __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_reflstr: 0x1dd3
++  __TEXT.__swift5_reflstr: 0x1e03
+   __TEXT.__swift5_assocty: 0x300
+   __TEXT.__swift5_proto: 0x174
+   __TEXT.__swift5_types: 0xd8
+
+   __TEXT.__swift_as_ret: 0xc8
+   __TEXT.__swift5_protos: 0x10
+   __TEXT.__gcc_except_tab: 0x44dc
+-  __TEXT.__unwind_info: 0x2ec0
+-  __TEXT.__eh_frame: 0x3278
++  __TEXT.__unwind_info: 0x2eb0
++  __TEXT.__eh_frame: 0x3228
+   __TEXT.__objc_classname: 0x3f3
+   __TEXT.__objc_methname: 0x3e48
+   __TEXT.__objc_methtype: 0x4ef
+   __TEXT.__objc_stubs: 0x1840
+   __DATA_CONST.__got: 0x730
+-  __DATA_CONST.__const: 0xf0
++  __DATA_CONST.__const: 0xe8
+   __DATA_CONST.__objc_classlist: 0x178
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xb78
+   __DATA_CONST.__objc_superrefs: 0xe0
+   __DATA_CONST.__objc_arraydata: 0x198
+-  __AUTH_CONST.__auth_got: 0x1068
++  __AUTH_CONST.__auth_got: 0x1070
+   __AUTH_CONST.__const: 0x25f0
+   __AUTH_CONST.__cfstring: 0x1c0
+   __AUTH_CONST.__objc_const: 0x43e8
+
+   __AUTH.__objc_data: 0xa50
+   __AUTH.__data: 0x1330
+   __DATA.__objc_ivar: 0x24c
+-  __DATA.__data: 0x16e8
++  __DATA.__data: 0x16c8
+   __DATA.__bss: 0x2960
+   __DATA.__common: 0xd88
+   __DATA_DIRTY.__data: 0x1a0
+
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E9CECD6D-6EEE-3D5A-93B8-A2EE3B273A87
+-  Functions: 4365
+-  Symbols:   14158
+-  CStrings:  1485
++  UUID: 71E8C716-F3A8-3799-96C9-E2D039EBAC2D
++  Functions: 4361
++  Symbols:   14141
++  CStrings:  1478
+ 
+Symbols:
++ _$s18MorpheusExtensions4MathO06extendA0yyKFZ
++ _$s19NightingaleTraining0A17DMetricsProcessorO20generateSliceMetrics11hyperParams7outputs6labelsSaySfG9rocScores_Sf7prScoreAH10targetTPRsAH0P10PrecisionsAH2tp_AH2fpAH2tnAH2fnt16confusionMatricsSi17numPostiveSamplesSi0Y15NegativeSamplesSf19postiveSamplesRatioSaySiG33negativeSamplesOutputDistributionAU33positiveSamplesOutputDistributiontAA05HyperI0C_A2HtKFZS2f_Sftcfu0_
++ _$s19NightingaleTraining0A17DMetricsProcessorO20generateSliceMetrics11hyperParams7outputs6labelsSaySfG9rocScores_Sf7prScoreAH10targetTPRsAH0P10PrecisionsAH2tp_AH2fpAH2tnAH2fnt16confusionMatricsSi17numPostiveSamplesSi0Y15NegativeSamplesSf19postiveSamplesRatioSaySiG33negativeSamplesOutputDistributionAU33positiveSamplesOutputDistributiontAA05HyperI0C_A2HtKFZSbyKXEfu_SbSfXEfU0_
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU13_SfSo8NSNumberCcfu0_
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU13_SfSo8NSNumberCcfu0_TA
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU13_SfSo8NSNumberCcfu_
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU13_SfSo8NSNumberCcfu_TA
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU13_s6UInt32VSo8NSNumberCcfu1_
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU13_s6UInt32VSo8NSNumberCcfu1_TA
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU14_SfSo8NSNumberCcfu0_
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU14_SfSo8NSNumberCcfu0_TA
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU14_SfSo8NSNumberCcfu_
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU14_SfSo8NSNumberCcfu_TA
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU1_
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU2_
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU2_SiSo8NSNumberCXEfU0_
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU2_SiSo8NSNumberCXEfU1_
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU2_SiSo8NSNumberCXEfU_
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU3_SfSo8NSNumberCXEfU_
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU4_SfSo8NSNumberCXEfU0_
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU4_SfSo8NSNumberCXEfU_
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU5_SfSo8NSNumberCXEfU0_
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGcfU0_
++ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGcfU_
++ _$s19NightingaleTraining3AUCO6metric2at7metrics3fprS2f_SaySfGAHtKFZSbSfXEfU0_
++ _$s19NightingaleTraining3AUCO6metric2at7metrics3fprS2f_SaySfGAHtKFZSbSfXEfU_
++ _$s8Morpheus0A5UtilsO06unwrapA6Result6resultypyp_tFZ
++ _$sSTsE8contains5whereS2b7ElementQzKXE_tKF
++ _$sSf5isNaNSbvg
+- _$s19NightingaleTraining0A17DMetricsProcessorO20generateSliceMetrics11hyperParams7outputs6labelsSaySfG9rocScores_Sf7prScoreAH10targetTPRsAH0P10PrecisionsAH2tp_AH2fpAH2tnAH2fnt16confusionMatricsSi17numPostiveSamplesSi0Y15NegativeSamplesSf19postiveSamplesRatioSaySiG33negativeSamplesOutputDistributionAU33positiveSamplesOutputDistributiontAA05HyperI0C_A2HtKFZS2f_Sftcfu_
+- _$s19NightingaleTraining0A17DMetricsProcessorO20generateSliceMetrics11hyperParams7outputs6labelsSaySfG9rocScores_Sf7prScoreAH10targetTPRsAH0P10PrecisionsAH2tp_AH2fpAH2tnAH2fnt16confusionMatricsSi17numPostiveSamplesSi0Y15NegativeSamplesSf19postiveSamplesRatioSaySiG33negativeSamplesOutputDistributionAU33positiveSamplesOutputDistributiontAA05HyperI0C_A2HtKFZSbSfXEfU0_
+- _$s19NightingaleTraining20unwrapMorpheusResult6resultypyp_tF
+- _$s19NightingaleTraining20unwrapMorpheusResult6resultypyp_tFypypXEfU0_
+- _$s19NightingaleTraining20unwrapMorpheusResult6resultypyp_tFypypXEfU_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU0_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU12_SfSo8NSNumberCXEfU0_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU13_SfSo8NSNumberCXEfU0_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU13_SfSo8NSNumberCXEfU_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU14_SfSo8NSNumberCXEfU_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU15_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU15_SfSo8NSNumberCcfu0_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU15_SfSo8NSNumberCcfu0_TA
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU15_SfSo8NSNumberCcfu_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU15_SfSo8NSNumberCcfu_TA
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU15_s6UInt32VSo8NSNumberCcfu1_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU15_s6UInt32VSo8NSNumberCcfu1_TA
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU16_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU16_SfSo8NSNumberCcfu0_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU16_SfSo8NSNumberCcfu0_TA
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU16_SfSo8NSNumberCcfu_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU16_SfSo8NSNumberCcfu_TA
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU4_SiSo8NSNumberCXEfU0_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU4_SiSo8NSNumberCXEfU1_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU4_SiSo8NSNumberCXEfU_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGcfU1_
+- _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGcfU2_
+- _$s8Morpheus17SharedMutableDictC03anyD0SDys11AnyHashableVypGvg
+- _$s8Morpheus17SharedMutableDictCMn
+- _$s8Morpheus17SharedMutableDictCyypGMD
+- _$s8Morpheus18SharedMutableArrayC03anyD0SayypGvg
+- _$s8Morpheus18SharedMutableArrayCMn
+- _$s8Morpheus18SharedMutableArrayCyypGMD
+- _$sSDys11AnyHashableVypGMD
+- _$sSayypGSayxGSlsWL
+- _$sSayypGSayxGSlsWl
+- _$sSd8isFiniteSbvg
+- __swift_FORCE_LOAD_$_swiftCoreImage
+- __swift_FORCE_LOAD_$_swiftCoreImage_$_NightingaleTraining
+- _symbolic _____yypG 8Morpheus17SharedMutableDictC
+- _symbolic _____yypG 8Morpheus18SharedMutableArrayC
+CStrings:
+- "a"
+- "abs_tol"
+- "b"
+- "math.isclose"
+- "math.isfinite"
+- "rel_tol"
+- "x"
+
+```

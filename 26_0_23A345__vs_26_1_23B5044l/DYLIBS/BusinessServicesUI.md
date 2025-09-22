@@ -1,0 +1,109 @@
+## BusinessServicesUI
+
+> `/System/Library/PrivateFrameworks/BusinessServicesUI.framework/BusinessServicesUI`
+
+```diff
+
+-30114.30.7.21.1
+-  __TEXT.__text: 0xc20c
++30114.31.8.4.6
++  __TEXT.__text: 0xc5ac
+   __TEXT.__auth_stubs: 0xe80
+   __TEXT.__objc_methlist: 0x308
+   __TEXT.__cstring: 0x540
+-  __TEXT.__const: 0x920
+-  __TEXT.__constg_swiftt: 0x368
+-  __TEXT.__swift5_typeref: 0x12ac
++  __TEXT.__const: 0xa20
++  __TEXT.__constg_swiftt: 0x384
++  __TEXT.__swift5_typeref: 0x1346
+   __TEXT.__swift5_reflstr: 0xe9
+-  __TEXT.__swift5_fieldmd: 0x1b8
+-  __TEXT.__swift5_types: 0x38
++  __TEXT.__swift5_fieldmd: 0x1d4
++  __TEXT.__swift5_types: 0x3c
+   __TEXT.__swift5_capture: 0x104
+   __TEXT.__oslogstring: 0x106
+-  __TEXT.__swift5_proto: 0x30
+-  __TEXT.__swift5_assocty: 0x100
+-  __TEXT.__unwind_info: 0x388
++  __TEXT.__swift5_proto: 0x38
++  __TEXT.__swift5_assocty: 0x138
++  __TEXT.__unwind_info: 0x398
+   __TEXT.__objc_classname: 0x93
+-  __TEXT.__objc_methname: 0x907
++  __TEXT.__objc_methname: 0x970
+   __TEXT.__objc_methtype: 0x2bf
+   __TEXT.__objc_stubs: 0x3c0
+-  __DATA_CONST.__got: 0x280
++  __DATA_CONST.__got: 0x298
+   __DATA_CONST.__const: 0x158
+   __DATA_CONST.__objc_classlist: 0x40
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x358
++  __DATA_CONST.__objc_selrefs: 0x370
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x20
+   __AUTH_CONST.__auth_got: 0x748
+-  __AUTH_CONST.__const: 0x698
++  __AUTH_CONST.__const: 0x6c0
+   __AUTH_CONST.__objc_const: 0x6f8
+   __AUTH.__objc_data: 0x488
+   __AUTH.__data: 0xa8
+   __DATA.__objc_ivar: 0xc
+-  __DATA.__data: 0x5e8
+-  __DATA.__bss: 0x640
++  __DATA.__data: 0x5f8
++  __DATA.__bss: 0x740
+   __DATA.__common: 0x18
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B13EE216-EDBD-31C1-B8A1-0B841FE41AEF
+-  Functions: 306
+-  Symbols:   529
+-  CStrings:  202
++  UUID: 246B1EB0-6982-35E8-9064-85EA0F1B04D4
++  Functions: 324
++  Symbols:   536
++  CStrings:  205
+ 
+Symbols:
++ _OBJC_CLASS_$_MUHoursSummaryView
++ _OBJC_CLASS_$_MUHoursSummaryViewModel
++ _UILayoutFittingCompressedSize
++ ___unnamed_13
++ _associated conformance 18BusinessServicesUI16HoursSummaryViewV05SwiftC00F0AA4BodyAdEP_AdE
++ _associated conformance 18BusinessServicesUI16HoursSummaryViewV05SwiftC019UIViewRepresentableAaD0F0
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA9TupleViewVyAA7SectionVyAA0F0PAAE16headerProminenceyQrAA0I0OFQOyAA08ModifiedD0VyAA4TextVAA21_TraitWritingModifierVyAA013ListRowInsetsL3KeyVGG_Qo_AvA05EmptyF0VGSg_AGyANyAiAEAJyQrALFQOyAP_Qo_AUGSgAEy016BusinessServicesB009BrandCardpF0VyAA4LinkVyAPGGSg_A10_SgA10_A11_A5_yAPGSgA10_A13_A5_yANyAA6VStackVyAEyA3_012HoursSummaryF0V_A3_0zF0VtGGAA16_FlexFrameLayoutVGGSgtGAYGtGAA5ColorVGAaHHPA29_AaHHPyHC_A31_AaHHPyHCHC.8
++ _objectdestroy.15Tm
++ _objectdestroy.21Tm
++ _symbolic So18MUHoursSummaryViewC
++ _symbolic _____ 18BusinessServicesUI16HoursSummaryViewV
++ _symbolic _____y_____y_____y_____GGSg_AGSgAghByADGSgAgjBy_____y_____yAAy___________tGG_____GGSgtG 7SwiftUI9TupleViewV 016BusinessServicesB0012BrandCardRowD0V AA4LinkV AA4TextV AA15ModifiedContentV AA6VStackV AD012HoursSummaryD0V AD0oD0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y______Qo______y_____GGSg_____y_____y_____yACGGSg_AOSgAopKyACGSgAorKyABy_____yAJy___________tGG_____GGSgtG_____G 7SwiftUI7SectionV AA15ModifiedContentV AA4ViewPAAE16headerProminenceyQrAA0H0OFQO AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsJ3KeyV AA05TupleF0V 016BusinessServicesB009BrandCardnF0V AA4LinkV AA6VStackV AS012HoursSummaryF0V AS0xF0V AA16_FlexFrameLayoutV AA05EmptyF0V
++ _symbolic _____y_____y_____y__________y_____GG_Qo_AG_____GSg_AAyABy_____yAC_Qo_AFGSg_____y_____y_____yACGGSg_ATSgAtuPyACGSgAtwPyABy_____yAOy___________tGG_____GGSgtGAIGt 7SwiftUI7SectionV AA4ViewPAAE16headerProminenceyQrAA0F0OFQO AA15ModifiedContentV AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsJ3KeyV AA05EmptyD0V AeAEAFyQrAHFQO AA05TupleD0V 016BusinessServicesB009BrandCardnD0V AA4LinkV AA6VStackV AU012HoursSummaryD0V AU0yD0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____y__________y_____GG_Qo_AH_____GSg_AByACy_____yAD_Qo_AGGSgAAy_____y_____yADGGSg_ATSgAtuPyADGSgAtwPyACy_____yAAy___________tGG_____GGSgtGAJGtG 7SwiftUI9TupleViewV AA7SectionV AA0D0PAAE16headerProminenceyQrAA0G0OFQO AA15ModifiedContentV AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsK3KeyV AA05EmptyD0V AgAEAHyQrAJFQO 016BusinessServicesB009BrandCardoD0V AA4LinkV AA6VStackV AU012HoursSummaryD0V AU0yD0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____y_____y__________y_____GG_Qo_AI_____GSg_ACyADy_____yAE_Qo_AHGSgABy_____y_____yAEGGSg_AUSgAuvQyAEGSgAuxQyADy_____yABy___________tGG_____GGSgtGAKGtG_____G 7SwiftUI19_ConditionalContentV AA9TupleViewV AA7SectionV AA0F0PAAE16headerProminenceyQrAA0I0OFQO AA08ModifiedD0V AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsL3KeyV AA05EmptyF0V AiAEAJyQrALFQO 016BusinessServicesB009BrandCardpF0V AA4LinkV AA6VStackV AW012HoursSummaryF0V AW0zF0V AA16_FlexFrameLayoutV AA5ColorV
++ _symbolic _____y_____y_____y_____y_____y__________y_____GG_Qo_AI_____GSg_ACyADy_____yAE_Qo_AHGSgABy_____y_____yAEGGSg_AUSgAuvQyAEGSgAuxQyADy_____yABy___________tGG_____GGSgtGAKGtG______G 7SwiftUI19_ConditionalContentV7StorageO AA9TupleViewV AA7SectionV AA0G0PAAE16headerProminenceyQrAA0J0OFQO AA08ModifiedD0V AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsM3KeyV AA05EmptyG0V AkAEALyQrANFQO 016BusinessServicesB009BrandCardqG0V AA4LinkV AA6VStackV AY012HoursSummaryG0V AY05HoursG0V AA16_FlexFrameLayoutV AA5ColorV
+- ___unnamed_5
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA9TupleViewVyAA7SectionVyAA0F0PAAE16headerProminenceyQrAA0I0OFQOyAA08ModifiedD0VyAA4TextVAA21_TraitWritingModifierVyAA013ListRowInsetsL3KeyVGG_Qo_AvA05EmptyF0VGSg_AGyANyAiAEAJyQrALFQOyAP_Qo_AUGSgAEy016BusinessServicesB009BrandCardpF0VyAA4LinkVyAPGGSg_A10_SgA10_A11_A5_yAPGSgA10_A13_A5_yANyA3_05HoursF0VAA16_FlexFrameLayoutVGGSgtGAYGtGAA5ColorVGAaHHPA23_AaHHPyHC_A25_AaHHPyHCHC.8
+- _objectdestroy.13Tm
+- _objectdestroy.19Tm
+- _symbolic _____y_____y_____y_____GGSg_AGSgAghByADGSgAgjBy_____y__________GGSgtG 7SwiftUI9TupleViewV 016BusinessServicesB0012BrandCardRowD0V AA4LinkV AA4TextV AA15ModifiedContentV AD05HoursD0V AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____y______Qo______y_____GGSg_____y_____y_____yACGGSg_AOSgAopKyACGSgAorKyABy__________GGSgtG_____G 7SwiftUI7SectionV AA15ModifiedContentV AA4ViewPAAE16headerProminenceyQrAA0H0OFQO AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsJ3KeyV AA05TupleF0V 016BusinessServicesB009BrandCardnF0V AA4LinkV AS05HoursF0V AA16_FlexFrameLayoutV AA05EmptyF0V
+- _symbolic _____y_____y_____y__________y_____GG_Qo_AG_____GSg_AAyABy_____yAC_Qo_AFGSg_____y_____y_____yACGGSg_ATSgAtuPyACGSgAtwPyABy__________GGSgtGAIGt 7SwiftUI7SectionV AA4ViewPAAE16headerProminenceyQrAA0F0OFQO AA15ModifiedContentV AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsJ3KeyV AA05EmptyD0V AeAEAFyQrAHFQO AA05TupleD0V 016BusinessServicesB009BrandCardnD0V AA4LinkV AU05HoursD0V AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____y_____y__________y_____GG_Qo_AH_____GSg_AByACy_____yAD_Qo_AGGSgAAy_____y_____yADGGSg_ATSgAtuPyADGSgAtwPyACy__________GGSgtGAJGtG 7SwiftUI9TupleViewV AA7SectionV AA0D0PAAE16headerProminenceyQrAA0G0OFQO AA15ModifiedContentV AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsK3KeyV AA05EmptyD0V AgAEAHyQrAJFQO 016BusinessServicesB009BrandCardoD0V AA4LinkV AU05HoursD0V AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____y_____y_____y__________y_____GG_Qo_AI_____GSg_ACyADy_____yAE_Qo_AHGSgABy_____y_____yAEGGSg_AUSgAuvQyAEGSgAuxQyADy__________GGSgtGAKGtG_____G 7SwiftUI19_ConditionalContentV AA9TupleViewV AA7SectionV AA0F0PAAE16headerProminenceyQrAA0I0OFQO AA08ModifiedD0V AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsL3KeyV AA05EmptyF0V AiAEAJyQrALFQO 016BusinessServicesB009BrandCardpF0V AA4LinkV AW05HoursF0V AA16_FlexFrameLayoutV AA5ColorV
+- _symbolic _____y_____y_____y_____y_____y__________y_____GG_Qo_AI_____GSg_ACyADy_____yAE_Qo_AHGSgABy_____y_____yAEGGSg_AUSgAuvQyAEGSgAuxQyADy__________GGSgtGAKGtG______G 7SwiftUI19_ConditionalContentV7StorageO AA9TupleViewV AA7SectionV AA0G0PAAE16headerProminenceyQrAA0J0OFQO AA08ModifiedD0V AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsM3KeyV AA05EmptyG0V AkAEALyQrANFQO 016BusinessServicesB009BrandCardqG0V AA4LinkV AY05HoursG0V AA16_FlexFrameLayoutV AA5ColorV
+CStrings:
++ "initWithViewModel:"
++ "systemLayoutSizeFittingSize:"
++ "viewModelForBusinessConfiguration:showHoursAndOpenState:"
+
+```

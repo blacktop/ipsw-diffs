@@ -1,0 +1,3079 @@
+## TVRemoteCore
+
+> `/System/Library/PrivateFrameworks/TVRemoteCore.framework/TVRemoteCore`
+
+```diff
+
+-548.0.17.0.0
+-  __TEXT.__text: 0x63654
+-  __TEXT.__auth_stubs: 0xb50
+-  __TEXT.__objc_methlist: 0x85dc
++548.10.16.0.0
++  __TEXT.__text: 0x41c20
++  __TEXT.__auth_stubs: 0x6f0
++  __TEXT.__objc_methlist: 0x59ac
+   __TEXT.__const: 0x230
+-  __TEXT.__gcc_except_tab: 0xd9c
+-  __TEXT.__cstring: 0x509e
+-  __TEXT.__oslogstring: 0x6f8f
+-  __TEXT.__unwind_info: 0x1720
+-  __TEXT.__objc_classname: 0xd3a
+-  __TEXT.__objc_methname: 0xf857
+-  __TEXT.__objc_methtype: 0x2a08
+-  __TEXT.__objc_stubs: 0x99e0
+-  __DATA_CONST.__got: 0x570
+-  __DATA_CONST.__const: 0x1800
+-  __DATA_CONST.__objc_classlist: 0x380
+-  __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0xf0
++  __TEXT.__gcc_except_tab: 0xbec
++  __TEXT.__cstring: 0x2f24
++  __TEXT.__oslogstring: 0x69c2
++  __TEXT.__unwind_info: 0xff8
++  __TEXT.__objc_classname: 0x828
++  __TEXT.__objc_methname: 0xc7b9
++  __TEXT.__objc_methtype: 0x209c
++  __TEXT.__objc_stubs: 0x7ec0
++  __DATA_CONST.__got: 0x490
++  __DATA_CONST.__const: 0x1390
++  __DATA_CONST.__objc_classlist: 0x218
++  __DATA_CONST.__objc_catlist: 0x10
++  __DATA_CONST.__objc_protolist: 0xd0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3b50
++  __DATA_CONST.__objc_selrefs: 0x2e40
+   __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA_CONST.__objc_superrefs: 0x2e0
++  __DATA_CONST.__objc_superrefs: 0x1a0
+   __DATA_CONST.__objc_arraydata: 0xd0
+-  __AUTH_CONST.__auth_got: 0x5b8
+-  __AUTH_CONST.__const: 0x538
+-  __AUTH_CONST.__cfstring: 0x6d20
+-  __AUTH_CONST.__objc_const: 0xcff8
+-  __AUTH_CONST.__objc_intobj: 0x270
++  __AUTH_CONST.__auth_got: 0x388
++  __AUTH_CONST.__const: 0x440
++  __AUTH_CONST.__cfstring: 0x3dc0
++  __AUTH_CONST.__objc_const: 0x8870
++  __AUTH_CONST.__objc_intobj: 0x258
+   __AUTH_CONST.__objc_dictobj: 0x78
+   __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH_CONST.__objc_doubleobj: 0x40
+-  __AUTH.__objc_data: 0x21c0
+-  __DATA.__objc_ivar: 0x8b0
+-  __DATA.__data: 0xb50
+-  __DATA.__bss: 0x120
++  __AUTH_CONST.__objc_doubleobj: 0x50
++  __AUTH.__objc_data: 0x13b0
++  __DATA.__objc_ivar: 0x5ac
++  __DATA.__data: 0x9d0
++  __DATA.__bss: 0xf8
+   __DATA_DIRTY.__objc_data: 0x140
+-  __DATA_DIRTY.__bss: 0x78
++  __DATA_DIRTY.__bss: 0x68
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+-  - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/HomeKit.framework/HomeKit
+-  - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+-  - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+-  - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+
+   - /System/Library/PrivateFrameworks/HomeSharing.framework/HomeSharing
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote
+-  - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
+   - /System/Library/PrivateFrameworks/RemoteTextInput.framework/RemoteTextInput
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2EA4A7A3-C504-3B24-8564-2A1089C7F918
+-  Functions: 2802
+-  Symbols:   9083
+-  CStrings:  5665
++  UUID: 965C8A95-740A-3AA6-80E6-C32D9B60F40B
++  Functions: 1855
++  Symbols:   6317
++  CStrings:  4124
+ 
+Symbols:
++ -[TVRCDeviceQuery stop].cold.2
++ __MergedGlobals
++ __TVRCDeviceQueryLog
++ __TVRCDeviceQueryLog.cold.1
++ __TVRCDeviceQueryLog.log
++ __TVRCDeviceQueryLog.onceToken
++ ___51-[TVRCRPCompanionLinkClientWrapper sendTouchEvent:]_block_invoke.cold.2
++ ____TVRCDeviceQueryLog_block_invoke
+- +[TVRCFeatures capellaEnabled]
+- +[TVRCFeatures greymatterEnabled]
+- +[TVRCFeatures legacyDevicesDisabled]
+- +[TVRMSAudioRoute audioRoutesFromProtobufs:]
+- +[TVRMSAudioRoute protobufsFromAudioRoutes:]
+- +[TVRMSDAAPParser objectWithData:]
+- +[TVRMSDAAPParser objectWithData:error:]
+- +[TVRMSDAAPParser sharedInstance]
+- +[TVRMSDAAPParser typeForDRCPValueType:]
+- +[TVRMSNowPlayingArtworkCache sharedArtworkCache]
+- +[TVRMSNowPlayingArtworkCache sharedArtworkCache].cold.1
+- +[TVRMSService protobufsFromServices:]
+- +[TVRMSService servicesFromProtobufs:]
+- -[NSURLComponents(TVRMSAdditions) rms_componentsByAddingQueryParameters:]
+- -[TVRMSAddToWishlistMessage copyTo:]
+- -[TVRMSAddToWishlistMessage copyWithZone:]
+- -[TVRMSAddToWishlistMessage databaseID]
+- -[TVRMSAddToWishlistMessage description]
+- -[TVRMSAddToWishlistMessage dictionaryRepresentation]
+- -[TVRMSAddToWishlistMessage hasDatabaseID]
+- -[TVRMSAddToWishlistMessage hasItemID]
+- -[TVRMSAddToWishlistMessage hasSessionIdentifier]
+- -[TVRMSAddToWishlistMessage hash]
+- -[TVRMSAddToWishlistMessage isEqual:]
+- -[TVRMSAddToWishlistMessage itemID]
+- -[TVRMSAddToWishlistMessage mergeFrom:]
+- -[TVRMSAddToWishlistMessage readFrom:]
+- -[TVRMSAddToWishlistMessage sessionIdentifier]
+- -[TVRMSAddToWishlistMessage setDatabaseID:]
+- -[TVRMSAddToWishlistMessage setHasDatabaseID:]
+- -[TVRMSAddToWishlistMessage setHasItemID:]
+- -[TVRMSAddToWishlistMessage setHasSessionIdentifier:]
+- -[TVRMSAddToWishlistMessage setItemID:]
+- -[TVRMSAddToWishlistMessage setSessionIdentifier:]
+- -[TVRMSAddToWishlistMessage writeTo:]
+- -[TVRMSAudioRoute .cxx_destruct]
+- -[TVRMSAudioRoute displayName]
+- -[TVRMSAudioRoute initWithProtobuf:]
+- -[TVRMSAudioRoute isEqualToAudioRoute:]
+- -[TVRMSAudioRoute isSelected]
+- -[TVRMSAudioRoute macAddress]
+- -[TVRMSAudioRoute protobuf]
+- -[TVRMSAudioRoute setDisplayName:]
+- -[TVRMSAudioRoute setMacAddress:]
+- -[TVRMSAudioRoute setSelected:]
+- -[TVRMSAudioRoute setSupportsVideo:]
+- -[TVRMSAudioRoute supportsVideo]
+- -[TVRMSAudioRouteMessage .cxx_destruct]
+- -[TVRMSAudioRouteMessage copyTo:]
+- -[TVRMSAudioRouteMessage copyWithZone:]
+- -[TVRMSAudioRouteMessage description]
+- -[TVRMSAudioRouteMessage dictionaryRepresentation]
+- -[TVRMSAudioRouteMessage displayName]
+- -[TVRMSAudioRouteMessage hasDisplayName]
+- -[TVRMSAudioRouteMessage hasMacAddress]
+- -[TVRMSAudioRouteMessage hasSelected]
+- -[TVRMSAudioRouteMessage hasSupportsVideo]
+- -[TVRMSAudioRouteMessage hash]
+- -[TVRMSAudioRouteMessage isEqual:]
+- -[TVRMSAudioRouteMessage macAddress]
+- -[TVRMSAudioRouteMessage mergeFrom:]
+- -[TVRMSAudioRouteMessage readFrom:]
+- -[TVRMSAudioRouteMessage selected]
+- -[TVRMSAudioRouteMessage setDisplayName:]
+- -[TVRMSAudioRouteMessage setHasMacAddress:]
+- -[TVRMSAudioRouteMessage setHasSelected:]
+- -[TVRMSAudioRouteMessage setHasSupportsVideo:]
+- -[TVRMSAudioRouteMessage setMacAddress:]
+- -[TVRMSAudioRouteMessage setSelected:]
+- -[TVRMSAudioRouteMessage setSupportsVideo:]
+- -[TVRMSAudioRouteMessage supportsVideo]
+- -[TVRMSAudioRouteMessage writeTo:]
+- -[TVRMSAudioRoutesDidUpdateMessage .cxx_destruct]
+- -[TVRMSAudioRoutesDidUpdateMessage addAudioRoutes:]
+- -[TVRMSAudioRoutesDidUpdateMessage audioRoutesAtIndex:]
+- -[TVRMSAudioRoutesDidUpdateMessage audioRoutesCount]
+- -[TVRMSAudioRoutesDidUpdateMessage audioRoutes]
+- -[TVRMSAudioRoutesDidUpdateMessage clearAudioRoutes]
+- -[TVRMSAudioRoutesDidUpdateMessage copyTo:]
+- -[TVRMSAudioRoutesDidUpdateMessage copyWithZone:]
+- -[TVRMSAudioRoutesDidUpdateMessage description]
+- -[TVRMSAudioRoutesDidUpdateMessage dictionaryRepresentation]
+- -[TVRMSAudioRoutesDidUpdateMessage hasSessionIdentifier]
+- -[TVRMSAudioRoutesDidUpdateMessage hash]
+- -[TVRMSAudioRoutesDidUpdateMessage isEqual:]
+- -[TVRMSAudioRoutesDidUpdateMessage mergeFrom:]
+- -[TVRMSAudioRoutesDidUpdateMessage readFrom:]
+- -[TVRMSAudioRoutesDidUpdateMessage sessionIdentifier]
+- -[TVRMSAudioRoutesDidUpdateMessage setAudioRoutes:]
+- -[TVRMSAudioRoutesDidUpdateMessage setHasSessionIdentifier:]
+- -[TVRMSAudioRoutesDidUpdateMessage setSessionIdentifier:]
+- -[TVRMSAudioRoutesDidUpdateMessage writeTo:]
+- -[TVRMSAvailableServicesDidUpdateMessage .cxx_destruct]
+- -[TVRMSAvailableServicesDidUpdateMessage addServices:]
+- -[TVRMSAvailableServicesDidUpdateMessage clearServices]
+- -[TVRMSAvailableServicesDidUpdateMessage copyTo:]
+- -[TVRMSAvailableServicesDidUpdateMessage copyWithZone:]
+- -[TVRMSAvailableServicesDidUpdateMessage description]
+- -[TVRMSAvailableServicesDidUpdateMessage dictionaryRepresentation]
+- -[TVRMSAvailableServicesDidUpdateMessage hasSessionIdentifier]
+- -[TVRMSAvailableServicesDidUpdateMessage hash]
+- -[TVRMSAvailableServicesDidUpdateMessage isEqual:]
+- -[TVRMSAvailableServicesDidUpdateMessage mergeFrom:]
+- -[TVRMSAvailableServicesDidUpdateMessage readFrom:]
+- -[TVRMSAvailableServicesDidUpdateMessage servicesAtIndex:]
+- -[TVRMSAvailableServicesDidUpdateMessage servicesCount]
+- -[TVRMSAvailableServicesDidUpdateMessage services]
+- -[TVRMSAvailableServicesDidUpdateMessage sessionIdentifier]
+- -[TVRMSAvailableServicesDidUpdateMessage setHasSessionIdentifier:]
+- -[TVRMSAvailableServicesDidUpdateMessage setServices:]
+- -[TVRMSAvailableServicesDidUpdateMessage setSessionIdentifier:]
+- -[TVRMSAvailableServicesDidUpdateMessage writeTo:]
+- -[TVRMSBeginDiscoveryMessage .cxx_destruct]
+- -[TVRMSBeginDiscoveryMessage addPairedNetworkNames:]
+- -[TVRMSBeginDiscoveryMessage clearPairedNetworkNames]
+- -[TVRMSBeginDiscoveryMessage copyTo:]
+- -[TVRMSBeginDiscoveryMessage copyWithZone:]
+- -[TVRMSBeginDiscoveryMessage description]
+- -[TVRMSBeginDiscoveryMessage dictionaryRepresentation]
+- -[TVRMSBeginDiscoveryMessage discoveryTypes]
+- -[TVRMSBeginDiscoveryMessage hasDiscoveryTypes]
+- -[TVRMSBeginDiscoveryMessage hasHasPairedNetworkNames]
+- -[TVRMSBeginDiscoveryMessage hasPairedNetworkNames]
+- -[TVRMSBeginDiscoveryMessage hash]
+- -[TVRMSBeginDiscoveryMessage isEqual:]
+- -[TVRMSBeginDiscoveryMessage mergeFrom:]
+- -[TVRMSBeginDiscoveryMessage pairedNetworkNamesAtIndex:]
+- -[TVRMSBeginDiscoveryMessage pairedNetworkNamesCount]
+- -[TVRMSBeginDiscoveryMessage pairedNetworkNames]
+- -[TVRMSBeginDiscoveryMessage readFrom:]
+- -[TVRMSBeginDiscoveryMessage setDiscoveryTypes:]
+- -[TVRMSBeginDiscoveryMessage setHasDiscoveryTypes:]
+- -[TVRMSBeginDiscoveryMessage setHasHasPairedNetworkNames:]
+- -[TVRMSBeginDiscoveryMessage setHasPairedNetworkNames:]
+- -[TVRMSBeginDiscoveryMessage setPairedNetworkNames:]
+- -[TVRMSBeginDiscoveryMessage writeTo:]
+- -[TVRMSBeginPairingMessage .cxx_destruct]
+- -[TVRMSBeginPairingMessage appName]
+- -[TVRMSBeginPairingMessage copyTo:]
+- -[TVRMSBeginPairingMessage copyWithZone:]
+- -[TVRMSBeginPairingMessage description]
+- -[TVRMSBeginPairingMessage deviceModel]
+- -[TVRMSBeginPairingMessage deviceName]
+- -[TVRMSBeginPairingMessage dictionaryRepresentation]
+- -[TVRMSBeginPairingMessage hasAppName]
+- -[TVRMSBeginPairingMessage hasDeviceModel]
+- -[TVRMSBeginPairingMessage hasDeviceName]
+- -[TVRMSBeginPairingMessage hasPasscode]
+- -[TVRMSBeginPairingMessage hash]
+- -[TVRMSBeginPairingMessage isEqual:]
+- -[TVRMSBeginPairingMessage mergeFrom:]
+- -[TVRMSBeginPairingMessage passcode]
+- -[TVRMSBeginPairingMessage readFrom:]
+- -[TVRMSBeginPairingMessage setAppName:]
+- -[TVRMSBeginPairingMessage setDeviceModel:]
+- -[TVRMSBeginPairingMessage setDeviceName:]
+- -[TVRMSBeginPairingMessage setPasscode:]
+- -[TVRMSBeginPairingMessage writeTo:]
+- -[TVRMSBeginPairingResponseMessage copyTo:]
+- -[TVRMSBeginPairingResponseMessage copyWithZone:]
+- -[TVRMSBeginPairingResponseMessage description]
+- -[TVRMSBeginPairingResponseMessage dictionaryRepresentation]
+- -[TVRMSBeginPairingResponseMessage hasResponseCode]
+- -[TVRMSBeginPairingResponseMessage hasSessionIdentifier]
+- -[TVRMSBeginPairingResponseMessage hash]
+- -[TVRMSBeginPairingResponseMessage isEqual:]
+- -[TVRMSBeginPairingResponseMessage mergeFrom:]
+- -[TVRMSBeginPairingResponseMessage readFrom:]
+- -[TVRMSBeginPairingResponseMessage responseCode]
+- -[TVRMSBeginPairingResponseMessage sessionIdentifier]
+- -[TVRMSBeginPairingResponseMessage setHasResponseCode:]
+- -[TVRMSBeginPairingResponseMessage setHasSessionIdentifier:]
+- -[TVRMSBeginPairingResponseMessage setResponseCode:]
+- -[TVRMSBeginPairingResponseMessage setSessionIdentifier:]
+- -[TVRMSBeginPairingResponseMessage writeTo:]
+- -[TVRMSBonjourServiceProvider .cxx_destruct]
+- -[TVRMSBonjourServiceProvider _identifierForNetService:]
+- -[TVRMSBonjourServiceProvider _searchString]
+- -[TVRMSBonjourServiceProvider _updateCacheWithService:identifier:]
+- -[TVRMSBonjourServiceProvider _updateService:withNetService:txtData:]
+- -[TVRMSBonjourServiceProvider _valueForTXTRecordKey:inTXTDictionary:]
+- -[TVRMSBonjourServiceProvider beginDiscovery]
+- -[TVRMSBonjourServiceProvider dealloc]
+- -[TVRMSBonjourServiceProvider delegate]
+- -[TVRMSBonjourServiceProvider endDiscovery]
+- -[TVRMSBonjourServiceProvider init]
+- -[TVRMSBonjourServiceProvider netService:didNotResolve:]
+- -[TVRMSBonjourServiceProvider netService:didUpdateTXTRecordData:]
+- -[TVRMSBonjourServiceProvider netServiceBrowser:didFindService:moreComing:]
+- -[TVRMSBonjourServiceProvider netServiceBrowser:didRemoveService:moreComing:]
+- -[TVRMSBonjourServiceProvider netServiceBrowser]
+- -[TVRMSBonjourServiceProvider netServiceDidResolveAddress:]
+- -[TVRMSBonjourServiceProvider searchDomain]
+- -[TVRMSBonjourServiceProvider searchScope]
+- -[TVRMSBonjourServiceProvider searchType]
+- -[TVRMSBonjourServiceProvider serviceDiscoverySource]
+- -[TVRMSBonjourServiceProvider serviceLegacyFlagsFromTXTDictionary:]
+- -[TVRMSBonjourServiceProvider serviceTypeFromTXTDictionary:]
+- -[TVRMSBonjourServiceProvider setDelegate:]
+- -[TVRMSConnectToServiceMessage .cxx_destruct]
+- -[TVRMSConnectToServiceMessage copyTo:]
+- -[TVRMSConnectToServiceMessage copyWithZone:]
+- -[TVRMSConnectToServiceMessage description]
+- -[TVRMSConnectToServiceMessage dictionaryRepresentation]
+- -[TVRMSConnectToServiceMessage hasPairingGUID]
+- -[TVRMSConnectToServiceMessage hasService]
+- -[TVRMSConnectToServiceMessage hash]
+- -[TVRMSConnectToServiceMessage isEqual:]
+- -[TVRMSConnectToServiceMessage mergeFrom:]
+- -[TVRMSConnectToServiceMessage pairingGUID]
+- -[TVRMSConnectToServiceMessage readFrom:]
+- -[TVRMSConnectToServiceMessage service]
+- -[TVRMSConnectToServiceMessage setPairingGUID:]
+- -[TVRMSConnectToServiceMessage setService:]
+- -[TVRMSConnectToServiceMessage writeTo:]
+- -[TVRMSConnectToServiceResponseMessage .cxx_destruct]
+- -[TVRMSConnectToServiceResponseMessage controlInterface]
+- -[TVRMSConnectToServiceResponseMessage copyTo:]
+- -[TVRMSConnectToServiceResponseMessage copyWithZone:]
+- -[TVRMSConnectToServiceResponseMessage description]
+- -[TVRMSConnectToServiceResponseMessage dictionaryRepresentation]
+- -[TVRMSConnectToServiceResponseMessage hasControlInterface]
+- -[TVRMSConnectToServiceResponseMessage hasResponseCode]
+- -[TVRMSConnectToServiceResponseMessage hasSessionIdentifier]
+- -[TVRMSConnectToServiceResponseMessage hash]
+- -[TVRMSConnectToServiceResponseMessage isEqual:]
+- -[TVRMSConnectToServiceResponseMessage mergeFrom:]
+- -[TVRMSConnectToServiceResponseMessage readFrom:]
+- -[TVRMSConnectToServiceResponseMessage responseCode]
+- -[TVRMSConnectToServiceResponseMessage sessionIdentifier]
+- -[TVRMSConnectToServiceResponseMessage setControlInterface:]
+- -[TVRMSConnectToServiceResponseMessage setHasResponseCode:]
+- -[TVRMSConnectToServiceResponseMessage setHasSessionIdentifier:]
+- -[TVRMSConnectToServiceResponseMessage setResponseCode:]
+- -[TVRMSConnectToServiceResponseMessage setSessionIdentifier:]
+- -[TVRMSConnectToServiceResponseMessage writeTo:]
+- -[TVRMSControlInterface initWithProtobuf:]
+- -[TVRMSControlInterface protobuf]
+- -[TVRMSControlInterface setSupportsDirectionalControl:]
+- -[TVRMSControlInterface setSupportsSpeakerSelection:]
+- -[TVRMSControlInterface setSupportsVolumeControl:]
+- -[TVRMSControlInterface supportsDirectionalControl]
+- -[TVRMSControlInterface supportsSpeakerSelection]
+- -[TVRMSControlInterface supportsVolumeControl]
+- -[TVRMSControlInterfaceMessage copyTo:]
+- -[TVRMSControlInterfaceMessage copyWithZone:]
+- -[TVRMSControlInterfaceMessage description]
+- -[TVRMSControlInterfaceMessage dictionaryRepresentation]
+- -[TVRMSControlInterfaceMessage hasSupportsDirectionalControl]
+- -[TVRMSControlInterfaceMessage hasSupportsSpeakerSelection]
+- -[TVRMSControlInterfaceMessage hasSupportsVolumeControl]
+- -[TVRMSControlInterfaceMessage hash]
+- -[TVRMSControlInterfaceMessage isEqual:]
+- -[TVRMSControlInterfaceMessage mergeFrom:]
+- -[TVRMSControlInterfaceMessage readFrom:]
+- -[TVRMSControlInterfaceMessage setHasSupportsDirectionalControl:]
+- -[TVRMSControlInterfaceMessage setHasSupportsSpeakerSelection:]
+- -[TVRMSControlInterfaceMessage setHasSupportsVolumeControl:]
+- -[TVRMSControlInterfaceMessage setSupportsDirectionalControl:]
+- -[TVRMSControlInterfaceMessage setSupportsSpeakerSelection:]
+- -[TVRMSControlInterfaceMessage setSupportsVolumeControl:]
+- -[TVRMSControlInterfaceMessage supportsDirectionalControl]
+- -[TVRMSControlInterfaceMessage supportsSpeakerSelection]
+- -[TVRMSControlInterfaceMessage supportsVolumeControl]
+- -[TVRMSControlInterfaceMessage writeTo:]
+- -[TVRMSDAAPEncoder .cxx_destruct]
+- -[TVRMSDAAPEncoder data]
+- -[TVRMSDAAPEncoder encodeBytes:length:forCode:]
+- -[TVRMSDAAPEncoder encodeData:forCode:]
+- -[TVRMSDAAPEncoder encodeInt32:forCode:]
+- -[TVRMSDAAPEncoder encodeInt64:forCode:]
+- -[TVRMSDAAPEncoder encodeString:forCode:]
+- -[TVRMSDAAPEncoder init]
+- -[TVRMSDAAPParser enumerateDAAPChunksInBytes:length:usingBlock:]
+- -[TVRMSDAAPParser parseBrowseResults:length:]
+- -[TVRMSDAAPParser parseContentCodes:length:]
+- -[TVRMSDAAPParser parseContentCollectionDict:length:]
+- -[TVRMSDAAPParser parseControlPromptCollection:length:]
+- -[TVRMSDAAPParser parseControlPromptResponse:length:]
+- -[TVRMSDAAPParser parseDACPPropertyResponse:length:]
+- -[TVRMSDAAPParser parseGetSpeakersResponse:length:]
+- -[TVRMSDAAPParser parseListingCollection:length:capacity:sectionHeaders:]
+- -[TVRMSDAAPParser parseListingHeader:length:]
+- -[TVRMSDAAPParser parseListingItem:length:]
+- -[TVRMSDAAPParser parseLogin:length:]
+- -[TVRMSDAAPParser parseMACAddressListing:length:]
+- -[TVRMSDAAPParser parseQueueSectionItems:length:]
+- -[TVRMSDAAPParser parseServerInfo:length:]
+- -[TVRMSDAAPParser parseUTF8String:length:]
+- -[TVRMSDAAPParser parseUnicodeCharacter:length:]
+- -[TVRMSDAAPParser parseXMLContent:length:]
+- -[TVRMSDAAPParser processResponseCode:bytes:length:]
+- -[TVRMSDAAPParser setBool:size:inDict:forKey:]
+- -[TVRMSDAAPParser setDate:size:inDict:forKey:]
+- -[TVRMSDAAPParser setFloat32:size:inDict:forKey:]
+- -[TVRMSDAAPParser setSInt16:size:inDict:forKey:]
+- -[TVRMSDAAPParser setSInt8:size:inDict:forKey:]
+- -[TVRMSDAAPParser setString:size:inDict:forKey:]
+- -[TVRMSDAAPParser setUInt16:size:inDict:forKey:]
+- -[TVRMSDAAPParser setUInt32:size:inDict:forKey:]
+- -[TVRMSDAAPParser setUInt64:size:inDict:forKey:]
+- -[TVRMSDAAPParser setUInt8:size:inDict:forKey:]
+- -[TVRMSDAAPParser unknownChunk:]
+- -[TVRMSFairPlayKeyboardEncryption .cxx_destruct]
+- -[TVRMSFairPlayKeyboardEncryption _convertDataToString:]
+- -[TVRMSFairPlayKeyboardEncryption _convertStringToData:]
+- -[TVRMSFairPlayKeyboardEncryption _verifyCert:]
+- -[TVRMSFairPlayKeyboardEncryption dealloc]
+- -[TVRMSFairPlayKeyboardEncryption encryptString:]
+- -[TVRMSFairPlayKeyboardEncryption isTrusted]
+- -[TVRMSFairPlayKeyboardEncryption reset]
+- -[TVRMSFairPlayKeyboardEncryption setChallengeString:]
+- -[TVRMSFairPlayKeyboardEncryption setLeafString:]
+- -[TVRMSKeyboardInfo .cxx_destruct]
+- -[TVRMSKeyboardInfo initWithItemsArray:]
+- -[TVRMSKeyboardInfo keyboardInputType]
+- -[TVRMSKeyboardInfo keyboardType]
+- -[TVRMSKeyboardInfo maximumCharacters]
+- -[TVRMSKeyboardInfo minimumCharacters]
+- -[TVRMSKeyboardInfo secureText]
+- -[TVRMSKeyboardInfo setKeyboardInputType:]
+- -[TVRMSKeyboardInfo setKeyboardType:]
+- -[TVRMSKeyboardInfo setMaximumCharacters:]
+- -[TVRMSKeyboardInfo setMinimumCharacters:]
+- -[TVRMSKeyboardInfo setSecureText:]
+- -[TVRMSKeyboardInfo setSubtitle:]
+- -[TVRMSKeyboardInfo setText:]
+- -[TVRMSKeyboardInfo setTitle:]
+- -[TVRMSKeyboardInfo subtitle]
+- -[TVRMSKeyboardInfo text]
+- -[TVRMSKeyboardInfo title]
+- -[TVRMSNavigationCommandMessage copyTo:]
+- -[TVRMSNavigationCommandMessage copyWithZone:]
+- -[TVRMSNavigationCommandMessage description]
+- -[TVRMSNavigationCommandMessage dictionaryRepresentation]
+- -[TVRMSNavigationCommandMessage hasNavigationCommand]
+- -[TVRMSNavigationCommandMessage hasSessionIdentifier]
+- -[TVRMSNavigationCommandMessage hash]
+- -[TVRMSNavigationCommandMessage isEqual:]
+- -[TVRMSNavigationCommandMessage mergeFrom:]
+- -[TVRMSNavigationCommandMessage navigationCommand]
+- -[TVRMSNavigationCommandMessage readFrom:]
+- -[TVRMSNavigationCommandMessage sessionIdentifier]
+- -[TVRMSNavigationCommandMessage setHasNavigationCommand:]
+- -[TVRMSNavigationCommandMessage setHasSessionIdentifier:]
+- -[TVRMSNavigationCommandMessage setNavigationCommand:]
+- -[TVRMSNavigationCommandMessage setSessionIdentifier:]
+- -[TVRMSNavigationCommandMessage writeTo:]
+- -[TVRMSNowPlayingArtworkAvailableMessage .cxx_destruct]
+- -[TVRMSNowPlayingArtworkAvailableMessage artworkIdentifier]
+- -[TVRMSNowPlayingArtworkAvailableMessage copyTo:]
+- -[TVRMSNowPlayingArtworkAvailableMessage copyWithZone:]
+- -[TVRMSNowPlayingArtworkAvailableMessage description]
+- -[TVRMSNowPlayingArtworkAvailableMessage dictionaryRepresentation]
+- -[TVRMSNowPlayingArtworkAvailableMessage hasArtworkIdentifier]
+- -[TVRMSNowPlayingArtworkAvailableMessage hasSessionIdentifier]
+- -[TVRMSNowPlayingArtworkAvailableMessage hash]
+- -[TVRMSNowPlayingArtworkAvailableMessage isEqual:]
+- -[TVRMSNowPlayingArtworkAvailableMessage mergeFrom:]
+- -[TVRMSNowPlayingArtworkAvailableMessage readFrom:]
+- -[TVRMSNowPlayingArtworkAvailableMessage sessionIdentifier]
+- -[TVRMSNowPlayingArtworkAvailableMessage setArtworkIdentifier:]
+- -[TVRMSNowPlayingArtworkAvailableMessage setHasSessionIdentifier:]
+- -[TVRMSNowPlayingArtworkAvailableMessage setSessionIdentifier:]
+- -[TVRMSNowPlayingArtworkAvailableMessage writeTo:]
+- -[TVRMSNowPlayingArtworkCache .cxx_destruct]
+- -[TVRMSNowPlayingArtworkCache artworkDataForIdentifier:]
+- -[TVRMSNowPlayingArtworkCache artworkDataForNowPlayingInfo:]
+- -[TVRMSNowPlayingArtworkCache init]
+- -[TVRMSNowPlayingArtworkCache setArtworkData:forIdentifier:]
+- -[TVRMSNowPlayingArtworkCache setArtworkData:forNowPlayingInfo:]
+- -[TVRMSNowPlayingArtworkRequestMessage .cxx_destruct]
+- -[TVRMSNowPlayingArtworkRequestMessage artworkIdentifier]
+- -[TVRMSNowPlayingArtworkRequestMessage compressionQuality]
+- -[TVRMSNowPlayingArtworkRequestMessage copyTo:]
+- -[TVRMSNowPlayingArtworkRequestMessage copyWithZone:]
+- -[TVRMSNowPlayingArtworkRequestMessage description]
+- -[TVRMSNowPlayingArtworkRequestMessage dictionaryRepresentation]
+- -[TVRMSNowPlayingArtworkRequestMessage hasArtworkIdentifier]
+- -[TVRMSNowPlayingArtworkRequestMessage hasCompressionQuality]
+- -[TVRMSNowPlayingArtworkRequestMessage hasHeight]
+- -[TVRMSNowPlayingArtworkRequestMessage hasWidth]
+- -[TVRMSNowPlayingArtworkRequestMessage hash]
+- -[TVRMSNowPlayingArtworkRequestMessage height]
+- -[TVRMSNowPlayingArtworkRequestMessage isEqual:]
+- -[TVRMSNowPlayingArtworkRequestMessage mergeFrom:]
+- -[TVRMSNowPlayingArtworkRequestMessage readFrom:]
+- -[TVRMSNowPlayingArtworkRequestMessage setArtworkIdentifier:]
+- -[TVRMSNowPlayingArtworkRequestMessage setCompressionQuality:]
+- -[TVRMSNowPlayingArtworkRequestMessage setHasCompressionQuality:]
+- -[TVRMSNowPlayingArtworkRequestMessage setHasHeight:]
+- -[TVRMSNowPlayingArtworkRequestMessage setHasWidth:]
+- -[TVRMSNowPlayingArtworkRequestMessage setHeight:]
+- -[TVRMSNowPlayingArtworkRequestMessage setWidth:]
+- -[TVRMSNowPlayingArtworkRequestMessage width]
+- -[TVRMSNowPlayingArtworkRequestMessage writeTo:]
+- -[TVRMSNowPlayingInfo .cxx_destruct]
+- -[TVRMSNowPlayingInfo albumName]
+- -[TVRMSNowPlayingInfo artistName]
+- -[TVRMSNowPlayingInfo artworkIdentifier]
+- -[TVRMSNowPlayingInfo canSkipNext]
+- -[TVRMSNowPlayingInfo canSkipPrevious]
+- -[TVRMSNowPlayingInfo canWishlist]
+- -[TVRMSNowPlayingInfo databaseID]
+- -[TVRMSNowPlayingInfo description]
+- -[TVRMSNowPlayingInfo hasChapterData]
+- -[TVRMSNowPlayingInfo initWithProtobuf:]
+- -[TVRMSNowPlayingInfo isLikeable]
+- -[TVRMSNowPlayingInfo isPlaying]
+- -[TVRMSNowPlayingInfo itemID]
+- -[TVRMSNowPlayingInfo likedState]
+- -[TVRMSNowPlayingInfo mediaKind]
+- -[TVRMSNowPlayingInfo playbackState]
+- -[TVRMSNowPlayingInfo protobuf]
+- -[TVRMSNowPlayingInfo revisionNumber]
+- -[TVRMSNowPlayingInfo scrubbableState]
+- -[TVRMSNowPlayingInfo setAlbumName:]
+- -[TVRMSNowPlayingInfo setArtistName:]
+- -[TVRMSNowPlayingInfo setCanSkipNext:]
+- -[TVRMSNowPlayingInfo setCanSkipPrevious:]
+- -[TVRMSNowPlayingInfo setCanWishlist:]
+- -[TVRMSNowPlayingInfo setDatabaseID:]
+- -[TVRMSNowPlayingInfo setHasChapterData:]
+- -[TVRMSNowPlayingInfo setItemID:]
+- -[TVRMSNowPlayingInfo setLikeable:]
+- -[TVRMSNowPlayingInfo setLikedState:]
+- -[TVRMSNowPlayingInfo setMediaKind:]
+- -[TVRMSNowPlayingInfo setPlaybackState:]
+- -[TVRMSNowPlayingInfo setRevisionNumber:]
+- -[TVRMSNowPlayingInfo setScrubbableState:]
+- -[TVRMSNowPlayingInfo setTimeRemaining:]
+- -[TVRMSNowPlayingInfo setTimestamp:]
+- -[TVRMSNowPlayingInfo setTotalDuration:]
+- -[TVRMSNowPlayingInfo setTrackName:]
+- -[TVRMSNowPlayingInfo timeRemaining]
+- -[TVRMSNowPlayingInfo timestamp]
+- -[TVRMSNowPlayingInfo totalDuration]
+- -[TVRMSNowPlayingInfo trackName]
+- -[TVRMSNowPlayingInfoDidUpdateMessage .cxx_destruct]
+- -[TVRMSNowPlayingInfoDidUpdateMessage copyTo:]
+- -[TVRMSNowPlayingInfoDidUpdateMessage copyWithZone:]
+- -[TVRMSNowPlayingInfoDidUpdateMessage description]
+- -[TVRMSNowPlayingInfoDidUpdateMessage dictionaryRepresentation]
+- -[TVRMSNowPlayingInfoDidUpdateMessage hasNowPlayingInfo]
+- -[TVRMSNowPlayingInfoDidUpdateMessage hasSessionIdentifier]
+- -[TVRMSNowPlayingInfoDidUpdateMessage hash]
+- -[TVRMSNowPlayingInfoDidUpdateMessage isEqual:]
+- -[TVRMSNowPlayingInfoDidUpdateMessage mergeFrom:]
+- -[TVRMSNowPlayingInfoDidUpdateMessage nowPlayingInfo]
+- -[TVRMSNowPlayingInfoDidUpdateMessage readFrom:]
+- -[TVRMSNowPlayingInfoDidUpdateMessage sessionIdentifier]
+- -[TVRMSNowPlayingInfoDidUpdateMessage setHasSessionIdentifier:]
+- -[TVRMSNowPlayingInfoDidUpdateMessage setNowPlayingInfo:]
+- -[TVRMSNowPlayingInfoDidUpdateMessage setSessionIdentifier:]
+- -[TVRMSNowPlayingInfoDidUpdateMessage writeTo:]
+- -[TVRMSNowPlayingInfoMessage .cxx_destruct]
+- -[TVRMSNowPlayingInfoMessage albumName]
+- -[TVRMSNowPlayingInfoMessage artistName]
+- -[TVRMSNowPlayingInfoMessage canSkipNext]
+- -[TVRMSNowPlayingInfoMessage canSkipPrevious]
+- -[TVRMSNowPlayingInfoMessage canWishlist]
+- -[TVRMSNowPlayingInfoMessage copyTo:]
+- -[TVRMSNowPlayingInfoMessage copyWithZone:]
+- -[TVRMSNowPlayingInfoMessage databaseID]
+- -[TVRMSNowPlayingInfoMessage description]
+- -[TVRMSNowPlayingInfoMessage dictionaryRepresentation]
+- -[TVRMSNowPlayingInfoMessage hasAlbumName]
+- -[TVRMSNowPlayingInfoMessage hasArtistName]
+- -[TVRMSNowPlayingInfoMessage hasCanSkipNext]
+- -[TVRMSNowPlayingInfoMessage hasCanSkipPrevious]
+- -[TVRMSNowPlayingInfoMessage hasCanWishlist]
+- -[TVRMSNowPlayingInfoMessage hasChapterData]
+- -[TVRMSNowPlayingInfoMessage hasDatabaseID]
+- -[TVRMSNowPlayingInfoMessage hasHasChapterData]
+- -[TVRMSNowPlayingInfoMessage hasItemID]
+- -[TVRMSNowPlayingInfoMessage hasLikeable]
+- -[TVRMSNowPlayingInfoMessage hasLikedState]
+- -[TVRMSNowPlayingInfoMessage hasMediaKind]
+- -[TVRMSNowPlayingInfoMessage hasPlaybackState]
+- -[TVRMSNowPlayingInfoMessage hasRevisionNumber]
+- -[TVRMSNowPlayingInfoMessage hasScrubbableState]
+- -[TVRMSNowPlayingInfoMessage hasTimeRemaining]
+- -[TVRMSNowPlayingInfoMessage hasTimestamp]
+- -[TVRMSNowPlayingInfoMessage hasTotalDuration]
+- -[TVRMSNowPlayingInfoMessage hasTrackName]
+- -[TVRMSNowPlayingInfoMessage hash]
+- -[TVRMSNowPlayingInfoMessage isEqual:]
+- -[TVRMSNowPlayingInfoMessage itemID]
+- -[TVRMSNowPlayingInfoMessage likeable]
+- -[TVRMSNowPlayingInfoMessage likedState]
+- -[TVRMSNowPlayingInfoMessage mediaKind]
+- -[TVRMSNowPlayingInfoMessage mergeFrom:]
+- -[TVRMSNowPlayingInfoMessage playbackState]
+- -[TVRMSNowPlayingInfoMessage readFrom:]
+- -[TVRMSNowPlayingInfoMessage revisionNumber]
+- -[TVRMSNowPlayingInfoMessage scrubbableState]
+- -[TVRMSNowPlayingInfoMessage setAlbumName:]
+- -[TVRMSNowPlayingInfoMessage setArtistName:]
+- -[TVRMSNowPlayingInfoMessage setCanSkipNext:]
+- -[TVRMSNowPlayingInfoMessage setCanSkipPrevious:]
+- -[TVRMSNowPlayingInfoMessage setCanWishlist:]
+- -[TVRMSNowPlayingInfoMessage setDatabaseID:]
+- -[TVRMSNowPlayingInfoMessage setHasCanSkipNext:]
+- -[TVRMSNowPlayingInfoMessage setHasCanSkipPrevious:]
+- -[TVRMSNowPlayingInfoMessage setHasCanWishlist:]
+- -[TVRMSNowPlayingInfoMessage setHasChapterData:]
+- -[TVRMSNowPlayingInfoMessage setHasDatabaseID:]
+- -[TVRMSNowPlayingInfoMessage setHasHasChapterData:]
+- -[TVRMSNowPlayingInfoMessage setHasItemID:]
+- -[TVRMSNowPlayingInfoMessage setHasLikeable:]
+- -[TVRMSNowPlayingInfoMessage setHasLikedState:]
+- -[TVRMSNowPlayingInfoMessage setHasMediaKind:]
+- -[TVRMSNowPlayingInfoMessage setHasPlaybackState:]
+- -[TVRMSNowPlayingInfoMessage setHasRevisionNumber:]
+- -[TVRMSNowPlayingInfoMessage setHasScrubbableState:]
+- -[TVRMSNowPlayingInfoMessage setHasTimeRemaining:]
+- -[TVRMSNowPlayingInfoMessage setHasTimestamp:]
+- -[TVRMSNowPlayingInfoMessage setHasTotalDuration:]
+- -[TVRMSNowPlayingInfoMessage setItemID:]
+- -[TVRMSNowPlayingInfoMessage setLikeable:]
+- -[TVRMSNowPlayingInfoMessage setLikedState:]
+- -[TVRMSNowPlayingInfoMessage setMediaKind:]
+- -[TVRMSNowPlayingInfoMessage setPlaybackState:]
+- -[TVRMSNowPlayingInfoMessage setRevisionNumber:]
+- -[TVRMSNowPlayingInfoMessage setScrubbableState:]
+- -[TVRMSNowPlayingInfoMessage setTimeRemaining:]
+- -[TVRMSNowPlayingInfoMessage setTimestamp:]
+- -[TVRMSNowPlayingInfoMessage setTotalDuration:]
+- -[TVRMSNowPlayingInfoMessage setTrackName:]
+- -[TVRMSNowPlayingInfoMessage timeRemaining]
+- -[TVRMSNowPlayingInfoMessage timestamp]
+- -[TVRMSNowPlayingInfoMessage totalDuration]
+- -[TVRMSNowPlayingInfoMessage trackName]
+- -[TVRMSNowPlayingInfoMessage writeTo:]
+- -[TVRMSPairingServer .cxx_destruct]
+- -[TVRMSPairingServer _parsedQueryParametersWithQueryString:]
+- -[TVRMSPairingServer delegate]
+- -[TVRMSPairingServer handleHTTPServerConnectionDidFailToReplyToRequest:withResponse:]
+- -[TVRMSPairingServer handleHTTPServerConnectionDidReceiveError:]
+- -[TVRMSPairingServer handleHTTPServerConnectionDidReceiveRequest:]
+- -[TVRMSPairingServer handleHTTPServerConnectionDidReplyToRequest:withResponse:]
+- -[TVRMSPairingServer handleHTTPServerConnectionInvalidated]
+- -[TVRMSPairingServer handleHTTPServerDidCloseConnection:]
+- -[TVRMSPairingServer handleHTTPServerDidOpenConnection:]
+- -[TVRMSPairingServer handleHTTPServerDidReceiveError:]
+- -[TVRMSPairingServer handleHTTPServerInvalidated]
+- -[TVRMSPairingServer port]
+- -[TVRMSPairingServer setDelegate:]
+- -[TVRMSPairingServer startServerWithExpectedPasscodeHash:advertisedDeviceName:advertisedDeviceModel:]
+- -[TVRMSPairingServer stopServer]
+- -[TVRMSPairingSessionDidPairMessage .cxx_destruct]
+- -[TVRMSPairingSessionDidPairMessage copyTo:]
+- -[TVRMSPairingSessionDidPairMessage copyWithZone:]
+- -[TVRMSPairingSessionDidPairMessage description]
+- -[TVRMSPairingSessionDidPairMessage dictionaryRepresentation]
+- -[TVRMSPairingSessionDidPairMessage hasPairingGUID]
+- -[TVRMSPairingSessionDidPairMessage hasServiceNetworkName]
+- -[TVRMSPairingSessionDidPairMessage hasSessionIdentifier]
+- -[TVRMSPairingSessionDidPairMessage hash]
+- -[TVRMSPairingSessionDidPairMessage isEqual:]
+- -[TVRMSPairingSessionDidPairMessage mergeFrom:]
+- -[TVRMSPairingSessionDidPairMessage pairingGUID]
+- -[TVRMSPairingSessionDidPairMessage readFrom:]
+- -[TVRMSPairingSessionDidPairMessage serviceNetworkName]
+- -[TVRMSPairingSessionDidPairMessage sessionIdentifier]
+- -[TVRMSPairingSessionDidPairMessage setHasSessionIdentifier:]
+- -[TVRMSPairingSessionDidPairMessage setPairingGUID:]
+- -[TVRMSPairingSessionDidPairMessage setServiceNetworkName:]
+- -[TVRMSPairingSessionDidPairMessage setSessionIdentifier:]
+- -[TVRMSPairingSessionDidPairMessage writeTo:]
+- -[TVRMSPickAudioRouteMessage copyTo:]
+- -[TVRMSPickAudioRouteMessage copyWithZone:]
+- -[TVRMSPickAudioRouteMessage description]
+- -[TVRMSPickAudioRouteMessage dictionaryRepresentation]
+- -[TVRMSPickAudioRouteMessage hasMacAddress]
+- -[TVRMSPickAudioRouteMessage hasSessionIdentifier]
+- -[TVRMSPickAudioRouteMessage hash]
+- -[TVRMSPickAudioRouteMessage isEqual:]
+- -[TVRMSPickAudioRouteMessage macAddress]
+- -[TVRMSPickAudioRouteMessage mergeFrom:]
+- -[TVRMSPickAudioRouteMessage readFrom:]
+- -[TVRMSPickAudioRouteMessage sessionIdentifier]
+- -[TVRMSPickAudioRouteMessage setHasMacAddress:]
+- -[TVRMSPickAudioRouteMessage setHasSessionIdentifier:]
+- -[TVRMSPickAudioRouteMessage setMacAddress:]
+- -[TVRMSPickAudioRouteMessage setSessionIdentifier:]
+- -[TVRMSPickAudioRouteMessage writeTo:]
+- -[TVRMSPlaybackCommandMessage copyTo:]
+- -[TVRMSPlaybackCommandMessage copyWithZone:]
+- -[TVRMSPlaybackCommandMessage description]
+- -[TVRMSPlaybackCommandMessage dictionaryRepresentation]
+- -[TVRMSPlaybackCommandMessage hasPlaybackCommand]
+- -[TVRMSPlaybackCommandMessage hasSessionIdentifier]
+- -[TVRMSPlaybackCommandMessage hash]
+- -[TVRMSPlaybackCommandMessage isEqual:]
+- -[TVRMSPlaybackCommandMessage mergeFrom:]
+- -[TVRMSPlaybackCommandMessage playbackCommand]
+- -[TVRMSPlaybackCommandMessage readFrom:]
+- -[TVRMSPlaybackCommandMessage sessionIdentifier]
+- -[TVRMSPlaybackCommandMessage setHasPlaybackCommand:]
+- -[TVRMSPlaybackCommandMessage setHasSessionIdentifier:]
+- -[TVRMSPlaybackCommandMessage setPlaybackCommand:]
+- -[TVRMSPlaybackCommandMessage setSessionIdentifier:]
+- -[TVRMSPlaybackCommandMessage writeTo:]
+- -[TVRMSPowerAssertion dealloc]
+- -[TVRMSPowerAssertion initWithName:]
+- -[TVRMSPowerAssertion refresh]
+- -[TVRMSResponseCodeMessage copyTo:]
+- -[TVRMSResponseCodeMessage copyWithZone:]
+- -[TVRMSResponseCodeMessage description]
+- -[TVRMSResponseCodeMessage dictionaryRepresentation]
+- -[TVRMSResponseCodeMessage hasResponseCode]
+- -[TVRMSResponseCodeMessage hash]
+- -[TVRMSResponseCodeMessage isEqual:]
+- -[TVRMSResponseCodeMessage mergeFrom:]
+- -[TVRMSResponseCodeMessage readFrom:]
+- -[TVRMSResponseCodeMessage responseCode]
+- -[TVRMSResponseCodeMessage setHasResponseCode:]
+- -[TVRMSResponseCodeMessage setResponseCode:]
+- -[TVRMSResponseCodeMessage writeTo:]
+- -[TVRMSRunAssertion dealloc]
+- -[TVRMSRunAssertion init]
+- -[TVRMSSeekToPlaybackTimeMessage copyTo:]
+- -[TVRMSSeekToPlaybackTimeMessage copyWithZone:]
+- -[TVRMSSeekToPlaybackTimeMessage description]
+- -[TVRMSSeekToPlaybackTimeMessage dictionaryRepresentation]
+- -[TVRMSSeekToPlaybackTimeMessage hasPlaybackTime]
+- -[TVRMSSeekToPlaybackTimeMessage hasSessionIdentifier]
+- -[TVRMSSeekToPlaybackTimeMessage hash]
+- -[TVRMSSeekToPlaybackTimeMessage isEqual:]
+- -[TVRMSSeekToPlaybackTimeMessage mergeFrom:]
+- -[TVRMSSeekToPlaybackTimeMessage playbackTime]
+- -[TVRMSSeekToPlaybackTimeMessage readFrom:]
+- -[TVRMSSeekToPlaybackTimeMessage sessionIdentifier]
+- -[TVRMSSeekToPlaybackTimeMessage setHasPlaybackTime:]
+- -[TVRMSSeekToPlaybackTimeMessage setHasSessionIdentifier:]
+- -[TVRMSSeekToPlaybackTimeMessage setPlaybackTime:]
+- -[TVRMSSeekToPlaybackTimeMessage setSessionIdentifier:]
+- -[TVRMSSeekToPlaybackTimeMessage writeTo:]
+- -[TVRMSService .cxx_destruct]
+- -[TVRMSService data]
+- -[TVRMSService description]
+- -[TVRMSService displayName]
+- -[TVRMSService homeSharingGroupKey]
+- -[TVRMSService hostName]
+- -[TVRMSService initWithData:]
+- -[TVRMSService initWithProtobuf:]
+- -[TVRMSService isEqual:]
+- -[TVRMSService isEqualToService:]
+- -[TVRMSService isLegacy]
+- -[TVRMSService networkName]
+- -[TVRMSService port]
+- -[TVRMSService protobuf]
+- -[TVRMSService serviceDiscoverySource]
+- -[TVRMSService serviceLegacyFlags]
+- -[TVRMSService serviceType]
+- -[TVRMSService setDisplayName:]
+- -[TVRMSService setHomeSharingGroupKey:]
+- -[TVRMSService setHostName:]
+- -[TVRMSService setNetworkName:]
+- -[TVRMSService setPort:]
+- -[TVRMSService setServiceDiscoverySource:]
+- -[TVRMSService setServiceLegacyFlags:]
+- -[TVRMSService setServiceType:]
+- -[TVRMSServiceMessage .cxx_destruct]
+- -[TVRMSServiceMessage copyTo:]
+- -[TVRMSServiceMessage copyWithZone:]
+- -[TVRMSServiceMessage description]
+- -[TVRMSServiceMessage dictionaryRepresentation]
+- -[TVRMSServiceMessage displayName]
+- -[TVRMSServiceMessage hasDisplayName]
+- -[TVRMSServiceMessage hasHomeSharingGroupKey]
+- -[TVRMSServiceMessage hasHostName]
+- -[TVRMSServiceMessage hasNetworkName]
+- -[TVRMSServiceMessage hasPort]
+- -[TVRMSServiceMessage hasServiceDiscoverySource]
+- -[TVRMSServiceMessage hasServiceLegacyFlags]
+- -[TVRMSServiceMessage hasServiceType]
+- -[TVRMSServiceMessage hash]
+- -[TVRMSServiceMessage homeSharingGroupKey]
+- -[TVRMSServiceMessage hostName]
+- -[TVRMSServiceMessage isEqual:]
+- -[TVRMSServiceMessage mergeFrom:]
+- -[TVRMSServiceMessage networkName]
+- -[TVRMSServiceMessage port]
+- -[TVRMSServiceMessage readFrom:]
+- -[TVRMSServiceMessage serviceDiscoverySource]
+- -[TVRMSServiceMessage serviceLegacyFlags]
+- -[TVRMSServiceMessage serviceType]
+- -[TVRMSServiceMessage setDisplayName:]
+- -[TVRMSServiceMessage setHasPort:]
+- -[TVRMSServiceMessage setHasServiceDiscoverySource:]
+- -[TVRMSServiceMessage setHasServiceLegacyFlags:]
+- -[TVRMSServiceMessage setHasServiceType:]
+- -[TVRMSServiceMessage setHomeSharingGroupKey:]
+- -[TVRMSServiceMessage setHostName:]
+- -[TVRMSServiceMessage setNetworkName:]
+- -[TVRMSServiceMessage setPort:]
+- -[TVRMSServiceMessage setServiceDiscoverySource:]
+- -[TVRMSServiceMessage setServiceLegacyFlags:]
+- -[TVRMSServiceMessage setServiceType:]
+- -[TVRMSServiceMessage writeTo:]
+- -[TVRMSSessionManager .cxx_destruct]
+- -[TVRMSSessionManager _scheduleSessionExpirationWithIdentifier:timeout:]
+- -[TVRMSSessionManager _uniqueSessionIdentifier]
+- -[TVRMSSessionManager _updatePersistedSessionIdentifiers]
+- -[TVRMSSessionManager beginSession:timeout:shouldTakePowerAssertion:completionHandler:]
+- -[TVRMSSessionManager delegate]
+- -[TVRMSSessionManager endSessionWithIdentifier:completionHandler:]
+- -[TVRMSSessionManager identifierForSession:]
+- -[TVRMSSessionManager init]
+- -[TVRMSSessionManager persistedSessionIdentifiers]
+- -[TVRMSSessionManager refreshSessionWithIdentifier:]
+- -[TVRMSSessionManager sessionWithIdentifier:]
+- -[TVRMSSessionManager setDelegate:]
+- -[TVRMSSessionMessage copyTo:]
+- -[TVRMSSessionMessage copyWithZone:]
+- -[TVRMSSessionMessage description]
+- -[TVRMSSessionMessage dictionaryRepresentation]
+- -[TVRMSSessionMessage hasSessionIdentifier]
+- -[TVRMSSessionMessage hash]
+- -[TVRMSSessionMessage isEqual:]
+- -[TVRMSSessionMessage mergeFrom:]
+- -[TVRMSSessionMessage readFrom:]
+- -[TVRMSSessionMessage sessionIdentifier]
+- -[TVRMSSessionMessage setHasSessionIdentifier:]
+- -[TVRMSSessionMessage setSessionIdentifier:]
+- -[TVRMSSessionMessage writeTo:]
+- -[TVRMSSetLikeStateMessage copyTo:]
+- -[TVRMSSetLikeStateMessage copyWithZone:]
+- -[TVRMSSetLikeStateMessage databaseID]
+- -[TVRMSSetLikeStateMessage description]
+- -[TVRMSSetLikeStateMessage dictionaryRepresentation]
+- -[TVRMSSetLikeStateMessage hasDatabaseID]
+- -[TVRMSSetLikeStateMessage hasItemID]
+- -[TVRMSSetLikeStateMessage hasLikeState]
+- -[TVRMSSetLikeStateMessage hasSessionIdentifier]
+- -[TVRMSSetLikeStateMessage hash]
+- -[TVRMSSetLikeStateMessage isEqual:]
+- -[TVRMSSetLikeStateMessage itemID]
+- -[TVRMSSetLikeStateMessage likeState]
+- -[TVRMSSetLikeStateMessage mergeFrom:]
+- -[TVRMSSetLikeStateMessage readFrom:]
+- -[TVRMSSetLikeStateMessage sessionIdentifier]
+- -[TVRMSSetLikeStateMessage setDatabaseID:]
+- -[TVRMSSetLikeStateMessage setHasDatabaseID:]
+- -[TVRMSSetLikeStateMessage setHasItemID:]
+- -[TVRMSSetLikeStateMessage setHasLikeState:]
+- -[TVRMSSetLikeStateMessage setHasSessionIdentifier:]
+- -[TVRMSSetLikeStateMessage setItemID:]
+- -[TVRMSSetLikeStateMessage setLikeState:]
+- -[TVRMSSetLikeStateMessage setSessionIdentifier:]
+- -[TVRMSSetLikeStateMessage writeTo:]
+- -[TVRMSSetVolumeMessage copyTo:]
+- -[TVRMSSetVolumeMessage copyWithZone:]
+- -[TVRMSSetVolumeMessage description]
+- -[TVRMSSetVolumeMessage dictionaryRepresentation]
+- -[TVRMSSetVolumeMessage hasSessionIdentifier]
+- -[TVRMSSetVolumeMessage hasVolume]
+- -[TVRMSSetVolumeMessage hash]
+- -[TVRMSSetVolumeMessage isEqual:]
+- -[TVRMSSetVolumeMessage mergeFrom:]
+- -[TVRMSSetVolumeMessage readFrom:]
+- -[TVRMSSetVolumeMessage sessionIdentifier]
+- -[TVRMSSetVolumeMessage setHasSessionIdentifier:]
+- -[TVRMSSetVolumeMessage setHasVolume:]
+- -[TVRMSSetVolumeMessage setSessionIdentifier:]
+- -[TVRMSSetVolumeMessage setVolume:]
+- -[TVRMSSetVolumeMessage volume]
+- -[TVRMSSetVolumeMessage writeTo:]
+- -[TVRMSTouchMessage copyTo:]
+- -[TVRMSTouchMessage copyWithZone:]
+- -[TVRMSTouchMessage description]
+- -[TVRMSTouchMessage dictionaryRepresentation]
+- -[TVRMSTouchMessage direction]
+- -[TVRMSTouchMessage hasDirection]
+- -[TVRMSTouchMessage hasRepeatCount]
+- -[TVRMSTouchMessage hasSessionIdentifier]
+- -[TVRMSTouchMessage hash]
+- -[TVRMSTouchMessage isEqual:]
+- -[TVRMSTouchMessage mergeFrom:]
+- -[TVRMSTouchMessage readFrom:]
+- -[TVRMSTouchMessage repeatCount]
+- -[TVRMSTouchMessage sessionIdentifier]
+- -[TVRMSTouchMessage setDirection:]
+- -[TVRMSTouchMessage setHasDirection:]
+- -[TVRMSTouchMessage setHasRepeatCount:]
+- -[TVRMSTouchMessage setHasSessionIdentifier:]
+- -[TVRMSTouchMessage setRepeatCount:]
+- -[TVRMSTouchMessage setSessionIdentifier:]
+- -[TVRMSTouchMessage writeTo:]
+- -[TVRMSUpdatePairedNetworNamesMessage .cxx_destruct]
+- -[TVRMSUpdatePairedNetworNamesMessage addPairedNetworkNames:]
+- -[TVRMSUpdatePairedNetworNamesMessage clearPairedNetworkNames]
+- -[TVRMSUpdatePairedNetworNamesMessage copyTo:]
+- -[TVRMSUpdatePairedNetworNamesMessage copyWithZone:]
+- -[TVRMSUpdatePairedNetworNamesMessage description]
+- -[TVRMSUpdatePairedNetworNamesMessage dictionaryRepresentation]
+- -[TVRMSUpdatePairedNetworNamesMessage hasSessionIdentifier]
+- -[TVRMSUpdatePairedNetworNamesMessage hash]
+- -[TVRMSUpdatePairedNetworNamesMessage isEqual:]
+- -[TVRMSUpdatePairedNetworNamesMessage mergeFrom:]
+- -[TVRMSUpdatePairedNetworNamesMessage pairedNetworkNamesAtIndex:]
+- -[TVRMSUpdatePairedNetworNamesMessage pairedNetworkNamesCount]
+- -[TVRMSUpdatePairedNetworNamesMessage pairedNetworkNames]
+- -[TVRMSUpdatePairedNetworNamesMessage readFrom:]
+- -[TVRMSUpdatePairedNetworNamesMessage sessionIdentifier]
+- -[TVRMSUpdatePairedNetworNamesMessage setHasSessionIdentifier:]
+- -[TVRMSUpdatePairedNetworNamesMessage setPairedNetworkNames:]
+- -[TVRMSUpdatePairedNetworNamesMessage setSessionIdentifier:]
+- -[TVRMSUpdatePairedNetworNamesMessage writeTo:]
+- -[TVRMSVolumeDidUpdateMessage copyTo:]
+- -[TVRMSVolumeDidUpdateMessage copyWithZone:]
+- -[TVRMSVolumeDidUpdateMessage description]
+- -[TVRMSVolumeDidUpdateMessage dictionaryRepresentation]
+- -[TVRMSVolumeDidUpdateMessage hasSessionIdentifier]
+- -[TVRMSVolumeDidUpdateMessage hasVolume]
+- -[TVRMSVolumeDidUpdateMessage hash]
+- -[TVRMSVolumeDidUpdateMessage isEqual:]
+- -[TVRMSVolumeDidUpdateMessage mergeFrom:]
+- -[TVRMSVolumeDidUpdateMessage readFrom:]
+- -[TVRMSVolumeDidUpdateMessage sessionIdentifier]
+- -[TVRMSVolumeDidUpdateMessage setHasSessionIdentifier:]
+- -[TVRMSVolumeDidUpdateMessage setHasVolume:]
+- -[TVRMSVolumeDidUpdateMessage setSessionIdentifier:]
+- -[TVRMSVolumeDidUpdateMessage setVolume:]
+- -[TVRMSVolumeDidUpdateMessage volume]
+- -[TVRMSVolumeDidUpdateMessage writeTo:]
+- -[TVRMSWifiAvailabilityDidChangeMessage copyTo:]
+- -[TVRMSWifiAvailabilityDidChangeMessage copyWithZone:]
+- -[TVRMSWifiAvailabilityDidChangeMessage description]
+- -[TVRMSWifiAvailabilityDidChangeMessage dictionaryRepresentation]
+- -[TVRMSWifiAvailabilityDidChangeMessage hasSessionIdentifier]
+- -[TVRMSWifiAvailabilityDidChangeMessage hasWifiAvailable]
+- -[TVRMSWifiAvailabilityDidChangeMessage hash]
+- -[TVRMSWifiAvailabilityDidChangeMessage isEqual:]
+- -[TVRMSWifiAvailabilityDidChangeMessage mergeFrom:]
+- -[TVRMSWifiAvailabilityDidChangeMessage readFrom:]
+- -[TVRMSWifiAvailabilityDidChangeMessage sessionIdentifier]
+- -[TVRMSWifiAvailabilityDidChangeMessage setHasSessionIdentifier:]
+- -[TVRMSWifiAvailabilityDidChangeMessage setHasWifiAvailable:]
+- -[TVRMSWifiAvailabilityDidChangeMessage setSessionIdentifier:]
+- -[TVRMSWifiAvailabilityDidChangeMessage setWifiAvailable:]
+- -[TVRMSWifiAvailabilityDidChangeMessage wifiAvailable]
+- -[TVRMSWifiAvailabilityDidChangeMessage writeTo:]
+- -[_RMSBonjourService .cxx_destruct]
+- -[_RMSBonjourService isAvailable]
+- -[_RMSBonjourService netService]
+- -[_RMSBonjourService service]
+- -[_RMSBonjourService setAvailable:]
+- -[_RMSBonjourService setNetService:]
+- -[_RMSBonjourService setService:]
+- -[_RMSBonjourService setState:]
+- -[_RMSBonjourService state]
+- -[_RMSNowPlayingArtworkCacheItem .cxx_destruct]
+- -[_RMSNowPlayingArtworkCacheItem artworkData]
+- -[_RMSNowPlayingArtworkCacheItem artworkIdentifier]
+- -[_RMSNowPlayingArtworkCacheItem beginContentAccess]
+- -[_RMSNowPlayingArtworkCacheItem discardContentIfPossible]
+- -[_RMSNowPlayingArtworkCacheItem endContentAccess]
+- -[_RMSNowPlayingArtworkCacheItem isContentDiscarded]
+- -[_RMSNowPlayingArtworkCacheItem setArtworkData:]
+- -[_RMSNowPlayingArtworkCacheItem setArtworkIdentifier:]
+- -[_RMSSessionRecord .cxx_destruct]
+- -[_RMSSessionRecord powerAssertion]
+- -[_RMSSessionRecord refreshCount]
+- -[_RMSSessionRecord runAssertion]
+- -[_RMSSessionRecord session]
+- -[_RMSSessionRecord setPowerAssertion:]
+- -[_RMSSessionRecord setRefreshCount:]
+- -[_RMSSessionRecord setRunAssertion:]
+- -[_RMSSessionRecord setSession:]
+- -[_RMSSessionRecord setTimeout:]
+- -[_RMSSessionRecord timeout]
+- GCC_except_table19
+- GCC_except_table25
+- GCC_except_table27
+- GCC_except_table35
+- GCC_except_table39
+- GCC_except_table45
+- GCC_except_table47
+- GCC_except_table8
+- OBJC_IVAR_$_TVRMSAddToWishlistMessage._databaseID
+- OBJC_IVAR_$_TVRMSAddToWishlistMessage._has
+- OBJC_IVAR_$_TVRMSAddToWishlistMessage._itemID
+- OBJC_IVAR_$_TVRMSAddToWishlistMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSAudioRouteMessage._displayName
+- OBJC_IVAR_$_TVRMSAudioRouteMessage._has
+- OBJC_IVAR_$_TVRMSAudioRouteMessage._macAddress
+- OBJC_IVAR_$_TVRMSAudioRouteMessage._selected
+- OBJC_IVAR_$_TVRMSAudioRouteMessage._supportsVideo
+- OBJC_IVAR_$_TVRMSAudioRoutesDidUpdateMessage._audioRoutes
+- OBJC_IVAR_$_TVRMSAudioRoutesDidUpdateMessage._has
+- OBJC_IVAR_$_TVRMSAudioRoutesDidUpdateMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSAvailableServicesDidUpdateMessage._has
+- OBJC_IVAR_$_TVRMSAvailableServicesDidUpdateMessage._services
+- OBJC_IVAR_$_TVRMSAvailableServicesDidUpdateMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSBeginDiscoveryMessage._discoveryTypes
+- OBJC_IVAR_$_TVRMSBeginDiscoveryMessage._has
+- OBJC_IVAR_$_TVRMSBeginDiscoveryMessage._hasPairedNetworkNames
+- OBJC_IVAR_$_TVRMSBeginDiscoveryMessage._pairedNetworkNames
+- OBJC_IVAR_$_TVRMSBeginPairingMessage._appName
+- OBJC_IVAR_$_TVRMSBeginPairingMessage._deviceModel
+- OBJC_IVAR_$_TVRMSBeginPairingMessage._deviceName
+- OBJC_IVAR_$_TVRMSBeginPairingMessage._passcode
+- OBJC_IVAR_$_TVRMSBeginPairingResponseMessage._has
+- OBJC_IVAR_$_TVRMSBeginPairingResponseMessage._responseCode
+- OBJC_IVAR_$_TVRMSBeginPairingResponseMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSConnectToServiceMessage._pairingGUID
+- OBJC_IVAR_$_TVRMSConnectToServiceMessage._service
+- OBJC_IVAR_$_TVRMSConnectToServiceResponseMessage._controlInterface
+- OBJC_IVAR_$_TVRMSConnectToServiceResponseMessage._has
+- OBJC_IVAR_$_TVRMSConnectToServiceResponseMessage._responseCode
+- OBJC_IVAR_$_TVRMSConnectToServiceResponseMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSControlInterfaceMessage._has
+- OBJC_IVAR_$_TVRMSControlInterfaceMessage._supportsDirectionalControl
+- OBJC_IVAR_$_TVRMSControlInterfaceMessage._supportsSpeakerSelection
+- OBJC_IVAR_$_TVRMSControlInterfaceMessage._supportsVolumeControl
+- OBJC_IVAR_$_TVRMSNavigationCommandMessage._has
+- OBJC_IVAR_$_TVRMSNavigationCommandMessage._navigationCommand
+- OBJC_IVAR_$_TVRMSNavigationCommandMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSNowPlayingArtworkAvailableMessage._artworkIdentifier
+- OBJC_IVAR_$_TVRMSNowPlayingArtworkAvailableMessage._has
+- OBJC_IVAR_$_TVRMSNowPlayingArtworkAvailableMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSNowPlayingArtworkRequestMessage._artworkIdentifier
+- OBJC_IVAR_$_TVRMSNowPlayingArtworkRequestMessage._compressionQuality
+- OBJC_IVAR_$_TVRMSNowPlayingArtworkRequestMessage._has
+- OBJC_IVAR_$_TVRMSNowPlayingArtworkRequestMessage._height
+- OBJC_IVAR_$_TVRMSNowPlayingArtworkRequestMessage._width
+- OBJC_IVAR_$_TVRMSNowPlayingInfoDidUpdateMessage._has
+- OBJC_IVAR_$_TVRMSNowPlayingInfoDidUpdateMessage._nowPlayingInfo
+- OBJC_IVAR_$_TVRMSNowPlayingInfoDidUpdateMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._albumName
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._artistName
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._canSkipNext
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._canSkipPrevious
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._canWishlist
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._databaseID
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._has
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._hasChapterData
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._itemID
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._likeable
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._likedState
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._mediaKind
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._playbackState
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._revisionNumber
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._scrubbableState
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._timeRemaining
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._timestamp
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._totalDuration
+- OBJC_IVAR_$_TVRMSNowPlayingInfoMessage._trackName
+- OBJC_IVAR_$_TVRMSPairingSessionDidPairMessage._has
+- OBJC_IVAR_$_TVRMSPairingSessionDidPairMessage._pairingGUID
+- OBJC_IVAR_$_TVRMSPairingSessionDidPairMessage._serviceNetworkName
+- OBJC_IVAR_$_TVRMSPairingSessionDidPairMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSPickAudioRouteMessage._has
+- OBJC_IVAR_$_TVRMSPickAudioRouteMessage._macAddress
+- OBJC_IVAR_$_TVRMSPickAudioRouteMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSPlaybackCommandMessage._has
+- OBJC_IVAR_$_TVRMSPlaybackCommandMessage._playbackCommand
+- OBJC_IVAR_$_TVRMSPlaybackCommandMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSResponseCodeMessage._has
+- OBJC_IVAR_$_TVRMSResponseCodeMessage._responseCode
+- OBJC_IVAR_$_TVRMSSeekToPlaybackTimeMessage._has
+- OBJC_IVAR_$_TVRMSSeekToPlaybackTimeMessage._playbackTime
+- OBJC_IVAR_$_TVRMSSeekToPlaybackTimeMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSServiceMessage._displayName
+- OBJC_IVAR_$_TVRMSServiceMessage._has
+- OBJC_IVAR_$_TVRMSServiceMessage._homeSharingGroupKey
+- OBJC_IVAR_$_TVRMSServiceMessage._hostName
+- OBJC_IVAR_$_TVRMSServiceMessage._networkName
+- OBJC_IVAR_$_TVRMSServiceMessage._port
+- OBJC_IVAR_$_TVRMSServiceMessage._serviceDiscoverySource
+- OBJC_IVAR_$_TVRMSServiceMessage._serviceLegacyFlags
+- OBJC_IVAR_$_TVRMSServiceMessage._serviceType
+- OBJC_IVAR_$_TVRMSSessionMessage._has
+- OBJC_IVAR_$_TVRMSSessionMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSSetLikeStateMessage._databaseID
+- OBJC_IVAR_$_TVRMSSetLikeStateMessage._has
+- OBJC_IVAR_$_TVRMSSetLikeStateMessage._itemID
+- OBJC_IVAR_$_TVRMSSetLikeStateMessage._likeState
+- OBJC_IVAR_$_TVRMSSetLikeStateMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSSetVolumeMessage._has
+- OBJC_IVAR_$_TVRMSSetVolumeMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSSetVolumeMessage._volume
+- OBJC_IVAR_$_TVRMSTouchMessage._direction
+- OBJC_IVAR_$_TVRMSTouchMessage._has
+- OBJC_IVAR_$_TVRMSTouchMessage._repeatCount
+- OBJC_IVAR_$_TVRMSTouchMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSUpdatePairedNetworNamesMessage._has
+- OBJC_IVAR_$_TVRMSUpdatePairedNetworNamesMessage._pairedNetworkNames
+- OBJC_IVAR_$_TVRMSUpdatePairedNetworNamesMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSVolumeDidUpdateMessage._has
+- OBJC_IVAR_$_TVRMSVolumeDidUpdateMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSVolumeDidUpdateMessage._volume
+- OBJC_IVAR_$_TVRMSWifiAvailabilityDidChangeMessage._has
+- OBJC_IVAR_$_TVRMSWifiAvailabilityDidChangeMessage._sessionIdentifier
+- OBJC_IVAR_$_TVRMSWifiAvailabilityDidChangeMessage._wifiAvailable
+- _CFArrayCreate
+- _CFDateFormatterCreate
+- _CFDateFormatterCreateStringWithDate
+- _CFDateFormatterSetFormat
+- _CFDictionaryCreateMutable
+- _CFDictionaryRemoveValue
+- _CFDictionarySetValue
+- _CFHTTPMessageGetResponseStatusCode
+- _CFHTTPMessageSetHeaderFieldValue
+- _CFLocaleCopyCurrent
+- _CFNotificationCenterAddObserver
+- _CFNotificationCenterGetDarwinNotifyCenter
+- _CFPreferencesAppSynchronize
+- _CFPreferencesGetAppIntegerValue
+- _CFRelease
+- _CFRetain
+- _CFStringCreateWithFormat
+- _CPLoggingCopyLogDirectory
+- _CPLoggingMaxLogFileLevel
+- _CPLoggingSetCreateLogFormatBlock
+- _CPLoggingSetLogDirectory
+- _CPLoggingSetLogName
+- _CPLoggingSetMaxConsoleLevel
+- _CPLoggingSetMaxLogFileLevel
+- _IOPMAssertionCreateWithProperties
+- _IOPMAssertionRelease
+- _IOPMAssertionSetProperty
+- _NSStringFromRMSMessageType
+- _NSStringFromRMSResponseCode
+- _OBJC_CLASS_$_NSBundle
+- _OBJC_CLASS_$_NSCache
+- _OBJC_CLASS_$_NSNetService
+- _OBJC_CLASS_$_NSNetServiceBrowser
+- _OBJC_CLASS_$_NSURLComponents
+- _OBJC_CLASS_$_PBCodable
+- _OBJC_CLASS_$_TVRMSAddToWishlistMessage
+- _OBJC_CLASS_$_TVRMSAudioRoute
+- _OBJC_CLASS_$_TVRMSAudioRouteMessage
+- _OBJC_CLASS_$_TVRMSAudioRoutesDidUpdateMessage
+- _OBJC_CLASS_$_TVRMSAvailableServicesDidUpdateMessage
+- _OBJC_CLASS_$_TVRMSBeginDiscoveryMessage
+- _OBJC_CLASS_$_TVRMSBeginPairingMessage
+- _OBJC_CLASS_$_TVRMSBeginPairingResponseMessage
+- _OBJC_CLASS_$_TVRMSBonjourServiceProvider
+- _OBJC_CLASS_$_TVRMSConnectToServiceMessage
+- _OBJC_CLASS_$_TVRMSConnectToServiceResponseMessage
+- _OBJC_CLASS_$_TVRMSControlInterface
+- _OBJC_CLASS_$_TVRMSControlInterfaceMessage
+- _OBJC_CLASS_$_TVRMSDAAPEncoder
+- _OBJC_CLASS_$_TVRMSDAAPParser
+- _OBJC_CLASS_$_TVRMSFairPlayKeyboardEncryption
+- _OBJC_CLASS_$_TVRMSKeyboardInfo
+- _OBJC_CLASS_$_TVRMSNavigationCommandMessage
+- _OBJC_CLASS_$_TVRMSNowPlayingArtworkAvailableMessage
+- _OBJC_CLASS_$_TVRMSNowPlayingArtworkCache
+- _OBJC_CLASS_$_TVRMSNowPlayingArtworkRequestMessage
+- _OBJC_CLASS_$_TVRMSNowPlayingInfo
+- _OBJC_CLASS_$_TVRMSNowPlayingInfoDidUpdateMessage
+- _OBJC_CLASS_$_TVRMSNowPlayingInfoMessage
+- _OBJC_CLASS_$_TVRMSPairingServer
+- _OBJC_CLASS_$_TVRMSPairingSessionDidPairMessage
+- _OBJC_CLASS_$_TVRMSPickAudioRouteMessage
+- _OBJC_CLASS_$_TVRMSPlaybackCommandMessage
+- _OBJC_CLASS_$_TVRMSPowerAssertion
+- _OBJC_CLASS_$_TVRMSResponseCodeMessage
+- _OBJC_CLASS_$_TVRMSRunAssertion
+- _OBJC_CLASS_$_TVRMSSeekToPlaybackTimeMessage
+- _OBJC_CLASS_$_TVRMSService
+- _OBJC_CLASS_$_TVRMSServiceMessage
+- _OBJC_CLASS_$_TVRMSSessionManager
+- _OBJC_CLASS_$_TVRMSSessionMessage
+- _OBJC_CLASS_$_TVRMSSetLikeStateMessage
+- _OBJC_CLASS_$_TVRMSSetVolumeMessage
+- _OBJC_CLASS_$_TVRMSTouchMessage
+- _OBJC_CLASS_$_TVRMSUpdatePairedNetworNamesMessage
+- _OBJC_CLASS_$_TVRMSVolumeDidUpdateMessage
+- _OBJC_CLASS_$_TVRMSWifiAvailabilityDidChangeMessage
+- _OBJC_CLASS_$__RMSBonjourService
+- _OBJC_CLASS_$__RMSNowPlayingArtworkCacheItem
+- _OBJC_CLASS_$__RMSSessionRecord
+- _OBJC_IVAR_$_TVRMSAudioRoute._displayName
+- _OBJC_IVAR_$_TVRMSAudioRoute._macAddress
+- _OBJC_IVAR_$_TVRMSAudioRoute._selected
+- _OBJC_IVAR_$_TVRMSAudioRoute._supportsVideo
+- _OBJC_IVAR_$_TVRMSBonjourServiceProvider._cache
+- _OBJC_IVAR_$_TVRMSBonjourServiceProvider._delegate
+- _OBJC_IVAR_$_TVRMSBonjourServiceProvider._netServiceBrowser
+- _OBJC_IVAR_$_TVRMSBonjourServiceProvider._services
+- _OBJC_IVAR_$_TVRMSControlInterface._supportsDirectionalControl
+- _OBJC_IVAR_$_TVRMSControlInterface._supportsSpeakerSelection
+- _OBJC_IVAR_$_TVRMSControlInterface._supportsVolumeControl
+- _OBJC_IVAR_$_TVRMSDAAPEncoder._data
+- _OBJC_IVAR_$_TVRMSFairPlayKeyboardEncryption._certIsTrusted
+- _OBJC_IVAR_$_TVRMSFairPlayKeyboardEncryption._challenge
+- _OBJC_IVAR_$_TVRMSFairPlayKeyboardEncryption._pubKeyRef
+- _OBJC_IVAR_$_TVRMSKeyboardInfo._keyboardInputType
+- _OBJC_IVAR_$_TVRMSKeyboardInfo._keyboardType
+- _OBJC_IVAR_$_TVRMSKeyboardInfo._maximumCharacters
+- _OBJC_IVAR_$_TVRMSKeyboardInfo._minimumCharacters
+- _OBJC_IVAR_$_TVRMSKeyboardInfo._secureText
+- _OBJC_IVAR_$_TVRMSKeyboardInfo._subtitle
+- _OBJC_IVAR_$_TVRMSKeyboardInfo._text
+- _OBJC_IVAR_$_TVRMSKeyboardInfo._title
+- _OBJC_IVAR_$_TVRMSNowPlayingArtworkCache._cache
+- _OBJC_IVAR_$_TVRMSNowPlayingArtworkCache._lastItem
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._albumName
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._artistName
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._canSkipNext
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._canSkipPrevious
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._canWishlist
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._databaseID
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._hasChapterData
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._itemID
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._likeable
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._likedState
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._mediaKind
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._playbackState
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._revisionNumber
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._scrubbableState
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._timeRemaining
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._timestamp
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._totalDuration
+- _OBJC_IVAR_$_TVRMSNowPlayingInfo._trackName
+- _OBJC_IVAR_$_TVRMSPairingServer._HTTPServer
+- _OBJC_IVAR_$_TVRMSPairingServer._HTTPServerConnections
+- _OBJC_IVAR_$_TVRMSPairingServer._HTTPServerQueue
+- _OBJC_IVAR_$_TVRMSPairingServer._advertisedDeviceModel
+- _OBJC_IVAR_$_TVRMSPairingServer._advertisedDeviceName
+- _OBJC_IVAR_$_TVRMSPairingServer._delegate
+- _OBJC_IVAR_$_TVRMSPairingServer._expectedPasscodeHash
+- _OBJC_IVAR_$_TVRMSPairingServer._port
+- _OBJC_IVAR_$_TVRMSPairingServer._successfulPairingGUID
+- _OBJC_IVAR_$_TVRMSPairingServer._successfulPairingServiceName
+- _OBJC_IVAR_$_TVRMSPowerAssertion._assertionID
+- _OBJC_IVAR_$_TVRMSService._displayName
+- _OBJC_IVAR_$_TVRMSService._homeSharingGroupKey
+- _OBJC_IVAR_$_TVRMSService._hostName
+- _OBJC_IVAR_$_TVRMSService._networkName
+- _OBJC_IVAR_$_TVRMSService._port
+- _OBJC_IVAR_$_TVRMSService._serviceDiscoverySource
+- _OBJC_IVAR_$_TVRMSService._serviceLegacyFlags
+- _OBJC_IVAR_$_TVRMSService._serviceType
+- _OBJC_IVAR_$_TVRMSSessionManager._delegate
+- _OBJC_IVAR_$_TVRMSSessionManager._sessionManagerQueue
+- _OBJC_IVAR_$_TVRMSSessionManager._sessions
+- _OBJC_IVAR_$__RMSBonjourService._available
+- _OBJC_IVAR_$__RMSBonjourService._netService
+- _OBJC_IVAR_$__RMSBonjourService._service
+- _OBJC_IVAR_$__RMSBonjourService._state
+- _OBJC_IVAR_$__RMSNowPlayingArtworkCacheItem._artworkData
+- _OBJC_IVAR_$__RMSNowPlayingArtworkCacheItem._artworkIdentifier
+- _OBJC_IVAR_$__RMSNowPlayingArtworkCacheItem._keepAlive
+- _OBJC_IVAR_$__RMSSessionRecord._powerAssertion
+- _OBJC_IVAR_$__RMSSessionRecord._refreshCount
+- _OBJC_IVAR_$__RMSSessionRecord._runAssertion
+- _OBJC_IVAR_$__RMSSessionRecord._session
+- _OBJC_IVAR_$__RMSSessionRecord._timeout
+- _OBJC_METACLASS_$_PBCodable
+- _OBJC_METACLASS_$_TVRMSAddToWishlistMessage
+- _OBJC_METACLASS_$_TVRMSAudioRoute
+- _OBJC_METACLASS_$_TVRMSAudioRouteMessage
+- _OBJC_METACLASS_$_TVRMSAudioRoutesDidUpdateMessage
+- _OBJC_METACLASS_$_TVRMSAvailableServicesDidUpdateMessage
+- _OBJC_METACLASS_$_TVRMSBeginDiscoveryMessage
+- _OBJC_METACLASS_$_TVRMSBeginPairingMessage
+- _OBJC_METACLASS_$_TVRMSBeginPairingResponseMessage
+- _OBJC_METACLASS_$_TVRMSBonjourServiceProvider
+- _OBJC_METACLASS_$_TVRMSConnectToServiceMessage
+- _OBJC_METACLASS_$_TVRMSConnectToServiceResponseMessage
+- _OBJC_METACLASS_$_TVRMSControlInterface
+- _OBJC_METACLASS_$_TVRMSControlInterfaceMessage
+- _OBJC_METACLASS_$_TVRMSDAAPEncoder
+- _OBJC_METACLASS_$_TVRMSDAAPParser
+- _OBJC_METACLASS_$_TVRMSFairPlayKeyboardEncryption
+- _OBJC_METACLASS_$_TVRMSKeyboardInfo
+- _OBJC_METACLASS_$_TVRMSNavigationCommandMessage
+- _OBJC_METACLASS_$_TVRMSNowPlayingArtworkAvailableMessage
+- _OBJC_METACLASS_$_TVRMSNowPlayingArtworkCache
+- _OBJC_METACLASS_$_TVRMSNowPlayingArtworkRequestMessage
+- _OBJC_METACLASS_$_TVRMSNowPlayingInfo
+- _OBJC_METACLASS_$_TVRMSNowPlayingInfoDidUpdateMessage
+- _OBJC_METACLASS_$_TVRMSNowPlayingInfoMessage
+- _OBJC_METACLASS_$_TVRMSPairingServer
+- _OBJC_METACLASS_$_TVRMSPairingSessionDidPairMessage
+- _OBJC_METACLASS_$_TVRMSPickAudioRouteMessage
+- _OBJC_METACLASS_$_TVRMSPlaybackCommandMessage
+- _OBJC_METACLASS_$_TVRMSPowerAssertion
+- _OBJC_METACLASS_$_TVRMSResponseCodeMessage
+- _OBJC_METACLASS_$_TVRMSRunAssertion
+- _OBJC_METACLASS_$_TVRMSSeekToPlaybackTimeMessage
+- _OBJC_METACLASS_$_TVRMSService
+- _OBJC_METACLASS_$_TVRMSServiceMessage
+- _OBJC_METACLASS_$_TVRMSSessionManager
+- _OBJC_METACLASS_$_TVRMSSessionMessage
+- _OBJC_METACLASS_$_TVRMSSetLikeStateMessage
+- _OBJC_METACLASS_$_TVRMSSetVolumeMessage
+- _OBJC_METACLASS_$_TVRMSTouchMessage
+- _OBJC_METACLASS_$_TVRMSUpdatePairedNetworNamesMessage
+- _OBJC_METACLASS_$_TVRMSVolumeDidUpdateMessage
+- _OBJC_METACLASS_$_TVRMSWifiAvailabilityDidChangeMessage
+- _OBJC_METACLASS_$__RMSBonjourService
+- _OBJC_METACLASS_$__RMSNowPlayingArtworkCacheItem
+- _OBJC_METACLASS_$__RMSSessionRecord
+- _PBDataWriterWriteBOOLField
+- _PBDataWriterWriteDoubleField
+- _PBDataWriterWriteFloatField
+- _PBDataWriterWriteInt32Field
+- _PBDataWriterWriteInt64Field
+- _PBDataWriterWriteStringField
+- _PBDataWriterWriteSubmessage
+- _PBDataWriterWriteUint32Field
+- _PBDataWriterWriteUint64Field
+- _PBReaderPlaceMark
+- _PBReaderReadString
+- _PBReaderRecallMark
+- _PBReaderSkipValueWithTag
+- _SecCertificateCreateWithData
+- _SecKeyEncrypt
+- _SecPolicyCreateBasicX509
+- _SecTrustCopyPublicKey
+- _SecTrustCreateWithCertificates
+- _SecTrustEvaluate
+- _TVRMSAddToWishlistMessageReadFrom
+- _TVRMSAudioRouteMessageReadFrom
+- _TVRMSAudioRoutesDidUpdateMessageReadFrom
+- _TVRMSAvailableServicesDidUpdateMessageReadFrom
+- _TVRMSBeginDiscoveryMessageReadFrom
+- _TVRMSBeginPairingMessageReadFrom
+- _TVRMSBeginPairingResponseMessageReadFrom
+- _TVRMSConnectToServiceMessageReadFrom
+- _TVRMSConnectToServiceResponseMessageReadFrom
+- _TVRMSControlInterfaceMessageReadFrom
+- _TVRMSLogEx
+- _TVRMSLogEx.cold.1
+- _TVRMSNavigationCommandMessageReadFrom
+- _TVRMSNowPlayingArtworkAvailableMessageReadFrom
+- _TVRMSNowPlayingArtworkRequestMessageReadFrom
+- _TVRMSNowPlayingInfoDidUpdateMessageReadFrom
+- _TVRMSNowPlayingInfoMessageReadFrom
+- _TVRMSPairingSessionDidPairMessageReadFrom
+- _TVRMSPickAudioRouteMessageReadFrom
+- _TVRMSPlaybackCommandMessageReadFrom
+- _TVRMSResponseCodeMessageReadFrom
+- _TVRMSSeekToPlaybackTimeMessageReadFrom
+- _TVRMSServiceMessageReadFrom
+- _TVRMSSessionMessageReadFrom
+- _TVRMSSetLikeStateMessageReadFrom
+- _TVRMSSetVolumeMessageReadFrom
+- _TVRMSTouchMessageReadFrom
+- _TVRMSUpdatePairedNetworNamesMessageReadFrom
+- _TVRMSVolumeDidUpdateMessageReadFrom
+- _TVRMSWifiAvailabilityDidChangeMessageReadFrom
+- __CFHTTPServerConnectionInvalidate
+- __CFHTTPServerConnectionSetClient
+- __CFHTTPServerConnectionSetDispatchQueue
+- __CFHTTPServerCopyProperty
+- __CFHTTPServerCreateService
+- __CFHTTPServerInvalidate
+- __CFHTTPServerRequestCopyProperty
+- __CFHTTPServerRequestCreateResponseMessage
+- __CFHTTPServerResponseCopyProperty
+- __CFHTTPServerResponseCreateWithData
+- __CFHTTPServerResponseEnqueue
+- __CFHTTPServerSetDispatchQueue
+- __CPLogLine
+- __HTTPServerCallback_didCloseConnection
+- __HTTPServerCallback_didOpenConnection
+- __HTTPServerCallback_didReceiveError
+- __HTTPServerCallback_invalidated
+- __HTTPServerConnectionCallback_didFailToSendResponse
+- __HTTPServerConnectionCallback_didReceiveError
+- __HTTPServerConnectionCallback_didReceiveRequest
+- __HTTPServerConnectionCallback_didSendResponse
+- __HTTPServerConnectionCallback_invalidated
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSURLComponents_$_TVRMSAdditions
+- __OBJC_$_CATEGORY_NSURLComponents_$_TVRMSAdditions
+- __OBJC_$_CLASS_METHODS_TVRMSAudioRoute
+- __OBJC_$_CLASS_METHODS_TVRMSDAAPParser
+- __OBJC_$_CLASS_METHODS_TVRMSNowPlayingArtworkCache
+- __OBJC_$_CLASS_METHODS_TVRMSService
+- __OBJC_$_INSTANCE_METHODS_TVRMSAddToWishlistMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSAudioRoute
+- __OBJC_$_INSTANCE_METHODS_TVRMSAudioRouteMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSAudioRoutesDidUpdateMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSAvailableServicesDidUpdateMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSBeginDiscoveryMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSBeginPairingMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSBeginPairingResponseMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSBonjourServiceProvider
+- __OBJC_$_INSTANCE_METHODS_TVRMSConnectToServiceMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSConnectToServiceResponseMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSControlInterface
+- __OBJC_$_INSTANCE_METHODS_TVRMSControlInterfaceMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSDAAPEncoder
+- __OBJC_$_INSTANCE_METHODS_TVRMSDAAPParser
+- __OBJC_$_INSTANCE_METHODS_TVRMSFairPlayKeyboardEncryption
+- __OBJC_$_INSTANCE_METHODS_TVRMSKeyboardInfo
+- __OBJC_$_INSTANCE_METHODS_TVRMSNavigationCommandMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSNowPlayingArtworkAvailableMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSNowPlayingArtworkCache
+- __OBJC_$_INSTANCE_METHODS_TVRMSNowPlayingArtworkRequestMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSNowPlayingInfo
+- __OBJC_$_INSTANCE_METHODS_TVRMSNowPlayingInfoDidUpdateMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSNowPlayingInfoMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSPairingServer
+- __OBJC_$_INSTANCE_METHODS_TVRMSPairingSessionDidPairMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSPickAudioRouteMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSPlaybackCommandMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSPowerAssertion
+- __OBJC_$_INSTANCE_METHODS_TVRMSResponseCodeMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSRunAssertion
+- __OBJC_$_INSTANCE_METHODS_TVRMSSeekToPlaybackTimeMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSService
+- __OBJC_$_INSTANCE_METHODS_TVRMSServiceMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSSessionManager
+- __OBJC_$_INSTANCE_METHODS_TVRMSSessionMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSSetLikeStateMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSSetVolumeMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSTouchMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSUpdatePairedNetworNamesMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSVolumeDidUpdateMessage
+- __OBJC_$_INSTANCE_METHODS_TVRMSWifiAvailabilityDidChangeMessage
+- __OBJC_$_INSTANCE_METHODS__RMSBonjourService
+- __OBJC_$_INSTANCE_METHODS__RMSNowPlayingArtworkCacheItem
+- __OBJC_$_INSTANCE_METHODS__RMSSessionRecord
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSAddToWishlistMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSAudioRoute
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSAudioRouteMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSAudioRoutesDidUpdateMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSAvailableServicesDidUpdateMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSBeginDiscoveryMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSBeginPairingMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSBeginPairingResponseMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSBonjourServiceProvider
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSConnectToServiceMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSConnectToServiceResponseMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSControlInterface
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSControlInterfaceMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSDAAPEncoder
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSFairPlayKeyboardEncryption
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSKeyboardInfo
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSNavigationCommandMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSNowPlayingArtworkAvailableMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSNowPlayingArtworkCache
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSNowPlayingArtworkRequestMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSNowPlayingInfo
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSNowPlayingInfoDidUpdateMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSNowPlayingInfoMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSPairingServer
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSPairingSessionDidPairMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSPickAudioRouteMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSPlaybackCommandMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSPowerAssertion
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSResponseCodeMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSSeekToPlaybackTimeMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSService
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSServiceMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSSessionManager
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSSessionMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSSetLikeStateMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSSetVolumeMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSTouchMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSUpdatePairedNetworNamesMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSVolumeDidUpdateMessage
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSWifiAvailabilityDidChangeMessage
+- __OBJC_$_INSTANCE_VARIABLES__RMSBonjourService
+- __OBJC_$_INSTANCE_VARIABLES__RMSNowPlayingArtworkCacheItem
+- __OBJC_$_INSTANCE_VARIABLES__RMSSessionRecord
+- __OBJC_$_PROP_LIST_TVRMSAddToWishlistMessage
+- __OBJC_$_PROP_LIST_TVRMSAudioRoute
+- __OBJC_$_PROP_LIST_TVRMSAudioRouteMessage
+- __OBJC_$_PROP_LIST_TVRMSAudioRoutesDidUpdateMessage
+- __OBJC_$_PROP_LIST_TVRMSAvailableServicesDidUpdateMessage
+- __OBJC_$_PROP_LIST_TVRMSBeginDiscoveryMessage
+- __OBJC_$_PROP_LIST_TVRMSBeginPairingMessage
+- __OBJC_$_PROP_LIST_TVRMSBeginPairingResponseMessage
+- __OBJC_$_PROP_LIST_TVRMSBonjourServiceProvider
+- __OBJC_$_PROP_LIST_TVRMSConnectToServiceMessage
+- __OBJC_$_PROP_LIST_TVRMSConnectToServiceResponseMessage
+- __OBJC_$_PROP_LIST_TVRMSControlInterface
+- __OBJC_$_PROP_LIST_TVRMSControlInterfaceMessage
+- __OBJC_$_PROP_LIST_TVRMSDAAPEncoder
+- __OBJC_$_PROP_LIST_TVRMSKeyboardInfo
+- __OBJC_$_PROP_LIST_TVRMSNavigationCommandMessage
+- __OBJC_$_PROP_LIST_TVRMSNowPlayingArtworkAvailableMessage
+- __OBJC_$_PROP_LIST_TVRMSNowPlayingArtworkRequestMessage
+- __OBJC_$_PROP_LIST_TVRMSNowPlayingInfo
+- __OBJC_$_PROP_LIST_TVRMSNowPlayingInfoDidUpdateMessage
+- __OBJC_$_PROP_LIST_TVRMSNowPlayingInfoMessage
+- __OBJC_$_PROP_LIST_TVRMSPairingServer
+- __OBJC_$_PROP_LIST_TVRMSPairingSessionDidPairMessage
+- __OBJC_$_PROP_LIST_TVRMSPickAudioRouteMessage
+- __OBJC_$_PROP_LIST_TVRMSPlaybackCommandMessage
+- __OBJC_$_PROP_LIST_TVRMSResponseCodeMessage
+- __OBJC_$_PROP_LIST_TVRMSSeekToPlaybackTimeMessage
+- __OBJC_$_PROP_LIST_TVRMSService
+- __OBJC_$_PROP_LIST_TVRMSServiceMessage
+- __OBJC_$_PROP_LIST_TVRMSServiceProvider
+- __OBJC_$_PROP_LIST_TVRMSSessionManager
+- __OBJC_$_PROP_LIST_TVRMSSessionMessage
+- __OBJC_$_PROP_LIST_TVRMSSetLikeStateMessage
+- __OBJC_$_PROP_LIST_TVRMSSetVolumeMessage
+- __OBJC_$_PROP_LIST_TVRMSTouchMessage
+- __OBJC_$_PROP_LIST_TVRMSUpdatePairedNetworNamesMessage
+- __OBJC_$_PROP_LIST_TVRMSVolumeDidUpdateMessage
+- __OBJC_$_PROP_LIST_TVRMSWifiAvailabilityDidChangeMessage
+- __OBJC_$_PROP_LIST__RMSBonjourService
+- __OBJC_$_PROP_LIST__RMSNowPlayingArtworkCacheItem
+- __OBJC_$_PROP_LIST__RMSSessionRecord
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSDiscardableContent
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSNetServiceBrowserDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSNetServiceDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRMSServiceProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSDiscardableContent
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSNetServiceBrowserDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSNetServiceDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRMSServiceProvider
+- __OBJC_$_PROTOCOL_REFS_NSNetServiceBrowserDelegate
+- __OBJC_$_PROTOCOL_REFS_NSNetServiceDelegate
+- __OBJC_$_PROTOCOL_REFS_TVRMSServiceProvider
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSAddToWishlistMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSAudioRouteMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSAudioRoutesDidUpdateMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSAvailableServicesDidUpdateMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSBeginDiscoveryMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSBeginPairingMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSBeginPairingResponseMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSBonjourServiceProvider
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSConnectToServiceMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSConnectToServiceResponseMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSControlInterfaceMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSNavigationCommandMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSNowPlayingArtworkAvailableMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSNowPlayingArtworkRequestMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSNowPlayingInfoDidUpdateMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSNowPlayingInfoMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSPairingSessionDidPairMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSPickAudioRouteMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSPlaybackCommandMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSResponseCodeMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSSeekToPlaybackTimeMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSServiceMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSSessionMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSSetLikeStateMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSSetVolumeMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSTouchMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSUpdatePairedNetworNamesMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSVolumeDidUpdateMessage
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSWifiAvailabilityDidChangeMessage
+- __OBJC_CLASS_PROTOCOLS_$__RMSNowPlayingArtworkCacheItem
+- __OBJC_CLASS_RO_$_TVRMSAddToWishlistMessage
+- __OBJC_CLASS_RO_$_TVRMSAudioRoute
+- __OBJC_CLASS_RO_$_TVRMSAudioRouteMessage
+- __OBJC_CLASS_RO_$_TVRMSAudioRoutesDidUpdateMessage
+- __OBJC_CLASS_RO_$_TVRMSAvailableServicesDidUpdateMessage
+- __OBJC_CLASS_RO_$_TVRMSBeginDiscoveryMessage
+- __OBJC_CLASS_RO_$_TVRMSBeginPairingMessage
+- __OBJC_CLASS_RO_$_TVRMSBeginPairingResponseMessage
+- __OBJC_CLASS_RO_$_TVRMSBonjourServiceProvider
+- __OBJC_CLASS_RO_$_TVRMSConnectToServiceMessage
+- __OBJC_CLASS_RO_$_TVRMSConnectToServiceResponseMessage
+- __OBJC_CLASS_RO_$_TVRMSControlInterface
+- __OBJC_CLASS_RO_$_TVRMSControlInterfaceMessage
+- __OBJC_CLASS_RO_$_TVRMSDAAPEncoder
+- __OBJC_CLASS_RO_$_TVRMSDAAPParser
+- __OBJC_CLASS_RO_$_TVRMSFairPlayKeyboardEncryption
+- __OBJC_CLASS_RO_$_TVRMSKeyboardInfo
+- __OBJC_CLASS_RO_$_TVRMSNavigationCommandMessage
+- __OBJC_CLASS_RO_$_TVRMSNowPlayingArtworkAvailableMessage
+- __OBJC_CLASS_RO_$_TVRMSNowPlayingArtworkCache
+- __OBJC_CLASS_RO_$_TVRMSNowPlayingArtworkRequestMessage
+- __OBJC_CLASS_RO_$_TVRMSNowPlayingInfo
+- __OBJC_CLASS_RO_$_TVRMSNowPlayingInfoDidUpdateMessage
+- __OBJC_CLASS_RO_$_TVRMSNowPlayingInfoMessage
+- __OBJC_CLASS_RO_$_TVRMSPairingServer
+- __OBJC_CLASS_RO_$_TVRMSPairingSessionDidPairMessage
+- __OBJC_CLASS_RO_$_TVRMSPickAudioRouteMessage
+- __OBJC_CLASS_RO_$_TVRMSPlaybackCommandMessage
+- __OBJC_CLASS_RO_$_TVRMSPowerAssertion
+- __OBJC_CLASS_RO_$_TVRMSResponseCodeMessage
+- __OBJC_CLASS_RO_$_TVRMSRunAssertion
+- __OBJC_CLASS_RO_$_TVRMSSeekToPlaybackTimeMessage
+- __OBJC_CLASS_RO_$_TVRMSService
+- __OBJC_CLASS_RO_$_TVRMSServiceMessage
+- __OBJC_CLASS_RO_$_TVRMSSessionManager
+- __OBJC_CLASS_RO_$_TVRMSSessionMessage
+- __OBJC_CLASS_RO_$_TVRMSSetLikeStateMessage
+- __OBJC_CLASS_RO_$_TVRMSSetVolumeMessage
+- __OBJC_CLASS_RO_$_TVRMSTouchMessage
+- __OBJC_CLASS_RO_$_TVRMSUpdatePairedNetworNamesMessage
+- __OBJC_CLASS_RO_$_TVRMSVolumeDidUpdateMessage
+- __OBJC_CLASS_RO_$_TVRMSWifiAvailabilityDidChangeMessage
+- __OBJC_CLASS_RO_$__RMSBonjourService
+- __OBJC_CLASS_RO_$__RMSNowPlayingArtworkCacheItem
+- __OBJC_CLASS_RO_$__RMSSessionRecord
+- __OBJC_LABEL_PROTOCOL_$_NSDiscardableContent
+- __OBJC_LABEL_PROTOCOL_$_NSNetServiceBrowserDelegate
+- __OBJC_LABEL_PROTOCOL_$_NSNetServiceDelegate
+- __OBJC_LABEL_PROTOCOL_$_TVRMSServiceProvider
+- __OBJC_METACLASS_RO_$_TVRMSAddToWishlistMessage
+- __OBJC_METACLASS_RO_$_TVRMSAudioRoute
+- __OBJC_METACLASS_RO_$_TVRMSAudioRouteMessage
+- __OBJC_METACLASS_RO_$_TVRMSAudioRoutesDidUpdateMessage
+- __OBJC_METACLASS_RO_$_TVRMSAvailableServicesDidUpdateMessage
+- __OBJC_METACLASS_RO_$_TVRMSBeginDiscoveryMessage
+- __OBJC_METACLASS_RO_$_TVRMSBeginPairingMessage
+- __OBJC_METACLASS_RO_$_TVRMSBeginPairingResponseMessage
+- __OBJC_METACLASS_RO_$_TVRMSBonjourServiceProvider
+- __OBJC_METACLASS_RO_$_TVRMSConnectToServiceMessage
+- __OBJC_METACLASS_RO_$_TVRMSConnectToServiceResponseMessage
+- __OBJC_METACLASS_RO_$_TVRMSControlInterface
+- __OBJC_METACLASS_RO_$_TVRMSControlInterfaceMessage
+- __OBJC_METACLASS_RO_$_TVRMSDAAPEncoder
+- __OBJC_METACLASS_RO_$_TVRMSDAAPParser
+- __OBJC_METACLASS_RO_$_TVRMSFairPlayKeyboardEncryption
+- __OBJC_METACLASS_RO_$_TVRMSKeyboardInfo
+- __OBJC_METACLASS_RO_$_TVRMSNavigationCommandMessage
+- __OBJC_METACLASS_RO_$_TVRMSNowPlayingArtworkAvailableMessage
+- __OBJC_METACLASS_RO_$_TVRMSNowPlayingArtworkCache
+- __OBJC_METACLASS_RO_$_TVRMSNowPlayingArtworkRequestMessage
+- __OBJC_METACLASS_RO_$_TVRMSNowPlayingInfo
+- __OBJC_METACLASS_RO_$_TVRMSNowPlayingInfoDidUpdateMessage
+- __OBJC_METACLASS_RO_$_TVRMSNowPlayingInfoMessage
+- __OBJC_METACLASS_RO_$_TVRMSPairingServer
+- __OBJC_METACLASS_RO_$_TVRMSPairingSessionDidPairMessage
+- __OBJC_METACLASS_RO_$_TVRMSPickAudioRouteMessage
+- __OBJC_METACLASS_RO_$_TVRMSPlaybackCommandMessage
+- __OBJC_METACLASS_RO_$_TVRMSPowerAssertion
+- __OBJC_METACLASS_RO_$_TVRMSResponseCodeMessage
+- __OBJC_METACLASS_RO_$_TVRMSRunAssertion
+- __OBJC_METACLASS_RO_$_TVRMSSeekToPlaybackTimeMessage
+- __OBJC_METACLASS_RO_$_TVRMSService
+- __OBJC_METACLASS_RO_$_TVRMSServiceMessage
+- __OBJC_METACLASS_RO_$_TVRMSSessionManager
+- __OBJC_METACLASS_RO_$_TVRMSSessionMessage
+- __OBJC_METACLASS_RO_$_TVRMSSetLikeStateMessage
+- __OBJC_METACLASS_RO_$_TVRMSSetVolumeMessage
+- __OBJC_METACLASS_RO_$_TVRMSTouchMessage
+- __OBJC_METACLASS_RO_$_TVRMSUpdatePairedNetworNamesMessage
+- __OBJC_METACLASS_RO_$_TVRMSVolumeDidUpdateMessage
+- __OBJC_METACLASS_RO_$_TVRMSWifiAvailabilityDidChangeMessage
+- __OBJC_METACLASS_RO_$__RMSBonjourService
+- __OBJC_METACLASS_RO_$__RMSNowPlayingArtworkCacheItem
+- __OBJC_METACLASS_RO_$__RMSSessionRecord
+- __OBJC_PROTOCOL_$_NSDiscardableContent
+- __OBJC_PROTOCOL_$_NSNetServiceBrowserDelegate
+- __OBJC_PROTOCOL_$_NSNetServiceDelegate
+- __OBJC_PROTOCOL_$_TVRMSServiceProvider
+- __RMSInitializeLogLevel
+- __RMSLogDateFormat.dateFormatter
+- __RMSLogDateFormat.once
+- __RMSLogLevelChangedHandler
+- __RMSLoggingInitialize.onceToken
+- __TVRCRMSLog
+- __TVRCRMSLog.cold.1
+- __TVRCRMSLog.log
+- __TVRCRMSLog.onceToken
+- ___32-[TVRMSPairingServer stopServer]_block_invoke
+- ___33+[TVRMSDAAPParser sharedInstance]_block_invoke
+- ___37-[TVRMSDAAPParser parseLogin:length:]_block_invoke
+- ___42-[TVRMSDAAPParser parseServerInfo:length:]_block_invoke
+- ___43-[TVRMSDAAPParser parseListingItem:length:]_block_invoke
+- ___44-[TVRMSDAAPParser parseContentCodes:length:]_block_invoke
+- ___44-[TVRMSSessionManager identifierForSession:]_block_invoke
+- ___45-[TVRMSDAAPParser parseBrowseResults:length:]_block_invoke
+- ___45-[TVRMSDAAPParser parseListingHeader:length:]_block_invoke
+- ___49+[TVRMSNowPlayingArtworkCache sharedArtworkCache]_block_invoke
+- ___49-[TVRMSDAAPParser parseMACAddressListing:length:]_block_invoke
+- ___49-[TVRMSDAAPParser parseQueueSectionItems:length:]_block_invoke
+- ___51-[TVRMSDAAPParser parseGetSpeakersResponse:length:]_block_invoke
+- ___52-[TVRMSDAAPParser parseDACPPropertyResponse:length:]_block_invoke
+- ___52-[TVRMSSessionManager refreshSessionWithIdentifier:]_block_invoke
+- ___53-[TVRMSDAAPParser parseContentCollectionDict:length:]_block_invoke
+- ___53-[TVRMSDAAPParser parseControlPromptResponse:length:]_block_invoke
+- ___55-[TVRMSDAAPParser parseControlPromptCollection:length:]_block_invoke
+- ___66-[TVRMSPairingServer handleHTTPServerConnectionDidReceiveRequest:]_block_invoke
+- ___66-[TVRMSSessionManager endSessionWithIdentifier:completionHandler:]_block_invoke
+- ___72-[TVRMSSessionManager _scheduleSessionExpirationWithIdentifier:timeout:]_block_invoke
+- ___73-[NSURLComponents(TVRMSAdditions) rms_componentsByAddingQueryParameters:]_block_invoke
+- ___73-[TVRMSDAAPParser parseListingCollection:length:capacity:sectionHeaders:]_block_invoke
+- ___87-[TVRMSSessionManager beginSession:timeout:shouldTakePowerAssertion:completionHandler:]_block_invoke
+- ____RMSLogDateFormat_block_invoke
+- ____RMSLogDateFormat_block_invoke.cold.1
+- ____RMSLoggingInitialize_block_invoke
+- ____RMSLoggingInitialize_block_invoke_2
+- ____RMSLoggingInitialize_block_invoke_2.cold.1
+- ____TVRCRMSLog_block_invoke
+- ___activeQueries
+- ___assert_rtn
+- ___block_descriptor_32_e15_v32?0816^B24l
+- ___block_descriptor_32_e98_^{__CFString=}76?0i8^{__CFDate=}12^{__CFString=}20^{__CFString=}28r*36r*44Q52^v60^{__CFString=}68l
+- ___block_descriptor_40_e8_32s_e15_v32?0816^B24ls32l8
+- ___block_descriptor_44_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_44_e8_32w_e5_v8?0lw32l8
+- ___block_descriptor_48_e8_32s40r_e34_v32?08"_RMSSessionRecord"16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e44_v24?0{RSDAAPChunk={RSDAAPChunkHeader=II}*}8lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e44_v24?0{RSDAAPChunk={RSDAAPChunkHeader=II}*}8ls32l8r40l8
+- ___block_descriptor_48_e8_32s_e19_v24?0q8"NSData"16ls32l8
+- ___block_descriptor_52_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_56_e8_32s40r48r_e44_v24?0{RSDAAPChunk={RSDAAPChunkHeader=II}*}8lr40l8s32l8r48l8
+- ___block_descriptor_56_e8_32s40r48r_e44_v24?0{RSDAAPChunk={RSDAAPChunkHeader=II}*}8ls32l8r40l8r48l8
+- ___block_descriptor_56_e8_32s40r_e44_v24?0{RSDAAPChunk={RSDAAPChunkHeader=II}*}8ls32l8r40l8
+- ___block_descriptor_61_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___lastKnownDeviceSet
+- ___memcpy_chk
+- __dispatch_queue_attr_concurrent
+- __kCFHTTPServerRequestHTTPVersion
+- __kCFHTTPServerRequestMethod
+- __kCFHTTPServerRequestURL
+- __kCFHTTPServerResponseMessage
+- __kCFHTTPServerServicePort
+- _arc4random
+- _kCFAllocatorDefault
+- _kCFHTTPVersion1_1
+- _kCFTypeDictionaryKeyCallBacks
+- _kCFTypeDictionaryValueCallBacks
+- _objc_autorelease
+- _objc_begin_catch
+- _objc_end_catch
+- _objc_exception_rethrow
+- _objc_msgSend$TXTRecordData
+- _objc_msgSend$_convertDataToString:
+- _objc_msgSend$_convertStringToData:
+- _objc_msgSend$_identifierForNetService:
+- _objc_msgSend$_parsedQueryParametersWithQueryString:
+- _objc_msgSend$_scheduleSessionExpirationWithIdentifier:timeout:
+- _objc_msgSend$_searchString
+- _objc_msgSend$_setError
+- _objc_msgSend$_uniqueSessionIdentifier
+- _objc_msgSend$_updateCacheWithService:identifier:
+- _objc_msgSend$_updatePersistedSessionIdentifiers
+- _objc_msgSend$_updateService:withNetService:txtData:
+- _objc_msgSend$_valueForTXTRecordKey:inTXTDictionary:
+- _objc_msgSend$_verifyCert:
+- _objc_msgSend$addAudioRoutes:
+- _objc_msgSend$addPairedNetworkNames:
+- _objc_msgSend$addServices:
+- _objc_msgSend$albumName
+- _objc_msgSend$appendBytes:length:
+- _objc_msgSend$arrayWithCapacity:
+- _objc_msgSend$artistName
+- _objc_msgSend$artworkData
+- _objc_msgSend$artworkDataForIdentifier:
+- _objc_msgSend$artworkIdentifier
+- _objc_msgSend$audioRoutesAtIndex:
+- _objc_msgSend$audioRoutesCount
+- _objc_msgSend$beginContentAccess
+- _objc_msgSend$bundleForClass:
+- _objc_msgSend$canSkipNext
+- _objc_msgSend$canSkipPrevious
+- _objc_msgSend$canWishlist
+- _objc_msgSend$clearAudioRoutes
+- _objc_msgSend$clearPairedNetworkNames
+- _objc_msgSend$clearServices
+- _objc_msgSend$componentsWithURL:resolvingAgainstBaseURL:
+- _objc_msgSend$dataWithBytesNoCopy:length:
+- _objc_msgSend$dataWithContentsOfFile:
+- _objc_msgSend$databaseID
+- _objc_msgSend$dictionaryFromTXTRecordData:
+- _objc_msgSend$displayName
+- _objc_msgSend$encodeBytes:length:forCode:
+- _objc_msgSend$encodeData:forCode:
+- _objc_msgSend$encodeInt64:forCode:
+- _objc_msgSend$encodeString:forCode:
+- _objc_msgSend$endContentAccess
+- _objc_msgSend$enumerateDAAPChunksInBytes:length:usingBlock:
+- _objc_msgSend$enumerateKeysAndObjectsUsingBlock:
+- _objc_msgSend$getBytes:range:
+- _objc_msgSend$handleHTTPServerConnectionDidFailToReplyToRequest:withResponse:
+- _objc_msgSend$handleHTTPServerConnectionDidReceiveError:
+- _objc_msgSend$handleHTTPServerConnectionDidReceiveRequest:
+- _objc_msgSend$handleHTTPServerConnectionDidReplyToRequest:withResponse:
+- _objc_msgSend$handleHTTPServerConnectionInvalidated
+- _objc_msgSend$handleHTTPServerDidCloseConnection:
+- _objc_msgSend$handleHTTPServerDidOpenConnection:
+- _objc_msgSend$handleHTTPServerDidReceiveError:
+- _objc_msgSend$handleHTTPServerInvalidated
+- _objc_msgSend$hasChapterData
+- _objc_msgSend$hasError
+- _objc_msgSend$homeSharingGroupKey
+- _objc_msgSend$hostName
+- _objc_msgSend$initWithBytes:length:encoding:
+- _objc_msgSend$initWithCapacity:
+- _objc_msgSend$initWithData:
+- _objc_msgSend$initWithFormat:arguments:
+- _objc_msgSend$initWithName:
+- _objc_msgSend$initWithProtobuf:
+- _objc_msgSend$initWithUnsignedInt:
+- _objc_msgSend$isAvailable
+- _objc_msgSend$isEqualToService:
+- _objc_msgSend$isMemberOfClass:
+- _objc_msgSend$isSelected
+- _objc_msgSend$itemID
+- _objc_msgSend$lengthOfBytesUsingEncoding:
+- _objc_msgSend$likeable
+- _objc_msgSend$likedState
+- _objc_msgSend$longLongValue
+- _objc_msgSend$macAddress
+- _objc_msgSend$mediaKind
+- _objc_msgSend$mergeFrom:
+- _objc_msgSend$networkName
+- _objc_msgSend$numberWithChar:
+- _objc_msgSend$numberWithFloat:
+- _objc_msgSend$numberWithShort:
+- _objc_msgSend$numberWithUnsignedChar:
+- _objc_msgSend$numberWithUnsignedInt:
+- _objc_msgSend$numberWithUnsignedLongLong:
+- _objc_msgSend$numberWithUnsignedShort:
+- _objc_msgSend$objectWithData:error:
+- _objc_msgSend$pairedNetworkNamesAtIndex:
+- _objc_msgSend$pairedNetworkNamesCount
+- _objc_msgSend$pairingServer:didFailToPairWithService:
+- _objc_msgSend$pairingServer:didPairWithService:pairingGUID:
+- _objc_msgSend$pairingServerDidFail:
+- _objc_msgSend$parseBrowseResults:length:
+- _objc_msgSend$parseContentCodes:length:
+- _objc_msgSend$parseContentCollectionDict:length:
+- _objc_msgSend$parseControlPromptCollection:length:
+- _objc_msgSend$parseControlPromptResponse:length:
+- _objc_msgSend$parseDACPPropertyResponse:length:
+- _objc_msgSend$parseGetSpeakersResponse:length:
+- _objc_msgSend$parseListingCollection:length:capacity:sectionHeaders:
+- _objc_msgSend$parseListingHeader:length:
+- _objc_msgSend$parseListingItem:length:
+- _objc_msgSend$parseLogin:length:
+- _objc_msgSend$parseMACAddressListing:length:
+- _objc_msgSend$parseQueueSectionItems:length:
+- _objc_msgSend$parseServerInfo:length:
+- _objc_msgSend$parseUTF8String:length:
+- _objc_msgSend$parseUnicodeCharacter:length:
+- _objc_msgSend$parseXMLContent:length:
+- _objc_msgSend$path
+- _objc_msgSend$pathForResource:ofType:
+- _objc_msgSend$pathWithComponents:
+- _objc_msgSend$port
+- _objc_msgSend$position
+- _objc_msgSend$powerAssertion
+- _objc_msgSend$processResponseCode:bytes:length:
+- _objc_msgSend$propertyListWithData:options:format:error:
+- _objc_msgSend$protobuf
+- _objc_msgSend$query
+- _objc_msgSend$refresh
+- _objc_msgSend$refreshCount
+- _objc_msgSend$resolveWithTimeout:
+- _objc_msgSend$revisionNumber
+- _objc_msgSend$scanHexInt:
+- _objc_msgSend$scrubbableState
+- _objc_msgSend$searchDomain
+- _objc_msgSend$searchForServicesOfType:inDomain:
+- _objc_msgSend$searchScope
+- _objc_msgSend$searchType
+- _objc_msgSend$selected
+- _objc_msgSend$serviceDiscoverySource
+- _objc_msgSend$serviceLegacyFlags
+- _objc_msgSend$serviceLegacyFlagsFromTXTDictionary:
+- _objc_msgSend$serviceProvider:serviceDidBecomeAvailable:
+- _objc_msgSend$serviceProvider:serviceDidBecomeUnavailable:
+- _objc_msgSend$serviceTypeFromTXTDictionary:
+- _objc_msgSend$servicesAtIndex:
+- _objc_msgSend$servicesCount
+- _objc_msgSend$session
+- _objc_msgSend$sessionManager:sessionDidTimeout:
+- _objc_msgSend$setAlbumName:
+- _objc_msgSend$setAppName:
+- _objc_msgSend$setArtistName:
+- _objc_msgSend$setArtworkData:
+- _objc_msgSend$setArtworkData:forIdentifier:
+- _objc_msgSend$setArtworkIdentifier:
+- _objc_msgSend$setAvailable:
+- _objc_msgSend$setBool:size:inDict:forKey:
+- _objc_msgSend$setCanSkipNext:
+- _objc_msgSend$setCanSkipPrevious:
+- _objc_msgSend$setCanWishlist:
+- _objc_msgSend$setControlInterface:
+- _objc_msgSend$setCountLimit:
+- _objc_msgSend$setDatabaseID:
+- _objc_msgSend$setDate:size:inDict:forKey:
+- _objc_msgSend$setDeviceModel:
+- _objc_msgSend$setDeviceName:
+- _objc_msgSend$setDisplayName:
+- _objc_msgSend$setEvictsObjectsWithDiscardedContent:
+- _objc_msgSend$setFloat32:size:inDict:forKey:
+- _objc_msgSend$setHasChapterData:
+- _objc_msgSend$setHomeSharingGroupKey:
+- _objc_msgSend$setHostName:
+- _objc_msgSend$setItemID:
+- _objc_msgSend$setLikeable:
+- _objc_msgSend$setLikedState:
+- _objc_msgSend$setMacAddress:
+- _objc_msgSend$setMediaKind:
+- _objc_msgSend$setNetService:
+- _objc_msgSend$setNetworkName:
+- _objc_msgSend$setPairingGUID:
+- _objc_msgSend$setPasscode:
+- _objc_msgSend$setPort:
+- _objc_msgSend$setPosition:
+- _objc_msgSend$setPowerAssertion:
+- _objc_msgSend$setQuery:
+- _objc_msgSend$setRefreshCount:
+- _objc_msgSend$setRevisionNumber:
+- _objc_msgSend$setRunAssertion:
+- _objc_msgSend$setSInt16:size:inDict:forKey:
+- _objc_msgSend$setSInt8:size:inDict:forKey:
+- _objc_msgSend$setScrubbableState:
+- _objc_msgSend$setSelected:
+- _objc_msgSend$setServiceDiscoverySource:
+- _objc_msgSend$setServiceLegacyFlags:
+- _objc_msgSend$setServiceNetworkName:
+- _objc_msgSend$setSession:
+- _objc_msgSend$setState:
+- _objc_msgSend$setString:size:inDict:forKey:
+- _objc_msgSend$setSupportsDirectionalControl:
+- _objc_msgSend$setSupportsSpeakerSelection:
+- _objc_msgSend$setSupportsVideo:
+- _objc_msgSend$setSupportsVolumeControl:
+- _objc_msgSend$setTimeout:
+- _objc_msgSend$setTotalDuration:
+- _objc_msgSend$setTrackName:
+- _objc_msgSend$setUInt16:size:inDict:forKey:
+- _objc_msgSend$setUInt32:size:inDict:forKey:
+- _objc_msgSend$setUInt64:size:inDict:forKey:
+- _objc_msgSend$setUInt8:size:inDict:forKey:
+- _objc_msgSend$setValue:forKey:
+- _objc_msgSend$startMonitoring
+- _objc_msgSend$stopServer
+- _objc_msgSend$stringWithCapacity:
+- _objc_msgSend$stringWithUTF8String:
+- _objc_msgSend$substringWithRange:
+- _objc_msgSend$supportsDirectionalControl
+- _objc_msgSend$supportsSpeakerSelection
+- _objc_msgSend$supportsVideo
+- _objc_msgSend$timeout
+- _objc_msgSend$totalDuration
+- _objc_msgSend$trackName
+- _objc_msgSend$typeForDRCPValueType:
+- _objc_msgSend$unknownChunk:
+- _objc_msgSend$unsignedShortValue
+- _objc_retain_x5
+- _objc_terminate
+- _random
+- _sharedArtworkCache.onceToken
+- _sharedArtworkCache.sharedArtworkCache
+- _srandom
+- _time
+CStrings:
++ "DeviceQuery"
++ "Resetting lastKnownDevices: %@"
++ "START: Active queries: %@ - before adding: %@; lastKnownDevices: %@"
++ "STOP: After removal active queries: %@, lastKnownDevices: %@"
++ "STOP: Removing %@ from activeQueries: %@"
++ "Sent touch event to companionLinkClient %{public}@"
++ "Updating identifier - old: %@ new: %@"
+- "%02X"
+- "%@ %@"
+- "%@ [%@] %@"
+- "%@%@%@"
+- "%@,_%@"
+- "%@-%@"
+- "%@=%@"
+- "%c%c%c%c"
+- "%lld-%lld"
+- "&"
+- "(null)"
+- ","
+- "/"
+- "/pair"
+- "0x%.16llX"
+- "6e1fcd66-79ec-430e-b5f5-42ee88a7a3c4"
+- "="
+- "@\"<TVRMSPairingServerDelegate>\""
+- "@\"<TVRMSServiceProviderDelegate>\""
+- "@\"<TVRMSServiceProviderDelegate>\"16@0:8"
+- "@\"<TVRMSSessionManagerDelegate>\""
+- "@\"NSCache\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableData\""
+- "@\"NSNetService\""
+- "@\"NSNetServiceBrowser\""
+- "@\"TVRMSControlInterfaceMessage\""
+- "@\"TVRMSNowPlayingInfoMessage\""
+- "@\"TVRMSPowerAssertion\""
+- "@\"TVRMSRunAssertion\""
+- "@\"TVRMSService\""
+- "@\"TVRMSServiceMessage\""
+- "@\"_RMSNowPlayingArtworkCacheItem\""
+- "@20@0:8i16"
+- "@28@0:8r*16I24"
+- "@32@0:8@16^@24"
+- "@32@0:8I16r*20I28"
+- "@40@0:8r*16I24i28^@32"
+- "AssertName"
+- "AssertType"
+- "Attempting to process XML response: %@"
+- "B40@0:8@16@24@32"
+- "Bonjour service no longer exists for: %@"
+- "BonjourCacheKey"
+- "C"
+- "Capella"
+- "Client-ATV-Sharing-Version"
+- "Connection"
+- "Content-Length"
+- "CtlN"
+- "DMAP returned status code %u"
+- "DNS resolution already complete for this service, updating clients immediately"
+- "Debug"
+- "DvTy"
+- "Ending session: %@"
+- "Error"
+- "Expected body length (%d bytes) exceeds received body length (%zd bytes); response code '%@'."
+- "Failed to parse DAAP response data. %@"
+- "Failed to start HTTP server for pin-pairing exchange"
+- "Found cached data for service: %@"
+- "Greymatter"
+- "HEAD"
+- "HTTP connection error: %@"
+- "HTTP connection invalidated"
+- "HTTP server did reply to request"
+- "HTTP server error: %@"
+- "HTTP server failed to reply to request"
+- "HTTP server for pin-pairing exchange started on port %u"
+- "HTTP server invalidated"
+- "HTTP server opened connection"
+- "HTTP server received pairing request"
+- "I16@0:8"
+- "Library"
+- "LogLevel"
+- "Logs"
+- "MMMdd H:mm:ss.SSS"
+- "Machine Name"
+- "NPGenre"
+- "NSDiscardableContent"
+- "NSNetServiceBrowserDelegate"
+- "NSNetServiceDelegate"
+- "Name"
+- "Net service browser did find service: %@"
+- "New log level is %@"
+- "Performing DNS resolution for service: %@"
+- "Power assertion created for %@"
+- "PreventUserIdleSystemSleep"
+- "R1"
+- "RMS"
+- "RMSLogging.m"
+- "RSDAAPParserErrorDomain"
+- "Received successful pairing request from %@; pairing GUID is %@."
+- "Received unsuccessful pairing request from %@; received passcode hash %@ but expected %@."
+- "Refreshing session: %@"
+- "RemoteMediaServices"
+- "Response did not include a body (only %zd bytes returned)."
+- "S"
+- "S16@0:8"
+- "START: Active queries: %@ - before adding: %@"
+- "STOP: Active queries: %@ - before removing: %@"
+- "Searching for services of type: %@"
+- "Service [%@] resolved and fully available: %@, source: %@"
+- "Service did not resolve: %@"
+- "Service no longer exists for: %@"
+- "Service txt record update: %@"
+- "Session expired: %@"
+- "SessionIdentifiers"
+- "Stopping HTTP server"
+- "T@\"<TVRMSPairingServerDelegate>\",W,N,V_delegate"
+- "T@\"<TVRMSServiceProviderDelegate>\",W,N"
+- "T@\"<TVRMSServiceProviderDelegate>\",W,N,V_delegate"
+- "T@\"<TVRMSSessionManagerDelegate>\",W,N,V_delegate"
+- "T@\"NSData\",&,N,V_artworkData"
+- "T@\"NSData\",R,N,V_data"
+- "T@\"NSMutableArray\",&,N,V_audioRoutes"
+- "T@\"NSMutableArray\",&,N,V_pairedNetworkNames"
+- "T@\"NSMutableArray\",&,N,V_services"
+- "T@\"NSNetService\",&,N,V_netService"
+- "T@\"NSNetServiceBrowser\",R,N,V_netServiceBrowser"
+- "T@\"NSString\",&,N,V_albumName"
+- "T@\"NSString\",&,N,V_appName"
+- "T@\"NSString\",&,N,V_artistName"
+- "T@\"NSString\",&,N,V_artworkIdentifier"
+- "T@\"NSString\",&,N,V_deviceModel"
+- "T@\"NSString\",&,N,V_deviceName"
+- "T@\"NSString\",&,N,V_displayName"
+- "T@\"NSString\",&,N,V_homeSharingGroupKey"
+- "T@\"NSString\",&,N,V_hostName"
+- "T@\"NSString\",&,N,V_networkName"
+- "T@\"NSString\",&,N,V_pairingGUID"
+- "T@\"NSString\",&,N,V_passcode"
+- "T@\"NSString\",&,N,V_serviceNetworkName"
+- "T@\"NSString\",&,N,V_subtitle"
+- "T@\"NSString\",&,N,V_text"
+- "T@\"NSString\",&,N,V_trackName"
+- "T@\"TVRMSControlInterfaceMessage\",&,N,V_controlInterface"
+- "T@\"TVRMSNowPlayingInfoMessage\",&,N,V_nowPlayingInfo"
+- "T@\"TVRMSPowerAssertion\",&,N,V_powerAssertion"
+- "T@\"TVRMSRunAssertion\",&,N,V_runAssertion"
+- "T@\"TVRMSService\",&,N,V_service"
+- "T@\"TVRMSServiceMessage\",&,N,V_service"
+- "T@,&,N,V_session"
+- "TB,N"
+- "TB,N,GisAvailable,V_available"
+- "TB,N,GisLikeable,V_likeable"
+- "TB,N,GisSelected,V_selected"
+- "TB,N,V_canSkipNext"
+- "TB,N,V_canSkipPrevious"
+- "TB,N,V_canWishlist"
+- "TB,N,V_hasChapterData"
+- "TB,N,V_hasPairedNetworkNames"
+- "TB,N,V_likeable"
+- "TB,N,V_secureText"
+- "TB,N,V_selected"
+- "TB,N,V_supportsDirectionalControl"
+- "TB,N,V_supportsSpeakerSelection"
+- "TB,N,V_supportsVideo"
+- "TB,N,V_supportsVolumeControl"
+- "TB,N,V_wifiAvailable"
+- "TB,R,N,GisPlaying"
+- "TI,N,V_height"
+- "TI,N,V_repeatCount"
+- "TI,N,V_revisionNumber"
+- "TI,N,V_width"
+- "TQ,N,V_databaseID"
+- "TQ,N,V_itemID"
+- "TQ,N,V_macAddress"
+- "TS,R,N,V_port"
+- "TVRMSAddToWishlistMessage"
+- "TVRMSAdditions"
+- "TVRMSAudioRoute"
+- "TVRMSAudioRouteMessage"
+- "TVRMSAudioRoutesDidUpdateMessage"
+- "TVRMSAvailableServicesDidUpdateMessage"
+- "TVRMSBeginDiscoveryMessage"
+- "TVRMSBeginPairingMessage"
+- "TVRMSBeginPairingResponseMessage"
+- "TVRMSBonjourServiceProvider"
+- "TVRMSConnectToServiceMessage"
+- "TVRMSConnectToServiceResponseMessage"
+- "TVRMSControlInterface"
+- "TVRMSControlInterfaceMessage"
+- "TVRMSDAAPEncoder"
+- "TVRMSDAAPParser"
+- "TVRMSFairPlayKeyboardEncryption"
+- "TVRMSKeyboardInfo"
+- "TVRMSMessageTypeAddToWishlist"
+- "TVRMSMessageTypeAddToWishlistResponse"
+- "TVRMSMessageTypeAudioRoutesDidUpdate"
+- "TVRMSMessageTypeAvailableServicesDidUpdate"
+- "TVRMSMessageTypeBeginDiscovery"
+- "TVRMSMessageTypeBeginDiscoveryResponse"
+- "TVRMSMessageTypeBeginObservingNowPlaying"
+- "TVRMSMessageTypeBeginObservingNowPlayingResponse"
+- "TVRMSMessageTypeBeginPairing"
+- "TVRMSMessageTypeBeginPairingResponse"
+- "TVRMSMessageTypeConnectToService"
+- "TVRMSMessageTypeConnectToServiceResponse"
+- "TVRMSMessageTypeEndDiscovery"
+- "TVRMSMessageTypeEndObservingNowPlaying"
+- "TVRMSMessageTypeEndPairing"
+- "TVRMSMessageTypeLogout"
+- "TVRMSMessageTypeNavigationCommand"
+- "TVRMSMessageTypeNowPlayingArtworkAvailable"
+- "TVRMSMessageTypeNowPlayingArtworkData"
+- "TVRMSMessageTypeNowPlayingArtworkDataResponse"
+- "TVRMSMessageTypeNowPlayingInfoDidUpdate"
+- "TVRMSMessageTypePairingDidFail"
+- "TVRMSMessageTypePairingDidSucceed"
+- "TVRMSMessageTypePickAudioRoute"
+- "TVRMSMessageTypePickAudioRouteResponse"
+- "TVRMSMessageTypePlaybackCommand"
+- "TVRMSMessageTypeSeekToPlaybackTime"
+- "TVRMSMessageTypeSeekToPlaybackTimeResponse"
+- "TVRMSMessageTypeSessionDidEnd"
+- "TVRMSMessageTypeSessionHeartbeat"
+- "TVRMSMessageTypeSessionHeartbeatResponse"
+- "TVRMSMessageTypeSetLikeState"
+- "TVRMSMessageTypeSetLikeStateResponse"
+- "TVRMSMessageTypeSetVolume"
+- "TVRMSMessageTypeTouchEnd"
+- "TVRMSMessageTypeTouchMove"
+- "TVRMSMessageTypeUpdatePairedNetworkNames"
+- "TVRMSMessageTypeVolumeDidUpdate"
+- "TVRMSMessageTypeWifiAvailabilityDidChange"
+- "TVRMSNavigationCommandMessage"
+- "TVRMSNowPlayingArtworkAvailableMessage"
+- "TVRMSNowPlayingArtworkCache"
+- "TVRMSNowPlayingArtworkRequestMessage"
+- "TVRMSNowPlayingInfo"
+- "TVRMSNowPlayingInfoDidUpdateMessage"
+- "TVRMSNowPlayingInfoMessage"
+- "TVRMSPairingServer"
+- "TVRMSPairingSessionDidPairMessage"
+- "TVRMSPickAudioRouteMessage"
+- "TVRMSPlaybackCommandMessage"
+- "TVRMSPowerAssertion"
+- "TVRMSResponseCodeAuthenticationError"
+- "TVRMSResponseCodeMessage"
+- "TVRMSResponseCodeSuccess"
+- "TVRMSResponseCodeTimeoutError"
+- "TVRMSResponseCodeUnknown"
+- "TVRMSResponseCodeUnknownError"
+- "TVRMSRunAssertion"
+- "TVRMSSeekToPlaybackTimeMessage"
+- "TVRMSService"
+- "TVRMSServiceMessage"
+- "TVRMSServiceProvider"
+- "TVRMSSessionManager"
+- "TVRMSSessionMessage"
+- "TVRMSSetLikeStateMessage"
+- "TVRMSSetVolumeMessage"
+- "TVRMSTouchMessage"
+- "TVRMSUpdatePairedNetworNamesMessage"
+- "TVRMSVolumeDidUpdateMessage"
+- "TVRMSWifiAvailabilityDidChangeMessage"
+- "TVRemoteLegacyDevicesDisabled"
+- "TVRemoteMediaServices"
+- "TXTRecordData"
+- "Td,N,V_timeRemaining"
+- "Td,N,V_timestamp"
+- "Td,N,V_totalDuration"
+- "Tf,N,V_compressionQuality"
+- "Tf,N,V_volume"
+- "Ti,N,V_direction"
+- "Ti,N,V_discoveryTypes"
+- "Ti,N,V_likeState"
+- "Ti,N,V_likedState"
+- "Ti,N,V_mediaKind"
+- "Ti,N,V_navigationCommand"
+- "Ti,N,V_playbackCommand"
+- "Ti,N,V_playbackState"
+- "Ti,N,V_playbackTime"
+- "Ti,N,V_port"
+- "Ti,N,V_refreshCount"
+- "Ti,N,V_responseCode"
+- "Ti,N,V_revisionNumber"
+- "Ti,N,V_scrubbableState"
+- "Ti,N,V_serviceDiscoverySource"
+- "Ti,N,V_serviceLegacyFlags"
+- "Ti,N,V_serviceType"
+- "Ti,N,V_sessionIdentifier"
+- "Ti,N,V_timeout"
+- "TimeoutAction"
+- "TimeoutActionTurnOff"
+- "TimeoutSeconds"
+- "Tq,N,V_keyboardInputType"
+- "Tq,N,V_keyboardType"
+- "Tq,N,V_likedState"
+- "Tq,N,V_macAddress"
+- "Tq,N,V_maximumCharacters"
+- "Tq,N,V_mediaKind"
+- "Tq,N,V_minimumCharacters"
+- "Tq,N,V_playbackState"
+- "Tq,N,V_scrubbableState"
+- "Tq,N,V_serviceDiscoverySource"
+- "Tq,N,V_serviceLegacyFlags"
+- "Tq,N,V_serviceType"
+- "Unable to update service cache: %@"
+- "Updating identifer - old: %@ new: %@"
+- "[%@] %@, type: %d, source: %d, HS key: %@, legacy flags: %d"
+- "[Track name: %@, Artist name: %@, Album name: %@, Duration: %f, Time Remaining: %f, Media kind: %d, Playback state: %d"
+- "^{_CFHTTPServer=}"
+- "^{__CFDictionary=}"
+- "^{__CFString=}76@?0i8^{__CFDate=}12^{__CFString=}20^{__CFString=}28r*36r*44Q52^v60^{__CFString=}68"
+- "^{__SecKey=}"
+- "_HTTPServer"
+- "_HTTPServerConnections"
+- "_HTTPServerQueue"
+- "_RMSBonjourService"
+- "_RMSLogDateFormat_block_invoke"
+- "_RMSNowPlayingArtworkCacheItem"
+- "_RMSSessionRecord"
+- "_advertisedDeviceModel"
+- "_advertisedDeviceName"
+- "_albumName"
+- "_appName"
+- "_artistName"
+- "_artworkData"
+- "_artworkIdentifier"
+- "_assertionID"
+- "_audioRoutes"
+- "_available"
+- "_cache"
+- "_canSkipNext"
+- "_canSkipPrevious"
+- "_canWishlist"
+- "_certIsTrusted"
+- "_challenge"
+- "_compressionQuality"
+- "_controlInterface"
+- "_convertDataToString:"
+- "_convertStringToData:"
+- "_daap._tcp."
+- "_data"
+- "_databaseID"
+- "_deviceModel"
+- "_deviceName"
+- "_direction"
+- "_discoveryTypes"
+- "_displayName"
+- "_expectedPasscodeHash"
+- "_has"
+- "_hasChapterData"
+- "_hasPairedNetworkNames"
+- "_height"
+- "_homeSharingGroupKey"
+- "_hostName"
+- "_identifierForNetService:"
+- "_itemID"
+- "_keepAlive"
+- "_keyboardInputType"
+- "_lastItem"
+- "_likeState"
+- "_likeable"
+- "_likedState"
+- "_macAddress"
+- "_maximumCharacters"
+- "_mediaKind"
+- "_minimumCharacters"
+- "_navigationCommand"
+- "_netService"
+- "_netServiceBrowser"
+- "_networkName"
+- "_pairedNetworkNames"
+- "_pairingGUID"
+- "_parsedQueryParametersWithQueryString:"
+- "_passcode"
+- "_playbackCommand"
+- "_playbackTime"
+- "_port"
+- "_powerAssertion"
+- "_pubKeyRef"
+- "_refreshCount"
+- "_repeatCount"
+- "_responseCode"
+- "_revisionNumber"
+- "_runAssertion"
+- "_scheduleSessionExpirationWithIdentifier:timeout:"
+- "_scrubbableState"
+- "_searchString"
+- "_secureText"
+- "_selected"
+- "_serviceDiscoverySource"
+- "_serviceLegacyFlags"
+- "_serviceNetworkName"
+- "_serviceType"
+- "_services"
+- "_session"
+- "_sessionIdentifier"
+- "_sessionManagerQueue"
+- "_sessions"
+- "_setError"
+- "_subtitle"
+- "_successfulPairingGUID"
+- "_successfulPairingServiceName"
+- "_supportsDirectionalControl"
+- "_supportsSpeakerSelection"
+- "_supportsVideo"
+- "_supportsVolumeControl"
+- "_timeout"
+- "_totalDuration"
+- "_trackName"
+- "_uniqueSessionIdentifier"
+- "_updateCacheWithService:identifier:"
+- "_updatePersistedSessionIdentifiers"
+- "_updateService:withNetService:txtData:"
+- "_valueForTXTRecordKey:inTXTDictionary:"
+- "_verifyCert:"
+- "_volume"
+- "_width"
+- "_wifiAvailable"
+- "action"
+- "addAudioRoutes:"
+- "addPairedNetworkNames:"
+- "addServices:"
+- "album"
+- "albumName"
+- "appName"
+- "appendBytes:length:"
+- "arcp.devicetype"
+- "arcp.manufacturer"
+- "arcp.model"
+- "arrayWithCapacity:"
+- "artistName"
+- "artworkData"
+- "artworkDataForIdentifier:"
+- "artworkDataForNowPlayingInfo:"
+- "artworkIdentifier"
+- "aspectRatio"
+- "audioRoutes"
+- "audioRoutesAtIndex:"
+- "audioRoutesCount"
+- "audioRoutesFromProtobufs:"
+- "available"
+- "availableRepeatStates"
+- "availableShuffleStates"
+- "b1b56718-0ea0-4953-8027-f60a618e56fd"
+- "basePlaylist"
+- "beginContentAccess"
+- "beginDiscovery"
+- "beginSession:timeout:shouldTakePowerAssertion:completionHandler:"
+- "boolean"
+- "bundleForClass:"
+- "canSkipNext"
+- "canSkipPrevious"
+- "canWishlist"
+- "capellaEnabled"
+- "clearAudioRoutes"
+- "clearPairedNetworkNames"
+- "clearServices"
+- "close"
+- "com.apple.ManagedConfiguration.profileListChanged"
+- "com.apple.TVRemoteMediaServices"
+- "com.apple.TVRemoteMediaServices.DAAPPairing"
+- "com.apple.TVRemoteMediaServices.LogLevelChanged"
+- "com.apple.itunes.active-queue-feed-name"
+- "com.apple.itunes.adam-id"
+- "com.apple.itunes.adam-ids-array"
+- "com.apple.itunes.artworkchecksum"
+- "com.apple.itunes.can-add-to-wishlist"
+- "com.apple.itunes.can-be-genius-seed"
+- "com.apple.itunes.cloud-artwork-url"
+- "com.apple.itunes.cloud-connect-status"
+- "com.apple.itunes.cloud-id"
+- "com.apple.itunes.cloud-user-id"
+- "com.apple.itunes.content-rating"
+- "com.apple.itunes.episode-num-str"
+- "com.apple.itunes.episode-sort"
+- "com.apple.itunes.has-chapter-data"
+- "com.apple.itunes.is-hd-video"
+- "com.apple.itunes.is-homeshare"
+- "com.apple.itunes.is-podcast"
+- "com.apple.itunes.item-redownload-param-2"
+- "com.apple.itunes.itms-songid"
+- "com.apple.itunes.itunes-machine-id"
+- "com.apple.itunes.jukebox-client-vote"
+- "com.apple.itunes.jukebox-score"
+- "com.apple.itunes.jukebox-vote"
+- "com.apple.itunes.jukebox-voting-enabled"
+- "com.apple.itunes.jukebox-welcome-message"
+- "com.apple.itunes.likeable"
+- "com.apple.itunes.liked-state"
+- "com.apple.itunes.manually-queued"
+- "com.apple.itunes.movie-info-xml"
+- "com.apple.itunes.music-sharing-version"
+- "com.apple.itunes.num-manually-queued"
+- "com.apple.itunes.playlist-contains-media-type"
+- "com.apple.itunes.playqueue-item-preform-meta"
+- "com.apple.itunes.playqueue-mode"
+- "com.apple.itunes.playqueue-section-headerlabel"
+- "com.apple.itunes.playqueue-section-headervalue"
+- "com.apple.itunes.playqueue-section-kind"
+- "com.apple.itunes.playqueue-section-numitems"
+- "com.apple.itunes.playqueue-section-startindex"
+- "com.apple.itunes.playqueue-warning-threshold"
+- "com.apple.itunes.queue-index"
+- "com.apple.itunes.remote-itunes-machine-id"
+- "com.apple.itunes.rental-duration"
+- "com.apple.itunes.rental-pb-duration"
+- "com.apple.itunes.rental-pb-start"
+- "com.apple.itunes.rental-start"
+- "com.apple.itunes.req-fplay"
+- "com.apple.itunes.saved-genius"
+- "com.apple.itunes.season-num"
+- "com.apple.itunes.series-name"
+- "com.apple.itunes.special-playlist"
+- "com.apple.itunes.store-pers-id"
+- "com.apple.itunes.supportedextensions"
+- "com.apple.itunes.supports-fprap"
+- "com.apple.itunes.supports-genius-control"
+- "com.apple.rms.sessionqueue"
+- "componentsWithURL:resolvingAgainstBaseURL:"
+- "compressionQuality"
+- "context"
+- "controlInterface"
+- "copyTo:"
+- "daap.bookmarkable"
+- "daap.groupalbumcount"
+- "daap.groupmatchedqueryalbumcount"
+- "daap.groupmatchedqueryitemcount"
+- "daap.playlistrepeatmode"
+- "daap.playlistshufflemode"
+- "daap.protocolversion"
+- "daap.songalbum"
+- "daap.songalbumartist"
+- "daap.songalbumid"
+- "daap.songartist"
+- "daap.songartistid"
+- "daap.songbookmark"
+- "daap.songcategory"
+- "daap.songcontentdescription"
+- "daap.songcontentrating"
+- "daap.songdataurl"
+- "daap.songdateadded"
+- "daap.songdatepurchased"
+- "daap.songdatereleased"
+- "daap.songdescription"
+- "daap.songformat"
+- "daap.songgenre"
+- "daap.songgrouping"
+- "daap.songhasbeenplayed"
+- "daap.songlongcontentdescription"
+- "daap.songpodcasturl"
+- "daap.songtime"
+- "daap.songtimeremaining"
+- "daap.songuserplaycount"
+- "daap.songuserrating"
+- "daap.sortalbum"
+- "daap.sortartist"
+- "daap.sortname"
+- "daap.supportsextradata"
+- "daap.supportsgroups"
+- "daap.supportssetproperty"
+- "daap.updateinfo"
+- "dacp.available-skip-states"
+- "dacp.macAddress"
+- "dacp.playerstate"
+- "dacp.protocolversion"
+- "dacp.scrubbable"
+- "dacp.selectedForAudio"
+- "dacp.selectedForVideo"
+- "dacp.supportsSpeakerSelection"
+- "dacp.supportsVideo"
+- "dacp.supportsVolume"
+- "dacp.volume"
+- "dacp.volumecontrollable"
+- "dataWithBytesNoCopy:length:"
+- "dataWithContentsOfFile:"
+- "databaseID"
+- "dateFormatter"
+- "der"
+- "deviceModel"
+- "deviceName"
+- "dictionaryFromTXTRecordData:"
+- "direction"
+- "discardContentIfPossible"
+- "discoveryTypes"
+- "dmap.authenticationmethod"
+- "dmap.authenticationschemes"
+- "dmap.container"
+- "dmap.containeritemid"
+- "dmap.databaseid"
+- "dmap.databasekind"
+- "dmap.databasescount"
+- "dmap.downloadstatus"
+- "dmap.editcommandssupported"
+- "dmap.errorresponse"
+- "dmap.groupdownloadstatus"
+- "dmap.itemcount"
+- "dmap.itemid"
+- "dmap.itemname"
+- "dmap.itemstoreid"
+- "dmap.listingitem"
+- "dmap.loginrequired"
+- "dmap.macaddresslisting"
+- "dmap.parentcontainerid"
+- "dmap.persistentid"
+- "dmap.playlistid"
+- "dmap.protocolversion"
+- "dmap.remotepersistentid"
+- "dmap.serverrevision"
+- "dmap.status"
+- "dmap.supportsautologout"
+- "dmap.supportsbrowse"
+- "dmap.supportscombinedupdate"
+- "dmap.supportsedit"
+- "dmap.supportsextensions"
+- "dmap.supportsindex"
+- "dmap.supportspersistentids"
+- "dmap.supportsquery"
+- "dmap.supportsresolve"
+- "dmap.supportsupdate"
+- "dmap.timeoutinterval"
+- "dmap.utcoffset"
+- "dmap.utctime"
+- "dmcp.bonjoursourcesrevision"
+- "dmcp.playstatusrevision"
+- "dmcp.protocolversion"
+- "dpad"
+- "dpap.protocolversion"
+- "encodeBytes:length:forCode:"
+- "encodeData:forCode:"
+- "encodeInt32:forCode:"
+- "encodeInt64:forCode:"
+- "encodeString:forCode:"
+- "encryptString:"
+- "endContentAccess"
+- "endDiscovery"
+- "endSessionWithIdentifier:completionHandler:"
+- "enumerateDAAPChunksInBytes:length:usingBlock:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "f"
+- "f16@0:8"
+- "fileData"
+- "float"
+- "fullscreen"
+- "fullscreenEnabled"
+- "getBytes:range:"
+- "greymatterEnabled"
+- "group"
+- "hG"
+- "handleHTTPServerConnectionDidFailToReplyToRequest:withResponse:"
+- "handleHTTPServerConnectionDidReceiveError:"
+- "handleHTTPServerConnectionDidReceiveRequest:"
+- "handleHTTPServerConnectionDidReplyToRequest:withResponse:"
+- "handleHTTPServerConnectionInvalidated"
+- "handleHTTPServerDidCloseConnection:"
+- "handleHTTPServerDidOpenConnection:"
+- "handleHTTPServerDidReceiveError:"
+- "handleHTTPServerInvalidated"
+- "hasAlbumName"
+- "hasAppName"
+- "hasArtistName"
+- "hasArtworkIdentifier"
+- "hasCanSkipNext"
+- "hasCanSkipPrevious"
+- "hasCanWishlist"
+- "hasChapterData"
+- "hasCompressionQuality"
+- "hasControlInterface"
+- "hasDatabaseID"
+- "hasDeviceModel"
+- "hasDeviceName"
+- "hasDirection"
+- "hasDiscoveryTypes"
+- "hasDisplayName"
+- "hasError"
+- "hasHasChapterData"
+- "hasHasPairedNetworkNames"
+- "hasHeight"
+- "hasHomeSharingGroupKey"
+- "hasHostName"
+- "hasItemID"
+- "hasLikeState"
+- "hasLikeable"
+- "hasLikedState"
+- "hasMacAddress"
+- "hasMediaKind"
+- "hasNavigationCommand"
+- "hasNetworkName"
+- "hasNowPlayingInfo"
+- "hasPairedNetworkNames"
+- "hasPairingGUID"
+- "hasPasscode"
+- "hasPassword"
+- "hasPlaybackCommand"
+- "hasPlaybackState"
+- "hasPlaybackTime"
+- "hasPort"
+- "hasRepeatCount"
+- "hasResponseCode"
+- "hasRevisionNumber"
+- "hasScrubbableState"
+- "hasSelected"
+- "hasService"
+- "hasServiceDiscoverySource"
+- "hasServiceLegacyFlags"
+- "hasServiceNetworkName"
+- "hasServiceType"
+- "hasSessionIdentifier"
+- "hasSupportsDirectionalControl"
+- "hasSupportsSpeakerSelection"
+- "hasSupportsVideo"
+- "hasSupportsVolumeControl"
+- "hasTimeRemaining"
+- "hasTimestamp"
+- "hasTotalDuration"
+- "hasTrackName"
+- "hasVideo"
+- "hasVolume"
+- "hasWidth"
+- "hasWifiAvailable"
+- "headerItemCharacter"
+- "headerItemCount"
+- "headerItemIndex"
+- "headers"
+- "historySection"
+- "homeSharingGroupKey"
+- "hostName"
+- "identifierForSession:"
+- "image"
+- "indexed"
+- "initWithBytes:length:encoding:"
+- "initWithCapacity:"
+- "initWithData:"
+- "initWithFormat:arguments:"
+- "initWithItemsArray:"
+- "initWithName:"
+- "initWithProtobuf:"
+- "initWithUnsignedInt:"
+- "isAvailable"
+- "isContentDiscarded"
+- "isEqualToAudioRoute:"
+- "isEqualToService:"
+- "isLegacy"
+- "isLikeable"
+- "isPlaying"
+- "isSelected"
+- "isTrusted"
+- "item"
+- "itemID"
+- "jukeboxCurrent"
+- "kExtDACPSupportediTunesExtensionsCode"
+- "kKeybMsgKey_KeyboardType"
+- "kKeybMsgKey_MaxCharacters"
+- "kKeybMsgKey_MinCharacters"
+- "kKeybMsgKey_SecureText"
+- "kKeybMsgKey_String"
+- "kKeybMsgKey_SubText"
+- "kKeybMsgKey_TextInputType"
+- "kKeybMsgKey_Title"
+- "keyboardInputType"
+- "keyed"
+- "legacyDevicesDisabled"
+- "lengthOfBytesUsingEncoding:"
+- "libraryDisplayName"
+- "libraryServiceDomain"
+- "libraryServiceName"
+- "libraryServiceType"
+- "likeState"
+- "likeable"
+- "likedState"
+- "local."
+- "longLongValue"
+- "macAddress"
+- "maximum"
+- "maximumCharacters"
+- "mediaKind"
+- "mergeFrom:"
+- "minimum"
+- "minimumCharacters"
+- "mobile"
+- "navigationCommand"
+- "netService"
+- "netService:didAcceptConnectionWithInputStream:outputStream:"
+- "netService:didNotPublish:"
+- "netService:didNotResolve:"
+- "netService:didUpdateTXTRecordData:"
+- "netServiceBrowser"
+- "netServiceBrowser:didFindDomain:moreComing:"
+- "netServiceBrowser:didFindService:moreComing:"
+- "netServiceBrowser:didNotSearch:"
+- "netServiceBrowser:didRemoveDomain:moreComing:"
+- "netServiceBrowser:didRemoveService:moreComing:"
+- "netServiceBrowserDidStopSearch:"
+- "netServiceBrowserWillSearch:"
+- "netServiceDidPublish:"
+- "netServiceDidResolveAddress:"
+- "netServiceDidStop:"
+- "netServiceWillPublish:"
+- "netServiceWillResolve:"
+- "networkName"
+- "node"
+- "nowPlayingSpeakersEnabled"
+- "number"
+- "numberWithChar:"
+- "numberWithFloat:"
+- "numberWithShort:"
+- "numberWithUnsignedChar:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedLongLong:"
+- "numberWithUnsignedShort:"
+- "objectWithData:"
+- "objectWithData:error:"
+- "pairedNetworkNames"
+- "pairedNetworkNamesAtIndex:"
+- "pairedNetworkNamesCount"
+- "pairingGUID"
+- "pairingServer:didFailToPairWithService:"
+- "pairingServer:didPairWithService:pairingGUID:"
+- "pairingServerDidFail:"
+- "pairingcode"
+- "parseBrowseResults:length:"
+- "parseContentCodes:length:"
+- "parseContentCollectionDict:length:"
+- "parseControlPromptCollection:length:"
+- "parseControlPromptResponse:length:"
+- "parseDACPPropertyResponse:length:"
+- "parseGetSpeakersResponse:length:"
+- "parseListingCollection:length:capacity:sectionHeaders:"
+- "parseListingHeader:length:"
+- "parseListingItem:length:"
+- "parseLogin:length:"
+- "parseMACAddressListing:length:"
+- "parseQueueSectionItems:length:"
+- "parseServerInfo:length:"
+- "parseUTF8String:length:"
+- "parseUnicodeCharacter:length:"
+- "parseXMLContent:length:"
+- "passcode"
+- "path"
+- "pathForResource:ofType:"
+- "pathWithComponents:"
+- "persistedSessionIdentifiers"
+- "playQueueMode"
+- "playStatusUpdateInfo"
+- "playbackCommand"
+- "playbackTime"
+- "playing"
+- "point"
+- "port"
+- "position"
+- "powerAssertion"
+- "processResponseCode:bytes:length:"
+- "propertyListWithData:options:format:error:"
+- "protobuf"
+- "protobufsFromAudioRoutes:"
+- "protobufsFromServices:"
+- "readFrom:"
+- "readOnly"
+- "refresh"
+- "refreshCount"
+- "refreshSessionWithIdentifier:"
+- "repeat"
+- "repeatCount"
+- "resolveWithTimeout:"
+- "responseCode"
+- "returnedCount"
+- "revision"
+- "revisionNumber"
+- "rms_componentsByAddingQueryParameters:"
+- "runAssertion"
+- "scanHexInt:"
+- "scrubbableState"
+- "searchDomain"
+- "searchForServicesOfType:inDomain:"
+- "searchScope"
+- "searchType"
+- "secondScreenURL"
+- "secureText"
+- "selected"
+- "serviceDiscoverySource"
+- "serviceLegacyFlags"
+- "serviceLegacyFlagsFromTXTDictionary:"
+- "serviceNetworkName"
+- "serviceProvider:serviceDidBecomeAvailable:"
+- "serviceProvider:serviceDidBecomeUnavailable:"
+- "serviceTypeFromTXTDictionary:"
+- "servicename"
+- "servicesAtIndex:"
+- "servicesCount"
+- "servicesFromProtobufs:"
+- "session"
+- "sessionIdentifier"
+- "sessionManager:sessionDidTimeout:"
+- "sessionWithIdentifier:"
+- "setAlbumName:"
+- "setAppName:"
+- "setArtistName:"
+- "setArtworkData:"
+- "setArtworkData:forIdentifier:"
+- "setArtworkData:forNowPlayingInfo:"
+- "setArtworkIdentifier:"
+- "setAudioRoutes:"
+- "setAvailable:"
+- "setBool being passed a %u byte value for: <%@>!"
+- "setBool:size:inDict:forKey:"
+- "setCanSkipNext:"
+- "setCanSkipPrevious:"
+- "setCanWishlist:"
+- "setChallengeString:"
+- "setCompressionQuality:"
+- "setControlInterface:"
+- "setCountLimit:"
+- "setDatabaseID:"
+- "setDate being passed a %u byte value for: <%@>!"
+- "setDate:size:inDict:forKey:"
+- "setDeviceModel:"
+- "setDeviceName:"
+- "setDirection:"
+- "setDiscoveryTypes:"
+- "setDisplayName:"
+- "setEvictsObjectsWithDiscardedContent:"
+- "setFloat32 being passed a %u byte value for: <%@>!"
+- "setFloat32:size:inDict:forKey:"
+- "setHasCanSkipNext:"
+- "setHasCanSkipPrevious:"
+- "setHasCanWishlist:"
+- "setHasChapterData:"
+- "setHasCompressionQuality:"
+- "setHasDatabaseID:"
+- "setHasDirection:"
+- "setHasDiscoveryTypes:"
+- "setHasHasChapterData:"
+- "setHasHasPairedNetworkNames:"
+- "setHasHeight:"
+- "setHasItemID:"
+- "setHasLikeState:"
+- "setHasLikeable:"
+- "setHasLikedState:"
+- "setHasMacAddress:"
+- "setHasMediaKind:"
+- "setHasNavigationCommand:"
+- "setHasPairedNetworkNames:"
+- "setHasPlaybackCommand:"
+- "setHasPlaybackState:"
+- "setHasPlaybackTime:"
+- "setHasPort:"
+- "setHasRepeatCount:"
+- "setHasResponseCode:"
+- "setHasRevisionNumber:"
+- "setHasScrubbableState:"
+- "setHasSelected:"
+- "setHasServiceDiscoverySource:"
+- "setHasServiceLegacyFlags:"
+- "setHasServiceType:"
+- "setHasSessionIdentifier:"
+- "setHasSupportsDirectionalControl:"
+- "setHasSupportsSpeakerSelection:"
+- "setHasSupportsVideo:"
+- "setHasSupportsVolumeControl:"
+- "setHasTimeRemaining:"
+- "setHasTimestamp:"
+- "setHasTotalDuration:"
+- "setHasVolume:"
+- "setHasWidth:"
+- "setHasWifiAvailable:"
+- "setHeight:"
+- "setHomeSharingGroupKey:"
+- "setHostName:"
+- "setItemID:"
+- "setKeyboardInputType:"
+- "setLeafString:"
+- "setLikeState:"
+- "setLikeable:"
+- "setLikedState:"
+- "setMacAddress:"
+- "setMaximumCharacters:"
+- "setMediaKind:"
+- "setMinimumCharacters:"
+- "setNavigationCommand:"
+- "setNetService:"
+- "setNetworkName:"
+- "setPairedNetworkNames:"
+- "setPairingGUID:"
+- "setPasscode:"
+- "setPlaybackCommand:"
+- "setPlaybackTime:"
+- "setPort:"
+- "setPosition:"
+- "setPowerAssertion:"
+- "setRefreshCount:"
+- "setRepeatCount:"
+- "setResponseCode:"
+- "setRevisionNumber:"
+- "setRunAssertion:"
+- "setSInt16 being passed a %u byte value for: <%@>!"
+- "setSInt16:size:inDict:forKey:"
+- "setSInt8 being passed a %u byte value for: <%@>!"
+- "setSInt8:size:inDict:forKey:"
+- "setScrubbableState:"
+- "setSecureText:"
+- "setSelected:"
+- "setServiceDiscoverySource:"
+- "setServiceLegacyFlags:"
+- "setServiceNetworkName:"
+- "setServices:"
+- "setSession:"
+- "setSessionIdentifier:"
+- "setString:size:inDict:forKey:"
+- "setSubtitle:"
+- "setSupportsDirectionalControl:"
+- "setSupportsSpeakerSelection:"
+- "setSupportsVideo:"
+- "setSupportsVolumeControl:"
+- "setTimeout:"
+- "setTotalDuration:"
+- "setTrackName:"
+- "setUInt16 being passed a %u byte value for: <%@>!"
+- "setUInt16:size:inDict:forKey:"
+- "setUInt32 being passed a %u byte value for: <%@>!"
+- "setUInt32:size:inDict:forKey:"
+- "setUInt64 being passed a %u byte value for: <%@>!"
+- "setUInt64:size:inDict:forKey:"
+- "setUInt8 being passed a %u byte value for: <%@>!"
+- "setUInt8:size:inDict:forKey:"
+- "setValue:forKey:"
+- "setVolume:"
+- "setWidth:"
+- "setWifiAvailable:"
+- "sharedArtworkCache"
+- "shuffle"
+- "smartPlaylist"
+- "startMonitoring"
+- "startServerWithExpectedPasscodeHash:advertisedDeviceName:advertisedDeviceModel:"
+- "statusCode"
+- "stopServer"
+- "string"
+- "stringWithCapacity:"
+- "stringWithUTF8String:"
+- "substringWithRange:"
+- "subtitle"
+- "supportsBonjourSourcesUpdates"
+- "supportsControlPromptRequests"
+- "supportsDirectionalControl"
+- "supportsMultiSpeakerVolume"
+- "supportsPlayStatusUpdate"
+- "supportsRemoteLibrarySelection"
+- "supportsSetUserRating"
+- "supportsSpeakerSelection"
+- "supportsVideo"
+- "timeout"
+- "totalCount"
+- "totalDuration"
+- "touch"
+- "trackName"
+- "typeForDRCPValueType:"
+- "uint32"
+- "undefined"
+- "unknownChunk:"
+- "unsignedShortValue"
+- "upNextSections"
+- "updateType"
+- "v20@0:8I16"
+- "v20@0:8f16"
+- "v24@0:8@\"<TVRMSServiceProviderDelegate>\"16"
+- "v24@0:8@\"NSNetService\"16"
+- "v24@0:8@\"NSNetServiceBrowser\"16"
+- "v24@0:8^{_CFHTTPServerConnection=}16"
+- "v24@0:8^{_CFHTTPServerRequest=}16"
+- "v24@0:8^{__CFError=}16"
+- "v24@0:8i16I20"
+- "v24@0:8i16i20"
+- "v24@?0q8@\"NSData\"16"
+- "v24@?0{RSDAAPChunk={RSDAAPChunkHeader=II}*}8"
+- "v28@0:8@16I24"
+- "v28@0:8i16@?20"
+- "v28@0:8q16I24"
+- "v32@0:8@\"NSNetService\"16@\"NSData\"24"
+- "v32@0:8@\"NSNetService\"16@\"NSDictionary\"24"
+- "v32@0:8@\"NSNetServiceBrowser\"16@\"NSDictionary\"24"
+- "v32@0:8^{_CFHTTPServerRequest=}16^{_CFHTTPServerResponse=}24"
+- "v32@0:8{RSDAAPChunk={RSDAAPChunkHeader=II}*}16"
+- "v32@?0@8@\"_RMSSessionRecord\"16^B24"
+- "v32@?0@8@16^B24"
+- "v36@0:8@\"NSNetServiceBrowser\"16@\"NSNetService\"24B32"
+- "v36@0:8@\"NSNetServiceBrowser\"16@\"NSString\"24B32"
+- "v36@0:8@16@24B32"
+- "v36@0:8r*16I24@?28"
+- "v36@0:8r*16Q24I32"
+- "v40@0:8@\"NSNetService\"16@\"NSInputStream\"24@\"NSOutputStream\"32"
+- "v40@0:8@16i24B28@?32"
+- "v44@0:8r*16I24@28@36"
+- "var"
+- "visualizer"
+- "visualizerEnabled"
+- "volume"
+- "wifiAvailable"
+- "writeTo:"
+- "{?=\"compressionQuality\"b1\"height\"b1\"width\"b1}"
+- "{?=\"databaseID\"b1\"itemID\"b1\"likeState\"b1\"sessionIdentifier\"b1}"
+- "{?=\"databaseID\"b1\"itemID\"b1\"sessionIdentifier\"b1}"
+- "{?=\"databaseID\"b1\"itemID\"b1\"timeRemaining\"b1\"timestamp\"b1\"totalDuration\"b1\"likedState\"b1\"mediaKind\"b1\"playbackState\"b1\"revisionNumber\"b1\"scrubbableState\"b1\"canSkipNext\"b1\"canSkipPrevious\"b1\"canWishlist\"b1\"hasChapterData\"b1\"likeable\"b1}"
+- "{?=\"direction\"b1\"repeatCount\"b1\"sessionIdentifier\"b1}"
+- "{?=\"discoveryTypes\"b1\"hasPairedNetworkNames\"b1}"
+- "{?=\"macAddress\"b1\"selected\"b1\"supportsVideo\"b1}"
+- "{?=\"macAddress\"b1\"sessionIdentifier\"b1}"
+- "{?=\"navigationCommand\"b1\"sessionIdentifier\"b1}"
+- "{?=\"playbackCommand\"b1\"sessionIdentifier\"b1}"
+- "{?=\"playbackTime\"b1\"sessionIdentifier\"b1}"
+- "{?=\"port\"b1\"serviceDiscoverySource\"b1\"serviceLegacyFlags\"b1\"serviceType\"b1}"
+- "{?=\"responseCode\"b1\"sessionIdentifier\"b1}"
+- "{?=\"responseCode\"b1}"
+- "{?=\"sessionIdentifier\"b1\"volume\"b1}"
+- "{?=\"sessionIdentifier\"b1\"wifiAvailable\"b1}"
+- "{?=\"sessionIdentifier\"b1}"
+- "{?=\"supportsDirectionalControl\"b1\"supportsSpeakerSelection\"b1\"supportsVolumeControl\"b1}"
+- "\x91"
+
+```

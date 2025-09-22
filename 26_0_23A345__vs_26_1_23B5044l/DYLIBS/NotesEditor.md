@@ -1,0 +1,922 @@
+## NotesEditor
+
+> `/System/Library/PrivateFrameworks/NotesEditor.framework/NotesEditor`
+
+```diff
+
+-2952.2.1.0.0
+-  __TEXT.__text: 0x2ed134
+-  __TEXT.__auth_stubs: 0x69c0
+-  __TEXT.__objc_methlist: 0x175a4
+-  __TEXT.__const: 0x8114
+-  __TEXT.__cstring: 0x1241b
+-  __TEXT.__oslogstring: 0x6eec
++2952.40.7.0.0
++  __TEXT.__text: 0x2e870c
++  __TEXT.__auth_stubs: 0x6910
++  __TEXT.__delay_helper: 0x378
++  __TEXT.__objc_methlist: 0x1754c
++  __TEXT.__const: 0x81b4
++  __TEXT.__cstring: 0x122ff
++  __TEXT.__oslogstring: 0x6eac
+   __TEXT.__ustring: 0x340
+-  __TEXT.__gcc_except_tab: 0x3fd0
+-  __TEXT.__dlopen_cstrs: 0x1dd
+-  __TEXT.__swift5_typeref: 0x25480
+-  __TEXT.__swift5_reflstr: 0x48f1
++  __TEXT.__gcc_except_tab: 0x3e2c
++  __TEXT.__swift5_typeref: 0x242c6
++  __TEXT.__swift5_reflstr: 0x4981
+   __TEXT.__swift5_assocty: 0x6c8
+-  __TEXT.__constg_swiftt: 0x5128
++  __TEXT.__constg_swiftt: 0x5270
+   __TEXT.__swift5_builtin: 0x26c
+-  __TEXT.__swift5_fieldmd: 0x3464
++  __TEXT.__swift5_fieldmd: 0x34b0
+   __TEXT.__swift5_proto: 0x334
+-  __TEXT.__swift5_types: 0x2c0
+-  __TEXT.__swift5_capture: 0x2dbc
++  __TEXT.__swift5_types: 0x2c4
++  __TEXT.__swift5_capture: 0x2d94
+   __TEXT.__swift_as_entry: 0x170
+-  __TEXT.__swift_as_ret: 0x180
++  __TEXT.__swift_as_ret: 0x17c
+   __TEXT.__swift5_protos: 0x3c
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x9c30
+-  __TEXT.__eh_frame: 0x5988
+-  __TEXT.__objc_classname: 0x21c4
+-  __TEXT.__objc_methname: 0x48816
+-  __TEXT.__objc_methtype: 0x9393
+-  __TEXT.__objc_stubs: 0x2f8e0
+-  __DATA_CONST.__got: 0x2f30
+-  __DATA_CONST.__const: 0x4920
++  __TEXT.__unwind_info: 0x9be0
++  __TEXT.__eh_frame: 0x5990
++  __TEXT.__objc_classname: 0x21b1
++  __TEXT.__objc_methname: 0x48bb4
++  __TEXT.__objc_methtype: 0x937d
++  __TEXT.__objc_stubs: 0x2fb20
++  __DATA_CONST.__got: 0x2fc0
++  __DATA_CONST.__const: 0x48b8
+   __DATA_CONST.__objc_classlist: 0x748
+   __DATA_CONST.__objc_catlist: 0x1a0
+-  __DATA_CONST.__objc_protolist: 0x598
++  __DATA_CONST.__objc_protolist: 0x590
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xfe38
++  __DATA_CONST.__objc_selrefs: 0xff18
+   __DATA_CONST.__objc_protorefs: 0x198
+   __DATA_CONST.__objc_superrefs: 0x430
+   __DATA_CONST.__objc_arraydata: 0x38
+-  __AUTH_CONST.__auth_got: 0x34f0
+-  __AUTH_CONST.__const: 0xa0a0
+-  __AUTH_CONST.__cfstring: 0x6840
+-  __AUTH_CONST.__objc_const: 0x209a8
++  __AUTH_CONST.__auth_got: 0x3498
++  __AUTH_CONST.__const: 0xa050
++  __AUTH_CONST.__cfstring: 0x6460
++  __AUTH_CONST.__objc_const: 0x20a70
+   __AUTH_CONST.__objc_intobj: 0x468
+   __AUTH_CONST.__objc_arrayobj: 0x60
+   __AUTH_CONST.__objc_doubleobj: 0x70
+-  __AUTH.__objc_data: 0x51f0
+-  __AUTH.__data: 0x25a0
+-  __DATA.__objc_ivar: 0x11b4
+-  __DATA.__data: 0x8038
+-  __DATA.__bss: 0x53d0
+-  __DATA.__common: 0x188
++  __AUTH.__objc_data: 0x5368
++  __AUTH.__data: 0x2650
++  __DATA.__objc_ivar: 0x11b8
++  __DATA.__data: 0x7e94
++  __DATA.__objc_stublist: 0x8
++  __DATA.__bss: 0x5320
++  __DATA.__common: 0x158
+   __DATA_DIRTY.__objc_data: 0x3ff0
+   __DATA_DIRTY.__data: 0x11c8
+-  __DATA_DIRTY.__bss: 0x1288
++  __DATA_DIRTY.__bss: 0x1278
+   __DATA_DIRTY.__common: 0x198
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /System/Library/Frameworks/Intents.framework/Intents
++  - /System/Library/Frameworks/LinkPresentation.framework/LinkPresentation
++  - /System/Library/Frameworks/MapKit.framework/MapKit
++  - /System/Library/Frameworks/MessageUI.framework/MessageUI
+   - /System/Library/Frameworks/Network.framework/Network
+   - /System/Library/Frameworks/PDFKit.framework/PDFKit
+   - /System/Library/Frameworks/PaperKit.framework/PaperKit
+   - /System/Library/Frameworks/PencilKit.framework/PencilKit
++  - /System/Library/Frameworks/Photos.framework/Photos
+   - /System/Library/Frameworks/PhotosUI.framework/PhotosUI
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/QuickLook.framework/QuickLook
+
+   - /System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams
+   - /System/Library/PrivateFrameworks/Coherence.framework/Coherence
+   - /System/Library/PrivateFrameworks/CoreEmoji.framework/CoreEmoji
++  - /System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore
+   - /System/Library/PrivateFrameworks/DataDetectorsUI.framework/DataDetectorsUI
+   - /System/Library/PrivateFrameworks/DocumentCamera.framework/DocumentCamera
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+
+   - /System/Library/PrivateFrameworks/GenerativeAssistantSettings.framework/GenerativeAssistantSettings
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MarkupUI.framework/MarkupUI
++  - /System/Library/PrivateFrameworks/NewsServices.framework/NewsServices
+   - /System/Library/PrivateFrameworks/Notes.framework/Notes
+   - /System/Library/PrivateFrameworks/NotesAnalytics.framework/NotesAnalytics
+   - /System/Library/PrivateFrameworks/NotesShared.framework/NotesShared
+
+   - /System/Library/PrivateFrameworks/PrintKitUI.framework/PrintKitUI
+   - /System/Library/PrivateFrameworks/ShareSheet.framework/ShareSheet
+   - /System/Library/PrivateFrameworks/SidecarCore.framework/SidecarCore
+-  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/Synapse.framework/Synapse
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2DC23758-0656-3C23-AC82-C8FE91126A81
+-  Functions: 15119
+-  Symbols:   29188
+-  CStrings:  15342
++  UUID: DEAC3AB3-F68A-301A-B3C3-2CF86BA51D79
++  Functions: 15118
++  Symbols:   29093
++  CStrings:  15297
+ 
+Symbols:
++ -[ICBaseTextView initForTextKit2WithNote:size:insideSystemPaper:insideSiriSnippet:]
++ -[ICEditingTextView convertedTypingAttributes:]
++ -[ICEditingTextView(StyleAdditions) ic_allSelectedRangesContainAttributeName:withValue:]
++ -[ICNoteEditorNavigationItemConfiguration canEdit]
++ -[ICNoteEditorNavigationItemConfiguration forceHideToolbar]
++ -[ICNoteEditorNavigationItemConfiguration setCanEdit:]
++ -[ICNoteEditorNavigationItemConfiguration setForceHideToolbar:]
++ -[ICNoteEditorViewController canMoveCheckedToBottom]
++ -[ICNoteEditorViewController canPerformTodoCheckAll]
++ -[ICNoteEditorViewController canPerformTodoUncheckAll]
++ -[ICNoteEditorViewController canPerformToggleTodoChecked]
++ -[ICNoteEditorViewController canRemoveCheckedListItem]
++ -[ICNoteEditorViewController canReverseTableDirection]
++ -[ICNoteEditorViewController canSetListStyle]
++ -[ICNoteEditorViewController canSetParagraphStyle]
++ -[ICNoteEditorViewController canToggleTodoStyle]
++ -[ICNoteEditorViewController containsUnCheckedItems]
++ -[ICNoteEditorViewController contextMenuInteraction:atLocation:inTableTextView:]
++ -[ICNoteEditorViewController currentTableAttachmentViewController]
++ -[ICNoteEditorViewController isChecklistSelected]
++ -[ICNoteEditorViewController linkEditorController]
++ -[ICNoteEditorViewController openLinkEditorForLink:atRange:delegate:]
++ -[ICNoteEditorViewController selectedRangesBeforeSplitViewTransition]
++ -[ICNoteEditorViewController setLinkEditorController:]
++ -[ICNoteEditorViewController setNote:delayedForLaunch:startEditing:successHandler:]
++ -[ICNoteEditorViewController setNote:delayedForLaunch:startEditing:successHandler:].cold.1
++ -[ICNoteEditorViewController setNote:overrideScrollState:startEditing:]
++ -[ICNoteEditorViewController setSelectedRangesBeforeSplitViewTransition:]
++ -[ICTK2TextView initWithNote:size:insideSystemPaper:insideSiriSnippet:]
++ -[ICTableAttachmentViewController numberOfBouncedMainThreadSaves]
++ -[ICTableAttachmentViewController saveOnMainThreadAfterDelay]
++ -[ICTableAttachmentViewController setNeedsSaveAfterUserEdit]
++ -[ICTableAttachmentViewController setNumberOfBouncedMainThreadSaves:]
++ -[ICTextController(Checklist) getTodoSelected:andAtLeastOneTodoUnchecked:inTextView:]
++ GCC_except_table105
++ GCC_except_table1089
++ GCC_except_table111
++ GCC_except_table129
++ GCC_except_table215
++ GCC_except_table263
++ GCC_except_table30
++ GCC_except_table313
++ GCC_except_table319
++ GCC_except_table350
++ GCC_except_table353
++ GCC_except_table39
++ GCC_except_table398
++ GCC_except_table44
++ GCC_except_table548
++ GCC_except_table579
++ GCC_except_table584
++ GCC_except_table608
++ GCC_except_table63
++ GCC_except_table647
++ GCC_except_table681
++ GCC_except_table693
++ GCC_except_table722
++ GCC_except_table723
++ GCC_except_table740
++ GCC_except_table98
++ _.compoundliteral.3030
++ _.compoundliteral.3032
++ _.compoundliteral.3034
++ _.compoundliteral.3036
++ _MKCoordinateRegionMakeWithDistance
++ _MKLaunchOptionsDirectionsModeDriving
++ _MKLaunchOptionsDirectionsModeKey
++ _MUAnimationIconImage
++ _MUAnimationMaskRect
++ _MUAnimationSourceRect
++ _MUAnimationTargetRect
++ _MUDisplayAsFullScreen
++ _MUEncryptPrivateMetadata
++ _MUFileDisplayName
++ _OBJC_CLASS_$_ICLinkEditorControllerHelper
++ _OBJC_CLASS_$_LinkEditorController
++ _OBJC_CLASS_$_MKMapItem
++ _OBJC_CLASS_$_MKMapView
++ _OBJC_CLASS_$_MKPlacemark
++ _OBJC_CLASS_$_MKPointAnnotation
++ _OBJC_CLASS_$_NSSNewsViewController
++ _OBJC_CLASS_$_SSReadingList
++ _OBJC_CLASS_$__MKURLParser
++ _OBJC_IVAR_$_ICNoteEditorNavigationItemConfiguration._canEdit
++ _OBJC_IVAR_$_ICNoteEditorNavigationItemConfiguration._forceHideToolbar
++ _OBJC_IVAR_$_ICNoteEditorViewController._linkEditorController
++ _OBJC_IVAR_$_ICNoteEditorViewController._selectedRangesBeforeSplitViewTransition
++ _OBJC_IVAR_$_ICTableAttachmentViewController._numberOfBouncedMainThreadSaves
++ _OBJC_METACLASS_$_ICLinkEditorControllerHelper
++ _OBJC_METACLASS_$_LinkEditorController
++ _OBJC_METACLASS_$__TtC11NotesEditor24LinkEditorViewController
++ __CLASS_METHODS_ICLinkEditorControllerHelper
++ __CLASS_METHODS_LinkEditorController
++ __DATA_ICLinkEditorControllerHelper
++ __DATA_LinkEditorController
++ __DATA__TtC11NotesEditor24LinkEditorViewController
++ __INSTANCE_METHODS_ICLinkEditorControllerHelper
++ __INSTANCE_METHODS__TtC11NotesEditor24LinkEditorViewController
++ __IVARS_LinkEditorController
++ __IVARS__TtC11NotesEditor24LinkEditorViewController
++ __METACLASS_DATA_ICLinkEditorControllerHelper
++ __METACLASS_DATA_LinkEditorController
++ __METACLASS_DATA__TtC11NotesEditor24LinkEditorViewController
++ __OBJC_$_INSTANCE_METHODS_LinkEditorController(NotesEditor)
++ __OBJC_CLASS_PROTOCOLS_$_LinkEditorController(NotesEditor)
++ __PROPERTIES__TtC11NotesEditor24LinkEditorViewController
++ ___106-[ICEditingTextView(DragAndDrop) textPasteConfigurationSupporting:performPasteOfAttributedString:toRange:]_block_invoke.258
++ ___106-[ICEditingTextView(DragAndDrop) textPasteConfigurationSupporting:performPasteOfAttributedString:toRange:]_block_invoke_2.259
++ ___137-[ICNoteEditorViewController documentCameraPresentingViewController:didFinishWithInfoCollection:imageCache:warnUser:closeViewController:]_block_invoke.749
++ ___137-[ICNoteEditorViewController documentCameraPresentingViewController:didFinishWithInfoCollection:imageCache:warnUser:closeViewController:]_block_invoke.760
++ ___137-[ICNoteEditorViewController documentCameraPresentingViewController:didFinishWithInfoCollection:imageCache:warnUser:closeViewController:]_block_invoke_2.761
++ ___137-[ICNoteEditorViewController documentCameraPresentingViewController:didFinishWithInfoCollection:imageCache:warnUser:closeViewController:]_block_invoke_3.773
++ ___33-[ICAttachmentView shareWebLink:]_block_invoke.226
++ ___43-[ICAttachmentPresenter presentSynapseLink]_block_invoke.158
++ ___43-[ICAttachmentPresenter presentSynapseLink]_block_invoke.158.cold.1
++ ___53-[ICEditingTextView(StyleAdditions) ic_toggleItalics]_block_invoke
++ ___54-[ICEditingTextView(StyleAdditions) ic_toggleBoldface]_block_invoke
++ ___55-[ICEditingTextView(StyleAdditions) ic_toggleUnderline]_block_invoke
++ ___56-[ICAttachmentPresenter presentExportViewForAttachment:]_block_invoke.225
++ ___57-[ICNoteEditorViewController insertSidecarItems:service:]_block_invoke.932
++ ___59-[ICEditingTextView(StyleAdditions) ic_toggleStrikethrough]_block_invoke
++ ___74-[ICNoteEditorViewController presentRecordingStoppedAlertForNoteIfNeeded:]_block_invoke.864
++ ___80-[ICNoteEditorViewController contextMenuInteraction:atLocation:inTableTextView:]_block_invoke
++ ___80-[ICNoteEditorViewController contextMenuInteraction:atLocation:inTableTextView:]_block_invoke_2
++ ___80-[ICNoteEditorViewController contextMenuInteraction:atLocation:inTableTextView:]_block_invoke_3
++ ___80-[ICNoteEditorViewController contextMenuInteraction:atLocation:inTableTextView:]_block_invoke_4
++ ___80-[ICNoteEditorViewController contextMenuInteraction:atLocation:inTableTextView:]_block_invoke_5
++ ___80-[ICNoteEditorViewController contextMenuInteraction:atLocation:inTableTextView:]_block_invoke_6
++ ___83-[ICNoteEditorViewController setNote:delayedForLaunch:startEditing:successHandler:]_block_invoke
++ ___83-[ICNoteEditorViewController setNote:delayedForLaunch:startEditing:successHandler:]_block_invoke.836
++ ___83-[ICNoteEditorViewController setNote:delayedForLaunch:startEditing:successHandler:]_block_invoke_2
++ ___88-[ICEditingTextView(StyleAdditions) ic_allSelectedRangesContainAttributeName:withValue:]_block_invoke
++ ___99-[ICNoteEditorViewController noteEditorNavigationItemConfiguration:addNoteFromBarButtonItem:event:]_block_invoke.1216
++ ___block_descriptor_40_e8_32r_e17_v16?0"NSArray"8lr32l8
++ ___block_descriptor_40_e8_32s_e17_v16?0"NSArray"8ls32l8
++ ___block_descriptor_56_e8_32s40s48r_e37_v32?0"NSDictionary"8{_NSRange=QQ}16ls32l8s40l8r48l8
++ ___block_descriptor_72_e8_32s40s48s_e18_v16?0"UIAction"8ls32l8s40l8s48l8
++ ___block_literal_global.1013
++ ___block_literal_global.1040
++ ___block_literal_global.1053
++ ___block_literal_global.1162
++ ___block_literal_global.1218
++ ___block_literal_global.1224
++ ___block_literal_global.1227
++ ___block_literal_global.214
++ ___block_literal_global.217
++ ___block_literal_global.227
++ ___block_literal_global.475
++ ___block_literal_global.509
++ ___block_literal_global.566
++ ___block_literal_global.578
++ ___block_literal_global.584
++ ___block_literal_global.670
++ ___block_literal_global.834
++ ___block_literal_global.866
++ ___block_literal_global.879
++ ___block_literal_global.928
++ ___block_literal_global.935
++ _block_copy_helper.105
++ _block_copy_helper.112
++ _block_copy_helper.39
++ _block_copy_helper.45
++ _block_copy_helper.51
++ _block_copy_helper.58
++ _block_copy_helper.64
++ _block_copy_helper.79
++ _block_copy_helper.85
++ _block_copy_helper.96
++ _block_descriptor.107
++ _block_descriptor.114
++ _block_descriptor.41
++ _block_descriptor.47
++ _block_descriptor.53
++ _block_descriptor.60
++ _block_descriptor.66
++ _block_descriptor.81
++ _block_descriptor.87
++ _block_descriptor.98
++ _block_destroy_helper.106
++ _block_destroy_helper.113
++ _block_destroy_helper.40
++ _block_destroy_helper.46
++ _block_destroy_helper.52
++ _block_destroy_helper.59
++ _block_destroy_helper.65
++ _block_destroy_helper.80
++ _block_destroy_helper.86
++ _block_destroy_helper.97
++ _dlopen
++ _dlopenHelper$DataDetectorsCore
++ _dlopenHelper$MarkupUI
++ _dlopenHelper$NewsServices
++ _dlopenHelperFlag$DataDetectorsCore
++ _dlopenHelperFlag$MarkupUI
++ _dlopenHelperFlag$NewsServices
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA4ListVys5NeverOAA9TupleViewVyAA7SectionVyAA4TextVAEyAA6IDViewVyAEyAA6HStackVyAKyAEyAEyAEyAEyAEyAEyAEyAEyAEyAEyAoA14_PaddingLayoutVGAUGAUGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA016_BackgroundStyleS0VyA0_GGAA11_ClipEffectVyAA16RoundedRectangleVGGAUGAUGAZySiSgGGAA06_TraitrS0VyAA0o13PriorityTraitQ0VGGSg_AA0I0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAEyAEyA27_AAE9lineLimit_13reservesSpaceQrSi_SbtFQOyA27_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQOyA27_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQOyAA0K5FieldVyAOG_Qo__Qo__Qo_AA010_FlexFrameO0VGAA017_AppearanceActionS0VG_SbQo_AEyAEyA27_AAE06buttonV0yQrqd__AA015PrimitiveButtonV0Rd__lFQOyAA6ButtonVyAEyAEyAA5ImageVA2_GAZyAA4FontVSgGGG_AA011PlainButtonV0VQo_AUGAUGSgtGGAA01_uS0Vy05NotesB006AnchorI0VGGSSGAA010_AlignmentrS0VGAA05EmptyI0VG_AMyAoKyA27_AAE06toggleV0yQrqd__AA06ToggleV0Rd__lFQOyAA6ToggleVyAOG_AA012SwitchToggleV0VQo_Sg_ASyAKyAEyA45_A49_G_A73_tGGSgtGA88_GAEyAEyA58_yAOGAZyAA17ButtonBorderShapeVGGAZyAA11ControlSizeOGGSgtGGAZy12CoreGraphics7CGFloatVGGAA06_FrameO0VGA121_GAAA26_HPA124_AAA26_HPA121_AAA26_HPA116_AAA26_HPyHC_A120_AA0iS0HPyHCHC_A123_AAA126_HPyHCHC_A121_AAA26_HPA116_AAA26_HPyHC_A120_AAA126_HPyHCHCHC.20
++ _gotLoadHelper_x8$_DDResultAttributeName
++ _gotLoadHelper_x8$_MUAnimationIconImage
++ _gotLoadHelper_x8$_MUAnimationMaskRect
++ _gotLoadHelper_x8$_MUAnimationSourceRect
++ _gotLoadHelper_x8$_MUAnimationTargetRect
++ _gotLoadHelper_x8$_MUDisplayAsFullScreen
++ _gotLoadHelper_x8$_MUFileDisplayName
++ _gotLoadHelper_x8$_OBJC_CLASS_$_NSSNewsViewController
++ _gotLoadHelper_x8$_OBJC_CLASS_$_QuickLookContentEditorBannerConfiguration
++ _gotLoadHelper_x9$_DDResultAttributeName
++ _gotLoadHelper_x9$_MUEncryptPrivateMetadata
++ _kAXQuickSpeakStopSpeakingNotification
++ _kICDefaultTableMainThreadSaveDelay
++ _kICMaximumNumberOfBouncedMainThreadSaves
++ _keypath_set.76Tm
++ _objc_class_stubs
++ _objc_msgSend$canEdit
++ _objc_msgSend$canMoveCheckedToBottom
++ _objc_msgSend$canPerformTodoCheckAll
++ _objc_msgSend$canPerformTodoUncheckAll
++ _objc_msgSend$canRemoveCheckedListItem
++ _objc_msgSend$containsUnCheckedItems
++ _objc_msgSend$convertedTypingAttributes:
++ _objc_msgSend$currentTableAttachmentViewController
++ _objc_msgSend$doneEditing
++ _objc_msgSend$forceHideToolbar
++ _objc_msgSend$getTodoSelected:andAtLeastOneTodoUnchecked:inTextView:
++ _objc_msgSend$ic_allSelectedRangesContainAttributeName:withValue:
++ _objc_msgSend$ic_hierarchicalSystemImageNamed:colors:fontTextStyle:scale:weight:maxContentSizeCategory:
++ _objc_msgSend$ic_systemImageNamed:withConfiguration:
++ _objc_msgSend$initWithNote:size:insideSystemPaper:insideSiriSnippet:
++ _objc_msgSend$isChecklistSelected
++ _objc_msgSend$linkEditorController
++ _objc_msgSend$modelForStyleAttributes:filterAttributes:
++ _objc_msgSend$numberOfBouncedMainThreadSaves
++ _objc_msgSend$openLinkEditorForLink:atRange:delegate:
++ _objc_msgSend$saveOnMainThreadAfterDelay
++ _objc_msgSend$scrollSelectionToVisible:
++ _objc_msgSend$selectedRanges
++ _objc_msgSend$selectedRangesBeforeSplitViewTransition
++ _objc_msgSend$setCanEdit:
++ _objc_msgSend$setForceHideToolbar:
++ _objc_msgSend$setLinkEditorController:
++ _objc_msgSend$setNeedsSaveAfterUserEdit
++ _objc_msgSend$setNote:delayedForLaunch:startEditing:successHandler:
++ _objc_msgSend$setNote:overrideScrollState:startEditing:
++ _objc_msgSend$setNumberOfBouncedMainThreadSaves:
++ _objc_msgSend$setSelectedRanges:
++ _objc_msgSend$setSelectedRangesBeforeSplitViewTransition:
++ _objc_msgSend$styleForModelAttributes:
++ _objectdestroy.47Tm
++ _objectdestroy.77Tm
++ _swift_initClassMetadata2
++ _symbolic SDySO_____G 11NotesEditor06ICNoteB23ContextualBarButtonItemC
++ _symbolic So18ICInlineAttachmentCSg
++ _symbolic _____ 11NotesEditor04LinkB10ControllerC
++ _symbolic _____ 11NotesEditor04LinkB16ControllerHelperC
++ _symbolic _____Sg 11NotesEditor04LinkB10ControllerC
++ _symbolic _____SgXw 11NotesEditor04LinkB10ControllerC
++ _symbolic _____XDXMT 11NotesEditor04LinkB10ControllerC
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAyAAy__________GACGACG_____y_____SgGG_____yAHGG_____y_____GGACGACGAGySiSgGG_____y_____GGSg 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleK0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitjK0V AA0g8PrioritysI0V
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAyAAy__________GACGACG_____y_____SgGG_____yAHGG_____y_____GGACGACGAGySiSgGG_____y_____GGSg______yAAyAAy_____y_____y_____y_____yABG_Qo__Qo__Qo______G_____G_SbQo_AAyAAy_____y_____yAAyAAy_____AJGAGy_____SgGGG______Qo_ACGACGSgt 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleK0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitjK0V AA0g8PrioritysI0V AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AwAE9lineLimit_13reservesSpaceQrSi_SbtFQO AwAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO AwAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0E5FieldV AA010_FlexFrameG0V AA017_AppearanceActionK0V AwAE06buttonN0yQrqd__AA015PrimitiveButtonN0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonN0V
++ _symbolic _____yAAy_____y__________y_____y_____AAy_____yAAy_____yADyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAF_____GAIGAIG_____y_____SgGG_____yANGG_____y_____GGAIGAIGAMySiSgGG_____y_____GGSg______yAAyAAy_____y_____y_____y_____yAFG_Qo__Qo__Qo______G_____G_SbQo_AAyAAy_____y_____yAAyAAy_____APGAMy_____SgGGG______Qo_AIGAIGSgtGG_____y_____GGSSG_____G_____G_AEyAfDy_____y_____yAFG______Qo_Sg_AHyADyAAyA9_A12_G_A29_tGGSgtGA39_GAAyAAyA17_yAFGAMy_____GGAMy_____GGSgtGGAMy_____GG_____G 7SwiftUI15ModifiedContentV AA4ListV s5NeverO AA9TupleViewV AA7SectionV AA4TextV AA6IDViewV AA6HStackV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleR0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitqR0V AA0n8PriorityzP0V AA0H0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A7_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A7_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A7_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0J5FieldV AA010_FlexFrameN0V AA017_AppearanceActionR0V A7_AAE06buttonU0yQrqd__AA015PrimitiveButtonU0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonU0V AA01_tR0V 05NotesB006AnchorH0V AA010_AlignmentqR0V AA05EmptyH0V A7_AAE06toggleU0yQrqd__AA06ToggleU0Rd__lFQO AA6ToggleV AA012SwitchToggleU0V AA17ButtonBorderShapeV AA11ControlSizeO 12CoreGraphics7CGFloatV AA06_FrameN0V
++ _symbolic _____ySO_____G s18_DictionaryStorageC 11NotesEditor06ICNoteD23ContextualBarButtonItemC
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 11NotesEditor04LinkF4ViewV
++ _symbolic _____y___________y_____yADyADyADyADyADyADyADyADyADy__________GAFGAFG_____y_____SgGG_____yAKGG_____y_____GGAFGAFGAJySiSgGG_____y_____GGSg______yADyADy_____y_____y_____y_____yAEG_Qo__Qo__Qo______G_____G_SbQo_ADyADy_____y_____yADyADy_____AMGAJy_____SgGGG______Qo_AFGAFGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA4TextV AA08_PaddingG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleP0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitoP0V AA0g8PriorityxN0V AA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A3_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A3_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A3_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0K5FieldV AA010_FlexFrameG0V AA017_AppearanceActionP0V A3_AAE06buttonS0yQrqd__AA015PrimitiveButtonS0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonS0V
++ _symbolic _____y__________y_____yACy_____y_____yACyACyACyACyACyACyACyACyACyACyAB_____GAGGAGG_____y_____SgGG_____yALGG_____y_____GGAGGAGGAKySiSgGG_____y_____GGSg______yACyACy_____y_____y_____y_____yABG_Qo__Qo__Qo______G_____G_SbQo_ACyACy_____y_____yACyACy_____ANGAKy_____SgGGG______Qo_AGGAGGSgtGG_____y_____GGSSG_____G_____G 7SwiftUI7SectionV AA4TextV AA15ModifiedContentV AA6IDViewV AA6HStackV AA9TupleViewV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleP0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitoP0V AA0l8PriorityxN0V AA0J0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A3_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A3_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A3_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0D5FieldV AA010_FlexFrameL0V AA017_AppearanceActionP0V A3_AAE06buttonS0yQrqd__AA015PrimitiveButtonS0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonS0V AA01_rP0V 05NotesB006AnchorJ0V AA010_AlignmentoP0V AA05EmptyJ0V
++ _symbolic _____y__________y_____yACy_____y_____yACyACyACyACyACyACyACyACyACyACyAB_____GAGGAGG_____y_____SgGG_____yALGG_____y_____GGAGGAGGAKySiSgGG_____y_____GGSg______yACyACy_____y_____y_____y_____yABG_Qo__Qo__Qo______G_____G_SbQo_ACyACy_____y_____yACyACy_____ANGAKy_____SgGGG______Qo_AGGAGGSgtGG_____y_____GGSSG_____G_____G_AAyAbFy_____y_____yABG______Qo_Sg_AEyAFyACyA7_A10_G_A27_tGGSgtGA37_GACyACyA15_yABGAKy_____GGAKy_____GGSgt 7SwiftUI7SectionV AA4TextV AA15ModifiedContentV AA6IDViewV AA6HStackV AA9TupleViewV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleP0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitoP0V AA0l8PriorityxN0V AA0J0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A3_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A3_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A3_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0D5FieldV AA010_FlexFrameL0V AA017_AppearanceActionP0V A3_AAE06buttonS0yQrqd__AA015PrimitiveButtonS0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonS0V AA01_rP0V 05NotesB006AnchorJ0V AA010_AlignmentoP0V AA05EmptyJ0V A3_AAE06toggleS0yQrqd__AA06ToggleS0Rd__lFQO AA6ToggleV AA012SwitchToggleS0V AA17ButtonBorderShapeV AA11ControlSizeO
++ _symbolic _____y__________y_____y__________y_____yAFy_____yACyAFyAFyAFyAFyAFyAFyAFyAFyAFyAFyAE_____GAIGAIG_____y_____SgGG_____yANGG_____y_____GGAIGAIGAMySiSgGG_____y_____GGSg______yAFyAFy_____y_____y_____y_____yAEG_Qo__Qo__Qo______G_____G_SbQo_AFyAFy_____y_____yAFyAFy_____APGAMy_____SgGGG______Qo_AIGAIGSgtGG_____y_____GGSSG_____G_____G_ADyAeCy_____y_____yAEG______Qo_Sg_AHyACyAFyA9_A12_G_A29_tGGSgtGA39_GAFyAFyA17_yAEGAMy_____GGAMy_____GGSgtGG 7SwiftUI4ListV s5NeverO AA9TupleViewV AA7SectionV AA4TextV AA15ModifiedContentV AA6IDViewV AA6HStackV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleR0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitqR0V AA0n8PriorityzP0V AA0F0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A7_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A7_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A7_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0H5FieldV AA010_FlexFrameN0V AA017_AppearanceActionR0V A7_AAE06buttonU0yQrqd__AA015PrimitiveButtonU0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonU0V AA01_tR0V 05NotesB006AnchorF0V AA010_AlignmentqR0V AA05EmptyF0V A7_AAE06toggleU0yQrqd__AA06ToggleU0Rd__lFQO AA6ToggleV AA012SwitchToggleU0V AA17ButtonBorderShapeV AA11ControlSizeO
++ _symbolic _____y_____yAAy_____y_____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy__________GAFGAFG_____y_____SgGG_____yAKGG_____y_____GGAFGAFGAJySiSgGG_____y_____GGSg______yAAyAAy_____y_____y_____y_____yAEG_Qo__Qo__Qo______G_____G_SbQo_AAyAAy_____y_____yAAyAAy_____AMGAJy_____SgGGG______Qo_AFGAFGSgtGG_____y_____GGSSG_____G 7SwiftUI15ModifiedContentV AA6IDViewV AA6HStackV AA9TupleViewV AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleO0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitnO0V AA0k8PrioritywM0V AA0H0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A1_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A1_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A1_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0I5FieldV AA010_FlexFrameK0V AA017_AppearanceActionO0V A1_AAE06buttonR0yQrqd__AA015PrimitiveButtonR0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonR0V AA01_qO0V 05NotesB006AnchorH0V AA010_AlignmentnO0V
++ _symbolic _____y_____yABy_____y__________y_____y_____ABy_____yABy_____yAEyAByAByAByAByAByAByAByAByAByAByAG_____GAJGAJG_____y_____SgGG_____yAOGG_____y_____GGAJGAJGANySiSgGG_____y_____GGSg______yAByABy_____y_____y_____y_____yAGG_Qo__Qo__Qo______G_____G_SbQo_AByABy_____y_____yAByABy_____AQGANy_____SgGGG______Qo_AJGAJGSgtGG_____y_____GGSSG_____G_____G_AFyAgEy_____y_____yAGG______Qo_Sg_AIyAEyAByA10_A13_G_A30_tGGSgtGA40_GAByAByA18_yAGGANy_____GGANy_____GGSgtGGANy_____GG_____GA65_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ListV s5NeverO AA9TupleViewV AA7SectionV AA4TextV AA6IDViewV AA6HStackV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleS0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitrS0V AA0o13PriorityTraitQ0V AA0I0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A9_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A9_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A9_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0K5FieldV AA010_FlexFrameO0V AA017_AppearanceActionS0V A9_AAE06buttonV0yQrqd__AA015PrimitiveButtonV0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonV0V AA01_uS0V 05NotesB006AnchorI0V AA010_AlignmentrS0V AA05EmptyI0V A9_AAE06toggleV0yQrqd__AA06ToggleV0Rd__lFQO AA6ToggleV AA012SwitchToggleV0V AA17ButtonBorderShapeV AA11ControlSizeO 12CoreGraphics7CGFloatV AA06_FrameO0V
++ _symbolic _____y_____yABy_____y__________y_____y_____ABy_____yABy_____yAEyAByAByAByAByAByAByAByAByAByAByAG_____GAJGAJG_____y_____SgGG_____yAOGG_____y_____GGAJGAJGANySiSgGG_____y_____GGSg______yAByABy_____y_____y_____y_____yAGG_Qo__Qo__Qo______G_____G_SbQo_AByABy_____y_____yAByABy_____AQGANy_____SgGGG______Qo_AJGAJGSgtGG_____y_____GGSSG_____G_____G_AFyAgEy_____y_____yAGG______Qo_Sg_AIyAEyAByA10_A13_G_A30_tGGSgtGA40_GAByAByA18_yAGGANy_____GGANy_____GGSgtGGANy_____GG_____GA65__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4ListV s5NeverO AA9TupleViewV AA7SectionV AA4TextV AA6IDViewV AA6HStackV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleT0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitsT0V AA0p13PriorityTraitR0V AA0J0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A11_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A11_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A11_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0L5FieldV AA010_FlexFrameP0V AA017_AppearanceActionT0V A11_AAE06buttonW0yQrqd__AA015PrimitiveButtonW0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonW0V AA01_vT0V 05NotesB006AnchorJ0V AA010_AlignmentsT0V AA05EmptyJ0V A11_AAE06toggleW0yQrqd__AA06ToggleW0Rd__lFQO AA6ToggleV AA012SwitchToggleW0V AA17ButtonBorderShapeV AA11ControlSizeO 12CoreGraphics7CGFloatV AA06_FrameP0V
++ _symbolic _____y_____y__________y_____yADy_____yAAyADyADyADyADyADyADyADyADyADyADyAC_____GAGGAGG_____y_____SgGG_____yALGG_____y_____GGAGGAGGAKySiSgGG_____y_____GGSg______yADyADy_____y_____y_____y_____yACG_Qo__Qo__Qo______G_____G_SbQo_ADyADy_____y_____yADyADy_____ANGAKy_____SgGGG______Qo_AGGAGGSgtGG_____y_____GGSSG_____G_____G_AByAcAy_____y_____yACG______Qo_Sg_AFyAAyADyA7_A10_G_A27_tGGSgtGA37_GADyADyA15_yACGAKy_____GGAKy_____GGSgtG 7SwiftUI9TupleViewV AA7SectionV AA4TextV AA15ModifiedContentV AA6IDViewV AA6HStackV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleP0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitoP0V AA0l8PriorityxN0V AA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A3_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A3_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A3_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0F5FieldV AA010_FlexFrameL0V AA017_AppearanceActionP0V A3_AAE06buttonS0yQrqd__AA015PrimitiveButtonS0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonS0V AA01_rP0V 05NotesB006AnchorD0V AA010_AlignmentoP0V AA05EmptyD0V A3_AAE06toggleS0yQrqd__AA06ToggleS0Rd__lFQO AA6ToggleV AA012SwitchToggleS0V AA17ButtonBorderShapeV AA11ControlSizeO
++ _symbolic _____y_____y__________y_____y_____AAy_____yAAy_____yADyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAF_____GAIGAIG_____y_____SgGG_____yANGG_____y_____GGAIGAIGAMySiSgGG_____y_____GGSg______yAAyAAy_____y_____y_____y_____yAFG_Qo__Qo__Qo______G_____G_SbQo_AAyAAy_____y_____yAAyAAy_____APGAMy_____SgGGG______Qo_AIGAIGSgtGG_____y_____GGSSG_____G_____G_AEyAfDy_____y_____yAFG______Qo_Sg_AHyADyAAyA9_A12_G_A29_tGGSgtGA39_GAAyAAyA17_yAFGAMy_____GGAMy_____GGSgtGGAMy_____GG 7SwiftUI15ModifiedContentV AA4ListV s5NeverO AA9TupleViewV AA7SectionV AA4TextV AA6IDViewV AA6HStackV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleR0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitqR0V AA0n8PriorityzP0V AA0H0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A7_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A7_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A7_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0J5FieldV AA010_FlexFrameN0V AA017_AppearanceActionR0V A7_AAE06buttonU0yQrqd__AA015PrimitiveButtonU0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonU0V AA01_tR0V 05NotesB006AnchorH0V AA010_AlignmentqR0V AA05EmptyH0V A7_AAE06toggleU0yQrqd__AA06ToggleU0Rd__lFQO AA6ToggleV AA012SwitchToggleU0V AA17ButtonBorderShapeV AA11ControlSizeO 12CoreGraphics7CGFloatV
++ _symbolic _____y_____y_____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy__________GAEGAEG_____y_____SgGG_____yAJGG_____y_____GGAEGAEGAIySiSgGG_____y_____GGSg______yAAyAAy_____y_____y_____y_____yADG_Qo__Qo__Qo______G_____G_SbQo_AAyAAy_____y_____yAAyAAy_____ALGAIy_____SgGGG______Qo_AEGAEGSgtGG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleN0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitmN0V AA0j8PriorityvL0V AA0G0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0H5FieldV AA010_FlexFrameJ0V AA017_AppearanceActionN0V A_AAE06buttonQ0yQrqd__AA015PrimitiveButtonQ0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonQ0V AA01_pN0V 05NotesB006AnchorG0V
++ _symbolic _____y_____y_____y_____yAByAByAByAByAByAByAByAByAByABy__________GAFGAFG_____y_____SgGG_____yAKGG_____y_____GGAFGAFGAJySiSgGG_____y_____GGSg______yAByABy_____y_____y_____y_____yAEG_Qo__Qo__Qo______G_____G_SbQo_AByABy_____y_____yAByABy_____AMGAJy_____SgGGG______Qo_AFGAFGSgtGG_____y_____GGSSG 7SwiftUI6IDViewV AA15ModifiedContentV AA6HStackV AA9TupleViewV AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleO0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitnO0V AA0k8PrioritywM0V AA0H0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A1_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A1_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A1_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0I5FieldV AA010_FlexFrameK0V AA017_AppearanceActionO0V A1_AAE06buttonR0yQrqd__AA015PrimitiveButtonR0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonR0V AA01_qO0V 05NotesB006AnchorH0V
++ _symbolic ypSgIegn_
++ _symbolic ypSgytIegnr_
++ _symbolic yypSgcSg
+- +[ICNoteEditorNavigationItemConfiguration systemImageWithFallbackNamed:withConfiguration:]
+- +[ICNoteEditorViewController formatKeyboardShortcutMenu]
+- -[ICBaseTextView initForTextKit2WithNote:size:insideSystemPaper:linkDelegate:insideSiriSnippet:]
+- -[ICEditingTextView resignFirstResponder]
+- -[ICEditingTextView setShouldAvoidResigningFirstResponder:]
+- -[ICEditingTextView shouldAvoidResigningFirstResponder]
+- -[ICEditingTextView toggleBoldface:]
+- -[ICEditingTextView toggleItalics:]
+- -[ICEditingTextView toggleStrikethrough:]
+- -[ICEditingTextView toggleUnderline:]
+- -[ICEditingTextView(StyleAdditions) ic_allSelectedRangesContainAttributeName:]
+- -[ICMapViewController _toolbarItemPressed:].cold.1
+- -[ICMapViewController _toolbarItemPressed:].cold.2
+- -[ICMapViewController loadView].cold.1
+- -[ICNoteEditorViewController contextMenuInteraction:]
+- -[ICNoteEditorViewController linkEditorViewController]
+- -[ICNoteEditorViewController openLinkEditorForLink:]
+- -[ICNoteEditorViewController setLinkEditorViewController:]
+- -[ICNoteEditorViewController setNote:delayedForLaunch:successHandler:].cold.1
+- -[ICNoteEditorViewController shouldShowFloatingSuggestions]
+- -[ICNoteEditorViewController strikethrough:]
+- -[ICNoteEditorViewController toggleEmphasis:]
+- -[ICTK2TextContainer linkDelegate]
+- -[ICTK2TextContainer setLinkDelegate:]
+- -[ICTK2TextView initWithNote:size:insideSystemPaper:linkDelegate:insideSiriSnippet:]
+- -[ICTableAttachmentViewController setNeedsSave]
+- -[ICTableColumnTextView shouldShowFloatingSuggestions]
+- -[ICTableSelectionView setShouldAvoidResigningFirstResponder:]
+- -[ICTableSelectionView shouldAvoidResigningFirstResponder]
+- -[ICTextView toggleBoldface:]
+- -[ICTextView toggleItalics:]
+- -[ICTextView toggleStrikethrough:]
+- -[ICTextView toggleUnderline:]
+- GCC_except_table1053
+- GCC_except_table1079
+- GCC_except_table108
+- GCC_except_table109
+- GCC_except_table115
+- GCC_except_table137
+- GCC_except_table216
+- GCC_except_table264
+- GCC_except_table312
+- GCC_except_table317
+- GCC_except_table32
+- GCC_except_table324
+- GCC_except_table346
+- GCC_except_table351
+- GCC_except_table396
+- GCC_except_table49
+- GCC_except_table537
+- GCC_except_table568
+- GCC_except_table573
+- GCC_except_table598
+- GCC_except_table637
+- GCC_except_table67
+- GCC_except_table671
+- GCC_except_table683
+- GCC_except_table712
+- GCC_except_table713
+- GCC_except_table730
+- GCC_except_table90
+- _.compoundliteral.3179
+- _.compoundliteral.3181
+- _.compoundliteral.3183
+- _.compoundliteral.3185
+- _DataDetectorsCoreLibraryCore.frameworkLibrary
+- _MapKitLibrary
+- _MapKitLibraryCore.frameworkLibrary
+- _MarkupUILibrary
+- _MarkupUILibraryCore.frameworkLibrary
+- _NewsServicesLibraryCore.frameworkLibrary
+- _OBJC_CLASS_$_ICLinkEditorViewControllerHelper
+- _OBJC_CLASS_$_LinkEditorViewController
+- _OBJC_IVAR_$_ICEditingTextView._shouldAvoidResigningFirstResponder
+- _OBJC_IVAR_$_ICNoteEditorViewController._linkEditorViewController
+- _OBJC_IVAR_$_ICTK2TextContainer._linkDelegate
+- _OBJC_IVAR_$_ICTableSelectionView._shouldAvoidResigningFirstResponder
+- _OBJC_METACLASS_$_ICLinkEditorViewControllerHelper
+- _OBJC_METACLASS_$_LinkEditorViewController
+- _SafariServicesLibraryCore.frameworkLibrary
+- __Block_object_assign
+- __CLASS_METHODS_ICLinkEditorViewControllerHelper
+- __DATA_ICLinkEditorViewControllerHelper
+- __DATA_LinkEditorViewController
+- __INSTANCE_METHODS_ICLinkEditorViewControllerHelper
+- __IVARS_LinkEditorViewController
+- __METACLASS_DATA_ICLinkEditorViewControllerHelper
+- __METACLASS_DATA_LinkEditorViewController
+- __OBJC_$_CLASS_METHODS_ICNoteEditorNavigationItemConfiguration
+- __OBJC_$_INSTANCE_METHODS_LinkEditorViewController(NotesEditor)
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_ICLinkMenuDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_ICLinkMenuDelegate
+- __OBJC_CLASS_PROTOCOLS_$_LinkEditorViewController(NotesEditor)
+- __OBJC_LABEL_PROTOCOL_$_ICLinkMenuDelegate
+- __OBJC_PROTOCOL_$_ICLinkMenuDelegate
+- ___106-[ICEditingTextView(DragAndDrop) textPasteConfigurationSupporting:performPasteOfAttributedString:toRange:]_block_invoke.255
+- ___106-[ICEditingTextView(DragAndDrop) textPasteConfigurationSupporting:performPasteOfAttributedString:toRange:]_block_invoke_2.256
+- ___137-[ICNoteEditorViewController documentCameraPresentingViewController:didFinishWithInfoCollection:imageCache:warnUser:closeViewController:]_block_invoke.753
+- ___137-[ICNoteEditorViewController documentCameraPresentingViewController:didFinishWithInfoCollection:imageCache:warnUser:closeViewController:]_block_invoke.764
+- ___137-[ICNoteEditorViewController documentCameraPresentingViewController:didFinishWithInfoCollection:imageCache:warnUser:closeViewController:]_block_invoke_2.765
+- ___137-[ICNoteEditorViewController documentCameraPresentingViewController:didFinishWithInfoCollection:imageCache:warnUser:closeViewController:]_block_invoke_3.777
+- ___28-[ICTextView toggleItalics:]_block_invoke
+- ___29-[ICTextView toggleBoldface:]_block_invoke
+- ___30-[ICTextView toggleUnderline:]_block_invoke
+- ___33-[ICAttachmentView shareWebLink:]_block_invoke.225
+- ___34-[ICTextView toggleStrikethrough:]_block_invoke
+- ___43-[ICAttachmentPresenter presentSynapseLink]_block_invoke.157
+- ___43-[ICAttachmentPresenter presentSynapseLink]_block_invoke.157.cold.1
+- ___53-[ICNoteEditorViewController contextMenuInteraction:]_block_invoke
+- ___53-[ICNoteEditorViewController contextMenuInteraction:]_block_invoke_2
+- ___53-[ICNoteEditorViewController contextMenuInteraction:]_block_invoke_3
+- ___53-[ICNoteEditorViewController contextMenuInteraction:]_block_invoke_4
+- ___53-[ICNoteEditorViewController contextMenuInteraction:]_block_invoke_5
+- ___53-[ICNoteEditorViewController contextMenuInteraction:]_block_invoke_6
+- ___56-[ICAttachmentPresenter presentExportViewForAttachment:]_block_invoke.223
+- ___57-[ICMarkupPresenter presentMarkupUsingExtensionFromView:]_block_invoke.39.cold.1
+- ___57-[ICNoteEditorViewController insertSidecarItems:service:]_block_invoke.935
+- ___59-[ICNoteEditorViewController noteDecryptedStatusDidChange:]_block_invoke.cold.1
+- ___70-[ICNoteEditorViewController setNote:delayedForLaunch:successHandler:]_block_invoke
+- ___70-[ICNoteEditorViewController setNote:delayedForLaunch:successHandler:]_block_invoke.839
+- ___70-[ICNoteEditorViewController setNote:delayedForLaunch:successHandler:]_block_invoke_2
+- ___74-[ICNoteEditorViewController presentRecordingStoppedAlertForNoteIfNeeded:]_block_invoke.867
+- ___78-[ICEditingTextView(StyleAdditions) ic_allSelectedRangesContainAttributeName:]_block_invoke
+- ___99-[ICNoteEditorViewController noteEditorNavigationItemConfiguration:addNoteFromBarButtonItem:event:]_block_invoke.1395
+- ___DataDetectorsCoreLibraryCore_block_invoke
+- ___MapKitLibraryCore_block_invoke
+- ___MarkupUILibraryCore_block_invoke
+- ___NewsServicesLibraryCore_block_invoke
+- ___SafariServicesLibraryCore_block_invoke
+- ___block_descriptor_40_e8_32r_e22_v16?0"NSDictionary"8lr32l8
+- ___block_descriptor_40_e8_32s_e22_v16?0"NSDictionary"8ls32l8
+- ___block_descriptor_48_e8_32r_e5_v8?0lr32l8
+- ___block_descriptor_48_e8_32s40r_e37_v32?0"NSDictionary"8{_NSRange=QQ}16ls32l8r40l8
+- ___block_literal_global.1015
+- ___block_literal_global.1042
+- ___block_literal_global.1055
+- ___block_literal_global.1341
+- ___block_literal_global.1397
+- ___block_literal_global.1403
+- ___block_literal_global.1406
+- ___block_literal_global.212
+- ___block_literal_global.215
+- ___block_literal_global.225
+- ___block_literal_global.480
+- ___block_literal_global.512
+- ___block_literal_global.568
+- ___block_literal_global.580
+- ___block_literal_global.586
+- ___block_literal_global.674
+- ___block_literal_global.837
+- ___block_literal_global.872
+- ___block_literal_global.882
+- ___block_literal_global.931
+- ___block_literal_global.938
+- ___getDDResultAttributeNameSymbolLoc_block_invoke
+- ___getMKCoordinateRegionMakeWithDistanceSymbolLoc_block_invoke
+- ___getMKLaunchOptionsDirectionsModeDrivingSymbolLoc_block_invoke
+- ___getMKLaunchOptionsDirectionsModeKeySymbolLoc_block_invoke
+- ___getMKMapItemClass_block_invoke
+- ___getMKMapItemClass_block_invoke.cold.1
+- ___getMKMapViewClass_block_invoke
+- ___getMKMapViewClass_block_invoke.cold.1
+- ___getMKPlacemarkClass_block_invoke
+- ___getMKPlacemarkClass_block_invoke.cold.1
+- ___getMKPointAnnotationClass_block_invoke
+- ___getMKPointAnnotationClass_block_invoke.cold.1
+- ___getMUAnimationIconImageSymbolLoc_block_invoke
+- ___getMUAnimationMaskRectSymbolLoc_block_invoke
+- ___getMUAnimationSourceRectSymbolLoc_block_invoke
+- ___getMUAnimationTargetRectSymbolLoc_block_invoke
+- ___getMUDisplayAsFullScreenSymbolLoc_block_invoke
+- ___getMUEncryptPrivateMetadataSymbolLoc_block_invoke
+- ___getMUFileDisplayNameSymbolLoc_block_invoke
+- ___getNSSNewsViewControllerClass_block_invoke
+- ___getNSSNewsViewControllerClass_block_invoke.cold.1
+- ___getSSReadingListClass_block_invoke
+- ___getSSReadingListClass_block_invoke.cold.1
+- ___get_MKURLParserClass_block_invoke
+- ___get_MKURLParserClass_block_invoke.cold.1
+- ___getkAXQuickSpeakStopSpeakingNotificationSymbolLoc_block_invoke
+- ___libAccessibilityLibraryCore_block_invoke
+- __sl_dlopen
+- _abort_report_np
+- _audit_stringDataDetectorsCore
+- _audit_stringMapKit
+- _audit_stringMarkupUI
+- _audit_stringNewsServices
+- _audit_stringSafariServices
+- _block_copy_helper.110
+- _block_copy_helper.116
+- _block_copy_helper.122
+- _block_copy_helper.133
+- _block_copy_helper.77
+- _block_descriptor.112
+- _block_descriptor.118
+- _block_descriptor.124
+- _block_descriptor.135
+- _block_descriptor.79
+- _block_destroy_helper.111
+- _block_destroy_helper.117
+- _block_destroy_helper.123
+- _block_destroy_helper.134
+- _block_destroy_helper.78
+- _dlerror
+- _dlsym
+- _getDDResultAttributeNameSymbolLoc.ptr
+- _getMKCoordinateRegionMakeWithDistanceSymbolLoc.ptr
+- _getMKLaunchOptionsDirectionsModeDrivingSymbolLoc.ptr
+- _getMKLaunchOptionsDirectionsModeKeySymbolLoc.ptr
+- _getMKMapItemClass
+- _getMKMapItemClass.softClass
+- _getMKMapViewClass.softClass
+- _getMKPlacemarkClass
+- _getMKPlacemarkClass.softClass
+- _getMKPointAnnotationClass.softClass
+- _getMUAnimationIconImageSymbolLoc.ptr
+- _getMUAnimationMaskRect
+- _getMUAnimationMaskRect.cold.1
+- _getMUAnimationMaskRectSymbolLoc.ptr
+- _getMUAnimationSourceRectSymbolLoc.ptr
+- _getMUAnimationTargetRectSymbolLoc.ptr
+- _getMUDisplayAsFullScreenSymbolLoc.ptr
+- _getMUEncryptPrivateMetadataSymbolLoc.ptr
+- _getMUFileDisplayNameSymbolLoc.ptr
+- _getNSSNewsViewControllerClass
+- _getNSSNewsViewControllerClass.softClass
+- _getSSReadingListClass.softClass
+- _get_MKURLParserClass
+- _get_MKURLParserClass.softClass
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA4ListVys5NeverOAA9TupleViewVyAA7SectionVyAA4TextVAKyAEyAA6IDViewVyAEyAA6HStackVyAKyACyAEyAEyAEyAEyAEyAEyAEyAEyAEyAEyAoA14_PaddingLayoutVGAUGAUGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA016_BackgroundStyleS0VyA0_GGAA11_ClipEffectVyAA16RoundedRectangleVGGAUGAUGAZySiSgGGAA06_TraitrS0VyAA0o13PriorityTraitQ0VGGAEyAEyAEyAEyAEyAEyAVA2_GA6_GA12_GAUGA17_GA23_GGSg_AA0I0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAEyAEyA34_AAE9lineLimit_13reservesSpaceQrSi_SbtFQOyA34_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQOyA34_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQOyAA0K5FieldVyAOG_Qo__Qo__Qo_AA010_FlexFrameO0VGAA017_AppearanceActionS0VG_SbQo_AEyAEyA34_AAE06buttonV0yQrqd__AA015PrimitiveButtonV0Rd__lFQOyAA6ButtonVyAEyAEyAA5ImageVA2_GAZyAA4FontVSgGGG_AA011PlainButtonV0VQo_AUGAUGSgtGGAA01_uS0Vy05NotesB006AnchorI0VGGSSGAA010_AlignmentrS0VG_A85_015LinkSuggestionsI0VSgSgtGAA05EmptyI0VG_ACyAMyAoKyA34_AAE06toggleV0yQrqd__AA06ToggleV0Rd__lFQOyAA6ToggleVyAOG_AA012SwitchToggleV0VQo_Sg_ASyAKyAEyA52_A56_G_A80_tGGSgtGA100_GAMyAoKyASyAKyA34_AAEA35_A36_A37__Qrqd___Sbyqd___qd__tctSQRd__lFQOyA111__SbQo__AEyA78_A56_GSgtGGSg_A110_tGA100_GGAEyAEyA65_yAOGAZyAA17ButtonBorderShapeVGGAZyAA11ControlSizeOGGSgtGGAZy12CoreGraphics7CGFloatVGGAA06_FrameO0VGA142_GAAA33_HPA145_AAA33_HPA142_AAA33_HPA137_AAA33_HPyHC_A141_AA0iS0HPyHCHC_A144_AAA147_HPyHCHC_A142_AAA33_HPA137_AAA33_HPyHC_A141_AAA147_HPyHCHCHC.21
+- _getkAXQuickSpeakStopSpeakingNotificationSymbolLoc.ptr
+- _libAccessibilityLibraryCore.frameworkLibrary
+- _objc_getClass
+- _objc_msgSend$ic_allSelectedRangesContainAttributeName:
+- _objc_msgSend$ic_hierarchicalSystemImageNamed:colors:fontTextStyle:scale:maxContentSizeCategory:
+- _objc_msgSend$initWithNote:size:insideSystemPaper:linkDelegate:insideSiriSnippet:
+- _objc_msgSend$linkDelegate
+- _objc_msgSend$linkEditorViewController
+- _objc_msgSend$numberWithInt:
+- _objc_msgSend$openLinkEditorForLink:
+- _objc_msgSend$setLinkEditorViewController:
+- _objc_msgSend$setLinkMenuDelegate:
+- _objc_msgSend$setNeedsSave
+- _objc_msgSend$setShouldAvoidResigningFirstResponder:
+- _objc_msgSend$setWantsPriorityOverSystemBehavior:
+- _objc_msgSend$shouldAvoidResigningFirstResponder
+- _objc_msgSend$strikethrough:
+- _objc_msgSend$systemImageWithFallbackNamed:withConfiguration:
+- _objc_msgSend$toggleEmphasis:
+- _objectdestroy.50Tm
+- _objectdestroy.87Tm
+- _symbolic So16UIViewControllerCm
+- _symbolic So22ICInlineTextAttachmentCSg
+- _symbolic _____ 11NotesEditor04LinkB20ViewControllerHelperC
+- _symbolic _____Sg 11NotesEditor04LinkB4ViewV
+- _symbolic _____SgSg 7NotesUI19LinkSuggestionsViewV
+- _symbolic _____SgXw 11NotesEditor04LinkB14ViewControllerC
+- _symbolic _____yAAyAAyAAyAAyAAyAAy__________G_____y_____SgGG_____yAFGG_____y_____GGACGAEySiSgGG_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleK0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitjK0V AA0g8PrioritysI0V
+- _symbolic _____yAAyAAyAAyAAyAAy__________G_____y_____SgGG_____yAFGG_____y_____GGACGAEySiSgGG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleK0V AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____yAAyAAyAAyAAy__________GACGACG_____y_____SgGG_____yAHGG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleK0V
+- _symbolic _____yAAyAAyAAyAAy__________G_____y_____SgGG_____yAFGG_____y_____GGACG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleK0V AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____yAAyAAyAAy__________GACGACG_____y_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____yAAyAAyAAy__________G_____y_____SgGG_____yAFGG_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleK0V AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____yAAyAAy__________GACGACG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV
+- _symbolic _____yAAyAAy__________G_____y_____SgGG_____yAFGG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleK0V
+- _symbolic _____yAAy__________G_____y_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____yAAy_____y__________y_____y_____ADyAAy_____yAAy_____yADy_____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAF_____GAJGAJG_____y_____SgGG_____yAOGG_____y_____GGAJGAJGANySiSgGG_____y_____GGAAyAAyAAyAAyAAyAAyAkQGATGAXGAJGA1_GA5_GGSg______yAAyAAy_____y_____y_____y_____yAFG_Qo__Qo__Qo______G_____G_SbQo_AAyAAy_____y_____yAAyAAy_____AQGANy_____SgGGG______Qo_AJGAJGSgtGG_____y_____GGSSG_____G______SgSgtG_____G_AIyAEyAfDy_____y_____yAFG______Qo_Sg_AHyADyAAyA17_A20_G_A37_tGGSgtGA51_GAEyAfDyAHyADy_____yA58__SbQo__AAyA35_A20_GSgtGGSg_A57_tGA51_GGAAyAAyA25_yAFGANy_____GGANy_____GGSgtGGANy_____GG_____G 7SwiftUI15ModifiedContentV AA4ListV s5NeverO AA9TupleViewV AA7SectionV AA4TextV AA6IDViewV AA6HStackV AA012_ConditionalD0V AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleS0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitrS0V AA0o13PriorityTraitQ0V AA0H0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A9_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A9_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A9_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0J5FieldV AA010_FlexFrameO0V AA017_AppearanceActionS0V A9_AAE06buttonV0yQrqd__AA015PrimitiveButtonV0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonV0V AA01_uS0V 05NotesB006AnchorH0V AA010_AlignmentrS0V A42_015LinkSuggestionsH0V AA05EmptyH0V A9_AAE06toggleV0yQrqd__AA06ToggleV0Rd__lFQO AA6ToggleV AA012SwitchToggleV0V A9_AAEA10_A11_A12__Qrqd___Sbyqd___qd__tctSQRd__lFQO AA17ButtonBorderShapeV AA11ControlSizeO 12CoreGraphics7CGFloatV AA06_FrameO0V
+- _symbolic _____yAAy_____y_____yAAyAAy__________y_____SgGGADy_____SgGGG______Qo______G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA05PlainiG0V AA14_PaddingLayoutV AA010_FlexFrameS0V
+- _symbolic _____yAAy_____y_____yAAyAAy__________y_____SgGGADy_____SgGGG______Qo______G_____GSg 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA05PlainiG0V AA14_PaddingLayoutV AA010_FlexFrameS0V
+- _symbolic _____y_____G 7SwiftUI21_TraitWritingModifierV AA014LayoutPriorityC3KeyV
+- _symbolic _____y___________y_____y_____yAEyAEyAEyAEyAEyAEyAEyAEyAEy__________GAGGAGG_____y_____SgGG_____yALGG_____y_____GGAGGAGGAKySiSgGG_____y_____GGAEyAEyAEyAEyAEyAEyAhNGAQGAUGAGGAZGA2_GGSg______yAEyAEy_____y_____y_____y_____yAFG_Qo__Qo__Qo______G_____G_SbQo_AEyAEy_____y_____yAEyAEy_____ANGAKy_____SgGGG______Qo_AGGAGGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA19_ConditionalContentV AA08ModifiedJ0V AA4TextV AA08_PaddingG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleQ0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitpQ0V AA0g8PriorityyO0V AA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A5_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A5_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A5_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0L5FieldV AA010_FlexFrameG0V AA017_AppearanceActionQ0V A5_AAE06buttonT0yQrqd__AA015PrimitiveButtonT0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonT0V
+- _symbolic _____y___________y_____y_____y_____y_____y_____G_Qo______G_SbQo__ADyADy_____y_____yADyADy__________y_____SgGGANy_____SgGGG______Qo______GAIGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AkAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA9TextFieldV AA0S0V AA010_FlexFrameG0V AkAE11buttonStyleyQrqd__AA015PrimitiveButtonX0Rd__lFQO AA0Z0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA05PlainzX0V AA08_PaddingG0V
+- _symbolic _____y__________y_____yACy_____y_____y_____y_____yABG_Qo______G_SbQo__AEyAEy_____y_____yAEyAEy__________y_____SgGGANy_____SgGGG______Qo______GAIGSgtGGSg______y_____yABG______Qo_SgtG_____G 7SwiftUI7SectionV AA4TextV AA9TupleViewV AA6HStackV AA0F0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AkAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0D5FieldV AA16_FlexFrameLayoutV AkAE11buttonStyleyQrqd__AA015PrimitiveButtonW0Rd__lFQO AA0Y0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA05PlainyW0V AA08_PaddingU0V AkAE06toggleW0yQrqd__AA06ToggleW0Rd__lFQO AA6ToggleV AA012SwitchToggleW0V AA05EmptyF0V
+- _symbolic _____y__________y_____y_____ACy_____y_____yAFy_____yACy_____yAFyAFyAFyAFyAFyAFyAFyAFyAFyAFyAE_____GAJGAJG_____y_____SgGG_____yAOGG_____y_____GGAJGAJGANySiSgGG_____y_____GGAFyAFyAFyAFyAFyAFyAkQGATGAXGAJGA1_GA5_GGSg______yAFyAFy_____y_____y_____y_____yAEG_Qo__Qo__Qo______G_____G_SbQo_AFyAFy_____y_____yAFyAFy_____AQGANy_____SgGGG______Qo_AJGAJGSgtGG_____y_____GGSSG_____G______SgSgtG_____G_AIyADyAeCy_____y_____yAEG______Qo_Sg_AHyACyAFyA17_A20_G_A37_tGGSgtGA51_GADyAeCyAHyACy_____yA58__SbQo__AFyA35_A20_GSgtGGSg_A57_tGA51_GGAFyAFyA25_yAEGANy_____GGANy_____GGSgtGG 7SwiftUI4ListV s5NeverO AA9TupleViewV AA7SectionV AA4TextV AA15ModifiedContentV AA6IDViewV AA6HStackV AA012_ConditionalJ0V AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleS0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitrS0V AA0o13PriorityTraitQ0V AA0F0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A9_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A9_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A9_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0H5FieldV AA010_FlexFrameO0V AA017_AppearanceActionS0V A9_AAE06buttonV0yQrqd__AA015PrimitiveButtonV0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonV0V AA01_uS0V 05NotesB006AnchorF0V AA010_AlignmentrS0V A42_015LinkSuggestionsF0V AA05EmptyF0V A9_AAE06toggleV0yQrqd__AA06ToggleV0Rd__lFQO AA6ToggleV AA012SwitchToggleV0V A9_AAEA10_A11_A12__Qrqd___Sbyqd___qd__tctSQRd__lFQO AA17ButtonBorderShapeV AA11ControlSizeO
+- _symbolic _____y__________y_____y_____yADy_____yACy_____yADyADyADyADyADyADyADyADyADyADyAB_____GAHGAHG_____y_____SgGG_____yAMGG_____y_____GGAHGAHGALySiSgGG_____y_____GGADyADyADyADyADyADyAiOGARGAVGAHGA_GA3_GGSg______yADyADy_____y_____y_____y_____yABG_Qo__Qo__Qo______G_____G_SbQo_ADyADy_____y_____yADyADy_____AOGALy_____SgGGG______Qo_AHGAHGSgtGG_____y_____GGSSG_____G______SgSgtG_____G 7SwiftUI7SectionV AA4TextV AA9TupleViewV AA15ModifiedContentV AA6IDViewV AA6HStackV AA012_ConditionalH0V AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleQ0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitpQ0V AA0m8PriorityyO0V AA0F0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A5_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A5_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A5_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0D5FieldV AA010_FlexFrameM0V AA017_AppearanceActionQ0V A5_AAE06buttonT0yQrqd__AA015PrimitiveButtonT0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonT0V AA01_sQ0V 05NotesB006AnchorF0V AA010_AlignmentpQ0V A38_015LinkSuggestionsF0V AA05EmptyF0V
+- _symbolic _____y__________y_____y_____yADy_____yACy_____yADyADyADyADyADyADyADyADyADyADyAB_____GAHGAHG_____y_____SgGG_____yAMGG_____y_____GGAHGAHGALySiSgGG_____y_____GGADyADyADyADyADyADyAiOGARGAVGAHGA_GA3_GGSg______yADyADy_____y_____y_____y_____yABG_Qo__Qo__Qo______G_____G_SbQo_ADyADy_____y_____yADyADy_____AOGALy_____SgGGG______Qo_AHGAHGSgtGG_____y_____GGSSG_____G______SgSgtG_____G_AGyAAyAbCy_____y_____yABG______Qo_Sg_AFyACyADyA15_A18_G_A35_tGGSgtGA49_GAAyAbCyAFyACy_____yA56__SbQo__ADyA33_A18_GSgtGGSg_A55_tGA49_GGADyADyA23_yABGALy_____GGALy_____GGSgt 7SwiftUI7SectionV AA4TextV AA9TupleViewV AA15ModifiedContentV AA6IDViewV AA6HStackV AA012_ConditionalH0V AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleQ0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitpQ0V AA0m8PriorityyO0V AA0F0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A5_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A5_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A5_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0D5FieldV AA010_FlexFrameM0V AA017_AppearanceActionQ0V A5_AAE06buttonT0yQrqd__AA015PrimitiveButtonT0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonT0V AA01_sQ0V 05NotesB006AnchorF0V AA010_AlignmentpQ0V A38_015LinkSuggestionsF0V AA05EmptyF0V A5_AAE06toggleT0yQrqd__AA06ToggleT0Rd__lFQO AA6ToggleV AA012SwitchToggleT0V A5_AAEA6_A7_A8__Qrqd___Sbyqd___qd__tctSQRd__lFQO AA17ButtonBorderShapeV AA11ControlSizeO
+- _symbolic _____y_____yAAy_____y_____y_____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy__________GAGGAGG_____y_____SgGG_____yALGG_____y_____GGAGGAGGAKySiSgGG_____y_____GGAAyAAyAAyAAyAAyAAyAhNGAQGAUGAGGAZGA2_GGSg______yAAyAAy_____y_____y_____y_____yAFG_Qo__Qo__Qo______G_____G_SbQo_AAyAAy_____y_____yAAyAAy_____ANGAKy_____SgGGG______Qo_AGGAGGSgtGG_____y_____GGSSG_____G 7SwiftUI15ModifiedContentV AA6IDViewV AA6HStackV AA9TupleViewV AA012_ConditionalD0V AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleP0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitoP0V AA0l8PriorityxN0V AA0H0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A3_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A3_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A3_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0J5FieldV AA010_FlexFrameL0V AA017_AppearanceActionP0V A3_AAE06buttonS0yQrqd__AA015PrimitiveButtonS0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonS0V AA01_rP0V 05NotesB006AnchorH0V AA010_AlignmentoP0V
+- _symbolic _____y_____yAAy_____y_____y_____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy__________GAGGAGG_____y_____SgGG_____yALGG_____y_____GGAGGAGGAKySiSgGG_____y_____GGAAyAAyAAyAAyAAyAAyAhNGAQGAUGAGGAZGA2_GGSg______yAAyAAy_____y_____y_____y_____yAFG_Qo__Qo__Qo______G_____G_SbQo_AAyAAy_____y_____yAAyAAy_____ANGAKy_____SgGGG______Qo_AGGAGGSgtGG_____y_____GGSSG_____G______SgSgt 7SwiftUI15ModifiedContentV AA6IDViewV AA6HStackV AA9TupleViewV AA012_ConditionalD0V AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleP0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitoP0V AA0l8PriorityxN0V AA0H0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A3_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A3_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A3_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0J5FieldV AA010_FlexFrameL0V AA017_AppearanceActionP0V A3_AAE06buttonS0yQrqd__AA015PrimitiveButtonS0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonS0V AA01_rP0V 05NotesB006AnchorH0V AA010_AlignmentoP0V A36_015LinkSuggestionsH0V
+- _symbolic _____y_____yAAy_____y_____y_____y_____y_____G_Qo______G_SbQo__ACyACy_____y_____yACyACy__________y_____SgGGAMy_____SgGGG______Qo______GAHGSgtGGSg______y_____yAEG______Qo_SgtG 7SwiftUI9TupleViewV AA6HStackV AA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AgAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA9TextFieldV AA0P0V AA16_FlexFrameLayoutV AgAE11buttonStyleyQrqd__AA015PrimitiveButtonV0Rd__lFQO AA0X0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA05PlainxV0V AA08_PaddingT0V AgAE06toggleV0yQrqd__AA06ToggleV0Rd__lFQO AA6ToggleV AA012SwitchToggleV0V
+- _symbolic _____y_____yAByAByAByAByAByAByAByAByABy__________GADGADG_____y_____SgGG_____yAIGG_____y_____GGADGADGAHySiSgGG_____y_____GGAByAByAByAByAByAByAeKGANGARGADGAWGA_GG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleL0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitkL0V AA0h8PrioritytJ0V
+- _symbolic _____y_____yAByAByAByAByAByAByAByAByABy__________GADGADG_____y_____SgGG_____yAIGG_____y_____GGADGADGAHySiSgGG_____y_____GGAByAByAByAByAByAByAeKGANGARGADGAWGA_GGSg 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleL0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitkL0V AA0h8PrioritytJ0V
+- _symbolic _____y_____yAByAByAByAByAByAByAByAByABy__________GADGADG_____y_____SgGG_____yAIGG_____y_____GGADGADGAHySiSgGG_____y_____GGAByAByAByAByAByAByAeKGANGARGADGAWGA_GGSg______yAByABy_____y_____y_____y_____yACG_Qo__Qo__Qo______G_____G_SbQo_AByABy_____y_____yAByABy_____AKGAHy_____SgGGG______Qo_ADGADGSgt 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleL0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitkL0V AA0h8PrioritytJ0V AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AyAE9lineLimit_13reservesSpaceQrSi_SbtFQO AyAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO AyAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0F5FieldV AA010_FlexFrameH0V AA017_AppearanceActionL0V AyAE06buttonO0yQrqd__AA015PrimitiveButtonO0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonO0V
+- _symbolic _____y_____yAByAByAByAByAByAByAByAByABy__________GADGADG_____y_____SgGG_____yAIGG_____y_____GGADGADGAHySiSgGG_____y_____GGAByAByAByAByAByAByAeKGANGARGADGAWGA_G_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleM0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitlM0V AA0i8PriorityuK0V
+- _symbolic _____y_____yABy_____y__________y_____y_____AEyABy_____yABy_____yAEyAAyAByAByAByAByAByAByAByAByAByAByAG_____GAJGAJG_____y_____SgGG_____yAOGG_____y_____GGAJGAJGANySiSgGG_____y_____GGAByAByAByAByAByAByAkQGATGAXGAJGA1_GA5_GGSg______yAByABy_____y_____y_____y_____yAGG_Qo__Qo__Qo______G_____G_SbQo_AByABy_____y_____yAByABy_____AQGANy_____SgGGG______Qo_AJGAJGSgtGG_____y_____GGSSG_____G______SgSgtG_____G_AAyAFyAgEy_____y_____yAGG______Qo_Sg_AIyAEyAByA17_A20_G_A37_tGGSgtGA51_GAFyAgEyAIyAEy_____yA58__SbQo__AByA35_A20_GSgtGGSg_A57_tGA51_GGAByAByA25_yAGGANy_____GGANy_____GGSgtGGANy_____GG_____GA85_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ListV s5NeverO AA9TupleViewV AA7SectionV AA4TextV AA6IDViewV AA6HStackV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleS0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitrS0V AA0o13PriorityTraitQ0V AA0I0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A9_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A9_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A9_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0K5FieldV AA010_FlexFrameO0V AA017_AppearanceActionS0V A9_AAE06buttonV0yQrqd__AA015PrimitiveButtonV0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonV0V AA01_uS0V 05NotesB006AnchorI0V AA010_AlignmentrS0V A42_015LinkSuggestionsI0V AA05EmptyI0V A9_AAE06toggleV0yQrqd__AA06ToggleV0Rd__lFQO AA6ToggleV AA012SwitchToggleV0V A9_AAEA10_A11_A12__Qrqd___Sbyqd___qd__tctSQRd__lFQO AA17ButtonBorderShapeV AA11ControlSizeO 12CoreGraphics7CGFloatV AA06_FrameO0V
+- _symbolic _____y_____yABy_____y__________y_____y_____AEyABy_____yABy_____yAEy_____yAByAByAByAByAByAByAByAByAByAByAG_____GAKGAKG_____y_____SgGG_____yAPGG_____y_____GGAKGAKGAOySiSgGG_____y_____GGAByAByAByAByAByAByAlRGAUGAYGAKGA2_GA6_GGSg______yAByABy_____y_____y_____y_____yAGG_Qo__Qo__Qo______G_____G_SbQo_AByABy_____y_____yAByABy_____ARGAOy_____SgGGG______Qo_AKGAKGSgtGG_____y_____GGSSG_____G______SgSgtG_____G_AJyAFyAgEy_____y_____yAGG______Qo_Sg_AIyAEyAByA18_A21_G_A38_tGGSgtGA52_GAFyAgEyAIyAEy_____yA59__SbQo__AByA36_A21_GSgtGGSg_A58_tGA52_GGAByAByA26_yAGGAOy_____GGAOy_____GGSgtGGAOy_____GG_____GA86__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4ListV s5NeverO AA9TupleViewV AA7SectionV AA4TextV AA6IDViewV AA6HStackV AC AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleT0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitsT0V AA0p13PriorityTraitR0V AA0J0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A11_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A11_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A11_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0L5FieldV AA010_FlexFrameP0V AA017_AppearanceActionT0V A11_AAE06buttonW0yQrqd__AA015PrimitiveButtonW0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonW0V AA01_vT0V 05NotesB006AnchorJ0V AA010_AlignmentsT0V A44_015LinkSuggestionsJ0V AA05EmptyJ0V A11_AAE06toggleW0yQrqd__AA06ToggleW0Rd__lFQO AA6ToggleV AA012SwitchToggleW0V A11_AAEA12_A13_A14__Qrqd___Sbyqd___qd__tctSQRd__lFQO AA17ButtonBorderShapeV AA11ControlSizeO 12CoreGraphics7CGFloatV AA06_FrameP0V
+- _symbolic _____y_____y_____AAy_____y_____yADy_____yAAy_____yADyADyADyADyADyADyADyADyADyADyAC_____GAHGAHG_____y_____SgGG_____yAMGG_____y_____GGAHGAHGALySiSgGG_____y_____GGADyADyADyADyADyADyAiOGARGAVGAHGA_GA3_GGSg______yADyADy_____y_____y_____y_____yACG_Qo__Qo__Qo______G_____G_SbQo_ADyADy_____y_____yADyADy_____AOGALy_____SgGGG______Qo_AHGAHGSgtGG_____y_____GGSSG_____G______SgSgtG_____G_AGyAByAcAy_____y_____yACG______Qo_Sg_AFyAAyADyA15_A18_G_A35_tGGSgtGA49_GAByAcAyAFyAAy_____yA56__SbQo__ADyA33_A18_GSgtGGSg_A55_tGA49_GGADyADyA23_yACGALy_____GGALy_____GGSgtG 7SwiftUI9TupleViewV AA7SectionV AA4TextV AA15ModifiedContentV AA6IDViewV AA6HStackV AA012_ConditionalH0V AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleQ0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitpQ0V AA0m8PriorityyO0V AA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A5_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A5_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A5_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0F5FieldV AA010_FlexFrameM0V AA017_AppearanceActionQ0V A5_AAE06buttonT0yQrqd__AA015PrimitiveButtonT0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonT0V AA01_sQ0V 05NotesB006AnchorD0V AA010_AlignmentpQ0V A38_015LinkSuggestionsD0V AA05EmptyD0V A5_AAE06toggleT0yQrqd__AA06ToggleT0Rd__lFQO AA6ToggleV AA012SwitchToggleT0V A5_AAEA6_A7_A8__Qrqd___Sbyqd___qd__tctSQRd__lFQO AA17ButtonBorderShapeV AA11ControlSizeO
+- _symbolic _____y_____y__________y_____y_____ADyAAy_____yAAy_____yADy_____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAF_____GAJGAJG_____y_____SgGG_____yAOGG_____y_____GGAJGAJGANySiSgGG_____y_____GGAAyAAyAAyAAyAAyAAyAkQGATGAXGAJGA1_GA5_GGSg______yAAyAAy_____y_____y_____y_____yAFG_Qo__Qo__Qo______G_____G_SbQo_AAyAAy_____y_____yAAyAAy_____AQGANy_____SgGGG______Qo_AJGAJGSgtGG_____y_____GGSSG_____G______SgSgtG_____G_AIyAEyAfDy_____y_____yAFG______Qo_Sg_AHyADyAAyA17_A20_G_A37_tGGSgtGA51_GAEyAfDyAHyADy_____yA58__SbQo__AAyA35_A20_GSgtGGSg_A57_tGA51_GGAAyAAyA25_yAFGANy_____GGANy_____GGSgtGGANy_____GG 7SwiftUI15ModifiedContentV AA4ListV s5NeverO AA9TupleViewV AA7SectionV AA4TextV AA6IDViewV AA6HStackV AA012_ConditionalD0V AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleS0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitrS0V AA0o13PriorityTraitQ0V AA0H0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A9_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A9_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A9_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0J5FieldV AA010_FlexFrameO0V AA017_AppearanceActionS0V A9_AAE06buttonV0yQrqd__AA015PrimitiveButtonV0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonV0V AA01_uS0V 05NotesB006AnchorH0V AA010_AlignmentrS0V A42_015LinkSuggestionsH0V AA05EmptyH0V A9_AAE06toggleV0yQrqd__AA06ToggleV0Rd__lFQO AA6ToggleV AA012SwitchToggleV0V A9_AAEA10_A11_A12__Qrqd___Sbyqd___qd__tctSQRd__lFQO AA17ButtonBorderShapeV AA11ControlSizeO 12CoreGraphics7CGFloatV
+- _symbolic _____y_____y__________y_____y_____yACG______Qo_Sg______yADy_____y_____y_____yACG_Qo______G_AKyAKy_____y_____yAKyAKy__________y_____SgGGASy_____SgGGG______Qo______GA3_GSgtGGSgtG_____GAByAcDyAJyADy_____yAP_SbQo__AKyA4_AOGSgtGGSg_AItGA11_GG 7SwiftUI19_ConditionalContentV AA7SectionV AA4TextV AA9TupleViewV AA0H0PAAE11toggleStyleyQrqd__AA06ToggleJ0Rd__lFQO AA0K0V AA06SwitchkJ0V AA6HStackV AA08ModifiedD0V AkAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0F5FieldV AA16_FlexFrameLayoutV AkAE06buttonJ0yQrqd__AA015PrimitiveButtonJ0Rd__lFQO AA0Y0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA05PlainyJ0V AA08_PaddingV0V AA05EmptyH0V AkAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO
+- _symbolic _____y_____y__________y_____y_____yACG______Qo_Sg______yADy_____y_____y_____yACG_Qo______G_AKyAKy_____y_____yAKyAKy__________y_____SgGGASy_____SgGGG______Qo______GA3_GSgtGGSgtG_____GAByAcDyAJyADy_____yAP_SbQo__AKyA4_AOGSgtGGSg_AItGA11_G_G 7SwiftUI19_ConditionalContentV7StorageO AA7SectionV AA4TextV AA9TupleViewV AA0I0PAAE11toggleStyleyQrqd__AA06ToggleK0Rd__lFQO AA0L0V AA06SwitchlK0V AA6HStackV AA08ModifiedD0V AmAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0G5FieldV AA16_FlexFrameLayoutV AmAE06buttonK0yQrqd__AA015PrimitiveButtonK0Rd__lFQO AA0Z0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA05PlainzK0V AA08_PaddingW0V AA05EmptyI0V AmAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO
+- _symbolic _____y_____y_____yABy_____yAAy_____yAByAByAByAByAByAByAByAByAByABy__________GAGGAGG_____y_____SgGG_____yALGG_____y_____GGAGGAGGAKySiSgGG_____y_____GGAByAByAByAByAByAByAhNGAQGAUGAGGAZGA2_GGSg______yAByABy_____y_____y_____y_____yAFG_Qo__Qo__Qo______G_____G_SbQo_AByABy_____y_____yAByABy_____ANGAKy_____SgGGG______Qo_AGGAGGSgtGG_____y_____GGSSG_____G______SgSgtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA6IDViewV AA6HStackV AA012_ConditionalF0V AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleP0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitoP0V AA0l8PriorityxN0V AA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A3_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A3_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A3_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0J5FieldV AA010_FlexFrameL0V AA017_AppearanceActionP0V A3_AAE06buttonS0yQrqd__AA015PrimitiveButtonS0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonS0V AA01_rP0V 05NotesB006AnchorD0V AA010_AlignmentoP0V A36_015LinkSuggestionsD0V
+- _symbolic _____y_____y_____y_____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy__________GAFGAFG_____y_____SgGG_____yAKGG_____y_____GGAFGAFGAJySiSgGG_____y_____GGAAyAAyAAyAAyAAyAAyAgMGAPGATGAFGAYGA1_GGSg______yAAyAAy_____y_____y_____y_____yAEG_Qo__Qo__Qo______G_____G_SbQo_AAyAAy_____y_____yAAyAAy_____AMGAJy_____SgGGG______Qo_AFGAFGSgtGG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalD0V AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleO0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitnO0V AA0k8PrioritywM0V AA0G0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A1_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A1_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A1_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0I5FieldV AA010_FlexFrameK0V AA017_AppearanceActionO0V A1_AAE06buttonR0yQrqd__AA015PrimitiveButtonR0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonR0V AA01_qO0V 05NotesB006AnchorG0V
+- _symbolic _____y_____y_____y_____y_____G_Qo______G_SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AcAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA9TextFieldV AA0N0V AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____y_____y_____G_Qo______G_SbQo__AAyAAy_____y_____yAAyAAy__________y_____SgGGAKy_____SgGGG______Qo______GAFGSgt 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AcAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA9TextFieldV AA0N0V AA16_FlexFrameLayoutV AcAE11buttonStyleyQrqd__AA015PrimitiveButtonT0Rd__lFQO AA0V0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA05PlainvT0V AA08_PaddingR0V
+- _symbolic _____y_____y_____y_____y_____yAByAByAByAByAByAByAByAByAByABy__________GAGGAGG_____y_____SgGG_____yALGG_____y_____GGAGGAGGAKySiSgGG_____y_____GGAByAByAByAByAByAByAhNGAQGAUGAGGAZGA2_GGSg______yAByABy_____y_____y_____y_____yAFG_Qo__Qo__Qo______G_____G_SbQo_AByABy_____y_____yAByABy_____ANGAKy_____SgGGG______Qo_AGGAGGSgtGG_____y_____GGSSG 7SwiftUI6IDViewV AA15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalE0V AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleP0V AA11_ClipEffectV AA16RoundedRectangleV AA06_TraitoP0V AA0l8PriorityxN0V AA0H0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A3_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO A3_AAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO A3_AAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0J5FieldV AA010_FlexFrameL0V AA017_AppearanceActionP0V A3_AAE06buttonS0yQrqd__AA015PrimitiveButtonS0Rd__lFQO AA6ButtonV AA5ImageV AA4FontV AA011PlainButtonS0V AA01_rP0V 05NotesB006AnchorH0V
+- _symbolic _____y_____y_____y_____y_____y_____y_____G_Qo______G_SbQo__ACyACy_____y_____yACyACy__________y_____SgGGAMy_____SgGGG______Qo______GAHGSgtGG 7SwiftUI6HStackV AA9TupleViewV AA0E0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AgAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA9TextFieldV AA0P0V AA16_FlexFrameLayoutV AgAE11buttonStyleyQrqd__AA015PrimitiveButtonV0Rd__lFQO AA0X0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA05PlainxV0V AA08_PaddingT0V
+- _symbolic _____y_____y_____y_____y_____y_____y_____G_Qo______G_SbQo__ACyACy_____y_____yACyACy__________y_____SgGGAMy_____SgGGG______Qo______GAHGSgtGGSg 7SwiftUI6HStackV AA9TupleViewV AA0E0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AgAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA9TextFieldV AA0P0V AA16_FlexFrameLayoutV AgAE11buttonStyleyQrqd__AA015PrimitiveButtonV0Rd__lFQO AA0X0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA05PlainxV0V AA08_PaddingT0V
+- _symbolic _____y_____y_____y_____y_____y_____y_____G_Qo______G_SbQo__ACyACy_____y_____yACyACy__________y_____SgGGAMy_____SgGGG______Qo______GAHGSgtGGSg______y_____yAEG______Qo_Sgt 7SwiftUI6HStackV AA9TupleViewV AA0E0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AgAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA9TextFieldV AA0P0V AA16_FlexFrameLayoutV AgAE11buttonStyleyQrqd__AA015PrimitiveButtonV0Rd__lFQO AA0X0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA05PlainxV0V AA08_PaddingT0V AgAE06toggleV0yQrqd__AA06ToggleV0Rd__lFQO AA6ToggleV AA012SwitchToggleV0V
+CStrings:
++ "-[ICBaseTextView initForTextKit2WithNote:size:insideSystemPaper:insideSiriSnippet:]"
++ "/System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore"
++ "/System/Library/PrivateFrameworks/MarkupUI.framework/MarkupUI"
++ "/System/Library/PrivateFrameworks/NewsServices.framework/NewsServices"
++ "@\"LinkEditorController\""
++ "@48@0:8@16{CGPoint=dd}24@40"
++ "@48@0:8@16{CGSize=dd}24B40B44"
++ "ICLinkEditorControllerHelper"
++ "No data source was available when preferredSize was called. Returning zero size."
++ "NotesEditor.LinkEditorController"
++ "NotesEditor/LinkEditorController.swift"
++ "T@\"LinkEditorController\",W,N,V_linkEditorController"
++ "T@\"NSArray\",&,N,V_selectedRangesBeforeSplitViewTransition"
++ "T@\"UIScrollView\",N,R,VscrollView"
++ "TB,N,V_canEdit"
++ "TB,N,V_forceHideToolbar"
++ "TQ,N,V_numberOfBouncedMainThreadSaves"
++ "_TtC11NotesEditor24LinkEditorViewController"
++ "_attributionIcon"
++ "_attributionProvider"
++ "_canEdit"
++ "_forceHideToolbar"
++ "_linkEditorController"
++ "_numberOfBouncedMainThreadSaves"
++ "_selectedRangesBeforeSplitViewTransition"
++ "calculator.fill"
++ "canEdit"
++ "canMoveCheckedToBottom"
++ "canPerformTodoCheckAll"
++ "canPerformTodoUncheckAll"
++ "canPerformToggleTodoChecked"
++ "canRemoveCheckedListItem"
++ "canReverseTableDirection"
++ "canSetListStyle"
++ "canSetParagraphStyle"
++ "canToggleTodoStyle"
++ "cancelActionWithSender:"
++ "containsUnCheckedItems"
++ "contextMenuInteraction:atLocation:inTableTextView:"
++ "contextualBarButtonCache"
++ "convertedTypingAttributes:"
++ "currentTableAttachmentViewController"
++ "doneActionWithSender:"
++ "effectiveGeometry"
++ "externalModelAttributionProviderName"
++ "externalModelAttributionSymbolName"
++ "forceHideToolbar"
++ "getTodoSelected:andAtLeastOneTodoUnchecked:inTextView:"
++ "ic_allSelectedRangesContainAttributeName:withValue:"
++ "ic_hierarchicalSystemImageNamed:colors:fontTextStyle:scale:weight:maxContentSizeCategory:"
++ "ic_systemImageNamed:withConfiguration:"
++ "init(coder:rootView:)"
++ "init(rootView:)"
++ "initForTextKit2WithNote:size:insideSystemPaper:insideSiriSnippet:"
++ "initWithNote:size:insideSystemPaper:insideSiriSnippet:"
++ "insertLinkURLWithUrl:"
++ "insertTextNoteLinkWithNoteSelection:note:"
++ "insertTokenizedNoteLinkWithNoteSelection:"
++ "isChecklistSelected"
++ "linkEditorController"
++ "minimumHeight"
++ "minimumWidth"
++ "modelForStyleAttributes:filterAttributes:"
++ "noteFor:"
++ "noteIDFor:"
++ "numberOfBouncedMainThreadSaves"
++ "openLinkEditorForLink:atRange:delegate:"
++ "pillCornerRadius"
++ "sanitizedWithString:"
++ "saveOnMainThreadAfterDelay"
++ "scrollSelectionToVisible:"
++ "selectedRanges"
++ "selectedRangesBeforeSplitViewTransition"
++ "self.scrollClampingTopTextIndex >= ({ __typeof__(changeInLength) __a9 = (changeInLength); (__a9 < 0) ? - __a9 : __a9; })"
++ "setCanEdit:"
++ "setForceHideToolbar:"
++ "setLinkEditorController:"
++ "setNeedsSaveAfterUserEdit"
++ "setNote:delayedForLaunch:startEditing:successHandler:"
++ "setNote:overrideScrollState:startEditing:"
++ "setNumberOfBouncedMainThreadSaves:"
++ "setSelectedRanges:"
++ "setSelectedRangesBeforeSplitViewTransition:"
++ "styleForModelAttributes:"
++ "v40@0:8@16B24B28@?32"
++ "v40@0:8^B16^B24@32"
++ "viewModel"
++ "\x82A\x81\xf0\xb1\xf1\xf01"
++ "\xf0\xb2"
+- "%s"
+- "'"
+- "-[ICBaseTextView initForTextKit2WithNote:size:insideSystemPaper:linkDelegate:insideSiriSnippet:]"
+- "/usr/lib/libAccessibility.dylib"
+- "/usr/local/lib/libAccessibility.dylib"
+- "7"
+- "8"
+- "9"
+- "@\"<ICLinkMenuDelegate>\""
+- "@\"LinkEditorViewController\""
+- "@\"UIContextMenuConfiguration\"24@0:8@\"ICInlineAttachment\"16"
+- "@56@0:8@16{CGSize=dd}24B40@44B52"
+- "Body"
+- "Bulleted List"
+- "DDResultAttributeName"
+- "Dashed List"
+- "Down"
+- "Encountered error trying to get link suggestions: %@"
+- "Heading"
+- "ICLinkEditorViewControllerHelper"
+- "ICLinkMenuDelegate"
+- "MKCoordinateRegionMakeWithDistance"
+- "MKLaunchOptionsDirectionsModeDriving"
+- "MKLaunchOptionsDirectionsModeKey"
+- "MKMapItem"
+- "MKMapView"
+- "MKPlacemark"
+- "MKPointAnnotation"
+- "MUAnimationIconImage"
+- "MUAnimationMaskRect"
+- "MUAnimationSourceRect"
+- "MUAnimationTargetRect"
+- "MUDisplayAsFullScreen"
+- "MUEncryptPrivateMetadata"
+- "MUFileDisplayName"
+- "Mark as Checked"
+- "Monostyled"
+- "More"
+- "Move Item"
+- "Move Item Down"
+- "Move Item Up"
+- "NSSNewsViewController"
+- "No data source was available when preferredSize was called. Suggesting target size."
+- "Numbered List"
+- "R"
+- "SSReadingList"
+- "Subheading"
+- "T@\"<ICLinkMenuDelegate>\",N,V_linkDelegate"
+- "T@\"LinkEditorViewController\",W,N,V_linkEditorViewController"
+- "TB,N,V_shouldAvoidResigningFirstResponder"
+- "TB,R"
+- "Title"
+- "Unable to find class %s"
+- "Up"
+- "_MKURLParser"
+- "_linkDelegate"
+- "_linkEditorViewController"
+- "_setAdditionalSelectionInsets:"
+- "_shouldAvoidResigningFirstResponder"
+- "arrow.down"
+- "arrow.up"
+- "arrow.up.arrow.down"
+- "calculator"
+- "checkmark.circle.platter"
+- "contextMenuInteraction:"
+- "doneAction"
+- "ellipsis.circle"
+- "formatKeyboardShortcutMenu"
+- "h"
+- "hostingController"
+- "ic_allSelectedRangesContainAttributeName:"
+- "ic_hierarchicalSystemImageNamed:colors:fontTextStyle:scale:maxContentSizeCategory:"
+- "initForTextKit2WithNote:size:insideSystemPaper:linkDelegate:insideSiriSnippet:"
+- "initWithNote:size:insideSystemPaper:linkDelegate:insideSiriSnippet:"
+- "j"
+- "kAXQuickSpeakStopSpeakingNotification"
+- "l"
+- "line.vertical.and.rectangle.fill"
+- "linkEditorView"
+- "linkEditorViewController"
+- "noteDecryptedStatusDidChange"
+- "numberWithInt:"
+- "openLinkEditorForLink:"
+- "self.scrollClampingTopTextIndex >= ({ __typeof__(changeInLength) __a789 = (changeInLength); (__a789 < 0) ? - __a789 : __a789; })"
+- "setCurrentQueryString:"
+- "setLinkEditorViewController:"
+- "setLinkMenuDelegate:"
+- "setNeedsSave"
+- "setShouldAvoidResigningFirstResponder:"
+- "shouldAvoidResigningFirstResponder"
+- "shouldShowFloatingSuggestions"
+- "singleWidthSpace"
+- "softlink:r:path:/System/Library/Frameworks/MapKit.framework/MapKit"
+- "softlink:r:path:/System/Library/Frameworks/SafariServices.framework/SafariServices"
+- "softlink:r:path:/System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore"
+- "softlink:r:path:/System/Library/PrivateFrameworks/MarkupUI.framework/MarkupUI"
+- "softlink:r:path:/System/Library/PrivateFrameworks/NewsServices.framework/NewsServices"
+- "systemImageWithFallbackNamed:withConfiguration:"
+- "t"
+- "u"
+- "urlTextFieldView"
+- "\x82A\x81\xf0\xa1\xf1\xf01"
+- "\xf0\xa2"
+
+```

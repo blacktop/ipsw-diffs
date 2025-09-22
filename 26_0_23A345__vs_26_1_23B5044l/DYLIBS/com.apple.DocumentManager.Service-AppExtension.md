@@ -1,0 +1,889 @@
+## com.apple.DocumentManager.Service-AppExtension
+
+> `/System/Library/AccessibilityBundles/com.apple.DocumentManager.Service-AppExtension.axbundle/com.apple.DocumentManager.Service-AppExtension`
+
+```diff
+
+-3004.4.0.0.0
+-  __TEXT.__text: 0x4b38
+-  __TEXT.__auth_stubs: 0x360
+-  __TEXT.__objc_methlist: 0x764
+-  __TEXT.__cstring: 0xfcf
+-  __TEXT.__const: 0x18
+-  __TEXT.__gcc_except_tab: 0x124
+-  __TEXT.__unwind_info: 0x250
+-  __TEXT.__objc_classname: 0x5cd
+-  __TEXT.__objc_methname: 0xc40
+-  __TEXT.__objc_methtype: 0x70
+-  __TEXT.__objc_stubs: 0xd60
+-  __DATA_CONST.__got: 0x110
+-  __DATA_CONST.__const: 0x218
+-  __DATA_CONST.__objc_classlist: 0x120
++3005.2.0.0.0
++  __TEXT.__text: 0x1c4
++  __TEXT.__auth_stubs: 0xa0
++  __TEXT.__objc_methlist: 0x14
++  __TEXT.__cstring: 0xbd
++  __TEXT.__unwind_info: 0x70
++  __TEXT.__objc_classname: 0x1d
++  __TEXT.__objc_methname: 0x103
++  __TEXT.__objc_methtype: 0x8
++  __TEXT.__objc_stubs: 0xe0
++  __DATA_CONST.__got: 0x18
++  __DATA_CONST.__const: 0x60
++  __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x410
+-  __DATA_CONST.__objc_superrefs: 0x68
+-  __AUTH_CONST.__auth_got: 0x1c0
+-  __AUTH_CONST.__const: 0x100
+-  __AUTH_CONST.__cfstring: 0x12e0
+-  __AUTH_CONST.__objc_const: 0x1480
+-  __AUTH.__objc_data: 0xb40
+-  __DATA.__objc_ivar: 0x4
++  __DATA_CONST.__objc_selrefs: 0x40
++  __AUTH_CONST.__auth_got: 0x58
++  __AUTH_CONST.__const: 0x80
++  __AUTH_CONST.__cfstring: 0xa0
++  __AUTH_CONST.__objc_const: 0x90
++  __AUTH.__objc_data: 0x50
+   __DATA.__bss: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A339DFBE-F71D-3FBA-B737-0D7E2386556D
+-  Functions: 151
+-  Symbols:   715
+-  CStrings:  500
++  UUID: B7B26F17-563D-3651-832E-44884D832B9C
++  Functions: 7
++  Symbols:   51
++  CStrings:  22
+ 
+Symbols:
+- +[DOCCopyableLabelAccessibility _accessibilityPerformValidations:]
+- +[DOCCopyableLabelAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DOCCopyableLabelAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DOCFilenameViewControllerAccessibility _accessibilityPerformValidations:]
+- +[DOCFilenameViewControllerAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DOCFilenameViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DOCItemCollectionCellAccessibility _accessibilityPerformValidations:]
+- +[DOCItemCollectionCellAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DOCItemCollectionCellAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DOCItemCollectionGridCellAccessibility _accessibilityPerformValidations:]
+- +[DOCItemCollectionGridCellAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DOCItemCollectionGridCellAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DOCItemCollectionListCellAccessibility _accessibilityPerformValidations:]
+- +[DOCItemCollectionListCellAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DOCItemCollectionListCellAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DOCItemCollectionOutlineCellAccessibility _accessibilityPerformValidations:]
+- +[DOCItemCollectionOutlineCellAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DOCItemCollectionOutlineCellAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DOCItemCollectionViewAccessibility _accessibilityPerformValidations:]
+- +[DOCItemCollectionViewAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DOCItemCollectionViewAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DOCItemInfoOpenButtonAccessibility _accessibilityPerformValidations:]
+- +[DOCItemInfoOpenButtonAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DOCItemInfoOpenButtonAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DOCItemRenameTextViewAccessibility _accessibilityPerformValidations:]
+- +[DOCItemRenameTextViewAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DOCItemRenameTextViewAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DOCMetadataKeyValueRowAccessibility _accessibilityPerformValidations:]
+- +[DOCMetadataKeyValueRowAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DOCMetadataKeyValueRowAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DOCPickerFilenameViewAccessibility _accessibilityPerformValidations:]
+- +[DOCPickerFilenameViewAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DOCPickerFilenameViewAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DOCProgressIndicatorViewAccessibility _accessibilityPerformValidations:]
+- +[DOCProgressIndicatorViewAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DOCProgressIndicatorViewAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DOCSidebarHeaderCellAccessibility _accessibilityPerformValidations:]
+- +[DOCSidebarHeaderCellAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DOCSidebarHeaderCellAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DOCSidebarItemCellAccessibility _accessibilityPerformValidations:]
+- +[DOCSidebarItemCellAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DOCSidebarItemCellAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DOCSidebarViewControllerAccessibility _accessibilityPerformValidations:]
+- +[DOCSidebarViewControllerAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DOCSidebarViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[UIBarButtonItemAccessibility__DocumentManager__UIKit _accessibilityPerformValidations:]
+- +[UIBarButtonItemAccessibility__DocumentManager__UIKit(SafeCategory) safeCategoryBaseClass]
+- +[UIBarButtonItemAccessibility__DocumentManager__UIKit(SafeCategory) safeCategoryTargetClassName]
+- +[UIDocumentBrowserActionBarButtonAccessibility _accessibilityPerformValidations:]
+- +[UIDocumentBrowserActionBarButtonAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[UIDocumentBrowserActionBarButtonAccessibility(SafeCategory) safeCategoryTargetClassName]
+- -[AXDocumentCustomAction .cxx_destruct]
+- -[AXDocumentCustomAction action]
+- -[AXDocumentCustomAction setAction:]
+- -[DOCCopyableLabelAccessibility _axBehavesAsLink]
+- -[DOCCopyableLabelAccessibility _axCopyDetail]
+- -[DOCCopyableLabelAccessibility _axHasCopyGesture]
+- -[DOCCopyableLabelAccessibility accessibilityActivate]
+- -[DOCCopyableLabelAccessibility accessibilityCustomActions]
+- -[DOCCopyableLabelAccessibility accessibilityTraits]
+- -[DOCFilenameViewControllerAccessibility _accessibilityLoadAccessibilityInformation]
+- -[DOCFilenameViewControllerAccessibility loadView]
+- -[DOCItemCollectionCellAccessibility _accessibilityItemCollectionViewController]
+- -[DOCItemCollectionCellAccessibility _axAttrTitle]
+- -[DOCItemCollectionCellAccessibility _axCustomActionsFromUIMenu:]
+- -[DOCItemCollectionCellAccessibility accessibilityCustomActions]
+- -[DOCItemCollectionCellAccessibility accessibilityIdentifier]
+- -[DOCItemCollectionCellAccessibility accessibilityScrollToVisible]
+- -[DOCItemCollectionCellAccessibility accessibilityTraits]
+- -[DOCItemCollectionCellAccessibility accessibilityValue]
+- -[DOCItemCollectionCellAccessibility isAccessibilityElement]
+- -[DOCItemCollectionGridCellAccessibility _accessibilityIsFolder]
+- -[DOCItemCollectionGridCellAccessibility _accessibilitySubviewIsVisible:]
+- -[DOCItemCollectionGridCellAccessibility _axAttrTitle]
+- -[DOCItemCollectionGridCellAccessibility accessibilityActivationPoint]
+- -[DOCItemCollectionGridCellAccessibility accessibilityDropPointDescriptors]
+- -[DOCItemCollectionGridCellAccessibility accessibilityLabel]
+- -[DOCItemCollectionGridCellAccessibility accessibilityUserInputLabels]
+- -[DOCItemCollectionListCellAccessibility _accessibilityIsFolder]
+- -[DOCItemCollectionListCellAccessibility _axAttrTitle]
+- -[DOCItemCollectionListCellAccessibility accessibilityLabel]
+- -[DOCItemCollectionListCellAccessibility accessibilityUserInputLabels]
+- -[DOCItemCollectionOutlineCellAccessibility accessibilityLabel]
+- -[DOCItemCollectionViewAccessibility _accessibilityOpaqueElementScrollsContentIntoView]
+- -[DOCItemCollectionViewAccessibility _accessibilitySupplementaryFooterViews]
+- -[DOCItemCollectionViewAccessibility accessibilityIdentifier]
+- -[DOCItemCollectionViewAccessibility accessibilityValue]
+- -[DOCItemInfoOpenButtonAccessibility accessibilityLabel]
+- -[DOCItemInfoOpenButtonAccessibility accessibilityTraits]
+- -[DOCItemInfoOpenButtonAccessibility isAccessibilityElement]
+- -[DOCItemRenameTextViewAccessibility _accessibilityLoadAccessibilityInformation]
+- -[DOCItemRenameTextViewAccessibility _accessibilitySortPriority]
+- -[DOCItemRenameTextViewAccessibility _axIsClearButtonInstalled]
+- -[DOCItemRenameTextViewAccessibility _axMarkupClearButton]
+- -[DOCItemRenameTextViewAccessibility didMoveToSuperview]
+- -[DOCItemRenameTextViewAccessibility installClearButton]
+- -[DOCItemRenameTextViewAccessibility isAccessibilityElement]
+- -[DOCMetadataKeyValueRowAccessibility _accessibilitySupplementaryFooterViews]
+- -[DOCMetadataKeyValueRowAccessibility _axMenuButton]
+- -[DOCMetadataKeyValueRowAccessibility accessibilityActivate]
+- -[DOCMetadataKeyValueRowAccessibility accessibilityCustomActions]
+- -[DOCMetadataKeyValueRowAccessibility accessibilityLabel]
+- -[DOCMetadataKeyValueRowAccessibility isAccessibilityElement]
+- -[DOCPickerFilenameViewAccessibility _accessibilityLoadAccessibilityInformation]
+- -[DOCPickerFilenameViewAccessibility updateTagButtonAccessibility:]
+- -[DOCProgressIndicatorViewAccessibility _accessibilityAutomationType]
+- -[DOCProgressIndicatorViewAccessibility accessibilityLabel]
+- -[DOCProgressIndicatorViewAccessibility accessibilityTraits]
+- -[DOCProgressIndicatorViewAccessibility accessibilityValue]
+- -[DOCProgressIndicatorViewAccessibility isAccessibilityElement]
+- -[DOCSidebarHeaderCellAccessibility accessibilityActivationPoint]
+- -[DOCSidebarHeaderCellAccessibility accessibilityLabel]
+- -[DOCSidebarHeaderCellAccessibility accessibilityTraits]
+- -[DOCSidebarHeaderCellAccessibility isAccessibilityElement]
+- -[DOCSidebarItemCellAccessibility _accessibilityRoleDescription]
+- -[DOCSidebarItemCellAccessibility _accessibilitySupplementaryFooterViews]
+- -[DOCSidebarItemCellAccessibility accessibilityCustomActions]
+- -[DOCSidebarItemCellAccessibility accessibilityLabel]
+- -[DOCSidebarItemCellAccessibility accessibilityTraits]
+- -[DOCSidebarItemCellAccessibility accessibilityValue]
+- -[DOCSidebarViewControllerAccessibility _accessibilityLoadAccessibilityInformation]
+- -[DOCSidebarViewControllerAccessibility viewDidLoad]
+- -[UIBarButtonItemAccessibility__DocumentManager__UIKit accessibilityLabel]
+- -[UIDocumentBrowserActionBarButtonAccessibility accessibilityLabel]
+- GCC_except_table15
+- GCC_except_table18
+- GCC_except_table3
+- GCC_except_table4
+- GCC_except_table5
+- _AXDoesRequestingClientDeserveAutomation
+- _AXFormatFloatWithPercentage
+- _AXPerformBlockOnMainThreadAfterDelay
+- _AXPerformSafeBlock
+- _AXSafeClassFromString
+- _AXServerCache
+- _AX_CGRectGetCenter
+- _NSAttachmentAttributeName
+- _NSClassFromString
+- _OBJC_CLASS_$_AXDocumentCustomAction
+- _OBJC_CLASS_$_DOCCopyableLabelAccessibility
+- _OBJC_CLASS_$_DOCFilenameViewControllerAccessibility
+- _OBJC_CLASS_$_DOCItemCollectionCellAccessibility
+- _OBJC_CLASS_$_DOCItemCollectionGridCellAccessibility
+- _OBJC_CLASS_$_DOCItemCollectionListCellAccessibility
+- _OBJC_CLASS_$_DOCItemCollectionOutlineCellAccessibility
+- _OBJC_CLASS_$_DOCItemCollectionViewAccessibility
+- _OBJC_CLASS_$_DOCItemInfoOpenButtonAccessibility
+- _OBJC_CLASS_$_DOCItemRenameTextViewAccessibility
+- _OBJC_CLASS_$_DOCMetadataKeyValueRowAccessibility
+- _OBJC_CLASS_$_DOCPickerFilenameViewAccessibility
+- _OBJC_CLASS_$_DOCProgressIndicatorViewAccessibility
+- _OBJC_CLASS_$_DOCSidebarHeaderCellAccessibility
+- _OBJC_CLASS_$_DOCSidebarItemCellAccessibility
+- _OBJC_CLASS_$_DOCSidebarViewControllerAccessibility
+- _OBJC_CLASS_$_FPItem
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableSet
+- _OBJC_CLASS_$_NSScanner
+- _OBJC_CLASS_$_NSSortDescriptor
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSTextAttachment
+- _OBJC_CLASS_$_UIAccessibilityCustomAction
+- _OBJC_CLASS_$_UIAccessibilityLocationDescriptor
+- _OBJC_CLASS_$_UIAccessibilitySafeCategory
+- _OBJC_CLASS_$_UIAction
+- _OBJC_CLASS_$_UIBarButtonItemAccessibility__DocumentManager__UIKit
+- _OBJC_CLASS_$_UIButton
+- _OBJC_CLASS_$_UICollectionView
+- _OBJC_CLASS_$_UICollectionViewCell
+- _OBJC_CLASS_$_UICollectionViewListCell
+- _OBJC_CLASS_$_UIDocumentBrowserAction
+- _OBJC_CLASS_$_UIDocumentBrowserActionBarButtonAccessibility
+- _OBJC_CLASS_$_UILabel
+- _OBJC_CLASS_$_UIView
+- _OBJC_CLASS_$___DOCCopyableLabelAccessibility_super
+- _OBJC_CLASS_$___DOCFilenameViewControllerAccessibility_super
+- _OBJC_CLASS_$___DOCItemCollectionCellAccessibility_super
+- _OBJC_CLASS_$___DOCItemCollectionGridCellAccessibility_super
+- _OBJC_CLASS_$___DOCItemCollectionListCellAccessibility_super
+- _OBJC_CLASS_$___DOCItemCollectionOutlineCellAccessibility_super
+- _OBJC_CLASS_$___DOCItemCollectionViewAccessibility_super
+- _OBJC_CLASS_$___DOCItemInfoOpenButtonAccessibility_super
+- _OBJC_CLASS_$___DOCItemRenameTextViewAccessibility_super
+- _OBJC_CLASS_$___DOCMetadataKeyValueRowAccessibility_super
+- _OBJC_CLASS_$___DOCPickerFilenameViewAccessibility_super
+- _OBJC_CLASS_$___DOCProgressIndicatorViewAccessibility_super
+- _OBJC_CLASS_$___DOCSidebarHeaderCellAccessibility_super
+- _OBJC_CLASS_$___DOCSidebarItemCellAccessibility_super
+- _OBJC_CLASS_$___DOCSidebarViewControllerAccessibility_super
+- _OBJC_CLASS_$___UIBarButtonItemAccessibility__DocumentManager__UIKit_super
+- _OBJC_CLASS_$___UIDocumentBrowserActionBarButtonAccessibility_super
+- _OBJC_IVAR_$_AXDocumentCustomAction._action
+- _OBJC_METACLASS_$_AXDocumentCustomAction
+- _OBJC_METACLASS_$_DOCCopyableLabelAccessibility
+- _OBJC_METACLASS_$_DOCFilenameViewControllerAccessibility
+- _OBJC_METACLASS_$_DOCItemCollectionCellAccessibility
+- _OBJC_METACLASS_$_DOCItemCollectionGridCellAccessibility
+- _OBJC_METACLASS_$_DOCItemCollectionListCellAccessibility
+- _OBJC_METACLASS_$_DOCItemCollectionOutlineCellAccessibility
+- _OBJC_METACLASS_$_DOCItemCollectionViewAccessibility
+- _OBJC_METACLASS_$_DOCItemInfoOpenButtonAccessibility
+- _OBJC_METACLASS_$_DOCItemRenameTextViewAccessibility
+- _OBJC_METACLASS_$_DOCMetadataKeyValueRowAccessibility
+- _OBJC_METACLASS_$_DOCPickerFilenameViewAccessibility
+- _OBJC_METACLASS_$_DOCProgressIndicatorViewAccessibility
+- _OBJC_METACLASS_$_DOCSidebarHeaderCellAccessibility
+- _OBJC_METACLASS_$_DOCSidebarItemCellAccessibility
+- _OBJC_METACLASS_$_DOCSidebarViewControllerAccessibility
+- _OBJC_METACLASS_$_UIAccessibilityCustomAction
+- _OBJC_METACLASS_$_UIAccessibilitySafeCategory
+- _OBJC_METACLASS_$_UIBarButtonItemAccessibility__DocumentManager__UIKit
+- _OBJC_METACLASS_$_UIDocumentBrowserActionBarButtonAccessibility
+- _OBJC_METACLASS_$___DOCCopyableLabelAccessibility_super
+- _OBJC_METACLASS_$___DOCFilenameViewControllerAccessibility_super
+- _OBJC_METACLASS_$___DOCItemCollectionCellAccessibility_super
+- _OBJC_METACLASS_$___DOCItemCollectionGridCellAccessibility_super
+- _OBJC_METACLASS_$___DOCItemCollectionListCellAccessibility_super
+- _OBJC_METACLASS_$___DOCItemCollectionOutlineCellAccessibility_super
+- _OBJC_METACLASS_$___DOCItemCollectionViewAccessibility_super
+- _OBJC_METACLASS_$___DOCItemInfoOpenButtonAccessibility_super
+- _OBJC_METACLASS_$___DOCItemRenameTextViewAccessibility_super
+- _OBJC_METACLASS_$___DOCMetadataKeyValueRowAccessibility_super
+- _OBJC_METACLASS_$___DOCPickerFilenameViewAccessibility_super
+- _OBJC_METACLASS_$___DOCProgressIndicatorViewAccessibility_super
+- _OBJC_METACLASS_$___DOCSidebarHeaderCellAccessibility_super
+- _OBJC_METACLASS_$___DOCSidebarItemCellAccessibility_super
+- _OBJC_METACLASS_$___DOCSidebarViewControllerAccessibility_super
+- _OBJC_METACLASS_$___UIBarButtonItemAccessibility__DocumentManager__UIKit_super
+- _OBJC_METACLASS_$___UIDocumentBrowserActionBarButtonAccessibility_super
+- _UIAXFileTypeDescriptionForFileExtension
+- _UIAXStringForAllChildren
+- _UIAccessibilityPostNotification
+- _UIAccessibilityScreenChangedNotification
+- _UIAccessibilityTraitButton
+- _UIAccessibilityTraitHeader
+- _UIAccessibilityTraitNotEnabled
+- _UIAccessibilityTraitSelected
+- _UIAccessibilityTraitUpdatesFrequently
+- __Block_object_dispose
+- __NSConcreteStackBlock
+- __OBJC_$_CLASS_METHODS_DOCCopyableLabelAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DOCFilenameViewControllerAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DOCItemCollectionCellAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DOCItemCollectionGridCellAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DOCItemCollectionListCellAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DOCItemCollectionOutlineCellAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DOCItemCollectionViewAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DOCItemInfoOpenButtonAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DOCItemRenameTextViewAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DOCMetadataKeyValueRowAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DOCPickerFilenameViewAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DOCProgressIndicatorViewAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DOCSidebarHeaderCellAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DOCSidebarItemCellAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DOCSidebarViewControllerAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_UIBarButtonItemAccessibility__DocumentManager__UIKit(SafeCategory)
+- __OBJC_$_CLASS_METHODS_UIDocumentBrowserActionBarButtonAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_AXDocumentCustomAction
+- __OBJC_$_INSTANCE_METHODS_DOCCopyableLabelAccessibility
+- __OBJC_$_INSTANCE_METHODS_DOCFilenameViewControllerAccessibility
+- __OBJC_$_INSTANCE_METHODS_DOCItemCollectionCellAccessibility
+- __OBJC_$_INSTANCE_METHODS_DOCItemCollectionGridCellAccessibility
+- __OBJC_$_INSTANCE_METHODS_DOCItemCollectionListCellAccessibility
+- __OBJC_$_INSTANCE_METHODS_DOCItemCollectionOutlineCellAccessibility
+- __OBJC_$_INSTANCE_METHODS_DOCItemCollectionViewAccessibility
+- __OBJC_$_INSTANCE_METHODS_DOCItemInfoOpenButtonAccessibility
+- __OBJC_$_INSTANCE_METHODS_DOCItemRenameTextViewAccessibility
+- __OBJC_$_INSTANCE_METHODS_DOCMetadataKeyValueRowAccessibility
+- __OBJC_$_INSTANCE_METHODS_DOCPickerFilenameViewAccessibility
+- __OBJC_$_INSTANCE_METHODS_DOCProgressIndicatorViewAccessibility
+- __OBJC_$_INSTANCE_METHODS_DOCSidebarHeaderCellAccessibility
+- __OBJC_$_INSTANCE_METHODS_DOCSidebarItemCellAccessibility
+- __OBJC_$_INSTANCE_METHODS_DOCSidebarViewControllerAccessibility
+- __OBJC_$_INSTANCE_METHODS_UIBarButtonItemAccessibility__DocumentManager__UIKit
+- __OBJC_$_INSTANCE_METHODS_UIDocumentBrowserActionBarButtonAccessibility
+- __OBJC_$_INSTANCE_VARIABLES_AXDocumentCustomAction
+- __OBJC_$_PROP_LIST_AXDocumentCustomAction
+- __OBJC_CLASS_RO_$_AXDocumentCustomAction
+- __OBJC_CLASS_RO_$_DOCCopyableLabelAccessibility
+- __OBJC_CLASS_RO_$_DOCFilenameViewControllerAccessibility
+- __OBJC_CLASS_RO_$_DOCItemCollectionCellAccessibility
+- __OBJC_CLASS_RO_$_DOCItemCollectionGridCellAccessibility
+- __OBJC_CLASS_RO_$_DOCItemCollectionListCellAccessibility
+- __OBJC_CLASS_RO_$_DOCItemCollectionOutlineCellAccessibility
+- __OBJC_CLASS_RO_$_DOCItemCollectionViewAccessibility
+- __OBJC_CLASS_RO_$_DOCItemInfoOpenButtonAccessibility
+- __OBJC_CLASS_RO_$_DOCItemRenameTextViewAccessibility
+- __OBJC_CLASS_RO_$_DOCMetadataKeyValueRowAccessibility
+- __OBJC_CLASS_RO_$_DOCPickerFilenameViewAccessibility
+- __OBJC_CLASS_RO_$_DOCProgressIndicatorViewAccessibility
+- __OBJC_CLASS_RO_$_DOCSidebarHeaderCellAccessibility
+- __OBJC_CLASS_RO_$_DOCSidebarItemCellAccessibility
+- __OBJC_CLASS_RO_$_DOCSidebarViewControllerAccessibility
+- __OBJC_CLASS_RO_$_UIBarButtonItemAccessibility__DocumentManager__UIKit
+- __OBJC_CLASS_RO_$_UIDocumentBrowserActionBarButtonAccessibility
+- __OBJC_CLASS_RO_$___DOCCopyableLabelAccessibility_super
+- __OBJC_CLASS_RO_$___DOCFilenameViewControllerAccessibility_super
+- __OBJC_CLASS_RO_$___DOCItemCollectionCellAccessibility_super
+- __OBJC_CLASS_RO_$___DOCItemCollectionGridCellAccessibility_super
+- __OBJC_CLASS_RO_$___DOCItemCollectionListCellAccessibility_super
+- __OBJC_CLASS_RO_$___DOCItemCollectionOutlineCellAccessibility_super
+- __OBJC_CLASS_RO_$___DOCItemCollectionViewAccessibility_super
+- __OBJC_CLASS_RO_$___DOCItemInfoOpenButtonAccessibility_super
+- __OBJC_CLASS_RO_$___DOCItemRenameTextViewAccessibility_super
+- __OBJC_CLASS_RO_$___DOCMetadataKeyValueRowAccessibility_super
+- __OBJC_CLASS_RO_$___DOCPickerFilenameViewAccessibility_super
+- __OBJC_CLASS_RO_$___DOCProgressIndicatorViewAccessibility_super
+- __OBJC_CLASS_RO_$___DOCSidebarHeaderCellAccessibility_super
+- __OBJC_CLASS_RO_$___DOCSidebarItemCellAccessibility_super
+- __OBJC_CLASS_RO_$___DOCSidebarViewControllerAccessibility_super
+- __OBJC_CLASS_RO_$___UIBarButtonItemAccessibility__DocumentManager__UIKit_super
+- __OBJC_CLASS_RO_$___UIDocumentBrowserActionBarButtonAccessibility_super
+- __OBJC_METACLASS_RO_$_AXDocumentCustomAction
+- __OBJC_METACLASS_RO_$_DOCCopyableLabelAccessibility
+- __OBJC_METACLASS_RO_$_DOCFilenameViewControllerAccessibility
+- __OBJC_METACLASS_RO_$_DOCItemCollectionCellAccessibility
+- __OBJC_METACLASS_RO_$_DOCItemCollectionGridCellAccessibility
+- __OBJC_METACLASS_RO_$_DOCItemCollectionListCellAccessibility
+- __OBJC_METACLASS_RO_$_DOCItemCollectionOutlineCellAccessibility
+- __OBJC_METACLASS_RO_$_DOCItemCollectionViewAccessibility
+- __OBJC_METACLASS_RO_$_DOCItemInfoOpenButtonAccessibility
+- __OBJC_METACLASS_RO_$_DOCItemRenameTextViewAccessibility
+- __OBJC_METACLASS_RO_$_DOCMetadataKeyValueRowAccessibility
+- __OBJC_METACLASS_RO_$_DOCPickerFilenameViewAccessibility
+- __OBJC_METACLASS_RO_$_DOCProgressIndicatorViewAccessibility
+- __OBJC_METACLASS_RO_$_DOCSidebarHeaderCellAccessibility
+- __OBJC_METACLASS_RO_$_DOCSidebarItemCellAccessibility
+- __OBJC_METACLASS_RO_$_DOCSidebarViewControllerAccessibility
+- __OBJC_METACLASS_RO_$_UIBarButtonItemAccessibility__DocumentManager__UIKit
+- __OBJC_METACLASS_RO_$_UIDocumentBrowserActionBarButtonAccessibility
+- __OBJC_METACLASS_RO_$___DOCCopyableLabelAccessibility_super
+- __OBJC_METACLASS_RO_$___DOCFilenameViewControllerAccessibility_super
+- __OBJC_METACLASS_RO_$___DOCItemCollectionCellAccessibility_super
+- __OBJC_METACLASS_RO_$___DOCItemCollectionGridCellAccessibility_super
+- __OBJC_METACLASS_RO_$___DOCItemCollectionListCellAccessibility_super
+- __OBJC_METACLASS_RO_$___DOCItemCollectionOutlineCellAccessibility_super
+- __OBJC_METACLASS_RO_$___DOCItemCollectionViewAccessibility_super
+- __OBJC_METACLASS_RO_$___DOCItemInfoOpenButtonAccessibility_super
+- __OBJC_METACLASS_RO_$___DOCItemRenameTextViewAccessibility_super
+- __OBJC_METACLASS_RO_$___DOCMetadataKeyValueRowAccessibility_super
+- __OBJC_METACLASS_RO_$___DOCPickerFilenameViewAccessibility_super
+- __OBJC_METACLASS_RO_$___DOCProgressIndicatorViewAccessibility_super
+- __OBJC_METACLASS_RO_$___DOCSidebarHeaderCellAccessibility_super
+- __OBJC_METACLASS_RO_$___DOCSidebarItemCellAccessibility_super
+- __OBJC_METACLASS_RO_$___DOCSidebarViewControllerAccessibility_super
+- __OBJC_METACLASS_RO_$___UIBarButtonItemAccessibility__DocumentManager__UIKit_super
+- __OBJC_METACLASS_RO_$___UIDocumentBrowserActionBarButtonAccessibility_super
+- __Unwind_Resume
+- ___46-[DOCCopyableLabelAccessibility _axCopyDetail]_block_invoke
+- ___56-[DOCItemRenameTextViewAccessibility didMoveToSuperview]_block_invoke
+- ___60-[DOCItemCollectionGridCellAccessibility accessibilityLabel]_block_invoke
+- ___60-[DOCItemCollectionListCellAccessibility accessibilityLabel]_block_invoke
+- ___61-[DOCSidebarItemCellAccessibility accessibilityCustomActions]_block_invoke
+- ___64-[DOCItemCollectionCellAccessibility accessibilityCustomActions]_block_invoke
+- ___64-[DOCItemCollectionCellAccessibility accessibilityCustomActions]_block_invoke_2
+- ___65-[DOCItemCollectionCellAccessibility _axCustomActionsFromUIMenu:]_block_invoke
+- ___65-[DOCItemCollectionCellAccessibility _axCustomActionsFromUIMenu:]_block_invoke_2
+- ___65-[DOCSidebarHeaderCellAccessibility accessibilityActivationPoint]_block_invoke
+- ___73-[DOCSidebarItemCellAccessibility _accessibilitySupplementaryFooterViews]_block_invoke
+- ___76-[DOCItemCollectionViewAccessibility _accessibilitySupplementaryFooterViews]_block_invoke
+- ___80-[DOCItemCollectionCellAccessibility _accessibilityItemCollectionViewController]_block_invoke
+- ___84-[DOCFilenameViewControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___NSArray0__struct
+- ___UIAXStringForVariables
+- ___UIAccessibilityCastAsClass
+- ___UIAccessibilitySafeClass
+- ___block_descriptor_32_e11_B24?08Q16l
+- ___block_descriptor_32_e12_B24?08^B16l
+- ___block_descriptor_32_e15_B32?08Q16^B24l
+- ___block_descriptor_32_e8_B16?08l
+- ___block_descriptor_40_e8_32r_e27_v40?08{_NSRange=QQ}16^B32lr32l8
+- ___block_descriptor_40_e8_32s_e37_B16?0"UIAccessibilityCustomAction"8ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32w_e15_"NSString"8?0lw32l8
+- ___block_descriptor_40_e8_32w_e37_B16?0"UIAccessibilityCustomAction"8lw32l8
+- ___block_descriptor_48_e8_32s40r_e5_v8?0ls32l8r40l8
+- ___block_descriptor_56_e8_32s40s48r_e5_v8?0lr48l8s32l8s40l8
+- ___objc_personality_v0
+- ___stack_chk_fail
+- ___stack_chk_guard
+- _abort
+- _accessibilityUIKitLocalizedString
+- _objc_alloc
+- _objc_copyWeak
+- _objc_destroyWeak
+- _objc_enumerationMutation
+- _objc_initWeak
+- _objc_loadWeakRetained
+- _objc_msgSend$_accessibilityAncestorIsKindOf:
+- _objc_msgSend$_accessibilityFindSubviewDescendant:
+- _objc_msgSend$_accessibilityFindViewAncestor:startWithSelf:
+- _objc_msgSend$_accessibilityIndexPath
+- _objc_msgSend$_accessibilityIsFolder
+- _objc_msgSend$_accessibilityItemCollectionViewController
+- _objc_msgSend$_accessibilityLoadAccessibilityInformation
+- _objc_msgSend$_accessibilityStringForLabelKeyValues:
+- _objc_msgSend$_accessibilitySubviewIsVisible:
+- _objc_msgSend$_accessibilityViewAncestorIsKindOf:
+- _objc_msgSend$_accessibilityViewController
+- _objc_msgSend$_accessibilityViewIsVisible
+- _objc_msgSend$_accessibilityViewIsVisibleIgnoringAXOverrides:stoppingBeforeContainer:
+- _objc_msgSend$_axAttrTitle
+- _objc_msgSend$_axBehavesAsLink
+- _objc_msgSend$_axCustomActionsFromUIMenu:
+- _objc_msgSend$_axHasCopyGesture
+- _objc_msgSend$_axIsClearButtonInstalled
+- _objc_msgSend$_axMarkupClearButton
+- _objc_msgSend$_axMenuButton
+- _objc_msgSend$_setAccessibilityLabelBlock:
+- _objc_msgSend$accessibilityActivate
+- _objc_msgSend$accessibilityActivationPoint
+- _objc_msgSend$accessibilityCustomActions
+- _objc_msgSend$accessibilityLabel
+- _objc_msgSend$addObject:
+- _objc_msgSend$addObjectsFromArray:
+- _objc_msgSend$array
+- _objc_msgSend$arrayWithObject:
+- _objc_msgSend$arrayWithObjects:count:
+- _objc_msgSend$attributedText
+- _objc_msgSend$axArrayByIgnoringNilElementsWithCount:
+- _objc_msgSend$axFilterObjectsUsingBlock:
+- _objc_msgSend$axSafelyAddObjectsFromArray:
+- _objc_msgSend$ax_removeObjectsFromArrayUsingBlock:
+- _objc_msgSend$bounds
+- _objc_msgSend$containsObject:
+- _objc_msgSend$containsString:
+- _objc_msgSend$contentView
+- _objc_msgSend$contextMenuForItemsAt:
+- _objc_msgSend$convertPoint:toView:
+- _objc_msgSend$convertPoint:toWindow:
+- _objc_msgSend$copyDetail
+- _objc_msgSend$count
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$delegate
+- _objc_msgSend$didTapWithLabel:
+- _objc_msgSend$enumerateAttribute:inRange:options:usingBlock:
+- _objc_msgSend$filename
+- _objc_msgSend$folderType
+- _objc_msgSend$fp_appContainerBundleIdentifier
+- _objc_msgSend$hasActiveDrop
+- _objc_msgSend$initWithKey:ascending:
+- _objc_msgSend$initWithName:actionHandler:
+- _objc_msgSend$initWithName:point:inView:
+- _objc_msgSend$initWithName:target:selector:
+- _objc_msgSend$installSafeCategory:canInteractWithTargetClass:
+- _objc_msgSend$isCloudItem
+- _objc_msgSend$isDownloaded
+- _objc_msgSend$isEnabled
+- _objc_msgSend$isEqualToString:
+- _objc_msgSend$isFolder
+- _objc_msgSend$isHidden
+- _objc_msgSend$isSelected
+- _objc_msgSend$length
+- _objc_msgSend$localizedScannerWithString:
+- _objc_msgSend$localizedStringWithFormat:
+- _objc_msgSend$localizedTitle
+- _objc_msgSend$mutableCopy
+- _objc_msgSend$objectForKeyedSubscript:
+- _objc_msgSend$pathExtension
+- _objc_msgSend$performWithSender:target:
+- _objc_msgSend$safeArrayForKey:
+- _objc_msgSend$safeBoolForKey:
+- _objc_msgSend$safeDoubleForKey:
+- _objc_msgSend$safeIntegerForKey:
+- _objc_msgSend$safeStringForKey:
+- _objc_msgSend$safeSwiftValueForKey:
+- _objc_msgSend$safeUIViewForKey:
+- _objc_msgSend$safeValueForKey:
+- _objc_msgSend$safeValueForKeyPath:
+- _objc_msgSend$scanInt:
+- _objc_msgSend$scrollViewWillBeginDragging:
+- _objc_msgSend$sendActionsForControlEvents:
+- _objc_msgSend$setAccessibilityIdentifier:
+- _objc_msgSend$setAccessibilityLabel:
+- _objc_msgSend$setAction:
+- _objc_msgSend$setObject:forKeyedSubscript:
+- _objc_msgSend$sortedArrayUsingDescriptors:
+- _objc_msgSend$string
+- _objc_msgSend$stringWithFormat:
+- _objc_msgSend$subviews
+- _objc_msgSend$title
+- _objc_msgSend$updateTagButtonAccessibility:
+- _objc_msgSend$validateClass:conformsToProtocol:
+- _objc_msgSend$validateClass:hasInstanceMethod:withFullSignature:
+- _objc_msgSend$validateClass:hasInstanceVariable:withType:
+- _objc_msgSend$validateClass:hasSwiftField:withSwiftType:
+- _objc_msgSend$validateClass:isKindOfClass:
+- _objc_msgSend$window
+- _objc_msgSendSuper2
+- _objc_opt_isKindOfClass
+- _objc_opt_new
+- _objc_opt_respondsToSelector
+- _objc_release_x1
+- _objc_release_x21
+- _objc_release_x22
+- _objc_release_x23
+- _objc_release_x24
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x28
+- _objc_release_x8
+- _objc_release_x9
+- _objc_retain_x19
+- _objc_retain_x2
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x8
+- _objc_storeStrong
+CStrings:
++ "DocumentManagerExecutables.DOCItemCollectionViewController"
+- "#16@0:8"
+- "$__lazy_storage_$_menuButton"
+- "%p-_accessibilityCustomActions"
+- ".cxx_destruct"
+- "@"
+- "@\"NSString\"8@?0"
+- "@\"UIAction\""
+- "@16@0:8"
+- "@24@0:8@16"
+- "AXDocumentCustomAction"
+- "Add Tags"
+- "B"
+- "B16@0:8"
+- "B16@?0@\"UIAccessibilityCustomAction\"8"
+- "B16@?0@8"
+- "B24@0:8@16"
+- "B24@?0@8Q16"
+- "B24@?0@8^B16"
+- "B32@?0@8Q16^B24"
+- "Bool"
+- "Browse View"
+- "Column Mode"
+- "Container"
+- "DOCCopyableLabelAccessibility"
+- "DOCFilenameViewControllerAccessibility"
+- "DOCFullDocumentManagerViewController"
+- "DOCItemCollectionCellAccessibility"
+- "DOCItemCollectionGridCellAccessibility"
+- "DOCItemCollectionListCellAccessibility"
+- "DOCItemCollectionOutlineCellAccessibility"
+- "DOCItemCollectionViewAccessibility"
+- "DOCItemInfoOpenButton"
+- "DOCItemInfoOpenButtonAccessibility"
+- "DOCItemRenameTextViewAccessibility"
+- "DOCMetadataKeyValueRowAccessibility"
+- "DOCPickerFilenameViewAccessibility"
+- "DOCProgressIndicatorViewAccessibility"
+- "DOCSidebarHeaderCellAccessibility"
+- "DOCSidebarItemCellAccessibility"
+- "DOCSidebarViewControllerAccessibility"
+- "Dots"
+- "Duplicate"
+- "FPItem"
+- "File View"
+- "Folder"
+- "Icon Mode"
+- "List Mode"
+- "More"
+- "Optional<DOCCopyableLabelDelegate>"
+- "Optional<UIButton>"
+- "Q16@0:8"
+- "SafeCategory"
+- "T@\"UIAction\",&,N,V_action"
+- "Tags"
+- "UIBarButtonItem"
+- "UIBarButtonItemAccessibility__DocumentManager__UIKit"
+- "UIButton"
+- "UICollectionReusableView"
+- "UICollectionView"
+- "UICollectionViewCell"
+- "UICollectionViewListCell"
+- "UICollectionViewListCellAccessibility"
+- "UIContextMenuInteractionDelegate"
+- "UIDocumentBrowserActionBarButtonAccessibility"
+- "UIImage"
+- "UIImageAsset"
+- "UIView"
+- "UIViewController"
+- "_UICollectionViewDragAndDropController"
+- "_UICollectionViewListAccessoryDisclosure"
+- "__AXStringForVariablesSentinel"
+- "__DOCCopyableLabelAccessibility_super"
+- "__DOCFilenameViewControllerAccessibility_super"
+- "__DOCItemCollectionCellAccessibility_super"
+- "__DOCItemCollectionGridCellAccessibility_super"
+- "__DOCItemCollectionListCellAccessibility_super"
+- "__DOCItemCollectionOutlineCellAccessibility_super"
+- "__DOCItemCollectionViewAccessibility_super"
+- "__DOCItemInfoOpenButtonAccessibility_super"
+- "__DOCItemRenameTextViewAccessibility_super"
+- "__DOCMetadataKeyValueRowAccessibility_super"
+- "__DOCPickerFilenameViewAccessibility_super"
+- "__DOCProgressIndicatorViewAccessibility_super"
+- "__DOCSidebarHeaderCellAccessibility_super"
+- "__DOCSidebarItemCellAccessibility_super"
+- "__DOCSidebarViewControllerAccessibility_super"
+- "__UIBarButtonItemAccessibility__DocumentManager__UIKit_super"
+- "__UIDocumentBrowserActionBarButtonAccessibility_super"
+- "_accessibilityAncestorIsKindOf:"
+- "_accessibilityAutomationType"
+- "_accessibilityFindSubviewDescendant:"
+- "_accessibilityFindViewAncestor:startWithSelf:"
+- "_accessibilityIndexPath"
+- "_accessibilityIsFolder"
+- "_accessibilityItemCollectionViewController"
+- "_accessibilityLoadAccessibilityInformation"
+- "_accessibilityOpaqueElementScrollsContentIntoView"
+- "_accessibilityPerformValidations:"
+- "_accessibilityRoleDescription"
+- "_accessibilitySortPriority"
+- "_accessibilityStringForLabelKeyValues:"
+- "_accessibilitySubviewIsVisible:"
+- "_accessibilitySupplementaryFooterViews"
+- "_accessibilityTrailingViews"
+- "_accessibilityViewAncestorIsKindOf:"
+- "_accessibilityViewController"
+- "_accessibilityViewIsVisible"
+- "_accessibilityViewIsVisibleIgnoringAXOverrides:stoppingBeforeContainer:"
+- "_action"
+- "_axAttrTitle"
+- "_axBehavesAsLink"
+- "_axCopyDetail"
+- "_axCustomActionsFromUIMenu:"
+- "_axHasCopyGesture"
+- "_axIsClearButtonInstalled"
+- "_axMarkupClearButton"
+- "_axMenuButton"
+- "_collectionView"
+- "_dragAndDropController"
+- "_setAccessibilityLabelBlock:"
+- "accessibilityActivate"
+- "accessibilityActivationPoint"
+- "accessibilityCellManager"
+- "accessibilityClearButton"
+- "accessibilityCustomActions"
+- "accessibilityDateLabel"
+- "accessibilityDropPointDescriptors"
+- "accessibilityElementWithLabel"
+- "accessibilityElementWithLabel, accessibilityElementWithValue"
+- "accessibilityElementWithValue"
+- "accessibilityExpanded"
+- "accessibilityIdentifier"
+- "accessibilityIsEjectable"
+- "accessibilityIsFolder"
+- "accessibilityIsRenaming"
+- "accessibilityIsRenamingInline"
+- "accessibilityItem"
+- "accessibilityLabel"
+- "accessibilityScrollToVisible"
+- "accessibilitySecondSubtitleLabel"
+- "accessibilityShouldDim"
+- "accessibilityShowFolder"
+- "accessibilitySizeLabel"
+- "accessibilitySubtitle"
+- "accessibilitySubtitleLabel"
+- "accessibilityTagView"
+- "accessibilityThumbnailView"
+- "accessibilityTitle"
+- "accessibilityTitleLabel"
+- "accessibilityTitleTextField"
+- "accessibilityTraits"
+- "accessibilityUserInputLabels"
+- "accessibilityValue"
+- "action"
+- "addObject:"
+- "addObjectsFromArray:"
+- "array"
+- "arrayWithObject:"
+- "arrayWithObjects:count:"
+- "assetName"
+- "attributedText"
+- "axArrayByIgnoringNilElementsWithCount:"
+- "axFilterObjectsUsingBlock:"
+- "axSafelyAddObjectsFromArray:"
+- "ax_removeObjectsFromArrayUsingBlock:"
+- "badge.unread.count"
+- "behaveAsLink"
+- "bounds"
+- "children"
+- "com_apple_DocumentManager_Service.DOCCopyableLabel"
+- "com_apple_DocumentManager_Service.DOCEjectButton"
+- "com_apple_DocumentManager_Service.DOCFilenameView"
+- "com_apple_DocumentManager_Service.DOCFilenameViewController"
+- "com_apple_DocumentManager_Service.DOCItemCollectionCell"
+- "com_apple_DocumentManager_Service.DOCItemCollectionCellContent"
+- "com_apple_DocumentManager_Service.DOCItemCollectionGridCell"
+- "com_apple_DocumentManager_Service.DOCItemCollectionListCell"
+- "com_apple_DocumentManager_Service.DOCItemCollectionOutlineCell"
+- "com_apple_DocumentManager_Service.DOCItemCollectionView"
+- "com_apple_DocumentManager_Service.DOCItemCollectionViewController"
+- "com_apple_DocumentManager_Service.DOCItemRenameTextView"
+- "com_apple_DocumentManager_Service.DOCMetadataKeyValueRow"
+- "com_apple_DocumentManager_Service.DOCMetadataView"
+- "com_apple_DocumentManager_Service.DOCPickerFilenameView"
+- "com_apple_DocumentManager_Service.DOCProgressIndicatorView"
+- "com_apple_DocumentManager_Service.DOCSidebarHeaderCell"
+- "com_apple_DocumentManager_Service.DOCSidebarItemCell"
+- "com_apple_DocumentManager_Service.DOCSidebarViewController"
+- "com_apple_DocumentManager_Service.UIDocumentBrowserActionBarButton"
+- "containsObject:"
+- "containsString:"
+- "contentView"
+- "contextMenuForFolder"
+- "contextMenuForItemsAt:"
+- "convertPoint:toView:"
+- "convertPoint:toWindow:"
+- "copy"
+- "copyDetail"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "d"
+- "delegate"
+- "didMoveToSuperview"
+- "didTapWithLabel:"
+- "display.mode.icons"
+- "display.mode.list"
+- "displayMode"
+- "docAction"
+- "document.itemtype.folder"
+- "download.button"
+- "downloadButton"
+- "drop.into.folder"
+- "duplicate"
+- "eject"
+- "ejectable"
+- "ellipsis"
+- "ellipsis.circle"
+- "enumerateAttribute:inRange:options:usingBlock:"
+- "file.name"
+- "filename"
+- "filenameView"
+- "folder.badge.plus"
+- "folder.name"
+- "folder.type"
+- "folderType"
+- "fp_appContainerBundleIdentifier"
+- "fractionCompleted"
+- "hasActiveDrop"
+- "image"
+- "image.imageAsset"
+- "imageAsset"
+- "in.cloud"
+- "initWithKey:ascending:"
+- "initWithName:actionHandler:"
+- "initWithName:point:inView:"
+- "initWithName:target:selector:"
+- "installClearButton"
+- "installSafeCategory:canInteractWithTargetClass:"
+- "isAccessibilityElement"
+- "isCloudItem"
+- "isDownloaded"
+- "isEnabled"
+- "isEqualToString:"
+- "isFolder"
+- "isHidden"
+- "isSelected"
+- "item"
+- "length"
+- "list.bullet"
+- "loadView"
+- "localizedScannerWithString:"
+- "localizedStringWithFormat:"
+- "localizedTitle"
+- "more"
+- "mutableCopy"
+- "new.folder"
+- "objectForKeyedSubscript:"
+- "open.button"
+- "openButton"
+- "pathExtension"
+- "performWithSender:target:"
+- "plus.square.on.square"
+- "progress"
+- "q"
+- "q16@0:8"
+- "safeArrayForKey:"
+- "safeBoolForKey:"
+- "safeCategoryBaseClass"
+- "safeCategoryTargetClassName"
+- "safeDoubleForKey:"
+- "safeIntegerForKey:"
+- "safeStringForKey:"
+- "safeSwiftValueForKey:"
+- "safeUIViewForKey:"
+- "safeValueForKey:"
+- "safeValueForKeyPath:"
+- "scanInt:"
+- "scrollViewWillBeginDragging:"
+- "sendActionsForControlEvents:"
+- "setAccessibilityIdentifier:"
+- "setAccessibilityLabel:"
+- "setAction:"
+- "setObject:forKeyedSubscript:"
+- "sortedArrayUsingDescriptors:"
+- "square.grid.2x2"
+- "string"
+- "stringWithFormat:"
+- "subviews"
+- "superview"
+- "supportsCopy"
+- "tagButton"
+- "tags"
+- "text.view.clear"
+- "textField"
+- "title"
+- "updateTagButtonAccessibility:"
+- "v"
+- "v24@0:8@16"
+- "v40@?0@8{_NSRange=QQ}16^B32"
+- "validateClass:conformsToProtocol:"
+- "validateClass:hasInstanceMethod:withFullSignature:"
+- "validateClass:hasInstanceVariable:withType:"
+- "validateClass:hasSwiftField:withSwiftType:"
+- "validateClass:isKindOfClass:"
+- "view"
+- "viewDidLoad"
+- "window"
+- "{CGPoint=dd}16@0:8"
+
+```

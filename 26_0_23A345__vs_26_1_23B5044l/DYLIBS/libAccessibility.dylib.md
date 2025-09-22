@@ -1,0 +1,496 @@
+## libAccessibility.dylib
+
+> `/usr/lib/libAccessibility.dylib`
+
+```diff
+
+-3190.6.0.1.0
+-  __TEXT.__text: 0x2d128
++3191.3.0.0.0
++  __TEXT.__text: 0x2d288
+   __TEXT.__auth_stubs: 0xa20
+   __TEXT.__objc_methlist: 0x34c
+   __TEXT.__const: 0x2c8
+-  __TEXT.__cstring: 0x93e9
+-  __TEXT.__gcc_except_tab: 0x204
+-  __TEXT.__oslogstring: 0x1453
++  __TEXT.__cstring: 0x9414
++  __TEXT.__gcc_except_tab: 0x1f4
++  __TEXT.__oslogstring: 0x147a
+   __TEXT.__dlopen_cstrs: 0x119
+-  __TEXT.__unwind_info: 0xe18
++  __TEXT.__unwind_info: 0xe00
+   __TEXT.__objc_classname: 0xc3
+-  __TEXT.__objc_methname: 0xf71
++  __TEXT.__objc_methname: 0xf82
+   __TEXT.__objc_methtype: 0x1f2
+-  __TEXT.__objc_stubs: 0x11e0
++  __TEXT.__objc_stubs: 0x1200
+   __DATA_CONST.__got: 0x148
+   __DATA_CONST.__const: 0x428
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x580
++  __DATA_CONST.__objc_selrefs: 0x588
+   __DATA_CONST.__objc_superrefs: 0x18
+   __DATA_CONST.__objc_arraydata: 0x50
+   __AUTH_CONST.__auth_got: 0x520
+-  __AUTH_CONST.__const: 0x3400
+-  __AUTH_CONST.__cfstring: 0x6d20
++  __AUTH_CONST.__const: 0x3420
++  __AUTH_CONST.__cfstring: 0x6d40
+   __AUTH_CONST.__objc_const: 0x710
+   __AUTH_CONST.__objc_intobj: 0x180
+   __AUTH_CONST.__objc_floatobj: 0x50
+
+   __AUTH.__objc_data: 0xf0
+   __DATA.__objc_ivar: 0x44
+   __DATA.__data: 0x12c0
+-  __DATA.__bss: 0x14a8
++  __DATA.__bss: 0x14b8
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__data: 0x88
+   __DATA_DIRTY.__bss: 0x338
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B4A3D5A7-DF07-3DC4-9AE8-DB9775199216
++  UUID: FA50773B-9657-3B4E-8643-C108F1C07655
+   Functions: 1905
+-  Symbols:   5434
+-  CStrings:  2332
++  Symbols:   5437
++  CStrings:  2336
+ 
+Symbols:
++ ____AXSAttentionAwarenessFeaturesEnabled_block_invoke.1999
++ ____processIsResponsibleForPreferenceObserving_block_invoke
++ ___block_literal_global.1788
++ ___block_literal_global.1790
++ ___block_literal_global.1798
++ ___block_literal_global.1803
++ ___block_literal_global.1805
++ ___block_literal_global.1808
++ ___block_literal_global.1836
++ ___block_literal_global.1838
++ ___block_literal_global.1862
++ ___block_literal_global.1864
++ ___block_literal_global.1866
++ ___block_literal_global.1868
++ ___block_literal_global.1873
++ ___block_literal_global.1875
++ ___block_literal_global.1877
++ ___block_literal_global.1879
++ ___block_literal_global.1881
++ ___block_literal_global.1883
++ ___block_literal_global.1891
++ ___block_literal_global.1893
++ ___block_literal_global.1895
++ ___block_literal_global.1897
++ ___block_literal_global.1899
++ ___block_literal_global.1901
++ ___block_literal_global.1903
++ ___block_literal_global.1905
++ ___block_literal_global.1907
++ ___block_literal_global.1909
++ ___block_literal_global.1911
++ ___block_literal_global.1913
++ ___block_literal_global.1921
++ ___block_literal_global.1945
++ ___block_literal_global.1947
++ ___block_literal_global.1949
++ ___block_literal_global.1961
++ ___block_literal_global.1966
++ ___block_literal_global.1968
++ ___block_literal_global.1970
++ ___block_literal_global.1975
++ ___block_literal_global.1977
++ ___block_literal_global.1979
++ ___block_literal_global.1987
++ ___block_literal_global.1989
++ ___block_literal_global.1991
++ ___block_literal_global.1993
++ ___block_literal_global.1995
++ ___block_literal_global.2001
++ ___block_literal_global.2003
++ ___block_literal_global.2011
++ ___block_literal_global.2013
++ ___block_literal_global.2015
++ ___block_literal_global.2017
++ ___block_literal_global.2019
++ ___block_literal_global.2024
++ ___block_literal_global.2029
++ ___block_literal_global.2034
++ ___block_literal_global.2036
++ ___block_literal_global.2044
++ ___block_literal_global.2046
++ ___block_literal_global.2048
++ ___block_literal_global.2059
++ ___block_literal_global.2061
++ ___block_literal_global.2063
++ ___block_literal_global.2065
++ ___block_literal_global.2067
++ ___block_literal_global.2069
++ ___block_literal_global.2071
++ ___block_literal_global.2073
++ ___block_literal_global.2081
++ ___block_literal_global.2083
++ ___block_literal_global.2085
++ ___block_literal_global.2087
++ ___block_literal_global.2092
++ ___block_literal_global.2097
++ ___block_literal_global.2102
++ ___block_literal_global.2107
++ ___block_literal_global.2112
++ ___block_literal_global.2117
++ ___block_literal_global.2122
++ ___block_literal_global.2127
++ ___block_literal_global.2132
++ ___block_literal_global.2137
++ ___block_literal_global.2142
++ ___block_literal_global.2147
++ ___block_literal_global.2152
++ ___block_literal_global.2157
++ ___block_literal_global.2163
++ ___block_literal_global.2168
++ ___block_literal_global.2173
++ ___block_literal_global.2178
++ ___block_literal_global.2183
++ ___block_literal_global.2189
++ ___block_literal_global.2194
++ ___block_literal_global.2211
++ ___block_literal_global.2213
++ ___block_literal_global.2215
++ ___block_literal_global.2217
++ ___block_literal_global.2219
++ ___block_literal_global.2221
++ ___block_literal_global.2223
++ ___block_literal_global.2228
++ ___block_literal_global.2263
++ ___block_literal_global.2265
++ ___block_literal_global.2267
++ ___block_literal_global.2269
++ ___block_literal_global.2277
++ ___block_literal_global.2282
++ ___block_literal_global.2284
++ ___block_literal_global.2286
++ ___block_literal_global.2288
++ ___block_literal_global.2290
++ ___block_literal_global.2412
++ ___block_literal_global.2414
++ ___block_literal_global.2416
++ ___block_literal_global.2418
++ ___block_literal_global.2423
++ ___block_literal_global.2425
++ ___block_literal_global.2430
++ ___block_literal_global.2432
++ ___block_literal_global.2434
++ ___block_literal_global.2436
++ ___block_literal_global.2438
++ ___block_literal_global.2440
++ ___block_literal_global.2442
++ ___block_literal_global.2444
++ ___block_literal_global.2446
++ ___block_literal_global.2448
++ ___block_literal_global.2450
++ ___block_literal_global.2452
++ ___block_literal_global.2454
++ ___block_literal_global.2456
++ ___block_literal_global.2461
++ ___block_literal_global.2463
++ ___block_literal_global.2465
++ ___block_literal_global.2470
++ ___block_literal_global.2472
++ ___block_literal_global.2474
++ ___block_literal_global.2476
++ ___block_literal_global.2478
++ ___block_literal_global.2480
++ ___block_literal_global.2485
++ ___block_literal_global.2487
++ ___block_literal_global.2489
++ ___block_literal_global.2491
++ ___block_literal_global.2493
++ ___block_literal_global.2495
++ ___block_literal_global.2497
++ ___block_literal_global.2499
++ ___block_literal_global.2501
++ ___block_literal_global.2503
++ ___block_literal_global.2505
++ ___block_literal_global.2507
++ ___block_literal_global.2509
++ ___block_literal_global.2511
++ ___block_literal_global.2513
++ ___block_literal_global.2515
++ ___block_literal_global.2517
++ ___block_literal_global.2519
++ ___block_literal_global.2521
++ ___block_literal_global.2523
++ ___block_literal_global.2525
++ ___block_literal_global.2527
++ ___block_literal_global.2529
++ ___block_literal_global.2531
++ ___block_literal_global.2533
++ ___block_literal_global.2535
++ ___block_literal_global.2537
++ ___block_literal_global.2539
++ ___block_literal_global.2541
++ ___block_literal_global.2543
++ ___block_literal_global.2545
++ ___block_literal_global.2547
++ ___block_literal_global.2549
++ ___block_literal_global.2551
++ ___block_literal_global.2553
++ ___block_literal_global.2555
++ ___block_literal_global.2557
++ ___block_literal_global.2559
++ ___block_literal_global.2561
++ ___block_literal_global.2563
++ ___block_literal_global.2565
++ ___block_literal_global.2567
++ ___block_literal_global.2569
++ ___block_literal_global.2573
++ ___block_literal_global.2588
++ ___block_literal_global.2590
++ ___block_literal_global.2592
++ ___block_literal_global.2594
++ ___block_literal_global.2596
++ ___block_literal_global.2601
++ ___block_literal_global.2609
++ ___block_literal_global.2611
++ ___block_literal_global.2616
++ ___block_literal_global.2624
++ ___block_literal_global.2661
++ ___block_literal_global.2668
++ ___block_literal_global.3156
++ ___block_literal_global.3167
++ ___block_literal_global.3169
++ ___block_literal_global.3171
++ ___block_literal_global.3173
++ ___block_literal_global.3181
++ ___block_literal_global.3188
++ ___block_literal_global.3204
++ ___block_literal_global.3206
++ ___block_literal_global.3223
++ __processIsResponsibleForPreferenceObserving._sProcessIsBackboard
++ __processIsResponsibleForPreferenceObserving.cold.1
++ __processIsResponsibleForPreferenceObserving.onceToken
++ __setPreferenceAppWithNotification.cold.4
++ _objc_msgSend$safeArrayForKey:
+- GCC_except_table953
+- _AXProcessIsBackboard_Soft
+- _AXProcessIsBackboard_Soft.cold.1
+- _AccessibilityUtilitiesLibraryCore
+- ____AXSAttentionAwarenessFeaturesEnabled_block_invoke.1996
+- ___block_literal_global.1782
+- ___block_literal_global.1784
+- ___block_literal_global.1786
+- ___block_literal_global.1797
+- ___block_literal_global.1799
+- ___block_literal_global.1802
+- ___block_literal_global.1830
+- ___block_literal_global.1832
+- ___block_literal_global.1859
+- ___block_literal_global.1861
+- ___block_literal_global.1863
+- ___block_literal_global.1865
+- ___block_literal_global.1867
+- ___block_literal_global.1872
+- ___block_literal_global.1874
+- ___block_literal_global.1876
+- ___block_literal_global.1878
+- ___block_literal_global.1880
+- ___block_literal_global.1888
+- ___block_literal_global.1890
+- ___block_literal_global.1892
+- ___block_literal_global.1894
+- ___block_literal_global.1896
+- ___block_literal_global.1898
+- ___block_literal_global.1900
+- ___block_literal_global.1902
+- ___block_literal_global.1904
+- ___block_literal_global.1906
+- ___block_literal_global.1908
+- ___block_literal_global.1910
+- ___block_literal_global.1918
+- ___block_literal_global.1942
+- ___block_literal_global.1944
+- ___block_literal_global.1946
+- ___block_literal_global.1955
+- ___block_literal_global.1960
+- ___block_literal_global.1965
+- ___block_literal_global.1967
+- ___block_literal_global.1972
+- ___block_literal_global.1974
+- ___block_literal_global.1976
+- ___block_literal_global.1984
+- ___block_literal_global.1986
+- ___block_literal_global.1988
+- ___block_literal_global.1990
+- ___block_literal_global.1992
+- ___block_literal_global.1998
+- ___block_literal_global.2000
+- ___block_literal_global.2008
+- ___block_literal_global.2010
+- ___block_literal_global.2012
+- ___block_literal_global.2014
+- ___block_literal_global.2016
+- ___block_literal_global.2018
+- ___block_literal_global.2026
+- ___block_literal_global.2031
+- ___block_literal_global.2033
+- ___block_literal_global.2041
+- ___block_literal_global.2043
+- ___block_literal_global.2045
+- ___block_literal_global.2056
+- ___block_literal_global.2058
+- ___block_literal_global.2060
+- ___block_literal_global.2062
+- ___block_literal_global.2064
+- ___block_literal_global.2066
+- ___block_literal_global.2068
+- ___block_literal_global.2070
+- ___block_literal_global.2078
+- ___block_literal_global.2080
+- ___block_literal_global.2082
+- ___block_literal_global.2084
+- ___block_literal_global.2086
+- ___block_literal_global.2094
+- ___block_literal_global.2099
+- ___block_literal_global.2104
+- ___block_literal_global.2109
+- ___block_literal_global.2114
+- ___block_literal_global.2119
+- ___block_literal_global.2124
+- ___block_literal_global.2129
+- ___block_literal_global.2134
+- ___block_literal_global.2139
+- ___block_literal_global.2144
+- ___block_literal_global.2149
+- ___block_literal_global.2154
+- ___block_literal_global.2160
+- ___block_literal_global.2165
+- ___block_literal_global.2170
+- ___block_literal_global.2175
+- ___block_literal_global.2180
+- ___block_literal_global.2186
+- ___block_literal_global.2191
+- ___block_literal_global.2208
+- ___block_literal_global.2210
+- ___block_literal_global.2212
+- ___block_literal_global.2214
+- ___block_literal_global.2216
+- ___block_literal_global.2218
+- ___block_literal_global.2220
+- ___block_literal_global.2225
+- ___block_literal_global.2260
+- ___block_literal_global.2262
+- ___block_literal_global.2264
+- ___block_literal_global.2266
+- ___block_literal_global.2271
+- ___block_literal_global.2279
+- ___block_literal_global.2281
+- ___block_literal_global.2283
+- ___block_literal_global.2285
+- ___block_literal_global.2287
+- ___block_literal_global.2409
+- ___block_literal_global.2411
+- ___block_literal_global.2413
+- ___block_literal_global.2415
+- ___block_literal_global.2420
+- ___block_literal_global.2422
+- ___block_literal_global.2424
+- ___block_literal_global.2429
+- ___block_literal_global.2431
+- ___block_literal_global.2433
+- ___block_literal_global.2435
+- ___block_literal_global.2437
+- ___block_literal_global.2439
+- ___block_literal_global.2441
+- ___block_literal_global.2443
+- ___block_literal_global.2445
+- ___block_literal_global.2447
+- ___block_literal_global.2449
+- ___block_literal_global.2451
+- ___block_literal_global.2453
+- ___block_literal_global.2458
+- ___block_literal_global.2460
+- ___block_literal_global.2462
+- ___block_literal_global.2467
+- ___block_literal_global.2469
+- ___block_literal_global.2471
+- ___block_literal_global.2473
+- ___block_literal_global.2475
+- ___block_literal_global.2477
+- ___block_literal_global.2482
+- ___block_literal_global.2484
+- ___block_literal_global.2486
+- ___block_literal_global.2488
+- ___block_literal_global.2490
+- ___block_literal_global.2492
+- ___block_literal_global.2494
+- ___block_literal_global.2496
+- ___block_literal_global.2498
+- ___block_literal_global.2500
+- ___block_literal_global.2502
+- ___block_literal_global.2504
+- ___block_literal_global.2506
+- ___block_literal_global.2508
+- ___block_literal_global.2510
+- ___block_literal_global.2512
+- ___block_literal_global.2514
+- ___block_literal_global.2516
+- ___block_literal_global.2518
+- ___block_literal_global.2520
+- ___block_literal_global.2522
+- ___block_literal_global.2524
+- ___block_literal_global.2526
+- ___block_literal_global.2528
+- ___block_literal_global.2530
+- ___block_literal_global.2532
+- ___block_literal_global.2534
+- ___block_literal_global.2536
+- ___block_literal_global.2538
+- ___block_literal_global.2540
+- ___block_literal_global.2542
+- ___block_literal_global.2544
+- ___block_literal_global.2546
+- ___block_literal_global.2548
+- ___block_literal_global.2550
+- ___block_literal_global.2552
+- ___block_literal_global.2554
+- ___block_literal_global.2556
+- ___block_literal_global.2558
+- ___block_literal_global.2560
+- ___block_literal_global.2562
+- ___block_literal_global.2564
+- ___block_literal_global.2566
+- ___block_literal_global.2570
+- ___block_literal_global.2585
+- ___block_literal_global.2587
+- ___block_literal_global.2589
+- ___block_literal_global.2591
+- ___block_literal_global.2593
+- ___block_literal_global.2598
+- ___block_literal_global.2606
+- ___block_literal_global.2608
+- ___block_literal_global.2610
+- ___block_literal_global.2621
+- ___block_literal_global.2658
+- ___block_literal_global.3151
+- ___block_literal_global.3154
+- ___block_literal_global.3157
+- ___block_literal_global.3166
+- ___block_literal_global.3168
+- ___block_literal_global.3176
+- ___block_literal_global.3183
+- ___block_literal_global.3199
+- ___block_literal_global.3201
+- ___block_literal_global.3218
+CStrings:
++ "AXInspector enabled for inspection: %d"
++ "AXMediaPreferencesParticipatingInGuestPass"
++ "safeArrayForKey:"
+
+```

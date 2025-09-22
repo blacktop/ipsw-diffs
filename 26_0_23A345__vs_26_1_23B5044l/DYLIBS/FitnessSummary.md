@@ -1,0 +1,90 @@
+## FitnessSummary
+
+> `/System/Library/PrivateFrameworks/FitnessSummary.framework/FitnessSummary`
+
+```diff
+
+-2026.0.6.1.2
+-  __TEXT.__text: 0x15624
+-  __TEXT.__auth_stubs: 0xc10
++2026.1.25.1.1
++  __TEXT.__text: 0x15d28
++  __TEXT.__auth_stubs: 0xbf0
+   __TEXT.__const: 0x904
+-  __TEXT.__swift5_typeref: 0x1c1e
+-  __TEXT.__swift5_reflstr: 0x281
++  __TEXT.__swift5_typeref: 0x1c5e
++  __TEXT.__swift5_reflstr: 0x284
+   __TEXT.__swift5_assocty: 0x90
+-  __TEXT.__swift5_capture: 0xc4
++  __TEXT.__swift5_capture: 0x1c4
+   __TEXT.__oslogstring: 0x85
+   __TEXT.__constg_swiftt: 0x394
+   __TEXT.__swift5_fieldmd: 0x320
+   __TEXT.__swift5_proto: 0x40
+   __TEXT.__swift5_types: 0x2c
+   __TEXT.__cstring: 0xcd
+-  __TEXT.__unwind_info: 0x408
++  __TEXT.__unwind_info: 0x460
+   __TEXT.__objc_methname: 0x25
+-  __DATA_CONST.__got: 0x290
++  __DATA_CONST.__got: 0x288
+   __DATA_CONST.__const: 0x98
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x608
+-  __AUTH_CONST.__const: 0x3f0
++  __AUTH_CONST.__auth_got: 0x5f8
++  __AUTH_CONST.__const: 0x5a8
+   __AUTH_CONST.__objc_const: 0x90
+-  __DATA.__data: 0xb0
++  __DATA.__data: 0xe0
+   __DATA.__bss: 0x260
+-  __DATA_DIRTY.__data: 0xa88
++  __DATA_DIRTY.__data: 0xa68
+   __DATA_DIRTY.__bss: 0x600
+   __DATA_DIRTY.__common: 0x8
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 414FDB95-650C-342D-B9CB-E1DAAF8BDD5E
+-  Functions: 314
+-  Symbols:   280
++  UUID: 014AB28F-51A6-3F4E-8067-44B72244B378
++  Functions: 354
++  Symbols:   289
+   CStrings:  8
+ 
+Symbols:
++ _get_witness_table 7SwiftUI4ViewRzSHR_r0_lAA5GroupVyAA19_ConditionalContentVyAFyAaBPAAE8redacted6reasonQrAA16RedactionReasonsV_tFQOy14FitnessSummary0l23WorkoutsCardWorkoutItemC0VyxG_Qo_AOGAL0lmn5ErrorpC0Vyq_GGGAaBHPAuaBHPAqaBHPqd__AaBHD2_APHO_AoaBHPyHCHC_AtaBHPyHCHC_HC.8
++ _get_witness_table 7SwiftUI4ViewRzlqd__AaBHD2_AaBPAAE12onTapGesture5count7performQrSi_yyctFQOyAA5GroupVyAA19_ConditionalContentVyAA08ModifiedK0VyALyAA6VStackVyAJyALyALyxAA18_AspectRatioLayoutVGAA16_OverlayModifierVyAA14LinearGradientVSgGGALyAA5ColorVAPGGGASyAA6HStackVyAA05TupleC0VyALyALyALyANyA5_yALyALyAA4TextVAA022_EnvironmentKeyWritingR0VySiSgGGA9_yA7_4CaseOSgGGSg_A12_ALyA12_AA016_ForegroundStyleR0VyAA22HierarchicalShapeStyleVGGtGGAA08_PaddingP0VGA28_GA28_G_AA6SpacerVtGGGGASyA5_yA33__ALyALyALyALyALyAcAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQOyA7__s19PartialRangeThroughVyA40_GQo_A9_yAA5ImageV5ScaleOGGA28_GA28_GAA13_ShadowEffectVGAA023AccessibilityAttachmentR0VGSgtGGGANyA5_yA0__ALyA31_AA010_FlexFrameP0VGtGGGG_Qo_HO.21
++ _get_witness_table SHRzl7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAEyAA5ColorVAA18_AspectRatioLayoutVGAA010_FlexFrameI0VGAA16_OverlayModifierVyAEyAEyAEyAEyAEyAA6VStackVyAA9TupleViewVyAA4TextV_AuEyAEyAA6ButtonVyAUGAA022_EnvironmentKeyWritingM0VyAA13AnyShapeStyleVSgGGAA08_PaddingI0VGtGGAZyAA0Q9AlignmentOGGA5_GA5_GA5_GALGGGAEyAEyAEyA13_ALGA5_GA5_GGAA0P0HPA18_AAA23_HPAmAA23_HPAjAA23_HPAgAA23_HPyHC_AiA0pM0HPyHCHC_AlAA24_HPyHCHC_A17_AAA24_HPyHCHC_A21_AAA23_HPA20_AAA23_HPA19_AAA23_HPA13_AAA23_HPA12_AAA23_HPA8_AAA23_HPyHC_A11_AAA24_HPyHCHC_A5_AAA24_HPyHCHC_AlAA24_HPyHCHC_A5_AAA24_HPyHCHC_A5_AAA24_HPyHCHCHC.12
++ _objectdestroy.3Tm
++ _swift_getFunctionTypeMetadata1
++ _symbolic Ieg_
++ _symbolic _____yx_____cG 13FitnessCoreUI15AssumeEquatableV 0A7Summary0F7ArtworkO
++ _symbolic _____yyq_cG 13FitnessCoreUI15AssumeEquatableV
++ _symbolic _____yyxcG 13FitnessCoreUI15AssumeEquatableV
++ _symbolic _____yyycG 13FitnessCoreUI15AssumeEquatableV
++ _symbolic _____yyycSgG 13FitnessCoreUI15AssumeEquatableV
++ _symbolic q_Iegn_
++ _symbolic q_ytIegnr_
++ _symbolic xIegn_
++ _symbolic xytIegnr_
++ _symbolic ytIegr_
++ _symbolic yyc
++ _symbolic yycSg
+- _get_witness_table 7SwiftUI4ViewRzSHR_r0_lAA5GroupVyAA19_ConditionalContentVyAFyAaBPAAE8redacted6reasonQrAA16RedactionReasonsV_tFQOy14FitnessSummary0l23WorkoutsCardWorkoutItemC0VyxG_Qo_AOGAL0lmn5ErrorpC0Vyq_GGGAaBHPAuaBHPAqaBHPqd__AaBHD2_APHO_AoaBHPyHCHC_AtaBHPyHCHC_HC.2
+- _get_witness_table 7SwiftUI4ViewRzlqd__AaBHD2_AaBPAAE12onTapGesture5count7performQrSi_yyctFQOyAA5GroupVyAA19_ConditionalContentVyAA08ModifiedK0VyALyAA6VStackVyAJyALyALyxAA18_AspectRatioLayoutVGAA16_OverlayModifierVyAA14LinearGradientVSgGGALyAA5ColorVAPGGGASyAA6HStackVyAA05TupleC0VyALyALyALyANyA5_yALyALyAA4TextVAA022_EnvironmentKeyWritingR0VySiSgGGA9_yA7_4CaseOSgGGSg_A12_ALyA12_AA016_ForegroundStyleR0VyAA22HierarchicalShapeStyleVGGtGGAA08_PaddingP0VGA28_GA28_G_AA6SpacerVtGGGGASyA5_yA33__ALyALyALyALyALyAcAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQOyA7__s19PartialRangeThroughVyA40_GQo_A9_yAA5ImageV5ScaleOGGA28_GA28_GAA13_ShadowEffectVGAA023AccessibilityAttachmentR0VGSgtGGGANyA5_yA0__ALyA31_AA010_FlexFrameP0VGtGGGG_Qo_HO.15
+- _get_witness_table SHRzl7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAEyAA5ColorVAA18_AspectRatioLayoutVGAA010_FlexFrameI0VGAA16_OverlayModifierVyAEyAEyAEyAEyAEyAA6VStackVyAA9TupleViewVyAA4TextV_AuEyAEyAA6ButtonVyAUGAA022_EnvironmentKeyWritingM0VyAA13AnyShapeStyleVSgGGAA08_PaddingI0VGtGGAZyAA0Q9AlignmentOGGA5_GA5_GA5_GALGGGAEyAEyAEyA13_ALGA5_GA5_GGAA0P0HPA18_AAA23_HPAmAA23_HPAjAA23_HPAgAA23_HPyHC_AiA0pM0HPyHCHC_AlAA24_HPyHCHC_A17_AAA24_HPyHCHC_A21_AAA23_HPA20_AAA23_HPA19_AAA23_HPA13_AAA23_HPA12_AAA23_HPA8_AAA23_HPyHC_A11_AAA24_HPyHCHC_A5_AAA24_HPyHCHC_AlAA24_HPyHCHC_A5_AAA24_HPyHCHC_A5_AAA24_HPyHCHCHC.6
+- _objectdestroyTm
+- _symbolic _____y_____xG 13FitnessCoreUI20EquatableViewBuilderV 0A7Summary0G7ArtworkO
+- _symbolic _____yq_ytG 16FitnessUtilities15EquatableActionV
+- _symbolic _____yxytG 16FitnessUtilities15EquatableActionV
+- _symbolic _____yytytG 16FitnessUtilities15EquatableActionV
+- _symbolic _____yytytGSg 16FitnessUtilities15EquatableActionV
+
+```

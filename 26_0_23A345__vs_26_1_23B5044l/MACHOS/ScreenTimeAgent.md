@@ -1,0 +1,1299 @@
+## ScreenTimeAgent
+
+> `/System/Library/PrivateFrameworks/ScreenTimeCore.framework/ScreenTimeAgent`
+
+```diff
+
+-605.0.1.0.0
+-  __TEXT.__text: 0x25a754
+-  __TEXT.__auth_stubs: 0x2df0
+-  __TEXT.__objc_stubs: 0x114e0
+-  __TEXT.__objc_methlist: 0xa010
+-  __TEXT.__const: 0x5c28
+-  __TEXT.__gcc_except_tab: 0x218c
+-  __TEXT.__cstring: 0xe5fc
+-  __TEXT.__oslogstring: 0x1cccb
+-  __TEXT.__objc_methname: 0x1c24f
+-  __TEXT.__objc_classname: 0x2019
+-  __TEXT.__objc_methtype: 0x5523
+-  __TEXT.__constg_swiftt: 0x32f0
+-  __TEXT.__swift5_typeref: 0x30d2
+-  __TEXT.__swift5_builtin: 0x1a4
+-  __TEXT.__swift5_reflstr: 0x2474
+-  __TEXT.__swift5_fieldmd: 0x1798
+-  __TEXT.__swift5_capture: 0x2d10
+-  __TEXT.__swift5_assocty: 0x368
+-  __TEXT.__swift5_proto: 0x31c
+-  __TEXT.__swift5_types: 0x1bc
+-  __TEXT.__swift_as_entry: 0x460
+-  __TEXT.__swift_as_ret: 0x44c
++605.1.8.0.0
++  __TEXT.__text: 0x11c76c
++  __TEXT.__auth_stubs: 0x2260
++  __TEXT.__objc_stubs: 0x11560
++  __TEXT.__objc_methlist: 0x9f78
++  __TEXT.__const: 0x4648
++  __TEXT.__gcc_except_tab: 0x21b0
++  __TEXT.__cstring: 0xd59e
++  __TEXT.__oslogstring: 0x13560
++  __TEXT.__objc_methname: 0x1b98c
++  __TEXT.__objc_classname: 0x1fa7
++  __TEXT.__objc_methtype: 0x54d7
++  __TEXT.__constg_swiftt: 0x2fe8
++  __TEXT.__swift5_typeref: 0x277a
++  __TEXT.__swift5_builtin: 0x118
++  __TEXT.__swift5_reflstr: 0x1fc9
++  __TEXT.__swift5_fieldmd: 0x1474
++  __TEXT.__swift5_assocty: 0x248
++  __TEXT.__swift5_proto: 0x250
++  __TEXT.__swift5_types: 0x174
++  __TEXT.__swift5_capture: 0x2204
++  __TEXT.__swift_as_entry: 0x264
++  __TEXT.__swift_as_ret: 0x198
+   __TEXT.__swift5_protos: 0x9c
+-  __TEXT.__swift5_mpenum: 0x24
+-  __TEXT.__unwind_info: 0x7698
+-  __TEXT.__eh_frame: 0x102a8
+-  __DATA_CONST.__auth_got: 0x1708
+-  __DATA_CONST.__got: 0x16f0
+-  __DATA_CONST.__auth_ptr: 0x7a0
+-  __DATA_CONST.__const: 0xb510
+-  __DATA_CONST.__cfstring: 0x4ac0
+-  __DATA_CONST.__objc_classlist: 0x678
++  __TEXT.__swift5_mpenum: 0x1c
++  __TEXT.__unwind_info: 0x4198
++  __TEXT.__eh_frame: 0x4e60
++  __DATA_CONST.__auth_got: 0x1140
++  __DATA_CONST.__got: 0x12c8
++  __DATA_CONST.__auth_ptr: 0x668
++  __DATA_CONST.__const: 0x9988
++  __DATA_CONST.__cfstring: 0x4c20
++  __DATA_CONST.__objc_classlist: 0x670
+   __DATA_CONST.__objc_catlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0x580
++  __DATA_CONST.__objc_protolist: 0x508
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x198
++  __DATA_CONST.__objc_protorefs: 0x148
+   __DATA_CONST.__objc_superrefs: 0x398
+   __DATA_CONST.__objc_intobj: 0x390
+   __DATA_CONST.__objc_doubleobj: 0x80
+   __DATA_CONST.__objc_arraydata: 0x90
+   __DATA_CONST.__objc_arrayobj: 0x90
+   __DATA_CONST.__objc_dictobj: 0xa0
+-  __DATA.__objc_const: 0x1f058
+-  __DATA.__objc_selrefs: 0x5858
++  __DATA.__objc_const: 0x1df78
++  __DATA.__objc_selrefs: 0x55d0
+   __DATA.__objc_ivar: 0x800
+-  __DATA.__objc_data: 0x4a30
+-  __DATA.__data: 0x7dc8
+-  __DATA.__bss: 0x4fb0
+-  __DATA.__common: 0x130
++  __DATA.__objc_data: 0x49b8
++  __DATA.__data: 0x7038
++  __DATA.__bss: 0x3730
++  __DATA.__common: 0xa0
+   - /AppleInternal/Library/Frameworks/TapToRadarKit.framework/TapToRadarKit
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+
+   - /System/Library/Frameworks/DeviceActivity.framework/DeviceActivity
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+-  - /System/Library/Frameworks/ManagedSettings.framework/ManagedSettings
+   - /System/Library/Frameworks/ScreenTime.framework/ScreenTime
+   - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+
+   - /System/Library/PrivateFrameworks/CoreDuet.framework/CoreDuet
+   - /System/Library/PrivateFrameworks/DeviceManagement.framework/DeviceManagement
+   - /System/Library/PrivateFrameworks/EyeRelief.framework/EyeRelief
+-  - /System/Library/PrivateFrameworks/FTServices.framework/FTServices
+   - /System/Library/PrivateFrameworks/FamilyCircle.framework/FamilyCircle
+   - /System/Library/PrivateFrameworks/FamilyControlsObjC.framework/FamilyControlsObjC
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8FA0EA68-33A2-319A-A0E9-A7EA19193400
+-  Functions: 7884
+-  Symbols:   1616
+-  CStrings:  8738
++  UUID: 419DB0E1-34D6-3A30-9007-399CE50ABD8F
++  Functions: 5943
++  Symbols:   1299
++  CStrings:  7956
+ 
+Symbols:
++ _$s15ScreenTimeSwift21STExpressIntroductionO10STSettingsVMa
++ _$s15ScreenTimeSwift21STExpressIntroductionO10STSettingsVSEAAMc
++ _$s15ScreenTimeSwift21STExpressIntroductionO10STSettingsVSeAAMc
++ _$s15ScreenTimeSwift21STExpressIntroductionO15STSettingsStoreMp
++ _$s15ScreenTimeSwift21STExpressIntroductionO15STSettingsStoreP4load7forUser12withDefaultsAC0F0VAC0J0O_AC08SettingsL0VtYaKFTj
++ _$s15ScreenTimeSwift21STExpressIntroductionO15STSettingsStoreP4load7forUser12withDefaultsAC0F0VAC0J0O_AC08SettingsL0VtYaKFTjTu
++ _$s15ScreenTimeSwift21STExpressIntroductionO15STSettingsStoreP4save8defaults7forUseryAC16SettingsDefaultsV_AC0K0OtYaKFTj
++ _$s15ScreenTimeSwift21STExpressIntroductionO15STSettingsStoreP4save8defaults7forUseryAC16SettingsDefaultsV_AC0K0OtYaKFTjTu
++ _$s15ScreenTimeSwift21STExpressIntroductionO15STSettingsStoreP4save8settings7forUseryAC0F0V_AC0K0OtYaKFTj
++ _$s15ScreenTimeSwift21STExpressIntroductionO15STSettingsStoreP4save8settings7forUseryAC0F0V_AC0K0OtYaKFTjTu
++ _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO24ReconcilingSettingsStoreVAC010STSettingsI0AAWP
++ _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO27DefaultsSavingSettingsStoreV8internal08settingsG10DataSourceAgC010STSettingsJ0_p_AE0igmN0_ptcfC
++ _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO27DefaultsSavingSettingsStoreVAC010STSettingsJ0AAWP
++ _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO5CoderP6decode_4fromqd__qd__m_10Foundation4DataVtKSeRd__lFTj
++ _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO5CoderP6encodey10Foundation4DataVqd__KSERd__lFTj
+- _$s10Foundation10CocoaErrorV18fileReadNoSuchFileAC4CodeVvgZ
+- _$s10Foundation10CocoaErrorV4CodeV18featureUnsupportedAEvgZ
+- _$s10Foundation10CocoaErrorV4CodeVAA01_cD8ProtocolAAMc
+- _$s10Foundation10CocoaErrorV8CoreDataE33managedObjectReferentialIntegrityAC4CodeVvgZ
+- _$s10Foundation12DateIntervalV19_bridgeToObjectiveCSo06NSDateC0CyF
+- _$s10Foundation12DateIntervalV3endAA0B0Vvg
+- _$s10Foundation12DateIntervalV5start8durationAcA0B0V_SdtcfC
+- _$s10Foundation12DateIntervalV5startAA0B0Vvg
+- _$s10Foundation12DateIntervalVMn
+- _$s10Foundation12DateIntervalVs23CustomStringConvertibleAAMc
+- _$s10Foundation13URLComponentsV3urlAA3URLVSgvg
+- _$s10Foundation13URLComponentsV4hostSSSgvs
+- _$s10Foundation13URLComponentsVACycfC
+- _$s10Foundation13URLComponentsVMa
+- _$s10Foundation14DateComponentsV10nanosecondSiSgvs
+- _$s10Foundation14DateComponentsV19_bridgeToObjectiveCSo06NSDateC0CyF
+- _$s10Foundation14DateComponentsV36_unconditionallyBridgeFromObjectiveCyACSo06NSDateC0CSgFZ
+- _$s10Foundation14DateComponentsV4hourSiSgvg
+- _$s10Foundation14DateComponentsV6minuteSiSgvs
+- _$s10Foundation14DateComponentsV6secondSiSgvs
+- _$s10Foundation14DateComponentsV7weekdaySiSgvg
+- _$s10Foundation14DateComponentsV7weekdaySiSgvs
+- _$s10Foundation14DateComponentsVMn
+- _$s10Foundation19PropertyListDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
+- _$s10Foundation19PropertyListDecoderCACycfc
+- _$s10Foundation19PropertyListDecoderCMa
+- _$s10Foundation19PropertyListEncoderC6encodeyAA4DataVxKSERzlFTj
+- _$s10Foundation19PropertyListEncoderCACycfc
+- _$s10Foundation19PropertyListEncoderCMa
+- _$s10Foundation25NSFastEnumerationIteratorV4nextypSgyF
+- _$s10Foundation25NSFastEnumerationIteratorVMa
+- _$s10Foundation3URLV4host14percentEncodedSSSgSb_tF
+- _$s10Foundation3URLV4path14percentEncodedSSSb_tF
+- _$s10Foundation4DataV10contentsOf7optionsAcA3URLVh_So20NSDataReadingOptionsVtKcfC
+- _$s10Foundation4DataV11descriptionSSvg
+- _$s10Foundation4DataV5write2to7optionsyAA3URLV_So20NSDataWritingOptionsVtKF
+- _$s10Foundation4DateV026timeIntervalSinceReferenceB0Sdvg
+- _$s10Foundation4DateV17timeIntervalSinceySdACF
+- _$s10Foundation4DateV18addingTimeIntervalyACSdF
+- _$s10Foundation4DateV1soiyA2C_SdtFZ
+- _$s10Foundation4DateV20timeIntervalSinceNowSdvg
+- _$s10Foundation4DateV2eeoiySbAC_ACtFZ
+- _$s10Foundation4DateVSLAAMc
+- _$s10Foundation4UUIDV10uuidStringACSgSSh_tcfC
+- _$s10Foundation4UUIDVACycfC
+- _$s10Foundation4UUIDVs23CustomStringConvertibleAAMc
+- _$s10Foundation8CalendarV10IdentifierO9gregorianyA2EmFWC
+- _$s10Foundation8CalendarV10IdentifierOMa
+- _$s10Foundation8CalendarV10identifierA2C10IdentifierOh_tcfC
+- _$s10Foundation8CalendarV12maximumRange2ofSnySiGSgAC9ComponentO_tF
+- _$s10Foundation8CalendarV14MatchingPolicyO6strictyA2EmFWC
+- _$s10Foundation8CalendarV14MatchingPolicyO8nextTimeyA2EmFWC
+- _$s10Foundation8CalendarV14MatchingPolicyOMa
+- _$s10Foundation8CalendarV14dateComponents2in4fromAA04DateD0VAA8TimeZoneV_AA0G0VtF
+- _$s10Foundation8CalendarV14dateComponents_4fromAA04DateD0VShyAC9ComponentOG_AA0F0VtF
+- _$s10Foundation8CalendarV14enumerateDates13startingAfter8matching0G6Policy012repeatedTimeH09direction5usingyAA4DateV_AA0M10ComponentsVAC08MatchingH0OAC08RepeatedjH0OAC15SearchDirectionOyALSg_S2bztXEtF
+- _$s10Foundation8CalendarV15SearchDirectionO7forwardyA2EmFWC
+- _$s10Foundation8CalendarV15SearchDirectionO8backwardyA2EmFWC
+- _$s10Foundation8CalendarV15SearchDirectionOMa
+- _$s10Foundation8CalendarV18RepeatedTimePolicyO5firstyA2EmFWC
+- _$s10Foundation8CalendarV18RepeatedTimePolicyOMa
+- _$s10Foundation8CalendarV19_bridgeToObjectiveCSo10NSCalendarCyF
+- _$s10Foundation8CalendarV36_unconditionallyBridgeFromObjectiveCyACSo10NSCalendarCSgFZ
+- _$s10Foundation8CalendarV4date4fromAA4DateVSgAA0E10ComponentsV_tF
+- _$s10Foundation8CalendarV8nextDate5after8matching0F6Policy012repeatedTimeG09directionAA0D0VSgAK_AA0D10ComponentsVAC08MatchingG0OAC08RepeatediG0OAC15SearchDirectionOtF
+- _$s10Foundation8CalendarV9ComponentO10nanosecondyA2EmFWC
+- _$s10Foundation8CalendarV9ComponentO4houryA2EmFWC
+- _$s10Foundation8CalendarV9ComponentO4yearyA2EmFWC
+- _$s10Foundation8CalendarV9ComponentO5monthyA2EmFWC
+- _$s10Foundation8CalendarV9ComponentO6minuteyA2EmFWC
+- _$s10Foundation8CalendarV9ComponentO6secondyA2EmFWC
+- _$s10Foundation8CalendarV9ComponentO7weekdayyA2EmFWC
+- _$s10Foundation8CalendarV9ComponentOMn
+- _$s10Foundation8CalendarV9ComponentOSHAAMc
+- _$s10Foundation8CalendarV9ComponentOSQAAMc
+- _$s10Foundation8TimeZoneV14secondsFromGMTACSgSi_tcfC
+- _$s14DeviceActivity0aB4NameV15ScreenTimeSwiftE18downtime_weekday_1ACvgZ
+- _$s14DeviceActivity0aB4NameV15ScreenTimeSwiftE18downtime_weekday_2ACvgZ
+- _$s14DeviceActivity0aB4NameV15ScreenTimeSwiftE18downtime_weekday_3ACvgZ
+- _$s14DeviceActivity0aB4NameV15ScreenTimeSwiftE18downtime_weekday_4ACvgZ
+- _$s14DeviceActivity0aB4NameV15ScreenTimeSwiftE18downtime_weekday_5ACvgZ
+- _$s14DeviceActivity0aB4NameV15ScreenTimeSwiftE18downtime_weekday_6ACvgZ
+- _$s14DeviceActivity0aB4NameV15ScreenTimeSwiftE18downtime_weekday_7ACvgZ
+- _$s14DeviceActivity0aB4NameV15ScreenTimeSwiftE20usagelimit_weekday_1ACvgZ
+- _$s14DeviceActivity0aB4NameV15ScreenTimeSwiftE20usagelimit_weekday_2ACvgZ
+- _$s14DeviceActivity0aB4NameV15ScreenTimeSwiftE20usagelimit_weekday_3ACvgZ
+- _$s14DeviceActivity0aB4NameV15ScreenTimeSwiftE20usagelimit_weekday_4ACvgZ
+- _$s14DeviceActivity0aB4NameV15ScreenTimeSwiftE20usagelimit_weekday_5ACvgZ
+- _$s14DeviceActivity0aB4NameV15ScreenTimeSwiftE20usagelimit_weekday_6ACvgZ
+- _$s14DeviceActivity0aB4NameV15ScreenTimeSwiftE20usagelimit_weekday_7ACvgZ
+- _$s14DeviceActivity0aB4NameV15ScreenTimeSwiftE24downtime_enable_overrideACvgZ
+- _$s14DeviceActivity0aB4NameV15ScreenTimeSwiftE25downtime_disable_overrideACvgZ
+- _$s14DeviceActivity0aB4NameV8rawValueSSvg
+- _$s14DeviceActivity0aB4NameVMa
+- _$s14DeviceActivity0aB4NameVMn
+- _$s14DeviceActivity0aB4NameVyACSScfC
+- _$s14DeviceActivity0aB5EventV23untokenizedApplications0D10Categories0D10WebDomains9threshold012includesPastB0ACShy15ManagedSettings11ApplicationVG_ShyAI0B8CategoryVGShyAI0G6DomainVG10Foundation14DateComponentsVSbtcfC
+- _$s14DeviceActivity0aB5EventV4NameVMa
+- _$s14DeviceActivity0aB5EventV4NameVMn
+- _$s14DeviceActivity0aB5EventV4NameVSHAAMc
+- _$s14DeviceActivity0aB5EventV4NameVSQAAMc
+- _$s14DeviceActivity0aB5EventV4NameVyAESScfC
+- _$s14DeviceActivity0aB5EventV9threshold10Foundation14DateComponentsVvg
+- _$s14DeviceActivity0aB5EventVMa
+- _$s14DeviceActivity0aB5EventVMn
+- _$s14DeviceActivity0aB6CenterV15startMonitoring_6during6eventsyAA0aB4NameV_AA0aB8ScheduleVSDyAA0aB5EventV0H0VALGtKF
+- _$s14DeviceActivity0aB6CenterV19allowShortIntervalsSbvs
+- _$s14DeviceActivity0aB8ScheduleV13intervalStart0D3End7repeats11warningTimeAC10Foundation14DateComponentsV_AJSbAJSgtcfC
+- _$s14DeviceActivity0aB8ScheduleVMa
+- _$s14ScreenTimeCore0aB12FeatureFlagsO13screentimeAPIyA2CmFWC
+- _$s14ScreenTimeCore0aB12FeatureFlagsO15simplifiedAgentyA2CmFWC
+- _$s14ScreenTimeCore20STConsistencyCheckerC8validate20managedObjectContextySo09NSManagedhI0C_tKFZ
+- _$s14ScreenTimeCore20STConsistencyCheckerCMa
+- _$s15ManagedSettings11ApplicationV16bundleIdentifierACSS_tcfC
+- _$s15ManagedSettings11ApplicationVMa
+- _$s15ManagedSettings11ApplicationVMn
+- _$s15ManagedSettings11ApplicationVSHAAMc
+- _$s15ManagedSettings11ApplicationVSQAAMc
+- _$s15ManagedSettings16ActivityCategoryV10identifierACSS_tcfC
+- _$s15ManagedSettings16ActivityCategoryVMa
+- _$s15ManagedSettings16ActivityCategoryVMn
+- _$s15ManagedSettings16ActivityCategoryVSHAAMc
+- _$s15ManagedSettings16ActivityCategoryVSQAAMc
+- _$s15ManagedSettings9WebDomainV6domainACSS_tcfC
+- _$s15ManagedSettings9WebDomainVMa
+- _$s15ManagedSettings9WebDomainVMn
+- _$s15ManagedSettings9WebDomainVSHAAMc
+- _$s15ManagedSettings9WebDomainVSQAAMc
+- _$s15ScreenTimeSwift17LocalRestrictionsC015enableEyeReliefA16DistanceSampling0F0ySb_tFTj
+- _$s15ScreenTimeSwift17LocalRestrictionsC023updateDefaultWebContentE04withySo014CEMSystemBasichI17FilterDeclarationC_tFTj
+- _$s15ScreenTimeSwift17LocalRestrictionsC039denyiCloudLogoutAndRequireAutomaticDateiB04denyySb_tFTj
+- _$s15ScreenTimeSwift17LocalRestrictionsC12deleteStores4withyShySSG_tFTj
+- _$s15ScreenTimeSwift17LocalRestrictionsC17updateAlwaysAllow4withySo23CEMPolicyAppDeclarationCSg_tFTj
+- _$s15ScreenTimeSwift17LocalRestrictionsC18setUpOverrideStore4with12applications10webDomainsySS_SaySSGSgAItFTj
+- _$s15ScreenTimeSwift17LocalRestrictionsC20setUpUsageLimitStore4with12applications10categories10webDomains012blockAtEndOfI09isManagedySS_SaySSGSgA2LS2btFTj
+- _$s15ScreenTimeSwift17LocalRestrictionsC23setDowntimeShieldPolicy4with9isManagedySb_SbtFTj
+- _$s15ScreenTimeSwift17LocalRestrictionsC25communicationSafetyPolicySo06MOUserg8ScanningH0CvsTj
+- _$s15ScreenTimeSwift17LocalRestrictionsC33deleteAppAndWebsiteActivityStoresyyFTj
+- _$s15ScreenTimeSwift17LocalRestrictionsC6update4with016clearAllExistingE0ySaySo18CEMDeclarationBaseCG_SbtKFTj
+- _$s15ScreenTimeSwift17LocalRestrictionsCACycfc
+- _$s15ScreenTimeSwift17LocalRestrictionsCMa
+- _$s15ScreenTimeSwift19STUserNotificationsV16NotificationTypeO10askRequestyAESS_SSSo8NSNumberCSgSStcAEmFWC
+- _$s15ScreenTimeSwift19STUserNotificationsV16NotificationTypeO10timeDeniedyAESS_S2StcAEmFWC
+- _$s15ScreenTimeSwift19STUserNotificationsV16NotificationTypeO12timeApprovedyAESS_S2SSdtcAEmFWC
+- _$s15ScreenTimeSwift19STUserNotificationsV16NotificationTypeO23remoteManagementEnabledyA2EmFWC
+- _$s15ScreenTimeSwift19STUserNotificationsV16postNotification7contextySo0dG7ContextC_tYaKFZ
+- _$s15ScreenTimeSwift19STUserNotificationsV16postNotification7contextySo0dG7ContextC_tYaKFZTu
+- _$s15ScreenTimeSwift19STUserNotificationsV18removeNotification7contextySo0dG7ContextC_tKFZ
+- _$s15ScreenTimeSwift19STUserNotificationsV27notificationCentersByBundleSDySSSo24UNUserNotificationCenterCGvgZ
+- _$s15ScreenTimeSwift19STUserNotificationsV6remove12notificationyAC16NotificationTypeO_tYaKFZ
+- _$s15ScreenTimeSwift19STUserNotificationsV6remove12notificationyAC16NotificationTypeO_tYaKFZTu
+- _$s15ScreenTimeSwift21STExpressIntroductionO4UserOMn
+- _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO13SettingsStoreMp
+- _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO13SettingsStoreP4load7forUser12withDefaultsAE0G0VAC0K0O_AC0gM0VtYaKFTj
+- _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO13SettingsStoreP4load7forUser12withDefaultsAE0G0VAC0K0O_AC0gM0VtYaKFTjTu
+- _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO13SettingsStoreP4save8defaults7forUseryAC0G8DefaultsV_AC0L0OtYaKFTj
+- _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO13SettingsStoreP4save8defaults7forUseryAC0G8DefaultsV_AC0L0OtYaKFTjTu
+- _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO13SettingsStoreP4save8settings7forUseryAE0G0V_AC0L0OtYaKFTj
+- _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO13SettingsStoreP4save8settings7forUseryAE0G0V_AC0L0OtYaKFTjTu
+- _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO24ReconcilingSettingsStoreVAE0hI0AAWP
+- _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO27DefaultsSavingSettingsStoreV8internal08settingsG10DataSourceAgE0iJ0_p_AE0igmN0_ptcfC
+- _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO27DefaultsSavingSettingsStoreVAE0iJ0AAWP
+- _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO5CoderP6decode_4fromqd__Sgqd__m_10Foundation4DataVtKSeRd__lFTj
+- _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO5CoderP6encodey10Foundation4DataVqd__SgKSERd__lFTj
+- _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO8SettingsVMa
+- _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO8SettingsVMn
+- _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO8SettingsVSEAAMc
+- _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO8SettingsVSeAAMc
+- _$s2os12OSSignpostIDV8rawValues6UInt64Vvg
+- _$s2os12OSSignpostIDV9exclusiveACvgZ
+- _$s2os12OSSignpostIDVMa
+- _$s2os12OSSignposterV6loggerAcA6LoggerV_tcfC
+- _$s2os12OSSignposterV9logHandleSo03OS_a1_C0Cvg
+- _$s2os12OSSignposterVMa
+- _$s2os15OSSignpostErrorO9doubleEndyA2CmFWC
+- _$s2os15OSSignpostErrorOMa
+- _$s2os23OSSignpostIntervalStateC10signpostIDAA0bF0Vvg
+- _$s2os23OSSignpostIntervalStateC2id6isOpenAcA0B2IDV_Sbtcfc
+- _$s2os23OSSignpostIntervalStateCMa
+- _$s2os28checkForErrorAndConsumeState5stateAA010OSSignpostD0OAA0i8IntervalG0C_tF
+- _$s5AskTo14ATAnswerChoiceC2id5titleACSS_SStcfc
+- _$s6Darwin5errnos5Int32Vvg
+- _$s8Dispatch0A3QoSV0B6SClassO10backgroundyA2EmFWC
+- _$s8Dispatch0A3QoSV0B6SClassO7defaultyA2EmFWC
+- _$s8Dispatch0A3QoSV0B6SClassOMa
+- _$sBi16_WV
+- _$sSD11descriptionSSvg
+- _$sSDyxq_GSEsSERzSER_rlMc
+- _$sSDyxq_GSesSeRzSeR_rlMc
+- _$sSH13_rawHashValue4seedS2i_tFTj
+- _$sSKsSS7ElementRtzrlE6joined9separatorS2S_tF
+- _$sSL1loiySbx_xtFZTj
+- _$sSQ2eeoiySbx_xtFZTj
+- _$sSS10FoundationE4data5using20allowLossyConversionAA4DataVSgSSAAE8EncodingV_SbtF
+- _$sSS10FoundationE8EncodingV4utf8ACvgZ
+- _$sSS10FoundationE8EncodingVMa
+- _$sSS5countSivg
+- _$sSS7cStringSSSPys4Int8VG_tcfC
+- _$sSSSEsWP
+- _$sSSSesWP
+- _$sSa11descriptionSSvg
+- _$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ
+- _$sSayxGSKsMc
+- _$sScTss5NeverORs_rlE5valuexvg
+- _$sScTss5NeverORs_rlE5valuexvgTu
+- _$sSd10FoundationE10truncatingSdSo8NSNumberCh_tcfC
+- _$sSdN
+- _$sSh10FoundationE26_forceBridgeFromObjectiveC_6resultySo5NSSetC_ShyxGSgztFZ
+- _$sSh5IndexV8_asCocoas02__C3SetVAAVvM
+- _$sSh5IndexVMn
+- _$sSi10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
+- _$sSo12PeopleClientC0A0E38canSendFamilyScreenTimeRequestIMessageSbyYaKF
+- _$sSo12PeopleClientC0A0E38canSendFamilyScreenTimeRequestIMessageSbyYaKFTu
+- _$sSo14FAFamilyCircleC06FamilyB0E19membersAreGuardiansSaySo0A6MemberCGyF
+- _$sSo14FAFamilyCircleC06FamilyB0E9guardiansSaySo0A6MemberCGvg
+- _$sSo17OS_dispatch_queueC8DispatchE6global3qosAbC0D3QoSV0G6SClassO_tFZ
+- _$sSo18os_signpost_type_ta0A0E3endABvgZ
+- _$sSo18os_signpost_type_ta0A0E5beginABvgZ
+- _$sSo18os_signpost_type_ta0A0E5eventABvgZ
+- _$sSo22NSManagedObjectContextC8CoreDataE5fetchySayxGSo14NSFetchRequestCyxGKSo0gH6ResultRzlF
+- _$sSo5NSSetC10FoundationE12makeIteratorAC017NSFastEnumerationD0VyF
+- _$sSo8NSNumberC10FoundationE12floatLiteralABSd_tcfC
+- _$sSo9ACAccountC12FamilyCircleE7appleIDSSSgvg
+- _$sSo9OS_os_logC0B0E16signpostsEnabledSbvg
+- _$sSuSEsWP
+- _$sSuSesWP
+- _$sSy10FoundationE20replacingOccurrences2of4with7options5rangeSSqd___qd_0_So22NSStringCompareOptionsVSnySS5IndexVGSgtSyRd__SyRd_0_r0_lF
+- _$sSy10FoundationE22caseInsensitiveCompareySo18NSComparisonResultVqd__SyRd__lF
+- _$sSy10FoundationE8containsySbqd__SyRd__lF
+- _$ss10_HashTableV11startBucketAB0D0Vvg
+- _$ss10__CocoaSetV10startIndexAB0D0Vvg
+- _$ss10__CocoaSetV5IndexV16handleBitPatternSuvg
+- _$ss10__CocoaSetV5IndexV2eeoiySbAD_ADtFZ
+- _$ss10__CocoaSetV5IndexV3ages5Int32Vvg
+- _$ss10__CocoaSetV5IndexV7elementyXlvg
+- _$ss10__CocoaSetV7element2atyXlAB5IndexV_tF
+- _$ss10__CocoaSetV8endIndexAB0D0Vvg
+- _$ss10__CocoaSetV9formIndex5after8isUniqueyAB0D0Vz_SbtF
+- _$ss17__CocoaDictionaryV12makeIteratorAB0D0CyF
+- _$ss17__CocoaDictionaryV5countSivg
+- _$ss17__CocoaDictionaryV8IteratorC4nextyXl3key_yXl5valuetSgyF
+- _$ss18_DictionaryStorageC7convert_8capacityAByxq_Gs07__CocoaA0V_SitFZ
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Ts5
+- _$ss22_minimumMergeRunLengthyS2iF
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalF
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalFTu
+- _$ss5Int16VMn
+- _$ss5Int16VN
+- _$ss5Int16Vs7CVarArgsWP
+- _$ss5Int32VN
+- _$ss5Int32Vs23CustomStringConvertiblesWP
+- _$ss6UInt64V10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
+- _APSErrorDomain
+- _BMFamilyScreenTimeChildStateIdentifier
+- _CEMPolicyAppDeclaration_Mode_override
+- _CEMPolicyAppDeclaration_Mode_warn
+- _CEMPolicyCategoryDeclaration_Mode_ask
+- _CEMPolicyCategoryDeclaration_Mode_override
+- _FAErrorDomain
+- _FTErrorDomain
+- _IDSErrorDomain
+- _IDSSendErrorDomain
+- _NSURLErrorDomain
+- _NSXPCStoreAnonymousListenerKey
+- _OBJC_CLASS_$_BGNonRepeatingSystemTaskRequest
+- _OBJC_CLASS_$_CEMDeclarationBase
+- _OBJC_CLASS_$_CNContainer
+- _OBJC_CLASS_$_FAFamilyCircle
+- _OBJC_CLASS_$_IDSAccount
+- _OBJC_CLASS_$_IDSDestination
+- _OBJC_CLASS_$_IDSDevice
+- _OBJC_CLASS_$_IDSMessageContext
+- _OBJC_CLASS_$_MOApplication
+- _OBJC_CLASS_$_MOEffectiveSettingsStore
+- _OBJC_CLASS_$_NSManagedObject
+- _OBJC_CLASS_$_NSPersistentHistoryChange
+- _OBJC_CLASS_$_NSPersistentHistoryResult
+- _OBJC_CLASS_$_NSPersistentHistoryToken
+- _OBJC_CLASS_$_NSPersistentHistoryTransaction
+- _OBJC_CLASS_$_NSPropertyDescription
+- _OBJC_CLASS_$_STBlueprintUsageLimitScheduleCustomDayItem
+- _OBJC_CLASS_$_STCloudActivation
+- _OBJC_CLASS_$_STDowntimeConfiguration
+- _OBJC_CLASS_$_STUniquedManagedObject
+- _OBJC_CLASS_$_STiCloudOrganizationSettings
+- _OBJC_CLASS_$_USApplicationUsageReport
+- _OBJC_CLASS_$_USCategoryUsageReport
+- _OBJC_CLASS_$_USWebUsageReport
+- _STAlwaysAllowActivationIdentifier
+- _STAlwaysAllowConfigurationIdentifier
+- _STBlueprintConfigurationTypeAccountSettings
+- _STBlueprintConfigurationTypeAppPolicy
+- _STBlueprintConfigurationTypeApplicationSettings
+- _STBlueprintConfigurationTypeApplicationStore
+- _STBlueprintConfigurationTypeAutomaticDateTime
+- _STBlueprintConfigurationTypeCategoryPolicy
+- _STBlueprintConfigurationTypeCloudLogout
+- _STBlueprintConfigurationTypeLegacyAppRestrictions
+- _STBlueprintConfigurationTypeMediaSettings
+- _STBlueprintConfigurationTypeNetworkCellularSettings
+- _STBlueprintConfigurationTypePasscodeSettings
+- _STBlueprintConfigurationTypeSystemAirDrop
+- _STBlueprintConfigurationTypeSystemCamera
+- _STBlueprintConfigurationTypeSystemCarPlay
+- _STBlueprintConfigurationTypeSystemDoNotDisturb
+- _STBlueprintConfigurationTypeSystemGameCenter
+- _STBlueprintConfigurationTypeSystemMusic
+- _STBlueprintConfigurationTypeSystemSiri
+- _STBlueprintConfigurationTypeSystemTVProvider
+- _STBlueprintConfigurationTypeWebsitePolicy
+- _STCompareHourMinuteTimeComponents
+- _STForceDateTimeConfigurationIdentifier
+- _STICloudLogoutConfigurationIdentifier
+- _STManagedUserActivationIdentifier
+- _STPublicMachServiceName
+- _STSerializableClassKey
+- _STUniqueIdentifierAttributeName
+- __objc_autoreleasePoolPop
+- __objc_autoreleasePoolPush
+- _dispatch_main
+- _objc_release_x2
+- _objc_retain_x12
+- _rootless_check_datavault_flag
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_dynamicCastObjCClassUnconditional
+- _swift_dynamicCastObjCProtocolConditional
+- _swift_dynamicCastObjCProtocolUnconditional
+- _swift_dynamicCastTypeToObjCProtocolConditional
+- _swift_retain_n
+- _swift_stdlib_random
+- _swift_unknownObjectRelease_n
+CStrings:
++ "%@.plist"
++ "Exporting database to %{public}@"
++ "Failed to write plist for user %{private}@: %{public}@"
++ "Successfully wrote plist for user %{private}@"
++ "_writePlistForUser:url:error:"
++ "diagnostics"
++ "exportDatabaseToURL:error:"
++ "exportDatabaseToURL:replyHandler:"
++ "initWithFormat:"
++ "v32@0:8@\"NSURL\"16@?<v@?@\"NSError\">24"
++ "v32@?0@\"NSString\"8@16^B24"
++ "writeToURL:error:"
+- "$__lazy_storage_$_publicListener"
+- "%K != %@ AND %K == NO"
+- "%s %ld Configuration was found in the list of existing configurations for the blueprint"
+- "%s %ld Configuration was not found in the list of existing configurations; creating new and inserting into list"
+- "%s %ld Current users does not have any associated family settings."
+- "%s %ld Failed finding user with email: %s"
+- "%s %ld No configurations found for the blueprint; creating new configuration"
+- "%s %ld Processing incoming blueprints %s"
+- "%s %ld Processing incoming configurations %s"
+- "%s %ld Processing incoming settings from family %s"
+- "%s %ld Processing updated blueprint dictionary %s for family organization"
+- "%s %ld Processing updated settings dictionary %s for family organization."
+- "%s %ld Unable to find the blueprint; creating a new blueprint"
+- "%s %ld: Failed fetching destinationURI"
+- "%s %ld: StartDate is missing from the payload dictionary"
+- "%s %ld: account cannot be nil"
+- "%s %ld: context cannot be nil"
+- "%s %ld: data cannot be nil"
+- "%s %ld: fromID cannot be nil"
+- "%s %ld: service cannot be nil"
+- "%s - stream: '%s' unable to get event-name"
+- "%s - stream: '%s'; event-name: '%s'"
+- "%s : Unregistering from store change notifications"
+- "%s Starting to load core data stores"
+- "%s called"
+- "%s does not exist. Setup will be run"
+- "%{public}ld apps need to be removed"
+- "%{public}s %{public}ld: Failed fetching signed in member from familyCircle"
+- "%{public}s %{public}ld: Failed fetching signed in member's DSID from familyCircle"
+- "%{public}s has opted out of preflight"
+- "%{public}s has opted out of preflight."
+- "(%K == %@) AND (%K == %@)"
+- "(%K == %@) AND (%K == %@) AND (%K == NO)"
+- "(%K == %@) AND (%K == NO)"
+- "(%K == %@) AND (%K CONTAINS %@)"
+- "(%K == NULL) AND (%K == %@)"
+- "@\"<STSerializableManagedObject>\"16@0:8"
+- "@40@0:8@\"NSDictionary\"16@\"NSManagedObjectContext\"24^@32"
+- "A coreDuetIdentifier was not provided, so we will not update the user device state property for CoreDuetIdentifier."
+- "A downtime donation is needed."
+- "Adding or updating adult in datastore: %@"
+- "Adding or updating child or teen in datastore: %@"
+- "Adding usage object to device that is missing one: %@, identifier: %@"
+- "Analytics Handler"
+- "App Collection Handler"
+- "AppRecord isProfileValidated is true. saving url: %{public}s"
+- "Apply Introduction Model.. NOT IMPLEMENTED"
+- "Apply default user policies"
+- "Applying communication safety settings."
+- "Applying default web content restrictions"
+- "Applying screen distance settings."
+- "Applying the always allowed list."
+- "Applying the content and privacy restrictions."
+- "Approved exception for usage limit %{public}@ %{public}s"
+- "Approving %{public}@ seconds for %{public}s"
+- "Approving exception but no time granted"
+- "Approving exception for usage limit, requested: %{public}@"
+- "Ask for time request for %{public}s, %{public}s, deliverQuietly set to %{bool,public}d"
+- "AskTo is enabled, writing Biome event for response."
+- "Asynchronous First Time Setup Tasks"
+- "Asynchronous Migration Tasks"
+- "Attempting to create weekly notification report."
+- "Authenticate Restrictions Passcode"
+- "Authentication of restrictions passcode failed: Incorrect passcode."
+- "B16@?0@\"LSApplicationRecord\"8"
+- "B40@0:8q16@24^@32"
+- "Background System Task detected in this block. Mark this task as complete."
+- "Begin handling answer for request %{public}s, answer:%{public}s, time approved:%{public}@"
+- "Begin handling askTo answer for request %{public}s, answer:%{public}ld"
+- "Beginning Analytics handler"
+- "Beginning App Collection handler"
+- "Beginning Cleanup handler"
+- "Beginning Update of a user device state."
+- "Beginning export to cloud, since local token:%@, current local token: %@"
+- "Beginning family member sync"
+- "Beginning first time device setup"
+- "Beginning import from cloud store"
+- "Beginning migration of device configuration"
+- "Blueprint Identifier:%{public}s shouldn't exist in %{public}@. Deleting blueprint: %@"
+- "Blueprint dictionary 'users' array contains more than one user. %s"
+- "Blueprint dictionary 'users' array is empty. %s, skip and continue processing next blueprint..."
+- "Blueprint dictionary from family does not contain a 'configurations' key. %s"
+- "Blueprint dictionary from family does not contain a 'organization' key. We will assume the Family organization for: %s"
+- "Blueprint dictionary from family does not contain a 'type' key. %s"
+- "Blueprint dictionary from family does not contain a 'users' key. %s"
+- "Blueprint dictionary from family does not contain an identifier key. %s"
+- "Blueprint dictionary from family does not contain any configurations. No changes will be made to the local configurations. %s"
+- "Blueprint dictionary from family is for an unsupported organization = %{public}s. %s"
+- "Blueprint does not exist for objectID: %{public}@"
+- "Blueprint identifier %s shouldn't exist in family org. %s, skip and continue processing next blueprint..."
+- "Blueprint referenced by %s has already been deleted. No need to delete."
+- "Building checkin request."
+- "CNKeyDescriptor"
+- "Cannot turn on app & website activity for parent: %@"
+- "Changes found since local token:%@: %s"
+- "Checking if a downtime donation is needed."
+- "Checking if content privacy is enabled for %@"
+- "Checking if restrictions passcode is set"
+- "Checking if user is managed"
+- "Class type in deletion of dictionary representation %s is not expected. Ignore the deletion."
+- "Class type in dictionary representation %s is not expected. Do not delete."
+- "Class type in dictionary respresentation %s is not expected. Do not import."
+- "Cleanup Handler"
+- "Clearing Restrictions Passcode"
+- "Cloud Activation for %@ is older than local object. Deleting the cloud activation."
+- "Cloud activation does not have a serializableClassKey in its dictionary. It will be removed from the cloud."
+- "Cloud activation for change: %@ does not have a dictionaryRepresentation."
+- "Cloud activation for change: %@ no longer exists. Skipping update."
+- "Cloud activation for:\n %s \n references a user that does not exist. Deleting it."
+- "Cloud activation for:\n %s \n should not be in CloudKit. Deleting it."
+- "Cloud activation referenced by %s has already been deleted. No need to delete."
+- "Cloud change %@ does not contain uniqueIdentifier in the tombstone. The delete change in the cloud will be ignored."
+- "Cloud object of identifier: %s is not expected. Do not import."
+- "Cloud settings does not have an organization."
+- "CloudSync: %s"
+- "Communication Service - Authenticate Restrictions Passcode"
+- "Communication Service - current communication configuration"
+- "Completed family member sync."
+- "Completed handling answer for request %{public}s"
+- "Completed personal hourly usage update"
+- "Completed purging of old transaction history"
+- "Completed routine database maintainance"
+- "Configuration dictionary from family does not contain a 'identifier' key. %s"
+- "Configuration type is required to build managed user configuration identifier: Type = %{public}s Org = %{public}@"
+- "Configuration type is required to build managed user configuration identifier: Type = %{public}s, Org = %{public}@"
+- "Configuration type is required to build restrictions configuration identifier: Type = %{public}s, Org = %{public}@"
+- "Configuring usage limit: %{public}s."
+- "Connection to public service interrupted"
+- "Connection to public service invalidated"
+- "CoreDevice is missing a UserDeviceState. %@"
+- "CoreDevice is missing a name.%@"
+- "CoreDevice is missing an identifier. %@"
+- "Could not create NSXPCStoreServer. An error will be thrown."
+- "Created family organization: %s."
+- "Created question for request with ID %{public}s: %@"
+- "Creating CoreDevice for identifier: %{public}s"
+- "Creating UserDeviceState for coreDuetIdentifier: %{public}s and local user"
+- "Creating UserDeviceState for coreDuetIdentifier: %{public}s and user: %@"
+- "Creating approval Biome event for %{public}s %{public}d %{public}@"
+- "Creating datavault at: %s"
+- "Creating event for %{public}@"
+- "Creating family organization"
+- "Creating new activation object: %@ for %@."
+- "Current version is %lu"
+- "DMD set declarations failed with: %{public}@. Will retry."
+- "DMF Remove All Declarations Failed: %{public}@"
+- "DMF Remove All Declarations Request Successful"
+- "DMF Set Declarations Failed: %{public}@"
+- "DMF Set Declarations Request Successful"
+- "DMSourceClient toSendStatusUpdate Not implemented"
+- "Daemon.start"
+- "Decoded nil SettingsDefaults"
+- "Decoded nil defaults"
+- "Decoded nil settings"
+- "Decoded nil user"
+- "Delete change: %@ impacts family"
+- "Delete local Installed App referenced by %s, count %ld"
+- "Deleted all usage for remote users"
+- "Deleting Expired Blueprint %@"
+- "Deleting Orphaned Device %@"
+- "Deleting Unexpected UserDeviceState %@"
+- "Deleting a device that has not received usage in 30 days: %s"
+- "Deleting all usage for remote users"
+- "Deleting all web application history for: %s, bundleURLWrapper: %@"
+- "Deleting blueprint %@"
+- "Deleting cloud activation %@"
+- "Deleting core user %@"
+- "Deleting device %@"
+- "Deleting duplicate blueprint: %{public}s from: %{public}@."
+- "Deleting duplicate cloud org."
+- "Deleting duplicate configuration: %{public}s from: %{public}s."
+- "Deleting duplicate configuration: %{public}s in %{public}s."
+- "Deleting duplicate core device: %{public}@."
+- "Deleting duplicate coreDevice: %@"
+- "Deleting family organization"
+- "Deleting family settings %@"
+- "Deleting familysettings %@"
+- "Deleting installed app object %@"
+- "Deleting installedApp %@"
+- "Deleting local org %@"
+- "Deleting local settings %@"
+- "Deleting st settings. Removing extra"
+- "Deleting web all history with bundle identifier: %s, bundleURLWrapper: %@"
+- "Deleting web history during interval: %s, webApplication: %s, bundleURLWrapper: %@"
+- "Deleting web history for url: %s, webApplication: %s, bundleURLWrapper: %@"
+- "Detected deleted cloud object in history: %@"
+- "Detected deleted local object in history: %@"
+- "Detected new cloud object in history: %@"
+- "Detected new local object in history: %@"
+- "Detected updated cloud object in history: %@"
+- "Detected updated local object in history: %@"
+- "Device %@, %@ doesn't have any UserDeviceStates. Deleting device..."
+- "Device name changed notification"
+- "Device that is missing usage object also has no assigned user. Unable to add usage object to device. Deleting UserDeviceState."
+- "Disabling default web content restrictions"
+- "Done handling IDS account changed notification"
+- "Done handling family change notification"
+- "Done handling usage deletion distributed notification"
+- "Done processing any Family circle changes"
+- "Done updating child's hourly usage"
+- "Downtime Biome Donation"
+- "DowntimeBiomeDonation"
+- "Empty string is not a valid restrictions passcode"
+- "Enabling RemoteManagement for DSID: %@"
+- "Ending Analytics handler"
+- "Ending App Collection handler"
+- "Ending Cleanup handler"
+- "Ending Notifyd Stream handler for %s"
+- "Ending export to cloud"
+- "Ending first time device setup"
+- "Ending import from cloud store"
+- "Ending migration due to UserDefaults.forceMigrationCrash"
+- "Ending migration of device configuration"
+- "Ending setup due to UserDefaults.forceMigrationCrash"
+- "Error in %s: %{public}@"
+- "Error reading file %s: %@. Current version assumed to be zero. Setup will be attempted"
+- "Error writing %s: %@. Current version will not be updated"
+- "Failed applying user default policies with error: %@"
+- "Failed encoding to UTF8 format."
+- "Failed fetching current xpc connection"
+- "Failed fetching underlying error for Attachment Send Failed error. Message: %s. error:%@. (service: %s)"
+- "Failed fetching underlying error for InactiveDevice. Message: %s. error:%@. (service: %s)"
+- "Failed fetching underlying error for Invalid caller ID. Message: %s. error:%@. (service: %s)"
+- "Failed fetching underlying error for messageSendFailed. Message: %s. error:%@. (service: %s)"
+- "Failed obtaining weekly report."
+- "Failed sending v2 message: %{public}@, primitiveIdentifier: %@."
+- "Failed to complete Asynchronous First Time Setup Tasks: %@"
+- "Failed to convert data vault: errno: "
+- "Failed to create data vault directory: "
+- "Failed to fetch legacy usage: %{public}s"
+- "Failed to fetch usage for unknown device %{public}s."
+- "Failed to load persistent store: %{public}@. Error: %{public}@"
+- "Failed to perform and schedule the next downtime donation: %@"
+- "Failed to perform and schedule the next weekly notification: %{public}@"
+- "Failed to save changes: %@"
+- "Failed to schedule next donation. Could not calculate next interval from given configurations: %s"
+- "Failed to sync legacy usage: %{public}s"
+- "Failed to update usage report for unknown device %s."
+- "Failed unarchiving incoming v1 data to type STUnifiedTransportPayload"
+- "Family Update Handler"
+- "Family member %@ is a guardian. Blueprints for this member will not be included in blueprint update."
+- "Family member %@ is a guardian. Settings for this member will not be included in settings update."
+- "Family member is not remotely managed. We cannot ask for usage: %{public}s"
+- "Family member: %@ does not have a DSID."
+- "Family organization does not exist. Creating a new one."
+- "Family settings does not have an organization."
+- "Family settings indicated the user: %{public}@ is managed."
+- "FamilyMessagingIncomingData"
+- "FamilyMessagingOutgoingData"
+- "Fetch Contacts Editable"
+- "Fetch communication policies"
+- "Fetch contact management state for %@"
+- "Fetching downtime status"
+- "Fetching legacy usage data"
+- "Fetching screentime configuration for local user"
+- "Finished updating FamilyMember's account info. Did they change?: %{bool}d"
+- "Finished updating iCloud account info. Did they change?: %{bool}d"
+- "First pass import from cloud store"
+- "First time configuration app and website activity for the local device"
+- "First time configuration of local device"
+- "First time update of installed apps"
+- "Forcing a fetch of Family circle"
+- "Found %s on second pass. Skipping."
+- "Found %{public}ld currently installed apps"
+- "Found STInstalledApp on first pass. Skipping."
+- "Found a change to a syncable sub-object for export: %@"
+- "Found existing activation object: %@ for %@."
+- "Found family member: %@"
+- "Found the existing cloud organization."
+- "Found the existing family organization."
+- "Found the parent object. Will export: %@"
+- "Getting screentime Sync status"
+- "Getting screentime status for dsid %@"
+- "Getting screentime status for local user"
+- "Handling IDS account changed notification on service: %s"
+- "Handling device name changed notification"
+- "Handling family change notification"
+- "Handling usage deletion distributed notification"
+- "Hit NSPersistentHistoryTokenExpiredError while attempting to retrieve changes from the localStore. Will process from start."
+- "Hit NSPersistentHistoryTokenExpiredError while attempting to retrieve transactions from the cloudStore. Will process from start."
+- "Hit NSPersistentHistoryTokenExpiredError while to retrieve transactions from the local store. Will process from start."
+- "IDSServiceDelegate.incomingResourceAt"
+- "Ignoring attempt to clear restrictions passcode, user is managed"
+- "Ignoring user device state from family member because local user is not a parent."
+- "Ignoring user device state from family member because sender %@ is not currently managed."
+- "Ignoring user device state from family member because sender is not currently managed."
+- "Ignoring user device state from family memeber because local user is not a parent."
+- "Implicit unwrap to STBlueprint failed for NSManagedObject %s with entity name %s."
+- "Implicit unwrap to STCloudOrganizationSettings failed for NSManagedObject %s with entity name %s."
+- "Implicit unwrap to STInstalledApp failed for NSManagedObject %s with entity name %s."
+- "Implicit unwrap to STUserDeviceState failed for NSManagedObject %s with entity name %s."
+- "Incoming v1 %s fetchedUsageResults doesn't conform to STFetchedUsageResults: %@"
+- "Incoming v1 %s payload is missing DeviceIdentifier in payload dictionary: %@"
+- "Incoming v1 %s payload is missing FromID in payload dictionary: %@"
+- "Incoming v1 %s payload is missing payload dictionary: %@"
+- "Incoming: %s"
+- "Installed App referenced by %s has already been deleted. No need to delete"
+- "Installed App referenced by %s is a local device app. Skipping delete."
+- "Invalid number of installed apps detected for identifier: %{public}s, count: %{public}ld. Will replace them with a single new one"
+- "Invalid number of usagelimit override blueprints found with UUID: %s for user: %@"
+- "Is Allow Find My Friends modification set for %@?"
+- "Is Explicit Content Restricted?"
+- "Leaving local user device state out of checkin request because local user is a parent, or not managed child or adult."
+- "Local change %@ does not contain uniqueIdentifier in the tombstone. No cloud activation associated with this local object."
+- "Local device configuration version '%lu' is equal to build version '%lu'."
+- "Local device configuration version '%lu' is older than build version '%lu'. Migration will be run."
+- "Local device configuration version is '%lu' is newer than the build version '%lu'. Results are undefined."
+- "Local device configuration version is 0. Setup will be run."
+- "Local object for change: %@ no longer exists. Skipping update."
+- "Local user does not have cloud settings. They should have been created before this."
+- "Local user has become an %s. Sending checkin request."
+- "Local user is either a parent or is not managed. Not including user device state in check-in response on V2."
+- "Local user is either a parent or is not managed. Not including user device state in check-in response."
+- "Local user is either a parent or is not managed. Not including user device state sending changes on v2."
+- "Local user is managed. Including user device state in checkin request."
+- "Local user is no longer in a family."
+- "Local user is not a parent and is managed. Including user device state in check-in response."
+- "Local user's family member type has changed"
+- "LocalDeviceToken"
+- "Making AskTo question with request Identifier %{public}s"
+- "Managed user (dsid: %@) does not have a downtime configuration. Skipping."
+- "Marking family settings as dirty to notify the family."
+- "Message %s failed to send (no error). (service: %s)"
+- "Message %s failed to send with error: %@. (service: %s)"
+- "Message %s failed to send with error: %@. IDS Message send failed. (service: %s)"
+- "Message %s failed to send with error: %@. Screen Time will attempt to retry this message automatically tonight. (service: %s)"
+- "Message %s failed to send with error: %@. ScreenTime is rate limited. (service: %s)"
+- "Message %s failed to send with error: %@. Swallowing APSErrorNetworkUnreachable. (service: %s)"
+- "Message %s failed to send with error: %@. Swallowing FTResponseNoNetworkAvailable. (service: %s)"
+- "Message %s failed to send with error: %@. Swallowing NSURLErrorTimedOut. (service: %s)"
+- "Message %s failed to send with error: %@. Swallowing attachmentSendFailed. (service: %s)"
+- "Message %s failed to send with error: %@. Swallowing deviceNotActive error: (service: %s)"
+- "Message %s failed to send with error: %@. Swallowing invalidCallerID. (service: %s)"
+- "Message %s was sent! (service: %s"
+- "Message failed to send because IDS service doesn't currently support sending IDS messages to phone numbers. (service: v1)"
+- "Message failed to send because the IDS account is currently disabled. (Error: %@). Screen Time will attempt to retry this message automatically tonight. (service: v1)"
+- "Missing dowwntime blueprint"
+- "Missing family settings for local user.. user is the parent, returning false"
+- "Missing family settings for user %@.. user is the parent, returning false"
+- "Missing local user device state when fetching last family checkin date"
+- "Missing local user device state when setting last family checkin date"
+- "Missing restrictions blueprint/declaration"
+- "Monitoring %{public}s with events: %{public}s"
+- "Monitoring %{public}s with startDate: %{public}s endDate: %{public}s"
+- "Multiple cloud activations exist for: %s."
+- "NSPersistentHistoryChanges empty"
+- "NSPersistentHistoryTransaction empty"
+- "Needs to set restrictions passcode"
+- "No Downtime blueprint exists for the local user. This might be intentional. The UIs have to create the blueprint."
+- "No always allow blueprint exists for the local user. This might be intentional. The UIs have to create the blueprint. Applying default always allow list."
+- "No always allowed blueprint during de-dupe of configurations."
+- "No apple account exists for user"
+- "No changes to save"
+- "No childCardDAVAccountIdentifer for user"
+- "No content and privacy blueprint exists for the local user. This might be intentional. The UIs have to create the blueprint."
+- "No downtime blueprint during de-dupe of configurations."
+- "No enabled usage limits. Stopping usage limit monitoring."
+- "No iCloud account signed in."
+- "No managed user blueprint during de-dupe of configurations."
+- "No managed users with downtime configurations detected. No need to donate."
+- "No request identifier"
+- "No restrictions blueprint during de-dupe of configurations."
+- "No usage block exists for %@ in %@.\n A new one will be created."
+- "Not implemented yet!"
+- "Not saving icon for %s because it's a store app"
+- "OS_os_transaction"
+- "Object for change: %@ no longer exists. Skipping update."
+- "On-Demand Downtime is in the past. Will not monitor."
+- "Override %{public}s is in the past. Will not monitor."
+- "Performing implicit first time export at the end of first import."
+- "Permit WebFilter URL: url:%s"
+- "Posting management state did change notification."
+- "Preflight complete"
+- "Primary iCloud card DAV account identifier"
+- "Processing child hourly usage"
+- "PublicService.deleteAllWebApplicationHistory"
+- "PublicService.deleteWebHistory"
+- "PublicService.deleteWebHistoryDuringInterval"
+- "PublicService.requestConfiguration"
+- "REPAIR NEEDED: Deleting duplicate coreDevices with identifier: %{public}s, count: %{public}ld"
+- "RMFamilyOrganization"
+- "RMiCloudOrganization"
+- "Re-attempting removing all existing DMD declarations"
+- "Received %s change via cloud. Dropping the change. \nDictionary Representation of cloudChange: %s"
+- "Received checkin response did not have a 'UserDeviceState' key"
+- "Received checkin response with a 'UserDeviceState' key"
+- "Received checkin response with no 'blueprints' key"
+- "Received checkin response with no 'settings'' key"
+- "Received large message from family"
+- "Received message from family"
+- "Rejecting admin store connection from “%{public}@”. ScreenTime Configuration is not properly preflighted"
+- "Removing all DMD declarations failed with: %{public}@. Will retry."
+- "Removing all existing DMD declarations"
+- "Removing family members: %s"
+- "Removing installed app with bundleID: %{public}s, name: %{public}s"
+- "Repairing always allowed blueprint."
+- "Repairing downtime blueprint."
+- "Repairing managed user blueprint."
+- "Repairing restrictions blueprint."
+- "Repairing usage limit blueprint."
+- "Repairing usage override blueprint."
+- "Request has already been answered. Ignoring: %{public}s"
+- "Request has already been removed. Ignoring: %{public}s"
+- "Request time granted %{public}s"
+- "Request to manage contacts for %@"
+- "Requesting legacy usage sync"
+- "Resetting local legacy usage"
+- "Resuming local device behaviors"
+- "Retrieving all family blueprints and settings for check-in response."
+- "Retrieving askForTime request for %{public}s"
+- "Retrieving family blueprints and settings for %@."
+- "Retrieving local user details."
+- "Retrieving user information for updating user device state."
+- "SBIconVisibilityDefaultVisible"
+- "STBlueprintConfiguration"
+- "STFamilyOrganization"
+- "STFamilyOrganizationSettings"
+- "STInstalledApp %@ does not have a matching uds. Deleting this orphaned app."
+- "STPublicServiceProtocol"
+- "STSyncableSubObject"
+- "STUniquelySerializableManagedObject"
+- "STUserDeviceState"
+- "STiCLoudOrganizationSettings"
+- "Saved askForTime request from child %{public}s %{public}s"
+- "Saved askForTime response from %{public}s for request %{public}s"
+- "Saved changes"
+- "Scheduled the next donation to occur after %f seconds"
+- "Screen Time is already %@, nothing to do"
+- "ScreenTime IDS underlying error domain: %s, code: %ld, underlyingError: %@"
+- "ScreenTimeAgent as simplifiedAgent is shutting down"
+- "ScreenTimeAgent starting as simplifiedAgent"
+- "ScreenTimeAgent/Daemon.swift"
+- "ScreenTimeAgent/Migration.swift"
+- "ScreenTimeAgent/PublicService.swift"
+- "Screentime Sync is %s"
+- "Second pass import from cloud store"
+- "Sending IDS v2 message to destinations: %s."
+- "Sending askForTimeResponse to child %{public}s"
+- "Sending askForTimeResponseV2 to parent %{public}s"
+- "Sending childState to biome: %@"
+- "Sending data on service: %s of size: %ld"
+- "Sending event for %{public}s %{public}@"
+- "Sending oversized data on service: %s of size: %ld"
+- "Sending response via family messaging %{public}s"
+- "Sending v2 message of size: %ld bytes. message: %s"
+- "Sent ask for more request %{public}s"
+- "Sent event for %{public}@"
+- "Sent event for %{public}s %{public}@"
+- "Sent message with identifier: %{public}s"
+- "Server listener is nil. An error will be thrown."
+- "Set manage contacts enabled to %{bool}d for dsid %@"
+- "Setting an initial date on a usage object that is missing one: %s"
+- "Setting restrictions passcode"
+- "Setting screentime enabled to %{bool}d for dsid %@"
+- "Setting screentime enabled to %{bool}d for local user"
+- "Setting screentime sync enabled to %{bool}d for local user"
+- "Settings dictionary from family does not contain a 'organization' key. %s"
+- "Settings dictionary from family does not contain a 'user' key. %s"
+- "Settings dictionary from family does not contain serializable class name. %s"
+- "Settings dictionary from family has unsupported serializable class: %{public}s. %s"
+- "Settings dictionary from family is for an unsupported organization = %{public}s. %s"
+- "Setup Service - prompt for passcode from user"
+- "Should allow one more minute for app bundle identifier %s"
+- "Should allow one more minute for category identifier %s"
+- "Should allow one more minute for web domain %s"
+- "Skipping %{public}@ appRecord becuase it does not have a bundleID"
+- "Skipping app clip: %{public}s"
+- "Skipping application record without bundle identifier: %{public}s"
+- "Skipping first export as we have not yet done an import. An implicit export will be performed at the end of the first import"
+- "Skipping iMessage app or empty extension carrier: %{public}s"
+- "Skipping internal or hidden application: %{public}s"
+- "Skipping local object deletes during second pass."
+- "Skipping restricted application: %{public}s"
+- "Skipping update of UserDeviceState from CloudKit - doesn't belong to local user. Deleting it."
+- "Skipping update of local UserDeviceState from CloudKit."
+- "Skipping web clip: %{public}s"
+- "Start monitoring of downtime schedule."
+- "Start monitoring of on-demand downtime."
+- "Start monitoring of usage limits."
+- "Starting DMF Remove All Declarations Request"
+- "Starting DMF Set Declarations Request"
+- "Starting Notifyd Stream handler for %s"
+- "Starting Stream handler for %s"
+- "Starting one time preflight process"
+- "Starting preflight."
+- "Starting purging of old transaction history"
+- "Starting routine database maintainance"
+- "Starting the activity."
+- "Starting to send ask for more request"
+- "Successfully applied default user policies"
+- "Successfully completed one time preflight process"
+- "Successfully fetched legacy usage data"
+- "Successfully processed incoming ask request %{public}s deliverQuietly: %{bool,public}d"
+- "Successfully reset local legacy usage"
+- "Successfully saved ask for time override declaration for %{public}s with time %{public}@"
+- "Successfully sent v2 message with primitiveIdentifier: %@."
+- "Successfully synced legacy usage"
+- "T@\"<STSerializableManagedObject>\",R"
+- "TODO: Local user is not a parent and is managed. Including user device state in check-in response."
+- "The AskForMore request in the local database does not have a DSID for the requesting child."
+- "The askForMore request in the local database does not have a DSID for the requesting child."
+- "The coredata entity referenced by %@ does not have userInfo. Skipping export."
+- "The coredata entity referenced by %@ does not support STSerializableManagedObject. Skipping export."
+- "The coredata entity referenced by %@ does not support STUniquedManagedObject. Skipping export."
+- "The coredata entity referenced by %@ should not be mirrored. Skipping export."
+- "The coredata entity referenced by %@ should not be synced to cloud. Skipping export."
+- "The local device has a newer blueprint, a checkin response will be sent to originator."
+- "The local device has a settings object, a checkin response will be sent to originator."
+- "The local device has newer blueprints or settings, a checkin response will be sent to originator."
+- "The preflight did not complete as expected."
+- "The requesting child does not have an appleID in the local database."
+- "The serializable object %@ did not return a valid dictionary representation."
+- "The user: %{public}@ is using cloud settings."
+- "There is %{public}ld blueprints of type %{public}s for %@ in %{public}@."
+- "There is an existing task request. Cancel this one and create a new one."
+- "There is no existing family organization. A new one will be created."
+- "There is no family organization to delete."
+- "There is no family organization. No need to repair blueprints."
+- "There was not enough screen time to show the weekly notification report."
+- "There's no family org to de-dupe family blueprints"
+- "Toggling downtime status"
+- "Too many activation objects for a singleton: %s. Extras will be deleted but settings may be lost."
+- "Too many activation objects for unique identifier %s"
+- "UNUserNotificationCenterDelegate hooking up %s"
+- "UNUserNotificationCenterDelegate unhooking %s"
+- "Unable to archive weekly report. %{public}@"
+- "Unable to delete managed user blueprint for: %{public}@"
+- "Unable to load usage details view model %{public}@"
+- "Unhandled Notifyd stream: %s"
+- "Unhandled downtimeState: %{public}ld"
+- "Unknown NSPersistentChangeHistory type detected"
+- "Unknown NSPersistentChangeHistory type detected %@"
+- "Unknown NSPersistentChangeHistory type detected."
+- "Unknown answer: %{public}ld. Treating as declined."
+- "Unknown blueprint type used to create blueprint identifier: Type = %{public}s, Org = %{public}@"
+- "Unknown blueprint type used to create identifier: Type = %{public}s, Org = %{public}@"
+- "Unknown contact management state"
+- "Unknown web content filter state: %@"
+- "Unsupported configuration type for managed user configuration: Type = %{public}s, Blueprint = %{public}s, Org = %{public}@"
+- "Unsupported family member type found in circle: %@"
+- "Update Allow Find My Friends Modification to %{bool}d for dsid %@"
+- "Updated %{public}s record with adjusted time %{public}@"
+- "Updated History Token %@ for %@"
+- "Updated change: %@ %s"
+- "Updated request with response, approver %{public}s"
+- "Updating accounts via FamilyMessaging"
+- "Updating biome event %{public}s"
+- "Updating child's all device usage for %{public}s"
+- "Updating child's local device for %{public}s"
+- "Updating configuration for: %@"
+- "Updating iCloud account information for local user."
+- "Updating installed app with bundleID: %s, name: %s"
+- "Updating local device from datastore"
+- "Updating local device to account for migration changes"
+- "Updating local object of type %s"
+- "Updating local object with change %@."
+- "Updating personal hourly usage: %{public}s to %{public}s"
+- "Updating screenTime cloudSyncEnabled to: %{bool}d"
+- "Usage block(s) exist(s) for %@ in STUsage %@ {\n    device = %s\n    lastEventDate = %s\n    lastUpdatedDate = %s\n    user = %@.\n}\nWill delete blocks: [\n    %{public}s\n]"
+- "Usage limit has an unexpected identifier: %{public}s"
+- "Usage limit: %{public}s is off."
+- "Usage limit: %{public}s is on."
+- "Usage override has an unexpected identifier: %{public}s"
+- "User Notification response has no requestIdentifier"
+- "User device state referenced by %s has already been deleted. No need to delete"
+- "User device state referenced by %s was deleted from CloudKit. The local device will delete during a future maintainence routine."
+- "User has Apple Account but no iCloudCardDAVAccountIdentifier"
+- "User is not a managing member. No need to donate."
+- "UserDeviceState is missing a device."
+- "UserDeviceState is missing a user. %@"
+- "We had to make a new cloud organization."
+- "We had to make a new family organization."
+- "We were unable to create a new family settings object."
+- "WeeklyReportNotification"
+- "Writing AskTo Biome event for response with answer %{public}ldfor %{public}s"
+- "[Error] Interval already ended"
+- "[v2] %s %ld \n Incoming IDS messsage for \n account: %@ \n incomingData: %s \nfromID: %s \n context: %@"
+- "[v2] %s %ld message of unsupported content type %ld was encountered"
+- "[v2] %s %ld processIncomingV2 :: Received setup message from watch, responding with checkin message..."
+- "[v2] %s %ld processIncomingV2 :: processing received deviceState"
+- "[v2] %s %ld processIncomingV2: processing received compound"
+- "[v2] %s %ld processIncomingV2: received checkin; dropping message"
+- "[v2] %s %ld processIncomingV2: received organizationControllerConfiguration; dropping message"
+- "[v2] %s %ld: Did deliver v2 message with incomingResponseIdentifier: %s"
+- "[v2] Device State Change Content: %@ \n Device State Change: %@ \n Device ID: %@ \n Associated User: %@"
+- "_DKKnowledgeStorageDidTombstoneEventsNotification:AppUsage"
+- "_DKKnowledgeStorageDidTombstoneEventsNotification:Notifications"
+- "_DKKnowledgeStorageDidTombstoneEventsNotification:WebUsage"
+- "_TtC15ScreenTimeAgent13PublicService"
+- "__swift_setObject:forKeyedSubscript:"
+- "_processIncomingV2(messageContent:messageContentType:destination:dataStore:familyCircle:)"
+- "_send(payload:toDestination:familyCircle:queueIdentifier:)"
+- "_sendAcknowledgementMessage(for:toIDSDestination:familyCircle:)"
+- "_sendCheckinResponseOnV2(using:to:familyCircle:)"
+- "_sendV2(message:destinations:familyCircle:)"
+- "_sendV2(messageData:options:destinations:familyCircle:)"
+- "_updateScreenTimeSettingsForTransition:inContext:error:"
+- "aa_firstName"
+- "aa_lastName"
+- "allowedClients"
+- "ams_app_metadata_api"
+- "anonymousListener"
+- "any(identifier: "
+- "approveException called for time: %{public}@, oneMoreMinute %{bool,public}d for %{public}s"
+- "authorizeFamilyControls(for:)"
+- "blueprintConfigurationTypeForDeclarationType:"
+- "blueprintTypeForDeclarationType:"
+- "budgetLimit"
+- "budgetLimitScheduleRepresentation"
+- "cancelTaskRequestWithIdentifier:error:"
+- "categorizedResourceBundleIdentifiers - categorized %{public}s to %{public}s, %{public}s, %{public}s,  %{public}s"
+- "categorizedResourceBundleIdentifiers - unexpected usage type %{public}ld"
+- "categoryForDomainURL:completionHandler:"
+- "com.apple.ScreenTimeAgent.legacy-usage-fetch"
+- "com.apple.ScreenTimeAgent.legacy-usage-sync"
+- "com.apple.screentime.activity.downtime-biome-donation"
+- "com.apple.screentime.activity.weekly-report"
+- "computeUniqueIdentifier"
+- "containersMatchingPredicate:error:"
+- "currentPersistentHistoryTokenFromStores:"
+- "customScheduleItems"
+- "day"
+- "deauthorizeFamilyControls()"
+- "defaultAlwaysAllowBundleIDs"
+- "destinationWithURI:"
+- "device identifier cannot be nil"
+- "disableManagedUserBlueprintForUser:error:"
+- "distnoted Stream Handler"
+- "does not impact family."
+- "done starting core data server"
+- "emptyReportForInterval:"
+- "endTime"
+- "endpoint"
+- "entityName"
+- "existingObjectWithID:error:"
+- "failed to send payload uuid: %{public}s; payload: %s"
+- "familySetupComplete"
+- "feature_decoupling"
+- "fetchRequestForLocalDevices"
+- "fetchRequestMatchingBlueprintsConfigurationForBlueprint:ofType:includeTombstones:"
+- "fetchRequestMatchingBlueprintsForUser:ofType:fromOrganization:includeTombstones:"
+- "fetchRequestMatchingBlueprintsForUser:ofType:withIdentifier:fromOrganization:includeTombstones:"
+- "fetchRequestMatchingUmanagedRemoteAdults"
+- "fetchUsage(using:)"
+- "finished processing changes to settings"
+- "finished updating legacy usage for user %@"
+- "finished updating local legacy usage"
+- "forceMigrationCrash"
+- "getEventName(streamName:event:)"
+- "getLocalDeviceIdentifierAndReturnError:"
+- "handleRequest incoming payload has no requestIdentifier"
+- "handleRequest posted notification for %{public}s"
+- "handleRequest user details has no child name"
+- "handleResponse from User Notification for  %{public}s with action %{public}s"
+- "handleResponse parent approved but no time granted"
+- "handleResponse parent removed notification for %{public}s"
+- "handleResponse posted approval notification for %{public}s"
+- "handleResponse posted disapproval notification for %{public}s"
+- "handleResponse user details has no parent name"
+- "iCloud account is signed in."
+- "identifier == %@"
+- "identifierNSString is : '%@'"
+- "infoDictionary"
+- "initForLocalDeviceWithPersistenceController:selectedUsageReportType:usageContext:managedObjectContext:"
+- "initWithInteger:"
+- "initWithLongLong:"
+- "initWithRequestID:kind:status:eventTime:approvalTime:requesterDSID:responderDSID:websitePath:bundleID:isActionUserDevice:"
+- "initWithUnsignedInteger:"
+- "initWithUnsignedLongLong:"
+- "isGuardianRestricted"
+- "loadPersistentStoresWithCompletionHandler:"
+- "localDevice"
+- "member-appleID-aliases"
+- "metadata"
+- "nextObject"
+- "no coreDuetIdentifier"
+- "notificationDeltaFromHistoricalAverage"
+- "objectForKey:ofClass:"
+- "payloadApps"
+- "payloadCategories"
+- "payloadHostnames"
+- "payloadMode"
+- "predicateForContainersInAccountWithExternalIdentifier:"
+- "primaryWebDomain"
+- "processIncomingV1 :: IDS inbound data not handled for : %s"
+- "processIncomingV1 :: check-in request does not contain user device state."
+- "processIncomingV1 :: persisting user device state"
+- "processIncomingV1 :: processUsageResponse for user %{public}s)"
+- "processIncomingV1 :: processing check-in-request"
+- "processIncomingV1 :: processing check-in-response"
+- "processIncomingV1 :: processing received askForTimeRequest %@"
+- "processIncomingV1 :: processing received askForTimeResponse %@"
+- "processIncomingV1 :: processing received askForTimeResponseV2"
+- "processIncomingV1 :: processing received blueprint(s)"
+- "processIncomingV1 :: processing received setting(s)"
+- "processIncomingV1 :: processing received userDeviceState"
+- "processIncomingV1 :: processing usage-request"
+- "processIncomingV1 :: processing usage-response"
+- "processIncomingV1 :: received payload of type: %s"
+- "processIncomingV1 :: sending check-in-response"
+- "processIncomingV1(data:from:)"
+- "processing changes to settings"
+- "processingOutgoingV1 :: %@"
+- "processingOutgoingV1 ask response error: %@"
+- "processingOutgoingV1 error: %@"
+- "processingOutgoingV2 ask response error: %@"
+- "registerDefaults:"
+- "remote(coreDuetIdentifier: "
+- "remotePersistentStoreDidChange:"
+- "requestUsage(for:startingAt:deviceIdentifier:)"
+- "requesting legacy usage for user %@"
+- "scheduleRepresentation"
+- "send ids v1 message %{public}s to destination: %{public}s, size: %{public}ld"
+- "sendAskForMore request payload to family %s"
+- "sendAskForMore response payload to family %s"
+- "sendAskForMoreRequest no destinations. nop."
+- "sendAskForMoreRequest nop : local user is not in managing relationship"
+- "sendAskForMoreRequest: Failed converting %s to FamilyMessagingDestination"
+- "sendAskForMoreResponse: Failed converting %s to FamilyMessagingDestination"
+- "sendAskForMoreResponse: Failed converting child's %s to FamilyMessagingDestination"
+- "sendBlueprints:\n\nTo: %s,\n\nPayload: %s)"
+- "sendBlueprints: Failed converting %s to FamilyMessagingDestination"
+- "sendBlueprints: member %@ has no dsid"
+- "sendChanges: Failed converting %s to FamilyMessagingDestination"
+- "sendCheckinRequest no destinations. noop."
+- "sendCheckinRequest: Failed converting %s to FamilyMessagingDestination"
+- "sendCheckinRequestOnV2: Failed converting %s to FamilyMessagingDestination"
+- "sendSettings:\n\nTo: %s,\n\nPayload: %s)"
+- "sendSettings: Failed converting %s to FamilyMessagingDestination"
+- "sendSettings: member %@ has no dsid"
+- "sendUpdates nop. No iCloud account"
+- "sendUsage:\n\nTo: %s,\n\nPayload: %s)"
+- "sendUsage: Failed converting %s to FamilyMessagingDestination"
+- "sendUsageRequest: Failed converting %s to FamilyMessagingDestination"
+- "sendUserDeviceState:\n\nTo: %s,\n\nPayload: %s)"
+- "sendUserDeviceState: Failed converting %s to FamilyMessagingDestination"
+- "serializableClassName"
+- "service(_:account:incomingData:fromID:context:)"
+- "service(_:activeAccountsChanged:)"
+- "setActivationPlist:"
+- "setActivationType:"
+- "setConfigurations:"
+- "setCoreDuetIdentifier:"
+- "setCurrentOrganization:"
+- "setDeclarationIdentifier:"
+- "setFamilySetupComplete:"
+- "setFilter:"
+- "setInstalledApps:"
+- "setInstalledLocally:"
+- "setIsManaged:"
+- "setLocalDevice:"
+- "setLocalUser:"
+- "setLocalUserDeviceState:"
+- "setMetadata:"
+- "setPayloadAddress:"
+- "setPayloadFilterBlackList:"
+- "setPayloadFilterWhiteList:"
+- "setPayloadPageTitle:"
+- "setPayloadSiteWhiteList:"
+- "setScheduleAfter:"
+- "simplified_agent"
+- "simplified_agent is deprecated"
+- "st-daemon-begin-migration"
+- "st-daemon-begin-resume"
+- "st-daemon-begin-setup"
+- "st-daemon-end-migration"
+- "st-daemon-end-resume"
+- "st-daemon-end-setup"
+- "st-daemon-initial-app-gathering"
+- "st-daemon-localdevice-update"
+- "st-daemon-preflight"
+- "st-daemon-start"
+- "st-daemon-undefined"
+- "st-process-settings-changes"
+- "startCloudSyncObservation()"
+- "startIdentityServices()"
+- "startXPCActivityHandlers()"
+- "startXPCEventStreamHandlers()"
+- "startXPCListeners()"
+- "starting core data server"
+- "stopCloudSyncingObservation()"
+- "streamWithIdentifier:error:"
+- "syncableRootObject"
+- "uniqueIdentifier %s does not have a properly formatted class name."
+- "unknown setup configuration for user"
+- "update(withBlueprints:in:)"
+- "update(withSettings:)"
+- "updateBlueprint(for:with:)"
+- "updateConfiguration(for:with:in:)"
+- "updateSettings(for:with:)"
+- "updatedProperties"
+- "updating local legacy usage"
+- "user %@ is a parent, not sending changes on V2."
+- "user %@ is a parent, not sending family settings/blueprints on V2."
+- "user with dsid: %@ has no user device state"
+- "user.familySettings.isManaged"
+- "userDeviceState"
+- "userNotificationCenter Not handling notification %s"
+- "userNotificationCenter received response %s"
+- "v1 message destination is the sender, but the sender has only 1 device. Will not send."
+- "v16@?0@\"<OS_xpc_object>\"8"
+- "v2 message destination is the sender, but the sender has only 1 device. Will not send."
+- "v2 sendCheckinRequest no destinations. nop."
+- "xpcAlarm Stream Handler"
+
+```

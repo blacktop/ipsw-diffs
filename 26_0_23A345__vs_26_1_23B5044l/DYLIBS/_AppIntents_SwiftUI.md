@@ -1,0 +1,121 @@
+## _AppIntents_SwiftUI
+
+> `/System/Library/Frameworks/_AppIntents_SwiftUI.framework/_AppIntents_SwiftUI`
+
+```diff
+
+-300.0.4.102.0
+-  __TEXT.__text: 0x2df54
+-  __TEXT.__auth_stubs: 0x1df0
++300.1.7.0.0
++  __TEXT.__text: 0x2ea90
++  __TEXT.__auth_stubs: 0x1ec0
+   __TEXT.__objc_methlist: 0x1ac
+   __TEXT.__const: 0x1644
+-  __TEXT.__swift5_typeref: 0x1866
+-  __TEXT.__constg_swiftt: 0x1098
++  __TEXT.__swift5_typeref: 0x19e6
++  __TEXT.__constg_swiftt: 0x111c
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_reflstr: 0x28d
+   __TEXT.__swift5_fieldmd: 0x4a8
+
+   __TEXT.__swift_as_entry: 0xe4
+   __TEXT.__swift_as_ret: 0x74
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__cstring: 0x583
++  __TEXT.__cstring: 0x6e8
+   __TEXT.__oslogstring: 0x126
+-  __TEXT.__swift5_capture: 0x7c4
+-  __TEXT.__unwind_info: 0xe60
+-  __TEXT.__eh_frame: 0x18a0
++  __TEXT.__swift5_capture: 0x7c8
++  __TEXT.__unwind_info: 0xe80
++  __TEXT.__eh_frame: 0x193c
+   __TEXT.__objc_classname: 0x19
+   __TEXT.__objc_methname: 0x65d
+   __TEXT.__objc_methtype: 0x1f1
+-  __DATA_CONST.__got: 0x808
++  __DATA_CONST.__got: 0x818
+   __DATA_CONST.__const: 0x160
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x260
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __AUTH_CONST.__auth_got: 0xef8
++  __AUTH_CONST.__auth_got: 0xf60
+   __AUTH_CONST.__const: 0x1560
+   __AUTH_CONST.__objc_const: 0x3a8
+   __AUTH.__objc_data: 0x50
+   __AUTH.__data: 0x170
+-  __DATA.__data: 0x958
+-  __DATA.__bss: 0x1170
++  __DATA.__data: 0x970
++  __DATA.__bss: 0x1198
+   __DATA.__common: 0x58
+   __DATA_DIRTY.__data: 0x6e0
+   __DATA_DIRTY.__bss: 0x480
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C322DCC0-E93C-39B7-A9AF-910145F24DF6
+-  Functions: 1283
+-  Symbols:   1265
+-  CStrings:  142
++  UUID: 9B53016B-D072-37C9-B1E0-9ECF2F9E1A68
++  Functions: 1294
++  Symbols:   1306
++  CStrings:  157
+ 
+Symbols:
++ __MergedGlobals
++ ___isPlatformVersionAtLeast
++ ___isPlatformVersionAtLeast.cold.1
++ ___isPlatformVersionAtLeast.cold.2
++ ___stack_chk_fail
++ ___stack_chk_guard
++ __availability_version_check
++ __initializeAvailabilityCheck
++ _compatibilityInitializeAvailabilityCheck
++ _dispatch_once_f
++ _dlsym
++ _fclose
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOQr.17
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.18
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewPAAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOyAA08ModifiedD0VyAA6HStackVyAA05TupleE0VyANyAeAE10labelStyleyQrqd__AA05LabelP0Rd__lFQOyAA0Q0VyAeAE8redacted6reasonQrAA16RedactionReasonsV_tFQOyAA4TextV_Qo_AA5ImageVG_012_AppIntents_aB007WrappedqP0VQo_AA16_FixedSizeLayoutVG_AA6SpacerVANyAA6ButtonVyAeAE10fontWeightyQrAA4FontV6WeightVSgFQOyANyANyA3_AA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGA23_yA18_SgGG_Qo_GAA14_PaddingLayoutVGSgtGGAA19_BackgroundModifierVyANyAA06_ShapeE0VyAA16RoundedRectangleVA25_GAA16_FlexFrameLayoutVGGG_Qo_AA05EmptyE0VGAaDHPqd__AaDHD2_A52_HO_A54_AaDHPyHCHC.11
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy012_AppIntents_aB007SiriTipC5StyleVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.12
++ _initializeAvailabilityCheck
++ _rewind
++ _sscanf
++ _symbolic _____yAAy_____y_____yAAy_____y_____y_____y______Qo______G______Qo______G______AAy_____y_____yAAyAAyAG_____y_____SgGGAOy_____SgGG_Qo_G_____GSgtGG_____yAAy_____y_____APG_____GGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA0G0PAAE10labelStyleyQrqd__AA05LabelI0Rd__lFQO AA0J0V AiAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA4TextV AA5ImageV 012_AppIntents_aB007WrappedjI0V AA16_FixedSizeLayoutV AA6SpacerV AA6ButtonV AiAE10fontWeightyQrAA4FontV0Z0VSgFQO AA30_EnvironmentKeyWritingModifierV AA5ColorV A5_ AA08_PaddingV0V AA19_BackgroundModifierV AA06_ShapeG0V AA16RoundedRectangleV AA010_FlexFrameV0V AA14_TaskModifier2V
++ _symbolic _____y_____y_____y_____yAAy_____y_____y_____y______Qo______G______Qo______G______AAy_____y_____yAAyAAyAG_____y_____SgGGAOy_____SgGG_Qo_G_____GSgtGG_____yAAy_____y_____APG_____GGG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQO AA15ModifiedContentV AA6HStackV AA05TupleC0V AcAE10labelStyleyQrqd__AA05LabelO0Rd__lFQO AA0P0V AcAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA4TextV AA5ImageV 012_AppIntents_aB007WrappedpO0V AA16_FixedSizeLayoutV AA6SpacerV AA6ButtonV AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AA30_EnvironmentKeyWritingModifierV AA5ColorV A12_ AA14_PaddingLayoutV AA19_BackgroundModifierV AA06_ShapeC0V AA16RoundedRectangleV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____y_____yABy_____y_____y_____y______Qo______G______Qo______G______ABy_____y_____yAByAByAH_____y_____SgGGAPy_____SgGG_Qo_G_____GSgtGG_____yABy_____y_____AQG_____GGG_Qo______G 7SwiftUI19_ConditionalContentV AA4ViewPAAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQO AA08ModifiedD0V AA6HStackV AA05TupleE0V AeAE10labelStyleyQrqd__AA05LabelP0Rd__lFQO AA0Q0V AeAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA4TextV AA5ImageV 012_AppIntents_aB007WrappedqP0V AA16_FixedSizeLayoutV AA6SpacerV AA6ButtonV AeAE10fontWeightyQrAA4FontV6WeightVSgFQO AA30_EnvironmentKeyWritingModifierV AA5ColorV A14_ AA14_PaddingLayoutV AA19_BackgroundModifierV AA06_ShapeE0V AA16RoundedRectangleV AA16_FlexFrameLayoutV AA05EmptyE0V
++ _symbolic _____y_____y_____y_____y_____yABy_____y_____y_____y______Qo______G______Qo______G______ABy_____y_____yAByAByAH_____y_____SgGGAPy_____SgGG_Qo_G_____GSgtGG_____yABy_____y_____AQG_____GGG_Qo_______G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQO AA08ModifiedD0V AA6HStackV AA05TupleF0V AgAE10labelStyleyQrqd__AA05LabelQ0Rd__lFQO AA0R0V AgAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA4TextV AA5ImageV 012_AppIntents_aB007WrappedrQ0V AA16_FixedSizeLayoutV AA6SpacerV AA6ButtonV AgAE10fontWeightyQrAA4FontV6WeightVSgFQO AA30_EnvironmentKeyWritingModifierV AA5ColorV A16_ AA14_PaddingLayoutV AA19_BackgroundModifierV AA06_ShapeF0V AA16RoundedRectangleV AA16_FlexFrameLayoutV AA05EmptyF0V
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA6HStackVyAA9TupleViewVyAEyAA0H0PAAE10labelStyleyQrqd__AA05LabelJ0Rd__lFQOyAA0K0VyAkAE8redacted6reasonQrAA16RedactionReasonsV_tFQOyAA4TextV_Qo_AA5ImageVG_012_AppIntents_aB007WrappedkJ0VQo_AA16_FixedSizeLayoutVG_AA6SpacerVAEyAA6ButtonVyAkAE10fontWeightyQrAA4FontV6WeightVSgFQOyAEyAEyAxA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGA16_yA11_SgGG_Qo_GAA08_PaddingW0VGSgtGGAA19_BackgroundModifierVyAEyAA06_ShapeH0VyAA16RoundedRectangleVA18_GAA010_FlexFrameW0VGGGAA13_TaskModifierVGAA05EmptyH0VGAaJHPA47_AaJHPA44_AaJHPA32_AaJHPyHC_A43_AA0H8ModifierHPyHCHC_A46_AAA51_HPyHCHC_A49_AaJHPyHCHC.10
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy012_AppIntents_aB007SiriTipC5StyleVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.11
+- _symbolic _____y_____yABy_____y_____yABy_____y_____y_____y______Qo______G______Qo______G______ABy_____y_____yAByAByAH_____y_____SgGGAPy_____SgGG_Qo_G_____GSgtGG_____yABy_____y_____AQG_____GGG_____G_____G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6HStackV AA9TupleViewV AA0H0PAAE10labelStyleyQrqd__AA05LabelJ0Rd__lFQO AA0K0V AkAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA4TextV AA5ImageV 012_AppIntents_aB007WrappedkJ0V AA16_FixedSizeLayoutV AA6SpacerV AA6ButtonV AkAE10fontWeightyQrAA4FontV6WeightVSgFQO AA30_EnvironmentKeyWritingModifierV AA5ColorV A7_ AA08_PaddingW0V AA19_BackgroundModifierV AA06_ShapeH0V AA16RoundedRectangleV AA010_FlexFrameW0V AA13_TaskModifierV AA05EmptyH0V
+- _symbolic _____y_____yABy_____y_____yABy_____y_____y_____y______Qo______G______Qo______G______ABy_____y_____yAByAByAH_____y_____SgGGAPy_____SgGG_Qo_G_____GSgtGG_____yABy_____y_____AQG_____GGG_____G______G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA6HStackV AA9TupleViewV AA0I0PAAE10labelStyleyQrqd__AA05LabelK0Rd__lFQO AA0L0V AmAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA4TextV AA5ImageV 012_AppIntents_aB007WrappedlK0V AA16_FixedSizeLayoutV AA6SpacerV AA6ButtonV AmAE10fontWeightyQrAA4FontV6WeightVSgFQO AA30_EnvironmentKeyWritingModifierV AA5ColorV A9_ AA08_PaddingX0V AA19_BackgroundModifierV AA06_ShapeI0V AA16RoundedRectangleV AA010_FlexFrameX0V AA13_TaskModifierV AA05EmptyI0V
+CStrings:
++ "%d.%d.%d"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "ProductVersion"
++ "View.task @ _AppIntents_SwiftUI/SiriTipView.swift:"
++ "kCFAllocatorNull"
++ "r"
+
+```

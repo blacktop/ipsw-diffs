@@ -1,0 +1,862 @@
+## TextInputCore
+
+> `/System/Library/PrivateFrameworks/TextInputCore.framework/TextInputCore`
+
+```diff
+
+-3521.102.0.0.0
+-  __TEXT.__text: 0x21c0dc
++3527.0.0.0.0
++  __TEXT.__text: 0x21c6a8
+   __TEXT.__auth_stubs: 0x35e0
+   __TEXT.__init_offsets: 0xbc
+-  __TEXT.__objc_methlist: 0x10658
++  __TEXT.__objc_methlist: 0x10698
+   __TEXT.__dlopen_cstrs: 0x781
+   __TEXT.__const: 0x2d08
+-  __TEXT.__cstring: 0x19ae9
++  __TEXT.__cstring: 0x19b40
+   __TEXT.__oslogstring: 0x4073
+   __TEXT.__ustring: 0x3ca
+-  __TEXT.__unwind_info: 0x6420
++  __TEXT.__unwind_info: 0x6430
+   __TEXT.__objc_classname: 0x221f
+-  __TEXT.__objc_methname: 0x306db
++  __TEXT.__objc_methname: 0x3073b
+   __TEXT.__objc_methtype: 0x66df
+-  __TEXT.__objc_stubs: 0x21a60
++  __TEXT.__objc_stubs: 0x21aa0
+   __DATA_CONST.__got: 0x1748
+   __DATA_CONST.__const: 0x4e28
+   __DATA_CONST.__objc_classlist: 0x830
+   __DATA_CONST.__objc_catlist: 0x60
+   __DATA_CONST.__objc_protolist: 0x190
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x9d28
++  __DATA_CONST.__objc_selrefs: 0x9d48
+   __DATA_CONST.__objc_superrefs: 0x710
+   __DATA_CONST.__objc_arraydata: 0xcb0
+   __AUTH_CONST.__auth_got: 0x1af8
+   __AUTH_CONST.__const: 0x8588
+-  __AUTH_CONST.__cfstring: 0x127e0
++  __AUTH_CONST.__cfstring: 0x12820
+   __AUTH_CONST.__objc_const: 0x19f88
+   __AUTH_CONST.__objc_arrayobj: 0x378
+   __AUTH_CONST.__objc_intobj: 0x6a8
+
+   - /usr/lib/libmecabra.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 3FF3DB37-D4F5-3110-B6DE-AF4D382E0749
+-  Functions: 10293
+-  Symbols:   30980
+-  CStrings:  14182
++  UUID: 6C7648D1-B370-31AE-9567-D2B521636937
++  Functions: 10299
++  Symbols:   30993
++  CStrings:  14190
+ 
+Symbols:
++ -[TIKeyboardInputManager insertSpaceBeforeInputWithContext:]
++ -[TIKeyboardInputManager(TestingSupport) externalInputStem]
++ -[TIKeyboardInputManager(TestingSupport) externalInputString]
++ -[TIKeyboardInputManager_mul handleClearSessionGivenInput:]
++ -[TIKeyboardInputManager_mul wordSeparatorForCandidate:]
++ _CoreServicesLibraryCore.frameworkLibrary.9090
++ _KeyboardServicesLibrary.15037
++ _KeyboardServicesLibraryCore.frameworkLibrary.15039
++ _ManagedConfigurationLibrary.15025
++ _ManagedConfigurationLibraryCore.frameworkLibrary.15028
++ _SensorKitLibrary.19750
++ _SensorKitLibraryCore.frameworkLibrary.19753
++ _SpringBoardServicesLibraryCore.frameworkLibrary.19057
++ __ZL13kTITokenIDUNK.11987
++ __ZL13kTITokenIDUNK.12141
++ __ZL13kTITokenIDUNK.12366
++ __ZL13kTITokenIDUNK.12459
++ __ZL13kTITokenIDUNK.21264
++ __ZL13kTITokenIDUNK.24509
++ __ZL17__testingInstance.16144
++ __ZN2KB21LanguageModelImplStub14_wait_for_loadENSt3__111unique_lockINS1_5mutexEEE
++ __ZN2KBL26k_invalid_likelihood_valueE.10040
++ __ZN2KBL26k_invalid_likelihood_valueE.10634
++ __ZN2KBL26k_invalid_likelihood_valueE.10882
++ __ZN2KBL26k_invalid_likelihood_valueE.10911
++ __ZN2KBL26k_invalid_likelihood_valueE.11762
++ __ZN2KBL26k_invalid_likelihood_valueE.11966
++ __ZN2KBL26k_invalid_likelihood_valueE.12022
++ __ZN2KBL26k_invalid_likelihood_valueE.12477
++ __ZN2KBL26k_invalid_likelihood_valueE.12709
++ __ZN2KBL26k_invalid_likelihood_valueE.12931
++ __ZN2KBL26k_invalid_likelihood_valueE.1329
++ __ZN2KBL26k_invalid_likelihood_valueE.13584
++ __ZN2KBL26k_invalid_likelihood_valueE.15716
++ __ZN2KBL26k_invalid_likelihood_valueE.16382
++ __ZN2KBL26k_invalid_likelihood_valueE.16474
++ __ZN2KBL26k_invalid_likelihood_valueE.16479
++ __ZN2KBL26k_invalid_likelihood_valueE.18133
++ __ZN2KBL26k_invalid_likelihood_valueE.18372
++ __ZN2KBL26k_invalid_likelihood_valueE.18779
++ __ZN2KBL26k_invalid_likelihood_valueE.18852
++ __ZN2KBL26k_invalid_likelihood_valueE.1889
++ __ZN2KBL26k_invalid_likelihood_valueE.18917
++ __ZN2KBL26k_invalid_likelihood_valueE.18926
++ __ZN2KBL26k_invalid_likelihood_valueE.19705
++ __ZN2KBL26k_invalid_likelihood_valueE.21265
++ __ZN2KBL26k_invalid_likelihood_valueE.21295
++ __ZN2KBL26k_invalid_likelihood_valueE.2707
++ __ZN2KBL26k_invalid_likelihood_valueE.3396
++ __ZN2KBL26k_invalid_likelihood_valueE.3741
++ __ZN2KBL26k_invalid_likelihood_valueE.3779
++ __ZN2KBL26k_invalid_likelihood_valueE.3996
++ __ZN2KBL26k_invalid_likelihood_valueE.4102
++ __ZN2KBL26k_invalid_likelihood_valueE.4602
++ __ZN2KBL26k_invalid_likelihood_valueE.4695
++ __ZN2KBL26k_invalid_likelihood_valueE.4994
++ __ZN2KBL26k_invalid_likelihood_valueE.5120
++ __ZN2KBL26k_invalid_likelihood_valueE.5124
++ __ZN2KBL26k_invalid_likelihood_valueE.5211
++ __ZN2KBL26k_invalid_likelihood_valueE.5410
++ __ZN2KBL26k_invalid_likelihood_valueE.5511
++ __ZN2KBL26k_invalid_likelihood_valueE.6265
++ __ZN2KBL26k_invalid_likelihood_valueE.7475
++ __ZN2KBL26k_invalid_likelihood_valueE.843
++ __ZN2KBL26k_invalid_likelihood_valueE.9963
++ __ZNK2KB21LanguageModelImplStub16is_dynamic_validEv
++ ___114-[TIAppAutofillManager generateAutofillFormSuggestedUsernameWithRenderTraits:withKeyboardState:completionHandler:]_block_invoke.301
++ ___199-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:secureCandidateWidth:secureCandidateHash:isSecureCandidateDoubleLines:completionHandler:]_block_invoke.318
++ ___199-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:secureCandidateWidth:secureCandidateHash:isSecureCandidateDoubleLines:completionHandler:]_block_invoke.323
++ ___199-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:secureCandidateWidth:secureCandidateHash:isSecureCandidateDoubleLines:completionHandler:]_block_invoke.328
++ ___199-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:secureCandidateWidth:secureCandidateHash:isSecureCandidateDoubleLines:completionHandler:]_block_invoke.350
++ ___199-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:secureCandidateWidth:secureCandidateHash:isSecureCandidateDoubleLines:completionHandler:]_block_invoke.354
++ ___199-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:secureCandidateWidth:secureCandidateHash:isSecureCandidateDoubleLines:completionHandler:]_block_invoke_2.325
++ ___199-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:secureCandidateWidth:secureCandidateHash:isSecureCandidateDoubleLines:completionHandler:]_block_invoke_2.351
++ ___68-[TIAppAutofillManager shouldAcceptAutofill:withPayload:completion:]_block_invoke.396
++ ___68-[TIAppAutofillManager shouldAcceptAutofill:withPayload:completion:]_block_invoke_2.397
++ ___70-[TIAppAutofillManager presentHideMyEmailUI:keyboardState:completion:]_block_invoke.403
++ ___Block_byref_object_copy_.10235
++ ___Block_byref_object_copy_.10617
++ ___Block_byref_object_copy_.10711
++ ___Block_byref_object_copy_.11464
++ ___Block_byref_object_copy_.11977
++ ___Block_byref_object_copy_.1245
++ ___Block_byref_object_copy_.12462
++ ___Block_byref_object_copy_.12926
++ ___Block_byref_object_copy_.12961
++ ___Block_byref_object_copy_.13873
++ ___Block_byref_object_copy_.15601
++ ___Block_byref_object_copy_.1595
++ ___Block_byref_object_copy_.16330
++ ___Block_byref_object_copy_.17710
++ ___Block_byref_object_copy_.17817
++ ___Block_byref_object_copy_.18003
++ ___Block_byref_object_copy_.18475
++ ___Block_byref_object_copy_.1867
++ ___Block_byref_object_copy_.19514
++ ___Block_byref_object_copy_.20027
++ ___Block_byref_object_copy_.20086
++ ___Block_byref_object_copy_.20169
++ ___Block_byref_object_copy_.2037
++ ___Block_byref_object_copy_.20792
++ ___Block_byref_object_copy_.21251
++ ___Block_byref_object_copy_.21288
++ ___Block_byref_object_copy_.21726
++ ___Block_byref_object_copy_.22261
++ ___Block_byref_object_copy_.23422
++ ___Block_byref_object_copy_.23557
++ ___Block_byref_object_copy_.23720
++ ___Block_byref_object_copy_.23891
++ ___Block_byref_object_copy_.2391
++ ___Block_byref_object_copy_.24240
++ ___Block_byref_object_copy_.24494
++ ___Block_byref_object_copy_.2634
++ ___Block_byref_object_copy_.2754
++ ___Block_byref_object_copy_.3335
++ ___Block_byref_object_copy_.4307
++ ___Block_byref_object_copy_.471
++ ___Block_byref_object_copy_.5388
++ ___Block_byref_object_copy_.5837
++ ___Block_byref_object_copy_.6370
++ ___Block_byref_object_copy_.6513
++ ___Block_byref_object_copy_.7055
++ ___Block_byref_object_copy_.7439
++ ___Block_byref_object_copy_.7597
++ ___Block_byref_object_copy_.8043
++ ___Block_byref_object_copy_.82.2648
++ ___Block_byref_object_copy_.8339
++ ___Block_byref_object_copy_.836
++ ___Block_byref_object_copy_.8486
++ ___Block_byref_object_copy_.9626
++ ___Block_byref_object_copy_.9913
++ ___Block_byref_object_dispose_.10236
++ ___Block_byref_object_dispose_.10618
++ ___Block_byref_object_dispose_.10712
++ ___Block_byref_object_dispose_.11465
++ ___Block_byref_object_dispose_.11978
++ ___Block_byref_object_dispose_.1246
++ ___Block_byref_object_dispose_.12463
++ ___Block_byref_object_dispose_.12927
++ ___Block_byref_object_dispose_.12962
++ ___Block_byref_object_dispose_.13874
++ ___Block_byref_object_dispose_.15602
++ ___Block_byref_object_dispose_.1596
++ ___Block_byref_object_dispose_.16331
++ ___Block_byref_object_dispose_.17711
++ ___Block_byref_object_dispose_.17818
++ ___Block_byref_object_dispose_.18004
++ ___Block_byref_object_dispose_.18476
++ ___Block_byref_object_dispose_.1868
++ ___Block_byref_object_dispose_.19515
++ ___Block_byref_object_dispose_.20028
++ ___Block_byref_object_dispose_.20087
++ ___Block_byref_object_dispose_.20170
++ ___Block_byref_object_dispose_.2038
++ ___Block_byref_object_dispose_.20793
++ ___Block_byref_object_dispose_.21252
++ ___Block_byref_object_dispose_.21289
++ ___Block_byref_object_dispose_.21727
++ ___Block_byref_object_dispose_.22262
++ ___Block_byref_object_dispose_.23423
++ ___Block_byref_object_dispose_.23558
++ ___Block_byref_object_dispose_.23721
++ ___Block_byref_object_dispose_.23892
++ ___Block_byref_object_dispose_.2392
++ ___Block_byref_object_dispose_.24241
++ ___Block_byref_object_dispose_.24495
++ ___Block_byref_object_dispose_.2635
++ ___Block_byref_object_dispose_.2755
++ ___Block_byref_object_dispose_.3336
++ ___Block_byref_object_dispose_.4308
++ ___Block_byref_object_dispose_.472
++ ___Block_byref_object_dispose_.5389
++ ___Block_byref_object_dispose_.5838
++ ___Block_byref_object_dispose_.6371
++ ___Block_byref_object_dispose_.6514
++ ___Block_byref_object_dispose_.7056
++ ___Block_byref_object_dispose_.7440
++ ___Block_byref_object_dispose_.7598
++ ___Block_byref_object_dispose_.8044
++ ___Block_byref_object_dispose_.83.2649
++ ___Block_byref_object_dispose_.8340
++ ___Block_byref_object_dispose_.837
++ ___Block_byref_object_dispose_.8487
++ ___Block_byref_object_dispose_.9627
++ ___Block_byref_object_dispose_.9914
++ ___CoreServicesLibraryCore_block_invoke.9091
++ ___KeyboardServicesLibraryCore_block_invoke.15040
++ ___ManagedConfigurationLibraryCore_block_invoke.15029
++ ___SensorKitLibraryCore_block_invoke.19754
++ ___SpringBoardServicesLibraryCore_block_invoke.19058
++ ____ZN2KB21LanguageModelImplStub14_wait_for_loadENSt3__111unique_lockINS1_5mutexEEE_block_invoke
++ ___block_descriptor_tmp.10615
++ ___block_descriptor_tmp.11.12025
++ ___block_descriptor_tmp.11.12461
++ ___block_descriptor_tmp.11.18148
++ ___block_descriptor_tmp.11959
++ ___block_descriptor_tmp.11979
++ ___block_descriptor_tmp.12367
++ ___block_descriptor_tmp.12389
++ ___block_descriptor_tmp.13.12386
++ ___block_descriptor_tmp.13.18151
++ ___block_descriptor_tmp.13389
++ ___block_descriptor_tmp.14.18150
++ ___block_descriptor_tmp.14030
++ ___block_descriptor_tmp.15.12464
++ ___block_descriptor_tmp.15.18149
++ ___block_descriptor_tmp.15603
++ ___block_descriptor_tmp.15631
++ ___block_descriptor_tmp.16596
++ ___block_descriptor_tmp.17734
++ ___block_descriptor_tmp.17819
++ ___block_descriptor_tmp.18156
++ ___block_descriptor_tmp.18843
++ ___block_descriptor_tmp.2.15607
++ ___block_descriptor_tmp.2.15643
++ ___block_descriptor_tmp.2.17712
++ ___block_descriptor_tmp.2.18160
++ ___block_descriptor_tmp.2.18844
++ ___block_descriptor_tmp.2.20029
++ ___block_descriptor_tmp.20031
++ ___block_descriptor_tmp.20051
++ ___block_descriptor_tmp.21290
++ ___block_descriptor_tmp.21728
++ ___block_descriptor_tmp.24.12379
++ ___block_descriptor_tmp.24272
++ ___block_descriptor_tmp.24496
++ ___block_descriptor_tmp.3.10619
++ ___block_descriptor_tmp.3.12467
++ ___block_descriptor_tmp.3.18163
++ ___block_descriptor_tmp.30.12390
++ ___block_descriptor_tmp.3751
++ ___block_descriptor_tmp.4.12388
++ ___block_descriptor_tmp.4.17715
++ ___block_descriptor_tmp.4.18166
++ ___block_descriptor_tmp.5.18859
++ ___block_descriptor_tmp.5.5201
++ ___block_descriptor_tmp.5202
++ ___block_descriptor_tmp.5390
++ ___block_descriptor_tmp.5494
++ ___block_descriptor_tmp.6.12013
++ ___block_descriptor_tmp.6.18173
++ ___block_descriptor_tmp.6.3757
++ ___block_descriptor_tmp.6.6258
++ ___block_descriptor_tmp.6257
++ ___block_descriptor_tmp.7.10611
++ ___block_descriptor_tmp.7.12457
++ ___block_descriptor_tmp.7.15605
++ ___block_descriptor_tmp.7.5168
++ ___block_descriptor_tmp.8.12455
++ ___block_descriptor_tmp.8.18170
++ ___block_descriptor_tmp.8.20035
++ ___block_descriptor_tmp.8036
++ ___block_descriptor_tmp.9.10607
++ ___block_descriptor_tmp.9.18169
++ ___block_descriptor_tmp.9.20039
++ ___block_descriptor_tmp.9953
++ ___block_literal_global.10.16709
++ ___block_literal_global.10292
++ ___block_literal_global.1108
++ ___block_literal_global.11674
++ ___block_literal_global.11986
++ ___block_literal_global.12127
++ ___block_literal_global.12358
++ ___block_literal_global.12363
++ ___block_literal_global.1259
++ ___block_literal_global.1269
++ ___block_literal_global.1295
++ ___block_literal_global.13.17051
++ ___block_literal_global.13023
++ ___block_literal_global.1330
++ ___block_literal_global.13387
++ ___block_literal_global.13577
++ ___block_literal_global.13966
++ ___block_literal_global.14028
++ ___block_literal_global.14400
++ ___block_literal_global.147.1254
++ ___block_literal_global.15067
++ ___block_literal_global.15271
++ ___block_literal_global.15641
++ ___block_literal_global.15724
++ ___block_literal_global.158.6384
++ ___block_literal_global.15958
++ ___block_literal_global.16141
++ ___block_literal_global.16730
++ ___block_literal_global.16884
++ ___block_literal_global.17.14403
++ ___block_literal_global.17.15054
++ ___block_literal_global.17.16696
++ ___block_literal_global.17066
++ ___block_literal_global.17713
++ ___block_literal_global.17756
++ ___block_literal_global.17773
++ ___block_literal_global.18083
++ ___block_literal_global.18154
++ ___block_literal_global.1817
++ ___block_literal_global.18318
++ ___block_literal_global.18668
++ ___block_literal_global.19.12466
++ ___block_literal_global.19071
++ ___block_literal_global.1909
++ ___block_literal_global.19152
++ ___block_literal_global.19539
++ ___block_literal_global.19646
++ ___block_literal_global.20049
++ ___block_literal_global.20079
++ ___block_literal_global.2056
++ ___block_literal_global.20807
++ ___block_literal_global.21101
++ ___block_literal_global.2166
++ ___block_literal_global.21680
++ ___block_literal_global.21844
++ ___block_literal_global.22199
++ ___block_literal_global.23.17043
++ ___block_literal_global.2324
++ ___block_literal_global.23587
++ ___block_literal_global.23917
++ ___block_literal_global.23968
++ ___block_literal_global.24114
++ ___block_literal_global.24121
++ ___block_literal_global.24230
++ ___block_literal_global.24270
++ ___block_literal_global.2495
++ ___block_literal_global.2669
++ ___block_literal_global.2800
++ ___block_literal_global.294
++ ___block_literal_global.3.17061
++ ___block_literal_global.31.15269
++ ___block_literal_global.3178
++ ___block_literal_global.3733
++ ___block_literal_global.3830
++ ___block_literal_global.3850
++ ___block_literal_global.4081
++ ___block_literal_global.4171
++ ___block_literal_global.4187
++ ___block_literal_global.4330
++ ___block_literal_global.4443
++ ___block_literal_global.46.24135
++ ___block_literal_global.4719
++ ___block_literal_global.48.24138
++ ___block_literal_global.5114
++ ___block_literal_global.541
++ ___block_literal_global.5492
++ ___block_literal_global.6083
++ ___block_literal_global.61.24155
++ ___block_literal_global.6217
++ ___block_literal_global.6383
++ ___block_literal_global.64.24160
++ ___block_literal_global.6669
++ ___block_literal_global.7193
++ ___block_literal_global.738
++ ___block_literal_global.7471
++ ___block_literal_global.7697
++ ___block_literal_global.7837
++ ___block_literal_global.79.24177
++ ___block_literal_global.8.17056
++ ___block_literal_global.82.24182
++ ___block_literal_global.8448
++ ___block_literal_global.87.16919
++ ___block_literal_global.87.19700
++ ___block_literal_global.8783
++ ___block_literal_global.9115
++ ___block_literal_global.9209
++ ___block_literal_global.97.16910
++ ___block_literal_global.9917
++ ___getLSApplicationProxyClass_block_invoke.9072
++ ___getMCProfileConnectionClass_block_invoke.15022
++ ___testingInstance.21848
++ ___testingInstance.23914
++ ___testingInstance.3835
++ ___testingInstance.6671
++ ___testingInstance.7230
++ ___testingInstance.7700
++ _audit_stringCoreServices.9094
++ _audit_stringKeyboardServices.15042
++ _audit_stringManagedConfiguration.15032
++ _audit_stringSensorKit.19757
++ _audit_stringSpringBoardServices.19060
++ _getLSApplicationProxyClass.softClass.9071
++ _getMCProfileConnectionClass.softClass.15021
++ _objc_msgSend$handleClearSessionGivenInput:
++ _objc_msgSend$insertSpaceBeforeInputWithContext:
++ _objc_msgSend$wordSeparatorForCandidate:
++ _sharedInstance.instance.9116
++ _sharedInstance.onceToken.12357
++ _sharedInstance.onceToken.13965
++ _sharedInstance.onceToken.24113
++ _sharedInstance.onceToken.3246
++ _sharedInstance.onceToken.9114
++ _singletonInstance.onceToken.15066
++ _singletonInstance.onceToken.19538
++ _singletonInstance.onceToken.21843
++ _singletonInstance.onceToken.23916
++ _singletonInstance.onceToken.6668
++ _singletonInstance.onceToken.7696
++ _singletonInstance.singleton.19540
++ _singletonInstance.singletonInstance.15068
++ _singletonInstance.singletonInstance.21845
++ _singletonInstance.singletonInstance.23918
++ _singletonInstance.singletonInstance.7698
+- _CoreServicesLibraryCore.frameworkLibrary.9086
+- _KeyboardServicesLibrary.15026
+- _KeyboardServicesLibraryCore.frameworkLibrary.15028
+- _ManagedConfigurationLibrary.15014
+- _ManagedConfigurationLibraryCore.frameworkLibrary.15017
+- _SensorKitLibrary.19737
+- _SensorKitLibraryCore.frameworkLibrary.19740
+- _SpringBoardServicesLibraryCore.frameworkLibrary.19046
+- __ZL13kTITokenIDUNK.11986
+- __ZL13kTITokenIDUNK.12140
+- __ZL13kTITokenIDUNK.12365
+- __ZL13kTITokenIDUNK.12458
+- __ZL13kTITokenIDUNK.21250
+- __ZL13kTITokenIDUNK.24478
+- __ZL17__testingInstance.16129
+- __ZN2KB21LanguageModelImplStub14_wait_for_loadEv
+- __ZN2KBL26k_invalid_likelihood_valueE.10034
+- __ZN2KBL26k_invalid_likelihood_valueE.10627
+- __ZN2KBL26k_invalid_likelihood_valueE.10875
+- __ZN2KBL26k_invalid_likelihood_valueE.10904
+- __ZN2KBL26k_invalid_likelihood_valueE.11760
+- __ZN2KBL26k_invalid_likelihood_valueE.11965
+- __ZN2KBL26k_invalid_likelihood_valueE.12021
+- __ZN2KBL26k_invalid_likelihood_valueE.12476
+- __ZN2KBL26k_invalid_likelihood_valueE.12708
+- __ZN2KBL26k_invalid_likelihood_valueE.12930
+- __ZN2KBL26k_invalid_likelihood_valueE.1333
+- __ZN2KBL26k_invalid_likelihood_valueE.13576
+- __ZN2KBL26k_invalid_likelihood_valueE.15703
+- __ZN2KBL26k_invalid_likelihood_valueE.16368
+- __ZN2KBL26k_invalid_likelihood_valueE.16460
+- __ZN2KBL26k_invalid_likelihood_valueE.16465
+- __ZN2KBL26k_invalid_likelihood_valueE.18122
+- __ZN2KBL26k_invalid_likelihood_valueE.18361
+- __ZN2KBL26k_invalid_likelihood_valueE.18768
+- __ZN2KBL26k_invalid_likelihood_valueE.18841
+- __ZN2KBL26k_invalid_likelihood_valueE.18906
+- __ZN2KBL26k_invalid_likelihood_valueE.18915
+- __ZN2KBL26k_invalid_likelihood_valueE.1906
+- __ZN2KBL26k_invalid_likelihood_valueE.19692
+- __ZN2KBL26k_invalid_likelihood_valueE.21251
+- __ZN2KBL26k_invalid_likelihood_valueE.21281
+- __ZN2KBL26k_invalid_likelihood_valueE.2724
+- __ZN2KBL26k_invalid_likelihood_valueE.3400
+- __ZN2KBL26k_invalid_likelihood_valueE.3745
+- __ZN2KBL26k_invalid_likelihood_valueE.3783
+- __ZN2KBL26k_invalid_likelihood_valueE.4000
+- __ZN2KBL26k_invalid_likelihood_valueE.4106
+- __ZN2KBL26k_invalid_likelihood_valueE.4606
+- __ZN2KBL26k_invalid_likelihood_valueE.4699
+- __ZN2KBL26k_invalid_likelihood_valueE.4996
+- __ZN2KBL26k_invalid_likelihood_valueE.5122
+- __ZN2KBL26k_invalid_likelihood_valueE.5126
+- __ZN2KBL26k_invalid_likelihood_valueE.5213
+- __ZN2KBL26k_invalid_likelihood_valueE.5412
+- __ZN2KBL26k_invalid_likelihood_valueE.5513
+- __ZN2KBL26k_invalid_likelihood_valueE.6267
+- __ZN2KBL26k_invalid_likelihood_valueE.7469
+- __ZN2KBL26k_invalid_likelihood_valueE.836
+- __ZN2KBL26k_invalid_likelihood_valueE.9957
+- ___114-[TIAppAutofillManager generateAutofillFormSuggestedUsernameWithRenderTraits:withKeyboardState:completionHandler:]_block_invoke.295
+- ___199-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:secureCandidateWidth:secureCandidateHash:isSecureCandidateDoubleLines:completionHandler:]_block_invoke.312
+- ___199-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:secureCandidateWidth:secureCandidateHash:isSecureCandidateDoubleLines:completionHandler:]_block_invoke.317
+- ___199-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:secureCandidateWidth:secureCandidateHash:isSecureCandidateDoubleLines:completionHandler:]_block_invoke.322
+- ___199-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:secureCandidateWidth:secureCandidateHash:isSecureCandidateDoubleLines:completionHandler:]_block_invoke.344
+- ___199-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:secureCandidateWidth:secureCandidateHash:isSecureCandidateDoubleLines:completionHandler:]_block_invoke.348
+- ___199-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:secureCandidateWidth:secureCandidateHash:isSecureCandidateDoubleLines:completionHandler:]_block_invoke_2.319
+- ___199-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:secureCandidateWidth:secureCandidateHash:isSecureCandidateDoubleLines:completionHandler:]_block_invoke_2.345
+- ___68-[TIAppAutofillManager shouldAcceptAutofill:withPayload:completion:]_block_invoke.390
+- ___68-[TIAppAutofillManager shouldAcceptAutofill:withPayload:completion:]_block_invoke_2.391
+- ___70-[TIAppAutofillManager presentHideMyEmailUI:keyboardState:completion:]_block_invoke.397
+- ___Block_byref_object_copy_.10228
+- ___Block_byref_object_copy_.10610
+- ___Block_byref_object_copy_.10704
+- ___Block_byref_object_copy_.11459
+- ___Block_byref_object_copy_.11976
+- ___Block_byref_object_copy_.1244
+- ___Block_byref_object_copy_.12461
+- ___Block_byref_object_copy_.12925
+- ___Block_byref_object_copy_.12960
+- ___Block_byref_object_copy_.13864
+- ___Block_byref_object_copy_.15588
+- ___Block_byref_object_copy_.1599
+- ___Block_byref_object_copy_.16316
+- ___Block_byref_object_copy_.17699
+- ___Block_byref_object_copy_.17806
+- ___Block_byref_object_copy_.17992
+- ___Block_byref_object_copy_.18464
+- ___Block_byref_object_copy_.1884
+- ___Block_byref_object_copy_.19501
+- ___Block_byref_object_copy_.20014
+- ___Block_byref_object_copy_.20073
+- ___Block_byref_object_copy_.20156
+- ___Block_byref_object_copy_.2058
+- ___Block_byref_object_copy_.20778
+- ___Block_byref_object_copy_.21237
+- ___Block_byref_object_copy_.21274
+- ___Block_byref_object_copy_.21712
+- ___Block_byref_object_copy_.22247
+- ___Block_byref_object_copy_.23397
+- ___Block_byref_object_copy_.23526
+- ___Block_byref_object_copy_.23689
+- ___Block_byref_object_copy_.23860
+- ___Block_byref_object_copy_.2412
+- ___Block_byref_object_copy_.24209
+- ___Block_byref_object_copy_.24463
+- ___Block_byref_object_copy_.2653
+- ___Block_byref_object_copy_.2771
+- ___Block_byref_object_copy_.3339
+- ___Block_byref_object_copy_.4311
+- ___Block_byref_object_copy_.472
+- ___Block_byref_object_copy_.5390
+- ___Block_byref_object_copy_.5839
+- ___Block_byref_object_copy_.6372
+- ___Block_byref_object_copy_.6514
+- ___Block_byref_object_copy_.7053
+- ___Block_byref_object_copy_.7433
+- ___Block_byref_object_copy_.7593
+- ___Block_byref_object_copy_.8039
+- ___Block_byref_object_copy_.81
+- ___Block_byref_object_copy_.829
+- ___Block_byref_object_copy_.8335
+- ___Block_byref_object_copy_.8482
+- ___Block_byref_object_copy_.9622
+- ___Block_byref_object_copy_.9907
+- ___Block_byref_object_dispose_.10229
+- ___Block_byref_object_dispose_.10611
+- ___Block_byref_object_dispose_.10705
+- ___Block_byref_object_dispose_.11460
+- ___Block_byref_object_dispose_.11977
+- ___Block_byref_object_dispose_.1245
+- ___Block_byref_object_dispose_.12462
+- ___Block_byref_object_dispose_.12926
+- ___Block_byref_object_dispose_.12961
+- ___Block_byref_object_dispose_.13865
+- ___Block_byref_object_dispose_.15589
+- ___Block_byref_object_dispose_.1600
+- ___Block_byref_object_dispose_.16317
+- ___Block_byref_object_dispose_.17700
+- ___Block_byref_object_dispose_.17807
+- ___Block_byref_object_dispose_.17993
+- ___Block_byref_object_dispose_.18465
+- ___Block_byref_object_dispose_.1885
+- ___Block_byref_object_dispose_.19502
+- ___Block_byref_object_dispose_.20015
+- ___Block_byref_object_dispose_.20074
+- ___Block_byref_object_dispose_.20157
+- ___Block_byref_object_dispose_.2059
+- ___Block_byref_object_dispose_.20779
+- ___Block_byref_object_dispose_.21238
+- ___Block_byref_object_dispose_.21275
+- ___Block_byref_object_dispose_.21713
+- ___Block_byref_object_dispose_.22248
+- ___Block_byref_object_dispose_.23398
+- ___Block_byref_object_dispose_.23527
+- ___Block_byref_object_dispose_.23690
+- ___Block_byref_object_dispose_.23861
+- ___Block_byref_object_dispose_.2413
+- ___Block_byref_object_dispose_.24210
+- ___Block_byref_object_dispose_.24464
+- ___Block_byref_object_dispose_.2654
+- ___Block_byref_object_dispose_.2772
+- ___Block_byref_object_dispose_.3340
+- ___Block_byref_object_dispose_.4312
+- ___Block_byref_object_dispose_.473
+- ___Block_byref_object_dispose_.5391
+- ___Block_byref_object_dispose_.5840
+- ___Block_byref_object_dispose_.6373
+- ___Block_byref_object_dispose_.6515
+- ___Block_byref_object_dispose_.7054
+- ___Block_byref_object_dispose_.7434
+- ___Block_byref_object_dispose_.7594
+- ___Block_byref_object_dispose_.8040
+- ___Block_byref_object_dispose_.82
+- ___Block_byref_object_dispose_.830
+- ___Block_byref_object_dispose_.8336
+- ___Block_byref_object_dispose_.8483
+- ___Block_byref_object_dispose_.9623
+- ___Block_byref_object_dispose_.9908
+- ___CoreServicesLibraryCore_block_invoke.9087
+- ___KeyboardServicesLibraryCore_block_invoke.15029
+- ___ManagedConfigurationLibraryCore_block_invoke.15018
+- ___SensorKitLibraryCore_block_invoke.19741
+- ___SpringBoardServicesLibraryCore_block_invoke.19047
+- ____ZN2KB21LanguageModelImplStub14_wait_for_loadEv_block_invoke
+- ___block_descriptor_tmp.10608
+- ___block_descriptor_tmp.11.12024
+- ___block_descriptor_tmp.11.12460
+- ___block_descriptor_tmp.11.18137
+- ___block_descriptor_tmp.11958
+- ___block_descriptor_tmp.11978
+- ___block_descriptor_tmp.12366
+- ___block_descriptor_tmp.12388
+- ___block_descriptor_tmp.13.12385
+- ___block_descriptor_tmp.13.18140
+- ___block_descriptor_tmp.13382
+- ___block_descriptor_tmp.14.18139
+- ___block_descriptor_tmp.14021
+- ___block_descriptor_tmp.15.12463
+- ___block_descriptor_tmp.15.18138
+- ___block_descriptor_tmp.15590
+- ___block_descriptor_tmp.15618
+- ___block_descriptor_tmp.16582
+- ___block_descriptor_tmp.17723
+- ___block_descriptor_tmp.17808
+- ___block_descriptor_tmp.18145
+- ___block_descriptor_tmp.18832
+- ___block_descriptor_tmp.2.15594
+- ___block_descriptor_tmp.2.15630
+- ___block_descriptor_tmp.2.17701
+- ___block_descriptor_tmp.2.18149
+- ___block_descriptor_tmp.2.18833
+- ___block_descriptor_tmp.2.20016
+- ___block_descriptor_tmp.20018
+- ___block_descriptor_tmp.20038
+- ___block_descriptor_tmp.21276
+- ___block_descriptor_tmp.21714
+- ___block_descriptor_tmp.24.12378
+- ___block_descriptor_tmp.24241
+- ___block_descriptor_tmp.24465
+- ___block_descriptor_tmp.3.10612
+- ___block_descriptor_tmp.3.12466
+- ___block_descriptor_tmp.3.18152
+- ___block_descriptor_tmp.30.12389
+- ___block_descriptor_tmp.3755
+- ___block_descriptor_tmp.4.12387
+- ___block_descriptor_tmp.4.17704
+- ___block_descriptor_tmp.4.18155
+- ___block_descriptor_tmp.5.18848
+- ___block_descriptor_tmp.5.5203
+- ___block_descriptor_tmp.5204
+- ___block_descriptor_tmp.5392
+- ___block_descriptor_tmp.5496
+- ___block_descriptor_tmp.6.12012
+- ___block_descriptor_tmp.6.18162
+- ___block_descriptor_tmp.6.3761
+- ___block_descriptor_tmp.6.6260
+- ___block_descriptor_tmp.6259
+- ___block_descriptor_tmp.7.10604
+- ___block_descriptor_tmp.7.12456
+- ___block_descriptor_tmp.7.15592
+- ___block_descriptor_tmp.7.5170
+- ___block_descriptor_tmp.8.12454
+- ___block_descriptor_tmp.8.18159
+- ___block_descriptor_tmp.8.20022
+- ___block_descriptor_tmp.8032
+- ___block_descriptor_tmp.9.10600
+- ___block_descriptor_tmp.9.18158
+- ___block_descriptor_tmp.9.20026
+- ___block_descriptor_tmp.9947
+- ___block_literal_global.10.16695
+- ___block_literal_global.10285
+- ___block_literal_global.1107
+- ___block_literal_global.11672
+- ___block_literal_global.11985
+- ___block_literal_global.12126
+- ___block_literal_global.12357
+- ___block_literal_global.12362
+- ___block_literal_global.1258
+- ___block_literal_global.1273
+- ___block_literal_global.1292
+- ___block_literal_global.13.17036
+- ___block_literal_global.13022
+- ___block_literal_global.1327
+- ___block_literal_global.13380
+- ___block_literal_global.13569
+- ___block_literal_global.13957
+- ___block_literal_global.14019
+- ___block_literal_global.14391
+- ___block_literal_global.146
+- ___block_literal_global.15056
+- ___block_literal_global.15260
+- ___block_literal_global.15628
+- ___block_literal_global.15711
+- ___block_literal_global.158.6386
+- ___block_literal_global.15943
+- ___block_literal_global.16126
+- ___block_literal_global.16716
+- ___block_literal_global.16869
+- ___block_literal_global.17.14394
+- ___block_literal_global.17.15043
+- ___block_literal_global.17.16682
+- ___block_literal_global.17051
+- ___block_literal_global.17702
+- ___block_literal_global.17745
+- ___block_literal_global.17762
+- ___block_literal_global.18072
+- ___block_literal_global.18143
+- ___block_literal_global.18307
+- ___block_literal_global.1834
+- ___block_literal_global.18657
+- ___block_literal_global.19.12465
+- ___block_literal_global.19060
+- ___block_literal_global.19141
+- ___block_literal_global.1929
+- ___block_literal_global.19526
+- ___block_literal_global.19633
+- ___block_literal_global.20036
+- ___block_literal_global.20066
+- ___block_literal_global.2077
+- ___block_literal_global.20793
+- ___block_literal_global.21087
+- ___block_literal_global.21666
+- ___block_literal_global.21830
+- ___block_literal_global.2187
+- ___block_literal_global.22185
+- ___block_literal_global.23.17028
+- ___block_literal_global.2345
+- ___block_literal_global.23556
+- ___block_literal_global.23886
+- ___block_literal_global.23937
+- ___block_literal_global.24083
+- ___block_literal_global.24090
+- ___block_literal_global.24199
+- ___block_literal_global.24239
+- ___block_literal_global.2516
+- ___block_literal_global.2686
+- ___block_literal_global.2817
+- ___block_literal_global.293
+- ___block_literal_global.3.17046
+- ___block_literal_global.31.15258
+- ___block_literal_global.3182
+- ___block_literal_global.3737
+- ___block_literal_global.3834
+- ___block_literal_global.3854
+- ___block_literal_global.4085
+- ___block_literal_global.4175
+- ___block_literal_global.4191
+- ___block_literal_global.4334
+- ___block_literal_global.4447
+- ___block_literal_global.46.24104
+- ___block_literal_global.4720
+- ___block_literal_global.48.24107
+- ___block_literal_global.5116
+- ___block_literal_global.540
+- ___block_literal_global.5494
+- ___block_literal_global.6085
+- ___block_literal_global.61.24124
+- ___block_literal_global.6219
+- ___block_literal_global.6385
+- ___block_literal_global.64.24129
+- ___block_literal_global.6670
+- ___block_literal_global.7188
+- ___block_literal_global.731
+- ___block_literal_global.7465
+- ___block_literal_global.7693
+- ___block_literal_global.7833
+- ___block_literal_global.79.24146
+- ___block_literal_global.8.17041
+- ___block_literal_global.82.24151
+- ___block_literal_global.8444
+- ___block_literal_global.87.16904
+- ___block_literal_global.87.19687
+- ___block_literal_global.8779
+- ___block_literal_global.9111
+- ___block_literal_global.9205
+- ___block_literal_global.97.16895
+- ___block_literal_global.9911
+- ___getLSApplicationProxyClass_block_invoke.9068
+- ___getMCProfileConnectionClass_block_invoke.15011
+- ___testingInstance.21834
+- ___testingInstance.23883
+- ___testingInstance.3839
+- ___testingInstance.6672
+- ___testingInstance.7224
+- ___testingInstance.7696
+- _audit_stringCoreServices.9090
+- _audit_stringKeyboardServices.15031
+- _audit_stringManagedConfiguration.15021
+- _audit_stringSensorKit.19744
+- _audit_stringSpringBoardServices.19049
+- _getLSApplicationProxyClass.softClass.9067
+- _getMCProfileConnectionClass.softClass.15010
+- _objc_msgSend$isFeatureEnabledForInternalBuilds
+- _sharedInstance.instance.9112
+- _sharedInstance.onceToken.12356
+- _sharedInstance.onceToken.13956
+- _sharedInstance.onceToken.24082
+- _sharedInstance.onceToken.3250
+- _sharedInstance.onceToken.9110
+- _singletonInstance.onceToken.15055
+- _singletonInstance.onceToken.19525
+- _singletonInstance.onceToken.21829
+- _singletonInstance.onceToken.23885
+- _singletonInstance.onceToken.6669
+- _singletonInstance.onceToken.7692
+- _singletonInstance.singleton.19527
+- _singletonInstance.singletonInstance.15057
+- _singletonInstance.singletonInstance.21831
+- _singletonInstance.singletonInstance.23887
+- _singletonInstance.singletonInstance.7694
+CStrings:
++ "AUTOFILL_SAVED_PASSWORD_TITLE"
++ "SAFARI_CREDENTIAL_CUSTOM_TITLE_LONG"
++ "SAFARI_CREDENTIAL_CUSTOM_TITLE_SHORT"
++ "externalInputStem"
++ "externalInputString"
++ "handleClearSessionGivenInput:"
++ "insertSpaceBeforeInputWithContext:"
++ "wordSeparatorForCandidate:"
+- "SAFARI_KEYCHAIN"
+- "isFeatureEnabledForInternalBuilds"
+
+```

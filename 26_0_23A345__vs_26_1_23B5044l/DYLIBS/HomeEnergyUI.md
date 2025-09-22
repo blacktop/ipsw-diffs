@@ -1,0 +1,136 @@
+## HomeEnergyUI
+
+> `/System/Library/PrivateFrameworks/HomeEnergyUI.framework/HomeEnergyUI`
+
+```diff
+
+-356.1.3.1.1
+-  __TEXT.__text: 0x198f2c
++375.0.0.0.0
++  __TEXT.__text: 0x1a07f0
+   __TEXT.__auth_stubs: 0x45a0
+   __TEXT.__objc_methlist: 0x154
+-  __TEXT.__const: 0x7d7a
+-  __TEXT.__cstring: 0xa94c
+-  __TEXT.__constg_swiftt: 0x2f44
+-  __TEXT.__swift5_typeref: 0x19906
++  __TEXT.__const: 0x7dfa
++  __TEXT.__cstring: 0xaa6c
++  __TEXT.__constg_swiftt: 0x2f50
++  __TEXT.__swift5_typeref: 0x19930
+   __TEXT.__swift5_builtin: 0x8c
+-  __TEXT.__swift5_reflstr: 0x3cf0
+-  __TEXT.__swift5_fieldmd: 0x2f70
++  __TEXT.__swift5_reflstr: 0x3d90
++  __TEXT.__swift5_fieldmd: 0x3018
+   __TEXT.__swift5_assocty: 0xb40
+   __TEXT.__swift5_proto: 0x3a0
+   __TEXT.__swift5_types: 0x290
+   __TEXT.__swift5_capture: 0x93c
+-  __TEXT.__oslogstring: 0x3d92
++  __TEXT.__oslogstring: 0x3dd2
+   __TEXT.__swift_as_entry: 0x14c
+   __TEXT.__swift_as_ret: 0x1c0
+   __TEXT.__swift5_protos: 0xc
+   __TEXT.__swift5_mpenum: 0x40
+-  __TEXT.__unwind_info: 0x3688
+-  __TEXT.__eh_frame: 0x5348
++  __TEXT.__unwind_info: 0x3708
++  __TEXT.__eh_frame: 0x5350
+   __TEXT.__objc_classname: 0x3b
+   __TEXT.__objc_methname: 0x8b7
+   __TEXT.__objc_methtype: 0x100
+-  __DATA_CONST.__got: 0x1040
++  __DATA_CONST.__got: 0x1030
+   __DATA_CONST.__const: 0x260
+   __DATA_CONST.__objc_classlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x50
+
+   __DATA_CONST.__objc_selrefs: 0x3e0
+   __DATA_CONST.__objc_protorefs: 0x28
+   __AUTH_CONST.__auth_got: 0x22d0
+-  __AUTH_CONST.__const: 0x97d0
++  __AUTH_CONST.__const: 0x9888
+   __AUTH_CONST.__objc_const: 0xd58
+   __AUTH.__objc_data: 0xf0
+-  __AUTH.__data: 0x2040
+-  __DATA.__data: 0x4210
+-  __DATA.__bss: 0x4768
+-  __DATA.__common: 0x318
++  __AUTH.__data: 0x2118
++  __DATA.__data: 0x42d0
++  __DATA.__bss: 0x4778
++  __DATA.__common: 0x320
+   __DATA_DIRTY.__objc_data: 0xf0
+-  __DATA_DIRTY.__data: 0x2830
++  __DATA_DIRTY.__data: 0x2810
+   __DATA_DIRTY.__bss: 0x2d80
+-  __DATA_DIRTY.__common: 0x100
++  __DATA_DIRTY.__common: 0xd0
+   - /System/Library/Frameworks/Charts.framework/Charts
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 66030E7C-9113-3003-A046-4FA2CCAEC99A
+-  Functions: 4880
+-  Symbols:   2321
+-  CStrings:  1345
++  UUID: 24E911BF-44BF-36F7-B9BD-CD2208621753
++  Functions: 4910
++  Symbols:   2317
++  CStrings:  1351
+ 
+Symbols:
++ ___swift_memcpy272_8
++ _associated conformance 12HomeEnergyUI20HistoricalUsageChartV20ValidUsagesGroupingsOSHAASQ
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.277
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.278
++ _get_witness_table 12HomeEnergyUI26FilterButtonsAndPickerViewV0D6ButtonRzl05SwiftC015ModifiedContentVyAE7ForEachVySaySiGSixGAE14_PaddingLayoutVGAE0H0HPAkeOHPxAcDHD1_AeOHI1__HC_AmE0H8ModifierHPyHCHC.64
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQOyACyACyAA6HStackVyAA05TupleE0VyACyAA5LabelVyAA4TextVACyAA5ImageVAA25_ForegroundStyleModifier2VyAA017HierarchicalShapeO0VAYGGGAA14_PaddingLayoutVG_AA6SpacerVACyACyASA2_GA2_GtGGAA30_EnvironmentKeyWritingModifierVyAHSgGGAA01_noY0VyAYGG_Qo_A16_yAA5ColorVGGAA011_BackgroundoY0VyAA8GradientVGGAA11_ClipEffectVyAA16RoundedRectangleVGGAA023AccessibilityAttachmentY0VGAaDHPA35_AaDHPA29_AaDHPA23_AaDHPqd__AaDHD2_A19_HO_A22_AA0eY0HPyHCHC_A28_AAA39_HPyHCHC_A34_AAA39_HPyHCHC_A37_AAA39_HPyHCHC.68
++ _get_witness_table 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOy010HomeEnergyB0022FilterButtonsAndPickerC0V05UsagekC0V_Qo_SgAaBHpqd__AaBHD2_ALHO_HC.66
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA0E0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAgAE11pickerStyleyQrqd__AA06PickerM0Rd__lFQOyALyAgAE10fontWeightyQrAA4FontV0P0VSgFQOyALyAA0N0VyAA4TextV010HomeEnergyB0023HistoricalUsageIntervalE0V17FilterButtonsTypeOAEyALyAgAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAX_A1_Qo_AA31AccessibilityAttachmentModifierVG_A7_tGGAA30_EnvironmentKeyWritingModifierVyAQSgGG_Qo_A11_yAA5ColorVSgGG_AA09SegmentednM0VQo_AA14_PaddingLayoutVG_A1_Qo_Sg_AA012_ConditionalK0VyAY0xy3AndnE0V08CategoryxyE0Vy_A32_07PricingX6ButtonVGA34_y_A32_011GridQualityX6ButtonVGGtGGAaFHPyHC.32
++ _get_witness_table 7SwiftUI9TupleViewVyAA15ModifiedContentVy010HomeEnergyB0020AverageUsageAndTrendD0VAA19_BackgroundModifierVyAA14GeometryReaderVyAA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAEyAA5ColorVAA017_AppearanceActionN0VG_So6CGSizeVAXSQ12CoreGraphicsyHCg0_Qo_GSgGG_ACyAA4TextV_A4_tGSgAnAEAopQ_Qrqd___SbyyctSQRd__lFQOyAEyAF010HistoricalJ5ChartVAA14_PaddingLayoutVG_10Foundation4DateVQo_AF013FilterButtonsk6PickerD0VtGAaMHPyHC.17
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12onTapGesture5count7performQrSi_yyctFQOy010HomeEnergyB0022FilterButtonsAndPickerC0V05UsagekC0V_Qo_HO.67
++ _swift_getMetatypeMetadata
++ _symbolic Say_____G 10Foundation4DateV
++ _symbolic _____ 12HomeEnergyUI20HistoricalUsageChartV20ValidUsagesGroupingsO
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 12HomeEnergyUI20HistoricalUsageChartV20ValidUsagesGroupingsO 0D11KitInternal0D4SiteC0dG0V
++ _symbolic _____y_____y______GABy______G_G 7SwiftUI19_ConditionalContentV7StorageO 010HomeEnergyB026FilterButtonsAndPickerViewV08CategoryhiL0V AH07PricingH6ButtonV AH011GridQualityhO0V
++ _type_layout_string 12HomeEnergyUI26FilterButtonsAndPickerViewV07PricingD6ButtonV
+- ___swift_memcpy264_8
+- ___swift_memcpy296_8
+- ___unnamed_14
+- _associated conformance 12HomeEnergyUI20HistoricalUsageChartV20ValidUsagesGroupings33_A95BBC8CEAB147B957DFF492693EB719LLOSHAASQ
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.266
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.267
+- _get_witness_table 12HomeEnergyUI26FilterButtonsAndPickerViewV0D6ButtonRzl05SwiftC015ModifiedContentVyAE7ForEachVySaySiGSixGAE14_PaddingLayoutVGAE0H0HPAkeOHPxAcDHD1_AeOHI1__HC_AmE0H8ModifierHPyHCHC.55
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQOyACyACyAA6HStackVyAA05TupleE0VyACyAA5LabelVyAA4TextVACyAA5ImageVAA25_ForegroundStyleModifier2VyAA017HierarchicalShapeO0VAYGGGAA14_PaddingLayoutVG_AA6SpacerVACyACyASA2_GA2_GtGGAA30_EnvironmentKeyWritingModifierVyAHSgGGAA01_noY0VyAYGG_Qo_A16_yAA5ColorVGGAA011_BackgroundoY0VyAA8GradientVGGAA11_ClipEffectVyAA16RoundedRectangleVGGAA023AccessibilityAttachmentY0VGAaDHPA35_AaDHPA29_AaDHPA23_AaDHPqd__AaDHD2_A19_HO_A22_AA0eY0HPyHCHC_A28_AAA39_HPyHCHC_A34_AAA39_HPyHCHC_A37_AAA39_HPyHCHC.59
+- _get_witness_table 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOy010HomeEnergyB0022FilterButtonsAndPickerC0V05UsagekC0V_Qo_SgAaBHpqd__AaBHD2_ALHO_HC.57
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA0E0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAgAE11pickerStyleyQrqd__AA06PickerM0Rd__lFQOyALyAgAE10fontWeightyQrAA4FontV0P0VSgFQOyALyAA0N0VyAA4TextV010HomeEnergyB0023HistoricalUsageIntervalE0V17FilterButtonsTypeOAEyALyAgAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAX_A1_Qo_AA31AccessibilityAttachmentModifierVG_A7_tGGAA30_EnvironmentKeyWritingModifierVyAQSgGG_Qo_A11_yAA5ColorVSgGG_AA09SegmentednM0VQo_AA14_PaddingLayoutVG_A1_Qo_Sg_AA012_ConditionalK0VyAY0xy3AndnE0V08CategoryxyE0Vy_A32_07PricingX6ButtonVGA34_y_A32_011GridQualityX6ButtonVGGtGGAaFHPyHC.27
+- _get_witness_table 7SwiftUI9TupleViewVyAA15ModifiedContentVy010HomeEnergyB0020AverageUsageAndTrendD0VAA19_BackgroundModifierVyAA14GeometryReaderVyAA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAEyAA5ColorVAA017_AppearanceActionN0VG_So6CGSizeVAXSQ12CoreGraphicsyHCg0_Qo_GSgGG_ACyAA4TextV_A4_tGSgAnAEAopQ_Qrqd___SbyyctSQRd__lFQOyAEyAF010HistoricalJ5ChartVAA14_PaddingLayoutVG_10Foundation4DateVQo_AF013FilterButtonsk6PickerD0VtGAaMHPyHC.13
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12onTapGesture5count7performQrSi_yyctFQOy010HomeEnergyB0022FilterButtonsAndPickerC0V05UsagekC0V_Qo_HO.58
+- _objectdestroy.10Tm
+- _objectdestroy.41Tm
+- _swift_cvw_instantiateLayoutString
+- _symbolic _____ 12HomeEnergyUI20HistoricalUsageChartV20ValidUsagesGroupings33_A95BBC8CEAB147B957DFF492693EB719LLO
+- _symbolic _____y_____Say_____GG s18_DictionaryStorageC 12HomeEnergyUI20HistoricalUsageChartV20ValidUsagesGroupings33_A95BBC8CEAB147B957DFF492693EB719LLO 0D11KitInternal0D4SiteC0dG0V
+- _type_layout_string 12HomeEnergyUI26FilterButtonsAndPickerViewV011GridQualityD6ButtonV
+- _type_layout_string 12HomeEnergyUI26FilterButtonsAndPickerViewV0D6ButtonRzlAC08CategorydeH0Vy_xG
+CStrings:
++ "BODY: %s: viewport range: %s...%s containing %ld usages"
++ "GridQualityFilterButton:%s %ld (of %ld): %s"
++ "HomeEnergyUI/GridForecastSnapshotManager+Testing.swift"
++ "PricingFilterButton:%s %ld (of %ld): %s"
++ "String used when data is not available on filter buttons"
++ "com.apple.Home-private://homeHubUpdate"
++ "init(key:count:totalValue:selectedFilterIndex:isDataAvailable:)"
++ "setTestingSnapshot(type:error:gridID:locationCity:)"
++ "snapshot(hasOptedToHH2:)"
+- "GridQualityFilterButton:%s %ld (of %ld): %ld"
+- "PricingFilterButton:%s %ld (of %ld): %ld"
+- "init(key:count:totalValue:selectedFilterIndex:)"
+
+```

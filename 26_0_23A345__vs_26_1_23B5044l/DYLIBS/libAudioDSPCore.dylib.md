@@ -1,0 +1,312 @@
+## libAudioDSPCore.dylib
+
+> `/usr/lib/libAudioDSPCore.dylib`
+
+```diff
+
+-819.111.0.0.0
+-  __TEXT.__text: 0x6ee94
+-  __TEXT.__auth_stubs: 0x15b0
++819.204.1.0.0
++  __TEXT.__text: 0x70ee8
++  __TEXT.__auth_stubs: 0x1650
+   __TEXT.__objc_methlist: 0x14
+-  __TEXT.__gcc_except_tab: 0x6b78
+-  __TEXT.__cstring: 0x2742
+-  __TEXT.__const: 0x142a4
++  __TEXT.__gcc_except_tab: 0x6c40
++  __TEXT.__cstring: 0x2830
++  __TEXT.__const: 0x142c4
+   __TEXT.__oslogstring: 0x34d4
+   __TEXT.__dlopen_cstrs: 0x5a
+-  __TEXT.__unwind_info: 0x27f8
++  __TEXT.__unwind_info: 0x2898
+   __TEXT.__eh_frame: 0x50
+   __TEXT.__objc_classname: 0x12
+   __TEXT.__objc_methname: 0x148
+
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x88
+-  __AUTH_CONST.__auth_got: 0xae8
+-  __AUTH_CONST.__const: 0x1100
+-  __AUTH_CONST.__cfstring: 0x3e0
++  __AUTH_CONST.__auth_got: 0xb38
++  __AUTH_CONST.__const: 0x1190
++  __AUTH_CONST.__cfstring: 0x400
+   __AUTH_CONST.__objc_const: 0x90
+   __DATA.__data: 0x108
+   __DATA.__bss: 0x90
+   __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__bss: 0x198
++  __DATA_DIRTY.__bss: 0x1b0
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreAudio.framework/CoreAudio
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B2F1029E-654C-333A-AEB9-0DE141E6B3AF
+-  Functions: 1789
+-  Symbols:   4899
+-  CStrings:  797
++  UUID: 21BADE20-1ADA-30EC-9C7E-7476D1C66EC1
++  Functions: 1835
++  Symbols:   4997
++  CStrings:  808
+ 
+Symbols:
++ GCC_except_table150
++ GCC_except_table169
++ GCC_except_table191
++ GCC_except_table195
++ GCC_except_table199
++ GCC_except_table204
++ GCC_except_table209
++ GCC_except_table216
++ GCC_except_table221
++ GCC_except_table227
++ GCC_except_table236
++ GCC_except_table239
++ GCC_except_table252
++ GCC_except_table255
++ GCC_except_table261
++ GCC_except_table268
++ GCC_except_table271
++ GCC_except_table279
++ GCC_except_table283
++ GCC_except_table285
++ GCC_except_table301
++ GCC_except_table304
++ GCC_except_table305
++ GCC_except_table311
++ GCC_except_table330
++ GCC_except_table340
++ GCC_except_table341
++ GCC_except_table347
++ GCC_except_table354
++ GCC_except_table358
++ GCC_except_table366
++ GCC_except_table367
++ GCC_except_table370
++ GCC_except_table373
++ GCC_except_table374
++ GCC_except_table384
++ GCC_except_table391
++ GCC_except_table392
++ GCC_except_table394
++ GCC_except_table400
++ GCC_except_table404
++ GCC_except_table406
++ GCC_except_table413
++ GCC_except_table419
++ GCC_except_table425
++ GCC_except_table427
++ GCC_except_table428
++ GCC_except_table429
++ GCC_except_table430
++ GCC_except_table431
++ GCC_except_table448
++ GCC_except_table451
++ GCC_except_table452
++ GCC_except_table453
++ GCC_except_table461
++ GCC_except_table466
++ GCC_except_table470
++ GCC_except_table476
++ GCC_except_table478
++ GCC_except_table480
++ GCC_except_table482
++ GCC_except_table493
++ GCC_except_table494
++ GCC_except_table495
++ GCC_except_table496
++ GCC_except_table497
++ GCC_except_table498
++ GCC_except_table499
++ GCC_except_table518
++ GCC_except_table521
++ GCC_except_table522
++ GCC_except_table523
++ GCC_except_table524
++ GCC_except_table526
++ GCC_except_table527
++ GCC_except_table532
++ GCC_except_table549
++ GCC_except_table550
++ GCC_except_table551
++ GCC_except_table581
++ GCC_except_table582
++ GCC_except_table583
++ GCC_except_table593
++ GCC_except_table598
++ GCC_except_table599
++ GCC_except_table604
++ __ZN10applesauce2CF7details23find_at_key_or_optionalIbPK10__CFStringEENSt3__18optionalIT_EEPK14__CFDictionaryOT0_NS1_15counterpart_tagE
++ __ZN2IR16IRDataAttributesC1EN10applesauce2CF6URLRefEfjbNS_24IRSphericalInterpolationENS_10IRDataTypeE
++ __ZN2IR16IRDataAttributesC1EPK10__CFStringfjbNS_24IRSphericalInterpolationENS_10IRDataTypeE
++ __ZN2IR16IRDataAttributesC2EN10applesauce2CF6URLRefEfjbNS_12IRDataWindowENS_24IRSphericalInterpolationENS_10IRDataTypeE
++ __ZN2IR17FixedIntegerDelayIDF16_E5resetEv
++ __ZN2IR17FixedIntegerDelayIDF16_E7processEPKDF16_PDF16_j
++ __ZN2IR17FixedIntegerDelayIDF16_E7processEPKDF16_PDF16_j.cold.1
++ __ZN2IR17FixedIntegerDelayIDF16_E7processEPKDF16_PDF16_j.cold.2
++ __ZN2IR17FixedIntegerDelayIDF16_E7processEPKDF16_PDF16_j.cold.3
++ __ZN2IR17FixedIntegerDelayIDF16_EC1Ejb
++ __ZN2IR17FixedIntegerDelayIDF16_EC2Ejb
++ __ZN2IR17FixedIntegerDelayIfE5resetEv
++ __ZN2IR17FixedIntegerDelayIfE7processEPKfPfj
++ __ZN2IR17FixedIntegerDelayIfE7processEPKfPfj.cold.1
++ __ZN2IR17FixedIntegerDelayIfE7processEPKfPfj.cold.2
++ __ZN2IR17FixedIntegerDelayIfE7processEPKfPfj.cold.3
++ __ZN2IR17FixedIntegerDelayIfEC1Ejb
++ __ZN2IR17FixedIntegerDelayIfEC2Ejb
++ __ZN2IR22IRDirectivityMagnitude17computeMagnitudesERKNSt3__16vectorINS1_10unique_ptrINS_15FFTFilterKernelIfEENS1_14default_deleteIS5_EEEENS1_9allocatorIS8_EEEERNS2_IfNS9_IfEEEE
++ __ZN2IR22IRDirectivityMagnitude17computeMagnitudesERKNSt3__16vectorINS1_10unique_ptrINS_15FFTFilterKernelIfEENS1_14default_deleteIS5_EEEENS1_9allocatorIS8_EEEERNS2_IfNS9_IfEEEE.cold.1
++ __ZN2IR22IRDirectivityMagnitude17computeMagnitudesERKNSt3__16vectorINS1_10unique_ptrINS_15FFTFilterKernelIfEENS1_14default_deleteIS5_EEEENS1_9allocatorIS8_EEEERNS2_IfNS9_IfEEEE.cold.2
++ __ZN2IR22IRDirectivityMagnitude35initializeOctaveFrequencyFilterBankEv
++ __ZN2IR22IRDirectivityMagnitudeC1Efj
++ __ZN2IR22IRDirectivityMagnitudeC2Efj
++ __ZN2IR22IRDirectivityMagnitudeD2Ev
++ __ZN2IR6IRData14Implementation18insertIRDataInTreeERKNS_13IRCoordinatesEONSt3__16vectorINS5_10unique_ptrINS_15FFTFilterKernelIfEENS5_14default_deleteIS9_EEEENS5_9allocatorISC_EEEEONS6_IfNSD_IfEEEESJ_iRKNS6_IiNSD_IiEEEE
++ __ZN2IR6IRData14Implementation18insertIRDataInTreeERNSt3__16vectorINS_10IRDataNodeENS2_9allocatorIS4_EEEERKNS_13IRCoordinatesEONS3_INS2_10unique_ptrINS_15FFTFilterKernelIfEENS2_14default_deleteISE_EEEENS5_ISH_EEEEONS3_IfNS5_IfEEEESN_iRKNS3_IiNS5_IiEEEE
++ __ZN2IR6IRData14Implementation18insertIRDataInTreeERNSt3__16vectorINS_10IRDataNodeENS2_9allocatorIS4_EEEERKNS_13IRCoordinatesEONS3_INS2_10unique_ptrINS_15FFTFilterKernelIfEENS2_14default_deleteISE_EEEENS5_ISH_EEEEONS3_IfNS5_IfEEEESN_iRKNS3_IiNS5_IiEEEE.cold.1
++ __ZNK2IR17FixedIntegerDelayIDF16_E8getDelayEv
++ __ZNK2IR17FixedIntegerDelayIfE8getDelayEv
++ __ZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS_13IRCoordinatesENSt3__14spanIfLm18446744073709551615EEENS_21IRInterpolationMethodE
++ __ZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS_13IRCoordinatesENSt3__14spanIfLm18446744073709551615EEENS_21IRInterpolationMethodE.cold.1
++ __ZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS_13IRCoordinatesENSt3__14spanIfLm18446744073709551615EEENS_21IRInterpolationMethodE.cold.2
++ __ZNK2IR6IRData16getAuxDataLengthEv
++ __ZNK2IR6IRData22getInterpolatedAuxDataERKNS_13IRCoordinatesENSt3__14spanIfLm18446744073709551615EEENS_21IRInterpolationMethodE
++ __ZNK2IR6IRData22getInterpolatedAuxDataERKNS_13IRCoordinatesERNSt3__16vectorIfNS4_9allocatorIfEEEENS_21IRInterpolationMethodE
++ __ZNKSt3__110__function6__funcINS_17reference_wrapperIZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS3_13IRCoordinatesENS_4spanIfLm18446744073709551615EEENS3_21IRInterpolationMethodEE3$_0EENS_9allocatorISD_EEFvRKNS3_10IRDataNodeESI_ffEE7__cloneEPNS0_6__baseISJ_EE
++ __ZNKSt3__110__function6__funcINS_17reference_wrapperIZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS3_13IRCoordinatesENS_4spanIfLm18446744073709551615EEENS3_21IRInterpolationMethodEE3$_0EENS_9allocatorISD_EEFvRKNS3_10IRDataNodeESI_ffEE7__cloneEv
++ __ZNKSt3__110__function6__funcINS_17reference_wrapperIZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS3_13IRCoordinatesENS_4spanIfLm18446744073709551615EEENS3_21IRInterpolationMethodEE3$_1EENS_9allocatorISD_EEFvRKNS3_10IRDataNodeESI_ffEE7__cloneEPNS0_6__baseISJ_EE
++ __ZNKSt3__110__function6__funcINS_17reference_wrapperIZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS3_13IRCoordinatesENS_4spanIfLm18446744073709551615EEENS3_21IRInterpolationMethodEE3$_1EENS_9allocatorISD_EEFvRKNS3_10IRDataNodeESI_ffEE7__cloneEv
++ __ZNSt3__110__function6__funcINS_17reference_wrapperIZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS3_13IRCoordinatesENS_4spanIfLm18446744073709551615EEENS3_21IRInterpolationMethodEE3$_0EENS_9allocatorISD_EEFvRKNS3_10IRDataNodeESI_ffEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcINS_17reference_wrapperIZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS3_13IRCoordinatesENS_4spanIfLm18446744073709551615EEENS3_21IRInterpolationMethodEE3$_0EENS_9allocatorISD_EEFvRKNS3_10IRDataNodeESI_ffEE7destroyEv
++ __ZNSt3__110__function6__funcINS_17reference_wrapperIZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS3_13IRCoordinatesENS_4spanIfLm18446744073709551615EEENS3_21IRInterpolationMethodEE3$_0EENS_9allocatorISD_EEFvRKNS3_10IRDataNodeESI_ffEED0Ev
++ __ZNSt3__110__function6__funcINS_17reference_wrapperIZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS3_13IRCoordinatesENS_4spanIfLm18446744073709551615EEENS3_21IRInterpolationMethodEE3$_0EENS_9allocatorISD_EEFvRKNS3_10IRDataNodeESI_ffEED1Ev
++ __ZNSt3__110__function6__funcINS_17reference_wrapperIZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS3_13IRCoordinatesENS_4spanIfLm18446744073709551615EEENS3_21IRInterpolationMethodEE3$_0EENS_9allocatorISD_EEFvRKNS3_10IRDataNodeESI_ffEEclESI_SI_OfSL_
++ __ZNSt3__110__function6__funcINS_17reference_wrapperIZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS3_13IRCoordinatesENS_4spanIfLm18446744073709551615EEENS3_21IRInterpolationMethodEE3$_1EENS_9allocatorISD_EEFvRKNS3_10IRDataNodeESI_ffEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcINS_17reference_wrapperIZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS3_13IRCoordinatesENS_4spanIfLm18446744073709551615EEENS3_21IRInterpolationMethodEE3$_1EENS_9allocatorISD_EEFvRKNS3_10IRDataNodeESI_ffEE7destroyEv
++ __ZNSt3__110__function6__funcINS_17reference_wrapperIZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS3_13IRCoordinatesENS_4spanIfLm18446744073709551615EEENS3_21IRInterpolationMethodEE3$_1EENS_9allocatorISD_EEFvRKNS3_10IRDataNodeESI_ffEED0Ev
++ __ZNSt3__110__function6__funcINS_17reference_wrapperIZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS3_13IRCoordinatesENS_4spanIfLm18446744073709551615EEENS3_21IRInterpolationMethodEE3$_1EENS_9allocatorISD_EEFvRKNS3_10IRDataNodeESI_ffEED1Ev
++ __ZNSt3__110__function6__funcINS_17reference_wrapperIZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS3_13IRCoordinatesENS_4spanIfLm18446744073709551615EEENS3_21IRInterpolationMethodEE3$_1EENS_9allocatorISD_EEFvRKNS3_10IRDataNodeESI_ffEEclESI_SI_OfSL_
++ __ZNSt3__110unique_ptrI20vDSP_DFT_SetupStructN10applesauce4raii2v16detail23opaque_deletion_functorIPS1_XadL_ZN4vdsp16DFT_DestroySetupIfEEvNS8_16detail_DFT_SetupIT_E4typeEEEEEE5resetB8ne200100ES7_
++ __ZNSt3__110unique_ptrIN2IR17FixedIntegerDelayIfEENS_14default_deleteIS3_EEE5resetB8ne200100EPS3_
++ __ZNSt3__110unique_ptrIN2IR22IRDirectivityMagnitudeENS_14default_deleteIS2_EEE5resetB8ne200100EPS2_
++ __ZNSt3__16vectorIDF16_NS_9allocatorIDF16_EEE6resizeEmRKDF16_
++ __ZNSt3__16vectorIDF16_NS_9allocatorIDF16_EEE8__appendEmRKDF16_
++ __ZTVNSt3__110__function6__funcINS_17reference_wrapperIZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS3_13IRCoordinatesENS_4spanIfLm18446744073709551615EEENS3_21IRInterpolationMethodEE3$_0EENS_9allocatorISD_EEFvRKNS3_10IRDataNodeESI_ffEEE
++ __ZTVNSt3__110__function6__funcINS_17reference_wrapperIZNK2IR6IRData14Implementation22getInterpolatedAuxDataERKNS3_13IRCoordinatesENS_4spanIfLm18446744073709551615EEENS3_21IRInterpolationMethodEE3$_1EENS_9allocatorISD_EEFvRKNS3_10IRDataNodeESI_ffEEE
++ _vDSP_vfixr32
++ _vDSP_vgen
++ _vDSP_vsdiv
++ _vDSP_zvabs
++ _vvexp2f
+- GCC_except_table151
+- GCC_except_table177
+- GCC_except_table185
+- GCC_except_table189
+- GCC_except_table198
+- GCC_except_table202
+- GCC_except_table206
+- GCC_except_table208
+- GCC_except_table215
+- GCC_except_table220
+- GCC_except_table225
+- GCC_except_table230
+- GCC_except_table238
+- GCC_except_table247
+- GCC_except_table250
+- GCC_except_table256
+- GCC_except_table263
+- GCC_except_table266
+- GCC_except_table270
+- GCC_except_table274
+- GCC_except_table278
+- GCC_except_table281
+- GCC_except_table296
+- GCC_except_table299
+- GCC_except_table300
+- GCC_except_table303
+- GCC_except_table324
+- GCC_except_table326
+- GCC_except_table328
+- GCC_except_table344
+- GCC_except_table345
+- GCC_except_table348
+- GCC_except_table352
+- GCC_except_table356
+- GCC_except_table363
+- GCC_except_table364
+- GCC_except_table376
+- GCC_except_table378
+- GCC_except_table379
+- GCC_except_table385
+- GCC_except_table387
+- GCC_except_table389
+- GCC_except_table396
+- GCC_except_table399
+- GCC_except_table405
+- GCC_except_table409
+- GCC_except_table412
+- GCC_except_table418
+- GCC_except_table421
+- GCC_except_table424
+- GCC_except_table441
+- GCC_except_table444
+- GCC_except_table445
+- GCC_except_table446
+- GCC_except_table454
+- GCC_except_table455
+- GCC_except_table457
+- GCC_except_table458
+- GCC_except_table459
+- GCC_except_table463
+- GCC_except_table473
+- GCC_except_table474
+- GCC_except_table475
+- GCC_except_table484
+- GCC_except_table485
+- GCC_except_table487
+- GCC_except_table489
+- GCC_except_table490
+- GCC_except_table507
+- GCC_except_table508
+- GCC_except_table509
+- GCC_except_table510
+- GCC_except_table511
+- GCC_except_table512
+- GCC_except_table513
+- GCC_except_table525
+- GCC_except_table542
+- GCC_except_table543
+- GCC_except_table544
+- GCC_except_table574
+- GCC_except_table575
+- GCC_except_table576
+- GCC_except_table586
+- GCC_except_table591
+- GCC_except_table592
+- GCC_except_table597
+- __ZN2IR16IRDataAttributesC1EN10applesauce2CF6URLRefEfjbNS_24IRSphericalInterpolationE
+- __ZN2IR16IRDataAttributesC1EPK10__CFStringfjbNS_24IRSphericalInterpolationE
+- __ZN2IR16IRDataAttributesC2EN10applesauce2CF6URLRefEfjbNS_12IRDataWindowENS_24IRSphericalInterpolationE
+- __ZN2IR6IRData14Implementation18insertIRDataInTreeERKNS_13IRCoordinatesEONSt3__16vectorINS5_10unique_ptrINS_15FFTFilterKernelIfEENS5_14default_deleteIS9_EEEENS5_9allocatorISC_EEEEONS6_IfNSD_IfEEEEiRKNS6_IiNSD_IiEEEE
+- __ZN2IR6IRData14Implementation18insertIRDataInTreeERNSt3__16vectorINS_10IRDataNodeENS2_9allocatorIS4_EEEERKNS_13IRCoordinatesEONS3_INS2_10unique_ptrINS_15FFTFilterKernelIfEENS2_14default_deleteISE_EEEENS5_ISH_EEEEONS3_IfNS5_IfEEEEiRKNS3_IiNS5_IiEEEE
+- __ZN2IR6IRData14Implementation18insertIRDataInTreeERNSt3__16vectorINS_10IRDataNodeENS2_9allocatorIS4_EEEERKNS_13IRCoordinatesEONS3_INS2_10unique_ptrINS_15FFTFilterKernelIfEENS2_14default_deleteISE_EEEENS5_ISH_EEEEONS3_IfNS5_IfEEEEiRKNS3_IiNS5_IiEEEE.cold.1
+CStrings:
++ "!mPrimaryDelayBuf.empty()"
++ "!mSecondaryDelayBuf.empty()"
++ "DelayBakedInCoeffs"
++ "DirectivityIR"
++ "FixedIntegerDelay.cpp"
++ "IRDirectivityMagnitude.cpp"
++ "computeMagnitudes"
++ "getInterpolatedAuxData"
++ "inFilterKernels.size()>0U"
++ "outMagnitudes.size() >= mBandCount"
+
+```

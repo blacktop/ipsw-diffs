@@ -1,0 +1,1869 @@
+## ImageCaptureCore
+
+> `/System/Library/Frameworks/ImageCaptureCore.framework/ImageCaptureCore`
+
+```diff
+
+-2019.0.0.0.0
+-  __TEXT.__text: 0x3d8ac
+-  __TEXT.__auth_stubs: 0xa70
+-  __TEXT.__objc_methlist: 0x3934
+-  __TEXT.__const: 0x90
+-  __TEXT.__gcc_except_tab: 0x11b4
+-  __TEXT.__cstring: 0x5f40
+-  __TEXT.__oslogstring: 0x80
+-  __TEXT.__ustring: 0x486
+-  __TEXT.__unwind_info: 0xd10
+-  __TEXT.__objc_classname: 0x337
+-  __TEXT.__objc_methname: 0x9440
+-  __TEXT.__objc_methtype: 0xee2
+-  __TEXT.__objc_stubs: 0x6120
+-  __DATA_CONST.__got: 0x278
+-  __DATA_CONST.__const: 0xf70
+-  __DATA_CONST.__objc_classlist: 0xc8
++2020.1.5.0.0
++  __TEXT.__text: 0x2cba0
++  __TEXT.__auth_stubs: 0x7d0
++  __TEXT.__objc_methlist: 0x29d4
++  __TEXT.__const: 0x70
++  __TEXT.__gcc_except_tab: 0xc70
++  __TEXT.__cstring: 0x276e
++  __TEXT.__oslogstring: 0x3f
++  __TEXT.__ustring: 0x478
++  __TEXT.__unwind_info: 0x9f0
++  __TEXT.__objc_classname: 0x1f1
++  __TEXT.__objc_methname: 0x736b
++  __TEXT.__objc_methtype: 0xb87
++  __TEXT.__objc_stubs: 0x4fe0
++  __DATA_CONST.__got: 0x218
++  __DATA_CONST.__const: 0xc68
++  __DATA_CONST.__objc_classlist: 0x68
+   __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x60
++  __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2498
++  __DATA_CONST.__objc_selrefs: 0x1d10
+   __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA_CONST.__objc_superrefs: 0xc0
+-  __DATA_CONST.__objc_arraydata: 0x28d8
+-  __AUTH_CONST.__auth_got: 0x548
+-  __AUTH_CONST.__const: 0x2e0
+-  __AUTH_CONST.__cfstring: 0x79c0
+-  __AUTH_CONST.__objc_const: 0x4a18
+-  __AUTH_CONST.__objc_dictobj: 0x2238
+-  __AUTH_CONST.__objc_intobj: 0x750
++  __DATA_CONST.__objc_superrefs: 0x60
++  __DATA_CONST.__objc_arraydata: 0x58
++  __AUTH_CONST.__auth_got: 0x3f8
++  __AUTH_CONST.__const: 0x140
++  __AUTH_CONST.__cfstring: 0x3c40
++  __AUTH_CONST.__objc_const: 0x3460
++  __AUTH_CONST.__objc_dictobj: 0x78
++  __AUTH_CONST.__objc_intobj: 0x90
+   __AUTH_CONST.__objc_arrayobj: 0x60
+-  __AUTH.__objc_data: 0x640
+-  __DATA.__objc_ivar: 0x418
+-  __DATA.__data: 0x4a8
+-  __DATA.__bss: 0xa8
++  __AUTH.__objc_data: 0x280
++  __DATA.__objc_ivar: 0x2f8
++  __DATA.__data: 0x314
++  __DATA.__bss: 0x70
+   __DATA.__common: 0xc
+   __DATA_DIRTY.__objc_data: 0x190
+-  __DATA_DIRTY.__bss: 0x60
+-  __DATA_DIRTY.__common: 0x20
++  __DATA_DIRTY.__bss: 0x38
++  __DATA_DIRTY.__common: 0x10
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+-  - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+   - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+   - /System/Library/PrivateFrameworks/IconFoundation.framework/IconFoundation
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
++  - /System/Library/PrivateFrameworks/ImageCaptureDevices.framework/ImageCaptureDevices
+   - /System/Library/PrivateFrameworks/MMCS.framework/MMCS
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/libsqlite3.dylib
+-  UUID: D79889A2-7420-3135-87C3-941E5EF992BA
+-  Functions: 1400
+-  Symbols:   4607
+-  CStrings:  3891
++  UUID: 607EED8F-E73F-3E22-95ED-12A805374AC2
++  Functions: 1013
++  Symbols:   3397
++  CStrings:  2471
+ 
+Symbols:
++ +[ICAccessManager captureUserIntentForConnection:accessType:]
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ICAuthManagerProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ICRemoteCameraDeviceManagerProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ICRemoteCameraDeviceProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ICAuthManagerProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ICRemoteCameraDeviceManagerProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ICRemoteCameraDeviceProtocol
++ __OBJC_LABEL_PROTOCOL_$_ICAuthManagerProtocol
++ __OBJC_LABEL_PROTOCOL_$_ICRemoteCameraDeviceManagerProtocol
++ __OBJC_LABEL_PROTOCOL_$_ICRemoteCameraDeviceProtocol
++ __OBJC_PROTOCOL_$_ICAuthManagerProtocol
++ __OBJC_PROTOCOL_$_ICRemoteCameraDeviceManagerProtocol
++ __OBJC_PROTOCOL_$_ICRemoteCameraDeviceProtocol
++ __OBJC_PROTOCOL_REFERENCE_$_ICAuthManagerProtocol
++ __OBJC_PROTOCOL_REFERENCE_$_ICRemoteCameraDeviceManagerProtocol
++ __OBJC_PROTOCOL_REFERENCE_$_ICRemoteCameraDeviceProtocol
++ ___42-[ICDeviceManager openRemoteDeviceManager]_block_invoke.253
++ _objc_msgSend$captureUserIntentForConnection:accessType:
+- +[ICCameraItemProxy supportsSecureCoding]
+- +[ICDeviceAccessManager sharedAccessManager]
+- +[ICDeviceAccessManager sharedAccessManager].cold.1
+- +[PTPWrappedBytes wrappedBytesWithBytes:capacity:]
+- +[PTPWrappedBytes wrappedBytesWithCapacity:]
+- -[ICCameraFileFingerprint .cxx_destruct]
+- -[ICCameraFileFingerprint _createSignatureGenerator]
+- -[ICCameraFileFingerprint fingerprintForData:error:]
+- -[ICCameraFileFingerprint fingerprintForFD:error:]
+- -[ICCameraFileFingerprint fingerprintForFileAtURL:error:]
+- -[ICCameraFileFingerprint fixupFileHandleError:]
+- -[ICCameraFileFingerprint init]
+- -[ICCameraFileFingerprint zeroByteFileFingerprint]
+- -[ICCameraItemProxy .cxx_destruct]
+- -[ICCameraItemProxy captureDate]
+- -[ICCameraItemProxy encodeWithCoder:]
+- -[ICCameraItemProxy hasThumbnail]
+- -[ICCameraItemProxy height]
+- -[ICCameraItemProxy initWithCoder:]
+- -[ICCameraItemProxy init]
+- -[ICCameraItemProxy keywords]
+- -[ICCameraItemProxy modificationDate]
+- -[ICCameraItemProxy name]
+- -[ICCameraItemProxy objectHandle]
+- -[ICCameraItemProxy orientation]
+- -[ICCameraItemProxy parentObjectHandle]
+- -[ICCameraItemProxy readOnly]
+- -[ICCameraItemProxy sequenceNumber]
+- -[ICCameraItemProxy setCaptureDate:]
+- -[ICCameraItemProxy setHasThumbnail:]
+- -[ICCameraItemProxy setHeight:]
+- -[ICCameraItemProxy setKeywords:]
+- -[ICCameraItemProxy setModificationDate:]
+- -[ICCameraItemProxy setName:]
+- -[ICCameraItemProxy setObjectHandle:]
+- -[ICCameraItemProxy setOrientation:]
+- -[ICCameraItemProxy setParentObjectHandle:]
+- -[ICCameraItemProxy setReadOnly:]
+- -[ICCameraItemProxy setSequenceNumber:]
+- -[ICCameraItemProxy setSize:]
+- -[ICCameraItemProxy setStorageID:]
+- -[ICCameraItemProxy setTopLevel:]
+- -[ICCameraItemProxy setType:]
+- -[ICCameraItemProxy setWidth:]
+- -[ICCameraItemProxy size]
+- -[ICCameraItemProxy storageID]
+- -[ICCameraItemProxy topLevel]
+- -[ICCameraItemProxy type]
+- -[ICCameraItemProxy width]
+- -[ICDeviceAccessManager .cxx_destruct]
+- -[ICDeviceAccessManager addBundleIdentifier:]
+- -[ICDeviceAccessManager addBundleIdentifier:].cold.1
+- -[ICDeviceAccessManager allBundleIdentifiers]
+- -[ICDeviceAccessManager bundleIdentifier:stateForAccessType:]
+- -[ICDeviceAccessManager bundleIdentifiersAccessingExternalCamerasWithStatus]
+- -[ICDeviceAccessManager bundleIdentifiersAccessingExternalCameras]
+- -[ICDeviceAccessManager bundleIdentifiersWithAccessType:]
+- -[ICDeviceAccessManager captureUserIntentForBundleIdentifier:withNotification:]
+- -[ICDeviceAccessManager captureUserIntentForControlWithBundleIdentifier:withNotification:]
+- -[ICDeviceAccessManager connection:stateForAccessType:]
+- -[ICDeviceAccessManager dealloc]
+- -[ICDeviceAccessManager dealloc].cold.1
+- -[ICDeviceAccessManager deviceAccessQueue]
+- -[ICDeviceAccessManager displayAlertForApplication:withNotification:completionBlock:]
+- -[ICDeviceAccessManager displayAlertForControlWithNotification:completionBlock:]
+- -[ICDeviceAccessManager externalMediaAccessDB]
+- -[ICDeviceAccessManager init]
+- -[ICDeviceAccessManager openDB:]
+- -[ICDeviceAccessManager revokeBundleIdentifier:]
+- -[ICDeviceAccessManager revokeBundleIdentifier:].cold.1
+- -[ICDeviceAccessManager setDeviceAccessQueue:]
+- -[ICDeviceAccessManager setExternalMediaAccessDB:]
+- -[ICDeviceAccessManager updateApplicationWithBundleIdentifier:withStatus:]
+- -[ICDeviceAccessManager updateBundleIdentifier:accessType:withState:]
+- -[ICDeviceAccessManager validateBundleIdentifierInstalled:]
+- -[ICOrderedMediaSet .cxx_destruct]
+- -[ICOrderedMediaSet addMediaItemToIndex:]
+- -[ICOrderedMediaSet arrayForType:]
+- -[ICOrderedMediaSet initWithTypes:]
+- -[ICOrderedMediaSet mediaItemCount]
+- -[ICOrderedMediaSet mediaItemWithHandle:inTypes:]
+- -[ICOrderedMediaSet mediaItems]
+- -[ICOrderedMediaSet mediaLock]
+- -[ICOrderedMediaSet orderedSetForType:]
+- -[ICOrderedMediaSet performSelector:onTypes:]
+- -[ICOrderedMediaSet removeAllItems]
+- -[ICOrderedMediaSet removeMediaItemFromIndex:]
+- -[ICOrderedMediaSet removeMediaItemWithHandleFromIndex:]
+- -[ICOrderedMediaSet removeMediaItemsFromIndex:]
+- -[ICOrderedMediaSet setMediaItems:]
+- -[ICOrderedMediaSet setMediaLock:]
+- -[ICRemoteCameraDevice .cxx_destruct]
+- -[ICRemoteCameraDevice acceptConnection:]
+- -[ICRemoteCameraDevice addInitiatedOperation:]
+- -[ICRemoteCameraDevice addInteractiveOperation:]
+- -[ICRemoteCameraDevice addSelectorToInterface:selectorString:origin:]
+- -[ICRemoteCameraDevice addSelectorToInterface:selectorString:origin:].cold.1
+- -[ICRemoteCameraDevice addedBundles]
+- -[ICRemoteCameraDevice additionalProperties]
+- -[ICRemoteCameraDevice allConnections]
+- -[ICRemoteCameraDevice cameraDictionary]
+- -[ICRemoteCameraDevice closeDevice]
+- -[ICRemoteCameraDevice cpPowerAssertion]
+- -[ICRemoteCameraDevice dealloc]
+- -[ICRemoteCameraDevice delegate]
+- -[ICRemoteCameraDevice deniedBundles]
+- -[ICRemoteCameraDevice deviceOperationQueue]
+- -[ICRemoteCameraDevice deviceOperationUnderlyingQueue]
+- -[ICRemoteCameraDevice endpoint]
+- -[ICRemoteCameraDevice evaulateCommonTCC:]
+- -[ICRemoteCameraDevice holdPowerAssertion]
+- -[ICRemoteCameraDevice initWithDeviceContext:]
+- -[ICRemoteCameraDevice internalUUID]
+- -[ICRemoteCameraDevice listener:shouldAcceptNewConnection:]
+- -[ICRemoteCameraDevice listener]
+- -[ICRemoteCameraDevice registerInterestedEventNotifications:]
+- -[ICRemoteCameraDevice releasePowerAssertion]
+- -[ICRemoteCameraDevice removeAllSessions]
+- -[ICRemoteCameraDevice removeSessionsWithProcessIdentifier:]
+- -[ICRemoteCameraDevice sendAddedItemsNotification:toConnections:]
+- -[ICRemoteCameraDevice sendNotification:toConnections:selector:]
+- -[ICRemoteCameraDevice sendPTPEventNotification:]
+- -[ICRemoteCameraDevice sendRemovedItemsNotification:toConnections:]
+- -[ICRemoteCameraDevice sendStatusNotification:toConnections:]
+- -[ICRemoteCameraDevice sendUpdatedItemsNotification:toConnections:]
+- -[ICRemoteCameraDevice sessionManagerDidCloseAllSessions:]
+- -[ICRemoteCameraDevice sessionManager]
+- -[ICRemoteCameraDevice setAddedBundles:]
+- -[ICRemoteCameraDevice setCameraDictionary:]
+- -[ICRemoteCameraDevice setCpPowerAssertion:]
+- -[ICRemoteCameraDevice setDelegate:]
+- -[ICRemoteCameraDevice setDeniedBundles:]
+- -[ICRemoteCameraDevice setDeviceOperationQueue:]
+- -[ICRemoteCameraDevice setDeviceOperationUnderlyingQueue:]
+- -[ICRemoteCameraDevice setListener:]
+- -[ICRemoteCameraDevice setSessionManager:]
+- -[ICRemoteCameraDevice startListening]
+- -[ICRemoteCameraDevice unregisterInterestedEventNotifications:]
+- -[ICRemoteCameraDeviceManager .cxx_destruct]
+- -[ICRemoteCameraDeviceManager addRemoteCameraDevice:uuidString:deviceName:]
+- -[ICRemoteCameraDeviceManager addRemoteManagerConnection:]
+- -[ICRemoteCameraDeviceManager addSelectorToInterface:selectorString:origin:]
+- -[ICRemoteCameraDeviceManager addSelectorToInterface:selectorString:origin:].cold.1
+- -[ICRemoteCameraDeviceManager closeDevice:]
+- -[ICRemoteCameraDeviceManager dealloc]
+- -[ICRemoteCameraDeviceManager ejectDevice:withReply:]
+- -[ICRemoteCameraDeviceManager initManaging:systemDaemon:]
+- -[ICRemoteCameraDeviceManager listener:shouldAcceptNewConnection:]
+- -[ICRemoteCameraDeviceManager managedObjectName]
+- -[ICRemoteCameraDeviceManager notifyClientDeviceAdded:uuidString:deviceName:]
+- -[ICRemoteCameraDeviceManager notifyClientDeviceRemoved:]
+- -[ICRemoteCameraDeviceManager openDevice:withReply:]
+- -[ICRemoteCameraDeviceManager osTransactions]
+- -[ICRemoteCameraDeviceManager remoteCameraDevicesLock]
+- -[ICRemoteCameraDeviceManager remoteCameraDevices]
+- -[ICRemoteCameraDeviceManager remoteDeviceForPrimaryIdentifier:]
+- -[ICRemoteCameraDeviceManager remoteDeviceForUUID:]
+- -[ICRemoteCameraDeviceManager remoteManagerConnectionWithProcessIdentifierAuthorized:]
+- -[ICRemoteCameraDeviceManager remoteManagerConnectionsLock]
+- -[ICRemoteCameraDeviceManager remoteManagerConnections]
+- -[ICRemoteCameraDeviceManager removeRemoteCameraDevice:]
+- -[ICRemoteCameraDeviceManager removeRemoteManagerConnectionWithProcessIdentifier:]
+- -[ICRemoteCameraDeviceManager requestDeviceListWithOptions:reply:]
+- -[ICRemoteCameraDeviceManager setManagedObjectName:]
+- -[ICRemoteCameraDeviceManager setOsTransactions:]
+- -[ICRemoteCameraDeviceManager setRemoteCameraDevices:]
+- -[ICRemoteCameraDeviceManager setRemoteCameraDevicesLock:]
+- -[ICRemoteCameraDeviceManager setRemoteManagerConnections:]
+- -[ICRemoteCameraDeviceManager setRemoteManagerConnectionsLock:]
+- -[ICRemoteCameraDeviceManager setSystemDaemon:]
+- -[ICRemoteCameraDeviceManager startDeviceNotifications]
+- -[ICRemoteCameraDeviceManager systemDaemon]
+- -[ICRemoteCameraDeviceManager updateRemoteManagerConnectionWithProcessIdentifier:authorized:]
+- -[ICRemoteCameraDeviceProxy .cxx_destruct]
+- -[ICRemoteCameraDeviceProxy camera]
+- -[ICRemoteCameraDeviceProxy dealloc]
+- -[ICRemoteCameraDeviceProxy deviceContext]
+- -[ICRemoteCameraDeviceProxy initWithPrimaryIdentifierString:uuidString:localizedName:]
+- -[ICRemoteCameraDeviceProxy localizedName]
+- -[ICRemoteCameraDeviceProxy primaryIdentifierString]
+- -[ICRemoteCameraDeviceProxy setCamera:]
+- -[ICRemoteCameraDeviceProxy setLocalizedName:]
+- -[ICRemoteCameraDeviceProxy setPrimaryIdentifierString:]
+- -[ICRemoteCameraDeviceProxy setUuidString:]
+- -[ICRemoteCameraDeviceProxy uuidString]
+- -[ICSession .cxx_destruct]
+- -[ICSession addNotifications:]
+- -[ICSession connection]
+- -[ICSession dealloc]
+- -[ICSession forwardPTPEvents]
+- -[ICSession initWithConnection:]
+- -[ICSession interestedInNotification:]
+- -[ICSession notifications]
+- -[ICSession objectHandle]
+- -[ICSession openSession]
+- -[ICSession pid]
+- -[ICSession remNotifications:]
+- -[ICSession setConnection:]
+- -[ICSession setForwardPTPEvents:]
+- -[ICSession setObjectHandle:]
+- -[ICSession setOpenSession:]
+- -[ICSessionManager .cxx_destruct]
+- -[ICSessionManager addNotifications:toSessionWithConnection:]
+- -[ICSessionManager connectionsMonitoringNotification:]
+- -[ICSessionManager connectionsMonitoringObjectID:]
+- -[ICSessionManager connections]
+- -[ICSessionManager createSessionWithConnection:]
+- -[ICSessionManager currentSessionCount]
+- -[ICSessionManager delegate]
+- -[ICSessionManager initWithDelegate:]
+- -[ICSessionManager remNotifications:fromSessionWithConnection:]
+- -[ICSessionManager removeAllSessions]
+- -[ICSessionManager removeSessionWithConnection:]
+- -[ICSessionManager removeSessionsWithProcessIdentifier:]
+- -[ICSessionManager sessionCount]
+- -[ICSessionManager sessionWithConnection:]
+- -[ICSessionManager sessions]
+- -[ICSessionManager setDelegate:]
+- -[PTPOperationRequestPacket contentForTCP]
+- -[PTPOperationRequestPacket contentForUSBUsingBuffer:capacity:]
+- -[PTPOperationRequestPacket contentForUSB]
+- -[PTPOperationRequestPacket dataPhaseInfo]
+- -[PTPOperationRequestPacket description]
+- -[PTPOperationRequestPacket initWithOperationCode:transactionID:dataPhaseInfo:]
+- -[PTPOperationRequestPacket initWithOperationCode:transactionID:dataPhaseInfo:numParameters:parameters:]
+- -[PTPOperationRequestPacket initWithOperationCode:transactionID:dataPhaseInfo:parameter1:]
+- -[PTPOperationRequestPacket initWithOperationCode:transactionID:dataPhaseInfo:parameter1:parameter2:]
+- -[PTPOperationRequestPacket initWithOperationCode:transactionID:dataPhaseInfo:parameter1:parameter2:parameter3:]
+- -[PTPOperationRequestPacket initWithOperationCode:transactionID:dataPhaseInfo:parameter1:parameter2:parameter3:parameter4:]
+- -[PTPOperationRequestPacket initWithOperationCode:transactionID:dataPhaseInfo:parameter1:parameter2:parameter3:parameter4:parameter5:]
+- -[PTPOperationRequestPacket initWithTCPBuffer:]
+- -[PTPOperationRequestPacket initWithUSBBuffer:]
+- -[PTPOperationRequestPacket numParameters]
+- -[PTPOperationRequestPacket operationCode]
+- -[PTPOperationRequestPacket parameter1]
+- -[PTPOperationRequestPacket parameter2]
+- -[PTPOperationRequestPacket parameter3]
+- -[PTPOperationRequestPacket parameter4]
+- -[PTPOperationRequestPacket parameter5]
+- -[PTPOperationRequestPacket parameterAtIndex:]
+- -[PTPOperationRequestPacket setDataPhaseInfo:]
+- -[PTPOperationRequestPacket setOperationCode:]
+- -[PTPOperationRequestPacket setParameter1:]
+- -[PTPOperationRequestPacket setParameter2:]
+- -[PTPOperationRequestPacket setParameter3:]
+- -[PTPOperationRequestPacket setParameter4:]
+- -[PTPOperationRequestPacket setParameter5:]
+- -[PTPOperationRequestPacket setPparameter:atIndex:]
+- -[PTPOperationRequestPacket setTransactionID:]
+- -[PTPOperationRequestPacket transactionID]
+- -[PTPOperationResponsePacket contentForTCP]
+- -[PTPOperationResponsePacket contentForUSBUsingBuffer:capacity:]
+- -[PTPOperationResponsePacket contentForUSB]
+- -[PTPOperationResponsePacket copyWithZone:]
+- -[PTPOperationResponsePacket description]
+- -[PTPOperationResponsePacket initWithResponseCode:transactionID:]
+- -[PTPOperationResponsePacket initWithResponseCode:transactionID:numParameters:parameters:]
+- -[PTPOperationResponsePacket initWithResponseCode:transactionID:parameter1:]
+- -[PTPOperationResponsePacket initWithResponseCode:transactionID:parameter1:parameter2:]
+- -[PTPOperationResponsePacket initWithResponseCode:transactionID:parameter1:parameter2:parameter3:]
+- -[PTPOperationResponsePacket initWithResponseCode:transactionID:parameter1:parameter2:parameter3:parameter4:]
+- -[PTPOperationResponsePacket initWithResponseCode:transactionID:parameter1:parameter2:parameter3:parameter4:parameter5:]
+- -[PTPOperationResponsePacket initWithTCPBuffer:]
+- -[PTPOperationResponsePacket initWithUSBBuffer:]
+- -[PTPOperationResponsePacket numParameters]
+- -[PTPOperationResponsePacket parameter1]
+- -[PTPOperationResponsePacket parameter2]
+- -[PTPOperationResponsePacket parameter3]
+- -[PTPOperationResponsePacket parameter4]
+- -[PTPOperationResponsePacket parameter5]
+- -[PTPOperationResponsePacket parameterAtIndex:]
+- -[PTPOperationResponsePacket responseCode]
+- -[PTPOperationResponsePacket setNumParameters:]
+- -[PTPOperationResponsePacket setParameter1:]
+- -[PTPOperationResponsePacket setParameter2:]
+- -[PTPOperationResponsePacket setParameter3:]
+- -[PTPOperationResponsePacket setParameter4:]
+- -[PTPOperationResponsePacket setParameter5:]
+- -[PTPOperationResponsePacket setPparameter:atIndex:]
+- -[PTPOperationResponsePacket setResponseCode:]
+- -[PTPOperationResponsePacket setTransactionID:]
+- -[PTPOperationResponsePacket transactionID]
+- -[PTPWrappedBytes allocatedBytes]
+- -[PTPWrappedBytes appendBytes:length:]
+- -[PTPWrappedBytes appendData:]
+- -[PTPWrappedBytes bytes]
+- -[PTPWrappedBytes capacity]
+- -[PTPWrappedBytes data]
+- -[PTPWrappedBytes dealloc]
+- -[PTPWrappedBytes description]
+- -[PTPWrappedBytes excessDataLength]
+- -[PTPWrappedBytes headerOffsetBytes]
+- -[PTPWrappedBytes headerOffset]
+- -[PTPWrappedBytes initWithBytes:capacity:]
+- -[PTPWrappedBytes initWithCapacity:]
+- -[PTPWrappedBytes initWithFileDescriptor:capacity:]
+- -[PTPWrappedBytes init]
+- -[PTPWrappedBytes length]
+- -[PTPWrappedBytes mutableBytes]
+- -[PTPWrappedBytes mutableData]
+- -[PTPWrappedBytes offset]
+- -[PTPWrappedBytes percentFull]
+- -[PTPWrappedBytes replaceBytesInRange:withBytes:]
+- -[PTPWrappedBytes rewindBytesToPosition64:]
+- -[PTPWrappedBytes setAllocatedBytes:]
+- -[PTPWrappedBytes setBytes:]
+- -[PTPWrappedBytes setCapacity:]
+- -[PTPWrappedBytes setExcessDataLength:]
+- -[PTPWrappedBytes setHeaderOffset:]
+- -[PTPWrappedBytes setLength:]
+- -[PTPWrappedBytes setOffset:]
+- -[PTPWrappedBytes setUseByteBuffer:]
+- -[PTPWrappedBytes updateCapacity:]
+- -[PTPWrappedBytes useByteBuffer]
+- -[PTPWrappedBytes wasInitWithFD]
+- GCC_except_table1
+- GCC_except_table22
+- GCC_except_table26
+- GCC_except_table32
+- GCC_except_table36
+- GCC_except_table39
+- OBJC_IVAR_$_ICCameraFileFingerprint._lock
+- OBJC_IVAR_$_ICCameraFileFingerprint._zeroByteFileFingerprintOnce
+- OBJC_IVAR_$_ICDeviceAccessManager._externalMediaAccessDB
+- OBJC_IVAR_$_ICSession._resourceLock
+- OBJC_IVAR_$_ICSessionManager._sessionConnectionAdded
+- OBJC_IVAR_$_ICSessionManager._sessions
+- OBJC_IVAR_$_ICSessionManager._sessionsLock
+- _CFErrorCopyDescription
+- _CFPreferencesSetMultiple
+- _CFPreferencesSynchronize
+- _CFUserNotificationCreate
+- _CFUserNotificationReceiveResponse
+- _CPPowerAssertionCreate
+- _ICAccessTypeControlInformed
+- _ICAcessQuery
+- _ICAcessStatusQuery
+- _ICCameraItemProxyTypeFile
+- _ICCameraItemProxyTypeStorage
+- _ICEvaluatePrivateEntitlement
+- _ICLocalizedString.bundle
+- _ICLocalizedString.cold.1
+- _ICLocalizedString.once
+- _ICLoggingDomain
+- _ICLoggingLevel
+- _ICPreferencesDomain
+- _MMCSSignatureAndSchemeSize
+- _MMCSSignatureGeneratorCreateWithBoundaryKey
+- _MMCSSignatureGeneratorFinish
+- _MMCSSignatureGeneratorUpdate
+- _NSClassFromString
+- _NSCocoaErrorDomain
+- _NSPOSIXErrorDomain
+- _NSStringFromSelector
+- _NSUnderlyingErrorKey
+- _OBJC_CLASS_$_ICRemoteCameraDevice
+- _OBJC_CLASS_$_ICRemoteCameraDeviceManager
+- _OBJC_CLASS_$_ICRemoteCameraDeviceProxy
+- _OBJC_CLASS_$_ICSession
+- _OBJC_CLASS_$_ICSessionManager
+- _OBJC_CLASS_$_LSApplicationRecord
+- _OBJC_CLASS_$_NSCalendar
+- _OBJC_CLASS_$_NSFileHandle
+- _OBJC_CLASS_$_NSFileManager
+- _OBJC_CLASS_$_NSMutableOrderedSet
+- _OBJC_CLASS_$_NSProcessInfo
+- _OBJC_CLASS_$_NSUserDefaults
+- _OBJC_CLASS_$_NSXPCListener
+- _OBJC_CLASS_$_PTPWrappedBytes
+- _OBJC_IVAR_$_ICCameraFileFingerprint._zeroByteFileFingerprint
+- _OBJC_IVAR_$_ICCameraItemProxy._captureDate
+- _OBJC_IVAR_$_ICCameraItemProxy._hasThumbnail
+- _OBJC_IVAR_$_ICCameraItemProxy._height
+- _OBJC_IVAR_$_ICCameraItemProxy._keywords
+- _OBJC_IVAR_$_ICCameraItemProxy._modificationDate
+- _OBJC_IVAR_$_ICCameraItemProxy._name
+- _OBJC_IVAR_$_ICCameraItemProxy._objectHandle
+- _OBJC_IVAR_$_ICCameraItemProxy._orientation
+- _OBJC_IVAR_$_ICCameraItemProxy._parentObjectHandle
+- _OBJC_IVAR_$_ICCameraItemProxy._readOnly
+- _OBJC_IVAR_$_ICCameraItemProxy._sequenceNumber
+- _OBJC_IVAR_$_ICCameraItemProxy._size
+- _OBJC_IVAR_$_ICCameraItemProxy._storageID
+- _OBJC_IVAR_$_ICCameraItemProxy._topLevel
+- _OBJC_IVAR_$_ICCameraItemProxy._type
+- _OBJC_IVAR_$_ICCameraItemProxy._width
+- _OBJC_IVAR_$_ICDeviceAccessManager._deviceAccessQueue
+- _OBJC_IVAR_$_ICOrderedMediaSet._mediaItems
+- _OBJC_IVAR_$_ICOrderedMediaSet._mediaLock
+- _OBJC_IVAR_$_ICRemoteCameraDevice._addedBundles
+- _OBJC_IVAR_$_ICRemoteCameraDevice._cameraDictionary
+- _OBJC_IVAR_$_ICRemoteCameraDevice._cpPowerAssertion
+- _OBJC_IVAR_$_ICRemoteCameraDevice._delegate
+- _OBJC_IVAR_$_ICRemoteCameraDevice._deniedBundles
+- _OBJC_IVAR_$_ICRemoteCameraDevice._deviceOperationQueue
+- _OBJC_IVAR_$_ICRemoteCameraDevice._deviceOperationUnderlyingQueue
+- _OBJC_IVAR_$_ICRemoteCameraDevice._listener
+- _OBJC_IVAR_$_ICRemoteCameraDevice._sessionManager
+- _OBJC_IVAR_$_ICRemoteCameraDeviceManager._managedObjectName
+- _OBJC_IVAR_$_ICRemoteCameraDeviceManager._osTransactions
+- _OBJC_IVAR_$_ICRemoteCameraDeviceManager._remoteCameraDevices
+- _OBJC_IVAR_$_ICRemoteCameraDeviceManager._remoteCameraDevicesLock
+- _OBJC_IVAR_$_ICRemoteCameraDeviceManager._remoteManagerConnections
+- _OBJC_IVAR_$_ICRemoteCameraDeviceManager._remoteManagerConnectionsLock
+- _OBJC_IVAR_$_ICRemoteCameraDeviceManager._startDeviceNotifications
+- _OBJC_IVAR_$_ICRemoteCameraDeviceManager._systemDaemon
+- _OBJC_IVAR_$_ICRemoteCameraDeviceProxy._camera
+- _OBJC_IVAR_$_ICRemoteCameraDeviceProxy._localizedName
+- _OBJC_IVAR_$_ICRemoteCameraDeviceProxy._primaryIdentifierString
+- _OBJC_IVAR_$_ICRemoteCameraDeviceProxy._uuidString
+- _OBJC_IVAR_$_ICSession._connection
+- _OBJC_IVAR_$_ICSession._forwardPTPEvents
+- _OBJC_IVAR_$_ICSession._notifications
+- _OBJC_IVAR_$_ICSession._objectHandle
+- _OBJC_IVAR_$_ICSession._openSession
+- _OBJC_IVAR_$_ICSessionManager._delegate
+- _OBJC_IVAR_$_ICSessionManager._sessionCount
+- _OBJC_IVAR_$_PTPOperationRequestPacket._dataPhaseInfo
+- _OBJC_IVAR_$_PTPOperationRequestPacket._numParameters
+- _OBJC_IVAR_$_PTPOperationRequestPacket._operationCode
+- _OBJC_IVAR_$_PTPOperationRequestPacket._parameters
+- _OBJC_IVAR_$_PTPOperationRequestPacket._transactionID
+- _OBJC_IVAR_$_PTPOperationResponsePacket._numParameters
+- _OBJC_IVAR_$_PTPOperationResponsePacket._parameters
+- _OBJC_IVAR_$_PTPOperationResponsePacket._responseCode
+- _OBJC_IVAR_$_PTPOperationResponsePacket._transactionID
+- _OBJC_IVAR_$_PTPWrappedBytes._allocatedBytes
+- _OBJC_IVAR_$_PTPWrappedBytes._bytes
+- _OBJC_IVAR_$_PTPWrappedBytes._capacity
+- _OBJC_IVAR_$_PTPWrappedBytes._excessDataLength
+- _OBJC_IVAR_$_PTPWrappedBytes._fd
+- _OBJC_IVAR_$_PTPWrappedBytes._headerOffset
+- _OBJC_IVAR_$_PTPWrappedBytes._offset
+- _OBJC_IVAR_$_PTPWrappedBytes._useByteBuffer
+- _OBJC_METACLASS_$_ICCameraFileFingerprint
+- _OBJC_METACLASS_$_ICCameraItemProxy
+- _OBJC_METACLASS_$_ICDeviceAccessManager
+- _OBJC_METACLASS_$_ICOrderedMediaSet
+- _OBJC_METACLASS_$_ICRemoteCameraDevice
+- _OBJC_METACLASS_$_ICRemoteCameraDeviceManager
+- _OBJC_METACLASS_$_ICRemoteCameraDeviceProxy
+- _OBJC_METACLASS_$_ICSession
+- _OBJC_METACLASS_$_ICSessionManager
+- _OBJC_METACLASS_$_PTPOperationRequestPacket
+- _OBJC_METACLASS_$_PTPOperationResponsePacket
+- _OBJC_METACLASS_$_PTPWrappedBytes
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- _ReadUInt16
+- _ReadUInt32
+- _SecTaskCopySigningIdentifier
+- _SecTaskCreateWithAuditToken
+- _WriteUInt16
+- _WriteUInt32
+- __OBJC_$_CLASS_METHODS_ICCameraItemProxy
+- __OBJC_$_CLASS_METHODS_ICDeviceAccessManager
+- __OBJC_$_CLASS_METHODS_PTPWrappedBytes
+- __OBJC_$_CLASS_PROP_LIST_ICCameraItemProxy
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
+- __OBJC_$_INSTANCE_METHODS_ICCameraFileFingerprint
+- __OBJC_$_INSTANCE_METHODS_ICCameraItemProxy
+- __OBJC_$_INSTANCE_METHODS_ICDeviceAccessManager
+- __OBJC_$_INSTANCE_METHODS_ICOrderedMediaSet
+- __OBJC_$_INSTANCE_METHODS_ICRemoteCameraDevice
+- __OBJC_$_INSTANCE_METHODS_ICRemoteCameraDeviceManager
+- __OBJC_$_INSTANCE_METHODS_ICRemoteCameraDeviceProxy
+- __OBJC_$_INSTANCE_METHODS_ICSession
+- __OBJC_$_INSTANCE_METHODS_ICSessionManager
+- __OBJC_$_INSTANCE_METHODS_PTPOperationRequestPacket
+- __OBJC_$_INSTANCE_METHODS_PTPOperationResponsePacket
+- __OBJC_$_INSTANCE_METHODS_PTPWrappedBytes
+- __OBJC_$_INSTANCE_VARIABLES_ICCameraFileFingerprint
+- __OBJC_$_INSTANCE_VARIABLES_ICCameraItemProxy
+- __OBJC_$_INSTANCE_VARIABLES_ICDeviceAccessManager
+- __OBJC_$_INSTANCE_VARIABLES_ICOrderedMediaSet
+- __OBJC_$_INSTANCE_VARIABLES_ICRemoteCameraDevice
+- __OBJC_$_INSTANCE_VARIABLES_ICRemoteCameraDeviceManager
+- __OBJC_$_INSTANCE_VARIABLES_ICRemoteCameraDeviceProxy
+- __OBJC_$_INSTANCE_VARIABLES_ICSession
+- __OBJC_$_INSTANCE_VARIABLES_ICSessionManager
+- __OBJC_$_INSTANCE_VARIABLES_PTPOperationRequestPacket
+- __OBJC_$_INSTANCE_VARIABLES_PTPOperationResponsePacket
+- __OBJC_$_INSTANCE_VARIABLES_PTPWrappedBytes
+- __OBJC_$_PROP_LIST_ICCameraFileFingerprint
+- __OBJC_$_PROP_LIST_ICCameraItemProxy
+- __OBJC_$_PROP_LIST_ICDeviceAccessManager
+- __OBJC_$_PROP_LIST_ICOrderedMediaSet
+- __OBJC_$_PROP_LIST_ICRemoteCameraDevice
+- __OBJC_$_PROP_LIST_ICRemoteCameraDeviceManager
+- __OBJC_$_PROP_LIST_ICRemoteCameraDeviceProxy
+- __OBJC_$_PROP_LIST_ICSession
+- __OBJC_$_PROP_LIST_ICSessionManager
+- __OBJC_$_PROP_LIST_PTPWrappedBytes
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_ICCameraDeviceProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_ICSessionManagerProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_ICXPCAuthManagerProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_ICXPCDeviceManagerProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSXPCListenerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_ICCameraDeviceProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_ICSessionManagerProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_ICXPCAuthManagerProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_ICXPCDeviceManagerProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSXPCListenerDelegate
+- __OBJC_$_PROTOCOL_REFS_ICSessionManagerProtocol
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding
+- __OBJC_$_PROTOCOL_REFS_NSXPCListenerDelegate
+- __OBJC_CLASS_PROTOCOLS_$_ICCameraItemProxy
+- __OBJC_CLASS_PROTOCOLS_$_ICRemoteCameraDevice
+- __OBJC_CLASS_RO_$_ICCameraFileFingerprint
+- __OBJC_CLASS_RO_$_ICCameraItemProxy
+- __OBJC_CLASS_RO_$_ICDeviceAccessManager
+- __OBJC_CLASS_RO_$_ICOrderedMediaSet
+- __OBJC_CLASS_RO_$_ICRemoteCameraDevice
+- __OBJC_CLASS_RO_$_ICRemoteCameraDeviceManager
+- __OBJC_CLASS_RO_$_ICRemoteCameraDeviceProxy
+- __OBJC_CLASS_RO_$_ICSession
+- __OBJC_CLASS_RO_$_ICSessionManager
+- __OBJC_CLASS_RO_$_PTPOperationRequestPacket
+- __OBJC_CLASS_RO_$_PTPOperationResponsePacket
+- __OBJC_CLASS_RO_$_PTPWrappedBytes
+- __OBJC_LABEL_PROTOCOL_$_ICCameraDeviceProtocol
+- __OBJC_LABEL_PROTOCOL_$_ICSessionManagerProtocol
+- __OBJC_LABEL_PROTOCOL_$_ICXPCAuthManagerProtocol
+- __OBJC_LABEL_PROTOCOL_$_ICXPCDeviceManagerProtocol
+- __OBJC_LABEL_PROTOCOL_$_NSCoding
+- __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+- __OBJC_LABEL_PROTOCOL_$_NSXPCListenerDelegate
+- __OBJC_METACLASS_RO_$_ICCameraFileFingerprint
+- __OBJC_METACLASS_RO_$_ICCameraItemProxy
+- __OBJC_METACLASS_RO_$_ICDeviceAccessManager
+- __OBJC_METACLASS_RO_$_ICOrderedMediaSet
+- __OBJC_METACLASS_RO_$_ICRemoteCameraDevice
+- __OBJC_METACLASS_RO_$_ICRemoteCameraDeviceManager
+- __OBJC_METACLASS_RO_$_ICRemoteCameraDeviceProxy
+- __OBJC_METACLASS_RO_$_ICSession
+- __OBJC_METACLASS_RO_$_ICSessionManager
+- __OBJC_METACLASS_RO_$_PTPOperationRequestPacket
+- __OBJC_METACLASS_RO_$_PTPOperationResponsePacket
+- __OBJC_METACLASS_RO_$_PTPWrappedBytes
+- __OBJC_PROTOCOL_$_ICCameraDeviceProtocol
+- __OBJC_PROTOCOL_$_ICSessionManagerProtocol
+- __OBJC_PROTOCOL_$_ICXPCAuthManagerProtocol
+- __OBJC_PROTOCOL_$_ICXPCDeviceManagerProtocol
+- __OBJC_PROTOCOL_$_NSCoding
+- __OBJC_PROTOCOL_$_NSSecureCoding
+- __OBJC_PROTOCOL_$_NSXPCListenerDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_ICCameraDeviceProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_ICXPCAuthManagerProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_ICXPCDeviceManagerProtocol
+- ___29-[ICDeviceAccessManager init]_block_invoke
+- ___29-[ICDeviceAccessManager init]_block_invoke.cold.1
+- ___29-[ICDeviceAccessManager init]_block_invoke.cold.2
+- ___36-[ICDeviceManager openDeviceHandle:]_block_invoke_2
+- ___41-[ICOrderedMediaSet addMediaItemToIndex:]_block_invoke
+- ___42-[ICDeviceManager openRemoteDeviceManager]_block_invoke.258
+- ___44+[ICDeviceAccessManager sharedAccessManager]_block_invoke
+- ___45-[ICDeviceAccessManager addBundleIdentifier:]_block_invoke
+- ___45-[ICDeviceAccessManager allBundleIdentifiers]_block_invoke
+- ___45-[ICDeviceAccessManager allBundleIdentifiers]_block_invoke.cold.1
+- ___48-[ICDeviceAccessManager revokeBundleIdentifier:]_block_invoke
+- ___48-[ICDeviceAccessManager revokeBundleIdentifier:]_block_invoke.cold.1
+- ___48-[ICSessionManager createSessionWithConnection:]_block_invoke
+- ___49-[ICOrderedMediaSet mediaItemWithHandle:inTypes:]_block_invoke
+- ___52-[ICRemoteCameraDeviceManager openDevice:withReply:]_block_invoke
+- ___57-[ICDeviceAccessManager bundleIdentifiersWithAccessType:]_block_invoke
+- ___57-[ICDeviceAccessManager bundleIdentifiersWithAccessType:]_block_invoke.cold.1
+- ___57-[ICRemoteCameraDeviceManager notifyClientDeviceRemoved:]_block_invoke
+- ___58-[ICRemoteCameraDeviceManager addRemoteManagerConnection:]_block_invoke
+- ___59-[ICDeviceAccessManager validateBundleIdentifierInstalled:]_block_invoke
+- ___59-[ICDeviceAccessManager validateBundleIdentifierInstalled:]_block_invoke.cold.1
+- ___59-[ICDeviceBrowser resetControlAuthorizationWithCompletion:]_block_invoke
+- ___59-[ICDeviceBrowser resetControlAuthorizationWithCompletion:]_block_invoke_2
+- ___60-[ICDeviceBrowser resetContentsAuthorizationWithCompletion:]_block_invoke
+- ___60-[ICDeviceBrowser resetContentsAuthorizationWithCompletion:]_block_invoke_2
+- ___61-[ICDeviceBrowser requestControlAuthorizationWithCompletion:]_block_invoke
+- ___61-[ICDeviceBrowser requestControlAuthorizationWithCompletion:]_block_invoke_2
+- ___61-[ICRemoteCameraDevice registerInterestedEventNotifications:]_block_invoke
+- ___62-[ICDeviceBrowser requestContentsAuthorizationWithCompletion:]_block_invoke
+- ___62-[ICDeviceBrowser requestContentsAuthorizationWithCompletion:]_block_invoke_2
+- ___63-[ICDeviceManager sendDevice:ptpCommand:andPayload:completion:]_block_invoke_3
+- ___63-[ICRemoteCameraDevice unregisterInterestedEventNotifications:]_block_invoke
+- ___64-[ICRemoteCameraDevice sendNotification:toConnections:selector:]_block_invoke
+- ___66-[ICDeviceAccessManager bundleIdentifiersAccessingExternalCameras]_block_invoke
+- ___66-[ICDeviceAccessManager bundleIdentifiersAccessingExternalCameras]_block_invoke.cold.1
+- ___66-[ICRemoteCameraDeviceManager requestDeviceListWithOptions:reply:]_block_invoke
+- ___69-[ICDeviceAccessManager updateBundleIdentifier:accessType:withState:]_block_invoke
+- ___69-[ICDeviceAccessManager updateBundleIdentifier:accessType:withState:]_block_invoke.130
+- ___69-[ICDeviceAccessManager updateBundleIdentifier:accessType:withState:]_block_invoke.cold.1
+- ___69-[ICDeviceAccessManager updateBundleIdentifier:accessType:withState:]_block_invoke_2
+- ___69-[ICDeviceAccessManager updateBundleIdentifier:accessType:withState:]_block_invoke_2.cold.1
+- ___69-[ICRemoteCameraDevice addSelectorToInterface:selectorString:origin:]_block_invoke
+- ___74-[ICDeviceAccessManager updateApplicationWithBundleIdentifier:withStatus:]_block_invoke
+- ___74-[ICDeviceAccessManager updateApplicationWithBundleIdentifier:withStatus:]_block_invoke.72
+- ___74-[ICDeviceAccessManager updateApplicationWithBundleIdentifier:withStatus:]_block_invoke.cold.1
+- ___76-[ICDeviceAccessManager bundleIdentifiersAccessingExternalCamerasWithStatus]_block_invoke
+- ___76-[ICDeviceAccessManager bundleIdentifiersAccessingExternalCamerasWithStatus]_block_invoke.cold.1
+- ___76-[ICRemoteCameraDeviceManager addSelectorToInterface:selectorString:origin:]_block_invoke
+- ___77-[ICRemoteCameraDeviceManager notifyClientDeviceAdded:uuidString:deviceName:]_block_invoke
+- ___79-[ICDeviceAccessManager captureUserIntentForBundleIdentifier:withNotification:]_block_invoke
+- ___90-[ICDeviceAccessManager captureUserIntentForControlWithBundleIdentifier:withNotification:]_block_invoke
+- ___ICAddDecodedErrorToDict
+- ___ICLocalizedString_block_invoke
+- ___ICLogDateString
+- ___ICLogDateString.cold.1
+- ___ICLogDateString.currentCalendar
+- ___ICLogDateString.onceToken
+- ___ICLogDateString.unitFlags
+- ___ICLongValueToErrorString
+- ___ICOSLogCreate.cold.1
+- ___ICOSLogCreate.onceToken
+- ___ICValueToErrorString
+- _____ICLogDateString_block_invoke
+- _____ICOSLogCreate_block_invoke
+- ___block_descriptor_32_e17_v16?0"NSError"8l
+- ___block_descriptor_32_e20_v16?0^{__CFError=}8l
+- ___block_descriptor_32_e31_q24?0"NSNumber"8"NSNumber"16l
+- ___block_descriptor_32_e57_q24?0"<ICMediaItemProtocol>"8"<ICMediaItemProtocol>"16l
+- ___block_descriptor_40_e8_32bs_e22_v16?0"NSDictionary"8ls32l8
+- ___block_descriptor_48_e8_32s40bs_e22_v16?0"NSDictionary"8ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40r_e11_v20?0B8Q12lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e62_v24?0"NSObject<OS_tcc_authorization_record>"8^{__CFError=}16lr40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e5_v8?0lw40l8s32l8
+- ___block_descriptor_56_e8_32s40s48r_e5_v8?0ls32l8r48l8s40l8
+- ___block_descriptor_64_e8_32s40s48s56r_e5_v8?0ls32l8s40l8r56l8s48l8
+- ___block_descriptor_72_e8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_literal_global.11
+- ___block_literal_global.132
+- ___block_literal_global.155
+- ___block_literal_global.42
+- ___block_literal_global.5
+- ___block_literal_global.69
+- ___block_literal_global.75
+- ___block_literal_global.99
+- __os_feature_enabled_impl
+- __os_log_default
+- _exit
+- _free
+- _kCFPreferencesCurrentHost
+- _kCFPreferencesCurrentUser
+- _kTCCServiceExternalCameraMedia
+- _lseek
+- _malloc_type_malloc
+- _malloc_type_realloc
+- _objc_autorelease
+- _objc_copyWeak
+- _objc_initWeak
+- _objc_msgSend$_createSignatureGenerator
+- _objc_msgSend$acceptConnection:
+- _objc_msgSend$addNotifications:
+- _objc_msgSend$addNotifications:toSessionWithConnection:
+- _objc_msgSend$addRemoteCameraDevice:uuidString:deviceName:
+- _objc_msgSend$addRemoteManagerConnection:
+- _objc_msgSend$addedBundles
+- _objc_msgSend$additionalProperties
+- _objc_msgSend$allBundleIdentifiers
+- _objc_msgSend$allocWithZone:
+- _objc_msgSend$anonymousListener
+- _objc_msgSend$appendBytes:length:
+- _objc_msgSend$auditToken
+- _objc_msgSend$base64EncodedStringWithOptions:
+- _objc_msgSend$bundleIdentifiersWithAccessType:
+- _objc_msgSend$bundleWithPath:
+- _objc_msgSend$camera
+- _objc_msgSend$cameraDictionary
+- _objc_msgSend$closeDevice
+- _objc_msgSend$closeDevice:
+- _objc_msgSend$closeFile
+- _objc_msgSend$components:fromDate:
+- _objc_msgSend$connection
+- _objc_msgSend$connections
+- _objc_msgSend$connectionsMonitoringNotification:
+- _objc_msgSend$createDirectoryAtPath:withIntermediateDirectories:attributes:error:
+- _objc_msgSend$createSessionWithConnection:
+- _objc_msgSend$currentCalendar
+- _objc_msgSend$currentSessionCount
+- _objc_msgSend$dataUsingEncoding:
+- _objc_msgSend$dataWithBytes:length:
+- _objc_msgSend$decodeBoolForKey:
+- _objc_msgSend$decodeDictionaryWithKeysOfClasses:objectsOfClasses:forKey:
+- _objc_msgSend$decodeInt32ForKey:
+- _objc_msgSend$decodeInt64ForKey:
+- _objc_msgSend$decodeObjectOfClass:forKey:
+- _objc_msgSend$defaultAuthManager
+- _objc_msgSend$defaultManager
+- _objc_msgSend$deniedBundles
+- _objc_msgSend$deviceAccessQueue
+- _objc_msgSend$deviceContext
+- _objc_msgSend$deviceOperationQueue
+- _objc_msgSend$displayAlertForApplication:withNotification:completionBlock:
+- _objc_msgSend$displayAlertForControlWithNotification:completionBlock:
+- _objc_msgSend$domain
+- _objc_msgSend$encodeBool:forKey:
+- _objc_msgSend$encodeInt32:forKey:
+- _objc_msgSend$encodeInt64:forKey:
+- _objc_msgSend$encodeObject:forKey:
+- _objc_msgSend$endpoint
+- _objc_msgSend$externalMediaAccessDB
+- _objc_msgSend$fileDescriptor
+- _objc_msgSend$fileExistsAtPath:
+- _objc_msgSend$fileHandleForReadingFromURL:error:
+- _objc_msgSend$fingerprintForData:error:
+- _objc_msgSend$fingerprintForFD:error:
+- _objc_msgSend$fixupFileHandleError:
+- _objc_msgSend$hour
+- _objc_msgSend$indexOfObject:inSortedRange:options:usingComparator:
+- _objc_msgSend$initWithBundleIdentifier:allowPlaceholder:error:
+- _objc_msgSend$initWithBytes:capacity:
+- _objc_msgSend$initWithBytesNoCopy:length:freeWhenDone:
+- _objc_msgSend$initWithConnection:
+- _objc_msgSend$initWithDelegate:
+- _objc_msgSend$initWithDeviceContext:
+- _objc_msgSend$initWithPrimaryIdentifierString:uuidString:localizedName:
+- _objc_msgSend$initWithResponseCode:transactionID:parameter1:parameter2:parameter3:parameter4:parameter5:
+- _objc_msgSend$insertObject:atIndex:
+- _objc_msgSend$interestedInNotification:
+- _objc_msgSend$listener
+- _objc_msgSend$localizedName
+- _objc_msgSend$localizedStringForKey:value:table:
+- _objc_msgSend$longValue
+- _objc_msgSend$managedObjectName
+- _objc_msgSend$mediaItemType
+- _objc_msgSend$minute
+- _objc_msgSend$mutableBytes
+- _objc_msgSend$nanosecond
+- _objc_msgSend$numParameters
+- _objc_msgSend$numberWithBool:
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$openDB:
+- _objc_msgSend$orderedSet
+- _objc_msgSend$osTransactions
+- _objc_msgSend$parameter1
+- _objc_msgSend$parameter2
+- _objc_msgSend$parameter3
+- _objc_msgSend$parameter4
+- _objc_msgSend$parameter5
+- _objc_msgSend$performSelector:
+- _objc_msgSend$persistentDomainForName:
+- _objc_msgSend$pid
+- _objc_msgSend$primaryIdentifierString
+- _objc_msgSend$processIdentifier
+- _objc_msgSend$processInfo
+- _objc_msgSend$processName
+- _objc_msgSend$remNotifications:
+- _objc_msgSend$remNotifications:fromSessionWithConnection:
+- _objc_msgSend$remoteCameraDevices
+- _objc_msgSend$remoteDeviceForPrimaryIdentifier:
+- _objc_msgSend$remoteDeviceForUUID:
+- _objc_msgSend$removeAllSessions
+- _objc_msgSend$removeObjectsInArray:
+- _objc_msgSend$removeRemoteCameraDevice:
+- _objc_msgSend$removeRemoteManagerConnectionWithProcessIdentifier:
+- _objc_msgSend$removeSessionWithConnection:
+- _objc_msgSend$removeSessionsWithProcessIdentifier:
+- _objc_msgSend$resetContentsAuthorizationWithCompletion:
+- _objc_msgSend$resetControlAuthorizationWithCompletion:
+- _objc_msgSend$second
+- _objc_msgSend$sendNotification:toConnections:selector:
+- _objc_msgSend$sessionManager
+- _objc_msgSend$sessionManagerDidCloseAllSessions:
+- _objc_msgSend$sessionWithConnection:
+- _objc_msgSend$sessions
+- _objc_msgSend$setCamera:
+- _objc_msgSend$setConnection:
+- _objc_msgSend$setControlAuthorizedOnce:
+- _objc_msgSend$setDelegate:
+- _objc_msgSend$setLength:
+- _objc_msgSend$setListener:
+- _objc_msgSend$setLocalizedName:
+- _objc_msgSend$setManagedObjectName:
+- _objc_msgSend$setNumParameters:
+- _objc_msgSend$setObject:forKey:
+- _objc_msgSend$setOpenSession:
+- _objc_msgSend$setSystemDaemon:
+- _objc_msgSend$setUnderlyingQueue:
+- _objc_msgSend$setUuidString:
+- _objc_msgSend$setWithObjects:
+- _objc_msgSend$standardUserDefaults
+- _objc_msgSend$startListening
+- _objc_msgSend$stringWithUTF8String:
+- _objc_msgSend$transactionID
+- _objc_msgSend$uuidString
+- _objc_msgSend$validateBundleIdentifierInstalled:
+- _objc_msgSend$valueForEntitlement:
+- _objc_msgSend$wrappedBytesWithBytes:capacity:
+- _objc_msgSend$wrappedBytesWithCapacity:
+- _objc_opt_new
+- _os_log_create
+- _os_transaction_create
+- _read
+- _sharedAccessManager.mgr
+- _sharedAccessManager.onceToken
+- _sqlite3_close
+- _sqlite3_exec
+- _sqlite3_open
+- _stringForOperationCode
+- _stringForResponseCode
+- _syslog
+- _tcc_attributed_entity_get_path
+- _tcc_authorization_record_get_authorization_value
+- _tcc_authorization_record_get_service
+- _tcc_authorization_record_get_subject_attributed_entity
+- _tcc_authorization_record_get_subject_identity
+- _tcc_identity_create
+- _tcc_identity_get_identifier
+- _tcc_server_create
+- _tcc_server_message_get_authorization_records_by_identity
+- _tcc_server_message_get_authorization_records_by_service
+- _tcc_server_message_set_authorization_value
+- _tcc_service_get_name
+- _tcc_service_singleton_for_CF_name
+- _xpc_bool_get_value
+- _xpc_connection_copy_entitlement_value
+- _xpc_connection_get_audit_token
+CStrings:
++ "B32@0:8@16Q24"
++ "ICAuthManagerProtocol"
++ "ICRemoteCameraDeviceManagerProtocol"
++ "ICRemoteCameraDeviceProtocol"
++ "captureUserIntentForConnection:accessType:"
+- " ->[%lu] %@\n"
+- " <-[%lu] %@\n"
+- "$"
+- "%02ld:%02ld:%02ld:%06.3ld  "
+- "%05d-%@"
+- "%@ (read) Access State %d, adding"
+- "%@ (read) Access State Unknown, not adding"
+- "%@ (read) Access State Unknown, not updating"
+- "%@ (write) Access State %d, adding"
+- "%@ (write) Access State Unknown, not adding"
+- "%@ (write) Access State Unknown, not updating"
+- "%@ Setting (read) Access State %d"
+- "%@ Setting (write) Access State %d"
+- "%@ is already in the database, will not be added again"
+- "%@-%d"
+- "%@-[D]"
+- "(0x%04X)"
+- "(check) ---> New kTCCServiceExternalCameraMedia Service"
+- "*"
+- "+ %@:[%05lu]"
+- "+ note: [%05d] - %@"
+- "- %@:[%05lu]"
+- "- note: [%05d] - %@"
+- "/System/Library/Frameworks/ImageCaptureCore.framework"
+- "/var/mobile/Library/com.apple.imagecapture"
+- "0x%08lX"
+- "1"
+- "<PTPWrappedBytes %p>{\n  _offset:           %llu\n  _capacity:         %llu\n  _allocatedBytes:   %s\n  _bytes:            <%p>\n  _fd:               %d\n  _excessDataLength: %llu}"
+- "> Existing Device"
+- "> New Device: %@"
+- "> Not Found: %@"
+- "???"
+- "@\"<ICSessionManagerProtocol>\""
+- "@\"ICRemoteCameraDevice\""
+- "@\"ICSessionManager\""
+- "@\"NSXPCListener\""
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8S16I20"
+- "@24@0:8^v16"
+- "@24@0:8^{_NSZone=}16"
+- "@28@0:8@16B24"
+- "@28@0:8S16I20I24"
+- "@28@0:8^v16I24"
+- "@28@0:8i16Q20"
+- "@28@0:8i16^@20"
+- "@32@0:8@16^@24"
+- "@32@0:8Q16@24"
+- "@32@0:8S16I20I24I28"
+- "@32@0:8^v16Q24"
+- "@36@0:8S16I20I24I28I32"
+- "@36@0:8S16I20I24^I28"
+- "@40@0:8S16I20I24I28I32I36"
+- "@40@0:8S16I20I24I28^I32"
+- "@44@0:8S16I20I24I28I32I36I40"
+- "@48@0:8S16I20I24I28I32I36I40I44"
+- "B20@0:8i16"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B40@0:8@16@24@32"
+- "Bundle was not found to be installed on the device, revoking access defensively to require the user to re-authorize upon install."
+- "Bundle:%s -- value: %llu"
+- "CM"
+- "CREATE TABLE IF NOT EXISTS external_device_access (ID INTEGER PRIMARY KEY AUTOINCREMENT, bundle_id TEXT, date_added INTEGER, read_access INTEGER, write_access INTEGER, control_informed INTEGER)"
+- "Canon_902C"
+- "Canon_902E"
+- "Canon_902F"
+- "Canon_AdapterTransferProgress"
+- "Canon_AfCancel"
+- "Canon_AskAboutPcEvf"
+- "Canon_BulbEnd"
+- "Canon_BulbStart"
+- "Canon_CancelTransfer"
+- "Canon_CancelTransferDT"
+- "Canon_CancelTransferFTP"
+- "Canon_ChangePhotoStudioMode"
+- "Canon_ChangeUSBProtocol"
+- "Canon_CheckEvent"
+- "Canon_ClickWB"
+- "Canon_CreateHandle"
+- "Canon_CreateHandle64"
+- "Canon_DeleteObject"
+- "Canon_DeletePairingInfo"
+- "Canon_DeleteWebServiceData"
+- "Canon_DepthOfFieldPreview"
+- "Canon_DoAf"
+- "Canon_DriveLens"
+- "Canon_DrivePowerZoom"
+- "Canon_EndGetPartialObjectEx"
+- "Canon_EndSendPartialObjectEx"
+- "Canon_FAPIMessageRX"
+- "Canon_FAPIMessageTX"
+- "Canon_FocusLock"
+- "Canon_FocusUnlock"
+- "Canon_FormatImageRecoveryData"
+- "Canon_FormatStore"
+- "Canon_GetAEData"
+- "Canon_GetAncillaryObjectHandles"
+- "Canon_GetCTGInfo"
+- "Canon_GetCameraSupport"
+- "Canon_GetCaptureStatus"
+- "Canon_GetChanges"
+- "Canon_GetDeviceInfoEx"
+- "Canon_GetDirectory"
+- "Canon_GetEvent"
+- "Canon_GetGpsLogCurrentHandle"
+- "Canon_GetGpsMobilelinkObjectInfo"
+- "Canon_GetImageRecoveryList"
+- "Canon_GetImageRecoveryListEx"
+- "Canon_GetIptcData"
+- "Canon_GetLensAdjust"
+- "Canon_GetLocalReleaseParam"
+- "Canon_GetMACAddress"
+- "Canon_GetObject"
+- "Canon_GetObject64"
+- "Canon_GetObjectAttributes"
+- "Canon_GetObjectInfo"
+- "Canon_GetObjectInfo64"
+- "Canon_GetObjectInfoEx"
+- "Canon_GetObjectInfoEx64"
+- "Canon_GetObjectTime"
+- "Canon_GetObjectURL"
+- "Canon_GetPairingInfo"
+- "Canon_GetPartialObject"
+- "Canon_GetPartialObject64"
+- "Canon_GetPartialObjectEX64"
+- "Canon_GetPartialObjectEx"
+- "Canon_GetPresetLensAdjustParam"
+- "Canon_GetRawDispImage"
+- "Canon_GetReducedObject"
+- "Canon_GetRemoteMode"
+- "Canon_GetRootCertificateData"
+- "Canon_GetRootCertificateSpec"
+- "Canon_GetStorageIDs"
+- "Canon_GetStorageInfo"
+- "Canon_GetThumbEx"
+- "Canon_GetTranscodeApproxSize"
+- "Canon_GetTreeInfo"
+- "Canon_GetTreeSize"
+- "Canon_GetViewFinderData"
+- "Canon_GetViewfinderImage"
+- "Canon_GetWebServiceData"
+- "Canon_GetWebServiceSpec"
+- "Canon_GetWftProfile"
+- "Canon_GetWirelessMAXChannel"
+- "Canon_GpsLoggingDataMode"
+- "Canon_InitiateCaptureInMemory"
+- "Canon_InitiateDirectTansferEx"
+- "Canon_InitiateDirectTransfer"
+- "Canon_InitiateReleaseControl"
+- "Canon_InitiateViewfinder"
+- "Canon_KeepDeviceOn"
+- "Canon_MovieSelectSWOff"
+- "Canon_MovieSelectSWOn"
+- "Canon_NotifyAutoTransferStatus"
+- "Canon_NotifyCancelAccepted"
+- "Canon_NotifyEstimateNumberofImport"
+- "Canon_NotifyFinish"
+- "Canon_NotifyNetworkError"
+- "Canon_NotifyNumberofImported"
+- "Canon_NotifyProgress"
+- "Canon_NotifySaveComplete"
+- "Canon_NotifySizeOfPartialDataTransfer"
+- "Canon_PCHDDCapacity"
+- "Canon_PairingComplete"
+- "Canon_PopupBuiltinFlash"
+- "Canon_ReadyToSendMusic"
+- "Canon_RegistBackgroundImage"
+- "Canon_RemoteRelease"
+- "Canon_RemoteReleaseOff"
+- "Canon_RemoteReleaseOn"
+- "Canon_RequestBLE"
+- "Canon_RequestDevicePropValue"
+- "Canon_RequestInnerDevelopEnd"
+- "Canon_RequestInnerDevelopParamChange"
+- "Canon_RequestInnerDevelopStart"
+- "Canon_RequestTranscodeCancel"
+- "Canon_RequestTranscodeStart"
+- "Canon_ResetMirrorLockupState"
+- "Canon_ResetTransfer"
+- "Canon_ResetUILock"
+- "Canon_SaveImageRecoveryData"
+- "Canon_SendGpsTagInfo"
+- "Canon_SendObjectByPath"
+- "Canon_SendObjectInfoByPath"
+- "Canon_SendPartialObject"
+- "Canon_SendPartialObjectEx"
+- "Canon_SetCTGInfo"
+- "Canon_SetCustomizeData"
+- "Canon_SetDefaultCameraSetting"
+- "Canon_SetDevicePropValueEx"
+- "Canon_SetDisplayMonitor"
+- "Canon_SetEventMode"
+- "Canon_SetFELock"
+- "Canon_SetImageRecoveryData"
+- "Canon_SetImageRecoveryDataEx"
+- "Canon_SetIptcData"
+- "Canon_SetLensAdjust"
+- "Canon_SetLiveAfFrame"
+- "Canon_SetLocalReleaseParam"
+- "Canon_SetLvPcFlavoreditMode"
+- "Canon_SetLvPcFlavoreditParam"
+- "Canon_SetNullPacketMode"
+- "Canon_SetObjectAttributes"
+- "Canon_SetObjectTime"
+- "Canon_SetPairingInfo"
+- "Canon_SetRating"
+- "Canon_SetRemoteMode"
+- "Canon_SetRemoteShootingMode"
+- "Canon_SetRequestOLCInfoGroup"
+- "Canon_SetRequestRollingPitchingLevel"
+- "Canon_SetRootCertificateData"
+- "Canon_SetUILock"
+- "Canon_SetWebServiceData"
+- "Canon_SetWftProfile"
+- "Canon_TerminateDirectTransfer"
+- "Canon_TerminateViewfinder"
+- "Canon_TouchAfPosition"
+- "Canon_TransferComplete"
+- "Canon_TransferCompleteDT"
+- "Canon_TransferCompleteFTP"
+- "Canon_UpdateFirmware"
+- "Canon_Zoom"
+- "Canon_ZoomPosition"
+- "DELETE FROM external_device_access WHERE bundle_id IS '%@';"
+- "DEPRECATED"
+- "EEXIST"
+- "ENOSPC"
+- "EPERM"
+- "Exiting %@"
+- "Failed to close database"
+- "Failed to create table: external_device_access - %s"
+- "Failed to open/create database"
+- "I20@0:8I16"
+- "ICAErrorKey"
+- "ICAuthorizationBypassEntitlement found"
+- "ICCameraDeviceProtocol"
+- "ICCameraItemProxy"
+- "ICDeviceAccessManager"
+- "ICDeviceAccessManagerQueue"
+- "ICDeviceUnderlyingQueue"
+- "ICLegacyReturnCodeCannotYieldDevice"
+- "ICLegacyReturnCodeCommunicationErr"
+- "ICLegacyReturnCodeDataTypeNotFoundErr"
+- "ICLegacyReturnCodeDeviceAlreadyOpenErr"
+- "ICLegacyReturnCodeDeviceIOServicePathNotFoundErr"
+- "ICLegacyReturnCodeDeviceInternalErr"
+- "ICLegacyReturnCodeDeviceInvalidParamErr"
+- "ICLegacyReturnCodeDeviceLocationIDNotFoundErr"
+- "ICLegacyReturnCodeDeviceMemoryAllocationErr"
+- "ICLegacyReturnCodeDeviceNotFoundErr"
+- "ICLegacyReturnCodeDeviceNotOpenErr"
+- "ICLegacyReturnCodeDeviceUnsupportedErr"
+- "ICLegacyReturnCodeExtensionInternalErr"
+- "ICLegacyReturnCodeFileCorruptedErr"
+- "ICLegacyReturnCodeFrameworkInternalErr"
+- "ICLegacyReturnCodeIOPendingErr"
+- "ICLegacyReturnCodeIndexOutOfRangeErr"
+- "ICLegacyReturnCodeInvalidObjectErr"
+- "ICLegacyReturnCodeInvalidPropertyErr"
+- "ICLegacyReturnCodeInvalidSessionErr"
+- "ICLegacyReturnCodePropertyTypeNotFoundErr"
+- "ICOrderedMediaSet"
+- "ICRemoteCameraDevice"
+- "ICRemoteCameraDeviceManager"
+- "ICRemoteCameraDeviceProxy"
+- "ICRemoteManagerAuthorized"
+- "ICRemoteManagerConnection"
+- "ICReturnCommunicationTimedOut"
+- "ICReturnConnectionFailedToOpen"
+- "ICReturnDeleteFilesCanceled"
+- "ICReturnDeleteFilesFailed"
+- "ICReturnDeviceCommandGeneralFailure"
+- "ICReturnDeviceCouldNotPair"
+- "ICReturnDeviceFailedToCloseSession"
+- "ICReturnDeviceFailedToCompleteTransfer"
+- "ICReturnDeviceFailedToOpenSession"
+- "ICReturnDeviceFailedToSendData"
+- "ICReturnDeviceFailedToTakePicture"
+- "ICReturnDeviceIsBusyEnumerating"
+- "ICReturnDeviceIsPasscodeLocked"
+- "ICReturnDeviceNeedsCredentials"
+- "ICReturnDeviceSoftwareInstallationCanceled"
+- "ICReturnDeviceSoftwareInstallationCompleted"
+- "ICReturnDeviceSoftwareInstallationFailed"
+- "ICReturnDeviceSoftwareIsBeingInstalled"
+- "ICReturnDeviceSoftwareNotAvailable"
+- "ICReturnDeviceSoftwareNotInstalled"
+- "ICReturnDownloadCanceled"
+- "ICReturnDownloadFailed"
+- "ICReturnFailedToCompletePassThroughCommand"
+- "ICReturnFailedToCompleteSendMessageRequest"
+- "ICReturnFailedToDisabeTethering"
+- "ICReturnFailedToDisableTethering"
+- "ICReturnFailedToEnabeTethering"
+- "ICReturnFailedToEnableTethering"
+- "ICReturnInvalidParam"
+- "ICReturnReceivedUnsolicitedScannerStatusInfo"
+- "ICReturnScanOperationCanceled"
+- "ICReturnScannerFailedToCompleteOverviewScan"
+- "ICReturnScannerFailedToCompleteScan"
+- "ICReturnScannerFailedToSelectFunctionalUnit"
+- "ICReturnScannerInUseByLocalUser"
+- "ICReturnScannerInUseByRemoteUser"
+- "ICReturnSessionNotOpened"
+- "ICReturnUploadFailed"
+- "ICSession"
+- "ICSessionManager"
+- "ICSessionManagerProtocol"
+- "ICXPCAuthManagerProtocol"
+- "ICXPCDeviceManagerProtocol"
+- "INSERT INTO external_device_access(bundle_id,date_added,read_access,write_access,control_informed) VALUES ('%@',%lu,%lu,%lu,%lu);"
+- "ImageCapture"
+- "ImageCaptureCore"
+- "KERN_NO_ACCESS"
+- "MTPGetObjectPropDesc"
+- "MTPGetObjectPropList"
+- "MTPGetObjectPropValue"
+- "MTPGetObjectPropsSupported"
+- "MTPOperationCodeGetPartialObject64"
+- "MTPSetObjectPropValue"
+- "MYSUPERSECRECTKEYPADDEDTO32BYTES"
+- "NSCoding"
+- "NSSecureCoding"
+- "NSXPCListenerDelegate"
+- "New Connection: %d"
+- "No work performed in new TCC path"
+- "PTPOperationCodeAllowKeepAwake_Apple"
+- "PTPOperationCodeCloseSession"
+- "PTPOperationCodeCopyObject"
+- "PTPOperationCodeDeleteObject"
+- "PTPOperationCodeFormatStore"
+- "PTPOperationCodeGetAdjustedThumb_Apple"
+- "PTPOperationCodeGetAllObjectInfo32_Apple"
+- "PTPOperationCodeGetAllObjectInfo64_Apple"
+- "PTPOperationCodeGetDeviceInfo"
+- "PTPOperationCodeGetDevicePropDesc"
+- "PTPOperationCodeGetDevicePropValue"
+- "PTPOperationCodeGetFilesystemManifest"
+- "PTPOperationCodeGetMD5PartialObject64_Apple"
+- "PTPOperationCodeGetNumDownloadableObjects_Apple"
+- "PTPOperationCodeGetNumObjects"
+- "PTPOperationCodeGetObject"
+- "PTPOperationCodeGetObjectCompressedSize64_Apple"
+- "PTPOperationCodeGetObjectHandles"
+- "PTPOperationCodeGetObjectInfo"
+- "PTPOperationCodeGetObjectInfosForNextGroup_Apple"
+- "PTPOperationCodeGetObjectMetadata_Apple"
+- "PTPOperationCodeGetPartialAssetData_Apple"
+- "PTPOperationCodeGetPartialObject"
+- "PTPOperationCodeGetPartialObject64_Apple"
+- "PTPOperationCodeGetStorageIDs"
+- "PTPOperationCodeGetStorageInfo"
+- "PTPOperationCodeGetThumb"
+- "PTPOperationCodeGetUserAssignedDeviceName_Apple"
+- "PTPOperationCodeInitiateCapture"
+- "PTPOperationCodeInitiateOpenCapture"
+- "PTPOperationCodeMoveObject"
+- "PTPOperationCodeOpenSession"
+- "PTPOperationCodePowerDown"
+- "PTPOperationCodeReserved (0x%04X)"
+- "PTPOperationCodeResetDevice"
+- "PTPOperationCodeResetDevicePropValue"
+- "PTPOperationCodeSelfTest"
+- "PTPOperationCodeSendObject"
+- "PTPOperationCodeSendObjectInfo"
+- "PTPOperationCodeSetDevicePropValue"
+- "PTPOperationCodeSetHostSupportedFormats_Apple"
+- "PTPOperationCodeSetHostSupportsGroups_Apple"
+- "PTPOperationCodeSetMediaCapabilities"
+- "PTPOperationCodeSetObjectProtection"
+- "PTPOperationCodeTerminateOpenCapture"
+- "PTPOperationCodeUndefined"
+- "PTPOperationCodeVendorDefined (0x%04X)"
+- "PTPOperationRequestPacket"
+- "PTPOperationResponsePacket"
+- "PTPResponseCodeAccessDenied"
+- "PTPResponseCodeCaptureAlreadyTerminated"
+- "PTPResponseCodeDeviceBusy"
+- "PTPResponseCodeDevicePropNotSupported"
+- "PTPResponseCodeGeneralError"
+- "PTPResponseCodeIncompleteTransfer"
+- "PTPResponseCodeInvalidCodeFormat"
+- "PTPResponseCodeInvalidDevicePropFormat"
+- "PTPResponseCodeInvalidDevicePropValue"
+- "PTPResponseCodeInvalidObjectFormatCode"
+- "PTPResponseCodeInvalidObjectHandle"
+- "PTPResponseCodeInvalidParameter"
+- "PTPResponseCodeInvalidParentObject"
+- "PTPResponseCodeInvalidStorageID"
+- "PTPResponseCodeInvalidTransactionID"
+- "PTPResponseCodeNoThumbnailPresent"
+- "PTPResponseCodeNoValidObjectInfo"
+- "PTPResponseCodeOK"
+- "PTPResponseCodeObjectWriteProtected"
+- "PTPResponseCodeOperationNotSupported"
+- "PTPResponseCodeParameterNotSupported"
+- "PTPResponseCodePartialDeletion"
+- "PTPResponseCodeReserved (0x%04X)"
+- "PTPResponseCodeSelfTestFailed"
+- "PTPResponseCodeSessionAlreadyOpen"
+- "PTPResponseCodeSessionNotOpen"
+- "PTPResponseCodeSpecificationByFormatUnsupported"
+- "PTPResponseCodeSpecificationOfDestinationUnsupported"
+- "PTPResponseCodeStoreFull"
+- "PTPResponseCodeStoreNotAvailable"
+- "PTPResponseCodeStoreReadOnly"
+- "PTPResponseCodeTransactionCancelled"
+- "PTPResponseCodeUndefined"
+- "PTPResponseCodeUnknownVendorCode"
+- "PTPResponseCodeVendorDefined (0x%04X)"
+- "PTPWrappedBytes"
+- "PrivacySettings"
+- "Q1"
+- "Q24@0:8@16"
+- "Q24@0:8Q16"
+- "Q32@0:8@16@24"
+- "Q32@0:8r^v16Q24"
+- "Revoking Application BundleID %@"
+- "S"
+- "S16@0:8"
+- "SELECT bundle_id FROM external_device_access WHERE bundle_id IS '%@';"
+- "SELECT bundle_id FROM external_device_access;"
+- "SELECT bundle_id, %@ FROM external_device_access;"
+- "T*,N,V_bytes"
+- "T@\"<ICSessionManagerProtocol>\",W,N,V_delegate"
+- "T@\"ICRemoteCameraDevice\",&,N,V_camera"
+- "T@\"ICSessionManager\",&,N,V_sessionManager"
+- "T@\"NSArray\",R,C,N"
+- "T@\"NSMutableArray\",&,N,V_addedBundles"
+- "T@\"NSMutableArray\",&,N,V_deniedBundles"
+- "T@\"NSMutableArray\",&,N,V_remoteCameraDevices"
+- "T@\"NSMutableArray\",R,V_notifications"
+- "T@\"NSMutableDictionary\",&,N,V_cameraDictionary"
+- "T@\"NSMutableDictionary\",&,N,V_keywords"
+- "T@\"NSMutableDictionary\",&,N,V_mediaItems"
+- "T@\"NSMutableDictionary\",&,N,V_osTransactions"
+- "T@\"NSMutableDictionary\",&,N,V_remoteManagerConnections"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_deviceOperationUnderlyingQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,V_deviceAccessQueue"
+- "T@\"NSString\",C,N,V_localizedName"
+- "T@\"NSString\",C,N,V_managedObjectName"
+- "T@\"NSString\",C,N,V_primaryIdentifierString"
+- "T@\"NSString\",C,N,V_uuidString"
+- "T@\"NSString\",R,N,V_zeroByteFileFingerprint"
+- "T@\"NSXPCConnection\",&,N,V_connection"
+- "T@\"NSXPCListener\",&,N,V_listener"
+- "T@\"NSXPCListenerEndpoint\",R"
+- "T@,W,N,V_delegate"
+- "TB,N,V_allocatedBytes"
+- "TB,N,V_hasThumbnail"
+- "TB,N,V_readOnly"
+- "TB,N,V_systemDaemon"
+- "TB,N,V_topLevel"
+- "TB,N,V_useByteBuffer"
+- "TB,R,N,V_startDeviceNotifications"
+- "TB,V_forwardPTPEvents"
+- "TB,V_openSession"
+- "TCCServiceExternalCameraMedia_iOS"
+- "TI,N,V_height"
+- "TI,N,V_orientation"
+- "TI,N,V_parentObjectHandle"
+- "TI,N,V_sequenceNumber"
+- "TI,N,V_storageID"
+- "TI,N,V_type"
+- "TI,N,V_width"
+- "TQ,N,V_capacity"
+- "TQ,N,V_captureDate"
+- "TQ,N,V_excessDataLength"
+- "TQ,N,V_headerOffset"
+- "TQ,N,V_modificationDate"
+- "TQ,N,V_offset"
+- "TQ,N,V_size"
+- "TQ,R,N,V_sessionCount"
+- "TQ,V_objectHandle"
+- "T^v,N,V_cpPowerAssertion"
+- "T^{sqlite3=},N,V_externalMediaAccessDB"
+- "Ti,R,D"
+- "T{os_unfair_lock_s=I},N,V_mediaLock"
+- "T{os_unfair_lock_s=I},N,V_remoteCameraDevicesLock"
+- "T{os_unfair_lock_s=I},N,V_remoteManagerConnectionsLock"
+- "UPDATE external_device_access SET %@ = %lu WHERE bundle_id = '%@';"
+- "Unable to realloc() buffer in PTPWrappedBytes\n"
+- "[%05d] - %@"
+- "[%05d] --> %@"
+- "[5I]"
+- "[IOReturn.h] _device iokit channel busy."
+- "[IOReturn.h] _device iokit timeout."
+- "[MacErrors.h] _device call unimplemented."
+- "[MacErrors.h] _device parameter invalid."
+- "[MacErrors.h] _file not found."
+- "[MacErrors.h] _scanner has too many clients."
+- "[MacErrors.h] _user operation canceled."
+- "[errno.h] _device out of space."
+- "[errno.h] _file already exists."
+- "[errno.h] _file operation not permitted."
+- "[kern_return.h] _kernel reurned no access."
+- "^^v16@0:8"
+- "^v"
+- "^v16@0:8"
+- "^{sqlite3=}"
+- "^{sqlite3=}16@0:8"
+- "_addedBundles"
+- "_allocatedBytes"
+- "_appledevice is locked or unpaired."
+- "_appledevice pairing failed."
+- "_appledevice unpairing failed."
+- "_bytes"
+- "_camera"
+- "_camera delete files canceled."
+- "_camera delete files failed."
+- "_camera disable tethering failed."
+- "_camera enable tethering failed."
+- "_camera failed to take picture."
+- "_camera is enumerating content."
+- "_camera passthru command failed."
+- "_camera received incorrect data size."
+- "_camera send data failed."
+- "_cameraDictionary"
+- "_capacity"
+- "_captureDate"
+- "_connection"
+- "_cpPowerAssertion"
+- "_createSignatureGenerator"
+- "_dataPhaseInfo"
+- "_deniedBundles"
+- "_device IO Pending."
+- "_device already open."
+- "_device can't allocate memory."
+- "_device close session failed."
+- "_device command failed."
+- "_device communication error."
+- "_device download canceled."
+- "_device download failed."
+- "_device fw GUID invalid."
+- "_device internal error."
+- "_device ioservice path invalid."
+- "_device module XPC communication failed."
+- "_device not found."
+- "_device not open."
+- "_device open session failed."
+- "_device parameter invalid."
+- "_device send message failed."
+- "_device session invalid."
+- "_device session not open."
+- "_device unsupported."
+- "_device upload failed."
+- "_device usb location ID invalid. "
+- "_device won't yield."
+- "_deviceAccessQueue"
+- "_deviceOperationUnderlyingQueue"
+- "_excessDataLength"
+- "_externalMediaAccessDB"
+- "_fd"
+- "_file corrupted."
+- "_forwardPTPEvents"
+- "_framework internal error."
+- "_hasThumbnail"
+- "_headerOffset"
+- "_keywords"
+- "_listener"
+- "_localizedName"
+- "_lock"
+- "_managedObjectName"
+- "_mediaItems"
+- "_module communication timed out."
+- "_module parameter invalid"
+- "_notifications"
+- "_numParameters"
+- "_object data type not found."
+- "_object index out of range."
+- "_object invalid."
+- "_object property invalid."
+- "_object property type invalid."
+- "_obsolete | _device software install canceled."
+- "_obsolete | _device software install failed."
+- "_obsolete | _device software installed."
+- "_obsolete | _device software installing."
+- "_obsolete | _device software not available."
+- "_obsolete | _device software not installed."
+- "_obsoleted"
+- "_offset"
+- "_openSession"
+- "_operation success."
+- "_operationCode"
+- "_orientation"
+- "_osTransactions"
+- "_parameters"
+- "_parentObjectHandle"
+- "_primaryIdentifierString"
+- "_readOnly"
+- "_remoteCameraDevices"
+- "_remoteCameraDevicesLock"
+- "_remoteManagerConnections"
+- "_remoteManagerConnectionsLock"
+- "_resourceLock"
+- "_responseCode"
+- "_scaner action canceled."
+- "_scanner functional unit selection failed."
+- "_scanner in use locally."
+- "_scanner in use remotely."
+- "_scanner overview scan failed."
+- "_scanner reported unsolicited error."
+- "_scanner reported unsolicited status."
+- "_scanner requested scan failed."
+- "_sequenceNumber"
+- "_sessionConnectionAdded"
+- "_sessionCount"
+- "_sessionManager"
+- "_sessions"
+- "_sessionsLock"
+- "_size"
+- "_startDeviceNotifications"
+- "_storageID"
+- "_systemDaemon"
+- "_topLevel"
+- "_transactionID"
+- "_uscandevice needs credentials."
+- "_useByteBuffer"
+- "_uuidString"
+- "_zeroByteFileFingerprint"
+- "_zeroByteFileFingerprintOnce"
+- "acceptConnection:"
+- "add: [%05d]"
+- "addNotifications:"
+- "addNotifications:toSessionWithConnection:"
+- "addRemoteCameraDevice:uuidString:deviceName:"
+- "addRemoteManagerConnection:"
+- "addedBundles"
+- "adding"
+- "additionalProperties"
+- "allBundleIdentifiers"
+- "allConnections"
+- "allocWithZone:"
+- "allocatedBytes"
+- "anonymousListener"
+- "appendBytes:length:"
+- "arrayForType:"
+- "auditToken"
+- "base64EncodedStringWithOptions:"
+- "bundleIdentifiersAccessingExternalCamerasWithStatus: %@"
+- "bundleIdentifiersWithAccessType:"
+- "bundleWithPath:"
+- "bundle_id"
+- "cameraDictionary"
+- "capacity"
+- "captureUserIntentForControlWithBundleIdentifier:withNotification:"
+- "close device"
+- "close: %@"
+- "closeDevice"
+- "closeDevice:"
+- "closeFile"
+- "com.apple.ImageCaptureFramework"
+- "com.apple.imagecapture"
+- "com.apple.mscamerad-xpc+%@"
+- "com.apple.private.imagecapturecore.authorization_bypass"
+- "components:fromDate:"
+- "connection"
+- "connections"
+- "connectionsMonitoringNotification:"
+- "connectionsMonitoringObjectID:"
+- "contentForTCP"
+- "contentForUSBUsingBuffer:capacity:"
+- "control_informed"
+- "copyWithZone:"
+- "count: [%05lu]"
+- "cpPowerAssertion"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createSessionWithConnection:"
+- "currentCalendar"
+- "currentSessionCount"
+- "dataPhaseInfo"
+- "dataUsingEncoding:"
+- "dataWithBytes:length:"
+- "decodeBoolForKey:"
+- "decodeDictionaryWithKeysOfClasses:objectsOfClasses:forKey:"
+- "decodeInt32ForKey:"
+- "decodeInt64ForKey:"
+- "decodeObjectOfClass:forKey:"
+- "defaultManager"
+- "deniedBundles"
+- "deviceAccessQueue"
+- "deviceContext"
+- "deviceOperationUnderlyingQueue"
+- "displayAlertForApplication:withNotification:completionBlock:"
+- "displayAlertForControlWithNotification:completionBlock:"
+- "domain"
+- "encodeBool:forKey:"
+- "encodeInt32:forKey:"
+- "encodeInt64:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "endpoint"
+- "entity"
+- "errorDecoded"
+- "evaulateCommonTCC:"
+- "excessDataLength"
+- "exists: [%05d]"
+- "externalDeviceAccess.db"
+- "externalMediaAccessDB"
+- "fBsyErr"
+- "fileDescriptor"
+- "fileExistsAtPath:"
+- "fileHandleForReadingFromURL:error:"
+- "fingerprintForData:error:"
+- "fingerprintForFD:error:"
+- "fixupFileHandleError:"
+- "fnfErr"
+- "forwardPTPEvents"
+- "headerOffset"
+- "headerOffsetBytes"
+- "holdPowerAssertion"
+- "hour"
+- "i24@0:8@16"
+- "icaccess"
+- "indexOfObject:inSortedRange:options:usingComparator:"
+- "initManaging:systemDaemon:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithBytes:capacity:"
+- "initWithBytesNoCopy:length:freeWhenDone:"
+- "initWithCoder:"
+- "initWithConnection:"
+- "initWithDelegate:"
+- "initWithDeviceContext:"
+- "initWithFileDescriptor:capacity:"
+- "initWithOperationCode:transactionID:dataPhaseInfo:"
+- "initWithOperationCode:transactionID:dataPhaseInfo:numParameters:parameters:"
+- "initWithOperationCode:transactionID:dataPhaseInfo:parameter1:"
+- "initWithOperationCode:transactionID:dataPhaseInfo:parameter1:parameter2:parameter3:"
+- "initWithOperationCode:transactionID:dataPhaseInfo:parameter1:parameter2:parameter3:parameter4:"
+- "initWithOperationCode:transactionID:dataPhaseInfo:parameter1:parameter2:parameter3:parameter4:parameter5:"
+- "initWithPrimaryIdentifierString:uuidString:localizedName:"
+- "initWithResponseCode:transactionID:"
+- "initWithResponseCode:transactionID:numParameters:parameters:"
+- "initWithResponseCode:transactionID:parameter1:"
+- "initWithResponseCode:transactionID:parameter1:parameter2:"
+- "initWithResponseCode:transactionID:parameter1:parameter2:parameter3:"
+- "initWithResponseCode:transactionID:parameter1:parameter2:parameter3:parameter4:"
+- "initWithResponseCode:transactionID:parameter1:parameter2:parameter3:parameter4:parameter5:"
+- "initWithTCPBuffer:"
+- "insertObject:atIndex:"
+- "interestedInNotification:"
+- "kICASandboxViolation"
+- "kICASecureSessionRequired"
+- "kIOReturnBusy"
+- "kIOReturnTimeout"
+- "listener"
+- "listener:shouldAcceptNewConnection:"
+- "localizedName"
+- "localizedStringForKey:value:table:"
+- "loggingLevel"
+- "longValue"
+- "managedObjectName"
+- "mediaItems"
+- "minute"
+- "mutableBytes"
+- "mutableData"
+- "nanosecond"
+- "noteInterest"
+- "notifications"
+- "notifyClientDeviceAdded:uuidString:deviceName:"
+- "notifyClientDeviceRemoved:"
+- "numParameters"
+- "numberWithBool:"
+- "objectForKey:"
+- "offset"
+- "openDB:"
+- "operationCode"
+- "orderedSet"
+- "osTransactions"
+- "paramErr"
+- "parameter1"
+- "parameter2"
+- "parameter3"
+- "parameter4"
+- "parameter5"
+- "parameterAtIndex:"
+- "percentFull"
+- "performSelector:onTypes:"
+- "persistentDomainForName:"
+- "pid"
+- "primaryIdentifierString"
+- "privateBypass"
+- "processIdentifier"
+- "processInfo"
+- "processName"
+- "q24@?0@\"<ICMediaItemProtocol>\"8@\"<ICMediaItemProtocol>\"16"
+- "q24@?0@\"NSNumber\"8@\"NSNumber\"16"
+- "r^v16@0:8"
+- "read_access"
+- "releasePowerAssertion"
+- "remNotifications:"
+- "remNotifications:fromSessionWithConnection:"
+- "remoteCameraDevices"
+- "remoteCameraDevicesLock"
+- "remoteDeviceForPrimaryIdentifier:"
+- "remoteDeviceForUUID:"
+- "remoteManagerConnectionWithProcessIdentifierAuthorized:"
+- "remoteManagerConnections"
+- "remoteManagerConnectionsLock"
+- "remove: [%05lu]"
+- "removeAllSessions"
+- "removeMediaItemWithHandleFromIndex:"
+- "removeObjectsInArray:"
+- "removeRemoteCameraDevice:"
+- "removeRemoteManagerConnectionWithProcessIdentifier:"
+- "removeSessionWithConnection:"
+- "removeSessionsWithProcessIdentifier:"
+- "replaceBytesInRange:withBytes:"
+- "requestDeviceListWithOptions:reply"
+- "rewindBytesToPosition64:"
+- "second"
+- "sendAddedItemsNotification:toConnections:"
+- "sendNote"
+- "sendNotification:toConnections:selector:"
+- "sendPTPEventNotification:"
+- "sendRemovedItemsNotification:toConnections:"
+- "sendStatusNotification:toConnections:"
+- "sendUpdatedItemsNotification:toConnections:"
+- "sessionCount"
+- "sessionManager"
+- "sessionManagerDidCloseAllSessions:"
+- "sessionWithConnection:"
+- "sessions"
+- "setAddedBundles:"
+- "setAllocatedBytes:"
+- "setBytes:"
+- "setCamera:"
+- "setCameraDictionary:"
+- "setCapacity:"
+- "setCaptureDate:"
+- "setConnection:"
+- "setCpPowerAssertion:"
+- "setDataPhaseInfo:"
+- "setDeniedBundles:"
+- "setDeviceAccessQueue:"
+- "setDeviceOperationUnderlyingQueue:"
+- "setExcessDataLength:"
+- "setExternalMediaAccessDB:"
+- "setForwardPTPEvents:"
+- "setHeaderOffset:"
+- "setKeywords:"
+- "setLength:"
+- "setListener:"
+- "setLocalizedName:"
+- "setManagedObjectName:"
+- "setMediaItems:"
+- "setNumParameters:"
+- "setObject:forKey:"
+- "setOffset:"
+- "setOpenSession:"
+- "setOperationCode:"
+- "setOsTransactions:"
+- "setParameter1:"
+- "setParameter2:"
+- "setParameter3:"
+- "setParameter4:"
+- "setParameter5:"
+- "setParentObjectHandle:"
+- "setPparameter:atIndex:"
+- "setPrimaryIdentifierString:"
+- "setReadOnly:"
+- "setRemoteCameraDevices:"
+- "setRemoteCameraDevicesLock:"
+- "setRemoteManagerConnections:"
+- "setRemoteManagerConnectionsLock:"
+- "setResponseCode:"
+- "setSequenceNumber:"
+- "setSessionManager:"
+- "setSize:"
+- "setStorageID:"
+- "setSystemDaemon:"
+- "setTopLevel:"
+- "setTransactionID:"
+- "setUnderlyingQueue:"
+- "setUseByteBuffer:"
+- "setUuidString:"
+- "setWithObjects:"
+- "standardUserDefaults"
+- "startDeviceNotifications"
+- "startListening"
+- "storageID"
+- "stringWithUTF8String:"
+- "success"
+- "supportsSecureCoding"
+- "systemDaemon"
+- "tcc_server_message_get_authorization_records_by_service error %@"
+- "text"
+- "transactionID"
+- "unimpErr"
+- "updateApplicationWithBundleIdentifier:%@ withStatus:%d"
+- "updateCapacity:"
+- "updateRemoteManagerConnectionWithProcessIdentifier:authorized:"
+- "useByteBuffer"
+- "userCanceledErr"
+- "uuidString"
+- "v16@?0^{__CFError=}8"
+- "v20@0:8S16"
+- "v20@?0B8Q12"
+- "v24@0:8*16"
+- "v24@0:8@\"ICSessionManager\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8I16I20"
+- "v24@0:8^v16"
+- "v24@0:8^{sqlite3=}16"
+- "v24@0:8i16B20"
+- "v24@?0@\"NSObject<OS_tcc_authorization_record>\"8^{__CFError=}16"
+- "v40@0:8@16@24:32"
+- "v40@0:8@16@24Q32"
+- "v40@0:8{_NSRange=QQ}16r^v32"
+- "validateBundleIdentifierInstalled:"
+- "value"
+- "valueForEntitlement:"
+- "wasInitWithFD"
+- "whitelisted"
+- "wrappedBytesWithBytes:capacity:"
+- "wrappedBytesWithCapacity:"
+- "write_access"
+- "xpc-term: [%05d]"
+- "zeroByteFileFingerprint"
+
+```

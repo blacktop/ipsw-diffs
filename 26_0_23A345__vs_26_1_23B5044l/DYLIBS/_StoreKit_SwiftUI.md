@@ -1,0 +1,134 @@
+## _StoreKit_SwiftUI
+
+> `/System/Library/Frameworks/_StoreKit_SwiftUI.framework/_StoreKit_SwiftUI`
+
+```diff
+
+-815.0.48.0.0
+-  __TEXT.__text: 0x25a9d4
+-  __TEXT.__auth_stubs: 0x5270
++815.1.6.0.0
++  __TEXT.__text: 0x258c28
++  __TEXT.__auth_stubs: 0x5260
+   __TEXT.__objc_methlist: 0x434
+-  __TEXT.__cstring: 0x4da6
+-  __TEXT.__const: 0x20a44
+-  __TEXT.__constg_swiftt: 0xecdc
+-  __TEXT.__swift5_typeref: 0x18f50
++  __TEXT.__cstring: 0x4d46
++  __TEXT.__const: 0x20904
++  __TEXT.__constg_swiftt: 0xec40
++  __TEXT.__swift5_typeref: 0x18ff0
+   __TEXT.__swift5_builtin: 0x140
+   __TEXT.__swift5_reflstr: 0x7081
+-  __TEXT.__swift5_fieldmd: 0x8494
+-  __TEXT.__swift5_assocty: 0x3400
+-  __TEXT.__swift5_proto: 0xd38
+-  __TEXT.__swift5_types: 0xb44
+-  __TEXT.__swift5_capture: 0x2084
++  __TEXT.__swift5_fieldmd: 0x8414
++  __TEXT.__swift5_assocty: 0x33d0
++  __TEXT.__swift5_proto: 0xd2c
++  __TEXT.__swift5_types: 0xb3c
++  __TEXT.__swift5_capture: 0x202c
+   __TEXT.__swift5_protos: 0x80
+-  __TEXT.__swift_as_entry: 0x1b8
+-  __TEXT.__swift_as_ret: 0x208
+-  __TEXT.__oslogstring: 0x53c
++  __TEXT.__swift_as_entry: 0x1a8
++  __TEXT.__swift_as_ret: 0x1f8
++  __TEXT.__oslogstring: 0x4ec
+   __TEXT.__swift5_mpenum: 0x60
+-  __TEXT.__unwind_info: 0x9140
+-  __TEXT.__eh_frame: 0x714c
++  __TEXT.__unwind_info: 0x9030
++  __TEXT.__eh_frame: 0x6db4
+   __TEXT.__objc_classname: 0x5d
+   __TEXT.__objc_methname: 0xa38
+   __TEXT.__objc_methtype: 0x17e
+   __TEXT.__objc_stubs: 0xa0
+-  __DATA_CONST.__got: 0x1828
++  __DATA_CONST.__got: 0x1810
+   __DATA_CONST.__const: 0x3a0
+-  __DATA_CONST.__objc_classlist: 0xb8
++  __DATA_CONST.__objc_classlist: 0xb0
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x408
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x2940
+-  __AUTH_CONST.__const: 0x11e10
++  __AUTH_CONST.__auth_got: 0x2938
++  __AUTH_CONST.__const: 0x11d70
+   __AUTH_CONST.__cfstring: 0x1900
+-  __AUTH_CONST.__objc_const: 0x22a0
++  __AUTH_CONST.__objc_const: 0x21a8
+   __AUTH.__objc_data: 0x7f0
+-  __AUTH.__data: 0x6360
++  __AUTH.__data: 0x6220
+   __DATA.__objc_ivar: 0xc
+-  __DATA.__data: 0xd930
+-  __DATA.__bss: 0x1b0b8
++  __DATA.__data: 0xd8e0
++  __DATA.__bss: 0x1af38
+   __DATA.__common: 0x700
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 607C7F2F-4B9B-32C4-9999-B210FC58CF38
+-  Functions: 14628
+-  Symbols:   10651
+-  CStrings:  990
++  UUID: 53CCAF76-E841-3764-9E02-253E0E430186
++  Functions: 14534
++  Symbols:   10560
++  CStrings:  988
+ 
+Symbols:
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOQr.28
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.29
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy010_StoreKit_aB003Appg18MerchandisingSheetF033_426776C9626399DD3744BC0687259AC1LLVGAA014_BindingActionF0VySbGGAA0E0HPAjaOHPyHC_AmA0eF0HPyHCHC.21
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx010_StoreKit_aB003AppF26MerchandisingSheetModifier33_426776C9626399DD3744BC0687259AC1LLVGAaBHPxAaBHD1__AhA0cK0HPyHCHC.2
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOyAA15NavigationStackVyAA0J4PathVAA15ModifiedContentVyAcAE7toolbar7contentQrqd__yXE_tAA07ToolbarN0Rd__lFQOyAPyAPyAPyAPyAPy010_StoreKit_aB0012SubscriptionrC0VyAT0t5Offerc15NoCodeMarketingN0VGAT0R24ButtonVisibilityModifier33_F02348256A87C5F9CA48BF131DE3FD73LLVySayAT0rY4KindVGGGAA24_BackgroundStyleModifierVyAA13AnyShapeStyleVGGAT0tR25ControlPropertiesModifier33_8294E5E8F18C06F78C9342705B1ED46FLLVyAT0tucvW12ControlStyleVGGAA32_EnvironmentKeyTransformModifierVySbSgGGAT020InAppPurchaseOptionsC8Modifier33_A7B1F9D9E056EAFD1DCAF2E48FAF0C5CLLVG_AA05TupleqN0VyAA0Q4ItemVyytAT03AppR5BadgeVG_A31_yytAT029EnvironmentActionUIKitDismissY0VGtGQo_AT025OnInAppPurchaseCompletionC8ModifierA25_LLVGG_Qo_HO.75
++ _objectdestroy.57Tm
++ _symbolic _____y_____y_____AAy_____yAAyAAyAAyAAyAAy_____y_____G_____ySay_____GGG_____y_____GG_____y_____GG_____ySbSgGG_____G______y_____yyt_____G_A_yyt_____GtGQo______GG_____G 7SwiftUI15ModifiedContentV AA15NavigationStackV AA0E4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO 010_StoreKit_aB0012SubscriptionlH0V AM0n5Offerh15NoCodeMarketingD0V AM0L24ButtonVisibilityModifier33_F02348256A87C5F9CA48BF131DE3FD73LLV AM0lS4KindV AA016_BackgroundStyleU0V AA13AnyShapeStyleV AM0nl17ControlPropertiesU033_8294E5E8F18C06F78C9342705B1ED46FLLV AM0nohpQ12ControlStyleV AA024_EnvironmentKeyTransformU0V AM020InAppPurchaseOptionshU005_A7B1y23D9E056EAFD1DCAF2E48FAF0X1CLLV AA05TuplekD0V AA0K4ItemV AM03AppL5BadgeV AM029EnvironmentActionUIKitDismissS0V AM025OnInAppPurchaseCompletionhU0A7_LLV AA14_TaskModifier2V
++ _symbolic _____y_____y__________y_____yACyACyACyACyACy_____y_____G_____ySay_____GGG_____y_____GG_____y_____GG_____ySbSgGG_____G______y_____yyt_____G_A_yyt_____GtGQo______GG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQO AA15NavigationStackV AA0J4PathV AA15ModifiedContentV AcAE7toolbar7contentQrqd__yXE_tAA07ToolbarN0Rd__lFQO 010_StoreKit_aB0012SubscriptionrC0V AT0t5Offerc15NoCodeMarketingN0V AT0R24ButtonVisibilityModifier33_F02348256A87C5F9CA48BF131DE3FD73LLV AT0rY4KindV AA24_BackgroundStyleModifierV AA13AnyShapeStyleV AT0tR25ControlPropertiesModifier33_8294E5E8F18C06F78C9342705B1ED46FLLV AT0tucvW12ControlStyleV AA32_EnvironmentKeyTransformModifierV AT020InAppPurchaseOptionsC8Modifier33_A7B1F9D9E056EAFD1DCAF2E48FAF0C5CLLV AA05TupleqN0V AA0Q4ItemV AT03AppR5BadgeV AT029EnvironmentActionUIKitDismissY0V AT025OnInAppPurchaseCompletionC8ModifierA14_LLV
+- __DATA__TtC17_StoreKit_SwiftUIP33_426776C9626399DD3744BC0687259AC124AppStoreOfferCoordinator
+- __IVARS__TtC17_StoreKit_SwiftUIP33_426776C9626399DD3744BC0687259AC124AppStoreOfferCoordinator
+- __METACLASS_DATA__TtC17_StoreKit_SwiftUIP33_426776C9626399DD3744BC0687259AC124AppStoreOfferCoordinator
+- _associated conformance 17_StoreKit_SwiftUI03AppA16OfferCoordinator33_426776C9626399DD3744BC0687259AC1LLC7Combine16ObservableObjectAA0N19WillChangePublisherAeFP_AE0Q0
+- _associated conformance 17_StoreKit_SwiftUI03AppA18OfferSheetModifier33_426776C9626399DD3744BC0687259AC1LLV0cD004ViewH0AA4BodyAeFP_AE0M0
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy010_StoreKit_aB003Appg10OfferSheetF033_426776C9626399DD3744BC0687259AC1LLVGAA014_BindingActionF0VySbGGAA0E0HPAjaOHPyHC_AmA0eF0HPyHCHC.57
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy010_StoreKit_aB003Appg18MerchandisingSheetF033_426776C9626399DD3744BC0687259AC1LLVGAA014_BindingActionF0VySbGGAA0E0HPAjaOHPyHC_AmA0eF0HPyHCHC.56
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA15NavigationStackVyAA0E4PathVACyAA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQOyACyACyACyACyACy010_StoreKit_aB0012SubscriptionlH0VyAM0n5Offerh15NoCodeMarketingD0VGAM0L24ButtonVisibilityModifier33_F02348256A87C5F9CA48BF131DE3FD73LLVySayAM0lS4KindVGGGAA016_BackgroundStyleU0VyAA13AnyShapeStyleVGGAM0nl17ControlPropertiesU033_8294E5E8F18C06F78C9342705B1ED46FLLVyAM0nohpQ12ControlStyleVGGAA024_EnvironmentKeyTransformU0VySbSgGGAM020InAppPurchaseOptionshU005_A7B1y23D9E056EAFD1DCAF2E48FAF0X1CLLVG_AA05TuplekD0VyAA0K4ItemVyytAM03AppL5BadgeVG_A24_yytAM029EnvironmentActionUIKitDismissS0VGtGQo_AM025OnInAppPurchaseCompletionhU0A18_LLVGGAA05_TaskU0VGAaHHPA36_AaHHPyHC_A38_AA0hU0HPyHCHC.74
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx010_StoreKit_aB003AppF18OfferSheetModifier33_426776C9626399DD3744BC0687259AC1LLVGAaBHPxAaBHD1__AhA0cK0HPyHCHC.8
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx010_StoreKit_aB003AppF26MerchandisingSheetModifier33_426776C9626399DD3744BC0687259AC1LLVGAaBHPxAaBHD1__AhA0cK0HPyHCHC.7
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx010_StoreKit_aB003AppF26MerchandisingSheetModifier33_426776C9626399DD3744BC0687259AC1LLVGAaBHPxAaBHD1__AhA0cK0HPyHCHCTm
+- _objectdestroy.21Tm
+- _objectdestroy.25Tm
+- _objectdestroy.33Tm
+- _symbolic _____ 17_StoreKit_SwiftUI03AppA16OfferCoordinator33_426776C9626399DD3744BC0687259AC1LLC
+- _symbolic _____ 17_StoreKit_SwiftUI03AppA18OfferSheetModifier33_426776C9626399DD3744BC0687259AC1LLV
+- _symbolic _____ 8StoreKit03AppA9OfferKindV
+- _symbolic _____y_____G 7SwiftUI11StateObjectV 010_StoreKit_aB003AppE16OfferCoordinator33_426776C9626399DD3744BC0687259AC1LLC
+- _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 010_StoreKit_aB003Appf10OfferSheetD033_426776C9626399DD3744BC0687259AC1LLV
+- _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 8StoreKit03AppB9OfferKindV012PresentationA0O s5ErrorP
+- _symbolic _____y___________pGIegHn_Sg s6ResultOsRi_zRi0_zrlE 8StoreKit03AppB9OfferKindV012PresentationA0O s5ErrorP
+- _symbolic _____y_____y_____G_____ySbGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 010_StoreKit_aB003Appg10OfferSheetF033_426776C9626399DD3744BC0687259AC1LLV AA014_BindingActionF0V
+- _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 010_StoreKit_aB003AppE18OfferSheetModifier33_426776C9626399DD3744BC0687259AC1LLV
+- _symbolic y_____y___________pGYacSg s6ResultOsRi_zRi0_zrlE 8StoreKit03AppB9OfferKindV012PresentationA0O s5ErrorP
+CStrings:
++ "00:13:07"
++ "Sep 17 2025"
++ "View.task @ _StoreKit_SwiftUI/SubscriptionOfferViewNoCodeSheet.swift:"
+- "01:02:15"
+- "Attempting to present an App Store offer without being in the hierarchy."
+- "Aug  3 2025"
+- "_TtC17_StoreKit_SwiftUIP33_426776C9626399DD3744BC0687259AC124AppStoreOfferCoordinator"
+
+```

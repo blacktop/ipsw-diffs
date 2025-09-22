@@ -1,0 +1,1146 @@
+## VoiceShortcuts
+
+> `/System/Library/PrivateFrameworks/VoiceShortcuts.framework/VoiceShortcuts`
+
+```diff
+
+-4033.0.3.5.0
+-  __TEXT.__text: 0x11b2e0
+-  __TEXT.__auth_stubs: 0x3600
+-  __TEXT.__objc_methlist: 0x66c4
+-  __TEXT.__const: 0x5180
++4037.1.4.0.0
++  __TEXT.__text: 0x11b870
++  __TEXT.__auth_stubs: 0x3650
++  __TEXT.__objc_methlist: 0x65c4
++  __TEXT.__const: 0x5090
+   __TEXT.__dlopen_cstrs: 0x2dd
+-  __TEXT.__cstring: 0x12edc
+-  __TEXT.__oslogstring: 0x10123
+-  __TEXT.__swift5_typeref: 0x2196
+-  __TEXT.__swift5_fieldmd: 0x1550
+-  __TEXT.__constg_swiftt: 0x1e80
+-  __TEXT.__swift5_reflstr: 0x146f
++  __TEXT.__cstring: 0x12d9e
++  __TEXT.__oslogstring: 0xfd46
++  __TEXT.__swift5_typeref: 0x274c
++  __TEXT.__swift5_fieldmd: 0x165c
++  __TEXT.__constg_swiftt: 0x2330
++  __TEXT.__swift5_reflstr: 0x1525
+   __TEXT.__swift5_builtin: 0x104
+-  __TEXT.__swift5_assocty: 0x5a0
+-  __TEXT.__swift5_capture: 0xb5c
+-  __TEXT.__swift5_proto: 0x390
+-  __TEXT.__swift5_types: 0x1c0
+-  __TEXT.__swift_as_entry: 0x2e8
+-  __TEXT.__swift_as_ret: 0x350
+-  __TEXT.__swift5_protos: 0x5c
++  __TEXT.__swift5_assocty: 0x630
++  __TEXT.__swift5_capture: 0x1140
++  __TEXT.__swift5_proto: 0x388
++  __TEXT.__swift5_types: 0x1dc
++  __TEXT.__swift_as_entry: 0x234
++  __TEXT.__swift_as_ret: 0x2bc
++  __TEXT.__swift5_protos: 0x60
+   __TEXT.__swift5_mpenum: 0x28
+-  __TEXT.__gcc_except_tab: 0x111c
++  __TEXT.__gcc_except_tab: 0x10f0
+   __TEXT.__ustring: 0x44
+-  __TEXT.__unwind_info: 0x4850
+-  __TEXT.__eh_frame: 0x866c
+-  __TEXT.__objc_classname: 0xe67
+-  __TEXT.__objc_methname: 0x16b86
+-  __TEXT.__objc_methtype: 0x499e
+-  __TEXT.__objc_stubs: 0x10520
+-  __DATA_CONST.__got: 0x1a60
+-  __DATA_CONST.__const: 0x2648
+-  __DATA_CONST.__objc_classlist: 0x368
++  __TEXT.__unwind_info: 0x4730
++  __TEXT.__eh_frame: 0x74a8
++  __TEXT.__objc_classname: 0xe84
++  __TEXT.__objc_methname: 0x16a50
++  __TEXT.__objc_methtype: 0x49bf
++  __TEXT.__objc_stubs: 0x10340
++  __DATA_CONST.__got: 0x1ad0
++  __DATA_CONST.__const: 0x2758
++  __DATA_CONST.__objc_classlist: 0x390
+   __DATA_CONST.__objc_catlist: 0x148
+-  __DATA_CONST.__objc_protolist: 0x2c0
++  __DATA_CONST.__objc_protolist: 0x2c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x52b8
++  __DATA_CONST.__objc_selrefs: 0x5280
+   __DATA_CONST.__objc_protorefs: 0xb0
+   __DATA_CONST.__objc_superrefs: 0x1e8
+   __DATA_CONST.__objc_arraydata: 0x50
+-  __AUTH_CONST.__auth_got: 0x1b10
+-  __AUTH_CONST.__const: 0x5110
+-  __AUTH_CONST.__cfstring: 0x4900
+-  __AUTH_CONST.__objc_const: 0xb4f8
++  __AUTH_CONST.__auth_got: 0x1b38
++  __AUTH_CONST.__const: 0x5d78
++  __AUTH_CONST.__cfstring: 0x4840
++  __AUTH_CONST.__objc_const: 0xb8d8
+   __AUTH_CONST.__objc_intobj: 0x2b8
+   __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH.__objc_data: 0xda0
+-  __AUTH.__data: 0x1658
+-  __DATA.__objc_ivar: 0x4c0
+-  __DATA.__data: 0x2840
+-  __DATA.__bss: 0x5518
++  __AUTH.__data: 0x1bf8
++  __DATA.__objc_ivar: 0x49c
++  __DATA.__data: 0x2c78
++  __DATA.__bss: 0x5318
+   __DATA.__common: 0x20
+   __DATA_DIRTY.__objc_data: 0x12d8
+-  __DATA_DIRTY.__data: 0x1118
++  __DATA_DIRTY.__data: 0x10a8
+   __DATA_DIRTY.__bss: 0x14d0
+-  __DATA_DIRTY.__common: 0x30
++  __DATA_DIRTY.__common: 0x28
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9A421431-8A50-32A7-A4CE-D1225B6AAA44
+-  Functions: 6225
+-  Symbols:   12688
+-  CStrings:  7098
++  UUID: 3FF49E6C-1E94-331B-90C1-B685554D2968
++  Functions: 6378
++  Symbols:   12485
++  CStrings:  7062
+ 
+Symbols:
++ -[VCCKShortcutSyncService workflowRecordWithIdentifier:properties:]
++ -[VCSpotlightSyncService completion]
++ -[VCSpotlightSyncService handleDatabaseChangeNotification:completion:]
++ -[VCSpotlightSyncService setCompletion:]
++ -[VCSpotlightSyncService syncWithChangeset:completion:]
++ -[WFSiriWorkflowVocabularyUpdater initWithDatabaseProvider:]
++ -[WFSiriWorkflowVocabularyUpdater updateIfPossible]
++ -[WFSystemSurfaceWorkflowStatusUpdater initWithDatabaseProvider:]
++ -[WFSystemSurfaceWorkflowStatusUpdater updateFromDatabase:]
++ -[WFSystemSurfaceWorkflowStatusUpdater updateIfPossible]
++ -[WFTriggerBootManager eventQueueDelegate]
++ -[WFTriggerBootManager registerForNotificationRemovalWithUserNotificationCenter:scheduleIfNeeded:]
++ -[WFTriggerBootManager setEventQueueDelegate:]
++ -[WFTriggerEventQueue clearWithCompletionHandler:]
++ -[WFWalletTransactionProvider paymentPassWithUniqueIdentifier:didUpdateWithCredentials:forPaymentApplicationIdentifier:]
++ GCC_except_table1010
++ GCC_except_table1195
++ GCC_except_table1219
++ GCC_except_table1225
++ GCC_except_table1228
++ GCC_except_table1258
++ GCC_except_table1378
++ GCC_except_table1390
++ GCC_except_table1412
++ GCC_except_table1472
++ GCC_except_table1478
++ GCC_except_table1483
++ GCC_except_table1484
++ GCC_except_table1489
++ GCC_except_table1630
++ GCC_except_table1651
++ GCC_except_table1663
++ GCC_except_table1669
++ GCC_except_table1670
++ GCC_except_table1677
++ GCC_except_table1679
++ GCC_except_table1681
++ GCC_except_table1683
++ GCC_except_table1685
++ GCC_except_table1686
++ GCC_except_table1688
++ GCC_except_table1689
++ GCC_except_table1703
++ GCC_except_table1737
++ GCC_except_table1741
++ GCC_except_table1755
++ GCC_except_table1760
++ GCC_except_table177
++ GCC_except_table1776
++ GCC_except_table1808
++ GCC_except_table1812
++ GCC_except_table182
++ GCC_except_table1830
++ GCC_except_table1834
++ GCC_except_table184
++ GCC_except_table1848
++ GCC_except_table1850
++ GCC_except_table1854
++ GCC_except_table187
++ GCC_except_table1872
++ GCC_except_table1875
++ GCC_except_table1999
++ GCC_except_table2000
++ GCC_except_table2011
++ GCC_except_table2013
++ GCC_except_table280
++ GCC_except_table359
++ GCC_except_table373
++ GCC_except_table386
++ GCC_except_table394
++ GCC_except_table417
++ GCC_except_table439
++ GCC_except_table486
++ GCC_except_table502
++ GCC_except_table538
++ GCC_except_table558
++ GCC_except_table630
++ GCC_except_table641
++ GCC_except_table735
++ GCC_except_table750
++ GCC_except_table761
++ _OBJC_CLASS_$_CCToolKitToolContent
++ _OBJC_CLASS_$_CCToolKitToolContentLocalizedStringTable
++ _OBJC_CLASS_$_CCToolKitToolMetaContent
++ _OBJC_CLASS_$_CCToolKitToolToolDefinitionVersion1
++ _OBJC_CLASS_$_CCToolKitToolTypeDefinitionVersion1
++ _OBJC_CLASS_$_OS_dispatch_source
++ _OBJC_IVAR_$_VCSpotlightSyncService._completion
++ _OBJC_IVAR_$_WFTriggerBootManager._eventQueueDelegate
++ __DATA__TtC14VoiceShortcuts11ErasedEvent
++ __DATA__TtC14VoiceShortcuts22TerminationEventSource
++ __DATA__TtC14VoiceShortcuts24LegacyDaemonTaskProvider
++ __DATA__TtC14VoiceShortcuts25SpotlightSyncTaskProvider
++ __DATA__TtC14VoiceShortcuts31WorkflowIntegrationTaskProvider
++ __DATA__TtCC14VoiceShortcuts18DaemonTaskExecutorP33_140FF4AD5A3C9CD397475339CE5392A29TaskQueue
++ __DATA__TtCCC14VoiceShortcuts18DaemonTaskExecutorP33_140FF4AD5A3C9CD397475339CE5392A29TaskQueue10QueuedTask
++ __INSTANCE_METHODS__TtC14VoiceShortcuts14EventDebouncer
++ __IVARS__TtC14VoiceShortcuts11ErasedEvent
++ __IVARS__TtC14VoiceShortcuts11EventFilter
++ __IVARS__TtC14VoiceShortcuts14EventDebouncer
++ __IVARS__TtC14VoiceShortcuts25SpotlightSyncTaskProvider
++ __IVARS__TtC14VoiceShortcuts31WorkflowIntegrationTaskProvider
++ __IVARS__TtC14VoiceShortcuts8EventMap
++ __IVARS__TtCC14VoiceShortcuts18DaemonTaskExecutorP33_140FF4AD5A3C9CD397475339CE5392A29TaskQueue
++ __IVARS__TtCCC14VoiceShortcuts18DaemonTaskExecutorP33_140FF4AD5A3C9CD397475339CE5392A29TaskQueue10QueuedTask
++ __IVARS__TtCV14VoiceShortcuts17DaemonEventStream10EventMerge
++ __IVARS__TtCV14VoiceShortcuts17DaemonEventStream11EventSource
++ __METACLASS_DATA__TtC14VoiceShortcuts11ErasedEvent
++ __METACLASS_DATA__TtC14VoiceShortcuts22TerminationEventSource
++ __METACLASS_DATA__TtC14VoiceShortcuts24LegacyDaemonTaskProvider
++ __METACLASS_DATA__TtC14VoiceShortcuts25SpotlightSyncTaskProvider
++ __METACLASS_DATA__TtC14VoiceShortcuts31WorkflowIntegrationTaskProvider
++ __METACLASS_DATA__TtCC14VoiceShortcuts18DaemonTaskExecutorP33_140FF4AD5A3C9CD397475339CE5392A29TaskQueue
++ __METACLASS_DATA__TtCCC14VoiceShortcuts18DaemonTaskExecutorP33_140FF4AD5A3C9CD397475339CE5392A29TaskQueue10QueuedTask
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_WFTriggerEventQueueDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_WFTriggerEventQueueDelegate
++ __OBJC_$_PROTOCOL_REFS_WFTriggerEventQueueDelegate
++ __OBJC_LABEL_PROTOCOL_$_WFTriggerEventQueueDelegate
++ __OBJC_PROTOCOL_$_WFTriggerEventQueueDelegate
++ ___50-[WFTriggerEventQueue clearWithCompletionHandler:]_block_invoke
++ ___51-[WFSiriWorkflowVocabularyUpdater updateIfPossible]_block_invoke
++ ___55-[VCSpotlightSyncService syncWithChangeset:completion:]_block_invoke
++ ___98-[WFTriggerBootManager registerForNotificationRemovalWithUserNotificationCenter:scheduleIfNeeded:]_block_invoke
++ ___98-[WFTriggerBootManager registerForNotificationRemovalWithUserNotificationCenter:scheduleIfNeeded:]_block_invoke.189
++ ___98-[WFTriggerBootManager registerForNotificationRemovalWithUserNotificationCenter:scheduleIfNeeded:]_block_invoke.191
++ ___98-[WFTriggerBootManager registerForNotificationRemovalWithUserNotificationCenter:scheduleIfNeeded:]_block_invoke.193
++ ___Block_byref_object_copy_.1254
++ ___Block_byref_object_copy_.1439
++ ___Block_byref_object_copy_.3689
++ ___Block_byref_object_copy_.3863
++ ___Block_byref_object_copy_.4112
++ ___Block_byref_object_copy_.4925
++ ___Block_byref_object_copy_.5167
++ ___Block_byref_object_copy_.6152
++ ___Block_byref_object_copy_.6439
++ ___Block_byref_object_copy_.6559
++ ___Block_byref_object_copy_.6714
++ ___Block_byref_object_copy_.6840
++ ___Block_byref_object_dispose_.1255
++ ___Block_byref_object_dispose_.1440
++ ___Block_byref_object_dispose_.3690
++ ___Block_byref_object_dispose_.3864
++ ___Block_byref_object_dispose_.4113
++ ___Block_byref_object_dispose_.4926
++ ___Block_byref_object_dispose_.5168
++ ___Block_byref_object_dispose_.6153
++ ___Block_byref_object_dispose_.6440
++ ___Block_byref_object_dispose_.6560
++ ___Block_byref_object_dispose_.6715
++ ___Block_byref_object_dispose_.6841
++ ___block_descriptor_57_e8_32s40s48bs_e28_v24?0"NSData"8"NSError"16ls32l8s40l8s48l8
++ ___block_descriptor_64_e8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
++ ___block_literal_global.1327
++ ___block_literal_global.1442
++ ___block_literal_global.1783
++ ___block_literal_global.183
++ ___block_literal_global.1893
++ ___block_literal_global.1898
++ ___block_literal_global.214.7873
++ ___block_literal_global.240.6167
++ ___block_literal_global.243.5205
++ ___block_literal_global.2555
++ ___block_literal_global.3003
++ ___block_literal_global.3301
++ ___block_literal_global.3777
++ ___block_literal_global.3878
++ ___block_literal_global.395
++ ___block_literal_global.4163
++ ___block_literal_global.4375
++ ___block_literal_global.4500
++ ___block_literal_global.5214
++ ___block_literal_global.5866
++ ___block_literal_global.6200
++ ___block_literal_global.6438
++ ___block_literal_global.6583
++ ___block_literal_global.6827
++ ___block_literal_global.7094
++ ___block_literal_global.7400
++ ___block_literal_global.7901
++ ___block_literal_global.7983
++ ___swift_assignWithCopy_strong
++ ___swift_assignWithTake_strong
++ ___swift_destroy_strong
++ ___swift_initWithCopy_strong
++ ___swift_memcpy33_8
++ ___swift_memcpy72_8
++ ___swift_memcpy80_8
++ ___unnamed_3
++ ___unnamed_4
++ ___unnamed_6
++ ___unnamed_8
++ _associated conformance 14VoiceShortcuts11ErasedEventCAA0D4NodeAA6OutputAaDP_AA06DaemonD0
++ _associated conformance 14VoiceShortcuts11EventFilterCyxGAA0C4NodeAA6OutputAaEP_AA06DaemonC0
++ _associated conformance 14VoiceShortcuts14EventDebouncerCyxGAA0C4NodeAA6OutputAaEP_AA06DaemonC0
++ _associated conformance 14VoiceShortcuts17DaemonEventStreamV0D5MergeCy_xGAA0D4NodeAA6OutputAaGP_AA0cD0
++ _associated conformance 14VoiceShortcuts17DaemonEventStreamV0D6SourceCy_xGAA0D4NodeAA6OutputAaGP_AA0cD0
++ _associated conformance 14VoiceShortcuts22TerminationEventSourceCAA06DaemondE0AA0D0AaDP_AA0fD0
++ _associated conformance 14VoiceShortcuts24ToolKitCascadeSyncEngineC16PullStateMachineC12RemovalErrorOSHAASQ
++ _associated conformance 14VoiceShortcuts30DiskArbitrationEventDescriptorVAA06DaemoneF0AA0E0AaDP_AA0gE0
++ _associated conformance 14VoiceShortcuts30DiskArbitrationEventDescriptorVSHAASQ
++ _associated conformance 14VoiceShortcuts32DaemonTerminationEventDescriptorVAA0ceF0AA0E0AaDP_AA0cE0
++ _associated conformance 14VoiceShortcuts32DaemonTerminationEventDescriptorVSHAASQ
++ _associated conformance 14VoiceShortcuts8EventMapCyxGAA0C4NodeAA6OutputAaEP_AA06DaemonC0
++ _associated conformance 19VoiceShortcutClient16XPCFSEventStreamV0A9Shortcuts014DaemonXPCEventE0AD10DescriptorAdEP_AD0g5EventI0
++ _associated conformance 19VoiceShortcutClient16XPCFSEventStreamV0A9Shortcuts17DaemonEventSourceAD0H0AdEP_AD0gH0
++ _associated conformance 19VoiceShortcutClient27XPCAppProtectionEventStreamV0A9Shortcuts014DaemonXPCEventG0AD10DescriptorAdEP_AD0ifK0
++ _associated conformance 19VoiceShortcutClient27XPCAppProtectionEventStreamV0A9Shortcuts06DaemonF6SourceAD0F0AdEP_AD0iF0
++ _associated conformance 19VoiceShortcutClient32XPCDarwinNotificationEventStreamV0A9Shortcuts014DaemonXPCEventG0AD10DescriptorAdEP_AD0ifK0
++ _associated conformance 19VoiceShortcutClient32XPCDarwinNotificationEventStreamV0A9Shortcuts06DaemonF6SourceAD0F0AdEP_AD0iF0
++ _associated conformance 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0A9Shortcuts014DaemonXPCEventG0AD10DescriptorAdEP_AD0ifK0
++ _associated conformance 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0A9Shortcuts06DaemonF6SourceAD0F0AdEP_AD0iF0
++ _associated conformance 19VoiceShortcutClient41XPCDiskArbitrationNotificationEventStreamV0A9Shortcuts014DaemonXPCEventH0AD10DescriptorAdEP_AD0jgL0
++ _associated conformance 19VoiceShortcutClient41XPCDiskArbitrationNotificationEventStreamV0A9Shortcuts06DaemonG6SourceAD0G0AdEP_AD0jG0
++ _associated conformance So20WFDatabaseObjectTypeVSHSCSQ
++ _block_copy_helper.16
++ _block_copy_helper.28
++ _block_copy_helper.46
++ _block_copy_helper.72
++ _block_copy_helper.85
++ _block_descriptor.18
++ _block_descriptor.30
++ _block_descriptor.48
++ _block_descriptor.74
++ _block_descriptor.87
++ _block_destroy_helper.17
++ _block_destroy_helper.29
++ _block_destroy_helper.47
++ _block_destroy_helper.73
++ _block_destroy_helper.86
++ _get_enum_tag_for_layout_string 14VoiceShortcuts24ToolKitCascadeSyncEngineC16PushStateMachineC5ErrorO
++ _objc_msgSend$allWorkflowIdentifiersForSync
++ _objc_msgSend$allowFileBookmarksAccess
++ _objc_msgSend$clearWithCompletionHandler:
++ _objc_msgSend$completion
++ _objc_msgSend$desiredSyncOperationForWorkflow:
++ _objc_msgSend$eventQueueDelegate
++ _objc_msgSend$handleUploadedWorkflowRecordWithIdentifier:cloudKitMetadata:syncHash:encryptedSchemaVersion:error:
++ _objc_msgSend$setCloudKitMetadata:forWorkflowRecordWithIdentifier:error:
++ _objc_msgSend$setEventQueueDelegate:
++ _objc_msgSend$syncWithChangeset:completion:
++ _objc_msgSend$updateFromDatabase:
++ _objc_msgSend$workflowRecordWithIdentifier:properties:
++ _objectdestroy.2Tm
++ _objectdestroy.34Tm
++ _objectdestroy.37Tm
++ _objectdestroy.40Tm
++ _signal
++ _swift_isUniquelyReferenced_native
++ _swift_release_n
++ _symbolic $s14VoiceShortcuts9EventNodeP
++ _symbolic 10Descriptor_____Qz 14VoiceShortcuts20DaemonXPCEventStreamP
++ _symbolic 10Descriptor______5Event_____QZ 14VoiceShortcuts20DaemonXPCEventStreamP AA0C15EventDescriptorP
++ _symbolic 5Event_____Qz 19VoiceShortcutClient14XPCEventStreamP
++ _symbolic 5Event_____QzIegn_ 14VoiceShortcuts21DaemonEventDescriptorP
++ _symbolic 5Event_____QzytIegnr_ 14VoiceShortcuts21DaemonEventDescriptorP
++ _symbolic 6Output_____Qyd__xIegnr_ 14VoiceShortcuts9EventNodeP
++ _symbolic 6Output_____Qz 14VoiceShortcuts9EventNodeP
++ _symbolic 6Output_____QzIegn_ 14VoiceShortcuts9EventNodeP
++ _symbolic 6Output_____QzSbIegnd_ 14VoiceShortcuts9EventNodeP
++ _symbolic 6Output_____QzSg 14VoiceShortcuts9EventNodeP
++ _symbolic 6Output_____Qz______pIegHnzo_ 14VoiceShortcuts9EventNodeP s5ErrorP
++ _symbolic 6Output_____QzytIegnr_ 14VoiceShortcuts9EventNodeP
++ _symbolic G0R2_
++ _symbolic SDySiSayy______pcGG 14VoiceShortcuts11DaemonEventP
++ _symbolic SDySi_____G 14VoiceShortcuts18DaemonTaskExecutorC0D5Queue33_140FF4AD5A3C9CD397475339CE5392A2LLC06QueuedD0C
++ _symbolic SDy_____ypG s11AnyHashableV
++ _symbolic SS16bundleIdentifier_t
++ _symbolic SS17cascadeIdentifier_SSSg07toolKitB0t
++ _symbolic SS17cascadeIdentifier_t
++ _symbolic Say_____G 14VoiceShortcuts18DaemonTaskExecutorC010RegisteredD033_140FF4AD5A3C9CD397475339CE5392A2LLV
++ _symbolic Say______pG 14VoiceShortcuts9EventNodeP
++ _symbolic Say______pG______Sitc 14VoiceShortcuts9EventNodeP AA19DaemonTaskSchedulerC
++ _symbolic SayxG
++ _symbolic Sayy______pcG 14VoiceShortcuts11DaemonEventP
++ _symbolic Shy_____G So20WFDatabaseObjectTypeV
++ _symbolic SiSg
++ _symbolic So22VCSpotlightSyncServiceC
++ _symbolic So22VCSpotlightSyncServiceCSgSg
++ _symbolic So28WFCoreDataChangeNotificationCSg
++ _symbolic So5CCSetCySo20CCToolKitToolContentCSo0bcd4MetaE0CG
++ _symbolic _____ 14VoiceShortcuts10EmptyEventV
++ _symbolic _____ 14VoiceShortcuts11ErasedEventC
++ _symbolic _____ 14VoiceShortcuts11EventFilterC
++ _symbolic _____ 14VoiceShortcuts14EventDebouncerC
++ _symbolic _____ 14VoiceShortcuts16EventNodeBuilderV
++ _symbolic _____ 14VoiceShortcuts17DaemonEventStreamV
++ _symbolic _____ 14VoiceShortcuts17DaemonEventStreamV014DatabaseChangeD0V
++ _symbolic _____ 14VoiceShortcuts17DaemonEventStreamV021ApplicationRegisteredD0V
++ _symbolic _____ 14VoiceShortcuts17DaemonEventStreamV0D5MergeC
++ _symbolic _____ 14VoiceShortcuts17DaemonEventStreamV0D6SourceC
++ _symbolic _____ 14VoiceShortcuts18DaemonStartupEventV
++ _symbolic _____ 14VoiceShortcuts18DaemonTaskExecutorC010RegisteredD033_140FF4AD5A3C9CD397475339CE5392A2LLV
++ _symbolic _____ 14VoiceShortcuts18DaemonTaskExecutorC0D5Queue33_140FF4AD5A3C9CD397475339CE5392A2LLC
++ _symbolic _____ 14VoiceShortcuts18DaemonTaskExecutorC0D5Queue33_140FF4AD5A3C9CD397475339CE5392A2LLC06QueuedD0C
++ _symbolic _____ 14VoiceShortcuts18SpotlightSyncEvent33_124D9744F1C2BAAF0AC7878D6B77D98BLLV
++ _symbolic _____ 14VoiceShortcuts22TerminationEventSourceC
++ _symbolic _____ 14VoiceShortcuts22TerminationEventSourceC0D0V
++ _symbolic _____ 14VoiceShortcuts24LegacyDaemonTaskProviderC
++ _symbolic _____ 14VoiceShortcuts24ToolKitCascadeSyncEngineC16PullStateMachineC12RemovalErrorO
++ _symbolic _____ 14VoiceShortcuts25SpotlightSyncTaskProviderC
++ _symbolic _____ 14VoiceShortcuts30DiskArbitrationEventDescriptorV
++ _symbolic _____ 14VoiceShortcuts31WorkflowIntegrationTaskProviderC
++ _symbolic _____ 14VoiceShortcuts32DaemonTerminationEventDescriptorV
++ _symbolic _____ 14VoiceShortcuts8EventMapC
++ _symbolic _____ 19VoiceShortcutClient16XPCFSEventStreamV
++ _symbolic _____ 19VoiceShortcutClient16XPCFSEventStreamV5EventV
++ _symbolic _____ 19VoiceShortcutClient27XPCAppProtectionEventStreamV
++ _symbolic _____ 19VoiceShortcutClient27XPCAppProtectionEventStreamV0F0V
++ _symbolic _____ 19VoiceShortcutClient32XPCDarwinNotificationEventStreamV
++ _symbolic _____ 19VoiceShortcutClient32XPCDarwinNotificationEventStreamV0F0V
++ _symbolic _____ 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV
++ _symbolic _____ 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0F0V
++ _symbolic _____ 19VoiceShortcutClient41XPCDiskArbitrationNotificationEventStreamV
++ _symbolic _____ 19VoiceShortcutClient41XPCDiskArbitrationNotificationEventStreamV0G0V
++ _symbolic _____ So20WFDatabaseObjectTypeV
++ _symbolic _____AAIegnr_ 14VoiceShortcuts10EmptyEventV
++ _symbolic _____Iegn_ 14VoiceShortcuts10EmptyEventV
++ _symbolic _____Iegn_ 14VoiceShortcuts18DaemonStartupEventV
++ _symbolic _____Iegn_ 14VoiceShortcuts21XPCMessageEventStreamC0D0V
++ _symbolic _____Iegn_ 14VoiceShortcuts22TerminationEventSourceC0D0V
++ _symbolic _____Iegn_ 19VoiceShortcutClient32XPCDarwinNotificationEventStreamV0F0V
++ _symbolic _____Iegn_ 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0F0V
++ _symbolic _____Say_____y______GGIegno_ 14VoiceShortcuts17DaemonEventStreamV AC0D6SourceC AA010XPCMessageD10DescriptorV
++ _symbolic _____Say_____y______GGIegno_ 14VoiceShortcuts17DaemonEventStreamV AC0D6SourceC AA018DarwinNotificationD10DescriptorV
++ _symbolic _____Say_____y______GGIegno_ 14VoiceShortcuts17DaemonEventStreamV AC0D6SourceC AA0c11TerminationD10DescriptorV
++ _symbolic _____Say_____y______GGIegno_ 14VoiceShortcuts17DaemonEventStreamV AC0D6SourceC AA0c7StartupD10DescriptorV
++ _symbolic _____Say_____y_____y______y_____GGGGIegno_ 14VoiceShortcuts17DaemonEventStreamV AA0D9DebouncerC AC0D5MergeC AA0D3MapC AA013SpotlightSyncD033_124D9744F1C2BAAF0AC7878D6B77D98BLLV
++ _symbolic _____Say_____y_____y______y_____GGGGIegno_ 14VoiceShortcuts17DaemonEventStreamV AA0D9DebouncerC AC0D5MergeC AA0D3MapC AA05EmptyD0V
++ _symbolic _____SayxGIegno_ 14VoiceShortcuts17DaemonEventStreamV
++ _symbolic _____SbIegnd_ 14VoiceShortcuts17DaemonEventStreamV014DatabaseChangeD0V
++ _symbolic _____SbIegnd_ 14VoiceShortcuts17DaemonEventStreamV021ApplicationRegisteredD0V
++ _symbolic _____SbIegnd_ 14VoiceShortcuts18DaemonStartupEventV
++ _symbolic _____SbIegnd_ 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0F0V
++ _symbolic _____Sg 14VoiceShortcuts13ScheduledTask33_140FF4AD5A3C9CD397475339CE5392A2LLV
++ _symbolic _____Sg 14VoiceShortcuts18DaemonTaskExecutorC0D5Queue33_140FF4AD5A3C9CD397475339CE5392A2LLC06QueuedD0C
++ _symbolic _____Sg 19VoiceShortcutClient32XPCDarwinNotificationEventStreamV0F0V
++ _symbolic _____Sg 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0F0V
++ _symbolic __________Iegnr_ 14VoiceShortcuts10EmptyEventV AA013SpotlightSyncD033_124D9744F1C2BAAF0AC7878D6B77D98BLLV
++ _symbolic __________Iegnr_ 14VoiceShortcuts17DaemonEventStreamV014DatabaseChangeD0V AA013SpotlightSyncD033_124D9744F1C2BAAF0AC7878D6B77D98BLLV
++ _symbolic __________Iegnr_ 14VoiceShortcuts17DaemonEventStreamV014DatabaseChangeD0V AA05EmptyD0V
++ _symbolic __________Iegnr_ 14VoiceShortcuts17DaemonEventStreamV021ApplicationRegisteredD0V AA05EmptyD0V
++ _symbolic __________Iegnr_ 14VoiceShortcuts18DaemonStartupEventV AA05EmptyE0V
++ _symbolic __________Iegnr_ 19VoiceShortcutClient32XPCDarwinNotificationEventStreamV0F0V 0A9Shortcuts05EmptyF0V
++ _symbolic __________Iegnr_ 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0F0V 0A9Shortcuts06DaemonfG0V014DatabaseChangeF0V
++ _symbolic __________Iegnr_ 19VoiceShortcutClient37XPCDistributedNotificationEventStreamV0F0V 0A9Shortcuts06DaemonfG0V021ApplicationRegisteredF0V
++ _symbolic ___________pIegHnzo_ 14VoiceShortcuts10EmptyEventV s5ErrorP
++ _symbolic ___________pIegHnzo_ 14VoiceShortcuts18DaemonStartupEventV s5ErrorP
++ _symbolic ___________pIegHnzo_ 14VoiceShortcuts18SpotlightSyncEvent33_124D9744F1C2BAAF0AC7878D6B77D98BLLV s5ErrorP
++ _symbolic ___________pIegHnzo_ 19VoiceShortcutClient32XPCDarwinNotificationEventStreamV0F0V s5ErrorP
++ _symbolic ______p 14VoiceShortcuts9EventNodeP
++ _symbolic ______pIegn_ 14VoiceShortcuts11DaemonEventP
++ _symbolic _____ySiSayy______pcGG s17_NativeDictionaryV 14VoiceShortcuts11DaemonEventP
++ _symbolic _____ySi_____G s17_NativeDictionaryV 14VoiceShortcuts18DaemonTaskExecutorC0F5Queue33_140FF4AD5A3C9CD397475339CE5392A2LLC06QueuedF0C
++ _symbolic _____y_____G 14VoiceShortcuts8EventMapC AA013SpotlightSyncC033_124D9744F1C2BAAF0AC7878D6B77D98BLLV
++ _symbolic _____y_____G 14VoiceShortcuts8EventMapC AA05EmptyC0V
++ _symbolic _____y_____G 14VoiceShortcuts8EventMapC AA06DaemonC6StreamV014DatabaseChangeC0V
++ _symbolic _____y_____G 14VoiceShortcuts8EventMapC AA06DaemonC6StreamV021ApplicationRegisteredC0V
++ _symbolic _____y_____G s11_SetStorageC So20WFDatabaseObjectTypeV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14VoiceShortcuts18DaemonTaskExecutorC010RegisteredG033_140FF4AD5A3C9CD397475339CE5392A2LLV
++ _symbolic _____y______G 14VoiceShortcuts17DaemonEventStreamV0D6SourceC AA010XPCMessageD10DescriptorV
++ _symbolic _____y______G 14VoiceShortcuts17DaemonEventStreamV0D6SourceC AA018DarwinNotificationD10DescriptorV
++ _symbolic _____y______G 14VoiceShortcuts17DaemonEventStreamV0D6SourceC AA023DistributedNotificationD10DescriptorV
++ _symbolic _____y______G 14VoiceShortcuts17DaemonEventStreamV0D6SourceC AA0c11TerminationD10DescriptorV
++ _symbolic _____y______G 14VoiceShortcuts17DaemonEventStreamV0D6SourceC AA0c7StartupD10DescriptorV
++ _symbolic _____y______GSgXw 14VoiceShortcuts17DaemonEventStreamV0D6SourceC AA010XPCMessageD10DescriptorV
++ _symbolic _____y______GSgXw 14VoiceShortcuts17DaemonEventStreamV0D6SourceC AA018DarwinNotificationD10DescriptorV
++ _symbolic _____y______GSgXw 14VoiceShortcuts17DaemonEventStreamV0D6SourceC AA023DistributedNotificationD10DescriptorV
++ _symbolic _____y______GSgXw 14VoiceShortcuts17DaemonEventStreamV0D6SourceC AA0c11TerminationD10DescriptorV
++ _symbolic _____y______GSgXw 14VoiceShortcuts17DaemonEventStreamV0D6SourceC AA0c7StartupD10DescriptorV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 14VoiceShortcuts9EventNodeP
++ _symbolic _____y______y_____GG 14VoiceShortcuts17DaemonEventStreamV0D5MergeC AA0D3MapC AA013SpotlightSyncD033_124D9744F1C2BAAF0AC7878D6B77D98BLLV
++ _symbolic _____y______y_____GG 14VoiceShortcuts17DaemonEventStreamV0D5MergeC AA0D3MapC AA05EmptyD0V
++ _symbolic _____y_____y_____GG 14VoiceShortcuts11EventFilterC AA0C3MapC AA06DaemonC6StreamV014DatabaseChangeC0V
++ _symbolic _____y_____y_____GG 14VoiceShortcuts11EventFilterC AA0C3MapC AA06DaemonC6StreamV021ApplicationRegisteredC0V
++ _symbolic _____y_____y______GG 14VoiceShortcuts11EventFilterC AA06DaemonC6StreamV0C6SourceC AA023DistributedNotificationC10DescriptorV
++ _symbolic _____y_____y______GG 14VoiceShortcuts11EventFilterC AA06DaemonC6StreamV0C6SourceC AA0e7StartupC10DescriptorV
++ _symbolic _____y_____y______y_____GGG 14VoiceShortcuts14EventDebouncerC AA06DaemonC6StreamV0C5MergeC AA0C3MapC AA013SpotlightSyncC033_124D9744F1C2BAAF0AC7878D6B77D98BLLV
++ _symbolic _____y_____y______y_____GGG 14VoiceShortcuts14EventDebouncerC AA06DaemonC6StreamV0C5MergeC AA0C3MapC AA05EmptyC0V
++ _symbolic _____y_____y______y_____GGGSgXw 14VoiceShortcuts14EventDebouncerC AA06DaemonC6StreamV0C5MergeC AA0C3MapC AA013SpotlightSyncC033_124D9744F1C2BAAF0AC7878D6B77D98BLLV
++ _symbolic _____y_____y______y_____GGGSgXw 14VoiceShortcuts14EventDebouncerC AA06DaemonC6StreamV0C5MergeC AA0C3MapC AA05EmptyC0V
++ _symbolic _____y_xGSgXw 14VoiceShortcuts17DaemonEventStreamV0D6SourceC
++ _symbolic _____y_xGSgXwz_x______RzlXX 14VoiceShortcuts17DaemonEventStreamV0D6SourceC AA0cD10DescriptorP
++ _symbolic _____ytIegnr_ 14VoiceShortcuts10EmptyEventV
++ _symbolic _____yxG 14VoiceShortcuts11EventFilterC
++ _symbolic _____yxG 14VoiceShortcuts8EventMapC
++ _symbolic _____yxGSgXw 14VoiceShortcuts14EventDebouncerC
++ _symbolic _____yxGSgXwz_x______RzlXX 14VoiceShortcuts14EventDebouncerC AA0C4NodeP
++ _symbolic _____yy______pcG s23_ContiguousArrayStorageC 14VoiceShortcuts11DaemonEventP
++ _symbolic qd__
++ _symbolic xIegn_
++ _symbolic xytIegnr_
++ _symbolic y5Event_____QzcSg 14VoiceShortcuts21DaemonEventDescriptorP
++ _symbolic y6Output_____QzcSg 14VoiceShortcuts9EventNodeP
++ _symbolic y_____cSg 14VoiceShortcuts10EmptyEventV
++ _symbolic yxcSg
++ _symbolic yyc
++ _type_layout_string 14VoiceShortcuts10EmptyEventV
++ _type_layout_string 14VoiceShortcuts17DaemonEventStreamV
++ _type_layout_string 14VoiceShortcuts17DaemonEventStreamV021ApplicationRegisteredD0V
++ _type_layout_string 14VoiceShortcuts18DaemonStartupEventV
++ _type_layout_string 14VoiceShortcuts18DaemonTaskExecutorC010RegisteredD033_140FF4AD5A3C9CD397475339CE5392A2LLV
++ _type_layout_string 14VoiceShortcuts18SpotlightSyncEvent33_124D9744F1C2BAAF0AC7878D6B77D98BLLV
++ _type_layout_string 14VoiceShortcuts24ToolKitCascadeSyncEngineC16PushStateMachineC5ErrorO
++ _type_layout_string 14VoiceShortcuts30DiskArbitrationEventDescriptorV
++ _xpc_dictionary_get_string
++ _xpc_transaction_exit_clean
+- +[WFTriggerBootManager registerForNotificationRemovalWithUserNotificationCenter:scheduleIfNeeded:]
+- -[VCCKShortcutSyncService workflowRecordForReference:properties:]
+- -[VCSpotlightSyncService databaseDidChange:modified:inserted:removed:]
+- -[VCSpotlightSyncService dealloc]
+- -[VCSpotlightSyncService debouncer]
+- -[VCSpotlightSyncService eventHandler]
+- -[VCSpotlightSyncService finishWithError:]
+- -[VCSpotlightSyncService handleDatabaseChangeNotification:]
+- -[VCSpotlightSyncService initWithDatabaseProvider:eventHandler:]
+- -[VCSpotlightSyncService isFetchingClientState]
+- -[VCSpotlightSyncService queue]
+- -[VCSpotlightSyncService queuedInserted]
+- -[VCSpotlightSyncService queuedModified]
+- -[VCSpotlightSyncService queuedRemoved]
+- -[VCSpotlightSyncService requestSync]
+- -[VCSpotlightSyncService setIsFetchingClientState:]
+- -[VCSpotlightSyncService setQueuedInserted:]
+- -[VCSpotlightSyncService setQueuedModified:]
+- -[VCSpotlightSyncService setQueuedRemoved:]
+- -[VCSpotlightSyncService setSyncOperationCompletionHandler:]
+- -[VCSpotlightSyncService start]
+- -[VCSpotlightSyncService syncOperationCompletionHandler]
+- -[VCSpotlightSyncService syncWithChangeset:]
+- -[VCSpotlightSyncService sync]
+- -[WFSiriWorkflowVocabularyUpdater applicationWasRegistered:]
+- -[WFSiriWorkflowVocabularyUpdater assistantPreferencesDidChange]
+- -[WFSiriWorkflowVocabularyUpdater databaseDidChange:modified:inserted:removed:]
+- -[WFSiriWorkflowVocabularyUpdater debouncer]
+- -[WFSiriWorkflowVocabularyUpdater initWithDatabaseProvider:eventHandler:]
+- -[WFSiriWorkflowVocabularyUpdater queue]
+- -[WFSiriWorkflowVocabularyUpdater queue_debouncerDidFire]
+- -[WFSiriWorkflowVocabularyUpdater queue_startIfPossible]
+- -[WFSiriWorkflowVocabularyUpdater queue_updateIfNeededWithTransaction:]
+- -[WFSiriWorkflowVocabularyUpdater startIfPossible]
+- -[WFSiriWorkflowVocabularyUpdater updateIfPossibleWithTransaction:]
+- -[WFSystemSurfaceWorkflowStatusUpdater databaseDidChange:modified:inserted:removed:]
+- -[WFSystemSurfaceWorkflowStatusUpdater initWithDatabaseProvider:eventHandler:]
+- -[WFSystemSurfaceWorkflowStatusUpdater queue]
+- -[WFSystemSurfaceWorkflowStatusUpdater queue_startIfPossible]
+- -[WFSystemSurfaceWorkflowStatusUpdater queue_updateFromDatabase:]
+- -[WFSystemSurfaceWorkflowStatusUpdater startIfPossible]
+- GCC_except_table1020
+- GCC_except_table1190
+- GCC_except_table1201
+- GCC_except_table1227
+- GCC_except_table1233
+- GCC_except_table1236
+- GCC_except_table1266
+- GCC_except_table1386
+- GCC_except_table1398
+- GCC_except_table1420
+- GCC_except_table1486
+- GCC_except_table1488
+- GCC_except_table1491
+- GCC_except_table1492
+- GCC_except_table1497
+- GCC_except_table1659
+- GCC_except_table1680
+- GCC_except_table1692
+- GCC_except_table1698
+- GCC_except_table1699
+- GCC_except_table1706
+- GCC_except_table1708
+- GCC_except_table1710
+- GCC_except_table1712
+- GCC_except_table1714
+- GCC_except_table1715
+- GCC_except_table1717
+- GCC_except_table1718
+- GCC_except_table1732
+- GCC_except_table176
+- GCC_except_table1766
+- GCC_except_table1784
+- GCC_except_table1789
+- GCC_except_table1799
+- GCC_except_table1805
+- GCC_except_table181
+- GCC_except_table183
+- GCC_except_table1843
+- GCC_except_table1847
+- GCC_except_table186
+- GCC_except_table1865
+- GCC_except_table1869
+- GCC_except_table1883
+- GCC_except_table1885
+- GCC_except_table1907
+- GCC_except_table1910
+- GCC_except_table1924
+- GCC_except_table2034
+- GCC_except_table2035
+- GCC_except_table2048
+- GCC_except_table2081
+- GCC_except_table279
+- GCC_except_table358
+- GCC_except_table372
+- GCC_except_table385
+- GCC_except_table393
+- GCC_except_table416
+- GCC_except_table438
+- GCC_except_table485
+- GCC_except_table501
+- GCC_except_table537
+- GCC_except_table557
+- GCC_except_table629
+- GCC_except_table640
+- GCC_except_table733
+- GCC_except_table749
+- GCC_except_table760
+- _APPreferenceChangeEvent
+- _OBJC_CLASS_$_CCToolKitToolDefinitionContent
+- _OBJC_CLASS_$_CCToolKitToolDefinitionMetaContent
+- _OBJC_IVAR_$_VCSpotlightSyncService._debouncer
+- _OBJC_IVAR_$_VCSpotlightSyncService._eventHandler
+- _OBJC_IVAR_$_VCSpotlightSyncService._isFetchingClientState
+- _OBJC_IVAR_$_VCSpotlightSyncService._queue
+- _OBJC_IVAR_$_VCSpotlightSyncService._queuedInserted
+- _OBJC_IVAR_$_VCSpotlightSyncService._queuedModified
+- _OBJC_IVAR_$_VCSpotlightSyncService._queuedRemoved
+- _OBJC_IVAR_$_VCSpotlightSyncService._syncOperationCompletionHandler
+- _OBJC_IVAR_$_WFSiriWorkflowVocabularyUpdater._debouncer
+- _OBJC_IVAR_$_WFSiriWorkflowVocabularyUpdater._queue
+- _OBJC_IVAR_$_WFSystemSurfaceWorkflowStatusUpdater._queue
+- _OUTLINED_FUNCTION_187
+- __CFXPCCreateCFObjectFromXPCObject
+- __DATA__TtC14VoiceShortcuts18StartupEventSource
+- __DATA__TtC14VoiceShortcuts21SpotlightTaskProvider
+- __IVARS__TtC14VoiceShortcuts21SpotlightTaskProvider
+- __METACLASS_DATA__TtC14VoiceShortcuts18StartupEventSource
+- __METACLASS_DATA__TtC14VoiceShortcuts21SpotlightTaskProvider
+- __OBJC_CLASS_PROTOCOLS_$_WFSiriWorkflowVocabularyUpdater
+- __OBJC_CLASS_PROTOCOLS_$_WFSystemSurfaceWorkflowStatusUpdater
+- ___44-[VCSpotlightSyncService syncWithChangeset:]_block_invoke
+- ___44-[VCSpotlightSyncService syncWithChangeset:]_block_invoke.202
+- ___44-[VCSpotlightSyncService syncWithChangeset:]_block_invoke_2
+- ___50-[WFSiriWorkflowVocabularyUpdater startIfPossible]_block_invoke
+- ___55-[WFSystemSurfaceWorkflowStatusUpdater startIfPossible]_block_invoke
+- ___67-[WFSiriWorkflowVocabularyUpdater updateIfPossibleWithTransaction:]_block_invoke
+- ___69-[VCSpotlightSyncService syncOperationFinishedWithRequestToRelaunch:]_block_invoke
+- ___71-[WFSiriWorkflowVocabularyUpdater queue_updateIfNeededWithTransaction:]_block_invoke
+- ___73-[WFSiriWorkflowVocabularyUpdater initWithDatabaseProvider:eventHandler:]_block_invoke
+- ___78-[WFSystemSurfaceWorkflowStatusUpdater initWithDatabaseProvider:eventHandler:]_block_invoke
+- ___79-[WFSiriWorkflowVocabularyUpdater databaseDidChange:modified:inserted:removed:]_block_invoke
+- ___84-[WFSystemSurfaceWorkflowStatusUpdater databaseDidChange:modified:inserted:removed:]_block_invoke
+- ___98+[WFTriggerBootManager registerForNotificationRemovalWithUserNotificationCenter:scheduleIfNeeded:]_block_invoke
+- ___98+[WFTriggerBootManager registerForNotificationRemovalWithUserNotificationCenter:scheduleIfNeeded:]_block_invoke.189
+- ___98+[WFTriggerBootManager registerForNotificationRemovalWithUserNotificationCenter:scheduleIfNeeded:]_block_invoke.191
+- ___98+[WFTriggerBootManager registerForNotificationRemovalWithUserNotificationCenter:scheduleIfNeeded:]_block_invoke.193
+- ___Block_byref_object_copy_.1255
+- ___Block_byref_object_copy_.1438
+- ___Block_byref_object_copy_.3657
+- ___Block_byref_object_copy_.3876
+- ___Block_byref_object_copy_.4131
+- ___Block_byref_object_copy_.4945
+- ___Block_byref_object_copy_.5189
+- ___Block_byref_object_copy_.6251
+- ___Block_byref_object_copy_.6551
+- ___Block_byref_object_copy_.6671
+- ___Block_byref_object_copy_.6826
+- ___Block_byref_object_copy_.6952
+- ___Block_byref_object_dispose_.1256
+- ___Block_byref_object_dispose_.1439
+- ___Block_byref_object_dispose_.3658
+- ___Block_byref_object_dispose_.3877
+- ___Block_byref_object_dispose_.4132
+- ___Block_byref_object_dispose_.4946
+- ___Block_byref_object_dispose_.5190
+- ___Block_byref_object_dispose_.6252
+- ___Block_byref_object_dispose_.6552
+- ___Block_byref_object_dispose_.6672
+- ___Block_byref_object_dispose_.6827
+- ___Block_byref_object_dispose_.6953
+- ___block_descriptor_41_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_57_e8_32s40s48s_e28_v24?0"NSData"8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_72_e8_32s40s48s56s64s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_73_e8_32s40s48s56s64s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
+- ___block_literal_global.1331
+- ___block_literal_global.1441
+- ___block_literal_global.1771
+- ___block_literal_global.1881
+- ___block_literal_global.1886
+- ___block_literal_global.210
+- ___block_literal_global.214.7983
+- ___block_literal_global.240.6267
+- ___block_literal_global.243.5227
+- ___block_literal_global.2524
+- ___block_literal_global.2984
+- ___block_literal_global.3276
+- ___block_literal_global.3757
+- ___block_literal_global.3891
+- ___block_literal_global.391
+- ___block_literal_global.4182
+- ___block_literal_global.4394
+- ___block_literal_global.4519
+- ___block_literal_global.5236
+- ___block_literal_global.5969
+- ___block_literal_global.6300
+- ___block_literal_global.6550
+- ___block_literal_global.6695
+- ___block_literal_global.6939
+- ___block_literal_global.7204
+- ___block_literal_global.7510
+- ___block_literal_global.8011
+- ___block_literal_global.8094
+- ___swift_allocate_boxed_opaque_existential_1Tm
+- ___swift_memcpy112_8
+- ___swift_memcpy64_8
+- _associated conformance 14VoiceShortcuts13FSEventStreamV5EventV21XPCEventDecodingError33_6128F2309788F11A33E91A63DD0405D3LLOSHAASQ
+- _associated conformance 14VoiceShortcuts13FSEventStreamV5EventVAA06DaemonE0AA10DescriptorAaFP_AA0feG0
+- _associated conformance 14VoiceShortcuts13FSEventStreamVAA014DaemonXPCEventD0AA5EventAA0eG6SourceP_Se
+- _associated conformance 14VoiceShortcuts13FSEventStreamVAA17DaemonEventSourceAA0F0AaDP_AA0eF0
+- _associated conformance 14VoiceShortcuts18StartupEventSourceC0D0VAA06DaemonD0AA10DescriptorAaFP_AA0fdG0
+- _associated conformance 14VoiceShortcuts18StartupEventSourceCAA06DaemondE0AA0D0AaDP_AA0fD0
+- _associated conformance 14VoiceShortcuts21XPCMessageEventStreamC0D0VAA06DaemonD0AA10DescriptorAaFP_AA0fdG0
+- _associated conformance 14VoiceShortcuts24AppProtectionEventStreamV0E0V10CodingKeysOSHAASQ
+- _associated conformance 14VoiceShortcuts24AppProtectionEventStreamV0E0V10CodingKeysOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 14VoiceShortcuts24AppProtectionEventStreamV0E0V10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 14VoiceShortcuts24AppProtectionEventStreamV0E0VAA06DaemonE0AA10DescriptorAaFP_AA0geH0
+- _associated conformance 14VoiceShortcuts24AppProtectionEventStreamVAA014DaemonXPCEventF0AA0E0AA0gE6SourceP_Se
+- _associated conformance 14VoiceShortcuts24AppProtectionEventStreamVAA06DaemonE6SourceAA0E0AaDP_AA0gE0
+- _associated conformance 14VoiceShortcuts24ToolKitCascadeSyncEngineC16PushStateMachineC5ErrorOSHAASQ
+- _associated conformance 14VoiceShortcuts29DarwinNotificationEventStreamV0E0V10CodingKeysOSHAASQ
+- _associated conformance 14VoiceShortcuts29DarwinNotificationEventStreamV0E0V10CodingKeysOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 14VoiceShortcuts29DarwinNotificationEventStreamV0E0V10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 14VoiceShortcuts29DarwinNotificationEventStreamV0E0VAA06DaemonE0AA10DescriptorAaFP_AA0geH0
+- _associated conformance 14VoiceShortcuts29DarwinNotificationEventStreamVAA014DaemonXPCEventF0AA0E0AA0gE6SourceP_Se
+- _associated conformance 14VoiceShortcuts29DarwinNotificationEventStreamVAA06DaemonE6SourceAA0E0AaDP_AA0gE0
+- _associated conformance 14VoiceShortcuts34DistributedNotificationEventStreamV0E0V10CodingKeysOSHAASQ
+- _associated conformance 14VoiceShortcuts34DistributedNotificationEventStreamV0E0V10CodingKeysOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 14VoiceShortcuts34DistributedNotificationEventStreamV0E0V10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 14VoiceShortcuts34DistributedNotificationEventStreamV0E0V21XPCEventDecodingError33_364E3A2C60075DC0AA2940FA47C23AF2LLOSHAASQ
+- _associated conformance 14VoiceShortcuts34DistributedNotificationEventStreamV0E0VAA06DaemonE0AA10DescriptorAaFP_AA0geH0
+- _associated conformance 14VoiceShortcuts34DistributedNotificationEventStreamVAA014DaemonXPCEventF0AA0E0AA0gE6SourceP_Se
+- _associated conformance 14VoiceShortcuts34DistributedNotificationEventStreamVAA06DaemonE6SourceAA0E0AaDP_AA0gE0
+- _block_copy_helper.14
+- _block_copy_helper.25
+- _block_copy_helper.29
+- _block_copy_helper.3
+- _block_copy_helper.36
+- _block_copy_helper.52
+- _block_copy_helper.55
+- _block_copy_helper.58
+- _block_copy_helper.61
+- _block_copy_helper.64
+- _block_copy_helper.67
+- _block_copy_helper.70
+- _block_copy_helper.78
+- _block_copy_helper.81
+- _block_descriptor.16
+- _block_descriptor.27
+- _block_descriptor.31
+- _block_descriptor.38
+- _block_descriptor.5
+- _block_descriptor.54
+- _block_descriptor.57
+- _block_descriptor.60
+- _block_descriptor.63
+- _block_descriptor.66
+- _block_descriptor.69
+- _block_descriptor.72
+- _block_descriptor.80
+- _block_descriptor.83
+- _block_destroy_helper.15
+- _block_destroy_helper.26
+- _block_destroy_helper.30
+- _block_destroy_helper.37
+- _block_destroy_helper.4
+- _block_destroy_helper.53
+- _block_destroy_helper.56
+- _block_destroy_helper.59
+- _block_destroy_helper.62
+- _block_destroy_helper.65
+- _block_destroy_helper.68
+- _block_destroy_helper.71
+- _block_destroy_helper.79
+- _block_destroy_helper.82
+- _objc_msgSend$changedWorkflowIDsForSync
+- _objc_msgSend$conflictingReferenceForReference:
+- _objc_msgSend$databaseDidChange:modified:inserted:removed:
+- _objc_msgSend$deletedWorkflowIDsForSync
+- _objc_msgSend$finishWithError:
+- _objc_msgSend$hasConflictingReferenceForReference:
+- _objc_msgSend$initWithDatabaseProvider:eventHandler:
+- _objc_msgSend$initWithDictionaryRepresentation:
+- _objc_msgSend$isFetchingClientState
+- _objc_msgSend$libraryDotRepresentation
+- _objc_msgSend$queue_startIfPossible
+- _objc_msgSend$queue_updateFromDatabase:
+- _objc_msgSend$queue_updateIfNeededWithTransaction:
+- _objc_msgSend$queuedInserted
+- _objc_msgSend$queuedModified
+- _objc_msgSend$queuedRemoved
+- _objc_msgSend$setCloudKitRecordMetadata:
+- _objc_msgSend$setIsFetchingClientState:
+- _objc_msgSend$setLastSyncedEncryptedSchemaVersion:
+- _objc_msgSend$setSyncOperationCompletionHandler:
+- _objc_msgSend$startIfPossible
+- _objc_msgSend$sync
+- _objc_msgSend$syncCoherenceEnabled
+- _objc_msgSend$syncOperationCompletionHandler
+- _objc_msgSend$syncWithChangeset:
+- _objc_msgSend$updateIfPossibleWithTransaction:
+- _objc_msgSend$workflowRecordForReference:properties:
+- _objectdestroy.47Tm
+- _swift_unknownObjectRelease_n
+- _swift_unknownObjectRetain_n
+- _symbolic 10Descriptor_____Qz 14VoiceShortcuts11DaemonEventP
+- _symbolic 10Descriptor______5Event_____QZ 14VoiceShortcuts11DaemonEventP AA0cD10DescriptorP
+- _symbolic 5Event_____Qz______pIegHnzo_ 14VoiceShortcuts21DaemonEventDescriptorP s5ErrorP
+- _symbolic 5Event______10Descriptor_____QZ 14VoiceShortcuts21DaemonEventDescriptorP AA0cD0P
+- _symbolic SDySiSay_____GG 14VoiceShortcuts10DaemonTaskV
+- _symbolic SDy_____ypGSg s11AnyHashableV
+- _symbolic SS16expectedTypeName_t
+- _symbolic SSm
+- _symbolic Say_____G 14VoiceShortcuts13ScheduledTask33_140FF4AD5A3C9CD397475339CE5392A2LLV
+- _symbolic Say_____G 14VoiceShortcuts18DaemonTaskExecutorC
+- _symbolic Say______pG 14VoiceShortcuts21DaemonEventDescriptorP
+- _symbolic SbSg
+- _symbolic SbSgIeAgHr_
+- _symbolic ScGyytG
+- _symbolic ScSySay_____GG 14VoiceShortcuts13ScheduledTask33_140FF4AD5A3C9CD397475339CE5392A2LLV
+- _symbolic ScTyyt_____G s5NeverO
+- _symbolic ShySOG
+- _symbolic So22VCSpotlightSyncServiceCSg
+- _symbolic So5CCSetCySo30CCToolKitToolDefinitionContentCSo0bcde4MetaF0CG
+- _symbolic _____ 14VoiceShortcuts13FSEventStreamV
+- _symbolic _____ 14VoiceShortcuts13FSEventStreamV5EventV
+- _symbolic _____ 14VoiceShortcuts13FSEventStreamV5EventV21XPCEventDecodingError33_6128F2309788F11A33E91A63DD0405D3LLO
+- _symbolic _____ 14VoiceShortcuts18DaemonTaskExecutorC9AttributeO
+- _symbolic _____ 14VoiceShortcuts18StartupEventSourceC
+- _symbolic _____ 14VoiceShortcuts18StartupEventSourceC0D0V
+- _symbolic _____ 14VoiceShortcuts21SpotlightTaskProviderC
+- _symbolic _____ 14VoiceShortcuts24AppProtectionEventStreamV
+- _symbolic _____ 14VoiceShortcuts24AppProtectionEventStreamV0E0V
+- _symbolic _____ 14VoiceShortcuts24AppProtectionEventStreamV0E0V10CodingKeysO
+- _symbolic _____ 14VoiceShortcuts24AppProtectionEventStreamV0E0V21XPCEventDecodingError33_A881EA3A1524EAF8C952C716E619815BLLO
+- _symbolic _____ 14VoiceShortcuts29DarwinNotificationEventStreamV
+- _symbolic _____ 14VoiceShortcuts29DarwinNotificationEventStreamV0E0V
+- _symbolic _____ 14VoiceShortcuts29DarwinNotificationEventStreamV0E0V10CodingKeysO
+- _symbolic _____ 14VoiceShortcuts34DistributedNotificationEventStreamV
+- _symbolic _____ 14VoiceShortcuts34DistributedNotificationEventStreamV0E0V
+- _symbolic _____ 14VoiceShortcuts34DistributedNotificationEventStreamV0E0V10CodingKeysO
+- _symbolic _____ 14VoiceShortcuts34DistributedNotificationEventStreamV0E0V21XPCEventDecodingError33_364E3A2C60075DC0AA2940FA47C23AF2LLO
+- _symbolic _____ So22CCSharedItemChangeTypeV
+- _symbolic _____Sg 19VoiceShortcutClient10XPCDecoderV
+- _symbolic _____Sg 7ToolKit0aB24ProtoContainerDefinitionV
+- _symbolic _____Sg 7ToolKit0ab5ProtoA10DefinitionV8Version1V
+- _symbolic ________________pIegHnrzo_ 19VoiceShortcutClient0abC7RequestO9SpotlightO 0A9Shortcuts14DaemonResponseV s5ErrorP
+- _symbolic ___________pIegHnzo_ 14VoiceShortcuts18StartupEventSourceC0D0V s5ErrorP
+- _symbolic ___________pIegHnzo_ 14VoiceShortcuts29DarwinNotificationEventStreamV0E0V s5ErrorP
+- _symbolic ___________pIegHnzo_ 14VoiceShortcuts34DistributedNotificationEventStreamV0E0V s5ErrorP
+- _symbolic ______p 14VoiceShortcuts21DaemonEventDescriptorP
+- _symbolic ______p s7DecoderP
+- _symbolic ______pXpSg 14VoiceShortcuts18DaemonTaskProviderP
+- _symbolic ______p______pSgIegg_Iegng_ 14VoiceShortcuts11DaemonEventP s5ErrorP
+- _symbolic _____ySOG s11_SetStorageC
+- _symbolic _____ySay_____G_G ScS8IteratorV 14VoiceShortcuts13ScheduledTask33_140FF4AD5A3C9CD397475339CE5392A2LLV
+- _symbolic _____ySiSay_____GG s17_NativeDictionaryV 14VoiceShortcuts10DaemonTaskV
+- _symbolic _____y_____G 19VoiceShortcutClient16XPCKeyedDecodingV 0A9Shortcuts24AppProtectionEventStreamV0I0V10CodingKeysO
+- _symbolic _____y_____G 19VoiceShortcutClient16XPCKeyedDecodingV 0A9Shortcuts34DistributedNotificationEventStreamV0I0V10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 14VoiceShortcuts29DarwinNotificationEventStreamV0H0V10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 14VoiceShortcuts29DarwinNotificationEventStreamV0H0V10CodingKeysO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 14VoiceShortcuts13ScheduledTask33_140FF4AD5A3C9CD397475339CE5392A2LLV
+- _symbolic _____y_____Say_____GG s18_DictionaryStorageC 14VoiceShortcuts10DaemonTaskV8PriorityO AE
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 14VoiceShortcuts21DaemonEventDescriptorP
+- _type_layout_string 14VoiceShortcuts13FSEventStreamV5EventV
+- _type_layout_string 14VoiceShortcuts18StartupEventSourceC0D0V
+- _type_layout_string 14VoiceShortcuts24AppProtectionEventStreamV0E0V
+- _type_layout_string 14VoiceShortcuts24AppProtectionEventStreamV0E0V21XPCEventDecodingError33_A881EA3A1524EAF8C952C716E619815BLLO
+- _type_layout_string 14VoiceShortcuts34DistributedNotificationEventStreamV0E0V
+- _xpc_array_get_count
+- _xpc_array_get_string
+- _xpc_get_type
+CStrings:
++ "$__lazy_storage_$_systemSurfaceWorkflowStatusUpdater"
++ "$__lazy_storage_$_vocabularyUpdater"
++ "%s Attempting to clear all events from the trigger queue"
++ "%s Failed to delete trigger event with identifier %{public}@: %{public}@"
++ "%s Failed to handle saved workflow record: %{public}@"
++ "%s Failed to handle update workflow record cloudkit metadata %{public}@: %{public}@"
++ "%s Failed to load WFWorkflowRecord from identifier: %{public}@, descriptor = %@"
++ "%s Failed to load record for workflow with identifier %{public}@, has the workflow been deleted?"
++ "%s Found %lu trigger events to delete"
++ "%s Shortcut doesn't need sync, so not constructing record: %{public}@"
++ "%s Skipping fetched workflow record because coherence sync is enabled"
++ "(SpotlightSyncEvent in _124D9744F1C2BAAF0AC7878D6B77D98B)"
++ "-[VCCKShortcutSyncService workflowRecordWithIdentifier:properties:]"
++ "-[VCSpotlightSyncService handleDatabaseChangeNotification:completion:]"
++ "-[VCSpotlightSyncService initWithDatabaseProvider:]"
++ "-[VCSpotlightSyncService syncOperationFinishedWithRequestToRelaunch:]"
++ "-[VCSpotlightSyncService syncWithChangeset:completion:]"
++ "-[VCSpotlightSyncService syncWithChangeset:completion:]_block_invoke"
++ "-[WFSiriWorkflowVocabularyUpdater updateIfPossible]"
++ "-[WFSystemSurfaceWorkflowStatusUpdater updateFromDatabase:]"
++ "-[WFSystemSurfaceWorkflowStatusUpdater updateIfPossible]"
++ "-[WFTriggerBootManager registerForNotificationRemovalWithUserNotificationCenter:scheduleIfNeeded:]"
++ "-[WFTriggerBootManager registerForNotificationRemovalWithUserNotificationCenter:scheduleIfNeeded:]_block_invoke"
++ "-[WFTriggerBootManager registerForNotificationRemovalWithUserNotificationCenter:scheduleIfNeeded:]_block_invoke_2"
++ "-[WFTriggerEventQueue clearWithCompletionHandler:]_block_invoke"
++ "<Application Registered Event: "
++ "<Database Change Event: "
++ "<ScheduledDaemonTask: "
++ "<Spotlight Sync Event note= "
++ "<Task completed: %s"
++ "<Task executing: %s>"
++ "<Task failed: %s, reason: %@"
++ "@\"<WFTriggerEventQueueDelegate>\""
++ "DaemonStartupEvent"
++ "Device id: %s"
++ "Failed to write version to database: %@"
++ "Received SIGTERM"
++ "T@\"<WFTriggerEventQueueDelegate>\",W,N,V_eventQueueDelegate"
++ "T@?,C,N,V_completion"
++ "VCSpotlightSyncService.syncChanges"
++ "WFSiriWorkflowVocabularyUpdater.updateIfPossible"
++ "WFSystemSurfaceWorkflowStatusUpdater.updateIfPossible"
++ "WFTriggerEventQueueDelegate"
++ "_TtC14VoiceShortcuts11ErasedEvent"
++ "_TtC14VoiceShortcuts22TerminationEventSource"
++ "_TtC14VoiceShortcuts24LegacyDaemonTaskProvider"
++ "_TtC14VoiceShortcuts25SpotlightSyncTaskProvider"
++ "_TtC14VoiceShortcuts31WorkflowIntegrationTaskProvider"
++ "_TtCC14VoiceShortcuts18DaemonTaskExecutorP33_140FF4AD5A3C9CD397475339CE5392A29TaskQueue"
++ "_TtCCC14VoiceShortcuts18DaemonTaskExecutorP33_140FF4AD5A3C9CD397475339CE5392A29TaskQueue10QueuedTask"
++ "_completion"
++ "_eventQueueDelegate"
++ "adding cascade item: "
++ "allWorkflowIdentifiersForSync"
++ "allowFileBookmarksAccess"
++ "clearWithCompletionHandler:"
++ "com.apple.shortcuts.debounced-event-queue"
++ "completion"
++ "containerId"
++ "desiredSyncOperationForWorkflow:"
++ "eventObserversByDescriptor"
++ "eventQueueDelegate"
++ "executor"
++ "fire:"
++ "handleDatabaseChangeNotification:completion:"
++ "handleUploadedWorkflowRecordWithIdentifier:cloudKitMetadata:syncHash:encryptedSchemaVersion:error:"
++ "head"
++ "highPriorityQueue"
++ "initWithData:error:"
++ "initWithToolDefinition:typeDefinitions:localizedStringsByLocale:error:"
++ "input"
++ "inputs"
++ "legacy daemon stop"
++ "lowPriorityQueue"
++ "maxRunningCount"
++ "mediumPriorityQueue"
++ "missingIdentifier"
++ "next"
++ "notificationByMergingChangesFromNotification:"
++ "pendingEvent"
++ "pull: Failed to remove tool for sharedItem sharedIdentifier: %s with: %@"
++ "pull: Received unexpected change."
++ "pull: cascade told us to delete already removed tool"
++ "pull: failed to ingest tool id: %s cascadeIdentifier: %s with: %@"
++ "pull: ingesting tool %s"
++ "pull: ingesting type %s"
++ "queuedTasks"
++ "register triggers (startup)"
++ "register triggers (time change)"
++ "register triggers (timezone change)"
++ "removedDevices"
++ "removing cascade item: "
++ "reregister triggers (first unlock)"
++ "runningCount"
++ "setCloudKitMetadata:forWorkflowRecordWithIdentifier:error:"
++ "setCompletion:"
++ "setEventQueueDelegate:"
++ "sharedIdentifier"
++ "sourceContainer"
++ "syncWithChangeset:completion:"
++ "tail"
++ "task"
++ "tasks"
++ "toolDefinition"
++ "typeDefinitions"
++ "updateFromDatabase:"
++ "updateIfPossible"
++ "workflowRecordWithIdentifier:properties:"
+- "\" triggering event="
+- "%s All devices in user's sync circle have updated but coherence migration is disabled, not enabling coherence sync"
+- "%s Assistant preferences changed, requesting a vocabulary sync"
+- "%s Database results updated: %{public}lu modified, %{public}lu inserted, %{public}lu removed records"
+- "%s Failed to get local WFWorkflowReference for server record identifier %{public}@"
+- "%s Failed to get local workflow reference from workflow CKRecord with identifier: %{public}@"
+- "%s Failed to get local workflow reference from workflow CKRecord with identifier: %{public}@, has the workflow been deleted?"
+- "%s Failed to load WFWorkflowRecord from WFWorkflowReference: %{public}@, reference = %@"
+- "%s Failed to load WFWorkflowReference for workflow with identifier %{public}@, has the workflow been deleted?"
+- "%s Failed to load database, not starting observation, %{public}@"
+- "%s Failed to save WFWorkflowRecord: %{public}@"
+- "%s Failed to save WFWorkflowRecord: %{public}@, localWorkflowRecord = %@"
+- "%s Failed to save WFWorkflowRecord: %{public}@, record = %@"
+- "%s Not syncing vocabulary to server, the database change contained no shortcut modifications"
+- "%s Poking the debouncer to manually request a sync"
+- "%s Shortcut is a conflict, but sync engine is asking for a workflow record for it, retuning nil"
+- "%s Shortcuts app installed, starting observation and requesting a vocabulary sync"
+- "%s Skipping fetched workfow record because coherence sync is enabled"
+- "%s Started observing the database for vocabulary changes"
+- "%s Sync in progress, dropping request."
+- "%s WFWorkflowReference for workflow with identifier %{public}@ is a tombstone, not returning CKRecord"
+- "+[WFTriggerBootManager registerForNotificationRemovalWithUserNotificationCenter:scheduleIfNeeded:]"
+- "+[WFTriggerBootManager registerForNotificationRemovalWithUserNotificationCenter:scheduleIfNeeded:]_block_invoke"
+- "+[WFTriggerBootManager registerForNotificationRemovalWithUserNotificationCenter:scheduleIfNeeded:]_block_invoke_2"
+- "-[VCCKShortcutSyncService workflowRecordForReference:properties:]"
+- "-[VCSpotlightSyncService databaseDidChange:modified:inserted:removed:]"
+- "-[VCSpotlightSyncService handleDatabaseChangeNotification:]"
+- "-[VCSpotlightSyncService initWithDatabaseProvider:eventHandler:]"
+- "-[VCSpotlightSyncService requestSync]"
+- "-[VCSpotlightSyncService syncOperationFinishedWithRequestToRelaunch:]_block_invoke"
+- "-[VCSpotlightSyncService syncWithChangeset:]"
+- "-[VCSpotlightSyncService syncWithChangeset:]_block_invoke"
+- "-[VCSpotlightSyncService syncWithChangeset:]_block_invoke_2"
+- "-[WFSiriWorkflowVocabularyUpdater applicationWasRegistered:]"
+- "-[WFSiriWorkflowVocabularyUpdater assistantPreferencesDidChange]"
+- "-[WFSiriWorkflowVocabularyUpdater databaseDidChange:modified:inserted:removed:]"
+- "-[WFSiriWorkflowVocabularyUpdater queue_startIfPossible]"
+- "-[WFSiriWorkflowVocabularyUpdater queue_updateIfNeededWithTransaction:]"
+- "-[WFSystemSurfaceWorkflowStatusUpdater queue_startIfPossible]"
+- "-[WFSystemSurfaceWorkflowStatusUpdater queue_updateFromDatabase:]"
+- "<%s> | Completed: %s"
+- "<%s> | Executing: %s"
+- "<%s> | Failed: %s, reason: %@"
+- "<FSEvent, payload="
+- "<ScheduledDaemonTask: id=\""
+- "Didn't specify a source for task: %s"
+- "Module: %s | Registered task: %s for %s"
+- "Name"
+- "Notification"
+- "Sync in progress, dropping request."
+- "T@\"NSMutableSet\",&,N,V_queuedInserted"
+- "T@\"NSMutableSet\",&,N,V_queuedModified"
+- "T@\"NSMutableSet\",&,N,V_queuedRemoved"
+- "T@?,C,N,V_syncOperationCompletionHandler"
+- "TB,N,V_isFetchingClientState"
+- "UserInfo"
+- "XPCEventName"
+- "_TtC14VoiceShortcuts18StartupEventSource"
+- "_TtC14VoiceShortcuts21SpotlightTaskProvider"
+- "_isFetchingClientState"
+- "_queuedInserted"
+- "_queuedModified"
+- "_queuedRemoved"
+- "_syncOperationCompletionHandler"
+- "adding item with id '"
+- "assistantPreferencesDidChange"
+- "auto shortcut change"
+- "blockers"
+- "cellular data change"
+- "changedWorkflowIDsForSync"
+- "com.apple.VoiceShortcuts.SpotlightSyncService"
+- "com.apple.shortcuts.WFSiriWorkflowVocabularyUpdater"
+- "com.apple.shortcuts.WFSiriWorkflowVocabularyUpdater.applicationWasRegistered"
+- "com.apple.shortcuts.WFSiriWorkflowVocabularyUpdater.assistantPreferencesDidChange"
+- "com.apple.shortcuts.WFSiriWorkflowVocabularyUpdater.debouncerFire"
+- "com.apple.shortcuts.WFSiriWorkflowVocabularyUpdater.processingDatabaseNotification"
+- "com.apple.shortcuts.WFSystemSurfaceWorkflowStatusUpdater"
+- "conflictingReferenceForReference:"
+- "contextual action service startup"
+- "decompressedDataUsingAlgorithm:error:"
+- "delegates"
+- "deleted"
+- "deletedWorkflowIDsForSync"
+- "finishWithError:"
+- "handleDatabaseChangeNotification:"
+- "hasConflictingReferenceForReference:"
+- "hiddenPayload"
+- "highPriorityExecutor"
+- "init(id:events:priority:perform:)"
+- "initWithDatabaseProvider:eventHandler:"
+- "initWithToolkitProtoVersion:toolkitProtoBytes:error:"
+- "isFetchingClientState"
+- "language pref change"
+- "launch service change"
+- "libraryDotRepresentation"
+- "lowPriorityExecutor"
+- "mediumPriorityExecutor"
+- "migrate & reindex"
+- "pull: cascade told us to delete already removed container"
+- "pull: container definition"
+- "pull: failed to ingest tool id: %s with: %@"
+- "pull: failed to remove tool id: %s with: %@"
+- "pull: ingesting %s"
+- "pull: source container"
+- "pull: type definition"
+- "queue_debouncerDidFire"
+- "queue_startIfPossible"
+- "queue_updateFromDatabase:"
+- "queue_updateIfNeededWithTransaction:"
+- "queuedInserted"
+- "queuedModified"
+- "queuedRemoved"
+- "register triggers"
+- "registeredTasksGroupedByEvent"
+- "removing item with id '"
+- "setIsFetchingClientState:"
+- "setLastSyncedEncryptedSchemaVersion:"
+- "setQueuedInserted:"
+- "setQueuedModified:"
+- "setQueuedRemoved:"
+- "setSyncOperationCompletionHandler:"
+- "somehow we got a non-toolkit cascasde change."
+- "spotlight pref change"
+- "spotlightLibrarySyncService"
+- "startIfPossible"
+- "sync"
+- "syncCoherenceEnabled"
+- "syncOperationCompletionHandler"
+- "syncWithChangeset:"
+- "systemSurfaceWorkflowStatusUpdater"
+- "toolkitProtoBytes"
+- "unhiddenPayload"
+- "updateIfPossibleWithTransaction:"
+- "vocabularyUpdater"
+- "workflowRecordForReference:properties:"
+
+```

@@ -1,0 +1,414 @@
+## ColorSync
+
+> `/System/Library/Frameworks/ColorSync.framework/ColorSync`
+
+```diff
+
+-3808.0.0.0.0
+-  __TEXT.__text: 0x5d084
++3810.1.5.0.0
++  __TEXT.__text: 0x5d684
+   __TEXT.__auth_stubs: 0xb90
+-  __TEXT.__const: 0x1309b0
+-  __TEXT.__gcc_except_tab: 0xfa8
+-  __TEXT.__cstring: 0x6291
++  __TEXT.__const: 0x1309c0
++  __TEXT.__gcc_except_tab: 0xf7c
++  __TEXT.__cstring: 0x62d8
+   __TEXT.__oslogstring: 0xb
+   __TEXT.__ustring: 0x38
+-  __TEXT.__unwind_info: 0x1210
++  __TEXT.__unwind_info: 0x1240
+   __DATA_CONST.__got: 0xe0
+-  __DATA_CONST.__const: 0x1c20
++  __DATA_CONST.__const: 0x1ca0
+   __AUTH_CONST.__auth_got: 0x5d0
+-  __AUTH_CONST.__const: 0x6e40
+-  __AUTH_CONST.__cfstring: 0x4820
+-  __DATA.__data: 0x800
+-  __DATA.__bss: 0x1078
++  __AUTH_CONST.__const: 0x6ec0
++  __AUTH_CONST.__cfstring: 0x4880
++  __DATA.__data: 0x808
++  __DATA.__bss: 0x10e8
+   __DATA_DIRTY.__data: 0x40
+   __DATA_DIRTY.__bss: 0x810
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 9B5DB637-5A8B-3C3C-BC83-700225CFE1BE
+-  Functions: 1568
+-  Symbols:   4690
+-  CStrings:  1383
++  UUID: 0FDD8C0C-34F8-3529-9FE7-518C193BC041
++  Functions: 1578
++  Symbols:   4730
++  CStrings:  1389
+ 
+Symbols:
++ GCC_except_table1003
++ GCC_except_table1016
++ GCC_except_table1017
++ GCC_except_table1033
++ GCC_except_table1041
++ GCC_except_table1044
++ GCC_except_table1049
++ GCC_except_table1137
++ GCC_except_table1143
++ GCC_except_table1157
++ GCC_except_table1202
++ GCC_except_table1205
++ GCC_except_table1210
++ GCC_except_table1211
++ GCC_except_table1212
++ GCC_except_table1220
++ GCC_except_table1260
++ GCC_except_table1261
++ GCC_except_table1268
++ GCC_except_table1270
++ GCC_except_table1273
++ GCC_except_table1320
++ GCC_except_table1324
++ GCC_except_table1325
++ GCC_except_table1343
++ GCC_except_table1376
++ GCC_except_table1377
++ GCC_except_table1378
++ GCC_except_table1390
++ GCC_except_table1391
++ GCC_except_table1392
++ GCC_except_table1396
++ GCC_except_table1397
++ GCC_except_table1405
++ GCC_except_table1406
++ GCC_except_table200
++ GCC_except_table306
++ GCC_except_table310
++ GCC_except_table353
++ GCC_except_table357
++ GCC_except_table401
++ GCC_except_table403
++ GCC_except_table800
++ GCC_except_table801
++ GCC_except_table804
++ GCC_except_table805
++ GCC_except_table806
++ GCC_except_table807
++ GCC_except_table819
++ GCC_except_table822
++ GCC_except_table823
++ GCC_except_table825
++ GCC_except_table843
++ GCC_except_table845
++ GCC_except_table856
++ GCC_except_table857
++ GCC_except_table885
++ GCC_except_table907
++ GCC_except_table909
++ GCC_except_table967
++ GCC_except_table969
++ _ColorSyncProfileCreateWithURLAndOptions
++ _ColorSyncProfileCreateWithURLWithoutSubstitution
++ _ColorSyncProfileCreateWithURLWithoutSubstitution.once
++ _ColorSyncProfileCreateWithURLWithoutSubstitution.options
++ __ZN10CMMProfile13GetMatrixTagsERA3_P9CMMXYZTagR12CMMRGBCurvesPK14__CFDictionary
++ __ZN19CMMMatrixHDRProfile11GetGamutTagEv
++ __ZN19CMMMatrixHDRProfile13GetMatrixTagsERA3_P9CMMXYZTagR12CMMRGBCurvesPK14__CFDictionary
++ __ZN19CMMMatrixHDRProfile18IsMatrixHDRProfileEv
++ __ZN19CMMMatrixHDRProfileD0Ev
++ __ZN19CMMMatrixHDRProfileD1Ev
++ __ZN19CMMMatrixHDRProfileD2Ev
++ __ZN21CMMMatrixInputProfile13GetMatrixTagsERA3_P9CMMXYZTagR12CMMRGBCurvesPK14__CFDictionary
++ __ZN23CMMMatrixDisplayProfile13GetMatrixTagsERA3_P9CMMXYZTagR12CMMRGBCurvesPK14__CFDictionary
++ __ZTI19CMMMatrixHDRProfile
++ __ZTS19CMMMatrixHDRProfile
++ __ZTV19CMMMatrixHDRProfile
++ ___ColorSyncProfileCreateWithURLWithoutSubstitution_block_invoke
++ ___block_descriptor_tmp.1002
++ ___block_descriptor_tmp.1006
++ ___block_descriptor_tmp.1010
++ ___block_descriptor_tmp.1013
++ ___block_descriptor_tmp.1016
++ ___block_descriptor_tmp.1019
++ ___block_descriptor_tmp.1022
++ ___block_descriptor_tmp.1054
++ ___block_descriptor_tmp.1088
++ ___block_descriptor_tmp.1313
++ ___block_descriptor_tmp.1332
++ ___block_descriptor_tmp.1390
++ ___block_descriptor_tmp.1492
++ ___block_descriptor_tmp.1527
++ ___block_descriptor_tmp.1574
++ ___block_descriptor_tmp.1611
++ ___block_descriptor_tmp.2.1612
++ ___block_descriptor_tmp.275.750
++ ___block_descriptor_tmp.341
++ ___block_descriptor_tmp.344
++ ___block_descriptor_tmp.386
++ ___block_descriptor_tmp.390
++ ___block_descriptor_tmp.393
++ ___block_descriptor_tmp.487
++ ___block_descriptor_tmp.5.1613
++ ___block_descriptor_tmp.536
++ ___block_descriptor_tmp.542
++ ___block_descriptor_tmp.544
++ ___block_descriptor_tmp.593
++ ___block_descriptor_tmp.6.1329
++ ___block_descriptor_tmp.604
++ ___block_descriptor_tmp.634
++ ___block_descriptor_tmp.637
++ ___block_descriptor_tmp.640
++ ___block_descriptor_tmp.683
++ ___block_descriptor_tmp.686
++ ___block_descriptor_tmp.689
++ ___block_descriptor_tmp.692
++ ___block_descriptor_tmp.701
++ ___block_descriptor_tmp.704
++ ___block_descriptor_tmp.707
++ ___block_descriptor_tmp.710
++ ___block_descriptor_tmp.713
++ ___block_descriptor_tmp.716
++ ___block_descriptor_tmp.9.1456
++ ___block_descriptor_tmp.941
++ ___block_descriptor_tmp.952
++ ___block_descriptor_tmp.974
++ ___block_descriptor_tmp.982
++ ___block_descriptor_tmp.991
++ ___block_descriptor_tmp.995
++ ___block_descriptor_tmp.998
++ ___block_literal_global.1000
++ ___block_literal_global.1004
++ ___block_literal_global.1008
++ ___block_literal_global.1011
++ ___block_literal_global.1012
++ ___block_literal_global.1015
++ ___block_literal_global.1018
++ ___block_literal_global.1024
++ ___block_literal_global.1029
++ ___block_literal_global.11.1454
++ ___block_literal_global.1293
++ ___block_literal_global.1328
++ ___block_literal_global.1388
++ ___block_literal_global.1490
++ ___block_literal_global.1525
++ ___block_literal_global.1572
++ ___block_literal_global.277.748
++ ___block_literal_global.343
++ ___block_literal_global.346
++ ___block_literal_global.388
++ ___block_literal_global.392
++ ___block_literal_global.485
++ ___block_literal_global.538
++ ___block_literal_global.541
++ ___block_literal_global.546
++ ___block_literal_global.590
++ ___block_literal_global.606
++ ___block_literal_global.636
++ ___block_literal_global.639
++ ___block_literal_global.642
++ ___block_literal_global.685
++ ___block_literal_global.688
++ ___block_literal_global.691
++ ___block_literal_global.694
++ ___block_literal_global.703
++ ___block_literal_global.706
++ ___block_literal_global.709
++ ___block_literal_global.712
++ ___block_literal_global.715
++ ___block_literal_global.718
++ ___block_literal_global.943
++ ___block_literal_global.954
++ ___block_literal_global.976
++ ___block_literal_global.984
++ ___block_literal_global.993
++ ___block_literal_global.997
++ ___tags_define_709_primaries_block_invoke
++ ___tags_define_BT2020_primaries_block_invoke
++ ___tags_define_DisplayP3_primaries_block_invoke
++ _evaluate_cicp
++ _kColorSyncDoNotSubstituteProfiles
++ _primaries_from_tag_data
++ _profile_contains_special_tags
++ _system_profile_from_cicp
++ _tags_define_709_primaries.b709
++ _tags_define_709_primaries.g709
++ _tags_define_709_primaries.predicate
++ _tags_define_709_primaries.r709
++ _tags_define_BT2020_primaries.b2020
++ _tags_define_BT2020_primaries.g2020
++ _tags_define_BT2020_primaries.predicate
++ _tags_define_BT2020_primaries.r2020
++ _tags_define_DisplayP3_primaries.bDP3
++ _tags_define_DisplayP3_primaries.gDP3
++ _tags_define_DisplayP3_primaries.predicate
++ _tags_define_DisplayP3_primaries.rDP3
+- GCC_except_table1006
+- GCC_except_table1007
+- GCC_except_table1023
+- GCC_except_table1031
+- GCC_except_table1034
+- GCC_except_table1039
+- GCC_except_table108
+- GCC_except_table1126
+- GCC_except_table1132
+- GCC_except_table1146
+- GCC_except_table1191
+- GCC_except_table1194
+- GCC_except_table1199
+- GCC_except_table1200
+- GCC_except_table1201
+- GCC_except_table1209
+- GCC_except_table1248
+- GCC_except_table1249
+- GCC_except_table1250
+- GCC_except_table1257
+- GCC_except_table1262
+- GCC_except_table1309
+- GCC_except_table1313
+- GCC_except_table1314
+- GCC_except_table1332
+- GCC_except_table1365
+- GCC_except_table1366
+- GCC_except_table1367
+- GCC_except_table1374
+- GCC_except_table1379
+- GCC_except_table1380
+- GCC_except_table1381
+- GCC_except_table1383
+- GCC_except_table1384
+- GCC_except_table1386
+- GCC_except_table296
+- GCC_except_table300
+- GCC_except_table337
+- GCC_except_table343
+- GCC_except_table391
+- GCC_except_table393
+- GCC_except_table790
+- GCC_except_table791
+- GCC_except_table794
+- GCC_except_table795
+- GCC_except_table796
+- GCC_except_table797
+- GCC_except_table809
+- GCC_except_table812
+- GCC_except_table813
+- GCC_except_table815
+- GCC_except_table833
+- GCC_except_table835
+- GCC_except_table836
+- GCC_except_table847
+- GCC_except_table875
+- GCC_except_table897
+- GCC_except_table899
+- GCC_except_table957
+- GCC_except_table959
+- GCC_except_table993
+- _ColorSyncProfileCreateCopyWithFlexGTC.iccDate
+- _ColorSyncProfileCreateLegacyDisplayP3
+- __ZN10CMMProfile13GetMatrixTagsERA3_P9CMMXYZTagR12CMMRGBCurves
+- __ZN21CMMMatrixInputProfile13GetMatrixTagsERA3_P9CMMXYZTagR12CMMRGBCurves
+- __ZN23CMMMatrixDisplayProfile13GetMatrixTagsERA3_P9CMMXYZTagR12CMMRGBCurves
+- __ZN26CMMMatrixHDRDisplayProfile11GetGamutTagEv
+- __ZN26CMMMatrixHDRDisplayProfile18IsMatrixHDRProfileEv
+- __ZN26CMMMatrixHDRDisplayProfileD0Ev
+- __ZN26CMMMatrixHDRDisplayProfileD1Ev
+- __ZN26CMMMatrixHDRDisplayProfileD2Ev
+- __ZTI26CMMMatrixHDRDisplayProfile
+- __ZTS26CMMMatrixHDRDisplayProfile
+- __ZTV26CMMMatrixHDRDisplayProfile
+- ___block_descriptor_tmp.1003
+- ___block_descriptor_tmp.1007
+- ___block_descriptor_tmp.1008
+- ___block_descriptor_tmp.1011
+- ___block_descriptor_tmp.1012
+- ___block_descriptor_tmp.1017
+- ___block_descriptor_tmp.1023
+- ___block_descriptor_tmp.1046
+- ___block_descriptor_tmp.1080
+- ___block_descriptor_tmp.1304
+- ___block_descriptor_tmp.1323
+- ___block_descriptor_tmp.1381
+- ___block_descriptor_tmp.1483
+- ___block_descriptor_tmp.1518
+- ___block_descriptor_tmp.1565
+- ___block_descriptor_tmp.1603
+- ___block_descriptor_tmp.2.1604
+- ___block_descriptor_tmp.296
+- ___block_descriptor_tmp.299
+- ___block_descriptor_tmp.378
+- ___block_descriptor_tmp.380
+- ___block_descriptor_tmp.387
+- ___block_descriptor_tmp.484
+- ___block_descriptor_tmp.5.1605
+- ___block_descriptor_tmp.524
+- ___block_descriptor_tmp.527
+- ___block_descriptor_tmp.538
+- ___block_descriptor_tmp.547
+- ___block_descriptor_tmp.550
+- ___block_descriptor_tmp.590
+- ___block_descriptor_tmp.6.1320
+- ___block_descriptor_tmp.610
+- ___block_descriptor_tmp.619
+- ___block_descriptor_tmp.635
+- ___block_descriptor_tmp.638
+- ___block_descriptor_tmp.641
+- ___block_descriptor_tmp.644
+- ___block_descriptor_tmp.647
+- ___block_descriptor_tmp.650
+- ___block_descriptor_tmp.653
+- ___block_descriptor_tmp.9.1447
+- ___block_descriptor_tmp.942
+- ___block_descriptor_tmp.953
+- ___block_descriptor_tmp.975
+- ___block_descriptor_tmp.983
+- ___block_descriptor_tmp.992
+- ___block_descriptor_tmp.996
+- ___block_descriptor_tmp.999
+- ___block_literal_global.1001
+- ___block_literal_global.1005
+- ___block_literal_global.1006
+- ___block_literal_global.1009
+- ___block_literal_global.1010
+- ___block_literal_global.1013
+- ___block_literal_global.1019
+- ___block_literal_global.1022
+- ___block_literal_global.1025
+- ___block_literal_global.11.1445
+- ___block_literal_global.1284
+- ___block_literal_global.1319
+- ___block_literal_global.1379
+- ___block_literal_global.1481
+- ___block_literal_global.1516
+- ___block_literal_global.1563
+- ___block_literal_global.298
+- ___block_literal_global.301
+- ___block_literal_global.382
+- ___block_literal_global.386
+- ___block_literal_global.482
+- ___block_literal_global.526
+- ___block_literal_global.529
+- ___block_literal_global.537
+- ___block_literal_global.549
+- ___block_literal_global.552
+- ___block_literal_global.586
+- ___block_literal_global.612
+- ___block_literal_global.621
+- ___block_literal_global.637
+- ___block_literal_global.640
+- ___block_literal_global.643
+- ___block_literal_global.646
+- ___block_literal_global.649
+- ___block_literal_global.652
+- ___block_literal_global.655
+- ___block_literal_global.944
+- ___block_literal_global.955
+- ___block_literal_global.977
+- ___block_literal_global.985
+- ___block_literal_global.994
+- ___block_literal_global.998
+CStrings:
++ "FlexGTC.input.profile"
++ "com.apple.ColorSync.DoNotSubstituteProfiles"
++ "hgdm"
+
+```

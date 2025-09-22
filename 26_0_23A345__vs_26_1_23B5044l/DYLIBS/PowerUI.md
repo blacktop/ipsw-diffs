@@ -1,0 +1,175 @@
+## PowerUI
+
+> `/System/Library/PrivateFrameworks/PowerUI.framework/PowerUI`
+
+```diff
+
+-696.0.1.0.0
+-  __TEXT.__text: 0xc22c8
++696.40.4.0.0
++  __TEXT.__text: 0xc22cc
+   __TEXT.__auth_stubs: 0xaf0
+   __TEXT.__objc_methlist: 0x1b6b4
+   __TEXT.__const: 0x538
+
+   __TEXT.__objc_methtype: 0x40f1
+   __TEXT.__objc_stubs: 0xca40
+   __DATA_CONST.__got: 0x4f8
+-  __DATA_CONST.__const: 0x14c0
++  __DATA_CONST.__const: 0x14c8
+   __DATA_CONST.__objc_classlist: 0x2f8
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x90
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9E4A91AD-1428-348C-8D4F-CEE34D8B940F
++  UUID: 87A50C1A-ABDE-368A-8DC6-103348890F80
+   Functions: 9789
+-  Symbols:   26858
++  Symbols:   26859
+   CStrings:  8895
+ 
+Symbols:
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1017
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1022
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1028
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1030
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1039
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1046
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1050
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1052
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1054
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1062
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1062.cold.1
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1063
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1066.cold.1
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1067
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.996
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_2.1018
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_2.1024
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_2.1032
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_2.1041
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_2.1048
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_2.1056
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_2.1065
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_2.1065.cold.1
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_3.1020
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_3.1026
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_3.1026.cold.1
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_3.1037
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_3.1058
++ ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_4.1060
++ ___34-[PowerUISmartChargeClient status]_block_invoke.140
++ ___40-[PowerUISmartChargeManager disableDEoC]_block_invoke.1962
++ ___42-[PowerUISmartChargeClient powerLogStatus]_block_invoke.142
++ ___44-[PowerUISmartChargeManager recordAnalytics]_block_invoke.1359
++ ___44-[PowerUISmartChargeManager recordAnalytics]_block_invoke.1378
++ ___44-[PowerUISmartChargeManager recordAnalytics]_block_invoke.1382
++ ___44-[PowerUISmartChargeManager recordAnalytics]_block_invoke.1383
++ ___47-[PowerUISmartChargeClient fullChargeDeadline:]_block_invoke.143
++ ___50-[PowerUISmartChargeClient cecFullChargeDeadline:]_block_invoke.162
++ ___51-[PowerUISmartChargeClient resetEngagementOverride]_block_invoke.165
++ ___52-[PowerUISmartChargeClient lastUsedLeewayWithError:]_block_invoke.167
++ ___52-[PowerUISmartChargeClient lastUsedLeewayWithError:]_block_invoke.167.cold.1
++ ___57-[PowerUISmartChargeManager client:setState:withHandler:]_block_invoke.1949
++ ___60-[PowerUISmartChargeManager accessoryNFCConnectionCallback:]_block_invoke.2040
++ ___60-[PowerUISmartChargeManager accessoryNFCConnectionCallback:]_block_invoke.2040.cold.1
++ ___60-[PowerUISmartChargeManager accessoryNFCConnectionCallback:]_block_invoke.2040.cold.2
++ ___66-[PowerUISmartChargeClient legacy_client_isOBCEngagedWithHandler:]_block_invoke.149
++ ___76-[PowerUISmartChargeClient engageFrom:until:repeatUntil:overrideAllSignals:]_block_invoke.163
++ ___76-[PowerUISmartChargeClient engageFrom:until:repeatUntil:overrideAllSignals:]_block_invoke.163.cold.1
++ ___87-[PowerUISmartChargeClient isOBCEngaged:chargeLimit:chargingOverrideAllowed:withError:]_block_invoke.158
++ ___87-[PowerUISmartChargeClient isOBCEngaged:chargeLimit:chargingOverrideAllowed:withError:]_block_invoke.158.cold.1
++ ___87-[PowerUISmartChargeClient simulateCurrentOutputAsOfDate:overrideAllSignals:withError:]_block_invoke.166
++ ___87-[PowerUISmartChargeClient simulateCurrentOutputAsOfDate:overrideAllSignals:withError:]_block_invoke.166.cold.1
++ ___94-[PowerUISmartChargeClient isOBCEngaged:isMaxChargeLimited:chargingOverrideAllowed:withError:]_block_invoke.147
++ ___94-[PowerUISmartChargeClient isOBCEngaged:isMaxChargeLimited:chargingOverrideAllowed:withError:]_block_invoke.147.cold.1
++ ___95-[PowerUISmartChargeClient smartChargingUIState:chargeLimit:chargingOverrideAllowed:withError:]_block_invoke.145
++ ___95-[PowerUISmartChargeClient smartChargingUIState:chargeLimit:chargingOverrideAllowed:withError:]_block_invoke.145.cold.1
++ ___block_literal_global.1343
++ ___block_literal_global.152
++ ___block_literal_global.1528
++ ___block_literal_global.154
++ ___block_literal_global.156
++ ___block_literal_global.1568
++ ___block_literal_global.1570
++ ___block_literal_global.1601
++ ___block_literal_global.1606
++ ___block_literal_global.1762
++ ___block_literal_global.2718
++ ___block_literal_global.2720
++ _kFullChargeDeadlineChanged
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1020
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1025
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1031
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1033
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1042
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1049
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1053
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1055
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1057
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1065
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1065.cold.1
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1069
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1069.cold.1
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.1070
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke.999
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_2.1021
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_2.1027
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_2.1035
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_2.1044
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_2.1051
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_2.1059
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_2.1068
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_2.1068.cold.1
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_3.1023
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_3.1029
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_3.1029.cold.1
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_3.1040
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_3.1061
+- ___136-[PowerUISmartChargeManager initWithDefaultsDomain:contextStore:beforeHandlingBatteryChangeCallback:afterHandlingBatteryChangeCallback:]_block_invoke_4.1063
+- ___34-[PowerUISmartChargeClient status]_block_invoke.137
+- ___40-[PowerUISmartChargeManager disableDEoC]_block_invoke.1965
+- ___42-[PowerUISmartChargeClient powerLogStatus]_block_invoke.139
+- ___44-[PowerUISmartChargeManager recordAnalytics]_block_invoke.1362
+- ___44-[PowerUISmartChargeManager recordAnalytics]_block_invoke.1381
+- ___44-[PowerUISmartChargeManager recordAnalytics]_block_invoke.1385
+- ___44-[PowerUISmartChargeManager recordAnalytics]_block_invoke.1386
+- ___47-[PowerUISmartChargeClient fullChargeDeadline:]_block_invoke.140
+- ___50-[PowerUISmartChargeClient cecFullChargeDeadline:]_block_invoke.159
+- ___51-[PowerUISmartChargeClient resetEngagementOverride]_block_invoke.162
+- ___52-[PowerUISmartChargeClient lastUsedLeewayWithError:]_block_invoke.164
+- ___52-[PowerUISmartChargeClient lastUsedLeewayWithError:]_block_invoke.164.cold.1
+- ___57-[PowerUISmartChargeManager client:setState:withHandler:]_block_invoke.1952
+- ___60-[PowerUISmartChargeManager accessoryNFCConnectionCallback:]_block_invoke.2043
+- ___60-[PowerUISmartChargeManager accessoryNFCConnectionCallback:]_block_invoke.2043.cold.1
+- ___60-[PowerUISmartChargeManager accessoryNFCConnectionCallback:]_block_invoke.2043.cold.2
+- ___66-[PowerUISmartChargeClient legacy_client_isOBCEngagedWithHandler:]_block_invoke.146
+- ___76-[PowerUISmartChargeClient engageFrom:until:repeatUntil:overrideAllSignals:]_block_invoke.160
+- ___76-[PowerUISmartChargeClient engageFrom:until:repeatUntil:overrideAllSignals:]_block_invoke.160.cold.1
+- ___87-[PowerUISmartChargeClient isOBCEngaged:chargeLimit:chargingOverrideAllowed:withError:]_block_invoke.155
+- ___87-[PowerUISmartChargeClient isOBCEngaged:chargeLimit:chargingOverrideAllowed:withError:]_block_invoke.155.cold.1
+- ___87-[PowerUISmartChargeClient simulateCurrentOutputAsOfDate:overrideAllSignals:withError:]_block_invoke.163
+- ___87-[PowerUISmartChargeClient simulateCurrentOutputAsOfDate:overrideAllSignals:withError:]_block_invoke.163.cold.1
+- ___94-[PowerUISmartChargeClient isOBCEngaged:isMaxChargeLimited:chargingOverrideAllowed:withError:]_block_invoke.144
+- ___94-[PowerUISmartChargeClient isOBCEngaged:isMaxChargeLimited:chargingOverrideAllowed:withError:]_block_invoke.144.cold.1
+- ___95-[PowerUISmartChargeClient smartChargingUIState:chargeLimit:chargingOverrideAllowed:withError:]_block_invoke.142
+- ___95-[PowerUISmartChargeClient smartChargingUIState:chargeLimit:chargingOverrideAllowed:withError:]_block_invoke.142.cold.1
+- ___block_literal_global.1346
+- ___block_literal_global.151
+- ___block_literal_global.153
+- ___block_literal_global.1531
+- ___block_literal_global.1571
+- ___block_literal_global.1573
+- ___block_literal_global.158
+- ___block_literal_global.1604
+- ___block_literal_global.1609
+- ___block_literal_global.1765
+- ___block_literal_global.2721
+- ___block_literal_global.2723
+Functions:
+~ -[PowerUISmartChargeManager setFullChargeDeadline:] : 560 -> 564
+
+```

@@ -1,0 +1,414 @@
+## AppStoreKit
+
+> `/System/Library/PrivateFrameworks/AppStoreKit.framework/AppStoreKit`
+
+```diff
+
+-11.0.79.2.2
+-  __TEXT.__text: 0x7ba458
+-  __TEXT.__auth_stubs: 0x9860
++11.1.9.0.0
++  __TEXT.__text: 0x7c0e14
++  __TEXT.__auth_stubs: 0x9910
+   __TEXT.__init_offsets: 0x4
+-  __TEXT.__objc_methlist: 0x5b10
+-  __TEXT.__const: 0x50774
+-  __TEXT.__cstring: 0x32bab
++  __TEXT.__objc_methlist: 0x5b98
++  __TEXT.__const: 0x50bd4
++  __TEXT.__cstring: 0x3310b
+   __TEXT.__oslogstring: 0x414
+   __TEXT.__gcc_except_tab: 0x964
+-  __TEXT.__swift5_typeref: 0x17a1a
+-  __TEXT.__swift5_reflstr: 0x1fec0
+-  __TEXT.__swift5_assocty: 0x3748
+-  __TEXT.__constg_swiftt: 0x1fa50
+-  __TEXT.__swift5_fieldmd: 0x1d44c
++  __TEXT.__swift5_typeref: 0x17c6a
++  __TEXT.__swift5_reflstr: 0x1ffc0
++  __TEXT.__swift5_assocty: 0x3798
++  __TEXT.__constg_swiftt: 0x1fbe4
++  __TEXT.__swift5_fieldmd: 0x1d5ec
+   __TEXT.__swift5_builtin: 0x8c0
+-  __TEXT.__swift5_proto: 0x3050
+-  __TEXT.__swift5_types: 0x1adc
+-  __TEXT.__swift5_capture: 0xab50
+-  __TEXT.__swift5_protos: 0x3b0
+-  __TEXT.__swift_as_entry: 0x3d0
+-  __TEXT.__swift_as_ret: 0x414
++  __TEXT.__swift5_proto: 0x3080
++  __TEXT.__swift5_types: 0x1b00
++  __TEXT.__swift5_capture: 0xabf8
++  __TEXT.__swift5_protos: 0x3b4
++  __TEXT.__swift_as_entry: 0x3e8
++  __TEXT.__swift_as_ret: 0x420
+   __TEXT.__swift5_mpenum: 0x27c
+-  __TEXT.__unwind_info: 0x1ac08
+-  __TEXT.__eh_frame: 0x1bf7c
++  __TEXT.__unwind_info: 0x1ae50
++  __TEXT.__eh_frame: 0x1c424
+   __TEXT.__objc_classname: 0x786
+-  __TEXT.__objc_methname: 0xea50
++  __TEXT.__objc_methname: 0xea99
+   __TEXT.__objc_methtype: 0x3b8a
+-  __TEXT.__objc_stubs: 0x4400
+-  __DATA_CONST.__got: 0x2738
+-  __DATA_CONST.__const: 0x45f0
+-  __DATA_CONST.__objc_classlist: 0x13c8
++  __TEXT.__objc_stubs: 0x4420
++  __DATA_CONST.__got: 0x2768
++  __DATA_CONST.__const: 0x4670
++  __DATA_CONST.__objc_classlist: 0x13d8
+   __DATA_CONST.__objc_catlist: 0x78
+-  __DATA_CONST.__objc_protolist: 0x380
++  __DATA_CONST.__objc_protolist: 0x388
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x46d8
+-  __DATA_CONST.__objc_protorefs: 0x220
++  __DATA_CONST.__objc_selrefs: 0x4700
++  __DATA_CONST.__objc_protorefs: 0x228
+   __DATA_CONST.__objc_superrefs: 0xf8
+   __DATA_CONST.__objc_arraydata: 0x120
+-  __AUTH_CONST.__auth_got: 0x4c48
+-  __AUTH_CONST.__const: 0x44d50
+-  __AUTH_CONST.__cfstring: 0x2020
+-  __AUTH_CONST.__objc_const: 0x40df0
++  __AUTH_CONST.__auth_got: 0x4ca0
++  __AUTH_CONST.__const: 0x45380
++  __AUTH_CONST.__cfstring: 0x2040
++  __AUTH_CONST.__objc_const: 0x41458
+   __AUTH_CONST.__objc_intobj: 0x30
+   __AUTH_CONST.__objc_arrayobj: 0x90
+-  __AUTH.__objc_data: 0x43c0
+-  __AUTH.__data: 0x11b60
++  __AUTH.__objc_data: 0x4440
++  __AUTH.__data: 0x11d30
+   __DATA.__objc_ivar: 0x184
+-  __DATA.__data: 0xb398
+-  __DATA.__bss: 0x37380
++  __DATA.__data: 0xb498
++  __DATA.__bss: 0x37910
+   __DATA.__common: 0xd48
+-  __DATA_DIRTY.__objc_data: 0x90d8
+-  __DATA_DIRTY.__data: 0x2a570
++  __DATA_DIRTY.__objc_data: 0x9070
++  __DATA_DIRTY.__data: 0x2a5d8
+   __DATA_DIRTY.__bss: 0x19398
+   __DATA_DIRTY.__common: 0x2090
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /System/Library/PrivateFrameworks/AppleIDSSOAuthentication.framework/AppleIDSSOAuthentication
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/AppleMediaServicesUI
++  - /System/Library/PrivateFrameworks/AskPermission.framework/AskPermission
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+   - /System/Library/PrivateFrameworks/AuthKitUI.framework/AuthKitUI
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B84E1CF7-27FA-3B25-B4B2-E2482583E453
+-  Functions: 42724
+-  Symbols:   16839
+-  CStrings:  9290
++  UUID: 1F8DAC8F-6FC3-3E99-96F3-1E8969856C88
++  Functions: 42879
++  Symbols:   16915
++  CStrings:  9332
+ 
+Symbols:
++ -[ASKClient buildVersion]
++ _OBJC_CLASS_$_APRequestHandler
++ _OBJC_CLASS_$_SwiftNativeNSObject
++ _OBJC_CLASS_$__TtC11AppStoreKit20JSPlayerBridgeObject
++ _OBJC_METACLASS_$_SwiftNativeNSObject
++ _OBJC_METACLASS_$__TtC11AppStoreKit20JSPlayerBridgeObject
++ __DATA__TtC11AppStoreKit19RestrictionsFetcher
++ __DATA__TtC11AppStoreKit20JSPlayerBridgeObject
++ __INSTANCE_METHODS__TtC11AppStoreKit20JSPlayerBridgeObject
++ __IVARS__TtC11AppStoreKit19RestrictionsFetcher
++ __IVARS__TtC11AppStoreKit20JSPlayerBridgeObject
++ __METACLASS_DATA__TtC11AppStoreKit19RestrictionsFetcher
++ __METACLASS_DATA__TtC11AppStoreKit20JSPlayerBridgeObject
++ __PROPERTIES__TtC11AppStoreKit20JSPlayerBridgeObject
++ __PROTOCOLS__TtC11AppStoreKit20JSPlayerBridgeObject
++ __PROTOCOLS__TtC11AppStoreKit20JSPlayerBridgeObject.2
++ __PROTOCOL_INSTANCE_METHODS__TtP11AppStoreKitP33_0ED8A32B2E54233BCBBC5B8CAA8D748227JSPlayerBridgeObjectExports_
++ __PROTOCOL_METHOD_TYPES__TtP11AppStoreKitP33_0ED8A32B2E54233BCBBC5B8CAA8D748227JSPlayerBridgeObjectExports_
++ __PROTOCOL_PROPERTIES__TtP11AppStoreKitP33_0ED8A32B2E54233BCBBC5B8CAA8D748227JSPlayerBridgeObjectExports_
++ __PROTOCOL_PROTOCOLS__TtP11AppStoreKitP33_0ED8A32B2E54233BCBBC5B8CAA8D748227JSPlayerBridgeObjectExports_
++ __PROTOCOL__TtP11AppStoreKitP33_0ED8A32B2E54233BCBBC5B8CAA8D748227JSPlayerBridgeObjectExports_
++ ___swift_get_extra_inhabitant_index.49Tm
++ ___swift_store_extra_inhabitant_index.50Tm
++ _associated conformance 11AppStoreKit19URLProtocolDelegateC11DialogErrorOSHAASQ
++ _associated conformance 11AppStoreKit20SpacerAnnotationItemV4SizeOSHAASQ
++ _associated conformance 11AppStoreKit23RestrictionsCheckIntentOSHAASQ
++ _associated conformance 11AppStoreKit23RestrictionsCheckIntentOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 11AppStoreKit33LocalAskToBuyActionImplementationV9JetEngine0hI0AA0H0AdEP_AD0H5Model
++ _block_copy_helper.111
++ _block_copy_helper.140
++ _block_copy_helper.155
++ _block_copy_helper.162
++ _block_copy_helper.166
++ _block_copy_helper.235
++ _block_copy_helper.274
++ _block_copy_helper.277
++ _block_copy_helper.305
++ _block_copy_helper.318
++ _block_copy_helper.326
++ _block_copy_helper.341
++ _block_descriptor.113
++ _block_descriptor.142
++ _block_descriptor.157
++ _block_descriptor.164
++ _block_descriptor.168
++ _block_descriptor.237
++ _block_descriptor.276
++ _block_descriptor.279
++ _block_descriptor.307
++ _block_descriptor.320
++ _block_descriptor.328
++ _block_descriptor.343
++ _block_destroy_helper.112
++ _block_destroy_helper.141
++ _block_destroy_helper.156
++ _block_destroy_helper.163
++ _block_destroy_helper.167
++ _block_destroy_helper.236
++ _block_destroy_helper.275
++ _block_destroy_helper.278
++ _block_destroy_helper.306
++ _block_destroy_helper.319
++ _block_destroy_helper.327
++ _block_destroy_helper.342
++ _get_witness_table 11AppStoreKit16LinkableTextViewV7SwiftUI0F0HPyHC.124
++ _get_witness_table 5JetUI6ResizeVAA9PlaceableHPyHC.22
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4TextVAA14_PaddingLayoutVGAA4ViewHPAeaIHPyHC_AgA0H8ModifierHPyHCHC.129
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA4ViewHPAeaKHPyHC_AiA0jI0HPyHCHC.131
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA7ForEachVySaySi6offset_11AppStoreKit20AccessibilityFeatureC7elementtGs11AnyHashableVAI0L19FeaturesDetailsViewV0mS033_E4A8D41B649F1E3C24C4D618746BA8DFLLVGGAA16_FlexFrameLayoutVGAA0S0HPAvaZHPyHC_AxA0S8ModifierHPyHCHC.16
++ _get_witness_table 7SwiftUI15ModifiedContentVyACy11AppStoreKit0A13UIArtworkViewVAA12_FrameLayoutVGAA012_AspectRatioK0VGAA0I0HPAiaMHPAfaMHPyHC_AhA0I8ModifierHPyHCHC_AkaNHPyHCHC.130
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA6VStackVyAA012_ConditionalD0VyACyACy11AppStoreKit010AnnotationE0V08ExpandedE0VAA14_PaddingLayoutVGATGACyACyAP09CollapsedE0VATGATGGG_Qo_AA0I18AttachmentModifierVGAA010_AnimationW0VySbGGAaDHPA4_AaDHPqd__AaDHD2_A1_HO_A3_AA0eW0HPyHCHC_A7_AAA9_HPyHCHC.13
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA6SpacerVAEGAA4ViewHPAeaGHPyHC_AeaGHPyHCHC.128
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA6VStackVyAA9TupleViewVyAA4TextV_AItGGAA6HStackVyAGyAA08ModifiedD0VyAOyAiA30_EnvironmentKeyWritingModifierVySiSgGGAA06_TraitmN0VyAA014LayoutPriorityoL0VGG_AOyAA6SpacerVAA010_FlexFrameP0VGAZtGGGAA0G0HPAkAA7_HPyHC_A5_AAA7_HPyHCHC.127
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA6VStackVyAA9TupleViewVyAA6HStackVyAGy11AppStoreKit010AnnotationG0V05TitleG0V_AA6SpacerVAA08ModifiedD0VyARyAA5ImageVAA24_ForegroundStyleModifierVyAA017HierarchicalShapeR0VGGAA14_PaddingLayoutVGSgtGG_ARyAA4TextVAJ09TruncatedX8ObserverVGtGGAIyAGyAN_APA9_A2_tGGGAA0G0HPA11_AAA15_HPyHC_A13_AAA15_HPyHCHC.102
++ _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAA6VStackVyxGAA6HStackVyxGGAaBHPAgaBHPyHC_AjaBHPyHCHC.29
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVy11AppStoreKit010AnnotationE0V05TitleE0V_ACyAA7ForEachVySayAF03AnyI4ItemVG10Foundation4UUIDVAA19_ConditionalContentVyATyATyAH012LinkableTextinE033_83EF85BA08D3A6B470D19016099F9AF8LLVAH06ButtoninE0AVLLVGATyAH0t4PairinE0AVLLVAH06SpacerinE0AVLLVGGATyATyAH0t13EncapsulationinE0AVLLVAH07ArtworkinE0AVLLVGAA05EmptyE0VGGGGtGGAA0E0HPyHC.103
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQOy011_JetEngine_aB006ActionG0VyAA15ModifiedContentVyAJyAJyAA4TextVAA16_FlexFrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA011_ForegroundeT0VyAA5ColorVGGG_AA05PlaingE0VQo_HO.126
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOy11AppStoreKit0g15FeaturesDetailsC0V07FeatureC033_E4A8D41B649F1E3C24C4D618746BA8DFLLV0G17SizeAdaptiveStackVy__AA05TupleC0VyAA15ModifiedContentVyASyASyASyASyAH0a9UIArtworkC0VAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAH010EmphasizedC8ModifierVGAA24_ForegroundStyleModifierVyAA14TintShapeStyleVGGAA12_FrameLayoutVGAA0G18AttachmentModifierVG_ASyASyAA6VStackVyAQyASyAA4TextVA2_G_A19_SgtGGAA14_PaddingLayoutVGAA16_FlexFrameLayoutVGtGG_Qo_HO.28
++ _objc_msgSend$buildVersion
++ _objectdestroy.105Tm
++ _objectdestroy.200Tm
++ _objectdestroy.286Tm
++ _objectdestroy.39Tm
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _symbolic $s11AppStoreKit20RestrictionsProtocolP
++ _symbolic $s11AppStoreKit27JSPlayerBridgeObjectExports33_0ED8A32B2E54233BCBBC5B8CAA8D7482LLP
++ _symbolic $sSo20NSNotificationCenterC10FoundationE16MainActorMessageP
++ _symbolic BD
++ _symbolic Say_____G 11AppStoreKit23RestrictionsCheckIntentO
++ _symbolic Say_____G 7SwiftUI19AccessibilityTraitsV
++ _symbolic Say______pG So8NSObjectP
++ _symbolic ScCySDySSSiG_____G s5NeverO
++ _symbolic So19SwiftNativeNSObjectC
++ _symbolic So7UIImageCIego_
++ _symbolic So7UIImageCIegr_
++ _symbolic So7UIImageCyc
++ _symbolic _____ 11AppStoreKit12RestrictionsC16DidChangeMessageV
++ _symbolic _____ 11AppStoreKit19RestrictionsFetcherC
++ _symbolic _____ 11AppStoreKit19URLProtocolDelegateC11DialogErrorO
++ _symbolic _____ 11AppStoreKit20JSPlayerBridgeObjectC
++ _symbolic _____ 11AppStoreKit20SpacerAnnotationItemV4SizeO
++ _symbolic _____ 11AppStoreKit23RestrictionsCheckIntentO
++ _symbolic _____ 11AppStoreKit33LocalAskToBuyActionImplementationV
++ _symbolic _____ 11AppStoreKit38ArcadeSubscriptionStatusFieldsProviderV
++ _symbolic _____ 11AppStoreKit6SizingO
++ _symbolic _____ 11AppStoreKit6SizingO5SceneO
++ _symbolic ___________y_____ySay_____G__________yAGyAGy__________GAGy__________GGAGyAGy__________G_____GGGGt 11AppStoreKit14AnnotationViewV05TitleE0V 7SwiftUI6VStackV AF7ForEachV AA03AnyD4ItemV 10Foundation4UUIDV AF19_ConditionalContentV AC012LinkableTextdmE033_83EF85BA08D3A6B470D19016099F9AF8LLV AC06ButtondmE0ASLLV AC0s4PairdmE0ASLLV AC06SpacerdmE0ASLLV AC0s13EncapsulationdmE0ASLLV AC07ArtworkdmE0ASLLV AF05EmptyE0V
++ _symbolic ______p 11AppStoreKit20RestrictionsProtocolP
++ _symbolic _____yAAy_____y_____y_____yAAyAAy__________GAEGAAyAAy_____AEGAEGGG_Qo______G_____ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA012_ConditionalD0V 11AppStoreKit010AnnotationE0V08ExpandedE0V AA14_PaddingLayoutV AP09CollapsedE0V AA0I18AttachmentModifierV AA010_AnimationW0V
++ _symbolic _____y_SDySS_____GG 9JetEngine11JSONContextV8PropertyV 11AppStoreKit6ActionC
++ _symbolic _____y_____ABG 7SwiftUI19_ConditionalContentV AA6SpacerV
++ _symbolic _____y__________SgG s18_DictionaryStorageC 11AppStoreKit23RestrictionsCheckIntentO AC6BannerC
++ _symbolic _____y___________ySay_____G__________yAGyAGy__________GAGy__________GGAGyAGy__________G_____GGGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA7ForEachV 11AppStoreKit17AnyAnnotationItemV 10Foundation4UUIDV AA19_ConditionalContentV AJ0nD0V012LinkableTextnoD033_83EF85BA08D3A6B470D19016099F9AF8LLV AS06ButtonnoD0AULLV AS0u4PairnoD0AULLV AS06SpacernoD0AULLV AS0u13EncapsulationnoD0AULLV AS07ArtworknoD0AULLV AA05EmptyD0V
++ _symbolic _____y___________y___________y_____ySay_____G__________yAJyAJy__________GAJy__________GGAJyAJy__________G_____GGGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V 11AppStoreKit010AnnotationD0V05TitleD0V AA0F0V AA7ForEachV AJ03AnyL4ItemV 10Foundation4UUIDV AA19_ConditionalContentV AL012LinkableTextlqD033_83EF85BA08D3A6B470D19016099F9AF8LLV AL06ButtonlqD0A_LLV AL0w4PairlqD0A_LLV AL06SpacerlqD0A_LLV AL0w13EncapsulationlqD0A_LLV AL07ArtworklqD0A_LLV AA05EmptyD0V
++ _symbolic _____y_____ySay_____G__________yAFyAFy__________GAFy__________GGAFyAFy__________G_____GGGG 7SwiftUI6VStackV AA7ForEachV 11AppStoreKit17AnyAnnotationItemV 10Foundation4UUIDV AA19_ConditionalContentV AF0J4ViewV012LinkableTextjkP033_83EF85BA08D3A6B470D19016099F9AF8LLV AO06ButtonjkP0AQLLV AO0r4PairjkP0AQLLV AO06SpacerjkP0AQLLV AO0r13EncapsulationjkP0AQLLV AO07ArtworkjkP0AQLLV AA05EmptyP0V
++ _symbolic _____y_____y______AAy_____ySay_____G__________yAHyAHy__________GAHy__________GGAHyAHy__________G_____GGGGtGG 7SwiftUI6VStackV AA9TupleViewV 11AppStoreKit010AnnotationE0V05TitleE0V AA7ForEachV AF03AnyI4ItemV 10Foundation4UUIDV AA19_ConditionalContentV AH012LinkableTextinE033_83EF85BA08D3A6B470D19016099F9AF8LLV AH06ButtoninE0AULLV AH0t4PairinE0AULLV AH06SpacerinE0AULLV AH0t13EncapsulationinE0AULLV AH07ArtworkinE0AULLV AA05EmptyE0V
++ _symbolic _____y_____y_____y_____yAAyAAy__________GAEGAAyAAy_____AEGAEGGG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA012_ConditionalD0V 11AppStoreKit010AnnotationE0V08ExpandedE0V AA14_PaddingLayoutV AP09CollapsedE0V AA0I18AttachmentModifierV
++ _symbolic _____y_____y_____y_____yACy__________GAEGACyACy_____AEGAEGGG_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA19_ConditionalContentV AA08ModifiedL0V 11AppStoreKit010AnnotationC0V08ExpandedC0V AA14_PaddingLayoutV AP09CollapsedC0V
++ _symbolic ytSg
++ _symbolic ytSgIeAgHr_
+- _OBJC_CLASS_$_AMSBag
+- _OBJC_CLASS_$_AMSSystemAlertDialogTask
+- __UISolariumEnabled
+- ___swift_get_extra_inhabitant_index.41Tm
+- ___swift_store_extra_inhabitant_index.42Tm
+- _associated conformance 11AppStoreKit12RestrictionsC6IntentOSHAASQ
+- _associated conformance 11AppStoreKit12RestrictionsC6IntentOs12CaseIterableAA8AllCasessAFP_Sl
+- _block_copy_helper.139
+- _block_copy_helper.150
+- _block_copy_helper.161
+- _block_copy_helper.165
+- _block_copy_helper.169
+- _block_copy_helper.234
+- _block_copy_helper.238
+- _block_copy_helper.278
+- _block_copy_helper.306
+- _block_copy_helper.319
+- _block_copy_helper.327
+- _block_copy_helper.342
+- _block_copy_helper.44
+- _block_descriptor.141
+- _block_descriptor.152
+- _block_descriptor.163
+- _block_descriptor.167
+- _block_descriptor.171
+- _block_descriptor.236
+- _block_descriptor.240
+- _block_descriptor.280
+- _block_descriptor.308
+- _block_descriptor.321
+- _block_descriptor.329
+- _block_descriptor.344
+- _block_descriptor.46
+- _block_destroy_helper.140
+- _block_destroy_helper.151
+- _block_destroy_helper.162
+- _block_destroy_helper.166
+- _block_destroy_helper.170
+- _block_destroy_helper.235
+- _block_destroy_helper.239
+- _block_destroy_helper.279
+- _block_destroy_helper.307
+- _block_destroy_helper.320
+- _block_destroy_helper.328
+- _block_destroy_helper.343
+- _block_destroy_helper.45
+- _get_witness_table 11AppStoreKit16LinkableTextViewV7SwiftUI0F0HPyHC.119
+- _get_witness_table 5JetUI6ResizeVAA9PlaceableHPyHC.21
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4TextVAA14_PaddingLayoutVGAA4ViewHPAeaIHPyHC_AgA0H8ModifierHPyHCHC.124
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA4ViewHPAeaKHPyHC_AiA0jI0HPyHCHC.126
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA012_ConditionalD0VyACyACy11AppStoreKit14AnnotationViewV08ExpandedK0VAA14_PaddingLayoutVGANGACyACyAJ09CollapsedK0VANGANGGGAA18_AnimationModifierVySbGGAA0K0HPAvAA_HPyHC_AyA0kQ0HPyHCHC.8
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA7ForEachVySaySi6offset_11AppStoreKit20AccessibilityFeatureC7elementtGs11AnyHashableVAI0L19FeaturesDetailsViewV0mS033_E4A8D41B649F1E3C24C4D618746BA8DFLLVGGAA16_FlexFrameLayoutVGAA0S0HPAvaZHPyHC_AxA0S8ModifierHPyHCHC.13
+- _get_witness_table 7SwiftUI15ModifiedContentVyACy11AppStoreKit0A13UIArtworkViewVAA12_FrameLayoutVGAA012_AspectRatioK0VGAA0I0HPAiaMHPAfaMHPyHC_AhA0I8ModifierHPyHCHC_AkaNHPyHCHC.125
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA6VStackVyAA9TupleViewVyAA4TextV_AItGGAA6HStackVyAGyAA08ModifiedD0VyAOyAiA30_EnvironmentKeyWritingModifierVySiSgGGAA06_TraitmN0VyAA014LayoutPriorityoL0VGG_AOyAA6SpacerVAA010_FlexFrameP0VGAZtGGGAA0G0HPAkAA7_HPyHC_A5_AAA7_HPyHCHC.122
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA6VStackVyAA9TupleViewVyAA6HStackVyAGy11AppStoreKit010AnnotationG0V05TitleG0V_AA6SpacerVAA08ModifiedD0VyARyAA5ImageVAA24_ForegroundStyleModifierVyAA017HierarchicalShapeR0VGGAA14_PaddingLayoutVGSgtGG_ARyAA4TextVAJ09TruncatedX8ObserverVGtGGAIyAGyAN_APA9_A2_tGGGAA0G0HPA11_AAA15_HPyHC_A13_AAA15_HPyHCHC.94
+- _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAA6VStackVyxGAA6HStackVyxGGAaBHPAgaBHPyHC_AjaBHPyHCHC.26
+- _get_witness_table 7SwiftUI6SpacerVAA4ViewHPyHC.123
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAGy11AppStoreKit010AnnotationE0V05TitleE0VAA16_FlexFrameLayoutVGAA08_PaddingO0VG_AA7ForEachVySayAH03AnyK4ItemVG10Foundation4UUIDVAA012_ConditionalG0VyA0_yA0_yAJ012LinkableTextktE033_83EF85BA08D3A6B470D19016099F9AF8LLVAJ06ButtonktE0A2_LLVGA0_yAJ0y4PairktE0A2_LLVAJ06SpacerktE0A2_LLVGGA0_yA0_yAJ0y13EncapsulationktE0A2_LLVAJ07ArtworkktE0A2_LLVGAA05EmptyE0VGGGtGGAA0E0HPyHC.95
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQOy011_JetEngine_aB006ActionG0VyAA15ModifiedContentVyAJyAJyAA4TextVAA16_FlexFrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA011_ForegroundeT0VyAA5ColorVGGG_AA05PlaingE0VQo_HO.121
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOy11AppStoreKit0g15FeaturesDetailsC0V07FeatureC033_E4A8D41B649F1E3C24C4D618746BA8DFLLV0G17SizeAdaptiveStackVy__AA05TupleC0VyAA15ModifiedContentVyASyASyASyASyAH0a9UIArtworkC0VAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAH010EmphasizedC8ModifierVGAA24_ForegroundStyleModifierVyAA14TintShapeStyleVGGAA12_FrameLayoutVGAA0G18AttachmentModifierVG_ASyASyAA6VStackVyAQyASyAA4TextVA2_G_A19_SgtGGAA14_PaddingLayoutVGAA16_FlexFrameLayoutVGtGG_Qo_HO.25
+- _objectdestroy.104Tm
+- _objectdestroy.199Tm
+- _objectdestroy.287Tm
+- _objectdestroy.53Tm
+- _symbolic SaySo14STExceptionAppCG
+- _symbolic SaySo14STExceptionAppCGz_Xx
+- _symbolic Say_____G 11AppStoreKit12RestrictionsC6IntentO
+- _symbolic SbIegy_Sg
+- _symbolic _____ 11AppStoreKit12RestrictionsC6IntentO
+- _symbolic _____ 7SwiftUI6SpacerV
+- _symbolic _____XDXMT 11AppStoreKit12RestrictionsC
+- _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 11AppStoreKit14AnnotationViewV05TitleI0V AA16_FlexFrameLayoutV AA08_PaddingM0V
+- _symbolic _____yAAy__________G_____G______ySay_____G__________yAKyAKy__________GAKy__________GGAKyAKy__________G_____GGGt 7SwiftUI15ModifiedContentV 11AppStoreKit14AnnotationViewV05TitleI0V AA16_FlexFrameLayoutV AA08_PaddingM0V AA7ForEachV AD03AnyH4ItemV 10Foundation4UUIDV AA012_ConditionalD0V AF012LinkableTexthrI033_83EF85BA08D3A6B470D19016099F9AF8LLV AF06ButtonhrI0AWLLV AF0w4PairhrI0AWLLV AF06SpacerhrI0AWLLV AF0w13EncapsulationhrI0AWLLV AF07ArtworkhrI0AWLLV AA05EmptyI0V
+- _symbolic _____ySay_____G__________yAEyAEy__________GAEy__________GGAEyAEy__________G_____GGG 7SwiftUI7ForEachV 11AppStoreKit17AnyAnnotationItemV 10Foundation4UUIDV AA19_ConditionalContentV AD0I4ViewV012LinkableTextijO033_83EF85BA08D3A6B470D19016099F9AF8LLV AM06ButtonijO0AOLLV AM0q4PairijO0AOLLV AM06SpacerijO0AOLLV AM0q13EncapsulationijO0AOLLV AM07ArtworkijO0AOLLV AA05EmptyO0V
+- _symbolic _____y__________SgG s18_DictionaryStorageC 11AppStoreKit12RestrictionsC6IntentO AC6BannerC
+- _symbolic _____y___________y_____yADy__________G_____G______ySay_____G__________yANyANy__________GANy__________GGANyANy__________G_____GGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV 11AppStoreKit010AnnotationD0V05TitleD0V AA010_FlexFrameG0V AA08_PaddingG0V AA7ForEachV AL03AnyN4ItemV 10Foundation4UUIDV AA012_ConditionalJ0V AN012LinkableTextnvD033_83EF85BA08D3A6B470D19016099F9AF8LLV AN06ButtonnvD0A3_LLV AN08TextPairnvD0A3_LLV AN06SpacernvD0A3_LLV AN017TextEncapsulationnvD0A3_LLV AN07ArtworknvD0A3_LLV AA05EmptyD0V
+- _symbolic _____y_____y_____yAAyAAy__________GAEGAAyAAy_____AEGAEGGG_____ySbGG 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 11AppStoreKit14AnnotationViewV08ExpandedK0V AA14_PaddingLayoutV AJ09CollapsedK0V AA18_AnimationModifierV
+- _symbolic _____y_____y_____yACy__________G_____G______ySay_____G__________yAMyAMy__________GAMy__________GGAMyAMy__________G_____GGGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV 11AppStoreKit010AnnotationE0V05TitleE0V AA16_FlexFrameLayoutV AA08_PaddingO0V AA7ForEachV AH03AnyK4ItemV 10Foundation4UUIDV AA012_ConditionalG0V AJ012LinkableTextktE033_83EF85BA08D3A6B470D19016099F9AF8LLV AJ06ButtonktE0A_LLV AJ0y4PairktE0A_LLV AJ06SpacerktE0A_LLV AJ0y13EncapsulationktE0A_LLV AJ07ArtworkktE0A_LLV AA05EmptyE0V
+- _type_layout_string 11AppStoreKit14AnnotationViewV08ExpandedE0V
+CStrings:
++ " Finished updating restrictions"
++ " Started updating restrictions"
++ " Tried to update restrictions, but an update is already in progress"
++ " exception count changed to: "
++ " hasManagedAppleID changed to: "
++ " isAccountModificationRestricted changed to: "
++ " isAppInstallationAllowed changed to: "
++ " isAppUninstallationAllowed changed to: "
++ " isRunningInStoreDemoMode changed to: "
++ " maximumAppContentRating changed to: "
++ "$defaultActor"
++ ".phone6_55"
++ "157263806-add-playerBridge-askGlobal"
++ "@\"_TtC11AppStoreKit20JSPlayerBridgeObject\""
++ "@\"_TtC11AppStoreKit20JSPlayerBridgeObject\"16@0:8"
++ "Alert.AppLaunchRestricted.Message"
++ "Alert.AppLaunchRestricted.Title"
++ "AppStoreKit.JSPlayerBridgeObject"
++ "OfferButton.LargeContentTitle.Pause"
++ "OfferButton.LargeContentTitle.Redownload"
++ "OfferStateAction.actionReusePool"
++ "SystemAppIcon: Unknown icon name '"
++ "T@\"_TtC11AppStoreKit20JSPlayerBridgeObject\",N,R"
++ "T@\"_TtC11AppStoreKit20JSPlayerBridgeObject\",N,R,Vplayer"
++ "TB,N,VisUnderThirteen"
++ "_TtC11AppStoreKit19RestrictionsFetcher"
++ "_TtC11AppStoreKit20JSPlayerBridgeObject"
++ "_TtP11AppStoreKitP33_0ED8A32B2E54233BCBBC5B8CAA8D748227JSPlayerBridgeObjectExports_"
++ "adBackgroundPositionSupport"
++ "annotationSpacerSizes"
++ "anonymous-metrics-topics"
++ "app-icon-3d-media-artwork-protocol"
++ "arcadeSubscriptionStatus"
++ "artworkControllerBadge"
++ "buildVersion"
++ "contentRatingExceptionForBundleIdBox"
++ "fetchScreenTimeExceptions()"
++ "flag.2.crossed"
++ "gamePageAskForException"
++ "hasManagedAppleIDBox"
++ "isAccountModificationRestrictedBox"
++ "isAppInstallationAllowedBox"
++ "isAppUninstallationAllowedBox"
++ "isRunningInStoreDemoModeBox"
++ "localApproveRequestWithItemIdentifier:completion:"
++ "maximumAppContentRatingBox"
++ "multiplayerInviteLockup"
++ "notificationTokens"
++ "onboardingInstrumentation"
++ "overlayInviteToPlayUpdate"
++ "pause_resume_offer_button_label_2025E"
++ "performanceMetricsOverlay"
++ "person.3"
++ "player"
++ "setIsUnderThirteen:"
++ "setPerformanceMetricsOverlay:"
++ "setPlayerID:"
++ "show3DChicletsForFriendsArePlaying"
++ "show3DChicletsForGameHero"
++ "show3DChicletsForHomeHero"
++ "show3DChicletsForRoomHeaders"
++ "show3DChicletsForSmallBricks"
++ "systemImageNamed:"
++ "useArcadeOrangeAsAppKeyColor"
+- "\n    exceptionCount: "
+- "\n    hasManagedAppleID: "
+- "\n    isAccountModificationRestricted: "
+- "\n    isAppInstallationAllowed: "
+- "\n    isAppUninstallationAllowed: "
+- "\n    isRunningInStoreDemoMode: "
+- "APP_LAUNCH_RESTRICTED_ALERT_MESSAGE"
+- "APP_LAUNCH_RESTRICTED_ALERT_TITLE"
+- "AppStoreKit.Restrictions.queue"
+- "Did load JS with cache key: "
+- "Restrictions changed to:\n    maximumAppContentRating: "
+- "_contentRatingExceptionForBundleId"
+- "_hasManagedAppleID"
+- "_isAccountModificationRestricted"
+- "_isAppInstallationAllowed"
+- "_isAppUninstallationAllowed"
+- "_isRunningInStoreDemoMode"
+- "_maximumAppContentRating"
+- "arrow.up.forward.square.fill"
+- "bagForProfile:profileVersion:processInfo:"
+- "external_hard_drive_preference"
+- "pause_resume_offer_button_label_2024E"
+- "product_page_download_progress_label"
+- "review_composer_redesign"
+- "turnOn3DChicletsForHero"
+- "updateRestrictionsAndNotifyIfNeeded"
+
+```

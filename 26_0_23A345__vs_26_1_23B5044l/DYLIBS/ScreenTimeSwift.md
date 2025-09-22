@@ -1,0 +1,194 @@
+## ScreenTimeSwift
+
+> `/System/Library/PrivateFrameworks/ScreenTimeSwift.framework/ScreenTimeSwift`
+
+```diff
+
+-605.0.1.0.0
+-  __TEXT.__text: 0x39cb4
+-  __TEXT.__auth_stubs: 0x10f0
++605.1.8.0.0
++  __TEXT.__text: 0x387f0
++  __TEXT.__auth_stubs: 0x10b0
+   __TEXT.__objc_methlist: 0x200
+-  __TEXT.__const: 0x2a0c
++  __TEXT.__const: 0x29dc
+   __TEXT.__cstring: 0xbe7
+   __TEXT.__constg_swiftt: 0xd28
+-  __TEXT.__swift5_typeref: 0xec6
+-  __TEXT.__swift5_fieldmd: 0xa50
++  __TEXT.__swift5_typeref: 0xeb6
++  __TEXT.__swift5_fieldmd: 0xa44
+   __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__swift5_reflstr: 0x88b
++  __TEXT.__swift5_reflstr: 0x90b
+   __TEXT.__swift5_assocty: 0xd8
+-  __TEXT.__swift5_proto: 0x248
++  __TEXT.__swift5_proto: 0x244
+   __TEXT.__swift5_types: 0xd4
+   __TEXT.__swift5_capture: 0x21c
+   __TEXT.__oslogstring: 0x9f4
+   __TEXT.__swift5_protos: 0x1c
+-  __TEXT.__swift_as_entry: 0xb4
+-  __TEXT.__swift_as_ret: 0xc0
+-  __TEXT.__unwind_info: 0x1068
+-  __TEXT.__eh_frame: 0x2010
++  __TEXT.__swift_as_entry: 0xac
++  __TEXT.__swift_as_ret: 0xbc
++  __TEXT.__unwind_info: 0x1090
++  __TEXT.__eh_frame: 0x1eb0
+   __TEXT.__objc_classname: 0xa9
+-  __TEXT.__objc_methname: 0x2058
++  __TEXT.__objc_methname: 0x1fd1
+   __TEXT.__objc_methtype: 0x32d
+-  __DATA_CONST.__got: 0x3d0
+-  __DATA_CONST.__const: 0x248
++  __DATA_CONST.__got: 0x3a8
++  __DATA_CONST.__const: 0x250
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xa48
++  __DATA_CONST.__objc_selrefs: 0xa30
+   __DATA_CONST.__objc_protorefs: 0x30
+-  __AUTH_CONST.__auth_got: 0x878
+-  __AUTH_CONST.__const: 0x1ab0
++  __AUTH_CONST.__auth_got: 0x858
++  __AUTH_CONST.__const: 0x1a70
+   __AUTH_CONST.__objc_const: 0xed8
+   __AUTH.__objc_data: 0xf0
+   __AUTH.__data: 0xad0
+-  __DATA.__data: 0xd58
++  __DATA.__data: 0xd70
+   __DATA.__bss: 0x4520
+   __DATA.__common: 0x68
+   __DATA_DIRTY.__data: 0x388
+
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 05D67EA3-302D-3F0F-99EC-012109C601AB
+-  Functions: 1516
+-  Symbols:   753
+-  CStrings:  502
++  UUID: 19C1B7B6-25BF-3507-9F83-B866836A88C4
++  Functions: 1524
++  Symbols:   741
++  CStrings:  499
+ 
+Symbols:
++ _associated conformance 15ScreenTimeSwift21STExpressIntroductionO10STSettingsV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLOSHAASQ
++ _associated conformance 15ScreenTimeSwift21STExpressIntroductionO10STSettingsV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 15ScreenTimeSwift21STExpressIntroductionO10STSettingsV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15ScreenTimeSwift21STExpressIntroductionO12ResolvedUserV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLOSHAASQ
++ _associated conformance 15ScreenTimeSwift21STExpressIntroductionO12ResolvedUserV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 15ScreenTimeSwift21STExpressIntroductionO12ResolvedUserV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15ScreenTimeSwift21STExpressIntroductionO16PasscodeSettingsV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLOSHAASQ
++ _associated conformance 15ScreenTimeSwift21STExpressIntroductionO16PasscodeSettingsV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 15ScreenTimeSwift21STExpressIntroductionO16PasscodeSettingsV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.52
++ _block_copy_helper.57
++ _block_copy_helper.67
++ _block_copy_helper.72
++ _block_copy_helper.84
++ _block_copy_helper.87
++ _block_descriptor.54
++ _block_descriptor.59
++ _block_descriptor.69
++ _block_descriptor.74
++ _block_descriptor.86
++ _block_descriptor.89
++ _block_destroy_helper.53
++ _block_destroy_helper.58
++ _block_destroy_helper.68
++ _block_destroy_helper.73
++ _block_destroy_helper.85
++ _block_destroy_helper.88
++ _objectdestroy.50Tm
++ _symbolic $s15ScreenTimeSwift21STExpressIntroductionO15STSettingsStoreP
++ _symbolic _____ 15ScreenTimeSwift21STExpressIntroductionO10STSettingsV
++ _symbolic _____ 15ScreenTimeSwift21STExpressIntroductionO10STSettingsV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLO
++ _symbolic _____ 15ScreenTimeSwift21STExpressIntroductionO12ResolvedUserV
++ _symbolic _____ 15ScreenTimeSwift21STExpressIntroductionO12ResolvedUserV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLO
++ _symbolic _____ 15ScreenTimeSwift21STExpressIntroductionO16PasscodeSettingsV
++ _symbolic _____ 15ScreenTimeSwift21STExpressIntroductionO16PasscodeSettingsV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLO
++ _symbolic _____Sg 15ScreenTimeSwift21STExpressIntroductionO10STSettingsV
++ _symbolic _____Sg 15ScreenTimeSwift21STExpressIntroductionO12ResolvedUserV
++ _symbolic _____Sg 15ScreenTimeSwift21STExpressIntroductionO16PasscodeSettingsV
++ _symbolic ______p 15ScreenTimeSwift21STExpressIntroductionO15STSettingsStoreP
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15ScreenTimeSwift21STExpressIntroductionO10STSettingsV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15ScreenTimeSwift21STExpressIntroductionO12ResolvedUserV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15ScreenTimeSwift21STExpressIntroductionO16PasscodeSettingsV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15ScreenTimeSwift21STExpressIntroductionO10STSettingsV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15ScreenTimeSwift21STExpressIntroductionO12ResolvedUserV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15ScreenTimeSwift21STExpressIntroductionO16PasscodeSettingsV10CodingKeys33_A80EA97D08898C4463CD89A5CC70A558LLO
++ _type_layout_string 15ScreenTimeSwift21STExpressIntroductionO12ResolvedUserV
++ _type_layout_string 15ScreenTimeSwift21STExpressIntroductionO16PasscodeSettingsV
+- __swift_FORCE_LOAD_$_swiftCoreImage
+- __swift_FORCE_LOAD_$_swiftCoreImage_$_ScreenTimeSwift
+- _associated conformance 15ScreenTimeSwift21STExpressIntroductionO8InternalO12ResolvedUserV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLOSHAASQ
+- _associated conformance 15ScreenTimeSwift21STExpressIntroductionO8InternalO12ResolvedUserV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ScreenTimeSwift21STExpressIntroductionO8InternalO12ResolvedUserV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ScreenTimeSwift21STExpressIntroductionO8InternalO16PasscodeSettingsV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLOSHAASQ
+- _associated conformance 15ScreenTimeSwift21STExpressIntroductionO8InternalO16PasscodeSettingsV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ScreenTimeSwift21STExpressIntroductionO8InternalO16PasscodeSettingsV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ScreenTimeSwift21STExpressIntroductionO8InternalO8SettingsV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLOSHAASQ
+- _associated conformance 15ScreenTimeSwift21STExpressIntroductionO8InternalO8SettingsV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ScreenTimeSwift21STExpressIntroductionO8InternalO8SettingsV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.56
+- _block_copy_helper.61
+- _block_copy_helper.71
+- _block_copy_helper.76
+- _block_copy_helper.88
+- _block_copy_helper.91
+- _block_descriptor.58
+- _block_descriptor.63
+- _block_descriptor.73
+- _block_descriptor.78
+- _block_descriptor.90
+- _block_descriptor.93
+- _block_destroy_helper.57
+- _block_destroy_helper.62
+- _block_destroy_helper.72
+- _block_destroy_helper.77
+- _block_destroy_helper.89
+- _block_destroy_helper.92
+- _objectdestroy.54Tm
+- _symbolic $s15ScreenTimeSwift21STExpressIntroductionO8InternalO13SettingsStoreP
+- _symbolic _____ 15ScreenTimeSwift21STExpressIntroductionO8InternalO12ResolvedUserV
+- _symbolic _____ 15ScreenTimeSwift21STExpressIntroductionO8InternalO12ResolvedUserV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLO
+- _symbolic _____ 15ScreenTimeSwift21STExpressIntroductionO8InternalO16PasscodeSettingsV
+- _symbolic _____ 15ScreenTimeSwift21STExpressIntroductionO8InternalO16PasscodeSettingsV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLO
+- _symbolic _____ 15ScreenTimeSwift21STExpressIntroductionO8InternalO8SettingsV
+- _symbolic _____ 15ScreenTimeSwift21STExpressIntroductionO8InternalO8SettingsV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLO
+- _symbolic _____Sg 15ScreenTimeSwift21STExpressIntroductionO16SettingsDefaultsV
+- _symbolic _____Sg 15ScreenTimeSwift21STExpressIntroductionO8InternalO12ResolvedUserV
+- _symbolic _____Sg 15ScreenTimeSwift21STExpressIntroductionO8InternalO16PasscodeSettingsV
+- _symbolic _____Sg 15ScreenTimeSwift21STExpressIntroductionO8InternalO8SettingsV
+- _symbolic ______p 15ScreenTimeSwift21STExpressIntroductionO8InternalO13SettingsStoreP
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ScreenTimeSwift21STExpressIntroductionO8InternalO12ResolvedUserV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ScreenTimeSwift21STExpressIntroductionO8InternalO16PasscodeSettingsV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ScreenTimeSwift21STExpressIntroductionO8InternalO8SettingsV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ScreenTimeSwift21STExpressIntroductionO8InternalO12ResolvedUserV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ScreenTimeSwift21STExpressIntroductionO8InternalO16PasscodeSettingsV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ScreenTimeSwift21STExpressIntroductionO8InternalO8SettingsV10CodingKeys33_2CD373AAE7F6957855DBF0449104D3D8LLO
+- _type_layout_string 15ScreenTimeSwift21STExpressIntroductionO8InternalO12ResolvedUserV
+- _type_layout_string 15ScreenTimeSwift21STExpressIntroductionO8InternalO16PasscodeSettingsV
+CStrings:
++ "_restrictionsContainer"
++ "isCommunicationSafetyRestricted"
+- "applyIntroductionModel:forDSID:completionHandler:"
+- "enableRemoteManagementForDSID:error:"
+- "isCommunicationSafetyReceivingRestricted"
+- "isCommunicationSafetySendingRestricted"
+- "restrictionsContainer"
+
+```

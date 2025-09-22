@@ -1,0 +1,196 @@
+## SafariSharedUI
+
+> `/System/Library/PrivateFrameworks/SafariSharedUI.framework/SafariSharedUI`
+
+```diff
+
+-622.1.22.10.9
+-  __TEXT.__text: 0x1081e0
+-  __TEXT.__auth_stubs: 0x1f80
++622.2.5.10.3
++  __TEXT.__text: 0x108688
++  __TEXT.__auth_stubs: 0x1fa0
+   __TEXT.__delay_stubs: 0x58
+   __TEXT.__delay_helper: 0x110
+-  __TEXT.__objc_methlist: 0xc3e4
++  __TEXT.__objc_methlist: 0xc3ec
+   __TEXT.__const: 0x3178
+-  __TEXT.__oslogstring: 0x934d
+-  __TEXT.__cstring: 0x11196
+-  __TEXT.__gcc_except_tab: 0xebf4
++  __TEXT.__oslogstring: 0x933d
++  __TEXT.__cstring: 0x11206
++  __TEXT.__gcc_except_tab: 0xec90
+   __TEXT.__ustring: 0x2a20
+   __TEXT.__dlopen_cstrs: 0x3b5
+   __TEXT.__constg_swiftt: 0x24c
+-  __TEXT.__swift5_typeref: 0xeaa
++  __TEXT.__swift5_typeref: 0xfa8
+   __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_reflstr: 0xe5
+-  __TEXT.__swift5_fieldmd: 0xd0
++  __TEXT.__swift5_reflstr: 0x105
++  __TEXT.__swift5_fieldmd: 0xdc
+   __TEXT.__swift5_assocty: 0x78
+   __TEXT.__swift5_proto: 0x2c
+   __TEXT.__swift5_types: 0x1c
+   __TEXT.__swift5_capture: 0x238
+   __TEXT.__swift_as_entry: 0x3c
+   __TEXT.__swift_as_ret: 0x4c
+-  __TEXT.__unwind_info: 0x6d08
++  __TEXT.__unwind_info: 0x6d28
+   __TEXT.__eh_frame: 0xac0
+   __TEXT.__objc_classname: 0x1f00
+-  __TEXT.__objc_methname: 0x2c2e2
++  __TEXT.__objc_methname: 0x2c312
+   __TEXT.__objc_methtype: 0x5a6d
+-  __TEXT.__objc_stubs: 0x1a440
+-  __DATA_CONST.__got: 0x1508
+-  __DATA_CONST.__const: 0x6e88
++  __TEXT.__objc_stubs: 0x1a480
++  __DATA_CONST.__got: 0x1510
++  __DATA_CONST.__const: 0x6eb0
+   __DATA_CONST.__objc_classlist: 0x640
+   __DATA_CONST.__objc_catlist: 0x148
+   __DATA_CONST.__objc_protolist: 0x208
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x89d0
++  __DATA_CONST.__objc_selrefs: 0x89d8
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0x490
+   __DATA_CONST.__objc_arraydata: 0x19f0
+-  __AUTH_CONST.__auth_got: 0xfe8
+-  __AUTH_CONST.__const: 0x2478
+-  __AUTH_CONST.__cfstring: 0xffa0
+-  __AUTH_CONST.__objc_const: 0x15f38
++  __AUTH_CONST.__auth_got: 0xff8
++  __AUTH_CONST.__const: 0x2480
++  __AUTH_CONST.__cfstring: 0x10000
++  __AUTH_CONST.__objc_const: 0x15f00
+   __AUTH_CONST.__objc_intobj: 0x690
+   __AUTH_CONST.__objc_doubleobj: 0x50
+   __AUTH_CONST.__objc_arrayobj: 0x720
+   __AUTH_CONST.__objc_dictobj: 0x1e0
+   __AUTH.__objc_data: 0x3af0
+   __AUTH.__data: 0x388
+-  __DATA.__objc_ivar: 0xf74
+-  __DATA.__data: 0x1c94
++  __DATA.__objc_ivar: 0xf6c
++  __DATA.__data: 0x1cb4
+   __DATA.__bss: 0xe58
+   __DATA.__common: 0x50
+   __DATA_DIRTY.__objc_data: 0x370
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 21BAF8B8-51B3-3F94-BEF8-691B2E630B5F
+-  Functions: 6126
+-  Symbols:   21567
+-  CStrings:  11880
++  UUID: 07633571-8277-3772-9288-F27BA509B982
++  Functions: 6131
++  Symbols:   21577
++  CStrings:  11884
+ 
+Symbols:
++ -[WBSPrivacyReportData _getRecentFirstPartiesFromThirdParty:fromStartDate:toEndDate:]
++ -[WBSPrivacyReportData _ingestPreventedThirdParties:blockedThirdParties:fromStartDate:toEndDate:completionHandler:]
++ _WBSUIGreaterThanOrEqualWithEpsilon
++ _WBSUIStringFromRectHorizontalBounds
++ _WBSUIStringFromRectVerticalBounds
++ _WBSUIUninterpolate
++ ___115-[WBSPrivacyReportData _ingestPreventedThirdParties:blockedThirdParties:fromStartDate:toEndDate:completionHandler:]_block_invoke
++ ___115-[WBSPrivacyReportData _ingestPreventedThirdParties:blockedThirdParties:fromStartDate:toEndDate:completionHandler:]_block_invoke.71
++ ___115-[WBSPrivacyReportData _ingestPreventedThirdParties:blockedThirdParties:fromStartDate:toEndDate:completionHandler:]_block_invoke.77
++ ___115-[WBSPrivacyReportData _ingestPreventedThirdParties:blockedThirdParties:fromStartDate:toEndDate:completionHandler:]_block_invoke_2
++ ___85-[WBSPrivacyReportData _getRecentFirstPartiesFromThirdParty:fromStartDate:toEndDate:]_block_invoke
++ ___85-[WBSPrivacyReportData _getRecentFirstPartiesFromThirdParty:fromStartDate:toEndDate:]_block_invoke_2
++ ___block_descriptor_48_e8_32s40r_e47_16?0"WBSContentBlockerStatisticsFirstParty"8lr40l8s32l8
++ ___block_descriptor_72_e8_32s40s48s56bs64r_e17_v16?0"NSArray"8ls32l8s40l8s48l8r64l8s56l8
++ ___block_descriptor_88_e8_32s40s48s56s64s72bs80r_e5_v8?0lr80l8s32l8s40l8s48l8s56l8s64l8s72l8
++ ___block_descriptor_88_e8_32s40s48s56s64s72s80bs_e22_v16?0"NSDictionary"8ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
++ ___block_descriptor_96_e8_32s40s48s56s64s72bs80r88r_e22_v16?0"NSDictionary"8ls32l8s40l8r80l8s48l8s56l8s64l8r88l8s72l8
++ ___block_literal_global.264
++ ___block_literal_global.309
++ ___block_literal_global.313
++ ___block_literal_global.330
++ ___block_literal_global.333
++ ___block_literal_global.337
++ ___block_literal_global.341
++ ___block_literal_global.373
++ ___block_literal_global.702
++ ___block_literal_global.705
++ ___swift_memcpy96_8
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA14GeometryReaderVyACyAA6VStackVyAA9TupleViewVyAA6SpacerV_ACyAA6HStackVyAA7ForEachVySnySiGSiACyACyACyACyACyACyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameQ0VGAA12_ScaleEffectVGAZGAA21_TraitWritingModifierVyAA06ZIndexU3KeyVGGAA07_OffsetT0VGAA07_ShadowT0VGAA010_AnimationW0VySbGGAA016_ForegroundStyleW0VyAA5ColorVGGGGAA08_PaddingQ0VGAKtGGAWGGAA05_TaskW0VGAA0I0HPA31_AAA35_HPyHC_A33_AA0iW0HPyHCHC.6
++ _objc_msgSend$_getRecentFirstPartiesFromThirdParty:fromStartDate:toEndDate:
++ _objc_msgSend$_ingestPreventedThirdParties:blockedThirdParties:fromStartDate:toEndDate:completionHandler:
++ _objc_msgSend$createWebExtensionError:
++ _objc_msgSend$createWebExtensionError:customLocalizedDescription:
++ _symbolic _____ 7SwiftUI5ColorV
++ _symbolic ___________y_____y_____ySnySiGSiAByAByAByAByAByAByAByAByABy__________G_____G_____GAKG_____y_____GG_____G_____G_____ySbGG_____y_____GGGG_____GAAt 7SwiftUI6SpacerV AA15ModifiedContentV AA6HStackV AA7ForEachV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexP3KeyV AA07_OffsetO0V AA07_ShadowO0V AA010_AnimationR0V AA016_ForegroundStyleR0V AA5ColorV AA08_PaddingL0V
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GAGG_____y_____GG_____G_____G_____ySbGG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexL3KeyV AA07_OffsetK0V AA07_ShadowK0V AA010_AnimationN0V AA016_ForegroundStyleN0V AA5ColorV
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y___________ySnySiGSi_____yAEyAEyAEyAEyAEyAEyAEyAEy__________G_____G_____GAKG_____y_____GG_____G_____G_____ySbGG_____y_____GGGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA7ForEachV AA15ModifiedContentV AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexR3KeyV AA07_OffsetQ0V AA07_ShadowQ0V AA010_AnimationT0V AA016_ForegroundStyleT0V AA5ColorV
++ _symbolic _____y___________y___________y_____y_____ySnySiGSiAEyAEyAEyAEyAEyAEyAEyAEyAEy__________G_____G_____GANG_____y_____GG_____G_____G_____ySbGG_____y_____GGGG_____GADtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA6SpacerV AA15ModifiedContentV AA6HStackV AA7ForEachV AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexU3KeyV AA07_OffsetT0V AA07_ShadowT0V AA010_AnimationW0V AA016_ForegroundStyleW0V AA5ColorV AA08_PaddingG0V
++ _symbolic _____y_____yAAy_____y_____y______AAy_____y_____ySnySiGSiAAyAAyAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GANG_____y_____GG_____G_____G_____ySbGG_____y_____GGGG_____GAEtGGALGG_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA7ForEachV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameQ0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexU3KeyV AA07_OffsetT0V AA07_ShadowT0V AA010_AnimationW0V AA016_ForegroundStyleW0V AA5ColorV AA08_PaddingQ0V AA05_TaskW0V
++ _symbolic _____y_____ySnySiGSi_____yADyADyADyADyADyADyADyADy__________G_____G_____GAJG_____y_____GG_____G_____G_____ySbGG_____y_____GGGG 7SwiftUI6HStackV AA7ForEachV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexO3KeyV AA07_OffsetN0V AA07_ShadowN0V AA010_AnimationQ0V AA016_ForegroundStyleQ0V AA5ColorV
++ _symbolic _____y_____y_____ySnySiGSiAAyAAyAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GAJG_____y_____GG_____G_____G_____ySbGG_____y_____GGGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexO3KeyV AA07_OffsetN0V AA07_ShadowN0V AA010_AnimationQ0V AA016_ForegroundStyleQ0V AA5ColorV AA08_PaddingK0V
++ _symbolic _____y_____y_____y______AAy_____y_____ySnySiGSiAAyAAyAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GAMG_____y_____GG_____G_____G_____ySbGG_____y_____GGGG_____GADtGGAKG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA7ForEachV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameO0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexS3KeyV AA07_OffsetR0V AA07_ShadowR0V AA010_AnimationU0V AA016_ForegroundStyleU0V AA5ColorV AA08_PaddingO0V
++ _symbolic _____y_____y_____y_____y______ABy_____y_____ySnySiGSiAByAByAByAByAByAByAByAByABy__________G_____G_____GANG_____y_____GG_____G_____G_____ySbGG_____y_____GGGG_____GAEtGGALGG 7SwiftUI14GeometryReaderV AA15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA7ForEachV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameQ0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexU3KeyV AA07_OffsetT0V AA07_ShadowT0V AA010_AnimationW0V AA016_ForegroundStyleW0V AA5ColorV AA08_PaddingQ0V
+- -[WBSPrivacyReportData _ingestPreventedThirdParties:blockedThirdParties:completionHandler:]
+- -[WBSPrivacyReportData getRecentFirstPartiesFromThirdParty:]
+- _OBJC_IVAR_$_WBSPrivacyReportData._dataWindowEndDate
+- _OBJC_IVAR_$_WBSPrivacyReportData._dataWindowStartDate
+- ___60-[WBSPrivacyReportData getRecentFirstPartiesFromThirdParty:]_block_invoke
+- ___60-[WBSPrivacyReportData getRecentFirstPartiesFromThirdParty:]_block_invoke_2
+- ___91-[WBSPrivacyReportData _ingestPreventedThirdParties:blockedThirdParties:completionHandler:]_block_invoke
+- ___91-[WBSPrivacyReportData _ingestPreventedThirdParties:blockedThirdParties:completionHandler:]_block_invoke.71
+- ___91-[WBSPrivacyReportData _ingestPreventedThirdParties:blockedThirdParties:completionHandler:]_block_invoke.77
+- ___91-[WBSPrivacyReportData _ingestPreventedThirdParties:blockedThirdParties:completionHandler:]_block_invoke_2
+- ___block_descriptor_40_e8_32s_e47_16?0"WBSContentBlockerStatisticsFirstParty"8ls32l8
+- ___block_descriptor_72_e8_32s40s48s56bs64r_e5_v8?0lr64l8s32l8s40l8s48l8s56l8
+- ___block_descriptor_72_e8_32s40s48s56s64bs_e22_v16?0"NSDictionary"8ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_80_e8_32s40s48s56s64bs72r_e22_v16?0"NSDictionary"8ls32l8s40l8s48l8s56l8r72l8s64l8
+- ___block_literal_global.265
+- ___block_literal_global.308
+- ___block_literal_global.312
+- ___block_literal_global.329
+- ___block_literal_global.332
+- ___block_literal_global.336
+- ___block_literal_global.340
+- ___block_literal_global.372
+- ___block_literal_global.698
+- ___block_literal_global.701
+- ___swift_memcpy88_8
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA14GeometryReaderVyACyAA6VStackVyAA9TupleViewVyAA6SpacerV_ACyAA6HStackVyAA7ForEachVySnySiGSiACyACyACyACyACyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameQ0VGAA12_ScaleEffectVGAZGAA21_TraitWritingModifierVyAA06ZIndexU3KeyVGGAA07_OffsetT0VGAA07_ShadowT0VGAA010_AnimationW0VySbGGGGAA08_PaddingQ0VGAKtGGAWGGAA05_TaskW0VGAA0I0HPA25_AAA29_HPyHC_A27_AA0iW0HPyHCHC.6
+- _objc_msgSend$_ingestPreventedThirdParties:blockedThirdParties:completionHandler:
+- _objc_msgSend$getRecentFirstPartiesFromThirdParty:
+- _symbolic ___________y_____y_____ySnySiGSiAByAByAByAByAByAByAByABy__________G_____G_____GAKG_____y_____GG_____G_____G_____ySbGGGG_____GAAt 7SwiftUI6SpacerV AA15ModifiedContentV AA6HStackV AA7ForEachV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexP3KeyV AA07_OffsetO0V AA07_ShadowO0V AA010_AnimationR0V AA08_PaddingL0V
+- _symbolic _____y___________ySnySiGSi_____yAEyAEyAEyAEyAEyAEyAEy__________G_____G_____GAKG_____y_____GG_____G_____G_____ySbGGGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA7ForEachV AA15ModifiedContentV AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexR3KeyV AA07_OffsetQ0V AA07_ShadowQ0V AA010_AnimationT0V
+- _symbolic _____y___________y___________y_____y_____ySnySiGSiAEyAEyAEyAEyAEyAEyAEyAEy__________G_____G_____GANG_____y_____GG_____G_____G_____ySbGGGG_____GADtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA6SpacerV AA15ModifiedContentV AA6HStackV AA7ForEachV AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexU3KeyV AA07_OffsetT0V AA07_ShadowT0V AA010_AnimationW0V AA08_PaddingG0V
+- _symbolic _____y_____yAAy_____y_____y______AAy_____y_____ySnySiGSiAAyAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GANG_____y_____GG_____G_____G_____ySbGGGG_____GAEtGGALGG_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA7ForEachV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameQ0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexU3KeyV AA07_OffsetT0V AA07_ShadowT0V AA010_AnimationW0V AA08_PaddingQ0V AA05_TaskW0V
+- _symbolic _____y_____ySnySiGSi_____yADyADyADyADyADyADyADy__________G_____G_____GAJG_____y_____GG_____G_____G_____ySbGGGG 7SwiftUI6HStackV AA7ForEachV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexO3KeyV AA07_OffsetN0V AA07_ShadowN0V AA010_AnimationQ0V
+- _symbolic _____y_____y_____ySnySiGSiAAyAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GAJG_____y_____GG_____G_____G_____ySbGGGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexO3KeyV AA07_OffsetN0V AA07_ShadowN0V AA010_AnimationQ0V AA08_PaddingK0V
+- _symbolic _____y_____y_____y______AAy_____y_____ySnySiGSiAAyAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GAMG_____y_____GG_____G_____G_____ySbGGGG_____GADtGGAKG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA7ForEachV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameO0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexS3KeyV AA07_OffsetR0V AA07_ShadowR0V AA010_AnimationU0V AA08_PaddingO0V
+- _symbolic _____y_____y_____y_____y______ABy_____y_____ySnySiGSiAByAByAByAByAByAByAByABy__________G_____G_____GANG_____y_____GG_____G_____G_____ySbGGGG_____GAEtGGALGG 7SwiftUI14GeometryReaderV AA15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA7ForEachV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameQ0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexU3KeyV AA07_OffsetT0V AA07_ShadowT0V AA010_AnimationW0V AA08_PaddingQ0V
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~B9scugCJedSq4wIRy8leNmybsCsP0v6woKwVC0Q/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/HashTable.h"
++ "Loading resource load statistics summary from %{public}@ to %{public}@"
++ "This extension requires Safari %@ or newer."
++ "This extension requires an older version of Safari."
++ "_getRecentFirstPartiesFromThirdParty:fromStartDate:toEndDate:"
++ "_ingestPreventedThirdParties:blockedThirdParties:fromStartDate:toEndDate:completionHandler:"
++ "tabGroupManagerDidDeletedAllLocalTabs:"
++ "{%.*g, %.*g}"
++ "\xf01"
+- "/AppleInternal/Library/BuildRoots/4~B8YQugCHVXfHBJww0vQ6JX2ILK9igER4n8kKnBg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.Internal.sdk/usr/local/include/wtf/HashTable.h"
+- "Loading data from %{public}@ to %{public}@"
+- "Loading resource load statistics summary"
+- "_dataWindowEndDate"
+- "_dataWindowStartDate"
+- "_ingestPreventedThirdParties:blockedThirdParties:completionHandler:"
+- "getRecentFirstPartiesFromThirdParty:"
+- "\xf0Q"
+
+```

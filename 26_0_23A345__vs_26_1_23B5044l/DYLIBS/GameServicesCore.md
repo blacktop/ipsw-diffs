@@ -1,0 +1,403 @@
+## GameServicesCore
+
+> `/System/Library/PrivateFrameworks/GameServicesCore.framework/GameServicesCore`
+
+```diff
+
+-820.0.79.2.3
+-  __TEXT.__text: 0x1f88cc
+-  __TEXT.__auth_stubs: 0x5170
+-  __TEXT.__const: 0x17840
+-  __TEXT.__swift5_typeref: 0x8078
+-  __TEXT.__swift_as_entry: 0xc48
+-  __TEXT.__swift_as_ret: 0xf94
+-  __TEXT.__cstring: 0x3d5f
+-  __TEXT.__oslogstring: 0x1c27
+-  __TEXT.__swift5_capture: 0x23c
+-  __TEXT.__constg_swiftt: 0x374c
+-  __TEXT.__swift5_reflstr: 0x26e6
+-  __TEXT.__swift5_fieldmd: 0x3a0c
+-  __TEXT.__swift5_protos: 0x5c
+-  __TEXT.__swift5_proto: 0xed8
+-  __TEXT.__swift5_types: 0x3c4
+-  __TEXT.__swift5_assocty: 0xa78
+-  __TEXT.__swift5_acfuncs: 0xb18
++820.1.4.0.0
++  __TEXT.__text: 0x22754c
++  __TEXT.__auth_stubs: 0x56c0
++  __TEXT.__const: 0x19be0
++  __TEXT.__swift5_typeref: 0x8d0e
++  __TEXT.__swift_as_entry: 0xd7c
++  __TEXT.__swift_as_ret: 0x10fc
++  __TEXT.__cstring: 0x3eff
++  __TEXT.__oslogstring: 0x1da7
++  __TEXT.__swift5_capture: 0x3b4
++  __TEXT.__constg_swiftt: 0x3fcc
++  __TEXT.__swift5_reflstr: 0x2b66
++  __TEXT.__swift5_fieldmd: 0x40a8
++  __TEXT.__swift5_protos: 0x90
++  __TEXT.__swift5_proto: 0x1034
++  __TEXT.__swift5_types: 0x444
++  __TEXT.__swift5_assocty: 0xbb8
++  __TEXT.__swift5_acfuncs: 0xbb8
+   __TEXT.__swift5_builtin: 0x8c
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x9cf0
+-  __TEXT.__eh_frame: 0x1cd38
+-  __TEXT.__objc_methname: 0x3a9
+-  __DATA_CONST.__got: 0x12f8
+-  __DATA_CONST.__const: 0x1d8
+-  __DATA_CONST.__objc_classlist: 0x128
++  __TEXT.__unwind_info: 0xb0c8
++  __TEXT.__eh_frame: 0x1fd28
++  __TEXT.__objc_methname: 0x4fe
++  __DATA_CONST.__got: 0x13e8
++  __DATA_CONST.__const: 0x1e0
++  __DATA_CONST.__objc_classlist: 0x140
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x170
+-  __AUTH_CONST.__auth_got: 0x28b8
+-  __AUTH_CONST.__const: 0x7bd8
+-  __AUTH_CONST.__objc_const: 0x2d40
+-  __AUTH.__objc_data: 0x690
+-  __AUTH.__data: 0x2540
+-  __DATA.__data: 0x3b90
+-  __DATA.__common: 0xe0
+-  __DATA.__bss: 0x1c008
++  __DATA_CONST.__objc_selrefs: 0x210
++  __AUTH_CONST.__auth_got: 0x2b60
++  __AUTH_CONST.__const: 0x8ba0
++  __AUTH_CONST.__objc_const: 0x2f98
++  __AUTH.__objc_data: 0x6e0
++  __AUTH.__data: 0x2a98
++  __DATA.__data: 0x4050
++  __DATA.__common: 0xf0
++  __DATA.__bss: 0x1ec28
+   __DATA_DIRTY.__objc_data: 0x1e0
+-  __DATA_DIRTY.__data: 0x1298
+-  __DATA_DIRTY.__bss: 0x1920
++  __DATA_DIRTY.__data: 0x12a0
++  __DATA_DIRTY.__bss: 0x1940
+   __DATA_DIRTY.__common: 0xc8
++  - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/SwiftData.framework/SwiftData
++  - /System/Library/PrivateFrameworks/AppStoreDaemon.framework/AppStoreDaemon
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/GameCenterServerClient.framework/GameCenterServerClient
+   - /System/Library/PrivateFrameworks/GameServices.framework/GameServices
+
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftDistributed.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 09C7D687-0917-398D-99A2-46BF40CA39BD
+-  Functions: 12262
+-  Symbols:   12098
+-  CStrings:  625
++  UUID: 44D242CC-4022-3693-A6C7-E4DBCDC8161B
++  Functions: 13561
++  Symbols:   13207
++  CStrings:  665
+ 
+Symbols:
++ _AMSAccountMediaTypeProduction
++ _OBJC_CLASS_$_ACAccountStore
++ _OBJC_CLASS_$_ASDPurchaseHistory
++ _OBJC_CLASS_$_ASDPurchaseHistoryApp
++ _OBJC_CLASS_$_ASDPurchaseHistoryQuery
++ _OUTLINED_FUNCTION_616
++ _OUTLINED_FUNCTION_617
++ __DATA__TtC16GameServicesCore18GameLibraryService
++ __DATA__TtC16GameServicesCore26AppPurchaseHistoryProvider
++ __DATA__TtC16GameServicesCore30GameRestrictionsPolicyProvider
++ __IVARS__TtC16GameServicesCore18GameLibraryService
++ __IVARS__TtC16GameServicesCore26AppPurchaseHistoryProvider
++ __METACLASS_DATA__TtC16GameServicesCore18GameLibraryService
++ __METACLASS_DATA__TtC16GameServicesCore26AppPurchaseHistoryProvider
++ __METACLASS_DATA__TtC16GameServicesCore30GameRestrictionsPolicyProvider
++ ___swift_memcpy8_8
++ __os_signpost_emit_with_name_impl
++ _associated conformance 16GameServicesCore015PurchaseHistoryA0V10CodingKeys024_6CF0FD63E4F3DE8D9F1FEB5J7F7D2F56LLOSHAASQ
++ _associated conformance 16GameServicesCore015PurchaseHistoryA0V10CodingKeys024_6CF0FD63E4F3DE8D9F1FEB5J7F7D2F56LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 16GameServicesCore015PurchaseHistoryA0V10CodingKeys024_6CF0FD63E4F3DE8D9F1FEB5J7F7D2F56LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16GameServicesCore0A14LibraryServiceC0aB0011DistributedadE8ProtocolAA0F00F5Actor
++ _associated conformance 16GameServicesCore0A14LibraryServiceC0aB0011DistributedadE8ProtocolAaD0adeG0
++ _associated conformance 16GameServicesCore0A14LibraryServiceC11Distributed0F5ActorAA0G6SystemAdEP_AD0fgH0
++ _associated conformance 16GameServicesCore0A14LibraryServiceC11Distributed0F5ActorAASH
++ _associated conformance 16GameServicesCore0A14LibraryServiceC11Distributed0F5ActorAAs12Identifiable
++ _associated conformance 16GameServicesCore0A14LibraryServiceCSHAASQ
++ _associated conformance 16GameServicesCore0A14LibraryServiceCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 16GameServicesCore0A18RestrictionsPolicyV10CodingKeys33_12E8788FD2504E28D96AFE283F05EDADLLOSHAASQ
++ _associated conformance 16GameServicesCore0A18RestrictionsPolicyV10CodingKeys33_12E8788FD2504E28D96AFE283F05EDADLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 16GameServicesCore0A18RestrictionsPolicyV10CodingKeys33_12E8788FD2504E28D96AFE283F05EDADLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16GameServicesCore0A31LibraryDataFetchingRequirementsVs10SetAlgebraAASQ
++ _associated conformance 16GameServicesCore0A31LibraryDataFetchingRequirementsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 16GameServicesCore0A31LibraryDataFetchingRequirementsVs9OptionSetAASY
++ _associated conformance 16GameServicesCore0A31LibraryDataFetchingRequirementsVs9OptionSetAAs0I7Algebra
++ _associated conformance 16GameServicesCore14AnySortableKeyO10CodingKeys33_AE6147B80275941583AC3505E7DB44E8LLOSHAASQ
++ _associated conformance 16GameServicesCore14AnySortableKeyO10CodingKeys33_AE6147B80275941583AC3505E7DB44E8LLOs0gF0AAs23CustomStringConvertible
++ _associated conformance 16GameServicesCore14AnySortableKeyO10CodingKeys33_AE6147B80275941583AC3505E7DB44E8LLOs0gF0AAs28CustomDebugStringConvertible
++ _associated conformance 16GameServicesCore14AnySortableKeyO14DateCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLOSHAASQ
++ _associated conformance 16GameServicesCore14AnySortableKeyO14DateCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLOs0hF0AAs23CustomStringConvertible
++ _associated conformance 16GameServicesCore14AnySortableKeyO14DateCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLOs0hF0AAs28CustomDebugStringConvertible
++ _associated conformance 16GameServicesCore14AnySortableKeyO14NoneCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLOs0hF0AAs23CustomStringConvertible
++ _associated conformance 16GameServicesCore14AnySortableKeyO14NoneCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLOs0hF0AAs28CustomDebugStringConvertible
++ _associated conformance 16GameServicesCore14AnySortableKeyO16StringCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLOSHAASQ
++ _associated conformance 16GameServicesCore14AnySortableKeyO16StringCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLOs0hF0AAs011CustomDebugG11Convertible
++ _associated conformance 16GameServicesCore14AnySortableKeyO16StringCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLOs0hF0AAs06CustomG11Convertible
++ _associated conformance 16GameServicesCore14AnySortableKeyOSLAASQ
++ _associated conformance 16GameServicesCore14AppMetadataTTLOSHAASQ
++ _associated conformance 16GameServicesCore15ApplicationTypeOSHAASQ
++ _associated conformance 16GameServicesCore19MetadataEligibilityVs10SetAlgebraAASQ
++ _associated conformance 16GameServicesCore19MetadataEligibilityVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 16GameServicesCore19MetadataEligibilityVs9OptionSetAASY
++ _associated conformance 16GameServicesCore19MetadataEligibilityVs9OptionSetAAs0G7Algebra
++ _associated conformance 16GameServicesCore19PurchaseHistoryDataV10CodingKeys024_6CF0FD63E4F3DE8D9F1FEB5K7F7D2F56LLOSHAASQ
++ _associated conformance 16GameServicesCore19PurchaseHistoryDataV10CodingKeys024_6CF0FD63E4F3DE8D9F1FEB5K7F7D2F56LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 16GameServicesCore19PurchaseHistoryDataV10CodingKeys024_6CF0FD63E4F3DE8D9F1FEB5K7F7D2F56LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16GameServicesCore22AppMetadataEnvironmentOSHAASQ
++ _associated conformance 16GameServicesCore23AnySortableKeyValuePairV10CodingKeys33_AE6147B80275941583AC3505E7DB44E8LLOyx_GSHAASQ
++ _associated conformance 16GameServicesCore23AnySortableKeyValuePairV10CodingKeys33_AE6147B80275941583AC3505E7DB44E8LLOyx_Gs0iF0AAs23CustomStringConvertible
++ _associated conformance 16GameServicesCore23AnySortableKeyValuePairV10CodingKeys33_AE6147B80275941583AC3505E7DB44E8LLOyx_Gs0iF0AAs28CustomDebugStringConvertible
++ _associated conformance 16GameServicesCore26AppPurchaseHistoryProviderC0defG5ErrorOSHAASQ
++ _get_witness_table SHRzlSSSHHPyHC.339
++ _get_witness_table SHRzlSbSHHPyHC.366
++ _get_witness_table SlRzlSaySSGSlHPyHC.342
++ _objectdestroy.5Tm
++ _objectdestroy.63Tm
++ _swift_asyncLet_begin
++ _swift_asyncLet_finish
++ _swift_asyncLet_get_throwing
++ _swift_checkMetadataState
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_dynamicCastClass
++ _swift_getExistentialTypeMetadata
++ _swift_unknownObjectRetain_n
++ _symbolic $s16GameServicesCore0A15SummaryProtocolP
++ _symbolic $s16GameServicesCore0A16InternalProtocolP
++ _symbolic $s16GameServicesCore0A17PolicyAppProtocolP
++ _symbolic $s16GameServicesCore0A20ListMetadataProtocolP
++ _symbolic $s16GameServicesCore0A25SubLibraryServiceProtocolP
++ _symbolic $s16GameServicesCore0A28ListMetadataProviderProtocolP
++ _symbolic $s16GameServicesCore0A28RestrictionsProviderProtocolP
++ _symbolic $s16GameServicesCore17ScopedIDsProtocolP
++ _symbolic $s16GameServicesCore19AppMetadataProtocolP
++ _symbolic $s16GameServicesCore20FriendServiceSupportP
++ _symbolic $s16GameServicesCore21ProfileServiceSupportP
++ _symbolic $s16GameServicesCore23InstallMetadataProtocolP
++ _symbolic $s16GameServicesCore31PurchaseHistoryProviderProtocolP
++ _symbolic $ss10SetAlgebraP
++ _symbolic $ss25ExpressibleByArrayLiteralP
++ _symbolic $ss9OptionSetP
++ _symbolic SDySS_____G 16GameServicesCore015PurchaseHistoryA0V
++ _symbolic SDySS_____G 16GameServicesCore0A18RestrictionsPolicyV
++ _symbolic SDySS_____GSg 10Foundation4DateV
++ _symbolic SDySS_____GSg______pIegHozo_ 10Foundation4DateV s5ErrorP
++ _symbolic SDySS_____G______pIegHozo_ 16GameServicesCore0A18RestrictionsPolicyV s5ErrorP
++ _symbolic SDySS______pG 16GameServicesCore0A16InternalProtocolP
++ _symbolic SDySS______pG 16GameServicesCore0A17PolicyAppProtocolP
++ _symbolic SDySS______pG 16GameServicesCore19AppMetadataProtocolP
++ _symbolic SDySS______pGSg 16GameServicesCore0A15SummaryProtocolP
++ _symbolic SDySS______pGSg 16GameServicesCore0A16InternalProtocolP
++ _symbolic SDySS______pG______pIegHozo_ 16GameServicesCore0A16InternalProtocolP s5ErrorP
++ _symbolic SDySS______pG______pIegHozo_ 16GameServicesCore19AppMetadataProtocolP s5ErrorP
++ _symbolic SDySS_____y______pGG 12GameServices3RefV AA0A0P
++ _symbolic SS3key______5valuet 16GameServicesCore0A15LibraryMetadataV
++ _symbolic SS3key_______p5valuet 16GameServicesCore0A17PolicyAppProtocolP
++ _symbolic SS3key_______p5valuet 16GameServicesCore19AppMetadataProtocolP
++ _symbolic SS3key______y______pG5valuet 12GameServices3RefV AA0A0P
++ _symbolic SS3key______y______pG5valuetSg 12GameServices3RefV AA0A0P
++ _symbolic SS5value_t
++ _symbolic SS______y______pGt 12GameServices3RefV AA0A0P
++ _symbolic SS______y______pGtSg 12GameServices3RefV AA0A0P
++ _symbolic SaySo21ASDPurchaseHistoryAppCG
++ _symbolic Say_____G 12GameServices0A11DescriptionV12CapabilitiesV
++ _symbolic Say_____G 12GameServices0A11DescriptionV19CompatiblePlatformsV
++ _symbolic Say_____G 16GameServicesCore0A10IdentifierV
++ _symbolic Say_____G 16GameServicesCore0A31LibraryDataFetchingRequirementsV
++ _symbolic Say_____SgG 12GameServices0A11DescriptionV
++ _symbolic Say_____y_____GG 16GameServicesCore23AnySortableKeyValuePairV 0aB00A7HistoryV
++ _symbolic Say_____y______pGG_____Say_____SgG______pIetMHgTgozo_ 12GameServices3RefV AA0A0P 0aB4Core0A14LibraryServiceC AA0A11DescriptionV s5ErrorP
++ _symbolic Say_____y_____y______pGGG 16GameServicesCore23AnySortableKeyValuePairV 0aB03RefV AD0A0P
++ _symbolic Sb8inserted______17memberAfterInsertt 12GameServices0A11DescriptionV12CapabilitiesV
++ _symbolic ScCySaySo21ASDPurchaseHistoryAppCG______pG s5ErrorP
++ _symbolic So18ASDPurchaseHistoryC
++ _symbolic _____ 16GameServicesCore015PurchaseHistoryA0V
++ _symbolic _____ 16GameServicesCore015PurchaseHistoryA0V10CodingKeys024_6CF0FD63E4F3DE8D9F1FEB5J7F7D2F56LLO
++ _symbolic _____ 16GameServicesCore0A10IdentifierV
++ _symbolic _____ 16GameServicesCore0A14LibraryServiceC
++ _symbolic _____ 16GameServicesCore0A14PolicyProviderV
++ _symbolic _____ 16GameServicesCore0A14PolicyProviderV4DataV
++ _symbolic _____ 16GameServicesCore0A15LibraryMetadataV
++ _symbolic _____ 16GameServicesCore0A18RestrictionsPolicyV
++ _symbolic _____ 16GameServicesCore0A18RestrictionsPolicyV10CodingKeys33_12E8788FD2504E28D96AFE283F05EDADLLO
++ _symbolic _____ 16GameServicesCore0A19ListMetadataRequestV
++ _symbolic _____ 16GameServicesCore0A20ListMetadataProviderV
++ _symbolic _____ 16GameServicesCore0A20ListMetadataProviderV0A10CenterData33_52E53FDD248DC3CFEE02A413DB14190FLLV
++ _symbolic _____ 16GameServicesCore0A23LibraryAggregateServiceV
++ _symbolic _____ 16GameServicesCore0A26RestrictionsPolicyProviderC
++ _symbolic _____ 16GameServicesCore0A31LibraryDataFetchingRequirementsV
++ _symbolic _____ 16GameServicesCore12QueryableIDsV
++ _symbolic _____ 16GameServicesCore14AnySortableKeyO
++ _symbolic _____ 16GameServicesCore14AnySortableKeyO10CodingKeys33_AE6147B80275941583AC3505E7DB44E8LLO
++ _symbolic _____ 16GameServicesCore14AnySortableKeyO14DateCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLO
++ _symbolic _____ 16GameServicesCore14AnySortableKeyO14NoneCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLO
++ _symbolic _____ 16GameServicesCore14AnySortableKeyO16StringCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLO
++ _symbolic _____ 16GameServicesCore14AppMetadataTTLO
++ _symbolic _____ 16GameServicesCore15ApplicationTypeO
++ _symbolic _____ 16GameServicesCore19MetadataEligibilityV
++ _symbolic _____ 16GameServicesCore19PurchaseHistoryDataV
++ _symbolic _____ 16GameServicesCore19PurchaseHistoryDataV10CodingKeys024_6CF0FD63E4F3DE8D9F1FEB5K7F7D2F56LLO
++ _symbolic _____ 16GameServicesCore22AppMetadataEnvironmentO
++ _symbolic _____ 16GameServicesCore23AnySortableKeyValuePairV
++ _symbolic _____ 16GameServicesCore23AnySortableKeyValuePairV10CodingKeys33_AE6147B80275941583AC3505E7DB44E8LLO
++ _symbolic _____ 16GameServicesCore24InternalPlayerIDProviderV
++ _symbolic _____ 16GameServicesCore26AppPurchaseHistoryProviderC
++ _symbolic _____ 16GameServicesCore26AppPurchaseHistoryProviderC0defG5ErrorO
++ _symbolic _____3key_yp5valuet 16GameServicesCore29DefaultChallengeStoreRegistryC0eF3Key33_2D441778A4A5881EFABEBF590F5A6194LLV
++ _symbolic _____5value_t 10Foundation4DateV
++ _symbolic _____Sg 12GameServices0A11DescriptionV
++ _symbolic _____Sg 12GameServices0A7HistoryV04PlayC0V
++ _symbolic _____Sg 12GameServices7ProfileV13SubscriptionsV
++ _symbolic _____Sg 16GameServicesCore015PurchaseHistoryA0V
++ _symbolic _____Sg 16GameServicesCore0A15LibraryMetadataV
++ _symbolic _____Sg 16GameServicesCore0A18RestrictionsPolicyV
++ _symbolic _____Sg_____SgSuSg_____Sg_____y______pG__________yAHy______pGG______pIetMHnTnTyTnTnTgrzo_ 12GameServices0A7FiltersV AA0A14SortDescriptorV AA6CursorV AA3RefV AA6PlayerP 0aB4Core0A14LibraryServiceC AA4PageV AA0A0P s5ErrorP
++ _symbolic _____Sg_____SgSuSg_____Sg_____y______pG__________y_____G______pIetMHnTnTyTnTnTgrzo_ 12GameServices0A7FiltersV AA0A14SortDescriptorV AA6CursorV AA3RefV AA6PlayerP 0aB4Core0A14LibraryServiceC AA4PageV AA0A7HistoryV s5ErrorP
++ _symbolic ______AAt 16GameServicesCore14AnySortableKeyO
++ _symbolic __________Say_____SgG______pIetMHnTgozo_ 12GameServices20DescribeGamesRequestV 0aB4Core0A14LibraryServiceC AA0A11DescriptionV s5ErrorP
++ _symbolic ________________pIetMHgrzo_ 16GameServicesCore0A14LibraryServiceC AA19PurchaseHistoryDataV s5ErrorP
++ _symbolic _______________y_____G______pIetMHnTgrzo_ 12GameServices16ListGamesRequestV 0aB4Core0A14LibraryServiceC AA4PageV AA0A7HistoryV s5ErrorP
++ _symbolic _______________y_____y______pGG______pIetMHnTgrzo_ 12GameServices16ListGamesRequestV 0aB4Core0A14LibraryServiceC AA4PageV AA3RefV AA0A0P s5ErrorP
++ _symbolic ___________pIegHozo_ 16GameServicesCore0A20ListMetadataProviderV0A10CenterData33_52E53FDD248DC3CFEE02A413DB14190FLLV s5ErrorP
++ _symbolic ______p 12GameServices0A22LibraryServiceProtocolP
++ _symbolic ______p 16GameServicesCore0A15SummaryProtocolP
++ _symbolic ______p 16GameServicesCore0A16InternalProtocolP
++ _symbolic ______p 16GameServicesCore0A20ListMetadataProtocolP
++ _symbolic ______p 16GameServicesCore0A28ListMetadataProviderProtocolP
++ _symbolic ______p 16GameServicesCore0A28RestrictionsProviderProtocolP
++ _symbolic ______p 16GameServicesCore19AppMetadataProtocolP
++ _symbolic ______p 16GameServicesCore20FriendServiceSupportP
++ _symbolic ______p 16GameServicesCore21ProfileServiceSupportP
++ _symbolic ______p 16GameServicesCore23InstallMetadataProtocolP
++ _symbolic ______p 16GameServicesCore31PurchaseHistoryProviderProtocolP
++ _symbolic ______pSg 16GameServicesCore0A15SummaryProtocolP
++ _symbolic ______pSg 16GameServicesCore0A16InternalProtocolP
++ _symbolic ______pSg 16GameServicesCore0A20ListMetadataProtocolP
++ _symbolic ______pSg 16GameServicesCore17ScopedIDsProtocolP
++ _symbolic ______pSg 16GameServicesCore19AppMetadataProtocolP
++ _symbolic ______pSg 16GameServicesCore23InstallMetadataProtocolP
++ _symbolic _____ySS_____G s17_NativeDictionaryV 16GameServicesCore015PurchaseHistoryC0V
++ _symbolic _____ySS_____G s17_NativeDictionaryV 16GameServicesCore0C15LibraryMetadataV
++ _symbolic _____ySS______pG s17_NativeDictionaryV 16GameServicesCore0C15SummaryProtocolP
++ _symbolic _____ySS______pG s17_NativeDictionaryV 16GameServicesCore0C16InternalProtocolP
++ _symbolic _____ySS______pG s17_NativeDictionaryV 16GameServicesCore19AppMetadataProtocolP
++ _symbolic _____ySS______pG s18_DictionaryStorageC 16GameServicesCore0C16InternalProtocolP
++ _symbolic _____ySS______pG s18_DictionaryStorageC 16GameServicesCore0C20ListMetadataProtocolP
++ _symbolic _____ySS______pG s18_DictionaryStorageC 16GameServicesCore19AppMetadataProtocolP
++ _symbolic _____ySS_____y______pGG s17_NativeDictionaryV 12GameServices3RefV AC0C0P
++ _symbolic _____ySS_____y______pGG s18_DictionaryStorageC 12GameServices3RefV AC0C0P
++ _symbolic _____y_____G 11Distributed18RemoteCallArgumentV 12GameServices16ListGamesRequestV
++ _symbolic _____y_____G 11Distributed18RemoteCallArgumentV 12GameServices20DescribeGamesRequestV
++ _symbolic _____y_____G 12GameServices4PageV AA0A7HistoryV
++ _symbolic _____y_____G 16GameServicesCore23AnySortableKeyValuePairV 0aB00A7HistoryV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16GameServicesCore015PurchaseHistoryD0V10CodingKeys024_6CF0FD63E4F3DE8D9F1FEB5M7F7D2F56LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16GameServicesCore0D18RestrictionsPolicyV10CodingKeys33_12E8788FD2504E28D96AFE283F05EDADLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16GameServicesCore14AnySortableKeyO10CodingKeys33_AE6147B80275941583AC3505E7DB44E8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16GameServicesCore14AnySortableKeyO14DateCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16GameServicesCore14AnySortableKeyO14NoneCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16GameServicesCore14AnySortableKeyO16StringCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16GameServicesCore19PurchaseHistoryDataV10CodingKeys024_6CF0FD63E4F3DE8D9F1FEB5N7F7D2F56LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16GameServicesCore015PurchaseHistoryD0V10CodingKeys024_6CF0FD63E4F3DE8D9F1FEB5M7F7D2F56LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16GameServicesCore0D18RestrictionsPolicyV10CodingKeys33_12E8788FD2504E28D96AFE283F05EDADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16GameServicesCore14AnySortableKeyO10CodingKeys33_AE6147B80275941583AC3505E7DB44E8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16GameServicesCore14AnySortableKeyO14DateCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16GameServicesCore14AnySortableKeyO14NoneCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16GameServicesCore14AnySortableKeyO16StringCodingKeys33_AE6147B80275941583AC3505E7DB44E8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16GameServicesCore19PurchaseHistoryDataV10CodingKeys024_6CF0FD63E4F3DE8D9F1FEB5N7F7D2F56LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4DateV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12GameServices0D7HistoryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16GameServicesCore0D10IdentifierV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16GameServicesCore0D31LibraryDataFetchingRequirementsV
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 10Foundation4DateV
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 12GameServices0D11DescriptionV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 16GameServicesCore0D20ListMetadataProtocolP
++ _symbolic _____y_____y_____GG 10Foundation14SortDescriptorV 16GameServicesCore23AnySortableKeyValuePairV 0dE00D7HistoryV
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 16GameServicesCore23AnySortableKeyValuePairV 0dE00D7HistoryV
++ _symbolic _____y_____y______pGG 16GameServicesCore23AnySortableKeyValuePairV 0aB03RefV AD0A0P
++ _symbolic _____y_____y_____y______pGGG 10Foundation14SortDescriptorV 16GameServicesCore23AnySortableKeyValuePairV 0dE03RefV AG0D0P
++ _symbolic _____y_____y_____y______pGGG s23_ContiguousArrayStorageC 16GameServicesCore23AnySortableKeyValuePairV 0dE03RefV AF0D0P
++ _symbolic _____y_____ypG s18_DictionaryStorageC 16GameServicesCore29DefaultChallengeStoreRegistryC0gH3Key33_2D441778A4A5881EFABEBF590F5A6194LLV
++ _type_layout_string 16GameServicesCore0A10IdentifierV
++ _type_layout_string 16GameServicesCore0A14PolicyProviderV
++ _type_layout_string 16GameServicesCore0A14PolicyProviderV4DataV
++ _type_layout_string 16GameServicesCore0A20ListMetadataProviderV
++ _type_layout_string 16GameServicesCore0A20ListMetadataProviderV0A10CenterData33_52E53FDD248DC3CFEE02A413DB14190FLLV
++ _type_layout_string 16GameServicesCore0A23LibraryAggregateServiceV
++ _type_layout_string 16GameServicesCore0A31LibraryDataFetchingRequirementsV
++ _type_layout_string 16GameServicesCore12QueryableIDsV
++ _type_layout_string 16GameServicesCore19MetadataEligibilityV
++ _type_layout_string 16GameServicesCore19PurchaseHistoryDataV
+- __swift_FORCE_LOAD_$_swiftCoreImage
+- __swift_FORCE_LOAD_$_swiftCoreImage_$_GameServicesCore
+- _get_witness_table SHRzlSSSHHPyHC.338
+- _get_witness_table SHRzlSbSHHPyHC.365
+- _get_witness_table SlRzlSaySSGSlHPyHC.341
+- _objc_retain_x26
+CStrings:
++ "Can't get scoped IDs for nil local player"
++ "Failed to extract internal playerID from: %s"
++ "Game is missing bundleID: %@"
++ "Handling unknown sort descriptor for game library"
++ "Invalid data for Game Center data with bundleID: %s"
++ "No name available to describe %s, filtering it out."
++ "No scoped IDs for local player"
++ "PurchaseHistory"
++ "Removing stores for player %s"
++ "Unexpected nil value"
++ "Unsupported refPlayerID: "
++ "[Error] Interval already ended"
++ "_TtC16GameServicesCore18GameLibraryService"
++ "_TtC16GameServicesCore26AppPurchaseHistoryProvider"
++ "_TtC16GameServicesCore30GameRestrictionsPolicyProvider"
++ "ams_DSID"
++ "ams_activeiTunesAccount"
++ "ams_sharedAccountStoreForMediaType:"
++ "boolValue"
++ "bundleID"
++ "datePurchased"
++ "executeQuery:withResultHandler:"
++ "games"
++ "isHiddenFromSpringboard"
++ "libraryDataProvider"
++ "longLongValue"
++ "purchaseHistories"
++ "purchaseHistoryStore"
++ "setAccountID:"
++ "setGenreID:"
++ "setIncludeArcade:"
++ "setIsFirstParty:"
++ "setIsHidden:"
++ "setIsPreorder:"
++ "setProperties:"
++ "setSupportsCurrentDevice:"
++ "sharedInstance"
++ "storeItemID"
++ "stringValue"
++ "v24@?0@\"NSArray\"8@\"NSError\"16"
+
+```

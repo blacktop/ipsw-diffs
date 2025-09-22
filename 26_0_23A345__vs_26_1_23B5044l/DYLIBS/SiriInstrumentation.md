@@ -1,0 +1,1802 @@
+## SiriInstrumentation
+
+> `/System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation`
+
+```diff
+
+-3500.109.1.0.0
+-  __TEXT.__text: 0xa09ebc
++3505.9.1.0.0
++  __TEXT.__text: 0xa241ec
+   __TEXT.__auth_stubs: 0x1090
+-  __TEXT.__objc_methlist: 0xd2294
+-  __TEXT.__const: 0x11c54
+-  __TEXT.__cstring: 0x7921e
+-  __TEXT.__constg_swiftt: 0x63c0
+-  __TEXT.__swift5_typeref: 0x18b2
+-  __TEXT.__swift5_builtin: 0x39d0
++  __TEXT.__objc_methlist: 0xd435c
++  __TEXT.__const: 0x11ebc
++  __TEXT.__cstring: 0x7a30a
++  __TEXT.__constg_swiftt: 0x6480
++  __TEXT.__swift5_typeref: 0x18d6
++  __TEXT.__swift5_builtin: 0x3a48
+   __TEXT.__swift5_reflstr: 0x212
+   __TEXT.__swift5_assocty: 0x120
+-  __TEXT.__swift5_proto: 0xedc
+-  __TEXT.__swift5_types: 0xbe0
++  __TEXT.__swift5_proto: 0xef8
++  __TEXT.__swift5_types: 0xbf8
+   __TEXT.__swift5_fieldmd: 0x3e8
+   __TEXT.__oslogstring: 0x95
+   __TEXT.__swift5_protos: 0x14
+-  __TEXT.__unwind_info: 0x2a0e0
+-  __TEXT.__eh_frame: 0x2480
+-  __TEXT.__objc_classname: 0x159a8
+-  __TEXT.__objc_methname: 0x121624
+-  __TEXT.__objc_methtype: 0x28306
+-  __TEXT.__objc_stubs: 0x69440
+-  __DATA_CONST.__got: 0x4ce8
+-  __DATA_CONST.__const: 0x34cf8
+-  __DATA_CONST.__objc_classlist: 0x4bc8
++  __TEXT.__unwind_info: 0x2a5d8
++  __TEXT.__eh_frame: 0x24a0
++  __TEXT.__objc_classname: 0x15bf8
++  __TEXT.__objc_methname: 0x1261e0
++  __TEXT.__objc_methtype: 0x28e95
++  __TEXT.__objc_stubs: 0x6a760
++  __DATA_CONST.__got: 0x4d38
++  __DATA_CONST.__const: 0x35078
++  __DATA_CONST.__objc_classlist: 0x4c18
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x36710
++  __DATA_CONST.__objc_selrefs: 0x371e0
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x75d0
++  __DATA_CONST.__objc_superrefs: 0x7658
+   __AUTH_CONST.__auth_got: 0x850
+-  __AUTH_CONST.__const: 0x21550
+-  __AUTH_CONST.__cfstring: 0x694e0
+-  __AUTH_CONST.__objc_const: 0x11cb70
++  __AUTH_CONST.__const: 0x21818
++  __AUTH_CONST.__cfstring: 0x6a1e0
++  __AUTH_CONST.__objc_const: 0x11f500
+   __AUTH_CONST.__objc_intobj: 0xb70
+-  __AUTH.__objc_data: 0x11698
+-  __DATA.__objc_ivar: 0xe2b0
+-  __DATA.__data: 0x2018
+-  __DATA.__bss: 0x18a80
++  __AUTH.__objc_data: 0x119b8
++  __DATA.__objc_ivar: 0xe53c
++  __DATA.__data: 0x2048
++  __DATA.__bss: 0x18d80
+   __DATA.__common: 0x20
+   __DATA_DIRTY.__objc_data: 0x1e188
+   __DATA_DIRTY.__data: 0x598
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: F5B6E034-39B2-395D-9FC3-731BE0347F4C
+-  Functions: 76075
+-  Symbols:   189264
+-  CStrings:  77777
++  UUID: AABF3353-AB7F-3AF7-B983-7E96222F8BD4
++  Functions: 76806
++  Symbols:   191057
++  CStrings:  78547
+ 
+Symbols:
++ -[MHSchemaMHClientEvent deleteSpeakerIdEnrollmentDataReportedTier1]
++ -[MHSchemaMHClientEvent deleteSpeakerIdModelOneSessionReportedTier1]
++ -[MHSchemaMHClientEvent deleteSpeakerIdModelSelectedClockSessionInfoTier1]
++ -[MHSchemaMHClientEvent hasSpeakerIdEnrollmentDataReportedTier1]
++ -[MHSchemaMHClientEvent hasSpeakerIdModelOneSessionReportedTier1]
++ -[MHSchemaMHClientEvent hasSpeakerIdModelSelectedClockSessionInfoTier1]
++ -[MHSchemaMHClientEvent setHasSpeakerIdEnrollmentDataReportedTier1:]
++ -[MHSchemaMHClientEvent setHasSpeakerIdModelOneSessionReportedTier1:]
++ -[MHSchemaMHClientEvent setHasSpeakerIdModelSelectedClockSessionInfoTier1:]
++ -[MHSchemaMHClientEvent setSpeakerIdEnrollmentDataReportedTier1:]
++ -[MHSchemaMHClientEvent setSpeakerIdModelOneSessionReportedTier1:]
++ -[MHSchemaMHClientEvent setSpeakerIdModelSelectedClockSessionInfoTier1:]
++ -[MHSchemaMHClientEvent speakerIdEnrollmentDataReportedTier1]
++ -[MHSchemaMHClientEvent speakerIdModelOneSessionReportedTier1]
++ -[MHSchemaMHClientEvent speakerIdModelSelectedClockSessionInfoTier1]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 .cxx_destruct]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 addEnrollmentUtterances:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 clearEnrollmentUtterances]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 deleteDeviceType]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 deleteEnrollmentDataDedupeHashBytes]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 deleteEnrollmentUtterances]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 deleteProductVersion]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 deleteSiriInputLocale]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 deviceType]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 dictionaryRepresentation]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 enrollmentDataDedupeHashBytes]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 enrollmentUtterancesAtIndex:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 enrollmentUtterancesCount]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 enrollmentUtterances]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 hasDeviceType]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 hasEnrollmentDataDedupeHashBytes]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 hasProductVersion]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 hasSiriInputLocale]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 hash]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 initWithDictionary:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 initWithJSON:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 isEqual:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 jsonData]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 productVersion]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 readFrom:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 setDeviceType:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 setEnrollmentDataDedupeHashBytes:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 setEnrollmentUtterances:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 setHasDeviceType:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 setHasEnrollmentDataDedupeHashBytes:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 setHasProductVersion:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 setHasSiriInputLocale:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 setProductVersion:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 setSiriInputLocale:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 siriInputLocale]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 writeTo:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1(SensitiveConditions) applySensitiveConditionsPolicy:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1(SensitiveConditions) suppressMessageUnderConditions]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance .cxx_destruct]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance approximateGenerationTimeStamp]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance deleteApproximateGenerationTimeStamp]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance deleteEnrollmentDonationId]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance deleteTriggerPhrase]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance dictionaryRepresentation]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance enrollmentDonationId]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance hasApproximateGenerationTimeStamp]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance hasEnrollmentDonationId]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance hasTriggerPhrase]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance hash]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance initWithDictionary:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance initWithJSON:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance isEqual:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance jsonData]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance readFrom:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance setApproximateGenerationTimeStamp:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance setEnrollmentDonationId:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance setHasApproximateGenerationTimeStamp:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance setHasEnrollmentDonationId:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance setHasTriggerPhrase:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance setTriggerPhrase:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance triggerPhrase]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance writeTo:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance(SensitiveConditions) applySensitiveConditionsPolicy:]
++ -[MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance(SensitiveConditions) suppressMessageUnderConditions]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 .cxx_destruct]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 clockSessionInfo]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 deleteClockSessionInfo]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 deleteEnrollmentData]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 deleteSystemBuild]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 dictionaryRepresentation]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 enrollmentData]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 hasClockSessionInfo]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 hasEnrollmentData]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 hasSystemBuild]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 hash]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 initWithDictionary:]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 initWithJSON:]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 isEqual:]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 jsonData]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 readFrom:]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 setClockSessionInfo:]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 setEnrollmentData:]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 setHasClockSessionInfo:]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 setHasEnrollmentData:]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 setHasSystemBuild:]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 setSystemBuild:]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 systemBuild]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 writeTo:]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1(SensitiveConditions) applySensitiveConditionsPolicy:]
++ -[MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1(SensitiveConditions) suppressMessageUnderConditions]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 .cxx_destruct]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 approximateSessionTimeStamp]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 clockIdentifier]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 deleteApproximateSessionTimeStamp]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 deleteClockIdentifier]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 deleteRequestId]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 dictionaryRepresentation]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 hasApproximateSessionTimeStamp]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 hasClockIdentifier]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 hasRequestId]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 hash]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 initWithDictionary:]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 initWithJSON:]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 isEqual:]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 jsonData]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 readFrom:]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 requestId]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 setApproximateSessionTimeStamp:]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 setClockIdentifier:]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 setHasApproximateSessionTimeStamp:]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 setHasClockIdentifier:]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 setHasRequestId:]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 setRequestId:]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 writeTo:]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1(SensitiveConditions) applySensitiveConditionsPolicy:]
++ -[MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1(SensitiveConditions) suppressMessageUnderConditions]
++ -[ODDSiriSchemaODDAttentionInvocationDeviceDigestsReported attentionInvocationFixedDimensions]
++ -[ODDSiriSchemaODDAttentionInvocationDeviceDigestsReported deleteAttentionInvocationFixedDimensions]
++ -[ODDSiriSchemaODDAttentionInvocationDeviceDigestsReported hasAttentionInvocationFixedDimensions]
++ -[ODDSiriSchemaODDAttentionInvocationDeviceDigestsReported setAttentionInvocationFixedDimensions:]
++ -[ODDSiriSchemaODDAttentionInvocationDeviceDigestsReported setHasAttentionInvocationFixedDimensions:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions .cxx_destruct]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions addSnrOfEnrollmentUtterances:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions addWerEnrollmentUtterances:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions ageOfProfileInMonths]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions clearSnrOfEnrollmentUtterances]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions clearWerEnrollmentUtterances]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions dataSharingOptInStatus]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions deleteAgeOfProfileInMonths]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions deleteDataSharingOptInStatus]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions deleteEnrollmentPitchEstimation]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions deleteEnrollmentUtteranceCount]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions deleteFixedDimensions]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions deleteJsEnrollmentUtteranceCount]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions deleteLowEnrollmentSpeakerSimilarityScoreCounts]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions deleteSiriInputLocale]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions deleteSnrOfEnrollmentUtterances]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions deleteSystemBuild]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions deleteWerEnrollmentUtterances]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions dictionaryRepresentation]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions enrollmentPitchEstimation]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions enrollmentUtteranceCount]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions fixedDimensions]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions hasAgeOfProfileInMonths]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions hasDataSharingOptInStatus]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions hasEnrollmentPitchEstimation]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions hasEnrollmentUtteranceCount]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions hasFixedDimensions]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions hasJsEnrollmentUtteranceCount]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions hasLowEnrollmentSpeakerSimilarityScoreCounts]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions hasSiriInputLocale]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions hasSystemBuild]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions hash]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions initWithDictionary:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions initWithJSON:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions isEqual:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions jsEnrollmentUtteranceCount]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions jsonData]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions lowEnrollmentSpeakerSimilarityScoreCounts]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions readFrom:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setAgeOfProfileInMonths:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setDataSharingOptInStatus:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setEnrollmentPitchEstimation:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setEnrollmentUtteranceCount:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setFixedDimensions:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setHasAgeOfProfileInMonths:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setHasDataSharingOptInStatus:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setHasEnrollmentPitchEstimation:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setHasEnrollmentUtteranceCount:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setHasFixedDimensions:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setHasJsEnrollmentUtteranceCount:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setHasLowEnrollmentSpeakerSimilarityScoreCounts:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setHasSiriInputLocale:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setHasSystemBuild:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setJsEnrollmentUtteranceCount:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setLowEnrollmentSpeakerSimilarityScoreCounts:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setSiriInputLocale:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setSnrOfEnrollmentUtterances:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setSystemBuild:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions setWerEnrollmentUtterances:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions siriInputLocale]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions snrOfEnrollmentUtterancesAtIndex:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions snrOfEnrollmentUtterancesCount]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions snrOfEnrollmentUtterances]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions systemBuild]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions werEnrollmentUtterancesAtIndex:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions werEnrollmentUtterancesCount]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions werEnrollmentUtterances]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions writeTo:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions(SensitiveConditions) applySensitiveConditionsPolicy:]
++ -[ODDSiriSchemaODDAttentionInvocationFixedDimensions(SensitiveConditions) suppressMessageUnderConditions]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported .cxx_destruct]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported availabilityStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported deleteAvailabilityStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported deleteEventType]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported deleteFixedDimensions]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported dictionaryRepresentation]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported eventType]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported fixedDimensions]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported hasAvailabilityStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported hasEventType]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported hasFixedDimensions]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported hash]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported initWithDictionary:]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported initWithJSON:]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported isEqual:]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported jsonData]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported readFrom:]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported setAvailabilityStatus:]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported setEventType:]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported setFixedDimensions:]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported setHasAvailabilityStatus:]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported setHasEventType:]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported setHasFixedDimensions:]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported writeTo:]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported(SensitiveConditions) applySensitiveConditionsPolicy:]
++ -[ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported(SensitiveConditions) suppressMessageUnderConditions]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus .cxx_destruct]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus appleIntelligenceLocale]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus assistantDimensions]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus buddyStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus buildVersionPriorToSoftwareUpdate]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus currentStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteAppleIntelligenceLocale]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteAssistantDimensions]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteBuddyStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteBuildVersionPriorToSoftwareUpdate]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteCurrentStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteDownloadState]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteHasModelCatalogSubscriptionHashChangedFromLastStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteInvocationsCountWhileNotAvailable]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteIsAppleIntelligenceAllowedThroughWaitlist]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteIsAppleIntelligenceEligible]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteIsAppleIntelligenceToggled]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteLastMobileAssetDownloadAttemptErrorUnderlyingCode]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteLastMobileAssetDownloadAttemptErrorUnderlyingDomain]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteMode]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deletePreviousStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteSampledErrorAsset]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteSubscriptionDownloadStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteTimeSinceLastAppleIntelligenceToggleInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteTimeSinceLastAvailabilityChangeInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteTimeSinceLastBootInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteTimeSinceLastEligibleChangeInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteTimeSinceLastMobileAssetDownloadAttemptInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteTimeSinceLastMobileAssetDownloadErrorInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteTimeSinceLastModelCatalogSubscriptionHashChangeInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteTimeSinceLastSoftwareUpdateInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteTimeSinceLastStatusChangeInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteTimeSinceLastWaitlistChangeInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteTimeSinceSampledErrorInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteTimeSinceSubscriptionDownloadStatusCompleteInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus deleteUseCase]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus dictionaryRepresentation]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus downloadState]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasAppleIntelligenceLocale]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasAssistantDimensions]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasBuddyStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasBuildVersionPriorToSoftwareUpdate]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasCurrentStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasDownloadState]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasHasModelCatalogSubscriptionHashChangedFromLastStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasInvocationsCountWhileNotAvailable]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasIsAppleIntelligenceAllowedThroughWaitlist]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasIsAppleIntelligenceEligible]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasIsAppleIntelligenceToggled]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasLastMobileAssetDownloadAttemptErrorUnderlyingCode]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasLastMobileAssetDownloadAttemptErrorUnderlyingDomain]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasMode]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasModelCatalogSubscriptionHashChangedFromLastStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasPreviousStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasSampledErrorAsset]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasSubscriptionDownloadStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasTimeSinceLastAppleIntelligenceToggleInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasTimeSinceLastAvailabilityChangeInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasTimeSinceLastBootInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasTimeSinceLastEligibleChangeInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasTimeSinceLastMobileAssetDownloadAttemptInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasTimeSinceLastMobileAssetDownloadErrorInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasTimeSinceLastModelCatalogSubscriptionHashChangeInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasTimeSinceLastSoftwareUpdateInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasTimeSinceLastStatusChangeInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasTimeSinceLastWaitlistChangeInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasTimeSinceSampledErrorInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasTimeSinceSubscriptionDownloadStatusCompleteInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hasUseCase]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus hash]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus initWithDictionary:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus initWithJSON:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus invocationsCountWhileNotAvailable]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus isAppleIntelligenceAllowedThroughWaitlist]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus isAppleIntelligenceEligible]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus isAppleIntelligenceToggled]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus isEqual:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus jsonData]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus lastMobileAssetDownloadAttemptErrorUnderlyingCode]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus lastMobileAssetDownloadAttemptErrorUnderlyingDomain]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus mode]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus previousStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus readFrom:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus sampledErrorAsset]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setAppleIntelligenceLocale:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setAssistantDimensions:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setBuddyStatus:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setBuildVersionPriorToSoftwareUpdate:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setCurrentStatus:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setDownloadState:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasAppleIntelligenceLocale:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasAssistantDimensions:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasBuddyStatus:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasBuildVersionPriorToSoftwareUpdate:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasCurrentStatus:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasDownloadState:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasHasModelCatalogSubscriptionHashChangedFromLastStatus:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasInvocationsCountWhileNotAvailable:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasIsAppleIntelligenceAllowedThroughWaitlist:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasIsAppleIntelligenceEligible:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasIsAppleIntelligenceToggled:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasLastMobileAssetDownloadAttemptErrorUnderlyingCode:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasLastMobileAssetDownloadAttemptErrorUnderlyingDomain:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasMode:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasModelCatalogSubscriptionHashChangedFromLastStatus:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasPreviousStatus:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasSampledErrorAsset:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasSubscriptionDownloadStatus:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasTimeSinceLastAppleIntelligenceToggleInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasTimeSinceLastAvailabilityChangeInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasTimeSinceLastBootInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasTimeSinceLastEligibleChangeInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasTimeSinceLastMobileAssetDownloadAttemptInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasTimeSinceLastMobileAssetDownloadErrorInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasTimeSinceLastModelCatalogSubscriptionHashChangeInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasTimeSinceLastSoftwareUpdateInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasTimeSinceLastStatusChangeInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasTimeSinceLastWaitlistChangeInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasTimeSinceSampledErrorInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasTimeSinceSubscriptionDownloadStatusCompleteInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setHasUseCase:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setInvocationsCountWhileNotAvailable:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setIsAppleIntelligenceAllowedThroughWaitlist:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setIsAppleIntelligenceEligible:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setIsAppleIntelligenceToggled:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setLastMobileAssetDownloadAttemptErrorUnderlyingCode:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setLastMobileAssetDownloadAttemptErrorUnderlyingDomain:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setMode:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setPreviousStatus:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setSampledErrorAsset:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setSubscriptionDownloadStatus:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setTimeSinceLastAppleIntelligenceToggleInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setTimeSinceLastAvailabilityChangeInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setTimeSinceLastBootInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setTimeSinceLastEligibleChangeInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setTimeSinceLastMobileAssetDownloadAttemptInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setTimeSinceLastMobileAssetDownloadErrorInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setTimeSinceLastModelCatalogSubscriptionHashChangeInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setTimeSinceLastSoftwareUpdateInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setTimeSinceLastStatusChangeInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setTimeSinceLastWaitlistChangeInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setTimeSinceSampledErrorInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setTimeSinceSubscriptionDownloadStatusCompleteInSeconds:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus setUseCase:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus subscriptionDownloadStatus]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus timeSinceLastAppleIntelligenceToggleInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus timeSinceLastAvailabilityChangeInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus timeSinceLastBootInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus timeSinceLastEligibleChangeInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus timeSinceLastMobileAssetDownloadAttemptInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus timeSinceLastMobileAssetDownloadErrorInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus timeSinceLastModelCatalogSubscriptionHashChangeInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus timeSinceLastSoftwareUpdateInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus timeSinceLastStatusChangeInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus timeSinceLastWaitlistChangeInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus timeSinceSampledErrorInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus timeSinceSubscriptionDownloadStatusCompleteInSeconds]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus useCase]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus writeTo:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus(SensitiveConditions) applySensitiveConditionsPolicy:]
++ -[ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus(SensitiveConditions) suppressMessageUnderConditions]
++ -[ODDSiriSchemaODDSiriClientEvent deleteIntelligenceFeatureAvailabilityStatusChangesReported]
++ -[ODDSiriSchemaODDSiriClientEvent hasIntelligenceFeatureAvailabilityStatusChangesReported]
++ -[ODDSiriSchemaODDSiriClientEvent intelligenceFeatureAvailabilityStatusChangesReported]
++ -[ODDSiriSchemaODDSiriClientEvent setHasIntelligenceFeatureAvailabilityStatusChangesReported:]
++ -[ODDSiriSchemaODDSiriClientEvent setIntelligenceFeatureAvailabilityStatusChangesReported:]
++ -[ORCHSchemaORCHClientEvent deleteServerExecutionValuesReported]
++ -[ORCHSchemaORCHClientEvent hasServerExecutionValuesReported]
++ -[ORCHSchemaORCHClientEvent serverExecutionValuesReported]
++ -[ORCHSchemaORCHClientEvent setHasServerExecutionValuesReported:]
++ -[ORCHSchemaORCHClientEvent setServerExecutionValuesReported:]
++ -[ORCHSchemaORCHServerExecutionValuesReported .cxx_destruct]
++ -[ORCHSchemaORCHServerExecutionValuesReported deleteServerExecutedDomain]
++ -[ORCHSchemaORCHServerExecutionValuesReported dictionaryRepresentation]
++ -[ORCHSchemaORCHServerExecutionValuesReported hasServerExecutedDomain]
++ -[ORCHSchemaORCHServerExecutionValuesReported hash]
++ -[ORCHSchemaORCHServerExecutionValuesReported initWithDictionary:]
++ -[ORCHSchemaORCHServerExecutionValuesReported initWithJSON:]
++ -[ORCHSchemaORCHServerExecutionValuesReported isEqual:]
++ -[ORCHSchemaORCHServerExecutionValuesReported jsonData]
++ -[ORCHSchemaORCHServerExecutionValuesReported readFrom:]
++ -[ORCHSchemaORCHServerExecutionValuesReported serverExecutedDomain]
++ -[ORCHSchemaORCHServerExecutionValuesReported setHasServerExecutedDomain:]
++ -[ORCHSchemaORCHServerExecutionValuesReported setServerExecutedDomain:]
++ -[ORCHSchemaORCHServerExecutionValuesReported writeTo:]
++ -[ORCHSchemaORCHServerExecutionValuesReported(SensitiveConditions) suppressMessageUnderConditions]
++ -[SADSchemaSADClientEvent deleteIntelligenceFeatureAvailabilityChangeStatus]
++ -[SADSchemaSADClientEvent deleteIntelligenceFeatureAvailabilityDetailedStatus]
++ -[SADSchemaSADClientEvent hasIntelligenceFeatureAvailabilityChangeStatus]
++ -[SADSchemaSADClientEvent hasIntelligenceFeatureAvailabilityDetailedStatus]
++ -[SADSchemaSADClientEvent intelligenceFeatureAvailabilityChangeStatus]
++ -[SADSchemaSADClientEvent intelligenceFeatureAvailabilityDetailedStatus]
++ -[SADSchemaSADClientEvent setHasIntelligenceFeatureAvailabilityChangeStatus:]
++ -[SADSchemaSADClientEvent setHasIntelligenceFeatureAvailabilityDetailedStatus:]
++ -[SADSchemaSADClientEvent setIntelligenceFeatureAvailabilityChangeStatus:]
++ -[SADSchemaSADClientEvent setIntelligenceFeatureAvailabilityDetailedStatus:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus .cxx_destruct]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus currentSubscriptionHash]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus deleteCurrentSubscriptionHash]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus deleteIsAppleIntelligenceAllowedThroughWaitlist]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus deleteIsAppleIntelligenceEligible]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus deleteIsAppleIntelligenceToggled]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus deleteNewStatus]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus deletePrevStatus]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus deletePreviousSubscriptionHash]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus deleteTimeSinceLastAppleIntelligenceToggleInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus deleteTimeSinceLastAvailabilityChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus deleteTimeSinceLastBootInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus deleteTimeSinceLastEligibleChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus deleteTimeSinceLastStatusChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus deleteTimeSinceLastSubscriptionHashChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus deleteTimeSinceLastWaitlistChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus deleteUseCaseID]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus dictionaryRepresentation]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus hasCurrentSubscriptionHash]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus hasIsAppleIntelligenceAllowedThroughWaitlist]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus hasIsAppleIntelligenceEligible]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus hasIsAppleIntelligenceToggled]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus hasNewStatus]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus hasPrevStatus]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus hasPreviousSubscriptionHash]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus hasTimeSinceLastAppleIntelligenceToggleInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus hasTimeSinceLastAvailabilityChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus hasTimeSinceLastBootInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus hasTimeSinceLastEligibleChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus hasTimeSinceLastStatusChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus hasTimeSinceLastSubscriptionHashChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus hasTimeSinceLastWaitlistChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus hasUseCaseID]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus hash]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus initWithDictionary:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus initWithJSON:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus isAppleIntelligenceAllowedThroughWaitlist]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus isAppleIntelligenceEligible]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus isAppleIntelligenceToggled]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus isEqual:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus jsonData]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus newStatus]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus prevStatus]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus previousSubscriptionHash]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus readFrom:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setCurrentSubscriptionHash:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setHasCurrentSubscriptionHash:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setHasIsAppleIntelligenceAllowedThroughWaitlist:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setHasIsAppleIntelligenceEligible:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setHasIsAppleIntelligenceToggled:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setHasNewStatus:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setHasPrevStatus:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setHasPreviousSubscriptionHash:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setHasTimeSinceLastAppleIntelligenceToggleInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setHasTimeSinceLastAvailabilityChangeInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setHasTimeSinceLastBootInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setHasTimeSinceLastEligibleChangeInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setHasTimeSinceLastStatusChangeInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setHasTimeSinceLastSubscriptionHashChangeInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setHasTimeSinceLastWaitlistChangeInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setHasUseCaseID:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setIsAppleIntelligenceAllowedThroughWaitlist:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setIsAppleIntelligenceEligible:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setIsAppleIntelligenceToggled:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setNewStatus:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setPrevStatus:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setPreviousSubscriptionHash:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setTimeSinceLastAppleIntelligenceToggleInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setTimeSinceLastAvailabilityChangeInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setTimeSinceLastBootInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setTimeSinceLastEligibleChangeInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setTimeSinceLastStatusChangeInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setTimeSinceLastSubscriptionHashChangeInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setTimeSinceLastWaitlistChangeInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus setUseCaseID:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus timeSinceLastAppleIntelligenceToggleInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus timeSinceLastAvailabilityChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus timeSinceLastBootInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus timeSinceLastEligibleChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus timeSinceLastStatusChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus timeSinceLastSubscriptionHashChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus timeSinceLastWaitlistChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus useCaseID]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus writeTo:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus(SensitiveConditions) suppressMessageUnderConditions]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus .cxx_destruct]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus buddyStatus]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus buildVersionPriorToSoftwareUpdate]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus countPSUSAssets]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus countRequiredAssets]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus currentSubscriptionHash]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteBuddyStatus]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteBuildVersionPriorToSoftwareUpdate]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteCountPSUSAssets]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteCountRequiredAssets]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteCurrentSubscriptionHash]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteDownloadState]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteErrorCount]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteFailingSubsystemOperations]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteInvocationsCountWhileNotAvailable]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteLastMobileAssetDownloadAttemptErrorAsset]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteLastMobileAssetDownloadAttemptErrorCode]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteLastMobileAssetDownloadAttemptErrorDomain]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteLastMobileAssetDownloadAttemptErrorUnderlyingCode]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteLastMobileAssetDownloadAttemptErrorUnderlyingDomain]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteLocale]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteMode]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteSampledErrorAsset]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteSampledErrorCode]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteSampledErrorDomain]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteSampledErrorHash]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteSampledErrorUnderlyingCode]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteSampledErrorUnderlyingDomain]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteSampledSubsystemOperation]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteStatus]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteSubscriptionDownloadStatus]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteTimeSinceLastAppleIntelligenceToggleInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteTimeSinceLastBootInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteTimeSinceLastMobileAssetDownloadAttemptInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteTimeSinceLastMobileAssetDownloadErrorInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteTimeSinceLastSoftwareUpdateInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteTimeSinceLastSubscriptionHashChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteTimeSinceSampledErrorInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteTimeSinceSubscriptionDownloadStatusCompleteInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus deleteUseCaseID]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus dictionaryRepresentation]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus downloadState]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus errorCount]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus failingSubsystemOperations]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasBuddyStatus]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasBuildVersionPriorToSoftwareUpdate]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasCountPSUSAssets]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasCountRequiredAssets]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasCurrentSubscriptionHash]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasDownloadState]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasErrorCount]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasFailingSubsystemOperations]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasInvocationsCountWhileNotAvailable]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasLastMobileAssetDownloadAttemptErrorAsset]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasLastMobileAssetDownloadAttemptErrorCode]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasLastMobileAssetDownloadAttemptErrorDomain]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasLastMobileAssetDownloadAttemptErrorUnderlyingCode]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasLastMobileAssetDownloadAttemptErrorUnderlyingDomain]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasLocale]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasMode]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasSampledErrorAsset]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasSampledErrorCode]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasSampledErrorDomain]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasSampledErrorHash]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasSampledErrorUnderlyingCode]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasSampledErrorUnderlyingDomain]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasSampledSubsystemOperation]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasStatus]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasSubscriptionDownloadStatus]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasTimeSinceLastAppleIntelligenceToggleInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasTimeSinceLastBootInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasTimeSinceLastMobileAssetDownloadAttemptInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasTimeSinceLastMobileAssetDownloadErrorInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasTimeSinceLastSoftwareUpdateInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasTimeSinceLastSubscriptionHashChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasTimeSinceSampledErrorInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasTimeSinceSubscriptionDownloadStatusCompleteInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hasUseCaseID]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus hash]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus initWithDictionary:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus initWithJSON:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus invocationsCountWhileNotAvailable]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus isEqual:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus jsonData]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus lastMobileAssetDownloadAttemptErrorAsset]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus lastMobileAssetDownloadAttemptErrorCode]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus lastMobileAssetDownloadAttemptErrorDomain]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus lastMobileAssetDownloadAttemptErrorUnderlyingCode]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus lastMobileAssetDownloadAttemptErrorUnderlyingDomain]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus locale]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus mode]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus readFrom:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus sampledErrorAsset]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus sampledErrorCode]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus sampledErrorDomain]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus sampledErrorHash]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus sampledErrorUnderlyingCode]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus sampledErrorUnderlyingDomain]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus sampledSubsystemOperation]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setBuddyStatus:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setBuildVersionPriorToSoftwareUpdate:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setCountPSUSAssets:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setCountRequiredAssets:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setCurrentSubscriptionHash:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setDownloadState:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setErrorCount:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setFailingSubsystemOperations:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasBuddyStatus:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasBuildVersionPriorToSoftwareUpdate:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasCountPSUSAssets:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasCountRequiredAssets:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasCurrentSubscriptionHash:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasDownloadState:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasErrorCount:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasFailingSubsystemOperations:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasInvocationsCountWhileNotAvailable:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasLastMobileAssetDownloadAttemptErrorAsset:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasLastMobileAssetDownloadAttemptErrorCode:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasLastMobileAssetDownloadAttemptErrorDomain:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasLastMobileAssetDownloadAttemptErrorUnderlyingCode:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasLastMobileAssetDownloadAttemptErrorUnderlyingDomain:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasLocale:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasMode:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasSampledErrorAsset:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasSampledErrorCode:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasSampledErrorDomain:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasSampledErrorHash:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasSampledErrorUnderlyingCode:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasSampledErrorUnderlyingDomain:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasSampledSubsystemOperation:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasStatus:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasSubscriptionDownloadStatus:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasTimeSinceLastAppleIntelligenceToggleInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasTimeSinceLastBootInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasTimeSinceLastMobileAssetDownloadAttemptInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasTimeSinceLastMobileAssetDownloadErrorInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasTimeSinceLastSoftwareUpdateInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasTimeSinceLastSubscriptionHashChangeInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasTimeSinceSampledErrorInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasTimeSinceSubscriptionDownloadStatusCompleteInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setHasUseCaseID:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setInvocationsCountWhileNotAvailable:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setLastMobileAssetDownloadAttemptErrorAsset:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setLastMobileAssetDownloadAttemptErrorCode:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setLastMobileAssetDownloadAttemptErrorDomain:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setLastMobileAssetDownloadAttemptErrorUnderlyingCode:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setLastMobileAssetDownloadAttemptErrorUnderlyingDomain:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setLocale:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setMode:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setSampledErrorAsset:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setSampledErrorCode:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setSampledErrorDomain:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setSampledErrorHash:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setSampledErrorUnderlyingCode:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setSampledErrorUnderlyingDomain:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setSampledSubsystemOperation:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setStatus:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setSubscriptionDownloadStatus:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setTimeSinceLastAppleIntelligenceToggleInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setTimeSinceLastBootInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setTimeSinceLastMobileAssetDownloadAttemptInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setTimeSinceLastMobileAssetDownloadErrorInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setTimeSinceLastSoftwareUpdateInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setTimeSinceLastSubscriptionHashChangeInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setTimeSinceSampledErrorInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setTimeSinceSubscriptionDownloadStatusCompleteInSeconds:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus setUseCaseID:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus status]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus subscriptionDownloadStatus]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus timeSinceLastAppleIntelligenceToggleInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus timeSinceLastBootInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus timeSinceLastMobileAssetDownloadAttemptInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus timeSinceLastMobileAssetDownloadErrorInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus timeSinceLastSoftwareUpdateInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus timeSinceLastSubscriptionHashChangeInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus timeSinceSampledErrorInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus timeSinceSubscriptionDownloadStatusCompleteInSeconds]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus useCaseID]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus writeTo:]
++ -[SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus(SensitiveConditions) suppressMessageUnderConditions]
++ OBJC_IVAR_$_MHSchemaMHClientEvent._speakerIdEnrollmentDataReportedTier1
++ OBJC_IVAR_$_MHSchemaMHClientEvent._speakerIdModelOneSessionReportedTier1
++ OBJC_IVAR_$_MHSchemaMHClientEvent._speakerIdModelSelectedClockSessionInfoTier1
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1._deviceType
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1._enrollmentDataDedupeHashBytes
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1._enrollmentUtterances
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1._productVersion
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1._siriInputLocale
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance._approximateGenerationTimeStamp
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance._enrollmentDonationId
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance._has
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance._triggerPhrase
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1._clockSessionInfo
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1._enrollmentData
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1._systemBuild
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1._approximateSessionTimeStamp
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1._clockIdentifier
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1._has
++ OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1._requestId
++ OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationDeviceDigestsReported._attentionInvocationFixedDimensions
++ OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions._ageOfProfileInMonths
++ OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions._dataSharingOptInStatus
++ OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions._enrollmentPitchEstimation
++ OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions._enrollmentUtteranceCount
++ OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions._fixedDimensions
++ OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions._has
++ OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions._jsEnrollmentUtteranceCount
++ OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions._lowEnrollmentSpeakerSimilarityScoreCounts
++ OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions._siriInputLocale
++ OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions._snrOfEnrollmentUtterances
++ OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions._systemBuild
++ OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions._werEnrollmentUtterances
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported._availabilityStatus
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported._eventType
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported._fixedDimensions
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported._has
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._appleIntelligenceLocale
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._assistantDimensions
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._buddyStatus
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._buildVersionPriorToSoftwareUpdate
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._currentStatus
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._downloadState
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._has
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._hasModelCatalogSubscriptionHashChangedFromLastStatus
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._invocationsCountWhileNotAvailable
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._isAppleIntelligenceAllowedThroughWaitlist
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._isAppleIntelligenceEligible
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._isAppleIntelligenceToggled
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._lastMobileAssetDownloadAttemptErrorUnderlyingCode
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._lastMobileAssetDownloadAttemptErrorUnderlyingDomain
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._mode
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._previousStatus
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._sampledErrorAsset
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._subscriptionDownloadStatus
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._timeSinceLastAppleIntelligenceToggleInSeconds
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._timeSinceLastAvailabilityChangeInSeconds
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._timeSinceLastBootInSeconds
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._timeSinceLastEligibleChangeInSeconds
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._timeSinceLastMobileAssetDownloadAttemptInSeconds
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._timeSinceLastMobileAssetDownloadErrorInSeconds
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._timeSinceLastModelCatalogSubscriptionHashChangeInSeconds
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._timeSinceLastSoftwareUpdateInSeconds
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._timeSinceLastStatusChangeInSeconds
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._timeSinceLastWaitlistChangeInSeconds
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._timeSinceSampledErrorInSeconds
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._timeSinceSubscriptionDownloadStatusCompleteInSeconds
++ OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._useCase
++ OBJC_IVAR_$_ODDSiriSchemaODDSiriClientEvent._intelligenceFeatureAvailabilityStatusChangesReported
++ OBJC_IVAR_$_ORCHSchemaORCHClientEvent._serverExecutionValuesReported
++ OBJC_IVAR_$_ORCHSchemaORCHServerExecutionValuesReported._serverExecutedDomain
++ OBJC_IVAR_$_SADSchemaSADClientEvent._intelligenceFeatureAvailabilityChangeStatus
++ OBJC_IVAR_$_SADSchemaSADClientEvent._intelligenceFeatureAvailabilityDetailedStatus
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._currentSubscriptionHash
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._has
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._isAppleIntelligenceAllowedThroughWaitlist
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._isAppleIntelligenceEligible
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._isAppleIntelligenceToggled
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._newStatus
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._prevStatus
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._previousSubscriptionHash
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._timeSinceLastAppleIntelligenceToggleInSeconds
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._timeSinceLastAvailabilityChangeInSeconds
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._timeSinceLastBootInSeconds
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._timeSinceLastEligibleChangeInSeconds
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._timeSinceLastStatusChangeInSeconds
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._timeSinceLastSubscriptionHashChangeInSeconds
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._timeSinceLastWaitlistChangeInSeconds
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._useCaseID
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._buddyStatus
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._buildVersionPriorToSoftwareUpdate
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._countPSUSAssets
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._countRequiredAssets
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._currentSubscriptionHash
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._downloadState
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._errorCount
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._failingSubsystemOperations
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._has
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._invocationsCountWhileNotAvailable
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._lastMobileAssetDownloadAttemptErrorAsset
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._lastMobileAssetDownloadAttemptErrorCode
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._lastMobileAssetDownloadAttemptErrorDomain
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._lastMobileAssetDownloadAttemptErrorUnderlyingCode
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._lastMobileAssetDownloadAttemptErrorUnderlyingDomain
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._locale
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._mode
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._sampledErrorAsset
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._sampledErrorCode
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._sampledErrorDomain
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._sampledErrorHash
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._sampledErrorUnderlyingCode
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._sampledErrorUnderlyingDomain
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._sampledSubsystemOperation
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._status
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._subscriptionDownloadStatus
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._timeSinceLastAppleIntelligenceToggleInSeconds
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._timeSinceLastBootInSeconds
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._timeSinceLastMobileAssetDownloadAttemptInSeconds
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._timeSinceLastMobileAssetDownloadErrorInSeconds
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._timeSinceLastSoftwareUpdateInSeconds
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._timeSinceLastSubscriptionHashChangeInSeconds
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._timeSinceSampledErrorInSeconds
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._timeSinceSubscriptionDownloadStatusCompleteInSeconds
++ OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._useCaseID
++ _MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1ReadFrom
++ _MHSchemaMHSpeakerIdDataCollectionEnrollmentUtteranceReadFrom
++ _MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1ReadFrom
++ _MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1ReadFrom
++ _OBJC_CLASS_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1
++ _OBJC_CLASS_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance
++ _OBJC_CLASS_$_MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1
++ _OBJC_CLASS_$_MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1
++ _OBJC_CLASS_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions
++ _OBJC_CLASS_$_ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported
++ _OBJC_CLASS_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus
++ _OBJC_CLASS_$_ORCHSchemaORCHServerExecutionValuesReported
++ _OBJC_CLASS_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus
++ _OBJC_CLASS_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus
++ _OBJC_IVAR_$_MHSchemaMHClientEvent._hasSpeakerIdEnrollmentDataReportedTier1
++ _OBJC_IVAR_$_MHSchemaMHClientEvent._hasSpeakerIdModelOneSessionReportedTier1
++ _OBJC_IVAR_$_MHSchemaMHClientEvent._hasSpeakerIdModelSelectedClockSessionInfoTier1
++ _OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1._hasDeviceType
++ _OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1._hasEnrollmentDataDedupeHashBytes
++ _OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1._hasProductVersion
++ _OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1._hasSiriInputLocale
++ _OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance._hasEnrollmentDonationId
++ _OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1._hasClockSessionInfo
++ _OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1._hasEnrollmentData
++ _OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1._hasSystemBuild
++ _OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1._hasClockIdentifier
++ _OBJC_IVAR_$_MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1._hasRequestId
++ _OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationDeviceDigestsReported._hasAttentionInvocationFixedDimensions
++ _OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions._hasFixedDimensions
++ _OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions._hasSiriInputLocale
++ _OBJC_IVAR_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions._hasSystemBuild
++ _OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported._hasAvailabilityStatus
++ _OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported._hasFixedDimensions
++ _OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._hasAppleIntelligenceLocale
++ _OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._hasAssistantDimensions
++ _OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._hasBuildVersionPriorToSoftwareUpdate
++ _OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._hasLastMobileAssetDownloadAttemptErrorUnderlyingDomain
++ _OBJC_IVAR_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus._hasSampledErrorAsset
++ _OBJC_IVAR_$_ODDSiriSchemaODDSiriClientEvent._hasIntelligenceFeatureAvailabilityStatusChangesReported
++ _OBJC_IVAR_$_ORCHSchemaORCHClientEvent._hasServerExecutionValuesReported
++ _OBJC_IVAR_$_ORCHSchemaORCHServerExecutionValuesReported._hasServerExecutedDomain
++ _OBJC_IVAR_$_SADSchemaSADClientEvent._hasIntelligenceFeatureAvailabilityChangeStatus
++ _OBJC_IVAR_$_SADSchemaSADClientEvent._hasIntelligenceFeatureAvailabilityDetailedStatus
++ _OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus._hasUseCaseID
++ _OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._hasBuildVersionPriorToSoftwareUpdate
++ _OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._hasFailingSubsystemOperations
++ _OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._hasLastMobileAssetDownloadAttemptErrorAsset
++ _OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._hasLastMobileAssetDownloadAttemptErrorDomain
++ _OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._hasLastMobileAssetDownloadAttemptErrorUnderlyingDomain
++ _OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._hasSampledErrorAsset
++ _OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._hasSampledErrorDomain
++ _OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._hasSampledErrorUnderlyingDomain
++ _OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._hasSampledSubsystemOperation
++ _OBJC_IVAR_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus._hasUseCaseID
++ _OBJC_METACLASS_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1
++ _OBJC_METACLASS_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance
++ _OBJC_METACLASS_$_MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1
++ _OBJC_METACLASS_$_MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1
++ _OBJC_METACLASS_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions
++ _OBJC_METACLASS_$_ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported
++ _OBJC_METACLASS_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus
++ _OBJC_METACLASS_$_ORCHSchemaORCHServerExecutionValuesReported
++ _OBJC_METACLASS_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus
++ _OBJC_METACLASS_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus
++ _ODDSiriSchemaODDAttentionInvocationFixedDimensionsReadFrom
++ _ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReportedReadFrom
++ _ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatusReadFrom
++ _ORCHSchemaORCHServerExecutionValuesReportedReadFrom
++ _SADSchemaSADIntelligenceFeatureAvailabilityChangeStatusReadFrom
++ _SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatusReadFrom
++ __OBJC_$_CLASS_METHODS_SISchemaTopLevelUnionType(AnyEvent|IsolationLevel|Component)
++ __OBJC_$_INSTANCE_METHODS_MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1(SensitiveConditions)
++ __OBJC_$_INSTANCE_METHODS_MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance(SensitiveConditions)
++ __OBJC_$_INSTANCE_METHODS_MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1(SensitiveConditions)
++ __OBJC_$_INSTANCE_METHODS_MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1(SensitiveConditions)
++ __OBJC_$_INSTANCE_METHODS_ODDSiriSchemaODDAttentionInvocationFixedDimensions(SensitiveConditions)
++ __OBJC_$_INSTANCE_METHODS_ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported(SensitiveConditions)
++ __OBJC_$_INSTANCE_METHODS_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus(SensitiveConditions)
++ __OBJC_$_INSTANCE_METHODS_ORCHSchemaORCHServerExecutionValuesReported(SensitiveConditions)
++ __OBJC_$_INSTANCE_METHODS_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus(SensitiveConditions)
++ __OBJC_$_INSTANCE_METHODS_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus(SensitiveConditions)
++ __OBJC_$_INSTANCE_METHODS_SISchemaAnyEvent(Tailing|Factory|Mapping|SensitiveConditions|Introspection)
++ __OBJC_$_INSTANCE_METHODS_SISchemaOrderedAnyEvent(InstrumentationAdditions|SensitiveConditions|Introspection)
++ __OBJC_$_INSTANCE_METHODS_SISchemaTopLevelUnionType(AnyEvent|IsolationLevel|Component)
++ __OBJC_$_INSTANCE_VARIABLES_MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1
++ __OBJC_$_INSTANCE_VARIABLES_MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance
++ __OBJC_$_INSTANCE_VARIABLES_MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1
++ __OBJC_$_INSTANCE_VARIABLES_MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1
++ __OBJC_$_INSTANCE_VARIABLES_ODDSiriSchemaODDAttentionInvocationFixedDimensions
++ __OBJC_$_INSTANCE_VARIABLES_ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported
++ __OBJC_$_INSTANCE_VARIABLES_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus
++ __OBJC_$_INSTANCE_VARIABLES_ORCHSchemaORCHServerExecutionValuesReported
++ __OBJC_$_INSTANCE_VARIABLES_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus
++ __OBJC_$_INSTANCE_VARIABLES_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus
++ __OBJC_$_PROP_LIST_MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1
++ __OBJC_$_PROP_LIST_MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance
++ __OBJC_$_PROP_LIST_MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1
++ __OBJC_$_PROP_LIST_MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1
++ __OBJC_$_PROP_LIST_ODDSiriSchemaODDAttentionInvocationFixedDimensions
++ __OBJC_$_PROP_LIST_ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported
++ __OBJC_$_PROP_LIST_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus
++ __OBJC_$_PROP_LIST_ORCHSchemaORCHServerExecutionValuesReported
++ __OBJC_$_PROP_LIST_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus
++ __OBJC_$_PROP_LIST_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus
++ __OBJC_CLASS_RO_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1
++ __OBJC_CLASS_RO_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance
++ __OBJC_CLASS_RO_$_MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1
++ __OBJC_CLASS_RO_$_MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1
++ __OBJC_CLASS_RO_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions
++ __OBJC_CLASS_RO_$_ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported
++ __OBJC_CLASS_RO_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus
++ __OBJC_CLASS_RO_$_ORCHSchemaORCHServerExecutionValuesReported
++ __OBJC_CLASS_RO_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus
++ __OBJC_CLASS_RO_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus
++ __OBJC_METACLASS_RO_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1
++ __OBJC_METACLASS_RO_$_MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance
++ __OBJC_METACLASS_RO_$_MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1
++ __OBJC_METACLASS_RO_$_MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1
++ __OBJC_METACLASS_RO_$_ODDSiriSchemaODDAttentionInvocationFixedDimensions
++ __OBJC_METACLASS_RO_$_ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported
++ __OBJC_METACLASS_RO_$_ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus
++ __OBJC_METACLASS_RO_$_ORCHSchemaORCHServerExecutionValuesReported
++ __OBJC_METACLASS_RO_$_SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus
++ __OBJC_METACLASS_RO_$_SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus
++ _objc_msgSend$addEnrollmentUtterances:
++ _objc_msgSend$addSnrOfEnrollmentUtterances:
++ _objc_msgSend$addWerEnrollmentUtterances:
++ _objc_msgSend$appleIntelligenceLocale
++ _objc_msgSend$approximateGenerationTimeStamp
++ _objc_msgSend$approximateSessionTimeStamp
++ _objc_msgSend$attentionInvocationFixedDimensions
++ _objc_msgSend$availabilityStatus
++ _objc_msgSend$buddyStatus
++ _objc_msgSend$buildVersionPriorToSoftwareUpdate
++ _objc_msgSend$clearEnrollmentUtterances
++ _objc_msgSend$clearSnrOfEnrollmentUtterances
++ _objc_msgSend$clearWerEnrollmentUtterances
++ _objc_msgSend$clockSessionInfo
++ _objc_msgSend$countPSUSAssets
++ _objc_msgSend$countRequiredAssets
++ _objc_msgSend$currentStatus
++ _objc_msgSend$currentSubscriptionHash
++ _objc_msgSend$deleteAppleIntelligenceLocale
++ _objc_msgSend$deleteAttentionInvocationFixedDimensions
++ _objc_msgSend$deleteAvailabilityStatus
++ _objc_msgSend$deleteClockSessionInfo
++ _objc_msgSend$deleteEnrollmentData
++ _objc_msgSend$deleteEnrollmentDonationId
++ _objc_msgSend$deleteIntelligenceFeatureAvailabilityChangeStatus
++ _objc_msgSend$deleteIntelligenceFeatureAvailabilityDetailedStatus
++ _objc_msgSend$deleteIntelligenceFeatureAvailabilityStatusChangesReported
++ _objc_msgSend$deleteServerExecutionValuesReported
++ _objc_msgSend$deleteSpeakerIdEnrollmentDataReportedTier1
++ _objc_msgSend$deleteSpeakerIdModelOneSessionReportedTier1
++ _objc_msgSend$deleteSpeakerIdModelSelectedClockSessionInfoTier1
++ _objc_msgSend$downloadState
++ _objc_msgSend$enrollmentData
++ _objc_msgSend$enrollmentDataDedupeHashBytes
++ _objc_msgSend$enrollmentDonationId
++ _objc_msgSend$enrollmentUtteranceCount
++ _objc_msgSend$enrollmentUtterances
++ _objc_msgSend$errorCount
++ _objc_msgSend$failingSubsystemOperations
++ _objc_msgSend$hasModelCatalogSubscriptionHashChangedFromLastStatus
++ _objc_msgSend$intelligenceFeatureAvailabilityChangeStatus
++ _objc_msgSend$intelligenceFeatureAvailabilityDetailedStatus
++ _objc_msgSend$intelligenceFeatureAvailabilityStatusChangesReported
++ _objc_msgSend$invocationsCountWhileNotAvailable
++ _objc_msgSend$isAppleIntelligenceAllowedThroughWaitlist
++ _objc_msgSend$isAppleIntelligenceEligible
++ _objc_msgSend$isAppleIntelligenceToggled
++ _objc_msgSend$jsEnrollmentUtteranceCount
++ _objc_msgSend$lastMobileAssetDownloadAttemptErrorAsset
++ _objc_msgSend$lastMobileAssetDownloadAttemptErrorCode
++ _objc_msgSend$lastMobileAssetDownloadAttemptErrorDomain
++ _objc_msgSend$lastMobileAssetDownloadAttemptErrorUnderlyingCode
++ _objc_msgSend$lastMobileAssetDownloadAttemptErrorUnderlyingDomain
++ _objc_msgSend$lowEnrollmentSpeakerSimilarityScoreCounts
++ _objc_msgSend$newStatus
++ _objc_msgSend$prevStatus
++ _objc_msgSend$previousStatus
++ _objc_msgSend$previousSubscriptionHash
++ _objc_msgSend$sampledErrorAsset
++ _objc_msgSend$sampledErrorCode
++ _objc_msgSend$sampledErrorDomain
++ _objc_msgSend$sampledErrorHash
++ _objc_msgSend$sampledErrorUnderlyingCode
++ _objc_msgSend$sampledErrorUnderlyingDomain
++ _objc_msgSend$sampledSubsystemOperation
++ _objc_msgSend$serverExecutedDomain
++ _objc_msgSend$serverExecutionValuesReported
++ _objc_msgSend$setAppleIntelligenceLocale:
++ _objc_msgSend$setApproximateGenerationTimeStamp:
++ _objc_msgSend$setApproximateSessionTimeStamp:
++ _objc_msgSend$setAttentionInvocationFixedDimensions:
++ _objc_msgSend$setAvailabilityStatus:
++ _objc_msgSend$setBuddyStatus:
++ _objc_msgSend$setBuildVersionPriorToSoftwareUpdate:
++ _objc_msgSend$setClockSessionInfo:
++ _objc_msgSend$setCountPSUSAssets:
++ _objc_msgSend$setCountRequiredAssets:
++ _objc_msgSend$setCurrentStatus:
++ _objc_msgSend$setCurrentSubscriptionHash:
++ _objc_msgSend$setDownloadState:
++ _objc_msgSend$setEnrollmentData:
++ _objc_msgSend$setEnrollmentDataDedupeHashBytes:
++ _objc_msgSend$setEnrollmentDonationId:
++ _objc_msgSend$setEnrollmentUtteranceCount:
++ _objc_msgSend$setEnrollmentUtterances:
++ _objc_msgSend$setErrorCount:
++ _objc_msgSend$setFailingSubsystemOperations:
++ _objc_msgSend$setHasModelCatalogSubscriptionHashChangedFromLastStatus:
++ _objc_msgSend$setIntelligenceFeatureAvailabilityChangeStatus:
++ _objc_msgSend$setIntelligenceFeatureAvailabilityDetailedStatus:
++ _objc_msgSend$setIntelligenceFeatureAvailabilityStatusChangesReported:
++ _objc_msgSend$setInvocationsCountWhileNotAvailable:
++ _objc_msgSend$setIsAppleIntelligenceAllowedThroughWaitlist:
++ _objc_msgSend$setIsAppleIntelligenceEligible:
++ _objc_msgSend$setIsAppleIntelligenceToggled:
++ _objc_msgSend$setJsEnrollmentUtteranceCount:
++ _objc_msgSend$setLastMobileAssetDownloadAttemptErrorAsset:
++ _objc_msgSend$setLastMobileAssetDownloadAttemptErrorCode:
++ _objc_msgSend$setLastMobileAssetDownloadAttemptErrorDomain:
++ _objc_msgSend$setLastMobileAssetDownloadAttemptErrorUnderlyingCode:
++ _objc_msgSend$setLastMobileAssetDownloadAttemptErrorUnderlyingDomain:
++ _objc_msgSend$setLowEnrollmentSpeakerSimilarityScoreCounts:
++ _objc_msgSend$setNewStatus:
++ _objc_msgSend$setPrevStatus:
++ _objc_msgSend$setPreviousStatus:
++ _objc_msgSend$setPreviousSubscriptionHash:
++ _objc_msgSend$setSampledErrorAsset:
++ _objc_msgSend$setSampledErrorCode:
++ _objc_msgSend$setSampledErrorDomain:
++ _objc_msgSend$setSampledErrorHash:
++ _objc_msgSend$setSampledErrorUnderlyingCode:
++ _objc_msgSend$setSampledErrorUnderlyingDomain:
++ _objc_msgSend$setSampledSubsystemOperation:
++ _objc_msgSend$setServerExecutedDomain:
++ _objc_msgSend$setServerExecutionValuesReported:
++ _objc_msgSend$setSpeakerIdEnrollmentDataReportedTier1:
++ _objc_msgSend$setSpeakerIdModelOneSessionReportedTier1:
++ _objc_msgSend$setSpeakerIdModelSelectedClockSessionInfoTier1:
++ _objc_msgSend$setSubscriptionDownloadStatus:
++ _objc_msgSend$setTimeSinceLastAppleIntelligenceToggleInSeconds:
++ _objc_msgSend$setTimeSinceLastAvailabilityChangeInSeconds:
++ _objc_msgSend$setTimeSinceLastBootInSeconds:
++ _objc_msgSend$setTimeSinceLastEligibleChangeInSeconds:
++ _objc_msgSend$setTimeSinceLastMobileAssetDownloadAttemptInSeconds:
++ _objc_msgSend$setTimeSinceLastMobileAssetDownloadErrorInSeconds:
++ _objc_msgSend$setTimeSinceLastModelCatalogSubscriptionHashChangeInSeconds:
++ _objc_msgSend$setTimeSinceLastSoftwareUpdateInSeconds:
++ _objc_msgSend$setTimeSinceLastStatusChangeInSeconds:
++ _objc_msgSend$setTimeSinceLastSubscriptionHashChangeInSeconds:
++ _objc_msgSend$setTimeSinceLastWaitlistChangeInSeconds:
++ _objc_msgSend$setTimeSinceSampledErrorInSeconds:
++ _objc_msgSend$setTimeSinceSubscriptionDownloadStatusCompleteInSeconds:
++ _objc_msgSend$setUseCaseID:
++ _objc_msgSend$snrOfEnrollmentUtterances
++ _objc_msgSend$speakerIdEnrollmentDataReportedTier1
++ _objc_msgSend$speakerIdModelOneSessionReportedTier1
++ _objc_msgSend$speakerIdModelSelectedClockSessionInfoTier1
++ _objc_msgSend$subscriptionDownloadStatus
++ _objc_msgSend$timeSinceLastAppleIntelligenceToggleInSeconds
++ _objc_msgSend$timeSinceLastAvailabilityChangeInSeconds
++ _objc_msgSend$timeSinceLastBootInSeconds
++ _objc_msgSend$timeSinceLastEligibleChangeInSeconds
++ _objc_msgSend$timeSinceLastMobileAssetDownloadAttemptInSeconds
++ _objc_msgSend$timeSinceLastMobileAssetDownloadErrorInSeconds
++ _objc_msgSend$timeSinceLastModelCatalogSubscriptionHashChangeInSeconds
++ _objc_msgSend$timeSinceLastSoftwareUpdateInSeconds
++ _objc_msgSend$timeSinceLastStatusChangeInSeconds
++ _objc_msgSend$timeSinceLastSubscriptionHashChangeInSeconds
++ _objc_msgSend$timeSinceLastWaitlistChangeInSeconds
++ _objc_msgSend$timeSinceSampledErrorInSeconds
++ _objc_msgSend$timeSinceSubscriptionDownloadStatusCompleteInSeconds
++ _objc_msgSend$useCaseID
++ _objc_msgSend$werEnrollmentUtterances
++ _qname_MHSchemaMHClientEvent_WhichEvent_Type_speakerIdEnrollmentDataReportedTier1
++ _qname_MHSchemaMHClientEvent_WhichEvent_Type_speakerIdModelOneSessionReportedTier1
++ _qname_MHSchemaMHClientEvent_WhichEvent_Type_speakerIdModelSelectedClockSessionInfoTier1
++ _qname_ODDSiriSchemaODDSiriClientEvent_WhichEvent_Type_intelligenceFeatureAvailabilityStatusChangesReported
++ _qname_ORCHSchemaORCHClientEvent_WhichEvent_Type_serverExecutionValuesReported
++ _qname_SADSchemaSADClientEvent_WhichEvent_Type_intelligenceFeatureAvailabilityChangeStatus
++ _qname_SADSchemaSADClientEvent_WhichEvent_Type_intelligenceFeatureAvailabilityDetailedStatus
++ _symbolic _____ So27SADSchemaSADBuddyOptInStateV
++ _symbolic _____ So36SADSchemaSADMobileAssetDownloadStateV
++ _symbolic _____ So38UAFSchemaUAFSubscriptionDownloadStatusV
++ _symbolic _____ So40ODDSiriSchemaODDMobileAssetDownloadStateV
++ _symbolic _____ So51ODDSiriSchemaODDIntelligenceFeatureReportingUseCaseV
++ _symbolic _____ So53ODDSiriSchemaODDIntelligenceFeatureReportingEventTypeV
+- __OBJC_$_CLASS_METHODS_SISchemaTopLevelUnionType(AnyEvent|Component|IsolationLevel)
+- __OBJC_$_INSTANCE_METHODS_SISchemaAnyEvent(Tailing|Factory|Introspection|Mapping|SensitiveConditions)
+- __OBJC_$_INSTANCE_METHODS_SISchemaOrderedAnyEvent(Introspection|InstrumentationAdditions|SensitiveConditions)
+- __OBJC_$_INSTANCE_METHODS_SISchemaTopLevelUnionType(AnyEvent|Component|IsolationLevel)
+CStrings:
++ "@\"MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1\""
++ "@\"MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1\""
++ "@\"MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1\""
++ "@\"ODDSiriSchemaODDAttentionInvocationFixedDimensions\""
++ "@\"ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported\""
++ "@\"ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus\""
++ "@\"ORCHSchemaORCHServerExecutionValuesReported\""
++ "@\"SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus\""
++ "@\"SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus\""
++ "MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1"
++ "MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance"
++ "MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1"
++ "MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1"
++ "ODDINTELLIGENCEFEATUREREPORTINGEVENTTYPE_AVAILABILITY_CHANGE"
++ "ODDINTELLIGENCEFEATUREREPORTINGEVENTTYPE_DETAILED_STATUS"
++ "ODDINTELLIGENCEFEATUREREPORTINGEVENTTYPE_UNKNOWN"
++ "ODDINTELLIGENCEFEATUREREPORTINGUSECASE_DIFFUSION_MODELS"
++ "ODDINTELLIGENCEFEATUREREPORTINGUSECASE_FOUNDATION_MODELS"
++ "ODDINTELLIGENCEFEATUREREPORTINGUSECASE_SIRI_MODELS"
++ "ODDINTELLIGENCEFEATUREREPORTINGUSECASE_UNKNOWN"
++ "ODDMOBILEASSETDOWNLOADSTATE_ASSETS_AVAILABLE"
++ "ODDMOBILEASSETDOWNLOADSTATE_DOWNLOAD_FAILED_AND_NOT_RESTARTED"
++ "ODDMOBILEASSETDOWNLOADSTATE_DOWNLOAD_IN_PROGRESS"
++ "ODDMOBILEASSETDOWNLOADSTATE_DOWNLOAD_NOT_STARTED"
++ "ODDMOBILEASSETDOWNLOADSTATE_UNKNOWN"
++ "ODDSiriSchemaODDAttentionInvocationFixedDimensions"
++ "ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported"
++ "ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus"
++ "ORCHSchemaORCHServerExecutionValuesReported"
++ "SADBUDDYOPTINSTATE_OPTEDIN"
++ "SADBUDDYOPTINSTATE_OPTEDOUT"
++ "SADBUDDYOPTINSTATE_UNKNOWN"
++ "SADMOBILEASSETDOWNLOADSTATE_ASSETS_AVAILABLE"
++ "SADMOBILEASSETDOWNLOADSTATE_DOWNLOAD_FAILED_AND_NOT_RESTARTED"
++ "SADMOBILEASSETDOWNLOADSTATE_DOWNLOAD_IN_PROGRESS"
++ "SADMOBILEASSETDOWNLOADSTATE_DOWNLOAD_NOT_STARTED"
++ "SADMOBILEASSETDOWNLOADSTATE_UNKNOWN"
++ "SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus"
++ "SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus"
++ "T@\"MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1\",&,N,V_enrollmentData"
++ "T@\"MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1\",&,N,V_speakerIdEnrollmentDataReportedTier1"
++ "T@\"MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1\",&,N,V_speakerIdModelOneSessionReportedTier1"
++ "T@\"MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1\",&,N,V_clockSessionInfo"
++ "T@\"MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1\",&,N,V_speakerIdModelSelectedClockSessionInfoTier1"
++ "T@\"NSArray\",C,N,V_enrollmentUtterances"
++ "T@\"NSArray\",C,N,V_snrOfEnrollmentUtterances"
++ "T@\"NSArray\",C,N,V_werEnrollmentUtterances"
++ "T@\"NSData\",C,N,V_enrollmentDataDedupeHashBytes"
++ "T@\"NSString\",C,N,V_buildVersionPriorToSoftwareUpdate"
++ "T@\"NSString\",C,N,V_failingSubsystemOperations"
++ "T@\"NSString\",C,N,V_lastMobileAssetDownloadAttemptErrorAsset"
++ "T@\"NSString\",C,N,V_lastMobileAssetDownloadAttemptErrorDomain"
++ "T@\"NSString\",C,N,V_lastMobileAssetDownloadAttemptErrorUnderlyingDomain"
++ "T@\"NSString\",C,N,V_sampledErrorAsset"
++ "T@\"NSString\",C,N,V_sampledErrorDomain"
++ "T@\"NSString\",C,N,V_sampledErrorUnderlyingDomain"
++ "T@\"NSString\",C,N,V_sampledSubsystemOperation"
++ "T@\"NSString\",C,N,V_serverExecutedDomain"
++ "T@\"NSString\",C,N,V_useCaseID"
++ "T@\"ODDSiriSchemaODDAttentionInvocationFixedDimensions\",&,N,V_attentionInvocationFixedDimensions"
++ "T@\"ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported\",&,N,V_intelligenceFeatureAvailabilityStatusChangesReported"
++ "T@\"ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus\",&,N,V_availabilityStatus"
++ "T@\"ORCHSchemaORCHServerExecutionValuesReported\",&,N,V_serverExecutionValuesReported"
++ "T@\"SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus\",&,N,V_intelligenceFeatureAvailabilityChangeStatus"
++ "T@\"SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus\",&,N,V_intelligenceFeatureAvailabilityDetailedStatus"
++ "T@\"SISchemaISOLocale\",&,N,V_appleIntelligenceLocale"
++ "T@\"SISchemaUUID\",&,N,V_enrollmentDonationId"
++ "TB,N,V_hasAppleIntelligenceLocale"
++ "TB,N,V_hasAttentionInvocationFixedDimensions"
++ "TB,N,V_hasAvailabilityStatus"
++ "TB,N,V_hasBuildVersionPriorToSoftwareUpdate"
++ "TB,N,V_hasClockSessionInfo"
++ "TB,N,V_hasEnrollmentData"
++ "TB,N,V_hasEnrollmentDataDedupeHashBytes"
++ "TB,N,V_hasEnrollmentDonationId"
++ "TB,N,V_hasFailingSubsystemOperations"
++ "TB,N,V_hasIntelligenceFeatureAvailabilityChangeStatus"
++ "TB,N,V_hasIntelligenceFeatureAvailabilityDetailedStatus"
++ "TB,N,V_hasIntelligenceFeatureAvailabilityStatusChangesReported"
++ "TB,N,V_hasLastMobileAssetDownloadAttemptErrorAsset"
++ "TB,N,V_hasLastMobileAssetDownloadAttemptErrorDomain"
++ "TB,N,V_hasLastMobileAssetDownloadAttemptErrorUnderlyingDomain"
++ "TB,N,V_hasModelCatalogSubscriptionHashChangedFromLastStatus"
++ "TB,N,V_hasSampledErrorAsset"
++ "TB,N,V_hasSampledErrorDomain"
++ "TB,N,V_hasSampledErrorUnderlyingDomain"
++ "TB,N,V_hasSampledSubsystemOperation"
++ "TB,N,V_hasServerExecutedDomain"
++ "TB,N,V_hasServerExecutionValuesReported"
++ "TB,N,V_hasSpeakerIdEnrollmentDataReportedTier1"
++ "TB,N,V_hasSpeakerIdModelOneSessionReportedTier1"
++ "TB,N,V_hasSpeakerIdModelSelectedClockSessionInfoTier1"
++ "TB,N,V_hasUseCaseID"
++ "TB,N,V_isAppleIntelligenceAllowedThroughWaitlist"
++ "TB,N,V_isAppleIntelligenceEligible"
++ "TB,N,V_isAppleIntelligenceToggled"
++ "TI,N,V_countRequiredAssets"
++ "TI,N,V_currentSubscriptionHash"
++ "TI,N,V_enrollmentUtteranceCount"
++ "TI,N,V_errorCount"
++ "TI,N,V_invocationsCountWhileNotAvailable"
++ "TI,N,V_jsEnrollmentUtteranceCount"
++ "TI,N,V_lastMobileAssetDownloadAttemptErrorCode"
++ "TI,N,V_lastMobileAssetDownloadAttemptErrorUnderlyingCode"
++ "TI,N,V_lowEnrollmentSpeakerSimilarityScoreCounts"
++ "TI,N,V_previousSubscriptionHash"
++ "TI,N,V_sampledErrorCode"
++ "TI,N,V_sampledErrorHash"
++ "TI,N,V_sampledErrorUnderlyingCode"
++ "TQ,N,V_approximateGenerationTimeStamp"
++ "TQ,N,V_approximateSessionTimeStamp"
++ "TQ,N,V_countPSUSAssets"
++ "TQ,N,V_currentStatus"
++ "TQ,N,V_newStatus"
++ "TQ,N,V_prevStatus"
++ "TQ,N,V_previousStatus"
++ "TQ,N,V_status"
++ "Td,N,V_timeSinceLastAppleIntelligenceToggleInSeconds"
++ "Td,N,V_timeSinceLastAvailabilityChangeInSeconds"
++ "Td,N,V_timeSinceLastBootInSeconds"
++ "Td,N,V_timeSinceLastEligibleChangeInSeconds"
++ "Td,N,V_timeSinceLastMobileAssetDownloadAttemptInSeconds"
++ "Td,N,V_timeSinceLastMobileAssetDownloadErrorInSeconds"
++ "Td,N,V_timeSinceLastModelCatalogSubscriptionHashChangeInSeconds"
++ "Td,N,V_timeSinceLastSoftwareUpdateInSeconds"
++ "Td,N,V_timeSinceLastStatusChangeInSeconds"
++ "Td,N,V_timeSinceLastSubscriptionHashChangeInSeconds"
++ "Td,N,V_timeSinceLastWaitlistChangeInSeconds"
++ "Td,N,V_timeSinceSampledErrorInSeconds"
++ "Td,N,V_timeSinceSubscriptionDownloadStatusCompleteInSeconds"
++ "Ti,N,V_buddyStatus"
++ "Ti,N,V_downloadState"
++ "Ti,N,V_subscriptionDownloadStatus"
++ "UAFSUBSCRIPTIONDOWNLOADSTATUS_COMPLETE"
++ "UAFSUBSCRIPTIONDOWNLOADSTATUS_DOWNGRADE_ERROR"
++ "UAFSUBSCRIPTIONDOWNLOADSTATUS_DOWNLOADING"
++ "UAFSUBSCRIPTIONDOWNLOADSTATUS_DOWNLOAD_STALLED"
++ "UAFSUBSCRIPTIONDOWNLOADSTATUS_ERROR"
++ "UAFSUBSCRIPTIONDOWNLOADSTATUS_NETWORK_ERROR"
++ "UAFSUBSCRIPTIONDOWNLOADSTATUS_NOT_DOWNLOADING"
++ "UAFSUBSCRIPTIONDOWNLOADSTATUS_OUT_OF_SPACE"
++ "UAFSUBSCRIPTIONDOWNLOADSTATUS_UNKNOWN"
++ "_appleIntelligenceLocale"
++ "_approximateGenerationTimeStamp"
++ "_approximateSessionTimeStamp"
++ "_attentionInvocationFixedDimensions"
++ "_availabilityStatus"
++ "_buddyStatus"
++ "_buildVersionPriorToSoftwareUpdate"
++ "_clockSessionInfo"
++ "_countPSUSAssets"
++ "_countRequiredAssets"
++ "_currentStatus"
++ "_currentSubscriptionHash"
++ "_downloadState"
++ "_enrollmentData"
++ "_enrollmentDataDedupeHashBytes"
++ "_enrollmentDonationId"
++ "_enrollmentUtteranceCount"
++ "_enrollmentUtterances"
++ "_errorCount"
++ "_failingSubsystemOperations"
++ "_hasAppleIntelligenceLocale"
++ "_hasAttentionInvocationFixedDimensions"
++ "_hasAvailabilityStatus"
++ "_hasBuildVersionPriorToSoftwareUpdate"
++ "_hasClockSessionInfo"
++ "_hasEnrollmentData"
++ "_hasEnrollmentDataDedupeHashBytes"
++ "_hasEnrollmentDonationId"
++ "_hasFailingSubsystemOperations"
++ "_hasIntelligenceFeatureAvailabilityChangeStatus"
++ "_hasIntelligenceFeatureAvailabilityDetailedStatus"
++ "_hasIntelligenceFeatureAvailabilityStatusChangesReported"
++ "_hasLastMobileAssetDownloadAttemptErrorAsset"
++ "_hasLastMobileAssetDownloadAttemptErrorDomain"
++ "_hasLastMobileAssetDownloadAttemptErrorUnderlyingDomain"
++ "_hasModelCatalogSubscriptionHashChangedFromLastStatus"
++ "_hasSampledErrorAsset"
++ "_hasSampledErrorDomain"
++ "_hasSampledErrorUnderlyingDomain"
++ "_hasSampledSubsystemOperation"
++ "_hasServerExecutedDomain"
++ "_hasServerExecutionValuesReported"
++ "_hasSpeakerIdEnrollmentDataReportedTier1"
++ "_hasSpeakerIdModelOneSessionReportedTier1"
++ "_hasSpeakerIdModelSelectedClockSessionInfoTier1"
++ "_hasUseCaseID"
++ "_intelligenceFeatureAvailabilityChangeStatus"
++ "_intelligenceFeatureAvailabilityDetailedStatus"
++ "_intelligenceFeatureAvailabilityStatusChangesReported"
++ "_invocationsCountWhileNotAvailable"
++ "_isAppleIntelligenceAllowedThroughWaitlist"
++ "_isAppleIntelligenceEligible"
++ "_isAppleIntelligenceToggled"
++ "_jsEnrollmentUtteranceCount"
++ "_lastMobileAssetDownloadAttemptErrorAsset"
++ "_lastMobileAssetDownloadAttemptErrorCode"
++ "_lastMobileAssetDownloadAttemptErrorDomain"
++ "_lastMobileAssetDownloadAttemptErrorUnderlyingCode"
++ "_lastMobileAssetDownloadAttemptErrorUnderlyingDomain"
++ "_lowEnrollmentSpeakerSimilarityScoreCounts"
++ "_newStatus"
++ "_prevStatus"
++ "_previousStatus"
++ "_previousSubscriptionHash"
++ "_sampledErrorAsset"
++ "_sampledErrorCode"
++ "_sampledErrorDomain"
++ "_sampledErrorHash"
++ "_sampledErrorUnderlyingCode"
++ "_sampledErrorUnderlyingDomain"
++ "_sampledSubsystemOperation"
++ "_serverExecutedDomain"
++ "_serverExecutionValuesReported"
++ "_snrOfEnrollmentUtterances"
++ "_speakerIdEnrollmentDataReportedTier1"
++ "_speakerIdModelOneSessionReportedTier1"
++ "_speakerIdModelSelectedClockSessionInfoTier1"
++ "_subscriptionDownloadStatus"
++ "_timeSinceLastAppleIntelligenceToggleInSeconds"
++ "_timeSinceLastAvailabilityChangeInSeconds"
++ "_timeSinceLastBootInSeconds"
++ "_timeSinceLastEligibleChangeInSeconds"
++ "_timeSinceLastMobileAssetDownloadAttemptInSeconds"
++ "_timeSinceLastMobileAssetDownloadErrorInSeconds"
++ "_timeSinceLastModelCatalogSubscriptionHashChangeInSeconds"
++ "_timeSinceLastSoftwareUpdateInSeconds"
++ "_timeSinceLastStatusChangeInSeconds"
++ "_timeSinceLastSubscriptionHashChangeInSeconds"
++ "_timeSinceLastWaitlistChangeInSeconds"
++ "_timeSinceSampledErrorInSeconds"
++ "_timeSinceSubscriptionDownloadStatusCompleteInSeconds"
++ "_useCaseID"
++ "_werEnrollmentUtterances"
++ "addEnrollmentUtterances:"
++ "addSnrOfEnrollmentUtterances:"
++ "addWerEnrollmentUtterances:"
++ "appleIntelligenceLocale"
++ "approximateGenerationTimeStamp"
++ "approximateSessionTimeStamp"
++ "attentionInvocationFixedDimensions"
++ "availabilityStatus"
++ "buddyStatus"
++ "buildVersionPriorToSoftwareUpdate"
++ "clearEnrollmentUtterances"
++ "clearSnrOfEnrollmentUtterances"
++ "clearWerEnrollmentUtterances"
++ "clockSessionInfo"
++ "com.apple.aiml.siri.mh.MHClientEvent.MHSpeakerIdDataCollectionEnrollmentDataReportedTier1"
++ "com.apple.aiml.siri.mh.MHClientEvent.MHSpeakerIdDataCollectionSampleSessionReportedTier1"
++ "com.apple.aiml.siri.mh.MHClientEvent.MHSpeakerIdDataCollectionSelectedClockSessionInfoTier1"
++ "com.apple.aiml.siri.odd.ODDSiriClientEvent.ODDIntelligenceFeatureAvailabilityStatusChangesReported"
++ "com.apple.aiml.siri.orch.ORCHClientEvent.ORCHServerExecutionValuesReported"
++ "com.apple.aiml.siri.sad.SADClientEvent.SADIntelligenceFeatureAvailabilityChangeStatus"
++ "com.apple.aiml.siri.sad.SADClientEvent.SADIntelligenceFeatureAvailabilityDetailedStatus"
++ "countPSUSAssets"
++ "countRequiredAssets"
++ "currentStatus"
++ "currentSubscriptionHash"
++ "deleteAppleIntelligenceLocale"
++ "deleteApproximateGenerationTimeStamp"
++ "deleteApproximateSessionTimeStamp"
++ "deleteAttentionInvocationFixedDimensions"
++ "deleteAvailabilityStatus"
++ "deleteBuddyStatus"
++ "deleteBuildVersionPriorToSoftwareUpdate"
++ "deleteClockSessionInfo"
++ "deleteCountPSUSAssets"
++ "deleteCountRequiredAssets"
++ "deleteCurrentStatus"
++ "deleteCurrentSubscriptionHash"
++ "deleteDownloadState"
++ "deleteEnrollmentData"
++ "deleteEnrollmentDataDedupeHashBytes"
++ "deleteEnrollmentDonationId"
++ "deleteEnrollmentUtteranceCount"
++ "deleteEnrollmentUtterances"
++ "deleteErrorCount"
++ "deleteFailingSubsystemOperations"
++ "deleteHasModelCatalogSubscriptionHashChangedFromLastStatus"
++ "deleteIntelligenceFeatureAvailabilityChangeStatus"
++ "deleteIntelligenceFeatureAvailabilityDetailedStatus"
++ "deleteIntelligenceFeatureAvailabilityStatusChangesReported"
++ "deleteInvocationsCountWhileNotAvailable"
++ "deleteIsAppleIntelligenceAllowedThroughWaitlist"
++ "deleteIsAppleIntelligenceEligible"
++ "deleteIsAppleIntelligenceToggled"
++ "deleteJsEnrollmentUtteranceCount"
++ "deleteLastMobileAssetDownloadAttemptErrorAsset"
++ "deleteLastMobileAssetDownloadAttemptErrorCode"
++ "deleteLastMobileAssetDownloadAttemptErrorDomain"
++ "deleteLastMobileAssetDownloadAttemptErrorUnderlyingCode"
++ "deleteLastMobileAssetDownloadAttemptErrorUnderlyingDomain"
++ "deleteLowEnrollmentSpeakerSimilarityScoreCounts"
++ "deleteNewStatus"
++ "deletePrevStatus"
++ "deletePreviousStatus"
++ "deletePreviousSubscriptionHash"
++ "deleteSampledErrorAsset"
++ "deleteSampledErrorCode"
++ "deleteSampledErrorDomain"
++ "deleteSampledErrorHash"
++ "deleteSampledErrorUnderlyingCode"
++ "deleteSampledErrorUnderlyingDomain"
++ "deleteSampledSubsystemOperation"
++ "deleteServerExecutedDomain"
++ "deleteServerExecutionValuesReported"
++ "deleteSnrOfEnrollmentUtterances"
++ "deleteSpeakerIdEnrollmentDataReportedTier1"
++ "deleteSpeakerIdModelOneSessionReportedTier1"
++ "deleteSpeakerIdModelSelectedClockSessionInfoTier1"
++ "deleteSubscriptionDownloadStatus"
++ "deleteTimeSinceLastAppleIntelligenceToggleInSeconds"
++ "deleteTimeSinceLastAvailabilityChangeInSeconds"
++ "deleteTimeSinceLastBootInSeconds"
++ "deleteTimeSinceLastEligibleChangeInSeconds"
++ "deleteTimeSinceLastMobileAssetDownloadAttemptInSeconds"
++ "deleteTimeSinceLastMobileAssetDownloadErrorInSeconds"
++ "deleteTimeSinceLastModelCatalogSubscriptionHashChangeInSeconds"
++ "deleteTimeSinceLastSoftwareUpdateInSeconds"
++ "deleteTimeSinceLastStatusChangeInSeconds"
++ "deleteTimeSinceLastSubscriptionHashChangeInSeconds"
++ "deleteTimeSinceLastWaitlistChangeInSeconds"
++ "deleteTimeSinceSampledErrorInSeconds"
++ "deleteTimeSinceSubscriptionDownloadStatusCompleteInSeconds"
++ "deleteUseCaseID"
++ "deleteWerEnrollmentUtterances"
++ "downloadState"
++ "enrollmentData"
++ "enrollmentDataDedupeHashBytes"
++ "enrollmentDonationId"
++ "enrollmentUtteranceCount"
++ "enrollmentUtterances"
++ "enrollmentUtterancesAtIndex:"
++ "enrollmentUtterancesCount"
++ "errorCount"
++ "failingSubsystemOperations"
++ "hasAppleIntelligenceLocale"
++ "hasApproximateGenerationTimeStamp"
++ "hasApproximateSessionTimeStamp"
++ "hasAttentionInvocationFixedDimensions"
++ "hasAvailabilityStatus"
++ "hasBuddyStatus"
++ "hasBuildVersionPriorToSoftwareUpdate"
++ "hasClockSessionInfo"
++ "hasCountPSUSAssets"
++ "hasCountRequiredAssets"
++ "hasCurrentStatus"
++ "hasCurrentSubscriptionHash"
++ "hasDownloadState"
++ "hasEnrollmentData"
++ "hasEnrollmentDataDedupeHashBytes"
++ "hasEnrollmentDonationId"
++ "hasEnrollmentUtteranceCount"
++ "hasErrorCount"
++ "hasFailingSubsystemOperations"
++ "hasHasModelCatalogSubscriptionHashChangedFromLastStatus"
++ "hasIntelligenceFeatureAvailabilityChangeStatus"
++ "hasIntelligenceFeatureAvailabilityDetailedStatus"
++ "hasIntelligenceFeatureAvailabilityStatusChangesReported"
++ "hasInvocationsCountWhileNotAvailable"
++ "hasIsAppleIntelligenceAllowedThroughWaitlist"
++ "hasIsAppleIntelligenceEligible"
++ "hasIsAppleIntelligenceToggled"
++ "hasJsEnrollmentUtteranceCount"
++ "hasLastMobileAssetDownloadAttemptErrorAsset"
++ "hasLastMobileAssetDownloadAttemptErrorCode"
++ "hasLastMobileAssetDownloadAttemptErrorDomain"
++ "hasLastMobileAssetDownloadAttemptErrorUnderlyingCode"
++ "hasLastMobileAssetDownloadAttemptErrorUnderlyingDomain"
++ "hasLowEnrollmentSpeakerSimilarityScoreCounts"
++ "hasModelCatalogSubscriptionHashChangedFromLastStatus"
++ "hasNewStatus"
++ "hasPrevStatus"
++ "hasPreviousStatus"
++ "hasPreviousSubscriptionHash"
++ "hasSampledErrorAsset"
++ "hasSampledErrorCode"
++ "hasSampledErrorDomain"
++ "hasSampledErrorHash"
++ "hasSampledErrorUnderlyingCode"
++ "hasSampledErrorUnderlyingDomain"
++ "hasSampledSubsystemOperation"
++ "hasServerExecutedDomain"
++ "hasServerExecutionValuesReported"
++ "hasSpeakerIdEnrollmentDataReportedTier1"
++ "hasSpeakerIdModelOneSessionReportedTier1"
++ "hasSpeakerIdModelSelectedClockSessionInfoTier1"
++ "hasSubscriptionDownloadStatus"
++ "hasTimeSinceLastAppleIntelligenceToggleInSeconds"
++ "hasTimeSinceLastAvailabilityChangeInSeconds"
++ "hasTimeSinceLastBootInSeconds"
++ "hasTimeSinceLastEligibleChangeInSeconds"
++ "hasTimeSinceLastMobileAssetDownloadAttemptInSeconds"
++ "hasTimeSinceLastMobileAssetDownloadErrorInSeconds"
++ "hasTimeSinceLastModelCatalogSubscriptionHashChangeInSeconds"
++ "hasTimeSinceLastSoftwareUpdateInSeconds"
++ "hasTimeSinceLastStatusChangeInSeconds"
++ "hasTimeSinceLastSubscriptionHashChangeInSeconds"
++ "hasTimeSinceLastWaitlistChangeInSeconds"
++ "hasTimeSinceSampledErrorInSeconds"
++ "hasTimeSinceSubscriptionDownloadStatusCompleteInSeconds"
++ "hasUseCaseID"
++ "intelligenceFeatureAvailabilityChangeStatus"
++ "intelligenceFeatureAvailabilityDetailedStatus"
++ "intelligenceFeatureAvailabilityStatusChangesReported"
++ "invocationsCountWhileNotAvailable"
++ "isAppleIntelligenceAllowedThroughWaitlist"
++ "isAppleIntelligenceEligible"
++ "isAppleIntelligenceToggled"
++ "jsEnrollmentUtteranceCount"
++ "lastMobileAssetDownloadAttemptErrorAsset"
++ "lastMobileAssetDownloadAttemptErrorCode"
++ "lastMobileAssetDownloadAttemptErrorDomain"
++ "lastMobileAssetDownloadAttemptErrorUnderlyingCode"
++ "lastMobileAssetDownloadAttemptErrorUnderlyingDomain"
++ "lowEnrollmentSpeakerSimilarityScoreCounts"
++ "newStatus"
++ "orderedMessages.siriEventTypeUnion.mhClientEvent.speakerIdEnrollmentDataReportedTier1"
++ "orderedMessages.siriEventTypeUnion.mhClientEvent.speakerIdModelOneSessionReportedTier1"
++ "orderedMessages.siriEventTypeUnion.mhClientEvent.speakerIdModelSelectedClockSessionInfoTier1"
++ "prevStatus"
++ "previousStatus"
++ "previousSubscriptionHash"
++ "sampledErrorAsset"
++ "sampledErrorCode"
++ "sampledErrorDomain"
++ "sampledErrorHash"
++ "sampledErrorUnderlyingCode"
++ "sampledErrorUnderlyingDomain"
++ "sampledSubsystemOperation"
++ "serverExecutedDomain"
++ "serverExecutionValuesReported"
++ "setAppleIntelligenceLocale:"
++ "setApproximateGenerationTimeStamp:"
++ "setApproximateSessionTimeStamp:"
++ "setAttentionInvocationFixedDimensions:"
++ "setAvailabilityStatus:"
++ "setBuddyStatus:"
++ "setBuildVersionPriorToSoftwareUpdate:"
++ "setClockSessionInfo:"
++ "setCountPSUSAssets:"
++ "setCountRequiredAssets:"
++ "setCurrentStatus:"
++ "setCurrentSubscriptionHash:"
++ "setDownloadState:"
++ "setEnrollmentData:"
++ "setEnrollmentDataDedupeHashBytes:"
++ "setEnrollmentDonationId:"
++ "setEnrollmentUtteranceCount:"
++ "setEnrollmentUtterances:"
++ "setErrorCount:"
++ "setFailingSubsystemOperations:"
++ "setHasAppleIntelligenceLocale:"
++ "setHasApproximateGenerationTimeStamp:"
++ "setHasApproximateSessionTimeStamp:"
++ "setHasAttentionInvocationFixedDimensions:"
++ "setHasAvailabilityStatus:"
++ "setHasBuddyStatus:"
++ "setHasBuildVersionPriorToSoftwareUpdate:"
++ "setHasClockSessionInfo:"
++ "setHasCountPSUSAssets:"
++ "setHasCountRequiredAssets:"
++ "setHasCurrentStatus:"
++ "setHasCurrentSubscriptionHash:"
++ "setHasDownloadState:"
++ "setHasEnrollmentData:"
++ "setHasEnrollmentDataDedupeHashBytes:"
++ "setHasEnrollmentDonationId:"
++ "setHasEnrollmentUtteranceCount:"
++ "setHasErrorCount:"
++ "setHasFailingSubsystemOperations:"
++ "setHasHasModelCatalogSubscriptionHashChangedFromLastStatus:"
++ "setHasIntelligenceFeatureAvailabilityChangeStatus:"
++ "setHasIntelligenceFeatureAvailabilityDetailedStatus:"
++ "setHasIntelligenceFeatureAvailabilityStatusChangesReported:"
++ "setHasInvocationsCountWhileNotAvailable:"
++ "setHasIsAppleIntelligenceAllowedThroughWaitlist:"
++ "setHasIsAppleIntelligenceEligible:"
++ "setHasIsAppleIntelligenceToggled:"
++ "setHasJsEnrollmentUtteranceCount:"
++ "setHasLastMobileAssetDownloadAttemptErrorAsset:"
++ "setHasLastMobileAssetDownloadAttemptErrorCode:"
++ "setHasLastMobileAssetDownloadAttemptErrorDomain:"
++ "setHasLastMobileAssetDownloadAttemptErrorUnderlyingCode:"
++ "setHasLastMobileAssetDownloadAttemptErrorUnderlyingDomain:"
++ "setHasLowEnrollmentSpeakerSimilarityScoreCounts:"
++ "setHasModelCatalogSubscriptionHashChangedFromLastStatus:"
++ "setHasNewStatus:"
++ "setHasPrevStatus:"
++ "setHasPreviousStatus:"
++ "setHasPreviousSubscriptionHash:"
++ "setHasSampledErrorAsset:"
++ "setHasSampledErrorCode:"
++ "setHasSampledErrorDomain:"
++ "setHasSampledErrorHash:"
++ "setHasSampledErrorUnderlyingCode:"
++ "setHasSampledErrorUnderlyingDomain:"
++ "setHasSampledSubsystemOperation:"
++ "setHasServerExecutedDomain:"
++ "setHasServerExecutionValuesReported:"
++ "setHasSpeakerIdEnrollmentDataReportedTier1:"
++ "setHasSpeakerIdModelOneSessionReportedTier1:"
++ "setHasSpeakerIdModelSelectedClockSessionInfoTier1:"
++ "setHasSubscriptionDownloadStatus:"
++ "setHasTimeSinceLastAppleIntelligenceToggleInSeconds:"
++ "setHasTimeSinceLastAvailabilityChangeInSeconds:"
++ "setHasTimeSinceLastBootInSeconds:"
++ "setHasTimeSinceLastEligibleChangeInSeconds:"
++ "setHasTimeSinceLastMobileAssetDownloadAttemptInSeconds:"
++ "setHasTimeSinceLastMobileAssetDownloadErrorInSeconds:"
++ "setHasTimeSinceLastModelCatalogSubscriptionHashChangeInSeconds:"
++ "setHasTimeSinceLastSoftwareUpdateInSeconds:"
++ "setHasTimeSinceLastStatusChangeInSeconds:"
++ "setHasTimeSinceLastSubscriptionHashChangeInSeconds:"
++ "setHasTimeSinceLastWaitlistChangeInSeconds:"
++ "setHasTimeSinceSampledErrorInSeconds:"
++ "setHasTimeSinceSubscriptionDownloadStatusCompleteInSeconds:"
++ "setHasUseCaseID:"
++ "setIntelligenceFeatureAvailabilityChangeStatus:"
++ "setIntelligenceFeatureAvailabilityDetailedStatus:"
++ "setIntelligenceFeatureAvailabilityStatusChangesReported:"
++ "setInvocationsCountWhileNotAvailable:"
++ "setIsAppleIntelligenceAllowedThroughWaitlist:"
++ "setIsAppleIntelligenceEligible:"
++ "setIsAppleIntelligenceToggled:"
++ "setJsEnrollmentUtteranceCount:"
++ "setLastMobileAssetDownloadAttemptErrorAsset:"
++ "setLastMobileAssetDownloadAttemptErrorCode:"
++ "setLastMobileAssetDownloadAttemptErrorDomain:"
++ "setLastMobileAssetDownloadAttemptErrorUnderlyingCode:"
++ "setLastMobileAssetDownloadAttemptErrorUnderlyingDomain:"
++ "setLowEnrollmentSpeakerSimilarityScoreCounts:"
++ "setNewStatus:"
++ "setPrevStatus:"
++ "setPreviousStatus:"
++ "setPreviousSubscriptionHash:"
++ "setSampledErrorAsset:"
++ "setSampledErrorCode:"
++ "setSampledErrorDomain:"
++ "setSampledErrorHash:"
++ "setSampledErrorUnderlyingCode:"
++ "setSampledErrorUnderlyingDomain:"
++ "setSampledSubsystemOperation:"
++ "setServerExecutedDomain:"
++ "setServerExecutionValuesReported:"
++ "setSnrOfEnrollmentUtterances:"
++ "setSpeakerIdEnrollmentDataReportedTier1:"
++ "setSpeakerIdModelOneSessionReportedTier1:"
++ "setSpeakerIdModelSelectedClockSessionInfoTier1:"
++ "setSubscriptionDownloadStatus:"
++ "setTimeSinceLastAppleIntelligenceToggleInSeconds:"
++ "setTimeSinceLastAvailabilityChangeInSeconds:"
++ "setTimeSinceLastBootInSeconds:"
++ "setTimeSinceLastEligibleChangeInSeconds:"
++ "setTimeSinceLastMobileAssetDownloadAttemptInSeconds:"
++ "setTimeSinceLastMobileAssetDownloadErrorInSeconds:"
++ "setTimeSinceLastModelCatalogSubscriptionHashChangeInSeconds:"
++ "setTimeSinceLastSoftwareUpdateInSeconds:"
++ "setTimeSinceLastStatusChangeInSeconds:"
++ "setTimeSinceLastSubscriptionHashChangeInSeconds:"
++ "setTimeSinceLastWaitlistChangeInSeconds:"
++ "setTimeSinceSampledErrorInSeconds:"
++ "setTimeSinceSubscriptionDownloadStatusCompleteInSeconds:"
++ "setUseCaseID:"
++ "setWerEnrollmentUtterances:"
++ "snrOfEnrollmentUtterances"
++ "snrOfEnrollmentUtterancesAtIndex:"
++ "snrOfEnrollmentUtterancesCount"
++ "speakerIdEnrollmentDataReportedTier1"
++ "speakerIdModelOneSessionReportedTier1"
++ "speakerIdModelSelectedClockSessionInfoTier1"
++ "subscriptionDownloadStatus"
++ "timeSinceLastAppleIntelligenceToggleInSeconds"
++ "timeSinceLastAvailabilityChangeInSeconds"
++ "timeSinceLastBootInSeconds"
++ "timeSinceLastEligibleChangeInSeconds"
++ "timeSinceLastMobileAssetDownloadAttemptInSeconds"
++ "timeSinceLastMobileAssetDownloadErrorInSeconds"
++ "timeSinceLastModelCatalogSubscriptionHashChangeInSeconds"
++ "timeSinceLastSoftwareUpdateInSeconds"
++ "timeSinceLastStatusChangeInSeconds"
++ "timeSinceLastSubscriptionHashChangeInSeconds"
++ "timeSinceLastWaitlistChangeInSeconds"
++ "timeSinceSampledErrorInSeconds"
++ "timeSinceSubscriptionDownloadStatusCompleteInSeconds"
++ "useCaseID"
++ "werEnrollmentUtterances"
++ "werEnrollmentUtterancesAtIndex:"
++ "werEnrollmentUtterancesCount"
++ "{?=\"approximateGenerationTimeStamp\"b1\"triggerPhrase\"b1}"
++ "{?=\"approximateSessionTimeStamp\"b1}"
++ "{?=\"currentStatus\"b1\"previousStatus\"b1\"timeSinceLastStatusChangeInSeconds\"b1\"timeSinceLastAvailabilityChangeInSeconds\"b1\"hasModelCatalogSubscriptionHashChangedFromLastStatus\"b1\"isAppleIntelligenceEligible\"b1\"isAppleIntelligenceAllowedThroughWaitlist\"b1\"isAppleIntelligenceToggled\"b1\"timeSinceLastEligibleChangeInSeconds\"b1\"timeSinceLastWaitlistChangeInSeconds\"b1\"timeSinceLastAppleIntelligenceToggleInSeconds\"b1\"timeSinceLastBootInSeconds\"b1\"timeSinceLastMobileAssetDownloadAttemptInSeconds\"b1\"timeSinceLastMobileAssetDownloadErrorInSeconds\"b1\"downloadState\"b1\"timeSinceLastModelCatalogSubscriptionHashChangeInSeconds\"b1\"useCase\"b1\"timeSinceLastSoftwareUpdateInSeconds\"b1\"timeSinceSampledErrorInSeconds\"b1\"buddyStatus\"b1\"invocationsCountWhileNotAvailable\"b1\"lastMobileAssetDownloadAttemptErrorUnderlyingCode\"b1\"mode\"b1\"subscriptionDownloadStatus\"b1\"timeSinceSubscriptionDownloadStatusCompleteInSeconds\"b1}"
++ "{?=\"dataSharingOptInStatus\"b1\"ageOfProfileInMonths\"b1\"enrollmentPitchEstimation\"b1\"enrollmentUtteranceCount\"b1\"jsEnrollmentUtteranceCount\"b1\"lowEnrollmentSpeakerSimilarityScoreCounts\"b1}"
++ "{?=\"locale\"b1\"status\"b1\"currentSubscriptionHash\"b1\"downloadState\"b1\"timeSinceLastMobileAssetDownloadAttemptInSeconds\"b1\"timeSinceLastMobileAssetDownloadErrorInSeconds\"b1\"lastMobileAssetDownloadAttemptErrorCode\"b1\"errorCount\"b1\"sampledErrorCode\"b1\"sampledErrorHash\"b1\"sampledErrorUnderlyingCode\"b1\"timeSinceLastAppleIntelligenceToggleInSeconds\"b1\"timeSinceLastSubscriptionHashChangeInSeconds\"b1\"timeSinceLastBootInSeconds\"b1\"countPSUSAssets\"b1\"countRequiredAssets\"b1\"timeSinceLastSoftwareUpdateInSeconds\"b1\"timeSinceSampledErrorInSeconds\"b1\"buddyStatus\"b1\"invocationsCountWhileNotAvailable\"b1\"lastMobileAssetDownloadAttemptErrorUnderlyingCode\"b1\"mode\"b1\"subscriptionDownloadStatus\"b1\"timeSinceSubscriptionDownloadStatusCompleteInSeconds\"b1}"
++ "{?=\"newStatus\"b1\"prevStatus\"b1\"timeSinceLastStatusChangeInSeconds\"b1\"timeSinceLastAvailabilityChangeInSeconds\"b1\"isAppleIntelligenceEligible\"b1\"timeSinceLastEligibleChangeInSeconds\"b1\"isAppleIntelligenceAllowedThroughWaitlist\"b1\"timeSinceLastWaitlistChangeInSeconds\"b1\"isAppleIntelligenceToggled\"b1\"timeSinceLastAppleIntelligenceToggleInSeconds\"b1\"timeSinceLastBootInSeconds\"b1\"currentSubscriptionHash\"b1\"previousSubscriptionHash\"b1\"timeSinceLastSubscriptionHashChangeInSeconds\"b1}"
++ "\xd1"
+
+```

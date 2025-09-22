@@ -1,0 +1,700 @@
+## MailUI
+
+> `/System/Library/PrivateFrameworks/MailUI.framework/MailUI`
+
+```diff
+
+-3864.100.1.2.9
+-  __TEXT.__text: 0x26284c
++3864.200.33.2.2
++  __TEXT.__text: 0x2669a0
+   __TEXT.__auth_stubs: 0x4ca0
+-  __TEXT.__objc_methlist: 0x9944
+-  __TEXT.__cstring: 0xe7ca
+-  __TEXT.__const: 0xb694
+-  __TEXT.__oslogstring: 0x6a20
+-  __TEXT.__gcc_except_tab: 0x12b4
++  __TEXT.__objc_methlist: 0x998c
++  __TEXT.__cstring: 0xe87a
++  __TEXT.__const: 0xb7b4
++  __TEXT.__oslogstring: 0x6890
++  __TEXT.__gcc_except_tab: 0x12c4
+   __TEXT.__dlopen_cstrs: 0xba
+   __TEXT.__ustring: 0x2e2
+-  __TEXT.__swift5_typeref: 0xaa58
+-  __TEXT.__constg_swiftt: 0x3638
++  __TEXT.__swift5_typeref: 0xa9bc
++  __TEXT.__constg_swiftt: 0x3698
+   __TEXT.__swift5_builtin: 0x488
+   __TEXT.__swift5_reflstr: 0x3140
+   __TEXT.__swift5_fieldmd: 0x2cf4
+   __TEXT.__swift5_assocty: 0xee0
+-  __TEXT.__swift5_proto: 0x570
+-  __TEXT.__swift5_types: 0x404
+-  __TEXT.__swift5_capture: 0x3820
++  __TEXT.__swift5_proto: 0x580
++  __TEXT.__swift5_types: 0x40c
++  __TEXT.__swift5_capture: 0x3848
+   __TEXT.__swift_as_entry: 0xfc
+   __TEXT.__swift_as_ret: 0xbc
+   __TEXT.__swift5_protos: 0x24
+   __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__unwind_info: 0x5480
++  __TEXT.__unwind_info: 0x5488
+   __TEXT.__eh_frame: 0x2124
+   __TEXT.__objc_classname: 0x1589
+-  __TEXT.__objc_methname: 0x1ca31
+-  __TEXT.__objc_methtype: 0x3fd0
+-  __TEXT.__objc_stubs: 0xff20
+-  __DATA_CONST.__got: 0x1a78
+-  __DATA_CONST.__const: 0x2fc8
++  __TEXT.__objc_methname: 0x1ca58
++  __TEXT.__objc_methtype: 0x3fde
++  __TEXT.__objc_stubs: 0xfd00
++  __DATA_CONST.__got: 0x1a48
++  __DATA_CONST.__const: 0x3088
+   __DATA_CONST.__objc_classlist: 0x568
+   __DATA_CONST.__objc_catlist: 0xb8
+   __DATA_CONST.__objc_protolist: 0x348
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6308
++  __DATA_CONST.__objc_selrefs: 0x62b0
+   __DATA_CONST.__objc_protorefs: 0x128
+   __DATA_CONST.__objc_superrefs: 0x2a8
+   __DATA_CONST.__objc_arraydata: 0x58
+   __AUTH_CONST.__auth_got: 0x2660
+-  __AUTH_CONST.__const: 0xd0e8
+-  __AUTH_CONST.__cfstring: 0x4b20
+-  __AUTH_CONST.__objc_const: 0x13b28
++  __AUTH_CONST.__const: 0xd178
++  __AUTH_CONST.__cfstring: 0x4920
++  __AUTH_CONST.__objc_const: 0x13b30
+   __AUTH_CONST.__objc_intobj: 0x1c8
+   __AUTH_CONST.__objc_arrayobj: 0x60
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH.__objc_data: 0x1f48
+   __AUTH.__data: 0xc08
+-  __DATA.__objc_ivar: 0x9cc
+-  __DATA.__data: 0x5108
++  __DATA.__objc_ivar: 0x9c8
++  __DATA.__data: 0x5158
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x6940
++  __DATA.__bss: 0x6b30
+   __DATA.__common: 0x3f8
+   __DATA_DIRTY.__objc_data: 0x2c70
+-  __DATA_DIRTY.__data: 0x2f48
+-  __DATA_DIRTY.__bss: 0x46f0
++  __DATA_DIRTY.__data: 0x2fc8
++  __DATA_DIRTY.__bss: 0x46e0
+   __DATA_DIRTY.__common: 0x30
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - /System/Library/PrivateFrameworks/PersonaUI.framework/PersonaUI
+   - /System/Library/PrivateFrameworks/ProactiveSummarizationClient.framework/ProactiveSummarizationClient
+   - /System/Library/PrivateFrameworks/Sage.framework/Sage
+-  - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /System/Library/PrivateFrameworks/iCloudMailAssistant.framework/iCloudMailAssistant
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1FCA5738-94B6-3C47-B676-EB3C04D5840D
+-  Functions: 12134
+-  Symbols:   13748
+-  CStrings:  7758
++  UUID: 07BA96A2-5053-332E-B0F7-BAC045F900AF
++  Functions: 12176
++  Symbols:   13755
++  CStrings:  7717
+ 
+Symbols:
++ -[MUIAvatarImageContext initWithCategory:emailAddress:businessLogoID:isAuthenticated:reducePlaceholderImage:brandIndicatorLocation:scale:isRTL:]
++ -[MUIAvatarImageContext initWithMessageListItem:reducePlaceholderImage:].cold.1
++ -[MUIAvatarImageGenerator allowGeneratingAvatarImagesFuture]
++ -[MUIBrandIndicatorProvider bimiLogoFromLocation:scale:handler:]
++ -[MUIBrandIndicatorProvider bimiLogoFromLocation:size:scale:handler:]
++ -[MUIBrandIndicatorProvider brandIndicatorFutureForLocation:scale:]
++ -[MUIBrandIndicatorProvider brandIndicatorFutureForLocation:size:scale:]
++ -[MUIMessageListSearchSectionDataSource _setUpSearchHeaderRegistrationForSection:layoutValuesHelper:]
++ -[MUIMessageListSearchSectionDataSource _setUpSearchProgressRegistrationForSection:searchProgressView:]
++ -[MUIMessageListViewController dataSource].cold.1
++ -[MUISearchIndexStatus messageBodiesIndexed]
++ -[MUISearchInstantAnswer(Flight) initFlightAnswerWithCSInstantAnswer:].cold.1
++ -[MessageListDataSource _commitPendingDataSourceAndCheckIfStale:identifier:]
++ -[MessageListDataSource _performDataSourceUpdateAnimated:withSectionDataSource:cleanSnapshot:isLastUpdate:prepare:update:immediateCompletion:completion:].cold.1
++ -[MessageListDataSource dealloc]
++ -[MessageListDataSource pendingSectionDataSources]
++ -[MessageListDataSource sectionDataSourceForSection:]
++ -[MessageListDataSource setPendingSectionDataSources:]
++ -[MessageListSectionDataSource description]
++ GCC_except_table108
++ GCC_except_table109
++ GCC_except_table111
++ GCC_except_table172
++ GCC_except_table174
++ GCC_except_table176
++ GCC_except_table26
++ GCC_except_table28
++ GCC_except_table35
++ GCC_except_table43
++ GCC_except_table47
++ GCC_except_table57
++ GCC_except_table66
++ GCC_except_table78
++ GCC_except_table80
++ GCC_except_table84
++ GCC_except_table91
++ GCC_except_table93
++ GCC_except_table96
++ _EMParsecInstantAnswersFlightArrivalGateKey
++ _EMParsecInstantAnswersFlightArrivalTerminalKey
++ _EMParsecInstantAnswersFlightDepartureGateKey
++ _EMParsecInstantAnswersFlightDepartureTerminalKey
++ _EMParsecInstantAnswersFlightDivertedAirportKey
++ _EMParsecInstantAnswersFlightStatusKey
++ _OBJC_IVAR_$_MUISearchIndexStatus._messageBodiesIndexed
++ _OBJC_IVAR_$_MessageListDataSource._pendingSectionDataSources
++ __CLASS_METHODS_MUIAvatarImageGeneratorResult
++ __OBJC_$_INSTANCE_METHODS_MUIAvatarImageGeneratorResult(MailUI|MailUI1)
++ __PROTOCOLS__TtC6MailUI21FeedbackListViewModel.144
++ ___101-[MUIMessageListSearchSectionDataSource _setUpSearchHeaderRegistrationForSection:layoutValuesHelper:]_block_invoke
++ ___101-[MUIMessageListSearchSectionDataSource _setUpSearchHeaderRegistrationForSection:layoutValuesHelper:]_block_invoke.cold.1
++ ___103-[MUIMessageListSearchSectionDataSource _setUpSearchProgressRegistrationForSection:searchProgressView:]_block_invoke
++ ___103-[MUIMessageListSearchSectionDataSource _setUpSearchProgressRegistrationForSection:searchProgressView:]_block_invoke_2
++ ___115-[MessageListSectionDataSource _addedItemIDs:before:existingItemID:toThreadWithItemID:inCollection:isLastObserver:]_block_invoke.146
++ ___115-[MessageListSectionDataSource _addedItemIDs:before:existingItemID:toThreadWithItemID:inCollection:isLastObserver:]_block_invoke_2.147
++ ___117-[MessageListSectionDataSource _deleteItemsWithIDs:fromCollection:animated:useImmediateCompletion:completionHandler:]_block_invoke.152
++ ___117-[MessageListSectionDataSource _deleteItemsWithIDs:fromCollection:animated:useImmediateCompletion:completionHandler:]_block_invoke_2.156
++ ___123-[MessageListSectionDataSource collection:changedItemIDs:itemIDsWithCountChanges:itemIDsWithBrandIndicatorLocationChanges:]_block_invoke.115
++ ___153-[MessageListDataSource _performDataSourceUpdateAnimated:withSectionDataSource:cleanSnapshot:isLastUpdate:prepare:update:immediateCompletion:completion:]_block_invoke
++ ___153-[MessageListDataSource _performDataSourceUpdateAnimated:withSectionDataSource:cleanSnapshot:isLastUpdate:prepare:update:immediateCompletion:completion:]_block_invoke_2
++ ___32-[MessageListDataSource dealloc]_block_invoke
++ ___32-[MessageListDataSource dealloc]_block_invoke_2
++ ___32-[MessageListDataSource dealloc]_block_invoke_3
++ ___32-[MessageListDataSource dealloc]_block_invoke_4
++ ___48-[MessageListDataSource reloadItemsWithItemIDs:]_block_invoke.46
++ ___48-[MessageListDataSource reloadItemsWithItemIDs:]_block_invoke_2.51
++ ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke.65
++ ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke.69
++ ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke.70
++ ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke.70.cold.1
++ ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke.71
++ ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke.73
++ ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke.73.cold.1
++ ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke.77
++ ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke_2.80
++ ___53-[MUIAvatarImageGenerator contactForContext:handler:]_block_invoke.56
++ ___53-[MUIAvatarImageGenerator contactForContext:handler:]_block_invoke.56.cold.1
++ ___53-[MUIAvatarImageGenerator contactForContext:handler:]_block_invoke.70
++ ___58-[MessageListDataSource applyMessageListDataSourceUpdate:]_block_invoke_7
++ ___60-[MessageListDataSource _removeMessageListSection:animated:]_block_invoke.43
++ ___62-[MessageListSectionDataSource _maybeReloadForTimedOutItemIDs]_block_invoke.136
++ ___62-[MessageListSectionDataSource collection:movedItemIDs:after:]_block_invoke.111
++ ___63-[MessageListSectionDataSource collection:movedItemIDs:before:]_block_invoke.106
++ ___63-[MessageListSectionDataSource collectionDidFinishInitialLoad:]_block_invoke.123
++ ___63-[MessageListSectionDataSource didFinishRecoveryForCollection:]_block_invoke.118
++ ___66-[MUIAvatarImageGenerator _businessAvatarImageForContext:handler:]_block_invoke.88
++ ___66-[MUIAvatarImageGenerator _businessAvatarImageForContext:handler:]_block_invoke.89
++ ___66-[MUIAvatarImageGenerator _generateAvatarImageForContext:handler:]_block_invoke.79
++ ___68-[MUIAvatarImageGenerator _avatarStyleForContext:completionHandler:]_block_invoke.83
++ ___69-[MUIBrandIndicatorProvider bimiLogoFromLocation:size:scale:handler:]_block_invoke
++ ___69-[MUIBrandIndicatorProvider bimiLogoFromLocation:size:scale:handler:]_block_invoke_2
++ ___72-[MUIBrandIndicatorProvider brandIndicatorFutureForLocation:size:scale:]_block_invoke
++ ___72-[MUIBrandIndicatorProvider brandIndicatorFutureForLocation:size:scale:]_block_invoke.13
++ ___72-[MUIBrandIndicatorProvider brandIndicatorFutureForLocation:size:scale:]_block_invoke.13.cold.1
++ ___72-[MUIBrandIndicatorProvider brandIndicatorFutureForLocation:size:scale:]_block_invoke.6
++ ___72-[MUIBrandIndicatorProvider brandIndicatorFutureForLocation:size:scale:]_block_invoke.6.cold.1
++ ___76-[MessageListDataSource _commitPendingDataSourceAndCheckIfStale:identifier:]_block_invoke
++ ___80-[MessageListSectionDataSource collection:replacedExistingItemID:withNewItemID:]_block_invoke.117
++ ___80-[MessageListSectionDataSource collection:replacedExistingItemID:withNewItemID:]_block_invoke.117.cold.1
++ ___83-[MessageListSectionDataSource collection:didFinishInitialLoadForThreadWithItemID:]_block_invoke.122
++ ___87-[MessageListSectionDataSource messageListItemForItemID:indexPath:receiver:completion:]_block_invoke.87
++ ___87-[MessageListSectionDataSource messageListItemForItemID:indexPath:receiver:completion:]_block_invoke.89
++ ___87-[MessageListSectionDataSource messageListItemForItemID:indexPath:receiver:completion:]_block_invoke.89.cold.1
++ ___87-[MessageListSectionDataSource messageListItemForItemID:indexPath:receiver:completion:]_block_invoke.90
++ ___96-[MessageListSectionDataSource _recoverFailedItemIDsIfNeededForCollection:excluding:completion:]_block_invoke.161
++ ___96-[MessageListSectionDataSource _recoverFailedItemIDsIfNeededForCollection:excluding:completion:]_block_invoke.161.cold.1
++ ___96-[MessageListSectionDataSource _recoverFailedItemIDsIfNeededForCollection:excluding:completion:]_block_invoke.165
++ ___block_descriptor_32_e24_v16?0"NSMutableArray"8l
++ ___block_descriptor_40_e8_32bs_e17_v16?0"UIImage"8ls32l8
++ ___block_descriptor_40_e8_32bs_e29_v24?0"UIImage"8"NSError"16ls32l8
++ ___block_descriptor_40_e8_32bs_e39_v16?0"MUIAvatarImageGeneratorResult"8ls32l8
++ ___block_descriptor_40_e8_32r_e24_v16?0"NSMutableArray"8lr32l8
++ ___block_descriptor_40_e8_32s_e24_v16?0"NSMutableArray"8ls32l8
++ ___block_descriptor_48_e8_32s40s_e17_v16?0"UIImage"8ls32l8s40l8
++ ___block_descriptor_60_e8_32s40s48r_e29_v16?0"NSMutableDictionary"8ls32l8s40l8r48l8
++ ___block_descriptor_64_e8_32s40s48bs56bs_e29_v24?0"UIImage"8"NSError"16ls48l8s32l8s40l8s56l8
++ ___block_descriptor_72_e8_32s40s48s56bs64bs_e32_v32?0"UIImage"8q16"NSError"24ls32l8s56l8s40l8s48l8s64l8
++ ___block_descriptor_72_e8_32s40s_e18_"UIImage"16?0^8ls32l8s40l8
++ ___block_descriptor_72_e8_32s40s_e41_"EFFuture"16?0"<EMBrandIndicatorSVG>"8ls32l8s40l8
++ ___block_descriptor_80_e8_32s40s48s56s64bs72w_e41_v24?0"<EMMessageListItem>"8"NSError"16lw72l8s64l8s32l8s40l8s48l8s56l8
++ ___block_descriptor_88_e8_32s40s48s56s64bs72w_e29_v16?0"<EMMessageListItem>"8lw72l8s32l8s40l8s48l8s56l8s64l8
++ ___block_literal_global.100
++ ___block_literal_global.122
++ ___block_literal_global.125
++ ___block_literal_global.15
++ ___block_literal_global.17
++ ___block_literal_global.185
++ ___block_literal_global.49
++ ___block_literal_global.60
++ ___block_literal_global.61
++ ___block_literal_global.68
++ ___block_literal_global.79
++ ___block_literal_global.86
++ _associated conformance So13MUIAvatarTypeVSHSCSQ
++ _associated conformance So14MUIAvatarStyleVSHSCSQ
++ _block_copy_helper.115
++ _block_copy_helper.209
++ _block_copy_helper.215
++ _block_copy_helper.225
++ _block_descriptor.117
++ _block_descriptor.211
++ _block_descriptor.217
++ _block_descriptor.227
++ _block_destroy_helper.116
++ _block_destroy_helper.210
++ _block_destroy_helper.216
++ _block_destroy_helper.226
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOQr.3
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.4
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA9TupleViewVyACyAA0G0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOy04MailB0028MUIHighlightedMessagesHeaderG0V_Qo_AA0K18AttachmentModifierVG_AiAE06scrollD10BackgroundyQrAA10VisibilityOFQOyAiAE012listHasStackM0QryFQOyACyAiAE0W5StyleyQrqd__AA04ListZ0Rd__lFQOyAA4ListVySOAGyAA7ForEachVySaySo0O7MessageCGSOACyAiAE0W12RowSeparator_5edgesQrAW_AA12VerticalEdgeO3SetVtFQOyACyAiAEAjKQrAM_tFQOyAN0op3RowG0V_Qo_AA022_EnvironmentKeyWritingS0VyAA0U10ProminenceVGG_Qo_AA013_TraitWritingS0VyAA21ListRowInsetsTraitKeyVGGG_AN0op6FooterG0VSgtGG_AA09PlainListZ0VQo_AA16_FixedSizeLayoutVG_Qo__Qo_tGGAA01_uS0VyAN11MessageList33_11A2C280F14386D52C654905A1B18DC5LLV0uG0VGGAA11_ClipEffectVyAA22UnevenRoundedRectangleVGGASGAaHHPA58_AaHHPA52_AaHHPA43_AaHHPyHC_A51_AA0gS0HPyHCHC_A57_AAA60_HPyHCHC_AsAA60_HPyHCHC.14
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA30_EnvironmentKeyWritingModifierVyAA19SymbolRenderingModeVSgGGAJyAA4FontVSgGGAJyAE5ScaleOGGAA06_FrameH0VGAA08_PaddingH0VGA1_GAA4ViewHPA2_AAA4_HPA_AAA4_HPAxAA4_HPAtAA4_HPAoAA4_HPAhAA4_HPAeAA4_HPyHC_AgA0tL0HPyHCHC_AnAA5_HPyHCHC_AsAA5_HPyHCHC_AwAA5_HPyHCHC_AzAA5_HPyHCHC_A1_AAA5_HPyHCHC_A1_AAA5_HPyHCHC.3
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOyAA15ModifiedContentVyALyALyAA6HStackVyALy04MailB009MUIAvatarC13RepresentableVAA12_FrameLayoutVGGASGAA08_PaddingQ0VGAXG_Qo_HO.13
++ _objc_msgSend$_setUpSearchHeaderRegistrationForSection:layoutValuesHelper:
++ _objc_msgSend$_setUpSearchProgressRegistrationForSection:searchProgressView:
++ _objc_msgSend$bimiLogoFromLocation:scale:handler:
++ _objc_msgSend$bimiLogoFromLocation:size:scale:handler:
++ _objc_msgSend$brandIndicatorFutureForLocation:size:scale:
++ _objc_msgSend$circularPlaceholderResult
++ _objc_msgSend$flightArrivalDateComponentsFromUpdatedFlightInformation:arrivalTimeZone:
++ _objc_msgSend$flightDepartureDateComponentsFromUpdatedFlightInformation:departureTimeZone:
++ _objc_msgSend$flightURLFromUpdatedFlightInformation:
++ _objc_msgSend$futureWithError:
++ _objc_msgSend$initWithAddress:image:style:type:
++ _objc_msgSend$initWithCategory:emailAddress:businessLogoID:isAuthenticated:reducePlaceholderImage:brandIndicatorLocation:scale:isRTL:
++ _objc_msgSend$initWithContact:address:imageProvider:style:
++ _objc_msgSend$inlineCardWithManageReservationButton:bodyCardSectionID:buttonsCardSectionID:
++ _objc_msgSend$messageBodiesIndexed
++ _objc_msgSend$pendingSectionDataSources
++ _objc_msgSend$updatedFlightInformationForInstantAnswer:
++ _symbolic SOSg
++ _symbolic So14CNLabeledValueC
++ _symbolic So17MSRadarURLBuilderCIgg_
++ _symbolic So7UIImageCSgIeyBa_
++ _symbolic So7UIImageCSgSo7NSErrorCSgIeyByy_
++ _symbolic So7UIImageCSg______pSgIeggg_ s5ErrorP
++ _symbolic So8NSStringCSg
++ _symbolic So9CNContactCSgIegg_
++ _symbolic _____ 6MailUI03$s6A115UI0030AboutCategoriesViewswift_eDAEifMX204_0_33_1D960F5ED8DEF9C9D0472EAC901A9FCCLl7PreviewfMf_15PreviewRegistryfMu_V
++ _symbolic _____ 6MailUI03$s6A116UI0030AboutCategoriesViewswift_eDAEifMX215_0_33_1D960F5ED8DEF9C9D0472EAC901A9FCCLl7PreviewfMf0_15PreviewRegistryfMu_V
++ _symbolic _____yAAyAAyAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy_____GG_____G_____GASG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA4FontV AE5ScaleO AA06_FrameH0V AA08_PaddingH0V
++ _symbolic _____yAAyAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy_____GG_____G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA4FontV AE5ScaleO AA06_FrameH0V AA08_PaddingH0V
++ _symbolic _____yAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy_____GG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA4FontV AE5ScaleO AA06_FrameH0V
++ _symbolic _____yAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA4FontV AE5ScaleO
++ _symbolic _____yAAyAAy__________G_____y_____SgGGAEy_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA4FontV
++ _symbolic _____yAAyAAy_____y_____yAAy_____y______Qo______G______y_____yAAy_____y_____ySOACy_____ySaySo21MUIHighlightedMessageCGSOAAy_____yAAy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo__Qo_tGG_____y_____GG_____y_____GGAFG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0028MUIHighlightedMessagesHeaderG0V AA0K18AttachmentModifierV AiAE06scrollD10BackgroundyQrAA10VisibilityOFQO AiAE012listHasStackM0QryFQO AiAE0W5StyleyQrqd__AA04ListZ0Rd__lFQO AA4ListV AA7ForEachV AiAE0W12RowSeparator_5edgesQrAU_AA12VerticalEdgeO3SetVtFQO AiAEAjKQrAM_tFQO AN0op3RowG0V AA022_EnvironmentKeyWritingS0V AA0U10ProminenceV AA013_TraitWritingS0V AA21ListRowInsetsTraitKeyV AN0op6FooterG0V AA09PlainListZ0V AA16_FixedSizeLayoutV AA01_uS0V AN11MessageList33_11A2C280F14386D52C654905A1B18DC5LLV0uG0V AA11_ClipEffectV AA22UnevenRoundedRectangleV
++ _symbolic _____yAAy__________G_____y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV
++ _symbolic _____yAAy_____y_____yAAy_____y______Qo______G______y_____yAAy_____y_____ySOACy_____ySaySo21MUIHighlightedMessageCGSOAAy_____yAAy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo__Qo_tGG_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0028MUIHighlightedMessagesHeaderG0V AA0K18AttachmentModifierV AiAE06scrollD10BackgroundyQrAA10VisibilityOFQO AiAE012listHasStackM0QryFQO AiAE0W5StyleyQrqd__AA04ListZ0Rd__lFQO AA4ListV AA7ForEachV AiAE0W12RowSeparator_5edgesQrAU_AA12VerticalEdgeO3SetVtFQO AiAEAjKQrAM_tFQO AN0op3RowG0V AA022_EnvironmentKeyWritingS0V AA0U10ProminenceV AA013_TraitWritingS0V AA21ListRowInsetsTraitKeyV AN0op6FooterG0V AA09PlainListZ0V AA16_FixedSizeLayoutV AA01_uS0V AN11MessageList33_11A2C280F14386D52C654905A1B18DC5LLV0uG0V AA11_ClipEffectV AA22UnevenRoundedRectangleV
++ _symbolic _____ySO_____y_____ySaySo21MUIHighlightedMessageCGSO_____y_____yAGy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG 7SwiftUI4ListV AA9TupleViewV AA7ForEachV AA15ModifiedContentV AA0E0PAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AkAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0022MUIHighlightedMessageskE0V AA30_EnvironmentKeyWritingModifierV AA20BackgroundProminenceV AA21_TraitWritingModifierV AA0cK14InsetsTraitKeyV AX0yz6FooterE0V
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV
++ _symbolic _____y___________y_____y_____y______Qo______G______y_____yADy_____y_____ySOACy_____ySaySo21MUIHighlightedMessageCGSOADy_____yADy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo__Qo_tGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0D0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0028MUIHighlightedMessagesHeaderD0V AA0N18AttachmentModifierV AmAE06scrollJ10BackgroundyQrAA10VisibilityOFQO AmAE012listHasStackP0QryFQO AmAE0Z5StyleyQrqd__AA9ListStyleRd__lFQO AA4ListV AA7ForEachV AmAE0Z12RowSeparator_5edgesQrAY_AA12VerticalEdgeO3SetVtFQO AmAEAnOQrAQ_tFQO AR0rs3RowD0V AA022_EnvironmentKeyWritingV0V AA0X10ProminenceV AA013_TraitWritingV0V AA21ListRowInsetsTraitKeyV AR0rs6FooterD0V AA14PlainListStyleV AA010_FixedSizeG0V
++ _symbolic _____y_____yAAyAAy_____yAAy__________GGADG_____GAHG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQO AA15ModifiedContentV AA6HStackV 04MailB009MUIAvatarC13RepresentableV AA12_FrameLayoutV AA08_PaddingQ0V
++ _symbolic _____y_____ySO_____y_____ySaySo21MUIHighlightedMessageCGSO_____y_____yAGy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AA0F0V AA05TupleC0V AA7ForEachV AA15ModifiedContentV AcAE0D12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AcAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0022MUIHighlightedMessageslC0V AA30_EnvironmentKeyWritingModifierV AA20BackgroundProminenceV AA21_TraitWritingModifierV AA0fL14InsetsTraitKeyV AZ0z14MessagesFooterC0V AA05PlainfE0V
++ _symbolic _____y_____y______Qo______G______y_____yAAy_____y_____ySO_____y_____ySaySo21MUIHighlightedMessageCGSOAAy_____yAAy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo__Qo_t 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0028MUIHighlightedMessagesHeaderE0V AA0I18AttachmentModifierV AeAE06scrollD10BackgroundyQrAA10VisibilityOFQO AeAE012listHasStackK0QryFQO AeAE0U5StyleyQrqd__AA04ListX0Rd__lFQO AA0Y0V AA05TupleE0V AA7ForEachV AeAE0U12RowSeparator_5edgesQrAQ_AA12VerticalEdgeO3SetVtFQO AeAEAfGQrAI_tFQO AJ0mn3RowE0V AA022_EnvironmentKeyWritingQ0V AA0S10ProminenceV AA013_TraitWritingQ0V AA0Y17RowInsetsTraitKeyV AJ0mn6FooterE0V AA05PlainyX0V AA16_FixedSizeLayoutV
++ _symbolic _____y_____y_____yAAy_____y______Qo______G______y_____yAAy_____y_____ySOACy_____ySaySo21MUIHighlightedMessageCGSOAAy_____yAAy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo__Qo_tGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0028MUIHighlightedMessagesHeaderG0V AA0K18AttachmentModifierV AiAE06scrollD10BackgroundyQrAA10VisibilityOFQO AiAE012listHasStackM0QryFQO AiAE0W5StyleyQrqd__AA04ListZ0Rd__lFQO AA4ListV AA7ForEachV AiAE0W12RowSeparator_5edgesQrAU_AA12VerticalEdgeO3SetVtFQO AiAEAjKQrAM_tFQO AN0op3RowG0V AA022_EnvironmentKeyWritingS0V AA0U10ProminenceV AA013_TraitWritingS0V AA21ListRowInsetsTraitKeyV AN0op6FooterG0V AA09PlainListZ0V AA16_FixedSizeLayoutV AA01_uS0V AN11MessageList33_11A2C280F14386D52C654905A1B18DC5LLV0uG0V
++ _symbolic _____y_____y_____ySO_____y_____ySaySo21MUIHighlightedMessageCGSOAAy_____yAAy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE9listStyleyQrqd__AA04ListG0Rd__lFQO AA0H0V AA05TupleE0V AA7ForEachV AeAE0F12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AeAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0022MUIHighlightedMessageslE0V AA30_EnvironmentKeyWritingModifierV AA20BackgroundProminenceV AA21_TraitWritingModifierV AA0hL14InsetsTraitKeyV AZ0z14MessagesFooterE0V AA05PlainhG0V AA16_FixedSizeLayoutV
++ _symbolic _____y_____y_____y______Qo______G______y_____yABy_____y_____ySOAAy_____ySaySo21MUIHighlightedMessageCGSOABy_____yABy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo__Qo_tG 7SwiftUI9TupleViewV AA15ModifiedContentV AA0D0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0028MUIHighlightedMessagesHeaderD0V AA0J18AttachmentModifierV AgAE06scrollF10BackgroundyQrAA10VisibilityOFQO AgAE012listHasStackL0QryFQO AgAE0V5StyleyQrqd__AA04ListY0Rd__lFQO AA0Z0V AA7ForEachV AgAE0V12RowSeparator_5edgesQrAS_AA12VerticalEdgeO3SetVtFQO AgAEAhIQrAK_tFQO AL0no3RowD0V AA022_EnvironmentKeyWritingR0V AA0T10ProminenceV AA013_TraitWritingR0V AA0Z17RowInsetsTraitKeyV AL0no6FooterD0V AA05PlainzY0V AA16_FixedSizeLayoutV
++ _symbolic _____y_____y_____y_____ySO_____y_____ySaySo21MUIHighlightedMessageCGSOAAy_____yAAy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo_ 7SwiftUI4ViewPAAE20listHasStackBehaviorQryFQO AA15ModifiedContentV AcAE0D5StyleyQrqd__AA04ListJ0Rd__lFQO AA0K0V AA05TupleC0V AA7ForEachV AcAE0D12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AcAE20accessibilityElement8childrenQrAA018AccessibilityChildG0V_tFQO 04MailB0022MUIHighlightedMessagesoC0V AA30_EnvironmentKeyWritingModifierV AA20BackgroundProminenceV AA21_TraitWritingModifierV AA0kO14InsetsTraitKeyV A_028MUIHighlightedMessagesFooterC0V AA05PlainkJ0V AA16_FixedSizeLayoutV
++ _symbolic _____y_____y_____y_____y______Qo______G______y_____yACy_____y_____ySOABy_____ySaySo21MUIHighlightedMessageCGSOACy_____yACy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo__Qo_tGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA0E0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0028MUIHighlightedMessagesHeaderE0V AA0K18AttachmentModifierV AiAE06scrollG10BackgroundyQrAA10VisibilityOFQO AiAE012listHasStackM0QryFQO AiAE0W5StyleyQrqd__AA04ListZ0Rd__lFQO AA4ListV AA7ForEachV AiAE0W12RowSeparator_5edgesQrAU_AA12VerticalEdgeO3SetVtFQO AiAEAjKQrAM_tFQO AN0op3RowE0V AA022_EnvironmentKeyWritingS0V AA0U10ProminenceV AA013_TraitWritingS0V AA21ListRowInsetsTraitKeyV AN0op6FooterE0V AA09PlainListZ0V AA16_FixedSizeLayoutV
++ _symbolic _____y_____y_____y_____y_____ySO_____y_____ySaySo21MUIHighlightedMessageCGSOAAy_____yAAy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo__Qo_ 7SwiftUI4ViewPAAE23scrollContentBackgroundyQrAA10VisibilityOFQO AcAE20listHasStackBehaviorQryFQO AA08ModifiedE0V AcAE0H5StyleyQrqd__AA04ListM0Rd__lFQO AA0N0V AA05TupleC0V AA7ForEachV AcAE0H12RowSeparator_5edgesQrAF_AA12VerticalEdgeO3SetVtFQO AcAE20accessibilityElement8childrenQrAA018AccessibilityChildK0V_tFQO 04MailB0022MUIHighlightedMessagesrC0V AA30_EnvironmentKeyWritingModifierV AA0F10ProminenceV AA21_TraitWritingModifierV AA0nR14InsetsTraitKeyV A0_028MUIHighlightedMessagesFooterC0V AA05PlainnM0V AA16_FixedSizeLayoutV
+- +[MUIAvatarImageGenerator businessContactForEmailAddress:imageData:]
+- +[MUISearchInstantAnswer log]
+- +[MUISearchInstantAnswer utcFormatter]
+- +[MUISearchInstantAnswer utcFormatter].cold.1
+- -[MUIAvatarImageContext initWithCategory:emailAddress:businessLogoID:isAuthenticated:reducePlaceholderImage:brandIndicatorLocation:]
+- -[MUIAvatarImageContext initWithCategory:emailAddress:businessLogoID:isAuthenticated:reducePlaceholderImage:brandIndicatorLocation:].cold.1
+- -[MUIAvatarViewController _clearContacts]
+- -[MUIBrandIndicatorProvider bimiLogoFromLocation:handler:]
+- -[MUIBrandIndicatorProvider bimiLogoFromLocation:size:handler:]
+- -[MUIBrandIndicatorProvider brandIndicatorFutureForLocation:]
+- -[MUIBrandIndicatorProvider brandIndicatorFutureForLocation:size:]
+- -[MUIContactStoreProvider placeholderResultForContext:]
+- -[MUIMessageListViewController shouldIgnoreCommercePredicate]
+- -[MUISearchIndexStatus messagesIndexed]
+- -[MessageListViewControllerState isCommerceMailbox]
+- -[MessageListViewControllerState setIsCommerceMailbox:]
+- GCC_except_table107
+- GCC_except_table161
+- GCC_except_table171
+- GCC_except_table20
+- GCC_except_table22
+- GCC_except_table27
+- GCC_except_table38
+- GCC_except_table40
+- GCC_except_table44
+- GCC_except_table46
+- GCC_except_table56
+- GCC_except_table61
+- GCC_except_table73
+- GCC_except_table79
+- GCC_except_table83
+- GCC_except_table86
+- GCC_except_table90
+- GCC_except_table92
+- GCC_except_table95
+- GCC_except_table99
+- _NSCalendarIdentifierGregorian
+- _NSClassFromString
+- _OBJC_CLASS_$_CNLabeledValue
+- _OBJC_CLASS_$_NSCalendar
+- _OBJC_CLASS_$_NSISO8601DateFormatter
+- _OBJC_CLASS_$_NSTimeZone
+- _OBJC_CLASS_$_SFButtonListCardSection
+- _OBJC_CLASS_$_SFCard
+- _OBJC_CLASS_$_SFCardSection
+- _OBJC_CLASS_$_SFCommandButtonItem
+- _OBJC_CLASS_$_SFManageReservationCommand
+- _OBJC_CLASS_$_SFViewEmailCommand
+- _OBJC_IVAR_$_MUIMessageListViewController._shouldIgnoreCommercePredicate
+- _OBJC_IVAR_$_MUISearchIndexStatus._messagesIndexed
+- _OBJC_IVAR_$_MessageListViewControllerState._isCommerceMailbox
+- __INSTANCE_METHODS_MUIAvatarImageGeneratorResult
+- __PROPERTIES_MUIAvatarImageGeneratorResult
+- __PROTOCOLS__TtC6MailUI21FeedbackListViewModel.141
+- ___115-[MessageListSectionDataSource _addedItemIDs:before:existingItemID:toThreadWithItemID:inCollection:isLastObserver:]_block_invoke.149
+- ___115-[MessageListSectionDataSource _addedItemIDs:before:existingItemID:toThreadWithItemID:inCollection:isLastObserver:]_block_invoke_2.150
+- ___117-[MessageListSectionDataSource _deleteItemsWithIDs:fromCollection:animated:useImmediateCompletion:completionHandler:]_block_invoke.155
+- ___117-[MessageListSectionDataSource _deleteItemsWithIDs:fromCollection:animated:useImmediateCompletion:completionHandler:]_block_invoke_2.159
+- ___123-[MessageListSectionDataSource collection:changedItemIDs:itemIDsWithCountChanges:itemIDsWithBrandIndicatorLocationChanges:]_block_invoke.112
+- ___156-[MUIMessageListSearchSectionDataSource initWithSection:collectionView:searchProgressView:messageList:initialLoadCompletedPromise:layoutValuesHelper:state:]_block_invoke
+- ___156-[MUIMessageListSearchSectionDataSource initWithSection:collectionView:searchProgressView:messageList:initialLoadCompletedPromise:layoutValuesHelper:state:]_block_invoke_2
+- ___156-[MUIMessageListSearchSectionDataSource initWithSection:collectionView:searchProgressView:messageList:initialLoadCompletedPromise:layoutValuesHelper:state:]_block_invoke_3
+- ___156-[MUIMessageListSearchSectionDataSource initWithSection:collectionView:searchProgressView:messageList:initialLoadCompletedPromise:layoutValuesHelper:state:]_block_invoke_3.cold.1
+- ___29+[MUISearchInstantAnswer log]_block_invoke
+- ___38+[MUISearchInstantAnswer utcFormatter]_block_invoke
+- ___48-[MessageListDataSource reloadItemsWithItemIDs:]_block_invoke.32
+- ___48-[MessageListDataSource reloadItemsWithItemIDs:]_block_invoke_2.37
+- ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke.52
+- ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke.56
+- ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke.57
+- ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke.57.cold.1
+- ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke.58
+- ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke.60
+- ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke.60.cold.1
+- ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke.64
+- ___51-[MessageListDataSource _performDataSourceUpdates:]_block_invoke_2.67
+- ___53-[MUIAvatarImageGenerator contactForContext:handler:]_block_invoke.68
+- ___53-[MUIAvatarImageGenerator contactForContext:handler:]_block_invoke.68.cold.1
+- ___53-[MUIAvatarImageGenerator contactForContext:handler:]_block_invoke.82
+- ___60-[MessageListDataSource _removeMessageListSection:animated:]_block_invoke.29
+- ___62-[MessageListSectionDataSource _maybeReloadForTimedOutItemIDs]_block_invoke.133
+- ___62-[MessageListSectionDataSource collection:movedItemIDs:after:]_block_invoke.108
+- ___63-[MUIBrandIndicatorProvider bimiLogoFromLocation:size:handler:]_block_invoke
+- ___63-[MUIBrandIndicatorProvider bimiLogoFromLocation:size:handler:]_block_invoke_2
+- ___63-[MessageListSectionDataSource collection:movedItemIDs:before:]_block_invoke.103
+- ___63-[MessageListSectionDataSource collectionDidFinishInitialLoad:]_block_invoke.120
+- ___63-[MessageListSectionDataSource didFinishRecoveryForCollection:]_block_invoke.115
+- ___66-[MUIAvatarImageGenerator _businessAvatarImageForContext:handler:]_block_invoke.100
+- ___66-[MUIAvatarImageGenerator _generateAvatarImageForContext:handler:]_block_invoke.91
+- ___66-[MUIBrandIndicatorProvider brandIndicatorFutureForLocation:size:]_block_invoke
+- ___66-[MUIBrandIndicatorProvider brandIndicatorFutureForLocation:size:]_block_invoke.11
+- ___66-[MUIBrandIndicatorProvider brandIndicatorFutureForLocation:size:]_block_invoke.6
+- ___66-[MUIBrandIndicatorProvider brandIndicatorFutureForLocation:size:]_block_invoke.6.cold.1
+- ___68-[MUIAvatarImageGenerator _avatarStyleForContext:completionHandler:]_block_invoke.95
+- ___80-[MessageListSectionDataSource collection:replacedExistingItemID:withNewItemID:]_block_invoke.114
+- ___80-[MessageListSectionDataSource collection:replacedExistingItemID:withNewItemID:]_block_invoke.114.cold.1
+- ___83-[MessageListSectionDataSource collection:didFinishInitialLoadForThreadWithItemID:]_block_invoke.119
+- ___87-[MessageListSectionDataSource messageListItemForItemID:indexPath:receiver:completion:]_block_invoke.83
+- ___87-[MessageListSectionDataSource messageListItemForItemID:indexPath:receiver:completion:]_block_invoke.85
+- ___87-[MessageListSectionDataSource messageListItemForItemID:indexPath:receiver:completion:]_block_invoke.85.cold.1
+- ___87-[MessageListSectionDataSource messageListItemForItemID:indexPath:receiver:completion:]_block_invoke.86
+- ___96-[MessageListSectionDataSource _recoverFailedItemIDsIfNeededForCollection:excluding:completion:]_block_invoke.164
+- ___96-[MessageListSectionDataSource _recoverFailedItemIDsIfNeededForCollection:excluding:completion:]_block_invoke.164.cold.1
+- ___96-[MessageListSectionDataSource _recoverFailedItemIDsIfNeededForCollection:excluding:completion:]_block_invoke.168
+- ___block_descriptor_40_e8_32bs_e28_v24?0"NSData"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e34_v16?0"<EMBrandIndicatorRaster>"8ls32l8
+- ___block_descriptor_40_e8_32s_e17_v16?0"UIImage"8ls32l8
+- ___block_descriptor_64_e8_32s40s48bs56bs_e28_v24?0"NSData"8"NSError"16ls48l8s32l8s40l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e31_v32?0"NSData"8q16"NSError"24ls32l8s56l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s_e35_"<EMBrandIndicatorRaster>"16?0^8ls32l8s40l8
+- ___block_descriptor_64_e8_32s40s_e41_"EFFuture"16?0"<EMBrandIndicatorSVG>"8ls32l8s40l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72bs_e41_v24?0"<EMMessageListItem>"8"NSError"16ls72l8s32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_88_e8_32s40s48s56s64s72bs_e29_v16?0"<EMMessageListItem>"8ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_literal_global.101
+- ___block_literal_global.123
+- ___block_literal_global.126
+- ___block_literal_global.241
+- ___block_literal_global.35
+- ___block_literal_global.46
+- ___block_literal_global.56
+- ___block_literal_global.62
+- ___block_literal_global.66
+- ___block_literal_global.82
+- ___block_literal_global.87
+- _block_copy_helper.112
+- _block_copy_helper.118
+- _block_copy_helper.205
+- _block_copy_helper.211
+- _block_copy_helper.221
+- _block_descriptor.114
+- _block_descriptor.120
+- _block_descriptor.207
+- _block_descriptor.213
+- _block_descriptor.223
+- _block_destroy_helper.113
+- _block_destroy_helper.119
+- _block_destroy_helper.206
+- _block_destroy_helper.212
+- _block_destroy_helper.222
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6HStackVyACyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAIyAG5ScaleOGGAA18_AspectRatioLayoutVGAA06_FrameO0VGGAWGAA08_PaddingO0VGA0_GAA4ViewHPA1_AAA3_HPAzAA3_HPAyAA3_HPyHC_AwA0rJ0HPyHCHC_A0_AAA4_HPyHCHC_A0_AAA4_HPyHCHC.3
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA9TupleViewVyACyAA0G0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOy04MailB0028MUIHighlightedMessagesHeaderG0V_Qo_AA0K18AttachmentModifierVG_AiAE06scrollD10BackgroundyQrAA10VisibilityOFQOyAiAE012listHasStackM0QryFQOyACyAiAE0W5StyleyQrqd__AA04ListZ0Rd__lFQOyAA4ListVySo10EMObjectIDCAGyAA7ForEachVySaySo0O7MessageCGSOACyAiAE0W12RowSeparator_5edgesQrAW_AA12VerticalEdgeO3SetVtFQOyACyAiAEAjKQrAM_tFQOyAN0op3RowG0V_Qo_AA022_EnvironmentKeyWritingS0VyAA0U10ProminenceVGG_Qo_AA013_TraitWritingS0VyAA21ListRowInsetsTraitKeyVGGG_AN0op6FooterG0VSgtGG_AA09PlainListZ0VQo_AA16_FixedSizeLayoutVG_Qo__Qo_tGGAA01_uS0VyAN11MessageList33_11A2C280F14386D52C654905A1B18DC5LLV0uG0VGGAA11_ClipEffectVyAA22UnevenRoundedRectangleVGGASGAaHHPA60_AaHHPA54_AaHHPA45_AaHHPyHC_A53_AA0gS0HPyHCHC_A59_AAA62_HPyHCHC_AsAA62_HPyHCHC.14
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6HStackVyACy04MailB026MUIAvatarViewRepresentableVAA12_FrameLayoutVGGAJGAA08_PaddingK0VGAOGAA13_TaskModifierVGAA0H0HPAqaUHPApaUHPAmaUHPAlaUHPyHC_AjA0hN0HPyHCHC_AoaVHPyHCHC_AoaVHPyHCHC_AsaVHPyHCHC.12
+- _objc_msgSend$URLWithString:
+- _objc_msgSend$_clearContacts
+- _objc_msgSend$bimiLogoFromLocation:handler:
+- _objc_msgSend$bimiLogoFromLocation:size:handler:
+- _objc_msgSend$brandIndicatorFutureForLocation:size:
+- _objc_msgSend$businessContactForEmailAddress:imageData:
+- _objc_msgSend$calendarWithIdentifier:
+- _objc_msgSend$components:fromDate:
+- _objc_msgSend$dateFromComponents:
+- _objc_msgSend$dateFromString:
+- _objc_msgSend$flightInformationWithAirlineCode:flightNumber:flightDate:
+- _objc_msgSend$imageForSize:scale:style:
+- _objc_msgSend$initWithCalendarIdentifier:
+- _objc_msgSend$initWithCategory:emailAddress:businessLogoID:isAuthenticated:reducePlaceholderImage:brandIndicatorLocation:
+- _objc_msgSend$initWithContact:address:image:style:type:
+- _objc_msgSend$initWithContact:address:imageProvider:style:type:
+- _objc_msgSend$initWithData:
+- _objc_msgSend$isCommerceMailbox
+- _objc_msgSend$labeledValueWithLabel:value:
+- _objc_msgSend$loadingPlaceholderImageProvider
+- _objc_msgSend$messagesIndexed
+- _objc_msgSend$mui_pngRepresentation
+- _objc_msgSend$placeholderResultForContext:
+- _objc_msgSend$setButtons:
+- _objc_msgSend$setCardSectionId:
+- _objc_msgSend$setCardSections:
+- _objc_msgSend$setCommand:
+- _objc_msgSend$setContactType:
+- _objc_msgSend$setImageData:
+- _objc_msgSend$setIsCommerceMailbox:
+- _objc_msgSend$setOrganizationName:
+- _objc_msgSend$setTimeZone:
+- _objc_msgSend$setUniqueId:
+- _objc_msgSend$timeZoneWithAbbreviation:
+- _symbolic So10EMObjectIDCSg
+- _symbolic So6NSDataCSgSo7NSErrorCSgIeyByy_
+- _symbolic So7UIImageCIeyBa_
+- _symbolic So9CNContactCIegg_
+- _symbolic _____ 6MailUI03$s6A115UI0030AboutCategoriesViewswift_eDAEifMX205_0_33_1D960F5ED8DEF9C9D0472EAC901A9FCCLl7PreviewfMf_15PreviewRegistryfMu_V
+- _symbolic _____ 6MailUI03$s6A116UI0030AboutCategoriesViewswift_eDAEifMX216_0_33_1D960F5ED8DEF9C9D0472EAC901A9FCCLl7PreviewfMf0_15PreviewRegistryfMu_V
+- _symbolic _____Sg______pSgIeggg_ 10Foundation4DataV s5ErrorP
+- _symbolic _____yAAyAAyAAy__________y_____SgGGACy_____GG_____G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AE5ScaleO AA18_AspectRatioLayoutV AA06_FrameN0V
+- _symbolic _____yAAyAAyAAy_____yAAy__________GGADG_____GAHG_____G 7SwiftUI15ModifiedContentV AA6HStackV 04MailB026MUIAvatarViewRepresentableV AA12_FrameLayoutV AA08_PaddingK0V AA13_TaskModifierV
+- _symbolic _____yAAyAAy__________y_____SgGGACy_____GG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AE5ScaleO AA18_AspectRatioLayoutV
+- _symbolic _____yAAyAAy_____yAAyAAyAAyAAy__________y_____SgGGADy_____GG_____G_____GGANG_____GARG 7SwiftUI15ModifiedContentV AA6HStackV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AG5ScaleO AA18_AspectRatioLayoutV AA06_FrameO0V AA08_PaddingO0V
+- _symbolic _____yAAyAAy_____y_____yAAy_____y______Qo______G______y_____yAAy_____y_____ySo10EMObjectIDCACy_____ySaySo21MUIHighlightedMessageCGSOAAy_____yAAy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo__Qo_tGG_____y_____GG_____y_____GGAFG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0028MUIHighlightedMessagesHeaderG0V AA0K18AttachmentModifierV AiAE06scrollD10BackgroundyQrAA10VisibilityOFQO AiAE012listHasStackM0QryFQO AiAE0W5StyleyQrqd__AA04ListZ0Rd__lFQO AA4ListV AA7ForEachV AiAE0W12RowSeparator_5edgesQrAU_AA12VerticalEdgeO3SetVtFQO AiAEAjKQrAM_tFQO AN0op3RowG0V AA022_EnvironmentKeyWritingS0V AA0U10ProminenceV AA013_TraitWritingS0V AA21ListRowInsetsTraitKeyV AN0op6FooterG0V AA09PlainListZ0V AA16_FixedSizeLayoutV AA01_uS0V AN11MessageList33_11A2C280F14386D52C654905A1B18DC5LLV0uG0V AA11_ClipEffectV AA22UnevenRoundedRectangleV
+- _symbolic _____yAAy__________y_____SgGGACy_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AE5ScaleO
+- _symbolic _____yAAy_____yAAyAAyAAyAAy__________y_____SgGGADy_____GG_____G_____GGANG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AG5ScaleO AA18_AspectRatioLayoutV AA06_FrameO0V AA08_PaddingO0V
+- _symbolic _____yAAy_____y_____yAAy_____y______Qo______G______y_____yAAy_____y_____ySo10EMObjectIDCACy_____ySaySo21MUIHighlightedMessageCGSOAAy_____yAAy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo__Qo_tGG_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0028MUIHighlightedMessagesHeaderG0V AA0K18AttachmentModifierV AiAE06scrollD10BackgroundyQrAA10VisibilityOFQO AiAE012listHasStackM0QryFQO AiAE0W5StyleyQrqd__AA04ListZ0Rd__lFQO AA4ListV AA7ForEachV AiAE0W12RowSeparator_5edgesQrAU_AA12VerticalEdgeO3SetVtFQO AiAEAjKQrAM_tFQO AN0op3RowG0V AA022_EnvironmentKeyWritingS0V AA0U10ProminenceV AA013_TraitWritingS0V AA21ListRowInsetsTraitKeyV AN0op6FooterG0V AA09PlainListZ0V AA16_FixedSizeLayoutV AA01_uS0V AN11MessageList33_11A2C280F14386D52C654905A1B18DC5LLV0uG0V AA11_ClipEffectV AA22UnevenRoundedRectangleV
+- _symbolic _____ySo10EMObjectIDC_____y_____ySaySo21MUIHighlightedMessageCGSO_____y_____yAIy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG 7SwiftUI4ListV AA9TupleViewV AA7ForEachV AA15ModifiedContentV AA0E0PAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AkAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0022MUIHighlightedMessageskE0V AA30_EnvironmentKeyWritingModifierV AA20BackgroundProminenceV AA21_TraitWritingModifierV AA0cK14InsetsTraitKeyV AX0yz6FooterE0V
+- _symbolic _____y___________yACyACyACy__________y_____SgGGAEy_____GG_____G_____GG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AK5ScaleO AA012_AspectRatioG0V AA06_FrameG0V
+- _symbolic _____y___________y_____y_____y______Qo______G______y_____yADy_____y_____ySo10EMObjectIDCACy_____ySaySo21MUIHighlightedMessageCGSOADy_____yADy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo__Qo_tGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0D0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0028MUIHighlightedMessagesHeaderD0V AA0N18AttachmentModifierV AmAE06scrollJ10BackgroundyQrAA10VisibilityOFQO AmAE012listHasStackP0QryFQO AmAE0Z5StyleyQrqd__AA9ListStyleRd__lFQO AA4ListV AA7ForEachV AmAE0Z12RowSeparator_5edgesQrAY_AA12VerticalEdgeO3SetVtFQO AmAEAnOQrAQ_tFQO AR0rs3RowD0V AA022_EnvironmentKeyWritingV0V AA0X10ProminenceV AA013_TraitWritingV0V AA21ListRowInsetsTraitKeyV AR0rs6FooterD0V AA14PlainListStyleV AA010_FixedSizeG0V
+- _symbolic _____y_____yAAyAAyAAyAAy__________y_____SgGGADy_____GG_____G_____GGANG 7SwiftUI15ModifiedContentV AA6HStackV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AG5ScaleO AA18_AspectRatioLayoutV AA06_FrameO0V
+- _symbolic _____y_____yAByAByABy__________y_____SgGGADy_____GG_____G_____GG 7SwiftUI6HStackV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AG5ScaleO AA18_AspectRatioLayoutV AA06_FrameO0V
+- _symbolic _____y_____ySo10EMObjectIDC_____y_____ySaySo21MUIHighlightedMessageCGSO_____y_____yAIy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AA0F0V AA05TupleC0V AA7ForEachV AA15ModifiedContentV AcAE0D12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AcAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0022MUIHighlightedMessageslC0V AA30_EnvironmentKeyWritingModifierV AA20BackgroundProminenceV AA21_TraitWritingModifierV AA0fL14InsetsTraitKeyV AZ0z14MessagesFooterC0V AA05PlainfE0V
+- _symbolic _____y_____y______Qo______G______y_____yAAy_____y_____ySo10EMObjectIDC_____y_____ySaySo21MUIHighlightedMessageCGSOAAy_____yAAy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo__Qo_t 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0028MUIHighlightedMessagesHeaderE0V AA0I18AttachmentModifierV AeAE06scrollD10BackgroundyQrAA10VisibilityOFQO AeAE012listHasStackK0QryFQO AeAE0U5StyleyQrqd__AA04ListX0Rd__lFQO AA0Y0V AA05TupleE0V AA7ForEachV AeAE0U12RowSeparator_5edgesQrAQ_AA12VerticalEdgeO3SetVtFQO AeAEAfGQrAI_tFQO AJ0mn3RowE0V AA022_EnvironmentKeyWritingQ0V AA0S10ProminenceV AA013_TraitWritingQ0V AA0Y17RowInsetsTraitKeyV AJ0mn6FooterE0V AA05PlainyX0V AA16_FixedSizeLayoutV
+- _symbolic _____y_____y_____yAAy_____y______Qo______G______y_____yAAy_____y_____ySo10EMObjectIDCACy_____ySaySo21MUIHighlightedMessageCGSOAAy_____yAAy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo__Qo_tGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0028MUIHighlightedMessagesHeaderG0V AA0K18AttachmentModifierV AiAE06scrollD10BackgroundyQrAA10VisibilityOFQO AiAE012listHasStackM0QryFQO AiAE0W5StyleyQrqd__AA04ListZ0Rd__lFQO AA4ListV AA7ForEachV AiAE0W12RowSeparator_5edgesQrAU_AA12VerticalEdgeO3SetVtFQO AiAEAjKQrAM_tFQO AN0op3RowG0V AA022_EnvironmentKeyWritingS0V AA0U10ProminenceV AA013_TraitWritingS0V AA21ListRowInsetsTraitKeyV AN0op6FooterG0V AA09PlainListZ0V AA16_FixedSizeLayoutV AA01_uS0V AN11MessageList33_11A2C280F14386D52C654905A1B18DC5LLV0uG0V
+- _symbolic _____y_____y_____ySo10EMObjectIDC_____y_____ySaySo21MUIHighlightedMessageCGSOAAy_____yAAy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE9listStyleyQrqd__AA04ListG0Rd__lFQO AA0H0V AA05TupleE0V AA7ForEachV AeAE0F12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AeAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0022MUIHighlightedMessageslE0V AA30_EnvironmentKeyWritingModifierV AA20BackgroundProminenceV AA21_TraitWritingModifierV AA0hL14InsetsTraitKeyV AZ0z14MessagesFooterE0V AA05PlainhG0V AA16_FixedSizeLayoutV
+- _symbolic _____y_____y_____y______Qo______G______y_____yABy_____y_____ySo10EMObjectIDCAAy_____ySaySo21MUIHighlightedMessageCGSOABy_____yABy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo__Qo_tG 7SwiftUI9TupleViewV AA15ModifiedContentV AA0D0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0028MUIHighlightedMessagesHeaderD0V AA0J18AttachmentModifierV AgAE06scrollF10BackgroundyQrAA10VisibilityOFQO AgAE012listHasStackL0QryFQO AgAE0V5StyleyQrqd__AA04ListY0Rd__lFQO AA0Z0V AA7ForEachV AgAE0V12RowSeparator_5edgesQrAS_AA12VerticalEdgeO3SetVtFQO AgAEAhIQrAK_tFQO AL0no3RowD0V AA022_EnvironmentKeyWritingR0V AA0T10ProminenceV AA013_TraitWritingR0V AA0Z17RowInsetsTraitKeyV AL0no6FooterD0V AA05PlainzY0V AA16_FixedSizeLayoutV
+- _symbolic _____y_____y_____y_____ySo10EMObjectIDC_____y_____ySaySo21MUIHighlightedMessageCGSOAAy_____yAAy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo_ 7SwiftUI4ViewPAAE20listHasStackBehaviorQryFQO AA15ModifiedContentV AcAE0D5StyleyQrqd__AA04ListJ0Rd__lFQO AA0K0V AA05TupleC0V AA7ForEachV AcAE0D12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AcAE20accessibilityElement8childrenQrAA018AccessibilityChildG0V_tFQO 04MailB0022MUIHighlightedMessagesoC0V AA30_EnvironmentKeyWritingModifierV AA20BackgroundProminenceV AA21_TraitWritingModifierV AA0kO14InsetsTraitKeyV A_028MUIHighlightedMessagesFooterC0V AA05PlainkJ0V AA16_FixedSizeLayoutV
+- _symbolic _____y_____y_____y_____y______Qo______G______y_____yACy_____y_____ySo10EMObjectIDCABy_____ySaySo21MUIHighlightedMessageCGSOACy_____yACy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo__Qo_tGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA0E0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO 04MailB0028MUIHighlightedMessagesHeaderE0V AA0K18AttachmentModifierV AiAE06scrollG10BackgroundyQrAA10VisibilityOFQO AiAE012listHasStackM0QryFQO AiAE0W5StyleyQrqd__AA04ListZ0Rd__lFQO AA4ListV AA7ForEachV AiAE0W12RowSeparator_5edgesQrAU_AA12VerticalEdgeO3SetVtFQO AiAEAjKQrAM_tFQO AN0op3RowE0V AA022_EnvironmentKeyWritingS0V AA0U10ProminenceV AA013_TraitWritingS0V AA21ListRowInsetsTraitKeyV AN0op6FooterE0V AA09PlainListZ0V AA16_FixedSizeLayoutV
+- _symbolic _____y_____y_____y_____y_____ySo10EMObjectIDC_____y_____ySaySo21MUIHighlightedMessageCGSOAAy_____yAAy_____y______Qo______y_____GG_Qo______y_____GGG______SgtGG______Qo______G_Qo__Qo_ 7SwiftUI4ViewPAAE23scrollContentBackgroundyQrAA10VisibilityOFQO AcAE20listHasStackBehaviorQryFQO AA08ModifiedE0V AcAE0H5StyleyQrqd__AA04ListM0Rd__lFQO AA0N0V AA05TupleC0V AA7ForEachV AcAE0H12RowSeparator_5edgesQrAF_AA12VerticalEdgeO3SetVtFQO AcAE20accessibilityElement8childrenQrAA018AccessibilityChildK0V_tFQO 04MailB0022MUIHighlightedMessagesrC0V AA30_EnvironmentKeyWritingModifierV AA0F10ProminenceV AA21_TraitWritingModifierV AA0nR14InsetsTraitKeyV A0_028MUIHighlightedMessagesFooterC0V AA05PlainnM0V AA16_FixedSizeLayoutV
+- _utcFormatter.onceToken
+- _utcFormatter.utcFormatter
+CStrings:
++ "\nhasContact: "
++ "\", style: "
++ "$__lazy_storage_$_contact"
++ "%p: Unable to process update - provider is nil"
++ "%p: [%u] %{public}@ is stale, waiting for update from: %{public}@"
++ "%p: [%u] Clear snapshot for section: %{public}@"
++ "%p: [%u] Setting data source: %{public}@ for section: %{public}@ (remaining pending sections: %{public}@)"
++ ", hasContact: "
++ ", imageDataAvailable: "
++ ", isSenderSpecificMailbox=%@"
++ ", type: "
++ "/AppleInternal/Library/BuildRoots/4~B9sjugAe0lBnxoENID5IZ8Fmp3H5OgxBEgXgeL0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Library/PrivateFrameworks/Email.framework/Headers/EMContentRequestOptions.h"
++ "/Library/Caches/com.apple.xbs/Sources/Mail/MailUI/MailUI/common/Feedback/Model/FeedbackListViewModel.swift"
++ "<%@: %p> Creating MessageListDataSource with collectionView: %{public}@"
++ "<%@: %p> Unable to create MessageListDataSource without UICollectionView"
++ "<%@: %p> section: %@, messageList: %p"
++ "@\"EFFuture\"32@0:8@\"NSURL\"16d24"
++ "@\"EFFuture\"48@0:8@\"NSURL\"16{CGSize=dd}24d40"
++ "@\"UIImage\"16@?0^@8"
++ "@48@0:8@16@24@?32q40"
++ "@48@0:8@16@24q32q40"
++ "@48@0:8@16{CGSize=dd}24d40"
++ "@68@0:8@16@24@32B40B44@48d56B64"
++ "An Error Occurred"
++ "External Provider"
++ "Failed to render image for brand indicator url"
++ "Failed to render image for brand indicator url %{public}@"
++ "MUIAvatarImageGenerator.Result(emailAddress: \""
++ "MailUI/MUIHighlightedMessagesAvatarView.swift"
++ "No data fetched for brand indicator url"
++ "T@\"CNContact\",N,&"
++ "T@\"EFLocked\",&,N,V_pendingSectionDataSources"
++ "T@\"EFLocked\",R,N,V_pendingSectionUpdates"
++ "TQ,R,N,V_messageBodiesIndexed"
++ "Unable to create logo image from data"
++ "View.task @ "
++ "You have %1$lld in Primary and %2$lld in other categories."
++ "_messageBodiesIndexed"
++ "_pendingSectionDataSources"
++ "_setUpSearchHeaderRegistrationForSection:layoutValuesHelper:"
++ "_setUpSearchProgressRegistrationForSection:searchProgressView:"
++ "allowGeneratingAvatarImagesFuture"
++ "bimiLogoFromLocation:scale:handler:"
++ "bimiLogoFromLocation:size:scale:handler:"
++ "blockSenderWithSenderEmailAddress:entryPoint:completionHandler:"
++ "brandIndicatorFutureForLocation:scale:"
++ "brandIndicatorFutureForLocation:size:scale:"
++ "circularPlaceholderResult"
++ "flightArrivalDateComponentsFromUpdatedFlightInformation:arrivalTimeZone:"
++ "flightDepartureDateComponentsFromUpdatedFlightInformation:departureTimeZone:"
++ "flightURLFromUpdatedFlightInformation:"
++ "futureWithError:"
++ "init:address:imageProvider:style:type:"
++ "initWithAddress:image:style:type:"
++ "initWithCategory:emailAddress:businessLogoID:isAuthenticated:reducePlaceholderImage:brandIndicatorLocation:scale:isRTL:"
++ "initWithContact:address:imageProvider:style:"
++ "initWithLabel:value:"
++ "inlineCardWithManageReservationButton:bodyCardSectionID:buttonsCardSectionID:"
++ "messageBodiesIndexed"
++ "pendingSectionDataSources"
++ "sectionDataSourceForSection:"
++ "setContentOffset:animated:"
++ "setPendingSectionDataSources:"
++ "underlyingContact"
++ "updatedFlightInformationForInstantAnswer:"
++ "v16@?0@\"NSMutableArray\"8"
++ "v24@?0@\"UIImage\"8@\"NSError\"16"
++ "v32@0:8@\"MUIAvatarImageContext\"16@?<v@?@\"UIImage\"@\"NSError\">24"
++ "v32@?0@\"UIImage\"8q16@\"NSError\"24"
++ "v40@0:8@\"<ECEmailAddressConvertible>\"16@\"NSString\"24@?<v@?@\"NSError\">32"
++ "v40@0:8@\"NSURL\"16d24@?<v@?@\"UIImage\"@\"NSError\">32"
++ "v40@0:8@16d24@?32"
++ "v56@0:8@\"NSURL\"16{CGSize=dd}24d40@?<v@?@\"UIImage\"@\"NSError\">48"
+- "\nhasImageProvider: "
+- " in other categories."
+- " unread messages in Primary and "
+- "%{public}@ - [%p] failed to update avatar with result: %{public}@"
+- ", isCommerceMailbox=%@, isSenderSpecificMailbox=%@"
+- "/AppleInternal/Library/BuildRoots/4~B8YUugDS7oyDy_4GsPa_UGcmIiRMaev_q2DomjQ/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.Internal.sdk/System/Library/PrivateFrameworks/Email.framework/Headers/EMContentRequestOptions.h"
+- "@\"<EMBrandIndicatorRaster>\"16@?0^@8"
+- "@\"CNContact\""
+- "@\"EFFuture\"24@0:8@\"NSURL\"16"
+- "@\"EFFuture\"40@0:8@\"NSURL\"16{CGSize=dd}24"
+- "@40@0:8@16{CGSize=dd}24"
+- "@56@0:8@16@24@32B40B44@48"
+- "@56@0:8@16@24@32q40q48"
+- "@60@0:8@16@24@?32q40q48B56"
+- "An Error Occured"
+- "CNAvatarView"
+- "External Summary"
+- "Future succeeded but brand indicator data is nil"
+- "InstantAnswersLive"
+- "RemindMeEverywhere"
+- "SnippetHighlighting"
+- "SolariumAvatars"
+- "T@\"CNContact\",N,&,Vcontact"
+- "T@\"NSMutableArray\",R,N,V_pendingSectionUpdates"
+- "TB,N,V_isCommerceMailbox"
+- "TB,N,VhasImageProvider"
+- "TB,R,N,V_shouldIgnoreCommercePredicate"
+- "TQ,R,N,V_messagesIndexed"
+- "URLWithString:"
+- "UTC"
+- "You have "
+- "[instant answers][flights api] Received nil flightDepartureTimeZone, using UTC timeZone to initialize Calendar"
+- "[instant answers][flights api] flightDepartureActualDate or flightArrivalActualDate is nil, skipping live info. update"
+- "[instant answers][flights api] flights api response is nil, skipping live info. update"
+- "[instant answers][flights api] found %lu events from flights api response"
+- "[instant answers][flights api] found %lu flight legs with same departure airport and date"
+- "[instant answers][flights api] found flight leg with no departure airport"
+- "[instant answers][flights api] found flight leg with no departure airport code"
+- "[instant answers][flights api] no matching leg was found from flights api response"
+- "[instant answers][flights api] successfully updated flight instant answer with live info."
+- "_clearContacts"
+- "_isCommerceMailbox"
+- "_messagesIndexed"
+- "_shouldIgnoreCommercePredicate"
+- "arrivalActualTime"
+- "arrivalGate"
+- "arrivalTerminal"
+- "bimiLogoFromLocation:handler:"
+- "bimiLogoFromLocation:size:handler:"
+- "blockSenderWithSenderEmailAddress:completionHandler:"
+- "brandIndicatorFutureForLocation:"
+- "brandIndicatorFutureForLocation:size:"
+- "businessContactForEmailAddress:imageData:"
+- "calendarWithIdentifier:"
+- "carrierWebsite"
+- "components:fromDate:"
+- "dateFromComponents:"
+- "dateFromString:"
+- "departureActualTime"
+- "departureAirport"
+- "departureGate"
+- "departurePublishedTime"
+- "departureTerminal"
+- "divertedAirport"
+- "flightInformationWithAirlineCode:flightNumber:flightDate:"
+- "hasImageProvider"
+- "imageForSize:scale:style:"
+- "init:address:imageProvider:style:type:hasImageProvider:"
+- "initWithCalendarIdentifier:"
+- "initWithCategory:emailAddress:businessLogoID:isAuthenticated:reducePlaceholderImage:brandIndicatorLocation:"
+- "initWithContact:address:image:style:type:"
+- "initWithContact:address:imageProvider:style:type:"
+- "initWithData:"
+- "isCommerceMailbox"
+- "labeledValueWithLabel:value:"
+- "legs"
+- "loadingPlaceholderImageProvider"
+- "messagesIndexed"
+- "placeholderResultForContext:"
+- "provider cannot be nil"
+- "setButtons:"
+- "setCardSectionId:"
+- "setCardSections:"
+- "setCommand:"
+- "setHasImageProvider:"
+- "setIsCommerceMailbox:"
+- "setTimeZone:"
+- "setUniqueId:"
+- "shouldIgnoreCommercePredicate"
+- "status"
+- "timeZoneWithAbbreviation:"
+- "v16@?0@\"<EMBrandIndicatorRaster>\"8"
+- "v24@?0@\"NSData\"8@\"NSError\"16"
+- "v32@0:8@\"MUIAvatarImageContext\"16@?<v@?@\"NSData\"@\"NSError\">24"
+- "v32@0:8@\"NSURL\"16@?<v@?@\"NSData\"@\"NSError\">24"
+- "v32@?0@\"NSData\"8q16@\"NSError\"24"
+- "v48@0:8@\"NSURL\"16{CGSize=dd}24@?<v@?@\"NSData\"@\"NSError\">40"
+- "v48@0:8@16{CGSize=dd}24@?40"
+
+```

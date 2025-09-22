@@ -1,0 +1,186 @@
+## SeymourCore
+
+> `/System/Library/PrivateFrameworks/SeymourCore.framework/SeymourCore`
+
+```diff
+
+-2026.0.6.1.2
+-  __TEXT.__text: 0xa00328
++2026.1.25.1.1
++  __TEXT.__text: 0xa030d4
+   __TEXT.__auth_stubs: 0x21e0
+   __TEXT.__objc_methlist: 0x20
+-  __TEXT.__const: 0x7eba0
+-  __TEXT.__cstring: 0x10fe1
+-  __TEXT.__swift5_typeref: 0x12c52
+-  __TEXT.__swift5_reflstr: 0x1bd9c
+-  __TEXT.__swift5_assocty: 0x4980
+-  __TEXT.__constg_swiftt: 0x12934
++  __TEXT.__const: 0x7f600
++  __TEXT.__cstring: 0x10fa1
++  __TEXT.__swift5_typeref: 0x12dde
++  __TEXT.__swift5_reflstr: 0x1befc
++  __TEXT.__swift5_assocty: 0x49b0
++  __TEXT.__constg_swiftt: 0x12a00
+   __TEXT.__swift5_builtin: 0x1b8
+-  __TEXT.__swift5_fieldmd: 0x1bdc8
+-  __TEXT.__swift5_proto: 0x8824
+-  __TEXT.__swift5_types: 0x1808
++  __TEXT.__swift5_fieldmd: 0x1bef8
++  __TEXT.__swift5_proto: 0x88c4
++  __TEXT.__swift5_types: 0x1824
+   __TEXT.__swift5_mpenum: 0xd0
+   __TEXT.__swift5_protos: 0x38
+   __TEXT.__swift5_capture: 0x4c4
+   __TEXT.__swift_as_entry: 0x4
+   __TEXT.__swift_as_ret: 0x4
+-  __TEXT.__unwind_info: 0x2f268
+-  __TEXT.__eh_frame: 0x642b4
++  __TEXT.__unwind_info: 0x2f448
++  __TEXT.__eh_frame: 0x645f4
+   __TEXT.__objc_methname: 0xa4
+   __DATA_CONST.__got: 0x7a8
+-  __DATA_CONST.__const: 0x3f70
++  __DATA_CONST.__const: 0x3fa0
+   __DATA_CONST.__objc_classlist: 0x1c0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x58
+   __AUTH_CONST.__auth_got: 0x10f0
+-  __AUTH_CONST.__const: 0x32c98
+-  __AUTH_CONST.__objc_const: 0x68c8
++  __AUTH_CONST.__const: 0x331f0
++  __AUTH_CONST.__objc_const: 0x68e8
+   __AUTH.__objc_data: 0xab8
+-  __AUTH.__data: 0x147f0
+-  __DATA.__data: 0x13810
+-  __DATA.__bss: 0xcf5b0
++  __AUTH.__data: 0x14870
++  __DATA.__data: 0x139f0
++  __DATA.__bss: 0xd0b30
+   __DATA_DIRTY.__objc_data: 0x690
+-  __DATA_DIRTY.__data: 0x13508
+-  __DATA_DIRTY.__bss: 0x1a480
++  __DATA_DIRTY.__data: 0x132f0
++  __DATA_DIRTY.__bss: 0x1a300
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 96927316-599E-3F5C-8099-22408AE84E4D
+-  Functions: 59781
+-  Symbols:   9432
+-  CStrings:  2678
++  UUID: 2F126177-0425-38ED-9AD3-E04DC3399E24
++  Functions: 59896
++  Symbols:   9479
++  CStrings:  2679
+ 
+Symbols:
++ ___swift_project_boxed_opaque_existential_0Tm
++ _associated conformance 11SeymourCore15PlaybackVoucherV10CodingKeys33_D95BE76C2446D33C9EB126EA2FE892E7LLOSHAASQ
++ _associated conformance 11SeymourCore15PlaybackVoucherV10CodingKeys33_D95BE76C2446D33C9EB126EA2FE892E7LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 11SeymourCore15PlaybackVoucherV10CodingKeys33_D95BE76C2446D33C9EB126EA2FE892E7LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SeymourCore19ContentRatingSystemO10CodingKeys33_E37E5C4EFA18FF9247097B9AC66EA748LLOSHAASQ
++ _associated conformance 11SeymourCore19ContentRatingSystemO10CodingKeys33_E37E5C4EFA18FF9247097B9AC66EA748LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 11SeymourCore19ContentRatingSystemO10CodingKeys33_E37E5C4EFA18FF9247097B9AC66EA748LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SeymourCore19ContentRatingSystemO17UnknownCodingKeys33_E37E5C4EFA18FF9247097B9AC66EA748LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 11SeymourCore19ContentRatingSystemO17UnknownCodingKeys33_E37E5C4EFA18FF9247097B9AC66EA748LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SeymourCore19ContentRatingSystemOAA29TransportProtobufSerializableAA0G4TypeAaDP_013InternalSwiftG07Message
++ _associated conformance 11SeymourCore19ContentRatingSystemOAA29TransportProtobufSerializableAA0G4TypeAaDP_SQ
++ _associated conformance 11SeymourCore19ContentRatingSystemOSHAASQ
++ _associated conformance 11SeymourCore22PlaybackVoucherVersionO10CodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLOSHAASQ
++ _associated conformance 11SeymourCore22PlaybackVoucherVersionO10CodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 11SeymourCore22PlaybackVoucherVersionO10CodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SeymourCore22PlaybackVoucherVersionO16KeyBagCodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLOs0hF0AAs23CustomStringConvertible
++ _associated conformance 11SeymourCore22PlaybackVoucherVersionO16KeyBagCodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLOs0hF0AAs28CustomDebugStringConvertible
++ _associated conformance 11SeymourCore22PlaybackVoucherVersionO19SpecifiedCodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLOSHAASQ
++ _associated conformance 11SeymourCore22PlaybackVoucherVersionO19SpecifiedCodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 11SeymourCore22PlaybackVoucherVersionO19SpecifiedCodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SeymourCore22PlaybackVoucherVersionOSHAASQ
++ _associated conformance 11SeymourCore27ContentRatingSystemProtobufV013InternalSwiftF026_MessageImplementationBaseAASH
++ _associated conformance 11SeymourCore27ContentRatingSystemProtobufV013InternalSwiftF026_MessageImplementationBaseAaD0I0
++ _associated conformance 11SeymourCore27ContentRatingSystemProtobufV013InternalSwiftF07MessageAAs28CustomDebugStringConvertible
++ _associated conformance 11SeymourCore27ContentRatingSystemProtobufV0dE0O013InternalSwiftF04EnumAASH
++ _associated conformance 11SeymourCore27ContentRatingSystemProtobufV0dE0O013InternalSwiftF04EnumAASY
++ _associated conformance 11SeymourCore27ContentRatingSystemProtobufV0dE0OSHAASQ
++ _associated conformance 11SeymourCore27ContentRatingSystemProtobufV0dE0Os12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 11SeymourCore27ContentRatingSystemProtobufVSHAASQ
++ _associated conformance 11SeymourCore8MediaTagO33ContentRatingSystemIconCodingKeys33_1CC8B8A199D1D46D79AC40B153218CD5LLOSHAASQ
++ _associated conformance 11SeymourCore8MediaTagO33ContentRatingSystemIconCodingKeys33_1CC8B8A199D1D46D79AC40B153218CD5LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 11SeymourCore8MediaTagO33ContentRatingSystemIconCodingKeys33_1CC8B8A199D1D46D79AC40B153218CD5LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _get_enum_tag_for_layout_string 11SeymourCore7ArtworkVSg
++ _symbolic SS6symbol_t
++ _symbolic Say_____G 11SeymourCore27ContentRatingSystemProtobufV0dE0O
++ _symbolic _____ 11SeymourCore15PlaybackVoucherV10CodingKeys33_D95BE76C2446D33C9EB126EA2FE892E7LLO
++ _symbolic _____ 11SeymourCore19ContentRatingSystemO
++ _symbolic _____ 11SeymourCore19ContentRatingSystemO10CodingKeys33_E37E5C4EFA18FF9247097B9AC66EA748LLO
++ _symbolic _____ 11SeymourCore19ContentRatingSystemO17UnknownCodingKeys33_E37E5C4EFA18FF9247097B9AC66EA748LLO
++ _symbolic _____ 11SeymourCore22PlaybackVoucherVersionO10CodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLO
++ _symbolic _____ 11SeymourCore22PlaybackVoucherVersionO16KeyBagCodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLO
++ _symbolic _____ 11SeymourCore22PlaybackVoucherVersionO19SpecifiedCodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLO
++ _symbolic _____ 11SeymourCore27ContentRatingSystemProtobufV
++ _symbolic _____ 11SeymourCore27ContentRatingSystemProtobufV0dE0O
++ _symbolic _____ 11SeymourCore8MediaTagO33ContentRatingSystemIconCodingKeys33_1CC8B8A199D1D46D79AC40B153218CD5LLO
++ _symbolic _____Sg 11SeymourCore19ContentRatingSystemO
++ _symbolic _____Sg 11SeymourCore25MetricPlaybackEntitlementO
++ _symbolic _____Sg 11SeymourCore27ContentRatingSystemProtobufV
++ _symbolic _____Sg_ABt 11SeymourCore27ContentRatingSystemProtobufV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SeymourCore15PlaybackVoucherV10CodingKeys33_D95BE76C2446D33C9EB126EA2FE892E7LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SeymourCore19ContentRatingSystemO10CodingKeys33_E37E5C4EFA18FF9247097B9AC66EA748LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SeymourCore19ContentRatingSystemO17UnknownCodingKeys33_E37E5C4EFA18FF9247097B9AC66EA748LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SeymourCore22PlaybackVoucherVersionO10CodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SeymourCore22PlaybackVoucherVersionO16KeyBagCodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SeymourCore22PlaybackVoucherVersionO19SpecifiedCodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SeymourCore8MediaTagO33ContentRatingSystemIconCodingKeys33_1CC8B8A199D1D46D79AC40B153218CD5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SeymourCore15PlaybackVoucherV10CodingKeys33_D95BE76C2446D33C9EB126EA2FE892E7LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SeymourCore19ContentRatingSystemO10CodingKeys33_E37E5C4EFA18FF9247097B9AC66EA748LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SeymourCore19ContentRatingSystemO17UnknownCodingKeys33_E37E5C4EFA18FF9247097B9AC66EA748LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SeymourCore22PlaybackVoucherVersionO10CodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SeymourCore22PlaybackVoucherVersionO16KeyBagCodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SeymourCore22PlaybackVoucherVersionO19SpecifiedCodingKeys33_91C873FA712E9E4E1AC47938AC72F0D8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SeymourCore8MediaTagO33ContentRatingSystemIconCodingKeys33_1CC8B8A199D1D46D79AC40B153218CD5LLO
++ _type_layout_string 11SeymourCore16OnboardingDetailV
+- _associated conformance 11SeymourCore15OnboardingVideoV10CodingKeys33_E978DFA69B00FFD997C1EE94E184836BLLOSHAASQ
+- _associated conformance 11SeymourCore15OnboardingVideoV10CodingKeys33_E978DFA69B00FFD997C1EE94E184836BLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 11SeymourCore15OnboardingVideoV10CodingKeys33_E978DFA69B00FFD997C1EE94E184836BLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 11SeymourCore15OnboardingVideoVAA29TransportProtobufSerializableAA0F4TypeAaDP_013InternalSwiftF07Message
+- _associated conformance 11SeymourCore15OnboardingVideoVAA29TransportProtobufSerializableAA0F4TypeAaDP_SQ
+- _associated conformance 11SeymourCore15OnboardingVideoVSHAASQ
+- _associated conformance 11SeymourCore23OnboardingVideoProtobufV013InternalSwiftE026_MessageImplementationBaseAASH
+- _associated conformance 11SeymourCore23OnboardingVideoProtobufV013InternalSwiftE026_MessageImplementationBaseAaD0H0
+- _associated conformance 11SeymourCore23OnboardingVideoProtobufV013InternalSwiftE07MessageAAs28CustomDebugStringConvertible
+- _associated conformance 11SeymourCore23OnboardingVideoProtobufVSHAASQ
+- _symbolic _____ 11SeymourCore15OnboardingVideoV
+- _symbolic _____ 11SeymourCore15OnboardingVideoV10CodingKeys33_E978DFA69B00FFD997C1EE94E184836BLLO
+- _symbolic _____ 11SeymourCore23OnboardingVideoProtobufV
+- _symbolic _____Sg 11SeymourCore15OnboardingVideoV
+- _symbolic _____Sg 11SeymourCore23OnboardingVideoProtobufV
+- _symbolic _____Sg_ABt 11SeymourCore15OnboardingVideoV
+- _symbolic _____Sg_ABt 11SeymourCore23OnboardingVideoProtobufV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 11SeymourCore15OnboardingVideoV10CodingKeys33_E978DFA69B00FFD997C1EE94E184836BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 11SeymourCore15OnboardingVideoV10CodingKeys33_E978DFA69B00FFD997C1EE94E184836BLLO
+CStrings:
++ "ContentRatingSystem "
++ "_contentRatingSystem"
++ "contentRatingSystem"
++ "contentRatingSystemIcon"
++ "contentRatingSystemTag"
++ "contentRatingSystemTagSymbol"
++ "contentType"
++ "known"
++ "pregnancyProgram"
++ "ratingSystem"
+- ", streamingIdentifier = "
+- ", streamingTitle = "
+- ", streamingURL = "
+- "OnboardingVideo actionTitle = "
+- "See the Welcome Video"
+- "Welcome to Fitness+"
+- "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+- "onboardingWelcomeVideoStreamingIdentifier"
+- "streamingIdentifier"
+
+```

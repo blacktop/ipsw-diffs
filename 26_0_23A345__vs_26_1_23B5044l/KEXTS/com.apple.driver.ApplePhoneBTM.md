@@ -1,0 +1,67 @@
+## com.apple.driver.ApplePhoneBTM
+
+> `com.apple.driver.ApplePhoneBTM`
+
+```diff
+
+-184.0.0.0.0
+-  __TEXT.__cstring: 0x4656
+-  __TEXT.__const: 0x530
++184.40.4.0.0
++  __TEXT.__cstring: 0x4800
++  __TEXT.__const: 0x600
+   __TEXT.__os_log: 0x182
+-  __TEXT_EXEC.__text: 0x18cf8
++  __TEXT_EXEC.__text: 0x19254
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x177
+-  __DATA.__common: 0x448
++  __DATA.__common: 0x470
+   __DATA.__bss: 0x84
+-  __DATA_CONST.__auth_got: 0x1c0
++  __DATA_CONST.__auth_got: 0x1c8
+   __DATA_CONST.__got: 0xa0
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0xd8
+   __DATA_CONST.__mod_term_func: 0xd8
+-  __DATA_CONST.__const: 0x37a0
+-  __DATA_CONST.__kalloc_type: 0x700
+-  UUID: BFB9FD49-055B-338A-BD35-7F4D2B7A69A4
+-  Functions: 1001
++  __DATA_CONST.__const: 0x39f0
++  __DATA_CONST.__kalloc_type: 0x740
++  UUID: 3A35A2C5-91CA-3CF7-B313-2E2F45533489
++  Functions: 1043
+   Symbols:   0
+-  CStrings:  465
++  CStrings:  473
+ 
+CStrings:
++ "\"AppleBTM: %s:%u \" \"AppleBTMPMUAgent::initializePmuSampleSpec: length %d exceeds maximum %d\" @%s:%d"
++ "\"AppleBTM: %s:%u \" \"AppleBTMPMUAgent::initializePmuSampleSpec: length == 0\" @%s:%d"
++ "\"AppleBTM: %s:%u \" \"AppleBTMPMUAgent::initializePmuSampleSpec: spec input is NULL\" @%s:%d"
++ "121111122222222221211122222222222222222222222222222"
++ "1211111222222222212111222222222222222222222222222221"
++ "12111112222222222121112222222222222222222222222222211121112"
++ "121111122222222221211122222222222222222222222222222121"
++ "1211111222222222212111222222222222222222222222222221212"
++ "121111122222222221211122222222222222222222222222222222222222222222111"
++ "AppleBakuBTM2"
++ "AppleBakuBTM2::start (%p)\n"
++ "AppleBakuBTM2::start success\n"
++ "config-fixed-PMU-rate-flag"
++ "pmuSampleSpec"
++ "site.AppleBakuBTM2"
++ "static AppleBakuBTM2 *AppleBakuBTM2::withParent(AppleBTM *, IOService *)"
++ "void AppleBTMPMUAgent::initializePmuSampleSpec(int, const pmuDataLayout *)"
+- "1211111222222222212111222222222222222"
+- "12111112222222222121112222222222222221"
+- "121111122222222221211122222222222222211121112"
+- "1211111222222222212111222222222222222121"
+- "12111112222222222121112222222222222221212"
+- "1211111222222222212111222222222222222121222222222222222"
+- "1211111222222222212111222222222222222121222222222222222222222222222222"
+- "12111112222222222121112222222222222221212222222222222222222222222222222222222222222"
+- "121111122222222221211122222222222222222222222222222111"
+
+```

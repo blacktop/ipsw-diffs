@@ -1,0 +1,42 @@
+## libswiftRemoteMirror.dylib
+
+> `/usr/lib/swift/libswiftRemoteMirror.dylib`
+
+```diff
+
+-6.2.0.17.15
+-  __TEXT.__text: 0xd1c84
++6.2.1.1.1
++  __TEXT.__text: 0xd1cf0
+   __TEXT.__auth_stubs: 0x4a0
+   __TEXT.__init_offsets: 0x4
+   __TEXT.__cstring: 0x6c99
+-  __TEXT.__const: 0x740
++  __TEXT.__const: 0x750
+   __TEXT.__unwind_info: 0x13b8
+   __DATA_CONST.__got: 0x50
+   __DATA_CONST.__const: 0xdb8
+   __AUTH_CONST.__auth_got: 0x250
+-  __AUTH_CONST.__const: 0x1668
++  __AUTH_CONST.__const: 0x1670
+   __DATA.__data: 0x70
+   __DATA.__crash_info: 0x40
+   __DATA.__common: 0x10
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: C858648D-9790-31F0-B4C4-5FDF048AEE0F
++  UUID: 30CBF65B-A344-360B-94DE-1AFFE1483B89
+   Functions: 1915
+   Symbols:   2343
+   CStrings:  1601
+Functions:
+~ __ZZN5swift10reflection17ReflectionContextINS_8ExternalINS_15WithObjCInteropINS_13RuntimeTargetILj8EEEEEEEE15readELFSectionsIN12_GLOBAL__N_19ELFTraitsILh1EEEEENSt3__18optionalIjEENS_6remote13RemoteAddressENSE_IN4llvm3sys11MemoryBlockEEENSI_11SmallVectorINSI_9StringRefELj1EEEENKUlSN_bE_clESN_b : 1628 -> 1636
+~ __ZZN5swift10reflection17ReflectionContextINS_8ExternalINS_13NoObjCInteropINS_13RuntimeTargetILj8EEEEEEEE15readELFSectionsIN12_GLOBAL__N_19ELFTraitsILh1EEEEENSt3__18optionalIjEENS_6remote13RemoteAddressENSE_IN4llvm3sys11MemoryBlockEEENSI_11SmallVectorINSI_9StringRefELj1EEEENKUlSN_bE_clESN_b : 1628 -> 1636
+~ __ZN5swift10reflection17ReflectionContextINS_8ExternalINS_15WithObjCInteropINS_13RuntimeTargetILj8EEEEEEEE13asyncTaskInfoINS0_9AsyncTaskIS7_NS0_30ActiveTaskStatusWithEscalationIS7_EEEEEENSt3__14pairINSE_8optionalINSE_12basic_stringIcNSE_11char_traitsIcEENSE_9allocatorIcEEEEEENS8_13AsyncTaskInfoEEENS_6remote13RemoteAddressEjj : 2644 -> 2676
+~ __ZN5swift10reflection17ReflectionContextINS_8ExternalINS_15WithObjCInteropINS_13RuntimeTargetILj8EEEEEEEE13asyncTaskInfoINS0_9AsyncTaskIS7_NS0_33ActiveTaskStatusWithoutEscalationIS7_EEEEEENSt3__14pairINSE_8optionalINSE_12basic_stringIcNSE_11char_traitsIcEENSE_9allocatorIcEEEEEENS8_13AsyncTaskInfoEEENS_6remote13RemoteAddressEjj : 2624 -> 2664
+~ __ZNSt3__14pairINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEN5swift10reflection17ReflectionContextINS9_8ExternalINS9_15WithObjCInteropINS9_13RuntimeTargetILj8EEEEEEEE13AsyncTaskInfoEEC1B8nn200100ILb1ELi0EEERKS8_RKSJ_ : 304 -> 300
+~ __ZNSt3__14pairINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEN5swift10reflection17ReflectionContextINS9_8ExternalINS9_15WithObjCInteropINS9_13RuntimeTargetILj8EEEEEEEE13AsyncTaskInfoEEC2B8nn200100IS7_RSJ_Li0EEEOT_OT0_ : 264 -> 260
+~ __ZNSt3__14pairINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEN5swift10reflection17ReflectionContextINS9_8ExternalINS9_15WithObjCInteropINS9_13RuntimeTargetILj8EEEEEEEE13AsyncTaskInfoEEC2B8nn200100IRKNS_9nullopt_tERSJ_Li0EEEOT_OT0_ : 240 -> 236
+~ __ZN5swift8Demangle9__runtime11NodePrinter5printEPNS1_4NodeEjb : 27260 -> 27292
+
+```

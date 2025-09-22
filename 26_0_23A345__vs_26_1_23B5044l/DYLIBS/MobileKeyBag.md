@@ -1,0 +1,892 @@
+## MobileKeyBag
+
+> `/System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag`
+
+```diff
+
+-674.0.3.0.0
+-  __TEXT.__text: 0x1f5b0
+-  __TEXT.__auth_stubs: 0x1410
+-  __TEXT.__objc_methlist: 0x5c4
+-  __TEXT.__cstring: 0x98f7
+-  __TEXT.__const: 0x506
++674.40.2.0.0
++  __TEXT.__text: 0x16378
++  __TEXT.__auth_stubs: 0x10d0
++  __TEXT.__objc_methlist: 0x544
++  __TEXT.__cstring: 0x5efc
++  __TEXT.__const: 0x468
+   __TEXT.__oslogstring: 0x28
+-  __TEXT.__gcc_except_tab: 0x658
+-  __TEXT.__dlopen_cstrs: 0x50
+-  __TEXT.__unwind_info: 0x958
+-  __TEXT.__objc_classname: 0x4e
+-  __TEXT.__objc_methname: 0x15d5
+-  __TEXT.__objc_methtype: 0xa31
+-  __TEXT.__objc_stubs: 0x10e0
+-  __DATA_CONST.__got: 0xe0
+-  __DATA_CONST.__const: 0x8a8
+-  __DATA_CONST.__objc_classlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x18
++  __TEXT.__gcc_except_tab: 0x5a4
++  __TEXT.__unwind_info: 0x790
++  __TEXT.__objc_classname: 0x2a
++  __TEXT.__objc_methname: 0x11e5
++  __TEXT.__objc_methtype: 0x9b8
++  __TEXT.__objc_stubs: 0xca0
++  __DATA_CONST.__got: 0xc0
++  __DATA_CONST.__const: 0x2d8
++  __DATA_CONST.__objc_classlist: 0x8
++  __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x520
++  __DATA_CONST.__objc_selrefs: 0x3e0
+   __DATA_CONST.__objc_protorefs: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0xa18
+-  __AUTH_CONST.__const: 0x240
+-  __AUTH_CONST.__cfstring: 0x4fe0
+-  __AUTH_CONST.__objc_const: 0x718
+-  __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x40
+-  __DATA.__objc_ivar: 0x4
+-  __DATA.__data: 0x360
+-  __DATA.__bss: 0x138
++  __AUTH_CONST.__auth_got: 0x878
++  __AUTH_CONST.__const: 0x1c0
++  __AUTH_CONST.__cfstring: 0x3de0
++  __AUTH_CONST.__objc_const: 0x2e8
++  __DATA.__data: 0x2e0
++  __DATA.__bss: 0xe0
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__data: 0x4
+   __DATA_DIRTY.__bss: 0x30
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: FDC703CA-28C8-3375-ABFC-66D50F187865
+-  Functions: 695
+-  Symbols:   2061
+-  CStrings:  2083
++  UUID: D5B56491-98B6-3287-B62B-F8BD0CD525C5
++  Functions: 501
++  Symbols:   1493
++  CStrings:  1479
+ 
+Symbols:
+- -[NFHWMonitor dealloc]
+- -[NFHWMonitor hardwareStateDidChange]
+- -[NFHWMonitor init]
+- -[NFHWMonitor waitForNotificationOrTimeout:]
+- GCC_except_table14
+- GCC_except_table17
+- GCC_except_table23
+- GCC_except_table32
+- GCC_except_table5
+- GCC_except_table8
+- GCC_except_table9
+- _AKSIdentityGetPrimary
+- _CFDataCreateMutableCopy
+- _CFDataReplaceBytes
+- _CFStringGetCStringPtr
+- _CFUUIDCreateFromUUIDBytes
+- _CopyPersistedReports
+- _IOPMAssertionDeclareSystemActivity
+- _IOPMAssertionRelease
+- _KBChangeSystemNonSeSecret.cold.1
+- _KBChangeSystemNonSeSecret.cold.2
+- _KBChangeSystemSecret
+- _KBGetMementoSESlot
+- _KBGetSEStuff
+- _KBGetSEStuffForMementoPasscode
+- _KBGetSEStuffForMementoPasscode.cold.1
+- _KBSaveKeyBag.cold.1
+- _KBSaveKeyBag.cold.10
+- _KBSaveKeyBag.cold.2
+- _KBSaveKeyBag.cold.3
+- _KBSaveKeyBag.cold.4
+- _KBSaveKeyBag.cold.5
+- _KBSaveKeyBag.cold.6
+- _KBSaveKeyBag.cold.7
+- _KBSaveKeyBag.cold.8
+- _KBSaveKeyBag.cold.9
+- _KBSeshatEffaceUnusedSlots
+- _KBSeshatGetSeSecret
+- _MGCopyAnswer
+- _MGGetBoolAnswer
+- _NearFieldLibrary
+- _NearFieldLibrary.cold.1
+- _NearFieldLibraryCore
+- _NearFieldLibraryCore.frameworkLibrary
+- _OBJC_CLASS_$_NFHWMonitor
+- _OBJC_CLASS_$_NSAssertionHandler
+- _OBJC_CLASS_$_NSString
+- _OBJC_IVAR_$_NFHWMonitor.sem
+- _OBJC_METACLASS_$_NFHWMonitor
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_7
+- _SeshatAllocateSlot
+- _SeshatAugmentPreflightResult
+- _SeshatAuthorizeUpdate
+- _SeshatAvailable
+- _SeshatAvailableinRestrictedMode
+- _SeshatCreateDerivedPasscodeOpts
+- _SeshatCreateDerivedPasscodeOpts.cold.1
+- _SeshatCreateNonceBlob
+- _SeshatCreateSessionWithTimeout
+- _SeshatCreateSessionWithTimeoutVerbose
+- _SeshatCreateSessionWithTimeoutVerbose.cold.1
+- _SeshatDebug
+- _SeshatDeleteSlot
+- _SeshatDerive
+- _SeshatEnabled
+- _SeshatEndSession
+- _SeshatForceEOL
+- _SeshatFwkAvailable
+- _SeshatFwkAvailable.seshat_available
+- _SeshatGetData
+- _SeshatGetDebug
+- _SeshatGetNumberOfUsedSlots
+- _SeshatHWAvailable
+- _SeshatHWAvailable.answer
+- _SeshatHWAvailable.cached_answer
+- _SeshatIsNonceEquivalent
+- _SeshatIsPreflightResultTransient
+- _SeshatIsReportingEnabled
+- _SeshatNextAvailableSlot
+- _SeshatPowerAssertion
+- _SeshatPowerAssertion._powerAssertionId
+- _SeshatPowerAssertion.taken
+- _SeshatPreWarm
+- _SeshatPreflightCheck
+- _SeshatPreflightGetResetStuff
+- _SeshatReportIfNeeded
+- _SeshatResetCounter
+- _SeshatRetry
+- _SeshatSeHistoryTest
+- _SeshatTTR
+- _SeshatUpgradeSlot
+- __Block_object_assign
+- __OBJC_$_INSTANCE_METHODS_NFHWMonitor
+- __OBJC_$_INSTANCE_VARIABLES_NFHWMonitor
+- __OBJC_$_PROP_LIST_NFHWMonitor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NFHardwareEventListener
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFHardwareEventListener
+- __OBJC_$_PROTOCOL_REFS_NFHardwareEventListener
+- __OBJC_CLASS_PROTOCOLS_$_NFHWMonitor
+- __OBJC_CLASS_RO_$_NFHWMonitor
+- __OBJC_LABEL_PROTOCOL_$_NFHardwareEventListener
+- __OBJC_METACLASS_RO_$_NFHWMonitor
+- __OBJC_PROTOCOL_$_NFHardwareEventListener
+- __SeshatCreateSessionWithTimeout.onceToken
+- __SeshatCreateSessionWithTimeout.queue
+- ___NearFieldLibraryCore_block_invoke
+- ___SeshatAllocateSlot_block_invoke
+- ___SeshatAuthorizeUpdate_block_invoke
+- ___SeshatDeleteSlot_block_invoke
+- ___SeshatDerive_block_invoke
+- ___SeshatGetData_block_invoke
+- ___SeshatResetCounter_block_invoke
+- ___SeshatUpgradeSlot_block_invoke
+- ____SeshatCreateSessionWithTimeout_block_invoke
+- ____SeshatCreateSessionWithTimeout_block_invoke_2
+- ____SeshatCreateSessionWithTimeout_block_invoke_3
+- ____SeshatCreateSessionWithTimeout_block_invoke_4
+- ___analytics_is_event_persisted_block_invoke
+- ___analytics_persistance_test_block_invoke
+- ___analytics_persistance_test_block_invoke_2
+- ___analytics_persistance_test_block_invoke_3
+- ___analytics_persistance_test_block_invoke_4
+- ___analytics_send_backup_key_drain_block_invoke
+- ___analytics_send_db_add_block_invoke
+- ___analytics_send_db_filekey_found_block_invoke
+- ___analytics_send_db_filekey_not_found_block_invoke
+- ___analytics_send_db_get_block_invoke
+- ___analytics_send_first_unlock_block_invoke
+- ___analytics_send_forgotten_passcode_event_block_invoke
+- ___analytics_send_fv_status_block_invoke
+- ___analytics_send_kek_stats_block_invoke
+- ___analytics_send_nfc_hardware_state_block_invoke
+- ___analytics_send_passcode_status_block_invoke
+- ___analytics_send_passphrase_change_block_invoke
+- ___analytics_send_preflight_result_block_invoke
+- ___analytics_send_seshat_debug_block_invoke
+- ___analytics_send_seshat_enroll_block_invoke
+- ___analytics_send_seshat_eol_block_invoke
+- ___analytics_send_seshat_recovery_required_block_invoke
+- ___analytics_send_seshat_recovery_success_block_invoke
+- ___analytics_send_seshat_report_block_invoke
+- ___analytics_send_seshat_unenroll_block_invoke
+- ___analytics_send_seshat_unexpected_sentinel_block_invoke
+- ___analytics_send_seshat_write_count_block_invoke
+- ___analytics_send_sharing_status_block_invoke
+- ___analytics_send_sidp_recovery_block_invoke
+- ___analytics_send_stash_presence_block_invoke
+- ___analytics_send_user_keybag_block_invoke
+- ___analytics_submit_persisted_events_block_invoke
+- ___block_descriptor_40_e8_32r_e5_v8?0lr32l8
+- ___block_descriptor_41_e30_{?=II}16?0"NFSeshatSession"8l
+- ___block_descriptor_49_e30_{?=II}16?0"NFSeshatSession"8l
+- ___block_descriptor_53_e30_{?=II}16?0"NFSeshatSession"8l
+- ___block_descriptor_56_e8_32o40r_e5_v8?0lr40l8s32l8
+- ___block_descriptor_58_e8_32r_e30_{?=II}16?0"NFSeshatSession"8lr32l8
+- ___block_descriptor_64_e8_32o40r48r56r_e37_v24?0"NFSeshatSession"8"NSError"16lr40l8r48l8s32l8r56l8
+- ___block_descriptor_64_e8_32r_e30_{?=II}16?0"NFSeshatSession"8lr32l8
+- ___block_descriptor_65_e8_32r40r_e30_{?=II}16?0"NFSeshatSession"8lr32l8r40l8
+- ___block_descriptor_80_e8_32o40o48o56r64r72r_e5_v8?0lr56l8s32l8r64l8s40l8r72l8s48l8
+- ___block_descriptor_tmp.102
+- ___block_descriptor_tmp.104
+- ___block_descriptor_tmp.106
+- ___block_descriptor_tmp.115
+- ___block_descriptor_tmp.122
+- ___block_descriptor_tmp.133
+- ___block_descriptor_tmp.138
+- ___block_descriptor_tmp.144
+- ___block_descriptor_tmp.146
+- ___block_descriptor_tmp.149
+- ___block_descriptor_tmp.151
+- ___block_descriptor_tmp.157
+- ___block_descriptor_tmp.166
+- ___block_descriptor_tmp.192
+- ___block_descriptor_tmp.202
+- ___block_descriptor_tmp.277
+- ___block_descriptor_tmp.286
+- ___block_descriptor_tmp.29
+- ___block_descriptor_tmp.41
+- ___block_descriptor_tmp.42
+- ___block_descriptor_tmp.50
+- ___block_descriptor_tmp.56
+- ___block_descriptor_tmp.63
+- ___block_descriptor_tmp.67
+- ___block_descriptor_tmp.68
+- ___block_descriptor_tmp.71
+- ___block_descriptor_tmp.73
+- ___block_descriptor_tmp.75
+- ___block_descriptor_tmp.81
+- ___block_descriptor_tmp.95
+- ___block_literal_global.70
+- ___getNFHardwareManagerClass_block_invoke
+- ___getNFHardwareManagerClass_block_invoke.cold.1
+- ___getNFSecureElementClass_block_invoke
+- ___getNFSecureElementClass_block_invoke.cold.1
+- ___getNFSeshatSessionClass_block_invoke
+- ___getNFSeshatSessionClass_block_invoke.cold.1
+- ___getNFTapToRadarClass_block_invoke
+- ___getNFTapToRadarClass_block_invoke.cold.1
+- __se_unenrollment_condition
+- __sl_dlopen
+- _aks_se_delete_reset_token
+- _aks_se_get_passcode_derivation
+- _aks_se_get_reset_pubkey
+- _aks_se_get_reset_sig
+- _aks_se_get_reset_token
+- _aks_se_get_reset_token_for_memento_secret_with_opts
+- _aks_se_recover_with_opts
+- _aks_se_set_nonce
+- _aks_se_support_in_rm
+- _aks_se_support_in_rm_is_set
+- _aks_set_jcop_supports_updated_kud_policy
+- _analytics_is_event_persisted
+- _analytics_iterate_persisted_eventsWithBlock
+- _analytics_persist_event
+- _analytics_persistance_report_get_id
+- _analytics_persistance_test
+- _analytics_send_backup_key_drain
+- _analytics_send_db_add
+- _analytics_send_db_filekey_found
+- _analytics_send_db_filekey_not_found
+- _analytics_send_db_get
+- _analytics_send_event_lazy
+- _analytics_send_first_unlock
+- _analytics_send_first_unlock.cold.1
+- _analytics_send_forgotten_passcode_event
+- _analytics_send_fv_status
+- _analytics_send_kek_stats
+- _analytics_send_nfc_hardware_state
+- _analytics_send_passcode_status
+- _analytics_send_passphrase_change
+- _analytics_send_persisted_forgotten_passcode_event
+- _analytics_send_persisted_seshat_recovery_required
+- _analytics_send_persisted_seshat_report
+- _analytics_send_persisted_sidp_recovery
+- _analytics_send_preflight_result
+- _analytics_send_preflight_result.cold.1
+- _analytics_send_seshat_debug
+- _analytics_send_seshat_enroll
+- _analytics_send_seshat_enroll.cold.1
+- _analytics_send_seshat_eol
+- _analytics_send_seshat_eol.cold.1
+- _analytics_send_seshat_recovery_required
+- _analytics_send_seshat_recovery_required.cold.1
+- _analytics_send_seshat_recovery_success
+- _analytics_send_seshat_recovery_success.cold.1
+- _analytics_send_seshat_report
+- _analytics_send_seshat_report.cold.1
+- _analytics_send_seshat_unenroll
+- _analytics_send_seshat_unenroll.cold.1
+- _analytics_send_seshat_unexpected_sentinel
+- _analytics_send_seshat_unexpected_sentinel.cold.1
+- _analytics_send_seshat_write_count
+- _analytics_send_seshat_write_count.cold.1
+- _analytics_send_seshat_write_count.cold.2
+- _analytics_send_sharing_status
+- _analytics_send_sidp_recovery
+- _analytics_send_stash_presence
+- _analytics_send_user_keybag
+- _analytics_submit_persisted_events
+- _analytics_submit_persisted_eventsWithBlock
+- _audit_stringNearField
+- _ccdigest
+- _ccec_cp_256
+- _ccec_sign
+- _ccec_verify
+- _ccec_x963_export
+- _ccec_x963_import_priv
+- _ccec_x963_import_pub
+- _ccrng
+- _ccsha256_di
+- _cczp_bitlen
+- _ctime
+- _dispatch_queue_create
+- _dispatch_retain
+- _dispatch_semaphore_create
+- _dispatch_semaphore_signal
+- _dispatch_semaphore_wait
+- _dispatch_sync
+- _dispatch_time
+- _getNFHardwareManagerClass
+- _getNFHardwareManagerClass.softClass
+- _getNFSecureElementClass
+- _getNFSecureElementClass.softClass
+- _getNFSeshatSessionClass
+- _getNFSeshatSessionClass.softClass
+- _getNFTapToRadarClass.softClass
+- _get_se_recovery_count
+- _geteuid
+- _goodHash
+- _isTransientError
+- _is_user_primary
+- _kAKSConfigGroupUUID
+- _kAKSConfigUserUUID
+- _nanosleep
+- _objc_alloc_init
+- _objc_autoreleasePoolPop
+- _objc_autoreleasePoolPush
+- _objc_getClass
+- _objc_msgSend$allocateSlot:authorizingUser:authorizingUserToken:outToken:outWriteCount:
+- _objc_msgSend$authorizeUpdate:slotIndex:userToken:outWriteCount:
+- _objc_msgSend$cStringUsingEncoding:
+- _objc_msgSend$count
+- _objc_msgSend$currentHandler
+- _objc_msgSend$deleteSlot:outWriteCount:
+- _objc_msgSend$derive:userHash:outData:outWriteCount:trackingError:
+- _objc_msgSend$description
+- _objc_msgSend$embeddedSecureElement
+- _objc_msgSend$endSession
+- _objc_msgSend$getData:updateKUD:outWriteLimit:outWriteCount:
+- _objc_msgSend$getHwSupport
+- _objc_msgSend$handleFailureInFunction:file:lineNumber:description:
+- _objc_msgSend$hwType
+- _objc_msgSend$intValue
+- _objc_msgSend$isSeshatAvailabledInRestrictedMode
+- _objc_msgSend$isTransientError:
+- _objc_msgSend$largeCrumbsFromError:
+- _objc_msgSend$objectAtIndex:
+- _objc_msgSend$preWarm
+- _objc_msgSend$registerEventListener:
+- _objc_msgSend$requestTapToRadar:preferences:
+- _objc_msgSend$resetCounter:userToken:outWriteCount:
+- _objc_msgSend$secureElementBootHistory:
+- _objc_msgSend$sequenceCounter
+- _objc_msgSend$sharedHardwareManager
+- _objc_msgSend$smallCrumbsFromError:
+- _objc_msgSend$startSesHatSession:
+- _objc_msgSend$stringWithFormat:
+- _objc_msgSend$stringWithUTF8String:
+- _objc_msgSend$unregisterEventListener:
+- _objc_msgSend$unsignedLongValue
+- _objc_msgSend$upgradeKey:inputData:outWriteCount:
+- _objc_msgSend$waitForNotificationOrTimeout:
+- _objc_msgSendSuper2
+- _persisted_keys_table
+- _seshat_arm_nonce
+- _seshat_augment_preflight_result
+- _seshat_count_failures
+- _seshat_debug_mask
+- _seshat_get_reset_sig
+- _seshat_is_supported
+- _seshat_is_supported.once
+- _seshat_migrate_slot_to_v2
+- _seshat_preflight_condition_for_pw_change_block_invoke
+- _seshat_preflight_condition_for_pw_change_block_invoke.cold.1
+- _seshat_sep_rm_init
+- _seshat_sep_rm_init.cold.1
+- _seshat_supports_upgraded_jcop_kud_policy
+- _strtol
+- _xpc_dictionary_create
+- _xpc_dictionary_set_bool
+- _xpc_dictionary_set_uint64
+CStrings:
+- "%s"
+- "-[NFHWMonitor hardwareStateDidChange]"
+- "0000"
+- "0dnM19zBqLw5ZPhIo4GEkg"
+- "@\"NSObject<OS_dispatch_semaphore>\""
+- "AKPUProtected"
+- "AKSIdentityGetSessionTimeWindowsFailure"
+- "AnalyticsEvent: X: %llu, Sampling: %llu, Vslot: %llu, version: %llu, WCProtected: %llu, SEPRMProtected: %llu, AKPUProtected: %llu, PSProtected: %llu, SeshatRM: %llu, unhealthy: %llu"
+- "AnalyticsEvent: change_count: %llu"
+- "AnalyticsEvent: days_since_passcode_change: %llu, passcode_reset_expired: %llu, passcode_reset_exists: %llu, days_since_lock: %llu, days_since_unlock: %llu"
+- "AnalyticsEvent: debug: %llu"
+- "AnalyticsEvent: filekey_count: %llu"
+- "AnalyticsEvent: fv_enabled: %llu, fv_users_count: %llu, icloud_recovery_key: %llu, institutional_recovery_key: %llu, personal_recovery_key: %llu, mdm_recovery_key: %llu, installer_user: %llu, icloud_recovery_user: %llu, institutional_recovery_user: %llu, vek_device_protected: %llu, vek_ephemeral: %llu, vek_is_owner: %llu, vek_boot_policy: %llu, vek_imported: %llu, kek_sidp_count: %llu, kek_ps_count: %llu, kek_last_count: %llu, kek_imported_count: %llu, kek_bad_sig_count: %llu, kek_xart_policy_missing_count: %llu, kek_ps_missing_count: %llu"
+- "AnalyticsEvent: is_set: %llu, type: %llu, activation_status: %llu, inactivity_reboot: %llu, hours_since_locked: %llu, is_mdm_profile_installed: %llu, is_supervised: %llu, version: %llu"
+- "AnalyticsEvent: key: %llu, value: %llu"
+- "AnalyticsEvent: occured: %llu"
+- "AnalyticsEvent: present_for_minutes_while_unlocked: %llu, present_for_minutes_while_locked: %llu, automatic_su_enabled: %llu, analytics_failure: %llu"
+- "AnalyticsEvent: reason: %llu, version: %llu, nf_result: %llu, applet_result: %llu, num_fails: %llu, num_preflights: %llu, failed: %llu, calling_ctx: %llu, jcop_seq_gen: %llu, jcop_seq_gen2: %llu"
+- "AnalyticsEvent: remote_desktop_enabled: %llu, remote_ae_server_enabled: %llu, screen_sharing_enabled: %llu, ssh_server_enabled: %llu, afp_nsc_protocol_enabled: %llu, smb_nsc_protocol_enabled: %llu, windows_file_sharing_enabled_users_count: %llu"
+- "AnalyticsEvent: report_version: %llu, grace_period: %llu, failed_unlock_attempts: %llu, max_unlock_attempts: %llu, recovery_iterations: %llu, recovery_target_iterations: %llu, recovery_wc_protected: %llu, recovery_restricted: %llu, recovery_ps_protected: %llu, recovery_akpu_protected: %llu, recovery_auto: %llu, memento_supported: %llu, memento_exists: %llu, memento_passcode_generation: %llu, passcode_generation: %llu, inactivity_reboot_enabled: %llu, oneness_automatic_mode: %llu, user_uuid_mismatch: %llu, zero_user_uuid: %llu, group_uuid_mismatch: %llu, zero_group_uuid: %llu, keybag_state_no_pin: %llu, keybag_state_been_unlocked: %llu, keybag_state_passcode_threshold: %llu, keybag_state_mesa_token: %llu, keybag_state_recovery_required: %llu, keybag_state_not_recoverable: %llu, keybag_state_stash_unlocked: %llu, keybag_state_escrow_unwrap_required: %llu, keybag_state_smdk_entangled: %llu, keybag_state_staged_manifest: %llu, keybag_state_se_unrecoverable: %llu, keybag_state_se_recovery_required: %llu, keybag_state_se_entangled: %llu, keybag_state_se_healthy: %llu, keybag_state_se_been_unlocked: %llu, keybag_state_art_loaded: %llu, keybag_state_xart_unlock_policy: %llu, keybag_state_xart_policy_cached: %llu, keybag_state_xart_policy_dirty: %llu, keybag_state_xart_policy_enforced: %llu, keybag_state_ps_entangled: %llu, keybag_state_from_xart: %llu, keybag_state_allow_test_keys: %llu, keybag_state_remote_session_unlocked: %llu, keybag_state_has_group_seed: %llu, keybag_state_been_passcode_unlocked: %llu, keybag_state_has_auto_recovery: %llu, keybag_state_has_lkgp_recovery: %llu, keybag_state_has_fv_recovery: %llu, keybag_state_has_memento_blob: %llu, keybag_more_state_cx_expiring: %llu, keybag_more_state_cx_expired: %llu, keybag_more_state_recovery_ps_fua_cached: %llu, keybag_more_state_unlocked_with_escrow: %llu, keybag_more_state_oneness_assert: %llu, keybag_more_state_peer_records_dirty: %llu, keybag_more_state_peer_records_flush: %llu, hours_since_locked: %llu, cx_hours_remaining: %llu, days_since_passcode_change: %llu, memento_flags_blob_exists: %llu, memento_flags_se: %llu, memento_flags_ps: %llu, memento_flags_se_reset_token: %llu, memento_flags_tombstone: %llu, memento_failed_unlock_attempts: %llu, memento_se_slot: %llu, aks_get_extended_device_state_failure: %llu, AKSIdentityGetSessionTimeWindowsFailure: %llu, aks_get_seconds_since_passcode_change_failure: %llu, aks_memento_get_state_failure: %llu"
+- "AnalyticsEvent: version: %llu, context: %llu, timedout: %llu, padding: %llu, nf_result: %llu, applet_result: %llu, reason: %llu"
+- "AnalyticsEvent: version: %llu, se_entangled: %llu, smdk_entalgned: %llu"
+- "AnalyticsEvent: version: %llu, type: %llu, event: %llu, recoverable: %llu, recovery_required: %llu, se_entangled: %llu, se_recovery_required: %llu, smdk_entalgned: %llu"
+- "AnalyticsEvent: writes: %llu"
+- "AnalyticsEvent: xart_policy: %llu, xart_policy_enforced: %llu, xart_policy_missing: %llu"
+- "AuthorizeUpdate() -> 0x%x:0x%x"
+- "B16@?0^v8"
+- "CA fwk missing, not sending event"
+- "Class getNFHardwareManagerClass(void)_block_invoke"
+- "Class getNFSecureElementClass(void)_block_invoke"
+- "Class getNFSeshatSessionClass(void)_block_invoke"
+- "Class getNFTapToRadarClass(void)_block_invoke"
+- "CopyPersistedReports"
+- "CreateSession() failed"
+- "DATA"
+- "DeletePersistedReports"
+- "ERROR: %s"
+- "Failed to change non-se pw"
+- "Failed to change pw"
+- "HasSEP"
+- "InternalBuild"
+- "Invalid args %ld"
+- "JCOP kud support: %d, %d"
+- "KBChangeSystemSeSecret"
+- "KBChangeSystemSecret"
+- "KBGetMementoSESlot() failed"
+- "KBGetSEStuff() failed"
+- "KBGetSEStuff() failed -- unlock required to change passcode"
+- "KBGetSEStuffForMementoPasscode"
+- "KBGetSEStuffForMementoPasscode() -> 0x%x"
+- "KBSeshatEffaceUnusedSlots"
+- "KBSeshatGetSeSecret"
+- "NFHWMonitor"
+- "NFHardwareEventListener"
+- "NFHardwareManager"
+- "NFSecureElement"
+- "NFSeshatSession"
+- "NFTapToRadar"
+- "PSProtected"
+- "SE failed, trying soft recovery (%d)"
+- "SEPRMProtected"
+- "SERM support: %d"
+- "Sampling"
+- "SesHat session failure on %s"
+- "Seshat preflight = %llx (%llx)"
+- "Seshat session in progress"
+- "SeshatCreateDerivedPasscodeOpts"
+- "SeshatCreateSessionWithTimeoutVerbose"
+- "SeshatDeleteSlot() failed %d"
+- "SeshatGetData() failed"
+- "SeshatGetNumberOfUsedSlots"
+- "SeshatHWAvailable"
+- "SeshatIsNonceEquivalent"
+- "SeshatIsReportingEnabled"
+- "SeshatPowerAssertion"
+- "SeshatPreflightCheck"
+- "SeshatRM"
+- "SeshatResetCounter"
+- "SeshatRetry"
+- "SeshatSupport.m"
+- "SeshatTTR"
+- "SetPersistedReports"
+- "Unable to find class %s"
+- "Unable to remove power assertion."
+- "Unable to take power assertion."
+- "VERS"
+- "Vslot"
+- "WCProtected"
+- "X"
+- "^v8@?0"
+- "_SeshatCreateSessionWithTimeout_block_invoke_3"
+- "_SeshatCreateSessionWithTimeout_block_invoke_4"
+- "activation_status"
+- "add_error"
+- "afp_nsc_protocol_enabled"
+- "aks_get_extended_device_state_failure"
+- "aks_get_seconds_since_passcode_change_failure"
+- "aks_memento_get_state_failure"
+- "aks_se_get_reset_token(memento:%d) -> 0x%x"
+- "allocateSlot() -> 0x%x:0x%x"
+- "allocateSlot:authorizingUser:authorizingUserToken:outToken:outWriteCount:"
+- "analytics_failure"
+- "analytics_is_event_persisted"
+- "analytics_iterate_persisted_eventsWithBlock"
+- "analytics_persist_event"
+- "analytics_persistance_test"
+- "analytics_persistance_validate_dict"
+- "analytics_send_backup_key_drain"
+- "analytics_send_db_add"
+- "analytics_send_db_filekey_found"
+- "analytics_send_db_filekey_not_found"
+- "analytics_send_db_get"
+- "analytics_send_first_unlock"
+- "analytics_send_forgotten_passcode_event"
+- "analytics_send_fv_status"
+- "analytics_send_kek_stats"
+- "analytics_send_nfc_hardware_state"
+- "analytics_send_passcode_status"
+- "analytics_send_passphrase_change"
+- "analytics_send_preflight_result"
+- "analytics_send_seshat_debug"
+- "analytics_send_seshat_enroll"
+- "analytics_send_seshat_eol"
+- "analytics_send_seshat_recovery_required"
+- "analytics_send_seshat_recovery_success"
+- "analytics_send_seshat_report"
+- "analytics_send_seshat_unenroll"
+- "analytics_send_seshat_unexpected_sentinel"
+- "analytics_send_seshat_write_count"
+- "analytics_send_sharing_status"
+- "analytics_send_sidp_recovery"
+- "analytics_send_stash_presence"
+- "analytics_send_user_keybag"
+- "analytics_submit_persisted_eventsWithBlock"
+- "analytics_submit_persisted_events_block_invoke"
+- "applet_result"
+- "asking for session with timeout of %lld nsec (attempt: %d)"
+- "at capacity, discarding oldest data entry"
+- "authorizeUpdate:slotIndex:userToken:outWriteCount:"
+- "automatic_su_enabled"
+- "bad user experience = %u"
+- "cStringUsingEncoding:"
+- "calling_ctx"
+- "can't preflight, already bound to SE"
+- "cant allocate"
+- "cant delete"
+- "cant fetch sig"
+- "cant fetch state"
+- "cant set"
+- "cant verify old passcode"
+- "cant verify passcode(acm:%d,memento:%d) 0x%x"
+- "change passcode: %x"
+- "change_count"
+- "changing SE bound passcode %s phase, memento_recovery: %s"
+- "com.apple.keybagd.ttr"
+- "com.apple.mobile.keybagd.backup.drain"
+- "com.apple.mobile.keybagd.db.add"
+- "com.apple.mobile.keybagd.db.filekey.found"
+- "com.apple.mobile.keybagd.db.filekey.not_found"
+- "com.apple.mobile.keybagd.db.get"
+- "com.apple.mobile.keybagd.filevault.kek.stats"
+- "com.apple.mobile.keybagd.filevault.status"
+- "com.apple.mobile.keybagd.first_unlock"
+- "com.apple.mobile.keybagd.forgotten_passcode"
+- "com.apple.mobile.keybagd.nfcd.hw.state"
+- "com.apple.mobile.keybagd.passcode.status"
+- "com.apple.mobile.keybagd.phrasechange"
+- "com.apple.mobile.keybagd.seshat.debug"
+- "com.apple.mobile.keybagd.seshat.enroll"
+- "com.apple.mobile.keybagd.seshat.preflight.fail"
+- "com.apple.mobile.keybagd.seshat.recovery_required"
+- "com.apple.mobile.keybagd.seshat.recovery_success"
+- "com.apple.mobile.keybagd.seshat.report"
+- "com.apple.mobile.keybagd.seshat.sesion-timeout"
+- "com.apple.mobile.keybagd.seshat.unenroll"
+- "com.apple.mobile.keybagd.seshat.unexpected_eol"
+- "com.apple.mobile.keybagd.seshat.unexpected_sentinel"
+- "com.apple.mobile.keybagd.seshat.write_count"
+- "com.apple.mobile.keybagd.sharing.status"
+- "com.apple.mobile.keybagd.sidp.recovery"
+- "com.apple.mobile.keybagd.stash_presence"
+- "com.apple.mobile.keybagd.user_keybag"
+- "context"
+- "corrupting reset token"
+- "count"
+- "currentHandler"
+- "cx_hours_remaining"
+- "days_since_lock"
+- "days_since_passcode_change"
+- "days_since_unlock"
+- "dealloc"
+- "debug"
+- "deleteSlot:outWriteCount:"
+- "deletion of rt failed 0x%x"
+- "derive() -> 0x%x:0x%x"
+- "derive2() -> 0x%x:0x%x"
+- "derive:userHash:outData:outWriteCount:trackingError:"
+- "didChangeRadioState:"
+- "didReceiveFatalCommunicationError"
+- "disabled immediate enrollment"
+- "doing nothing due to poison"
+- "duration"
+- "effacing se slot %d"
+- "embeddedSecureElement"
+- "endSession"
+- "event"
+- "event %@ is already persisted: %d"
+- "example.that.doesnt.exist"
+- "failed"
+- "failed to derive SE passcode"
+- "failed to fetch pubkey 0x%x"
+- "failed to get se derivation"
+- "failed to get sig %x"
+- "failed to indicate se rm support (expected on devices where feature is disabled)"
+- "failed to persist dict"
+- "failed to re-create session"
+- "failed to set nonce 0x%x"
+- "failed to upgrade to v2 -> 0x%x:0x%x"
+- "failed_unlock_attempts"
+- "fault"
+- "filekey_count"
+- "first_unlocked"
+- "fv_enabled"
+- "fv_users_count"
+- "getData() -> 0x%x:0x%x"
+- "getData:updateKUD:outWriteLimit:outWriteCount:"
+- "getHwSupport"
+- "getHwSupport=%d, prev=%d. timedout=%d, intepreting as unsupported."
+- "globalWriteCounter = %d, globalWriteCounterLimit = %d, slot = %d\n"
+- "grace_period"
+- "group_uuid_mismatch"
+- "handle: %d, se-support: %d, primary-user: %d, subject-to-seshat: %d, preflight: %d, se_bound: %d, se_unenroll:%d, dis-imm-enr: %d"
+- "handleFailureInFunction:file:lineNumber:description:"
+- "hardwareStateDidChange"
+- "health data contains failures"
+- "hours_since_locked"
+- "hwType"
+- "i32@?0^{__CFString=}8B16i20q24"
+- "icloud_recovery_key"
+- "icloud_recovery_user"
+- "ignoring recovery count (%d)"
+- "import failed %x"
+- "inactivity_reboot"
+- "inactivity_reboot_enabled"
+- "init"
+- "installer_user"
+- "institutional_recovery_key"
+- "institutional_recovery_user"
+- "intValue"
+- "invalid dict"
+- "invalid pubkey %zu"
+- "invalid upgrade data"
+- "isSeshatAvailabledInRestrictedMode"
+- "isTransientError:"
+- "is_mdm_profile_installed"
+- "is_set"
+- "is_supervised"
+- "is_user_primary"
+- "jcop_seq_gen"
+- "jcop_seq_gen2"
+- "kek_bad_sig_count"
+- "kek_imported_count"
+- "kek_last_count"
+- "kek_ps_count"
+- "kek_ps_missing_count"
+- "kek_sidp_count"
+- "kek_xart_policy_missing_count"
+- "key"
+- "keybag_more_state_cx_expired"
+- "keybag_more_state_cx_expiring"
+- "keybag_more_state_oneness_assert"
+- "keybag_more_state_peer_records_dirty"
+- "keybag_more_state_peer_records_flush"
+- "keybag_more_state_recovery_ps_fua_cached"
+- "keybag_more_state_unlocked_with_escrow"
+- "keybag_state_allow_test_keys"
+- "keybag_state_art_loaded"
+- "keybag_state_been_passcode_unlocked"
+- "keybag_state_been_unlocked"
+- "keybag_state_escrow_unwrap_required"
+- "keybag_state_from_xart"
+- "keybag_state_has_auto_recovery"
+- "keybag_state_has_fv_recovery"
+- "keybag_state_has_group_seed"
+- "keybag_state_has_lkgp_recovery"
+- "keybag_state_has_memento_blob"
+- "keybag_state_mesa_token"
+- "keybag_state_no_pin"
+- "keybag_state_not_recoverable"
+- "keybag_state_passcode_threshold"
+- "keybag_state_ps_entangled"
+- "keybag_state_recovery_required"
+- "keybag_state_remote_session_unlocked"
+- "keybag_state_se_been_unlocked"
+- "keybag_state_se_entangled"
+- "keybag_state_se_healthy"
+- "keybag_state_se_recovery_required"
+- "keybag_state_se_unrecoverable"
+- "keybag_state_smdk_entangled"
+- "keybag_state_staged_manifest"
+- "keybag_state_stash_unlocked"
+- "keybag_state_xart_policy_cached"
+- "keybag_state_xart_policy_dirty"
+- "keybag_state_xart_policy_enforced"
+- "keybag_state_xart_unlock_policy"
+- "largeCrumbsFromError:"
+- "max_unlock_attempts"
+- "mdm_recovery_key"
+- "memento_exists"
+- "memento_failed_unlock_attempts"
+- "memento_flags_blob_exists"
+- "memento_flags_ps"
+- "memento_flags_se"
+- "memento_flags_se_reset_token"
+- "memento_flags_tombstone"
+- "memento_passcode_generation"
+- "memento_se_slot"
+- "memento_supported"
+- "mkb-reports"
+- "must be privileged"
+- "nf_result"
+- "no data"
+- "no group uuid in the bag %d"
+- "no lock state"
+- "no reset token returned"
+- "no resetToken avaialble"
+- "no seshat applet"
+- "no user uuid in the bag %d"
+- "nonce eq: %d,%u -> %d"
+- "not doing anything %d:%d"
+- "not effacing slot %d thats currently referenced by handle %d, (main:%d, memento:%d)"
+- "not eq"
+- "not reporting aggd data, since debugging mode is enabled"
+- "num_fails"
+- "num_preflights"
+- "number of enrolled slots %d"
+- "objectAtIndex:"
+- "occured"
+- "oneness_automatic_mode"
+- "open_error"
+- "padding"
+- "passcode_generation"
+- "passcode_reset_exists"
+- "passcode_reset_expired"
+- "persisted-report-submit %s:%llx"
+- "personal_recovery_key"
+- "post failed"
+- "post succeeded unexpectedly"
+- "preWarm"
+- "present_for_minutes_while_locked"
+- "present_for_minutes_while_unlocked"
+- "q20@0:8I16"
+- "reason"
+- "recoverable"
+- "recovery_akpu_protected"
+- "recovery_auto"
+- "recovery_iterations"
+- "recovery_ps_protected"
+- "recovery_required"
+- "recovery_restricted"
+- "recovery_target_iterations"
+- "recovery_wc_protected"
+- "registerEventListener:"
+- "remote_ae_server_enabled"
+- "remote_desktop_enabled"
+- "report_version"
+- "requestTapToRadar:preferences:"
+- "requested NF TTR"
+- "requesting NF TTR"
+- "resetCounter() -> 0x%x:0x%x"
+- "resetCounter:userToken:outWriteCount:"
+- "restricted mode"
+- "result: %d"
+- "runtime condition not sastisifed"
+- "sampling condition not sastisifed"
+- "screen_sharing_enabled"
+- "se-sec comparisson failed"
+- "se_entangled"
+- "se_recovery_required"
+- "secureElement:didChangeRestrictedMode:"
+- "secureElementBootHistory:"
+- "sem"
+- "sequenceCounter"
+- "seshat-count"
+- "seshat_arm_nonce"
+- "seshat_get_reset_sig"
+- "seshat_is_supported"
+- "seshat_migrate_slot_to_v2"
+- "seshat_preflight_condition_for_pw_change_block_invoke"
+- "seshat_preflight_for_passcode_change"
+- "seshat_sep_rm_init"
+- "seshat_support: cond 1 not satisfied"
+- "seshat_support: cond 2 not satisfied"
+- "seshat_supports_upgraded_jcop_kud_policy"
+- "sharedHardwareManager"
+- "signaling end of session due to failure to start"
+- "singature invalid"
+- "smallCrumbsFromError:"
+- "smb_nsc_protocol_enabled"
+- "smdk_entalgned"
+- "soft recovery failed 0x%x"
+- "softlink:o:path:/System/Library/PrivateFrameworks/NearField.framework/NearField"
+- "sqlite_error"
+- "ssh_server_enabled"
+- "startSesHatSession:"
+- "status"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "sub has unexpected number of data"
+- "sub is of wrong type"
+- "sub%d is of wrong type"
+- "subject_for_seshat"
+- "submission failed"
+- "successfully migrated slot %d to v2"
+- "temperatureChanged:"
+- "timedout"
+- "too many entries"
+- "transient error, re-creating session"
+- "truncated"
+- "type"
+- "unable to allocate array"
+- "unable to determine if handle:%d is pirmary"
+- "unexpected slot %d"
+- "unhealthy"
+- "unknown getData() -> 0x%x:0x%x"
+- "unlinked"
+- "unregisterEventListener:"
+- "unsatisfactory condition for preflight"
+- "unsignedLongValue"
+- "unsupported"
+- "unsupported key"
+- "upgradeKey:inputData:outWriteCount:"
+- "user_uuid_mismatch"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8d16"
+- "v24@?0@\"NFSeshatSession\"8@\"NSError\"16"
+- "v28@0:8@\"NFSecureElement\"16B24"
+- "v28@0:8@16B24"
+- "validation failed"
+- "value"
+- "vek_boot_policy"
+- "vek_device_protected"
+- "vek_ephemeral"
+- "vek_imported"
+- "vek_is_owner"
+- "verify failed %x"
+- "version"
+- "void *NearFieldLibrary(void)"
+- "waitForNotificationOrTimeout:"
+- "windows_file_sharing_enabled_users_count"
+- "writes"
+- "wrong type"
+- "xart_policy"
+- "xart_policy_enforced"
+- "xart_policy_missing"
+- "zero_group_uuid"
+- "zero_user_uuid"
+- "{?=II}16@?0@\"NFSeshatSession\"8"
+
+```

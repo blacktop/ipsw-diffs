@@ -1,0 +1,652 @@
+## AudioDSPManager
+
+> `/System/Library/PrivateFrameworks/AudioDSPManager.framework/AudioDSPManager`
+
+```diff
+
+-197.101.0.0.0
+-  __TEXT.__text: 0xa4e70
+-  __TEXT.__auth_stubs: 0x2760
++203.203.0.0.0
++  __TEXT.__text: 0xa6e18
++  __TEXT.__auth_stubs: 0x2780
+   __TEXT.__init_offsets: 0x14
+   __TEXT.__objc_methlist: 0x6a8
+   __TEXT.__dlopen_cstrs: 0x54
+-  __TEXT.__const: 0xc4b8
+-  __TEXT.__cstring: 0x5927
++  __TEXT.__const: 0xc3b8
++  __TEXT.__cstring: 0x5a16
+   __TEXT.__swift5_typeref: 0x1f56
+   __TEXT.__swift5_fieldmd: 0x1398
+   __TEXT.__constg_swiftt: 0x1728
+
+   __TEXT.__swift5_assocty: 0x328
+   __TEXT.__swift_as_entry: 0x4c
+   __TEXT.__swift_as_ret: 0x48
+-  __TEXT.__gcc_except_tab: 0x6cdc
++  __TEXT.__gcc_except_tab: 0x6d68
+   __TEXT.__swift5_capture: 0x188
+-  __TEXT.__oslogstring: 0x2ffe
++  __TEXT.__oslogstring: 0x3208
+   __TEXT.__swift5_builtin: 0x64
+   __TEXT.__swift5_mpenum: 0x2c
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x33a8
++  __TEXT.__unwind_info: 0x33b0
+   __TEXT.__eh_frame: 0x2e5c
+   __TEXT.__objc_classname: 0x99
+   __TEXT.__objc_methname: 0xe2f
+   __TEXT.__objc_methtype: 0x3dc4
+   __TEXT.__objc_stubs: 0xd20
+   __DATA_CONST.__got: 0x538
+-  __DATA_CONST.__const: 0x7b0
++  __DATA_CONST.__const: 0x7e0
+   __DATA_CONST.__objc_classlist: 0x80
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x488
+   __DATA_CONST.__objc_superrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x13d0
+-  __AUTH_CONST.__const: 0x6e70
++  __AUTH_CONST.__auth_got: 0x13e0
++  __AUTH_CONST.__const: 0x6b70
+   __AUTH_CONST.__cfstring: 0xf40
+   __AUTH_CONST.__objc_const: 0xf20
+   __AUTH.__objc_data: 0xb58
+
+   __DATA.__data: 0x100c
+   __DATA.__cf_except_bt: 0x2000
+   __DATA.__crash_info: 0x148
+-  __DATA.__bss: 0x5960
++  __DATA.__bss: 0x5968
+   __DATA.__common: 0x20
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__data: 0xbd8
+
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 297898EA-430E-3500-97EB-05253B7D73AA
+-  Functions: 2985
+-  Symbols:   5644
+-  CStrings:  1461
++  UUID: 1BACC658-47C0-3C33-8450-5855FA1FF12B
++  Functions: 2990
++  Symbols:   5647
++  CStrings:  1485
+ 
+Symbols:
++ GCC_except_table1009
++ GCC_except_table1010
++ GCC_except_table1011
++ GCC_except_table1013
++ GCC_except_table1023
++ GCC_except_table1025
++ GCC_except_table1026
++ GCC_except_table1033
++ GCC_except_table1035
++ GCC_except_table1037
++ GCC_except_table1039
++ GCC_except_table1041
++ GCC_except_table1043
++ GCC_except_table1045
++ GCC_except_table1052
++ GCC_except_table1056
++ GCC_except_table1063
++ GCC_except_table1080
++ GCC_except_table1084
++ GCC_except_table1130
++ GCC_except_table1133
++ GCC_except_table1136
++ GCC_except_table1146
++ GCC_except_table1156
++ GCC_except_table1166
++ GCC_except_table1176
++ GCC_except_table1186
++ GCC_except_table1196
++ GCC_except_table1206
++ GCC_except_table1216
++ GCC_except_table1226
++ GCC_except_table1236
++ GCC_except_table1246
++ GCC_except_table1254
++ GCC_except_table1256
++ GCC_except_table1260
++ GCC_except_table1269
++ GCC_except_table1273
++ GCC_except_table1278
++ GCC_except_table1280
++ GCC_except_table1290
++ GCC_except_table1293
++ GCC_except_table1298
++ GCC_except_table1302
++ GCC_except_table1305
++ GCC_except_table1310
++ GCC_except_table1317
++ GCC_except_table1319
++ GCC_except_table1326
++ GCC_except_table1330
++ GCC_except_table1356
++ GCC_except_table1373
++ GCC_except_table1381
++ GCC_except_table1382
++ GCC_except_table1384
++ GCC_except_table1385
++ GCC_except_table1400
++ GCC_except_table1402
++ GCC_except_table1406
++ GCC_except_table1408
++ GCC_except_table1416
++ GCC_except_table1419
++ GCC_except_table1420
++ GCC_except_table1421
++ GCC_except_table1423
++ GCC_except_table1424
++ GCC_except_table1443
++ GCC_except_table1450
++ GCC_except_table1463
++ GCC_except_table1473
++ GCC_except_table1474
++ GCC_except_table1481
++ GCC_except_table1482
++ GCC_except_table1483
++ GCC_except_table1493
++ GCC_except_table1495
++ GCC_except_table1497
++ GCC_except_table1509
++ GCC_except_table1514
++ GCC_except_table1519
++ GCC_except_table1521
++ GCC_except_table1524
++ GCC_except_table1533
++ GCC_except_table1535
++ GCC_except_table1544
++ GCC_except_table1545
++ GCC_except_table1546
++ GCC_except_table1547
++ GCC_except_table1548
++ GCC_except_table1577
++ GCC_except_table261
++ GCC_except_table264
++ GCC_except_table267
++ GCC_except_table275
++ GCC_except_table280
++ GCC_except_table284
++ GCC_except_table289
++ GCC_except_table295
++ GCC_except_table304
++ GCC_except_table305
++ GCC_except_table308
++ GCC_except_table314
++ GCC_except_table320
++ GCC_except_table325
++ GCC_except_table336
++ GCC_except_table337
++ GCC_except_table342
++ GCC_except_table347
++ GCC_except_table348
++ GCC_except_table350
++ GCC_except_table375
++ GCC_except_table378
++ GCC_except_table391
++ GCC_except_table397
++ GCC_except_table399
++ GCC_except_table404
++ GCC_except_table411
++ GCC_except_table412
++ GCC_except_table413
++ GCC_except_table421
++ GCC_except_table451
++ GCC_except_table457
++ GCC_except_table460
++ GCC_except_table466
++ GCC_except_table467
++ GCC_except_table475
++ GCC_except_table477
++ GCC_except_table478
++ GCC_except_table480
++ GCC_except_table487
++ GCC_except_table488
++ GCC_except_table498
++ GCC_except_table499
++ GCC_except_table500
++ GCC_except_table506
++ GCC_except_table511
++ GCC_except_table516
++ GCC_except_table517
++ GCC_except_table523
++ GCC_except_table524
++ GCC_except_table526
++ GCC_except_table531
++ GCC_except_table535
++ GCC_except_table536
++ GCC_except_table540
++ GCC_except_table541
++ GCC_except_table542
++ GCC_except_table554
++ GCC_except_table555
++ GCC_except_table556
++ GCC_except_table560
++ GCC_except_table561
++ GCC_except_table565
++ GCC_except_table580
++ GCC_except_table582
++ GCC_except_table593
++ GCC_except_table606
++ GCC_except_table608
++ GCC_except_table615
++ GCC_except_table616
++ GCC_except_table631
++ GCC_except_table633
++ GCC_except_table637
++ GCC_except_table638
++ GCC_except_table643
++ GCC_except_table703
++ GCC_except_table704
++ GCC_except_table708
++ GCC_except_table793
++ GCC_except_table797
++ GCC_except_table798
++ GCC_except_table800
++ GCC_except_table801
++ GCC_except_table814
++ GCC_except_table818
++ GCC_except_table822
++ GCC_except_table824
++ GCC_except_table837
++ GCC_except_table840
++ GCC_except_table849
++ GCC_except_table852
++ GCC_except_table853
++ GCC_except_table855
++ GCC_except_table856
++ GCC_except_table859
++ GCC_except_table862
++ GCC_except_table870
++ GCC_except_table884
++ GCC_except_table885
++ GCC_except_table886
++ GCC_except_table887
++ GCC_except_table888
++ GCC_except_table895
++ GCC_except_table897
++ GCC_except_table903
++ GCC_except_table904
++ GCC_except_table906
++ GCC_except_table910
++ GCC_except_table917
++ GCC_except_table927
++ GCC_except_table928
++ GCC_except_table951
++ GCC_except_table952
++ GCC_except_table955
++ GCC_except_table962
++ GCC_except_table963
++ GCC_except_table964
++ GCC_except_table970
++ GCC_except_table971
++ GCC_except_table982
++ GCC_except_table984
++ GCC_except_table990
++ _CADSPGraphCalculateExpectedNumberOfOutputPCMFramesWithFlags
++ _CADSPGraphCalculateRequiredNumberOfInputPCMFramesWithFlags
++ __ZN12_GLOBAL__N_112ServiceNamesD1Ev
++ __ZN12_GLOBAL__N_115isStudioDisplayERKN3adm17DeviceDescriptionE
++ __ZN12_GLOBAL__N_125getReferenceTerminalIndexERKNSt3__16vectorIN3adm5graph11SemanticSetENS0_9allocatorIS4_EEEE
++ __ZN2CA3DSP1C3API4CallIFhP12__CADSPGraphPjmS6_mPK23CADSPAudioSliceDurationjPP20__CADSPRealTimeErrorEEclIJS5_RS6_RmSG_SH_RS9_jEEEDaDpOT_
++ __ZN3adm13config_policy22isBuiltInSpeakerDeviceERKNS_17DeviceDescriptionE
++ __ZN3adm13config_policy23exclaveUseCaseDirectionERKNSt3__13setINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS1_4lessIS8_EENS6_IS8_EEEE
++ __ZN3adm13config_policy31exclaveUseCaseRequiresRefStreamERKNSt3__13setINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS1_4lessIS8_EENS6_IS8_EEEE
++ __ZN3adm5graph24AudioIssueDetectorClient16performDetectionEmPKN4AMCP11Proc_StreamENS_14AudioDirectionERK14AudioTimeStampRNS_4util8RTLoggerE
++ __ZN3adm5graph30ExclaveDSPControllerClientImpl7processEPKN4AMCP11Proc_StreamE
++ __ZN3adm5graph30ExclaveDSPControllerClientImpl9configureEjNS_8exclaves10OutputPortE
++ __ZN3adm5graph30ExclaveDSPControllerClientImpl9configureEjNS_8exclaves9InputPortE
++ __ZN3adm5graph9DSPKernel15doEndProcessingEj
++ __ZN3adm5graph9DSPKernelC2EjRKNSt3__16vectorIN2CA17StreamDescriptionENS2_9allocatorIS5_EEEEjSA_RKNS2_12basic_stringIcNS2_11char_traitsIcEENS6_IcEEEE
++ __ZN3adm8exclaves7utility10convert_toINSt3__18optionalI28audiodsputility_outputport_sEENS0_10OutputPortEJEEET_T0_DpT1_
++ __ZNK3adm5graph9DSPKernel28supportsEndProcessingHandlerEv
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B8ne200100Ev
++ __ZNSt3__16vectorIN2CA17StreamDescriptionENS_9allocatorIS2_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB8ne200100IPKS6_SB_EEvT_T0_m
++ __ZZ31AudioIssueDetectorLibraryLoadervE6libSym.13
++ __ZZN3adm5graph32createExclaveDSPControllerClientENS_8exclaves7UseCaseERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS1_18AudioCapturePointsEbENK3$_0clEPKcNS3_6vectorIjNS7_IjEEEESI_
++ ___Block_byref_object_copy_.123
++ ___Block_byref_object_copy_.42
++ ___Block_byref_object_copy_.46
++ ___Block_byref_object_copy_.50
++ ___Block_byref_object_copy_.57
++ ___Block_byref_object_copy_.85
++ ___Block_byref_object_dispose_.124
++ ___Block_byref_object_dispose_.43
++ ___Block_byref_object_dispose_.47
++ ___Block_byref_object_dispose_.51
++ ___Block_byref_object_dispose_.58
++ ___Block_byref_object_dispose_.86
++ ____Z31AudioIssueDetectorLibraryLoaderv_block_invoke.902
++ ____ZN3adm5graph30ExclaveDSPControllerClientImpl7processEPKN4AMCP11Proc_StreamE_block_invoke
++ ____ZN3adm5graph30ExclaveDSPControllerClientImpl9configureEjNS_8exclaves10OutputPortE_block_invoke
++ ____ZN3adm5graph30ExclaveDSPControllerClientImpl9configureEjNS_8exclaves9InputPortE_block_invoke
++ ___block_descriptor_tmp.126
++ ___block_descriptor_tmp.45
++ ___block_descriptor_tmp.49
++ ___block_descriptor_tmp.516
++ ___block_descriptor_tmp.53
++ ___block_descriptor_tmp.555
++ ___block_descriptor_tmp.60
++ ___block_descriptor_tmp.88
++ ___block_literal_global.896
++ _audiodspcontrollerdebug_audiodspcontroldebug_sethosttime
++ _audiodsputility_outputport__raw_encode
++ _tb_message_decode_u32
++ _tb_message_raw_encode_u8
+- GCC_except_table1015
+- GCC_except_table1016
+- GCC_except_table1018
+- GCC_except_table1028
+- GCC_except_table1030
+- GCC_except_table1034
+- GCC_except_table1036
+- GCC_except_table1038
+- GCC_except_table1040
+- GCC_except_table1042
+- GCC_except_table1044
+- GCC_except_table1046
+- GCC_except_table1048
+- GCC_except_table1050
+- GCC_except_table1055
+- GCC_except_table1061
+- GCC_except_table1079
+- GCC_except_table1083
+- GCC_except_table1128
+- GCC_except_table1131
+- GCC_except_table1134
+- GCC_except_table1145
+- GCC_except_table1155
+- GCC_except_table1165
+- GCC_except_table1175
+- GCC_except_table1185
+- GCC_except_table1195
+- GCC_except_table1205
+- GCC_except_table1215
+- GCC_except_table1225
+- GCC_except_table1235
+- GCC_except_table1238
+- GCC_except_table1253
+- GCC_except_table1255
+- GCC_except_table1259
+- GCC_except_table1268
+- GCC_except_table1271
+- GCC_except_table1277
+- GCC_except_table1279
+- GCC_except_table1289
+- GCC_except_table1292
+- GCC_except_table1297
+- GCC_except_table1300
+- GCC_except_table1304
+- GCC_except_table1306
+- GCC_except_table1316
+- GCC_except_table1318
+- GCC_except_table1325
+- GCC_except_table1328
+- GCC_except_table1342
+- GCC_except_table1351
+- GCC_except_table1357
+- GCC_except_table1358
+- GCC_except_table1359
+- GCC_except_table1360
+- GCC_except_table1366
+- GCC_except_table1394
+- GCC_except_table1395
+- GCC_except_table1396
+- GCC_except_table1397
+- GCC_except_table1398
+- GCC_except_table1410
+- GCC_except_table1411
+- GCC_except_table1412
+- GCC_except_table1413
+- GCC_except_table1414
+- GCC_except_table1437
+- GCC_except_table1444
+- GCC_except_table1457
+- GCC_except_table1467
+- GCC_except_table1468
+- GCC_except_table1469
+- GCC_except_table1476
+- GCC_except_table1477
+- GCC_except_table1479
+- GCC_except_table1487
+- GCC_except_table1489
+- GCC_except_table1502
+- GCC_except_table1503
+- GCC_except_table1506
+- GCC_except_table1513
+- GCC_except_table1515
+- GCC_except_table1527
+- GCC_except_table1529
+- GCC_except_table1534
+- GCC_except_table1536
+- GCC_except_table1538
+- GCC_except_table1539
+- GCC_except_table1541
+- GCC_except_table1571
+- GCC_except_table258
+- GCC_except_table262
+- GCC_except_table270
+- GCC_except_table281
+- GCC_except_table283
+- GCC_except_table287
+- GCC_except_table292
+- GCC_except_table298
+- GCC_except_table311
+- GCC_except_table313
+- GCC_except_table318
+- GCC_except_table324
+- GCC_except_table329
+- GCC_except_table344
+- GCC_except_table345
+- GCC_except_table346
+- GCC_except_table352
+- GCC_except_table354
+- GCC_except_table355
+- GCC_except_table379
+- GCC_except_table382
+- GCC_except_table395
+- GCC_except_table401
+- GCC_except_table403
+- GCC_except_table408
+- GCC_except_table415
+- GCC_except_table416
+- GCC_except_table417
+- GCC_except_table425
+- GCC_except_table459
+- GCC_except_table468
+- GCC_except_table469
+- GCC_except_table470
+- GCC_except_table471
+- GCC_except_table483
+- GCC_except_table484
+- GCC_except_table486
+- GCC_except_table489
+- GCC_except_table491
+- GCC_except_table492
+- GCC_except_table502
+- GCC_except_table503
+- GCC_except_table504
+- GCC_except_table510
+- GCC_except_table515
+- GCC_except_table520
+- GCC_except_table521
+- GCC_except_table527
+- GCC_except_table528
+- GCC_except_table530
+- GCC_except_table534
+- GCC_except_table538
+- GCC_except_table539
+- GCC_except_table544
+- GCC_except_table545
+- GCC_except_table546
+- GCC_except_table557
+- GCC_except_table558
+- GCC_except_table559
+- GCC_except_table564
+- GCC_except_table568
+- GCC_except_table569
+- GCC_except_table583
+- GCC_except_table585
+- GCC_except_table596
+- GCC_except_table609
+- GCC_except_table611
+- GCC_except_table618
+- GCC_except_table619
+- GCC_except_table634
+- GCC_except_table640
+- GCC_except_table641
+- GCC_except_table701
+- GCC_except_table702
+- GCC_except_table706
+- GCC_except_table736
+- GCC_except_table753
+- GCC_except_table804
+- GCC_except_table812
+- GCC_except_table813
+- GCC_except_table819
+- GCC_except_table830
+- GCC_except_table832
+- GCC_except_table833
+- GCC_except_table834
+- GCC_except_table842
+- GCC_except_table845
+- GCC_except_table846
+- GCC_except_table854
+- GCC_except_table857
+- GCC_except_table865
+- GCC_except_table871
+- GCC_except_table873
+- GCC_except_table874
+- GCC_except_table875
+- GCC_except_table877
+- GCC_except_table890
+- GCC_except_table891
+- GCC_except_table892
+- GCC_except_table893
+- GCC_except_table899
+- GCC_except_table900
+- GCC_except_table907
+- GCC_except_table908
+- GCC_except_table909
+- GCC_except_table911
+- GCC_except_table920
+- GCC_except_table922
+- GCC_except_table932
+- GCC_except_table933
+- GCC_except_table957
+- GCC_except_table960
+- GCC_except_table961
+- GCC_except_table973
+- GCC_except_table975
+- GCC_except_table976
+- GCC_except_table977
+- GCC_except_table979
+- GCC_except_table992
+- GCC_except_table994
+- GCC_except_table995
+- _CADSPGraphCalculateExpectedNumberOfOutputPCMFrames
+- _CADSPGraphCalculateRequiredNumberOfInputPCMFrames
+- __ZN12_GLOBAL__N_115getControllerEKEyRKNS_12ServiceNamesE
+- __ZN2CA3DSP1C3API4CallIFhP12__CADSPGraphPjmS6_mPK23CADSPAudioSliceDurationPP20__CADSPRealTimeErrorEEclIJS5_RS6_RmSG_SH_RS9_EEEDaDpOT_
+- __ZN3adm5graph24AudioIssueDetectorClient16performDetectionEmPN4AMCP11Proc_StreamENS_14AudioDirectionERK14AudioTimeStampRNS_4util8RTLoggerE
+- __ZN3adm5graph24AudioIssueDetectorClientC2EjRKNSt3__16vectorIN2CA17StreamDescriptionENS2_9allocatorIS5_EEEEjSA_RKNS2_12basic_stringIcNS2_11char_traitsIcEENS6_IcEEEE
+- __ZN3adm5graph29ExclaveDSPControllerClientMTDD0Ev
+- __ZN3adm5graph29ExclaveDSPControllerClientMTDD1Ev
+- __ZN3adm5graph30ExclaveDSPControllerClientImpl7processERKN4AMCP11Proc_StreamE
+- __ZN3adm5graph30ExclaveDSPControllerClientImplC2ENSt3__18weak_ptrIN12_GLOBAL__N_117ControllerContextEEESt16initializer_listIjES8_NS_8exclaves7UseCaseENS9_18AudioCapturePointsEb
+- __ZN3adm5graph30ExclaveDSPControllerClientSiriD0Ev
+- __ZN3adm5graph30ExclaveDSPControllerClientSiriD1Ev
+- __ZN3adm5graph35ExclaveDSPControllerClientSharedDSPD0Ev
+- __ZN3adm5graph35ExclaveDSPControllerClientSharedDSPD1Ev
+- __ZN3adm5graph36ExclaveDSPControllerClientPerceptionD0Ev
+- __ZN3adm5graph36ExclaveDSPControllerClientPerceptionD1Ev
+- __ZN3adm5graph39ExclaveDSPControllerClientSoundAnalysisD0Ev
+- __ZN3adm5graph39ExclaveDSPControllerClientSoundAnalysisD1Ev
+- __ZN3adm5graph41ExclaveDSPControllerClientHistoricalAudioD0Ev
+- __ZN3adm5graph41ExclaveDSPControllerClientHistoricalAudioD1Ev
+- __ZN5caulk7numeric16exceptional_castIjyEET_T0_
+- __ZNK3adm5graph13ExclaveKernel28supportsEndProcessingHandlerEv
+- __ZTIN3adm5graph29ExclaveDSPControllerClientMTDE
+- __ZTIN3adm5graph30ExclaveDSPControllerClientSiriE
+- __ZTIN3adm5graph35ExclaveDSPControllerClientSharedDSPE
+- __ZTIN3adm5graph36ExclaveDSPControllerClientPerceptionE
+- __ZTIN3adm5graph39ExclaveDSPControllerClientSoundAnalysisE
+- __ZTIN3adm5graph41ExclaveDSPControllerClientHistoricalAudioE
+- __ZTSN3adm5graph29ExclaveDSPControllerClientMTDE
+- __ZTSN3adm5graph30ExclaveDSPControllerClientSiriE
+- __ZTSN3adm5graph35ExclaveDSPControllerClientSharedDSPE
+- __ZTSN3adm5graph36ExclaveDSPControllerClientPerceptionE
+- __ZTSN3adm5graph39ExclaveDSPControllerClientSoundAnalysisE
+- __ZTSN3adm5graph41ExclaveDSPControllerClientHistoricalAudioE
+- __ZTVN3adm5graph29ExclaveDSPControllerClientMTDE
+- __ZTVN3adm5graph30ExclaveDSPControllerClientSiriE
+- __ZTVN3adm5graph35ExclaveDSPControllerClientSharedDSPE
+- __ZTVN3adm5graph36ExclaveDSPControllerClientPerceptionE
+- __ZTVN3adm5graph39ExclaveDSPControllerClientSoundAnalysisE
+- __ZTVN3adm5graph41ExclaveDSPControllerClientHistoricalAudioE
+- ___Block_byref_object_copy_.118
+- ___Block_byref_object_copy_.45
+- ___Block_byref_object_copy_.52
+- ___Block_byref_object_copy_.80
+- ___Block_byref_object_dispose_.119
+- ___Block_byref_object_dispose_.46
+- ___Block_byref_object_dispose_.53
+- ___Block_byref_object_dispose_.81
+- ____ZN3adm5graph30ExclaveDSPControllerClientImpl7processERKN4AMCP11Proc_StreamE_block_invoke
+- ___block_descriptor_tmp.121
+- ___block_descriptor_tmp.48
+- ___block_descriptor_tmp.480
+- ___block_descriptor_tmp.519
+- ___block_descriptor_tmp.55
+- ___block_descriptor_tmp.83
+- __swift_FORCE_LOAD_$_swiftCoreImage
+- __swift_FORCE_LOAD_$_swiftCoreImage_$_AudioDSPManagerSwift
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~B9JKugBdOaO_dDcXEGdC0--Xl88U4qfzNuBwuWo/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/boost/exception/detail/exception_ptr.hpp"
++ "/Library/Caches/com.apple.xbs/Binaries/AudioDSPManager/install/TempContent/Objects/AudioDSPManager.build/AudioDSPManager.build/DerivedSources/AudioDSPManager_c.c"
++ "AudioIssueDetectorFlush"
++ "EndProcessing handler is called, IOStopped"
++ "ExclaveUseCase"
++ "Failed to flush RTAID due to error %i"
++ "HPMic"
++ "No input or output stream provided for RTAID, will not set up client"
++ "PairingAudioDSPControl"
++ "com.apple.inbound_buffer.darwinaudiod_siri_ref_stream"
++ "couldn't create port"
++ "couldn't find inbound buffer %s, error %d"
++ "failed to configure input ExclaveKernel err=%d"
++ "failed to configure output ExclaveKernel err=%d"
++ "found inbound buffer %s"
++ "isolated audio audio pairing"
++ "spk stream not general semantic"
++ "spk stream not output stream "
++ "this exclave use-case can only operate on built-in speaker"
++ "uint32_t overflow"
++ "unspecified inputPort"
++ "unspecified latencyType"
++ "unspecified outputPort"
++ "v24@?0{audiodspcontroller_audiodspcontrol_prepareforinputio__result_s=C(?={audiodsputility_setuperror_s=Q})}8"
++ "v24@?0{audiodspcontroller_audiodspcontrol_prepareforoutputio__result_s=C(?={audiodsputility_setuperror_s=Q})}8"
++ "v32@?0{audiodspcontroller_audiodspcontrol_getparameter__result_s=C(?={audiodsputility_parametererror_s=Q}{audiodsputility_parametervalue_s=Q(?={?={audiodsputility_orientationparametervalue_s=Q}}{?=B}{?=B}{?=B}{?=B}{?=B}{?=B}{?=I}{?=B}{?=C}{?=C})})}8"
+- "/AppleInternal/Library/BuildRoots/4~B6sfugADR3UORWBLUEsjioSU-N0QjpxrEsh0jLg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.Internal.sdk/usr/local/include/boost/exception/detail/exception_ptr.hpp"
+- "/Library/Caches/com.apple.xbs/Binaries/AudioDSPManager/install/TempContent/Objects/AudioDSPManager.build/AudioDSPManager.build/DerivedSources/AudioDSPControllerDebug_C.c"
+- "/Library/Caches/com.apple.xbs/Binaries/AudioDSPManager/install/TempContent/Objects/AudioDSPManager.build/AudioDSPManager.build/DerivedSources/AudioDSPController_C.c"
+- "numerical cast overflow: could not retain value in conversion type"
+- "v32@?0{audiodspcontroller_audiodspcontrol_getparameter__result_s=C(?={audiodsputility_parametererror_s=Q}{audiodsputility_parametervalue_s=Q(?={?={audiodsputility_orientationparametervalue_s=Q}}{?=B}{?=B}{?=B}{?=B}{?=B}{?=B})})}8"
+
+```

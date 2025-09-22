@@ -1,0 +1,272 @@
+## SettingsHostUI
+
+> `/System/Library/PrivateFrameworks/SettingsHostUI.framework/SettingsHostUI`
+
+```diff
+
+-2.0.5.0.0
+-  __TEXT.__text: 0x6f0c
+-  __TEXT.__auth_stubs: 0x7a0
++2.1.2.0.0
++  __TEXT.__text: 0x106a8
++  __TEXT.__auth_stubs: 0x10b0
+   __TEXT.__objc_methlist: 0x3c8
+-  __TEXT.__const: 0x278
+-  __TEXT.__oslogstring: 0x792
+-  __TEXT.__swift5_typeref: 0x153
+-  __TEXT.__swift5_capture: 0xa4
+-  __TEXT.__cstring: 0x52a
+-  __TEXT.__constg_swiftt: 0xdc
+-  __TEXT.__swift5_fieldmd: 0x30
++  __TEXT.__const: 0x688
++  __TEXT.__constg_swiftt: 0x3cc
++  __TEXT.__swift5_typeref: 0x95b
++  __TEXT.__swift5_reflstr: 0x66
++  __TEXT.__swift5_assocty: 0x90
++  __TEXT.__swift5_fieldmd: 0xd8
+   __TEXT.__swift5_builtin: 0x14
+-  __TEXT.__swift5_reflstr: 0x9
+-  __TEXT.__swift5_assocty: 0x18
+-  __TEXT.__swift5_proto: 0xc
+-  __TEXT.__swift5_types: 0x10
+-  __TEXT.__unwind_info: 0x1f0
+-  __TEXT.__eh_frame: 0x90
++  __TEXT.__swift5_proto: 0x20
++  __TEXT.__swift5_types: 0x28
++  __TEXT.__cstring: 0x7df
++  __TEXT.__swift5_capture: 0xe0
++  __TEXT.__oslogstring: 0x792
++  __TEXT.__unwind_info: 0x408
++  __TEXT.__eh_frame: 0x130
+   __TEXT.__objc_classname: 0xa0
+-  __TEXT.__objc_methname: 0x8cb
++  __TEXT.__objc_methname: 0x909
+   __TEXT.__objc_methtype: 0x572
+-  __DATA_CONST.__got: 0xa8
++  __DATA_CONST.__got: 0x328
+   __DATA_CONST.__const: 0xa8
+-  __DATA_CONST.__objc_classlist: 0x18
++  __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2c8
++  __DATA_CONST.__objc_selrefs: 0x2e0
+   __DATA_CONST.__objc_protorefs: 0x30
+-  __AUTH_CONST.__auth_got: 0x3d0
+-  __AUTH_CONST.__const: 0x2b0
+-  __AUTH_CONST.__objc_const: 0x11b0
++  __AUTH_CONST.__auth_got: 0x858
++  __AUTH_CONST.__const: 0x3b0
++  __AUTH_CONST.__objc_const: 0x1930
+   __AUTH.__objc_data: 0xb0
+-  __AUTH.__data: 0x160
+-  __DATA.__data: 0x328
+-  __DATA.__bss: 0x180
++  __AUTH.__data: 0x380
++  __DATA.__data: 0x758
++  __DATA.__bss: 0x468
+   __DATA.__common: 0x18
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
++  - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /System/Library/PrivateFrameworks/PreferencesExtended.framework/PreferencesExtended
+   - /System/Library/PrivateFrameworks/Settings.framework/Settings
+   - /System/Library/PrivateFrameworks/SettingsHost.framework/SettingsHost
++  - /System/Library/PrivateFrameworks/_IconServices_SwiftUI.framework/_IconServices_SwiftUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E37428D4-6ABE-3D2D-97C6-8340678253D8
+-  Functions: 139
+-  Symbols:   277
+-  CStrings:  192
++  UUID: 18249467-98A2-35B2-AA4C-DF3A3289ADDE
++  Functions: 321
++  Symbols:   447
++  CStrings:  218
+ 
+Symbols:
++ _OBJC_CLASS_$_ISIcon
++ _OBJC_CLASS_$_ISImageDescriptor
++ _OUTLINED_FUNCTION_0
++ __DATA__TtC14SettingsHostUI34SettingsListItemCustomViewRegistry
++ __IVARS__TtC14SettingsHostUI34SettingsListItemCustomViewRegistry
++ __METACLASS_DATA__TtC14SettingsHostUI34SettingsListItemCustomViewRegistry
++ __MergedGlobals
++ __PROTOCOLS__TtC14SettingsHostUI42PreferencesControllerNavigationCoordinator.11
++ ___isOSVersionAtLeast
++ ___isOSVersionAtLeast.cold.1
++ ___isPlatformVersionAtLeast
++ ___isPlatformVersionAtLeast.cold.1
++ ___isPlatformVersionAtLeast.cold.2
++ ___stack_chk_fail
++ ___stack_chk_guard
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_instantiateConcreteTypeFromMangledNameAbstract
++ ___swift_instantiateGenericMetadata
++ __availability_version_check
++ __initializeAvailabilityCheck
++ __swiftEmptyDictionarySingleton
++ _associated conformance 14SettingsHostUI0A10ListToggleV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 14SettingsHostUI0A11ListSectionVyxq_G05SwiftC04ViewAA4BodyAeFP_AeF
++ _associated conformance 14SettingsHostUI0A4IconV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 14SettingsHostUI0A8ListItemVyxG05SwiftC04ViewAA4BodyAeFP_AeF
++ _associated conformance 14SettingsHostUI0A9ListLabelV05SwiftC04ViewAA4BodyAdEP_AdE
++ _bzero
++ _compatibilityInitializeAvailabilityCheck
++ _dispatch_once_f
++ _dlsym
++ _fclose
++ _fopen
++ _fread
++ _free
++ _fseek
++ _ftell
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.5
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.6
++ _get_witness_table 12SettingsHost0A22AutomationIdentifiableRzSHRzl7SwiftUI15ModifiedContentVyAEyAEyAEyAC4ViewPACE20accessibilityElement8childrenQrAC26AccessibilityChildBehaviorV_tFQOyAEyAgCE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAC06_UnaryI7AdaptorVyAC012_ConditionalH0VyAQy0abF00A10ListToggleVAgCE11buttonStyleyQrqd__AC015PrimitiveButtonY0Rd__lFQOyAC6ButtonVyAR0aV5LabelVG_AC020NavigationLinkButtonY0Vys5NeverOGQo_GAQyAC14NavigationLinkVyAZA3_GAC03AnyI0VGGG_xQo_AC21_TraitWritingModifierVyAC26IsSelectionEnabledTraitKeyVGG_Qo_AC0M18AttachmentModifierVGAC32_EnvironmentKeyTransformModifierVySbGGAC30_EnvironmentKeyWritingModifierVyAC10VisibilityOGGAC011_ForegroundY8ModifierVyAC08AnyShapeY0VGGAcFHPA35_AcFHPA29_AcFHPA25_AcFHPqd__AcFHD2_A22_HO_A24_AC0I8ModifierHPyHCHC_A28_ACA42_HPyHCHC_A34_ACA42_HPyHCHC_A40_ACA42_HPyHCHC.3
++ _get_witness_table 7SwiftUI17_UnaryViewAdaptorVyAA15ModifiedContentVyAA0D0PAAE5badgeyQrSiFQOyAEyAEyAA07LabeledG0VyAA5LabelVyAA05TupleD0VyAA4TextV_APSgtG012SettingsHostB00M4IconVGAQGAA30_EnvironmentKeyWritingModifierVy12CoreGraphics7CGFloatVSgGGA2_G_Qo_AYyAA15BadgeProminenceVGGGAaFHPyHC.2
++ _get_witness_table 7SwiftUI17_UnaryViewAdaptorVyAA19_ConditionalContentVyAEy014_IconServices_aB005AsyncH5ImageVyAA0K0VGAKGAEyAjA05EmptyD0VGGGAA0D0HPyHC.8
++ _get_witness_table SHRz12SettingsHost0A22AutomationIdentifiableR_SHR_r0_l7SwiftUI15ModifiedContentVyAC7SectionVyAC4TextVSgAC7ForEachVySayAA0A13ListItemModelVyq_GGq_0abF00amN0Vyq_GGAJGAC21_TraitWritingModifierVyAC0I13IndexLabelKeyVGGAC4ViewHPAvCA1_HPAjCA1_HpAiCA1_HPyHC_HC_AuCA1_HPAtCA1_HPyHC_HCAjCA1_HpAiCA1_HPyHC_HCHC_A_AC0vR0HPyHCHC.1
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11toggleStyleyQrqd__AA06ToggleE0Rd__lFQOyAcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA0F0VyAA5LabelVyAA4TextV012SettingsHostB00M4IconVGG_SbQo__AA06SwitchfE0VQo_HO.4
++ _initializeAvailabilityCheck
++ _kISImageDescriptorTableUIName
++ _malloc
++ _objectdestroy.2Tm
++ _rewind
++ _sscanf
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_deletedMethodError
++ _swift_getDynamicType
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getGenericMetadata
++ _swift_getKeyPath
++ _swift_getOpaqueTypeConformance2
++ _swift_getOpaqueTypeMetadata2
++ _swift_getSingletonMetadata
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_projectBox
++ _swift_storeEnumTagMultiPayload
++ _swift_storeEnumTagSinglePayloadGeneric
++ _symbolic $s7SwiftUI4ViewP
++ _symbolic B0
++ _symbolic B1
++ _symbolic SDySO___________pcG 7SwiftUI7AnyViewV 12SettingsHost0e8ListItemD4TypeO6CustomP
++ _symbolic Say_____G 12SettingsHost0A16ListItemTraitSetV
++ _symbolic _____ 12SettingsHost0A14ListLabelModelV
++ _symbolic _____ 12SettingsHost0A15ListToggleModelV
++ _symbolic _____ 12SettingsHost0A15ListToggleModelV0D5StateC
++ _symbolic _____ 12SettingsHost0A18IconRepresentationV
++ _symbolic _____ 14SettingsHostUI0A10ListToggleV
++ _symbolic _____ 14SettingsHostUI0A11ListSectionV
++ _symbolic _____ 14SettingsHostUI0A26ListItemCustomViewRegistryC
++ _symbolic _____ 14SettingsHostUI0A4IconV
++ _symbolic _____ 14SettingsHostUI0A8ListItemV
++ _symbolic _____ 14SettingsHostUI0A9ListLabelV
++ _symbolic _____ 7SwiftUI10VisibilityO
++ _symbolic _____ 7SwiftUI15BadgeProminenceV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV
++ _symbolic _____Sg 10Foundation23LocalizedStringResourceV
++ _symbolic _____Sg 12CoreGraphics7CGFloatV
++ _symbolic _____Sg 7SwiftUI17SectionIndexLabelO
++ _symbolic _____Sg 7SwiftUI4TextV
++ _symbolic ______p 12SettingsHost0A16ListItemViewTypeO6CustomP
++ _symbolic _____yAAyAAyAAy_____yAAy_____y_____y_____yACy__________y_____y_____G______y_____GQo_GACy_____yAfIG_____GGG_xQo______y_____GG_Qo______G_____ySbGG_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06_UnaryE7AdaptorV AA012_ConditionalD0V 012SettingsHostB00R10ListToggleV AeAE11buttonStyleyQrqd__AA015PrimitiveButtonW0Rd__lFQO AA0Y0V AP0rT5LabelV AA014NavigationLinkyW0V s5NeverO AA14NavigationLinkV AA03AnyE0V AA21_TraitWritingModifierV AA26IsSelectionEnabledTraitKeyV AA0I18AttachmentModifierV AA32_EnvironmentKeyTransformModifierV AA30_EnvironmentKeyWritingModifierV AA10VisibilityO AA011_ForegroundW8ModifierV AA08AnyShapeW0V
++ _symbolic _____yAAy_____y_____y_____y______AESgtG_____GAFG_____y_____SgGGANG 7SwiftUI15ModifiedContentV AA07LabeledD0V AA5LabelV AA9TupleViewV AA4TextV 012SettingsHostB00J4IconV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____ySO___________pcG s18_DictionaryStorageC 7SwiftUI7AnyViewV 12SettingsHost0g8ListItemF4TypeO6CustomP
++ _symbolic _____ySbG 7SwiftUI32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____G 21_IconServices_SwiftUI05AsyncA5ImageV 0cD00F0V
++ _symbolic _____y_____G 7SwiftUI21_TraitWritingModifierV AA018IsSelectionEnabledC3KeyV
++ _symbolic _____y_____G 7SwiftUI21_TraitWritingModifierV AA20SectionIndexLabelKeyV
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA08AnyShapeD0V
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y_____G 7SwiftUI25NavigationLinkButtonStyleV s5NeverO
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA10VisibilityO
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA15BadgeProminenceV
++ _symbolic _____y_____G 7SwiftUI6ButtonV 012SettingsHostB00D9ListLabelV
++ _symbolic _____y_____G 7SwiftUI8BindableV 12SettingsHost0D15ListToggleModelV0G5StateC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12SettingsHost0D16ListItemTraitSetV
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____y______ABSgtG 7SwiftUI9TupleViewV AA4TextV
++ _symbolic _____y__________G 7SwiftUI14NavigationLinkV 012SettingsHostB00E9ListLabelV s5NeverO
++ _symbolic _____y__________G 7SwiftUI19_ConditionalContentV AA5ImageV AA9EmptyViewV
++ _symbolic _____y__________G 7SwiftUI5LabelV AA4TextV 012SettingsHostB00E4IconV
++ _symbolic _____y__________G 7SwiftUI5LabelV AA4TextV AA5ImageV
++ _symbolic _____y__________y_____y_____G______y_____GQo_G 7SwiftUI19_ConditionalContentV 012SettingsHostB00E10ListToggleV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonK0Rd__lFQO AA0M0V AD0eG5LabelV AA014NavigationLinkmK0V s5NeverO
++ _symbolic _____y__________y_____y_____G______y_____GQo__G 7SwiftUI19_ConditionalContentV7StorageO 012SettingsHostB00F10ListToggleV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonL0Rd__lFQO AA0N0V AF0fH5LabelV AA014NavigationLinknL0V s5NeverO
++ _symbolic _____y__________y_____y__________G_____y_____GGG 7SwiftUI19_ConditionalContentV AA7AnyViewV AA08ModifiedD0V AA5LabelV AA4TextV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y__________y_____y__________G_____y_____GG_G 7SwiftUI19_ConditionalContentV7StorageO AA7AnyViewV AA08ModifiedD0V AA5LabelV AA4TextV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y_____yAAyAAy_____y_____y_____y______AESgtG_____GAFG_____y_____SgGGANG_Qo_AKy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE5badgeyQrSiFQO AA07LabeledD0V AA5LabelV AA05TupleE0V AA4TextV 012SettingsHostB00K4IconV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA15BadgeProminenceV
++ _symbolic _____y_____yAAy_____y_____y_____y______AESgtG_____GAFG_____y_____SgGGANG_Qo_ 7SwiftUI4ViewPAAE5badgeyQrSiFQO AA15ModifiedContentV AA07LabeledF0V AA5LabelV AA05TupleC0V AA4TextV 012SettingsHostB00K4IconV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____yABy__________y_____y_____G______y_____GQo_GABy_____yAeHG_____GGG 7SwiftUI17_UnaryViewAdaptorV AA19_ConditionalContentV 012SettingsHostB00H10ListToggleV AA0D0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQO AA0O0V AF0hJ5LabelV AA014NavigationLinkoM0V s5NeverO AA0qR0V AA03AnyD0V
++ _symbolic _____y_____yABy_____y_____GAEGAByAD_____GGG 7SwiftUI17_UnaryViewAdaptorV AA19_ConditionalContentV 014_IconServices_aB005AsyncH5ImageV AA0K0V AA05EmptyD0V
++ _symbolic _____y_____y_____GADG 7SwiftUI19_ConditionalContentV 014_IconServices_aB005AsyncE5ImageV AA0H0V
++ _symbolic _____y_____y_____GAD_G 7SwiftUI19_ConditionalContentV7StorageO 014_IconServices_aB005AsyncF5ImageV AA0I0V
++ _symbolic _____y_____y_____G______y_____GQo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA0G0V 012SettingsHostB00H9ListLabelV AA014NavigationLinkgE0V s5NeverO
++ _symbolic _____y_____y_____Sg_____ySay_____yq_GGq______yq_GGADG_____y_____GG 7SwiftUI15ModifiedContentV AA7SectionV AA4TextV AA7ForEachV 12SettingsHost0I13ListItemModelV 0ijB00ikL0V AA21_TraitWritingModifierV AA0E13IndexLabelKeyV
++ _symbolic _____y_____y______ACSgtG_____G 7SwiftUI5LabelV AA9TupleViewV AA4TextV 012SettingsHostB00G4IconV
++ _symbolic _____y_____y__________GG 7SwiftUI6ToggleV AA5LabelV AA4TextV 012SettingsHostB00F4IconV
++ _symbolic _____y_____y__________G_____G 7SwiftUI19_ConditionalContentV AA14NavigationLinkV 012SettingsHostB00G9ListLabelV s5NeverO AA7AnyViewV
++ _symbolic _____y_____y__________G______G 7SwiftUI19_ConditionalContentV7StorageO AA14NavigationLinkV 012SettingsHostB00H9ListLabelV s5NeverO AA7AnyViewV
++ _symbolic _____y_____y__________G_____y_____GG 7SwiftUI15ModifiedContentV AA5LabelV AA4TextV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y_____y__________y_____y_____G______y_____GQo_GABy_____yAeHG_____G_G 7SwiftUI19_ConditionalContentV7StorageO AC 012SettingsHostB00F10ListToggleV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonL0Rd__lFQO AA0N0V AF0fH5LabelV AA014NavigationLinknL0V s5NeverO AA0pQ0V AA03AnyJ0V
++ _symbolic _____y_____y_____yAByABy_____y_____y_____y______AFSgtG_____GAGG_____y_____SgGGAOG_Qo_ALy_____GGG 7SwiftUI17_UnaryViewAdaptorV AA15ModifiedContentV AA0D0PAAE5badgeyQrSiFQO AA07LabeledG0V AA5LabelV AA05TupleD0V AA4TextV 012SettingsHostB00M4IconV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA15BadgeProminenceV
++ _symbolic _____y_____y_____y_____GAEGAByAD_____G_G 7SwiftUI19_ConditionalContentV7StorageO AC 014_IconServices_aB005AsyncF5ImageV AA0I0V AA9EmptyViewV
++ _symbolic _____y_____y_____y______ADSgtG_____GAEG 7SwiftUI14LabeledContentV AA5LabelV AA9TupleViewV AA4TextV 012SettingsHostB00I4IconV
++ _symbolic _____y_____y_____y__________GG_SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6ToggleV AA5LabelV AA4TextV 012SettingsHostB00K4IconV
++ _symbolic _____y_____y_____y_____y______AESgtG_____GAFG_____y_____SgGG 7SwiftUI15ModifiedContentV AA07LabeledD0V AA5LabelV AA9TupleViewV AA4TextV 012SettingsHostB00J4IconV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____y_____y_____y__________GG_SbQo_______Qo_ 7SwiftUI4ViewPAAE11toggleStyleyQrqd__AA06ToggleE0Rd__lFQO AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA0F0V AA5LabelV AA4TextV 012SettingsHostB00M4IconV AA06SwitchfE0V
++ _symbolic _____yxG 12SettingsHost0A13ListItemModelV
++ _symbolic _____yxq_G 12SettingsHost0A16ListSectionModelV
++ _symbolic q_
++ _symbolic qd0__
++ _symbolic qd__
++ _symbolic x
++ _symbolic xq_Iegnr_
+- __PROTOCOLS__TtC14SettingsHostUI42PreferencesControllerNavigationCoordinator.12
+- _block_copy_helper.8
+- _block_descriptor.10
+- _block_destroy_helper.9
+- _objectdestroy.3Tm
+CStrings:
++ "%d.%d.%d"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "No view registered for "
++ "ProductVersion"
++ "SettingsHostUI/SettingsListItem.swift"
++ "SettingsHostUI/SettingsListItemCustomViewRegistry.swift"
++ "SettingsHostUI/SettingsListLabel.swift"
++ "SettingsHostUI/SettingsListSection.swift"
++ "SettingsHostUI/SettingsListToggle.swift"
++ "_TtC14SettingsHostUI34SettingsListItemCustomViewRegistry"
++ "imageDescriptorNamed:"
++ "initWithBundleIdentifier:"
++ "initWithType:"
++ "kCFAllocatorNull"
++ "questionmark.circle"
++ "r"
++ "registrations"
+
+```
