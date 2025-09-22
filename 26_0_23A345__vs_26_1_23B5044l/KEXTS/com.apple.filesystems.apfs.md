@@ -47,8 +47,8 @@ Functions:
 ~ _apfs_scan_for_fragmentation_cb : 472 -> 476
 ~ sub_fffffe000add4f7c -> sub_fffffe000ae9f5ac : 1016 -> 1020
 ~ sub_fffffe000add56b4 -> sub_fffffe000ae9fce8 : 1340 -> 1344
-~ sub_fffffe000adea020 -> _encryption_rolling_thread : 1392 -> 1396
-~ _pfkur_roll_all_inodes_continuation : 1124 -> 1128
+~ sub_fffffe000adea020 -> sub_fffffe000aeb4658 : 1392 -> 1396
+~ _pfkur_roll_all_inodes_continuation -> sub_fffffe000aeebbc4 : 1124 -> 1128
 ~ sub_fffffe000ae22ea8 -> sub_fffffe000aeed4e8 : 116 -> 120
 ~ sub_fffffe000ae22f1c -> sub_fffffe000aeed560 : 112 -> 116
 ~ sub_fffffe000ae2ea38 -> sub_fffffe000aef9080 : 176 -> 180

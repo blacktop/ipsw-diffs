@@ -81,6 +81,10 @@
 
 </details>
 
+### KDKs
+
+- [KDK DIFF](KDK.md)
+
 ## MachO
 
 ### 🆕 NEW (17)
@@ -1211,30 +1215,30 @@
 <details>
   <summary><i>View NEW</i></summary>
 
-##### `RTKit.bin`
-  - `read failed. resetting %d`
-  - `%s:%d: read failed. resetting %d`
-  - `%s:%d fail rstat`
-##### `iboot_blob32.bin`
-  - `TCAPACDLHDHPNIRNDVPUVilpslpU `
-  - `9A0s0A1A2LAiAEBMBQBRBaB0DADEDGDPDiDzDiEDFLFMFSFiGDMRMxMiPMRNRRRPS1a2a3a4a5a1b2b3b4b5b1c2c3c4c5c1d2d3d4d5d1e2e3e4e5eE`
 ##### `iboot_blob34.bin`
-  - `y_enable_scan: %d`
   - `xAceGetRawADCValue retStatus = 0x%x`
+  - `y_enable_scan: %d`
   - ` VBUS_CH: %d, VBUS_FS: %u/100,  VBUS_Scaling: %u, ADC_Res: %d`
 ##### `iboot_blob33.bin`
   - `4PCRLFCRNAMSNAMS`
   - `root@Sep 05 2025@06:13:05~.release`
+##### `RTKit.bin`
+  - `read failed. resetting %d`
+  - `%s:%d fail rstat`
+  - `%s:%d: read failed. resetting %d`
+##### `iboot_blob31.bin`
+  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpYh=`
+  - `gPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVmVnVSWfihiiiminisiglilsodpiprptpYL&`
+  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH0`
 ##### `iboot`
   - `usbcfw_tnt-35.40.2`
   - `panic-trace-enabled`
   - `apt_carveout_mb`
 ##### `AppleSMCFirmware.bin`
   - `AppleSMCFirmware_H18-6164.40.67.0.1.v53.REL`
-##### `iboot_blob31.bin`
-  - `gPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVmVnVSWfihiiiminisiglilsodpiprptpYL&`
-  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpYh=`
-  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH0`
+##### `iboot_blob32.bin`
+  - `9A0s0A1A2LAiAEBMBQBRBaB0DADEDGDPDiDzDiEDFLFMFSFiGDMRMxMiPMRNRRRPS1a2a3a4a5a1b2b3b4b5b1c2c3c4c5c1d2d3d4d5d1e2e3e4e5eE`
+  - `TCAPACDLHDHPNIRNDVPUVilpslpU `
 
 </details>
 
@@ -1243,29 +1247,29 @@
 <details>
   <summary><i>View Removed</i></summary>
 
-##### `iboot_blob32.bin`
-  - `zDiEDFLFMFSFiGDMRMxMiPMRNRRRPS1a2a3a4a5a1b2b3b4b5b1c2c3c4c5c1d2d3d4d5d1e2e3e4e5eE`
-  - `TCAPACDLHDHPNIRNDVPUVilpslpU`
-##### `iboot_blob33.bin`
-  - `fury_enable_scan: %d`
-  - `xAceGetRawADCValue retStatus = 0x%x`
-  - `LFCRNAMSNAMS`
-  - `root@Aug 02 2025@20:10:33~.release`
-##### `RTKit.bin`
-  - `d fail rstat`
-##### `AppleSMCFirmware.bin`
-  - `AppleSMCFirmware_H18-6164.2.12.v53.REL`
 ##### `iboot_blob34.bin`
   - `%s:%d: read failed. resetting %d`
   - `US_CH: %d, VBUS_FS: %u/100,  VBUS_Scaling: %u, ADC_Res: %d`
   - `%s:%d: read failed. resetting %d`
+##### `RTKit.bin`
+  - `d fail rstat`
+##### `AppleSMCFirmware.bin`
+  - `AppleSMCFirmware_H18-6164.2.12.v53.REL`
 ##### `iboot`
   - `usbcfw_tnt-35.2.1`
 ##### `iboot_blob31.bin`
-  - `9A0s0A1A2LAiAEBMBQBRBaB0DADEDGDPDiD`
   - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpYT=`
+  - `9A0s0A1A2LAiAEBMBQBRBaB0DADEDGDPDiD`
   - `gPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVmVnVSWfihiiiminisiglilsodpiprptpY\&`
   - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH<`
+##### `iboot_blob32.bin`
+  - `zDiEDFLFMFSFiGDMRMxMiPMRNRRRPS1a2a3a4a5a1b2b3b4b5b1c2c3c4c5c1d2d3d4d5d1e2e3e4e5eE`
+  - `TCAPACDLHDHPNIRNDVPUVilpslpU`
+##### `iboot_blob33.bin`
+  - `xAceGetRawADCValue retStatus = 0x%x`
+  - `LFCRNAMSNAMS`
+  - `fury_enable_scan: %d`
+  - `root@Aug 02 2025@20:10:33~.release`
 
 </details>
 
@@ -9111,9 +9115,9 @@
 
 ### ❌ Removed (4)
 
-- `Domain/VisualGeneration.plist`
-- `Domain/Calculate.plist`
 - `Domain/TTSAsset.plist`
+- `Domain/Calculate.plist`
+- `Domain/VisualGeneration.plist`
 - `Domain/BulletinBoard.plist`
 
 ### ⬆️ Updated (49)
