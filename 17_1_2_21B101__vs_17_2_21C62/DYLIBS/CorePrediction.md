@@ -1,0 +1,16 @@
+## CorePrediction
+
+> `/System/Library/PrivateFrameworks/CorePrediction.framework/CorePrediction`
+
+```diff
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 05894498-9331-31AB-B74D-C2861887BC27
++  UUID: DFD8E089-4A80-39A2-B6B8-20876E1C2EC3
+   Functions: 1190
+   Symbols:   3292
+   CStrings:  1378
+
+```

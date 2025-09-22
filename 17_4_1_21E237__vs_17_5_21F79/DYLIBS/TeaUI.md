@@ -1,0 +1,470 @@
+## TeaUI
+
+> `/System/Library/PrivateFrameworks/TeaUI.framework/TeaUI`
+
+```diff
+
+-959.0.0.0.0
+-  __TEXT.__text: 0x3b247c
+-  __TEXT.__auth_stubs: 0x5480
+-  __TEXT.__objc_methlist: 0x5858
+-  __TEXT.__const: 0x1e194
+-  __TEXT.__cstring: 0x14534
++991.2.0.0.0
++  __TEXT.__text: 0x3caa70
++  __TEXT.__auth_stubs: 0x5590
++  __TEXT.__objc_methlist: 0x59e0
++  __TEXT.__const: 0x1ea84
++  __TEXT.__cstring: 0x149c4
+   __TEXT.__gcc_except_tab: 0x80
+   __TEXT.__oslogstring: 0x9c
+-  __TEXT.__constg_swiftt: 0x11e84
+-  __TEXT.__swift5_typeref: 0xc15c
+-  __TEXT.__swift5_builtin: 0x8d4
+-  __TEXT.__swift5_reflstr: 0xb19f
+-  __TEXT.__swift5_fieldmd: 0xddf4
+-  __TEXT.__swift5_assocty: 0x13f8
+-  __TEXT.__swift5_proto: 0x1430
+-  __TEXT.__swift5_types: 0xfa0
+-  __TEXT.__swift5_capture: 0x673c
+-  __TEXT.__swift5_mpenum: 0x344
+-  __TEXT.__swift5_protos: 0x4f0
+-  __TEXT.__unwind_info: 0x11880
+-  __TEXT.__eh_frame: 0x69f8
+-  __TEXT.__objc_classname: 0x7ee
+-  __TEXT.__objc_methname: 0xf543
++  __TEXT.__constg_swiftt: 0x12208
++  __TEXT.__swift5_typeref: 0xc5a6
++  __TEXT.__swift5_builtin: 0x8fc
++  __TEXT.__swift5_reflstr: 0xb25f
++  __TEXT.__swift5_fieldmd: 0xdfd4
++  __TEXT.__swift5_assocty: 0x1458
++  __TEXT.__swift5_proto: 0x14c8
++  __TEXT.__swift5_types: 0xfcc
++  __TEXT.__swift5_capture: 0x6a90
++  __TEXT.__swift5_mpenum: 0x34c
++  __TEXT.__swift5_protos: 0x4f4
++  __TEXT.__unwind_info: 0x11654
++  __TEXT.__eh_frame: 0x7390
++  __TEXT.__objc_classname: 0x7f0
++  __TEXT.__objc_methname: 0xf6b7
+   __TEXT.__objc_methtype: 0x3abe
+-  __TEXT.__objc_stubs: 0x38e0
+-  __DATA_CONST.__got: 0x1248
+-  __DATA_CONST.__const: 0x23b8
+-  __DATA_CONST.__objc_classlist: 0xad8
+-  __DATA_CONST.__objc_catlist: 0x258
++  __TEXT.__objc_stubs: 0x3920
++  __DATA_CONST.__got: 0x12f8
++  __DATA_CONST.__const: 0x2390
++  __DATA_CONST.__objc_classlist: 0xaf0
++  __DATA_CONST.__objc_catlist: 0x260
+   __DATA_CONST.__objc_protolist: 0x3a0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x1b350
+-  __DATA_CONST.__objc_selrefs: 0x3a00
++  __DATA_CONST.__objc_const: 0x1b638
++  __DATA_CONST.__objc_selrefs: 0x3a68
+   __DATA_CONST.__objc_protorefs: 0x240
+-  __DATA_CONST.__objc_classrefs: 0x580
++  __DATA_CONST.__objc_classrefs: 0x588
+   __DATA_CONST.__objc_superrefs: 0xb0
+-  __AUTH_CONST.__objc_const: 0x1e90
+-  __AUTH_CONST.__const: 0x2a580
++  __AUTH_CONST.__objc_const: 0x1ed0
++  __AUTH_CONST.__const: 0x2b070
+   __AUTH_CONST.__cfstring: 0x6c0
+-  __AUTH_CONST.__auth_got: 0x2a50
+-  __AUTH.__objc_data: 0x4a30
+-  __AUTH.__data: 0x2920
+-  __DATA.__objc_ivar: 0x194
+-  __DATA.__objc_data: 0x5f8
+-  __DATA.__data: 0x6748
++  __AUTH_CONST.__auth_got: 0x2ad8
++  __AUTH.__objc_data: 0x4a90
++  __AUTH.__data: 0x2a00
++  __DATA.__objc_ivar: 0x19c
++  __DATA.__objc_data: 0x5c8
++  __DATA.__data: 0x6d08
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x17b50
+-  __DATA.__common: 0xc8
++  __DATA.__bss: 0x18860
++  __DATA.__common: 0x98
+   __DATA_DIRTY.__const: 0x50
+   __DATA_DIRTY.__objc_const: 0x48
+-  __DATA_DIRTY.__objc_data: 0x6d38
+-  __DATA_DIRTY.__data: 0xe6f8
+-  __DATA_DIRTY.__bss: 0x69c0
+-  __DATA_DIRTY.__common: 0x108
++  __DATA_DIRTY.__objc_data: 0x6dc8
++  __DATA_DIRTY.__data: 0xe908
++  __DATA_DIRTY.__bss: 0x6b40
++  __DATA_DIRTY.__common: 0x118
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/BackgroundTasks.framework/BackgroundTasks
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /System/Library/Frameworks/CoreText.framework/CoreText
+   - /System/Library/Frameworks/CoreTransferable.framework/CoreTransferable
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/IOSurface.framework/IOSurface
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7E2D212C-218D-3E6D-B4B7-6548CF67CB54
+-  Functions: 34250
+-  Symbols:   18710
+-  CStrings:  5199
++  UUID: 364BDE82-329D-3ECD-B235-330D3906F543
++  Functions: 34945
++  Symbols:   19090
++  CStrings:  5244
+ 
+Symbols:
++ -[TUNavigationBarCompressibleBarButtonItemView setVerticalOffset:]
++ -[TUNavigationBarCompressibleBarButtonItemView verticalOffset]
++ -[TUNavigationBarCompressibleTitleView setVerticalOffset:]
++ -[TUNavigationBarCompressibleTitleView verticalOffset]
++ -[TUNavigationBarDefaultCompressionAnimation setTranslationOffset:]
++ -[TUNavigationBarDefaultCompressionAnimation translationOffset]
++ -[UINavigationBar(Bridge) syncBarButtonItems:]
++ _IOSurfacePropertyKeyAllocSize
++ _IOSurfacePropertyKeyBytesPerElement
++ _IOSurfacePropertyKeyBytesPerRow
++ _IOSurfacePropertyKeyHeight
++ _IOSurfacePropertyKeyPixelFormat
++ _IOSurfacePropertyKeyWidth
++ _OBJC_CLASS_$_IOSurface
++ _OBJC_CLASS_$__TtC5TeaUI25StringArrayViewController
++ _OBJC_CLASS_$__TtC5TeaUI31StatusBannerContainerController
++ _OBJC_IVAR_$_TUNavigationBarCompressibleBarButtonItemView.verticalOffset
++ _OBJC_IVAR_$_TUNavigationBarDefaultCompressionAnimation._translationOffset
++ _OBJC_METACLASS_$__TtC5TeaUI25StringArrayViewController
++ _OBJC_METACLASS_$__TtC5TeaUI31StatusBannerContainerController
++ _OBJC_METACLASS_$__TtC5TeaUIP33_555B43D3A3BE92296C45DE65B67B87E428FallbackPluginViewController
++ __CATEGORY__TtC5TeaUI31StatusBannerContainerController_$_TeaUI
++ __DATA__TtC5TeaUI22JSONSchemaValueEmitter
++ __DATA__TtC5TeaUI25StringArrayViewController
++ __DATA__TtC5TeaUI31StatusBannerContainerController
++ __DATA__TtC5TeaUIP33_555B43D3A3BE92296C45DE65B67B87E428FallbackPluginViewController
++ __IVARS__TtC5TeaUI22JSONSchemaValueEmitter
++ __IVARS__TtC5TeaUI25StringArrayViewController
++ __IVARS__TtC5TeaUI31StatusBannerContainerController
++ __IVARS__TtC5TeaUIP33_555B43D3A3BE92296C45DE65B67B87E428FallbackPluginViewController
++ __METACLASS_DATA__TtC5TeaUI22JSONSchemaValueEmitter
++ __METACLASS_DATA__TtC5TeaUI25StringArrayViewController
++ __METACLASS_DATA__TtC5TeaUI31StatusBannerContainerController
++ __METACLASS_DATA__TtC5TeaUIP33_555B43D3A3BE92296C45DE65B67B87E428FallbackPluginViewController
++ __OBJC_$_INSTANCE_METHODS__TtC5TeaUI25StringArrayViewController
++ __OBJC_$_INSTANCE_METHODS__TtC5TeaUI31StatusBannerContainerController
++ __OBJC_$_INSTANCE_METHODS__TtC5TeaUI31StatusBannerContainerController(TeaUI|TeaUI1)
++ __OBJC_$_INSTANCE_METHODS__TtC5TeaUIP33_555B43D3A3BE92296C45DE65B67B87E428FallbackPluginViewController
++ __PROPERTIES__TtC5TeaUI31StatusBannerContainerController
++ __PROTOCOLS__TtC5TeaUI17SidebarButtonView.10
++ __PROTOCOLS__TtC5TeaUI25StringArrayViewController
++ __PROTOCOLS__TtC5TeaUI25StringArrayViewController.1
++ __PROTOCOLS__TtC5TeaUI32ViewControllerCollectionViewCell.11
++ ___46-[UINavigationBar(Bridge) syncBarButtonItems:]_block_invoke
++ ___swift_get_extra_inhabitant_index.3Tm
++ ___swift_memcpy105_8
++ ___swift_memcpy217_8
++ ___swift_memcpy89_8
++ ___swift_store_extra_inhabitant_index.4Tm
++ _associated conformance 5TeaUI10JSONSchemaV12LabeledValueV10CodingKeys33_FE970ACE894B647FEA73EA8A2DA79231LLOy_x_GSHAASQ
++ _associated conformance 5TeaUI10JSONSchemaV12LabeledValueV10CodingKeys33_FE970ACE894B647FEA73EA8A2DA79231LLOy_x_Gs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 5TeaUI10JSONSchemaV12LabeledValueV10CodingKeys33_FE970ACE894B647FEA73EA8A2DA79231LLOy_x_Gs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5TeaUI10JSONSchemaV14SuppliedValuesO10CodingKeysOy_x_GSHAASQ
++ _associated conformance 5TeaUI10JSONSchemaV14SuppliedValuesO10CodingKeysOy_x_Gs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 5TeaUI10JSONSchemaV14SuppliedValuesO10CodingKeysOy_x_Gs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5TeaUI14JSONSchemaViewV12JSONSaveModeOSHAASQ
++ _associated conformance 5TeaUI22StatusBannerVisibilityOSHAASQ
++ _associated conformance 5TeaUI28JSONSchemaPresetSelectorViewVyxG05SwiftB00F0AA4BodyAeFP_AeF
++ _associated conformance So20IOSurfacePropertyKeyaSHSCSQ
++ _associated conformance So20IOSurfacePropertyKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So20IOSurfacePropertyKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.112
++ _block_copy_helper.115
++ _block_copy_helper.118
++ _block_copy_helper.125
++ _block_copy_helper.131
++ _block_copy_helper.137
++ _block_copy_helper.158
++ _block_copy_helper.177
++ _block_copy_helper.185
++ _block_copy_helper.30
++ _block_copy_helper.61
++ _block_copy_helper.67
++ _block_copy_helper.77
++ _block_copy_helper.83
++ _block_descriptor.114
++ _block_descriptor.117
++ _block_descriptor.120
++ _block_descriptor.127
++ _block_descriptor.133
++ _block_descriptor.139
++ _block_descriptor.160
++ _block_descriptor.179
++ _block_descriptor.187
++ _block_descriptor.32
++ _block_descriptor.63
++ _block_descriptor.69
++ _block_descriptor.79
++ _block_descriptor.85
++ _block_destroy_helper.113
++ _block_destroy_helper.116
++ _block_destroy_helper.119
++ _block_destroy_helper.126
++ _block_destroy_helper.132
++ _block_destroy_helper.138
++ _block_destroy_helper.159
++ _block_destroy_helper.178
++ _block_destroy_helper.186
++ _block_destroy_helper.31
++ _block_destroy_helper.62
++ _block_destroy_helper.68
++ _block_destroy_helper.78
++ _block_destroy_helper.84
++ _generic environment SeRzSERzSHRzl
++ _generic environment s23CustomStringConvertibleRzSeRzSERzSHRzl
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyACy03TeaB027JSONSchemaArrayValueRowViewVAD0f4Boolhi7ControlJ0VGACyAD0f7IntegerhilJ0VAD0f6NumberhilJ0VGGACyAD0f6StringhilJ0VAD0f6ObjecthilJ0VGGAA0J0HPAoaVHPAiaVHPAfaVHPyHC_AhaVHPyHCHC_AnaVHPAkaVHPyHC_AmaVHPyHCHCHC_AtaVHPAqaVHPyHC_AsaVHPyHCHCHC.90
++ _get_witness_table 7SwiftUI6HStackVyAA19_ConditionalContentVyAA6PickerVyAA4TextVSSAA7ForEachVySay03TeaB010JSONSchemaV12LabeledValueVy_SSGGSSAA0lE0VyA2IGGGAL010VerticallylE0VyACyAA9TupleViewVyAA08ModifiedE0VyAA0G5FieldVyAIGAA32_EnvironmentKeyTransformModifierVySbGG_AA14NavigationLinkVyACyA_yAA6SpacerV_A1_yAA5ImageVAA01_st7WritingV0VyAA5ColorVSgGGtGGAL0k14PresetSelectorP0VySSGGSgA21_SgtGGGGGAA0P0HPyHC.85
++ _get_witness_table 7SwiftUI6HStackVyAA19_ConditionalContentVyAA6PickerVyAA4TextVSdAA7ForEachVySay03TeaB010JSONSchemaV12LabeledValueVy_SdGGSdAA0lE0VyA2IGGGAL010VerticallylE0VyACyAA9TupleViewVyAA0P0PAAE12keyboardTypeyQrSo010UIKeyboardR0VFQOyAA08ModifiedE0VyAA0G5FieldVyAIGAA32_EnvironmentKeyTransformModifierVySbGG_Qo__AA14NavigationLinkVyACyA_yAA6SpacerV_A6_yAA5ImageVAA01_vw7WritingY0VyAA5ColorVSgGGtGGAL0k14PresetSelectorP0VySdGGSgA27_SgtGGGGGAAA0_HPyHC.86
++ _get_witness_table 7SwiftUI6HStackVyAA19_ConditionalContentVyAA6PickerVyAA4TextVSiAA7ForEachVySay03TeaB010JSONSchemaV12LabeledValueVy_SiGGSiAA0lE0VyA2IGGGAL010VerticallylE0VyACyAA9TupleViewVyAA0P0PAAE12keyboardTypeyQrSo010UIKeyboardR0VFQOyAA08ModifiedE0VyAA0G5FieldVyAIGAA32_EnvironmentKeyTransformModifierVySbGG_Qo__AA14NavigationLinkVyACyA_yAA6SpacerV_A6_yAA5ImageVAA01_vw7WritingY0VyAA5ColorVSgGGtGGAL0k14PresetSelectorP0VySiGGSgA27_SgtGGGGGAAA0_HPyHC.87
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA14NavigationLinkVyAA4TextV03TeaB0010JSONSchemaE0VG_AA15ModifiedContentVyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGSgtGGAA0E0HPyHC.91
++ _get_witness_table 7SwiftUI6ToggleVyAA4TextVGAA4ViewHPyHC.88
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA4TextV_AA19_ConditionalContentVyAIyAIyA2GGAIyAgIyAIyAA14NavigationLinkVyAG03TeaB08JSONViewVGAGGAGGGGAIyAIyApLyAIyAjGGAIyA2OGGGAIyAGs5NeverOGGGtGGAA0E0HPyHC.19
++ _get_witness_table 7SwiftUI9TupleViewVyAA7SectionVyAA05EmptyD0VAA6ButtonVyAA4TextVGAGG_AMtGAA0D0HPyHC.54
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAcAE10searchable4text9placement6promptQrAIySSG_AA20SearchFieldPlacementVAA4TextVSgtFQOyAA4FormVyAA05TupleC0VyAA19_ConditionalContentVyA_yA_y03TeaB08JSONViewV03RowC0VA4_GA_yA4_AA7ForEachVySaySi6offset_0W10Foundation4JSONO7elementtGSiA4_GGGA_yA_yA7_ySaySiA8__SSA12_tGSiA4_SgGA4_Gs5NeverOGG_AA7SectionVyAA05EmptyC0VAA6ButtonVyATGA28_GtGG_Qo__AA15NavigationStackVyAA14NavigationPathVAA06ScrollC0VyA_yAA08ModifiedV0VyAtA14_PaddingLayoutVGA46_GGGQo_HO.4
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE7toolbar7contentQrqd__yXE_tAaBRd__lFQOyAcAE5sheet11isPresented9onDismissAEQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAcAEAfghEQrAK_ALqd__yctAaBRd__lFQOyAcAEAfghEQrAK_ALqd__yctAaBRd__lFQOyAA4ListVys5NeverOAA05TupleC0Vy03TeaB0010JSMetadataC0VSg_AA7SectionVyAA4TextVAA6HStackVyARyAA0R5FieldVyAZG_AA14NavigationLinkVyA0_yARyAA6SpacerV_AA15ModifiedContentVyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGtGGAS024JSONSchemaPresetSelectorC0VySSGGSgtGGAA05EmptyC0VGSgAA012_ConditionalY0VyA33_yA33_yAS012JSArrayValueC0VAS029JSONSchemaBoolValueRowControlC0VGA33_yAS032JSONSchemaIntegerValueRowControlC0VAS031JSONSchemaNumberValueRowControlC0VGGA33_yAS031JSONSchemaStringValueRowControlC0VAS013JSObjectValueC0VGGAS010JSONSchemaC0V015ShowJSONButtonsC0VtGG_AA0U5StackVyAA0U4PathVAA06ScrollC0VyA33_yAcAEAdEQrqd__yXE_tAA07ToolbarY0Rd__lFQOyA9_yAzA14_PaddingLayoutVG_AA07ToolbarY7BuilderV10buildBlockyQrxAAA63_RzlFZQOy_AA0n7ToolbarY0VyAA16ToolbarItemGroupVyAA05ShareV0Vys15CollectionOfOneVySSGA2pA012DefaultShareV5LabelVGG_A73_yAA6ButtonVyAZGGtGSgQo_Qo_A66_GGGQo__A62_yA66_GQo__A33_yA58_yA60_A52_GA97_GSgQo__ARyA85_Sg_A101_A101_tGQo_HO.19
++ _get_witness_table s23CustomStringConvertibleRzSeRzSERzSHRzl7SwiftUI4ListVys5NeverOAB7ForEachVySay03TeaE010JSONSchemaV12LabeledValueVy_xGGxAB6ButtonVyAI010VerticallyL7ContentVyAB4TextVGGGGAB4ViewHPyHC.84
++ _objc_msgSend$setVerticalOffset:
++ _objc_msgSend$translationOffset
++ _objc_msgSend$verticalOffset
++ _objectdestroy.13Tm
++ _objectdestroy.37Tm
++ _objectdestroy.60Tm
++ _symbolic $s5TeaUI16StatusBannerableP
++ _symbolic $s5TeaUI31StatusBannerVisibilityProvidingP
++ _symbolic $s5TeaUI31TabBarSplitViewGestureProvidingP
++ _symbolic SaySSGIegg_
++ _symbolic Say_____y_SSGGSg 5TeaUI10JSONSchemaV12LabeledValueV
++ _symbolic Say_____y_xGG 5TeaUI10JSONSchemaV12LabeledValueV
++ _symbolic ScCySo7UIImageC______pG s5ErrorP
++ _symbolic _____ 5TeaUI10JSONSchemaV12LabeledValueV
++ _symbolic _____ 5TeaUI10JSONSchemaV12LabeledValueV10CodingKeys33_FE970ACE894B647FEA73EA8A2DA79231LLO
++ _symbolic _____ 5TeaUI10JSONSchemaV14SuppliedValuesO
++ _symbolic _____ 5TeaUI10JSONSchemaV14SuppliedValuesO10CodingKeysO
++ _symbolic _____ 5TeaUI10JSONSchemaV14SuppliedValuesO6ErrorsO
++ _symbolic _____ 5TeaUI14JSONSchemaViewV12JSONSaveModeO
++ _symbolic _____ 5TeaUI14JSONSchemaViewV17SaveConfigurationO
++ _symbolic _____ 5TeaUI22JSONSchemaValueEmitterC
++ _symbolic _____ 5TeaUI22StatusBannerVisibilityO
++ _symbolic _____ 5TeaUI25StringArrayViewControllerC
++ _symbolic _____ 5TeaUI28FallbackPluginViewController33_555B43D3A3BE92296C45DE65B67B87E4LLC
++ _symbolic _____ 5TeaUI28JSONSchemaPresetSelectorViewV
++ _symbolic _____ 5TeaUI28MenuToolbarItemConfigurationV
++ _symbolic _____ 5TeaUI31StatusBannerContainerControllerC
++ _symbolic _____ 5TeaUI7Tracker33_0E42B4192672425125B517F7BEB5FB31LLV
++ _symbolic _____ 7SwiftUI13DismissActionV
++ _symbolic _____ So20IOSurfacePropertyKeya
++ _symbolic _____Sg 5TeaUI14JSONSchemaViewV17SaveConfigurationO
++ _symbolic _____SgXw 5TeaUI25StringArrayViewControllerC
++ _symbolic _____SgXw 5TeaUI31StatusBannerContainerControllerC
++ _symbolic _____SgXwz_Xx 5TeaUI25StringArrayViewControllerC
++ _symbolic ______So16UIViewControllerCXc 5TeaUI31StatusBannerVisibilityProvidingP
++ _symbolic ______So16UIViewControllerCXcSgXw 5TeaUI9PluggableP
++ _symbolic ______pSgXw 5TeaUI31PluggableViewControllerDelegateP
++ _symbolic _____ySo16UIViewControllerCSSG 13TeaFoundation12AddressCacheV
++ _symbolic _____y_SSG 5TeaUI10JSONSchemaV12LabeledValueV
++ _symbolic _____y_SSGSg 5TeaUI10JSONSchemaV14SuppliedValuesO
++ _symbolic _____y_SdG 5TeaUI10JSONSchemaV12LabeledValueV
++ _symbolic _____y_SdGSg 5TeaUI10JSONSchemaV14SuppliedValuesO
++ _symbolic _____y_SiG 5TeaUI10JSONSchemaV12LabeledValueV
++ _symbolic _____y_SiGSg 5TeaUI10JSONSchemaV14SuppliedValuesO
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA13DismissActionV
++ _symbolic _____y__________ySay_____y_xGGx_____y_____y_____GGGG 7SwiftUI4ListV s5NeverO AA7ForEachV 03TeaB010JSONSchemaV12LabeledValueV AA6ButtonV AH010VerticallyI7ContentV AA4TextV
++ _symbolic _____y_____y_____y_____SS_____ySay_____y_SSGGSS_____yA2DGGG_____yAAy_____y_____y_____yADG_____ySbGG______yAAyANy______AOy__________y_____SgGGtGG_____ySSGGSgA0_SgtGGGGG 7SwiftUI6HStackV AA19_ConditionalContentV AA6PickerV AA4TextV AA7ForEachV 03TeaB010JSONSchemaV12LabeledValueV AA0lE0V AL010VerticallylE0V AA9TupleViewV AA08ModifiedE0V AA0G5FieldV AA32_EnvironmentKeyTransformModifierV AA14NavigationLinkV AA6SpacerV AA5ImageV AA01_st7WritingV0V AA5ColorV AL0k14PresetSelectorP0V
++ _symbolic _____y_____y_____y_____Sd_____ySay_____y_SdGGSd_____yA2DGGG_____yAAy_____y_____y_____y_____yADG_____ySbGG_Qo_______yAAyANy______AOy__________y_____SgGGtGG_____ySdGGSgA1_SgtGGGGG 7SwiftUI6HStackV AA19_ConditionalContentV AA6PickerV AA4TextV AA7ForEachV 03TeaB010JSONSchemaV12LabeledValueV AA0lE0V AL010VerticallylE0V AA9TupleViewV AA0P0PAAE12keyboardTypeyQrSo010UIKeyboardR0VFQO AA08ModifiedE0V AA0G5FieldV AA32_EnvironmentKeyTransformModifierV AA14NavigationLinkV AA6SpacerV AA5ImageV AA01_vw7WritingY0V AA5ColorV AL0k14PresetSelectorP0V
++ _symbolic _____y_____y_____y_____Si_____ySay_____y_SiGGSi_____yA2DGGG_____yAAy_____y_____y_____y_____yADG_____ySbGG_Qo_______yAAyANy______AOy__________y_____SgGGtGG_____ySiGGSgA1_SgtGGGGG 7SwiftUI6HStackV AA19_ConditionalContentV AA6PickerV AA4TextV AA7ForEachV 03TeaB010JSONSchemaV12LabeledValueV AA0lE0V AL010VerticallylE0V AA9TupleViewV AA0P0PAAE12keyboardTypeyQrSo010UIKeyboardR0VFQO AA08ModifiedE0V AA0G5FieldV AA32_EnvironmentKeyTransformModifierV AA14NavigationLinkV AA6SpacerV AA5ImageV AA01_vw7WritingY0V AA5ColorV AL0k14PresetSelectorP0V
++ _symbolic _____y_____y_____y_____y_____yACyACy_____ADGACyAD_____ySaySi6offset______7elementtGSiADGGGACyACyAFySaySiAG_SSAItGSiADSgGADG_____GG______y__________y_____GAVGtGG_Qo_______y__________yACy_____yAX_____GA7_GGGQo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AcAE10searchable4text9placement6promptQrAIySSG_AA20SearchFieldPlacementVAA4TextVSgtFQO AA4FormV AA05TupleC0V AA19_ConditionalContentV 03TeaB08JSONViewV03RowC0V AA7ForEachV 0W10Foundation4JSONO s5NeverO AA7SectionV AA05EmptyC0V AA6ButtonV AT AA15NavigationStackV AA14NavigationPathV AA06ScrollC0V AA08ModifiedV0V AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y_____y__________y_____Sg______y__________yACy_____yAGG______yAHyACy___________y__________y_____SgGGtGG_____ySSGGSgtGG_____GSg_____yA3_yA3_y__________GA3_y__________GGA3_y__________GG_____tGG______y__________yA3_y_____yAMyAG_____G______y______y_____y_____y_____ySSGA2B_____GG_A24_y_____yAGGGtGSgQo_Qo_A22_GGGQo__A20_yA22_GQo__A3_yA18_yA19______GA45_GSgQo__ACyA32_Sg_A49_A49_tGQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAaBRd__lFQO AcAE5sheet11isPresented9onDismissAEQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AcAEAfghEQrAK_ALqd__yctAaBRd__lFQO AcAEAfghEQrAK_ALqd__yctAaBRd__lFQO AA4ListV s5NeverO AA05TupleC0V 03TeaB0010JSMetadataC0V AA7SectionV AA4TextV AA6HStackV AA0R5FieldV AA14NavigationLinkV AA6SpacerV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AS024JSONSchemaPresetSelectorC0V AA05EmptyC0V AA012_ConditionalY0V AS012JSArrayValueC0V AS029JSONSchemaBoolValueRowControlC0V AS032JSONSchemaIntegerValueRowControlC0V AS031JSONSchemaNumberValueRowControlC0V AS031JSONSchemaStringValueRowControlC0V AS013JSObjectValueC0V AS010JSONSchemaC0V015ShowJSONButtonsC0V AA0U5StackV AA0U4PathV AA06ScrollC0V AcAEAdEQrqd__yXE_tAA07ToolbarY0Rd__lFQO AA14_PaddingLayoutV AA07ToolbarY7BuilderV10buildBlockyQrxAAA42_RzlFZQO AA0n7ToolbarY0V AA16ToolbarItemGroupV AA05ShareV0V s15CollectionOfOneV AA012DefaultShareV5LabelV AA6ButtonV A33_
++ _symbolic _____y_xG 5TeaUI10JSONSchemaV12LabeledValueV
++ _symbolic _____yxG 5TeaUI28JSONSchemaPresetSelectorViewV
++ _symbolic ySS______tc6action_Say_____y_SSGGSg10keyPresetst 5TeaUI15SchemaViewValueO AA10JSONSchemaV07LabeledE0V
++ _symbolic ySaySSGc
++ _symbolic y______So11UITableViewCtc 10Foundation12NotificationV
++ _symbolic y_____y_xGc 5TeaUI10JSONSchemaV12LabeledValueV
+- -[UINavigationBar(Bridge) syncOpacityForBarButtonItems:]
+- _OBJC_CLASS_$__TtC5TeaUI27LegacySectionViewController
+- _OBJC_METACLASS_$__TtC5TeaUI27LegacySectionViewController
+- __DATA__TtC5TeaUI27LegacySectionViewController
+- __IVARS__TtC5TeaUI27LegacySectionViewController
+- __METACLASS_DATA__TtC5TeaUI27LegacySectionViewController
+- __OBJC_$_INSTANCE_METHODS__TtC5TeaUI27LegacySectionViewController
+- __PROTOCOLS__TtC5TeaUI17SidebarButtonView.7
+- __PROTOCOLS__TtC5TeaUI32ViewControllerCollectionViewCell.7
+- ___56-[UINavigationBar(Bridge) syncOpacityForBarButtonItems:]_block_invoke
+- ___swift_memcpy185_8
+- ___unnamed_9
+- _block_copy_helper.111
+- _block_copy_helper.114
+- _block_copy_helper.117
+- _block_copy_helper.124
+- _block_copy_helper.130
+- _block_copy_helper.136
+- _block_copy_helper.157
+- _block_copy_helper.176
+- _block_copy_helper.183
+- _block_copy_helper.38
+- _block_copy_helper.54
+- _block_copy_helper.66
+- _block_copy_helper.98
+- _block_descriptor.100
+- _block_descriptor.113
+- _block_descriptor.116
+- _block_descriptor.119
+- _block_descriptor.126
+- _block_descriptor.132
+- _block_descriptor.138
+- _block_descriptor.159
+- _block_descriptor.178
+- _block_descriptor.185
+- _block_descriptor.40
+- _block_descriptor.56
+- _block_descriptor.68
+- _block_destroy_helper.112
+- _block_destroy_helper.115
+- _block_destroy_helper.118
+- _block_destroy_helper.125
+- _block_destroy_helper.131
+- _block_destroy_helper.137
+- _block_destroy_helper.158
+- _block_destroy_helper.177
+- _block_destroy_helper.184
+- _block_destroy_helper.39
+- _block_destroy_helper.55
+- _block_destroy_helper.67
+- _block_destroy_helper.99
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyACy03TeaB027JSONSchemaArrayValueRowViewVAD0f4Boolhi7ControlJ0VGACyAD0f7IntegerhilJ0VAD0f6NumberhilJ0VGGACyAD0f6StringhilJ0VAD0f6ObjecthilJ0VGGAA0J0HPAoaVHPAiaVHPAfaVHPyHC_AhaVHPyHCHC_AnaVHPAkaVHPyHC_AmaVHPyHCHCHC_AtaVHPAqaVHPyHC_AsaVHPyHCHCHC.70
+- _get_witness_table 7SwiftUI6HStackVyAA19_ConditionalContentVyAA6PickerVyAA4TextVSSAA7ForEachVySaySSGSSAIGG03TeaB0017VerticallyLabeledE0VyACyAA9TupleViewVyAA08ModifiedE0VyAA0G5FieldVyAIGAA32_EnvironmentKeyTransformModifierVySbGG_AUyAA5ImageVAA01_qr7WritingT0VyAA5ColorVSgGGSgtGGGGGAA0N0HPyHC.64
+- _get_witness_table 7SwiftUI6HStackVyAA19_ConditionalContentVyAA6PickerVyAA4TextVSdAA7ForEachVySaySdGSdAIGG03TeaB0017VerticallyLabeledE0VyACyAA9TupleViewVyAA0N0PAAE12keyboardTypeyQrSo010UIKeyboardP0VFQOyAA08ModifiedE0VyAA0G5FieldVyAIGAA32_EnvironmentKeyTransformModifierVySbGG_Qo__AZyAA5ImageVAA01_tu7WritingW0VyAA5ColorVSgGGSgtGGGGGAaTHPyHC.65
+- _get_witness_table 7SwiftUI6HStackVyAA19_ConditionalContentVyAA6PickerVyAA4TextVSiAA7ForEachVySaySiGSiAIGG03TeaB0017VerticallyLabeledE0VyACyAA9TupleViewVyAA0N0PAAE12keyboardTypeyQrSo010UIKeyboardP0VFQOyAA08ModifiedE0VyAA0G5FieldVyAIGAA32_EnvironmentKeyTransformModifierVySbGG_Qo__AZyAA5ImageVAA01_tu7WritingW0VyAA5ColorVSgGGSgtGGGGGAaTHPyHC.66
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA14NavigationLinkVyAA4TextV03TeaB0010JSONSchemaE0VG_AA15ModifiedContentVyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGSgtGGAA0E0HPyHC.71
+- _get_witness_table 7SwiftUI6ToggleVyAA4TextVGAA4ViewHPyHC.67
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA4TextV_AA19_ConditionalContentVyAIyAIyA2GGAIyAgIyAIyAA14NavigationLinkVyAG03TeaB08JSONViewVGAGGAGGGGAIyAIyApLyAIyAjGGAIyA2OGGGAIyAGs5NeverOGGGtGGAA0E0HPyHC.12
+- _get_witness_table 7SwiftUI9TupleViewVyAA7SectionVyAA05EmptyD0VAA6ButtonVyAA4TextVGAGG_AMtGAA0D0HPyHC.38
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE7toolbar7contentQrqd__yXE_tAaBRd__lFQOyAcAE5sheet11isPresented9onDismissAEQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAcAEAfghEQrAK_ALqd__yctAaBRd__lFQOyAcAEAfghEQrAK_ALqd__yctAaBRd__lFQOyAA4ListVys5NeverOAA05TupleC0Vy03TeaB0010JSMetadataC0VSg_AA7SectionVyAA4TextVAA0R5FieldVyAZGAA05EmptyC0VGSgAA19_ConditionalContentVyA7_yA7_yAS012JSArrayValueC0VAS014JSONSchemaBoolx10RowControlC0VGA7_yAS0y7Integerx10RowControlC0VAS0y6Numberx10RowControlC0VGGA7_yAS0y6Stringx10RowControlC0VAS08JSObjectxC0VGGAS0yC0V015ShowJSONButtonsC0VtGG_AA15NavigationStackVyAA14NavigationPathVAA06ScrollC0VyA7_yAcAEAdEQrqd__yXE_tAA07ToolbarV0Rd__lFQOyAA08ModifiedV0VyAzA14_PaddingLayoutVG_AA07ToolbarV7BuilderV10buildBlockyQrxAAA37_RzlFZQOy_AA0n7ToolbarV0VyAA16ToolbarItemGroupVyAA9ShareLinkVys15CollectionOfOneVySSGA2pA21DefaultShareLinkLabelVGG_A49_yAA6ButtonVyAZGGtGSgQo_Qo_A42_GGGQo__A36_yA42_GQo__A7_yA32_yA34_A26_GA73_GSgQo__ARyA61_Sg_A77_A77_tGQo_HO.12
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVAA4TextVSgtFQOyAA4FormVyAA19_ConditionalContentVyASyASy03TeaB08JSONViewV03RowC0VAXGASyAxA7ForEachVySaySi6offset_0P10Foundation4JSONO7elementtGSiAXGGGASyASyA_ySaySiA0__SSA4_tGSiAXSgGAXGs5NeverOGGG_Qo_HO.3
+- _objc_msgSend$isTall
+- _objectdestroy.10Tm
+- _objectdestroy.48Tm
+- _objectdestroy.59Tm
+- _symbolic $s5TeaUI35LegacySectionViewControllerDelegateP
+- _symbolic $s5TeaUI37LegacySectionViewControllerDataSourceP
+- _symbolic SaySSGSg
+- _symbolic SaySiGSg
+- _symbolic Si5index_So16UIViewControllerC04viewC0t
+- _symbolic _____ 5TeaUI10JSONSchemaV10SchemaTypeO06NumberD0V6ErrorsO
+- _symbolic _____ 5TeaUI10JSONSchemaV10SchemaTypeO07IntegerD0V6ErrorsO
+- _symbolic _____ 5TeaUI14JSONSchemaViewV10SaveActionO
+- _symbolic _____ 5TeaUI27LegacySectionViewControllerC
+- _symbolic _____ 5TeaUI27LegacySectionViewControllerC0D033_CCBE146F1343B4029E84413A5E03FD8BLLO
+- _symbolic _____Sg 5TeaUI14JSONSchemaViewV10SaveActionO
+- _symbolic _____Sg 5TeaUI27LegacySectionViewControllerC0D033_CCBE146F1343B4029E84413A5E03FD8BLLO
+- _symbolic _____SgXw 5TeaUI27LegacySectionViewControllerC
+- _symbolic _____SgXwz_Xx 5TeaUI27LegacySectionViewControllerC
+- _symbolic ______pSgXw 5TeaUI35LegacySectionViewControllerDelegateP
+- _symbolic ______pSgXw 5TeaUI37LegacySectionViewControllerDataSourceP
+- _symbolic _____y_____y_____yAByABy_____ACGAByAC_____ySaySi6offset______7elementtGSiACGGGAByAByAEySaySiAF_SSAHtGSiACSgGACG_____GGG_Qo_ 7SwiftUI4ViewPAAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVAA4TextVSgtFQO AA4FormV AA19_ConditionalContentV 03TeaB08JSONViewV03RowC0V AA7ForEachV 0P10Foundation4JSONO s5NeverO
+- _symbolic _____y_____y_____y_____SS_____ySaySSGSSADGG_____yAAy_____y_____y_____yADG_____ySbGG_AKy__________y_____SgGGSgtGGGGG 7SwiftUI6HStackV AA19_ConditionalContentV AA6PickerV AA4TextV AA7ForEachV 03TeaB0017VerticallyLabeledE0V AA9TupleViewV AA08ModifiedE0V AA0G5FieldV AA32_EnvironmentKeyTransformModifierV AA5ImageV AA01_qr7WritingT0V AA5ColorV
+- _symbolic _____y_____y_____y_____Sd_____ySaySdGSdADGG_____yAAy_____y_____y_____y_____yADG_____ySbGG_Qo__AKy__________y_____SgGGSgtGGGGG 7SwiftUI6HStackV AA19_ConditionalContentV AA6PickerV AA4TextV AA7ForEachV 03TeaB0017VerticallyLabeledE0V AA9TupleViewV AA0N0PAAE12keyboardTypeyQrSo010UIKeyboardP0VFQO AA08ModifiedE0V AA0G5FieldV AA32_EnvironmentKeyTransformModifierV AA5ImageV AA01_tu7WritingW0V AA5ColorV
+- _symbolic _____y_____y_____y_____Si_____ySaySiGSiADGG_____yAAy_____y_____y_____y_____yADG_____ySbGG_Qo__AKy__________y_____SgGGSgtGGGGG 7SwiftUI6HStackV AA19_ConditionalContentV AA6PickerV AA4TextV AA7ForEachV 03TeaB0017VerticallyLabeledE0V AA9TupleViewV AA0N0PAAE12keyboardTypeyQrSo010UIKeyboardP0VFQO AA08ModifiedE0V AA0G5FieldV AA32_EnvironmentKeyTransformModifierV AA5ImageV AA01_tu7WritingW0V AA5ColorV
+- _symbolic _____y_____y_____y_____y_____y__________y_____Sg______y__________yAGG_____GSg_____yAMyAMy__________GAMy__________GGAMy__________GG_____tGG______y__________yAMy_____y_____yAG_____G______y______y_____y_____y_____ySSGA2B_____GG_A7_y_____yAGGGtGSgQo_Qo_A5_GGGQo__A2_yA5_GQo__AMyA0_yA1______GA28_GSgQo__ACyA15_Sg_A32_A32_tGQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAaBRd__lFQO AcAE5sheet11isPresented9onDismissAEQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AcAEAfghEQrAK_ALqd__yctAaBRd__lFQO AcAEAfghEQrAK_ALqd__yctAaBRd__lFQO AA4ListV s5NeverO AA05TupleC0V 03TeaB0010JSMetadataC0V AA7SectionV AA4TextV AA0R5FieldV AA05EmptyC0V AA19_ConditionalContentV AS012JSArrayValueC0V AS014JSONSchemaBoolx10RowControlC0V AS0y7Integerx10RowControlC0V AS0y6Numberx10RowControlC0V AS0y6Stringx10RowControlC0V AS08JSObjectxC0V AS0yC0V015ShowJSONButtonsC0V AA15NavigationStackV AA14NavigationPathV AA06ScrollC0V AcAEAdEQrqd__yXE_tAA07ToolbarV0Rd__lFQO AA08ModifiedV0V AA14_PaddingLayoutV AA07ToolbarV7BuilderV10buildBlockyQrxAAA26_RzlFZQO AA0n7ToolbarV0V AA16ToolbarItemGroupV AA9ShareLinkV s15CollectionOfOneV AA21DefaultShareLinkLabelV AA6ButtonV A17_
+- _symbolic ySS______tc 5TeaUI15SchemaViewValueO
+CStrings:
++ " is invalid for this type "
++ "\""
++ ", failed with error: "
++ "6"
++ "FAILED TO DECODE"
++ "Failed to decode JSON from data %{public}@"
++ "Failed to decode JSON from data with default value %{public}@"
++ "Failed to decode JSONSchema from JSON with schema %{public}@"
++ "Failed to save JSON with error "
++ "Found duplicate values within labeled values "
++ "Initializing JSONSchema with URL %{public}@"
++ "JSONSchema initializing with data %{public}@. Decoded: %{public}@"
++ "Moving item from %{public}@ to %{public}@"
++ "Plugin(%p, id=%@, sticky=%d)"
++ "Removing item from %{public}@"
++ "Successfully zipped item to %{public}@"
++ "Swipe to delete items"
++ "Td,N,V_translationOffset"
++ "Td,N,VverticalOffset"
++ "TeaUI.StatusBannerContainerController"
++ "TeaUI.StringArrayViewController"
++ "TeaUI/StatusBannerContainerController.swift"
++ "TeaUI/StringArrayViewController.swift"
++ "This JSON value "
++ "You must provide a view controller that can be card split view panable if using this status banner container in a card stack"
++ "_TtC5TeaUI22JSONSchemaValueEmitter"
++ "_TtC5TeaUI25StringArrayViewController"
++ "_TtC5TeaUI31StatusBannerContainerController"
++ "_TtC5TeaUIP33_555B43D3A3BE92296C45DE65B67B87E428FallbackPluginViewController"
++ "_translationOffset"
++ "_visibleDecorationViewOfKind:atIndexPath:"
++ "_visibleSupplementaryViewOfKind:atIndexPath:"
++ "akeyboardWillChangeFrame"
++ "copyItemAtPath:toPath:error:"
++ "doAdd"
++ "fetchImage(for:expires:)"
++ "handleStatusBannerTap"
++ "initWithCIImage:"
++ "initWithIOSurface:"
++ "initWithProperties:"
++ "invalidateDecorationElementsOfKind:atIndexPaths:"
++ "isBeingUsedAsPlugin"
++ "isSticky"
++ "lockWithOptions:seed:"
++ "modal-host-vc-close-"
++ "onDone"
++ "onKeyboardWillChange"
++ "pluggableDelegate"
++ "preservedSearchText"
++ "searchController"
++ "setTranslationOffset:"
++ "setVerticalOffset:"
++ "shadowViewController"
++ "statusBannerViewController"
++ "suppliedValues"
++ "syncBarButtonItems:"
++ "translationOffset"
++ "unlockWithOptions:seed:"
++ "verticalOffset"
++ "visibleSupplementaryViewsOfKind:"
++ "x-key-presets"
++ "x-presets"
+- "&"
+- "Expected enumeration to be unique values, instead found "
+- "TB,N,VhasStateDiscarded"
+- "TeaUI.LegacySectionViewController"
+- "TeaUI/LegacySectionViewController.swift"
+- "This JSON value is invalid for this type"
+- "_TtC5TeaUI27LegacySectionViewController"
+- "autoHideSectionSelector"
+- "enumerationValues"
+- "hasStateDiscarded"
+- "isSectionSelectorHidden"
+- "isTall"
+- "markStateDiscarded"
+- "moveItemAtPath:toPath:error:"
+- "sectionSelectorView"
+- "setHasStateDiscarded:"
+- "syncOpacityForBarButtonItems:"
+
+```

@@ -1,0 +1,19405 @@
+## AEBookPlugins
+
+> `/private/var/staged_system_apps/Books.app/Frameworks/AEBookPlugins.framework/AEBookPlugins`
+
+```diff
+
+-5983.0.0.0.0
+-  __TEXT.__text: 0x19ba20
+-  __TEXT.__auth_stubs: 0x2650
+-  __TEXT.__objc_stubs: 0x2f300
+-  __TEXT.__objc_methlist: 0x17d70
+-  __TEXT.__cstring: 0xbdf1
+-  __TEXT.__objc_methname: 0x3e29b
+-  __TEXT.__objc_classname: 0x2ef7
+-  __TEXT.__objc_methtype: 0xae69
+-  __TEXT.__const: 0x1908
+-  __TEXT.__gcc_except_tab: 0x4198
+-  __TEXT.__oslogstring: 0x8230
++6023.0.0.0.0
++  __TEXT.__text: 0x17baec
++  __TEXT.__auth_stubs: 0x24c0
++  __TEXT.__objc_stubs: 0x2f320
++  __TEXT.__objc_methlist: 0x17df8
++  __TEXT.__cstring: 0xb041
++  __TEXT.__objc_methname: 0x3e3df
++  __TEXT.__objc_classname: 0x2ee0
++  __TEXT.__objc_methtype: 0xadb4
++  __TEXT.__const: 0x14e8
++  __TEXT.__gcc_except_tab: 0x40f4
++  __TEXT.__oslogstring: 0x8496
+   __TEXT.__ustring: 0xdc
+-  __TEXT.__swift5_typeref: 0x77e
+-  __TEXT.__swift5_capture: 0x1e0
+-  __TEXT.__swift5_fieldmd: 0x614
+-  __TEXT.__constg_swiftt: 0xaf4
+-  __TEXT.__swift5_reflstr: 0x64a
+-  __TEXT.__swift5_builtin: 0xf0
+-  __TEXT.__swift5_assocty: 0x120
+-  __TEXT.__swift5_proto: 0x5c
+-  __TEXT.__swift5_types: 0x5c
+-  __TEXT.__unwind_info: 0x65e0
+-  __TEXT.__eh_frame: 0x4c8
+-  __DATA_CONST.__auth_got: 0x1340
+-  __DATA_CONST.__got: 0xc70
++  __TEXT.__swift5_typeref: 0x73e
++  __TEXT.__swift5_capture: 0x220
++  __TEXT.__swift5_fieldmd: 0x5c0
++  __TEXT.__constg_swiftt: 0xa20
++  __TEXT.__swift5_reflstr: 0x5fa
++  __TEXT.__swift5_builtin: 0x8c
++  __TEXT.__swift5_types: 0x44
++  __TEXT.__swift5_assocty: 0x78
++  __TEXT.__swift5_proto: 0x3c
++  __TEXT.__unwind_info: 0x6474
++  __TEXT.__eh_frame: 0x370
++  __DATA_CONST.__auth_got: 0x1278
++  __DATA_CONST.__got: 0xc38
+   __DATA_CONST.__auth_ptr: 0x40
+-  __DATA_CONST.__const: 0x5558
+-  __DATA_CONST.__cfstring: 0xac20
++  __DATA_CONST.__const: 0x5488
++  __DATA_CONST.__cfstring: 0xa3c0
+   __DATA_CONST.__objc_classlist: 0x8c8
+   __DATA_CONST.__objc_catlist: 0xc0
+-  __DATA_CONST.__objc_protolist: 0x590
++  __DATA_CONST.__objc_protolist: 0x588
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_intobj: 0x210
+   __DATA_CONST.__objc_arraydata: 0xf8
+   __DATA_CONST.__objc_dictobj: 0x78
+   __DATA_CONST.__objc_arrayobj: 0x168
+   __DATA_CONST.__objc_doubleobj: 0x60
+-  __DATA.__objc_const: 0x44438
+-  __DATA.__objc_selrefs: 0xe608
++  __DATA.__objc_const: 0x2b558
++  __DATA.__objc_selrefs: 0xe638
+   __DATA.__objc_protorefs: 0xd0
+-  __DATA.__objc_classrefs: 0x1048
+-  __DATA.__objc_superrefs: 0x5d0
+-  __DATA.__objc_ivar: 0x17a4
++  __DATA.__objc_classrefs: 0x1058
++  __DATA.__objc_superrefs: 0x5c8
++  __DATA.__objc_ivar: 0x1790
+   __DATA.__objc_data: 0x6988
+-  __DATA.__data: 0x4740
+-  __DATA.__bss: 0xf50
++  __DATA.__data: 0x45c0
++  __DATA.__bss: 0xb40
+   __DATA.__common: 0x38
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /System/Library/Frameworks/CoreText.framework/CoreText
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+-  - /System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore
+   - /System/Library/Frameworks/LinkPresentation.framework/LinkPresentation
+   - /System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+-  - /System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+   - /System/Library/Frameworks/MessageUI.framework/MessageUI
+   - /System/Library/Frameworks/PDFKit.framework/PDFKit
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+   - /System/Library/Frameworks/WebKit.framework/WebKit
+-  - /System/Library/PrivateFrameworks/AnnotationKit.framework/AnnotationKit
++  - /System/Library/PrivateFrameworks/AXRuntime.framework/AXRuntime
+   - /System/Library/PrivateFrameworks/AppAnalytics.framework/AppAnalytics
+-  - /System/Library/PrivateFrameworks/AppleAccount.framework/AppleAccount
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/AppleMediaServicesUI
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpriteKit.dylib
+-  - /usr/lib/swift/libswiftSwiftOnoneSupport.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftVision.dylib
+   - /usr/lib/swift/libswiftWebKit.dylib
+
+   - @rpath/BookCore.framework/BookCore
+   - @rpath/BookEPUB.framework/BookEPUB
+   - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: DFD6B268-1841-3603-8DFB-66394DEA4EFE
+-  Functions: 9975
+-  Symbols:   22179
+-  CStrings:  15534
++  UUID: 45FD67F4-D3C6-3878-B040-C4D8863269EE
++  Functions: 9734
++  Symbols:   2447
++  CStrings:  15350
+ 
+Symbols:
++ _BERestorationAssetAppearanceKey
++ _BERestorationAssetIDKey
++ _BKDisableAutoFontDownload
++ _BKFontCachePresetShouldAutoDownload
++ _BKTOCCVCLog
++ _BookEPUBBundle
++ _NSStringFromUIEdgeInsets
++ _OBJC_CLASS_$_BEImageFilter
++ _OBJC_CLASS_$_UIContextMenuConfiguration
++ _OBJC_CLASS_$_UIToolbar
++ __swiftEmptyArrayStorage
++ __swift_stdlib_reportUnimplementedInitializer
++ _kCTFontAllowCellularDownloadAttribute
++ _malloc_size
++ _memmove
++ _swift_arrayInitWithCopy
++ _swift_bridgeObjectRelease_n
++ _swift_deletedMethodError
++ _swift_dynamicCastObjCProtocolConditional
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_retain_n
++ _swift_unknownObjectRelease_n
++ _swift_unknownObjectRetain_n
++ radr://5614542
+- +[AEAccountIdentifiers accountIdentifiersFromPurchasedDSID:downloadedDSID:familyID:]
+- +[AEAnnotation(BKBookmark) annotationsPredicate:]
+- +[AEAnnotation(BKBookmark) highlightsPredicate:]
+- +[AEAnnotation(BKBookmark) pageBookmarksPredicate:]
+- +[AEAnnotation(BKBookmark) predicateForAnnotationsWithAssetID:ordinal:]
+- +[AEAudiobookBookmarkTimeSnapshot supportsSecureCoding]
+- +[AEAudiobookPlatformConfiguration configureForPlatform]
+- +[AEAudiobookPlaybackRateViewControllerAccessibility(SafeCategory) imaxBaseSafeCategoryClass]
+- +[AEAudiobookPlaybackRateViewControllerAccessibility(SafeCategory) imaxTargetClassName]
+- +[AEAudiobookPlugin associatedAssetType]
+- +[AEAudiobookPlugin urlScheme]
+- +[AEAudiobookReadingTimeTracker startTracking]
+- +[AEAudiobookReadingTimeTracker testInstanceWithPlayer:bcTracker:]
+- +[AEBookInfo _nonUpdatedAnnotationsForDocumentOrdinal:assetID:moc:]
+- +[AEBookInfo bookFormatByExtension:]
+- +[AEBookInfo bookFormatByFilePath:]
+- +[AEBookInfo bookFromDatabaseKey:withMOC:]
+- +[AEBookInfo bookObjectIDsWithPredicate:inMoc:]
+- +[AEBookInfo booksWithPredicate:inMoc:]
+- +[AEBookInfo booksWithPredicate:sortBy:ascending:fetchLimit:inMoc:]
+- +[AEBookInfo booksWithPredicate:sortDescriptors:inMoc:]
+- +[AEBookInfo databaseKeyFromStoreId:andUniqueId:]
+- +[AEBookInfo defaultAnnotationCreatorIdentifier]
+- +[AEBookInfo excludeDeletedBooksPredicate]
+- +[AEBookInfo isUndesirableImageData:]
+- +[AEBookInfo linearDocumentPredicateForDatabaseKey:]
+- +[AEBookInfo newBlankBook:]
+- +[AEBookInfoSnapshot aeBookInfoSnapshotFromBookInfo:ordinal:]
+- +[AEBookProtocolCacheItemProvider sharedInstance]
+- +[AEBottomToolbarAccessibility(SafeCategory) imaxBaseSafeCategoryClass]
+- +[AEBottomToolbarAccessibility(SafeCategory) imaxTargetClassName]
+- +[AEEPubPictureBookPlugin associatedAssetType]
+- +[AEEpubInfoSource sharedInstance]
+- +[AEEpubPlugin associatedAssetType]
+- +[AEHTMLBookRenderingCache purgeCacheForIdentifier:]
+- +[AEMinimalTemplate evaluateTemplateWithString:data:error:]
+- +[AEMinimalTemplate evaluateTemplateWithURL:data:error:]
+- +[AEMinimalTemplate templateWithString:error:]
+- +[AEMinimalTemplate templateWithURL:error:]
+- +[AEMinimalTemplateSet templateSet]
+- +[AENoteFullscreenEditorControllerAccessibility(SafeCategory) imaxBaseSafeCategoryClass]
+- +[AENoteFullscreenEditorControllerAccessibility(SafeCategory) imaxTargetClassName]
+- +[AEPDFPlugin associatedAssetType]
+- +[AEPDFPlugin generateImageForDocument:pageIndex:size:]
+- +[AEPDFPlugin generateImageForDocument:pageIndex:size:showBookmark:]
+- +[AEPdfCache sharedInstance]
+- +[AEPdfRenderingCache purgeCacheForIdentifier:]
+- +[AEPictureBookRenderingCache operationClass]
+- +[AEPictureBookRenderingCacheOperation2 renderCacheWithOptions:]
+- +[AETestDriver getBookControllerLayout:]
+- +[AETestDriver getBookKeyWithBook:style:geometry:]
+- +[AETestDriver getBookKeyWithBookController:]
+- +[AETestDriver getContentViewChildren:]
+- +[AETestDriver getSnapshotsWithBookController:]
+- +[AETestDriver getViewSnapshot:parent:]
+- +[AETestDriver getWebViews:result:]
+- +[AETestDriver prewarm]
+- +[AETestDriver setBookController:layout:]
+- +[AETestDriver shared]
+- +[AXUIViewAccessibility(SafeCategory) imaxBaseSafeCategoryClass]
+- +[AXUIViewAccessibility(SafeCategory) imaxTargetClassName]
+- +[BEAppearanceViewController canChangeBrightness]
+- +[BEAppearanceViewControllerAccessibility(SafeCategory) imaxBaseSafeCategoryClass]
+- +[BEAppearanceViewControllerAccessibility(SafeCategory) imaxTargetClassName]
+- +[BECFIUtilitiesJSOptions(BKConfigurationSupport) cfiUtilitiesJSOptionsForBookInfoSnapshot:ordinal:]
+- +[BEContentCleanupJSOptions(BKConfigurationSupport) cleanupJSOptionsForBookInfoSnapshot:withConfiguration:]
+- +[BEPageSnapshotCache operationClass]
+- +[BEWebViewFactoryPaginationOptions(BKConfigurationSupport) paginationOptionsForBookInfoSnapshot:withConfiguration:contentLayoutSize:]
+- +[BKActionControllerAccessibility(SafeCategory) imaxBaseSafeCategoryClass]
+- +[BKActionControllerAccessibility(SafeCategory) imaxTargetClassName]
+- +[BKActivityCopyToIBooks activityCategory]
+- +[BKAnchorLocation deserializeLocationFromDictionary:]
+- +[BKAnchorLocation supportsSecureCoding]
+- +[BKAnchorPathLocation deserializeLocationFromDictionary:]
+- +[BKAppearanceViewController _fontSizeToSegmentIndex:]
+- +[BKAudioLocation deserializeLocationFromDictionary:]
+- +[BKAudiobookPersistenceController(AssetsEngine) registerAEPersistencePlugins]
+- +[BKBookContainerView _textRangeViewClass]
+- +[BKBookParser canParse:]
+- +[BKBookParser parserForBook:]
+- +[BKBookViewController areCitationsAllowedForBook:]
+- +[BKBookViewController initialize]
+- +[BKBookViewController propertySourceFromBook:]
+- +[BKBookViewController useEnhancedEditMenu]
+- +[BKBookViewController valueOfAnnotationProperty:activityType:book:]
+- +[BKChapterPageCount newEmptyChapterPageNumber:]
+- +[BKDocument documentKeyWithHref:documentOrdinal:]
+- +[BKDocument newEmptyDocument:]
+- +[BKDocumentPageCount newEmptyDocumentPageCount:]
+- +[BKEPubContentViewController initialize]
+- +[BKEpubBookParser _computeFixedLayoutDimensionsFrom:forBook:]
+- +[BKEpubBookParser bookCachedDataPathForBookWithKey:]
+- +[BKEpubBookParser bookExtraInfoCacheDirectory]
+- +[BKEpubBookParser cachedDataForBookDatabaseKey:cacheKey:]
+- +[BKEpubBookParser canParse:]
+- +[BKEpubBookParser isValidMimeType:]
+- +[BKEpubBookParser recomputeFixedLayoutDimensionsForBook:]
+- +[BKEpubCFILocation deserializeLocationFromDictionary:]
+- +[BKEpubCFILocation locationForCFI:error:]
+- +[BKEpubCFILocation stringByEscapingString:]
+- +[BKEpubCFILocation supportsSecureCoding]
+- +[BKEpubCFILocation unknownLocation]
+- +[BKEpubLocation deserializeLocationFromDictionary:]
+- +[BKEpubLocation supportsSecureCoding]
+- +[BKEpubTOCParseJob jobName]
+- +[BKEpubTOCParseRecordJob jobName]
+- +[BKExpandedContentResource resourceForURL:]
+- +[BKExpandedContentViewController canPreviewResource:]
+- +[BKExpandedContentViewController classForResource:]
+- +[BKExpandedContentViewController expandedContentControllerForResource:]
+- +[BKExpandedContentViewControllerAccessibility(SafeCategory) imaxBaseSafeCategoryClass]
+- +[BKExpandedContentViewControllerAccessibility(SafeCategory) imaxTargetClassName]
+- +[BKExpandedImageContentViewController supportsResource:]
+- +[BKExpandedWebContentViewController2 supportsResource:]
+- +[BKExpandedWebContentViewControllerAccessibility(SafeCategory) imaxBaseSafeCategoryClass]
+- +[BKExpandedWebContentViewControllerAccessibility(SafeCategory) imaxTargetClassName]
+- +[BKFlowingBookFontSizeConfiguration fontSizeFactorForViewportSize:useOldFontStepsAndSpacing:]
+- +[BKFlowingBookLayoutConfiguration _fontSizeCache]
+- +[BKFlowingBookLayoutConfiguration spreadPagesAllowedWithViewportSize:fontSizeIndex:]
+- +[BKFlowingBookViewController initialize]
+- +[BKFlowingBookViewController themeForStyle:]
+- +[BKFlowingBookViewController themeMap]
+- +[BKFont _fontDescriptorLookupQueue]
+- +[BKFont _lookupLocalizedNameForAttrs:withCompletion:]
+- +[BKFontCache sharedInstance]
+- +[BKGradientView layerClass]
+- +[BKLocation deserializeLocationFromDictionary:]
+- +[BKLocation supportsSecureCoding]
+- +[BKMediaOverlayElement newMediaOverlayElement:withParserInfo:]
+- +[BKMediaOverlayElement parseSMIL:contentSubpath:bookBasePath:bookDatabaseKey:managedObjectContext:]
+- +[BKNavigationInfo isExcludedFromSampleHash:]
+- +[BKNavigationInfo newEmptyNavigationInfo:]
+- +[BKNumericOption optionWithKey:titleFormat:label:control:]
+- +[BKPDFLocation deserializeLocationFromDictionary:]
+- +[BKPDFLocation locationForSelection:offset:]
+- +[BKPDFLocation supportsSecureCoding]
+- +[BKPDFModernBookViewController _minScaleFactorForPageBounds:viewBounds:safeAreaInsets:pageBreakMargins:]
+- +[BKPDFModernBookViewController pageIndexForPageNumber:]
+- +[BKPDFModernBookViewController pageNumberForPageIndex:]
+- +[BKPDFModernBookViewController setupModernPDF]
+- +[BKPDFModernBookViewControllerAccessibility(SafeCategory) imaxBaseSafeCategoryClass]
+- +[BKPDFModernBookViewControllerAccessibility(SafeCategory) imaxTargetClassName]
+- +[BKPDFSnapshotMetadata snapshotHelperWithPDFDocument:currentPageIndex:]
+- +[BKPageLocation deserializeLocationFromDictionary:]
+- +[BKPageLocation supportsSecureCoding]
+- +[BKPaginationAbortJob jobName]
+- +[BKPaginationBatchEndJob jobName]
+- +[BKPaginationBatchJob jobName]
+- +[BKPaginationController newPaginationControllerForBook:delegate:]
+- +[BKPaginationLayoutJob jobName]
+- +[BKPaginationRecordJob jobName]
+- +[BKPdfBookParser pdfAnchorToPageNumber:]
+- +[BKPdfBookParser pdfHrefToPageNumber:]
+- +[BKPictureBookReadingStatisticsCollector readingStatisticsCollectorWithAssetViewController:]
+- +[BKPictureBookView actualSizeForContentSize:drawsSpine:]
+- +[BKPictureBookViewController initialize]
+- +[BKPictureBookViewGeometry geometryWithContentSize:configuration:drawsSpine:containerBounds:]
+- +[BKPictureBookViewGeometry geometryWithContentSize:configuration:drawsSpine:ignoresPadding:containerBounds:]
+- +[BKPictureBookViewGeometry imageSizeForSize:]
+- +[BKProtectionInfo newEmptyProtectionInfo:]
+- +[BKReadAloudEventHandler readAloudEventHandlerWithMediaClass:delegate:]
+- +[BKScrubberControlAccessibility(SafeCategory) imaxBaseSafeCategoryClass]
+- +[BKScrubberControlAccessibility(SafeCategory) imaxTargetClassName]
+- +[BKSearchResult mutableSearchResult]
+- +[BKStyleManager defaultFontSizeIndex]
+- +[BKStyleManager initialize]
+- +[BKStyleManager languageIsSimplifiedChinese:]
+- +[BKStyleManager shouldDisableFontFallbacksForLanguage:]
+- +[BKStyleManager styleManagerWithLanguage:]
+- +[BKStyleManager suffixForLanguage:]
+- +[BKTOCAnnotationTableCell dateFontForPopover]
+- +[BKTOCAnnotationTableCell dateFontSize]
+- +[BKTOCAnnotationTableCell dateLabelFrameForString:font:bounds:fixedYOffset:writingDirection:]
+- +[BKTOCAnnotationTableCell dateLabelFrameForString:font:bounds:minY:writingDirection:]
+- +[BKTOCAnnotationTableCell dateLabelSizeForString:font:bounds:]
+- +[BKTOCAnnotationTableCell pageLabelFrameForString:font:bounds:topMargin:writingDirection:]
+- +[BKTOCAnnotationTableCell pageLabelFrameForString:font:bounds:writingDirection:]
+- +[BKTOCAnnotationTableCell pageNumberFontForPopover]
+- +[BKTOCAnnotationTableCell pageNumberFontSize]
+- +[BKTOCAnnotationTableCell titleFontSize]
+- +[BKTOCAnnotationTableCellAccessibility(SafeCategory) imaxBaseSafeCategoryClass]
+- +[BKTOCAnnotationTableCellAccessibility(SafeCategory) imaxTargetClassName]
+- +[BKTOCPointAnnotationTableCell cellHeightForCellWidth:chapterString:dateString:pageString:writingDirection:]
+- +[BKTOCPointAnnotationTableCell chapterFontForPopover]
+- +[BKTOCPointAnnotationTableCell chapterTitleFrameForString:font:bounds:pageLabelFrame:writingDirection:]
+- +[BKTOCPointAnnotationTableCell chapterTitleFrameForString:font:letMargin:numberOfLines:bounds:pageLabelFrame:writingDirection:]
+- +[BKTOCPointAnnotationTableCell chapterTitleFrameInPopoverForString:font:bounds:pageLabelFrame:writingDirection:]
+- +[BKTOCPointAnnotationTableCell dateLabelFrameForString:font:bounds:writingDirection:]
+- +[BKTOCPointAnnotationTableCell dateLabelFrameForString:font:fixedYOffset:bounds:writingDirection:]
+- +[BKTOCPointAnnotationTableCell dateLabelFrameInPopoverForString:font:bounds:minY:pageLabelFrame:writingDirection:]
+- +[BKTOCPointAnnotationTableCell pageLabelFrameForString:font:bounds:writingDirection:]
+- +[BKTOCPointAnnotationTableCell pageLabelFrameInPopoverForString:font:bounds:writingDirection:]
+- +[BKTOCPointAnnotationTableCell ribbonPageLabelPadding]
+- +[BKTOCPointAnnotationTableCell ribbonSize]
+- +[BKTOCPointAnnotationTableCell sizeForString:font:width:numberOfLines:]
+- +[BKTOCRangeAnnotationTableCell bottomPadding]
+- +[BKTOCRangeAnnotationTableCell cellHeightInPopoverForBounds:highlightFont:annotation:dateString:pageString:writingDirection:]
+- +[BKTOCRangeAnnotationTableCell dateLabelFrameForString:font:bounds:minY:writingDirection:]
+- +[BKTOCRangeAnnotationTableCell dateLabelFrameInPopoverForString:font:bounds:minY:pageLabelFrame:writingDirection:]
+- +[BKTOCRangeAnnotationTableCell highlightedTextFrameForAnnotation:font:bounds:letMargin:numberOfLines:pageLabelFrame:writingDirection:]
+- +[BKTOCRangeAnnotationTableCell highlightedTextFrameForAnnotation:font:bounds:pageLabelFrame:writingDirection:]
+- +[BKTOCRangeAnnotationTableCell highlightedTextFrameInPopoverForAnnotation:font:bounds:pageLabelFrame:writingDirection:]
+- +[BKTOCRangeAnnotationTableCell highlightedTextSizeInPopover]
+- +[BKTOCRangeAnnotationTableCell noteFontForPopover]
+- +[BKTOCRangeAnnotationTableCell noteTextFrameForString:font:bounds:highlightedTextFrame:pageLabelFrame:]
+- +[BKTOCRangeAnnotationTableCell noteTextFrameForString:font:bounds:spacingToItemAbove:numberOfLines:matchesWidthOfHighlightedText:highlightedTextFrame:pageLabelFrame:]
+- +[BKTOCRangeAnnotationTableCell noteTextFrameInPopoverForString:font:bounds:highlightedTextFrame:pageLabelFrame:]
+- +[BKTOCRangeAnnotationTableCell pageLabelFrameInPopoverForString:font:bounds:writingDirection:]
+- +[BKTOCRangeAnnotationTableCell pageNumberAndHighlightedTextFontSize]
+- +[BKTOCRangeAnnotationTableCellAccessibility(SafeCategory) imaxBaseSafeCategoryClass]
+- +[BKTOCRangeAnnotationTableCellAccessibility(SafeCategory) imaxTargetClassName]
+- +[BKTOCTableViewCell cellHeightForCellWidth:pageLabelWidth:text:indentationLevel:indentationWidth:font:usesPopoverStyle:]
+- +[BKTOCTableViewCell maxSpanForTextWithIndentation:font:width:]
+- +[BKTOCTableViewCell sizeForText:indentation:font:width:]
+- +[BKTOCTableViewCell titleSizeForText:indentation:font:width:]
+- +[BKTOCTableViewCell tocWebTemplate]
+- +[BKTOCTableViewCellAccessibility(SafeCategory) imaxBaseSafeCategoryClass]
+- +[BKTOCTableViewCellAccessibility(SafeCategory) imaxTargetClassName]
+- +[BKTOCWebViewCellContent cellContentWithHeight:cacheKey:]
+- +[BKTOCWebViewCellLoadRequest _generateCacheKey:maxSpan:baseURL:]
+- +[BKTOCWebViewCellLoadRequest loadRequestWithContents:template:fontFamily:fontSize:maxSpan:textColor:selectedColor:backgroundColor:baseURL:forObject:]
+- +[BKTOCWebViewCellLoadRequest loadRequestWithHTML:maxSpan:selectedColor:baseURL:forObject:]
+- +[BKTOCWebViewController2 classNameFromChapterInfo:excludedFromSample:]
+- +[BKTOCWebViewController2 hairlineImageURIWithColor:horizontal:]
+- +[BKTOCWebViewController2 pageNumberForChapter:directoryDelegate:]
+- +[BKTOCWebViewController2 pageNumberStringForChapter:directoryDelegate:]
+- +[BKTOCWebViewController2 tocHTMLWithFetchedResultsController:directoryDelegate:chapterTopLevelFont:chapterSubLevelFont:pageLabelFont:themeContentBackgroundColor:textColor:selectedTextColor:pageNumberTextColor:separatorColor:highlightedBackgroundColor:highlightedTextColor:contentInsets:completionBlock:]
+- +[BKTextHighlightView bkTextHighlightTypeForIMTextHighlightType:]
+- +[BKTextIndex _cachedIndexFileNameForName:]
+- +[BKTextIndex _cachedIndexFileNameForName:createIndicesDirectoryIfNeeded:]
+- +[BKTextIndex bookIndexWithName:]
+- +[BKTextIndex doesBookIndexWithNameExist:isLoaded:]
+- +[BKTextIndex invalidateBookIndicesWithNames:]
+- +[BKTextIndex supportsSecureCoding]
+- +[BKThumbnailBookViewController verticalScrollFeatureEnabled]
+- +[BKThumbnailBookViewControllerAccessibility(SafeCategory) imaxBaseSafeCategoryClass]
+- +[BKThumbnailBookViewControllerAccessibility(SafeCategory) imaxTargetClassName]
+- +[BKThumbnailDirectory defaultCellAspectRatio]
+- +[BKThumbnailDirectory defaultCellSize]
+- +[BKThumbnailScrubberCell emptyBackgroundColor]
+- +[BKWK2LoaderContentInfoRequest contentInfoRequestWithLocation:bookSnapshot:ordinal:configuration:stylesheetSet:completion:]
+- +[BKWK2LoaderContentInfoRequest contentInfoRequestWithPaginationOptions:cleanupOptions:cfiOptions:ordinal:stylesheetSet:fontSize:completion:]
+- +[CAMediaTimingFunction(PageCurl) functionWithControlPoints:]
+- +[ContentStyle fontNameFromSummaryString:]
+- +[ContentStyle supportsSecureCoding]
+- +[ContentViewStyleManager _templateCompatibleThemesForTraitCollection:]
+- +[ContentViewStyleManager getPictureBookUserStyleSheetWithLegacyBook:]
+- +[ContentViewStyleManager initialize]
+- +[ContentViewStyleManager registerTheme:]
+- +[ContentViewStyleManager registeredThemes]
+- +[ContentViewStyleManager templateSet]
+- +[ContentViewStyleManager(StylesheetGeneration) getInlineStyleSheetForConfiguration:bookInfo:contentLayoutSize:webkit2:]
+- +[NSObject(BKSwizzle) replaceClassSelector:withSelector:]
+- +[NSObject(BKSwizzle) replaceInstanceSelector:withSelector:]
+- +[NSString(FastHash) fastHashStringFromPath:]
+- +[NSString(MD5) md5StringWithContentsOfFile:]
+- +[NSString(PathRelativeToContentBase) pathRelativeToContentBase:forRelativePath:startingFromAbsoluteFolderPath:]
+- +[NonArcHelpers gesture:matchesTarget:andAction:]
+- +[PDFView(ZoomAdjustment) be_enableAutoscaleHacks]
+- +[UILabel(BKTOCLabel) bkSizeForString:constrainedToSize:font:lineBreakMode:]
+- +[UILabel(BKTOCLabel) bkSizeForString:font:]
+- +[UIViewController(PDFPageViewController_Private) be_PDFPageViewControllerClass]
+- +[UIViewController(PDFPageViewController_Private) be_enablePDFPageViewControllerHacks]
+- +[_CachedFallbackInfo cachedFallbackInfo]
+- -[AEAccountIdentifiers .cxx_destruct]
+- -[AEAccountIdentifiers downloadedDSID]
+- -[AEAccountIdentifiers familyID]
+- -[AEAccountIdentifiers initWithPurchasedDSID:downloadedDSID:familyID:]
+- -[AEAccountIdentifiers purchasedDSID]
+- -[AEAnnotation(BKBookmark) isLocationSame:]
+- -[AEAnnotation(BKBookmark) location]
+- -[AEAnnotation(BKBookmark) ordinal]
+- -[AEAnnotation(BKBookmark) setLocation:]
+- -[AEAnnotation(BKBookmark) setOrdinal:]
+- -[AEAnnotation(UIButton) ae_button]
+- -[AEAnnotation(UIButton) setAe_button:]
+- -[AEAssetMetadataCache coverWritingModeLanguageAndPageProgressionDirectionFromAssetID:]
+- -[AEAssetMetadataCache saveTitle:author:genre:language:pageProgressionDirection:forAssetID:]
+- -[AEAudiobookBookmarkTimeSnapshot .cxx_destruct]
+- -[AEAudiobookBookmarkTimeSnapshot bookmarkTimeTimestamp]
+- -[AEAudiobookBookmarkTimeSnapshot bookmarkTime]
+- -[AEAudiobookBookmarkTimeSnapshot encodeWithCoder:]
+- -[AEAudiobookBookmarkTimeSnapshot initWithBookmarkTime:bookmarkTimeTimestamp:]
+- -[AEAudiobookBookmarkTimeSnapshot initWithCoder:]
+- -[AEAudiobookBookmarkTimeSnapshot newestBookmarkTimeFromBookmarkTime:bookmarkTimeTimestamp:]
+- -[AEAudiobookBookmarkTimeSnapshot setBookmarkTime:]
+- -[AEAudiobookBookmarkTimeSnapshot setBookmarkTimeTimestamp:]
+- -[AEAudiobookPersistenceFile bookmarkTimeForAudiobook:completion:]
+- -[AEAudiobookPersistenceFile eventThreshold]
+- -[AEAudiobookPersistenceFile isLocal]
+- -[AEAudiobookPersistenceFile saveBookmarkTime:audiobook:completion:]
+- -[AEAudiobookPersistenceFile shortName]
+- -[AEAudiobookPlaybackRateViewControllerAccessibility accessibilityPerformEscape]
+- -[AEAudiobookPlugin .cxx_destruct]
+- -[AEAudiobookPlugin associatedAssetType]
+- -[AEAudiobookPlugin helperForURL:withOptions:]
+- -[AEAudiobookPlugin proofingHelperForMetadata:]
+- -[AEAudiobookPlugin setSharedAnnotationProvider:]
+- -[AEAudiobookPlugin sharedAnnotationProvider]
+- -[AEAudiobookPlugin supportedFileExtensions]
+- -[AEAudiobookPlugin supportedUrlSchemes]
+- -[AEAudiobookReadingTimeTracker .cxx_destruct]
+- -[AEAudiobookReadingTimeTracker _beginReadingSessionForEventType:]
+- -[AEAudiobookReadingTimeTracker _endReadingSessionForEventType:]
+- -[AEAudiobookReadingTimeTracker bcTracker]
+- -[AEAudiobookReadingTimeTracker initWithPlayer:]
+- -[AEAudiobookReadingTimeTracker pausedTime]
+- -[AEAudiobookReadingTimeTracker player:audiobookDidChange:]
+- -[AEAudiobookReadingTimeTracker player:audiobookWillChange:]
+- -[AEAudiobookReadingTimeTracker player:stateDidChangeFrom:to:]
+- -[AEAudiobookReadingTimeTracker player]
+- -[AEAudiobookReadingTimeTracker sessionID]
+- -[AEAudiobookReadingTimeTracker setBcTracker:]
+- -[AEAudiobookReadingTimeTracker setPausedTime:]
+- -[AEAudiobookReadingTimeTracker setPlayer:]
+- -[AEAudiobookReadingTimeTracker setSessionID:]
+- -[AEBookInfo .cxx_destruct]
+- -[AEBookInfo _adjustAnnotation:withLocation:selectedText:representativeText:updateStyle:]
+- -[AEBookInfo _cacheURL]
+- -[AEBookInfo _clearTransient]
+- -[AEBookInfo _documentOrdinalForHref:]
+- -[AEBookInfo _makeFileUrlIfPossible:]
+- -[AEBookInfo _setBitMask:enabled:]
+- -[AEBookInfo _setValidMediaOverlayElementCount:]
+- -[AEBookInfo addAnnotation:location:selectedText:representativeText:]
+- -[AEBookInfo addAnnotation:location:selectedText:representativeText:].cold.1
+- -[AEBookInfo addChapters:]
+- -[AEBookInfo addChaptersObject:]
+- -[AEBookInfo addLandmarks:]
+- -[AEBookInfo addLandmarksObject:]
+- -[AEBookInfo addPhysicalPages:]
+- -[AEBookInfo addPhysicalPagesObject:]
+- -[AEBookInfo addSinfInfoObject:]
+- -[AEBookInfo allDocuments]
+- -[AEBookInfo annotationProvider]
+- -[AEBookInfo annotationsOnMainQueue]
+- -[AEBookInfo assetID]
+- -[AEBookInfo assetLogID]
+- -[AEBookInfo assetType]
+- -[AEBookInfo basePlusContentPath]
+- -[AEBookInfo baseURL]
+- -[AEBookInfo bumpReadingLocationAnnotationVersionToMinimumVersion:]
+- -[AEBookInfo calculatePasswordRequired]
+- -[AEBookInfo checkAnnotationsForDuplicatedDocuments]
+- -[AEBookInfo confirmBagContents]
+- -[AEBookInfo contentType]
+- -[AEBookInfo currentlyDownloading]
+- -[AEBookInfo dealloc]
+- -[AEBookInfo deleteAnnotation:]
+- -[AEBookInfo deleteAnnotation:].cold.1
+- -[AEBookInfo deleteParsedRelationships]
+- -[AEBookInfo deleteSelfMaintainedRelationships]
+- -[AEBookInfo dictionaryRepresentation]
+- -[AEBookInfo didSave]
+- -[AEBookInfo didTurnIntoFault]
+- -[AEBookInfo displayTitle]
+- -[AEBookInfo documentAtPath:]
+- -[AEBookInfo documentContainingLocation:]
+- -[AEBookInfo documentWithOrdinal:]
+- -[AEBookInfo documentsWithPath:sortBy:limit:]
+- -[AEBookInfo embeddedArtHrefMinusSubpath]
+- -[AEBookInfo embeddedArtHref]
+- -[AEBookInfo embeddedArtSinf]
+- -[AEBookInfo embeddedArtURL]
+- -[AEBookInfo exists]
+- -[AEBookInfo expandAnnotation:location:selectedText:representativeText:]
+- -[AEBookInfo firstDocumentLocation]
+- -[AEBookInfo firstDocument]
+- -[AEBookInfo fixedLayoutSizeForDocumentWithOrdinal:]
+- -[AEBookInfo hasBuiltInFonts]
+- -[AEBookInfo hasDuplicatedDocument]
+- -[AEBookInfo hasMediaOverlayElements]
+- -[AEBookInfo hasPhysicalPages]
+- -[AEBookInfo hidesSpine]
+- -[AEBookInfo initializeAnnotationProviderWithAssetID:]
+- -[AEBookInfo initializeAnnotationProviderWithAssetID:].cold.1
+- -[AEBookInfo initializeAnnotationProviderWithAssetID:].cold.10
+- -[AEBookInfo initializeAnnotationProviderWithAssetID:].cold.11
+- -[AEBookInfo initializeAnnotationProviderWithAssetID:].cold.12
+- -[AEBookInfo initializeAnnotationProviderWithAssetID:].cold.2
+- -[AEBookInfo initializeAnnotationProviderWithAssetID:].cold.3
+- -[AEBookInfo initializeAnnotationProviderWithAssetID:].cold.4
+- -[AEBookInfo initializeAnnotationProviderWithAssetID:].cold.5
+- -[AEBookInfo initializeAnnotationProviderWithAssetID:].cold.6
+- -[AEBookInfo initializeAnnotationProviderWithAssetID:].cold.7
+- -[AEBookInfo initializeAnnotationProviderWithAssetID:].cold.8
+- -[AEBookInfo initializeAnnotationProviderWithAssetID:].cold.9
+- -[AEBookInfo isBookVersioned]
+- -[AEBookInfo isCorrectPassword:forDocument:]
+- -[AEBookInfo isEncryptionLegal]
+- -[AEBookInfo isFixedLayout]
+- -[AEBookInfo isInteractive]
+- -[AEBookInfo isLandscapeProhibited]
+- -[AEBookInfo isManagedBook]
+- -[AEBookInfo isPageProgressionRTL]
+- -[AEBookInfo isPasswordDialogNeeded]
+- -[AEBookInfo isPortraitProhibited]
+- -[AEBookInfo isPreorder]
+- -[AEBookInfo isProtected]
+- -[AEBookInfo isReadyToOpen]
+- -[AEBookInfo isScrollModeDisabled]
+- -[AEBookInfo isStoreBook]
+- -[AEBookInfo lastDocument]
+- -[AEBookInfo linearDocumentCount]
+- -[AEBookInfo linearDocuments]
+- -[AEBookInfo linearIndexForOrdinal:]
+- -[AEBookInfo linearOrdinal:offsetByDistance:]
+- -[AEBookInfo mimeFromHref:]
+- -[AEBookInfo navigationInfosForDocument:]
+- -[AEBookInfo needsGenericCoverArt]
+- -[AEBookInfo needsReparsing]
+- -[AEBookInfo newestAnnotationWithPredicate:rangeCheck:moc:]
+- -[AEBookInfo obeyPageBreaks]
+- -[AEBookInfo openToSpread]
+- -[AEBookInfo orientationLock]
+- -[AEBookInfo password]
+- -[AEBookInfo physicalPageMapForDocument:]
+- -[AEBookInfo physicalPageMap]
+- -[AEBookInfo readingDocumentCount]
+- -[AEBookInfo readingLocationAnnotation:moc:]
+- -[AEBookInfo readingLocation]
+- -[AEBookInfo removeChapters:]
+- -[AEBookInfo removeLandmarks:]
+- -[AEBookInfo removePhysicalPages:]
+- -[AEBookInfo removeSinfInfo:]
+- -[AEBookInfo resetAsNewlyDownloaded]
+- -[AEBookInfo resetPersistentCache]
+- -[AEBookInfo saveAnnotationsManagedObjectContext]
+- -[AEBookInfo scrollModeOrientation]
+- -[AEBookInfo setAnnotationProvider:]
+- -[AEBookInfo setAssetLogID:]
+- -[AEBookInfo setBookAuthor:]
+- -[AEBookInfo setBookBundlePath:]
+- -[AEBookInfo setBookTitle:]
+- -[AEBookInfo setContentType:]
+- -[AEBookInfo setCurrentlyDownloading:]
+- -[AEBookInfo setFixedLayout:]
+- -[AEBookInfo setGenre:]
+- -[AEBookInfo setHasBuiltInFonts:]
+- -[AEBookInfo setHidesSpine:]
+- -[AEBookInfo setInteractive:]
+- -[AEBookInfo setIsPreorder:]
+- -[AEBookInfo setLandscapeProhibited:]
+- -[AEBookInfo setObeyPageBreaks:]
+- -[AEBookInfo setOpenToSpread:]
+- -[AEBookInfo setPassword:]
+- -[AEBookInfo setPortraitProhibited:]
+- -[AEBookInfo setPublisherLocation:]
+- -[AEBookInfo setPublisherName:]
+- -[AEBookInfo setPublisherYear:]
+- -[AEBookInfo setReadingLocation:]
+- -[AEBookInfo setSingletonAnnotationType:location:modificationHandler:]
+- -[AEBookInfo setSortAuthor:]
+- -[AEBookInfo setSortTitle:]
+- -[AEBookInfo setStoreId:]
+- -[AEBookInfo setTemporaryItemIdentifier:]
+- -[AEBookInfo setupBaseURL]
+- -[AEBookInfo setupFileSizeContentType]
+- -[AEBookInfo shortBookTitle]
+- -[AEBookInfo shouldAllowRemoteInspection]
+- -[AEBookInfo shouldDisableOptimizeSpeed]
+- -[AEBookInfo showOriginalFontOption]
+- -[AEBookInfo sortedDocuments]
+- -[AEBookInfo storeFrontId]
+- -[AEBookInfo suppressTOC]
+- -[AEBookInfo urlForDocument:]
+- -[AEBookInfo urlForHref:]
+- -[AEBookInfo url]
+- -[AEBookInfo versionNumberHumanReadable]
+- -[AEBookInfo visibleSpine]
+- -[AEBookInfo wantsJumpBackHistory]
+- -[AEBookInfo wasParsed]
+- -[AEBookInfo writingDirection]
+- -[AEBookInfo(BKPageProgressionDirection) bkPageProgressionDirection]
+- -[AEBookInfo(BKPageProgressionDirection) languageDefaultPageProgressDirection]
+- -[AEBookInfo(BKPageProgressionDirection) languageDefaultsToHorizontalTextFlow]
+- -[AEBookInfo(BookEPUBHelpers) cacheItem]
+- -[AEBookInfo(BookEPUBHelpers) styleManager]
+- -[AEBookInfo(Upsell) hasUpsellPage]
+- -[AEBookInfoAssetPlugin .cxx_destruct]
+- -[AEBookInfoAssetPlugin _bookInfoForAssetAtURL:withMoc:error:needsCoordination:updateDate:]
+- -[AEBookInfoAssetPlugin _shouldShowAlertForError:]
+- -[AEBookInfoAssetPlugin _showAlertForError:forAssetAtURL:transaction:]
+- -[AEBookInfoAssetPlugin associatedAssetType]
+- -[AEBookInfoAssetPlugin helper:annotationProviderForURL:needsCoordination:forAssetID:]
+- -[AEBookInfoAssetPlugin helper:canRefetch:viewControllerWithOptions:completion:]
+- -[AEBookInfoAssetPlugin helper:coverImageForURL:]
+- -[AEBookInfoAssetPlugin helper:coverImageForURL:size:]
+- -[AEBookInfoAssetPlugin helper:deletePersistentCacheForURL:]
+- -[AEBookInfoAssetPlugin helper:metadataForKey:forURL:needsCoordination:]
+- -[AEBookInfoAssetPlugin helper:updateCachedURLFrom:to:]
+- -[AEBookInfoAssetPlugin helper:validateBookAuthorizationWithError:needsCoordination:]
+- -[AEBookInfoAssetPlugin helper:viewControllerWithOptions:completion:]
+- -[AEBookInfoAssetPlugin helperForURL:withOptions:]
+- -[AEBookInfoAssetPlugin isEpubURL:]
+- -[AEBookInfoAssetPlugin newViewControllerForAEBookInfo:storeID:]
+- -[AEBookInfoAssetPlugin proofingHelperForMetadata:]
+- -[AEBookInfoAssetPlugin setSharedAnnotationProvider:]
+- -[AEBookInfoAssetPlugin sharedAnnotationProvider]
+- -[AEBookInfoAssetPlugin supportedFileExtensions]
+- -[AEBookInfoAssetPlugin supportedUrlSchemes]
+- -[AEBookInfoSnapshot .cxx_destruct]
+- -[AEBookInfoSnapshot assetID]
+- -[AEBookInfoSnapshot bkPageProgressionDirection]
+- -[AEBookInfoSnapshot bookLanguage]
+- -[AEBookInfoSnapshot cacheItem]
+- -[AEBookInfoSnapshot fixedLayoutHeight]
+- -[AEBookInfoSnapshot fixedLayoutSize]
+- -[AEBookInfoSnapshot fixedLayoutWidth]
+- -[AEBookInfoSnapshot isFixedLayout]
+- -[AEBookInfoSnapshot manifestId]
+- -[AEBookInfoSnapshot obeyPageBreaks]
+- -[AEBookInfoSnapshot respectImageSizeClassIsPrefix]
+- -[AEBookInfoSnapshot respectImageSizeClass]
+- -[AEBookInfoSnapshot setAssetID:]
+- -[AEBookInfoSnapshot setBkPageProgressionDirection:]
+- -[AEBookInfoSnapshot setBookLanguage:]
+- -[AEBookInfoSnapshot setCacheItem:]
+- -[AEBookInfoSnapshot setFixedLayoutHeight:]
+- -[AEBookInfoSnapshot setFixedLayoutWidth:]
+- -[AEBookInfoSnapshot setIsFixedLayout:]
+- -[AEBookInfoSnapshot setManifestId:]
+- -[AEBookInfoSnapshot setObeyPageBreaks:]
+- -[AEBookInfoSnapshot setRespectImageSizeClass:]
+- -[AEBookInfoSnapshot setRespectImageSizeClassIsPrefix:]
+- -[AEBookInfoSnapshot setShouldAllowRemoteInspection:]
+- -[AEBookInfoSnapshot setShouldDisableOptimizeSpeed:]
+- -[AEBookInfoSnapshot setSpineIndexInPackage:]
+- -[AEBookInfoSnapshot setUrl:]
+- -[AEBookInfoSnapshot shouldAllowRemoteInspection]
+- -[AEBookInfoSnapshot shouldDisableOptimizeSpeed]
+- -[AEBookInfoSnapshot spineIndexInPackage]
+- -[AEBookInfoSnapshot url]
+- -[AEBookProtocolCacheItemProvider .cxx_destruct]
+- -[AEBookProtocolCacheItemProvider _performWithLock:]
+- -[AEBookProtocolCacheItemProvider bookCache]
+- -[AEBookProtocolCacheItemProvider cacheItemForDatabaseKey:]
+- -[AEBookProtocolCacheItemProvider clearCacheForDatabaseKey:]
+- -[AEBookProtocolCacheItemProvider clearCacheForDatabaseKeys:]
+- -[AEBookProtocolCacheItemProvider clearCache]
+- -[AEBookProtocolCacheItemProvider init]
+- -[AEBookProtocolCacheItemProvider setBookCache:]
+- -[AEBookProtocolCacheItemProvider setUnfairLock:]
+- -[AEBookProtocolCacheItemProvider unfairLock]
+- -[AEBookRenderingCallbackTarget .cxx_destruct]
+- -[AEBookRenderingCallbackTarget initWithCallbackBlock:]
+- -[AEBookRenderingCallbackTarget renderingCacheCallbackImage:context:]
+- -[AEBottomToolbarAccessibility _accessibilityOnlyComparesByXAxis]
+- -[AEBottomToolbarAccessibility shouldGroupAccessibilityChildren]
+- -[AEEPubBookHelper helperMinifiedController]
+- -[AEEPubMinifiedController .cxx_destruct]
+- -[AEEPubMinifiedController helper]
+- -[AEEPubMinifiedController initWithHelper:]
+- -[AEEPubMinifiedController minifiedAssetPresenterPausePlayback]
+- -[AEEPubMinifiedController minifiedControllerAnimateFromMinibarIfPossible]
+- -[AEEPubMinifiedController minifiedControllerDelegate]
+- -[AEEPubMinifiedController minifiedControllerDidCloseAssetFully]
+- -[AEEPubMinifiedController minifiedControllerDidCloseAsset]
+- -[AEEPubMinifiedController minifiedControllerDidLoadAsset]
+- -[AEEPubMinifiedController minifiedControllerDidOpenAssetFully]
+- -[AEEPubMinifiedController minifiedControllerLoadedAssetViewController]
+- -[AEEPubMinifiedController minifiedControllerMinibarViewController]
+- -[AEEPubMinifiedController minifiedControllerSaveState]
+- -[AEEPubMinifiedController minifiedControllerShouldPreloadAssetViewController]
+- -[AEEPubMinifiedController minifiedControllerShouldUnloadAssetViewController]
+- -[AEEPubMinifiedController minifiedControllerStateConforminigToProtocol:]
+- -[AEEPubMinifiedController minifiedControllerWillOpenAsset]
+- -[AEEPubMinifiedController minifiedControllerWillUnloadAsset]
+- -[AEEPubMinifiedController setHelper:]
+- -[AEEPubMinifiedController setMinifiedControllerDelegate:]
+- -[AEEPubMinifiedController setMinifiedControllerLoadedAssetViewController:]
+- -[AEEPubPictureBookHelper helperMinifiedController]
+- -[AEEPubPictureBookPlugin associatedAssetType]
+- -[AEEPubPictureBookPlugin helperForURL:withOptions:]
+- -[AEEPubPictureBookPlugin init]
+- -[AEEPubPictureBookPlugin newViewControllerForAEBookInfo:storeID:]
+- -[AEEPubPictureBookPlugin proofingHelperForMetadata:]
+- -[AEEPubPicturebookMinifiedController .cxx_destruct]
+- -[AEEPubPicturebookMinifiedController helper]
+- -[AEEPubPicturebookMinifiedController initWithHelper:]
+- -[AEEPubPicturebookMinifiedController minifiedAssetPresenterPausePlayback]
+- -[AEEPubPicturebookMinifiedController minifiedControllerAnimateFromMinibarIfPossible]
+- -[AEEPubPicturebookMinifiedController minifiedControllerDelegate]
+- -[AEEPubPicturebookMinifiedController minifiedControllerDidCloseAssetFully]
+- -[AEEPubPicturebookMinifiedController minifiedControllerDidCloseAsset]
+- -[AEEPubPicturebookMinifiedController minifiedControllerDidLoadAsset]
+- -[AEEPubPicturebookMinifiedController minifiedControllerDidOpenAssetFully]
+- -[AEEPubPicturebookMinifiedController minifiedControllerLoadedAssetViewController]
+- -[AEEPubPicturebookMinifiedController minifiedControllerMinibarViewController]
+- -[AEEPubPicturebookMinifiedController minifiedControllerSaveState]
+- -[AEEPubPicturebookMinifiedController minifiedControllerShouldPreloadAssetViewController]
+- -[AEEPubPicturebookMinifiedController minifiedControllerShouldUnloadAssetViewController]
+- -[AEEPubPicturebookMinifiedController minifiedControllerStateConforminigToProtocol:]
+- -[AEEPubPicturebookMinifiedController minifiedControllerWillOpenAsset]
+- -[AEEPubPicturebookMinifiedController minifiedControllerWillUnloadAsset]
+- -[AEEPubPicturebookMinifiedController setHelper:]
+- -[AEEPubPicturebookMinifiedController setMinifiedControllerDelegate:]
+- -[AEEPubPicturebookMinifiedController setMinifiedControllerLoadedAssetViewController:]
+- -[AEEPubProofingHelper .cxx_destruct]
+- -[AEEPubProofingHelper _bookInfo]
+- -[AEEPubProofingHelper _clientManifestGivenHostManifestContainer:bookInfo:stayAlive:]
+- -[AEEPubProofingHelper _deleteFilePathsInSet:]
+- -[AEEPubProofingHelper _diffManifest:againstBundleNamed:rootPath:addedAssets:deletedAssets:updatedAssets:]
+- -[AEEPubProofingHelper _stringByDeletingPrefix:fromString:]
+- -[AEEPubProofingHelper assetDidSync:withPath:progress:]
+- -[AEEPubProofingHelper assetFailedSync:withPath:progress:]
+- -[AEEPubProofingHelper bookMoc]
+- -[AEEPubProofingHelper clientManifestGivenHostManifestContainer:stayAlive:]
+- -[AEEPubProofingHelper clientManifest]
+- -[AEEPubProofingHelper delegate]
+- -[AEEPubProofingHelper dstRootPath]
+- -[AEEPubProofingHelper hostManifestMetadata]
+- -[AEEPubProofingHelper initWithMetadata:]
+- -[AEEPubProofingHelper performBlockUsingBookInfoAndWait:]
+- -[AEEPubProofingHelper setClientManifest:]
+- -[AEEPubProofingHelper setDelegate:]
+- -[AEEPubProofingHelper setDstRootPath:]
+- -[AEEPubProofingHelper setHostManifestMetadata:]
+- -[AEEPubProofingHelper syncDidStopWithReason:]
+- -[AEEPubProofingHelper syncWillStartWithDestRootPath:]
+- -[AEEpubInfoSource .cxx_destruct]
+- -[AEEpubInfoSource _mocDidSaveNotification:]
+- -[AEEpubInfoSource _resetBookInfo:]
+- -[AEEpubInfoSource bookInfoForDatabaseKey:fromManagedObjectContext:error:]
+- -[AEEpubInfoSource bookInfoForURL:fromManagedObjectContext:error:needsCoordination:updateDate:]
+- -[AEEpubInfoSource databaseKeyFromLibraryManagerInfo:forAssetAtURL:]
+- -[AEEpubInfoSource dealloc]
+- -[AEEpubInfoSource existingBookInfoForDatabaseKey:fromManagedObjectContext:]
+- -[AEEpubInfoSource existingBookInfoForURL:fromManagedObjectContext:]
+- -[AEEpubInfoSource existingBookInfoWithPredicate:fromManagedObjectContext:]
+- -[AEEpubInfoSource initWithIdentifier:]
+- -[AEEpubInfoSource metadataForKey:forURL:needsCoordination:]
+- -[AEEpubInfoSource newManagedObjectContextWithPrivateQueueConcurrency]
+- -[AEEpubInfoSource parseBook:]
+- -[AEEpubInfoSource performBackgroundTaskAndWait:]
+- -[AEEpubInfoSource performMainQueueTaskWithNewContext:]
+- -[AEEpubInfoSource performMainQueueTaskWithNewContextAndWait:]
+- -[AEEpubInfoSource persistentContainer]
+- -[AEEpubInfoSource persistentStoreDirectory]
+- -[AEEpubInfoSource persistentStoreFileName]
+- -[AEEpubInfoSource readableBookInfoForDatabaseKey_sync:block:]
+- -[AEEpubInfoSource recreatePersistentStoreDirectory]
+- -[AEEpubInfoSource resetBookForDatabaseKey:]
+- -[AEEpubInfoSource resetBookForURL:]
+- -[AEEpubInfoSource setMetadata:forKey:forURL:]
+- -[AEEpubInfoSource setPropertiesOfBook:withPlistEntry:]
+- -[AEEpubInfoSource updateCachedURLFrom:to:]
+- -[AEEpubInfoSource writableBookInfoForDatabaseKey_sync:block:]
+- -[AEEpubPlugin _createBookViewControllerForBook:storeID:]
+- -[AEEpubPlugin associatedAssetType]
+- -[AEEpubPlugin helperForURL:withOptions:]
+- -[AEEpubPlugin init]
+- -[AEEpubPlugin newViewControllerForAEBookInfo:storeID:]
+- -[AEEpubPlugin prewarmSharedResources]
+- -[AEEpubPlugin proofingHelperForMetadata:]
+- -[AEHTMLBookRenderingCache .cxx_destruct]
+- -[AEHTMLBookRenderingCache _fetchImageForKey:size:]
+- -[AEHTMLBookRenderingCache _keyForAsset:size:pageNumber:]
+- -[AEHTMLBookRenderingCache findRenderingCacheOperationInQueue:withStorageKey:target:selector:context:]
+- -[AEHTMLBookRenderingCache imageForSize:data:]
+- -[AEHTMLBookRenderingCache initWithIdentifier:]
+- -[AEHTMLBookRenderingCache operationClass]
+- -[AEHTMLBookRenderingCache resetPrioritiesForPageNumber:]
+- -[AEMinimalTemplate .cxx_destruct]
+- -[AEMinimalTemplate evaluateWithData:error:]
+- -[AEMinimalTemplate evaluateWithData:templateSet:cycleContext:error:]
+- -[AEMinimalTemplate initWithString:error:]
+- -[AEMinimalTemplate initWithURL:error:]
+- -[AEMinimalTemplate parseTemplate:error:]
+- -[AEMinimalTemplate setSteps:]
+- -[AEMinimalTemplate steps]
+- -[AEMinimalTemplateSet .cxx_destruct]
+- -[AEMinimalTemplateSet addTemplate:withName:]
+- -[AEMinimalTemplateSet evaluateTemplateWithName:withData:error:]
+- -[AEMinimalTemplateSet init]
+- -[AEMinimalTemplateSet removeTemplateForName:]
+- -[AEMinimalTemplateSet templates]
+- -[AEMinimalTemplateStepEmbed .cxx_destruct]
+- -[AEMinimalTemplateStepEmbed keyPath]
+- -[AEMinimalTemplateStepEmbed name]
+- -[AEMinimalTemplateStepEmbed setKeyPath:]
+- -[AEMinimalTemplateStepEmbed setName:]
+- -[AEMinimalTemplateStepField .cxx_destruct]
+- -[AEMinimalTemplateStepField keyPath]
+- -[AEMinimalTemplateStepField setKeyPath:]
+- -[AEMinimalTemplateStepIf .cxx_destruct]
+- -[AEMinimalTemplateStepIf conditional]
+- -[AEMinimalTemplateStepIf elseSteps]
+- -[AEMinimalTemplateStepIf negated]
+- -[AEMinimalTemplateStepIf setConditional:]
+- -[AEMinimalTemplateStepIf setElseSteps:]
+- -[AEMinimalTemplateStepIf setNegated:]
+- -[AEMinimalTemplateStepIf setThenSteps:]
+- -[AEMinimalTemplateStepIf thenSteps]
+- -[AEMinimalTemplateStepRange .cxx_destruct]
+- -[AEMinimalTemplateStepRange keyPath]
+- -[AEMinimalTemplateStepRange setKeyPath:]
+- -[AEMinimalTemplateStepRange setSteps:]
+- -[AEMinimalTemplateStepRange steps]
+- -[AEMinimalTemplateStepText .cxx_destruct]
+- -[AEMinimalTemplateStepText setText:]
+- -[AEMinimalTemplateStepText text]
+- -[AENoteFullscreenEditorControllerAccessibility _accessibilityLoadAccessibilityInformation]
+- -[AENoteFullscreenEditorControllerAccessibility viewDidLoad]
+- -[AEPDFBookHelper helperMinifiedController]
+- -[AEPDFMinifiedController .cxx_destruct]
+- -[AEPDFMinifiedController helper]
+- -[AEPDFMinifiedController initWithHelper:]
+- -[AEPDFMinifiedController minifiedAssetPresenterPausePlayback]
+- -[AEPDFMinifiedController minifiedControllerAnimateFromMinibarIfPossible]
+- -[AEPDFMinifiedController minifiedControllerDelegate]
+- -[AEPDFMinifiedController minifiedControllerDidCloseAssetFully]
+- -[AEPDFMinifiedController minifiedControllerDidCloseAsset]
+- -[AEPDFMinifiedController minifiedControllerDidLoadAsset]
+- -[AEPDFMinifiedController minifiedControllerDidOpenAssetFully]
+- -[AEPDFMinifiedController minifiedControllerLoadedAssetViewController]
+- -[AEPDFMinifiedController minifiedControllerMinibarViewController]
+- -[AEPDFMinifiedController minifiedControllerSaveState]
+- -[AEPDFMinifiedController minifiedControllerShouldPreloadAssetViewController]
+- -[AEPDFMinifiedController minifiedControllerShouldUnloadAssetViewController]
+- -[AEPDFMinifiedController minifiedControllerStateConforminigToProtocol:]
+- -[AEPDFMinifiedController minifiedControllerWillOpenAsset]
+- -[AEPDFMinifiedController minifiedControllerWillUnloadAsset]
+- -[AEPDFMinifiedController setHelper:]
+- -[AEPDFMinifiedController setMinifiedControllerDelegate:]
+- -[AEPDFMinifiedController setMinifiedControllerLoadedAssetViewController:]
+- -[AEPDFPlugin .cxx_destruct]
+- -[AEPDFPlugin _bookInfoForAssetAtURL:withMoc:error:needsCoordination:]
+- -[AEPDFPlugin _updateBook:onMoc:forCurrentURL:]
+- -[AEPDFPlugin associatedAssetType]
+- -[AEPDFPlugin helper:annotationProviderForURL:needsCoordination:forAssetID:]
+- -[AEPDFPlugin helper:coverImageForURL:]
+- -[AEPDFPlugin helper:coverImageForURL:size:]
+- -[AEPDFPlugin helper:deletePersistentCacheForURL:]
+- -[AEPDFPlugin helper:metadataForKey:forURL:needsCoordination:]
+- -[AEPDFPlugin helper:setMetadata:forKey:forURL:]
+- -[AEPDFPlugin helper:updateCachedURLFrom:to:]
+- -[AEPDFPlugin helper:validateBookAuthorizationWithError:needsCoordination:]
+- -[AEPDFPlugin helper:viewControllerWithOptions:completion:]
+- -[AEPDFPlugin helperForURL:withOptions:]
+- -[AEPDFPlugin isPdfURL:]
+- -[AEPDFPlugin loadError:]
+- -[AEPDFPlugin proofingHelperForMetadata:]
+- -[AEPDFPlugin sendError:toCompletion:]
+- -[AEPDFPlugin sendViewControllerForBook:toCompletion:]
+- -[AEPDFPlugin setSharedAnnotationProvider:]
+- -[AEPDFPlugin setSharedBookCoverResetter:]
+- -[AEPDFPlugin sharedAnnotationProvider]
+- -[AEPDFPlugin sharedBookCoverResetter]
+- -[AEPDFPlugin showPasswordDialogForBook:transaction:withCompletion:]
+- -[AEPDFPlugin supportedFileExtensions]
+- -[AEPDFPlugin supportedUrlSchemes]
+- -[AEPdfCache .cxx_destruct]
+- -[AEPdfCache cacheQueue]
+- -[AEPdfCache canonicalPathFromURL:]
+- -[AEPdfCache clearNativeObjectCache]
+- -[AEPdfCache copyCacheObjectForBook:]
+- -[AEPdfCache copyCacheObjectForPdfPath:]
+- -[AEPdfCache copyCacheObjectForURL:]
+- -[AEPdfCache dealloc]
+- -[AEPdfCache didReceiveMemoryWarning:]
+- -[AEPdfCache hasCachedObjectForURL:]
+- -[AEPdfCache init]
+- -[AEPdfCache removeCacheObjectForURL:]
+- -[AEPdfCache setCacheQueue:]
+- -[AEPdfCache setUrlToDocumentCache:]
+- -[AEPdfCache setUrlToStringCache:]
+- -[AEPdfCache urlToDocumentCache]
+- -[AEPdfCache urlToStringCache]
+- -[AEPdfCacheObject .cxx_destruct]
+- -[AEPdfCacheObject document]
+- -[AEPdfCacheObject initWithPdfDocument:]
+- -[AEPdfCacheObject pdfUndoManager]
+- -[AEPdfCacheObject setDocument:]
+- -[AEPdfCacheObject setPdfUndoManager:]
+- -[AEPdfPageRenderingCacheOperation .cxx_destruct]
+- -[AEPdfPageRenderingCacheOperation callbackInvocationWithImage:]
+- -[AEPdfPageRenderingCacheOperation generateImage:]
+- -[AEPdfPageRenderingCacheOperation init]
+- -[AEPdfPageRenderingCacheOperation pageNumber]
+- -[AEPdfPageRenderingCacheOperation setPageNumber:]
+- -[AEPdfPageRenderingCacheOperation setUrl:]
+- -[AEPdfPageRenderingCacheOperation url]
+- -[AEPdfRenderingCache cachePrefix]
+- -[AEPdfRenderingCache thumbnailForPage:asset:size:renderingCacheCallbackTarget:renderingCacheCallbackContext:priority:containerBounds:]
+- -[AEPictureBookRenderingCache .cxx_destruct]
+- -[AEPictureBookRenderingCache _applyMaskAndGutter:isRight:contentSize:containerBounds:]
+- -[AEPictureBookRenderingCache _gotSnapshotWithMask:bookInfo:containerBounds:contentSize:isRight:key:pageNumber:snapshot:scale:size:completion:]
+- -[AEPictureBookRenderingCache _scheduleRenderWithKey:options:size:bookInfoSnapshot:documentUrl:pageNumber:priority:target:context:]
+- -[AEPictureBookRenderingCache _uncheckedSnapshotWithMask:assetID:bookInfo:containerBounds:contentSize:isRight:pageNumber:scale:size:completion:]
+- -[AEPictureBookRenderingCache anySnapshotForBookInfo:pageNumber:containerBounds:]
+- -[AEPictureBookRenderingCache configuration]
+- -[AEPictureBookRenderingCache generateMasterImageForPageNumber:asset:priority:callbackBlock:]
+- -[AEPictureBookRenderingCache generateSnapshotWithAsset:size:pageNumber:]
+- -[AEPictureBookRenderingCache initWithIdentifier:configuration:webViewBuilder:]
+- -[AEPictureBookRenderingCache layoutGeometry]
+- -[AEPictureBookRenderingCache persistentCacheFileName]
+- -[AEPictureBookRenderingCache renderQueuesEmptied]
+- -[AEPictureBookRenderingCache renderingPiggyBackForPageNumber:asset:priority:]
+- -[AEPictureBookRenderingCache renderingPiggyBack]
+- -[AEPictureBookRenderingCache setConfiguration:]
+- -[AEPictureBookRenderingCache setLayoutGeometry:]
+- -[AEPictureBookRenderingCache setRenderingPiggyBack:]
+- -[AEPictureBookRenderingCache setUpsellPageNumber:]
+- -[AEPictureBookRenderingCache setWebViewBuilder:]
+- -[AEPictureBookRenderingCache snapshotForBookInfo:pageNumber:size:maxSize:isRight:zoomScale:applyMaskAndGutter:containerBounds:completion:]
+- -[AEPictureBookRenderingCache thumbnailForPage:asset:size:renderingCacheCallbackTarget:renderingCacheCallbackContext:priority:containerBounds:]
+- -[AEPictureBookRenderingCache upsellPageNumber]
+- -[AEPictureBookRenderingCache upsellThumbnailForAsset:size:]
+- -[AEPictureBookRenderingCache webViewBuilder]
+- -[AEPictureBookRenderingCache whitePageForSize:right:scale:contentSize:applyMaskAndGutter:containerBounds:]
+- -[AEPictureBookRenderingCacheOperation2 .cxx_destruct]
+- -[AEPictureBookRenderingCacheOperation2 _releaseWebView]
+- -[AEPictureBookRenderingCacheOperation2 _snapshotPathForKey:name:]
+- -[AEPictureBookRenderingCacheOperation2 _takeSnapshotWhenReady]
+- -[AEPictureBookRenderingCacheOperation2 _takeSnapshotWithConfiguration:retryOnBlank:completionHandler:]
+- -[AEPictureBookRenderingCacheOperation2 _takeSnapshot]
+- -[AEPictureBookRenderingCacheOperation2 _timeoutWaitingForFirstPaint]
+- -[AEPictureBookRenderingCacheOperation2 _timeoutWaitingForFirstPaint].cold.1
+- -[AEPictureBookRenderingCacheOperation2 _updateSignal]
+- -[AEPictureBookRenderingCacheOperation2 addExtraCompletion:]
+- -[AEPictureBookRenderingCacheOperation2 bookInfoSnapshot]
+- -[AEPictureBookRenderingCacheOperation2 callbackInvocationWithImage:]
+- -[AEPictureBookRenderingCacheOperation2 cfisForHrefs]
+- -[AEPictureBookRenderingCacheOperation2 didFinishLoading]
+- -[AEPictureBookRenderingCacheOperation2 didFinishRendering]
+- -[AEPictureBookRenderingCacheOperation2 dispatchSemaphore]
+- -[AEPictureBookRenderingCacheOperation2 extraCompletions]
+- -[AEPictureBookRenderingCacheOperation2 generateImage:]
+- -[AEPictureBookRenderingCacheOperation2 image]
+- -[AEPictureBookRenderingCacheOperation2 initWithOptions:]
+- -[AEPictureBookRenderingCacheOperation2 navigationHandler:didFinishLoadOfURL:]
+- -[AEPictureBookRenderingCacheOperation2 navigationHandler:failedToLoadURL:error:]
+- -[AEPictureBookRenderingCacheOperation2 navigationHandlerFirstSignificantPaintCompleted:]
+- -[AEPictureBookRenderingCacheOperation2 pageNumber]
+- -[AEPictureBookRenderingCacheOperation2 piggyBack]
+- -[AEPictureBookRenderingCacheOperation2 setBookInfoSnapshot:]
+- -[AEPictureBookRenderingCacheOperation2 setCfisForHrefs:]
+- -[AEPictureBookRenderingCacheOperation2 setDidFinishLoading:]
+- -[AEPictureBookRenderingCacheOperation2 setDidFinishRendering:]
+- -[AEPictureBookRenderingCacheOperation2 setDispatchSemaphore:]
+- -[AEPictureBookRenderingCacheOperation2 setExtraCompletions:]
+- -[AEPictureBookRenderingCacheOperation2 setImage:]
+- -[AEPictureBookRenderingCacheOperation2 setPageNumber:]
+- -[AEPictureBookRenderingCacheOperation2 setPiggyBack:]
+- -[AEPictureBookRenderingCacheOperation2 setSnapshotRetryCount:]
+- -[AEPictureBookRenderingCacheOperation2 setSnapshotSize:]
+- -[AEPictureBookRenderingCacheOperation2 setStrongSelf:]
+- -[AEPictureBookRenderingCacheOperation2 setTextNodeCharacterCounts:]
+- -[AEPictureBookRenderingCacheOperation2 setUrl:]
+- -[AEPictureBookRenderingCacheOperation2 setWebView:]
+- -[AEPictureBookRenderingCacheOperation2 setWebViewBuilder:]
+- -[AEPictureBookRenderingCacheOperation2 setupWebView]
+- -[AEPictureBookRenderingCacheOperation2 snapshotRetryCount]
+- -[AEPictureBookRenderingCacheOperation2 snapshotSize]
+- -[AEPictureBookRenderingCacheOperation2 strongSelf]
+- -[AEPictureBookRenderingCacheOperation2 textNodeCharacterCounts]
+- -[AEPictureBookRenderingCacheOperation2 urlForNavigationHandler]
+- -[AEPictureBookRenderingCacheOperation2 url]
+- -[AEPictureBookRenderingCacheOperation2 webViewBuilder]
+- -[AEPictureBookRenderingCacheOperation2 webView]
+- -[AETestDriver .cxx_destruct]
+- -[AETestDriver bookViewDidAppear:]
+- -[AETestDriver bookViewWillDisappear:]
+- -[AETestDriver delegate]
+- -[AETestDriver eventDispatcher]
+- -[AETestDriver init]
+- -[AETestDriver layoutDelegate]
+- -[AETestDriver paginationControllerFinishedBookPagination:]
+- -[AETestDriver paginationControllerFinishedWebkitRendering:renderTree:pageCount:]
+- -[AETestDriver postEvent:sender:]
+- -[AETestDriver presentationControllerFinishedWebkitRendering:renderTree:pageCount:]
+- -[AETestDriver reading]
+- -[AETestDriver setDelegate:]
+- -[AETestDriver setEventDispatcher:]
+- -[AETestDriver setLayoutDelegate:]
+- -[AETestDriver testingLayout]
+- -[AXUIViewAccessibility _accessibilityEscape]
+- -[AXUIViewAccessibility _accessibilityReadAllOnFocus]
+- -[AXUIViewAccessibility accessibilityActivate]
+- -[AXUIViewAccessibility accessibilityPerformEscape]
+- -[BCDDParsecCollectionViewController presentationControllerDidDismiss:]
+- -[BEAppearanceViewController .cxx_destruct]
+- -[BEAppearanceViewController _isRTL]
+- -[BEAppearanceViewController _traitCollectionDidChange:previousTraitCollection:]
+- -[BEAppearanceViewController appearanceRowHeight]
+- -[BEAppearanceViewController arrowBackgroundView]
+- -[BEAppearanceViewController brightnessSlider]
+- -[BEAppearanceViewController changeBrightness:withEvent:]
+- -[BEAppearanceViewController configureHorizontalScrollSwitchCell:]
+- -[BEAppearanceViewController configureScrollSwitchCell:text:]
+- -[BEAppearanceViewController configureVerticalScrollSwitchCell:]
+- -[BEAppearanceViewController dealloc]
+- -[BEAppearanceViewController decreaseFontSize:]
+- -[BEAppearanceViewController delegate]
+- -[BEAppearanceViewController fontSizeButtons]
+- -[BEAppearanceViewController increaseFontSize:]
+- -[BEAppearanceViewController initWithNibName:bundle:]
+- -[BEAppearanceViewController loadView]
+- -[BEAppearanceViewController onScrollSwitch:]
+- -[BEAppearanceViewController releaseAuxiliaryCachedViews]
+- -[BEAppearanceViewController releaseViews]
+- -[BEAppearanceViewController scrollSwitchEnabled]
+- -[BEAppearanceViewController scrollSwitch]
+- -[BEAppearanceViewController scrollingRowHeight]
+- -[BEAppearanceViewController setArrowBackgroundView:]
+- -[BEAppearanceViewController setBrightnessSlider:]
+- -[BEAppearanceViewController setDelegate:]
+- -[BEAppearanceViewController setFontSizeButtons:]
+- -[BEAppearanceViewController setScrollSwitch:]
+- -[BEAppearanceViewController setScrollSwitchEnabled:]
+- -[BEAppearanceViewController setSizeLargerButton:]
+- -[BEAppearanceViewController setSizeSeparatorLine:]
+- -[BEAppearanceViewController setSizeSmallerButton:]
+- -[BEAppearanceViewController setTableView:]
+- -[BEAppearanceViewController sizeLargerButton]
+- -[BEAppearanceViewController sizeSeparatorLine]
+- -[BEAppearanceViewController sizeSmallerButton]
+- -[BEAppearanceViewController stylizeForTheme]
+- -[BEAppearanceViewController tableViewHeaderView]
+- -[BEAppearanceViewController tableView]
+- -[BEAppearanceViewController updateBrightness]
+- -[BEAppearanceViewController viewDidLoad]
+- -[BEAppearanceViewController viewWillAppear:]
+- -[BEAppearanceViewControllerAccessibility _imaxBrightnessSlider]
+- -[BEAppearanceViewControllerAccessibility _imaxSizeLargerButton]
+- -[BEAppearanceViewControllerAccessibility _imaxSizeSmallerButton]
+- -[BEAppearanceViewControllerAccessibility brightnessSlider]
+- -[BEAppearanceViewControllerAccessibility viewDidLoad]
+- -[BEPageSnapshotCache .cxx_destruct]
+- -[BEPageSnapshotCache _fetchImageForKey:size:]
+- -[BEPageSnapshotCache _scheduleRenderWithKey:size:pageNumber:priority:completion:]
+- -[BEPageSnapshotCache dataSource]
+- -[BEPageSnapshotCache initWithIdentifier:dataSource:]
+- -[BEPageSnapshotCache persistentCacheFileName]
+- -[BEPageSnapshotCache setDataSource:]
+- -[BEPageSnapshotCache snapshotForAsset:page:snapshotThemeIdentifier:size:completion:]
+- -[BEPageSnapshotCacheOperation .cxx_destruct]
+- -[BEPageSnapshotCacheOperation addExtraCompletion:]
+- -[BEPageSnapshotCacheOperation callbackInvocationWithImage:]
+- -[BEPageSnapshotCacheOperation dataSource]
+- -[BEPageSnapshotCacheOperation dispatchSemaphore]
+- -[BEPageSnapshotCacheOperation extraCompletions]
+- -[BEPageSnapshotCacheOperation generateImage:]
+- -[BEPageSnapshotCacheOperation initWithDataSource:]
+- -[BEPageSnapshotCacheOperation pageNumber]
+- -[BEPageSnapshotCacheOperation setDataSource:]
+- -[BEPageSnapshotCacheOperation setDispatchSemaphore:]
+- -[BEPageSnapshotCacheOperation setExtraCompletions:]
+- -[BEPageSnapshotCacheOperation setPageNumber:]
+- -[BEPageSnapshotCacheOperation setSnapshotSize:]
+- -[BEPageSnapshotCacheOperation snapshotSize]
+- -[BKARQuicklookViewController .cxx_destruct]
+- -[BKARQuicklookViewController ARModelDataURL]
+- -[BKARQuicklookViewController numberOfPreviewItemsInPreviewController:]
+- -[BKARQuicklookViewController previewController:previewItemAtIndex:]
+- -[BKARQuicklookViewController setARModelDataURL:]
+- -[BKActionController .cxx_destruct]
+- -[BKActionController _hasValidActions]
+- -[BKActionController _setActivities]
+- -[BKActionController activityItems]
+- -[BKActionController ancestorViewController]
+- -[BKActionController applicationActivities]
+- -[BKActionController barButtonItem]
+- -[BKActionController bookInfo]
+- -[BKActionController canEmailBook]
+- -[BKActionController canPrintBook]
+- -[BKActionController cancelActions]
+- -[BKActionController dealloc]
+- -[BKActionController delegate]
+- -[BKActionController excludedActivityTypes]
+- -[BKActionController includedActivityTypes]
+- -[BKActionController init]
+- -[BKActionController setAncestorViewController:]
+- -[BKActionController setApplicationActivities:]
+- -[BKActionController setBookInfo:]
+- -[BKActionController setDelegate:]
+- -[BKActionController setExcludedActivityTypes:]
+- -[BKActionController setIncludedActivityTypes:]
+- -[BKActionController setShowsEmail:]
+- -[BKActionController setShowsPrint:]
+- -[BKActionController showActionControls:]
+- -[BKActionController showsEmail]
+- -[BKActionController showsPrint]
+- -[BKActionControllerAccessibility barButtonItem]
+- -[BKActivityCopyToIBooks .cxx_destruct]
+- -[BKActivityCopyToIBooks activityImage]
+- -[BKActivityCopyToIBooks activityTitle]
+- -[BKActivityCopyToIBooks activityType]
+- -[BKActivityCopyToIBooks canPerformWithActivityItems:]
+- -[BKActivityCopyToIBooks performActivity]
+- -[BKActivityCopyToIBooks prepareWithActivityItems:]
+- -[BKActivityCopyToIBooks setUrl:]
+- -[BKActivityCopyToIBooks url]
+- -[BKActivityIndicatorOverlayView .cxx_destruct]
+- -[BKActivityIndicatorOverlayView _setAlpha:animated:animationDelay:]
+- -[BKActivityIndicatorOverlayView activityIndicator]
+- -[BKActivityIndicatorOverlayView hideIndicatorAnimated:animationDelay:]
+- -[BKActivityIndicatorOverlayView initWithBackgroundColor:foregroundColor:]
+- -[BKActivityIndicatorOverlayView setActivityIndicator:]
+- -[BKActivityIndicatorOverlayView setAlpha:]
+- -[BKActivityIndicatorOverlayView showIndicatorCenteredInView:animated:animationDelay:]
+- -[BKActivityPDFLinkPresentationItemSource .cxx_destruct]
+- -[BKActivityPDFLinkPresentationItemSource activityViewController:itemForActivityType:]
+- -[BKActivityPDFLinkPresentationItemSource activityViewControllerLinkPresentationMetadata:]
+- -[BKActivityPDFLinkPresentationItemSource activityViewControllerPlaceholderItem:]
+- -[BKActivityPDFLinkPresentationItemSource bookInfo]
+- -[BKActivityPDFLinkPresentationItemSource initWithBookInfo:]
+- -[BKActivityPDFLinkPresentationItemSource setBookInfo:]
+- -[BKActivityURLItemSource .cxx_destruct]
+- -[BKActivityURLItemSource activityViewController:itemForActivityType:]
+- -[BKActivityURLItemSource activityViewControllerPlaceholderItem:]
+- -[BKActivityURLItemSource initWithPath:]
+- -[BKActivityURLItemSource setUrl:]
+- -[BKActivityURLItemSource url]
+- -[BKAnchorLocation .cxx_destruct]
+- -[BKAnchorLocation anchor]
+- -[BKAnchorLocation description]
+- -[BKAnchorLocation encodeWithCoder:]
+- -[BKAnchorLocation hash]
+- -[BKAnchorLocation initWithCoder:]
+- -[BKAnchorLocation initWithLocationDictionary:]
+- -[BKAnchorLocation initWithOrdinal:andAnchor:]
+- -[BKAnchorLocation isEqual:]
+- -[BKAnchorLocation serializeLocationToDictionary]
+- -[BKAnchorLocation stringValue]
+- -[BKAnchorPathLocation .cxx_destruct]
+- -[BKAnchorPathLocation description]
+- -[BKAnchorPathLocation hash]
+- -[BKAnchorPathLocation initWithCoder:]
+- -[BKAnchorPathLocation initWithLocationDictionary:]
+- -[BKAnchorPathLocation initWithOrdinal:anchor:andPath:]
+- -[BKAnchorPathLocation initWithPath:]
+- -[BKAnchorPathLocation isEqual:]
+- -[BKAnchorPathLocation path]
+- -[BKAnchorPathLocation serializeLocationToDictionary]
+- -[BKAnchorPathLocation stringValue]
+- -[BKAnchorPathLocation updateOrdinalForBookInfo:]
+- -[BKAppearanceFontViewController .cxx_destruct]
+- -[BKAppearanceFontViewController arrowBackgroundView]
+- -[BKAppearanceFontViewController book]
+- -[BKAppearanceFontViewController contentSize]
+- -[BKAppearanceFontViewController dealloc]
+- -[BKAppearanceFontViewController delegate]
+- -[BKAppearanceFontViewController desiredContentSize]
+- -[BKAppearanceFontViewController dividerView]
+- -[BKAppearanceFontViewController downloadFont:]
+- -[BKAppearanceFontViewController estimatedContentSize]
+- -[BKAppearanceFontViewController fontDownloadFailed:]
+- -[BKAppearanceFontViewController fontSizeForFontFamilyName:]
+- -[BKAppearanceFontViewController fonts]
+- -[BKAppearanceFontViewController indexPathForSelectedFont]
+- -[BKAppearanceFontViewController initWithNibName:bundle:]
+- -[BKAppearanceFontViewController isDisappearing]
+- -[BKAppearanceFontViewController loadView]
+- -[BKAppearanceFontViewController observeValueForKeyPath:ofObject:change:context:]
+- -[BKAppearanceFontViewController preferredContentSize]
+- -[BKAppearanceFontViewController releaseViews]
+- -[BKAppearanceFontViewController setArrowBackgroundView:]
+- -[BKAppearanceFontViewController setBook:]
+- -[BKAppearanceFontViewController setDelegate:]
+- -[BKAppearanceFontViewController setDesiredContentSize:]
+- -[BKAppearanceFontViewController setDisappearing:]
+- -[BKAppearanceFontViewController setDividerView:]
+- -[BKAppearanceFontViewController setFonts:]
+- -[BKAppearanceFontViewController setShownCannotDownloadFontAlert:]
+- -[BKAppearanceFontViewController setTableView:]
+- -[BKAppearanceFontViewController setTheme:]
+- -[BKAppearanceFontViewController shownCannotDownloadFontAlert]
+- -[BKAppearanceFontViewController stopDownloadingFont:]
+- -[BKAppearanceFontViewController styleManager]
+- -[BKAppearanceFontViewController stylizeForTheme]
+- -[BKAppearanceFontViewController tableView:cellForRowAtIndexPath:]
+- -[BKAppearanceFontViewController tableView:didSelectRowAtIndexPath:]
+- -[BKAppearanceFontViewController tableView:heightForRowAtIndexPath:]
+- -[BKAppearanceFontViewController tableView:numberOfRowsInSection:]
+- -[BKAppearanceFontViewController tableView:willDisplayCell:forRowAtIndexPath:]
+- -[BKAppearanceFontViewController tableView:willSelectRowAtIndexPath:]
+- -[BKAppearanceFontViewController tableView]
+- -[BKAppearanceFontViewController useSelectedFont:]
+- -[BKAppearanceFontViewController viewDidAppear:]
+- -[BKAppearanceFontViewController viewDidDisappear:]
+- -[BKAppearanceFontViewController viewDidLoad]
+- -[BKAppearanceFontViewController viewWillAppear:]
+- -[BKAppearanceFontViewController viewWillDisappear:]
+- -[BKAppearanceTableViewCell initWithStyle:reuseIdentifier:]
+- -[BKAppearanceViewController .cxx_destruct]
+- -[BKAppearanceViewController _changeAppearanceStyle:]
+- -[BKAppearanceViewController _grayThemeButtonImageSelected:]
+- -[BKAppearanceViewController _nightThemeButtonImageSelected:]
+- -[BKAppearanceViewController _restoreAutoNightModeSwitch]
+- -[BKAppearanceViewController _sendActionsForAutoNightSwitchWithPreviousState:]
+- -[BKAppearanceViewController _sepiaThemeButtonImageSelected:]
+- -[BKAppearanceViewController _setPopoverScrolling]
+- -[BKAppearanceViewController _shouldShowAutoNightMode]
+- -[BKAppearanceViewController _themeButtonImageForTheme:selected:]
+- -[BKAppearanceViewController _themeButtonImageWithColor:unselectedBorderColor:selected:]
+- -[BKAppearanceViewController _turnAutoNightModeSwitchOff]
+- -[BKAppearanceViewController _whiteThemeButtonImageSelected:]
+- -[BKAppearanceViewController advancedFonts]
+- -[BKAppearanceViewController appearanceColorContainerHeight]
+- -[BKAppearanceViewController appearanceColorPotHeight]
+- -[BKAppearanceViewController appearanceColorPotSeparator]
+- -[BKAppearanceViewController appearanceColorPotWidth]
+- -[BKAppearanceViewController appearanceFontViewController:didChangeToFontWithName:]
+- -[BKAppearanceViewController appearanceShouldDismissPopover]
+- -[BKAppearanceViewController appearanceStyle]
+- -[BKAppearanceViewController autoNightModeSwitch]
+- -[BKAppearanceViewController book]
+- -[BKAppearanceViewController bottomThemeHairline]
+- -[BKAppearanceViewController changeFontSize:]
+- -[BKAppearanceViewController changeLegibility:]
+- -[BKAppearanceViewController changeLineHeight:]
+- -[BKAppearanceViewController colorPotOffsetMultiplier:]
+- -[BKAppearanceViewController contentSizeCategoryDidChange]
+- -[BKAppearanceViewController contentSize]
+- -[BKAppearanceViewController coordinator:observer:didChangeLayout:]
+- -[BKAppearanceViewController coordinator:observer:didChangeStyle:]
+- -[BKAppearanceViewController currentItems]
+- -[BKAppearanceViewController dealloc]
+- -[BKAppearanceViewController decreaseFontSize:]
+- -[BKAppearanceViewController defaultFontSize:]
+- -[BKAppearanceViewController delegate]
+- -[BKAppearanceViewController disableAutoNightModeSwitch]
+- -[BKAppearanceViewController dismissMenu:]
+- -[BKAppearanceViewController enableAutoNightModeSwitch]
+- -[BKAppearanceViewController fontAppearanceWidthPadding]
+- -[BKAppearanceViewController fontObserver]
+- -[BKAppearanceViewController fontSizeModifiedByOffset:]
+- -[BKAppearanceViewController fontVC]
+- -[BKAppearanceViewController fonts]
+- -[BKAppearanceViewController handleAutoNightModeSwitch:]
+- -[BKAppearanceViewController increaseFontSize:]
+- -[BKAppearanceViewController initWithNibName:bundle:]
+- -[BKAppearanceViewController keyCommands]
+- -[BKAppearanceViewController layout]
+- -[BKAppearanceViewController lineHeightModifiedByOffset:]
+- -[BKAppearanceViewController loadFonts]
+- -[BKAppearanceViewController loadView]
+- -[BKAppearanceViewController maxVisibleFonts]
+- -[BKAppearanceViewController menuItems]
+- -[BKAppearanceViewController numberOfSectionsInTableView:]
+- -[BKAppearanceViewController onScrollSwitch:]
+- -[BKAppearanceViewController onScrollSwitch:notifyingCoordinator:]
+- -[BKAppearanceViewController releaseViews]
+- -[BKAppearanceViewController setAppearanceStyle:]
+- -[BKAppearanceViewController setAutoNightModeSwitch:]
+- -[BKAppearanceViewController setBook:]
+- -[BKAppearanceViewController setBottomThemeHairline:]
+- -[BKAppearanceViewController setCurrentItems:]
+- -[BKAppearanceViewController setDelegate:]
+- -[BKAppearanceViewController setFontVC:]
+- -[BKAppearanceViewController setFonts:]
+- -[BKAppearanceViewController setLayout:]
+- -[BKAppearanceViewController setMenuItems:]
+- -[BKAppearanceViewController setScrollModeOn:notifyingCoordinator:]
+- -[BKAppearanceViewController setShownCannotDownloadFontAlert:]
+- -[BKAppearanceViewController setStyle:]
+- -[BKAppearanceViewController setTheme:]
+- -[BKAppearanceViewController setThemeContainer:]
+- -[BKAppearanceViewController setThemeGray:]
+- -[BKAppearanceViewController setThemeGrayButton:]
+- -[BKAppearanceViewController setThemeNight:]
+- -[BKAppearanceViewController setThemeNightButton:]
+- -[BKAppearanceViewController setThemeNormal:]
+- -[BKAppearanceViewController setThemeSepia:]
+- -[BKAppearanceViewController setThemeSepiaButton:]
+- -[BKAppearanceViewController setThemeWhiteButton:]
+- -[BKAppearanceViewController setTopThemeHairline:]
+- -[BKAppearanceViewController shownCannotDownloadFontAlert]
+- -[BKAppearanceViewController styleManager]
+- -[BKAppearanceViewController style]
+- -[BKAppearanceViewController stylizeForTheme]
+- -[BKAppearanceViewController supportedInterfaceOrientations]
+- -[BKAppearanceViewController tableView:cellForRowAtIndexPath:]
+- -[BKAppearanceViewController tableView:didSelectRowAtIndexPath:]
+- -[BKAppearanceViewController tableView:heightForFooterInSection:]
+- -[BKAppearanceViewController tableView:heightForHeaderInSection:]
+- -[BKAppearanceViewController tableView:heightForRowAtIndexPath:]
+- -[BKAppearanceViewController tableView:numberOfRowsInSection:]
+- -[BKAppearanceViewController tableView:shouldDrawBottomSeparatorForSection:]
+- -[BKAppearanceViewController tableView:shouldHighlightRowAtIndexPath:]
+- -[BKAppearanceViewController tableView:viewForFooterInSection:]
+- -[BKAppearanceViewController tableView:viewForHeaderInSection:]
+- -[BKAppearanceViewController tableView:willDisplayCell:forRowAtIndexPath:]
+- -[BKAppearanceViewController tableView:willSelectRowAtIndexPath:]
+- -[BKAppearanceViewController themeContainer]
+- -[BKAppearanceViewController themeGrayButton]
+- -[BKAppearanceViewController themeNightButton]
+- -[BKAppearanceViewController themeSepiaButton]
+- -[BKAppearanceViewController themeWhiteButton]
+- -[BKAppearanceViewController topThemeHairline]
+- -[BKAppearanceViewController updateThemeButtons]
+- -[BKAppearanceViewController updateUI]
+- -[BKAppearanceViewController viewDidAppear:]
+- -[BKAppearanceViewController viewDidLoad]
+- -[BKAppearanceViewController viewWillAppear:]
+- -[BKAudioController .cxx_destruct]
+- -[BKAudioController _soundTrackChanged:]
+- -[BKAudioController contentSizeCategoryDidChange]
+- -[BKAudioController dealloc]
+- -[BKAudioController delegate]
+- -[BKAudioController desiredPopoverWidth]
+- -[BKAudioController initWithNibName:bundle:]
+- -[BKAudioController numberOfSectionsInTableView:]
+- -[BKAudioController onReadButton:]
+- -[BKAudioController onTrackSwitch:]
+- -[BKAudioController onTurnSwitch:]
+- -[BKAudioController onVolume:]
+- -[BKAudioController releaseViews]
+- -[BKAudioController setDelegate:]
+- -[BKAudioController tableView:cellForRowAtIndexPath:]
+- -[BKAudioController tableView:didSelectRowAtIndexPath:]
+- -[BKAudioController tableView:numberOfRowsInSection:]
+- -[BKAudioController tableView:shouldHighlightRowAtIndexPath:]
+- -[BKAudioController updateControlStates]
+- -[BKAudioController updatePopoverSize]
+- -[BKAudioController updateRowHeight]
+- -[BKAudioController viewDidDisappear:]
+- -[BKAudioController viewDidLoad]
+- -[BKAudioController viewWillAppear:]
+- -[BKAudioController volumeSlider]
+- -[BKAudioLocation description]
+- -[BKAudioLocation hash]
+- -[BKAudioLocation initWithLocationDictionary:]
+- -[BKAudioLocation initWithOrdinal:offset:]
+- -[BKAudioLocation isEqual:]
+- -[BKAudioLocation offset]
+- -[BKAudioLocation serializeLocationToDictionary]
+- -[BKAudioLocation setOffset:]
+- -[BKAudioLocation stringValue]
+- -[BKAudioTrackNumberLocation description]
+- -[BKAudioTrackNumberLocation hash]
+- -[BKAudioTrackNumberLocation initWithOrdinal:offset:persistentID:]
+- -[BKAudioTrackNumberLocation isEqual:]
+- -[BKAudioTrackNumberLocation persistentID]
+- -[BKAudioTrackNumberLocation stringValue]
+- -[BKAudioTurnModeViewController .cxx_destruct]
+- -[BKAudioTurnModeViewController dealloc]
+- -[BKAudioTurnModeViewController delegate]
+- -[BKAudioTurnModeViewController didReceiveMemoryWarning]
+- -[BKAudioTurnModeViewController initWithNibName:bundle:]
+- -[BKAudioTurnModeViewController releaseViews]
+- -[BKAudioTurnModeViewController setDelegate:]
+- -[BKAudioTurnModeViewController tableView:cellForRowAtIndexPath:]
+- -[BKAudioTurnModeViewController tableView:didSelectRowAtIndexPath:]
+- -[BKAudioTurnModeViewController tableView:numberOfRowsInSection:]
+- -[BKAudioTurnModeViewController viewDidLoad]
+- -[BKAudioTurnModeViewController viewWillAppear:]
+- -[BKAudiobookPersistenceController(AssetsEngine) audiobookTimeForLocation:audiobook:]
+- -[BKAudiobookPersistenceController(AssetsEngine) registerAEPersistencePlugins]
+- -[BKBookContainerView .cxx_destruct]
+- -[BKBookContainerView _commonInit]
+- -[BKBookContainerView _setupGestureRecognizers]
+- -[BKBookContainerView _setupManualCurlForIndirectRecognizerForTranslation:]
+- -[BKBookContainerView _shouldIgnoreNavigationTouch:]
+- -[BKBookContainerView _startLocationInViewWithGesture:]
+- -[BKBookContainerView _startedManualCurlAnimation:isRightSide:]
+- -[BKBookContainerView _tapLocationForTouchLocation:]
+- -[BKBookContainerView _tapLocationIsInTextOverlapArea:]
+- -[BKBookContainerView _touchIsNoNoClassOrMediaElement:]
+- -[BKBookContainerView _turnPendingPagesAfterFinishing]
+- -[BKBookContainerView addGestureRecognizer:]
+- -[BKBookContainerView cancelTapTimer:]
+- -[BKBookContainerView dealloc]
+- -[BKBookContainerView delegate]
+- -[BKBookContainerView externalGestureRecognizerCount]
+- -[BKBookContainerView gestureRecognizer:shouldReceiveTouch:]
+- -[BKBookContainerView gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
+- -[BKBookContainerView gestureRecognizer:shouldRequireFailureOfGestureRecognizer:]
+- -[BKBookContainerView gestureRecognizerShouldBegin:]
+- -[BKBookContainerView gestureRecognizers]
+- -[BKBookContainerView ignoreNextGesture]
+- -[BKBookContainerView inManualCurl]
+- -[BKBookContainerView initWithCoder:]
+- -[BKBookContainerView initWithFrame:]
+- -[BKBookContainerView internalGestureRecognizersSet]
+- -[BKBookContainerView killCurl]
+- -[BKBookContainerView layoutSubviews]
+- -[BKBookContainerView leftChapterGesture:]
+- -[BKBookContainerView leftPageGesture:]
+- -[BKBookContainerView manualCurlFinished:]
+- -[BKBookContainerView manualCurlGesture:]
+- -[BKBookContainerView removeGestureRecognizer:]
+- -[BKBookContainerView rightChapterGesture:]
+- -[BKBookContainerView rightPageGesture:]
+- -[BKBookContainerView setDelegate:]
+- -[BKBookContainerView setExternalGestureRecognizerCount:]
+- -[BKBookContainerView setIgnoreNextGesture:]
+- -[BKBookContainerView setInternalGestureRecognizersSet:]
+- -[BKBookContainerView setSpineLocation:]
+- -[BKBookContainerView shouldHandleSwipeGesture:]
+- -[BKBookContainerView spineLocation]
+- -[BKBookContainerView tapGesture:]
+- -[BKBookContainerView unhandledClickAtPoint:]
+- -[BKBookParser .cxx_destruct]
+- -[BKBookParser book]
+- -[BKBookParser initWithBook:]
+- -[BKBookParser parse:]
+- -[BKBookViewController .cxx_destruct]
+- -[BKBookViewController _allAnnotationsForType:]
+- -[BKBookViewController _analyticsSessionHost]
+- -[BKBookViewController _cleanDocumentElementForMediaOverlay:]
+- -[BKBookViewController _cleanupFootnoteViewController]
+- -[BKBookViewController _contentControllerThatHasCopyableSelection]
+- -[BKBookViewController _contentReady:]
+- -[BKBookViewController _contentSettingsDataFromReadingSessionData:optedIn:]
+- -[BKBookViewController _controller:handleInternalRequestForURL:]
+- -[BKBookViewController _createEndOfBookExperience]
+- -[BKBookViewController _createEndOfBookExperience].cold.1
+- -[BKBookViewController _createEndOfBookExperience].cold.2
+- -[BKBookViewController _currentChapterInfo:uniqueID:]
+- -[BKBookViewController _currentReadingProgress]
+- -[BKBookViewController _dismissSearchViewController]
+- -[BKBookViewController _emitAnnotationActionEventIfNeededForAnnotationType:]
+- -[BKBookViewController _focusOnPage:]
+- -[BKBookViewController _footnoteViewController2ForResource:stylesheetSet:]
+- -[BKBookViewController _handleExternalLoadRequest:likelyUserInitiated:]
+- -[BKBookViewController _highlightElement:]
+- -[BKBookViewController _inAnalyticsReadSession]
+- -[BKBookViewController _installClickHandlers:]
+- -[BKBookViewController _isFocusedOnSecondPageOfSpread]
+- -[BKBookViewController _isManualCurlInProgress]
+- -[BKBookViewController _isPageAllZeros:]
+- -[BKBookViewController _isPageEmpty:]
+- -[BKBookViewController _itemIndexForCurrentPage]
+- -[BKBookViewController _locationForChapter:]
+- -[BKBookViewController _markupDocumentElementForMediaOverlay:]
+- -[BKBookViewController _newBADoNotDisturbDataWithStartStatus:tracker:completion:]
+- -[BKBookViewController _nextDelayedPageHint:]
+- -[BKBookViewController _nextPageHint:]
+- -[BKBookViewController _nextPageHint:afterDelay:]
+- -[BKBookViewController _normalizedLocation:]
+- -[BKBookViewController _notifyBookmarkObservers]
+- -[BKBookViewController _paginationComplete:]
+- -[BKBookViewController _performScrollTest:completionHandler:]
+- -[BKBookViewController _performScrollTest:iterations:delta:]
+- -[BKBookViewController _playNextItem]
+- -[BKBookViewController _prepareSmilMapOn:]
+- -[BKBookViewController _promptToLoadExternalContent:]
+- -[BKBookViewController _readPlayer]
+- -[BKBookViewController _removeClickHandlers:]
+- -[BKBookViewController _removeHighlightOnElement:]
+- -[BKBookViewController _reportLoadFailedAlertForError:]
+- -[BKBookViewController _reportResourceUnavailableForBookWithTitle:error:]
+- -[BKBookViewController _resume]
+- -[BKBookViewController _searchQueryFromSender:]
+- -[BKBookViewController _searchResultOffsetByDistance:]
+- -[BKBookViewController _setAudioSessionMix:]
+- -[BKBookViewController _showExpandedContentForResource:atLocation:presentingFromTOC:completion:]
+- -[BKBookViewController _startReadAloud:]
+- -[BKBookViewController _trackPlayer]
+- -[BKBookViewController _traitCollectionDidChange:previousTraitCollection:]
+- -[BKBookViewController _updateHoverInteraction]
+- -[BKBookViewController _updateLocationFromAnnotation:]
+- -[BKBookViewController _visibleAnnotationsForType:]
+- -[BKBookViewController actionControllerDidHide:]
+- -[BKBookViewController actionControllerWillShow:]
+- -[BKBookViewController actionController]
+- -[BKBookViewController activityViewController]
+- -[BKBookViewController addAnnotation:location:selectedText:representativeText:]
+- -[BKBookViewController addTOCEntries:ordinal:completion:]
+- -[BKBookViewController addTextNodeCharacterCounts:ordinal:completion:]
+- -[BKBookViewController allBookmarkIdentifiers]
+- -[BKBookViewController allowsScrollMode]
+- -[BKBookViewController analyticsContentSettingData]
+- -[BKBookViewController analyticsReadStartDate]
+- -[BKBookViewController analyticsReadStartProgress]
+- -[BKBookViewController analyticsReadingSettingsData]
+- -[BKBookViewController annotationChangeRequiresPaginationUpdate]
+- -[BKBookViewController annotationProvider]
+- -[BKBookViewController appIntentsInfo]
+- -[BKBookViewController appearanceIdentifierForSnapshot]
+- -[BKBookViewController appearanceMenuItems]
+- -[BKBookViewController appearanceStyleForSnapshot]
+- -[BKBookViewController appearanceViewController:didChangeAutoNightMode:previousValue:]
+- -[BKBookViewController appearanceViewController:didChangeFont:]
+- -[BKBookViewController appearanceViewController:didChangeFontSize:]
+- -[BKBookViewController appearanceViewController:didChangeLayout:]
+- -[BKBookViewController appearanceViewController:didChangeTheme:]
+- -[BKBookViewController appearanceViewController:willChangeTheme:]
+- -[BKBookViewController appearanceViewControllerShouldDismiss]
+- -[BKBookViewController assetViewControllerDelegateForContentViewController:]
+- -[BKBookViewController assetViewControllerDelegate]
+- -[BKBookViewController assetViewControllerDidEndLiveResize]
+- -[BKBookViewController assetViewControllerPrepareForReload]
+- -[BKBookViewController assetViewControllerUpdateCloseStateTypeIfNeeded]
+- -[BKBookViewController assetViewControllerUpdateToolbarsAfterOpenAnimation]
+- -[BKBookViewController assetViewControllerUpdateToolbarsForOpenAnimation]
+- -[BKBookViewController assetViewControllerUpdateToolbars]
+- -[BKBookViewController assetViewControllerWillBeginLiveResize]
+- -[BKBookViewController asset]
+- -[BKBookViewController audioController]
+- -[BKBookViewController audioPlaybackWillStart:]
+- -[BKBookViewController autoHidesToolbarInFullscreen]
+- -[BKBookViewController autoNightModeForAppearanceViewController:]
+- -[BKBookViewController bc_analyticsVisibilityDidAppear]
+- -[BKBookViewController bc_analyticsVisibilityIsObscuredWhenPresented]
+- -[BKBookViewController bc_analyticsVisibilityOfSelf]
+- -[BKBookViewController bc_analyticsVisibilityWillDisappear]
+- -[BKBookViewController bc_analyticsVisibilityWillDisappear].cold.1
+- -[BKBookViewController bkaxAccessibilityUserIsRequestingControlsVisibilityToggle]
+- -[BKBookViewController bkaxNeedsPersistentControls]
+- -[BKBookViewController bkaxToggleControls:]
+- -[BKBookViewController bookCanBeBookmarked]
+- -[BKBookViewController bookMilestoneReached:]
+- -[BKBookViewController bookPositionChanged:]
+- -[BKBookViewController bookPositionProcessor]
+- -[BKBookViewController bookSectionChanged:]
+- -[BKBookViewController bookToolbarCurrentPageString]
+- -[BKBookViewController bookToolbarMode]
+- -[BKBookViewController bookToolbarShareURL]
+- -[BKBookViewController bookToolbarThemeID]
+- -[BKBookViewController bookToolbarTitle]
+- -[BKBookViewController bookToolbarTransparency]
+- -[BKBookViewController book]
+- -[BKBookViewController bookmarkObservers]
+- -[BKBookViewController bookmarkPage:]
+- -[BKBookViewController bookmarkToolTip]
+- -[BKBookViewController bookmarksFetchRequestForBook:moc:]
+- -[BKBookViewController books_chapterBackward:]
+- -[BKBookViewController books_chapterEnd:]
+- -[BKBookViewController books_chapterForward:]
+- -[BKBookViewController books_chapterLeft:]
+- -[BKBookViewController books_chapterRight:]
+- -[BKBookViewController books_chapterStart:]
+- -[BKBookViewController books_close:]
+- -[BKBookViewController books_find:]
+- -[BKBookViewController books_findNext:]
+- -[BKBookViewController books_findPrevious:]
+- -[BKBookViewController books_search:]
+- -[BKBookViewController books_showContent:]
+- -[BKBookViewController books_toggleBookmark:]
+- -[BKBookViewController brightnessController]
+- -[BKBookViewController buildContextTree:]
+- -[BKBookViewController buildHoverControlRegionWithBuilder:]
+- -[BKBookViewController buttonColor]
+- -[BKBookViewController buttonTitleColor]
+- -[BKBookViewController buy:]
+- -[BKBookViewController buyParameters]
+- -[BKBookViewController buyPressedFromToolbar:]
+- -[BKBookViewController buyWithCompletion:]
+- -[BKBookViewController cachedContentData]
+- -[BKBookViewController calculatePageCountExcludingUpsell]
+- -[BKBookViewController canBecomeFirstResponder]
+- -[BKBookViewController canCopy]
+- -[BKBookViewController canDismissControls]
+- -[BKBookViewController canGoToNextPage]
+- -[BKBookViewController canGoToPreviousPage]
+- -[BKBookViewController canNavigateByChapter]
+- -[BKBookViewController canPerformAction:withSender:]
+- -[BKBookViewController canSearch]
+- -[BKBookViewController canShowContent]
+- -[BKBookViewController canTurnPagesAutomaticallyForToolbarItem:]
+- -[BKBookViewController canTurnPagesAutomaticallyWhileReadingAloudForToolbar:]
+- -[BKBookViewController canTurnPagesAutomatically]
+- -[BKBookViewController cancelPendingHidePageControls]
+- -[BKBookViewController cancelPendingSavePageControlVisibility]
+- -[BKBookViewController cancelPreloadForContent:]
+- -[BKBookViewController chapterColor]
+- -[BKBookViewController chapterTitleForAnnotation:]
+- -[BKBookViewController cleanupPopovers]
+- -[BKBookViewController clearCurrentHighlighting]
+- -[BKBookViewController clearInactiveContentViewControllers]
+- -[BKBookViewController clearSearchResultForContentViewController:]
+- -[BKBookViewController clearSearchResult]
+- -[BKBookViewController clearSelectedAnnotation]
+- -[BKBookViewController clearSelection]
+- -[BKBookViewController close:]
+- -[BKBookViewController contentDataForSearchViewController:]
+- -[BKBookViewController contentData]
+- -[BKBookViewController contentFailedToLoadWithError:]
+- -[BKBookViewController contentOpenAnimator]
+- -[BKBookViewController contentSubType]
+- -[BKBookViewController contentView:didSelectMediaOverlayElement:]
+- -[BKBookViewController contentViewController:addAnnotation:location:selectedText:representativeText:]
+- -[BKBookViewController contentViewController:expandAnnotation:location:selectedText:representativeText:]
+- -[BKBookViewController contentViewController:fullScreenNoteEditorForAnnotation:]
+- -[BKBookViewController contentViewController:goToLocation:]
+- -[BKBookViewController contentViewController:goToURL:likelyUserInitiated:]
+- -[BKBookViewController contentViewController:handleUserRequestForFrameToLoadExternalURL:completion:]
+- -[BKBookViewController contentViewController:hostViewForActivityIndicator:]
+- -[BKBookViewController contentViewController:navigatePageDirection:]
+- -[BKBookViewController contentViewController:presentAlertController:completion:]
+- -[BKBookViewController contentViewController:searchForString:]
+- -[BKBookViewController contentViewController:setEndOfBookToLocation:range:]
+- -[BKBookViewController contentViewController:setFinishedAndCloseForAssetID:]
+- -[BKBookViewController contentViewController:setReadAloudState:]
+- -[BKBookViewController contentViewController:setSearchString:]
+- -[BKBookViewController contentViewController:setTurnState:]
+- -[BKBookViewController contentViewController:shareAnnotation:annotationRects:completion:]
+- -[BKBookViewController contentViewController:showAlertController:fromRect:animated:]
+- -[BKBookViewController contentViewController:showExpandedContentForResource:atLocation:]
+- -[BKBookViewController contentViewController:showHighlightingMenuForAnnotation:]
+- -[BKBookViewController contentViewController:showLookupForString:fromView:onClose:]
+- -[BKBookViewController contentViewController:showNoteForAnnotation:]
+- -[BKBookViewController contentViewController:showTranslateForText:fromView:onClose:]
+- -[BKBookViewController contentViewController:stopMediaPlay:]
+- -[BKBookViewController contentViewControllerAnnotationCacheDidChange:]
+- -[BKBookViewController contentViewControllerDidFinishLayout:]
+- -[BKBookViewController contentViewControllerForAnnotation:]
+- -[BKBookViewController contentViewControllerForLocation:]
+- -[BKBookViewController contentViewControllerForMediaOverlayElement:]
+- -[BKBookViewController contentViewControllerForPageNumber:]
+- -[BKBookViewController contentViewControllerReadAloudState]
+- -[BKBookViewController contentViewControllers]
+- -[BKBookViewController contentViewFailedToLoad:error:]
+- -[BKBookViewController contentViewReady:]
+- -[BKBookViewController continueReadAloudAfterReady]
+- -[BKBookViewController controller:didChangeObject:atIndexPath:forChangeType:newIndexPath:]
+- -[BKBookViewController controllerDidChangeContent:]
+- -[BKBookViewController controllerWillChangeContent:]
+- -[BKBookViewController controlsEnabledViaHover]
+- -[BKBookViewController controlsVisible]
+- -[BKBookViewController coordinator:observer:didChangeLayout:]
+- -[BKBookViewController coordinator:observer:didChangeStyle:]
+- -[BKBookViewController copy:]
+- -[BKBookViewController createPaginationControllerIfNeeded:]
+- -[BKBookViewController createSnapshotOfStyle:assetVersion:completion:]
+- -[BKBookViewController currentBookCacheItem]
+- -[BKBookViewController currentLocationForSnapshot]
+- -[BKBookViewController currentLocationForSnapshot].cold.1
+- -[BKBookViewController currentLocation]
+- -[BKBookViewController currentPageLocation]
+- -[BKBookViewController currentPageNumber]
+- -[BKBookViewController currentPages]
+- -[BKBookViewController currentSearchResultForContentViewController:]
+- -[BKBookViewController currentSoundtrack]
+- -[BKBookViewController dealloc]
+- -[BKBookViewController defaultLayoutToUse]
+- -[BKBookViewController delayedHidePageControls]
+- -[BKBookViewController delayedSavePageControlVisibility]
+- -[BKBookViewController didChangeCurrentOverlayViewController]
+- -[BKBookViewController didChangeLocationClosing:suspending:]
+- -[BKBookViewController didHideAnnotationEditor:]
+- -[BKBookViewController didMoveToParentViewController:]
+- -[BKBookViewController didPurchaseWithProductProfile:completion:]
+- -[BKBookViewController didReceiveMemoryWarning]
+- -[BKBookViewController directoryContent:didSelectBookmarkForLocation:annotationUUID:]
+- -[BKBookViewController directoryContent:didSelectHighlightForLocation:annotationUUID:]
+- -[BKBookViewController directoryContent:didSelectLocation:]
+- -[BKBookViewController directoryContent:didSelectLocation:animated:]
+- -[BKBookViewController directoryContent:locationForPageNumber:]
+- -[BKBookViewController directoryContent:pageNumberForLocation:]
+- -[BKBookViewController directoryContent:pageTitleForPageNumber:]
+- -[BKBookViewController directorySwitcher]
+- -[BKBookViewController dismissCurrentPopoverAnimated:]
+- -[BKBookViewController dismissCurrentPopoverWithCompletion:animated:]
+- -[BKBookViewController dismissCurrentPopover]
+- -[BKBookViewController dismissPopover]
+- -[BKBookViewController displaySleepController]
+- -[BKBookViewController doNotDisturbStatusAtStart]
+- -[BKBookViewController documentForLocation:]
+- -[BKBookViewController documentForURL:]
+- -[BKBookViewController donePressedFromToolbar:]
+- -[BKBookViewController editorController:deleteAnnotation:]
+- -[BKBookViewController editorController:editNote:]
+- -[BKBookViewController editorController:editedAnnotation:toText:]
+- -[BKBookViewController editorController:editedAnnotation:toText:].cold.1
+- -[BKBookViewController editorController:isSharingEnabledForAnnotation:]
+- -[BKBookViewController editorController:setTheme:forAnnotation:]
+- -[BKBookViewController editorController:shareAnnotation:]
+- -[BKBookViewController editorController:showEditMenuForAnnotation:]
+- -[BKBookViewController emitReadingOrientationChangeEventIfNeeded]
+- -[BKBookViewController emitScrubEventStartPosition:endPosition:totalLength:]
+- -[BKBookViewController environmentOverrideViewForPaginationController:]
+- -[BKBookViewController environmentOverrideViewForSearchViewController:]
+- -[BKBookViewController environmentOverrideView]
+- -[BKBookViewController existingContentViewControllerForPageNumber:]
+- -[BKBookViewController expandAnnotation:location:selectedText:representativeText:]
+- -[BKBookViewController expandedContentView:shouldStartLoadWithRequest:]
+- -[BKBookViewController expandedContentViewController:handleExternalLoadRequest:likelyUserInitiated:]
+- -[BKBookViewController expandedContentViewController:handleInternalLoadRequest:]
+- -[BKBookViewController expandedContentViewController:handleInternalLoadRequestForNewWindow:]
+- -[BKBookViewController expandedContentViewController:handleUserRequestForFrameToLoadExternalURL:completion:]
+- -[BKBookViewController expandedContentViewController:presentAlertController:completion:]
+- -[BKBookViewController expandedContentViewController]
+- -[BKBookViewController expandedContentViewDidDisappear:]
+- -[BKBookViewController experienceManager]
+- -[BKBookViewController fixupNavigationHistoryForUpsellPageNumber:]
+- -[BKBookViewController footnoteController]
+- -[BKBookViewController footnoteSourceView]
+- -[BKBookViewController footnoteViewController:handleExternalLoadRequest:likelyUserInitiated:]
+- -[BKBookViewController footnoteViewController:handleInternalLoadRequest:]
+- -[BKBookViewController footnoteViewController:handleInternalLoadRequestForNewWindow:]
+- -[BKBookViewController footnoteViewController:handleUserRequestForFrameToLoadExternalURL:completion:]
+- -[BKBookViewController footnoteViewController:presentAlertController:completion:]
+- -[BKBookViewController footnoteViewControllerForResource:stylesheetSet:]
+- -[BKBookViewController footnoteViewDidDisappear:]
+- -[BKBookViewController footnoteViewDidFinishLoad:]
+- -[BKBookViewController forceReload]
+- -[BKBookViewController forceRepagination]
+- -[BKBookViewController frameForLocation:inView:expandedContentViewController:]
+- -[BKBookViewController fullScreenNoteEditorForAnnotation:]
+- -[BKBookViewController getViewSnapshot]
+- -[BKBookViewController goToPath:fragment:animated:]
+- -[BKBookViewController handleAppearanceViewControllerDismissal]
+- -[BKBookViewController handleDoubleTap:]
+- -[BKBookViewController handleEditRedo:]
+- -[BKBookViewController handleEditUndo:]
+- -[BKBookViewController handleEditUndoAll:]
+- -[BKBookViewController handleInvertColorsStatusChanged:]
+- -[BKBookViewController handleSwitchControlStatusChanged:]
+- -[BKBookViewController handleVoiceOverStatusChanged:]
+- -[BKBookViewController hasCheckedForRemoteResources]
+- -[BKBookViewController hasHighlightedText]
+- -[BKBookViewController hasRemoteResources]
+- -[BKBookViewController hasSoundtrackForToolbar:]
+- -[BKBookViewController hasSoundtrackForToolbarItem:]
+- -[BKBookViewController hasSoundtrack]
+- -[BKBookViewController hasSpreadPagesForContentViewController:]
+- -[BKBookViewController hasSpreadPages]
+- -[BKBookViewController hasTextSelected]
+- -[BKBookViewController hidePageControls:]
+- -[BKBookViewController hidesPageControlsOnOpenDelay]
+- -[BKBookViewController hidesPageControlsOnOpen]
+- -[BKBookViewController highlightSearchResult:]
+- -[BKBookViewController highlightSearchResult:forceVisible:]
+- -[BKBookViewController hoverInteraction:didChangeStateForRegionWithKeys:]
+- -[BKBookViewController hoverInteractionDidSettle:]
+- -[BKBookViewController hoverInteraction]
+- -[BKBookViewController inLiveResize]
+- -[BKBookViewController initWithBook:storeID:]
+- -[BKBookViewController isAnnotationSharingSupportedForContentViewController:]
+- -[BKBookViewController isAnnotationVisible:]
+- -[BKBookViewController isAssetSnapshotEnabled]
+- -[BKBookViewController isBookToolbarAppearanceDark]
+- -[BKBookViewController isEditingAnnotation:]
+- -[BKBookViewController isLocationOnCurrentPage:]
+- -[BKBookViewController isLocationOnCurrentPage:expandedContentViewController:]
+- -[BKBookViewController isLocationOnVisiblePages:]
+- -[BKBookViewController isLocationOnVisiblePages:completion:]
+- -[BKBookViewController isLocationVisible:completion:]
+- -[BKBookViewController isOnLastPage]
+- -[BKBookViewController isPageBookmarked]
+- -[BKBookViewController isPageProgressionRTL]
+- -[BKBookViewController isPreordered]
+- -[BKBookViewController isReadAloudPaused]
+- -[BKBookViewController isReadingAloudForToolbar:]
+- -[BKBookViewController isReadingForToolbarItem:]
+- -[BKBookViewController isReading]
+- -[BKBookViewController isRotationInProgress]
+- -[BKBookViewController isSharingSupported]
+- -[BKBookViewController isSoundtrackPlayingForToolbar:]
+- -[BKBookViewController isSoundtrackPlayingForToolbarItem:]
+- -[BKBookViewController isSoundtrackPlaying]
+- -[BKBookViewController isTOCURL:]
+- -[BKBookViewController itemProvidersForSharing]
+- -[BKBookViewController jumpAheadAnimated:]
+- -[BKBookViewController jumpBackAnimated:]
+- -[BKBookViewController jumpToBeginningAnimated:]
+- -[BKBookViewController jumpToLocation:animated:completion:]
+- -[BKBookViewController keyCommands]
+- -[BKBookViewController lastAnalyticsDeviceOrientationReported]
+- -[BKBookViewController lastLayoutUsedKey]
+- -[BKBookViewController lastLayoutUsed]
+- -[BKBookViewController layout]
+- -[BKBookViewController locationForPath:fragment:]
+- -[BKBookViewController locationForSnapshotForLocation:]
+- -[BKBookViewController location]
+- -[BKBookViewController managedObjectContextDidSave:]
+- -[BKBookViewController mediaPlaybackStarted:]
+- -[BKBookViewController navigationHistory]
+- -[BKBookViewController needTOCEntriesForOrdinal:]
+- -[BKBookViewController needTextNodeCharacterCountsForOrdinal:]
+- -[BKBookViewController nextSearchResult]
+- -[BKBookViewController noteEditorHighlightedTextFont]
+- -[BKBookViewController noteEditor]
+- -[BKBookViewController notifyAppIntentsInfoChanged]
+- -[BKBookViewController numberOfBookmarks]
+- -[BKBookViewController observeValueForKeyPath:ofObject:change:context:]
+- -[BKBookViewController onlySupportsScrollingLayout]
+- -[BKBookViewController open:]
+- -[BKBookViewController openToLocation:animated:]
+- -[BKBookViewController openingLocation]
+- -[BKBookViewController p_releaseDictionary]
+- -[BKBookViewController pageCountDidUpdate]
+- -[BKBookViewController pageCountExcludingUpsell]
+- -[BKBookViewController pageCountIncludingUpsell]
+- -[BKBookViewController pageLocationForPageNumber:]
+- -[BKBookViewController pageNavigationContentViewWillAppear:]
+- -[BKBookViewController pageNavigationController:shouldDelayChangeToPageOffset:completion:]
+- -[BKBookViewController pageNavigationCurrentReadAloudPageOffset:]
+- -[BKBookViewController pageNavigationDidBeginInteracting:]
+- -[BKBookViewController pageNavigationDidChangeLocation:]
+- -[BKBookViewController pageNavigationDidEndInteracting:]
+- -[BKBookViewController pageNavigationDidRemoveContentForPageNumber:]
+- -[BKBookViewController pageNavigationDidRemoveContentViewController:]
+- -[BKBookViewController pageNavigationDidSwipeToNextPage:]
+- -[BKBookViewController pageNavigationDidTryToSwipePastEndOfBook:]
+- -[BKBookViewController pageNavigationToggleBookmark:]
+- -[BKBookViewController pageNavigationToggleControls:]
+- -[BKBookViewController pageNavigationViewController]
+- -[BKBookViewController pageNumberBeforeScrubbing]
+- -[BKBookViewController pageNumberForTouchBarPosition:]
+- -[BKBookViewController pageNumberFromRange:]
+- -[BKBookViewController pagePositionForTouchBarPosition:]
+- -[BKBookViewController pageProgressionDirection]
+- -[BKBookViewController pageRangeForAnnotation:]
+- -[BKBookViewController pageTitleForPageNumber:]
+- -[BKBookViewController pageViewController:viewControllerAfterViewController:]
+- -[BKBookViewController pageViewController:viewControllerBeforeViewController:]
+- -[BKBookViewController pageViewControllersDidChange]
+- -[BKBookViewController paginationCompleted]
+- -[BKBookViewController paginationController]
+- -[BKBookViewController paginationUpdateRequiredForContentViewController:]
+- -[BKBookViewController paginationUpdateRequired]
+- -[BKBookViewController pauseReadAloudForContentViewController:]
+- -[BKBookViewController pauseReadAloud]
+- -[BKBookViewController performSelectorProxy]
+- -[BKBookViewController playCurrentSoundtrack]
+- -[BKBookViewController playNextItemAbortedWhileInactive]
+- -[BKBookViewController player:callbackForTime:]
+- -[BKBookViewController playerCurrentItemEnded:]
+- -[BKBookViewController playerStateChanged:]
+- -[BKBookViewController popoverDidClose:fromToolbar:]
+- -[BKBookViewController preferredStatusBarUpdateAnimation]
+- -[BKBookViewController prefersHomeIndicatorAutoHidden]
+- -[BKBookViewController prefersStatusBarHidden]
+- -[BKBookViewController preloadContentController:highPriority:]
+- -[BKBookViewController preloadContentViewController:highPriority:]
+- -[BKBookViewController prepareForSnapshot]
+- -[BKBookViewController presentAppearanceViewControllerFromItem:]
+- -[BKBookViewController presentViewController:animated:completion:]
+- -[BKBookViewController presentationControllerDidDismiss:]
+- -[BKBookViewController previousSearchResult]
+- -[BKBookViewController priceString]
+- -[BKBookViewController profileFuture]
+- -[BKBookViewController promptForRemoteResourcesIfNecessary]
+- -[BKBookViewController protocolCacheItemForAEBookInfo:]
+- -[BKBookViewController readAloudState]
+- -[BKBookViewController readAloudViewControllerReady:]
+- -[BKBookViewController readNextPages:]
+- -[BKBookViewController readPages:from:to:waitOnEmpty:]
+- -[BKBookViewController readerType]
+- -[BKBookViewController readingLocationChanged]
+- -[BKBookViewController readingLocationHighwaterMark]
+- -[BKBookViewController readingProgress]
+- -[BKBookViewController readingSessionDataForSearchViewController:]
+- -[BKBookViewController readingSessionData]
+- -[BKBookViewController rebuildHoverRegions]
+- -[BKBookViewController recordJumpFromCurrentLocation]
+- -[BKBookViewController recordedJumpToLocation:animated:completion:]
+- -[BKBookViewController recordedTurnToBeginningOfChapter]
+- -[BKBookViewController recordedTurnToEndOfChapter]
+- -[BKBookViewController recordedTurnToNextChapter]
+- -[BKBookViewController recordedTurnToPreviousChapter]
+- -[BKBookViewController referenceLibraryViewController]
+- -[BKBookViewController registerBookmarkObserver:]
+- -[BKBookViewController releaseViews]
+- -[BKBookViewController reloadExternalWebFrames]
+- -[BKBookViewController reportedLocation]
+- -[BKBookViewController requestClose:]
+- -[BKBookViewController resetKeyWindow]
+- -[BKBookViewController restoreSavedLocation]
+- -[BKBookViewController resume:]
+- -[BKBookViewController resumeLocation]
+- -[BKBookViewController resumeReadAloudForContentViewController:]
+- -[BKBookViewController resumeReadAloud]
+- -[BKBookViewController revealSearchResult:animated:]
+- -[BKBookViewController safeToShowToolbarItems]
+- -[BKBookViewController savableLocationForLocation:]
+- -[BKBookViewController savableLocation]
+- -[BKBookViewController saveBook]
+- -[BKBookViewController savePageControlVisibilityDelay]
+- -[BKBookViewController savePageControlVisibility]
+- -[BKBookViewController saveReadingLocation:]
+- -[BKBookViewController saveStateClosing:]
+- -[BKBookViewController saveStateClosing:suspending:]
+- -[BKBookViewController scrollLayoutForBook:]
+- -[BKBookViewController scrub:]
+- -[BKBookViewController scrubValueChanged:]
+- -[BKBookViewController scrubberTouchDown:]
+- -[BKBookViewController searchButtonItem]
+- -[BKBookViewController searchModuleWithSearchString:]
+- -[BKBookViewController searchResult]
+- -[BKBookViewController searchStringLengthLimit]
+- -[BKBookViewController searchViewController:chapterNameForSearchResult:pageNumber:]
+- -[BKBookViewController searchViewController:didTransitionToSize:]
+- -[BKBookViewController searchViewController:pageNumberForDocumentOrdinal:]
+- -[BKBookViewController searchViewController:revealSearchResult:animated:]
+- -[BKBookViewController searchViewController:turnToLocation:animated:]
+- -[BKBookViewController searchViewController:turnToPageNumber:animated:]
+- -[BKBookViewController searchViewController:willTransitionToSize:]
+- -[BKBookViewController searchViewControllerIfLoaded]
+- -[BKBookViewController searchViewController]
+- -[BKBookViewController section]
+- -[BKBookViewController selectionHighlightType]
+- -[BKBookViewController setActionController:]
+- -[BKBookViewController setActivityViewController:]
+- -[BKBookViewController setAnalyticsReadStartDate:]
+- -[BKBookViewController setAnalyticsReadStartProgress:]
+- -[BKBookViewController setAnnotationChangeRequiresPaginationUpdate:]
+- -[BKBookViewController setAnnotationProvider:]
+- -[BKBookViewController setAssetIsPreordered:]
+- -[BKBookViewController setAssetSnapshotEnabled:]
+- -[BKBookViewController setAssetViewControllerDelegate:]
+- -[BKBookViewController setAudioController:]
+- -[BKBookViewController setBkaxAccessibilityUserIsRequestingControlsVisibilityToggle:]
+- -[BKBookViewController setBook:]
+- -[BKBookViewController setBookPositionProcessor:]
+- -[BKBookViewController setBookmarkObservers:]
+- -[BKBookViewController setBrightnessController:]
+- -[BKBookViewController setBuyButtonProgress:]
+- -[BKBookViewController setBuyParameters:]
+- -[BKBookViewController setCachedContentData:]
+- -[BKBookViewController setContentOpenAnimator:]
+- -[BKBookViewController setControlsEnabledViaHover:]
+- -[BKBookViewController setControlsVisible:]
+- -[BKBookViewController setControlsVisible:animated:]
+- -[BKBookViewController setControlsVisible:animated:animations:completion:]
+- -[BKBookViewController setControlsVisible:animated:completion:]
+- -[BKBookViewController setCurrentBookCacheItem:]
+- -[BKBookViewController setDoNotDisturbStatusAtStart:]
+- -[BKBookViewController setExpandedContentViewController:]
+- -[BKBookViewController setExperienceManager:]
+- -[BKBookViewController setFinishedForAssetID:]
+- -[BKBookViewController setFootnoteController:]
+- -[BKBookViewController setFootnoteSourceView:]
+- -[BKBookViewController setHasCheckedForRemoteResources:]
+- -[BKBookViewController setHasRemoteResources:]
+- -[BKBookViewController setLastAnalyticsDeviceOrientationReported:]
+- -[BKBookViewController setLayout:]
+- -[BKBookViewController setLocation:]
+- -[BKBookViewController setNavigationHistory:]
+- -[BKBookViewController setOpeningLocation:]
+- -[BKBookViewController setPageCountIncludingUpsell:]
+- -[BKBookViewController setPageNavigationViewController:]
+- -[BKBookViewController setPageNumberBeforeScrubbing:]
+- -[BKBookViewController setPaginationController:]
+- -[BKBookViewController setPerformSelectorProxy:]
+- -[BKBookViewController setPlayNextItemAbortedWhileInactive:]
+- -[BKBookViewController setPriceString:]
+- -[BKBookViewController setReadAloudState:]
+- -[BKBookViewController setReading:forToolbarItem:]
+- -[BKBookViewController setReadingAloud:fromToolbar:]
+- -[BKBookViewController setReadingLocationHighwaterMark:]
+- -[BKBookViewController setReferenceLibraryViewController:]
+- -[BKBookViewController setReportedLocation:]
+- -[BKBookViewController setResumeLocation:]
+- -[BKBookViewController setRotationInProgress:]
+- -[BKBookViewController setSafeToShowToolbarItems:]
+- -[BKBookViewController setSearchResult:]
+- -[BKBookViewController setSection:]
+- -[BKBookViewController setSection:animated:adjustScrollToReveal:]
+- -[BKBookViewController setSelectionHighlightType:]
+- -[BKBookViewController setSoundtrackPlaying:forToolbarItem:]
+- -[BKBookViewController setSoundtrackPlaying:fromToolbar:]
+- -[BKBookViewController setStatusBarHidden:animated:]
+- -[BKBookViewController setStatusBarHidden:animated:animations:completion:]
+- -[BKBookViewController setStatusBarHidden:animated:completion:]
+- -[BKBookViewController setTheme:]
+- -[BKBookViewController setTocCurrentLocation:]
+- -[BKBookViewController setTouchBarController:]
+- -[BKBookViewController setTrackState:]
+- -[BKBookViewController setTrackState:persistSetting:]
+- -[BKBookViewController setTranslationViewController:]
+- -[BKBookViewController setTurnState:]
+- -[BKBookViewController setTurnsPagesAutomatically:forToolbarItem:]
+- -[BKBookViewController setTurnsPagesAutomaticallyWhileReadingAloud:fromToolbar:]
+- -[BKBookViewController setUpSellData:]
+- -[BKBookViewController setUserNavigated:]
+- -[BKBookViewController setVolume:]
+- -[BKBookViewController setupAppearanceViewController]
+- -[BKBookViewController setupTouchBarController]
+- -[BKBookViewController shareAnnotation:fromRect:inView:completion:]
+- -[BKBookViewController shareAnnotations:fromBarButtonItem:excerpt:completion:]
+- -[BKBookViewController shareAnnotations:fromRect:inView:excerpt:completion:]
+- -[BKBookViewController shouldAcceptLocationUpdateFromGlobalAnnotation:]
+- -[BKBookViewController shouldAutorotate]
+- -[BKBookViewController shouldBookmarkButtonsBeEnabled]
+- -[BKBookViewController shouldControlsBeVisibleOnOpen]
+- -[BKBookViewController shouldDisplayBookmarkMenu]
+- -[BKBookViewController shouldDisplayBookmarksButton]
+- -[BKBookViewController shouldDisplayBuyButton]
+- -[BKBookViewController shouldDisplayContentsButton]
+- -[BKBookViewController shouldDisplayGlossaryButton]
+- -[BKBookViewController shouldDisplayHighlightsButton]
+- -[BKBookViewController shouldDisplayPageThumbnailsButton]
+- -[BKBookViewController shouldDisplayReadaloudControls]
+- -[BKBookViewController shouldDisplaySearchControls]
+- -[BKBookViewController shouldDisplaySettingsControls]
+- -[BKBookViewController shouldDisplayShareControls]
+- -[BKBookViewController shouldDisplayStudyCardsButton]
+- -[BKBookViewController shouldDisplayTitleWhenActive]
+- -[BKBookViewController shouldDisplayTitleWhenInactive]
+- -[BKBookViewController shouldForceJumpOnSearch]
+- -[BKBookViewController shouldGroupModeControls]
+- -[BKBookViewController shouldSavePageControlVisibility]
+- -[BKBookViewController shouldSyncLocation:]
+- -[BKBookViewController showAudio:]
+- -[BKBookViewController showAudioControlsFromToolbar:]
+- -[BKBookViewController showBookmarksFromToolbar:]
+- -[BKBookViewController showBrightness:]
+- -[BKBookViewController showExpandedContentForResource:atLocation:completion:]
+- -[BKBookViewController showFontPicker:]
+- -[BKBookViewController showFootnoteInContentViewController:resource:fromView:stylesheetSet:]
+- -[BKBookViewController showGlossaryFromToolbar:]
+- -[BKBookViewController showLibrary:]
+- -[BKBookViewController showLookupForString:fromView:onClose:]
+- -[BKBookViewController showNoteEditorForAnnotation:]
+- -[BKBookViewController showNotesFromToolbar:]
+- -[BKBookViewController showOverlayViewController:fromView:popoverOnPhone:popoverBackgroundColor:]
+- -[BKBookViewController showSearch:]
+- -[BKBookViewController showSearchFromToolbar:]
+- -[BKBookViewController showSearchWithString:sender:]
+- -[BKBookViewController showSettingsFromToolbar:]
+- -[BKBookViewController showStudyCardsFromToolbar:]
+- -[BKBookViewController showTOC:]
+- -[BKBookViewController showTOCFromToolbar:]
+- -[BKBookViewController showThumbnailTOCFromToolbar:]
+- -[BKBookViewController signalBookContentDidLoad:]
+- -[BKBookViewController simulateManualPageTurn:time:]
+- -[BKBookViewController smartTurnToNextChapter]
+- -[BKBookViewController smartTurnToPreviousChapter]
+- -[BKBookViewController smilMapOnPages:]
+- -[BKBookViewController snapshotAllowed]
+- -[BKBookViewController startFetchingBookmarks]
+- -[BKBookViewController startFetchingBookmarks].cold.1
+- -[BKBookViewController startFetchingBookmarks].cold.2
+- -[BKBookViewController startReadAloud]
+- -[BKBookViewController stopFetchingBookmarks]
+- -[BKBookViewController stopPlayingMedia:]
+- -[BKBookViewController stopReadAloudAndReload:]
+- -[BKBookViewController stopReadAloud]
+- -[BKBookViewController stopSoundtrackAndReload:]
+- -[BKBookViewController stopSoundtrack]
+- -[BKBookViewController storeChangedNotification:]
+- -[BKBookViewController storeShortURL]
+- -[BKBookViewController supportedInterfaceOrientations]
+- -[BKBookViewController themeInterfaceStyle]
+- -[BKBookViewController tintColorForNavbarButtons]
+- -[BKBookViewController titleColor]
+- -[BKBookViewController titleForChapterAtPageNumber:]
+- -[BKBookViewController titleMutedColor]
+- -[BKBookViewController tocCurrentLocation]
+- -[BKBookViewController tocToolTip]
+- -[BKBookViewController tocViewController:chapterTitleForAnnotation:]
+- -[BKBookViewController tocViewController:didSelectChapter:]
+- -[BKBookViewController tocViewController:pageNumberForAnnotation:]
+- -[BKBookViewController tocViewController:pageNumberForChapter:]
+- -[BKBookViewController tocViewController:pageTitleForAnnotation:]
+- -[BKBookViewController tocViewController:pageTitleForChapter:]
+- -[BKBookViewController tocViewController:shareAnnotation:]
+- -[BKBookViewController tocViewControllerCurrentLocation:]
+- -[BKBookViewController tocViewControllerTocIdCssRules:]
+- -[BKBookViewController toggleBookmark:]
+- -[BKBookViewController toggleBookmarkForContentViewController:]
+- -[BKBookViewController toggleBookmarkFromToolbar:]
+- -[BKBookViewController toggleControlsForContentViewController:]
+- -[BKBookViewController toggleEditAssetMode:]
+- -[BKBookViewController toggleShowPageControls:]
+- -[BKBookViewController toolbarDidBecomeActive:]
+- -[BKBookViewController toolbarDidBecomeInactive:]
+- -[BKBookViewController touchBarController]
+- -[BKBookViewController touchBarHandleBackRequest:]
+- -[BKBookViewController touchBarHandleBookmarkRequest:]
+- -[BKBookViewController touchBarHandleForwardRequest:]
+- -[BKBookViewController touchBarHandleReadAloudRequest:]
+- -[BKBookViewController touchBarHandleSearchRequest:]
+- -[BKBookViewController touchBarPositionForPageNumber:]
+- -[BKBookViewController touchBarPositionForPagePosition:]
+- -[BKBookViewController touchBarScrollerAccessibilityLabelForBookmark:]
+- -[BKBookViewController touchBarScrollerAccessibilityLabelForChapter:]
+- -[BKBookViewController touchBarScrollerAccessibilityLabelForCurrentScrollPosition]
+- -[BKBookViewController touchBarScrollerBookIsRightToLeft]
+- -[BKBookViewController touchBarScrollerChapters]
+- -[BKBookViewController touchBarScrollerDidEnd:completion:]
+- -[BKBookViewController touchBarScrollerDidIdle:]
+- -[BKBookViewController touchBarScrollerDidScroll:]
+- -[BKBookViewController touchBarScrollerDidStart:]
+- -[BKBookViewController touchBarScrollerEndScrollPositionForPosition:]
+- -[BKBookViewController touchBarScrollerJumpToBookmark:]
+- -[BKBookViewController touchBarScrollerPositionForBookmark:]
+- -[BKBookViewController touchBarScrollerPositionForChapter:]
+- -[BKBookViewController touchBarWantsBookmark]
+- -[BKBookViewController touchBarWantsHistoryNav]
+- -[BKBookViewController touchBarWantsReadAloud]
+- -[BKBookViewController touchBarWantsScroller]
+- -[BKBookViewController touchBarWantsSearch]
+- -[BKBookViewController trackState]
+- -[BKBookViewController transitionContentBackgroundColor]
+- -[BKBookViewController transitionContentView]
+- -[BKBookViewController transitionDidFinish:]
+- -[BKBookViewController transitionRightToLeft]
+- -[BKBookViewController translationViewController]
+- -[BKBookViewController turnPages:animated:]
+- -[BKBookViewController turnState]
+- -[BKBookViewController turnToBeginningOfChapter]
+- -[BKBookViewController turnToEndOfChapter]
+- -[BKBookViewController turnToFirstPage:]
+- -[BKBookViewController turnToInitialPage:]
+- -[BKBookViewController turnToNextChapter]
+- -[BKBookViewController turnToPageNumber:animated:]
+- -[BKBookViewController turnToPreviousChapter]
+- -[BKBookViewController turnsPagesAutomaticallyForToolbarItem:]
+- -[BKBookViewController turnsPagesAutomaticallyWhileReadingAloudForToolbar:]
+- -[BKBookViewController unbookmarkPage:]
+- -[BKBookViewController unregisterBookmarkObserver:]
+- -[BKBookViewController upSellData]
+- -[BKBookViewController updateBookmarkButton:]
+- -[BKBookViewController updatePageCount]
+- -[BKBookViewController updatePaginationProgress:]
+- -[BKBookViewController updateProgressKitForNewLocation]
+- -[BKBookViewController updateToolbarController]
+- -[BKBookViewController updateTouchBarController]
+- -[BKBookViewController updateUIForSmartInvert]
+- -[BKBookViewController upsellContentViewController]
+- -[BKBookViewController upsellOrdinal]
+- -[BKBookViewController upsellPageNumber]
+- -[BKBookViewController usePrimarySidebar]
+- -[BKBookViewController userNavigated]
+- -[BKBookViewController validLayoutForBook:desiredLayout:]
+- -[BKBookViewController validateCommand:]
+- -[BKBookViewController viewDidAppear:]
+- -[BKBookViewController viewDidDisappear:]
+- -[BKBookViewController viewDidLoad]
+- -[BKBookViewController viewWillAppear:]
+- -[BKBookViewController viewWillDisappear:]
+- -[BKBookViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKBookViewController visibleCFIRange]
+- -[BKBookViewController visiblePageBookmarks]
+- -[BKBookViewController visiblePageHighlights]
+- -[BKBookViewController volume]
+- -[BKBookViewController wantsToolbarVisible]
+- -[BKBookViewController willHideAnnotationEditor:]
+- -[BKBookViewController willMoveToParentViewController:]
+- -[BKBookViewController willShowAnnotationEditor:]
+- -[BKBookViewController writeAnnotationsToWebProcessPlugin]
+- -[BKBookViewController writeControlVisibilityStateToWebProcessPlugin]
+- -[BKBookmarkPageCount annotationRects]
+- -[BKBookmarkPageCount setAnnotationRects:]
+- -[BKBookmarkThumbnailDirectory .cxx_destruct]
+- -[BKBookmarkThumbnailDirectory _noBookmarksView]
+- -[BKBookmarkThumbnailDirectory configureCell:atIndex:]
+- -[BKBookmarkThumbnailDirectory controllerDidChangeContent:]
+- -[BKBookmarkThumbnailDirectory dealloc]
+- -[BKBookmarkThumbnailDirectory fetchedResultsController]
+- -[BKBookmarkThumbnailDirectory fetchedResultsController].cold.1
+- -[BKBookmarkThumbnailDirectory indexForLocation:]
+- -[BKBookmarkThumbnailDirectory leftPageNumberAtIndex:]
+- -[BKBookmarkThumbnailDirectory locationAtIndex:]
+- -[BKBookmarkThumbnailDirectory numberOfCellsInGridView:]
+- -[BKBookmarkThumbnailDirectory pageNumberForCellIndex:]
+- -[BKBookmarkThumbnailDirectory releaseViews]
+- -[BKBookmarkThumbnailDirectory reloadData]
+- -[BKBookmarkThumbnailDirectory rightPageNumberAtIndex:]
+- -[BKBoolBlockProxy .cxx_destruct]
+- -[BKBoolBlockProxy executeWithParam:]
+- -[BKBoolBlockProxy initWithBlock:]
+- -[BKBoolBlockProxy setWork:]
+- -[BKBoolBlockProxy work]
+- -[BKBrightnessController .cxx_destruct]
+- -[BKBrightnessController dealloc]
+- -[BKBrightnessController nibName]
+- -[BKBrightnessController releaseViews]
+- -[BKBrightnessController setBrightness:]
+- -[BKBrightnessController setSlider:]
+- -[BKBrightnessController slider]
+- -[BKBrightnessController updateBrightness]
+- -[BKBrightnessController viewDidLoad]
+- -[BKBrightnessController viewWillAppear:]
+- -[BKCatalystAppearanceViewController .cxx_destruct]
+- -[BKCatalystAppearanceViewController _themeButtonImageForTheme:selected:]
+- -[BKCatalystAppearanceViewController _themeButtonImageWithColor:unselectedBorderColor:selectedImageColor:selected:]
+- -[BKCatalystAppearanceViewController accessibilityPerformEscape]
+- -[BKCatalystAppearanceViewController appearanceColorContainerHeight]
+- -[BKCatalystAppearanceViewController appearanceColorPotHeight]
+- -[BKCatalystAppearanceViewController appearanceColorPotSeparator]
+- -[BKCatalystAppearanceViewController appearanceColorPotWidth]
+- -[BKCatalystAppearanceViewController appearanceRowHeight]
+- -[BKCatalystAppearanceViewController clearImage]
+- -[BKCatalystAppearanceViewController contentSize]
+- -[BKCatalystAppearanceViewController determinedOriginalFont]
+- -[BKCatalystAppearanceViewController downloadFont:]
+- -[BKCatalystAppearanceViewController fontAppearanceWidthPadding]
+- -[BKCatalystAppearanceViewController fontDownloadFailed:]
+- -[BKCatalystAppearanceViewController fontObserver]
+- -[BKCatalystAppearanceViewController fontSizeForFontFamilyName:]
+- -[BKCatalystAppearanceViewController hasOriginalFont]
+- -[BKCatalystAppearanceViewController numberOfSectionsInTableView:]
+- -[BKCatalystAppearanceViewController observeValueForKeyPath:ofObject:change:context:]
+- -[BKCatalystAppearanceViewController scrollingRowHeight]
+- -[BKCatalystAppearanceViewController setClearImage:]
+- -[BKCatalystAppearanceViewController setDeterminedOriginalFont:]
+- -[BKCatalystAppearanceViewController stopDownloadingFont:]
+- -[BKCatalystAppearanceViewController stylizeForTheme]
+- -[BKCatalystAppearanceViewController tableView:cellForRowAtIndexPath:]
+- -[BKCatalystAppearanceViewController tableView:didHighlightRowAtIndexPath:]
+- -[BKCatalystAppearanceViewController tableView:didSelectRowAtIndexPath:]
+- -[BKCatalystAppearanceViewController tableView:didUnhighlightRowAtIndexPath:]
+- -[BKCatalystAppearanceViewController tableView:heightForFooterInSection:]
+- -[BKCatalystAppearanceViewController tableView:heightForHeaderInSection:]
+- -[BKCatalystAppearanceViewController tableView:heightForRowAtIndexPath:]
+- -[BKCatalystAppearanceViewController tableView:numberOfRowsInSection:]
+- -[BKCatalystAppearanceViewController tableView:shouldHighlightRowAtIndexPath:]
+- -[BKCatalystAppearanceViewController tableView:viewForFooterInSection:]
+- -[BKCatalystAppearanceViewController tableView:viewForHeaderInSection:]
+- -[BKCatalystAppearanceViewController tableView:willDisplayCell:forRowAtIndexPath:]
+- -[BKCatalystAppearanceViewController viewDidLoad]
+- -[BKChapterPageCount name]
+- -[BKContentLoadingView .cxx_destruct]
+- -[BKContentLoadingView _traitCollectionDidChange:previousTraitCollection:]
+- -[BKContentLoadingView _updateColors]
+- -[BKContentLoadingView initWithFrame:theme:]
+- -[BKContentLoadingView label]
+- -[BKContentLoadingView setLabel:]
+- -[BKContentLoadingView setSpinner:]
+- -[BKContentLoadingView setTheme:]
+- -[BKContentLoadingView spinner]
+- -[BKContentLoadingView theme]
+- -[BKContentReloadView .cxx_destruct]
+- -[BKContentReloadView _buttonTapped:]
+- -[BKContentReloadView _traitCollectionDidChange:previousTraitCollection:]
+- -[BKContentReloadView _updateColors]
+- -[BKContentReloadView button]
+- -[BKContentReloadView delegate]
+- -[BKContentReloadView initWithFrame:theme:delegate:]
+- -[BKContentReloadView label]
+- -[BKContentReloadView setButton:]
+- -[BKContentReloadView setDelegate:]
+- -[BKContentReloadView setLabel:]
+- -[BKContentReloadView setStackView:]
+- -[BKContentReloadView setTheme:]
+- -[BKContentReloadView stackView]
+- -[BKContentReloadView theme]
+- -[BKContentViewController .cxx_destruct]
+- -[BKContentViewController _setThemeIfNeeded:]
+- -[BKContentViewController addHighlightToCurrentSelection:]
+- -[BKContentViewController addHighlightView:forWK2:]
+- -[BKContentViewController addNoteToCurrentSelection:]
+- -[BKContentViewController annotations]
+- -[BKContentViewController applyPageColor]
+- -[BKContentViewController assignedPageLocation]
+- -[BKContentViewController book]
+- -[BKContentViewController cachedRectForAnnotation:]
+- -[BKContentViewController cachedVisibleRectForAnnotation:]
+- -[BKContentViewController clearCurrentHighlighting]
+- -[BKContentViewController clearHighlightsForSearchResults]
+- -[BKContentViewController clearMediaOverlayElement:]
+- -[BKContentViewController clearSearchLocation]
+- -[BKContentViewController clearSelectedAnnotation]
+- -[BKContentViewController clearSelectionHighlights]
+- -[BKContentViewController clearSelection]
+- -[BKContentViewController configuration]
+- -[BKContentViewController contentInsets]
+- -[BKContentViewController contentLoadFailed]
+- -[BKContentViewController contentNeedsFilter]
+- -[BKContentViewController contentReady]
+- -[BKContentViewController contentViewImageCache]
+- -[BKContentViewController contentView]
+- -[BKContentViewController currentLocation]
+- -[BKContentViewController currentlyHighlighting]
+- -[BKContentViewController dealloc]
+- -[BKContentViewController delegate]
+- -[BKContentViewController didChangeLocationClosing:]
+- -[BKContentViewController didReceiveMemoryWarning]
+- -[BKContentViewController document]
+- -[BKContentViewController effectivePageOffset]
+- -[BKContentViewController ensureLocationVisible:adjustForSearchResultRevealMode:completion:]
+- -[BKContentViewController ensureLocationVisible:completion:]
+- -[BKContentViewController estimatedContentSize]
+- -[BKContentViewController hasHighlightedText]
+- -[BKContentViewController hasTextSelected]
+- -[BKContentViewController hideLoadingViewAnimated:]
+- -[BKContentViewController hideReloadUIAnimated:]
+- -[BKContentViewController highlightMediaOverlayElement:]
+- -[BKContentViewController highlightRects:]
+- -[BKContentViewController highlightSearchLocation:]
+- -[BKContentViewController highlightViewContainerWK2]
+- -[BKContentViewController highlightViewContainer]
+- -[BKContentViewController highlightViews]
+- -[BKContentViewController init]
+- -[BKContentViewController isAnnotationVisible:]
+- -[BKContentViewController isContentLoadPending]
+- -[BKContentViewController isContentLoaded]
+- -[BKContentViewController isLoading]
+- -[BKContentViewController isLocationFromThisDocument:]
+- -[BKContentViewController isLocationOnCurrentPage:]
+- -[BKContentViewController isLocationVisible:annotation:completion:]
+- -[BKContentViewController isPlayingMedia]
+- -[BKContentViewController isReusable]
+- -[BKContentViewController isTOCContent]
+- -[BKContentViewController isUpsellContent]
+- -[BKContentViewController layoutDelegate]
+- -[BKContentViewController load]
+- -[BKContentViewController loadingView]
+- -[BKContentViewController locationIsVertical:]
+- -[BKContentViewController ordinal]
+- -[BKContentViewController pageOffsetForLocation:]
+- -[BKContentViewController pageOffsetRangeForLocation:completion:]
+- -[BKContentViewController pageOffset]
+- -[BKContentViewController pageProgressionDirection]
+- -[BKContentViewController pageTitlesForPageOffset:]
+- -[BKContentViewController pathForSoundtrack]
+- -[BKContentViewController prefersSinglePagePresentation]
+- -[BKContentViewController prepareForReuse]
+- -[BKContentViewController rectForAnnotation:]
+- -[BKContentViewController rectForAnnotation:visible:]
+- -[BKContentViewController rectForAnnotation:visible:withCompletion:]
+- -[BKContentViewController rectForAnnotation:withCompletion:]
+- -[BKContentViewController rectForLocation:]
+- -[BKContentViewController rectForLocation:completion:]
+- -[BKContentViewController releaseViews]
+- -[BKContentViewController reloadViewDidBeginReloading:]
+- -[BKContentViewController reloadView]
+- -[BKContentViewController reload]
+- -[BKContentViewController removeHighlightView:]
+- -[BKContentViewController restyleIfNeeded]
+- -[BKContentViewController resume]
+- -[BKContentViewController searchLocation]
+- -[BKContentViewController selectLocation:completion:]
+- -[BKContentViewController selectionHighlightType]
+- -[BKContentViewController separatorInsets]
+- -[BKContentViewController setBook:]
+- -[BKContentViewController setConfiguration:]
+- -[BKContentViewController setContentInsets:]
+- -[BKContentViewController setContentLoadPending:]
+- -[BKContentViewController setContentLoaded:]
+- -[BKContentViewController setContentViewImageCache:]
+- -[BKContentViewController setDelegate:]
+- -[BKContentViewController setDocument:]
+- -[BKContentViewController setEstimatedContentSize:]
+- -[BKContentViewController setHighlightViews:]
+- -[BKContentViewController setLayoutDelegate:]
+- -[BKContentViewController setLoadingView:]
+- -[BKContentViewController setNeedsRestyleWithCompletion:]
+- -[BKContentViewController setNeedsRestyle]
+- -[BKContentViewController setOrdinal:]
+- -[BKContentViewController setPageOffset:]
+- -[BKContentViewController setPrefersSinglePagePresentation:]
+- -[BKContentViewController setReloadView:]
+- -[BKContentViewController setSearchLocation:]
+- -[BKContentViewController setSelectionHighlightType:]
+- -[BKContentViewController setSelectionHighlightsVisible:]
+- -[BKContentViewController setSeparatorInsets:]
+- -[BKContentViewController setShowsLoadingIndicator:]
+- -[BKContentViewController setTheme:]
+- -[BKContentViewController setTheme:force:]
+- -[BKContentViewController setTotalPages:]
+- -[BKContentViewController shouldApplyPageColor]
+- -[BKContentViewController showLoadFailureUI]
+- -[BKContentViewController showLoadingViewAnimated:]
+- -[BKContentViewController showReloadUIAnimated:]
+- -[BKContentViewController showsLoadingIndicator]
+- -[BKContentViewController snapshot]
+- -[BKContentViewController stopPlayingMedia:]
+- -[BKContentViewController stopPlayingMediaIfNoLongerVisible]
+- -[BKContentViewController supportedInterfaceOrientations]
+- -[BKContentViewController suspend]
+- -[BKContentViewController totalPages]
+- -[BKContentViewController updateBackgroundColorsWithTraitCollection:]
+- -[BKContentViewController updateSelectionHighlights]
+- -[BKContentViewController viewDidAppear:]
+- -[BKContentViewController viewDidDisappear:]
+- -[BKContentViewController viewDidLoad]
+- -[BKContentViewController viewWillDisappear:]
+- -[BKContentViewController visiblePageCount]
+- -[BKContentViewController visibleRectForLocation:]
+- -[BKContentViewController visibleRectForLocation:completion:]
+- -[BKContentViewController(AEAnnotation) ae_stickies]
+- -[BKContentViewController(AEAnnotation) setAe_stickies:]
+- -[BKContinuousWebScrollView .cxx_destruct]
+- -[BKContinuousWebScrollView __updateContentSizeForFrameChange]
+- -[BKContinuousWebScrollView _horizontallyScrollWebViews]
+- -[BKContinuousWebScrollView _offsetForWebview:fromOffset:absorbed:]
+- -[BKContinuousWebScrollView _recenterIfNecessary]
+- -[BKContinuousWebScrollView _verticallyScrollWebViews]
+- -[BKContinuousWebScrollView containerView]
+- -[BKContinuousWebScrollView initWithFrame:]
+- -[BKContinuousWebScrollView initWithFrame:orientation:]
+- -[BKContinuousWebScrollView layoutSubviews]
+- -[BKContinuousWebScrollView needsToSnapToPage]
+- -[BKContinuousWebScrollView orientation]
+- -[BKContinuousWebScrollView setBounds:]
+- -[BKContinuousWebScrollView setFrame:]
+- -[BKContinuousWebScrollView snapToPage]
+- -[BKContinuousWebScrollView webViews]
+- -[BKCoverContentViewController2 .cxx_destruct]
+- -[BKCoverContentViewController2 _forceWebContentBackgroundColor]
+- -[BKCoverContentViewController2 _getURLToLoad]
+- -[BKCoverContentViewController2 _traitCollectionDidChange:previousTraitCollection:]
+- -[BKCoverContentViewController2 activityIndicator]
+- -[BKCoverContentViewController2 cachedRectForAnnotation:]
+- -[BKCoverContentViewController2 cachedVisibleRectForAnnotation:]
+- -[BKCoverContentViewController2 contentNeedsFilter]
+- -[BKCoverContentViewController2 coverImage]
+- -[BKCoverContentViewController2 coverWebView]
+- -[BKCoverContentViewController2 currentLocation]
+- -[BKCoverContentViewController2 dispatchQueue]
+- -[BKCoverContentViewController2 init]
+- -[BKCoverContentViewController2 isAnnotationVisible:]
+- -[BKCoverContentViewController2 isReusable]
+- -[BKCoverContentViewController2 isTOCContent]
+- -[BKCoverContentViewController2 loadViewUIImage]
+- -[BKCoverContentViewController2 navigationHandler:didFinishLoadOfURL:]
+- -[BKCoverContentViewController2 navigationHandler:didStartLoadOfURL:]
+- -[BKCoverContentViewController2 navigationHandler:failedToLoadURL:error:]
+- -[BKCoverContentViewController2 ordinal]
+- -[BKCoverContentViewController2 releaseViews]
+- -[BKCoverContentViewController2 setActivityIndicator:]
+- -[BKCoverContentViewController2 setActivityIndicatorVisible:animated:afterDelay:]
+- -[BKCoverContentViewController2 setCoverImage:]
+- -[BKCoverContentViewController2 setCoverImage:isUndesirable:]
+- -[BKCoverContentViewController2 setCoverWebView:]
+- -[BKCoverContentViewController2 setDispatchQueue:]
+- -[BKCoverContentViewController2 setTheme:]
+- -[BKCoverContentViewController2 startActivityIndicatorAfterDelay:]
+- -[BKCoverContentViewController2 stopActivityIndicator:]
+- -[BKCoverContentViewController2 urlForNavigationHandler]
+- -[BKCoverContentViewController2 viewDidLoad]
+- -[BKCoverContentViewController2 viewWillDisappear:]
+- -[BKDirectoryContent .cxx_destruct]
+- -[BKDirectoryContent didSelectBookmarkForLocation:annotationUUID:]
+- -[BKDirectoryContent didSelectHighlightForLocation:annotationUUID:]
+- -[BKDirectoryContent didSelectLocation:]
+- -[BKDirectoryContent directoryDelegate]
+- -[BKDirectoryContent locationForPageNumber:]
+- -[BKDirectoryContent pageNumberForLocation:]
+- -[BKDirectoryContent pageTitleForPageNumber:]
+- -[BKDirectoryContent setDirectoryDelegate:]
+- -[BKDocument copyPropertiesFrom:]
+- -[BKDocument documentKey]
+- -[BKDocument fixedLayoutSize]
+- -[BKDocument hasMediaOverlayElements]
+- -[BKDocument linearDocumentIndex]
+- -[BKDocument mediaOverlayElements]
+- -[BKDocument setLinearDocumentIndex:]
+- -[BKDocument unboxedDocumentOrdinal]
+- -[BKDocument(FixedLayout) estimatedFixedLayoutViewFrame]
+- -[BKDocument(FixedLayout) estimatedFixedLayoutViewFrame].cold.1
+- -[BKDocument(FixedLayout) estimatedFixedLayoutViewFrame].cold.2
+- -[BKDocument(FixedLayout) estimatedFixedLayoutViewFrame].cold.3
+- -[BKDocument(FixedLayout) estimatedFixedLayoutViewFrame].cold.4
+- -[BKEPubContentViewController .cxx_destruct]
+- -[BKEPubContentViewController _adornmentContentOffsetBasedOnScrollView:]
+- -[BKEPubContentViewController _callAndClearPendingCompletionBlocks]
+- -[BKEPubContentViewController _ensureLocationVisible:adjustForSearchResultRevealMode:completion:]
+- -[BKEPubContentViewController _ensureLocationVisible:completion:]
+- -[BKEPubContentViewController _ensureLocationVisible:inWebView:isRTL:needsToSnap:adjustForSearchResultRevealMode:completion:]
+- -[BKEPubContentViewController _ensureRect:isVisibleInWebView:isRTL:needsToSnap:adjustForSearchResultRevealMode:completion:]
+- -[BKEPubContentViewController _isDoubleWide]
+- -[BKEPubContentViewController _isPlayingMedia]
+- -[BKEPubContentViewController _navigateToProperLocation]
+- -[BKEPubContentViewController _paginationMode]
+- -[BKEPubContentViewController _showPage:]
+- -[BKEPubContentViewController _showPage:shouldScroll:refreshHighlights:]
+- -[BKEPubContentViewController _themeBackgroundColorWithTraitCollection:]
+- -[BKEPubContentViewController _traitCollectionDidChange:previousTraitCollection:]
+- -[BKEPubContentViewController _willEnterForeground:]
+- -[BKEPubContentViewController adornmentScrollView]
+- -[BKEPubContentViewController afterEnsuringLocationVisiblePerform:]
+- -[BKEPubContentViewController arrayOfVisibleRectsFromRects:]
+- -[BKEPubContentViewController arrayOfVisibleRectsFromRects:contentRect:]
+- -[BKEPubContentViewController arrayOfVisibleRectsFromRects:inContentRect:]
+- -[BKEPubContentViewController bkaxInvalidateAnnotationCache]
+- -[BKEPubContentViewController contentInfoRequestForCurrentConfigurationWithCompletion:]
+- -[BKEPubContentViewController contentReady]
+- -[BKEPubContentViewController currentLocation]
+- -[BKEPubContentViewController dealloc]
+- -[BKEPubContentViewController ensureLocationVisible:adjustForSearchResultRevealMode:completion:]
+- -[BKEPubContentViewController ensureLocationVisible:completion:]
+- -[BKEPubContentViewController gestureRecognizer:shouldReceiveTouch:]
+- -[BKEPubContentViewController highlightViewContainerWK2]
+- -[BKEPubContentViewController indexOfPathPrecedingRect:physicalPageMap:]
+- -[BKEPubContentViewController init]
+- -[BKEPubContentViewController isPlayingMedia]
+- -[BKEPubContentViewController isVerticalDocument]
+- -[BKEPubContentViewController loadView]
+- -[BKEPubContentViewController locationEnsuredVisibleWorkBlock]
+- -[BKEPubContentViewController navigatingFromContentInfoRequest]
+- -[BKEPubContentViewController navigationHandler:didFinishLoadOfURL:]
+- -[BKEPubContentViewController navigationHandlerFirstSignificantPaintCompleted:]
+- -[BKEPubContentViewController pageOffsetForLocation:]
+- -[BKEPubContentViewController pageProgressionDirection]
+- -[BKEPubContentViewController pageTitlesForPageOffset:]
+- -[BKEPubContentViewController pendingAdjustForScrollMode]
+- -[BKEPubContentViewController pendingLocationCompletion]
+- -[BKEPubContentViewController pendingLocation]
+- -[BKEPubContentViewController predicateForOverlayCache]
+- -[BKEPubContentViewController registerScriptMessageHandlersWithUserContentController:]
+- -[BKEPubContentViewController releaseViews]
+- -[BKEPubContentViewController restyleIfNeeded]
+- -[BKEPubContentViewController scrollToEnd]
+- -[BKEPubContentViewController scrollToPage:]
+- -[BKEPubContentViewController scrollViewDidEndZooming:withView:atScale:]
+- -[BKEPubContentViewController scrollViewDidScroll:]
+- -[BKEPubContentViewController scrollingPageHeight]
+- -[BKEPubContentViewController scrollingPageWidth]
+- -[BKEPubContentViewController setConfiguration:]
+- -[BKEPubContentViewController setLocationEnsuredVisibleWorkBlock:]
+- -[BKEPubContentViewController setNavigatingFromContentInfoRequest:]
+- -[BKEPubContentViewController setNeedsRestyleWithCompletion:]
+- -[BKEPubContentViewController setNeedsRestyle]
+- -[BKEPubContentViewController setPageOffset:]
+- -[BKEPubContentViewController setPageOffset:shouldScroll:refreshHighlights:]
+- -[BKEPubContentViewController setPendingAdjustForScrollMode:]
+- -[BKEPubContentViewController setPendingLocation:]
+- -[BKEPubContentViewController setPendingLocationCompletion:]
+- -[BKEPubContentViewController setShouldScrollToEnd:]
+- -[BKEPubContentViewController setTheme:force:]
+- -[BKEPubContentViewController set_isPlayingMedia:]
+- -[BKEPubContentViewController shouldApplyPageColor]
+- -[BKEPubContentViewController shouldScrollToEnd]
+- -[BKEPubContentViewController stylesheetSet]
+- -[BKEPubContentViewController supportsNotesAndHighlights]
+- -[BKEPubContentViewController tappedAdornment:]
+- -[BKEPubContentViewController totalPages]
+- -[BKEPubContentViewController updateBackgroundColorsWithTraitCollection:]
+- -[BKEPubContentViewController updateWebViewFrame]
+- -[BKEPubContentViewController userContentController:didReceiveScriptMessage:]
+- -[BKEPubContentViewController viewDidLayoutSubviews]
+- -[BKEPubContentViewController viewDidLoad]
+- -[BKEPubContentViewController viewWillAppear:]
+- -[BKEPubContentViewControllerView .cxx_destruct]
+- -[BKEPubContentViewControllerView _accessibilitySpeakSelectionTextInputResponder]
+- -[BKEPubContentViewControllerView controller]
+- -[BKEPubContentViewControllerView setController:]
+- -[BKEPubContentViewControllerView setFrame:]
+- -[BKEpubBookParser _fullParse]
+- -[BKEpubBookParser _touchUpParse]
+- -[BKEpubBookParser constructBKDocumentWithReadable:chapters:landmarks:physicalPages:]
+- -[BKEpubBookParser constructBKIdCfiMappingsWithEpub:]
+- -[BKEpubBookParser constructBKLandmarkInfoWithReadable:withAnchorInfo:]
+- -[BKEpubBookParser constructBKNavigationInfoWithReadable:withAnchorInfo:]
+- -[BKEpubBookParser constructBKPhysicalPageWithReadable:withAnchorInfo:]
+- -[BKEpubBookParser constructBKProtectionInfoWithReadable:]
+- -[BKEpubBookParser constructEntity:withNavPoint:absoluteOrder:indentationLevel:withAnchorInfo:createdObjects:]
+- -[BKEpubBookParser createBookExtraInfoCacheDirectoryIfNecessary]
+- -[BKEpubBookParser createEpubParser:errorCode:]
+- -[BKEpubBookParser isDifferentParserVersion:]
+- -[BKEpubBookParser isLegalCompression:]
+- -[BKEpubBookParser isLegalEncryption:]
+- -[BKEpubBookParser mediaOverlayHrefForManifestInfo:readable:]
+- -[BKEpubBookParser parse:]
+- -[BKEpubBookParser parse]
+- -[BKEpubBookParser resetItunesMetadata]
+- -[BKEpubBookParser setAppleDisplayOptionsFromParser:]
+- -[BKEpubBookParser setArtworkTemplateFromPlist:]
+- -[BKEpubBookParser setCoverWritingModeFromPlist:]
+- -[BKEpubBookParser setEndOfBookExperienceFromPlist:]
+- -[BKEpubBookParser setLanguageFromPlist:]
+- -[BKEpubBookParser setObeyPageBreaksFromPlist:]
+- -[BKEpubBookParser setPublisherInfoFromParser:]
+- -[BKEpubBookParser setScrollAxisModeFromPlist:]
+- -[BKEpubBookParser tryEmbeddedHrefForCoverArtHref:]
+- -[BKEpubCFILocation .cxx_destruct]
+- -[BKEpubCFILocation cfiString]
+- -[BKEpubCFILocation cfi]
+- -[BKEpubCFILocation compare:]
+- -[BKEpubCFILocation copyWithZone:]
+- -[BKEpubCFILocation debugDescription]
+- -[BKEpubCFILocation description]
+- -[BKEpubCFILocation encodeWithCoder:]
+- -[BKEpubCFILocation ensureRange]
+- -[BKEpubCFILocation hash]
+- -[BKEpubCFILocation head]
+- -[BKEpubCFILocation initWithCFI:]
+- -[BKEpubCFILocation initWithCFI:error:]
+- -[BKEpubCFILocation initWithCoder:]
+- -[BKEpubCFILocation initWithLocationDictionary:]
+- -[BKEpubCFILocation intersectWithRangeFromHeadOf:toTailOf:]
+- -[BKEpubCFILocation isEqual:]
+- -[BKEpubCFILocation isPageLocation]
+- -[BKEpubCFILocation locationWithAdjustedSpineIndex:error:]
+- -[BKEpubCFILocation ordinal]
+- -[BKEpubCFILocation pageOffset]
+- -[BKEpubCFILocation rebaseCFIWithHead:]
+- -[BKEpubCFILocation serializeLocationToDictionary]
+- -[BKEpubCFILocation setCfi:]
+- -[BKEpubCFILocation setIsPageLocation:]
+- -[BKEpubCFILocation setOrdinal:]
+- -[BKEpubCFILocation setPageOffset:]
+- -[BKEpubCFILocation setWk1EpubLocation:]
+- -[BKEpubCFILocation stringValue]
+- -[BKEpubCFILocation unionWithCFI:]
+- -[BKEpubCFILocation updateOrdinalForBookInfo:]
+- -[BKEpubCFILocation wk1EpubLocation]
+- -[BKEpubLocation .cxx_destruct]
+- -[BKEpubLocation adjustRangeForSinglePageMode:]
+- -[BKEpubLocation encodeWithCoder:]
+- -[BKEpubLocation endOffset]
+- -[BKEpubLocation endPath]
+- -[BKEpubLocation initWithCoder:]
+- -[BKEpubLocation initWithLocationDictionary:]
+- -[BKEpubLocation isEqual:]
+- -[BKEpubLocation jsonObject]
+- -[BKEpubLocation pageOffset]
+- -[BKEpubLocation serializeLocationToDictionary]
+- -[BKEpubLocation setEndOffset:]
+- -[BKEpubLocation setEndPath:]
+- -[BKEpubLocation setSinglePage:]
+- -[BKEpubLocation setStartOffset:]
+- -[BKEpubLocation setStartPath:]
+- -[BKEpubLocation singlePage]
+- -[BKEpubLocation startOffset]
+- -[BKEpubLocation startPath]
+- -[BKEpubLocation stringValue]
+- -[BKEpubManualCurlDriver .cxx_destruct]
+- -[BKEpubManualCurlDriver _linkFired:]
+- -[BKEpubManualCurlDriver displayLink]
+- -[BKEpubManualCurlDriver gesture]
+- -[BKEpubManualCurlDriver initWithStartPoint:endPoint:time:]
+- -[BKEpubManualCurlDriver manualCurlHandler]
+- -[BKEpubManualCurlDriver minimumGestureInterval]
+- -[BKEpubManualCurlDriver run:]
+- -[BKEpubManualCurlDriver setDisplayLink:]
+- -[BKEpubManualCurlDriver setGesture:]
+- -[BKEpubManualCurlDriver setManualCurlHandler:]
+- -[BKEpubManualCurlGestureImplementation duration]
+- -[BKEpubManualCurlGestureImplementation endPoint]
+- -[BKEpubManualCurlGestureImplementation endTime]
+- -[BKEpubManualCurlGestureImplementation initWithStartPoint:endPoint:duration:]
+- -[BKEpubManualCurlGestureImplementation locationInView:]
+- -[BKEpubManualCurlGestureImplementation nextTime]
+- -[BKEpubManualCurlGestureImplementation setNextTime:]
+- -[BKEpubManualCurlGestureImplementation setStartTime:]
+- -[BKEpubManualCurlGestureImplementation setState:]
+- -[BKEpubManualCurlGestureImplementation startLocationInView:]
+- -[BKEpubManualCurlGestureImplementation startPoint]
+- -[BKEpubManualCurlGestureImplementation startTime]
+- -[BKEpubManualCurlGestureImplementation state]
+- -[BKEpubManualCurlGestureImplementation translationInView:]
+- -[BKEpubManualCurlGestureImplementation velocityInView:]
+- -[BKEpubManualCurlGestureImplementation velocity]
+- -[BKEpubTOCParseJob .cxx_destruct]
+- -[BKEpubTOCParseJob assetID]
+- -[BKEpubTOCParseJob init]
+- -[BKEpubTOCParseJob setAssetID:]
+- -[BKEpubTOCParseJob setUrl:]
+- -[BKEpubTOCParseJob url]
+- -[BKEpubTOCParseRecordJob .cxx_destruct]
+- -[BKEpubTOCParseRecordJob init]
+- -[BKEpubTOCParseRecordJob isVertical]
+- -[BKEpubTOCParseRecordJob setIsVertical:]
+- -[BKEpubTOCParseRecordJob setTocIdCssRules:]
+- -[BKEpubTOCParseRecordJob tocIdCssRules]
+- -[BKEpubTOCParseResultsOperation execute]
+- -[BKExpandedContentResource .cxx_destruct]
+- -[BKExpandedContentResource bookID]
+- -[BKExpandedContentResource cacheItem]
+- -[BKExpandedContentResource contentSize]
+- -[BKExpandedContentResource contentType]
+- -[BKExpandedContentResource resource]
+- -[BKExpandedContentResource setCacheItem:]
+- -[BKExpandedContentResource setContentSize:]
+- -[BKExpandedContentResource setContentType:]
+- -[BKExpandedContentResource setResource:]
+- -[BKExpandedContentResource setSourceURL:]
+- -[BKExpandedContentResource setTitle:]
+- -[BKExpandedContentResource setZoomScale:]
+- -[BKExpandedContentResource sourceURL]
+- -[BKExpandedContentResource title]
+- -[BKExpandedContentResource zoomScale]
+- -[BKExpandedContentViewController .cxx_destruct]
+- -[BKExpandedContentViewController activityIndicator]
+- -[BKExpandedContentViewController allowsDismissGesture]
+- -[BKExpandedContentViewController animationControllerForPresentedController:presentingController:sourceController:]
+- -[BKExpandedContentViewController animationImageView]
+- -[BKExpandedContentViewController animationRect]
+- -[BKExpandedContentViewController canBecomeFirstResponder]
+- -[BKExpandedContentViewController close:]
+- -[BKExpandedContentViewController contentBackgroundColor]
+- -[BKExpandedContentViewController contentColor]
+- -[BKExpandedContentViewController contentContainer]
+- -[BKExpandedContentViewController contentObscuringView]
+- -[BKExpandedContentViewController contentToViewTopAnchorConstraint]
+- -[BKExpandedContentViewController contentView]
+- -[BKExpandedContentViewController dealloc]
+- -[BKExpandedContentViewController delegate]
+- -[BKExpandedContentViewController dismissViewControllerAnimated:completion:]
+- -[BKExpandedContentViewController done:]
+- -[BKExpandedContentViewController doubleTapRecognizer]
+- -[BKExpandedContentViewController dragDismissGesture:didTranslateToPoint:]
+- -[BKExpandedContentViewController dragDismissGestureDidCancelPanToDismiss:]
+- -[BKExpandedContentViewController dragDismissGestureDidPanToDismiss:]
+- -[BKExpandedContentViewController dragDismissGestureDidSwipeToDismiss:]
+- -[BKExpandedContentViewController dragDismissManager]
+- -[BKExpandedContentViewController enablePullToDismiss]
+- -[BKExpandedContentViewController enableSwipeToDismiss]
+- -[BKExpandedContentViewController getAnimationRect]
+- -[BKExpandedContentViewController handleDoubleTap:]
+- -[BKExpandedContentViewController handleEscapeKey:]
+- -[BKExpandedContentViewController handleSingleTap:]
+- -[BKExpandedContentViewController initWithResource:]
+- -[BKExpandedContentViewController initialZoomScale]
+- -[BKExpandedContentViewController innerView]
+- -[BKExpandedContentViewController isCurrentlyZoomed]
+- -[BKExpandedContentViewController keyCommands]
+- -[BKExpandedContentViewController positionForBar:]
+- -[BKExpandedContentViewController preferredStatusBarUpdateAnimation]
+- -[BKExpandedContentViewController prefersHomeIndicatorAutoHidden]
+- -[BKExpandedContentViewController prefersStatusBarHidden]
+- -[BKExpandedContentViewController presenter]
+- -[BKExpandedContentViewController presentingFromTOC]
+- -[BKExpandedContentViewController releaseViews]
+- -[BKExpandedContentViewController resource]
+- -[BKExpandedContentViewController scrollView]
+- -[BKExpandedContentViewController setActivityIndicator:]
+- -[BKExpandedContentViewController setActivityIndicatorVisible:animated:afterDelay:]
+- -[BKExpandedContentViewController setAnimationImageView:]
+- -[BKExpandedContentViewController setAnimationRect:]
+- -[BKExpandedContentViewController setBackgroundColor:]
+- -[BKExpandedContentViewController setContentBackgroundColor:]
+- -[BKExpandedContentViewController setContentColor:]
+- -[BKExpandedContentViewController setContentContainer:]
+- -[BKExpandedContentViewController setContentObscuringView:]
+- -[BKExpandedContentViewController setContentToViewTopAnchorConstraint:]
+- -[BKExpandedContentViewController setDelegate:]
+- -[BKExpandedContentViewController setDoubleTapRecognizer:]
+- -[BKExpandedContentViewController setDragDismissManager:]
+- -[BKExpandedContentViewController setInitialZoomScale:]
+- -[BKExpandedContentViewController setInnerView:]
+- -[BKExpandedContentViewController setPresenter:]
+- -[BKExpandedContentViewController setPresentingFromTOC:]
+- -[BKExpandedContentViewController setPreviewTitle:]
+- -[BKExpandedContentViewController setSingleTapRecognizer:]
+- -[BKExpandedContentViewController setToolBarHidden:animated:]
+- -[BKExpandedContentViewController setToolbar:]
+- -[BKExpandedContentViewController setToolbarHidden:]
+- -[BKExpandedContentViewController singleTapRecognizer]
+- -[BKExpandedContentViewController startActivityIndicatorAfterDelay:]
+- -[BKExpandedContentViewController stopActivityIndicator:]
+- -[BKExpandedContentViewController supportedInterfaceOrientations]
+- -[BKExpandedContentViewController toolbarHidden]
+- -[BKExpandedContentViewController toolbar]
+- -[BKExpandedContentViewController viewDidAppear:]
+- -[BKExpandedContentViewController viewDidLayoutSubviews]
+- -[BKExpandedContentViewController viewDidLoad]
+- -[BKExpandedContentViewController viewWillDisappear:]
+- -[BKExpandedContentViewController wantsDoubleTapGestureRecognizer]
+- -[BKExpandedContentViewController wantsTapToHideToolbarGestureRecognizer]
+- -[BKExpandedContentViewControllerAccessibility close:]
+- -[BKExpandedContentViewControllerAccessibility setToolbarVisible:animated:]
+- -[BKExpandedContentViewControllerAccessibility stopActivityIndicator:]
+- -[BKExpandedImageContentViewController .cxx_destruct]
+- -[BKExpandedImageContentViewController analysisInteraction]
+- -[BKExpandedImageContentViewController contentView]
+- -[BKExpandedImageContentViewController dealloc]
+- -[BKExpandedImageContentViewController imageAnalysisInteraction:shouldHandleShareWithRanges:boundingRect:selectedText:selectedAttributedText:]
+- -[BKExpandedImageContentViewController imageAnalysisInteraction:updateAttributedStringForCopy:]
+- -[BKExpandedImageContentViewController imageAnalysisInteraction:updateStringForCopy:]
+- -[BKExpandedImageContentViewController imageAnalyzer]
+- -[BKExpandedImageContentViewController imageScroller]
+- -[BKExpandedImageContentViewController imageView]
+- -[BKExpandedImageContentViewController image]
+- -[BKExpandedImageContentViewController initWithResource:]
+- -[BKExpandedImageContentViewController releaseViews]
+- -[BKExpandedImageContentViewController setAnalysisInteraction:]
+- -[BKExpandedImageContentViewController setImage:]
+- -[BKExpandedImageContentViewController setImageAnalyzer:]
+- -[BKExpandedImageContentViewController setImageScroller:]
+- -[BKExpandedImageContentViewController setImageView:]
+- -[BKExpandedImageContentViewController viewForZoomingInScrollView:]
+- -[BKExpandedWebContentViewController2 .cxx_destruct]
+- -[BKExpandedWebContentViewController2 _stylesheetSet]
+- -[BKExpandedWebContentViewController2 _titleForPage]
+- -[BKExpandedWebContentViewController2 _updateContent]
+- -[BKExpandedWebContentViewController2 _updateMetaViewportArguments]
+- -[BKExpandedWebContentViewController2 _urlToLoad]
+- -[BKExpandedWebContentViewController2 _viewportWidth]
+- -[BKExpandedWebContentViewController2 allowsRemoteInspection]
+- -[BKExpandedWebContentViewController2 cleanupOptions]
+- -[BKExpandedWebContentViewController2 contentType]
+- -[BKExpandedWebContentViewController2 contentView]
+- -[BKExpandedWebContentViewController2 content]
+- -[BKExpandedWebContentViewController2 handler:presentAlertController:completion:]
+- -[BKExpandedWebContentViewController2 initWithResource:]
+- -[BKExpandedWebContentViewController2 isLoadHTMLString]
+- -[BKExpandedWebContentViewController2 navigationHandler:didFinishLoadOfURL:]
+- -[BKExpandedWebContentViewController2 navigationHandler:didStartLoadOfURL:]
+- -[BKExpandedWebContentViewController2 navigationHandler:handleExternalLoadRequest:likelyUserInitiated:]
+- -[BKExpandedWebContentViewController2 navigationHandler:handleInternalLoadRequest:]
+- -[BKExpandedWebContentViewController2 navigationHandler:handleInternalLoadRequestForNewWindow:]
+- -[BKExpandedWebContentViewController2 navigationHandler:handleUserRequestForFrameToLoadExternalURL:completion:]
+- -[BKExpandedWebContentViewController2 observeValueForKeyPath:ofObject:change:context:]
+- -[BKExpandedWebContentViewController2 previewCssTemplate]
+- -[BKExpandedWebContentViewController2 releaseViews]
+- -[BKExpandedWebContentViewController2 setAllowsRemoteInspection:]
+- -[BKExpandedWebContentViewController2 setCleanupOptions:]
+- -[BKExpandedWebContentViewController2 setContent:]
+- -[BKExpandedWebContentViewController2 setContentType:]
+- -[BKExpandedWebContentViewController2 setIsLoadHTMLString:]
+- -[BKExpandedWebContentViewController2 setUrl:]
+- -[BKExpandedWebContentViewController2 setWebView:]
+- -[BKExpandedWebContentViewController2 url]
+- -[BKExpandedWebContentViewController2 viewDidAppear:]
+- -[BKExpandedWebContentViewController2 viewDidLoad]
+- -[BKExpandedWebContentViewController2 viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKExpandedWebContentViewController2 wantsDoubleTapGestureRecognizer]
+- -[BKExpandedWebContentViewController2 wantsTapToHideToolbarGestureRecognizer]
+- -[BKExpandedWebContentViewController2 webView]
+- -[BKExpandedWebContentViewControllerAccessibility contentView]
+- -[BKFinishedButton .cxx_destruct]
+- -[BKFinishedButton _commonInit]
+- -[BKFinishedButton frameColor]
+- -[BKFinishedButton frameWidth]
+- -[BKFinishedButton initWithCoder:]
+- -[BKFinishedButton initWithFrame:]
+- -[BKFinishedButton setFrameColor:]
+- -[BKFinishedButton setFrameWidth:]
+- -[BKFinishedContentViewController .cxx_destruct]
+- -[BKFinishedContentViewController _commonInit]
+- -[BKFinishedContentViewController _didChangeStyle:]
+- -[BKFinishedContentViewController _traitCollectionDidChange:previousTraitCollection:]
+- -[BKFinishedContentViewController bodyLabel]
+- -[BKFinishedContentViewController bodyLeadingConstraint]
+- -[BKFinishedContentViewController bodyTopConstraint]
+- -[BKFinishedContentViewController bodyTrailingConstraint]
+- -[BKFinishedContentViewController bodyWidthConstraint]
+- -[BKFinishedContentViewController cachedRectForAnnotation:]
+- -[BKFinishedContentViewController cachedVisibleRectForAnnotation:]
+- -[BKFinishedContentViewController checkmarkHeightConstraint]
+- -[BKFinishedContentViewController checkmarkImageView]
+- -[BKFinishedContentViewController checkmarkTopConstraint]
+- -[BKFinishedContentViewController checkmarkWidthConstraint]
+- -[BKFinishedContentViewController contentScale]
+- -[BKFinishedContentViewController contentSize]
+- -[BKFinishedContentViewController currentLocation]
+- -[BKFinishedContentViewController dealloc]
+- -[BKFinishedContentViewController finishedButtonBottomConstraint]
+- -[BKFinishedContentViewController finishedButtonLeadingConstraint]
+- -[BKFinishedContentViewController finishedButtonTopConstraint]
+- -[BKFinishedContentViewController finishedButtonTrailingConstraint]
+- -[BKFinishedContentViewController finishedButton]
+- -[BKFinishedContentViewController finishedPressed:]
+- -[BKFinishedContentViewController fixedLayout]
+- -[BKFinishedContentViewController initWithCoder:]
+- -[BKFinishedContentViewController initWithNibName:bundle:]
+- -[BKFinishedContentViewController init]
+- -[BKFinishedContentViewController isAnnotationVisible:]
+- -[BKFinishedContentViewController isContentLoadPending]
+- -[BKFinishedContentViewController isContentLoaded]
+- -[BKFinishedContentViewController isReusable]
+- -[BKFinishedContentViewController isUpsellContent]
+- -[BKFinishedContentViewController pageOffset]
+- -[BKFinishedContentViewController releaseViews]
+- -[BKFinishedContentViewController setBodyLabel:]
+- -[BKFinishedContentViewController setBodyLeadingConstraint:]
+- -[BKFinishedContentViewController setBodyTopConstraint:]
+- -[BKFinishedContentViewController setBodyTrailingConstraint:]
+- -[BKFinishedContentViewController setBodyWidthConstraint:]
+- -[BKFinishedContentViewController setCheckmarkHeightConstraint:]
+- -[BKFinishedContentViewController setCheckmarkImageView:]
+- -[BKFinishedContentViewController setCheckmarkTopConstraint:]
+- -[BKFinishedContentViewController setCheckmarkWidthConstraint:]
+- -[BKFinishedContentViewController setContentScale:]
+- -[BKFinishedContentViewController setContentSize:]
+- -[BKFinishedContentViewController setFinishedButton:]
+- -[BKFinishedContentViewController setFinishedButtonBottomConstraint:]
+- -[BKFinishedContentViewController setFinishedButtonLeadingConstraint:]
+- -[BKFinishedContentViewController setFinishedButtonTopConstraint:]
+- -[BKFinishedContentViewController setFinishedButtonTrailingConstraint:]
+- -[BKFinishedContentViewController setFixedLayout:]
+- -[BKFinishedContentViewController setTheme:]
+- -[BKFinishedContentViewController setTheme:force:]
+- -[BKFinishedContentViewController setTitleLabel:]
+- -[BKFinishedContentViewController setTitleLeadingConstraint:]
+- -[BKFinishedContentViewController setTitleTopConstraint:]
+- -[BKFinishedContentViewController setTitleTrailingConstraint:]
+- -[BKFinishedContentViewController setTitleWidthConstraint:]
+- -[BKFinishedContentViewController setVisibleInScrollMode:]
+- -[BKFinishedContentViewController setZoomScale:]
+- -[BKFinishedContentViewController styleManager]
+- -[BKFinishedContentViewController titleLabel]
+- -[BKFinishedContentViewController titleLeadingConstraint]
+- -[BKFinishedContentViewController titleTopConstraint]
+- -[BKFinishedContentViewController titleTrailingConstraint]
+- -[BKFinishedContentViewController titleWidthConstraint]
+- -[BKFinishedContentViewController updateAppearance]
+- -[BKFinishedContentViewController updateButtonAppearance]
+- -[BKFinishedContentViewController updateButtonTitle]
+- -[BKFinishedContentViewController updateFonts]
+- -[BKFinishedContentViewController updateViewConstraints]
+- -[BKFinishedContentViewController viewDidDisappear:]
+- -[BKFinishedContentViewController viewDidLayoutSubviews]
+- -[BKFinishedContentViewController viewDidLoad]
+- -[BKFinishedContentViewController viewWillAppear:]
+- -[BKFinishedContentViewController viewWillLayoutSubviews]
+- -[BKFinishedContentViewController visibleInScrollMode]
+- -[BKFinishedContentViewController zoomScale]
+- -[BKFlowingBookFontSizeConfiguration _reloadFontSizes]
+- -[BKFlowingBookFontSizeConfiguration copyWithZone:]
+- -[BKFlowingBookFontSizeConfiguration description]
+- -[BKFlowingBookFontSizeConfiguration initWithViewController:configurationEnvironment:]
+- -[BKFlowingBookFontSizeConfiguration isEqual:]
+- -[BKFlowingBookFontSizeConfiguration isEqualToFlowingBookFontSizeConfiguration:]
+- -[BKFlowingBookFontSizeConfiguration largeSizeFactor]
+- -[BKFlowingBookFontSizeConfiguration largeSize]
+- -[BKFlowingBookFontSizeConfiguration mediumSize]
+- -[BKFlowingBookFontSizeConfiguration setLargeSizeFactor:]
+- -[BKFlowingBookFontSizeConfiguration smallSize]
+- -[BKFlowingBookFontSizeConfiguration viewSizeChanged]
+- -[BKFlowingBookLayoutConfiguration .cxx_destruct]
+- -[BKFlowingBookLayoutConfiguration __layoutSizeForSpreadPages:]
+- -[BKFlowingBookLayoutConfiguration _averageCharacterWidth]
+- -[BKFlowingBookLayoutConfiguration _averageCharacterWidth].cold.1
+- -[BKFlowingBookLayoutConfiguration _averageCharacterWidth].cold.2
+- -[BKFlowingBookLayoutConfiguration _cacheKeyForFontFamily:size:]
+- -[BKFlowingBookLayoutConfiguration _calculatedWidthOfFontFamily:size:]
+- -[BKFlowingBookLayoutConfiguration _calculatedWidthOfFontFamily:size:].cold.1
+- -[BKFlowingBookLayoutConfiguration _calculatedWidthOfFontFamily:size:cache:key:]
+- -[BKFlowingBookLayoutConfiguration _charactersPerLineForContentWidth:columns:]
+- -[BKFlowingBookLayoutConfiguration _charactersPerLineForContentWidth:columns:].cold.1
+- -[BKFlowingBookLayoutConfiguration _charactersPerLineForContentWidthRaw:]
+- -[BKFlowingBookLayoutConfiguration _contentHasSpreadPages]
+- -[BKFlowingBookLayoutConfiguration _contentWidthForAvailableWidth:columns:]
+- -[BKFlowingBookLayoutConfiguration _fontSizeAdjustmentForFontFamily:]
+- -[BKFlowingBookLayoutConfiguration _fontSizeWithCurrentStyle]
+- -[BKFlowingBookLayoutConfiguration _gutterWidthWithSpreadPages:]
+- -[BKFlowingBookLayoutConfiguration _manageSafeAreaInsets]
+- -[BKFlowingBookLayoutConfiguration _sampleCorpus]
+- -[BKFlowingBookLayoutConfiguration _scrubberFrameHorizontalOriginY]
+- -[BKFlowingBookLayoutConfiguration _scrubberLength]
+- -[BKFlowingBookLayoutConfiguration _semanticSideInsetWithSpreadPages:]
+- -[BKFlowingBookLayoutConfiguration _shouldLayoutRectInsetContentRectBySafeAreaInsets]
+- -[BKFlowingBookLayoutConfiguration _useCompactStrings]
+- -[BKFlowingBookLayoutConfiguration allowsScrollMode]
+- -[BKFlowingBookLayoutConfiguration backToPageWithPageTitle:]
+- -[BKFlowingBookLayoutConfiguration bookCoverEdgeInsets]
+- -[BKFlowingBookLayoutConfiguration bookCoverRect]
+- -[BKFlowingBookLayoutConfiguration bookEnvironment]
+- -[BKFlowingBookLayoutConfiguration bookmarkHotspotDimension]
+- -[BKFlowingBookLayoutConfiguration bottomBackgoundBarFrame]
+- -[BKFlowingBookLayoutConfiguration bottomFullWidthToolbarFrame]
+- -[BKFlowingBookLayoutConfiguration bottomLeftToolbarFrameTOC]
+- -[BKFlowingBookLayoutConfiguration bottomLeftToolbarFrame]
+- -[BKFlowingBookLayoutConfiguration bottomRightToolbarFrameTOC]
+- -[BKFlowingBookLayoutConfiguration bottomRightToolbarFrame]
+- -[BKFlowingBookLayoutConfiguration charactersPerLine]
+- -[BKFlowingBookLayoutConfiguration compactFontSize]
+- -[BKFlowingBookLayoutConfiguration configurationHasABookCover]
+- -[BKFlowingBookLayoutConfiguration configurationHasABottomLeftToolbar]
+- -[BKFlowingBookLayoutConfiguration configurationHasATopLeftToolbar]
+- -[BKFlowingBookLayoutConfiguration contentContainerFrame]
+- -[BKFlowingBookLayoutConfiguration contentHasSpreadPages]
+- -[BKFlowingBookLayoutConfiguration contentInsets]
+- -[BKFlowingBookLayoutConfiguration contentLayoutSize]
+- -[BKFlowingBookLayoutConfiguration copyWithZone:]
+- -[BKFlowingBookLayoutConfiguration description]
+- -[BKFlowingBookLayoutConfiguration disableContentSpreadPages]
+- -[BKFlowingBookLayoutConfiguration fontSizeConfiguration]
+- -[BKFlowingBookLayoutConfiguration fontSize]
+- -[BKFlowingBookLayoutConfiguration footerFrameTOC]
+- -[BKFlowingBookLayoutConfiguration footerFrame]
+- -[BKFlowingBookLayoutConfiguration footerToolbarHeight]
+- -[BKFlowingBookLayoutConfiguration goToPageWithPageTitle:]
+- -[BKFlowingBookLayoutConfiguration gutterWidth]
+- -[BKFlowingBookLayoutConfiguration hasSpreadPages]
+- -[BKFlowingBookLayoutConfiguration headerFrame]
+- -[BKFlowingBookLayoutConfiguration headerToolbarHeight]
+- -[BKFlowingBookLayoutConfiguration hiddenBottomLeftToolbarFrame]
+- -[BKFlowingBookLayoutConfiguration hiddenBottomRightToolbarFrame]
+- -[BKFlowingBookLayoutConfiguration initWithViewController:]
+- -[BKFlowingBookLayoutConfiguration initWithViewController:provider:]
+- -[BKFlowingBookLayoutConfiguration insetContentViewFromContentContainerFrame:isPrimary:]
+- -[BKFlowingBookLayoutConfiguration insetTOCorCoverViewFromContentContainerFrame:]
+- -[BKFlowingBookLayoutConfiguration invalidate]
+- -[BKFlowingBookLayoutConfiguration isEqual:]
+- -[BKFlowingBookLayoutConfiguration isEqualToFlowingBookLayoutConfiguration:]
+- -[BKFlowingBookLayoutConfiguration isScroll]
+- -[BKFlowingBookLayoutConfiguration lastPageInChapterString]
+- -[BKFlowingBookLayoutConfiguration layoutSize]
+- -[BKFlowingBookLayoutConfiguration layout]
+- -[BKFlowingBookLayoutConfiguration leftContentContainerFrameForTwoUp]
+- -[BKFlowingBookLayoutConfiguration lineHeightAll:]
+- -[BKFlowingBookLayoutConfiguration noAutoHyphenation]
+- -[BKFlowingBookLayoutConfiguration noJustification]
+- -[BKFlowingBookLayoutConfiguration noteGlyphPadding]
+- -[BKFlowingBookLayoutConfiguration noteSideLength]
+- -[BKFlowingBookLayoutConfiguration options]
+- -[BKFlowingBookLayoutConfiguration overrideFontSize]
+- -[BKFlowingBookLayoutConfiguration pageLabelOnLeft]
+- -[BKFlowingBookLayoutConfiguration pageLabelVerticalOffset]
+- -[BKFlowingBookLayoutConfiguration pluralPagesLeftInChapterWithRemainingPageCount:]
+- -[BKFlowingBookLayoutConfiguration regularFontSize]
+- -[BKFlowingBookLayoutConfiguration rightContentContainerFrameForTwoUp]
+- -[BKFlowingBookLayoutConfiguration scrubberCalloutWidth]
+- -[BKFlowingBookLayoutConfiguration scrubberFrame]
+- -[BKFlowingBookLayoutConfiguration scrubberHeight]
+- -[BKFlowingBookLayoutConfiguration scrubberLeftRightInset]
+- -[BKFlowingBookLayoutConfiguration scrubberStyle]
+- -[BKFlowingBookLayoutConfiguration scrubberVerticalInset]
+- -[BKFlowingBookLayoutConfiguration scrubberWidth]
+- -[BKFlowingBookLayoutConfiguration semanticSideInset]
+- -[BKFlowingBookLayoutConfiguration setDisableContentSpreadPages:]
+- -[BKFlowingBookLayoutConfiguration setFontSizeConfiguration:]
+- -[BKFlowingBookLayoutConfiguration setLargeSizeFactor:]
+- -[BKFlowingBookLayoutConfiguration setLayout:]
+- -[BKFlowingBookLayoutConfiguration setOptions:]
+- -[BKFlowingBookLayoutConfiguration setOverrideFontSize:]
+- -[BKFlowingBookLayoutConfiguration setShowingTOC:]
+- -[BKFlowingBookLayoutConfiguration setStyle:]
+- -[BKFlowingBookLayoutConfiguration showingTOC]
+- -[BKFlowingBookLayoutConfiguration singularPagesLeftInChapterWithRemainingPageCount:]
+- -[BKFlowingBookLayoutConfiguration snapshotArtificialGutterWidth]
+- -[BKFlowingBookLayoutConfiguration style]
+- -[BKFlowingBookLayoutConfiguration tocHasSpreadPages]
+- -[BKFlowingBookLayoutConfiguration toolbarButtonMargin]
+- -[BKFlowingBookLayoutConfiguration topLeftToolbarFrame]
+- -[BKFlowingBookLayoutConfiguration topRightToolbarFrame]
+- -[BKFlowingBookLayoutConfiguration upsellContentInsets]
+- -[BKFlowingBookLayoutConfiguration usePaginationLineGrid]
+- -[BKFlowingBookLayoutConfiguration wantTranslucentToolbars]
+- -[BKFlowingBookLayoutConfiguration(BKOffsetHelper) be_pageLength]
+- -[BKFlowingBookPendingContent .cxx_destruct]
+- -[BKFlowingBookPendingContent description]
+- -[BKFlowingBookPendingContent initWithPrimaryContent:primaryPageOffset:secondaryContent:secondaryPageOffset:movingForward:]
+- -[BKFlowingBookPendingContent initWithPrimaryContent:primaryPageOffset:secondaryContent:secondaryPageOffset:oldPageOffset:]
+- -[BKFlowingBookPendingContent isAllContentLoaded]
+- -[BKFlowingBookPendingContent loadAllViewsIfNeeded]
+- -[BKFlowingBookPendingContent movingForward]
+- -[BKFlowingBookPendingContent oldPageOffset]
+- -[BKFlowingBookPendingContent primaryContent]
+- -[BKFlowingBookPendingContent primaryPageOffsetWithDefault:]
+- -[BKFlowingBookPendingContent primaryPageOffset]
+- -[BKFlowingBookPendingContent secondaryContent]
+- -[BKFlowingBookPendingContent secondaryPageOffsetWithDefault:]
+- -[BKFlowingBookPendingContent secondaryPageOffset]
+- -[BKFlowingBookPlistConfigurationEnvironment .cxx_destruct]
+- -[BKFlowingBookPlistConfigurationEnvironment _semanticFontSize]
+- -[BKFlowingBookPlistConfigurationEnvironment copyWithZone:]
+- -[BKFlowingBookPlistConfigurationEnvironment fontSizeConfiguration]
+- -[BKFlowingBookPlistConfigurationEnvironment fontSize]
+- -[BKFlowingBookPlistConfigurationEnvironment isEqual:]
+- -[BKFlowingBookPlistConfigurationEnvironment isEqualToFlowingBookPlistConfigurationEnvironment:]
+- -[BKFlowingBookPlistConfigurationEnvironment scroll]
+- -[BKFlowingBookPlistConfigurationEnvironment setFontSize:]
+- -[BKFlowingBookPlistConfigurationEnvironment setFontSizeConfiguration:]
+- -[BKFlowingBookPlistConfigurationEnvironment setLargeSizeFactor:]
+- -[BKFlowingBookPlistConfigurationEnvironment setScroll:]
+- -[BKFlowingBookPlistConfigurationEnvironment valueForKey:]
+- -[BKFlowingBookViewController .cxx_destruct]
+- -[BKFlowingBookViewController _accessibilityInvertColorsStatusDidChange:]
+- -[BKFlowingBookViewController _accessibilityWriteVisibleContentRectsToWebProcessPluginWithPrimaryContentViewController:secondaryContentViewController:]
+- -[BKFlowingBookViewController _actionBarButtonItem]
+- -[BKFlowingBookViewController _actionlessBookmarkBarButtonItem]
+- -[BKFlowingBookViewController _addChrome]
+- -[BKFlowingBookViewController _addCrossFadeTransitionWithColor:]
+- -[BKFlowingBookViewController _addNoteForAnnotation:inContent:withCompletion:]
+- -[BKFlowingBookViewController _addNoteForAnnotation:inContent:withRect:andGetVisibleAnnotationRect:]
+- -[BKFlowingBookViewController _addPendingContentLoad:]
+- -[BKFlowingBookViewController _addPendingPageTurnCompletion:]
+- -[BKFlowingBookViewController _addScrubberToView:]
+- -[BKFlowingBookViewController _addToolbarsToView:]
+- -[BKFlowingBookViewController _adjustLayoutForStickiesInContent:border:]
+- -[BKFlowingBookViewController _applyConfigurationIfNeeded]
+- -[BKFlowingBookViewController _applyConfiguration]
+- -[BKFlowingBookViewController _authorLabel]
+- -[BKFlowingBookViewController _barButtonItemWithImage:withSelector:]
+- -[BKFlowingBookViewController _barButtonItemWithTitle:selector:]
+- -[BKFlowingBookViewController _bookSnapshot:]
+- -[BKFlowingBookViewController _bookSnapshotFromContentImage:]
+- -[BKFlowingBookViewController _bookSnapshotView]
+- -[BKFlowingBookViewController _bookSnapshot]
+- -[BKFlowingBookViewController _bookmarkBarButtonItem]
+- -[BKFlowingBookViewController _buyBarButtonItem]
+- -[BKFlowingBookViewController _cancelEditAnnotationsButtonItem]
+- -[BKFlowingBookViewController _cancelEditAnnotations]
+- -[BKFlowingBookViewController _clearExistingContent:]
+- -[BKFlowingBookViewController _clearExistingContentForOrdinal:]
+- -[BKFlowingBookViewController _compositeContentOverlaysInContext:]
+- -[BKFlowingBookViewController _compositeSnapshotWithCompletion:]
+- -[BKFlowingBookViewController _configureJumpButton:historyEntity:]
+- -[BKFlowingBookViewController _contentViewController:showNoteForAnnotation:]
+- -[BKFlowingBookViewController _createCompositedPageImageForContent:completion:]
+- -[BKFlowingBookViewController _createCompositedPageImage]
+- -[BKFlowingBookViewController _currentLocationAsPageLocation:]
+- -[BKFlowingBookViewController _currentPageLocationForMovingForward:error:]
+- -[BKFlowingBookViewController _currentPageLocation]
+- -[BKFlowingBookViewController _deleteAnnotationsButtonItem]
+- -[BKFlowingBookViewController _didChangeContent]
+- -[BKFlowingBookViewController _didRegisterFonts:]
+- -[BKFlowingBookViewController _directorySwitcher]
+- -[BKFlowingBookViewController _disableAutoNightMode]
+- -[BKFlowingBookViewController _doAfterAllContentIsDrawnInPrimaryContent:secondaryContent:completion:]
+- -[BKFlowingBookViewController _editorController:editNote:]
+- -[BKFlowingBookViewController _enableAutoNightMode]
+- -[BKFlowingBookViewController _existingContentForOrdinal:]
+- -[BKFlowingBookViewController _fadeFSView]
+- -[BKFlowingBookViewController _firstContent]
+- -[BKFlowingBookViewController _fontBarButtonItem]
+- -[BKFlowingBookViewController _forceSetStyle:]
+- -[BKFlowingBookViewController _forceSetStyle:fromStyleChange:]
+- -[BKFlowingBookViewController _hasMediaElementAtPoint:inView:]
+- -[BKFlowingBookViewController _hasMediaElementUnderTouch:]
+- -[BKFlowingBookViewController _imageForBookmarkButtonWithPageBookmarked:inMinibar:]
+- -[BKFlowingBookViewController _isContentLoadPending]
+- -[BKFlowingBookViewController _isFirstPageLocation:]
+- -[BKFlowingBookViewController _isForwardMovementToPrimaryContent:primaryOffset:secondaryContent:secondaryOffset:oldPageOffset:]
+- -[BKFlowingBookViewController _isLandscape]
+- -[BKFlowingBookViewController _isMultiDocumentSpread]
+- -[BKFlowingBookViewController _isPortrait]
+- -[BKFlowingBookViewController _jumpAheadBarButtonItem]
+- -[BKFlowingBookViewController _jumpBackBarButtonItem]
+- -[BKFlowingBookViewController _jumpToLocation:animated:updateTransitionLocation:adjustScrollToReveal:completion:]
+- -[BKFlowingBookViewController _jumpToLocation:animated:updateTransitionLocation:completion:]
+- -[BKFlowingBookViewController _lastContent]
+- -[BKFlowingBookViewController _libraryBarButtonItem]
+- -[BKFlowingBookViewController _location:byMovingForward:error:]
+- -[BKFlowingBookViewController _makeBackPageCurlViewForSnapshottingRight:]
+- -[BKFlowingBookViewController _makeCenteredNonInteractiveChromeLabel]
+- -[BKFlowingBookViewController _makeConfiguration]
+- -[BKFlowingBookViewController _makeJumpAheadButton]
+- -[BKFlowingBookViewController _makeJumpBackButton]
+- -[BKFlowingBookViewController _menuSetTheme:]
+- -[BKFlowingBookViewController _monitorNotifications]
+- -[BKFlowingBookViewController _newContentViewControllerForOrdinal:]
+- -[BKFlowingBookViewController _nextPageTurnGenerationID]
+- -[BKFlowingBookViewController _observeScrollViewDidScroll:]
+- -[BKFlowingBookViewController _ordinalCount]
+- -[BKFlowingBookViewController _pageCurlView:]
+- -[BKFlowingBookViewController _pageDisplayChanged]
+- -[BKFlowingBookViewController _pageImage:flipped:]
+- -[BKFlowingBookViewController _pageNumberForContent:]
+- -[BKFlowingBookViewController _pageNumberForLocation:]
+- -[BKFlowingBookViewController _pageNumberForOrdinal:pageOffset:]
+- -[BKFlowingBookViewController _pageSlideAnimationFinished]
+- -[BKFlowingBookViewController _pagesLeft]
+- -[BKFlowingBookViewController _parityAlignedPageSpanForLocation:movingForward:error:]
+- -[BKFlowingBookViewController _pendingContentByMovingForward:error:]
+- -[BKFlowingBookViewController _pendingContentForPageSpan:movingForward:error:]
+- -[BKFlowingBookViewController _performAnimationWithContent:]
+- -[BKFlowingBookViewController _performRefreshAdornmentsForContent:]
+- -[BKFlowingBookViewController _performScrollTest:iterations:delta:]
+- -[BKFlowingBookViewController _preloadContentIfNecessary]
+- -[BKFlowingBookViewController _prepareViewSizeTransition:withTransitionCoordinator:]
+- -[BKFlowingBookViewController _prepareViewSizeTransition:withTransitionCoordinator:animated:]
+- -[BKFlowingBookViewController _prepareViewSizeTransition:withTransitionCoordinator:animated:clearContentControllers:]
+- -[BKFlowingBookViewController _proofingSyncDidStop:]
+- -[BKFlowingBookViewController _proofingSyncWillDeleteBookPersistentCache:]
+- -[BKFlowingBookViewController _proofingSyncWillStart:]
+- -[BKFlowingBookViewController _recordJumpEntry:location:pageOffset:pageTitle:paginationNeeded:]
+- -[BKFlowingBookViewController _refreshAdornmentsForContent:]
+- -[BKFlowingBookViewController _refreshAdornments]
+- -[BKFlowingBookViewController _remakeConfiguration]
+- -[BKFlowingBookViewController _removePendingContentLoad:]
+- -[BKFlowingBookViewController _resumeBarButtonItem]
+- -[BKFlowingBookViewController _revalidateConfiguration]
+- -[BKFlowingBookViewController _runPendingPageTurnCompletion:cancelled:]
+- -[BKFlowingBookViewController _scrubberPageTitleForPageNumber:]
+- -[BKFlowingBookViewController _searchBarButtonItem]
+- -[BKFlowingBookViewController _selectAllAnnotationsButtonItem]
+- -[BKFlowingBookViewController _selectCFI:inContentViewController:onlyIfVisible:]
+- -[BKFlowingBookViewController _selectCFI:onlyIfVisible:]
+- -[BKFlowingBookViewController _selectNoneAnnotationsButtonItem]
+- -[BKFlowingBookViewController _setControlsHiddenState:animated:completion:]
+- -[BKFlowingBookViewController _setDefaultScrubberCalloutFollowsThumbState]
+- -[BKFlowingBookViewController _setLayoutForBook:]
+- -[BKFlowingBookViewController _setSingleLineShadowViewVisible:forBar:barStyle:]
+- -[BKFlowingBookViewController _setStyle:]
+- -[BKFlowingBookViewController _setTheme:force:]
+- -[BKFlowingBookViewController _shareAnnotationsButtonItem]
+- -[BKFlowingBookViewController _shouldAddBookmarkButton]
+- -[BKFlowingBookViewController _shouldHidePageJumpingControls]
+- -[BKFlowingBookViewController _shouldRecordChapterTurn]
+- -[BKFlowingBookViewController _shouldShowTitle]
+- -[BKFlowingBookViewController _showDigitalPages]
+- -[BKFlowingBookViewController _showPhysicalPagesButton]
+- -[BKFlowingBookViewController _showPhysicalPages]
+- -[BKFlowingBookViewController _snapshotBackPageCurlView:]
+- -[BKFlowingBookViewController _snapshotBackPageCurlView:updateAfterSnapshot:]
+- -[BKFlowingBookViewController _snapshotForLeftPage:rightPage:flipped:]
+- -[BKFlowingBookViewController _spreadPagesAllowedWithCurrentViewport]
+- -[BKFlowingBookViewController _spreadPagesDisabled]
+- -[BKFlowingBookViewController _stopPlayingMediaIfNoLongerVisible]
+- -[BKFlowingBookViewController _timeOutWaitingForPaint:]
+- -[BKFlowingBookViewController _titleLabel]
+- -[BKFlowingBookViewController _tocBarButtonItem]
+- -[BKFlowingBookViewController _traitCollectionDidChange:previousTraitCollection:]
+- -[BKFlowingBookViewController _turnToContent2:location:pageOffset:waitForContentLoad:directionHint:animated:oldPageOffset:]
+- -[BKFlowingBookViewController _turnToContent:location:pageOffset:waitForContentLoad:animated:]
+- -[BKFlowingBookViewController _turnToContent:location:pageOffset:waitForContentLoad:directionHint:animated:]
+- -[BKFlowingBookViewController _turnToContent:location:pageOffset:waitForContentLoad:directionHint:animated:adjustScrollToReveal:]
+- -[BKFlowingBookViewController _updateActionButton]
+- -[BKFlowingBookViewController _updateAppearanceFromLightLevelController:]
+- -[BKFlowingBookViewController _updateAppearance]
+- -[BKFlowingBookViewController _updateConfigurationWithCompletion:]
+- -[BKFlowingBookViewController _updateControlsHiddenState:]
+- -[BKFlowingBookViewController _updateControlsHiddenState]
+- -[BKFlowingBookViewController _updateDividersForScrollView:]
+- -[BKFlowingBookViewController _updateJumpAheadButton:]
+- -[BKFlowingBookViewController _updateJumpBackButton]
+- -[BKFlowingBookViewController _updateLibraryBarButtonItem]
+- -[BKFlowingBookViewController _updatePageBookmarkButton]
+- -[BKFlowingBookViewController _updatePageNumber]
+- -[BKFlowingBookViewController _updateScrollObserver]
+- -[BKFlowingBookViewController _updateScrubber:]
+- -[BKFlowingBookViewController _updateScrubberCallout:]
+- -[BKFlowingBookViewController _updateScrubberTheme]
+- -[BKFlowingBookViewController _updateTOCBarButtonEnabledState]
+- -[BKFlowingBookViewController _updateToolbars:]
+- -[BKFlowingBookViewController _visibleCFIRangeFromWebView:document:]
+- -[BKFlowingBookViewController addPhysicalPageLabelsForContent:]
+- -[BKFlowingBookViewController addScrollModePageNumbersForContent:]
+- -[BKFlowingBookViewController adornmentContainerViewForContent:]
+- -[BKFlowingBookViewController analyticsReadingSettingsData]
+- -[BKFlowingBookViewController appearanceIdentifierForSnapshot]
+- -[BKFlowingBookViewController appearanceMenuItems]
+- -[BKFlowingBookViewController appearanceStyleForSnapshot]
+- -[BKFlowingBookViewController appearanceStyle]
+- -[BKFlowingBookViewController appearanceViewController:brightnessLevelDidChange:]
+- -[BKFlowingBookViewController appearanceViewController:didChangeAutoNightMode:previousValue:]
+- -[BKFlowingBookViewController appearanceViewController:didChangeTheme:]
+- -[BKFlowingBookViewController appearanceViewController:willChangeTheme:]
+- -[BKFlowingBookViewController applyAppearanceStyle:]
+- -[BKFlowingBookViewController assetSharingConnectionServer:didChangeConnectionType:]
+- -[BKFlowingBookViewController assetSharingConnectionServer:didChangeSelectedAnnotationsCount:]
+- -[BKFlowingBookViewController assetSharingConnectionServers]
+- -[BKFlowingBookViewController assetViewControllerDidEndLiveResize]
+- -[BKFlowingBookViewController assetViewControllerDidEnterFullScreen]
+- -[BKFlowingBookViewController assetViewControllerDidExitFullScreen]
+- -[BKFlowingBookViewController assetViewControllerUpdateCloseStateTypeIfNeeded]
+- -[BKFlowingBookViewController assetViewControllerUpdateToolbars]
+- -[BKFlowingBookViewController assetViewControllerWillBeginLiveResize]
+- -[BKFlowingBookViewController assetViewControllerWillEnterFullScreen]
+- -[BKFlowingBookViewController assetViewControllerWillExitFullScreen]
+- -[BKFlowingBookViewController autoNightModeForAppearanceViewController:]
+- -[BKFlowingBookViewController bestSupportedBookSharingConnectionType]
+- -[BKFlowingBookViewController bookLoadingMonitor]
+- -[BKFlowingBookViewController bookOpenTransitionDidEnd]
+- -[BKFlowingBookViewController bookOpenTransitionWillBegin]
+- -[BKFlowingBookViewController bookToolbarCurrentPageString]
+- -[BKFlowingBookViewController bookToolbarMode]
+- -[BKFlowingBookViewController bookToolbarShareURL]
+- -[BKFlowingBookViewController bookToolbarTitle]
+- -[BKFlowingBookViewController bookToolbarTransparency]
+- -[BKFlowingBookViewController bookmarkHotspotDimensionForPageTurningViewController:]
+- -[BKFlowingBookViewController books_addHighlight:]
+- -[BKFlowingBookViewController books_addNote:]
+- -[BKFlowingBookViewController books_decreaseSize:]
+- -[BKFlowingBookViewController books_disableContinuousScroll:]
+- -[BKFlowingBookViewController books_enableContinuousScroll:]
+- -[BKFlowingBookViewController books_increaseSize:]
+- -[BKFlowingBookViewController books_pageBackward:]
+- -[BKFlowingBookViewController books_pageForward:]
+- -[BKFlowingBookViewController books_pageLeft:]
+- -[BKFlowingBookViewController books_pageRight:]
+- -[BKFlowingBookViewController books_resetSize:]
+- -[BKFlowingBookViewController books_setThemeGray:]
+- -[BKFlowingBookViewController books_setThemeNight:]
+- -[BKFlowingBookViewController books_setThemeSepia:]
+- -[BKFlowingBookViewController books_setThemeWhite:]
+- -[BKFlowingBookViewController books_showBookmarks:]
+- -[BKFlowingBookViewController books_showDigitalPageNumbers:]
+- -[BKFlowingBookViewController books_showHighlightsAndNotes:]
+- -[BKFlowingBookViewController books_showPrintedPageNumbers:]
+- -[BKFlowingBookViewController books_showTableOfContents:]
+- -[BKFlowingBookViewController books_toggleContinuousScroll:]
+- -[BKFlowingBookViewController bottomBarHeight]
+- -[BKFlowingBookViewController buildHoverControlRegionWithBuilder:]
+- -[BKFlowingBookViewController bypassRepagination]
+- -[BKFlowingBookViewController calculateOffset:fromOrdinal:andPageOffset:]
+- -[BKFlowingBookViewController canBecomeFirstResponder]
+- -[BKFlowingBookViewController canPerformAction:withSender:]
+- -[BKFlowingBookViewController canShowTurnPageButtonForGesture:]
+- -[BKFlowingBookViewController canTransition]
+- -[BKFlowingBookViewController cancelEditAnnotations:]
+- -[BKFlowingBookViewController captureLastRecordedLocation]
+- -[BKFlowingBookViewController chapterTitleForOrdinal:pageOffset:]
+- -[BKFlowingBookViewController coalescedRefreshAdornmentsForContent]
+- -[BKFlowingBookViewController configuration]
+- -[BKFlowingBookViewController contentAfterContent:]
+- -[BKFlowingBookViewController contentBeforeContent:]
+- -[BKFlowingBookViewController contentContainerViewController]
+- -[BKFlowingBookViewController contentData]
+- -[BKFlowingBookViewController contentSubType]
+- -[BKFlowingBookViewController contentView:unhandledClickAtPoint:]
+- -[BKFlowingBookViewController contentViewController:didUpdateCurrentVisibleCFILocation:]
+- -[BKFlowingBookViewController contentViewController:encounteredIssueWithContent:failureCount:]
+- -[BKFlowingBookViewController contentViewController:locationRectsForAnnotations:]
+- -[BKFlowingBookViewController contentViewController:navigatePageDirection:]
+- -[BKFlowingBookViewController contentViewController:searchEncyclopediaForString:]
+- -[BKFlowingBookViewController contentViewController:searchWebForString:]
+- -[BKFlowingBookViewController contentViewController:showNoteForAnnotation:]
+- -[BKFlowingBookViewController contentViewControllerAdornmentsDidChange:]
+- -[BKFlowingBookViewController contentViewControllerAnnotationCacheDidChange:]
+- -[BKFlowingBookViewController contentViewControllerAnnotationsDidChange:]
+- -[BKFlowingBookViewController contentViewControllerAttemptingReload:]
+- -[BKFlowingBookViewController contentViewControllerDidChangeLocation:]
+- -[BKFlowingBookViewController contentViewControllerDidEnterFullscreen:]
+- -[BKFlowingBookViewController contentViewControllerDidExitFullscreen:]
+- -[BKFlowingBookViewController contentViewControllerDidFinishLayout:]
+- -[BKFlowingBookViewController contentViewControllerForAnnotation:]
+- -[BKFlowingBookViewController contentViewControllerForDocument:]
+- -[BKFlowingBookViewController contentViewControllerForLocation:]
+- -[BKFlowingBookViewController contentViewControllerForOrdinal:]
+- -[BKFlowingBookViewController contentViewControllerIgnoreNextSwipe:]
+- -[BKFlowingBookViewController contentViewControllerWillExitFullscreen:]
+- -[BKFlowingBookViewController contentViewDidDraw:]
+- -[BKFlowingBookViewController contentViewFailedToLoad:error:]
+- -[BKFlowingBookViewController contentViewReady:]
+- -[BKFlowingBookViewController contentWithSelection]
+- -[BKFlowingBookViewController controlsTapGesture:]
+- -[BKFlowingBookViewController controlsTapGestureAtPoint:sender:]
+- -[BKFlowingBookViewController coverContentViewController]
+- -[BKFlowingBookViewController createSnapshotOfStyle:assetVersion:completion:]
+- -[BKFlowingBookViewController currentFontSizeIndexForLiveResize]
+- -[BKFlowingBookViewController currentLocation]
+- -[BKFlowingBookViewController currentPageLocation]
+- -[BKFlowingBookViewController currentPages]
+- -[BKFlowingBookViewController currentSoundtrack]
+- -[BKFlowingBookViewController dealloc]
+- -[BKFlowingBookViewController deleteSelectedAnnotations:]
+- -[BKFlowingBookViewController didChangeLocationClosing:suspending:]
+- -[BKFlowingBookViewController didHideAnnotationEditor:]
+- -[BKFlowingBookViewController didTapOnShareBook:]
+- -[BKFlowingBookViewController directorySwitcherConfiguration]
+- -[BKFlowingBookViewController directorySwitcher]
+- -[BKFlowingBookViewController donePressedFromToolbar:]
+- -[BKFlowingBookViewController editAnnotations:]
+- -[BKFlowingBookViewController editorController:deleteAnnotation:]
+- -[BKFlowingBookViewController editorController:editNote:]
+- -[BKFlowingBookViewController editorController:showEditMenuForAnnotation:]
+- -[BKFlowingBookViewController forceRepagination]
+- -[BKFlowingBookViewController gestureRecognizer:shouldReceiveTouch:]
+- -[BKFlowingBookViewController getViewSnapshot]
+- -[BKFlowingBookViewController hasHighlightedText]
+- -[BKFlowingBookViewController hasSingleToolbar]
+- -[BKFlowingBookViewController hasSpreadPages]
+- -[BKFlowingBookViewController hasTextSelected]
+- -[BKFlowingBookViewController hideSelectionTapGesture:]
+- -[BKFlowingBookViewController highlightSearchResult:]
+- -[BKFlowingBookViewController highlightSearchResult:forceVisible:]
+- -[BKFlowingBookViewController ignoreToolbarUpdates]
+- -[BKFlowingBookViewController im_isRTL]
+- -[BKFlowingBookViewController initWithBook:storeID:]
+- -[BKFlowingBookViewController initialLocation]
+- -[BKFlowingBookViewController isAnnotationVisible:]
+- -[BKFlowingBookViewController isBookSharingConnectionActive]
+- -[BKFlowingBookViewController isLocationOnCurrentPage:]
+- -[BKFlowingBookViewController isLocationOnVisiblePages:]
+- -[BKFlowingBookViewController isLocationOnVisiblePages:completion:]
+- -[BKFlowingBookViewController isLocationVisible:completion:]
+- -[BKFlowingBookViewController isPaginationComplete]
+- -[BKFlowingBookViewController isRotating]
+- -[BKFlowingBookViewController isScrubberDisabled]
+- -[BKFlowingBookViewController isShowingContent]
+- -[BKFlowingBookViewController isShowingTOC]
+- -[BKFlowingBookViewController jumpAheadSelected:]
+- -[BKFlowingBookViewController jumpAheadText]
+- -[BKFlowingBookViewController jumpBackSelected:]
+- -[BKFlowingBookViewController jumpBackText]
+- -[BKFlowingBookViewController jumpToLocation:animated:completion:]
+- -[BKFlowingBookViewController lastRecordedLocation]
+- -[BKFlowingBookViewController layoutScrubberCallout]
+- -[BKFlowingBookViewController manualCurlDriver]
+- -[BKFlowingBookViewController modalRestoreLocation]
+- -[BKFlowingBookViewController newButton]
+- -[BKFlowingBookViewController newPageMarginLabel]
+- -[BKFlowingBookViewController noteEditorHighlightedTextFont]
+- -[BKFlowingBookViewController notePressed:]
+- -[BKFlowingBookViewController notificationObservationTokens]
+- -[BKFlowingBookViewController numberOfVisiblePages]
+- -[BKFlowingBookViewController observeValueForKeyPath:ofObject:change:context:]
+- -[BKFlowingBookViewController observedScrollView]
+- -[BKFlowingBookViewController overlayViewColorForLiveResize]
+- -[BKFlowingBookViewController pageCountForOrdinal:]
+- -[BKFlowingBookViewController pageLabelsForContent:]
+- -[BKFlowingBookViewController pageLabels]
+- -[BKFlowingBookViewController pageNavigationDidBeginInteracting:]
+- -[BKFlowingBookViewController pageNavigationDidEndInteracting:]
+- -[BKFlowingBookViewController pageNumberForOrdinal:]
+- -[BKFlowingBookViewController pageSlideCount]
+- -[BKFlowingBookViewController pageTitleForPageNumber:]
+- -[BKFlowingBookViewController pageTurningViewController:beginManualCurl:onReady:]
+- -[BKFlowingBookViewController pageTurningViewController:hasMediaElementUnderTouch:]
+- -[BKFlowingBookViewController pageTurningViewController:pageCurlManager:didFinishAnimation:transitionCompleted:]
+- -[BKFlowingBookViewController pageTurningViewController:pageTurnShouldRequireFailureOf:]
+- -[BKFlowingBookViewController pageTurningViewController:tapToTurnPages:]
+- -[BKFlowingBookViewController pageTurningViewController:turnChapter:]
+- -[BKFlowingBookViewController pageTurningViewController:turnPages:]
+- -[BKFlowingBookViewController pageTurningViewControllerDidLayoutSubviews:]
+- -[BKFlowingBookViewController pageTurningViewControllerShouldBeginManualCurl:]
+- -[BKFlowingBookViewController pageTurningViewControllerShouldTurnPage:]
+- -[BKFlowingBookViewController pageViewController:didFinishAnimating:previousViewControllers:transitionCompleted:]
+- -[BKFlowingBookViewController pageViewController:viewControllerAfterViewController:]
+- -[BKFlowingBookViewController pageViewController:viewControllerBeforeViewController:]
+- -[BKFlowingBookViewController pageViewControllerForLayout:]
+- -[BKFlowingBookViewController pageViewController]
+- -[BKFlowingBookViewController paginationCompleted]
+- -[BKFlowingBookViewController paginationUpdateRequired:]
+- -[BKFlowingBookViewController paginationUpdateRequired]
+- -[BKFlowingBookViewController pendingAppearanceStyle]
+- -[BKFlowingBookViewController pendingPageTurnCompletions]
+- -[BKFlowingBookViewController pendingPageTurnGenerationID]
+- -[BKFlowingBookViewController performSelectorProxy]
+- -[BKFlowingBookViewController positionForBar:]
+- -[BKFlowingBookViewController prepareForSnapshotWithHidden:]
+- -[BKFlowingBookViewController primaryContentController]
+- -[BKFlowingBookViewController proofingVeil]
+- -[BKFlowingBookViewController readAloudState]
+- -[BKFlowingBookViewController readerType]
+- -[BKFlowingBookViewController readingSessionData]
+- -[BKFlowingBookViewController recordJumpFromCurrentLocation]
+- -[BKFlowingBookViewController recordedTurnToBeginningOfChapter]
+- -[BKFlowingBookViewController recordedTurnToEndOfChapter]
+- -[BKFlowingBookViewController recordedTurnToNextChapter]
+- -[BKFlowingBookViewController recordedTurnToPreviousChapter]
+- -[BKFlowingBookViewController refreshAdornmentsContent]
+- -[BKFlowingBookViewController releaseViews]
+- -[BKFlowingBookViewController reloadNoteStickiesForContent:]
+- -[BKFlowingBookViewController removeNoteStickiesForContent:]
+- -[BKFlowingBookViewController removeNoteStickies]
+- -[BKFlowingBookViewController removePageLabelsForContent:]
+- -[BKFlowingBookViewController restoreStashedHighlights]
+- -[BKFlowingBookViewController resume:]
+- -[BKFlowingBookViewController rotationStorage]
+- -[BKFlowingBookViewController savableLocation]
+- -[BKFlowingBookViewController saveLocationForStyleChange]
+- -[BKFlowingBookViewController scheduleFadeFSViewAfterDelay:]
+- -[BKFlowingBookViewController scrubValueChanged:]
+- -[BKFlowingBookViewController scrubber:validateHovering:]
+- -[BKFlowingBookViewController scrubberCalloutArrowDirection]
+- -[BKFlowingBookViewController scrubberCalloutFollowsScrollerThumb]
+- -[BKFlowingBookViewController scrubberTouch:forEvent:]
+- -[BKFlowingBookViewController scrubberTouchDown:]
+- -[BKFlowingBookViewController scrubberTrackClickedAfterThumb:]
+- -[BKFlowingBookViewController searchButtonItem]
+- -[BKFlowingBookViewController searchViewController:didTransitionToSize:]
+- -[BKFlowingBookViewController searchViewController:willTransitionToSize:]
+- -[BKFlowingBookViewController searchViewController]
+- -[BKFlowingBookViewController secondaryContentController]
+- -[BKFlowingBookViewController selectAllAnnotations:]
+- -[BKFlowingBookViewController selectNoneAnnotation:]
+- -[BKFlowingBookViewController semanticLayoutOverlayViewController]
+- -[BKFlowingBookViewController setAppearanceStyle:]
+- -[BKFlowingBookViewController setBook:]
+- -[BKFlowingBookViewController setBookLoadingMonitor:]
+- -[BKFlowingBookViewController setBookSharingConnectionActive:]
+- -[BKFlowingBookViewController setBypassRepagination:]
+- -[BKFlowingBookViewController setCaptureLastRecordedLocation:]
+- -[BKFlowingBookViewController setCoalescedRefreshAdornmentsForContent:]
+- -[BKFlowingBookViewController setControlsVisible:animated:completion:]
+- -[BKFlowingBookViewController setDirectorySwitcherConfiguration:]
+- -[BKFlowingBookViewController setFrameOnTransitioningView:forTransition:]
+- -[BKFlowingBookViewController setFrameOnViewController:forTransition:]
+- -[BKFlowingBookViewController setIgnorePageTurnGestures:]
+- -[BKFlowingBookViewController setIgnoreToolbarUpdates:]
+- -[BKFlowingBookViewController setIsRotating:]
+- -[BKFlowingBookViewController setJumpAheadText:]
+- -[BKFlowingBookViewController setJumpBackText:]
+- -[BKFlowingBookViewController setLastRecordedLocation:]
+- -[BKFlowingBookViewController setLayout:]
+- -[BKFlowingBookViewController setManualCurlDriver:]
+- -[BKFlowingBookViewController setModalRestoreLocation:]
+- -[BKFlowingBookViewController setNotificationObservationTokens:]
+- -[BKFlowingBookViewController setObservedScrollView:]
+- -[BKFlowingBookViewController setOverlayWindowVisible:animated:adjustStatusBar:]
+- -[BKFlowingBookViewController setPageCountIncludingUpsell:]
+- -[BKFlowingBookViewController setPageLabels:forContent:]
+- -[BKFlowingBookViewController setPageSlideCount:]
+- -[BKFlowingBookViewController setPageViewController:]
+- -[BKFlowingBookViewController setPendingAppearanceStyle:]
+- -[BKFlowingBookViewController setPendingPageTurnCompletions:]
+- -[BKFlowingBookViewController setPendingPageTurnGenerationID:]
+- -[BKFlowingBookViewController setPrimaryContentController:]
+- -[BKFlowingBookViewController setProofingVeil:]
+- -[BKFlowingBookViewController setRefreshAdornmentsContent:]
+- -[BKFlowingBookViewController setRotationStorage:]
+- -[BKFlowingBookViewController setScrubberCalloutFollowsScrollerThumb:]
+- -[BKFlowingBookViewController setSecondaryContentController:]
+- -[BKFlowingBookViewController setSection:animated:adjustScrollToReveal:]
+- -[BKFlowingBookViewController setSemanticLayoutOverlayViewController:]
+- -[BKFlowingBookViewController setShowAnnotations:]
+- -[BKFlowingBookViewController setSingleLineShadowView:]
+- -[BKFlowingBookViewController setSizeAfterLastLayout:]
+- -[BKFlowingBookViewController setSmartInvertEnabled:]
+- -[BKFlowingBookViewController setStashedPrimaryHighlights:]
+- -[BKFlowingBookViewController setStashedSecondaryHighlights:]
+- -[BKFlowingBookViewController setStyle:]
+- -[BKFlowingBookViewController setStyleChangeSavedLocation:]
+- -[BKFlowingBookViewController setTheme:]
+- -[BKFlowingBookViewController setTransitionLocation:]
+- -[BKFlowingBookViewController setTurnChapterBehavior:]
+- -[BKFlowingBookViewController setupAppearanceViewController]
+- -[BKFlowingBookViewController setupNotifications]
+- -[BKFlowingBookViewController shareBook:]
+- -[BKFlowingBookViewController shareSelectedAnnotations:]
+- -[BKFlowingBookViewController shouldAcceptLocationUpdateFromGlobalAnnotation:]
+- -[BKFlowingBookViewController shouldAutorotate]
+- -[BKFlowingBookViewController shouldBookmarkButtonsBeEnabled]
+- -[BKFlowingBookViewController shouldDisplayBookmarksButton]
+- -[BKFlowingBookViewController shouldDisplayContentsButton]
+- -[BKFlowingBookViewController shouldDisplayHighlightsButton]
+- -[BKFlowingBookViewController shouldDisplayPageThumbnailsButton]
+- -[BKFlowingBookViewController shouldDisplayReadaloudControls]
+- -[BKFlowingBookViewController shouldDisplaySearchControls]
+- -[BKFlowingBookViewController shouldDisplaySettingsControls]
+- -[BKFlowingBookViewController shouldForceJumpOnSearch]
+- -[BKFlowingBookViewController shouldSavePageControlVisibility]
+- -[BKFlowingBookViewController shouldSyncLocation:]
+- -[BKFlowingBookViewController showActionControls:]
+- -[BKFlowingBookViewController showAnnotations]
+- -[BKFlowingBookViewController showAudioControlsFromToolbar:]
+- -[BKFlowingBookViewController showBookmarksFromToolbar:]
+- -[BKFlowingBookViewController showFontPicker:]
+- -[BKFlowingBookViewController showGlossaryFromToolbar:]
+- -[BKFlowingBookViewController showNotesFromToolbar:]
+- -[BKFlowingBookViewController showOverlayViewController:fromView:popoverOnPhone:popoverBackgroundColor:]
+- -[BKFlowingBookViewController showPhysicalPages]
+- -[BKFlowingBookViewController showSearch:]
+- -[BKFlowingBookViewController showSettingsFromToolbar:]
+- -[BKFlowingBookViewController showTOCFromToolbar:]
+- -[BKFlowingBookViewController showThumbnailTOCFromToolbar:]
+- -[BKFlowingBookViewController simulateManualPageTurn:time:]
+- -[BKFlowingBookViewController singleLineShadowView]
+- -[BKFlowingBookViewController sizeAfterLastLayout]
+- -[BKFlowingBookViewController smartInvertEnabled]
+- -[BKFlowingBookViewController smartTurnToNextChapter]
+- -[BKFlowingBookViewController smartTurnToPreviousChapter]
+- -[BKFlowingBookViewController snapshotAllowed]
+- -[BKFlowingBookViewController snapshotDuringLiveResize]
+- -[BKFlowingBookViewController stashHighlights]
+- -[BKFlowingBookViewController stashedPrimaryHighlights]
+- -[BKFlowingBookViewController stashedSecondaryHighlights]
+- -[BKFlowingBookViewController stopPlayingMedia:]
+- -[BKFlowingBookViewController storeChangedNotification:]
+- -[BKFlowingBookViewController stringForPageNumber:]
+- -[BKFlowingBookViewController styleChangeSavedLocation]
+- -[BKFlowingBookViewController styleDidChange:]
+- -[BKFlowingBookViewController styleManager]
+- -[BKFlowingBookViewController style]
+- -[BKFlowingBookViewController teardownNotifications]
+- -[BKFlowingBookViewController tocViewController:pageNumberForChapter:]
+- -[BKFlowingBookViewController tocViewController:pageTitleForAnnotation:]
+- -[BKFlowingBookViewController tocViewController:pageTitleForChapter:]
+- -[BKFlowingBookViewController toggleBookmarkFromToolbar:]
+- -[BKFlowingBookViewController togglePhysicalPages:]
+- -[BKFlowingBookViewController toolbars]
+- -[BKFlowingBookViewController topBarHeight]
+- -[BKFlowingBookViewController touchBarScrollerDidEnd:completion:]
+- -[BKFlowingBookViewController touchBarScrollerDidScroll:]
+- -[BKFlowingBookViewController touchBarScrollerDidStart:]
+- -[BKFlowingBookViewController traitCollection]
+- -[BKFlowingBookViewController transitionContentViewIsFullBookView]
+- -[BKFlowingBookViewController transitionContentView]
+- -[BKFlowingBookViewController transitionDidFinish:]
+- -[BKFlowingBookViewController transitionLocationForContentViewController:]
+- -[BKFlowingBookViewController transitionLocation]
+- -[BKFlowingBookViewController turnChapterBehavior]
+- -[BKFlowingBookViewController turnPages:animated:]
+- -[BKFlowingBookViewController turnPages:animated:completion:]
+- -[BKFlowingBookViewController turnToBeginningOfChapter]
+- -[BKFlowingBookViewController turnToEndOfPreviousChapterWithAnimation:]
+- -[BKFlowingBookViewController turnToFirstPage:]
+- -[BKFlowingBookViewController turnToInitialPage:]
+- -[BKFlowingBookViewController turnToNextChapter]
+- -[BKFlowingBookViewController turnToPageNumber:animated:]
+- -[BKFlowingBookViewController turnToPreviousChapter]
+- -[BKFlowingBookViewController updateAppearanceStyle]
+- -[BKFlowingBookViewController updateBackgroundColorsWithTraitCollection:]
+- -[BKFlowingBookViewController updateBookmarkButton:]
+- -[BKFlowingBookViewController updateContentStyleAndConfiguration]
+- -[BKFlowingBookViewController updateHasPhysicalPages]
+- -[BKFlowingBookViewController updatePageNumberSpecificControls:]
+- -[BKFlowingBookViewController updatePaginationProgress:]
+- -[BKFlowingBookViewController updateScrubberUsingTouchbar:]
+- -[BKFlowingBookViewController updateSpineLocation]
+- -[BKFlowingBookViewController updateTouchBarController]
+- -[BKFlowingBookViewController updateUIAndPerformAnimationWithContent:]
+- -[BKFlowingBookViewController validateCommand:]
+- -[BKFlowingBookViewController viewDidAppear:]
+- -[BKFlowingBookViewController viewDidDisappear:]
+- -[BKFlowingBookViewController viewDidLayoutSubviews]
+- -[BKFlowingBookViewController viewDidLoad]
+- -[BKFlowingBookViewController viewDidMoveToWindow:shouldAppearOrDisappear:]
+- -[BKFlowingBookViewController viewIsAppearing:]
+- -[BKFlowingBookViewController viewSafeAreaInsetsDidChange]
+- -[BKFlowingBookViewController viewWillDisappear:]
+- -[BKFlowingBookViewController viewWillLayoutSubviews]
+- -[BKFlowingBookViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKFlowingBookViewController visibleCFIRange]
+- -[BKFlowingBookViewController webViewForPagination]
+- -[BKFlowingBookViewController willAdjustHeightForSnapshot]
+- -[BKFlowingBookViewController willHideAnnotationEditor:]
+- -[BKFlowingBookViewController willShowAnnotationEditor:]
+- -[BKFlowingBookViewController window:shouldAutorotateToInterfaceOrientation:]
+- -[BKFlowingBookViewController(BKDebug) _debugToolbarItems]
+- -[BKFlowingBookViewController(REI) _contentViewControllerForPageNumber:]
+- -[BKFlowingBookViewController(REI) _pageRangeForChapterAtPageNumber:]
+- -[BKFlowingBookViewController(SemanticLayout) semanticLayoutChanged]
+- -[BKFlowingBookViewController(SemanticLayout) setSemanticOverlayVisible:]
+- -[BKFont .cxx_destruct]
+- -[BKFont cancelDownload]
+- -[BKFont checkStateSynchronously:]
+- -[BKFont checkStateSynchronously:completion:]
+- -[BKFont continueDownloading]
+- -[BKFont dealloc]
+- -[BKFont description]
+- -[BKFont displayName]
+- -[BKFont downloadProgress]
+- -[BKFont download]
+- -[BKFont familyName]
+- -[BKFont fileExtension]
+- -[BKFont fileNamePrefix]
+- -[BKFont isAvailable]
+- -[BKFont isDownloadable]
+- -[BKFont isDownloading]
+- -[BKFont isInstalled]
+- -[BKFont isOriginalFont]
+- -[BKFont kind]
+- -[BKFont localizedName]
+- -[BKFont postscriptBoldName]
+- -[BKFont postscriptName]
+- -[BKFont registerFiles]
+- -[BKFont setContinueDownloading:]
+- -[BKFont setDisplayName:]
+- -[BKFont setDownloadProgress:]
+- -[BKFont setFamilyName:]
+- -[BKFont setFileExtension:]
+- -[BKFont setFileNamePrefix:]
+- -[BKFont setKind:]
+- -[BKFont setPostscriptBoldName:]
+- -[BKFont setPostscriptName:]
+- -[BKFont setState:]
+- -[BKFont setSystemName:]
+- -[BKFont state]
+- -[BKFont systemName]
+- -[BKFont unregisterFiles]
+- -[BKFontCache .cxx_destruct]
+- -[BKFontCache _didReceiveMemoryWarning:]
+- -[BKFontCache _presetsFileNameForLanguage:]
+- -[BKFontCache _presetsForFileName:]
+- -[BKFontCache defaultFontNameForLanguage:]
+- -[BKFontCache fileNames]
+- -[BKFontCache fontFaceLookupByFileName]
+- -[BKFontCache fontFromFamilyName:language:]
+- -[BKFontCache fontLookupByFileName]
+- -[BKFontCache fontsByFileName]
+- -[BKFontCache fontsForLanguage:]
+- -[BKFontCache init]
+- -[BKFontCache presetPostscriptsLookupForLanguage:]
+- -[BKFontCache presetSettingsForFontFamily:language:]
+- -[BKFontCache presetSettingsForFontFamily:language:].cold.1
+- -[BKFontCache presetsByFileName]
+- -[BKFontCache presetsForLanguage:]
+- -[BKFontCache prewarmFontsForLanguage:]
+- -[BKFontCache setFileNames:]
+- -[BKFontCache setFontFaceLookupByFileName:]
+- -[BKFontCache setFontLookupByFileName:]
+- -[BKFontCache setFontsByFileName:]
+- -[BKFontCache setPresetsByFileName:]
+- -[BKFontFallbackProvider fallbacksForFontFamily:language:]
+- -[BKFontTableViewCell .cxx_destruct]
+- -[BKFontTableViewCell _setEffectiveLabelFont]
+- -[BKFontTableViewCell accessibilityTraits]
+- -[BKFontTableViewCell buttonContainerView]
+- -[BKFontTableViewCell buttonContainerWidthConstraint]
+- -[BKFontTableViewCell dealloc]
+- -[BKFontTableViewCell font]
+- -[BKFontTableViewCell initWithStyle:reuseIdentifier:]
+- -[BKFontTableViewCell labelFont]
+- -[BKFontTableViewCell labelText]
+- -[BKFontTableViewCell label]
+- -[BKFontTableViewCell observeValueForKeyPath:ofObject:change:context:]
+- -[BKFontTableViewCell prepareForReuse]
+- -[BKFontTableViewCell selectionView]
+- -[BKFontTableViewCell setButtonContainerView:]
+- -[BKFontTableViewCell setButtonContainerWidthConstraint:]
+- -[BKFontTableViewCell setFont:]
+- -[BKFontTableViewCell setLabel:]
+- -[BKFontTableViewCell setLabelFont:]
+- -[BKFontTableViewCell setLabelText:]
+- -[BKFontTableViewCell setSelectionView:]
+- -[BKFootnoteViewController2 .cxx_destruct]
+- -[BKFootnoteViewController2 _applyCurrentTheme]
+- -[BKFootnoteViewController2 _constructAndActivateConstraints]
+- -[BKFootnoteViewController2 _didDismissFootnoteViewController]
+- -[BKFootnoteViewController2 _doneButtonTapped:]
+- -[BKFootnoteViewController2 _footNoteTitleHTML]
+- -[BKFootnoteViewController2 _footnoteViewControllerPreparationForDisplayFailed:]
+- -[BKFootnoteViewController2 _footnoteViewControllerReadyForDisplay]
+- -[BKFootnoteViewController2 _generateAndLoadContent]
+- -[BKFootnoteViewController2 _presentAlertController:completion:]
+- -[BKFootnoteViewController2 _traitCollectionDidChange:previousTraitCollection:]
+- -[BKFootnoteViewController2 _updateDoneButton]
+- -[BKFootnoteViewController2 ae_didDismissPopoverContainingThisViewController]
+- -[BKFootnoteViewController2 allowsRemoteInspection]
+- -[BKFootnoteViewController2 backgroundColor]
+- -[BKFootnoteViewController2 delegate]
+- -[BKFootnoteViewController2 doneButton]
+- -[BKFootnoteViewController2 failedToLoad]
+- -[BKFootnoteViewController2 footerMask]
+- -[BKFootnoteViewController2 handler:presentAlertController:completion:]
+- -[BKFootnoteViewController2 headerMask]
+- -[BKFootnoteViewController2 im_themeDidChange]
+- -[BKFootnoteViewController2 initWithResource:stylesheetSet:backgroundColor:textColor:]
+- -[BKFootnoteViewController2 isBookTheme]
+- -[BKFootnoteViewController2 isNightTheme]
+- -[BKFootnoteViewController2 isPageTheme]
+- -[BKFootnoteViewController2 navigationHandler:didFinishLoadOfURL:]
+- -[BKFootnoteViewController2 navigationHandler:failedToLoadURL:error:]
+- -[BKFootnoteViewController2 navigationHandler:handleExternalLoadRequest:likelyUserInitiated:]
+- -[BKFootnoteViewController2 navigationHandler:handleInternalLoadRequest:]
+- -[BKFootnoteViewController2 navigationHandler:handleInternalLoadRequestForNewWindow:]
+- -[BKFootnoteViewController2 navigationHandler:handleUserRequestForFrameToLoadExternalURL:completion:]
+- -[BKFootnoteViewController2 navigationHandlerFirstSignificantPaintCompleted:]
+- -[BKFootnoteViewController2 navigationHandlerWebContentLoadFailed:]
+- -[BKFootnoteViewController2 prepareForDisplay]
+- -[BKFootnoteViewController2 presenter]
+- -[BKFootnoteViewController2 readyForDisplay]
+- -[BKFootnoteViewController2 releaseViews]
+- -[BKFootnoteViewController2 resource]
+- -[BKFootnoteViewController2 setAllowsRemoteInspection:]
+- -[BKFootnoteViewController2 setBackgroundColor:]
+- -[BKFootnoteViewController2 setDelegate:]
+- -[BKFootnoteViewController2 setDoneButton:]
+- -[BKFootnoteViewController2 setFailedToLoad:]
+- -[BKFootnoteViewController2 setFooterMask:]
+- -[BKFootnoteViewController2 setHeaderMask:]
+- -[BKFootnoteViewController2 setPresenter:]
+- -[BKFootnoteViewController2 setReadyForDisplay:]
+- -[BKFootnoteViewController2 setResource:]
+- -[BKFootnoteViewController2 setStylesheetSet:]
+- -[BKFootnoteViewController2 setTextColor:]
+- -[BKFootnoteViewController2 setThemeStylesheet:]
+- -[BKFootnoteViewController2 setWebView:]
+- -[BKFootnoteViewController2 setWebViewTopAnchorWhenDoneButtonVisible:]
+- -[BKFootnoteViewController2 setWebViewTopConstraint:]
+- -[BKFootnoteViewController2 stylesheetSet]
+- -[BKFootnoteViewController2 textColor]
+- -[BKFootnoteViewController2 themeStylesheet]
+- -[BKFootnoteViewController2 viewDidAppear:]
+- -[BKFootnoteViewController2 viewDidLoad]
+- -[BKFootnoteViewController2 webViewTopAnchorWhenDoneButtonVisible]
+- -[BKFootnoteViewController2 webViewTopConstraint]
+- -[BKFootnoteViewController2 webView]
+- -[BKGradientView color]
+- -[BKGradientView colors]
+- -[BKGradientView endPoint]
+- -[BKGradientView locations]
+- -[BKGradientView setColors:]
+- -[BKGradientView setEndPoint:]
+- -[BKGradientView setLocations:]
+- -[BKGradientView setStartPoint:]
+- -[BKGradientView startPoint]
+- -[BKHTMLContentViewController .cxx_destruct]
+- -[BKHTMLContentViewController URLForLoadingDocument]
+- -[BKHTMLContentViewController __highlightContainerView]
+- -[BKHTMLContentViewController __webView2_performHighlighterActionWithGestureState:location:isTouch:]
+- -[BKHTMLContentViewController _activityItemsConfiguration]
+- -[BKHTMLContentViewController _annotationChanged:forceRender:]
+- -[BKHTMLContentViewController _annotationUuidIntersectingPoint:inView:annotationLayerRect:]
+- -[BKHTMLContentViewController _bkaxCheckCanPerformEditActions]
+- -[BKHTMLContentViewController _bkaxPerformEditAction:]
+- -[BKHTMLContentViewController _bkaxPerformEditAction:].cold.1
+- -[BKHTMLContentViewController _bkaxPerformSelector:]
+- -[BKHTMLContentViewController _bookmarkSelectionAndAnnotate:showColorEditor:]
+- -[BKHTMLContentViewController _bookmarkSelectionAndAnnotate:showColorEditor:completion:]
+- -[BKHTMLContentViewController _combineAnnotation:withAnnotation:]
+- -[BKHTMLContentViewController _contentForSelectedRangeWithCompletion:]
+- -[BKHTMLContentViewController _contentRectForLocation:visible:completion:]
+- -[BKHTMLContentViewController _contentRectFromRects:visible:]
+- -[BKHTMLContentViewController _errorForURL:]
+- -[BKHTMLContentViewController _excerptCitedStringForAnnotation:]
+- -[BKHTMLContentViewController _extractSelectedTextWithSender:completion:]
+- -[BKHTMLContentViewController _fetchMissingCfiLocationRects:forAnnotations:]
+- -[BKHTMLContentViewController _handleStylusGesture:]
+- -[BKHTMLContentViewController _hasDraggableSelectionAtPosition:]
+- -[BKHTMLContentViewController _highlightAnnotation:]
+- -[BKHTMLContentViewController _highlightAnnotation:rects:]
+- -[BKHTMLContentViewController _highlightAnnotationWK2:]
+- -[BKHTMLContentViewController _highlightLocation:withHighlightType:owner:]
+- -[BKHTMLContentViewController _highlightRects:withHighlightType:owner:forWK2:clearSelection:]
+- -[BKHTMLContentViewController _highlightTimerFired:]
+- -[BKHTMLContentViewController _isCachedAnnotationRectVisible:considerEntirePage:]
+- -[BKHTMLContentViewController _isDoubleWide]
+- -[BKHTMLContentViewController _originPointForPoint:]
+- -[BKHTMLContentViewController _payloadForKey:fromSender:]
+- -[BKHTMLContentViewController _performHighlighterActionWithGestureState:location:]
+- -[BKHTMLContentViewController _preflightTapLocation:]
+- -[BKHTMLContentViewController _recheckRemoveAccessApproval]
+- -[BKHTMLContentViewController _rectsFromDictionary:]
+- -[BKHTMLContentViewController _refreshAnnotationsAndSearchResult]
+- -[BKHTMLContentViewController _refreshContentBasedOverlayAfterDelay]
+- -[BKHTMLContentViewController _refreshContentBasedOverlay]
+- -[BKHTMLContentViewController _resetInteractionTracking]
+- -[BKHTMLContentViewController _scheduleInteractionReset]
+- -[BKHTMLContentViewController _setupAnnotationRectCachesFromClientRects:]
+- -[BKHTMLContentViewController _setupSelectionContextMenu]
+- -[BKHTMLContentViewController _share:]
+- -[BKHTMLContentViewController _shareAnnotation:annotationRects:]
+- -[BKHTMLContentViewController _shouldBeginCustomHighlighterActionForTouchType:modifierFlags:]
+- -[BKHTMLContentViewController _shouldDoubleTapReceiveTouch:]
+- -[BKHTMLContentViewController _showAnnotationWithState:showColorEditor:forAnnotation:]
+- -[BKHTMLContentViewController _showAnnotations:]
+- -[BKHTMLContentViewController _showMenuForRect:]
+- -[BKHTMLContentViewController _smilElementIDSelected:inHREF:]
+- -[BKHTMLContentViewController _soundTrackUpdated:]
+- -[BKHTMLContentViewController _timeIntervalForHighlightGesture]
+- -[BKHTMLContentViewController _updateReadingStateVisibilityPossible:]
+- -[BKHTMLContentViewController _updateReadingStateVisibilityPossible:knownDOMRange:]
+- -[BKHTMLContentViewController _updateReadingState]
+- -[BKHTMLContentViewController _webkit2LocationForContentViewPoint:]
+- -[BKHTMLContentViewController _willMoveTextRangeExtentAtPoint:]
+- -[BKHTMLContentViewController activityIndicator]
+- -[BKHTMLContentViewController addHighlightToCurrentSelection:]
+- -[BKHTMLContentViewController addNote:]
+- -[BKHTMLContentViewController addNoteToCurrentSelection:]
+- -[BKHTMLContentViewController adjustGesturesForTextInteractionAssistant:view:]
+- -[BKHTMLContentViewController adjustedItemProvidersWithCitation:withExcerptString:]
+- -[BKHTMLContentViewController afterEnsuringFirstPaintPerform:]
+- -[BKHTMLContentViewController annotateSelection:]
+- -[BKHTMLContentViewController annotationDataProvider]
+- -[BKHTMLContentViewController annotationRectUnionCache]
+- -[BKHTMLContentViewController annotationRectsCache]
+- -[BKHTMLContentViewController annotations]
+- -[BKHTMLContentViewController arrayOfVisibleRectsFromRects:]
+- -[BKHTMLContentViewController arrayOfVisibleRectsFromRects:contentRect:]
+- -[BKHTMLContentViewController author]
+- -[BKHTMLContentViewController bookTitle]
+- -[BKHTMLContentViewController bookmarkSelection:]
+- -[BKHTMLContentViewController books_useSelectionForFind:]
+- -[BKHTMLContentViewController buildMenuWithBuilder:inWebView:atPoint:]
+- -[BKHTMLContentViewController cachedRectForAnnotation:]
+- -[BKHTMLContentViewController cachedVisibleRectForAnnotation:]
+- -[BKHTMLContentViewController canBecomeFirstResponder]
+- -[BKHTMLContentViewController canCopyContent]
+- -[BKHTMLContentViewController canPerformAction:withSender:]
+- -[BKHTMLContentViewController changeAnnotationStyle:]
+- -[BKHTMLContentViewController changeAnnotationStyle:annotation:]
+- -[BKHTMLContentViewController cleanDocumentForMediaOverlay]
+- -[BKHTMLContentViewController clearCurrentHighlighting]
+- -[BKHTMLContentViewController clearHighlightsForSearchResults]
+- -[BKHTMLContentViewController clearHighlights]
+- -[BKHTMLContentViewController clearMediaOverlayElement:]
+- -[BKHTMLContentViewController clearSearchLocation]
+- -[BKHTMLContentViewController clearSelectedAnnotation]
+- -[BKHTMLContentViewController clearSelectionHighlights]
+- -[BKHTMLContentViewController clearSelection]
+- -[BKHTMLContentViewController contentBasedOverlayRefreshScheduled]
+- -[BKHTMLContentViewController contentNeedsFilter]
+- -[BKHTMLContentViewController contentReady]
+- -[BKHTMLContentViewController contentRectForAnnotation:completion:]
+- -[BKHTMLContentViewController contentRectForLocation:completion:]
+- -[BKHTMLContentViewController contentScrollView]
+- -[BKHTMLContentViewController contentView]
+- -[BKHTMLContentViewController controller:didChangeObject:atIndexPath:forChangeType:newIndexPath:]
+- -[BKHTMLContentViewController controllerDidChangeContent:]
+- -[BKHTMLContentViewController controllerWillChangeContent:]
+- -[BKHTMLContentViewController copy:]
+- -[BKHTMLContentViewController copyContent:]
+- -[BKHTMLContentViewController copyContent]
+- -[BKHTMLContentViewController currentHighlightSearchSelection]
+- -[BKHTMLContentViewController currentLocation]
+- -[BKHTMLContentViewController currentlyHighlighting]
+- -[BKHTMLContentViewController dealloc]
+- -[BKHTMLContentViewController didChangeLocationClosing:]
+- -[BKHTMLContentViewController drawHighlights]
+- -[BKHTMLContentViewController dummyAnnotationForSelectionWK2WithCompletion:]
+- -[BKHTMLContentViewController effectivePageOffset]
+- -[BKHTMLContentViewController endOfBook:]
+- -[BKHTMLContentViewController firstSignificantPaintCompleted]
+- -[BKHTMLContentViewController gestureRecognizer:canBePreventedByGestureRecognizer:]
+- -[BKHTMLContentViewController gestureRecognizer:shouldReceiveTouch:]
+- -[BKHTMLContentViewController gestureRecognizerShouldBegin:]
+- -[BKHTMLContentViewController handleTap:]
+- -[BKHTMLContentViewController handler:citationForText:webView:]
+- -[BKHTMLContentViewController handler:presentAlertController:completion:]
+- -[BKHTMLContentViewController handler:webView:didNotHandleTapAsClickAtPoint:]
+- -[BKHTMLContentViewController hasTextSelected]
+- -[BKHTMLContentViewController haveDeterminedInitialModifiers]
+- -[BKHTMLContentViewController highlightAnnotations:]
+- -[BKHTMLContentViewController highlightMediaOverlayElement:]
+- -[BKHTMLContentViewController highlightRangeFromRects:]
+- -[BKHTMLContentViewController highlightRenderingController]
+- -[BKHTMLContentViewController highlightSearchLocation:]
+- -[BKHTMLContentViewController highlightViewContainerWK2]
+- -[BKHTMLContentViewController indirectHighlightRecognizer]
+- -[BKHTMLContentViewController indirectImmediateHighlightRecognizer]
+- -[BKHTMLContentViewController init]
+- -[BKHTMLContentViewController initialTextInteractionModifiers]
+- -[BKHTMLContentViewController installReadAloudClickHandlersOnMediaOverlayElements:]
+- -[BKHTMLContentViewController interactionDidEnd:]
+- -[BKHTMLContentViewController interactionShouldBegin:atPoint:]
+- -[BKHTMLContentViewController invalidateContentBasedOverlayCache]
+- -[BKHTMLContentViewController invalidateContentBasedOverlay]
+- -[BKHTMLContentViewController invokedSMILControlAction:withSMILTurnStyle:]
+- -[BKHTMLContentViewController isAnnotationVisible:]
+- -[BKHTMLContentViewController isLoading]
+- -[BKHTMLContentViewController isLocationFromThisDocument:]
+- -[BKHTMLContentViewController isLocationOnCurrentPage:]
+- -[BKHTMLContentViewController isLocationVisible:annotation:completion:]
+- -[BKHTMLContentViewController isRectVisible:]
+- -[BKHTMLContentViewController loadFailureCount]
+- -[BKHTMLContentViewController load]
+- -[BKHTMLContentViewController loader]
+- -[BKHTMLContentViewController locationEnsuredFirstPaintWorkBlock]
+- -[BKHTMLContentViewController lookupSelection:]
+- -[BKHTMLContentViewController markupDocumentForMediaOverlay]
+- -[BKHTMLContentViewController mediaSource]
+- -[BKHTMLContentViewController menuDidClose:]
+- -[BKHTMLContentViewController menuWillClose:]
+- -[BKHTMLContentViewController navigationHandler:didFinishLoadOfURL:]
+- -[BKHTMLContentViewController navigationHandler:didStartLoadOfURL:]
+- -[BKHTMLContentViewController navigationHandler:handleExternalLoadRequest:likelyUserInitiated:]
+- -[BKHTMLContentViewController navigationHandler:handleInternalLoadRequest:]
+- -[BKHTMLContentViewController navigationHandler:handleInternalLoadRequestForNewWindow:]
+- -[BKHTMLContentViewController navigationHandler:handleUserRequestForFrameToLoadExternalURL:completion:]
+- -[BKHTMLContentViewController navigationHandlerFirstSignificantPaintCompleted:]
+- -[BKHTMLContentViewController navigationHandlerWebContentLoadFailed:reason:]
+- -[BKHTMLContentViewController navigationHandlerWebContentProcessAttemptingReload:]
+- -[BKHTMLContentViewController nextResponder]
+- -[BKHTMLContentViewController objectForMatchingAnnotation:]
+- -[BKHTMLContentViewController observeValueForKeyPath:ofObject:change:context:]
+- -[BKHTMLContentViewController overrideBuildMenuLocation]
+- -[BKHTMLContentViewController pageNumberStringForAnnotation:]
+- -[BKHTMLContentViewController pageOffsetForLocation:]
+- -[BKHTMLContentViewController pageOffsetRangeForLocation:completion:]
+- -[BKHTMLContentViewController pathForSoundtrack]
+- -[BKHTMLContentViewController performSelectorProxy]
+- -[BKHTMLContentViewController playFirstVisibleAutoplayMediaObject]
+- -[BKHTMLContentViewController predicateForOverlayCache]
+- -[BKHTMLContentViewController preflightTap:]
+- -[BKHTMLContentViewController prepareContentBasedOverlayCache]
+- -[BKHTMLContentViewController prepareForReuse]
+- -[BKHTMLContentViewController preservedSelectionHighlights]
+- -[BKHTMLContentViewController readAloudEventHandler:audioElementEnded:]
+- -[BKHTMLContentViewController readAloudEventHandler:foundMediaSource:]
+- -[BKHTMLContentViewController readAloudEventHandler:performedAction:turnStyle:]
+- -[BKHTMLContentViewController readAloudEventHandler:tappedElementID:inHref:]
+- -[BKHTMLContentViewController readAloudEventHandler]
+- -[BKHTMLContentViewController rectForLocation:]
+- -[BKHTMLContentViewController rectForLocation:adjustedForContentOffset:]
+- -[BKHTMLContentViewController rectForLocation:completion:]
+- -[BKHTMLContentViewController rectForPresentedMenuForTextInteraction]
+- -[BKHTMLContentViewController registerScriptMessageHandlersWithUserContentController:]
+- -[BKHTMLContentViewController releaseViews]
+- -[BKHTMLContentViewController reloadExternalWebFrames]
+- -[BKHTMLContentViewController reload]
+- -[BKHTMLContentViewController removeDummyHighlight]
+- -[BKHTMLContentViewController removeHighlightForAnnotation:]
+- -[BKHTMLContentViewController removeNote:]
+- -[BKHTMLContentViewController removeNoteAndHighlight:]
+- -[BKHTMLContentViewController removeReadAloudClickHandlersOnMediaOverlayElements:]
+- -[BKHTMLContentViewController resume]
+- -[BKHTMLContentViewController searchUsingSelection:]
+- -[BKHTMLContentViewController searchWeb:]
+- -[BKHTMLContentViewController searchWikipedia:]
+- -[BKHTMLContentViewController selectAnnotation:]
+- -[BKHTMLContentViewController selectBookmarkedLink:]
+- -[BKHTMLContentViewController selectLocation:completion:]
+- -[BKHTMLContentViewController selectedAnnotation]
+- -[BKHTMLContentViewController selectedTextForAccessibility]
+- -[BKHTMLContentViewController selectedText]
+- -[BKHTMLContentViewController setActivityIndicator:]
+- -[BKHTMLContentViewController setActivityIndicatorVisible:animated:afterDelay:]
+- -[BKHTMLContentViewController setAnnotationDataProvider:]
+- -[BKHTMLContentViewController setAnnotationRectUnionCache:]
+- -[BKHTMLContentViewController setAnnotationRectsCache:]
+- -[BKHTMLContentViewController setContentBasedOverlayRefreshScheduled:]
+- -[BKHTMLContentViewController setCurrentHighlightSearchSelection:]
+- -[BKHTMLContentViewController setEstimatedContentSize:]
+- -[BKHTMLContentViewController setFirstSignificantPaintCompleted:]
+- -[BKHTMLContentViewController setHaveDeterminedInitialModifiers:]
+- -[BKHTMLContentViewController setHighlightRenderingController:]
+- -[BKHTMLContentViewController setHighlightViews:]
+- -[BKHTMLContentViewController setIgnorePageTurnGestures:]
+- -[BKHTMLContentViewController setIndirectHighlightRecognizer:]
+- -[BKHTMLContentViewController setIndirectImmediateHighlightRecognizer:]
+- -[BKHTMLContentViewController setInitialTextInteractionModifiers:]
+- -[BKHTMLContentViewController setLoadFailureCount:]
+- -[BKHTMLContentViewController setLoader:]
+- -[BKHTMLContentViewController setLocationEnsuredFirstPaintWorkBlock:]
+- -[BKHTMLContentViewController setMediaSource:]
+- -[BKHTMLContentViewController setNeedsRestyle]
+- -[BKHTMLContentViewController setOrdinal:]
+- -[BKHTMLContentViewController setOverrideBuildMenuLocation:]
+- -[BKHTMLContentViewController setReadAloudEventHandler:]
+- -[BKHTMLContentViewController setRectForPresentedMenuForTextInteraction:]
+- -[BKHTMLContentViewController setSupportsExpandedContent:]
+- -[BKHTMLContentViewController setTempOwnerID:]
+- -[BKHTMLContentViewController setTheme:]
+- -[BKHTMLContentViewController setTheme:force:]
+- -[BKHTMLContentViewController setVisibleCFIString:]
+- -[BKHTMLContentViewController setWebViewProxy:]
+- -[BKHTMLContentViewController setupNotifications]
+- -[BKHTMLContentViewController shareSelection:]
+- -[BKHTMLContentViewController shouldHighlightReceiveTouch:]
+- -[BKHTMLContentViewController shouldShowExpandedContentForURL:]
+- -[BKHTMLContentViewController showContextMenuAtLocation:]
+- -[BKHTMLContentViewController showHighlightingMenuForAnnotation:]
+- -[BKHTMLContentViewController startActivityIndicatorAfterDelay:]
+- -[BKHTMLContentViewController startFetchingAnnotations]
+- -[BKHTMLContentViewController startFetchingAnnotations].cold.1
+- -[BKHTMLContentViewController stopActivityIndicator:]
+- -[BKHTMLContentViewController stopPlayingMedia:]
+- -[BKHTMLContentViewController stopPlayingMediaIfNoLongerVisible]
+- -[BKHTMLContentViewController storeURL]
+- -[BKHTMLContentViewController stylesheetSet]
+- -[BKHTMLContentViewController supportsExpandedContent]
+- -[BKHTMLContentViewController supportsNotesAndHighlights]
+- -[BKHTMLContentViewController suspend]
+- -[BKHTMLContentViewController teardownNotifications]
+- -[BKHTMLContentViewController tempOwnerID]
+- -[BKHTMLContentViewController totalPages]
+- -[BKHTMLContentViewController translateSelection:]
+- -[BKHTMLContentViewController underlinePercent]
+- -[BKHTMLContentViewController updateReadingStatisticsForScroll]
+- -[BKHTMLContentViewController userContentController:didReceiveScriptMessage:]
+- -[BKHTMLContentViewController viewDidDisappear:]
+- -[BKHTMLContentViewController viewDidLoad]
+- -[BKHTMLContentViewController viewWillAppear:]
+- -[BKHTMLContentViewController viewWillDisappear:]
+- -[BKHTMLContentViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKHTMLContentViewController visibleCFIString]
+- -[BKHTMLContentViewController visiblePageCount]
+- -[BKHTMLContentViewController visibleRectForLocation:completion:]
+- -[BKHTMLContentViewController webView2]
+- -[BKHTMLContentViewController webViewDidEnterFullscreen:]
+- -[BKHTMLContentViewController webViewDidExitFullscreen:]
+- -[BKHTMLContentViewController webViewFullscreenMayReturnToInline:]
+- -[BKHTMLContentViewController webViewLoader:didUpdateCurrentVisibleCFILocation:]
+- -[BKHTMLContentViewController webViewProxy]
+- -[BKHTMLContentViewController webView]
+- -[BKHTMLContentViewController wkWebView]
+- -[BKHTMLContentViewController writeAnnotationsToWebProcessPlugin:andHighlights:]
+- -[BKHTMLContentViewController writeControlVisibilityStateToWebProcessPlugin:]
+- -[BKHTMLContentViewController(SpeakSelection) _accessibilityQuickSpeakContentIsSpeakable]
+- -[BKHTMLContentViewController(SpeakSelection) _accessibilityQuickSpeakContent]
+- -[BKHTMLContentViewController(SpeakSelection) _accessibilityShouldShowSpeakBubble]
+- -[BKHTMLContentViewControllerDummyAnnotation .cxx_destruct]
+- -[BKHTMLContentViewControllerDummyAnnotation annotationCreationDate]
+- -[BKHTMLContentViewControllerDummyAnnotation annotationHasNote]
+- -[BKHTMLContentViewControllerDummyAnnotation annotationIsUnderline]
+- -[BKHTMLContentViewControllerDummyAnnotation annotationLocation]
+- -[BKHTMLContentViewControllerDummyAnnotation annotationModificationDate]
+- -[BKHTMLContentViewControllerDummyAnnotation annotationNote]
+- -[BKHTMLContentViewControllerDummyAnnotation annotationRepresentativeText]
+- -[BKHTMLContentViewControllerDummyAnnotation annotationSelectedTextRange]
+- -[BKHTMLContentViewControllerDummyAnnotation annotationSelectedText]
+- -[BKHTMLContentViewControllerDummyAnnotation annotationStyle]
+- -[BKHTMLContentViewControllerDummyAnnotation annotationType]
+- -[BKHTMLContentViewControllerDummyAnnotation annotationUuid]
+- -[BKHTMLContentViewControllerDummyAnnotation cfi]
+- -[BKHTMLContentViewControllerDummyAnnotation chapterTitle]
+- -[BKHTMLContentViewControllerDummyAnnotation dummyLocation2]
+- -[BKHTMLContentViewControllerDummyAnnotation existingAnnotationDOMRange]
+- -[BKHTMLContentViewControllerDummyAnnotation init]
+- -[BKHTMLContentViewControllerDummyAnnotation isAnnotationDeleted]
+- -[BKHTMLContentViewControllerDummyAnnotation location]
+- -[BKHTMLContentViewControllerDummyAnnotation ordinal]
+- -[BKHTMLContentViewControllerDummyAnnotation redactedAnnotationLocation]
+- -[BKHTMLContentViewControllerDummyAnnotation removed]
+- -[BKHTMLContentViewControllerDummyAnnotation setAnnotationIsUnderline:]
+- -[BKHTMLContentViewControllerDummyAnnotation setAnnotationRepresentativeText:]
+- -[BKHTMLContentViewControllerDummyAnnotation setAnnotationSelectedTextRange:]
+- -[BKHTMLContentViewControllerDummyAnnotation setAnnotationStyle:]
+- -[BKHTMLContentViewControllerDummyAnnotation setCfi:]
+- -[BKHTMLContentViewControllerDummyAnnotation setChapterTitle:]
+- -[BKHTMLContentViewControllerDummyAnnotation setDummyLocation2:]
+- -[BKHTMLContentViewControllerDummyAnnotation setExistingAnnotationDOMRange:]
+- -[BKHTMLContentViewControllerDummyAnnotation setRemoved:]
+- -[BKHistoryEntity .cxx_destruct]
+- -[BKHistoryEntity description]
+- -[BKHistoryEntity init]
+- -[BKHistoryEntity location]
+- -[BKHistoryEntity pageForLookupKey:]
+- -[BKHistoryEntity pageTitle]
+- -[BKHistoryEntity pagination]
+- -[BKHistoryEntity setLocation:]
+- -[BKHistoryEntity setPage:forLookupKey:]
+- -[BKHistoryEntity setPageTitle:]
+- -[BKImageResizerHelper .cxx_destruct]
+- -[BKImageResizerHelper init]
+- -[BKImageResizerHelper operationQueue]
+- -[BKImageResizerHelper resizeImage:toSize:callback:]
+- -[BKImageResizerHelper setOperationQueue:]
+- -[BKInfoHUD .cxx_destruct]
+- -[BKInfoHUD _compositingFilterToUse]
+- -[BKInfoHUD _traitCollectionDidChange:previousTraitCollection:]
+- -[BKInfoHUD _updateImageAndTextConstraints]
+- -[BKInfoHUD accessibilityActivate]
+- -[BKInfoHUD accessibilityHint]
+- -[BKInfoHUD accessibilityLabel]
+- -[BKInfoHUD accessibilityValue]
+- -[BKInfoHUD constructViews]
+- -[BKInfoHUD currentSymbolName]
+- -[BKInfoHUD delegate]
+- -[BKInfoHUD forceReflowText]
+- -[BKInfoHUD iconImageViewWidthAnchor]
+- -[BKInfoHUD infoText]
+- -[BKInfoHUD initWithFrame:]
+- -[BKInfoHUD isInterfaceRTL]
+- -[BKInfoHUD setCurrentSymbolName:]
+- -[BKInfoHUD setDelegate:]
+- -[BKInfoHUD setIconImageViewWidthAnchor:]
+- -[BKInfoHUD setIconSymbol:]
+- -[BKInfoHUD setInfoText:]
+- -[BKInfoHUD setTapGestureRecognizer:]
+- -[BKInfoHUD setTextLabelTrailingAnchor:]
+- -[BKInfoHUD setUsesMonospacedDigitFont:]
+- -[BKInfoHUD tapGestureHandler:]
+- -[BKInfoHUD tapGestureRecognizer]
+- -[BKInfoHUD textLabelTrailingAnchor]
+- -[BKInfoHUD updateLabelFont]
+- -[BKInfoHUD usesMonospacedDigitFont]
+- -[BKJob .cxx_destruct]
+- -[BKJob init]
+- -[BKJob isSentinel]
+- -[BKJob name]
+- -[BKJob setName:]
+- -[BKJob setSentinel:]
+- -[BKLastRecordedLocation .cxx_destruct]
+- -[BKLastRecordedLocation creatingSnapshot]
+- -[BKLastRecordedLocation description]
+- -[BKLastRecordedLocation lastRecordedCFIDate]
+- -[BKLastRecordedLocation lastRecordedCFILocation]
+- -[BKLastRecordedLocation lastRecordedPageDate]
+- -[BKLastRecordedLocation lastRecordedPageLocation]
+- -[BKLastRecordedLocation latestLocationDate]
+- -[BKLastRecordedLocation latestLocation]
+- -[BKLastRecordedLocation setCreatingSnapshot:]
+- -[BKLastRecordedLocation setLastRecordedCFIDate:]
+- -[BKLastRecordedLocation setLastRecordedCFILocation:]
+- -[BKLastRecordedLocation setLastRecordedPageDate:]
+- -[BKLastRecordedLocation setLastRecordedPageLocation:]
+- -[BKLastRecordedLocation updateLastRecordedCFILocation:]
+- -[BKLastRecordedLocation updateLastRecordedPageLocation:]
+- -[BKLocation .cxx_destruct]
+- -[BKLocation copyWithZone:]
+- -[BKLocation description]
+- -[BKLocation encodeWithCoder:]
+- -[BKLocation hash]
+- -[BKLocation initWithCoder:]
+- -[BKLocation initWithLocationDictionary:]
+- -[BKLocation initWithOrdinal:]
+- -[BKLocation isEqual:]
+- -[BKLocation ordinal]
+- -[BKLocation selectionRects]
+- -[BKLocation serializeLocationToData]
+- -[BKLocation serializeLocationToDictionary]
+- -[BKLocation setOrdinal:]
+- -[BKLocation setSelectionRects:]
+- -[BKLocation stringValue]
+- -[BKLocation updateOrdinalForBookInfo:]
+- -[BKLongPressGestureRecognizer reset]
+- -[BKLongPressGestureRecognizer touchesBegan:withEvent:]
+- -[BKLoupeView .cxx_destruct]
+- -[BKLoupeView dealloc]
+- -[BKLoupeView dismissAnimated:]
+- -[BKLoupeView drawRect:]
+- -[BKLoupeView initWithTargetView:]
+- -[BKLoupeView isVertical]
+- -[BKLoupeView loupeHeight]
+- -[BKLoupeView loupeMask]
+- -[BKLoupeView loupePointForPoint:]
+- -[BKLoupeView loupeSheen]
+- -[BKLoupeView loupeWidth]
+- -[BKLoupeView moveToPoint:]
+- -[BKLoupeView p_kitImageWithName:]
+- -[BKLoupeView pageColor]
+- -[BKLoupeView presentAtPoint:animated:]
+- -[BKLoupeView resetImages]
+- -[BKLoupeView setIsVertical:]
+- -[BKLoupeView setPageColor:]
+- -[BKLoupeView setShouldInvertContent:]
+- -[BKLoupeView shouldInvertContent]
+- -[BKLoupeView targetView]
+- -[BKNavigationHistory .cxx_destruct]
+- -[BKNavigationHistory _trim]
+- -[BKNavigationHistory add:]
+- -[BKNavigationHistory allObjects]
+- -[BKNavigationHistory currentEntity]
+- -[BKNavigationHistory cursor]
+- -[BKNavigationHistory description]
+- -[BKNavigationHistory isAtTopOfStack]
+- -[BKNavigationHistory nextEntity]
+- -[BKNavigationHistory previousEntity]
+- -[BKNavigationHistory recursiveDescription]
+- -[BKNavigationHistory rewind]
+- -[BKNavigationHistory setCursor:]
+- -[BKNavigationHistory setStack:]
+- -[BKNavigationHistory skip]
+- -[BKNavigationHistory stack]
+- -[BKNavigationHistory truncateHistory]
+- -[BKNavigationInfo isExcludedFromSample]
+- -[BKNumericOption .cxx_destruct]
+- -[BKNumericOption applyTitleForOptions:]
+- -[BKNumericOption control]
+- -[BKNumericOption key]
+- -[BKNumericOption label]
+- -[BKNumericOption setControl:]
+- -[BKNumericOption setKey:]
+- -[BKNumericOption setLabel:]
+- -[BKNumericOption setTitleFormat:]
+- -[BKNumericOption titleFormat]
+- -[BKNumericOption valueForOptions:]
+- -[BKPDFActionController _bookHasCapability:]
+- -[BKPDFActionController _isEmailAllowedForBook:]
+- -[BKPDFActionController _isPrintingAllowedForBook:]
+- -[BKPDFActionController _setActivities]
+- -[BKPDFActionController activityItems]
+- -[BKPDFActionController canAirDrop]
+- -[BKPDFActionController canEmailBook]
+- -[BKPDFActionController canMarkupAsPDF]
+- -[BKPDFActionController canPrintBook]
+- -[BKPDFActionController didComputeMailingAllowed]
+- -[BKPDFActionController didComputePrintingAllowed]
+- -[BKPDFActionController isMailingAllowed]
+- -[BKPDFActionController isPrintingAllowed]
+- -[BKPDFActionController openedInPlace]
+- -[BKPDFActionController setDidComputeMailingAllowed:]
+- -[BKPDFActionController setDidComputePrintingAllowed:]
+- -[BKPDFActionController setIsMailingAllowed:]
+- -[BKPDFActionController setIsPrintingAllowed:]
+- -[BKPDFActionController setOpenedInPlace:]
+- -[BKPDFAnnotationCounter _countMarkupAnnotationsInArray:result:]
+- -[BKPDFAnnotationCounter _visitPageTree:visitBlock:]
+- -[BKPDFAnnotationCounter countMarkupAnnotationsWithCompletion:]
+- -[BKPDFAnnotationCounter countMarkupAnnotations]
+- -[BKPDFAnnotationCounter dealloc]
+- -[BKPDFAnnotationCounter document]
+- -[BKPDFAnnotationCounter initWithDocument:]
+- -[BKPDFAnnotationCounter setDocument:]
+- -[BKPDFAnnotationCounterResult numberOfMarkupAnnotationsWithPopups]
+- -[BKPDFAnnotationCounterResult numberOfMarkupAnnotations]
+- -[BKPDFAnnotationCounterResult setNumberOfMarkupAnnotations:]
+- -[BKPDFAnnotationCounterResult setNumberOfMarkupAnnotationsWithPopups:]
+- -[BKPDFLocation .cxx_destruct]
+- -[BKPDFLocation encodeWithCoder:]
+- -[BKPDFLocation initWithCoder:]
+- -[BKPDFLocation initWithLocationDictionary:]
+- -[BKPDFLocation selection]
+- -[BKPDFLocation serialData]
+- -[BKPDFLocation serialString]
+- -[BKPDFLocation serializeLocationToDictionary]
+- -[BKPDFLocation setSelection:]
+- -[BKPDFLocation setSerialData:]
+- -[BKPDFLocation stringValue]
+- -[BKPDFModernBookViewController .cxx_destruct]
+- -[BKPDFModernBookViewController PDFViewParentViewController]
+- -[BKPDFModernBookViewController PDFViewWillClickOnLink:withURL:]
+- -[BKPDFModernBookViewController _bookContentViewImageOfPage:]
+- -[BKPDFModernBookViewController _bookContentViewImageOfPage:boundingSize:]
+- -[BKPDFModernBookViewController _contentAspectRatio]
+- -[BKPDFModernBookViewController _currentReadingProgress]
+- -[BKPDFModernBookViewController _didScrollPDFViewToPage]
+- -[BKPDFModernBookViewController _editToolboxBarButtonItem]
+- -[BKPDFModernBookViewController _enableMarkupMode:]
+- -[BKPDFModernBookViewController _evaluateUndoRedoEnabled]
+- -[BKPDFModernBookViewController _jumpToLocationForVerticalScroll:animated:]
+- -[BKPDFModernBookViewController _jumpToLocationPaged:animated:]
+- -[BKPDFModernBookViewController _needToSaveChanges]
+- -[BKPDFModernBookViewController _needToSaveChanges].cold.1
+- -[BKPDFModernBookViewController _pageIndexForOutline:]
+- -[BKPDFModernBookViewController _pageNumberForAnchor:]
+- -[BKPDFModernBookViewController _scrollToRect:inPageAtIndex:]
+- -[BKPDFModernBookViewController _scrollToRect:inPageAtIndex:].cold.1
+- -[BKPDFModernBookViewController _scrollToRect:inPageAtIndex:].cold.2
+- -[BKPDFModernBookViewController _setupGestureRecognizers]
+- -[BKPDFModernBookViewController _traitCollectionDidChange:previousTraitCollection:]
+- -[BKPDFModernBookViewController _uniqueIDForOutline:]
+- -[BKPDFModernBookViewController _updateToolbarVisibilityAnimated:]
+- -[BKPDFModernBookViewController _willScrollPDFViewToPageNumber:]
+- -[BKPDFModernBookViewController actionControllerWillShow:]
+- -[BKPDFModernBookViewController actionController]
+- -[BKPDFModernBookViewController akToolbarView]
+- -[BKPDFModernBookViewController analyticsContentSettingData]
+- -[BKPDFModernBookViewController annotationCountResults]
+- -[BKPDFModernBookViewController annotationCounter]
+- -[BKPDFModernBookViewController annotationsDidChange:]
+- -[BKPDFModernBookViewController annotationsDidChange:].cold.1
+- -[BKPDFModernBookViewController appearanceIdentifierForSnapshot]
+- -[BKPDFModernBookViewController appearanceStyleForSnapshot]
+- -[BKPDFModernBookViewController aspectRatioFromPDF]
+- -[BKPDFModernBookViewController assetEditingEnabled]
+- -[BKPDFModernBookViewController assetEditingRequested]
+- -[BKPDFModernBookViewController assetOpenedInPlace]
+- -[BKPDFModernBookViewController assetReloading]
+- -[BKPDFModernBookViewController asset]
+- -[BKPDFModernBookViewController beginScroll:]
+- -[BKPDFModernBookViewController bookContentViewControllerView]
+- -[BKPDFModernBookViewController bookContentViewController]
+- -[BKPDFModernBookViewController bookContentViewImage:]
+- -[BKPDFModernBookViewController bookContentView]
+- -[BKPDFModernBookViewController books_pageBackward:]
+- -[BKPDFModernBookViewController books_pageForward:]
+- -[BKPDFModernBookViewController books_pageLeft:]
+- -[BKPDFModernBookViewController books_pageRight:]
+- -[BKPDFModernBookViewController buildContextTree:]
+- -[BKPDFModernBookViewController canBeEdited]
+- -[BKPDFModernBookViewController canCopy]
+- -[BKPDFModernBookViewController canDismissControls]
+- -[BKPDFModernBookViewController canGoToNextPage]
+- -[BKPDFModernBookViewController canGoToPreviousPage]
+- -[BKPDFModernBookViewController canNavigateByChapter]
+- -[BKPDFModernBookViewController canShowControlsDuringOpenClose]
+- -[BKPDFModernBookViewController clearSelection]
+- -[BKPDFModernBookViewController close:]
+- -[BKPDFModernBookViewController contentViewControllerForLocation:]
+- -[BKPDFModernBookViewController contentViewControllerForPageNumber:]
+- -[BKPDFModernBookViewController contentViewReady]
+- -[BKPDFModernBookViewController controlsTapRecognizer]
+- -[BKPDFModernBookViewController copy:]
+- -[BKPDFModernBookViewController coverNeedsUpdate]
+- -[BKPDFModernBookViewController createPaginationControllerIfNeeded:]
+- -[BKPDFModernBookViewController createSnapshotOfStyle:assetVersion:completion:]
+- -[BKPDFModernBookViewController currentPageIndex]
+- -[BKPDFModernBookViewController currentPageLocation]
+- -[BKPDFModernBookViewController currentPages]
+- -[BKPDFModernBookViewController currentlyAtMinimumScaleFactor]
+- -[BKPDFModernBookViewController dealloc]
+- -[BKPDFModernBookViewController defaultDirectoryType]
+- -[BKPDFModernBookViewController directoryContent:pageNumberForLocation:]
+- -[BKPDFModernBookViewController directoryTypeForBookmarks]
+- -[BKPDFModernBookViewController directoryTypeForPageThumbnails]
+- -[BKPDFModernBookViewController directoryTypeForTOC]
+- -[BKPDFModernBookViewController disableEditingAndSaveIfNecessary]
+- -[BKPDFModernBookViewController dismissCurrentPopoverWithCompletion:animated:]
+- -[BKPDFModernBookViewController documentForDirectory]
+- -[BKPDFModernBookViewController editRedoBarButtonItem]
+- -[BKPDFModernBookViewController editUndoBarButtonItem]
+- -[BKPDFModernBookViewController endScroll:]
+- -[BKPDFModernBookViewController existingContentViewControllerForPageNumber:]
+- -[BKPDFModernBookViewController gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
+- -[BKPDFModernBookViewController gestureRecognizerShouldBegin:]
+- -[BKPDFModernBookViewController handleContentScaling:]
+- -[BKPDFModernBookViewController handleSingleTap:]
+- -[BKPDFModernBookViewController highlightSearchResult:]
+- -[BKPDFModernBookViewController ignoreKeyboardInteraction]
+- -[BKPDFModernBookViewController imageCache]
+- -[BKPDFModernBookViewController initWithBook:storeID:]
+- -[BKPDFModernBookViewController initWithBook:storeID:pdfDocumentCache:]
+- -[BKPDFModernBookViewController initWithBook:storeID:pdfDocumentCache:].cold.1
+- -[BKPDFModernBookViewController initialZoomFactor]
+- -[BKPDFModernBookViewController isLocationOnCurrentPage:]
+- -[BKPDFModernBookViewController isPageBookmarked]
+- -[BKPDFModernBookViewController isPageProgressionRTL]
+- -[BKPDFModernBookViewController isSaving]
+- -[BKPDFModernBookViewController isScrolling]
+- -[BKPDFModernBookViewController isScrubbing]
+- -[BKPDFModernBookViewController jumpToLocation:animated:completion:]
+- -[BKPDFModernBookViewController lastLayoutUsedKey]
+- -[BKPDFModernBookViewController loadAKToolbarView]
+- -[BKPDFModernBookViewController loadView]
+- -[BKPDFModernBookViewController makeContentVisible]
+- -[BKPDFModernBookViewController menuItems:forPage:]
+- -[BKPDFModernBookViewController minimumScaleWithToolBars]
+- -[BKPDFModernBookViewController open:]
+- -[BKPDFModernBookViewController openToLocation:animated:]
+- -[BKPDFModernBookViewController pageCountIncludingUpsell]
+- -[BKPDFModernBookViewController pageIndexForLocation:]
+- -[BKPDFModernBookViewController pageLocationForPageIndex:]
+- -[BKPDFModernBookViewController pageLocationForPageNumber:]
+- -[BKPDFModernBookViewController pageNumberForLocation:]
+- -[BKPDFModernBookViewController pageNumberFromRange:]
+- -[BKPDFModernBookViewController pdfDocumentCache]
+- -[BKPDFModernBookViewController pdfDocument]
+- -[BKPDFModernBookViewController pdfScrollView]
+- -[BKPDFModernBookViewController pdfUndoManager]
+- -[BKPDFModernBookViewController pdfViewContentInset]
+- -[BKPDFModernBookViewController pdfView]
+- -[BKPDFModernBookViewController performSelectorProxy]
+- -[BKPDFModernBookViewController popoverPresentingViewControllerForAnnotationController:]
+- -[BKPDFModernBookViewController prepareForContentScaling]
+- -[BKPDFModernBookViewController prepareForSnapshot]
+- -[BKPDFModernBookViewController readerType]
+- -[BKPDFModernBookViewController reloadPDFDocumentCompletion:]
+- -[BKPDFModernBookViewController reloadPDFDocument]
+- -[BKPDFModernBookViewController resetPDFDocument]
+- -[BKPDFModernBookViewController saveStateClosing:]
+- -[BKPDFModernBookViewController saveStateClosing:suspending:]
+- -[BKPDFModernBookViewController scalePDFContent:animated:]
+- -[BKPDFModernBookViewController scalePDFContent:locationInView:animated:]
+- -[BKPDFModernBookViewController scrollToPageNumber:animate:]
+- -[BKPDFModernBookViewController scrollerViewPageDidChange:]
+- -[BKPDFModernBookViewController scrub:]
+- -[BKPDFModernBookViewController scrub:isScrubbing:]
+- -[BKPDFModernBookViewController scrubValueChanged:]
+- -[BKPDFModernBookViewController searchPDFUsingSelection:]
+- -[BKPDFModernBookViewController searchViewController:chapterNameForSearchResult:pageNumber:]
+- -[BKPDFModernBookViewController searchViewController:pageNumberForDocumentOrdinal:]
+- -[BKPDFModernBookViewController searchViewController]
+- -[BKPDFModernBookViewController setAkToolbarView:]
+- -[BKPDFModernBookViewController setAnnotationCountResults:]
+- -[BKPDFModernBookViewController setAnnotationCounter:]
+- -[BKPDFModernBookViewController setAspectRatioFromPDF:]
+- -[BKPDFModernBookViewController setAssetEditingEnabled:]
+- -[BKPDFModernBookViewController setAssetEditingEnabled:].cold.1
+- -[BKPDFModernBookViewController setAssetEditingRequested:]
+- -[BKPDFModernBookViewController setAssetOpenedInPlace:]
+- -[BKPDFModernBookViewController setAssetReloading:]
+- -[BKPDFModernBookViewController setControlsTapRecognizer:]
+- -[BKPDFModernBookViewController setCoverNeedsUpdate:]
+- -[BKPDFModernBookViewController setCurrentlyAtMinimumScaleFactor:]
+- -[BKPDFModernBookViewController setDefaultMarkupTool]
+- -[BKPDFModernBookViewController setIgnoreKeyboardInteraction:]
+- -[BKPDFModernBookViewController setInitialZoomFactor:]
+- -[BKPDFModernBookViewController setIsSaving:]
+- -[BKPDFModernBookViewController setLayout:]
+- -[BKPDFModernBookViewController setMinimumScaleWithToolBars:]
+- -[BKPDFModernBookViewController setPdfDocument:]
+- -[BKPDFModernBookViewController setPdfDocumentCache:]
+- -[BKPDFModernBookViewController setPdfUndoManager:]
+- -[BKPDFModernBookViewController setPdfView:]
+- -[BKPDFModernBookViewController setPerformSelectorProxy:]
+- -[BKPDFModernBookViewController setScrollMode:]
+- -[BKPDFModernBookViewController setScrolling:]
+- -[BKPDFModernBookViewController setScrubbing:]
+- -[BKPDFModernBookViewController setSection:animated:adjustScrollToReveal:]
+- -[BKPDFModernBookViewController setSharedBookCoverResetter:]
+- -[BKPDFModernBookViewController setStateShouldClose:]
+- -[BKPDFModernBookViewController setTargetPageNumber:]
+- -[BKPDFModernBookViewController sharedBookCoverResetter]
+- -[BKPDFModernBookViewController shouldShowBrightnessControl]
+- -[BKPDFModernBookViewController shouldShowHUDs]
+- -[BKPDFModernBookViewController shouldShowUndoControls]
+- -[BKPDFModernBookViewController signalIdentifierForBookOpenDonation]
+- -[BKPDFModernBookViewController signalIdentifierForFontMenuOpenDonation]
+- -[BKPDFModernBookViewController signalIdentifierForLayoutUsedDonation]
+- -[BKPDFModernBookViewController startCountingAnnotations]
+- -[BKPDFModernBookViewController startFetchingBookmarks]
+- -[BKPDFModernBookViewController stateShouldClose]
+- -[BKPDFModernBookViewController supportsDocumentEditingUndoAll]
+- -[BKPDFModernBookViewController supportsDocumentEditingUndo]
+- -[BKPDFModernBookViewController supportsDocumentEditing]
+- -[BKPDFModernBookViewController targetPageNumber]
+- -[BKPDFModernBookViewController thumbnailDirectoryWantsPageNumber:]
+- -[BKPDFModernBookViewController thumbnailRenderingCache]
+- -[BKPDFModernBookViewController toggleBookmark:]
+- -[BKPDFModernBookViewController toggleEditAssetMode:]
+- -[BKPDFModernBookViewController toggleEditAssetMode:].cold.1
+- -[BKPDFModernBookViewController transitionContentHostingView]
+- -[BKPDFModernBookViewController transitionContentViewImage]
+- -[BKPDFModernBookViewController transitionContentViewIsShowingCover]
+- -[BKPDFModernBookViewController transitionContentView]
+- -[BKPDFModernBookViewController turnPageInDirection:]
+- -[BKPDFModernBookViewController turnPages:animated:]
+- -[BKPDFModernBookViewController turnToPageNumber:animated:]
+- -[BKPDFModernBookViewController undoManager]
+- -[BKPDFModernBookViewController updateBookmarkButton:]
+- -[BKPDFModernBookViewController updateBottomToolbar:]
+- -[BKPDFModernBookViewController updateContentInsets]
+- -[BKPDFModernBookViewController updateContentScale]
+- -[BKPDFModernBookViewController updateHUDVisibilityAnimated:]
+- -[BKPDFModernBookViewController updateLayout]
+- -[BKPDFModernBookViewController updateProgressKitForNewLocation]
+- -[BKPDFModernBookViewController updateScrubber:]
+- -[BKPDFModernBookViewController upsellOrdinal]
+- -[BKPDFModernBookViewController viewDidAppear:]
+- -[BKPDFModernBookViewController viewDidDisappear:]
+- -[BKPDFModernBookViewController viewDidLayoutSubviews]
+- -[BKPDFModernBookViewController viewDidLoad]
+- -[BKPDFModernBookViewController viewSafeAreaInsetsDidChange]
+- -[BKPDFModernBookViewController viewWillAppear:]
+- -[BKPDFModernBookViewController viewWillDisappear:]
+- -[BKPDFModernBookViewController viewWillLayoutSubviews]
+- -[BKPDFModernBookViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKPDFModernBookViewController visiblePageBookmarks]
+- -[BKPDFModernBookViewController visiblePageBookmarks].cold.1
+- -[BKPDFModernBookViewController visiblePageDidChange:]
+- -[BKPDFModernBookViewController visiblePageDidChange:].cold.1
+- -[BKPDFModernBookViewController wantsBottomToolbar]
+- -[BKPDFModernBookViewControllerAccessibility toggleBookmark:]
+- -[BKPDFPageThumbnailDirectory .cxx_destruct]
+- -[BKPDFPageThumbnailDirectory _noBookmarksView]
+- -[BKPDFPageThumbnailDirectory bookmarkedPages]
+- -[BKPDFPageThumbnailDirectory calculatePageCount]
+- -[BKPDFPageThumbnailDirectory configureCell:atIndex:]
+- -[BKPDFPageThumbnailDirectory indexForLocation:]
+- -[BKPDFPageThumbnailDirectory indexForPageNumber:]
+- -[BKPDFPageThumbnailDirectory leftPageNumberAtIndex:]
+- -[BKPDFPageThumbnailDirectory locationAtIndex:]
+- -[BKPDFPageThumbnailDirectory noBookmarksView]
+- -[BKPDFPageThumbnailDirectory numberOfCellsInGridView:]
+- -[BKPDFPageThumbnailDirectory pageCount]
+- -[BKPDFPageThumbnailDirectory pageNumberForCellIndex:]
+- -[BKPDFPageThumbnailDirectory pdfDocument]
+- -[BKPDFPageThumbnailDirectory reloadData]
+- -[BKPDFPageThumbnailDirectory rightPageNumberAtIndex:]
+- -[BKPDFPageThumbnailDirectory setBookmarkedPages:]
+- -[BKPDFPageThumbnailDirectory setNoBookmarksView:]
+- -[BKPDFPageThumbnailDirectory setPageCount:]
+- -[BKPDFPageThumbnailDirectory setPdfDocument:]
+- -[BKPDFPageThumbnailDirectory setShowBookmarks:]
+- -[BKPDFPageThumbnailDirectory setShowBookmarksOnly:]
+- -[BKPDFPageThumbnailDirectory showBookmarksOnly]
+- -[BKPDFPageThumbnailDirectory showBookmarks]
+- -[BKPDFPageThumbnailDirectory viewDidDisappear:]
+- -[BKPDFPageThumbnailDirectory viewWillAppear:]
+- -[BKPDFSearchResult .cxx_destruct]
+- -[BKPDFSearchResult selection]
+- -[BKPDFSearchResult setSelection:]
+- -[BKPDFSnapshotMetadata _cleanupPageIndicesIfNecessaryWithDocument:currentPageIndex:]
+- -[BKPDFSnapshotMetadata _cleanupPageIndicesIfNecessaryWithDocument:currentPageIndex:].cold.1
+- -[BKPDFSnapshotMetadata _cleanupPageIndicesIfNecessaryWithDocument:currentPageIndex:].cold.2
+- -[BKPDFSnapshotMetadata _cleanupPageIndicesIfNecessaryWithDocument:currentPageIndex:].cold.3
+- -[BKPDFSnapshotMetadata _cleanupPageIndicesIfNecessaryWithDocument:currentPageIndex:].cold.4
+- -[BKPDFSnapshotMetadata _pageSize:]
+- -[BKPDFSnapshotMetadata hasLeftPage]
+- -[BKPDFSnapshotMetadata hasRightPage]
+- -[BKPDFSnapshotMetadata initWithPDFDocument:currentPageIndex:]
+- -[BKPDFSnapshotMetadata leftPageIndex]
+- -[BKPDFSnapshotMetadata leftPageSize]
+- -[BKPDFSnapshotMetadata rightPageIndex]
+- -[BKPDFSnapshotMetadata rightPageSize]
+- -[BKPDFTOCTableViewCell .cxx_destruct]
+- -[BKPDFTOCTableViewCell pdfChapter]
+- -[BKPDFTOCTableViewCell setPdfChapter:]
+- -[BKPDFTOCViewController .cxx_destruct]
+- -[BKPDFTOCViewController _traitCollectionDidChange:previousTraitCollection:]
+- -[BKPDFTOCViewController _updateColors]
+- -[BKPDFTOCViewController _updateContentInsets]
+- -[BKPDFTOCViewController calculateFontSize]
+- -[BKPDFTOCViewController changeIsUserDriven]
+- -[BKPDFTOCViewController chapterForIndexPath:]
+- -[BKPDFTOCViewController countRowsOfChildren:]
+- -[BKPDFTOCViewController currentOutline]
+- -[BKPDFTOCViewController dateFormatter]
+- -[BKPDFTOCViewController dealloc]
+- -[BKPDFTOCViewController didSelectLocation:]
+- -[BKPDFTOCViewController findOutlineForRow:fromRowCount:fromOutline:]
+- -[BKPDFTOCViewController fontFamily]
+- -[BKPDFTOCViewController fontForChapter:]
+- -[BKPDFTOCViewController highlightImage]
+- -[BKPDFTOCViewController indentationLevelForChapter:]
+- -[BKPDFTOCViewController initWithNibName:bundle:]
+- -[BKPDFTOCViewController isContentLoadPending]
+- -[BKPDFTOCViewController isContentLoaded]
+- -[BKPDFTOCViewController isReusable]
+- -[BKPDFTOCViewController loadView]
+- -[BKPDFTOCViewController numberOfSectionsInTableView:]
+- -[BKPDFTOCViewController ordinal]
+- -[BKPDFTOCViewController pageIndexFromChapter:]
+- -[BKPDFTOCViewController pageNumberFromChapter:]
+- -[BKPDFTOCViewController paginationDidLoad]
+- -[BKPDFTOCViewController pdfDocument]
+- -[BKPDFTOCViewController pdfOutlineRoot]
+- -[BKPDFTOCViewController preferredFontSize]
+- -[BKPDFTOCViewController recenteredIndexPath]
+- -[BKPDFTOCViewController releaseViews]
+- -[BKPDFTOCViewController reuseIdentifier]
+- -[BKPDFTOCViewController scrollViewDidScroll:]
+- -[BKPDFTOCViewController scrollView]
+- -[BKPDFTOCViewController setBook:]
+- -[BKPDFTOCViewController setChangeIsUserDriven:]
+- -[BKPDFTOCViewController setCurrentOutline:]
+- -[BKPDFTOCViewController setDateFormatter:]
+- -[BKPDFTOCViewController setNeedsRestyle]
+- -[BKPDFTOCViewController setPdfDocument:]
+- -[BKPDFTOCViewController setPdfOutlineRoot:]
+- -[BKPDFTOCViewController setPreferredFontSize:]
+- -[BKPDFTOCViewController setRecenteredIndexPath:]
+- -[BKPDFTOCViewController setTableView:]
+- -[BKPDFTOCViewController setTheme:]
+- -[BKPDFTOCViewController setWritingDirection:]
+- -[BKPDFTOCViewController tableView:canEditRowAtIndexPath:]
+- -[BKPDFTOCViewController tableView:cellForRowAtIndexPath:]
+- -[BKPDFTOCViewController tableView:didDeselectRowAtIndexPath:]
+- -[BKPDFTOCViewController tableView:didSelectRowAtIndexPath:]
+- -[BKPDFTOCViewController tableView:estimatedHeightForRowAtIndexPath:]
+- -[BKPDFTOCViewController tableView:heightForRowAtIndexPath:]
+- -[BKPDFTOCViewController tableView:numberOfRowsInSection:]
+- -[BKPDFTOCViewController tableView]
+- -[BKPDFTOCViewController updateView]
+- -[BKPDFTOCViewController viewDidLayoutSubviews]
+- -[BKPDFTOCViewController viewWillAppear:]
+- -[BKPDFTOCViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKPDFTOCViewController writingDirection]
+- -[BKPageAnimation .cxx_destruct]
+- -[BKPageAnimation existingPages]
+- -[BKPageAnimation finished]
+- -[BKPageAnimation isGoingToNextPage]
+- -[BKPageAnimation isInteractive]
+- -[BKPageAnimation pageAnimationDelegate]
+- -[BKPageAnimation setExistingPages:]
+- -[BKPageAnimation setFinished:]
+- -[BKPageAnimation setIsGoingToNextPage:]
+- -[BKPageAnimation setIsInteractive:]
+- -[BKPageAnimation setPageAnimationDelegate:]
+- -[BKPageAnimation setState:]
+- -[BKPageAnimation state]
+- -[BKPageBookCurlView .cxx_destruct]
+- -[BKPageBookCurlView duration]
+- -[BKPageBookCurlView image]
+- -[BKPageBookCurlView initWithImage:borderColor:isLeft:]
+- -[BKPageBookCurlView initWithImage:borderColor:isLeft:gutterImage:]
+- -[BKPageBookCurlView isLeft]
+- -[BKPageBookCurlView pageCurlWillCancelWithDuration:]
+- -[BKPageBookCurlView pageCurlWillCancel]
+- -[BKPageBookCurlView setDuration:]
+- -[BKPageBookCurlView setImage:]
+- -[BKPageBookCurlView setLeft:]
+- -[BKPageBookCurlView setShouldAnimate:]
+- -[BKPageBookCurlView setShouldHaveGradient:]
+- -[BKPageBookCurlView setSmallGradientLayer:]
+- -[BKPageBookCurlView setUseInvertedColors:]
+- -[BKPageBookCurlView shouldAnimate]
+- -[BKPageBookCurlView shouldHaveGradient]
+- -[BKPageBookCurlView smallGradientLayer]
+- -[BKPageBookCurlView takeSnapshotOfView:]
+- -[BKPageBookCurlView takeSnapshotOfView:rect:]
+- -[BKPageBookCurlView takeSnapshotOfView:rect:afterScreenUpdates:]
+- -[BKPageBookCurlView updateCurlPercent:]
+- -[BKPageBookCurlView useInvertedColors]
+- -[BKPageCurl .cxx_destruct]
+- -[BKPageCurl _animationDidStop:]
+- -[BKPageCurl _backColor0AtPosition:]
+- -[BKPageCurl _backColor1AtPosition:]
+- -[BKPageCurl _beginAnimation]
+- -[BKPageCurl _finishManualCurl]
+- -[BKPageCurl _setupViews]
+- -[BKPageCurl animationDidStop:finished:]
+- -[BKPageCurl backColor]
+- -[BKPageCurl backPage]
+- -[BKPageCurl backPages]
+- -[BKPageCurl beginManualCurlAtLocation:]
+- -[BKPageCurl cancelManualCurl]
+- -[BKPageCurl cancelledManualCurl]
+- -[BKPageCurl cleanup]
+- -[BKPageCurl configuration]
+- -[BKPageCurl container]
+- -[BKPageCurl curlAnimationAngle]
+- -[BKPageCurl curlAnimationBackColor0]
+- -[BKPageCurl curlAnimationBackColor1]
+- -[BKPageCurl curlAnimationRadius]
+- -[BKPageCurl curlAnimationShadowColor]
+- -[BKPageCurl curlAnimationTime]
+- -[BKPageCurl curlFilter]
+- -[BKPageCurl curlPages]
+- -[BKPageCurl curlStartNotificationSent]
+- -[BKPageCurl delay]
+- -[BKPageCurl delegate]
+- -[BKPageCurl diagonalAngle]
+- -[BKPageCurl diagonalLengthPixels]
+- -[BKPageCurl didEndCount]
+- -[BKPageCurl duration]
+- -[BKPageCurl ensureCurlFilterOnLayer:]
+- -[BKPageCurl existingPages]
+- -[BKPageCurl extraView]
+- -[BKPageCurl finishManualCurl]
+- -[BKPageCurl finished]
+- -[BKPageCurl forwardCurl]
+- -[BKPageCurl fullCleanup]
+- -[BKPageCurl ignoreManualUpdates]
+- -[BKPageCurl inUncurl]
+- -[BKPageCurl init]
+- -[BKPageCurl initialCurlRadius]
+- -[BKPageCurl isGoingToNextPage]
+- -[BKPageCurl k]
+- -[BKPageCurl killCurl]
+- -[BKPageCurl lastPoint]
+- -[BKPageCurl manualStartPoint]
+- -[BKPageCurl nightMode]
+- -[BKPageCurl pageColor]
+- -[BKPageCurl projectedDiagonal]
+- -[BKPageCurl secondHalf]
+- -[BKPageCurl setBackColor:]
+- -[BKPageCurl setBackPage:]
+- -[BKPageCurl setBackPages:]
+- -[BKPageCurl setCancelledManualCurl:]
+- -[BKPageCurl setConfiguration:]
+- -[BKPageCurl setContainer:]
+- -[BKPageCurl setCurlAnimationAngle:]
+- -[BKPageCurl setCurlAnimationBackColor0:]
+- -[BKPageCurl setCurlAnimationBackColor1:]
+- -[BKPageCurl setCurlAnimationRadius:]
+- -[BKPageCurl setCurlAnimationShadowColor:]
+- -[BKPageCurl setCurlAnimationTime:]
+- -[BKPageCurl setCurlFilter:]
+- -[BKPageCurl setCurlPages:]
+- -[BKPageCurl setCurlStartNotificationSent:]
+- -[BKPageCurl setDelay:]
+- -[BKPageCurl setDelegate:]
+- -[BKPageCurl setDiagonalAngle:]
+- -[BKPageCurl setDiagonalLengthPixels:]
+- -[BKPageCurl setDidEndCount:]
+- -[BKPageCurl setDuration:]
+- -[BKPageCurl setExistingPages:]
+- -[BKPageCurl setExtraView:]
+- -[BKPageCurl setFinished:]
+- -[BKPageCurl setIgnoreManualUpdates:]
+- -[BKPageCurl setInUncurl:]
+- -[BKPageCurl setInitialCurlRadius:]
+- -[BKPageCurl setK:]
+- -[BKPageCurl setLastPoint:]
+- -[BKPageCurl setManualStartPoint:]
+- -[BKPageCurl setNightMode:]
+- -[BKPageCurl setPageColor:]
+- -[BKPageCurl setProjectedDiagonal:]
+- -[BKPageCurl setSecondHalf:]
+- -[BKPageCurl setSetupEndNotificationSent:]
+- -[BKPageCurl setSpineLocation:]
+- -[BKPageCurl setStabilization:]
+- -[BKPageCurl setState:]
+- -[BKPageCurl setType:]
+- -[BKPageCurl setUncurlAnimationAngle:]
+- -[BKPageCurl setUncurlAnimationRadius:]
+- -[BKPageCurl setUncurlAnimationShadowColor:]
+- -[BKPageCurl setUncurlAnimationTime:]
+- -[BKPageCurl setupEndNotificationSent]
+- -[BKPageCurl spineLocation]
+- -[BKPageCurl stabilization]
+- -[BKPageCurl startAutoCurl]
+- -[BKPageCurl state]
+- -[BKPageCurl type]
+- -[BKPageCurl uncurlAnimationAngle]
+- -[BKPageCurl uncurlAnimationRadius]
+- -[BKPageCurl uncurlAnimationShadowColor]
+- -[BKPageCurl uncurlAnimationTime]
+- -[BKPageCurl updateManualCurlToLocation:]
+- -[BKPageCurlConfiguration .cxx_destruct]
+- -[BKPageCurlConfiguration _setupDefault]
+- -[BKPageCurlConfiguration _setupPortraitCompactWidth]
+- -[BKPageCurlConfiguration context]
+- -[BKPageCurlConfiguration heightAllowanceScalar]
+- -[BKPageCurlConfiguration initWithContext:]
+- -[BKPageCurlManager .cxx_destruct]
+- -[BKPageCurlManager _startQueuedCurls]
+- -[BKPageCurlManager backColor]
+- -[BKPageCurlManager beginManualCurl:atLocation:inPage:fromPages:backPage:inContainer:]
+- -[BKPageCurlManager cancelManualCurl:]
+- -[BKPageCurlManager configurationContext]
+- -[BKPageCurlManager curlPages:backPage:inContainer:]
+- -[BKPageCurlManager curlPages:backPage:inContainer:curlPage:]
+- -[BKPageCurlManager curlPages:backPages:inContainer:]
+- -[BKPageCurlManager curlPages:backPages:inContainer:curlPage:]
+- -[BKPageCurlManager dealloc]
+- -[BKPageCurlManager delegate]
+- -[BKPageCurlManager enqueuePageCurlWithType:]
+- -[BKPageCurlManager finishManualCurl:]
+- -[BKPageCurlManager initWithContext:]
+- -[BKPageCurlManager init]
+- -[BKPageCurlManager killACurl:]
+- -[BKPageCurlManager killAllCurls]
+- -[BKPageCurlManager numberOfQueuedCurls]
+- -[BKPageCurlManager pageColor]
+- -[BKPageCurlManager pageCurl:finished:]
+- -[BKPageCurlManager pageCurlConfiguration]
+- -[BKPageCurlManager pageCurls]
+- -[BKPageCurlManager setBackColor:]
+- -[BKPageCurlManager setDelegate:]
+- -[BKPageCurlManager setPageColor:]
+- -[BKPageCurlManager setPageCurlConfiguration:]
+- -[BKPageCurlManager setSpineLocation:]
+- -[BKPageCurlManager spineLocation]
+- -[BKPageCurlManager unCurlPages:backPages:inContainer:]
+- -[BKPageCurlManager uncurlPages:backPage:inContainer:]
+- -[BKPageCurlManager updateManualCurl:toLocation:]
+- -[BKPageLocation copyWithZone:]
+- -[BKPageLocation description]
+- -[BKPageLocation encodeWithCoder:]
+- -[BKPageLocation hash]
+- -[BKPageLocation initWithCoder:]
+- -[BKPageLocation initWithLocationDictionary:]
+- -[BKPageLocation initWithOrdinal:andOffset:]
+- -[BKPageLocation isEqual:]
+- -[BKPageLocation pageOffset]
+- -[BKPageLocation serializeLocationToDictionary]
+- -[BKPageLocation setPageOffset:]
+- -[BKPageLocation stringValue]
+- -[BKPageNavigationViewController .cxx_destruct]
+- -[BKPageNavigationViewController adjustToNewSize:]
+- -[BKPageNavigationViewController allViewControllers]
+- -[BKPageNavigationViewController contentViewImage:afterScreenUpdates:completion:]
+- -[BKPageNavigationViewController contentViewImage:completion:]
+- -[BKPageNavigationViewController contentView]
+- -[BKPageNavigationViewController dataSource]
+- -[BKPageNavigationViewController delegate]
+- -[BKPageNavigationViewController ignoreNextGesture]
+- -[BKPageNavigationViewController init]
+- -[BKPageNavigationViewController isZoomedOut]
+- -[BKPageNavigationViewController pageCount]
+- -[BKPageNavigationViewController pageOffset]
+- -[BKPageNavigationViewController setDataSource:]
+- -[BKPageNavigationViewController setDelegate:]
+- -[BKPageNavigationViewController setIgnoreNextGesture:]
+- -[BKPageNavigationViewController setPageCount:]
+- -[BKPageNavigationViewController setPageOffset:]
+- -[BKPageNavigationViewController setViewControllers:direction:animated:completion:]
+- -[BKPageNavigationViewController turnToNextPageWithDelta:]
+- -[BKPageNavigationViewController turnToNextPage]
+- -[BKPageNavigationViewController turnToPageNumber:animated:]
+- -[BKPageNavigationViewController turnToPreviousPageWithDelta:]
+- -[BKPageNavigationViewController turnToPreviousPage]
+- -[BKPageNavigationViewController viewControllers]
+- -[BKPageNavigationViewController viewForLiveResize]
+- -[BKPageNavigationViewController visiblePages]
+- -[BKPageNavigationViewController(FixedLayout) _imageViewForPageContentImage:]
+- -[BKPageNavigationViewController(FixedLayout) _leftPageNumberForOffset:usingPageCount:]
+- -[BKPageNavigationViewController(FixedLayout) _pageNumberForOffset:onGreaterSide:usingPageCount:]
+- -[BKPageNavigationViewController(FixedLayout) _rightPageNumberForOffset:usingPageCount:]
+- -[BKPageNavigationViewController(FixedLayout) leftPageNumberForSinglePageOffset:]
+- -[BKPageNavigationViewController(FixedLayout) leftPageNumberForSpreadPageOffset:]
+- -[BKPageNavigationViewController(FixedLayout) rightPageNumberForSinglePageOffset:]
+- -[BKPageNavigationViewController(FixedLayout) rightPageNumberForSpreadPageOffset:]
+- -[BKPageScrollerPageView .cxx_destruct]
+- -[BKPageScrollerPageView _contentIsReady:]
+- -[BKPageScrollerPageView _exposeContentView]
+- -[BKPageScrollerPageView _resizeOperation]
+- -[BKPageScrollerPageView _teardownContentView]
+- -[BKPageScrollerPageView _thumbnailingOperation]
+- -[BKPageScrollerPageView contentView]
+- -[BKPageScrollerPageView dealloc]
+- -[BKPageScrollerPageView didMoveToSuperview]
+- -[BKPageScrollerPageView imageResizerDelegate]
+- -[BKPageScrollerPageView initWithFrame:pageNumber:navigationDelegate:thumbnailingDelegate:imageResizerDelegate:]
+- -[BKPageScrollerPageView layoutSubviews]
+- -[BKPageScrollerPageView navigationDelegate]
+- -[BKPageScrollerPageView scrollState]
+- -[BKPageScrollerPageView setImageResizerDelegate:]
+- -[BKPageScrollerPageView setNavigationDelegate:]
+- -[BKPageScrollerPageView setScrollState:]
+- -[BKPageScrollerPageView setThumbnailingDelegate:]
+- -[BKPageScrollerPageView set_resizeOperation:]
+- -[BKPageScrollerPageView set_thumbnailingOperation:]
+- -[BKPageScrollerPageView sizeThatFits:]
+- -[BKPageScrollerPageView snapshot]
+- -[BKPageScrollerPageView teardown]
+- -[BKPageScrollerPageView thumbnailingDelegate]
+- -[BKPageScrollerViewController .cxx_destruct]
+- -[BKPageScrollerViewController _allPageViews]
+- -[BKPageScrollerViewController _currentZoomingScrollView]
+- -[BKPageScrollerViewController _frameForPageNumber:]
+- -[BKPageScrollerViewController _pageViewInZoomingScrollView:]
+- -[BKPageScrollerViewController _updatePageViewScrollStates]
+- -[BKPageScrollerViewController _updateSurroundingZoomScales]
+- -[BKPageScrollerViewController _visibleAreaChangedInScrollView:]
+- -[BKPageScrollerViewController adjustToNewSize:]
+- -[BKPageScrollerViewController contentViewImage:completion:]
+- -[BKPageScrollerViewController contentView]
+- -[BKPageScrollerViewController dealloc]
+- -[BKPageScrollerViewController gestureRecognizer:canBePreventedByGestureRecognizer:]
+- -[BKPageScrollerViewController gestureRecognizer:shouldBeRequiredToFailByGestureRecognizer:]
+- -[BKPageScrollerViewController gestureRecognizerShouldBegin:]
+- -[BKPageScrollerViewController handleDoubleTap:]
+- -[BKPageScrollerViewController handlePageChangeTap:]
+- -[BKPageScrollerViewController imageResizerDelegate]
+- -[BKPageScrollerViewController initWithTransitionStyle:navigationOrientation:options:]
+- -[BKPageScrollerViewController isZoomedOut]
+- -[BKPageScrollerViewController loadView]
+- -[BKPageScrollerViewController maintainZoomScale]
+- -[BKPageScrollerViewController maxResizeScale]
+- -[BKPageScrollerViewController maxZoomScale]
+- -[BKPageScrollerViewController navigationOrientation]
+- -[BKPageScrollerViewController pagingScrollView:didAddView:atIndex:]
+- -[BKPageScrollerViewController pagingScrollView:didRemoveView:atIndex:]
+- -[BKPageScrollerViewController pagingScrollView:viewAtIndex:]
+- -[BKPageScrollerViewController pagingScrollView:viewDidAppear:atIndex:]
+- -[BKPageScrollerViewController pagingScrollView:viewDidDisappear:atIndex:]
+- -[BKPageScrollerViewController releaseViews]
+- -[BKPageScrollerViewController resetZoomScaleForScrollView:]
+- -[BKPageScrollerViewController resizeViewsWhenZoomed]
+- -[BKPageScrollerViewController scrollViewDidEndDecelerating:]
+- -[BKPageScrollerViewController scrollViewDidEndDragging:willDecelerate:]
+- -[BKPageScrollerViewController scrollViewDidEndZooming:withView:atScale:]
+- -[BKPageScrollerViewController scrollViewDidScroll:]
+- -[BKPageScrollerViewController scrollViewDidZoom:]
+- -[BKPageScrollerViewController scrollViewWillBeginDragging:]
+- -[BKPageScrollerViewController scrollViewWillBeginZooming:withView:]
+- -[BKPageScrollerViewController setImageResizerDelegate:]
+- -[BKPageScrollerViewController setMaintainZoomScale:]
+- -[BKPageScrollerViewController setMaxResizeScale:]
+- -[BKPageScrollerViewController setMaxZoomScale:]
+- -[BKPageScrollerViewController setPageCount:]
+- -[BKPageScrollerViewController setPageOffset:]
+- -[BKPageScrollerViewController setResizeViewsWhenZoomed:]
+- -[BKPageScrollerViewController setThumbnailingDelegate:]
+- -[BKPageScrollerViewController thumbnailingDelegate]
+- -[BKPageScrollerViewController toggleControls:]
+- -[BKPageScrollerViewController turnToPageNumber:animated:]
+- -[BKPageScrollerViewController viewForLiveResize]
+- -[BKPageScrollerViewController viewForPageNumber:]
+- -[BKPageScrollerViewController viewForZoomingInScrollView:]
+- -[BKPageScrollerViewController viewWillAppear:]
+- -[BKPageScrollerViewController visiblePages]
+- -[BKPageScrollerViewController zoomVisiblePageToFit:]
+- -[BKPageScrollerViewController zoomingScrollView:didSimulateZoomScale:onView:]
+- -[BKPageSlide .cxx_destruct]
+- -[BKPageSlide _cleanup]
+- -[BKPageSlide animationDidStart:]
+- -[BKPageSlide animationDidStop:finished:]
+- -[BKPageSlide autoSlideFromPages:toPages:inContainer:isForwardAnimation:isRTL:isZoomedToSpread:completion:]
+- -[BKPageSlide beginManualAnimationAtLocation:]
+- -[BKPageSlide bottomPagesView]
+- -[BKPageSlide bottomViewFromCenter]
+- -[BKPageSlide bottomViewToCenter]
+- -[BKPageSlide cancelManualAnimation]
+- -[BKPageSlide completionBlock]
+- -[BKPageSlide contextualBottomViewFromCenter]
+- -[BKPageSlide contextualBottomViewToCenter]
+- -[BKPageSlide contextualTopViewFromCenter]
+- -[BKPageSlide contextualTopViewToCenter]
+- -[BKPageSlide finishManualAnimation]
+- -[BKPageSlide init]
+- -[BKPageSlide initiateManualAnimationFromPages:toPages:inContainer:isForwardAnimation:isRTL:isZoomedToSpread:]
+- -[BKPageSlide manualCurlCurrentTime]
+- -[BKPageSlide manualCurlStartPosition]
+- -[BKPageSlide ongoingAnimationCount]
+- -[BKPageSlide scrimView]
+- -[BKPageSlide setBottomPagesView:]
+- -[BKPageSlide setBottomViewFromCenter:]
+- -[BKPageSlide setBottomViewToCenter:]
+- -[BKPageSlide setCompletionBlock:]
+- -[BKPageSlide setManualCurlCurrentTime:]
+- -[BKPageSlide setManualCurlStartPosition:]
+- -[BKPageSlide setOngoingAnimationCount:]
+- -[BKPageSlide setScrimView:]
+- -[BKPageSlide setTopPagesView:]
+- -[BKPageSlide setTopViewFromCenter:]
+- -[BKPageSlide setTopViewToCenter:]
+- -[BKPageSlide setupSlideAnimationFromPages:toPages:inContainer:isForwardAnimation:isRTL:isZoomedToSpread:]
+- -[BKPageSlide springAnimationForKeyPath:stiffness:damping:from:to:]
+- -[BKPageSlide topPagesView]
+- -[BKPageSlide topViewFromCenter]
+- -[BKPageSlide topViewToCenter]
+- -[BKPageSlide updateManualAnimationToLocation:]
+- -[BKPageSpan .cxx_destruct]
+- -[BKPageSpan description]
+- -[BKPageSpan hash]
+- -[BKPageSpan initWithLeadingLocation:trailingLocation:]
+- -[BKPageSpan isEqual:]
+- -[BKPageSpan leadingLocation]
+- -[BKPageSpan trailingLocation]
+- -[BKPageThumbnailDirectory .cxx_destruct]
+- -[BKPageThumbnailDirectory configureCell:atIndex:]
+- -[BKPageThumbnailDirectory controller:didChangeObject:atIndexPath:forChangeType:newIndexPath:]
+- -[BKPageThumbnailDirectory dealloc]
+- -[BKPageThumbnailDirectory indexForLocation:]
+- -[BKPageThumbnailDirectory indexForPageNumber:]
+- -[BKPageThumbnailDirectory isAnnotationVisible:forIndex:]
+- -[BKPageThumbnailDirectory leftPageNumberAtIndex:]
+- -[BKPageThumbnailDirectory locationAtIndex:]
+- -[BKPageThumbnailDirectory numberOfCellsInGridView:]
+- -[BKPageThumbnailDirectory pageCount]
+- -[BKPageThumbnailDirectory pageNumberForCellIndex:]
+- -[BKPageThumbnailDirectory rightPageNumberAtIndex:]
+- -[BKPageThumbnailDirectory setPageCount:]
+- -[BKPageThumbnailDirectory startFetchingAnnotations]
+- -[BKPageThumbnailDirectory startFetchingAnnotations].cold.1
+- -[BKPageThumbnailDirectory stopFetchingAnnotations]
+- -[BKPageThumbnailDirectory viewDidDisappear:]
+- -[BKPageThumbnailDirectory viewWillAppear:]
+- -[BKPageThumbnailView .cxx_destruct]
+- -[BKPageThumbnailView imageView]
+- -[BKPageThumbnailView image]
+- -[BKPageThumbnailView initWithFrame:]
+- -[BKPageThumbnailView layoutSubviews]
+- -[BKPageThumbnailView pageLabel]
+- -[BKPageThumbnailView pageNumber]
+- -[BKPageThumbnailView pageTitle]
+- -[BKPageThumbnailView setImage:]
+- -[BKPageThumbnailView setImageView:]
+- -[BKPageThumbnailView setPageLabel:]
+- -[BKPageThumbnailView setPageNumber:]
+- -[BKPageThumbnailView setPageTitle:]
+- -[BKPageThumbnailView setShowsPageNumber:]
+- -[BKPageThumbnailView showsPageNumber]
+- -[BKPageThumbnailView sizeThatFits:]
+- -[BKPageTurningViewController .cxx_destruct]
+- -[BKPageTurningViewController _addFullScreenLandscapeGutter:animate:]
+- -[BKPageTurningViewController _adjustPrimaryControllerFrame]
+- -[BKPageTurningViewController _adjustSecondaryControllerFrame]
+- -[BKPageTurningViewController _installContent:inView:]
+- -[BKPageTurningViewController _removeFullScreenLandscapeGutter:page:]
+- -[BKPageTurningViewController _traitCollectionDidChange:previousTraitCollection:]
+- -[BKPageTurningViewController _updateColorsWithTraitCollection:]
+- -[BKPageTurningViewController _updateColors]
+- -[BKPageTurningViewController addsGutterOnPageTurn]
+- -[BKPageTurningViewController adjustContentControllerFramesIfNeeded]
+- -[BKPageTurningViewController adjustContentControllerFrames]
+- -[BKPageTurningViewController allViewControllers]
+- -[BKPageTurningViewController animationDidStop:finished:]
+- -[BKPageTurningViewController bookContainerView:beginManualCurl:atLocation:completion:]
+- -[BKPageTurningViewController bookContainerView:cancelManualCurl:]
+- -[BKPageTurningViewController bookContainerView:finishManualCurl:]
+- -[BKPageTurningViewController bookContainerView:hasMediaElementUnderTouch:]
+- -[BKPageTurningViewController bookContainerView:pageTurnShouldRequireFailureOf:]
+- -[BKPageTurningViewController bookContainerView:tapToTurnPages:]
+- -[BKPageTurningViewController bookContainerView:turnChapter:]
+- -[BKPageTurningViewController bookContainerView:turnPages:]
+- -[BKPageTurningViewController bookContainerView:updateManualCurl:toLocation:]
+- -[BKPageTurningViewController bookContainerViewShouldBeginManualCurl:]
+- -[BKPageTurningViewController bookContainerViewShouldTurnPage:]
+- -[BKPageTurningViewController bookmarkHotspotDimensionForBookContainerView:]
+- -[BKPageTurningViewController configuration]
+- -[BKPageTurningViewController curlContainer]
+- -[BKPageTurningViewController curlPages:toPages:direction:animated:completion:]
+- -[BKPageTurningViewController dataSource]
+- -[BKPageTurningViewController dealloc]
+- -[BKPageTurningViewController delegate]
+- -[BKPageTurningViewController ignoreNextGesture]
+- -[BKPageTurningViewController initWithNibName:bundle:]
+- -[BKPageTurningViewController isRTL]
+- -[BKPageTurningViewController isShowingContent]
+- -[BKPageTurningViewController loadView]
+- -[BKPageTurningViewController pageAnimation:didFinish:]
+- -[BKPageTurningViewController pageAnimationDelayFor:]
+- -[BKPageTurningViewController pageAnimationDidBegin:]
+- -[BKPageTurningViewController pageAnimationDurationFor:]
+- -[BKPageTurningViewController pageAnimationWillBegin:]
+- -[BKPageTurningViewController pageAnimationWillCancel:]
+- -[BKPageTurningViewController pageContainer]
+- -[BKPageTurningViewController pageContentBoundsForBookContainerView:]
+- -[BKPageTurningViewController pageCurlManager:didFinishCurl:transitionCompleted:]
+- -[BKPageTurningViewController pageCurlManager:durationForCurl:]
+- -[BKPageTurningViewController pageCurlManager:willBeginCurl:]
+- -[BKPageTurningViewController pageCurlManager]
+- -[BKPageTurningViewController pageProgressionDirection]
+- -[BKPageTurningViewController primaryContentContainer]
+- -[BKPageTurningViewController primaryContentControllerNeedsFrameAdjustment]
+- -[BKPageTurningViewController primaryContentController]
+- -[BKPageTurningViewController releaseViews]
+- -[BKPageTurningViewController secondaryContentContainer]
+- -[BKPageTurningViewController secondaryContentControllerNeedsFrameAdjustment]
+- -[BKPageTurningViewController secondaryContentController]
+- -[BKPageTurningViewController setAddsGutterOnPageTurn:]
+- -[BKPageTurningViewController setConfiguration:]
+- -[BKPageTurningViewController setDataSource:]
+- -[BKPageTurningViewController setDelegate:]
+- -[BKPageTurningViewController setIgnoreNextGesture:]
+- -[BKPageTurningViewController setPageProgressionDirection:]
+- -[BKPageTurningViewController setPrimaryContentController:]
+- -[BKPageTurningViewController setPrimaryContentControllerNeedsFrameAdjustment:]
+- -[BKPageTurningViewController setSecondaryContentController:]
+- -[BKPageTurningViewController setSecondaryContentControllerNeedsFrameAdjustment:]
+- -[BKPageTurningViewController setSpineLocation:]
+- -[BKPageTurningViewController setTheme:]
+- -[BKPageTurningViewController setViewControllers:direction:animated:completion:]
+- -[BKPageTurningViewController spineLocation]
+- -[BKPageTurningViewController updateBackgroundColorsWithTraitCollection:]
+- -[BKPageTurningViewController viewControllers]
+- -[BKPageTurningViewController viewDidLayoutSubviews]
+- -[BKPageTurningViewController viewDidLoad]
+- -[BKPageTurningViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKPageView pointInside:withEvent:]
+- -[BKPaginationAbortJob init]
+- -[BKPaginationBatchEndJob init]
+- -[BKPaginationBatchJob .cxx_destruct]
+- -[BKPaginationBatchJob bookDatabaseKey]
+- -[BKPaginationBatchJob configuration]
+- -[BKPaginationBatchJob copyState:]
+- -[BKPaginationBatchJob historyEntities]
+- -[BKPaginationBatchJob init]
+- -[BKPaginationBatchJob lookupKey]
+- -[BKPaginationBatchJob pageSize]
+- -[BKPaginationBatchJob setBookDatabaseKey:]
+- -[BKPaginationBatchJob setConfiguration:]
+- -[BKPaginationBatchJob setHistoryEntities:]
+- -[BKPaginationBatchJob setLookupKey:]
+- -[BKPaginationBatchJob setPageSize:]
+- -[BKPaginationBatchJob setStyle:]
+- -[BKPaginationBatchJob style]
+- -[BKPaginationController .cxx_destruct]
+- -[BKPaginationController _lookupKey]
+- -[BKPaginationController _releaseData:]
+- -[BKPaginationController abortCurrentBatch]
+- -[BKPaginationController addLayoutCompleteJob:]
+- -[BKPaginationController addLayoutJob:]
+- -[BKPaginationController addPrepareJob:]
+- -[BKPaginationController addResultJob:]
+- -[BKPaginationController addResultSentinel:]
+- -[BKPaginationController addTOCParseJob:]
+- -[BKPaginationController addTOCResultJob:]
+- -[BKPaginationController annotationLocationCFIToClientRectsForAnnotations:]
+- -[BKPaginationController batchEnded:]
+- -[BKPaginationController bookAnnotationProvider]
+- -[BKPaginationController bookDatabaseKey]
+- -[BKPaginationController bookDirection]
+- -[BKPaginationController bookLanguage]
+- -[BKPaginationController bookObjectID]
+- -[BKPaginationController bookShouldDisableOptimizeSpeed]
+- -[BKPaginationController book]
+- -[BKPaginationController bookmarkPageCounts]
+- -[BKPaginationController cancelAllOperations]
+- -[BKPaginationController cancelPagination]
+- -[BKPaginationController chapterArrayWithLookupKey:]
+- -[BKPaginationController chapterForPageNumber:]
+- -[BKPaginationController chapterIndexForHref:]
+- -[BKPaginationController chapterIndexForPageNumber:]
+- -[BKPaginationController chapterIndexForPageNumber:getFirstChapter:]
+- -[BKPaginationController configuration]
+- -[BKPaginationController currentLookupKey]
+- -[BKPaginationController dealloc]
+- -[BKPaginationController delegate]
+- -[BKPaginationController destroyIvars]
+- -[BKPaginationController documentPageCountForDocumentOrdinal:]
+- -[BKPaginationController estimatedContentSizeForOrdinal:]
+- -[BKPaginationController fetchBookmarkPageCounts]
+- -[BKPaginationController hrefForChapterAtPageNumber:]
+- -[BKPaginationController hrefForPageNumber:]
+- -[BKPaginationController incrementBatchProgress]
+- -[BKPaginationController initWithBook:delegate:]
+- -[BKPaginationController init]
+- -[BKPaginationController isBookSample]
+- -[BKPaginationController jobGeneration]
+- -[BKPaginationController layoutQueue]
+- -[BKPaginationController managedObjectContextDidSave:]
+- -[BKPaginationController navigationHistory]
+- -[BKPaginationController numberOfChapters]
+- -[BKPaginationController pageLocationForPageNumber:]
+- -[BKPaginationController pageNumberForDocumentOrdinal:]
+- -[BKPaginationController pageNumberForLocation:]
+- -[BKPaginationController pageRangeForAnnotation:]
+- -[BKPaginationController pageRangeForChapter:]
+- -[BKPaginationController pageRangeForChapterAtIndex:]
+- -[BKPaginationController pageRangeForChapterAtPageNumber:]
+- -[BKPaginationController pageTitleForAnnotation:]
+- -[BKPaginationController pageTitleForChapter:]
+- -[BKPaginationController pageTitleForPageNumber:]
+- -[BKPaginationController pageTotal]
+- -[BKPaginationController pagesInDocumentOrdinal:]
+- -[BKPaginationController paginationArrayWithLookupKey:]
+- -[BKPaginationController paginationCompletedNotificationName]
+- -[BKPaginationController paginationInfoForPageNumber:]
+- -[BKPaginationController paginationRetryCount]
+- -[BKPaginationController paginationRevision]
+- -[BKPaginationController pause]
+- -[BKPaginationController persistentStoreCoordinator]
+- -[BKPaginationController physicalPageIndexForPageNumber:]
+- -[BKPaginationController physicalPageTitlesForPageNumber:]
+- -[BKPaginationController physicalPagesArrayWithLookupKey:]
+- -[BKPaginationController postPaginationLoadedNotification]
+- -[BKPaginationController prepareQueue]
+- -[BKPaginationController progress]
+- -[BKPaginationController quit]
+- -[BKPaginationController releasePaginationInfo]
+- -[BKPaginationController repaginateWithStyle:geometry:]
+- -[BKPaginationController repaginateWithStyle:geometry:force:]
+- -[BKPaginationController resultsQueue]
+- -[BKPaginationController resume]
+- -[BKPaginationController setBookDirection:]
+- -[BKPaginationController setBookmarkPageCounts:]
+- -[BKPaginationController setConfiguration:]
+- -[BKPaginationController setDelegate:]
+- -[BKPaginationController setJobGeneration:]
+- -[BKPaginationController setNavigationHistory:]
+- -[BKPaginationController setOperationFactory:]
+- -[BKPaginationController setPaginationRetryCount:]
+- -[BKPaginationController setStyle:]
+- -[BKPaginationController spineIndexInPackage]
+- -[BKPaginationController style]
+- -[BKPaginationController titleForChapterAtPageNumber:]
+- -[BKPaginationController updatePaginationCache:]
+- -[BKPaginationController updateProgress]
+- -[BKPaginationController waitUntilAllOperationsAreFinished]
+- -[BKPaginationController webViewForPagination]
+- -[BKPaginationController workIsStillPending]
+- -[BKPaginationController(NonARC) _isDeallocating]
+- -[BKPaginationController(NonARC) _tryRetain]
+- -[BKPaginationController(NonARC) autorelease]
+- -[BKPaginationController(NonARC) release]
+- -[BKPaginationController(NonARC) retainCount]
+- -[BKPaginationController(NonARC) retain]
+- -[BKPaginationFactory .cxx_destruct]
+- -[BKPaginationFactory addLayoutCompleteJob:]
+- -[BKPaginationFactory addLayoutJob:]
+- -[BKPaginationFactory addPrepareJob:]
+- -[BKPaginationFactory addResultJob:]
+- -[BKPaginationFactory addResultSentinel:]
+- -[BKPaginationFactory addTOCParseJob:]
+- -[BKPaginationFactory addTOCResultJob:]
+- -[BKPaginationFactory initWithPaginationController:]
+- -[BKPaginationFactory isStyleRequiredForPagination]
+- -[BKPaginationFactory lookupKeyForStyle:geometry:]
+- -[BKPaginationFactory paginationController]
+- -[BKPaginationFactory quit]
+- -[BKPaginationJob copyState:]
+- -[BKPaginationJob force]
+- -[BKPaginationJob init:]
+- -[BKPaginationJob jobGeneration]
+- -[BKPaginationJob setForce:]
+- -[BKPaginationJob setJobGeneration:]
+- -[BKPaginationLayoutJob .cxx_destruct]
+- -[BKPaginationLayoutJob annotationCFIStrings]
+- -[BKPaginationLayoutJob annotationsToUpgrade]
+- -[BKPaginationLayoutJob bookSnapshot]
+- -[BKPaginationLayoutJob bookmarks]
+- -[BKPaginationLayoutJob contentLayoutSize]
+- -[BKPaginationLayoutJob copyBatchState:]
+- -[BKPaginationLayoutJob copyState:]
+- -[BKPaginationLayoutJob documentOrdinal]
+- -[BKPaginationLayoutJob href]
+- -[BKPaginationLayoutJob init]
+- -[BKPaginationLayoutJob landmarkAnchors]
+- -[BKPaginationLayoutJob navigationInfoAnchors]
+- -[BKPaginationLayoutJob physicalPageAnchors]
+- -[BKPaginationLayoutJob setAnnotationCFIStrings:]
+- -[BKPaginationLayoutJob setAnnotationsToUpgrade:]
+- -[BKPaginationLayoutJob setBookSnapshot:]
+- -[BKPaginationLayoutJob setBookmarks:]
+- -[BKPaginationLayoutJob setContentLayoutSize:]
+- -[BKPaginationLayoutJob setDocumentOrdinal:]
+- -[BKPaginationLayoutJob setHref:]
+- -[BKPaginationLayoutJob setLandmarkAnchors:]
+- -[BKPaginationLayoutJob setNavigationInfoAnchors:]
+- -[BKPaginationLayoutJob setPhysicalPageAnchors:]
+- -[BKPaginationLayoutJob setUrl:]
+- -[BKPaginationLayoutJob setWebView:]
+- -[BKPaginationLayoutJob url]
+- -[BKPaginationLayoutJob webView]
+- -[BKPaginationLayoutOperation _populateTOCEntriesFromNavigationInfoAnchors:]
+- -[BKPaginationLayoutOperation cfiForAnnotation:]
+- -[BKPaginationLayoutOperation cfiForLocation:]
+- -[BKPaginationLayoutOperation chapterTitleForLocation:]
+- -[BKPaginationLayoutOperation execute]
+- -[BKPaginationLayoutOperation layoutComplete:]
+- -[BKPaginationLayoutOperation layoutComplete:estimatedContentSize:]
+- -[BKPaginationLayoutOperation locationForCfi:]
+- -[BKPaginationLayoutOperation newBookmarkPageArray]
+- -[BKPaginationLayoutOperation newHistoryEntityResultsArray]
+- -[BKPaginationLayoutOperation newLandmarkInfoAnchorArray]
+- -[BKPaginationLayoutOperation newNavigationInfoAnchorArray]
+- -[BKPaginationLayoutOperation newPageLocationArrayWithAnchorInfos:]
+- -[BKPaginationLayoutOperation newPhysicalPageAnchorArray]
+- -[BKPaginationLayoutOperation pageOffsetForCFILocation:]
+- -[BKPaginationLayoutOperation pageOffsetForHref:]
+- -[BKPaginationLayoutOperation pageRangeForLocation:]
+- -[BKPaginationLayoutOperation pageTitleForLocation:]
+- -[BKPaginationLayoutOperation populateRecordJob:]
+- -[BKPaginationLayoutOperation startCFIsForNavigationInfoHrefs:]
+- -[BKPaginationLayoutOperation textNodeCharacterCounts]
+- -[BKPaginationLayoutOperation text]
+- -[BKPaginationLayoutSentinelOperation execute]
+- -[BKPaginationOperation .cxx_destruct]
+- -[BKPaginationOperation annotationProvider]
+- -[BKPaginationOperation bookDatabaseKey]
+- -[BKPaginationOperation bookObjectID]
+- -[BKPaginationOperation cancel]
+- -[BKPaginationOperation execute]
+- -[BKPaginationOperation init:paginationOperationController:annotationProvider:]
+- -[BKPaginationOperation isJobGenerationValid]
+- -[BKPaginationOperation job]
+- -[BKPaginationOperation main]
+- -[BKPaginationOperation needsBookManagedObjectContext]
+- -[BKPaginationOperation paginationOperationController]
+- -[BKPaginationOperation performBackgroundAnnotationsBlockAndWait:]
+- -[BKPaginationOperation performBlockAndWait:]
+- -[BKPaginationOperation setAnnotationProvider:]
+- -[BKPaginationOperation setBookDatabaseKey:]
+- -[BKPaginationOperation setBookObjectID:]
+- -[BKPaginationOperation setPaginationOperationController:]
+- -[BKPaginationPrepareOperation .cxx_destruct]
+- -[BKPaginationPrepareOperation _annotationCFIStrings:]
+- -[BKPaginationPrepareOperation _annotationObjectIDsForOrdinal:]
+- -[BKPaginationPrepareOperation _annotationsToUpgradeForOrdinal:]
+- -[BKPaginationPrepareOperation _copyArraySpecializedFunction:minusArray:lhsProperty:rhsProperty:]
+- -[BKPaginationPrepareOperation _copyArraySpecializedFunction:minusValueArray:lhsProperty:]
+- -[BKPaginationPrepareOperation _copyDocumentArray:]
+- -[BKPaginationPrepareOperation _copyPaginatedArray:]
+- -[BKPaginationPrepareOperation _copyUnpaginatedOrdinalsForAnnotations:]
+- -[BKPaginationPrepareOperation _copyUnpaginatedOrdinalsForHistoryEntities]
+- -[BKPaginationPrepareOperation batchJob]
+- -[BKPaginationPrepareOperation cancel]
+- -[BKPaginationPrepareOperation copyAnchorInfoForEntity:forHref:sortBy:ascending:context:]
+- -[BKPaginationPrepareOperation copyLandmarkAnchors:context:]
+- -[BKPaginationPrepareOperation copyNavigationInfoAnchors:context:]
+- -[BKPaginationPrepareOperation copyPhysicalPageAnchors:context:]
+- -[BKPaginationPrepareOperation copyUnpaginatedArray:]
+- -[BKPaginationPrepareOperation execute]
+- -[BKPaginationPrepareOperation prepare]
+- -[BKPaginationPrepareOperation setWebView:]
+- -[BKPaginationPrepareOperation webView]
+- -[BKPaginationRecordJob .cxx_destruct]
+- -[BKPaginationRecordJob cfiLocationRects]
+- -[BKPaginationRecordJob estimatedSize]
+- -[BKPaginationRecordJob init]
+- -[BKPaginationRecordJob pageCount]
+- -[BKPaginationRecordJob setCfiLocationRects:]
+- -[BKPaginationRecordJob setEstimatedSize:]
+- -[BKPaginationRecordJob setPageCount:]
+- -[BKPaginationResultsOperation _bookmarkPageCountInBookManagedObjectContext:annotationUuid:]
+- -[BKPaginationResultsOperation _calculateFirstPageNumber]
+- -[BKPaginationResultsOperation _processAnnotationResults:]
+- -[BKPaginationResultsOperation _processHistoryEntityResults:]
+- -[BKPaginationResultsOperation _updateAnnotation:pageRange:lookupKey:annotationRects:]
+- -[BKPaginationResultsOperation cancel]
+- -[BKPaginationResultsOperation execute]
+- -[BKPaginationResultsOperation needsBookManagedObjectContext]
+- -[BKPaginationResultsOperation processAnchors:forEntity:startingPageNumber:]
+- -[BKPaginationResultsOperation processLandmarkInfoResults:]
+- -[BKPaginationResultsOperation processNavigationInfoResults:]
+- -[BKPaginationResultsOperation processPhysicalPageResults:]
+- -[BKPaginationResultsOperation record]
+- -[BKPagingScrollView _frameForPageAtIndex:]
+- -[BKPagingScrollView _indexForView:]
+- -[BKPagingScrollView _installViewAtIndex:]
+- -[BKPagingScrollView _updateContentOffset]
+- -[BKPagingScrollView allViews]
+- -[BKPagingScrollView currentView]
+- -[BKPagingScrollView dealloc]
+- -[BKPagingScrollView didReceiveMemoryWarning:]
+- -[BKPagingScrollView initWithFrame:]
+- -[BKPagingScrollView layoutDirection]
+- -[BKPagingScrollView layoutSubviews]
+- -[BKPagingScrollView navigationOrientation]
+- -[BKPagingScrollView pageCacheDistance]
+- -[BKPagingScrollView pageCount]
+- -[BKPagingScrollView pageOffset]
+- -[BKPagingScrollView purgeCachedPages]
+- -[BKPagingScrollView removeSubview:atIndex:]
+- -[BKPagingScrollView setContentOffset:]
+- -[BKPagingScrollView setFrame:]
+- -[BKPagingScrollView setLayoutDirection:]
+- -[BKPagingScrollView setNavigationOrientation:]
+- -[BKPagingScrollView setPageCacheDistance:]
+- -[BKPagingScrollView setPageCount:]
+- -[BKPagingScrollView setPageOffset:]
+- -[BKPagingScrollView surroundingViews]
+- -[BKPagingScrollView updateCachedPages]
+- -[BKPagingScrollView viewAtIndex:]
+- -[BKPanGestureRecognizer .cxx_destruct]
+- -[BKPanGestureRecognizer cancelRecognizing]
+- -[BKPanGestureRecognizer dealloc]
+- -[BKPanGestureRecognizer initWithTarget:action:]
+- -[BKPanGestureRecognizer lastLocation]
+- -[BKPanGestureRecognizer leftSideMovementThreshold]
+- -[BKPanGestureRecognizer locationInView:]
+- -[BKPanGestureRecognizer reset]
+- -[BKPanGestureRecognizer rightSideMovementThreshold]
+- -[BKPanGestureRecognizer setLastLocation:]
+- -[BKPanGestureRecognizer setLeftSideMovementThreshold:]
+- -[BKPanGestureRecognizer setRightSideMovementThreshold:]
+- -[BKPanGestureRecognizer setTrackingTouch:]
+- -[BKPanGestureRecognizer startLocationInView:]
+- -[BKPanGestureRecognizer touchesBegan:withEvent:]
+- -[BKPanGestureRecognizer touchesMoved:withEvent:]
+- -[BKPanGestureRecognizer trackingTouch]
+- -[BKPdfBookParser .cxx_destruct]
+- -[BKPdfBookParser constructBKDocumentWithPdfTocParser:]
+- -[BKPdfBookParser constructBKNavigationInfoWithPdfTocEntry:absoluteOrder:indentationLevel:]
+- -[BKPdfBookParser constructBKNavigationInfoWithPdfTocParser:]
+- -[BKPdfBookParser hrefForPageNumber:]
+- -[BKPdfBookParser loadMetadata]
+- -[BKPdfBookParser parse:]
+- -[BKPdfBookParser pdfObject]
+- -[BKPdfBookParser setPdfObject:]
+- -[BKPdfSearchOperation .cxx_destruct]
+- -[BKPdfSearchOperation _clearDocumentIfNeeded]
+- -[BKPdfSearchOperation _doSearchWithString:]
+- -[BKPdfSearchOperation _doSearch]
+- -[BKPdfSearchOperation _hasSearchableCharacters:]
+- -[BKPdfSearchOperation cancel]
+- -[BKPdfSearchOperation currentPageIndex]
+- -[BKPdfSearchOperation dealloc]
+- -[BKPdfSearchOperation didReceiveMemoryWarning:]
+- -[BKPdfSearchOperation dropDocument]
+- -[BKPdfSearchOperation foundResults]
+- -[BKPdfSearchOperation init]
+- -[BKPdfSearchOperation isPastLimit]
+- -[BKPdfSearchOperation numberOfDocumentPages]
+- -[BKPdfSearchOperation pdfDocument]
+- -[BKPdfSearchOperation remainingPages]
+- -[BKPdfSearchOperation requiresMainThread]
+- -[BKPdfSearchOperation resultIndex]
+- -[BKPdfSearchOperation setCurrentPageIndex:]
+- -[BKPdfSearchOperation setDropDocument:]
+- -[BKPdfSearchOperation setFoundResults:]
+- -[BKPdfSearchOperation setNumberOfDocumentPages:]
+- -[BKPdfSearchOperation setPdfDocument:]
+- -[BKPdfSearchOperation setResultIndex:]
+- -[BKPdfTocEntry .cxx_destruct]
+- -[BKPdfTocEntry _getDestination]
+- -[BKPdfTocEntry _pageDictionaryToPageNumber:]
+- -[BKPdfTocEntry childAtIndex:]
+- -[BKPdfTocEntry childDictionaryReferencesParent:]
+- -[BKPdfTocEntry dictionary]
+- -[BKPdfTocEntry document]
+- -[BKPdfTocEntry initWithTocParser:pdfDictionary:forDocument:parent:]
+- -[BKPdfTocEntry numberOfChildren]
+- -[BKPdfTocEntry pageNumber]
+- -[BKPdfTocEntry parent]
+- -[BKPdfTocEntry title]
+- -[BKPdfTocParser .cxx_destruct]
+- -[BKPdfTocParser dealloc]
+- -[BKPdfTocParser initWithDocument:]
+- -[BKPdfTocParser pageDictionaryToPageNumber]
+- -[BKPdfTocParser parse]
+- -[BKPdfTocParser tocRoot]
+- -[BKPictureBookContentViewController URLForLoadingDocument]
+- -[BKPictureBookContentViewController _readyToShow]
+- -[BKPictureBookContentViewController _revealImmediateTimeout]
+- -[BKPictureBookContentViewController _sendContentInfoRequestToLoadMediaFrames]
+- -[BKPictureBookContentViewController alreadyRevealed]
+- -[BKPictureBookContentViewController didFinishLoading]
+- -[BKPictureBookContentViewController didFinishRendering]
+- -[BKPictureBookContentViewController highlightViewContainerWK2]
+- -[BKPictureBookContentViewController isAnnotationVisible:]
+- -[BKPictureBookContentViewController navigationHandler:didFinishLoadOfURL:]
+- -[BKPictureBookContentViewController navigationHandlerFirstSignificantPaintCompleted:]
+- -[BKPictureBookContentViewController predicateForOverlayCache]
+- -[BKPictureBookContentViewController setAlreadyRevealed:]
+- -[BKPictureBookContentViewController setDidFinishLoading:]
+- -[BKPictureBookContentViewController setDidFinishRendering:]
+- -[BKPictureBookContentViewController stylesheetSet]
+- -[BKPictureBookContentViewController totalPages]
+- -[BKPictureBookContentViewController viewDidLoad]
+- -[BKPictureBookContentViewController viewWillDisappear:]
+- -[BKPictureBookContentViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKPictureBookCurlContainerView .cxx_destruct]
+- -[BKPictureBookCurlContainerView dealloc]
+- -[BKPictureBookCurlContainerView drawsSpine]
+- -[BKPictureBookCurlContainerView initWithFrame:]
+- -[BKPictureBookCurlContainerView insertSubview:atIndex:]
+- -[BKPictureBookCurlContainerView killCurlingSourceViews]
+- -[BKPictureBookCurlContainerView layoutSubviews]
+- -[BKPictureBookCurlContainerView reset]
+- -[BKPictureBookCurlContainerView scale]
+- -[BKPictureBookCurlContainerView setDrawsSpine:]
+- -[BKPictureBookCurlContainerView setLeftImage:]
+- -[BKPictureBookCurlContainerView setRightImage:]
+- -[BKPictureBookCurlContainerView setScale:]
+- -[BKPictureBookCurlPageView .cxx_destruct]
+- -[BKPictureBookCurlPageView addGutter:]
+- -[BKPictureBookCurlPageView dealloc]
+- -[BKPictureBookCurlPageView description]
+- -[BKPictureBookCurlPageView drawsSpine]
+- -[BKPictureBookCurlPageView duration]
+- -[BKPictureBookCurlPageView image]
+- -[BKPictureBookCurlPageView initWithFrame:]
+- -[BKPictureBookCurlPageView isMirror]
+- -[BKPictureBookCurlPageView isNightMode]
+- -[BKPictureBookCurlPageView isRight]
+- -[BKPictureBookCurlPageView largeGradientLayer]
+- -[BKPictureBookCurlPageView layoutSubviews]
+- -[BKPictureBookCurlPageView pageCurlWillCancel]
+- -[BKPictureBookCurlPageView pageOffset]
+- -[BKPictureBookCurlPageView reset]
+- -[BKPictureBookCurlPageView scale]
+- -[BKPictureBookCurlPageView setDrawsSpine:]
+- -[BKPictureBookCurlPageView setDuration:]
+- -[BKPictureBookCurlPageView setImage:]
+- -[BKPictureBookCurlPageView setLargeGradientLayer:]
+- -[BKPictureBookCurlPageView setMirror:]
+- -[BKPictureBookCurlPageView setPageOffset:]
+- -[BKPictureBookCurlPageView setRight:]
+- -[BKPictureBookCurlPageView setScale:]
+- -[BKPictureBookCurlPageView setShouldAnimate:]
+- -[BKPictureBookCurlPageView setShouldHaveGradient:]
+- -[BKPictureBookCurlPageView setTopView:isRightPage:]
+- -[BKPictureBookCurlPageView setUseNightColors:]
+- -[BKPictureBookCurlPageView shouldAnimate]
+- -[BKPictureBookCurlPageView shouldHaveGradient]
+- -[BKPictureBookCurlPageView topView]
+- -[BKPictureBookCurlPageView updateCurlPercent:]
+- -[BKPictureBookCurlPageView useNightColors]
+- -[BKPictureBookCurlState .cxx_destruct]
+- -[BKPictureBookCurlState _getDummyImageForSize:]
+- -[BKPictureBookCurlState _isNightMode]
+- -[BKPictureBookCurlState applyMaskAndGutter]
+- -[BKPictureBookCurlState backPageArray]
+- -[BKPictureBookCurlState backPage]
+- -[BKPictureBookCurlState backPagesImageArray]
+- -[BKPictureBookCurlState cancelManualCurl]
+- -[BKPictureBookCurlState curlContainer]
+- -[BKPictureBookCurlState curlPage]
+- -[BKPictureBookCurlState curlThreshold]
+- -[BKPictureBookCurlState dealloc]
+- -[BKPictureBookCurlState finishManualCurlAtPostion:]
+- -[BKPictureBookCurlState generateWithOldLeftPageNumber:oldRightPageNumber:newLeftPageNumber:newRightPageNumber:]
+- -[BKPictureBookCurlState generateWithOldLeftPageNumber:oldRightPageNumber:newLeftPageNumber:newRightPageNumber:useMirrorForBackImage:]
+- -[BKPictureBookCurlState init]
+- -[BKPictureBookCurlState isAutoCurl]
+- -[BKPictureBookCurlState isForwardCurl]
+- -[BKPictureBookCurlState leftPage]
+- -[BKPictureBookCurlState leftSourceView]
+- -[BKPictureBookCurlState manualCurlStartPosition]
+- -[BKPictureBookCurlState navDelegate]
+- -[BKPictureBookCurlState newLeftPageNumber]
+- -[BKPictureBookCurlState newRightPageNumber]
+- -[BKPictureBookCurlState oldLeftPageNumber]
+- -[BKPictureBookCurlState oldRightPageNumber]
+- -[BKPictureBookCurlState pageArray]
+- -[BKPictureBookCurlState pageCurl]
+- -[BKPictureBookCurlState pagesImageArray]
+- -[BKPictureBookCurlState rightPage]
+- -[BKPictureBookCurlState rightSourceView]
+- -[BKPictureBookCurlState scale]
+- -[BKPictureBookCurlState setApplyMaskAndGutter:]
+- -[BKPictureBookCurlState setAutoCurl:]
+- -[BKPictureBookCurlState setCurlContainer:]
+- -[BKPictureBookCurlState setCurlThreshold:]
+- -[BKPictureBookCurlState setForwardCurl:]
+- -[BKPictureBookCurlState setLeftSourceView:]
+- -[BKPictureBookCurlState setNavDelegate:]
+- -[BKPictureBookCurlState setPageCurl:]
+- -[BKPictureBookCurlState setRightSourceView:]
+- -[BKPictureBookCurlState setScale:]
+- -[BKPictureBookCurlState startManualCurlAtPostion:]
+- -[BKPictureBookCurlState updateManualCurlToPosition:]
+- -[BKPictureBookNavigationController .cxx_destruct]
+- -[BKPictureBookNavigationController _adjustToNewSize:withOptionalTransitionCoordinator:]
+- -[BKPictureBookNavigationController _allowZoom]
+- -[BKPictureBookNavigationController _applyAdditionalScale:]
+- -[BKPictureBookNavigationController _autoCurlToSinglePageOffset:forwardCurl:]
+- -[BKPictureBookNavigationController _autoCurlToSpreadPageOffset:forwardCurl:]
+- -[BKPictureBookNavigationController _autoSlideToSpreadPageOffset:forwardCurl:]
+- -[BKPictureBookNavigationController _backPageCurlFrame]
+- -[BKPictureBookNavigationController _containerBoundsForGeometry]
+- -[BKPictureBookNavigationController _contentController:hasMediaElementAtPoint:inView:]
+- -[BKPictureBookNavigationController _contentIsReadyOrFailed:]
+- -[BKPictureBookNavigationController _createZoomingScrollView]
+- -[BKPictureBookNavigationController _curlPageForReadAloud:]
+- -[BKPictureBookNavigationController _displayPagesForOffset:]
+- -[BKPictureBookNavigationController _generateLeftPageImageAtPageOffset:completion:]
+- -[BKPictureBookNavigationController _generateRightPageImageAtPageOffset:completion:]
+- -[BKPictureBookNavigationController _hasMediaElementAtTouch:]
+- -[BKPictureBookNavigationController _insertDestinationSnapshotImageUnderCurrentPageCurl:]
+- -[BKPictureBookNavigationController _isFreeScale]
+- -[BKPictureBookNavigationController _killSpreadManualCurl]
+- -[BKPictureBookNavigationController _manualCurlToSinglePage:]
+- -[BKPictureBookNavigationController _pageOffsetAfter:whenCurlingForward:]
+- -[BKPictureBookNavigationController _resetCurlContainerFrame]
+- -[BKPictureBookNavigationController _resetCurlContainer]
+- -[BKPictureBookNavigationController _resetSinglePageCurlContainer:]
+- -[BKPictureBookNavigationController _resetSinglePageCurlContainerFrame]
+- -[BKPictureBookNavigationController _resetSinglePageCurlContainer]
+- -[BKPictureBookNavigationController _restoreViewHierarchyWithArray:]
+- -[BKPictureBookNavigationController _setupView]
+- -[BKPictureBookNavigationController _singlePageVisibleContentViewControllerForPageOffset:]
+- -[BKPictureBookNavigationController _timeOutWaitingForPaint]
+- -[BKPictureBookNavigationController _traitCollectionDidChange:previousTraitCollection:]
+- -[BKPictureBookNavigationController _updateBookScale]
+- -[BKPictureBookNavigationController _updateSelectionHighlights]
+- -[BKPictureBookNavigationController addPendingContent:]
+- -[BKPictureBookNavigationController adjustToNewSize:]
+- -[BKPictureBookNavigationController bkLongPressGestureCanTransitionToRecognizedState:]
+- -[BKPictureBookNavigationController canZoomMore]
+- -[BKPictureBookNavigationController contentSize]
+- -[BKPictureBookNavigationController contentViewImage:afterScreenUpdates:completion:]
+- -[BKPictureBookNavigationController contentViewImage:completion:]
+- -[BKPictureBookNavigationController contentView]
+- -[BKPictureBookNavigationController curlContainer]
+- -[BKPictureBookNavigationController curlPageForReadAloud:]
+- -[BKPictureBookNavigationController currentlyZoomed]
+- -[BKPictureBookNavigationController dealloc]
+- -[BKPictureBookNavigationController desiredScale]
+- -[BKPictureBookNavigationController drawsSpine]
+- -[BKPictureBookNavigationController effectiveZoomScale]
+- -[BKPictureBookNavigationController enterSinglePageMode]
+- -[BKPictureBookNavigationController exitSinglePageMode]
+- -[BKPictureBookNavigationController gestureRecognizer:canBePreventedByGestureRecognizer:]
+- -[BKPictureBookNavigationController gestureRecognizer:shouldBeRequiredToFailByGestureRecognizer:]
+- -[BKPictureBookNavigationController gestureRecognizer:shouldReceiveTouch:]
+- -[BKPictureBookNavigationController gestureRecognizerShouldBegin:]
+- -[BKPictureBookNavigationController handleDoubleTap:]
+- -[BKPictureBookNavigationController handlePageChangeTap:]
+- -[BKPictureBookNavigationController handleSinglePageManualCurlGesture:]
+- -[BKPictureBookNavigationController handleSpreadManualCurlGesture:]
+- -[BKPictureBookNavigationController hasMediaElementAtPoint:inView:]
+- -[BKPictureBookNavigationController hasTurnedToInitialPage]
+- -[BKPictureBookNavigationController inSinglePageMode]
+- -[BKPictureBookNavigationController init]
+- -[BKPictureBookNavigationController isContentRenderComplete]
+- -[BKPictureBookNavigationController isManualCurlInProgress]
+- -[BKPictureBookNavigationController isMediaPlayerGestureRecognizer:]
+- -[BKPictureBookNavigationController isZoomedBeyondPage]
+- -[BKPictureBookNavigationController isZoomedCloseToSpread]
+- -[BKPictureBookNavigationController isZoomedOut]
+- -[BKPictureBookNavigationController isZoomedToRightPage]
+- -[BKPictureBookNavigationController isZoomedToSinglePage]
+- -[BKPictureBookNavigationController isZoomedToSpread]
+- -[BKPictureBookNavigationController lastCompletedTransition]
+- -[BKPictureBookNavigationController lastCurlUnderPageView]
+- -[BKPictureBookNavigationController leftSwipe:]
+- -[BKPictureBookNavigationController manualCurlGesture:]
+- -[BKPictureBookNavigationController onAppWillEnterForeground:]
+- -[BKPictureBookNavigationController openToSpread]
+- -[BKPictureBookNavigationController pageAnimation:didFinish:]
+- -[BKPictureBookNavigationController pageAnimationDurationFor:]
+- -[BKPictureBookNavigationController pageAnimationWillBegin:]
+- -[BKPictureBookNavigationController pageCurlManager:didBeginCurl:]
+- -[BKPictureBookNavigationController pageCurlManager:didCancelCurl:]
+- -[BKPictureBookNavigationController pageCurlManager:didFinishCurl:transitionCompleted:]
+- -[BKPictureBookNavigationController pageCurlManager:durationForCurl:]
+- -[BKPictureBookNavigationController pageCurlManager:willBeginCurl:]
+- -[BKPictureBookNavigationController pageCurlManager]
+- -[BKPictureBookNavigationController pageSlideAnimation]
+- -[BKPictureBookNavigationController performSelectorProxy]
+- -[BKPictureBookNavigationController releaseViews]
+- -[BKPictureBookNavigationController removePendingContent:]
+- -[BKPictureBookNavigationController rightSwipe:]
+- -[BKPictureBookNavigationController scaleIsAdjusted]
+- -[BKPictureBookNavigationController scrollViewDidEndDecelerating:]
+- -[BKPictureBookNavigationController scrollViewDidEndDragging:willDecelerate:]
+- -[BKPictureBookNavigationController scrollViewDidEndZooming:withView:atScale:]
+- -[BKPictureBookNavigationController scrollViewDidScroll:]
+- -[BKPictureBookNavigationController scrollViewDidZoom:]
+- -[BKPictureBookNavigationController scrollViewWillBeginDragging:]
+- -[BKPictureBookNavigationController scrollViewWillBeginZooming:withView:]
+- -[BKPictureBookNavigationController setContentSize:]
+- -[BKPictureBookNavigationController setDesiredScale:]
+- -[BKPictureBookNavigationController setDrawsSpine:]
+- -[BKPictureBookNavigationController setHasTurnedToInitialPage:]
+- -[BKPictureBookNavigationController setLastCompletedTransition:]
+- -[BKPictureBookNavigationController setLastCurlUnderPageView:]
+- -[BKPictureBookNavigationController setOpenToSpread:]
+- -[BKPictureBookNavigationController setPageOffset:]
+- -[BKPictureBookNavigationController setPageSlideAnimation:]
+- -[BKPictureBookNavigationController setScaleIsAdjusted:]
+- -[BKPictureBookNavigationController setSelectionHighlightsVisible:]
+- -[BKPictureBookNavigationController setUsePageCurlAnimation:]
+- -[BKPictureBookNavigationController shouldZoomToSinglePage]
+- -[BKPictureBookNavigationController singlePageAspectFits]
+- -[BKPictureBookNavigationController singlePageCurlContainer]
+- -[BKPictureBookNavigationController singlePagePadding]
+- -[BKPictureBookNavigationController singlePageZoomScale]
+- -[BKPictureBookNavigationController slide:animated:withDelay:]
+- -[BKPictureBookNavigationController supportsSinglePageMode]
+- -[BKPictureBookNavigationController tapActionForLocation:view:ignoreOppositePage:]
+- -[BKPictureBookNavigationController thumbnailBookViewConfiguration]
+- -[BKPictureBookNavigationController toggleControls:]
+- -[BKPictureBookNavigationController transitionDidFinish:]
+- -[BKPictureBookNavigationController turnToNextPage]
+- -[BKPictureBookNavigationController turnToPageNumber:animated:]
+- -[BKPictureBookNavigationController turnToPreviousPage]
+- -[BKPictureBookNavigationController updateUpsellZoomScale]
+- -[BKPictureBookNavigationController updateVisibleContentViewControllerForOffset:]
+- -[BKPictureBookNavigationController usePageCurlAnimation]
+- -[BKPictureBookNavigationController viewControllers]
+- -[BKPictureBookNavigationController viewDidLoad]
+- -[BKPictureBookNavigationController viewDidMoveToWindow:shouldAppearOrDisappear:]
+- -[BKPictureBookNavigationController viewForLiveResize]
+- -[BKPictureBookNavigationController viewForPageNumber:]
+- -[BKPictureBookNavigationController viewForZoomingInScrollView:]
+- -[BKPictureBookNavigationController viewWillAppear:]
+- -[BKPictureBookNavigationController viewWillDisappear:]
+- -[BKPictureBookNavigationController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKPictureBookNavigationController visiblePages]
+- -[BKPictureBookNavigationController zoom:animated:]
+- -[BKPictureBookNavigationController zoomToLeadingPageAnimated:]
+- -[BKPictureBookNavigationController zoomToPage:animated:]
+- -[BKPictureBookNavigationController zoomToPoint:scale:animated:]
+- -[BKPictureBookNavigationController zoomToSpread:]
+- -[BKPictureBookPageContainerView .cxx_destruct]
+- -[BKPictureBookPageContainerView init]
+- -[BKPictureBookPageContainerView isLeftPage]
+- -[BKPictureBookPageContainerView isRightPage]
+- -[BKPictureBookPageContainerView layoutSubviews]
+- -[BKPictureBookPageContainerView pageNumber]
+- -[BKPictureBookPageContainerView pageScrollerPageView]
+- -[BKPictureBookPageContainerView setIsLeftPage:]
+- -[BKPictureBookPageContainerView setIsRightPage:]
+- -[BKPictureBookPageContainerView setPageNumber:]
+- -[BKPictureBookPageContainerView setPageScrollerPageView:]
+- -[BKPictureBookPageContainerView setUseRoundedCornerRadius:]
+- -[BKPictureBookPageContainerView useRoundedCornerRadius]
+- -[BKPictureBookPaginationLayoutOperation _notifyLayoutComplete]
+- -[BKPictureBookPaginationLayoutOperation execute]
+- -[BKPictureBookPaginationLayoutOperation pageOffsetForHref:]
+- -[BKPictureBookPaginationOperation _clearAllChapterPageCountEntities:]
+- -[BKPictureBookPaginationOperation _needsFullReparseForRecordedChapterPageCountForDocumentInfos:context:]
+- -[BKPictureBookPaginationOperation batchJob]
+- -[BKPictureBookPaginationOperation copyDocumentArray:]
+- -[BKPictureBookPaginationOperation copyNavigationInfos:]
+- -[BKPictureBookPaginationOperation countPaginatedChapters:]
+- -[BKPictureBookPaginationOperation countPaginatedDocuments:]
+- -[BKPictureBookPaginationOperation execute]
+- -[BKPictureBookPaginationOperation recordAnnotationPageNumbers:]
+- -[BKPictureBookPaginationOperation recordDocumentPageCountForDocumentInfos:context:]
+- -[BKPictureBookPaginationOperation unpaginatedAnnotations]
+- -[BKPictureBookReadingStatisticsCollector .cxx_destruct]
+- -[BKPictureBookReadingStatisticsCollector allNavigationInfosByOrdinal]
+- -[BKPictureBookReadingStatisticsCollector assetViewController]
+- -[BKPictureBookReadingStatisticsCollector initWithAssetViewController:]
+- -[BKPictureBookReadingStatisticsCollector invalidate]
+- -[BKPictureBookReadingStatisticsCollector invalidated]
+- -[BKPictureBookReadingStatisticsCollector navigationInfoHrefsForOrdinal:]
+- -[BKPictureBookReadingStatisticsCollector needPiggyBackOperationForOrdinal:]
+- -[BKPictureBookReadingStatisticsCollector renderingCacheOperationCompleted:textNodeCharacterCounts:cfisForHrefs:]
+- -[BKPictureBookReadingStatisticsCollector setAllNavigationInfosByOrdinal:]
+- -[BKPictureBookReadingStatisticsCollector setAssetViewController:]
+- -[BKPictureBookReadingStatisticsCollector setInvalidated:]
+- -[BKPictureBookReadingStatisticsCollector setSpineIndexInPackage:]
+- -[BKPictureBookReadingStatisticsCollector setupWithBookInfo:]
+- -[BKPictureBookReadingStatisticsCollector setupWithBookInfo:].cold.1
+- -[BKPictureBookReadingStatisticsCollector spineIndexInPackage]
+- -[BKPictureBookScrollView setTouchInProgress:]
+- -[BKPictureBookScrollView touchInProgress]
+- -[BKPictureBookScrollView touchesBegan:withEvent:]
+- -[BKPictureBookScrollView touchesEnded:withEvent:]
+- -[BKPictureBookVerticalNavigationController .cxx_destruct]
+- -[BKPictureBookVerticalNavigationController _allowZoom]
+- -[BKPictureBookVerticalNavigationController _applyAdditionalScale:]
+- -[BKPictureBookVerticalNavigationController _bookRenditionFlowIsScrolledContinuous]
+- -[BKPictureBookVerticalNavigationController _displayPagesForOffset:]
+- -[BKPictureBookVerticalNavigationController _generateLeftPageImageAtPageOffset:completion:]
+- -[BKPictureBookVerticalNavigationController _generateRightPageImageAtPageOffset:completion:]
+- -[BKPictureBookVerticalNavigationController _isRTL]
+- -[BKPictureBookVerticalNavigationController _lastScrollViewSizeLayoutWasGeneratedFor]
+- -[BKPictureBookVerticalNavigationController _pageViewShouldHaveRoundedCorners]
+- -[BKPictureBookVerticalNavigationController _positionForPages]
+- -[BKPictureBookVerticalNavigationController _setPageOffsetUncheckedImmediate:]
+- -[BKPictureBookVerticalNavigationController _setupGestures]
+- -[BKPictureBookVerticalNavigationController _setupPageNumber:]
+- -[BKPictureBookVerticalNavigationController _setupScrollView:]
+- -[BKPictureBookVerticalNavigationController _setupScrollView]
+- -[BKPictureBookVerticalNavigationController _spaceBetweenPages]
+- -[BKPictureBookVerticalNavigationController _teardownPageNumber:]
+- -[BKPictureBookVerticalNavigationController _updatePages]
+- -[BKPictureBookVerticalNavigationController adjustToNewSize:]
+- -[BKPictureBookVerticalNavigationController allowDoubleTapToZoom]
+- -[BKPictureBookVerticalNavigationController animating]
+- -[BKPictureBookVerticalNavigationController book]
+- -[BKPictureBookVerticalNavigationController contentOffsetToScrollToForPageNumber:]
+- -[BKPictureBookVerticalNavigationController contentViewImage:afterScreenUpdates:completion:]
+- -[BKPictureBookVerticalNavigationController contentViewImage:completion:]
+- -[BKPictureBookVerticalNavigationController contentView]
+- -[BKPictureBookVerticalNavigationController currentPageNumber]
+- -[BKPictureBookVerticalNavigationController delegate]
+- -[BKPictureBookVerticalNavigationController doubleTapGestureHandler:]
+- -[BKPictureBookVerticalNavigationController doubleTapGesture]
+- -[BKPictureBookVerticalNavigationController frameForPageNumber:]
+- -[BKPictureBookVerticalNavigationController generatePositionForAllPages:]
+- -[BKPictureBookVerticalNavigationController gestureRecognizer:canBePreventedByGestureRecognizer:]
+- -[BKPictureBookVerticalNavigationController gestureRecognizer:shouldBeRequiredToFailByGestureRecognizer:]
+- -[BKPictureBookVerticalNavigationController gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
+- -[BKPictureBookVerticalNavigationController gestureRecognizerShouldBegin:]
+- -[BKPictureBookVerticalNavigationController isPastEndOfBook:]
+- -[BKPictureBookVerticalNavigationController isZoomedOut]
+- -[BKPictureBookVerticalNavigationController originForPageNumber:]
+- -[BKPictureBookVerticalNavigationController originForPageNumber:pagesContainerSize:isSpread:]
+- -[BKPictureBookVerticalNavigationController pageNumberAtContentOffset:]
+- -[BKPictureBookVerticalNavigationController pageNumberBeforeTransition]
+- -[BKPictureBookVerticalNavigationController pageSize]
+- -[BKPictureBookVerticalNavigationController pageViews]
+- -[BKPictureBookVerticalNavigationController pagesContainerView]
+- -[BKPictureBookVerticalNavigationController preferredPageNumberHUDVisibility]
+- -[BKPictureBookVerticalNavigationController rawPageNumberForOffset:pageFraction:]
+- -[BKPictureBookVerticalNavigationController resetZoomScale]
+- -[BKPictureBookVerticalNavigationController scrollViewDidEndDecelerating:]
+- -[BKPictureBookVerticalNavigationController scrollViewDidEndDragging:willDecelerate:]
+- -[BKPictureBookVerticalNavigationController scrollViewDidEndZooming:withView:atScale:]
+- -[BKPictureBookVerticalNavigationController scrollViewDidScroll:]
+- -[BKPictureBookVerticalNavigationController scrollViewWillBeginDragging:]
+- -[BKPictureBookVerticalNavigationController scrollViewWillBeginZooming:withView:]
+- -[BKPictureBookVerticalNavigationController scrollViewWillEndDragging:withVelocity:targetContentOffset:]
+- -[BKPictureBookVerticalNavigationController scrollView]
+- -[BKPictureBookVerticalNavigationController setAllowDoubleTapToZoom:]
+- -[BKPictureBookVerticalNavigationController setAnimating:]
+- -[BKPictureBookVerticalNavigationController setBook:]
+- -[BKPictureBookVerticalNavigationController setDelegate:]
+- -[BKPictureBookVerticalNavigationController setDoubleTapGesture:]
+- -[BKPictureBookVerticalNavigationController setPageCount:]
+- -[BKPictureBookVerticalNavigationController setPageNumberBeforeTransition:]
+- -[BKPictureBookVerticalNavigationController setPageOffset:]
+- -[BKPictureBookVerticalNavigationController setPageOffset:completion:]
+- -[BKPictureBookVerticalNavigationController setPageSize:]
+- -[BKPictureBookVerticalNavigationController setPagesContainerView:]
+- -[BKPictureBookVerticalNavigationController setPreferredPageNumberHUDVisibility:]
+- -[BKPictureBookVerticalNavigationController setScrollView:]
+- -[BKPictureBookVerticalNavigationController setZoomScale:]
+- -[BKPictureBookVerticalNavigationController set_lastScrollViewSizeLayoutWasGeneratedFor:]
+- -[BKPictureBookVerticalNavigationController set_positionForPages:]
+- -[BKPictureBookVerticalNavigationController shouldDisplaySpread]
+- -[BKPictureBookVerticalNavigationController snapshotCurrentPageInContext]
+- -[BKPictureBookVerticalNavigationController tapGestureHandler:]
+- -[BKPictureBookVerticalNavigationController turnToNextPage]
+- -[BKPictureBookVerticalNavigationController turnToPageNumber:animated:]
+- -[BKPictureBookVerticalNavigationController turnToPageNumber:animated:completion:]
+- -[BKPictureBookVerticalNavigationController turnToPreviousPage]
+- -[BKPictureBookVerticalNavigationController updateContentInsets]
+- -[BKPictureBookVerticalNavigationController updateLocationIfNeeded]
+- -[BKPictureBookVerticalNavigationController viewDidAppear:]
+- -[BKPictureBookVerticalNavigationController viewDidLoad]
+- -[BKPictureBookVerticalNavigationController viewForLiveResize]
+- -[BKPictureBookVerticalNavigationController viewForPageNumber:]
+- -[BKPictureBookVerticalNavigationController viewForZoomingInScrollView:]
+- -[BKPictureBookVerticalNavigationController viewSafeAreaInsetsDidChange]
+- -[BKPictureBookVerticalNavigationController viewWillAppear:]
+- -[BKPictureBookVerticalNavigationController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKPictureBookVerticalNavigationController visiblePages]
+- -[BKPictureBookView .cxx_destruct]
+- -[BKPictureBookView _updateShadowPath]
+- -[BKPictureBookView actualSize]
+- -[BKPictureBookView calculateFramesAtScale:contentFrame:leftContentFrame:rightContentFrame:]
+- -[BKPictureBookView contentSize]
+- -[BKPictureBookView contentView]
+- -[BKPictureBookView drawsShadow]
+- -[BKPictureBookView drawsSpine]
+- -[BKPictureBookView gutter]
+- -[BKPictureBookView idealSinglePageSize]
+- -[BKPictureBookView initWithFrame:]
+- -[BKPictureBookView layoutSubviews]
+- -[BKPictureBookView leftContentView]
+- -[BKPictureBookView rightContentView]
+- -[BKPictureBookView scale]
+- -[BKPictureBookView setContentSize:]
+- -[BKPictureBookView setDrawsShadow:]
+- -[BKPictureBookView setDrawsSpine:]
+- -[BKPictureBookView setIdealSinglePageSize:]
+- -[BKPictureBookView setLeftContentView:]
+- -[BKPictureBookView setRightContentView:]
+- -[BKPictureBookView setScale:]
+- -[BKPictureBookView sizeThatFits:]
+- -[BKPictureBookViewController .cxx_destruct]
+- -[BKPictureBookViewController _bk_backgroundColor]
+- -[BKPictureBookViewController _bookRenditionFlowIsScrolledContinuous]
+- -[BKPictureBookViewController _bookRenditionFlowIsScrolled]
+- -[BKPictureBookViewController _bookmarkDirectory]
+- -[BKPictureBookViewController _cancelCachingAndCleanupSnapshotWebViews]
+- -[BKPictureBookViewController _cleanDocumentElementForMediaOverlay:]
+- -[BKPictureBookViewController _cleanupSnapshotWebViews]
+- -[BKPictureBookViewController _contentAspectRatio]
+- -[BKPictureBookViewController _focusOnPage:]
+- -[BKPictureBookViewController _installClickHandlers:]
+- -[BKPictureBookViewController _isFocusedOnSecondPageOfSpread]
+- -[BKPictureBookViewController _isManualCurlInProgress]
+- -[BKPictureBookViewController _itemIndexForCurrentPage]
+- -[BKPictureBookViewController _markupDocumentElementForMediaOverlay:]
+- -[BKPictureBookViewController _nextPageHint:]
+- -[BKPictureBookViewController _pageDirectory]
+- -[BKPictureBookViewController _prepareSmilMapOn:]
+- -[BKPictureBookViewController _prewarmThumbnailsForVerticalScrubber]
+- -[BKPictureBookViewController _proofingSyncDidStop:]
+- -[BKPictureBookViewController _proofingSyncWillDeleteBookPersistentCache:]
+- -[BKPictureBookViewController _proofingSyncWillStart:]
+- -[BKPictureBookViewController _removeClickHandlers:]
+- -[BKPictureBookViewController _snapshotWithAssetVersion:completion:]
+- -[BKPictureBookViewController _stylesheetSetForSnapshot:]
+- -[BKPictureBookViewController _thumbnailBookViewConfiguration]
+- -[BKPictureBookViewController _thumbnailShouldTrackWithScrubber]
+- -[BKPictureBookViewController _traitCollectionDidChange:previousTraitCollection:]
+- -[BKPictureBookViewController _updateHUDVisibility]
+- -[BKPictureBookViewController _updateWebProcessPluginObject:withParameter:]
+- -[BKPictureBookViewController animateLiveResizeTransitions]
+- -[BKPictureBookViewController animateVerticalScrubberIn:animated:]
+- -[BKPictureBookViewController appearanceIdentifierForSnapshot]
+- -[BKPictureBookViewController appearanceStyleForSnapshot]
+- -[BKPictureBookViewController appearanceViewController:didChangeLayout:]
+- -[BKPictureBookViewController aspectFitDuringLiveResize]
+- -[BKPictureBookViewController assetViewControllerDidEndLiveResize]
+- -[BKPictureBookViewController assetViewControllerViewForLiveResizeSnapshot]
+- -[BKPictureBookViewController backgroundImageView]
+- -[BKPictureBookViewController bkaxToggleControls:]
+- -[BKPictureBookViewController blurSnapshotDuringLiveResize]
+- -[BKPictureBookViewController bookLoadingMonitor]
+- -[BKPictureBookViewController books_pageBackward:]
+- -[BKPictureBookViewController books_pageForward:]
+- -[BKPictureBookViewController books_pageLeft:]
+- -[BKPictureBookViewController books_pageRight:]
+- -[BKPictureBookViewController calculatePageCountExcludingUpsell]
+- -[BKPictureBookViewController canOrdinalOnlyLocationsBeVisible]
+- -[BKPictureBookViewController contentSubType]
+- -[BKPictureBookViewController contentView:unhandledClickAtPoint:]
+- -[BKPictureBookViewController contentViewController:navigatePageDirection:]
+- -[BKPictureBookViewController contentViewControllerForLocation:]
+- -[BKPictureBookViewController contentViewReady:]
+- -[BKPictureBookViewController createSnapshotOfStyle:assetVersion:completion:]
+- -[BKPictureBookViewController currentPages]
+- -[BKPictureBookViewController currentReadingPositionView]
+- -[BKPictureBookViewController currentScrubber]
+- -[BKPictureBookViewController currentSoundtrack]
+- -[BKPictureBookViewController dealloc]
+- -[BKPictureBookViewController defaultLayoutToUse]
+- -[BKPictureBookViewController desiredBoundsForNavigationController]
+- -[BKPictureBookViewController didChangeLocationClosing:suspending:]
+- -[BKPictureBookViewController displayVerticalScrubberBackground]
+- -[BKPictureBookViewController edgePanGestureHandler:]
+- -[BKPictureBookViewController edgePanGestureRecognizer]
+- -[BKPictureBookViewController finishedSnapshottingForCache:]
+- -[BKPictureBookViewController generateRenderingPiggyBackForAllPages]
+- -[BKPictureBookViewController generateSnapshotsForCurrentPages]
+- -[BKPictureBookViewController hasContinuousScrollingBehavior]
+- -[BKPictureBookViewController hideVerticalScrubberAndResetZoomScale:]
+- -[BKPictureBookViewController hideVerticalScrubber]
+- -[BKPictureBookViewController hidesPageControlsOnOpenDelay]
+- -[BKPictureBookViewController hidesPageControlsOnOpen]
+- -[BKPictureBookViewController idealCacheSize]
+- -[BKPictureBookViewController imageCache]
+- -[BKPictureBookViewController imageResizer]
+- -[BKPictureBookViewController infoHUDTapped:]
+- -[BKPictureBookViewController initWithBook:storeID:]
+- -[BKPictureBookViewController isSharingSupported]
+- -[BKPictureBookViewController isSpread]
+- -[BKPictureBookViewController isVerticalScrubberVisible]
+- -[BKPictureBookViewController jumpToLocation:animated:completion:]
+- -[BKPictureBookViewController lastLayoutUsedKey]
+- -[BKPictureBookViewController layoutScrubberCallout:]
+- -[BKPictureBookViewController loadView]
+- -[BKPictureBookViewController onlySupportsScrollingLayout]
+- -[BKPictureBookViewController pageLocationForPageNumber:]
+- -[BKPictureBookViewController pageNavigationController:shouldDelayChangeToPageOffset:completion:]
+- -[BKPictureBookViewController pageNavigationDidChangeLocation:]
+- -[BKPictureBookViewController pageNavigationIsVertical]
+- -[BKPictureBookViewController pageNavigationSnapshotForPageNumber:completion:]
+- -[BKPictureBookViewController pageNavigationSnapshotForPageNumber:size:isRight:zoomScale:applyMaskAndGutter:completion:]
+- -[BKPictureBookViewController pageNavigationViewController]
+- -[BKPictureBookViewController pageTitleForPageNumber:]
+- -[BKPictureBookViewController pictureBookRenderingCacheIfLoaded]
+- -[BKPictureBookViewController pictureBookRenderingCache]
+- -[BKPictureBookViewController pictureBookVerticalNavigationInteractionDidStart:]
+- -[BKPictureBookViewController pictureBookVerticalNavigationpreferredPageNumberHUDVisibilityChanged:]
+- -[BKPictureBookViewController prepareForScrubberAnimation]
+- -[BKPictureBookViewController presentAppearanceViewControllerFromItem:]
+- -[BKPictureBookViewController proofingVeil]
+- -[BKPictureBookViewController readerType]
+- -[BKPictureBookViewController recordedTurnToNextChapter]
+- -[BKPictureBookViewController recordedTurnToPreviousChapter]
+- -[BKPictureBookViewController resizeImage:toSize:callback:]
+- -[BKPictureBookViewController restoreSavedLocation]
+- -[BKPictureBookViewController savedLocationIsEndOfBook]
+- -[BKPictureBookViewController scrubberCallout]
+- -[BKPictureBookViewController scrubberContainerViewFrame]
+- -[BKPictureBookViewController scrubberContainerView]
+- -[BKPictureBookViewController scrubberTouch:forEvent:]
+- -[BKPictureBookViewController scrubber]
+- -[BKPictureBookViewController setBackgroundImageView:]
+- -[BKPictureBookViewController setBook:]
+- -[BKPictureBookViewController setBookLoadingMonitor:]
+- -[BKPictureBookViewController setControlsVisible:animated:]
+- -[BKPictureBookViewController setCurrentReadingPositionView:]
+- -[BKPictureBookViewController setEdgePanGestureRecognizer:]
+- -[BKPictureBookViewController setImageResizer:]
+- -[BKPictureBookViewController setLayout:]
+- -[BKPictureBookViewController setLocation:]
+- -[BKPictureBookViewController setPageCountIncludingUpsell:]
+- -[BKPictureBookViewController setProofingVeil:]
+- -[BKPictureBookViewController setScrubberContainerView:]
+- -[BKPictureBookViewController setSection:animated:adjustScrollToReveal:]
+- -[BKPictureBookViewController setShouldShowNextPagePageButtonsHint:]
+- -[BKPictureBookViewController setSnapshotWebView:]
+- -[BKPictureBookViewController setSwipeToShowScrubberEnable:]
+- -[BKPictureBookViewController setTheme:]
+- -[BKPictureBookViewController setVerticalScrubberAnimator:]
+- -[BKPictureBookViewController setupBackgroundImageViewWithImage:]
+- -[BKPictureBookViewController setupNotifications]
+- -[BKPictureBookViewController setupVerticalScrubber]
+- -[BKPictureBookViewController shouldSavePageControlVisibility]
+- -[BKPictureBookViewController shouldShowBookmarkControl]
+- -[BKPictureBookViewController shouldShowHUDs]
+- -[BKPictureBookViewController shouldShowNextPagePageButtonsHint]
+- -[BKPictureBookViewController shouldShowTOCControl]
+- -[BKPictureBookViewController shouldUseVerticalScrubber]
+- -[BKPictureBookViewController showScrim:]
+- -[BKPictureBookViewController showSpreads]
+- -[BKPictureBookViewController showVerticalScrubber]
+- -[BKPictureBookViewController signalIdentifierForBookOpenDonation]
+- -[BKPictureBookViewController signalIdentifierForFontMenuOpenDonation]
+- -[BKPictureBookViewController signalIdentifierForLayoutUsedDonation]
+- -[BKPictureBookViewController snapshotDuringLiveResize]
+- -[BKPictureBookViewController snapshotWebView]
+- -[BKPictureBookViewController supportedInterfaceOrientations]
+- -[BKPictureBookViewController supportsSpreadForVerticalLayout]
+- -[BKPictureBookViewController teardownNotifications]
+- -[BKPictureBookViewController thumbnailScrubber:thumbnailForPage:size:context:]
+- -[BKPictureBookViewController thumbnailingContentSizeForPageNumber:]
+- -[BKPictureBookViewController thumbnailingGenerateImageForPageNumber:callbackBlock:]
+- -[BKPictureBookViewController thumbnailingGenerateImageForPageNumber:size:callbackBlock:]
+- -[BKPictureBookViewController touchBarScrollerDidEnd:completion:]
+- -[BKPictureBookViewController touchBarScrollerDidScroll:]
+- -[BKPictureBookViewController touchBarScrollerDidStart:]
+- -[BKPictureBookViewController transitionDidFinish:]
+- -[BKPictureBookViewController transitionLocationForNavigationController]
+- -[BKPictureBookViewController turnToNextChapter]
+- -[BKPictureBookViewController turnToPreviousChapter]
+- -[BKPictureBookViewController updateCurrentReadingPositionViewIfNeeded]
+- -[BKPictureBookViewController updatePageNumberHUD]
+- -[BKPictureBookViewController updateScrubberUsingTouchbar:]
+- -[BKPictureBookViewController upsellContentViewController]
+- -[BKPictureBookViewController verticalScrubberAnimator]
+- -[BKPictureBookViewController verticalScrubber]
+- -[BKPictureBookViewController viewDidAppear:]
+- -[BKPictureBookViewController viewDidLoad]
+- -[BKPictureBookViewController viewDidMoveToWindow:shouldAppearOrDisappear:]
+- -[BKPictureBookViewController viewWillAppear:]
+- -[BKPictureBookViewController viewWillDisappear:]
+- -[BKPictureBookViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKPictureBookViewController wantsBottomToolbar]
+- -[BKPictureBookViewController webViewForSnapshotting:size:]
+- -[BKPictureBookViewController(PPT) _performScrollTest:completionHandler:]
+- -[BKPictureBookViewGeometry .cxx_destruct]
+- -[BKPictureBookViewGeometry configuration]
+- -[BKPictureBookViewGeometry containerBounds]
+- -[BKPictureBookViewGeometry contentSize]
+- -[BKPictureBookViewGeometry drawsSpine]
+- -[BKPictureBookViewGeometry ignoresPadding]
+- -[BKPictureBookViewGeometry imageSizeForSpread:landscape:]
+- -[BKPictureBookViewGeometry imageSizes]
+- -[BKPictureBookViewGeometry initWithContentSize:configuration:drawsSpine:ignoresPadding:containerBounds:]
+- -[BKPictureBookViewGeometry maximumSize]
+- -[BKPictureBookViewGeometry scaleForSize:]
+- -[BKPictureBookViewGeometry scaleForSpread:landscape:]
+- -[BKPictureBookViewGeometry setConfiguration:]
+- -[BKPictureBookViewGeometry setContainerBounds:]
+- -[BKPictureBookViewGeometry setIgnoresPadding:]
+- -[BKPictureBookViewGeometry sizeForSpread:landscape:]
+- -[BKPictureBookViewGeometry sizes]
+- -[BKPreferredLayoutCache preferredDirectoryTypeForBook:]
+- -[BKPreferredLayoutCache setPreferredDirectoryType:forBook:]
+- -[BKReadAloudEventHandler .cxx_destruct]
+- -[BKReadAloudEventHandler addMarkupForReadAloudToDocument]
+- -[BKReadAloudEventHandler addhighlightForElementID:]
+- -[BKReadAloudEventHandler delegate]
+- -[BKReadAloudEventHandler installTapHandlersOnElementIDs:withHref:]
+- -[BKReadAloudEventHandler mediaActiveClass]
+- -[BKReadAloudEventHandler removeHighlightForElementID:]
+- -[BKReadAloudEventHandler removeMarkupForReadAloudToDocument]
+- -[BKReadAloudEventHandler removeTapHandlersOnElementIDs:]
+- -[BKReadAloudEventHandler setDelegate:]
+- -[BKReadAloudEventHandler setMediaActiveClass:]
+- -[BKReadAloudEventHandler userContentController:didReceiveScriptMessage:]
+- -[BKSampleUpsellContentViewController .cxx_destruct]
+- -[BKSampleUpsellContentViewController _calculateLineNumbersForLabel:withFont:]
+- -[BKSampleUpsellContentViewController _didChangeStyle:]
+- -[BKSampleUpsellContentViewController bookAuthorLabel]
+- -[BKSampleUpsellContentViewController bookAuthorTopConstraint]
+- -[BKSampleUpsellContentViewController bookTitleLabel]
+- -[BKSampleUpsellContentViewController bookTitleTopConstraint]
+- -[BKSampleUpsellContentViewController bookTitleWidthConstraint]
+- -[BKSampleUpsellContentViewController buyButton:initialBuy:completion:]
+- -[BKSampleUpsellContentViewController buyButtonTopConstraint]
+- -[BKSampleUpsellContentViewController buyButton]
+- -[BKSampleUpsellContentViewController buyDelegate]
+- -[BKSampleUpsellContentViewController cachedRectForAnnotation:]
+- -[BKSampleUpsellContentViewController cachedVisibleRectForAnnotation:]
+- -[BKSampleUpsellContentViewController configureWithProfile:]
+- -[BKSampleUpsellContentViewController contentScale]
+- -[BKSampleUpsellContentViewController contentSize]
+- -[BKSampleUpsellContentViewController continueLabel]
+- -[BKSampleUpsellContentViewController currentLocation]
+- -[BKSampleUpsellContentViewController dealloc]
+- -[BKSampleUpsellContentViewController fixedLayout]
+- -[BKSampleUpsellContentViewController init]
+- -[BKSampleUpsellContentViewController isAnnotationVisible:]
+- -[BKSampleUpsellContentViewController isAudiobook]
+- -[BKSampleUpsellContentViewController isCloud]
+- -[BKSampleUpsellContentViewController isContentLoadPending]
+- -[BKSampleUpsellContentViewController isContentLoaded]
+- -[BKSampleUpsellContentViewController isDownloading]
+- -[BKSampleUpsellContentViewController isLocal]
+- -[BKSampleUpsellContentViewController isReusable]
+- -[BKSampleUpsellContentViewController isSample]
+- -[BKSampleUpsellContentViewController isStore]
+- -[BKSampleUpsellContentViewController isUpsellContent]
+- -[BKSampleUpsellContentViewController pageOffset]
+- -[BKSampleUpsellContentViewController profileFuture]
+- -[BKSampleUpsellContentViewController reachabilityChanged:]
+- -[BKSampleUpsellContentViewController releaseViews]
+- -[BKSampleUpsellContentViewController setBookAuthorLabel:]
+- -[BKSampleUpsellContentViewController setBookAuthorTopConstraint:]
+- -[BKSampleUpsellContentViewController setBookTitleLabel:]
+- -[BKSampleUpsellContentViewController setBookTitleTopConstraint:]
+- -[BKSampleUpsellContentViewController setBookTitleWidthConstraint:]
+- -[BKSampleUpsellContentViewController setBuyButton:]
+- -[BKSampleUpsellContentViewController setBuyButtonTopConstraint:]
+- -[BKSampleUpsellContentViewController setBuyDelegate:]
+- -[BKSampleUpsellContentViewController setContentScale:]
+- -[BKSampleUpsellContentViewController setContentSize:]
+- -[BKSampleUpsellContentViewController setContinueLabel:]
+- -[BKSampleUpsellContentViewController setFixedLayout:]
+- -[BKSampleUpsellContentViewController setProfileFuture:]
+- -[BKSampleUpsellContentViewController setTheme:]
+- -[BKSampleUpsellContentViewController setTheme:force:]
+- -[BKSampleUpsellContentViewController setVisibleInScrollMode:]
+- -[BKSampleUpsellContentViewController setZoomScale:]
+- -[BKSampleUpsellContentViewController styleManager]
+- -[BKSampleUpsellContentViewController updateAppearance]
+- -[BKSampleUpsellContentViewController updateButtonAppearance]
+- -[BKSampleUpsellContentViewController updateFonts]
+- -[BKSampleUpsellContentViewController updateViewConstraints]
+- -[BKSampleUpsellContentViewController viewDidLayoutSubviews]
+- -[BKSampleUpsellContentViewController viewDidLoad]
+- -[BKSampleUpsellContentViewController viewWillAppear:]
+- -[BKSampleUpsellContentViewController visibleInScrollMode]
+- -[BKSampleUpsellContentViewController wasPreordered]
+- -[BKSampleUpsellContentViewController zoomScale]
+- -[BKScrollingPageViewController .cxx_destruct]
+- -[BKScrollingPageViewController _beginSuppressingColorSettingsUpdate]
+- -[BKScrollingPageViewController _endSuppressingColorSettingsUpdate]
+- -[BKScrollingPageViewController _horizontallyScrolling]
+- -[BKScrollingPageViewController _updateClipping]
+- -[BKScrollingPageViewController _updateReadingStatistics]
+- -[BKScrollingPageViewController _verticallyScrolling]
+- -[BKScrollingPageViewController addSpaceAtEndOfBook]
+- -[BKScrollingPageViewController allViewControllers]
+- -[BKScrollingPageViewController contentViewImage]
+- -[BKScrollingPageViewController contentView]
+- -[BKScrollingPageViewController continuousWebScrollViewDidLayout:]
+- -[BKScrollingPageViewController dealloc]
+- -[BKScrollingPageViewController didReceiveMemoryWarning]
+- -[BKScrollingPageViewController focusedViewController]
+- -[BKScrollingPageViewController initWithTransitionStyle:navigationOrientation:options:]
+- -[BKScrollingPageViewController installAdjacentPages]
+- -[BKScrollingPageViewController interPageSpacing]
+- -[BKScrollingPageViewController isSuppressingColorSettings]
+- -[BKScrollingPageViewController lastDidScrollTimestamp]
+- -[BKScrollingPageViewController navigationOrientation]
+- -[BKScrollingPageViewController offscreenViewControllers]
+- -[BKScrollingPageViewController purgeCachedPages]
+- -[BKScrollingPageViewController releaseViews]
+- -[BKScrollingPageViewController resetContentFrames]
+- -[BKScrollingPageViewController scrollModeMustDie]
+- -[BKScrollingPageViewController scrollViewDidEndDecelerating:]
+- -[BKScrollingPageViewController scrollViewDidEndDragging:willDecelerate:]
+- -[BKScrollingPageViewController scrollViewDidScroll:]
+- -[BKScrollingPageViewController scrollViewShouldScrollToTop:]
+- -[BKScrollingPageViewController scrollViewWillBeginDecelerating:]
+- -[BKScrollingPageViewController scrollViewWillBeginDragging:]
+- -[BKScrollingPageViewController scrollView]
+- -[BKScrollingPageViewController setAddSpaceAtEndOfBook:]
+- -[BKScrollingPageViewController setClipsToBoundsAndUpdateClipping:]
+- -[BKScrollingPageViewController setIsSuppressingColorSettings:]
+- -[BKScrollingPageViewController setLastDidScrollTimestamp:]
+- -[BKScrollingPageViewController setScrollView:]
+- -[BKScrollingPageViewController setViewControllers:direction:animated:completion:]
+- -[BKScrollingPageViewController viewControllerForView:]
+- -[BKScrollingPageViewController viewControllers]
+- -[BKScrollingPageViewController viewDidLayoutSubviews]
+- -[BKScrollingPageViewController viewDidLoad]
+- -[BKScrollingPageViewController viewWillAppear:]
+- -[BKScrollingPageViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKScrollingPageViewController willMoveToParentViewController:]
+- -[BKScrubberCalloutView(Reflowable) updateLayoutWithParentView:bottomMargin:calloutWidth:followThumb:isScroll:isVerticalScroll:layoutDirection:scrubber:]
+- -[BKScrubberControlAccessibility _accessibilityHitTest:withEvent:]
+- -[BKScrubberControlAccessibility _accessibilityIsRTL]
+- -[BKScrubberControlAccessibility _axIsLoading]
+- -[BKScrubberControlAccessibility _axTurnPage:]
+- -[BKScrubberControlAccessibility accessibilityActivationPoint]
+- -[BKScrubberControlAccessibility accessibilityDecrement]
+- -[BKScrubberControlAccessibility accessibilityFrame]
+- -[BKScrubberControlAccessibility accessibilityHint]
+- -[BKScrubberControlAccessibility accessibilityIncrement]
+- -[BKScrubberControlAccessibility accessibilityLabel]
+- -[BKScrubberControlAccessibility accessibilityTraits]
+- -[BKScrubberControlAccessibility accessibilityValue]
+- -[BKScrubberControlAccessibility bkaxDelegate]
+- -[BKScrubberControlAccessibility bkaxPageNumber]
+- -[BKScrubberControlAccessibility bkaxProgress]
+- -[BKScrubberControlAccessibility bkaxTarget]
+- -[BKScrubberControlAccessibility bkaxThumb]
+- -[BKScrubberControlAccessibility isAccessibilityElement]
+- -[BKSearchController .cxx_destruct]
+- -[BKSearchController _addResultsFromSearch:]
+- -[BKSearchController _didFinishCreatingWebView:forTrackingID:completion:]
+- -[BKSearchController _isDocumentOrdinalSearchable:]
+- -[BKSearchController _newSearchOperationForOrdinal:]
+- -[BKSearchController _resultsChanged]
+- -[BKSearchController _scheduleSearchAfterDelay:reportAnalytics:]
+- -[BKSearchController _searchOnCandidateOrdinal:]
+- -[BKSearchController _searchOnOrdinal:]
+- -[BKSearchController _searchQueue]
+- -[BKSearchController _startSearchNowWithReportAnalytics:]
+- -[BKSearchController _unscheduleSearch]
+- -[BKSearchController beginSearchWithReportAnalytics:]
+- -[BKSearchController cancelSearch]
+- -[BKSearchController chaptersRemaining]
+- -[BKSearchController configuration]
+- -[BKSearchController contentIsChaptered]
+- -[BKSearchController contentIsPages]
+- -[BKSearchController contentStyle]
+- -[BKSearchController continueSearch]
+- -[BKSearchController dealloc]
+- -[BKSearchController delegate]
+- -[BKSearchController didReceiveMemoryWarning]
+- -[BKSearchController endSearch]
+- -[BKSearchController hasPartialResults]
+- -[BKSearchController init]
+- -[BKSearchController isSearching]
+- -[BKSearchController lastSavedSearchResult]
+- -[BKSearchController loadMore]
+- -[BKSearchController pageCount]
+- -[BKSearchController pagesRemaining]
+- -[BKSearchController pauseSearch]
+- -[BKSearchController performSelectorProxy]
+- -[BKSearchController provideWebView:protocolCacheItem:paginationOptions:cleanupOptions:cfiOptions:stylesheetSet:styleManager:contentSupportMode:completion:]
+- -[BKSearchController results]
+- -[BKSearchController searchBook]
+- -[BKSearchController searchConfiguration]
+- -[BKSearchController searchDidFinish:]
+- -[BKSearchController searchDidTimeOut:]
+- -[BKSearchController searchHasPartialResults:]
+- -[BKSearchController searchLimitHit:]
+- -[BKSearchController searchString]
+- -[BKSearchController searchWasCancelled:]
+- -[BKSearchController searchWasCompleted]
+- -[BKSearchController setAborted:]
+- -[BKSearchController setConfiguration:]
+- -[BKSearchController setContentStyle:configuration:]
+- -[BKSearchController setDelegate:]
+- -[BKSearchController setLastSavedSearchResult:]
+- -[BKSearchController setPageCount:]
+- -[BKSearchController setPartialResults:]
+- -[BKSearchController setSearchBook:]
+- -[BKSearchController setSearchCompleted:]
+- -[BKSearchController setSearchConfiguration:]
+- -[BKSearchController setSearchString:]
+- -[BKSearchController setSearching:]
+- -[BKSearchController setStartSearchIndex:]
+- -[BKSearchController setWebView:]
+- -[BKSearchController setWebViewTrackingID:]
+- -[BKSearchController startSearchIndex]
+- -[BKSearchController wasAborted]
+- -[BKSearchController webViewTrackingID]
+- -[BKSearchController webView]
+- -[BKSearchLoadingTableViewCell .cxx_destruct]
+- -[BKSearchLoadingTableViewCell activityIndicator]
+- -[BKSearchLoadingTableViewCell intrinsicContentSize]
+- -[BKSearchLoadingTableViewCell layoutSubviews]
+- -[BKSearchOperation .cxx_destruct]
+- -[BKSearchOperation _doSearch]
+- -[BKSearchOperation _postSearch:]
+- -[BKSearchOperation _search]
+- -[BKSearchOperation bookURL]
+- -[BKSearchOperation cancel]
+- -[BKSearchOperation dealloc]
+- -[BKSearchOperation delegate]
+- -[BKSearchOperation desiredSleepTime]
+- -[BKSearchOperation havePartialResults]
+- -[BKSearchOperation init]
+- -[BKSearchOperation isDone]
+- -[BKSearchOperation isPastLimit]
+- -[BKSearchOperation lastSavedSearchResult]
+- -[BKSearchOperation main]
+- -[BKSearchOperation ordinal]
+- -[BKSearchOperation requiresMainThread]
+- -[BKSearchOperation results]
+- -[BKSearchOperation searchBook]
+- -[BKSearchOperation searchString]
+- -[BKSearchOperation setBookURL:]
+- -[BKSearchOperation setDelegate:]
+- -[BKSearchOperation setHavePartialResults:]
+- -[BKSearchOperation setIsDone:]
+- -[BKSearchOperation setLastSavedSearchResult:]
+- -[BKSearchOperation setOrdinal:]
+- -[BKSearchOperation setSearchBook:]
+- -[BKSearchOperation setSearchString:]
+- -[BKSearchOperation setStartSearchFromIndex:]
+- -[BKSearchOperation setTimeOut:]
+- -[BKSearchOperation startSearchFromIndex]
+- -[BKSearchOperation timeOut]
+- -[BKSearchResult .cxx_destruct]
+- -[BKSearchResult location]
+- -[BKSearchResult ordinal]
+- -[BKSearchResult pageLocation]
+- -[BKSearchResult pageOffset]
+- -[BKSearchResult pageTitle]
+- -[BKSearchResult searchStringRange]
+- -[BKSearchResult searchString]
+- -[BKSearchResult setLocation:]
+- -[BKSearchResult setOrdinal:]
+- -[BKSearchResult setPageOffset:]
+- -[BKSearchResult setPageTitle:]
+- -[BKSearchResult setSearchString:]
+- -[BKSearchResult setSearchStringRange:]
+- -[BKSearchResult setText:]
+- -[BKSearchResult text]
+- -[BKSearchViewController .cxx_destruct]
+- -[BKSearchViewController _analyticsSubmitInBookSearchEventWithSearchText:]
+- -[BKSearchViewController _buildConstraints]
+- -[BKSearchViewController _configureLoadingCell:]
+- -[BKSearchViewController _configureResultsCell:forRow:inTableView:]
+- -[BKSearchViewController _escapedSearchString]
+- -[BKSearchViewController _isRTL]
+- -[BKSearchViewController _loadingCellForTableView:]
+- -[BKSearchViewController _preferredContentSizeIsMinimum:]
+- -[BKSearchViewController _reloadResultsAndResizeIfNecessary:]
+- -[BKSearchViewController _resultsCellForRow:inTableView:]
+- -[BKSearchViewController _resultsEstimatedRowHeight]
+- -[BKSearchViewController _resultsHeaderHeight]
+- -[BKSearchViewController _shouldShowSearchResultsView]
+- -[BKSearchViewController _traitCollectionDidChange:previousTraitCollection:]
+- -[BKSearchViewController _updateCancelButton]
+- -[BKSearchViewController _updateContentSize:]
+- -[BKSearchViewController _updateFooterConstraint]
+- -[BKSearchViewController _updateLoadingCell:]
+- -[BKSearchViewController _updateWebsearchButtonsStatus]
+- -[BKSearchViewController accessibilityRequiresActivateForSearchField]
+- -[BKSearchViewController contentSizeCategoryDidChange]
+- -[BKSearchViewController dealloc]
+- -[BKSearchViewController didReceiveMemoryWarning]
+- -[BKSearchViewController dummySearchLoadingCell]
+- -[BKSearchViewController dummySearchResultsCell]
+- -[BKSearchViewController environmentOverrideViewForSearchController:]
+- -[BKSearchViewController footerHeightConstraint]
+- -[BKSearchViewController footerTopBorderView]
+- -[BKSearchViewController headerDividerView]
+- -[BKSearchViewController initWithNibName:bundle:]
+- -[BKSearchViewController isModalSheet]
+- -[BKSearchViewController maxContentHeight]
+- -[BKSearchViewController numberOfSectionsInTableView:]
+- -[BKSearchViewController openURLUsingNSString:]
+- -[BKSearchViewController paginationComplete]
+- -[BKSearchViewController paginationController]
+- -[BKSearchViewController physicalPageMapForPageTitle:]
+- -[BKSearchViewController pointerInteraction:regionForRequest:defaultRegion:]
+- -[BKSearchViewController pointerInteraction:styleForRegion:]
+- -[BKSearchViewController positionForBar:]
+- -[BKSearchViewController prefersStatusBarHidden]
+- -[BKSearchViewController releaseViews]
+- -[BKSearchViewController resizeAnimationInProgress]
+- -[BKSearchViewController resizeRequestPending]
+- -[BKSearchViewController revealSearchResult:]
+- -[BKSearchViewController revealSearchResult:animated:]
+- -[BKSearchViewController scrollViewWillBeginDragging:]
+- -[BKSearchViewController searchBar:textDidChange:]
+- -[BKSearchViewController searchBarCancelButtonClicked:]
+- -[BKSearchViewController searchBarHeightConstraint]
+- -[BKSearchViewController searchBarSearchButtonClicked:]
+- -[BKSearchViewController searchControllerDidFinishSearching:]
+- -[BKSearchViewController searchControllerFinishedSearchingChapter:]
+- -[BKSearchViewController searchControllerResultsChanged:]
+- -[BKSearchViewController searchControllerWillBeginSearching:reportAnalytics:]
+- -[BKSearchViewController searchController]
+- -[BKSearchViewController searchDelegate]
+- -[BKSearchViewController searchEncyclopediaForString:]
+- -[BKSearchViewController searchStringIsPageNumber]
+- -[BKSearchViewController searchString]
+- -[BKSearchViewController searchWeb:]
+- -[BKSearchViewController searchWebForString:]
+- -[BKSearchViewController searchWikipedia:]
+- -[BKSearchViewController setDummySearchLoadingCell:]
+- -[BKSearchViewController setDummySearchResultsCell:]
+- -[BKSearchViewController setFooterHeightConstraint:]
+- -[BKSearchViewController setFooterTopBorderView:]
+- -[BKSearchViewController setHeaderDividerView:]
+- -[BKSearchViewController setMaxContentHeight:]
+- -[BKSearchViewController setPaginationController:]
+- -[BKSearchViewController setResizeAnimationInProgress:]
+- -[BKSearchViewController setResizeRequestPending:]
+- -[BKSearchViewController setSearchBarHeightConstraint:]
+- -[BKSearchViewController setSearchDelegate:]
+- -[BKSearchViewController setSearchString:]
+- -[BKSearchViewController setShowPhysicalPages:]
+- -[BKSearchViewController setTheme:]
+- -[BKSearchViewController showPhysicalPages]
+- -[BKSearchViewController sizeChangesRequireBookRepagination]
+- -[BKSearchViewController stylizeForTheme]
+- -[BKSearchViewController supportedInterfaceOrientations]
+- -[BKSearchViewController tableView:cellForRowAtIndexPath:]
+- -[BKSearchViewController tableView:didSelectRowAtIndexPath:]
+- -[BKSearchViewController tableView:estimatedHeightForRowAtIndexPath:]
+- -[BKSearchViewController tableView:heightForFooterInSection:]
+- -[BKSearchViewController tableView:heightForHeaderInSection:]
+- -[BKSearchViewController tableView:heightForRowAtIndexPath:]
+- -[BKSearchViewController tableView:numberOfRowsInSection:]
+- -[BKSearchViewController tableView:viewForHeaderInSection:]
+- -[BKSearchViewController tableView:willSelectRowAtIndexPath:]
+- -[BKSearchViewController viewDidAppear:]
+- -[BKSearchViewController viewDidLoad]
+- -[BKSearchViewController viewIsAppearing:]
+- -[BKSearchViewController viewWillAppear:]
+- -[BKSearchViewController viewWillDisappear:]
+- -[BKSearchViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKSegmentedControl .cxx_destruct]
+- -[BKSegmentedControl _appearanceStruct]
+- -[BKSegmentedControl backgroundMini]
+- -[BKSegmentedControl backgroundSelectedMini]
+- -[BKSegmentedControl backgroundSelected]
+- -[BKSegmentedControl background]
+- -[BKSegmentedControl dividerLeftPressedMini]
+- -[BKSegmentedControl dividerLeftPressed]
+- -[BKSegmentedControl dividerMini]
+- -[BKSegmentedControl dividerRightPressedMini]
+- -[BKSegmentedControl dividerRightPressed]
+- -[BKSegmentedControl divider]
+- -[BKSegmentedControl font]
+- -[BKSegmentedControl frameOffset]
+- -[BKSegmentedControl initWithItems:]
+- -[BKSegmentedControl setBackground:]
+- -[BKSegmentedControl setBackgroundMini:]
+- -[BKSegmentedControl setBackgroundSelected:]
+- -[BKSegmentedControl setBackgroundSelectedMini:]
+- -[BKSegmentedControl setDivider:]
+- -[BKSegmentedControl setDividerLeftPressed:]
+- -[BKSegmentedControl setDividerLeftPressedMini:]
+- -[BKSegmentedControl setDividerMini:]
+- -[BKSegmentedControl setDividerRightPressed:]
+- -[BKSegmentedControl setDividerRightPressedMini:]
+- -[BKSegmentedControl setFont:]
+- -[BKSegmentedControl setFrameOffset:]
+- -[BKSegmentedControl setTextColor:]
+- -[BKSegmentedControl setTextShadowOffset:]
+- -[BKSegmentedControl textColor]
+- -[BKSegmentedControl textShadowOffset]
+- -[BKSegmentedControl updateAppearance]
+- -[BKSegmentedControl useCustomButton]
+- -[BKSemanticLayoutOverlayViewController .cxx_destruct]
+- -[BKSemanticLayoutOverlayViewController _addCollapseButton]
+- -[BKSemanticLayoutOverlayViewController _addContentInsetTopLargeOption]
+- -[BKSemanticLayoutOverlayViewController _addContentInsetTopMediumOption]
+- -[BKSemanticLayoutOverlayViewController _addContentInsetTopSmallOption]
+- -[BKSemanticLayoutOverlayViewController _addControl:forKey:titleFormat:]
+- -[BKSemanticLayoutOverlayViewController _addFontScaleOption]
+- -[BKSemanticLayoutOverlayViewController _addMinCPLForSpreadPagesOption]
+- -[BKSemanticLayoutOverlayViewController _addReset]
+- -[BKSemanticLayoutOverlayViewController _addRow:]
+- -[BKSemanticLayoutOverlayViewController _addScrubberHeightOption]
+- -[BKSemanticLayoutOverlayViewController _addScrubberWidthOption]
+- -[BKSemanticLayoutOverlayViewController _addSideInsetOption]
+- -[BKSemanticLayoutOverlayViewController _addSliderForKey:titleFormat:]
+- -[BKSemanticLayoutOverlayViewController _addTextFieldForKey:titleFormat:]
+- -[BKSemanticLayoutOverlayViewController _addTitleRow:]
+- -[BKSemanticLayoutOverlayViewController _addTitleRow]
+- -[BKSemanticLayoutOverlayViewController _collapsedHeightConstraint]
+- -[BKSemanticLayoutOverlayViewController _collapsed]
+- -[BKSemanticLayoutOverlayViewController _controlDidChange:]
+- -[BKSemanticLayoutOverlayViewController _fullHeightConstraints]
+- -[BKSemanticLayoutOverlayViewController _fullHeight]
+- -[BKSemanticLayoutOverlayViewController _makeLabel]
+- -[BKSemanticLayoutOverlayViewController _makeNumberFormatter]
+- -[BKSemanticLayoutOverlayViewController _optionForControl:]
+- -[BKSemanticLayoutOverlayViewController _options]
+- -[BKSemanticLayoutOverlayViewController _refreshLayout]
+- -[BKSemanticLayoutOverlayViewController _reset:]
+- -[BKSemanticLayoutOverlayViewController _resetButton]
+- -[BKSemanticLayoutOverlayViewController _semanticOptions]
+- -[BKSemanticLayoutOverlayViewController _stackView]
+- -[BKSemanticLayoutOverlayViewController _summaryLabel]
+- -[BKSemanticLayoutOverlayViewController _toggleCollapsed:]
+- -[BKSemanticLayoutOverlayViewController _updateDisplayAfterValueChanged]
+- -[BKSemanticLayoutOverlayViewController _updateLabels:]
+- -[BKSemanticLayoutOverlayViewController _valueFormatter]
+- -[BKSemanticLayoutOverlayViewController addToParentViewController:]
+- -[BKSemanticLayoutOverlayViewController controller]
+- -[BKSemanticLayoutOverlayViewController initWithSemanticDebuggableController:]
+- -[BKSemanticLayoutOverlayViewController preferredContentSize]
+- -[BKSemanticLayoutOverlayViewController setController:]
+- -[BKSemanticLayoutOverlayViewController set_collapsed:]
+- -[BKSemanticLayoutOverlayViewController set_collapsedHeightConstraint:]
+- -[BKSemanticLayoutOverlayViewController set_fullHeight:]
+- -[BKSemanticLayoutOverlayViewController set_fullHeightConstraints:]
+- -[BKSemanticLayoutOverlayViewController set_options:]
+- -[BKSemanticLayoutOverlayViewController set_resetButton:]
+- -[BKSemanticLayoutOverlayViewController set_semanticOptions:]
+- -[BKSemanticLayoutOverlayViewController set_stackView:]
+- -[BKSemanticLayoutOverlayViewController set_summaryLabel:]
+- -[BKSemanticLayoutOverlayViewController set_valueFormatter:]
+- -[BKSemanticLayoutOverlayViewController textFieldShouldReturn:]
+- -[BKSemanticLayoutOverlayViewController updateLabels]
+- -[BKSpreadThumbnailDirectoryCell .cxx_destruct]
+- -[BKSpreadThumbnailDirectoryCell contentRectForBounds:]
+- -[BKSpreadThumbnailDirectoryCell layoutSubviews]
+- -[BKSpreadThumbnailDirectoryCell prepareForReuse]
+- -[BKSpreadThumbnailDirectoryCell spreadView]
+- -[BKSpreadThumbnailScrubberCell .cxx_destruct]
+- -[BKSpreadThumbnailScrubberCell drawRect:]
+- -[BKSpreadThumbnailScrubberCell initWithFrame:]
+- -[BKSpreadThumbnailScrubberCell layoutSubviews]
+- -[BKSpreadThumbnailScrubberCell leftImage]
+- -[BKSpreadThumbnailScrubberCell rightImage]
+- -[BKSpreadThumbnailScrubberCell setLeftImage:]
+- -[BKSpreadThumbnailScrubberCell setRightImage:]
+- -[BKSpreadThumbnailScrubberCell setShouldHaveLeftImage:]
+- -[BKSpreadThumbnailScrubberCell setShouldHaveRightImage:]
+- -[BKSpreadThumbnailScrubberCell shouldHaveLeftImage]
+- -[BKSpreadThumbnailScrubberCell shouldHaveRightImage]
+- -[BKSpreadThumbnailView .cxx_destruct]
+- -[BKSpreadThumbnailView gutter]
+- -[BKSpreadThumbnailView hidesSpine]
+- -[BKSpreadThumbnailView layoutSubviews]
+- -[BKSpreadThumbnailView leftPageView]
+- -[BKSpreadThumbnailView pageSize]
+- -[BKSpreadThumbnailView rightPageView]
+- -[BKSpreadThumbnailView setHidesSpine:]
+- -[BKSpreadThumbnailView setPageSize:]
+- -[BKSpreadThumbnailView sizeThatFits:]
+- -[BKStyleManager .cxx_destruct]
+- -[BKStyleManager _defaultFontName]
+- -[BKStyleManager _detailsForFont:]
+- -[BKStyleManager _maxFontStepsForFont:]
+- -[BKStyleManager _presetsForFontName:]
+- -[BKStyleManager addedPresetFonts]
+- -[BKStyleManager autoHyphenation]
+- -[BKStyleManager canDecreaseFontSize]
+- -[BKStyleManager canIncreaseFontSize]
+- -[BKStyleManager coordinator:observerDidDecreaseFontSize:]
+- -[BKStyleManager coordinator:observerDidIncreaseFontSize:]
+- -[BKStyleManager dealloc]
+- -[BKStyleManager decreaseFontSizeNotifyingCoordinator:]
+- -[BKStyleManager decreaseFontSize]
+- -[BKStyleManager defaultStyleWithOriginalFonts:]
+- -[BKStyleManager fontFaceMappings]
+- -[BKStyleManager fontForFontFamily:]
+- -[BKStyleManager fontSizeForFont:category:]
+- -[BKStyleManager fontSizeForFont:presetIndex:]
+- -[BKStyleManager fontSizeIndex]
+- -[BKStyleManager fontSize]
+- -[BKStyleManager fontStateChanged:]
+- -[BKStyleManager font]
+- -[BKStyleManager fonts]
+- -[BKStyleManager increaseFontSizeNotifyingCoordinator:]
+- -[BKStyleManager increaseFontSize]
+- -[BKStyleManager initWithLanguage:]
+- -[BKStyleManager isFontAvailable:]
+- -[BKStyleManager isFontPreregistered:]
+- -[BKStyleManager languageSuffix]
+- -[BKStyleManager language]
+- -[BKStyleManager lineHeight]
+- -[BKStyleManager notifyStyleChanged]
+- -[BKStyleManager observeValueForKeyPath:ofObject:change:context:]
+- -[BKStyleManager optimizeLegibility]
+- -[BKStyleManager presets]
+- -[BKStyleManager reloadCurrentStyle]
+- -[BKStyleManager setAddedPresetFonts:]
+- -[BKStyleManager setAutoHyphenation:]
+- -[BKStyleManager setDefaultFontSize]
+- -[BKStyleManager setFont:]
+- -[BKStyleManager setFontSize:]
+- -[BKStyleManager setLanguageSuffix:]
+- -[BKStyleManager setLineHeight:]
+- -[BKStyleManager setOptimizeLegibility:]
+- -[BKStyleManager setStyle:]
+- -[BKStyleManager storeDefaultStyle:]
+- -[BKStyleManager styleForFont:presetIndex:]
+- -[BKStyleManager style]
+- -[BKStyleManager verifySelectedFont]
+- -[BKSwitcherContent .cxx_destruct]
+- -[BKSwitcherContent _showContentAtIndex:]
+- -[BKSwitcherContent _tableSwitch]
+- -[BKSwitcherContent _traitCollectionDidChange:previousTraitCollection:]
+- -[BKSwitcherContent assetSharingConnectionClient:performRequest:]
+- -[BKSwitcherContent assetSharingConnectionClient]
+- -[BKSwitcherContent assetSharingConnectionTypeForClient:]
+- -[BKSwitcherContent beginAssetSharingConnectionWithClient:]
+- -[BKSwitcherContent bookSharingRequestClient:annotationAtIndex:]
+- -[BKSwitcherContent bookSharingRequestClient:selectedAnnotationAtIndex:]
+- -[BKSwitcherContent bookSharingRequestNumberOfAnnotations:]
+- -[BKSwitcherContent bookSharingRequestNumberOfSelectedAnnotations:]
+- -[BKSwitcherContent contentConfiguration]
+- -[BKSwitcherContent currentLocation]
+- -[BKSwitcherContent dealloc]
+- -[BKSwitcherContent edgeInsetsForContentViewController:]
+- -[BKSwitcherContent endAssetSharingConnectionWithClient:]
+- -[BKSwitcherContent initWithNibName:bundle:]
+- -[BKSwitcherContent isTOCContent]
+- -[BKSwitcherContent ordinal]
+- -[BKSwitcherContent positionForBar:]
+- -[BKSwitcherContent releaseViews]
+- -[BKSwitcherContent reload]
+- -[BKSwitcherContent selectedIndex]
+- -[BKSwitcherContent selectedViewController]
+- -[BKSwitcherContent separatorInsetsForContentViewController:]
+- -[BKSwitcherContent setAssetSharingConnectionClient:]
+- -[BKSwitcherContent setContentConfiguration:]
+- -[BKSwitcherContent setDividerHidden:]
+- -[BKSwitcherContent setSelectedIndex:]
+- -[BKSwitcherContent setSwitcherToolbar:]
+- -[BKSwitcherContent setSwitcherToolbarDividerView:]
+- -[BKSwitcherContent setTableSwitchHeightConstraint:]
+- -[BKSwitcherContent setTableSwitchWidthConstraint:]
+- -[BKSwitcherContent setTheme:]
+- -[BKSwitcherContent setViewControllers:]
+- -[BKSwitcherContent stylizeForTheme]
+- -[BKSwitcherContent supportedInterfaceOrientations]
+- -[BKSwitcherContent switcherToolbarDividerView]
+- -[BKSwitcherContent switcherToolbar]
+- -[BKSwitcherContent tableSwitchHeightConstraint]
+- -[BKSwitcherContent tableSwitchPressed:]
+- -[BKSwitcherContent tableSwitchWidthConstraint]
+- -[BKSwitcherContent traitCollection]
+- -[BKSwitcherContent viewControllers]
+- -[BKSwitcherContent viewDidLayoutSubviews]
+- -[BKSwitcherContent viewDidLoad]
+- -[BKSwitcherContent viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKSwitcherContentConfiguration .cxx_destruct]
+- -[BKSwitcherContentConfiguration _setupCompactHeight]
+- -[BKSwitcherContentConfiguration _setupDefaults]
+- -[BKSwitcherContentConfiguration _setupRegularHeight]
+- -[BKSwitcherContentConfiguration context]
+- -[BKSwitcherContentConfiguration initWithContext:]
+- -[BKSwitcherContentConfiguration leftInset]
+- -[BKSwitcherContentConfiguration leftSeparatorInset]
+- -[BKSwitcherContentConfiguration rightInset]
+- -[BKSwitcherContentConfiguration rightSeparatorInset]
+- -[BKSwitcherContentConfiguration safeAreaInsets]
+- -[BKSwitcherContentConfiguration switchHeight]
+- -[BKSwitcherContentConfiguration switchWidth]
+- -[BKTOCAnnotationTableCell .cxx_destruct]
+- -[BKTOCAnnotationTableCell animatedTransitionToState:]
+- -[BKTOCAnnotationTableCell configureWithHighlightImage:pageString:dateString:insets:]
+- -[BKTOCAnnotationTableCell dateLabel]
+- -[BKTOCAnnotationTableCell layoutSubviewsEditingWithBounds:]
+- -[BKTOCAnnotationTableCell layoutSubviewsNotEditingWithBounds:]
+- -[BKTOCAnnotationTableCell layoutSubviews]
+- -[BKTOCAnnotationTableCell noteLabel]
+- -[BKTOCAnnotationTableCell prepareForReuse]
+- -[BKTOCAnnotationTableCell setHighlightTextColor:]
+- -[BKTOCAnnotationTableCell setWritingDirection:]
+- -[BKTOCAnnotationTableCell willTransitionToState:]
+- -[BKTOCAnnotationTableCellAccessibility accessibilityLabel]
+- -[BKTOCAnnotationTableCellAccessibility bkaxNoteLabelText]
+- -[BKTOCBookmarksDescription .cxx_destruct]
+- -[BKTOCBookmarksDescription descriptionLabel]
+- -[BKTOCBookmarksDescription layoutSubviews]
+- -[BKTOCBookmarksDescription setBackgroundColor:]
+- -[BKTOCBookmarksDescription titleLabel]
+- -[BKTOCContentViewController .cxx_destruct]
+- -[BKTOCContentViewController _bkTableView:itemsForBeginningDragSession:atIndexPath:]
+- -[BKTOCContentViewController _configureAnnotationCell:forAnnotation:forRowAtIndexPath:]
+- -[BKTOCContentViewController _configurePointAnnotationCell:forRowAtIndexPath:]
+- -[BKTOCContentViewController _configureRangeAnnotationCell:forRowAtIndexPath:]
+- -[BKTOCContentViewController _configureTOCCell:forRowAtIndexPath:]
+- -[BKTOCContentViewController _configureWebTOCCell:forRowAtIndexPath:]
+- -[BKTOCContentViewController _dumpCachedWebContentAndReload]
+- -[BKTOCContentViewController _hideActivityIndicator]
+- -[BKTOCContentViewController _indexPathForRowNearestPageNumber:pageNumberForObjectSelector:isExactPageMatch:]
+- -[BKTOCContentViewController _notifyDelegateContentDidChange]
+- -[BKTOCContentViewController _showActivityIndicator]
+- -[BKTOCContentViewController _traitCollectionDidChange:previousTraitCollection:]
+- -[BKTOCContentViewController _updateColors]
+- -[BKTOCContentViewController _updateContentInsets]
+- -[BKTOCContentViewController activityIndicatorOverlayView]
+- -[BKTOCContentViewController annotationIndexPathForRowNearestPageNumber:isExactPageMatch:]
+- -[BKTOCContentViewController assetSharingConnectionClient:performRequest:]
+- -[BKTOCContentViewController assetSharingConnectionClient]
+- -[BKTOCContentViewController assetSharingConnectionTypeForClient:]
+- -[BKTOCContentViewController author]
+- -[BKTOCContentViewController beginAssetSharingConnectionWithClient:]
+- -[BKTOCContentViewController boldFont]
+- -[BKTOCContentViewController bookSharingRequestClient:annotationAtIndex:]
+- -[BKTOCContentViewController bookSharingRequestClient:selectedAnnotationAtIndex:]
+- -[BKTOCContentViewController bookSharingRequestNumberOfAnnotations:]
+- -[BKTOCContentViewController bookSharingRequestNumberOfSelectedAnnotations:]
+- -[BKTOCContentViewController bookTitle]
+- -[BKTOCContentViewController bookmarksFetchedResultsController]
+- -[BKTOCContentViewController bookmarksFetchedResultsController].cold.1
+- -[BKTOCContentViewController cachedRowContents]
+- -[BKTOCContentViewController calculateFontSize]
+- -[BKTOCContentViewController cellLoadingOperationCount]
+- -[BKTOCContentViewController configureCell:atIndexPath:]
+- -[BKTOCContentViewController contentBeganLoadingForRequest:]
+- -[BKTOCContentViewController contentFinishedLoadingForRequest:preferredHeight:error:]
+- -[BKTOCContentViewController controller:didChangeObject:atIndexPath:forChangeType:newIndexPath:]
+- -[BKTOCContentViewController controller:didChangeSection:atIndex:forChangeType:]
+- -[BKTOCContentViewController controllerDidChangeContent:]
+- -[BKTOCContentViewController controllerWillChangeContent:]
+- -[BKTOCContentViewController currentLocation]
+- -[BKTOCContentViewController dateFormatter]
+- -[BKTOCContentViewController dealloc]
+- -[BKTOCContentViewController deleteSelected:]
+- -[BKTOCContentViewController deleteSwipeAction:]
+- -[BKTOCContentViewController descriptionView]
+- -[BKTOCContentViewController endAssetSharingConnectionWithClient:]
+- -[BKTOCContentViewController fetchedResultsController]
+- -[BKTOCContentViewController fontFamily]
+- -[BKTOCContentViewController fontForChapter:]
+- -[BKTOCContentViewController highlightImage]
+- -[BKTOCContentViewController highlightedTextLabelFont]
+- -[BKTOCContentViewController imageCache]
+- -[BKTOCContentViewController indexPathOfLastRow]
+- -[BKTOCContentViewController initWithNibName:bundle:]
+- -[BKTOCContentViewController isContentLoadPending]
+- -[BKTOCContentViewController isContentLoaded]
+- -[BKTOCContentViewController isReusable]
+- -[BKTOCContentViewController multipleSelectionTickBackgroundImage]
+- -[BKTOCContentViewController notifyBookSharingClientSelectionChanged]
+- -[BKTOCContentViewController numberOfSectionsInTableView:]
+- -[BKTOCContentViewController ordinal]
+- -[BKTOCContentViewController p_willUseWebViewForCellWithChapter:]
+- -[BKTOCContentViewController pageNumberForCurrentLocation]
+- -[BKTOCContentViewController pageNumberStringForAnnotation:]
+- -[BKTOCContentViewController pageTitleForAnnotation:]
+- -[BKTOCContentViewController pageTitleForChapter:]
+- -[BKTOCContentViewController paginationDidLoad]
+- -[BKTOCContentViewController preferredFontSize]
+- -[BKTOCContentViewController recenteredIndexPath]
+- -[BKTOCContentViewController releaseViews]
+- -[BKTOCContentViewController reload]
+- -[BKTOCContentViewController requestQueue]
+- -[BKTOCContentViewController requestToIndexPath]
+- -[BKTOCContentViewController reuseIdentifierForCellType:]
+- -[BKTOCContentViewController reuseIdentifier]
+- -[BKTOCContentViewController scrollViewDidScroll:]
+- -[BKTOCContentViewController scrollView]
+- -[BKTOCContentViewController selectAll:]
+- -[BKTOCContentViewController selectNone:]
+- -[BKTOCContentViewController setActivityIndicatorOverlayView:]
+- -[BKTOCContentViewController setAssetSharingConnectionClient:]
+- -[BKTOCContentViewController setBook:]
+- -[BKTOCContentViewController setCachedRowContents:]
+- -[BKTOCContentViewController setCellLoadingOperationCount:]
+- -[BKTOCContentViewController setDescriptionView:]
+- -[BKTOCContentViewController setImageCache:]
+- -[BKTOCContentViewController setNeedsRestyle]
+- -[BKTOCContentViewController setPreferredFontSize:]
+- -[BKTOCContentViewController setRecenteredIndexPath:]
+- -[BKTOCContentViewController setRequestQueue:]
+- -[BKTOCContentViewController setRequestToIndexPath:]
+- -[BKTOCContentViewController setSharedWebView:]
+- -[BKTOCContentViewController setTemplate:]
+- -[BKTOCContentViewController setTheme:]
+- -[BKTOCContentViewController setWritingDirection:]
+- -[BKTOCContentViewController shareSwipeAction:]
+- -[BKTOCContentViewController sharedWebView]
+- -[BKTOCContentViewController showRowForCurrentLocation]
+- -[BKTOCContentViewController storeURL]
+- -[BKTOCContentViewController tableView:canEditRowAtIndexPath:]
+- -[BKTOCContentViewController tableView:cellForRowAtIndexPath:]
+- -[BKTOCContentViewController tableView:commitEditingStyle:forRowAtIndexPath:]
+- -[BKTOCContentViewController tableView:didDeselectRowAtIndexPath:]
+- -[BKTOCContentViewController tableView:didEndEditingRowAtIndexPath:]
+- -[BKTOCContentViewController tableView:didSelectRowAtIndexPath:]
+- -[BKTOCContentViewController tableView:estimatedHeightForRowAtIndexPath:]
+- -[BKTOCContentViewController tableView:heightForRowAtIndexPath:]
+- -[BKTOCContentViewController tableView:itemsForAddingToDragSession:atIndexPath:point:]
+- -[BKTOCContentViewController tableView:itemsForBeginningDragSession:atIndexPath:]
+- -[BKTOCContentViewController tableView:numberOfRowsInSection:]
+- -[BKTOCContentViewController tableView:trailingSwipeActionsConfigurationForRowAtIndexPath:]
+- -[BKTOCContentViewController tableView:trailingSwipeActionsConfigurationForRowAtIndexPath:].cold.1
+- -[BKTOCContentViewController tableViewSeparatorStyle]
+- -[BKTOCContentViewController template]
+- -[BKTOCContentViewController tocIndexPathForRowNearestPageNumber:]
+- -[BKTOCContentViewController totalPages]
+- -[BKTOCContentViewController updateView]
+- -[BKTOCContentViewController useWebkit2WithWebCells]
+- -[BKTOCContentViewController viewDidAppear:]
+- -[BKTOCContentViewController viewDidLayoutSubviews]
+- -[BKTOCContentViewController viewDidLoad]
+- -[BKTOCContentViewController viewWillAppear:]
+- -[BKTOCContentViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKTOCContentViewController writingDirection]
+- -[BKTOCImageCache2 entryForRequest:]
+- -[BKTOCPointAnnotationTableCell .cxx_destruct]
+- -[BKTOCPointAnnotationTableCell accessibilityLabel]
+- -[BKTOCPointAnnotationTableCell accessibilityUserInputLabels]
+- -[BKTOCPointAnnotationTableCell animatedTransitionToState:]
+- -[BKTOCPointAnnotationTableCell layoutSubviewsEditingWithBounds:]
+- -[BKTOCPointAnnotationTableCell layoutSubviewsNotEditingWithBounds:]
+- -[BKTOCPointAnnotationTableCell loadRibbonForBounds:]
+- -[BKTOCPointAnnotationTableCell prepareForReuse]
+- -[BKTOCPointAnnotationTableCell ribbonFrameForBounds:size:pageLabelFrame:]
+- -[BKTOCPointAnnotationTableCell ribbonImageView]
+- -[BKTOCPointAnnotationTableCell setRibbonImageView:]
+- -[BKTOCRangeAnnotationTableCell .cxx_destruct]
+- -[BKTOCRangeAnnotationTableCell highlightedTextLabel]
+- -[BKTOCRangeAnnotationTableCell layoutSubviewsEditingWithBounds:]
+- -[BKTOCRangeAnnotationTableCell layoutSubviewsNotEditingWithBounds:]
+- -[BKTOCRangeAnnotationTableCell prepareForReuse]
+- -[BKTOCRangeAnnotationTableCellAccessibility accessibilityCustomContent]
+- -[BKTOCRangeAnnotationTableCellAccessibility accessibilityLabel]
+- -[BKTOCRangeAnnotationTableCellAccessibility accessibilityUserInputLabels]
+- -[BKTOCRangeAnnotationTableCellAccessibility aeHighlightStyleName]
+- -[BKTOCRangeAnnotationTableCellAccessibility aeHighlightedTextLabel]
+- -[BKTOCTableViewCell .cxx_destruct]
+- -[BKTOCTableViewCell _adjustLabelTextAlignment]
+- -[BKTOCTableViewCell _setHighlightedPopoverAppearance:]
+- -[BKTOCTableViewCell _setSelectedAppearance:]
+- -[BKTOCTableViewCell _setSelectedBackgroundViewFrame:]
+- -[BKTOCTableViewCell _syncVerticalLabel]
+- -[BKTOCTableViewCell bkaxIsExcludedFromSample]
+- -[BKTOCTableViewCell cacheKey]
+- -[BKTOCTableViewCell contentInsets]
+- -[BKTOCTableViewCell dealloc]
+- -[BKTOCTableViewCell displayHTMLWithContents:fontFamily:fontSize:maxSpan:baseURL:]
+- -[BKTOCTableViewCell highlightBackgroundColor]
+- -[BKTOCTableViewCell highlightImageView]
+- -[BKTOCTableViewCell highlightImage]
+- -[BKTOCTableViewCell highlightTextColor]
+- -[BKTOCTableViewCell highlightedBackgroundView]
+- -[BKTOCTableViewCell initWithStyle:reuseIdentifier:]
+- -[BKTOCTableViewCell isVertical]
+- -[BKTOCTableViewCell layoutSubviews]
+- -[BKTOCTableViewCell makeSelectedBackgroundView:]
+- -[BKTOCTableViewCell multipleSelectionTickBackgroundImageView]
+- -[BKTOCTableViewCell multipleSelectionTickBackgroundImage]
+- -[BKTOCTableViewCell pageLabel]
+- -[BKTOCTableViewCell prepareForReuse]
+- -[BKTOCTableViewCell selectedCacheKey]
+- -[BKTOCTableViewCell setBkaxIsExcludedFromSample:]
+- -[BKTOCTableViewCell setCacheKey:]
+- -[BKTOCTableViewCell setContentInsets:]
+- -[BKTOCTableViewCell setHighlightBackgroundColor:]
+- -[BKTOCTableViewCell setHighlightImage:]
+- -[BKTOCTableViewCell setHighlightImageView:]
+- -[BKTOCTableViewCell setHighlightTextColor:]
+- -[BKTOCTableViewCell setHighlighted:animated:]
+- -[BKTOCTableViewCell setHighlightedBackgroundView:]
+- -[BKTOCTableViewCell setMultipleSelectionTickBackgroundImage:]
+- -[BKTOCTableViewCell setMultipleSelectionTickBackgroundImageView:]
+- -[BKTOCTableViewCell setSelected:animated:]
+- -[BKTOCTableViewCell setSelectedCacheKey:]
+- -[BKTOCTableViewCell setUsesPopoverStyle:]
+- -[BKTOCTableViewCell setVertical:]
+- -[BKTOCTableViewCell setWritingDirection:]
+- -[BKTOCTableViewCell usesPopoverStyle]
+- -[BKTOCTableViewCell writingDirection]
+- -[BKTOCTableViewCellAccessibility accessibilityLabel]
+- -[BKTOCTableViewCellAccessibility accessibilityTraits]
+- -[BKTOCTableViewCellAccessibility accessibilityUserInputLabels]
+- -[BKTOCTableViewCellAccessibility bkaxIndentationDepth]
+- -[BKTOCTableViewCellAccessibility bkaxTarget]
+- -[BKTOCTableViewCellAccessibility bkaxTextLabel]
+- -[BKTOCViewController .cxx_destruct]
+- -[BKTOCViewController calculateFontSize]
+- -[BKTOCViewController centeringInsets]
+- -[BKTOCViewController chapterSubLevelFont]
+- -[BKTOCViewController chapterTopLevelFont]
+- -[BKTOCViewController containingVerticalInset]
+- -[BKTOCViewController dealloc]
+- -[BKTOCViewController destroyFetchedResultsController]
+- -[BKTOCViewController establishChapterFonts]
+- -[BKTOCViewController eventEngagement]
+- -[BKTOCViewController fetchedResultsControllerAscendingOrder]
+- -[BKTOCViewController fetchedResultsController]
+- -[BKTOCViewController initWithNibName:bundle:]
+- -[BKTOCViewController invalidateFollowingThemeChange]
+- -[BKTOCViewController isLandscape]
+- -[BKTOCViewController isThemeFlowingBook]
+- -[BKTOCViewController isVertical]
+- -[BKTOCViewController pageLabelFont]
+- -[BKTOCViewController paginationController]
+- -[BKTOCViewController paginationDataLoaded:]
+- -[BKTOCViewController paginationDidLoad]
+- -[BKTOCViewController preferredContentSizeChanged:]
+- -[BKTOCViewController releaseViews]
+- -[BKTOCViewController reload]
+- -[BKTOCViewController scrollIndicatorsNeedToBeFlashed]
+- -[BKTOCViewController scrollView]
+- -[BKTOCViewController setCenteringInsets:]
+- -[BKTOCViewController setChapterSubLevelFont:]
+- -[BKTOCViewController setChapterTopLevelFont:]
+- -[BKTOCViewController setContainingVerticalInset:]
+- -[BKTOCViewController setDirectoryDelegate:]
+- -[BKTOCViewController setEventEngagement:]
+- -[BKTOCViewController setPaginationController:]
+- -[BKTOCViewController setScrollIndicatorsNeedToBeFlashed:]
+- -[BKTOCViewController setShouldIgnoreViewLayoutUpdates:]
+- -[BKTOCViewController setSizeOfCachedFonts:]
+- -[BKTOCViewController setTheme:]
+- -[BKTOCViewController setTocContentType:]
+- -[BKTOCViewController setUsesPopoverStyle:]
+- -[BKTOCViewController setVertical:]
+- -[BKTOCViewController setVerticalCenteringInsets:]
+- -[BKTOCViewController shouldIgnoreViewLayoutUpdates]
+- -[BKTOCViewController sizeOfCachedFonts]
+- -[BKTOCViewController title]
+- -[BKTOCViewController tocContentType]
+- -[BKTOCViewController tocFetchedResultsController]
+- -[BKTOCViewController updateView]
+- -[BKTOCViewController usesPopoverStyle]
+- -[BKTOCViewController verticalCenteringInsets]
+- -[BKTOCViewController viewDidAppear:]
+- -[BKTOCViewController viewDidDisappear:]
+- -[BKTOCViewController viewWillAppear:]
+- -[BKTOCViewController viewWillAppear:].cold.1
+- -[BKTOCViewController viewWillDisappear:]
+- -[BKTOCViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKTOCWebViewCellContent .cxx_destruct]
+- -[BKTOCWebViewCellContent cacheKey]
+- -[BKTOCWebViewCellContent height]
+- -[BKTOCWebViewCellContent setCacheKey:]
+- -[BKTOCWebViewCellContent setHeight:]
+- -[BKTOCWebViewCellLoadQueue .cxx_destruct]
+- -[BKTOCWebViewCellLoadQueue _measureContentAndSetFrame]
+- -[BKTOCWebViewCellLoadQueue _notifyRequesterAndSendNextRequestOfPreferredHeight:error:]
+- -[BKTOCWebViewCellLoadQueue _sendNextRequest]
+- -[BKTOCWebViewCellLoadQueue _snapshotCurrentContent]
+- -[BKTOCWebViewCellLoadQueue currentRequest]
+- -[BKTOCWebViewCellLoadQueue dequeueRequest]
+- -[BKTOCWebViewCellLoadQueue enqueueRequest:]
+- -[BKTOCWebViewCellLoadQueue imageCache]
+- -[BKTOCWebViewCellLoadQueue init]
+- -[BKTOCWebViewCellLoadQueue isEmpty]
+- -[BKTOCWebViewCellLoadQueue queue]
+- -[BKTOCWebViewCellLoadQueue requests]
+- -[BKTOCWebViewCellLoadQueue setCurrentRequest:]
+- -[BKTOCWebViewCellLoadQueue setDefaultFrameAndPositionWebView]
+- -[BKTOCWebViewCellLoadQueue setFrameAndPositionWebView:]
+- -[BKTOCWebViewCellLoadQueue setImageCache:]
+- -[BKTOCWebViewCellLoadQueue setRequests:]
+- -[BKTOCWebViewCellLoadQueue setWebView:]
+- -[BKTOCWebViewCellLoadQueue webView:didCommitNavigation:]
+- -[BKTOCWebViewCellLoadQueue webView:didFailNavigation:withError:]
+- -[BKTOCWebViewCellLoadQueue webView:didFinishNavigation:]
+- -[BKTOCWebViewCellLoadQueue webView]
+- -[BKTOCWebViewCellLoadRequest .cxx_destruct]
+- -[BKTOCWebViewCellLoadRequest baseURL]
+- -[BKTOCWebViewCellLoadRequest cacheKey]
+- -[BKTOCWebViewCellLoadRequest copyWithZone:]
+- -[BKTOCWebViewCellLoadRequest htmlContentString]
+- -[BKTOCWebViewCellLoadRequest htmlTemplate]
+- -[BKTOCWebViewCellLoadRequest initWithHTML:maxSpan:selectedColor:baseURL:forObject:]
+- -[BKTOCWebViewCellLoadRequest requester]
+- -[BKTOCWebViewCellLoadRequest selectedColor]
+- -[BKTOCWebViewCellLoadRequest span]
+- -[BKTOCWebViewController2 .cxx_destruct]
+- -[BKTOCWebViewController2 _doInitialWebViewPositionAndLoad]
+- -[BKTOCWebViewController2 _indexPathForURL:]
+- -[BKTOCWebViewController2 _updateContentInsets]
+- -[BKTOCWebViewController2 _webView:webContentProcessDidTerminateWithReason:]
+- -[BKTOCWebViewController2 _webViewWantsToLoadURL:navigationIsClickOrOther:]
+- -[BKTOCWebViewController2 activityIndicator]
+- -[BKTOCWebViewController2 applyClassName:toOnlyLinkWithHref:]
+- -[BKTOCWebViewController2 centerWebView]
+- -[BKTOCWebViewController2 chapterInfoForCurrentNode]
+- -[BKTOCWebViewController2 chapterInfoForPageNumber:]
+- -[BKTOCWebViewController2 contentSize]
+- -[BKTOCWebViewController2 elementIdForChapterInfo:]
+- -[BKTOCWebViewController2 elementIdForCurrentNode]
+- -[BKTOCWebViewController2 fetchedResultsControllerAscendingOrder]
+- -[BKTOCWebViewController2 highlightCurrentNodeWithCompletionBlock:]
+- -[BKTOCWebViewController2 highlightCurrentNode]
+- -[BKTOCWebViewController2 htmlLoaded]
+- -[BKTOCWebViewController2 htmlMarkup]
+- -[BKTOCWebViewController2 installJavaScriptWithCompletionBlock:]
+- -[BKTOCWebViewController2 invalidateFollowingThemeChange]
+- -[BKTOCWebViewController2 loadHTML]
+- -[BKTOCWebViewController2 pageIndexForLocation:]
+- -[BKTOCWebViewController2 pageLabelFont]
+- -[BKTOCWebViewController2 paginationDidLoad]
+- -[BKTOCWebViewController2 releaseViews]
+- -[BKTOCWebViewController2 scrollToItemId:completionBlock:]
+- -[BKTOCWebViewController2 scrollView]
+- -[BKTOCWebViewController2 setActivityIndicator:]
+- -[BKTOCWebViewController2 setContentSize:]
+- -[BKTOCWebViewController2 setHtmlLoaded:]
+- -[BKTOCWebViewController2 setTheme:]
+- -[BKTOCWebViewController2 setTocData:]
+- -[BKTOCWebViewController2 setWebView:]
+- -[BKTOCWebViewController2 tocContentType]
+- -[BKTOCWebViewController2 tocDataIndexFromChapterHref:]
+- -[BKTOCWebViewController2 tocData]
+- -[BKTOCWebViewController2 tocDelegate]
+- -[BKTOCWebViewController2 updatePageNumberStrings]
+- -[BKTOCWebViewController2 updatePageStylesheet]
+- -[BKTOCWebViewController2 updateView]
+- -[BKTOCWebViewController2 viewDidLoad]
+- -[BKTOCWebViewController2 viewWillAppear:]
+- -[BKTOCWebViewController2 viewWillLayoutSubviews]
+- -[BKTOCWebViewController2 webView:decidePolicyForNavigationAction:decisionHandler:]
+- -[BKTOCWebViewController2 webView:didFinishNavigation:]
+- -[BKTOCWebViewController2 webView]
+- -[BKTOCWebViewTableViewCell .cxx_destruct]
+- -[BKTOCWebViewTableViewCell _setSelectedAppearance:]
+- -[BKTOCWebViewTableViewCell displayHTMLWithContents:fontFamily:fontSize:maxSpan:baseURL:]
+- -[BKTOCWebViewTableViewCell imageCache]
+- -[BKTOCWebViewTableViewCell prepareForReuse]
+- -[BKTOCWebViewTableViewCell selectedCacheKey]
+- -[BKTOCWebViewTableViewCell setCacheKey:]
+- -[BKTOCWebViewTableViewCell setImageCache:]
+- -[BKTOCWebViewTableViewCell setWebViewCachedImageView:]
+- -[BKTOCWebViewTableViewCell webViewCachedImageView]
+- -[BKTappyScrollView .cxx_destruct]
+- -[BKTappyScrollView dealloc]
+- -[BKTappyScrollView hitTest:withEvent:]
+- -[BKTappyScrollView setTargetView:]
+- -[BKTappyScrollView targetView]
+- -[BKTextHighlightView .cxx_destruct]
+- -[BKTextHighlightView _safeInsetRect:widthInset:heightInset:]
+- -[BKTextHighlightView _selectionImage]
+- -[BKTextHighlightView contentInsets]
+- -[BKTextHighlightView copyWithZone:]
+- -[BKTextHighlightView currentScale]
+- -[BKTextHighlightView didMoveToSuperview]
+- -[BKTextHighlightView highlightLine]
+- -[BKTextHighlightView highlightType]
+- -[BKTextHighlightView imageHighlight]
+- -[BKTextHighlightView initWithFrame:]
+- -[BKTextHighlightView lightenBlend]
+- -[BKTextHighlightView owner]
+- -[BKTextHighlightView setContentInsets:]
+- -[BKTextHighlightView setCurrentScale:]
+- -[BKTextHighlightView setFrame:]
+- -[BKTextHighlightView setHighlightLine:]
+- -[BKTextHighlightView setHighlightType:]
+- -[BKTextHighlightView setImageHighlight:]
+- -[BKTextHighlightView setLightenBlend:]
+- -[BKTextHighlightView setOwner:]
+- -[BKTextHighlightView updateHighlightImage]
+- -[BKTextIndex .cxx_destruct]
+- -[BKTextIndex containsTextUnitWithOrdinal:]
+- -[BKTextIndex dealloc]
+- -[BKTextIndex encodeWithCoder:]
+- -[BKTextIndex indexTextUnit:withOrdinal:]
+- -[BKTextIndex indexTextUnit:withOrdinal:indexSynchronously:]
+- -[BKTextIndex initWithCoder:]
+- -[BKTextIndex initWithName:]
+- -[BKTextIndex name]
+- -[BKTextIndex queryForString:maxOrdinal:]
+- -[BKTextIndex save]
+- -[BKTextIndex save].cold.1
+- -[BKTextIndex version]
+- -[BKTextIndexQueryResult .cxx_destruct]
+- -[BKTextIndexQueryResult initWithOrdinals:allOrdinals:]
+- -[BKTextIndexQueryResult isCandidateOrdinal:isMissing:]
+- -[BKThumbnailBookViewConfiguration .cxx_destruct]
+- -[BKThumbnailBookViewConfiguration _isCompactHeight]
+- -[BKThumbnailBookViewConfiguration _setupCompactWidth]
+- -[BKThumbnailBookViewConfiguration _setupDefault]
+- -[BKThumbnailBookViewConfiguration _setupRegularWidth]
+- -[BKThumbnailBookViewConfiguration backgroundExtensionForWindow:]
+- -[BKThumbnailBookViewConfiguration context]
+- -[BKThumbnailBookViewConfiguration initWithContext:]
+- -[BKThumbnailBookViewConfiguration libraryButtonTitle]
+- -[BKThumbnailBookViewConfiguration resumeButtonTitleEdgeInsets]
+- -[BKThumbnailBookViewConfiguration sideContentInset]
+- -[BKThumbnailBookViewConfiguration singlePagePadding]
+- -[BKThumbnailBookViewConfiguration statusBarHeightForWindow:]
+- -[BKThumbnailBookViewConfiguration tapToTurnWidth]
+- -[BKThumbnailBookViewConfiguration tocButtonImageEdgeInsets]
+- -[BKThumbnailBookViewController .cxx_destruct]
+- -[BKThumbnailBookViewController _audioBarButtonItem]
+- -[BKThumbnailBookViewController _bk_backgroundColor]
+- -[BKThumbnailBookViewController _bookmarkBarButtonItem]
+- -[BKThumbnailBookViewController _bookmarkButton]
+- -[BKThumbnailBookViewController _bookmarkDirectory]
+- -[BKThumbnailBookViewController _brightnessBarButtonItem]
+- -[BKThumbnailBookViewController _buyBarButtonItem]
+- -[BKThumbnailBookViewController _containerBoundsForGeometry]
+- -[BKThumbnailBookViewController _contentAspectRatio]
+- -[BKThumbnailBookViewController _directoryController]
+- -[BKThumbnailBookViewController _directoryForType:]
+- -[BKThumbnailBookViewController _directorySwitchBarButtonItem]
+- -[BKThumbnailBookViewController _editToolboxBarButtonItem]
+- -[BKThumbnailBookViewController _evaluateUndoRedoEnabled]
+- -[BKThumbnailBookViewController _fontBarButtonItem]
+- -[BKThumbnailBookViewController _infoHUDHeight]
+- -[BKThumbnailBookViewController _isUsingContent:]
+- -[BKThumbnailBookViewController _libraryBarButtonItem]
+- -[BKThumbnailBookViewController _pageDirectory]
+- -[BKThumbnailBookViewController _pdfBookmarkDirectory]
+- -[BKThumbnailBookViewController _pdfOutlineDirectory]
+- -[BKThumbnailBookViewController _pdfPageDirectory]
+- -[BKThumbnailBookViewController _reportBookOpenDonation]
+- -[BKThumbnailBookViewController _reportDonation:context:]
+- -[BKThumbnailBookViewController _reportFontMenuOpenDonation]
+- -[BKThumbnailBookViewController _reportLayoutUsedDonation]
+- -[BKThumbnailBookViewController _resumeBarButtonItem]
+- -[BKThumbnailBookViewController _searchBarButtonItem]
+- -[BKThumbnailBookViewController _shouldNavBarShowTitle]
+- -[BKThumbnailBookViewController _shouldShowAudioToolbarButton]
+- -[BKThumbnailBookViewController _tocBarButtonItem]
+- -[BKThumbnailBookViewController _tocDirectory]
+- -[BKThumbnailBookViewController _traitCollectionDidChange:previousTraitCollection:]
+- -[BKThumbnailBookViewController _updateBuyButton]
+- -[BKThumbnailBookViewController _updateDirectorySwitch]
+- -[BKThumbnailBookViewController _updateLibraryBarButtonItem]
+- -[BKThumbnailBookViewController _updatePageNumberHUDVisible:]
+- -[BKThumbnailBookViewController _updateToolbarPositionAndBackgroundExtension]
+- -[BKThumbnailBookViewController _update]
+- -[BKThumbnailBookViewController _zoomInAnimationDidStop:]
+- -[BKThumbnailBookViewController _zoomOutAnimationDidStop:]
+- -[BKThumbnailBookViewController analyticsReadingSettingsData]
+- -[BKThumbnailBookViewController appearanceMenuItems]
+- -[BKThumbnailBookViewController appearanceViewController:didChangeLayout:]
+- -[BKThumbnailBookViewController assetEditingEnabled]
+- -[BKThumbnailBookViewController assetViewControllerDidEndLiveResize]
+- -[BKThumbnailBookViewController assetViewControllerDidEnterFullScreen]
+- -[BKThumbnailBookViewController assetViewControllerDidExitFullScreen]
+- -[BKThumbnailBookViewController assetViewControllerDidFinishUpdateForLiveResize]
+- -[BKThumbnailBookViewController assetViewControllerUpdateCloseStateTypeIfNeeded]
+- -[BKThumbnailBookViewController assetViewControllerUpdateToolbars]
+- -[BKThumbnailBookViewController assetViewControllerWillBeginLiveResize]
+- -[BKThumbnailBookViewController backgroundColorForLiveResize]
+- -[BKThumbnailBookViewController backgroundView]
+- -[BKThumbnailBookViewController bookContentViewControllerView]
+- -[BKThumbnailBookViewController bookContentViewController]
+- -[BKThumbnailBookViewController bookContentViewImage:]
+- -[BKThumbnailBookViewController bookContentView]
+- -[BKThumbnailBookViewController bookToolbarCurrentPageString]
+- -[BKThumbnailBookViewController bookToolbarMode]
+- -[BKThumbnailBookViewController bookToolbarShareURL]
+- -[BKThumbnailBookViewController bookToolbarTitle]
+- -[BKThumbnailBookViewController bookToolbarTransparency]
+- -[BKThumbnailBookViewController bookmarkToolTip]
+- -[BKThumbnailBookViewController books_decreaseZoom:]
+- -[BKThumbnailBookViewController books_disableContinuousScroll:]
+- -[BKThumbnailBookViewController books_enableContinuousScroll:]
+- -[BKThumbnailBookViewController books_increaseZoom:]
+- -[BKThumbnailBookViewController books_resetZoom:]
+- -[BKThumbnailBookViewController books_showBookmarks:]
+- -[BKThumbnailBookViewController books_showTableOfContents:]
+- -[BKThumbnailBookViewController books_showThumbnails:]
+- -[BKThumbnailBookViewController books_skipBackward:]
+- -[BKThumbnailBookViewController books_stopPlaying:]
+- -[BKThumbnailBookViewController books_toggleContinuousScroll:]
+- -[BKThumbnailBookViewController books_togglePlaying:]
+- -[BKThumbnailBookViewController buildHoverControlRegionWithBuilder:]
+- -[BKThumbnailBookViewController buttonTitleColor]
+- -[BKThumbnailBookViewController canOrdinalOnlyLocationsBeVisible]
+- -[BKThumbnailBookViewController canPerformAction:withSender:]
+- -[BKThumbnailBookViewController canShowBookmarks]
+- -[BKThumbnailBookViewController canShowControlsDuringOpenClose]
+- -[BKThumbnailBookViewController canShowTableOfContents]
+- -[BKThumbnailBookViewController canShowThumbnails]
+- -[BKThumbnailBookViewController catalystToolbarActive]
+- -[BKThumbnailBookViewController close:]
+- -[BKThumbnailBookViewController configuration]
+- -[BKThumbnailBookViewController configurations]
+- -[BKThumbnailBookViewController contentController:contentDidBecomeAvailable:animated:]
+- -[BKThumbnailBookViewController contentController:contentView:iconForCustomizationID:]
+- -[BKThumbnailBookViewController contentController:didFinishWithContent:animated:]
+- -[BKThumbnailBookViewController contentSizeCategoryDidChange]
+- -[BKThumbnailBookViewController contentViewControllerForPageNumber:]
+- -[BKThumbnailBookViewController contentViewReady:]
+- -[BKThumbnailBookViewController currentLocation]
+- -[BKThumbnailBookViewController currentPageLocation]
+- -[BKThumbnailBookViewController currentPages]
+- -[BKThumbnailBookViewController dealloc]
+- -[BKThumbnailBookViewController defaultDirectoryType]
+- -[BKThumbnailBookViewController defaultPageNumberHUDWidthConstraintConstant]
+- -[BKThumbnailBookViewController didChangeLocationClosing:suspending:]
+- -[BKThumbnailBookViewController directoryContent:didSelectLocation:]
+- -[BKThumbnailBookViewController directoryContent:locationForPageNumber:]
+- -[BKThumbnailBookViewController directoryContent:pageNumberForLocation:]
+- -[BKThumbnailBookViewController directoryController]
+- -[BKThumbnailBookViewController directorySwitchPressed:]
+- -[BKThumbnailBookViewController directorySwitcher]
+- -[BKThumbnailBookViewController directoryTOCIsVisible]
+- -[BKThumbnailBookViewController directoryTOCViewControllerView]
+- -[BKThumbnailBookViewController directoryTOCViewController]
+- -[BKThumbnailBookViewController directoryTypeForBookmarks]
+- -[BKThumbnailBookViewController directoryTypeForPageThumbnails]
+- -[BKThumbnailBookViewController directoryTypeForSegmentIndex:]
+- -[BKThumbnailBookViewController directoryTypeForTOC]
+- -[BKThumbnailBookViewController directoryTypeToSegmentIndex]
+- -[BKThumbnailBookViewController directoryType]
+- -[BKThumbnailBookViewController documentForDirectory]
+- -[BKThumbnailBookViewController donePressedFromToolbar:]
+- -[BKThumbnailBookViewController edgeInsetsForContentViewController:]
+- -[BKThumbnailBookViewController editRedoBarButtonItem]
+- -[BKThumbnailBookViewController editUndoBarButtonItem]
+- -[BKThumbnailBookViewController existingContentViewControllerForPageNumber:]
+- -[BKThumbnailBookViewController fontButton]
+- -[BKThumbnailBookViewController handleEditRedo:]
+- -[BKThumbnailBookViewController handleEditUndo:]
+- -[BKThumbnailBookViewController handleEditUndoAll:]
+- -[BKThumbnailBookViewController hasHighlightedText]
+- -[BKThumbnailBookViewController hasSpreadPages]
+- -[BKThumbnailBookViewController highlightSearchResult:]
+- -[BKThumbnailBookViewController imageCache]
+- -[BKThumbnailBookViewController initWithBook:storeID:]
+- -[BKThumbnailBookViewController initialJumpLocation]
+- -[BKThumbnailBookViewController isAnnotationVisible:]
+- -[BKThumbnailBookViewController isInterfaceRTL]
+- -[BKThumbnailBookViewController isLocationOnCurrentPage:]
+- -[BKThumbnailBookViewController isScrolledContinuousFixedLayout]
+- -[BKThumbnailBookViewController jumpToLocation:animated:completion:]
+- -[BKThumbnailBookViewController makeContentVisible]
+- -[BKThumbnailBookViewController makeTOCVisible]
+- -[BKThumbnailBookViewController newGlassButton]
+- -[BKThumbnailBookViewController onlySupportsScrollingLayout]
+- -[BKThumbnailBookViewController pageCountDidUpdate]
+- -[BKThumbnailBookViewController pageNavigationDidChangeLocation:]
+- -[BKThumbnailBookViewController pageNavigationDidRemoveContentForPageNumber:]
+- -[BKThumbnailBookViewController pageNavigationDidRemoveContentViewController:]
+- -[BKThumbnailBookViewController pageNavigationToggleControls:]
+- -[BKThumbnailBookViewController pageNumberHUDHeightConstraint]
+- -[BKThumbnailBookViewController pageNumberHUDTopConstraint]
+- -[BKThumbnailBookViewController pageNumberHUDWidthConstraint]
+- -[BKThumbnailBookViewController pageNumberHUD]
+- -[BKThumbnailBookViewController positionForBar:]
+- -[BKThumbnailBookViewController preferredLayoutCache]
+- -[BKThumbnailBookViewController releaseViews]
+- -[BKThumbnailBookViewController renderingCacheCallbackImage:context:pageNumber:]
+- -[BKThumbnailBookViewController resume:]
+- -[BKThumbnailBookViewController scrollLayoutForBook:]
+- -[BKThumbnailBookViewController scrubValueChanged:]
+- -[BKThumbnailBookViewController scrubberBarButtonItem]
+- -[BKThumbnailBookViewController scrubber]
+- -[BKThumbnailBookViewController searchButtonItem]
+- -[BKThumbnailBookViewController segmentIndexForDirectoryType:]
+- -[BKThumbnailBookViewController segmentIndexToDirectoryType]
+- -[BKThumbnailBookViewController separatorInsetsForContentViewController:]
+- -[BKThumbnailBookViewController setControlsVisible:animated:completion:]
+- -[BKThumbnailBookViewController setDirectoryType:]
+- -[BKThumbnailBookViewController setInitialJumpLocation:]
+- -[BKThumbnailBookViewController setLayout:]
+- -[BKThumbnailBookViewController setPageNumberHUDHeightConstraint:]
+- -[BKThumbnailBookViewController setPageNumberHUDTopConstraint:]
+- -[BKThumbnailBookViewController setPageNumberHudTextLabelForValidatedPageNumber:visiblePageCount:validatedPageCount:]
+- -[BKThumbnailBookViewController setPreferredLayoutCache:]
+- -[BKThumbnailBookViewController setSection:animated:adjustScrollToReveal:]
+- -[BKThumbnailBookViewController setTipContentController:]
+- -[BKThumbnailBookViewController setTipContentViewController:]
+- -[BKThumbnailBookViewController setTopBarTopConstraint:]
+- -[BKThumbnailBookViewController setTopToolBarVisible:]
+- -[BKThumbnailBookViewController setVerticalScrubber:]
+- -[BKThumbnailBookViewController shouldDisplayBookmarksButton]
+- -[BKThumbnailBookViewController shouldDisplayBuyButton]
+- -[BKThumbnailBookViewController shouldDisplayContentsButton]
+- -[BKThumbnailBookViewController shouldDisplayHighlightsButton]
+- -[BKThumbnailBookViewController shouldDisplayPageThumbnailsButton]
+- -[BKThumbnailBookViewController shouldDisplayReadaloudControls]
+- -[BKThumbnailBookViewController shouldDisplaySearchControls]
+- -[BKThumbnailBookViewController shouldDisplaySettingsControls]
+- -[BKThumbnailBookViewController shouldDisplayTitleWhenActive]
+- -[BKThumbnailBookViewController shouldDisplayTitleWhenInactive]
+- -[BKThumbnailBookViewController shouldShowBookmarkControl]
+- -[BKThumbnailBookViewController shouldShowBrightnessControl]
+- -[BKThumbnailBookViewController shouldShowHUDs]
+- -[BKThumbnailBookViewController shouldShowTOCControl]
+- -[BKThumbnailBookViewController shouldShowUndoControls]
+- -[BKThumbnailBookViewController showAudioControlsFromToolbar:]
+- -[BKThumbnailBookViewController showBookmarksFromToolbar:]
+- -[BKThumbnailBookViewController showFontPicker:]
+- -[BKThumbnailBookViewController showGlossaryFromToolbar:]
+- -[BKThumbnailBookViewController showLibrary:]
+- -[BKThumbnailBookViewController showNotesFromToolbar:]
+- -[BKThumbnailBookViewController showOverlayViewController:fromView:popoverOnPhone:passthroughViews:]
+- -[BKThumbnailBookViewController showSettingsFromToolbar:]
+- -[BKThumbnailBookViewController showTOC:]
+- -[BKThumbnailBookViewController showTOCFromToolbar:]
+- -[BKThumbnailBookViewController showThumbnailTOCFromToolbar:]
+- -[BKThumbnailBookViewController showTipContentViewControllerIfAvailable:]
+- -[BKThumbnailBookViewController signalIdentifierForBookOpenDonation]
+- -[BKThumbnailBookViewController signalIdentifierForFontMenuOpenDonation]
+- -[BKThumbnailBookViewController signalIdentifierForLayoutUsedDonation]
+- -[BKThumbnailBookViewController snapshotView:]
+- -[BKThumbnailBookViewController snapshotView:].cold.1
+- -[BKThumbnailBookViewController storeChangedNotification:]
+- -[BKThumbnailBookViewController supportsBrightness]
+- -[BKThumbnailBookViewController supportsDocumentEditingUndoAll]
+- -[BKThumbnailBookViewController supportsDocumentEditingUndo]
+- -[BKThumbnailBookViewController supportsDocumentEditing]
+- -[BKThumbnailBookViewController supportsScrollLayout]
+- -[BKThumbnailBookViewController thumbnailDirectory:cancelPreviousRenderRequestsWithContext:]
+- -[BKThumbnailBookViewController thumbnailDirectory:thumbnailForPage:size:context:]
+- -[BKThumbnailBookViewController thumbnailScrubber:cancelPreviousRenderRequestsWithContext:]
+- -[BKThumbnailBookViewController thumbnailScrubber:pageTitleForPageNumber:]
+- -[BKThumbnailBookViewController thumbnailScrubber:thumbnailForPage:size:context:]
+- -[BKThumbnailBookViewController tipContentController]
+- -[BKThumbnailBookViewController tipContentViewController]
+- -[BKThumbnailBookViewController tipContextName]
+- -[BKThumbnailBookViewController tocToolTip]
+- -[BKThumbnailBookViewController tocViewController:didSelectChapter:]
+- -[BKThumbnailBookViewController toggleBookmarkFromToolbar:]
+- -[BKThumbnailBookViewController toggleControls:]
+- -[BKThumbnailBookViewController toggleEditAssetMode:]
+- -[BKThumbnailBookViewController toolbarDidBecomeActive:]
+- -[BKThumbnailBookViewController toolbarDidBecomeInactive:]
+- -[BKThumbnailBookViewController topBarTopConstraint]
+- -[BKThumbnailBookViewController topToolbar]
+- -[BKThumbnailBookViewController transitionContentBackgroundColor]
+- -[BKThumbnailBookViewController transitionContentView]
+- -[BKThumbnailBookViewController turnPages:animated:]
+- -[BKThumbnailBookViewController turnToFirstPage:animated:]
+- -[BKThumbnailBookViewController turnToInitialPage:animated:]
+- -[BKThumbnailBookViewController turnToPageNumber:animated:]
+- -[BKThumbnailBookViewController updateBookContentConstraints]
+- -[BKThumbnailBookViewController updateBookmarkButton:]
+- -[BKThumbnailBookViewController updateBottomToolbar:]
+- -[BKThumbnailBookViewController updateContentScale]
+- -[BKThumbnailBookViewController updateHUDVisibilityAnimated:]
+- -[BKThumbnailBookViewController updateScrubber:]
+- -[BKThumbnailBookViewController updateTopToolbar:]
+- -[BKThumbnailBookViewController validLayoutForBook:desiredLayout:]
+- -[BKThumbnailBookViewController validateCommand:]
+- -[BKThumbnailBookViewController verticalScrubber]
+- -[BKThumbnailBookViewController viewDidAppear:]
+- -[BKThumbnailBookViewController viewDidLayoutSubviews]
+- -[BKThumbnailBookViewController viewDidLoad]
+- -[BKThumbnailBookViewController viewDidMoveToWindow:shouldAppearOrDisappear:]
+- -[BKThumbnailBookViewController viewWillAppear:]
+- -[BKThumbnailBookViewController viewWillDisappear:]
+- -[BKThumbnailBookViewController viewWillLayoutSubviews]
+- -[BKThumbnailBookViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKThumbnailBookViewController visibleContentViewController]
+- -[BKThumbnailBookViewController wantsBottomToolbar]
+- -[BKThumbnailBookViewControllerAccessibility _accessibilityLoadAccessibilityInformation]
+- -[BKThumbnailBookViewControllerAccessibility _audioBarButtonItem]
+- -[BKThumbnailBookViewControllerAccessibility _bookmarkBarButtonItem]
+- -[BKThumbnailBookViewControllerAccessibility _bookmarkButton]
+- -[BKThumbnailBookViewControllerAccessibility _brightnessBarButtonItem]
+- -[BKThumbnailBookViewControllerAccessibility _directorySwitchBarButtonItem]
+- -[BKThumbnailBookViewControllerAccessibility _editToolboxBarButtonItem]
+- -[BKThumbnailBookViewControllerAccessibility _fontBarButtonItem]
+- -[BKThumbnailBookViewControllerAccessibility _libraryBarButtonItem]
+- -[BKThumbnailBookViewControllerAccessibility _searchBarButtonItem]
+- -[BKThumbnailBookViewControllerAccessibility _tocBarButtonItem]
+- -[BKThumbnailBookViewControllerAccessibility _updateBookmark]
+- -[BKThumbnailBookViewControllerAccessibility bkAccessibilityIsPageBookmarked]
+- -[BKThumbnailBookViewControllerAccessibility bkaxBookmarkPage]
+- -[BKThumbnailBookViewControllerAccessibility bkaxUnbookmarkPage]
+- -[BKThumbnailBookViewControllerAccessibility contentViewReady:]
+- -[BKThumbnailBookViewControllerAccessibility scrubValueChanged:]
+- -[BKThumbnailBookViewControllerAccessibility toggleBookmark:]
+- -[BKThumbnailBookViewControllerAccessibility updateBookmarkButton]
+- -[BKThumbnailBookViewControllerAccessibility viewDidLoad]
+- -[BKThumbnailDirectory .cxx_destruct]
+- -[BKThumbnailDirectory _traitCollectionDidChange:previousTraitCollection:]
+- -[BKThumbnailDirectory _updateColors]
+- -[BKThumbnailDirectory adjustGridMetrics]
+- -[BKThumbnailDirectory adjustToNewSize:]
+- -[BKThumbnailDirectory animateRotationWithDuration:]
+- -[BKThumbnailDirectory cell:matchesPageNumber:]
+- -[BKThumbnailDirectory cellAspectRatio]
+- -[BKThumbnailDirectory cellClass]
+- -[BKThumbnailDirectory cellSize]
+- -[BKThumbnailDirectory cellWidth]
+- -[BKThumbnailDirectory configureCell:atIndex:]
+- -[BKThumbnailDirectory dealloc]
+- -[BKThumbnailDirectory didRotate]
+- -[BKThumbnailDirectory frameForThumbnailAtLocation:]
+- -[BKThumbnailDirectory gridView:cellForIndex:]
+- -[BKThumbnailDirectory gridView:didSelectItemAtIndex:]
+- -[BKThumbnailDirectory gridView:numberOfColumnsForSize:]
+- -[BKThumbnailDirectory gridView]
+- -[BKThumbnailDirectory hidesSpine]
+- -[BKThumbnailDirectory imageSize]
+- -[BKThumbnailDirectory indexForLocation:]
+- -[BKThumbnailDirectory initWithNibName:bundle:]
+- -[BKThumbnailDirectory leftPageNumberAtIndex:]
+- -[BKThumbnailDirectory loadView]
+- -[BKThumbnailDirectory locationAtIndex:]
+- -[BKThumbnailDirectory numberOfCellsInGridView:]
+- -[BKThumbnailDirectory pNumColumnsForSize:]
+- -[BKThumbnailDirectory pageNumberForCellIndex:]
+- -[BKThumbnailDirectory releaseViews]
+- -[BKThumbnailDirectory reloadCellAtIndex:]
+- -[BKThumbnailDirectory reloadData]
+- -[BKThumbnailDirectory rightPageNumberAtIndex:]
+- -[BKThumbnailDirectory scrollToLocation:]
+- -[BKThumbnailDirectory scrollViewDidEndDecelerating:]
+- -[BKThumbnailDirectory scrollViewDidScroll:]
+- -[BKThumbnailDirectory setCellAspectRatio:]
+- -[BKThumbnailDirectory setCellWidth:]
+- -[BKThumbnailDirectory setHidesSpine:]
+- -[BKThumbnailDirectory setLayoutDirection:]
+- -[BKThumbnailDirectory setShowSpreads:]
+- -[BKThumbnailDirectory setTheme:]
+- -[BKThumbnailDirectory setThumbnail:forPage:]
+- -[BKThumbnailDirectory showSpreads]
+- -[BKThumbnailDirectory thumbnailForPageNumber:size:]
+- -[BKThumbnailDirectory updateVisibleArtwork]
+- -[BKThumbnailDirectory viewDidAppear:]
+- -[BKThumbnailDirectory viewDidLayoutSubviews]
+- -[BKThumbnailDirectory viewWillAppear:]
+- -[BKThumbnailDirectory viewWillTransitionToSize:withTransitionCoordinator:]
+- -[BKThumbnailDirectoryCell .cxx_destruct]
+- -[BKThumbnailDirectoryCell _traitCollectionDidChange:previousTraitCollection:]
+- -[BKThumbnailDirectoryCell contentRectForBounds:]
+- -[BKThumbnailDirectoryCell hasRibbon]
+- -[BKThumbnailDirectoryCell initWithFrame:]
+- -[BKThumbnailDirectoryCell layoutSubviews]
+- -[BKThumbnailDirectoryCell pageView]
+- -[BKThumbnailDirectoryCell prepareForReuse]
+- -[BKThumbnailDirectoryCell setHasRibbon:]
+- -[BKThumbnailScrubber .cxx_destruct]
+- -[BKThumbnailScrubber _bkAccessibilityAnnounceValue]
+- -[BKThumbnailScrubber _bkAccessibilityValueDidChange]
+- -[BKThumbnailScrubber _computeSegmentCountForRect:segmentSize:idealCount:orientation:]
+- -[BKThumbnailScrubber _pageRangeAtIndex:segmentCount:pageCount:orientation:layoutDirection:spread:]
+- -[BKThumbnailScrubber _pageRangeForPageNumber:pageCount:spread:]
+- -[BKThumbnailScrubber _segmentSizeForMaxScrubberSize:orientation:cellAspectRatio:spread:]
+- -[BKThumbnailScrubber _updateCalloutPageView]
+- -[BKThumbnailScrubber _updateThumb]
+- -[BKThumbnailScrubber _updateThumbnails]
+- -[BKThumbnailScrubber accessibilityActivate]
+- -[BKThumbnailScrubber accessibilityActivationPoint]
+- -[BKThumbnailScrubber accessibilityDecrement]
+- -[BKThumbnailScrubber accessibilityElementDidLoseFocus]
+- -[BKThumbnailScrubber accessibilityIncrement]
+- -[BKThumbnailScrubber beginTrackingWithTouch:withEvent:]
+- -[BKThumbnailScrubber bkAccessibilityAnnouncementString]
+- -[BKThumbnailScrubber calloutImageSize]
+- -[BKThumbnailScrubber callout]
+- -[BKThumbnailScrubber cancelPendingRenderRequests]
+- -[BKThumbnailScrubber cellAspectRatio]
+- -[BKThumbnailScrubber configureCell:pageRange:context:]
+- -[BKThumbnailScrubber continueTrackingWithTouch:withEvent:]
+- -[BKThumbnailScrubber delegate]
+- -[BKThumbnailScrubber endTrackingWithTouch:withEvent:]
+- -[BKThumbnailScrubber gravitationalPoint]
+- -[BKThumbnailScrubber hideThumbView]
+- -[BKThumbnailScrubber hidesSpine]
+- -[BKThumbnailScrubber hitRectForThumb]
+- -[BKThumbnailScrubber idealCellCount]
+- -[BKThumbnailScrubber intrinsicContentSize]
+- -[BKThumbnailScrubber isWithinGravitationalPointReach]
+- -[BKThumbnailScrubber layoutSubviews]
+- -[BKThumbnailScrubber leftCalloutPageNumber]
+- -[BKThumbnailScrubber loadAnyMissingThumbnails]
+- -[BKThumbnailScrubber pageNumberForValue:]
+- -[BKThumbnailScrubber pageNumber]
+- -[BKThumbnailScrubber pageRangeAtIndex:]
+- -[BKThumbnailScrubber pageRangeForPageNumber:]
+- -[BKThumbnailScrubber pointForValue:]
+- -[BKThumbnailScrubber prewarmThumbnailsForScrubberSize:]
+- -[BKThumbnailScrubber rightCalloutPageNumber]
+- -[BKThumbnailScrubber segmentIndexForPage:]
+- -[BKThumbnailScrubber segmentSize]
+- -[BKThumbnailScrubber setBkAccessibilityAnnouncementString:]
+- -[BKThumbnailScrubber setCallout:]
+- -[BKThumbnailScrubber setCellAspectRatio:]
+- -[BKThumbnailScrubber setDelegate:]
+- -[BKThumbnailScrubber setFrame:]
+- -[BKThumbnailScrubber setGravitationalPoint:]
+- -[BKThumbnailScrubber setHideThumbView:]
+- -[BKThumbnailScrubber setHidesSpine:]
+- -[BKThumbnailScrubber setIsWithinGravitationalPointReach:]
+- -[BKThumbnailScrubber setPageCount:]
+- -[BKThumbnailScrubber setPageNumber:]
+- -[BKThumbnailScrubber setShowSpreads:]
+- -[BKThumbnailScrubber setStrokeColor:]
+- -[BKThumbnailScrubber setThumbnail:forPage:context:]
+- -[BKThumbnailScrubber showSpreads]
+- -[BKThumbnailScrubber snapToGravitationalPoint]
+- -[BKThumbnailScrubber strokeColor]
+- -[BKThumbnailScrubber thumbRect]
+- -[BKThumbnailScrubber thumb]
+- -[BKThumbnailScrubber trackRectForBounds:]
+- -[BKThumbnailScrubber track]
+- -[BKThumbnailScrubber valueForPoint:]
+- -[BKThumbnailScrubber value]
+- -[BKThumbnailScrubberCell .cxx_destruct]
+- -[BKThumbnailScrubberCell imageView]
+- -[BKThumbnailScrubberCell image]
+- -[BKThumbnailScrubberCell initWithFrame:]
+- -[BKThumbnailScrubberCell layoutSubviews]
+- -[BKThumbnailScrubberCell setImage:]
+- -[BKThumbnailScrubberCell setStrokeColor:]
+- -[BKThumbnailScrubberCell strokeColor]
+- -[BKThumbnailScrubberTrack .cxx_destruct]
+- -[BKThumbnailScrubberTrack cellAtIndex:]
+- -[BKThumbnailScrubberTrack cellClass]
+- -[BKThumbnailScrubberTrack deleteAllCells]
+- -[BKThumbnailScrubberTrack frameForSegmentAtIndex:]
+- -[BKThumbnailScrubberTrack initWithFrame:]
+- -[BKThumbnailScrubberTrack layoutSubviews]
+- -[BKThumbnailScrubberTrack segmentCount]
+- -[BKThumbnailScrubberTrack segmentSize]
+- -[BKThumbnailScrubberTrack segmentStrokeColor]
+- -[BKThumbnailScrubberTrack setCellClass:]
+- -[BKThumbnailScrubberTrack setSegmentCount:]
+- -[BKThumbnailScrubberTrack setSegmentSize:]
+- -[BKThumbnailScrubberTrack setSegmentStrokeColor:]
+- -[BKThumbnailScrubberTrack sizeThatFits:]
+- -[BKToolbarButton _accessibilityIsSpeakThisElement]
+- -[BKToolbarButton _isModernButton]
+- -[BKToolbarButton height]
+- -[BKToolbarButton miniHeight]
+- -[BKToolbarButton popoverArrowDirections]
+- -[BKToolbarButton popoverPresentationEdgeInsets]
+- -[BKToolbarButton popoverPresentationRect]
+- -[BKToolbarButton setHeight:]
+- -[BKToolbarButton setMiniHeight:]
+- -[BKToolbarButton setPopoverPresentationEdgeInsets:]
+- -[BKToolbarButton setTitle:forState:allowAnimation:]
+- -[BKToolbarButton sizeThatFits:]
+- -[BKVerticalLabel drawRect:]
+- -[BKViewController .cxx_destruct]
+- -[BKViewController adaptivePresentationStyleForPresentationController:]
+- -[BKViewController adaptivePresentationStyleForPresentationController:traitCollection:]
+- -[BKViewController ae_didDismissPopoverContainingThisViewController]
+- -[BKViewController ae_willDismissPopoverContainingThisViewController]
+- -[BKViewController barButtonItemForButton:]
+- -[BKViewController cleanupPopovers]
+- -[BKViewController currentOverlayViewController]
+- -[BKViewController dealloc]
+- -[BKViewController didChangeCurrentOverlayViewController]
+- -[BKViewController dismissCurrentPopoverAnimated:]
+- -[BKViewController dismissCurrentPopoverWithCompletion:]
+- -[BKViewController dismissCurrentPopoverWithCompletion:animated:]
+- -[BKViewController dismissCurrentPopoverWithCompletion:animated:].cold.1
+- -[BKViewController dismissCurrentPopover]
+- -[BKViewController displayViewControllerAsPopover:inView:fromRect:passthroughViews:]
+- -[BKViewController forcePopoverInsteadOfSheet]
+- -[BKViewController hideOverlayViewControllerWithCompletion:]
+- -[BKViewController initWithNibName:bundle:]
+- -[BKViewController layoutDirection]
+- -[BKViewController popoverPresentationController:willRepositionPopoverToRect:inView:]
+- -[BKViewController presentationControllerDidDismiss:]
+- -[BKViewController presentationControllerShouldDismiss:]
+- -[BKViewController releaseViews]
+- -[BKViewController setCurrentOverlayViewController:]
+- -[BKViewController setForcePopoverInsteadOfSheet:]
+- -[BKViewController setLayoutDirection:]
+- -[BKViewController showOverlayViewController:fromItem:popoverOnPhone:passthroughViews:popoverBackgroundColor:]
+- -[BKWK2EpubPaginationLayoutOperation .cxx_destruct]
+- -[BKWK2EpubPaginationLayoutOperation _annotationsToUpgradeGroupedByID]
+- -[BKWK2EpubPaginationLayoutOperation _completeLayout]
+- -[BKWK2EpubPaginationLayoutOperation _generatePaginationData]
+- -[BKWK2EpubPaginationLayoutOperation _loadWebView]
+- -[BKWK2EpubPaginationLayoutOperation _stylesheetSetForJob:]
+- -[BKWK2EpubPaginationLayoutOperation _transformLocationRectsAndPageOffsetResults:]
+- -[BKWK2EpubPaginationLayoutOperation _transformUpgradedBookmarks:]
+- -[BKWK2EpubPaginationLayoutOperation addScriptsToLoader:context:]
+- -[BKWK2EpubPaginationLayoutOperation annotationCFIStrings]
+- -[BKWK2EpubPaginationLayoutOperation annotationsToUpgrade]
+- -[BKWK2EpubPaginationLayoutOperation cfiForAnnotation:]
+- -[BKWK2EpubPaginationLayoutOperation cfiForLocation:]
+- -[BKWK2EpubPaginationLayoutOperation cfiLocationPageOffsets]
+- -[BKWK2EpubPaginationLayoutOperation cfiLocationRects]
+- -[BKWK2EpubPaginationLayoutOperation cfiOptions]
+- -[BKWK2EpubPaginationLayoutOperation cfisForHrefs]
+- -[BKWK2EpubPaginationLayoutOperation chapterTitleForLocation:]
+- -[BKWK2EpubPaginationLayoutOperation cleanupOptions]
+- -[BKWK2EpubPaginationLayoutOperation execute]
+- -[BKWK2EpubPaginationLayoutOperation initWithPaginationJob:paginationOperationController:]
+- -[BKWK2EpubPaginationLayoutOperation loadSemaphore]
+- -[BKWK2EpubPaginationLayoutOperation loader]
+- -[BKWK2EpubPaginationLayoutOperation locationForCfi:]
+- -[BKWK2EpubPaginationLayoutOperation navigationHandler:didFinishLoadOfURL:]
+- -[BKWK2EpubPaginationLayoutOperation navigationHandler:failedToLoadURL:error:]
+- -[BKWK2EpubPaginationLayoutOperation pageOffsetForCFILocation:]
+- -[BKWK2EpubPaginationLayoutOperation pageOffsetForHref:]
+- -[BKWK2EpubPaginationLayoutOperation pageRangeForLocation:]
+- -[BKWK2EpubPaginationLayoutOperation pageTitleForLocation:]
+- -[BKWK2EpubPaginationLayoutOperation paginationLayoutJob]
+- -[BKWK2EpubPaginationLayoutOperation paginationOptions]
+- -[BKWK2EpubPaginationLayoutOperation populateRecordJob:]
+- -[BKWK2EpubPaginationLayoutOperation scriptsDidCompleteForLoader:context:]
+- -[BKWK2EpubPaginationLayoutOperation setAnnotationCFIStrings:]
+- -[BKWK2EpubPaginationLayoutOperation setAnnotationsToUpgrade:]
+- -[BKWK2EpubPaginationLayoutOperation setCfiLocationPageOffsets:]
+- -[BKWK2EpubPaginationLayoutOperation setCfiLocationRects:]
+- -[BKWK2EpubPaginationLayoutOperation setCfiOptions:]
+- -[BKWK2EpubPaginationLayoutOperation setCfisForHrefs:]
+- -[BKWK2EpubPaginationLayoutOperation setCleanupOptions:]
+- -[BKWK2EpubPaginationLayoutOperation setLoadSemaphore:]
+- -[BKWK2EpubPaginationLayoutOperation setLoader:]
+- -[BKWK2EpubPaginationLayoutOperation setPaginationLayoutJob:]
+- -[BKWK2EpubPaginationLayoutOperation setPaginationOptions:]
+- -[BKWK2EpubPaginationLayoutOperation setSuccessfulLoad:]
+- -[BKWK2EpubPaginationLayoutOperation setTextNodeCharacterCounts:]
+- -[BKWK2EpubPaginationLayoutOperation setUpgradedBookmarks:]
+- -[BKWK2EpubPaginationLayoutOperation setWebView:]
+- -[BKWK2EpubPaginationLayoutOperation startCFIsForNavigationInfoHrefs:]
+- -[BKWK2EpubPaginationLayoutOperation successfulLoad]
+- -[BKWK2EpubPaginationLayoutOperation textNodeCharacterCounts]
+- -[BKWK2EpubPaginationLayoutOperation text]
+- -[BKWK2EpubPaginationLayoutOperation upgradedBookmarks]
+- -[BKWK2EpubPaginationLayoutOperation urlForNavigationHandler]
+- -[BKWK2EpubPaginationLayoutOperation webView]
+- -[BKWK2EpubSearchOperation .cxx_destruct]
+- -[BKWK2EpubSearchOperation _addResultsWithPhysicalPageHrefs:selectedRangeResult:]
+- -[BKWK2EpubSearchOperation _configureWebView]
+- -[BKWK2EpubSearchOperation _didFinishConfiguringWebView]
+- -[BKWK2EpubSearchOperation _doSearch]
+- -[BKWK2EpubSearchOperation _indexTextContent:]
+- -[BKWK2EpubSearchOperation _loadWebView:bookSnapshot:paginationOptions:stylesheetSet:cleanupOptions:cfiOptions:isConfigured:]
+- -[BKWK2EpubSearchOperation _loadWebViewFromMainThread]
+- -[BKWK2EpubSearchOperation _loadWebView]
+- -[BKWK2EpubSearchOperation _postSearch:]
+- -[BKWK2EpubSearchOperation _semaphoreWaitTime]
+- -[BKWK2EpubSearchOperation _startFindPerformIndexing:]
+- -[BKWK2EpubSearchOperation _startFindPerformIndexingFromMainThread:]
+- -[BKWK2EpubSearchOperation _startFind]
+- -[BKWK2EpubSearchOperation _startWebKitFind]
+- -[BKWK2EpubSearchOperation _waitForFindSemaphore]
+- -[BKWK2EpubSearchOperation _waitForLoadSemaphore]
+- -[BKWK2EpubSearchOperation _webView:didCountMatches:forString:]
+- -[BKWK2EpubSearchOperation _webView:didFailToFindString:]
+- -[BKWK2EpubSearchOperation _webView:didFindMatches:forString:withMatchIndex:]
+- -[BKWK2EpubSearchOperation baseURL]
+- -[BKWK2EpubSearchOperation cancel]
+- -[BKWK2EpubSearchOperation configureRequest]
+- -[BKWK2EpubSearchOperation contentProcessDidTerminate]
+- -[BKWK2EpubSearchOperation findSemaphore]
+- -[BKWK2EpubSearchOperation loadSemaphore]
+- -[BKWK2EpubSearchOperation loader]
+- -[BKWK2EpubSearchOperation navigationHandler:didFinishLoadOfURL:]
+- -[BKWK2EpubSearchOperation navigationHandler:failedToLoadURL:error:]
+- -[BKWK2EpubSearchOperation navigationHandlerWebContentLoadFailed:]
+- -[BKWK2EpubSearchOperation physicalPageMap]
+- -[BKWK2EpubSearchOperation requiresMainThread]
+- -[BKWK2EpubSearchOperation setBaseURL:]
+- -[BKWK2EpubSearchOperation setConfigureRequest:]
+- -[BKWK2EpubSearchOperation setContentProcessDidTerminate:]
+- -[BKWK2EpubSearchOperation setFindSemaphore:]
+- -[BKWK2EpubSearchOperation setLoadSemaphore:]
+- -[BKWK2EpubSearchOperation setLoader:]
+- -[BKWK2EpubSearchOperation setPhysicalPageMap:]
+- -[BKWK2EpubSearchOperation setSuccessfulLoad:]
+- -[BKWK2EpubSearchOperation setUrl:]
+- -[BKWK2EpubSearchOperation successfulLoad]
+- -[BKWK2EpubSearchOperation urlForNavigationHandler]
+- -[BKWK2EpubSearchOperation url]
+- -[BKWK2EpubSearchOperation webView]
+- -[BKWK2EpubTOCParseOperation .cxx_destruct]
+- -[BKWK2EpubTOCParseOperation _determineTextDirectionAndParseTOCCIdCssRules]
+- -[BKWK2EpubTOCParseOperation _loadWebView]
+- -[BKWK2EpubTOCParseOperation cleanupOptions]
+- -[BKWK2EpubTOCParseOperation execute]
+- -[BKWK2EpubTOCParseOperation initWithTOCParseJob:paginationOperationController:]
+- -[BKWK2EpubTOCParseOperation loadSemaphore]
+- -[BKWK2EpubTOCParseOperation loader]
+- -[BKWK2EpubTOCParseOperation navigationHandler:didFinishLoadOfURL:]
+- -[BKWK2EpubTOCParseOperation navigationHandler:failedToLoadURL:error:]
+- -[BKWK2EpubTOCParseOperation paginationOptions]
+- -[BKWK2EpubTOCParseOperation setCleanupOptions:]
+- -[BKWK2EpubTOCParseOperation setLoadSemaphore:]
+- -[BKWK2EpubTOCParseOperation setLoader:]
+- -[BKWK2EpubTOCParseOperation setPaginationOptions:]
+- -[BKWK2EpubTOCParseOperation setSuccessfulLoad:]
+- -[BKWK2EpubTOCParseOperation setTocParseJob:]
+- -[BKWK2EpubTOCParseOperation setWebView:]
+- -[BKWK2EpubTOCParseOperation successfulLoad]
+- -[BKWK2EpubTOCParseOperation tocParseJob]
+- -[BKWK2EpubTOCParseOperation urlForNavigationHandler]
+- -[BKWK2EpubTOCParseOperation webView]
+- -[BKWK2LoaderContentInfoRequest .cxx_destruct]
+- -[BKWK2LoaderContentInfoRequest bookSnapshot]
+- -[BKWK2LoaderContentInfoRequest cfiOptions]
+- -[BKWK2LoaderContentInfoRequest cleanupOptions]
+- -[BKWK2LoaderContentInfoRequest completion]
+- -[BKWK2LoaderContentInfoRequest description]
+- -[BKWK2LoaderContentInfoRequest fontSize]
+- -[BKWK2LoaderContentInfoRequest initWithLocation:bookSnapshot:ordinal:configuration:stylesheetSet:completion:]
+- -[BKWK2LoaderContentInfoRequest initWithPaginationOptions:cleanupOptions:cfiOptions:ordinal:stylesheetSet:fontSize:completion:]
+- -[BKWK2LoaderContentInfoRequest invalidateRequest]
+- -[BKWK2LoaderContentInfoRequest isRequestValid]
+- -[BKWK2LoaderContentInfoRequest location]
+- -[BKWK2LoaderContentInfoRequest ordinal]
+- -[BKWK2LoaderContentInfoRequest paginationOptions]
+- -[BKWK2LoaderContentInfoRequest requestID]
+- -[BKWK2LoaderContentInfoRequest restoreFrame]
+- -[BKWK2LoaderContentInfoRequest setBookSnapshot:]
+- -[BKWK2LoaderContentInfoRequest setCompletion:]
+- -[BKWK2LoaderContentInfoRequest setFontSize:]
+- -[BKWK2LoaderContentInfoRequest setLocation:]
+- -[BKWK2LoaderContentInfoRequest setPaginationOptions:]
+- -[BKWK2LoaderContentInfoRequest setRequestID:]
+- -[BKWK2LoaderContentInfoRequest setRestoreFrame:]
+- -[BKWK2LoaderContentInfoRequest setState:]
+- -[BKWK2LoaderContentInfoRequest setStylesheetSet:]
+- -[BKWK2LoaderContentInfoRequest state]
+- -[BKWK2LoaderContentInfoRequest stylesheetSet]
+- -[BKWK2WebViewLoader .cxx_destruct]
+- -[BKWK2WebViewLoader _pageOffsetForXOffset:]
+- -[BKWK2WebViewLoader _pageOffsetsForFrames:]
+- -[BKWK2WebViewLoader _postLoadComplete:]
+- -[BKWK2WebViewLoader _scrollPageCountFromCurrentPageSize]
+- -[BKWK2WebViewLoader _sendNextInfoRequest]
+- -[BKWK2WebViewLoader _uncheckedPageOffsetRangeForRect:]
+- -[BKWK2WebViewLoader _updateContentInformationWithRequest:]
+- -[BKWK2WebViewLoader anchorFrameForAnchor:]
+- -[BKWK2WebViewLoader anchorFrames]
+- -[BKWK2WebViewLoader anchorLocations]
+- -[BKWK2WebViewLoader calculatingPageLocations]
+- -[BKWK2WebViewLoader cancelCurrentRequest]
+- -[BKWK2WebViewLoader clearPaginationResults]
+- -[BKWK2WebViewLoader clientRectForEpubLocation:completion:]
+- -[BKWK2WebViewLoader clientRectsForLocation:completion:]
+- -[BKWK2WebViewLoader clientRectsForLocations:completion:]
+- -[BKWK2WebViewLoader contentInfo]
+- -[BKWK2WebViewLoader contentRectForVisibleContent]
+- -[BKWK2WebViewLoader contentRectForVisiblePage]
+- -[BKWK2WebViewLoader contentSize]
+- -[BKWK2WebViewLoader currentFirstVisbleCFILocation]
+- -[BKWK2WebViewLoader currentInfoRequest]
+- -[BKWK2WebViewLoader currentLastVisbleCFILocation]
+- -[BKWK2WebViewLoader currentSelectionCFI]
+- -[BKWK2WebViewLoader currentSelectionContainsAnchor]
+- -[BKWK2WebViewLoader currentTextSelection]
+- -[BKWK2WebViewLoader currentVisbleCFILocation]
+- -[BKWK2WebViewLoader currentlyUpdatingPaginationInformation]
+- -[BKWK2WebViewLoader dealloc]
+- -[BKWK2WebViewLoader delegate]
+- -[BKWK2WebViewLoader desiredWebViewFrame]
+- -[BKWK2WebViewLoader enqueueContentInfoRequest:]
+- -[BKWK2WebViewLoader generatePaginationDataCompletion:]
+- -[BKWK2WebViewLoader initWithPaginationOptions:ordinal:]
+- -[BKWK2WebViewLoader isVerticalDocument]
+- -[BKWK2WebViewLoader listeningForCFIUpdates]
+- -[BKWK2WebViewLoader locationForAnchor:]
+- -[BKWK2WebViewLoader locationForPageOffset:]
+- -[BKWK2WebViewLoader locationForPageOffset:contentOffset:]
+- -[BKWK2WebViewLoader mediaFrames]
+- -[BKWK2WebViewLoader mediaLocations]
+- -[BKWK2WebViewLoader ordinal]
+- -[BKWK2WebViewLoader pageCount]
+- -[BKWK2WebViewLoader pageOffsetForAnchor:]
+- -[BKWK2WebViewLoader pageOffsetForLocation:]
+- -[BKWK2WebViewLoader pageOffsetRangeForLocation:completion:]
+- -[BKWK2WebViewLoader pageOffsetRangeForRect:]
+- -[BKWK2WebViewLoader pageTextDirectionIsRTL]
+- -[BKWK2WebViewLoader paginationOptions]
+- -[BKWK2WebViewLoader parseTOCIdCssRulesForMap:completion:]
+- -[BKWK2WebViewLoader pendingInfoRequest]
+- -[BKWK2WebViewLoader rectForPageOffset:]
+- -[BKWK2WebViewLoader registerForVisibleCFIUpdates]
+- -[BKWK2WebViewLoader retryCount]
+- -[BKWK2WebViewLoader setAnchorFrames:]
+- -[BKWK2WebViewLoader setAnchorLocations:]
+- -[BKWK2WebViewLoader setCalculatingPageLocations:]
+- -[BKWK2WebViewLoader setContentInfo:]
+- -[BKWK2WebViewLoader setContentSize:]
+- -[BKWK2WebViewLoader setCurrentFirstVisbleCFILocation:]
+- -[BKWK2WebViewLoader setCurrentInfoRequest:]
+- -[BKWK2WebViewLoader setCurrentLastVisbleCFILocation:]
+- -[BKWK2WebViewLoader setCurrentSelectionCFI:]
+- -[BKWK2WebViewLoader setCurrentSelectionContainsAnchor:]
+- -[BKWK2WebViewLoader setCurrentTextSelection:]
+- -[BKWK2WebViewLoader setCurrentVisbleCFILocation:]
+- -[BKWK2WebViewLoader setDelegate:]
+- -[BKWK2WebViewLoader setDesiredWebViewFrame:]
+- -[BKWK2WebViewLoader setIsVerticalDocument:]
+- -[BKWK2WebViewLoader setListeningForCFIUpdates:]
+- -[BKWK2WebViewLoader setMediaFrames:]
+- -[BKWK2WebViewLoader setMediaLocations:]
+- -[BKWK2WebViewLoader setOrdinal:]
+- -[BKWK2WebViewLoader setPageCount:]
+- -[BKWK2WebViewLoader setPageTextDirectionIsRTL:]
+- -[BKWK2WebViewLoader setPageTextDirectionIsRTL:isVerticalDocument:]
+- -[BKWK2WebViewLoader setPaginationOptions:]
+- -[BKWK2WebViewLoader setPendingInfoRequest:]
+- -[BKWK2WebViewLoader setRetryCount:]
+- -[BKWK2WebViewLoader setTextContent:]
+- -[BKWK2WebViewLoader setTextDirectionDetermined:]
+- -[BKWK2WebViewLoader setTocIdCssRules:]
+- -[BKWK2WebViewLoader setUrl:]
+- -[BKWK2WebViewLoader setWebView:]
+- -[BKWK2WebViewLoader setWebViewLoaded:]
+- -[BKWK2WebViewLoader textContent]
+- -[BKWK2WebViewLoader textDirectionDetermined]
+- -[BKWK2WebViewLoader tocIdCssRules]
+- -[BKWK2WebViewLoader unregisterForVisibleCFIUpdates]
+- -[BKWK2WebViewLoader updateAnchorInformation:]
+- -[BKWK2WebViewLoader updateMediaFrames:]
+- -[BKWK2WebViewLoader updatePaginationOptions:]
+- -[BKWK2WebViewLoader url]
+- -[BKWK2WebViewLoader userContentController:didReceiveScriptMessage:]
+- -[BKWK2WebViewLoader webViewLoaded]
+- -[BKWK2WebViewLoader webView]
+- -[BKWebViewProxy .cxx_destruct]
+- -[BKWebViewProxy _butActually_wk2_scrollToPage:paginationMode:pageProgressionDirection:configuration:]
+- -[BKWebViewProxy _wk2_scrollToPage:paginationMode:pageProgressionDirection:configuration:]
+- -[BKWebViewProxy clientRectsForLocation:completion:]
+- -[BKWebViewProxy clientRectsForLocations:completion:]
+- -[BKWebViewProxy contentRectForVisibleContent]
+- -[BKWebViewProxy currentLocationForOrdinal:pageOffset:contentInsets:]
+- -[BKWebViewProxy frame]
+- -[BKWebViewProxy hasWKWebView]
+- -[BKWebViewProxy loader]
+- -[BKWebViewProxy localFrame]
+- -[BKWebViewProxy pageCount]
+- -[BKWebViewProxy pageOffsetForLocation:]
+- -[BKWebViewProxy rectForPageOffset:]
+- -[BKWebViewProxy retryCount]
+- -[BKWebViewProxy scrollToPage:paginationMode:pageProgressionDirection:configuration:]
+- -[BKWebViewProxy scrollingPageHeightForPaginationMode:configuration:]
+- -[BKWebViewProxy scrollingPageWidthForPaginationMode:configuration:]
+- -[BKWebViewProxy setClipsToBounds:]
+- -[BKWebViewProxy setFrame:]
+- -[BKWebViewProxy setHasWKWebView:]
+- -[BKWebViewProxy setLoader:]
+- -[BKWebViewProxy setLocalFrame:]
+- -[BKWebViewProxy setRetryCount:]
+- -[BKWebViewProxy setScrollViewClipsToBounds:]
+- -[BKZoomingScrollView _commonInit]
+- -[BKZoomingScrollView centerContent]
+- -[BKZoomingScrollView configureForImageSize:]
+- -[BKZoomingScrollView configureForNewBoundsAndRestoreCenterPoint:andScale:]
+- -[BKZoomingScrollView initWithCoder:]
+- -[BKZoomingScrollView initWithFrame:]
+- -[BKZoomingScrollView layoutSubviews]
+- -[BKZoomingScrollView maxSimulatedZoomScale]
+- -[BKZoomingScrollView maximumContentOffset]
+- -[BKZoomingScrollView minimumContentOffset]
+- -[BKZoomingScrollView pointToCenterAfterRotation]
+- -[BKZoomingScrollView scaleToRestoreAfterRotation]
+- -[BKZoomingScrollView setMaxSimulatedZoomScale:]
+- -[BKZoomingScrollView setTotalZoomScale:]
+- -[BKZoomingScrollView setZoomScale:animated:completionBlock:]
+- -[BKZoomingScrollView simulateZoomScaleByResizingView]
+- -[BKZoomingScrollView totalZoomScale]
+- -[BKZoomingScrollView zoomToRect:animated:completionBlock:]
+- -[ContentStyle .cxx_destruct]
+- -[ContentStyle autoHyphenate]
+- -[ContentStyle copyWithZone:]
+- -[ContentStyle description]
+- -[ContentStyle encodeWithCoder:]
+- -[ContentStyle fontFamily]
+- -[ContentStyle fontSize]
+- -[ContentStyle initWithCoder:]
+- -[ContentStyle initWithFontFamily:andDetails:]
+- -[ContentStyle initWithSummaryString:]
+- -[ContentStyle init]
+- -[ContentStyle isEqual:]
+- -[ContentStyle justification]
+- -[ContentStyle lineHeight]
+- -[ContentStyle optimizeLegibility]
+- -[ContentStyle overrideProvider]
+- -[ContentStyle setAutoHyphenate:]
+- -[ContentStyle setFontFamily:]
+- -[ContentStyle setFontSize:]
+- -[ContentStyle setJustification:]
+- -[ContentStyle setLineHeight:]
+- -[ContentStyle setOptimizeLegibility:]
+- -[ContentStyle setOverrideProvider:]
+- -[ContentStyle summaryString]
+- -[ContentViewStyleManagerBookInfo .cxx_destruct]
+- -[ContentViewStyleManagerBookInfo language]
+- -[ContentViewStyleManagerBookInfo respectImageSizeClassIsPrefix]
+- -[ContentViewStyleManagerBookInfo respectImageSizeClass]
+- -[ContentViewStyleManagerBookInfo setLanguage:]
+- -[ContentViewStyleManagerBookInfo setRespectImageSizeClass:]
+- -[ContentViewStyleManagerBookInfo setRespectImageSizeClassIsPrefix:]
+- -[EpubPaginationFactory .cxx_destruct]
+- -[EpubPaginationFactory addLayoutJob:]
+- -[EpubPaginationFactory addPrepareJob:]
+- -[EpubPaginationFactory addTOCParseJob:]
+- -[EpubPaginationFactory addTOCResultJob:]
+- -[EpubPaginationFactory dealloc]
+- -[EpubPaginationFactory initWithPaginationController:]
+- -[EpubPaginationFactory isStyleRequiredForPagination]
+- -[EpubPaginationFactory lookupKeyForStyle:geometry:]
+- -[EpubPaginationFactory pulseEvent]
+- -[EpubPaginationFactory quit]
+- -[ICStoreRequestContext(AEBookPlugins) ae_initWithActiveAccountAllowAuthenticationOnceADay]
+- -[NSObject(AEPluginAdditions) _axAssociatedObjectForKey:]
+- -[NSObject(AEPluginAdditions) _axSetAssociatedObject:forKey:]
+- -[NSURLRequestHACK copyWithZone:]
+- -[NSURLRequestHACK mutableCopyWithZone:]
+- -[PDFView(ZoomAdjustment) be_associatedPageViewController]
+- -[PDFView(ZoomAdjustment) be_autoScaleFactor]
+- -[PDFView(ZoomAdjustment) be_overrideAutoScale]
+- -[PDFView(ZoomAdjustment) be_useOverrideAutoScale]
+- -[PDFView(ZoomAdjustment) setBe_overrideAutoScale:]
+- -[PDFView(ZoomAdjustment) setBe_useOverrideAutoScale:]
+- -[UIButton(AEAnnotation) ae_annotation]
+- -[UIButton(AEAnnotation) setAe_annotation:]
+- -[UIFont(BKEffectiveFont) bkEffectiveFontForText:]
+- -[UIGestureRecognizer(UIGestureRecognizer_BKAdditions) bk_isWKSyntheticTapGestureRecognizer]
+- -[UIGestureRecognizer(UIGestureRecognizer_BKAdditions) captureSelectionRectValueForTap:]
+- -[UIGestureRecognizer(UIGestureRecognizer_BKAdditions) retrieveAndClearSelectionRectValue]
+- -[UILabel(BKTOCLabel) bkSetText:font:lineBreakMode:]
+- -[UISwitch(BKDebugValueAccessor) setValue:]
+- -[UISwitch(BKDebugValueAccessor) value]
+- -[UIView(PageCurl) pageCurlWillCancelWithDuration:]
+- -[UIView(PageCurl) updateCurlPercent:]
+- -[UIViewController(PDFPageViewController_Private) be_autoScaleFactor]
+- -[UIViewController(PDFPageViewController_Private) be_overrideAutoScale]
+- -[UIViewController(PDFPageViewController_Private) be_pdfView]
+- -[UIViewController(PDFPageViewController_Private) be_useOverrideAutoScale]
+- -[UIViewController(PDFPageViewController_Private) setBe_overrideAutoScale:]
+- -[UIViewController(PDFPageViewController_Private) setBe_useOverrideAutoScale:]
+- -[_BKExpandedContentViewControllerAnimator animateTransition:]
+- -[_BKExpandedContentViewControllerAnimator setSourceRect:]
+- -[_BKExpandedContentViewControllerAnimator sourceRect]
+- -[_BKExpandedContentViewControllerAnimator transitionDuration:]
+- -[_BKExpandedImageContentCenteringScrollView _bk_getDelegateZoomView]
+- -[_BKExpandedImageContentCenteringScrollView centerContent]
+- -[_BKExpandedImageContentCenteringScrollView hasCalculatedMinZoomScale]
+- -[_BKExpandedImageContentCenteringScrollView layoutSubviews]
+- -[_BKExpandedImageContentCenteringScrollView setBounds:]
+- -[_BKExpandedImageContentCenteringScrollView setHasCalculatedMinZoomScale:]
+- -[_BKScrollingPageContinuousWebScrollView hitTest:withEvent:]
+- -[_CachedFallbackInfo .cxx_destruct]
+- -[_CachedFallbackInfo fallbacks]
+- -[_CachedFallbackInfo fontFamily]
+- -[_CachedFallbackInfo font]
+- -[_CachedFallbackInfo language]
+- -[_CachedFallbackInfo setFallbacks:]
+- -[_CachedFallbackInfo setFont:]
+- -[_CachedFallbackInfo setFontFamily:]
+- -[_CachedFallbackInfo setLanguage:]
+- AEAXLocString.axBundle
+- AEBundle.onceToken
+- AEBundle.sBundle
+- BKActionControllerLog.actionControllerLog
+- BKActionControllerLog.onceToken
+- BKScreenScale.onceToken
+- BKScreenScale.screenScale
+- GCC_except_table0
+- GCC_except_table1
+- GCC_except_table10
+- GCC_except_table11
+- GCC_except_table119
+- GCC_except_table12
+- GCC_except_table128
+- GCC_except_table13
+- GCC_except_table130
+- GCC_except_table131
+- GCC_except_table132
+- GCC_except_table133
+- GCC_except_table135
+- GCC_except_table14
+- GCC_except_table142
+- GCC_except_table147
+- GCC_except_table148
+- GCC_except_table15
+- GCC_except_table150
+- GCC_except_table151
+- GCC_except_table153
+- GCC_except_table156
+- GCC_except_table157
+- GCC_except_table16
+- GCC_except_table160
+- GCC_except_table167
+- GCC_except_table17
+- GCC_except_table172
+- GCC_except_table174
+- GCC_except_table18
+- GCC_except_table19
+- GCC_except_table2
+- GCC_except_table20
+- GCC_except_table21
+- GCC_except_table210
+- GCC_except_table22
+- GCC_except_table23
+- GCC_except_table235
+- GCC_except_table24
+- GCC_except_table25
+- GCC_except_table26
+- GCC_except_table267
+- GCC_except_table268
+- GCC_except_table27
+- GCC_except_table270
+- GCC_except_table279
+- GCC_except_table28
+- GCC_except_table285
+- GCC_except_table29
+- GCC_except_table3
+- GCC_except_table30
+- GCC_except_table308
+- GCC_except_table31
+- GCC_except_table313
+- GCC_except_table32
+- GCC_except_table33
+- GCC_except_table34
+- GCC_except_table35
+- GCC_except_table36
+- GCC_except_table37
+- GCC_except_table376
+- GCC_except_table38
+- GCC_except_table383
+- GCC_except_table388
+- GCC_except_table39
+- GCC_except_table4
+- GCC_except_table40
+- GCC_except_table41
+- GCC_except_table410
+- GCC_except_table429
+- GCC_except_table44
+- GCC_except_table447
+- GCC_except_table45
+- GCC_except_table454
+- GCC_except_table462
+- GCC_except_table463
+- GCC_except_table464
+- GCC_except_table469
+- GCC_except_table5
+- GCC_except_table50
+- GCC_except_table51
+- GCC_except_table52
+- GCC_except_table523
+- GCC_except_table53
+- GCC_except_table532
+- GCC_except_table544
+- GCC_except_table55
+- GCC_except_table554
+- GCC_except_table561
+- GCC_except_table562
+- GCC_except_table6
+- GCC_except_table61
+- GCC_except_table62
+- GCC_except_table64
+- GCC_except_table67
+- GCC_except_table671
+- GCC_except_table673
+- GCC_except_table68
+- GCC_except_table7
+- GCC_except_table74
+- GCC_except_table76
+- GCC_except_table79
+- GCC_except_table8
+- GCC_except_table88
+- GCC_except_table9
+- GCC_except_table95
+- OBJC_IVAR_$_AEAccountIdentifiers._downloadedDSID
+- OBJC_IVAR_$_AEAccountIdentifiers._familyID
+- OBJC_IVAR_$_AEAccountIdentifiers._purchasedDSID
+- OBJC_IVAR_$_AEAudiobookBookmarkTimeSnapshot._bookmarkTime
+- OBJC_IVAR_$_AEAudiobookBookmarkTimeSnapshot._bookmarkTimeTimestamp
+- OBJC_IVAR_$_AEAudiobookPlugin._sharedAnnotationProvider
+- OBJC_IVAR_$_AEAudiobookReadingTimeTracker._bcTracker
+- OBJC_IVAR_$_AEAudiobookReadingTimeTracker._pausedTime
+- OBJC_IVAR_$_AEAudiobookReadingTimeTracker._player
+- OBJC_IVAR_$_AEAudiobookReadingTimeTracker._sessionID
+- OBJC_IVAR_$_AEBookInfo._annotationProvider
+- OBJC_IVAR_$_AEBookInfo._linearOrdinalMap
+- OBJC_IVAR_$_AEBookInfo._shouldDisableOptimizeSpeed
+- OBJC_IVAR_$_AEBookInfo.assetLogID
+- OBJC_IVAR_$_AEBookInfo.isPreorder
+- OBJC_IVAR_$_AEBookInfoAssetPlugin._sharedAnnotationProvider
+- OBJC_IVAR_$_AEBookInfoSnapshot._assetID
+- OBJC_IVAR_$_AEBookInfoSnapshot._bkPageProgressionDirection
+- OBJC_IVAR_$_AEBookInfoSnapshot._bookLanguage
+- OBJC_IVAR_$_AEBookInfoSnapshot._cacheItem
+- OBJC_IVAR_$_AEBookInfoSnapshot._fixedLayoutHeight
+- OBJC_IVAR_$_AEBookInfoSnapshot._fixedLayoutWidth
+- OBJC_IVAR_$_AEBookInfoSnapshot._isFixedLayout
+- OBJC_IVAR_$_AEBookInfoSnapshot._manifestId
+- OBJC_IVAR_$_AEBookInfoSnapshot._obeyPageBreaks
+- OBJC_IVAR_$_AEBookInfoSnapshot._respectImageSizeClass
+- OBJC_IVAR_$_AEBookInfoSnapshot._respectImageSizeClassIsPrefix
+- OBJC_IVAR_$_AEBookInfoSnapshot._shouldAllowRemoteInspection
+- OBJC_IVAR_$_AEBookInfoSnapshot._shouldDisableOptimizeSpeed
+- OBJC_IVAR_$_AEBookInfoSnapshot._spineIndexInPackage
+- OBJC_IVAR_$_AEBookInfoSnapshot._url
+- OBJC_IVAR_$_AEBookProtocolCacheItemProvider._bookCache
+- OBJC_IVAR_$_AEBookProtocolCacheItemProvider._unfairLock
+- OBJC_IVAR_$_AEBookRenderingCallbackTarget._callbackBlock
+- OBJC_IVAR_$_AEEPubMinifiedController._helper
+- OBJC_IVAR_$_AEEPubMinifiedController._minifiedControllerDelegate
+- OBJC_IVAR_$_AEEPubMinifiedController._minifiedControllerLoadedAssetViewController
+- OBJC_IVAR_$_AEEPubPicturebookMinifiedController._helper
+- OBJC_IVAR_$_AEEPubPicturebookMinifiedController._minifiedControllerDelegate
+- OBJC_IVAR_$_AEEPubPicturebookMinifiedController._minifiedControllerLoadedAssetViewController
+- OBJC_IVAR_$_AEEPubProofingHelper._asset
+- OBJC_IVAR_$_AEEPubProofingHelper._bookInfo
+- OBJC_IVAR_$_AEEPubProofingHelper._bookMoc
+- OBJC_IVAR_$_AEEPubProofingHelper._clientManifest
+- OBJC_IVAR_$_AEEPubProofingHelper._delegate
+- OBJC_IVAR_$_AEEPubProofingHelper._dstRootPath
+- OBJC_IVAR_$_AEEPubProofingHelper._hostManifestMetadata
+- OBJC_IVAR_$_AEEpubInfoSource._persistentContainer
+- OBJC_IVAR_$_AEEpubInfoSource._persistentStoreFileName
+- OBJC_IVAR_$_AEHTMLBookRenderingCache._accessQueue
+- OBJC_IVAR_$_AEMinimalTemplate._steps
+- OBJC_IVAR_$_AEMinimalTemplateSet._templates
+- OBJC_IVAR_$_AEMinimalTemplateStepEmbed._keyPath
+- OBJC_IVAR_$_AEMinimalTemplateStepEmbed._name
+- OBJC_IVAR_$_AEMinimalTemplateStepField._keyPath
+- OBJC_IVAR_$_AEMinimalTemplateStepIf._conditional
+- OBJC_IVAR_$_AEMinimalTemplateStepIf._elseSteps
+- OBJC_IVAR_$_AEMinimalTemplateStepIf._negated
+- OBJC_IVAR_$_AEMinimalTemplateStepIf._thenSteps
+- OBJC_IVAR_$_AEMinimalTemplateStepRange._keyPath
+- OBJC_IVAR_$_AEMinimalTemplateStepRange._steps
+- OBJC_IVAR_$_AEMinimalTemplateStepText._text
+- OBJC_IVAR_$_AEPDFMinifiedController._helper
+- OBJC_IVAR_$_AEPDFMinifiedController._minifiedControllerDelegate
+- OBJC_IVAR_$_AEPDFMinifiedController._minifiedControllerLoadedAssetViewController
+- OBJC_IVAR_$_AEPDFPlugin._sharedAnnotationProvider
+- OBJC_IVAR_$_AEPDFPlugin._sharedBookCoverResetter
+- OBJC_IVAR_$_AEPdfCache._cacheQueue
+- OBJC_IVAR_$_AEPdfCache._urlToDocumentCache
+- OBJC_IVAR_$_AEPdfCache._urlToStringCache
+- OBJC_IVAR_$_AEPdfCacheObject._document
+- OBJC_IVAR_$_AEPdfCacheObject._pdfUndoManager
+- OBJC_IVAR_$_AEPictureBookRenderingCache._configuration
+- OBJC_IVAR_$_AEPictureBookRenderingCache._renderingPiggyBack
+- OBJC_IVAR_$_AEPictureBookRenderingCache._webViewBuilder
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._bookInfoSnapshot
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._cfisForHrefs
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._didFinishLoading
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._didFinishRendering
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._dispatchSemaphore
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._extraCompletions
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._extraCompletionsAccessLock
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._image
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._pageNumber
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._piggyBack
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._snapshotRetryCount
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._snapshotSize
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._strongSelf
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._textNodeCharacterCounts
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._url
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._webView
+- OBJC_IVAR_$_AEPictureBookRenderingCacheOperation2._webViewBuilder
+- OBJC_IVAR_$_AETestDriver._delegate
+- OBJC_IVAR_$_AETestDriver._eventDispatcher
+- OBJC_IVAR_$_AETestDriver._layoutDelegate
+- OBJC_IVAR_$_BEAppearanceViewController._arrowBackgroundView
+- OBJC_IVAR_$_BEAppearanceViewController._brightnessSlider
+- OBJC_IVAR_$_BEAppearanceViewController._delegate
+- OBJC_IVAR_$_BEAppearanceViewController._fontSizeButtons
+- OBJC_IVAR_$_BEAppearanceViewController._scrollSwitch
+- OBJC_IVAR_$_BEAppearanceViewController._scrollSwitchEnabled
+- OBJC_IVAR_$_BEAppearanceViewController._sizeLargerButton
+- OBJC_IVAR_$_BEAppearanceViewController._sizeSeparatorLine
+- OBJC_IVAR_$_BEAppearanceViewController._sizeSmallerButton
+- OBJC_IVAR_$_BEAppearanceViewController._tableView
+- OBJC_IVAR_$_BEPageSnapshotCache._dataSource
+- OBJC_IVAR_$_BEPageSnapshotCacheOperation._dataSource
+- OBJC_IVAR_$_BEPageSnapshotCacheOperation._dispatchSemaphore
+- OBJC_IVAR_$_BEPageSnapshotCacheOperation._extraCompletions
+- OBJC_IVAR_$_BEPageSnapshotCacheOperation._extraCompletionsAccessLock
+- OBJC_IVAR_$_BEPageSnapshotCacheOperation.pageNumber
+- OBJC_IVAR_$_BEPageSnapshotCacheOperation.snapshotSize
+- OBJC_IVAR_$_BKARQuicklookViewController._ARModelDataURL
+- OBJC_IVAR_$_BKActionController._ancestorViewController
+- OBJC_IVAR_$_BKActionController._applicationActivities
+- OBJC_IVAR_$_BKActionController._delegate
+- OBJC_IVAR_$_BKActionController._excludedActivityTypes
+- OBJC_IVAR_$_BKActionController._includedActivityTypes
+- OBJC_IVAR_$_BKActivityCopyToIBooks._url
+- OBJC_IVAR_$_BKActivityIndicatorOverlayView._activityIndicator
+- OBJC_IVAR_$_BKActivityPDFLinkPresentationItemSource._bookInfo
+- OBJC_IVAR_$_BKActivityURLItemSource._url
+- OBJC_IVAR_$_BKAnchorPathLocation._path
+- OBJC_IVAR_$_BKAppearanceFontViewController._arrowBackgroundView
+- OBJC_IVAR_$_BKAppearanceFontViewController._book
+- OBJC_IVAR_$_BKAppearanceFontViewController._delegate
+- OBJC_IVAR_$_BKAppearanceFontViewController._desiredContentSize
+- OBJC_IVAR_$_BKAppearanceFontViewController._disappearing
+- OBJC_IVAR_$_BKAppearanceFontViewController._dividerView
+- OBJC_IVAR_$_BKAppearanceFontViewController._fonts
+- OBJC_IVAR_$_BKAppearanceFontViewController._shownCannotDownloadFontAlert
+- OBJC_IVAR_$_BKAppearanceFontViewController._tableView
+- OBJC_IVAR_$_BKAppearanceViewController._appearanceStyle
+- OBJC_IVAR_$_BKAppearanceViewController._autoNightModeSwitch
+- OBJC_IVAR_$_BKAppearanceViewController._book
+- OBJC_IVAR_$_BKAppearanceViewController._bottomThemeHairline
+- OBJC_IVAR_$_BKAppearanceViewController._currentItems
+- OBJC_IVAR_$_BKAppearanceViewController._delegate
+- OBJC_IVAR_$_BKAppearanceViewController._fontVC
+- OBJC_IVAR_$_BKAppearanceViewController._fonts
+- OBJC_IVAR_$_BKAppearanceViewController._layout
+- OBJC_IVAR_$_BKAppearanceViewController._menuItems
+- OBJC_IVAR_$_BKAppearanceViewController._shownCannotDownloadFontAlert
+- OBJC_IVAR_$_BKAppearanceViewController._style
+- OBJC_IVAR_$_BKAppearanceViewController._themeContainer
+- OBJC_IVAR_$_BKAppearanceViewController._themeGrayButton
+- OBJC_IVAR_$_BKAppearanceViewController._themeNightButton
+- OBJC_IVAR_$_BKAppearanceViewController._themeSepiaButton
+- OBJC_IVAR_$_BKAppearanceViewController._themeWhiteButton
+- OBJC_IVAR_$_BKAppearanceViewController._topThemeHairline
+- OBJC_IVAR_$_BKAudioController._delegate
+- OBJC_IVAR_$_BKAudioLocation._offset
+- OBJC_IVAR_$_BKAudioTrackNumberLocation._persistentID
+- OBJC_IVAR_$_BKAudioTurnModeViewController._delegate
+- OBJC_IVAR_$_BKBookContainerView._cancelLeftTap
+- OBJC_IVAR_$_BKBookContainerView._cancelLeftTapTimer
+- OBJC_IVAR_$_BKBookContainerView._cancelRightTap
+- OBJC_IVAR_$_BKBookContainerView._cancelRightTapTimer
+- OBJC_IVAR_$_BKBookContainerView._chapterTurn
+- OBJC_IVAR_$_BKBookContainerView._delegate
+- OBJC_IVAR_$_BKBookContainerView._externalGestureRecognizerCount
+- OBJC_IVAR_$_BKBookContainerView._finishingManualCurl
+- OBJC_IVAR_$_BKBookContainerView._ignoreNextGesture
+- OBJC_IVAR_$_BKBookContainerView._indirectManualCurlRecognizer
+- OBJC_IVAR_$_BKBookContainerView._internalGestureRecognizersSet
+- OBJC_IVAR_$_BKBookContainerView._lastPoint
+- OBJC_IVAR_$_BKBookContainerView._leftTapRecognizer
+- OBJC_IVAR_$_BKBookContainerView._manualCurl
+- OBJC_IVAR_$_BKBookContainerView._manualCurlIsRightSide
+- OBJC_IVAR_$_BKBookContainerView._manualCurlRecognizer
+- OBJC_IVAR_$_BKBookContainerView._nextChapterSwipeRecognizer
+- OBJC_IVAR_$_BKBookContainerView._nextPageSwipeRecognizer
+- OBJC_IVAR_$_BKBookContainerView._pagesToTurnAfterFinishing
+- OBJC_IVAR_$_BKBookContainerView._previousChapterSwipeRecognizer
+- OBJC_IVAR_$_BKBookContainerView._previousPageSwipeRecognizer
+- OBJC_IVAR_$_BKBookContainerView._rightTapRecognizer
+- OBJC_IVAR_$_BKBookContainerView._spineLocation
+- OBJC_IVAR_$_BKBookContainerView._startPoint
+- OBJC_IVAR_$_BKBookContainerView._startedWhilePreviousFinishing
+- OBJC_IVAR_$_BKBookContainerView._swipeBeforeManualCurl
+- OBJC_IVAR_$_BKBookContainerView._swipeDirection
+- OBJC_IVAR_$_BKBookContainerView._trackingManualCurl
+- OBJC_IVAR_$_BKBookContainerView._usePageCurlAnimation
+- OBJC_IVAR_$_BKBookViewController._activityViewController
+- OBJC_IVAR_$_BKBookViewController._analyticsReadStartDate
+- OBJC_IVAR_$_BKBookViewController._analyticsReadStartProgress
+- OBJC_IVAR_$_BKBookViewController._annotationChangeRequiresPaginationUpdate
+- OBJC_IVAR_$_BKBookViewController._annotationProvider
+- OBJC_IVAR_$_BKBookViewController._assetSnapshotEnabled
+- OBJC_IVAR_$_BKBookViewController._assetViewControllerDelegate
+- OBJC_IVAR_$_BKBookViewController._audioController
+- OBJC_IVAR_$_BKBookViewController._bkaxAccessibilityUserIsRequestingControlsVisibilityToggle
+- OBJC_IVAR_$_BKBookViewController._bookmarkObservers
+- OBJC_IVAR_$_BKBookViewController._brightnessController
+- OBJC_IVAR_$_BKBookViewController._buyParameters
+- OBJC_IVAR_$_BKBookViewController._cachedContentData
+- OBJC_IVAR_$_BKBookViewController._contentOpenAnimator
+- OBJC_IVAR_$_BKBookViewController._controlsEnabledViaHover
+- OBJC_IVAR_$_BKBookViewController._currentBookCacheItem
+- OBJC_IVAR_$_BKBookViewController._displaySleepController
+- OBJC_IVAR_$_BKBookViewController._doNotDisturbStatusAtStart
+- OBJC_IVAR_$_BKBookViewController._experienceManager
+- OBJC_IVAR_$_BKBookViewController._footnoteController
+- OBJC_IVAR_$_BKBookViewController._footnoteSourceView
+- OBJC_IVAR_$_BKBookViewController._hasCheckedForRemoteResources
+- OBJC_IVAR_$_BKBookViewController._hasRemoteResources
+- OBJC_IVAR_$_BKBookViewController._hoverInteraction
+- OBJC_IVAR_$_BKBookViewController._lastAnalyticsDeviceOrientationReported
+- OBJC_IVAR_$_BKBookViewController._openingLocation
+- OBJC_IVAR_$_BKBookViewController._pageNumberBeforeScrubbing
+- OBJC_IVAR_$_BKBookViewController._performSelectorProxy
+- OBJC_IVAR_$_BKBookViewController._playNextItemAbortedWhileInactive
+- OBJC_IVAR_$_BKBookViewController._priceString
+- OBJC_IVAR_$_BKBookViewController._readingLocationHighwaterMark
+- OBJC_IVAR_$_BKBookViewController._referenceLibraryViewController
+- OBJC_IVAR_$_BKBookViewController._reportedLocation
+- OBJC_IVAR_$_BKBookViewController._safeToShowToolbarItems
+- OBJC_IVAR_$_BKBookViewController._selectionHighlightType
+- OBJC_IVAR_$_BKBookViewController._tocCurrentLocation
+- OBJC_IVAR_$_BKBookViewController._touchBarController
+- OBJC_IVAR_$_BKBookViewController._translationViewController
+- OBJC_IVAR_$_BKBookViewController._upSellData
+- OBJC_IVAR_$_BKBookViewController._userNavigated
+- OBJC_IVAR_$_BKBookViewController.bookPositionProcessor
+- OBJC_IVAR_$_BKBoolBlockProxy._work
+- OBJC_IVAR_$_BKBrightnessController._slider
+- OBJC_IVAR_$_BKCatalystAppearanceViewController._clearImage
+- OBJC_IVAR_$_BKCatalystAppearanceViewController._determinedOriginalFont
+- OBJC_IVAR_$_BKCatalystAppearanceViewController._hasOriginalFont
+- OBJC_IVAR_$_BKCatalystAppearanceViewController._shownCannotDownloadFontAlert
+- OBJC_IVAR_$_BKContentLoadingView._label
+- OBJC_IVAR_$_BKContentLoadingView._spinner
+- OBJC_IVAR_$_BKContentLoadingView._theme
+- OBJC_IVAR_$_BKContentReloadView._button
+- OBJC_IVAR_$_BKContentReloadView._delegate
+- OBJC_IVAR_$_BKContentReloadView._label
+- OBJC_IVAR_$_BKContentReloadView._stackView
+- OBJC_IVAR_$_BKContentReloadView._theme
+- OBJC_IVAR_$_BKContentViewController._contentLoadPending
+- OBJC_IVAR_$_BKContentViewController._contentView
+- OBJC_IVAR_$_BKContentViewController._delegate
+- OBJC_IVAR_$_BKContentViewController._estimatedContentSize
+- OBJC_IVAR_$_BKContentViewController._layoutDelegate
+- OBJC_IVAR_$_BKContentViewController._loadingView
+- OBJC_IVAR_$_BKContentViewController._prefersSinglePagePresentation
+- OBJC_IVAR_$_BKContentViewController._reloadView
+- OBJC_IVAR_$_BKContentViewController._separatorInsets
+- OBJC_IVAR_$_BKCoverContentViewController2._activityIndicator
+- OBJC_IVAR_$_BKCoverContentViewController2._coverImage
+- OBJC_IVAR_$_BKCoverContentViewController2._coverWebView
+- OBJC_IVAR_$_BKCoverContentViewController2._dispatchQueue
+- OBJC_IVAR_$_BKDirectoryContent._directoryDelegate
+- OBJC_IVAR_$_BKDocument.linearDocumentIndex
+- OBJC_IVAR_$_BKEPubContentViewController.__isPlayingMedia
+- OBJC_IVAR_$_BKEPubContentViewController._adornmentScrollView
+- OBJC_IVAR_$_BKEPubContentViewController._adornmentTapRecognizer
+- OBJC_IVAR_$_BKEPubContentViewController._locationEnsuredVisibleWorkBlock
+- OBJC_IVAR_$_BKEPubContentViewController._navigatingFromContentInfoRequest
+- OBJC_IVAR_$_BKEPubContentViewController._pendingAdjustForScrollMode
+- OBJC_IVAR_$_BKEPubContentViewController._pendingLocationCompletion
+- OBJC_IVAR_$_BKEPubContentViewController._shouldScrollToEnd
+- OBJC_IVAR_$_BKEPubContentViewControllerView._controller
+- OBJC_IVAR_$_BKEpubCFILocation._cfi
+- OBJC_IVAR_$_BKEpubCFILocation._isPageLocation
+- OBJC_IVAR_$_BKEpubCFILocation._pageOffset
+- OBJC_IVAR_$_BKEpubCFILocation._wk1EpubLocation
+- OBJC_IVAR_$_BKEpubManualCurlDriver._displayLink
+- OBJC_IVAR_$_BKEpubManualCurlDriver._gesture
+- OBJC_IVAR_$_BKEpubManualCurlDriver._manualCurlHandler
+- OBJC_IVAR_$_BKEpubManualCurlDriver._minimumGestureInterval
+- OBJC_IVAR_$_BKEpubManualCurlGestureImplementation._duration
+- OBJC_IVAR_$_BKEpubManualCurlGestureImplementation._endPoint
+- OBJC_IVAR_$_BKEpubManualCurlGestureImplementation._endTime
+- OBJC_IVAR_$_BKEpubManualCurlGestureImplementation._nextTime
+- OBJC_IVAR_$_BKEpubManualCurlGestureImplementation._startPoint
+- OBJC_IVAR_$_BKEpubManualCurlGestureImplementation._startTime
+- OBJC_IVAR_$_BKEpubManualCurlGestureImplementation._state
+- OBJC_IVAR_$_BKEpubManualCurlGestureImplementation._velocity
+- OBJC_IVAR_$_BKEpubTOCParseJob._assetID
+- OBJC_IVAR_$_BKEpubTOCParseJob._url
+- OBJC_IVAR_$_BKEpubTOCParseRecordJob._isVertical
+- OBJC_IVAR_$_BKEpubTOCParseRecordJob._tocIdCssRules
+- OBJC_IVAR_$_BKExpandedContentResource._cacheItem
+- OBJC_IVAR_$_BKExpandedContentResource._contentSize
+- OBJC_IVAR_$_BKExpandedContentResource._contentType
+- OBJC_IVAR_$_BKExpandedContentResource._resource
+- OBJC_IVAR_$_BKExpandedContentResource._sourceURL
+- OBJC_IVAR_$_BKExpandedContentResource._title
+- OBJC_IVAR_$_BKExpandedContentResource._zoomScale
+- OBJC_IVAR_$_BKExpandedContentViewController._activityIndicator
+- OBJC_IVAR_$_BKExpandedContentViewController._animationImageView
+- OBJC_IVAR_$_BKExpandedContentViewController._animationRect
+- OBJC_IVAR_$_BKExpandedContentViewController._contentBackgroundColor
+- OBJC_IVAR_$_BKExpandedContentViewController._contentColor
+- OBJC_IVAR_$_BKExpandedContentViewController._contentContainer
+- OBJC_IVAR_$_BKExpandedContentViewController._contentObscuringView
+- OBJC_IVAR_$_BKExpandedContentViewController._contentToViewTopAnchorConstraint
+- OBJC_IVAR_$_BKExpandedContentViewController._delegate
+- OBJC_IVAR_$_BKExpandedContentViewController._doubleTapRecognizer
+- OBJC_IVAR_$_BKExpandedContentViewController._dragDismissManager
+- OBJC_IVAR_$_BKExpandedContentViewController._initialZoomScale
+- OBJC_IVAR_$_BKExpandedContentViewController._innerView
+- OBJC_IVAR_$_BKExpandedContentViewController._presenter
+- OBJC_IVAR_$_BKExpandedContentViewController._presentingFromTOC
+- OBJC_IVAR_$_BKExpandedContentViewController._resource
+- OBJC_IVAR_$_BKExpandedContentViewController._singleTapRecognizer
+- OBJC_IVAR_$_BKExpandedContentViewController._toolbar
+- OBJC_IVAR_$_BKExpandedContentViewController._toolbarHidden
+- OBJC_IVAR_$_BKExpandedImageContentViewController._analysisInteraction
+- OBJC_IVAR_$_BKExpandedImageContentViewController._image
+- OBJC_IVAR_$_BKExpandedImageContentViewController._imageAnalyzer
+- OBJC_IVAR_$_BKExpandedImageContentViewController._imageScroller
+- OBJC_IVAR_$_BKExpandedImageContentViewController._imageView
+- OBJC_IVAR_$_BKExpandedWebContentViewController2._allowsRemoteInspection
+- OBJC_IVAR_$_BKExpandedWebContentViewController2._cleanupOptions
+- OBJC_IVAR_$_BKExpandedWebContentViewController2._content
+- OBJC_IVAR_$_BKExpandedWebContentViewController2._contentType
+- OBJC_IVAR_$_BKExpandedWebContentViewController2._isLoadHTMLString
+- OBJC_IVAR_$_BKExpandedWebContentViewController2._url
+- OBJC_IVAR_$_BKExpandedWebContentViewController2._webView
+- OBJC_IVAR_$_BKFinishedButton._frameColor
+- OBJC_IVAR_$_BKFinishedButton._frameWidth
+- OBJC_IVAR_$_BKFinishedContentViewController._bodyLabel
+- OBJC_IVAR_$_BKFinishedContentViewController._bodyLeadingConstraint
+- OBJC_IVAR_$_BKFinishedContentViewController._bodyTopConstraint
+- OBJC_IVAR_$_BKFinishedContentViewController._bodyTrailingConstraint
+- OBJC_IVAR_$_BKFinishedContentViewController._bodyWidthConstraint
+- OBJC_IVAR_$_BKFinishedContentViewController._checkmarkHeightConstraint
+- OBJC_IVAR_$_BKFinishedContentViewController._checkmarkImageView
+- OBJC_IVAR_$_BKFinishedContentViewController._checkmarkTopConstraint
+- OBJC_IVAR_$_BKFinishedContentViewController._checkmarkWidthConstraint
+- OBJC_IVAR_$_BKFinishedContentViewController._contentScale
+- OBJC_IVAR_$_BKFinishedContentViewController._finishedButton
+- OBJC_IVAR_$_BKFinishedContentViewController._finishedButtonBottomConstraint
+- OBJC_IVAR_$_BKFinishedContentViewController._finishedButtonLeadingConstraint
+- OBJC_IVAR_$_BKFinishedContentViewController._finishedButtonTopConstraint
+- OBJC_IVAR_$_BKFinishedContentViewController._finishedButtonTrailingConstraint
+- OBJC_IVAR_$_BKFinishedContentViewController._fixedLayout
+- OBJC_IVAR_$_BKFinishedContentViewController._titleLabel
+- OBJC_IVAR_$_BKFinishedContentViewController._titleLeadingConstraint
+- OBJC_IVAR_$_BKFinishedContentViewController._titleTopConstraint
+- OBJC_IVAR_$_BKFinishedContentViewController._titleTrailingConstraint
+- OBJC_IVAR_$_BKFinishedContentViewController._titleWidthConstraint
+- OBJC_IVAR_$_BKFinishedContentViewController.contentSize
+- OBJC_IVAR_$_BKFinishedContentViewController.visibleInScrollMode
+- OBJC_IVAR_$_BKFinishedContentViewController.zoomScale
+- OBJC_IVAR_$_BKFlowingBookFontSizeConfiguration._largeSizeFactor
+- OBJC_IVAR_$_BKFlowingBookFontSizeConfiguration._sizes
+- OBJC_IVAR_$_BKFlowingBookFontSizeConfiguration._useOldFontStepsAndSpacing
+- OBJC_IVAR_$_BKFlowingBookLayoutConfiguration._contentHasSpreadPages
+- OBJC_IVAR_$_BKFlowingBookLayoutConfiguration._disableContentSpreadPages
+- OBJC_IVAR_$_BKFlowingBookLayoutConfiguration._fontSizeConfiguration
+- OBJC_IVAR_$_BKFlowingBookLayoutConfiguration._layout
+- OBJC_IVAR_$_BKFlowingBookLayoutConfiguration._options
+- OBJC_IVAR_$_BKFlowingBookLayoutConfiguration._overrideFontSize
+- OBJC_IVAR_$_BKFlowingBookLayoutConfiguration._showingTOC
+- OBJC_IVAR_$_BKFlowingBookLayoutConfiguration._style
+- OBJC_IVAR_$_BKFlowingBookLayoutConfiguration._useOldFontStepsAndSpacing
+- OBJC_IVAR_$_BKFlowingBookPendingContent._movingForward
+- OBJC_IVAR_$_BKFlowingBookPendingContent._oldPageOffset
+- OBJC_IVAR_$_BKFlowingBookPendingContent._primaryContent
+- OBJC_IVAR_$_BKFlowingBookPendingContent._primaryPageOffset
+- OBJC_IVAR_$_BKFlowingBookPendingContent._secondaryContent
+- OBJC_IVAR_$_BKFlowingBookPendingContent._secondaryPageOffset
+- OBJC_IVAR_$_BKFlowingBookPlistConfigurationEnvironment._fontSize
+- OBJC_IVAR_$_BKFlowingBookPlistConfigurationEnvironment._fontSizeConfiguration
+- OBJC_IVAR_$_BKFlowingBookPlistConfigurationEnvironment._scroll
+- OBJC_IVAR_$_BKFlowingBookViewController._bookLoadingMonitor
+- OBJC_IVAR_$_BKFlowingBookViewController._bookSharingConnectionActive
+- OBJC_IVAR_$_BKFlowingBookViewController._bookmarkedFullbar
+- OBJC_IVAR_$_BKFlowingBookViewController._bookmarkedMinibar
+- OBJC_IVAR_$_BKFlowingBookViewController._bypassRepagination
+- OBJC_IVAR_$_BKFlowingBookViewController._captureLastRecordedLocation
+- OBJC_IVAR_$_BKFlowingBookViewController._coalescedRefreshAdornmentsForContent
+- OBJC_IVAR_$_BKFlowingBookViewController._configuration
+- OBJC_IVAR_$_BKFlowingBookViewController._directorySwitcherConfiguration
+- OBJC_IVAR_$_BKFlowingBookViewController._hidePopoverArrow
+- OBJC_IVAR_$_BKFlowingBookViewController._ignoreToolbarUpdates
+- OBJC_IVAR_$_BKFlowingBookViewController._isRotating
+- OBJC_IVAR_$_BKFlowingBookViewController._jumpAheadText
+- OBJC_IVAR_$_BKFlowingBookViewController._jumpBackText
+- OBJC_IVAR_$_BKFlowingBookViewController._lastRecordedLocation
+- OBJC_IVAR_$_BKFlowingBookViewController._manualCurlDriver
+- OBJC_IVAR_$_BKFlowingBookViewController._modalRestoreLocation
+- OBJC_IVAR_$_BKFlowingBookViewController._movieIsFullscreen
+- OBJC_IVAR_$_BKFlowingBookViewController._notBookmarkedFullbar
+- OBJC_IVAR_$_BKFlowingBookViewController._notBookmarkedMinibar
+- OBJC_IVAR_$_BKFlowingBookViewController._notificationObservationTokens
+- OBJC_IVAR_$_BKFlowingBookViewController._observedScrollView
+- OBJC_IVAR_$_BKFlowingBookViewController._pageSlideCount
+- OBJC_IVAR_$_BKFlowingBookViewController._paginationPausedDueToInteraction
+- OBJC_IVAR_$_BKFlowingBookViewController._pendingAppearanceStyle
+- OBJC_IVAR_$_BKFlowingBookViewController._pendingPageTurnCompletions
+- OBJC_IVAR_$_BKFlowingBookViewController._pendingPageTurnGenerationID
+- OBJC_IVAR_$_BKFlowingBookViewController._performSelectorProxy
+- OBJC_IVAR_$_BKFlowingBookViewController._queuedAppearanceStyle
+- OBJC_IVAR_$_BKFlowingBookViewController._refreshAdornmentsContent
+- OBJC_IVAR_$_BKFlowingBookViewController._rotationStorage
+- OBJC_IVAR_$_BKFlowingBookViewController._scrubberCalloutFollowsScrollerThumb
+- OBJC_IVAR_$_BKFlowingBookViewController._semanticLayoutOverlayViewController
+- OBJC_IVAR_$_BKFlowingBookViewController._showAnnotations
+- OBJC_IVAR_$_BKFlowingBookViewController._singleLineShadowView
+- OBJC_IVAR_$_BKFlowingBookViewController._sizeAfterLastLayout
+- OBJC_IVAR_$_BKFlowingBookViewController._smartInvertEnabled
+- OBJC_IVAR_$_BKFlowingBookViewController._style
+- OBJC_IVAR_$_BKFlowingBookViewController._styleBeforeAutoNight
+- OBJC_IVAR_$_BKFlowingBookViewController._transitionLocation
+- OBJC_IVAR_$_BKFlowingBookViewController._turnChapterBehavior
+- OBJC_IVAR_$_BKFlowingBookViewController._usePageCurlAnimation
+- OBJC_IVAR_$_BKFont._kind
+- OBJC_IVAR_$_BKFontCache._fileNames
+- OBJC_IVAR_$_BKFontCache._fontFaceLookupByFileName
+- OBJC_IVAR_$_BKFontCache._fontLookupByFileName
+- OBJC_IVAR_$_BKFontCache._fontsByFileName
+- OBJC_IVAR_$_BKFontCache._presetsByFileName
+- OBJC_IVAR_$_BKFontTableViewCell._buttonContainerView
+- OBJC_IVAR_$_BKFontTableViewCell._buttonContainerWidthConstraint
+- OBJC_IVAR_$_BKFontTableViewCell._font
+- OBJC_IVAR_$_BKFontTableViewCell._label
+- OBJC_IVAR_$_BKFontTableViewCell._labelFont
+- OBJC_IVAR_$_BKFontTableViewCell._selectionView
+- OBJC_IVAR_$_BKFootnoteViewController2._allowsRemoteInspection
+- OBJC_IVAR_$_BKFootnoteViewController2._backgroundColor
+- OBJC_IVAR_$_BKFootnoteViewController2._delegate
+- OBJC_IVAR_$_BKFootnoteViewController2._doneButton
+- OBJC_IVAR_$_BKFootnoteViewController2._footerMask
+- OBJC_IVAR_$_BKFootnoteViewController2._headerMask
+- OBJC_IVAR_$_BKFootnoteViewController2._presenter
+- OBJC_IVAR_$_BKFootnoteViewController2._resource
+- OBJC_IVAR_$_BKFootnoteViewController2._stylesheetSet
+- OBJC_IVAR_$_BKFootnoteViewController2._textColor
+- OBJC_IVAR_$_BKFootnoteViewController2._themeStylesheet
+- OBJC_IVAR_$_BKFootnoteViewController2._webView
+- OBJC_IVAR_$_BKFootnoteViewController2._webViewTopAnchorWhenDoneButtonVisible
+- OBJC_IVAR_$_BKFootnoteViewController2._webViewTopConstraint
+- OBJC_IVAR_$_BKFootnoteViewController2.failedToLoad
+- OBJC_IVAR_$_BKFootnoteViewController2.readyForDisplay
+- OBJC_IVAR_$_BKHTMLContentViewController._activityIndicator
+- OBJC_IVAR_$_BKHTMLContentViewController._annotationDataProvider
+- OBJC_IVAR_$_BKHTMLContentViewController._annotationRectUnionCache
+- OBJC_IVAR_$_BKHTMLContentViewController._annotationRectsCache
+- OBJC_IVAR_$_BKHTMLContentViewController._contentBasedOverlayRefreshScheduled
+- OBJC_IVAR_$_BKHTMLContentViewController._currentHighlightSearchSelection
+- OBJC_IVAR_$_BKHTMLContentViewController._firstSignificantPaintCompleted
+- OBJC_IVAR_$_BKHTMLContentViewController._haveDeterminedInitialModifiers
+- OBJC_IVAR_$_BKHTMLContentViewController._highlightDummyAnnotation
+- OBJC_IVAR_$_BKHTMLContentViewController._highlightLastPos
+- OBJC_IVAR_$_BKHTMLContentViewController._highlightRenderingController
+- OBJC_IVAR_$_BKHTMLContentViewController._highlightStartPoint
+- OBJC_IVAR_$_BKHTMLContentViewController._highlightStartPoint2
+- OBJC_IVAR_$_BKHTMLContentViewController._highlightTimer
+- OBJC_IVAR_$_BKHTMLContentViewController._highlightWordEnd
+- OBJC_IVAR_$_BKHTMLContentViewController._highlightWordStart
+- OBJC_IVAR_$_BKHTMLContentViewController._indirectHighlightRecognizer
+- OBJC_IVAR_$_BKHTMLContentViewController._indirectImmediateHighlightRecognizer
+- OBJC_IVAR_$_BKHTMLContentViewController._initialTextInteractionModifiers
+- OBJC_IVAR_$_BKHTMLContentViewController._loadFailureCount
+- OBJC_IVAR_$_BKHTMLContentViewController._loader
+- OBJC_IVAR_$_BKHTMLContentViewController._locationEnsuredFirstPaintWorkBlock
+- OBJC_IVAR_$_BKHTMLContentViewController._mediaSource
+- OBJC_IVAR_$_BKHTMLContentViewController._overrideBuildMenuLocation
+- OBJC_IVAR_$_BKHTMLContentViewController._performSelectorProxy
+- OBJC_IVAR_$_BKHTMLContentViewController._readAloudEventHandler
+- OBJC_IVAR_$_BKHTMLContentViewController._rectForPresentedMenuForTextInteraction
+- OBJC_IVAR_$_BKHTMLContentViewController._supportsExpandedContent
+- OBJC_IVAR_$_BKHTMLContentViewController._visibleCFIString
+- OBJC_IVAR_$_BKHTMLContentViewController._webViewProxy
+- OBJC_IVAR_$_BKHTMLContentViewControllerDummyAnnotation._annotationIsUnderline
+- OBJC_IVAR_$_BKHTMLContentViewControllerDummyAnnotation._annotationRepresentativeText
+- OBJC_IVAR_$_BKHTMLContentViewControllerDummyAnnotation._annotationSelectedTextRange
+- OBJC_IVAR_$_BKHTMLContentViewControllerDummyAnnotation._annotationStyle
+- OBJC_IVAR_$_BKHTMLContentViewControllerDummyAnnotation._cfi
+- OBJC_IVAR_$_BKHTMLContentViewControllerDummyAnnotation._chapterTitle
+- OBJC_IVAR_$_BKHTMLContentViewControllerDummyAnnotation._date
+- OBJC_IVAR_$_BKHTMLContentViewControllerDummyAnnotation._dummyLocation2
+- OBJC_IVAR_$_BKHTMLContentViewControllerDummyAnnotation._existingAnnotationDOMRange
+- OBJC_IVAR_$_BKHTMLContentViewControllerDummyAnnotation._removed
+- OBJC_IVAR_$_BKImageResizerHelper._operationQueue
+- OBJC_IVAR_$_BKInfoHUD._backgroundView
+- OBJC_IVAR_$_BKInfoHUD._currentSymbolName
+- OBJC_IVAR_$_BKInfoHUD._delegate
+- OBJC_IVAR_$_BKInfoHUD._iconImageView
+- OBJC_IVAR_$_BKInfoHUD._iconImageViewWidthAnchor
+- OBJC_IVAR_$_BKInfoHUD._tapGestureRecognizer
+- OBJC_IVAR_$_BKInfoHUD._textLabel
+- OBJC_IVAR_$_BKInfoHUD._textLabelTrailingAnchor
+- OBJC_IVAR_$_BKInfoHUD._usesMonospacedDigitFont
+- OBJC_IVAR_$_BKLastRecordedLocation._creatingSnapshot
+- OBJC_IVAR_$_BKLastRecordedLocation._lastRecordedCFIDate
+- OBJC_IVAR_$_BKLastRecordedLocation._lastRecordedCFILocation
+- OBJC_IVAR_$_BKLastRecordedLocation._lastRecordedPageDate
+- OBJC_IVAR_$_BKLastRecordedLocation._lastRecordedPageLocation
+- OBJC_IVAR_$_BKLocation._ordinal
+- OBJC_IVAR_$_BKLocation._selectionRects
+- OBJC_IVAR_$_BKLoupeView._loupeMask
+- OBJC_IVAR_$_BKLoupeView._loupeSheen
+- OBJC_IVAR_$_BKLoupeView._shouldInvertContent
+- OBJC_IVAR_$_BKNumericOption._control
+- OBJC_IVAR_$_BKNumericOption._key
+- OBJC_IVAR_$_BKNumericOption._label
+- OBJC_IVAR_$_BKNumericOption._titleFormat
+- OBJC_IVAR_$_BKPDFActionController._didComputeMailingAllowed
+- OBJC_IVAR_$_BKPDFActionController._didComputePrintingAllowed
+- OBJC_IVAR_$_BKPDFActionController._isMailingAllowed
+- OBJC_IVAR_$_BKPDFActionController._isPrintingAllowed
+- OBJC_IVAR_$_BKPDFActionController._openedInPlace
+- OBJC_IVAR_$_BKPDFAnnotationCounter._document
+- OBJC_IVAR_$_BKPDFAnnotationCounterResult._numberOfMarkupAnnotations
+- OBJC_IVAR_$_BKPDFAnnotationCounterResult._numberOfMarkupAnnotationsWithPopups
+- OBJC_IVAR_$_BKPDFLocation._selection
+- OBJC_IVAR_$_BKPDFLocation._serialData
+- OBJC_IVAR_$_BKPDFModernBookViewController._accessLock
+- OBJC_IVAR_$_BKPDFModernBookViewController._akToolbarView
+- OBJC_IVAR_$_BKPDFModernBookViewController._annotationCountResults
+- OBJC_IVAR_$_BKPDFModernBookViewController._annotationCounter
+- OBJC_IVAR_$_BKPDFModernBookViewController._aspectRatioFromPDF
+- OBJC_IVAR_$_BKPDFModernBookViewController._assetEditingRequested
+- OBJC_IVAR_$_BKPDFModernBookViewController._assetOpenedInPlace
+- OBJC_IVAR_$_BKPDFModernBookViewController._controlsTapRecognizer
+- OBJC_IVAR_$_BKPDFModernBookViewController._coverNeedsUpdate
+- OBJC_IVAR_$_BKPDFModernBookViewController._currentlyAtMinimumScaleFactor
+- OBJC_IVAR_$_BKPDFModernBookViewController._ignoreKeyboardInteraction
+- OBJC_IVAR_$_BKPDFModernBookViewController._initialZoomFactor
+- OBJC_IVAR_$_BKPDFModernBookViewController._isSaving
+- OBJC_IVAR_$_BKPDFModernBookViewController._minimumScaleWithToolBars
+- OBJC_IVAR_$_BKPDFModernBookViewController._pdfDocument
+- OBJC_IVAR_$_BKPDFModernBookViewController._pdfDocumentCache
+- OBJC_IVAR_$_BKPDFModernBookViewController._pdfUndoManager
+- OBJC_IVAR_$_BKPDFModernBookViewController._pdfView
+- OBJC_IVAR_$_BKPDFModernBookViewController._performSelectorProxy
+- OBJC_IVAR_$_BKPDFModernBookViewController._scrolling
+- OBJC_IVAR_$_BKPDFModernBookViewController._scrubbing
+- OBJC_IVAR_$_BKPDFModernBookViewController._sharedBookCoverResetter
+- OBJC_IVAR_$_BKPDFModernBookViewController._stateShouldClose
+- OBJC_IVAR_$_BKPDFModernBookViewController._targetPageNumber
+- OBJC_IVAR_$_BKPDFModernBookViewController._writeQueue
+- OBJC_IVAR_$_BKPDFModernBookViewController.assetReloading
+- OBJC_IVAR_$_BKPDFPageThumbnailDirectory._bookmarkedPages
+- OBJC_IVAR_$_BKPDFPageThumbnailDirectory._noBookmarksView
+- OBJC_IVAR_$_BKPDFPageThumbnailDirectory._pageCount
+- OBJC_IVAR_$_BKPDFPageThumbnailDirectory._pdfDocument
+- OBJC_IVAR_$_BKPDFPageThumbnailDirectory._showBookmarks
+- OBJC_IVAR_$_BKPDFPageThumbnailDirectory._showBookmarksOnly
+- OBJC_IVAR_$_BKPDFSearchResult._selection
+- OBJC_IVAR_$_BKPDFSnapshotMetadata._leftPageIndex
+- OBJC_IVAR_$_BKPDFSnapshotMetadata._leftPageSize
+- OBJC_IVAR_$_BKPDFSnapshotMetadata._rightPageIndex
+- OBJC_IVAR_$_BKPDFSnapshotMetadata._rightPageSize
+- OBJC_IVAR_$_BKPDFTOCTableViewCell._pdfChapter
+- OBJC_IVAR_$_BKPDFTOCViewController._changeIsUserDriven
+- OBJC_IVAR_$_BKPDFTOCViewController._currentOutline
+- OBJC_IVAR_$_BKPDFTOCViewController._dateFormatter
+- OBJC_IVAR_$_BKPDFTOCViewController._pdfDocument
+- OBJC_IVAR_$_BKPDFTOCViewController._pdfOutlineRoot
+- OBJC_IVAR_$_BKPDFTOCViewController._preferredFontSize
+- OBJC_IVAR_$_BKPDFTOCViewController._recenteredIndexPath
+- OBJC_IVAR_$_BKPDFTOCViewController._scrollIndicatorsNeedToBeFlashed
+- OBJC_IVAR_$_BKPDFTOCViewController._setInitialScrollPosition
+- OBJC_IVAR_$_BKPDFTOCViewController._tableView
+- OBJC_IVAR_$_BKPDFTOCViewController._writingDirection
+- OBJC_IVAR_$_BKPageAnimation._existingPages
+- OBJC_IVAR_$_BKPageAnimation._finished
+- OBJC_IVAR_$_BKPageAnimation._isGoingToNextPage
+- OBJC_IVAR_$_BKPageAnimation._isInteractive
+- OBJC_IVAR_$_BKPageAnimation._pageAnimationDelegate
+- OBJC_IVAR_$_BKPageAnimation._state
+- OBJC_IVAR_$_BKPageBookCurlView._useInvertedColors
+- OBJC_IVAR_$_BKPageCurl._cancelledManualCurl
+- OBJC_IVAR_$_BKPageCurl._configuration
+- OBJC_IVAR_$_BKPageCurl._curlAnimationAngle
+- OBJC_IVAR_$_BKPageCurl._curlAnimationBackColor0
+- OBJC_IVAR_$_BKPageCurl._curlAnimationBackColor1
+- OBJC_IVAR_$_BKPageCurl._curlAnimationRadius
+- OBJC_IVAR_$_BKPageCurl._curlAnimationShadowColor
+- OBJC_IVAR_$_BKPageCurl._curlAnimationTime
+- OBJC_IVAR_$_BKPageCurl._curlFilter
+- OBJC_IVAR_$_BKPageCurl._curlStartNotificationSent
+- OBJC_IVAR_$_BKPageCurl._delegate
+- OBJC_IVAR_$_BKPageCurl._diagonalAngle
+- OBJC_IVAR_$_BKPageCurl._diagonalLengthPixels
+- OBJC_IVAR_$_BKPageCurl._didEndCount
+- OBJC_IVAR_$_BKPageCurl._existingPages
+- OBJC_IVAR_$_BKPageCurl._extraView
+- OBJC_IVAR_$_BKPageCurl._finished
+- OBJC_IVAR_$_BKPageCurl._ignoreManualUpdates
+- OBJC_IVAR_$_BKPageCurl._inUncurl
+- OBJC_IVAR_$_BKPageCurl._initialCurlRadius
+- OBJC_IVAR_$_BKPageCurl._k
+- OBJC_IVAR_$_BKPageCurl._lastPoint
+- OBJC_IVAR_$_BKPageCurl._manualStartPoint
+- OBJC_IVAR_$_BKPageCurl._projectedDiagonal
+- OBJC_IVAR_$_BKPageCurl._secondHalf
+- OBJC_IVAR_$_BKPageCurl._setupEndNotificationSent
+- OBJC_IVAR_$_BKPageCurl._spineLocation
+- OBJC_IVAR_$_BKPageCurl._state
+- OBJC_IVAR_$_BKPageCurl._uncurlAnimationAngle
+- OBJC_IVAR_$_BKPageCurl._uncurlAnimationRadius
+- OBJC_IVAR_$_BKPageCurl._uncurlAnimationShadowColor
+- OBJC_IVAR_$_BKPageCurl._uncurlAnimationTime
+- OBJC_IVAR_$_BKPageCurlConfiguration._context
+- OBJC_IVAR_$_BKPageCurlManager._configurationContext
+- OBJC_IVAR_$_BKPageCurlManager._delegate
+- OBJC_IVAR_$_BKPageCurlManager._pageCurlConfiguration
+- OBJC_IVAR_$_BKPageCurlManager._spineLocation
+- OBJC_IVAR_$_BKPageNavigationViewController._dataSource
+- OBJC_IVAR_$_BKPageNavigationViewController._delegate
+- OBJC_IVAR_$_BKPageNavigationViewController._ignoreNextGesture
+- OBJC_IVAR_$_BKPageScrollerPageView.__resizeOperation
+- OBJC_IVAR_$_BKPageScrollerPageView.__thumbnailingOperation
+- OBJC_IVAR_$_BKPageScrollerPageView._contentViewController
+- OBJC_IVAR_$_BKPageScrollerPageView._imageResizerDelegate
+- OBJC_IVAR_$_BKPageScrollerPageView._navigationDelegate
+- OBJC_IVAR_$_BKPageScrollerPageView._pageNumber
+- OBJC_IVAR_$_BKPageScrollerPageView._scrollState
+- OBJC_IVAR_$_BKPageScrollerPageView._thumbnailView
+- OBJC_IVAR_$_BKPageScrollerPageView._thumbnailingDelegate
+- OBJC_IVAR_$_BKPageScrollerViewController._animatingPageOffset
+- OBJC_IVAR_$_BKPageScrollerViewController._animatingZoomScale
+- OBJC_IVAR_$_BKPageScrollerViewController._imageResizerDelegate
+- OBJC_IVAR_$_BKPageScrollerViewController._maintainZoomScale
+- OBJC_IVAR_$_BKPageScrollerViewController._maxResizeScale
+- OBJC_IVAR_$_BKPageScrollerViewController._maxZoomScale
+- OBJC_IVAR_$_BKPageScrollerViewController._pagesNeedUpdate
+- OBJC_IVAR_$_BKPageScrollerViewController._resizeViewsWhenZoomed
+- OBJC_IVAR_$_BKPageScrollerViewController._thumbnailingDelegate
+- OBJC_IVAR_$_BKPageSlide._bottomPagesView
+- OBJC_IVAR_$_BKPageSlide._bottomViewFromCenter
+- OBJC_IVAR_$_BKPageSlide._bottomViewToCenter
+- OBJC_IVAR_$_BKPageSlide._completionBlock
+- OBJC_IVAR_$_BKPageSlide._manualCurlCurrentTime
+- OBJC_IVAR_$_BKPageSlide._manualCurlStartPosition
+- OBJC_IVAR_$_BKPageSlide._ongoingAnimationCount
+- OBJC_IVAR_$_BKPageSlide._scrimView
+- OBJC_IVAR_$_BKPageSlide._topPagesView
+- OBJC_IVAR_$_BKPageSlide._topViewFromCenter
+- OBJC_IVAR_$_BKPageSlide._topViewToCenter
+- OBJC_IVAR_$_BKPageSpan._leadingLocation
+- OBJC_IVAR_$_BKPageSpan._trailingLocation
+- OBJC_IVAR_$_BKPageThumbnailView._imageView
+- OBJC_IVAR_$_BKPageThumbnailView._pageLabel
+- OBJC_IVAR_$_BKPageThumbnailView._pageNumber
+- OBJC_IVAR_$_BKPageThumbnailView._pageTitle
+- OBJC_IVAR_$_BKPageThumbnailView._showsPageNumber
+- OBJC_IVAR_$_BKPageTurningViewController._activeCurlCount
+- OBJC_IVAR_$_BKPageTurningViewController._addsGutterOnPageTurn
+- OBJC_IVAR_$_BKPageTurningViewController._bookContainerView
+- OBJC_IVAR_$_BKPageTurningViewController._configuration
+- OBJC_IVAR_$_BKPageTurningViewController._curlContainer
+- OBJC_IVAR_$_BKPageTurningViewController._curlManager
+- OBJC_IVAR_$_BKPageTurningViewController._dataSource
+- OBJC_IVAR_$_BKPageTurningViewController._delegate
+- OBJC_IVAR_$_BKPageTurningViewController._fullScreenLandscapeGutterCount
+- OBJC_IVAR_$_BKPageTurningViewController._pageContainer
+- OBJC_IVAR_$_BKPageTurningViewController._pageProgressionDirection
+- OBJC_IVAR_$_BKPageTurningViewController._primaryContentContainer
+- OBJC_IVAR_$_BKPageTurningViewController._primaryContentController
+- OBJC_IVAR_$_BKPageTurningViewController._primaryContentControllerNeedsFrameAdjustment
+- OBJC_IVAR_$_BKPageTurningViewController._secondaryContentContainer
+- OBJC_IVAR_$_BKPageTurningViewController._secondaryContentController
+- OBJC_IVAR_$_BKPageTurningViewController._secondaryContentControllerNeedsFrameAdjustment
+- OBJC_IVAR_$_BKPageTurningViewController._smallGradientLayer
+- OBJC_IVAR_$_BKPageTurningViewController._spineLocation
+- OBJC_IVAR_$_BKPageTurningViewController._usePageCurlAnimation
+- OBJC_IVAR_$_BKPaginationBatchJob._bookDatabaseKey
+- OBJC_IVAR_$_BKPaginationBatchJob._configuration
+- OBJC_IVAR_$_BKPaginationBatchJob._historyEntities
+- OBJC_IVAR_$_BKPaginationBatchJob._lookupKey
+- OBJC_IVAR_$_BKPaginationBatchJob._pageSize
+- OBJC_IVAR_$_BKPaginationBatchJob._style
+- OBJC_IVAR_$_BKPaginationController._bookDatabaseKey
+- OBJC_IVAR_$_BKPaginationController._bookDirection
+- OBJC_IVAR_$_BKPaginationController._bookLanguage
+- OBJC_IVAR_$_BKPaginationController._bookObject
+- OBJC_IVAR_$_BKPaginationController._bookObjectID
+- OBJC_IVAR_$_BKPaginationController._bookSample
+- OBJC_IVAR_$_BKPaginationController._bookShouldDisableOptimizeSpeed
+- OBJC_IVAR_$_BKPaginationController._bookmarkPageCounts
+- OBJC_IVAR_$_BKPaginationController._chapterInfo
+- OBJC_IVAR_$_BKPaginationController._configuration
+- OBJC_IVAR_$_BKPaginationController._delegate
+- OBJC_IVAR_$_BKPaginationController._jobGeneration
+- OBJC_IVAR_$_BKPaginationController._layoutQueue
+- OBJC_IVAR_$_BKPaginationController._lookupKey
+- OBJC_IVAR_$_BKPaginationController._navigationHistory
+- OBJC_IVAR_$_BKPaginationController._operationFactory
+- OBJC_IVAR_$_BKPaginationController._pageTotal
+- OBJC_IVAR_$_BKPaginationController._paginationBatchProgress
+- OBJC_IVAR_$_BKPaginationController._paginationBatchSize
+- OBJC_IVAR_$_BKPaginationController._paginationInfo
+- OBJC_IVAR_$_BKPaginationController._paginationRetryCount
+- OBJC_IVAR_$_BKPaginationController._pauseCount
+- OBJC_IVAR_$_BKPaginationController._physicalPagesInfo
+- OBJC_IVAR_$_BKPaginationController._primaryMOC
+- OBJC_IVAR_$_BKPaginationController._resultsQueue
+- OBJC_IVAR_$_BKPaginationController._retainCount
+- OBJC_IVAR_$_BKPaginationController._spineIndexInPackage
+- OBJC_IVAR_$_BKPaginationController._style
+- OBJC_IVAR_$_BKPaginationFactory._paginationController
+- OBJC_IVAR_$_BKPaginationJob._force
+- OBJC_IVAR_$_BKPaginationJob._jobGeneration
+- OBJC_IVAR_$_BKPaginationLayoutJob._annotationCFIStrings
+- OBJC_IVAR_$_BKPaginationLayoutJob._annotationsToUpgrade
+- OBJC_IVAR_$_BKPaginationLayoutJob._bookSnapshot
+- OBJC_IVAR_$_BKPaginationLayoutJob._bookmarks
+- OBJC_IVAR_$_BKPaginationLayoutJob._contentLayoutSize
+- OBJC_IVAR_$_BKPaginationLayoutJob._documentOrdinal
+- OBJC_IVAR_$_BKPaginationLayoutJob._href
+- OBJC_IVAR_$_BKPaginationLayoutJob._landmarkAnchors
+- OBJC_IVAR_$_BKPaginationLayoutJob._navigationInfoAnchors
+- OBJC_IVAR_$_BKPaginationLayoutJob._physicalPageAnchors
+- OBJC_IVAR_$_BKPaginationLayoutJob._url
+- OBJC_IVAR_$_BKPaginationLayoutJob._webView
+- OBJC_IVAR_$_BKPaginationOperation._annotationProvider
+- OBJC_IVAR_$_BKPaginationOperation._bookDatabaseKey
+- OBJC_IVAR_$_BKPaginationOperation._bookObjectID
+- OBJC_IVAR_$_BKPaginationOperation._job
+- OBJC_IVAR_$_BKPaginationOperation._operationMoc
+- OBJC_IVAR_$_BKPaginationOperation._paginationOperationController
+- OBJC_IVAR_$_BKPaginationOperation._psc
+- OBJC_IVAR_$_BKPaginationPrepareOperation._webView
+- OBJC_IVAR_$_BKPaginationRecordJob._cfiLocationRects
+- OBJC_IVAR_$_BKPaginationRecordJob._estimatedSize
+- OBJC_IVAR_$_BKPaginationRecordJob._pageCount
+- OBJC_IVAR_$_BKPanGestureRecognizer._leftSideMovementThreshold
+- OBJC_IVAR_$_BKPanGestureRecognizer._rightSideMovementThreshold
+- OBJC_IVAR_$_BKPanGestureRecognizer._trackingTouch
+- OBJC_IVAR_$_BKPanGestureRecognizer.lastLocation
+- OBJC_IVAR_$_BKPdfSearchOperation._currentPageIndex
+- OBJC_IVAR_$_BKPdfSearchOperation._dropDocument
+- OBJC_IVAR_$_BKPdfSearchOperation._foundResults
+- OBJC_IVAR_$_BKPdfSearchOperation._numberOfDocumentPages
+- OBJC_IVAR_$_BKPdfSearchOperation._pdfDocument
+- OBJC_IVAR_$_BKPdfSearchOperation._resultIndex
+- OBJC_IVAR_$_BKPictureBookContentViewController._alreadyRevealed
+- OBJC_IVAR_$_BKPictureBookContentViewController._didFinishLoading
+- OBJC_IVAR_$_BKPictureBookContentViewController._didFinishRendering
+- OBJC_IVAR_$_BKPictureBookNavigationController._canFitToWidth
+- OBJC_IVAR_$_BKPictureBookNavigationController._desiredScale
+- OBJC_IVAR_$_BKPictureBookNavigationController._hasTurnedToInitialPage
+- OBJC_IVAR_$_BKPictureBookNavigationController._inSinglePageMode
+- OBJC_IVAR_$_BKPictureBookNavigationController._lastCompletedTransition
+- OBJC_IVAR_$_BKPictureBookNavigationController._lastCurlUnderPageView
+- OBJC_IVAR_$_BKPictureBookNavigationController._manualCurl
+- OBJC_IVAR_$_BKPictureBookNavigationController._manualCurlStartPosition
+- OBJC_IVAR_$_BKPictureBookNavigationController._pageOffsetToRestore
+- OBJC_IVAR_$_BKPictureBookNavigationController._pageSlideAnimation
+- OBJC_IVAR_$_BKPictureBookNavigationController._performSelectorProxy
+- OBJC_IVAR_$_BKPictureBookNavigationController._scaleIsAdjusted
+- OBJC_IVAR_$_BKPictureBookNavigationController._singlePageCurlContainer
+- OBJC_IVAR_$_BKPictureBookNavigationController._usePageCurlAnimation
+- OBJC_IVAR_$_BKPictureBookPageContainerView._isLeftPage
+- OBJC_IVAR_$_BKPictureBookPageContainerView._isRightPage
+- OBJC_IVAR_$_BKPictureBookPageContainerView._pageNumber
+- OBJC_IVAR_$_BKPictureBookPageContainerView._pageScrollerPageView
+- OBJC_IVAR_$_BKPictureBookPageContainerView._useRoundedCornerRadius
+- OBJC_IVAR_$_BKPictureBookReadingStatisticsCollector._allNavigationInfosByOrdinal
+- OBJC_IVAR_$_BKPictureBookReadingStatisticsCollector._assetViewController
+- OBJC_IVAR_$_BKPictureBookReadingStatisticsCollector._invalidated
+- OBJC_IVAR_$_BKPictureBookReadingStatisticsCollector._spineIndexInPackage
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController.__lastScrollViewSizeLayoutWasGeneratedFor
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController.__positionForPages
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController._allowDoubleTapToZoom
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController._animating
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController._book
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController._delegate
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController._doubleTapGesture
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController._lastOffset
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController._lastOffsetCapture
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController._lastOffsetUsedForPageRefresh
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController._lastPageRefreshTime
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController._lastScrollSpeed
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController._pageNumberBeforeTransition
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController._pageSize
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController._pagesContainerView
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController._preferredPageNumberHUDVisibility
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController._scrollView
+- OBJC_IVAR_$_BKPictureBookVerticalNavigationController._scrollViewIsZooming
+- OBJC_IVAR_$_BKPictureBookViewController._areNotificationsSetup
+- OBJC_IVAR_$_BKPictureBookViewController._backgroundImageView
+- OBJC_IVAR_$_BKPictureBookViewController._bookLoadingMonitor
+- OBJC_IVAR_$_BKPictureBookViewController._currentReadingPositionView
+- OBJC_IVAR_$_BKPictureBookViewController._edgePanGestureRecognizer
+- OBJC_IVAR_$_BKPictureBookViewController._imageResizer
+- OBJC_IVAR_$_BKPictureBookViewController._preferredPageNumberHUDVisibilityChangedTime
+- OBJC_IVAR_$_BKPictureBookViewController._proofingVeil
+- OBJC_IVAR_$_BKPictureBookViewController._scrimView
+- OBJC_IVAR_$_BKPictureBookViewController._scrubberContainerView
+- OBJC_IVAR_$_BKPictureBookViewController._shouldShowNextPagePageButtonsHint
+- OBJC_IVAR_$_BKPictureBookViewController._snapshotWebView
+- OBJC_IVAR_$_BKPictureBookViewController._thumbnailContext
+- OBJC_IVAR_$_BKPictureBookViewController._verticalScrubberAnimator
+- OBJC_IVAR_$_BKPictureBookViewGeometry._configuration
+- OBJC_IVAR_$_BKPictureBookViewGeometry._containerBounds
+- OBJC_IVAR_$_BKPictureBookViewGeometry._contentSize
+- OBJC_IVAR_$_BKPictureBookViewGeometry._drawsSpine
+- OBJC_IVAR_$_BKPictureBookViewGeometry._ignoresPadding
+- OBJC_IVAR_$_BKReadAloudEventHandler._delegate
+- OBJC_IVAR_$_BKReadAloudEventHandler._mediaActiveClass
+- OBJC_IVAR_$_BKSampleUpsellContentViewController._bookAuthorLabel
+- OBJC_IVAR_$_BKSampleUpsellContentViewController._bookAuthorTopConstraint
+- OBJC_IVAR_$_BKSampleUpsellContentViewController._bookTitleLabel
+- OBJC_IVAR_$_BKSampleUpsellContentViewController._bookTitleTopConstraint
+- OBJC_IVAR_$_BKSampleUpsellContentViewController._bookTitleWidthConstraint
+- OBJC_IVAR_$_BKSampleUpsellContentViewController._buyButton
+- OBJC_IVAR_$_BKSampleUpsellContentViewController._buyButtonTopConstraint
+- OBJC_IVAR_$_BKSampleUpsellContentViewController._buyDelegate
+- OBJC_IVAR_$_BKSampleUpsellContentViewController._contentScale
+- OBJC_IVAR_$_BKSampleUpsellContentViewController._continueLabel
+- OBJC_IVAR_$_BKSampleUpsellContentViewController._fixedLayout
+- OBJC_IVAR_$_BKSampleUpsellContentViewController._profileFuture
+- OBJC_IVAR_$_BKSampleUpsellContentViewController.contentSize
+- OBJC_IVAR_$_BKSampleUpsellContentViewController.visibleInScrollMode
+- OBJC_IVAR_$_BKSampleUpsellContentViewController.zoomScale
+- OBJC_IVAR_$_BKScrollingPageViewController._addSpaceAtEndOfBook
+- OBJC_IVAR_$_BKScrollingPageViewController._clipsToBounds
+- OBJC_IVAR_$_BKScrollingPageViewController._inDrag
+- OBJC_IVAR_$_BKScrollingPageViewController._isSuppressingColorSettings
+- OBJC_IVAR_$_BKScrollingPageViewController._lastDidScrollTimestamp
+- OBJC_IVAR_$_BKSearchController._configuration
+- OBJC_IVAR_$_BKSearchController._lastSavedSearchResult
+- OBJC_IVAR_$_BKSearchController._performSelectorProxy
+- OBJC_IVAR_$_BKSearchController._searchConfiguration
+- OBJC_IVAR_$_BKSearchController._webView
+- OBJC_IVAR_$_BKSearchController._webViewTrackingID
+- OBJC_IVAR_$_BKSearchOperation._lastSavedSearchResult
+- OBJC_IVAR_$_BKSearchResult._location
+- OBJC_IVAR_$_BKSearchResult._ordinal
+- OBJC_IVAR_$_BKSearchResult._pageOffset
+- OBJC_IVAR_$_BKSearchResult._pageTitle
+- OBJC_IVAR_$_BKSearchResult._searchString
+- OBJC_IVAR_$_BKSearchResult._searchStringRange
+- OBJC_IVAR_$_BKSearchResult._text
+- OBJC_IVAR_$_BKSearchViewController._dummySearchLoadingCell
+- OBJC_IVAR_$_BKSearchViewController._dummySearchResultsCell
+- OBJC_IVAR_$_BKSearchViewController._footerHeightConstraint
+- OBJC_IVAR_$_BKSearchViewController._footerTopBorderView
+- OBJC_IVAR_$_BKSearchViewController._headerDividerView
+- OBJC_IVAR_$_BKSearchViewController._maxContentHeight
+- OBJC_IVAR_$_BKSearchViewController._paginationController
+- OBJC_IVAR_$_BKSearchViewController._resizeAnimationInProgress
+- OBJC_IVAR_$_BKSearchViewController._resizeRequestPending
+- OBJC_IVAR_$_BKSearchViewController._searchBarHeightConstraint
+- OBJC_IVAR_$_BKSearchViewController._searchDelegate
+- OBJC_IVAR_$_BKSegmentedControl._divideRightPressedMini
+- OBJC_IVAR_$_BKSemanticLayoutOverlayViewController.__collapsed
+- OBJC_IVAR_$_BKSemanticLayoutOverlayViewController.__collapsedHeightConstraint
+- OBJC_IVAR_$_BKSemanticLayoutOverlayViewController.__fullHeight
+- OBJC_IVAR_$_BKSemanticLayoutOverlayViewController.__fullHeightConstraints
+- OBJC_IVAR_$_BKSemanticLayoutOverlayViewController.__options
+- OBJC_IVAR_$_BKSemanticLayoutOverlayViewController.__resetButton
+- OBJC_IVAR_$_BKSemanticLayoutOverlayViewController.__semanticOptions
+- OBJC_IVAR_$_BKSemanticLayoutOverlayViewController.__stackView
+- OBJC_IVAR_$_BKSemanticLayoutOverlayViewController.__summaryLabel
+- OBJC_IVAR_$_BKSemanticLayoutOverlayViewController.__valueFormatter
+- OBJC_IVAR_$_BKSemanticLayoutOverlayViewController._controller
+- OBJC_IVAR_$_BKStyleManager._addedPresetFonts
+- OBJC_IVAR_$_BKSwitcherContent._assetSharingConnectionClient
+- OBJC_IVAR_$_BKSwitcherContent._contentConfiguration
+- OBJC_IVAR_$_BKSwitcherContent._switcherToolbar
+- OBJC_IVAR_$_BKSwitcherContent._switcherToolbarDividerView
+- OBJC_IVAR_$_BKSwitcherContent._tableSwitchHeightConstraint
+- OBJC_IVAR_$_BKSwitcherContent._tableSwitchWidthConstraint
+- OBJC_IVAR_$_BKSwitcherContentConfiguration._context
+- OBJC_IVAR_$_BKTOCAnnotationTableCell._dateLabel
+- OBJC_IVAR_$_BKTOCAnnotationTableCell._noteLabel
+- OBJC_IVAR_$_BKTOCContentViewController._activityIndicatorOverlayView
+- OBJC_IVAR_$_BKTOCContentViewController._assetSharingConnectionClient
+- OBJC_IVAR_$_BKTOCContentViewController._boldFont
+- OBJC_IVAR_$_BKTOCContentViewController._cachedRowContents
+- OBJC_IVAR_$_BKTOCContentViewController._cellLoadingOperationCount
+- OBJC_IVAR_$_BKTOCContentViewController._descriptionView
+- OBJC_IVAR_$_BKTOCContentViewController._imageCache
+- OBJC_IVAR_$_BKTOCContentViewController._isProgrammaticScrolling
+- OBJC_IVAR_$_BKTOCContentViewController._preferredFontSize
+- OBJC_IVAR_$_BKTOCContentViewController._readyForUserScrollDate
+- OBJC_IVAR_$_BKTOCContentViewController._recenteredIndexPath
+- OBJC_IVAR_$_BKTOCContentViewController._requestQueue
+- OBJC_IVAR_$_BKTOCContentViewController._requestToIndexPath
+- OBJC_IVAR_$_BKTOCContentViewController._scrollIndicatorsNeedToBeFlashed
+- OBJC_IVAR_$_BKTOCContentViewController._setInitialScrollPosition
+- OBJC_IVAR_$_BKTOCContentViewController._sharedWebView
+- OBJC_IVAR_$_BKTOCContentViewController._template
+- OBJC_IVAR_$_BKTOCContentViewController._userDidScroll
+- OBJC_IVAR_$_BKTOCContentViewController._writingDirection
+- OBJC_IVAR_$_BKTOCPointAnnotationTableCell._ribbonImageView
+- OBJC_IVAR_$_BKTOCRangeAnnotationTableCell._highlightedTextLabel
+- OBJC_IVAR_$_BKTOCTableViewCell._bkaxIsExcludedFromSample
+- OBJC_IVAR_$_BKTOCTableViewCell._cacheKey
+- OBJC_IVAR_$_BKTOCTableViewCell._cachedImageView
+- OBJC_IVAR_$_BKTOCTableViewCell._contentInsets
+- OBJC_IVAR_$_BKTOCTableViewCell._hasHTMLTitle
+- OBJC_IVAR_$_BKTOCTableViewCell._highlightImage
+- OBJC_IVAR_$_BKTOCTableViewCell._highlightImageView
+- OBJC_IVAR_$_BKTOCTableViewCell._highlightTextColor
+- OBJC_IVAR_$_BKTOCTableViewCell._highlightedBackgroundView
+- OBJC_IVAR_$_BKTOCTableViewCell._multipleSelectionTickBackgroundImage
+- OBJC_IVAR_$_BKTOCTableViewCell._multipleSelectionTickBackgroundImageView
+- OBJC_IVAR_$_BKTOCTableViewCell._pageLabel
+- OBJC_IVAR_$_BKTOCTableViewCell._selectedCacheKey
+- OBJC_IVAR_$_BKTOCTableViewCell._usesPopoverStyle
+- OBJC_IVAR_$_BKTOCTableViewCell._vertical
+- OBJC_IVAR_$_BKTOCTableViewCell._verticalLabel
+- OBJC_IVAR_$_BKTOCTableViewCell._writingDirection
+- OBJC_IVAR_$_BKTOCViewController._chapterSubLevelFont
+- OBJC_IVAR_$_BKTOCViewController._chapterTopLevelFont
+- OBJC_IVAR_$_BKTOCViewController._containingVerticalInset
+- OBJC_IVAR_$_BKTOCViewController._eventEngagement
+- OBJC_IVAR_$_BKTOCViewController._scrollIndicatorsNeedToBeFlashed
+- OBJC_IVAR_$_BKTOCViewController._scrollView
+- OBJC_IVAR_$_BKTOCViewController._shouldIgnoreViewLayoutUpdates
+- OBJC_IVAR_$_BKTOCViewController._sizeOfCachedFonts
+- OBJC_IVAR_$_BKTOCViewController._usesPopoverStyle
+- OBJC_IVAR_$_BKTOCViewController._verticalCenteringInsets
+- OBJC_IVAR_$_BKTOCWebViewCellContent._cacheKey
+- OBJC_IVAR_$_BKTOCWebViewCellContent._height
+- OBJC_IVAR_$_BKTOCWebViewCellLoadQueue._currentRequest
+- OBJC_IVAR_$_BKTOCWebViewCellLoadQueue._imageCache
+- OBJC_IVAR_$_BKTOCWebViewCellLoadQueue._requests
+- OBJC_IVAR_$_BKTOCWebViewCellLoadQueue._webView
+- OBJC_IVAR_$_BKTOCWebViewCellLoadRequest._baseURL
+- OBJC_IVAR_$_BKTOCWebViewCellLoadRequest._htmlContentString
+- OBJC_IVAR_$_BKTOCWebViewCellLoadRequest._htmlTemplate
+- OBJC_IVAR_$_BKTOCWebViewCellLoadRequest._requester
+- OBJC_IVAR_$_BKTOCWebViewCellLoadRequest._selectedColor
+- OBJC_IVAR_$_BKTOCWebViewCellLoadRequest._span
+- OBJC_IVAR_$_BKTOCWebViewController2._activityIndicator
+- OBJC_IVAR_$_BKTOCWebViewController2._contentSize
+- OBJC_IVAR_$_BKTOCWebViewController2._htmlLoaded
+- OBJC_IVAR_$_BKTOCWebViewController2._tocData
+- OBJC_IVAR_$_BKTOCWebViewController2._webView
+- OBJC_IVAR_$_BKTOCWebViewTableViewCell._imageCache
+- OBJC_IVAR_$_BKTOCWebViewTableViewCell._webViewCachedImageView
+- OBJC_IVAR_$_BKTappyScrollView._targetView
+- OBJC_IVAR_$_BKThumbnailBookViewConfiguration._context
+- OBJC_IVAR_$_BKThumbnailBookViewController._configuration
+- OBJC_IVAR_$_BKThumbnailBookViewController._initialJumpLocation
+- OBJC_IVAR_$_BKThumbnailBookViewController._pageNumberHUD
+- OBJC_IVAR_$_BKThumbnailBookViewController._pageNumberHUDHeightConstraint
+- OBJC_IVAR_$_BKThumbnailBookViewController._pageNumberHUDTopConstraint
+- OBJC_IVAR_$_BKThumbnailBookViewController._pageNumberHUDWidthConstraint
+- OBJC_IVAR_$_BKThumbnailBookViewController._preferredLayoutCache
+- OBJC_IVAR_$_BKThumbnailBookViewController._tipContentController
+- OBJC_IVAR_$_BKThumbnailBookViewController._tipContentViewController
+- OBJC_IVAR_$_BKThumbnailBookViewController._topBarTopConstraint
+- OBJC_IVAR_$_BKThumbnailDirectory._cellWidth
+- OBJC_IVAR_$_BKThumbnailScrubber._bkAccessibilityAnnouncementString
+- OBJC_IVAR_$_BKThumbnailScrubber._gravitationalPoint
+- OBJC_IVAR_$_BKThumbnailScrubber._hideThumbView
+- OBJC_IVAR_$_BKThumbnailScrubber._isWithinGravitationalPointReach
+- OBJC_IVAR_$_BKToolbarButton._height
+- OBJC_IVAR_$_BKToolbarButton._miniHeight
+- OBJC_IVAR_$_BKToolbarButton._popoverPresentationEdgeInsets
+- OBJC_IVAR_$_BKViewController._currentOverlayViewController
+- OBJC_IVAR_$_BKViewController._forcePopoverInsteadOfSheet
+- OBJC_IVAR_$_BKWK2EpubPaginationLayoutOperation._annotationCFIStrings
+- OBJC_IVAR_$_BKWK2EpubPaginationLayoutOperation._annotationsToUpgrade
+- OBJC_IVAR_$_BKWK2EpubPaginationLayoutOperation._cfiLocationPageOffsets
+- OBJC_IVAR_$_BKWK2EpubPaginationLayoutOperation._cfiLocationRects
+- OBJC_IVAR_$_BKWK2EpubPaginationLayoutOperation._cfiOptions
+- OBJC_IVAR_$_BKWK2EpubPaginationLayoutOperation._cfisForHrefs
+- OBJC_IVAR_$_BKWK2EpubPaginationLayoutOperation._cleanupOptions
+- OBJC_IVAR_$_BKWK2EpubPaginationLayoutOperation._loadSemaphore
+- OBJC_IVAR_$_BKWK2EpubPaginationLayoutOperation._loader
+- OBJC_IVAR_$_BKWK2EpubPaginationLayoutOperation._paginationLayoutJob
+- OBJC_IVAR_$_BKWK2EpubPaginationLayoutOperation._paginationOptions
+- OBJC_IVAR_$_BKWK2EpubPaginationLayoutOperation._successfulLoad
+- OBJC_IVAR_$_BKWK2EpubPaginationLayoutOperation._textNodeCharacterCounts
+- OBJC_IVAR_$_BKWK2EpubPaginationLayoutOperation._upgradedBookmarks
+- OBJC_IVAR_$_BKWK2EpubPaginationLayoutOperation._webView
+- OBJC_IVAR_$_BKWK2EpubSearchOperation._baseURL
+- OBJC_IVAR_$_BKWK2EpubSearchOperation._configureRequest
+- OBJC_IVAR_$_BKWK2EpubSearchOperation._contentProcessDidTerminate
+- OBJC_IVAR_$_BKWK2EpubSearchOperation._findSemaphore
+- OBJC_IVAR_$_BKWK2EpubSearchOperation._loadSemaphore
+- OBJC_IVAR_$_BKWK2EpubSearchOperation._loader
+- OBJC_IVAR_$_BKWK2EpubSearchOperation._physicalPageMap
+- OBJC_IVAR_$_BKWK2EpubSearchOperation._successfulLoad
+- OBJC_IVAR_$_BKWK2EpubSearchOperation._url
+- OBJC_IVAR_$_BKWK2EpubTOCParseOperation._cleanupOptions
+- OBJC_IVAR_$_BKWK2EpubTOCParseOperation._loadSemaphore
+- OBJC_IVAR_$_BKWK2EpubTOCParseOperation._loader
+- OBJC_IVAR_$_BKWK2EpubTOCParseOperation._paginationOptions
+- OBJC_IVAR_$_BKWK2EpubTOCParseOperation._successfulLoad
+- OBJC_IVAR_$_BKWK2EpubTOCParseOperation._tocParseJob
+- OBJC_IVAR_$_BKWK2EpubTOCParseOperation._webView
+- OBJC_IVAR_$_BKWK2LoaderContentInfoRequest._bookSnapshot
+- OBJC_IVAR_$_BKWK2LoaderContentInfoRequest._cfiOptions
+- OBJC_IVAR_$_BKWK2LoaderContentInfoRequest._cleanupOptions
+- OBJC_IVAR_$_BKWK2LoaderContentInfoRequest._completion
+- OBJC_IVAR_$_BKWK2LoaderContentInfoRequest._fontSize
+- OBJC_IVAR_$_BKWK2LoaderContentInfoRequest._location
+- OBJC_IVAR_$_BKWK2LoaderContentInfoRequest._ordinal
+- OBJC_IVAR_$_BKWK2LoaderContentInfoRequest._paginationOptions
+- OBJC_IVAR_$_BKWK2LoaderContentInfoRequest._requestID
+- OBJC_IVAR_$_BKWK2LoaderContentInfoRequest._restoreFrame
+- OBJC_IVAR_$_BKWK2LoaderContentInfoRequest._state
+- OBJC_IVAR_$_BKWK2LoaderContentInfoRequest._stylesheetSet
+- OBJC_IVAR_$_BKWK2WebViewLoader._anchorFrames
+- OBJC_IVAR_$_BKWK2WebViewLoader._anchorLocations
+- OBJC_IVAR_$_BKWK2WebViewLoader._calculatingPageLocations
+- OBJC_IVAR_$_BKWK2WebViewLoader._contentInfo
+- OBJC_IVAR_$_BKWK2WebViewLoader._contentSize
+- OBJC_IVAR_$_BKWK2WebViewLoader._currentFirstVisbleCFILocation
+- OBJC_IVAR_$_BKWK2WebViewLoader._currentInfoRequest
+- OBJC_IVAR_$_BKWK2WebViewLoader._currentLastVisbleCFILocation
+- OBJC_IVAR_$_BKWK2WebViewLoader._currentSelectionCFI
+- OBJC_IVAR_$_BKWK2WebViewLoader._currentSelectionContainsAnchor
+- OBJC_IVAR_$_BKWK2WebViewLoader._currentTextSelection
+- OBJC_IVAR_$_BKWK2WebViewLoader._currentVisbleCFILocation
+- OBJC_IVAR_$_BKWK2WebViewLoader._currentlyUpdatingPaginationInformation
+- OBJC_IVAR_$_BKWK2WebViewLoader._delegate
+- OBJC_IVAR_$_BKWK2WebViewLoader._desiredWebViewFrame
+- OBJC_IVAR_$_BKWK2WebViewLoader._isVerticalDocument
+- OBJC_IVAR_$_BKWK2WebViewLoader._listeningForCFIUpdates
+- OBJC_IVAR_$_BKWK2WebViewLoader._mediaFrames
+- OBJC_IVAR_$_BKWK2WebViewLoader._mediaLocations
+- OBJC_IVAR_$_BKWK2WebViewLoader._ordinal
+- OBJC_IVAR_$_BKWK2WebViewLoader._pageCount
+- OBJC_IVAR_$_BKWK2WebViewLoader._pageTextDirectionIsRTL
+- OBJC_IVAR_$_BKWK2WebViewLoader._paginationOptions
+- OBJC_IVAR_$_BKWK2WebViewLoader._pendingInfoRequest
+- OBJC_IVAR_$_BKWK2WebViewLoader._retryCount
+- OBJC_IVAR_$_BKWK2WebViewLoader._textContent
+- OBJC_IVAR_$_BKWK2WebViewLoader._textDirectionDetermined
+- OBJC_IVAR_$_BKWK2WebViewLoader._tocIdCssRules
+- OBJC_IVAR_$_BKWK2WebViewLoader._url
+- OBJC_IVAR_$_BKWK2WebViewLoader._webView
+- OBJC_IVAR_$_BKWK2WebViewLoader._webViewLoaded
+- OBJC_IVAR_$_BKWebViewProxy._hasWKWebView
+- OBJC_IVAR_$_BKWebViewProxy._loader
+- OBJC_IVAR_$_BKWebViewProxy._localFrame
+- OBJC_IVAR_$_BKWebViewProxy._retryCount
+- OBJC_IVAR_$_BKZoomingScrollView._maxSimulatedZoomScale
+- OBJC_IVAR_$_BKZoomingScrollView._simulatedZoomScale
+- OBJC_IVAR_$_ContentStyle._overrideProvider
+- OBJC_IVAR_$_ContentViewStyleManagerBookInfo._language
+- OBJC_IVAR_$_ContentViewStyleManagerBookInfo._respectImageSizeClass
+- OBJC_IVAR_$_ContentViewStyleManagerBookInfo._respectImageSizeClassIsPrefix
+- OBJC_IVAR_$_EpubPaginationFactory._isFixedLayout
+- OBJC_IVAR_$_EpubPaginationFactory._paginatingEvent
+- OBJC_IVAR_$_EpubPaginationFactory._respectImageSizeClass
+- OBJC_IVAR_$_EpubPaginationFactory._respectImageSizeClassIsPrefix
+- OBJC_IVAR_$_EpubPaginationFactory._respectsPageBreaks
+- OBJC_IVAR_$__BKExpandedContentViewControllerAnimator._sourceRect
+- OBJC_IVAR_$__BKExpandedImageContentCenteringScrollView._hasCalculatedMinZoomScale
+- OBJC_IVAR_$__CachedFallbackInfo._fallbacks
+- OBJC_IVAR_$__CachedFallbackInfo._font
+- OBJC_IVAR_$__CachedFallbackInfo._fontFamily
+- OBJC_IVAR_$__CachedFallbackInfo._language
+- _AEAnnotationLocationLog.log
+- _AEAnnotationLocationLog.onceToken
+- _AEBookOpenLog.log
+- _AEBookOpenLog.onceToken
+- _AEBookPluginsAnnotationsLog.log
+- _AEBookPluginsAnnotationsLog.onceToken
+- _AEBookPluginsAudiobookLog.log
+- _AEBookPluginsAudiobookLog.onceToken
+- _AEBookPluginsFontCacheLog.log
+- _AEBookPluginsFontCacheLog.onceToken
+- _AEBookPluginsLifeCycleLog.log
+- _AEBookPluginsLifeCycleLog.onceToken
+- _AEBookPluginsPageTurnLog.log
+- _AEBookPluginsPageTurnLog.onceToken
+- _AEBookPluginsRTLLog.log
+- _AEBookPluginsRTLLog.onceToken
+- _AEBookPluginsScrollLog.log
+- _AEBookPluginsScrollLog.onceToken
+- _AECaptureLocationLog.log
+- _AECaptureLocationLog.onceToken
+- _AELog.log
+- _AELog.onceToken
+- _AENavigationControllerLog.log
+- _AENavigationControllerLog.onceToken
+- _AEPaginationLog.log
+- _AEPaginationLog.onceToken
+- _AEPanGRLog.log
+- _AEPanGRLog.onceToken
+- _AERePaginationLog.log
+- _AERePaginationLog.onceToken
+- _AESearchLog.log
+- _AESearchLog.onceToken
+- _AESwipeLog.log
+- _AESwipeLog.onceToken
+- _AEWKLoaderLog.log
+- _AEWKLoaderLog.onceToken
+- _AEWKPictureBookLog.log
+- _AEWKPictureBookLog.onceToken
+- _AEWKProxyLog.log
+- _AEWKProxyLog.onceToken
+- _AEWKThumbnailBookLog.log
+- _AEWKThumbnailBookLog.onceToken
+- _AEWKTocParseLog.log
+- _AEWKTocParseLog.onceToken
+- _BESwizzleInstanceMethods
+- _BKExpandedWebContentViewController2Context
+- _BKFontCachePresetIsThemeDefault
+- _BKHTMLContentViewControllerDefaultsContext
+- _BKScreenScale
+- _BKStyleManagerKVOContext
+- _BKTOCAnnotationTableCellTopMarginBookmarkAdjustmentiPad
+- _BKTOCAnnotationTableCellTopMarginBookmarkAdjustmentiPhone
+- _BKWK2SearchDeserializeJSON
+- _CreateDataByCompressingString
+- _ITEpubParsingLog.log
+- _ITEpubParsingLog.onceToken
+- _OBJC_$_PROP_LIST_AEBookInfoSnapshot.183
+- _OBJC_CLASS_$_NSAssertionHandler
+- _OBJC_CLASS_$_OS_os_log
+- _OBJC_CLASS_$__TtC13AEBookPlugins25MarkupButtonContainerView
+- _OBJC_METACLASS_$__TtC13AEBookPlugins25MarkupButtonContainerView
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- _PROTOCOLS_BEAnnotation.26
+- _PROTOCOLS_BEBookViewModel.18
+- _PROTOCOLS_BEDocument.20
+- _PROTOCOLS_BEDocumentPaginationDataInfo.37
+- _PROTOCOLS_BEPage.62
+- _StartPoint
+- _UseOldFontsKVOContext
+- __110-[BKViewController showOverlayViewController:fromItem:popoverOnPhone:passthroughViews:popoverBackgroundColor:]_block_invoke_2.cold.1
+- __117-[BKFlowingBookViewController _prepareViewSizeTransition:withTransitionCoordinator:animated:clearContentControllers:]_block_invoke.384
+- __18-[BKFont download]_block_invoke.126
+- __18-[BKFont download]_block_invoke_2.127
+- __18-[BKFont download]_block_invoke_3.128
+- __32-[BKFontCache fontsForLanguage:]_block_invoke.58
+- __37-[BKPaginationController batchEnded:]_block_invoke.90
+- __39-[AEEpubInfoSource persistentContainer]_block_invoke.107
+- __41-[BKActionController showActionControls:]_block_invoke.191
+- __45-[BKFont checkStateSynchronously:completion:]_block_invoke.119
+- __45-[BKFont checkStateSynchronously:completion:]_block_invoke_2.122
+- __48-[BKPDFModernBookViewController toggleBookmark:]_block_invoke.cold.1
+- __57-[BKHTMLContentViewController books_useSelectionForFind:]_block_invoke.cold.1
+- __57-[BKHTMLContentViewController books_useSelectionForFind:]_block_invoke.cold.2
+- __59-[AEPDFPlugin helper:viewControllerWithOptions:completion:]_block_invoke.107
+- __59-[AEPDFPlugin helper:viewControllerWithOptions:completion:]_block_invoke_2.109
+- __59-[AEPDFPlugin helper:viewControllerWithOptions:completion:]_block_invoke_2.cold.1
+- __59-[BKBookViewController bc_analyticsVisibilityWillDisappear]_block_invoke_3.cold.1
+- __59-[BKWK2WebViewLoader _updateContentInformationWithRequest:]_block_invoke.134
+- __59-[BKWK2WebViewLoader _updateContentInformationWithRequest:]_block_invoke.135
+- __60-[BKWK2WebViewLoader pageOffsetRangeForLocation:completion:]_block_invoke.151
+- __61-[BKPDFModernBookViewController saveStateClosing:suspending:]_block_invoke.218
+- __61-[BKPDFModernBookViewController saveStateClosing:suspending:]_block_invoke_2.220
+- __61-[BKPDFModernBookViewController saveStateClosing:suspending:]_block_invoke_3.cold.1
+- __61-[BKWK2EpubPaginationLayoutOperation _generatePaginationData]_block_invoke.102
+- __64-[BKFlowingBookViewController _compositeSnapshotWithCompletion:]_block_invoke.619
+- __64-[BKTOCWebViewController2 installJavaScriptWithCompletionBlock:]_block_invoke.373
+- __66-[BKFlowingBookViewController _updateConfigurationWithCompletion:]_block_invoke.701
+- __69-[AEMinimalTemplate evaluateWithData:templateSet:cycleContext:error:]_block_invoke.96
+- __75-[BKWK2EpubTOCParseOperation _determineTextDirectionAndParseTOCCIdCssRules]_block_invoke.85
+- __77-[BKFlowingBookViewController createSnapshotOfStyle:assetVersion:completion:]_block_invoke.561
+- __77-[BKFlowingBookViewController createSnapshotOfStyle:assetVersion:completion:]_block_invoke.564
+- __80-[AEBookInfoAssetPlugin helper:canRefetch:viewControllerWithOptions:completion:]_block_invoke.131
+- __80-[AEBookInfoAssetPlugin helper:canRefetch:viewControllerWithOptions:completion:]_block_invoke.134
+- __80-[AEBookInfoAssetPlugin helper:canRefetch:viewControllerWithOptions:completion:]_block_invoke.99
+- __80-[AEBookInfoAssetPlugin helper:canRefetch:viewControllerWithOptions:completion:]_block_invoke_2.102
+- __80-[AEBookInfoAssetPlugin helper:canRefetch:viewControllerWithOptions:completion:]_block_invoke_2.132
+- __80-[AEBookInfoAssetPlugin helper:canRefetch:viewControllerWithOptions:completion:]_block_invoke_2.135
+- __87-[BKEPubContentViewController contentInfoRequestForCurrentConfigurationWithCompletion:]_block_invoke.255
+- __88-[BKHTMLContentViewController _bookmarkSelectionAndAnnotate:showColorEditor:completion:]_block_invoke.452
+- __88-[BKPictureBookNavigationController _adjustToNewSize:withOptionalTransitionCoordinator:]_block_invoke.114
+- __89-[BKPictureBookNavigationController _insertDestinationSnapshotImageUnderCurrentPageCurl:]_block_invoke.135
+- __97-[BKEPubContentViewController _ensureLocationVisible:adjustForSearchResultRevealMode:completion:]_block_invoke.178
+- __BKPReferredLayoutCacheKeyForBook
+- __Block_byref_object_copy_.144
+- __Block_byref_object_dispose_.145
+- __CATEGORY_AEAudiobookAnalyticsRecorder_$_AEBookPlugins
+- __CATEGORY_BEAnnotation_$_AEBookPlugins
+- __CATEGORY_BEBookViewModel_$_AEBookPlugins
+- __CATEGORY_BEDocument_$_AEBookPlugins
+- __CATEGORY_BEPage_$_AEBookPlugins
+- __CATEGORY_CABasicAnimation_$_AEBookPlugins
+- __CGPDFDictionaryIsExpectedType
+- __CLASS_PROPERTIES_AEAudiobookAnalyticsRecorder
+- __DATA_AEAudiobookAnalyticsRecorder
+- __DATA_AEMarkupBarButtonItem
+- __DATA_BEAnnotation
+- __DATA_BEBookViewModel
+- __DATA_BEDocument
+- __DATA_BEDocumentPaginationDataInfo
+- __DATA_BEPage
+- __DATA__TtC13AEBookPlugins25MarkupButtonContainerView
+- __IVARS_AEAudiobookAnalyticsRecorder
+- __IVARS_AEMarkupBarButtonItem
+- __IVARS_BEAnnotation
+- __IVARS_BEBookViewModel
+- __IVARS_BEDocument
+- __IVARS_BEDocumentPaginationDataInfo
+- __IVARS_BEPage
+- __IVARS__TtC13AEBookPlugins25MarkupButtonContainerView
+- __METACLASS_DATA_AEAudiobookAnalyticsRecorder
+- __METACLASS_DATA_AEMarkupBarButtonItem
+- __METACLASS_DATA_BEAnnotation
+- __METACLASS_DATA_BEBookViewModel
+- __METACLASS_DATA_BEDocument
+- __METACLASS_DATA_BEDocumentPaginationDataInfo
+- __METACLASS_DATA_BEPage
+- __METACLASS_DATA__TtC13AEBookPlugins25MarkupButtonContainerView
+- __OBJC_$_CATEGORY_AEAnnotation_$_UIButton
+- __OBJC_$_CATEGORY_BECFIUtilitiesJSOptions_$_BKConfigurationSupport
+- __OBJC_$_CATEGORY_BEContentCleanupJSOptions_$_BKConfigurationSupport
+- __OBJC_$_CATEGORY_BEWebViewFactoryPaginationOptions_$_BKConfigurationSupport
+- __OBJC_$_CATEGORY_BKAudiobookPersistenceController_$_AssetsEngine
+- __OBJC_$_CATEGORY_BKScrubberCalloutView_$_Reflowable
+- __OBJC_$_CATEGORY_CAMediaTimingFunction_$_PageCurl
+- __OBJC_$_CATEGORY_ICStoreRequestContext_$_AEBookPlugins
+- __OBJC_$_CATEGORY_NSObject_$_BKSwizzle
+- __OBJC_$_CATEGORY_NSString_$_MD5
+- __OBJC_$_CATEGORY_PDFView_$_ZoomAdjustment
+- __OBJC_$_CATEGORY_UIButton_$_AEAnnotation
+- __OBJC_$_CATEGORY_UIFont_$_BKEffectiveFont
+- __OBJC_$_CATEGORY_UIGestureRecognizer_$_UIGestureRecognizer_BKAdditions
+- __OBJC_$_CATEGORY_UILabel_$_BKTOCLabel
+- __OBJC_$_CATEGORY_UISwitch_$_BKDebugValueAccessor
+- __OBJC_$_CATEGORY_UIViewController_$_PDFPageViewController_Private
+- __OBJC_$_CATEGORY_UIView_$_PageCurl
+- __OBJC_$_CLASS_METHODS_AEAccountIdentifiers
+- __OBJC_$_CLASS_METHODS_AEAnnotation(UIButton|BKBookmark)
+- __OBJC_$_CLASS_METHODS_AEAudiobookAnalyticsRecorder
+- __OBJC_$_CLASS_METHODS_AEAudiobookBookmarkTimeSnapshot
+- __OBJC_$_CLASS_METHODS_AEAudiobookPlatformConfiguration
+- __OBJC_$_CLASS_METHODS_AEAudiobookPlaybackRateViewControllerAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_AEAudiobookPlugin
+- __OBJC_$_CLASS_METHODS_AEAudiobookReadingTimeTracker
+- __OBJC_$_CLASS_METHODS_AEBookInfo(Upsell|BookEPUBHelpers|BKPageProgressionDirection|AEBookPlugins)
+- __OBJC_$_CLASS_METHODS_AEBookInfoSnapshot
+- __OBJC_$_CLASS_METHODS_AEBookProtocolCacheItemProvider
+- __OBJC_$_CLASS_METHODS_AEBottomToolbarAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_AEEPubPictureBookPlugin
+- __OBJC_$_CLASS_METHODS_AEEpubInfoSource
+- __OBJC_$_CLASS_METHODS_AEEpubPlugin
+- __OBJC_$_CLASS_METHODS_AEHTMLBookRenderingCache
+- __OBJC_$_CLASS_METHODS_AEMinimalTemplate
+- __OBJC_$_CLASS_METHODS_AEMinimalTemplateSet
+- __OBJC_$_CLASS_METHODS_AENoteFullscreenEditorControllerAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_AEPDFPlugin
+- __OBJC_$_CLASS_METHODS_AEPdfCache
+- __OBJC_$_CLASS_METHODS_AEPdfRenderingCache
+- __OBJC_$_CLASS_METHODS_AEPictureBookRenderingCache
+- __OBJC_$_CLASS_METHODS_AEPictureBookRenderingCacheOperation2
+- __OBJC_$_CLASS_METHODS_AETestDriver
+- __OBJC_$_CLASS_METHODS_AXUIViewAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_BEAppearanceViewController
+- __OBJC_$_CLASS_METHODS_BEAppearanceViewControllerAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_BECFIUtilitiesJSOptions(BKConfigurationSupport)
+- __OBJC_$_CLASS_METHODS_BEContentCleanupJSOptions(BKConfigurationSupport)
+- __OBJC_$_CLASS_METHODS_BEPage(AEBookPlugins|AEBookPlugins1)
+- __OBJC_$_CLASS_METHODS_BEPageSnapshotCache
+- __OBJC_$_CLASS_METHODS_BEWebViewFactoryPaginationOptions(BKConfigurationSupport)
+- __OBJC_$_CLASS_METHODS_BKActionControllerAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_BKActivityCopyToIBooks
+- __OBJC_$_CLASS_METHODS_BKAnchorLocation
+- __OBJC_$_CLASS_METHODS_BKAnchorPathLocation
+- __OBJC_$_CLASS_METHODS_BKAppearanceViewController
+- __OBJC_$_CLASS_METHODS_BKAudioLocation
+- __OBJC_$_CLASS_METHODS_BKAudiobookPersistenceController(AssetsEngine)
+- __OBJC_$_CLASS_METHODS_BKBookContainerView
+- __OBJC_$_CLASS_METHODS_BKBookParser
+- __OBJC_$_CLASS_METHODS_BKBookViewController
+- __OBJC_$_CLASS_METHODS_BKChapterPageCount
+- __OBJC_$_CLASS_METHODS_BKDocument(FixedLayout)
+- __OBJC_$_CLASS_METHODS_BKDocumentPageCount
+- __OBJC_$_CLASS_METHODS_BKEPubContentViewController
+- __OBJC_$_CLASS_METHODS_BKEpubBookParser
+- __OBJC_$_CLASS_METHODS_BKEpubCFILocation
+- __OBJC_$_CLASS_METHODS_BKEpubLocation
+- __OBJC_$_CLASS_METHODS_BKEpubTOCParseJob
+- __OBJC_$_CLASS_METHODS_BKEpubTOCParseRecordJob
+- __OBJC_$_CLASS_METHODS_BKExpandedContentResource
+- __OBJC_$_CLASS_METHODS_BKExpandedContentViewController
+- __OBJC_$_CLASS_METHODS_BKExpandedContentViewControllerAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_BKExpandedImageContentViewController
+- __OBJC_$_CLASS_METHODS_BKExpandedWebContentViewController2
+- __OBJC_$_CLASS_METHODS_BKExpandedWebContentViewControllerAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_BKFlowingBookFontSizeConfiguration
+- __OBJC_$_CLASS_METHODS_BKFlowingBookLayoutConfiguration(BKOffsetHelper)
+- __OBJC_$_CLASS_METHODS_BKFlowingBookViewController(SemanticLayout|REI|BKDebug)
+- __OBJC_$_CLASS_METHODS_BKFont
+- __OBJC_$_CLASS_METHODS_BKFontCache
+- __OBJC_$_CLASS_METHODS_BKGradientView
+- __OBJC_$_CLASS_METHODS_BKLocation
+- __OBJC_$_CLASS_METHODS_BKMediaOverlayElement
+- __OBJC_$_CLASS_METHODS_BKNavigationInfo
+- __OBJC_$_CLASS_METHODS_BKNumericOption
+- __OBJC_$_CLASS_METHODS_BKPDFLocation
+- __OBJC_$_CLASS_METHODS_BKPDFModernBookViewController
+- __OBJC_$_CLASS_METHODS_BKPDFModernBookViewControllerAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_BKPDFSnapshotMetadata
+- __OBJC_$_CLASS_METHODS_BKPageLocation
+- __OBJC_$_CLASS_METHODS_BKPaginationAbortJob
+- __OBJC_$_CLASS_METHODS_BKPaginationBatchEndJob
+- __OBJC_$_CLASS_METHODS_BKPaginationBatchJob
+- __OBJC_$_CLASS_METHODS_BKPaginationController(NonARC)
+- __OBJC_$_CLASS_METHODS_BKPaginationLayoutJob
+- __OBJC_$_CLASS_METHODS_BKPaginationRecordJob
+- __OBJC_$_CLASS_METHODS_BKPdfBookParser
+- __OBJC_$_CLASS_METHODS_BKPictureBookReadingStatisticsCollector
+- __OBJC_$_CLASS_METHODS_BKPictureBookView
+- __OBJC_$_CLASS_METHODS_BKPictureBookViewController(PPT)
+- __OBJC_$_CLASS_METHODS_BKPictureBookViewGeometry
+- __OBJC_$_CLASS_METHODS_BKProtectionInfo
+- __OBJC_$_CLASS_METHODS_BKReadAloudEventHandler
+- __OBJC_$_CLASS_METHODS_BKScrubberControlAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_BKSearchResult
+- __OBJC_$_CLASS_METHODS_BKStyleManager
+- __OBJC_$_CLASS_METHODS_BKTOCAnnotationTableCell
+- __OBJC_$_CLASS_METHODS_BKTOCAnnotationTableCellAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_BKTOCPointAnnotationTableCell
+- __OBJC_$_CLASS_METHODS_BKTOCRangeAnnotationTableCell
+- __OBJC_$_CLASS_METHODS_BKTOCRangeAnnotationTableCellAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_BKTOCTableViewCell
+- __OBJC_$_CLASS_METHODS_BKTOCTableViewCellAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_BKTOCWebViewCellContent
+- __OBJC_$_CLASS_METHODS_BKTOCWebViewCellLoadRequest
+- __OBJC_$_CLASS_METHODS_BKTOCWebViewController2
+- __OBJC_$_CLASS_METHODS_BKTextHighlightView
+- __OBJC_$_CLASS_METHODS_BKTextIndex
+- __OBJC_$_CLASS_METHODS_BKThumbnailBookViewController
+- __OBJC_$_CLASS_METHODS_BKThumbnailBookViewControllerAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_BKThumbnailDirectory
+- __OBJC_$_CLASS_METHODS_BKThumbnailScrubberCell
+- __OBJC_$_CLASS_METHODS_BKWK2LoaderContentInfoRequest
+- __OBJC_$_CLASS_METHODS_CAMediaTimingFunction(PageCurl)
+- __OBJC_$_CLASS_METHODS_ContentStyle
+- __OBJC_$_CLASS_METHODS_ContentViewStyleManager(StylesheetGeneration)
+- __OBJC_$_CLASS_METHODS_NSObject(BKSwizzle|AEPluginAdditions)
+- __OBJC_$_CLASS_METHODS_NSString(MD5|FastHash|PathRelativeToContentBase)
+- __OBJC_$_CLASS_METHODS_NonArcHelpers
+- __OBJC_$_CLASS_METHODS_PDFView(ZoomAdjustment)
+- __OBJC_$_CLASS_METHODS_UILabel(BKTOCLabel)
+- __OBJC_$_CLASS_METHODS_UIViewController(PDFPageViewController_Private)
+- __OBJC_$_CLASS_METHODS__CachedFallbackInfo
+- __OBJC_$_CLASS_PROP_LIST_AEAudiobookBookmarkTimeSnapshot
+- __OBJC_$_CLASS_PROP_LIST_AEBookProtocolCacheItemProvider
+- __OBJC_$_CLASS_PROP_LIST_BKBookViewController
+- __OBJC_$_CLASS_PROP_LIST_BKLocation
+- __OBJC_$_CLASS_PROP_LIST_ContentStyle
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
+- __OBJC_$_INSTANCE_METHODS_AEAccountIdentifiers
+- __OBJC_$_INSTANCE_METHODS_AEAnnotation(UIButton|BKBookmark)
+- __OBJC_$_INSTANCE_METHODS_AEAssetMetadataCache
+- __OBJC_$_INSTANCE_METHODS_AEAudiobookAnalyticsRecorder
+- __OBJC_$_INSTANCE_METHODS_AEAudiobookAnalyticsRecorder(AEBookPlugins|AEBookPlugins1)
+- __OBJC_$_INSTANCE_METHODS_AEAudiobookBookmarkTimeSnapshot
+- __OBJC_$_INSTANCE_METHODS_AEAudiobookPersistenceFile
+- __OBJC_$_INSTANCE_METHODS_AEAudiobookPlaybackRateViewControllerAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_AEAudiobookPlugin
+- __OBJC_$_INSTANCE_METHODS_AEAudiobookReadingTimeTracker
+- __OBJC_$_INSTANCE_METHODS_AEBookInfo(Upsell|BookEPUBHelpers|BKPageProgressionDirection|AEBookPlugins)
+- __OBJC_$_INSTANCE_METHODS_AEBookInfoAssetPlugin
+- __OBJC_$_INSTANCE_METHODS_AEBookInfoSnapshot
+- __OBJC_$_INSTANCE_METHODS_AEBookProtocolCacheItemProvider
+- __OBJC_$_INSTANCE_METHODS_AEBookRenderingCallbackTarget
+- __OBJC_$_INSTANCE_METHODS_AEBottomToolbarAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_AEEPubBookHelper
+- __OBJC_$_INSTANCE_METHODS_AEEPubMinifiedController
+- __OBJC_$_INSTANCE_METHODS_AEEPubPictureBookHelper
+- __OBJC_$_INSTANCE_METHODS_AEEPubPictureBookPlugin
+- __OBJC_$_INSTANCE_METHODS_AEEPubPicturebookMinifiedController
+- __OBJC_$_INSTANCE_METHODS_AEEPubProofingHelper
+- __OBJC_$_INSTANCE_METHODS_AEEpubInfoSource
+- __OBJC_$_INSTANCE_METHODS_AEEpubPlugin
+- __OBJC_$_INSTANCE_METHODS_AEHTMLBookRenderingCache
+- __OBJC_$_INSTANCE_METHODS_AEMarkupBarButtonItem
+- __OBJC_$_INSTANCE_METHODS_AEMinimalTemplate
+- __OBJC_$_INSTANCE_METHODS_AEMinimalTemplateSet
+- __OBJC_$_INSTANCE_METHODS_AEMinimalTemplateStepEmbed
+- __OBJC_$_INSTANCE_METHODS_AEMinimalTemplateStepField
+- __OBJC_$_INSTANCE_METHODS_AEMinimalTemplateStepIf
+- __OBJC_$_INSTANCE_METHODS_AEMinimalTemplateStepRange
+- __OBJC_$_INSTANCE_METHODS_AEMinimalTemplateStepText
+- __OBJC_$_INSTANCE_METHODS_AENoteFullscreenEditorControllerAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_AEPDFBookHelper
+- __OBJC_$_INSTANCE_METHODS_AEPDFMinifiedController
+- __OBJC_$_INSTANCE_METHODS_AEPDFPlugin
+- __OBJC_$_INSTANCE_METHODS_AEPdfCache
+- __OBJC_$_INSTANCE_METHODS_AEPdfCacheObject
+- __OBJC_$_INSTANCE_METHODS_AEPdfPageRenderingCacheOperation
+- __OBJC_$_INSTANCE_METHODS_AEPdfRenderingCache
+- __OBJC_$_INSTANCE_METHODS_AEPictureBookRenderingCache
+- __OBJC_$_INSTANCE_METHODS_AEPictureBookRenderingCacheOperation2
+- __OBJC_$_INSTANCE_METHODS_AETestDriver
+- __OBJC_$_INSTANCE_METHODS_AXUIViewAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_BCDDParsecCollectionViewController
+- __OBJC_$_INSTANCE_METHODS_BEAnnotation
+- __OBJC_$_INSTANCE_METHODS_BEAnnotation(AEBookPlugins)
+- __OBJC_$_INSTANCE_METHODS_BEAppearanceViewController
+- __OBJC_$_INSTANCE_METHODS_BEAppearanceViewControllerAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_BEBookViewModel
+- __OBJC_$_INSTANCE_METHODS_BEBookViewModel(AEBookPlugins)
+- __OBJC_$_INSTANCE_METHODS_BEDocument
+- __OBJC_$_INSTANCE_METHODS_BEDocument(AEBookPlugins)
+- __OBJC_$_INSTANCE_METHODS_BEDocumentPaginationDataInfo
+- __OBJC_$_INSTANCE_METHODS_BEPage
+- __OBJC_$_INSTANCE_METHODS_BEPage(AEBookPlugins|AEBookPlugins1)
+- __OBJC_$_INSTANCE_METHODS_BEPageSnapshotCache
+- __OBJC_$_INSTANCE_METHODS_BEPageSnapshotCacheOperation
+- __OBJC_$_INSTANCE_METHODS_BKARQuicklookViewController
+- __OBJC_$_INSTANCE_METHODS_BKActionController
+- __OBJC_$_INSTANCE_METHODS_BKActionControllerAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_BKActivityCopyToIBooks
+- __OBJC_$_INSTANCE_METHODS_BKActivityIndicatorOverlayView
+- __OBJC_$_INSTANCE_METHODS_BKActivityPDFLinkPresentationItemSource
+- __OBJC_$_INSTANCE_METHODS_BKActivityURLItemSource
+- __OBJC_$_INSTANCE_METHODS_BKAnchorLocation
+- __OBJC_$_INSTANCE_METHODS_BKAnchorPathLocation
+- __OBJC_$_INSTANCE_METHODS_BKAppearanceFontViewController
+- __OBJC_$_INSTANCE_METHODS_BKAppearanceTableViewCell
+- __OBJC_$_INSTANCE_METHODS_BKAppearanceViewController
+- __OBJC_$_INSTANCE_METHODS_BKAudioController
+- __OBJC_$_INSTANCE_METHODS_BKAudioLocation
+- __OBJC_$_INSTANCE_METHODS_BKAudioTrackNumberLocation
+- __OBJC_$_INSTANCE_METHODS_BKAudioTurnModeViewController
+- __OBJC_$_INSTANCE_METHODS_BKAudiobookPersistenceController(AssetsEngine)
+- __OBJC_$_INSTANCE_METHODS_BKBookContainerView
+- __OBJC_$_INSTANCE_METHODS_BKBookParser
+- __OBJC_$_INSTANCE_METHODS_BKBookViewController
+- __OBJC_$_INSTANCE_METHODS_BKBookmarkPageCount
+- __OBJC_$_INSTANCE_METHODS_BKBookmarkThumbnailDirectory
+- __OBJC_$_INSTANCE_METHODS_BKBoolBlockProxy
+- __OBJC_$_INSTANCE_METHODS_BKBrightnessController
+- __OBJC_$_INSTANCE_METHODS_BKCatalystAppearanceViewController
+- __OBJC_$_INSTANCE_METHODS_BKChapterPageCount
+- __OBJC_$_INSTANCE_METHODS_BKContentLoadingView
+- __OBJC_$_INSTANCE_METHODS_BKContentReloadView
+- __OBJC_$_INSTANCE_METHODS_BKContentViewController(AEAnnotation)
+- __OBJC_$_INSTANCE_METHODS_BKContinuousWebScrollView
+- __OBJC_$_INSTANCE_METHODS_BKCoverContentViewController2
+- __OBJC_$_INSTANCE_METHODS_BKDirectoryContent
+- __OBJC_$_INSTANCE_METHODS_BKDocument(FixedLayout)
+- __OBJC_$_INSTANCE_METHODS_BKEPubContentViewController
+- __OBJC_$_INSTANCE_METHODS_BKEPubContentViewControllerView
+- __OBJC_$_INSTANCE_METHODS_BKEpubBookParser
+- __OBJC_$_INSTANCE_METHODS_BKEpubCFILocation
+- __OBJC_$_INSTANCE_METHODS_BKEpubLocation
+- __OBJC_$_INSTANCE_METHODS_BKEpubManualCurlDriver
+- __OBJC_$_INSTANCE_METHODS_BKEpubManualCurlGestureImplementation
+- __OBJC_$_INSTANCE_METHODS_BKEpubTOCParseJob
+- __OBJC_$_INSTANCE_METHODS_BKEpubTOCParseRecordJob
+- __OBJC_$_INSTANCE_METHODS_BKEpubTOCParseResultsOperation
+- __OBJC_$_INSTANCE_METHODS_BKExpandedContentResource
+- __OBJC_$_INSTANCE_METHODS_BKExpandedContentViewController
+- __OBJC_$_INSTANCE_METHODS_BKExpandedContentViewControllerAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_BKExpandedImageContentViewController
+- __OBJC_$_INSTANCE_METHODS_BKExpandedWebContentViewController2
+- __OBJC_$_INSTANCE_METHODS_BKExpandedWebContentViewControllerAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_BKFinishedButton
+- __OBJC_$_INSTANCE_METHODS_BKFinishedContentViewController
+- __OBJC_$_INSTANCE_METHODS_BKFlowingBookFontSizeConfiguration
+- __OBJC_$_INSTANCE_METHODS_BKFlowingBookLayoutConfiguration(BKOffsetHelper)
+- __OBJC_$_INSTANCE_METHODS_BKFlowingBookPendingContent
+- __OBJC_$_INSTANCE_METHODS_BKFlowingBookPlistConfigurationEnvironment
+- __OBJC_$_INSTANCE_METHODS_BKFlowingBookViewController(SemanticLayout|REI|BKDebug)
+- __OBJC_$_INSTANCE_METHODS_BKFont
+- __OBJC_$_INSTANCE_METHODS_BKFontCache
+- __OBJC_$_INSTANCE_METHODS_BKFontFallbackProvider
+- __OBJC_$_INSTANCE_METHODS_BKFontTableViewCell
+- __OBJC_$_INSTANCE_METHODS_BKFootnoteViewController2
+- __OBJC_$_INSTANCE_METHODS_BKGradientView
+- __OBJC_$_INSTANCE_METHODS_BKHTMLContentViewController(SpeakSelection)
+- __OBJC_$_INSTANCE_METHODS_BKHTMLContentViewControllerDummyAnnotation
+- __OBJC_$_INSTANCE_METHODS_BKHistoryEntity
+- __OBJC_$_INSTANCE_METHODS_BKImageResizerHelper
+- __OBJC_$_INSTANCE_METHODS_BKInfoHUD
+- __OBJC_$_INSTANCE_METHODS_BKJob
+- __OBJC_$_INSTANCE_METHODS_BKLastRecordedLocation
+- __OBJC_$_INSTANCE_METHODS_BKLocation
+- __OBJC_$_INSTANCE_METHODS_BKLongPressGestureRecognizer
+- __OBJC_$_INSTANCE_METHODS_BKLoupeView
+- __OBJC_$_INSTANCE_METHODS_BKNavigationHistory
+- __OBJC_$_INSTANCE_METHODS_BKNavigationInfo
+- __OBJC_$_INSTANCE_METHODS_BKNumericOption
+- __OBJC_$_INSTANCE_METHODS_BKPDFActionController
+- __OBJC_$_INSTANCE_METHODS_BKPDFAnnotationCounter
+- __OBJC_$_INSTANCE_METHODS_BKPDFAnnotationCounterResult
+- __OBJC_$_INSTANCE_METHODS_BKPDFLocation
+- __OBJC_$_INSTANCE_METHODS_BKPDFModernBookViewController
+- __OBJC_$_INSTANCE_METHODS_BKPDFModernBookViewControllerAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_BKPDFPageThumbnailDirectory
+- __OBJC_$_INSTANCE_METHODS_BKPDFSearchResult
+- __OBJC_$_INSTANCE_METHODS_BKPDFSnapshotMetadata
+- __OBJC_$_INSTANCE_METHODS_BKPDFTOCTableViewCell
+- __OBJC_$_INSTANCE_METHODS_BKPDFTOCViewController
+- __OBJC_$_INSTANCE_METHODS_BKPageAnimation
+- __OBJC_$_INSTANCE_METHODS_BKPageBookCurlView
+- __OBJC_$_INSTANCE_METHODS_BKPageCurl
+- __OBJC_$_INSTANCE_METHODS_BKPageCurlConfiguration
+- __OBJC_$_INSTANCE_METHODS_BKPageCurlManager
+- __OBJC_$_INSTANCE_METHODS_BKPageLocation
+- __OBJC_$_INSTANCE_METHODS_BKPageNavigationViewController(FixedLayout)
+- __OBJC_$_INSTANCE_METHODS_BKPageScrollerPageView
+- __OBJC_$_INSTANCE_METHODS_BKPageScrollerViewController
+- __OBJC_$_INSTANCE_METHODS_BKPageSlide
+- __OBJC_$_INSTANCE_METHODS_BKPageSpan
+- __OBJC_$_INSTANCE_METHODS_BKPageThumbnailDirectory
+- __OBJC_$_INSTANCE_METHODS_BKPageThumbnailView
+- __OBJC_$_INSTANCE_METHODS_BKPageTurningViewController
+- __OBJC_$_INSTANCE_METHODS_BKPageView
+- __OBJC_$_INSTANCE_METHODS_BKPaginationAbortJob
+- __OBJC_$_INSTANCE_METHODS_BKPaginationBatchEndJob
+- __OBJC_$_INSTANCE_METHODS_BKPaginationBatchJob
+- __OBJC_$_INSTANCE_METHODS_BKPaginationController(NonARC)
+- __OBJC_$_INSTANCE_METHODS_BKPaginationFactory
+- __OBJC_$_INSTANCE_METHODS_BKPaginationJob
+- __OBJC_$_INSTANCE_METHODS_BKPaginationLayoutJob
+- __OBJC_$_INSTANCE_METHODS_BKPaginationLayoutOperation
+- __OBJC_$_INSTANCE_METHODS_BKPaginationLayoutSentinelOperation
+- __OBJC_$_INSTANCE_METHODS_BKPaginationOperation
+- __OBJC_$_INSTANCE_METHODS_BKPaginationPrepareOperation
+- __OBJC_$_INSTANCE_METHODS_BKPaginationRecordJob
+- __OBJC_$_INSTANCE_METHODS_BKPaginationResultsOperation
+- __OBJC_$_INSTANCE_METHODS_BKPagingScrollView
+- __OBJC_$_INSTANCE_METHODS_BKPanGestureRecognizer
+- __OBJC_$_INSTANCE_METHODS_BKPdfBookParser
+- __OBJC_$_INSTANCE_METHODS_BKPdfSearchOperation
+- __OBJC_$_INSTANCE_METHODS_BKPdfTocEntry
+- __OBJC_$_INSTANCE_METHODS_BKPdfTocParser
+- __OBJC_$_INSTANCE_METHODS_BKPictureBookContentViewController
+- __OBJC_$_INSTANCE_METHODS_BKPictureBookCurlContainerView
+- __OBJC_$_INSTANCE_METHODS_BKPictureBookCurlPageView
+- __OBJC_$_INSTANCE_METHODS_BKPictureBookCurlState
+- __OBJC_$_INSTANCE_METHODS_BKPictureBookNavigationController
+- __OBJC_$_INSTANCE_METHODS_BKPictureBookPageContainerView
+- __OBJC_$_INSTANCE_METHODS_BKPictureBookPaginationLayoutOperation
+- __OBJC_$_INSTANCE_METHODS_BKPictureBookPaginationOperation
+- __OBJC_$_INSTANCE_METHODS_BKPictureBookReadingStatisticsCollector
+- __OBJC_$_INSTANCE_METHODS_BKPictureBookScrollView
+- __OBJC_$_INSTANCE_METHODS_BKPictureBookVerticalNavigationController
+- __OBJC_$_INSTANCE_METHODS_BKPictureBookView
+- __OBJC_$_INSTANCE_METHODS_BKPictureBookViewController(PPT)
+- __OBJC_$_INSTANCE_METHODS_BKPictureBookViewGeometry
+- __OBJC_$_INSTANCE_METHODS_BKPreferredLayoutCache
+- __OBJC_$_INSTANCE_METHODS_BKReadAloudEventHandler
+- __OBJC_$_INSTANCE_METHODS_BKSampleUpsellContentViewController
+- __OBJC_$_INSTANCE_METHODS_BKScrollingPageViewController
+- __OBJC_$_INSTANCE_METHODS_BKScrubberCalloutView(Reflowable)
+- __OBJC_$_INSTANCE_METHODS_BKScrubberControlAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_BKSearchController
+- __OBJC_$_INSTANCE_METHODS_BKSearchLoadingTableViewCell
+- __OBJC_$_INSTANCE_METHODS_BKSearchOperation
+- __OBJC_$_INSTANCE_METHODS_BKSearchResult
+- __OBJC_$_INSTANCE_METHODS_BKSearchViewController
+- __OBJC_$_INSTANCE_METHODS_BKSegmentedControl
+- __OBJC_$_INSTANCE_METHODS_BKSemanticLayoutOverlayViewController
+- __OBJC_$_INSTANCE_METHODS_BKSpreadThumbnailDirectoryCell
+- __OBJC_$_INSTANCE_METHODS_BKSpreadThumbnailScrubberCell
+- __OBJC_$_INSTANCE_METHODS_BKSpreadThumbnailView
+- __OBJC_$_INSTANCE_METHODS_BKStyleManager
+- __OBJC_$_INSTANCE_METHODS_BKSwitcherContent
+- __OBJC_$_INSTANCE_METHODS_BKSwitcherContentConfiguration
+- __OBJC_$_INSTANCE_METHODS_BKTOCAnnotationTableCell
+- __OBJC_$_INSTANCE_METHODS_BKTOCAnnotationTableCellAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_BKTOCBookmarksDescription
+- __OBJC_$_INSTANCE_METHODS_BKTOCContentViewController
+- __OBJC_$_INSTANCE_METHODS_BKTOCImageCache2
+- __OBJC_$_INSTANCE_METHODS_BKTOCPointAnnotationTableCell
+- __OBJC_$_INSTANCE_METHODS_BKTOCRangeAnnotationTableCell
+- __OBJC_$_INSTANCE_METHODS_BKTOCRangeAnnotationTableCellAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_BKTOCTableViewCell
+- __OBJC_$_INSTANCE_METHODS_BKTOCTableViewCellAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_BKTOCViewController
+- __OBJC_$_INSTANCE_METHODS_BKTOCWebViewCellContent
+- __OBJC_$_INSTANCE_METHODS_BKTOCWebViewCellLoadQueue
+- __OBJC_$_INSTANCE_METHODS_BKTOCWebViewCellLoadRequest
+- __OBJC_$_INSTANCE_METHODS_BKTOCWebViewController2
+- __OBJC_$_INSTANCE_METHODS_BKTOCWebViewTableViewCell
+- __OBJC_$_INSTANCE_METHODS_BKTappyScrollView
+- __OBJC_$_INSTANCE_METHODS_BKTextHighlightView
+- __OBJC_$_INSTANCE_METHODS_BKTextIndex
+- __OBJC_$_INSTANCE_METHODS_BKTextIndexQueryResult
+- __OBJC_$_INSTANCE_METHODS_BKThumbnailBookViewConfiguration
+- __OBJC_$_INSTANCE_METHODS_BKThumbnailBookViewController
+- __OBJC_$_INSTANCE_METHODS_BKThumbnailBookViewControllerAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_BKThumbnailDirectory
+- __OBJC_$_INSTANCE_METHODS_BKThumbnailDirectoryCell
+- __OBJC_$_INSTANCE_METHODS_BKThumbnailScrubber
+- __OBJC_$_INSTANCE_METHODS_BKThumbnailScrubberCell
+- __OBJC_$_INSTANCE_METHODS_BKThumbnailScrubberTrack
+- __OBJC_$_INSTANCE_METHODS_BKToolbarButton
+- __OBJC_$_INSTANCE_METHODS_BKVerticalLabel
+- __OBJC_$_INSTANCE_METHODS_BKViewController
+- __OBJC_$_INSTANCE_METHODS_BKWK2EpubPaginationLayoutOperation
+- __OBJC_$_INSTANCE_METHODS_BKWK2EpubSearchOperation
+- __OBJC_$_INSTANCE_METHODS_BKWK2EpubTOCParseOperation
+- __OBJC_$_INSTANCE_METHODS_BKWK2LoaderContentInfoRequest
+- __OBJC_$_INSTANCE_METHODS_BKWK2WebViewLoader
+- __OBJC_$_INSTANCE_METHODS_BKWebViewProxy
+- __OBJC_$_INSTANCE_METHODS_BKZoomingScrollView
+- __OBJC_$_INSTANCE_METHODS_CABasicAnimation(AEBookPlugins)
+- __OBJC_$_INSTANCE_METHODS_ContentStyle
+- __OBJC_$_INSTANCE_METHODS_ContentViewStyleManagerBookInfo
+- __OBJC_$_INSTANCE_METHODS_EpubPaginationFactory
+- __OBJC_$_INSTANCE_METHODS_ICStoreRequestContext(AEBookPlugins)
+- __OBJC_$_INSTANCE_METHODS_NSObject(BKSwizzle|AEPluginAdditions)
+- __OBJC_$_INSTANCE_METHODS_NSURLRequestHACK
+- __OBJC_$_INSTANCE_METHODS_PDFView(ZoomAdjustment)
+- __OBJC_$_INSTANCE_METHODS_UIButton(AEAnnotation)
+- __OBJC_$_INSTANCE_METHODS_UIFont(BKEffectiveFont)
+- __OBJC_$_INSTANCE_METHODS_UIGestureRecognizer(UIGestureRecognizer_BKAdditions)
+- __OBJC_$_INSTANCE_METHODS_UILabel(BKTOCLabel)
+- __OBJC_$_INSTANCE_METHODS_UISwitch(BKDebugValueAccessor)
+- __OBJC_$_INSTANCE_METHODS_UIView(PageCurl)
+- __OBJC_$_INSTANCE_METHODS_UIViewController(PDFPageViewController_Private)
+- __OBJC_$_INSTANCE_METHODS__BKExpandedContentViewControllerAnimator
+- __OBJC_$_INSTANCE_METHODS__BKExpandedImageContentCenteringScrollView
+- __OBJC_$_INSTANCE_METHODS__BKScrollingPageContinuousWebScrollView
+- __OBJC_$_INSTANCE_METHODS__CachedFallbackInfo
+- __OBJC_$_INSTANCE_METHODS__TtC13AEBookPlugins25MarkupButtonContainerView
+- __OBJC_$_INSTANCE_VARIABLES_AEAccountIdentifiers
+- __OBJC_$_INSTANCE_VARIABLES_AEAudiobookBookmarkTimeSnapshot
+- __OBJC_$_INSTANCE_VARIABLES_AEAudiobookPlugin
+- __OBJC_$_INSTANCE_VARIABLES_AEAudiobookReadingTimeTracker
+- __OBJC_$_INSTANCE_VARIABLES_AEBookInfo
+- __OBJC_$_INSTANCE_VARIABLES_AEBookInfoAssetPlugin
+- __OBJC_$_INSTANCE_VARIABLES_AEBookInfoSnapshot
+- __OBJC_$_INSTANCE_VARIABLES_AEBookProtocolCacheItemProvider
+- __OBJC_$_INSTANCE_VARIABLES_AEBookRenderingCallbackTarget
+- __OBJC_$_INSTANCE_VARIABLES_AEEPubMinifiedController
+- __OBJC_$_INSTANCE_VARIABLES_AEEPubPicturebookMinifiedController
+- __OBJC_$_INSTANCE_VARIABLES_AEEPubProofingHelper
+- __OBJC_$_INSTANCE_VARIABLES_AEEpubInfoSource
+- __OBJC_$_INSTANCE_VARIABLES_AEHTMLBookRenderingCache
+- __OBJC_$_INSTANCE_VARIABLES_AEMinimalTemplate
+- __OBJC_$_INSTANCE_VARIABLES_AEMinimalTemplateSet
+- __OBJC_$_INSTANCE_VARIABLES_AEMinimalTemplateStepEmbed
+- __OBJC_$_INSTANCE_VARIABLES_AEMinimalTemplateStepField
+- __OBJC_$_INSTANCE_VARIABLES_AEMinimalTemplateStepIf
+- __OBJC_$_INSTANCE_VARIABLES_AEMinimalTemplateStepRange
+- __OBJC_$_INSTANCE_VARIABLES_AEMinimalTemplateStepText
+- __OBJC_$_INSTANCE_VARIABLES_AEPDFMinifiedController
+- __OBJC_$_INSTANCE_VARIABLES_AEPDFPlugin
+- __OBJC_$_INSTANCE_VARIABLES_AEPdfCache
+- __OBJC_$_INSTANCE_VARIABLES_AEPdfCacheObject
+- __OBJC_$_INSTANCE_VARIABLES_AEPdfPageRenderingCacheOperation
+- __OBJC_$_INSTANCE_VARIABLES_AEPictureBookRenderingCache
+- __OBJC_$_INSTANCE_VARIABLES_AEPictureBookRenderingCacheOperation2
+- __OBJC_$_INSTANCE_VARIABLES_AETestDriver
+- __OBJC_$_INSTANCE_VARIABLES_BEAppearanceViewController
+- __OBJC_$_INSTANCE_VARIABLES_BEPageSnapshotCache
+- __OBJC_$_INSTANCE_VARIABLES_BEPageSnapshotCacheOperation
+- __OBJC_$_INSTANCE_VARIABLES_BKARQuicklookViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKActionController
+- __OBJC_$_INSTANCE_VARIABLES_BKActivityCopyToIBooks
+- __OBJC_$_INSTANCE_VARIABLES_BKActivityIndicatorOverlayView
+- __OBJC_$_INSTANCE_VARIABLES_BKActivityPDFLinkPresentationItemSource
+- __OBJC_$_INSTANCE_VARIABLES_BKActivityURLItemSource
+- __OBJC_$_INSTANCE_VARIABLES_BKAnchorLocation
+- __OBJC_$_INSTANCE_VARIABLES_BKAnchorPathLocation
+- __OBJC_$_INSTANCE_VARIABLES_BKAppearanceFontViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKAppearanceViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKAudioController
+- __OBJC_$_INSTANCE_VARIABLES_BKAudioLocation
+- __OBJC_$_INSTANCE_VARIABLES_BKAudioTrackNumberLocation
+- __OBJC_$_INSTANCE_VARIABLES_BKAudioTurnModeViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKBookContainerView
+- __OBJC_$_INSTANCE_VARIABLES_BKBookParser
+- __OBJC_$_INSTANCE_VARIABLES_BKBookViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKBookmarkThumbnailDirectory
+- __OBJC_$_INSTANCE_VARIABLES_BKBoolBlockProxy
+- __OBJC_$_INSTANCE_VARIABLES_BKBrightnessController
+- __OBJC_$_INSTANCE_VARIABLES_BKCatalystAppearanceViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKContentLoadingView
+- __OBJC_$_INSTANCE_VARIABLES_BKContentReloadView
+- __OBJC_$_INSTANCE_VARIABLES_BKContentViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKContinuousWebScrollView
+- __OBJC_$_INSTANCE_VARIABLES_BKCoverContentViewController2
+- __OBJC_$_INSTANCE_VARIABLES_BKDirectoryContent
+- __OBJC_$_INSTANCE_VARIABLES_BKDocument
+- __OBJC_$_INSTANCE_VARIABLES_BKEPubContentViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKEPubContentViewControllerView
+- __OBJC_$_INSTANCE_VARIABLES_BKEpubBookParser
+- __OBJC_$_INSTANCE_VARIABLES_BKEpubCFILocation
+- __OBJC_$_INSTANCE_VARIABLES_BKEpubLocation
+- __OBJC_$_INSTANCE_VARIABLES_BKEpubManualCurlDriver
+- __OBJC_$_INSTANCE_VARIABLES_BKEpubManualCurlGestureImplementation
+- __OBJC_$_INSTANCE_VARIABLES_BKEpubTOCParseJob
+- __OBJC_$_INSTANCE_VARIABLES_BKEpubTOCParseRecordJob
+- __OBJC_$_INSTANCE_VARIABLES_BKExpandedContentResource
+- __OBJC_$_INSTANCE_VARIABLES_BKExpandedContentViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKExpandedImageContentViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKExpandedWebContentViewController2
+- __OBJC_$_INSTANCE_VARIABLES_BKFinishedButton
+- __OBJC_$_INSTANCE_VARIABLES_BKFinishedContentViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKFlowingBookFontSizeConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_BKFlowingBookLayoutConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_BKFlowingBookPendingContent
+- __OBJC_$_INSTANCE_VARIABLES_BKFlowingBookPlistConfigurationEnvironment
+- __OBJC_$_INSTANCE_VARIABLES_BKFlowingBookViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKFont
+- __OBJC_$_INSTANCE_VARIABLES_BKFontCache
+- __OBJC_$_INSTANCE_VARIABLES_BKFontTableViewCell
+- __OBJC_$_INSTANCE_VARIABLES_BKFootnoteViewController2
+- __OBJC_$_INSTANCE_VARIABLES_BKHTMLContentViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKHTMLContentViewControllerDummyAnnotation
+- __OBJC_$_INSTANCE_VARIABLES_BKHistoryEntity
+- __OBJC_$_INSTANCE_VARIABLES_BKImageResizerHelper
+- __OBJC_$_INSTANCE_VARIABLES_BKInfoHUD
+- __OBJC_$_INSTANCE_VARIABLES_BKJob
+- __OBJC_$_INSTANCE_VARIABLES_BKLastRecordedLocation
+- __OBJC_$_INSTANCE_VARIABLES_BKLocation
+- __OBJC_$_INSTANCE_VARIABLES_BKLoupeView
+- __OBJC_$_INSTANCE_VARIABLES_BKNavigationHistory
+- __OBJC_$_INSTANCE_VARIABLES_BKNumericOption
+- __OBJC_$_INSTANCE_VARIABLES_BKPDFActionController
+- __OBJC_$_INSTANCE_VARIABLES_BKPDFAnnotationCounter
+- __OBJC_$_INSTANCE_VARIABLES_BKPDFAnnotationCounterResult
+- __OBJC_$_INSTANCE_VARIABLES_BKPDFLocation
+- __OBJC_$_INSTANCE_VARIABLES_BKPDFModernBookViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKPDFPageThumbnailDirectory
+- __OBJC_$_INSTANCE_VARIABLES_BKPDFSearchResult
+- __OBJC_$_INSTANCE_VARIABLES_BKPDFSnapshotMetadata
+- __OBJC_$_INSTANCE_VARIABLES_BKPDFTOCTableViewCell
+- __OBJC_$_INSTANCE_VARIABLES_BKPDFTOCViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKPageAnimation
+- __OBJC_$_INSTANCE_VARIABLES_BKPageBookCurlView
+- __OBJC_$_INSTANCE_VARIABLES_BKPageCurl
+- __OBJC_$_INSTANCE_VARIABLES_BKPageCurlConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_BKPageCurlManager
+- __OBJC_$_INSTANCE_VARIABLES_BKPageLocation
+- __OBJC_$_INSTANCE_VARIABLES_BKPageNavigationViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKPageScrollerPageView
+- __OBJC_$_INSTANCE_VARIABLES_BKPageScrollerViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKPageSlide
+- __OBJC_$_INSTANCE_VARIABLES_BKPageSpan
+- __OBJC_$_INSTANCE_VARIABLES_BKPageThumbnailDirectory
+- __OBJC_$_INSTANCE_VARIABLES_BKPageThumbnailView
+- __OBJC_$_INSTANCE_VARIABLES_BKPageTurningViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKPaginationBatchJob
+- __OBJC_$_INSTANCE_VARIABLES_BKPaginationController
+- __OBJC_$_INSTANCE_VARIABLES_BKPaginationFactory
+- __OBJC_$_INSTANCE_VARIABLES_BKPaginationJob
+- __OBJC_$_INSTANCE_VARIABLES_BKPaginationLayoutJob
+- __OBJC_$_INSTANCE_VARIABLES_BKPaginationOperation
+- __OBJC_$_INSTANCE_VARIABLES_BKPaginationPrepareOperation
+- __OBJC_$_INSTANCE_VARIABLES_BKPaginationRecordJob
+- __OBJC_$_INSTANCE_VARIABLES_BKPagingScrollView
+- __OBJC_$_INSTANCE_VARIABLES_BKPanGestureRecognizer
+- __OBJC_$_INSTANCE_VARIABLES_BKPdfBookParser
+- __OBJC_$_INSTANCE_VARIABLES_BKPdfSearchOperation
+- __OBJC_$_INSTANCE_VARIABLES_BKPdfTocEntry
+- __OBJC_$_INSTANCE_VARIABLES_BKPdfTocParser
+- __OBJC_$_INSTANCE_VARIABLES_BKPictureBookContentViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKPictureBookCurlContainerView
+- __OBJC_$_INSTANCE_VARIABLES_BKPictureBookCurlPageView
+- __OBJC_$_INSTANCE_VARIABLES_BKPictureBookCurlState
+- __OBJC_$_INSTANCE_VARIABLES_BKPictureBookNavigationController
+- __OBJC_$_INSTANCE_VARIABLES_BKPictureBookPageContainerView
+- __OBJC_$_INSTANCE_VARIABLES_BKPictureBookReadingStatisticsCollector
+- __OBJC_$_INSTANCE_VARIABLES_BKPictureBookScrollView
+- __OBJC_$_INSTANCE_VARIABLES_BKPictureBookVerticalNavigationController
+- __OBJC_$_INSTANCE_VARIABLES_BKPictureBookView
+- __OBJC_$_INSTANCE_VARIABLES_BKPictureBookViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKPictureBookViewGeometry
+- __OBJC_$_INSTANCE_VARIABLES_BKReadAloudEventHandler
+- __OBJC_$_INSTANCE_VARIABLES_BKSampleUpsellContentViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKScrollingPageViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKSearchController
+- __OBJC_$_INSTANCE_VARIABLES_BKSearchLoadingTableViewCell
+- __OBJC_$_INSTANCE_VARIABLES_BKSearchOperation
+- __OBJC_$_INSTANCE_VARIABLES_BKSearchResult
+- __OBJC_$_INSTANCE_VARIABLES_BKSearchViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKSegmentedControl
+- __OBJC_$_INSTANCE_VARIABLES_BKSemanticLayoutOverlayViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKSpreadThumbnailDirectoryCell
+- __OBJC_$_INSTANCE_VARIABLES_BKSpreadThumbnailScrubberCell
+- __OBJC_$_INSTANCE_VARIABLES_BKSpreadThumbnailView
+- __OBJC_$_INSTANCE_VARIABLES_BKStyleManager
+- __OBJC_$_INSTANCE_VARIABLES_BKSwitcherContent
+- __OBJC_$_INSTANCE_VARIABLES_BKSwitcherContentConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_BKTOCAnnotationTableCell
+- __OBJC_$_INSTANCE_VARIABLES_BKTOCBookmarksDescription
+- __OBJC_$_INSTANCE_VARIABLES_BKTOCContentViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKTOCPointAnnotationTableCell
+- __OBJC_$_INSTANCE_VARIABLES_BKTOCRangeAnnotationTableCell
+- __OBJC_$_INSTANCE_VARIABLES_BKTOCTableViewCell
+- __OBJC_$_INSTANCE_VARIABLES_BKTOCViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKTOCWebViewCellContent
+- __OBJC_$_INSTANCE_VARIABLES_BKTOCWebViewCellLoadQueue
+- __OBJC_$_INSTANCE_VARIABLES_BKTOCWebViewCellLoadRequest
+- __OBJC_$_INSTANCE_VARIABLES_BKTOCWebViewController2
+- __OBJC_$_INSTANCE_VARIABLES_BKTOCWebViewTableViewCell
+- __OBJC_$_INSTANCE_VARIABLES_BKTappyScrollView
+- __OBJC_$_INSTANCE_VARIABLES_BKTextHighlightView
+- __OBJC_$_INSTANCE_VARIABLES_BKTextIndex
+- __OBJC_$_INSTANCE_VARIABLES_BKTextIndexQueryResult
+- __OBJC_$_INSTANCE_VARIABLES_BKThumbnailBookViewConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_BKThumbnailBookViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKThumbnailDirectory
+- __OBJC_$_INSTANCE_VARIABLES_BKThumbnailDirectoryCell
+- __OBJC_$_INSTANCE_VARIABLES_BKThumbnailScrubber
+- __OBJC_$_INSTANCE_VARIABLES_BKThumbnailScrubberCell
+- __OBJC_$_INSTANCE_VARIABLES_BKThumbnailScrubberTrack
+- __OBJC_$_INSTANCE_VARIABLES_BKToolbarButton
+- __OBJC_$_INSTANCE_VARIABLES_BKViewController
+- __OBJC_$_INSTANCE_VARIABLES_BKWK2EpubPaginationLayoutOperation
+- __OBJC_$_INSTANCE_VARIABLES_BKWK2EpubSearchOperation
+- __OBJC_$_INSTANCE_VARIABLES_BKWK2EpubTOCParseOperation
+- __OBJC_$_INSTANCE_VARIABLES_BKWK2LoaderContentInfoRequest
+- __OBJC_$_INSTANCE_VARIABLES_BKWK2WebViewLoader
+- __OBJC_$_INSTANCE_VARIABLES_BKWebViewProxy
+- __OBJC_$_INSTANCE_VARIABLES_BKZoomingScrollView
+- __OBJC_$_INSTANCE_VARIABLES_ContentStyle
+- __OBJC_$_INSTANCE_VARIABLES_ContentViewStyleManagerBookInfo
+- __OBJC_$_INSTANCE_VARIABLES_EpubPaginationFactory
+- __OBJC_$_INSTANCE_VARIABLES__BKExpandedContentViewControllerAnimator
+- __OBJC_$_INSTANCE_VARIABLES__BKExpandedImageContentCenteringScrollView
+- __OBJC_$_INSTANCE_VARIABLES__CachedFallbackInfo
+- __OBJC_$_PROP_LIST_AEAccountIdentifiers
+- __OBJC_$_PROP_LIST_AEAnnotation
+- __OBJC_$_PROP_LIST_AEAnnotationHighlightData
+- __OBJC_$_PROP_LIST_AEAssetMinifiedController
+- __OBJC_$_PROP_LIST_AEAssetSnapshottingViewController
+- __OBJC_$_PROP_LIST_AEAssetViewController
+- __OBJC_$_PROP_LIST_AEAudiobookBookmarkTimeSnapshot
+- __OBJC_$_PROP_LIST_AEAudiobookPersistenceFile
+- __OBJC_$_PROP_LIST_AEAudiobookPlugin
+- __OBJC_$_PROP_LIST_AEAudiobookReadingTimeTracker
+- __OBJC_$_PROP_LIST_AEBookInfoAssetPlugin
+- __OBJC_$_PROP_LIST_AEBookInfoSnapshot
+- __OBJC_$_PROP_LIST_AEBookProtocolCacheItemProvider
+- __OBJC_$_PROP_LIST_AEBookRenderingCallbackTarget
+- __OBJC_$_PROP_LIST_AEEPubMinifiedController
+- __OBJC_$_PROP_LIST_AEEPubPicturebookMinifiedController
+- __OBJC_$_PROP_LIST_AEEPubProofingHelper
+- __OBJC_$_PROP_LIST_AEEpubInfoSource
+- __OBJC_$_PROP_LIST_AEMinimalTemplate
+- __OBJC_$_PROP_LIST_AEMinimalTemplateSet
+- __OBJC_$_PROP_LIST_AEMinimalTemplateStepEmbed
+- __OBJC_$_PROP_LIST_AEMinimalTemplateStepField
+- __OBJC_$_PROP_LIST_AEMinimalTemplateStepIf
+- __OBJC_$_PROP_LIST_AEMinimalTemplateStepRange
+- __OBJC_$_PROP_LIST_AEMinimalTemplateStepText
+- __OBJC_$_PROP_LIST_AEPDFMinifiedController
+- __OBJC_$_PROP_LIST_AEPDFPlugin
+- __OBJC_$_PROP_LIST_AEPaginatedBookRenderingCacheOperationProtocol
+- __OBJC_$_PROP_LIST_AEPdfCache
+- __OBJC_$_PROP_LIST_AEPdfCacheObject
+- __OBJC_$_PROP_LIST_AEPdfPageRenderingCacheOperation
+- __OBJC_$_PROP_LIST_AEPdfRenderingCache
+- __OBJC_$_PROP_LIST_AEPictureBookRenderingCache
+- __OBJC_$_PROP_LIST_AEPictureBookRenderingCacheOperation2
+- __OBJC_$_PROP_LIST_AEPictureBookRenderingCacheOperationProtocol
+- __OBJC_$_PROP_LIST_AEPlugin
+- __OBJC_$_PROP_LIST_AEProofingHelper
+- __OBJC_$_PROP_LIST_AETestDriver
+- __OBJC_$_PROP_LIST_BCAppIntentsAssetViewController
+- __OBJC_$_PROP_LIST_BCAppIntentsSearchQueryProvider
+- __OBJC_$_PROP_LIST_BCBookPositionEmitting
+- __OBJC_$_PROP_LIST_BCBookToolbarDataProvider
+- __OBJC_$_PROP_LIST_BCDDParsecCollectionViewController
+- __OBJC_$_PROP_LIST_BEAnchorLocationProtocol
+- __OBJC_$_PROP_LIST_BEAppearanceViewController
+- __OBJC_$_PROP_LIST_BEAppearanceViewControllerAccessibility
+- __OBJC_$_PROP_LIST_BECFILocationProtocol
+- __OBJC_$_PROP_LIST_BEFont
+- __OBJC_$_PROP_LIST_BEFootnoteViewController
+- __OBJC_$_PROP_LIST_BELocationProtocol
+- __OBJC_$_PROP_LIST_BENavigationHandlerDelegate
+- __OBJC_$_PROP_LIST_BEPDFSearchResult
+- __OBJC_$_PROP_LIST_BEPageLocationProtocol
+- __OBJC_$_PROP_LIST_BEPageSnapshotCache
+- __OBJC_$_PROP_LIST_BEPageSnapshotCacheOperation
+- __OBJC_$_PROP_LIST_BESearchControlling
+- __OBJC_$_PROP_LIST_BESearchResult
+- __OBJC_$_PROP_LIST_BEStyleManaging
+- __OBJC_$_PROP_LIST_BKARQuicklookViewController
+- __OBJC_$_PROP_LIST_BKActionController
+- __OBJC_$_PROP_LIST_BKActivityCopyToIBooks
+- __OBJC_$_PROP_LIST_BKActivityIndicatorOverlayView
+- __OBJC_$_PROP_LIST_BKActivityPDFLinkPresentationItemSource
+- __OBJC_$_PROP_LIST_BKActivityURLItemSource
+- __OBJC_$_PROP_LIST_BKAnchorLocation
+- __OBJC_$_PROP_LIST_BKAnchorPathLocation
+- __OBJC_$_PROP_LIST_BKAppearanceFontViewController
+- __OBJC_$_PROP_LIST_BKAppearanceViewController
+- __OBJC_$_PROP_LIST_BKAudioController
+- __OBJC_$_PROP_LIST_BKAudioLocation
+- __OBJC_$_PROP_LIST_BKAudioTrackNumberLocation
+- __OBJC_$_PROP_LIST_BKAudioTurnModeViewController
+- __OBJC_$_PROP_LIST_BKAudiobook
+- __OBJC_$_PROP_LIST_BKAudiobookBookmarkPersisting
+- __OBJC_$_PROP_LIST_BKBookContainerView
+- __OBJC_$_PROP_LIST_BKBookParser
+- __OBJC_$_PROP_LIST_BKBookViewController
+- __OBJC_$_PROP_LIST_BKBookmark
+- __OBJC_$_PROP_LIST_BKBookmarkPageCount
+- __OBJC_$_PROP_LIST_BKBookmarkThumbnailDirectory
+- __OBJC_$_PROP_LIST_BKBoolBlockProxy
+- __OBJC_$_PROP_LIST_BKBrightnessController
+- __OBJC_$_PROP_LIST_BKCatalystAppearanceViewController
+- __OBJC_$_PROP_LIST_BKChapterPageCount
+- __OBJC_$_PROP_LIST_BKContentLoadingView
+- __OBJC_$_PROP_LIST_BKContentReloadView
+- __OBJC_$_PROP_LIST_BKContinuousWebScrollView
+- __OBJC_$_PROP_LIST_BKCoverContentViewController2
+- __OBJC_$_PROP_LIST_BKDirectoryContent
+- __OBJC_$_PROP_LIST_BKDocument
+- __OBJC_$_PROP_LIST_BKDocumentPageCount
+- __OBJC_$_PROP_LIST_BKDummyThemeCoordinatorObserver
+- __OBJC_$_PROP_LIST_BKEPubContentViewController
+- __OBJC_$_PROP_LIST_BKEPubContentViewControllerView
+- __OBJC_$_PROP_LIST_BKEpubCFILocation
+- __OBJC_$_PROP_LIST_BKEpubLocation
+- __OBJC_$_PROP_LIST_BKEpubManualCurlDriver
+- __OBJC_$_PROP_LIST_BKEpubManualCurlGesture
+- __OBJC_$_PROP_LIST_BKEpubManualCurlGestureImplementation
+- __OBJC_$_PROP_LIST_BKEpubTOCParseJob
+- __OBJC_$_PROP_LIST_BKEpubTOCParseRecordJob
+- __OBJC_$_PROP_LIST_BKExpandedContentResource
+- __OBJC_$_PROP_LIST_BKExpandedContentViewController
+- __OBJC_$_PROP_LIST_BKExpandedImageContentViewController
+- __OBJC_$_PROP_LIST_BKExpandedWebContentViewController2
+- __OBJC_$_PROP_LIST_BKFinishedButton
+- __OBJC_$_PROP_LIST_BKFinishedContentViewController
+- __OBJC_$_PROP_LIST_BKFlowingBookFontSizeConfiguration
+- __OBJC_$_PROP_LIST_BKFlowingBookPendingContent
+- __OBJC_$_PROP_LIST_BKFlowingBookPlistConfigurationEnvironment
+- __OBJC_$_PROP_LIST_BKFlowingBookViewController
+- __OBJC_$_PROP_LIST_BKFont
+- __OBJC_$_PROP_LIST_BKFontCache
+- __OBJC_$_PROP_LIST_BKFontTableViewCell
+- __OBJC_$_PROP_LIST_BKFootnoteViewController2
+- __OBJC_$_PROP_LIST_BKGradientView
+- __OBJC_$_PROP_LIST_BKHTMLContentViewController
+- __OBJC_$_PROP_LIST_BKHTMLContentViewControllerDummyAnnotation
+- __OBJC_$_PROP_LIST_BKHistoryEntity
+- __OBJC_$_PROP_LIST_BKImageResizerHelper
+- __OBJC_$_PROP_LIST_BKIndirectPanGestureRecognizer
+- __OBJC_$_PROP_LIST_BKInfoHUD
+- __OBJC_$_PROP_LIST_BKJob
+- __OBJC_$_PROP_LIST_BKLandmarkInfo
+- __OBJC_$_PROP_LIST_BKLandmarkPageCount
+- __OBJC_$_PROP_LIST_BKLastRecordedLocation
+- __OBJC_$_PROP_LIST_BKLocation
+- __OBJC_$_PROP_LIST_BKLoupeView
+- __OBJC_$_PROP_LIST_BKMediaOverlayElement
+- __OBJC_$_PROP_LIST_BKMutableSearchResult
+- __OBJC_$_PROP_LIST_BKNavigationHistory
+- __OBJC_$_PROP_LIST_BKNavigationInfo
+- __OBJC_$_PROP_LIST_BKNumericOption
+- __OBJC_$_PROP_LIST_BKPDFActionController
+- __OBJC_$_PROP_LIST_BKPDFAnnotationCounter
+- __OBJC_$_PROP_LIST_BKPDFAnnotationCounterResult
+- __OBJC_$_PROP_LIST_BKPDFLocation
+- __OBJC_$_PROP_LIST_BKPDFModernBookViewController
+- __OBJC_$_PROP_LIST_BKPDFPageThumbnailDirectory
+- __OBJC_$_PROP_LIST_BKPDFSearchResult
+- __OBJC_$_PROP_LIST_BKPDFSnapshotMetadata
+- __OBJC_$_PROP_LIST_BKPDFTOCTableViewCell
+- __OBJC_$_PROP_LIST_BKPDFTOCViewController
+- __OBJC_$_PROP_LIST_BKPageAnimation
+- __OBJC_$_PROP_LIST_BKPageBookCurlView
+- __OBJC_$_PROP_LIST_BKPageCurl
+- __OBJC_$_PROP_LIST_BKPageCurlConfiguration
+- __OBJC_$_PROP_LIST_BKPageCurlManager
+- __OBJC_$_PROP_LIST_BKPageLocation
+- __OBJC_$_PROP_LIST_BKPageNavigationViewController
+- __OBJC_$_PROP_LIST_BKPageScrollerPageView
+- __OBJC_$_PROP_LIST_BKPageScrollerViewController
+- __OBJC_$_PROP_LIST_BKPageSlide
+- __OBJC_$_PROP_LIST_BKPageSpan
+- __OBJC_$_PROP_LIST_BKPageThumbnailDirectory
+- __OBJC_$_PROP_LIST_BKPageThumbnailView
+- __OBJC_$_PROP_LIST_BKPageTurningViewController
+- __OBJC_$_PROP_LIST_BKPageViewController
+- __OBJC_$_PROP_LIST_BKPaginationBatchJob
+- __OBJC_$_PROP_LIST_BKPaginationController
+- __OBJC_$_PROP_LIST_BKPaginationControllerDelegate
+- __OBJC_$_PROP_LIST_BKPaginationFactory
+- __OBJC_$_PROP_LIST_BKPaginationJob
+- __OBJC_$_PROP_LIST_BKPaginationLayoutJob
+- __OBJC_$_PROP_LIST_BKPaginationOperation
+- __OBJC_$_PROP_LIST_BKPaginationOperationController
+- __OBJC_$_PROP_LIST_BKPaginationPrepareOperation
+- __OBJC_$_PROP_LIST_BKPaginationRecordJob
+- __OBJC_$_PROP_LIST_BKPagingScrollView
+- __OBJC_$_PROP_LIST_BKPanGestureRecognizer
+- __OBJC_$_PROP_LIST_BKPdfBookParser
+- __OBJC_$_PROP_LIST_BKPdfSearchOperation
+- __OBJC_$_PROP_LIST_BKPhysicalPage
+- __OBJC_$_PROP_LIST_BKPhysicalPageCount
+- __OBJC_$_PROP_LIST_BKPictureBookContentViewController
+- __OBJC_$_PROP_LIST_BKPictureBookCurlContainerView
+- __OBJC_$_PROP_LIST_BKPictureBookCurlPageView
+- __OBJC_$_PROP_LIST_BKPictureBookCurlState
+- __OBJC_$_PROP_LIST_BKPictureBookNavigationController
+- __OBJC_$_PROP_LIST_BKPictureBookPageContainerView
+- __OBJC_$_PROP_LIST_BKPictureBookReadingStatisticsCollector
+- __OBJC_$_PROP_LIST_BKPictureBookScrollView
+- __OBJC_$_PROP_LIST_BKPictureBookVerticalNavigationController
+- __OBJC_$_PROP_LIST_BKPictureBookView
+- __OBJC_$_PROP_LIST_BKPictureBookViewController
+- __OBJC_$_PROP_LIST_BKPictureBookViewGeometry
+- __OBJC_$_PROP_LIST_BKProtectionInfo
+- __OBJC_$_PROP_LIST_BKReadAloudEventHandler
+- __OBJC_$_PROP_LIST_BKReadAloudEventHandlerDelegate
+- __OBJC_$_PROP_LIST_BKSampleUpsellContentViewController
+- __OBJC_$_PROP_LIST_BKScrollingPageViewController
+- __OBJC_$_PROP_LIST_BKSearchController
+- __OBJC_$_PROP_LIST_BKSearchOperation
+- __OBJC_$_PROP_LIST_BKSearchResult
+- __OBJC_$_PROP_LIST_BKSearchViewController
+- __OBJC_$_PROP_LIST_BKSegmentedControl
+- __OBJC_$_PROP_LIST_BKSemanticLayoutOverlayViewController
+- __OBJC_$_PROP_LIST_BKSpreadThumbnailDirectoryCell
+- __OBJC_$_PROP_LIST_BKSpreadThumbnailScrubberCell
+- __OBJC_$_PROP_LIST_BKSpreadThumbnailView
+- __OBJC_$_PROP_LIST_BKStyleManager
+- __OBJC_$_PROP_LIST_BKSwitcherContent
+- __OBJC_$_PROP_LIST_BKSwitcherContentConfiguration
+- __OBJC_$_PROP_LIST_BKTOCAnnotationTableCell
+- __OBJC_$_PROP_LIST_BKTOCBookmarksDescription
+- __OBJC_$_PROP_LIST_BKTOCContentViewController
+- __OBJC_$_PROP_LIST_BKTOCPointAnnotationTableCell
+- __OBJC_$_PROP_LIST_BKTOCRangeAnnotationTableCell
+- __OBJC_$_PROP_LIST_BKTOCTableViewCell
+- __OBJC_$_PROP_LIST_BKTOCViewController
+- __OBJC_$_PROP_LIST_BKTOCViewControllerProtocol
+- __OBJC_$_PROP_LIST_BKTOCWebViewCellContent
+- __OBJC_$_PROP_LIST_BKTOCWebViewCellLoadQueue
+- __OBJC_$_PROP_LIST_BKTOCWebViewCellLoadRequest
+- __OBJC_$_PROP_LIST_BKTOCWebViewController2
+- __OBJC_$_PROP_LIST_BKTOCWebViewTableViewCell
+- __OBJC_$_PROP_LIST_BKTappyScrollView
+- __OBJC_$_PROP_LIST_BKTextHighlightView
+- __OBJC_$_PROP_LIST_BKThumbnailBookViewConfiguration
+- __OBJC_$_PROP_LIST_BKThumbnailBookViewController
+- __OBJC_$_PROP_LIST_BKThumbnailDirectory
+- __OBJC_$_PROP_LIST_BKThumbnailDirectoryCell
+- __OBJC_$_PROP_LIST_BKThumbnailScrubber
+- __OBJC_$_PROP_LIST_BKThumbnailScrubberCell
+- __OBJC_$_PROP_LIST_BKThumbnailScrubberTrack
+- __OBJC_$_PROP_LIST_BKToolbarButton
+- __OBJC_$_PROP_LIST_BKUpsell
+- __OBJC_$_PROP_LIST_BKViewController
+- __OBJC_$_PROP_LIST_BKWK2EpubPaginationLayoutOperation
+- __OBJC_$_PROP_LIST_BKWK2EpubSearchOperation
+- __OBJC_$_PROP_LIST_BKWK2EpubTOCParseOperation
+- __OBJC_$_PROP_LIST_BKWK2LoaderContentInfoRequest
+- __OBJC_$_PROP_LIST_BKWK2WebViewLoader
+- __OBJC_$_PROP_LIST_BKWebViewProxy
+- __OBJC_$_PROP_LIST_BKZoomingScrollView
+- __OBJC_$_PROP_LIST_ContentStyle
+- __OBJC_$_PROP_LIST_ContentStyleOverrideProvider
+- __OBJC_$_PROP_LIST_ContentViewStyleManagerBookInfo
+- __OBJC_$_PROP_LIST_IMBaseRenderingCache
+- __OBJC_$_PROP_LIST_IMConfigurationHosting
+- __OBJC_$_PROP_LIST_IMLayoutDirectionEnvironment
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROP_LIST_QLPreviewItem
+- __OBJC_$_PROP_LIST__BKExpandedContentViewControllerAnimator
+- __OBJC_$_PROP_LIST__BKExpandedImageContentCenteringScrollView
+- __OBJC_$_PROP_LIST__CachedFallbackInfo
+- __OBJC_$_PROTOCOL_CLASS_METHODS_BEStyleManaging
+- __OBJC_$_PROTOCOL_CLASS_METHODS_BKExpandedContentViewController
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEAnnotation
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEAnnotationDragPropertyProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEAnnotationEditorDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEAnnotationHighlightData
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEAnnotationPaginationDataSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEAsset
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEAssetMinifiedController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEAssetSharingConnectionClient
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEAssetSharingConnectionServer
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEAssetSnapshottingViewController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEAssetViewController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEBookInfoSnapshot
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEHighlightColorEditorControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEInstanceDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEPaginatedBookRenderingCacheOperationProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEPaginatedBookSnapshotWebViewBuilder
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEPictureBookRenderingCacheOperationProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEPictureBookRenderingPiggyBack
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEPlugin
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AEProofingHelper
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BASessionHostProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BASessionHosting
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BCAppIntentsAssetViewController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BCAppIntentsSearchQueryProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BCAudioMuxingObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BCAugmentedExperienceHosting
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BCBookPositionEmitting
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BCBookToolbarActionHandler
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BCBookToolbarColorProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BCBookToolbarDataProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BCBookmarkProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BCBuyGetTwoStateButtonDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BCProgressContextTreeBuilding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BCTouchBarScrollerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BCUIHoverInteractionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BEAnchorLocationProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BECFILocationProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BEDragDismissGestureDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BEExpandedContentDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BEFont
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BEFontFallbackProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BEFootnoteDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BEFootnoteViewController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BELocationProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BEPDFSearchResult
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BEPageLocationProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BEProtocolCacheItemProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BESearchControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BESearchControlling
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BESearchResult
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BEStyleManaging
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BEUIHandlerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BEUIWKTextInteractionAssistantDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKAppearanceFontViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKAppearanceViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKAudiobook
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKAudiobookBookmarkPersisting
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKBookContainerViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKBookOpenTransitioning
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKBookmark
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKContentReloadViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKContentViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKContentViewControllerLayoutDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKContinuousWebScrollViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKDirectoryContentDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKEpubManualCurlGesture
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKExpandedContentViewController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKImageResizerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKInfoHUDDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKLongPressGestureRecognizerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKMutableSearchResult
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKPageAnimationDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKPageCurlDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKPageCurlManagerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKPageNavigationDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKPageScrollerThumbnailingDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKPageTurningViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKPageViewController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKPaginationControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKPaginationOperationController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKPagingScrollViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKPictureBookNavigationDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKPictureBookVerticalNavigationDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKReadAloudEventHandlerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKSearchOperationDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKSearchViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKSemanticLayoutDebuggable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKTOCViewControllerProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKTOCWebViewCellLoadDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKThumbnailBookViewConfiguring
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKThumbnailDirectoryDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKThumbnailScrubberDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKUpsell
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKUpsellBuyDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BKZoomingScrollViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BUAssertion
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_ContentStyleOverrideProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_IMBaseRenderingCache
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_IMConfigurationHosting
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_IMEnvironmentOverrideProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_IMGridViewDataSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_IMLayoutDirectionEnvironment
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_IMThumbnailRenderingCache
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSFastEnumeration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AEAnnotation
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AEAnnotationEditorDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AEAssetSnapshottingViewController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AEAssetViewController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AEHighlightColorEditorControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AEInstanceDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AEPlugin
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AEProofingHelper
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BCBuyGetTwoStateButtonDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BCFinishedHandling
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BCThemeCoordinatorObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BCTouchBarConfiguring
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BCTouchBarDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BCUIHoverInteractionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BEAppearanceViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BEDragDismissGestureDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BEExpandedContentDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BEFootnoteDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BENavigationHandlerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BESearchControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BEUIHandlerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKActionControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKAnnotationDataProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKAppearanceViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKAudioControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKAudiobookObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKAudiobookSkipControllerObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKBookOpenTransitioning
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKContentViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKDirectoryContentDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKEpubManualCurlGesture
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKPageAnimationDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKPageCurlManagerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKPageViewController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKPaginationControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKSearchOperationDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKTOCViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKThumbnailDirectoryDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKUpsellBuyDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BKWK2WebViewLoaderDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_CAAnimationDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_IMAVPlayerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_IMGridViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_IMRenderingCacheCallback
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSFetchedResultsControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PDFViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PDFViewDelegatePrivate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_QLPreviewItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TPKContentControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIActivityItemLinkPresentationSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIActivityItemSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIAdaptivePresentationControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIBarPositioningDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIGestureRecognizerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UINavigationBarDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UINavigationControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIPageViewControllerDataSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIPageViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIPointerInteractionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIPopoverPresentationControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIScrollViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UISearchBarDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITableViewDataSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITableViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITableViewDragDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITextFieldDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITextInteractionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITextInteractionDelegatePrivate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIViewControllerAnimatedTransitioning
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIViewControllerTransitioningDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_VKCImageAnalysisInteractionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_WKNavigationDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT__WKFindDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_QLPreviewControllerDataSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_QLPreviewItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TPKContentControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UIActivityItemSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UIPageViewControllerDataSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UITableViewDataSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UITableViewDragDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UIViewControllerAnimatedTransitioning
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_WKScriptMessageHandler
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS__UIScrollViewScrollObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEAnnotation
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEAnnotationDragPropertyProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEAnnotationEditorDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEAnnotationHighlightData
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEAnnotationPaginationDataSource
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEAsset
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEAssetMinifiedController
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEAssetSharingConnectionClient
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEAssetSharingConnectionServer
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEAssetSnapshottingViewController
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEAssetViewController
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEBookInfoSnapshot
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEHighlightColorEditorControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEInstanceDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEPaginatedBookRenderingCacheOperationProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEPaginatedBookSnapshotWebViewBuilder
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEPictureBookRenderingCacheOperationProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEPictureBookRenderingPiggyBack
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEPlugin
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AEProofingHelper
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BASessionHostProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BASessionHosting
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCAppIntentsAssetViewController
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCAppIntentsSearchQueryProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCAudioMuxingObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCAugmentedExperienceHosting
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCBookPositionEmitting
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCBookToolbarActionHandler
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCBookToolbarColorProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCBookToolbarDataProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCBookmarkProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCBuyGetTwoStateButtonDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCFinishedHandling
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCProgressContextTreeBuilding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCThemeCoordinatorObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCTouchBarConfiguring
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCTouchBarDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCTouchBarScrollerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BCUIHoverInteractionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BEAnchorLocationProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BEAppearanceViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BECFILocationProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BEDragDismissGestureDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BEExpandedContentDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BEFont
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BEFontFallbackProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BEFootnoteDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BEFootnoteViewController
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BELocationProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BENavigationHandlerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BEPDFSearchResult
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BEPageLocationProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BEProtocolCacheItemProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BESearchControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BESearchControlling
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BESearchResult
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BEStyleManaging
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BEUIHandlerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BEUIWKTextInteractionAssistantDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKActionControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKAnnotationDataProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKAppearanceFontViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKAppearanceViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKAudioControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKAudiobook
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKAudiobookBookmarkPersisting
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKAudiobookObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKAudiobookSkipControllerObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKBookContainerViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKBookOpenTransitioning
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKBookmark
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKContentReloadViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKContentViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKContentViewControllerLayoutDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKContinuousWebScrollViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKDirectoryContentDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKEpubManualCurlGesture
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKExpandedContentViewController
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKImageResizerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKInfoHUDDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKLongPressGestureRecognizerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKMutableSearchResult
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKPageAnimationDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKPageCurlDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKPageCurlManagerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKPageNavigationDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKPageScrollerThumbnailingDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKPageTurningViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKPageViewController
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKPaginationControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKPaginationOperationController
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKPagingScrollViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKPictureBookNavigationDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKPictureBookVerticalNavigationDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKReadAloudEventHandlerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKSearchOperationDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKSearchViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKSemanticLayoutDebuggable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKTOCViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKTOCViewControllerProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKTOCWebViewCellLoadDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKThumbnailBookViewConfiguring
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKThumbnailDirectoryDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKThumbnailScrubberDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKUpsell
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKUpsellBuyDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKWK2WebViewLoaderDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BKZoomingScrollViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BUAssertion
+- __OBJC_$_PROTOCOL_METHOD_TYPES_CAAnimationDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_ContentStyleOverrideProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_IMAVPlayerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_IMBaseRenderingCache
+- __OBJC_$_PROTOCOL_METHOD_TYPES_IMConfigurationHosting
+- __OBJC_$_PROTOCOL_METHOD_TYPES_IMEnvironmentOverrideProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_IMGridViewDataSource
+- __OBJC_$_PROTOCOL_METHOD_TYPES_IMGridViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_IMLayoutDirectionEnvironment
+- __OBJC_$_PROTOCOL_METHOD_TYPES_IMRenderingCacheCallback
+- __OBJC_$_PROTOCOL_METHOD_TYPES_IMThumbnailRenderingCache
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSFastEnumeration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSFetchedResultsControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PDFViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PDFViewDelegatePrivate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_QLPreviewControllerDataSource
+- __OBJC_$_PROTOCOL_METHOD_TYPES_QLPreviewItem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TPKContentControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIActivityItemLinkPresentationSource
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIActivityItemSource
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIAdaptivePresentationControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIBarPositioningDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIGestureRecognizerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UINavigationBarDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UINavigationControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIPageViewControllerDataSource
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIPageViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIPointerInteractionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIPopoverPresentationControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIScrollViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UISearchBarDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UITableViewDataSource
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UITableViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UITableViewDragDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UITextFieldDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UITextInteractionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UITextInteractionDelegatePrivate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIViewControllerAnimatedTransitioning
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIViewControllerTransitioningDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_VKCImageAnalysisInteractionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_WKNavigationDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_WKScriptMessageHandler
+- __OBJC_$_PROTOCOL_METHOD_TYPES__UIScrollViewScrollObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES__WKFindDelegate
+- __OBJC_$_PROTOCOL_REFS_AEAnnotation
+- __OBJC_$_PROTOCOL_REFS_AEAnnotationDragPropertyProvider
+- __OBJC_$_PROTOCOL_REFS_AEAnnotationEditorDelegate
+- __OBJC_$_PROTOCOL_REFS_AEAnnotationPaginationDataSource
+- __OBJC_$_PROTOCOL_REFS_AEAsset
+- __OBJC_$_PROTOCOL_REFS_AEAssetMinifiedController
+- __OBJC_$_PROTOCOL_REFS_AEAssetSharingConnectionClient
+- __OBJC_$_PROTOCOL_REFS_AEAssetSharingConnectionServer
+- __OBJC_$_PROTOCOL_REFS_AEAssetSnapshottingViewController
+- __OBJC_$_PROTOCOL_REFS_AEAssetViewController
+- __OBJC_$_PROTOCOL_REFS_AEHighlightColorEditorControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_AEInstanceDelegate
+- __OBJC_$_PROTOCOL_REFS_AEPictureBookRenderingCacheOperationProtocol
+- __OBJC_$_PROTOCOL_REFS_AEPlugin
+- __OBJC_$_PROTOCOL_REFS_AEProofingHelper
+- __OBJC_$_PROTOCOL_REFS_BASessionHostProviding
+- __OBJC_$_PROTOCOL_REFS_BASessionHosting
+- __OBJC_$_PROTOCOL_REFS_BCAppIntentsAssetViewController
+- __OBJC_$_PROTOCOL_REFS_BCAppIntentsSearchQueryProvider
+- __OBJC_$_PROTOCOL_REFS_BCAudioMuxingObserver
+- __OBJC_$_PROTOCOL_REFS_BCBookPositionEmitting
+- __OBJC_$_PROTOCOL_REFS_BCBookmarkProvider
+- __OBJC_$_PROTOCOL_REFS_BCBuyGetTwoStateButtonDelegate
+- __OBJC_$_PROTOCOL_REFS_BCNavigationBarDelegate
+- __OBJC_$_PROTOCOL_REFS_BCProgressContextTreeBuilding
+- __OBJC_$_PROTOCOL_REFS_BCThemeCoordinatorObserver
+- __OBJC_$_PROTOCOL_REFS_BCToolbarDelegate
+- __OBJC_$_PROTOCOL_REFS_BCTouchBarConfiguring
+- __OBJC_$_PROTOCOL_REFS_BCTouchBarDelegate
+- __OBJC_$_PROTOCOL_REFS_BCTouchBarScrollerDelegate
+- __OBJC_$_PROTOCOL_REFS_BCUIHoverInteractionDelegate
+- __OBJC_$_PROTOCOL_REFS_BEAnchorLocationProtocol
+- __OBJC_$_PROTOCOL_REFS_BEAppearanceViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_BECFILocationProtocol
+- __OBJC_$_PROTOCOL_REFS_BEExpandedContentDelegate
+- __OBJC_$_PROTOCOL_REFS_BEFont
+- __OBJC_$_PROTOCOL_REFS_BEFootnoteDelegate
+- __OBJC_$_PROTOCOL_REFS_BEFootnoteViewController
+- __OBJC_$_PROTOCOL_REFS_BELocationProtocol
+- __OBJC_$_PROTOCOL_REFS_BENavigationHandlerDelegate
+- __OBJC_$_PROTOCOL_REFS_BEPDFSearchResult
+- __OBJC_$_PROTOCOL_REFS_BEPageLocationProtocol
+- __OBJC_$_PROTOCOL_REFS_BEProtocolCacheItemProvider
+- __OBJC_$_PROTOCOL_REFS_BESearchControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_BESearchControlling
+- __OBJC_$_PROTOCOL_REFS_BESearchResult
+- __OBJC_$_PROTOCOL_REFS_BEStyleManaging
+- __OBJC_$_PROTOCOL_REFS_BEUIHandlerDelegate
+- __OBJC_$_PROTOCOL_REFS_BEUIWKTextInteractionAssistantDelegate
+- __OBJC_$_PROTOCOL_REFS_BKActionControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_BKAnnotationDataProvider
+- __OBJC_$_PROTOCOL_REFS_BKAppearanceViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_BKAudioControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_BKAudiobook
+- __OBJC_$_PROTOCOL_REFS_BKAudiobookObserver
+- __OBJC_$_PROTOCOL_REFS_BKAudiobookSkipControllerObserver
+- __OBJC_$_PROTOCOL_REFS_BKBookOpenTransitioning
+- __OBJC_$_PROTOCOL_REFS_BKContentReloadViewDelegate
+- __OBJC_$_PROTOCOL_REFS_BKContentViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_BKContentViewControllerLayoutDelegate
+- __OBJC_$_PROTOCOL_REFS_BKContinuousWebScrollViewDelegate
+- __OBJC_$_PROTOCOL_REFS_BKDirectoryContentDelegate
+- __OBJC_$_PROTOCOL_REFS_BKEpubManualCurlGesture
+- __OBJC_$_PROTOCOL_REFS_BKExpandedContentViewController
+- __OBJC_$_PROTOCOL_REFS_BKExpandedContentViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_BKFootnoteViewController2Delegate
+- __OBJC_$_PROTOCOL_REFS_BKImageResizerDelegate
+- __OBJC_$_PROTOCOL_REFS_BKInfoHUDDelegate
+- __OBJC_$_PROTOCOL_REFS_BKLongPressGestureRecognizerDelegate
+- __OBJC_$_PROTOCOL_REFS_BKMutableSearchResult
+- __OBJC_$_PROTOCOL_REFS_BKPageAnimationDelegate
+- __OBJC_$_PROTOCOL_REFS_BKPageCurlManagerDelegate
+- __OBJC_$_PROTOCOL_REFS_BKPageNavigationDelegate
+- __OBJC_$_PROTOCOL_REFS_BKPageScrollerThumbnailingDelegate
+- __OBJC_$_PROTOCOL_REFS_BKPageTurningViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_BKPageViewController
+- __OBJC_$_PROTOCOL_REFS_BKPaginationControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_BKPagingScrollViewDelegate
+- __OBJC_$_PROTOCOL_REFS_BKPictureBookNavigationDelegate
+- __OBJC_$_PROTOCOL_REFS_BKPictureBookVerticalNavigationDelegate
+- __OBJC_$_PROTOCOL_REFS_BKReadAloudEventHandlerDelegate
+- __OBJC_$_PROTOCOL_REFS_BKSearchOperationDelegate
+- __OBJC_$_PROTOCOL_REFS_BKTOCViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_BKTOCViewControllerProtocol
+- __OBJC_$_PROTOCOL_REFS_BKTOCWebViewCellLoadDelegate
+- __OBJC_$_PROTOCOL_REFS_BKThumbnailBookViewConfiguring
+- __OBJC_$_PROTOCOL_REFS_BKThumbnailDirectoryDelegate
+- __OBJC_$_PROTOCOL_REFS_BKThumbnailScrubberDelegate
+- __OBJC_$_PROTOCOL_REFS_BKUpsellBuyDelegate
+- __OBJC_$_PROTOCOL_REFS_BKWK2WebViewLoaderDelegate
+- __OBJC_$_PROTOCOL_REFS_BKZoomingScrollViewDelegate
+- __OBJC_$_PROTOCOL_REFS_BUAssertion
+- __OBJC_$_PROTOCOL_REFS_CAAnimationDelegate
+- __OBJC_$_PROTOCOL_REFS_IMAVPlayerDelegate
+- __OBJC_$_PROTOCOL_REFS_IMBaseRenderingCache
+- __OBJC_$_PROTOCOL_REFS_IMConfigurationHosting
+- __OBJC_$_PROTOCOL_REFS_IMEnvironmentOverrideProvider
+- __OBJC_$_PROTOCOL_REFS_IMGridViewDataSource
+- __OBJC_$_PROTOCOL_REFS_IMGridViewDelegate
+- __OBJC_$_PROTOCOL_REFS_IMLayoutDirectionEnvironment
+- __OBJC_$_PROTOCOL_REFS_IMRenderingCacheCallback
+- __OBJC_$_PROTOCOL_REFS_IMThumbnailRenderingCache
+- __OBJC_$_PROTOCOL_REFS_NSFetchedResultsControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding
+- __OBJC_$_PROTOCOL_REFS_PDFAKControllerDelegateProtocol
+- __OBJC_$_PROTOCOL_REFS_PDFViewDelegate
+- __OBJC_$_PROTOCOL_REFS_PDFViewDelegatePrivate
+- __OBJC_$_PROTOCOL_REFS_QLPreviewItem
+- __OBJC_$_PROTOCOL_REFS_TPKContentControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_UIActivityItemLinkPresentationSource
+- __OBJC_$_PROTOCOL_REFS_UIActivityItemSource
+- __OBJC_$_PROTOCOL_REFS_UIAdaptivePresentationControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_UIBarPositioningDelegate
+- __OBJC_$_PROTOCOL_REFS_UIGestureRecognizerDelegate
+- __OBJC_$_PROTOCOL_REFS_UINavigationBarDelegate
+- __OBJC_$_PROTOCOL_REFS_UINavigationControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_UIPageViewControllerDataSource
+- __OBJC_$_PROTOCOL_REFS_UIPageViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_UIPointerInteractionDelegate
+- __OBJC_$_PROTOCOL_REFS_UIPopoverPresentationControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_UIScrollViewDelegate
+- __OBJC_$_PROTOCOL_REFS_UISearchBarDelegate
+- __OBJC_$_PROTOCOL_REFS_UITableViewDataSource
+- __OBJC_$_PROTOCOL_REFS_UITableViewDelegate
+- __OBJC_$_PROTOCOL_REFS_UITableViewDragDelegate
+- __OBJC_$_PROTOCOL_REFS_UITextFieldDelegate
+- __OBJC_$_PROTOCOL_REFS_UITextInteractionDelegate
+- __OBJC_$_PROTOCOL_REFS_UITextInteractionDelegatePrivate
+- __OBJC_$_PROTOCOL_REFS_UIToolbarDelegate
+- __OBJC_$_PROTOCOL_REFS_UIViewControllerAnimatedTransitioning
+- __OBJC_$_PROTOCOL_REFS_UIViewControllerTransitioningDelegate
+- __OBJC_$_PROTOCOL_REFS_VKCImageAnalysisInteractionDelegate
+- __OBJC_$_PROTOCOL_REFS_WKNavigationDelegate
+- __OBJC_$_PROTOCOL_REFS_WKScriptMessageHandler
+- __OBJC_$_PROTOCOL_REFS__UIScrollViewScrollObserver
+- __OBJC_$_PROTOCOL_REFS__WKFindDelegate
+- __OBJC_CLASS_PROTOCOLS_$_AEAnnotation(BKBookmark)
+- __OBJC_CLASS_PROTOCOLS_$_AEAudiobookAnalyticsRecorder(AEBookPlugins|AEBookPlugins1)
+- __OBJC_CLASS_PROTOCOLS_$_AEAudiobookBookmarkTimeSnapshot
+- __OBJC_CLASS_PROTOCOLS_$_AEAudiobookPersistenceFile
+- __OBJC_CLASS_PROTOCOLS_$_AEAudiobookPlugin
+- __OBJC_CLASS_PROTOCOLS_$_AEAudiobookReadingTimeTracker
+- __OBJC_CLASS_PROTOCOLS_$_AEBookInfo
+- __OBJC_CLASS_PROTOCOLS_$_AEBookInfoAssetPlugin
+- __OBJC_CLASS_PROTOCOLS_$_AEBookInfoSnapshot
+- __OBJC_CLASS_PROTOCOLS_$_AEBookProtocolCacheItemProvider
+- __OBJC_CLASS_PROTOCOLS_$_AEBookRenderingCallbackTarget
+- __OBJC_CLASS_PROTOCOLS_$_AEEPubMinifiedController
+- __OBJC_CLASS_PROTOCOLS_$_AEEPubPicturebookMinifiedController
+- __OBJC_CLASS_PROTOCOLS_$_AEEPubProofingHelper
+- __OBJC_CLASS_PROTOCOLS_$_AEPDFMinifiedController
+- __OBJC_CLASS_PROTOCOLS_$_AEPDFPlugin
+- __OBJC_CLASS_PROTOCOLS_$_AEPdfRenderingCache
+- __OBJC_CLASS_PROTOCOLS_$_AEPictureBookRenderingCache
+- __OBJC_CLASS_PROTOCOLS_$_AEPictureBookRenderingCacheOperation2
+- __OBJC_CLASS_PROTOCOLS_$_BCDDParsecCollectionViewController
+- __OBJC_CLASS_PROTOCOLS_$_BEPageSnapshotCacheOperation
+- __OBJC_CLASS_PROTOCOLS_$_BKARQuicklookViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKActivityPDFLinkPresentationItemSource
+- __OBJC_CLASS_PROTOCOLS_$_BKActivityURLItemSource
+- __OBJC_CLASS_PROTOCOLS_$_BKAnchorLocation
+- __OBJC_CLASS_PROTOCOLS_$_BKAppearanceFontViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKAppearanceViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKAudioController
+- __OBJC_CLASS_PROTOCOLS_$_BKAudioTurnModeViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKBookContainerView
+- __OBJC_CLASS_PROTOCOLS_$_BKBookViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKBookmarkThumbnailDirectory
+- __OBJC_CLASS_PROTOCOLS_$_BKContentViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKCoverContentViewController2
+- __OBJC_CLASS_PROTOCOLS_$_BKDummyThemeCoordinatorObserver
+- __OBJC_CLASS_PROTOCOLS_$_BKEPubContentViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKEpubCFILocation
+- __OBJC_CLASS_PROTOCOLS_$_BKEpubManualCurlGestureImplementation
+- __OBJC_CLASS_PROTOCOLS_$_BKExpandedContentViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKExpandedImageContentViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKExpandedWebContentViewController2
+- __OBJC_CLASS_PROTOCOLS_$_BKFinishedContentViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKFlowingBookLayoutConfiguration
+- __OBJC_CLASS_PROTOCOLS_$_BKFlowingBookViewController(SemanticLayout)
+- __OBJC_CLASS_PROTOCOLS_$_BKFont
+- __OBJC_CLASS_PROTOCOLS_$_BKFontFallbackProvider
+- __OBJC_CLASS_PROTOCOLS_$_BKFootnoteViewController2
+- __OBJC_CLASS_PROTOCOLS_$_BKHTMLContentViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKHTMLContentViewControllerDummyAnnotation
+- __OBJC_CLASS_PROTOCOLS_$_BKIndirectPanGestureRecognizer
+- __OBJC_CLASS_PROTOCOLS_$_BKLocation
+- __OBJC_CLASS_PROTOCOLS_$_BKPDFModernBookViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKPDFSearchResult
+- __OBJC_CLASS_PROTOCOLS_$_BKPDFTOCViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKPageCurl
+- __OBJC_CLASS_PROTOCOLS_$_BKPageCurlManager
+- __OBJC_CLASS_PROTOCOLS_$_BKPageLocation
+- __OBJC_CLASS_PROTOCOLS_$_BKPageNavigationViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKPageScrollerViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKPageSlide
+- __OBJC_CLASS_PROTOCOLS_$_BKPageThumbnailDirectory
+- __OBJC_CLASS_PROTOCOLS_$_BKPageTurningViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKPaginationController
+- __OBJC_CLASS_PROTOCOLS_$_BKPanGestureRecognizer
+- __OBJC_CLASS_PROTOCOLS_$_BKPictureBookNavigationController
+- __OBJC_CLASS_PROTOCOLS_$_BKPictureBookReadingStatisticsCollector
+- __OBJC_CLASS_PROTOCOLS_$_BKPictureBookVerticalNavigationController
+- __OBJC_CLASS_PROTOCOLS_$_BKPictureBookViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKReadAloudEventHandler
+- __OBJC_CLASS_PROTOCOLS_$_BKSampleUpsellContentViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKScrollingPageViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKSearchController
+- __OBJC_CLASS_PROTOCOLS_$_BKSearchResult
+- __OBJC_CLASS_PROTOCOLS_$_BKSearchViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKSemanticLayoutOverlayViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKStyleManager
+- __OBJC_CLASS_PROTOCOLS_$_BKSwitcherContent
+- __OBJC_CLASS_PROTOCOLS_$_BKTOCContentViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKTOCViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKTOCWebViewCellLoadQueue
+- __OBJC_CLASS_PROTOCOLS_$_BKTOCWebViewCellLoadRequest
+- __OBJC_CLASS_PROTOCOLS_$_BKTOCWebViewController2
+- __OBJC_CLASS_PROTOCOLS_$_BKTextHighlightView
+- __OBJC_CLASS_PROTOCOLS_$_BKThumbnailBookViewConfiguration
+- __OBJC_CLASS_PROTOCOLS_$_BKThumbnailBookViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKThumbnailDirectory
+- __OBJC_CLASS_PROTOCOLS_$_BKViewController
+- __OBJC_CLASS_PROTOCOLS_$_BKWK2EpubPaginationLayoutOperation
+- __OBJC_CLASS_PROTOCOLS_$_BKWK2EpubSearchOperation
+- __OBJC_CLASS_PROTOCOLS_$_BKWK2EpubTOCParseOperation
+- __OBJC_CLASS_PROTOCOLS_$_BKWK2WebViewLoader
+- __OBJC_CLASS_PROTOCOLS_$_ContentStyle
+- __OBJC_CLASS_PROTOCOLS_$__BKExpandedContentViewControllerAnimator
+- __OBJC_CLASS_RO_$_AEAccountIdentifiers
+- __OBJC_CLASS_RO_$_AEAssetMetadataCache
+- __OBJC_CLASS_RO_$_AEAudiobookBookmarkTimeSnapshot
+- __OBJC_CLASS_RO_$_AEAudiobookPersistenceFile
+- __OBJC_CLASS_RO_$_AEAudiobookPlatformConfiguration
+- __OBJC_CLASS_RO_$_AEAudiobookPlaybackRateViewControllerAccessibility
+- __OBJC_CLASS_RO_$_AEAudiobookPlugin
+- __OBJC_CLASS_RO_$_AEAudiobookReadingTimeTracker
+- __OBJC_CLASS_RO_$_AEBookInfo
+- __OBJC_CLASS_RO_$_AEBookInfoAssetPlugin
+- __OBJC_CLASS_RO_$_AEBookInfoSnapshot
+- __OBJC_CLASS_RO_$_AEBookManagedObjectContext
+- __OBJC_CLASS_RO_$_AEBookPluginAccessibility
+- __OBJC_CLASS_RO_$_AEBookProtocolCacheItemProvider
+- __OBJC_CLASS_RO_$_AEBookRenderingCallbackTarget
+- __OBJC_CLASS_RO_$_AEBottomToolbarAccessibility
+- __OBJC_CLASS_RO_$_AEEPubBookHelper
+- __OBJC_CLASS_RO_$_AEEPubMinifiedController
+- __OBJC_CLASS_RO_$_AEEPubPictureBookHelper
+- __OBJC_CLASS_RO_$_AEEPubPictureBookPlugin
+- __OBJC_CLASS_RO_$_AEEPubPicturebookMinifiedController
+- __OBJC_CLASS_RO_$_AEEPubProofingHelper
+- __OBJC_CLASS_RO_$_AEEpubInfoSource
+- __OBJC_CLASS_RO_$_AEEpubPlugin
+- __OBJC_CLASS_RO_$_AEHTMLBookRenderingCache
+- __OBJC_CLASS_RO_$_AEMinimalTemplate
+- __OBJC_CLASS_RO_$_AEMinimalTemplateSet
+- __OBJC_CLASS_RO_$_AEMinimalTemplateStep
+- __OBJC_CLASS_RO_$_AEMinimalTemplateStepEmbed
+- __OBJC_CLASS_RO_$_AEMinimalTemplateStepField
+- __OBJC_CLASS_RO_$_AEMinimalTemplateStepIf
+- __OBJC_CLASS_RO_$_AEMinimalTemplateStepRange
+- __OBJC_CLASS_RO_$_AEMinimalTemplateStepText
+- __OBJC_CLASS_RO_$_AENoteFullscreenEditorControllerAccessibility
+- __OBJC_CLASS_RO_$_AEPDFBookHelper
+- __OBJC_CLASS_RO_$_AEPDFMinifiedController
+- __OBJC_CLASS_RO_$_AEPDFPlugin
+- __OBJC_CLASS_RO_$_AEPdfCache
+- __OBJC_CLASS_RO_$_AEPdfCacheObject
+- __OBJC_CLASS_RO_$_AEPdfPageRenderingCacheOperation
+- __OBJC_CLASS_RO_$_AEPdfRenderingCache
+- __OBJC_CLASS_RO_$_AEPictureBookRenderingCache
+- __OBJC_CLASS_RO_$_AEPictureBookRenderingCacheOperation2
+- __OBJC_CLASS_RO_$_AETestDriver
+- __OBJC_CLASS_RO_$_AXUIViewAccessibility
+- __OBJC_CLASS_RO_$_BCDDParsecCollectionViewController
+- __OBJC_CLASS_RO_$_BEAppearanceViewController
+- __OBJC_CLASS_RO_$_BEAppearanceViewControllerAccessibility
+- __OBJC_CLASS_RO_$_BEPageSnapshotCache
+- __OBJC_CLASS_RO_$_BEPageSnapshotCacheOperation
+- __OBJC_CLASS_RO_$_BKARQuicklookViewController
+- __OBJC_CLASS_RO_$_BKActionController
+- __OBJC_CLASS_RO_$_BKActionControllerAccessibility
+- __OBJC_CLASS_RO_$_BKActivityCopyToIBooks
+- __OBJC_CLASS_RO_$_BKActivityIndicatorOverlayView
+- __OBJC_CLASS_RO_$_BKActivityPDFLinkPresentationItemSource
+- __OBJC_CLASS_RO_$_BKActivityURLItemSource
+- __OBJC_CLASS_RO_$_BKAnchorLocation
+- __OBJC_CLASS_RO_$_BKAnchorPathLocation
+- __OBJC_CLASS_RO_$_BKAppearanceFontViewController
+- __OBJC_CLASS_RO_$_BKAppearanceTableViewCell
+- __OBJC_CLASS_RO_$_BKAppearanceViewController
+- __OBJC_CLASS_RO_$_BKAudioController
+- __OBJC_CLASS_RO_$_BKAudioLocation
+- __OBJC_CLASS_RO_$_BKAudioTrackNumberLocation
+- __OBJC_CLASS_RO_$_BKAudioTurnModeViewController
+- __OBJC_CLASS_RO_$_BKBookContainerView
+- __OBJC_CLASS_RO_$_BKBookParser
+- __OBJC_CLASS_RO_$_BKBookViewController
+- __OBJC_CLASS_RO_$_BKBookmarkPageCount
+- __OBJC_CLASS_RO_$_BKBookmarkThumbnailDirectory
+- __OBJC_CLASS_RO_$_BKBoolBlockProxy
+- __OBJC_CLASS_RO_$_BKBrightnessController
+- __OBJC_CLASS_RO_$_BKCatalystAppearanceViewController
+- __OBJC_CLASS_RO_$_BKChapterPageCount
+- __OBJC_CLASS_RO_$_BKContentLoadingView
+- __OBJC_CLASS_RO_$_BKContentReloadView
+- __OBJC_CLASS_RO_$_BKContentViewController
+- __OBJC_CLASS_RO_$_BKContinuousWebScrollView
+- __OBJC_CLASS_RO_$_BKCoverContentViewController2
+- __OBJC_CLASS_RO_$_BKDirectoryContent
+- __OBJC_CLASS_RO_$_BKDocument
+- __OBJC_CLASS_RO_$_BKDocumentPageCount
+- __OBJC_CLASS_RO_$_BKDummyThemeCoordinatorObserver
+- __OBJC_CLASS_RO_$_BKEPubContentViewController
+- __OBJC_CLASS_RO_$_BKEPubContentViewControllerView
+- __OBJC_CLASS_RO_$_BKEpubBookParser
+- __OBJC_CLASS_RO_$_BKEpubCFILocation
+- __OBJC_CLASS_RO_$_BKEpubLocation
+- __OBJC_CLASS_RO_$_BKEpubManualCurlDriver
+- __OBJC_CLASS_RO_$_BKEpubManualCurlGestureImplementation
+- __OBJC_CLASS_RO_$_BKEpubTOCParseJob
+- __OBJC_CLASS_RO_$_BKEpubTOCParseRecordJob
+- __OBJC_CLASS_RO_$_BKEpubTOCParseResultsOperation
+- __OBJC_CLASS_RO_$_BKExpandedContentResource
+- __OBJC_CLASS_RO_$_BKExpandedContentViewController
+- __OBJC_CLASS_RO_$_BKExpandedContentViewControllerAccessibility
+- __OBJC_CLASS_RO_$_BKExpandedImageContentViewController
+- __OBJC_CLASS_RO_$_BKExpandedWebContentViewController2
+- __OBJC_CLASS_RO_$_BKExpandedWebContentViewControllerAccessibility
+- __OBJC_CLASS_RO_$_BKFinishedButton
+- __OBJC_CLASS_RO_$_BKFinishedContentViewController
+- __OBJC_CLASS_RO_$_BKFlowingBookFontSizeConfiguration
+- __OBJC_CLASS_RO_$_BKFlowingBookLayoutConfiguration
+- __OBJC_CLASS_RO_$_BKFlowingBookPendingContent
+- __OBJC_CLASS_RO_$_BKFlowingBookPlistConfigurationEnvironment
+- __OBJC_CLASS_RO_$_BKFlowingBookViewController
+- __OBJC_CLASS_RO_$_BKFont
+- __OBJC_CLASS_RO_$_BKFontCache
+- __OBJC_CLASS_RO_$_BKFontFallbackProvider
+- __OBJC_CLASS_RO_$_BKFontTableViewCell
+- __OBJC_CLASS_RO_$_BKFootnoteViewController2
+- __OBJC_CLASS_RO_$_BKGradientView
+- __OBJC_CLASS_RO_$_BKHTMLContentViewController
+- __OBJC_CLASS_RO_$_BKHTMLContentViewControllerDummyAnnotation
+- __OBJC_CLASS_RO_$_BKHistoryEntity
+- __OBJC_CLASS_RO_$_BKImageResizerHelper
+- __OBJC_CLASS_RO_$_BKIndirectPanGestureRecognizer
+- __OBJC_CLASS_RO_$_BKInfoHUD
+- __OBJC_CLASS_RO_$_BKJob
+- __OBJC_CLASS_RO_$_BKLandmarkInfo
+- __OBJC_CLASS_RO_$_BKLandmarkPageCount
+- __OBJC_CLASS_RO_$_BKLastRecordedLocation
+- __OBJC_CLASS_RO_$_BKLocation
+- __OBJC_CLASS_RO_$_BKLongPressGestureRecognizer
+- __OBJC_CLASS_RO_$_BKLoupeView
+- __OBJC_CLASS_RO_$_BKMediaOverlayElement
+- __OBJC_CLASS_RO_$_BKNavigationHistory
+- __OBJC_CLASS_RO_$_BKNavigationInfo
+- __OBJC_CLASS_RO_$_BKNumericOption
+- __OBJC_CLASS_RO_$_BKPDFActionController
+- __OBJC_CLASS_RO_$_BKPDFAnnotationCounter
+- __OBJC_CLASS_RO_$_BKPDFAnnotationCounterResult
+- __OBJC_CLASS_RO_$_BKPDFLocation
+- __OBJC_CLASS_RO_$_BKPDFModernBookViewController
+- __OBJC_CLASS_RO_$_BKPDFModernBookViewControllerAccessibility
+- __OBJC_CLASS_RO_$_BKPDFPageThumbnailDirectory
+- __OBJC_CLASS_RO_$_BKPDFSearchResult
+- __OBJC_CLASS_RO_$_BKPDFSnapshotMetadata
+- __OBJC_CLASS_RO_$_BKPDFTOCTableViewCell
+- __OBJC_CLASS_RO_$_BKPDFTOCViewController
+- __OBJC_CLASS_RO_$_BKPageAnimation
+- __OBJC_CLASS_RO_$_BKPageBookCurlView
+- __OBJC_CLASS_RO_$_BKPageCurl
+- __OBJC_CLASS_RO_$_BKPageCurlConfiguration
+- __OBJC_CLASS_RO_$_BKPageCurlManager
+- __OBJC_CLASS_RO_$_BKPageLocation
+- __OBJC_CLASS_RO_$_BKPageNavigationViewController
+- __OBJC_CLASS_RO_$_BKPageScrollerPageView
+- __OBJC_CLASS_RO_$_BKPageScrollerViewController
+- __OBJC_CLASS_RO_$_BKPageSlide
+- __OBJC_CLASS_RO_$_BKPageSpan
+- __OBJC_CLASS_RO_$_BKPageThumbnailDirectory
+- __OBJC_CLASS_RO_$_BKPageThumbnailView
+- __OBJC_CLASS_RO_$_BKPageTurningViewController
+- __OBJC_CLASS_RO_$_BKPageView
+- __OBJC_CLASS_RO_$_BKPaginationAbortJob
+- __OBJC_CLASS_RO_$_BKPaginationBatchEndJob
+- __OBJC_CLASS_RO_$_BKPaginationBatchJob
+- __OBJC_CLASS_RO_$_BKPaginationController
+- __OBJC_CLASS_RO_$_BKPaginationFactory
+- __OBJC_CLASS_RO_$_BKPaginationJob
+- __OBJC_CLASS_RO_$_BKPaginationLayoutJob
+- __OBJC_CLASS_RO_$_BKPaginationLayoutOperation
+- __OBJC_CLASS_RO_$_BKPaginationLayoutSentinelOperation
+- __OBJC_CLASS_RO_$_BKPaginationOperation
+- __OBJC_CLASS_RO_$_BKPaginationPrepareOperation
+- __OBJC_CLASS_RO_$_BKPaginationRecordJob
+- __OBJC_CLASS_RO_$_BKPaginationResultsOperation
+- __OBJC_CLASS_RO_$_BKPagingScrollView
+- __OBJC_CLASS_RO_$_BKPanGestureRecognizer
+- __OBJC_CLASS_RO_$_BKPdfBookParser
+- __OBJC_CLASS_RO_$_BKPdfSearchOperation
+- __OBJC_CLASS_RO_$_BKPdfTocEntry
+- __OBJC_CLASS_RO_$_BKPdfTocParser
+- __OBJC_CLASS_RO_$_BKPhysicalPage
+- __OBJC_CLASS_RO_$_BKPhysicalPageCount
+- __OBJC_CLASS_RO_$_BKPictureBookContentViewController
+- __OBJC_CLASS_RO_$_BKPictureBookCurlContainerView
+- __OBJC_CLASS_RO_$_BKPictureBookCurlPageView
+- __OBJC_CLASS_RO_$_BKPictureBookCurlState
+- __OBJC_CLASS_RO_$_BKPictureBookNavigationController
+- __OBJC_CLASS_RO_$_BKPictureBookPageContainerView
+- __OBJC_CLASS_RO_$_BKPictureBookPaginationLayoutOperation
+- __OBJC_CLASS_RO_$_BKPictureBookPaginationOperation
+- __OBJC_CLASS_RO_$_BKPictureBookReadingStatisticsCollector
+- __OBJC_CLASS_RO_$_BKPictureBookReadingStatisticsCollectorWK2
+- __OBJC_CLASS_RO_$_BKPictureBookScrollView
+- __OBJC_CLASS_RO_$_BKPictureBookVerticalNavigationController
+- __OBJC_CLASS_RO_$_BKPictureBookView
+- __OBJC_CLASS_RO_$_BKPictureBookViewController
+- __OBJC_CLASS_RO_$_BKPictureBookViewGeometry
+- __OBJC_CLASS_RO_$_BKPreferredLayoutCache
+- __OBJC_CLASS_RO_$_BKProtectionInfo
+- __OBJC_CLASS_RO_$_BKReadAloudEventHandler
+- __OBJC_CLASS_RO_$_BKSampleUpsellContentViewController
+- __OBJC_CLASS_RO_$_BKScrollingPageViewController
+- __OBJC_CLASS_RO_$_BKScrubberControlAccessibility
+- __OBJC_CLASS_RO_$_BKSearchController
+- __OBJC_CLASS_RO_$_BKSearchLoadingTableViewCell
+- __OBJC_CLASS_RO_$_BKSearchOperation
+- __OBJC_CLASS_RO_$_BKSearchResult
+- __OBJC_CLASS_RO_$_BKSearchViewController
+- __OBJC_CLASS_RO_$_BKSegmentedControl
+- __OBJC_CLASS_RO_$_BKSemanticLayoutOverlayViewController
+- __OBJC_CLASS_RO_$_BKSpreadThumbnailDirectoryCell
+- __OBJC_CLASS_RO_$_BKSpreadThumbnailScrubberCell
+- __OBJC_CLASS_RO_$_BKSpreadThumbnailView
+- __OBJC_CLASS_RO_$_BKStyleManager
+- __OBJC_CLASS_RO_$_BKSwitcherContent
+- __OBJC_CLASS_RO_$_BKSwitcherContentConfiguration
+- __OBJC_CLASS_RO_$_BKTOCAnnotationTableCell
+- __OBJC_CLASS_RO_$_BKTOCAnnotationTableCellAccessibility
+- __OBJC_CLASS_RO_$_BKTOCBookmarksDescription
+- __OBJC_CLASS_RO_$_BKTOCContentViewController
+- __OBJC_CLASS_RO_$_BKTOCImageCache2
+- __OBJC_CLASS_RO_$_BKTOCPointAnnotationTableCell
+- __OBJC_CLASS_RO_$_BKTOCRangeAnnotationTableCell
+- __OBJC_CLASS_RO_$_BKTOCRangeAnnotationTableCellAccessibility
+- __OBJC_CLASS_RO_$_BKTOCTableViewCell
+- __OBJC_CLASS_RO_$_BKTOCTableViewCellAccessibility
+- __OBJC_CLASS_RO_$_BKTOCViewController
+- __OBJC_CLASS_RO_$_BKTOCWebViewCellContent
+- __OBJC_CLASS_RO_$_BKTOCWebViewCellLoadQueue
+- __OBJC_CLASS_RO_$_BKTOCWebViewCellLoadRequest
+- __OBJC_CLASS_RO_$_BKTOCWebViewController2
+- __OBJC_CLASS_RO_$_BKTOCWebViewTableViewCell
+- __OBJC_CLASS_RO_$_BKTappyScrollView
+- __OBJC_CLASS_RO_$_BKTextHighlightView
+- __OBJC_CLASS_RO_$_BKTextIndex
+- __OBJC_CLASS_RO_$_BKTextIndexQueryResult
+- __OBJC_CLASS_RO_$_BKThumbnailBookViewConfiguration
+- __OBJC_CLASS_RO_$_BKThumbnailBookViewController
+- __OBJC_CLASS_RO_$_BKThumbnailBookViewControllerAccessibility
+- __OBJC_CLASS_RO_$_BKThumbnailDirectory
+- __OBJC_CLASS_RO_$_BKThumbnailDirectoryCell
+- __OBJC_CLASS_RO_$_BKThumbnailScrubber
+- __OBJC_CLASS_RO_$_BKThumbnailScrubberCell
+- __OBJC_CLASS_RO_$_BKThumbnailScrubberTrack
+- __OBJC_CLASS_RO_$_BKToolbarButton
+- __OBJC_CLASS_RO_$_BKVerticalLabel
+- __OBJC_CLASS_RO_$_BKViewController
+- __OBJC_CLASS_RO_$_BKWK2EpubPaginationLayoutOperation
+- __OBJC_CLASS_RO_$_BKWK2EpubSearchOperation
+- __OBJC_CLASS_RO_$_BKWK2EpubTOCParseOperation
+- __OBJC_CLASS_RO_$_BKWK2LoaderContentInfoRequest
+- __OBJC_CLASS_RO_$_BKWK2WebViewLoader
+- __OBJC_CLASS_RO_$_BKWebViewProxy
+- __OBJC_CLASS_RO_$_BKZoomingScrollView
+- __OBJC_CLASS_RO_$_ContentStyle
+- __OBJC_CLASS_RO_$_ContentViewStyleManager
+- __OBJC_CLASS_RO_$_ContentViewStyleManagerBookInfo
+- __OBJC_CLASS_RO_$_EpubPaginationFactory
+- __OBJC_CLASS_RO_$_NSURLRequestHACK
+- __OBJC_CLASS_RO_$_NonArcHelpers
+- __OBJC_CLASS_RO_$__BKExpandedContentViewControllerAnimator
+- __OBJC_CLASS_RO_$__BKExpandedImageContentCenteringScrollView
+- __OBJC_CLASS_RO_$__BKScrollingPageContinuousWebScrollView
+- __OBJC_CLASS_RO_$__CachedFallbackInfo
+- __OBJC_CLASS_RO_$___AEAudiobookPlaybackRateViewControllerAccessibility_super
+- __OBJC_CLASS_RO_$___AEBottomToolbarAccessibility_super
+- __OBJC_CLASS_RO_$___AENoteFullscreenEditorControllerAccessibility_super
+- __OBJC_CLASS_RO_$___AXUIViewAccessibility_super
+- __OBJC_CLASS_RO_$___BEAppearanceViewControllerAccessibility_super
+- __OBJC_CLASS_RO_$___BKActionControllerAccessibility_super
+- __OBJC_CLASS_RO_$___BKExpandedContentViewControllerAccessibility_super
+- __OBJC_CLASS_RO_$___BKExpandedWebContentViewControllerAccessibility_super
+- __OBJC_CLASS_RO_$___BKPDFModernBookViewControllerAccessibility_super
+- __OBJC_CLASS_RO_$___BKScrubberControlAccessibility_super
+- __OBJC_CLASS_RO_$___BKTOCAnnotationTableCellAccessibility_super
+- __OBJC_CLASS_RO_$___BKTOCRangeAnnotationTableCellAccessibility_super
+- __OBJC_CLASS_RO_$___BKTOCTableViewCellAccessibility_super
+- __OBJC_CLASS_RO_$___BKThumbnailBookViewControllerAccessibility_super
+- __OBJC_LABEL_PROTOCOL_$_AEAnnotation
+- __OBJC_LABEL_PROTOCOL_$_AEAnnotationDragPropertyProvider
+- __OBJC_LABEL_PROTOCOL_$_AEAnnotationEditorDelegate
+- __OBJC_LABEL_PROTOCOL_$_AEAnnotationHighlightData
+- __OBJC_LABEL_PROTOCOL_$_AEAnnotationPaginationDataSource
+- __OBJC_LABEL_PROTOCOL_$_AEAsset
+- __OBJC_LABEL_PROTOCOL_$_AEAssetMinifiedController
+- __OBJC_LABEL_PROTOCOL_$_AEAssetSharingConnectionClient
+- __OBJC_LABEL_PROTOCOL_$_AEAssetSharingConnectionServer
+- __OBJC_LABEL_PROTOCOL_$_AEAssetSnapshottingViewController
+- __OBJC_LABEL_PROTOCOL_$_AEAssetViewController
+- __OBJC_LABEL_PROTOCOL_$_AEBookInfoSnapshot
+- __OBJC_LABEL_PROTOCOL_$_AEHighlightColorEditorControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_AEInstanceDelegate
+- __OBJC_LABEL_PROTOCOL_$_AEPaginatedBookRenderingCacheOperationProtocol
+- __OBJC_LABEL_PROTOCOL_$_AEPaginatedBookSnapshotWebViewBuilder
+- __OBJC_LABEL_PROTOCOL_$_AEPictureBookRenderingCacheOperationProtocol
+- __OBJC_LABEL_PROTOCOL_$_AEPictureBookRenderingPiggyBack
+- __OBJC_LABEL_PROTOCOL_$_AEPlugin
+- __OBJC_LABEL_PROTOCOL_$_AEProofingHelper
+- __OBJC_LABEL_PROTOCOL_$_BASessionHostProviding
+- __OBJC_LABEL_PROTOCOL_$_BASessionHosting
+- __OBJC_LABEL_PROTOCOL_$_BCAppIntentsAssetViewController
+- __OBJC_LABEL_PROTOCOL_$_BCAppIntentsSearchQueryProvider
+- __OBJC_LABEL_PROTOCOL_$_BCAudioMuxingObserver
+- __OBJC_LABEL_PROTOCOL_$_BCAugmentedExperienceHosting
+- __OBJC_LABEL_PROTOCOL_$_BCBookPositionEmitting
+- __OBJC_LABEL_PROTOCOL_$_BCBookToolbarActionHandler
+- __OBJC_LABEL_PROTOCOL_$_BCBookToolbarColorProvider
+- __OBJC_LABEL_PROTOCOL_$_BCBookToolbarDataProvider
+- __OBJC_LABEL_PROTOCOL_$_BCBookmarkProvider
+- __OBJC_LABEL_PROTOCOL_$_BCBuyGetTwoStateButtonDelegate
+- __OBJC_LABEL_PROTOCOL_$_BCFinishedHandling
+- __OBJC_LABEL_PROTOCOL_$_BCNavigationBarDelegate
+- __OBJC_LABEL_PROTOCOL_$_BCOrientationControlling
+- __OBJC_LABEL_PROTOCOL_$_BCProgressContextTreeBuilding
+- __OBJC_LABEL_PROTOCOL_$_BCThemeCoordinatorObserver
+- __OBJC_LABEL_PROTOCOL_$_BCToolbarDelegate
+- __OBJC_LABEL_PROTOCOL_$_BCTouchBarConfiguring
+- __OBJC_LABEL_PROTOCOL_$_BCTouchBarDelegate
+- __OBJC_LABEL_PROTOCOL_$_BCTouchBarScrollerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BCUIHoverInteractionDelegate
+- __OBJC_LABEL_PROTOCOL_$_BEAnchorLocationProtocol
+- __OBJC_LABEL_PROTOCOL_$_BEAppearanceViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BECFILocationProtocol
+- __OBJC_LABEL_PROTOCOL_$_BEDragDismissGestureDelegate
+- __OBJC_LABEL_PROTOCOL_$_BEExpandedContentDelegate
+- __OBJC_LABEL_PROTOCOL_$_BEFont
+- __OBJC_LABEL_PROTOCOL_$_BEFontFallbackProviding
+- __OBJC_LABEL_PROTOCOL_$_BEFootnoteDelegate
+- __OBJC_LABEL_PROTOCOL_$_BEFootnoteViewController
+- __OBJC_LABEL_PROTOCOL_$_BELocationProtocol
+- __OBJC_LABEL_PROTOCOL_$_BENavigationHandlerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BEPDFSearchResult
+- __OBJC_LABEL_PROTOCOL_$_BEPageLocationProtocol
+- __OBJC_LABEL_PROTOCOL_$_BEProtocolCacheItemProvider
+- __OBJC_LABEL_PROTOCOL_$_BESearchControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BESearchControlling
+- __OBJC_LABEL_PROTOCOL_$_BESearchResult
+- __OBJC_LABEL_PROTOCOL_$_BEStyleManaging
+- __OBJC_LABEL_PROTOCOL_$_BEUIHandlerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BEUIWKTextInteractionAssistantDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKAccessibilityScrubberControlDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKActionControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKAnnotationDataProvider
+- __OBJC_LABEL_PROTOCOL_$_BKAppearanceFontViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKAppearanceViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKAudioControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKAudiobook
+- __OBJC_LABEL_PROTOCOL_$_BKAudiobookBookmarkPersisting
+- __OBJC_LABEL_PROTOCOL_$_BKAudiobookObserver
+- __OBJC_LABEL_PROTOCOL_$_BKAudiobookSkipControllerObserver
+- __OBJC_LABEL_PROTOCOL_$_BKBookContainerViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKBookOpenTransitioning
+- __OBJC_LABEL_PROTOCOL_$_BKBookmark
+- __OBJC_LABEL_PROTOCOL_$_BKContentReloadViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKContentViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKContentViewControllerLayoutDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKContinuousWebScrollViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKDirectoryContentDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKEpubManualCurlGesture
+- __OBJC_LABEL_PROTOCOL_$_BKExpandedContentViewController
+- __OBJC_LABEL_PROTOCOL_$_BKExpandedContentViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKFootnoteViewController2Delegate
+- __OBJC_LABEL_PROTOCOL_$_BKImageResizerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKInfoHUDDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKLongPressGestureRecognizerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKMutableSearchResult
+- __OBJC_LABEL_PROTOCOL_$_BKPageAnimationDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKPageCurlDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKPageCurlManagerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKPageNavigationDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKPageScrollerThumbnailingDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKPageTurningViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKPageViewController
+- __OBJC_LABEL_PROTOCOL_$_BKPaginationControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKPaginationOperationController
+- __OBJC_LABEL_PROTOCOL_$_BKPagingScrollViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKPictureBookNavigationDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKPictureBookVerticalNavigationDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKReadAloudEventHandlerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKSearchOperationDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKSearchViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKSemanticLayoutDebuggable
+- __OBJC_LABEL_PROTOCOL_$_BKTOCViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKTOCViewControllerProtocol
+- __OBJC_LABEL_PROTOCOL_$_BKTOCWebViewCellLoadDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKThumbnailBookViewConfiguring
+- __OBJC_LABEL_PROTOCOL_$_BKThumbnailDirectoryDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKThumbnailScrubberDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKUpsell
+- __OBJC_LABEL_PROTOCOL_$_BKUpsellBuyDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKWK2WebViewLoaderDelegate
+- __OBJC_LABEL_PROTOCOL_$_BKZoomingScrollViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_BUAssertion
+- __OBJC_LABEL_PROTOCOL_$_CAAnimationDelegate
+- __OBJC_LABEL_PROTOCOL_$_ContentStyleOverrideProvider
+- __OBJC_LABEL_PROTOCOL_$_IMAVPlayerDelegate
+- __OBJC_LABEL_PROTOCOL_$_IMBaseRenderingCache
+- __OBJC_LABEL_PROTOCOL_$_IMConfigurationHosting
+- __OBJC_LABEL_PROTOCOL_$_IMEnvironmentOverrideProvider
+- __OBJC_LABEL_PROTOCOL_$_IMGridViewDataSource
+- __OBJC_LABEL_PROTOCOL_$_IMGridViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_IMLayoutDirectionEnvironment
+- __OBJC_LABEL_PROTOCOL_$_IMRenderingCacheCallback
+- __OBJC_LABEL_PROTOCOL_$_IMThumbnailRenderingCache
+- __OBJC_LABEL_PROTOCOL_$_NSCoding
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_LABEL_PROTOCOL_$_NSFastEnumeration
+- __OBJC_LABEL_PROTOCOL_$_NSFetchedResultsControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+- __OBJC_LABEL_PROTOCOL_$_PDFAKControllerDelegateProtocol
+- __OBJC_LABEL_PROTOCOL_$_PDFViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_PDFViewDelegatePrivate
+- __OBJC_LABEL_PROTOCOL_$_QLPreviewControllerDataSource
+- __OBJC_LABEL_PROTOCOL_$_QLPreviewItem
+- __OBJC_LABEL_PROTOCOL_$_TPKContentControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIActivityItemLinkPresentationSource
+- __OBJC_LABEL_PROTOCOL_$_UIActivityItemSource
+- __OBJC_LABEL_PROTOCOL_$_UIAdaptivePresentationControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIBarPositioningDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+- __OBJC_LABEL_PROTOCOL_$_UINavigationBarDelegate
+- __OBJC_LABEL_PROTOCOL_$_UINavigationControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIPageViewControllerDataSource
+- __OBJC_LABEL_PROTOCOL_$_UIPageViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIPointerInteractionDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIPopoverPresentationControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_UISearchBarDelegate
+- __OBJC_LABEL_PROTOCOL_$_UITableViewDataSource
+- __OBJC_LABEL_PROTOCOL_$_UITableViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_UITableViewDragDelegate
+- __OBJC_LABEL_PROTOCOL_$_UITextFieldDelegate
+- __OBJC_LABEL_PROTOCOL_$_UITextInteractionDelegate
+- __OBJC_LABEL_PROTOCOL_$_UITextInteractionDelegatePrivate
+- __OBJC_LABEL_PROTOCOL_$_UIToolbarDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIViewControllerAnimatedTransitioning
+- __OBJC_LABEL_PROTOCOL_$_UIViewControllerTransitioningDelegate
+- __OBJC_LABEL_PROTOCOL_$_VKCImageAnalysisInteractionDelegate
+- __OBJC_LABEL_PROTOCOL_$_WKNavigationDelegate
+- __OBJC_LABEL_PROTOCOL_$_WKScriptMessageHandler
+- __OBJC_LABEL_PROTOCOL_$__UIScrollViewScrollObserver
+- __OBJC_LABEL_PROTOCOL_$__WKFindDelegate
+- __OBJC_METACLASS_RO_$_AEAccountIdentifiers
+- __OBJC_METACLASS_RO_$_AEAssetMetadataCache
+- __OBJC_METACLASS_RO_$_AEAudiobookBookmarkTimeSnapshot
+- __OBJC_METACLASS_RO_$_AEAudiobookPersistenceFile
+- __OBJC_METACLASS_RO_$_AEAudiobookPlatformConfiguration
+- __OBJC_METACLASS_RO_$_AEAudiobookPlaybackRateViewControllerAccessibility
+- __OBJC_METACLASS_RO_$_AEAudiobookPlugin
+- __OBJC_METACLASS_RO_$_AEAudiobookReadingTimeTracker
+- __OBJC_METACLASS_RO_$_AEBookInfo
+- __OBJC_METACLASS_RO_$_AEBookInfoAssetPlugin
+- __OBJC_METACLASS_RO_$_AEBookInfoSnapshot
+- __OBJC_METACLASS_RO_$_AEBookManagedObjectContext
+- __OBJC_METACLASS_RO_$_AEBookPluginAccessibility
+- __OBJC_METACLASS_RO_$_AEBookProtocolCacheItemProvider
+- __OBJC_METACLASS_RO_$_AEBookRenderingCallbackTarget
+- __OBJC_METACLASS_RO_$_AEBottomToolbarAccessibility
+- __OBJC_METACLASS_RO_$_AEEPubBookHelper
+- __OBJC_METACLASS_RO_$_AEEPubMinifiedController
+- __OBJC_METACLASS_RO_$_AEEPubPictureBookHelper
+- __OBJC_METACLASS_RO_$_AEEPubPictureBookPlugin
+- __OBJC_METACLASS_RO_$_AEEPubPicturebookMinifiedController
+- __OBJC_METACLASS_RO_$_AEEPubProofingHelper
+- __OBJC_METACLASS_RO_$_AEEpubInfoSource
+- __OBJC_METACLASS_RO_$_AEEpubPlugin
+- __OBJC_METACLASS_RO_$_AEHTMLBookRenderingCache
+- __OBJC_METACLASS_RO_$_AEMinimalTemplate
+- __OBJC_METACLASS_RO_$_AEMinimalTemplateSet
+- __OBJC_METACLASS_RO_$_AEMinimalTemplateStep
+- __OBJC_METACLASS_RO_$_AEMinimalTemplateStepEmbed
+- __OBJC_METACLASS_RO_$_AEMinimalTemplateStepField
+- __OBJC_METACLASS_RO_$_AEMinimalTemplateStepIf
+- __OBJC_METACLASS_RO_$_AEMinimalTemplateStepRange
+- __OBJC_METACLASS_RO_$_AEMinimalTemplateStepText
+- __OBJC_METACLASS_RO_$_AENoteFullscreenEditorControllerAccessibility
+- __OBJC_METACLASS_RO_$_AEPDFBookHelper
+- __OBJC_METACLASS_RO_$_AEPDFMinifiedController
+- __OBJC_METACLASS_RO_$_AEPDFPlugin
+- __OBJC_METACLASS_RO_$_AEPdfCache
+- __OBJC_METACLASS_RO_$_AEPdfCacheObject
+- __OBJC_METACLASS_RO_$_AEPdfPageRenderingCacheOperation
+- __OBJC_METACLASS_RO_$_AEPdfRenderingCache
+- __OBJC_METACLASS_RO_$_AEPictureBookRenderingCache
+- __OBJC_METACLASS_RO_$_AEPictureBookRenderingCacheOperation2
+- __OBJC_METACLASS_RO_$_AETestDriver
+- __OBJC_METACLASS_RO_$_AXUIViewAccessibility
+- __OBJC_METACLASS_RO_$_BCDDParsecCollectionViewController
+- __OBJC_METACLASS_RO_$_BEAppearanceViewController
+- __OBJC_METACLASS_RO_$_BEAppearanceViewControllerAccessibility
+- __OBJC_METACLASS_RO_$_BEPageSnapshotCache
+- __OBJC_METACLASS_RO_$_BEPageSnapshotCacheOperation
+- __OBJC_METACLASS_RO_$_BKARQuicklookViewController
+- __OBJC_METACLASS_RO_$_BKActionController
+- __OBJC_METACLASS_RO_$_BKActionControllerAccessibility
+- __OBJC_METACLASS_RO_$_BKActivityCopyToIBooks
+- __OBJC_METACLASS_RO_$_BKActivityIndicatorOverlayView
+- __OBJC_METACLASS_RO_$_BKActivityPDFLinkPresentationItemSource
+- __OBJC_METACLASS_RO_$_BKActivityURLItemSource
+- __OBJC_METACLASS_RO_$_BKAnchorLocation
+- __OBJC_METACLASS_RO_$_BKAnchorPathLocation
+- __OBJC_METACLASS_RO_$_BKAppearanceFontViewController
+- __OBJC_METACLASS_RO_$_BKAppearanceTableViewCell
+- __OBJC_METACLASS_RO_$_BKAppearanceViewController
+- __OBJC_METACLASS_RO_$_BKAudioController
+- __OBJC_METACLASS_RO_$_BKAudioLocation
+- __OBJC_METACLASS_RO_$_BKAudioTrackNumberLocation
+- __OBJC_METACLASS_RO_$_BKAudioTurnModeViewController
+- __OBJC_METACLASS_RO_$_BKBookContainerView
+- __OBJC_METACLASS_RO_$_BKBookParser
+- __OBJC_METACLASS_RO_$_BKBookViewController
+- __OBJC_METACLASS_RO_$_BKBookmarkPageCount
+- __OBJC_METACLASS_RO_$_BKBookmarkThumbnailDirectory
+- __OBJC_METACLASS_RO_$_BKBoolBlockProxy
+- __OBJC_METACLASS_RO_$_BKBrightnessController
+- __OBJC_METACLASS_RO_$_BKCatalystAppearanceViewController
+- __OBJC_METACLASS_RO_$_BKChapterPageCount
+- __OBJC_METACLASS_RO_$_BKContentLoadingView
+- __OBJC_METACLASS_RO_$_BKContentReloadView
+- __OBJC_METACLASS_RO_$_BKContentViewController
+- __OBJC_METACLASS_RO_$_BKContinuousWebScrollView
+- __OBJC_METACLASS_RO_$_BKCoverContentViewController2
+- __OBJC_METACLASS_RO_$_BKDirectoryContent
+- __OBJC_METACLASS_RO_$_BKDocument
+- __OBJC_METACLASS_RO_$_BKDocumentPageCount
+- __OBJC_METACLASS_RO_$_BKDummyThemeCoordinatorObserver
+- __OBJC_METACLASS_RO_$_BKEPubContentViewController
+- __OBJC_METACLASS_RO_$_BKEPubContentViewControllerView
+- __OBJC_METACLASS_RO_$_BKEpubBookParser
+- __OBJC_METACLASS_RO_$_BKEpubCFILocation
+- __OBJC_METACLASS_RO_$_BKEpubLocation
+- __OBJC_METACLASS_RO_$_BKEpubManualCurlDriver
+- __OBJC_METACLASS_RO_$_BKEpubManualCurlGestureImplementation
+- __OBJC_METACLASS_RO_$_BKEpubTOCParseJob
+- __OBJC_METACLASS_RO_$_BKEpubTOCParseRecordJob
+- __OBJC_METACLASS_RO_$_BKEpubTOCParseResultsOperation
+- __OBJC_METACLASS_RO_$_BKExpandedContentResource
+- __OBJC_METACLASS_RO_$_BKExpandedContentViewController
+- __OBJC_METACLASS_RO_$_BKExpandedContentViewControllerAccessibility
+- __OBJC_METACLASS_RO_$_BKExpandedImageContentViewController
+- __OBJC_METACLASS_RO_$_BKExpandedWebContentViewController2
+- __OBJC_METACLASS_RO_$_BKExpandedWebContentViewControllerAccessibility
+- __OBJC_METACLASS_RO_$_BKFinishedButton
+- __OBJC_METACLASS_RO_$_BKFinishedContentViewController
+- __OBJC_METACLASS_RO_$_BKFlowingBookFontSizeConfiguration
+- __OBJC_METACLASS_RO_$_BKFlowingBookLayoutConfiguration
+- __OBJC_METACLASS_RO_$_BKFlowingBookPendingContent
+- __OBJC_METACLASS_RO_$_BKFlowingBookPlistConfigurationEnvironment
+- __OBJC_METACLASS_RO_$_BKFlowingBookViewController
+- __OBJC_METACLASS_RO_$_BKFont
+- __OBJC_METACLASS_RO_$_BKFontCache
+- __OBJC_METACLASS_RO_$_BKFontFallbackProvider
+- __OBJC_METACLASS_RO_$_BKFontTableViewCell
+- __OBJC_METACLASS_RO_$_BKFootnoteViewController2
+- __OBJC_METACLASS_RO_$_BKGradientView
+- __OBJC_METACLASS_RO_$_BKHTMLContentViewController
+- __OBJC_METACLASS_RO_$_BKHTMLContentViewControllerDummyAnnotation
+- __OBJC_METACLASS_RO_$_BKHistoryEntity
+- __OBJC_METACLASS_RO_$_BKImageResizerHelper
+- __OBJC_METACLASS_RO_$_BKIndirectPanGestureRecognizer
+- __OBJC_METACLASS_RO_$_BKInfoHUD
+- __OBJC_METACLASS_RO_$_BKJob
+- __OBJC_METACLASS_RO_$_BKLandmarkInfo
+- __OBJC_METACLASS_RO_$_BKLandmarkPageCount
+- __OBJC_METACLASS_RO_$_BKLastRecordedLocation
+- __OBJC_METACLASS_RO_$_BKLocation
+- __OBJC_METACLASS_RO_$_BKLongPressGestureRecognizer
+- __OBJC_METACLASS_RO_$_BKLoupeView
+- __OBJC_METACLASS_RO_$_BKMediaOverlayElement
+- __OBJC_METACLASS_RO_$_BKNavigationHistory
+- __OBJC_METACLASS_RO_$_BKNavigationInfo
+- __OBJC_METACLASS_RO_$_BKNumericOption
+- __OBJC_METACLASS_RO_$_BKPDFActionController
+- __OBJC_METACLASS_RO_$_BKPDFAnnotationCounter
+- __OBJC_METACLASS_RO_$_BKPDFAnnotationCounterResult
+- __OBJC_METACLASS_RO_$_BKPDFLocation
+- __OBJC_METACLASS_RO_$_BKPDFModernBookViewController
+- __OBJC_METACLASS_RO_$_BKPDFModernBookViewControllerAccessibility
+- __OBJC_METACLASS_RO_$_BKPDFPageThumbnailDirectory
+- __OBJC_METACLASS_RO_$_BKPDFSearchResult
+- __OBJC_METACLASS_RO_$_BKPDFSnapshotMetadata
+- __OBJC_METACLASS_RO_$_BKPDFTOCTableViewCell
+- __OBJC_METACLASS_RO_$_BKPDFTOCViewController
+- __OBJC_METACLASS_RO_$_BKPageAnimation
+- __OBJC_METACLASS_RO_$_BKPageBookCurlView
+- __OBJC_METACLASS_RO_$_BKPageCurl
+- __OBJC_METACLASS_RO_$_BKPageCurlConfiguration
+- __OBJC_METACLASS_RO_$_BKPageCurlManager
+- __OBJC_METACLASS_RO_$_BKPageLocation
+- __OBJC_METACLASS_RO_$_BKPageNavigationViewController
+- __OBJC_METACLASS_RO_$_BKPageScrollerPageView
+- __OBJC_METACLASS_RO_$_BKPageScrollerViewController
+- __OBJC_METACLASS_RO_$_BKPageSlide
+- __OBJC_METACLASS_RO_$_BKPageSpan
+- __OBJC_METACLASS_RO_$_BKPageThumbnailDirectory
+- __OBJC_METACLASS_RO_$_BKPageThumbnailView
+- __OBJC_METACLASS_RO_$_BKPageTurningViewController
+- __OBJC_METACLASS_RO_$_BKPageView
+- __OBJC_METACLASS_RO_$_BKPaginationAbortJob
+- __OBJC_METACLASS_RO_$_BKPaginationBatchEndJob
+- __OBJC_METACLASS_RO_$_BKPaginationBatchJob
+- __OBJC_METACLASS_RO_$_BKPaginationController
+- __OBJC_METACLASS_RO_$_BKPaginationFactory
+- __OBJC_METACLASS_RO_$_BKPaginationJob
+- __OBJC_METACLASS_RO_$_BKPaginationLayoutJob
+- __OBJC_METACLASS_RO_$_BKPaginationLayoutOperation
+- __OBJC_METACLASS_RO_$_BKPaginationLayoutSentinelOperation
+- __OBJC_METACLASS_RO_$_BKPaginationOperation
+- __OBJC_METACLASS_RO_$_BKPaginationPrepareOperation
+- __OBJC_METACLASS_RO_$_BKPaginationRecordJob
+- __OBJC_METACLASS_RO_$_BKPaginationResultsOperation
+- __OBJC_METACLASS_RO_$_BKPagingScrollView
+- __OBJC_METACLASS_RO_$_BKPanGestureRecognizer
+- __OBJC_METACLASS_RO_$_BKPdfBookParser
+- __OBJC_METACLASS_RO_$_BKPdfSearchOperation
+- __OBJC_METACLASS_RO_$_BKPdfTocEntry
+- __OBJC_METACLASS_RO_$_BKPdfTocParser
+- __OBJC_METACLASS_RO_$_BKPhysicalPage
+- __OBJC_METACLASS_RO_$_BKPhysicalPageCount
+- __OBJC_METACLASS_RO_$_BKPictureBookContentViewController
+- __OBJC_METACLASS_RO_$_BKPictureBookCurlContainerView
+- __OBJC_METACLASS_RO_$_BKPictureBookCurlPageView
+- __OBJC_METACLASS_RO_$_BKPictureBookCurlState
+- __OBJC_METACLASS_RO_$_BKPictureBookNavigationController
+- __OBJC_METACLASS_RO_$_BKPictureBookPageContainerView
+- __OBJC_METACLASS_RO_$_BKPictureBookPaginationLayoutOperation
+- __OBJC_METACLASS_RO_$_BKPictureBookPaginationOperation
+- __OBJC_METACLASS_RO_$_BKPictureBookReadingStatisticsCollector
+- __OBJC_METACLASS_RO_$_BKPictureBookReadingStatisticsCollectorWK2
+- __OBJC_METACLASS_RO_$_BKPictureBookScrollView
+- __OBJC_METACLASS_RO_$_BKPictureBookVerticalNavigationController
+- __OBJC_METACLASS_RO_$_BKPictureBookView
+- __OBJC_METACLASS_RO_$_BKPictureBookViewController
+- __OBJC_METACLASS_RO_$_BKPictureBookViewGeometry
+- __OBJC_METACLASS_RO_$_BKPreferredLayoutCache
+- __OBJC_METACLASS_RO_$_BKProtectionInfo
+- __OBJC_METACLASS_RO_$_BKReadAloudEventHandler
+- __OBJC_METACLASS_RO_$_BKSampleUpsellContentViewController
+- __OBJC_METACLASS_RO_$_BKScrollingPageViewController
+- __OBJC_METACLASS_RO_$_BKScrubberControlAccessibility
+- __OBJC_METACLASS_RO_$_BKSearchController
+- __OBJC_METACLASS_RO_$_BKSearchLoadingTableViewCell
+- __OBJC_METACLASS_RO_$_BKSearchOperation
+- __OBJC_METACLASS_RO_$_BKSearchResult
+- __OBJC_METACLASS_RO_$_BKSearchViewController
+- __OBJC_METACLASS_RO_$_BKSegmentedControl
+- __OBJC_METACLASS_RO_$_BKSemanticLayoutOverlayViewController
+- __OBJC_METACLASS_RO_$_BKSpreadThumbnailDirectoryCell
+- __OBJC_METACLASS_RO_$_BKSpreadThumbnailScrubberCell
+- __OBJC_METACLASS_RO_$_BKSpreadThumbnailView
+- __OBJC_METACLASS_RO_$_BKStyleManager
+- __OBJC_METACLASS_RO_$_BKSwitcherContent
+- __OBJC_METACLASS_RO_$_BKSwitcherContentConfiguration
+- __OBJC_METACLASS_RO_$_BKTOCAnnotationTableCell
+- __OBJC_METACLASS_RO_$_BKTOCAnnotationTableCellAccessibility
+- __OBJC_METACLASS_RO_$_BKTOCBookmarksDescription
+- __OBJC_METACLASS_RO_$_BKTOCContentViewController
+- __OBJC_METACLASS_RO_$_BKTOCImageCache2
+- __OBJC_METACLASS_RO_$_BKTOCPointAnnotationTableCell
+- __OBJC_METACLASS_RO_$_BKTOCRangeAnnotationTableCell
+- __OBJC_METACLASS_RO_$_BKTOCRangeAnnotationTableCellAccessibility
+- __OBJC_METACLASS_RO_$_BKTOCTableViewCell
+- __OBJC_METACLASS_RO_$_BKTOCTableViewCellAccessibility
+- __OBJC_METACLASS_RO_$_BKTOCViewController
+- __OBJC_METACLASS_RO_$_BKTOCWebViewCellContent
+- __OBJC_METACLASS_RO_$_BKTOCWebViewCellLoadQueue
+- __OBJC_METACLASS_RO_$_BKTOCWebViewCellLoadRequest
+- __OBJC_METACLASS_RO_$_BKTOCWebViewController2
+- __OBJC_METACLASS_RO_$_BKTOCWebViewTableViewCell
+- __OBJC_METACLASS_RO_$_BKTappyScrollView
+- __OBJC_METACLASS_RO_$_BKTextHighlightView
+- __OBJC_METACLASS_RO_$_BKTextIndex
+- __OBJC_METACLASS_RO_$_BKTextIndexQueryResult
+- __OBJC_METACLASS_RO_$_BKThumbnailBookViewConfiguration
+- __OBJC_METACLASS_RO_$_BKThumbnailBookViewController
+- __OBJC_METACLASS_RO_$_BKThumbnailBookViewControllerAccessibility
+- __OBJC_METACLASS_RO_$_BKThumbnailDirectory
+- __OBJC_METACLASS_RO_$_BKThumbnailDirectoryCell
+- __OBJC_METACLASS_RO_$_BKThumbnailScrubber
+- __OBJC_METACLASS_RO_$_BKThumbnailScrubberCell
+- __OBJC_METACLASS_RO_$_BKThumbnailScrubberTrack
+- __OBJC_METACLASS_RO_$_BKToolbarButton
+- __OBJC_METACLASS_RO_$_BKVerticalLabel
+- __OBJC_METACLASS_RO_$_BKViewController
+- __OBJC_METACLASS_RO_$_BKWK2EpubPaginationLayoutOperation
+- __OBJC_METACLASS_RO_$_BKWK2EpubSearchOperation
+- __OBJC_METACLASS_RO_$_BKWK2EpubTOCParseOperation
+- __OBJC_METACLASS_RO_$_BKWK2LoaderContentInfoRequest
+- __OBJC_METACLASS_RO_$_BKWK2WebViewLoader
+- __OBJC_METACLASS_RO_$_BKWebViewProxy
+- __OBJC_METACLASS_RO_$_BKZoomingScrollView
+- __OBJC_METACLASS_RO_$_ContentStyle
+- __OBJC_METACLASS_RO_$_ContentViewStyleManager
+- __OBJC_METACLASS_RO_$_ContentViewStyleManagerBookInfo
+- __OBJC_METACLASS_RO_$_EpubPaginationFactory
+- __OBJC_METACLASS_RO_$_NSURLRequestHACK
+- __OBJC_METACLASS_RO_$_NonArcHelpers
+- __OBJC_METACLASS_RO_$__BKExpandedContentViewControllerAnimator
+- __OBJC_METACLASS_RO_$__BKExpandedImageContentCenteringScrollView
+- __OBJC_METACLASS_RO_$__BKScrollingPageContinuousWebScrollView
+- __OBJC_METACLASS_RO_$__CachedFallbackInfo
+- __OBJC_METACLASS_RO_$___AEAudiobookPlaybackRateViewControllerAccessibility_super
+- __OBJC_METACLASS_RO_$___AEBottomToolbarAccessibility_super
+- __OBJC_METACLASS_RO_$___AENoteFullscreenEditorControllerAccessibility_super
+- __OBJC_METACLASS_RO_$___AXUIViewAccessibility_super
+- __OBJC_METACLASS_RO_$___BEAppearanceViewControllerAccessibility_super
+- __OBJC_METACLASS_RO_$___BKActionControllerAccessibility_super
+- __OBJC_METACLASS_RO_$___BKExpandedContentViewControllerAccessibility_super
+- __OBJC_METACLASS_RO_$___BKExpandedWebContentViewControllerAccessibility_super
+- __OBJC_METACLASS_RO_$___BKPDFModernBookViewControllerAccessibility_super
+- __OBJC_METACLASS_RO_$___BKScrubberControlAccessibility_super
+- __OBJC_METACLASS_RO_$___BKTOCAnnotationTableCellAccessibility_super
+- __OBJC_METACLASS_RO_$___BKTOCRangeAnnotationTableCellAccessibility_super
+- __OBJC_METACLASS_RO_$___BKTOCTableViewCellAccessibility_super
+- __OBJC_METACLASS_RO_$___BKThumbnailBookViewControllerAccessibility_super
+- __OBJC_PROTOCOL_$_AEAnnotation
+- __OBJC_PROTOCOL_$_AEAnnotationDragPropertyProvider
+- __OBJC_PROTOCOL_$_AEAnnotationEditorDelegate
+- __OBJC_PROTOCOL_$_AEAnnotationHighlightData
+- __OBJC_PROTOCOL_$_AEAnnotationPaginationDataSource
+- __OBJC_PROTOCOL_$_AEAsset
+- __OBJC_PROTOCOL_$_AEAssetMinifiedController
+- __OBJC_PROTOCOL_$_AEAssetSharingConnectionClient
+- __OBJC_PROTOCOL_$_AEAssetSharingConnectionServer
+- __OBJC_PROTOCOL_$_AEAssetSnapshottingViewController
+- __OBJC_PROTOCOL_$_AEAssetViewController
+- __OBJC_PROTOCOL_$_AEBookInfoSnapshot
+- __OBJC_PROTOCOL_$_AEHighlightColorEditorControllerDelegate
+- __OBJC_PROTOCOL_$_AEInstanceDelegate
+- __OBJC_PROTOCOL_$_AEPaginatedBookRenderingCacheOperationProtocol
+- __OBJC_PROTOCOL_$_AEPaginatedBookSnapshotWebViewBuilder
+- __OBJC_PROTOCOL_$_AEPictureBookRenderingCacheOperationProtocol
+- __OBJC_PROTOCOL_$_AEPictureBookRenderingPiggyBack
+- __OBJC_PROTOCOL_$_AEPlugin
+- __OBJC_PROTOCOL_$_AEProofingHelper
+- __OBJC_PROTOCOL_$_BASessionHostProviding
+- __OBJC_PROTOCOL_$_BASessionHosting
+- __OBJC_PROTOCOL_$_BCAppIntentsAssetViewController
+- __OBJC_PROTOCOL_$_BCAppIntentsSearchQueryProvider
+- __OBJC_PROTOCOL_$_BCAudioMuxingObserver
+- __OBJC_PROTOCOL_$_BCAugmentedExperienceHosting
+- __OBJC_PROTOCOL_$_BCBookPositionEmitting
+- __OBJC_PROTOCOL_$_BCBookToolbarActionHandler
+- __OBJC_PROTOCOL_$_BCBookToolbarColorProvider
+- __OBJC_PROTOCOL_$_BCBookToolbarDataProvider
+- __OBJC_PROTOCOL_$_BCBookmarkProvider
+- __OBJC_PROTOCOL_$_BCBuyGetTwoStateButtonDelegate
+- __OBJC_PROTOCOL_$_BCFinishedHandling
+- __OBJC_PROTOCOL_$_BCNavigationBarDelegate
+- __OBJC_PROTOCOL_$_BCOrientationControlling
+- __OBJC_PROTOCOL_$_BCProgressContextTreeBuilding
+- __OBJC_PROTOCOL_$_BCThemeCoordinatorObserver
+- __OBJC_PROTOCOL_$_BCToolbarDelegate
+- __OBJC_PROTOCOL_$_BCTouchBarConfiguring
+- __OBJC_PROTOCOL_$_BCTouchBarDelegate
+- __OBJC_PROTOCOL_$_BCTouchBarScrollerDelegate
+- __OBJC_PROTOCOL_$_BCUIHoverInteractionDelegate
+- __OBJC_PROTOCOL_$_BEAnchorLocationProtocol
+- __OBJC_PROTOCOL_$_BEAppearanceViewControllerDelegate
+- __OBJC_PROTOCOL_$_BECFILocationProtocol
+- __OBJC_PROTOCOL_$_BEDragDismissGestureDelegate
+- __OBJC_PROTOCOL_$_BEExpandedContentDelegate
+- __OBJC_PROTOCOL_$_BEFont
+- __OBJC_PROTOCOL_$_BEFontFallbackProviding
+- __OBJC_PROTOCOL_$_BEFootnoteDelegate
+- __OBJC_PROTOCOL_$_BEFootnoteViewController
+- __OBJC_PROTOCOL_$_BELocationProtocol
+- __OBJC_PROTOCOL_$_BENavigationHandlerDelegate
+- __OBJC_PROTOCOL_$_BEPDFSearchResult
+- __OBJC_PROTOCOL_$_BEPageLocationProtocol
+- __OBJC_PROTOCOL_$_BEProtocolCacheItemProvider
+- __OBJC_PROTOCOL_$_BESearchControllerDelegate
+- __OBJC_PROTOCOL_$_BESearchControlling
+- __OBJC_PROTOCOL_$_BESearchResult
+- __OBJC_PROTOCOL_$_BEStyleManaging
+- __OBJC_PROTOCOL_$_BEUIHandlerDelegate
+- __OBJC_PROTOCOL_$_BEUIWKTextInteractionAssistantDelegate
+- __OBJC_PROTOCOL_$_BKAccessibilityScrubberControlDelegate
+- __OBJC_PROTOCOL_$_BKActionControllerDelegate
+- __OBJC_PROTOCOL_$_BKAnnotationDataProvider
+- __OBJC_PROTOCOL_$_BKAppearanceFontViewControllerDelegate
+- __OBJC_PROTOCOL_$_BKAppearanceViewControllerDelegate
+- __OBJC_PROTOCOL_$_BKAudioControllerDelegate
+- __OBJC_PROTOCOL_$_BKAudiobook
+- __OBJC_PROTOCOL_$_BKAudiobookBookmarkPersisting
+- __OBJC_PROTOCOL_$_BKAudiobookObserver
+- __OBJC_PROTOCOL_$_BKAudiobookSkipControllerObserver
+- __OBJC_PROTOCOL_$_BKBookContainerViewDelegate
+- __OBJC_PROTOCOL_$_BKBookOpenTransitioning
+- __OBJC_PROTOCOL_$_BKBookmark
+- __OBJC_PROTOCOL_$_BKContentReloadViewDelegate
+- __OBJC_PROTOCOL_$_BKContentViewControllerDelegate
+- __OBJC_PROTOCOL_$_BKContentViewControllerLayoutDelegate
+- __OBJC_PROTOCOL_$_BKContinuousWebScrollViewDelegate
+- __OBJC_PROTOCOL_$_BKDirectoryContentDelegate
+- __OBJC_PROTOCOL_$_BKEpubManualCurlGesture
+- __OBJC_PROTOCOL_$_BKExpandedContentViewController
+- __OBJC_PROTOCOL_$_BKExpandedContentViewControllerDelegate
+- __OBJC_PROTOCOL_$_BKFootnoteViewController2Delegate
+- __OBJC_PROTOCOL_$_BKImageResizerDelegate
+- __OBJC_PROTOCOL_$_BKInfoHUDDelegate
+- __OBJC_PROTOCOL_$_BKLongPressGestureRecognizerDelegate
+- __OBJC_PROTOCOL_$_BKMutableSearchResult
+- __OBJC_PROTOCOL_$_BKPageAnimationDelegate
+- __OBJC_PROTOCOL_$_BKPageCurlDelegate
+- __OBJC_PROTOCOL_$_BKPageCurlManagerDelegate
+- __OBJC_PROTOCOL_$_BKPageNavigationDelegate
+- __OBJC_PROTOCOL_$_BKPageScrollerThumbnailingDelegate
+- __OBJC_PROTOCOL_$_BKPageTurningViewControllerDelegate
+- __OBJC_PROTOCOL_$_BKPageViewController
+- __OBJC_PROTOCOL_$_BKPaginationControllerDelegate
+- __OBJC_PROTOCOL_$_BKPaginationOperationController
+- __OBJC_PROTOCOL_$_BKPagingScrollViewDelegate
+- __OBJC_PROTOCOL_$_BKPictureBookNavigationDelegate
+- __OBJC_PROTOCOL_$_BKPictureBookVerticalNavigationDelegate
+- __OBJC_PROTOCOL_$_BKReadAloudEventHandlerDelegate
+- __OBJC_PROTOCOL_$_BKSearchOperationDelegate
+- __OBJC_PROTOCOL_$_BKSearchViewControllerDelegate
+- __OBJC_PROTOCOL_$_BKSemanticLayoutDebuggable
+- __OBJC_PROTOCOL_$_BKTOCViewControllerDelegate
+- __OBJC_PROTOCOL_$_BKTOCViewControllerProtocol
+- __OBJC_PROTOCOL_$_BKTOCWebViewCellLoadDelegate
+- __OBJC_PROTOCOL_$_BKThumbnailBookViewConfiguring
+- __OBJC_PROTOCOL_$_BKThumbnailDirectoryDelegate
+- __OBJC_PROTOCOL_$_BKThumbnailScrubberDelegate
+- __OBJC_PROTOCOL_$_BKUpsell
+- __OBJC_PROTOCOL_$_BKUpsellBuyDelegate
+- __OBJC_PROTOCOL_$_BKWK2WebViewLoaderDelegate
+- __OBJC_PROTOCOL_$_BKZoomingScrollViewDelegate
+- __OBJC_PROTOCOL_$_BUAssertion
+- __OBJC_PROTOCOL_$_CAAnimationDelegate
+- __OBJC_PROTOCOL_$_ContentStyleOverrideProvider
+- __OBJC_PROTOCOL_$_IMAVPlayerDelegate
+- __OBJC_PROTOCOL_$_IMBaseRenderingCache
+- __OBJC_PROTOCOL_$_IMConfigurationHosting
+- __OBJC_PROTOCOL_$_IMEnvironmentOverrideProvider
+- __OBJC_PROTOCOL_$_IMGridViewDataSource
+- __OBJC_PROTOCOL_$_IMGridViewDelegate
+- __OBJC_PROTOCOL_$_IMLayoutDirectionEnvironment
+- __OBJC_PROTOCOL_$_IMRenderingCacheCallback
+- __OBJC_PROTOCOL_$_IMThumbnailRenderingCache
+- __OBJC_PROTOCOL_$_NSCoding
+- __OBJC_PROTOCOL_$_NSCopying
+- __OBJC_PROTOCOL_$_NSFastEnumeration
+- __OBJC_PROTOCOL_$_NSFetchedResultsControllerDelegate
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_NSSecureCoding
+- __OBJC_PROTOCOL_$_PDFAKControllerDelegateProtocol
+- __OBJC_PROTOCOL_$_PDFViewDelegate
+- __OBJC_PROTOCOL_$_PDFViewDelegatePrivate
+- __OBJC_PROTOCOL_$_QLPreviewControllerDataSource
+- __OBJC_PROTOCOL_$_QLPreviewItem
+- __OBJC_PROTOCOL_$_TPKContentControllerDelegate
+- __OBJC_PROTOCOL_$_UIActivityItemLinkPresentationSource
+- __OBJC_PROTOCOL_$_UIActivityItemSource
+- __OBJC_PROTOCOL_$_UIAdaptivePresentationControllerDelegate
+- __OBJC_PROTOCOL_$_UIBarPositioningDelegate
+- __OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
+- __OBJC_PROTOCOL_$_UINavigationBarDelegate
+- __OBJC_PROTOCOL_$_UINavigationControllerDelegate
+- __OBJC_PROTOCOL_$_UIPageViewControllerDataSource
+- __OBJC_PROTOCOL_$_UIPageViewControllerDelegate
+- __OBJC_PROTOCOL_$_UIPointerInteractionDelegate
+- __OBJC_PROTOCOL_$_UIPopoverPresentationControllerDelegate
+- __OBJC_PROTOCOL_$_UIScrollViewDelegate
+- __OBJC_PROTOCOL_$_UISearchBarDelegate
+- __OBJC_PROTOCOL_$_UITableViewDataSource
+- __OBJC_PROTOCOL_$_UITableViewDelegate
+- __OBJC_PROTOCOL_$_UITableViewDragDelegate
+- __OBJC_PROTOCOL_$_UITextFieldDelegate
+- __OBJC_PROTOCOL_$_UITextInteractionDelegate
+- __OBJC_PROTOCOL_$_UITextInteractionDelegatePrivate
+- __OBJC_PROTOCOL_$_UIToolbarDelegate
+- __OBJC_PROTOCOL_$_UIViewControllerAnimatedTransitioning
+- __OBJC_PROTOCOL_$_UIViewControllerTransitioningDelegate
+- __OBJC_PROTOCOL_$_VKCImageAnalysisInteractionDelegate
+- __OBJC_PROTOCOL_$_WKNavigationDelegate
+- __OBJC_PROTOCOL_$_WKScriptMessageHandler
+- __OBJC_PROTOCOL_$__UIScrollViewScrollObserver
+- __OBJC_PROTOCOL_$__WKFindDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_AEAssetSharingConnectionServer
+- __OBJC_PROTOCOL_REFERENCE_$_AEHighlightColorEditorControllerDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_BASessionHostProviding
+- __OBJC_PROTOCOL_REFERENCE_$_BCAppIntentsSearchQueryProvider
+- __OBJC_PROTOCOL_REFERENCE_$_BKBookmark
+- __OBJC_PROTOCOL_REFERENCE_$_BKContentViewControllerDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_BKTOCViewControllerDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_BKTOCViewControllerProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_BKThumbnailBookViewConfiguring
+- __OBJC_PROTOCOL_REFERENCE_$_BKUpsell
+- __OBJC_PROTOCOL_REFERENCE_$_BKZoomingScrollViewDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_NSFastEnumeration
+- __OBJC_PROTOCOL_REFERENCE_$_QLPreviewItem
+- __PROPERTIES_AEAudiobookAnalyticsRecorder
+- __PROPERTIES_AEMarkupBarButtonItem
+- __PROPERTIES_BEAnnotation
+- __PROPERTIES_BEBookViewModel
+- __PROPERTIES_BEDocument
+- __PROPERTIES_BEDocumentPaginationDataInfo
+- __PROPERTIES_BEPage
+- __PROPERTIES__TtC13AEBookPlugins25MarkupButtonContainerView
+- __PROTOCOLS_BEAnnotation
+- __PROTOCOLS_BEBookViewModel
+- __PROTOCOLS_BEDocument
+- __PROTOCOLS_BEDocumentPaginationDataInfo
+- __PROTOCOLS_BEPage
+- __PROTOCOL_AEAudiobookAnalyticsRecorderTrackerHosting
+- __PROTOCOL_INSTANCE_METHODS_AEAudiobookAnalyticsRecorderTrackerHosting
+- __PROTOCOL_INSTANCE_METHODS__TtP13AEBookPlugins15ContentFragment_
+- __PROTOCOL_INSTANCE_METHODS__TtP13AEBookPlugins19PaginatableDocument_
+- __PROTOCOL_INSTANCE_METHODS__TtP13AEBookPlugins29PaginatableDocumentCollection_
+- __PROTOCOL_INSTANCE_METHODS__TtP13AEBookPlugins30DocumentPaginationDataProvider_
+- __PROTOCOL_INSTANCE_METHODS__TtP13AEBookPlugins38DocumentCollectionInformationCacheType_
+- __PROTOCOL_INSTANCE_METHODS__TtP13AEBookPlugins8Landmark_
+- __PROTOCOL_METHOD_TYPES_AEAudiobookAnalyticsRecorderTrackerHosting
+- __PROTOCOL_METHOD_TYPES__TtP13AEBookPlugins15ContentFragment_
+- __PROTOCOL_METHOD_TYPES__TtP13AEBookPlugins19PaginatableDocument_
+- __PROTOCOL_METHOD_TYPES__TtP13AEBookPlugins29PaginatableDocumentCollection_
+- __PROTOCOL_METHOD_TYPES__TtP13AEBookPlugins30DocumentPaginationDataProvider_
+- __PROTOCOL_METHOD_TYPES__TtP13AEBookPlugins38DocumentCollectionInformationCacheType_
+- __PROTOCOL_METHOD_TYPES__TtP13AEBookPlugins8Landmark_
+- __PROTOCOL_PROPERTIES_AEAudiobookAnalyticsRecorderTrackerHosting
+- __PROTOCOL_PROPERTIES__TtP13AEBookPlugins15ContentFragment_
+- __PROTOCOL_PROPERTIES__TtP13AEBookPlugins19PaginatableDocument_
+- __PROTOCOL_PROPERTIES__TtP13AEBookPlugins29PaginatableDocumentCollection_
+- __PROTOCOL_PROPERTIES__TtP13AEBookPlugins30DocumentPaginationDataProvider_
+- __PROTOCOL_PROPERTIES__TtP13AEBookPlugins38DocumentCollectionInformationCacheType_
+- __PROTOCOL_PROPERTIES__TtP13AEBookPlugins8Landmark_
+- __PROTOCOL_PROTOCOLS_AEAudiobookAnalyticsRecorderTrackerHosting
+- __PROTOCOL_PROTOCOLS__TtP13AEBookPlugins19PaginatableDocument_
+- __PROTOCOL_PROTOCOLS__TtP13AEBookPlugins29PaginatableDocumentCollection_
+- __PROTOCOL__TtP13AEBookPlugins15ContentFragment_
+- __PROTOCOL__TtP13AEBookPlugins19PaginatableDocument_
+- __PROTOCOL__TtP13AEBookPlugins29PaginatableDocumentCollection_
+- __PROTOCOL__TtP13AEBookPlugins30DocumentPaginationDataProvider_
+- __PROTOCOL__TtP13AEBookPlugins38DocumentCollectionInformationCacheType_
+- __PROTOCOL__TtP13AEBookPlugins8Landmark_
+- __ZNKSt3__16vectorIPK14__CFDictionaryNS_9allocatorIS3_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIZ69-[AEMinimalTemplate evaluateWithData:templateSet:cycleContext:error:]E5FrameNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev
+- __ZNSt12length_errorC1B7v160006EPKc
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIPK14__CFDictionaryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__120__throw_length_errorB7v160006EPKc
+- __ZNSt3__16vectorIPK14__CFDictionaryNS_9allocatorIS3_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIPK14__CFDictionaryNS_9allocatorIS3_EEEC2ERKS6_
+- __ZNSt3__16vectorIZ69-[AEMinimalTemplate evaluateWithData:templateSet:cycleContext:error:]E5FrameNS_9allocatorIS1_EEE22__base_destruct_at_endB7v160006EPS1_
+- __ZNSt3__16vectorIZ69-[AEMinimalTemplate evaluateWithData:templateSet:cycleContext:error:]E5FrameNS_9allocatorIS1_EEED1B7v160006Ev
+- __ZSt28__throw_bad_array_new_lengthB7v160006v
+- ___100-[BKFlowingBookViewController _addNoteForAnnotation:inContent:withRect:andGetVisibleAnnotationRect:]_block_invoke
+- ___100-[BKFlowingBookViewController _addNoteForAnnotation:inContent:withRect:andGetVisibleAnnotationRect:]_block_invoke_2
+- ___100-[BKHTMLContentViewController __webView2_performHighlighterActionWithGestureState:location:isTouch:]_block_invoke
+- ___100-[BKHTMLContentViewController __webView2_performHighlighterActionWithGestureState:location:isTouch:]_block_invoke_2
+- ___100-[BKHTMLContentViewController __webView2_performHighlighterActionWithGestureState:location:isTouch:]_block_invoke_3
+- ___101-[BKFlowingBookViewController _doAfterAllContentIsDrawnInPrimaryContent:secondaryContent:completion:]_block_invoke
+- ___101-[BKFlowingBookViewController _doAfterAllContentIsDrawnInPrimaryContent:secondaryContent:completion:]_block_invoke_2
+- ___101-[BKFlowingBookViewController _doAfterAllContentIsDrawnInPrimaryContent:secondaryContent:completion:]_block_invoke_3
+- ___101-[BKFlowingBookViewController _doAfterAllContentIsDrawnInPrimaryContent:secondaryContent:completion:]_block_invoke_4
+- ___101-[BKFlowingBookViewController _doAfterAllContentIsDrawnInPrimaryContent:secondaryContent:completion:]_block_invoke_5
+- ___103-[AEPictureBookRenderingCacheOperation2 _takeSnapshotWithConfiguration:retryOnBlank:completionHandler:]_block_invoke
+- ___103-[AEPictureBookRenderingCacheOperation2 _takeSnapshotWithConfiguration:retryOnBlank:completionHandler:]_block_invoke_2
+- ___103-[AEPictureBookRenderingCacheOperation2 _takeSnapshotWithConfiguration:retryOnBlank:completionHandler:]_block_invoke_3
+- ___106-[AEEPubProofingHelper _diffManifest:againstBundleNamed:rootPath:addedAssets:deletedAssets:updatedAssets:]_block_invoke
+- ___110-[BKViewController showOverlayViewController:fromItem:popoverOnPhone:passthroughViews:popoverBackgroundColor:]_block_invoke
+- ___110-[BKViewController showOverlayViewController:fromItem:popoverOnPhone:passthroughViews:popoverBackgroundColor:]_block_invoke_2
+- ___111-[BKExpandedWebContentViewController2 navigationHandler:handleUserRequestForFrameToLoadExternalURL:completion:]_block_invoke
+- ___111-[BKExpandedWebContentViewController2 navigationHandler:handleUserRequestForFrameToLoadExternalURL:completion:]_block_invoke_2
+- ___112-[BKPageScrollerPageView initWithFrame:pageNumber:navigationDelegate:thumbnailingDelegate:imageResizerDelegate:]_block_invoke
+- ___112-[BKPageScrollerPageView initWithFrame:pageNumber:navigationDelegate:thumbnailingDelegate:imageResizerDelegate:]_block_invoke_2
+- ___112-[BKPageScrollerPageView initWithFrame:pageNumber:navigationDelegate:thumbnailingDelegate:imageResizerDelegate:]_block_invoke_3
+- ___112-[BKPageScrollerPageView initWithFrame:pageNumber:navigationDelegate:thumbnailingDelegate:imageResizerDelegate:]_block_invoke_4
+- ___113-[BKPictureBookReadingStatisticsCollector renderingCacheOperationCompleted:textNodeCharacterCounts:cfisForHrefs:]_block_invoke
+- ___117-[BKFlowingBookViewController _prepareViewSizeTransition:withTransitionCoordinator:animated:clearContentControllers:]_block_invoke
+- ___117-[BKFlowingBookViewController _prepareViewSizeTransition:withTransitionCoordinator:animated:clearContentControllers:]_block_invoke_2
+- ___117-[BKFlowingBookViewController _prepareViewSizeTransition:withTransitionCoordinator:animated:clearContentControllers:]_block_invoke_3
+- ___117-[BKFlowingBookViewController _prepareViewSizeTransition:withTransitionCoordinator:animated:clearContentControllers:]_block_invoke_4
+- ___117-[BKFlowingBookViewController _prepareViewSizeTransition:withTransitionCoordinator:animated:clearContentControllers:]_block_invoke_5
+- ___120-[BKPictureBookViewController pageNavigationSnapshotForPageNumber:size:isRight:zoomScale:applyMaskAndGutter:completion:]_block_invoke
+- ___123-[BKFlowingBookViewController _turnToContent2:location:pageOffset:waitForContentLoad:directionHint:animated:oldPageOffset:]_block_invoke
+- ___123-[BKFlowingBookViewController _turnToContent2:location:pageOffset:waitForContentLoad:directionHint:animated:oldPageOffset:]_block_invoke_2
+- ___125-[BKEPubContentViewController _ensureLocationVisible:inWebView:isRTL:needsToSnap:adjustForSearchResultRevealMode:completion:]_block_invoke
+- ___125-[BKWK2EpubSearchOperation _loadWebView:bookSnapshot:paginationOptions:stylesheetSet:cleanupOptions:cfiOptions:isConfigured:]_block_invoke
+- ___129-[BKFlowingBookViewController _turnToContent:location:pageOffset:waitForContentLoad:directionHint:animated:adjustScrollToReveal:]_block_invoke
+- ___134-[BKPictureBookCurlState generateWithOldLeftPageNumber:oldRightPageNumber:newLeftPageNumber:newRightPageNumber:useMirrorForBackImage:]_block_invoke
+- ___134-[BKPictureBookCurlState generateWithOldLeftPageNumber:oldRightPageNumber:newLeftPageNumber:newRightPageNumber:useMirrorForBackImage:]_block_invoke_2
+- ___134-[BKPictureBookCurlState generateWithOldLeftPageNumber:oldRightPageNumber:newLeftPageNumber:newRightPageNumber:useMirrorForBackImage:]_block_invoke_3
+- ___134-[BKPictureBookCurlState generateWithOldLeftPageNumber:oldRightPageNumber:newLeftPageNumber:newRightPageNumber:useMirrorForBackImage:]_block_invoke_4
+- ___134-[BKPictureBookCurlState generateWithOldLeftPageNumber:oldRightPageNumber:newLeftPageNumber:newRightPageNumber:useMirrorForBackImage:]_block_invoke_5
+- ___144-[AEPictureBookRenderingCache _uncheckedSnapshotWithMask:assetID:bookInfo:containerBounds:contentSize:isRight:pageNumber:scale:size:completion:]_block_invoke
+- ___156-[BKSearchController provideWebView:protocolCacheItem:paginationOptions:cleanupOptions:cfiOptions:stylesheetSet:styleManager:contentSupportMode:completion:]_block_invoke
+- ___18-[BKFont download]_block_invoke
+- ___18-[BKFont download]_block_invoke_2
+- ___18-[BKFont download]_block_invoke_3
+- ___22+[AETestDriver shared]_block_invoke
+- ___23-[BKFont localizedName]_block_invoke
+- ___23-[BKFont localizedName]_block_invoke_2
+- ___24-[BKFont cancelDownload]_block_invoke
+- ___24-[BKFont cancelDownload]_block_invoke_2
+- ___27-[AEEpubInfoSource dealloc]_block_invoke
+- ___28+[AEPdfCache sharedInstance]_block_invoke
+- ___29+[BKFontCache sharedInstance]_block_invoke
+- ___29-[AEBookInfo readingLocation]_block_invoke
+- ___29-[BKContentReloadView button]_block_invoke
+- ___29-[BKPaginationOperation main]_block_invoke
+- ___30-[AEEpubInfoSource parseBook:]_block_invoke
+- ___304+[BKTOCWebViewController2 tocHTMLWithFetchedResultsController:directoryDelegate:chapterTopLevelFont:chapterSubLevelFont:pageLabelFont:themeContentBackgroundColor:textColor:selectedTextColor:pageNumberTextColor:separatorColor:highlightedBackgroundColor:highlightedTextColor:contentInsets:completionBlock:]_block_invoke
+- ___31-[BKBookViewController _resume]_block_invoke
+- ___31-[BKBookViewController resume:]_block_invoke
+- ___31-[BKLoupeView dismissAnimated:]_block_invoke
+- ___32-[BKBookViewController showTOC:]_block_invoke
+- ___32-[BKFontCache fontsForLanguage:]_block_invoke
+- ___33-[BKBookViewController setTheme:]_block_invoke
+- ___33-[BKThumbnailDirectory didRotate]_block_invoke
+- ___33-[BKWK2WebViewLoader setWebView:]_block_invoke
+- ___34-[BKBookViewController showAudio:]_block_invoke
+- ___35-[AEEpubInfoSource _resetBookInfo:]_block_invoke
+- ___35-[BKFontCache _presetsForFileName:]_block_invoke
+- ___35-[BKFontCache _presetsForFileName:]_block_invoke_2
+- ___36+[BKEpubCFILocation unknownLocation]_block_invoke
+- ___36+[BKFont _fontDescriptorLookupQueue]_block_invoke
+- ___36+[BKTOCTableViewCell tocWebTemplate]_block_invoke
+- ___36-[AEBookInfo linearIndexForOrdinal:]_block_invoke
+- ___36-[AEEpubInfoSource resetBookForURL:]_block_invoke
+- ___36-[AEPdfCache clearNativeObjectCache]_block_invoke
+- ___36-[AEPdfCache hasCachedObjectForURL:]_block_invoke
+- ___36-[BKPageSlide cancelManualAnimation]_block_invoke
+- ___36-[BKPageSlide cancelManualAnimation]_block_invoke_2
+- ___36-[BKPageSlide finishManualAnimation]_block_invoke
+- ___36-[BKPageSlide finishManualAnimation]_block_invoke_2
+- ___37-[AEPdfCache copyCacheObjectForBook:]_block_invoke
+- ___37-[BKBookViewController bookmarkPage:]_block_invoke
+- ___37-[BKBookViewController requestClose:]_block_invoke
+- ___37-[BKPageThumbnailView layoutSubviews]_block_invoke
+- ___37-[BKPaginationController batchEnded:]_block_invoke
+- ___37-[BKTOCWebViewController2 htmlMarkup]_block_invoke
+- ___38+[ContentViewStyleManager templateSet]_block_invoke
+- ___38+[ContentViewStyleManager templateSet]_block_invoke_2
+- ___38-[AEPDFPlugin sendError:toCompletion:]_block_invoke
+- ___38-[AEPdfCache removeCacheObjectForURL:]_block_invoke
+- ___38-[BKFlowingBookViewController resume:]_block_invoke
+- ___38-[BKPaginationResultsOperation record]_block_invoke
+- ___38-[BKWK2EpubSearchOperation _startFind]_block_invoke
+- ___39+[AETestDriver getContentViewChildren:]_block_invoke
+- ___39+[BKFlowingBookViewController themeMap]_block_invoke
+- ___39-[AEEpubInfoSource initWithIdentifier:]_block_invoke
+- ___39-[AEEpubInfoSource persistentContainer]_block_invoke
+- ___39-[BKBookViewController showBrightness:]_block_invoke
+- ___39-[BKBookViewController unbookmarkPage:]_block_invoke
+- ___39-[BKContinuousWebScrollView snapToPage]_block_invoke
+- ___39-[BKContinuousWebScrollView snapToPage]_block_invoke_2
+- ___39-[BKLoupeView presentAtPoint:animated:]_block_invoke
+- ___39-[BKPaginationPrepareOperation prepare]_block_invoke
+- ___39-[BKSpreadThumbnailView layoutSubviews]_block_invoke
+- ___40-[AEPdfCache copyCacheObjectForPdfPath:]_block_invoke
+- ___40-[AEPdfCache copyCacheObjectForPdfPath:]_block_invoke_2
+- ___40-[AEPdfCache copyCacheObjectForPdfPath:]_block_invoke_3
+- ___40-[BKFontCache _didReceiveMemoryWarning:]_block_invoke
+- ___40-[BKPageCurlConfiguration _setupDefault]_block_invoke
+- ___40-[BKTOCWebViewController2 centerWebView]_block_invoke
+- ___40-[BKWK2EpubSearchOperation _loadWebView]_block_invoke
+- ___40-[BKWK2WebViewLoader _postLoadComplete:]_block_invoke
+- ___40-[BKWK2WebViewLoader _postLoadComplete:]_block_invoke_2
+- ___40-[BKWK2WebViewLoader updateMediaFrames:]_block_invoke
+- ___40-[BKWK2WebViewLoader updateMediaFrames:]_block_invoke_2
+- ___41+[BKFlowingBookViewController initialize]_block_invoke
+- ___41+[_CachedFallbackInfo cachedFallbackInfo]_block_invoke
+- ___41-[AEMinimalTemplate parseTemplate:error:]_block_invoke
+- ___41-[AEMinimalTemplate parseTemplate:error:]_block_invoke_2
+- ___41-[BKActionController showActionControls:]_block_invoke
+- ___41-[BKActionController showActionControls:]_block_invoke_2
+- ___41-[BKBookContainerView manualCurlGesture:]_block_invoke
+- ___41-[BKEpubTOCParseResultsOperation execute]_block_invoke
+- ___41-[BKFlowingBookViewController shareBook:]_block_invoke
+- ___41-[BKHTMLContentViewController endOfBook:]_block_invoke
+- ___41-[BKPictureBookViewController showScrim:]_block_invoke
+- ___41-[BKPictureBookViewController showScrim:]_block_invoke_2
+- ___41-[BKThumbnailBookViewController showTOC:]_block_invoke
+- ___42+[BKBookContainerView _textRangeViewClass]_block_invoke
+- ___42-[BKFlowingBookViewController _fadeFSView]_block_invoke
+- ___42-[BKFlowingBookViewController _fadeFSView]_block_invoke_2
+- ___42-[BKFlowingBookViewController showSearch:]_block_invoke
+- ___42-[BKHTMLContentViewController copyContent]_block_invoke
+- ___42-[BKHTMLContentViewController copyContent]_block_invoke_2
+- ___42-[BKWK2EpubTOCParseOperation _loadWebView]_block_invoke
+- ___43-[AEEpubInfoSource updateCachedURLFrom:to:]_block_invoke
+- ___43-[BKBookViewController rebuildHoverRegions]_block_invoke
+- ___43-[BKPictureBookPaginationOperation execute]_block_invoke
+- ___43-[BKStyleManager fontSizeForFont:category:]_block_invoke
+- ___44-[AEEpubInfoSource _mocDidSaveNotification:]_block_invoke
+- ___44-[AEEpubInfoSource resetBookForDatabaseKey:]_block_invoke
+- ___44-[BKAppearanceViewController viewDidAppear:]_block_invoke
+- ___44-[BKBookViewController saveReadingLocation:]_block_invoke
+- ___44-[BKPageScrollerPageView _exposeContentView]_block_invoke
+- ___44-[BKWK2WebViewLoader _pageOffsetsForFrames:]_block_invoke
+- ___45-[AEBookProtocolCacheItemProvider clearCache]_block_invoke
+- ___45-[BKFlowingBookViewController _bookSnapshot:]_block_invoke
+- ___45-[BKFont checkStateSynchronously:completion:]_block_invoke
+- ___45-[BKFont checkStateSynchronously:completion:]_block_invoke_2
+- ___45-[BKPaginationOperation performBlockAndWait:]_block_invoke
+- ___45-[BKSearchViewController _updateContentSize:]_block_invoke
+- ___45-[BKThumbnailBookViewController showLibrary:]_block_invoke
+- ___46+[AEAudiobookReadingTimeTracker startTracking]_block_invoke
+- ___46-[AEEPubProofingHelper syncDidStopWithReason:]_block_invoke
+- ___46-[AEEpubInfoSource setMetadata:forKey:forURL:]_block_invoke
+- ___46-[AEHTMLBookRenderingCache imageForSize:data:]_block_invoke
+- ___46-[BEPageSnapshotCacheOperation generateImage:]_block_invoke
+- ___46-[BEPageSnapshotCacheOperation generateImage:]_block_invoke_2
+- ___46-[BEPageSnapshotCacheOperation generateImage:]_block_invoke_3
+- ___46-[BEPageSnapshotCacheOperation generateImage:]_block_invoke_4
+- ___46-[BKEpubCFILocation updateOrdinalForBookInfo:]_block_invoke
+- ___46-[BKHTMLContentViewController shareSelection:]_block_invoke
+- ___46-[BKHTMLContentViewController shareSelection:]_block_invoke_2
+- ___46-[BKThumbnailBookViewController snapshotView:]_block_invoke
+- ___46-[BKWK2WebViewLoader updateAnchorInformation:]_block_invoke
+- ___46-[BKWK2WebViewLoader updateAnchorInformation:]_block_invoke_2
+- ___46-[BKWK2WebViewLoader updatePaginationOptions:]_block_invoke
+- ___47+[BKBookViewController propertySourceFromBook:]_block_invoke
+- ___47-[BKFootnoteViewController2 _doneButtonTapped:]_block_invoke
+- ___47-[BKHTMLContentViewController lookupSelection:]_block_invoke
+- ___47-[BKHTMLContentViewController lookupSelection:]_block_invoke_2
+- ___47-[BKHTMLContentViewController lookupSelection:]_block_invoke_3
+- ___47-[BKHTMLContentViewController lookupSelection:]_block_invoke_4
+- ___47-[BKHTMLContentViewController lookupSelection:]_block_invoke_5
+- ___47-[BKTOCContentViewController shareSwipeAction:]_block_invoke
+- ___47-[BKTOCWebViewController2 highlightCurrentNode]_block_invoke
+- ___47-[BKTOCWebViewController2 updatePageStylesheet]_block_invoke
+- ___47-[BKThumbnailBookViewController makeTOCVisible]_block_invoke
+- ___47-[BKThumbnailBookViewController makeTOCVisible]_block_invoke_2
+- ___48-[BKContentViewController hideReloadUIAnimated:]_block_invoke
+- ___48-[BKContentViewController hideReloadUIAnimated:]_block_invoke_2
+- ___48-[BKContentViewController showReloadUIAnimated:]_block_invoke
+- ___48-[BKCoverContentViewController2 loadViewUIImage]_block_invoke
+- ___48-[BKCoverContentViewController2 loadViewUIImage]_block_invoke_2
+- ___48-[BKFlowingBookViewController _updateAppearance]_block_invoke
+- ___48-[BKFlowingBookViewController _updatePageNumber]_block_invoke
+- ___48-[BKPDFAnnotationCounter countMarkupAnnotations]_block_invoke
+- ___48-[BKPDFModernBookViewController toggleBookmark:]_block_invoke
+- ___48-[BKPDFModernBookViewController viewWillAppear:]_block_invoke
+- ___48-[BKPDFPageThumbnailDirectory indexForLocation:]_block_invoke
+- ___48-[BKPageScrollerViewController handleDoubleTap:]_block_invoke
+- ___48-[BKSwitcherContentConfiguration _setupDefaults]_block_invoke
+- ___48-[BKTOCContentViewController deleteSwipeAction:]_block_invoke
+- ___49-[AEBookInfo saveAnnotationsManagedObjectContext]_block_invoke
+- ___49-[AEBookInfoAssetPlugin helper:coverImageForURL:]_block_invoke
+- ___49-[AEEpubInfoSource performBackgroundTaskAndWait:]_block_invoke
+- ___49-[BKFlowingBookViewController didTapOnShareBook:]_block_invoke
+- ___49-[BKPDFPageThumbnailDirectory calculatePageCount]_block_invoke
+- ___49-[BKPaginationController pageTitleForPageNumber:]_block_invoke
+- ___49-[BKThumbnailBookViewConfiguration _setupDefault]_block_invoke
+- ___49-[BKThumbnailBookViewConfiguration _setupDefault]_block_invoke_2
+- ___49-[BKWK2EpubSearchOperation _waitForFindSemaphore]_block_invoke
+- ___49-[BKWK2EpubSearchOperation _waitForLoadSemaphore]_block_invoke
+- ___50+[BKDocument documentKeyWithHref:documentOrdinal:]_block_invoke
+- ___50+[BKFlowingBookLayoutConfiguration _fontSizeCache]_block_invoke
+- ___50+[PDFView(ZoomAdjustment) be_enableAutoscaleHacks]_block_invoke
+- ___50-[BKFlowingBookViewController _pageImage:flipped:]_block_invoke
+- ___50-[BKFlowingBookViewController paginationCompleted]_block_invoke
+- ___50-[BKHTMLContentViewController translateSelection:]_block_invoke
+- ___50-[BKHTMLContentViewController translateSelection:]_block_invoke_2
+- ___50-[BKPictureBookViewController bkaxToggleControls:]_block_invoke
+- ___50-[BKSampleUpsellContentViewController viewDidLoad]_block_invoke
+- ___50-[BKSampleUpsellContentViewController viewDidLoad]_block_invoke_2
+- ___50-[BKTOCAnnotationTableCell willTransitionToState:]_block_invoke
+- ___50-[BKTOCAnnotationTableCell willTransitionToState:]_block_invoke_2
+- ___50-[BKTOCWebViewController2 updatePageNumberStrings]_block_invoke
+- ___50-[BKTOCWebViewController2 updatePageNumberStrings]_block_invoke_2
+- ___50-[BKWK2EpubPaginationLayoutOperation _loadWebView]_block_invoke
+- ___51-[BEPageSnapshotCacheOperation addExtraCompletion:]_block_invoke
+- ___51-[BKContentViewController hideLoadingViewAnimated:]_block_invoke
+- ___51-[BKContentViewController hideLoadingViewAnimated:]_block_invoke_2
+- ___51-[BKContentViewController showLoadingViewAnimated:]_block_invoke
+- ___51-[BKExpandedImageContentViewController contentView]_block_invoke
+- ___51-[BKFlowingBookViewController _enableAutoNightMode]_block_invoke
+- ___51-[BKFlowingBookViewController transitionDidFinish:]_block_invoke
+- ___51-[BKPDFModernBookViewController _needToSaveChanges]_block_invoke
+- ___51-[BKPDFModernBookViewController _needToSaveChanges]_block_invoke_2
+- ___51-[BKPDFModernBookViewController menuItems:forPage:]_block_invoke
+- ___51-[BKPDFModernBookViewController scrubValueChanged:]_block_invoke
+- ___51-[BKThumbnailBookViewController makeContentVisible]_block_invoke
+- ___51-[BKThumbnailBookViewController makeContentVisible]_block_invoke_2
+- ___51-[BKThumbnailBookViewController makeContentVisible]_block_invoke_3
+- ___51-[BKThumbnailBookViewController scrubValueChanged:]_block_invoke
+- ___52-[AEBookInfo checkAnnotationsForDuplicatedDocuments]_block_invoke
+- ___52-[AEBookInfo checkAnnotationsForDuplicatedDocuments]_block_invoke_2
+- ___52-[AEBookInfo checkAnnotationsForDuplicatedDocuments]_block_invoke_3
+- ___52-[AEBookInfo checkAnnotationsForDuplicatedDocuments]_block_invoke_4
+- ___52-[BKBookViewController managedObjectContextDidSave:]_block_invoke
+- ___52-[BKBookViewController managedObjectContextDidSave:]_block_invoke_2
+- ___52-[BKBookViewController revealSearchResult:animated:]_block_invoke
+- ___52-[BKBookViewController revealSearchResult:animated:]_block_invoke_2
+- ___52-[BKBookViewController revealSearchResult:animated:]_block_invoke_3
+- ___52-[BKBookViewController revealSearchResult:animated:]_block_invoke_4
+- ___52-[BKBookViewController showNoteEditorForAnnotation:]_block_invoke
+- ___52-[BKBookViewController showSearchWithString:sender:]_block_invoke
+- ___52-[BKFlowingBookViewController _isContentLoadPending]_block_invoke
+- ___52-[BKFlowingBookViewController initWithBook:storeID:]_block_invoke
+- ___52-[BKFlowingBookViewController initWithBook:storeID:]_block_invoke_2
+- ___52-[BKFlowingBookViewController initWithBook:storeID:]_block_invoke_3
+- ___52-[BKFlowingBookViewController updateBookmarkButton:]_block_invoke
+- ___52-[BKFontCache presetSettingsForFontFamily:language:]_block_invoke
+- ___52-[BKHTMLContentViewController _highlightAnnotation:]_block_invoke
+- ___52-[BKHTMLContentViewController searchUsingSelection:]_block_invoke
+- ___52-[BKImageResizerHelper resizeImage:toSize:callback:]_block_invoke
+- ___52-[BKPDFAnnotationCounter _visitPageTree:visitBlock:]_block_invoke
+- ___52-[BKTOCContentViewController _hideActivityIndicator]_block_invoke
+- ___52-[BKTOCWebViewCellLoadQueue _snapshotCurrentContent]_block_invoke
+- ___52-[BKWebViewProxy clientRectsForLocation:completion:]_block_invoke
+- ___53-[AEPictureBookRenderingCacheOperation2 setupWebView]_block_invoke
+- ___53-[AEPictureBookRenderingCacheOperation2 setupWebView]_block_invoke_2
+- ___53-[AEPictureBookRenderingCacheOperation2 setupWebView]_block_invoke_3
+- ___53-[BKBookViewController _promptToLoadExternalContent:]_block_invoke
+- ___53-[BKBookViewController _promptToLoadExternalContent:]_block_invoke_2
+- ___53-[BKBookViewController contentFailedToLoadWithError:]_block_invoke
+- ___53-[BKCatalystAppearanceViewController hasOriginalFont]_block_invoke
+- ___53-[BKPageCurlConfiguration _setupPortraitCompactWidth]_block_invoke
+- ___53-[BKPageCurlConfiguration _setupPortraitCompactWidth]_block_invoke_10
+- ___53-[BKPageCurlConfiguration _setupPortraitCompactWidth]_block_invoke_11
+- ___53-[BKPageCurlConfiguration _setupPortraitCompactWidth]_block_invoke_2
+- ___53-[BKPageCurlConfiguration _setupPortraitCompactWidth]_block_invoke_3
+- ___53-[BKPageCurlConfiguration _setupPortraitCompactWidth]_block_invoke_4
+- ___53-[BKPageCurlConfiguration _setupPortraitCompactWidth]_block_invoke_5
+- ___53-[BKPageCurlConfiguration _setupPortraitCompactWidth]_block_invoke_6
+- ___53-[BKPageCurlConfiguration _setupPortraitCompactWidth]_block_invoke_7
+- ___53-[BKPageCurlConfiguration _setupPortraitCompactWidth]_block_invoke_8
+- ___53-[BKPageCurlConfiguration _setupPortraitCompactWidth]_block_invoke_9
+- ___53-[BKPageScrollerViewController zoomVisiblePageToFit:]_block_invoke
+- ___53-[BKSwitcherContentConfiguration _setupCompactHeight]_block_invoke
+- ___53-[BKSwitcherContentConfiguration _setupCompactHeight]_block_invoke_2
+- ___53-[BKSwitcherContentConfiguration _setupCompactHeight]_block_invoke_3
+- ___53-[BKSwitcherContentConfiguration _setupCompactHeight]_block_invoke_4
+- ___53-[BKSwitcherContentConfiguration _setupCompactHeight]_block_invoke_5
+- ___53-[BKSwitcherContentConfiguration _setupCompactHeight]_block_invoke_6
+- ___53-[BKSwitcherContentConfiguration _setupCompactHeight]_block_invoke_7
+- ___53-[BKSwitcherContentConfiguration _setupCompactHeight]_block_invoke_8
+- ___53-[BKSwitcherContentConfiguration _setupCompactHeight]_block_invoke_9
+- ___53-[BKSwitcherContentConfiguration _setupRegularHeight]_block_invoke
+- ___53-[BKSwitcherContentConfiguration _setupRegularHeight]_block_invoke_10
+- ___53-[BKSwitcherContentConfiguration _setupRegularHeight]_block_invoke_11
+- ___53-[BKSwitcherContentConfiguration _setupRegularHeight]_block_invoke_12
+- ___53-[BKSwitcherContentConfiguration _setupRegularHeight]_block_invoke_2
+- ___53-[BKSwitcherContentConfiguration _setupRegularHeight]_block_invoke_3
+- ___53-[BKSwitcherContentConfiguration _setupRegularHeight]_block_invoke_4
+- ___53-[BKSwitcherContentConfiguration _setupRegularHeight]_block_invoke_5
+- ___53-[BKSwitcherContentConfiguration _setupRegularHeight]_block_invoke_6
+- ___53-[BKSwitcherContentConfiguration _setupRegularHeight]_block_invoke_7
+- ___53-[BKSwitcherContentConfiguration _setupRegularHeight]_block_invoke_8
+- ___53-[BKSwitcherContentConfiguration _setupRegularHeight]_block_invoke_9
+- ___53-[BKWK2EpubPaginationLayoutOperation _completeLayout]_block_invoke
+- ___53-[BKWebViewProxy clientRectsForLocations:completion:]_block_invoke
+- ___54+[BKFont _lookupLocalizedNameForAttrs:withCompletion:]_block_invoke
+- ___54-[AEPDFPlugin sendViewControllerForBook:toCompletion:]_block_invoke
+- ___54-[AEPictureBookRenderingCacheOperation2 _takeSnapshot]_block_invoke
+- ___54-[BKPaginationController managedObjectContextDidSave:]_block_invoke
+- ___54-[BKPaginationPrepareOperation _annotationCFIStrings:]_block_invoke
+- ___54-[BKPictureBookVerticalNavigationController pageViews]_block_invoke
+- ___54-[BKPictureBookViewController scrubberTouch:forEvent:]_block_invoke
+- ___54-[BKSearchViewController physicalPageMapForPageTitle:]_block_invoke
+- ___54-[BKThumbnailBookViewConfiguration _setupCompactWidth]_block_invoke
+- ___54-[BKThumbnailBookViewConfiguration _setupCompactWidth]_block_invoke_2
+- ___54-[BKThumbnailBookViewConfiguration _setupCompactWidth]_block_invoke_3
+- ___54-[BKThumbnailBookViewConfiguration _setupRegularWidth]_block_invoke
+- ___54-[BKThumbnailBookViewConfiguration _setupRegularWidth]_block_invoke_2
+- ___54-[BKThumbnailBookViewConfiguration _setupRegularWidth]_block_invoke_3
+- ___54-[BKWK2EpubSearchOperation _loadWebViewFromMainThread]_block_invoke
+- ___54-[BKWK2EpubSearchOperation _startFindPerformIndexing:]_block_invoke
+- ___55-[AEEpubInfoSource performMainQueueTaskWithNewContext:]_block_invoke
+- ___55-[AEPictureBookRenderingCacheOperation2 generateImage:]_block_invoke
+- ___55-[AEPictureBookRenderingCacheOperation2 generateImage:]_block_invoke_2
+- ___55-[AEPictureBookRenderingCacheOperation2 generateImage:]_block_invoke_3
+- ___55-[AEPictureBookRenderingCacheOperation2 generateImage:]_block_invoke_4
+- ___55-[BKBookViewController _reportLoadFailedAlertForError:]_block_invoke
+- ___55-[BKBookViewController bc_analyticsVisibilityDidAppear]_block_invoke
+- ___55-[BKBookViewController touchBarScrollerJumpToBookmark:]_block_invoke
+- ___55-[BKHTMLContentViewController _highlightAnnotationWK2:]_block_invoke
+- ___55-[BKPictureBookNavigationController scrollViewDidZoom:]_block_invoke
+- ___55-[BKTOCWebViewCellLoadQueue _measureContentAndSetFrame]_block_invoke
+- ___55-[BKTOCWebViewController2 webView:didFinishNavigation:]_block_invoke
+- ___55-[BKWK2WebViewLoader generatePaginationDataCompletion:]_block_invoke
+- ___56+[AEAudiobookPlatformConfiguration configureForPlatform]_block_invoke
+- ___56+[AEAudiobookPlatformConfiguration configureForPlatform]_block_invoke_2
+- ___56+[AEAudiobookPlatformConfiguration configureForPlatform]_block_invoke_3
+- ___56-[BKEPubContentViewController _navigateToProperLocation]_block_invoke
+- ___56-[BKFlowingBookViewController shareSelectedAnnotations:]_block_invoke
+- ___56-[BKWK2WebViewLoader clientRectsForLocation:completion:]_block_invoke
+- ___57-[AEEPubProofingHelper performBlockUsingBookInfoAndWait:]_block_invoke
+- ___57-[BKBookViewController editorController:shareAnnotation:]_block_invoke
+- ___57-[BKFlowingBookViewController editorController:editNote:]_block_invoke
+- ___57-[BKFlowingBookViewController turnToPageNumber:animated:]_block_invoke
+- ___57-[BKHTMLContentViewController books_useSelectionForFind:]_block_invoke
+- ___57-[BKHTMLContentViewController selectLocation:completion:]_block_invoke
+- ___57-[BKHTMLContentViewController selectLocation:completion:]_block_invoke_2
+- ___57-[BKPDFModernBookViewController startCountingAnnotations]_block_invoke
+- ___57-[BKPaginationResultsOperation _calculateFirstPageNumber]_block_invoke
+- ___57-[BKPictureBookVerticalNavigationController _updatePages]_block_invoke
+- ___57-[BKThumbnailBookViewController _reportDonation:context:]_block_invoke
+- ___57-[BKWK2WebViewLoader clientRectsForLocations:completion:]_block_invoke
+- ___58-[BKHTMLContentViewController _highlightAnnotation:rects:]_block_invoke
+- ___58-[BKHTMLContentViewController _highlightAnnotation:rects:]_block_invoke_2
+- ___58-[BKHTMLContentViewController _highlightAnnotation:rects:]_block_invoke_3
+- ___58-[BKHTMLContentViewController rectForLocation:completion:]_block_invoke
+- ___58-[BKPageScrollerViewController turnToPageNumber:animated:]_block_invoke
+- ___58-[BKPageScrollerViewController turnToPageNumber:animated:]_block_invoke_2
+- ___58-[BKPaginationController physicalPageTitlesForPageNumber:]_block_invoke
+- ___58-[BKPaginationResultsOperation _processAnnotationResults:]_block_invoke
+- ___58-[BKPictureBookPaginationOperation unpaginatedAnnotations]_block_invoke
+- ___58-[BKPictureBookPaginationOperation unpaginatedAnnotations]_block_invoke_2
+- ___58-[BKPictureBookPaginationOperation unpaginatedAnnotations]_block_invoke_3
+- ___58-[BKSemanticLayoutOverlayViewController _toggleCollapsed:]_block_invoke
+- ___58-[BKTOCWebViewController2 scrollToItemId:completionBlock:]_block_invoke
+- ___58-[BKTOCWebViewController2 scrollToItemId:completionBlock:]_block_invoke_2
+- ___58-[BKWK2WebViewLoader parseTOCIdCssRulesForMap:completion:]_block_invoke
+- ___59-[AEBookProtocolCacheItemProvider cacheItemForDatabaseKey:]_block_invoke
+- ___59-[AEBookProtocolCacheItemProvider cacheItemForDatabaseKey:]_block_invoke_2
+- ___59-[AEPDFPlugin helper:viewControllerWithOptions:completion:]_block_invoke
+- ___59-[AEPDFPlugin helper:viewControllerWithOptions:completion:]_block_invoke_2
+- ___59-[AEPDFPlugin helper:viewControllerWithOptions:completion:]_block_invoke_3
+- ___59-[BKBookViewController bc_analyticsVisibilityWillDisappear]_block_invoke
+- ___59-[BKBookViewController bc_analyticsVisibilityWillDisappear]_block_invoke_2
+- ___59-[BKBookViewController bc_analyticsVisibilityWillDisappear]_block_invoke_3
+- ___59-[BKBookViewController bc_analyticsVisibilityWillDisappear]_block_invoke_4
+- ___59-[BKBookViewController bc_analyticsVisibilityWillDisappear]_block_invoke_5
+- ___59-[BKBookViewController promptForRemoteResourcesIfNecessary]_block_invoke
+- ___59-[BKFlowingBookViewController simulateManualPageTurn:time:]_block_invoke
+- ___59-[BKHTMLContentViewController _recheckRemoveAccessApproval]_block_invoke
+- ___59-[BKHTMLContentViewController canPerformAction:withSender:]_block_invoke
+- ___59-[BKSearchViewController tableView:viewForHeaderInSection:]_block_invoke
+- ___59-[BKWK2WebViewLoader _updateContentInformationWithRequest:]_block_invoke
+- ___59-[BKWK2WebViewLoader clientRectForEpubLocation:completion:]_block_invoke
+- ___59-[BKZoomingScrollView zoomToRect:animated:completionBlock:]_block_invoke
+- ___59-[BKZoomingScrollView zoomToRect:animated:completionBlock:]_block_invoke_2
+- ___60-[AEBookProtocolCacheItemProvider clearCacheForDatabaseKey:]_block_invoke
+- ___60-[AEEpubInfoSource metadataForKey:forURL:needsCoordination:]_block_invoke
+- ___60-[AEEpubInfoSource metadataForKey:forURL:needsCoordination:]_block_invoke_2
+- ___60-[AEEpubInfoSource metadataForKey:forURL:needsCoordination:]_block_invoke_3
+- ___60-[AEPictureBookRenderingCache upsellThumbnailForAsset:size:]_block_invoke
+- ___60-[AEPictureBookRenderingCacheOperation2 addExtraCompletion:]_block_invoke
+- ___60-[BKContentViewController rectForAnnotation:withCompletion:]_block_invoke
+- ___60-[BKFlowingBookViewController _performAnimationWithContent:]_block_invoke
+- ___60-[BKFlowingBookViewController _performAnimationWithContent:]_block_invoke_2
+- ___60-[BKFlowingBookViewController _performAnimationWithContent:]_block_invoke_3
+- ___60-[BKFlowingBookViewController _performAnimationWithContent:]_block_invoke_4
+- ___60-[BKFlowingBookViewController _performAnimationWithContent:]_block_invoke_5
+- ___60-[BKFlowingBookViewController _refreshAdornmentsForContent:]_block_invoke
+- ___60-[BKFlowingBookViewController isLocationVisible:completion:]_block_invoke
+- ___60-[BKFlowingBookViewController isLocationVisible:completion:]_block_invoke_2
+- ___60-[BKPictureBookViewController finishedSnapshottingForCache:]_block_invoke
+- ___60-[BKPictureBookViewController finishedSnapshottingForCache:]_block_invoke_2
+- ___60-[BKWK2WebViewLoader pageOffsetRangeForLocation:completion:]_block_invoke
+- ___61-[AEBookProtocolCacheItemProvider clearCacheForDatabaseKeys:]_block_invoke
+- ___61-[BKBookViewController showLookupForString:fromView:onClose:]_block_invoke
+- ___61-[BKBookViewController showLookupForString:fromView:onClose:]_block_invoke_2
+- ___61-[BKContentViewController visibleRectForLocation:completion:]_block_invoke
+- ___61-[BKEPubContentViewController setNeedsRestyleWithCompletion:]_block_invoke
+- ___61-[BKExpandedContentViewController setToolBarHidden:animated:]_block_invoke
+- ___61-[BKExpandedContentViewController setToolBarHidden:animated:]_block_invoke_2
+- ___61-[BKFlowingBookViewController _bookSnapshotFromContentImage:]_block_invoke
+- ___61-[BKFlowingBookViewController turnPages:animated:completion:]_block_invoke
+- ___61-[BKPDFModernBookViewController reloadPDFDocumentCompletion:]_block_invoke
+- ___61-[BKPDFModernBookViewController reloadPDFDocumentCompletion:]_block_invoke_2
+- ___61-[BKPDFModernBookViewController reloadPDFDocumentCompletion:]_block_invoke_3
+- ___61-[BKPDFModernBookViewController saveStateClosing:suspending:]_block_invoke
+- ___61-[BKPDFModernBookViewController saveStateClosing:suspending:]_block_invoke_2
+- ___61-[BKPDFModernBookViewController saveStateClosing:suspending:]_block_invoke_3
+- ___61-[BKPictureBookNavigationController _manualCurlToSinglePage:]_block_invoke
+- ___61-[BKTOCWebViewController2 applyClassName:toOnlyLinkWithHref:]_block_invoke
+- ___61-[BKThumbnailBookViewController updateHUDVisibilityAnimated:]_block_invoke
+- ___61-[BKWK2EpubPaginationLayoutOperation _generatePaginationData]_block_invoke
+- ___61-[BKZoomingScrollView setZoomScale:animated:completionBlock:]_block_invoke
+- ___61-[BKZoomingScrollView setZoomScale:animated:completionBlock:]_block_invoke_2
+- ___62-[AEEpubInfoSource performMainQueueTaskWithNewContextAndWait:]_block_invoke
+- ___62-[AEEpubInfoSource readableBookInfoForDatabaseKey_sync:block:]_block_invoke
+- ___62-[AEEpubInfoSource writableBookInfoForDatabaseKey_sync:block:]_block_invoke
+- ___62-[BKHTMLContentViewController addHighlightToCurrentSelection:]_block_invoke
+- ___62-[BKHTMLContentViewController afterEnsuringFirstPaintPerform:]_block_invoke
+- ___62-[BKPictureBookNavigationController slide:animated:withDelay:]_block_invoke
+- ___62-[BKPictureBookNavigationController slide:animated:withDelay:]_block_invoke_2
+- ___62-[BKPictureBookNavigationController slide:animated:withDelay:]_block_invoke_3
+- ___62-[BKPictureBookVerticalNavigationController _setupScrollView:]_block_invoke
+- ___62-[BKScrollingPageViewController scrollViewDidEndDecelerating:]_block_invoke
+- ___62-[_BKExpandedContentViewControllerAnimator animateTransition:]_block_invoke
+- ___62-[_BKExpandedContentViewControllerAnimator animateTransition:]_block_invoke_2
+- ___63-[AEPictureBookRenderingCacheOperation2 _takeSnapshotWhenReady]_block_invoke
+- ___63-[BKPDFAnnotationCounter countMarkupAnnotationsWithCompletion:]_block_invoke
+- ___63-[BKPDFAnnotationCounter countMarkupAnnotationsWithCompletion:]_block_invoke_2
+- ___63-[BKPaginationPrepareOperation _annotationObjectIDsForOrdinal:]_block_invoke
+- ___63-[BKPictureBookVerticalNavigationController viewForPageNumber:]_block_invoke
+- ___64-[BKBookViewController _controller:handleInternalRequestForURL:]_block_invoke
+- ___64-[BKBookViewController _controller:handleInternalRequestForURL:]_block_invoke_2
+- ___64-[BKBookViewController presentAppearanceViewControllerFromItem:]_block_invoke
+- ___64-[BKBookViewController presentAppearanceViewControllerFromItem:]_block_invoke_2
+- ___64-[BKFlowingBookViewController _compositeSnapshotWithCompletion:]_block_invoke
+- ___64-[BKFlowingBookViewController _compositeSnapshotWithCompletion:]_block_invoke_2
+- ___64-[BKFlowingBookViewController _compositeSnapshotWithCompletion:]_block_invoke_3
+- ___64-[BKHTMLContentViewController _shareAnnotation:annotationRects:]_block_invoke
+- ___64-[BKPDFAnnotationCounter _countMarkupAnnotationsInArray:result:]_block_invoke
+- ___64-[BKPaginationPrepareOperation _annotationsToUpgradeForOrdinal:]_block_invoke
+- ___64-[BKPictureBookViewController displayVerticalScrubberBackground]_block_invoke
+- ___64-[BKTOCWebViewController2 installJavaScriptWithCompletionBlock:]_block_invoke
+- ___65-[BKBookViewController didPurchaseWithProductProfile:completion:]_block_invoke
+- ___65-[BKHTMLContentViewController visibleRectForLocation:completion:]_block_invoke
+- ___65-[BKPictureBookViewController setupBackgroundImageViewWithImage:]_block_invoke
+- ___65-[BKStyleManager observeValueForKeyPath:ofObject:change:context:]_block_invoke
+- ___65-[BKStyleManager observeValueForKeyPath:ofObject:change:context:]_block_invoke_2
+- ___65-[BKViewController dismissCurrentPopoverWithCompletion:animated:]_block_invoke
+- ___65-[BKWK2EpubPaginationLayoutOperation addScriptsToLoader:context:]_block_invoke
+- ___66-[BKFlowingBookViewController _compositeContentOverlaysInContext:]_block_invoke
+- ___66-[BKFlowingBookViewController _updateConfigurationWithCompletion:]_block_invoke
+- ___66-[BKFootnoteViewController2 navigationHandler:didFinishLoadOfURL:]_block_invoke
+- ___66-[BKPaginationOperation performBackgroundAnnotationsBlockAndWait:]_block_invoke
+- ___66-[BKPictureBookViewController animateVerticalScrubberIn:animated:]_block_invoke
+- ___66-[BKPictureBookViewController animateVerticalScrubberIn:animated:]_block_invoke_2
+- ___66-[BKPictureBookViewController animateVerticalScrubberIn:animated:]_block_invoke_3
+- ___66-[BKPictureBookViewController assetViewControllerDidEndLiveResize]_block_invoke
+- ___67-[BKFlowingBookViewController isLocationOnVisiblePages:completion:]_block_invoke
+- ___67-[BKFlowingBookViewController isLocationOnVisiblePages:completion:]_block_invoke_2
+- ___67-[BKTOCWebViewController2 highlightCurrentNodeWithCompletionBlock:]_block_invoke
+- ___68-[AEPDFPlugin showPasswordDialogForBook:transaction:withCompletion:]_block_invoke
+- ___68-[AEPDFPlugin showPasswordDialogForBook:transaction:withCompletion:]_block_invoke_2
+- ___68-[AEPDFPlugin showPasswordDialogForBook:transaction:withCompletion:]_block_invoke_3
+- ___68-[BKActivityIndicatorOverlayView _setAlpha:animated:animationDelay:]_block_invoke
+- ___68-[BKActivityIndicatorOverlayView _setAlpha:animated:animationDelay:]_block_invoke_2
+- ___68-[BKActivityIndicatorOverlayView _setAlpha:animated:animationDelay:]_block_invoke_3
+- ___68-[BKContentViewController rectForAnnotation:visible:withCompletion:]_block_invoke
+- ___68-[BKContentViewController rectForAnnotation:visible:withCompletion:]_block_invoke_2
+- ___68-[BKEPubContentViewController navigationHandler:didFinishLoadOfURL:]_block_invoke
+- ___68-[BKPictureBookViewController _snapshotWithAssetVersion:completion:]_block_invoke
+- ___68-[BKThumbnailBookViewController directoryContent:didSelectLocation:]_block_invoke
+- ___68-[BKThumbnailBookViewController tocViewController:didSelectChapter:]_block_invoke
+- ___68-[BKWK2EpubSearchOperation _startFindPerformIndexingFromMainThread:]_block_invoke
+- ___69-[AEMinimalTemplate evaluateWithData:templateSet:cycleContext:error:]_block_invoke
+- ___69-[AEMinimalTemplate evaluateWithData:templateSet:cycleContext:error:]_block_invoke_2
+- ___69-[BKBookViewController searchViewController:turnToLocation:animated:]_block_invoke
+- ___69-[BKPictureBookViewController hideVerticalScrubberAndResetZoomScale:]_block_invoke
+- ___69-[BKPictureBookViewController hideVerticalScrubberAndResetZoomScale:]_block_invoke_2
+- ___70-[AEBookInfo setSingletonAnnotationType:location:modificationHandler:]_block_invoke
+- ___70-[AEEpubInfoSource newManagedObjectContextWithPrivateQueueConcurrency]_block_invoke
+- ___70-[BKExpandedContentViewControllerAccessibility stopActivityIndicator:]_block_invoke
+- ___70-[BKFlowingBookViewController setControlsVisible:animated:completion:]_block_invoke
+- ___70-[BKHTMLContentViewController _contentForSelectedRangeWithCompletion:]_block_invoke
+- ___70-[BKHTMLContentViewController _contentForSelectedRangeWithCompletion:]_block_invoke_2
+- ___70-[BKHTMLContentViewController buildMenuWithBuilder:inWebView:atPoint:]_block_invoke
+- ___70-[BKHTMLContentViewController buildMenuWithBuilder:inWebView:atPoint:]_block_invoke_2
+- ___70-[BKPictureBookVerticalNavigationController setPageOffset:completion:]_block_invoke
+- ___71-[BKFlowingBookViewController turnToEndOfPreviousChapterWithAnimation:]_block_invoke
+- ___71-[BKHTMLContentViewController isLocationVisible:annotation:completion:]_block_invoke
+- ___71-[BKPaginationPrepareOperation _copyUnpaginatedOrdinalsForAnnotations:]_block_invoke
+- ___71-[BKPaginationPrepareOperation _copyUnpaginatedOrdinalsForAnnotations:]_block_invoke_2
+- ___71-[BKPaginationPrepareOperation _copyUnpaginatedOrdinalsForAnnotations:]_block_invoke_3
+- ___71-[BKSampleUpsellContentViewController buyButton:initialBuy:completion:]_block_invoke
+- ___71-[BKSampleUpsellContentViewController buyButton:initialBuy:completion:]_block_invoke_2
+- ___72-[BKFlowingBookViewController setSection:animated:adjustScrollToReveal:]_block_invoke
+- ___72-[BKTOCRangeAnnotationTableCellAccessibility accessibilityCustomContent]_block_invoke
+- ___72-[BKThumbnailBookViewController setControlsVisible:animated:completion:]_block_invoke
+- ___73-[BKBookViewController _reportResourceUnavailableForBookWithTitle:error:]_block_invoke
+- ___73-[BKEPubContentViewController updateBackgroundColorsWithTraitCollection:]_block_invoke
+- ___73-[BKEPubContentViewController updateBackgroundColorsWithTraitCollection:]_block_invoke_2
+- ___73-[BKHTMLContentViewController _extractSelectedTextWithSender:completion:]_block_invoke
+- ___73-[BKHTMLContentViewController _extractSelectedTextWithSender:completion:]_block_invoke_2
+- ___73-[BKHTMLContentViewController _setupAnnotationRectCachesFromClientRects:]_block_invoke
+- ___73-[BKPDFModernBookViewController scalePDFContent:locationInView:animated:]_block_invoke
+- ___73-[BKPictureBookNavigationController scrollViewWillBeginZooming:withView:]_block_invoke
+- ___73-[BKPictureBookReadingStatisticsCollector navigationInfoHrefsForOrdinal:]_block_invoke
+- ___73-[BKPictureBookVerticalNavigationController snapshotCurrentPageInContext]_block_invoke
+- ___73-[BKScrollingPageViewController scrollViewDidEndDragging:willDecelerate:]_block_invoke
+- ___74-[AEEpubInfoSource bookInfoForDatabaseKey:fromManagedObjectContext:error:]_block_invoke
+- ___74-[BKBookViewController setControlsVisible:animated:animations:completion:]_block_invoke
+- ___74-[BKBookViewController setStatusBarHidden:animated:animations:completion:]_block_invoke
+- ___74-[BKBookViewController setStatusBarHidden:animated:animations:completion:]_block_invoke_2
+- ___74-[BKFlowingBookViewController editorController:showEditMenuForAnnotation:]_block_invoke
+- ___74-[BKFlowingBookViewController editorController:showEditMenuForAnnotation:]_block_invoke_2
+- ___74-[BKHTMLContentViewController _contentRectForLocation:visible:completion:]_block_invoke
+- ___74-[BKHTMLContentViewController _contentRectForLocation:visible:completion:]_block_invoke_2
+- ___74-[BKHTMLContentViewController _highlightLocation:withHighlightType:owner:]_block_invoke
+- ___74-[BKHTMLContentViewController _highlightLocation:withHighlightType:owner:]_block_invoke_2
+- ___74-[BKTOCViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___74-[BKWK2EpubPaginationLayoutOperation scriptsDidCompleteForLoader:context:]_block_invoke
+- ___75-[AEEPubProofingHelper clientManifestGivenHostManifestContainer:stayAlive:]_block_invoke
+- ___75-[AEEpubInfoSource existingBookInfoWithPredicate:fromManagedObjectContext:]_block_invoke
+- ___75-[BKBookContainerView _setupManualCurlForIndirectRecognizerForTranslation:]_block_invoke
+- ___75-[BKBookViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___75-[BKBookViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke_2
+- ___75-[BKFlowingBookViewController _setControlsHiddenState:animated:completion:]_block_invoke
+- ___75-[BKFlowingBookViewController _setControlsHiddenState:animated:completion:]_block_invoke_2
+- ___75-[BKFlowingBookViewController _setControlsHiddenState:animated:completion:]_block_invoke_3
+- ___75-[BKFlowingBookViewController _setControlsHiddenState:animated:completion:]_block_invoke_4
+- ___75-[BKFlowingBookViewController _setControlsHiddenState:animated:completion:]_block_invoke_5
+- ___75-[BKFlowingBookViewController _setControlsHiddenState:animated:completion:]_block_invoke_6
+- ___75-[BKFlowingBookViewController _setControlsHiddenState:animated:completion:]_block_invoke_7
+- ___75-[BKFlowingBookViewController _setControlsHiddenState:animated:completion:]_block_invoke_8
+- ___75-[BKFlowingBookViewController contentViewController:showNoteForAnnotation:]_block_invoke
+- ___75-[BKPictureBookContentViewController navigationHandler:didFinishLoadOfURL:]_block_invoke
+- ___75-[BKPictureBookContentViewController navigationHandler:didFinishLoadOfURL:]_block_invoke_2
+- ___75-[BKThumbnailDirectory viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___75-[BKThumbnailDirectory viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke_2
+- ___75-[BKWK2EpubTOCParseOperation _determineTextDirectionAndParseTOCCIdCssRules]_block_invoke
+- ___76-[BKBookViewController shareAnnotations:fromRect:inView:excerpt:completion:]_block_invoke
+- ___76-[BKBookViewController shareAnnotations:fromRect:inView:excerpt:completion:]_block_invoke_2
+- ___76-[BKExpandedContentViewController dismissViewControllerAnimated:completion:]_block_invoke
+- ___76-[BKExpandedWebContentViewController2 navigationHandler:didFinishLoadOfURL:]_block_invoke
+- ___76-[BKHTMLContentViewController _fetchMissingCfiLocationRects:forAnnotations:]_block_invoke
+- ___76-[BKHTMLContentViewController dummyAnnotationForSelectionWK2WithCompletion:]_block_invoke
+- ___76-[BKPaginationLayoutOperation _populateTOCEntriesFromNavigationInfoAnchors:]_block_invoke
+- ___76-[BKPaginationLayoutOperation _populateTOCEntriesFromNavigationInfoAnchors:]_block_invoke_2
+- ___76-[BKPaginationResultsOperation processAnchors:forEntity:startingPageNumber:]_block_invoke
+- ___77-[BKFlowingBookViewController createSnapshotOfStyle:assetVersion:completion:]_block_invoke
+- ___77-[BKFlowingBookViewController createSnapshotOfStyle:assetVersion:completion:]_block_invoke_2
+- ___77-[BKFlowingBookViewController createSnapshotOfStyle:assetVersion:completion:]_block_invoke_3
+- ___77-[BKFlowingBookViewController createSnapshotOfStyle:assetVersion:completion:]_block_invoke_4
+- ___77-[BKPDFTOCViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___77-[BKPictureBookNavigationController _autoCurlToSinglePageOffset:forwardCurl:]_block_invoke
+- ___77-[BKPictureBookViewController createSnapshotOfStyle:assetVersion:completion:]_block_invoke
+- ___77-[BKPictureBookViewController createSnapshotOfStyle:assetVersion:completion:]_block_invoke_2
+- ___77-[BKSearchViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___77-[BKWK2EpubSearchOperation _webView:didFindMatches:forString:withMatchIndex:]_block_invoke
+- ___78-[BKBookViewController shareAnnotations:fromBarButtonItem:excerpt:completion:]_block_invoke
+- ___78-[BKBookViewController shareAnnotations:fromBarButtonItem:excerpt:completion:]_block_invoke_2
+- ___78-[BKBookViewController shareAnnotations:fromBarButtonItem:excerpt:completion:]_block_invoke_3
+- ___78-[BKBookViewController shareAnnotations:fromBarButtonItem:excerpt:completion:]_block_invoke_4
+- ___78-[BKBookViewController shareAnnotations:fromBarButtonItem:excerpt:completion:]_block_invoke_5
+- ___78-[BKFlowingBookViewController _addNoteForAnnotation:inContent:withCompletion:]_block_invoke
+- ___78-[BKFlowingBookViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke
+- ___78-[BKFlowingBookViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke_2
+- ___78-[BKHTMLContentViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke
+- ___78-[BKPictureBookContentViewController _sendContentInfoRequestToLoadMediaFrames]_block_invoke
+- ___78-[BKPictureBookNavigationController scrollViewDidEndZooming:withView:atScale:]_block_invoke
+- ___79-[BKFlowingBookViewController _createCompositedPageImageForContent:completion:]_block_invoke
+- ___79-[BKHTMLContentViewController navigationHandlerFirstSignificantPaintCompleted:]_block_invoke
+- ___80+[UIViewController(PDFPageViewController_Private) be_PDFPageViewControllerClass]_block_invoke
+- ___80-[AEAudiobookPlaybackRateViewControllerAccessibility accessibilityPerformEscape]_block_invoke
+- ___80-[AEBookInfoAssetPlugin helper:canRefetch:viewControllerWithOptions:completion:]_block_invoke
+- ___80-[AEBookInfoAssetPlugin helper:canRefetch:viewControllerWithOptions:completion:]_block_invoke_2
+- ___80-[AEBookInfoAssetPlugin helper:canRefetch:viewControllerWithOptions:completion:]_block_invoke_3
+- ___80-[BKBookViewController contentViewController:showHighlightingMenuForAnnotation:]_block_invoke
+- ___80-[BKBookViewController contentViewController:showHighlightingMenuForAnnotation:]_block_invoke_2
+- ___80-[BKFlowingBookViewController _selectCFI:inContentViewController:onlyIfVisible:]_block_invoke
+- ___80-[BKFlowingBookViewController _selectCFI:inContentViewController:onlyIfVisible:]_block_invoke_2
+- ___81-[BKAppearanceFontViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke
+- ___81-[BKBookContainerView gestureRecognizer:shouldRequireFailureOfGestureRecognizer:]_block_invoke
+- ___81-[BKBookViewController _newBADoNotDisturbDataWithStartStatus:tracker:completion:]_block_invoke
+- ___81-[BKFlowingBookViewController pageTurningViewController:beginManualCurl:onReady:]_block_invoke
+- ___81-[BKFlowingBookViewController pageTurningViewController:beginManualCurl:onReady:]_block_invoke_2
+- ___81-[BKFlowingBookViewController pageTurningViewController:beginManualCurl:onReady:]_block_invoke_3
+- ___81-[BKTOCContentViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___81-[BKTOCContentViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke_2
+- ___81-[BKWK2EpubSearchOperation _addResultsWithPhysicalPageHrefs:selectedRangeResult:]_block_invoke
+- ___82-[BEPageSnapshotCache _scheduleRenderWithKey:size:pageNumber:priority:completion:]_block_invoke
+- ___82-[BKHTMLContentViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___83-[BKHTMLContentViewController adjustedItemProvidersWithCitation:withExcerptString:]_block_invoke
+- ___83-[BKHTMLContentViewController adjustedItemProvidersWithCitation:withExcerptString:]_block_invoke_2
+- ___83-[BKTOCWebViewController2 webView:decidePolicyForNavigationAction:decisionHandler:]_block_invoke
+- ___83-[BKThumbnailBookViewController _traitCollectionDidChange:previousTraitCollection:]_block_invoke
+- ___84-[BKBookViewController contentViewController:showTranslateForText:fromView:onClose:]_block_invoke
+- ___84-[BKBookViewController contentViewController:showTranslateForText:fromView:onClose:]_block_invoke_2
+- ___84-[BKPDFModernBookViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___84-[BKPDFModernBookViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke_2
+- ___84-[BKPictureBookNavigationController contentViewImage:afterScreenUpdates:completion:]_block_invoke
+- ___84-[BKPictureBookNavigationController contentViewImage:afterScreenUpdates:completion:]_block_invoke_2
+- ___84-[BKScrollingPageViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___84-[BKScrollingPageViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke_2
+- ___84-[BKThumbnailBookViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___84-[BKThumbnailBookViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke_2
+- ___85-[AEBookInfoAssetPlugin helper:validateBookAuthorizationWithError:needsCoordination:]_block_invoke
+- ___85-[BKCatalystAppearanceViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke
+- ___85-[BKEpubBookParser constructBKDocumentWithReadable:chapters:landmarks:physicalPages:]_block_invoke
+- ___86+[UIViewController(PDFPageViewController_Private) be_enablePDFPageViewControllerHacks]_block_invoke
+- ___86-[BKExpandedWebContentViewController2 observeValueForKeyPath:ofObject:change:context:]_block_invoke
+- ___86-[BKPaginationResultsOperation _updateAnnotation:pageRange:lookupKey:annotationRects:]_block_invoke
+- ___87-[AEAssetMetadataCache coverWritingModeLanguageAndPageProgressionDirectionFromAssetID:]_block_invoke
+- ___87-[BKEPubContentViewController contentInfoRequestForCurrentConfigurationWithCompletion:]_block_invoke
+- ___87-[BKPageTurningViewController bookContainerView:beginManualCurl:atLocation:completion:]_block_invoke
+- ___88-[BKHTMLContentViewController _bookmarkSelectionAndAnnotate:showColorEditor:completion:]_block_invoke
+- ___88-[BKHTMLContentViewController _bookmarkSelectionAndAnnotate:showColorEditor:completion:]_block_invoke_2
+- ___88-[BKPictureBookNavigationController _adjustToNewSize:withOptionalTransitionCoordinator:]_block_invoke
+- ___88-[BKPictureBookNavigationController _adjustToNewSize:withOptionalTransitionCoordinator:]_block_invoke_2
+- ___88-[BKPictureBookNavigationController _adjustToNewSize:withOptionalTransitionCoordinator:]_block_invoke_3
+- ___89-[BKBookViewController contentViewController:shareAnnotation:annotationRects:completion:]_block_invoke
+- ___89-[BKPictureBookContentViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___89-[BKPictureBookNavigationController _insertDestinationSnapshotImageUnderCurrentPageCurl:]_block_invoke
+- ___90-[BKBookViewController controller:didChangeObject:atIndexPath:forChangeType:newIndexPath:]_block_invoke
+- ___90-[BKWebViewProxy _wk2_scrollToPage:paginationMode:pageProgressionDirection:configuration:]_block_invoke
+- ___91-[ICStoreRequestContext(AEBookPlugins) ae_initWithActiveAccountAllowAuthenticationOnceADay]_block_invoke
+- ___92-[AEAssetMetadataCache saveTitle:author:genre:language:pageProgressionDirection:forAssetID:]_block_invoke
+- ___92-[BKPictureBookVerticalNavigationController contentViewImage:afterScreenUpdates:completion:]_block_invoke
+- ___92-[BKPictureBookVerticalNavigationController contentViewImage:afterScreenUpdates:completion:]_block_invoke_2
+- ___92-[BKPictureBookVerticalNavigationController contentViewImage:afterScreenUpdates:completion:]_block_invoke_3
+- ___92-[BKPictureBookVerticalNavigationController contentViewImage:afterScreenUpdates:completion:]_block_invoke_4
+- ___92-[BKPictureBookVerticalNavigationController contentViewImage:afterScreenUpdates:completion:]_block_invoke_5
+- ___92-[UIGestureRecognizer(UIGestureRecognizer_BKAdditions) bk_isWKSyntheticTapGestureRecognizer]_block_invoke
+- ___95-[AEEpubInfoSource bookInfoForURL:fromManagedObjectContext:error:needsCoordination:updateDate:]_block_invoke
+- ___95-[AEEpubInfoSource bookInfoForURL:fromManagedObjectContext:error:needsCoordination:updateDate:]_block_invoke_2
+- ___95-[AEEpubInfoSource bookInfoForURL:fromManagedObjectContext:error:needsCoordination:updateDate:]_block_invoke_3
+- ___95-[AEEpubInfoSource bookInfoForURL:fromManagedObjectContext:error:needsCoordination:updateDate:]_block_invoke_4
+- ___96-[BKBookViewController _showExpandedContentForResource:atLocation:presentingFromTOC:completion:]_block_invoke
+- ___96-[BKPictureBookVerticalNavigationController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___96-[BKPictureBookVerticalNavigationController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke_2
+- ___96-[BKPictureBookVerticalNavigationController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke_3
+- ___97-[BKEPubContentViewController _ensureLocationVisible:adjustForSearchResultRevealMode:completion:]_block_invoke
+- ___97-[BKHTMLContentViewController controller:didChangeObject:atIndexPath:forChangeType:newIndexPath:]_block_invoke
+- ___97-[BKPictureBookViewController pageNavigationController:shouldDelayChangeToPageOffset:completion:]_block_invoke
+- ___AEBundle_block_invoke
+- ___BKActionControllerLog_block_invoke
+- ___BKScreenScale_block_invoke
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___SharedInstance
+- ____AEAnnotationLocationLog_block_invoke
+- ____AEBookOpenLog_block_invoke
+- ____AEBookPluginsAnnotationsLog_block_invoke
+- ____AEBookPluginsAudiobookLog_block_invoke
+- ____AEBookPluginsFontCacheLog_block_invoke
+- ____AEBookPluginsLifeCycleLog_block_invoke
+- ____AEBookPluginsPageTurnLog_block_invoke
+- ____AEBookPluginsRTLLog_block_invoke
+- ____AEBookPluginsScrollLog_block_invoke
+- ____AECaptureLocationLog_block_invoke
+- ____AELog_block_invoke
+- ____AENavigationControllerLog_block_invoke
+- ____AEPaginationLog_block_invoke
+- ____AEPanGRLog_block_invoke
+- ____AERePaginationLog_block_invoke
+- ____AESearchLog_block_invoke
+- ____AESwipeLog_block_invoke
+- ____AEWKLoaderLog_block_invoke
+- ____AEWKPictureBookLog_block_invoke
+- ____AEWKProxyLog_block_invoke
+- ____AEWKThumbnailBookLog_block_invoke
+- ____AEWKTocParseLog_block_invoke
+- ____ContentInfoRectTransformBlock_block_invoke
+- ____ContentInfoSizTransformBlock_block_invoke
+- ____ITEpubParsingLog_block_invoke
+- ___block_descriptor_105_ea8_32s40s48s56s64s72s80s88bs96bs_e17_v16?0"NSError"8ls32l8s40l8s88l8s48l8s56l8s64l8s72l8s80l8s96l8
+- ___block_descriptor_113_e8_32s40s48s56s64s72w_e17_v16?0"UIImage"8lw72l8s32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_121_ea8_32s40s48s56s64s72s80s88bs96bs104r112r_e36_v16?0"AEBookManagedObjectContext"8lr104l8r112l8s32l8s40l8s48l8s56l8s64l8s72l8s88l8s96l8s80l8
+- ___block_descriptor_146_e8_32s40s48bs56w_e17_v16?0"UIImage"8lw56l8s32l8s40l8s48l8
+- ___block_descriptor_218_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_32_e11_q24?0d8d16l
+- ___block_descriptor_32_e15_v32?08Q16^B24l
+- ___block_descriptor_32_e20_v24?08"NSError"16l
+- ___block_descriptor_32_e21_v16?0"UITextField"8l
+- ___block_descriptor_32_e24_v32?08"IMTheme"16^B24l
+- ___block_descriptor_32_e26_"NSArray"16?0"NSArray"8l
+- ___block_descriptor_32_e30_v16?0"IMConfigurationAdder"8l
+- ___block_descriptor_32_e31_v16?0"ICStoreRequestContext"8l
+- ___block_descriptor_32_e32_v16?0"NSManagedObjectContext"8l
+- ___block_descriptor_32_e33_B24?0"UIView"8"NSDictionary"16l
+- ___block_descriptor_32_e36_"UIColor"16?0"UITraitCollection"8l
+- ___block_descriptor_32_e37_v16?0"BEEvaluateJavaScriptContext"8l
+- ___block_descriptor_32_e39_"NSValue"24?0"NSObject"8"NSError"16l
+- ___block_descriptor_32_e40_v32?0"UIView<BEKindOfWebView>"8Q16^B24l
+- ___block_descriptor_32_e42_v20?0"BKWK2LoaderContentInfoRequest"8B16l
+- ___block_descriptor_32_e44_"NSDictionary"24?0"NSObject"8"NSError"16l
+- ___block_descriptor_32_e56_v24?0"BKHTMLContentViewController"8"<AEAnnotation>"16l
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_32_e8_16?08l
+- ___block_descriptor_32_e8_v12?0B8l
+- ___block_descriptor_32_e8_v16?08l
+- ___block_descriptor_40_e15_B32?08Q16^B24l
+- ___block_descriptor_40_e39_v40?0{CGRect={CGPoint=dd}{CGSize=dd}}8l
+- ___block_descriptor_40_e5_v8?0l
+- ___block_descriptor_40_e8_32bs_e17_v16?0"NSError"8ls32l8
+- ___block_descriptor_40_e8_32bs_e17_v16?0"UIImage"8ls32l8
+- ___block_descriptor_40_e8_32bs_e20_v16?0"CLSContext"8ls32l8
+- ___block_descriptor_40_e8_32bs_e20_v24?08"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e25_v16?0"AEAssetSnapshot"8ls32l8
+- ___block_descriptor_40_e8_32bs_e29_v24?0"NSValue"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e29_v24?0"UIImage"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e34_v24?0"NSDictionary"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e39_v40?0{CGRect={CGPoint=dd}{CGSize=dd}}8ls32l8
+- ___block_descriptor_40_e8_32bs_e41_v32?0"NSArray"8"NSArray"16"NSError"24ls32l8
+- ___block_descriptor_40_e8_32bs_e42_v16?0"AEAnnotationManagedObjectContext"8ls32l8
+- ___block_descriptor_40_e8_32bs_e42_v20?0"BKWK2LoaderContentInfoRequest"8B16ls32l8
+- ___block_descriptor_40_e8_32bs_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8ls32l8
+- ___block_descriptor_40_e8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32bs_e8_v12?0B8ls32l8
+- ___block_descriptor_40_e8_32r_e23_v32?0"BKFont"8Q16^B24lr32l8
+- ___block_descriptor_40_e8_32r_e29_v32?0"NSDictionary"8Q16^B24lr32l8
+- ___block_descriptor_40_e8_32r_e40_v32?0"BKContentViewController"8Q16^B24lr32l8
+- ___block_descriptor_40_e8_32r_e50_v24?0"NSPersistentStoreDescription"8"NSError"16lr32l8
+- ___block_descriptor_40_e8_32s_e15_v32?08Q16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e17_v16?0"UIImage"8ls32l8
+- ___block_descriptor_40_e8_32s_e18_v16?0"NSString"8ls32l8
+- ___block_descriptor_40_e8_32s_e19_v24?0"NSURL"8^B16ls32l8
+- ___block_descriptor_40_e8_32s_e20_v16?0"AEBookInfo"8ls32l8
+- ___block_descriptor_40_e8_32s_e21_Q24?0Q8"NSString"16ls32l8
+- ___block_descriptor_40_e8_32s_e21_v20?0"NSString"8B16ls32l8
+- ___block_descriptor_40_e8_32s_e21_v24?0"NSString"8:16ls32l8
+- ___block_descriptor_40_e8_32s_e22_v16?0"AEAnnotation"8ls32l8
+- ___block_descriptor_40_e8_32s_e22_v16?0"NSDictionary"8ls32l8
+- ___block_descriptor_40_e8_32s_e27_q24?0"UIView"8"UIView"16ls32l8
+- ___block_descriptor_40_e8_32s_e27_v32?0"BKDocument"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e29_B32?0Q8^{CGPDFObject=}16^v24ls32l8
+- ___block_descriptor_40_e8_32s_e32_v16?0"NSManagedObjectContext"8ls32l8
+- ___block_descriptor_40_e8_32s_e34_v24?0"NSDictionary"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32s_e35_v16?0"<BCUIHoverRegionBuilding>"8ls32l8
+- ___block_descriptor_40_e8_32s_e39_v32?0"NSString"8"NSDictionary"16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e40_v16?0"UIGraphicsImageRendererContext"8ls32l8
+- ___block_descriptor_40_e8_32s_e41_B24?0"<AEAnnotation>"8"NSDictionary"16ls32l8
+- ___block_descriptor_40_e8_32s_e41_v40?0"NSDictionary"8{_NSRange=QQ}16^B32ls32l8
+- ___block_descriptor_40_e8_32s_e42_v20?0"BKWK2LoaderContentInfoRequest"8B16ls32l8
+- ___block_descriptor_40_e8_32s_e43_"NSMutableDictionary"16?0"NSDictionary"8ls32l8
+- ___block_descriptor_40_e8_32s_e43_v16?0"NSObject<BKEpubManualCurlGesture>"8ls32l8
+- ___block_descriptor_40_e8_32s_e44_v32?0"NSString"8"NSString"16"NSString"24ls32l8
+- ___block_descriptor_40_e8_32s_e45_"NSProgress"16?0?<v?"NSData""NSError">8ls32l8
+- ___block_descriptor_40_e8_32s_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32s_e8_v12?0B8ls32l8
+- ___block_descriptor_40_e8_32s_e8_v16?08ls32l8
+- ___block_descriptor_40_e8_32w_e14_v16?0?<v?>8lw32l8
+- ___block_descriptor_40_e8_32w_e17_v16?0"UIImage"8lw32l8
+- ___block_descriptor_40_e8_32w_e18_v16?0"NSString"8lw32l8
+- ___block_descriptor_40_e8_32w_e20_v20?0B8"NSError"12lw32l8
+- ___block_descriptor_40_e8_32w_e20_v24?08"NSError"16lw32l8
+- ___block_descriptor_40_e8_32w_e21_v20?0"NSString"8B16lw32l8
+- ___block_descriptor_40_e8_32w_e26_v24?0"NSError"8?<v?>16lw32l8
+- ___block_descriptor_40_e8_32w_e29_v24?0"UIImage"8"NSError"16lw32l8
+- ___block_descriptor_40_e8_32w_e30_v24?0"NSString"8"NSError"16lw32l8
+- ___block_descriptor_40_e8_32w_e32_v28?0"NSString"8"UIView"16B24lw32l8
+- ___block_descriptor_40_e8_32w_e32_v32?08"NSArray"16"NSError"24lw32l8
+- ___block_descriptor_40_e8_32w_e34_v24?0"NSDictionary"8"NSError"16lw32l8
+- ___block_descriptor_40_e8_32w_e35_v24?0"BCLightLevelController"816lw32l8
+- ___block_descriptor_40_e8_32w_e37_v16?0"BEEvaluateJavaScriptContext"8lw32l8
+- ___block_descriptor_40_e8_32w_e38_v16?0"BKPDFAnnotationCounterResult"8lw32l8
+- ___block_descriptor_40_e8_32w_e38_v24?0"VKCImageAnalysis"8"NSError"16lw32l8
+- ___block_descriptor_40_e8_32w_e52_v24?0"AEUserPublishingProductProfile"8"NSError"16lw32l8
+- ___block_descriptor_40_e8_32w_e5_v8?0lw32l8
+- ___block_descriptor_40_e8_32w_e8_v12?0B8lw32l8
+- ___block_descriptor_40_e8_32w_e8_v16?0q8lw32l8
+- ___block_descriptor_41_e8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_41_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_41_e8_32w_e25_v16?0"BKPageAnimation"8lw32l8
+- ___block_descriptor_41_e8_32w_e5_v8?0lw32l8
+- ___block_descriptor_42_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_44_e8_32s_e28_B20?0I8^{__CFDictionary=}12ls32l8
+- ___block_descriptor_48_e31_v24?0"NSString"8"NSString"16l
+- ___block_descriptor_48_e5_v8?0l
+- ___block_descriptor_48_e8_32bs40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32bs40r_e5_v8?0ls32l8r40l8
+- ___block_descriptor_48_e8_32bs40w_e20_v24?08"NSError"16lw40l8s32l8
+- ___block_descriptor_48_e8_32bs40w_e32_v32?08"NSArray"16"NSError"24lw40l8s32l8
+- ___block_descriptor_48_e8_32bs40w_e43_v16?0"BEEvaluateJavaScriptResultContext"8lw40l8s32l8
+- ___block_descriptor_48_e8_32bs40w_e5_v8?0lw40l8s32l8
+- ___block_descriptor_48_e8_32bs40w_e8_v12?0B8lw40l8s32l8
+- ___block_descriptor_48_e8_32bs_e29_B32?0Q8^{CGPDFObject=}16^v24ls32l8
+- ___block_descriptor_48_e8_32bs_e8_v12?0B8ls32l8
+- ___block_descriptor_48_e8_32r40r_e5_v8?0lr32l8r40l8
+- ___block_descriptor_48_e8_32r40w_e17_v16?0"UIImage"8lw40l8r32l8
+- ___block_descriptor_48_e8_32s40bs_e20_v20?0B8"NSError"12ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e20_v24?08"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e20_v24?0{_NSRange=QQ}8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e23_v16?0"UIAlertAction"8ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e29_v24?0"UIImage"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e29_v32?0"NSDictionary"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e34_v24?0"NSDictionary"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e34_v24?0"NSDictionary"8"NSError"16ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e36_v16?0"AEBookManagedObjectContext"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e39_v40?0{CGRect={CGPoint=dd}{CGSize=dd}}8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e42_v20?0"BKWK2LoaderContentInfoRequest"8B16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e8_v12?0B8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e8_v12?0B8ls40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e15_B32?08Q16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e17_v16?0"UIImage"8lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e24_v32?0"PDFPage"8Q16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e29_v32?0"NSDictionary"8Q16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e32_v16?0"NSManagedObjectContext"8lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e32_v16?0"NSManagedObjectContext"8ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e42_v16?0"AEAnnotationManagedObjectContext"8ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e50_v24?0"NSPersistentStoreDescription"8"NSError"16ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e5_v8?0lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e5_v8?0ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e8_v12?0B8lr40l8s32l8
+- ___block_descriptor_48_e8_32s40s_e12_v24?0Q8^B16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e17_v16?0"NSError"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e20_v16?0"AEBookInfo"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e22_v16?0"AEAnnotation"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e23_v16?0"UIAlertAction"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e25_v32?0"NSString"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e26_v16?0^{CGPDFDictionary=}8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e28_B20?0I8^{__CFDictionary=}12ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e32_v16?0"NSManagedObjectContext"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e39_v40?0{CGRect={CGPoint=dd}{CGSize=dd}}8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e40_"_UIBackgroundViewConfiguration"16?0Q8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e40_v16?0"UIGraphicsImageRendererContext"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e8_v12?0B8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40w_e18_v16?0"UIAction"8lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e20_v24?08"NSError"16lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e22_v16?0"AEAnnotation"8lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e29_v24?0"UIImage"8"NSError"16lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e34_v24?0"NSDictionary"8"NSError"16lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e39_v40?0{CGRect={CGPoint=dd}{CGSize=dd}}8lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e49_v32?0"UIContextualAction"8"UIView"16?<v?B>24lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e5_v8?0ls32l8w40l8
+- ___block_descriptor_48_e8_32s40w_e5_v8?0lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e8_v12?0B8lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e8_v16?08lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e8_v16?0q8lw40l8s32l8
+- ___block_descriptor_48_e8_32s_e31_24?0"NSString"8"NSString"16ls32l8
+- ___block_descriptor_48_e8_32s_e32_v16?0"NSManagedObjectContext"8ls32l8
+- ___block_descriptor_48_e8_32s_e40_v16?0"BKPictureBookPageContainerView"8ls32l8
+- ___block_descriptor_48_e8_32s_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8ls32l8
+- ___block_descriptor_48_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_48_e8_32s_e8_v12?0B8ls32l8
+- ___block_descriptor_48_ea8_32s40r_e18_v16?0"NSString"8ls32l8r40l8
+- ___block_descriptor_49_e8_32bs40w_e5_v8?0lw40l8s32l8
+- ___block_descriptor_49_e8_32s40bs_e21_v20?0"NSString"8B16ls32l8s40l8
+- ___block_descriptor_49_e8_32s40bs_e55_v40?0"UIImage"8"NSString"16"UIImage"24"NSString"32ls40l8s32l8
+- ___block_descriptor_49_e8_32s40bs_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8ls32l8s40l8
+- ___block_descriptor_49_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_49_e8_32s40s_e17_v16?0"UIImage"8ls32l8s40l8
+- ___block_descriptor_49_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_49_e8_32s40s_e8_v12?0B8ls32l8s40l8
+- ___block_descriptor_49_e8_32s40w_e5_v8?0lw40l8s32l8
+- ___block_descriptor_50_e8_32bs40w_e34_v24?0"NSDictionary"8"NSError"16lw40l8s32l8
+- ___block_descriptor_50_e8_32s40bs_e11_q24?0816ls32l8s40l8
+- ___block_descriptor_50_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_51_e8_32bs40w_e5_v8?0lw40l8s32l8
+- ___block_descriptor_52_e8_32s40r_e32_v16?0"NSManagedObjectContext"8ls32l8r40l8
+- ___block_descriptor_56_e8_32bs40r48w_e24_v16?0"NSNotification"8lw48l8r40l8s32l8
+- ___block_descriptor_56_e8_32s40bs48w_e17_v16?0"UIImage"8lw48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40bs48w_e20_v24?08"NSError"16lw48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40bs48w_e34_v24?0"NSDictionary"8"NSError"16lw48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40bs48w_e8_v12?0B8lw48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_56_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_56_e8_32s40r48r_e32_v16?0"NSManagedObjectContext"8lr40l8s32l8r48l8
+- ___block_descriptor_56_e8_32s40r48r_e32_v16?0"NSManagedObjectContext"8ls32l8r40l8r48l8
+- ___block_descriptor_56_e8_32s40r_e32_v16?0"NSManagedObjectContext"8ls32l8r40l8
+- ___block_descriptor_56_e8_32s40s48bs_e17_v16?0"UIImage"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e18_v16?0"NSString"8ls32l8s48l8s40l8
+- ___block_descriptor_56_e8_32s40s48bs_e20_v24?08"NSError"16ls32l8s48l8s40l8
+- ___block_descriptor_56_e8_32s40s48bs_e23_v16?0"UIAlertAction"8ls32l8s48l8s40l8
+- ___block_descriptor_56_e8_32s40s48bs_e29_v24?0"NSArray"8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e29_v24?0"NSValue"8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e34_v24?0"UIImage"8"NSDictionary"16ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48bs_e8_v16?0Q8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48r_e32_v16?0"NSManagedObjectContext"8ls32l8s40l8r48l8
+- ___block_descriptor_56_e8_32s40s48r_e33_v32?0"BKNavigationInfo"8Q16^B24ls32l8r48l8s40l8
+- ___block_descriptor_56_e8_32s40s48r_e36_v16?0"AEBookManagedObjectContext"8ls32l8r48l8s40l8
+- ___block_descriptor_56_e8_32s40s48r_e5_v8?0lr48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48r_e5_v8?0ls32l8r48l8s40l8
+- ___block_descriptor_56_e8_32s40s48r_e5_v8?0ls32l8s40l8r48l8
+- ___block_descriptor_56_e8_32s40s48r_e8_v12?0B8lr48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48s_e17_v16?0"UIImage"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e36_v16?0"AEBookManagedObjectContext"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e40_v16?0"UIGraphicsImageRendererContext"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e8_v12?0B8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48w_e18_v16?0"UIButton"8lw48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48w_e29_v24?0"NSArray"8"NSError"16lw48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48w_e42_v20?0"BKWK2LoaderContentInfoRequest"8B16lw48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48w_e43_v16?0"BEEvaluateJavaScriptResultContext"8lw48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48w_e49_v32?0"UIContextualAction"8"UIView"16?<v?B>24lw48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48w_e5_v8?0ls32l8s40l8w48l8
+- ___block_descriptor_56_e8_32s40s48w_e5_v8?0lw48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48w_e8_v12?0B8ls32l8s40l8w48l8
+- ___block_descriptor_56_e8_32s40s_e34_v32?0"NSString"8"NSValue"16^B24ls32l8s40l8
+- ___block_descriptor_56_e8_32s40w_e11_v16?0B8B12lw40l8s32l8
+- ___block_descriptor_56_e8_32s40w_e42_v20?0"BKWK2LoaderContentInfoRequest"8B16ls32l8w40l8
+- ___block_descriptor_56_e8_32s_e40_v16?0"UIGraphicsImageRendererContext"8ls32l8
+- ___block_descriptor_56_e8_32s_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8ls32l8
+- ___block_descriptor_56_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_56_ea8_32s40bs48r_e71_v32?0"UIViewController<AEAssetViewController>"8"NSURL"16"NSError"24lr48l8s32l8s40l8
+- ___block_descriptor_56_ea8_32s40s48s_e15_v32?08Q16^B24ls32l8s40l8s48l8
+- ___block_descriptor_57_e8_32s40bs48w_e29_v24?0"UIImage"8"NSError"16lw48l8s32l8s40l8
+- ___block_descriptor_57_e8_32s40r48r_e5_v8?0lr40l8s32l8r48l8
+- ___block_descriptor_57_e8_32s40s48bs_e17_v16?0"UIImage"8ls32l8s40l8s48l8
+- ___block_descriptor_57_e8_32s40s48bs_e5_v8?0ls32l8s48l8s40l8
+- ___block_descriptor_57_e8_32s40s48r_e5_v8?0ls32l8s40l8r48l8
+- ___block_descriptor_57_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_57_e8_32s40s48w_e5_v8?0lw48l8s32l8s40l8
+- ___block_descriptor_57_e8_32s40s48w_e8_v12?0B8lw48l8s32l8s40l8
+- ___block_descriptor_57_e8_32s_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8ls32l8
+- ___block_descriptor_58_e8_32s40s48r_e5_v8?0ls32l8s40l8r48l8
+- ___block_descriptor_59_e8_32s40s48bs_e39_v40?0{CGRect={CGPoint=dd}{CGSize=dd}}8ls32l8s40l8s48l8
+- ___block_descriptor_59_e8_32s40s48w_e8_v12?0B8lw48l8s32l8s40l8
+- ___block_descriptor_59_e8_32s_e40_v16?0"UIGraphicsImageRendererContext"8ls32l8
+- ___block_descriptor_60_e8_32s40s48bs_e42_v16?0"AEAnnotationManagedObjectContext"8ls32l8s40l8s48l8
+- ___block_descriptor_60_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_64_e42_B24?0"AEHighlightLine"8"NSDictionary"16l
+- ___block_descriptor_64_e8_32r40r48r_e5_v8?0lr32l8r40l8r48l8
+- ___block_descriptor_64_e8_32s40r48w_e8_v12?0B8lw48l8r40l8s32l8
+- ___block_descriptor_64_e8_32s40r_e5_v8?0ls32l8r40l8
+- ___block_descriptor_64_e8_32s40s48bs56r_e20_v16?0"AEBookInfo"8lr56l8s32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48bs56r_e36_v16?0"AEBookManagedObjectContext"8lr56l8s32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48bs56w_e17_v16?0"UIImage"8lw56l8s32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48bs56w_e20_v24?08"NSError"16lw56l8s48l8s32l8s40l8
+- ___block_descriptor_64_e8_32s40s48bs56w_e5_v8?0ls32l8w56l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48bs56w_e5_v8?0lw56l8s32l8s48l8s40l8
+- ___block_descriptor_64_e8_32s40s48bs56w_e8_v12?0B8lw56l8s32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48r56r_e5_v8?0lr48l8s32l8s40l8r56l8
+- ___block_descriptor_64_e8_32s40s48r_e33_v32?0"BKNavigationInfo"8Q16^B24lr48l8s32l8s40l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e39_v40?0{CGRect={CGPoint=dd}{CGSize=dd}}8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0ls32l8s40l8s56l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56s_e32_v16?0"NSManagedObjectContext"8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56w_e41_v32?0"NSArray"8"NSArray"16"NSError"24lw56l8s32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s_e37_v16?0"BEEvaluateJavaScriptContext"8ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48w_e26_v24?0"NSError"8?<v?>16lw48l8s32l8s40l8
+- ___block_descriptor_64_e8_32s40s48w_e8_v12?0B8lw48l8s32l8s40l8
+- ___block_descriptor_64_e8_32s40w_e8_v16?0q8lw40l8s32l8
+- ___block_descriptor_64_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_64_e8_32w40w_e17_v16?0"UIImage"8lw32l8w40l8
+- ___block_descriptor_64_ea8_32c83_ZTSZ69-[AEMinimalTemplate evaluateWithData:templateSet:cycleContext:error:]E5Frame_e22_B24?0^8"NSString"16l
+- ___block_descriptor_64_ea8_32s40r48r_e15_v32?0816^B24lr40l8s32l8r48l8
+- ___block_descriptor_64_ea8_32s40s48r_e31_v16?0"AEMinimalTemplateStep"8lr48l8s32l8s40l8
+- ___block_descriptor_64_ea8_32s40s48s56bs_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_ea8_32s40s48s56r_e36_v16?0"AEBookManagedObjectContext"8ls32l8s40l8s48l8r56l8
+- ___block_descriptor_65_e8_32s40s48bs56w_e39_v40?0{CGRect={CGPoint=dd}{CGSize=dd}}8lw56l8s32l8s40l8s48l8
+- ___block_descriptor_65_e8_32s40s48s56bs_e41_v32?0"NSArray"8"NSArray"16"NSError"24ls32l8s40l8s48l8s56l8
+- ___block_descriptor_65_e8_32s40s48s56bs_e5_v8?0ls32l8s40l8s56l8s48l8
+- ___block_descriptor_65_e8_32s40s48s56r_e36_v16?0"AEBookManagedObjectContext"8ls32l8s40l8s48l8r56l8
+- ___block_descriptor_65_ea8_32s40s48r_e36_v16?0"AEBookManagedObjectContext"8ls32l8s40l8r48l8
+- ___block_descriptor_68_e8_32s40s48s56s_e24_v32?0"NSValue"8Q16^B24ls32l8s40l8s48l8s56l8
+- ___block_descriptor_68_e8_32s40s48s56s_e32_v16?0"NSManagedObjectContext"8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_68_e8_32s40s48s56w_e41_v32?0"NSArray"8"NSArray"16"NSError"24lw56l8s32l8s40l8s48l8
+- ___block_descriptor_68_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_72_e8_32s40bs48w_e22_v20?0"WKWebView"8i16ls32l8w48l8s40l8
+- ___block_descriptor_72_e8_32s40bs48w_e5_v8?0lw48l8s32l8s40l8
+- ___block_descriptor_72_e8_32s40s48bs56r64r_e5_v8?0lr56l8s32l8s40l8s48l8r64l8
+- ___block_descriptor_72_e8_32s40s48s56r64r_e28_v16?0"BADoNotDisturbData"8ls32l8s40l8r56l8r64l8s48l8
+- ___block_descriptor_72_e8_32s40s48s56s64bs_e17_v16?0"NSError"8ls32l8s40l8s64l8s48l8s56l8
+- ___block_descriptor_72_e8_32s40s48s56s64s_e20_v16?0"AEBookInfo"8ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_72_e8_32s40s48s56s64s_e37_v16?0"BEEvaluateJavaScriptContext"8ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_72_e8_32s40s48s56w_e39_v40?0{CGRect={CGPoint=dd}{CGSize=dd}}8lw56l8s32l8s40l8s48l8
+- ___block_descriptor_72_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_72_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_73_e8_32s40s48s56bs64w_e5_v8?0lw64l8s32l8s40l8s56l8s48l8
+- ___block_descriptor_73_e8_32s40s48s56s64bs_e5_v8?0ls32l8s40l8s64l8s48l8s56l8
+- ___block_descriptor_73_e8_32s40s48s56s64s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_74_e8_32s40bs48w_e66_v36?0B8"BKPageBookCurlView"12"NSArray"20"BKPageBookCurlView"28lw48l8s32l8s40l8
+- ___block_descriptor_74_e8_32s40s48bs56r64w_e20_v24?08"NSError"16lw64l8s32l8s40l8r56l8s48l8
+- ___block_descriptor_74_e8_32s40s48bs56r64w_e34_v24?0"NSDictionary"8"NSError"16lw64l8s32l8s40l8r56l8s48l8
+- ___block_descriptor_74_e8_32s40w48w_e5_v8?0lw40l8w48l8s32l8
+- ___block_descriptor_76_e8_32s40s48s56s_e32_v16?0"NSManagedObjectContext"8ls32l8s40l8u64l8s48l8s56l8
+- ___block_descriptor_80_e8_32s40s48bs56r64w_e8_v12?0B8lw64l8s48l8s32l8s40l8r56l8
+- ___block_descriptor_80_e8_32s40s48s56r64r72r_e36_v16?0"AEBookManagedObjectContext"8ls32l8s40l8r56l8s48l8r64l8r72l8
+- ___block_descriptor_80_e8_32s40s48s56s64bs_e17_v16?0"UIImage"8ls32l8s40l8s64l8s48l8s56l8
+- ___block_descriptor_80_e8_32s40s48s56s64bs_e8_v12?0B8ls32l8s40l8s64l8s48l8s56l8
+- ___block_descriptor_80_e8_32s40s48s56s64r72r_e5_v8?0ls32l8s40l8r64l8r72l8s48l8s56l8
+- ___block_descriptor_80_e8_32s40s48s56s64r72r_e5_v8?0ls32l8s40l8s48l8s56l8r64l8r72l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72bs_e23_v16?0"UIAlertAction"8ls32l8s40l8s48l8s56l8s72l8s64l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72w_e22_v20?0"WKWebView"8B16lw72l8s32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_80_e8_32s40s48s56s_e32_v16?0"NSManagedObjectContext"8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_80_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_80_ea8_32s40s48s56s64bs72r_e5_v8?0ls32l8r72l8s40l8s48l8s64l8s56l8
+- ___block_descriptor_80_ea8_32s40s48s56s64r72r_e36_v16?0"AEBookManagedObjectContext"8ls32l8s40l8s48l8r64l8r72l8s56l8
+- ___block_descriptor_81_e8_32s40s48s56bs64bs72w_e8_v16?08lw72l8s32l8s56l8s40l8s64l8s48l8
+- ___block_descriptor_81_e8_32s40s48s56s64bs72w_e17_v16?0"UIImage"8lw72l8s32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_81_e8_32s40s48s56s64s72bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_descriptor_88_e8_32s40s48s56s64s72r80r_e5_v8?0ls32l8s40l8r72l8r80l8s48l8s56l8s64l8
+- ___block_descriptor_89_e8_32s40s48s56s64s72s80s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
+- ___block_descriptor_90_e8_32s40s48s56r64r72r_e5_v8?0ls32l8s40l8r56l8r64l8s48l8r72l8
+- ___block_descriptor_96_ea8_32s40s48s56s64s72r_e33_B40?0"NSArray"8{Frame=}16^v32ls32l8r72l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_96_ea8_32s40s48s56s64s72s80bs88bs_e17_v16?0"NSError"8ls32l8s40l8s48l8s80l8s56l8s88l8s64l8s72l8
+- ___block_descriptor_96_ea8_32s40s48s56s64s72s80bs88bs_e43_v24?0"AMSAuthenticateResult"8"NSError"16ls32l8s40l8s48l8s80l8s56l8s88l8s64l8s72l8
+- ___block_descriptor_97_e8_32s40s48s56bs_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_97_e8_32s40s48s56s64s72s80s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
+- ___block_literal_global
+- ___copy_helper_block_ea8_32c83_ZTSZ69-[AEMinimalTemplate evaluateWithData:templateSet:cycleContext:error:]E5Frame
+- ___destroy_helper_block_ea8_32c83_ZTSZ69-[AEMinimalTemplate evaluateWithData:templateSet:cycleContext:error:]E5Frame
+- ___getFontFaceMappings_block_invoke
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+- ___swift_memcpy16_8
+- ___swift_memcpy1_1
+- ___swift_memcpy32_8
+- ___swift_noop_void_return
+- ___swift_project_boxed_opaque_existential_0
+- ___swift_reflection_version
+- __block_literal_global.10
+- __block_literal_global.100
+- __block_literal_global.102
+- __block_literal_global.103
+- __block_literal_global.104
+- __block_literal_global.105
+- __block_literal_global.106
+- __block_literal_global.107
+- __block_literal_global.108
+- __block_literal_global.109
+- __block_literal_global.11
+- __block_literal_global.110
+- __block_literal_global.111
+- __block_literal_global.112
+- __block_literal_global.113
+- __block_literal_global.114
+- __block_literal_global.115
+- __block_literal_global.116
+- __block_literal_global.117
+- __block_literal_global.118
+- __block_literal_global.119
+- __block_literal_global.121
+- __block_literal_global.123
+- __block_literal_global.124
+- __block_literal_global.125
+- __block_literal_global.127
+- __block_literal_global.13
+- __block_literal_global.130
+- __block_literal_global.132
+- __block_literal_global.134
+- __block_literal_global.136
+- __block_literal_global.138
+- __block_literal_global.140
+- __block_literal_global.152
+- __block_literal_global.16
+- __block_literal_global.19
+- __block_literal_global.22
+- __block_literal_global.228
+- __block_literal_global.238
+- __block_literal_global.25
+- __block_literal_global.255
+- __block_literal_global.256
+- __block_literal_global.28
+- __block_literal_global.31
+- __block_literal_global.319
+- __block_literal_global.32
+- __block_literal_global.331
+- __block_literal_global.34
+- __block_literal_global.341
+- __block_literal_global.352
+- __block_literal_global.360
+- __block_literal_global.362
+- __block_literal_global.37
+- __block_literal_global.390
+- __block_literal_global.393
+- __block_literal_global.4
+- __block_literal_global.40
+- __block_literal_global.43
+- __block_literal_global.46
+- __block_literal_global.473
+- __block_literal_global.479
+- __block_literal_global.483
+- __block_literal_global.49
+- __block_literal_global.52
+- __block_literal_global.55
+- __block_literal_global.58
+- __block_literal_global.61
+- __block_literal_global.64
+- __block_literal_global.67
+- __block_literal_global.670
+- __block_literal_global.7
+- __block_literal_global.738
+- __block_literal_global.75
+- __block_literal_global.750
+- __block_literal_global.84
+- __block_literal_global.86
+- __block_literal_global.88
+- __block_literal_global.89
+- __block_literal_global.90
+- __block_literal_global.92
+- __block_literal_global.94
+- __block_literal_global.96
+- __block_literal_global.98
+- __create_shared_instance
+- __swift_FORCE_LOAD_$_swiftARKit_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftAVFoundation_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftCompression_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftCoreAudio_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftCoreGraphics_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftCoreImage_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftCoreMIDI_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftCoreML_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftDarwin_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftDispatch_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftFileProvider_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftFoundation_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftGLKit_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftIntents_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftMetalKit_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftMetal_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftModelIO_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftOSLog_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftQuartzCore_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftSceneKit_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftSpriteKit_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftUIKit_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftVision_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftWebKit_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftXPC_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftos_$_AEBookPlugins
+- __swift_FORCE_LOAD_$_swiftsimd_$_AEBookPlugins
+- __swift_stdlib_reportUnimplementedInitializerInFile
+- __unnamed_array_storage
+- _associated conformance 13AEBookPlugins10AnnotationC0C4TypeOSHAASQ
+- _associated conformance 13AEBookPlugins10AnnotationC5StyleOSHAASQ
+- _associated conformance 13AEBookPlugins20ContentPageDirectionOSHAASQ
+- _associated conformance 13AEBookPlugins21DocumentPageDirectionOSHAASQ
+- _associated conformance 13AEBookPlugins22DocumentCollectionTypeOSHAASQ
+- _associated conformance So18UIViewAutoresizingVs10SetAlgebraSCSQ
+- _associated conformance So18UIViewAutoresizingVs10SetAlgebraSCs25ExpressibleByArrayLiteral
+- _associated conformance So18UIViewAutoresizingVs9OptionSetSCSY
+- _associated conformance So18UIViewAutoresizingVs9OptionSetSCs0D7Algebra
+- _block_copy_helper
+- _block_descriptor
+- _block_destroy_helper
+- _compareIntValue
+- _compareLanguageCodes
+- _cvsm_themes
+- _fontDescriptorLookupQueue.onceToken
+- _fontDescriptorLookupQueue.queue
+- _fontSizeCache.cache
+- _fontSizeCache.onceToken
+- _getFontFallbacks
+- _isSnapshotContainerFullscreenForView
+- _kDisplayNameContext
+- _kFontBaselineMultipier
+- _kFontMultiplierWindowWidths
+- _kFontSteps
+- _kKVOContext
+- _kTapSelectionRectKey
+- _keypath_get_selector_description
+- _objc_msgSend$ARModelDataURL
+- _objc_msgSend$CGColor
+- _objc_msgSend$CGContext
+- _objc_msgSend$CGImage
+- _objc_msgSend$CGPath
+- _objc_msgSend$CGPointValue
+- _objc_msgSend$CGRectValue
+- _objc_msgSend$CGSizeValue
+- _objc_msgSend$EnableAnnotationKit
+- _objc_msgSend$HUDBackgroundColor
+- _objc_msgSend$IMCoreDataObjectIDExpression
+- _objc_msgSend$IMDeviceOrientation
+- _objc_msgSend$JSONObjectWithData:options:error:
+- _objc_msgSend$URL
+- _objc_msgSend$URLByAppendingPathComponent:
+- _objc_msgSend$URLByAppendingPathComponent:isDirectory:
+- _objc_msgSend$URLForDirectory:inDomain:appropriateForURL:create:error:
+- _objc_msgSend$URLForLoadingDocument
+- _objc_msgSend$URLForResource:withExtension:
+- _objc_msgSend$URLFragmentString
+- _objc_msgSend$URLPathAllowedCharacterSet
+- _objc_msgSend$URLWithString:
+- _objc_msgSend$URLWithString:relativeToURL:
+- _objc_msgSend$URLsForResourcesWithExtension:subdirectory:
+- _objc_msgSend$UTF8String
+- _objc_msgSend$UUID
+- _objc_msgSend$Xj3eVHDeBoTD6fVn6fY8:completion:
+- _objc_msgSend$__highlightContainerView
+- _objc_msgSend$__layoutSizeForSpreadPages:
+- _objc_msgSend$__updateContentSizeForFrameChange
+- _objc_msgSend$__webView2_performHighlighterActionWithGestureState:location:isTouch:
+- _objc_msgSend$_accessibilityDescendantOfType:
+- _objc_msgSend$_accessibilityEscape
+- _objc_msgSend$_accessibilityLoadAccessibilityInformation
+- _objc_msgSend$_accessibilityQuickSpeakContent
+- _objc_msgSend$_accessibilitySetSortPriority:
+- _objc_msgSend$_accessibilityWriteVisibleContentRectsToWebProcessPluginWithPrimaryContentViewController:secondaryContentViewController:
+- _objc_msgSend$_actionBarButtonItem
+- _objc_msgSend$_actionlessBookmarkBarButtonItem
+- _objc_msgSend$_activityItemsConfiguration
+- _objc_msgSend$_addChrome
+- _objc_msgSend$_addCollapseButton
+- _objc_msgSend$_addContentInsetTopLargeOption
+- _objc_msgSend$_addContentInsetTopMediumOption
+- _objc_msgSend$_addContentInsetTopSmallOption
+- _objc_msgSend$_addControl:forKey:titleFormat:
+- _objc_msgSend$_addCrossFadeTransitionWithColor:
+- _objc_msgSend$_addFontScaleOption
+- _objc_msgSend$_addFullScreenLandscapeGutter:animate:
+- _objc_msgSend$_addMinCPLForSpreadPagesOption
+- _objc_msgSend$_addNoteForAnnotation:inContent:withCompletion:
+- _objc_msgSend$_addNoteForAnnotation:inContent:withRect:andGetVisibleAnnotationRect:
+- _objc_msgSend$_addPendingContentLoad:
+- _objc_msgSend$_addPendingPageTurnCompletion:
+- _objc_msgSend$_addReset
+- _objc_msgSend$_addResultsFromSearch:
+- _objc_msgSend$_addResultsWithPhysicalPageHrefs:selectedRangeResult:
+- _objc_msgSend$_addRow:
+- _objc_msgSend$_addScrollViewScrollObserver:
+- _objc_msgSend$_addScrubberHeightOption
+- _objc_msgSend$_addScrubberToView:
+- _objc_msgSend$_addScrubberWidthOption
+- _objc_msgSend$_addSideInsetOption
+- _objc_msgSend$_addSliderForKey:titleFormat:
+- _objc_msgSend$_addTitleRow
+- _objc_msgSend$_addTitleRow:
+- _objc_msgSend$_addToolbarsToView:
+- _objc_msgSend$_addUserStyleSheet:
+- _objc_msgSend$_adjustAnnotation:withLocation:selectedText:representativeText:updateStyle:
+- _objc_msgSend$_adjustLabelTextAlignment
+- _objc_msgSend$_adjustLayoutForStickiesInContent:border:
+- _objc_msgSend$_adjustPrimaryControllerFrame
+- _objc_msgSend$_adjustSecondaryControllerFrame
+- _objc_msgSend$_adjustToNewSize:withOptionalTransitionCoordinator:
+- _objc_msgSend$_adornmentContentOffsetBasedOnScrollView:
+- _objc_msgSend$_allAnnotationsForType:
+- _objc_msgSend$_allPageViews
+- _objc_msgSend$_allowZoom
+- _objc_msgSend$_analyticsSessionHost
+- _objc_msgSend$_analyticsSubmitInBookSearchEventWithSearchText:
+- _objc_msgSend$_animationDidStop:
+- _objc_msgSend$_annotationCFIStrings:
+- _objc_msgSend$_annotationChanged:forceRender:
+- _objc_msgSend$_annotationObjectIDsForOrdinal:
+- _objc_msgSend$_annotationUuidIntersectingPoint:inView:annotationLayerRect:
+- _objc_msgSend$_annotationsToUpgradeForOrdinal:
+- _objc_msgSend$_annotationsToUpgradeGroupedByID
+- _objc_msgSend$_appearanceStruct
+- _objc_msgSend$_applyAdditionalScale:
+- _objc_msgSend$_applyConfiguration
+- _objc_msgSend$_applyConfigurationIfNeeded
+- _objc_msgSend$_applyCurrentTheme
+- _objc_msgSend$_applyMaskAndGutter:isRight:contentSize:containerBounds:
+- _objc_msgSend$_audioBarButtonItem
+- _objc_msgSend$_authorLabel
+- _objc_msgSend$_autoCurlToSinglePageOffset:forwardCurl:
+- _objc_msgSend$_autoCurlToSpreadPageOffset:forwardCurl:
+- _objc_msgSend$_autoSlideToSpreadPageOffset:forwardCurl:
+- _objc_msgSend$_averageCharacterWidth
+- _objc_msgSend$_axIsLoading
+- _objc_msgSend$_axTurnPage:
+- _objc_msgSend$_backColor0AtPosition:
+- _objc_msgSend$_backColor1AtPosition:
+- _objc_msgSend$_backPageCurlFrame
+- _objc_msgSend$_barButtonItemWithImage:withSelector:
+- _objc_msgSend$_barHairlineShadowColor
+- _objc_msgSend$_barStyleBlackHairlineShadowColor
+- _objc_msgSend$_beginAnimation
+- _objc_msgSend$_beginReadingSessionForEventType:
+- _objc_msgSend$_beginSuppressingColorSettingsUpdate
+- _objc_msgSend$_bkAccessibilityAnnounceValue
+- _objc_msgSend$_bkAccessibilityValueDidChange
+- _objc_msgSend$_bkTableView:itemsForBeginningDragSession:atIndexPath:
+- _objc_msgSend$_bk_backgroundColor
+- _objc_msgSend$_bk_getDelegateZoomView
+- _objc_msgSend$_bkaxCheckCanPerformEditActions
+- _objc_msgSend$_bkaxPerformEditAction:
+- _objc_msgSend$_bkaxPerformSelector:
+- _objc_msgSend$_bookContentViewImageOfPage:
+- _objc_msgSend$_bookContentViewImageOfPage:boundingSize:
+- _objc_msgSend$_bookHasCapability:
+- _objc_msgSend$_bookInfo
+- _objc_msgSend$_bookInfoForAssetAtURL:withMoc:error:needsCoordination:
+- _objc_msgSend$_bookInfoForAssetAtURL:withMoc:error:needsCoordination:updateDate:
+- _objc_msgSend$_bookRenditionFlowIsScrolled
+- _objc_msgSend$_bookRenditionFlowIsScrolledContinuous
+- _objc_msgSend$_bookSnapshot
+- _objc_msgSend$_bookSnapshot:
+- _objc_msgSend$_bookSnapshotFromContentImage:
+- _objc_msgSend$_bookSnapshotView
+- _objc_msgSend$_bookmarkBarButtonItem
+- _objc_msgSend$_bookmarkButton
+- _objc_msgSend$_bookmarkDirectory
+- _objc_msgSend$_bookmarkPageCountInBookManagedObjectContext:annotationUuid:
+- _objc_msgSend$_bookmarkSelectionAndAnnotate:showColorEditor:
+- _objc_msgSend$_bookmarkSelectionAndAnnotate:showColorEditor:completion:
+- _objc_msgSend$_brightnessBarButtonItem
+- _objc_msgSend$_buildConstraints
+- _objc_msgSend$_butActually_wk2_scrollToPage:paginationMode:pageProgressionDirection:configuration:
+- _objc_msgSend$_buyBarButtonItem
+- _objc_msgSend$_cacheKeyForFontFamily:size:
+- _objc_msgSend$_cacheURL
+- _objc_msgSend$_cachedIndexFileNameForName:
+- _objc_msgSend$_cachedIndexFileNameForName:createIndicesDirectoryIfNeeded:
+- _objc_msgSend$_calculateFirstPageNumber
+- _objc_msgSend$_calculateLineNumbersForLabel:withFont:
+- _objc_msgSend$_calculatedWidthOfFontFamily:size:
+- _objc_msgSend$_calculatedWidthOfFontFamily:size:cache:key:
+- _objc_msgSend$_callAndClearPendingCompletionBlocks
+- _objc_msgSend$_cancelCachingAndCleanupSnapshotWebViews
+- _objc_msgSend$_cancelEditAnnotations
+- _objc_msgSend$_cancelEditAnnotationsButtonItem
+- _objc_msgSend$_changeAppearanceStyle:
+- _objc_msgSend$_charactersPerLineForContentWidth:columns:
+- _objc_msgSend$_charactersPerLineForContentWidthRaw:
+- _objc_msgSend$_cleanDocumentElementForMediaOverlay:
+- _objc_msgSend$_cleanup
+- _objc_msgSend$_cleanupFootnoteViewController
+- _objc_msgSend$_cleanupPageIndicesIfNecessaryWithDocument:currentPageIndex:
+- _objc_msgSend$_cleanupSnapshotWebViews
+- _objc_msgSend$_clearAllChapterPageCountEntities:
+- _objc_msgSend$_clearDocumentIfNeeded
+- _objc_msgSend$_clearExistingContent:
+- _objc_msgSend$_clearTransient
+- _objc_msgSend$_clientManifestGivenHostManifestContainer:bookInfo:stayAlive:
+- _objc_msgSend$_collapsed
+- _objc_msgSend$_collapsedHeightConstraint
+- _objc_msgSend$_combineAnnotation:withAnnotation:
+- _objc_msgSend$_commonInit
+- _objc_msgSend$_completeLayout
+- _objc_msgSend$_compositeContentOverlaysInContext:
+- _objc_msgSend$_compositeSnapshotWithCompletion:
+- _objc_msgSend$_compositingFilterToUse
+- _objc_msgSend$_computeFixedLayoutDimensionsFrom:forBook:
+- _objc_msgSend$_computeSegmentCountForRect:segmentSize:idealCount:orientation:
+- _objc_msgSend$_configureAnnotationCell:forAnnotation:forRowAtIndexPath:
+- _objc_msgSend$_configureForFixedSize:
+- _objc_msgSend$_configureJumpButton:historyEntity:
+- _objc_msgSend$_configureLoadingCell:
+- _objc_msgSend$_configurePointAnnotationCell:forRowAtIndexPath:
+- _objc_msgSend$_configureRangeAnnotationCell:forRowAtIndexPath:
+- _objc_msgSend$_configureResultsCell:forRow:inTableView:
+- _objc_msgSend$_configureTOCCell:forRowAtIndexPath:
+- _objc_msgSend$_configureWebTOCCell:forRowAtIndexPath:
+- _objc_msgSend$_configureWebView
+- _objc_msgSend$_constructAndActivateConstraints
+- _objc_msgSend$_containerBoundsForGeometry
+- _objc_msgSend$_contentAspectRatio
+- _objc_msgSend$_contentController:hasMediaElementAtPoint:inView:
+- _objc_msgSend$_contentControllerThatHasCopyableSelection
+- _objc_msgSend$_contentForSelectedRangeWithCompletion:
+- _objc_msgSend$_contentHasSpreadPages
+- _objc_msgSend$_contentRectForLocation:visible:completion:
+- _objc_msgSend$_contentRectFromRects:visible:
+- _objc_msgSend$_contentSettingsDataFromReadingSessionData:optedIn:
+- _objc_msgSend$_contentViewController:showNoteForAnnotation:
+- _objc_msgSend$_contentWidthForAvailableWidth:columns:
+- _objc_msgSend$_controller:handleInternalRequestForURL:
+- _objc_msgSend$_convertPointFromContentsToView:
+- _objc_msgSend$_copyArraySpecializedFunction:minusArray:lhsProperty:rhsProperty:
+- _objc_msgSend$_copyArraySpecializedFunction:minusValueArray:lhsProperty:
+- _objc_msgSend$_copyDocumentArray:
+- _objc_msgSend$_copyPaginatedArray:
+- _objc_msgSend$_copyUnpaginatedOrdinalsForAnnotations:
+- _objc_msgSend$_copyUnpaginatedOrdinalsForHistoryEntities
+- _objc_msgSend$_countMarkupAnnotationsInArray:result:
+- _objc_msgSend$_createBookViewControllerForBook:storeID:
+- _objc_msgSend$_createCompositedPageImage
+- _objc_msgSend$_createCompositedPageImageForContent:completion:
+- _objc_msgSend$_createEndOfBookExperience
+- _objc_msgSend$_createZoomingScrollView
+- _objc_msgSend$_currentChapterInfo:uniqueID:
+- _objc_msgSend$_currentLocationAsPageLocation:
+- _objc_msgSend$_currentPageLocation
+- _objc_msgSend$_currentPageLocationForMovingForward:error:
+- _objc_msgSend$_currentReadingProgress
+- _objc_msgSend$_currentZoomingScrollView
+- _objc_msgSend$_debugToolbarItems
+- _objc_msgSend$_defaultFontName
+- _objc_msgSend$_deleteAnnotationsButtonItem
+- _objc_msgSend$_deleteFilePathsInSet:
+- _objc_msgSend$_detailsForFont:
+- _objc_msgSend$_determineTextDirectionAndParseTOCCIdCssRules
+- _objc_msgSend$_didChangeContent
+- _objc_msgSend$_didDismissFootnoteViewController
+- _objc_msgSend$_didFinishConfiguringWebView
+- _objc_msgSend$_didFinishCreatingWebView:forTrackingID:completion:
+- _objc_msgSend$_didScroll
+- _objc_msgSend$_didScrollPDFViewToPage
+- _objc_msgSend$_diffManifest:againstBundleNamed:rootPath:addedAssets:deletedAssets:updatedAssets:
+- _objc_msgSend$_directoryController
+- _objc_msgSend$_directoryForType:
+- _objc_msgSend$_directorySwitchBarButtonItem
+- _objc_msgSend$_directorySwitcher
+- _objc_msgSend$_disableAutoNightMode
+- _objc_msgSend$_dismissSearchViewController
+- _objc_msgSend$_displayPagesForOffset:
+- _objc_msgSend$_doAfterAllContentIsDrawnInPrimaryContent:secondaryContent:completion:
+- _objc_msgSend$_doAfterNextPresentationUpdate:
+- _objc_msgSend$_doAfterNextStablePresentationUpdate:
+- _objc_msgSend$_doInitialWebViewPositionAndLoad
+- _objc_msgSend$_doSearch
+- _objc_msgSend$_doSearchWithString:
+- _objc_msgSend$_documentOrdinalForHref:
+- _objc_msgSend$_dumpCachedWebContentAndReload
+- _objc_msgSend$_editToolboxBarButtonItem
+- _objc_msgSend$_editorController:editNote:
+- _objc_msgSend$_effectWithBlurRadius:scale:
+- _objc_msgSend$_emitAnnotationActionEventIfNeededForAnnotationType:
+- _objc_msgSend$_enableAutoNightMode
+- _objc_msgSend$_enableMarkupMode:
+- _objc_msgSend$_endReadingSessionForEventType:
+- _objc_msgSend$_endSuppressingColorSettingsUpdate
+- _objc_msgSend$_ensureLocationVisible:adjustForSearchResultRevealMode:completion:
+- _objc_msgSend$_ensureLocationVisible:inWebView:isRTL:needsToSnap:adjustForSearchResultRevealMode:completion:
+- _objc_msgSend$_ensureRect:isVisibleInWebView:isRTL:needsToSnap:adjustForSearchResultRevealMode:completion:
+- _objc_msgSend$_errorForURL:
+- _objc_msgSend$_escapedSearchString
+- _objc_msgSend$_evaluateUndoRedoEnabled
+- _objc_msgSend$_excerptCitedStringForAnnotation:
+- _objc_msgSend$_existingContentForOrdinal:
+- _objc_msgSend$_exposeContentView
+- _objc_msgSend$_extractSelectedTextWithSender:completion:
+- _objc_msgSend$_fetchImageForKey:size:
+- _objc_msgSend$_fetchMissingCfiLocationRects:forAnnotations:
+- _objc_msgSend$_findString:options:maxCount:
+- _objc_msgSend$_finishManualCurl
+- _objc_msgSend$_firstContent
+- _objc_msgSend$_focusOnPage:
+- _objc_msgSend$_fontAdjustedForCurrentContentSizeCategory
+- _objc_msgSend$_fontBarButtonItem
+- _objc_msgSend$_fontDescriptorLookupQueue
+- _objc_msgSend$_fontSizeAdjustmentForFontFamily:
+- _objc_msgSend$_fontSizeCache
+- _objc_msgSend$_fontSizeWithCurrentStyle
+- _objc_msgSend$_footNoteTitleHTML
+- _objc_msgSend$_footnoteViewController2ForResource:stylesheetSet:
+- _objc_msgSend$_footnoteViewControllerPreparationForDisplayFailed:
+- _objc_msgSend$_footnoteViewControllerReadyForDisplay
+- _objc_msgSend$_forceSetStyle:
+- _objc_msgSend$_forceSetStyle:fromStyleChange:
+- _objc_msgSend$_forceWebContentBackgroundColor
+- _objc_msgSend$_frameForPageAtIndex:
+- _objc_msgSend$_frameForPageNumber:
+- _objc_msgSend$_fullHeightConstraints
+- _objc_msgSend$_fullParse
+- _objc_msgSend$_generateAndLoadContent
+- _objc_msgSend$_generateCacheKey:maxSpan:baseURL:
+- _objc_msgSend$_generateLeftPageImageAtPageOffset:completion:
+- _objc_msgSend$_generatePaginationData
+- _objc_msgSend$_generateRightPageImageAtPageOffset:completion:
+- _objc_msgSend$_getContentsAsStringWithCompletionHandler:
+- _objc_msgSend$_getDestination
+- _objc_msgSend$_getURLToLoad
+- _objc_msgSend$_gotSnapshotWithMask:bookInfo:containerBounds:contentSize:isRight:key:pageNumber:snapshot:scale:size:completion:
+- _objc_msgSend$_grayThemeButtonImageSelected:
+- _objc_msgSend$_gutterWidthWithSpreadPages:
+- _objc_msgSend$_handleExternalLoadRequest:likelyUserInitiated:
+- _objc_msgSend$_hasMediaElementAtPoint:inView:
+- _objc_msgSend$_hasMediaElementAtTouch:
+- _objc_msgSend$_hasMediaElementUnderTouch:
+- _objc_msgSend$_hasSearchableCharacters:
+- _objc_msgSend$_hasValidActions
+- _objc_msgSend$_hideActivityIndicator
+- _objc_msgSend$_highlightAnnotation:
+- _objc_msgSend$_highlightAnnotation:rects:
+- _objc_msgSend$_highlightAnnotationWK2:
+- _objc_msgSend$_highlightElement:
+- _objc_msgSend$_highlightLocation:withHighlightType:owner:
+- _objc_msgSend$_highlightRects:withHighlightType:owner:forWK2:clearSelection:
+- _objc_msgSend$_horizontallyScrollWebViews
+- _objc_msgSend$_horizontallyScrolling
+- _objc_msgSend$_imageForBookmarkButtonWithPageBookmarked:inMinibar:
+- _objc_msgSend$_imageViewForPageContentImage:
+- _objc_msgSend$_imaxBrightnessSlider
+- _objc_msgSend$_imaxSizeLargerButton
+- _objc_msgSend$_imaxSizeSmallerButton
+- _objc_msgSend$_inAnalyticsReadSession
+- _objc_msgSend$_indexForView:
+- _objc_msgSend$_indexPathForRowNearestPageNumber:pageNumberForObjectSelector:isExactPageMatch:
+- _objc_msgSend$_indexPathForURL:
+- _objc_msgSend$_indexTextContent:
+- _objc_msgSend$_infoHUDHeight
+- _objc_msgSend$_insertDestinationSnapshotImageUnderCurrentPageCurl:
+- _objc_msgSend$_installClickHandlers:
+- _objc_msgSend$_installContent:inView:
+- _objc_msgSend$_installViewAtIndex:
+- _objc_msgSend$_isCachedAnnotationRectVisible:considerEntirePage:
+- _objc_msgSend$_isCompactHeight
+- _objc_msgSend$_isContentLoadPending
+- _objc_msgSend$_isDeallocating
+- _objc_msgSend$_isDocumentOrdinalSearchable:
+- _objc_msgSend$_isDoubleWide
+- _objc_msgSend$_isEmailAllowedForBook:
+- _objc_msgSend$_isFirstPageLocation:
+- _objc_msgSend$_isFocusedOnSecondPageOfSpread
+- _objc_msgSend$_isForwardMovementToPrimaryContent:primaryOffset:secondaryContent:secondaryOffset:oldPageOffset:
+- _objc_msgSend$_isFreeScale
+- _objc_msgSend$_isInPopoverPresentation
+- _objc_msgSend$_isLandscape
+- _objc_msgSend$_isManualCurlInProgress
+- _objc_msgSend$_isMultiDocumentSpread
+- _objc_msgSend$_isNightMode
+- _objc_msgSend$_isPageAllZeros:
+- _objc_msgSend$_isPageEmpty:
+- _objc_msgSend$_isPlayingMedia
+- _objc_msgSend$_isPrintingAllowedForBook:
+- _objc_msgSend$_isRTL
+- _objc_msgSend$_isUsingContent:
+- _objc_msgSend$_itemIndexForCurrentPage
+- _objc_msgSend$_jumpAheadBarButtonItem
+- _objc_msgSend$_jumpBackBarButtonItem
+- _objc_msgSend$_jumpToLocation:animated:updateTransitionLocation:adjustScrollToReveal:completion:
+- _objc_msgSend$_jumpToLocation:animated:updateTransitionLocation:completion:
+- _objc_msgSend$_jumpToLocationForVerticalScroll:animated:
+- _objc_msgSend$_jumpToLocationPaged:animated:
+- _objc_msgSend$_keyForAsset:size:pageNumber:
+- _objc_msgSend$_killSpreadManualCurl
+- _objc_msgSend$_lastContent
+- _objc_msgSend$_lastScrollViewSizeLayoutWasGeneratedFor
+- _objc_msgSend$_leftPageNumberForOffset:usingPageCount:
+- _objc_msgSend$_libraryBarButtonItem
+- _objc_msgSend$_loadWebView
+- _objc_msgSend$_loadWebView:bookSnapshot:paginationOptions:stylesheetSet:cleanupOptions:cfiOptions:isConfigured:
+- _objc_msgSend$_loadWebViewFromMainThread
+- _objc_msgSend$_loadingCellForTableView:
+- _objc_msgSend$_location:byMovingForward:error:
+- _objc_msgSend$_locationForChapter:
+- _objc_msgSend$_lookupKey
+- _objc_msgSend$_lookupLocalizedNameForAttrs:withCompletion:
+- _objc_msgSend$_mainViewControllerForTransaction:
+- _objc_msgSend$_makeBackPageCurlViewForSnapshottingRight:
+- _objc_msgSend$_makeCenteredNonInteractiveChromeLabel
+- _objc_msgSend$_makeConfiguration
+- _objc_msgSend$_makeJumpAheadButton
+- _objc_msgSend$_makeJumpBackButton
+- _objc_msgSend$_makeLabel
+- _objc_msgSend$_makeNumberFormatter
+- _objc_msgSend$_manageSafeAreaInsets
+- _objc_msgSend$_manualCurlToSinglePage:
+- _objc_msgSend$_markupDocumentElementForMediaOverlay:
+- _objc_msgSend$_maxFontStepsForFont:
+- _objc_msgSend$_maxValueView
+- _objc_msgSend$_measureContentAndSetFrame
+- _objc_msgSend$_menuSetTheme:
+- _objc_msgSend$_minValueView
+- _objc_msgSend$_monitorNotifications
+- _objc_msgSend$_navigateToProperLocation
+- _objc_msgSend$_needToSaveChanges
+- _objc_msgSend$_needsFullReparseForRecordedChapterPageCountForDocumentInfos:context:
+- _objc_msgSend$_newBADoNotDisturbDataWithStartStatus:tracker:completion:
+- _objc_msgSend$_newContentViewControllerForOrdinal:
+- _objc_msgSend$_newSearchOperationForOrdinal:
+- _objc_msgSend$_nextPageHint:
+- _objc_msgSend$_nextPageHint:afterDelay:
+- _objc_msgSend$_nextPageTurnGenerationID
+- _objc_msgSend$_nightThemeButtonImageSelected:
+- _objc_msgSend$_noBookmarksView
+- _objc_msgSend$_nonUpdatedAnnotationsForDocumentOrdinal:assetID:moc:
+- _objc_msgSend$_normalizedLocation:
+- _objc_msgSend$_notifyBookmarkObservers
+- _objc_msgSend$_notifyDelegateContentDidChange
+- _objc_msgSend$_notifyRequesterAndSendNextRequestOfPreferredHeight:error:
+- _objc_msgSend$_offsetForWebview:fromOffset:absorbed:
+- _objc_msgSend$_optionForControl:
+- _objc_msgSend$_options
+- _objc_msgSend$_ordinalCount
+- _objc_msgSend$_originPointForPoint:
+- _objc_msgSend$_overrideViewportWithArguments:
+- _objc_msgSend$_pageCount
+- _objc_msgSend$_pageCurlView:
+- _objc_msgSend$_pageDictionaryToPageNumber:
+- _objc_msgSend$_pageDirectory
+- _objc_msgSend$_pageDisplayChanged
+- _objc_msgSend$_pageImage:flipped:
+- _objc_msgSend$_pageIndexForOutline:
+- _objc_msgSend$_pageNumberForAnchor:
+- _objc_msgSend$_pageNumberForContent:
+- _objc_msgSend$_pageNumberForLocation:
+- _objc_msgSend$_pageNumberForOffset:onGreaterSide:usingPageCount:
+- _objc_msgSend$_pageNumberForOrdinal:pageOffset:
+- _objc_msgSend$_pageOffsetAfter:whenCurlingForward:
+- _objc_msgSend$_pageOffsetForXOffset:
+- _objc_msgSend$_pageOffsetsForFrames:
+- _objc_msgSend$_pageRangeAtIndex:segmentCount:pageCount:orientation:layoutDirection:spread:
+- _objc_msgSend$_pageRangeForPageNumber:pageCount:spread:
+- _objc_msgSend$_pageSize:
+- _objc_msgSend$_pageSlideAnimationFinished
+- _objc_msgSend$_pageViewInZoomingScrollView:
+- _objc_msgSend$_pageViewShouldHaveRoundedCorners
+- _objc_msgSend$_pagesLeft
+- _objc_msgSend$_paginationMode
+- _objc_msgSend$_parityAlignedPageSpanForLocation:movingForward:error:
+- _objc_msgSend$_payloadForKey:fromSender:
+- _objc_msgSend$_pdfBookmarkDirectory
+- _objc_msgSend$_pdfOutlineDirectory
+- _objc_msgSend$_pdfPageDirectory
+- _objc_msgSend$_pendingContentByMovingForward:error:
+- _objc_msgSend$_pendingContentForPageSpan:movingForward:error:
+- _objc_msgSend$_perUserBookURLForBookURL:
+- _objc_msgSend$_performAnimationWithContent:
+- _objc_msgSend$_performRefreshAdornmentsForContent:
+- _objc_msgSend$_performScrollTest:iterations:delta:
+- _objc_msgSend$_performWithLock:
+- _objc_msgSend$_placeholderLabel
+- _objc_msgSend$_playNextItem
+- _objc_msgSend$_populateTOCEntriesFromNavigationInfoAnchors:
+- _objc_msgSend$_positionForPages
+- _objc_msgSend$_postLoadComplete:
+- _objc_msgSend$_postSearch:
+- _objc_msgSend$_preferredContentSizeIsMinimum:
+- _objc_msgSend$_preferredFontForTextStyle:weight:
+- _objc_msgSend$_preflightTapLocation:
+- _objc_msgSend$_preloadContentIfNecessary
+- _objc_msgSend$_prepareSmilMapOn:
+- _objc_msgSend$_prepareViewSizeTransition:withTransitionCoordinator:
+- _objc_msgSend$_prepareViewSizeTransition:withTransitionCoordinator:animated:
+- _objc_msgSend$_prepareViewSizeTransition:withTransitionCoordinator:animated:clearContentControllers:
+- _objc_msgSend$_presentAlertController:completion:
+- _objc_msgSend$_presetsFileNameForLanguage:
+- _objc_msgSend$_presetsForFileName:
+- _objc_msgSend$_presetsForFontName:
+- _objc_msgSend$_prewarmThumbnailsForVerticalScrubber
+- _objc_msgSend$_processAnnotationResults:
+- _objc_msgSend$_processHistoryEntityResults:
+- _objc_msgSend$_promptToLoadExternalContent:
+- _objc_msgSend$_readPlayer
+- _objc_msgSend$_readyToShow
+- _objc_msgSend$_recenterIfNecessary
+- _objc_msgSend$_recheckRemoveAccessApproval
+- _objc_msgSend$_recordJumpEntry:location:pageOffset:pageTitle:paginationNeeded:
+- _objc_msgSend$_rectForPresenting
+- _objc_msgSend$_refreshAdornments
+- _objc_msgSend$_refreshAdornmentsForContent:
+- _objc_msgSend$_refreshAnnotationsAndSearchResult
+- _objc_msgSend$_refreshContentBasedOverlay
+- _objc_msgSend$_releaseData:
+- _objc_msgSend$_releaseWebView
+- _objc_msgSend$_reloadFontSizes
+- _objc_msgSend$_reloadResultsAndResizeIfNecessary:
+- _objc_msgSend$_remakeConfiguration
+- _objc_msgSend$_removeClickHandlers:
+- _objc_msgSend$_removeFullScreenLandscapeGutter:page:
+- _objc_msgSend$_removeHighlightOnElement:
+- _objc_msgSend$_removePendingContentLoad:
+- _objc_msgSend$_removeScrollViewScrollObserver:
+- _objc_msgSend$_removeUserStyleSheet:
+- _objc_msgSend$_reportBookOpenDonation
+- _objc_msgSend$_reportDonation:context:
+- _objc_msgSend$_reportFontMenuOpenDonation
+- _objc_msgSend$_reportLayoutUsedDonation
+- _objc_msgSend$_reportResourceUnavailableForBookWithTitle:error:
+- _objc_msgSend$_resetBookInfo:
+- _objc_msgSend$_resetButton
+- _objc_msgSend$_resetCurlContainer
+- _objc_msgSend$_resetCurlContainerFrame
+- _objc_msgSend$_resetInteractionTracking
+- _objc_msgSend$_resetSinglePageCurlContainer
+- _objc_msgSend$_resetSinglePageCurlContainer:
+- _objc_msgSend$_resetSinglePageCurlContainerFrame
+- _objc_msgSend$_resizeOperation
+- _objc_msgSend$_restoreAutoNightModeSwitch
+- _objc_msgSend$_restoreViewHierarchyWithArray:
+- _objc_msgSend$_resultsCellForRow:inTableView:
+- _objc_msgSend$_resultsChanged
+- _objc_msgSend$_resultsEstimatedRowHeight
+- _objc_msgSend$_resultsHeaderHeight
+- _objc_msgSend$_resume
+- _objc_msgSend$_resumeAllMediaPlayback
+- _objc_msgSend$_resumeBarButtonItem
+- _objc_msgSend$_revalidateConfiguration
+- _objc_msgSend$_rightPageNumberForOffset:usingPageCount:
+- _objc_msgSend$_runPendingPageTurnCompletion:cancelled:
+- _objc_msgSend$_safeInsetRect:widthInset:heightInset:
+- _objc_msgSend$_sampleCorpus
+- _objc_msgSend$_scaledValueForValue:
+- _objc_msgSend$_scheduleInteractionReset
+- _objc_msgSend$_scheduleRenderWithKey:options:size:bookInfoSnapshot:documentUrl:pageNumber:priority:target:context:
+- _objc_msgSend$_scheduleRenderWithKey:size:pageNumber:priority:completion:
+- _objc_msgSend$_scheduleSearchAfterDelay:reportAnalytics:
+- _objc_msgSend$_scrollPageCountFromCurrentPageSize
+- _objc_msgSend$_scrollToRect:inPageAtIndex:
+- _objc_msgSend$_scrubberFrameHorizontalOriginY
+- _objc_msgSend$_scrubberLength
+- _objc_msgSend$_scrubberPageTitleForPageNumber:
+- _objc_msgSend$_search
+- _objc_msgSend$_searchBarButtonItem
+- _objc_msgSend$_searchOnCandidateOrdinal:
+- _objc_msgSend$_searchOnOrdinal:
+- _objc_msgSend$_searchQueryFromSender:
+- _objc_msgSend$_searchQueue
+- _objc_msgSend$_searchResultOffsetByDistance:
+- _objc_msgSend$_segmentSizeForMaxScrubberSize:orientation:cellAspectRatio:spread:
+- _objc_msgSend$_selectAllAnnotationsButtonItem
+- _objc_msgSend$_selectCFI:inContentViewController:onlyIfVisible:
+- _objc_msgSend$_selectNoneAnnotationsButtonItem
+- _objc_msgSend$_selectionImage
+- _objc_msgSend$_semanticFontSize
+- _objc_msgSend$_semanticOptions
+- _objc_msgSend$_semanticSideInsetWithSpreadPages:
+- _objc_msgSend$_semaphoreWaitTime
+- _objc_msgSend$_sendActionsForAutoNightSwitchWithPreviousState:
+- _objc_msgSend$_sendNextInfoRequest
+- _objc_msgSend$_sendNextRequest
+- _objc_msgSend$_sepiaThemeButtonImageSelected:
+- _objc_msgSend$_setActivities
+- _objc_msgSend$_setAlpha:animated:animationDelay:
+- _objc_msgSend$_setAudioSessionMix:
+- _objc_msgSend$_setAutoDisableCancelButton:
+- _objc_msgSend$_setAutomaticContentOffsetAdjustmentEnabled:
+- _objc_msgSend$_setBackgroundViewConfigurationProvider:
+- _objc_msgSend$_setBitMask:enabled:
+- _objc_msgSend$_setBottomPadding:
+- _objc_msgSend$_setCentersPopoverIfSourceViewNotSet:
+- _objc_msgSend$_setControlsHiddenState:animated:completion:
+- _objc_msgSend$_setDefaultScrubberCalloutFollowsThumbState
+- _objc_msgSend$_setEffectiveLabelFont
+- _objc_msgSend$_setFindDelegate:
+- _objc_msgSend$_setHidesShadow:
+- _objc_msgSend$_setHighlightedPopoverAppearance:
+- _objc_msgSend$_setIgnoreBarButtonItemSiblings:
+- _objc_msgSend$_setLayoutForBook:
+- _objc_msgSend$_setMouseEventPolicy:
+- _objc_msgSend$_setOverrideBackgroundExtension:
+- _objc_msgSend$_setPageOffsetUncheckedImmediate:
+- _objc_msgSend$_setPopoverScrolling
+- _objc_msgSend$_setSegmentedControlAppearance:
+- _objc_msgSend$_setSelectedAppearance:
+- _objc_msgSend$_setSelectedBackgroundViewFrame:
+- _objc_msgSend$_setShouldHideArrow:
+- _objc_msgSend$_setShowsBackgroundShadow:
+- _objc_msgSend$_setSingleLineShadowViewVisible:forBar:barStyle:
+- _objc_msgSend$_setStyle:
+- _objc_msgSend$_setTextZoomFactor:
+- _objc_msgSend$_setTheme:force:
+- _objc_msgSend$_setThemeIfNeeded:
+- _objc_msgSend$_setToolbarHidden:edge:duration:
+- _objc_msgSend$_setTopPadding:
+- _objc_msgSend$_setValidMediaOverlayElementCount:
+- _objc_msgSend$_setWantsUnderlineForAccessibilityButtonShapesEnabled:
+- _objc_msgSend$_setupAnnotationRectCachesFromClientRects:
+- _objc_msgSend$_setupCompactHeight
+- _objc_msgSend$_setupCompactWidth
+- _objc_msgSend$_setupDefault
+- _objc_msgSend$_setupDefaults
+- _objc_msgSend$_setupGestureRecognizers
+- _objc_msgSend$_setupGestures
+- _objc_msgSend$_setupManualCurlForIndirectRecognizerForTranslation:
+- _objc_msgSend$_setupPageNumber:
+- _objc_msgSend$_setupPortraitCompactWidth
+- _objc_msgSend$_setupRegularHeight
+- _objc_msgSend$_setupRegularWidth
+- _objc_msgSend$_setupScrollView
+- _objc_msgSend$_setupScrollView:
+- _objc_msgSend$_setupView
+- _objc_msgSend$_setupViews
+- _objc_msgSend$_shareAnnotation:annotationRects:
+- _objc_msgSend$_shareAnnotationsButtonItem
+- _objc_msgSend$_shouldAddBookmarkButton
+- _objc_msgSend$_shouldDoubleTapReceiveTouch:
+- _objc_msgSend$_shouldHidePageJumpingControls
+- _objc_msgSend$_shouldIgnoreNavigationTouch:
+- _objc_msgSend$_shouldLayoutRectInsetContentRectBySafeAreaInsets
+- _objc_msgSend$_shouldNavBarShowTitle
+- _objc_msgSend$_shouldRecordChapterTurn
+- _objc_msgSend$_shouldShowAlertForError:
+- _objc_msgSend$_shouldShowAudioToolbarButton
+- _objc_msgSend$_shouldShowAutoNightMode
+- _objc_msgSend$_shouldShowSearchResultsView
+- _objc_msgSend$_shouldShowTitle
+- _objc_msgSend$_showActivityIndicator
+- _objc_msgSend$_showAlertForError:forAssetAtURL:transaction:
+- _objc_msgSend$_showAnnotationWithState:showColorEditor:forAnnotation:
+- _objc_msgSend$_showAnnotations:
+- _objc_msgSend$_showContentAtIndex:
+- _objc_msgSend$_showDigitalPages
+- _objc_msgSend$_showExpandedContentForResource:atLocation:presentingFromTOC:completion:
+- _objc_msgSend$_showMenuForRect:
+- _objc_msgSend$_showPage:
+- _objc_msgSend$_showPage:shouldScroll:refreshHighlights:
+- _objc_msgSend$_showPhysicalPages
+- _objc_msgSend$_showPhysicalPagesButton
+- _objc_msgSend$_singlePageVisibleContentViewControllerForPageOffset:
+- _objc_msgSend$_smilElementIDSelected:inHREF:
+- _objc_msgSend$_snapshotBackPageCurlView:
+- _objc_msgSend$_snapshotBackPageCurlView:updateAfterSnapshot:
+- _objc_msgSend$_snapshotCurrentContent
+- _objc_msgSend$_snapshotForLeftPage:rightPage:flipped:
+- _objc_msgSend$_snapshotWithAssetVersion:completion:
+- _objc_msgSend$_spaceBetweenPages
+- _objc_msgSend$_spreadPagesAllowedWithCurrentViewport
+- _objc_msgSend$_spreadPagesDisabled
+- _objc_msgSend$_stackView
+- _objc_msgSend$_startFind
+- _objc_msgSend$_startFindPerformIndexing:
+- _objc_msgSend$_startFindPerformIndexingFromMainThread:
+- _objc_msgSend$_startLocationInViewWithGesture:
+- _objc_msgSend$_startQueuedCurls
+- _objc_msgSend$_startReadAloud:
+- _objc_msgSend$_startWebKitFind
+- _objc_msgSend$_startedManualCurlAnimation:isRightSide:
+- _objc_msgSend$_stopPlayingMediaIfNoLongerVisible
+- _objc_msgSend$_stringByDeletingPrefix:fromString:
+- _objc_msgSend$_stylesheetSet
+- _objc_msgSend$_stylesheetSetForJob:
+- _objc_msgSend$_stylesheetSetForSnapshot:
+- _objc_msgSend$_summaryLabel
+- _objc_msgSend$_supportsForceTouch
+- _objc_msgSend$_suspendAllMediaPlayback
+- _objc_msgSend$_syncVerticalLabel
+- _objc_msgSend$_systemImageNamed:
+- _objc_msgSend$_tableSwitch
+- _objc_msgSend$_takeSnapshot
+- _objc_msgSend$_takeSnapshotWhenReady
+- _objc_msgSend$_takeSnapshotWithConfiguration:retryOnBlank:completionHandler:
+- _objc_msgSend$_tapLocationForTouchLocation:
+- _objc_msgSend$_tapLocationIsInTextOverlapArea:
+- _objc_msgSend$_teardownContentView
+- _objc_msgSend$_teardownPageNumber:
+- _objc_msgSend$_templateCompatibleThemesForTraitCollection:
+- _objc_msgSend$_textRangeViewClass
+- _objc_msgSend$_themeBackgroundColorWithTraitCollection:
+- _objc_msgSend$_themeButtonImageForTheme:selected:
+- _objc_msgSend$_themeButtonImageWithColor:unselectedBorderColor:selected:
+- _objc_msgSend$_themeButtonImageWithColor:unselectedBorderColor:selectedImageColor:selected:
+- _objc_msgSend$_thumbnailBookViewConfiguration
+- _objc_msgSend$_thumbnailShouldTrackWithScrubber
+- _objc_msgSend$_thumbnailingOperation
+- _objc_msgSend$_timeIntervalForHighlightGesture
+- _objc_msgSend$_titleForPage
+- _objc_msgSend$_titleLabel
+- _objc_msgSend$_titleView
+- _objc_msgSend$_tocBarButtonItem
+- _objc_msgSend$_tocDirectory
+- _objc_msgSend$_touchIsNoNoClassOrMediaElement:
+- _objc_msgSend$_touchUpParse
+- _objc_msgSend$_trackPlayer
+- _objc_msgSend$_transformLocationRectsAndPageOffsetResults:
+- _objc_msgSend$_transformUpgradedBookmarks:
+- _objc_msgSend$_trim
+- _objc_msgSend$_turnAutoNightModeSwitchOff
+- _objc_msgSend$_turnPendingPagesAfterFinishing
+- _objc_msgSend$_turnToContent2:location:pageOffset:waitForContentLoad:directionHint:animated:oldPageOffset:
+- _objc_msgSend$_turnToContent:location:pageOffset:waitForContentLoad:animated:
+- _objc_msgSend$_turnToContent:location:pageOffset:waitForContentLoad:directionHint:animated:
+- _objc_msgSend$_turnToContent:location:pageOffset:waitForContentLoad:directionHint:animated:adjustScrollToReveal:
+- _objc_msgSend$_uncheckedPageOffsetRangeForRect:
+- _objc_msgSend$_uncheckedSnapshotWithMask:assetID:bookInfo:containerBounds:contentSize:isRight:pageNumber:scale:size:completion:
+- _objc_msgSend$_uniqueIDForOutline:
+- _objc_msgSend$_unscheduleSearch
+- _objc_msgSend$_update
+- _objc_msgSend$_updateActionButton
+- _objc_msgSend$_updateAnnotation:pageRange:lookupKey:annotationRects:
+- _objc_msgSend$_updateAppearance
+- _objc_msgSend$_updateAppearanceFromLightLevelController:
+- _objc_msgSend$_updateBook:onMoc:forCurrentURL:
+- _objc_msgSend$_updateBookScale
+- _objc_msgSend$_updateBookmark
+- _objc_msgSend$_updateBuyButton
+- _objc_msgSend$_updateCalloutPageView
+- _objc_msgSend$_updateCancelButton
+- _objc_msgSend$_updateClipping
+- _objc_msgSend$_updateColors
+- _objc_msgSend$_updateColorsWithTraitCollection:
+- _objc_msgSend$_updateConfiguration
+- _objc_msgSend$_updateConfigurationWithCompletion:
+- _objc_msgSend$_updateContent
+- _objc_msgSend$_updateContentInformationWithRequest:
+- _objc_msgSend$_updateContentInsets
+- _objc_msgSend$_updateContentOffset
+- _objc_msgSend$_updateContentSize:
+- _objc_msgSend$_updateControlsHiddenState
+- _objc_msgSend$_updateControlsHiddenState:
+- _objc_msgSend$_updateDirectorySwitch
+- _objc_msgSend$_updateDisplayAfterValueChanged
+- _objc_msgSend$_updateDividersForScrollView:
+- _objc_msgSend$_updateDoneButton
+- _objc_msgSend$_updateFooterConstraint
+- _objc_msgSend$_updateHUDVisibility
+- _objc_msgSend$_updateHoverInteraction
+- _objc_msgSend$_updateImageAndTextConstraints
+- _objc_msgSend$_updateJumpAheadButton:
+- _objc_msgSend$_updateJumpBackButton
+- _objc_msgSend$_updateLabels:
+- _objc_msgSend$_updateLibraryBarButtonItem
+- _objc_msgSend$_updateLoadingCell:
+- _objc_msgSend$_updateLocationFromAnnotation:
+- _objc_msgSend$_updateMetaViewportArguments
+- _objc_msgSend$_updatePageBookmarkButton
+- _objc_msgSend$_updatePageNumber
+- _objc_msgSend$_updatePageNumberHUDVisible:
+- _objc_msgSend$_updatePageViewScrollStates
+- _objc_msgSend$_updatePages
+- _objc_msgSend$_updateReadingState
+- _objc_msgSend$_updateReadingStateVisibilityPossible:
+- _objc_msgSend$_updateReadingStateVisibilityPossible:knownDOMRange:
+- _objc_msgSend$_updateReadingStatistics
+- _objc_msgSend$_updateScrollObserver
+- _objc_msgSend$_updateScrubber:
+- _objc_msgSend$_updateScrubberCallout:
+- _objc_msgSend$_updateScrubberTheme
+- _objc_msgSend$_updateSelectionHighlights
+- _objc_msgSend$_updateShadowPath
+- _objc_msgSend$_updateSignal
+- _objc_msgSend$_updateSurroundingZoomScales
+- _objc_msgSend$_updateTOCBarButtonEnabledState
+- _objc_msgSend$_updateThumb
+- _objc_msgSend$_updateThumbnails
+- _objc_msgSend$_updateToolbarPositionAndBackgroundExtension
+- _objc_msgSend$_updateToolbarVisibilityAnimated:
+- _objc_msgSend$_updateToolbars:
+- _objc_msgSend$_updateWebProcessPluginObject:withParameter:
+- _objc_msgSend$_updateWebsearchButtonsStatus
+- _objc_msgSend$_urlToLoad
+- _objc_msgSend$_useCompactStrings
+- _objc_msgSend$_valueFormatter
+- _objc_msgSend$_verticallyScrollWebViews
+- _objc_msgSend$_verticallyScrolling
+- _objc_msgSend$_viewForFindUI
+- _objc_msgSend$_viewForPresenting
+- _objc_msgSend$_viewportWidth
+- _objc_msgSend$_visibleAnnotationsForType:
+- _objc_msgSend$_visibleAreaChangedInScrollView:
+- _objc_msgSend$_visibleCFIRangeFromWebView:document:
+- _objc_msgSend$_visitPageTree:visitBlock:
+- _objc_msgSend$_waitForFindSemaphore
+- _objc_msgSend$_waitForLoadSemaphore
+- _objc_msgSend$_webkit2LocationForContentViewPoint:
+- _objc_msgSend$_whiteThemeButtonImageSelected:
+- _objc_msgSend$_willScrollPDFViewToPageNumber:
+- _objc_msgSend$_wk2_scrollToPage:paginationMode:pageProgressionDirection:configuration:
+- _objc_msgSend$_zoomInAnimationDidStop:
+- _objc_msgSend$_zoomOutAnimationDidStop:
+- _objc_msgSend$abortCurrentBatch
+- _objc_msgSend$absoluteOrder
+- _objc_msgSend$absoluteString
+- _objc_msgSend$absoluteURL
+- _objc_msgSend$accessibilityActivationPoint
+- _objc_msgSend$accessibilityFrame
+- _objc_msgSend$accessibilityLabel
+- _objc_msgSend$accessibilityPerformEscape
+- _objc_msgSend$accessibilityRequiresActivateForSearchField
+- _objc_msgSend$accessibilityTraits
+- _objc_msgSend$accessibilityValue
+- _objc_msgSend$accessoryView
+- _objc_msgSend$action
+- _objc_msgSend$actionController
+- _objc_msgSend$actionControllerWillShow:
+- _objc_msgSend$actionWithHandler:
+- _objc_msgSend$actionWithTitle:style:handler:
+- _objc_msgSend$activateChapterForBook:chapterID:title:completion:
+- _objc_msgSend$activateChapterForBook:chapterID:title:currentPage:chapterRange:completion:
+- _objc_msgSend$activateConstraints:
+- _objc_msgSend$activationState
+- _objc_msgSend$activeAccount
+- _objc_msgSend$activeContextWithCompletion:
+- _objc_msgSend$activityDidFinish:
+- _objc_msgSend$activityIndicator
+- _objc_msgSend$activityIndicatorOverlayView
+- _objc_msgSend$activityItems
+- _objc_msgSend$activityType
+- _objc_msgSend$activityViewController
+- _objc_msgSend$actualSize
+- _objc_msgSend$actualSizeForContentSize:drawsSpine:
+- _objc_msgSend$adaptivePresentationStyleForPresentationController:traitCollection:
+- _objc_msgSend$add:
+- _objc_msgSend$addAction:
+- _objc_msgSend$addAnimation:forKey:
+- _objc_msgSend$addAnimations:
+- _objc_msgSend$addAnnotation:location:selectedText:representativeText:
+- _objc_msgSend$addArrangedSubview:
+- _objc_msgSend$addAttributes:range:
+- _objc_msgSend$addAudioMuxingObserver:
+- _objc_msgSend$addChapters:
+- _objc_msgSend$addChaptersObject:
+- _objc_msgSend$addCharactersInRange:
+- _objc_msgSend$addCharactersInString:
+- _objc_msgSend$addChildViewController:
+- _objc_msgSend$addClip
+- _objc_msgSend$addCompletion:
+- _objc_msgSend$addConstraints:
+- _objc_msgSend$addDelegate:
+- _objc_msgSend$addDependency:
+- _objc_msgSend$addEdgeInsets:forKey:
+- _objc_msgSend$addEntriesFromDictionary:
+- _objc_msgSend$addExecutionBlock:
+- _objc_msgSend$addExperience:
+- _objc_msgSend$addExtraCompletion:
+- _objc_msgSend$addFinishBlock:
+- _objc_msgSend$addFloat:forKey:
+- _objc_msgSend$addGestureRecognizer:
+- _objc_msgSend$addGutter:
+- _objc_msgSend$addHighlight:forData:
+- _objc_msgSend$addHighlightToCurrentSelection:
+- _objc_msgSend$addHighlightView:forWK2:
+- _objc_msgSend$addInteraction:
+- _objc_msgSend$addLandmarks:
+- _objc_msgSend$addLayoutCompleteJob:
+- _objc_msgSend$addLayoutJob:
+- _objc_msgSend$addMarkupForReadAloudToDocument
+- _objc_msgSend$addNoteToCurrentSelection:
+- _objc_msgSend$addObject:
+- _objc_msgSend$addObjectsFromArray:
+- _objc_msgSend$addObserver:
+- _objc_msgSend$addObserver:changeHandler:
+- _objc_msgSend$addObserver:forKeyPath:options:context:
+- _objc_msgSend$addObserver:selector:name:object:
+- _objc_msgSend$addObserver:toObjectsAtIndexes:forKeyPath:options:context:
+- _objc_msgSend$addObserverForName:object:queue:usingBlock:
+- _objc_msgSend$addOperation:
+- _objc_msgSend$addOperations:waitUntilFinished:
+- _objc_msgSend$addPendingContent:
+- _objc_msgSend$addPhysicalPageLabelsForContent:
+- _objc_msgSend$addPhysicalPages:
+- _objc_msgSend$addPrepareJob:
+- _objc_msgSend$addRegionWithRect:
+- _objc_msgSend$addResultJob:
+- _objc_msgSend$addResultSentinel:
+- _objc_msgSend$addScriptToEvaluate:key:transform:
+- _objc_msgSend$addScriptsToLoader:context:
+- _objc_msgSend$addScrollModePageNumbersForContent:
+- _objc_msgSend$addSinfInfoObject:
+- _objc_msgSend$addStore:
+- _objc_msgSend$addString:forKey:
+- _objc_msgSend$addSublayer:
+- _objc_msgSend$addSubview:
+- _objc_msgSend$addTOCEntries:ordinal:completion:
+- _objc_msgSend$addTOCParseJob:
+- _objc_msgSend$addTOCResultJob:
+- _objc_msgSend$addTarget:action:forControlEvents:
+- _objc_msgSend$addTemplate:withName:
+- _objc_msgSend$addTextFieldWithConfigurationHandler:
+- _objc_msgSend$addTextIndex:withName:
+- _objc_msgSend$addTextNodeCharacterCounts:ordinal:completion:
+- _objc_msgSend$addTimeObserver:
+- _objc_msgSend$addToParentViewController:
+- _objc_msgSend$addToRunLoop:forMode:
+- _objc_msgSend$addToViewController:
+- _objc_msgSend$addWithPredicate:adder:
+- _objc_msgSend$addhighlightForElementID:
+- _objc_msgSend$addsGutterOnPageTurn
+- _objc_msgSend$adjustContentControllerFrames
+- _objc_msgSend$adjustContentControllerFramesIfNeeded
+- _objc_msgSend$adjustGridMetrics
+- _objc_msgSend$adjustToNewSize:
+- _objc_msgSend$adornmentContainerViewForContent:
+- _objc_msgSend$adornmentScrollView
+- _objc_msgSend$aeAssetType
+- _objc_msgSend$aeBookInfoSnapshotFromBookInfo:ordinal:
+- _objc_msgSend$aeHighlightStyleName
+- _objc_msgSend$aeHighlightedTextLabel
+- _objc_msgSend$ae_annotation
+- _objc_msgSend$ae_button
+- _objc_msgSend$ae_didDismissPopoverContainingThisViewController
+- _objc_msgSend$ae_reverseValues
+- _objc_msgSend$ae_stickies
+- _objc_msgSend$ae_willDismissPopoverContainingThisViewController
+- _objc_msgSend$afterEnsuringFirstPaintPerform:
+- _objc_msgSend$afterEnsuringLocationVisiblePerform:
+- _objc_msgSend$akAnnotationEditingEnabled
+- _objc_msgSend$akController
+- _objc_msgSend$akRedoToolbarItem
+- _objc_msgSend$akToolbarView
+- _objc_msgSend$akUndoToolbarItem
+- _objc_msgSend$alertControllerWithTitle:message:preferredStyle:
+- _objc_msgSend$allBookmarkIdentifiers
+- _objc_msgSend$allIdentifiers
+- _objc_msgSend$allKeys
+- _objc_msgSend$allKeysForObject:
+- _objc_msgSend$allNavigationInfosByOrdinal
+- _objc_msgSend$allObjects
+- _objc_msgSend$allTouches
+- _objc_msgSend$allValues
+- _objc_msgSend$allViewControllers
+- _objc_msgSend$allViews
+- _objc_msgSend$allocWithZone:
+- _objc_msgSend$allowCitationForProtectedBooks
+- _objc_msgSend$allowsDocumentAssembly
+- _objc_msgSend$allowsDocumentChanges
+- _objc_msgSend$allowsRemoteInspection
+- _objc_msgSend$allowsScrollMode
+- _objc_msgSend$alpha
+- _objc_msgSend$alreadyRevealed
+- _objc_msgSend$ams_DSID
+- _objc_msgSend$ams_iTunesAccountWithUsername:
+- _objc_msgSend$analysisInteraction
+- _objc_msgSend$analyticsContentDataForAssetViewController:contentSubType:tracker:
+- _objc_msgSend$analyticsContentSettingData
+- _objc_msgSend$analyticsReadStartDate
+- _objc_msgSend$analyticsReadStartProgress
+- _objc_msgSend$analyticsReadingSettingsData
+- _objc_msgSend$analyticsSessionHost
+- _objc_msgSend$ancestorViewController
+- _objc_msgSend$anchor
+- _objc_msgSend$anchorFrameForAnchor:
+- _objc_msgSend$anchorFrames
+- _objc_msgSend$anchorFramesScript
+- _objc_msgSend$anchorLocations
+- _objc_msgSend$andPredicateWithSubpredicates:
+- _objc_msgSend$animateAlongsideTransition:completion:
+- _objc_msgSend$animateRotationWithDuration:
+- _objc_msgSend$animateVerticalScrubberIn:animated:
+- _objc_msgSend$animateWithDuration:animations:
+- _objc_msgSend$animateWithDuration:animations:completion:
+- _objc_msgSend$animateWithDuration:delay:options:animations:completion:
+- _objc_msgSend$animatedTransitionToState:
+- _objc_msgSend$animating
+- _objc_msgSend$animation
+- _objc_msgSend$animationForKey:
+- _objc_msgSend$animationWithKeyPath:
+- _objc_msgSend$annotateSelection:
+- _objc_msgSend$annotation
+- _objc_msgSend$annotationAssetID
+- _objc_msgSend$annotationAttributedString
+- _objc_msgSend$annotationBlendMode
+- _objc_msgSend$annotationCFIStrings
+- _objc_msgSend$annotationChangeRequiresPaginationUpdate
+- _objc_msgSend$annotationCreationDate
+- _objc_msgSend$annotationCreatorIdentifier
+- _objc_msgSend$annotationDataProvider
+- _objc_msgSend$annotationHasNote
+- _objc_msgSend$annotationIndexPathForRowNearestPageNumber:isExactPageMatch:
+- _objc_msgSend$annotationIsBookmark
+- _objc_msgSend$annotationIsUnderline
+- _objc_msgSend$annotationLocation
+- _objc_msgSend$annotationLocationCFIToClientRectsForAnnotations:
+- _objc_msgSend$annotationNote
+- _objc_msgSend$annotationPageTheme
+- _objc_msgSend$annotationProvider
+- _objc_msgSend$annotationProviderForOfflineDBWithAssetID:
+- _objc_msgSend$annotationProviderWithCoordination:forAssetID:
+- _objc_msgSend$annotationRectUnionCache
+- _objc_msgSend$annotationRects
+- _objc_msgSend$annotationRectsCache
+- _objc_msgSend$annotationRectsData
+- _objc_msgSend$annotationRepresentativeText
+- _objc_msgSend$annotationSelectedText
+- _objc_msgSend$annotationSerializationManagerWithAssetID:assetURL:bookVersionString:pathToAssetContextDirectory:isManagedBook:
+- _objc_msgSend$annotationStyle
+- _objc_msgSend$annotationType
+- _objc_msgSend$annotationUuid
+- _objc_msgSend$annotationUuidForHighlightLayer:
+- _objc_msgSend$annotationVersion
+- _objc_msgSend$annotations
+- _objc_msgSend$annotationsPredicate:
+- _objc_msgSend$annotationsToUpgrade
+- _objc_msgSend$anyObject
+- _objc_msgSend$anySnapshotForBookInfo:pageNumber:containerBounds:
+- _objc_msgSend$appInfoMgr
+- _objc_msgSend$appIntentsSearchQuery
+- _objc_msgSend$appearanceColorContainerHeight
+- _objc_msgSend$appearanceColorPotHeight
+- _objc_msgSend$appearanceColorPotSeparator
+- _objc_msgSend$appearanceColorPotWidth
+- _objc_msgSend$appearanceFontViewController:didChangeToFontWithName:
+- _objc_msgSend$appearanceIdentifierForSnapshot
+- _objc_msgSend$appearanceMenuItems
+- _objc_msgSend$appearanceRowHeight
+- _objc_msgSend$appearanceStyle
+- _objc_msgSend$appearanceStyleForSnapshot
+- _objc_msgSend$appearanceViewController:brightnessLevelDidChange:
+- _objc_msgSend$appearanceViewController:didChangeAutoNightMode:previousValue:
+- _objc_msgSend$appearanceViewController:didChangeFont:
+- _objc_msgSend$appearanceViewController:didChangeFontSize:
+- _objc_msgSend$appearanceViewController:didChangeLayout:
+- _objc_msgSend$appearanceViewController:didChangeTheme:
+- _objc_msgSend$appearanceViewController:willChangeTheme:
+- _objc_msgSend$appearanceViewControllerShouldDismiss
+- _objc_msgSend$appendString:
+- _objc_msgSend$appleDisplayOptions
+- _objc_msgSend$application:openURL:options:
+- _objc_msgSend$applicationActivities
+- _objc_msgSend$applicationCacheDirectory
+- _objc_msgSend$applicationState
+- _objc_msgSend$applyAppearanceStyle:
+- _objc_msgSend$applyClassName:toOnlyLinkWithHref:
+- _objc_msgSend$applyContentBlockingRule:toWebView:completion:
+- _objc_msgSend$applyLabelFonts
+- _objc_msgSend$applyPageColor
+- _objc_msgSend$applyTitleForOptions:
+- _objc_msgSend$applyToWebView:
+- _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
+- _objc_msgSend$areAnimationsEnabled
+- _objc_msgSend$areCitationsAllowedForBook:
+- _objc_msgSend$array
+- _objc_msgSend$arrayByAddingObject:
+- _objc_msgSend$arrayByAddingObjectsFromArray:
+- _objc_msgSend$arrayOfVisibleRectsFromRects:
+- _objc_msgSend$arrayOfVisibleRectsFromRects:contentRect:
+- _objc_msgSend$arrayOfVisibleRectsFromRects:inContentRect:
+- _objc_msgSend$arrayWithCapacity:
+- _objc_msgSend$arrayWithObject:
+- _objc_msgSend$arrayWithObjects:
+- _objc_msgSend$arrayWithObjects:count:
+- _objc_msgSend$arrowBackgroundView
+- _objc_msgSend$ascender
+- _objc_msgSend$aspectRatioFromPDF
+- _objc_msgSend$asset
+- _objc_msgSend$assetDetailManager
+- _objc_msgSend$assetEditingEnabled
+- _objc_msgSend$assetEditingRequested
+- _objc_msgSend$assetID
+- _objc_msgSend$assetIDForAssetAtURLOnMainThread:
+- _objc_msgSend$assetIDFromPlistEntry:forAssetAtPath:
+- _objc_msgSend$assetLogID
+- _objc_msgSend$assetOpenedInPlace
+- _objc_msgSend$assetReloading
+- _objc_msgSend$assetSharingConnectionClient
+- _objc_msgSend$assetSharingConnectionClient:performRequest:
+- _objc_msgSend$assetSharingConnectionServer:didChangeConnectionType:
+- _objc_msgSend$assetSharingConnectionServer:didChangeSelectedAnnotationsCount:
+- _objc_msgSend$assetSharingConnectionServers
+- _objc_msgSend$assetSharingConnectionTypeForClient:
+- _objc_msgSend$assetType
+- _objc_msgSend$assetURL
+- _objc_msgSend$assetViewController
+- _objc_msgSend$assetViewController:assetPropertyChanged:
+- _objc_msgSend$assetViewController:didShowContentWithCFIs:
+- _objc_msgSend$assetViewController:presentViewController:animated:completion:
+- _objc_msgSend$assetViewController:requestClose:error:
+- _objc_msgSend$assetViewController:requestOpenURL:likelyUserInitiated:
+- _objc_msgSend$assetViewController:setFinishedAndCloseForAssetID:
+- _objc_msgSend$assetViewController:willClose:
+- _objc_msgSend$assetViewController:willHideContentWithCFIs:
+- _objc_msgSend$assetViewController:willOpen:
+- _objc_msgSend$assetViewControllerBuyButtonItem:isSample:isPreorder:storeID:
+- _objc_msgSend$assetViewControllerDelegate
+- _objc_msgSend$assetViewControllerDelegateForContentViewController:
+- _objc_msgSend$assetViewControllerMinifiedBarButtonItem:
+- _objc_msgSend$assetViewControllerPaginationCompletedForBook:
+- _objc_msgSend$assetViewControllerProductProfile:
+- _objc_msgSend$assetViewControllerRequestToBuy:completion:
+- _objc_msgSend$assetViewControllerSignificantReadingLocationChange:
+- _objc_msgSend$assetViewControllerUpdateToolbars
+- _objc_msgSend$assetViewControllerWillUnload
+- _objc_msgSend$assetWithURL:
+- _objc_msgSend$assignedPageLocation
+- _objc_msgSend$associatedAssetType
+- _objc_msgSend$attemptRotationToDeviceOrientation
+- _objc_msgSend$attributedString
+- _objc_msgSend$attributes
+- _objc_msgSend$attributesByName
+- _objc_msgSend$attributesOfItemAtPath:error:
+- _objc_msgSend$audioController
+- _objc_msgSend$audioEnd
+- _objc_msgSend$audioHref
+- _objc_msgSend$audioStart
+- _objc_msgSend$author
+- _objc_msgSend$authorFromPlistEntry:
+- _objc_msgSend$autoHyphenate
+- _objc_msgSend$autoHyphenation
+- _objc_msgSend$autoNightModeSwitch
+- _objc_msgSend$autoScaleFactor
+- _objc_msgSend$autoSlideFromPages:toPages:inContainer:isForwardAnimation:isRTL:isZoomedToSpread:completion:
+- _objc_msgSend$autoresizingMask
+- _objc_msgSend$ba_analyticsTracker
+- _objc_msgSend$ba_effectiveAnalyticsTracker
+- _objc_msgSend$ba_setupNewAnalyticsTrackerWithName:
+- _objc_msgSend$backColor
+- _objc_msgSend$backPage
+- _objc_msgSend$backPageArray
+- _objc_msgSend$backToPageWithPageTitle:
+- _objc_msgSend$background
+- _objc_msgSend$backgroundColor
+- _objc_msgSend$backgroundColorForTraitCollection:
+- _objc_msgSend$backgroundColorForTraitEnvironment:
+- _objc_msgSend$backgroundColorFromThemeIdentifier:
+- _objc_msgSend$backgroundExtension
+- _objc_msgSend$backgroundImageView
+- _objc_msgSend$backgroundMini
+- _objc_msgSend$backgroundSelected
+- _objc_msgSend$backgroundSelectedMini
+- _objc_msgSend$backgroundView
+- _objc_msgSend$backgroundsByLevel
+- _objc_msgSend$barButtonItem
+- _objc_msgSend$barButtonItemForButton:
+- _objc_msgSend$barStyle
+- _objc_msgSend$baseHref
+- _objc_msgSend$basePlusContentPath
+- _objc_msgSend$baseURL
+- _objc_msgSend$batchDeleteEntity:matching:prefetchRelationships:
+- _objc_msgSend$batchEnded:
+- _objc_msgSend$batchJob
+- _objc_msgSend$bcTracker
+- _objc_msgSend$bc_accessibilityFontSizesEnabled
+- _objc_msgSend$bc_allAPITraits
+- _objc_msgSend$bc_analyticsVisibilitySubtreeDidDisappear
+- _objc_msgSend$bc_analyticsVisibilitySubtreeWillDisappear
+- _objc_msgSend$bc_analyticsVisibilityUpdateSubtree
+- _objc_msgSend$bc_applyTraitOverridesWithOverrideUserInterfaceStyleFromViewController:
+- _objc_msgSend$bc_booksBackground
+- _objc_msgSend$bc_booksGreen
+- _objc_msgSend$bc_booksKeyColor
+- _objc_msgSend$bc_booksLabelColor
+- _objc_msgSend$bc_booksQuaternaryLabelColor
+- _objc_msgSend$bc_booksSecondaryLabelColor
+- _objc_msgSend$bc_booksTertiaryLabelColor
+- _objc_msgSend$bc_booksWhite
+- _objc_msgSend$bc_constraintsToFitInSuperviewCentered
+- _objc_msgSend$bc_contentSizeCategoryIsGreaterThan:
+- _objc_msgSend$bc_contextualPresentedViewController
+- _objc_msgSend$bc_cssFontFamily
+- _objc_msgSend$bc_cssFontSize
+- _objc_msgSend$bc_cssFontWeight
+- _objc_msgSend$bc_darkSystemBackgroundForTraitCollection:
+- _objc_msgSend$bc_darkerTexturedBackgroundColor
+- _objc_msgSend$bc_deepestPresentedViewController
+- _objc_msgSend$bc_defaultPortraitStatusBarHeight
+- _objc_msgSend$bc_fakeSourceView
+- _objc_msgSend$bc_imageWithConfiguration:limitedToContentSizeCategory:
+- _objc_msgSend$bc_invertedDynamicColor
+- _objc_msgSend$bc_pathWithoutPrecedingSlash
+- _objc_msgSend$bc_presentViewController:animated:tintColor:completion:
+- _objc_msgSend$bc_presentingViewController
+- _objc_msgSend$bc_readingExperienceBarItem:target:action:
+- _objc_msgSend$bc_realSourceBarButtonItem
+- _objc_msgSend$bc_redactedCFIString
+- _objc_msgSend$bc_rgbaHexValue
+- _objc_msgSend$bc_rgbaString
+- _objc_msgSend$bc_windowForViewController
+- _objc_msgSend$be_PDFPageViewControllerClass
+- _objc_msgSend$be_addScriptMessageHandler:name:
+- _objc_msgSend$be_adjustScrollDynamicsIfNeeded
+- _objc_msgSend$be_associatedPageViewController
+- _objc_msgSend$be_autoScaleFactor
+- _objc_msgSend$be_clearSelection
+- _objc_msgSend$be_contentSupportInterfaceLevel
+- _objc_msgSend$be_contentView
+- _objc_msgSend$be_estimatedContentSizeValue
+- _objc_msgSend$be_evaluateJavaScript:completion:
+- _objc_msgSend$be_hasSelectablePositionAtPoint:
+- _objc_msgSend$be_hasSelection
+- _objc_msgSend$be_isEquivalentToURL:ignoringFragment:
+- _objc_msgSend$be_navigationHandler
+- _objc_msgSend$be_overrideAutoScale
+- _objc_msgSend$be_pageLength
+- _objc_msgSend$be_pdfView
+- _objc_msgSend$be_redactedCFIString
+- _objc_msgSend$be_requestedContentOffset
+- _objc_msgSend$be_scale
+- _objc_msgSend$be_scrollingPageHeight
+- _objc_msgSend$be_scrollingPageWidth
+- _objc_msgSend$be_selectForWebView:
+- _objc_msgSend$be_selectedText
+- _objc_msgSend$be_selectionRects
+- _objc_msgSend$be_setContentOffset:
+- _objc_msgSend$be_setContentOffset:bypassingJS:
+- _objc_msgSend$be_takeSnapshotWithDefaultConfigurationCompletion:
+- _objc_msgSend$be_textInputChild
+- _objc_msgSend$be_uiHandler
+- _objc_msgSend$be_updateAXCurrentReadingStateWithMessage:forValue:
+- _objc_msgSend$be_updateAXValueForMessage:
+- _objc_msgSend$be_useOverrideAutoScale
+- _objc_msgSend$be_webSelectionRects
+- _objc_msgSend$be_wkContentViewClass
+- _objc_msgSend$becomeFirstResponder
+- _objc_msgSend$begin
+- _objc_msgSend$beginAppearanceTransition:animated:
+- _objc_msgSend$beginAssetSharingConnectionWithClient:
+- _objc_msgSend$beginManualAnimationAtLocation:
+- _objc_msgSend$beginManualCurl:atLocation:inPage:fromPages:backPage:inContainer:
+- _objc_msgSend$beginManualCurlAtLocation:
+- _objc_msgSend$beginSearchWithReportAnalytics:
+- _objc_msgSend$beginUpdates
+- _objc_msgSend$bestSupportedBookSharingConnectionType
+- _objc_msgSend$bezierPathWithOvalInRect:
+- _objc_msgSend$bezierPathWithRect:
+- _objc_msgSend$bezierPathWithRoundedRect:cornerRadius:
+- _objc_msgSend$bkAccessibilityAnnouncementString
+- _objc_msgSend$bkAccessibilityDelegate
+- _objc_msgSend$bkAccessibilityIsPageBookmarked
+- _objc_msgSend$bkEffectiveFontForText:
+- _objc_msgSend$bkLongPressGestureCanTransitionToRecognizedState:
+- _objc_msgSend$bkPageProgressionDirection
+- _objc_msgSend$bkSetText:font:lineBreakMode:
+- _objc_msgSend$bkSizeForString:constrainedToSize:font:lineBreakMode:
+- _objc_msgSend$bkSizeForString:font:
+- _objc_msgSend$bkTextHighlightTypeForIMTextHighlightType:
+- _objc_msgSend$bk_isWKSyntheticTapGestureRecognizer
+- _objc_msgSend$bk_traitCollectionWithReadingMode:
+- _objc_msgSend$bkaxAccessibilityUserIsRequestingControlsVisibilityToggle
+- _objc_msgSend$bkaxDelegate
+- _objc_msgSend$bkaxIndentationDepth
+- _objc_msgSend$bkaxInvalidateAnnotationCache
+- _objc_msgSend$bkaxIsExcludedFromSample
+- _objc_msgSend$bkaxNeedsPersistentControls
+- _objc_msgSend$bkaxNoteLabelText
+- _objc_msgSend$bkaxPageNumber
+- _objc_msgSend$bkaxProgress
+- _objc_msgSend$bkaxTarget
+- _objc_msgSend$bkaxTextLabel
+- _objc_msgSend$bkaxThumb
+- _objc_msgSend$bkaxToggleControls:
+- _objc_msgSend$blackColor
+- _objc_msgSend$blockOperationWithBlock:
+- _objc_msgSend$blueTheme:
+- _objc_msgSend$body
+- _objc_msgSend$bodyLabel
+- _objc_msgSend$bodyTopConstraint
+- _objc_msgSend$boldSystemFontOfSize:
+- _objc_msgSend$book
+- _objc_msgSend$bookAnnotationProvider
+- _objc_msgSend$bookAuthor
+- _objc_msgSend$bookAuthorLabel
+- _objc_msgSend$bookAuthorTopConstraint
+- _objc_msgSend$bookBundlePath
+- _objc_msgSend$bookCachedDataPathForBookWithKey:
+- _objc_msgSend$bookCanBeBookmarked
+- _objc_msgSend$bookContainerView:beginManualCurl:atLocation:completion:
+- _objc_msgSend$bookContainerView:cancelManualCurl:
+- _objc_msgSend$bookContainerView:finishManualCurl:
+- _objc_msgSend$bookContainerView:hasMediaElementUnderTouch:
+- _objc_msgSend$bookContainerView:pageTurnShouldRequireFailureOf:
+- _objc_msgSend$bookContainerView:tapToTurnPages:
+- _objc_msgSend$bookContainerView:turnChapter:
+- _objc_msgSend$bookContainerView:turnPages:
+- _objc_msgSend$bookContainerView:updateManualCurl:toLocation:
+- _objc_msgSend$bookContainerViewShouldBeginManualCurl:
+- _objc_msgSend$bookContainerViewShouldTurnPage:
+- _objc_msgSend$bookContentDidLoad
+- _objc_msgSend$bookContentSubpath
+- _objc_msgSend$bookContentView
+- _objc_msgSend$bookContentViewController
+- _objc_msgSend$bookContentViewControllerView
+- _objc_msgSend$bookContentViewImage:
+- _objc_msgSend$bookCoverEdgeInsets
+- _objc_msgSend$bookDatabaseKey
+- _objc_msgSend$bookDescriptionForAssetID:
+- _objc_msgSend$bookEnvironment
+- _objc_msgSend$bookEpubId
+- _objc_msgSend$bookEpubIdFromPlistEntry:
+- _objc_msgSend$bookEpubIdWithUUIDScheme
+- _objc_msgSend$bookExtraInfoCacheDirectory
+- _objc_msgSend$bookFormatByFilePath:
+- _objc_msgSend$bookFromDatabaseKey:withMOC:
+- _objc_msgSend$bookID
+- _objc_msgSend$bookIndexWithName:
+- _objc_msgSend$bookInfo
+- _objc_msgSend$bookInfoForURL:fromManagedObjectContext:error:needsCoordination:updateDate:
+- _objc_msgSend$bookInfoSnapshot
+- _objc_msgSend$bookLanguage
+- _objc_msgSend$bookLoadingMonitor
+- _objc_msgSend$bookMilestoneReached:
+- _objc_msgSend$bookMoc
+- _objc_msgSend$bookObjectID
+- _objc_msgSend$bookPositionProcessor
+- _objc_msgSend$bookSectionChanged:
+- _objc_msgSend$bookSectionWithStartPosition:endPosition:
+- _objc_msgSend$bookSharingRequestClient:annotationAtIndex:
+- _objc_msgSend$bookSharingRequestClient:selectedAnnotationAtIndex:
+- _objc_msgSend$bookSharingRequestNumberOfAnnotations:
+- _objc_msgSend$bookSharingRequestNumberOfSelectedAnnotations:
+- _objc_msgSend$bookSnapshot
+- _objc_msgSend$bookTitle
+- _objc_msgSend$bookTitleLabel
+- _objc_msgSend$bookTitleTopConstraint
+- _objc_msgSend$bookURL
+- _objc_msgSend$bookViewDidAppear:
+- _objc_msgSend$bookViewWillDisappear:
+- _objc_msgSend$bookmarkHotspotDimension
+- _objc_msgSend$bookmarkHotspotDimensionForBookContainerView:
+- _objc_msgSend$bookmarkHotspotDimensionForPageTurningViewController:
+- _objc_msgSend$bookmarkObservers
+- _objc_msgSend$bookmarkPage:
+- _objc_msgSend$bookmarkPageCounts
+- _objc_msgSend$bookmarkTime
+- _objc_msgSend$bookmarkTimeTimestamp
+- _objc_msgSend$bookmarkedPages
+- _objc_msgSend$bookmarks
+- _objc_msgSend$bookmarksChanged
+- _objc_msgSend$bookmarksFetchRequestForBook:moc:
+- _objc_msgSend$bookmarksFetchedResultsController
+- _objc_msgSend$bookmarksUpdated
+- _objc_msgSend$books_chapterBackward:
+- _objc_msgSend$books_chapterForward:
+- _objc_msgSend$books_close:
+- _objc_msgSend$books_disableContinuousScroll:
+- _objc_msgSend$books_enableContinuousScroll:
+- _objc_msgSend$books_pageBackward:
+- _objc_msgSend$books_pageForward:
+- _objc_msgSend$books_pageLeft:
+- _objc_msgSend$books_pageRight:
+- _objc_msgSend$books_showBookmarks:
+- _objc_msgSend$books_showContent:
+- _objc_msgSend$books_showTableOfContents:
+- _objc_msgSend$books_showThumbnails:
+- _objc_msgSend$boolForKey:
+- _objc_msgSend$boolValue
+- _objc_msgSend$bottomAnchor
+- _objc_msgSend$bottomBackgoundBarFrame
+- _objc_msgSend$bottomBarHeight
+- _objc_msgSend$bottomFullWidthToolbarFrame
+- _objc_msgSend$bottomLeftToolbarFrame
+- _objc_msgSend$bottomLeftToolbarFrameTOC
+- _objc_msgSend$bottomPadding
+- _objc_msgSend$bottomPagesView
+- _objc_msgSend$bottomRightToolbarFrame
+- _objc_msgSend$bottomRightToolbarFrameTOC
+- _objc_msgSend$bottomViewFromCenter
+- _objc_msgSend$bottomViewToCenter
+- _objc_msgSend$boundingRectWithSize:options:attributes:context:
+- _objc_msgSend$boundingRectWithSize:options:context:
+- _objc_msgSend$bounds
+- _objc_msgSend$boundsForBox:
+- _objc_msgSend$boundsForPage:
+- _objc_msgSend$brightness
+- _objc_msgSend$brightnessController
+- _objc_msgSend$brightnessSlider
+- _objc_msgSend$bringSubviewToFront:
+- _objc_msgSend$bu_arrayByInvokingBlock:
+- _objc_msgSend$bu_containsStringCaseInsensitive:
+- _objc_msgSend$bu_dataURIString
+- _objc_msgSend$bu_fileAllocatedSizeWithError:
+- _objc_msgSend$bu_indexOfObjectWithValue:forKeyPath:
+- _objc_msgSend$bu_isNoSuchFileError
+- _objc_msgSend$bu_reversedArray
+- _objc_msgSend$bu_sha256
+- _objc_msgSend$bu_sharedAccountStore
+- _objc_msgSend$buildContextTree:forBook:completion:
+- _objc_msgSend$buildHoverControlRegionWithBuilder:
+- _objc_msgSend$bumpAnnotationVersionToMinimumVersion:
+- _objc_msgSend$bumpReadingLocationAnnotationVersionToMinimumVersion:
+- _objc_msgSend$bundleForClass:
+- _objc_msgSend$bundleWithIdentifier:
+- _objc_msgSend$button
+- _objc_msgSend$buttonColor
+- _objc_msgSend$buttonContainerView
+- _objc_msgSend$buttonContainerWidthConstraint
+- _objc_msgSend$buttonFillColor
+- _objc_msgSend$buttonTitleColor
+- _objc_msgSend$buttonWithConfiguration:primaryAction:
+- _objc_msgSend$buttonWithType:
+- _objc_msgSend$buyButton
+- _objc_msgSend$buyButtonColor
+- _objc_msgSend$buyButtonTopConstraint
+- _objc_msgSend$buyDelegate
+- _objc_msgSend$buyWithCompletion:
+- _objc_msgSend$bypassRepagination
+- _objc_msgSend$bytes
+- _objc_msgSend$cStringUsingEncoding:
+- _objc_msgSend$cacheForPath:maxSize:
+- _objc_msgSend$cacheItem
+- _objc_msgSend$cacheKey
+- _objc_msgSend$cacheQueue
+- _objc_msgSend$cachedApproval:forBookID:
+- _objc_msgSend$cachedContentData
+- _objc_msgSend$cachedDataForBookDatabaseKey:cacheKey:
+- _objc_msgSend$cachedFallbackInfo
+- _objc_msgSend$cachedImage
+- _objc_msgSend$cachedRectForAnnotation:
+- _objc_msgSend$cachedRowContents
+- _objc_msgSend$cachedVisibleRectForAnnotation:
+- _objc_msgSend$calculateFontSize
+- _objc_msgSend$calculateFramesAtScale:contentFrame:leftContentFrame:rightContentFrame:
+- _objc_msgSend$calculateOffset:fromOrdinal:andPageOffset:
+- _objc_msgSend$calculatePageCount
+- _objc_msgSend$calculatePageCountExcludingUpsell
+- _objc_msgSend$calculatePasswordRequired
+- _objc_msgSend$calculatingPageLocations
+- _objc_msgSend$callout
+- _objc_msgSend$calloutImageSize
+- _objc_msgSend$canAirDrop
+- _objc_msgSend$canBeEdited
+- _objc_msgSend$canChangeBrightness
+- _objc_msgSend$canCopy
+- _objc_msgSend$canCopyContent
+- _objc_msgSend$canDecreaseFontSize
+- _objc_msgSend$canDismissControls
+- _objc_msgSend$canEmailBook
+- _objc_msgSend$canGoToNextPage
+- _objc_msgSend$canGoToPreviousPage
+- _objc_msgSend$canIncreaseFontSize
+- _objc_msgSend$canMarkupAsPDF
+- _objc_msgSend$canNavigateByChapter
+- _objc_msgSend$canOrdinalOnlyLocationsBeVisible
+- _objc_msgSend$canPerformAction:withSender:
+- _objc_msgSend$canPrintBook
+- _objc_msgSend$canPrintURL:
+- _objc_msgSend$canSearch
+- _objc_msgSend$canSendMailSourceAccountManagement:
+- _objc_msgSend$canShowBookmarks
+- _objc_msgSend$canShowContent
+- _objc_msgSend$canShowControlsDuringOpenClose
+- _objc_msgSend$canShowTableOfContents
+- _objc_msgSend$canShowThumbnails
+- _objc_msgSend$canTransition
+- _objc_msgSend$canTurnPagesAutomatically
+- _objc_msgSend$canUpdateLibraryBarButtonItem:withOldString:
+- _objc_msgSend$canZoomMore
+- _objc_msgSend$cancel
+- _objc_msgSend$cancelActions
+- _objc_msgSend$cancelAllOperations
+- _objc_msgSend$cancelDownload
+- _objc_msgSend$cancelEditAnnotations:
+- _objc_msgSend$cancelFindString
+- _objc_msgSend$cancelManualAnimation
+- _objc_msgSend$cancelManualCurl
+- _objc_msgSend$cancelManualCurl:
+- _objc_msgSend$cancelPagination
+- _objc_msgSend$cancelPendingHidePageControls
+- _objc_msgSend$cancelPendingRenderRequests
+- _objc_msgSend$cancelPendingSavePageControlVisibility
+- _objc_msgSend$cancelPreloadForContent:
+- _objc_msgSend$cancelPreviousPerformRequestsWithTarget:selector:object:
+- _objc_msgSend$cancelRecognizing
+- _objc_msgSend$cancelRenderingCacheOperationsForTarget:
+- _objc_msgSend$cancelRenderingCacheOperationsForTarget:context:
+- _objc_msgSend$cancelSearch
+- _objc_msgSend$candidateIdentifiersForStringQuery:
+- _objc_msgSend$canonicalLanguageIdentifierFromString:
+- _objc_msgSend$canonicalPathFromURL:
+- _objc_msgSend$capitalizedString
+- _objc_msgSend$captureLastRecordedLocation
+- _objc_msgSend$captureSelectionRectValueForTap:
+- _objc_msgSend$caseInsensitiveCompare:
+- _objc_msgSend$catalystToolbarActive
+- _objc_msgSend$cell:matchesPageNumber:
+- _objc_msgSend$cellAspectRatio
+- _objc_msgSend$cellAtIndex:
+- _objc_msgSend$cellClass
+- _objc_msgSend$cellContentWithHeight:cacheKey:
+- _objc_msgSend$cellForIndex:
+- _objc_msgSend$cellForRowAtIndexPath:
+- _objc_msgSend$cellHeightForCellWidth:chapterString:dateString:pageString:writingDirection:
+- _objc_msgSend$cellHeightForCellWidth:pageLabelWidth:text:indentationLevel:indentationWidth:font:usesPopoverStyle:
+- _objc_msgSend$cellHeightInPopoverForBounds:highlightFont:annotation:dateString:pageString:writingDirection:
+- _objc_msgSend$cellLoadingOperationCount
+- _objc_msgSend$cellSize
+- _objc_msgSend$cellWidth
+- _objc_msgSend$center
+- _objc_msgSend$centerContent
+- _objc_msgSend$centerWebView
+- _objc_msgSend$centerXAnchor
+- _objc_msgSend$centerYAnchor
+- _objc_msgSend$centeringInsets
+- _objc_msgSend$cfi
+- _objc_msgSend$cfiForAnnotation:
+- _objc_msgSend$cfiForLocation:
+- _objc_msgSend$cfiLocationPageOffsets
+- _objc_msgSend$cfiLocationRects
+- _objc_msgSend$cfiOptions
+- _objc_msgSend$cfiSetWithCFIString:
+- _objc_msgSend$cfiString
+- _objc_msgSend$cfiUtilitiesJSOptionsForBookInfoSnapshot:ordinal:
+- _objc_msgSend$cfiWithAdjustedSpineIndex:error:
+- _objc_msgSend$cfiWithSpineIndexAdjustedUsingAssertionBlock:
+- _objc_msgSend$cfiWithString:error:
+- _objc_msgSend$cfisForHrefs
+- _objc_msgSend$cfisForHrefsScript:
+- _objc_msgSend$changeAnnotationStyle:annotation:
+- _objc_msgSend$chapterArrayWithLookupKey:
+- _objc_msgSend$chapterFontForPopover
+- _objc_msgSend$chapterForIndexPath:
+- _objc_msgSend$chapterForPageNumber:
+- _objc_msgSend$chapterIndexForHref:
+- _objc_msgSend$chapterIndexForPageNumber:
+- _objc_msgSend$chapterIndexForPageNumber:getFirstChapter:
+- _objc_msgSend$chapterInfoForCurrentNode
+- _objc_msgSend$chapterInfoForPageNumber:
+- _objc_msgSend$chapterSubLevelFont
+- _objc_msgSend$chapterTitle
+- _objc_msgSend$chapterTitleForAnnotation:
+- _objc_msgSend$chapterTitleForLocation:
+- _objc_msgSend$chapterTitleForOrdinal:pageOffset:
+- _objc_msgSend$chapterTitleFrameForString:font:bounds:pageLabelFrame:writingDirection:
+- _objc_msgSend$chapterTitleFrameForString:font:letMargin:numberOfLines:bounds:pageLabelFrame:writingDirection:
+- _objc_msgSend$chapterTitleFrameInPopoverForString:font:bounds:pageLabelFrame:writingDirection:
+- _objc_msgSend$chapterTopLevelFont
+- _objc_msgSend$chapters
+- _objc_msgSend$characterAtIndex:
+- _objc_msgSend$characterSetWithCharactersInString:
+- _objc_msgSend$characterSetWithRange:
+- _objc_msgSend$charactersPerLine
+- _objc_msgSend$checkAnnotationsForDuplicatedDocuments
+- _objc_msgSend$checkStateSynchronously:
+- _objc_msgSend$checkStateSynchronously:completion:
+- _objc_msgSend$checkmarkHeightConstraint
+- _objc_msgSend$checkmarkImageView
+- _objc_msgSend$checkmarkTopConstraint
+- _objc_msgSend$checkmarkWidthConstraint
+- _objc_msgSend$childAtIndex:
+- _objc_msgSend$childDictionaryReferencesParent:
+- _objc_msgSend$childViewControllers
+- _objc_msgSend$citationAllowedForStoreFrontID:
+- _objc_msgSend$classForResource:
+- _objc_msgSend$classNameFromChapterInfo:excludedFromSample:
+- _objc_msgSend$classicScrubberHeight
+- _objc_msgSend$cleanDocumentForMediaOverlay
+- _objc_msgSend$cleanup
+- _objc_msgSend$cleanupAfterRotation
+- _objc_msgSend$cleanupJSOptionsForBookInfoSnapshot:withConfiguration:
+- _objc_msgSend$cleanupOptions
+- _objc_msgSend$cleanupPopovers
+- _objc_msgSend$clear
+- _objc_msgSend$clearAvoidSync
+- _objc_msgSend$clearColor
+- _objc_msgSend$clearCurrentHighlighting
+- _objc_msgSend$clearHighlights
+- _objc_msgSend$clearHighlightsForSearchResults
+- _objc_msgSend$clearInactiveContentViewControllers
+- _objc_msgSend$clearMediaOverlayElement:
+- _objc_msgSend$clearNativeObjectCache
+- _objc_msgSend$clearPaginationResults
+- _objc_msgSend$clearSearchLocation
+- _objc_msgSend$clearSearchResult
+- _objc_msgSend$clearSearchResultForContentViewController:
+- _objc_msgSend$clearSelectedAnnotation
+- _objc_msgSend$clearSelection
+- _objc_msgSend$clearSelectionHighlights
+- _objc_msgSend$clientApplicationController
+- _objc_msgSend$clientManifest
+- _objc_msgSend$clientRectForEpubLocation:completion:
+- _objc_msgSend$clientRectsForLocation:completion:
+- _objc_msgSend$clientRectsForLocations:completion:
+- _objc_msgSend$close:
+- _objc_msgSend$closeIndex
+- _objc_msgSend$coalescedRefreshAdornmentsForContent
+- _objc_msgSend$code
+- _objc_msgSend$colorWithAlphaComponent:
+- _objc_msgSend$colorWithDynamicProvider:
+- _objc_msgSend$colorWithRed:green:blue:alpha:
+- _objc_msgSend$colorWithWhite:alpha:
+- _objc_msgSend$colors
+- _objc_msgSend$commandWithTitle:image:action:input:modifierFlags:propertyList:
+- _objc_msgSend$commandWithTitle:image:action:propertyList:
+- _objc_msgSend$commit
+- _objc_msgSend$compactHeightPredicate
+- _objc_msgSend$compactWidthPredicate
+- _objc_msgSend$compare:
+- _objc_msgSend$compare:options:
+- _objc_msgSend$compare:options:range:
+- _objc_msgSend$completeTransition:
+- _objc_msgSend$completion
+- _objc_msgSend$completionBlock
+- _objc_msgSend$componentsJoinedByString:
+- _objc_msgSend$componentsSeparatedByString:
+- _objc_msgSend$compressionAlgorithm
+- _objc_msgSend$computeSimpleContentsHashForFileAtPath:
+- _objc_msgSend$conditional
+- _objc_msgSend$configuration
+- _objc_msgSend$configurationHasABookCover
+- _objc_msgSend$configurationHasABottomLeftToolbar
+- _objc_msgSend$configurationHasATopLeftToolbar
+- _objc_msgSend$configurationWithActions:
+- _objc_msgSend$configurationWithFont:
+- _objc_msgSend$configurationWithFont:scale:
+- _objc_msgSend$configurationWithPointSize:
+- _objc_msgSend$configurationWithPointSize:weight:scale:
+- _objc_msgSend$configurationWithTextStyle:
+- _objc_msgSend$configurationWithTextStyle:scale:
+- _objc_msgSend$configureCell:atIndex:
+- _objc_msgSend$configureCell:atIndexPath:
+- _objc_msgSend$configureCell:pageRange:context:
+- _objc_msgSend$configureForImageSize:
+- _objc_msgSend$configureForNewBoundsAndRestoreCenterPoint:andScale:
+- _objc_msgSend$configureHorizontalScrollSwitchCell:
+- _objc_msgSend$configureRequest
+- _objc_msgSend$configureScrollSwitchCell:text:
+- _objc_msgSend$configureVerticalScrollSwitchCell:
+- _objc_msgSend$configureWithHighlightImage:pageString:dateString:insets:
+- _objc_msgSend$configureWithProfile:
+- _objc_msgSend$confirmBagContents
+- _objc_msgSend$conformsToProtocol:
+- _objc_msgSend$constrainedScrollToPoint:
+- _objc_msgSend$constraintEqualToAnchor:
+- _objc_msgSend$constraintEqualToAnchor:constant:
+- _objc_msgSend$constraintEqualToAnchor:multiplier:
+- _objc_msgSend$constraintEqualToAnchor:multiplier:constant:
+- _objc_msgSend$constraintEqualToConstant:
+- _objc_msgSend$constraintGreaterThanOrEqualToAnchor:
+- _objc_msgSend$constraintGreaterThanOrEqualToConstant:
+- _objc_msgSend$constraintLessThanOrEqualToAnchor:
+- _objc_msgSend$constraintLessThanOrEqualToAnchor:constant:
+- _objc_msgSend$constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant:
+- _objc_msgSend$constraints
+- _objc_msgSend$constructBKDocumentWithPdfTocParser:
+- _objc_msgSend$constructBKDocumentWithReadable:chapters:landmarks:physicalPages:
+- _objc_msgSend$constructBKIdCfiMappingsWithEpub:
+- _objc_msgSend$constructBKLandmarkInfoWithReadable:withAnchorInfo:
+- _objc_msgSend$constructBKNavigationInfoWithPdfTocEntry:absoluteOrder:indentationLevel:
+- _objc_msgSend$constructBKNavigationInfoWithPdfTocParser:
+- _objc_msgSend$constructBKNavigationInfoWithReadable:withAnchorInfo:
+- _objc_msgSend$constructBKPhysicalPageWithReadable:withAnchorInfo:
+- _objc_msgSend$constructBKProtectionInfoWithReadable:
+- _objc_msgSend$constructEntity:withNavPoint:absoluteOrder:indentationLevel:withAnchorInfo:createdObjects:
+- _objc_msgSend$constructViews
+- _objc_msgSend$container
+- _objc_msgSend$containerView
+- _objc_msgSend$containingVerticalInset
+- _objc_msgSend$containsObject:
+- _objc_msgSend$containsString:
+- _objc_msgSend$containsTextUnitWithIdentifier:
+- _objc_msgSend$containsTextUnitWithOrdinal:
+- _objc_msgSend$content
+- _objc_msgSend$contentAfterContent:
+- _objc_msgSend$contentBasedOverlayRefreshScheduled
+- _objc_msgSend$contentBeforeContent:
+- _objc_msgSend$contentBeganLoadingForRequest:
+- _objc_msgSend$contentBlockingRule
+- _objc_msgSend$contentConfiguration
+- _objc_msgSend$contentContainer
+- _objc_msgSend$contentContainerFrame
+- _objc_msgSend$contentContainerViewController
+- _objc_msgSend$contentControllerIsHostedForSnapshotting:
+- _objc_msgSend$contentData
+- _objc_msgSend$contentDataForSearchViewController:
+- _objc_msgSend$contentDidLoad
+- _objc_msgSend$contentFailedToLoadWithError:
+- _objc_msgSend$contentFinishedLoadingForRequest:preferredHeight:error:
+- _objc_msgSend$contentHasSpreadPages
+- _objc_msgSend$contentInfoRequestForCurrentConfigurationWithCompletion:
+- _objc_msgSend$contentInfoRequestWithLocation:bookSnapshot:ordinal:configuration:stylesheetSet:completion:
+- _objc_msgSend$contentInfoRequestWithPaginationOptions:cleanupOptions:cfiOptions:ordinal:stylesheetSet:fontSize:completion:
+- _objc_msgSend$contentInset
+- _objc_msgSend$contentInsetTopLarge
+- _objc_msgSend$contentInsetTopMedium
+- _objc_msgSend$contentInsetTopSmall
+- _objc_msgSend$contentInsets
+- _objc_msgSend$contentIsPages
+- _objc_msgSend$contentLayoutSize
+- _objc_msgSend$contentLoadFailed
+- _objc_msgSend$contentNeedsFilter
+- _objc_msgSend$contentOffset
+- _objc_msgSend$contentOffsetToScrollToForPageNumber:
+- _objc_msgSend$contentOpenAnimator
+- _objc_msgSend$contentProcessDidTerminate
+- _objc_msgSend$contentReady
+- _objc_msgSend$contentRectForBounds:
+- _objc_msgSend$contentRectForLocation:completion:
+- _objc_msgSend$contentRectForVisibleContent
+- _objc_msgSend$contentRectForVisiblePage
+- _objc_msgSend$contentScale
+- _objc_msgSend$contentScrollView
+- _objc_msgSend$contentSize
+- _objc_msgSend$contentSubType
+- _objc_msgSend$contentTextColor
+- _objc_msgSend$contentToViewTopAnchorConstraint
+- _objc_msgSend$contentType
+- _objc_msgSend$contentView
+- _objc_msgSend$contentView:didSelectMediaOverlayElement:
+- _objc_msgSend$contentView:unhandledClickAtPoint:
+- _objc_msgSend$contentViewController:addAnnotation:location:selectedText:representativeText:
+- _objc_msgSend$contentViewController:didUpdateCurrentVisibleCFILocation:
+- _objc_msgSend$contentViewController:encounteredIssueWithContent:failureCount:
+- _objc_msgSend$contentViewController:expandAnnotation:location:selectedText:representativeText:
+- _objc_msgSend$contentViewController:goToURL:likelyUserInitiated:
+- _objc_msgSend$contentViewController:handleUserRequestForFrameToLoadExternalURL:completion:
+- _objc_msgSend$contentViewController:hostViewForActivityIndicator:
+- _objc_msgSend$contentViewController:locationRectsForAnnotations:
+- _objc_msgSend$contentViewController:navigatePageDirection:
+- _objc_msgSend$contentViewController:presentAlertController:completion:
+- _objc_msgSend$contentViewController:searchEncyclopediaForString:
+- _objc_msgSend$contentViewController:searchForString:
+- _objc_msgSend$contentViewController:searchWebForString:
+- _objc_msgSend$contentViewController:setEndOfBookToLocation:range:
+- _objc_msgSend$contentViewController:setFinishedAndCloseForAssetID:
+- _objc_msgSend$contentViewController:setReadAloudState:
+- _objc_msgSend$contentViewController:setSearchString:
+- _objc_msgSend$contentViewController:setTurnState:
+- _objc_msgSend$contentViewController:shareAnnotation:annotationRects:completion:
+- _objc_msgSend$contentViewController:showExpandedContentForResource:atLocation:
+- _objc_msgSend$contentViewController:showHighlightingMenuForAnnotation:
+- _objc_msgSend$contentViewController:showLookupForString:fromView:onClose:
+- _objc_msgSend$contentViewController:showNoteForAnnotation:
+- _objc_msgSend$contentViewController:showTranslateForText:fromView:onClose:
+- _objc_msgSend$contentViewControllerAdornmentsDidChange:
+- _objc_msgSend$contentViewControllerAnnotationCacheDidChange:
+- _objc_msgSend$contentViewControllerAnnotationsDidChange:
+- _objc_msgSend$contentViewControllerAttemptingReload:
+- _objc_msgSend$contentViewControllerDidEnterFullscreen:
+- _objc_msgSend$contentViewControllerDidExitFullscreen:
+- _objc_msgSend$contentViewControllerDidFinishLayout:
+- _objc_msgSend$contentViewControllerForAnnotation:
+- _objc_msgSend$contentViewControllerForDocument:
+- _objc_msgSend$contentViewControllerForLocation:
+- _objc_msgSend$contentViewControllerForMediaOverlayElement:
+- _objc_msgSend$contentViewControllerForOrdinal:
+- _objc_msgSend$contentViewControllerForPageNumber:
+- _objc_msgSend$contentViewControllerIgnoreNextSwipe:
+- _objc_msgSend$contentViewControllerReadAloudState
+- _objc_msgSend$contentViewControllerWillExitFullscreen:
+- _objc_msgSend$contentViewControllers
+- _objc_msgSend$contentViewFailedToLoad:error:
+- _objc_msgSend$contentViewImage:afterScreenUpdates:completion:
+- _objc_msgSend$contentViewImage:completion:
+- _objc_msgSend$contentViewReady
+- _objc_msgSend$contentViewReady:
+- _objc_msgSend$contentWithSelection
+- _objc_msgSend$contents
+- _objc_msgSend$contentsHash
+- _objc_msgSend$context
+- _objc_msgSend$contextDirectoryForAssetWithID:
+- _objc_msgSend$contextualActionWithStyle:title:handler:
+- _objc_msgSend$contextualBottomViewFromCenter
+- _objc_msgSend$contextualBottomViewToCenter
+- _objc_msgSend$contextualTopViewFromCenter
+- _objc_msgSend$contextualTopViewToCenter
+- _objc_msgSend$continueDownloading
+- _objc_msgSend$continueLabel
+- _objc_msgSend$continueReadAloudAfterReady
+- _objc_msgSend$continueSearch
+- _objc_msgSend$continuousWebScrollViewDidLayout:
+- _objc_msgSend$controlSize
+- _objc_msgSend$controlsTapGestureAtPoint:sender:
+- _objc_msgSend$controlsTapRecognizer
+- _objc_msgSend$controlsVisible
+- _objc_msgSend$convertPoint:fromLayer:
+- _objc_msgSend$convertPoint:fromView:
+- _objc_msgSend$convertPoint:fromWindow:
+- _objc_msgSend$convertPoint:toView:
+- _objc_msgSend$convertPoint:toWindow:
+- _objc_msgSend$convertRect:fromPage:
+- _objc_msgSend$convertRect:fromView:
+- _objc_msgSend$convertRect:toLayer:
+- _objc_msgSend$convertRect:toView:
+- _objc_msgSend$coordinateAccessWithIntents:queue:byAccessor:
+- _objc_msgSend$copy
+- _objc_msgSend$copyAnchorInfoForEntity:forHref:sortBy:ascending:context:
+- _objc_msgSend$copyBatchState:
+- _objc_msgSend$copyCGImageForKey:resourceSize:
+- _objc_msgSend$copyCacheObjectForBook:
+- _objc_msgSend$copyCacheObjectForPdfPath:
+- _objc_msgSend$copyCacheObjectForURL:
+- _objc_msgSend$copyContent
+- _objc_msgSend$copyContent:
+- _objc_msgSend$copyDocumentArray:
+- _objc_msgSend$copyEntityPropertiesArray:fromEntityName:withPredicate:sortBy:ascending:
+- _objc_msgSend$copyEntityProperty:fromEntityName:withPredicate:
+- _objc_msgSend$copyEntityPropertyArray:fromEntityName:withPredicate:sortBy:ascending:
+- _objc_msgSend$copyItemAtURL:toURL:error:
+- _objc_msgSend$copyLandmarkAnchors:context:
+- _objc_msgSend$copyNavigationInfoAnchors:context:
+- _objc_msgSend$copyNavigationInfos:
+- _objc_msgSend$copyPhysicalPageAnchors:context:
+- _objc_msgSend$copyPropertiesFrom:
+- _objc_msgSend$copyState:
+- _objc_msgSend$copyUnpaginatedArray:
+- _objc_msgSend$copyWithZone:
+- _objc_msgSend$count
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$countEntity:withPredicate:
+- _objc_msgSend$countForObject:
+- _objc_msgSend$countMarkupAnnotations
+- _objc_msgSend$countMarkupAnnotationsWithCompletion:
+- _objc_msgSend$countPaginatedChapters:
+- _objc_msgSend$countPaginatedDocuments:
+- _objc_msgSend$countRowsOfChildren:
+- _objc_msgSend$coverContentViewController
+- _objc_msgSend$coverImage
+- _objc_msgSend$coverNeedsUpdate
+- _objc_msgSend$coverPathFromPlistEntry:
+- _objc_msgSend$coverWebView
+- _objc_msgSend$coverWritingModeFromPlistEntry:
+- _objc_msgSend$coverWritingModeString
+- _objc_msgSend$createBookExtraInfoCacheDirectoryIfNecessary
+- _objc_msgSend$createContentViewControllerWithContent:sourceViewController:
+- _objc_msgSend$createDirectoryAtPath:withIntermediateDirectories:attributes:error:
+- _objc_msgSend$createEpubParser:errorCode:
+- _objc_msgSend$createPaginationControllerIfNeeded:
+- _objc_msgSend$creatingSnapshot
+- _objc_msgSend$credential
+- _objc_msgSend$curlAnimationAngle
+- _objc_msgSend$curlAnimationBackColor0
+- _objc_msgSend$curlAnimationBackColor1
+- _objc_msgSend$curlAnimationRadius
+- _objc_msgSend$curlAnimationShadowColor
+- _objc_msgSend$curlAnimationTime
+- _objc_msgSend$curlContainer
+- _objc_msgSend$curlPage
+- _objc_msgSend$curlPageForReadAloud:
+- _objc_msgSend$curlPages
+- _objc_msgSend$curlPages:backPage:inContainer:
+- _objc_msgSend$curlPages:backPage:inContainer:curlPage:
+- _objc_msgSend$curlPages:backPages:inContainer:
+- _objc_msgSend$curlPages:toPages:direction:animated:completion:
+- _objc_msgSend$current
+- _objc_msgSend$currentAudiobook
+- _objc_msgSend$currentDevice
+- _objc_msgSend$currentEntity
+- _objc_msgSend$currentFirstVisbleCFILocation
+- _objc_msgSend$currentHandler
+- _objc_msgSend$currentHighlightSearchSelection
+- _objc_msgSend$currentInfoRequest
+- _objc_msgSend$currentLastVisbleCFILocation
+- _objc_msgSend$currentLightLevel
+- _objc_msgSend$currentLocale
+- _objc_msgSend$currentLocation
+- _objc_msgSend$currentLocationForOrdinal:pageOffset:contentInsets:
+- _objc_msgSend$currentLocationForSnapshot
+- _objc_msgSend$currentLookupKey
+- _objc_msgSend$currentMode
+- _objc_msgSend$currentOutline
+- _objc_msgSend$currentOverlayViewController
+- _objc_msgSend$currentPage
+- _objc_msgSend$currentPageIndex
+- _objc_msgSend$currentPageLocation
+- _objc_msgSend$currentPageNumber
+- _objc_msgSend$currentPages
+- _objc_msgSend$currentReadingPositionView
+- _objc_msgSend$currentRequest
+- _objc_msgSend$currentRunLoop
+- _objc_msgSend$currentScale
+- _objc_msgSend$currentScrubber
+- _objc_msgSend$currentSearchResultForContentViewController:
+- _objc_msgSend$currentSelection
+- _objc_msgSend$currentSelectionCFI
+- _objc_msgSend$currentSelectionContainsAnchor
+- _objc_msgSend$currentSoundtrack
+- _objc_msgSend$currentSymbolName
+- _objc_msgSend$currentTextSelection
+- _objc_msgSend$currentTime
+- _objc_msgSend$currentView
+- _objc_msgSend$currentVisbleCFILocation
+- _objc_msgSend$currentlyHighlighting
+- _objc_msgSend$cursor
+- _objc_msgSend$customContentWithAttributedLabel:attributedValue:
+- _objc_msgSend$customView
+- _objc_msgSend$customizationID
+- _objc_msgSend$darkGrayColor
+- _objc_msgSend$dataForKey:
+- _objc_msgSend$dataFromRange:documentAttributes:error:
+- _objc_msgSend$dataSource
+- _objc_msgSend$dataUsingEncoding:
+- _objc_msgSend$dataWithContentsOfFile:
+- _objc_msgSend$dataWithContentsOfURL:options:error:
+- _objc_msgSend$dataWithJSONObject:options:error:
+- _objc_msgSend$dataWithPropertyList:format:options:error:
+- _objc_msgSend$databaseKey
+- _objc_msgSend$databaseKeyFromLibraryManagerInfo:forAssetAtURL:
+- _objc_msgSend$databaseKeyFromStoreId:andUniqueId:
+- _objc_msgSend$date
+- _objc_msgSend$dateFontForPopover
+- _objc_msgSend$dateFontSize
+- _objc_msgSend$dateFormatter
+- _objc_msgSend$dateLabel
+- _objc_msgSend$dateLabelFrameForString:font:bounds:fixedYOffset:writingDirection:
+- _objc_msgSend$dateLabelFrameForString:font:bounds:minY:writingDirection:
+- _objc_msgSend$dateLabelFrameForString:font:bounds:writingDirection:
+- _objc_msgSend$dateLabelFrameForString:font:fixedYOffset:bounds:writingDirection:
+- _objc_msgSend$dateLabelFrameInPopoverForString:font:bounds:minY:pageLabelFrame:writingDirection:
+- _objc_msgSend$dateLabelSizeForString:font:bounds:
+- _objc_msgSend$dateWithTimeIntervalSinceNow:
+- _objc_msgSend$dcTermsContributor
+- _objc_msgSend$deactivateConstraints:
+- _objc_msgSend$dealloc
+- _objc_msgSend$debugDescription
+- _objc_msgSend$decodeBoolForKey:
+- _objc_msgSend$decodeDoubleForKey:
+- _objc_msgSend$decodeFloatForKey:
+- _objc_msgSend$decodeIntegerForKey:
+- _objc_msgSend$decodeObjectOfClass:forKey:
+- _objc_msgSend$decodeObjectOfClasses:forKey:
+- _objc_msgSend$decreaseFontSize
+- _objc_msgSend$decreaseFontSizeNotifyingCoordinator:
+- _objc_msgSend$defaultAnnotationCreatorIdentifier
+- _objc_msgSend$defaultBag
+- _objc_msgSend$defaultBookLibrary
+- _objc_msgSend$defaultCellAspectRatio
+- _objc_msgSend$defaultCellSize
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$defaultDirectoryType
+- _objc_msgSend$defaultFontNameForLanguage:
+- _objc_msgSend$defaultFontSizeIndex
+- _objc_msgSend$defaultIdentityStore
+- _objc_msgSend$defaultLayoutToUse
+- _objc_msgSend$defaultManager
+- _objc_msgSend$defaultPageNumberHUDWidthConstraintConstant
+- _objc_msgSend$defaultPredicate
+- _objc_msgSend$defaultSizeForOrientation:
+- _objc_msgSend$defaultStatusBarHeightInOrientation:
+- _objc_msgSend$defaultStyleWithOriginalFonts:
+- _objc_msgSend$defaultWebpagePreferences
+- _objc_msgSend$defaultWritingDirectionForLanguage:
+- _objc_msgSend$delay
+- _objc_msgSend$delayedHidePageControls
+- _objc_msgSend$delayedSavePageControlVisibility
+- _objc_msgSend$delegate
+- _objc_msgSend$deleteAllCells
+- _objc_msgSend$deleteAnnotation:
+- _objc_msgSend$deleteAssetIDs:
+- _objc_msgSend$deleteCharactersInRange:
+- _objc_msgSend$deleteObject:
+- _objc_msgSend$deleteParsedRelationships
+- _objc_msgSend$deleteRowsAtIndexPaths:withRowAnimation:
+- _objc_msgSend$deleteSections:withRowAnimation:
+- _objc_msgSend$deleteSelected:
+- _objc_msgSend$deleteSelfMaintainedRelationships
+- _objc_msgSend$deleteSwipeAction:
+- _objc_msgSend$dequeueRequest
+- _objc_msgSend$dequeueReusableCell
+- _objc_msgSend$dequeueReusableCellWithIdentifier:
+- _objc_msgSend$dequeueReusableCellWithIdentifier:forIndexPath:
+- _objc_msgSend$dequeueReusableHeaderFooterViewWithIdentifier:
+- _objc_msgSend$descender
+- _objc_msgSend$description
+- _objc_msgSend$descriptionLabel
+- _objc_msgSend$deselectRowAtIndexPath:animated:
+- _objc_msgSend$deserializeLocationFromDictionary:
+- _objc_msgSend$desiredBoundsForNavigationController
+- _objc_msgSend$desiredContentSize
+- _objc_msgSend$desiredPopoverWidth
+- _objc_msgSend$desiredSize
+- _objc_msgSend$desiredSleepTime
+- _objc_msgSend$desiredWebViewFrame
+- _objc_msgSend$destination
+- _objc_msgSend$destroyFetchedResultsController
+- _objc_msgSend$destroyIvars
+- _objc_msgSend$destroyPersistentStoreAtURL:withType:options:error:
+- _objc_msgSend$detailTextLabel
+- _objc_msgSend$determinedOriginalFont
+- _objc_msgSend$dictionary
+- _objc_msgSend$dictionaryForKey:
+- _objc_msgSend$dictionaryRepresentationsForAnnotations:
+- _objc_msgSend$dictionaryResultForKey:
+- _objc_msgSend$dictionaryWithCapacity:
+- _objc_msgSend$dictionaryWithContentsOfFile:
+- _objc_msgSend$dictionaryWithObject:forKey:
+- _objc_msgSend$dictionaryWithObjects:forKeys:count:
+- _objc_msgSend$dictionaryWithObjectsAndKeys:
+- _objc_msgSend$dictionaryWithValuesForKeys:
+- _objc_msgSend$didAccessValueForKey:
+- _objc_msgSend$didChangeCurrentOverlayViewController
+- _objc_msgSend$didChangeLocationClosing:
+- _objc_msgSend$didChangeLocationClosing:suspending:
+- _objc_msgSend$didChangeValueForKey:
+- _objc_msgSend$didChangeValueForKey:withSetMutation:usingObjects:
+- _objc_msgSend$didCloseBookWithAssetID:completion:
+- _objc_msgSend$didComputeMailingAllowed
+- _objc_msgSend$didComputePrintingAllowed
+- _objc_msgSend$didFinishLoading
+- _objc_msgSend$didFinishRendering
+- _objc_msgSend$didFinishUpdateForAssetViewController:
+- _objc_msgSend$didMoveToParentViewController:
+- _objc_msgSend$didReceiveMemoryWarning
+- _objc_msgSend$didRotate
+- _objc_msgSend$didSelectBookmarkForLocation:annotationUUID:
+- _objc_msgSend$didSelectHighlightForLocation:annotationUUID:
+- _objc_msgSend$didSelectLocation:
+- _objc_msgSend$direction
+- _objc_msgSend$directoryContent:didSelectBookmarkForLocation:annotationUUID:
+- _objc_msgSend$directoryContent:didSelectHighlightForLocation:annotationUUID:
+- _objc_msgSend$directoryContent:didSelectLocation:
+- _objc_msgSend$directoryContent:didSelectLocation:animated:
+- _objc_msgSend$directoryContent:locationForPageNumber:
+- _objc_msgSend$directoryContent:pageNumberForLocation:
+- _objc_msgSend$directoryContent:pageTitleForPageNumber:
+- _objc_msgSend$directoryController
+- _objc_msgSend$directoryDelegate
+- _objc_msgSend$directoryTOCIsVisible
+- _objc_msgSend$directoryTOCViewController
+- _objc_msgSend$directoryTOCViewControllerView
+- _objc_msgSend$directoryType
+- _objc_msgSend$directoryTypeForBookmarks
+- _objc_msgSend$directoryTypeForPageThumbnails
+- _objc_msgSend$directoryTypeForSegmentIndex:
+- _objc_msgSend$directoryTypeForTOC
+- _objc_msgSend$directoryTypeToSegmentIndex
+- _objc_msgSend$disableContentSpreadPages
+- _objc_msgSend$disableEditingAndSaveIfNecessary
+- _objc_msgSend$dismissAnimated:
+- _objc_msgSend$dismissCompletionHandler
+- _objc_msgSend$dismissCurrentPopover
+- _objc_msgSend$dismissCurrentPopoverAnimated:
+- _objc_msgSend$dismissCurrentPopoverWithCompletion:
+- _objc_msgSend$dismissCurrentPopoverWithCompletion:animated:
+- _objc_msgSend$dismissPopover
+- _objc_msgSend$dismissPopoverAnimated:
+- _objc_msgSend$dismissViewControllerAnimated:completion:
+- _objc_msgSend$dispatchSemaphore
+- _objc_msgSend$displayHTMLWithContents:fontFamily:fontSize:maxSpan:baseURL:
+- _objc_msgSend$displayLink
+- _objc_msgSend$displayLinkWithTarget:selector:
+- _objc_msgSend$displayName
+- _objc_msgSend$displaySleepController
+- _objc_msgSend$displayTitle
+- _objc_msgSend$displayVerticalScrubberBackground
+- _objc_msgSend$displaysRTL
+- _objc_msgSend$distantPast
+- _objc_msgSend$divider
+- _objc_msgSend$dividerLeftPressed
+- _objc_msgSend$dividerMini
+- _objc_msgSend$dividerRightPressed
+- _objc_msgSend$dividerView
+- _objc_msgSend$doNotDisturbStatusAtStart
+- _objc_msgSend$document
+- _objc_msgSend$documentAtPath:
+- _objc_msgSend$documentChanged
+- _objc_msgSend$documentContainingLocation:
+- _objc_msgSend$documentForDirectory
+- _objc_msgSend$documentForLocation:
+- _objc_msgSend$documentForURL:
+- _objc_msgSend$documentHref
+- _objc_msgSend$documentKeyWithHref:documentOrdinal:
+- _objc_msgSend$documentOrdinal
+- _objc_msgSend$documentPageCountForDocumentOrdinal:
+- _objc_msgSend$documentRef
+- _objc_msgSend$documentScrollView
+- _objc_msgSend$documentView
+- _objc_msgSend$documentViewController
+- _objc_msgSend$documentWithOrdinal:
+- _objc_msgSend$documentsWithPath:sortBy:limit:
+- _objc_msgSend$doesBookIndexWithNameExist:isLoaded:
+- _objc_msgSend$doesNotRecognizeSelector:
+- _objc_msgSend$domain
+- _objc_msgSend$donateSignalWithCompletion:
+- _objc_msgSend$doneButton
+- _objc_msgSend$doubleTapGesture
+- _objc_msgSend$doubleTapGestureRecognizer
+- _objc_msgSend$doubleValue
+- _objc_msgSend$download
+- _objc_msgSend$downloadProgress
+- _objc_msgSend$dragDismissManager
+- _objc_msgSend$drawAtPoint:
+- _objc_msgSend$drawHighlights
+- _objc_msgSend$drawInRect:
+- _objc_msgSend$drawInRect:blendMode:alpha:
+- _objc_msgSend$drawsShadow
+- _objc_msgSend$drawsSpine
+- _objc_msgSend$dstRootPath
+- _objc_msgSend$dummyAnnotationForSelectionWK2WithCompletion:
+- _objc_msgSend$dummyLocation2
+- _objc_msgSend$duration
+- _objc_msgSend$edgeInsetsForContentViewController:
+- _objc_msgSend$edgeInsetsForKey:context:
+- _objc_msgSend$editRedoBarButtonItem
+- _objc_msgSend$editUndoBarButtonItem
+- _objc_msgSend$editingStyle
+- _objc_msgSend$editorController:setTheme:forAnnotation:
+- _objc_msgSend$effectWithPreview:
+- _objc_msgSend$effectWithRoundedRect:cornerRadius:curve:
+- _objc_msgSend$effectWithStyle:
+- _objc_msgSend$effectivePageOffset
+- _objc_msgSend$effectiveZoomScale
+- _objc_msgSend$elementId
+- _objc_msgSend$elementIdForChapterInfo:
+- _objc_msgSend$elementIdForCurrentNode
+- _objc_msgSend$elseSteps
+- _objc_msgSend$embeddedArtHref
+- _objc_msgSend$embeddedArtHrefMinusSubpath
+- _objc_msgSend$embeddedArtHrefRejected
+- _objc_msgSend$embeddedArtSinf
+- _objc_msgSend$embeddedArtURL
+- _objc_msgSend$emitAnnotationActionEventWithTracker:contentData:viewData:
+- _objc_msgSend$emitInBookSearchEventWithTracker:readingSessionData:contentData:
+- _objc_msgSend$emitReadEventWithTracker:readingSessionData:contentData:readingSettingsData:upSellData:contentSettingsData:doNotDisturbData:startTime:completion:
+- _objc_msgSend$emitReadingAutoNightSettingChangeEventWithTracker:readingSessionData:contentData:isOn:
+- _objc_msgSend$emitReadingBackgroundColorChangeEventWithTracker:readingSessionData:contentData:backgroundColorData:
+- _objc_msgSend$emitReadingBrightnessChangeEventWithTracker:readingSessionData:contentData:brightness:
+- _objc_msgSend$emitReadingFontChangeEventWithTracker:readingSessionData:contentData:fontName:
+- _objc_msgSend$emitReadingFontSizeChangeEventWithTracker:readingSessionData:contentData:fontSize:
+- _objc_msgSend$emitReadingOrientationChangeEventIfNeeded
+- _objc_msgSend$emitReadingOrientationChangeEventWithTracker:readingSessionData:contentData:
+- _objc_msgSend$emitReadingScrollViewSettingChangeEventWithTracker:readingSessionData:contentData:fontSize:isOn:
+- _objc_msgSend$emitScrubEventStartPosition:endPosition:totalLength:
+- _objc_msgSend$emitScrubEventWithTracker:contentData:readingSettingsData:startPosition:endPosition:totalLength:
+- _objc_msgSend$emitter:bookMilestoneReached:
+- _objc_msgSend$emitter:bookPositionChanged:
+- _objc_msgSend$emitter:bookSectionChanged:
+- _objc_msgSend$emptyBackgroundColor
+- _objc_msgSend$enableAutoNightModeSwitch
+- _objc_msgSend$enablePullToDismiss
+- _objc_msgSend$enableSwipeToDismiss
+- _objc_msgSend$encodeBool:forKey:
+- _objc_msgSend$encodeDouble:forKey:
+- _objc_msgSend$encodeFloat:forKey:
+- _objc_msgSend$encodeInteger:forKey:
+- _objc_msgSend$encodeObject:forKey:
+- _objc_msgSend$encodeWithCoder:
+- _objc_msgSend$encodedData
+- _objc_msgSend$encryptionAlgorithm
+- _objc_msgSend$endAppearanceTransition
+- _objc_msgSend$endAssetSharingConnectionWithClient:
+- _objc_msgSend$endOfBookConfidence
+- _objc_msgSend$endOfBookExperienceFeatureEnabled
+- _objc_msgSend$endOfBookExperiencesFromItunesMetadataEntry:
+- _objc_msgSend$endOfBookLocation
+- _objc_msgSend$endOfBookValidRange
+- _objc_msgSend$endOfBookVersion
+- _objc_msgSend$endOffset
+- _objc_msgSend$endPath
+- _objc_msgSend$endPoint
+- _objc_msgSend$endSearch
+- _objc_msgSend$endTime
+- _objc_msgSend$endUpdates
+- _objc_msgSend$enqueueContentInfoRequest:
+- _objc_msgSend$enqueuePageCurlWithType:
+- _objc_msgSend$enqueueRenderingCacheOperation:
+- _objc_msgSend$enqueueRequest:
+- _objc_msgSend$ensureCurlFilterOnLayer:
+- _objc_msgSend$ensureLocationVisible:adjustForSearchResultRevealMode:completion:
+- _objc_msgSend$ensureLocationVisible:completion:
+- _objc_msgSend$ensureRange
+- _objc_msgSend$enterSinglePageMode
+- _objc_msgSend$entity
+- _objc_msgSend$entity:withPredicate:
+- _objc_msgSend$entity:withPredicate:sortBy:ascending:fetchLimit:
+- _objc_msgSend$entity:withPredicate:sortDescriptors:fetchLimit:prefetchRelationships:
+- _objc_msgSend$entityForName:inManagedObjectContext:
+- _objc_msgSend$entryForRequest:
+- _objc_msgSend$enumerateAttributesInRange:options:usingBlock:
+- _objc_msgSend$enumerateIndexesUsingBlock:
+- _objc_msgSend$enumerateKeysAndObjectsUsingBlock:
+- _objc_msgSend$enumerateObjectsUsingBlock:
+- _objc_msgSend$enumeratorAtPath:
+- _objc_msgSend$environment
+- _objc_msgSend$environmentOverrideView
+- _objc_msgSend$environmentOverrideViewForPaginationController:
+- _objc_msgSend$environmentOverrideViewForSearchController:
+- _objc_msgSend$environmentOverrideViewForSearchViewController:
+- _objc_msgSend$errorWithDomain:code:userInfo:
+- _objc_msgSend$establishChapterFonts
+- _objc_msgSend$estimatedContentSize
+- _objc_msgSend$estimatedContentSizeForOrdinal:
+- _objc_msgSend$estimatedFixedLayoutViewFrame
+- _objc_msgSend$estimatedSize
+- _objc_msgSend$estimatedSizeHeight
+- _objc_msgSend$estimatedSizeWidth
+- _objc_msgSend$evaluateJavaScript:completionHandler:
+- _objc_msgSend$evaluateTemplateWithName:withData:error:
+- _objc_msgSend$evaluateTemplateWithURL:data:error:
+- _objc_msgSend$evaluateWithData:error:
+- _objc_msgSend$evaluateWithData:templateSet:cycleContext:error:
+- _objc_msgSend$eventEngagement
+- _objc_msgSend$exceptionWithName:reason:userInfo:
+- _objc_msgSend$excludeDeletedBooksPredicate
+- _objc_msgSend$excludedActivityTypes
+- _objc_msgSend$execute
+- _objc_msgSend$executeFetchRequest:error:
+- _objc_msgSend$executeWithParam:
+- _objc_msgSend$existingBookInfoForDatabaseKey:fromManagedObjectContext:
+- _objc_msgSend$existingBookInfoForURL:fromManagedObjectContext:
+- _objc_msgSend$existingBookInfoWithPredicate:fromManagedObjectContext:
+- _objc_msgSend$existingContentViewControllerForPageNumber:
+- _objc_msgSend$existingObjectWithID:error:
+- _objc_msgSend$existingPages
+- _objc_msgSend$exists
+- _objc_msgSend$exitSinglePageMode
+- _objc_msgSend$expandAnnotation:location:selectedText:representativeText:
+- _objc_msgSend$expandedContentControllerForResource:
+- _objc_msgSend$expandedContentViewController
+- _objc_msgSend$expandedContentViewController:handleExternalLoadRequest:likelyUserInitiated:
+- _objc_msgSend$expandedContentViewController:handleInternalLoadRequest:
+- _objc_msgSend$expandedContentViewController:handleInternalLoadRequestForNewWindow:
+- _objc_msgSend$expandedContentViewController:handleUserRequestForFrameToLoadExternalURL:completion:
+- _objc_msgSend$expandedContentViewController:presentAlertController:completion:
+- _objc_msgSend$expandedContentViewController:shareText:sourceRect:
+- _objc_msgSend$expandedContentViewController:stringForCopyFromString:
+- _objc_msgSend$expandedContentViewDidDisappear:
+- _objc_msgSend$expandedContentViewDidFinishLoad:
+- _objc_msgSend$experienceConfidenceFromExperienceParamEntry:
+- _objc_msgSend$experienceKindFromExperienceEntry:
+- _objc_msgSend$experienceLocationFromExperienceEntry:
+- _objc_msgSend$experienceLocationTypeFromExperienceEntry:
+- _objc_msgSend$experienceManager
+- _objc_msgSend$experienceParamsFromExperienceEntry:
+- _objc_msgSend$experienceVersionFromExperienceEntry:
+- _objc_msgSend$extendSelectionForLineBoundaries
+- _objc_msgSend$externalGestureRecognizerCount
+- _objc_msgSend$fallbackId
+- _objc_msgSend$fallbacks
+- _objc_msgSend$familyName
+- _objc_msgSend$fetchBookmarkPageCounts
+- _objc_msgSend$fetchCurrentState:
+- _objc_msgSend$fetchImageForKey:
+- _objc_msgSend$fetchedObjects
+- _objc_msgSend$fetchedResultsController
+- _objc_msgSend$fetchedResultsControllerAscendingOrder
+- _objc_msgSend$fileAttributes
+- _objc_msgSend$fileExistsAtPath:
+- _objc_msgSend$fileExistsAtPath:isDirectory:
+- _objc_msgSend$fileExtension
+- _objc_msgSend$fileNamePrefix
+- _objc_msgSend$fileNames
+- _objc_msgSend$fileSize
+- _objc_msgSend$fileURLWithPath:
+- _objc_msgSend$fileURLWithPath:isDirectory:
+- _objc_msgSend$fill
+- _objc_msgSend$filledButtonConfiguration
+- _objc_msgSend$filterWithType:
+- _objc_msgSend$filteredArrayUsingPredicate:
+- _objc_msgSend$filteredSetUsingPredicate:
+- _objc_msgSend$filters
+- _objc_msgSend$finalFrameForViewController:
+- _objc_msgSend$findOutlineForRow:fromRowCount:fromOutline:
+- _objc_msgSend$findRenderingCacheOperationWithStorageKey:target:selector:context:
+- _objc_msgSend$findSemaphore
+- _objc_msgSend$findString:fromSelection:withOptions:
+- _objc_msgSend$finishDecoding
+- _objc_msgSend$finishEncoding
+- _objc_msgSend$finishManualAnimation
+- _objc_msgSend$finishManualCurl
+- _objc_msgSend$finishManualCurl:
+- _objc_msgSend$finishManualCurlAtPostion:
+- _objc_msgSend$finished
+- _objc_msgSend$finishedButton
+- _objc_msgSend$finishedButtonBackgroundColor
+- _objc_msgSend$finishedButtonBottomConstraint
+- _objc_msgSend$finishedButtonDisabledBackgroundColor
+- _objc_msgSend$finishedButtonLeadingConstraint
+- _objc_msgSend$finishedButtonTextColor
+- _objc_msgSend$finishedButtonTopConstraint
+- _objc_msgSend$finishedButtonTrailingConstraint
+- _objc_msgSend$finishedCheckmarkColor
+- _objc_msgSend$finishedSnapshottingForCache:
+- _objc_msgSend$firstDocument
+- _objc_msgSend$firstDocumentHref
+- _objc_msgSend$firstDocumentLocation
+- _objc_msgSend$firstIndex
+- _objc_msgSend$firstMatchInString:options:range:
+- _objc_msgSend$firstObject
+- _objc_msgSend$fixedLayout
+- _objc_msgSend$fixedLayoutFlow
+- _objc_msgSend$fixedLayoutHeight
+- _objc_msgSend$fixedLayoutSize
+- _objc_msgSend$fixedLayoutSizeForDocumentWithOrdinal:
+- _objc_msgSend$fixedLayoutSpread
+- _objc_msgSend$fixedLayoutWidth
+- _objc_msgSend$fixupNavigationHistoryForUpsellPageNumber:
+- _objc_msgSend$flashScrollIndicators
+- _objc_msgSend$floatForKey:
+- _objc_msgSend$floatForKey:context:
+- _objc_msgSend$floatFromJSON:
+- _objc_msgSend$floatValue
+- _objc_msgSend$flush
+- _objc_msgSend$focusedViewController
+- _objc_msgSend$font
+- _objc_msgSend$fontAppearanceWidthPadding
+- _objc_msgSend$fontDescriptorWithDesign:
+- _objc_msgSend$fontFaceLookupByFileName
+- _objc_msgSend$fontFaceMappings
+- _objc_msgSend$fontFamily
+- _objc_msgSend$fontForChapter:
+- _objc_msgSend$fontFromFamilyName:language:
+- _objc_msgSend$fontLookupByFileName
+- _objc_msgSend$fontName
+- _objc_msgSend$fontNameFromSummaryString:
+- _objc_msgSend$fontObserver
+- _objc_msgSend$fontScale
+- _objc_msgSend$fontSize
+- _objc_msgSend$fontSizeButtons
+- _objc_msgSend$fontSizeConfiguration
+- _objc_msgSend$fontSizeFactorForViewportSize:useOldFontStepsAndSpacing:
+- _objc_msgSend$fontSizeForFont:presetIndex:
+- _objc_msgSend$fontSizeForFontFamilyName:
+- _objc_msgSend$fontSizeIndex
+- _objc_msgSend$fontSizeModifiedByOffset:
+- _objc_msgSend$fontSpecWithPostscriptName:size:
+- _objc_msgSend$fontVC
+- _objc_msgSend$fontWithDescriptor:size:
+- _objc_msgSend$fontWithName:size:
+- _objc_msgSend$fonts
+- _objc_msgSend$fontsByFileName
+- _objc_msgSend$fontsForLanguage:
+- _objc_msgSend$footerFrame
+- _objc_msgSend$footerMask
+- _objc_msgSend$footerToolbarHeight
+- _objc_msgSend$footnoteController
+- _objc_msgSend$footnoteViewController:handleExternalLoadRequest:likelyUserInitiated:
+- _objc_msgSend$footnoteViewController:handleInternalLoadRequest:
+- _objc_msgSend$footnoteViewController:handleInternalLoadRequestForNewWindow:
+- _objc_msgSend$footnoteViewController:handleUserRequestForFrameToLoadExternalURL:completion:
+- _objc_msgSend$footnoteViewController:presentAlertController:completion:
+- _objc_msgSend$footnoteViewDidDisappear:
+- _objc_msgSend$footnoteViewDidFinishLoad:
+- _objc_msgSend$force
+- _objc_msgSend$forcePopoverInsteadOfSheet
+- _objc_msgSend$forceReflowText
+- _objc_msgSend$forceReload
+- _objc_msgSend$forceRepagination
+- _objc_msgSend$forceTileRefresh
+- _objc_msgSend$forwardCurl
+- _objc_msgSend$fragment
+- _objc_msgSend$frame
+- _objc_msgSend$frameForPageNumber:
+- _objc_msgSend$frameForSegmentAtIndex:
+- _objc_msgSend$frameForThumbnailAtLocation:
+- _objc_msgSend$frameWidth
+- _objc_msgSend$freeze
+- _objc_msgSend$fromValue
+- _objc_msgSend$fullCleanup
+- _objc_msgSend$fullLineRect
+- _objc_msgSend$fullScreenNoteEditorForAnnotation:
+- _objc_msgSend$functionWithControlPoints:
+- _objc_msgSend$functionWithControlPoints::::
+- _objc_msgSend$functionWithName:
+- _objc_msgSend$gaijiImageFilter
+- _objc_msgSend$gapBetweenPages
+- _objc_msgSend$generalPasteboard
+- _objc_msgSend$generateImageForDocument:pageIndex:size:
+- _objc_msgSend$generateImageForDocument:pageIndex:size:showBookmark:
+- _objc_msgSend$generateMasterImageForPageNumber:asset:priority:callbackBlock:
+- _objc_msgSend$generatePaginationDataCompletion:
+- _objc_msgSend$generatePositionForAllPages:
+- _objc_msgSend$generateRenderingPiggyBackForAllPages
+- _objc_msgSend$generateSnapshotWithAsset:size:pageNumber:
+- _objc_msgSend$generateSnapshotsForCurrentPages
+- _objc_msgSend$generateWithOldLeftPageNumber:oldRightPageNumber:newLeftPageNumber:newRightPageNumber:
+- _objc_msgSend$generateWithOldLeftPageNumber:oldRightPageNumber:newLeftPageNumber:newRightPageNumber:useMirrorForBackImage:
+- _objc_msgSend$genericCoverTemplate
+- _objc_msgSend$genre
+- _objc_msgSend$genreFromPlistEntry:
+- _objc_msgSend$geometryWithContentSize:configuration:drawsSpine:containerBounds:
+- _objc_msgSend$geometryWithContentSize:configuration:drawsSpine:ignoresPadding:containerBounds:
+- _objc_msgSend$gesture
+- _objc_msgSend$gesture:matchesTarget:andAction:
+- _objc_msgSend$gestureRecognizers
+- _objc_msgSend$get:
+- _objc_msgSend$getAnimationRect
+- _objc_msgSend$getBookKeyWithBook:style:geometry:
+- _objc_msgSend$getClientRectsForLocationsScript:
+- _objc_msgSend$getContentViewChildren:
+- _objc_msgSend$getInlineStyleSheetForConfiguration:bookInfo:contentLayoutSize:webkit2:
+- _objc_msgSend$getNonBlockingError:
+- _objc_msgSend$getPictureBookUserStyleSheetWithLegacyBook:
+- _objc_msgSend$getSelectedRangeScript:
+- _objc_msgSend$getViewSnapshot:parent:
+- _objc_msgSend$getWebViews:result:
+- _objc_msgSend$goToPage:
+- _objc_msgSend$goToPage:animated:
+- _objc_msgSend$goToPageWithPageTitle:
+- _objc_msgSend$goToPath:fragment:animated:
+- _objc_msgSend$grayColor
+- _objc_msgSend$greenTheme:
+- _objc_msgSend$gridInset
+- _objc_msgSend$gridView
+- _objc_msgSend$groupedBackgroundColor
+- _objc_msgSend$gutter
+- _objc_msgSend$gutterWidth
+- _objc_msgSend$hairlineImageURIWithColor:horizontal:
+- _objc_msgSend$handleAppearanceViewControllerDismissal
+- _objc_msgSend$handleContentScaling:
+- _objc_msgSend$handleFailureInMethod:object:file:lineNumber:description:
+- _objc_msgSend$handleSinglePageManualCurlGesture:
+- _objc_msgSend$handleSpreadManualCurlGesture:
+- _objc_msgSend$hasBuiltInFonts
+- _objc_msgSend$hasCachedLoadExternalContentApprovalForBookID:
+- _objc_msgSend$hasCalculatedMinZoomScale
+- _objc_msgSend$hasChanges
+- _objc_msgSend$hasComputedFixedLayoutSize
+- _objc_msgSend$hasContinuousScrollingBehavior
+- _objc_msgSend$hasDuplicatedDocument
+- _objc_msgSend$hasHighlightedText
+- _objc_msgSend$hasImageForKey:
+- _objc_msgSend$hasItemConformingToTypeIdentifier:
+- _objc_msgSend$hasItemForKey:
+- _objc_msgSend$hasLandmarkElements
+- _objc_msgSend$hasLeftPage
+- _objc_msgSend$hasMediaElementAtPoint:inView:
+- _objc_msgSend$hasMediaOverlayElements
+- _objc_msgSend$hasPartialResults
+- _objc_msgSend$hasPhysicalElements
+- _objc_msgSend$hasPhysicalPages
+- _objc_msgSend$hasPrefix:
+- _objc_msgSend$hasRemoteResources
+- _objc_msgSend$hasRibbon
+- _objc_msgSend$hasRightPage
+- _objc_msgSend$hasSelectablePositionAtPoint:
+- _objc_msgSend$hasSingleToolbar
+- _objc_msgSend$hasSoundtrack
+- _objc_msgSend$hasSpreadPages
+- _objc_msgSend$hasSpreadPagesForContentViewController:
+- _objc_msgSend$hasSuffix:
+- _objc_msgSend$hasTextSelected
+- _objc_msgSend$hasTocElements
+- _objc_msgSend$hasTurnedToInitialPage
+- _objc_msgSend$hasUpsellPage
+- _objc_msgSend$hasWKWebView
+- _objc_msgSend$hash
+- _objc_msgSend$hashTableWithOptions:
+- _objc_msgSend$havePartialResults
+- _objc_msgSend$head
+- _objc_msgSend$headCFI
+- _objc_msgSend$headerFrame
+- _objc_msgSend$headerMask
+- _objc_msgSend$headerTextColor
+- _objc_msgSend$headerTextColorDimmed
+- _objc_msgSend$headerToolbarHeight
+- _objc_msgSend$heartbeatRate
+- _objc_msgSend$height
+- _objc_msgSend$heightAllowanceScalar
+- _objc_msgSend$heightAnchor
+- _objc_msgSend$helper
+- _objc_msgSend$helper:canRefetch:viewControllerWithOptions:completion:
+- _objc_msgSend$helper:coverImageForURL:
+- _objc_msgSend$helper:coverImageForURL:size:
+- _objc_msgSend$helperCoverImage
+- _objc_msgSend$helperCoverImageOfSize:
+- _objc_msgSend$helperForURL:withOptions:
+- _objc_msgSend$helperMetadataForKey:needsCoordination:
+- _objc_msgSend$hiddenBottomLeftToolbarFrame
+- _objc_msgSend$hiddenBottomRightToolbarFrame
+- _objc_msgSend$hide
+- _objc_msgSend$hideIndicatorAnimated:animationDelay:
+- _objc_msgSend$hideLoadingViewAnimated:
+- _objc_msgSend$hideMenu
+- _objc_msgSend$hideOverlayViewControllerWithCompletion:
+- _objc_msgSend$hidePageControls:
+- _objc_msgSend$hideReloadUIAnimated:
+- _objc_msgSend$hideSelectionTapGesture:
+- _objc_msgSend$hideThumbView
+- _objc_msgSend$hideVerticalScrubber
+- _objc_msgSend$hideVerticalScrubberAndResetZoomScale:
+- _objc_msgSend$hidesPageControlsOnOpen
+- _objc_msgSend$hidesPageControlsOnOpenDelay
+- _objc_msgSend$hidesSpine
+- _objc_msgSend$highlightAnnotations:
+- _objc_msgSend$highlightCurrentNode
+- _objc_msgSend$highlightCurrentNodeWithCompletionBlock:
+- _objc_msgSend$highlightImage
+- _objc_msgSend$highlightLayers
+- _objc_msgSend$highlightMediaOverlayElement:
+- _objc_msgSend$highlightRangeFromRects:
+- _objc_msgSend$highlightRenderingController
+- _objc_msgSend$highlightSearchLocation:
+- _objc_msgSend$highlightSearchResult:
+- _objc_msgSend$highlightSearchResult:forceVisible:
+- _objc_msgSend$highlightTextColor
+- _objc_msgSend$highlightType
+- _objc_msgSend$highlightViewContainer
+- _objc_msgSend$highlightViewContainerWK2
+- _objc_msgSend$highlightViews
+- _objc_msgSend$highlightWithData:
+- _objc_msgSend$highlightedAnnotationBlendMode
+- _objc_msgSend$highlightedBackgroundView
+- _objc_msgSend$highlightedTextFrameForAnnotation:font:bounds:letMargin:numberOfLines:pageLabelFrame:writingDirection:
+- _objc_msgSend$highlightedTextFrameForAnnotation:font:bounds:pageLabelFrame:writingDirection:
+- _objc_msgSend$highlightedTextFrameInPopoverForAnnotation:font:bounds:pageLabelFrame:writingDirection:
+- _objc_msgSend$highlightedTextLabel
+- _objc_msgSend$highlightedTextLabelFont
+- _objc_msgSend$highlightedTextSizeInPopover
+- _objc_msgSend$highlightsPredicate:
+- _objc_msgSend$historyEntities
+- _objc_msgSend$hitTest:withEvent:
+- _objc_msgSend$horizontalSizeClass
+- _objc_msgSend$hostManifestMetadata
+- _objc_msgSend$href
+- _objc_msgSend$hrefForChapterAtPageNumber:
+- _objc_msgSend$hrefForPageNumber:
+- _objc_msgSend$html
+- _objc_msgSend$htmlContentString
+- _objc_msgSend$htmlMarkup
+- _objc_msgSend$htmlName
+- _objc_msgSend$humanReadablePublicationVersionFromPlistEntry:
+- _objc_msgSend$iPad10SizeClassPredicate
+- _objc_msgSend$iPadOtherSizeClassPredicate
+- _objc_msgSend$iPadSizeClassPredicate
+- _objc_msgSend$iTunesArtHref
+- _objc_msgSend$iconImageViewWidthAnchor
+- _objc_msgSend$idealCacheSize
+- _objc_msgSend$idealCellCount
+- _objc_msgSend$idealSinglePageSize
+- _objc_msgSend$identifier
+- _objc_msgSend$ignoreKeyboardInteraction
+- _objc_msgSend$ignoreNextGesture
+- _objc_msgSend$ignoreToolbarUpdates
+- _objc_msgSend$imIsDefaultWritingMode
+- _objc_msgSend$imIsVerticalWritingMode
+- _objc_msgSend$imSanitizedFontFamilyName
+- _objc_msgSend$im_ancestorConfigurationConformingToProtocol:
+- _objc_msgSend$im_ancestorViewControllerConformingToProtocol:
+- _objc_msgSend$im_frameEnvironmentSafeAreaInsets
+- _objc_msgSend$im_imageWithAlpha:
+- _objc_msgSend$im_isCompactHeight
+- _objc_msgSend$im_isCompactWidth
+- _objc_msgSend$im_isFullScreen
+- _objc_msgSend$im_isLikelyBlank
+- _objc_msgSend$im_isRTL
+- _objc_msgSend$im_snapshotInContext
+- _objc_msgSend$im_traitCollectionAdjustedForMedusaLevels:
+- _objc_msgSend$image
+- _objc_msgSend$imageAnalyzer
+- _objc_msgSend$imageCache
+- _objc_msgSend$imageForSize:data:
+- _objc_msgSend$imageFromView:
+- _objc_msgSend$imageMaskWithColor:
+- _objc_msgSend$imageMultiplyExpandedContentMode
+- _objc_msgSend$imageNamed:
+- _objc_msgSend$imageOfSize:forBox:withOptions:
+- _objc_msgSend$imageOrientation
+- _objc_msgSend$imageResizer
+- _objc_msgSend$imageResizerDelegate
+- _objc_msgSend$imageScroller
+- _objc_msgSend$imageSize
+- _objc_msgSend$imageSizeForScale:
+- _objc_msgSend$imageSizeForSize:
+- _objc_msgSend$imageSizeForSpread:landscape:
+- _objc_msgSend$imageView
+- _objc_msgSend$imageWithActions:
+- _objc_msgSend$imageWithCGImage:
+- _objc_msgSend$imageWithCGImage:scale:orientation:
+- _objc_msgSend$imageWithConfiguration:
+- _objc_msgSend$imageWithData:
+- _objc_msgSend$imageWithRenderingMode:
+- _objc_msgSend$imageWithTint:
+- _objc_msgSend$imageWithTintColor:
+- _objc_msgSend$imaxBoolValueForKey:
+- _objc_msgSend$imaxIdentification
+- _objc_msgSend$imaxLocalizedNumber:
+- _objc_msgSend$imaxLocalizedPercentage:maximumNumberOfDigitsAfterDecimalSeparator:
+- _objc_msgSend$imaxLocalizedUnsignedInteger:
+- _objc_msgSend$imaxLocalizedUnsignedInteger:usesGroupingSeparator:
+- _objc_msgSend$imaxSetIdentification:
+- _objc_msgSend$imaxUnignoredDescendant
+- _objc_msgSend$imaxValueForKey:
+- _objc_msgSend$imaxWholeAnnotationDescription
+- _objc_msgSend$impactOccurred
+- _objc_msgSend$inLiveResize
+- _objc_msgSend$inSinglePageMode
+- _objc_msgSend$includedActivityTypes
+- _objc_msgSend$increaseFontSize
+- _objc_msgSend$increaseFontSizeNotifyingCoordinator:
+- _objc_msgSend$incrementBatchProgress
+- _objc_msgSend$indentationLevel
+- _objc_msgSend$indentationLevelForChapter:
+- _objc_msgSend$indentationWidth
+- _objc_msgSend$index
+- _objc_msgSend$indexForLocation:
+- _objc_msgSend$indexForPage:
+- _objc_msgSend$indexForPageNumber:
+- _objc_msgSend$indexGreaterThanIndex:
+- _objc_msgSend$indexOfObject:
+- _objc_msgSend$indexOfObjectWithOptions:passingTest:
+- _objc_msgSend$indexOfPathPrecedingRect:physicalPageMap:
+- _objc_msgSend$indexPathForRow:inSection:
+- _objc_msgSend$indexPathForSelectedFont
+- _objc_msgSend$indexPathForSelectedRow
+- _objc_msgSend$indexPathOfLastRow
+- _objc_msgSend$indexPathsForSelectedRows
+- _objc_msgSend$indexPathsForVisibleRows
+- _objc_msgSend$indexSetWithIndex:
+- _objc_msgSend$indexSetWithIndexesInRange:
+- _objc_msgSend$indexTextUnit:withIdentifier:indexSynchronously:
+- _objc_msgSend$indexTextUnit:withOrdinal:
+- _objc_msgSend$indexTextUnit:withOrdinal:indexSynchronously:
+- _objc_msgSend$indexesOfObjectsWithOptions:passingTest:
+- _objc_msgSend$infoHUDTapped:
+- _objc_msgSend$init
+- _objc_msgSend$init:
+- _objc_msgSend$init:paginationOperationController:annotationProvider:
+- _objc_msgSend$initFileURLWithPath:
+- _objc_msgSend$initFileURLWithPath:isDirectory:
+- _objc_msgSend$initForReadingFromData:error:
+- _objc_msgSend$initRequiringSecureCoding:
+- _objc_msgSend$initWithActivityIndicatorStyle:
+- _objc_msgSend$initWithActivityItems:applicationActivities:
+- _objc_msgSend$initWithActivityItems:applicationActivities:shareType:propertySource:tracker:
+- _objc_msgSend$initWithAnnotation:propertySource:
+- _objc_msgSend$initWithAnnotationStyle:contentScale:
+- _objc_msgSend$initWithAnnotations:propertySource:
+- _objc_msgSend$initWithArrangedSubviews:
+- _objc_msgSend$initWithArray:
+- _objc_msgSend$initWithAssetDetailManager:
+- _objc_msgSend$initWithAssetID:image:assetVersion:appearanceIdentifier:snapshotTreatment:isCover:coverColor:pageColor:location:zoomRect:
+- _objc_msgSend$initWithAssetID:image:assetVersion:appearanceIdentifier:snapshotTreatment:isCover:coverColor:pageColor:locations:zoomRects:
+- _objc_msgSend$initWithAssetID:image:assetVersion:appearanceStyle:snapshotTreatment:isCover:coverColor:location:zoomRect:
+- _objc_msgSend$initWithAssetID:image:assetVersion:appearanceStyle:snapshotTreatment:isCover:coverColor:locations:zoomRects:
+- _objc_msgSend$initWithAssetType:assetID:url:
+- _objc_msgSend$initWithAssetViewController:
+- _objc_msgSend$initWithAttributedString:
+- _objc_msgSend$initWithBackgroundColor:foregroundColor:
+- _objc_msgSend$initWithBarButtonSystemItem:target:action:
+- _objc_msgSend$initWithBlock:
+- _objc_msgSend$initWithBook:
+- _objc_msgSend$initWithBook:delegate:
+- _objc_msgSend$initWithBook:storeID:
+- _objc_msgSend$initWithBook:storeID:pdfDocumentCache:
+- _objc_msgSend$initWithBookInfo:
+- _objc_msgSend$initWithBookmarkCount:noteCount:highlightCount:
+- _objc_msgSend$initWithBookmarkTime:bookmarkTimeTimestamp:
+- _objc_msgSend$initWithBool:
+- _objc_msgSend$initWithBytes:length:encoding:
+- _objc_msgSend$initWithBytes:objCType:
+- _objc_msgSend$initWithCFI:
+- _objc_msgSend$initWithCFI:error:
+- _objc_msgSend$initWithCallbackBlock:
+- _objc_msgSend$initWithCapacity:
+- _objc_msgSend$initWithCoder:
+- _objc_msgSend$initWithCompletion:
+- _objc_msgSend$initWithConcurrencyType:
+- _objc_msgSend$initWithConfiguration:
+- _objc_msgSend$initWithContentSize:configuration:drawsSpine:ignoresPadding:containerBounds:
+- _objc_msgSend$initWithContentsOfFile:
+- _objc_msgSend$initWithContentsOfURL:
+- _objc_msgSend$initWithContentsOfURL:options:error:
+- _objc_msgSend$initWithContext:
+- _objc_msgSend$initWithCustomView:
+- _objc_msgSend$initWithDSID:altDSID:username:options:
+- _objc_msgSend$initWithData:
+- _objc_msgSend$initWithData:MIMEType:
+- _objc_msgSend$initWithData:encoding:
+- _objc_msgSend$initWithData:optimalSize:options:
+- _objc_msgSend$initWithDataSource:
+- _objc_msgSend$initWithDelegate:
+- _objc_msgSend$initWithDelegate:forURL:
+- _objc_msgSend$initWithDelegate:view:
+- _objc_msgSend$initWithDocument:
+- _objc_msgSend$initWithDuration:timingParameters:
+- _objc_msgSend$initWithEffect:
+- _objc_msgSend$initWithFetchRequest:managedObjectContext:sectionNameKeyPath:cacheName:
+- _objc_msgSend$initWithFontFamily:andDetails:
+- _objc_msgSend$initWithFormat:
+- _objc_msgSend$initWithFrame:
+- _objc_msgSend$initWithFrame:orientation:
+- _objc_msgSend$initWithFrame:pageNumber:navigationDelegate:thumbnailingDelegate:imageResizerDelegate:
+- _objc_msgSend$initWithFrame:style:
+- _objc_msgSend$initWithFrame:theme:
+- _objc_msgSend$initWithFrame:theme:delegate:
+- _objc_msgSend$initWithHTML:maxSpan:selectedColor:baseURL:forObject:
+- _objc_msgSend$initWithHelper:
+- _objc_msgSend$initWithIdentifier:
+- _objc_msgSend$initWithIdentifier:configuration:webViewBuilder:
+- _objc_msgSend$initWithIdentifier:memorySize:
+- _objc_msgSend$initWithImage:
+- _objc_msgSend$initWithImage:borderColor:isLeft:
+- _objc_msgSend$initWithImage:borderColor:isLeft:gutterImage:
+- _objc_msgSend$initWithImage:requestType:
+- _objc_msgSend$initWithIndexesInRange:
+- _objc_msgSend$initWithInt:
+- _objc_msgSend$initWithInteger:
+- _objc_msgSend$initWithItemProvider:
+- _objc_msgSend$initWithItemProviders:
+- _objc_msgSend$initWithItems:
+- _objc_msgSend$initWithKey:ascending:
+- _objc_msgSend$initWithKey:ascending:selector:
+- _objc_msgSend$initWithLanguage:
+- _objc_msgSend$initWithLeadingLocation:trailingLocation:
+- _objc_msgSend$initWithLength:
+- _objc_msgSend$initWithLocation:bookSnapshot:ordinal:configuration:stylesheetSet:completion:
+- _objc_msgSend$initWithLocationDictionary:
+- _objc_msgSend$initWithLongLong:
+- _objc_msgSend$initWithMass:stiffness:damping:initialVelocity:
+- _objc_msgSend$initWithMetadata:
+- _objc_msgSend$initWithName:
+- _objc_msgSend$initWithNibName:bundle:
+- _objc_msgSend$initWithNotifyBlock:blockDescription:
+- _objc_msgSend$initWithObject:
+- _objc_msgSend$initWithObjects:
+- _objc_msgSend$initWithObjects:forKeys:
+- _objc_msgSend$initWithObjectsAndKeys:
+- _objc_msgSend$initWithOptions:
+- _objc_msgSend$initWithOrdinal:
+- _objc_msgSend$initWithOrdinal:anchor:andPath:
+- _objc_msgSend$initWithOrdinal:andAnchor:
+- _objc_msgSend$initWithOrdinal:andOffset:
+- _objc_msgSend$initWithOrdinals:allOrdinals:
+- _objc_msgSend$initWithPDFDocument:currentPageIndex:
+- _objc_msgSend$initWithPaginationController:
+- _objc_msgSend$initWithPaginationJob:paginationOperationController:
+- _objc_msgSend$initWithPaginationOptions:cleanupOptions:cfiOptions:ordinal:stylesheetSet:fontSize:completion:
+- _objc_msgSend$initWithPaginationOptions:ordinal:
+- _objc_msgSend$initWithPath:
+- _objc_msgSend$initWithPdfDocument:
+- _objc_msgSend$initWithPercentCompletionStart:percentCompletionEnd:isFreeSample:deviceOrientation:
+- _objc_msgSend$initWithPlayer:
+- _objc_msgSend$initWithPrimaryContent:primaryPageOffset:secondaryContent:secondaryPageOffset:movingForward:
+- _objc_msgSend$initWithPrimaryContent:primaryPageOffset:secondaryContent:secondaryPageOffset:oldPageOffset:
+- _objc_msgSend$initWithPropertySource:
+- _objc_msgSend$initWithPurchasedDSID:downloadedDSID:familyID:
+- _objc_msgSend$initWithRequest:presentingViewController:
+- _objc_msgSend$initWithResource:
+- _objc_msgSend$initWithResource:stylesheetSet:backgroundColor:textColor:
+- _objc_msgSend$initWithReuseIdentifier:
+- _objc_msgSend$initWithRootViewController:
+- _objc_msgSend$initWithScrollViewStatus:autoNightThemeStatus:backgroundColor:font:fontSize:brightnessLevel:
+- _objc_msgSend$initWithSemanticDebuggableController:
+- _objc_msgSend$initWithSize:format:
+- _objc_msgSend$initWithSource:forMainFrameOnly:
+- _objc_msgSend$initWithStartPoint:endPoint:duration:
+- _objc_msgSend$initWithStartPoint:endPoint:time:
+- _objc_msgSend$initWithStartStatus:endStatus:
+- _objc_msgSend$initWithString:
+- _objc_msgSend$initWithString:attributes:
+- _objc_msgSend$initWithString:error:
+- _objc_msgSend$initWithString:range:
+- _objc_msgSend$initWithStyle:
+- _objc_msgSend$initWithStyle:reuseIdentifier:
+- _objc_msgSend$initWithSystemApplicationType:
+- _objc_msgSend$initWithTOCParseJob:paginationOperationController:
+- _objc_msgSend$initWithTarget:
+- _objc_msgSend$initWithTarget:action:
+- _objc_msgSend$initWithTestName:scrollView:completionHandler:
+- _objc_msgSend$initWithTitle:action:
+- _objc_msgSend$initWithTitle:style:target:action:
+- _objc_msgSend$initWithTitle:target:action:
+- _objc_msgSend$initWithTocParser:pdfDictionary:forDocument:parent:
+- _objc_msgSend$initWithTransitionStyle:navigationOrientation:options:
+- _objc_msgSend$initWithType:
+- _objc_msgSend$initWithType:action:location:
+- _objc_msgSend$initWithType:subpredicates:
+- _objc_msgSend$initWithURL:
+- _objc_msgSend$initWithURL:error:
+- _objc_msgSend$initWithUserInteractionLevel:
+- _objc_msgSend$initWithView:
+- _objc_msgSend$initWithViewController:
+- _objc_msgSend$initWithViewController:configurationEnvironment:
+- _objc_msgSend$initWithViewController:provider:
+- _objc_msgSend$initWithWhite:alpha:
+- _objc_msgSend$initialJumpLocation
+- _objc_msgSend$initialLocation
+- _objc_msgSend$initialZoomFactor
+- _objc_msgSend$initialZoomScale
+- _objc_msgSend$initializeAnnotationProviderWithAssetID:
+- _objc_msgSend$initiateManualAnimationFromPages:toPages:inContainer:isForwardAnimation:isRTL:isZoomedToSpread:
+- _objc_msgSend$innerView
+- _objc_msgSend$insertAnnotationWithAssetID:creatorIdentifier:annotationUuid:intoManagedObjectContext:
+- _objc_msgSend$insertNewObjectForEntityForName:inManagedObjectContext:
+- _objc_msgSend$insertObject:atIndex:
+- _objc_msgSend$insertRowsAtIndexPaths:withRowAnimation:
+- _objc_msgSend$insertSections:withRowAnimation:
+- _objc_msgSend$insertSiblingMenu:afterMenuForIdentifier:
+- _objc_msgSend$insertSubview:above:
+- _objc_msgSend$insertSubview:aboveSubview:
+- _objc_msgSend$insertSubview:atIndex:
+- _objc_msgSend$insertSubview:below:
+- _objc_msgSend$insertSubview:belowSubview:
+- _objc_msgSend$insetContentViewFromContentContainerFrame:isPrimary:
+- _objc_msgSend$insetTOCorCoverViewFromContentContainerFrame:
+- _objc_msgSend$installAdjacentPages
+- _objc_msgSend$installJavaScriptWithCompletionBlock:
+- _objc_msgSend$installReadAloudClickHandlersOnMediaOverlayElements:
+- _objc_msgSend$installTapHandlersOnElementIDs:withHref:
+- _objc_msgSend$intValue
+- _objc_msgSend$integerForKey:
+- _objc_msgSend$integerValue
+- _objc_msgSend$interPageSpacing
+- _objc_msgSend$interfaceOrientation
+- _objc_msgSend$internalGestureRecognizersSet
+- _objc_msgSend$intersectSet:
+- _objc_msgSend$intersectWithRangeFromHeadOf:toTailOf:
+- _objc_msgSend$invalidate
+- _objc_msgSend$invalidateContentBasedOverlay
+- _objc_msgSend$invalidateContentBasedOverlayCache
+- _objc_msgSend$invalidateFollowingThemeChange
+- _objc_msgSend$invalidateIntrinsicContentSize
+- _objc_msgSend$invalidateRequest
+- _objc_msgSend$invalidated
+- _objc_msgSend$invertedSet
+- _objc_msgSend$invokedSMILControlAction:withSMILTurnStyle:
+- _objc_msgSend$isActive
+- _objc_msgSend$isAddingHighlights
+- _objc_msgSend$isAllContentLoaded
+- _objc_msgSend$isAnimated
+- _objc_msgSend$isAnimating
+- _objc_msgSend$isAnnotationDeleted
+- _objc_msgSend$isAnnotationSharingSupportedForContentViewController:
+- _objc_msgSend$isAnnotationVisible:
+- _objc_msgSend$isAnnotationVisible:forIndex:
+- _objc_msgSend$isAssetOfflineWithAssetID:
+- _objc_msgSend$isAssetSnapshotEnabled
+- _objc_msgSend$isAtEnd
+- _objc_msgSend$isAtTopOfStack
+- _objc_msgSend$isAutoCurl
+- _objc_msgSend$isAutoNightModeEnabled
+- _objc_msgSend$isAvailable
+- _objc_msgSend$isBeingDismissed
+- _objc_msgSend$isBeingPresented
+- _objc_msgSend$isBookSample
+- _objc_msgSend$isBookSharingConnectionActive
+- _objc_msgSend$isBookVersioned
+- _objc_msgSend$isBookmarked
+- _objc_msgSend$isCancelled
+- _objc_msgSend$isCandidateOrdinal:isMissing:
+- _objc_msgSend$isCompactHeight
+- _objc_msgSend$isCompactWidth
+- _objc_msgSend$isConnectedToInternet
+- _objc_msgSend$isContentLoadPending
+- _objc_msgSend$isContentLoaded
+- _objc_msgSend$isContentManaged
+- _objc_msgSend$isContentRenderComplete
+- _objc_msgSend$isCorrectPassword:forDocument:
+- _objc_msgSend$isCurrentlyZoomed
+- _objc_msgSend$isDecelerating
+- _objc_msgSend$isDeleted
+- _objc_msgSend$isDescendantOfView:
+- _objc_msgSend$isDifferentParserVersion:
+- _objc_msgSend$isDirty
+- _objc_msgSend$isDone
+- _objc_msgSend$isDownloading
+- _objc_msgSend$isDragging
+- _objc_msgSend$isDuplicateSpineEntry
+- _objc_msgSend$isEditing
+- _objc_msgSend$isEmpty
+- _objc_msgSend$isEnabled
+- _objc_msgSend$isEncrypted
+- _objc_msgSend$isEncryptionLegal
+- _objc_msgSend$isEpubURL:
+- _objc_msgSend$isEqual:
+- _objc_msgSend$isEqualToArray:
+- _objc_msgSend$isEqualToFlowingBookFontSizeConfiguration:
+- _objc_msgSend$isEqualToFlowingBookLayoutConfiguration:
+- _objc_msgSend$isEqualToFlowingBookPlistConfigurationEnvironment:
+- _objc_msgSend$isEqualToNumber:
+- _objc_msgSend$isEqualToString:
+- _objc_msgSend$isExcludedFromSample
+- _objc_msgSend$isExcludedFromSampleHash:
+- _objc_msgSend$isFileURL
+- _objc_msgSend$isFirstResponder
+- _objc_msgSend$isFixedLayout
+- _objc_msgSend$isForwardCurl
+- _objc_msgSend$isFragmentEpubCFIFunction:
+- _objc_msgSend$isGoingToNextPage
+- _objc_msgSend$isHidden
+- _objc_msgSend$isHighlighted
+- _objc_msgSend$isHorizontalScroll
+- _objc_msgSend$isHostedForSnapshotting
+- _objc_msgSend$isHovering
+- _objc_msgSend$isInserted
+- _objc_msgSend$isInstalled
+- _objc_msgSend$isInteractive
+- _objc_msgSend$isInterfaceRTL
+- _objc_msgSend$isInternalInstall
+- _objc_msgSend$isJobGenerationValid
+- _objc_msgSend$isLandscape
+- _objc_msgSend$isLandscapeProhibited
+- _objc_msgSend$isLeft
+- _objc_msgSend$isLeftPage
+- _objc_msgSend$isLegalCompression:
+- _objc_msgSend$isLegalEncryption:
+- _objc_msgSend$isLoaded
+- _objc_msgSend$isLoading
+- _objc_msgSend$isLocationFromThisDocument:
+- _objc_msgSend$isLocationOnCurrentPage:
+- _objc_msgSend$isLocationOnVisiblePages:completion:
+- _objc_msgSend$isLocationSame:
+- _objc_msgSend$isLocationVisible:annotation:completion:
+- _objc_msgSend$isLocationVisible:completion:
+- _objc_msgSend$isLocked
+- _objc_msgSend$isLowLight
+- _objc_msgSend$isMailingAllowed
+- _objc_msgSend$isMainThread
+- _objc_msgSend$isManagedBook
+- _objc_msgSend$isManagedBookFromURL:
+- _objc_msgSend$isManualCurlInProgress
+- _objc_msgSend$isMemberOfClass:
+- _objc_msgSend$isMenuVisible
+- _objc_msgSend$isMinibar
+- _objc_msgSend$isModalSheet
+- _objc_msgSend$isMovingToParentViewController
+- _objc_msgSend$isNight:
+- _objc_msgSend$isNightMode
+- _objc_msgSend$isNightTheme
+- _objc_msgSend$isNotWhitespace
+- _objc_msgSend$isOffline
+- _objc_msgSend$isOn
+- _objc_msgSend$isOnLastPage
+- _objc_msgSend$isOpen
+- _objc_msgSend$isPageBookmarked
+- _objc_msgSend$isPageLocation
+- _objc_msgSend$isPageProgressionRTL
+- _objc_msgSend$isPageTheme
+- _objc_msgSend$isPaginationComplete
+- _objc_msgSend$isPasswordDialogNeeded
+- _objc_msgSend$isPasswordRequired
+- _objc_msgSend$isPastEndOfBook:
+- _objc_msgSend$isPastLimit
+- _objc_msgSend$isPdfURL:
+- _objc_msgSend$isPlaying
+- _objc_msgSend$isPlayingMedia
+- _objc_msgSend$isPortrait
+- _objc_msgSend$isPortraitProhibited
+- _objc_msgSend$isPreorder
+- _objc_msgSend$isPrintingAllowed
+- _objc_msgSend$isProtected
+- _objc_msgSend$isRTL
+- _objc_msgSend$isRange
+- _objc_msgSend$isReadAloudPaused
+- _objc_msgSend$isReading
+- _objc_msgSend$isRequestValid
+- _objc_msgSend$isReusable
+- _objc_msgSend$isRight
+- _objc_msgSend$isRightPage
+- _objc_msgSend$isRotating
+- _objc_msgSend$isRotationInProgress
+- _objc_msgSend$isSampleFromPlistEntry:
+- _objc_msgSend$isSaving
+- _objc_msgSend$isScroll
+- _objc_msgSend$isScrollModeDisabled
+- _objc_msgSend$isScrolledContinuousFixedLayout
+- _objc_msgSend$isScrolling
+- _objc_msgSend$isScrubberDisabled
+- _objc_msgSend$isScrubbing
+- _objc_msgSend$isSearching
+- _objc_msgSend$isSeeking
+- _objc_msgSend$isSelected
+- _objc_msgSend$isSentinel
+- _objc_msgSend$isSharingSupported
+- _objc_msgSend$isShowingContent
+- _objc_msgSend$isShowingTOC
+- _objc_msgSend$isSkipping
+- _objc_msgSend$isSoundtrackPlaying
+- _objc_msgSend$isSpread
+- _objc_msgSend$isStoreBook
+- _objc_msgSend$isStyleRequiredForPagination
+- _objc_msgSend$isSuppressingColorSettings
+- _objc_msgSend$isTOCContent
+- _objc_msgSend$isTOCURL:
+- _objc_msgSend$isTemporaryID
+- _objc_msgSend$isThemeFlowingBook
+- _objc_msgSend$isTracking
+- _objc_msgSend$isTrackingAssetID:
+- _objc_msgSend$isUnderline
+- _objc_msgSend$isUndesirableImageData:
+- _objc_msgSend$isUpsellContent
+- _objc_msgSend$isUserInteractionEnabled
+- _objc_msgSend$isVertical
+- _objc_msgSend$isVerticalDocument
+- _objc_msgSend$isVerticalScrubberVisible
+- _objc_msgSend$isViewLoaded
+- _objc_msgSend$isVisible
+- _objc_msgSend$isZoomBouncing
+- _objc_msgSend$isZoomedBeyondPage
+- _objc_msgSend$isZoomedCloseToSpread
+- _objc_msgSend$isZoomedToRightPage
+- _objc_msgSend$isZoomedToSinglePage
+- _objc_msgSend$isZoomedToSpread
+- _objc_msgSend$isZooming
+- _objc_msgSend$itemProviderWithAnnotation:propertyProvider:
+- _objc_msgSend$javascriptForDocumentTheme:level:
+- _objc_msgSend$javascriptForUpdatedDisplaySetting:
+- _objc_msgSend$job
+- _objc_msgSend$jobGeneration
+- _objc_msgSend$jobName
+- _objc_msgSend$jsonObject
+- _objc_msgSend$jumpAheadAnimated:
+- _objc_msgSend$jumpAheadText
+- _objc_msgSend$jumpBackAnimated:
+- _objc_msgSend$jumpBackText
+- _objc_msgSend$jumpToLocation:animated:completion:
+- _objc_msgSend$justification
+- _objc_msgSend$key
+- _objc_msgSend$keyColor
+- _objc_msgSend$keyCommandWithInput:modifierFlags:action:
+- _objc_msgSend$keyEnumerator
+- _objc_msgSend$keyForAssetID:prefix:size:
+- _objc_msgSend$keyPath
+- _objc_msgSend$keyPrefixForPage:
+- _objc_msgSend$keyboardAppearance
+- _objc_msgSend$keyedRectsFromKeyedDOMRects:
+- _objc_msgSend$killACurl:
+- _objc_msgSend$killAllCurls
+- _objc_msgSend$killCurl
+- _objc_msgSend$killCurlingSourceViews
+- _objc_msgSend$kind
+- _objc_msgSend$kitImageNamed:
+- _objc_msgSend$label
+- _objc_msgSend$labelFont
+- _objc_msgSend$labelText
+- _objc_msgSend$landmarkAnchors
+- _objc_msgSend$landmarks
+- _objc_msgSend$landscapePredicate
+- _objc_msgSend$language
+- _objc_msgSend$languageCode
+- _objc_msgSend$languageDefaultsToHorizontalOrientation:
+- _objc_msgSend$languageDefaultsToHorizontalTextFlow
+- _objc_msgSend$languageDefaultsToPageProgressLeftToRight:
+- _objc_msgSend$languageFromPlistEntry:
+- _objc_msgSend$languageIsArabic:
+- _objc_msgSend$languageIsBengali:
+- _objc_msgSend$languageIsDevanagari:
+- _objc_msgSend$languageIsGujarati:
+- _objc_msgSend$languageIsGurmukhi:
+- _objc_msgSend$languageIsHebrew:
+- _objc_msgSend$languageIsHongKongChinese:
+- _objc_msgSend$languageIsInuktitut:
+- _objc_msgSend$languageIsJapanese:
+- _objc_msgSend$languageIsKannada:
+- _objc_msgSend$languageIsKorean:
+- _objc_msgSend$languageIsMalayalam:
+- _objc_msgSend$languageIsOriya:
+- _objc_msgSend$languageIsSimplifiedChinese:
+- _objc_msgSend$languageIsSinhala:
+- _objc_msgSend$languageIsTamil:
+- _objc_msgSend$languageIsTelugu:
+- _objc_msgSend$languageIsThai:
+- _objc_msgSend$languageIsTibetan:
+- _objc_msgSend$languageIsTraditionalChinese:
+- _objc_msgSend$languageSuffix
+- _objc_msgSend$largePhoneSizeClassPredicate
+- _objc_msgSend$largeSize
+- _objc_msgSend$largeSizeFactor
+- _objc_msgSend$lastAnalyticsDeviceOrientationReported
+- _objc_msgSend$lastCompletedTransition
+- _objc_msgSend$lastDidScrollTimestamp
+- _objc_msgSend$lastDocument
+- _objc_msgSend$lastIndex
+- _objc_msgSend$lastLayoutUsed
+- _objc_msgSend$lastLayoutUsedKey
+- _objc_msgSend$lastLocation
+- _objc_msgSend$lastObject
+- _objc_msgSend$lastPageInChapterString
+- _objc_msgSend$lastPathComponent
+- _objc_msgSend$lastRecordedCFIDate
+- _objc_msgSend$lastRecordedCFILocation
+- _objc_msgSend$lastRecordedLocation
+- _objc_msgSend$lastRecordedPageDate
+- _objc_msgSend$lastRecordedPageLocation
+- _objc_msgSend$lastSavedSearchResult
+- _objc_msgSend$latestLocation
+- _objc_msgSend$latestLocationDate
+- _objc_msgSend$launchedToTest
+- _objc_msgSend$layer
+- _objc_msgSend$layer:containsHighlightAtPoint:
+- _objc_msgSend$layout
+- _objc_msgSend$layoutComplete:
+- _objc_msgSend$layoutComplete:estimatedContentSize:
+- _objc_msgSend$layoutDelegate
+- _objc_msgSend$layoutDirection
+- _objc_msgSend$layoutDocumentView
+- _objc_msgSend$layoutFrame
+- _objc_msgSend$layoutIfNeeded
+- _objc_msgSend$layoutMarginsGuide
+- _objc_msgSend$layoutQueue
+- _objc_msgSend$layoutScrubberCallout
+- _objc_msgSend$layoutScrubberCallout:
+- _objc_msgSend$layoutSize
+- _objc_msgSend$layoutSubviews
+- _objc_msgSend$layoutSubviewsEditingWithBounds:
+- _objc_msgSend$layoutSubviewsNotEditingWithBounds:
+- _objc_msgSend$leading
+- _objc_msgSend$leadingAnchor
+- _objc_msgSend$leadingLocation
+- _objc_msgSend$leftAnchor
+- _objc_msgSend$leftCalloutPageNumber
+- _objc_msgSend$leftContentContainerFrameForTwoUp
+- _objc_msgSend$leftContentView
+- _objc_msgSend$leftInset
+- _objc_msgSend$leftPageIndex
+- _objc_msgSend$leftPageNumberAtIndex:
+- _objc_msgSend$leftPageNumberForSinglePageOffset:
+- _objc_msgSend$leftPageNumberForSpreadPageOffset:
+- _objc_msgSend$leftPageView
+- _objc_msgSend$leftSeparatorInset
+- _objc_msgSend$leftSourceView
+- _objc_msgSend$leftView
+- _objc_msgSend$length
+- _objc_msgSend$libraryButtonItemForViewController:selector:
+- _objc_msgSend$libraryMgr
+- _objc_msgSend$lightGrayColor
+- _objc_msgSend$lightenBlend
+- _objc_msgSend$lineHeight
+- _objc_msgSend$lineHeightModifiedByOffset:
+- _objc_msgSend$linearDocumentCount
+- _objc_msgSend$linearDocumentPredicateForDatabaseKey:
+- _objc_msgSend$linearDocuments
+- _objc_msgSend$linearIndexForOrdinal:
+- _objc_msgSend$linearOrdinal:offsetByDistance:
+- _objc_msgSend$lines
+- _objc_msgSend$linkActiveColor
+- _objc_msgSend$linkColor
+- _objc_msgSend$linkVisitedColor
+- _objc_msgSend$load
+- _objc_msgSend$loadAKToolbarView
+- _objc_msgSend$loadAllViewsIfNeeded
+- _objc_msgSend$loadAnyMissingThumbnails
+- _objc_msgSend$loadData:MIMEType:characterEncodingName:baseURL:
+- _objc_msgSend$loadDataRepresentationForTypeIdentifier:completionHandler:
+- _objc_msgSend$loadFailureCount
+- _objc_msgSend$loadFonts
+- _objc_msgSend$loadHTML
+- _objc_msgSend$loadMetadata
+- _objc_msgSend$loadMore
+- _objc_msgSend$loadNibNamed:owner:options:
+- _objc_msgSend$loadPersistentStoresWithCompletionHandler:
+- _objc_msgSend$loadRequest:
+- _objc_msgSend$loadRequestWithContents:template:fontFamily:fontSize:maxSpan:textColor:selectedColor:backgroundColor:baseURL:forObject:
+- _objc_msgSend$loadRequestWithHTML:maxSpan:selectedColor:baseURL:forObject:
+- _objc_msgSend$loadRibbonForBounds:
+- _objc_msgSend$loadSemaphore
+- _objc_msgSend$loadViewIfNeeded
+- _objc_msgSend$loadViewUIImage
+- _objc_msgSend$loader
+- _objc_msgSend$loadingView
+- _objc_msgSend$localFrame
+- _objc_msgSend$localeWithLocaleIdentifier:
+- _objc_msgSend$localizedName
+- _objc_msgSend$localizedStringForKey:value:table:
+- _objc_msgSend$localizedStringWithFormat:
+- _objc_msgSend$location
+- _objc_msgSend$locationAtIndex:
+- _objc_msgSend$locationEnsuredFirstPaintWorkBlock
+- _objc_msgSend$locationEnsuredVisibleWorkBlock
+- _objc_msgSend$locationForAnchor:
+- _objc_msgSend$locationForCFI:error:
+- _objc_msgSend$locationForCfi:
+- _objc_msgSend$locationForPageNumber:
+- _objc_msgSend$locationForPageOffset:contentOffset:
+- _objc_msgSend$locationForPath:fragment:
+- _objc_msgSend$locationForSelection:offset:
+- _objc_msgSend$locationForSnapshotForLocation:
+- _objc_msgSend$locationInView:
+- _objc_msgSend$locationModificationDate
+- _objc_msgSend$locationOfTouch:inView:
+- _objc_msgSend$locationWithAdjustedSpineIndex:error:
+- _objc_msgSend$locations
+- _objc_msgSend$logRecursively
+- _objc_msgSend$logger
+- _objc_msgSend$longLongValue
+- _objc_msgSend$longPressGestureRecognizer
+- _objc_msgSend$lookupKey
+- _objc_msgSend$lookupKeyForStyle:geometry:
+- _objc_msgSend$loupeGesture
+- _objc_msgSend$loupeHeight
+- _objc_msgSend$loupeMask
+- _objc_msgSend$loupePointForPoint:
+- _objc_msgSend$loupeSheen
+- _objc_msgSend$loupeWidth
+- _objc_msgSend$lowercaseString
+- _objc_msgSend$mainBundle
+- _objc_msgSend$mainQueue
+- _objc_msgSend$mainRunLoop
+- _objc_msgSend$mainScreen
+- _objc_msgSend$mainSystem
+- _objc_msgSend$makeContentVisible
+- _objc_msgSend$makeKeyAndVisible
+- _objc_msgSend$makeObjectsPerformSelector:
+- _objc_msgSend$makeObjectsPerformSelector:withObject:
+- _objc_msgSend$makeSelectedBackgroundView:
+- _objc_msgSend$makeTOCVisible
+- _objc_msgSend$managedBooksAllowedToSync
+- _objc_msgSend$managedObjectContext
+- _objc_msgSend$manifest
+- _objc_msgSend$manifestId
+- _objc_msgSend$manifestProperties
+- _objc_msgSend$manualCurlFinished:
+- _objc_msgSend$manualCurlGesture:
+- _objc_msgSend$manualCurlHandler
+- _objc_msgSend$manualCurlStartPosition
+- _objc_msgSend$markupDocumentForMediaOverlay
+- _objc_msgSend$mask
+- _objc_msgSend$maxContentHeight
+- _objc_msgSend$maxScaleFactor
+- _objc_msgSend$maxSpanForTextWithIndentation:font:width:
+- _objc_msgSend$maximumContentOffset
+- _objc_msgSend$maximumSize
+- _objc_msgSend$maximumZoomScale
+- _objc_msgSend$mediaActiveClass
+- _objc_msgSend$mediaFrames
+- _objc_msgSend$mediaFramesScript
+- _objc_msgSend$mediaOverlayElements
+- _objc_msgSend$mediaOverlayHref
+- _objc_msgSend$mediaOverlayHrefForManifestInfo:readable:
+- _objc_msgSend$mediaOverlayParsed
+- _objc_msgSend$mediaSource
+- _objc_msgSend$mediumSize
+- _objc_msgSend$megaPadSizeClassPredicate
+- _objc_msgSend$megaPhoneSizeClassPredicate
+- _objc_msgSend$memoryCache
+- _objc_msgSend$menuFrame
+- _objc_msgSend$menuItems
+- _objc_msgSend$menuWithTitle:image:identifier:options:children:
+- _objc_msgSend$mergeChangesFromContextDidSaveNotification:
+- _objc_msgSend$mergePredicate:andPredicate:
+- _objc_msgSend$metadata
+- _objc_msgSend$metadataForAssetAtURL:needsCoordination:
+- _objc_msgSend$metadataForKey:forURL:needsCoordination:
+- _objc_msgSend$metricsForTextStyle:
+- _objc_msgSend$mime
+- _objc_msgSend$minCPLForSpreadPages
+- _objc_msgSend$minScaleFactor
+- _objc_msgSend$miniHeight
+- _objc_msgSend$minifiedControllerDelegate
+- _objc_msgSend$minifiedControllerLoadedAssetViewController
+- _objc_msgSend$minifiedControllerRequestClose:error:
+- _objc_msgSend$minimumBoundingBox
+- _objc_msgSend$minimumContentOffset
+- _objc_msgSend$minimumGestureInterval
+- _objc_msgSend$minimumZoomScale
+- _objc_msgSend$minusSet:
+- _objc_msgSend$modalRestoreLocation
+- _objc_msgSend$mode
+- _objc_msgSend$modifyType
+- _objc_msgSend$monospacedDigitSystemFontOfSize:weight:
+- _objc_msgSend$movingForward
+- _objc_msgSend$multipleSelectionTickBackgroundImage
+- _objc_msgSend$multipleSelectionTickBackgroundImageView
+- _objc_msgSend$mutableBytes
+- _objc_msgSend$mutableCopy
+- _objc_msgSend$mutableSearchResult
+- _objc_msgSend$name
+- _objc_msgSend$navigatingFromContentInfoRequest
+- _objc_msgSend$navigationBar
+- _objc_msgSend$navigationController
+- _objc_msgSend$navigationHandler:didFinishLoadOfURL:
+- _objc_msgSend$navigationHistory
+- _objc_msgSend$navigationInfoAnchors
+- _objc_msgSend$navigationInfoHrefsForOrdinal:
+- _objc_msgSend$navigationInfosForDocument:
+- _objc_msgSend$navigationOrientation
+- _objc_msgSend$navigationType
+- _objc_msgSend$needPiggyBackOperationForOrdinal:
+- _objc_msgSend$needTOCEntriesForOrdinal:
+- _objc_msgSend$needTextNodeCharacterCountsForOrdinal:
+- _objc_msgSend$needsBookManagedObjectContext
+- _objc_msgSend$needsReparsing
+- _objc_msgSend$needsToSnapToPage
+- _objc_msgSend$negated
+- _objc_msgSend$newAugmentedExperienceManager
+- _objc_msgSend$newBackgroundContext
+- _objc_msgSend$newBlankBook:
+- _objc_msgSend$newBookmarkPageArray
+- _objc_msgSend$newButton
+- _objc_msgSend$newByClass:
+- _objc_msgSend$newEmptyChapterPageNumber:
+- _objc_msgSend$newEmptyDocument:
+- _objc_msgSend$newEmptyDocumentPageCount:
+- _objc_msgSend$newEmptyNavigationInfo:
+- _objc_msgSend$newEmptyProtectionInfo:
+- _objc_msgSend$newGlassButton
+- _objc_msgSend$newHistoryEntityResultsArray
+- _objc_msgSend$newLandmarkInfoAnchorArray
+- _objc_msgSend$newManagedObjectContextWithPrivateQueueConcurrency
+- _objc_msgSend$newMediaOverlayElement:withParserInfo:
+- _objc_msgSend$newNavigationInfoAnchorArray
+- _objc_msgSend$newPageLocationArrayWithAnchorInfos:
+- _objc_msgSend$newPageMarginLabel
+- _objc_msgSend$newPaginationControllerForBook:delegate:
+- _objc_msgSend$newPhysicalPageAnchorArray
+- _objc_msgSend$newSessionAssertion
+- _objc_msgSend$newViewControllerForAEBookInfo:storeID:
+- _objc_msgSend$newestAnnotationWithPredicate:rangeCheck:moc:
+- _objc_msgSend$newlineCharacterSet
+- _objc_msgSend$nextEntity
+- _objc_msgSend$nextObject
+- _objc_msgSend$nextSearchResult
+- _objc_msgSend$nextTime
+- _objc_msgSend$nightMode
+- _objc_msgSend$noAutoHyphenation
+- _objc_msgSend$noJustification
+- _objc_msgSend$nonlinearElement
+- _objc_msgSend$noteEditor
+- _objc_msgSend$noteEditorHighlightedTextFont
+- _objc_msgSend$noteFontForPopover
+- _objc_msgSend$noteGlyphPadding
+- _objc_msgSend$noteLabel
+- _objc_msgSend$noteSideLength
+- _objc_msgSend$noteTextFontInTable
+- _objc_msgSend$noteTextFrameForString:font:bounds:highlightedTextFrame:pageLabelFrame:
+- _objc_msgSend$noteTextFrameForString:font:bounds:spacingToItemAbove:numberOfLines:matchesWidthOfHighlightedText:highlightedTextFrame:pageLabelFrame:
+- _objc_msgSend$noteTextFrameInPopoverForString:font:bounds:highlightedTextFrame:pageLabelFrame:
+- _objc_msgSend$notificationObservationTokens
+- _objc_msgSend$notifyAppIntentsInfoChanged
+- _objc_msgSend$notifyBookController:
+- _objc_msgSend$notifyBookSharingClientSelectionChanged
+- _objc_msgSend$notifyPlaybackWillStart:
+- _objc_msgSend$notifyStyleChanged
+- _objc_msgSend$null
+- _objc_msgSend$numberFromString:
+- _objc_msgSend$numberOfCellsInGridView:
+- _objc_msgSend$numberOfChapters
+- _objc_msgSend$numberOfChildren
+- _objc_msgSend$numberOfLines
+- _objc_msgSend$numberOfMarkupAnnotations
+- _objc_msgSend$numberOfMarkupAnnotationsWithPopups
+- _objc_msgSend$numberOfMatchesInString:options:range:
+- _objc_msgSend$numberOfObjects
+- _objc_msgSend$numberOfQueuedCurls
+- _objc_msgSend$numberOfRowsInSection:
+- _objc_msgSend$numberOfSections
+- _objc_msgSend$numberOfSectionsInTableView:
+- _objc_msgSend$numberOfSegments
+- _objc_msgSend$numberOfTapsRequired
+- _objc_msgSend$numberOfTouches
+- _objc_msgSend$numberOfTouchesRequired
+- _objc_msgSend$numberOfVisiblePages
+- _objc_msgSend$numberWithBool:
+- _objc_msgSend$numberWithDouble:
+- _objc_msgSend$numberWithFloat:
+- _objc_msgSend$numberWithInt:
+- _objc_msgSend$numberWithInteger:
+- _objc_msgSend$numberWithLongLong:
+- _objc_msgSend$numberWithUnsignedInt:
+- _objc_msgSend$numberWithUnsignedInteger:
+- _objc_msgSend$numberWithUnsignedLong:
+- _objc_msgSend$numberWithUnsignedLongLong:
+- _objc_msgSend$obeyPageBreaks
+- _objc_msgSend$object
+- _objc_msgSend$objectAtIndex:
+- _objc_msgSend$objectAtIndexPath:
+- _objc_msgSend$objectAtIndexedSubscript:
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$objectForKeyedSubscript:
+- _objc_msgSend$objectForMatchingAnnotation:
+- _objc_msgSend$objectID
+- _objc_msgSend$objectIDsWithPredicate:forEntity:
+- _objc_msgSend$objectWithID:
+- _objc_msgSend$objects
+- _objc_msgSend$objectsAtIndexes:
+- _objc_msgSend$observedScrollView
+- _objc_msgSend$observer:didChangeFont:
+- _objc_msgSend$observer:didChangeLayout:
+- _objc_msgSend$observer:didChangeStyle:
+- _objc_msgSend$observerDidDecreaseFontSize:
+- _objc_msgSend$observerDidIncreaseFontSize:
+- _objc_msgSend$offscreenViewControllers
+- _objc_msgSend$offset
+- _objc_msgSend$oldPageOffset
+- _objc_msgSend$onScrollSwitch:notifyingCoordinator:
+- _objc_msgSend$ongoingAnimationCount
+- _objc_msgSend$onlySupportsScrollingLayout
+- _objc_msgSend$opacity
+- _objc_msgSend$openToSpread
+- _objc_msgSend$openURL:options:completionHandler:
+- _objc_msgSend$openURLUsingNSString:
+- _objc_msgSend$openedInPlace
+- _objc_msgSend$openingLocation
+- _objc_msgSend$operationClass
+- _objc_msgSend$operationCount
+- _objc_msgSend$operationQueue
+- _objc_msgSend$operations
+- _objc_msgSend$optedIn
+- _objc_msgSend$optimizeLegibility
+- _objc_msgSend$optimizedRepresentativeTextForSerialization:selectedText:
+- _objc_msgSend$optimizedSelectedTextForSerialization:
+- _objc_msgSend$optionWithKey:titleFormat:label:control:
+- _objc_msgSend$options
+- _objc_msgSend$ordinal
+- _objc_msgSend$orientation
+- _objc_msgSend$origin
+- _objc_msgSend$originForPageNumber:
+- _objc_msgSend$originForPageNumber:pagesContainerSize:isSpread:
+- _objc_msgSend$orthography
+- _objc_msgSend$osBuildVersion
+- _objc_msgSend$outlineItemForSelection:
+- _objc_msgSend$outlineRoot
+- _objc_msgSend$overlayContentBackgroundColor
+- _objc_msgSend$overrideBuildMenuLocation
+- _objc_msgSend$overrideFontSize
+- _objc_msgSend$overrideProvider
+- _objc_msgSend$overrideUserInterfaceStyle
+- _objc_msgSend$owner
+- _objc_msgSend$pK0gFZ9QOdm17E9p9cpP:sinfData:refetch:error:
+- _objc_msgSend$pNumColumnsForSize:
+- _objc_msgSend$p_kitImageWithName:
+- _objc_msgSend$p_releaseDictionary
+- _objc_msgSend$p_standardSearchBar
+- _objc_msgSend$p_willUseWebViewForCellWithChapter:
+- _objc_msgSend$page
+- _objc_msgSend$pageAnimation:didFinish:
+- _objc_msgSend$pageAnimationDelegate
+- _objc_msgSend$pageAnimationWillBegin:
+- _objc_msgSend$pageArray
+- _objc_msgSend$pageAtIndex:
+- _objc_msgSend$pageBookmarksPredicate:
+- _objc_msgSend$pageCacheDistance
+- _objc_msgSend$pageColor
+- _objc_msgSend$pageContainer
+- _objc_msgSend$pageContentBoundsForBookContainerView:
+- _objc_msgSend$pageCount
+- _objc_msgSend$pageCountDidUpdate
+- _objc_msgSend$pageCountExcludingUpsell
+- _objc_msgSend$pageCountForOrdinal:
+- _objc_msgSend$pageCountIncludingUpsell
+- _objc_msgSend$pageCurl
+- _objc_msgSend$pageCurl:finished:
+- _objc_msgSend$pageCurlBackPageColor
+- _objc_msgSend$pageCurlConfiguration
+- _objc_msgSend$pageCurlManager
+- _objc_msgSend$pageCurlManager:delayForCurl:
+- _objc_msgSend$pageCurlManager:didFinishCurl:transitionCompleted:
+- _objc_msgSend$pageCurlManager:durationForCurl:
+- _objc_msgSend$pageCurlManager:willBeginCurl:
+- _objc_msgSend$pageCurlManager:willCancelCurl:
+- _objc_msgSend$pageCurlManagerRemovesViews:
+- _objc_msgSend$pageCurlManagerShouldKillLastOpposingCurl:
+- _objc_msgSend$pageCurlManagerStabilizationFactor
+- _objc_msgSend$pageCurlWillCancel
+- _objc_msgSend$pageCurlWillCancelWithDuration:
+- _objc_msgSend$pageCurls
+- _objc_msgSend$pageDictionaryToPageNumber
+- _objc_msgSend$pageForLookupKey:
+- _objc_msgSend$pageIndexForLocation:
+- _objc_msgSend$pageIndexForPageNumber:
+- _objc_msgSend$pageIndexFromChapter:
+- _objc_msgSend$pageLabel
+- _objc_msgSend$pageLabelFont
+- _objc_msgSend$pageLabelFrameForString:font:bounds:topMargin:writingDirection:
+- _objc_msgSend$pageLabelFrameForString:font:bounds:writingDirection:
+- _objc_msgSend$pageLabelFrameInPopoverForString:font:bounds:writingDirection:
+- _objc_msgSend$pageLabelOnLeft
+- _objc_msgSend$pageLabelVerticalOffset
+- _objc_msgSend$pageLabels
+- _objc_msgSend$pageLabelsForContent:
+- _objc_msgSend$pageLength
+- _objc_msgSend$pageLocationForPageIndex:
+- _objc_msgSend$pageLocationForPageNumber:
+- _objc_msgSend$pageNavigationContentViewWillAppear:
+- _objc_msgSend$pageNavigationController:shouldDelayChangeToPageOffset:completion:
+- _objc_msgSend$pageNavigationCurrentReadAloudPageOffset:
+- _objc_msgSend$pageNavigationDidBeginInteracting:
+- _objc_msgSend$pageNavigationDidChangeLocation:
+- _objc_msgSend$pageNavigationDidEndInteracting:
+- _objc_msgSend$pageNavigationDidRemoveContentForPageNumber:
+- _objc_msgSend$pageNavigationDidRemoveContentViewController:
+- _objc_msgSend$pageNavigationDidSwipeToNextPage:
+- _objc_msgSend$pageNavigationDidTryToSwipePastEndOfBook:
+- _objc_msgSend$pageNavigationIsVertical
+- _objc_msgSend$pageNavigationSnapshotForPageNumber:completion:
+- _objc_msgSend$pageNavigationSnapshotForPageNumber:size:isRight:zoomScale:applyMaskAndGutter:completion:
+- _objc_msgSend$pageNavigationToggleControls:
+- _objc_msgSend$pageNavigationViewController
+- _objc_msgSend$pageNumber
+- _objc_msgSend$pageNumberAndHighlightedTextFontSize
+- _objc_msgSend$pageNumberAtContentOffset:
+- _objc_msgSend$pageNumberBeforeScrubbing
+- _objc_msgSend$pageNumberBeforeTransition
+- _objc_msgSend$pageNumberFontForPopover
+- _objc_msgSend$pageNumberFontSize
+- _objc_msgSend$pageNumberForCellIndex:
+- _objc_msgSend$pageNumberForChapter:directoryDelegate:
+- _objc_msgSend$pageNumberForCurrentLocation
+- _objc_msgSend$pageNumberForDocumentOrdinal:
+- _objc_msgSend$pageNumberForLocation:
+- _objc_msgSend$pageNumberForOrdinal:
+- _objc_msgSend$pageNumberForPageIndex:
+- _objc_msgSend$pageNumberForTouchBarPosition:
+- _objc_msgSend$pageNumberForValue:
+- _objc_msgSend$pageNumberFromChapter:
+- _objc_msgSend$pageNumberFromRange:
+- _objc_msgSend$pageNumberHUD
+- _objc_msgSend$pageNumberHUDHeightConstraint
+- _objc_msgSend$pageNumberHUDTopConstraint
+- _objc_msgSend$pageNumberHUDWidthConstraint
+- _objc_msgSend$pageNumberLabel
+- _objc_msgSend$pageNumberStringForChapter:directoryDelegate:
+- _objc_msgSend$pageOffset
+- _objc_msgSend$pageOffsetForAnchor:
+- _objc_msgSend$pageOffsetForCFILocation:
+- _objc_msgSend$pageOffsetForHref:
+- _objc_msgSend$pageOffsetForLocation:
+- _objc_msgSend$pageOffsetRangeForLocation:completion:
+- _objc_msgSend$pageOffsetRangeForRect:
+- _objc_msgSend$pagePositionForTouchBarPosition:
+- _objc_msgSend$pageProgressionDirection
+- _objc_msgSend$pageProgressionDirectionForAssetAtURLOnMainThread:
+- _objc_msgSend$pageProgressionFromPlistEntry:
+- _objc_msgSend$pageRangeAtIndex:
+- _objc_msgSend$pageRangeForAnnotation:
+- _objc_msgSend$pageRangeForChapter:
+- _objc_msgSend$pageRangeForChapterAtIndex:
+- _objc_msgSend$pageRangeForChapterAtPageNumber:
+- _objc_msgSend$pageRangeForLocation:
+- _objc_msgSend$pageRangeForPageNumber:
+- _objc_msgSend$pageScrollerPageView
+- _objc_msgSend$pageSize
+- _objc_msgSend$pageSlideAnimation
+- _objc_msgSend$pageSlideCount
+- _objc_msgSend$pageTextDirectionIsRTL
+- _objc_msgSend$pageTitle
+- _objc_msgSend$pageTitleForAnnotation:
+- _objc_msgSend$pageTitleForChapter:
+- _objc_msgSend$pageTitleForLocation:
+- _objc_msgSend$pageTitleForPageNumber:
+- _objc_msgSend$pageTitlesForPageOffset:
+- _objc_msgSend$pageTotal
+- _objc_msgSend$pageTurnSpineAlpha
+- _objc_msgSend$pageTurningViewController:beginManualCurl:onReady:
+- _objc_msgSend$pageTurningViewController:hasMediaElementUnderTouch:
+- _objc_msgSend$pageTurningViewController:pageCurlManager:didFinishAnimation:transitionCompleted:
+- _objc_msgSend$pageTurningViewController:pageTurnShouldRequireFailureOf:
+- _objc_msgSend$pageTurningViewController:tapToTurnPages:
+- _objc_msgSend$pageTurningViewController:turnChapter:
+- _objc_msgSend$pageTurningViewController:turnPages:
+- _objc_msgSend$pageTurningViewControllerDidLayoutSubviews:
+- _objc_msgSend$pageTurningViewControllerShouldBeginManualCurl:
+- _objc_msgSend$pageTurningViewControllerShouldTurnPage:
+- _objc_msgSend$pageView
+- _objc_msgSend$pageViewController
+- _objc_msgSend$pageViewController:didFinishAnimating:previousViewControllers:transitionCompleted:
+- _objc_msgSend$pageViewController:viewControllerAfterViewController:
+- _objc_msgSend$pageViewController:viewControllerBeforeViewController:
+- _objc_msgSend$pageViewControllerForLayout:
+- _objc_msgSend$pageViewControllersDidChange
+- _objc_msgSend$pageViewForPageAtIndex:
+- _objc_msgSend$pageViews
+- _objc_msgSend$pages
+- _objc_msgSend$pagesContainerView
+- _objc_msgSend$pagesInDocumentOrdinal:
+- _objc_msgSend$pagination
+- _objc_msgSend$paginationArrayWithLookupKey:
+- _objc_msgSend$paginationCompleted
+- _objc_msgSend$paginationController
+- _objc_msgSend$paginationControllerFinishedBookPagination:
+- _objc_msgSend$paginationControllerFinishedWebkitRendering:renderTree:pageCount:
+- _objc_msgSend$paginationDidLoad
+- _objc_msgSend$paginationInfoForPageNumber:
+- _objc_msgSend$paginationLayoutJob
+- _objc_msgSend$paginationOperationController
+- _objc_msgSend$paginationOptions
+- _objc_msgSend$paginationOptionsForBookInfoSnapshot:withConfiguration:contentLayoutSize:
+- _objc_msgSend$paginationRetryCount
+- _objc_msgSend$paginationRevision
+- _objc_msgSend$paginationUpdateRequired
+- _objc_msgSend$paginationUpdateRequired:
+- _objc_msgSend$paginationUpdateRequiredForContentViewController:
+- _objc_msgSend$pagingScrollView:didAddView:atIndex:
+- _objc_msgSend$pagingScrollView:didRemoveView:atIndex:
+- _objc_msgSend$pagingScrollView:viewAtIndex:
+- _objc_msgSend$pagingScrollView:viewDidAppear:atIndex:
+- _objc_msgSend$pagingScrollView:viewDidDisappear:atIndex:
+- _objc_msgSend$panGesture
+- _objc_msgSend$parent
+- _objc_msgSend$parse
+- _objc_msgSend$parse:
+- _objc_msgSend$parseBook:
+- _objc_msgSend$parseDate
+- _objc_msgSend$parseSMIL:contentSubpath:bookBasePath:bookDatabaseKey:managedObjectContext:
+- _objc_msgSend$parseTOCIdCssRulesForMap:completion:
+- _objc_msgSend$parseTemplate:error:
+- _objc_msgSend$parserForBook:
+- _objc_msgSend$parserNCXPath
+- _objc_msgSend$parserOPFPath
+- _objc_msgSend$parserVersion
+- _objc_msgSend$password
+- _objc_msgSend$pasteboardString
+- _objc_msgSend$path
+- _objc_msgSend$pathComponents
+- _objc_msgSend$pathExtension
+- _objc_msgSend$pathForResource:ofType:
+- _objc_msgSend$pathForSoundtrack
+- _objc_msgSend$pathRelativeToContentBase:forRelativePath:startingFromAbsoluteFolderPath:
+- _objc_msgSend$pathWithComponents:
+- _objc_msgSend$pause
+- _objc_msgSend$pauseReadAloud
+- _objc_msgSend$pauseSearch
+- _objc_msgSend$pausedTime
+- _objc_msgSend$pdfAnchorToPageNumber:
+- _objc_msgSend$pdfDocument
+- _objc_msgSend$pdfDocumentCache
+- _objc_msgSend$pdfObject
+- _objc_msgSend$pdfOutlineRoot
+- _objc_msgSend$pdfScrollView
+- _objc_msgSend$pdfUndoManager
+- _objc_msgSend$pdfView
+- _objc_msgSend$pendingAdjustForScrollMode
+- _objc_msgSend$pendingAppearanceStyle
+- _objc_msgSend$pendingInfoRequest
+- _objc_msgSend$pendingLocation
+- _objc_msgSend$pendingLocationCompletion
+- _objc_msgSend$pendingPageTurnGenerationID
+- _objc_msgSend$percentCompletionEnd
+- _objc_msgSend$percentCompletionStart
+- _objc_msgSend$performActionForSender:
+- _objc_msgSend$performAfterLoad
+- _objc_msgSend$performAfterLoadCompleteOrFailure:
+- _objc_msgSend$performAfterPrivateDataFetched:
+- _objc_msgSend$performAuthentication
+- _objc_msgSend$performBackgroundAnnotationsBlockAndWait:
+- _objc_msgSend$performBackgroundTaskAndWait:
+- _objc_msgSend$performBlock:
+- _objc_msgSend$performBlockAndWait:
+- _objc_msgSend$performBlockOnUserSideQueueAndWait:
+- _objc_msgSend$performBlockUsingBookInfoAndWait:
+- _objc_msgSend$performFetch:
+- _objc_msgSend$performMainQueueTaskWithNewContext:
+- _objc_msgSend$performMainQueueTaskWithNewContextAndWait:
+- _objc_msgSend$performRotationWithDuration:
+- _objc_msgSend$performSelector:
+- _objc_msgSend$performSelector:withObject:
+- _objc_msgSend$performSelector:withObject:afterDelay:
+- _objc_msgSend$performSelectorOnMainThread:withObject:waitUntilDone:
+- _objc_msgSend$performSelectorProxy
+- _objc_msgSend$performWithoutAnimation:
+- _objc_msgSend$persistentCachePath
+- _objc_msgSend$persistentContainer
+- _objc_msgSend$persistentContainerWithName:managedObjectModel:
+- _objc_msgSend$persistentID
+- _objc_msgSend$persistentStoreCoordinator
+- _objc_msgSend$persistentStoreDescriptionWithURL:
+- _objc_msgSend$persistentStoreDirectory
+- _objc_msgSend$persistentStoreFileName
+- _objc_msgSend$phase
+- _objc_msgSend$phoneSizeClassPredicate
+- _objc_msgSend$physicalPageAnchors
+- _objc_msgSend$physicalPageIndexForPageNumber:
+- _objc_msgSend$physicalPageMap
+- _objc_msgSend$physicalPageMapForDocument:
+- _objc_msgSend$physicalPageMapForPageTitle:
+- _objc_msgSend$physicalPageNumber
+- _objc_msgSend$physicalPageTitlesForPageNumber:
+- _objc_msgSend$physicalPages
+- _objc_msgSend$physicalPagesArrayWithLookupKey:
+- _objc_msgSend$pictureBookRenderingCache
+- _objc_msgSend$pictureBookRenderingCacheIfLoaded
+- _objc_msgSend$pictureBookVerticalNavigationInteractionDidStart:
+- _objc_msgSend$pictureBookVerticalNavigationpreferredPageNumberHUDVisibilityChanged:
+- _objc_msgSend$piggyBack
+- _objc_msgSend$pinkTheme:
+- _objc_msgSend$plLocationRangeStart
+- _objc_msgSend$plUserData
+- _objc_msgSend$play
+- _objc_msgSend$playCurrentSoundtrack
+- _objc_msgSend$playFirstVisibleAutoplayMediaObject
+- _objc_msgSend$playFrom:
+- _objc_msgSend$playbackSpeedFrom:
+- _objc_msgSend$player
+- _objc_msgSend$pluginForURL:
+- _objc_msgSend$pluralPagesLeftInChapterWithRemainingPageCount:
+- _objc_msgSend$pointForValue:
+- _objc_msgSend$pointInside:withEvent:
+- _objc_msgSend$pointSize
+- _objc_msgSend$pointToCenterAfterRotation
+- _objc_msgSend$popViewControllerAnimated:
+- _objc_msgSend$popoverArrowDirections
+- _objc_msgSend$popoverBackgroundColor
+- _objc_msgSend$popoverPresentationController
+- _objc_msgSend$popoverPresentationRect
+- _objc_msgSend$populateRecordJob:
+- _objc_msgSend$portraitPredicate
+- _objc_msgSend$positionForBar:
+- _objc_msgSend$positionWithCFI:
+- _objc_msgSend$postEvent:sender:
+- _objc_msgSend$postNotificationName:object:
+- _objc_msgSend$postNotificationName:object:userInfo:
+- _objc_msgSend$postPaginationLoadedNotification
+- _objc_msgSend$postscriptBoldName
+- _objc_msgSend$postscriptName
+- _objc_msgSend$predicateForAnnotationsIncludingDeletedWithUUIDInList:assetID:
+- _objc_msgSend$predicateForAnnotationsWithAssetID:ordinal:
+- _objc_msgSend$predicateForAnnotationsWithLocation:includingDeleted:
+- _objc_msgSend$predicateForGlobalAnnotationWithAssetID:
+- _objc_msgSend$predicateForOverlayCache
+- _objc_msgSend$predicateForUserAnnotationsWithAssetID:includingDeleted:
+- _objc_msgSend$predicateWithBlock:
+- _objc_msgSend$predicateWithFormat:
+- _objc_msgSend$predicateWithValue:
+- _objc_msgSend$preferredContentHeightWithMax:
+- _objc_msgSend$preferredContentSize
+- _objc_msgSend$preferredContentSizeCategory
+- _objc_msgSend$preferredDirectoryTypeForBook:
+- _objc_msgSend$preferredFontDescriptorWithTextStyle:
+- _objc_msgSend$preferredFontDescriptorWithTextStyle:compatibleWithTraitCollection:
+- _objc_msgSend$preferredFontForTextStyle:
+- _objc_msgSend$preferredFontSize
+- _objc_msgSend$preferredFormat
+- _objc_msgSend$preferredLanguages
+- _objc_msgSend$preferredLayoutCache
+- _objc_msgSend$preferredPageNumberHUDVisibility
+- _objc_msgSend$preferredRange
+- _objc_msgSend$preferredStyle
+- _objc_msgSend$prefersSinglePagePresentation
+- _objc_msgSend$preflightTap:
+- _objc_msgSend$preloadContentController:highPriority:
+- _objc_msgSend$preloadContentViewController:highPriority:
+- _objc_msgSend$prepare
+- _objc_msgSend$prepareContentBasedOverlayCache
+- _objc_msgSend$prepareForContentScaling
+- _objc_msgSend$prepareForDisplay
+- _objc_msgSend$prepareForScrubberAnimation
+- _objc_msgSend$prepareForSnapshot
+- _objc_msgSend$prepareForSnapshotWithHidden:
+- _objc_msgSend$prepareQueue
+- _objc_msgSend$prepareToRotateWithDestinationSize:
+- _objc_msgSend$presentAppearanceViewControllerFromItem:
+- _objc_msgSend$presentFromRect:view:
+- _objc_msgSend$presentViewController:animated:completion:
+- _objc_msgSend$presentViewController:transaction:animated:completion:
+- _objc_msgSend$presentationController
+- _objc_msgSend$presentationControllerFinishedWebkitRendering:renderTree:pageCount:
+- _objc_msgSend$presentationLayer
+- _objc_msgSend$presentationRect
+- _objc_msgSend$presentationView
+- _objc_msgSend$presentedViewController
+- _objc_msgSend$presenterForExperienceType:
+- _objc_msgSend$presentingFromTOC
+- _objc_msgSend$presentingViewController
+- _objc_msgSend$presentingViewControllerDidChangeLayout:
+- _objc_msgSend$preservedSelectionHighlights
+- _objc_msgSend$presetPostscriptsLookupForLanguage:
+- _objc_msgSend$presetSettingsForFontFamily:language:
+- _objc_msgSend$presetsByFileName
+- _objc_msgSend$presetsForLanguage:
+- _objc_msgSend$previewCssTemplate
+- _objc_msgSend$previousEntity
+- _objc_msgSend$previousSearchResult
+- _objc_msgSend$prewarmFontsForLanguage:
+- _objc_msgSend$prewarmThumbnailsForScrubberSize:
+- _objc_msgSend$primaryContent
+- _objc_msgSend$primaryContentContainer
+- _objc_msgSend$primaryContentController
+- _objc_msgSend$primaryContentControllerNeedsFrameAdjustment
+- _objc_msgSend$primaryImageSize
+- _objc_msgSend$primaryPageOffset
+- _objc_msgSend$primaryPageOffsetWithDefault:
+- _objc_msgSend$primaryTextColor
+- _objc_msgSend$primitiveValueForKey:
+- _objc_msgSend$proMaxPhoneLandscapeExactSizePredicate
+- _objc_msgSend$processAnchors:forEntity:startingPageNumber:
+- _objc_msgSend$processLandmarkInfoResults:
+- _objc_msgSend$processNavigationInfoResults:
+- _objc_msgSend$processPhysicalPageResults:
+- _objc_msgSend$processRequest:progressHandler:completionHandler:
+- _objc_msgSend$profileFuture
+- _objc_msgSend$progress
+- _objc_msgSend$promptForRemoteResourcesIfNecessary
+- _objc_msgSend$proofingMgr
+- _objc_msgSend$proofingVeil
+- _objc_msgSend$propertyList
+- _objc_msgSend$propertyListWithData:options:format:error:
+- _objc_msgSend$propertyProvider
+- _objc_msgSend$propertySourceFromBook:
+- _objc_msgSend$provideWebView:protocolCacheItem:paginationOptions:cleanupOptions:cfiOptions:stylesheetSet:styleManager:contentSupportMode:completion:
+- _objc_msgSend$publisherLocation
+- _objc_msgSend$publisherName
+- _objc_msgSend$publisherYear
+- _objc_msgSend$pulse
+- _objc_msgSend$purgeCacheForIdentifier:
+- _objc_msgSend$purgeCachedPages
+- _objc_msgSend$purgeFromCache:
+- _objc_msgSend$purpleTheme:
+- _objc_msgSend$pushViewController:animated:
+- _objc_msgSend$quarternaryTextColor
+- _objc_msgSend$queryForString:maxOrdinal:
+- _objc_msgSend$quit
+- _objc_msgSend$raise:format:
+- _objc_msgSend$range
+- _objc_msgSend$rangeIntersectsCFI:
+- _objc_msgSend$rangeOfCharacterFromSet:
+- _objc_msgSend$rangeOfCharacterFromSet:options:
+- _objc_msgSend$rangeOfCharacterFromSet:options:range:
+- _objc_msgSend$rangeOfString:
+- _objc_msgSend$rangeOfString:options:
+- _objc_msgSend$rangeOfString:options:range:
+- _objc_msgSend$rangeOfVisibleCells
+- _objc_msgSend$rangeValue
+- _objc_msgSend$rawPageNumberForOffset:pageFraction:
+- _objc_msgSend$readAloudEventHandler
+- _objc_msgSend$readAloudEventHandler:audioElementEnded:
+- _objc_msgSend$readAloudEventHandler:foundMediaSource:
+- _objc_msgSend$readAloudEventHandler:performedAction:turnStyle:
+- _objc_msgSend$readAloudEventHandler:tappedElementID:inHref:
+- _objc_msgSend$readAloudEventHandlerWithMediaClass:delegate:
+- _objc_msgSend$readAloudState
+- _objc_msgSend$readAloudViewControllerReady:
+- _objc_msgSend$readNextPages:
+- _objc_msgSend$readPages:from:to:waitOnEmpty:
+- _objc_msgSend$readSessionDidEnd:readTime:
+- _objc_msgSend$readableBookInfoForDatabaseKey_sync:block:
+- _objc_msgSend$readableContentGuide
+- _objc_msgSend$readingDirection
+- _objc_msgSend$readingDocumentCount
+- _objc_msgSend$readingExperienceImprovementsEnabled
+- _objc_msgSend$readingIntentWithURL:options:
+- _objc_msgSend$readingLocation
+- _objc_msgSend$readingLocationAnnotation:moc:
+- _objc_msgSend$readingLocationChanged
+- _objc_msgSend$readingLocationHighwaterMark
+- _objc_msgSend$readingModeHorizontalScrollPredicate
+- _objc_msgSend$readingModePagedPredicate
+- _objc_msgSend$readingModeVerticalScrollPredicate
+- _objc_msgSend$readingProgress
+- _objc_msgSend$readingProgressHighWaterMark
+- _objc_msgSend$readingSessionData
+- _objc_msgSend$readingSessionDataForSearchViewController:
+- _objc_msgSend$readingStatisticsCollectorWithAssetViewController:
+- _objc_msgSend$readingStatisticsEnabled
+- _objc_msgSend$rebaseCFIWithHead:
+- _objc_msgSend$rebuildHoverRegions
+- _objc_msgSend$rebuildRegionWithKey:block:
+- _objc_msgSend$recenteredIndexPath
+- _objc_msgSend$recomputeFixedLayoutDimensionsForBook:
+- _objc_msgSend$record
+- _objc_msgSend$recordAnnotationPageNumbers:
+- _objc_msgSend$recordDocumentPageCountForDocumentInfos:context:
+- _objc_msgSend$recordJumpFromCurrentLocation
+- _objc_msgSend$recordedJumpToLocation:animated:completion:
+- _objc_msgSend$recordedTurnToBeginningOfChapter
+- _objc_msgSend$recordedTurnToEndOfChapter
+- _objc_msgSend$recordedTurnToNextChapter
+- _objc_msgSend$recordedTurnToPreviousChapter
+- _objc_msgSend$recreatePersistentStoreDirectory
+- _objc_msgSend$rect
+- _objc_msgSend$rectForAnnotation:visible:
+- _objc_msgSend$rectForAnnotation:visible:withCompletion:
+- _objc_msgSend$rectForAnnotation:withCompletion:
+- _objc_msgSend$rectForCellAtIndex:
+- _objc_msgSend$rectForLocation:
+- _objc_msgSend$rectForLocation:adjustedForContentOffset:
+- _objc_msgSend$rectForLocation:completion:
+- _objc_msgSend$rectForPageOffset:
+- _objc_msgSend$rectForPresentedMenuForTextInteraction
+- _objc_msgSend$rectValue
+- _objc_msgSend$rectsFromArray:isVerticalDocument:
+- _objc_msgSend$redColor
+- _objc_msgSend$redactedString
+- _objc_msgSend$referenceLibraryViewController
+- _objc_msgSend$refreshAdornmentsContent
+- _objc_msgSend$refreshObject:mergeChanges:
+- _objc_msgSend$regionWithRect:identifier:
+- _objc_msgSend$registerAEPersistencePlugins
+- _objc_msgSend$registerClass:forCellReuseIdentifier:
+- _objc_msgSend$registerDataRepresentationForTypeIdentifier:visibility:loadHandler:
+- _objc_msgSend$registerDefaults:
+- _objc_msgSend$registerForTraitChanges:withAction:
+- _objc_msgSend$registerForVisibleCFIUpdates
+- _objc_msgSend$registerScriptMessageHandlersWithUserContentController:
+- _objc_msgSend$registerTheme:
+- _objc_msgSend$registeredTypeIdentifiers
+- _objc_msgSend$regularExpressionWithPattern:options:error:
+- _objc_msgSend$regularHeightPredicate
+- _objc_msgSend$regularWidthPredicate
+- _objc_msgSend$relativePath
+- _objc_msgSend$releaseAuxiliaryCachedViews
+- _objc_msgSend$releasePaginationInfo
+- _objc_msgSend$releaseViews
+- _objc_msgSend$reload
+- _objc_msgSend$reloadCellAtIndex:
+- _objc_msgSend$reloadCurrentStyle
+- _objc_msgSend$reloadData
+- _objc_msgSend$reloadExternalWebFrames
+- _objc_msgSend$reloadInputViewsWithoutReset
+- _objc_msgSend$reloadNoteStickiesForContent:
+- _objc_msgSend$reloadPDFDocument
+- _objc_msgSend$reloadPDFDocumentCompletion:
+- _objc_msgSend$reloadRowsAtIndexPaths:withRowAnimation:
+- _objc_msgSend$reloadView
+- _objc_msgSend$reloadViewDidBeginReloading:
+- _objc_msgSend$remainingPages
+- _objc_msgSend$removeAllAnimations
+- _objc_msgSend$removeAllObjects
+- _objc_msgSend$removeAllTimeObservers
+- _objc_msgSend$removeAnimationForKey:
+- _objc_msgSend$removeAttribute:range:
+- _objc_msgSend$removeAudioMuxingObserver:
+- _objc_msgSend$removeCacheObjectForURL:
+- _objc_msgSend$removeChapters:
+- _objc_msgSend$removeConstraints:
+- _objc_msgSend$removeDelegate:
+- _objc_msgSend$removeDummyHighlight
+- _objc_msgSend$removeExperienceOfType:
+- _objc_msgSend$removeFromParentViewController
+- _objc_msgSend$removeFromRunLoop:forMode:
+- _objc_msgSend$removeFromSuperlayer
+- _objc_msgSend$removeFromSuperview
+- _objc_msgSend$removeGestureRecognizer:
+- _objc_msgSend$removeHighlightForAnnotation:
+- _objc_msgSend$removeHighlightForData:
+- _objc_msgSend$removeHighlightForElementID:
+- _objc_msgSend$removeHighlightView:
+- _objc_msgSend$removeInteraction:
+- _objc_msgSend$removeItemAtPath:error:
+- _objc_msgSend$removeLandmarks:
+- _objc_msgSend$removeLastObject
+- _objc_msgSend$removeMarkupForReadAloudToDocument
+- _objc_msgSend$removeMenuForIdentifier:
+- _objc_msgSend$removeNoteStickies
+- _objc_msgSend$removeNoteStickiesForContent:
+- _objc_msgSend$removeObject:
+- _objc_msgSend$removeObjectAtIndex:
+- _objc_msgSend$removeObjectForKey:
+- _objc_msgSend$removeObjectsForKeys:
+- _objc_msgSend$removeObserver:
+- _objc_msgSend$removeObserver:forKeyPath:
+- _objc_msgSend$removeObserver:forKeyPath:context:
+- _objc_msgSend$removeObserver:fromObjectsAtIndexes:forKeyPath:
+- _objc_msgSend$removeObserver:name:object:
+- _objc_msgSend$removePageLabelsForContent:
+- _objc_msgSend$removePendingContent:
+- _objc_msgSend$removePhysicalPages:
+- _objc_msgSend$removeReadAloudClickHandlersOnMediaOverlayElements:
+- _objc_msgSend$removeScriptMessageHandlerForName:
+- _objc_msgSend$removeSinfInfo:
+- _objc_msgSend$removeSubview:atIndex:
+- _objc_msgSend$removeTapHandlersOnElementIDs:
+- _objc_msgSend$removeTarget:action:
+- _objc_msgSend$removeTarget:action:forControlEvents:
+- _objc_msgSend$removeTextIndexWithName:
+- _objc_msgSend$removed
+- _objc_msgSend$renderCacheWithOptions:
+- _objc_msgSend$renderInContext:
+- _objc_msgSend$renderingCacheCallbackImage:context:
+- _objc_msgSend$renderingCacheCallbackInvocationWithImage:pageNumber:
+- _objc_msgSend$renderingCacheOperationCompleted:textNodeCharacterCounts:cfisForHrefs:
+- _objc_msgSend$renderingCacheOperationsForSize:
+- _objc_msgSend$renderingPiggyBack
+- _objc_msgSend$renderingPiggyBackForPageNumber:asset:priority:
+- _objc_msgSend$repaginateWithStyle:geometry:
+- _objc_msgSend$repaginateWithStyle:geometry:force:
+- _objc_msgSend$replaceCharactersInRange:withString:
+- _objc_msgSend$replaceChildrenOfMenuForIdentifier:fromChildrenBlock:
+- _objc_msgSend$replaceFileAndUpdateMetadata:metadata:error:fileWritingBlock:
+- _objc_msgSend$replaceObjectAtIndex:withObject:
+- _objc_msgSend$replaceObjectsInRange:withObjectsFromArray:range:
+- _objc_msgSend$reportedLocation
+- _objc_msgSend$request
+- _objc_msgSend$requestClose:
+- _objc_msgSend$requestID
+- _objc_msgSend$requestQueue
+- _objc_msgSend$requestToIndexPath
+- _objc_msgSend$requestWithURL:
+- _objc_msgSend$requester
+- _objc_msgSend$requireGestureRecognizerToFail:
+- _objc_msgSend$requiresMainThread
+- _objc_msgSend$reset
+- _objc_msgSend$resetAsNewlyDownloaded
+- _objc_msgSend$resetBookForURL:
+- _objc_msgSend$resetButtonState
+- _objc_msgSend$resetContentFrames
+- _objc_msgSend$resetCover:
+- _objc_msgSend$resetImages
+- _objc_msgSend$resetItunesMetadata
+- _objc_msgSend$resetPDFDocument
+- _objc_msgSend$resetPersistentCache
+- _objc_msgSend$resetPrioritiesForPageNumber:
+- _objc_msgSend$resetZoomScale
+- _objc_msgSend$resetZoomScaleForScrollView:
+- _objc_msgSend$resignFirstResponder
+- _objc_msgSend$resizableSnapshotViewFromRect:afterScreenUpdates:withCapInsets:
+- _objc_msgSend$resizeAnimationInProgress
+- _objc_msgSend$resizeImage:toSize:callback:
+- _objc_msgSend$resizeRequestPending
+- _objc_msgSend$resource
+- _objc_msgSend$resourceForURL:
+- _objc_msgSend$respectImageSizeClass
+- _objc_msgSend$respectImageSizeClassIsPrefix
+- _objc_msgSend$restoreColorSettingsForRequester:
+- _objc_msgSend$restoreSavedLocation
+- _objc_msgSend$restoreStashedHighlights
+- _objc_msgSend$restyleIfNeeded
+- _objc_msgSend$resultLabel
+- _objc_msgSend$results
+- _objc_msgSend$resultsQueue
+- _objc_msgSend$resume
+- _objc_msgSend$resume:
+- _objc_msgSend$resumeLocation
+- _objc_msgSend$resumeReadAloud
+- _objc_msgSend$resumeReadAloudForContentViewController:
+- _objc_msgSend$retrieveAndClearSelectionRectValue
+- _objc_msgSend$reuseIdentifier
+- _objc_msgSend$reuseIdentifierForCellType:
+- _objc_msgSend$revealSearchResult:
+- _objc_msgSend$revealSearchResult:animated:
+- _objc_msgSend$reverseObjectEnumerator
+- _objc_msgSend$rewind
+- _objc_msgSend$ribbonFrameForBounds:size:pageLabelFrame:
+- _objc_msgSend$ribbonImageView
+- _objc_msgSend$ribbonPageLabelPadding
+- _objc_msgSend$ribbonSize
+- _objc_msgSend$rightAnchor
+- _objc_msgSend$rightCalloutPageNumber
+- _objc_msgSend$rightContentContainerFrameForTwoUp
+- _objc_msgSend$rightContentView
+- _objc_msgSend$rightInset
+- _objc_msgSend$rightPageIndex
+- _objc_msgSend$rightPageNumberAtIndex:
+- _objc_msgSend$rightPageNumberForSinglePageOffset:
+- _objc_msgSend$rightPageNumberForSpreadPageOffset:
+- _objc_msgSend$rightPageView
+- _objc_msgSend$rightSeparatorInset
+- _objc_msgSend$rightSourceView
+- _objc_msgSend$rotation
+- _objc_msgSend$rotationStorage
+- _objc_msgSend$row
+- _objc_msgSend$run:
+- _objc_msgSend$runTestWithParameters:
+- _objc_msgSend$safeAreaInsets
+- _objc_msgSend$safeAreaInsetsAdjustingForNotch:
+- _objc_msgSend$safeAreaLayoutGuide
+- _objc_msgSend$safeToShowToolbarItems
+- _objc_msgSend$sampleContent
+- _objc_msgSend$savableLocation
+- _objc_msgSend$savableLocationForLocation:
+- _objc_msgSend$save
+- _objc_msgSend$save:
+- _objc_msgSend$saveAnnotationsManagedObjectContext
+- _objc_msgSend$saveBook
+- _objc_msgSend$saveLocationForStyleChange
+- _objc_msgSend$saveManagedObjectContext:
+- _objc_msgSend$savePageControlVisibilityDelay
+- _objc_msgSend$saveReadingLocation:
+- _objc_msgSend$saveStateClosing:
+- _objc_msgSend$saveStateClosing:suspending:
+- _objc_msgSend$savedLocationIsEndOfBook
+- _objc_msgSend$scale
+- _objc_msgSend$scaleAdjustedImageSize:
+- _objc_msgSend$scaleFactor
+- _objc_msgSend$scaleForSize:
+- _objc_msgSend$scaleForSpread:landscape:
+- _objc_msgSend$scaleImage:toSize:options:
+- _objc_msgSend$scalePDFContent:locationInView:animated:
+- _objc_msgSend$scaleToRestoreAfterRotation
+- _objc_msgSend$scaledFontForFont:
+- _objc_msgSend$scanCharactersFromSet:intoString:
+- _objc_msgSend$scanLocation
+- _objc_msgSend$scanLongLong:
+- _objc_msgSend$scanString:intoString:
+- _objc_msgSend$scanUpToCharactersFromSet:intoString:
+- _objc_msgSend$scanUpToString:intoString:
+- _objc_msgSend$scannerWithString:
+- _objc_msgSend$scheduleFadeFSViewAfterDelay:
+- _objc_msgSend$scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:
+- _objc_msgSend$screen
+- _objc_msgSend$scriptsDidCompleteForLoader:context:
+- _objc_msgSend$scroll
+- _objc_msgSend$scrollDirection
+- _objc_msgSend$scrollDirectionFromPlistEntry:
+- _objc_msgSend$scrollLayoutForBook:
+- _objc_msgSend$scrollModeMustDie
+- _objc_msgSend$scrollModeOrientation
+- _objc_msgSend$scrollPageLength
+- _objc_msgSend$scrollPosition
+- _objc_msgSend$scrollSwitch
+- _objc_msgSend$scrollSwitchEnabled
+- _objc_msgSend$scrollToCellAtIndex:animated:
+- _objc_msgSend$scrollToEnd
+- _objc_msgSend$scrollToItemId:completionBlock:
+- _objc_msgSend$scrollToLocation:
+- _objc_msgSend$scrollToPage:
+- _objc_msgSend$scrollToPage:paginationMode:pageProgressionDirection:configuration:
+- _objc_msgSend$scrollToPageNumber:animate:
+- _objc_msgSend$scrollToRowAtIndexPath:atScrollPosition:animated:
+- _objc_msgSend$scrollView
+- _objc_msgSend$scrollViewDidScroll:
+- _objc_msgSend$scrollerScrubberHeight
+- _objc_msgSend$scrollingElementSizeScript
+- _objc_msgSend$scrollingPageHeight
+- _objc_msgSend$scrollingPageWidth
+- _objc_msgSend$scrollingPageWidthForPaginationMode:configuration:
+- _objc_msgSend$scrollingRowHeight
+- _objc_msgSend$scrub:isScrubbing:
+- _objc_msgSend$scrubber
+- _objc_msgSend$scrubberBarButtonItem
+- _objc_msgSend$scrubberCallout
+- _objc_msgSend$scrubberCalloutFollowsScrollerThumb
+- _objc_msgSend$scrubberCalloutWidth
+- _objc_msgSend$scrubberContainerView
+- _objc_msgSend$scrubberContainerViewFrame
+- _objc_msgSend$scrubberFrame
+- _objc_msgSend$scrubberHeight
+- _objc_msgSend$scrubberLeftRightInset
+- _objc_msgSend$scrubberStyle
+- _objc_msgSend$scrubberVerticalInset
+- _objc_msgSend$scrubberWidth
+- _objc_msgSend$searchBook
+- _objc_msgSend$searchButtonItem
+- _objc_msgSend$searchConfiguration
+- _objc_msgSend$searchController
+- _objc_msgSend$searchControllerDidFinishSearching:
+- _objc_msgSend$searchControllerFinishedSearchingChapter:
+- _objc_msgSend$searchControllerResultsChanged:
+- _objc_msgSend$searchControllerWillBeginSearching:reportAnalytics:
+- _objc_msgSend$searchDelegate
+- _objc_msgSend$searchDidFinish:
+- _objc_msgSend$searchDidTimeOut:
+- _objc_msgSend$searchEncyclopediaForString:
+- _objc_msgSend$searchField
+- _objc_msgSend$searchHasPartialResults:
+- _objc_msgSend$searchLimitHit:
+- _objc_msgSend$searchLocation
+- _objc_msgSend$searchModuleWithSearchString:
+- _objc_msgSend$searchResult
+- _objc_msgSend$searchString
+- _objc_msgSend$searchStringIsPageNumber
+- _objc_msgSend$searchStringLengthLimit
+- _objc_msgSend$searchStringRange
+- _objc_msgSend$searchViewController
+- _objc_msgSend$searchViewController:chapterNameForSearchResult:pageNumber:
+- _objc_msgSend$searchViewController:didTransitionToSize:
+- _objc_msgSend$searchViewController:pageNumberForDocumentOrdinal:
+- _objc_msgSend$searchViewController:revealSearchResult:animated:
+- _objc_msgSend$searchViewController:turnToLocation:animated:
+- _objc_msgSend$searchViewController:turnToPageNumber:animated:
+- _objc_msgSend$searchViewController:willTransitionToSize:
+- _objc_msgSend$searchViewControllerIfLoaded
+- _objc_msgSend$searchWasCancelled:
+- _objc_msgSend$searchWasCompleted
+- _objc_msgSend$searchWeb:
+- _objc_msgSend$searchWebForString:
+- _objc_msgSend$searchWikipedia:
+- _objc_msgSend$secondaryBackgroundColor
+- _objc_msgSend$secondaryContent
+- _objc_msgSend$secondaryContentContainer
+- _objc_msgSend$secondaryContentController
+- _objc_msgSend$secondaryContentControllerNeedsFrameAdjustment
+- _objc_msgSend$secondaryGroupedBackgroundColor
+- _objc_msgSend$secondaryLabelColor
+- _objc_msgSend$secondaryPageOffset
+- _objc_msgSend$secondaryPageOffsetWithDefault:
+- _objc_msgSend$secondarySystemBackgroundColor
+- _objc_msgSend$secondarySystemGroupedBackgroundColor
+- _objc_msgSend$secondaryTextColor
+- _objc_msgSend$section
+- _objc_msgSend$sections
+- _objc_msgSend$segmentCount
+- _objc_msgSend$segmentIndexForDirectoryType:
+- _objc_msgSend$segmentIndexForPage:
+- _objc_msgSend$segmentIndexToDirectoryType
+- _objc_msgSend$segmentSize
+- _objc_msgSend$segmentStrokeColor
+- _objc_msgSend$selectAll:
+- _objc_msgSend$selectAnnotation:
+- _objc_msgSend$selectLocation:completion:
+- _objc_msgSend$selectNone:
+- _objc_msgSend$selectRowAtIndexPath:animated:scrollPosition:
+- _objc_msgSend$selectTextWithGranularity:atPoint:completionHandler:
+- _objc_msgSend$selectedAnnotation
+- _objc_msgSend$selectedBackgroundView
+- _objc_msgSend$selectedCacheKey
+- _objc_msgSend$selectedColor
+- _objc_msgSend$selectedIndex
+- _objc_msgSend$selectedSegmentIndex
+- _objc_msgSend$selectedText
+- _objc_msgSend$selectedTextForAccessibility
+- _objc_msgSend$selectedViewController
+- _objc_msgSend$selection
+- _objc_msgSend$selectionHighlightType
+- _objc_msgSend$selectionRects
+- _objc_msgSend$selectionStyle
+- _objc_msgSend$selectionView
+- _objc_msgSend$selectorForTarget:
+- _objc_msgSend$semanticContentAttribute
+- _objc_msgSend$semanticLayoutChanged
+- _objc_msgSend$semanticLayoutOverlayViewController
+- _objc_msgSend$semanticSideInset
+- _objc_msgSend$sendActionsForControlEvents:
+- _objc_msgSend$sendError:toCompletion:
+- _objc_msgSend$sendReaderEventNewSectionViaToC
+- _objc_msgSend$sendSubviewToBack:
+- _objc_msgSend$sendViewControllerForBook:toCompletion:
+- _objc_msgSend$separatorColor
+- _objc_msgSend$separatorInsets
+- _objc_msgSend$separatorInsetsForContentViewController:
+- _objc_msgSend$serialData
+- _objc_msgSend$serialString
+- _objc_msgSend$serializeFormat
+- _objc_msgSend$serializeLocationToData
+- _objc_msgSend$serializeLocationToDictionary
+- _objc_msgSend$seriesTitleForAssetID:
+- _objc_msgSend$sessionID
+- _objc_msgSend$set
+- _objc_msgSend$setARModelDataURL:
+- _objc_msgSend$setAborted:
+- _objc_msgSend$setAbsoluteOrder:
+- _objc_msgSend$setAccessibilityContainerType:
+- _objc_msgSend$setAccessibilityElementsHidden:
+- _objc_msgSend$setAccessibilityHint:
+- _objc_msgSend$setAccessibilityIdentifier:
+- _objc_msgSend$setAccessibilityIgnoresInvertColors:
+- _objc_msgSend$setAccessibilityLabel:
+- _objc_msgSend$setAccessibilityTraits:
+- _objc_msgSend$setAccessibilityValue:
+- _objc_msgSend$setAccessoryType:
+- _objc_msgSend$setAccessoryView:
+- _objc_msgSend$setAction:
+- _objc_msgSend$setActionInfoViewHidden:
+- _objc_msgSend$setActions:
+- _objc_msgSend$setActive:
+- _objc_msgSend$setActive:error:
+- _objc_msgSend$setActiveInteractionTypes:
+- _objc_msgSend$setActivityIndicator:
+- _objc_msgSend$setActivityIndicatorVisible:animated:afterDelay:
+- _objc_msgSend$setActivityItemsConfiguration:
+- _objc_msgSend$setActivityViewController:
+- _objc_msgSend$setAddingHighlights:
+- _objc_msgSend$setAddsGutterOnPageTurn:
+- _objc_msgSend$setAdjustsFontSizeToFitWidth:
+- _objc_msgSend$setAe_annotation:
+- _objc_msgSend$setAe_button:
+- _objc_msgSend$setAe_stickies:
+- _objc_msgSend$setAkAnnotationEditingEnabled:
+- _objc_msgSend$setAkToolbarViewItemTintColor:
+- _objc_msgSend$setAkToolbarViewTintColor:
+- _objc_msgSend$setAlignment:
+- _objc_msgSend$setAllFrameStylesheets:
+- _objc_msgSend$setAllNavigationInfosByOrdinal:
+- _objc_msgSend$setAllowDoubleTapToZoom:
+- _objc_msgSend$setAllowedScrollTypesMask:
+- _objc_msgSend$setAllowedTouchTypes:
+- _objc_msgSend$setAllowedUnits:
+- _objc_msgSend$setAllowsAutomaticMirroring:
+- _objc_msgSend$setAllowsGroupBlending:
+- _objc_msgSend$setAllowsGroupOpacity:
+- _objc_msgSend$setAllowsHandlingNonAuthenticationDialogs:
+- _objc_msgSend$setAllowsMultipleSelectionDuringEditing:
+- _objc_msgSend$setAllowsRemoteInspection:
+- _objc_msgSend$setAlpha:
+- _objc_msgSend$setAlreadyRevealed:
+- _objc_msgSend$setAlwaysBounceHorizontal:
+- _objc_msgSend$setAlwaysBounceVertical:
+- _objc_msgSend$setAnalysis:
+- _objc_msgSend$setAnalysisButtonRequiresVisibleContentGating:
+- _objc_msgSend$setAnalysisInteraction:
+- _objc_msgSend$setAnalyticsReadStartDate:
+- _objc_msgSend$setAnalyticsReadStartProgress:
+- _objc_msgSend$setAncestorViewController:
+- _objc_msgSend$setAnchorFrames:
+- _objc_msgSend$setAnchorLocations:
+- _objc_msgSend$setAnimating:
+- _objc_msgSend$setAnimationsEnabled:
+- _objc_msgSend$setAnnotation:
+- _objc_msgSend$setAnnotationAssetID:
+- _objc_msgSend$setAnnotationBlendMode:
+- _objc_msgSend$setAnnotationCFIStrings:
+- _objc_msgSend$setAnnotationChangeRequiresPaginationUpdate:
+- _objc_msgSend$setAnnotationCountResults:
+- _objc_msgSend$setAnnotationCounter:
+- _objc_msgSend$setAnnotationCreationDate:
+- _objc_msgSend$setAnnotationCreatorIdentifier:
+- _objc_msgSend$setAnnotationDataProvider:
+- _objc_msgSend$setAnnotationDeleted:
+- _objc_msgSend$setAnnotationIsUnderline:
+- _objc_msgSend$setAnnotationLocation:
+- _objc_msgSend$setAnnotationNote:
+- _objc_msgSend$setAnnotationRectUnionCache:
+- _objc_msgSend$setAnnotationRects:
+- _objc_msgSend$setAnnotationRectsCache:
+- _objc_msgSend$setAnnotationRectsData:
+- _objc_msgSend$setAnnotationRepresentativeText:
+- _objc_msgSend$setAnnotationSelectedText:
+- _objc_msgSend$setAnnotationStyle:
+- _objc_msgSend$setAnnotationTheme:
+- _objc_msgSend$setAnnotationType:
+- _objc_msgSend$setAnnotationUuid:
+- _objc_msgSend$setAnnotationVersion:
+- _objc_msgSend$setAnnotationsToUpgrade:
+- _objc_msgSend$setAppearanceStyle:
+- _objc_msgSend$setAppleDisplayOptions:
+- _objc_msgSend$setAppleDisplayOptionsFromParser:
+- _objc_msgSend$setApplyMaskAndGutter:
+- _objc_msgSend$setArtworkTemplateFromPlist:
+- _objc_msgSend$setAspectRatioFromPDF:
+- _objc_msgSend$setAsset:
+- _objc_msgSend$setAssetEditingEnabled:
+- _objc_msgSend$setAssetEditingRequested:
+- _objc_msgSend$setAssetID:
+- _objc_msgSend$setAssetId:
+- _objc_msgSend$setAssetLogID:
+- _objc_msgSend$setAssetSharingConnectionClient:
+- _objc_msgSend$setAssetURL:
+- _objc_msgSend$setAssetViewController:
+- _objc_msgSend$setAttributedText:
+- _objc_msgSend$setAttributes:
+- _objc_msgSend$setAudioController:
+- _objc_msgSend$setAudioEnd:
+- _objc_msgSend$setAudioHref:
+- _objc_msgSend$setAudioStart:
+- _objc_msgSend$setAuthenticationProvider:
+- _objc_msgSend$setAutoCurl:
+- _objc_msgSend$setAutoHyphenate:
+- _objc_msgSend$setAutoHyphenation:
+- _objc_msgSend$setAutoNightModeEnabled:
+- _objc_msgSend$setAutoScales:
+- _objc_msgSend$setAutomaticallyShowVisualSearchResults:
+- _objc_msgSend$setAutoresizingMask:
+- _objc_msgSend$setAvoidSync
+- _objc_msgSend$setAxis:
+- _objc_msgSend$setBackColor:
+- _objc_msgSend$setBackNavEnabled:
+- _objc_msgSend$setBackPage:
+- _objc_msgSend$setBackPages:
+- _objc_msgSend$setBackgroundColor:
+- _objc_msgSend$setBackgroundFillColor:
+- _objc_msgSend$setBackgroundFillHighlightColor:
+- _objc_msgSend$setBackgroundImage:forBarMetrics:
+- _objc_msgSend$setBackgroundImageView:
+- _objc_msgSend$setBarButtonItem:
+- _objc_msgSend$setBarStyle:
+- _objc_msgSend$setBarTintColor:
+- _objc_msgSend$setBaseBackgroundColor:
+- _objc_msgSend$setBaseForegroundColor:
+- _objc_msgSend$setBaseHref:
+- _objc_msgSend$setBaseURL:
+- _objc_msgSend$setBaselineAdjustment:
+- _objc_msgSend$setBcTracker:
+- _objc_msgSend$setBc_fakeSourceView:
+- _objc_msgSend$setBc_realSourceBarButtonItem:
+- _objc_msgSend$setBe_estimatedContentSizeValue:
+- _objc_msgSend$setBe_gestureDelay:
+- _objc_msgSend$setBe_gutterLength:
+- _objc_msgSend$setBe_overrideAutoScale:
+- _objc_msgSend$setBe_textInteractionAssistantDelegate:
+- _objc_msgSend$setBe_textInteractionDelegate:
+- _objc_msgSend$setBe_useOverrideAutoScale:
+- _objc_msgSend$setBkAccessibilityAnnouncementString:
+- _objc_msgSend$setBkAccessibilityDelegate:
+- _objc_msgSend$setBkPageProgressionDirection:
+- _objc_msgSend$setBkaxAccessibilityUserIsRequestingControlsVisibilityToggle:
+- _objc_msgSend$setBkaxIsExcludedFromSample:
+- _objc_msgSend$setBoldColor:
+- _objc_msgSend$setBoldRange:
+- _objc_msgSend$setBook:
+- _objc_msgSend$setBookAuthor:
+- _objc_msgSend$setBookBundlePath:
+- _objc_msgSend$setBookContentSubpath:
+- _objc_msgSend$setBookDatabaseKey:
+- _objc_msgSend$setBookEpubId:
+- _objc_msgSend$setBookEpubIdWithUUIDScheme:
+- _objc_msgSend$setBookID:
+- _objc_msgSend$setBookInfo:
+- _objc_msgSend$setBookInfoSnapshot:
+- _objc_msgSend$setBookLanguage:
+- _objc_msgSend$setBookLoadingMonitor:
+- _objc_msgSend$setBookPositionProcessor:
+- _objc_msgSend$setBookSharingConnectionActive:
+- _objc_msgSend$setBookSnapshot:
+- _objc_msgSend$setBookTitle:
+- _objc_msgSend$setBookURL:
+- _objc_msgSend$setBookUniqueId:
+- _objc_msgSend$setBookmarkPageCounts:
+- _objc_msgSend$setBookmarked:
+- _objc_msgSend$setBookmarkedPages:
+- _objc_msgSend$setBookmarks:
+- _objc_msgSend$setBool:forKey:
+- _objc_msgSend$setBorderColor:
+- _objc_msgSend$setBorderWidth:
+- _objc_msgSend$setBounces:
+- _objc_msgSend$setBouncesZoom:
+- _objc_msgSend$setBounds:
+- _objc_msgSend$setBrightness:
+- _objc_msgSend$setBrightnessController:
+- _objc_msgSend$setButtonFont:
+- _objc_msgSend$setBuyDelegate:
+- _objc_msgSend$setBuyStateBackgroundFillColor:
+- _objc_msgSend$setBuyStateFrameColor:
+- _objc_msgSend$setBuyStateTextColor:
+- _objc_msgSend$setBypassRepagination:
+- _objc_msgSend$setCacheItem:
+- _objc_msgSend$setCacheKey:
+- _objc_msgSend$setCachedContentData:
+- _objc_msgSend$setCachedRowContents:
+- _objc_msgSend$setCallout:
+- _objc_msgSend$setCanMakeAccountActive:
+- _objc_msgSend$setCanOverlapSourceViewRect:
+- _objc_msgSend$setCanUseFilters:
+- _objc_msgSend$setCancelsTouchesInView:
+- _objc_msgSend$setCaptureLastRecordedLocation:
+- _objc_msgSend$setCategory:
+- _objc_msgSend$setCategory:error:
+- _objc_msgSend$setCellAspectRatio:
+- _objc_msgSend$setCellClass:
+- _objc_msgSend$setCellLayoutMarginsFollowReadableWidth:
+- _objc_msgSend$setCellLoadingOperationCount:
+- _objc_msgSend$setCellSize:
+- _objc_msgSend$setCellWidth:
+- _objc_msgSend$setCenter:
+- _objc_msgSend$setCenteringInsets:
+- _objc_msgSend$setCfi:
+- _objc_msgSend$setCfiLocationPageOffsets:
+- _objc_msgSend$setCfiLocationRects:
+- _objc_msgSend$setCfisForHrefs:
+- _objc_msgSend$setChapterIndex:
+- _objc_msgSend$setChapterSubLevelFont:
+- _objc_msgSend$setChapterTitle:
+- _objc_msgSend$setChapterTopLevelFont:
+- _objc_msgSend$setCharactersToBeSkipped:
+- _objc_msgSend$setCitationsAllowed:
+- _objc_msgSend$setClearsContextBeforeDrawing:
+- _objc_msgSend$setClientInfo:
+- _objc_msgSend$setClientManifest:
+- _objc_msgSend$setClipsToBounds:
+- _objc_msgSend$setClipsToBoundsAndUpdateClipping:
+- _objc_msgSend$setCoalescedRefreshAdornmentsForContent:
+- _objc_msgSend$setCoalescingDelay:
+- _objc_msgSend$setColor:
+- _objc_msgSend$setColors:
+- _objc_msgSend$setCompletionBlock:
+- _objc_msgSend$setCompletionHandler:
+- _objc_msgSend$setCompositingFilter:
+- _objc_msgSend$setCompressionAlgorithm:
+- _objc_msgSend$setConditional:
+- _objc_msgSend$setConfidence:
+- _objc_msgSend$setConfiguration:
+- _objc_msgSend$setConfigureRequest:
+- _objc_msgSend$setConstant:
+- _objc_msgSend$setContainer:
+- _objc_msgSend$setContentBasedOverlayRefreshScheduled:
+- _objc_msgSend$setContentCompressionResistancePriority:forAxis:
+- _objc_msgSend$setContentConfiguration:
+- _objc_msgSend$setContentEdgeInsets:
+- _objc_msgSend$setContentHorizontalAlignment:
+- _objc_msgSend$setContentInfo:
+- _objc_msgSend$setContentInset:
+- _objc_msgSend$setContentInsetAdjustmentBehavior:
+- _objc_msgSend$setContentInsets:
+- _objc_msgSend$setContentLayoutSize:
+- _objc_msgSend$setContentLoadPending:
+- _objc_msgSend$setContentLoaded:
+- _objc_msgSend$setContentMode:
+- _objc_msgSend$setContentOffset:
+- _objc_msgSend$setContentOffset:animated:
+- _objc_msgSend$setContentOpenAnimator:
+- _objc_msgSend$setContentProcessDidTerminate:
+- _objc_msgSend$setContentScale:
+- _objc_msgSend$setContentSize:
+- _objc_msgSend$setContentStyle:configuration:
+- _objc_msgSend$setContentToViewTopAnchorConstraint:
+- _objc_msgSend$setContentType:
+- _objc_msgSend$setContentVerticalAlignment:
+- _objc_msgSend$setContentViewImageCache:
+- _objc_msgSend$setContents:
+- _objc_msgSend$setContext:
+- _objc_msgSend$setContinueDownloading:
+- _objc_msgSend$setControl:
+- _objc_msgSend$setController:
+- _objc_msgSend$setControlsTapRecognizer:
+- _objc_msgSend$setControlsVisible:
+- _objc_msgSend$setControlsVisible:animated:
+- _objc_msgSend$setControlsVisible:animated:animations:completion:
+- _objc_msgSend$setControlsVisible:animated:completion:
+- _objc_msgSend$setCornerCurve:
+- _objc_msgSend$setCornerRadius:
+- _objc_msgSend$setCornerStyle:
+- _objc_msgSend$setCoverImage:
+- _objc_msgSend$setCoverImage:isUndesirable:
+- _objc_msgSend$setCoverNeedsUpdate:
+- _objc_msgSend$setCoverWritingModeFromPlist:
+- _objc_msgSend$setCoverWritingModeString:
+- _objc_msgSend$setCreatesCompositingGroup:
+- _objc_msgSend$setCreatingSnapshot:
+- _objc_msgSend$setCurlContainer:
+- _objc_msgSend$setCurlPages:
+- _objc_msgSend$setCurlThreshold:
+- _objc_msgSend$setCurrentFirstVisbleCFILocation:
+- _objc_msgSend$setCurrentHighlightSearchSelection:
+- _objc_msgSend$setCurrentInfoRequest:
+- _objc_msgSend$setCurrentLastVisbleCFILocation:
+- _objc_msgSend$setCurrentLineRect:
+- _objc_msgSend$setCurrentOutline:
+- _objc_msgSend$setCurrentOverlayViewController:
+- _objc_msgSend$setCurrentPageIndex:
+- _objc_msgSend$setCurrentScale:
+- _objc_msgSend$setCurrentSelection:animate:
+- _objc_msgSend$setCurrentSelectionCFI:
+- _objc_msgSend$setCurrentSelectionContainsAnchor:
+- _objc_msgSend$setCurrentSymbolName:
+- _objc_msgSend$setCurrentTextSelection:
+- _objc_msgSend$setCurrentTime:
+- _objc_msgSend$setCurrentVisbleCFILocation:
+- _objc_msgSend$setCurrentlyDownloading:
+- _objc_msgSend$setCursor:
+- _objc_msgSend$setCursorInsets:
+- _objc_msgSend$setDamping:
+- _objc_msgSend$setDataSource:
+- _objc_msgSend$setDatabaseKey:
+- _objc_msgSend$setDateLastOpened:
+- _objc_msgSend$setDateStyle:
+- _objc_msgSend$setDcTermsContributor:
+- _objc_msgSend$setDcTermsModified:
+- _objc_msgSend$setDecelerationRate:
+- _objc_msgSend$setDefaultFontSize
+- _objc_msgSend$setDefaultFrameAndPositionWebView
+- _objc_msgSend$setDefaultMarkupTool
+- _objc_msgSend$setDelay:
+- _objc_msgSend$setDelegate:
+- _objc_msgSend$setDesiredContentSize:
+- _objc_msgSend$setDesiredSize:
+- _objc_msgSend$setDesiredWebViewFrame:
+- _objc_msgSend$setDeterminedOriginalFont:
+- _objc_msgSend$setDeveloperExtrasEnabled:
+- _objc_msgSend$setDidComputeMailingAllowed:
+- _objc_msgSend$setDidComputePrintingAllowed:
+- _objc_msgSend$setDidFinishLoading:
+- _objc_msgSend$setDidFinishRendering:
+- _objc_msgSend$setDifferentString:forKey:
+- _objc_msgSend$setDirection:
+- _objc_msgSend$setDirectionalLockEnabled:
+- _objc_msgSend$setDirectoryDelegate:
+- _objc_msgSend$setDirectoryType:
+- _objc_msgSend$setDisableContentSpreadPages:
+- _objc_msgSend$setDisabledBackgroundFillColor:
+- _objc_msgSend$setDisabledTextColor:
+- _objc_msgSend$setDisappearing:
+- _objc_msgSend$setDismissCompletionHandler:
+- _objc_msgSend$setDispatchSemaphore:
+- _objc_msgSend$setDisplayDirection:
+- _objc_msgSend$setDisplayLink:
+- _objc_msgSend$setDisplayMode:
+- _objc_msgSend$setDisplayName:
+- _objc_msgSend$setDisplaysBookmarksForPages:
+- _objc_msgSend$setDisplaysRTL:
+- _objc_msgSend$setDistribution:
+- _objc_msgSend$setDividerColor:
+- _objc_msgSend$setDividerHidden:
+- _objc_msgSend$setDoNotDisturbStatusAtStart:
+- _objc_msgSend$setDocument:
+- _objc_msgSend$setDocumentAbsoluteOrder:
+- _objc_msgSend$setDocumentHref:
+- _objc_msgSend$setDocumentOrdinal:
+- _objc_msgSend$setDocumentPageOffset:
+- _objc_msgSend$setDocuments:
+- _objc_msgSend$setDoesRelativeDateFormatting:
+- _objc_msgSend$setDownloadProgress:
+- _objc_msgSend$setDragDelegate:
+- _objc_msgSend$setDrawSpecialGrayHighlights:
+- _objc_msgSend$setDrawsShadow:
+- _objc_msgSend$setDrawsSpine:
+- _objc_msgSend$setDstRootPath:
+- _objc_msgSend$setDummyLocation2:
+- _objc_msgSend$setDuration:
+- _objc_msgSend$setEdges:
+- _objc_msgSend$setEditing:
+- _objc_msgSend$setEditing:animated:
+- _objc_msgSend$setEditsOnLaunch:
+- _objc_msgSend$setElementId:
+- _objc_msgSend$setElseSteps:
+- _objc_msgSend$setEmbeddedArtHref:
+- _objc_msgSend$setEmbeddedArtHrefRejected:
+- _objc_msgSend$setEnabled:
+- _objc_msgSend$setEncryptionAlgorithm:
+- _objc_msgSend$setEndOfBookConfidence:
+- _objc_msgSend$setEndOfBookExperienceFromPlist:
+- _objc_msgSend$setEndOfBookLocation:
+- _objc_msgSend$setEndOfBookValidRange:
+- _objc_msgSend$setEndOfBookVersion:
+- _objc_msgSend$setEndOffset:
+- _objc_msgSend$setEndPath:
+- _objc_msgSend$setEndPoint:
+- _objc_msgSend$setEndTime:
+- _objc_msgSend$setEntity:
+- _objc_msgSend$setEstimatedContentSize:
+- _objc_msgSend$setEstimatedRowHeight:
+- _objc_msgSend$setEstimatedSectionFooterHeight:
+- _objc_msgSend$setEstimatedSectionHeaderHeight:
+- _objc_msgSend$setEstimatedSize:
+- _objc_msgSend$setEstimatedSizeHeight:
+- _objc_msgSend$setEstimatedSizeWidth:
+- _objc_msgSend$setExcludedActivityTypes:
+- _objc_msgSend$setExclusiveTouch:
+- _objc_msgSend$setExistingPages:
+- _objc_msgSend$setExpandedContentViewController:
+- _objc_msgSend$setExperienceManager:
+- _objc_msgSend$setExperiencePoint:
+- _objc_msgSend$setExternalGestureRecognizerCount:
+- _objc_msgSend$setFailedToLoad:
+- _objc_msgSend$setFallbackId:
+- _objc_msgSend$setFallbacks:
+- _objc_msgSend$setFamilyName:
+- _objc_msgSend$setFetchBatchSize:
+- _objc_msgSend$setFetchLimit:
+- _objc_msgSend$setFileNames:
+- _objc_msgSend$setFileSize:
+- _objc_msgSend$setFill
+- _objc_msgSend$setFillMode:
+- _objc_msgSend$setFilters:
+- _objc_msgSend$setFindSemaphore:
+- _objc_msgSend$setFinished:
+- _objc_msgSend$setFinishedForAssetID:
+- _objc_msgSend$setFirstDocumentHref:
+- _objc_msgSend$setFixedLayout:
+- _objc_msgSend$setFixedLayoutFlow:
+- _objc_msgSend$setFixedLayoutHeight:
+- _objc_msgSend$setFixedLayoutSpread:
+- _objc_msgSend$setFixedLayoutWidth:
+- _objc_msgSend$setFocusEffect:
+- _objc_msgSend$setFont:
+- _objc_msgSend$setFontFaceLookupByFileName:
+- _objc_msgSend$setFontFamily:
+- _objc_msgSend$setFontLookupByFileName:
+- _objc_msgSend$setFontSize:
+- _objc_msgSend$setFontSizeConfiguration:
+- _objc_msgSend$setFonts:
+- _objc_msgSend$setFontsByFileName:
+- _objc_msgSend$setForce:
+- _objc_msgSend$setForcePopoverInsteadOfSheet:
+- _objc_msgSend$setForwardCurl:
+- _objc_msgSend$setForwardNavEnabled:
+- _objc_msgSend$setFrame:
+- _objc_msgSend$setFrameAndPositionWebView:
+- _objc_msgSend$setFrameColor:
+- _objc_msgSend$setFrameOnViewController:forTransition:
+- _objc_msgSend$setFrameWidth:
+- _objc_msgSend$setFromValue:
+- _objc_msgSend$setFullLineRect:
+- _objc_msgSend$setFullLineWidth:
+- _objc_msgSend$setGapBetweenPages:
+- _objc_msgSend$setGenericCoverTemplate:
+- _objc_msgSend$setGenre:
+- _objc_msgSend$setGravitationalPoint:
+- _objc_msgSend$setGridInset:
+- _objc_msgSend$setHasBuiltInFonts:
+- _objc_msgSend$setHasCalculatedMinZoomScale:
+- _objc_msgSend$setHasComputedFixedLayoutSize:
+- _objc_msgSend$setHasLandmarkElements:
+- _objc_msgSend$setHasPhysicalElements:
+- _objc_msgSend$setHasRibbon:
+- _objc_msgSend$setHasTocElements:
+- _objc_msgSend$setHasTurnedToInitialPage:
+- _objc_msgSend$setHasWKWebView:
+- _objc_msgSend$setHavePartialResults:
+- _objc_msgSend$setHeight:
+- _objc_msgSend$setHidden:
+- _objc_msgSend$setHideThumbView:
+- _objc_msgSend$setHidesSpine:
+- _objc_msgSend$setHidesWhenStopped:
+- _objc_msgSend$setHighlightBackgroundColor:
+- _objc_msgSend$setHighlightImage:
+- _objc_msgSend$setHighlightType:
+- _objc_msgSend$setHighlightViews:
+- _objc_msgSend$setHighlightedAnnotationBlendMode:
+- _objc_msgSend$setHighlightedBackgroundView:
+- _objc_msgSend$setHighlightedTextColor:
+- _objc_msgSend$setHighlightedTextFont:
+- _objc_msgSend$setHistoryEntities:
+- _objc_msgSend$setHorizontal:
+- _objc_msgSend$setHostManifestMetadata:
+- _objc_msgSend$setHref:
+- _objc_msgSend$setIconImageViewWidthAnchor:
+- _objc_msgSend$setIconSymbol:
+- _objc_msgSend$setIdealSinglePageSize:
+- _objc_msgSend$setIdentity:
+- _objc_msgSend$setIdentityStore:
+- _objc_msgSend$setIgnoreKeyboardInteraction:
+- _objc_msgSend$setIgnoreNextGesture:
+- _objc_msgSend$setIgnorePageTurnGestures:
+- _objc_msgSend$setIgnoreToolbarUpdates:
+- _objc_msgSend$setImage:
+- _objc_msgSend$setImage:forSearchBarIcon:state:
+- _objc_msgSend$setImage:forState:
+- _objc_msgSend$setImageAnalyzer:
+- _objc_msgSend$setImageCache:
+- _objc_msgSend$setImageResizerDelegate:
+- _objc_msgSend$setImageScroller:
+- _objc_msgSend$setImageView:
+- _objc_msgSend$setIncludedActivityTypes:
+- _objc_msgSend$setIncludesCapSpace:
+- _objc_msgSend$setIndentationLevel:
+- _objc_msgSend$setIndentationWidth:
+- _objc_msgSend$setInfoText:
+- _objc_msgSend$setInitialJumpLocation:
+- _objc_msgSend$setInitialVelocity:
+- _objc_msgSend$setInitialZoomFactor:
+- _objc_msgSend$setInitialZoomScale:
+- _objc_msgSend$setInnerView:
+- _objc_msgSend$setInteger:forKey:
+- _objc_msgSend$setInteractionTintColor:
+- _objc_msgSend$setInteractive:
+- _objc_msgSend$setInternalGestureRecognizersSet:
+- _objc_msgSend$setInvalidated:
+- _objc_msgSend$setIsAccessibilityElement:
+- _objc_msgSend$setIsContentManaged:
+- _objc_msgSend$setIsDirty:
+- _objc_msgSend$setIsDownloading:
+- _objc_msgSend$setIsDuplicateSpineEntry:
+- _objc_msgSend$setIsFixedLayout:
+- _objc_msgSend$setIsGoingToNextPage:
+- _objc_msgSend$setIsHorizontalScroll:
+- _objc_msgSend$setIsInteractive:
+- _objc_msgSend$setIsLeftPage:
+- _objc_msgSend$setIsMailingAllowed:
+- _objc_msgSend$setIsOpen:
+- _objc_msgSend$setIsPasswordRequired:
+- _objc_msgSend$setIsPreorder:
+- _objc_msgSend$setIsPrintingAllowed:
+- _objc_msgSend$setIsProofingAsset:
+- _objc_msgSend$setIsRightPage:
+- _objc_msgSend$setIsRotating:
+- _objc_msgSend$setIsSaving:
+- _objc_msgSend$setIsShowing:animated:
+- _objc_msgSend$setIsSourceEditable:
+- _objc_msgSend$setIsSuppressingColorSettings:
+- _objc_msgSend$setIsVertical:
+- _objc_msgSend$setIsVerticalDocument:
+- _objc_msgSend$setIsWithinGravitationalPointReach:
+- _objc_msgSend$setItems:
+- _objc_msgSend$setJobGeneration:
+- _objc_msgSend$setJumpAheadText:
+- _objc_msgSend$setJumpBackText:
+- _objc_msgSend$setJustification:
+- _objc_msgSend$setKey:
+- _objc_msgSend$setKeyPath:
+- _objc_msgSend$setKeyboardAppearance:
+- _objc_msgSend$setKeyboardType:
+- _objc_msgSend$setKind:
+- _objc_msgSend$setLabel:
+- _objc_msgSend$setLabelFont:
+- _objc_msgSend$setLabelText:
+- _objc_msgSend$setLandmarkAnchors:
+- _objc_msgSend$setLandscapeProhibited:
+- _objc_msgSend$setLanguage:
+- _objc_msgSend$setLanguageFromPlist:
+- _objc_msgSend$setLargeSizeFactor:
+- _objc_msgSend$setLastAnalyticsDeviceOrientationReported:
+- _objc_msgSend$setLastCompletedTransition:
+- _objc_msgSend$setLastCurlUnderPageView:
+- _objc_msgSend$setLastDidScrollTimestamp:
+- _objc_msgSend$setLastLocation:
+- _objc_msgSend$setLastRecordedCFIDate:
+- _objc_msgSend$setLastRecordedCFILocation:
+- _objc_msgSend$setLastRecordedLocation:
+- _objc_msgSend$setLastRecordedPageDate:
+- _objc_msgSend$setLastRecordedPageLocation:
+- _objc_msgSend$setLastSavedSearchResult:
+- _objc_msgSend$setLayout:
+- _objc_msgSend$setLayoutDelegate:
+- _objc_msgSend$setLayoutDirection:
+- _objc_msgSend$setLayoutGeometry:
+- _objc_msgSend$setLeftContentView:
+- _objc_msgSend$setLeftImage:
+- _objc_msgSend$setLeftItems:rightItems:title:animated:
+- _objc_msgSend$setLeftItems:rightItems:titleView:animated:
+- _objc_msgSend$setLeftPageText:shortenString:
+- _objc_msgSend$setLeftSideMovementThreshold:
+- _objc_msgSend$setLeftSourceView:
+- _objc_msgSend$setLightenBlend:
+- _objc_msgSend$setLineBreakMode:
+- _objc_msgSend$setLineHeight:
+- _objc_msgSend$setLinearDocumentIndex:
+- _objc_msgSend$setLines:
+- _objc_msgSend$setLoadFailureCount:
+- _objc_msgSend$setLoadSemaphore:
+- _objc_msgSend$setLoader:
+- _objc_msgSend$setLocalFrame:
+- _objc_msgSend$setLocation:
+- _objc_msgSend$setLocationEnsuredFirstPaintWorkBlock:
+- _objc_msgSend$setLocationEnsuredVisibleWorkBlock:
+- _objc_msgSend$setLocations:
+- _objc_msgSend$setLookupKey:
+- _objc_msgSend$setLoops:
+- _objc_msgSend$setMagnificationFilter:
+- _objc_msgSend$setMainframeOnlyStylesheets:
+- _objc_msgSend$setMaintainZoomScale:
+- _objc_msgSend$setManagedBook:
+- _objc_msgSend$setManifestId:
+- _objc_msgSend$setManifestProperties:
+- _objc_msgSend$setManualCurlCurrentTime:
+- _objc_msgSend$setManualCurlHandler:
+- _objc_msgSend$setManualCurlStartPosition:
+- _objc_msgSend$setMask:
+- _objc_msgSend$setMaskedCorners:
+- _objc_msgSend$setMasksToBounds:
+- _objc_msgSend$setMass:
+- _objc_msgSend$setMasterImageKey:
+- _objc_msgSend$setMaxConcurrentOperationCount:
+- _objc_msgSend$setMaxResizeScale:
+- _objc_msgSend$setMaxScaleFactor:
+- _objc_msgSend$setMaxSimulatedZoomScale:
+- _objc_msgSend$setMaxWidth:
+- _objc_msgSend$setMaxZoomScale:
+- _objc_msgSend$setMaximumFractionDigits:
+- _objc_msgSend$setMaximumTrackTintColor:
+- _objc_msgSend$setMaximumValue:
+- _objc_msgSend$setMaximumValueImage:
+- _objc_msgSend$setMaximumZoomScale:
+- _objc_msgSend$setMediaActiveClass:
+- _objc_msgSend$setMediaFrames:
+- _objc_msgSend$setMediaLocations:
+- _objc_msgSend$setMediaOverlayHref:
+- _objc_msgSend$setMediaOverlayParsed:
+- _objc_msgSend$setMediaSource:
+- _objc_msgSend$setMenuItems:
+- _objc_msgSend$setMergePolicy:
+- _objc_msgSend$setMetadata:forKey:forURL:
+- _objc_msgSend$setMime:
+- _objc_msgSend$setMinScaleFactor:
+- _objc_msgSend$setMinimumFontSize:
+- _objc_msgSend$setMinimumGridSpacing:
+- _objc_msgSend$setMinimumPressDuration:
+- _objc_msgSend$setMinimumScaleFactor:
+- _objc_msgSend$setMinimumTrackTintColor:
+- _objc_msgSend$setMinimumValue:
+- _objc_msgSend$setMinimumValueImage:
+- _objc_msgSend$setMinimumZoomScale:
+- _objc_msgSend$setModalPresentationStyle:
+- _objc_msgSend$setModalRestoreLocation:
+- _objc_msgSend$setMode:
+- _objc_msgSend$setMultipleSelectionBackgroundView:
+- _objc_msgSend$setMultipleSelectionTickBackgroundImageView:
+- _objc_msgSend$setMultipleTouchEnabled:
+- _objc_msgSend$setName:
+- _objc_msgSend$setNavDelegate:
+- _objc_msgSend$setNavigatingFromContentInfoRequest:
+- _objc_msgSend$setNavigationBarHidden:
+- _objc_msgSend$setNavigationBarHidden:animated:
+- _objc_msgSend$setNavigationDelegate:
+- _objc_msgSend$setNavigationHistory:
+- _objc_msgSend$setNavigationInfoAnchors:
+- _objc_msgSend$setNavigationOrientation:
+- _objc_msgSend$setNeedsDisplay
+- _objc_msgSend$setNeedsLayout
+- _objc_msgSend$setNeedsRebuild
+- _objc_msgSend$setNeedsRestyle
+- _objc_msgSend$setNeedsRestyleWithCompletion:
+- _objc_msgSend$setNeedsStatusBarAppearanceUpdate
+- _objc_msgSend$setNeedsUpdateConstraints
+- _objc_msgSend$setNeedsUpdateOfHomeIndicatorAutoHidden
+- _objc_msgSend$setNegated:
+- _objc_msgSend$setNextTime:
+- _objc_msgSend$setNonlinearElement:
+- _objc_msgSend$setNormalBackgroundColor:
+- _objc_msgSend$setNotificationObservationTokens:
+- _objc_msgSend$setNumberOfLines:
+- _objc_msgSend$setNumberOfMarkupAnnotations:
+- _objc_msgSend$setNumberOfMarkupAnnotationsWithPopups:
+- _objc_msgSend$setNumberOfTapsRequired:
+- _objc_msgSend$setNumberOfTouchesRequired:
+- _objc_msgSend$setNumberStyle:
+- _objc_msgSend$setObeyPageBreaks:
+- _objc_msgSend$setObeyPageBreaksFromPlist:
+- _objc_msgSend$setObject:forKey:
+- _objc_msgSend$setObject:forKey:cost:
+- _objc_msgSend$setObject:forKeyedSubscript:
+- _objc_msgSend$setObservedScrollView:
+- _objc_msgSend$setOn:
+- _objc_msgSend$setOn:animated:
+- _objc_msgSend$setOnTintColor:
+- _objc_msgSend$setOngoingAnimationCount:
+- _objc_msgSend$setOpacity:
+- _objc_msgSend$setOpaque:
+- _objc_msgSend$setOpenToSpread:
+- _objc_msgSend$setOpenedInPlace:
+- _objc_msgSend$setOpening:
+- _objc_msgSend$setOpeningLocation:
+- _objc_msgSend$setOperationFactory:
+- _objc_msgSend$setOperationQueue:
+- _objc_msgSend$setOptimizeLegibility:
+- _objc_msgSend$setOption:forKey:
+- _objc_msgSend$setOrdinal:
+- _objc_msgSend$setOrientation:
+- _objc_msgSend$setOriginalURL:
+- _objc_msgSend$setOrthography:
+- _objc_msgSend$setOverlayWindowVisible:animated:adjustStatusBar:
+- _objc_msgSend$setOverrideBuildMenuLocation:
+- _objc_msgSend$setOverrideProvider:
+- _objc_msgSend$setOverrideUserInterfaceStyle:
+- _objc_msgSend$setOwner:
+- _objc_msgSend$setPDFAKControllerDelegate:
+- _objc_msgSend$setPage:forLookupKey:
+- _objc_msgSend$setPageAnimationDelegate:
+- _objc_msgSend$setPageBreakMargins:
+- _objc_msgSend$setPageCacheDistance:
+- _objc_msgSend$setPageColor:
+- _objc_msgSend$setPageCount:
+- _objc_msgSend$setPageCountIncludingUpsell:
+- _objc_msgSend$setPageCurl:
+- _objc_msgSend$setPageLabels:forContent:
+- _objc_msgSend$setPageLength:
+- _objc_msgSend$setPageNumber:
+- _objc_msgSend$setPageNumberBeforeScrubbing:
+- _objc_msgSend$setPageNumberBeforeTransition:
+- _objc_msgSend$setPageNumberHUDHeightConstraint:
+- _objc_msgSend$setPageNumberHUDTopConstraint:
+- _objc_msgSend$setPageNumberHudTextLabelForValidatedPageNumber:visiblePageCount:validatedPageCount:
+- _objc_msgSend$setPageOffset:
+- _objc_msgSend$setPageOffset:completion:
+- _objc_msgSend$setPageOffset:shouldScroll:refreshHighlights:
+- _objc_msgSend$setPageProgressionDirection:
+- _objc_msgSend$setPageProgressionIsRTL:
+- _objc_msgSend$setPageScrollerPageView:
+- _objc_msgSend$setPageSize:
+- _objc_msgSend$setPageSlideAnimation:
+- _objc_msgSend$setPageSlideCount:
+- _objc_msgSend$setPageTextDirectionIsRTL:
+- _objc_msgSend$setPageTheme:
+- _objc_msgSend$setPageTitle:
+- _objc_msgSend$setPageView:
+- _objc_msgSend$setPageViewController:
+- _objc_msgSend$setPaginationController:
+- _objc_msgSend$setPaginationDataSource:
+- _objc_msgSend$setPaginationOptions:
+- _objc_msgSend$setPaginationRetryCount:
+- _objc_msgSend$setPaginationRevision:
+- _objc_msgSend$setPagingEnabled:
+- _objc_msgSend$setParseDate:
+- _objc_msgSend$setParserNCXPath:
+- _objc_msgSend$setParserOPFPath:
+- _objc_msgSend$setParserVersion:
+- _objc_msgSend$setPartialResults:
+- _objc_msgSend$setPassthroughViews:
+- _objc_msgSend$setPassword:
+- _objc_msgSend$setPausedTime:
+- _objc_msgSend$setPdfChapter:
+- _objc_msgSend$setPdfDocument:
+- _objc_msgSend$setPdfOutlineRoot:
+- _objc_msgSend$setPdfView:
+- _objc_msgSend$setPendingAdjustForScrollMode:
+- _objc_msgSend$setPendingAppearanceStyle:
+- _objc_msgSend$setPendingInfoRequest:
+- _objc_msgSend$setPendingLocation:
+- _objc_msgSend$setPendingLocationCompletion:
+- _objc_msgSend$setPendingPageTurnGenerationID:
+- _objc_msgSend$setPerformsFirstActionWithFullSwipe:
+- _objc_msgSend$setPermittedArrowDirections:
+- _objc_msgSend$setPersistentCachePath:
+- _objc_msgSend$setPersistentStoreCoordinator:
+- _objc_msgSend$setPersistentStoreDescriptions:
+- _objc_msgSend$setPhysicalPageAnchors:
+- _objc_msgSend$setPhysicalPageMap:
+- _objc_msgSend$setPhysicalPageNumber:
+- _objc_msgSend$setPiggyBack:
+- _objc_msgSend$setPlLocationRangeStart:
+- _objc_msgSend$setPlUserData:
+- _objc_msgSend$setPlaceholder:
+- _objc_msgSend$setPlaybackSpeed:
+- _objc_msgSend$setPortraitProhibited:
+- _objc_msgSend$setPostscriptBoldName:
+- _objc_msgSend$setPostscriptName:
+- _objc_msgSend$setPredicate:
+- _objc_msgSend$setPreferVerticalPresentation:
+- _objc_msgSend$setPreferredContentSize:
+- _objc_msgSend$setPreferredDirectoryType:forBook:
+- _objc_msgSend$setPreferredFontSize:
+- _objc_msgSend$setPreferredPageNumberHUDVisibility:
+- _objc_msgSend$setPreferredStyle:
+- _objc_msgSend$setPresentationViewController:
+- _objc_msgSend$setPresenter:
+- _objc_msgSend$setPresentingFromTOC:
+- _objc_msgSend$setPreservesSuperviewLayoutMargins:
+- _objc_msgSend$setPresetsByFileName:
+- _objc_msgSend$setPreviewTitle:
+- _objc_msgSend$setPrimaryContentController:
+- _objc_msgSend$setPrimaryContentControllerNeedsFrameAdjustment:
+- _objc_msgSend$setPrimaryImageSize:
+- _objc_msgSend$setPrimitiveValue:forKey:
+- _objc_msgSend$setPriority:
+- _objc_msgSend$setProductProfile:
+- _objc_msgSend$setProfileFuture:
+- _objc_msgSend$setProgress:
+- _objc_msgSend$setProgressThickness:
+- _objc_msgSend$setProofingVeil:
+- _objc_msgSend$setPropertiesOfBook:withPlistEntry:
+- _objc_msgSend$setPropertiesToFetch:
+- _objc_msgSend$setPublisherInfoFromParser:
+- _objc_msgSend$setPublisherLocation:
+- _objc_msgSend$setPublisherName:
+- _objc_msgSend$setPublisherYear:
+- _objc_msgSend$setQueuePriority:
+- _objc_msgSend$setReadAloudState:
+- _objc_msgSend$setReadingDirection:
+- _objc_msgSend$setReadingLocation:
+- _objc_msgSend$setReadingLocationHighwaterMark:
+- _objc_msgSend$setReadyForDisplay:
+- _objc_msgSend$setRecenteredIndexPath:
+- _objc_msgSend$setRectForPresentedMenuForTextInteraction:
+- _objc_msgSend$setReferenceLibraryViewController:
+- _objc_msgSend$setRefreshAdornmentsContent:
+- _objc_msgSend$setRemoved:
+- _objc_msgSend$setRemovedOnCompletion:
+- _objc_msgSend$setRenderingPiggyBack:
+- _objc_msgSend$setReportedLocation:
+- _objc_msgSend$setRequestToIndexPath:
+- _objc_msgSend$setResizeAnimationInProgress:
+- _objc_msgSend$setResizeRequestPending:
+- _objc_msgSend$setResizeViewsWhenZoomed:
+- _objc_msgSend$setResource:
+- _objc_msgSend$setRespectImageSizeClass:
+- _objc_msgSend$setRespectImageSizeClassIsPrefix:
+- _objc_msgSend$setRespectPageBreaks:
+- _objc_msgSend$setRestoreFrame:
+- _objc_msgSend$setResultType:
+- _objc_msgSend$setResumeLocation:
+- _objc_msgSend$setReturnsObjectsAsFaults:
+- _objc_msgSend$setRight:
+- _objc_msgSend$setRightContentView:
+- _objc_msgSend$setRightImage:
+- _objc_msgSend$setRightPageText:shortenString:
+- _objc_msgSend$setRightSideMovementThreshold:
+- _objc_msgSend$setRightSourceView:
+- _objc_msgSend$setRootPath:
+- _objc_msgSend$setRotationInProgress:
+- _objc_msgSend$setRotationStorage:
+- _objc_msgSend$setRowHeight:
+- _objc_msgSend$setSafeToShowToolbarItems:
+- _objc_msgSend$setSampleContent:
+- _objc_msgSend$setScale:
+- _objc_msgSend$setScaleFactor:
+- _objc_msgSend$setScaleFactor:anchorPoint:
+- _objc_msgSend$setScroll:
+- _objc_msgSend$setScrollAxisModeFromPlist:
+- _objc_msgSend$setScrollDirection:
+- _objc_msgSend$setScrollEdgeAppearance:
+- _objc_msgSend$setScrollEnabled:
+- _objc_msgSend$setScrollIndicatorInsets:
+- _objc_msgSend$setScrollIndicatorsNeedToBeFlashed:
+- _objc_msgSend$setScrollModeOn:notifyingCoordinator:
+- _objc_msgSend$setScrollState:
+- _objc_msgSend$setScrollSwitchEnabled:
+- _objc_msgSend$setScrollViewClipsToBounds:
+- _objc_msgSend$setScrolling:
+- _objc_msgSend$setScrubberCalloutFollowsScrollerThumb:
+- _objc_msgSend$setScrubberContainerView:
+- _objc_msgSend$setScrubbing:
+- _objc_msgSend$setSearchBook:
+- _objc_msgSend$setSearchCompleted:
+- _objc_msgSend$setSearchDelegate:
+- _objc_msgSend$setSearchLocation:
+- _objc_msgSend$setSearchResult:
+- _objc_msgSend$setSearchString:
+- _objc_msgSend$setSearchStringRange:
+- _objc_msgSend$setSearching:
+- _objc_msgSend$setSecondaryContentController:
+- _objc_msgSend$setSecondaryContentControllerNeedsFrameAdjustment:
+- _objc_msgSend$setSection:
+- _objc_msgSend$setSection:animated:adjustScrollToReveal:
+- _objc_msgSend$setSectionFooterHeight:
+- _objc_msgSend$setSectionHeaderHeight:
+- _objc_msgSend$setSecureTextEntry:
+- _objc_msgSend$setSegmentCount:
+- _objc_msgSend$setSegmentSize:
+- _objc_msgSend$setSegmentStrokeColor:
+- _objc_msgSend$setSelected:
+- _objc_msgSend$setSelected:animated:
+- _objc_msgSend$setSelectedBackgroundView:
+- _objc_msgSend$setSelectedIndex:
+- _objc_msgSend$setSelectedSegmentIndex:
+- _objc_msgSend$setSelection:
+- _objc_msgSend$setSelectionHighlightType:
+- _objc_msgSend$setSelectionHighlightsVisible:
+- _objc_msgSend$setSelectionRects:
+- _objc_msgSend$setSelectionStyle:
+- _objc_msgSend$setSelector:
+- _objc_msgSend$setSemanticLayoutOverlayViewController:
+- _objc_msgSend$setSentinel:
+- _objc_msgSend$setSeparatorColor:
+- _objc_msgSend$setSeparatorInset:
+- _objc_msgSend$setSeparatorInsets:
+- _objc_msgSend$setSeparatorStyle:
+- _objc_msgSend$setSeparatorsVisible:
+- _objc_msgSend$setSequenceSource:
+- _objc_msgSend$setSerialData:
+- _objc_msgSend$setSerializeFormat:
+- _objc_msgSend$setSessionID:
+- _objc_msgSend$setShadowColor:
+- _objc_msgSend$setShadowOffset:
+- _objc_msgSend$setShadowOpacity:
+- _objc_msgSend$setShadowPath:
+- _objc_msgSend$setShadowRadius:
+- _objc_msgSend$setShareType:
+- _objc_msgSend$setSharedBookCoverResetter:
+- _objc_msgSend$setSharedWebView:
+- _objc_msgSend$setShouldAllowRemoteInspection:
+- _objc_msgSend$setShouldAnimate:
+- _objc_msgSend$setShouldDim:
+- _objc_msgSend$setShouldDisableOptimizeSpeed:
+- _objc_msgSend$setShouldDisplayPageInfo:
+- _objc_msgSend$setShouldHaveGradient:
+- _objc_msgSend$setShouldHaveLeftImage:
+- _objc_msgSend$setShouldHaveRightImage:
+- _objc_msgSend$setShouldInvertContent:
+- _objc_msgSend$setShouldScrollToEnd:
+- _objc_msgSend$setShowAnnotations:
+- _objc_msgSend$setShowBookmarks:
+- _objc_msgSend$setShowBookmarksOnly:
+- _objc_msgSend$setShowPhysicalPages:
+- _objc_msgSend$setShowSelectionView:
+- _objc_msgSend$setShowSpreads:
+- _objc_msgSend$setShowingTOC:
+- _objc_msgSend$setShowsAnnotations:
+- _objc_msgSend$setShowsCancelButton:
+- _objc_msgSend$setShowsHorizontalScrollIndicator:
+- _objc_msgSend$setShowsLoadingIndicator:
+- _objc_msgSend$setShowsPageNumber:
+- _objc_msgSend$setShowsScrollIndicators:
+- _objc_msgSend$setShowsVerticalScrollIndicator:
+- _objc_msgSend$setSinfBlob:
+- _objc_msgSend$setSinfInfo:
+- _objc_msgSend$setSinfNumber:
+- _objc_msgSend$setSinglePage:
+- _objc_msgSend$setSingletonAnnotationType:location:modificationHandler:
+- _objc_msgSend$setSize:
+- _objc_msgSend$setSizeAfterLastLayout:
+- _objc_msgSend$setSizeOfCachedFonts:
+- _objc_msgSend$setSkipToast:
+- _objc_msgSend$setSmallGradientLayer:
+- _objc_msgSend$setSnapshotSize:
+- _objc_msgSend$setSnapshotWidth:
+- _objc_msgSend$setSortAuthor:
+- _objc_msgSend$setSortDescriptors:
+- _objc_msgSend$setSortTitle:
+- _objc_msgSend$setSourceRect:
+- _objc_msgSend$setSourceURL:
+- _objc_msgSend$setSourceView:
+- _objc_msgSend$setSourceViewController:
+- _objc_msgSend$setSpacing:
+- _objc_msgSend$setSpecialization:
+- _objc_msgSend$setSpecifiedWidth:
+- _objc_msgSend$setSpineIndex:
+- _objc_msgSend$setSpineIndexInPackage:
+- _objc_msgSend$setSpineIndexUpdated:
+- _objc_msgSend$setSpineLocation:
+- _objc_msgSend$setStabilization:
+- _objc_msgSend$setStartOffset:
+- _objc_msgSend$setStartPath:
+- _objc_msgSend$setStartPoint:
+- _objc_msgSend$setStartSearchFromIndex:
+- _objc_msgSend$setStartSearchIndex:
+- _objc_msgSend$setStartTime:
+- _objc_msgSend$setStashedPrimaryHighlights:
+- _objc_msgSend$setStashedSecondaryHighlights:
+- _objc_msgSend$setState:
+- _objc_msgSend$setStateShouldClose:
+- _objc_msgSend$setStatusBarHidden:animated:
+- _objc_msgSend$setStatusBarHidden:animated:animations:completion:
+- _objc_msgSend$setStatusBarHidden:animated:completion:
+- _objc_msgSend$setSteps:
+- _objc_msgSend$setStiffness:
+- _objc_msgSend$setStorageKey:
+- _objc_msgSend$setStoreDialogResponseHandler:
+- _objc_msgSend$setStoreFrontId:
+- _objc_msgSend$setStoreID:
+- _objc_msgSend$setStoreId:
+- _objc_msgSend$setStroke
+- _objc_msgSend$setStrokeColor:
+- _objc_msgSend$setStyle:
+- _objc_msgSend$setStyleChangeSavedLocation:
+- _objc_msgSend$setSublayerTransform:
+- _objc_msgSend$setSuccessfulLoad:
+- _objc_msgSend$setSupportsExpandedContent:
+- _objc_msgSend$setSupportsTheming:
+- _objc_msgSend$setSuspended:
+- _objc_msgSend$setSwipeToShowScrubberEnable:
+- _objc_msgSend$setSystemName:
+- _objc_msgSend$setTableFooterView:
+- _objc_msgSend$setTableSwitchHeightConstraint:
+- _objc_msgSend$setTableSwitchWidthConstraint:
+- _objc_msgSend$setTag:
+- _objc_msgSend$setTarget:
+- _objc_msgSend$setTargetPageNumber:
+- _objc_msgSend$setTargetView:
+- _objc_msgSend$setTempOwnerID:
+- _objc_msgSend$setTemporaryItemIdentifier:
+- _objc_msgSend$setText:
+- _objc_msgSend$setTextAlignment:
+- _objc_msgSend$setTextColor:
+- _objc_msgSend$setTextContent:
+- _objc_msgSend$setTextDirectionDetermined:
+- _objc_msgSend$setTextHilightColor:
+- _objc_msgSend$setTextLabelTrailingAnchor:
+- _objc_msgSend$setTextNodeCharacterCounts:
+- _objc_msgSend$setTheme:
+- _objc_msgSend$setTheme:force:
+- _objc_msgSend$setThemeInterfaceStyle:
+- _objc_msgSend$setThenSteps:
+- _objc_msgSend$setThumbnail:
+- _objc_msgSend$setThumbnail:forPage:
+- _objc_msgSend$setThumbnail:forPage:context:
+- _objc_msgSend$setThumbnailingDelegate:
+- _objc_msgSend$setTimeOut:
+- _objc_msgSend$setTimeStyle:
+- _objc_msgSend$setTimingFunction:
+- _objc_msgSend$setTintColor:
+- _objc_msgSend$setTipContentController:
+- _objc_msgSend$setTipContentViewController:
+- _objc_msgSend$setTitle:
+- _objc_msgSend$setTitle:forState:
+- _objc_msgSend$setTitleAlignment:
+- _objc_msgSend$setTitleColor:forState:
+- _objc_msgSend$setTitleFormat:
+- _objc_msgSend$setTitleTextAttributes:
+- _objc_msgSend$setToValue:
+- _objc_msgSend$setTocContentType:
+- _objc_msgSend$setTocCurrentLocation:
+- _objc_msgSend$setTocData:
+- _objc_msgSend$setTocIdCssRules:
+- _objc_msgSend$setTocIsVertical:
+- _objc_msgSend$setTocPageHref:
+- _objc_msgSend$setToolBarHidden:animated:
+- _objc_msgSend$setToolbarHidden:
+- _objc_msgSend$setToolbarItems:
+- _objc_msgSend$setTopToolBarVisible:
+- _objc_msgSend$setTopView:isRightPage:
+- _objc_msgSend$setTotalPages:
+- _objc_msgSend$setTotalZoomScale:
+- _objc_msgSend$setTrackBackgroundColor:
+- _objc_msgSend$setTrackDiameter:
+- _objc_msgSend$setTrackState:
+- _objc_msgSend$setTrackState:persistSetting:
+- _objc_msgSend$setTrackingTouch:
+- _objc_msgSend$setTransform:
+- _objc_msgSend$setTransitionLocation:
+- _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
+- _objc_msgSend$setTranslationViewController:
+- _objc_msgSend$setTranslucent:
+- _objc_msgSend$setTurnChapterBehavior:
+- _objc_msgSend$setTurnState:
+- _objc_msgSend$setType:
+- _objc_msgSend$setURL:
+- _objc_msgSend$setUnderlineDirection:
+- _objc_msgSend$setUnderlinePosition:
+- _objc_msgSend$setUndoManager:
+- _objc_msgSend$setUnitsStyle:
+- _objc_msgSend$setUpdateDate:
+- _objc_msgSend$setUpgradedBookmarks:
+- _objc_msgSend$setUpsellPageNumber:
+- _objc_msgSend$setUrl:
+- _objc_msgSend$setUseGlobalContentStyle:
+- _objc_msgSend$setUseInvertedColors:
+- _objc_msgSend$setUsePaginationLineGrid:
+- _objc_msgSend$setUseRoundedCornerRadius:
+- _objc_msgSend$setUserInteractionEnabled:
+- _objc_msgSend$setUserNavigated:
+- _objc_msgSend$setUsesExternalPlaybackWhileExternalScreenIsActive:
+- _objc_msgSend$setUsesMonospacedDigitFont:
+- _objc_msgSend$setUsesMonospacedDigitFontForSubtitle:
+- _objc_msgSend$setUsesPopoverStyle:
+- _objc_msgSend$setValidRange:
+- _objc_msgSend$setValue:
+- _objc_msgSend$setValue:forKey:
+- _objc_msgSend$setValue:forKeyPath:
+- _objc_msgSend$setValue:forPasteboardType:
+- _objc_msgSend$setVersion:
+- _objc_msgSend$setVertical:
+- _objc_msgSend$setVerticalScrubber:
+- _objc_msgSend$setVerticalScrubberAnimator:
+- _objc_msgSend$setView:
+- _objc_msgSend$setViewControllers:
+- _objc_msgSend$setViewControllers:direction:animated:completion:
+- _objc_msgSend$setViewportWidth:
+- _objc_msgSend$setVisibleCFIString:
+- _objc_msgSend$setVisibleInScrollMode:
+- _objc_msgSend$setVolume:
+- _objc_msgSend$setWantsPriorityOverSystemBehavior:
+- _objc_msgSend$setWebView:
+- _objc_msgSend$setWebViewBuilder:
+- _objc_msgSend$setWebViewLoaded:
+- _objc_msgSend$setWebViewTrackingID:
+- _objc_msgSend$setWidth:
+- _objc_msgSend$setWidth:forSegmentAtIndex:
+- _objc_msgSend$setWindow:
+- _objc_msgSend$setWithArray:
+- _objc_msgSend$setWithObject:
+- _objc_msgSend$setWithObjects:
+- _objc_msgSend$setWk1EpubLocation:
+- _objc_msgSend$setWritingDirection:
+- _objc_msgSend$setZeroFormattingBehavior:
+- _objc_msgSend$setZoomScale:
+- _objc_msgSend$setZoomScale:animated:
+- _objc_msgSend$setZoomScale:animated:completionBlock:
+- _objc_msgSend$set_collapsed:
+- _objc_msgSend$set_collapsedHeightConstraint:
+- _objc_msgSend$set_fullHeightConstraints:
+- _objc_msgSend$set_isPlayingMedia:
+- _objc_msgSend$set_lastScrollViewSizeLayoutWasGeneratedFor:
+- _objc_msgSend$set_options:
+- _objc_msgSend$set_positionForPages:
+- _objc_msgSend$set_resetButton:
+- _objc_msgSend$set_resizeOperation:
+- _objc_msgSend$set_semanticOptions:
+- _objc_msgSend$set_stackView:
+- _objc_msgSend$set_summaryLabel:
+- _objc_msgSend$set_thumbnailingOperation:
+- _objc_msgSend$set_valueFormatter:
+- _objc_msgSend$settlingDuration
+- _objc_msgSend$setupAppearanceViewController
+- _objc_msgSend$setupBackgroundImageViewWithImage:
+- _objc_msgSend$setupBaseURL
+- _objc_msgSend$setupNotifications
+- _objc_msgSend$setupSlideAnimationFromPages:toPages:inContainer:isForwardAnimation:isRTL:isZoomedToSpread:
+- _objc_msgSend$setupVerticalScrubber
+- _objc_msgSend$setupWebView
+- _objc_msgSend$setupWithBookInfo:
+- _objc_msgSend$shadowColor
+- _objc_msgSend$shadowOpacity
+- _objc_msgSend$shapeWithRoundedRect:
+- _objc_msgSend$shareAnnotation:fromRect:inView:completion:
+- _objc_msgSend$shareAnnotations:fromBarButtonItem:excerpt:completion:
+- _objc_msgSend$shareAnnotations:fromRect:inView:excerpt:completion:
+- _objc_msgSend$shareBook:
+- _objc_msgSend$shareSelection:
+- _objc_msgSend$shareSwipeAction:
+- _objc_msgSend$shareType
+- _objc_msgSend$shared
+- _objc_msgSend$sharedAnnotationProvider
+- _objc_msgSend$sharedApplication
+- _objc_msgSend$sharedBookCoverResetter
+- _objc_msgSend$sharedController
+- _objc_msgSend$sharedInstance
+- _objc_msgSend$sharedManager
+- _objc_msgSend$sharedMenuController
+- _objc_msgSend$sharedPrintController
+- _objc_msgSend$sharedRegistry
+- _objc_msgSend$sharedReporter
+- _objc_msgSend$shortBookTitle
+- _objc_msgSend$shouldAcceptLocationUpdateFromGlobalAnnotation:
+- _objc_msgSend$shouldAllowRemoteInspection
+- _objc_msgSend$shouldApplyPageColor
+- _objc_msgSend$shouldAutorotate
+- _objc_msgSend$shouldBookmarkButtonsBeEnabled
+- _objc_msgSend$shouldControlsBeVisibleOnOpen
+- _objc_msgSend$shouldDisableFontFallbacksForLanguage:
+- _objc_msgSend$shouldDisableOptimizeSpeed
+- _objc_msgSend$shouldDisplayReadaloudControls
+- _objc_msgSend$shouldDisplaySpread
+- _objc_msgSend$shouldHandleSwipeGesture:
+- _objc_msgSend$shouldHaveLeftImage
+- _objc_msgSend$shouldHaveRightImage
+- _objc_msgSend$shouldHighlightReceiveTouch:
+- _objc_msgSend$shouldIgnoreViewLayoutUpdates
+- _objc_msgSend$shouldInvertContent
+- _objc_msgSend$shouldMonitorLightLevel
+- _objc_msgSend$shouldSavePageControlVisibility
+- _objc_msgSend$shouldScrollToEnd
+- _objc_msgSend$shouldShowBookmarkControl
+- _objc_msgSend$shouldShowBrightnessControl
+- _objc_msgSend$shouldShowExpandedContentForURL:
+- _objc_msgSend$shouldShowHUDs
+- _objc_msgSend$shouldShowTOCControl
+- _objc_msgSend$shouldShowUndoControls
+- _objc_msgSend$shouldSyncLocation:
+- _objc_msgSend$shouldUseVerticalScrubber
+- _objc_msgSend$showAnnotations
+- _objc_msgSend$showAudio:
+- _objc_msgSend$showBookmarks
+- _objc_msgSend$showBookmarksFromToolbar:
+- _objc_msgSend$showBookmarksOnly
+- _objc_msgSend$showContextMenuAtLocation:
+- _objc_msgSend$showExpandedContentForResource:atLocation:completion:
+- _objc_msgSend$showFootnoteInContentViewController:resource:fromView:stylesheetSet:
+- _objc_msgSend$showHighlightingMenuForAnnotation:
+- _objc_msgSend$showIndicatorCenteredInView:animated:animationDelay:
+- _objc_msgSend$showLoadFailureUI
+- _objc_msgSend$showLoadingViewAnimated:
+- _objc_msgSend$showLookupForString:fromView:onClose:
+- _objc_msgSend$showMenuFromView:rect:
+- _objc_msgSend$showNoteEditorForAnnotation:
+- _objc_msgSend$showNotesFromToolbar:
+- _objc_msgSend$showOriginalFontOption
+- _objc_msgSend$showOverlayViewController:fromItem:popoverOnPhone:passthroughViews:popoverBackgroundColor:
+- _objc_msgSend$showOverlayViewController:fromView:popoverOnPhone:popoverBackgroundColor:
+- _objc_msgSend$showPasswordDialogForBook:transaction:withCompletion:
+- _objc_msgSend$showPhysicalPages
+- _objc_msgSend$showReloadUIAnimated:
+- _objc_msgSend$showRowForCurrentLocation
+- _objc_msgSend$showScrim:
+- _objc_msgSend$showSearch:
+- _objc_msgSend$showSearchWithString:sender:
+- _objc_msgSend$showSpreads
+- _objc_msgSend$showTOC:
+- _objc_msgSend$showTOCFromToolbar:
+- _objc_msgSend$showTipContentViewControllerIfAvailable:
+- _objc_msgSend$showVerticalScrubber
+- _objc_msgSend$showingTOC
+- _objc_msgSend$showsLoadingIndicator
+- _objc_msgSend$showsPageNumber
+- _objc_msgSend$sideContentInset
+- _objc_msgSend$sideInsetFactor
+- _objc_msgSend$signalBookContentDidLoad:
+- _objc_msgSend$signalIdentifierForBookOpenDonation
+- _objc_msgSend$signalIdentifierForFontMenuOpenDonation
+- _objc_msgSend$signalIdentifierForLayoutUsedDonation
+- _objc_msgSend$signalWithCompletion:
+- _objc_msgSend$simulateZoomScaleByResizingView
+- _objc_msgSend$sinfBlob
+- _objc_msgSend$sinfInfo
+- _objc_msgSend$sinfNumber
+- _objc_msgSend$singlePage
+- _objc_msgSend$singlePageAspectFits
+- _objc_msgSend$singlePageCurlContainer
+- _objc_msgSend$singlePagePadding
+- _objc_msgSend$singlePageZoomScale
+- _objc_msgSend$singularPagesLeftInChapterWithRemainingPageCount:
+- _objc_msgSend$size
+- _objc_msgSend$sizeAfterLastLayout
+- _objc_msgSend$sizeChangesRequireBookRepagination
+- _objc_msgSend$sizeForAnnotation:font:width:numberOfLines:useSelectedText:
+- _objc_msgSend$sizeForSpread:landscape:
+- _objc_msgSend$sizeForString:font:width:numberOfLines:
+- _objc_msgSend$sizeFromJSON:
+- _objc_msgSend$sizeLargerButton
+- _objc_msgSend$sizeOfCachedFonts
+- _objc_msgSend$sizeSeparatorLine
+- _objc_msgSend$sizeSmallerButton
+- _objc_msgSend$sizeThatFits:
+- _objc_msgSend$sizeToFit
+- _objc_msgSend$sizeWithAttributes:
+- _objc_msgSend$sizes
+- _objc_msgSend$skip
+- _objc_msgSend$skipController
+- _objc_msgSend$sleepForTimeInterval:
+- _objc_msgSend$slide:animated:withDelay:
+- _objc_msgSend$smallSize
+- _objc_msgSend$smartTurnToNextChapter
+- _objc_msgSend$smartTurnToPreviousChapter
+- _objc_msgSend$smilMapOnPages:
+- _objc_msgSend$snapToGravitationalPoint
+- _objc_msgSend$snapToPage
+- _objc_msgSend$snapshot
+- _objc_msgSend$snapshotArtificialGutterWidth
+- _objc_msgSend$snapshotForBookInfo:pageNumber:size:maxSize:isRight:zoomScale:applyMaskAndGutter:containerBounds:completion:
+- _objc_msgSend$snapshotHelperWithPDFDocument:currentPageIndex:
+- _objc_msgSend$snapshotSize
+- _objc_msgSend$snapshotViewAfterScreenUpdates:
+- _objc_msgSend$snapshotWithPageNumber:size:completion:
+- _objc_msgSend$sortAuthor
+- _objc_msgSend$sortAuthorFromPlistEntry:
+- _objc_msgSend$sortUsingComparator:
+- _objc_msgSend$sortedArrayUsingComparator:
+- _objc_msgSend$sortedArrayUsingFunction:context:
+- _objc_msgSend$sortedArrayUsingSelector:
+- _objc_msgSend$sortedDocuments
+- _objc_msgSend$sourceURL
+- _objc_msgSend$span
+- _objc_msgSend$specifiedWidth
+- _objc_msgSend$spineIndex
+- _objc_msgSend$spineIndexInPackage
+- _objc_msgSend$spineIndexUpdated
+- _objc_msgSend$spineLocation
+- _objc_msgSend$spreadPagesAllowedWithViewportSize:fontSizeIndex:
+- _objc_msgSend$spreadView
+- _objc_msgSend$springAnimationForKeyPath:stiffness:damping:from:to:
+- _objc_msgSend$stableIdentifier
+- _objc_msgSend$stack
+- _objc_msgSend$stackView
+- _objc_msgSend$standardUserDefaults
+- _objc_msgSend$standardizedURL
+- _objc_msgSend$startActivityIndicatorAfterDelay:
+- _objc_msgSend$startAnimating
+- _objc_msgSend$startAnimation
+- _objc_msgSend$startAutoCurl
+- _objc_msgSend$startCFIsForNavigationInfoHrefs:
+- _objc_msgSend$startCountingAnnotations
+- _objc_msgSend$startFetchingAnnotations
+- _objc_msgSend$startFetchingBookmarks
+- _objc_msgSend$startLocationInView:
+- _objc_msgSend$startManualCurlAtPostion:
+- _objc_msgSend$startOffset
+- _objc_msgSend$startPath
+- _objc_msgSend$startPoint
+- _objc_msgSend$startReadAloud
+- _objc_msgSend$startSearchFromIndex
+- _objc_msgSend$startSearchIndex
+- _objc_msgSend$startSleepTimer
+- _objc_msgSend$startTime
+- _objc_msgSend$startTracking
+- _objc_msgSend$stashHighlights
+- _objc_msgSend$stashedPrimaryHighlights
+- _objc_msgSend$stashedSecondaryHighlights
+- _objc_msgSend$state
+- _objc_msgSend$stateForRegionWithKey:
+- _objc_msgSend$stateShouldClose
+- _objc_msgSend$statusBarFrame
+- _objc_msgSend$statusBarHeight
+- _objc_msgSend$statusBarHeightForWindow:
+- _objc_msgSend$statusBarManager
+- _objc_msgSend$steps
+- _objc_msgSend$stopActivityIndicator:
+- _objc_msgSend$stopAnimating
+- _objc_msgSend$stopFetchingAnnotations
+- _objc_msgSend$stopFetchingBookmarks
+- _objc_msgSend$stopLoading
+- _objc_msgSend$stopPlayingMedia:
+- _objc_msgSend$stopPlayingMediaIfNoLongerVisible
+- _objc_msgSend$stopReadAloud
+- _objc_msgSend$stopReadAloudAndReload:
+- _objc_msgSend$stopSleepTimer
+- _objc_msgSend$stopSoundtrack
+- _objc_msgSend$stopSoundtrackAndReload:
+- _objc_msgSend$storageKey
+- _objc_msgSend$storeDefaultStyle:
+- _objc_msgSend$storeFront
+- _objc_msgSend$storeFrontId
+- _objc_msgSend$storeId
+- _objc_msgSend$storeIdFromPlistEntry:
+- _objc_msgSend$storeImage:forKey:size:format:
+- _objc_msgSend$storeMgr
+- _objc_msgSend$storeShortURL
+- _objc_msgSend$storeShortURLForStoreId:dataSource:
+- _objc_msgSend$storeURLForStoreId:dataSource:
+- _objc_msgSend$storeURLPreferShort
+- _objc_msgSend$stores
+- _objc_msgSend$string
+- _objc_msgSend$stringByAddingPercentEncodingWithAllowedCharacters:
+- _objc_msgSend$stringByAppendingPathComponent:
+- _objc_msgSend$stringByAppendingPathExtension:
+- _objc_msgSend$stringByAppendingString:
+- _objc_msgSend$stringByConvertingControlCharactersToSpace
+- _objc_msgSend$stringByDeletingLastPathComponent
+- _objc_msgSend$stringByDeletingPathExtension
+- _objc_msgSend$stringByEscapingString:
+- _objc_msgSend$stringByRemovingPercentEncoding
+- _objc_msgSend$stringByRemovingURLFragment
+- _objc_msgSend$stringByReplacingOccurrencesOfString:withString:
+- _objc_msgSend$stringByStandardizingPath
+- _objc_msgSend$stringByTrimmingCharactersInSet:
+- _objc_msgSend$stringForKey:
+- _objc_msgSend$stringForKey:context:
+- _objc_msgSend$stringForPageNumber:
+- _objc_msgSend$stringFromDate:
+- _objc_msgSend$stringFromNumber:
+- _objc_msgSend$stringFromTimeInterval:
+- _objc_msgSend$stringResultForKey:
+- _objc_msgSend$stringValue
+- _objc_msgSend$stringWithCharacters:length:
+- _objc_msgSend$stringWithContentsOfFile:encoding:error:
+- _objc_msgSend$stringWithContentsOfURL:usedEncoding:error:
+- _objc_msgSend$stringWithFormat:
+- _objc_msgSend$stringWithPercentEscape
+- _objc_msgSend$stringWithString:
+- _objc_msgSend$stringWithUTF8String:
+- _objc_msgSend$stroke
+- _objc_msgSend$strokeColor
+- _objc_msgSend$style
+- _objc_msgSend$styleChangeSavedLocation
+- _objc_msgSend$styleForFont:presetIndex:
+- _objc_msgSend$styleManager
+- _objc_msgSend$styleManagerWithLanguage:
+- _objc_msgSend$styleWithEffect:shape:
+- _objc_msgSend$stylesheetSet
+- _objc_msgSend$stylizeBCNavigationBar:
+- _objc_msgSend$stylizeBCNavigationBarTranslucent:
+- _objc_msgSend$stylizeBCNavigationBarTransparent:
+- _objc_msgSend$stylizeBCToolbar:
+- _objc_msgSend$stylizeBCToolbarTranslucent:
+- _objc_msgSend$stylizeBarButtonItemDelete:
+- _objc_msgSend$stylizeButton:
+- _objc_msgSend$stylizeForTheme
+- _objc_msgSend$stylizeNavigationController:
+- _objc_msgSend$stylizeOuterView:
+- _objc_msgSend$stylizeScrollView:
+- _objc_msgSend$stylizeSegmentedControl:
+- _objc_msgSend$stylizeSlider:
+- _objc_msgSend$stylizeTableView:
+- _objc_msgSend$stylizeTableViewCell:
+- _objc_msgSend$subarrayWithRange:
+- _objc_msgSend$sublayerTransform
+- _objc_msgSend$substringFromIndex:
+- _objc_msgSend$substringToIndex:
+- _objc_msgSend$substringWithRange:
+- _objc_msgSend$subtitle
+- _objc_msgSend$subviews
+- _objc_msgSend$successfulLoad
+- _objc_msgSend$suffixForLanguage:
+- _objc_msgSend$summaryString
+- _objc_msgSend$superMegaPhonePortraitExactSizePredicate
+- _objc_msgSend$superPhoneLandscapeExactSizePredicate
+- _objc_msgSend$superview
+- _objc_msgSend$supportedInterfaceOrientations
+- _objc_msgSend$supportsBrightness
+- _objc_msgSend$supportsDocumentEditing
+- _objc_msgSend$supportsExpandedContent
+- _objc_msgSend$supportsNotesAndHighlights
+- _objc_msgSend$supportsResource:
+- _objc_msgSend$supportsScrollLayout
+- _objc_msgSend$supportsSinglePageMode
+- _objc_msgSend$supportsSpreadForVerticalLayout
+- _objc_msgSend$suppressColorSettingsForRequester:
+- _objc_msgSend$suppressTOC
+- _objc_msgSend$surroundingViews
+- _objc_msgSend$suspend
+- _objc_msgSend$swipeGesture
+- _objc_msgSend$switchColor
+- _objc_msgSend$switchHeight
+- _objc_msgSend$switchWidth
+- _objc_msgSend$switcherToolbar
+- _objc_msgSend$syncType
+- _objc_msgSend$systemBackgroundColor
+- _objc_msgSend$systemBlackColor
+- _objc_msgSend$systemBlueColor
+- _objc_msgSend$systemFontOfSize:
+- _objc_msgSend$systemFontOfSize:weight:
+- _objc_msgSend$systemFontOfSize:weight:design:
+- _objc_msgSend$systemImageNamed:
+- _objc_msgSend$systemImageNamed:withConfiguration:
+- _objc_msgSend$systemLayoutSizeFittingSize:
+- _objc_msgSend$systemName
+- _objc_msgSend$systemRedColor
+- _objc_msgSend$systemVersion
+- _objc_msgSend$tableFooterView
+- _objc_msgSend$tableSwitchHeightConstraint
+- _objc_msgSend$tableSwitchWidthConstraint
+- _objc_msgSend$tableView
+- _objc_msgSend$tableView:heightForFooterInSection:
+- _objc_msgSend$tableView:heightForHeaderInSection:
+- _objc_msgSend$tableView:heightForRowAtIndexPath:
+- _objc_msgSend$tableView:numberOfRowsInSection:
+- _objc_msgSend$tableView:shouldHighlightRowAtIndexPath:
+- _objc_msgSend$tableViewBackgroundColor
+- _objc_msgSend$tableViewCellBackgroundColor
+- _objc_msgSend$tableViewCellSelectedColor
+- _objc_msgSend$tableViewHeaderView
+- _objc_msgSend$tableViewSeparatorColor
+- _objc_msgSend$tableViewSeparatorStyle
+- _objc_msgSend$tag
+- _objc_msgSend$tailCFI
+- _objc_msgSend$takeBookOfflineIfManagedWithAnnotationProvider:assetID:
+- _objc_msgSend$takeSnapshotOfView:
+- _objc_msgSend$takeSnapshotOfView:rect:
+- _objc_msgSend$takeSnapshotOfView:rect:afterScreenUpdates:
+- _objc_msgSend$takeSnapshotWithConfiguration:completionHandler:
+- _objc_msgSend$tallPhoneSizeClassPredicate
+- _objc_msgSend$tapActionForLocation:view:ignoreOppositePage:
+- _objc_msgSend$tapGestureRecognizer
+- _objc_msgSend$tapToTurnWidth
+- _objc_msgSend$target
+- _objc_msgSend$targetPageNumber
+- _objc_msgSend$targetTimestamp
+- _objc_msgSend$targetTransform
+- _objc_msgSend$targetView
+- _objc_msgSend$teardown
+- _objc_msgSend$teardownNotifications
+- _objc_msgSend$tempOwnerID
+- _objc_msgSend$template
+- _objc_msgSend$templateSet
+- _objc_msgSend$templateWithString:error:
+- _objc_msgSend$templateWithURL:error:
+- _objc_msgSend$templates
+- _objc_msgSend$temporaryItemIdentifierFromPlistEntry:
+- _objc_msgSend$tertiaryTextColor
+- _objc_msgSend$testIsRunning
+- _objc_msgSend$testStateProvider
+- _objc_msgSend$testingLayout
+- _objc_msgSend$text
+- _objc_msgSend$textColor
+- _objc_msgSend$textContent
+- _objc_msgSend$textContentScript
+- _objc_msgSend$textDirectionDetermined
+- _objc_msgSend$textDirectionScript
+- _objc_msgSend$textFields
+- _objc_msgSend$textHighlightType
+- _objc_msgSend$textIndexWithName:
+- _objc_msgSend$textLabel
+- _objc_msgSend$textLabelTrailingAnchor
+- _objc_msgSend$textNodeCharacterCounts
+- _objc_msgSend$textNodeCharacterCountsScriptForSpineIndex:documentOrdinal:
+- _objc_msgSend$textShadowOffset
+- _objc_msgSend$theme
+- _objc_msgSend$themeContainer
+- _objc_msgSend$themeForAnnotationStyle:pageTheme:isUnderline:
+- _objc_msgSend$themeForEPUBTheme:
+- _objc_msgSend$themeForStyle:
+- _objc_msgSend$themeIdentifier
+- _objc_msgSend$themeMap
+- _objc_msgSend$themePage
+- _objc_msgSend$themeWithIdentifier:
+- _objc_msgSend$thenSteps
+- _objc_msgSend$thumb
+- _objc_msgSend$thumbRect
+- _objc_msgSend$thumbnailBookViewConfiguration
+- _objc_msgSend$thumbnailDirectory:cancelPreviousRenderRequestsWithContext:
+- _objc_msgSend$thumbnailDirectory:thumbnailForPage:size:context:
+- _objc_msgSend$thumbnailDirectoryWantsPageNumber:
+- _objc_msgSend$thumbnailForPage:asset:size:renderingCacheCallbackTarget:renderingCacheCallbackContext:priority:containerBounds:
+- _objc_msgSend$thumbnailForPageNumber:size:
+- _objc_msgSend$thumbnailScrubber:cancelPreviousRenderRequestsWithContext:
+- _objc_msgSend$thumbnailScrubber:pageTitleForPageNumber:
+- _objc_msgSend$thumbnailScrubber:thumbnailForPage:size:context:
+- _objc_msgSend$thumbnailSizeForAspectRatio:showSpreads:
+- _objc_msgSend$thumbnailingContentSizeForPageNumber:
+- _objc_msgSend$thumbnailingDelegate
+- _objc_msgSend$thumbnailingGenerateImageForPageNumber:size:callbackBlock:
+- _objc_msgSend$timeIntervalSince1970
+- _objc_msgSend$timeIntervalSinceNow
+- _objc_msgSend$timeIntervalSinceReferenceDate
+- _objc_msgSend$timeOut
+- _objc_msgSend$timeRangeInAudiobook
+- _objc_msgSend$tintColor
+- _objc_msgSend$tintColorForNavbarButtons
+- _objc_msgSend$tipContentController
+- _objc_msgSend$tipContentViewController
+- _objc_msgSend$tipContextName
+- _objc_msgSend$title
+- _objc_msgSend$titleFontSize
+- _objc_msgSend$titleForChapterAtPageNumber:
+- _objc_msgSend$titleFormat
+- _objc_msgSend$titleFromPlistEntry:
+- _objc_msgSend$titleLabel
+- _objc_msgSend$titlePadding
+- _objc_msgSend$titleSizeForText:indentation:font:width:
+- _objc_msgSend$titleTopConstraint
+- _objc_msgSend$toValue
+- _objc_msgSend$toViewController
+- _objc_msgSend$tocContentType
+- _objc_msgSend$tocCurrentLocation
+- _objc_msgSend$tocData
+- _objc_msgSend$tocDataIndexFromChapterHref:
+- _objc_msgSend$tocDelegate
+- _objc_msgSend$tocFetchedResultsController
+- _objc_msgSend$tocHTMLWithFetchedResultsController:directoryDelegate:chapterTopLevelFont:chapterSubLevelFont:pageLabelFont:themeContentBackgroundColor:textColor:selectedTextColor:pageNumberTextColor:separatorColor:highlightedBackgroundColor:highlightedTextColor:contentInsets:completionBlock:
+- _objc_msgSend$tocHasSpreadPages
+- _objc_msgSend$tocIdCssRules
+- _objc_msgSend$tocIndexPathForRowNearestPageNumber:
+- _objc_msgSend$tocIsVertical
+- _objc_msgSend$tocPageHref
+- _objc_msgSend$tocPageNumberTextColor
+- _objc_msgSend$tocParseJob
+- _objc_msgSend$tocRoot
+- _objc_msgSend$tocViewController:chapterTitleForAnnotation:
+- _objc_msgSend$tocViewController:didSelectChapter:
+- _objc_msgSend$tocViewController:pageNumberForChapter:
+- _objc_msgSend$tocViewController:pageTitleForAnnotation:
+- _objc_msgSend$tocViewController:pageTitleForChapter:
+- _objc_msgSend$tocViewController:shareAnnotations:sourceView:
+- _objc_msgSend$tocViewController:willTransitionToSize:withTransitionCoordinator:
+- _objc_msgSend$tocViewControllerContentDidChange:
+- _objc_msgSend$tocViewControllerCurrentLocation:
+- _objc_msgSend$tocViewControllerTocIdCssRules:
+- _objc_msgSend$toggleBookmark:
+- _objc_msgSend$toggleBookmarkForContentViewController:
+- _objc_msgSend$toggleControls:
+- _objc_msgSend$toggleControlsForContentViewController:
+- _objc_msgSend$toggleShowPageControls:
+- _objc_msgSend$tokenCountWithEnumerationOptions:maxTokenCount:outLimitLength:
+- _objc_msgSend$toolbar
+- _objc_msgSend$toolbarButtonMargin
+- _objc_msgSend$toolbarHidden
+- _objc_msgSend$toolbarItems
+- _objc_msgSend$toolbarTitleColor
+- _objc_msgSend$toolbars
+- _objc_msgSend$topAnchor
+- _objc_msgSend$topBarHeight
+- _objc_msgSend$topLeftToolbarFrame
+- _objc_msgSend$topPagesView
+- _objc_msgSend$topRightToolbarFrame
+- _objc_msgSend$topToolbar
+- _objc_msgSend$topViewController
+- _objc_msgSend$topViewFromCenter
+- _objc_msgSend$topViewToCenter
+- _objc_msgSend$totalPages
+- _objc_msgSend$totalZoomScale
+- _objc_msgSend$touchBarController
+- _objc_msgSend$touchBarPositionForPageNumber:
+- _objc_msgSend$touchBarPositionForPagePosition:
+- _objc_msgSend$touchBarScrollerBookIsRightToLeft
+- _objc_msgSend$touchInProgress
+- _objc_msgSend$touchesEnded:withEvent:
+- _objc_msgSend$track
+- _objc_msgSend$trackOrientation
+- _objc_msgSend$trackReadingSessionBeganWithAssetID:sessionID:trackerEventType:readingFeatureFlags:completion:
+- _objc_msgSend$trackReadingSessionEndedWithAssetID:sessionID:trackerEventType:readingFeatureFlags:completion:
+- _objc_msgSend$trackState
+- _objc_msgSend$trackingTouch
+- _objc_msgSend$tracks
+- _objc_msgSend$traditional
+- _objc_msgSend$trailingAnchor
+- _objc_msgSend$trailingLocation
+- _objc_msgSend$traitCollection
+- _objc_msgSend$traitCollectionWithTraitsFromCollections:
+- _objc_msgSend$transform
+- _objc_msgSend$transition
+- _objc_msgSend$transitionContentView
+- _objc_msgSend$transitionDidFinish:
+- _objc_msgSend$transitionDuration
+- _objc_msgSend$transitionDuration:
+- _objc_msgSend$transitionFromViewController:toViewController:transition:reverse:
+- _objc_msgSend$transitionLocation
+- _objc_msgSend$transitionLocationForContentViewController:
+- _objc_msgSend$transitionLocationForNavigationController
+- _objc_msgSend$transitionWasCancelled
+- _objc_msgSend$translationInView:
+- _objc_msgSend$translationViewController
+- _objc_msgSend$truncateHistory
+- _objc_msgSend$tryEmbeddedHrefForCoverArtHref:
+- _objc_msgSend$turnChapterBehavior
+- _objc_msgSend$turnPageInDirection:
+- _objc_msgSend$turnPages:animated:
+- _objc_msgSend$turnPages:animated:completion:
+- _objc_msgSend$turnState
+- _objc_msgSend$turnToBeginningOfChapter
+- _objc_msgSend$turnToEndOfPreviousChapterWithAnimation:
+- _objc_msgSend$turnToFirstPage:
+- _objc_msgSend$turnToInitialPage:
+- _objc_msgSend$turnToNextChapter
+- _objc_msgSend$turnToNextPage
+- _objc_msgSend$turnToNextPageWithDelta:
+- _objc_msgSend$turnToPageNumber:animated:
+- _objc_msgSend$turnToPageNumber:animated:completion:
+- _objc_msgSend$turnToPreviousChapter
+- _objc_msgSend$turnToPreviousPage
+- _objc_msgSend$turnToPreviousPageWithDelta:
+- _objc_msgSend$type
+- _objc_msgSend$uiManagedObjectContext
+- _objc_msgSend$unCurlPages:backPages:inContainer:
+- _objc_msgSend$unbatchedObjectsWithPredicate:forEntity:
+- _objc_msgSend$unbookmarkPage:
+- _objc_msgSend$unboxedDocumentOrdinal
+- _objc_msgSend$uncurlAnimationAngle
+- _objc_msgSend$uncurlAnimationRadius
+- _objc_msgSend$uncurlAnimationShadowColor
+- _objc_msgSend$uncurlAnimationTime
+- _objc_msgSend$uncurlPages:backPage:inContainer:
+- _objc_msgSend$underlinePercent
+- _objc_msgSend$underlineTheme:
+- _objc_msgSend$unfreeze
+- _objc_msgSend$unhandledClickAtPoint:
+- _objc_msgSend$unifedAllFrameStylesheet
+- _objc_msgSend$unionSet:
+- _objc_msgSend$unionWithCFI:
+- _objc_msgSend$uniqueIdFromPlistEntry:
+- _objc_msgSend$unknown
+- _objc_msgSend$unknownCFI
+- _objc_msgSend$unknownCFIString
+- _objc_msgSend$unknownLocation
+- _objc_msgSend$unlockWithPassword:
+- _objc_msgSend$unpaginatedAnnotations
+- _objc_msgSend$unregisterFiles
+- _objc_msgSend$unregisterForVisibleCFIUpdates
+- _objc_msgSend$unsignedIntValue
+- _objc_msgSend$unsignedIntegerValue
+- _objc_msgSend$unsignedLongLongValue
+- _objc_msgSend$unsignedLongValue
+- _objc_msgSend$upSellData
+- _objc_msgSend$updateAnchorInformation:
+- _objc_msgSend$updateAppearance
+- _objc_msgSend$updateBackgroundColorsWithTraitCollection:
+- _objc_msgSend$updateBookContentConstraints
+- _objc_msgSend$updateBookProgress:completion:
+- _objc_msgSend$updateBookProgress:currentPage:completion:
+- _objc_msgSend$updateBookmarkButton:
+- _objc_msgSend$updateBottomToolbar:
+- _objc_msgSend$updateBrightness
+- _objc_msgSend$updateButton
+- _objc_msgSend$updateButtonAppearance
+- _objc_msgSend$updateButtonTitle
+- _objc_msgSend$updateCachedPages
+- _objc_msgSend$updateCachedURLFrom:to:
+- _objc_msgSend$updateConstraintsIfNeeded
+- _objc_msgSend$updateContentInsets
+- _objc_msgSend$updateContentScale
+- _objc_msgSend$updateContentStyleAndConfiguration
+- _objc_msgSend$updateControlStates
+- _objc_msgSend$updateCurlPercent:
+- _objc_msgSend$updateCurrentReadingPositionViewIfNeeded
+- _objc_msgSend$updateDate
+- _objc_msgSend$updateFixedLayoutWebView:fixedLayoutSize:
+- _objc_msgSend$updateFonts
+- _objc_msgSend$updateHUDVisibilityAnimated:
+- _objc_msgSend$updateHasPhysicalPages
+- _objc_msgSend$updateHighlightImage
+- _objc_msgSend$updateLabelFont
+- _objc_msgSend$updateLabels
+- _objc_msgSend$updateLastRecordedCFILocation:
+- _objc_msgSend$updateLastRecordedPageLocation:
+- _objc_msgSend$updateLayout
+- _objc_msgSend$updateLayoutWithParentView:bottomMargin:calloutWidth:followThumb:isScroll:isVerticalScroll:layoutDirection:scrubber:
+- _objc_msgSend$updateLocationIfNeeded
+- _objc_msgSend$updateManualAnimationToLocation:
+- _objc_msgSend$updateManualCurl:toLocation:
+- _objc_msgSend$updateManualCurlToLocation:
+- _objc_msgSend$updateManualCurlToPosition:
+- _objc_msgSend$updateMediaForBook:chapter:mediaCFI:progress:completion:
+- _objc_msgSend$updateMediaFrames:
+- _objc_msgSend$updateOrdinalForBookInfo:
+- _objc_msgSend$updatePageCount
+- _objc_msgSend$updatePageNumberHUD
+- _objc_msgSend$updatePageNumberSpecificControls:
+- _objc_msgSend$updatePageNumberStrings
+- _objc_msgSend$updatePageStylesheet
+- _objc_msgSend$updatePaginationCache:
+- _objc_msgSend$updatePaginationOptions:
+- _objc_msgSend$updatePaginationProgress:
+- _objc_msgSend$updatePopoverSize
+- _objc_msgSend$updateProgress
+- _objc_msgSend$updateProgressKitForNewLocation
+- _objc_msgSend$updateReadingProgressAndBumpHighWaterMarkToProgress:
+- _objc_msgSend$updateReadingStatisticsForScroll
+- _objc_msgSend$updateRowHeight
+- _objc_msgSend$updateScriptWithOptions:
+- _objc_msgSend$updateScriptWithOptions:gapBetweenPages:paginatedTopToBottom:
+- _objc_msgSend$updateScriptWithOptions:pageLength:gapBetweenPages:
+- _objc_msgSend$updateScrubber:
+- _objc_msgSend$updateScrubberUsingTouchbar:
+- _objc_msgSend$updateSelectionHighlights
+- _objc_msgSend$updateSelectionWithExtentPoint:withBoundary:completionHandler:
+- _objc_msgSend$updateSpineLocation
+- _objc_msgSend$updateThemeButtons
+- _objc_msgSend$updateToolbarController
+- _objc_msgSend$updateTopToolbar:
+- _objc_msgSend$updateTouchBarController
+- _objc_msgSend$updateUI
+- _objc_msgSend$updateUIAndPerformAnimationWithContent:
+- _objc_msgSend$updateUIForSmartInvert
+- _objc_msgSend$updateUpsellZoomScale
+- _objc_msgSend$updateView
+- _objc_msgSend$updateViewConstraints
+- _objc_msgSend$updateVisibleArtwork
+- _objc_msgSend$updateVisibleContentViewControllerForOffset:
+- _objc_msgSend$updateWebViewFrame
+- _objc_msgSend$updatedHighlight:
+- _objc_msgSend$upgradeAnnotationsScript:
+- _objc_msgSend$upgradedBookmarks
+- _objc_msgSend$upsellContentInsets
+- _objc_msgSend$upsellContentViewController
+- _objc_msgSend$upsellOrdinal
+- _objc_msgSend$upsellPageNumber
+- _objc_msgSend$upsellThumbnailForAsset:size:
+- _objc_msgSend$url
+- _objc_msgSend$urlForDocument:
+- _objc_msgSend$urlForHref:
+- _objc_msgSend$urlScheme
+- _objc_msgSend$urlToDocumentCache
+- _objc_msgSend$urlToStringCache
+- _objc_msgSend$useEnhancedEditMenu
+- _objc_msgSend$useGlobalContentStyle
+- _objc_msgSend$useInnerRect:
+- _objc_msgSend$useInvertedColors
+- _objc_msgSend$useNightColors
+- _objc_msgSend$usePageViewController:withViewOptions:
+- _objc_msgSend$usePaginationLineGrid
+- _objc_msgSend$useRoundedCornerRadius
+- _objc_msgSend$useSelectedFont:
+- _objc_msgSend$useWebkit2WithWebCells
+- _objc_msgSend$userAnnotationTypeValues
+- _objc_msgSend$userContentController
+- _objc_msgSend$userInfo
+- _objc_msgSend$userInteractionOccurred
+- _objc_msgSend$userInterfaceIdiom
+- _objc_msgSend$userInterfaceLayoutDirection
+- _objc_msgSend$userInterfaceLayoutDirectionForSemanticContentAttribute:
+- _objc_msgSend$userInterfaceStyle
+- _objc_msgSend$userNavigated
+- _objc_msgSend$usesPopoverStyle
+- _objc_msgSend$validLayoutForBook:desiredLayout:
+- _objc_msgSend$value
+- _objc_msgSend$valueForKey:
+- _objc_msgSend$valueForKey:fromNamespace:
+- _objc_msgSend$valueForKeyPath:
+- _objc_msgSend$valueForOptions:
+- _objc_msgSend$valueForPoint:
+- _objc_msgSend$valueOfAnnotationProperty:activityType:book:
+- _objc_msgSend$valueResultForKey:
+- _objc_msgSend$valueWithBytes:objCType:
+- _objc_msgSend$valueWithCGPoint:
+- _objc_msgSend$valueWithCGRect:
+- _objc_msgSend$valueWithCGSize:
+- _objc_msgSend$valueWithPoint:
+- _objc_msgSend$valueWithRange:
+- _objc_msgSend$valueWithRect:
+- _objc_msgSend$velocity
+- _objc_msgSend$velocityInView:
+- _objc_msgSend$verifySelectedFont
+- _objc_msgSend$version
+- _objc_msgSend$versionNumberHumanReadable
+- _objc_msgSend$verticalCenteringInsets
+- _objc_msgSend$verticalScrollFeatureEnabled
+- _objc_msgSend$verticalScrubber
+- _objc_msgSend$verticalScrubberAnimator
+- _objc_msgSend$verticalSizeClass
+- _objc_msgSend$view
+- _objc_msgSend$viewAtIndex:
+- _objc_msgSend$viewConfiguredForBooks:protocolCacheItem:paginationOptions:cleanupOptions:cfiOptions:stylesheetSet:styleManager:
+- _objc_msgSend$viewConfiguredForCoverContent:bookID:protocolCacheItem:paginationOptions:cfiOptions:
+- _objc_msgSend$viewConfiguredForPagination:protocolCacheItem:paginationOptions:cleanupOptions:cfiOptions:stylesheetSet:styleManager:
+- _objc_msgSend$viewConfiguredForPictureBooks:fixedLayoutSize:protocolCacheItem:paginationOptions:cleanupOptions:cfiOptions:stylesheetSet:
+- _objc_msgSend$viewConfiguredForPreview:enableDeveloperExtras:bookID:protocolCacheItem:cleanupOptions:stylesheetSet:
+- _objc_msgSend$viewConfiguredForSearch:protocolCacheItem:paginationOptions:cleanupOptions:cfiOptions:stylesheetSet:styleManager:contentSupportMode:completion:
+- _objc_msgSend$viewConfiguredForTocParse:assetID:cleanupOptions:
+- _objc_msgSend$viewConfiguredForWebTOC:
+- _objc_msgSend$viewController
+- _objc_msgSend$viewControllerForKey:
+- _objc_msgSend$viewControllers
+- _objc_msgSend$viewForLiveResize
+- _objc_msgSend$viewForPageNumber:
+- _objc_msgSend$viewForZoomingInScrollView:
+- _objc_msgSend$viewIfLoaded
+- _objc_msgSend$viewSizeChanged
+- _objc_msgSend$viewWithTag:
+- _objc_msgSend$visibleCFIRange
+- _objc_msgSend$visibleCFIString
+- _objc_msgSend$visibleCells
+- _objc_msgSend$visibleContentViewController
+- _objc_msgSend$visiblePageBookmarks
+- _objc_msgSend$visiblePageHighlights
+- _objc_msgSend$visiblePages
+- _objc_msgSend$visibleRectForLocation:
+- _objc_msgSend$visibleRectForLocation:completion:
+- _objc_msgSend$volume
+- _objc_msgSend$volumeSlider
+- _objc_msgSend$waitUntilAllOperationsAreFinished
+- _objc_msgSend$wantTranslucentToolbars
+- _objc_msgSend$wantsBottomToolbar
+- _objc_msgSend$wantsDoubleTapGestureRecognizer
+- _objc_msgSend$wantsJumpBackHistory
+- _objc_msgSend$wantsTapToHideToolbarGestureRecognizer
+- _objc_msgSend$wasAborted
+- _objc_msgSend$wasParsed
+- _objc_msgSend$webView
+- _objc_msgSend$webView2
+- _objc_msgSend$webViewCachedImageView
+- _objc_msgSend$webViewForPagination
+- _objc_msgSend$webViewForSnapshotting:size:
+- _objc_msgSend$webViewLoaded
+- _objc_msgSend$webViewLoader:didChangeSelection:
+- _objc_msgSend$webViewLoader:didUpdateCurrentVisibleCFILocation:
+- _objc_msgSend$webViewProxy
+- _objc_msgSend$webViewTrackingID
+- _objc_msgSend$webViews
+- _objc_msgSend$whiteColor
+- _objc_msgSend$whitePageForSize:right:scale:contentSize:applyMaskAndGutter:containerBounds:
+- _objc_msgSend$whitespaceAndNewlineCharacterSet
+- _objc_msgSend$whitespaceCharacterSet
+- _objc_msgSend$width
+- _objc_msgSend$widthAnchor
+- _objc_msgSend$willAccessValueForKey:
+- _objc_msgSend$willChangeValueForKey:
+- _objc_msgSend$willChangeValueForKey:withSetMutation:usingObjects:
+- _objc_msgSend$willMoveToParentViewController:
+- _objc_msgSend$window
+- _objc_msgSend$windowScene
+- _objc_msgSend$wkWebView
+- _objc_msgSend$workIsStillPending
+- _objc_msgSend$writableBookInfoForDatabaseKey_sync:block:
+- _objc_msgSend$writeAnnotationsToWebProcessPlugin
+- _objc_msgSend$writeAnnotationsToWebProcessPlugin:andHighlights:
+- _objc_msgSend$writeControlVisibilityStateToWebProcessPlugin
+- _objc_msgSend$writeControlVisibilityStateToWebProcessPlugin:
+- _objc_msgSend$writeToFile:atomically:
+- _objc_msgSend$writeToURL:options:error:
+- _objc_msgSend$writeToURL:withOptions:
+- _objc_msgSend$writingDirection
+- _objc_msgSend$writingModeScript
+- _objc_msgSend$yellowColor
+- _objc_msgSend$yellowTheme:
+- _objc_msgSend$zoom:animated:
+- _objc_msgSend$zoomScale
+- _objc_msgSend$zoomToLeadingPageAnimated:
+- _objc_msgSend$zoomToPage:animated:
+- _objc_msgSend$zoomToPoint:scale:animated:
+- _objc_msgSend$zoomToRect:animated:
+- _objc_msgSend$zoomToRect:animated:completionBlock:
+- _objc_msgSend$zoomToSpread:
+- _objc_msgSend$zoomVisiblePageToFit:
+- _objc_msgSend$zoomingScrollView:didSimulateZoomScale:onView:
+- _recognizerBelongsToWebView
+- _swift_errorRelease
+- _swift_getAtKeyPath
+- _swift_getObjCClassFromMetadata
+- _symbolic $s13AEBookPlugins15ContentFragmentP
+- _symbolic $s13AEBookPlugins19PaginatableDocumentP
+- _symbolic $s13AEBookPlugins29PaginatableDocumentCollectionP
+- _symbolic $s13AEBookPlugins30DocumentPaginationDataProviderP
+- _symbolic $s13AEBookPlugins38DocumentCollectionInformationCacheTypeP
+- _symbolic $s13AEBookPlugins40AudiobookAnalyticsRecorderTrackerHostingP
+- _symbolic $s13AEBookPlugins8LandmarkP
+- _symbolic $sSY
+- _symbolic $ss10SetAlgebraP
+- _symbolic $ss25ExpressibleByArrayLiteralP
+- _symbolic $ss9OptionSetP
+- _symbolic 13AEBookPlugins15ContentFragment_p
+- _symbolic 13AEBookPlugins19PaginatableDocument_p
+- _symbolic 13AEBookPlugins30DocumentPaginationDataProvider_pSg
+- _symbolic 13AEBookPlugins8Landmark_p
+- _symbolic Ieg_
+- _symbolic SDySS_____G So6CGRectV
+- _symbolic SDySS_____GSg So6CGRectV
+- _symbolic SDySSypG
+- _symbolic SS
+- _symbolic SSSg
+- _symbolic Say13AEBookPlugins19PaginatableDocument_pG
+- _symbolic Say13AEBookPlugins8Landmark_pG
+- _symbolic Say13AEBookPlugins8Landmark_pGSg
+- _symbolic SaySSG
+- _symbolic SaySo10BKDocumentCG
+- _symbolic Say_____G 13AEBookPlugins10AnnotationC
+- _symbolic Say_____G 13AEBookPlugins4PageC
+- _symbolic Say_____G So6CGRectV
+- _symbolic Say_____SgG 13AEBookPlugins10AnnotationC
+- _symbolic Say______pG s7CVarArgP
+- _symbolic SayypG
+- _symbolic SayypGSg
+- _symbolic Sb
+- _symbolic Sd
+- _symbolic Sf
+- _symbolic Si
+- _symbolic SiSg
+- _symbolic So10BKDocumentC
+- _symbolic So11BKAudiobook_pSg
+- _symbolic So11BUAssertion_pSg
+- _symbolic So12AEAnnotationCm
+- _symbolic So15UIBarButtonItemC
+- _symbolic So16BASessionHosting_p
+- _symbolic So16BASessionHosting_pSg
+- _symbolic So17BKAudiobookPlayerC
+- _symbolic So29BKAudiobookMediaRemoteAdaptorC
+- _symbolic So42AEAudiobookAnalyticsRecorderTrackerHosting_pSgXw
+- _symbolic So6UIViewC
+- _symbolic So7UIImageCSg
+- _symbolic So8NSObjectC
+- _symbolic So8UIButtonC
+- _symbolic Su
+- _symbolic _____ 10Foundation4DateV
+- _symbolic _____ 12CoreGraphics7CGFloatV
+- _symbolic _____ 13AEBookPlugins10AnnotationC
+- _symbolic _____ 13AEBookPlugins10AnnotationC0C4TypeO
+- _symbolic _____ 13AEBookPlugins10AnnotationC5StyleO
+- _symbolic _____ 13AEBookPlugins13BookViewModelC
+- _symbolic _____ 13AEBookPlugins19MarkupBarButtonItemC
+- _symbolic _____ 13AEBookPlugins20ContentPageDirectionO
+- _symbolic _____ 13AEBookPlugins21DocumentPageDirectionO
+- _symbolic _____ 13AEBookPlugins22DocumentCollectionTypeO
+- _symbolic _____ 13AEBookPlugins25MarkupButtonContainerViewC
+- _symbolic _____ 13AEBookPlugins25PaginationDataProviderLog33_50BE979FECE42AB212BC405E3669DBC7LLV
+- _symbolic _____ 13AEBookPlugins26AudiobookAnalyticsRecorderC
+- _symbolic _____ 13AEBookPlugins26DocumentPaginationDataInfoC
+- _symbolic _____ 13AEBookPlugins4PageC
+- _symbolic _____ 13AEBookPlugins8DocumentC
+- _symbolic _____ 13BookAnalytics11BitRateDataV
+- _symbolic _____ 13BookAnalytics11ContentDataV
+- _symbolic _____ 13BookAnalytics12CellularDataV
+- _symbolic _____ 13BookAnalytics16DoNotDisturbDataV
+- _symbolic _____ 13BookAnalytics17ListeningRoutedToO
+- _symbolic _____ 13BookAnalytics18DoNotDisturbStatusO
+- _symbolic _____ 13BookAnalytics20ListeningSessionDataV
+- _symbolic _____ 13BookAnalytics22AudioPlaybackSpeedDataV
+- _symbolic _____ 13BookAnalytics25ListeningActionSourceDataV
+- _symbolic _____ 13BookAnalytics29CellularRadioAccessTechnologyO
+- _symbolic _____ 13BookAnalytics8SkipDataV
+- _symbolic _____ 13BookAnalytics9BATrackerC
+- _symbolic _____ 13BookAnalytics9ErrorDataV
+- _symbolic _____ So16MPAVRouteSubtypeV
+- _symbolic _____ So18UIApplicationStateV
+- _symbolic _____ So18UIViewAutoresizingV
+- _symbolic _____ So23BKAudiobookActionSourceV
+- _symbolic _____ So24UIUserInterfaceSizeClassV
+- _symbolic _____ So6CGRectV
+- _symbolic _____ So6CGSizeV
+- _symbolic _____ So7CGPointV
+- _symbolic _____ So8_NSRangeV
+- _symbolic _____Iegn_ 13BookAnalytics16DoNotDisturbDataV
+- _symbolic _____Sg 10Foundation4DateV
+- _symbolic _____Sg 13AEBookPlugins10AnnotationC
+- _symbolic _____Sg 13BookAnalytics10SeriesTypeO
+- _symbolic _____Sg 13BookAnalytics14ContentSubTypeO
+- _symbolic _____Sg 13BookAnalytics14ProductionTypeO
+- _symbolic _____Sg 13BookAnalytics22ContentAcquisitionTypeO
+- _symbolic _____Sg 13BookAnalytics9BATrackerC
+- _symbolic _____Sg 13BookAnalytics9MangaFlagO
+- _symbolic _____SgXw 13AEBookPlugins26AudiobookAnalyticsRecorderC
+- _symbolic ______p s5ErrorP
+- _symbolic ______p s7CVarArgP
+- _symbolic _____ySay13AEBookPlugins19PaginatableDocument_pGG 7Combine9PublishedV
+- _symbolic _____ySay13AEBookPlugins19PaginatableDocument_pG_G 7Combine9PublishedV9PublisherV
+- _symbolic _____ySay13AEBookPlugins8Landmark_pGG 7Combine9PublishedV
+- _symbolic _____ySay13AEBookPlugins8Landmark_pGSgG 7Combine9PublishedV
+- _symbolic _____ySay13AEBookPlugins8Landmark_pGSg_G 7Combine9PublishedV9PublisherV
+- _symbolic _____ySay13AEBookPlugins8Landmark_pG_G 7Combine9PublishedV9PublisherV
+- _symbolic _____ySay_____GG 7Combine9PublishedV 13AEBookPlugins10AnnotationC
+- _symbolic _____ySay_____GG 7Combine9PublishedV 13AEBookPlugins4PageC
+- _symbolic _____ySay_____G_G 7Combine9PublishedV9PublisherV 13AEBookPlugins10AnnotationC
+- _symbolic _____ySay_____G_G 7Combine9PublishedV9PublisherV 13AEBookPlugins4PageC
+- _symbolic _____ySiG 7Combine9PublishedV
+- _symbolic _____ySi_G 7Combine9PublishedV9PublisherV
+- _textRangeViewClass.clazz
+- _textRangeViewClass.onceToken
+- _unnamed_array_storage.102
+- _unnamed_array_storage.107
+- _unnamed_array_storage.112
+- _unnamed_array_storage.117
+- _unnamed_array_storage.121
+- _unnamed_array_storage.125
+- _unnamed_array_storage.13
+- _unnamed_array_storage.250
+- _unnamed_array_storage.259
+- _unnamed_array_storage.261
+- _unnamed_array_storage.262
+- _unnamed_array_storage.371
+- _unnamed_array_storage.498
+- _unnamed_array_storage.71
+- _unnamed_array_storage.72
+- _unnamed_array_storage.96
+- be_PDFPageViewControllerClass.onceToken
+- be_PDFPageViewControllerClass.wkContentViewClass
+- be_enableAutoscaleHacks.onceToken
+- be_enablePDFPageViewControllerHacks.onceToken
+- bk_isWKSyntheticTapGestureRecognizer.WKSyntheticTapGestureRecognizerClass
+- bk_isWKSyntheticTapGestureRecognizer.onceToken
+- block_copy_helper.56
+- block_descriptor.58
+- block_destroy_helper.57
+- cachedFallbackInfo.fallbackInfo
+- cachedFallbackInfo.onceToken
+- configureForPlatform.onceToken
+- contentLayoutSize.lastLoggedSize.0
+- contentLayoutSize.lastLoggedSize.1
+- documentKeyWithHref:documentOrdinal:.onceToken
+- emptyBackgroundColor.__emptyBackgroundColor
+- fontSizeForFont:category:.onceToken
+- fontSizeForFont:category:.presetIndices
+- gestureRecognizer:shouldRequireFailureOfGestureRecognizer:.WKTouchActionGestureRecognizerClass
+- gestureRecognizer:shouldRequireFailureOfGestureRecognizer:.onceToken
+- paginationRevision.revision
+- shared._sharedInstance
+- shared.onceToken
+- sharedInstance._sharedPDFCache
+- sharedInstance.cache
+- sharedInstance.onceToken
+- sharedInstance.provider
+- sharedInstance.providerLock
+- sharedInstance.sInstanceGuard
+- startTracking._sharedAdaptor
+- startTracking.onceToken
+- templateSet.onceToken
+- templateSet.templateSet
+- themeMap.onceToken
+- themeMap.themes
+- tocWebTemplate.onceToken
+- tocWebTemplate.tmpl
+- unknownLocation.onceToken
+- unknownLocation.sUnknownLocation
+CStrings:
++ "\x02\x11\x11\x11H"
++ "\x02R\x13"
++ "%@; type:%ld; performFetch Failed. error:%{public}@ info:%{public}@"
++ "%lu Bookmark(s) Selected"
++ "%lu Highlight(s) Selected"
++ "%{public}@ status: %d"
++ "%{public}@: downloadstatus: %d"
++ "-[BKFont registerFiles:] could not register %{public}@"
++ "@\"NSArray\"24@0:8@\"NSString\"16"
++ "@\"UIMenu\"16@?0@\"NSArray\"8"
++ "@\"UIToolbar\""
++ "@64@0:8@16@24@32Q40@48@?56"
++ "Adjusting additionalSafeAreaInsets to account for _editingToolbar, before adjustments:%@"
++ "Attempting download of %{public}@"
++ "BERestorationAssetAppearanceKey"
++ "BERestorationAssetIDKey"
++ "Down-casted Array element failed to match the target type\nExpected "
++ "Empty language parameter, no font found for %{public}@"
++ "Error downloading %{public}@: %@"
++ "Error downloading %{public}@: %{public}@"
++ "Failed to swap image urls: %@"
++ "Failed to update Image Inversion: %@"
++ "Filename for %{public}@ not found, no font found"
++ "Font lookup for %{public}@ not found, no font found"
++ "Highlighting row at %@"
++ "Invert"
++ "NSArray element failed to match the Swift Array Element type\nExpected "
++ "PaginatableDocument"
++ "Performing primary action for row %ld"
++ "R\x14"
++ "REI.DisableAutoFontDownload"
++ "Removing _editingToolbar"
++ "Removing highlight from cell at:%@"
++ "Select"
++ "Skipping edit mode toolbar install, seems it already has a superview:%@"
++ "T@\"NSString\",C,N,V_languageSuffix"
++ "T@\"UIToolbar\",R,W"
++ "TB,N,V_disableAutoFontDownload"
++ "TB,N,V_imageFilteringEnabled"
++ "TB,N,V_showOriginal"
++ "TB,N,V_showingFilteredImage"
++ "Tq,N,V_tocContentType"
++ "Updating toolbar content: %lu items selected"
++ "__ibooks_image_filter.refetchVisibleImages(%@)"
++ "_applyImageFilter:"
++ "_disableAutoFontDownload"
++ "_editingToolbar"
++ "_imageFilteringEnabled"
++ "_invert:"
++ "_prepareImageShowOriginal:"
++ "_showOriginal"
++ "_showingFilteredImage"
++ "_swapImageProtocols"
++ "actionWithTitle:image:identifier:handler:"
++ "additionalSafeAreaInsets"
++ "beginEditingIfNeeded"
++ "beginEditingMode"
++ "beginSelectionStartingWithIndexPath:"
++ "cellHeightForCellWidth:chapterString:dateString:pageString:layoutDirection:"
++ "cellHeightInPopoverForBounds:highlightFont:annotation:dateString:pageString:layoutDirection:"
++ "chapterTitleFrameForString:font:bounds:pageLabelFrame:layoutDirection:"
++ "chapterTitleFrameForString:font:letMargin:numberOfLines:bounds:pageLabelFrame:layoutDirection:"
++ "chapterTitleFrameInPopoverForString:font:bounds:pageLabelFrame:layoutDirection:"
++ "checkmark.circle"
++ "configurationWithIdentifier:previewProvider:actionProvider:"
++ "configureFocusRing"
++ "configureSelectedBackgroundView"
++ "configureWithPageString:dateString:insets:"
++ "contentInfoRequestWithPaginationOptions:cleanupOptions:cfiOptions:ordinal:stylesheetSet:completion:"
++ "context.menu.delete"
++ "context.menu.select"
++ "context.menu.share"
++ "currentImage:withFilter:"
++ "currentLocationContentSnapshot.png"
++ "currentReachabilityStatus"
++ "dateLabelFrameForString:font:bounds:minY:layoutDirection:"
++ "dateLabelFrameForString:font:bounds:pageLabelFrame:layoutDirection:"
++ "dateLabelFrameInPopoverForString:font:bounds:minY:pageLabelFrame:layoutDirection:"
++ "deleteAnnotationAtIndexPath:"
++ "deleteFromToolbar"
++ "deleteSelectedAnnotations"
++ "didBeginMultipleSelectionInteractionAtIndexPath:%@"
++ "disableAutoFontDownload"
++ "downloadWithAllowCellular:"
++ "editToolbarFooterTextWithCount:"
++ "editingToolbar"
++ "effectiveUserInterfaceLayoutDirection"
++ "endEditingIfNeeded"
++ "endEditingMode"
++ "expandedContentOptions"
++ "fallbackFontFamiliesForFontFamily:"
++ "fixedLayoutOptionsWithLanguage:"
++ "flexibleSpaceItem"
++ "fontsForLanguage:completion:"
++ "highlightedTextFrameForAnnotation:font:bounds:letMargin:numberOfLines:pageLabelFrame:layoutDirection:"
++ "highlightedTextFrameForAnnotation:font:bounds:pageLabelFrame:layoutDirection:"
++ "highlightedTextFrameInPopoverForAnnotation:font:bounds:pageLabelFrame:layoutDirection:"
++ "imageFilteringEnabled"
++ "imageIsFilteringCandidate:"
++ "initWithAllFrameStylesheets:"
++ "initWithBarButtonSystemItem:primaryAction:"
++ "initWithCIImage:"
++ "initWithFixedSize:"
++ "initWithMainframeOnlyStylesheets:"
++ "initWithMainframeOnlyStylesheets:allFrameStylesheets:"
++ "initWithManifestId:assetId:chapterIndex:spineIndex:"
++ "initWithMode:useNewTextStyling:fontFamily:language:respectImageSizeClass:respectImageSizeClassIsPrefix:justification:fontWeight:overrideLineHeight:overrideLetterSpacing:overrideWordSpacing:readingMode:"
++ "initWithMode:usePaginationLineGrid:respectPageBreaks:isHorizontalScroll:contentLayoutSize:gapBetweenPages:viewportWidth:fixedLayoutSize:pageLength:fontSize:developerExtrasEnabled:"
++ "initWithPrimaryAction:"
++ "installEditModeToolbar"
++ "invertedImage:"
++ "isUnavailable"
++ "items"
++ "javascriptForSwappingAllImages"
++ "javascriptForUpdatedDisplaySetting:imageFilterMode:"
++ "languageIsSimplifiedChinese"
++ "leftToolbarItems"
++ "makeSelectedBackgroundView"
++ "menuWithChildren:"
++ "p_annotationForIndexPath:"
++ "p_annotationsForRowItems:"
++ "p_selectedAnnotations"
++ "pageLabelFrameForString:font:bounds:layoutDirection:"
++ "pageLabelFrameForString:font:bounds:topMargin:layoutDirection:"
++ "pageLabelFrameInPopoverForString:font:bounds:layoutDirection:"
++ "prewarmFontsForLanguage:completion:"
++ "prewarmSharedResourcesWithCompletion:"
++ "removeEditModeToolbar"
++ "removeHighlightFromCurrentLocation"
++ "restorationImageAppearance"
++ "restorationImageAssetID"
++ "restorationImageURL"
++ "rightToolbarItems"
++ "setAdditionalSafeAreaInsets:"
++ "setDisableAutoFontDownload:"
++ "setImageFilteringEnabled:"
++ "setItems:animated:"
++ "setRestorationImageAppearance:"
++ "setRestorationImageAssetID:"
++ "setShowOriginal:"
++ "setShowingFilteredImage:"
++ "setupSelectedBackgroundNil"
++ "shareFromToolbar"
++ "shareItemAtIndexPath:"
++ "shareSelectedAnnotationsFromSourceView:"
++ "sharedReachabilityForInternetConnection"
++ "shouldAutoDownload"
++ "showInvertedImage"
++ "showOriginal"
++ "showingFilteredImage"
++ "tocViewControllerDidChangeEditing:"
++ "toolbar.delete"
++ "toolbar.share"
++ "toolbarLabelItem"
++ "trash"
++ "updateToolbarContent"
++ "v64@0:8@16@24{UIEdgeInsets=dddd}32"
++ "viewConfiguredForPreview:enableDeveloperExtras:bookID:imageFilterMode:protocolCacheItem:cleanupOptions:stylesheetSet:"
++ "\x82"
+- "\x02!\x11\x11H"
+- "\x03b\x16"
+- "\n"
+- "        "
+- " Ordinal: "
+- " PageCount: "
+- " created: "
+- " location: "
+- " modified: "
+- " note: "
+- " pageNumer: "
+- " style: "
+- " type: "
+- " uuid: "
+- "![NSThread isMainThread]"
+- "%@ came in with a modifType = %d which is unsupported in an incremental update"
+- "%@; type:%d; performFetch Failed. error:%{public}@ info:%{public}@"
+- "((pageNumber!=NSNotFound) && (pageNumber >=0))"
+- "-[BKFont registerFiles:] could not register %@"
+- "@\"NSArray\"32@0:8@\"NSString\"16@\"NSString\"24"
+- "AEBookInfo.m"
+- "AEBookInfoAssetPlugin.mm"
+- "AEBookPlugins/AEBookInfo+Paginatable.swift"
+- "AEBookPlugins/Annotation.swift"
+- "AEBookPlugins/AudiobookAnalyticsRecorder.swift"
+- "AEBookPlugins/BKDocument+Paginatable.swift"
+- "AEBookPlugins/BookViewModel.swift"
+- "AEBookPlugins/Document.swift"
+- "AEBookPlugins/DocumentPaginationDataProvider.swift"
+- "AEEPubProofingHelper.m"
+- "AEEpubInfoSource.m"
+- "AEMinimalTemplate.mm"
+- "AEPdfRenderingCache.m"
+- "AETestDriver.m"
+- "AVRCP"
+- "Accessibility string for the markup button being in an 'off' state."
+- "Accessibility string for the markup button being in an 'on' state."
+- "Accessibility string for the markup feature."
+- "Assert in _doSearch"
+- "Assertion failed"
+- "BC_ISA(search, BKWK2EpubSearchOperation)"
+- "BEFontFallbackProviding"
+- "BKBookViewController.m"
+- "BKFlowingBookViewController.m"
+- "BKPDFModernBookViewController.m"
+- "BKPaginationController.m"
+- "BKPaginationPrepareOperation.m"
+- "BKPaginationResultsOperation.m"
+- "BKPdfSearchOperation.m"
+- "BKPictureBookPaginationOperation.m"
+- "BKSearchController.m"
+- "BKTOCContentViewController.m"
+- "BKTOCTableViewCell.m"
+- "BKWK2EpubSearchOperation.m"
+- "BTAvrcp"
+- "Can't unsafeBitCast between types of different sizes"
+- "CarPlay"
+- "ContentViewStyleManager.m"
+- "Could not locate %@.tmpl"
+- "Could not parse %@.tmpl: %@"
+- "Couldn't get TOC cell template"
+- "Couldn't parse TOC cell template: %@"
+- "Division by zero in remainder operation"
+- "Division results in an overflow in remainder operation"
+- "Empty language parameter, no font found for %@"
+- "Error downloading %@: %@"
+- "Expected subclasses to implement this."
+- "Expecting the single zoom rect to be the current page."
+- "Failed to add AEBookInfo persistent store"
+- "Filename for %@ not found, no font found"
+- "Float value cannot be converted to Int32 because it is either infinite or NaN"
+- "Float value cannot be converted to Int32 because the result would be greater than Int32.max"
+- "Float value cannot be converted to Int32 because the result would be less than Int32.min"
+- "Font lookup for %@ not found, no font found"
+- "Invalid parameter not satisfying: %@"
+- "Invalid step during parsing"
+- "Markup"
+- "NA"
+- "NSThread.isMainThread"
+- "NightModeSelectionBack"
+- "Not enough bits to represent a signed value"
+- "Not enough bits to represent the passed value"
+- "Off"
+- "On"
+- "Only utilized in REI"
+- "Pagination not running on main thread"
+- "Pagination not using main thread"
+- "R\x12\x12"
+- "Range requires lowerBound <= upperBound"
+- "Reached base implementation of contentViewControllerForLocation:. Concrete subclasses of BKBookViewController need to implement this."
+- "Something went wrong in our parsing"
+- "StaticString should have Unicode scalar representation"
+- "StaticString should have pointer representation"
+- "Swift/AssertCommon.swift"
+- "Swift/Builtin.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/Integers.swift"
+- "Swift/Range.swift"
+- "Swift/StaticString.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "T@\"NSString\",&,N,V_languageSuffix"
+- "T@\"UIColor\",&,N"
+- "T@\"UIColor\",&,N,V_highlightTextColor"
+- "T@\"UIImage\",&,N,V_highlightImage"
+- "T@\"UIImage\",&,N,V_multipleSelectionTickBackgroundImage"
+- "T@\"UIImageView\",&,N,V_highlightImageView"
+- "T@\"UIImageView\",&,N,V_multipleSelectionTickBackgroundImageView"
+- "T@\"UIImageView\",&,N,V_ribbonImageView"
+- "Td,N,V_containingVerticalInset"
+- "Ti,N,V_tocContentType"
+- "Tq,N,V_writingDirection"
+- "Unexpectedly found nil while implicitly unwrapping an Optional value"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "Unknown syncType"
+- "UnsafeBufferPointer has a nil start and nonzero count"
+- "UnsafeBufferPointer with negative count"
+- "You can only call this for Highlights/Notes"
+- "You can only call this for TOC, not Highlights/Notes"
+- "You can only set the book for a BKBookViewController once"
+- "_boldFont"
+- "_configureForFixedSize:"
+- "_containingVerticalInset"
+- "_highlightImageView"
+- "_highlightTextColor"
+- "_multipleSelectionTickBackgroundImage"
+- "_multipleSelectionTickBackgroundImageView"
+- "_ribbonImageView"
+- "_timeoutWaitingForPaint"
+- "_writingDirection"
+- "animatedTransitionToState:"
+- "ar"
+- "be_adjustScrollDynamicsIfNeeded"
+- "blue"
+- "bn"
+- "bo"
+- "boldFont"
+- "bookInfo is not an AEBookInfo"
+- "cellHeightForCellWidth:chapterString:dateString:pageString:writingDirection:"
+- "cellHeightInPopoverForBounds:highlightFont:annotation:dateString:pageString:writingDirection:"
+- "chapterTitleFrameForString:font:bounds:pageLabelFrame:writingDirection:"
+- "chapterTitleFrameForString:font:letMargin:numberOfLines:bounds:pageLabelFrame:writingDirection:"
+- "chapterTitleFrameInPopoverForString:font:bounds:pageLabelFrame:writingDirection:"
+- "configureWithHighlightImage:pageString:dateString:insets:"
+- "containingVerticalInset"
+- "content: "
+- "contentInfoRequestWithPaginationOptions:cleanupOptions:cfiOptions:ordinal:stylesheetSet:fontSize:completion:"
+- "currentHandler"
+- "dateLabelFrameForString:font:bounds:fixedYOffset:writingDirection:"
+- "dateLabelFrameForString:font:bounds:minY:writingDirection:"
+- "dateLabelFrameForString:font:bounds:writingDirection:"
+- "dateLabelFrameForString:font:fixedYOffset:bounds:writingDirection:"
+- "dateLabelFrameInPopoverForString:font:bounds:minY:pageLabelFrame:writingDirection:"
+- "editingStyle"
+- "endOfBookEndOfValidRange:"
+- "endOfBookStartOfValidRange:"
+- "finalRequest"
+- "global"
+- "green"
+- "gu"
+- "handleFailureInMethod:object:file:lineNumber:description:"
+- "he"
+- "hi"
+- "highlightBackgroundColor"
+- "highlightImage"
+- "highlightImageView"
+- "highlightTextColor"
+- "highlightedTextFrameForAnnotation:font:bounds:letMargin:numberOfLines:pageLabelFrame:writingDirection:"
+- "highlightedTextFrameForAnnotation:font:bounds:pageLabelFrame:writingDirection:"
+- "highlightedTextFrameInPopoverForAnnotation:font:bounds:pageLabelFrame:writingDirection:"
+- "ib_icon_bookmark"
+- "invalid layout type: %@"
+- "isOffline"
+- "isThemeDefault"
+- "iu"
+- "javascriptForUpdatedDisplaySetting:"
+- "kn"
+- "ko"
+- "languageIsBengali:"
+- "languageIsDevanagari:"
+- "languageIsGujarati:"
+- "languageIsGurmukhi:"
+- "languageIsHongKongChinese:"
+- "languageIsInuktitut:"
+- "languageIsJapanese:"
+- "languageIsKannada:"
+- "languageIsKorean:"
+- "languageIsMalayalam:"
+- "languageIsOriya:"
+- "languageIsSinhala:"
+- "languageIsTamil:"
+- "languageIsTelugu:"
+- "languageIsThai:"
+- "languageIsTibetan:"
+- "languageIsTraditionalChinese:"
+- "layoutSubviewsEditingWithBounds:"
+- "loadRibbonForBounds:"
+- "makeSelectedBackgroundView:"
+- "ml"
+- "multipleSelectionTickBackgroundImage"
+- "multipleSelectionTickBackgroundImageView"
+- "name != nil"
+- "or"
+- "pa"
+- "pageLabelFrameForString:font:bounds:topMargin:writingDirection:"
+- "pageLabelFrameForString:font:bounds:writingDirection:"
+- "pageLabelFrameInPopoverForString:font:bounds:writingDirection:"
+- "physicalChapter"
+- "physicalPage"
+- "pink"
+- "point"
+- "prewarmFontsForLanguage:"
+- "prewarmSharedResources"
+- "protocolScheme"
+- "purple"
+- "reflowable"
+- "refreshLayout"
+- "ribbonFrameForBounds:size:pageLabelFrame:"
+- "ribbonImageView"
+- "ribbonPageLabelPadding"
+- "ribbonSize"
+- "rmt"
+- "selectionStyle"
+- "self must be a properly aligned pointer for types Pointee and T"
+- "self.bookBundlePath"
+- "setAllFrameStylesheets:"
+- "setAssetId:"
+- "setChapterIndex:"
+- "setContainingVerticalInset:"
+- "setDeveloperExtrasEnabled:"
+- "setEditing:"
+- "setGapBetweenPages:"
+- "setHighlightImage:"
+- "setHighlightImageView:"
+- "setHighlightTextColor:"
+- "setIsHorizontalScroll:"
+- "setMainframeOnlyStylesheets:"
+- "setMode:"
+- "setMultipleSelectionBackgroundView:"
+- "setMultipleSelectionTickBackgroundImage:"
+- "setMultipleSelectionTickBackgroundImageView:"
+- "setPageLength:"
+- "setRespectPageBreaks:"
+- "setRibbonImageView:"
+- "setSpineIndex:"
+- "setUsePaginationLineGrid:"
+- "setViewportWidth:"
+- "setWritingDirection:"
+- "shouldDisableFontFallbacksForLanguage:"
+- "si"
+- "style is not expected to be nil"
+- "ta"
+- "te"
+- "th"
+- "tmpl != nil"
+- "turn count incorrect"
+- "underline"
+- "useWebkit2WithWebCells"
+- "v24@?0@\"NSString\"8@\"NSString\"16"
+- "v72@0:8@16@24@32{UIEdgeInsets=dddd}40"
+- "viewConfiguredForPreview:enableDeveloperExtras:bookID:protocolCacheItem:cleanupOptions:stylesheetSet:"
+- "willTransitionToState:"
+- "yellow"
+- "zh_cn"
+- "zh_hk"
+- "zh_tw"
+- "zoomRects"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}80@0:8@16@24d32{CGRect={CGPoint=dd}{CGSize=dd}}40q72"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}96@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGSize=dd}48{CGRect={CGPoint=dd}{CGSize=dd}}64"
+
+```
