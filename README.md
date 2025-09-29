@@ -154,6 +154,7 @@
 > **NOTE:** switch from iPhone17,1 to iPhone18,1
 
 - [26.0 (23A341) .vs 26.0 revision (23A345)](26_0_23A341__vs_26_0_23A345/README.md)
+- [26.0 (23A345) .vs 26.0.1 (23A355)](26_0_23A345__vs_26_0_1_23A355/README.md)
 
 ### iOS 26.1 beta
 
