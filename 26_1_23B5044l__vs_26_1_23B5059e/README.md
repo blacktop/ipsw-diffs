@@ -73,6 +73,10 @@
 
 </details>
 
+### KDKs
+
+- [KDK DIFF](KDK.md)
+
 ## MachO
 
 ### 🆕 NEW (15)
@@ -886,106 +890,106 @@
 <details>
   <summary><i>View NEW</i></summary>
 
+##### `iboot_blob32.bin`
+  - `PCUC0HHHLHrHyHzHnNaPmpx`
+  - `4A7ALBrBLCrCHDMDSDUDcDdDxDLHrHLKrKLNmNrNMPTPmPzPPRTRlRrRyRzRLSrSITyhzhxrP`
+  - `TCAPACDLHDHPNIRNDVPUVilpslp0tvU`
+  - `0C1C0IRL0c1c2c3c4c0sD`
+  - `TTMHTTMTTSTT|`
+  - `RCCDDDRMnNROAPRRTR2S0w1w2w3w4w5w6wh`
+  - `RA0B2BHBLBrB9CCCLCSCWCrC0K2KHKLKrKHMMMSMVM0NHNLNSNnNrN0PAPBPHPLPSPUPZPaPrPyPzP0SHSLSrS0THTUU0WHW0b2b4b6bHbkb0c7cHcccucDi0kHkkkHmMmSmVmxmHpMpSpmp4r6r0sHsSs0t4t6tHtL`
+  - `0BEBQBaB0C2CCCDFMF0I0KBPSPUPaPdPsPzP1R2RMRPRRRpR0SLTPT0Wsp`
+  - `aAcAiAaBcBiBaDcDiEjEmEsEwEaLcLiLaPcPePiPmPnPpPx,2`
+  - `nNTP0R1R2R3R4R5R6R7R8R9RMRPR0U0b0c@`
 ##### `RTKit.bin`
   - `:%d DBB 15 minute system uptime timeout`
-##### `iboot_blob30.bin`
-  - `#953#95S#95s#95`
-  - `595s595S59ur`
-  - `69U369US69Us69U`
-  - `&953&9US79Us795S&95s&95`
-  - `95S 95s 95`
-  - `89U389US89Us89U`
-  - `<9u2<9uR<9ur<9u`
-  - ` 9u2 9uR 9ur 9`
-  - `89uM69u-89uM89um89u`
-  - `*9US&9Us&9v`
-  - `239uR39ur39`
-  - `$953$95S$9u`
-  - `69u-99uM99um99u`
-  - `"9u2"9uR"9`
-  - `:9uM59u-59u`
-  - `59U359US59Us59U`
-  - `$9US49Us495`
-  - `59u359uS59us59u`
-  - `9US+9Us+9u`
-  - `+9u2+9uR+9v`
-  - `%953%95S%95s%9U`
-  - `69uM79um79u`
-  - `9US19Us19U`
-  - `59US:9Us:9U`
-  - `69ur89uR89v`
-  - `9US29U349U`
-  - `9US,9Us,9u`
-  - `&9Us%9US%9us&9uS&9`
-  - `:9u-:9uM:9u`
-  - `953295s195`
-  - `49u349uS49us49u`
-  - `49u-;9um49uM49u-49u`
-  - `39um39uM39u`
-  - `09u209uR09`
-  - `2)9uR)9ur)9vb`
-  - `3+9uS+9us+9v`
-  - `695s695S69`
-  - `&9u2&9uR&9v`
-  - `2.9uR.9ur.9`
-  - `99U399US99Us99U`
-  - `=9u2=95s$95`
-  - `9u2!9uR!9ur!9u`
-##### `AppleSMCFirmware.bin`
-  - `AppleSMCFirmware_H18-6164.40.75.0.2.v53.REL`
-##### `iboot_blob13.bin`
-  - `RSII9UMI9CQI9TUI9j`
-##### `iboot_blob31.bin`
-  - `gPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVmVnVSWfihiiiminisiglilsodpiprptpY<&`
-  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpYd=`
-  - `-DIBVRBDICVRCICEVSENEG00P10P20P30P40P50P60P70P80P90P0FPtlPDIUREV00cBCcPCcUCcuCc0HcHHcLHcrHcyHczHc0PcaPcdPcsPczPc0hcHhclhcrhcyhczhc0pcapc\P`
-  - `A1I1V1A2I2LBACCDDDWD0FPFRFWFLSsxL`
-  - `Ef0f1f2f34@`
-  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH$`
-  - `DACEACNKDADGBDGCDGSDG1GL2GL4GLFONSGOIMPSMPcMP"`
-  - `E0C1CBCUC1D0Tl@`
-  - `95S795s795`
-  - ` CAPARASAUAVA0C1C2CKCSCVCCFFOPOROTOUOFPSPFRRRGSLSOSRSSSTSVSRTFVRVE`
-  - `95S895s895`
-  - `CDIMNOPSUV;T`
-  - `1dA2dA1kA2kA1tA2tANSECCFDCFPCFSCFTCFPATpX`
-##### `iboot_blob33.bin`
-  - `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_COMP`
-  - `0000000000WWWWWWWWWWWWWWWWWWWWWWWWWW`
-  - `root@Sep 28 2025@21:35:10~.release`
 ##### `iboot_blob34.bin`
   - `%s:%d Unexpected interrupt source: %x`
   - `fury_enable_scan: %d`
-##### `iboot_blob32.bin`
-  - `PCUC0HHHLHrHyHzHnNaPmpx`
-  - `nNTP0R1R2R3R4R5R6R7R8R9RMRPR0U0b0c@`
-  - `TCAPACDLHDHPNIRNDVPUVilpslp0tvU`
-  - `TTMHTTMTTSTT|`
-  - `0BEBQBaB0C2CCCDFMF0I0KBPSPUPaPdPsPzP1R2RMRPRRRpR0SLTPT0Wsp`
-  - `0C1C0IRL0c1c2c3c4c0sD`
-  - `aAcAiAaBcBiBaDcDiEjEmEsEwEaLcLiLaPcPePiPmPnPpPx,2`
-  - `4A7ALBrBLCrCHDMDSDUDcDdDxDLHrHLKrKLNmNrNMPTPmPzPPRTRlRrRyRzRLSrSITyhzhxrP`
-  - `RCCDDDRMnNROAPRRTR2S0w1w2w3w4w5w6wh`
-  - `RA0B2BHBLBrB9CCCLCSCWCrC0K2KHKLKrKHMMMSMVM0NHNLNSNnNrN0PAPBPHPLPSPUPZPaPrPyPzP0SHSLSrS0THTUU0WHW0b2b4b6bHbkb0c7cHcccucDi0kHkkkHmMmSmVmxmHpMpSpmp4r6r0sHsSs0t4t6tHtL`
+##### `iboot_blob29.bin`
+  - `r!95S.95s.95`
+  - `395s395S39`
+  - `9uA$9ua$9u`
+  - ` 9ua 9uA 9u! 9u`
+  - `295s295S2953`
+  - `r"95S/95s/95`
+  - `%9u!%9uA%9ua%9u`
+  - `"9ua"9uA"9u!"9u`
+  - `39u339uS395`
+  - `!9ua!9uA!9u`
+  - `19u319uS19us19u`
+  - `495s495S49`
+  - `$95S095s095`
+##### `AppleSMCFirmware.bin`
+  - `AppleSMCFirmware_H18-6164.40.75.0.2.v53.REL`
+##### `iboot_blob33.bin`
+  - `0000000000WWWWWWWWWWWWWWWWWWWWWWWWWW`
+  - `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_COMP`
+  - `root@Sep 28 2025@21:35:10~.release`
 ##### `iboot`
   - `usbcfw_tnt-35.40.4`
-  - ` %s: Dummy cluster power_up program, reg = %p,  apply_mask = %d`
   - `GP_CE0_MISC1_IBOOT1_SEQ`
+  - ` %s: Dummy cluster power_up program, reg = %p,  apply_mask = %d`
   - `platform_reconfig_seq_init`
-##### `iboot_blob29.bin`
-  - ` 9ua 9uA 9u! 9u`
-  - `39u339uS395`
-  - `$95S095s095`
-  - `%9u!%9uA%9ua%9u`
-  - `9uA$9ua$9u`
-  - `395s395S39`
-  - `495s495S49`
-  - `19u319uS19us19u`
-  - `r!95S.95s.95`
-  - `!9ua!9uA!9u`
-  - `r"95S/95s/95`
-  - `"9ua"9uA"9u!"9u`
-  - `295s295S2953`
+##### `iboot_blob13.bin`
+  - `RSII9UMI9CQI9TUI9j`
+##### `iboot_blob30.bin`
+  - `%953%95S%95s%9U`
+  - `39um39uM39u`
+  - `9US29U349U`
+  - ` 9u2 9uR 9ur 9`
+  - `2.9uR.9ur.9`
+  - `+9u2+9uR+9v`
+  - `&9u2&9uR&9v`
+  - `$953$95S$9u`
+  - `69ur89uR89v`
+  - `&953&9US79Us795S&95s&95`
+  - `49u-;9um49uM49u-49u`
+  - `=9u2=95s$95`
+  - `59US:9Us:9U`
+  - `$9US49Us495`
+  - `9US+9Us+9u`
+  - `239uR39ur39`
+  - `<9u2<9uR<9ur<9u`
+  - `69U369US69Us69U`
+  - `49u349uS49us49u`
+  - `953295s195`
+  - `89U389US89Us89U`
+  - `99U399US99Us99U`
+  - `59u359uS59us59u`
+  - `2)9uR)9ur)9vb`
+  - `9US,9Us,9u`
+  - `&9Us%9US%9us&9uS&9`
+  - `69u-99uM99um99u`
+  - `9US19Us19U`
+  - `3+9uS+9us+9v`
+  - `695s695S69`
+  - `:9uM59u-59u`
+  - `*9US&9Us&9v`
+  - `9u2!9uR!9ur!9u`
+  - `09u209uR09`
+  - `595s595S59ur`
+  - `95S 95s 95`
+  - `"9u2"9uR"9`
+  - `89uM69u-89uM89um89u`
+  - `:9u-:9uM:9u`
+  - `69uM79um79u`
+  - `#953#95S#95s#95`
+  - `59U359US59Us59U`
+##### `iboot_blob31.bin`
+  - `A1I1V1A2I2LBACCDDDWD0FPFRFWFLSsxL`
+  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpYd=`
+  - `gPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVmVnVSWfihiiiminisiglilsodpiprptpY<&`
+  - `-DIBVRBDICVRCICEVSENEG00P10P20P30P40P50P60P70P80P90P0FPtlPDIUREV00cBCcPCcUCcuCc0HcHHcLHcrHcyHczHc0PcaPcdPcsPczPc0hcHhclhcrhcyhczhc0pcapc\P`
+  - `Ef0f1f2f34@`
+  - `DACEACNKDADGBDGCDGSDG1GL2GL4GLFONSGOIMPSMPcMP"`
+  - `CDIMNOPSUV;T`
+  - `1dA2dA1kA2kA1tA2tANSECCFDCFPCFSCFTCFPATpX`
+  - ` CAPARASAUAVA0C1C2CKCSCVCCFFOPOROTOUOFPSPFRRRGSLSOSRSSSTSVSRTFVRVE`
+  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH$`
+  - `E0C1CBCUC1D0Tl@`
+  - `95S895s895`
+  - `95S795s795`
 
 </details>
 
@@ -994,95 +998,95 @@
 <details>
   <summary><i>View Removed</i></summary>
 
-##### `iboot_blob30.bin`
-  - `3973$97S$97s$97`
-  - `597M897-897`
-  - `9wS-9ws-9kc`
-  - `>97S497s49w`
-  - `997m997M997`
-  - `&9ws&9wS&9`
-  - `*9w3*9wS*9x`
-  - `=9wr=9w2=9w`
-  - `9wS'9ws'9k`
-  - `?9w2:9wr?9wR:9w2?9w`
-  - `3+9wS+9ws+9x`
-  - `597-597m:97M597-:97m597`
-  - `097S197319?`
-  - `.9w3.9wS.9`
-  - `9wS09ws09k#`
-  - `?9wr:97349w`
-  - `%973%97S%97s%97`
-  - `97S 9?3 98`
-  - `597s597S597359w`
-  - `9wS*9ws*9k`
-  - `59w359wS59ws59w`
-  - `#973#97S#97s#97`
-  - `R7m797-697M797-797`
-  - `3897S"97s"97`
-##### `iboot_blob31.bin`
-  - `1dA2dA1kA2kA1tA2tANSECCFDCFPCFSCFTCFPATpP`
-  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH0`
-  - `9wS99ws99xc`
-  - `CDIMNOPSUV;,`
-  - `-DIBVRBDICVRCICEVSENEG00P10P20P30P40P50P60P70P80P90P0FPtlPDIUREV00cBCcPCcUCcuCc0HcHHcLHcrHcyHczHc0PcaPcdPcsPczPc0hcHhclhcrhcyhczhc0pcapc\L`
-  - `973897S897s897`
-  - `E0C1CBCUC1D0T,@`
-  - `973797S797s797`
-  - `DACEACNKDADGBDGCDGSDG1GL2GL4GLFONSGOIMPSMPcMP"q`
-  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpYh=`
-  - `A1I1V1A2I2LBACCDDDWD0FPFRFWFLSs8L`
-  - ` CAPARASAUAVA0C1C2CKCSCVCCFFOPOROTOUOFPSPFRRRGSLSOSRSSSTSVSRTFVRVETa`
-  - `$M0B1B2B3B4B5B6B7B0C0F0S1S2S3S4S5S6S7S0b1b2b3b4b5b6b7b0c0f0s1s2s3s4s5s6s7s8`
-  - `gPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVmVnVSWfihiiiminisiglilsodpiprptpYL&`
-##### `iboot_blob34.bin`
-  - `%s:%d DBB 15 minute system uptime timeout`
-  - `y_enable_scan: %d`
-##### `iboot_blob13.bin`
-  - `RS9I9U=I9CAI9TEI9j`
-##### `iboot_blob29.bin`
-  - `39W339WS39E`
-  - `7s397S3973397`
-  - `49W349WS49Ws49Z`
-  - `$9w!$9wA$9wa$9`
-  - ` 9wa 9wA 9w! 9w`
-  - `#9w!#9wA#9wa#9*`
-  - `29W329WS29Ws29W`
-  - `w2 9wr 9d"`
-  - `29wr99wR99w299w`
-  - `"973/97S/97s/97`
-  - `#9w2#9wr#9u`
-  - ` 973-97S-97s-97`
-  - `#9ws#9wS#9w3#9m`
-  - `!973.97S.97s.97`
-  - `,9w2,9wR,9x`
-  - `wR%9wr%973097S097s097`
-  - `!9wa!9wA!9w!!9w`
-  - `59w259wR59xZ`
-  - `9wr79wR79?S`
-##### `iboot_blob33.bin`
-  - `root@Sep 05 2025@06:13:05~.release`
-  - `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_COMPLETE`
-  - `%s:%d Unexpected interrupt source: %x`
-##### `RTKit.bin`
-  - `read failed. resetting %d`
 ##### `iboot_blob32.bin`
-  - `nNTP0R1R2R3R4R5R6R7R8R9RMRPR0U0b0cd`
   - `MRD1TD2TDFTMLLc0HsHHsyhszhs\`
-  - `RA0B2BHBLBrB9CCCLCSCWCrC0K2KHKLKrKHMMMSMVM0NHNLNSNnNrN0PAPBPHPLPSPUPZPaPrPyPzP0SHSLSrS0THTUU0WHW0b2b4b6bHbkb0c7cHcccucDi0kHkkkHmMmSmVmxmHpMpSpmp4r6r0sHsSs0t4t6tHtH`
-  - `0BEBQBaB0C2CCCDFMF0I0KBPSPUPaPdPsPzP1R2RMRPRRR0SLTPT0Wsp`
-  - `4A7ALBrBLCrCHDMDSDUDcDdDxDLHrHLKrKLNmNrNMPTPmPzPPRTRlRrRyRzRLSrSITyhzhxrL`
-  - `0C1C0IRL0c1c2c3c4c0sh`
-  - `aAcAiAaBcBiBaDcDiEjEmEsEwEaLcLiLaPcPePiPmPnPpPx`
-  - `RCCDDDRMnNROAPRRTR2S0w1w2w3w4w5w6wd`
-  - `TTMHTTMTTSTTx`
   - `0000000000WWWWWWWWWWWWWWWWWWWWWWWWWW`
-  - `PCUC0HHHLHrHyHzHnNaPmpt`
+  - `aAcAiAaBcBiBaDcDiEjEmEsEwEaLcLiLaPcPePiPmPnPpPx`
+  - `TTMHTTMTTSTTx`
   - `TCAPACDLHDHPNIRNDVPUVilpslpU `
+  - `0BEBQBaB0C2CCCDFMF0I0KBPSPUPaPdPsPzP1R2RMRPRRR0SLTPT0Wsp`
+  - `PCUC0HHHLHrHyHzHnNaPmpt`
+  - `nNTP0R1R2R3R4R5R6R7R8R9RMRPR0U0b0cd`
+  - `0C1C0IRL0c1c2c3c4c0sh`
+  - `RA0B2BHBLBrB9CCCLCSCWCrC0K2KHKLKrKHMMMSMVM0NHNLNSNnNrN0PAPBPHPLPSPUPZPaPrPyPzP0SHSLSrS0THTUU0WHW0b2b4b6bHbkb0c7cHcccucDi0kHkkkHmMmSmVmxmHpMpSpmp4r6r0sHsSs0t4t6tHtH`
+  - `RCCDDDRMnNROAPRRTR2S0w1w2w3w4w5w6wd`
+  - `4A7ALBrBLCrCHDMDSDUDcDdDxDLHrHLKrKLNmNrNMPTPmPzPPRTRlRrRyRzRLSrSITyhzhxrL`
 ##### `AppleSMCFirmware.bin`
   - `AppleSMCFirmware_H18-6164.40.67.0.1.v53.REL`
+##### `iboot_blob33.bin`
+  - `root@Sep 05 2025@06:13:05~.release`
+  - `%s:%d Unexpected interrupt source: %x`
+  - `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_COMPLETE`
+##### `iboot_blob13.bin`
+  - `RS9I9U=I9CAI9TEI9j`
 ##### `iboot`
-  - `GP_CE0_AVE_IBOOT1_DUMMY_POWER_UP`
   - `usbcfw_tnt-35.40.2`
+  - `GP_CE0_AVE_IBOOT1_DUMMY_POWER_UP`
+##### `RTKit.bin`
+  - `read failed. resetting %d`
+##### `iboot_blob34.bin`
+  - `y_enable_scan: %d`
+  - `%s:%d DBB 15 minute system uptime timeout`
+##### `iboot_blob29.bin`
+  - ` 973-97S-97s-97`
+  - `,9w2,9wR,9x`
+  - `29W329WS29Ws29W`
+  - `wR%9wr%973097S097s097`
+  - `9wr79wR79?S`
+  - `"973/97S/97s/97`
+  - `w2 9wr 9d"`
+  - `#9w2#9wr#9u`
+  - `$9w!$9wA$9wa$9`
+  - `59w259wR59xZ`
+  - `7s397S3973397`
+  - `49W349WS49Ws49Z`
+  - `29wr99wR99w299w`
+  - `#9ws#9wS#9w3#9m`
+  - `39W339WS39E`
+  - `#9w!#9wA#9wa#9*`
+  - `!973.97S.97s.97`
+  - `!9wa!9wA!9w!!9w`
+  - ` 9wa 9wA 9w! 9w`
+##### `iboot_blob31.bin`
+  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpYh=`
+  - `9wS99ws99xc`
+  - `CDIMNOPSUV;,`
+  - `gPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVmVnVSWfihiiiminisiglilsodpiprptpYL&`
+  - `1dA2dA1kA2kA1tA2tANSECCFDCFPCFSCFTCFPATpP`
+  - `A1I1V1A2I2LBACCDDDWD0FPFRFWFLSs8L`
+  - `973897S897s897`
+  - `$M0B1B2B3B4B5B6B7B0C0F0S1S2S3S4S5S6S7S0b1b2b3b4b5b6b7b0c0f0s1s2s3s4s5s6s7s8`
+  - ` CAPARASAUAVA0C1C2CKCSCVCCFFOPOROTOUOFPSPFRRRGSLSOSRSSSTSVSRTFVRVETa`
+  - `-DIBVRBDICVRCICEVSENEG00P10P20P30P40P50P60P70P80P90P0FPtlPDIUREV00cBCcPCcUCcuCc0HcHHcLHcrHcyHczHc0PcaPcdPcsPczPc0hcHhclhcrhcyhczhc0pcapc\L`
+  - `973797S797s797`
+  - `E0C1CBCUC1D0T,@`
+  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH0`
+  - `DACEACNKDADGBDGCDGSDG1GL2GL4GLFONSGOIMPSMPcMP"q`
+##### `iboot_blob30.bin`
+  - `3897S"97s"97`
+  - `*9w3*9wS*9x`
+  - `9wS*9ws*9k`
+  - `9wS'9ws'9k`
+  - `.9w3.9wS.9`
+  - `=9wr=9w2=9w`
+  - `R7m797-697M797-797`
+  - `?9w2:9wr?9wR:9w2?9w`
+  - `597s597S597359w`
+  - `59w359wS59ws59w`
+  - `>97S497s49w`
+  - `#973#97S#97s#97`
+  - `9wS09ws09k#`
+  - `&9ws&9wS&9`
+  - `597-597m:97M597-:97m597`
+  - `097S197319?`
+  - `?9wr:97349w`
+  - `3973$97S$97s$97`
+  - `9wS-9ws-9kc`
+  - `997m997M997`
+  - `97S 9?3 98`
+  - `597M897-897`
+  - `%973%97S%97s%97`
+  - `3+9wS+9ws+9x`
 
 </details>
 
