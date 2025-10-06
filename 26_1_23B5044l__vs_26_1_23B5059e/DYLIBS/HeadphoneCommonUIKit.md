@@ -1,0 +1,77 @@
+## HeadphoneCommonUIKit
+
+> `/System/Library/PrivateFrameworks/HeadphoneCommonUIKit.framework/HeadphoneCommonUIKit`
+
+```diff
+
+-31.5.2.1.2
+-  __TEXT.__text: 0x6eef0
+-  __TEXT.__auth_stubs: 0x1d50
++31.8.0.0.0
++  __TEXT.__text: 0x6f1c8
++  __TEXT.__auth_stubs: 0x1dc0
+   __TEXT.__objc_methlist: 0xe2c
+   __TEXT.__const: 0x2114
+   __TEXT.__gcc_except_tab: 0x44
+   __TEXT.__cstring: 0x2ca4
+   __TEXT.__oslogstring: 0x655
+   __TEXT.__ustring: 0x1a6
+-  __TEXT.__swift5_typeref: 0x2112
++  __TEXT.__swift5_typeref: 0x2126
+   __TEXT.__swift5_reflstr: 0x535
+   __TEXT.__swift5_assocty: 0x260
+   __TEXT.__constg_swiftt: 0x152c
+
+   __TEXT.__objc_methname: 0x3048
+   __TEXT.__objc_methtype: 0xab4
+   __TEXT.__objc_stubs: 0x2100
+-  __DATA_CONST.__got: 0x7e0
++  __DATA_CONST.__got: 0x800
+   __DATA_CONST.__const: 0x2c0
+   __DATA_CONST.__objc_classlist: 0xa0
+   __DATA_CONST.__objc_catlist: 0x8
+
+   __DATA_CONST.__objc_selrefs: 0x1070
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0x38
+-  __AUTH_CONST.__auth_got: 0xeb8
++  __AUTH_CONST.__auth_got: 0xef0
+   __AUTH_CONST.__const: 0x3a88
+   __AUTH_CONST.__cfstring: 0xd20
+   __AUTH_CONST.__objc_const: 0x2508
+   __AUTH.__objc_data: 0xd58
+   __AUTH.__data: 0x318
+   __DATA.__objc_ivar: 0xd0
+-  __DATA.__data: 0x1598
++  __DATA.__data: 0x15a8
+   __DATA.__common: 0x200
+   __DATA.__bss: 0x1620
+   __DATA_DIRTY.__objc_data: 0xa0
++  __DATA_DIRTY.__data: 0x8
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 843E3765-48BE-39FB-BCBF-1923951C30AF
+-  Functions: 1984
++  UUID: 45E12A1B-FDDF-314B-9B39-E78B8EEE79CA
++  Functions: 1988
+   Symbols:   1544
+   CStrings:  1207
+ 
+Symbols:
++ ___block_literal_global.167
++ _get_witness_table 20HeadphoneCommonUIKit27CheckmarkItemDatasourceTypeRzl7SwiftUI15ModifiedContentVyAC4ViewPACE20accessibilityElement8childrenQrAC26AccessibilityChildBehaviorV_tFQOyAgCE12onTapGesture5count7performQrSi_yyctFQOyAEyAEyAC6HStackVyAC05TupleL0VyAEyAEyAEyAEyAEy0N0_11ImageResultQZAC30_EnvironmentKeyWritingModifierVyAC4FontVSgGGAWyAC5ColorVSgGGAC18_AspectRatioLayoutVGAC12_FrameLayoutVGAC14_PaddingLayoutVG_AC6VStackVyARyAC4TextV_AEyAEyAS_6ResultQZA_GA4_GtGGAC6SpacerVAEyAEyAC0Z0VA4_GA4_GSgtGGAC01_K13ShapeModifierVyAC9RectangleVGGAC16_FlexFrameLayoutVG_Qo__Qo_AC0P18AttachmentModifierVGAcFHPqd__AcFHD2_A44_HO_A46_AC0L8ModifierHPyHCHC.25
++ _get_witness_table 20HeadphoneCommonUIKit27CheckmarkItemDatasourceTypeRzlqd0__7SwiftUI4ViewHD3_AcDPACE15navigationTitleyQrqd__SyRd__lFQOyAE8SettingsE22settingsListAppearanceQryFQOyAC0O0Vys5NeverOAC7ForEachVySnySiGSiAC7SectionVy06HeaderJ0QzANySayAA019CheckMarkSelectableE0Cy7ElementQzGG10Foundation4UUIDVAA0vwX12SelectionRowVyxGG06FooterJ0QzGGG_Qo__SSQo_HO.24
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAHy20HeadphoneCommonUIKit18SplitContainerPairVyAA6VStackVyAA05TupleC0VyAA03AnyC0V_AA4TextVSgtGGAQSgGAA01_J13ShapeModifierVyAA9RectangleVGGAA16_FlexFrameLayoutVG_Qo_HO.26
++ _symbolic _____y_____y_____yAAyAAy_____y_____yAAyAAyAAyAAyAAy7Element______11ImageResult_____QZ_____y_____SgGGAIy_____SgGG_____G_____G_____G______yACy______AAyAAyAdE_0C0AGQZALGAPGtGG_____AAyAAy_____APGAPGSgtGG_____y_____GG_____G_Qo__Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE12onTapGesture5count7performQrSi_yyctFQO AA6HStackV AA05TupleE0V 20HeadphoneCommonUIKit27CheckmarkItemDatasourceTypeP AQ09CheckMarkW10SelectableP AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA18_AspectRatioLayoutV AA12_FrameLayoutV AA14_PaddingLayoutV AA6VStackV AA4TextV AA6SpacerV AA5ImageV AA01_D13ShapeModifierV AA9RectangleV AA16_FlexFrameLayoutV AA0I18AttachmentModifierV
+- ___block_literal_global.166
+- _get_witness_table 20HeadphoneCommonUIKit27CheckmarkItemDatasourceTypeRzlqd0__7SwiftUI4ViewHD3_AcDPACE15navigationTitleyQrqd__SyRd__lFQOyAE8SettingsE22settingsListAppearanceQryFQOyAC0O0Vys5NeverOAC7ForEachVySnySiGSiAC7SectionVy06HeaderJ0QzANySayAA019CheckMarkSelectableE0Cy7ElementQzGG10Foundation4UUIDVAA0vwX12SelectionRowVyxGG06FooterJ0QzGGG_Qo__SSQo_HO.23
+- _get_witness_table 20HeadphoneCommonUIKit27CheckmarkItemDatasourceTypeRzlqd__7SwiftUI4ViewHD2_AcDPACE12onTapGesture5count7performQrSi_yyctFQOyAC15ModifiedContentVyAJyAC6HStackVyAC05TupleJ0VyAJyAJyAJyAJyAJy7Element_11ImageResultQZAC30_EnvironmentKeyWritingModifierVyAC4FontVSgGGASyAC5ColorVSgGGAC18_AspectRatioLayoutVGAC12_FrameLayoutVGAC14_PaddingLayoutVG_AC6VStackVyANyAC4TextV_AJyAJyAO_0V0QZAWGA0_GtGGAC6SpacerVAJyAJyAC0U0VA0_GA0_GSgtGGAC01_q5ShapeZ0VyAC9RectangleVGGAC16_FlexFrameLayoutVG_Qo_HO.24
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAHy20HeadphoneCommonUIKit18SplitContainerPairVyAA6VStackVyAA05TupleC0VyAA03AnyC0V_AA4TextVSgtGGAQSgGAA01_J13ShapeModifierVyAA9RectangleVGGAA16_FlexFrameLayoutVG_Qo_HO.25
+- _symbolic _____y_____yAAy_____y_____yAAyAAyAAyAAyAAy7Element______11ImageResult_____QZ_____y_____SgGGAIy_____SgGG_____G_____G_____G______yACy______AAyAAyAdE_0C0AGQZALGAPGtGG_____AAyAAy_____APGAPGSgtGG_____y_____GG_____G_Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6HStackV AA05TupleC0V 20HeadphoneCommonUIKit27CheckmarkItemDatasourceTypeP AM09CheckMarkQ10SelectableP AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA18_AspectRatioLayoutV AA12_FrameLayoutV AA14_PaddingLayoutV AA6VStackV AA4TextV AA6SpacerV AA5ImageV AA01_j5ShapeZ0V AA9RectangleV AA16_FlexFrameLayoutV
+
+```

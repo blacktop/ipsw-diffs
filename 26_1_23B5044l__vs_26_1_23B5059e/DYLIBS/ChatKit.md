@@ -1,0 +1,1370 @@
+## ChatKit
+
+> `/System/Library/PrivateFrameworks/ChatKit.framework/ChatKit`
+
+```diff
+
+-1450.200.35.2.5
+-  __TEXT.__text: 0xb17d5c
+-  __TEXT.__auth_stubs: 0xbd60
+-  __TEXT.__delay_helper: 0x978
+-  __TEXT.__objc_methlist: 0x7148c
+-  __TEXT.__const: 0x32654
+-  __TEXT.__gcc_except_tab: 0x28894
+-  __TEXT.__cstring: 0x50fe7
+-  __TEXT.__oslogstring: 0x4aea3
++1450.200.75.0.0
++  __TEXT.__text: 0xb23a1c
++  __TEXT.__auth_stubs: 0xbe50
++  __TEXT.__delay_helper: 0x99c
++  __TEXT.__objc_methlist: 0x7170c
++  __TEXT.__const: 0x32c84
++  __TEXT.__gcc_except_tab: 0x28abc
++  __TEXT.__cstring: 0x514c7
++  __TEXT.__oslogstring: 0x4b6b3
+   __TEXT.__dlopen_cstrs: 0xb0e
+   __TEXT.__ustring: 0x18e
+-  __TEXT.__constg_swiftt: 0x1adb4
+-  __TEXT.__swift5_typeref: 0x3f64c
++  __TEXT.__constg_swiftt: 0x1af58
++  __TEXT.__swift5_typeref: 0x3fe2c
+   __TEXT.__swift5_builtin: 0x7a8
+-  __TEXT.__swift5_reflstr: 0x101f1
+-  __TEXT.__swift5_fieldmd: 0xe770
+-  __TEXT.__swift5_assocty: 0x3ff0
+-  __TEXT.__swift5_capture: 0x71ac
+-  __TEXT.__swift5_proto: 0x171c
+-  __TEXT.__swift5_types: 0x11ac
+-  __TEXT.__swift_as_entry: 0x40c
+-  __TEXT.__swift_as_ret: 0x3cc
++  __TEXT.__swift5_reflstr: 0x10251
++  __TEXT.__swift5_fieldmd: 0xe7e4
++  __TEXT.__swift5_assocty: 0x4058
++  __TEXT.__swift5_capture: 0x7308
++  __TEXT.__swift5_proto: 0x175c
++  __TEXT.__swift5_types: 0x11bc
++  __TEXT.__swift_as_entry: 0x414
++  __TEXT.__swift_as_ret: 0x3d0
+   __TEXT.__swift5_protos: 0xbc
+   __TEXT.__swift5_mpenum: 0xd0
+-  __TEXT.__unwind_info: 0x2dba8
+-  __TEXT.__eh_frame: 0xd324
+-  __TEXT.__objc_classname: 0xb820
+-  __TEXT.__objc_methname: 0x10d1da
+-  __TEXT.__objc_methtype: 0x229ee
+-  __TEXT.__objc_stubs: 0xa6540
+-  __DATA_CONST.__got: 0x71d0
+-  __DATA_CONST.__const: 0xee18
+-  __DATA_CONST.__objc_classlist: 0x2ef8
++  __TEXT.__unwind_info: 0x2deb8
++  __TEXT.__eh_frame: 0xd4ac
++  __TEXT.__objc_classname: 0xb859
++  __TEXT.__objc_methname: 0x10d88f
++  __TEXT.__objc_methtype: 0x229e5
++  __TEXT.__objc_stubs: 0xa68c0
++  __DATA_CONST.__got: 0x7230
++  __DATA_CONST.__const: 0xeeb8
++  __DATA_CONST.__objc_classlist: 0x2ef0
+   __DATA_CONST.__objc_catlist: 0x558
+-  __DATA_CONST.__objc_protolist: 0x1330
++  __DATA_CONST.__objc_protolist: 0x1340
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x36178
+-  __DATA_CONST.__objc_protorefs: 0x4e8
+-  __DATA_CONST.__objc_superrefs: 0x1a60
++  __DATA_CONST.__objc_selrefs: 0x362e0
++  __DATA_CONST.__objc_protorefs: 0x4f8
++  __DATA_CONST.__objc_superrefs: 0x1a68
+   __DATA_CONST.__objc_arraydata: 0xfd8
+-  __AUTH_CONST.__auth_got: 0x5ec0
+-  __AUTH_CONST.__const: 0x37e70
+-  __AUTH_CONST.__cfstring: 0x246e0
+-  __AUTH_CONST.__objc_const: 0x9b150
++  __AUTH_CONST.__auth_got: 0x5f38
++  __AUTH_CONST.__const: 0x38360
++  __AUTH_CONST.__cfstring: 0x246c0
++  __AUTH_CONST.__objc_const: 0x9b3a0
+   __AUTH_CONST.__objc_arrayobj: 0xe70
+   __AUTH_CONST.__objc_intobj: 0x1128
+   __AUTH_CONST.__objc_doubleobj: 0x870
+   __AUTH_CONST.__objc_floatobj: 0x180
+   __AUTH_CONST.__objc_dictobj: 0x348
+-  __AUTH.__objc_data: 0x28ee8
+-  __AUTH.__data: 0x12cb0
+-  __DATA.__objc_ivar: 0x4b20
+-  __DATA.__data: 0x1f5b4
++  __AUTH.__objc_data: 0x28a48
++  __AUTH.__data: 0x12d60
++  __DATA.__objc_ivar: 0x4b40
++  __DATA.__data: 0x1f8e0
+   __DATA.__objc_stublist: 0x40
+-  __DATA.__bss: 0x38870
+-  __DATA.__common: 0x12c8
+-  __DATA_DIRTY.__objc_data: 0x8398
+-  __DATA_DIRTY.__data: 0x6d0
+-  __DATA_DIRTY.__bss: 0x17c8
++  __DATA.__bss: 0x39110
++  __DATA.__common: 0x1328
++  __DATA_DIRTY.__objc_data: 0x8760
++  __DATA_DIRTY.__data: 0x7d0
++  __DATA_DIRTY.__bss: 0x17b8
+   __DATA_DIRTY.__common: 0x50
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D5EB6C2F-047A-3DD9-B4BE-9F59EC1B51B4
+-  Functions: 69680
+-  Symbols:   145989
+-  CStrings:  60529
++  UUID: BA49FC53-4034-3E20-9B14-B7E45BD30A51
++  Functions: 69973
++  Symbols:   146289
++  CStrings:  60641
+ 
+Symbols:
++ +[CKApplicationState isViewControllerForegroundActive:]
++ +[CKGenericPhotoStackBalloonView genericStackView]
++ +[CKInlineStickerBalloonView usesCustomImageBalloonMaterial]
++ +[CKOnboardingController _alwaysShowAppleIntelligenceOnboarding]
++ +[CKOnboardingController _classUserDefaults]
++ +[CKOnboardingController _isRunningTest]
++ +[CKOnboardingController _lastShownAppleIntelligenceOnboardingVersion]
++ +[CKOnboardingController _shouldOnboardCollaborationApps]
++ +[CKOnboardingController _shouldPresentNewInMessages]
++ +[CKOnboardingController _shouldShowAppleIntelligenceOnboarding]
++ +[CKOnboardingController _shouldShowNicknameOnboardingFlowOnLaunch]
++ +[CKOnboardingController _shouldShowRCSEncryptionOptInOnboarding]
++ +[CKOnboardingController _shouldShowSyndicationOnboardingFlowOnLaunch]
++ +[CKOnboardingController _whatsNewLatestShippingVersion]
++ +[CKOnboardingController _whatsNewVersion]
++ +[CKOnboardingController alwaysShowNicknameOnboarding]
++ +[CKOnboardingController alwaysShowSyndicationOnboarding]
++ +[CKOnboardingController currentCollaborationOnboardingVersion]
++ +[CKOnboardingController shouldPresentOnboarding]
++ +[CKOnboardingController syndicationOnboardingLastShownVersion]
++ +[CKSendMenuPresentation _shouldUseZoomTransitionForSendMenuPopover]
++ +[CKSendMenuPresentation _shouldUseZoomTransitionForSendMenuPopover].cold.1
++ +[CKThrowAnimationManager glassThrowSendAnimationManager]
++ +[CKTranscriptBackgroundChannelController channelSnapshotPrewarmLimit]
++ +[UIViewController(AppCardPresentation) ck_canDismissAndPresentSimultaneously]
++ +[UIViewController(AppCardPresentation) ck_canDismissAndPresentSimultaneously].cold.1
++ +[UIViewController(AppCardPresentation) ck_performWithSimultaneousPresentationTransitionsEnabled:]
++ -[CKAttachmentReplyPreviewBalloonView balloonTypePillContentInsets]
++ -[CKAudioBalloonView balloonTypePillContentInsets]
++ -[CKChatController messageEntryView:shouldChangeTextInRanges:replacementText:]
++ -[CKChatController messageEntryViewShouldBeDisabled:]
++ -[CKChatController(SendAnimation) _audioMessageThrowBalloonsForSendingMessages:audioMessageSourceRect:contextContainerView:audioRecordingPillViewSnapshot:]
++ -[CKChatController(SendAnimation) _makeThrowBalloonsForSendAnimationWithType:inContainerView:forSendingMessages:shouldUseQuickReplySourceRect:quickReplySourceRect:quickReplySnapshotView:audioMessageSourceRect:audioRecordingPillViewSnapshot:]
++ -[CKChatController(SendAnimation) _throwBalloonAttributesForSendAnimationWithType:shouldUseQuickReplySourceRect:quickReplySourceRect:isRunningPhotosPlugin:chatItem:isPhotosExtensionMediaPayload:pluginChatItemCounterInOut:containerView:isChatItemFromShelf:isLastChatItem:currentBalloonOriginInOut:quickReplySnapshotView:]
++ -[CKChatControllerDummyAnimator __beginThrowAnimationWithThrowBalloonViewAttributesCollection:framesOfAddedChatItems:sendAnimationType:entryViewSize:]
++ -[CKConversationListCollectionViewController performIntroductionsButtonsDebugActionForCollectionView:indexPath:]
++ -[CKConversationListStandardCell _addFooter:]
++ -[CKConversationListStandardCell _makeScreenTimeFooterIfNeeded]
++ -[CKConversationListStandardCell _makeUnknownSenderFooterIfNeeded]
++ -[CKConversationListStandardCell configureFooterForDebug]
++ -[CKCoreChatController _activeAppearanceTraitDidChange]
++ -[CKCoreChatController(Backgrounds) __createNewPosterRenderingBackground:]
++ -[CKCoreChatController(Backgrounds) _handleTranscriptBackgroundChangedNotification:].cold.3
++ -[CKLinkBalloonView layoutSublayersOfLayer:]
++ -[CKLinkBalloonView linkOverlayBalloonDescriptor]
++ -[CKLinkBalloonView linkOverlayBalloonLayer]
++ -[CKLinkBalloonView linkViewBalloonDescriptor]
++ -[CKLinkBalloonView setLinkOverlayBalloonLayer:]
++ -[CKLinkBalloonView shouldShowLinkOverlayBalloonLayer]
++ -[CKLinkBalloonView updateBalloonMasks]
++ -[CKMentionsAnimationController finishedAnimationIdentifiersDuringMarkedText]
++ -[CKMentionsAnimationController finishedAnimationsDuringMarkedTextByIdentifier]
++ -[CKMentionsAnimationController markAnimationIdentifierAsFinishedButPendingAmongMarkedText:]
++ -[CKMentionsAnimationController setFinishedAnimationsDuringMarkedTextByIdentifier:]
++ -[CKMentionsAnimationController shouldMakeNewRippleAnimatorForIdentifier:]
++ -[CKMessageEntryContentView messageEntryRichTextViewShouldBeDisabled:]
++ -[CKMessageEntryView applyDefaultGlass]
++ -[CKMessageEntryView applySendAnimationGlass]
++ -[CKMessageEntryView messageEntryContentViewShouldBeDisabled:]
++ -[CKMessagesCarouselView _getHeightForUserData:]
++ -[CKMessagesCarouselView _getHeightForUserData:].cold.1
++ -[CKMessagesCarouselView init]
++ -[CKMessagesCarouselView setBounds:]
++ -[CKMessagesController isInitialLayout]
++ -[CKMessagesController setIsInitialLayout:]
++ -[CKModalTranscriptController messageEntryView:shouldChangeTextInRanges:replacementText:]
++ -[CKNotificationChatController messageEntryView:shouldChangeTextInRanges:replacementText:]
++ -[CKNotificationChatController messageEntryViewShouldBeDisabled:]
++ -[CKPinnedConversationTypingBubbleActivityItem .cxx_destruct]
++ -[CKPinnedConversationTypingBubbleActivityItem initWithMessage:contentScale:attachedContactItemIdentifier:]
++ -[CKPinnedConversationTypingBubbleActivityItem message]
++ -[CKPosterRenderingTranscriptBackground _shouldNeverBeSendingEventsToBackground]
++ -[CKProgressView _prepareSubviewsIfNeeded]
++ -[CKProgressView capStyle]
++ -[CKProgressView hasPreparedSubviews]
++ -[CKProgressView initWithFrame:]
++ -[CKProgressView progressSegmentView]
++ -[CKProgressView progressTintColor]
++ -[CKProgressView progress]
++ -[CKProgressView setCapStyle:]
++ -[CKProgressView setHasPreparedSubviews:]
++ -[CKProgressView setProgress:]
++ -[CKProgressView setProgress:animated:]
++ -[CKProgressView setProgressSegmentView:]
++ -[CKProgressView setProgressTintColor:]
++ -[CKProgressView setTrackView:]
++ -[CKProgressView trackTintColor]
++ -[CKProgressView trackView]
++ -[CKSendMenuPresentation _cleanUpSendMenuPresentation]
++ -[CKTextBalloonView balloonTypePillContentInsets]
++ -[CKTextBalloonView suggestedActionsMenuAdditionalHeightForBalloonSize:]
++ -[CKThrowAnimationManager initWithSendAnimationType:]
++ -[CKTranscriptBackgroundChannelController prewarmChannelSnapshotsForChatGUID:forInterfaceStyle:orientation:]
++ -[CKTranscriptCollectionViewController _handleScrollViewAtRestAfterMidScrollPagingEnablementChange]
++ -[CKTranscriptCollectionViewController setTranscriptPagingEnablementChangedDuringScroll:]
++ -[CKTranscriptCollectionViewController transcriptPagingEnablementChangedDuringScroll]
++ -[CKUIBehaviorMac attachmentReplyPreviewBalloonAlignmentRectInsets].cold.1
++ -[UIViewController(AppCardPresentation) ck_dismissViewControllerAllowingSimultaneousPresentation]
++ -[UIViewController(AppCardPresentation) ck_presentAppCardContainerViewControllerSimultaniously:animated:presentCompletionHandler:]
++ GCC_except_table1000
++ GCC_except_table1004
++ GCC_except_table1027
++ GCC_except_table1030
++ GCC_except_table1037
++ GCC_except_table1044
++ GCC_except_table1076
++ GCC_except_table1099
++ GCC_except_table1106
++ GCC_except_table1157
++ GCC_except_table1160
++ GCC_except_table1161
++ GCC_except_table1167
++ GCC_except_table1172
++ GCC_except_table1180
++ GCC_except_table1197
++ GCC_except_table1557
++ GCC_except_table1584
++ GCC_except_table1591
++ GCC_except_table1592
++ GCC_except_table1596
++ GCC_except_table1597
++ GCC_except_table1610
++ GCC_except_table214
++ GCC_except_table222
++ GCC_except_table237
++ GCC_except_table248
++ GCC_except_table250
++ GCC_except_table259
++ GCC_except_table269
++ GCC_except_table271
++ GCC_except_table280
++ GCC_except_table283
++ GCC_except_table290
++ GCC_except_table292
++ GCC_except_table295
++ GCC_except_table304
++ GCC_except_table306
++ GCC_except_table312
++ GCC_except_table325
++ GCC_except_table335
++ GCC_except_table340
++ GCC_except_table348
++ GCC_except_table351
++ GCC_except_table358
++ GCC_except_table360
++ GCC_except_table367
++ GCC_except_table372
++ GCC_except_table385
++ GCC_except_table392
++ GCC_except_table397
++ GCC_except_table407
++ GCC_except_table409
++ GCC_except_table411
++ GCC_except_table417
++ GCC_except_table422
++ GCC_except_table426
++ GCC_except_table439
++ GCC_except_table447
++ GCC_except_table450
++ GCC_except_table455
++ GCC_except_table458
++ GCC_except_table462
++ GCC_except_table470
++ GCC_except_table475
++ GCC_except_table480
++ GCC_except_table484
++ GCC_except_table491
++ GCC_except_table494
++ GCC_except_table500
++ GCC_except_table506
++ GCC_except_table508
++ GCC_except_table512
++ GCC_except_table514
++ GCC_except_table520
++ GCC_except_table530
++ GCC_except_table534
++ GCC_except_table536
++ GCC_except_table539
++ GCC_except_table556
++ GCC_except_table559
++ GCC_except_table572
++ GCC_except_table585
++ GCC_except_table590
++ GCC_except_table607
++ GCC_except_table618
++ GCC_except_table620
++ GCC_except_table623
++ GCC_except_table626
++ GCC_except_table631
++ GCC_except_table634
++ GCC_except_table637
++ GCC_except_table667
++ GCC_except_table672
++ GCC_except_table675
++ GCC_except_table677
++ GCC_except_table684
++ GCC_except_table686
++ GCC_except_table690
++ GCC_except_table705
++ GCC_except_table708
++ GCC_except_table711
++ GCC_except_table713
++ GCC_except_table731
++ GCC_except_table734
++ GCC_except_table748
++ GCC_except_table752
++ GCC_except_table784
++ GCC_except_table785
++ GCC_except_table789
++ GCC_except_table810
++ GCC_except_table811
++ GCC_except_table820
++ GCC_except_table826
++ GCC_except_table827
++ GCC_except_table836
++ GCC_except_table847
++ GCC_except_table852
++ GCC_except_table875
++ GCC_except_table878
++ GCC_except_table895
++ GCC_except_table898
++ GCC_except_table899
++ GCC_except_table902
++ GCC_except_table903
++ GCC_except_table911
++ GCC_except_table912
++ GCC_except_table915
++ GCC_except_table916
++ GCC_except_table920
++ GCC_except_table926
++ GCC_except_table930
++ GCC_except_table933
++ GCC_except_table940
++ GCC_except_table943
++ GCC_except_table944
++ GCC_except_table949
++ GCC_except_table952
++ GCC_except_table955
++ GCC_except_table960
++ GCC_except_table965
++ GCC_except_table968
++ GCC_except_table971
++ GCC_except_table977
++ GCC_except_table983
++ GCC_except_table984
++ GCC_except_table988
++ GCC_except_table989
++ GCC_except_table994
++ GCC_except_table995
++ _CKGroupRecipientSelectionLogHandle
++ _CKGroupRecipientSelectionLogHandle.cold.1
++ _CKGroupRecipientSelectionLogHandle.onceToken
++ _CKGroupRecipientSelectionLogHandle.osLog
++ _CKPrewarmPostLaunch.onceToken
++ _IMChatPropertySupportsEncryption
++ _IMDatabaseLogHandle
++ _IMHandleLogHandle
++ _IMMessageSummaryInfoWasEverTimeSensitive
++ _OBJC_CLASS_$__TtC7ChatKit31TTRRegistrationSheetViewFactory
++ _OBJC_IVAR_$_CKLinkBalloonView._linkOverlayBalloonLayer
++ _OBJC_IVAR_$_CKMentionsAnimationController._finishedAnimationIdentifiersDuringMarkedText
++ _OBJC_IVAR_$_CKMentionsAnimationController._finishedAnimationsDuringMarkedTextByIdentifier
++ _OBJC_IVAR_$_CKMessagesCarouselView.sizeCache
++ _OBJC_IVAR_$_CKMessagesCarouselView.sizingView
++ _OBJC_IVAR_$_CKMessagesController._isInitialLayout
++ _OBJC_IVAR_$_CKPinnedConversationTypingBubbleActivityItem._activityItemContentScale
++ _OBJC_IVAR_$_CKPinnedConversationTypingBubbleActivityItem._attachedContactItemIdentifier
++ _OBJC_IVAR_$_CKPinnedConversationTypingBubbleActivityItem._message
++ _OBJC_IVAR_$_CKProgressView._capStyle
++ _OBJC_IVAR_$_CKProgressView._hasPreparedSubviews
++ _OBJC_IVAR_$_CKProgressView._progress
++ _OBJC_IVAR_$_CKProgressView._progressSegmentView
++ _OBJC_IVAR_$_CKProgressView._progressTintColor
++ _OBJC_IVAR_$_CKProgressView._trackTintColor
++ _OBJC_IVAR_$_CKProgressView._trackView
++ _OBJC_IVAR_$_CKTranscriptCollectionViewController._transcriptPagingEnablementChangedDuringScroll
++ _OBJC_METACLASS_$__TtC7ChatKit31TTRRegistrationSheetViewFactory
++ __CLASS_METHODS_CKCarouselBalloonView
++ __CLASS_METHODS__TtC7ChatKit31TTRRegistrationSheetViewFactory
++ __CLASS_PROPERTIES_CKCarouselBalloonView
++ __DATA__TtC7ChatKit31TTRRegistrationSheetViewFactory
++ __DATA__TtC7ChatKit40DowntimeConversationEntityRepresentation
++ __INSTANCE_METHODS__TtC7ChatKit31TTRRegistrationSheetViewFactory
++ __IVARS__TtC7ChatKit40DowntimeConversationEntityRepresentation
++ __METACLASS_DATA__TtC7ChatKit31TTRRegistrationSheetViewFactory
++ __METACLASS_DATA__TtC7ChatKit40DowntimeConversationEntityRepresentation
++ __OBJC_$_CATEGORY_CLASS_METHODS_UIViewController_$_AppCardPresentation
++ __OBJC_$_CATEGORY_UIViewController_$_AppCardPresentation
++ __OBJC_$_CLASS_METHODS_CKInlineStickerBalloonView
++ __OBJC_$_CLASS_METHODS_CKOnboardingController
++ __OBJC_$_CLASS_METHODS_CKSendMenuPresentation
++ __OBJC_$_CLASS_PROP_LIST_CKSendMenuPresentation
++ __OBJC_$_CLASS_PROP_LIST_UIViewController_$_AppCardPresentation
++ __OBJC_$_INSTANCE_METHODS_UIViewController(AppCardPresentation|CKBrowserTransitionCoordinator|ChatKit)
++ __OBJC_$_INSTANCE_VARIABLES_CKPinnedConversationTypingBubbleActivityItem
++ __OBJC_$_PROP_LIST__TtP7ChatKit20UserDataViewProtocol_
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__TtP7ChatKit20UserDataViewProtocol_
++ __OBJC_$_PROTOCOL_METHOD_TYPES__TtP7ChatKit20UserDataViewProtocol_
++ __OBJC_LABEL_PROTOCOL_$__TtP7ChatKit20UserDataViewProtocol_
++ __OBJC_PROTOCOL_$__TtP7ChatKit20UserDataViewProtocol_
++ __OBJC_PROTOCOL_REFERENCE_$__TtP7ChatKit20UserDataViewProtocol_
++ __PROPERTIES__TtC7ChatKit16RichCarouselItem
++ __PROTOCOLS__TtC7ChatKit16RichCarouselItem.12
++ __PROTOCOL_INSTANCE_METHODS__TtP7ChatKit20UserDataViewProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP7ChatKit20UserDataViewProtocol_
++ __PROTOCOL_PROPERTIES__TtP7ChatKit20UserDataViewProtocol_
++ __PROTOCOL__TtP7ChatKit20UserDataViewProtocol_
++ ___103-[CKChatInputController _openContainingBundleID:applicationService:withURL:pluginID:completionHandler:]_block_invoke.427
++ ___103-[CKChatInputController _openContainingBundleID:applicationService:withURL:pluginID:completionHandler:]_block_invoke.435
++ ___103-[CKChatInputController _openContainingBundleID:applicationService:withURL:pluginID:completionHandler:]_block_invoke.439
++ ___105-[CKTranscriptBackgroundChannelController _asyncFetchNewGalleryObjectForChannel:fetchRequest:completion:]_block_invoke.87
++ ___108-[CKTranscriptBackgroundChannelController prewarmChannelSnapshotsForChatGUID:forInterfaceStyle:orientation:]_block_invoke
++ ___115-[CKChatInputController(TextInputPayloads) _presentPluginWithBundleID:sendingTextInputPayload:withPayloadID:style:]_block_invoke.286
++ ___130-[UIViewController(AppCardPresentation) ck_presentAppCardContainerViewControllerSimultaniously:animated:presentCompletionHandler:]_block_invoke
++ ___130-[UIViewController(AppCardPresentation) ck_presentAppCardContainerViewControllerSimultaniously:animated:presentCompletionHandler:]_block_invoke_2
++ ___136-[CKTranscriptBackgroundChannelController updateChannelUsingChatGUID:deviceIndependentID:backgroundGUID:posterConfiguration:completion:]_block_invoke.75
++ ___150-[CKChatControllerDummyAnimator __beginThrowAnimationWithThrowBalloonViewAttributesCollection:framesOfAddedChatItems:sendAnimationType:entryViewSize:]_block_invoke
++ ___150-[CKChatControllerDummyAnimator __beginThrowAnimationWithThrowBalloonViewAttributesCollection:framesOfAddedChatItems:sendAnimationType:entryViewSize:]_block_invoke.279
++ ___241-[CKChatController(SendAnimation) _makeThrowBalloonsForSendAnimationWithType:inContainerView:forSendingMessages:shouldUseQuickReplySourceRect:quickReplySourceRect:quickReplySnapshotView:audioMessageSourceRect:audioRecordingPillViewSnapshot:]_block_invoke
++ ___34-[CKMediaObject(Display) richIcon]_block_invoke.242
++ ___34-[CKMediaObject(Display) richIcon]_block_invoke.246
++ ___39-[CKProgressView setProgress:animated:]_block_invoke
++ ___41-[CKMediaObject(Display) previewMetadata]_block_invoke.325
++ ___41-[CKMediaObject(Display) previewMetadata]_block_invoke_2.326
++ ___45-[CKCoreChatController initWithConversation:]_block_invoke
++ ___46-[CKChatInputController _startEditingPayload:]_block_invoke.707
++ ___46-[CKChatInputController _startEditingPayload:]_block_invoke_2.708
++ ___54-[CKSendMenuPresentation _cleanUpSendMenuPresentation]_block_invoke
++ ___57-[CKOnboardingController startNicknameOnboardingIfNeeded]_block_invoke.128
++ ___58-[CKOnboardingController _fetchMemojiWithCompletionBlock:]_block_invoke.168
++ ___61-[CKMediaObject(Display) prewarmPreviewForWidth:orientation:]_block_invoke.282
++ ___63-[CKConversationListStandardCell _makeScreenTimeFooterIfNeeded]_block_invoke
++ ___63-[CKConversationListStandardCell _makeScreenTimeFooterIfNeeded]_block_invoke_2
++ ___65-[CKMediaObject(Display) generateOOPPreviewForWidth:orientation:]_block_invoke.287
++ ___65-[CKMediaObject(Display) generateOOPPreviewForWidth:orientation:]_block_invoke_2.288
++ ___66-[CKConversationListStandardCell _makeUnknownSenderFooterIfNeeded]_block_invoke
++ ___66-[CKConversationListStandardCell _makeUnknownSenderFooterIfNeeded]_block_invoke_2
++ ___67-[CKChatInputController _handleSelectionOfExtensionWithIdentifier:]_block_invoke.382
++ ___67-[CKChatInputController _handleSelectionOfExtensionWithIdentifier:]_block_invoke.383
++ ___68+[CKSendMenuPresentation _shouldUseZoomTransitionForSendMenuPopover]_block_invoke
++ ___72-[CKChatInputController(TextInputPayloads) handlePayload:withPayloadId:]_block_invoke.259
++ ___75-[CKCoreChatController(Backgrounds) updateTranscriptBackground:transferID:]_block_invoke.264
++ ___78+[UIViewController(AppCardPresentation) ck_canDismissAndPresentSimultaneously]_block_invoke
++ ___78+[UIViewController(AppCardPresentation) ck_canDismissAndPresentSimultaneously]_block_invoke_2
++ ___81-[CKConversationListCollectionViewController _configureCloudTipViewModelIfNeeded]_block_invoke.1030
++ ___81-[CKConversationListCollectionViewController _configureCloudTipViewModelIfNeeded]_block_invoke.1032
++ ___82-[CKChatController(SendAnimation) sendAnimationManagerWillStartAnimation:context:]_block_invoke_8
++ ___89-[CKCoreChatController(Backgrounds) _transitionToPosterKitPosterConfiguration:onChannel:]_block_invoke.257
++ ___89-[CKCoreChatController(Backgrounds) _transitionToPosterKitPosterConfiguration:onChannel:]_block_invoke.257.cold.1
++ ___95-[CKConversationListCollectionViewController registerForCloudKitEventsWithDelayedRegistration:]_block_invoke.974
++ ___97-[CKGroupRecipientSelectionController handleDoneActionForConversation:viewController:completion:]_block_invoke.123
++ ___97-[CKGroupRecipientSelectionController handleDoneActionForConversation:viewController:completion:]_block_invoke.125
++ ___97-[UIViewController(AppCardPresentation) ck_dismissViewControllerAllowingSimultaneousPresentation]_block_invoke
++ ___CKGroupRecipientSelectionLogHandle_block_invoke
++ ___CKPrewarmPostLaunch_block_invoke_3
++ ___block_descriptor_139_e8_32s40s48s56s64s72r80r88r_e27_v32?0"CKChatItem"8Q16^B24ls32l8s40l8s48l8r72l8s56l8r80l8s64l8r88l8
++ ___block_descriptor_32_e25_v32?0"NSString"8Q16^B24l
++ ___block_descriptor_32_e52_v24?0"CKCoreChatController"8"UITraitCollection"16l
++ ___block_descriptor_56_e8_32bs40bs_e5_v8?0ls32l8s40l8
++ ___block_descriptor_64_e8_32s40w_e5_v8?0lw40l8s32l8
++ ___block_descriptor_73_e8_32s40bs48w_e5_v8?0lw48l8s40l8s32l8
++ ___block_descriptor_80_e8_32s40s48s56s64s72w_e17_v16?0"NSError"8ls32l8s40l8s48l8s56l8w72l8s64l8
++ ___block_descriptor_88_e8_32s40s48s56s64bs72r_e20_v24?08"NSError"16ls32l8s40l8s48l8s64l8s56l8r72l8
++ ___block_descriptor_88_e8_32s40s48s56s64s72s80w_e5_v8?0ls32l8s40l8s48l8s56l8s64l8w80l8s72l8
++ ___block_descriptor_88_e8_32s40s48s_e45_v32?0"CKThrowBalloonViewAttributes"8Q16^B24ls32l8s40l8s48l8
++ ___block_literal_global.1084
++ ___block_literal_global.1135
++ ___block_literal_global.1397
++ ___block_literal_global.1403
++ ___block_literal_global.1793
++ ___block_literal_global.2843
++ ___block_literal_global.4003
++ ___block_literal_global.4011
++ ___block_literal_global.4013
++ ___block_literal_global.508
++ ___block_literal_global.520
++ ___block_literal_global.525
++ ___block_literal_global.537
++ ___block_literal_global.557
++ ___block_literal_global.821
++ ___block_literal_global.89
++ __shouldUseZoomTransitionForSendMenuPopover.onceToken
++ __shouldUseZoomTransitionForSendMenuPopover.zoomDisabled
++ _associated conformance 7ChatKit24TTRRegistrationSheetViewV7SwiftUI0E0AA4BodyAdEP_AdE
++ _associated conformance 7ChatKit30TTRRegistrationSheetButtonViewV7SwiftUI0F0AA4BodyAdEP_AdE
++ _associated conformance 7ChatKit35FetchDowntimeConversationListIntentV10AppIntents0hG0AA13PerformResultAdEP_AD0gK0
++ _associated conformance 7ChatKit35FetchDowntimeConversationListIntentV10AppIntents0hG0AA14SummaryContentAdEP_AD09ParameterJ0
++ _associated conformance 7ChatKit35FetchDowntimeConversationListIntentV10AppIntents0hG0AaD09_SupportsH12Dependencies
++ _associated conformance 7ChatKit35FetchDowntimeConversationListIntentV10AppIntents0hG0AaD24PersistentlyIdentifiable
++ _associated conformance 7ChatKit40DowntimeConversationEntityRepresentationC18AppIntentsServices010_TransientgeF0AaD0gE14TypeDescribing
++ _associated conformance 7ChatKit40DowntimeConversationEntityRepresentationC18AppIntentsServices010_TransientgeF0AaD0geF0
++ _associated conformance 7ChatKit40DowntimeConversationEntityRepresentationC18AppIntentsServices010_TransientgeF0AaD27IntentValueTypeIdentifiable
++ _associated conformance 7ChatKit40DowntimeConversationEntityRepresentationC18AppIntentsServices010_TransientgeF0AaD28IntentValueOptionalWrappable
++ _associated conformance 7ChatKit40DowntimeConversationEntityRepresentationC18AppIntentsServices0geF0AaD11IntentValue
++ _associated conformance 7ChatKit40DowntimeConversationEntityRepresentationC18AppIntentsServices0geF0AaD18OriginIdentifiable
++ _associated conformance 7ChatKit40DowntimeConversationEntityRepresentationC18AppIntentsServices0geF0AaD22TransferableExportable
++ _associated conformance 7ChatKit40DowntimeConversationEntityRepresentationC18AppIntentsServices11IntentValueAaD0E17PropertyWrappable
++ _associated conformance 7ChatKit40DowntimeConversationEntityRepresentationC18AppIntentsServices26IntentValueSequenceElementAaD0jK0
++ _associated conformance 7ChatKit40DowntimeConversationEntityRepresentationC18AppIntentsServices27IntentValueTypeIdentifiableAaD0jK15SequenceElement
++ _associated conformance 7ChatKit40DowntimeConversationEntityRepresentationC18AppIntentsServices28IntentValueOptionalWrappableAaD0jK0
++ _block_copy_helper.205
++ _block_copy_helper.217
++ _block_copy_helper.220
++ _block_descriptor.207
++ _block_descriptor.219
++ _block_descriptor.222
++ _block_destroy_helper.206
++ _block_destroy_helper.218
++ _block_destroy_helper.221
++ _ck_canDismissAndPresentSimultaneously.enabled
++ _ck_canDismissAndPresentSimultaneously.enabledCheckOnceToken
++ _ck_canDismissAndPresentSimultaneously.onceToken
++ _ck_canDismissAndPresentSimultaneously.result
++ _flat unique 7ChatKit20UserDataViewProtocol_p
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.186
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOQr.190
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOQr.188
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.187
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.191
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOqd0__AaBHC.189
++ _get_witness_table 10AppIntents21IntentResultContainerVySay17IMSharedUtilities26DowntimeConversationEntityVGs5NeverOA2IGAA12ReturnsValueHPyHC.2
++ _get_witness_table 7ChatKit27DebugInspectorContainerViewVy7SwiftUI4ListVys5NeverOAD7ForEachVySaySi6offset_So14CKConversationC7elementtGSiAD7SectionVyAD4TextVAJy19CollectionsInternal17OrderedDictionaryV8ElementsVyS2SSg_GSSAA0cd4CellF0VSgGAD05EmptyF0VGGGGAD0F0HPyHC.11
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ListVys5NeverOAA9TupleViewVyAA7SectionVyAA4TextVAIyAA6ButtonVyAA6HStackVyAIyACyACyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGGAA12_FrameLayoutVG_AmA6SpacerVtGGG_A5_A5_tGAA05EmptyH0VG_A9_AKyAmIyA5__A5_tGA8_GAKyA8_A8_AMGtGGAA022_EnvironmentKeyWritingP0VyAWSgGGAA0H0HPA14_AAA20_HPyHC_A18_AA0hP0HPyHCHC.23
++ _get_witness_table 7SwiftUI15NavigationStackVyAA0C4PathVAA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAgAE18navigationSubtitleyQrAA18LocalizedStringKeyVFQOyAgAE0K19BarTitleDisplayModeyQrAA0cP4ItemV0qrS0OFQOyAgAE0kQ0yQrAMFQOy7ChatKit026TTRRegistrationSheetButtonF0V_Qo__Qo__Qo__AA0iJ7BuilderV10buildBlockyQrxAaJRzlFZQOy_AA0iT0VyytAA0Y0VyAA4TextVGGQo_Qo_GAaFHPyHC.7
++ _get_witness_table 7SwiftUI4ListVys5NeverOAA9TupleViewVyAA7SectionVyAA05EmptyF0VAA15ModifiedContentVyAA6VStackVyAA4TextVGAA21_TraitWritingModifierVyAA0c13RowBackgroundM3KeyVGGAKG_AIyAqA0F0PAAE11pickerStyleyQrqd__AA06PickerT0Rd__lFQOyAA0U0VyAQ7ChatKit25TTRFilteringIssueCategoryOAA7ForEachVySayA6_GA6_A_AAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAQ_A6_Qo_GG_AA04MenuuT0VQo_AKGAIyAQA_AAEA0_yQrqd__AAA1_Rd__lFQOyA3_yAQA4_0xY15TimeSensitivityOA8_ySayA20_GA20_A_AAEA10__A11_Qrqd___SbtSHRd__lFQOyAQ_A20_Qo_GG_A16_Qo_AKGSgAIyAkMyAqWGAKGAIyAkMyAMyAA6ButtonVyAQGAA012_Environmentr9TransformO0VySbGGAWGAKGtGGAaZHPyHC.21
++ _get_witness_table 7SwiftUI4ViewRzlAA05TupleC0VyAA15ModifiedContentVyAA7SectionVyAA05EmptyC0VAA012_ConditionalF0VyAaBPAAE20disclosureGroupStyleyQrqd__AA010DisclosurekL0Rd__lFQOyAA0mK0VyAFyAFyAA6ButtonVyALyAFyAA6HStackVyADyAA6VStackVyADyALyAjFy7ChatKit011AvatarStackC0VAA25_AllowsHitTestingModifierVGG_AA4TextVAFyAFyA4_AA022_EnvironmentKeyWritingX0VySiSgGGA6_yA4_14TruncationModeOGGtGG_ALyAFyAFyAFyAFyAmAE06buttonL0yQrqd__AA09PrimitivenL0Rd__lFQOyASyAmAE10fontDesignyQrAA4FontV6DesignOSgFQOyAFyAA5ImageVAA011_ForegroundlX0VyAA5ColorVGG_Qo_G_AA08BorderednL0VQo_A6_yAA0N11BorderShapeVGGA6_yAA11ControlSizeOGGA0_GAA15_RotationEffectVGAFyAFyAFyAmAEA18_yQrA23_FQOyAFyA25_A6_yA20_SgGG_Qo_A6_yA25_5ScaleOGGA6_yA29_SgGGA47_GGtGGAA14_PaddingLayoutVGAUyADyA2__AWyADyA4__A13_tGGAA6SpacerVA61_tGGGGAA013_TraitWritingX0VyAA25ListRowBackgroundTraitKeyVGGAA16_FlexFrameLayoutVGADyAFyAA7ForEachVySayAX07DetailsC11ParticipantVGSSAmAE18confirmationDialog_11isPresented15titleVisibility7actionsQrqd___AA7BindingVySbGAA10VisibilityOqd_0_yXEtSyRd__AaBRd_0_r0_lFQOyAFyAmAE12swipeActions4edge15allowsFullSwipe7contentQrAA14HorizontalEdgeO_Sbqd__yXEtAaBRd__lFQOyAX07Detailsc15ParticipantListG0V8ListCellV_AFyASyA4_GA58_GSgQo_A79_G_SSA108_Qo_GAX07DetailsC21SeparatorLeadingInsetVG_A105_09AddMemberC0VtGG_AX016ParticipantsListmkL0VQo_ADyAmAE16listRowSeparator_5edgesQrA97__AA12VerticalEdgeO3SetVtFQOyAFyAFyAFyA4_A6_yA4_4CaseOSgGGA27_yAA017HierarchicalShapeL0VGGA79_G_Qo__A114_A119_tGGSgAJGA76_yAA21ListRowInsetsTraitKeyVGG_AFyxA79_GSgtGAaBHPyHC.389
++ _get_witness_table 7SwiftUI4ViewRzlAA05TupleC0VyAaBPAAE5alert_11isPresented7actionsQrqd___AA7BindingVySbGqd_0_yXEtSyRd__AaBRd_0_r0_lFQOyAA5GroupVyADyAA19_ConditionalContentVyAA7SectionVyAA05EmptyC0VAA08ModifiedL0VyAeAE11toggleStyleyQrqd__AA06ToggleQ0Rd__lFQOyAA0R0VyAA4TextVG_AA06SwitchrQ0VQo_7ChatKit07Detailsc3RowQ0VGAUyAUyA4_019SharedWithYouFooterC0VAA21_TraitWritingModifierVyAA04ListX18BackgroundTraitKeyVGGAA14_PaddingLayoutVGGASG_AUyAQyAsDyA3_Sg_A21_A21_tGASGA6_GAA012SubscriptionC0VySo20NSNotificationCenterC10FoundationE9PublisherVAUyAQyAsDyA3__AOyAeAE06pickerQ0yQrqd__AA06PickerQ0Rd__lFQOyAA6PickerVyA_SSADyAA7ForEachVySaySSGSSAeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyA__SSQo_G_A41_SgtGG_AA013DefaultPickerQ0VQo_AUyAA6ButtonVyA_GA6_GGSgtGASGA6_GGSgAUyAeAE18confirmationDialog_AG15titleVisibilityAHQrAA18LocalizedStringKeyV_AkA10VisibilityOqd__yXEtAaBRd__lFQOyAUyA51_AA32_EnvironmentKeyTransformModifierVySbGG_A51_Qo_A6_GSgAUyAeAEA60__AGA61_AHQrA63__AKA65_qd__yXEtAaBRd__lFQOyA51__A51_Qo_A6_GSgtGG_SSADyA51__A51_tGQo__AUyxA14_GSgtGAaBHPyHC.238
++ _get_witness_table 7SwiftUI4ViewRzlAA15NavigationStackVyAA0D4PathVAaBPAAE29navigationBarTitleDisplayModeyQrAA0dH4ItemV0ijK0OFQOyAgAE0gI0yQrqd__SyRd__lFQOyAgAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyx_AA0oP7BuilderV10buildBlockyQrxAaPRzlFZQOy_AA05TupleoP0VyAA0oL0VyytAgAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtFQOyAA6ButtonVyAA4TextVG_Qo_G_ArSyQrxAaPRzlFZQOy_AWyytA3_yAA5LabelVyA5_AA5ImageVGGGQo_SgtGQo_Qo__SSQo__Qo_GAaBHPyHC.11
++ _get_witness_table 7SwiftUI7SectionVyAA9EmptyViewVAA05TupleE0VyAA0E0PAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaHRd__lFQOyAiAEAjklMQrAP_AQqd__yctAaHRd__lFQOyAiAE18confirmationDialog_AK15titleVisibility7actions7messageQrqd___ApA0Q0Oqd_0_yXEqd_1_yXEtSyRd__AaHRd_0_AaHRd_1_r1_lFQOyAiAE5alert_AktUQrqd___APqd_0_yXEqd_1_yXEtSyRd__AaHRd_0_AaHRd_1_r1_lFQOyAA15ModifiedContentVyAiAE11toggleStyleyQrqd__AA06ToggleX0Rd__lFQOyAA0Y0VyAA6VStackVyAGyAZyAA4TextVAA16_FlexFrameLayoutVG_AA012_ConditionalV0VyA11_yA11_yA9_A9_GAEGA11_yAEA9_GGtGGG_AA06SwitchyX0VQo_AA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_SSAGyAA6ButtonVyA6_G_A31_tGA6_Qo__SSAGyA11_yAiAE16keyboardShortcutyQrAA16KeyboardShortcutVFQOyA31__Qo_A31_GSg_A31_tGA6_Qo__7ChatKit019CKLanguageSelectionE0VQo__A44_Qo__A11_yA11_yAEA31_GAiAE06buttonX0yQrqd__AA015PrimitiveButtonX0Rd__lFQOyA30_yAA07LabeledV0VyA6_A6_GG_AA020NavigationLinkButtonX0Vys5NeverOGQo_GA11_yA11_yA2EGA59_GtGAEGAaHHPAeaHHPyHC_A63_AaHHPyHCAeaHHPyHCHC.108
++ _get_witness_table 7SwiftUI9TupleViewVyAA33DisclosureGroupStyleConfigurationV5LabelV_AE7ContentVSgtGAA0D0HPyHC.392
++ _gotLoadHelper_x8$_OBJC_CLASS_$_PRUISPosterChannelSnapshotDefinition
++ _objc_msgSend$__beginThrowAnimationWithThrowBalloonViewAttributesCollection:framesOfAddedChatItems:sendAnimationType:entryViewSize:
++ _objc_msgSend$__createNewPosterRenderingBackground:
++ _objc_msgSend$_activeAppearanceTraitDidChange
++ _objc_msgSend$_addFooter:
++ _objc_msgSend$_audioMessageThrowBalloonsForSendingMessages:audioMessageSourceRect:contextContainerView:audioRecordingPillViewSnapshot:
++ _objc_msgSend$_classUserDefaults
++ _objc_msgSend$_cleanUpSendMenuPresentation
++ _objc_msgSend$_flipsHorizontalAxis
++ _objc_msgSend$_getHeightForUserData:
++ _objc_msgSend$_handleScrollViewAtRestAfterMidScrollPagingEnablementChange
++ _objc_msgSend$_makeScreenTimeFooterIfNeeded
++ _objc_msgSend$_makeThrowBalloonsForSendAnimationWithType:inContainerView:forSendingMessages:shouldUseQuickReplySourceRect:quickReplySourceRect:quickReplySnapshotView:audioMessageSourceRect:audioRecordingPillViewSnapshot:
++ _objc_msgSend$_makeUnknownSenderFooterIfNeeded
++ _objc_msgSend$_performWithSimultaneousPresentationTransitionsEnabled:
++ _objc_msgSend$_performWithoutDeferringTransitionsAllowingAnimation:actions:
++ _objc_msgSend$_prepareSubviewsIfNeeded
++ _objc_msgSend$_shouldNeverBeSendingEventsToBackground
++ _objc_msgSend$_shouldUseZoomTransitionForSendMenuPopover
++ _objc_msgSend$_throwBalloonAttributesForSendAnimationWithType:shouldUseQuickReplySourceRect:quickReplySourceRect:isRunningPhotosPlugin:chatItem:isPhotosExtensionMediaPayload:pluginChatItemCounterInOut:containerView:isChatItemFromShelf:isLastChatItem:currentBalloonOriginInOut:quickReplySnapshotView:
++ _objc_msgSend$addAnimationsForColoredBalloonView:sendAnimationType:sendAnimationConfiguration:
++ _objc_msgSend$applyDefaultGlass
++ _objc_msgSend$applySendAnimationGlass
++ _objc_msgSend$capStyle
++ _objc_msgSend$channelSnapshotPrewarmLimit
++ _objc_msgSend$ck_applySendAnimationEntryViewGlass
++ _objc_msgSend$doesNotRecognizeSelector:
++ _objc_msgSend$editorConfiguration
++ _objc_msgSend$finishedAnimationIdentifiersDuringMarkedText
++ _objc_msgSend$glassThrowSendAnimationManager
++ _objc_msgSend$initWithSendAnimationType:
++ _objc_msgSend$initiallyInteractive
++ _objc_msgSend$isViewControllerForegroundActive:
++ _objc_msgSend$linkOverlayBalloonDescriptor
++ _objc_msgSend$linkViewBalloonDescriptor
++ _objc_msgSend$markAnimationIdentifierAsFinishedButPendingAmongMarkedText:
++ _objc_msgSend$maxAspectRatio
++ _objc_msgSend$messageEntryContentViewShouldBeDisabled:
++ _objc_msgSend$messageEntryRichTextViewShouldBeDisabled:
++ _objc_msgSend$messageEntryView:shouldChangeTextInRanges:replacementText:
++ _objc_msgSend$messageEntryViewShouldBeDisabled:
++ _objc_msgSend$minAspectRatio
++ _objc_msgSend$networkSupportsSpamReportingForContext:isChatBot:
++ _objc_msgSend$prewarmChannelSnapshotsForChatGUID:forInterfaceStyle:orientation:
++ _objc_msgSend$prewarmSnapshotForDescriptor:
++ _objc_msgSend$progressSegmentView
++ _objc_msgSend$setMaxItemAspectRatio:
++ _objc_msgSend$setMinItemAspectRatio:
++ _objc_msgSend$setProgressSegmentView:
++ _objc_msgSend$setReapOptions:
++ _objc_msgSend$setTrackView:
++ _objc_msgSend$setTranscriptPagingEnablementChangedDuringScroll:
++ _objc_msgSend$setUserData:
++ _objc_msgSend$shouldMakeNewRippleAnimatorForIdentifier:
++ _objc_msgSend$shouldShowLinkOverlayBalloonLayer
++ _objc_msgSend$trackView
++ _objc_msgSend$waitingForLiveRenderingSceneDefinition
++ _objectdestroy.200Tm
++ _symbolic $s7ChatKit20UserDataViewProtocolP
++ _symbolic SS3key_SSSg5valuet
++ _symbolic SSIego_
++ _symbolic SS_SSSgt
++ _symbolic SSycSg
++ _symbolic Say_____G 17IMSharedUtilities26DowntimeConversationEntityV
++ _symbolic Say_____G 7ChatKit40DowntimeConversationEntityRepresentationC
++ _symbolic SiSo14CKConversationC_____y__________y_____yS2SSg_GSS_____SgG_____GIegygr_ 7SwiftUI7SectionV AA4TextV AA7ForEachV 19CollectionsInternal17OrderedDictionaryV8ElementsV 7ChatKit22DebugInspectorCellViewV AA05EmptyQ0V
++ _symbolic So14CKProgressViewC
++ _symbolic So22PRSPosterConfigurationCSg
++ _symbolic _____ 7ChatKit24TTRRegistrationSheetViewV
++ _symbolic _____ 7ChatKit30TTRRegistrationSheetButtonViewV
++ _symbolic _____ 7ChatKit31TTRRegistrationSheetViewFactoryC
++ _symbolic _____ 7ChatKit35FetchDowntimeConversationListIntentV
++ _symbolic _____ 7ChatKit40DowntimeConversationEntityRepresentationC
++ _symbolic _____ 7ChatKit49FetchDowntimeConversationListIntentRepresentationV
++ _symbolic _____Sg 7ChatKit22CKTranscriptBackgroundC
++ _symbolic _____Sg 7ChatKit22DebugInspectorCellViewV
++ _symbolic _____Sg 7ChatKit28CKLanguageSelectionViewModelC
++ _symbolic _____SgXw 7ChatKit28CKLanguageSelectionViewModelC
++ _symbolic ______So6UIViewCXcXp 7ChatKit20UserDataViewProtocolP
++ _symbolic _____yS2SSg_G 19CollectionsInternal17OrderedDictionaryV8ElementsV
++ _symbolic _____ySSSgG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_SSSgtG s23_ContiguousArrayStorageC
++ _symbolic _____ySaySSGSS_____y______SSQo_G 7SwiftUI7ForEachV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV
++ _symbolic _____ySaySSGSS_____y______SSQo_G_ADSgt 7SwiftUI7ForEachV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV
++ _symbolic _____ySaySi6offset_So14CKConversationC7elementtGSi_____y_____AAy_____yS2SSg_GSS_____SgG_____GG 7SwiftUI7ForEachV AA7SectionV AA4TextV 19CollectionsInternal17OrderedDictionaryV8ElementsV 7ChatKit22DebugInspectorCellViewV AA05EmptyQ0V
++ _symbolic _____ySay_____G_____A2DG 10AppIntents21IntentResultContainerV 17IMSharedUtilities26DowntimeConversationEntityV s5NeverO
++ _symbolic _____y_SiG 10Foundation20PredicateExpressionsO5ValueV
++ _symbolic _____y_SiG 10Foundation20PredicateExpressionsO8VariableV
++ _symbolic _____y_SiG 6TipKit4TipsO9ParameterV
++ _symbolic _____y_____AB_____G 7SwiftUI7SectionV AA9EmptyViewV AA4TextV
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 7ChatKit24TTRRegistrationSheetViewV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 17IMSharedUtilities26DowntimeConversationEntityV
++ _symbolic _____y_____SS_____y_____ySaySSGSS_____yAB_SSQo_G_AFSgtGG 7SwiftUI6PickerV AA4TextV AA9TupleViewV AA7ForEachV AA0F0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO
++ _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 7ChatKit029FetchDowntimeConversationListC0V
++ _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE15navigationTitleyQrAA18LocalizedStringKeyVFQO 7ChatKit026TTRRegistrationSheetButtonC0V
++ _symbolic _____y__________y_____yS2SSg_GSS_____SgG_____G 7SwiftUI7SectionV AA4TextV AA7ForEachV 19CollectionsInternal17OrderedDictionaryV8ElementsV 7ChatKit22DebugInspectorCellViewV AA05EmptyQ0V
++ _symbolic _____y__________y_____y_____ACy_____y_____yACy_____yAHy__________y_____GG_____G_AE_____tGGG_A2StG_____G_AvDyAeCyAS_AStGAUGADyA2uEGtGG 7SwiftUI4ListV s5NeverO AA9TupleViewV AA7SectionV AA4TextV AA6ButtonV AA6HStackV AA15ModifiedContentV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA6SpacerV AA05EmptyF0V
++ _symbolic _____y__________y_____y__________y_____y_____y_____G______Qo_______y_____y_____yAHSSAFy_____ySaySSGSS_____yAH_SSQo_G_APSgtGG______Qo_ACy_____yAHG_____GGSgtGAEGAYGG 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA15ModifiedContentV AA7SectionV AA05EmptyD0V AA05TupleD0V AA0D0PAAE11toggleStyleyQrqd__AA06ToggleO0Rd__lFQO AA0P0V AA4TextV AA06SwitchpO0V AA012_ConditionalJ0V ArAE06pickerO0yQrqd__AA06PickerO0Rd__lFQO AA0U0V AA7ForEachV ArAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaultuO0V AA6ButtonV 7ChatKit07Detailsd3RowO0V
++ _symbolic _____y__________y_____y__________y_____y_____y_____G______Qo_______y_____y_____yAHSSAFy_____ySaySSGSS_____yAH_SSQo_G_APSgtGG______Qo_ACy_____yAHG_____GGSgtGAEGAYGGSg 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA15ModifiedContentV AA7SectionV AA05EmptyD0V AA05TupleD0V AA0D0PAAE11toggleStyleyQrqd__AA06ToggleO0Rd__lFQO AA0P0V AA4TextV AA06SwitchpO0V AA012_ConditionalJ0V ArAE06pickerO0yQrqd__AA06PickerO0Rd__lFQO AA0U0V AA7ForEachV ArAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaultuO0V AA6ButtonV 7ChatKit07Detailsd3RowO0V
++ _symbolic _____y__________y_____y_____yACy_____yAFy__________y_____GG_____G_AB_____tGGG_A2QtG_____G 7SwiftUI7SectionV AA4TextV AA9TupleViewV AA6ButtonV AA6HStackV AA15ModifiedContentV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA6SpacerV AA05EmptyF0V
++ _symbolic _____y__________y_____y_____yACy_____yAFy__________y_____GG_____G_AB_____tGGG_A2QtG_____G_AtAyAbCyAQ_AQtGASGAAyA2sBGt 7SwiftUI7SectionV AA4TextV AA9TupleViewV AA6ButtonV AA6HStackV AA15ModifiedContentV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA6SpacerV AA05EmptyF0V
++ _symbolic _____y__________y_____y_____yACy_____yAFy__________y_____GG_____G_AB_____tGGG_AQtG_____G 7SwiftUI7SectionV AA4TextV AA9TupleViewV AA6ButtonV AA6HStackV AA15ModifiedContentV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA6SpacerV AA05EmptyF0V
++ _symbolic _____y__________y_____y_____y_____y______Qo__Qo__Qo_______y______yyt_____y_____GGQo_Qo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AgAE18navigationSubtitleyQrAA18LocalizedStringKeyVFQO AgAE0K19BarTitleDisplayModeyQrAA0cP4ItemV0qrS0OFQO AgAE0kQ0yQrAMFQO 7ChatKit026TTRRegistrationSheetButtonF0V AA0iJ7BuilderV10buildBlockyQrxAaJRzlFZQO AA0iT0V AA0Y0V AA4TextV
++ _symbolic _____y__________y_____y_____yx______y______y_____yyt_____y_____y_____G_Qo_G______y_ADyytAEy_____yAF_____GGGQo_SgtGQo_Qo__SSQo__Qo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE29navigationBarTitleDisplayModeyQrAA0cH4ItemV0ijK0OFQO AgAE0gI0yQrqd__SyRd__lFQO AgAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA0oP7BuilderV10buildBlockyQrxAaPRzlFZQO AA05TupleoP0V AA0oL0V AgAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtFQO AA6ButtonV AA4TextV ArSyQrxAaPRzlFZQO AA5LabelV AA5ImageV
++ _symbolic _____y______y_SiG_____y_SiGG 10Foundation20PredicateExpressionsO10ComparisonV AC8VariableV AC5ValueV
++ _symbolic _____y______y_____yyt_____y_____y_____G_Qo_G______y_AByytACy_____yAD_____GGGQo_SgtGQo_ 7SwiftUI21ToolbarContentBuilderV10buildBlockyQrxAA0cD0RzlFZQO AA05TuplecD0V AA0C4ItemV AA4ViewPAAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtFQO AA6ButtonV AA4TextV AcDyQrxAaERzlFZQO AA5LabelV AA5ImageV
++ _symbolic _____y______yyt_____y_____y__________GGGQo_ 7SwiftUI21ToolbarContentBuilderV10buildBlockyQrxAA0cD0RzlFZQO AA0C4ItemV AA6ButtonV AA5LabelV AA4TextV AA5ImageV
++ _symbolic _____y______yyt_____y_____y__________GGGQo_Sg 7SwiftUI21ToolbarContentBuilderV10buildBlockyQrxAA0cD0RzlFZQO AA0C4ItemV AA6ButtonV AA5LabelV AA4TextV AA5ImageV
++ _symbolic _____y_____yS2SSg_GSS_____SgG 7SwiftUI7ForEachV 19CollectionsInternal17OrderedDictionaryV8ElementsV 7ChatKit22DebugInspectorCellViewV
++ _symbolic _____y_____ySaySSGSS_____y______SSQo_G_AESgtG 7SwiftUI9TupleViewV AA7ForEachV AA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV
++ _symbolic _____y_____y_____AAy_____y_____yAAy_____yAFy__________y_____GG_____G_AC_____tGGG_A2QtG_____G_AtByAcAyAQ_AQtGASGAByA2sCGtG 7SwiftUI9TupleViewV AA7SectionV AA4TextV AA6ButtonV AA6HStackV AA15ModifiedContentV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA6SpacerV AA05EmptyD0V
++ _symbolic _____y_____y_____G______Qo_______y_____y_____yABSS_____y_____ySaySSGSS_____yAB_SSQo_G_AKSgtGG______Qo______y_____yABG_____GGSgt 7SwiftUI4ViewPAAE11toggleStyleyQrqd__AA06ToggleE0Rd__lFQO AA0F0V AA4TextV AA06SwitchfE0V AA19_ConditionalContentV AcAE06pickerE0yQrqd__AA06PickerE0Rd__lFQO AA0L0V AA05TupleC0V AA7ForEachV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaultlE0V AA08ModifiedJ0V AA6ButtonV 7ChatKit07Detailsc3RowE0V
++ _symbolic _____y_____y_____SS_____y_____ySaySSGSS_____yAB_SSQo_G_AFSgtGG______Qo_ 7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lFQO AA0F0V AA4TextV AA05TupleC0V AA7ForEachV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaultfE0V
++ _symbolic _____y_____y______Qo__Qo_ 7SwiftUI4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQO AcAE0dF0yQrAA18LocalizedStringKeyVFQO 7ChatKit026TTRRegistrationSheetButtonC0V
++ _symbolic _____y_____y__________ySaySi6offset_So14CKConversationC7elementtGSi_____y_____ADy_____yS2SSg_GSS_____SgG_____GGGG 7ChatKit27DebugInspectorContainerViewV 7SwiftUI4ListV s5NeverO AD7ForEachV AD7SectionV AD4TextV 19CollectionsInternal17OrderedDictionaryV8ElementsV AA0cd4CellF0V AD05EmptyF0V
++ _symbolic _____y_____y__________y_____y_____ADy_____y_____yADyAAyAAy__________y_____GG_____G_AF_____tGGG_A2StG_____G_AvEyAfDyAS_AStGAUGAEyA2uFGtGG_____yAKSgGG 7SwiftUI15ModifiedContentV AA4ListV s5NeverO AA9TupleViewV AA7SectionV AA4TextV AA6ButtonV AA6HStackV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA6SpacerV AA05EmptyH0V AA022_EnvironmentKeyWritingP0V
++ _symbolic _____y_____y__________y_____y_____y_____G______Qo______GADyADy__________y_____GG_____GGACG_ADyAByAC_____yAISg_A2VtGACGAJG_____y_____ADyAByAcUyAI_AAy_____y_____yAFSSAUy_____ySaySSGSS_____yAF_SSQo_G_A3_SgtGG______Qo_ADy_____yAFGAJGGSgtGACGAJGGSgADy_____yADyA11______ySbGG_A11_Qo_AJGSgADy_____yA11__A11_Qo_AJGSgt 7SwiftUI19_ConditionalContentV AA7SectionV AA9EmptyViewV AA08ModifiedD0V AA0G0PAAE11toggleStyleyQrqd__AA06ToggleJ0Rd__lFQO AA0K0V AA4TextV AA06SwitchkJ0V 7ChatKit07Detailsg3RowJ0V AT019SharedWithYouFooterG0V AA21_TraitWritingModifierV AA04Listq10BackgroundV3KeyV AA14_PaddingLayoutV AA05TupleG0V AA012SubscriptionG0V So20NSNotificationCenterC10FoundationE9PublisherV AkAE06pickerJ0yQrqd__AA06PickerJ0Rd__lFQO AA6PickerV AA7ForEachV AkAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA013DefaultPickerJ0V AA6ButtonV AkAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAA18LocalizedStringKeyV_AA7BindingVySbGAA10VisibilityOqd__yXEtAaJRd__lFQO AA024_EnvironmentKeyTransformX0V AkAEA24__A25_A26_A27_QrA29__A32_A34_qd__yXEtAaJRd__lFQO
++ _symbolic _____y_____y__________y_____y_____y_____G______Qo_______y_____y_____yAFSSADy_____ySaySSGSS_____yAF_SSQo_G_ANSgtGG______Qo_AAy_____yAFG_____GGSgtGACGAWG 7SwiftUI15ModifiedContentV AA7SectionV AA9EmptyViewV AA05TupleG0V AA0G0PAAE11toggleStyleyQrqd__AA06ToggleJ0Rd__lFQO AA0K0V AA4TextV AA06SwitchkJ0V AA012_ConditionalD0V AkAE06pickerJ0yQrqd__AA06PickerJ0Rd__lFQO AA0P0V AA7ForEachV AkAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaultpJ0V AA6ButtonV 7ChatKit07Detailsg3RowJ0V
++ _symbolic _____y_____y_____yAAy_____yADy__________y_____GG_____G___________tGGG_A2PtG 7SwiftUI9TupleViewV AA6ButtonV AA6HStackV AA15ModifiedContentV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA4TextV AA6SpacerV
++ _symbolic _____y_____y_____yAAy_____yADy__________y_____GG_____G___________tGGG_APtG 7SwiftUI9TupleViewV AA6ButtonV AA6HStackV AA15ModifiedContentV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA4TextV AA6SpacerV
++ _symbolic _____y_____y_____yAAy_____y_____y__________y_____y_____y_____G______Qo______GAFyAFy__________y_____GG_____GGAEG_AFyADyAeAyAKSg_A2WtGAEGALG_____y_____AFyADyAeAyAK_ACy_____y_____yAHSSAAy_____ySaySSGSS_____yAH_SSQo_G_A4_SgtGG______Qo_AFy_____yAHGALGGSgtGAEGALGGSgAFy_____yAFyA12______ySbGG_A12_Qo_ALGSgAFy_____yA12__A12_Qo_ALGSgtGG_SSAAyA12__A12_tGQo__AFyxAQGSgtG 7SwiftUI9TupleViewV AA0D0PAAE5alert_11isPresented7actionsQrqd___AA7BindingVySbGqd_0_yXEtSyRd__AaDRd_0_r0_lFQO AA5GroupV AA19_ConditionalContentV AA7SectionV AA05EmptyD0V AA08ModifiedL0V AeAE11toggleStyleyQrqd__AA06ToggleQ0Rd__lFQO AA0R0V AA4TextV AA06SwitchrQ0V 7ChatKit07Detailsd3RowQ0V A2_019SharedWithYouFooterD0V AA21_TraitWritingModifierV AA04ListX18BackgroundTraitKeyV AA14_PaddingLayoutV AA012SubscriptionD0V So20NSNotificationCenterC10FoundationE9PublisherV AeAE06pickerQ0yQrqd__AA06PickerQ0Rd__lFQO AA6PickerV AA7ForEachV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA013DefaultPickerQ0V AA6ButtonV AeAE18confirmationDialog_AG15titleVisibilityAHQrAA18LocalizedStringKeyV_AkA10VisibilityOqd__yXEtAaDRd__lFQO AA32_EnvironmentKeyTransformModifierV AeAEA32__AGA33_AHQrA35__AKA37_qd__yXEtAaDRd__lFQO
++ _symbolic _____y_____y_____y_____G______Qo_______y_____y_____yACSSAAy_____ySaySSGSS_____yAC_SSQo_G_AKSgtGG______Qo______y_____yACG_____GGSgtG 7SwiftUI9TupleViewV AA0D0PAAE11toggleStyleyQrqd__AA06ToggleF0Rd__lFQO AA0G0V AA4TextV AA06SwitchgF0V AA19_ConditionalContentV AeAE06pickerF0yQrqd__AA06PickerF0Rd__lFQO AA0M0V AA7ForEachV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaultmF0V AA08ModifiedK0V AA6ButtonV 7ChatKit07Detailsd3RowF0V
++ _symbolic _____y_____y_____y_____SS_____y_____ySaySSGSS_____yAC_SSQo_G_AGSgtGG______Qo______y_____yACG_____GG 7SwiftUI19_ConditionalContentV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerG0Rd__lFQO AA0H0V AA4TextV AA05TupleE0V AA7ForEachV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaulthG0V AA08ModifiedD0V AA6ButtonV 7ChatKit07Detailse3RowG0V
++ _symbolic _____y_____y_____y_____SS_____y_____ySaySSGSS_____yAC_SSQo_G_AGSgtGG______Qo______y_____yACG_____GGSg 7SwiftUI19_ConditionalContentV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerG0Rd__lFQO AA0H0V AA4TextV AA05TupleE0V AA7ForEachV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaulthG0V AA08ModifiedD0V AA6ButtonV 7ChatKit07Detailse3RowG0V
++ _symbolic _____y_____y_____y_____SS_____y_____ySaySSGSS_____yAC_SSQo_G_AGSgtGG______Qo______y_____yACG_____G_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE11pickerStyleyQrqd__AA06PickerH0Rd__lFQO AA0I0V AA4TextV AA05TupleF0V AA7ForEachV AgAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaultiH0V AA08ModifiedD0V AA6ButtonV 7ChatKit07Detailsf3RowH0V
++ _symbolic _____y_____y_____y______Qo__Qo__Qo_ 7SwiftUI4ViewPAAE18navigationSubtitleyQrAA18LocalizedStringKeyVFQO AcAE0D19BarTitleDisplayModeyQrAA010NavigationI4ItemV0jkL0OFQO AcAE0dJ0yQrAFFQO 7ChatKit026TTRRegistrationSheetButtonC0V
++ _symbolic _____y_____y_____y__________y_____y_____y_____G______Qo______GAEyAEy__________y_____GG_____GGADG_AEyACyAdAyAJSg_A2VtGADGAKG_____y_____AEyACyAdAyAJ_ABy_____y_____yAGSSAAy_____ySaySSGSS_____yAG_SSQo_G_A3_SgtGG______Qo_AEy_____yAGGAKGGSgtGADGAKGGSgAEy_____yAEyA11______ySbGG_A11_Qo_AKGSgAEy_____yA11__A11_Qo_AKGSgtG 7SwiftUI9TupleViewV AA19_ConditionalContentV AA7SectionV AA05EmptyD0V AA08ModifiedF0V AA0D0PAAE11toggleStyleyQrqd__AA06ToggleK0Rd__lFQO AA0L0V AA4TextV AA06SwitchlK0V 7ChatKit07Detailsd3RowK0V AV019SharedWithYouFooterD0V AA21_TraitWritingModifierV AA04Listr10BackgroundW3KeyV AA14_PaddingLayoutV AA012SubscriptionD0V So20NSNotificationCenterC10FoundationE9PublisherV AmAE06pickerK0yQrqd__AA06PickerK0Rd__lFQO AA6PickerV AA7ForEachV AmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA013DefaultPickerK0V AA6ButtonV AmAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAA18LocalizedStringKeyV_AA7BindingVySbGAA10VisibilityOqd__yXEtAaLRd__lFQO AA024_EnvironmentKeyTransformY0V AmAEA24__A25_A26_A27_QrA29__A32_A34_qd__yXEtAaLRd__lFQO
++ _symbolic _____y_____y_____y_____yADy__________y_____GG_____G___________tGGG_A2Pt 7SwiftUI6ButtonV AA6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA4TextV AA6SpacerV
++ _symbolic _____y_____y_____y_____yADy__________y_____GG_____G___________tGGG_APt 7SwiftUI6ButtonV AA6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA4TextV AA6SpacerV
++ _symbolic _____y_____y_____y_____y______Qo__Qo__Qo_______y______yyt_____y_____GGQo_Qo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE18navigationSubtitleyQrAA18LocalizedStringKeyVFQO AcAE0H19BarTitleDisplayModeyQrAA010NavigationM4ItemV0noP0OFQO AcAE0hN0yQrAIFQO 7ChatKit026TTRRegistrationSheetButtonC0V AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQO AA0fR0V AA0W0V AA4TextV
++ _symbolic _____y_____y_____y_____y__________y_____y_____y_____G______Qo______GAFyAFy__________y_____GG_____GGAEG_AFyADyAeByAKSg_A2WtGAEGALG_____y_____AFyADyAeByAK_ACy_____y_____yAHSSABy_____ySaySSGSS_____yAH_SSQo_G_A4_SgtGG______Qo_AFy_____yAHGALGGSgtGAEGALGGSgAFy_____yAFyA12______ySbGG_A12_Qo_ALGSgAFy_____yA12__A12_Qo_ALGSgtGG 7SwiftUI5GroupV AA9TupleViewV AA19_ConditionalContentV AA7SectionV AA05EmptyE0V AA08ModifiedG0V AA0E0PAAE11toggleStyleyQrqd__AA06ToggleL0Rd__lFQO AA0M0V AA4TextV AA06SwitchmL0V 7ChatKit07Detailse3RowL0V AX019SharedWithYouFooterE0V AA21_TraitWritingModifierV AA04Lists10BackgroundX3KeyV AA14_PaddingLayoutV AA012SubscriptionE0V So20NSNotificationCenterC10FoundationE9PublisherV AoAE06pickerL0yQrqd__AA06PickerL0Rd__lFQO AA6PickerV AA7ForEachV AoAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA013DefaultPickerL0V AA6ButtonV AoAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAA18LocalizedStringKeyV_AA7BindingVySbGAA10VisibilityOqd__yXEtAaNRd__lFQO AA024_EnvironmentKeyTransformZ0V AoAEA26__A27_A28_A29_QrA31__A34_A36_qd__yXEtAaNRd__lFQO
++ _symbolic _____y_____y_____y_____y_____y__________y_____y_____y_____G______Qo______GAFyAFy__________y_____GG_____GGAEG_AFyADyAeByAKSg_A2WtGAEGALG_____y_____AFyADyAeByAK_ACy_____y_____yAHSSABy_____ySaySSGSS_____yAH_SSQo_G_A4_SgtGG______Qo_AFy_____yAHGALGGSgtGAEGALGGSgAFy_____yAFyA12______ySbGG_A12_Qo_ALGSgAFy_____yA12__A12_Qo_ALGSgtGG_SSAByA12__A12_tGQo_ 7SwiftUI4ViewPAAE5alert_11isPresented7actionsQrqd___AA7BindingVySbGqd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA5GroupV AA05TupleC0V AA19_ConditionalContentV AA7SectionV AA05EmptyC0V AA08ModifiedL0V AcAE11toggleStyleyQrqd__AA06ToggleQ0Rd__lFQO AA0R0V AA4TextV AA06SwitchrQ0V 7ChatKit07Detailsc3RowQ0V A2_019SharedWithYouFooterC0V AA21_TraitWritingModifierV AA04ListX18BackgroundTraitKeyV AA14_PaddingLayoutV AA012SubscriptionC0V So20NSNotificationCenterC10FoundationE9PublisherV AcAE06pickerQ0yQrqd__AA06PickerQ0Rd__lFQO AA6PickerV AA7ForEachV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA013DefaultPickerQ0V AA6ButtonV AcAE18confirmationDialog_AE15titleVisibilityAFQrAA18LocalizedStringKeyV_AiA10VisibilityOqd__yXEtAaBRd__lFQO AA32_EnvironmentKeyTransformModifierV AcAEA32__AEA33_AFQrA35__AIA37_qd__yXEtAaBRd__lFQO
++ _symbolic _____y_____yyt_____y_____y_____G_Qo_G______y_AByytACy_____yAD_____GGGQo_SgtG 7SwiftUI19TupleToolbarContentV AA0D4ItemV AA4ViewPAAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtFQO AA6ButtonV AA4TextV AA0dE7BuilderV10buildBlockyQrxAA0dE0RzlFZQO AA5LabelV AA5ImageV
++ _symbolic _____yyt_____y_____y_____G_Qo_G______y_AAyytABy_____yAC_____GGGQo_Sgt 7SwiftUI11ToolbarItemV AA4ViewPAAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtFQO AA6ButtonV AA4TextV AA0C14ContentBuilderV10buildBlockyQrxAA0cO0RzlFZQO AA5LabelV AA5ImageV
++ _symbolic _____yyt_____y_____y__________GGG 7SwiftUI11ToolbarItemV AA6ButtonV AA5LabelV AA4TextV AA5ImageV
+- +[CKApplicationState isWindowForegroundActive:]
+- +[CKGenericPhotoStackBalloonView genericStackViewWithItemAspectRatio:]
+- +[CKThrowAnimationManager glassThrowSendAnimationManagerWithInsideGlassContainerView:]
+- -[CKAttachmentReplyPreviewBalloonView alignmentRectInsetsForBoundsSize:]
+- -[CKAudioBalloonView alignmentRectInsetsForBoundsSize:]
+- -[CKAudioMediaObject(Display) addFailedTransferGUIDIfNeeded:]
+- -[CKAudioReplyPreviewBalloonView alignmentRectInsetsForBoundsSize:]
+- -[CKChatController(SendAnimation) _audioMessageThrowBalloonsForSendingMessages:audioMessageSourceRect:contextContainerView:glassSendAnimationType:audioRecordingPillViewSnapshot:]
+- -[CKChatController(SendAnimation) _makeThrowBalloonsForSendAnimationWithType:glassSendAnimationType:inContainerView:forSendingMessages:shouldUseQuickReplySourceRect:quickReplySourceRect:quickReplySnapshotView:audioMessageSourceRect:audioRecordingPillViewSnapshot:]
+- -[CKChatController(SendAnimation) _throwBalloonAttributesForSendAnimationWithType:glassSendAnimationType:shouldUseQuickReplySourceRect:quickReplySourceRect:isRunningPhotosPlugin:chatItem:isPhotosExtensionMediaPayload:pluginChatItemCounterInOut:containerView:isChatItemFromShelf:isLastChatItem:currentBalloonOriginInOut:quickReplySnapshotView:]
+- -[CKChatControllerDummyAnimator __beginThrowAnimationWithThrowBalloonViewAttributesCollection:framesOfAddedChatItems:sendAnimationType:glassSendAnimationType:entryViewSize:]
+- -[CKConversationListStandardCell _configureMessageRequestFooter]
+- -[CKConversationListStandardCell _configureScreentimeFooter]
+- -[CKMediaObject(Display) addFailedTransferGUIDIfNeeded:]
+- -[CKMessageEntryView createInsideGlassContainerViewIfNeeded]
+- -[CKMessageEntryView insideGlassContainerView]
+- -[CKMessageEntryView setEntryViewSmoothnessForStaticAppearance]
+- -[CKMessageEntryView setInsideGlassContainerView:]
+- -[CKMessagesCarouselView initWithItemAspectRatio:]
+- -[CKOnboardingController _alwaysShowAppleIntelligenceOnboarding]
+- -[CKOnboardingController _isRunningTest]
+- -[CKOnboardingController _lastShownAppleIntelligenceOnboardingVersion]
+- -[CKOnboardingController _shouldOnboardCollaborationApps]
+- -[CKOnboardingController _shouldPresentNewInMessages]
+- -[CKOnboardingController _shouldShowAppleIntelligenceOnboarding]
+- -[CKOnboardingController _shouldShowNicknameOnboardingFlowOnLaunch]
+- -[CKOnboardingController _shouldShowRCSEncryptionOptInOnboarding]
+- -[CKOnboardingController _shouldShowSyndicationOnboardingFlowOnLaunch]
+- -[CKOnboardingController _whatsNewLatestShippingVersion]
+- -[CKOnboardingController _whatsNewVersion]
+- -[CKOnboardingController alwaysShowNicknameOnboarding]
+- -[CKOnboardingController alwaysShowSyndicationOnboarding]
+- -[CKOnboardingController currentCollaborationOnboardingVersion]
+- -[CKOnboardingController shouldPresentOnboarding]
+- -[CKOnboardingController syndicationOnboardingLastShownVersion]
+- -[CKProgressView __ck_progressView]
+- -[CKProgressView __ck_trackView]
+- -[CKProgressView initWithProgressViewStyle:]
+- -[CKProgressView setTintColor:]
+- -[CKProgressView set__ck_progressView:]
+- -[CKProgressView set__ck_trackView:]
+- -[CKSendAnimationContext behindGlassThrowBalloonViewAttributesCollection]
+- -[CKSendAnimationContext insideGlassContainerView]
+- -[CKSendAnimationContext insideGlassThrowBalloonViewAttributesCollection]
+- -[CKSendAnimationContext setBehindGlassThrowBalloonViewAttributesCollection:]
+- -[CKSendAnimationContext setInsideGlassContainerView:]
+- -[CKSendAnimationContext setInsideGlassThrowBalloonViewAttributesCollection:]
+- -[CKTextBalloonView alignmentRectInsetsForBoundsSize:]
+- -[CKTextReplyPreviewBalloonView alignmentRectInsetsForBoundsSize:]
+- -[CKTextReplyPreviewBalloonView layoutSubviews]
+- -[CKTextReplyPreviewBalloonView layoutSubviews].cold.1
+- -[CKThrowAnimationManager initWithInsideGlassContainerView:sendAnimationType:]
+- -[CKThrowAnimationManager insideGlassContainerView]
+- -[CKThrowAnimationManager setInsideGlassContainerView:]
+- -[CKTranscriptCollectionViewController setTranscriptPagingWasEnabledDuringScroll:]
+- -[CKTranscriptCollectionViewController transcriptPagingWasEnabledDuringScroll]
+- -[CKUIBehavior attachmentReplyPreviewBalloonAlignmentRectInsets].cold.1
+- GCC_except_table1002
+- GCC_except_table1025
+- GCC_except_table1028
+- GCC_except_table1035
+- GCC_except_table1042
+- GCC_except_table1072
+- GCC_except_table1097
+- GCC_except_table1102
+- GCC_except_table1149
+- GCC_except_table1158
+- GCC_except_table1159
+- GCC_except_table1163
+- GCC_except_table1166
+- GCC_except_table1178
+- GCC_except_table1195
+- GCC_except_table123
+- GCC_except_table130
+- GCC_except_table143
+- GCC_except_table1555
+- GCC_except_table1582
+- GCC_except_table1589
+- GCC_except_table1590
+- GCC_except_table1594
+- GCC_except_table1595
+- GCC_except_table1608
+- GCC_except_table175
+- GCC_except_table209
+- GCC_except_table233
+- GCC_except_table246
+- GCC_except_table249
+- GCC_except_table254
+- GCC_except_table256
+- GCC_except_table261
+- GCC_except_table265
+- GCC_except_table273
+- GCC_except_table282
+- GCC_except_table289
+- GCC_except_table291
+- GCC_except_table293
+- GCC_except_table296
+- GCC_except_table302
+- GCC_except_table311
+- GCC_except_table332
+- GCC_except_table336
+- GCC_except_table341
+- GCC_except_table353
+- GCC_except_table359
+- GCC_except_table366
+- GCC_except_table371
+- GCC_except_table389
+- GCC_except_table406
+- GCC_except_table408
+- GCC_except_table420
+- GCC_except_table423
+- GCC_except_table428
+- GCC_except_table437
+- GCC_except_table440
+- GCC_except_table452
+- GCC_except_table454
+- GCC_except_table456
+- GCC_except_table459
+- GCC_except_table463
+- GCC_except_table471
+- GCC_except_table474
+- GCC_except_table476
+- GCC_except_table481
+- GCC_except_table492
+- GCC_except_table499
+- GCC_except_table501
+- GCC_except_table503
+- GCC_except_table507
+- GCC_except_table509
+- GCC_except_table519
+- GCC_except_table529
+- GCC_except_table532
+- GCC_except_table535
+- GCC_except_table538
+- GCC_except_table550
+- GCC_except_table554
+- GCC_except_table557
+- GCC_except_table569
+- GCC_except_table581
+- GCC_except_table583
+- GCC_except_table589
+- GCC_except_table592
+- GCC_except_table598
+- GCC_except_table606
+- GCC_except_table617
+- GCC_except_table619
+- GCC_except_table622
+- GCC_except_table625
+- GCC_except_table630
+- GCC_except_table635
+- GCC_except_table652
+- GCC_except_table666
+- GCC_except_table669
+- GCC_except_table676
+- GCC_except_table678
+- GCC_except_table683
+- GCC_except_table685
+- GCC_except_table689
+- GCC_except_table707
+- GCC_except_table710
+- GCC_except_table712
+- GCC_except_table715
+- GCC_except_table718
+- GCC_except_table729
+- GCC_except_table732
+- GCC_except_table738
+- GCC_except_table739
+- GCC_except_table750
+- GCC_except_table780
+- GCC_except_table783
+- GCC_except_table787
+- GCC_except_table808
+- GCC_except_table809
+- GCC_except_table818
+- GCC_except_table824
+- GCC_except_table825
+- GCC_except_table834
+- GCC_except_table845
+- GCC_except_table848
+- GCC_except_table873
+- GCC_except_table876
+- GCC_except_table893
+- GCC_except_table896
+- GCC_except_table897
+- GCC_except_table901
+- GCC_except_table909
+- GCC_except_table910
+- GCC_except_table913
+- GCC_except_table914
+- GCC_except_table919
+- GCC_except_table922
+- GCC_except_table928
+- GCC_except_table931
+- GCC_except_table936
+- GCC_except_table941
+- GCC_except_table946
+- GCC_except_table947
+- GCC_except_table953
+- GCC_except_table956
+- GCC_except_table963
+- GCC_except_table964
+- GCC_except_table969
+- GCC_except_table975
+- GCC_except_table981
+- GCC_except_table982
+- GCC_except_table985
+- GCC_except_table986
+- GCC_except_table992
+- GCC_except_table993
+- GCC_except_table998
+- _CGSizeScaledToFit
+- _OBJC_CLASS_$__TtC7ChatKit39CKInsideGlassSendAnimationContainerView
+- _OBJC_IVAR_$_CKMessageEntryView._insideGlassContainerView
+- _OBJC_IVAR_$_CKMessagesCarouselView.viewAspectRatio
+- _OBJC_IVAR_$_CKProgressView.___ck_progressView
+- _OBJC_IVAR_$_CKProgressView.___ck_trackView
+- _OBJC_IVAR_$_CKSendAnimationContext._behindGlassThrowBalloonViewAttributesCollection
+- _OBJC_IVAR_$_CKSendAnimationContext._insideGlassContainerView
+- _OBJC_IVAR_$_CKSendAnimationContext._insideGlassThrowBalloonViewAttributesCollection
+- _OBJC_IVAR_$_CKThrowAnimationManager._insideGlassContainerView
+- _OBJC_IVAR_$_CKTranscriptCollectionViewController._transcriptPagingWasEnabledDuringScroll
+- _OBJC_METACLASS_$__TtC7ChatKit39CKInsideGlassSendAnimationContainerView
+- _OBJC_METACLASS_$__TtCC7ChatKit35TranscriptNavigationBarOrnamentViewP33_239BBF68EFFD0F16239629799FEDE52A25NavigationBarProgressView
+- __DATA__TtC7ChatKit39CKInsideGlassSendAnimationContainerView
+- __DATA__TtCC7ChatKit35TranscriptNavigationBarOrnamentViewP33_239BBF68EFFD0F16239629799FEDE52A25NavigationBarProgressView
+- __INSTANCE_METHODS__TtC7ChatKit39CKInsideGlassSendAnimationContainerView
+- __INSTANCE_METHODS__TtCC7ChatKit35TranscriptNavigationBarOrnamentViewP33_239BBF68EFFD0F16239629799FEDE52A25NavigationBarProgressView
+- __IVARS__TtCC7ChatKit35TranscriptNavigationBarOrnamentViewP33_239BBF68EFFD0F16239629799FEDE52A25NavigationBarProgressView
+- __METACLASS_DATA__TtC7ChatKit39CKInsideGlassSendAnimationContainerView
+- __METACLASS_DATA__TtCC7ChatKit35TranscriptNavigationBarOrnamentViewP33_239BBF68EFFD0F16239629799FEDE52A25NavigationBarProgressView
+- __OBJC_$_CATEGORY_UIViewController_$_CKBrowserTransitionCoordinator
+- __OBJC_$_INSTANCE_METHODS_UIViewController(CKBrowserTransitionCoordinator|ChatKit)
+- __PROTOCOLS__TtC7ChatKit16RichCarouselItem.15
+- ___103-[CKChatInputController _openContainingBundleID:applicationService:withURL:pluginID:completionHandler:]_block_invoke.424
+- ___103-[CKChatInputController _openContainingBundleID:applicationService:withURL:pluginID:completionHandler:]_block_invoke.432
+- ___103-[CKChatInputController _openContainingBundleID:applicationService:withURL:pluginID:completionHandler:]_block_invoke.436
+- ___105-[CKTranscriptBackgroundChannelController _asyncFetchNewGalleryObjectForChannel:fetchRequest:completion:]_block_invoke.83
+- ___115-[CKChatInputController(TextInputPayloads) _presentPluginWithBundleID:sendingTextInputPayload:withPayloadID:style:]_block_invoke.283
+- ___136-[CKTranscriptBackgroundChannelController updateChannelUsingChatGUID:deviceIndependentID:backgroundGUID:posterConfiguration:completion:]_block_invoke.71
+- ___173-[CKChatControllerDummyAnimator __beginThrowAnimationWithThrowBalloonViewAttributesCollection:framesOfAddedChatItems:sendAnimationType:glassSendAnimationType:entryViewSize:]_block_invoke
+- ___173-[CKChatControllerDummyAnimator __beginThrowAnimationWithThrowBalloonViewAttributesCollection:framesOfAddedChatItems:sendAnimationType:glassSendAnimationType:entryViewSize:]_block_invoke.279
+- ___264-[CKChatController(SendAnimation) _makeThrowBalloonsForSendAnimationWithType:glassSendAnimationType:inContainerView:forSendingMessages:shouldUseQuickReplySourceRect:quickReplySourceRect:quickReplySnapshotView:audioMessageSourceRect:audioRecordingPillViewSnapshot:]_block_invoke
+- ___34-[CKMediaObject(Display) richIcon]_block_invoke.245
+- ___34-[CKMediaObject(Display) richIcon]_block_invoke.249
+- ___41-[CKMediaObject(Display) previewMetadata]_block_invoke.328
+- ___41-[CKMediaObject(Display) previewMetadata]_block_invoke_2.329
+- ___46-[CKChatInputController _startEditingPayload:]_block_invoke.704
+- ___46-[CKChatInputController _startEditingPayload:]_block_invoke_2.705
+- ___57-[CKOnboardingController startNicknameOnboardingIfNeeded]_block_invoke.127
+- ___58-[CKOnboardingController _fetchMemojiWithCompletionBlock:]_block_invoke.167
+- ___60-[CKConversationListStandardCell _configureScreentimeFooter]_block_invoke
+- ___60-[CKConversationListStandardCell _configureScreentimeFooter]_block_invoke_2
+- ___61-[CKMediaObject(Display) prewarmPreviewForWidth:orientation:]_block_invoke.285
+- ___64-[CKConversationListStandardCell _configureMessageRequestFooter]_block_invoke
+- ___64-[CKConversationListStandardCell _configureMessageRequestFooter]_block_invoke_2
+- ___65-[CKMediaObject(Display) generateOOPPreviewForWidth:orientation:]_block_invoke.290
+- ___65-[CKMediaObject(Display) generateOOPPreviewForWidth:orientation:]_block_invoke_2.291
+- ___67-[CKChatInputController _handleSelectionOfExtensionWithIdentifier:]_block_invoke.379
+- ___67-[CKChatInputController _handleSelectionOfExtensionWithIdentifier:]_block_invoke.380
+- ___67-[CKUIBehaviorMac attachmentReplyPreviewBalloonAlignmentRectInsets]_block_invoke.cold.1
+- ___72-[CKChatInputController(TextInputPayloads) handlePayload:withPayloadId:]_block_invoke.256
+- ___75-[CKCoreChatController(Backgrounds) updateTranscriptBackground:transferID:]_block_invoke.263
+- ___81-[CKConversationListCollectionViewController _configureCloudTipViewModelIfNeeded]_block_invoke.1029
+- ___81-[CKConversationListCollectionViewController _configureCloudTipViewModelIfNeeded]_block_invoke.1031
+- ___89-[CKCoreChatController(Backgrounds) _transitionToPosterKitPosterConfiguration:onChannel:]_block_invoke.256
+- ___89-[CKCoreChatController(Backgrounds) _transitionToPosterKitPosterConfiguration:onChannel:]_block_invoke.256.cold.1
+- ___95-[CKConversationListCollectionViewController registerForCloudKitEventsWithDelayedRegistration:]_block_invoke.973
+- ___97-[CKGroupRecipientSelectionController handleDoneActionForConversation:viewController:completion:]_block_invoke.122
+- ___block_descriptor_147_e8_32s40s48s56s64s72r80r88r_e27_v32?0"CKChatItem"8Q16^B24ls32l8s40l8s48l8r72l8s56l8r80l8s64l8r88l8
+- ___block_descriptor_40_e8_32bs_e30_v24?0"NSString"8"NSError"16ls32l8
+- ___block_descriptor_80_e8_32s40s48s56bs64r_e20_v24?08"NSError"16ls32l8s40l8s48l8s56l8r64l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72w_e17_v16?0"NSError"8ls32l8s40l8w72l8s48l8s56l8s64l8
+- ___block_descriptor_81_e8_32s40s48s56bs_e5_v8?0ls32l8s56l8s40l8s48l8
+- ___block_descriptor_88_e8_32s40s48s56s64s72s80w_e5_v8?0ls32l8s40l8s48l8w80l8s56l8s64l8s72l8
+- ___block_descriptor_96_e8_32s40s48s_e45_v32?0"CKThrowBalloonViewAttributes"8Q16^B24ls32l8s40l8s48l8
+- ___block_literal_global.1033
+- ___block_literal_global.1035
+- ___block_literal_global.1083
+- ___block_literal_global.1133
+- ___block_literal_global.1405
+- ___block_literal_global.1407
+- ___block_literal_global.1785
+- ___block_literal_global.2842
+- ___block_literal_global.307
+- ___block_literal_global.334
+- ___block_literal_global.354
+- ___block_literal_global.4000
+- ___block_literal_global.4008
+- ___block_literal_global.4010
+- ___block_literal_global.404
+- ___block_literal_global.406
+- ___block_literal_global.440
+- ___block_literal_global.458
+- ___block_literal_global.460
+- ___block_literal_global.518
+- ___block_literal_global.555
+- ___block_literal_global.721
+- ___block_literal_global.833
+- ___block_literal_global.871
+- ___block_literal_global.972
+- ___ck_progressViewHeight
+- _block_copy_helper.226
+- _block_descriptor.228
+- _block_destroy_helper.227
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.189
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOQr.193
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOQr.191
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.190
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.194
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOqd0__AaBHC.192
+- _get_witness_table 7ChatKit27DebugInspectorContainerViewVy7SwiftUI4ListVys5NeverOAD7ForEachVySaySi6offset_So14CKConversationC7elementtGSiAD7SectionVyAD4TextVAD05TupleF0VyAA0cd4CellF0V_A3WSgA2wXtGAD05EmptyF0VGGGGAD0F0HPyHC.6
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ListVys5NeverOAA9TupleViewVyAA7SectionVyAA05EmptyH0VACyAA6VStackVyAA4TextVGAA21_TraitWritingModifierVyAA0e13RowBackgroundM3KeyVGGAMG_AKyAqA0H0PAAE11pickerStyleyQrqd__AA06PickerT0Rd__lFQOyAA0U0VyAQ7ChatKit25TTRFilteringIssueCategoryOAA7ForEachVySayA6_GA6_A_AAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAQ_A6_Qo_GG_AA04MenuuT0VQo_AMGAKyAQA_AAEA0_yQrqd__AAA1_Rd__lFQOyA3_yAQA4_0xY15TimeSensitivityOA8_ySayA20_GA20_A_AAEA10__A11_Qrqd___SbtSHRd__lFQOyAQ_A20_Qo_GG_A16_Qo_AMGSgAKyAmCyAqWGAMGAKyAmCyACyAA6ButtonVyAQGAA012_Environmentr9TransformO0VySbGGAWGAMGtGGAA017_AppearanceActionO0VGAaZHPA40_AaZHPyHC_A42_AA0hO0HPyHCHC.25
+- _get_witness_table 7SwiftUI4ViewRzlAA05TupleC0VyAA15ModifiedContentVyAA7SectionVyAA05EmptyC0VAA012_ConditionalF0VyAaBPAAE20disclosureGroupStyleyQrqd__AA010DisclosurekL0Rd__lFQOyAA0mK0VyAFyAFyAA6ButtonVyALyAFyAA6HStackVyADyAA6VStackVyADyALyAjFy7ChatKit011AvatarStackC0VAA25_AllowsHitTestingModifierVGG_AA4TextVAFyAFyA4_AA022_EnvironmentKeyWritingX0VySiSgGGA6_yA4_14TruncationModeOGGtGG_ALyAFyAFyAFyAFyAmAE06buttonL0yQrqd__AA09PrimitivenL0Rd__lFQOyASyAmAE10fontDesignyQrAA4FontV6DesignOSgFQOyAFyAA5ImageVAA011_ForegroundlX0VyAA5ColorVGG_Qo_G_AA08BorderednL0VQo_A6_yAA0N11BorderShapeVGGA6_yAA11ControlSizeOGGA0_GAA15_RotationEffectVGAFyAFyAFyAmAEA18_yQrA23_FQOyAFyA25_A6_yA20_SgGG_Qo_A6_yA25_5ScaleOGGA6_yA29_SgGGA47_GGtGGAA14_PaddingLayoutVGAUyADyA2__AWyADyA4__A13_tGGAA6SpacerVA61_tGGGGAA013_TraitWritingX0VyAA25ListRowBackgroundTraitKeyVGGAA16_FlexFrameLayoutVGADyAFyAA7ForEachVySayAX07DetailsC11ParticipantVGSSAmAE18confirmationDialog_11isPresented15titleVisibility7actionsQrqd___AA7BindingVySbGAA10VisibilityOqd_0_yXEtSyRd__AaBRd_0_r0_lFQOyAFyAmAE12swipeActions4edge15allowsFullSwipe7contentQrAA14HorizontalEdgeO_Sbqd__yXEtAaBRd__lFQOyAX07Detailsc15ParticipantListG0V8ListCellV_AFyASyA4_GA58_GSgQo_A79_G_SSA108_Qo_GAX07DetailsC21SeparatorLeadingInsetVG_A105_09AddMemberC0VtGG_AX016ParticipantsListmkL0VQo_ADyAmAE16listRowSeparator_5edgesQrA97__AA12VerticalEdgeO3SetVtFQOyAFyAFyAFyA4_A6_yA4_4CaseOSgGGA27_yAA017HierarchicalShapeL0VGGA79_G_Qo__A114_A119_tGGSgAJGA76_yAA21ListRowInsetsTraitKeyVGG_AFyxA79_GSgtGAaBHPyHC.392
+- _get_witness_table 7SwiftUI4ViewRzlAA05TupleC0VyAaBPAAE5alert_11isPresented7actionsQrqd___AA7BindingVySbGqd_0_yXEtSyRd__AaBRd_0_r0_lFQOyAA5GroupVyADyAA19_ConditionalContentVyAA7SectionVyAA05EmptyC0VAA08ModifiedL0VyAeAE11toggleStyleyQrqd__AA06ToggleQ0Rd__lFQOyAA0R0VyAA4TextVG_AA06SwitchrQ0VQo_7ChatKit07Detailsc3RowQ0VGAUyAUyA4_019SharedWithYouFooterC0VAA21_TraitWritingModifierVyAA04ListX18BackgroundTraitKeyVGGAA14_PaddingLayoutVGGASG_AUyAQyAsDyA3_Sg_A21_A21_tGASGA6_GAA012SubscriptionC0VySo20NSNotificationCenterC10FoundationE9PublisherVAUyAQyAsDyA3__AOyAeAE06pickerQ0yQrqd__AA06PickerQ0Rd__lFQOyAA6PickerVyA_SSADyAA7ForEachVySayA29_6LocaleVGSSAeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyA__SSQo_G_A43_SgtGG_AA013DefaultPickerQ0VQo_AUyAA6ButtonVyA_GA6_GGSgtGASGA6_GGSgAUyAeAE18confirmationDialog_AG15titleVisibilityAHQrAA18LocalizedStringKeyV_AkA10VisibilityOqd__yXEtAaBRd__lFQOyAUyA53_AA32_EnvironmentKeyTransformModifierVySbGG_A53_Qo_A6_GSgAUyAeAEA62__AGA63_AHQrA65__AKA67_qd__yXEtAaBRd__lFQOyA53__A53_Qo_A6_GSgtGG_SSADyA53__A53_tGQo__AUyxA14_GSgtGAaBHPyHC.239
+- _get_witness_table 7SwiftUI4ViewRzlAA15NavigationStackVyAA0D4PathVAaBPAAE29navigationBarTitleDisplayModeyQrAA0dH4ItemV0ijK0OFQOyAgAE0gI0yQrqd__SyRd__lFQOyAgAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyx_AA0oP7BuilderV10buildBlockyQrxAaPRzlFZQOy_ArSyQrxAaPRzlFZQOy_AA0oL0VyytAgAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtFQOyAA6ButtonVyAA4TextVG_Qo_GQo_Qo_Qo__SSQo__Qo_GAaBHPyHC.8
+- _get_witness_table 7SwiftUI7SectionVyAA9EmptyViewVAA05TupleE0VyAA0E0PAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaHRd__lFQOyAiAEAjklMQrAP_AQqd__yctAaHRd__lFQOyAiAE18confirmationDialog_AK15titleVisibility7actions7messageQrqd___ApA0Q0Oqd_0_yXEqd_1_yXEtSyRd__AaHRd_0_AaHRd_1_r1_lFQOyAiAE5alert_AktUQrqd___APqd_0_yXEqd_1_yXEtSyRd__AaHRd_0_AaHRd_1_r1_lFQOyAA15ModifiedContentVyAiAE11toggleStyleyQrqd__AA06ToggleX0Rd__lFQOyAA0Y0VyAA6VStackVyAGyAZyAA4TextVAA16_FlexFrameLayoutVG_AA012_ConditionalV0VyA11_yA11_yA9_A9_GAEGA11_yAEA9_GGtGGG_AA06SwitchyX0VQo_AA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_SSAGyAA6ButtonVyA6_G_A31_tGA6_Qo__SSAGyA11_yAiAE16keyboardShortcutyQrAA16KeyboardShortcutVFQOyA31__Qo_A31_GSg_A31_tGA6_Qo__7ChatKit019CKLanguageSelectionE0VQo__A44_Qo__A11_yA11_yAEA31_GAiAE06buttonX0yQrqd__AA015PrimitiveButtonX0Rd__lFQOyA30_yAA07LabeledV0VyA6_A6_GG_AA020NavigationLinkButtonX0Vys5NeverOGQo_GA11_yA11_yA2EGA59_GtGAEGAaHHPAeaHHPyHC_A63_AaHHPyHCAeaHHPyHCHC.92
+- _get_witness_table 7SwiftUI9TupleViewVyAA33DisclosureGroupStyleConfigurationV5LabelV_AE7ContentVSgtGAA0D0HPyHC.395
+- _objc_msgSend$__beginThrowAnimationWithThrowBalloonViewAttributesCollection:framesOfAddedChatItems:sendAnimationType:glassSendAnimationType:entryViewSize:
+- _objc_msgSend$__ck_progressView
+- _objc_msgSend$__ck_trackView
+- _objc_msgSend$_audioMessageThrowBalloonsForSendingMessages:audioMessageSourceRect:contextContainerView:glassSendAnimationType:audioRecordingPillViewSnapshot:
+- _objc_msgSend$_configureMessageRequestFooter
+- _objc_msgSend$_configureScreentimeFooter
+- _objc_msgSend$_makeThrowBalloonsForSendAnimationWithType:glassSendAnimationType:inContainerView:forSendingMessages:shouldUseQuickReplySourceRect:quickReplySourceRect:quickReplySnapshotView:audioMessageSourceRect:audioRecordingPillViewSnapshot:
+- _objc_msgSend$_throwBalloonAttributesForSendAnimationWithType:glassSendAnimationType:shouldUseQuickReplySourceRect:quickReplySourceRect:isRunningPhotosPlugin:chatItem:isPhotosExtensionMediaPayload:pluginChatItemCounterInOut:containerView:isChatItemFromShelf:isLastChatItem:currentBalloonOriginInOut:quickReplySnapshotView:
+- _objc_msgSend$addAnimationsForColoredBalloonView:sendAnimationType:glassAnimationType:sendAnimationConfiguration:
+- _objc_msgSend$addFailedTransferGUIDIfNeeded:
+- _objc_msgSend$behindGlassThrowBalloonViewAttributesCollection
+- _objc_msgSend$createInsideGlassContainerViewIfNeeded
+- _objc_msgSend$glassThrowSendAnimationManagerWithInsideGlassContainerView:
+- _objc_msgSend$initWithInsideGlassContainerView:sendAnimationType:
+- _objc_msgSend$initWithItemAspectRatio:
+- _objc_msgSend$insideGlassContainerView
+- _objc_msgSend$insideGlassThrowBalloonViewAttributesCollection
+- _objc_msgSend$isBackgroundAudioMessagesEnabled
+- _objc_msgSend$isWindowForegroundActive:
+- _objc_msgSend$networkSupportsSpamReportingForContext:
+- _objc_msgSend$setBehindGlassThrowBalloonViewAttributesCollection:
+- _objc_msgSend$setEntryViewSmoothnessForStaticAppearance
+- _objc_msgSend$setInsideGlassContainerView:
+- _objc_msgSend$setTranscriptPagingWasEnabledDuringScroll:
+- _objc_msgSend$set__ck_progressView:
+- _objc_msgSend$set__ck_trackView:
+- _objc_msgSend$textReplyPreviewBalloonAlignmentRectInsets
+- _objc_msgSend$transcriptPagingWasEnabledDuringScroll
+- _symbolic SiSo14CKConversationC_____y__________y______A3FSgA2fGtG_____GIegygr_ 7SwiftUI7SectionV AA4TextV AA9TupleViewV 7ChatKit018DebugInspectorCellF0V AA05EmptyF0V
+- _symbolic So6UIViewCm
+- _symbolic _____ 7ChatKit35TranscriptNavigationBarOrnamentViewC0de8ProgressG033_239BBF68EFFD0F16239629799FEDE52ALLC
+- _symbolic _____ 7ChatKit39CKInsideGlassSendAnimationContainerViewC
+- _symbolic _____ySaySi6offset_So14CKConversationC7elementtGSi_____y__________y______A3JSgA2jKtG_____GG 7SwiftUI7ForEachV AA7SectionV AA4TextV AA9TupleViewV 7ChatKit018DebugInspectorCellH0V AA05EmptyH0V
+- _symbolic _____ySay_____GSS_____y______SSQo_G 7SwiftUI7ForEachV 10Foundation6LocaleV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV
+- _symbolic _____ySay_____GSS_____y______SSQo_G_AESgt 7SwiftUI7ForEachV 10Foundation6LocaleV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV
+- _symbolic _____y_____SS_____y_____ySay_____GSS_____yAB_SSQo_G_AGSgtGG 7SwiftUI6PickerV AA4TextV AA9TupleViewV AA7ForEachV 10Foundation6LocaleV AA0F0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO
+- _symbolic _____y______A3BSgA2bCtG 7SwiftUI9TupleViewV 7ChatKit018DebugInspectorCellD0V
+- _symbolic _____y__________y______A3DSgA2dEtG_____G 7SwiftUI7SectionV AA4TextV AA9TupleViewV 7ChatKit018DebugInspectorCellF0V AA05EmptyF0V
+- _symbolic _____y__________y_____y__________y_____y_____y_____G______Qo_______y_____y_____yAHSSAFy_____ySay_____GSS_____yAH_SSQo_G_AQSgtGG______Qo_ACy_____yAHG_____GGSgtGAEGAZGG 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA15ModifiedContentV AA7SectionV AA05EmptyD0V AA05TupleD0V AA0D0PAAE11toggleStyleyQrqd__AA06ToggleO0Rd__lFQO AA0P0V AA4TextV AA06SwitchpO0V AA012_ConditionalJ0V ArAE06pickerO0yQrqd__AA06PickerO0Rd__lFQO AA0U0V AA7ForEachV AF6LocaleV ArAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaultuO0V AA6ButtonV 7ChatKit07Detailsd3RowO0V
+- _symbolic _____y__________y_____y__________y_____y_____y_____G______Qo_______y_____y_____yAHSSAFy_____ySay_____GSS_____yAH_SSQo_G_AQSgtGG______Qo_ACy_____yAHG_____GGSgtGAEGAZGGSg 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA15ModifiedContentV AA7SectionV AA05EmptyD0V AA05TupleD0V AA0D0PAAE11toggleStyleyQrqd__AA06ToggleO0Rd__lFQO AA0P0V AA4TextV AA06SwitchpO0V AA012_ConditionalJ0V ArAE06pickerO0yQrqd__AA06PickerO0Rd__lFQO AA0U0V AA7ForEachV AF6LocaleV ArAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaultuO0V AA6ButtonV 7ChatKit07Detailsd3RowO0V
+- _symbolic _____y__________y_____y_____yx______y______y______yyt_____y_____y_____G_Qo_GQo_Qo_Qo__SSQo__Qo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE29navigationBarTitleDisplayModeyQrAA0cH4ItemV0ijK0OFQO AgAE0gI0yQrqd__SyRd__lFQO AgAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA0oP7BuilderV10buildBlockyQrxAaPRzlFZQO ArSyQrxAaPRzlFZQO AA0oL0V AgAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtFQO AA6ButtonV AA4TextV
+- _symbolic _____y_____ySay_____GSS_____y______SSQo_G_AFSgtG 7SwiftUI9TupleViewV AA7ForEachV 10Foundation6LocaleV AA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV
+- _symbolic _____y_____y_____G______Qo_______y_____y_____yABSS_____y_____ySay_____GSS_____yAB_SSQo_G_ALSgtGG______Qo______y_____yABG_____GGSgt 7SwiftUI4ViewPAAE11toggleStyleyQrqd__AA06ToggleE0Rd__lFQO AA0F0V AA4TextV AA06SwitchfE0V AA19_ConditionalContentV AcAE06pickerE0yQrqd__AA06PickerE0Rd__lFQO AA0L0V AA05TupleC0V AA7ForEachV 10Foundation6LocaleV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaultlE0V AA08ModifiedJ0V AA6ButtonV 7ChatKit07Detailsc3RowE0V
+- _symbolic _____y_____y_____SS_____y_____ySay_____GSS_____yAB_SSQo_G_AGSgtGG______Qo_ 7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lFQO AA0F0V AA4TextV AA05TupleC0V AA7ForEachV 10Foundation6LocaleV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaultfE0V
+- _symbolic _____y_____y__________ySaySi6offset_So14CKConversationC7elementtGSi_____y__________y______A3MSgA2mNtG_____GGGG 7ChatKit27DebugInspectorContainerViewV 7SwiftUI4ListV s5NeverO AD7ForEachV AD7SectionV AD4TextV AD05TupleF0V AA0cd4CellF0V AD05EmptyF0V
+- _symbolic _____y_____y__________y_____y_____AAy_____y_____G_____y_____GGAFG_AEyAH_____y_____yAH__________ySayAPGAP_____yAH_APQo_GG______Qo_AFGAEyAH_____yAOyAH_____AQySayAYGAY_____yAH_AYQo_GG_AVQo_AFGSgAEyAfAyAhLGAFGAEyAfAyAAy_____yAHG_____ySbGGALGAFGtGG_____G 7SwiftUI15ModifiedContentV AA4ListV s5NeverO AA9TupleViewV AA7SectionV AA05EmptyH0V AA6VStackV AA4TextV AA21_TraitWritingModifierV AA0e13RowBackgroundM3KeyV AA0H0PAAE11pickerStyleyQrqd__AA06PickerT0Rd__lFQO AA0U0V 7ChatKit25TTRFilteringIssueCategoryO AA7ForEachV AwAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenuuT0V AwAEAXyQrqd__AaYRd__lFQO A0_0xY15TimeSensitivityO AwAEA5__A6_Qrqd___SbtSHRd__lFQO AA6ButtonV AA012_Environmentr9TransformO0V AA017_AppearanceActionO0V
+- _symbolic _____y_____y__________y_____y_____y_____G______Qo______GADyADy__________y_____GG_____GGACG_ADyAByAC_____yAISg_A2VtGACGAJG_____y_____ADyAByAcUyAI_AAy_____y_____yAFSSAUy_____ySay_____GSS_____yAF_SSQo_G_A4_SgtGG______Qo_ADy_____yAFGAJGGSgtGACGAJGGSgADy_____yADyA12______ySbGG_A12_Qo_AJGSgADy_____yA12__A12_Qo_AJGSgt 7SwiftUI19_ConditionalContentV AA7SectionV AA9EmptyViewV AA08ModifiedD0V AA0G0PAAE11toggleStyleyQrqd__AA06ToggleJ0Rd__lFQO AA0K0V AA4TextV AA06SwitchkJ0V 7ChatKit07Detailsg3RowJ0V AT019SharedWithYouFooterG0V AA21_TraitWritingModifierV AA04Listq10BackgroundV3KeyV AA14_PaddingLayoutV AA05TupleG0V AA012SubscriptionG0V So20NSNotificationCenterC10FoundationE9PublisherV AkAE06pickerJ0yQrqd__AA06PickerJ0Rd__lFQO AA6PickerV AA7ForEachV A9_6LocaleV AkAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA013DefaultPickerJ0V AA6ButtonV AkAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAA18LocalizedStringKeyV_AA7BindingVySbGAA10VisibilityOqd__yXEtAaJRd__lFQO AA024_EnvironmentKeyTransformX0V AkAEA26__A27_A28_A29_QrA31__A34_A36_qd__yXEtAaJRd__lFQO
+- _symbolic _____y_____y__________y_____y_____y_____G______Qo_______y_____y_____yAFSSADy_____ySay_____GSS_____yAF_SSQo_G_AOSgtGG______Qo_AAy_____yAFG_____GGSgtGACGAXG 7SwiftUI15ModifiedContentV AA7SectionV AA9EmptyViewV AA05TupleG0V AA0G0PAAE11toggleStyleyQrqd__AA06ToggleJ0Rd__lFQO AA0K0V AA4TextV AA06SwitchkJ0V AA012_ConditionalD0V AkAE06pickerJ0yQrqd__AA06PickerJ0Rd__lFQO AA0P0V AA7ForEachV 10Foundation6LocaleV AkAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaultpJ0V AA6ButtonV 7ChatKit07Detailsg3RowJ0V
+- _symbolic _____y_____y_____yAAy_____y_____y__________y_____y_____y_____G______Qo______GAFyAFy__________y_____GG_____GGAEG_AFyADyAeAyAKSg_A2WtGAEGALG_____y_____AFyADyAeAyAK_ACy_____y_____yAHSSAAy_____ySay_____GSS_____yAH_SSQo_G_A5_SgtGG______Qo_AFy_____yAHGALGGSgtGAEGALGGSgAFy_____yAFyA13______ySbGG_A13_Qo_ALGSgAFy_____yA13__A13_Qo_ALGSgtGG_SSAAyA13__A13_tGQo__AFyxAQGSgtG 7SwiftUI9TupleViewV AA0D0PAAE5alert_11isPresented7actionsQrqd___AA7BindingVySbGqd_0_yXEtSyRd__AaDRd_0_r0_lFQO AA5GroupV AA19_ConditionalContentV AA7SectionV AA05EmptyD0V AA08ModifiedL0V AeAE11toggleStyleyQrqd__AA06ToggleQ0Rd__lFQO AA0R0V AA4TextV AA06SwitchrQ0V 7ChatKit07Detailsd3RowQ0V A2_019SharedWithYouFooterD0V AA21_TraitWritingModifierV AA04ListX18BackgroundTraitKeyV AA14_PaddingLayoutV AA012SubscriptionD0V So20NSNotificationCenterC10FoundationE9PublisherV AeAE06pickerQ0yQrqd__AA06PickerQ0Rd__lFQO AA6PickerV AA7ForEachV A17_6LocaleV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA013DefaultPickerQ0V AA6ButtonV AeAE18confirmationDialog_AG15titleVisibilityAHQrAA18LocalizedStringKeyV_AkA10VisibilityOqd__yXEtAaDRd__lFQO AA32_EnvironmentKeyTransformModifierV AeAEA34__AGA35_AHQrA37__AKA39_qd__yXEtAaDRd__lFQO
+- _symbolic _____y_____y_____y_____G______Qo_______y_____y_____yACSSAAy_____ySay_____GSS_____yAC_SSQo_G_ALSgtGG______Qo______y_____yACG_____GGSgtG 7SwiftUI9TupleViewV AA0D0PAAE11toggleStyleyQrqd__AA06ToggleF0Rd__lFQO AA0G0V AA4TextV AA06SwitchgF0V AA19_ConditionalContentV AeAE06pickerF0yQrqd__AA06PickerF0Rd__lFQO AA0M0V AA7ForEachV 10Foundation6LocaleV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaultmF0V AA08ModifiedK0V AA6ButtonV 7ChatKit07Detailsd3RowF0V
+- _symbolic _____y_____y_____y_____SS_____y_____ySay_____GSS_____yAC_SSQo_G_AHSgtGG______Qo______y_____yACG_____GG 7SwiftUI19_ConditionalContentV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerG0Rd__lFQO AA0H0V AA4TextV AA05TupleE0V AA7ForEachV 10Foundation6LocaleV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaulthG0V AA08ModifiedD0V AA6ButtonV 7ChatKit07Detailse3RowG0V
+- _symbolic _____y_____y_____y_____SS_____y_____ySay_____GSS_____yAC_SSQo_G_AHSgtGG______Qo______y_____yACG_____GGSg 7SwiftUI19_ConditionalContentV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerG0Rd__lFQO AA0H0V AA4TextV AA05TupleE0V AA7ForEachV 10Foundation6LocaleV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaulthG0V AA08ModifiedD0V AA6ButtonV 7ChatKit07Detailse3RowG0V
+- _symbolic _____y_____y_____y_____SS_____y_____ySay_____GSS_____yAC_SSQo_G_AHSgtGG______Qo______y_____yACG_____G_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE11pickerStyleyQrqd__AA06PickerH0Rd__lFQO AA0I0V AA4TextV AA05TupleF0V AA7ForEachV 10Foundation6LocaleV AgAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA07DefaultiH0V AA08ModifiedD0V AA6ButtonV 7ChatKit07Detailsf3RowH0V
+- _symbolic _____y_____y_____y__________y_____y_____y_____G______Qo______GAEyAEy__________y_____GG_____GGADG_AEyACyAdAyAJSg_A2VtGADGAKG_____y_____AEyACyAdAyAJ_ABy_____y_____yAGSSAAy_____ySay_____GSS_____yAG_SSQo_G_A4_SgtGG______Qo_AEy_____yAGGAKGGSgtGADGAKGGSgAEy_____yAEyA12______ySbGG_A12_Qo_AKGSgAEy_____yA12__A12_Qo_AKGSgtG 7SwiftUI9TupleViewV AA19_ConditionalContentV AA7SectionV AA05EmptyD0V AA08ModifiedF0V AA0D0PAAE11toggleStyleyQrqd__AA06ToggleK0Rd__lFQO AA0L0V AA4TextV AA06SwitchlK0V 7ChatKit07Detailsd3RowK0V AV019SharedWithYouFooterD0V AA21_TraitWritingModifierV AA04Listr10BackgroundW3KeyV AA14_PaddingLayoutV AA012SubscriptionD0V So20NSNotificationCenterC10FoundationE9PublisherV AmAE06pickerK0yQrqd__AA06PickerK0Rd__lFQO AA6PickerV AA7ForEachV A9_6LocaleV AmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA013DefaultPickerK0V AA6ButtonV AmAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAA18LocalizedStringKeyV_AA7BindingVySbGAA10VisibilityOqd__yXEtAaLRd__lFQO AA024_EnvironmentKeyTransformY0V AmAEA26__A27_A28_A29_QrA31__A34_A36_qd__yXEtAaLRd__lFQO
+- _symbolic _____y_____y_____y_____y__________y_____y_____y_____G______Qo______GAFyAFy__________y_____GG_____GGAEG_AFyADyAeByAKSg_A2WtGAEGALG_____y_____AFyADyAeByAK_ACy_____y_____yAHSSABy_____ySay_____GSS_____yAH_SSQo_G_A5_SgtGG______Qo_AFy_____yAHGALGGSgtGAEGALGGSgAFy_____yAFyA13______ySbGG_A13_Qo_ALGSgAFy_____yA13__A13_Qo_ALGSgtGG 7SwiftUI5GroupV AA9TupleViewV AA19_ConditionalContentV AA7SectionV AA05EmptyE0V AA08ModifiedG0V AA0E0PAAE11toggleStyleyQrqd__AA06ToggleL0Rd__lFQO AA0M0V AA4TextV AA06SwitchmL0V 7ChatKit07Detailse3RowL0V AX019SharedWithYouFooterE0V AA21_TraitWritingModifierV AA04Lists10BackgroundX3KeyV AA14_PaddingLayoutV AA012SubscriptionE0V So20NSNotificationCenterC10FoundationE9PublisherV AoAE06pickerL0yQrqd__AA06PickerL0Rd__lFQO AA6PickerV AA7ForEachV A11_6LocaleV AoAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA013DefaultPickerL0V AA6ButtonV AoAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAA18LocalizedStringKeyV_AA7BindingVySbGAA10VisibilityOqd__yXEtAaNRd__lFQO AA024_EnvironmentKeyTransformZ0V AoAEA28__A29_A30_A31_QrA33__A36_A38_qd__yXEtAaNRd__lFQO
+- _symbolic _____y_____y_____y_____y_____y__________y_____y_____y_____G______Qo______GAFyAFy__________y_____GG_____GGAEG_AFyADyAeByAKSg_A2WtGAEGALG_____y_____AFyADyAeByAK_ACy_____y_____yAHSSABy_____ySay_____GSS_____yAH_SSQo_G_A5_SgtGG______Qo_AFy_____yAHGALGGSgtGAEGALGGSgAFy_____yAFyA13______ySbGG_A13_Qo_ALGSgAFy_____yA13__A13_Qo_ALGSgtGG_SSAByA13__A13_tGQo_ 7SwiftUI4ViewPAAE5alert_11isPresented7actionsQrqd___AA7BindingVySbGqd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA5GroupV AA05TupleC0V AA19_ConditionalContentV AA7SectionV AA05EmptyC0V AA08ModifiedL0V AcAE11toggleStyleyQrqd__AA06ToggleQ0Rd__lFQO AA0R0V AA4TextV AA06SwitchrQ0V 7ChatKit07Detailsc3RowQ0V A2_019SharedWithYouFooterC0V AA21_TraitWritingModifierV AA04ListX18BackgroundTraitKeyV AA14_PaddingLayoutV AA012SubscriptionC0V So20NSNotificationCenterC10FoundationE9PublisherV AcAE06pickerQ0yQrqd__AA06PickerQ0Rd__lFQO AA6PickerV AA7ForEachV A17_6LocaleV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA013DefaultPickerQ0V AA6ButtonV AcAE18confirmationDialog_AE15titleVisibilityAFQrAA18LocalizedStringKeyV_AiA10VisibilityOqd__yXEtAaBRd__lFQO AA32_EnvironmentKeyTransformModifierV AcAEA34__AEA35_AFQrA37__AIA39_qd__yXEtAaBRd__lFQO
+CStrings:
++ "\n\n===================================\n\n"
++ "\n\nMessage Sender: "
++ " Conversations:\n\n"
++ "+enablementGroup"
++ "+isTimeSensitiveAvailable"
++ ", allowInboxFilters: "
++ ", blackholeEnabled: "
++ ", showsSpamFiltering: "
++ "===== Current conversation recipients ====="
++ "> Calling deferredHandleURLBlock() immediately."
++ "> Interaction changed, isInteractive=%{BOOL}d, isCancelled=%{BOOL}d"
++ "> Writing down deferredHandleURLBlock for later."
++ "> willPresent=%{BOOL}d"
++ "@\"PRSPosterConfiguration\""
++ "@116@0:8Q16B24{CGRect={CGPoint=dd}{CGSize=dd}}28B60@64B72^Q76@84B92B96^{CGPoint=dd}100@108"
++ "@124@0:8Q16@24@32B40{CGRect={CGPoint=dd}{CGSize=dd}}44@76{CGRect={CGPoint=dd}{CGSize=dd}}84@116"
++ "Account spinner in Settings"
++ "Added rawAddress to allRecipients %@"
++ "Additional notes:\n\n============================\nIMPORTANT: Message content will be captured. Please remove any personal or confidential information below.\n============================\nMessage Text:\n"
++ "AppCardPresentation"
++ "Attempting to set a deferredHandleURLBlock. performingOnboarding=%{BOOL}d"
++ "B40@0:8@\"CKMessageEntryView\"16@\"NSArray\"24@\"NSString\"32"
++ "CKTranscriptBackground has an editor configuration available"
++ "CKTranscriptBackground has no editor configuration, inflating from archived poster configuration"
++ "ChatKitSendMenuPopoverZoomTransitionDisabled"
++ "ChatKitSimultaneousTransitionsEnabled"
++ "Committing transition completion."
++ "ComponentVersion"
++ "Currently-rendering channel doesn't match new channel, create a new background"
++ "Debug Information For "
++ "DeviceForcesUnknownFiltering"
++ "Did not get a configuration from channel, looking at CKTranscriptBackground"
++ "Docking: Scroll view finished decelerating after a mid-scroll paging enablement change, recalculating scroll intent."
++ "Docking: Scroll view finished programatic scroll animation after a mid-scroll paging enablement change, recalculating scroll intent."
++ "Docking: paging was enabled, but docking is disabled, so disabling paging"
++ "DowntimeConversationEntity"
++ "Failed siging into iMessage"
++ "Failed to resolve a valid poster configuration to transition to, removing configuration on channel"
++ "Failed to sign in"
++ "Failed to unarchive poster configuration due to error: %@"
++ "Fetch Downtime Conversation List Intent"
++ "FetchDowntimeConversationListIntent"
++ "Filtered incorrectly"
++ "Got a lot of sizes cached, possibly a problem with RichCarouselItem hashing or equality checking. Purging cache."
++ "Leave updateAnimationGroup: in scrollToBottomAnimated - content offset change timer"
++ "Leave updateAnimationGroup: in scrollToBottomAnimated – collection view deallocated"
++ "Leave updateAnimationGroup: in scrollToBottomAnimated – self deallocated"
++ "MarkAsRead - activeAppearanceTraitDidChange"
++ "Merged Domain Identifiers"
++ "MessageEntryView text should not be changed."
++ "NOTE: FOR BUGS IN WHICH A TITLE HAS BEEN PRE-DESCRIBED, PLEASE DO NOT CHANGE THE TITLE.\n\nAdd any additional information below:"
++ "NOTE: If you are reproducing this in both Messages and FaceTime, you do not need to file an additional radar."
++ "Not signed in after completing setup"
++ "Not signed into iMessage after completing setup"
++ "Other registration problem..."
++ "Please add custom title here..."
++ "Recipient string: %@"
++ "Select the expected category and time-sensitivity."
++ "Send menu will dismiss, vc=%@, isInitiallyInteractive=%{BOOL}d"
++ "Showing filters badge pending count: %ld"
++ "Sign-In Failures"
++ "Signed out after reboot"
++ "Signed out after software update"
++ "Signed out during use"
++ "Spinner next to account handle in Settings"
++ "Stuck at spinner while signing in"
++ "Stuck at spinner while signing into iMessage"
++ "Syndicated assets configuration returned nil, will NOT show photos tab."
++ "T@\"<NSCopying>\",&,N"
++ "T@\"<NSCopying>\",N,&"
++ "T@\"NSMutableSet\",&,N,V_finishedAnimationsDuringMarkedTextByIdentifier"
++ "T@\"NSSet\",R,N,V_finishedAnimationIdentifiersDuringMarkedText"
++ "T@\"PRSPosterConfiguration\",N,R,VeditorConfiguration"
++ "T@\"UIColor\",&,N,V_progressTintColor"
++ "T@\"UIColor\",&,N,V_trackTintColor"
++ "T@\"UIView\",&,N,V_progressSegmentView"
++ "T@\"UIView\",&,N,V_trackView"
++ "T@\"_TtC7ChatKit14CKBalloonLayer\",&,N,V_linkOverlayBalloonLayer"
++ "TB,N,V_hasPreparedSubviews"
++ "TB,N,V_transcriptPagingEnablementChangedDuringScroll"
++ "TB,R,Gck_canDismissAndPresentSimultaneously"
++ "TQ,N,V_capStyle"
++ "Td,N,V_progress"
++ "Transcriptbackgrounds"
++ "Trying to add recipients %@ to chat with guid %@"
++ "Unable to find a CKPosterRenderingTranscriptBackground on the chat controller"
++ "Unexpected Sign-Out"
++ "Unexpectedly signed out of iMessage after reboot"
++ "Unexpectedly signed out of iMessage after software update"
++ "Unexpectedly signed out of iMessage during use"
++ "Updated channel %@ with config %@, will update UI. refetched %@"
++ "User pressed done button to add new participants to the group."
++ "_TtC7ChatKit31TTRRegistrationSheetViewFactory"
++ "_TtC7ChatKit40DowntimeConversationEntityRepresentation"
++ "_TtP7ChatKit20UserDataViewProtocol_"
++ "__beginThrowAnimationWithThrowBalloonViewAttributesCollection:framesOfAddedChatItems:sendAnimationType:entryViewSize:"
++ "__createNewPosterRenderingBackground:"
++ "__languageViewModel"
++ "__translateToLanguageViewModel"
++ "_activeAppearanceTraitDidChange"
++ "_addFooter:"
++ "_audioMessageThrowBalloonsForSendingMessages:audioMessageSourceRect:contextContainerView:audioRecordingPillViewSnapshot:"
++ "_capStyle"
++ "_classUserDefaults"
++ "_cleanUpSendMenuPresentation"
++ "_dismissPresentedSendMenuViewController(_:)"
++ "_finishedAnimationIdentifiersDuringMarkedText"
++ "_finishedAnimationsDuringMarkedTextByIdentifier"
++ "_flipsHorizontalAxis"
++ "_getHeightForUserData:"
++ "_handleInitialLoad - shouldPresentOnboarding=%{BOOL}d"
++ "_handleScrollViewAtRestAfterMidScrollPagingEnablementChange"
++ "_hasPreparedSubviews"
++ "_linkOverlayBalloonLayer"
++ "_makeScreenTimeFooterIfNeeded"
++ "_makeThrowBalloonsForSendAnimationWithType:inContainerView:forSendingMessages:shouldUseQuickReplySourceRect:quickReplySourceRect:quickReplySnapshotView:audioMessageSourceRect:audioRecordingPillViewSnapshot:"
++ "_makeUnknownSenderFooterIfNeeded"
++ "_performWithSimultaneousPresentationTransitionsEnabled:"
++ "_performWithoutDeferringTransitionsAllowingAnimation:actions:"
++ "_prepareSubviewsIfNeeded"
++ "_presentAppCardContainerViewController(_:presentingViewController:animated:)"
++ "_progressSegmentView"
++ "_progressTintColor"
++ "_shouldNeverBeSendingEventsToBackground"
++ "_shouldUseZoomTransitionForSendMenuPopover"
++ "_throwBalloonAttributesForSendAnimationWithType:shouldUseQuickReplySourceRect:quickReplySourceRect:isRunningPhotosPlugin:chatItem:isPhotosExtensionMediaPayload:pluginChatItemCounterInOut:containerView:isChatItemFromShelf:isLastChatItem:currentBalloonOriginInOut:quickReplySnapshotView:"
++ "_trackTintColor"
++ "_trackView"
++ "_transcriptPagingEnablementChangedDuringScroll"
++ "addAnimationsForColoredBalloonView:sendAnimationType:sendAnimationConfiguration:"
++ "applyDefaultGlass"
++ "applySendAnimationGlass"
++ "blackholeEnabled"
++ "capStyle"
++ "channelSnapshotPrewarmLimit"
++ "ck_applyBadgedCount:"
++ "ck_applySendAnimationEntryViewGlass"
++ "ck_canDismissAndPresentSimultaneously"
++ "ck_dismissViewControllerAllowingSimultaneousPresentation"
++ "ck_performWithSimultaneousPresentationTransitionsEnabled:"
++ "ck_presentAppCardContainerViewControllerSimultaniously:animated:presentCompletionHandler:"
++ "configureFooterForDebug"
++ "conversation.deviceIndependentID was nil, will NOT show photos tab."
++ "deviceForcesUnknownFiltering"
++ "dismissReportSpamController"
++ "doesNotRecognizeSelector:"
++ "domainIdentifiers"
++ "editorConfiguration"
++ "exclamationmark.triangle"
++ "finishedAnimationIdentifiersDuringMarkedText"
++ "finishedAnimationsDuringMarkedTextByIdentifier"
++ "genericStackView"
++ "glassThrowSendAnimationManager"
++ "hasPreparedSubviews"
++ "imFileTransfer localURL: %@, transfer fileURL: NULL"
++ "initWithEditorConfiguration:archivedPosterData:watchData:backgroundIdentifier:fileName:extensionIdentifier:extensionIsPlayground:"
++ "initWithSendAnimationType:"
++ "initiallyInteractive"
++ "isForegroundActive: %ld - isActivationStateForegroundActive %ld, viewControllerHasActiveAppearance %ld"
++ "isViewControllerForegroundActive:"
++ "items did change: number of items = %ld for %s"
++ "linkOverlayBalloonDescriptor"
++ "linkOverlayBalloonLayer"
++ "linkViewBalloonDescriptor"
++ "makeTranslatedComposition:from:to:completion:"
++ "markAnimationIdentifierAsFinishedButPendingAmongMarkedText:"
++ "maxAspectRatio"
++ "maxItemAspectRatio"
++ "messageEntryContentViewShouldBeDisabled:"
++ "messageEntryRichTextViewShouldBeDisabled:"
++ "messageEntryView:shouldChangeTextInRanges:replacementText:"
++ "messageEntryViewShouldBeDisabled:"
++ "minAspectRatio"
++ "minItemAspectRatio"
++ "networkSupportsSpamReportingForContext:isChatBot:"
++ "performIntroductionsButtonsDebugActionForCollectionView:indexPath:"
++ "person.crop.circle.badge.xmark"
++ "presentOnboardingViewControllerIfNeeded. isPresentingOnboarding=%{BOOL}d. presentOnboarding=%{BOOL}d."
++ "prewarmChannelSnapshotsForChatGUID:forInterfaceStyle:orientation:"
++ "prewarmSnapshotForDescriptor:"
++ "progressSegmentView"
++ "progressTintColor"
++ "rawAddress was nil, adding address to allRecipients %@"
++ "setCapStyle:"
++ "setFinishedAnimationsDuringMarkedTextByIdentifier:"
++ "setHasPreparedSubviews:"
++ "setLinkOverlayBalloonLayer:"
++ "setMaxItemAspectRatio:"
++ "setMinItemAspectRatio:"
++ "setProgressSegmentView:"
++ "setReapOptions:"
++ "setTrackView:"
++ "setTranscriptPagingEnablementChangedDuringScroll:"
++ "shouldMakeNewRippleAnimatorForIdentifier:"
++ "shouldShowLinkOverlayBalloonLayer"
++ "sizingView"
++ "s\xf0\xf0q"
++ "trackTintColor"
++ "trackView"
++ "transcriptPagingEnablementChangedDuringScroll"
++ "ttrRegistrationSheetView"
++ "v56@0:8@16@24Q32{CGSize=dd}40"
++ "waitingForLiveRenderingSceneDefinition"
+- "\n\nActual Category: "
+- " a notification. Select the expected category and time-sensitivity."
+- "%p leave updateAnimationGroup: in scrollToBottomAnimated - content offset change timer"
+- "@124@0:8Q16Q24B32{CGRect={CGPoint=dd}{CGSize=dd}}36B68@72B80^Q84@92B100B104^{CGPoint=dd}108@116"
+- "@132@0:8Q16Q24@32@40B48{CGRect={CGPoint=dd}{CGSize=dd}}52@84{CGRect={CGPoint=dd}{CGSize=dd}}92@124"
+- "@80@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24@56Q64@72"
+- "ALL_PROMOTIONS_UNREADCOUNT"
+- "ALL_TRANSACTIONS_UNREADCOUNT"
+- "Additional notes:\n\n====================================\nIMPORTANT: Message content will be captured. Please remove any personal or confidential information below.\n====================================\nMessage Text:\n"
+- "CARRIER_UNREADCOUNT"
+- "CKThrowAnimationManager.m"
+- "COUPONS_UNREADCOUNT"
+- "ChatKit/CKInsideGlassSendAnimationContainerView.swift"
+- "Database"
+- "FINANCE_UNREADCOUNT"
+- "Failed to generate poster configuration due to error: %@"
+- "HEALTH_UNREADCOUNT"
+- "IMHandle"
+- "K"
+- "OFFERS_UNREADCOUNT"
+- "ORDERS_UNREADCOUNT"
+- "OTHERS_UNREADCOUNT"
+- "PROMOTIONS_UNREADCOUNT"
+- "PUBLIC_SERVICES_UNREADCOUNT"
+- "REMINDERS_UNREADCOUNT"
+- "REWARDS_UNREADCOUNT"
+- "SMS filtered incorrectly"
+- "Should present onboarding (already visible): %@"
+- "Should present onboarding: %@"
+- "Showing filters badge unread count: %ld"
+- "T@\"NSArray\",C,N,V_behindGlassThrowBalloonViewAttributesCollection"
+- "T@\"NSArray\",C,N,V_insideGlassThrowBalloonViewAttributesCollection"
+- "T@\"UIView\",&,N,V___ck_progressView"
+- "T@\"UIView\",&,N,V___ck_trackView"
+- "T@\"UIView\",&,N,V_insideGlassContainerView"
+- "TB,N,V_transcriptPagingWasEnabledDuringScroll"
+- "TRANSACTIONS_UNREADCOUNT"
+- "The message was filtered to \""
+- "Trying to add handles %@ to chat with guid %@"
+- "UNKNOWN_SENDERS_UNREADCOUNT"
+- "Updated channel %@ with config %@, will update UI"
+- "WEATHER_UNREADCOUNT"
+- "We shouldn't mark audio media objects as failing because they don't generate previews."
+- "_TtC7ChatKit39CKInsideGlassSendAnimationContainerView"
+- "_TtCC7ChatKit35TranscriptNavigationBarOrnamentViewP33_239BBF68EFFD0F16239629799FEDE52A25NavigationBarProgressView"
+- "___ck_progressView"
+- "___ck_trackView"
+- "__beginThrowAnimationWithThrowBalloonViewAttributesCollection:framesOfAddedChatItems:sendAnimationType:glassSendAnimationType:entryViewSize:"
+- "__ck_progressView"
+- "__ck_trackView"
+- "_audioMessageThrowBalloonsForSendingMessages:audioMessageSourceRect:contextContainerView:glassSendAnimationType:audioRecordingPillViewSnapshot:"
+- "_behindGlassThrowBalloonViewAttributesCollection"
+- "_configureMessageRequestFooter"
+- "_configureScreentimeFooter"
+- "_insideGlassContainerView"
+- "_insideGlassThrowBalloonViewAttributesCollection"
+- "_makeThrowBalloonsForSendAnimationWithType:glassSendAnimationType:inContainerView:forSendingMessages:shouldUseQuickReplySourceRect:quickReplySourceRect:quickReplySnapshotView:audioMessageSourceRect:audioRecordingPillViewSnapshot:"
+- "_presentCard(resolvedStyle:animated:container:presentingViewController:)"
+- "_throwBalloonAttributesForSendAnimationWithType:glassSendAnimationType:shouldUseQuickReplySourceRect:quickReplySourceRect:isRunningPhotosPlugin:chatItem:isPhotosExtensionMediaPayload:pluginChatItemCounterInOut:containerView:isChatItemFromShelf:isLastChatItem:currentBalloonOriginInOut:quickReplySnapshotView:"
+- "_transcriptPagingWasEnabledDuringScroll"
+- "addAnimationsForColoredBalloonView:sendAnimationType:glassAnimationType:sendAnimationConfiguration:"
+- "addFailedTransferGUIDIfNeeded:"
+- "balloonSize"
+- "behindGlassThrowBalloonViewAttributesCollection"
+- "ck_applyBadgedUnreadCount:"
+- "com.apple.MobileSMS.FilterMenu.FilterGroup"
+- "com.apple.MobileSMS.FilterMenu.PromotionGroup"
+- "com.apple.MobileSMS.FilterMenu.TransactionGroup"
+- "createInsideGlassContainerViewIfNeeded"
+- "dismissReportSpamcontroller"
+- "do not use init"
+- "filterSubCategory"
+- "genericStackViewWithItemAspectRatio:"
+- "glassThrowSendAnimationManagerWithInsideGlassContainerView:"
+- "initWithInsideGlassContainerView:sendAnimationType:"
+- "initWithItemAspectRatio:"
+- "insideGlassContainerView"
+- "insideGlassThrowBalloonViewAttributesCollection"
+- "isBackgroundAudioMessagesEnabled"
+- "isIntroductionsOnboardingEnabled"
+- "isTimeSensitive"
+- "isWindowForegroundActive:"
+- "networkSupportsSpamReportingForContext:"
+- "preferredBalloonSize"
+- "rawAddress was nil for recipient %@, will fall back to address"
+- "setBehindGlassThrowBalloonViewAttributesCollection:"
+- "setEntryViewSmoothnessForStaticAppearance"
+- "setInsideGlassContainerView:"
+- "setInsideGlassThrowBalloonViewAttributesCollection:"
+- "setTranscriptPagingWasEnabledDuringScroll:"
+- "set__ck_progressView:"
+- "set__ck_trackView:"
+- "s\xf0\xf0\x81"
+- "transcriptPagingWasEnabledDuringScroll"
+- "translate:from:to:completion:"
+- "typing"
+- "v48@0:8@16Q24Q32@40"
+- "v64@0:8@16@24Q32Q40{CGSize=dd}48"
+- "viewAspectRatio"
+
+```

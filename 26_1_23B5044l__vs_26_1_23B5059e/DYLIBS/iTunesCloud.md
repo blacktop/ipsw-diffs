@@ -1,0 +1,718 @@
+## iTunesCloud
+
+> `/System/Library/PrivateFrameworks/iTunesCloud.framework/iTunesCloud`
+
+```diff
+
+-4025.200.12.0.0
+-  __TEXT.__text: 0x2946cc
++4025.200.18.0.0
++  __TEXT.__text: 0x294b54
+   __TEXT.__auth_stubs: 0x14b0
+-  __TEXT.__objc_methlist: 0x177b4
++  __TEXT.__objc_methlist: 0x177ec
+   __TEXT.__const: 0x1503c
+   __TEXT.__dlopen_cstrs: 0x4cf
+-  __TEXT.__gcc_except_tab: 0x34a8
+-  __TEXT.__cstring: 0x170e6
+-  __TEXT.__oslogstring: 0x1fe99
++  __TEXT.__gcc_except_tab: 0x34e4
++  __TEXT.__cstring: 0x17158
++  __TEXT.__oslogstring: 0x2007f
+   __TEXT.__ustring: 0x8e
+-  __TEXT.__unwind_info: 0x6528
++  __TEXT.__unwind_info: 0x6538
+   __TEXT.__eh_frame: 0x80
+-  __TEXT.__objc_classname: 0x3ac9
+-  __TEXT.__objc_methname: 0x35262
++  __TEXT.__objc_classname: 0x3aca
++  __TEXT.__objc_methname: 0x35307
+   __TEXT.__objc_methtype: 0x7dde
+-  __TEXT.__objc_stubs: 0x1b220
+-  __DATA_CONST.__got: 0xf80
+-  __DATA_CONST.__const: 0x7238
++  __TEXT.__objc_stubs: 0x1b280
++  __DATA_CONST.__got: 0xf90
++  __DATA_CONST.__const: 0x7260
+   __DATA_CONST.__objc_classlist: 0xd50
+   __DATA_CONST.__objc_catlist: 0x78
+   __DATA_CONST.__objc_protolist: 0x2c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xa050
++  __DATA_CONST.__objc_selrefs: 0xa068
+   __DATA_CONST.__objc_protorefs: 0xb8
+   __DATA_CONST.__objc_superrefs: 0xb80
+   __DATA_CONST.__objc_arraydata: 0x468
+   __AUTH_CONST.__auth_got: 0xa68
+-  __AUTH_CONST.__const: 0x107e0
+-  __AUTH_CONST.__cfstring: 0x18340
+-  __AUTH_CONST.__objc_const: 0x2f668
++  __AUTH_CONST.__const: 0x10820
++  __AUTH_CONST.__cfstring: 0x18380
++  __AUTH_CONST.__objc_const: 0x2f6a8
+   __AUTH_CONST.__objc_intobj: 0x420
+   __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__objc_dictobj: 0x230
+   __AUTH.__objc_data: 0x4ba0
+-  __DATA.__objc_ivar: 0x2304
++  __DATA.__objc_ivar: 0x2308
+   __DATA.__data: 0x25d8
+   __DATA.__bss: 0x3b0
+   __DATA.__common: 0xa8c
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 36592D5E-979A-3A6D-90CD-5FC58CDCFF86
+-  Functions: 9731
+-  Symbols:   30953
+-  CStrings:  17635
++  UUID: E7CBA94C-46C4-3780-AB00-C3959F42A595
++  Functions: 9737
++  Symbols:   30975
++  CStrings:  17651
+ 
+Symbols:
++ -[ACAccount(ICAccountAdditions) ic_isActive]
++ -[ICDeviceInfo isStoreDemoModeEnabled]
++ -[ICDeviceInfo observeValueForKeyPath:ofObject:change:context:]
++ -[ICPrivacyInfo _privacyDetailsForIdentifier:]
++ GCC_except_table3795
++ GCC_except_table3960
++ GCC_except_table4002
++ GCC_except_table4100
++ GCC_except_table4116
++ GCC_except_table4120
++ GCC_except_table4127
++ GCC_except_table4131
++ GCC_except_table4146
++ GCC_except_table4149
++ GCC_except_table4328
++ GCC_except_table4380
++ GCC_except_table4384
++ GCC_except_table4387
++ GCC_except_table4392
++ GCC_except_table4456
++ GCC_except_table4498
++ GCC_except_table4504
++ GCC_except_table4571
++ GCC_except_table4648
++ GCC_except_table4736
++ GCC_except_table4819
++ GCC_except_table4887
++ GCC_except_table4968
++ GCC_except_table5129
++ GCC_except_table5386
++ GCC_except_table5482
++ GCC_except_table5530
++ GCC_except_table5554
++ GCC_except_table5595
++ GCC_except_table5596
++ GCC_except_table5669
++ GCC_except_table5687
++ GCC_except_table5947
++ GCC_except_table5954
++ GCC_except_table5962
++ GCC_except_table5977
++ GCC_except_table5978
++ GCC_except_table5983
++ GCC_except_table5988
++ GCC_except_table5993
++ GCC_except_table6004
++ GCC_except_table6021
++ GCC_except_table6027
++ GCC_except_table6036
++ GCC_except_table6045
++ GCC_except_table6079
++ GCC_except_table6110
++ GCC_except_table6123
++ GCC_except_table6130
++ GCC_except_table6131
++ GCC_except_table6194
++ GCC_except_table6208
++ GCC_except_table6231
++ GCC_except_table6236
++ GCC_except_table6272
++ GCC_except_table6373
++ GCC_except_table6585
++ GCC_except_table6592
++ GCC_except_table6766
++ GCC_except_table6770
++ GCC_except_table6772
++ GCC_except_table6799
++ GCC_except_table6845
++ GCC_except_table7027
++ GCC_except_table7160
++ GCC_except_table7304
++ GCC_except_table7317
++ GCC_except_table7340
++ GCC_except_table7351
++ GCC_except_table7398
++ GCC_except_table7399
++ GCC_except_table7400
++ GCC_except_table7441
++ GCC_except_table7459
++ GCC_except_table7514
++ GCC_except_table7523
++ GCC_except_table7530
++ GCC_except_table7577
++ GCC_except_table7596
++ GCC_except_table7629
++ GCC_except_table7687
++ GCC_except_table7688
++ GCC_except_table7701
++ GCC_except_table8127
++ GCC_except_table8155
++ GCC_except_table8166
++ GCC_except_table8171
++ GCC_except_table8206
++ GCC_except_table8209
++ GCC_except_table8276
++ GCC_except_table8321
++ GCC_except_table8370
++ GCC_except_table8398
++ GCC_except_table8403
++ GCC_except_table8405
++ GCC_except_table8407
++ GCC_except_table8439
++ GCC_except_table8582
++ GCC_except_table8590
++ GCC_except_table8595
++ GCC_except_table8610
++ GCC_except_table8618
++ GCC_except_table8662
++ GCC_except_table8695
++ GCC_except_table8814
++ GCC_except_table8816
++ GCC_except_table8853
++ GCC_except_table8856
++ GCC_except_table8863
++ GCC_except_table8866
++ GCC_except_table9075
++ GCC_except_table9079
++ GCC_except_table9119
++ GCC_except_table9216
++ GCC_except_table9221
++ _ICDeviceInfoStoreDemoModeDidChangeNotification
++ _MSVFastHexStringFromBytes.hexCharacters.41965
++ _MusicLibraryLibraryCore.frameworkLibrary.22260
++ _MusicLibraryLibraryCore.frameworkLibrary.31760
++ _NSKeyValueChangeNewKey
++ _NSKeyValueChangeOldKey
++ _OBJC_IVAR_$_ICDeviceInfo._commerceDefaults
++ __MSV_XXH_XXH32_update.17739
++ __MSV_XXH_XXH32_update.17856
++ __MSV_XXH_XXH32_update.20680
++ __MSV_XXH_XXH32_update.31697
++ __MSV_XXH_XXH32_update.41955
++ __MSV_XXH_XXH64_digest.17863
++ __MSV_XXH_XXH64_digest.31703
++ __MSV_XXH_XXH64_update.17740
++ __MSV_XXH_XXH64_update.17857
++ __MSV_XXH_XXH64_update.20681
++ __MSV_XXH_XXH64_update.31698
++ __MSV_XXH_XXH64_update.41956
++ ___102-[ICMusicSubscriptionLeaseController musicLeaseSession:requestsFairPlayKeyStatusUpdateWithCompletion:]_block_invoke.31
++ ___102-[ICMusicSubscriptionLeaseController musicLeaseSession:requestsFairPlayKeyStatusUpdateWithCompletion:]_block_invoke_4
++ ___Block_byref_object_copy_.13785
++ ___Block_byref_object_copy_.14331
++ ___Block_byref_object_copy_.14555
++ ___Block_byref_object_copy_.14820
++ ___Block_byref_object_copy_.15239
++ ___Block_byref_object_copy_.16388
++ ___Block_byref_object_copy_.16893
++ ___Block_byref_object_copy_.17120
++ ___Block_byref_object_copy_.17470
++ ___Block_byref_object_copy_.18954
++ ___Block_byref_object_copy_.19308
++ ___Block_byref_object_copy_.19525
++ ___Block_byref_object_copy_.20514
++ ___Block_byref_object_copy_.21425
++ ___Block_byref_object_copy_.22223
++ ___Block_byref_object_copy_.22829
++ ___Block_byref_object_copy_.22938
++ ___Block_byref_object_copy_.25353
++ ___Block_byref_object_copy_.25804
++ ___Block_byref_object_copy_.26402
++ ___Block_byref_object_copy_.26763
++ ___Block_byref_object_copy_.27761
++ ___Block_byref_object_copy_.28719
++ ___Block_byref_object_copy_.29743
++ ___Block_byref_object_copy_.30088
++ ___Block_byref_object_copy_.31121
++ ___Block_byref_object_copy_.35676
++ ___Block_byref_object_copy_.35903
++ ___Block_byref_object_copy_.36037
++ ___Block_byref_object_copy_.36971
++ ___Block_byref_object_copy_.37133
++ ___Block_byref_object_copy_.37823
++ ___Block_byref_object_copy_.38093
++ ___Block_byref_object_copy_.38718
++ ___Block_byref_object_copy_.38899
++ ___Block_byref_object_copy_.39215
++ ___Block_byref_object_copy_.40061
++ ___Block_byref_object_copy_.40631
++ ___Block_byref_object_dispose_.13786
++ ___Block_byref_object_dispose_.14332
++ ___Block_byref_object_dispose_.14556
++ ___Block_byref_object_dispose_.14821
++ ___Block_byref_object_dispose_.15240
++ ___Block_byref_object_dispose_.16389
++ ___Block_byref_object_dispose_.16894
++ ___Block_byref_object_dispose_.17121
++ ___Block_byref_object_dispose_.17471
++ ___Block_byref_object_dispose_.18955
++ ___Block_byref_object_dispose_.19309
++ ___Block_byref_object_dispose_.19526
++ ___Block_byref_object_dispose_.20515
++ ___Block_byref_object_dispose_.21426
++ ___Block_byref_object_dispose_.22224
++ ___Block_byref_object_dispose_.22830
++ ___Block_byref_object_dispose_.22939
++ ___Block_byref_object_dispose_.25354
++ ___Block_byref_object_dispose_.25805
++ ___Block_byref_object_dispose_.26403
++ ___Block_byref_object_dispose_.26764
++ ___Block_byref_object_dispose_.27762
++ ___Block_byref_object_dispose_.28720
++ ___Block_byref_object_dispose_.29744
++ ___Block_byref_object_dispose_.30089
++ ___Block_byref_object_dispose_.31122
++ ___Block_byref_object_dispose_.35677
++ ___Block_byref_object_dispose_.35904
++ ___Block_byref_object_dispose_.36038
++ ___Block_byref_object_dispose_.36972
++ ___Block_byref_object_dispose_.37134
++ ___Block_byref_object_dispose_.37824
++ ___Block_byref_object_dispose_.38094
++ ___Block_byref_object_dispose_.38719
++ ___Block_byref_object_dispose_.38900
++ ___Block_byref_object_dispose_.39216
++ ___Block_byref_object_dispose_.40062
++ ___Block_byref_object_dispose_.40632
++ ___MusicLibraryLibraryCore_block_invoke.22261
++ ___MusicLibraryLibraryCore_block_invoke.31761
++ ___block_descriptor_32_e46_B16?0"ICMusicSubscriptionFairPlayKeyStatus"8l
++ ___block_descriptor_67_e8_32s40s48s56s_e49_v24?0"ICSecureKeyDeliveryResponse"8"NSError"16ls32l8s40l8s48l8s56l8
++ ___block_descriptor_83_e8_32s40s48s56s64s72s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8
++ ___block_literal_global.10.26416
++ ___block_literal_global.12.15276
++ ___block_literal_global.12.25138
++ ___block_literal_global.12.26414
++ ___block_literal_global.13.39224
++ ___block_literal_global.13818
++ ___block_literal_global.15009
++ ___block_literal_global.15292
++ ___block_literal_global.16816
++ ___block_literal_global.170.29025
++ ___block_literal_global.17524
++ ___block_literal_global.17983
++ ___block_literal_global.18.26412
++ ___block_literal_global.18.35738
++ ___block_literal_global.18380
++ ___block_literal_global.18777
++ ___block_literal_global.19006
++ ___block_literal_global.19213
++ ___block_literal_global.20.26410
++ ___block_literal_global.202.25343
++ ___block_literal_global.20402
++ ___block_literal_global.209.25320
++ ___block_literal_global.22.26407
++ ___block_literal_global.22060
++ ___block_literal_global.22283
++ ___block_literal_global.22733
++ ___block_literal_global.22842
++ ___block_literal_global.24385
++ ___block_literal_global.24509
++ ___block_literal_global.25137
++ ___block_literal_global.25339
++ ___block_literal_global.25912
++ ___block_literal_global.26064
++ ___block_literal_global.26278
++ ___block_literal_global.26422
++ ___block_literal_global.27796
++ ___block_literal_global.28
++ ___block_literal_global.28303
++ ___block_literal_global.28548
++ ___block_literal_global.29121
++ ___block_literal_global.29461
++ ___block_literal_global.29759
++ ___block_literal_global.29909
++ ___block_literal_global.3.17990
++ ___block_literal_global.30
++ ___block_literal_global.30905
++ ___block_literal_global.31461
++ ___block_literal_global.31521
++ ___block_literal_global.34805
++ ___block_literal_global.35313
++ ___block_literal_global.35760
++ ___block_literal_global.36914
++ ___block_literal_global.37835
++ ___block_literal_global.38196
++ ___block_literal_global.38294
++ ___block_literal_global.38584
++ ___block_literal_global.39043
++ ___block_literal_global.39234
++ ___block_literal_global.40162
++ ___block_literal_global.40302
++ ___block_literal_global.40448
++ ___block_literal_global.40636
++ ___block_literal_global.41211
++ ___block_literal_global.41452
++ ___block_literal_global.41790
++ ___block_literal_global.47.31561
++ ___block_literal_global.56.13774
++ ___block_literal_global.6.26420
++ ___block_literal_global.66.22709
++ ___block_literal_global.68.31417
++ ___block_literal_global.8.26418
++ ___block_literal_global.82.31588
++ ___getML3MusicLibraryClass_block_invoke.22259
++ __supportedInterfaceForXPCConnection._supportedInterfaceForXPCConnection.25321
++ __supportedInterfaceForXPCConnection.onceToken.25319
++ _audit_stringMusicLibrary.22276
++ _audit_stringMusicLibrary.31764
++ _getML3MusicLibraryClass.22257
++ _getML3MusicLibraryClass.softClass.22258
++ _objc_msgSend$_privacyDetailsForIdentifier:
++ _objc_msgSend$ic_isActive
++ _objc_msgSend$isStoreDemoModeEnabled
++ _shared.onceToken.38583
++ _sharedCache.sOnceToken.29908
++ _sharedCache.sSharedCache.29910
++ _sharedController.sOnceToken.35759
++ _sharedController.sOnceToken.39233
++ _sharedController.sSharedController.35761
++ _sharedController.sSharedController.39235
++ _sharedManager.sOnceToken.19212
++ _sharedManager.sOnceToken.28302
++ _sharedManager.sSharedManager.19214
++ _sharedManager.sSharedManager.28304
++ _sharedMonitor.sOnceToken.18379
++ _sharedMonitor.sOnceToken.40161
++ _sharedMonitor.sSharedMonitor.18381
++ _sharedMonitor.sSharedMonitor.40163
++ _sharedProvider.sOnceToken.40447
++ _sharedProvider.sSharedProvider.40449
+- GCC_except_table3793
+- GCC_except_table3958
+- GCC_except_table4000
+- GCC_except_table4098
+- GCC_except_table4106
+- GCC_except_table4118
+- GCC_except_table4125
+- GCC_except_table4129
+- GCC_except_table4144
+- GCC_except_table4147
+- GCC_except_table4326
+- GCC_except_table4378
+- GCC_except_table4382
+- GCC_except_table4385
+- GCC_except_table4390
+- GCC_except_table4454
+- GCC_except_table4496
+- GCC_except_table4500
+- GCC_except_table4569
+- GCC_except_table4646
+- GCC_except_table4734
+- GCC_except_table4817
+- GCC_except_table4885
+- GCC_except_table4966
+- GCC_except_table5127
+- GCC_except_table5384
+- GCC_except_table5480
+- GCC_except_table5528
+- GCC_except_table5552
+- GCC_except_table5593
+- GCC_except_table5594
+- GCC_except_table5667
+- GCC_except_table5685
+- GCC_except_table5945
+- GCC_except_table5952
+- GCC_except_table5960
+- GCC_except_table5971
+- GCC_except_table5974
+- GCC_except_table5981
+- GCC_except_table5986
+- GCC_except_table5991
+- GCC_except_table6002
+- GCC_except_table6017
+- GCC_except_table6025
+- GCC_except_table6034
+- GCC_except_table6043
+- GCC_except_table6077
+- GCC_except_table6107
+- GCC_except_table6120
+- GCC_except_table6127
+- GCC_except_table6128
+- GCC_except_table6188
+- GCC_except_table6205
+- GCC_except_table6228
+- GCC_except_table6233
+- GCC_except_table6239
+- GCC_except_table6370
+- GCC_except_table6582
+- GCC_except_table6589
+- GCC_except_table6763
+- GCC_except_table6767
+- GCC_except_table6769
+- GCC_except_table6796
+- GCC_except_table6842
+- GCC_except_table7024
+- GCC_except_table7157
+- GCC_except_table7301
+- GCC_except_table7314
+- GCC_except_table7337
+- GCC_except_table7348
+- GCC_except_table7393
+- GCC_except_table7394
+- GCC_except_table7395
+- GCC_except_table7438
+- GCC_except_table7456
+- GCC_except_table7508
+- GCC_except_table7520
+- GCC_except_table7527
+- GCC_except_table7574
+- GCC_except_table7593
+- GCC_except_table7626
+- GCC_except_table7684
+- GCC_except_table7685
+- GCC_except_table7698
+- GCC_except_table8115
+- GCC_except_table8145
+- GCC_except_table8160
+- GCC_except_table8165
+- GCC_except_table8200
+- GCC_except_table8203
+- GCC_except_table8270
+- GCC_except_table8315
+- GCC_except_table8364
+- GCC_except_table8392
+- GCC_except_table8397
+- GCC_except_table8399
+- GCC_except_table8401
+- GCC_except_table8433
+- GCC_except_table8576
+- GCC_except_table8584
+- GCC_except_table8589
+- GCC_except_table8604
+- GCC_except_table8612
+- GCC_except_table8656
+- GCC_except_table8689
+- GCC_except_table8804
+- GCC_except_table8808
+- GCC_except_table8847
+- GCC_except_table8850
+- GCC_except_table8857
+- GCC_except_table8860
+- GCC_except_table9069
+- GCC_except_table9073
+- GCC_except_table9113
+- GCC_except_table9210
+- GCC_except_table9215
+- _MSVFastHexStringFromBytes.hexCharacters.41957
+- _MusicLibraryLibraryCore.frameworkLibrary.22266
+- _MusicLibraryLibraryCore.frameworkLibrary.31761
+- __MSV_XXH_XXH32_update.17745
+- __MSV_XXH_XXH32_update.17862
+- __MSV_XXH_XXH32_update.20686
+- __MSV_XXH_XXH32_update.31698
+- __MSV_XXH_XXH32_update.41947
+- __MSV_XXH_XXH64_digest.17869
+- __MSV_XXH_XXH64_digest.31704
+- __MSV_XXH_XXH64_update.17746
+- __MSV_XXH_XXH64_update.17863
+- __MSV_XXH_XXH64_update.20687
+- __MSV_XXH_XXH64_update.31699
+- __MSV_XXH_XXH64_update.41948
+- ___Block_byref_object_copy_.13793
+- ___Block_byref_object_copy_.14341
+- ___Block_byref_object_copy_.14565
+- ___Block_byref_object_copy_.14830
+- ___Block_byref_object_copy_.15246
+- ___Block_byref_object_copy_.16394
+- ___Block_byref_object_copy_.16899
+- ___Block_byref_object_copy_.17126
+- ___Block_byref_object_copy_.17476
+- ___Block_byref_object_copy_.18960
+- ___Block_byref_object_copy_.19314
+- ___Block_byref_object_copy_.19531
+- ___Block_byref_object_copy_.20520
+- ___Block_byref_object_copy_.21431
+- ___Block_byref_object_copy_.22229
+- ___Block_byref_object_copy_.22835
+- ___Block_byref_object_copy_.22944
+- ___Block_byref_object_copy_.25359
+- ___Block_byref_object_copy_.25809
+- ___Block_byref_object_copy_.26406
+- ___Block_byref_object_copy_.26767
+- ___Block_byref_object_copy_.27765
+- ___Block_byref_object_copy_.28723
+- ___Block_byref_object_copy_.29745
+- ___Block_byref_object_copy_.30090
+- ___Block_byref_object_copy_.31123
+- ___Block_byref_object_copy_.35670
+- ___Block_byref_object_copy_.35896
+- ___Block_byref_object_copy_.36030
+- ___Block_byref_object_copy_.36964
+- ___Block_byref_object_copy_.37126
+- ___Block_byref_object_copy_.37816
+- ___Block_byref_object_copy_.38086
+- ___Block_byref_object_copy_.38711
+- ___Block_byref_object_copy_.38892
+- ___Block_byref_object_copy_.39208
+- ___Block_byref_object_copy_.40054
+- ___Block_byref_object_copy_.40623
+- ___Block_byref_object_dispose_.13794
+- ___Block_byref_object_dispose_.14342
+- ___Block_byref_object_dispose_.14566
+- ___Block_byref_object_dispose_.14831
+- ___Block_byref_object_dispose_.15247
+- ___Block_byref_object_dispose_.16395
+- ___Block_byref_object_dispose_.16900
+- ___Block_byref_object_dispose_.17127
+- ___Block_byref_object_dispose_.17477
+- ___Block_byref_object_dispose_.18961
+- ___Block_byref_object_dispose_.19315
+- ___Block_byref_object_dispose_.19532
+- ___Block_byref_object_dispose_.20521
+- ___Block_byref_object_dispose_.21432
+- ___Block_byref_object_dispose_.22230
+- ___Block_byref_object_dispose_.22836
+- ___Block_byref_object_dispose_.22945
+- ___Block_byref_object_dispose_.25360
+- ___Block_byref_object_dispose_.25810
+- ___Block_byref_object_dispose_.26407
+- ___Block_byref_object_dispose_.26768
+- ___Block_byref_object_dispose_.27766
+- ___Block_byref_object_dispose_.28724
+- ___Block_byref_object_dispose_.29746
+- ___Block_byref_object_dispose_.30091
+- ___Block_byref_object_dispose_.31124
+- ___Block_byref_object_dispose_.35671
+- ___Block_byref_object_dispose_.35897
+- ___Block_byref_object_dispose_.36031
+- ___Block_byref_object_dispose_.36965
+- ___Block_byref_object_dispose_.37127
+- ___Block_byref_object_dispose_.37817
+- ___Block_byref_object_dispose_.38087
+- ___Block_byref_object_dispose_.38712
+- ___Block_byref_object_dispose_.38893
+- ___Block_byref_object_dispose_.39209
+- ___Block_byref_object_dispose_.40055
+- ___Block_byref_object_dispose_.40624
+- ___MusicLibraryLibraryCore_block_invoke.22267
+- ___MusicLibraryLibraryCore_block_invoke.31762
+- ___block_descriptor_66_e8_32s40s48s56s_e49_v24?0"ICSecureKeyDeliveryResponse"8"NSError"16ls32l8s40l8s48l8s56l8
+- ___block_descriptor_82_e8_32s40s48s56s64s72s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_literal_global.10.26420
+- ___block_literal_global.12.15283
+- ___block_literal_global.12.25144
+- ___block_literal_global.12.26418
+- ___block_literal_global.13.39217
+- ___block_literal_global.13827
+- ___block_literal_global.15016
+- ___block_literal_global.15299
+- ___block_literal_global.16822
+- ___block_literal_global.170.29027
+- ___block_literal_global.17530
+- ___block_literal_global.17989
+- ___block_literal_global.18.26416
+- ___block_literal_global.18.35729
+- ___block_literal_global.18386
+- ___block_literal_global.18783
+- ___block_literal_global.19012
+- ___block_literal_global.19219
+- ___block_literal_global.20.26414
+- ___block_literal_global.202.25349
+- ___block_literal_global.20408
+- ___block_literal_global.209.25326
+- ___block_literal_global.22.26411
+- ___block_literal_global.22066
+- ___block_literal_global.22289
+- ___block_literal_global.22739
+- ___block_literal_global.22848
+- ___block_literal_global.24391
+- ___block_literal_global.24515
+- ___block_literal_global.25143
+- ___block_literal_global.25345
+- ___block_literal_global.25917
+- ___block_literal_global.26069
+- ___block_literal_global.26282
+- ___block_literal_global.26426
+- ___block_literal_global.27800
+- ___block_literal_global.28307
+- ___block_literal_global.28552
+- ___block_literal_global.29123
+- ___block_literal_global.29463
+- ___block_literal_global.29761
+- ___block_literal_global.29911
+- ___block_literal_global.3.17996
+- ___block_literal_global.30907
+- ___block_literal_global.31462
+- ___block_literal_global.31522
+- ___block_literal_global.34799
+- ___block_literal_global.35307
+- ___block_literal_global.35752
+- ___block_literal_global.36907
+- ___block_literal_global.37828
+- ___block_literal_global.38189
+- ___block_literal_global.38287
+- ___block_literal_global.38577
+- ___block_literal_global.39036
+- ___block_literal_global.39227
+- ___block_literal_global.40155
+- ___block_literal_global.40294
+- ___block_literal_global.40440
+- ___block_literal_global.40628
+- ___block_literal_global.41203
+- ___block_literal_global.41444
+- ___block_literal_global.41782
+- ___block_literal_global.47.31562
+- ___block_literal_global.53.13782
+- ___block_literal_global.6.26424
+- ___block_literal_global.66.22715
+- ___block_literal_global.68.31418
+- ___block_literal_global.8.26422
+- ___block_literal_global.82.31589
+- ___getML3MusicLibraryClass_block_invoke.22265
+- __supportedInterfaceForXPCConnection._supportedInterfaceForXPCConnection.25327
+- __supportedInterfaceForXPCConnection.onceToken.25325
+- _audit_stringMusicLibrary.22282
+- _audit_stringMusicLibrary.31765
+- _getML3MusicLibraryClass.22263
+- _getML3MusicLibraryClass.softClass.22264
+- _shared.onceToken.38576
+- _sharedCache.sOnceToken.29910
+- _sharedCache.sSharedCache.29912
+- _sharedController.sOnceToken.35751
+- _sharedController.sOnceToken.39226
+- _sharedController.sSharedController.35753
+- _sharedController.sSharedController.39228
+- _sharedManager.sOnceToken.19218
+- _sharedManager.sOnceToken.28306
+- _sharedManager.sSharedManager.19220
+- _sharedManager.sSharedManager.28308
+- _sharedMonitor.sOnceToken.18385
+- _sharedMonitor.sOnceToken.40154
+- _sharedMonitor.sSharedMonitor.18387
+- _sharedMonitor.sSharedMonitor.40156
+- _sharedProvider.sOnceToken.40439
+- _sharedProvider.sSharedProvider.40441
+CStrings:
++ "%{public}@ iTunes store demo mode has changed from %{public}@ --> %{public}@ - posting notification"
++ "B16@?0@\"ICMusicSubscriptionFairPlayKeyStatus\"8"
++ "ICDeviceInfoStoreDemoModeDidChangeNotification"
++ "TB,R,N,Gic_isActive"
++ "TB,R,N,GisStoreDemoModeEnabled"
++ "[Lease] - %{public}@ - musicLeaseSession:requestsFairPlayKeyStatusUpdateWithCompletion: - Returned keyStatusList does not contains data for %{public}@, deviceHasOnlinePlaybackKeys: %{BOOL}u, deviceHasOfflinePlaybackKeys: %{BOOL}u"
++ "[Lease] - [%{public}@] - _newOperationForPlaybackRequest - updated status: %{public}@, will change hasPendingLeaseAcquisition to the latest value: %{BOOL}u"
++ "_commerceDefaults"
++ "_privacyDetailsForIdentifier:"
++ "iTunesStoreDemoMode"
++ "ic_active"
++ "ic_isActive"
++ "isStoreDemoModeEnabled"
++ "storeDemoModeEnabled"
+
+```

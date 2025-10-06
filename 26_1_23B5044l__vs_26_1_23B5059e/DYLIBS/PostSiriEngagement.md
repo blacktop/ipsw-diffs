@@ -1,0 +1,158 @@
+## PostSiriEngagement
+
+> `/System/Library/PrivateFrameworks/PostSiriEngagement.framework/PostSiriEngagement`
+
+```diff
+
+-3505.3.1.0.0
+-  __TEXT.__text: 0x88888
+-  __TEXT.__auth_stubs: 0x1b50
++3505.7.1.0.0
++  __TEXT.__text: 0x89c8c
++  __TEXT.__auth_stubs: 0x1b80
+   __TEXT.__objc_methlist: 0x1e4
+-  __TEXT.__const: 0x3538
+-  __TEXT.__cstring: 0x3303
+-  __TEXT.__swift5_typeref: 0xfb4
+-  __TEXT.__constg_swiftt: 0x1e80
+-  __TEXT.__swift5_fieldmd: 0x115c
++  __TEXT.__const: 0x3558
++  __TEXT.__cstring: 0x3343
++  __TEXT.__swift5_typeref: 0xfc2
++  __TEXT.__constg_swiftt: 0x1eb0
++  __TEXT.__swift5_fieldmd: 0x118c
+   __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_reflstr: 0xaa2
++  __TEXT.__swift5_reflstr: 0xad2
+   __TEXT.__swift5_assocty: 0x138
+   __TEXT.__swift5_proto: 0x1ec
+   __TEXT.__swift5_types: 0x1ac
+   __TEXT.__oslogstring: 0xe4e
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__swift5_capture: 0x294
++  __TEXT.__swift5_capture: 0x2a4
+   __TEXT.__swift_as_entry: 0x4
+   __TEXT.__swift_as_ret: 0x4
+-  __TEXT.__unwind_info: 0x1488
+-  __TEXT.__eh_frame: 0x1638
++  __TEXT.__unwind_info: 0x14b8
++  __TEXT.__eh_frame: 0x1670
+   __TEXT.__objc_classname: 0x36
+-  __TEXT.__objc_methname: 0x1203
++  __TEXT.__objc_methname: 0x121b
+   __TEXT.__objc_methtype: 0x15d
+   __TEXT.__objc_stubs: 0x40
+-  __DATA_CONST.__got: 0x658
+-  __DATA_CONST.__const: 0x780
++  __DATA_CONST.__got: 0x660
++  __DATA_CONST.__const: 0x7a0
+   __DATA_CONST.__objc_classlist: 0x170
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x7d0
++  __DATA_CONST.__objc_selrefs: 0x7e0
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_arraydata: 0x10
+-  __AUTH_CONST.__auth_got: 0xdb0
+-  __AUTH_CONST.__const: 0x22d8
++  __AUTH_CONST.__auth_got: 0xdc8
++  __AUTH_CONST.__const: 0x2300
+   __AUTH_CONST.__cfstring: 0x80
+-  __AUTH_CONST.__objc_const: 0x2290
++  __AUTH_CONST.__objc_const: 0x22d0
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH.__objc_data: 0x140
+   __AUTH.__data: 0x15e0
+-  __DATA.__data: 0x6e0
++  __DATA.__data: 0x6e8
+   __DATA.__bss: 0x3410
+   __DATA.__common: 0x50
+   __DATA_DIRTY.__objc_data: 0x1e0
+-  __DATA_DIRTY.__data: 0x1ae8
++  __DATA_DIRTY.__data: 0x1b28
+   __DATA_DIRTY.__bss: 0x510
+   __DATA_DIRTY.__common: 0x58
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A2FA4129-6B07-3CF3-ACF0-77D1CD05A927
+-  Functions: 2547
+-  Symbols:   7237
+-  CStrings:  670
++  UUID: FB88FF42-2C3A-3514-89F5-6D33D5F80833
++  Functions: 2571
++  Symbols:   7288
++  CStrings:  674
+ 
+Symbols:
++ _$s18PostSiriEngagement0B13ExecutionStepC10CodingKeys33_C39A21EAB020D4CF367C935C99331005LLO11stringValueSSvg
++ _$s18PostSiriEngagement0B13ExecutionStepC11appBundleId10intentName011interactionH0015rootInteractionH09slotValue12statusReason04taskH00rE09eventTimeACSSSg_A5MSSAM10Foundation4DateVtcfC
++ _$s18PostSiriEngagement0B13ExecutionStepC11appBundleId10intentName011interactionH0015rootInteractionH09slotValue12statusReason04taskH00rE09eventTimeACSSSg_A5MSSAM10Foundation4DateVtcfCTj
++ _$s18PostSiriEngagement0B13ExecutionStepC11appBundleId10intentName011interactionH0015rootInteractionH09slotValue12statusReason04taskH00rE09eventTimeACSSSg_A5MSSAM10Foundation4DateVtcfCTq
++ _$s18PostSiriEngagement0B13ExecutionStepC11appBundleId10intentName011interactionH0015rootInteractionH09slotValue12statusReason04taskH00rE09eventTimeACSSSg_A5MSSAM10Foundation4DateVtcfc
++ _$s18PostSiriEngagement0B13ExecutionStepC17rootInteractionIdSSSgvM
++ _$s18PostSiriEngagement0B13ExecutionStepC17rootInteractionIdSSSgvM.resume.0
++ _$s18PostSiriEngagement0B13ExecutionStepC17rootInteractionIdSSSgvMTj
++ _$s18PostSiriEngagement0B13ExecutionStepC17rootInteractionIdSSSgvMTq
++ _$s18PostSiriEngagement0B13ExecutionStepC17rootInteractionIdSSSgvg
++ _$s18PostSiriEngagement0B13ExecutionStepC17rootInteractionIdSSSgvgTj
++ _$s18PostSiriEngagement0B13ExecutionStepC17rootInteractionIdSSSgvgTq
++ _$s18PostSiriEngagement0B13ExecutionStepC17rootInteractionIdSSSgvpMV
++ _$s18PostSiriEngagement0B13ExecutionStepC17rootInteractionIdSSSgvpWvd
++ _$s18PostSiriEngagement0B13ExecutionStepC17rootInteractionIdSSSgvs
++ _$s18PostSiriEngagement0B13ExecutionStepC17rootInteractionIdSSSgvsTj
++ _$s18PostSiriEngagement0B13ExecutionStepC17rootInteractionIdSSSgvsTq
++ _$s18PostSiriEngagement0B13ExecutionTaskC11uiSessionId04taskH010requestIds015rootInteractionK010appPattern0I4Type16conversationPath18engagementFeatures9startTime03endV0ACSS_SSSaySSGA2NSSAnA0c13UnderstandingT0C10Foundation4DateVAStcfC
++ _$s18PostSiriEngagement0B13ExecutionTaskC11uiSessionId04taskH010requestIds015rootInteractionK010appPattern0I4Type16conversationPath18engagementFeatures9startTime03endV0ACSS_SSSaySSGA2NSSAnA0c13UnderstandingT0C10Foundation4DateVAStcfCTj
++ _$s18PostSiriEngagement0B13ExecutionTaskC11uiSessionId04taskH010requestIds015rootInteractionK010appPattern0I4Type16conversationPath18engagementFeatures9startTime03endV0ACSS_SSSaySSGA2NSSAnA0c13UnderstandingT0C10Foundation4DateVAStcfCTq
++ _$s18PostSiriEngagement0B13ExecutionTaskC11uiSessionId04taskH010requestIds015rootInteractionK010appPattern0I4Type16conversationPath18engagementFeatures9startTime03endV0ACSS_SSSaySSGA2NSSAnA0c13UnderstandingT0C10Foundation4DateVAStcfc
++ _$s18PostSiriEngagement0B13ExecutionTaskC18rootInteractionIdsSaySSGvM
++ _$s18PostSiriEngagement0B13ExecutionTaskC18rootInteractionIdsSaySSGvM.resume.0
++ _$s18PostSiriEngagement0B13ExecutionTaskC18rootInteractionIdsSaySSGvMTj
++ _$s18PostSiriEngagement0B13ExecutionTaskC18rootInteractionIdsSaySSGvMTq
++ _$s18PostSiriEngagement0B13ExecutionTaskC18rootInteractionIdsSaySSGvg
++ _$s18PostSiriEngagement0B13ExecutionTaskC18rootInteractionIdsSaySSGvgTj
++ _$s18PostSiriEngagement0B13ExecutionTaskC18rootInteractionIdsSaySSGvgTq
++ _$s18PostSiriEngagement0B13ExecutionTaskC18rootInteractionIdsSaySSGvpMV
++ _$s18PostSiriEngagement0B13ExecutionTaskC18rootInteractionIdsSaySSGvpWvd
++ _$s18PostSiriEngagement0B13ExecutionTaskC18rootInteractionIdsSaySSGvs
++ _$s18PostSiriEngagement0B13ExecutionTaskC18rootInteractionIdsSaySSGvsTj
++ _$s18PostSiriEngagement0B13ExecutionTaskC18rootInteractionIdsSaySSGvsTq
++ _$s18PostSiriEngagement22SignalFactoryConstantsO13labelValueKeySSvau
++ _$s18PostSiriEngagement22SignalFactoryConstantsO13labelValueKeySSvgZ
++ _$s18PostSiriEngagement22SignalFactoryConstantsO13labelValueKeySSvpZ
++ _$s18PostSiriEngagement22SignalFactoryConstantsO13labelValueKeySSvpZMV
++ _$s18PostSiriEngagement22SignalFactoryConstantsO19displayNameValueKeySSvau
++ _$s18PostSiriEngagement22SignalFactoryConstantsO19displayNameValueKeySSvgZ
++ _$s18PostSiriEngagement22SignalFactoryConstantsO19displayNameValueKeySSvpZ
++ _$s18PostSiriEngagement22SignalFactoryConstantsO19displayNameValueKeySSvpZMV
++ _$sSS5index5afterSS5IndexVAD_tF
++ _$sSSySJSS5IndexVcig
++ _$sSSySsSnySS5IndexVGcig
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.16
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.17
++ _$sSlsE5split9maxSplits25omittingEmptySubsequences14whereSeparatorSay11SubSequenceQzGSi_S2b7ElementQzKXEtKFSS_Tg5
++ _$sSlsSQ7ElementRpzrlE5split9separator9maxSplits25omittingEmptySubsequencesSay11SubSequenceQzGAB_SiSbtFSbABXEfU_SS_TG5TA
++ _$sSsN
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSs_Tg5
++ _$ss23_ContiguousArrayStorageCySsGMD
++ _symbolic Ss
++ _symbolic _____ySsG s23_ContiguousArrayStorageC
+- _$s18PostSiriEngagement0B13ExecutionStepC11appBundleId10intentName011interactionH09slotValue12statusReason04taskH00pE09eventTimeACSSSg_A4LSSAL10Foundation4DateVtcfC
+- _$s18PostSiriEngagement0B13ExecutionStepC11appBundleId10intentName011interactionH09slotValue12statusReason04taskH00pE09eventTimeACSSSg_A4LSSAL10Foundation4DateVtcfCTj
+- _$s18PostSiriEngagement0B13ExecutionStepC11appBundleId10intentName011interactionH09slotValue12statusReason04taskH00pE09eventTimeACSSSg_A4LSSAL10Foundation4DateVtcfCTq
+- _$s18PostSiriEngagement0B13ExecutionStepC11appBundleId10intentName011interactionH09slotValue12statusReason04taskH00pE09eventTimeACSSSg_A4LSSAL10Foundation4DateVtcfc
+- _$s18PostSiriEngagement0B13ExecutionTaskC11uiSessionId04taskH010requestIds10appPattern0I4Type16conversationPath18engagementFeatures9startTime03endT0ACSS_SSSaySSGAMSSAmA0c13UnderstandingR0C10Foundation4DateVARtcfC
+- _$s18PostSiriEngagement0B13ExecutionTaskC11uiSessionId04taskH010requestIds10appPattern0I4Type16conversationPath18engagementFeatures9startTime03endT0ACSS_SSSaySSGAMSSAmA0c13UnderstandingR0C10Foundation4DateVARtcfCTj
+- _$s18PostSiriEngagement0B13ExecutionTaskC11uiSessionId04taskH010requestIds10appPattern0I4Type16conversationPath18engagementFeatures9startTime03endT0ACSS_SSSaySSGAMSSAmA0c13UnderstandingR0C10Foundation4DateVARtcfCTq
+- _$s18PostSiriEngagement0B13ExecutionTaskC11uiSessionId04taskH010requestIds10appPattern0I4Type16conversationPath18engagementFeatures9startTime03endT0ACSS_SSSaySSGAMSSAmA0c13UnderstandingR0C10Foundation4DateVARtcfc
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.14
+CStrings:
++ "label"
++ "rootInteractionID"
++ "rootInteractionId"
++ "rootInteractionIds"
+
+```

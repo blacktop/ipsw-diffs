@@ -1,0 +1,167 @@
+## Stickers
+
+> `/System/Library/PrivateFrameworks/Stickers.framework/Stickers`
+
+```diff
+
+-59.0.0.0.0
+-  __TEXT.__text: 0x74c4c
+-  __TEXT.__auth_stubs: 0x1f00
+-  __TEXT.__objc_methlist: 0xb2c
+-  __TEXT.__const: 0x2cb8
+-  __TEXT.__cstring: 0x2733
+-  __TEXT.__constg_swiftt: 0x1b74
+-  __TEXT.__swift5_typeref: 0x1026
++62.0.0.0.0
++  __TEXT.__text: 0x79470
++  __TEXT.__auth_stubs: 0x1f70
++  __TEXT.__objc_methlist: 0xb34
++  __TEXT.__const: 0x36f8
++  __TEXT.__cstring: 0x27f3
++  __TEXT.__constg_swiftt: 0x1d00
++  __TEXT.__swift5_typeref: 0x1262
+   __TEXT.__swift5_reflstr: 0xd78
+-  __TEXT.__swift5_fieldmd: 0x11f8
++  __TEXT.__swift5_fieldmd: 0x1368
+   __TEXT.__swift5_builtin: 0x78
+   __TEXT.__swift5_assocty: 0x190
+-  __TEXT.__swift5_proto: 0x1b4
+-  __TEXT.__swift5_types: 0x154
+-  __TEXT.__oslogstring: 0x1a7b
+-  __TEXT.__swift5_capture: 0x644
+-  __TEXT.__swift_as_entry: 0xac
+-  __TEXT.__swift_as_ret: 0x80
++  __TEXT.__swift5_proto: 0x26c
++  __TEXT.__swift5_types: 0x180
++  __TEXT.__oslogstring: 0x1b4b
++  __TEXT.__swift5_capture: 0x680
++  __TEXT.__swift_as_entry: 0xc4
++  __TEXT.__swift_as_ret: 0x98
+   __TEXT.__swift5_protos: 0x14
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x1d28
+-  __TEXT.__eh_frame: 0x3a30
++  __TEXT.__unwind_info: 0x1ef8
++  __TEXT.__eh_frame: 0x3d40
+   __TEXT.__objc_classname: 0x87
+-  __TEXT.__objc_methname: 0x1496
++  __TEXT.__objc_methname: 0x14b9
+   __TEXT.__objc_methtype: 0x231
+-  __DATA_CONST.__got: 0x570
++  __DATA_CONST.__got: 0x590
+   __DATA_CONST.__const: 0x518
+   __DATA_CONST.__objc_classlist: 0x160
+   __DATA_CONST.__objc_protolist: 0xa0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x818
++  __DATA_CONST.__objc_selrefs: 0x820
+   __DATA_CONST.__objc_protorefs: 0x58
+-  __AUTH_CONST.__auth_got: 0xf80
+-  __AUTH_CONST.__const: 0x23b8
++  __AUTH_CONST.__auth_got: 0xfb8
++  __AUTH_CONST.__const: 0x2858
+   __AUTH_CONST.__objc_const: 0x2c58
+   __AUTH.__objc_data: 0x158
+   __AUTH.__data: 0x770
+-  __DATA.__data: 0xf98
+-  __DATA.__bss: 0x24e0
++  __DATA.__data: 0x1140
++  __DATA.__bss: 0x3b60
+   __DATA.__common: 0x108
+   __DATA_DIRTY.__objc_data: 0x15a0
+-  __DATA_DIRTY.__data: 0x19c0
+-  __DATA_DIRTY.__bss: 0xe80
++  __DATA_DIRTY.__data: 0x19e0
++  __DATA_DIRTY.__bss: 0xf00
+   __DATA_DIRTY.__common: 0x128
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C1AF54D8-F80D-3EE4-B33F-CC7B7558AAE4
+-  Functions: 2350
+-  Symbols:   1139
+-  CStrings:  786
++  UUID: AA28EE49-F7CB-38C2-9D2E-B09D82093792
++  Functions: 2510
++  Symbols:   1197
++  CStrings:  794
+ 
+Symbols:
++ _associated conformance 8Stickers14ImageGlyphTypeO10CodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOSHAASQ
++ _associated conformance 8Stickers14ImageGlyphTypeO10CodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 8Stickers14ImageGlyphTypeO10CodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8Stickers14ImageGlyphTypeO15EmojiCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8Stickers14ImageGlyphTypeO15EmojiCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8Stickers14ImageGlyphTypeO17StickerCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8Stickers14ImageGlyphTypeO17StickerCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8Stickers14ImageGlyphTypeO17UnknownCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8Stickers14ImageGlyphTypeO17UnknownCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8Stickers14ImageGlyphTypeO19CharacterCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8Stickers14ImageGlyphTypeO19CharacterCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8Stickers14ImageGlyphTypeOSHAASQ
++ _associated conformance 8Stickers20RecencyRecordWrapperO10CodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOSHAASQ
++ _associated conformance 8Stickers20RecencyRecordWrapperO10CodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 8Stickers20RecencyRecordWrapperO10CodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8Stickers20RecencyRecordWrapperO15EmojiCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOSHAASQ
++ _associated conformance 8Stickers20RecencyRecordWrapperO15EmojiCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8Stickers20RecencyRecordWrapperO15EmojiCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8Stickers20RecencyRecordWrapperO17StickerCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOSHAASQ
++ _associated conformance 8Stickers20RecencyRecordWrapperO17StickerCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8Stickers20RecencyRecordWrapperO17StickerCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8Stickers20RecencyRecordWrapperO17UnknownCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8Stickers20RecencyRecordWrapperO17UnknownCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8Stickers20RecencyRecordWrapperO19CharacterCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOSHAASQ
++ _associated conformance 8Stickers20RecencyRecordWrapperO19CharacterCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8Stickers20RecencyRecordWrapperO19CharacterCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _objectdestroy.12Tm
++ _objectdestroy.33Tm
++ _symbolic _____ 8Stickers14ImageGlyphTypeO
++ _symbolic _____ 8Stickers14ImageGlyphTypeO10CodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____ 8Stickers14ImageGlyphTypeO15EmojiCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____ 8Stickers14ImageGlyphTypeO17StickerCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____ 8Stickers14ImageGlyphTypeO17UnknownCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____ 8Stickers14ImageGlyphTypeO19CharacterCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____ 8Stickers20RecencyRecordWrapperO10CodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____ 8Stickers20RecencyRecordWrapperO15EmojiCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____ 8Stickers20RecencyRecordWrapperO17StickerCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____ 8Stickers20RecencyRecordWrapperO17UnknownCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____ 8Stickers20RecencyRecordWrapperO19CharacterCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s10ArraySliceV 8Stickers20RecencyRecordWrapperO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8Stickers14ImageGlyphTypeO10CodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8Stickers14ImageGlyphTypeO15EmojiCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8Stickers14ImageGlyphTypeO17StickerCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8Stickers14ImageGlyphTypeO17UnknownCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8Stickers14ImageGlyphTypeO19CharacterCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8Stickers20RecencyRecordWrapperO10CodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8Stickers20RecencyRecordWrapperO15EmojiCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8Stickers20RecencyRecordWrapperO17StickerCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8Stickers20RecencyRecordWrapperO17UnknownCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8Stickers20RecencyRecordWrapperO19CharacterCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8Stickers14ImageGlyphTypeO10CodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8Stickers14ImageGlyphTypeO15EmojiCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8Stickers14ImageGlyphTypeO17StickerCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8Stickers14ImageGlyphTypeO17UnknownCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8Stickers14ImageGlyphTypeO19CharacterCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8Stickers20RecencyRecordWrapperO10CodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8Stickers20RecencyRecordWrapperO15EmojiCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8Stickers20RecencyRecordWrapperO17StickerCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8Stickers20RecencyRecordWrapperO17UnknownCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8Stickers20RecencyRecordWrapperO19CharacterCodingKeys33_F0A04A2AB67204C8A97CE5F54FA07C4ALLO
++ _symbolic ypXmT______t s13DecodingErrorO7ContextV
+- _objectdestroy.10Tm
+- _objectdestroy.31Tm
+- _symbolic Say_____G 8Stickers20RecencyRecordWrapperO
+CStrings:
++ "An unsupported ImageGlyphExternalRepresentation has been passed into the type mapper."
++ "Fatal error"
++ "Invalid number of keys found, expected one."
++ "Local client initiated record engagement for character: %s"
++ "Local client initiated request recent characters with limit: %ld"
++ "Local client initiated request recent genmoji with limit: %ld"
++ "Stickers/ImageGlyphRecency.swift"
++ "didUseCharacter:completionHandler:"
+
+```

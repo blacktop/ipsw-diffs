@@ -1,0 +1,806 @@
+## PhotoImaging
+
+> `/System/Library/PrivateFrameworks/PhotoImaging.framework/PhotoImaging`
+
+```diff
+
+-810.40.105.0.0
+-  __TEXT.__text: 0x19bf30
+-  __TEXT.__auth_stubs: 0x2170
++810.46.103.0.0
++  __TEXT.__text: 0x19c6ac
++  __TEXT.__auth_stubs: 0x2180
+   __TEXT.__delay_helper: 0x158
+-  __TEXT.__objc_methlist: 0x10cc0
++  __TEXT.__objc_methlist: 0x10cc8
+   __TEXT.__const: 0x8064
+   __TEXT.__dlopen_cstrs: 0x23a
+   __TEXT.__swift5_typeref: 0xbb
+-  __TEXT.__cstring: 0x2f659
++  __TEXT.__cstring: 0x2f776
+   __TEXT.__constg_swiftt: 0x50
+   __TEXT.__swift5_reflstr: 0x6d
+   __TEXT.__swift5_fieldmd: 0x74
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__oslogstring: 0x5858
++  __TEXT.__oslogstring: 0x58f0
+   __TEXT.__swift5_proto: 0x8
+   __TEXT.__swift5_types: 0x8
+   __TEXT.__swift_as_entry: 0x14
+   __TEXT.__swift_as_ret: 0x14
+-  __TEXT.__gcc_except_tab: 0x44bc
+-  __TEXT.__unwind_info: 0x3e50
++  __TEXT.__gcc_except_tab: 0x44c4
++  __TEXT.__unwind_info: 0x3e58
+   __TEXT.__eh_frame: 0x2d0
+   __TEXT.__objc_classname: 0x2b04
+-  __TEXT.__objc_methname: 0x284ba
++  __TEXT.__objc_methname: 0x28438
+   __TEXT.__objc_methtype: 0x4291
+-  __TEXT.__objc_stubs: 0x1e580
++  __TEXT.__objc_stubs: 0x1e560
+   __DATA_CONST.__got: 0x1d38
+-  __DATA_CONST.__const: 0x30c8
++  __DATA_CONST.__const: 0x30f0
+   __DATA_CONST.__objc_classlist: 0xba0
+   __DATA_CONST.__objc_catlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x168
+
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x558
+   __DATA_CONST.__objc_arraydata: 0x7638
+-  __AUTH_CONST.__auth_got: 0x10d0
++  __AUTH_CONST.__auth_got: 0x10d8
+   __AUTH_CONST.__const: 0x3d38
+-  __AUTH_CONST.__cfstring: 0x14ac0
++  __AUTH_CONST.__cfstring: 0x14b80
+   __AUTH_CONST.__objc_const: 0x1f5c8
+   __AUTH_CONST.__objc_intobj: 0xa50
+   __AUTH_CONST.__objc_doubleobj: 0x950
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E89DFA8A-35A6-3988-AA6D-AA38D812A136
+-  Functions: 6557
+-  Symbols:   23339
+-  CStrings:  11711
++  UUID: 69B6B846-CA8D-3E79-B45A-28D59CA12E87
++  Functions: 6559
++  Symbols:   23344
++  CStrings:  11720
+ 
+Symbols:
++ +[PISegmentationLoader loadSpatialPhotoForSegmentationItem:asset:completion:]
++ GCC_except_table5522
++ GCC_except_table5607
++ GCC_except_table5662
++ GCC_except_table5756
++ GCC_except_table5761
++ GCC_except_table5762
++ GCC_except_table5767
++ GCC_except_table5768
++ GCC_except_table5777
++ GCC_except_table5778
++ GCC_except_table5829
++ GCC_except_table5834
++ GCC_except_table5846
++ GCC_except_table5847
++ GCC_except_table5882
++ GCC_except_table5883
++ GCC_except_table5886
++ GCC_except_table5889
++ GCC_except_table5926
++ GCC_except_table6036
++ GCC_except_table6047
++ GCC_except_table6058
++ GCC_except_table6059
++ GCC_except_table6090
++ GCC_except_table6247
++ GCC_except_table6272
++ GCC_except_table6275
++ GCC_except_table6281
++ GCC_except_table6297
++ GCC_except_table6314
++ GCC_except_table6322
++ GCC_except_table6326
++ GCC_except_table6327
++ GCC_except_table6335
++ GCC_except_table6345
++ GCC_except_table6346
++ GCC_except_table6351
++ GCC_except_table6357
++ GCC_except_table6358
++ GCC_except_table6370
++ _ImageHarmonizationKitLibraryCore.frameworkLibrary.20983
++ _MediaAnalysisLibrary.20113
++ _MediaAnalysisLibraryCore.frameworkLibrary.20123
++ _MediaAnalysisLibraryCore.frameworkLibrary.27229
++ _NUAssertLogger.13013
++ _NUAssertLogger.13764
++ _NUAssertLogger.13978
++ _NUAssertLogger.14134
++ _NUAssertLogger.14917
++ _NUAssertLogger.15318
++ _NUAssertLogger.15648
++ _NUAssertLogger.15875
++ _NUAssertLogger.16192
++ _NUAssertLogger.16456
++ _NUAssertLogger.17003
++ _NUAssertLogger.17570
++ _NUAssertLogger.17837
++ _NUAssertLogger.18074
++ _NUAssertLogger.18513
++ _NUAssertLogger.18865
++ _NUAssertLogger.19611
++ _NUAssertLogger.19744
++ _NUAssertLogger.19862
++ _NUAssertLogger.20136
++ _NUAssertLogger.20301
++ _NUAssertLogger.20971
++ _NUAssertLogger.21148
++ _NUAssertLogger.21744
++ _NUAssertLogger.21864
++ _NUAssertLogger.22056
++ _NUAssertLogger.22542
++ _NUAssertLogger.23770
++ _NUAssertLogger.24190
++ _NUAssertLogger.24376
++ _NUAssertLogger.24878
++ _NUAssertLogger.25041
++ _NUAssertLogger.25690
++ _NUAssertLogger.26074
++ _NUAssertLogger.26421
++ _NUAssertLogger.26579
++ _NUAssertLogger.27107
++ _NUAssertLogger.27366
++ _NUAssertLogger.27604
++ _NUAssertLogger.28161
++ _NUAssertLogger.28555
++ _NUAssertLogger.28764
++ _NUAssertLogger.28953
++ _NUAssertLogger.29088
++ _NUAssertLogger.29319
++ _NUAssertLogger.29398
++ _NUAssertLogger.29597
++ _NULogger.13752
++ _NULogger.15750
++ _NULogger.24384
++ _NULogger.25811
++ _NULogger.27721
++ _NURenderLogger.23008
++ _PhotosIntelligenceLibraryCore.frameworkLibrary.20817
++ __PFAssertFailHandler
++ __ZL14NUAssertLoggerv.18714
++ __ZL14NUAssertLoggerv.20507
++ __ZL14NUAssertLoggerv.26628
++ __ZL14NUAssertLoggerv.27480
++ __ZL14NUAssertLoggerv.28379
++ ___104-[PIInpaintMaskContext updateSubjectMaskBufferIfNeededForComposition:digest:completionQueue:completion:]_block_invoke.75
++ ___77+[PISegmentationLoader loadSpatialPhotoForSegmentationItem:asset:completion:]_block_invoke
++ ___88+[PIObjectRemoval createMaskContextForComposition:requestID:completionQueue:completion:]_block_invoke.168
++ ___Block_byref_object_copy_.13051
++ ___Block_byref_object_copy_.13747
++ ___Block_byref_object_copy_.15160
++ ___Block_byref_object_copy_.15331
++ ___Block_byref_object_copy_.15920
++ ___Block_byref_object_copy_.17078
++ ___Block_byref_object_copy_.17928
++ ___Block_byref_object_copy_.19695
++ ___Block_byref_object_copy_.20534
++ ___Block_byref_object_copy_.24399
++ ___Block_byref_object_copy_.26100
++ ___Block_byref_object_copy_.26648
++ ___Block_byref_object_copy_.27202
++ ___Block_byref_object_dispose_.13052
++ ___Block_byref_object_dispose_.13748
++ ___Block_byref_object_dispose_.15161
++ ___Block_byref_object_dispose_.15332
++ ___Block_byref_object_dispose_.15921
++ ___Block_byref_object_dispose_.17079
++ ___Block_byref_object_dispose_.17929
++ ___Block_byref_object_dispose_.19696
++ ___Block_byref_object_dispose_.20535
++ ___Block_byref_object_dispose_.24400
++ ___Block_byref_object_dispose_.26101
++ ___Block_byref_object_dispose_.26649
++ ___Block_byref_object_dispose_.27203
++ ___ImageHarmonizationKitLibraryCore_block_invoke.20984
++ ___MediaAnalysisLibraryCore_block_invoke.20124
++ ___MediaAnalysisLibraryCore_block_invoke.27230
++ ___NUAssertLogger_block_invoke.13039
++ ___NUAssertLogger_block_invoke.13773
++ ___NUAssertLogger_block_invoke.13997
++ ___NUAssertLogger_block_invoke.14150
++ ___NUAssertLogger_block_invoke.14933
++ ___NUAssertLogger_block_invoke.15294
++ ___NUAssertLogger_block_invoke.15697
++ ___NUAssertLogger_block_invoke.15911
++ ___NUAssertLogger_block_invoke.16211
++ ___NUAssertLogger_block_invoke.16596
++ ___NUAssertLogger_block_invoke.17026
++ ___NUAssertLogger_block_invoke.17609
++ ___NUAssertLogger_block_invoke.17875
++ ___NUAssertLogger_block_invoke.18098
++ ___NUAssertLogger_block_invoke.18542
++ ___NUAssertLogger_block_invoke.18886
++ ___NUAssertLogger_block_invoke.19634
++ ___NUAssertLogger_block_invoke.19792
++ ___NUAssertLogger_block_invoke.19890
++ ___NUAssertLogger_block_invoke.20150
++ ___NUAssertLogger_block_invoke.20339
++ ___NUAssertLogger_block_invoke.21006
++ ___NUAssertLogger_block_invoke.21168
++ ___NUAssertLogger_block_invoke.21781
++ ___NUAssertLogger_block_invoke.21863
++ ___NUAssertLogger_block_invoke.22068
++ ___NUAssertLogger_block_invoke.22566
++ ___NUAssertLogger_block_invoke.23794
++ ___NUAssertLogger_block_invoke.24206
++ ___NUAssertLogger_block_invoke.24390
++ ___NUAssertLogger_block_invoke.24895
++ ___NUAssertLogger_block_invoke.25057
++ ___NUAssertLogger_block_invoke.25775
++ ___NUAssertLogger_block_invoke.26119
++ ___NUAssertLogger_block_invoke.26442
++ ___NUAssertLogger_block_invoke.26602
++ ___NUAssertLogger_block_invoke.26929
++ ___NUAssertLogger_block_invoke.27060
++ ___NUAssertLogger_block_invoke.27392
++ ___NUAssertLogger_block_invoke.27757
++ ___NUAssertLogger_block_invoke.28175
++ ___NUAssertLogger_block_invoke.28583
++ ___NUAssertLogger_block_invoke.28779
++ ___NUAssertLogger_block_invoke.28969
++ ___NUAssertLogger_block_invoke.29108
++ ___NUAssertLogger_block_invoke.29340
++ ___NUAssertLogger_block_invoke.29431
++ ___NUAssertLogger_block_invoke.29596
++ ___NULogger_block_invoke.13034
++ ___NULogger_block_invoke.13683
++ ___NULogger_block_invoke.14963
++ ___NULogger_block_invoke.15398
++ ___NULogger_block_invoke.15758
++ ___NULogger_block_invoke.16225
++ ___NULogger_block_invoke.16987
++ ___NULogger_block_invoke.17770
++ ___NULogger_block_invoke.19722
++ ___NULogger_block_invoke.20321
++ ___NULogger_block_invoke.20859
++ ___NULogger_block_invoke.21109
++ ___NULogger_block_invoke.21771
++ ___NULogger_block_invoke.22560
++ ___NULogger_block_invoke.23653
++ ___NULogger_block_invoke.24375
++ ___NULogger_block_invoke.25816
++ ___NULogger_block_invoke.26180
++ ___NULogger_block_invoke.27173
++ ___NULogger_block_invoke.27727
++ ___NULogger_block_invoke.29622
++ ___NULogger_block_invoke.29716
++ ___NURenderLogger_block_invoke.19778
++ ___NURenderLogger_block_invoke.23037
++ ___PhotosIntelligenceLibraryCore_block_invoke.20818
++ ____ZL14NUAssertLoggerv_block_invoke.18745
++ ____ZL14NUAssertLoggerv_block_invoke.20533
++ ____ZL14NUAssertLoggerv_block_invoke.26675
++ ____ZL14NUAssertLoggerv_block_invoke.27496
++ ____ZL14NUAssertLoggerv_block_invoke.28421
++ ____ZL8NULoggerv_block_invoke.27523
++ ____lightMapImageFromData_block_invoke.19938
++ ___block_descriptor_48_e8_32s40bs_e17_v16?0"NSError"8ls32l8s40l8
++ ___block_literal_global.101.13994
++ ___block_literal_global.105.28090
++ ___block_literal_global.115.17310
++ ___block_literal_global.116.28085
++ ___block_literal_global.118.23000
++ ___block_literal_global.122.28080
++ ___block_literal_global.1260.23791
++ ___block_literal_global.1262.23143
++ ___block_literal_global.128.26439
++ ___block_literal_global.13291
++ ___block_literal_global.13613
++ ___block_literal_global.13754
++ ___block_literal_global.14079
++ ___block_literal_global.141.19677
++ ___block_literal_global.14147
++ ___block_literal_global.143.15755
++ ___block_literal_global.143.17318
++ ___block_literal_global.143.28066
++ ___block_literal_global.14610
++ ___block_literal_global.14715
++ ___block_literal_global.14930
++ ___block_literal_global.151.20317
++ ___block_literal_global.15280
++ ___block_literal_global.15694
++ ___block_literal_global.15914
++ ___block_literal_global.16208
++ ___block_literal_global.16593
++ ___block_literal_global.166.28052
++ ___block_literal_global.17219
++ ___block_literal_global.17558
++ ___block_literal_global.176.28026
++ ___block_literal_global.17606
++ ___block_literal_global.17779
++ ___block_literal_global.17872
++ ___block_literal_global.18.26907
++ ___block_literal_global.180.17322
++ ___block_literal_global.18095
++ ___block_literal_global.18185
++ ___block_literal_global.182.24187
++ ___block_literal_global.18359
++ ___block_literal_global.18390
++ ___block_literal_global.184.28017
++ ___block_literal_global.18539
++ ___block_literal_global.18766
++ ___block_literal_global.18879
++ ___block_literal_global.18897
++ ___block_literal_global.194.22875
++ ___block_literal_global.19507
++ ___block_literal_global.196
++ ___block_literal_global.19675
++ ___block_literal_global.19810
++ ___block_literal_global.19887
++ ___block_literal_global.19971
++ ___block_literal_global.20155
++ ___block_literal_global.20336
++ ___block_literal_global.20530
++ ___block_literal_global.20722
++ ___block_literal_global.20815
++ ___block_literal_global.20855
++ ___block_literal_global.21003
++ ___block_literal_global.21405
++ ___block_literal_global.21778
++ ___block_literal_global.21848
++ ___block_literal_global.22069
++ ___block_literal_global.22265
++ ___block_literal_global.22335
++ ___block_literal_global.23050
++ ___block_literal_global.23176
++ ___block_literal_global.23968
++ ___block_literal_global.24489
++ ___block_literal_global.24892
++ ___block_literal_global.25054
++ ___block_literal_global.25772
++ ___block_literal_global.26.29707
++ ___block_literal_global.26173
++ ___block_literal_global.26324
++ ___block_literal_global.26487
++ ___block_literal_global.26591
++ ___block_literal_global.26624
++ ___block_literal_global.26913
++ ___block_literal_global.27045
++ ___block_literal_global.27389
++ ___block_literal_global.27493
++ ___block_literal_global.27776
++ ___block_literal_global.28.18792
++ ___block_literal_global.28194
++ ___block_literal_global.28418
++ ___block_literal_global.28580
++ ___block_literal_global.28762
++ ___block_literal_global.290.17023
++ ___block_literal_global.291.17347
++ ___block_literal_global.29105
++ ___block_literal_global.29346
++ ___block_literal_global.29509
++ ___block_literal_global.29555
++ ___block_literal_global.29704
++ ___block_literal_global.309.13028
++ ___block_literal_global.309.27148
++ ___block_literal_global.311
++ ___block_literal_global.38.26876
++ ___block_literal_global.41.20158
++ ___block_literal_global.54.29337
++ ___block_literal_global.56.22996
++ ___block_literal_global.56.26258
++ ___block_literal_global.56.28133
++ ___block_literal_global.58.22994
++ ___block_literal_global.63.19965
++ ___block_literal_global.63.21756
++ ___block_literal_global.643
++ ___block_literal_global.645
++ ___block_literal_global.71.28122
++ ___block_literal_global.81.22254
++ ___block_literal_global.88.14096
++ ___block_literal_global.9.13608
++ ___block_literal_global.91.22245
++ ___block_literal_global.93.29428
++ ___block_literal_global.95.26599
++ ___getMediaAnalysisResultAttributesKeySymbolLoc_block_invoke.20162
++ ___getMediaAnalysisResultsKeySymbolLoc_block_invoke.20152
++ ___getVCPMediaAnalysisServiceClass_block_invoke.20112
++ ___getVCPMediaAnalysisServiceClass_block_invoke.27222
++ _audit_stringImageHarmonizationKit.20998
++ _audit_stringMediaAnalysis.20130
++ _audit_stringMediaAnalysis.27241
++ _colorBalanceKernels.colorBalanceKernels.26516
++ _colorBalanceKernels.onceToken.26515
++ _getMediaAnalysisResultAttributesKeySymbolLoc.ptr.20161
++ _getMediaAnalysisResultsKey.20134
++ _getMediaAnalysisResultsKeySymbolLoc.ptr.20151
++ _getVCPMediaAnalysisServiceClass.20110
++ _getVCPMediaAnalysisServiceClass.softClass.20111
++ _getVCPMediaAnalysisServiceClass.softClass.27221
++ _initialize.onceToken.13297
++ _initialize.onceToken.23074
++ _initialize.onceToken.24745
++ _initialize.onceToken.26224
++ _roiCallback_block_invoke.26594
++ _s_log.13112
++ _s_log.24372
++ _s_log.26092
++ _s_signpost.13113
++ _s_signpost.24373
++ _s_signpost.26093
+- GCC_except_table5520
+- GCC_except_table5605
+- GCC_except_table5658
+- GCC_except_table5754
+- GCC_except_table5758
+- GCC_except_table5759
+- GCC_except_table5763
+- GCC_except_table5764
+- GCC_except_table5769
+- GCC_except_table5770
+- GCC_except_table5827
+- GCC_except_table5832
+- GCC_except_table5843
+- GCC_except_table5844
+- GCC_except_table5879
+- GCC_except_table5880
+- GCC_except_table5884
+- GCC_except_table5887
+- GCC_except_table5922
+- GCC_except_table6034
+- GCC_except_table6045
+- GCC_except_table6052
+- GCC_except_table6053
+- GCC_except_table6088
+- GCC_except_table6245
+- GCC_except_table6268
+- GCC_except_table6273
+- GCC_except_table6277
+- GCC_except_table6295
+- GCC_except_table6312
+- GCC_except_table6320
+- GCC_except_table6324
+- GCC_except_table6325
+- GCC_except_table6333
+- GCC_except_table6343
+- GCC_except_table6344
+- GCC_except_table6347
+- GCC_except_table6353
+- GCC_except_table6356
+- GCC_except_table6368
+- _ImageHarmonizationKitLibraryCore.frameworkLibrary.20974
+- _MediaAnalysisLibrary.20103
+- _MediaAnalysisLibraryCore.frameworkLibrary.20113
+- _MediaAnalysisLibraryCore.frameworkLibrary.27212
+- _NUAssertLogger.13016
+- _NUAssertLogger.13745
+- _NUAssertLogger.13965
+- _NUAssertLogger.14120
+- _NUAssertLogger.14906
+- _NUAssertLogger.15307
+- _NUAssertLogger.15637
+- _NUAssertLogger.15865
+- _NUAssertLogger.16180
+- _NUAssertLogger.16444
+- _NUAssertLogger.16992
+- _NUAssertLogger.17558
+- _NUAssertLogger.17825
+- _NUAssertLogger.18062
+- _NUAssertLogger.18502
+- _NUAssertLogger.18854
+- _NUAssertLogger.19600
+- _NUAssertLogger.19733
+- _NUAssertLogger.19851
+- _NUAssertLogger.20126
+- _NUAssertLogger.20292
+- _NUAssertLogger.20962
+- _NUAssertLogger.21139
+- _NUAssertLogger.21733
+- _NUAssertLogger.21853
+- _NUAssertLogger.22045
+- _NUAssertLogger.22531
+- _NUAssertLogger.23767
+- _NUAssertLogger.24187
+- _NUAssertLogger.24375
+- _NUAssertLogger.24864
+- _NUAssertLogger.25027
+- _NUAssertLogger.25674
+- _NUAssertLogger.26058
+- _NUAssertLogger.26405
+- _NUAssertLogger.26563
+- _NUAssertLogger.27090
+- _NUAssertLogger.27349
+- _NUAssertLogger.27586
+- _NUAssertLogger.28145
+- _NUAssertLogger.28539
+- _NUAssertLogger.28748
+- _NUAssertLogger.28937
+- _NUAssertLogger.29072
+- _NUAssertLogger.29303
+- _NUAssertLogger.29382
+- _NUAssertLogger.29581
+- _NULogger.13733
+- _NULogger.15739
+- _NULogger.24383
+- _NULogger.25795
+- _NULogger.27703
+- _NURenderLogger.22998
+- _PhotosIntelligenceLibraryCore.frameworkLibrary.20808
+- __ZL14NUAssertLoggerv.18703
+- __ZL14NUAssertLoggerv.20498
+- __ZL14NUAssertLoggerv.26612
+- __ZL14NUAssertLoggerv.27463
+- __ZL14NUAssertLoggerv.28363
+- ___104-[PIInpaintMaskContext updateSubjectMaskBufferIfNeededForComposition:digest:completionQueue:completion:]_block_invoke_3
+- ___88+[PIObjectRemoval createMaskContextForComposition:requestID:completionQueue:completion:]_block_invoke_5
+- ___Block_byref_object_copy_.13053
+- ___Block_byref_object_copy_.13728
+- ___Block_byref_object_copy_.15149
+- ___Block_byref_object_copy_.15320
+- ___Block_byref_object_copy_.15910
+- ___Block_byref_object_copy_.17067
+- ___Block_byref_object_copy_.17916
+- ___Block_byref_object_copy_.19684
+- ___Block_byref_object_copy_.20525
+- ___Block_byref_object_copy_.24398
+- ___Block_byref_object_copy_.26084
+- ___Block_byref_object_copy_.26632
+- ___Block_byref_object_copy_.27185
+- ___Block_byref_object_dispose_.13054
+- ___Block_byref_object_dispose_.13729
+- ___Block_byref_object_dispose_.15150
+- ___Block_byref_object_dispose_.15321
+- ___Block_byref_object_dispose_.15911
+- ___Block_byref_object_dispose_.17068
+- ___Block_byref_object_dispose_.17917
+- ___Block_byref_object_dispose_.19685
+- ___Block_byref_object_dispose_.20526
+- ___Block_byref_object_dispose_.24399
+- ___Block_byref_object_dispose_.26085
+- ___Block_byref_object_dispose_.26633
+- ___Block_byref_object_dispose_.27186
+- ___ImageHarmonizationKitLibraryCore_block_invoke.20975
+- ___MediaAnalysisLibraryCore_block_invoke.20114
+- ___MediaAnalysisLibraryCore_block_invoke.27213
+- ___NUAssertLogger_block_invoke.13041
+- ___NUAssertLogger_block_invoke.13756
+- ___NUAssertLogger_block_invoke.13984
+- ___NUAssertLogger_block_invoke.14136
+- ___NUAssertLogger_block_invoke.14922
+- ___NUAssertLogger_block_invoke.15283
+- ___NUAssertLogger_block_invoke.15686
+- ___NUAssertLogger_block_invoke.15901
+- ___NUAssertLogger_block_invoke.16199
+- ___NUAssertLogger_block_invoke.16584
+- ___NUAssertLogger_block_invoke.17015
+- ___NUAssertLogger_block_invoke.17597
+- ___NUAssertLogger_block_invoke.17863
+- ___NUAssertLogger_block_invoke.18086
+- ___NUAssertLogger_block_invoke.18531
+- ___NUAssertLogger_block_invoke.18875
+- ___NUAssertLogger_block_invoke.19623
+- ___NUAssertLogger_block_invoke.19781
+- ___NUAssertLogger_block_invoke.19879
+- ___NUAssertLogger_block_invoke.20140
+- ___NUAssertLogger_block_invoke.20330
+- ___NUAssertLogger_block_invoke.20997
+- ___NUAssertLogger_block_invoke.21159
+- ___NUAssertLogger_block_invoke.21770
+- ___NUAssertLogger_block_invoke.21852
+- ___NUAssertLogger_block_invoke.22057
+- ___NUAssertLogger_block_invoke.22555
+- ___NUAssertLogger_block_invoke.23791
+- ___NUAssertLogger_block_invoke.24203
+- ___NUAssertLogger_block_invoke.24389
+- ___NUAssertLogger_block_invoke.24881
+- ___NUAssertLogger_block_invoke.25043
+- ___NUAssertLogger_block_invoke.25759
+- ___NUAssertLogger_block_invoke.26103
+- ___NUAssertLogger_block_invoke.26426
+- ___NUAssertLogger_block_invoke.26586
+- ___NUAssertLogger_block_invoke.26913
+- ___NUAssertLogger_block_invoke.27044
+- ___NUAssertLogger_block_invoke.27375
+- ___NUAssertLogger_block_invoke.27739
+- ___NUAssertLogger_block_invoke.28159
+- ___NUAssertLogger_block_invoke.28567
+- ___NUAssertLogger_block_invoke.28763
+- ___NUAssertLogger_block_invoke.28953
+- ___NUAssertLogger_block_invoke.29092
+- ___NUAssertLogger_block_invoke.29324
+- ___NUAssertLogger_block_invoke.29415
+- ___NUAssertLogger_block_invoke.29580
+- ___NULogger_block_invoke.13035
+- ___NULogger_block_invoke.13664
+- ___NULogger_block_invoke.14952
+- ___NULogger_block_invoke.15387
+- ___NULogger_block_invoke.15748
+- ___NULogger_block_invoke.16213
+- ___NULogger_block_invoke.16976
+- ___NULogger_block_invoke.17758
+- ___NULogger_block_invoke.19711
+- ___NULogger_block_invoke.20312
+- ___NULogger_block_invoke.20850
+- ___NULogger_block_invoke.21100
+- ___NULogger_block_invoke.21760
+- ___NULogger_block_invoke.22549
+- ___NULogger_block_invoke.23650
+- ___NULogger_block_invoke.24374
+- ___NULogger_block_invoke.25800
+- ___NULogger_block_invoke.26164
+- ___NULogger_block_invoke.27156
+- ___NULogger_block_invoke.27709
+- ___NULogger_block_invoke.29606
+- ___NULogger_block_invoke.29700
+- ___NURenderLogger_block_invoke.19767
+- ___NURenderLogger_block_invoke.23027
+- ___PhotosIntelligenceLibraryCore_block_invoke.20809
+- ____ZL14NUAssertLoggerv_block_invoke.18734
+- ____ZL14NUAssertLoggerv_block_invoke.20524
+- ____ZL14NUAssertLoggerv_block_invoke.26659
+- ____ZL14NUAssertLoggerv_block_invoke.27479
+- ____ZL14NUAssertLoggerv_block_invoke.28405
+- ____ZL8NULoggerv_block_invoke.27506
+- ____lightMapImageFromData_block_invoke.19927
+- ___block_literal_global.101.13981
+- ___block_literal_global.105.28074
+- ___block_literal_global.115.17298
+- ___block_literal_global.116.28069
+- ___block_literal_global.118.22990
+- ___block_literal_global.122.28064
+- ___block_literal_global.1260.23788
+- ___block_literal_global.1262.23133
+- ___block_literal_global.128.26423
+- ___block_literal_global.13271
+- ___block_literal_global.13594
+- ___block_literal_global.13735
+- ___block_literal_global.14065
+- ___block_literal_global.141.19666
+- ___block_literal_global.14133
+- ___block_literal_global.143.15745
+- ___block_literal_global.143.17306
+- ___block_literal_global.143.28050
+- ___block_literal_global.14599
+- ___block_literal_global.14704
+- ___block_literal_global.14919
+- ___block_literal_global.151.20308
+- ___block_literal_global.15269
+- ___block_literal_global.15683
+- ___block_literal_global.15904
+- ___block_literal_global.16196
+- ___block_literal_global.16581
+- ___block_literal_global.166.28036
+- ___block_literal_global.17208
+- ___block_literal_global.17546
+- ___block_literal_global.17594
+- ___block_literal_global.176.28010
+- ___block_literal_global.17767
+- ___block_literal_global.17860
+- ___block_literal_global.18.26891
+- ___block_literal_global.180.17310
+- ___block_literal_global.18083
+- ___block_literal_global.18173
+- ___block_literal_global.182.24184
+- ___block_literal_global.18347
+- ___block_literal_global.18378
+- ___block_literal_global.184.28001
+- ___block_literal_global.18528
+- ___block_literal_global.187.13132
+- ___block_literal_global.18755
+- ___block_literal_global.18868
+- ___block_literal_global.18886
+- ___block_literal_global.194.22865
+- ___block_literal_global.19496
+- ___block_literal_global.19664
+- ___block_literal_global.19799
+- ___block_literal_global.19876
+- ___block_literal_global.19961
+- ___block_literal_global.20145
+- ___block_literal_global.20327
+- ___block_literal_global.20521
+- ___block_literal_global.20713
+- ___block_literal_global.20806
+- ___block_literal_global.20846
+- ___block_literal_global.20994
+- ___block_literal_global.21394
+- ___block_literal_global.21767
+- ___block_literal_global.21837
+- ___block_literal_global.22058
+- ___block_literal_global.22254
+- ___block_literal_global.22324
+- ___block_literal_global.23040
+- ___block_literal_global.23166
+- ___block_literal_global.23965
+- ___block_literal_global.24488
+- ___block_literal_global.24878
+- ___block_literal_global.25040
+- ___block_literal_global.25756
+- ___block_literal_global.26.29691
+- ___block_literal_global.26157
+- ___block_literal_global.26308
+- ___block_literal_global.26471
+- ___block_literal_global.26575
+- ___block_literal_global.26608
+- ___block_literal_global.26897
+- ___block_literal_global.27029
+- ___block_literal_global.27372
+- ___block_literal_global.27476
+- ___block_literal_global.27759
+- ___block_literal_global.28.18781
+- ___block_literal_global.28178
+- ___block_literal_global.28402
+- ___block_literal_global.28564
+- ___block_literal_global.28746
+- ___block_literal_global.290.17012
+- ___block_literal_global.29089
+- ___block_literal_global.291.17335
+- ___block_literal_global.29330
+- ___block_literal_global.29493
+- ___block_literal_global.29539
+- ___block_literal_global.29688
+- ___block_literal_global.300
+- ___block_literal_global.302
+- ___block_literal_global.309.27131
+- ___block_literal_global.38.26860
+- ___block_literal_global.41.20148
+- ___block_literal_global.54.29321
+- ___block_literal_global.56.22986
+- ___block_literal_global.56.26242
+- ___block_literal_global.56.28117
+- ___block_literal_global.58.22984
+- ___block_literal_global.63.19955
+- ___block_literal_global.63.21745
+- ___block_literal_global.630
+- ___block_literal_global.632
+- ___block_literal_global.71.28106
+- ___block_literal_global.81.22243
+- ___block_literal_global.88.14082
+- ___block_literal_global.9.13589
+- ___block_literal_global.91.22234
+- ___block_literal_global.93.29412
+- ___block_literal_global.95.26583
+- ___getMediaAnalysisResultAttributesKeySymbolLoc_block_invoke.20152
+- ___getMediaAnalysisResultsKeySymbolLoc_block_invoke.20142
+- ___getVCPMediaAnalysisServiceClass_block_invoke.20102
+- ___getVCPMediaAnalysisServiceClass_block_invoke.27205
+- _audit_stringImageHarmonizationKit.20989
+- _audit_stringMediaAnalysis.20120
+- _audit_stringMediaAnalysis.27224
+- _colorBalanceKernels.colorBalanceKernels.26500
+- _colorBalanceKernels.onceToken.26499
+- _getMediaAnalysisResultAttributesKeySymbolLoc.ptr.20151
+- _getMediaAnalysisResultsKey.20124
+- _getMediaAnalysisResultsKeySymbolLoc.ptr.20141
+- _getVCPMediaAnalysisServiceClass.20100
+- _getVCPMediaAnalysisServiceClass.softClass.20101
+- _getVCPMediaAnalysisServiceClass.softClass.27204
+- _initialize.onceToken.13277
+- _initialize.onceToken.23064
+- _initialize.onceToken.24735
+- _initialize.onceToken.26208
+- _objc_msgSend$effectiveMatteInspectionRectForClassification:havePetFaces:sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized:sourcePreferredRectNormalized:originalMatteRectDenormalized:
+- _roiCallback_block_invoke.26578
+- _s_log.13108
+- _s_log.24371
+- _s_log.26076
+- _s_signpost.13109
+- _s_signpost.24372
+- _s_signpost.26077
+CStrings:
++ "%@ should be an instance inheriting from %@, but it is %@"
++ "%@ should be an instance inheriting from %@, but it is nil"
++ "+[PISegmentationLoader loadSpatialPhotoForSegmentationItem:asset:completion:]"
++ "Failed to load spatial photo: segmentationItem is Unsupported class: %{public}@"
++ "Forced Segmentation Failure"
++ "PIObjectRemoval: user default set, overriding segmentationResult to nil"
++ "PI_FORCE_SEGMENTATION_FAIL"
++ "Unsupported class"
++ "loadSpatialPhotoForSegmentationItem:asset:completion:"
+- "effectiveMatteInspectionRectForClassification:havePetFaces:sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized:sourcePreferredRectNormalized:originalMatteRectDenormalized:"
+
+```

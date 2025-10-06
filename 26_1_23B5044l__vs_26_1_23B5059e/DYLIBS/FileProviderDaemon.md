@@ -1,0 +1,1768 @@
+## FileProviderDaemon
+
+> `/System/Library/PrivateFrameworks/FileProviderDaemon.framework/FileProviderDaemon`
+
+```diff
+
+-3882.40.85.502.1
+-  __TEXT.__text: 0x9d7398
+-  __TEXT.__auth_stubs: 0x5c90
+-  __TEXT.__objc_methlist: 0x9bfc
+-  __TEXT.__const: 0x25cd0
+-  __TEXT.__cstring: 0x42ded
+-  __TEXT.__oslogstring: 0x1e0e2
+-  __TEXT.__gcc_except_tab: 0xe4d8
++3882.40.119.0.0
++  __TEXT.__text: 0x9eeccc
++  __TEXT.__auth_stubs: 0x5cc0
++  __TEXT.__objc_methlist: 0x9c24
++  __TEXT.__const: 0x25da0
++  __TEXT.__cstring: 0x4344d
++  __TEXT.__oslogstring: 0x1e4b2
++  __TEXT.__gcc_except_tab: 0xe788
+   __TEXT.__ustring: 0x176e
+   __TEXT.__dlopen_cstrs: 0x66
+-  __TEXT.__constg_swiftt: 0x12b68
+-  __TEXT.__swift5_typeref: 0x11f40
++  __TEXT.__constg_swiftt: 0x12c84
++  __TEXT.__swift5_typeref: 0x122b0
+   __TEXT.__swift5_builtin: 0x898
+   __TEXT.__swift5_mpenum: 0x134
+-  __TEXT.__swift5_reflstr: 0xc33d
+-  __TEXT.__swift5_fieldmd: 0xaf5c
++  __TEXT.__swift5_reflstr: 0xc3ed
++  __TEXT.__swift5_fieldmd: 0xafcc
+   __TEXT.__swift5_assocty: 0x23f8
+-  __TEXT.__swift5_capture: 0x17c88
++  __TEXT.__swift5_capture: 0x184ec
+   __TEXT.__swift5_proto: 0x1974
+-  __TEXT.__swift5_types: 0xae0
++  __TEXT.__swift5_types: 0xae4
+   __TEXT.__swift5_types2: 0x4
+   __TEXT.__swift5_protos: 0xa0
+   __TEXT.__swift_as_entry: 0xa8
+   __TEXT.__swift_as_ret: 0xa4
+-  __TEXT.__unwind_info: 0x149c8
+-  __TEXT.__eh_frame: 0x268dc
++  __TEXT.__unwind_info: 0x14bc8
++  __TEXT.__eh_frame: 0x2705c
+   __TEXT.__objc_classname: 0xefa
+-  __TEXT.__objc_methname: 0x1da83
++  __TEXT.__objc_methname: 0x1daf8
+   __TEXT.__objc_methtype: 0x6b4e
+-  __TEXT.__objc_stubs: 0xff60
+-  __DATA_CONST.__got: 0x1820
+-  __DATA_CONST.__const: 0x4e30
++  __TEXT.__objc_stubs: 0xff80
++  __DATA_CONST.__got: 0x1828
++  __DATA_CONST.__const: 0x4e70
+   __DATA_CONST.__objc_classlist: 0x5a0
+   __DATA_CONST.__objc_catlist: 0x50
+   __DATA_CONST.__objc_protolist: 0x350
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6198
++  __DATA_CONST.__objc_selrefs: 0x61a8
+   __DATA_CONST.__objc_protorefs: 0x188
+   __DATA_CONST.__objc_superrefs: 0x288
+   __DATA_CONST.__objc_arraydata: 0xf0
+-  __AUTH_CONST.__auth_got: 0x2e58
+-  __AUTH_CONST.__const: 0x44aa0
++  __AUTH_CONST.__auth_got: 0x2e70
++  __AUTH_CONST.__const: 0x45920
+   __AUTH_CONST.__cfstring: 0x6f60
+-  __AUTH_CONST.__objc_const: 0x2c218
++  __AUTH_CONST.__objc_const: 0x2c2e8
+   __AUTH_CONST.__objc_arrayobj: 0xf0
+   __AUTH_CONST.__objc_intobj: 0x120
+   __AUTH_CONST.__objc_dictobj: 0x50
+-  __AUTH.__objc_data: 0x2190
+-  __AUTH.__data: 0x25c8
++  __AUTH.__objc_data: 0x20c8
++  __AUTH.__data: 0x25a8
+   __DATA.__objc_ivar: 0xb3c
+-  __DATA.__data: 0x8848
+-  __DATA.__bss: 0x269d0
++  __DATA.__data: 0x8738
++  __DATA.__bss: 0x261d0
+   __DATA.__common: 0x2d0
+-  __DATA_DIRTY.__objc_data: 0x37a0
+-  __DATA_DIRTY.__data: 0xe148
+-  __DATA_DIRTY.__bss: 0xaf70
+-  __DATA_DIRTY.__common: 0x8e0
++  __DATA_DIRTY.__objc_data: 0x3868
++  __DATA_DIRTY.__data: 0xe328
++  __DATA_DIRTY.__bss: 0xb770
++  __DATA_DIRTY.__common: 0x8e8
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8EF833B5-3BF1-3E25-99D4-3E3F82CDA086
+-  Functions: 29410
+-  Symbols:   25437
+-  CStrings:  13656
++  UUID: 5C20A54D-8964-3086-AF9F-D04B334CDA6D
++  Functions: 29659
++  Symbols:   25532
++  CStrings:  13702
+ 
+Symbols:
++ -[FPDXPCServicer getNumberOfNonMaterializedFilesInDomain:withCompletionHandler:]
++ -[FPDXPCServicer pauseSyncForItemAtURL:behavior:bundleID:completionHandler:].cold.2
++ GCC_except_table384
++ GCC_except_table385
++ GCC_except_table386
++ GCC_except_table411
++ GCC_except_table413
++ GCC_except_table417
++ GCC_except_table418
++ GCC_except_table423
++ GCC_except_table428
++ GCC_except_table432
++ GCC_except_table433
++ GCC_except_table438
++ GCC_except_table439
++ GCC_except_table440
++ GCC_except_table449
++ GCC_except_table451
++ GCC_except_table455
++ GCC_except_table456
++ GCC_except_table461
++ GCC_except_table470
++ GCC_except_table474
++ GCC_except_table476
++ GCC_except_table478
++ GCC_except_table485
++ GCC_except_table486
++ GCC_except_table548
++ ___80-[FPDXPCServicer getNumberOfNonMaterializedFilesInDomain:withCompletionHandler:]_block_invoke
++ ___80-[FPDXPCServicer getNumberOfNonMaterializedFilesInDomain:withCompletionHandler:]_block_invoke.548
++ ___80-[FPDXPCServicer getNumberOfNonMaterializedFilesInDomain:withCompletionHandler:]_block_invoke.548.cold.1
++ ___block_descriptor_56_e8_32s40s48bs_e20_v24?0q8"NSError"16ls32l8s40l8s48l8
++ ___swift_memcpy96_8
++ ___unnamed_102
++ _block_copy_helper.1016
++ _block_copy_helper.1022
++ _block_copy_helper.1052
++ _block_copy_helper.1063
++ _block_copy_helper.111
++ _block_copy_helper.125
++ _block_copy_helper.129
++ _block_copy_helper.1302
++ _block_copy_helper.1314
++ _block_copy_helper.1328
++ _block_copy_helper.1335
++ _block_copy_helper.1339
++ _block_copy_helper.1343
++ _block_copy_helper.135
++ _block_copy_helper.1356
++ _block_copy_helper.1363
++ _block_copy_helper.1383
++ _block_copy_helper.1393
++ _block_copy_helper.1414
++ _block_copy_helper.1462
++ _block_copy_helper.1518
++ _block_copy_helper.1521
++ _block_copy_helper.1580
++ _block_copy_helper.1583
++ _block_copy_helper.1586
++ _block_copy_helper.1593
++ _block_copy_helper.1644
++ _block_copy_helper.1647
++ _block_copy_helper.1650
++ _block_copy_helper.1653
++ _block_copy_helper.1658
++ _block_copy_helper.1663
++ _block_copy_helper.1668
++ _block_copy_helper.1673
++ _block_copy_helper.1678
++ _block_copy_helper.1683
++ _block_copy_helper.1778
++ _block_copy_helper.1823
++ _block_copy_helper.1845
++ _block_copy_helper.1894
++ _block_copy_helper.1908
++ _block_copy_helper.1915
++ _block_copy_helper.1925
++ _block_copy_helper.1932
++ _block_copy_helper.1954
++ _block_copy_helper.1964
++ _block_copy_helper.1983
++ _block_copy_helper.1995
++ _block_copy_helper.2011
++ _block_copy_helper.2014
++ _block_copy_helper.2046
++ _block_copy_helper.2071
++ _block_copy_helper.2078
++ _block_copy_helper.2113
++ _block_copy_helper.2125
++ _block_copy_helper.2135
++ _block_copy_helper.2147
++ _block_copy_helper.2159
++ _block_copy_helper.2171
++ _block_copy_helper.2229
++ _block_copy_helper.2232
++ _block_copy_helper.2241
++ _block_copy_helper.2277
++ _block_copy_helper.2289
++ _block_copy_helper.2335
++ _block_copy_helper.2338
++ _block_copy_helper.2410
++ _block_copy_helper.2422
++ _block_copy_helper.2506
++ _block_copy_helper.2509
++ _block_copy_helper.2518
++ _block_copy_helper.2588
++ _block_copy_helper.2591
++ _block_copy_helper.2681
++ _block_copy_helper.2684
++ _block_copy_helper.2740
++ _block_copy_helper.2743
++ _block_copy_helper.2759
++ _block_copy_helper.277
++ _block_copy_helper.2771
++ _block_copy_helper.280
++ _block_copy_helper.2826
++ _block_copy_helper.2829
++ _block_copy_helper.2893
++ _block_copy_helper.2896
++ _block_copy_helper.2899
++ _block_copy_helper.2957
++ _block_copy_helper.2960
++ _block_copy_helper.3015
++ _block_copy_helper.3018
++ _block_copy_helper.3041
++ _block_copy_helper.3044
++ _block_copy_helper.3064
++ _block_copy_helper.31
++ _block_copy_helper.3197
++ _block_copy_helper.3203
++ _block_copy_helper.3225
++ _block_copy_helper.3253
++ _block_copy_helper.3298
++ _block_copy_helper.3324
++ _block_copy_helper.3327
++ _block_copy_helper.3373
++ _block_copy_helper.3387
++ _block_copy_helper.3437
++ _block_copy_helper.3440
++ _block_copy_helper.3454
++ _block_copy_helper.3510
++ _block_copy_helper.3513
++ _block_copy_helper.3523
++ _block_copy_helper.3526
++ _block_copy_helper.3539
++ _block_copy_helper.3568
++ _block_copy_helper.3571
++ _block_copy_helper.3578
++ _block_copy_helper.3590
++ _block_copy_helper.3695
++ _block_copy_helper.3698
++ _block_copy_helper.3705
++ _block_copy_helper.3717
++ _block_copy_helper.3825
++ _block_copy_helper.3828
++ _block_copy_helper.3840
++ _block_copy_helper.3878
++ _block_copy_helper.3952
++ _block_copy_helper.3972
++ _block_copy_helper.3975
++ _block_copy_helper.3990
++ _block_copy_helper.4021
++ _block_copy_helper.4024
++ _block_copy_helper.4027
++ _block_copy_helper.4077
++ _block_copy_helper.4082
++ _block_copy_helper.4087
++ _block_copy_helper.4097
++ _block_copy_helper.4123
++ _block_copy_helper.4135
++ _block_copy_helper.4143
++ _block_copy_helper.4240
++ _block_copy_helper.4243
++ _block_copy_helper.43
++ _block_copy_helper.4330
++ _block_copy_helper.4383
++ _block_copy_helper.4386
++ _block_copy_helper.4502
++ _block_copy_helper.4564
++ _block_copy_helper.4640
++ _block_copy_helper.4694
++ _block_copy_helper.4714
++ _block_copy_helper.4726
++ _block_copy_helper.4738
++ _block_copy_helper.4750
++ _block_copy_helper.4756
++ _block_copy_helper.4768
++ _block_copy_helper.4834
++ _block_copy_helper.4850
++ _block_copy_helper.4857
++ _block_copy_helper.4902
++ _block_copy_helper.5009
++ _block_copy_helper.5012
++ _block_copy_helper.5060
++ _block_copy_helper.5126
++ _block_copy_helper.5129
++ _block_copy_helper.5198
++ _block_copy_helper.5201
++ _block_copy_helper.5210
++ _block_copy_helper.5222
++ _block_copy_helper.5228
++ _block_copy_helper.5240
++ _block_copy_helper.5252
++ _block_copy_helper.5264
++ _block_copy_helper.5270
++ _block_copy_helper.5282
++ _block_copy_helper.5309
++ _block_copy_helper.5312
++ _block_copy_helper.5399
++ _block_copy_helper.5434
++ _block_copy_helper.5444
++ _block_copy_helper.5447
++ _block_copy_helper.5453
++ _block_copy_helper.5467
++ _block_copy_helper.5473
++ _block_copy_helper.5485
++ _block_copy_helper.5496
++ _block_copy_helper.5508
++ _block_copy_helper.5517
++ _block_copy_helper.5528
++ _block_copy_helper.5534
++ _block_copy_helper.5546
++ _block_copy_helper.5641
++ _block_copy_helper.5644
++ _block_copy_helper.5783
++ _block_copy_helper.5786
++ _block_copy_helper.5826
++ _block_copy_helper.5855
++ _block_copy_helper.5865
++ _block_copy_helper.5894
++ _block_copy_helper.5897
++ _block_copy_helper.5908
++ _block_copy_helper.5960
++ _block_copy_helper.5963
++ _block_copy_helper.5969
++ _block_copy_helper.5972
++ _block_copy_helper.5989
++ _block_copy_helper.5996
++ _block_copy_helper.6014
++ _block_copy_helper.6026
++ _block_copy_helper.6044
++ _block_copy_helper.6056
++ _block_copy_helper.6074
++ _block_copy_helper.6084
++ _block_copy_helper.6116
++ _block_copy_helper.6119
++ _block_copy_helper.6128
++ _block_copy_helper.6162
++ _block_copy_helper.6165
++ _block_copy_helper.6183
++ _block_copy_helper.6190
++ _block_copy_helper.798
++ _block_copy_helper.832
++ _block_copy_helper.833
++ _block_copy_helper.835
++ _block_copy_helper.842
++ _block_copy_helper.848
++ _block_copy_helper.861
++ _block_copy_helper.880
++ _block_copy_helper.982
++ _block_copy_helper.99
++ _block_descriptor.101
++ _block_descriptor.1018
++ _block_descriptor.1024
++ _block_descriptor.1054
++ _block_descriptor.1065
++ _block_descriptor.113
++ _block_descriptor.127
++ _block_descriptor.1304
++ _block_descriptor.131
++ _block_descriptor.1316
++ _block_descriptor.1330
++ _block_descriptor.1337
++ _block_descriptor.1341
++ _block_descriptor.1345
++ _block_descriptor.1358
++ _block_descriptor.1365
++ _block_descriptor.137
++ _block_descriptor.1385
++ _block_descriptor.1395
++ _block_descriptor.1416
++ _block_descriptor.1464
++ _block_descriptor.1520
++ _block_descriptor.1523
++ _block_descriptor.1582
++ _block_descriptor.1585
++ _block_descriptor.1588
++ _block_descriptor.1595
++ _block_descriptor.1646
++ _block_descriptor.1649
++ _block_descriptor.1652
++ _block_descriptor.1655
++ _block_descriptor.1660
++ _block_descriptor.1665
++ _block_descriptor.1670
++ _block_descriptor.1675
++ _block_descriptor.1680
++ _block_descriptor.1685
++ _block_descriptor.1780
++ _block_descriptor.1825
++ _block_descriptor.1847
++ _block_descriptor.1896
++ _block_descriptor.1910
++ _block_descriptor.1917
++ _block_descriptor.1927
++ _block_descriptor.1934
++ _block_descriptor.1956
++ _block_descriptor.1966
++ _block_descriptor.1985
++ _block_descriptor.1997
++ _block_descriptor.2013
++ _block_descriptor.2016
++ _block_descriptor.2048
++ _block_descriptor.2073
++ _block_descriptor.2080
++ _block_descriptor.2115
++ _block_descriptor.2127
++ _block_descriptor.2137
++ _block_descriptor.2149
++ _block_descriptor.2161
++ _block_descriptor.2173
++ _block_descriptor.2231
++ _block_descriptor.2234
++ _block_descriptor.2243
++ _block_descriptor.2279
++ _block_descriptor.2291
++ _block_descriptor.2337
++ _block_descriptor.2340
++ _block_descriptor.2412
++ _block_descriptor.2424
++ _block_descriptor.2508
++ _block_descriptor.2511
++ _block_descriptor.2520
++ _block_descriptor.2590
++ _block_descriptor.2593
++ _block_descriptor.2683
++ _block_descriptor.2686
++ _block_descriptor.2742
++ _block_descriptor.2745
++ _block_descriptor.2761
++ _block_descriptor.2773
++ _block_descriptor.279
++ _block_descriptor.282
++ _block_descriptor.2828
++ _block_descriptor.2831
++ _block_descriptor.2895
++ _block_descriptor.2898
++ _block_descriptor.2901
++ _block_descriptor.2959
++ _block_descriptor.2962
++ _block_descriptor.3017
++ _block_descriptor.3020
++ _block_descriptor.3043
++ _block_descriptor.3046
++ _block_descriptor.3066
++ _block_descriptor.3199
++ _block_descriptor.3205
++ _block_descriptor.3227
++ _block_descriptor.3255
++ _block_descriptor.33
++ _block_descriptor.3300
++ _block_descriptor.3326
++ _block_descriptor.3329
++ _block_descriptor.3375
++ _block_descriptor.3389
++ _block_descriptor.3439
++ _block_descriptor.3442
++ _block_descriptor.3456
++ _block_descriptor.3512
++ _block_descriptor.3515
++ _block_descriptor.3525
++ _block_descriptor.3528
++ _block_descriptor.3541
++ _block_descriptor.3570
++ _block_descriptor.3573
++ _block_descriptor.3580
++ _block_descriptor.3592
++ _block_descriptor.3697
++ _block_descriptor.3700
++ _block_descriptor.3707
++ _block_descriptor.3719
++ _block_descriptor.3827
++ _block_descriptor.3830
++ _block_descriptor.3842
++ _block_descriptor.3880
++ _block_descriptor.3954
++ _block_descriptor.3974
++ _block_descriptor.3977
++ _block_descriptor.3992
++ _block_descriptor.4023
++ _block_descriptor.4026
++ _block_descriptor.4029
++ _block_descriptor.4079
++ _block_descriptor.4084
++ _block_descriptor.4089
++ _block_descriptor.4099
++ _block_descriptor.4125
++ _block_descriptor.4137
++ _block_descriptor.4145
++ _block_descriptor.4242
++ _block_descriptor.4245
++ _block_descriptor.4332
++ _block_descriptor.4385
++ _block_descriptor.4388
++ _block_descriptor.45
++ _block_descriptor.4504
++ _block_descriptor.4566
++ _block_descriptor.4642
++ _block_descriptor.4696
++ _block_descriptor.4716
++ _block_descriptor.4728
++ _block_descriptor.4740
++ _block_descriptor.4752
++ _block_descriptor.4758
++ _block_descriptor.4770
++ _block_descriptor.4836
++ _block_descriptor.4852
++ _block_descriptor.4859
++ _block_descriptor.4904
++ _block_descriptor.5011
++ _block_descriptor.5014
++ _block_descriptor.5062
++ _block_descriptor.5128
++ _block_descriptor.5131
++ _block_descriptor.5200
++ _block_descriptor.5203
++ _block_descriptor.5212
++ _block_descriptor.5224
++ _block_descriptor.5230
++ _block_descriptor.5242
++ _block_descriptor.5254
++ _block_descriptor.5266
++ _block_descriptor.5272
++ _block_descriptor.5284
++ _block_descriptor.5311
++ _block_descriptor.5314
++ _block_descriptor.5401
++ _block_descriptor.5436
++ _block_descriptor.5446
++ _block_descriptor.5449
++ _block_descriptor.5455
++ _block_descriptor.5469
++ _block_descriptor.5475
++ _block_descriptor.5487
++ _block_descriptor.5498
++ _block_descriptor.5510
++ _block_descriptor.5519
++ _block_descriptor.5530
++ _block_descriptor.5536
++ _block_descriptor.5548
++ _block_descriptor.5643
++ _block_descriptor.5646
++ _block_descriptor.5785
++ _block_descriptor.5788
++ _block_descriptor.5828
++ _block_descriptor.5857
++ _block_descriptor.5867
++ _block_descriptor.5896
++ _block_descriptor.5899
++ _block_descriptor.5910
++ _block_descriptor.5962
++ _block_descriptor.5965
++ _block_descriptor.5971
++ _block_descriptor.5974
++ _block_descriptor.5991
++ _block_descriptor.5998
++ _block_descriptor.6016
++ _block_descriptor.6028
++ _block_descriptor.6046
++ _block_descriptor.6058
++ _block_descriptor.6076
++ _block_descriptor.6086
++ _block_descriptor.6118
++ _block_descriptor.6121
++ _block_descriptor.6130
++ _block_descriptor.6164
++ _block_descriptor.6167
++ _block_descriptor.6185
++ _block_descriptor.6192
++ _block_descriptor.800
++ _block_descriptor.834
++ _block_descriptor.835
++ _block_descriptor.837
++ _block_descriptor.844
++ _block_descriptor.850
++ _block_descriptor.863
++ _block_descriptor.882
++ _block_descriptor.984
++ _block_destroy_helper.100
++ _block_destroy_helper.1017
++ _block_destroy_helper.1023
++ _block_destroy_helper.1053
++ _block_destroy_helper.1064
++ _block_destroy_helper.112
++ _block_destroy_helper.126
++ _block_destroy_helper.130
++ _block_destroy_helper.1303
++ _block_destroy_helper.1315
++ _block_destroy_helper.1329
++ _block_destroy_helper.1336
++ _block_destroy_helper.1340
++ _block_destroy_helper.1344
++ _block_destroy_helper.1357
++ _block_destroy_helper.136
++ _block_destroy_helper.1364
++ _block_destroy_helper.1384
++ _block_destroy_helper.1394
++ _block_destroy_helper.1415
++ _block_destroy_helper.1463
++ _block_destroy_helper.1519
++ _block_destroy_helper.1522
++ _block_destroy_helper.1581
++ _block_destroy_helper.1584
++ _block_destroy_helper.1587
++ _block_destroy_helper.1594
++ _block_destroy_helper.1645
++ _block_destroy_helper.1648
++ _block_destroy_helper.1651
++ _block_destroy_helper.1654
++ _block_destroy_helper.1659
++ _block_destroy_helper.1664
++ _block_destroy_helper.1669
++ _block_destroy_helper.1674
++ _block_destroy_helper.1679
++ _block_destroy_helper.1684
++ _block_destroy_helper.1779
++ _block_destroy_helper.1824
++ _block_destroy_helper.1846
++ _block_destroy_helper.1895
++ _block_destroy_helper.1909
++ _block_destroy_helper.1916
++ _block_destroy_helper.1926
++ _block_destroy_helper.1933
++ _block_destroy_helper.1955
++ _block_destroy_helper.1965
++ _block_destroy_helper.1984
++ _block_destroy_helper.1996
++ _block_destroy_helper.2012
++ _block_destroy_helper.2015
++ _block_destroy_helper.2047
++ _block_destroy_helper.2072
++ _block_destroy_helper.2079
++ _block_destroy_helper.2114
++ _block_destroy_helper.2126
++ _block_destroy_helper.2136
++ _block_destroy_helper.2148
++ _block_destroy_helper.2160
++ _block_destroy_helper.2172
++ _block_destroy_helper.2230
++ _block_destroy_helper.2233
++ _block_destroy_helper.2242
++ _block_destroy_helper.2278
++ _block_destroy_helper.2290
++ _block_destroy_helper.2336
++ _block_destroy_helper.2339
++ _block_destroy_helper.2411
++ _block_destroy_helper.2423
++ _block_destroy_helper.2507
++ _block_destroy_helper.2510
++ _block_destroy_helper.2519
++ _block_destroy_helper.2589
++ _block_destroy_helper.2592
++ _block_destroy_helper.2682
++ _block_destroy_helper.2685
++ _block_destroy_helper.2741
++ _block_destroy_helper.2744
++ _block_destroy_helper.2760
++ _block_destroy_helper.2772
++ _block_destroy_helper.278
++ _block_destroy_helper.281
++ _block_destroy_helper.2827
++ _block_destroy_helper.2830
++ _block_destroy_helper.2894
++ _block_destroy_helper.2897
++ _block_destroy_helper.2900
++ _block_destroy_helper.2958
++ _block_destroy_helper.2961
++ _block_destroy_helper.3016
++ _block_destroy_helper.3019
++ _block_destroy_helper.3042
++ _block_destroy_helper.3045
++ _block_destroy_helper.3065
++ _block_destroy_helper.3198
++ _block_destroy_helper.32
++ _block_destroy_helper.3204
++ _block_destroy_helper.3226
++ _block_destroy_helper.3254
++ _block_destroy_helper.3299
++ _block_destroy_helper.3325
++ _block_destroy_helper.3328
++ _block_destroy_helper.3374
++ _block_destroy_helper.3388
++ _block_destroy_helper.3438
++ _block_destroy_helper.3441
++ _block_destroy_helper.3455
++ _block_destroy_helper.3511
++ _block_destroy_helper.3514
++ _block_destroy_helper.3524
++ _block_destroy_helper.3527
++ _block_destroy_helper.3540
++ _block_destroy_helper.3569
++ _block_destroy_helper.3572
++ _block_destroy_helper.3579
++ _block_destroy_helper.3591
++ _block_destroy_helper.3696
++ _block_destroy_helper.3699
++ _block_destroy_helper.3706
++ _block_destroy_helper.3718
++ _block_destroy_helper.3826
++ _block_destroy_helper.3829
++ _block_destroy_helper.3841
++ _block_destroy_helper.3879
++ _block_destroy_helper.3953
++ _block_destroy_helper.3973
++ _block_destroy_helper.3976
++ _block_destroy_helper.3991
++ _block_destroy_helper.4022
++ _block_destroy_helper.4025
++ _block_destroy_helper.4028
++ _block_destroy_helper.4078
++ _block_destroy_helper.4083
++ _block_destroy_helper.4088
++ _block_destroy_helper.4098
++ _block_destroy_helper.4124
++ _block_destroy_helper.4136
++ _block_destroy_helper.4144
++ _block_destroy_helper.4241
++ _block_destroy_helper.4244
++ _block_destroy_helper.4331
++ _block_destroy_helper.4384
++ _block_destroy_helper.4387
++ _block_destroy_helper.44
++ _block_destroy_helper.4503
++ _block_destroy_helper.4565
++ _block_destroy_helper.4641
++ _block_destroy_helper.4695
++ _block_destroy_helper.4715
++ _block_destroy_helper.4727
++ _block_destroy_helper.4739
++ _block_destroy_helper.4751
++ _block_destroy_helper.4757
++ _block_destroy_helper.4769
++ _block_destroy_helper.4835
++ _block_destroy_helper.4851
++ _block_destroy_helper.4858
++ _block_destroy_helper.4903
++ _block_destroy_helper.5010
++ _block_destroy_helper.5013
++ _block_destroy_helper.5061
++ _block_destroy_helper.5127
++ _block_destroy_helper.5130
++ _block_destroy_helper.5199
++ _block_destroy_helper.5202
++ _block_destroy_helper.5211
++ _block_destroy_helper.5223
++ _block_destroy_helper.5229
++ _block_destroy_helper.5241
++ _block_destroy_helper.5253
++ _block_destroy_helper.5265
++ _block_destroy_helper.5271
++ _block_destroy_helper.5283
++ _block_destroy_helper.5310
++ _block_destroy_helper.5313
++ _block_destroy_helper.5400
++ _block_destroy_helper.5435
++ _block_destroy_helper.5445
++ _block_destroy_helper.5448
++ _block_destroy_helper.5454
++ _block_destroy_helper.5468
++ _block_destroy_helper.5474
++ _block_destroy_helper.5486
++ _block_destroy_helper.5497
++ _block_destroy_helper.5509
++ _block_destroy_helper.5518
++ _block_destroy_helper.5529
++ _block_destroy_helper.5535
++ _block_destroy_helper.5547
++ _block_destroy_helper.5642
++ _block_destroy_helper.5645
++ _block_destroy_helper.5784
++ _block_destroy_helper.5787
++ _block_destroy_helper.5827
++ _block_destroy_helper.5856
++ _block_destroy_helper.5866
++ _block_destroy_helper.5895
++ _block_destroy_helper.5898
++ _block_destroy_helper.5909
++ _block_destroy_helper.5961
++ _block_destroy_helper.5964
++ _block_destroy_helper.5970
++ _block_destroy_helper.5973
++ _block_destroy_helper.5990
++ _block_destroy_helper.5997
++ _block_destroy_helper.6015
++ _block_destroy_helper.6027
++ _block_destroy_helper.6045
++ _block_destroy_helper.6057
++ _block_destroy_helper.6075
++ _block_destroy_helper.6085
++ _block_destroy_helper.6117
++ _block_destroy_helper.6120
++ _block_destroy_helper.6129
++ _block_destroy_helper.6163
++ _block_destroy_helper.6166
++ _block_destroy_helper.6184
++ _block_destroy_helper.6191
++ _block_destroy_helper.799
++ _block_destroy_helper.833
++ _block_destroy_helper.834
++ _block_destroy_helper.836
++ _block_destroy_helper.843
++ _block_destroy_helper.849
++ _block_destroy_helper.862
++ _block_destroy_helper.881
++ _block_destroy_helper.983
++ _errorInjectionThrowOnDBCreationEnabled
++ _fpfs_pathpkg_check
++ _fsync
++ _get_type_metadata 15Synchronization5MutexVy18FileProviderDaemon10FPCKReportCG.6
++ _kFileProviderMigrationTransferEntitlement
++ _objc_msgSend$getNumberOfNonMaterializedFilesWithCompletionHandler:
++ _objectdestroy.1154Tm
++ _objectdestroy.1249Tm
++ _objectdestroy.1306Tm
++ _objectdestroy.1312Tm
++ _objectdestroy.1428Tm
++ _objectdestroy.142Tm
++ _objectdestroy.1449Tm
++ _objectdestroy.1525Tm
++ _objectdestroy.1528Tm
++ _objectdestroy.1623Tm
++ _objectdestroy.1653Tm
++ _objectdestroy.175Tm
++ _objectdestroy.1829Tm
++ _objectdestroy.1836Tm
++ _objectdestroy.1840Tm
++ _objectdestroy.185Tm
++ _objectdestroy.198Tm
++ _objectdestroy.2265Tm
++ _objectdestroy.2268Tm
++ _objectdestroy.228Tm
++ _objectdestroy.2310Tm
++ _objectdestroy.233Tm
++ _objectdestroy.2359Tm
++ _objectdestroy.2368Tm
++ _objectdestroy.2374Tm
++ _objectdestroy.2377Tm
++ _objectdestroy.2455Tm
++ _objectdestroy.2464Tm
++ _objectdestroy.2496Tm
++ _objectdestroy.2605Tm
++ _objectdestroy.2809Tm
++ _objectdestroy.2816Tm
++ _objectdestroy.2836Tm
++ _objectdestroy.2839Tm
++ _objectdestroy.2936Tm
++ _objectdestroy.3051Tm
++ _objectdestroy.3054Tm
++ _objectdestroy.3088Tm
++ _objectdestroy.3181Tm
++ _objectdestroy.3211Tm
++ _objectdestroy.3269Tm
++ _objectdestroy.3279Tm
++ _objectdestroy.3282Tm
++ _objectdestroy.3285Tm
++ _objectdestroy.3365Tm
++ _objectdestroy.3371Tm
++ _objectdestroy.3382Tm
++ _objectdestroy.3607Tm
++ _objectdestroy.3621Tm
++ _objectdestroy.3743Tm
++ _objectdestroy.3812Tm
++ _objectdestroy.3816Tm
++ _objectdestroy.404Tm
++ _objectdestroy.4054Tm
++ _objectdestroy.417Tm
++ _objectdestroy.4184Tm
++ _objectdestroy.4210Tm
++ _objectdestroy.4262Tm
++ _objectdestroy.433Tm
++ _objectdestroy.443Tm
++ _objectdestroy.44Tm
++ _objectdestroy.4558Tm
++ _objectdestroy.473Tm
++ _objectdestroy.4778Tm
++ _objectdestroy.4986Tm
++ _objectdestroy.5029Tm
++ _objectdestroy.5648Tm
++ _objectdestroy.5679Tm
++ _objectdestroy.5734Tm
++ _objectdestroy.5853Tm
++ _objectdestroy.63Tm
++ _objectdestroy.678Tm
++ _objectdestroy.689Tm
++ _objectdestroy.700Tm
++ _objectdestroy.808Tm
++ _objectdestroy.815Tm
++ _objectdestroy.822Tm
++ _objectdestroy.824Tm
++ _objectdestroy.825Tm
++ _objectdestroy.828Tm
++ _objectdestroy.831Tm
++ _objectdestroy.840Tm
++ _objectdestroy.854Tm
++ _objectdestroy.875Tm
++ _symbolic 2ID_____Qz04itemA0______4kindt 18FileProviderDaemon0A4ItemP AA0aD4KindO
++ _symbolic SDy2ID_____Qz_____G 18FileProviderDaemon0A4ItemP AA0aD4KindO
++ _symbolic SDy__________G 18FileProviderDaemon9VFSItemIDO AA0A8ItemKindO
++ _symbolic SDy__________G So28NSFileProviderItemIdentifiera 04FileB6Daemon0eC4KindO
++ _symbolic Say_____ySo6FPItemC_____G___________y______pSg_______pSgtctG 18FileProviderDaemon11UserRequestO AA7VFSItemV AA13NSecTimestampV 8Dispatch0I3QoSV AA26_DatabaseReadWriteAccessorP s5ErrorP
++ _symbolic Say_____y_____So6FPItemCG___________y______pSg_______pSgtctG 18FileProviderDaemon11UserRequestO AA7VFSItemV AA13NSecTimestampV 8Dispatch0I3QoSV AA26_DatabaseReadWriteAccessorP s5ErrorP
++ _symbolic Say_____yq_xG___________y______pSg_______pSgtctG 18FileProviderDaemon11UserRequestO AA13NSecTimestampV 8Dispatch0H3QoSV AA26_DatabaseReadWriteAccessorP s5ErrorP
++ _symbolic Say_____yq_xG___________y______pSg_______pSgtctGz_______So6FPItemC__________RzANR_AERd__r0__lXX 18FileProviderDaemon11UserRequestO AA13NSecTimestampV 8Dispatch0H3QoSV AA26_DatabaseReadWriteAccessorP s5ErrorP AA7VFSItemV AA011SQLDatabaseklM0V AA0A4ItemP
++ _symbolic Say_____yq_xG___________y______pSg_______pSgtctGz_x_q_qd_______RzAJR_AERd__r0__lXX 18FileProviderDaemon11UserRequestO AA13NSecTimestampV 8Dispatch0H3QoSV AA26_DatabaseReadWriteAccessorP s5ErrorP AA0A4ItemP
++ _symbolic Say_____yxq_G___________y______pSg_______pSgtctG 18FileProviderDaemon11UserRequestO AA13NSecTimestampV 8Dispatch0H3QoSV AA26_DatabaseReadWriteAccessorP s5ErrorP
++ _symbolic Say_____yxq_G___________y______pSg_______pSgtctGz_______So6FPItemC__________RzANR_AERd__r0__lXX 18FileProviderDaemon11UserRequestO AA13NSecTimestampV 8Dispatch0H3QoSV AA26_DatabaseReadWriteAccessorP s5ErrorP AA7VFSItemV AA011SQLDatabaseklM0V AA0A4ItemP
++ _symbolic Say_____yxq_G___________y______pSg_______pSgtctGz_x_q_qd_______RzAJR_AERd__r0__lXX 18FileProviderDaemon11UserRequestO AA13NSecTimestampV 8Dispatch0H3QoSV AA26_DatabaseReadWriteAccessorP s5ErrorP AA0A4ItemP
++ _symbolic _____ 18FileProviderDaemon11SQLDatabaseC12DatabaseInfoV
++ _symbolic _____ 18FileProviderDaemon9IngestionO22ReactToOwnershipChangeC
++ _symbolic ______pSgIegg_ABIeggg_ s5ErrorP
++ _symbolic ______pSg______pSgIegng_ 18FileProviderDaemon25_DatabaseReadOnlyAccessorP s5ErrorP
++ _symbolic _____ySo6FPItemC______G 18FileProviderDaemon9IngestionO22ReactToOwnershipChangeC AA7VFSItemV
++ _symbolic _____y_____AB_G 18FileProviderDaemon9IngestionO22ReactToOwnershipChangeC AA7VFSItemV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 18FileProviderDaemon10FPCKReportC
++ _symbolic _____y_____So6FPItemC_G 18FileProviderDaemon11SQLDatabaseC12DatabaseInfoV AA7VFSItemV
++ _symbolic _____y_____So6FPItemC_G 18FileProviderDaemon9IngestionO22ReactToOwnershipChangeC AA7VFSItemV
++ _symbolic _____y__________G s18_DictionaryStorageC 18FileProviderDaemon9VFSItemIDO AC0C8ItemKindO
++ _symbolic _____y__________G s18_DictionaryStorageC So28NSFileProviderItemIdentifiera 04FileD6Daemon0gE4KindO
+- GCC_except_table401
+- GCC_except_table402
+- GCC_except_table412
+- GCC_except_table414
+- GCC_except_table419
+- GCC_except_table420
+- GCC_except_table424
+- GCC_except_table429
+- GCC_except_table434
+- GCC_except_table435
+- GCC_except_table436
+- GCC_except_table443
+- GCC_except_table445
+- GCC_except_table452
+- GCC_except_table453
+- GCC_except_table458
+- GCC_except_table467
+- GCC_except_table471
+- GCC_except_table473
+- GCC_except_table475
+- GCC_except_table477
+- GCC_except_table479
+- ___unnamed_99
+- _block_copy_helper.1017
+- _block_copy_helper.1027
+- _block_copy_helper.1038
+- _block_copy_helper.115
+- _block_copy_helper.1234
+- _block_copy_helper.1244
+- _block_copy_helper.1254
+- _block_copy_helper.126
+- _block_copy_helper.1265
+- _block_copy_helper.1276
+- _block_copy_helper.1288
+- _block_copy_helper.1368
+- _block_copy_helper.1371
+- _block_copy_helper.1400
+- _block_copy_helper.1406
+- _block_copy_helper.1413
+- _block_copy_helper.1436
+- _block_copy_helper.145
+- _block_copy_helper.1472
+- _block_copy_helper.1475
+- _block_copy_helper.1495
+- _block_copy_helper.1506
+- _block_copy_helper.1509
+- _block_copy_helper.1514
+- _block_copy_helper.1519
+- _block_copy_helper.1524
+- _block_copy_helper.1529
+- _block_copy_helper.1534
+- _block_copy_helper.1539
+- _block_copy_helper.1752
+- _block_copy_helper.1793
+- _block_copy_helper.1797
+- _block_copy_helper.1868
+- _block_copy_helper.1882
+- _block_copy_helper.1889
+- _block_copy_helper.1899
+- _block_copy_helper.1906
+- _block_copy_helper.1928
+- _block_copy_helper.1938
+- _block_copy_helper.1957
+- _block_copy_helper.1969
+- _block_copy_helper.1985
+- _block_copy_helper.1988
+- _block_copy_helper.2020
+- _block_copy_helper.2026
+- _block_copy_helper.2045
+- _block_copy_helper.2087
+- _block_copy_helper.2099
+- _block_copy_helper.2109
+- _block_copy_helper.2121
+- _block_copy_helper.2133
+- _block_copy_helper.2145
+- _block_copy_helper.2203
+- _block_copy_helper.2206
+- _block_copy_helper.2215
+- _block_copy_helper.2218
+- _block_copy_helper.2256
+- _block_copy_helper.2302
+- _block_copy_helper.2305
+- _block_copy_helper.2377
+- _block_copy_helper.2389
+- _block_copy_helper.2440
+- _block_copy_helper.2443
+- _block_copy_helper.2485
+- _block_copy_helper.2555
+- _block_copy_helper.2558
+- _block_copy_helper.2582
+- _block_copy_helper.2585
+- _block_copy_helper.26
+- _block_copy_helper.2674
+- _block_copy_helper.2677
+- _block_copy_helper.2726
+- _block_copy_helper.2738
+- _block_copy_helper.2793
+- _block_copy_helper.2796
+- _block_copy_helper.2860
+- _block_copy_helper.2863
+- _block_copy_helper.2866
+- _block_copy_helper.2924
+- _block_copy_helper.2927
+- _block_copy_helper.2982
+- _block_copy_helper.2985
+- _block_copy_helper.3008
+- _block_copy_helper.3011
+- _block_copy_helper.3031
+- _block_copy_helper.3164
+- _block_copy_helper.3170
+- _block_copy_helper.3192
+- _block_copy_helper.32
+- _block_copy_helper.3220
+- _block_copy_helper.3265
+- _block_copy_helper.3291
+- _block_copy_helper.3294
+- _block_copy_helper.3340
+- _block_copy_helper.3354
+- _block_copy_helper.3404
+- _block_copy_helper.3407
+- _block_copy_helper.3421
+- _block_copy_helper.3477
+- _block_copy_helper.3480
+- _block_copy_helper.3490
+- _block_copy_helper.3493
+- _block_copy_helper.3506
+- _block_copy_helper.3535
+- _block_copy_helper.3538
+- _block_copy_helper.3545
+- _block_copy_helper.3557
+- _block_copy_helper.3632
+- _block_copy_helper.3662
+- _block_copy_helper.3672
+- _block_copy_helper.3684
+- _block_copy_helper.3792
+- _block_copy_helper.3795
+- _block_copy_helper.3807
+- _block_copy_helper.381
+- _block_copy_helper.3845
+- _block_copy_helper.3906
+- _block_copy_helper.3909
+- _block_copy_helper.3919
+- _block_copy_helper.3957
+- _block_copy_helper.3988
+- _block_copy_helper.3991
+- _block_copy_helper.3994
+- _block_copy_helper.4011
+- _block_copy_helper.4049
+- _block_copy_helper.4054
+- _block_copy_helper.4064
+- _block_copy_helper.4090
+- _block_copy_helper.4102
+- _block_copy_helper.4110
+- _block_copy_helper.42
+- _block_copy_helper.4265
+- _block_copy_helper.4318
+- _block_copy_helper.4321
+- _block_copy_helper.4434
+- _block_copy_helper.4437
+- _block_copy_helper.45
+- _block_copy_helper.4575
+- _block_copy_helper.4626
+- _block_copy_helper.4629
+- _block_copy_helper.4649
+- _block_copy_helper.4661
+- _block_copy_helper.4673
+- _block_copy_helper.4685
+- _block_copy_helper.4703
+- _block_copy_helper.4769
+- _block_copy_helper.4785
+- _block_copy_helper.4792
+- _block_copy_helper.4837
+- _block_copy_helper.4944
+- _block_copy_helper.4947
+- _block_copy_helper.4995
+- _block_copy_helper.5061
+- _block_copy_helper.5064
+- _block_copy_helper.5133
+- _block_copy_helper.5136
+- _block_copy_helper.5145
+- _block_copy_helper.5157
+- _block_copy_helper.5163
+- _block_copy_helper.5175
+- _block_copy_helper.5187
+- _block_copy_helper.5199
+- _block_copy_helper.5205
+- _block_copy_helper.5217
+- _block_copy_helper.5244
+- _block_copy_helper.5247
+- _block_copy_helper.5334
+- _block_copy_helper.5366
+- _block_copy_helper.5369
+- _block_copy_helper.5379
+- _block_copy_helper.5382
+- _block_copy_helper.5388
+- _block_copy_helper.5402
+- _block_copy_helper.5408
+- _block_copy_helper.5420
+- _block_copy_helper.5443
+- _block_copy_helper.5452
+- _block_copy_helper.5463
+- _block_copy_helper.5469
+- _block_copy_helper.5481
+- _block_copy_helper.5576
+- _block_copy_helper.5579
+- _block_copy_helper.5718
+- _block_copy_helper.5721
+- _block_copy_helper.5761
+- _block_copy_helper.5764
+- _block_copy_helper.5790
+- _block_copy_helper.5800
+- _block_copy_helper.5832
+- _block_copy_helper.5843
+- _block_copy_helper.5895
+- _block_copy_helper.5898
+- _block_copy_helper.5904
+- _block_copy_helper.5907
+- _block_copy_helper.5924
+- _block_copy_helper.5931
+- _block_copy_helper.5949
+- _block_copy_helper.5961
+- _block_copy_helper.5979
+- _block_copy_helper.5991
+- _block_copy_helper.6009
+- _block_copy_helper.6019
+- _block_copy_helper.6051
+- _block_copy_helper.6054
+- _block_copy_helper.6063
+- _block_copy_helper.6097
+- _block_copy_helper.6100
+- _block_copy_helper.6118
+- _block_copy_helper.6125
+- _block_copy_helper.761
+- _block_copy_helper.799
+- _block_copy_helper.805
+- _block_copy_helper.811
+- _block_copy_helper.822
+- _block_copy_helper.824
+- _block_copy_helper.825
+- _block_copy_helper.954
+- _block_copy_helper.986
+- _block_copy_helper.989
+- _block_copy_helper.992
+- _block_descriptor.1019
+- _block_descriptor.1029
+- _block_descriptor.1040
+- _block_descriptor.117
+- _block_descriptor.1236
+- _block_descriptor.1246
+- _block_descriptor.1256
+- _block_descriptor.1267
+- _block_descriptor.1278
+- _block_descriptor.128
+- _block_descriptor.1290
+- _block_descriptor.1370
+- _block_descriptor.1373
+- _block_descriptor.1402
+- _block_descriptor.1408
+- _block_descriptor.1415
+- _block_descriptor.1438
+- _block_descriptor.147
+- _block_descriptor.1474
+- _block_descriptor.1477
+- _block_descriptor.1497
+- _block_descriptor.1508
+- _block_descriptor.1511
+- _block_descriptor.1516
+- _block_descriptor.1521
+- _block_descriptor.1526
+- _block_descriptor.1531
+- _block_descriptor.1536
+- _block_descriptor.1541
+- _block_descriptor.1754
+- _block_descriptor.1795
+- _block_descriptor.1799
+- _block_descriptor.1870
+- _block_descriptor.1884
+- _block_descriptor.1891
+- _block_descriptor.1901
+- _block_descriptor.1908
+- _block_descriptor.1930
+- _block_descriptor.1940
+- _block_descriptor.1959
+- _block_descriptor.1971
+- _block_descriptor.1987
+- _block_descriptor.1990
+- _block_descriptor.2022
+- _block_descriptor.2028
+- _block_descriptor.2047
+- _block_descriptor.2089
+- _block_descriptor.2101
+- _block_descriptor.2111
+- _block_descriptor.2123
+- _block_descriptor.2135
+- _block_descriptor.2147
+- _block_descriptor.2205
+- _block_descriptor.2208
+- _block_descriptor.2217
+- _block_descriptor.2220
+- _block_descriptor.2258
+- _block_descriptor.2304
+- _block_descriptor.2307
+- _block_descriptor.2379
+- _block_descriptor.2391
+- _block_descriptor.2442
+- _block_descriptor.2445
+- _block_descriptor.2487
+- _block_descriptor.2557
+- _block_descriptor.2560
+- _block_descriptor.2584
+- _block_descriptor.2587
+- _block_descriptor.2676
+- _block_descriptor.2679
+- _block_descriptor.2728
+- _block_descriptor.2740
+- _block_descriptor.2795
+- _block_descriptor.2798
+- _block_descriptor.28
+- _block_descriptor.2862
+- _block_descriptor.2865
+- _block_descriptor.2868
+- _block_descriptor.2926
+- _block_descriptor.2929
+- _block_descriptor.2984
+- _block_descriptor.2987
+- _block_descriptor.3010
+- _block_descriptor.3013
+- _block_descriptor.3033
+- _block_descriptor.3166
+- _block_descriptor.3172
+- _block_descriptor.3194
+- _block_descriptor.3222
+- _block_descriptor.3267
+- _block_descriptor.3293
+- _block_descriptor.3296
+- _block_descriptor.3342
+- _block_descriptor.3356
+- _block_descriptor.34
+- _block_descriptor.3406
+- _block_descriptor.3409
+- _block_descriptor.3423
+- _block_descriptor.3479
+- _block_descriptor.3482
+- _block_descriptor.3492
+- _block_descriptor.3495
+- _block_descriptor.3508
+- _block_descriptor.3537
+- _block_descriptor.3540
+- _block_descriptor.3547
+- _block_descriptor.3559
+- _block_descriptor.3634
+- _block_descriptor.3664
+- _block_descriptor.3674
+- _block_descriptor.3686
+- _block_descriptor.3794
+- _block_descriptor.3797
+- _block_descriptor.3809
+- _block_descriptor.383
+- _block_descriptor.3847
+- _block_descriptor.3908
+- _block_descriptor.3911
+- _block_descriptor.3921
+- _block_descriptor.3959
+- _block_descriptor.3990
+- _block_descriptor.3993
+- _block_descriptor.3996
+- _block_descriptor.4013
+- _block_descriptor.4051
+- _block_descriptor.4056
+- _block_descriptor.4066
+- _block_descriptor.4092
+- _block_descriptor.4104
+- _block_descriptor.4112
+- _block_descriptor.4267
+- _block_descriptor.4320
+- _block_descriptor.4323
+- _block_descriptor.44
+- _block_descriptor.4436
+- _block_descriptor.4439
+- _block_descriptor.4577
+- _block_descriptor.4628
+- _block_descriptor.4631
+- _block_descriptor.4651
+- _block_descriptor.4663
+- _block_descriptor.4675
+- _block_descriptor.4687
+- _block_descriptor.47
+- _block_descriptor.4705
+- _block_descriptor.4771
+- _block_descriptor.4787
+- _block_descriptor.4794
+- _block_descriptor.4839
+- _block_descriptor.4946
+- _block_descriptor.4949
+- _block_descriptor.4997
+- _block_descriptor.5063
+- _block_descriptor.5066
+- _block_descriptor.5135
+- _block_descriptor.5138
+- _block_descriptor.5147
+- _block_descriptor.5159
+- _block_descriptor.5165
+- _block_descriptor.5177
+- _block_descriptor.5189
+- _block_descriptor.5201
+- _block_descriptor.5207
+- _block_descriptor.5219
+- _block_descriptor.5246
+- _block_descriptor.5249
+- _block_descriptor.5336
+- _block_descriptor.5368
+- _block_descriptor.5371
+- _block_descriptor.5381
+- _block_descriptor.5384
+- _block_descriptor.5390
+- _block_descriptor.5404
+- _block_descriptor.5410
+- _block_descriptor.5422
+- _block_descriptor.5445
+- _block_descriptor.5454
+- _block_descriptor.5465
+- _block_descriptor.5471
+- _block_descriptor.5483
+- _block_descriptor.5578
+- _block_descriptor.5581
+- _block_descriptor.5720
+- _block_descriptor.5723
+- _block_descriptor.5763
+- _block_descriptor.5766
+- _block_descriptor.5792
+- _block_descriptor.5802
+- _block_descriptor.5834
+- _block_descriptor.5845
+- _block_descriptor.5897
+- _block_descriptor.5900
+- _block_descriptor.5906
+- _block_descriptor.5909
+- _block_descriptor.5926
+- _block_descriptor.5933
+- _block_descriptor.5951
+- _block_descriptor.5963
+- _block_descriptor.5981
+- _block_descriptor.5993
+- _block_descriptor.6011
+- _block_descriptor.6021
+- _block_descriptor.6053
+- _block_descriptor.6056
+- _block_descriptor.6065
+- _block_descriptor.6099
+- _block_descriptor.6102
+- _block_descriptor.6120
+- _block_descriptor.6127
+- _block_descriptor.763
+- _block_descriptor.801
+- _block_descriptor.807
+- _block_descriptor.813
+- _block_descriptor.824
+- _block_descriptor.826
+- _block_descriptor.827
+- _block_descriptor.956
+- _block_descriptor.988
+- _block_descriptor.991
+- _block_descriptor.994
+- _block_destroy_helper.1018
+- _block_destroy_helper.1028
+- _block_destroy_helper.1039
+- _block_destroy_helper.116
+- _block_destroy_helper.1235
+- _block_destroy_helper.1245
+- _block_destroy_helper.1255
+- _block_destroy_helper.1266
+- _block_destroy_helper.127
+- _block_destroy_helper.1277
+- _block_destroy_helper.1289
+- _block_destroy_helper.1369
+- _block_destroy_helper.1372
+- _block_destroy_helper.1401
+- _block_destroy_helper.1407
+- _block_destroy_helper.1414
+- _block_destroy_helper.1437
+- _block_destroy_helper.146
+- _block_destroy_helper.1473
+- _block_destroy_helper.1476
+- _block_destroy_helper.1496
+- _block_destroy_helper.1507
+- _block_destroy_helper.1510
+- _block_destroy_helper.1515
+- _block_destroy_helper.1520
+- _block_destroy_helper.1525
+- _block_destroy_helper.1530
+- _block_destroy_helper.1535
+- _block_destroy_helper.1540
+- _block_destroy_helper.1753
+- _block_destroy_helper.1794
+- _block_destroy_helper.1798
+- _block_destroy_helper.1869
+- _block_destroy_helper.1883
+- _block_destroy_helper.1890
+- _block_destroy_helper.1900
+- _block_destroy_helper.1907
+- _block_destroy_helper.1929
+- _block_destroy_helper.1939
+- _block_destroy_helper.1958
+- _block_destroy_helper.1970
+- _block_destroy_helper.1986
+- _block_destroy_helper.1989
+- _block_destroy_helper.2021
+- _block_destroy_helper.2027
+- _block_destroy_helper.2046
+- _block_destroy_helper.2088
+- _block_destroy_helper.2100
+- _block_destroy_helper.2110
+- _block_destroy_helper.2122
+- _block_destroy_helper.2134
+- _block_destroy_helper.2146
+- _block_destroy_helper.2204
+- _block_destroy_helper.2207
+- _block_destroy_helper.2216
+- _block_destroy_helper.2219
+- _block_destroy_helper.2257
+- _block_destroy_helper.2303
+- _block_destroy_helper.2306
+- _block_destroy_helper.2378
+- _block_destroy_helper.2390
+- _block_destroy_helper.2441
+- _block_destroy_helper.2444
+- _block_destroy_helper.2486
+- _block_destroy_helper.2556
+- _block_destroy_helper.2559
+- _block_destroy_helper.2583
+- _block_destroy_helper.2586
+- _block_destroy_helper.2675
+- _block_destroy_helper.2678
+- _block_destroy_helper.27
+- _block_destroy_helper.2727
+- _block_destroy_helper.2739
+- _block_destroy_helper.2794
+- _block_destroy_helper.2797
+- _block_destroy_helper.2861
+- _block_destroy_helper.2864
+- _block_destroy_helper.2867
+- _block_destroy_helper.2925
+- _block_destroy_helper.2928
+- _block_destroy_helper.2983
+- _block_destroy_helper.2986
+- _block_destroy_helper.3009
+- _block_destroy_helper.3012
+- _block_destroy_helper.3032
+- _block_destroy_helper.3165
+- _block_destroy_helper.3171
+- _block_destroy_helper.3193
+- _block_destroy_helper.3221
+- _block_destroy_helper.3266
+- _block_destroy_helper.3292
+- _block_destroy_helper.3295
+- _block_destroy_helper.33
+- _block_destroy_helper.3341
+- _block_destroy_helper.3355
+- _block_destroy_helper.3405
+- _block_destroy_helper.3408
+- _block_destroy_helper.3422
+- _block_destroy_helper.3478
+- _block_destroy_helper.3481
+- _block_destroy_helper.3491
+- _block_destroy_helper.3494
+- _block_destroy_helper.3507
+- _block_destroy_helper.3536
+- _block_destroy_helper.3539
+- _block_destroy_helper.3546
+- _block_destroy_helper.3558
+- _block_destroy_helper.3633
+- _block_destroy_helper.3663
+- _block_destroy_helper.3673
+- _block_destroy_helper.3685
+- _block_destroy_helper.3793
+- _block_destroy_helper.3796
+- _block_destroy_helper.3808
+- _block_destroy_helper.382
+- _block_destroy_helper.3846
+- _block_destroy_helper.3907
+- _block_destroy_helper.3910
+- _block_destroy_helper.3920
+- _block_destroy_helper.3958
+- _block_destroy_helper.3989
+- _block_destroy_helper.3992
+- _block_destroy_helper.3995
+- _block_destroy_helper.4012
+- _block_destroy_helper.4050
+- _block_destroy_helper.4055
+- _block_destroy_helper.4065
+- _block_destroy_helper.4091
+- _block_destroy_helper.4103
+- _block_destroy_helper.4111
+- _block_destroy_helper.4266
+- _block_destroy_helper.43
+- _block_destroy_helper.4319
+- _block_destroy_helper.4322
+- _block_destroy_helper.4435
+- _block_destroy_helper.4438
+- _block_destroy_helper.4576
+- _block_destroy_helper.46
+- _block_destroy_helper.4627
+- _block_destroy_helper.4630
+- _block_destroy_helper.4650
+- _block_destroy_helper.4662
+- _block_destroy_helper.4674
+- _block_destroy_helper.4686
+- _block_destroy_helper.4704
+- _block_destroy_helper.4770
+- _block_destroy_helper.4786
+- _block_destroy_helper.4793
+- _block_destroy_helper.4838
+- _block_destroy_helper.4945
+- _block_destroy_helper.4948
+- _block_destroy_helper.4996
+- _block_destroy_helper.5062
+- _block_destroy_helper.5065
+- _block_destroy_helper.5134
+- _block_destroy_helper.5137
+- _block_destroy_helper.5146
+- _block_destroy_helper.5158
+- _block_destroy_helper.5164
+- _block_destroy_helper.5176
+- _block_destroy_helper.5188
+- _block_destroy_helper.5200
+- _block_destroy_helper.5206
+- _block_destroy_helper.5218
+- _block_destroy_helper.5245
+- _block_destroy_helper.5248
+- _block_destroy_helper.5335
+- _block_destroy_helper.5367
+- _block_destroy_helper.5370
+- _block_destroy_helper.5380
+- _block_destroy_helper.5383
+- _block_destroy_helper.5389
+- _block_destroy_helper.5403
+- _block_destroy_helper.5409
+- _block_destroy_helper.5421
+- _block_destroy_helper.5444
+- _block_destroy_helper.5453
+- _block_destroy_helper.5464
+- _block_destroy_helper.5470
+- _block_destroy_helper.5482
+- _block_destroy_helper.5577
+- _block_destroy_helper.5580
+- _block_destroy_helper.5719
+- _block_destroy_helper.5722
+- _block_destroy_helper.5762
+- _block_destroy_helper.5765
+- _block_destroy_helper.5791
+- _block_destroy_helper.5801
+- _block_destroy_helper.5833
+- _block_destroy_helper.5844
+- _block_destroy_helper.5896
+- _block_destroy_helper.5899
+- _block_destroy_helper.5905
+- _block_destroy_helper.5908
+- _block_destroy_helper.5925
+- _block_destroy_helper.5932
+- _block_destroy_helper.5950
+- _block_destroy_helper.5962
+- _block_destroy_helper.5980
+- _block_destroy_helper.5992
+- _block_destroy_helper.6010
+- _block_destroy_helper.6020
+- _block_destroy_helper.6052
+- _block_destroy_helper.6055
+- _block_destroy_helper.6064
+- _block_destroy_helper.6098
+- _block_destroy_helper.6101
+- _block_destroy_helper.6119
+- _block_destroy_helper.6126
+- _block_destroy_helper.762
+- _block_destroy_helper.800
+- _block_destroy_helper.806
+- _block_destroy_helper.812
+- _block_destroy_helper.823
+- _block_destroy_helper.825
+- _block_destroy_helper.826
+- _block_destroy_helper.955
+- _block_destroy_helper.987
+- _block_destroy_helper.990
+- _block_destroy_helper.993
+- _objectdestroy.1073Tm
+- _objectdestroy.1168Tm
+- _objectdestroy.1269Tm
+- _objectdestroy.1279Tm
+- _objectdestroy.1280Tm
+- _objectdestroy.1286Tm
+- _objectdestroy.1300Tm
+- _objectdestroy.1627Tm
+- _objectdestroy.164Tm
+- _objectdestroy.174Tm
+- _objectdestroy.1803Tm
+- _objectdestroy.1810Tm
+- _objectdestroy.1814Tm
+- _objectdestroy.184Tm
+- _objectdestroy.187Tm
+- _objectdestroy.2232Tm
+- _objectdestroy.2235Tm
+- _objectdestroy.2277Tm
+- _objectdestroy.2326Tm
+- _objectdestroy.2335Tm
+- _objectdestroy.2341Tm
+- _objectdestroy.2344Tm
+- _objectdestroy.2422Tm
+- _objectdestroy.2431Tm
+- _objectdestroy.2463Tm
+- _objectdestroy.2572Tm
+- _objectdestroy.2776Tm
+- _objectdestroy.2783Tm
+- _objectdestroy.2803Tm
+- _objectdestroy.2806Tm
+- _objectdestroy.2903Tm
+- _objectdestroy.3018Tm
+- _objectdestroy.3021Tm
+- _objectdestroy.3055Tm
+- _objectdestroy.3148Tm
+- _objectdestroy.3178Tm
+- _objectdestroy.3236Tm
+- _objectdestroy.3246Tm
+- _objectdestroy.3249Tm
+- _objectdestroy.3252Tm
+- _objectdestroy.3332Tm
+- _objectdestroy.3338Tm
+- _objectdestroy.3349Tm
+- _objectdestroy.346Tm
+- _objectdestroy.355Tm
+- _objectdestroy.3574Tm
+- _objectdestroy.3588Tm
+- _objectdestroy.367Tm
+- _objectdestroy.3710Tm
+- _objectdestroy.3779Tm
+- _objectdestroy.3783Tm
+- _objectdestroy.386Tm
+- _objectdestroy.4021Tm
+- _objectdestroy.4151Tm
+- _objectdestroy.4177Tm
+- _objectdestroy.4197Tm
+- _objectdestroy.4493Tm
+- _objectdestroy.4713Tm
+- _objectdestroy.4921Tm
+- _objectdestroy.4964Tm
+- _objectdestroy.5583Tm
+- _objectdestroy.5614Tm
+- _objectdestroy.5669Tm
+- _objectdestroy.5788Tm
+- _objectdestroy.641Tm
+- _objectdestroy.669Tm
+- _objectdestroy.690Tm
+- _objectdestroy.771Tm
+- _objectdestroy.788Tm
+- _objectdestroy.791Tm
+- _objectdestroy.794Tm
+- _objectdestroy.79Tm
+- _objectdestroy.805Tm
+- _objectdestroy.809Tm
+- _objectdestroy.814Tm
+- _objectdestroy.832Tm
+- _objectdestroy.844Tm
+- _objectdestroy.865Tm
+- _symbolic _____ 18FileProviderDaemon11SQLDatabaseC16OpenDatabaseInfoV
+- _symbolic _____y_____So6FPItemC_G 18FileProviderDaemon11SQLDatabaseC16OpenDatabaseInfoV AA7VFSItemV
+CStrings:
++ "\nWHERE metadata_is_dataless = 1\nAND metadata_kind = "
++ "   🚨 item count mismatch - make sure that all the queries have been updated"
++ " items with size "
++ "%@ Delivering FSEvent notification for change on %s"
++ "%@ Handling FSEvent for %{public}s"
++ "+ Content counters : "
++ "+ FP Jobs accounted in Global Progress:"
++ "+ Jobs counters : "
++ "+ Materialize counters : "
++ ", content status: "
++ "-[FPDXPCServicer getNumberOfNonMaterializedFilesInDomain:withCompletionHandler:]"
++ "-[FPDXPCServicer getNumberOfNonMaterializedFilesInDomain:withCompletionHandler:]_block_invoke"
++ "CancelRequest completed and flushed"
++ "CancelRequest waiting for flush"
++ "Cannot emit barrier: %@"
++ "Enumerator notification completed and flushed"
++ "Enumerator notification waiting for flush"
++ "Materialization or eviction completed and flushed"
++ "Materialization or eviction waiting for flush"
++ "SELECT COUNT(*)\nFROM "
++ "SELECT fp.id, fp.metadata_size\n  FROM reconciliation_table AS rt\n INNER JOIN fp_snapshot AS fp ON (fp.id = rt.fp_id)\n WHERE rt.fs_materialization_status == "
++ "SELECT fp.id, fp.metadata_size, jobs.type\n  FROM jobs\n INNER JOIN fp_snapshot AS fp ON (fp.id = jobs.source_item_id)\n INNER JOIN reconciliation_table AS rt ON (rt.fp_id = jobs.source_item_id)\n WHERE jobs.side = "
++ "SELECT fp.id, fp.metadata_size, rt.fp_content_status\n  FROM reconciliation_table AS rt\n INNER JOIN fp_snapshot AS fp ON (fp.id = rt.fp_id)\n WHERE rt.fp_updated_fields & "
++ "Wait for materialization completed and flushed"
++ "Wait for materialization waiting for flush"
++ "[DEBUG] ┏%llx %@ processing"
++ "[DEBUG] ┏%llx Dequeueing event: %u/%u path:'%@' fileID:%llu docID:%u flags:%@ id:%llu"
++ "[ERROR] Calling app doesn't have a bundleID."
++ "[ERROR] Failed getting number of files to transfer for %{public}@ - %@"
++ "cancelRequest(for:progress:with:)"
++ "completeAfterNextFlush(completionHandler:)"
++ "dbUrl"
++ "dbWalPath"
++ "file tree asks to force the fetch"
++ "forceFlush(forcePostFlush:)"
++ "getNumberOfNonMaterializedFiles(withCompletionHandler:)"
++ "getNumberOfNonMaterializedFilesInDomain:withCompletionHandler:"
++ "getNumberOfNonMaterializedFilesWithCompletionHandler:"
++ "item %{public}llu couldn't be resolved, queueing deletion for previous id %{public}s"
++ "itemDidMaterializeOrEvict(id:operation:error:with:)"
++ "itemDidPropagate(id:error:with:)"
++ "itemID kind "
++ "needDurableFlush"
++ "notifyEnumeratorsAfterNextFlush(connection:side:notifyBlock:)"
++ "owner changed for "
++ "path %@ fileID %llu docID %u flags %@ eventID %llu"
++ "propagation <fp:%s reason:%s> completed and flushed"
++ "propagation <fp:%s reason:%s> completed, waiting for flush"
++ "propagation <fs:%s reason:%s> completed and flushed"
++ "propagation <fs:%s reason:%s> completed, waiting for flush"
++ "queueing deletion for package item for %s"
++ "queueing untrack for previous id of %{public}llu: %{public}s"
++ "react-to-ownership-change"
++ "waitFor(operation:of:request:options:progress:qos:skipCheckingTargetState:with:completion:)"
+- "Delivering FSEvent notification for change on %s"
+- "Found previous ids for %llu: %s"
+- "Handling FSEvent for %{public}s"
+- "UPDATE reconciliation_table\n   SET fp_vfs_generationid = 0, fp_content_size = NULL\n WHERE kind = "
+- "[DEBUG] %@ processing"
+- "[DEBUG] Dequeueing event: %u/%u path:'%@' fileID:%llu flags:%@ id:%llu"
+- "item might have been untracked"
+- "path %@ fileID %llu flags %@ eventID %llu"
+
+```

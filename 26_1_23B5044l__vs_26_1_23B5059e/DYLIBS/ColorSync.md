@@ -1,0 +1,499 @@
+## ColorSync
+
+> `/System/Library/Frameworks/ColorSync.framework/ColorSync`
+
+```diff
+
+-3810.1.5.0.0
+-  __TEXT.__text: 0x5d684
+-  __TEXT.__auth_stubs: 0xb90
+-  __TEXT.__const: 0x1309c0
+-  __TEXT.__gcc_except_tab: 0xf7c
+-  __TEXT.__cstring: 0x62d8
++3813.0.0.0.0
++  __TEXT.__text: 0x5c3a8
++  __TEXT.__auth_stubs: 0xb80
++  __TEXT.__const: 0x1225a8
++  __TEXT.__gcc_except_tab: 0xf44
++  __TEXT.__cstring: 0x63b3
+   __TEXT.__oslogstring: 0xb
+-  __TEXT.__ustring: 0x38
+-  __TEXT.__unwind_info: 0x1240
++  __TEXT.__unwind_info: 0x11f8
+   __DATA_CONST.__got: 0xe0
+-  __DATA_CONST.__const: 0x1ca0
+-  __AUTH_CONST.__auth_got: 0x5d0
+-  __AUTH_CONST.__const: 0x6ec0
+-  __AUTH_CONST.__cfstring: 0x4880
++  __DATA_CONST.__const: 0x1a70
++  __AUTH_CONST.__auth_got: 0x5c8
++  __AUTH_CONST.__const: 0x6db0
++  __AUTH_CONST.__cfstring: 0x48e0
+   __DATA.__data: 0x808
+-  __DATA.__bss: 0x10e8
++  __DATA.__bss: 0x1138
+   __DATA_DIRTY.__data: 0x40
+-  __DATA_DIRTY.__bss: 0x810
++  __DATA_DIRTY.__bss: 0x648
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 0FDD8C0C-34F8-3529-9FE7-518C193BC041
+-  Functions: 1578
+-  Symbols:   4730
+-  CStrings:  1389
++  UUID: DAD6F272-AC84-3C3C-816E-32123C1AA47C
++  Functions: 1539
++  Symbols:   4593
++  CStrings:  1393
+ 
+Symbols:
++ GCC_except_table1079
++ GCC_except_table1085
++ GCC_except_table1099
++ GCC_except_table1144
++ GCC_except_table1147
++ GCC_except_table1152
++ GCC_except_table1153
++ GCC_except_table1154
++ GCC_except_table1162
++ GCC_except_table1201
++ GCC_except_table1203
++ GCC_except_table1215
++ GCC_except_table1262
++ GCC_except_table1266
++ GCC_except_table1267
++ GCC_except_table1285
++ GCC_except_table1318
++ GCC_except_table1319
++ GCC_except_table1327
++ GCC_except_table1332
++ GCC_except_table1333
++ GCC_except_table1334
++ GCC_except_table1336
++ GCC_except_table1337
++ GCC_except_table1338
++ GCC_except_table1339
++ GCC_except_table1347
++ GCC_except_table149
++ GCC_except_table248
++ GCC_except_table252
++ GCC_except_table289
++ GCC_except_table295
++ GCC_except_table299
++ GCC_except_table343
++ GCC_except_table345
++ GCC_except_table742
++ GCC_except_table743
++ GCC_except_table746
++ GCC_except_table747
++ GCC_except_table748
++ GCC_except_table749
++ GCC_except_table761
++ GCC_except_table764
++ GCC_except_table765
++ GCC_except_table767
++ GCC_except_table785
++ GCC_except_table787
++ GCC_except_table788
++ GCC_except_table798
++ GCC_except_table799
++ GCC_except_table827
++ GCC_except_table849
++ GCC_except_table851
++ GCC_except_table911
++ GCC_except_table945
++ GCC_except_table958
++ GCC_except_table959
++ GCC_except_table975
++ GCC_except_table983
++ GCC_except_table986
++ GCC_except_table991
++ _ColorSyncProfileCreateLegacy2DisplayP3
++ _ColorSyncProfileCreateLegacyDisplayP3
++ _ColorSyncProfileCreateSingleton
++ _ColorSyncProfileCreateWithID
++ _ColorSyncProfileEstimateGamma
++ _ColorSyncProfileFindMatchingSystemProfile
++ _ColorSyncProfileGetID
++ _ColorSyncProfileGetTagCount
++ _ColorSyncProfileHasBT709_Transfer
++ _ColorSyncProfileHasLinear_Transfer
++ _ColorSyncProfileHasSRGB_Transfer
++ _ColorSyncProfileUsesSRGBGamma
++ _Display_P3_Linear_data
++ _Display_P3_legacy_2_data
++ _Generic_Gray_Linear_data
++ _Generic_RGB_Linear_data
++ _ITU_2020_Linear_data
++ ___block_descriptor_tmp.1025
++ ___block_descriptor_tmp.1059
++ ___block_descriptor_tmp.1093
++ ___block_descriptor_tmp.1318
++ ___block_descriptor_tmp.1337
++ ___block_descriptor_tmp.1395
++ ___block_descriptor_tmp.1497
++ ___block_descriptor_tmp.1531
++ ___block_descriptor_tmp.1549
++ ___block_descriptor_tmp.1596
++ ___block_descriptor_tmp.1633
++ ___block_descriptor_tmp.2.1634
++ ___block_descriptor_tmp.245
++ ___block_descriptor_tmp.248
++ ___block_descriptor_tmp.251
++ ___block_descriptor_tmp.254
++ ___block_descriptor_tmp.257
++ ___block_descriptor_tmp.260
++ ___block_descriptor_tmp.263
++ ___block_descriptor_tmp.266
++ ___block_descriptor_tmp.269
++ ___block_descriptor_tmp.272
++ ___block_descriptor_tmp.275.1009
++ ___block_descriptor_tmp.5.1635
++ ___block_descriptor_tmp.6.1334
++ ___block_descriptor_tmp.619
++ ___block_descriptor_tmp.622
++ ___block_descriptor_tmp.625
++ ___block_descriptor_tmp.9.1461
++ ___block_literal_global.1017
++ ___block_literal_global.1023
++ ___block_literal_global.1034
++ ___block_literal_global.11.1459
++ ___block_literal_global.1298
++ ___block_literal_global.1333
++ ___block_literal_global.1393
++ ___block_literal_global.1495
++ ___block_literal_global.1529
++ ___block_literal_global.1547
++ ___block_literal_global.1594
++ ___block_literal_global.247
++ ___block_literal_global.250
++ ___block_literal_global.253
++ ___block_literal_global.256
++ ___block_literal_global.259
++ ___block_literal_global.262
++ ___block_literal_global.265
++ ___block_literal_global.268
++ ___block_literal_global.271
++ ___block_literal_global.274
++ ___block_literal_global.277.1007
++ ___block_literal_global.621
++ ___block_literal_global.624
++ ___block_literal_global.627
++ ___create_DisplayP3_Linear_block_invoke
++ ___create_DisplayP3_legacy_2_Profile_block_invoke
++ ___create_GenericGrayLinear_block_invoke
++ ___create_GenericRGBLinear_block_invoke
++ ___create_ITUR2020_Linear_block_invoke
++ ___create_sRGB_Linear_block_invoke
++ ___find_matching_profile_id_rgb_display_block_invoke
++ _compare_pairs
++ _core_video_legacy_709_XYZ
++ _create_DisplayP3_Linear
++ _create_DisplayP3_Linear.predicate
++ _create_DisplayP3_Linear.profile
++ _create_DisplayP3_legacy_2_Profile.predicate
++ _create_DisplayP3_legacy_2_Profile.profile
++ _create_GenericGrayLinear
++ _create_GenericGrayLinear.predicate
++ _create_GenericGrayLinear.profile
++ _create_GenericRGBLinear
++ _create_GenericRGBLinear.predicate
++ _create_GenericRGBLinear.profile
++ _create_ITUR2020_Linear
++ _create_ITUR2020_Linear.predicate
++ _create_ITUR2020_Linear.profile
++ _create_sRGB_Linear
++ _create_sRGB_Linear.predicate
++ _create_sRGB_Linear.profile
++ _creators_for_id
++ _find_matching_profile_id_gray.gray_pairs
++ _find_matching_profile_id_rgb_display.md5_id_pair_array
++ _find_matching_profile_id_rgb_display.md5_id_pair_count
++ _find_matching_profile_id_rgb_display.predicate
++ _rgb_pairs
++ _sRGB_Linear_data
+- GCC_except_table1003
+- GCC_except_table1016
+- GCC_except_table1017
+- GCC_except_table1033
+- GCC_except_table1041
+- GCC_except_table1044
+- GCC_except_table1049
+- GCC_except_table1137
+- GCC_except_table1143
+- GCC_except_table1157
+- GCC_except_table1205
+- GCC_except_table1211
+- GCC_except_table1220
+- GCC_except_table1259
+- GCC_except_table1260
+- GCC_except_table1261
+- GCC_except_table1268
+- GCC_except_table1270
+- GCC_except_table1273
+- GCC_except_table1324
+- GCC_except_table1325
+- GCC_except_table1343
+- GCC_except_table1376
+- GCC_except_table1377
+- GCC_except_table1378
+- GCC_except_table1385
+- GCC_except_table1390
+- GCC_except_table1391
+- GCC_except_table1392
+- GCC_except_table1394
+- GCC_except_table1395
+- GCC_except_table1396
+- GCC_except_table1397
+- GCC_except_table1405
+- GCC_except_table1406
+- GCC_except_table200
+- GCC_except_table306
+- GCC_except_table310
+- GCC_except_table347
+- GCC_except_table353
+- GCC_except_table357
+- GCC_except_table401
+- GCC_except_table403
+- GCC_except_table800
+- GCC_except_table801
+- GCC_except_table804
+- GCC_except_table805
+- GCC_except_table806
+- GCC_except_table807
+- GCC_except_table819
+- GCC_except_table822
+- GCC_except_table823
+- GCC_except_table825
+- GCC_except_table843
+- GCC_except_table845
+- GCC_except_table846
+- GCC_except_table856
+- GCC_except_table857
+- GCC_except_table885
+- GCC_except_table907
+- GCC_except_table967
+- GCC_except_table969
+- _CFStringCompareWithOptions
+- _ColorSyncProfileCreateSigleton
+- _ColorSyncVerifyAdobeRGB
+- _ColorSyncVerifyAdobeRGBData
+- _ColorSyncVerifyCoreVideo709
+- _ColorSyncVerifyCoreVideo709Data
+- _ColorSyncVerifyDisplayP3
+- _ColorSyncVerifyDisplayP3Data
+- _ColorSyncVerifyDisplayP3ITU709
+- _ColorSyncVerifyDisplayP3ITU709Data
+- _ColorSyncVerifyGenericGrayGamma2_2
+- _ColorSyncVerifyGenericGrayGamma2_2Data
+- _ColorSyncVerifyGenericLab
+- _ColorSyncVerifyGenericLabData
+- _ColorSyncVerifyICC_DataByName
+- _ColorSyncVerifyProfileByName
+- _ColorSyncVerifySRGB
+- _ColorSyncVerifySRGBData
+- _Display_P3_HLG_pre_cicp_data
+- _Display_P3_PQ_pre_cicp_data
+- _ITU_2100_HLG_pre_cicp_data
+- _ITU_2100_PQ_pre_cicp_data
+- _ITU_709_HLG_pre_cicp_data
+- _ITU_709_PQ_pre_cicp_data
+- __ZN9CMMXYZTagC2E14icTagSignaturePK8__CFDataP6CMMTag
+- ___block_descriptor_tmp.1014
+- ___block_descriptor_tmp.1054
+- ___block_descriptor_tmp.1088
+- ___block_descriptor_tmp.1313
+- ___block_descriptor_tmp.1332
+- ___block_descriptor_tmp.1390
+- ___block_descriptor_tmp.1492
+- ___block_descriptor_tmp.1527
+- ___block_descriptor_tmp.1574
+- ___block_descriptor_tmp.158
+- ___block_descriptor_tmp.161
+- ___block_descriptor_tmp.1611
+- ___block_descriptor_tmp.164
+- ___block_descriptor_tmp.167
+- ___block_descriptor_tmp.170
+- ___block_descriptor_tmp.2.1612
+- ___block_descriptor_tmp.5.1613
+- ___block_descriptor_tmp.6.1329
+- ___block_descriptor_tmp.604
+- ___block_descriptor_tmp.607
+- ___block_descriptor_tmp.634
+- ___block_descriptor_tmp.637
+- ___block_descriptor_tmp.640
+- ___block_descriptor_tmp.656
+- ___block_descriptor_tmp.659
+- ___block_descriptor_tmp.662
+- ___block_descriptor_tmp.665
+- ___block_descriptor_tmp.668
+- ___block_descriptor_tmp.671
+- ___block_descriptor_tmp.674
+- ___block_descriptor_tmp.677
+- ___block_descriptor_tmp.680
+- ___block_descriptor_tmp.683
+- ___block_descriptor_tmp.686
+- ___block_descriptor_tmp.689
+- ___block_descriptor_tmp.692
+- ___block_descriptor_tmp.695
+- ___block_descriptor_tmp.698
+- ___block_descriptor_tmp.701
+- ___block_descriptor_tmp.704
+- ___block_descriptor_tmp.707
+- ___block_descriptor_tmp.710
+- ___block_descriptor_tmp.713
+- ___block_descriptor_tmp.716
+- ___block_descriptor_tmp.9.1456
+- ___block_literal_global.1011
+- ___block_literal_global.1016
+- ___block_literal_global.1029
+- ___block_literal_global.11.1454
+- ___block_literal_global.1293
+- ___block_literal_global.1328
+- ___block_literal_global.1388
+- ___block_literal_global.1490
+- ___block_literal_global.1525
+- ___block_literal_global.1572
+- ___block_literal_global.160
+- ___block_literal_global.163
+- ___block_literal_global.166
+- ___block_literal_global.169
+- ___block_literal_global.172
+- ___block_literal_global.606
+- ___block_literal_global.609
+- ___block_literal_global.636
+- ___block_literal_global.639
+- ___block_literal_global.642
+- ___block_literal_global.658
+- ___block_literal_global.661
+- ___block_literal_global.664
+- ___block_literal_global.667
+- ___block_literal_global.670
+- ___block_literal_global.673
+- ___block_literal_global.676
+- ___block_literal_global.679
+- ___block_literal_global.682
+- ___block_literal_global.685
+- ___block_literal_global.688
+- ___block_literal_global.691
+- ___block_literal_global.694
+- ___block_literal_global.697
+- ___block_literal_global.700
+- ___block_literal_global.703
+- ___block_literal_global.706
+- ___block_literal_global.709
+- ___block_literal_global.712
+- ___block_literal_global.715
+- ___block_literal_global.718
+- ___bt2020HLGProfile_block_invoke
+- ___bt2020PQProfile_block_invoke
+- ___bt2100HLG_CICP_tag_block_invoke
+- ___bt2100PQ_CICP_tag_block_invoke
+- ___bt709HLG_CICP_tag_block_invoke
+- ___bt709PQ_CICP_tag_block_invoke
+- ___displayP3HLG_CICP_tag_block_invoke
+- ___displayP3PQ_CICP_tag_block_invoke
+- ___getAdobeRGBData_block_invoke
+- ___getAdobeRGBProfile_block_invoke
+- ___getGenericGrayGamma2_2Data_block_invoke
+- ___getGenericGrayGamma2_2Profile_block_invoke
+- ___get_preliminary_OOTF_tag_data_block_invoke
+- ___pre_cicp_BT2100HLGProfile_block_invoke
+- ___pre_cicp_BT2100PQProfile_block_invoke
+- ___pre_cicp_BT709_PQProfile_block_invoke
+- ___pre_cicp_DisplayP3HLGProfile_block_invoke
+- ___pre_cicp_DisplayP3PQProfile_block_invoke
+- ___pre_cicp_ITUR709_HLGProfile_block_invoke
+- ___verify_CoreVideo709_block_invoke
+- ___verify_DisplayP3ITU709_block_invoke
+- ___verify_GenericLab_block_invoke
+- ___verify_ITUR2020_sRGBGamma_data_block_invoke
+- _bt2020HLGProfile.predicate
+- _bt2020HLGProfile.profile
+- _bt2020PQProfile.predicate
+- _bt2020PQProfile.profile
+- _bt2100HLG_CICP_tag.cicp
+- _bt2100HLG_CICP_tag.predicate
+- _bt2100PQ_CICP_tag.cicp
+- _bt2100PQ_CICP_tag.predicate
+- _bt709HLG_CICP_tag.cicp
+- _bt709HLG_CICP_tag.predicate
+- _bt709PQ_CICP_tag.cicp
+- _bt709PQ_CICP_tag.predicate
+- _displayP3HLG_CICP_tag.cicp
+- _displayP3HLG_CICP_tag.predicate
+- _displayP3PQ_CICP_tag.cicp
+- _displayP3PQ_CICP_tag.predicate
+- _getAdobeRGBData.adobeRGBData
+- _getAdobeRGBData.predicate
+- _getAdobeRGBProfile.adobeRGB
+- _getAdobeRGBProfile.predicate
+- _getGenericGrayGamma2_2Data.genericGray2_2Data
+- _getGenericGrayGamma2_2Data.predicate
+- _getGenericGrayGamma2_2Profile.genericGray2_2
+- _getGenericGrayGamma2_2Profile.predicate
+- _get_preliminary_OOTF_tag_data.predicate
+- _get_preliminary_OOTF_tag_data.preliminary_OOTF_data
+- _pre_cicp_BT2100HLGProfile.predicate
+- _pre_cicp_BT2100HLGProfile.profile
+- _pre_cicp_BT2100PQProfile.predicate
+- _pre_cicp_BT2100PQProfile.profile
+- _pre_cicp_BT709_PQProfile.predicate
+- _pre_cicp_BT709_PQProfile.profile
+- _pre_cicp_DisplayP3HLGProfile.predicate
+- _pre_cicp_DisplayP3HLGProfile.profile
+- _pre_cicp_DisplayP3PQProfile.predicate
+- _pre_cicp_DisplayP3PQProfile.profile
+- _pre_cicp_ITUR709_HLGProfile.predicate
+- _pre_cicp_ITUR709_HLGProfile.profile
+- _profile_contains_special_tags
+- _tags_are_equal
+- _verifyProfileAgainstSRGB
+- _verify_AdobeRGB
+- _verify_BT2020
+- _verify_BT2100_HLG
+- _verify_BT2100_HLG_data
+- _verify_BT2100_PQ
+- _verify_BT2100_PQ_data
+- _verify_BT709_HLG
+- _verify_BT709_PQ
+- _verify_BT709_PQ_data
+- _verify_CoreVideo709
+- _verify_CoreVideo709.corevideo709_legacy_profile_data
+- _verify_CoreVideo709.corevideo709_legacy_profile_data_length
+- _verify_CoreVideo709.corevideo709_profile_data
+- _verify_CoreVideo709.corevideo709_profile_data_length
+- _verify_CoreVideo709.predicate
+- _verify_DisplayP3
+- _verify_DisplayP3ITU709
+- _verify_DisplayP3ITU709.displayP3ITU709_profile_data
+- _verify_DisplayP3ITU709.displayP3ITU709_profile_data_length
+- _verify_DisplayP3ITU709.predicate
+- _verify_GenericGrayGamma2_2
+- _verify_GenericLab
+- _verify_GenericLab.lab_profile_data
+- _verify_GenericLab.lab_profile_data_length
+- _verify_GenericLab.predicate
+- _verify_ITUR2020_sRGBGamma_data
+- _verify_ITUR2020_sRGBGamma_data.itu2020_sRGBGamma_profile_data
+- _verify_ITUR2020_sRGBGamma_data.itu2020_sRGBGamma_profile_data_length
+- _verify_ITUR2020_sRGBGamma_data.predicate
+- _verify_displayP3_HLG
+- _verify_displayP3_HLG_data
+- _verify_hdr
+- _verify_sRGB
+- _vverify_BT709_HLG_data
+CStrings:
++ "/System/Library/ColorSync/Profiles/Display P3 Linear.icc"
++ "/System/Library/ColorSync/Profiles/Generic Gray Linear.icc"
++ "/System/Library/ColorSync/Profiles/Generic RGB Linear.icc"
++ "/System/Library/ColorSync/Profiles/ITU-2020-Linear.icc"
++ "/System/Library/ColorSync/Profiles/sRGB Linear.icc"
+- "ColorSyncProfile.c"
+- "N"
+- "hdrProfileTagData != NULL"
+- "hgdm"
+- "verify_hdr"
+
+```

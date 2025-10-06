@@ -1,0 +1,65 @@
+## AccountsUISettings
+
+> `/System/Library/PrivateFrameworks/AccountsUISettings.framework/AccountsUISettings`
+
+```diff
+
+-94.0.0.0.0
+-  __TEXT.__text: 0x6086c
++95.0.0.0.0
++  __TEXT.__text: 0x60768
+   __TEXT.__auth_stubs: 0x1dc0
+   __TEXT.__objc_methlist: 0x53c
+   __TEXT.__const: 0x3ab4
+   __TEXT.__gcc_except_tab: 0xe0
+   __TEXT.__oslogstring: 0x1cb1
+   __TEXT.__cstring: 0x2bb2
+-  __TEXT.__swift5_typeref: 0x3f20
++  __TEXT.__swift5_typeref: 0x3f10
+   __TEXT.__swift5_capture: 0x860
+   __TEXT.__swift5_reflstr: 0xc31
+   __TEXT.__swift5_assocty: 0x4d0
+
+   __TEXT.__objc_methtype: 0x40b
+   __TEXT.__objc_stubs: 0x580
+   __DATA_CONST.__got: 0x820
+-  __DATA_CONST.__const: 0x3e8
++  __DATA_CONST.__const: 0x3f0
+   __DATA_CONST.__objc_classlist: 0x78
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x60
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B59F9F19-88BF-35B9-A827-0FD9BB2BD38A
++  UUID: B752938C-3895-3729-BD13-EF9ACFF148F6
+   Functions: 2112
+-  Symbols:   1400
++  Symbols:   1402
+   CStrings:  658
+ 
+Symbols:
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftAVFoundation_$_AccountsUISettings
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE11listPadding6anchorQrAA04ListE6AnchorV_tFQOyAcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAcAE15navigationTitleyQrAA18LocalizedStringKeyVFQOyAA4FormVyAA05TupleC0VyAcAE17sectionBackgroundyQrAA10VisibilityOFQOyAA08ModifiedL0VyAA7SectionVyAA05EmptyC0V18AccountsUISettings010AddAccountN0VAZGAA21_TraitWritingModifierVyAA0g3Rowu5TraitQ0VGG_Qo_Sg_A_017AccountSuggestionX0VA_011AccountTypeX0VtGG_Qo__AA0kL7BuilderV10buildBlockyQrxAaJRzlFZQOy_AA0K4ItemVyytAA6ButtonVyAA4TextVGGQo_Qo__Qo_HO.331
++ _symbolic _____y_____y_____y_____y_____y_____y__________AEG_____y_____GG_Qo_Sg___________tGG_Qo_ 7SwiftUI4ViewPAAE15navigationTitleyQrAA18LocalizedStringKeyVFQO AA4FormV AA05TupleC0V AcAE17sectionBackgroundyQrAA10VisibilityOFQO AA15ModifiedContentV AA7SectionV AA05EmptyC0V 18AccountsUISettings010AddAccountE0V AA21_TraitWritingModifierV AA07ListRowlvH0V AT0u10SuggestionP0V AT0u4TypeP0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____y__________AEG_____y_____GG_Qo_Sg___________tGG_Qo_______y______yyt_____y_____GGQo_Qo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE15navigationTitleyQrAA18LocalizedStringKeyVFQO AA4FormV AA05TupleC0V AcAE17sectionBackgroundyQrAA10VisibilityOFQO AA08ModifiedG0V AA7SectionV AA05EmptyC0V 18AccountsUISettings010AddAccountI0V AA21_TraitWritingModifierV AA07ListRowpyL0V AW0x10SuggestionS0V AW0x4TypeS0V AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQO AA0F4ItemV AA6ButtonV AA4TextV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y__________AEG_____y_____GG_Qo_Sg___________tGG_Qo_______y______yyt_____y_____GGQo_Qo__Qo_ 7SwiftUI4ViewPAAE11listPadding6anchorQrAA04ListE6AnchorV_tFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE15navigationTitleyQrAA18LocalizedStringKeyVFQO AA4FormV AA05TupleC0V AcAE17sectionBackgroundyQrAA10VisibilityOFQO AA08ModifiedL0V AA7SectionV AA05EmptyC0V 18AccountsUISettings010AddAccountN0V AA21_TraitWritingModifierV AA0g3Rowu5TraitQ0V A_017AccountSuggestionX0V A_011AccountTypeX0V AA0kL7BuilderV10buildBlockyQrxAaJRzlFZQO AA0K4ItemV AA6ButtonV AA4TextV
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE11listPadding6anchorQrAA04ListE6AnchorV_tFQOyAcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAcAE15navigationTitleyQrqd__SyRd__lFQOyAA4FormVyAA05TupleC0VyAcAE17sectionBackgroundyQrAA10VisibilityOFQOyAA08ModifiedL0VyAA7SectionVyAA05EmptyC0V18AccountsUISettings010AddAccountN0VAXGAA21_TraitWritingModifierVyAA0g3RowR8TraitKeyVGG_Qo_Sg_AY0z10SuggestionU0VAY0z4TypeU0VtGG_SSQo__AA0kL7BuilderV10buildBlockyQrxAaJRzlFZQOy_AA0K4ItemVyytAA6ButtonVyAA4TextVGGQo_Qo__Qo_HO.331
+- _symbolic _____y_____y_____y_____y_____y_____y__________AEG_____y_____GG_Qo_Sg___________tGG_SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AA4FormV AA05TupleC0V AcAE17sectionBackgroundyQrAA10VisibilityOFQO AA15ModifiedContentV AA7SectionV AA05EmptyC0V 18AccountsUISettings010AddAccountE0V AA21_TraitWritingModifierV AA07ListRowiS3KeyV AR0r10SuggestionM0V AR0r4TypeM0V
+- _symbolic _____y_____y_____y_____y_____y_____y_____y__________AEG_____y_____GG_Qo_Sg___________tGG_SSQo_______y______yyt_____y_____GGQo_Qo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE15navigationTitleyQrqd__SyRd__lFQO AA4FormV AA05TupleC0V AcAE17sectionBackgroundyQrAA10VisibilityOFQO AA08ModifiedG0V AA7SectionV AA05EmptyC0V 18AccountsUISettings010AddAccountI0V AA21_TraitWritingModifierV AA07ListRowmV3KeyV AU0u10SuggestionP0V AU0u4TypeP0V AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQO AA0F4ItemV AA6ButtonV AA4TextV
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____y__________AEG_____y_____GG_Qo_Sg___________tGG_SSQo_______y______yyt_____y_____GGQo_Qo__Qo_ 7SwiftUI4ViewPAAE11listPadding6anchorQrAA04ListE6AnchorV_tFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE15navigationTitleyQrqd__SyRd__lFQO AA4FormV AA05TupleC0V AcAE17sectionBackgroundyQrAA10VisibilityOFQO AA08ModifiedL0V AA7SectionV AA05EmptyC0V 18AccountsUISettings010AddAccountN0V AA21_TraitWritingModifierV AA0g3RowR8TraitKeyV AY0z10SuggestionU0V AY0z4TypeU0V AA0kL7BuilderV10buildBlockyQrxAaJRzlFZQO AA0K4ItemV AA6ButtonV AA4TextV
+Functions:
+~ sub_23d3d21f8 -> sub_23d29c240 : 384 -> 364
+~ sub_23d411170 -> sub_23d2db1a4 : 1536 -> 1296
+
+```

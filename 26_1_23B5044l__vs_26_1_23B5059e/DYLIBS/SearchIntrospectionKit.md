@@ -1,0 +1,359 @@
+## SearchIntrospectionKit
+
+> `/System/Library/PrivateFrameworks/SearchIntrospectionKit.framework/SearchIntrospectionKit`
+
+```diff
+
+-87.1.3.0.0
+-  __TEXT.__text: 0xed48
+-  __TEXT.__auth_stubs: 0xc30
+-  __TEXT.__objc_methlist: 0x654
+-  __TEXT.__const: 0x928
+-  __TEXT.__cstring: 0x862
+-  __TEXT.__swift5_typeref: 0x371
+-  __TEXT.__oslogstring: 0x2ee
+-  __TEXT.__constg_swiftt: 0x3d0
+-  __TEXT.__swift5_reflstr: 0xba
+-  __TEXT.__swift5_fieldmd: 0x1ac
+-  __TEXT.__swift5_capture: 0x84
+-  __TEXT.__swift5_types: 0x30
+-  __TEXT.__swift_as_entry: 0x10
+-  __TEXT.__swift_as_ret: 0x14
+-  __TEXT.__swift5_proto: 0x64
+-  __TEXT.__swift5_assocty: 0x48
+-  __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x590
+-  __TEXT.__eh_frame: 0x788
++87.1.6.0.0
++  __TEXT.__text: 0x15324
++  __TEXT.__auth_stubs: 0xce0
++  __TEXT.__objc_methlist: 0x660
++  __TEXT.__const: 0x1e08
++  __TEXT.__cstring: 0xb92
++  __TEXT.__swift5_typeref: 0x6d0
++  __TEXT.__oslogstring: 0x2e9
++  __TEXT.__constg_swiftt: 0x7a4
++  __TEXT.__swift5_reflstr: 0x2f7
++  __TEXT.__swift5_fieldmd: 0x550
++  __TEXT.__swift5_capture: 0x74
++  __TEXT.__swift5_types: 0x84
++  __TEXT.__swift5_assocty: 0xb0
++  __TEXT.__swift5_proto: 0x18c
++  __TEXT.__swift_as_entry: 0x1c
++  __TEXT.__swift_as_ret: 0x1c
++  __TEXT.__swift5_builtin: 0x28
++  __TEXT.__swift5_mpenum: 0x10
++  __TEXT.__swift5_protos: 0xc
++  __TEXT.__unwind_info: 0x870
++  __TEXT.__eh_frame: 0xa80
+   __TEXT.__objc_classname: 0xad
+-  __TEXT.__objc_methname: 0x7a5
++  __TEXT.__objc_methname: 0x7c0
+   __TEXT.__objc_methtype: 0x5f5
+-  __DATA_CONST.__got: 0x1a8
+-  __DATA_CONST.__const: 0x110
++  __DATA_CONST.__got: 0x170
++  __DATA_CONST.__const: 0x130
+   __DATA_CONST.__objc_classlist: 0x60
+   __DATA_CONST.__objc_protolist: 0x88
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2e8
++  __DATA_CONST.__objc_selrefs: 0x2f0
+   __DATA_CONST.__objc_protorefs: 0x48
+-  __AUTH_CONST.__auth_got: 0x618
+-  __AUTH_CONST.__const: 0x548
+-  __AUTH_CONST.__objc_const: 0xe30
+-  __AUTH.__objc_data: 0x450
+-  __AUTH.__data: 0x1e8
+-  __DATA.__data: 0x5e0
++  __AUTH_CONST.__auth_got: 0x670
++  __AUTH_CONST.__const: 0xf78
++  __AUTH_CONST.__objc_const: 0xfa0
++  __AUTH.__objc_data: 0x4f0
++  __AUTH.__data: 0x228
++  __DATA.__data: 0x978
+   __DATA.__common: 0x20
+-  __DATA.__bss: 0xb90
+-  __DATA_DIRTY.__objc_data: 0x260
+-  __DATA_DIRTY.__data: 0x248
++  __DATA.__bss: 0x3080
++  __DATA_DIRTY.__objc_data: 0x1d0
++  __DATA_DIRTY.__data: 0x238
+   __DATA_DIRTY.__common: 0x18
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+-  - /System/Library/PrivateFrameworks/ToolKit.framework/ToolKit
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B4801228-AD82-3DCB-A0D8-1F97B88C1EA8
+-  Functions: 455
+-  Symbols:   437
+-  CStrings:  240
++  UUID: 54D112FD-5342-3EA5-96A2-9D1787EFE3F3
++  Functions: 754
++  Symbols:   558
++  CStrings:  257
+ 
+Symbols:
++ _OBJC_CLASS_$__TtC22SearchIntrospectionKit14SpotlightQuery
++ _OBJC_METACLASS_$__TtC22SearchIntrospectionKit14SpotlightQuery
++ __CLASS_METHODS__TtC22SearchIntrospectionKit14SpotlightQuery
++ __CLASS_PROPERTIES__TtC22SearchIntrospectionKit14SpotlightQuery
++ __DATA__TtC22SearchIntrospectionKit14SpotlightQuery
++ __DATA__TtC22SearchIntrospectionKit24SpotlightQueryController
++ __INSTANCE_METHODS__TtC22SearchIntrospectionKit14SpotlightQuery
++ __IVARS__TtC22SearchIntrospectionKit14SpotlightQuery
++ __IVARS__TtC22SearchIntrospectionKit24SpotlightQueryController
++ __METACLASS_DATA__TtC22SearchIntrospectionKit14SpotlightQuery
++ __METACLASS_DATA__TtC22SearchIntrospectionKit24SpotlightQueryController
++ __PROTOCOLS__TtC22SearchIntrospectionKit14SpotlightQuery
++ __PROTOCOLS__TtC22SearchIntrospectionKit14SpotlightQuery.2
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy16_8
++ ___swift_memcpy17_8
++ ___swift_memcpy8_8
++ ___unnamed_1
++ _associated conformance 22SearchIntrospectionKit0A14TopLevelFilterOSHAASQ
++ _associated conformance 22SearchIntrospectionKit0A18SpotlightQueryKindOSHAASQ
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO10CodingKeys33_C07A192E03692043CC0719704AF64F38LLOSHAASQ
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO10CodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO10CodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO13PdfCodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO13PdfCodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO15FilesCodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO15FilesCodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO16CustomCodingKeys33_C07A192E03692043CC0719704AF64F38LLOSHAASQ
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO16CustomCodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0H3KeyAAs0G17StringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO16CustomCodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0H3KeyAAs0G22DebugStringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO17ActionsCodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO17ActionsCodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO17FoldersCodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO17FoldersCodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO17WindowsCodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO17WindowsCodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO20PasteboardCodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO20PasteboardCodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO22ApplicationsCodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22SearchIntrospectionKit0A19SpotlightFilterTypeO22ApplicationsCodingKeys33_C07A192E03692043CC0719704AF64F38LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22SearchIntrospectionKit14SpotlightQueryC10CodingKeysOSHAASQ
++ _associated conformance 22SearchIntrospectionKit14SpotlightQueryC10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22SearchIntrospectionKit14SpotlightQueryC10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22SearchIntrospectionKit15SpotlightClientOAA013SIApplicationE0AA12ResponseTypeAaDP_AA18SIResponseProtocol
++ _associated conformance 22SearchIntrospectionKit15SpotlightClientOAA013SIApplicationE0AA9QueryTypeAaDP_AA0aG0
++ _associated conformance 22SearchIntrospectionKit19SpotlightQueryErrorO10Foundation09LocalizedF0AAs0F0
++ _associated conformance 22SearchIntrospectionKit20SpotlightQueryFilterO08TopLevelF10CodingKeys33_D72C0940F3321799B563B518699760ADLLOSHAASQ
++ _associated conformance 22SearchIntrospectionKit20SpotlightQueryFilterO08TopLevelF10CodingKeys33_D72C0940F3321799B563B518699760ADLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22SearchIntrospectionKit20SpotlightQueryFilterO08TopLevelF10CodingKeys33_D72C0940F3321799B563B518699760ADLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22SearchIntrospectionKit20SpotlightQueryFilterO0D10CodingKeys33_D72C0940F3321799B563B518699760ADLLOSHAASQ
++ _associated conformance 22SearchIntrospectionKit20SpotlightQueryFilterO0D10CodingKeys33_D72C0940F3321799B563B518699760ADLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22SearchIntrospectionKit20SpotlightQueryFilterO0D10CodingKeys33_D72C0940F3321799B563B518699760ADLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22SearchIntrospectionKit20SpotlightQueryFilterO10CodingKeys33_D72C0940F3321799B563B518699760ADLLOSHAASQ
++ _associated conformance 22SearchIntrospectionKit20SpotlightQueryFilterO10CodingKeys33_D72C0940F3321799B563B518699760ADLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22SearchIntrospectionKit20SpotlightQueryFilterO10CodingKeys33_D72C0940F3321799B563B518699760ADLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22SearchIntrospectionKit29SpotlightQueryControllerErrorOyxG10Foundation09LocalizedG0AAs0G0
++ _block_copy_helper.23
++ _block_copy_helper.29
++ _block_descriptor.25
++ _block_descriptor.31
++ _block_destroy_helper.24
++ _block_destroy_helper.30
++ _get_enum_tag_for_layout_string 22SearchIntrospectionKit0A19SpotlightFilterTypeO
++ _get_enum_tag_for_layout_string 22SearchIntrospectionKit19SpotlightQueryErrorO
++ _get_enum_tag_for_layout_string 22SearchIntrospectionKit20SpotlightQueryFilterO
++ _get_enum_tag_for_layout_string 22SearchIntrospectionKit29SpotlightQueryControllerErrorOyxG
++ _swift_allocateGenericClassMetadata
++ _swift_arrayDestroy
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initWithCopy
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_cvw_instantiateLayoutString
++ _swift_dynamicCastClass
++ _swift_dynamicCastMetatype
++ _swift_getAssociatedTypeWitness
++ _swift_getErrorValue
++ _swift_getGenericMetadata
++ _swift_initClassMetadata2
++ _symbolic $s22SearchIntrospectionKit0A5QueryP
++ _symbolic $s22SearchIntrospectionKit19SIApplicationClientP
++ _symbolic 12ResponseType_____Qz 22SearchIntrospectionKit19SIApplicationClientP
++ _symbolic 9QueryType_____Qz 22SearchIntrospectionKit19SIApplicationClientP
++ _symbolic SDySSScCyx_____GG s5NeverO
++ _symbolic SS7message_t
++ _symbolic ScCy__________G 22SearchIntrospectionKit19SISpotlightResponseC s5NeverO
++ _symbolic ScCy__________GSg 22SearchIntrospectionKit19SISpotlightResponseC s5NeverO
++ _symbolic Si
++ _symbolic _____ 22SearchIntrospectionKit0A14TopLevelFilterO
++ _symbolic _____ 22SearchIntrospectionKit0A18SpotlightQueryKindO
++ _symbolic _____ 22SearchIntrospectionKit0A19SpotlightFilterTypeO
++ _symbolic _____ 22SearchIntrospectionKit0A19SpotlightFilterTypeO10CodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____ 22SearchIntrospectionKit0A19SpotlightFilterTypeO13PdfCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____ 22SearchIntrospectionKit0A19SpotlightFilterTypeO15FilesCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____ 22SearchIntrospectionKit0A19SpotlightFilterTypeO16CustomCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____ 22SearchIntrospectionKit0A19SpotlightFilterTypeO17ActionsCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____ 22SearchIntrospectionKit0A19SpotlightFilterTypeO17FoldersCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____ 22SearchIntrospectionKit0A19SpotlightFilterTypeO17WindowsCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____ 22SearchIntrospectionKit0A19SpotlightFilterTypeO20PasteboardCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____ 22SearchIntrospectionKit0A19SpotlightFilterTypeO22ApplicationsCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____ 22SearchIntrospectionKit14SpotlightQueryC
++ _symbolic _____ 22SearchIntrospectionKit14SpotlightQueryC10CodingKeysO
++ _symbolic _____ 22SearchIntrospectionKit15SpotlightClientO
++ _symbolic _____ 22SearchIntrospectionKit19SpotlightQueryErrorO
++ _symbolic _____ 22SearchIntrospectionKit20SpotlightQueryFilterO
++ _symbolic _____ 22SearchIntrospectionKit20SpotlightQueryFilterO08TopLevelF10CodingKeys33_D72C0940F3321799B563B518699760ADLLO
++ _symbolic _____ 22SearchIntrospectionKit20SpotlightQueryFilterO0D10CodingKeys33_D72C0940F3321799B563B518699760ADLLO
++ _symbolic _____ 22SearchIntrospectionKit20SpotlightQueryFilterO10CodingKeys33_D72C0940F3321799B563B518699760ADLLO
++ _symbolic _____ 22SearchIntrospectionKit24SpotlightQueryControllerC
++ _symbolic _____ 22SearchIntrospectionKit29SpotlightQueryControllerErrorO
++ _symbolic _____ 2os6LoggerV
++ _symbolic _____Sg 22SearchIntrospectionKit20SpotlightQueryFilterO
++ _symbolic _____ySSScCy__________GG s18_DictionaryStorageC 22SearchIntrospectionKit19SISpotlightResponseC s5NeverO
++ _symbolic _____y_____G 22SearchIntrospectionKit13SIDataManagerC AA19SISpotlightResponseC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO10CodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO13PdfCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO15FilesCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO16CustomCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO17ActionsCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO17FoldersCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO17WindowsCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO20PasteboardCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO22ApplicationsCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22SearchIntrospectionKit14SpotlightQueryC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22SearchIntrospectionKit20SpotlightQueryFilterO08TopLevelI10CodingKeys33_D72C0940F3321799B563B518699760ADLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22SearchIntrospectionKit20SpotlightQueryFilterO0G10CodingKeys33_D72C0940F3321799B563B518699760ADLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22SearchIntrospectionKit20SpotlightQueryFilterO10CodingKeys33_D72C0940F3321799B563B518699760ADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO10CodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO13PdfCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO15FilesCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO16CustomCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO17ActionsCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO17FoldersCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO17WindowsCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO20PasteboardCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22SearchIntrospectionKit0D19SpotlightFilterTypeO22ApplicationsCodingKeys33_C07A192E03692043CC0719704AF64F38LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22SearchIntrospectionKit14SpotlightQueryC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22SearchIntrospectionKit20SpotlightQueryFilterO08TopLevelI10CodingKeys33_D72C0940F3321799B563B518699760ADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22SearchIntrospectionKit20SpotlightQueryFilterO0G10CodingKeys33_D72C0940F3321799B563B518699760ADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22SearchIntrospectionKit20SpotlightQueryFilterO10CodingKeys33_D72C0940F3321799B563B518699760ADLLO
++ _symbolic xm6client_t
++ _symbolic ypXmT______t s13DecodingErrorO7ContextV
++ _type_layout_string 22SearchIntrospectionKit0A19SpotlightFilterTypeO
++ _type_layout_string 22SearchIntrospectionKit19SIApplicationClientRzlAA29SpotlightQueryControllerErrorOyxG
++ _type_layout_string 22SearchIntrospectionKit19SpotlightQueryErrorO
++ _type_layout_string 22SearchIntrospectionKit20SpotlightQueryFilterO
+- _OBJC_CLASS_$__TtC22SearchIntrospectionKit7SIQuery
+- _OBJC_METACLASS_$__TtC22SearchIntrospectionKit7SIQuery
+- __CLASS_METHODS__TtC22SearchIntrospectionKit7SIQuery
+- __CLASS_PROPERTIES__TtC22SearchIntrospectionKit7SIQuery
+- __DATA__TtC22SearchIntrospectionKit13SIDataManager
+- __DATA__TtC22SearchIntrospectionKit7SIQuery
+- __INSTANCE_METHODS__TtC22SearchIntrospectionKit7SIQuery
+- __IVARS__TtC22SearchIntrospectionKit7SIQuery
+- __METACLASS_DATA__TtC22SearchIntrospectionKit13SIDataManager
+- __METACLASS_DATA__TtC22SearchIntrospectionKit7SIQuery
+- __PROTOCOLS__TtC22SearchIntrospectionKit7SIQuery
+- __PROTOCOLS__TtC22SearchIntrospectionKit7SIQuery.2
+- ___swift_allocate_boxed_opaque_existential_1
+- __swift_FORCE_LOAD_$_swiftAccelerate
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_SearchIntrospectionKit
+- __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_SearchIntrospectionKit
+- __swift_FORCE_LOAD_$_swiftIntents
+- __swift_FORCE_LOAD_$_swiftIntents_$_SearchIntrospectionKit
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_SearchIntrospectionKit
+- __swift_stdlib_bridgeErrorToNSError
+- _block_copy_helper.20
+- _block_copy_helper.26
+- _block_descriptor.22
+- _block_descriptor.28
+- _block_destroy_helper.21
+- _block_destroy_helper.27
+- _swift_allocBox
+- _swift_dynamicCastClassUnconditional
+- _swift_errorRetain
+- _swift_getKeyPath
+- _swift_getOpaqueTypeConformance2
+- _swift_initStackObject
+- _swift_setDeallocating
+- _symbolic SDySSScCy______p_____GG 22SearchIntrospectionKit18SIResponseProtocolP s5NeverO
+- _symbolic SS_______pt 7ToolKit20TypedValueResolvableP
+- _symbolic ScCy______p_____G 22SearchIntrospectionKit18SIResponseProtocolP s5NeverO
+- _symbolic ScCy______p_____GSg 22SearchIntrospectionKit18SIResponseProtocolP s5NeverO
+- _symbolic So8NSObjectCSg
+- _symbolic _____ 22SearchIntrospectionKit7SIQueryC
+- _symbolic _____ 7ToolKit0A15DefinitionQueryV
+- _symbolic _____Sg 7ToolKit0A10DefinitionV
+- _symbolic _____Sg 7ToolKit0A17InvocationOptionsV
+- _symbolic _____Sg 7ToolKit10TypedValueO2IDV
+- _symbolic _____ySSG 7ToolKit08CompoundaB14PropertyFilterO
+- _symbolic _____ySSScCy______p_____GG s18_DictionaryStorageC 22SearchIntrospectionKit18SIResponseProtocolP s5NeverO
+- _symbolic _____ySS_______ptG s23_ContiguousArrayStorageC 7ToolKit20TypedValueResolvableP
+- _symbolic _____ySS______pG s18_DictionaryStorageC 7ToolKit20TypedValueResolvableP
+- _symbolic _____y_Qo_ 7ToolKit0A8ExecutorV5start7optionsQrAC14SessionOptionsV_tYaKFZQO
+CStrings:
++ "Added continuation, new count: %ld, Continuation keys: %{sensitive}s, Waiting for a response callback..."
++ "Application client service server is not available."
++ "Cannot convert %s to %s for query: %{sensitive}s"
++ "Cannot use both spotlightFilterType and topLevelFilter simultaneously. Use only one filter parameter."
++ "Expected SpotlightQuery for SpotlightClient, got "
++ "Intent execution failed: "
++ "Invalid number of keys found, expected one."
++ "No continuation found for query identifier: '%{sensitive}s'"
++ "SIDataManager<SISpotlightResponse>"
++ "Search Introspection is not supported on the current Platform/Device"
++ "SearchIntrospectionKit.SpotlightQuery"
++ "Testing on this device is not supported. Internal build required."
++ "Type mismatch: expected "
++ "Unsupported client type: "
++ "_TtC22SearchIntrospectionKit14SpotlightQuery"
++ "_TtC22SearchIntrospectionKit24SpotlightQueryController"
++ "asYouType"
++ "committed"
++ "continuations"
++ "execute:completionHandler:"
++ "logger"
++ "queryFilter"
++ "spotlightFilterType"
++ "spotlightManager"
++ "spotlightQueryKind"
++ "topLevelFilter"
++ "v32@0:8@\"_TtC22SearchIntrospectionKit14SpotlightQuery\"16@?<v@?@\"NSError\">24"
++ "v32@0:8@\"_TtC22SearchIntrospectionKit14SpotlightQuery\"16@?<v@?@\"_TtC22SearchIntrospectionKit19SISpotlightResponse\"@\"NSError\">24"
+- "Attempting to start 'performOpenIntent'"
+- "Could not find 'SearchSpotlightIntent'"
+- "Error performing open intent: %@"
+- "SearchIntrospectionKit.SIQuery"
+- "ToolKit Database count: %ld"
+- "[SIDataManager]: Testing on this device is not supported."
+- "_TtC22SearchIntrospectionKit13SIDataManager"
+- "_TtC22SearchIntrospectionKit7SIQuery"
+- "awaiters"
+- "com.apple.Spotlight.SearchSpotlightIntent"
+- "v32@0:8@\"_TtC22SearchIntrospectionKit7SIQuery\"16@?<v@?@\"_TtC22SearchIntrospectionKit19SISpotlightResponse\"@\"NSError\">24"
+
+```

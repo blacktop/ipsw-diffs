@@ -1,0 +1,361 @@
+## RenderBox
+
+> `/System/Library/PrivateFrameworks/RenderBox.framework/RenderBox`
+
+```diff
+
+-7.1.4.1.103
+-  __TEXT.__text: 0x14f394
+-  __TEXT.__auth_stubs: 0x2930
+-  __TEXT.__objc_methlist: 0x2a90
++7.1.9.0.0
++  __TEXT.__text: 0x1530d4
++  __TEXT.__auth_stubs: 0x2920
++  __TEXT.__objc_methlist: 0x2abc
+   __TEXT.__const: 0x5fa8
+-  __TEXT.__gcc_except_tab: 0x74dc
+-  __TEXT.__cstring: 0x5d5a
+-  __TEXT.__oslogstring: 0xf7d
+-  __TEXT.__unwind_info: 0x61f0
+-  __TEXT.__eh_frame: 0x60
++  __TEXT.__gcc_except_tab: 0x778c
++  __TEXT.__cstring: 0x5e1e
++  __TEXT.__oslogstring: 0x10da
++  __TEXT.__unwind_info: 0x6330
+   __TEXT.__objc_classname: 0x41a
+-  __TEXT.__objc_methname: 0x6340
+-  __TEXT.__objc_methtype: 0x347e
+-  __TEXT.__objc_stubs: 0x47c0
+-  __DATA_CONST.__got: 0x528
+-  __DATA_CONST.__const: 0x1db8
++  __TEXT.__objc_methname: 0x641f
++  __TEXT.__objc_methtype: 0x34ca
++  __TEXT.__objc_stubs: 0x48c0
++  __DATA_CONST.__got: 0x538
++  __DATA_CONST.__const: 0x1e30
+   __DATA_CONST.__objc_classlist: 0x130
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x98
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1e10
++  __DATA_CONST.__objc_selrefs: 0x1e60
+   __DATA_CONST.__objc_superrefs: 0xe0
+-  __AUTH_CONST.__auth_got: 0x14a8
+-  __AUTH_CONST.__const: 0x8ab8
+-  __AUTH_CONST.__cfstring: 0x3040
+-  __AUTH_CONST.__objc_const: 0x4588
++  __AUTH_CONST.__auth_got: 0x14a0
++  __AUTH_CONST.__const: 0x8c10
++  __AUTH_CONST.__cfstring: 0x2f40
++  __AUTH_CONST.__objc_const: 0x45e0
+   __AUTH_CONST.__objc_floatobj: 0x10
+   __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH.__objc_data: 0x140
+   __AUTH.__thread_vars: 0x30
+   __AUTH.__thread_bss: 0x10
+-  __DATA.__objc_ivar: 0x2b4
++  __DATA.__objc_ivar: 0x2bc
+   __DATA.__data: 0x944
+   __DATA.__crash_info: 0x148
+-  __DATA.__bss: 0x2a0
+-  __DATA.__common: 0x30
++  __DATA.__bss: 0x2c8
++  __DATA.__common: 0x2c
+   __DATA_DIRTY.__objc_data: 0xaa0
+   __DATA_DIRTY.__data: 0x4
+   __DATA_DIRTY.__common: 0x50
+-  __DATA_DIRTY.__bss: 0x538
++  __DATA_DIRTY.__bss: 0x558
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A58259E6-26D7-3B7E-8F69-B876F2D52256
+-  Functions: 6875
+-  Symbols:   18088
+-  CStrings:  3637
++  UUID: 89380846-3435-3C62-BE3D-AFA972157BCF
++  Functions: 6929
++  Symbols:   18303
++  CStrings:  3668
+ 
+Symbols:
++ -[RBDrawable errorHandler]
++ -[RBDrawable setErrorHandler:]
++ -[RBLayer _commandBufferError:failedBefore:]
++ GCC_except_table101
++ GCC_except_table159
++ GCC_except_table206
++ GCC_except_table73
++ GCC_except_table74
++ GCC_except_table80
++ GCC_except_table82
++ GCC_except_table84
++ GCC_except_table85
++ GCC_except_table90
++ GCC_except_table93
++ GCC_except_table95
++ GCC_except_table98
++ _MTLCommandBufferErrorDomain
++ _OBJC_CLASS_$_MTLHeapDescriptor
++ _OBJC_IVAR_$_RBDrawable._error_handler
++ _OBJC_IVAR_$_RBLayer._failed_before
++ __ZGVZN2RB7Texture19usage_supports_heapEPNS_6DeviceENS0_5UsageEE9use_heaps
++ __ZN2RB10RenderPass14set_attachmentENS0_10AttachmentEPNS_7TextureEj14MTLPixelFormatb
++ __ZN2RB10RenderPassC1ERKNS_12RenderParamsEPNS_7TextureEjNS0_12InitialStateENS0_4KindE14MTLPixelFormat
++ __ZN2RB10RenderPassC2ERKNS_12RenderParamsEPNS_7TextureEjNS0_12InitialStateENS0_4KindE14MTLPixelFormat
++ __ZN2RB11RenderFrame13alloc_textureE14MTLPixelFormatDv2_ijNS_10ColorSpaceENS_7Texture5UsageEb
++ __ZN2RB11RenderFrame21add_completed_handlerEU13block_pointerFvP7NSErrorE
++ __ZN2RB12ResourceHeap5allocEPNS_6DeviceEm
++ __ZN2RB12ResourceHeap8finalizeEv
++ __ZN2RB12ResourceHeapC2EPU17objcproto7MTLHeap11objc_objectm
++ __ZN2RB12ResourceHeapD0Ev
++ __ZN2RB12ResourceHeapD1Ev
++ __ZN2RB12_GLOBAL__N_115pass_kind_labelENS_10RenderPass4KindE
++ __ZN2RB12_GLOBAL__N_120image_provider_queueEv
++ __ZN2RB12_GLOBAL__N_120image_provider_queueEv.cold.1
++ __ZN2RB13ImageProvider15frame_completedEP7NSError
++ __ZN2RB13ImageProvider15frame_completedEP7NSError.cold.1
++ __ZN2RB13ImageProvider15frame_completedEP7NSError.cold.2
++ __ZN2RB13ImageProvider15frame_scheduledEv
++ __ZN2RB13SharedSurface11AsyncUpdateD2Ev.cold.2
++ __ZN2RB13SharedSurface4CopyD2Ev
++ __ZN2RB13SharedSurface4CopyD2Ev.cold.1
++ __ZN2RB13SharedSurface4CopyD2Ev.cold.2
++ __ZN2RB13SharedSurfaceD2Ev.cold.6
++ __ZN2RB13SharedSurfaceD2Ev.cold.7
++ __ZN2RB13SharedSurfaceD2Ev.cold.8
++ __ZN2RB17RenderTaskTextureD2Ev.cold.1
++ __ZN2RB18SharedSurfaceGroup12render_asyncEv.cold.2
++ __ZN2RB18SharedSurfaceGroup13SurfaceUpdateD2Ev.cold.3
++ __ZN2RB18SharedSurfaceGroup13SurfaceUpdateD2Ev.cold.4
++ __ZN2RB18SharedSurfaceGroup16allocate_updatesEv.cold.2
++ __ZN2RB18SharedSurfaceGroup20cancel_async_updatesERNS_19SharedSurfaceClientE.cold.2
++ __ZN2RB18SharedSurfaceGroupD2Ev.cold.3
++ __ZN2RB18separable_convolveERKNS_18Typed_vImageBufferIhEERS1_PKfjNS_15ConvolveSampler13clamp_to_zeroE
++ __ZN2RB18separable_convolveERKNS_18Typed_vImageBufferIhEERS1_PKfjNS_15ConvolveSampler13clamp_to_zeroE.cold.1
++ __ZN2RB18separable_convolveERKNS_18Typed_vImageBufferIjEERS1_PKfjNS_15ConvolveSampler13clamp_to_zeroE
++ __ZN2RB18separable_convolveERKNS_18Typed_vImageBufferIjEERS1_PKfjNS_15ConvolveSampler13clamp_to_zeroE.cold.1
++ __ZN2RB18separable_convolveIDF16_NS_15ConvolveSampler13clamp_to_edgeEEEvRKNS_18Typed_vImageBufferIT_EERS5_PKfjT0_
++ __ZN2RB18separable_convolveIDF16_NS_15ConvolveSampler13clamp_to_edgeEEEvRKNS_18Typed_vImageBufferIT_EERS5_PKfjT0_.cold.1
++ __ZN2RB18separable_convolveIDv4_DF16_NS_15ConvolveSampler13clamp_to_zeroEEEvRKNS_18Typed_vImageBufferIT_EERS6_PKfjT0_
++ __ZN2RB18separable_convolveIDv4_DF16_NS_15ConvolveSampler13clamp_to_zeroEEEvRKNS_18Typed_vImageBufferIT_EERS6_PKfjT0_.cold.1
++ __ZN2RB18separable_convolveIfNS_15ConvolveSampler13clamp_to_edgeEEEvRKNS_18Typed_vImageBufferIT_EERS5_PKfjT0_
++ __ZN2RB18separable_convolveIfNS_15ConvolveSampler13clamp_to_edgeEEEvRKNS_18Typed_vImageBufferIT_EERS5_PKfjT0_.cold.1
++ __ZN2RB19SharedSurfaceClient10invalidateEv
++ __ZN2RB19SharedSurfaceClient9owner_refEv
++ __ZN2RB6Device12recycle_heapEPNS_12ResourceHeapE
++ __ZN2RB6Device17alloc_shared_heapEm
++ __ZN2RB6Device17alloc_shared_heapEm.cold.1
++ __ZN2RB6Device20command_buffer_errorEP7NSErrorPU22objcproto11RBEncodable11objc_objectjj
++ __ZN2RB6Device22add_frame_continuationEjNS0_16ContinuationTypeEP11objc_object
++ __ZN2RB6Device27dispatch_frame_continuationEjPU27objcproto16MTLCommandBuffer11objc_objectNS0_16ContinuationTypeEP11objc_object
++ __ZN2RB6Symbol14tags_intersectERNS_6vectorINS0_3TagELm4EjEENSt3__14spanIKS2_Lm18446744073709551615EEE
++ __ZN2RB6vectorINS_13SharedSurface11AsyncUpdateELm0EjED1Ev.cold.2
++ __ZN2RB6vectorINS_13SharedSurface4CopyELm0EjED1Ev.cold.2
++ __ZN2RB6vectorINS_13SharedSurface6UpdateELm0EjED1Ev.cold.1
++ __ZN2RB6vectorINS_14refcounted_ptrINS_12ResourceHeapEEELm8EjE12reserve_slowEj
++ __ZN2RB6vectorINS_14refcounted_ptrINS_12ResourceHeapEEELm8EjED1Ev
++ __ZN2RB6vectorINS_14refcounted_ptrINS_19SharedSurfaceClientEEELm0EjE12reserve_slowEj
++ __ZN2RB6vectorINS_8objc_ptrIP11objc_objectEELm2EmE12reserve_slowEm
++ __ZN2RB6vectorINS_8objc_ptrIP11objc_objectEELm2EmED2Ev
++ __ZN2RB6vectorINSt3__14pairIjjEELm32EjE12reserve_slowEj
++ __ZN2RB7Texture14make_aliasableEv
++ __ZN2RB7Texture15make_descriptorEPNS_6DeviceE14MTLPixelFormatDv2_ijNS0_5UsageENS_12PixelSwizzleE
++ __ZN2RB7Texture19usage_supports_heapEPNS_6DeviceENS0_5UsageE
++ __ZN2RB7TextureC1EPU21objcproto10MTLTexture11objc_objectRNS_12ResourceHeapENSt3__18optionalINS_10ColorSpaceEEENS0_5UsageENS_12PixelSwizzleE
++ __ZN2RB7details14realloc_vectorIjLm56EEEPvS2_RT_S3_
++ __ZN2RB8Resource9set_labelEP11objc_objectPKcRNSt3__16atomicIjEE
++ __ZN2RB9CGContext10apply_blurEfj
++ __ZNK2RB12vImageBuffer12apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fS3_jE3$_6EEvRKT_
++ __ZNSt3__110__list_impIN2RB14refcounted_ptrINS1_12ResourceHeapEEENS_9allocatorIS4_EEE13__delete_nodeB8nn200100EPNS_11__list_nodeIS4_PvEE
++ __ZNSt3__110__list_impIN2RB14refcounted_ptrINS1_12ResourceHeapEEENS_9allocatorIS4_EEE5clearEv
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB11RenderFrame13alloc_textureE14MTLPixelFormatDv2_ijNS2_10ColorSpaceENS2_7Texture5UsageEbE3$_0PNS_4pairIjjEELb0EEEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeEb
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZN2RB11RenderFrame13alloc_textureE14MTLPixelFormatDv2_ijNS2_10ColorSpaceENS2_7Texture5UsageEbE3$_0PNS_4pairIjjEEEEbT1_SE_T0_
++ __ZNSt3__17__sort4B8nn200100INS_17_ClassicAlgPolicyERZN2RB11RenderFrame13alloc_textureE14MTLPixelFormatDv2_ijNS2_10ColorSpaceENS2_7Texture5UsageEbE3$_0PNS_4pairIjjEELi0EEEvT1_SE_SE_SE_T0_
++ __ZTVN2RB12ResourceHeapE
++ __ZZN2RB11RenderFrame12copy_textureEPNS_7TextureENSt3__18optionalINS_10ColorSpaceEEEjS2_E7counter
++ __ZZN2RB11RenderFrame19alloc_buffer_regionEmmjE7counter
++ __ZZN2RB12TextureCache22prepare_from_iosurfaceERNS_11RenderFrameEP11__IOSurfaceRKNS0_6ParamsEP12CGColorSpaceNSt3__18optionalIjEEE7counter
++ __ZZN2RB12TextureCache23prepare_from_base_levelERNS_11RenderFrameERKNS0_6ParamsEPNS_7TextureEhE7counter
++ __ZZN2RB12TextureCache7prepareERNS_11RenderFrameEP7CGImageRKNS0_6ParamsEE7counter
++ __ZZN2RB12TextureCache7prepareERNS_11RenderFrameEP7CGImageRKNS0_6ParamsEE7counter_0
++ __ZZN2RB18SharedSurfaceGroup16allocate_updatesEvENK3$_2clERNS_13SharedSurfaceE.cold.3
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZZNS_18separable_convolveIDF16_NS_15ConvolveSampler13clamp_to_edgeEEEvRKNS_18Typed_vImageBufferIT_EERS7_PKfjT0_ENKUlRKNS5_IDF16_EERSE_E_clESG_SH_EUlmmE_EEvmmRKS6_EUlmmmmE_EEvmmSL_ENUlPvmE_8__invokeESN_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZZNS_18separable_convolveIDv4_DF16_NS_15ConvolveSampler13clamp_to_zeroEEEvRKNS_18Typed_vImageBufferIT_EERS8_PKfjT0_ENKUlRKNS6_IS3_EERSF_E_clESH_SI_EUlmmE_EEvmmRKS7_EUlmmmmE_EEvmmSM_ENUlPvmE_8__invokeESO_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZZNS_18separable_convolveIfNS_15ConvolveSampler13clamp_to_edgeEEEvRKNS_18Typed_vImageBufferIT_EERS7_PKfjT0_ENKUlRKNS5_IfEERSE_E_clESG_SH_EUlmmE_EEvmmRKS6_EUlmmmmE_EEvmmSL_ENUlPvmE_8__invokeESN_m
++ __ZZN2RB6Device17alloc_shared_heapEmE7counter
++ __ZZN2RB6Device19alloc_shared_bufferEvE7counter
++ __ZZN2RB6Device20alloc_shared_textureE14MTLPixelFormatDv2_ijNS_10ColorSpaceENS_7Texture5UsageEbE7counter
++ __ZZN2RB6Device25alloc_shared_texture_viewEPNS_7TextureE14MTLPixelFormatNS_10ColorSpaceEE7counter
++ __ZZN2RB6Symbol9Animation21infer_replace_subtypeERKNS0_5ModelES4_ENK3$_1clERKNS0_5GlyphEjRNS_6vectorINS0_3TagELm4EjEESC_
++ __ZZN2RB7Surface7textureEPNS_6DeviceENSt3__18optionalINS_10ColorSpaceEEEE7counter
++ __ZZN2RB7Texture19usage_supports_heapEPNS_6DeviceENS0_5UsageEE9use_heaps.0
++ __ZZZN2RB12TextureCache25prepare_from_texture_dataERNS_11RenderFrameEP18CGImageTextureDataRKNS0_6ParamsEP12CGColorSpaceNSt3__18optionalIjEEEUb_E7counter
++ __ZZZN2RB12TextureCache25prepare_from_texture_dataERNS_11RenderFrameEP18CGImageTextureDataRKNS0_6ParamsEP12CGColorSpaceNSt3__18optionalIjEEEUb_E7counter_0
++ ___44-[RBLayer displayWithBounds:flags:callback:]_block_invoke.40
++ ___44-[RBLayer displayWithBounds:flags:callback:]_block_invoke_2.37
++ ___44-[RBLayer displayWithBounds:flags:callback:]_block_invoke_2.41
++ ___44-[RBLayer displayWithBounds:flags:callback:]_block_invoke_3
++ ___44-[RBLayer displayWithBounds:flags:callback:]_block_invoke_4
++ ___54-[RBDrawable renderWithFlags:items:count:displayList:]_block_invoke.10
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke.56
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke.63
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke.65
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_2.60
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_2.64
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_3.61
++ ____ZN2RB13ImageProvider15frame_completedEP7NSError_block_invoke
++ ____ZN2RB18SharedSurfaceGroup21render_updates_deviceERNS_6vectorINS0_13SurfaceUpdateELm4EjEE_block_invoke.9
++ ____ZN2RB18SharedSurfaceGroup21render_updates_deviceERNS_6vectorINS0_13SurfaceUpdateELm4EjEE_block_invoke.9.cold.1
++ ____ZN2RB18SharedSurfaceGroup21render_updates_deviceERNS_6vectorINS0_13SurfaceUpdateELm4EjEE_block_invoke_2
++ ____ZN2RB18SharedSurfaceGroup21render_updates_deviceERNS_6vectorINS0_13SurfaceUpdateELm4EjEE_block_invoke_2.cold.1
++ ___block_descriptor_167_e8_32o40o48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE80c30_ZTSN2RB8objc_ptrIP8NSStringEE120c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE128c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE136c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7NSErrorEEE144c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE_e5_v8?0l
++ ___block_descriptor_40_e17_v16?0"NSError"8l
++ ___block_descriptor_40_e8_32b_e12_v20?0^v8B16ls32l8
++ ___block_descriptor_40_e8_32c29_ZTSN2RB8objc_ptrIP7RBLayerEE_e17_v16?0"NSError"8l
++ ___block_descriptor_40_e8_32c46_ZTSN2RB14refcounted_ptrINS_13ImageProviderEEE_e17_v16?0"NSError"8l
++ ___block_descriptor_48_e8_32b_e5_v8?0ls32l8
++ ___block_descriptor_48_e8_32c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7NSErrorEEE40c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE_e17_v16?0"NSError"8l
++ ___block_descriptor_48_e8_40c46_ZTSN2RB14refcounted_ptrINS_13ImageProviderEEE_e5_v8?0l
++ ___block_descriptor_49_e8_32c29_ZTSN2RB8objc_ptrIP7RBLayerEE40c29_ZTSN2RB8objc_ptrIP7NSErrorEE_e5_v8?0l
++ ___block_descriptor_56_e8_32b40c61_ZTSN2RB8objc_ptrIPU28objcproto17OS_dispatch_queue8NSObjectEE48c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7CGImageEEE_e17_v16?0"NSError"8l
++ ___block_descriptor_72_e8_32c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE40c38_ZTSN2RB14refcounted_ptrINS_6DeviceEEE48c59_ZTSN2RB8objc_ptrIPU22objcproto11RBEncodable11objc_objectEE_e28_v16?0"<MTLCommandBuffer>"8l
++ ___copy_helper_block_e8_32c29_ZTSN2RB8objc_ptrIP7RBLayerEE40c29_ZTSN2RB8objc_ptrIP7NSErrorEE
++ ___copy_helper_block_e8_32c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7NSErrorEEE40c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE
++ ___copy_helper_block_e8_40c46_ZTSN2RB14refcounted_ptrINS_13ImageProviderEEE
++ ___copy_helper_block_e8_40c61_ZTSN2RB8objc_ptrIPU28objcproto17OS_dispatch_queue8NSObjectEE48c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7CGImageEEE
++ ___copy_helper_block_e8_48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE80c30_ZTSN2RB8objc_ptrIP8NSStringEE120c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE128c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE136c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7NSErrorEEE144c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE
++ ___copy_helper_block_e8_48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE80c30_ZTSN2RB8objc_ptrIP8NSStringEE120c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE128c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE136c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7NSErrorEEE144c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE.cold.1
++ ___destroy_helper_block_e8_32c29_ZTSN2RB8objc_ptrIP7RBLayerEE40c29_ZTSN2RB8objc_ptrIP7NSErrorEE
++ ___destroy_helper_block_e8_32c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7NSErrorEEE40c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE
++ ___destroy_helper_block_e8_40c46_ZTSN2RB14refcounted_ptrINS_13ImageProviderEEE
++ ___destroy_helper_block_e8_40c46_ZTSN2RB14refcounted_ptrINS_13ImageProviderEEE.cold.1
++ ___destroy_helper_block_e8_40c61_ZTSN2RB8objc_ptrIPU28objcproto17OS_dispatch_queue8NSObjectEE48c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7CGImageEEE
++ ___destroy_helper_block_e8_48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE80c30_ZTSN2RB8objc_ptrIP8NSStringEE120c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE128c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE136c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7NSErrorEEE144c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE
++ ___destroy_helper_block_e8_48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE80c30_ZTSN2RB8objc_ptrIP8NSStringEE120c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE128c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE136c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7NSErrorEEE144c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE.cold.1
++ _dyld_shared_cache_some_image_overridden
++ _objc_msgSend$_commandBufferError:failedBefore:
++ _objc_msgSend$allocatedSize
++ _objc_msgSend$domain
++ _objc_msgSend$heapTextureSizeAndAlignWithDescriptor:
++ _objc_msgSend$makeAliasable
++ _objc_msgSend$newHeapWithDescriptor:
++ _objc_msgSend$setHazardTrackingMode:
++ _objc_msgSend$usedSize
++ _objc_retain_x28
+- GCC_except_table113
+- GCC_except_table149
+- GCC_except_table195
+- GCC_except_table61
+- GCC_except_table78
+- GCC_except_table83
+- __ZN2RB10RenderPass14set_attachmentENS0_10AttachmentEPNS_7TextureEj14MTLPixelFormat
+- __ZN2RB10RenderPassC1ERKNS_12RenderParamsEPNS_7TextureEjNS0_12InitialStateE14MTLPixelFormat
+- __ZN2RB10RenderPassC2ERKNS_12RenderParamsEPNS_7TextureEjNS0_12InitialStateE14MTLPixelFormat
+- __ZN2RB11RenderFrame21add_completed_handlerEU13block_pointerFvvE
+- __ZN2RB12vImageBuffer12apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fS3_jE3$_6EEvRKT_
+- __ZN2RB12vImageBufferC1ERKS0_
+- __ZN2RB13ImageProvider22start_rendering_lockedEbRNSt3__111unique_lockINS1_5mutexEEE.cold.3
+- __ZN2RB6Device20command_buffer_errorEP7NSErrorPU22objcproto11RBEncodable11objc_object
+- __ZN2RB6Device20command_buffer_errorEP7NSErrorPU22objcproto11RBEncodable11objc_object.cold.1
+- __ZN2RB6Device22add_frame_continuationEjNS0_16ContinuationTypeEU13block_pointerFvvE
+- __ZN2RB6Device27dispatch_frame_continuationEjPU27objcproto16MTLCommandBuffer11objc_objectNS0_16ContinuationTypeE
+- __ZN2RB6Symbol10tags_mergeERNS_6vectorINS0_3TagELm4EjEENSt3__14spanIKS2_Lm18446744073709551615EEEj
+- __ZN2RB6vectorINS_8objc_ptrIU13block_pointerFvvEEELm2EmE12reserve_slowEm
+- __ZN2RB6vectorINS_8objc_ptrIU13block_pointerFvvEEELm2EmED2Ev
+- __ZN2RB8ResourceC2EPU22objcproto11MTLResource11objc_object
+- __ZN2RB9CGContext10apply_blurEfjRNS_6cf_ptrIP9CGContextEE
+- __ZNK2RB6Symbol5Glyph5Layer8containsENS0_3TagE
+- __ZZN2RB18SharedSurfaceGroup16relocate_surfaceEPNS_13SharedSurfaceEbjENK3$_0clES2_Dv2_i.cold.2
+- __ZZN2RB6Symbol9Animation21infer_replace_subtypeERKNS0_5ModelES4_ENK3$_1clERKNS0_5GlyphERNS_6vectorINS0_3TagELm4EjEESC_SA_
+- ___44-[RBLayer displayWithBounds:flags:callback:]_block_invoke_2.39
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke.51
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke.53
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_2.55
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_2.59
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_3.56
+- ___block_descriptor_159_e8_32o40o48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE80c30_ZTSN2RB8objc_ptrIP8NSStringEE120c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE128c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE136c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE_e5_v8?0l
+- ___block_descriptor_40_e8_32b_e9_v16?0^v8ls32l8
+- ___block_descriptor_49_e8_32b_e5_v8?0ls32l8
+- ___block_descriptor_68_e8_32c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE40c38_ZTSN2RB14refcounted_ptrINS_6DeviceEEE48c59_ZTSN2RB8objc_ptrIPU22objcproto11RBEncodable11objc_objectEE_e28_v16?0"<MTLCommandBuffer>"8l
+- ___copy_helper_block_e8_48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE80c30_ZTSN2RB8objc_ptrIP8NSStringEE120c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE128c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE136c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE
+- ___copy_helper_block_e8_48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE80c30_ZTSN2RB8objc_ptrIP8NSStringEE120c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE128c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE136c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE.cold.1
+- ___destroy_helper_block_e8_48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE80c30_ZTSN2RB8objc_ptrIP8NSStringEE120c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE128c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE136c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE
+- ___destroy_helper_block_e8_48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE80c30_ZTSN2RB8objc_ptrIP8NSStringEE120c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE128c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE136c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE.cold.1
+- _vImageOverwriteChannels_ARGB16U
+- _vImageSepConvolve_Planar16F
+- _vImageSepConvolve_PlanarF
+CStrings:
++ "..."
++ "4 0#3"
++ "7.1.9"
++ "Draw %s%x.%x P%d,%ux%u@%u S%d,%u D%d"
++ "ImageProvider %p received error, retrying once"
++ "RBLayer %p: access error, redraw when visible"
++ "RBLayer %p: error, failed before %{bool}d"
++ "RB_USE_HEAPS"
++ "Render.%d %dx%d %x %x D%d S%d F%d"
++ "State %d;"
++ "U"
++ "_commandBufferError:failedBefore:"
++ "_error_handler"
++ "_failed_before"
++ "allocated %d KB buffer"
++ "allocated %d KB heap"
++ "allocated %d KB image buffer"
++ "allocated %d KB read-only buffer"
++ "allocated %d KB texture (%dx%d %s)"
++ "allocatedSize"
++ "allocations"
++ "command buffer error: %u, %u, %d, %s"
++ "command buffer error: %u, %u, %d, %{public}s"
++ "copy-shared-surface"
++ "domain"
++ "enabling extra error reporting"
++ "errorHandler"
++ "filter-layer"
++ "heapTextureSizeAndAlignWithDescriptor:"
++ "invalid separable convolution"
++ "makeAliasable"
++ "newHeapWithDescriptor:"
++ "no debug info"
++ "rb:%s.%d"
++ "rb:clear-texture"
++ "rb:distance-lut"
++ "rb:gamma-lut"
++ "rb:heap-texture"
++ "rb:index-buffer"
++ "rb:invalid-texture"
++ "rb:memoryless-texture"
++ "rb:noise-texture"
++ "resolve"
++ "setErrorHandler:"
++ "setHazardTrackingMode:"
++ "shared-heap"
++ "unable to create heap: %ld"
++ "usedSize"
++ "v16@?0@\"NSError\"8"
++ "v20@?0^v8B16"
++ "v28@0:8@\"NSError\"16B24"
++ "v28@0:8@16B24"
++ "{objc_ptr<void (^)(NSError *)>=\"_p\"@?}"
+- "4 0#2"
+- "7.1.4.1.103"
+- "Draw [%d] %s%s P:%d,%ux%u@%u S:%d,%u D:%d T:%d B:%d"
+- "Encoder [%d, %d] %s C:%d D:%d S:%d F:%d"
+- "U/"
+- "clear-texture"
+- "command buffer error: %ld, %@"
+- "distance-lut"
+- "gamma-lut"
+- "index-buffer"
+- "invalid-texture"
+- "noise-texture"
+- "shared-surface-copy"
+- "variable-blur-downsample"
+
+```

@@ -1,0 +1,43 @@
+## WeatherAppIntents
+
+> `/private/var/staged_system_apps/Weather.app/Extensions/WeatherAppIntents.appex/WeatherAppIntents`
+
+```diff
+
+-974.0.0.0.0
++979.0.0.0.0
+   __TEXT.__text: 0x2980
+   __TEXT.__auth_stubs: 0x560
+   __TEXT.__const: 0x26a
+
+   __DATA_CONST.__auth_got: 0x2b0
+   __DATA_CONST.__got: 0xd8
+   __DATA_CONST.__auth_ptr: 0x170
+-  __DATA_CONST.__const: 0x188
++  __DATA_CONST.__const: 0x190
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA.__objc_const: 0x148
+
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EC67D504-4205-3C43-B4E9-49CE4F1D74A0
++  UUID: 1F929DBA-1B69-3BB1-AAC5-746772C7E3D1
+   Functions: 80
+-  Symbols:   51
++  Symbols:   52
+   CStrings:  5
+ 
+Symbols:
++ __swift_FORCE_LOAD_$_swiftCoreImage
+
+```

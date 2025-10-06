@@ -1,0 +1,80 @@
+## CalendarWidget
+
+> `/System/Library/PrivateFrameworks/CalendarWidget.framework/CalendarWidget`
+
+```diff
+
+-376.1.3.0.0
+-  __TEXT.__text: 0x111568
++376.1.6.0.0
++  __TEXT.__text: 0x111050
+   __TEXT.__auth_stubs: 0x2a30
+   __TEXT.__objc_methlist: 0x7a0
+-  __TEXT.__const: 0x7794
++  __TEXT.__const: 0x77c4
+   __TEXT.__constg_swiftt: 0x2e2c
+-  __TEXT.__swift5_typeref: 0x19110
++  __TEXT.__swift5_typeref: 0x190c4
+   __TEXT.__swift5_builtin: 0xc8
+-  __TEXT.__swift5_reflstr: 0x28c7
+-  __TEXT.__swift5_fieldmd: 0x28ac
++  __TEXT.__swift5_reflstr: 0x28d7
++  __TEXT.__swift5_fieldmd: 0x28b8
+   __TEXT.__swift5_assocty: 0x948
+   __TEXT.__swift5_capture: 0x604
+   __TEXT.__cstring: 0x509e
+
+   __TEXT.__swift_as_ret: 0x20
+   __TEXT.__oslogstring: 0x64f
+   __TEXT.__swift5_protos: 0x14
+-  __TEXT.__unwind_info: 0x2030
++  __TEXT.__unwind_info: 0x2038
+   __TEXT.__eh_frame: 0xc94
+   __TEXT.__objc_classname: 0x74
+   __TEXT.__objc_methname: 0x10ad
+
+   __AUTH_CONST.__objc_const: 0x2250
+   __AUTH.__objc_data: 0x4a0
+   __AUTH.__data: 0x6b8
+-  __DATA.__data: 0xf58
+-  __DATA.__bss: 0xe30
++  __DATA.__data: 0xe48
++  __DATA.__bss: 0xdc0
+   __DATA.__common: 0x88
+   __DATA_DIRTY.__objc_data: 0x6d0
+-  __DATA_DIRTY.__data: 0x6510
+-  __DATA_DIRTY.__bss: 0x5200
++  __DATA_DIRTY.__data: 0x65f0
++  __DATA_DIRTY.__bss: 0x5280
+   __DATA_DIRTY.__common: 0x2a8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 819E0994-4C10-3B71-9FF8-2068DEF16CB3
+-  Functions: 3547
+-  Symbols:   2131
++  UUID: CE181146-93D2-301C-8665-248FF48E876C
++  Functions: 3549
++  Symbols:   2129
+   CStrings:  628
+ 
+Symbols:
++ _get_witness_table 14CalendarWidget26ContentSizeCategoryLimiter33_D6BED2449261B9622FFF3261B859996DLLVy7SwiftUI08ModifiedC0VyAA22WideMultidayEventsViewVAE14_PaddingLayoutVGGAE0R0HPyHC.6
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE19containerBackground3for9alignment7contentQrAA09ContainerG9PlacementV_AA9AlignmentVqd__yXEtAaDRd__lFQOyAA5GroupVyACyAE9WidgetKitE9widgetURLyQr10Foundation0R0VSgFQOy13CalendarUIKit09CUIKMonthE0V_Qo_AA14_PaddingLayoutVGG_AA06_ShapeE0VyAA9RectangleVAA0G5StyleVGQo_AA30_EnvironmentKeyWritingModifierVyAR0T0VGGAaDHPqd0__AaDHD3_A9_HO_A14_AA0E8ModifierHPyHCHC.28
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA012_ConditionalD0VyAGy14CalendarWidget015InlineNextEventD4ViewVAH08CircularjkdL0VGAGyAH011RectangularjkdL0Vs5NeverOGGGAA30_EnvironmentKeyWritingModifierVy10Foundation0G0VGGAA0L0HPAtAA0_HPAsAA0_HPAmAA0_HPAjAA0_HPyHC_AlAA0_HPyHCHC_ArAA0_HPAoAA0_HPyHC_AqAA0_HpyHCHCHC_HC_AzA0lS0HPyHCHC.24
++ _symbolic _____y_____y__________GG 14CalendarWidget26ContentSizeCategoryLimiter33_D6BED2449261B9622FFF3261B859996DLLV 7SwiftUI08ModifiedC0V AA22WideMultidayEventsViewV AE14_PaddingLayoutV
++ _symbolic _____y_____y_____yAAy_____y______Qo______GG______y__________GQo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE19containerBackground3for9alignment7contentQrAA09ContainerG9PlacementV_AA9AlignmentVqd__yXEtAaDRd__lFQO AA5GroupV AE9WidgetKitE9widgetURLyQr10Foundation0R0VSgFQO 13CalendarUIKit09CUIKMonthE0V AA14_PaddingLayoutV AA06_ShapeE0V AA9RectangleV AA0G5StyleV AA30_EnvironmentKeyWritingModifierV AR0T0V
++ _symbolic _____y_____y_____y______Qo______GG 7SwiftUI5GroupV AA15ModifiedContentV AA4ViewP9WidgetKitE9widgetURLyQr10Foundation0J0VSgFQO 13CalendarUIKit09CUIKMonthF0V AA14_PaddingLayoutV
+- _get_witness_table 14CalendarWidget26ContentSizeCategoryLimiter33_D6BED2449261B9622FFF3261B859996DLLVy7SwiftUI08ModifiedC0VyAGyAA22WideMultidayEventsViewVAE14_PaddingLayoutVGAKGGAE0R0HPyHC.6
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE19containerBackground3for9alignment7contentQrAA09ContainerG9PlacementV_AA9AlignmentVqd__yXEtAaDRd__lFQOyAA5GroupVyACyACyAE9WidgetKitE9widgetURLyQr10Foundation0R0VSgFQOy13CalendarUIKit09CUIKMonthE0V_Qo_AA14_PaddingLayoutVGA_GG_AA06_ShapeE0VyAA9RectangleVAA0G5StyleVGQo_AA30_EnvironmentKeyWritingModifierVyAR0T0VGGAaDHPqd0__AaDHD3_A10_HO_A15_AA0E8ModifierHPyHCHC.28
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA012_ConditionalD0VyAGy14CalendarWidget015InlineNextEventD4ViewVAH08CircularjkdL0VGAGyAH011RectangularjkdL0Vs5NeverOGGGAA30_EnvironmentKeyWritingModifierVy10Foundation0G0VGGAA0L0HPAtAA0_HPAsAA0_HPAmAA0_HPAjAA0_HPyHC_AlAA0_HPyHCHC_ArAA0_HPAoAA0_HPyHC_AqAA0_HpyHCHCHC_HC_AzA0lS0HPyHCHC.20
+- _symbolic _____yAAy__________GACG 7SwiftUI15ModifiedContentV 14CalendarWidget22WideMultidayEventsViewV AA14_PaddingLayoutV
+- _symbolic _____yAAy_____y______Qo______GADG 7SwiftUI15ModifiedContentV AA4ViewP9WidgetKitE9widgetURLyQr10Foundation0I0VSgFQO 13CalendarUIKit09CUIKMonthE0V AA14_PaddingLayoutV
+- _symbolic _____y_____yABy__________GADGG 14CalendarWidget26ContentSizeCategoryLimiter33_D6BED2449261B9622FFF3261B859996DLLV 7SwiftUI08ModifiedC0V AA22WideMultidayEventsViewV AE14_PaddingLayoutV
+- _symbolic _____y_____yABy_____y______Qo______GAEGG 7SwiftUI5GroupV AA15ModifiedContentV AA4ViewP9WidgetKitE9widgetURLyQr10Foundation0J0VSgFQO 13CalendarUIKit09CUIKMonthF0V AA14_PaddingLayoutV
+- _symbolic _____y_____y_____yAAyAAy_____y______Qo______GAEGG______y__________GQo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE19containerBackground3for9alignment7contentQrAA09ContainerG9PlacementV_AA9AlignmentVqd__yXEtAaDRd__lFQO AA5GroupV AE9WidgetKitE9widgetURLyQr10Foundation0R0VSgFQO 13CalendarUIKit09CUIKMonthE0V AA14_PaddingLayoutV AA06_ShapeE0V AA9RectangleV AA0G5StyleV AA30_EnvironmentKeyWritingModifierV AR0T0V
+
+```

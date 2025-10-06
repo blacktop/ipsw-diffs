@@ -1,0 +1,1201 @@
+## AssistantServices
+
+> `/System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices`
+
+```diff
+
+-3505.14.3.1.2
+-  __TEXT.__text: 0x1af67c
++3505.22.1.0.0
++  __TEXT.__text: 0x1b0070
+   __TEXT.__auth_stubs: 0x1560
+-  __TEXT.__objc_methlist: 0x1dd4c
++  __TEXT.__objc_methlist: 0x1ddcc
+   __TEXT.__const: 0x488
+   __TEXT.__dlopen_cstrs: 0x484
+   __TEXT.__gcc_except_tab: 0x2b64
+-  __TEXT.__cstring: 0x3dd35
+-  __TEXT.__oslogstring: 0x116af
++  __TEXT.__cstring: 0x3df32
++  __TEXT.__oslogstring: 0x11837
+   __TEXT.__ustring: 0x2ac
+-  __TEXT.__unwind_info: 0x7dd8
+-  __TEXT.__objc_classname: 0x4f80
+-  __TEXT.__objc_methname: 0x3b4ea
+-  __TEXT.__objc_methtype: 0xab9a
+-  __TEXT.__objc_stubs: 0x24740
+-  __DATA_CONST.__got: 0x1650
++  __TEXT.__unwind_info: 0x7de8
++  __TEXT.__objc_classname: 0x4f83
++  __TEXT.__objc_methname: 0x3b6ec
++  __TEXT.__objc_methtype: 0xabb1
++  __TEXT.__objc_stubs: 0x247c0
++  __DATA_CONST.__got: 0x1658
+   __DATA_CONST.__const: 0x83f8
+   __DATA_CONST.__objc_classlist: 0xde8
+   __DATA_CONST.__objc_catlist: 0x2a0
+   __DATA_CONST.__objc_protolist: 0x560
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xc390
++  __DATA_CONST.__objc_selrefs: 0xc3e0
+   __DATA_CONST.__objc_protorefs: 0x148
+   __DATA_CONST.__objc_superrefs: 0xe00
+   __DATA_CONST.__objc_arraydata: 0x20e8
+   __AUTH_CONST.__auth_got: 0xac0
+   __AUTH_CONST.__const: 0x3ae0
+-  __AUTH_CONST.__cfstring: 0x27300
+-  __AUTH_CONST.__objc_const: 0x33930
++  __AUTH_CONST.__cfstring: 0x273a0
++  __AUTH_CONST.__objc_const: 0x339c8
+   __AUTH_CONST.__objc_intobj: 0x2310
+   __AUTH_CONST.__objc_dictobj: 0xbb8
+   __AUTH_CONST.__objc_arrayobj: 0x5b8
+   __AUTH_CONST.__objc_doubleobj: 0x30
+-  __AUTH.__objc_data: 0x7bc0
++  __AUTH.__objc_data: 0x7b98
+   __AUTH.__data: 0x288
+-  __DATA.__objc_ivar: 0x256c
++  __DATA.__objc_ivar: 0x2578
+   __DATA.__data: 0x41c8
+-  __DATA.__bss: 0x12e8
++  __DATA.__bss: 0x12e0
+   __DATA.__common: 0x18
+-  __DATA_DIRTY.__objc_data: 0xf50
++  __DATA_DIRTY.__objc_data: 0xf78
+   __DATA_DIRTY.__data: 0x18
+   __DATA_DIRTY.__common: 0xf0
+-  __DATA_DIRTY.__bss: 0x200
++  __DATA_DIRTY.__bss: 0x208
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8E83AB90-0A61-39DA-87F7-6BA60061158C
+-  Functions: 11810
+-  Symbols:   37593
+-  CStrings:  24290
++  UUID: 9A830166-6561-3D3D-8F43-FD97BA54CB11
++  Functions: 11821
++  Symbols:   37623
++  CStrings:  24326
+ 
+Symbols:
++ -[AFConnection _emitServerExecutionValuesReportedMessage:requestUUID:]
++ -[AFMultiUserConnection getLoggableMultiUserSharedUserIdForSharedUserID:completion:]
++ -[AFPreferences getOverrideSiriSharedUserIdForClassicMuxEventLogging]
++ -[AFPreferences setOverrideSiriSharedUserIdForClassicMuxEventLogging:]
++ -[AFSiriWorkoutVoiceFeedback description]
++ -[AFSiriWorkoutVoiceFeedback feedbackIntensity]
++ -[AFSiriWorkoutVoiceFeedback initWithVoiceFeedbackIdentifier:text:voiceName:voiceLanguage:intensity:]
++ -[AFSiriWorkoutVoiceFeedback voiceLanguage]
++ -[AFSiriWorkoutVoiceFeedback voiceName]
++ GCC_except_table10134
++ GCC_except_table10136
++ GCC_except_table10139
++ GCC_except_table10148
++ GCC_except_table10174
++ GCC_except_table10195
++ GCC_except_table1021
++ GCC_except_table10388
++ GCC_except_table10449
++ GCC_except_table10453
++ GCC_except_table10455
++ GCC_except_table10458
++ GCC_except_table10464
++ GCC_except_table10468
++ GCC_except_table10474
++ GCC_except_table10752
++ GCC_except_table1087
++ GCC_except_table10920
++ GCC_except_table1093
++ GCC_except_table10933
++ GCC_except_table11122
++ GCC_except_table11261
++ GCC_except_table11274
++ GCC_except_table11312
++ GCC_except_table11570
++ GCC_except_table11714
++ GCC_except_table11733
++ GCC_except_table11736
++ GCC_except_table11738
++ GCC_except_table1234
++ GCC_except_table1236
++ GCC_except_table1423
++ GCC_except_table1460
++ GCC_except_table1470
++ GCC_except_table1487
++ GCC_except_table1491
++ GCC_except_table1573
++ GCC_except_table1579
++ GCC_except_table1582
++ GCC_except_table1647
++ GCC_except_table1716
++ GCC_except_table1738
++ GCC_except_table1742
++ GCC_except_table1984
++ GCC_except_table2028
++ GCC_except_table2196
++ GCC_except_table2249
++ GCC_except_table2257
++ GCC_except_table2315
++ GCC_except_table2698
++ GCC_except_table2705
++ GCC_except_table2709
++ GCC_except_table2711
++ GCC_except_table2756
++ GCC_except_table2758
++ GCC_except_table2764
++ GCC_except_table2770
++ GCC_except_table2774
++ GCC_except_table2781
++ GCC_except_table2783
++ GCC_except_table2788
++ GCC_except_table2790
++ GCC_except_table2794
++ GCC_except_table2809
++ GCC_except_table2831
++ GCC_except_table2833
++ GCC_except_table2835
++ GCC_except_table2837
++ GCC_except_table2839
++ GCC_except_table2841
++ GCC_except_table2843
++ GCC_except_table2886
++ GCC_except_table2911
++ GCC_except_table2966
++ GCC_except_table2996
++ GCC_except_table3292
++ GCC_except_table3350
++ GCC_except_table3473
++ GCC_except_table3486
++ GCC_except_table3487
++ GCC_except_table3499
++ GCC_except_table3506
++ GCC_except_table3510
++ GCC_except_table3516
++ GCC_except_table3604
++ GCC_except_table3606
++ GCC_except_table3623
++ GCC_except_table3629
++ GCC_except_table3671
++ GCC_except_table3683
++ GCC_except_table3753
++ GCC_except_table3863
++ GCC_except_table3870
++ GCC_except_table3884
++ GCC_except_table3921
++ GCC_except_table4007
++ GCC_except_table4061
++ GCC_except_table4484
++ GCC_except_table4485
++ GCC_except_table4776
++ GCC_except_table4842
++ GCC_except_table4905
++ GCC_except_table4915
++ GCC_except_table4926
++ GCC_except_table4939
++ GCC_except_table501
++ GCC_except_table5064
++ GCC_except_table520
++ GCC_except_table5421
++ GCC_except_table5488
++ GCC_except_table5489
++ GCC_except_table5502
++ GCC_except_table5503
++ GCC_except_table5504
++ GCC_except_table5510
++ GCC_except_table5548
++ GCC_except_table5554
++ GCC_except_table5560
++ GCC_except_table5632
++ GCC_except_table5634
++ GCC_except_table5672
++ GCC_except_table5811
++ GCC_except_table5910
++ GCC_except_table5931
++ GCC_except_table5933
++ GCC_except_table5997
++ GCC_except_table5999
++ GCC_except_table6001
++ GCC_except_table6003
++ GCC_except_table6017
++ GCC_except_table6023
++ GCC_except_table6146
++ GCC_except_table6153
++ GCC_except_table6510
++ GCC_except_table6525
++ GCC_except_table6532
++ GCC_except_table6548
++ GCC_except_table6651
++ GCC_except_table6660
++ GCC_except_table6699
++ GCC_except_table6731
++ GCC_except_table6801
++ GCC_except_table703
++ GCC_except_table706
++ GCC_except_table713
++ GCC_except_table7277
++ GCC_except_table7280
++ GCC_except_table7283
++ GCC_except_table7286
++ GCC_except_table7289
++ GCC_except_table7496
++ GCC_except_table7499
++ GCC_except_table7501
++ GCC_except_table7513
++ GCC_except_table7586
++ GCC_except_table7592
++ GCC_except_table7762
++ GCC_except_table7868
++ GCC_except_table7898
++ GCC_except_table8087
++ GCC_except_table8092
++ GCC_except_table8156
++ GCC_except_table8262
++ GCC_except_table832
++ GCC_except_table8691
++ GCC_except_table8745
++ GCC_except_table8789
++ GCC_except_table8877
++ GCC_except_table8917
++ GCC_except_table8948
++ GCC_except_table8953
++ GCC_except_table8954
++ GCC_except_table8958
++ GCC_except_table9204
++ GCC_except_table9274
++ GCC_except_table9280
++ GCC_except_table9315
++ GCC_except_table9318
++ GCC_except_table9396
++ GCC_except_table9425
++ GCC_except_table9497
++ GCC_except_table9500
++ GCC_except_table9504
++ GCC_except_table9613
++ GCC_except_table9617
++ GCC_except_table9650
++ GCC_except_table9695
++ _BiomeLibraryLibraryCore.45771
++ _BiomeLibraryLibraryCore.frameworkLibrary.27019
++ _BiomeLibraryLibraryCore.frameworkLibrary.45774
++ _BluetoothManagerLibraryCore.frameworkLibrary.20256
++ _CoreServicesLibrary.frameworkLibrary.46536
++ _DataCollectionServicesLibrary.sLib.46548
++ _DataCollectionServicesLibrary.sOnce.46547
++ _IntentsLibrary.15043
++ _IntentsLibraryCore.frameworkLibrary.15047
++ _IntentsLibraryCore.frameworkLibrary.31094
++ _LSApplicationProxyFunction.34595
++ _LSApplicationProxyFunction.46542
++ _MediaExperienceLibrary.27470
++ _MediaExperienceLibraryCore.frameworkLibrary.27497
++ _OBJC_CLASS_$_ORCHSchemaORCHServerExecutionValuesReported
++ _OBJC_IVAR_$_AFSiriWorkoutVoiceFeedback._feedbackIntensity
++ _OBJC_IVAR_$_AFSiriWorkoutVoiceFeedback._voiceLanguage
++ _OBJC_IVAR_$_AFSiriWorkoutVoiceFeedback._voiceName
++ _SoftBiomeLibrary.45757
++ _VTPreferencesFunction.46757
++ _VoiceTriggerLibrary.frameworkLibrary.46751
++ ___27-[AFConnection _connection]_block_invoke.234
++ ___27-[AFConnection _connection]_block_invoke_2.235
++ ___38-[AFConnection _startRequestWithInfo:]_block_invoke.326
++ ___38-[AFConnection _startRequestWithInfo:]_block_invoke.331
++ ___38-[AFConnection _startRequestWithInfo:]_block_invoke_2.327
++ ___50-[AFConnection startAcousticIDRequestWithOptions:]_block_invoke.349
++ ___50-[AFConnection startAcousticIDRequestWithOptions:]_block_invoke_2.350
++ ___58-[AFConnection acquireAudioSessionWithContext:completion:]_block_invoke.312
++ ___62-[AFConnection forceAudioSessionActiveWithContext:completion:]_block_invoke.299
++ ___62-[AFConnection forceAudioSessionActiveWithContext:completion:]_block_invoke.306
++ ___62-[AFConnection forceAudioSessionActiveWithContext:completion:]_block_invoke_2.310
++ ___64-[AFConnectionClientServiceDelegate requestHandleCommand:reply:]_block_invoke.758
++ ___80-[AFConnection startSpeechPronunciationRequestWithOptions:pronunciationContext:]_block_invoke.347
++ ___80-[AFConnection startSpeechPronunciationRequestWithOptions:pronunciationContext:]_block_invoke_2.348
++ ___84-[AFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke.344
++ ___84-[AFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke.346
++ ___84-[AFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke_2.345
++ ___84-[AFMultiUserConnection getLoggableMultiUserSharedUserIdForSharedUserID:completion:]_block_invoke
++ ___84-[AFMultiUserConnection getLoggableMultiUserSharedUserIdForSharedUserID:completion:]_block_invoke_2
++ ___90-[AFConnection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:]_block_invoke.122
++ ___90-[AFConnection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:]_block_invoke.126
++ ___BiomeLibraryLibraryCore_block_invoke.27020
++ ___BiomeLibraryLibraryCore_block_invoke.45775
++ ___Block_byref_object_copy_.10489
++ ___Block_byref_object_copy_.10682
++ ___Block_byref_object_copy_.11314
++ ___Block_byref_object_copy_.11892
++ ___Block_byref_object_copy_.13158
++ ___Block_byref_object_copy_.13431
++ ___Block_byref_object_copy_.16423
++ ___Block_byref_object_copy_.16953
++ ___Block_byref_object_copy_.17464
++ ___Block_byref_object_copy_.19500
++ ___Block_byref_object_copy_.19741
++ ___Block_byref_object_copy_.20272
++ ___Block_byref_object_copy_.21374
++ ___Block_byref_object_copy_.22322
++ ___Block_byref_object_copy_.23002
++ ___Block_byref_object_copy_.23420
++ ___Block_byref_object_copy_.26160
++ ___Block_byref_object_copy_.29007
++ ___Block_byref_object_copy_.30677
++ ___Block_byref_object_copy_.35022
++ ___Block_byref_object_copy_.35468
++ ___Block_byref_object_copy_.37693
++ ___Block_byref_object_copy_.38881
++ ___Block_byref_object_copy_.46681
++ ___Block_byref_object_copy_.47942
++ ___Block_byref_object_copy_.48678
++ ___Block_byref_object_copy_.48960
++ ___Block_byref_object_copy_.5375
++ ___Block_byref_object_copy_.5781
++ ___Block_byref_object_copy_.7916
++ ___Block_byref_object_copy_.8765
++ ___Block_byref_object_copy_.9874
++ ___Block_byref_object_dispose_.10490
++ ___Block_byref_object_dispose_.10683
++ ___Block_byref_object_dispose_.11315
++ ___Block_byref_object_dispose_.11893
++ ___Block_byref_object_dispose_.13159
++ ___Block_byref_object_dispose_.13432
++ ___Block_byref_object_dispose_.16424
++ ___Block_byref_object_dispose_.16954
++ ___Block_byref_object_dispose_.17465
++ ___Block_byref_object_dispose_.19501
++ ___Block_byref_object_dispose_.19742
++ ___Block_byref_object_dispose_.20273
++ ___Block_byref_object_dispose_.21375
++ ___Block_byref_object_dispose_.22323
++ ___Block_byref_object_dispose_.23003
++ ___Block_byref_object_dispose_.23421
++ ___Block_byref_object_dispose_.26161
++ ___Block_byref_object_dispose_.29008
++ ___Block_byref_object_dispose_.30678
++ ___Block_byref_object_dispose_.35023
++ ___Block_byref_object_dispose_.35469
++ ___Block_byref_object_dispose_.37694
++ ___Block_byref_object_dispose_.38882
++ ___Block_byref_object_dispose_.46682
++ ___Block_byref_object_dispose_.47943
++ ___Block_byref_object_dispose_.48679
++ ___Block_byref_object_dispose_.48961
++ ___Block_byref_object_dispose_.5376
++ ___Block_byref_object_dispose_.5782
++ ___Block_byref_object_dispose_.7917
++ ___Block_byref_object_dispose_.8766
++ ___Block_byref_object_dispose_.9875
++ ___BluetoothManagerLibraryCore_block_invoke.20257
++ ___DataCollectionServicesLibrary_block_invoke.46550
++ ___IntentsLibraryCore_block_invoke.15048
++ ___IntentsLibraryCore_block_invoke.31095
++ ___MediaExperienceLibraryCore_block_invoke.27498
++ ___block_literal_global.101.38993
++ ___block_literal_global.10218
++ ___block_literal_global.10275
++ ___block_literal_global.104.38987
++ ___block_literal_global.10427
++ ___block_literal_global.10494
++ ___block_literal_global.108.22447
++ ___block_literal_global.10989
++ ___block_literal_global.112.10422
++ ___block_literal_global.112.22441
++ ___block_literal_global.11527
++ ___block_literal_global.11606
++ ___block_literal_global.11633
++ ___block_literal_global.11708
++ ___block_literal_global.118.33714
++ ___block_literal_global.11912
++ ___block_literal_global.120.10359
++ ___block_literal_global.120.22434
++ ___block_literal_global.12168
++ ___block_literal_global.12208
++ ___block_literal_global.126.22427
++ ___block_literal_global.12715
++ ___block_literal_global.128.22424
++ ___block_literal_global.12859
++ ___block_literal_global.129.33759
++ ___block_literal_global.132.33762
++ ___block_literal_global.134.22417
++ ___block_literal_global.1346
++ ___block_literal_global.13581
++ ___block_literal_global.136.22414
++ ___block_literal_global.13776
++ ___block_literal_global.138.33753
++ ___block_literal_global.13933
++ ___block_literal_global.1425
++ ___block_literal_global.14264
++ ___block_literal_global.14292
++ ___block_literal_global.144.22407
++ ___block_literal_global.144.33719
++ ___block_literal_global.14401
++ ___block_literal_global.15.23012
++ ___block_literal_global.15.27007
++ ___block_literal_global.15.44579
++ ___block_literal_global.1552
++ ___block_literal_global.15896
++ ___block_literal_global.16256
++ ___block_literal_global.16460
++ ___block_literal_global.16597
++ ___block_literal_global.16766
++ ___block_literal_global.168.33729
++ ___block_literal_global.17002
++ ___block_literal_global.17037
++ ___block_literal_global.171.33712
++ ___block_literal_global.17457
++ ___block_literal_global.18476
++ ___block_literal_global.18495
++ ___block_literal_global.18843
++ ___block_literal_global.18986
++ ___block_literal_global.19025
++ ___block_literal_global.19057
++ ___block_literal_global.193.46134
++ ___block_literal_global.1956
++ ___block_literal_global.1959
++ ___block_literal_global.19607
++ ___block_literal_global.19682
++ ___block_literal_global.19743
++ ___block_literal_global.2021
++ ___block_literal_global.2024
++ ___block_literal_global.203.46144
++ ___block_literal_global.20314
++ ___block_literal_global.20556
++ ___block_literal_global.20693
++ ___block_literal_global.2071
++ ___block_literal_global.2081
++ ___block_literal_global.20868
++ ___block_literal_global.20972
++ ___block_literal_global.2100
++ ___block_literal_global.21096
++ ___block_literal_global.21126
++ ___block_literal_global.2125
++ ___block_literal_global.2128
++ ___block_literal_global.2143
++ ___block_literal_global.21527
++ ___block_literal_global.219.46160
++ ___block_literal_global.22512
++ ___block_literal_global.23020
++ ___block_literal_global.241.46175
++ ___block_literal_global.2566
++ ___block_literal_global.26237
++ ___block_literal_global.26264
++ ___block_literal_global.26530
++ ___block_literal_global.267
++ ___block_literal_global.26728
++ ___block_literal_global.26895
++ ___block_literal_global.27027
++ ___block_literal_global.27214
++ ___block_literal_global.27526
++ ___block_literal_global.28357
++ ___block_literal_global.2847
++ ___block_literal_global.28543
++ ___block_literal_global.287
++ ___block_literal_global.28965
++ ___block_literal_global.29043
++ ___block_literal_global.29138
++ ___block_literal_global.293
++ ___block_literal_global.2942
++ ___block_literal_global.29458
++ ___block_literal_global.29521
++ ___block_literal_global.30163
++ ___block_literal_global.302
++ ___block_literal_global.30290
++ ___block_literal_global.30389
++ ___block_literal_global.30432
++ ___block_literal_global.31239
++ ___block_literal_global.315
++ ___block_literal_global.317
++ ___block_literal_global.31955
++ ___block_literal_global.3256
++ ___block_literal_global.32884
++ ___block_literal_global.3322
++ ___block_literal_global.33292
++ ___block_literal_global.3347
++ ___block_literal_global.33766
++ ___block_literal_global.33900
++ ___block_literal_global.34.47449
++ ___block_literal_global.34588
++ ___block_literal_global.35182
++ ___block_literal_global.35313
++ ___block_literal_global.35483
++ ___block_literal_global.35554
++ ___block_literal_global.37182
++ ___block_literal_global.37202
++ ___block_literal_global.37624
++ ___block_literal_global.37712
++ ___block_literal_global.38572
++ ___block_literal_global.38601
++ ___block_literal_global.38696
++ ___block_literal_global.38763
++ ___block_literal_global.39000
++ ___block_literal_global.41.22496
++ ___block_literal_global.42.14743
++ ___block_literal_global.43.22493
++ ___block_literal_global.43.47442
++ ___block_literal_global.44583
++ ___block_literal_global.4464
++ ___block_literal_global.45.26903
++ ___block_literal_global.45789
++ ___block_literal_global.4643
++ ___block_literal_global.47.22489
++ ___block_literal_global.47.48975
++ ___block_literal_global.47111
++ ___block_literal_global.47134
++ ___block_literal_global.47288
++ ___block_literal_global.47436
++ ___block_literal_global.477
++ ___block_literal_global.47962
++ ___block_literal_global.48625
++ ___block_literal_global.48983
++ ___block_literal_global.5.48966
++ ___block_literal_global.55.48971
++ ___block_literal_global.5530
++ ___block_literal_global.57.22480
++ ___block_literal_global.5702
++ ___block_literal_global.5769
++ ___block_literal_global.58.32894
++ ___block_literal_global.60.35485
++ ___block_literal_global.63.22477
++ ___block_literal_global.63.35487
++ ___block_literal_global.66.19737
++ ___block_literal_global.68.19733
++ ___block_literal_global.68.22471
++ ___block_literal_global.68.35491
++ ___block_literal_global.6889
++ ___block_literal_global.6960
++ ___block_literal_global.6987
++ ___block_literal_global.71.30352
++ ___block_literal_global.74.22467
++ ___block_literal_global.82.35476
++ ___block_literal_global.8210
++ ___block_literal_global.8247
++ ___block_literal_global.8272
++ ___block_literal_global.8380
++ ___block_literal_global.840
++ ___block_literal_global.8432
++ ___block_literal_global.85.26898
++ ___block_literal_global.856.9968
++ ___block_literal_global.8970
++ ___block_literal_global.92.38989
++ ___block_literal_global.966
++ ___block_literal_global.9777
++ ___block_literal_global.98.38996
++ ___getBMSiriServiceClass_block_invoke.27038
++ ___getBiomeLibrarySymbolLoc_block_invoke.45763
++ ___getINSearchForMessagesIntentIdentifierSymbolLoc_block_invoke.15052
++ ___getINSendMessageIntentIdentifierSymbolLoc_block_invoke.15042
++ ___initLSApplicationProxy_block_invoke.34592
++ ___initLSApplicationProxy_block_invoke.46535
++ ___initVTPreferences_block_invoke.46750
++ _audit_stringBiomeLibrary.27022
++ _audit_stringBiomeLibrary.45777
++ _audit_stringBluetoothManager.20261
++ _audit_stringIntents.15050
++ _audit_stringIntents.31109
++ _audit_stringMediaExperience.27501
++ _classLSApplicationProxy.34589
++ _classLSApplicationProxy.46533
++ _classVTPreferences.46748
++ _getBMSiriServiceClass.softClass.27037
++ _getBiomeLibrarySymbolLoc.ptr.45762
++ _getINSearchForMessagesIntentIdentifier.15040
++ _getINSearchForMessagesIntentIdentifierSymbolLoc.ptr.15051
++ _getINSendMessageIntentIdentifierSymbolLoc.ptr.15041
++ _getLSApplicationProxyClass.34581
++ _getLSApplicationProxyClass.46529
++ _getVTPreferencesClass.46744
++ _initLSApplicationProxy.34586
++ _initLSApplicationProxy.46531
++ _initLSApplicationProxy.sOnce.34587
++ _initLSApplicationProxy.sOnce.46532
++ _initVTPreferences.46746
++ _initVTPreferences.sOnce.46747
++ _objc_msgSend$_emitServerExecutionValuesReportedMessage:requestUUID:
++ _objc_msgSend$getLoggableMultiUserSharedUserIdForSharedUserID:completion:
++ _objc_msgSend$setServerExecutedDomain:
++ _objc_msgSend$setServerExecutionValuesReported:
++ _provider.onceToken.15055
++ _provider.provider.15056
++ _sharedInstance.onceToken.17001
++ _sharedInstance.onceToken.22543
++ _sharedInstance.onceToken.28542
++ _sharedInstance.onceToken.37201
++ _sharedInstance.onceToken.44601
++ _sharedInstance.singleton.44602
++ _sharedManager.onceToken.16459
++ _sharedManager.onceToken.22007
++ _sharedManager.onceToken.32883
++ _sharedManager.result.32885
++ _sharedMonitor.monitor.20328
++ _sharedMonitor.onceToken.19539
++ _sharedMonitor.onceToken.20327
++ _sharedObserver.onceToken.31238
++ _sharedObserver.onceToken.48982
++ _sharedObserver.sharedObserver.31240
++ _sharedObserver.sharedObserver.48984
+- GCC_except_table10126
+- GCC_except_table10128
+- GCC_except_table10131
+- GCC_except_table10140
+- GCC_except_table10166
+- GCC_except_table10187
+- GCC_except_table1020
+- GCC_except_table10380
+- GCC_except_table10441
+- GCC_except_table10445
+- GCC_except_table10447
+- GCC_except_table10450
+- GCC_except_table10456
+- GCC_except_table10460
+- GCC_except_table10466
+- GCC_except_table10741
+- GCC_except_table1086
+- GCC_except_table10909
+- GCC_except_table1092
+- GCC_except_table10922
+- GCC_except_table11111
+- GCC_except_table11250
+- GCC_except_table11263
+- GCC_except_table11301
+- GCC_except_table11559
+- GCC_except_table11703
+- GCC_except_table11722
+- GCC_except_table11725
+- GCC_except_table11727
+- GCC_except_table1233
+- GCC_except_table1235
+- GCC_except_table1422
+- GCC_except_table1459
+- GCC_except_table1469
+- GCC_except_table1486
+- GCC_except_table1490
+- GCC_except_table1572
+- GCC_except_table1578
+- GCC_except_table1581
+- GCC_except_table1646
+- GCC_except_table1715
+- GCC_except_table1737
+- GCC_except_table1741
+- GCC_except_table1983
+- GCC_except_table2027
+- GCC_except_table2195
+- GCC_except_table2248
+- GCC_except_table2256
+- GCC_except_table2314
+- GCC_except_table2695
+- GCC_except_table2702
+- GCC_except_table2706
+- GCC_except_table2708
+- GCC_except_table2753
+- GCC_except_table2755
+- GCC_except_table2761
+- GCC_except_table2767
+- GCC_except_table2771
+- GCC_except_table2775
+- GCC_except_table2780
+- GCC_except_table2785
+- GCC_except_table2787
+- GCC_except_table2791
+- GCC_except_table2803
+- GCC_except_table2828
+- GCC_except_table2830
+- GCC_except_table2832
+- GCC_except_table2834
+- GCC_except_table2836
+- GCC_except_table2838
+- GCC_except_table2840
+- GCC_except_table2883
+- GCC_except_table2908
+- GCC_except_table2963
+- GCC_except_table2993
+- GCC_except_table3289
+- GCC_except_table3347
+- GCC_except_table3470
+- GCC_except_table3483
+- GCC_except_table3484
+- GCC_except_table3496
+- GCC_except_table3503
+- GCC_except_table3504
+- GCC_except_table3513
+- GCC_except_table3601
+- GCC_except_table3603
+- GCC_except_table3620
+- GCC_except_table3626
+- GCC_except_table3668
+- GCC_except_table3680
+- GCC_except_table3750
+- GCC_except_table3860
+- GCC_except_table3867
+- GCC_except_table3881
+- GCC_except_table3918
+- GCC_except_table4004
+- GCC_except_table4058
+- GCC_except_table4478
+- GCC_except_table4482
+- GCC_except_table4773
+- GCC_except_table4839
+- GCC_except_table4902
+- GCC_except_table4912
+- GCC_except_table4923
+- GCC_except_table4936
+- GCC_except_table500
+- GCC_except_table5061
+- GCC_except_table519
+- GCC_except_table5415
+- GCC_except_table5485
+- GCC_except_table5486
+- GCC_except_table5499
+- GCC_except_table5500
+- GCC_except_table5501
+- GCC_except_table5507
+- GCC_except_table5545
+- GCC_except_table5551
+- GCC_except_table5557
+- GCC_except_table5629
+- GCC_except_table5631
+- GCC_except_table5666
+- GCC_except_table5803
+- GCC_except_table5902
+- GCC_except_table5923
+- GCC_except_table5925
+- GCC_except_table5989
+- GCC_except_table5991
+- GCC_except_table5993
+- GCC_except_table5995
+- GCC_except_table6009
+- GCC_except_table6015
+- GCC_except_table6138
+- GCC_except_table6145
+- GCC_except_table6502
+- GCC_except_table6517
+- GCC_except_table6524
+- GCC_except_table6540
+- GCC_except_table6643
+- GCC_except_table6652
+- GCC_except_table6691
+- GCC_except_table6723
+- GCC_except_table6793
+- GCC_except_table702
+- GCC_except_table705
+- GCC_except_table712
+- GCC_except_table7264
+- GCC_except_table7269
+- GCC_except_table7275
+- GCC_except_table7278
+- GCC_except_table7281
+- GCC_except_table7488
+- GCC_except_table7491
+- GCC_except_table7493
+- GCC_except_table7505
+- GCC_except_table7578
+- GCC_except_table7584
+- GCC_except_table7754
+- GCC_except_table7860
+- GCC_except_table7890
+- GCC_except_table8079
+- GCC_except_table8084
+- GCC_except_table8148
+- GCC_except_table8254
+- GCC_except_table831
+- GCC_except_table8683
+- GCC_except_table8737
+- GCC_except_table8781
+- GCC_except_table8869
+- GCC_except_table8909
+- GCC_except_table8940
+- GCC_except_table8945
+- GCC_except_table8946
+- GCC_except_table8950
+- GCC_except_table9196
+- GCC_except_table9266
+- GCC_except_table9272
+- GCC_except_table9307
+- GCC_except_table9310
+- GCC_except_table9388
+- GCC_except_table9417
+- GCC_except_table9489
+- GCC_except_table9492
+- GCC_except_table9496
+- GCC_except_table9601
+- GCC_except_table9605
+- GCC_except_table9642
+- GCC_except_table9687
+- _BiomeLibraryLibraryCore.45774
+- _BiomeLibraryLibraryCore.frameworkLibrary.27017
+- _BiomeLibraryLibraryCore.frameworkLibrary.45777
+- _BluetoothManagerLibraryCore.frameworkLibrary.20292
+- _CoreServicesLibrary.frameworkLibrary.46537
+- _DataCollectionServicesLibrary.sLib.46549
+- _DataCollectionServicesLibrary.sOnce.46548
+- _IntentsLibrary.15080
+- _IntentsLibraryCore.frameworkLibrary.15084
+- _IntentsLibraryCore.frameworkLibrary.31092
+- _LSApplicationProxyFunction.34589
+- _LSApplicationProxyFunction.46543
+- _MediaExperienceLibrary.27468
+- _MediaExperienceLibraryCore.frameworkLibrary.27494
+- _SoftBiomeLibrary.45760
+- _VTPreferencesFunction.46758
+- _VoiceTriggerLibrary.frameworkLibrary.46752
+- ___27-[AFConnection _connection]_block_invoke.230
+- ___27-[AFConnection _connection]_block_invoke_2.231
+- ___38-[AFConnection _startRequestWithInfo:]_block_invoke.322
+- ___38-[AFConnection _startRequestWithInfo:]_block_invoke.327
+- ___38-[AFConnection _startRequestWithInfo:]_block_invoke_2.323
+- ___50-[AFConnection startAcousticIDRequestWithOptions:]_block_invoke.345
+- ___50-[AFConnection startAcousticIDRequestWithOptions:]_block_invoke_2.346
+- ___58-[AFConnection acquireAudioSessionWithContext:completion:]_block_invoke.308
+- ___62-[AFConnection forceAudioSessionActiveWithContext:completion:]_block_invoke.295
+- ___62-[AFConnection forceAudioSessionActiveWithContext:completion:]_block_invoke.302
+- ___62-[AFConnection forceAudioSessionActiveWithContext:completion:]_block_invoke_2.306
+- ___64-[AFConnectionClientServiceDelegate requestHandleCommand:reply:]_block_invoke.753
+- ___80-[AFConnection startSpeechPronunciationRequestWithOptions:pronunciationContext:]_block_invoke.343
+- ___80-[AFConnection startSpeechPronunciationRequestWithOptions:pronunciationContext:]_block_invoke_2.344
+- ___84-[AFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke.340
+- ___84-[AFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke.342
+- ___84-[AFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke_2.341
+- ___90-[AFConnection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:]_block_invoke.118
+- ___90-[AFConnection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:]_block_invoke.121
+- ___BiomeLibraryLibraryCore_block_invoke.27018
+- ___BiomeLibraryLibraryCore_block_invoke.45778
+- ___Block_byref_object_copy_.10509
+- ___Block_byref_object_copy_.10702
+- ___Block_byref_object_copy_.11334
+- ___Block_byref_object_copy_.11916
+- ___Block_byref_object_copy_.13183
+- ___Block_byref_object_copy_.13465
+- ___Block_byref_object_copy_.16462
+- ___Block_byref_object_copy_.16991
+- ___Block_byref_object_copy_.17501
+- ___Block_byref_object_copy_.19536
+- ___Block_byref_object_copy_.19777
+- ___Block_byref_object_copy_.20308
+- ___Block_byref_object_copy_.21380
+- ___Block_byref_object_copy_.22331
+- ___Block_byref_object_copy_.23003
+- ___Block_byref_object_copy_.23421
+- ___Block_byref_object_copy_.26158
+- ___Block_byref_object_copy_.29003
+- ___Block_byref_object_copy_.30674
+- ___Block_byref_object_copy_.35016
+- ___Block_byref_object_copy_.35462
+- ___Block_byref_object_copy_.37689
+- ___Block_byref_object_copy_.38880
+- ___Block_byref_object_copy_.46682
+- ___Block_byref_object_copy_.47936
+- ___Block_byref_object_copy_.48672
+- ___Block_byref_object_copy_.48954
+- ___Block_byref_object_copy_.5359
+- ___Block_byref_object_copy_.5765
+- ___Block_byref_object_copy_.7901
+- ___Block_byref_object_copy_.8761
+- ___Block_byref_object_copy_.9890
+- ___Block_byref_object_dispose_.10510
+- ___Block_byref_object_dispose_.10703
+- ___Block_byref_object_dispose_.11335
+- ___Block_byref_object_dispose_.11917
+- ___Block_byref_object_dispose_.13184
+- ___Block_byref_object_dispose_.13466
+- ___Block_byref_object_dispose_.16463
+- ___Block_byref_object_dispose_.16992
+- ___Block_byref_object_dispose_.17502
+- ___Block_byref_object_dispose_.19537
+- ___Block_byref_object_dispose_.19778
+- ___Block_byref_object_dispose_.20309
+- ___Block_byref_object_dispose_.21381
+- ___Block_byref_object_dispose_.22332
+- ___Block_byref_object_dispose_.23004
+- ___Block_byref_object_dispose_.23422
+- ___Block_byref_object_dispose_.26159
+- ___Block_byref_object_dispose_.29004
+- ___Block_byref_object_dispose_.30675
+- ___Block_byref_object_dispose_.35017
+- ___Block_byref_object_dispose_.35463
+- ___Block_byref_object_dispose_.37690
+- ___Block_byref_object_dispose_.38881
+- ___Block_byref_object_dispose_.46683
+- ___Block_byref_object_dispose_.47937
+- ___Block_byref_object_dispose_.48673
+- ___Block_byref_object_dispose_.48955
+- ___Block_byref_object_dispose_.5360
+- ___Block_byref_object_dispose_.5766
+- ___Block_byref_object_dispose_.7902
+- ___Block_byref_object_dispose_.8762
+- ___Block_byref_object_dispose_.9891
+- ___BluetoothManagerLibraryCore_block_invoke.20293
+- ___DataCollectionServicesLibrary_block_invoke.46551
+- ___IntentsLibraryCore_block_invoke.15085
+- ___IntentsLibraryCore_block_invoke.31093
+- ___MediaExperienceLibraryCore_block_invoke.27495
+- ___block_literal_global.101.38992
+- ___block_literal_global.10238
+- ___block_literal_global.10295
+- ___block_literal_global.104.38986
+- ___block_literal_global.10447
+- ___block_literal_global.10514
+- ___block_literal_global.11009
+- ___block_literal_global.111
+- ___block_literal_global.112.10442
+- ___block_literal_global.112.22450
+- ___block_literal_global.11550
+- ___block_literal_global.11629
+- ___block_literal_global.11656
+- ___block_literal_global.11731
+- ___block_literal_global.118.33708
+- ___block_literal_global.11936
+- ___block_literal_global.120.10379
+- ___block_literal_global.120.22443
+- ___block_literal_global.12192
+- ___block_literal_global.12232
+- ___block_literal_global.126.22436
+- ___block_literal_global.12741
+- ___block_literal_global.128.22433
+- ___block_literal_global.12885
+- ___block_literal_global.129.33753
+- ___block_literal_global.132.33756
+- ___block_literal_global.134.22426
+- ___block_literal_global.1341
+- ___block_literal_global.136.22423
+- ___block_literal_global.13617
+- ___block_literal_global.138.33747
+- ___block_literal_global.13808
+- ___block_literal_global.13965
+- ___block_literal_global.1422
+- ___block_literal_global.14296
+- ___block_literal_global.14324
+- ___block_literal_global.144.22416
+- ___block_literal_global.144.33713
+- ___block_literal_global.14433
+- ___block_literal_global.15.23013
+- ___block_literal_global.15.27005
+- ___block_literal_global.15.44575
+- ___block_literal_global.1544
+- ___block_literal_global.15935
+- ___block_literal_global.16295
+- ___block_literal_global.16499
+- ___block_literal_global.16636
+- ___block_literal_global.168.33723
+- ___block_literal_global.16805
+- ___block_literal_global.17040
+- ___block_literal_global.17074
+- ___block_literal_global.171.33706
+- ___block_literal_global.17494
+- ___block_literal_global.18511
+- ___block_literal_global.18530
+- ___block_literal_global.18878
+- ___block_literal_global.19021
+- ___block_literal_global.19060
+- ___block_literal_global.19092
+- ___block_literal_global.193.46135
+- ___block_literal_global.1948
+- ___block_literal_global.1954
+- ___block_literal_global.19643
+- ___block_literal_global.19718
+- ___block_literal_global.19779
+- ___block_literal_global.2007
+- ___block_literal_global.2019
+- ___block_literal_global.203.46145
+- ___block_literal_global.20350
+- ___block_literal_global.20592
+- ___block_literal_global.2066
+- ___block_literal_global.20729
+- ___block_literal_global.2076
+- ___block_literal_global.20874
+- ___block_literal_global.2091
+- ___block_literal_global.20978
+- ___block_literal_global.21102
+- ___block_literal_global.21132
+- ___block_literal_global.2120
+- ___block_literal_global.2123
+- ___block_literal_global.2133
+- ___block_literal_global.21533
+- ___block_literal_global.219.46161
+- ___block_literal_global.22519
+- ___block_literal_global.23021
+- ___block_literal_global.241.46176
+- ___block_literal_global.2557
+- ___block_literal_global.26235
+- ___block_literal_global.26262
+- ___block_literal_global.263
+- ___block_literal_global.26528
+- ___block_literal_global.26726
+- ___block_literal_global.26893
+- ___block_literal_global.27025
+- ___block_literal_global.27212
+- ___block_literal_global.27523
+- ___block_literal_global.283
+- ___block_literal_global.2834
+- ___block_literal_global.28352
+- ___block_literal_global.28538
+- ___block_literal_global.289
+- ___block_literal_global.28961
+- ___block_literal_global.29039
+- ___block_literal_global.29134
+- ___block_literal_global.2929
+- ___block_literal_global.29454
+- ___block_literal_global.29517
+- ___block_literal_global.298
+- ___block_literal_global.30159
+- ___block_literal_global.30286
+- ___block_literal_global.30385
+- ___block_literal_global.30428
+- ___block_literal_global.311
+- ___block_literal_global.31237
+- ___block_literal_global.313
+- ___block_literal_global.31953
+- ___block_literal_global.3242
+- ___block_literal_global.32882
+- ___block_literal_global.3308
+- ___block_literal_global.33284
+- ___block_literal_global.3333
+- ___block_literal_global.33760
+- ___block_literal_global.33894
+- ___block_literal_global.34.47444
+- ___block_literal_global.34582
+- ___block_literal_global.35176
+- ___block_literal_global.35307
+- ___block_literal_global.35477
+- ___block_literal_global.35548
+- ___block_literal_global.37176
+- ___block_literal_global.37196
+- ___block_literal_global.37621
+- ___block_literal_global.37708
+- ___block_literal_global.38571
+- ___block_literal_global.38600
+- ___block_literal_global.38695
+- ___block_literal_global.38762
+- ___block_literal_global.38999
+- ___block_literal_global.41.22503
+- ___block_literal_global.42.14780
+- ___block_literal_global.43.22500
+- ___block_literal_global.43.47437
+- ___block_literal_global.4450
+- ___block_literal_global.44579
+- ___block_literal_global.45.26901
+- ___block_literal_global.45792
+- ___block_literal_global.4629
+- ___block_literal_global.47.22496
+- ___block_literal_global.47.48969
+- ___block_literal_global.47106
+- ___block_literal_global.47129
+- ___block_literal_global.47283
+- ___block_literal_global.47431
+- ___block_literal_global.47956
+- ___block_literal_global.480
+- ___block_literal_global.48619
+- ___block_literal_global.48977
+- ___block_literal_global.5.48960
+- ___block_literal_global.55.48965
+- ___block_literal_global.5514
+- ___block_literal_global.5686
+- ___block_literal_global.57.22487
+- ___block_literal_global.5753
+- ___block_literal_global.58.32892
+- ___block_literal_global.60.35479
+- ___block_literal_global.63.22484
+- ___block_literal_global.63.35481
+- ___block_literal_global.66.19773
+- ___block_literal_global.68.19769
+- ___block_literal_global.68.22478
+- ___block_literal_global.68.35485
+- ___block_literal_global.6874
+- ___block_literal_global.6945
+- ___block_literal_global.6972
+- ___block_literal_global.71.30348
+- ___block_literal_global.74.22474
+- ___block_literal_global.8197
+- ___block_literal_global.82.35470
+- ___block_literal_global.8234
+- ___block_literal_global.8259
+- ___block_literal_global.835
+- ___block_literal_global.8365
+- ___block_literal_global.8417
+- ___block_literal_global.85.26896
+- ___block_literal_global.851
+- ___block_literal_global.8964
+- ___block_literal_global.92.38988
+- ___block_literal_global.964
+- ___block_literal_global.9760
+- ___block_literal_global.98.38995
+- ___getBMSiriServiceClass_block_invoke.27036
+- ___getBiomeLibrarySymbolLoc_block_invoke.45766
+- ___getINSearchForMessagesIntentIdentifierSymbolLoc_block_invoke.15089
+- ___getINSendMessageIntentIdentifierSymbolLoc_block_invoke.15079
+- ___initLSApplicationProxy_block_invoke.34586
+- ___initLSApplicationProxy_block_invoke.46536
+- ___initVTPreferences_block_invoke.46751
+- _audit_stringBiomeLibrary.27020
+- _audit_stringBiomeLibrary.45780
+- _audit_stringBluetoothManager.20297
+- _audit_stringIntents.15087
+- _audit_stringIntents.31107
+- _audit_stringMediaExperience.27498
+- _classLSApplicationProxy.34583
+- _classLSApplicationProxy.46534
+- _classVTPreferences.46749
+- _getBMSiriServiceClass.softClass.27035
+- _getBiomeLibrarySymbolLoc.ptr.45765
+- _getINSearchForMessagesIntentIdentifier.15077
+- _getINSearchForMessagesIntentIdentifierSymbolLoc.ptr.15088
+- _getINSendMessageIntentIdentifierSymbolLoc.ptr.15078
+- _getLSApplicationProxyClass.34575
+- _getLSApplicationProxyClass.46530
+- _getVTPreferencesClass.46745
+- _initLSApplicationProxy.34580
+- _initLSApplicationProxy.46532
+- _initLSApplicationProxy.sOnce.34581
+- _initLSApplicationProxy.sOnce.46533
+- _initVTPreferences.46747
+- _initVTPreferences.sOnce.46748
+- _provider.onceToken.15092
+- _provider.provider.15093
+- _sharedInstance.onceToken.17039
+- _sharedInstance.onceToken.22548
+- _sharedInstance.onceToken.28537
+- _sharedInstance.onceToken.37195
+- _sharedInstance.onceToken.44597
+- _sharedInstance.singleton.44598
+- _sharedManager.onceToken.16498
+- _sharedManager.onceToken.22013
+- _sharedManager.onceToken.32881
+- _sharedManager.result.32883
+- _sharedMonitor.monitor.20364
+- _sharedMonitor.onceToken.19575
+- _sharedMonitor.onceToken.20363
+- _sharedObserver.onceToken.31236
+- _sharedObserver.onceToken.48976
+- _sharedObserver.sharedObserver.31238
+- _sharedObserver.sharedObserver.48978
+CStrings:
++ "%@ feedbackIdentifier %@ voiceName %@ voiceLanguage %@"
++ "%s Emitted ServerExecutionValuesReported"
++ "%s Emitting ServerExecutionValuesReportedMessage message for domain %@"
++ "%s Error in getLoggableMultiUserSharedUserIdForSharedUserID: %@"
++ "%s Logging ServerExecutionValuesReported From _emitServerExecutionValuesReportedMessage"
++ "%s Thread cancellations dictionary is empty, skipping setting"
++ "%s Thread cancellations dictionary is unchanged, skipping setting"
++ "-[AFConnection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:]_block_invoke_2"
++ "-[AFConnection _emitServerExecutionValuesReportedMessage:requestUUID:]"
++ "-[AFMultiUserConnection getLoggableMultiUserSharedUserIdForSharedUserID:completion:]"
++ "-[AFMultiUserConnection getLoggableMultiUserSharedUserIdForSharedUserID:completion:]_block_invoke_2"
++ "@56@0:8@16@24@32@40Q48"
++ "Classic Mux event siriSharedUserId override value"
++ "T@\"NSString\",R,N,V_voiceLanguage"
++ "T@\"NSString\",R,N,V_voiceName"
++ "TQ,R,N,V_feedbackIntensity"
++ "_emitServerExecutionValuesReportedMessage:requestUUID:"
++ "_feedbackIntensity"
++ "_voiceName"
++ "feedbackIntensity"
++ "getLoggableMultiUserSharedUserIdForSharedUserID:completion:"
++ "getOverrideSiriSharedUserIdForClassicMuxEventLogging"
++ "initWithVoiceFeedbackIdentifier:text:voiceName:voiceLanguage:intensity:"
++ "setOverrideSiriSharedUserIdForClassicMuxEventLogging:"
++ "setServerExecutedDomain:"
++ "setServerExecutionValuesReported:"
++ "voiceLanguage"
++ "voiceName"
+
+```

@@ -1,0 +1,478 @@
+## BlastDoor
+
+> `/System/Library/PrivateFrameworks/BlastDoor.framework/BlastDoor`
+
+```diff
+
+-295.200.31.0.0
+-  __TEXT.__text: 0x6cb198
+-  __TEXT.__auth_stubs: 0x3a50
+-  __TEXT.__objc_methlist: 0xa78c
+-  __TEXT.__const: 0x90490
+-  __TEXT.__cstring: 0x21ba6
++295.200.61.2.1
++  __TEXT.__text: 0x70a964
++  __TEXT.__auth_stubs: 0x3a80
++  __TEXT.__objc_methlist: 0xa79c
++  __TEXT.__const: 0x98ba0
++  __TEXT.__cstring: 0x22cf6
+   __TEXT.__gcc_except_tab: 0x45c
+   __TEXT.__dlopen_cstrs: 0x304
+   __TEXT.__ustring: 0x12
+-  __TEXT.__oslogstring: 0xe3b
+-  __TEXT.__constg_swiftt: 0x18ac4
+-  __TEXT.__swift5_typeref: 0x12840
+-  __TEXT.__swift5_reflstr: 0x20086
+-  __TEXT.__swift5_fieldmd: 0x23a14
+-  __TEXT.__swift5_builtin: 0x834
+-  __TEXT.__swift5_assocty: 0x4900
+-  __TEXT.__swift5_proto: 0x8e9c
+-  __TEXT.__swift5_types: 0x23f0
+-  __TEXT.__swift5_capture: 0x5958
++  __TEXT.__oslogstring: 0xe6b
++  __TEXT.__constg_swiftt: 0x191c0
++  __TEXT.__swift5_typeref: 0x12f0c
++  __TEXT.__swift5_reflstr: 0x21736
++  __TEXT.__swift5_fieldmd: 0x24978
++  __TEXT.__swift5_builtin: 0x848
++  __TEXT.__swift5_assocty: 0x4990
++  __TEXT.__swift5_proto: 0x9174
++  __TEXT.__swift5_types: 0x249c
++  __TEXT.__swift5_capture: 0x5e08
+   __TEXT.__swift5_protos: 0x9c
+-  __TEXT.__swift5_mpenum: 0x51c
++  __TEXT.__swift5_mpenum: 0x5d4
+   __TEXT.__swift_as_entry: 0x54
+   __TEXT.__swift_as_ret: 0x64
+-  __TEXT.__unwind_info: 0x1fc58
+-  __TEXT.__eh_frame: 0x292d4
++  __TEXT.__unwind_info: 0x20df8
++  __TEXT.__eh_frame: 0x2a9cc
+   __TEXT.__objc_classname: 0xb57
+-  __TEXT.__objc_methname: 0xaa12
++  __TEXT.__objc_methname: 0xaa25
+   __TEXT.__objc_methtype: 0xc06
+   __TEXT.__objc_stubs: 0x3be0
+   __DATA_CONST.__got: 0xe30
+-  __DATA_CONST.__const: 0x53f8
+-  __DATA_CONST.__objc_classlist: 0x900
++  __DATA_CONST.__const: 0x57b8
++  __DATA_CONST.__objc_classlist: 0x908
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3550
++  __DATA_CONST.__objc_selrefs: 0x3558
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x260
+-  __AUTH_CONST.__auth_got: 0x1d38
+-  __AUTH_CONST.__const: 0x53898
++  __AUTH_CONST.__auth_got: 0x1d50
++  __AUTH_CONST.__const: 0x55a50
+   __AUTH_CONST.__cfstring: 0x2aa0
+-  __AUTH_CONST.__objc_const: 0x165a0
+-  __AUTH.__objc_data: 0xb208
+-  __AUTH.__data: 0xb638
++  __AUTH_CONST.__objc_const: 0x16810
++  __AUTH.__objc_data: 0xb270
++  __AUTH.__data: 0xbd08
+   __DATA.__objc_ivar: 0x694
+-  __DATA.__data: 0x14770
+-  __DATA.__bss: 0xfbbb0
+-  __DATA.__common: 0x838
++  __DATA.__data: 0x14f90
++  __DATA.__bss: 0x101530
++  __DATA.__common: 0x8c8
+   __DATA_DIRTY.__objc_data: 0x2e58
+-  __DATA_DIRTY.__data: 0x7b88
++  __DATA_DIRTY.__data: 0x7b58
+   __DATA_DIRTY.__bss: 0xc0b0
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1298D199-CA6F-3BE6-903E-7C29EA8AEC72
+-  Functions: 51767
+-  Symbols:   16782
+-  CStrings:  7255
++  UUID: 0DD2F5CD-DAEA-3439-B422-3BC790E73A0D
++  Functions: 53099
++  Symbols:   17024
++  CStrings:  7380
+ 
+Symbols:
++ __DATA__TtCV9BlastDoor29CSDMConversationActivityProtoP33_E954D71DD385455E8AA8CD6D2516348713_StorageClass
++ __IVARS__TtCV9BlastDoor29CSDMConversationActivityProtoP33_E954D71DD385455E8AA8CD6D2516348713_StorageClass
++ __METACLASS_DATA__TtCV9BlastDoor29CSDMConversationActivityProtoP33_E954D71DD385455E8AA8CD6D2516348713_StorageClass
++ ___swift_get_extra_inhabitant_index.749Tm
++ ___swift_get_extra_inhabitant_index.778Tm
++ ___swift_get_extra_inhabitant_index.793Tm
++ ___swift_get_extra_inhabitant_index.849Tm
++ ___swift_memcpy131_8
++ ___swift_memcpy1779_8
++ ___swift_memcpy233_8
++ ___swift_memcpy2945_8
++ ___swift_memcpy3209_8
++ ___swift_memcpy3315_8
++ ___swift_memcpy400_8
++ ___swift_memcpy411_8
++ ___swift_memcpy609_8
++ ___swift_memcpy75_8
++ ___swift_memcpy849_8
++ ___swift_memcpy905_8
++ ___swift_store_extra_inhabitant_index.750Tm
++ ___swift_store_extra_inhabitant_index.779Tm
++ ___swift_store_extra_inhabitant_index.794Tm
++ ___swift_store_extra_inhabitant_index.850Tm
++ _associated conformance 9BlastDoor037_ObjCEnumNameAndPhotoPeerDeviceUpdateefG16SettingsAudienceOSHAASQ
++ _associated conformance 9BlastDoor23GroupSessionParticipantV21EncodingConfigurationV10CodingKeysOSHAASQ
++ _associated conformance 9BlastDoor23GroupSessionParticipantV21EncodingConfigurationV10CodingKeysOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9BlastDoor23GroupSessionParticipantV21EncodingConfigurationV10CodingKeysOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor24CSDMConversationActivityV10CodingKeysOSHAASQ
++ _associated conformance 9BlastDoor24CSDMConversationActivityV10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9BlastDoor24CSDMConversationActivityV10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor25NameAndPhotoUnpackerErrorO10CodingKeysOSHAASQ
++ _associated conformance 9BlastDoor25NameAndPhotoUnpackerErrorO10CodingKeysOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9BlastDoor25NameAndPhotoUnpackerErrorO10CodingKeysOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor25NameAndPhotoUnpackerErrorO8EnumCaseOSHAASQ
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV08PersonalcdE0V10CodingKeysOSHAASQ
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV08PersonalcdE0V10CodingKeysOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV08PersonalcdE0V10CodingKeysOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV0cdE8SettingsV10CodingKeysOSHAASQ
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV0cdE8SettingsV10CodingKeysOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV0cdE8SettingsV10CodingKeysOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV0cdE8SettingsV8AudienceOSHAASQ
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV10ActiveListV10CodingKeysOSHAASQ
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV10ActiveListV10CodingKeysOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV10ActiveListV10CodingKeysOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV11IgnoredListV10CodingKeysOSHAASQ
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV11IgnoredListV10CodingKeysOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV11IgnoredListV10CodingKeysOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV13RecordIdListsV10CodingKeysOSHAASQ
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV13RecordIdListsV10CodingKeysOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV13RecordIdListsV10CodingKeysOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV14DenyAllowListsV10CodingKeysOSHAASQ
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV14DenyAllowListsV10CodingKeysOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV14DenyAllowListsV10CodingKeysOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV16PendingNicknamesV10CodingKeysOSHAASQ
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV16PendingNicknamesV10CodingKeysOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV16PendingNicknamesV10CodingKeysOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV16TransitionedListV10CodingKeysOSHAASQ
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV16TransitionedListV10CodingKeysOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 9BlastDoor28NameAndPhotoPeerDeviceUpdateV16TransitionedListV10CodingKeysOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor29CSDMConversationActivityProtoV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 9BlastDoor29CSDMConversationActivityProtoV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
++ _associated conformance 9BlastDoor29CSDMConversationActivityProtoV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor29CSDMConversationActivityProtoVSHAASQ
++ _associated conformance 9BlastDoor31CSDMConversationActivityContextV10CodingKeysOSHAASQ
++ _associated conformance 9BlastDoor31CSDMConversationActivityContextV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9BlastDoor31CSDMConversationActivityContextV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor31CSDMConversationActivitySessionV10CodingKeysOSHAASQ
++ _associated conformance 9BlastDoor31CSDMConversationActivitySessionV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9BlastDoor31CSDMConversationActivitySessionV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor32CSDMConversationActivityMetadataV10CodingKeysOSHAASQ
++ _associated conformance 9BlastDoor32CSDMConversationActivityMetadataV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9BlastDoor32CSDMConversationActivityMetadataV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor32CSDMEncryptedConversationMessageV10CodingKeysOSHAASQ
++ _associated conformance 9BlastDoor32CSDMEncryptedConversationMessageV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9BlastDoor32CSDMEncryptedConversationMessageV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor36CSDMConversationActivityContextProtoV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 9BlastDoor36CSDMConversationActivityContextProtoV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
++ _associated conformance 9BlastDoor36CSDMConversationActivityContextProtoV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor36CSDMConversationActivityContextProtoVSHAASQ
++ _associated conformance 9BlastDoor36CSDMConversationActivitySessionProtoV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 9BlastDoor36CSDMConversationActivitySessionProtoV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
++ _associated conformance 9BlastDoor36CSDMConversationActivitySessionProtoV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor36CSDMConversationActivitySessionProtoVSHAASQ
++ _associated conformance 9BlastDoor37CSDMConversationActivityMetadataProtoV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 9BlastDoor37CSDMConversationActivityMetadataProtoV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
++ _associated conformance 9BlastDoor37CSDMConversationActivityMetadataProtoV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor37CSDMConversationActivityMetadataProtoVSHAASQ
++ _associated conformance 9BlastDoor37CSDMEncryptedConversationMessageProtoV21InternalSwiftProtobuf01_E18ImplementationBaseAASH
++ _associated conformance 9BlastDoor37CSDMEncryptedConversationMessageProtoV21InternalSwiftProtobuf01_E18ImplementationBaseAaD0E0
++ _associated conformance 9BlastDoor37CSDMEncryptedConversationMessageProtoV21InternalSwiftProtobuf0E0AAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor37CSDMEncryptedConversationMessageProtoVSHAASQ
++ _associated conformance 9BlastDoor48CSDMConversationActivitySceneAssociationBehaviorV10CodingKeysOSHAASQ
++ _associated conformance 9BlastDoor48CSDMConversationActivitySceneAssociationBehaviorV10CodingKeysOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9BlastDoor48CSDMConversationActivitySceneAssociationBehaviorV10CodingKeysOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor53CSDMConversationActivitySceneAssociationBehaviorProtoV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 9BlastDoor53CSDMConversationActivitySceneAssociationBehaviorProtoV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 9BlastDoor53CSDMConversationActivitySceneAssociationBehaviorProtoV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 9BlastDoor53CSDMConversationActivitySceneAssociationBehaviorProtoVSHAASQ
++ _get_enum_tag_for_layout_string 9BlastDoor24CSDMConversationActivityVSg
++ _get_enum_tag_for_layout_string 9BlastDoor25NameAndPhotoUnpackerErrorO
++ _get_enum_tag_for_layout_string 9BlastDoor31CSDMConversationActivityContextVSg
++ _get_enum_tag_for_layout_string 9BlastDoor31CSDMConversationActivitySessionVSg
++ _get_enum_tag_for_layout_string 9BlastDoor32CSDMConversationActivityMetadataVSg
++ _get_enum_tag_for_layout_string 9BlastDoor32CSDMEncryptedConversationMessageVSg
++ _get_enum_tag_for_layout_string 9BlastDoor48CSDMConversationActivitySceneAssociationBehaviorVSg
++ _get_enum_tag_for_layout_string SaySSGSgSg
++ _keypath_get.51Tm
++ _objectdestroy.25Tm
++ _objectdestroy.661Tm
++ _symbolic Say_____G 9BlastDoor31CSDMConversationActivitySessionV
++ _symbolic Say_____G 9BlastDoor36CSDMConversationActivitySessionProtoV
++ _symbolic _____ 9BlastDoor037_ObjCEnumNameAndPhotoPeerDeviceUpdateefG16SettingsAudienceO
++ _symbolic _____ 9BlastDoor18NameAndPhotoSchemaV
++ _symbolic _____ 9BlastDoor23GroupSessionParticipantV21EncodingConfigurationV
++ _symbolic _____ 9BlastDoor23GroupSessionParticipantV21EncodingConfigurationV10CodingKeysO
++ _symbolic _____ 9BlastDoor24CSDMConversationActivityV
++ _symbolic _____ 9BlastDoor24CSDMConversationActivityV10CodingKeysO
++ _symbolic _____ 9BlastDoor25NameAndPhotoListValidatorV
++ _symbolic _____ 9BlastDoor25NameAndPhotoUnpackerErrorO
++ _symbolic _____ 9BlastDoor25NameAndPhotoUnpackerErrorO10CodingKeysO
++ _symbolic _____ 9BlastDoor25NameAndPhotoUnpackerErrorO8EnumCaseO
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV08PersonalcdE0V
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV08PersonalcdE0V10CodingKeysO
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV0cdE8SettingsV
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV0cdE8SettingsV10CodingKeysO
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV0cdE8SettingsV8AudienceO
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV10ActiveListV
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV10ActiveListV10CodingKeysO
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV11IgnoredListV
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV11IgnoredListV10CodingKeysO
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV13RecordIdListsV
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV13RecordIdListsV10CodingKeysO
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV14DenyAllowListsV
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV14DenyAllowListsV10CodingKeysO
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV16PendingNicknamesV
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV16PendingNicknamesV10CodingKeysO
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV16TransitionedListV
++ _symbolic _____ 9BlastDoor28NameAndPhotoPeerDeviceUpdateV16TransitionedListV10CodingKeysO
++ _symbolic _____ 9BlastDoor29CSDMConversationActivityProtoV
++ _symbolic _____ 9BlastDoor29CSDMConversationActivityProtoV13_StorageClass33_E954D71DD385455E8AA8CD6D25163487LLC
++ _symbolic _____ 9BlastDoor31CSDMConversationActivityContextV
++ _symbolic _____ 9BlastDoor31CSDMConversationActivityContextV10CodingKeysO
++ _symbolic _____ 9BlastDoor31CSDMConversationActivitySessionV
++ _symbolic _____ 9BlastDoor31CSDMConversationActivitySessionV10CodingKeysO
++ _symbolic _____ 9BlastDoor32CSDMConversationActivityMetadataV
++ _symbolic _____ 9BlastDoor32CSDMConversationActivityMetadataV10CodingKeysO
++ _symbolic _____ 9BlastDoor32CSDMEncryptedConversationMessageV
++ _symbolic _____ 9BlastDoor32CSDMEncryptedConversationMessageV10CodingKeysO
++ _symbolic _____ 9BlastDoor36CSDMConversationActivityContextProtoV
++ _symbolic _____ 9BlastDoor36CSDMConversationActivitySessionProtoV
++ _symbolic _____ 9BlastDoor37CSDMConversationActivityMetadataProtoV
++ _symbolic _____ 9BlastDoor37CSDMEncryptedConversationMessageProtoV
++ _symbolic _____ 9BlastDoor48CSDMConversationActivitySceneAssociationBehaviorV
++ _symbolic _____ 9BlastDoor48CSDMConversationActivitySceneAssociationBehaviorV10CodingKeysO
++ _symbolic _____ 9BlastDoor53CSDMConversationActivitySceneAssociationBehaviorProtoV
++ _symbolic _____Sg 9BlastDoor24CSDMConversationActivityV
++ _symbolic _____Sg 9BlastDoor28NameAndPhotoPeerDeviceUpdateV0cdE8SettingsV8AudienceO
++ _symbolic _____Sg 9BlastDoor29CSDMConversationActivityProtoV
++ _symbolic _____Sg 9BlastDoor31CSDMConversationActivityContextV
++ _symbolic _____Sg 9BlastDoor31CSDMConversationActivitySessionV
++ _symbolic _____Sg 9BlastDoor32CSDMConversationActivityMetadataV
++ _symbolic _____Sg 9BlastDoor32CSDMEncryptedConversationMessageV
++ _symbolic _____Sg 9BlastDoor36CSDMConversationActivityContextProtoV
++ _symbolic _____Sg 9BlastDoor36CSDMConversationActivitySessionProtoV
++ _symbolic _____Sg 9BlastDoor37CSDMConversationActivityMetadataProtoV
++ _symbolic _____Sg 9BlastDoor37CSDMEncryptedConversationMessageProtoV
++ _symbolic _____Sg 9BlastDoor48CSDMConversationActivitySceneAssociationBehaviorV
++ _symbolic _____Sg 9BlastDoor53CSDMConversationActivitySceneAssociationBehaviorProtoV
++ _symbolic _____Sg_ABt 9BlastDoor29CSDMConversationActivityProtoV
++ _symbolic _____Sg_ABt 9BlastDoor36CSDMConversationActivityContextProtoV
++ _symbolic _____Sg_ABt 9BlastDoor36CSDMConversationActivitySessionProtoV
++ _symbolic _____Sg_ABt 9BlastDoor37CSDMConversationActivityMetadataProtoV
++ _symbolic _____Sg_ABt 9BlastDoor37CSDMEncryptedConversationMessageProtoV
++ _symbolic _____Sg_ABt 9BlastDoor53CSDMConversationActivitySceneAssociationBehaviorProtoV
++ _symbolic _____ySDyS2SGG 9BlastDoor12AnyValidatorC
++ _symbolic _____ySDyS2SGSgG 9BlastDoor12AnyValidatorC
++ _symbolic _____ySDyS2SGSgG 9BlastDoor17AllMatchValidatorV
++ _symbolic _____ySDyS2SGSgG 9BlastDoor17OptionalValidatorV
++ _symbolic _____ySDyS2SGSgG 9BlastDoor9ValidatedV
++ _symbolic _____ySS3key_SS5valuetG 9BlastDoor12AnyValidatorC
++ _symbolic _____ySaySSGSgG 9BlastDoor12AnyValidatorC
++ _symbolic _____ySaySSGSgG 9BlastDoor17AllMatchValidatorV
++ _symbolic _____ySaySSGSgG 9BlastDoor17OptionalValidatorV
++ _symbolic _____ySaySSGSgG 9BlastDoor9ValidatedV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor12NameAndPhotoV0fgH3KeyO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor24CSDMConversationActivityV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor25NameAndPhotoUnpackerErrorO10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor28NameAndPhotoPeerDeviceUpdateV08PersonalfgH0V10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor28NameAndPhotoPeerDeviceUpdateV0fgH8SettingsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor28NameAndPhotoPeerDeviceUpdateV10ActiveListV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor28NameAndPhotoPeerDeviceUpdateV11IgnoredListV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor28NameAndPhotoPeerDeviceUpdateV13RecordIdListsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor28NameAndPhotoPeerDeviceUpdateV14DenyAllowListsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor28NameAndPhotoPeerDeviceUpdateV16PendingNicknamesV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor28NameAndPhotoPeerDeviceUpdateV16TransitionedListV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor31CSDMConversationActivityContextV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor31CSDMConversationActivitySessionV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor32CSDMConversationActivityMetadataV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor32CSDMEncryptedConversationMessageV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor48CSDMConversationActivitySceneAssociationBehaviorV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor12NameAndPhotoV0fgH3KeyO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor23GroupSessionParticipantV0B13ConfigurationV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor24CSDMConversationActivityV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor25NameAndPhotoUnpackerErrorO10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor28NameAndPhotoPeerDeviceUpdateV08PersonalfgH0V10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor28NameAndPhotoPeerDeviceUpdateV0fgH8SettingsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor28NameAndPhotoPeerDeviceUpdateV10ActiveListV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor28NameAndPhotoPeerDeviceUpdateV11IgnoredListV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor28NameAndPhotoPeerDeviceUpdateV13RecordIdListsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor28NameAndPhotoPeerDeviceUpdateV14DenyAllowListsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor28NameAndPhotoPeerDeviceUpdateV16PendingNicknamesV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor28NameAndPhotoPeerDeviceUpdateV16TransitionedListV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor31CSDMConversationActivityContextV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor31CSDMConversationActivitySessionV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor32CSDMConversationActivityMetadataV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor32CSDMEncryptedConversationMessageV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor48CSDMConversationActivitySceneAssociationBehaviorV10CodingKeysO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9BlastDoor31CSDMConversationActivitySessionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9BlastDoor36CSDMConversationActivitySessionProtoV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9BlastDoor41CSDMConversationInvitationPreferenceProtoV
++ _type_layout_string 9BlastDoor18NameAndPhotoSchemaV
++ _type_layout_string 9BlastDoor24CSDMConversationActivityV
++ _type_layout_string 9BlastDoor25NameAndPhotoUnpackerErrorO
++ _type_layout_string 9BlastDoor28NameAndPhotoPeerDeviceUpdateV08PersonalcdE0V
++ _type_layout_string 9BlastDoor28NameAndPhotoPeerDeviceUpdateV0cdE8SettingsV
++ _type_layout_string 9BlastDoor28NameAndPhotoPeerDeviceUpdateV10ActiveListV
++ _type_layout_string 9BlastDoor28NameAndPhotoPeerDeviceUpdateV13RecordIdListsV
++ _type_layout_string 9BlastDoor28NameAndPhotoPeerDeviceUpdateV14DenyAllowListsV
++ _type_layout_string 9BlastDoor28NameAndPhotoPeerDeviceUpdateV16PendingNicknamesV
++ _type_layout_string 9BlastDoor31CSDMConversationActivityContextV
++ _type_layout_string 9BlastDoor31CSDMConversationActivitySessionV
++ _type_layout_string 9BlastDoor32CSDMConversationActivityMetadataV
++ _type_layout_string 9BlastDoor32CSDMEncryptedConversationMessageV
++ _type_layout_string 9BlastDoor48CSDMConversationActivitySceneAssociationBehaviorV
+- ___swift_get_extra_inhabitant_index.709Tm
+- ___swift_memcpy1081_8
+- ___swift_memcpy1257_8
+- ___swift_memcpy130_8
+- ___swift_memcpy1363_8
+- ___swift_memcpy410_8
+- ___swift_memcpy827_8
+- ___swift_store_extra_inhabitant_index.710Tm
+- _objectdestroy.669Tm
+- _type_layout_string 9BlastDoor20LiteRelayTextMessageV
+CStrings:
++ "BlastDoor/CSDMessaging+Bridging.swift"
++ "CSDMConversationActivity.activityIdentifier"
++ "CSDMConversationActivity.applicationContext"
++ "CSDMConversationActivity.bundleIdentifier"
++ "CSDMConversationActivity.fallbackApplicationName"
++ "CSDMConversationActivity.identifierUUIDString"
++ "CSDMConversationActivity.metadata"
++ "CSDMConversationActivityContext.actionDescription"
++ "CSDMConversationActivityContext.completedDescription"
++ "CSDMConversationActivityContext.contextIdentifier"
++ "CSDMConversationActivityContext.ongoingDescription"
++ "CSDMConversationActivityMetadata.subtitle"
++ "CSDMConversationActivityMetadata.title"
++ "CSDMConversationActivitySceneAssociationBehavior.preferredSceneSessionRole"
++ "CSDMConversationActivitySceneAssociationBehavior.targetContentIdentifier"
++ "CSDMConversationActivitySession.identifierUUIDString"
++ "Either first or last names must be present"
++ "GroupSessionParticipant.UUID"
++ "IDAT"
++ "NameAndPhotoPeerDeviceUpdate.ActiveList.activeList"
++ "NameAndPhotoPeerDeviceUpdate.DenyAllowLists.allowList"
++ "NameAndPhotoPeerDeviceUpdate.DenyAllowLists.denyList"
++ "NameAndPhotoPeerDeviceUpdate.IgnoredList.ignoredList"
++ "NameAndPhotoPeerDeviceUpdate.PendingNicknames.pendingNicknameHandles"
++ "NameAndPhotoPeerDeviceUpdate.PersonalNameAndPhoto.avatarRecipeDataTag"
++ "NameAndPhotoPeerDeviceUpdate.PersonalNameAndPhoto.lowResWallpaperDataTag"
++ "NameAndPhotoPeerDeviceUpdate.PersonalNameAndPhoto.personalNicknameCloudKitRecordID"
++ "NameAndPhotoPeerDeviceUpdate.PersonalNameAndPhoto.personalNicknameDecryptionKey"
++ "NameAndPhotoPeerDeviceUpdate.PersonalNameAndPhoto.wallpaperDataTag"
++ "NameAndPhotoPeerDeviceUpdate.PersonalNameAndPhoto.wallpaperMetadataTag"
++ "NameAndPhotoPeerDeviceUpdate.RecordIdLists.archivedNicknameRecordIds"
++ "NameAndPhotoPeerDeviceUpdate.RecordIdLists.currentNicknameRecordIds"
++ "NameAndPhotoPeerDeviceUpdate.RecordIdLists.pendingNicknameRecordIds"
++ "NameAndPhotoPeerDeviceUpdate.TransitionedList.transitionedList"
++ "Unknown NameAndPhoto type: %{public}s"
++ "_TtCV9BlastDoor29CSDMConversationActivityProtoP33_E954D71DD385455E8AA8CD6D2516348713_StorageClass"
++ "_activityContext"
++ "_activityIdentifier"
++ "_activityMetadata"
++ "_activitySession"
++ "_activitySessions"
++ "_applicationContext"
++ "_encryptedMessage"
++ "_fallbackApplicationName"
++ "_identifierUuidstring"
++ "_isSystemActivity"
++ "_originatorHandle"
++ "_stagedActivitySession"
++ "_timestampAsTimeIntervalSinceReferenceDate"
++ "_updatedDateEpochTime"
++ "actionDescription"
++ "activity"
++ "activityContext"
++ "activityIdentifier"
++ "activityMetadata"
++ "activitySession"
++ "activitySessions"
++ "anRK"
++ "applicationContext"
++ "archivedNicknameRecordIds"
++ "b2n"
++ "b2w"
++ "cnRK"
++ "completedDescription"
++ "contextIdentifier"
++ "conversationMessage"
++ "conversationMessageBytes"
++ "conversationMessage_Value"
++ "currentNicknameRecordIds"
++ "encryptedMessage"
++ "fallbackApplicationName"
++ "fallbackURL"
++ "identifierUUIDString"
++ "incomingDenyAllowListVersion"
++ "incomingPendingNicknameVersion"
++ "incomingTransitionedListVersion"
++ "isRequestingPersonalNickname"
++ "isSystemActivity"
++ "lifetimePolicy"
++ "mcAK"
++ "mcEK"
++ "mcIFK"
++ "mcNFK"
++ "missingValue"
++ "missingValue_Value"
++ "nBL"
++ "nBWV"
++ "nDK"
++ "nHTV"
++ "nRID"
++ "nTL"
++ "nV"
++ "nWL"
++ "nameAndPhotoSettings"
++ "nameAndPhotoUnpackerError"
++ "ongoingDescription"
++ "pendingNicknameHandles"
++ "pendingNicknameRecordIds"
++ "pendingNicknames"
++ "personalNameAndPhoto"
++ "personalNicknameCloudKitRecordID"
++ "personalNicknameDecryptionKey"
++ "pnHK"
++ "pnRK"
++ "pnV"
++ "preferredBroadcastingAttributes"
++ "preferredSceneSessionRole"
++ "rNi"
++ "sceneAssociationBehavior"
++ "shouldAssociateScene"
++ "stagedActivitySession"
++ "supportsActivityPreviews"
++ "supportsContinuationOnTV"
++ "supportsContinuationOnTv"
++ "supportsEncryption"
++ "targetContentIdentifier"
++ "timestampAsTimeIntervalSinceReferenceDate"
++ "transitionedList"
++ "unknownError"
++ "unknownType"
++ "updatedDateEpochTime"
++ "vcSessionParticipantKeyCallInfoBlob"
++ "vcSessionParticipantKeyMediaBlob"
++ "vcSessionParticipantKeyUUID"
+- "<LiteRelayTextMessage hasBody :"
+- "GroupSessionParticipant.participant"
+
+```

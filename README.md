@@ -159,6 +159,7 @@
 ### iOS 26.1 beta
 
 - [26.0 revision (23A345) .vs 26.1 beta 1 (23B5044l)](26_0_23A345__vs_26_1_23B5044l/README.md)
+- [26.1 beta 1 (23B5044l) .vs 26.1 beta 2 (23B5059e)](26_1_23B5044l__vs_26_1_23B5059e/README.md)
 
 ### Generating Diffs
 

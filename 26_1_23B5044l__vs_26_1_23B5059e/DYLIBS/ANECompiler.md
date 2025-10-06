@@ -1,0 +1,87 @@
+## ANECompiler
+
+> `/System/Library/PrivateFrameworks/ANECompiler.framework/ANECompiler`
+
+```diff
+
+-9.101.1.0.0
+-  __TEXT.__text: 0x140bd4c
++9.101.3.0.0
++  __TEXT.__text: 0x140c074
+   __TEXT.__auth_stubs: 0x2150
+   __TEXT.__init_offsets: 0x8
+-  __TEXT.__const: 0x868d4
+-  __TEXT.__cstring: 0xb5b17
++  __TEXT.__const: 0x86804
++  __TEXT.__cstring: 0xb5bd2
+   __TEXT.__oslogstring: 0x1834e
+-  __TEXT.__gcc_except_tab: 0x887d0
+-  __TEXT.__unwind_info: 0x40b10
++  __TEXT.__gcc_except_tab: 0x88864
++  __TEXT.__unwind_info: 0x40b18
+   __TEXT.__eh_frame: 0x2628
+   __DATA_CONST.__got: 0x1f8
+   __DATA_CONST.__const: 0x38f8
+   __AUTH_CONST.__auth_got: 0x10b0
+-  __AUTH_CONST.__const: 0x7f678
++  __AUTH_CONST.__const: 0x7f5f8
+   __AUTH_CONST.__cfstring: 0x8ca0
+   __AUTH.__data: 0x3858
+   __AUTH.__thread_vars: 0x120
+   __AUTH.__thread_bss: 0x238
+   __DATA.__data: 0x7670
+-  __DATA.__bss: 0xdc20
++  __DATA.__bss: 0xdc30
+   __DATA.__common: 0x167d
+   __DATA_DIRTY.__data: 0x80
+   __DATA_DIRTY.__bss: 0x1028
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libncurses.5.4.dylib
+-  UUID: 9C3192D8-6D79-3DCB-8D6E-11623EF00373
+-  Functions: 83033
+-  Symbols:   238719
+-  CStrings:  19512
++  UUID: EE17B470-3B15-3F2F-B76C-905B4A29274E
++  Functions: 83026
++  Symbols:   238718
++  CStrings:  19518
+ 
+Symbols:
++ __ZN6ranges6detail12to_container2fnIN4meta2idINSt3__16vectorI7NodeKeyI11RawOrSharedI12ZinIrOpLayerEENS5_9allocatorISB_EEEEEEE4implISE_NS5_11__wrap_iterIPP15ZinDeQuantLayerEERNS6_ISK_NSC_ISK_EEEEEEDaOT1_NS5_17integral_constantIbLb1EEE
++ __ZN9ZinSerial12Deserializer11DeserializeI15ZinIrConcatInfoJ15ZinIrConcatModeNSt3__16vectorIN11ZinIrTensor17ViewOriginAndStepENS4_9allocatorIS7_EEEEEEE11ZinIrStatusRNS4_10unique_ptrIT_NS4_14default_deleteISD_EEEEDpRKT0_
++ __ZNK15ZinIrConcatUnit16ComputeViewInfosE14ZinIrDimension
++ __ZNKSt3__112__hash_tableI15ZinIrConcatModeNS_4hashIS1_EENS_8equal_toIS1_EENS_9allocatorIS1_EEE4findIS1_EENS_21__hash_const_iteratorIPNS_11__hash_nodeIS1_PvEEEERKT_
++ __ZNSt3__112__hash_tableI15ZinIrConcatModeNS_4hashIS1_EENS_8equal_toIS1_EENS_9allocatorIS1_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableI15ZinIrConcatModeNS_4hashIS1_EENS_8equal_toIS1_EENS_9allocatorIS1_EEE25__emplace_unique_key_argsIS1_JRKS1_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS1_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableI15ZinIrConcatModeNS_4hashIS1_EENS_8equal_toIS1_EENS_9allocatorIS1_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableI15ZinIrConcatModeNS_4hashIS1_EENS_8equal_toIS1_EENS_9allocatorIS1_EEED2Ev
++ __ZNSt3__113unordered_setI15ZinIrConcatModeNS_4hashIS1_EENS_8equal_toIS1_EENS_9allocatorIS1_EEEC2ESt16initializer_listIS1_E
++ __ZNSt3__16vectorI7NodeKeyI11RawOrSharedI12ZinIrOpLayerEENS_9allocatorIS5_EEE18__assign_with_sizeB8ne200100INS_11__wrap_iterIPP15ZinDeQuantLayerEESE_EEvT_T0_l
+- __ZN9ZinSerial12Deserializer11DeserializeI15ZinIrConcatInfoJ15ZinIrConcatModeEEE11ZinIrStatusRNSt3__110unique_ptrIT_NS5_14default_deleteIS7_EEEEDpRKT0_
+- __ZNKSt3__110__function6__funcIZL25MaterializeConcatViewInfoP21ZinIrControlFlowGraphE3$_0NS_9allocatorIS4_EEF11ZinIrStatusP17ZinIrOpLayerGraphP12ZinIrOpLayerEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZL25MaterializeConcatViewInfoP21ZinIrControlFlowGraphE3$_0NS_9allocatorIS4_EEF11ZinIrStatusP17ZinIrOpLayerGraphP12ZinIrOpLayerEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZL25MaterializeConcatViewInfoP21ZinIrControlFlowGraphE3$_0NS_9allocatorIS4_EEF11ZinIrStatusP17ZinIrOpLayerGraphP12ZinIrOpLayerEE7__cloneEPNS0_6__baseISC_EE
+- __ZNKSt3__110__function6__funcIZL25MaterializeConcatViewInfoP21ZinIrControlFlowGraphE3$_0NS_9allocatorIS4_EEF11ZinIrStatusP17ZinIrOpLayerGraphP12ZinIrOpLayerEE7__cloneEv
+- __ZNSt3__110__function6__funcIZL25MaterializeConcatViewInfoP21ZinIrControlFlowGraphE3$_0NS_9allocatorIS4_EEF11ZinIrStatusP17ZinIrOpLayerGraphP12ZinIrOpLayerEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZL25MaterializeConcatViewInfoP21ZinIrControlFlowGraphE3$_0NS_9allocatorIS4_EEF11ZinIrStatusP17ZinIrOpLayerGraphP12ZinIrOpLayerEE7destroyEv
+- __ZNSt3__110__function6__funcIZL25MaterializeConcatViewInfoP21ZinIrControlFlowGraphE3$_0NS_9allocatorIS4_EEF11ZinIrStatusP17ZinIrOpLayerGraphP12ZinIrOpLayerEED0Ev
+- __ZNSt3__110__function6__funcIZL25MaterializeConcatViewInfoP21ZinIrControlFlowGraphE3$_0NS_9allocatorIS4_EEF11ZinIrStatusP17ZinIrOpLayerGraphP12ZinIrOpLayerEED1Ev
+- __ZNSt3__110__function6__funcIZL25MaterializeConcatViewInfoP21ZinIrControlFlowGraphE3$_0NS_9allocatorIS4_EEF11ZinIrStatusP17ZinIrOpLayerGraphP12ZinIrOpLayerEEclEOS9_OSB_
+- __ZTINSt3__110__function6__funcIZL25MaterializeConcatViewInfoP21ZinIrControlFlowGraphE3$_0NS_9allocatorIS4_EEF11ZinIrStatusP17ZinIrOpLayerGraphP12ZinIrOpLayerEEE
+- __ZTIZL25MaterializeConcatViewInfoP21ZinIrControlFlowGraphE3$_0
+- __ZTSNSt3__110__function6__funcIZL25MaterializeConcatViewInfoP21ZinIrControlFlowGraphE3$_0NS_9allocatorIS4_EEF11ZinIrStatusP17ZinIrOpLayerGraphP12ZinIrOpLayerEEE
+- __ZTSZL25MaterializeConcatViewInfoP21ZinIrControlFlowGraphE3$_0
+- __ZTVNSt3__110__function6__funcIZL25MaterializeConcatViewInfoP21ZinIrControlFlowGraphE3$_0NS_9allocatorIS4_EEF11ZinIrStatusP17ZinIrOpLayerGraphP12ZinIrOpLayerEEE
+CStrings:
++ "Concat has no view information"
++ "Internal WidthConcat Error"
++ "Invalid concat dimension"
++ "Must be connected"
++ "RemoveRedundantShapeChange Internal Error"
++ "RemoveRedundantShapeChange Internal Issue"
++ "ReplaceWidthConcat internal error"
+- "Frontend concat prepare failure"
+
+```

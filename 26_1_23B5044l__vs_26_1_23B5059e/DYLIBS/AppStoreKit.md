@@ -1,0 +1,307 @@
+## AppStoreKit
+
+> `/System/Library/PrivateFrameworks/AppStoreKit.framework/AppStoreKit`
+
+```diff
+
+-11.1.9.0.0
+-  __TEXT.__text: 0x7c0e14
+-  __TEXT.__auth_stubs: 0x9910
++11.1.14.0.0
++  __TEXT.__text: 0x7c8108
++  __TEXT.__auth_stubs: 0x9a30
+   __TEXT.__init_offsets: 0x4
+-  __TEXT.__objc_methlist: 0x5b98
+-  __TEXT.__const: 0x50bd4
+-  __TEXT.__cstring: 0x3310b
+-  __TEXT.__oslogstring: 0x414
++  __TEXT.__objc_methlist: 0x5be0
++  __TEXT.__const: 0x50df4
++  __TEXT.__cstring: 0x335ab
++  __TEXT.__oslogstring: 0x4ce
+   __TEXT.__gcc_except_tab: 0x964
+-  __TEXT.__swift5_typeref: 0x17c6a
+-  __TEXT.__swift5_reflstr: 0x1ffc0
+-  __TEXT.__swift5_assocty: 0x3798
+-  __TEXT.__constg_swiftt: 0x1fbe4
+-  __TEXT.__swift5_fieldmd: 0x1d5ec
++  __TEXT.__swift5_typeref: 0x17da6
++  __TEXT.__swift5_reflstr: 0x200b0
++  __TEXT.__swift5_assocty: 0x37b8
++  __TEXT.__constg_swiftt: 0x1fd44
++  __TEXT.__swift5_fieldmd: 0x1d6c8
+   __TEXT.__swift5_builtin: 0x8c0
+-  __TEXT.__swift5_proto: 0x3080
+-  __TEXT.__swift5_types: 0x1b00
+-  __TEXT.__swift5_capture: 0xabf8
++  __TEXT.__swift5_proto: 0x3088
++  __TEXT.__swift5_types: 0x1b0c
++  __TEXT.__swift5_capture: 0xac78
+   __TEXT.__swift5_protos: 0x3b4
+-  __TEXT.__swift_as_entry: 0x3e8
+-  __TEXT.__swift_as_ret: 0x420
++  __TEXT.__swift_as_entry: 0x400
++  __TEXT.__swift_as_ret: 0x430
+   __TEXT.__swift5_mpenum: 0x27c
+-  __TEXT.__unwind_info: 0x1ae50
+-  __TEXT.__eh_frame: 0x1c424
++  __TEXT.__unwind_info: 0x1af40
++  __TEXT.__eh_frame: 0x1c654
+   __TEXT.__objc_classname: 0x786
+-  __TEXT.__objc_methname: 0xea99
++  __TEXT.__objc_methname: 0xeadc
+   __TEXT.__objc_methtype: 0x3b8a
+   __TEXT.__objc_stubs: 0x4420
+-  __DATA_CONST.__got: 0x2768
+-  __DATA_CONST.__const: 0x4670
+-  __DATA_CONST.__objc_classlist: 0x13d8
++  __DATA_CONST.__got: 0x2780
++  __DATA_CONST.__const: 0x46c8
++  __DATA_CONST.__objc_classlist: 0x13e8
+   __DATA_CONST.__objc_catlist: 0x78
+-  __DATA_CONST.__objc_protolist: 0x388
++  __DATA_CONST.__objc_protolist: 0x390
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4700
+-  __DATA_CONST.__objc_protorefs: 0x228
++  __DATA_CONST.__objc_selrefs: 0x4708
++  __DATA_CONST.__objc_protorefs: 0x230
+   __DATA_CONST.__objc_superrefs: 0xf8
+   __DATA_CONST.__objc_arraydata: 0x120
+-  __AUTH_CONST.__auth_got: 0x4ca0
+-  __AUTH_CONST.__const: 0x45380
++  __AUTH_CONST.__auth_got: 0x4d30
++  __AUTH_CONST.__const: 0x452a0
+   __AUTH_CONST.__cfstring: 0x2040
+-  __AUTH_CONST.__objc_const: 0x41458
++  __AUTH_CONST.__objc_const: 0x41730
+   __AUTH_CONST.__objc_intobj: 0x30
+   __AUTH_CONST.__objc_arrayobj: 0x90
+-  __AUTH.__objc_data: 0x4440
+-  __AUTH.__data: 0x11d30
++  __AUTH.__objc_data: 0x44a8
++  __AUTH.__data: 0x11e80
+   __DATA.__objc_ivar: 0x184
+-  __DATA.__data: 0xb498
+-  __DATA.__bss: 0x37910
+-  __DATA.__common: 0xd48
+-  __DATA_DIRTY.__objc_data: 0x9070
+-  __DATA_DIRTY.__data: 0x2a5d8
+-  __DATA_DIRTY.__bss: 0x19398
+-  __DATA_DIRTY.__common: 0x2090
++  __DATA.__data: 0xb398
++  __DATA.__bss: 0x367b0
++  __DATA.__common: 0xcf0
++  __DATA_DIRTY.__objc_data: 0x9058
++  __DATA_DIRTY.__data: 0x2a960
++  __DATA_DIRTY.__bss: 0x1a618
++  __DATA_DIRTY.__common: 0x2110
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1F8DAC8F-6FC3-3E99-96F3-1E8969856C88
+-  Functions: 42879
+-  Symbols:   16915
+-  CStrings:  9332
++  UUID: A0B23ABC-23ED-38F5-903F-7942FFB46018
++  Functions: 42975
++  Symbols:   16956
++  CStrings:  9364
+ 
+Symbols:
++ _OBJC_CLASS_$__TtC11AppStoreKit20JSClientCapabilities
++ _OBJC_METACLASS_$__TtC11AppStoreKit20JSClientCapabilities
++ __DATA__TtC11AppStoreKit20JSClientCapabilities
++ __DATA__TtC11AppStoreKit29ArcadeLaunchAttributionAction
++ __DATA__TtCC11AppStoreKit34ThreeDimensionalAppIconSnapshotterP33_8B8883147F35279C9C30E8FA9BB62D5015RendererManager
++ __INSTANCE_METHODS__TtC11AppStoreKit20JSClientCapabilities
++ __INSTANCE_METHODS__TtC11AppStoreKit24JSNativeIntentDispatcher
++ __IVARS__TtC11AppStoreKit24JSNativeIntentDispatcher
++ __IVARS__TtC11AppStoreKit29ArcadeLaunchAttributionAction
++ __IVARS__TtCC11AppStoreKit34ThreeDimensionalAppIconSnapshotterP33_8B8883147F35279C9C30E8FA9BB62D5015RendererManager
++ __METACLASS_DATA__TtC11AppStoreKit20JSClientCapabilities
++ __METACLASS_DATA__TtC11AppStoreKit29ArcadeLaunchAttributionAction
++ __METACLASS_DATA__TtCC11AppStoreKit34ThreeDimensionalAppIconSnapshotterP33_8B8883147F35279C9C30E8FA9BB62D5015RendererManager
++ __PROTOCOLS__TtC11AppStoreKit13ArtworkLoader.44
++ __PROTOCOLS__TtC11AppStoreKit20JSClientCapabilities
++ __PROTOCOLS__TtC11AppStoreKit20JSClientCapabilities.2
++ __PROTOCOLS__TtC11AppStoreKit24JSNativeIntentDispatcher
++ __PROTOCOLS__TtC11AppStoreKit24JSNativeIntentDispatcher.1
++ __PROTOCOL_INSTANCE_METHODS__TtP11AppStoreKitP33_05098B66667D7D33F038ABE6964A74F427JSClientCapabilitiesExports_
++ __PROTOCOL_INSTANCE_METHODS__TtP11AppStoreKitP33_BE94D9B081122381BA6AFAF6C0C9830232JSNativeIntentDispatcherProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP11AppStoreKitP33_05098B66667D7D33F038ABE6964A74F427JSClientCapabilitiesExports_
++ __PROTOCOL_METHOD_TYPES__TtP11AppStoreKitP33_BE94D9B081122381BA6AFAF6C0C9830232JSNativeIntentDispatcherProtocol_
++ __PROTOCOL_PROTOCOLS__TtP11AppStoreKitP33_05098B66667D7D33F038ABE6964A74F427JSClientCapabilitiesExports_
++ __PROTOCOL_PROTOCOLS__TtP11AppStoreKitP33_BE94D9B081122381BA6AFAF6C0C9830232JSNativeIntentDispatcherProtocol_
++ __PROTOCOL__TtP11AppStoreKitP33_05098B66667D7D33F038ABE6964A74F427JSClientCapabilitiesExports_
++ __PROTOCOL__TtP11AppStoreKitP33_BE94D9B081122381BA6AFAF6C0C9830232JSNativeIntentDispatcherProtocol_
++ ___swift_deallocate_boxed_opaque_existential_0
++ __swift_stdlib_bridgeErrorToNSError
++ _associated conformance 11AppStoreKit43ArcadeLaunchAttributionActionImplementationVyxG9JetEngine0gH0AA0G0AeFP_AE0G5Model
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA4TextVSg_ACyAiA30_EnvironmentKeyWritingModifierVySiSgGGAJtGGAA14_PaddingLayoutVGAA0G0HPAqaUHPyHC_AsA0gL0HPyHCHC.7
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyACy012_RealityKit_aB00E4ViewVyAD0eg6CameraD0V4BodyVy_AD0eG18DefaultPlaceholderVGGAA17_BrightnessEffectVGAA011_SaturationM0VGAA09_ContrastM0VGAA30_SafeAreaRegionsIgnoringLayoutVGAA25_AllowsHitTestingModifierVGAA01_d5ShapeX0VyAA9RectangleVGGAA017_AppearanceActionX0VGAA0G0HPA7_AAA11_HPA1_AAA11_HPAzAA11_HPAwAA11_HPAtAA11_HPAqAA11_HPAnAA11_HPyHC_ApA0gX0HPyHCHC_AsAA12_HPyHCHC_AvAA12_HPyHCHC_AyAA12_HPyHCHC_A0_AAA12_HPyHCHC_A6_AAA12_HPyHCHC_A9_AAA12_HPyHCHC.30
++ _get_witness_table 7SwiftUI6ZStackVyAA9TupleViewVyACyAEyAA5ColorV_AA15ModifiedContentVyAA14LinearGradientVAA16_BlendModeEffectVGtGGSg_AA012_ConditionalH0Vy11AppStoreKit0a9UIArtworkE0VAA6VStackVyAEyAIyAT023ThreeDimensionalArtworkhE0VAA12_FrameLayoutVG_AA6SpacerVtGGGSgAT015MediaPageHeaderE0V9TextStack33_29BE9EE57F1ACD3366B28F3CBFE49CC7LLVtGGAA0E0HPyHC.2
++ _objectdestroy.72Tm
++ _symbolic $s11AppStoreKit27JSClientCapabilitiesExports33_05098B66667D7D33F038ABE6964A74F4LLP
++ _symbolic $s11AppStoreKit32JSNativeIntentDispatcherProtocol33_BE94D9B081122381BA6AFAF6C0C98302LLP
++ _symbolic So7CIImageCSg
++ _symbolic So7CIImageCSgz_Xx
++ _symbolic So7JSValueC______pIeghHrzo_ s5ErrorP
++ _symbolic So8NSObjectCSg
++ _symbolic _____ 11AppStoreKit016ThreeDimensionalA15IconSnapshotterC15RendererManager33_8B8883147F35279C9C30E8FA9BB62D50LLC
++ _symbolic _____ 11AppStoreKit20JSClientCapabilitiesC
++ _symbolic _____ 11AppStoreKit24JSNativeIntentDispatcherC
++ _symbolic _____ 11AppStoreKit29ArcadeLaunchAttributionActionC
++ _symbolic _____ 11AppStoreKit43ArcadeLaunchAttributionActionImplementationV
++ _symbolic _____ 2os6LoggerV
++ _symbolic _____ 9JetEngine22NativeIntentDispatcherV
++ _symbolic _____Sg 9JetEngine15BaseObjectGraphC
++ _symbolic _____Sg 9JetEngine7JSErrorV
++ _symbolic _____Sg_ABt 11AppStoreKit16AccountPresenterC0D10DetailItemC9AccessoryO
++ _symbolic _____XDXMT 11AppStoreKit13ArtworkLoaderC
++ _symbolic ______p 9JetEngine11IntentModelP
++ _symbolic _____yAAyAAyAAyAAyAAyAAy_____y_____y______GG_____G_____G_____G_____G_____G_____y_____GG_____G 7SwiftUI15ModifiedContentV 012_RealityKit_aB00E4ViewV AD0eg6CameraD0V4BodyV AD0eG18DefaultPlaceholderV AA17_BrightnessEffectV AA011_SaturationM0V AA09_ContrastM0V AA30_SafeAreaRegionsIgnoringLayoutV AA25_AllowsHitTestingModifierV AA01_d5ShapeX0V AA9RectangleV AA017_AppearanceActionX0V
++ _symbolic _____yAAyAAyAAyAAyAAy_____y_____y______GG_____G_____G_____G_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV 012_RealityKit_aB00E4ViewV AD0eg6CameraD0V4BodyV AD0eG18DefaultPlaceholderV AA17_BrightnessEffectV AA011_SaturationM0V AA09_ContrastM0V AA30_SafeAreaRegionsIgnoringLayoutV AA25_AllowsHitTestingModifierV AA01_d5ShapeX0V AA9RectangleV
++ _symbolic _____yAAyAAyAAyAAy_____y_____y______GG_____G_____G_____G_____G_____G 7SwiftUI15ModifiedContentV 012_RealityKit_aB00E4ViewV AD0eg6CameraD0V4BodyV AD0eG18DefaultPlaceholderV AA17_BrightnessEffectV AA011_SaturationM0V AA09_ContrastM0V AA30_SafeAreaRegionsIgnoringLayoutV AA25_AllowsHitTestingModifierV
++ _symbolic _____yAAyAAyAAy_____y_____y______GG_____G_____G_____G_____G 7SwiftUI15ModifiedContentV 012_RealityKit_aB00E4ViewV AD0eg6CameraD0V4BodyV AD0eG18DefaultPlaceholderV AA17_BrightnessEffectV AA011_SaturationM0V AA09_ContrastM0V AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____G 11AppStoreKit43ArcadeLaunchAttributionActionImplementationV 9JetEngine15BaseObjectGraphC
++ _symbolic _____y_____Sg______yAB_____ySiSgGGACtG 7SwiftUI9TupleViewV AA4TextV AA15ModifiedContentV AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 11AppStoreKit023ThreeDimensionalArtworkD4ViewV AA12_FrameLayoutV
++ _symbolic _____y___________y_____yACy___________y__________GtGGSg______y__________yACyAFy__________G______tGGGSg_____tGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA0F0V AA5ColorV AA15ModifiedContentV AA14LinearGradientV AA16_BlendModeEffectV AA012_ConditionalK0V 11AppStoreKit0a9UIArtworkD0V AA6VStackV AV023ThreeDimensionalArtworkkD0V AA06_FrameG0V AA6SpacerV AV015MediaPageHeaderD0V9TextStack33_29BE9EE57F1ACD3366B28F3CBFE49CC7LLV
++ _symbolic _____y__________y_____y_____y__________G______tGGG 7SwiftUI19_ConditionalContentV 11AppStoreKit0A13UIArtworkViewV AA6VStackV AA05TupleI0V AA08ModifiedD0V AD023ThreeDimensionalArtworkdI0V AA12_FrameLayoutV AA6SpacerV
++ _symbolic _____y__________y_____y_____y__________G______tGGGSg 7SwiftUI19_ConditionalContentV 11AppStoreKit0A13UIArtworkViewV AA6VStackV AA05TupleI0V AA08ModifiedD0V AD023ThreeDimensionalArtworkdI0V AA12_FrameLayoutV AA6SpacerV
++ _symbolic _____y__________y_____y_____y__________G______tGG_G 7SwiftUI19_ConditionalContentV7StorageO 11AppStoreKit0A13UIArtworkViewV AA6VStackV AA05TupleJ0V AA08ModifiedD0V AF023ThreeDimensionalArtworkdJ0V AA12_FrameLayoutV AA6SpacerV
++ _symbolic _____y_____yAAyABy___________y__________GtGGSg______y__________yAByADy__________G______tGGGSg_____tGG 7SwiftUI6ZStackV AA9TupleViewV AA5ColorV AA15ModifiedContentV AA14LinearGradientV AA16_BlendModeEffectV AA012_ConditionalH0V 11AppStoreKit0a9UIArtworkE0V AA6VStackV AP023ThreeDimensionalArtworkhE0V AA12_FrameLayoutV AA6SpacerV AP015MediaPageHeaderE0V9TextStack33_29BE9EE57F1ACD3366B28F3CBFE49CC7LLV
++ _symbolic _____y_____y_____Sg______yAC_____ySiSgGGADtGG 7SwiftUI6VStackV AA9TupleViewV AA4TextV AA15ModifiedContentV AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____y_____y__________G______tG 7SwiftUI9TupleViewV AA15ModifiedContentV 11AppStoreKit023ThreeDimensionalArtworkfD0V AA12_FrameLayoutV AA6SpacerV
++ _symbolic _____y_____y___________y__________GtGG 7SwiftUI6ZStackV AA9TupleViewV AA5ColorV AA15ModifiedContentV AA14LinearGradientV AA16_BlendModeEffectV
++ _symbolic _____y_____y___________y__________GtGGSg 7SwiftUI6ZStackV AA9TupleViewV AA5ColorV AA15ModifiedContentV AA14LinearGradientV AA16_BlendModeEffectV
++ _symbolic _____y_____y___________y__________GtGGSg______y__________yAByADy__________G______tGGGSg_____t 7SwiftUI6ZStackV AA9TupleViewV AA5ColorV AA15ModifiedContentV AA14LinearGradientV AA16_BlendModeEffectV AA012_ConditionalH0V 11AppStoreKit0a9UIArtworkE0V AA6VStackV AP023ThreeDimensionalArtworkhE0V AA12_FrameLayoutV AA6SpacerV AP015MediaPageHeaderE0V9TextStack33_29BE9EE57F1ACD3366B28F3CBFE49CC7LLV
++ _symbolic _____y_____y_____y_____Sg_AAyAD_____ySiSgGGAEtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y__________G______tGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV 11AppStoreKit023ThreeDimensionalArtworkgE0V AA12_FrameLayoutV AA6SpacerV
++ _symbolic _____yxG 11AppStoreKit24JSNativeIntentDispatcherC
+- _OBJC_CLASS_$_ASDPersonalizationStore
+- _OBJC_CLASS_$__TtC11AppStoreKit28JSPersonalizationStoreObject
+- _OBJC_METACLASS_$__TtC11AppStoreKit28JSPersonalizationStoreObject
+- __DATA__TtC11AppStoreKit28JSPersonalizationStoreObject
+- __INSTANCE_METHODS__TtC11AppStoreKit28JSPersonalizationStoreObject
+- __METACLASS_DATA__TtC11AppStoreKit28JSPersonalizationStoreObject
+- __PROTOCOLS__TtC11AppStoreKit13ArtworkLoader.43
+- __PROTOCOLS__TtC11AppStoreKit28JSPersonalizationStoreObject
+- __PROTOCOLS__TtC11AppStoreKit28JSPersonalizationStoreObject.2
+- __PROTOCOL_INSTANCE_METHODS__TtP11AppStoreKitP33_1D8D25B576873E4F4A45140996707F2135JSPersonalizationStoreObjectExports_
+- __PROTOCOL_METHOD_TYPES__TtP11AppStoreKitP33_1D8D25B576873E4F4A45140996707F2135JSPersonalizationStoreObjectExports_
+- __PROTOCOL_PROTOCOLS__TtP11AppStoreKitP33_1D8D25B576873E4F4A45140996707F2135JSPersonalizationStoreObjectExports_
+- __PROTOCOL__TtP11AppStoreKitP33_1D8D25B576873E4F4A45140996707F2135JSPersonalizationStoreObjectExports_
+- _block_copy_helper.67
+- _block_copy_helper.73
+- _block_descriptor.69
+- _block_descriptor.75
+- _block_destroy_helper.68
+- _block_destroy_helper.74
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA4TextVSg_AiJtGGAA14_PaddingLayoutVGAA0G0HPAlaPHPyHC_AnA0G8ModifierHPyHCHC.2
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyACyACy012_RealityKit_aB00E4ViewVyAD0eg6CameraD0V4BodyVy_AD0eG18DefaultPlaceholderVGGAA17_BrightnessEffectVGAA011_SaturationM0VGAA09_ContrastM0VGAA19_BackgroundModifierVyAA6ZStackVyAA05TupleG0VyAA5ColorV_ACyAA14LinearGradientVAA010_BlendModeM0VGtGGGGAA30_SafeAreaRegionsIgnoringLayoutVGAA017_AllowsHitTestingQ0VGAA01_d5ShapeQ0VyAA9RectangleVGGAA017_AppearanceActionQ0VGAA0G0HPA24_AAA28_HPA18_AAA28_HPA15_AAA28_HPA12_AAA28_HPAwAA28_HPAtAA28_HPAqAA28_HPAnAA28_HPyHC_ApA0gQ0HPyHCHC_AsAA29_HPyHCHC_AvAA29_HPyHCHC_A11_AAA29_HPyHCHC_A14_AAA29_HPyHCHC_A17_AAA29_HPyHCHC_A23_AAA29_HPyHCHC_A26_AAA29_HPyHCHC.30
+- _get_witness_table 7SwiftUI6ZStackVyAA9TupleViewVyAA19_ConditionalContentVyAGy11AppStoreKit0a9UIArtworkE0VAH023ThreeDimensionalArtworkgE0VGAA05EmptyE0VG_AH015MediaPageHeaderE0V9TextStack33_29BE9EE57F1ACD3366B28F3CBFE49CC7LLVtGGAA0E0HPyHC.1
+- _objectdestroy.71Tm
+- _symbolic $s11AppStoreKit017JSPersonalizationB13ObjectExports33_1D8D25B576873E4F4A45140996707F21LLP
+- _symbolic ScCySo7UIImageCSg_____G s5NeverO
+- _symbolic So7CIImageCSgIegg_
+- _symbolic _____ 11AppStoreKit017JSPersonalizationB6ObjectC
+- _symbolic _____ 11AppStoreKit13ClientFeatureV
+- _symbolic _____SgXw 11AppStoreKit016ThreeDimensionalA19IconRealityRendererC
+- _symbolic _____SgXwz_Xx 11AppStoreKit016ThreeDimensionalA19IconRealityRendererC
+- _symbolic _____yAAyAAyAAyAAyAAyAAyAAy_____y_____y______GG_____G_____G_____G_____y_____y_____y______AAy__________GtGGGG_____G_____G_____y_____GG_____G 7SwiftUI15ModifiedContentV 012_RealityKit_aB00E4ViewV AD0eg6CameraD0V4BodyV AD0eG18DefaultPlaceholderV AA17_BrightnessEffectV AA011_SaturationM0V AA09_ContrastM0V AA19_BackgroundModifierV AA6ZStackV AA05TupleG0V AA5ColorV AA14LinearGradientV AA010_BlendModeM0V AA30_SafeAreaRegionsIgnoringLayoutV AA017_AllowsHitTestingQ0V AA01_d5ShapeQ0V AA9RectangleV AA017_AppearanceActionQ0V
+- _symbolic _____yAAyAAyAAyAAyAAyAAy_____y_____y______GG_____G_____G_____G_____y_____y_____y______AAy__________GtGGGG_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV 012_RealityKit_aB00E4ViewV AD0eg6CameraD0V4BodyV AD0eG18DefaultPlaceholderV AA17_BrightnessEffectV AA011_SaturationM0V AA09_ContrastM0V AA19_BackgroundModifierV AA6ZStackV AA05TupleG0V AA5ColorV AA14LinearGradientV AA010_BlendModeM0V AA30_SafeAreaRegionsIgnoringLayoutV AA017_AllowsHitTestingQ0V AA01_d5ShapeQ0V AA9RectangleV
+- _symbolic _____yAAyAAyAAyAAyAAy_____y_____y______GG_____G_____G_____G_____y_____y_____y______AAy__________GtGGGG_____G_____G 7SwiftUI15ModifiedContentV 012_RealityKit_aB00E4ViewV AD0eg6CameraD0V4BodyV AD0eG18DefaultPlaceholderV AA17_BrightnessEffectV AA011_SaturationM0V AA09_ContrastM0V AA19_BackgroundModifierV AA6ZStackV AA05TupleG0V AA5ColorV AA14LinearGradientV AA010_BlendModeM0V AA30_SafeAreaRegionsIgnoringLayoutV AA017_AllowsHitTestingQ0V
+- _symbolic _____yAAyAAyAAyAAy_____y_____y______GG_____G_____G_____G_____y_____y_____y______AAy__________GtGGGG_____G 7SwiftUI15ModifiedContentV 012_RealityKit_aB00E4ViewV AD0eg6CameraD0V4BodyV AD0eG18DefaultPlaceholderV AA17_BrightnessEffectV AA011_SaturationM0V AA09_ContrastM0V AA19_BackgroundModifierV AA6ZStackV AA05TupleG0V AA5ColorV AA14LinearGradientV AA010_BlendModeM0V AA30_SafeAreaRegionsIgnoringLayoutV
+- _symbolic _____yAAyAAyAAy_____y_____y______GG_____G_____G_____G_____y_____y_____y______AAy__________GtGGGG 7SwiftUI15ModifiedContentV 012_RealityKit_aB00E4ViewV AD0eg6CameraD0V4BodyV AD0eG18DefaultPlaceholderV AA17_BrightnessEffectV AA011_SaturationM0V AA09_ContrastM0V AA19_BackgroundModifierV AA6ZStackV AA05TupleG0V AA5ColorV AA14LinearGradientV AA010_BlendModeM0V
+- _symbolic _____yAAy__________G_____G 7SwiftUI19_ConditionalContentV 11AppStoreKit0A13UIArtworkViewV AD023ThreeDimensionalArtworkdI0V AA05EmptyI0V
+- _symbolic _____yAAy__________G_____G______t 7SwiftUI19_ConditionalContentV 11AppStoreKit0A13UIArtworkViewV AD023ThreeDimensionalArtworkdI0V AA05EmptyI0V AD015MediaPageHeaderI0V9TextStack33_29BE9EE57F1ACD3366B28F3CBFE49CC7LLV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 11AppStoreKit13ClientFeatureV
+- _symbolic _____y_____Sg_AbCtG 7SwiftUI9TupleViewV AA4TextV
+- _symbolic _____y__________G 7SwiftUI19_ConditionalContentV 11AppStoreKit0A13UIArtworkViewV AD023ThreeDimensionalArtworkdI0V
+- _symbolic _____y___________G 7SwiftUI19_ConditionalContentV7StorageO 11AppStoreKit0A13UIArtworkViewV AF023ThreeDimensionalArtworkdJ0V
+- _symbolic _____y___________y_____yADy__________G_____G______tGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA19_ConditionalContentV 11AppStoreKit0a9UIArtworkD0V AL023ThreeDimensionalArtworkjD0V AA05EmptyD0V AL015MediaPageHeaderD0V9TextStack33_29BE9EE57F1ACD3366B28F3CBFE49CC7LLV
+- _symbolic _____y_____y_____Sg_AcDtGG 7SwiftUI6VStackV AA9TupleViewV AA4TextV
+- _symbolic _____y_____y__________G______G 7SwiftUI19_ConditionalContentV7StorageO AC 11AppStoreKit0A13UIArtworkViewV AF023ThreeDimensionalArtworkdJ0V AA05EmptyJ0V
+- _symbolic _____y_____y_____yACy__________G_____G______tGG 7SwiftUI6ZStackV AA9TupleViewV AA19_ConditionalContentV 11AppStoreKit0a9UIArtworkE0V AH023ThreeDimensionalArtworkgE0V AA05EmptyE0V AH015MediaPageHeaderE0V9TextStack33_29BE9EE57F1ACD3366B28F3CBFE49CC7LLV
+- _symbolic _____y_____y_____y_____Sg_AdEtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA14_PaddingLayoutV
+- _symbolic _____y_____y_____y___________y__________GtGGG 7SwiftUI19_BackgroundModifierV AA6ZStackV AA9TupleViewV AA5ColorV AA15ModifiedContentV AA14LinearGradientV AA16_BlendModeEffectV
+- _type_layout_string 11AppStoreKit13ClientFeatureV
+- _type_layout_string 11AppStoreKit19MediaPageHeaderViewV9TextStack33_29BE9EE57F1ACD3366B28F3CBFE49CC7LLV
+CStrings:
++ "%{public}s"
++ ") was not CustomJSValueConvertible and couldn't be returned to JS"
++ "124485C4-3C13-4B59-BB20-A4CF5EEE1F97"
++ "5EF21E6D-32E7-43E0-9C8B-DA218F78FEBD"
++ "63E2A8A4-7426-478E-8B8D-89230521A1B1"
++ "7AEF4C15-75D0-4E19-B1D1-145F4F861E5E"
++ ">) called without active JS worker thread"
++ "@\"_TtC11AppStoreKit20JSClientCapabilities\""
++ "@\"_TtC11AppStoreKit20JSClientCapabilities\"16@0:8"
++ "ASDArcadeService"
++ "ASKJavaScriptVersion"
++ "AppStoreKit.ArcadeLaunchAttributionAction"
++ "AppStoreKit.JSNativeIntentDispatcher"
++ "ArcadeLaunchAttributionAction"
++ "C5531B24-83F8-40C5-B0E3-950B775019DA"
++ "CED78270-8A3F-4BA6-A6A7-8C8D85C5475B"
++ "Could not record app launch for bundleIdentifier"
++ "D6E1F8C9-35BC-4568-B7C9-30A396C164DA"
++ "Dispatching intent %{public}s"
++ "FBEF7E28-E3DF-4484-A7D7-2FE19E43D2B8"
++ "Failed to dispatch intent %{public}s due to: %{public}@"
++ "Failed to render three dimensional brick"
++ "JSNtvIntentDispatcher"
++ "ObjectGraph must be provided"
++ "Provided Intent ReturnType ("
++ "Received result for intent %{public}s"
++ "Recorded app launch for bundleIdentifier"
++ "T@\"_TtC11AppStoreKit20JSClientCapabilities\",N,R"
++ "T@\"_TtC11AppStoreKit20JSClientCapabilities\",N,R,VclientCapabilities"
++ "The $kind is missing from the JSON object when attempting to dispatch through JSNativeIntentDispatcher"
++ "Unable to find a type for the provided $kind: "
++ "_TtC11AppStoreKit20JSClientCapabilities"
++ "_TtC11AppStoreKit29ArcadeLaunchAttributionAction"
++ "_TtCC11AppStoreKit34ThreeDimensionalAppIconSnapshotterP33_8B8883147F35279C9C30E8FA9BB62D5015RendererManager"
++ "_TtP11AppStoreKitP33_05098B66667D7D33F038ABE6964A74F427JSClientCapabilitiesExports_"
++ "_TtP11AppStoreKitP33_BE94D9B081122381BA6AFAF6C0C9830232JSNativeIntentDispatcherProtocol_"
++ "additionalMetrics"
++ "clientCapabilities"
++ "consistencyTokens"
++ "dispatch:"
++ "dispatcher"
++ "failed"
++ "prominentPlayOnPause"
++ "recordAppLaunchForBundleID:additionalMetrics:replyHandler:"
++ "rendererManager"
++ "restricted"
++ "restrictedAction"
++ "secondaryAccessory"
++ "v24@?0@\"JSValue\"8@\"JSValue\"16"
++ "valueWithNewPromiseInContext:fromExecutor:"
+- "@\"_TtC11AppStoreKit28JSPersonalizationStoreObject\""
+- "@\"_TtC11AppStoreKit28JSPersonalizationStoreObject\"16@0:8"
+- "ACCESSIBILITY_DOWNLOADING_BUTTON"
+- "ACCESSIBILITY_REDOWNLOAD_BUTTON"
+- "Could not resolve taste profile"
+- "Could not resolve taste profile token"
+- "Failed to load renderer"
+- "Failed to render three dimensional brick "
+- "T@\"_TtC11AppStoreKit28JSPersonalizationStoreObject\",N,R"
+- "T@\"_TtC11AppStoreKit28JSPersonalizationStoreObject\",N,R,VpersonalizationStore"
+- "_TtC11AppStoreKit28JSPersonalizationStoreObject"
+- "_TtP11AppStoreKitP33_1D8D25B576873E4F4A45140996707F2135JSPersonalizationStoreObjectExports_"
+- "getTasteProfileToken"
+- "getTasteProfileToken called without active JS worker thread"
+- "getTasteProfileToken:"
+- "personalizationStore"
+- "snapshot(for:with:traitCollection:)"
+- "threeDimensionalAppIconRealityRenderer"
+- "v24@?0@\"NSString\"8@\"NSError\"16"
+
+```
