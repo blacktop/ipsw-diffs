@@ -1,0 +1,733 @@
+## AccessibilitySettings
+
+> `/System/Library/PreferenceBundles/AccessibilitySettings.bundle/AccessibilitySettings`
+
+```diff
+
+-1723.0.0.0.0
+-  __TEXT.__text: 0x141850
+-  __TEXT.__auth_stubs: 0x35f0
+-  __TEXT.__objc_stubs: 0x20d00
+-  __TEXT.__objc_methlist: 0x10ff4
+-  __TEXT.__const: 0xf84
+-  __TEXT.__gcc_except_tab: 0x29e0
+-  __TEXT.__objc_methname: 0x2e671
+-  __TEXT.__cstring: 0x14ad3
+-  __TEXT.__oslogstring: 0x2b58
+-  __TEXT.__objc_classname: 0x3d61
++1726.2.3.0.0
++  __TEXT.__text: 0x142ddc
++  __TEXT.__auth_stubs: 0x3620
++  __TEXT.__objc_stubs: 0x20ea0
++  __TEXT.__objc_methlist: 0x1100c
++  __TEXT.__const: 0xfa4
++  __TEXT.__gcc_except_tab: 0x2a4c
++  __TEXT.__objc_methname: 0x2e92d
++  __TEXT.__cstring: 0x14c98
++  __TEXT.__oslogstring: 0x2b7a
++  __TEXT.__objc_classname: 0x3dc8
+   __TEXT.__objc_methtype: 0x5b64
+   __TEXT.__dlopen_cstrs: 0x186
+   __TEXT.__ustring: 0x2e
+   __TEXT.__constg_swiftt: 0x668
+-  __TEXT.__swift5_typeref: 0x2346
+-  __TEXT.__swift5_fieldmd: 0x304
++  __TEXT.__swift5_typeref: 0x239a
++  __TEXT.__swift5_fieldmd: 0x310
+   __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_reflstr: 0xd4
++  __TEXT.__swift5_reflstr: 0xf6
+   __TEXT.__swift5_assocty: 0x1e0
+   __TEXT.__swift5_capture: 0x80
+   __TEXT.__swift5_proto: 0x64
+   __TEXT.__swift5_types: 0x64
+-  __TEXT.__unwind_info: 0x4a1c
+-  __DATA_CONST.__auth_got: 0x1b08
+-  __DATA_CONST.__got: 0x1328
++  __TEXT.__unwind_info: 0x4a74
++  __DATA_CONST.__auth_got: 0x1b20
++  __DATA_CONST.__got: 0x1330
+   __DATA_CONST.__auth_ptr: 0x30
+-  __DATA_CONST.__const: 0x4858
+-  __DATA_CONST.__cfstring: 0x170a0
+-  __DATA_CONST.__objc_classlist: 0xcd0
++  __DATA_CONST.__const: 0x48a0
++  __DATA_CONST.__cfstring: 0x17200
++  __DATA_CONST.__objc_classlist: 0xce8
+   __DATA_CONST.__objc_catlist: 0x40
+   __DATA_CONST.__objc_protolist: 0x268
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   __DATA_CONST.__objc_dictobj: 0x870
+   __DATA_CONST.__objc_doubleobj: 0x1b0
+   __DATA_CONST.__objc_floatobj: 0x20
+-  __DATA.__objc_const: 0x1e3a0
+-  __DATA.__objc_selrefs: 0xac48
+-  __DATA.__objc_classrefs: 0x1518
++  __DATA.__objc_const: 0x1e580
++  __DATA.__objc_selrefs: 0xacc0
++  __DATA.__objc_classrefs: 0x1538
+   __DATA.__objc_superrefs: 0xa38
+-  __DATA.__objc_ivar: 0xcdc
+-  __DATA.__objc_data: 0x81d8
++  __DATA.__objc_ivar: 0xce0
++  __DATA.__objc_data: 0x82c8
+   __DATA.__data: 0x259a
+   __DATA.__bss: 0xf55
+   __DATA.__common: 0x38
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 66B58CF3-733B-31D8-BFED-CF73AA9D122A
+-  Functions: 7140
+-  Symbols:   17592
+-  CStrings:  14655
++  UUID: 079978C2-ED67-30A3-ACA7-2358F5F2A19B
++  Functions: 7163
++  Symbols:   17650
++  CStrings:  14705
+ 
+Symbols:
++ -[AXDisplayController reduceWhitePointSpecifier]
++ -[AXDisplayController setReduceWhitePointSpecifier:]
++ -[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]
++ -[ClarityUIPrivacySettingOnboardingController updateContinueButtonForSpecifier:]
++ -[DisplayFilterColorSettingsController viewDidLayoutSubviews]
++ -[VoiceOverBluetoothDevicesController setCentralManager:]
++ -[VoiceOverBluetoothDevicesController showPairingAlertForPairingAgent:peerDidRequestPairing:type:passkey:]
++ GCC_except_table36
++ GCC_except_table52
++ GCC_except_table78
++ GCC_except_table79
++ GCC_except_table81
++ OBJC_IVAR_$_AXDisplayController._reduceWhitePointSpecifier
++ Util_getSubrequirement.cold.1
++ Util_getSubrequirementOfType.cold.1
++ _ACMSEPControl
++ _ACMSEPControlEx
++ _AXAssistiveTouchIconTypeActionButton
++ _AXDeviceHasStaccato
++ _AXUIIconImageWithBackgroundForImage
++ _CBPairingAgentPairingDataPasskeyKey
++ _LibCall_ACMSEPControl
++ _LibCall_ACMSEPControl_Block
++ _LibSer_SEPControlResponse_Deserialize
++ _LibSer_SEPControlResponse_GetSize
++ _LibSer_SEPControlResponse_Serialize
++ _LibSer_SEPControl_Deserialize
++ _LibSer_SEPControl_GetSize
++ _LibSer_SEPControl_Serialize
++ _MGCopyAnswer
++ _OBJC_CLASS_$_ASTBuddyBluetoothDevicesController
++ _OBJC_CLASS_$_BiometricKit
++ _OBJC_CLASS_$_CBPeripheral
++ _OBJC_CLASS_$_SCATBuddyBluetoothDevicesController
++ _OBJC_CLASS_$_VoiceOverBuddyBrailleController
++ _OBJC_METACLASS_$_ASTBuddyBluetoothDevicesController
++ _OBJC_METACLASS_$_SCATBuddyBluetoothDevicesController
++ _OBJC_METACLASS_$_VoiceOverBuddyBrailleController
++ _Util_getSubrequirement
++ _Util_getSubrequirementOfType
++ __102-[VoiceOverScreenRecognitionController assetController:didFinishRefreshingAssets:wasSuccessful:error:]_block_invoke.256
++ __104-[AXVoiceOverImageDescriptionsController assetController:didFinishRefreshingAssets:wasSuccessful:error:]_block_invoke.341
++ __135-[UIViewController(AXTripleClickConflictAvoidance) accessibilityPerformTripleClickAddingBlockConfirmingSOSConflicts:cancellationBlock:]_block_invoke.404
++ __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke.227
++ __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_2.228
++ __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_2.235
++ __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_3.229
++ __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_3.236
++ __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_4.230
++ __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_4.237
++ __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_5.231
++ __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_5.241
++ __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_6.232
++ __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_6.245
++ __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_7.249
++ __28-[HandController specifiers]_block_invoke.343
++ __39-[AccessibilitySettingsController init]_block_invoke.272
++ __41-[VoiceOverActivityController specifiers]_block_invoke.392
++ __41-[VoiceOverActivityController specifiers]_block_invoke.428
++ __41-[VoiceOverActivityController specifiers]_block_invoke_10.481
++ __41-[VoiceOverActivityController specifiers]_block_invoke_11.485
++ __41-[VoiceOverActivityController specifiers]_block_invoke_12.497
++ __41-[VoiceOverActivityController specifiers]_block_invoke_13.498
++ __41-[VoiceOverActivityController specifiers]_block_invoke_14.499
++ __41-[VoiceOverActivityController specifiers]_block_invoke_15.513
++ __41-[VoiceOverActivityController specifiers]_block_invoke_16.514
++ __41-[VoiceOverActivityController specifiers]_block_invoke_17.522
++ __41-[VoiceOverActivityController specifiers]_block_invoke_18.523
++ __41-[VoiceOverActivityController specifiers]_block_invoke_19.560
++ __41-[VoiceOverActivityController specifiers]_block_invoke_2.396
++ __41-[VoiceOverActivityController specifiers]_block_invoke_2.429
++ __41-[VoiceOverActivityController specifiers]_block_invoke_20.564
++ __41-[VoiceOverActivityController specifiers]_block_invoke_3.443
++ __41-[VoiceOverActivityController specifiers]_block_invoke_4.444
++ __41-[VoiceOverActivityController specifiers]_block_invoke_5.452
++ __41-[VoiceOverActivityController specifiers]_block_invoke_6.453
++ __41-[VoiceOverActivityController specifiers]_block_invoke_7.464
++ __41-[VoiceOverActivityController specifiers]_block_invoke_8.466
++ __41-[VoiceOverActivityController specifiers]_block_invoke_9.477
++ __42-[HandController setPayWithAST:specifier:]_block_invoke.493
++ __42-[HandController setPayWithAST:specifier:]_block_invoke.493.cold.1
++ __42-[HandController setPayWithAST:specifier:]_block_invoke.500
++ __52-[SCATController setPayWithSwitchControl:specifier:]_block_invoke.664
++ __52-[SCATController setPayWithSwitchControl:specifier:]_block_invoke.664.cold.1
++ __52-[SCATController setPayWithSwitchControl:specifier:]_block_invoke.671
++ __53-[SCATController setSwitchScanningEnabled:specifier:]_block_invoke.607
++ __54-[AXPearlSettingsController setPearlUnlock:specifier:]_block_invoke.285
++ __59-[AXPronunciationEntryViewController _dictateButtonTapped:]_block_invoke.434
++ __59-[AXPronunciationEntryViewController _dictateButtonTapped:]_block_invoke.438
++ __59-[AXPronunciationEntryViewController _dictateButtonTapped:]_block_invoke.449
++ __65-[VoiceOverCommandDetailsViewController _addGestureButtonTapped:]_block_invoke.255
++ __68-[VoiceOverActivitySpeechVoiceSelector _showUnifiedSpeechSelection:]_block_invoke.218
++ __73-[ClarityUISettingsWrapperController _axValidateAuthenticationController]_block_invoke.283
++ __73-[ClarityUISettingsWrapperController _axValidateAuthenticationController]_block_invoke.283.cold.1
++ __75-[ClarityUIAdminPasscodeSetupController _axShowDoneControllerWithPasscode:]_block_invoke.315
++ __75-[ClarityUIAdminPasscodeSetupController _axShowDoneControllerWithPasscode:]_block_invoke_2.317
++ __83-[VoiceOverCommandsByTouchGestureListController tableView:didSelectRowAtIndexPath:]_block_invoke.216
++ __84-[VoiceOverCommandDetailsViewController _addKeyboardShortcutWithSpecifier:resolver:]_block_invoke.259
++ __88-[VoiceOverCommandDetailsViewController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke.246
++ __88-[VoiceOverCommandDetailsViewController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke_2.247
++ __88-[VoiceOverCommandDetailsViewController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke_2.247.cold.1
++ __94-[AXVoiceOverImageDescriptionsController _installLanguageTranslationModelForLanguageIfNeeded:]_block_invoke.264
++ __94-[AXVoiceOverImageDescriptionsController _installLanguageTranslationModelForLanguageIfNeeded:]_block_invoke.276
++ __94-[AXVoiceOverImageDescriptionsController _installLanguageTranslationModelForLanguageIfNeeded:]_block_invoke.276.cold.1
++ __99-[VoiceOverCommandsByKeyboardShortcutListController _modifyKeyboardShortcutWithSpecifier:resolver:]_block_invoke.233
++ __OBJC_CLASS_RO_$_ASTBuddyBluetoothDevicesController
++ __OBJC_CLASS_RO_$_SCATBuddyBluetoothDevicesController
++ __OBJC_CLASS_RO_$_VoiceOverBuddyBrailleController
++ __OBJC_METACLASS_RO_$_ASTBuddyBluetoothDevicesController
++ __OBJC_METACLASS_RO_$_SCATBuddyBluetoothDevicesController
++ __OBJC_METACLASS_RO_$_VoiceOverBuddyBrailleController
++ ___106-[VoiceOverBluetoothDevicesController showPairingAlertForPairingAgent:peerDidRequestPairing:type:passkey:]_block_invoke
++ ___106-[VoiceOverBluetoothDevicesController showPairingAlertForPairingAgent:peerDidRequestPairing:type:passkey:]_block_invoke_2
++ ___106-[VoiceOverBluetoothDevicesController showPairingAlertForPairingAgent:peerDidRequestPairing:type:passkey:]_block_invoke_3
++ ___106-[VoiceOverBluetoothDevicesController showPairingAlertForPairingAgent:peerDidRequestPairing:type:passkey:]_block_invoke_4
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_10
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_11
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_12
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_13
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_14
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_15
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_16
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_17
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_18
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_2
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_3
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_4
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_5
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_6
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_7
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_8
++ ___90-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:isPerApp:]_block_invoke_9
++ ___block_descriptor_64_e8_32s40s48w_e5_v8?0ls32l8s40l8w48l8
++ ___block_descriptor_74_e8_32s40s48s56w_e5_v8?0ls32l8s40l8s48l8w56l8
++ __block_literal_global.217
++ __block_literal_global.219
++ __block_literal_global.221
++ __block_literal_global.231
++ __block_literal_global.233
++ __block_literal_global.234
++ __block_literal_global.242
++ __block_literal_global.246
++ __block_literal_global.247
++ __block_literal_global.250
++ __block_literal_global.259
++ __block_literal_global.261
++ __block_literal_global.268
++ __block_literal_global.269
++ __block_literal_global.272
++ __block_literal_global.276
++ __block_literal_global.279
++ __block_literal_global.283
++ __block_literal_global.284
++ __block_literal_global.288
++ __block_literal_global.303
++ __block_literal_global.307
++ __block_literal_global.308
++ __block_literal_global.311
++ __block_literal_global.315
++ __block_literal_global.316
++ __block_literal_global.324
++ __block_literal_global.327
++ __block_literal_global.328
++ __block_literal_global.332
++ __block_literal_global.337
++ __block_literal_global.346
++ __block_literal_global.347
++ __block_literal_global.356
++ __block_literal_global.358
++ __block_literal_global.365
++ __block_literal_global.367
++ __block_literal_global.378
++ __block_literal_global.380
++ __block_literal_global.390
++ __block_literal_global.392
++ __block_literal_global.402
++ __block_literal_global.404
++ __block_literal_global.413
++ __block_literal_global.429
++ __block_literal_global.434
++ __block_literal_global.439
++ __block_literal_global.452
++ __block_literal_global.455
++ __block_literal_global.457
++ __block_literal_global.476
++ __block_literal_global.478
++ __block_literal_global.483
++ __block_literal_global.491
++ __block_literal_global.496
++ __block_literal_global.511
++ __block_literal_global.599
++ __block_literal_global.602
++ __block_literal_global.610
++ __block_literal_global.648
++ __block_literal_global.655
++ __block_literal_global.667
++ _objc_msgSend$_setIgnoreAppSupportedOrientations:
++ _objc_msgSend$ax_firstObjectUsingBlock:
++ _objc_msgSend$displayTextSpecifiersIncludingSmartInvert:isPerApp:
++ _objc_msgSend$identities:
++ _objc_msgSend$initWithDevice:andSpecifier:acceptPairingBlock:cancelPairingBlock:
++ _objc_msgSend$initWithValidatedFormat:validFormatSpecifiers:locale:error:
++ _objc_msgSend$localizations
++ _objc_msgSend$localizedStringForKey:value:table:localization:
++ _objc_msgSend$makeContentCellViewWithTitle:image:imageIgnoresInvertColors:description:linkTitle:linkCallback:closeCallback:
++ _objc_msgSend$manager
++ _objc_msgSend$phraseInputIDKey
++ _objc_msgSend$preferredLocalizationsFromArray:forPreferences:
++ _objc_msgSend$reduceWhitePointSpecifier
++ _objc_msgSend$respondToPairingRequest:type:accept:data:
++ _objc_msgSend$separatorInset
++ _objc_msgSend$setReduceWhitePointSpecifier:
++ _objc_msgSend$setShowPerVoiceSettings:
++ _objc_msgSend$showWithViewController:
++ _objc_msgSend$textInputMode
++ _objc_msgSend$updateContinueButtonForSpecifier:
++ _objc_msgSend$whitePointEnabled:
++ _siriSpeakingSampleLocString
++ _symbolic ___________y_____y_____yADyADyADyADy__________G_____G_____y_____GG_____G_____G______yACyADyAByACyADy__________G_ADyADy_____yADyAE_____y_____SgGGGAHG_____GtGGANG_ADyAsNGACyAA______AA_____yADyADyAVyASG_____yAXGGAZG______Qo_tGSgAAtGGtGGt 7SwiftUI6SpacerV AA6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingL0V AA033_AccessibilityIgnoresInvertColorsF8ModifierV AA6VStackV AA4TextV AA05_FlexmL0V AA6ButtonV AA022_EnvironmentKeyWritingW0V AA5ColorV AA010_FixedSizeL0V AA7DividerV AA0F0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA016_BackgroundStyleW0V AA16PlainButtonStyleV
++ _symbolic _____yAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G______y_____yAAy_____yAPyAAy__________G_AAyAAy_____yAAyAB_____y_____SgGGGAEG_____GtGGAKG_AAyArKGAPy___________A7______yAAyAAyAUyARG_____yAWGGAYG______Qo_tGSgA7_tGGt 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingH0V AA45_AccessibilityIgnoresInvertColorsViewModifierV AA6VStackV AA05TupleS0V AA6HStackV AA4TextV AA05_FlexiH0V AA6ButtonV AA022_EnvironmentKeyWritingT0V AA5ColorV AA010_FixedSizeH0V AA6SpacerV AA7DividerV AA0S0PAAE11buttonStyleyQrqd__AA09PrimitiveZ5StyleRd__lFQO AA016_BackgroundStyleT0V AA05PlainZ5StyleV
++ _symbolic _____yAAy_____y_____y___________yACyAAyAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G_AByACyAAyAEyACyAAy__________G_AAyAAy_____yAAyAF_____y_____SgGGGAIG_____GtGGAOG_AAyAsOGACyAD______AD_____yAAyAAyAVyASG_____yAXGGAZG______Qo_tGSgADtGGtGGtGGA11_GAMG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameM0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingM0V AA033_AccessibilityIgnoresInvertColorsG8ModifierV AA4TextV AA05_FlexnM0V AA6ButtonV AA022_EnvironmentKeyWritingX0V AA5ColorV AA010_FixedSizeM0V AA7DividerV AA0G0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA016_BackgroundStyleX0V AA16PlainButtonStyleV
++ _symbolic _____y___________y___________yACy_____yAFyAFyAFyAFy__________G_____G_____y_____GG_____G_____G______yACyAFyAEyACyAFy__________G_AFyAFy_____yAFyAG_____y_____SgGGGAJG_____GtGGAPG_AFyAuPGACyAD______AD_____yAFyAFyAXyAUG_____yAZGGA0_G______Qo_tGSgADtGGtGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA6SpacerV AA6HStackV AA15ModifiedContentV AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingG0V AA033_AccessibilityIgnoresInvertColorsD8ModifierV AA0F0V AA4TextV AA05_FlexpG0V AA6ButtonV AA022_EnvironmentKeyWritingZ0V AA5ColorV AA010_FixedSizeG0V AA7DividerV AA0D0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA016_BackgroundStyleZ0V AA16PlainButtonStyleV
++ _symbolic _____y___________y_____yADyADyADyADy__________G_____G_____y_____GG_____G_____G______yACyADy_____yACyADy__________G_ADyADy_____yADyAE_____y_____SgGGGAHG_____GtGGANG_ADyAtNGACy___________A9______yADyADyAWyATG_____yAYGGA_G______Qo_tGSgA9_tGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingG0V AA033_AccessibilityIgnoresInvertColorsD8ModifierV AA6VStackV AA0F0V AA4TextV AA05_FlexnG0V AA6ButtonV AA022_EnvironmentKeyWritingX0V AA5ColorV AA010_FixedSizeG0V AA6SpacerV AA7DividerV AA0D0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA016_BackgroundStyleX0V AA16PlainButtonStyleV
++ _symbolic _____y___________y_____y_____yACyADy__________G_ADyADy_____yADy__________y_____SgGGG_____G_____GtGG_____G_ADyAfWGACy___________AZ_____yADyADyAIyAFG_____yALGGANG______Qo_tGSgAZtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA6HStackV AA4TextV AA010_FlexFrameG0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA01_nG0V AA010_FixedSizeG0V AA08_PaddingG0V AA6SpacerV AA7DividerV AA0D0PAAE11buttonStyleyQrqd__AA09PrimitiveO5StyleRd__lFQO AA016_BackgroundStyleT0V AA05PlainO5StyleV
++ _symbolic _____y_____yAAy_____y_____y___________yACyAAyAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G_AByACyAAyAEyACyAAy__________G_AAyAAy_____yAAyAF_____y_____SgGGGAIG_____GtGGAOG_AAyAsOGACyAD______AD_____yAAyAAyAVyASG_____yAXGGAZG______Qo_tGSgADtGGtGGtGGA11_GAMG_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA15ModifiedContentV AA6VStackV AA05TupleC0V AA6SpacerV AA6HStackV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameS0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingS0V AA01_g19IgnoresInvertColorsC8ModifierV AA4TextV AA05_FlextS0V AA6ButtonV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA010_FixedSizeS0V AA7DividerV AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA24_BackgroundStyleModifierV AA16PlainButtonStyleV
++ _symbolic _____y_____y___________yABy_____yAEyAEyAEyAEy__________G_____G_____y_____GG_____G_____G_AAyAByAEyADyAByAEy__________G_AEyAEy_____yAEyAF_____y_____SgGGGAIG_____GtGGAOG_AEyAsOGAByAC______AC_____yAEyAEyAVyASG_____yAXGGAZG______Qo_tGSgACtGGtGGtGG 7SwiftUI6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameM0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingM0V AA033_AccessibilityIgnoresInvertColorsE8ModifierV AA4TextV AA05_FlexnM0V AA6ButtonV AA022_EnvironmentKeyWritingX0V AA5ColorV AA010_FixedSizeM0V AA7DividerV AA0E0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA016_BackgroundStyleX0V AA16PlainButtonStyleV
++ _symbolic _____y_____y_____yAAyAAy_____y_____y___________yACyAAyAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G_AByACyAAyAEyACyAAy__________G_AAyAAy_____yAAyAF_____y_____SgGGGAIG_____GtGGAOG_AAyAsOGACyAD______AD_____yAAyAAyAVyASG_____yAXGGAZG______Qo_tGSgADtGGtGGtGGA11_GAMG_Qo__ACyA9__A9_tGQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityActionsyQrqd__yXEAaDRd__lFQO AeAE0F7Element8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleE0V AA6SpacerV AA6HStackV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameT0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingT0V AA01_j19IgnoresInvertColorsE8ModifierV AA4TextV AA05_FlexuT0V AA6ButtonV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA010_FixedSizeT0V AA7DividerV AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA24_BackgroundStyleModifierV AA16PlainButtonStyleV AA0J18AttachmentModifierV
++ _symbolic _____y_____y_____yAAy__________G_AAyAAy_____yAAy__________y_____SgGGG_____G_____GtGG_____G_AAyAdUGACy___________AX_____yAAyAAyAGyADG_____yAJGGALG______Qo_tGSgAXt 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA4TextV AA16_FlexFrameLayoutV AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA01_jK0V AA010_FixedSizeK0V AA08_PaddingK0V AA6SpacerV AA7DividerV AA0G0PAAE11buttonStyleyQrqd__AA09PrimitivelY0Rd__lFQO AA011_BackgroundyQ0V AA05PlainlY0V
++ _symbolic _____y_____y_____yAAy_____y_____y___________yACyAAyAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G_AByACyAAyAEyACyAAy__________G_AAyAAy_____yAAyAF_____y_____SgGGGAIG_____GtGGAOG_AAyAsOGACyAD______AD_____yAAyAAyAVyASG_____yAXGGAZG______Qo_tGSgADtGGtGGtGGA11_GAMG_Qo__ACyA9__A9_tGQo_ 7SwiftUI4ViewPAAE20accessibilityActionsyQrqd__yXEAaBRd__lFQO AcAE0D7Element8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA15ModifiedContentV AA6VStackV AA05TupleC0V AA6SpacerV AA6HStackV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameT0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingT0V AA01_h19IgnoresInvertColorsC8ModifierV AA4TextV AA05_FlexuT0V AA6ButtonV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA010_FixedSizeT0V AA7DividerV AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA24_BackgroundStyleModifierV AA16PlainButtonStyleV
++ _symbolic _____y_____y_____yACyACyACyACy__________G_____G_____y_____GG_____G_____G______yAByACyAAyAByACy__________G_ACyACy_____yACyAD_____y_____SgGGGAGG_____GtGGAMG_ACyArMGABy___________A7______yACyACyAUyARG_____yAWGGAYG______Qo_tGSgA7_tGGtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingK0V AA033_AccessibilityIgnoresInvertColorsE8ModifierV AA6VStackV AA4TextV AA05_FlexlK0V AA6ButtonV AA022_EnvironmentKeyWritingV0V AA5ColorV AA010_FixedSizeK0V AA6SpacerV AA7DividerV AA0E0PAAE11buttonStyleyQrqd__AA09PrimitiveZ5StyleRd__lFQO AA016_BackgroundStyleV0V AA05PlainZ5StyleV
++ _symbolic _____y_____y_____y___________yACyAAyAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G_AByACyAAyAEyACyAAy__________G_AAyAAy_____yAAyAF_____y_____SgGGGAIG_____GtGGAOG_AAyAsOGACyAD______AD_____yAAyAAyAVyASG_____yAXGGAZG______Qo_tGSgADtGGtGGtGGA11_G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameM0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingM0V AA033_AccessibilityIgnoresInvertColorsG8ModifierV AA4TextV AA05_FlexnM0V AA6ButtonV AA022_EnvironmentKeyWritingX0V AA5ColorV AA010_FixedSizeM0V AA7DividerV AA0G0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA016_BackgroundStyleX0V AA16PlainButtonStyleV
++ _symbolic _____y_____y_____y_____yAByACy__________G_ACyACy_____yACy__________y_____SgGGG_____G_____GtGG_____G_ACyAeVGABy___________AY_____yACyACyAHyAEG_____yAKGGAMG______Qo_tGSgAYtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA6HStackV AA4TextV AA16_FlexFrameLayoutV AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA01_kL0V AA010_FixedSizeL0V AA08_PaddingL0V AA6SpacerV AA7DividerV AA0E0PAAE11buttonStyleyQrqd__AA09PrimitivemZ0Rd__lFQO AA011_BackgroundzR0V AA05PlainmZ0V
++ _unnamed_array_storage.218
++ _unnamed_array_storage.223
++ _unnamed_array_storage.234
++ _unnamed_array_storage.236
++ _unnamed_array_storage.237
++ _unnamed_array_storage.239
++ _unnamed_array_storage.246
++ _unnamed_array_storage.247
++ _unnamed_array_storage.249
++ _unnamed_array_storage.257
++ _unnamed_array_storage.258
++ _unnamed_array_storage.267
++ _unnamed_array_storage.268
++ _unnamed_array_storage.277
++ _unnamed_array_storage.278
++ _unnamed_array_storage.282
++ _unnamed_array_storage.285
++ _unnamed_array_storage.286
++ _unnamed_array_storage.287
++ _unnamed_array_storage.295
++ _unnamed_array_storage.296
++ _unnamed_array_storage.297
++ _unnamed_array_storage.298
++ _unnamed_array_storage.305
++ _unnamed_array_storage.306
++ _unnamed_array_storage.307
++ _unnamed_array_storage.308
++ _unnamed_array_storage.321
++ _unnamed_array_storage.328
++ _unnamed_array_storage.335
++ _unnamed_array_storage.342
++ _unnamed_array_storage.349
++ _unnamed_array_storage.356
++ _unnamed_array_storage.363
++ _unnamed_array_storage.370
++ _unnamed_array_storage.371
++ _unnamed_array_storage.378
++ _unnamed_array_storage.389
++ _unnamed_array_storage.394
++ _unnamed_array_storage.397
++ _unnamed_array_storage.404
++ _unnamed_array_storage.407
++ _unnamed_array_storage.408
++ _unnamed_array_storage.411
++ _unnamed_array_storage.415
++ _unnamed_array_storage.416
++ _unnamed_array_storage.418
++ _unnamed_array_storage.427
++ _unnamed_array_storage.428
++ _unnamed_array_storage.431
++ _unnamed_array_storage.494
++ _unnamed_array_storage.506
++ _unnamed_array_storage.507
++ _unnamed_array_storage.518
++ _unnamed_array_storage.519
++ _unnamed_array_storage.530
++ _unnamed_array_storage.531
++ _unnamed_array_storage.540
++ _unnamed_array_storage.542
++ _unnamed_array_storage.543
++ _unnamed_array_storage.554
++ _unnamed_array_storage.555
++ _unnamed_array_storage.566
++ _unnamed_array_storage.567
++ _unnamed_array_storage.580
++ _unnamed_array_storage.581
++ _unnamed_array_storage.592
++ _unnamed_array_storage.593
++ _unnamed_array_storage.596
++ _unnamed_array_storage.607
++ _unnamed_array_storage.608
++ _unnamed_array_storage.615
++ _unnamed_array_storage.622
++ _unnamed_array_storage.629
++ _unnamed_array_storage.636
++ _unnamed_array_storage.639
++ _unnamed_array_storage.665
++ _unnamed_array_storage.666
++ _unnamed_array_storage.678
++ _unnamed_array_storage.679
++ _unnamed_array_storage.689
++ _unnamed_array_storage.690
++ _unnamed_array_storage.702
++ _unnamed_array_storage.703
++ _unnamed_array_storage.706
++ siriSpeakingSampleLocString.cold.1
+- -[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]
+- -[AccessibilitySettingsController clarityUIEnabled:]
+- -[ClarityUIPrivacySettingOnboardingController didSelectSpecifier:]
+- -[HandController tableView:titleForFooterInSection:]
+- GCC_except_table54
+- _LICreateDefaultIcon
+- _OBJC_CLASS_$_PSBiometricIdentity
+- __102-[VoiceOverScreenRecognitionController assetController:didFinishRefreshingAssets:wasSuccessful:error:]_block_invoke.262
+- __104-[AXVoiceOverImageDescriptionsController assetController:didFinishRefreshingAssets:wasSuccessful:error:]_block_invoke.347
+- __135-[UIViewController(AXTripleClickConflictAvoidance) accessibilityPerformTripleClickAddingBlockConfirmingSOSConflicts:cancellationBlock:]_block_invoke.411
+- __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke.239
+- __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_2.234
+- __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_2.241
+- __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_3.235
+- __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_3.242
+- __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_4.236
+- __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_4.243
+- __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_5.237
+- __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_5.247
+- __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_6.238
+- __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_6.251
+- __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_7.255
+- __39-[AccessibilitySettingsController init]_block_invoke.278
+- __41-[VoiceOverActivityController specifiers]_block_invoke.398
+- __41-[VoiceOverActivityController specifiers]_block_invoke.434
+- __41-[VoiceOverActivityController specifiers]_block_invoke_10.487
+- __41-[VoiceOverActivityController specifiers]_block_invoke_11.491
+- __41-[VoiceOverActivityController specifiers]_block_invoke_12.503
+- __41-[VoiceOverActivityController specifiers]_block_invoke_13.504
+- __41-[VoiceOverActivityController specifiers]_block_invoke_14.505
+- __41-[VoiceOverActivityController specifiers]_block_invoke_15.519
+- __41-[VoiceOverActivityController specifiers]_block_invoke_16.520
+- __41-[VoiceOverActivityController specifiers]_block_invoke_17.528
+- __41-[VoiceOverActivityController specifiers]_block_invoke_18.529
+- __41-[VoiceOverActivityController specifiers]_block_invoke_19.566
+- __41-[VoiceOverActivityController specifiers]_block_invoke_2.402
+- __41-[VoiceOverActivityController specifiers]_block_invoke_2.435
+- __41-[VoiceOverActivityController specifiers]_block_invoke_20.570
+- __41-[VoiceOverActivityController specifiers]_block_invoke_3.449
+- __41-[VoiceOverActivityController specifiers]_block_invoke_4.450
+- __41-[VoiceOverActivityController specifiers]_block_invoke_5.458
+- __41-[VoiceOverActivityController specifiers]_block_invoke_6.459
+- __41-[VoiceOverActivityController specifiers]_block_invoke_7.470
+- __41-[VoiceOverActivityController specifiers]_block_invoke_8.472
+- __41-[VoiceOverActivityController specifiers]_block_invoke_9.483
+- __42-[HandController setPayWithAST:specifier:]_block_invoke.494
+- __42-[HandController setPayWithAST:specifier:]_block_invoke.494.cold.1
+- __42-[HandController setPayWithAST:specifier:]_block_invoke.501
+- __52-[SCATController setPayWithSwitchControl:specifier:]_block_invoke.670
+- __52-[SCATController setPayWithSwitchControl:specifier:]_block_invoke.670.cold.1
+- __52-[SCATController setPayWithSwitchControl:specifier:]_block_invoke.677
+- __53-[SCATController setSwitchScanningEnabled:specifier:]_block_invoke.613
+- __54-[AXPearlSettingsController setPearlUnlock:specifier:]_block_invoke.291
+- __59-[AXPronunciationEntryViewController _dictateButtonTapped:]_block_invoke.440
+- __59-[AXPronunciationEntryViewController _dictateButtonTapped:]_block_invoke.444
+- __59-[AXPronunciationEntryViewController _dictateButtonTapped:]_block_invoke.455
+- __65-[VoiceOverCommandDetailsViewController _addGestureButtonTapped:]_block_invoke.261
+- __68-[VoiceOverActivitySpeechVoiceSelector _showUnifiedSpeechSelection:]_block_invoke.224
+- __73-[ClarityUISettingsWrapperController _axValidateAuthenticationController]_block_invoke.295
+- __73-[ClarityUISettingsWrapperController _axValidateAuthenticationController]_block_invoke.295.cold.1
+- __75-[ClarityUIAdminPasscodeSetupController _axShowDoneControllerWithPasscode:]_block_invoke.321
+- __75-[ClarityUIAdminPasscodeSetupController _axShowDoneControllerWithPasscode:]_block_invoke_2.323
+- __83-[VoiceOverCommandsByTouchGestureListController tableView:didSelectRowAtIndexPath:]_block_invoke.222
+- __84-[VoiceOverCommandDetailsViewController _addKeyboardShortcutWithSpecifier:resolver:]_block_invoke.265
+- __88-[VoiceOverCommandDetailsViewController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke.252
+- __88-[VoiceOverCommandDetailsViewController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke_2.253
+- __88-[VoiceOverCommandDetailsViewController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke_2.253.cold.1
+- __94-[AXVoiceOverImageDescriptionsController _installLanguageTranslationModelForLanguageIfNeeded:]_block_invoke.270
+- __94-[AXVoiceOverImageDescriptionsController _installLanguageTranslationModelForLanguageIfNeeded:]_block_invoke.282
+- __94-[AXVoiceOverImageDescriptionsController _installLanguageTranslationModelForLanguageIfNeeded:]_block_invoke.282.cold.1
+- __99-[VoiceOverCommandsByKeyboardShortcutListController _modifyKeyboardShortcutWithSpecifier:resolver:]_block_invoke.239
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_10
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_11
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_12
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_13
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_14
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_15
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_16
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_17
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_18
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_2
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_3
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_4
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_5
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_6
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_7
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_8
+- ___81-[AXDisplayTextMotionSpecifiersHelper displayTextSpecifiersIncludingSmartInvert:]_block_invoke_9
+- ___90-[AccessibilitySettingsController _iconImageWithBackgroundForSymbolImage:backgroundColor:]_block_invoke
+- ___block_descriptor_48_e8_32s40s_e40_v16?0"UIGraphicsImageRendererContext"8ls32l8s40l8
+- __block_literal_global.225
+- __block_literal_global.227
+- __block_literal_global.229
+- __block_literal_global.237
+- __block_literal_global.240
+- __block_literal_global.248
+- __block_literal_global.251
+- __block_literal_global.252
+- __block_literal_global.253
+- __block_literal_global.262
+- __block_literal_global.271
+- __block_literal_global.273
+- __block_literal_global.274
+- __block_literal_global.278
+- __block_literal_global.282
+- __block_literal_global.289
+- __block_literal_global.290
+- __block_literal_global.293
+- __block_literal_global.294
+- __block_literal_global.297
+- __block_literal_global.309
+- __block_literal_global.314
+- __block_literal_global.317
+- __block_literal_global.321
+- __block_literal_global.322
+- __block_literal_global.331
+- __block_literal_global.334
+- __block_literal_global.336
+- __block_literal_global.339
+- __block_literal_global.349
+- __block_literal_global.350
+- __block_literal_global.353
+- __block_literal_global.362
+- __block_literal_global.364
+- __block_literal_global.379
+- __block_literal_global.383
+- __block_literal_global.384
+- __block_literal_global.385
+- __block_literal_global.386
+- __block_literal_global.387
+- __block_literal_global.396
+- __block_literal_global.398
+- __block_literal_global.410
+- __block_literal_global.414
+- __block_literal_global.419
+- __block_literal_global.428
+- __block_literal_global.433
+- __block_literal_global.436
+- __block_literal_global.438
+- __block_literal_global.458
+- __block_literal_global.461
+- __block_literal_global.463
+- __block_literal_global.482
+- __block_literal_global.490
+- __block_literal_global.492
+- __block_literal_global.497
+- __block_literal_global.512
+- __block_literal_global.608
+- __block_literal_global.611
+- __block_literal_global.616
+- __block_literal_global.654
+- __block_literal_global.663
+- __block_literal_global.673
+- _kAXSVoiceOverTouchRotorItemLanguage
+- _objc_msgSend$_calculateHeightForString:withFontStyle:
+- _objc_msgSend$_calculateWidthForString:withFontStyle:
+- _objc_msgSend$didSelectSpecifier:
+- _objc_msgSend$displayTextSpecifiersIncludingSmartInvert:
+- _objc_msgSend$identities
+- _objc_msgSend$imageWithCGImage:
+- _objc_msgSend$makeContentCellViewWithTitle:image:description:linkTitle:linkCallback:closeCallback:
+- _objc_msgSend$systemWhiteColor
+- _symbolic ___________y_____y_____yADyADyADyADy__________G_____G_____y_____GG_____G_____G______yACyADyAByACyADy__________G_ADyADy_____yADyAE_____y_____SgGGGAHG_____GtGGANG_AsCyAA______AA_____yADyADyAVyASG_____yAXGGAZG______Qo_tGSgAAtGGtGGt 7SwiftUI6SpacerV AA6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingL0V AA033_AccessibilityIgnoresInvertColorsF8ModifierV AA6VStackV AA4TextV AA05_FlexmL0V AA6ButtonV AA022_EnvironmentKeyWritingW0V AA5ColorV AA010_FixedSizeL0V AA7DividerV AA0F0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA016_BackgroundStyleW0V AA16PlainButtonStyleV
+- _symbolic _____yAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G______y_____yAAy_____yAPyAAy__________G_AAyAAy_____yAAyAB_____y_____SgGGGAEG_____GtGGAKG_ArPy___________A6______yAAyAAyAUyARG_____yAWGGAYG______Qo_tGSgA6_tGGt 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingH0V AA45_AccessibilityIgnoresInvertColorsViewModifierV AA6VStackV AA05TupleS0V AA6HStackV AA4TextV AA05_FlexiH0V AA6ButtonV AA022_EnvironmentKeyWritingT0V AA5ColorV AA010_FixedSizeH0V AA6SpacerV AA7DividerV AA0S0PAAE11buttonStyleyQrqd__AA09PrimitiveZ5StyleRd__lFQO AA016_BackgroundStyleT0V AA05PlainZ5StyleV
+- _symbolic _____yAAy_____y_____y___________yACyAAyAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G_AByACyAAyAEyACyAAy__________G_AAyAAy_____yAAyAF_____y_____SgGGGAIG_____GtGGAOG_AsCyAD______AD_____yAAyAAyAVyASG_____yAXGGAZG______Qo_tGSgADtGGtGGtGGA10_GAMG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameM0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingM0V AA033_AccessibilityIgnoresInvertColorsG8ModifierV AA4TextV AA05_FlexnM0V AA6ButtonV AA022_EnvironmentKeyWritingX0V AA5ColorV AA010_FixedSizeM0V AA7DividerV AA0G0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA016_BackgroundStyleX0V AA16PlainButtonStyleV
+- _symbolic _____y___________y___________yACy_____yAFyAFyAFyAFy__________G_____G_____y_____GG_____G_____G______yACyAFyAEyACyAFy__________G_AFyAFy_____yAFyAG_____y_____SgGGGAJG_____GtGGAPG_AuCyAD______AD_____yAFyAFyAXyAUG_____yAZGGA0_G______Qo_tGSgADtGGtGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA6SpacerV AA6HStackV AA15ModifiedContentV AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingG0V AA033_AccessibilityIgnoresInvertColorsD8ModifierV AA0F0V AA4TextV AA05_FlexpG0V AA6ButtonV AA022_EnvironmentKeyWritingZ0V AA5ColorV AA010_FixedSizeG0V AA7DividerV AA0D0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA016_BackgroundStyleZ0V AA16PlainButtonStyleV
+- _symbolic _____y___________y_____yADyADyADyADy__________G_____G_____y_____GG_____G_____G______yACyADy_____yACyADy__________G_ADyADy_____yADyAE_____y_____SgGGGAHG_____GtGGANG_AtCy___________A8______yADyADyAWyATG_____yAYGGA_G______Qo_tGSgA8_tGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingG0V AA033_AccessibilityIgnoresInvertColorsD8ModifierV AA6VStackV AA0F0V AA4TextV AA05_FlexnG0V AA6ButtonV AA022_EnvironmentKeyWritingX0V AA5ColorV AA010_FixedSizeG0V AA6SpacerV AA7DividerV AA0D0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA016_BackgroundStyleX0V AA16PlainButtonStyleV
+- _symbolic _____y___________y_____y_____yACyADy__________G_ADyADy_____yADy__________y_____SgGGG_____G_____GtGG_____G_AfCy___________AY_____yADyADyAIyAFG_____yALGGANG______Qo_tGSgAYtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA6HStackV AA4TextV AA010_FlexFrameG0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA01_nG0V AA010_FixedSizeG0V AA08_PaddingG0V AA6SpacerV AA7DividerV AA0D0PAAE11buttonStyleyQrqd__AA09PrimitiveO5StyleRd__lFQO AA016_BackgroundStyleT0V AA05PlainO5StyleV
+- _symbolic _____y_____yAAy_____y_____y___________yACyAAyAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G_AByACyAAyAEyACyAAy__________G_AAyAAy_____yAAyAF_____y_____SgGGGAIG_____GtGGAOG_AsCyAD______AD_____yAAyAAyAVyASG_____yAXGGAZG______Qo_tGSgADtGGtGGtGGA10_GAMG_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA15ModifiedContentV AA6VStackV AA05TupleC0V AA6SpacerV AA6HStackV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameS0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingS0V AA01_g19IgnoresInvertColorsC8ModifierV AA4TextV AA05_FlextS0V AA6ButtonV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA010_FixedSizeS0V AA7DividerV AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA24_BackgroundStyleModifierV AA16PlainButtonStyleV
+- _symbolic _____y_____y___________yABy_____yAEyAEyAEyAEy__________G_____G_____y_____GG_____G_____G_AAyAByAEyADyAByAEy__________G_AEyAEy_____yAEyAF_____y_____SgGGGAIG_____GtGGAOG_AsByAC______AC_____yAEyAEyAVyASG_____yAXGGAZG______Qo_tGSgACtGGtGGtGG 7SwiftUI6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameM0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingM0V AA033_AccessibilityIgnoresInvertColorsE8ModifierV AA4TextV AA05_FlexnM0V AA6ButtonV AA022_EnvironmentKeyWritingX0V AA5ColorV AA010_FixedSizeM0V AA7DividerV AA0E0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA016_BackgroundStyleX0V AA16PlainButtonStyleV
+- _symbolic _____y_____y_____yAAyAAy_____y_____y___________yACyAAyAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G_AByACyAAyAEyACyAAy__________G_AAyAAy_____yAAyAF_____y_____SgGGGAIG_____GtGGAOG_AsCyAD______AD_____yAAyAAyAVyASG_____yAXGGAZG______Qo_tGSgADtGGtGGtGGA10_GAMG_Qo__ACyA8__A8_tGQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityActionsyQrqd__yXEAaDRd__lFQO AeAE0F7Element8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleE0V AA6SpacerV AA6HStackV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameT0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingT0V AA01_j19IgnoresInvertColorsE8ModifierV AA4TextV AA05_FlexuT0V AA6ButtonV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA010_FixedSizeT0V AA7DividerV AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA24_BackgroundStyleModifierV AA16PlainButtonStyleV AA0J18AttachmentModifierV
+- _symbolic _____y_____y_____yAAy__________G_AAyAAy_____yAAy__________y_____SgGGG_____G_____GtGG_____G_AdCy___________AW_____yAAyAAyAGyADG_____yAJGGALG______Qo_tGSgAWt 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA4TextV AA16_FlexFrameLayoutV AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA01_jK0V AA010_FixedSizeK0V AA08_PaddingK0V AA6SpacerV AA7DividerV AA0G0PAAE11buttonStyleyQrqd__AA09PrimitivelY0Rd__lFQO AA011_BackgroundyQ0V AA05PlainlY0V
+- _symbolic _____y_____y_____yAAy_____y_____y___________yACyAAyAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G_AByACyAAyAEyACyAAy__________G_AAyAAy_____yAAyAF_____y_____SgGGGAIG_____GtGGAOG_AsCyAD______AD_____yAAyAAyAVyASG_____yAXGGAZG______Qo_tGSgADtGGtGGtGGA10_GAMG_Qo__ACyA8__A8_tGQo_ 7SwiftUI4ViewPAAE20accessibilityActionsyQrqd__yXEAaBRd__lFQO AcAE0D7Element8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA15ModifiedContentV AA6VStackV AA05TupleC0V AA6SpacerV AA6HStackV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameT0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingT0V AA01_h19IgnoresInvertColorsC8ModifierV AA4TextV AA05_FlexuT0V AA6ButtonV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA010_FixedSizeT0V AA7DividerV AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA24_BackgroundStyleModifierV AA16PlainButtonStyleV
+- _symbolic _____y_____y_____yACyACyACyACy__________G_____G_____y_____GG_____G_____G______yAByACyAAyAByACy__________G_ACyACy_____yACyAD_____y_____SgGGGAGG_____GtGGAMG_ArBy___________A6______yACyACyAUyARG_____yAWGGAYG______Qo_tGSgA6_tGGtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingK0V AA033_AccessibilityIgnoresInvertColorsE8ModifierV AA6VStackV AA4TextV AA05_FlexlK0V AA6ButtonV AA022_EnvironmentKeyWritingV0V AA5ColorV AA010_FixedSizeK0V AA6SpacerV AA7DividerV AA0E0PAAE11buttonStyleyQrqd__AA09PrimitiveZ5StyleRd__lFQO AA016_BackgroundStyleV0V AA05PlainZ5StyleV
+- _symbolic _____y_____y_____y___________yACyAAyAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G_AByACyAAyAEyACyAAy__________G_AAyAAy_____yAAyAF_____y_____SgGGGAIG_____GtGGAOG_AsCyAD______AD_____yAAyAAyAVyASG_____yAXGGAZG______Qo_tGSgADtGGtGGtGGA10_G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameM0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingM0V AA033_AccessibilityIgnoresInvertColorsG8ModifierV AA4TextV AA05_FlexnM0V AA6ButtonV AA022_EnvironmentKeyWritingX0V AA5ColorV AA010_FixedSizeM0V AA7DividerV AA0G0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA016_BackgroundStyleX0V AA16PlainButtonStyleV
+- _symbolic _____y_____y_____y_____yAByACy__________G_ACyACy_____yACy__________y_____SgGGG_____G_____GtGG_____G_AeBy___________AX_____yACyACyAHyAEG_____yAKGGAMG______Qo_tGSgAXtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA6HStackV AA4TextV AA16_FlexFrameLayoutV AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA01_kL0V AA010_FixedSizeL0V AA08_PaddingL0V AA6SpacerV AA7DividerV AA0E0PAAE11buttonStyleyQrqd__AA09PrimitivemZ0Rd__lFQO AA011_BackgroundzR0V AA05PlainmZ0V
+- _unnamed_array_storage.224
+- _unnamed_array_storage.229
+- _unnamed_array_storage.240
+- _unnamed_array_storage.243
+- _unnamed_array_storage.251
+- _unnamed_array_storage.252
+- _unnamed_array_storage.253
+- _unnamed_array_storage.260
+- _unnamed_array_storage.261
+- _unnamed_array_storage.263
+- _unnamed_array_storage.270
+- _unnamed_array_storage.273
+- _unnamed_array_storage.280
+- _unnamed_array_storage.283
+- _unnamed_array_storage.290
+- _unnamed_array_storage.291
+- _unnamed_array_storage.292
+- _unnamed_array_storage.293
+- _unnamed_array_storage.300
+- _unnamed_array_storage.301
+- _unnamed_array_storage.302
+- _unnamed_array_storage.303
+- _unnamed_array_storage.316
+- _unnamed_array_storage.323
+- _unnamed_array_storage.330
+- _unnamed_array_storage.337
+- _unnamed_array_storage.344
+- _unnamed_array_storage.351
+- _unnamed_array_storage.358
+- _unnamed_array_storage.365
+- _unnamed_array_storage.372
+- _unnamed_array_storage.375
+- _unnamed_array_storage.376
+- _unnamed_array_storage.379
+- _unnamed_array_storage.380
+- _unnamed_array_storage.383
+- _unnamed_array_storage.395
+- _unnamed_array_storage.396
+- _unnamed_array_storage.400
+- _unnamed_array_storage.403
+- _unnamed_array_storage.410
+- _unnamed_array_storage.413
+- _unnamed_array_storage.422
+- _unnamed_array_storage.423
+- _unnamed_array_storage.430
+- _unnamed_array_storage.432
+- _unnamed_array_storage.433
+- _unnamed_array_storage.449
+- _unnamed_array_storage.452
+- _unnamed_array_storage.500
+- _unnamed_array_storage.512
+- _unnamed_array_storage.513
+- _unnamed_array_storage.524
+- _unnamed_array_storage.525
+- _unnamed_array_storage.536
+- _unnamed_array_storage.537
+- _unnamed_array_storage.538
+- _unnamed_array_storage.548
+- _unnamed_array_storage.549
+- _unnamed_array_storage.560
+- _unnamed_array_storage.561
+- _unnamed_array_storage.572
+- _unnamed_array_storage.573
+- _unnamed_array_storage.586
+- _unnamed_array_storage.587
+- _unnamed_array_storage.598
+- _unnamed_array_storage.599
+- _unnamed_array_storage.602
+- _unnamed_array_storage.613
+- _unnamed_array_storage.620
+- _unnamed_array_storage.627
+- _unnamed_array_storage.634
+- _unnamed_array_storage.641
+- _unnamed_array_storage.642
+- _unnamed_array_storage.645
+- _unnamed_array_storage.671
+- _unnamed_array_storage.672
+- _unnamed_array_storage.684
+- _unnamed_array_storage.685
+- _unnamed_array_storage.695
+- _unnamed_array_storage.696
+- _unnamed_array_storage.708
+- _unnamed_array_storage.709
+- _unnamed_array_storage.712
+CStrings:
++ "@68@0:8@16@24B32@36@44@?52@?60"
++ "ACMRequirement - ACMRequirementDataRatchet"
++ "ASTBuddyBluetoothDevicesController"
++ "Braille"
++ "EnableAssistiveTouchGroupSpecifier"
++ "Error creating string: %@ [%@/%@]"
++ "IconIgnoresInvertColors"
++ "LibCall_ACMSEPControl"
++ "LibCall_ACMSEPControl_Block"
++ "LocationServicesPrivacy"
++ "PHOTOS_PICKER_INFO_CELL"
++ "ProductVersion"
++ "SCATBuddyBluetoothDevicesController"
++ "T@\"CBCentralManager\",&,N,V_centralManager"
++ "T@\"PSSpecifier\",&,N,V_reduceWhitePointSpecifier"
++ "TRIPLE_CLICK_MAGNIFIER"
++ "TRIPLE_CLICK_MAGNIFIER_LONG"
++ "TRIPLE_CLICK_REDUCE_TRANSPARENCY"
++ "TRIPLE_CLICK_REDUCE_TRANSPARENCY_LONG"
++ "TripleClickMagnifier"
++ "TripleClickReduceTransparency"
++ "Util_getSubrequirement"
++ "Util_getSubrequirementOfType"
++ "VoiceOverBuddyBrailleController"
++ "_reduceWhitePointSpecifier"
++ "_setIgnoreAppSupportedOrientations:"
++ "ax_firstObjectUsingBlock:"
++ "com.apple.preferences-framework"
++ "displayTextSpecifiersIncludingSmartInvert:isPerApp:"
++ "identities:"
++ "initWithDevice:andSpecifier:acceptPairingBlock:cancelPairingBlock:"
++ "initWithValidatedFormat:validFormatSpecifiers:locale:error:"
++ "localizations"
++ "localizedStringForKey:value:table:localization:"
++ "makeContentCellViewWithTitle:image:imageIgnoresInvertColors:description:linkTitle:linkCallback:closeCallback:"
++ "manager"
++ "phraseInputIDKey"
++ "preferredLocalizationsFromArray:forPreferences:"
++ "reduceWhitePointSpecifier"
++ "req"
++ "respondToPairingRequest:type:accept:data:"
++ "separatorInset"
++ "setCentralManager:"
++ "setReduceWhitePointSpecifier:"
++ "setShowPerVoiceSettings:"
++ "showPairingAlertForPairingAgent:peerDidRequestPairing:type:passkey:"
++ "showWithViewController:"
++ "textInputMode"
++ "updateContinueButtonForSpecifier:"
+- "17.0"
+- "@64@0:8@16@24@32@40@?48@?56"
+- "Never"
+- "clarityUIEnabled:"
+- "didSelectSpecifier:"
+- "displayTextSpecifiersIncludingSmartInvert:"
+- "identities"
+- "imageWithCGImage:"
+- "makeContentCellViewWithTitle:image:description:linkTitle:linkCallback:closeCallback:"
+- "systemWhiteColor"
+
+```

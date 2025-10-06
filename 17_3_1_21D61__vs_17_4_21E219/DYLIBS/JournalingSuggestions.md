@@ -1,0 +1,164 @@
+## JournalingSuggestions
+
+> `/System/Library/Frameworks/JournalingSuggestions.framework/JournalingSuggestions`
+
+```diff
+
+-127.0.55.0.0
+-  __TEXT.__text: 0x325bc
+-  __TEXT.__auth_stubs: 0xfc0
++130.0.11.0.0
++  __TEXT.__text: 0x333bc
++  __TEXT.__auth_stubs: 0xfd0
+   __TEXT.__objc_methlist: 0x50
+   __TEXT.__const: 0xcd2
+-  __TEXT.__swift5_typeref: 0xa89
++  __TEXT.__swift5_typeref: 0xa7f
+   __TEXT.__swift5_capture: 0x49c
+-  __TEXT.__cstring: 0xaa5
++  __TEXT.__cstring: 0xdd5
+   __TEXT.__constg_swiftt: 0x65c
+   __TEXT.__swift5_reflstr: 0x377
+   __TEXT.__swift5_fieldmd: 0x54c
+
+   __TEXT.__swift5_proto: 0xcc
+   __TEXT.__swift5_types: 0x6c
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x19cc
+-  __TEXT.__eh_frame: 0xc78
++  __TEXT.__unwind_info: 0x1a54
++  __TEXT.__eh_frame: 0xcb8
+   __TEXT.__objc_classname: 0x2d
+-  __TEXT.__objc_methname: 0x577
++  __TEXT.__objc_methname: 0x58a
+   __TEXT.__objc_methtype: 0x166
+   __DATA_CONST.__got: 0x370
+-  __DATA_CONST.__const: 0xd0
++  __DATA_CONST.__const: 0xe0
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x4e8
+   __DATA_CONST.__objc_selrefs: 0x170
+-  __AUTH_CONST.__const: 0x1268
+-  __AUTH_CONST.__auth_got: 0x7e0
++  __DATA_CONST.__objc_protorefs: 0x10
++  __DATA_CONST.__objc_classrefs: 0x88
++  __AUTH_CONST.__const: 0x1260
++  __AUTH_CONST.__auth_got: 0x7e8
+   __AUTH.__data: 0x998
+   __AUTH.__objc_data: 0x1f8
+-  __DATA.__objc_protorefs: 0x10
+-  __DATA.__objc_classrefs: 0x88
+-  __DATA.__data: 0x748
++  __DATA.__data: 0x728
+   __DATA.__bss: 0xb90
+   __DATA.__common: 0x70
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CEC1D0C4-72B4-3AD8-95B0-D774FBE20F66
+-  Functions: 1107
+-  Symbols:   2985
+-  CStrings:  159
++  UUID: 0642B27C-6F1D-3C7D-AC25-5A0345CBF855
++  Functions: 1112
++  Symbols:   2993
++  CStrings:  178
+ 
+Symbols:
++ _$s21JournalingSuggestions0A10SuggestionV7PodcastV7artwork10Foundation3URLVSgvgTm
++ _$s21JournalingSuggestions0A10SuggestionV7PodcastV7artwork10Foundation3URLVSgvsTm
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutV7DetailsV4date10Foundation12DateIntervalVSgvgTm
++ _$s21JournalingSuggestions0A10SuggestionV7WorkoutV7DetailsV4date10Foundation12DateIntervalVSgvsTm
++ _$s21JournalingSuggestions0A10SuggestionV8LocationV4date10Foundation4DateVSgvgTm
++ _$s21JournalingSuggestions0A10SuggestionV8LocationV4date10Foundation4DateVSgvsTm
++ _$s21JournalingSuggestions11getMetadata_3key2asxSgSDys11AnyHashableVypG_So017MOSuggestionAssetD3KeyaxmtlF10Foundation4DateV_Tgm5
++ _$s21JournalingSuggestions11getMetadata_3key2asxSgSDys11AnyHashableVypG_So017MOSuggestionAssetD3KeyaxmtlFSS_Tgm5
++ _$s21JournalingSuggestions11getMetadata_3key2asxSgSDys11AnyHashableVypG_So017MOSuggestionAssetD3KeyaxmtlFSd_Tgm5
++ _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlF10Foundation4DateV_Tgm5
++ _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSS_Tgm5
++ _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSay10Foundation4DateVG_Tgm5
++ _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSaySDys11AnyHashableVypGG_Tgm5
++ _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSaySuG_Tgm5
++ _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSaySuG_Tgm5Tm
++ _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSd_Tgm5
++ _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSi_Tgm5
++ _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSo10HKQuantityC_Tgm5
++ _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSo10HKQuantityC_Tgm5Tm
++ _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSu_Tgm5
++ _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSu_Tgm5Tm
++ _$s7SwiftUI5ImageV21JournalingSuggestionsE14getAssetLoader3for6insideyyAD0d10SuggestionG0_pSg_s5Error_pSgtccSgSo012MOSuggestionG0CyyXlG_So0M0CtFZyyAI_AKtccfU_TA.4
++ _$sSp14moveInitialize4from5countySpyxG_SitF21JournalingSuggestions0E10SuggestionV7WorkoutV_Tg5Tm
++ _$sSp14moveInitialize4from5countySpyxG_SitF21JournalingSuggestions0E15SuggestionAsset_pXp_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitF21JournalingSuggestions20InternalAssetContentV0H8ProviderV05assetJ0_AE0ghJ0_pXp0K4Typet_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitF21JournalingSuggestions20InternalAssetContentV0H8ProviderV_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitFs5UInt8V_Tgq5
++ _$sSw10copyMemory4fromySW_tF
++ _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF21JournalingSuggestions0H10SuggestionV7WorkoutV_Tg5Tf4nng_nTm
++ _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF21JournalingSuggestions0H15SuggestionAsset_pXp_Tg5Tf4nng_n
++ _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF21JournalingSuggestions20InternalAssetContentV0K8ProviderV05assetM0_AH0jkM0_pXp0N4Typet_Tg5Tf4nng_n
++ _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF21JournalingSuggestions20InternalAssetContentV0K8ProviderV_Tg5Tf4nng_n
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5
++ ___swift_get_extra_inhabitant_index.35Tm
++ ___swift_store_extra_inhabitant_index.36Tm
+- _$s21JournalingSuggestions0A10SuggestionV7content7forTypeSayxGxm_tYaAA0aC5AssetRzlFAFScGyxSgGzYaXEfU_TY2_
+- _$s21JournalingSuggestions0A10SuggestionV8LocationV4citySSSgvgTm
+- _$s21JournalingSuggestions0A10SuggestionV8LocationV5placeSSSgvgTm
+- _$s21JournalingSuggestions0A10SuggestionV8LocationV5placeSSSgvsTm
+- _$s21JournalingSuggestions0A10SuggestionV9LivePhotoV4date10Foundation4DateVSgvgTm
+- _$s21JournalingSuggestions0A10SuggestionV9LivePhotoV4date10Foundation4DateVSgvsTm
+- _$s21JournalingSuggestions0A15SuggestionAssetPAAE7content7forItemxSgAA0aC0V0G7ContentV_tYaKFZTY3_
+- _$s21JournalingSuggestions11getMetadata_3key2asxSgSDys11AnyHashableVypG_So017MOSuggestionAssetD3KeyaxmtlF10Foundation4DateV_Tg5
+- _$s21JournalingSuggestions11getMetadata_3key2asxSgSDys11AnyHashableVypG_So017MOSuggestionAssetD3KeyaxmtlFSS_Tg5Tf4nnd_n
+- _$s21JournalingSuggestions11getMetadata_3key2asxSgSDys11AnyHashableVypG_So017MOSuggestionAssetD3KeyaxmtlFSd_Tg5Tf4nnd_n
+- _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlF10Foundation4DateV_Tg5
+- _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSS_Tg5Tf4nnd_n
+- _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSay10Foundation4DateVG_Tg5Tf4nnd_n
+- _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSaySDys11AnyHashableVypGG_Tg5Tf4nnd_n
+- _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSaySuG_Tg5Tf4nnd_n
+- _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSaySuG_Tg5Tf4nnd_nTm
+- _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSd_Tg5Tf4nnd_n
+- _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSi_Tg5Tf4nnd_n
+- _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSo10HKQuantityC_Tg5Tf4nnd_n
+- _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSo10HKQuantityC_Tg5Tf4nnd_nTm
+- _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSu_Tg5Tf4nnd_n
+- _$s21JournalingSuggestions11getMetadata_3key2asxSgSo17MOSuggestionAssetCyyXlG_So0ghD3KeyaxmtlFSu_Tg5Tf4nnd_nTm
+- _$s7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAcAEAdeF_Qrqd___SbyyctSQRd__lFQOyAA15ModifiedContentVyAcAEAdeF_Qrqd___SbyyctSQRd__lFQOyAHyAA01_c9Modifier_I0Vy21JournalingSuggestions016SuggestionPickerJ033_315EC45933A08D2AC82BECE24BED7720LLVGAA017_AppearanceActionJ0VG_SbQo_AQG_AA10ScenePhaseOQo__SbSgQo_MD
+- _$s7SwiftUI5ImageV21JournalingSuggestionsE14getAssetLoader3for6insideyyAD0d10SuggestionG0_pSg_s5Error_pSgtccSgSo012MOSuggestionG0CyyXlG_So0M0CtFZyyAI_AKtccfU_TA.5
+- _$s7SwiftUI5ImageV21JournalingSuggestionsE14getAssetLoader3for6insideyyAD0d10SuggestionG0_pSg_s5Error_pSgtccSgSo012MOSuggestionG0CyyXlG_So0M0CtFZyyAI_AKtccfU_TATm
+- _$sSo22MOSuggestionAssetsTypeaSYSCSY8rawValue03RawE0QzvgTWTm
+- _$sSo7UIImageC21JournalingSuggestionsE26getImageLoaderForLivePhoto3for6insideyyAC0B15SuggestionAsset_pSg_s5Error_pSgtccSgSo012MOSuggestionM0CyyXlG_So0O0CtFZyyAH_AJtccfU_TATm
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgq5Tf4nnd_n
+- _$ss23_ContiguousArrayStorageCySSGMD
+- ___swift_get_extra_inhabitant_index.58Tm
+- ___swift_store_extra_inhabitant_index.59Tm
+- _swift_initStackObject
+- _swift_setDeallocating
+- _symbolic _____ySSG s23_ContiguousArrayStorageC
+CStrings:
++ "Division by zero"
++ "Division results in an overflow"
++ "Fatal error"
++ "Insufficient space allocated to copy string contents"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/IntegerTypes.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"NSString\",?,R,C"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "invalid Collection: less than 'count' elements in collection"
+
+```

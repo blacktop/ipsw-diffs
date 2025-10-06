@@ -1,0 +1,598 @@
+## RoomPlan
+
+> `/System/Library/Frameworks/RoomPlan.framework/RoomPlan`
+
+```diff
+
+-2.8.0.0.0
+-  __TEXT.__text: 0x16bb60
+-  __TEXT.__auth_stubs: 0x3210
++2.8.1.0.0
++  __TEXT.__text: 0x16fcf0
++  __TEXT.__auth_stubs: 0x3240
+   __TEXT.__objc_methlist: 0xc10
+-  __TEXT.__const: 0xac24
++  __TEXT.__const: 0xab94
+   __TEXT.__gcc_except_tab: 0x94
+-  __TEXT.__cstring: 0x88d7
+-  __TEXT.__constg_swiftt: 0x8d3c
+-  __TEXT.__swift5_typeref: 0x3932
+-  __TEXT.__swift5_reflstr: 0x513c
+-  __TEXT.__swift5_fieldmd: 0x5364
++  __TEXT.__cstring: 0x8d37
++  __TEXT.__constg_swiftt: 0x8d18
++  __TEXT.__swift5_typeref: 0x392c
++  __TEXT.__swift5_reflstr: 0x512c
++  __TEXT.__swift5_fieldmd: 0x5358
+   __TEXT.__swift5_builtin: 0x1f4
+   __TEXT.__swift5_assocty: 0x7b0
+   __TEXT.__swift5_proto: 0x81c
+
+   __TEXT.__swift5_capture: 0xa94
+   __TEXT.__swift5_protos: 0x84
+   __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__unwind_info: 0x4a8c
+-  __TEXT.__eh_frame: 0x3748
++  __TEXT.__unwind_info: 0x4bd4
++  __TEXT.__eh_frame: 0x3760
+   __TEXT.__objc_classname: 0x1cc
+-  __TEXT.__objc_methname: 0x4f29
+-  __TEXT.__objc_methtype: 0x246e
++  __TEXT.__objc_methname: 0x4f69
++  __TEXT.__objc_methtype: 0x2479
+   __TEXT.__objc_stubs: 0x180
+-  __DATA_CONST.__got: 0x770
++  __DATA_CONST.__got: 0x780
+   __DATA_CONST.__const: 0x6c8
+   __DATA_CONST.__objc_classlist: 0x3c0
+   __DATA_CONST.__objc_protolist: 0x1a0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0xfd78
++  __DATA_CONST.__objc_const: 0xfde0
+   __DATA_CONST.__objc_selrefs: 0x1150
++  __DATA_CONST.__objc_protorefs: 0xd0
++  __DATA_CONST.__objc_classrefs: 0x2a0
++  __DATA_CONST.__objc_superrefs: 0x18
+   __AUTH_CONST.__objc_const: 0x3f0
+-  __AUTH_CONST.__const: 0x9908
+-  __AUTH_CONST.__auth_got: 0x1918
+-  __AUTH.__objc_data: 0x2398
+-  __AUTH.__data: 0x9390
+-  __DATA.__objc_protorefs: 0xd0
+-  __DATA.__objc_classrefs: 0x2a0
+-  __DATA.__objc_superrefs: 0x18
++  __AUTH_CONST.__const: 0x9910
++  __AUTH_CONST.__auth_got: 0x1930
++  __AUTH.__objc_data: 0x2348
++  __AUTH.__data: 0x9370
+   __DATA.__objc_ivar: 0x48
+   __DATA.__objc_data: 0x3a8
+-  __DATA.__data: 0x4cd8
++  __DATA.__data: 0x5218
+   __DATA.__bss: 0xec40
+-  __DATA.__common: 0x748
++  __DATA.__common: 0x788
+   - /System/Library/Frameworks/ARKit.framework/ARKit
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A89EF246-B4BA-3B59-A093-460ADCA50D4E
+-  Functions: 7390
+-  Symbols:   3456
+-  CStrings:  2399
++  UUID: DC8DF270-5D83-3C28-A3AB-A11475EA4F76
++  Functions: 7512
++  Symbols:   3458
++  CStrings:  2429
+ 
+Symbols:
++ __PROTOCOLS__TtC8RoomPlan15RSRawPointCloud.125
++ __PROTOCOLS__TtC8RoomPlan17ObjectKitKeyframe.47
++ __PROTOCOLS__TtC8RoomPlan24OUSessionDelegateWrapper.177
++ __PROTOCOLS__TtC8RoomPlan24RSSessionDelegateWrapper.158
++ __PROTOCOLS__TtC8RoomPlan32ARInternalSessionObserverWrapper.143
++ __PROTOCOLS__TtC8RoomPlan7OUFrame.189
++ __PROTOCOLS__TtC8RoomPlan7RSFrame.141
++ __PROTOCOLS__TtC8RoomPlan8OUCamera.107
++ __PROTOCOLS__TtC8RoomPlan8RSCamera.85
++ __ZNKSt3__16vectorI10PointInt64NS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN5boost7polygon12voronoi_cellIdEENS_9allocatorIS4_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN5boost7polygon12voronoi_edgeIdEENS_9allocatorIS4_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN5boost7polygon14voronoi_vertexIdEENS_9allocatorIS4_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN5boost7polygon6detail10site_eventIiEENS_9allocatorIS5_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorINS_15__list_iteratorINS_4pairIN5boost7polygon6detail12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvS7_EEEEPNS_11__tree_nodeISH_PvEElEEEEEESJ_EENS_9allocatorISP_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorINS_4pairIN5boost7polygon6detail8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEEPNS_11__tree_nodeISI_PvEElEEEEEENS_9allocatorISP_EEE20__throw_length_errorB8ue170006Ev
++ __ZNSt12length_errorC1B8ue170006EPKc
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_Lb0EEEvT1_SH_T0_NS_15iterator_traitsISH_E15difference_typeEb
++ __ZNSt3__111__sift_downB8ue170006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_OT0_NS_15iterator_traitsISH_E15difference_typeESH_
++ __ZNSt3__113__tree_removeB8ue170006IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__115__adjacent_findB8ue170006INS_11__wrap_iterIPN5boost7polygon6detail10site_eventIiEEEES8_RNS_10__equal_toEEET_SB_T0_OT1_
++ __ZNSt3__116__insertion_sortB8ue170006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_T0_
++ __ZNSt3__117__floyd_sift_downB8ue170006INS_17_ClassicAlgPolicyERN5boost7polygon15voronoi_builderIiNS3_6detail20voronoi_ctype_traitsIiEENS5_18voronoi_predicatesIS7_EEE20end_point_comparisonENS_11__wrap_iterIPNS_4pairINS5_8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISS_PvEElEEEEEEEEEET1_S12_OT0_NS_15iterator_traitsIS12_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB8ue170006INS_17_ClassicAlgPolicyERN5boost7polygon6detail13ordered_queueINS_4pairINS4_12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEENS3_15voronoi_builderIiNS4_20voronoi_ctype_traitsIiEENS4_18voronoi_predicatesISS_EEE21event_comparison_typeEE10comparisonENS_11__wrap_iterIPNS_15__list_iteratorISP_SK_EEEEEET1_S15_OT0_NS_15iterator_traitsIS15_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB8ue170006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EET1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorI10PointInt64EEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIN5boost7polygon12voronoi_cellIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIN5boost7polygon12voronoi_edgeIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIN5boost7polygon14voronoi_vertexIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIN5boost7polygon6detail10site_eventIiEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorINS_15__list_iteratorINS_4pairIN5boost7polygon6detail12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS6_19beach_line_node_keyINS6_10site_eventIiEEEENS6_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEESK_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSU_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorINS_4pairIN5boost7polygon6detail8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISJ_PvEElEEEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSU_m
++ __ZNSt3__119__partial_sort_implB8ue170006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_SG_EET1_SH_SH_T2_OT0_
++ __ZNSt3__120__throw_length_errorB8ue170006EPKc
++ __ZNSt3__126__insertion_sort_unguardedB8ue170006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ue170006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEbT1_SH_T0_
++ __ZNSt3__127__tree_balance_after_insertB8ue170006IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__131__partition_with_equals_on_leftB8ue170006INS_17_ClassicAlgPolicyEPN5boost7polygon6detail10site_eventIiEERNS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateIS6_NS4_12circle_eventIdEEEEEET0_SH_SH_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ue170006INS_17_ClassicAlgPolicyEPN5boost7polygon6detail10site_eventIiEERNS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateIS6_NS4_12circle_eventIdEEEEEENS_4pairIT0_bEESI_SI_T1_
++ __ZNSt3__17__sort3B8ue170006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEjT1_SH_SH_T0_
++ __ZNSt3__17__sort4B8ue170006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_SH_SH_T0_
++ __ZNSt3__17__sort5B8ue170006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_SH_SH_SH_T0_
++ __ZNSt3__18__uniqueB8ue170006INS_17_ClassicAlgPolicyENS_11__wrap_iterIPN5boost7polygon6detail10site_eventIiEEEES9_RNS_10__equal_toEEENS_4pairIT0_SD_EESD_T1_OT2_
++ __ZNSt3__19__sift_upB8ue170006INS_17_ClassicAlgPolicyERN5boost7polygon15voronoi_builderIiNS3_6detail20voronoi_ctype_traitsIiEENS5_18voronoi_predicatesIS7_EEE20end_point_comparisonENS_11__wrap_iterIPNS_4pairINS5_8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISS_PvEElEEEEEEEEEEvT1_S12_OT0_NS_15iterator_traitsIS12_E15difference_typeE
++ __ZNSt3__19__sift_upB8ue170006INS_17_ClassicAlgPolicyERN5boost7polygon6detail13ordered_queueINS_4pairINS4_12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEENS3_15voronoi_builderIiNS4_20voronoi_ctype_traitsIiEENS4_18voronoi_predicatesISS_EEE21event_comparison_typeEE10comparisonENS_11__wrap_iterIPNS_15__list_iteratorISP_SK_EEEEEEvT1_S15_OT0_NS_15iterator_traitsIS15_E15difference_typeE
++ __ZNSt3__19__sift_upB8ue170006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB8ue170006v
++ _block_copy_helper.105
++ _block_copy_helper.11
++ _block_copy_helper.111
++ _block_copy_helper.117
++ _block_copy_helper.124
++ _block_copy_helper.130
++ _block_copy_helper.134
++ _block_copy_helper.136
++ _block_copy_helper.140
++ _block_copy_helper.142
++ _block_copy_helper.154
++ _block_copy_helper.161
++ _block_copy_helper.167
++ _block_copy_helper.168
++ _block_copy_helper.174
++ _block_copy_helper.181
++ _block_copy_helper.182
++ _block_copy_helper.188
++ _block_copy_helper.192
++ _block_copy_helper.194
++ _block_copy_helper.200
++ _block_copy_helper.201
++ _block_copy_helper.202
++ _block_copy_helper.207
++ _block_copy_helper.209
++ _block_copy_helper.213
++ _block_copy_helper.214
++ _block_copy_helper.215
++ _block_copy_helper.221
++ _block_copy_helper.225
++ _block_copy_helper.227
++ _block_copy_helper.231
++ _block_copy_helper.233
++ _block_copy_helper.239
++ _block_copy_helper.240
++ _block_copy_helper.246
++ _block_copy_helper.252
++ _block_copy_helper.258
++ _block_copy_helper.261
++ _block_copy_helper.264
++ _block_copy_helper.267
++ _block_copy_helper.273
++ _block_copy_helper.279
++ _block_copy_helper.285
++ _block_copy_helper.288
++ _block_copy_helper.29
++ _block_copy_helper.291
++ _block_copy_helper.294
++ _block_copy_helper.297
++ _block_copy_helper.42
++ _block_copy_helper.44
++ _block_copy_helper.47
++ _block_copy_helper.50
++ _block_copy_helper.53
++ _block_copy_helper.64
++ _block_copy_helper.90
++ _block_copy_helper.96
++ _block_descriptor.107
++ _block_descriptor.113
++ _block_descriptor.119
++ _block_descriptor.126
++ _block_descriptor.13
++ _block_descriptor.132
++ _block_descriptor.136
++ _block_descriptor.138
++ _block_descriptor.142
++ _block_descriptor.144
++ _block_descriptor.156
++ _block_descriptor.163
++ _block_descriptor.169
++ _block_descriptor.170
++ _block_descriptor.176
++ _block_descriptor.183
++ _block_descriptor.184
++ _block_descriptor.190
++ _block_descriptor.194
++ _block_descriptor.196
++ _block_descriptor.202
++ _block_descriptor.203
++ _block_descriptor.204
++ _block_descriptor.209
++ _block_descriptor.211
++ _block_descriptor.215
++ _block_descriptor.216
++ _block_descriptor.217
++ _block_descriptor.223
++ _block_descriptor.227
++ _block_descriptor.229
++ _block_descriptor.233
++ _block_descriptor.235
++ _block_descriptor.241
++ _block_descriptor.242
++ _block_descriptor.248
++ _block_descriptor.254
++ _block_descriptor.260
++ _block_descriptor.263
++ _block_descriptor.266
++ _block_descriptor.269
++ _block_descriptor.275
++ _block_descriptor.281
++ _block_descriptor.287
++ _block_descriptor.290
++ _block_descriptor.293
++ _block_descriptor.296
++ _block_descriptor.299
++ _block_descriptor.31
++ _block_descriptor.44
++ _block_descriptor.46
++ _block_descriptor.49
++ _block_descriptor.52
++ _block_descriptor.55
++ _block_descriptor.66
++ _block_descriptor.92
++ _block_descriptor.98
++ _block_destroy_helper.106
++ _block_destroy_helper.112
++ _block_destroy_helper.118
++ _block_destroy_helper.12
++ _block_destroy_helper.125
++ _block_destroy_helper.131
++ _block_destroy_helper.135
++ _block_destroy_helper.137
++ _block_destroy_helper.141
++ _block_destroy_helper.143
++ _block_destroy_helper.155
++ _block_destroy_helper.162
++ _block_destroy_helper.168
++ _block_destroy_helper.169
++ _block_destroy_helper.175
++ _block_destroy_helper.182
++ _block_destroy_helper.183
++ _block_destroy_helper.189
++ _block_destroy_helper.193
++ _block_destroy_helper.195
++ _block_destroy_helper.201
++ _block_destroy_helper.202
++ _block_destroy_helper.203
++ _block_destroy_helper.208
++ _block_destroy_helper.210
++ _block_destroy_helper.214
++ _block_destroy_helper.215
++ _block_destroy_helper.216
++ _block_destroy_helper.222
++ _block_destroy_helper.226
++ _block_destroy_helper.228
++ _block_destroy_helper.232
++ _block_destroy_helper.234
++ _block_destroy_helper.240
++ _block_destroy_helper.241
++ _block_destroy_helper.247
++ _block_destroy_helper.253
++ _block_destroy_helper.259
++ _block_destroy_helper.262
++ _block_destroy_helper.265
++ _block_destroy_helper.268
++ _block_destroy_helper.274
++ _block_destroy_helper.280
++ _block_destroy_helper.286
++ _block_destroy_helper.289
++ _block_destroy_helper.292
++ _block_destroy_helper.295
++ _block_destroy_helper.298
++ _block_destroy_helper.30
++ _block_destroy_helper.43
++ _block_destroy_helper.45
++ _block_destroy_helper.48
++ _block_destroy_helper.51
++ _block_destroy_helper.54
++ _block_destroy_helper.65
++ _block_destroy_helper.91
++ _block_destroy_helper.97
++ _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV015ForegroundColorE0OAaBHPyHC.21
++ _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV015ForegroundColorE0OAaBHPyHC.37
++ _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV04FontE0OAaBHPyHC.27
++ _keypath_get.22Tm
++ _memset
++ _objectdestroy.109Tm
++ _objectdestroy.145Tm
++ _objectdestroy.159Tm
++ _objectdestroy.21Tm
++ _objectdestroy.271Tm
++ _symbolic SaySo11RS3DSurfaceCG
++ _symbolic Say_____G 8RoomPlan0A11CaptureQuadC
++ _symbolic Say_____G 8RoomPlan15CDTTriangleEdgeC
++ _symbolic Say_____G 8RoomPlan22DistanceAngleHullPointC
++ _symbolic Say_____G 8RoomPlan9HullPointC
++ _symbolic _____ySbG s23_ContiguousArrayStorageC
+- __PROTOCOLS__TtC8RoomPlan15RSRawPointCloud.129
+- __PROTOCOLS__TtC8RoomPlan17ObjectKitKeyframe.48
+- __PROTOCOLS__TtC8RoomPlan24OUSessionDelegateWrapper.181
+- __PROTOCOLS__TtC8RoomPlan24RSSessionDelegateWrapper.161
+- __PROTOCOLS__TtC8RoomPlan32ARInternalSessionObserverWrapper.145
+- __PROTOCOLS__TtC8RoomPlan7OUFrame.195
+- __PROTOCOLS__TtC8RoomPlan7RSFrame.146
+- __PROTOCOLS__TtC8RoomPlan8OUCamera.110
+- __PROTOCOLS__TtC8RoomPlan8RSCamera.87
+- __ZNKSt3__16vectorI10PointInt64NS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN5boost7polygon12voronoi_cellIdEENS_9allocatorIS4_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN5boost7polygon12voronoi_edgeIdEENS_9allocatorIS4_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN5boost7polygon14voronoi_vertexIdEENS_9allocatorIS4_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN5boost7polygon6detail10site_eventIiEENS_9allocatorIS5_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorINS_15__list_iteratorINS_4pairIN5boost7polygon6detail12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvS7_EEEEPNS_11__tree_nodeISH_PvEElEEEEEESJ_EENS_9allocatorISP_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorINS_4pairIN5boost7polygon6detail8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEEPNS_11__tree_nodeISI_PvEElEEEEEENS_9allocatorISP_EEE20__throw_length_errorB7v160006Ev
+- __ZNSt12length_errorC1B7v160006EPKc
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_T0_NS_15iterator_traitsISH_E15difference_typeE
+- __ZNSt3__111__sift_downB7v160006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_OT0_NS_15iterator_traitsISH_E15difference_typeESH_
+- __ZNSt3__113__tree_removeB7v160006IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__115__adjacent_findB7v160006INS_11__wrap_iterIPN5boost7polygon6detail10site_eventIiEEEES8_RNS_10__equal_toEEET_SB_T0_OT1_
+- __ZNSt3__117__floyd_sift_downB7v160006INS_17_ClassicAlgPolicyERN5boost7polygon15voronoi_builderIiNS3_6detail20voronoi_ctype_traitsIiEENS5_18voronoi_predicatesIS7_EEE20end_point_comparisonENS_11__wrap_iterIPNS_4pairINS5_8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISS_PvEElEEEEEEEEEET1_S12_OT0_NS_15iterator_traitsIS12_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB7v160006INS_17_ClassicAlgPolicyERN5boost7polygon6detail13ordered_queueINS_4pairINS4_12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEENS3_15voronoi_builderIiNS4_20voronoi_ctype_traitsIiEENS4_18voronoi_predicatesISS_EEE21event_comparison_typeEE10comparisonENS_11__wrap_iterIPNS_15__list_iteratorISP_SK_EEEEEET1_S15_OT0_NS_15iterator_traitsIS15_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB7v160006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EET1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
+- __ZNSt3__118__insertion_sort_3B7v160006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_T0_
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI10PointInt64EEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN5boost7polygon12voronoi_cellIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN5boost7polygon12voronoi_edgeIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN5boost7polygon14voronoi_vertexIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN5boost7polygon6detail10site_eventIiEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_15__list_iteratorINS_4pairIN5boost7polygon6detail12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS6_19beach_line_node_keyINS6_10site_eventIiEEEENS6_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEESK_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSU_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_4pairIN5boost7polygon6detail8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISJ_PvEElEEEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSU_m
+- __ZNSt3__119__partial_sort_implB7v160006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_SG_EET1_SH_SH_T2_OT0_
+- __ZNSt3__120__throw_length_errorB7v160006EPKc
+- __ZNSt3__127__insertion_sort_incompleteIRN5boost7polygon6detail18voronoi_predicatesINS3_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS3_10site_eventIiEENS3_12circle_eventIdEEEEPSA_EEbT0_SG_T_
+- __ZNSt3__127__tree_balance_after_insertB7v160006IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEjT1_SH_SH_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEjT1_SH_SH_SH_T0_
+- __ZNSt3__17__sort5IRN5boost7polygon6detail18voronoi_predicatesINS3_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS3_10site_eventIiEENS3_12circle_eventIdEEEEPSA_EEjT0_SG_SG_SG_SG_T_
+- __ZNSt3__18__uniqueB7v160006INS_17_ClassicAlgPolicyENS_11__wrap_iterIPN5boost7polygon6detail10site_eventIiEEEES9_RNS_10__equal_toEEENS_4pairIT0_SD_EESD_T1_OT2_
+- __ZNSt3__19__sift_upB7v160006INS_17_ClassicAlgPolicyERN5boost7polygon15voronoi_builderIiNS3_6detail20voronoi_ctype_traitsIiEENS5_18voronoi_predicatesIS7_EEE20end_point_comparisonENS_11__wrap_iterIPNS_4pairINS5_8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISS_PvEElEEEEEEEEEEvT1_S12_OT0_NS_15iterator_traitsIS12_E15difference_typeE
+- __ZNSt3__19__sift_upB7v160006INS_17_ClassicAlgPolicyERN5boost7polygon6detail13ordered_queueINS_4pairINS4_12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEENS3_15voronoi_builderIiNS4_20voronoi_ctype_traitsIiEENS4_18voronoi_predicatesISS_EEE21event_comparison_typeEE10comparisonENS_11__wrap_iterIPNS_15__list_iteratorISP_SK_EEEEEEvT1_S15_OT0_NS_15iterator_traitsIS15_E15difference_typeE
+- __ZNSt3__19__sift_upB7v160006INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB7v160006v
+- _block_copy_helper.106
+- _block_copy_helper.110
+- _block_copy_helper.112
+- _block_copy_helper.116
+- _block_copy_helper.118
+- _block_copy_helper.12
+- _block_copy_helper.122
+- _block_copy_helper.129
+- _block_copy_helper.135
+- _block_copy_helper.141
+- _block_copy_helper.153
+- _block_copy_helper.160
+- _block_copy_helper.162
+- _block_copy_helper.166
+- _block_copy_helper.169
+- _block_copy_helper.172
+- _block_copy_helper.179
+- _block_copy_helper.183
+- _block_copy_helper.186
+- _block_copy_helper.193
+- _block_copy_helper.197
+- _block_copy_helper.199
+- _block_copy_helper.203
+- _block_copy_helper.205
+- _block_copy_helper.206
+- _block_copy_helper.210
+- _block_copy_helper.212
+- _block_copy_helper.216
+- _block_copy_helper.218
+- _block_copy_helper.222
+- _block_copy_helper.224
+- _block_copy_helper.226
+- _block_copy_helper.230
+- _block_copy_helper.232
+- _block_copy_helper.236
+- _block_copy_helper.238
+- _block_copy_helper.244
+- _block_copy_helper.250
+- _block_copy_helper.256
+- _block_copy_helper.262
+- _block_copy_helper.266
+- _block_copy_helper.268
+- _block_copy_helper.272
+- _block_copy_helper.274
+- _block_copy_helper.278
+- _block_copy_helper.284
+- _block_copy_helper.290
+- _block_copy_helper.293
+- _block_copy_helper.296
+- _block_copy_helper.299
+- _block_copy_helper.30
+- _block_copy_helper.302
+- _block_copy_helper.45
+- _block_copy_helper.49
+- _block_copy_helper.51
+- _block_copy_helper.55
+- _block_copy_helper.67
+- _block_copy_helper.91
+- _block_copy_helper.97
+- _block_descriptor.108
+- _block_descriptor.112
+- _block_descriptor.114
+- _block_descriptor.118
+- _block_descriptor.120
+- _block_descriptor.124
+- _block_descriptor.131
+- _block_descriptor.137
+- _block_descriptor.14
+- _block_descriptor.143
+- _block_descriptor.155
+- _block_descriptor.162
+- _block_descriptor.164
+- _block_descriptor.168
+- _block_descriptor.171
+- _block_descriptor.174
+- _block_descriptor.181
+- _block_descriptor.185
+- _block_descriptor.188
+- _block_descriptor.195
+- _block_descriptor.199
+- _block_descriptor.201
+- _block_descriptor.205
+- _block_descriptor.207
+- _block_descriptor.208
+- _block_descriptor.212
+- _block_descriptor.214
+- _block_descriptor.218
+- _block_descriptor.220
+- _block_descriptor.224
+- _block_descriptor.226
+- _block_descriptor.228
+- _block_descriptor.232
+- _block_descriptor.234
+- _block_descriptor.238
+- _block_descriptor.240
+- _block_descriptor.246
+- _block_descriptor.252
+- _block_descriptor.258
+- _block_descriptor.264
+- _block_descriptor.268
+- _block_descriptor.270
+- _block_descriptor.274
+- _block_descriptor.276
+- _block_descriptor.280
+- _block_descriptor.286
+- _block_descriptor.292
+- _block_descriptor.295
+- _block_descriptor.298
+- _block_descriptor.301
+- _block_descriptor.304
+- _block_descriptor.32
+- _block_descriptor.47
+- _block_descriptor.51
+- _block_descriptor.53
+- _block_descriptor.57
+- _block_descriptor.69
+- _block_descriptor.93
+- _block_descriptor.99
+- _block_destroy_helper.107
+- _block_destroy_helper.111
+- _block_destroy_helper.113
+- _block_destroy_helper.117
+- _block_destroy_helper.119
+- _block_destroy_helper.123
+- _block_destroy_helper.13
+- _block_destroy_helper.130
+- _block_destroy_helper.136
+- _block_destroy_helper.142
+- _block_destroy_helper.154
+- _block_destroy_helper.161
+- _block_destroy_helper.163
+- _block_destroy_helper.167
+- _block_destroy_helper.170
+- _block_destroy_helper.173
+- _block_destroy_helper.180
+- _block_destroy_helper.184
+- _block_destroy_helper.187
+- _block_destroy_helper.194
+- _block_destroy_helper.198
+- _block_destroy_helper.200
+- _block_destroy_helper.204
+- _block_destroy_helper.206
+- _block_destroy_helper.207
+- _block_destroy_helper.211
+- _block_destroy_helper.213
+- _block_destroy_helper.217
+- _block_destroy_helper.219
+- _block_destroy_helper.223
+- _block_destroy_helper.225
+- _block_destroy_helper.227
+- _block_destroy_helper.231
+- _block_destroy_helper.233
+- _block_destroy_helper.237
+- _block_destroy_helper.239
+- _block_destroy_helper.245
+- _block_destroy_helper.251
+- _block_destroy_helper.257
+- _block_destroy_helper.263
+- _block_destroy_helper.267
+- _block_destroy_helper.269
+- _block_destroy_helper.273
+- _block_destroy_helper.275
+- _block_destroy_helper.279
+- _block_destroy_helper.285
+- _block_destroy_helper.291
+- _block_destroy_helper.294
+- _block_destroy_helper.297
+- _block_destroy_helper.300
+- _block_destroy_helper.303
+- _block_destroy_helper.31
+- _block_destroy_helper.46
+- _block_destroy_helper.50
+- _block_destroy_helper.52
+- _block_destroy_helper.56
+- _block_destroy_helper.68
+- _block_destroy_helper.92
+- _block_destroy_helper.98
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV015ForegroundColorE0OAaBHPyHC.22
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV015ForegroundColorE0OAaBHPyHC.38
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV04FontE0OAaBHPyHC.28
+- _keypath_get.23Tm
+- _keypath_set.122Tm
+- _memset_pattern16
+- _objc_retain_x10
+- _objectdestroy.110Tm
+- _objectdestroy.114Tm
+- _objectdestroy.146Tm
+- _objectdestroy.160Tm
+- _objectdestroy.22Tm
+- _objectdestroy.282Tm
+- _objectdestroy.89Tm
+- _symbolic _____ 10Foundation12CharacterSetV
+- _symbolic _____ySay_____GG s18ReversedCollectionV s6UInt32V
+- _symbolic _____y_____ySfG7startPt_AC03endB0AC6vectorAC6normaltG s23_ContiguousArrayStorageC s5SIMD2V
+CStrings:
++ "Can't construct Array with count < 0"
++ "Division by zero"
++ "Division results in an overflow"
++ "Insufficient space allocated to copy string contents"
++ "Must take zero or more splits"
++ "Negative value is not representable"
++ "Not enough bits to represent the passed value"
++ "Range requires lowerBound <= upperBound"
++ "ReleaseBuffer"
++ "Swift/Array.swift"
++ "Swift/Collection.swift"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/IntegerTypes.swift"
++ "Swift/Integers.swift"
++ "Swift/Range.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"NSString\",?,R,C"
++ "Tq,?,R,N"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "i20@0:8I16"
++ "invalid Collection: less than 'count' elements in collection"
++ "setOwnerWithIdentity:"
+- "legalCharacters"
+
+```

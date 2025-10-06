@@ -1,0 +1,1091 @@
+## HeadphoneConfigs
+
+> `/System/Library/PrivateFrameworks/HeadphoneConfigs.framework/HeadphoneConfigs`
+
+```diff
+
+-430.46.1.3.0
+-  __TEXT.__text: 0x56f9c
+-  __TEXT.__auth_stubs: 0xa30
+-  __TEXT.__objc_methlist: 0x23b4
+-  __TEXT.__const: 0x426
+-  __TEXT.__cstring: 0x5a13
+-  __TEXT.__oslogstring: 0x5fc4
+-  __TEXT.__gcc_except_tab: 0x360
+-  __TEXT.__constg_swiftt: 0xa8
+-  __TEXT.__swift5_typeref: 0x82
+-  __TEXT.__swift5_fieldmd: 0x30
+-  __TEXT.__swift5_capture: 0x3c
+-  __TEXT.__swift5_types: 0xc
+-  __TEXT.__unwind_info: 0xcf8
+-  __TEXT.__eh_frame: 0x1e8
+-  __TEXT.__objc_classname: 0x5b1
+-  __TEXT.__objc_methname: 0x825d
+-  __TEXT.__objc_methtype: 0x1390
+-  __TEXT.__objc_stubs: 0x7280
+-  __DATA_CONST.__got: 0x390
+-  __DATA_CONST.__const: 0xa60
+-  __DATA_CONST.__objc_classlist: 0x160
++431.9.2.0.0
++  __TEXT.__text: 0x6d978
++  __TEXT.__auth_stubs: 0xde0
++  __TEXT.__objc_methlist: 0x2da8
++  __TEXT.__const: 0x654
++  __TEXT.__cstring: 0x6a33
++  __TEXT.__oslogstring: 0x6168
++  __TEXT.__gcc_except_tab: 0x4d8
++  __TEXT.__constg_swiftt: 0x360
++  __TEXT.__swift5_typeref: 0x1be
++  __TEXT.__swift5_fieldmd: 0x124
++  __TEXT.__swift5_capture: 0x140
++  __TEXT.__swift5_types: 0x24
++  __TEXT.__swift5_reflstr: 0x150
++  __TEXT.__swift5_builtin: 0x28
++  __TEXT.__swift5_assocty: 0x30
++  __TEXT.__swift5_proto: 0x8
++  __TEXT.__unwind_info: 0x1428
++  __TEXT.__eh_frame: 0x268
++  __TEXT.__objc_classname: 0x6e0
++  __TEXT.__objc_methname: 0x8f45
++  __TEXT.__objc_methtype: 0x1540
++  __TEXT.__objc_stubs: 0x78c0
++  __DATA_CONST.__got: 0x3e0
++  __DATA_CONST.__const: 0xbf0
++  __DATA_CONST.__objc_classlist: 0x1b0
+   __DATA_CONST.__objc_catlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x48
++  __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x4d98
+-  __DATA_CONST.__objc_selrefs: 0x2308
+-  __DATA_CONST.__objc_arraydata: 0x10
+-  __AUTH_CONST.__objc_const: 0xdb8
+-  __AUTH_CONST.__cfstring: 0x7440
+-  __AUTH_CONST.__const: 0x358
++  __DATA_CONST.__objc_const: 0x69c0
++  __DATA_CONST.__objc_selrefs: 0x2650
++  __DATA_CONST.__objc_arraydata: 0x100
++  __AUTH_CONST.__objc_const: 0xff8
++  __AUTH_CONST.__cfstring: 0x7ae0
++  __AUTH_CONST.__const: 0x8f8
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__objc_intobj: 0x30
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH_CONST.__auth_got: 0x528
+-  __AUTH.__objc_data: 0xc50
+-  __AUTH.__data: 0xe8
+-  __DATA.__objc_classrefs: 0x460
+-  __DATA.__objc_superrefs: 0x110
+-  __DATA.__objc_ivar: 0x530
+-  __DATA.__data: 0x3d8
++  __AUTH_CONST.__objc_arrayobj: 0x30
++  __AUTH_CONST.__auth_got: 0x700
++  __AUTH.__objc_data: 0x12e8
++  __AUTH.__data: 0x188
++  __DATA.__objc_classrefs: 0x4c8
++  __DATA.__objc_superrefs: 0x140
++  __DATA.__objc_ivar: 0x6bc
++  __DATA.__data: 0x550
++  __DATA.__bss: 0x990
+   __DATA.__common: 0x1958
+-  __DATA.__bss: 0x890
+   __DATA_DIRTY.__objc_data: 0x1e0
+   __DATA_DIRTY.__bss: 0x10
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AccessibilityUIUtilities.framework/AccessibilityUIUtilities
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
++  - /System/Library/PrivateFrameworks/BaseBoardUI.framework/BaseBoardUI
+   - /System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams
+   - /System/Library/PrivateFrameworks/BiometricKitUI.framework/BiometricKitUI
+   - /System/Library/PrivateFrameworks/BluetoothManager.framework/BluetoothManager
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 098826E9-D852-37AB-A50A-BF41F26C4A40
+-  Functions: 1936
+-  Symbols:   4240
+-  CStrings:  4232
++  UUID: 59A107F8-4FFA-3974-8A47-E7CEB9FCE7A5
++  Functions: 2428
++  Symbols:   5238
++  CStrings:  4586
+ 
+Symbols:
++ +[HPSProductUtils isAirPods:]
++ +[HPSProductUtils isAirPods:].cold.1
++ +[HPSSpatialProfileSingleStepPearlMovieLoopView layerClass]
++ -[BTSDeviceConfigController addA2DPDisclosureUISpecifier]
++ -[BTSDeviceConfigController userDidTapSpatialA2DPLatencyDisclosure:]
++ -[HPSSpatialProfileSingeStepEnrollmentController .cxx_destruct]
++ -[HPSSpatialProfileSingeStepEnrollmentController angleArrayToBinaryString:]
++ -[HPSSpatialProfileSingeStepEnrollmentController bluetoothDidBecomeAvailable]
++ -[HPSSpatialProfileSingeStepEnrollmentController cancelBlur]
++ -[HPSSpatialProfileSingeStepEnrollmentController cancelSpatialAudioProfile]
++ -[HPSSpatialProfileSingeStepEnrollmentController captureViewTimerDidFire]
++ -[HPSSpatialProfileSingeStepEnrollmentController checkAndShowInEarPopup]
++ -[HPSSpatialProfileSingeStepEnrollmentController checkAndShowInEarPopup].cold.1
++ -[HPSSpatialProfileSingeStepEnrollmentController checkVolume]
++ -[HPSSpatialProfileSingeStepEnrollmentController checkVolume].cold.1
++ -[HPSSpatialProfileSingeStepEnrollmentController cleanUpSpinner]
++ -[HPSSpatialProfileSingeStepEnrollmentController clearBoundingBox]
++ -[HPSSpatialProfileSingeStepEnrollmentController continueButtonTapped]
++ -[HPSSpatialProfileSingeStepEnrollmentController didReachLargeNudgePeakForEnrollView:]
++ -[HPSSpatialProfileSingeStepEnrollmentController didReachSmallNudgePeakForEnrollView:]
++ -[HPSSpatialProfileSingeStepEnrollmentController didReceiveCaptureVideo:colorImage:depthImage:faceObject:]
++ -[HPSSpatialProfileSingeStepEnrollmentController didReceiveStateUpdateForSession:stateInfo:]
++ -[HPSSpatialProfileSingeStepEnrollmentController didReceiveStateUpdateForSession:stateInfo:].cold.1
++ -[HPSSpatialProfileSingeStepEnrollmentController didReceiveStateUpdateForSession:stateInfo:].cold.2
++ -[HPSSpatialProfileSingeStepEnrollmentController didReceiveStateUpdateForSession:stateInfo:].cold.3
++ -[HPSSpatialProfileSingeStepEnrollmentController didReceiveStateUpdateForSession:stateInfo:].cold.4
++ -[HPSSpatialProfileSingeStepEnrollmentController dismissalHandler]
++ -[HPSSpatialProfileSingeStepEnrollmentController enrollView:didNudgeInDirection:nudgeCount:]
++ -[HPSSpatialProfileSingeStepEnrollmentController enrollView:willNudgeInDirection:nudgeCount:]
++ -[HPSSpatialProfileSingeStepEnrollmentController forceBlur]
++ -[HPSSpatialProfileSingeStepEnrollmentController getBudsInEarString]
++ -[HPSSpatialProfileSingeStepEnrollmentController getBudsInEarString].cold.1
++ -[HPSSpatialProfileSingeStepEnrollmentController hideContinueButton]
++ -[HPSSpatialProfileSingeStepEnrollmentController hideEarPillsDots]
++ -[HPSSpatialProfileSingeStepEnrollmentController init]
++ -[HPSSpatialProfileSingeStepEnrollmentController isEarOccluded]
++ -[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]
++ -[HPSSpatialProfileSingeStepEnrollmentController pauseEnrollment]
++ -[HPSSpatialProfileSingeStepEnrollmentController pauseEnrollment].cold.1
++ -[HPSSpatialProfileSingeStepEnrollmentController pauseEnrollment].cold.2
++ -[HPSSpatialProfileSingeStepEnrollmentController pillsFilled]
++ -[HPSSpatialProfileSingeStepEnrollmentController playEarCaptureSoundWithCompletion:]
++ -[HPSSpatialProfileSingeStepEnrollmentController prepareSpinner]
++ -[HPSSpatialProfileSingeStepEnrollmentController pulseEarBoundingBox]
++ -[HPSSpatialProfileSingeStepEnrollmentController resetVolume]
++ -[HPSSpatialProfileSingeStepEnrollmentController resumeEnrollment]
++ -[HPSSpatialProfileSingeStepEnrollmentController resumeEnrollment].cold.1
++ -[HPSSpatialProfileSingeStepEnrollmentController retrieveProfile]
++ -[HPSSpatialProfileSingeStepEnrollmentController retrieveProfile].cold.1
++ -[HPSSpatialProfileSingeStepEnrollmentController retrieveProfile].cold.2
++ -[HPSSpatialProfileSingeStepEnrollmentController retrieveProfile].cold.3
++ -[HPSSpatialProfileSingeStepEnrollmentController sendTipKitSignal]
++ -[HPSSpatialProfileSingeStepEnrollmentController setDismissalHandler:]
++ -[HPSSpatialProfileSingeStepEnrollmentController setPillsFilled:]
++ -[HPSSpatialProfileSingeStepEnrollmentController setupAudioVideo]
++ -[HPSSpatialProfileSingeStepEnrollmentController setupEarBoundingBox]
++ -[HPSSpatialProfileSingeStepEnrollmentController setupEarTutorialView]
++ -[HPSSpatialProfileSingeStepEnrollmentController setupEnrollController]
++ -[HPSSpatialProfileSingeStepEnrollmentController setupEnrollViewUI]
++ -[HPSSpatialProfileSingeStepEnrollmentController setupWelcomeContentView]
++ -[HPSSpatialProfileSingeStepEnrollmentController showBudsInEarPopUp:]
++ -[HPSSpatialProfileSingeStepEnrollmentController showContinueButton]
++ -[HPSSpatialProfileSingeStepEnrollmentController showEarPillsDots]
++ -[HPSSpatialProfileSingeStepEnrollmentController showLandscapeAlert]
++ -[HPSSpatialProfileSingeStepEnrollmentController startCaptureViewTimer]
++ -[HPSSpatialProfileSingeStepEnrollmentController startEnrollment]
++ -[HPSSpatialProfileSingeStepEnrollmentController startEnrollment].cold.1
++ -[HPSSpatialProfileSingeStepEnrollmentController startFaceInFrameHandlerTimer]
++ -[HPSSpatialProfileSingeStepEnrollmentController startPostProcessSpinner]
++ -[HPSSpatialProfileSingeStepEnrollmentController startPostProcessTimer]
++ -[HPSSpatialProfileSingeStepEnrollmentController startTutorialResumeEnrollTimer]
++ -[HPSSpatialProfileSingeStepEnrollmentController startWelcomeSpinner]
++ -[HPSSpatialProfileSingeStepEnrollmentController state]
++ -[HPSSpatialProfileSingeStepEnrollmentController stopCaptureViewTimer]
++ -[HPSSpatialProfileSingeStepEnrollmentController stopEnrollment]
++ -[HPSSpatialProfileSingeStepEnrollmentController stopEnrollment].cold.1
++ -[HPSSpatialProfileSingeStepEnrollmentController stopFaceInFrameHandlerTimer]
++ -[HPSSpatialProfileSingeStepEnrollmentController stopPostProcessSpinner]
++ -[HPSSpatialProfileSingeStepEnrollmentController stopPostProcessSpinner].cold.1
++ -[HPSSpatialProfileSingeStepEnrollmentController stopPostProcessTimer]
++ -[HPSSpatialProfileSingeStepEnrollmentController stopTimers]
++ -[HPSSpatialProfileSingeStepEnrollmentController stopTutorialResumeEnrollTimer]
++ -[HPSSpatialProfileSingeStepEnrollmentController stopWelcomeSpinner]
++ -[HPSSpatialProfileSingeStepEnrollmentController stopWelcomeSpinner].cold.1
++ -[HPSSpatialProfileSingeStepEnrollmentController syncProfile]
++ -[HPSSpatialProfileSingeStepEnrollmentController translateEarBoundingBox:previewLayerBoundingBox:]
++ -[HPSSpatialProfileSingeStepEnrollmentController triggerFaceInFrameHandlerTimeout]
++ -[HPSSpatialProfileSingeStepEnrollmentController triggerPostProcessTimeout]
++ -[HPSSpatialProfileSingeStepEnrollmentController tutorialResumeEnrollTimerDidFire]
++ -[HPSSpatialProfileSingeStepEnrollmentController updateBoundingBoxHiddenStatus]
++ -[HPSSpatialProfileSingeStepEnrollmentController updateCurrentTrackingEar:rightEarPoseStatus:earBoundingBox:earStatus:]
++ -[HPSSpatialProfileSingeStepEnrollmentController updateFaceTrackingStatus:]
++ -[HPSSpatialProfileSingeStepEnrollmentController userCancelEnrollment]
++ -[HPSSpatialProfileSingeStepEnrollmentController viewDidAppear:]
++ -[HPSSpatialProfileSingeStepEnrollmentController viewDidDisappear:]
++ -[HPSSpatialProfileSingeStepEnrollmentController viewDidLoad]
++ -[HPSSpatialProfileSingleStepCrossHairs initWithView:view:]
++ -[HPSSpatialProfileSingleStepCrossHairs nudgeCustomDirection:completion:]
++ -[HPSSpatialProfileSingleStepCrossHairs nudgeInDirection:smallNudgePeak:largeNudgePeak:completion:]
++ -[HPSSpatialProfileSingleStepPearlEnrollView .cxx_destruct]
++ -[HPSSpatialProfileSingleStepPearlEnrollView _nudgeIfNecessary]
++ -[HPSSpatialProfileSingleStepPearlEnrollView crossHairs]
++ -[HPSSpatialProfileSingleStepPearlEnrollView faceCaptured]
++ -[HPSSpatialProfileSingleStepPearlEnrollView forceBlur]
++ -[HPSSpatialProfileSingleStepPearlEnrollView initWithVideoCaptureSession:inSheet:squareNeedsPositionLayout:]
++ -[HPSSpatialProfileSingleStepPearlEnrollView layoutSubviews]
++ -[HPSSpatialProfileSingleStepPearlEnrollView nudgeLeft:]
++ -[HPSSpatialProfileSingleStepPearlEnrollView nudgeRight:]
++ -[HPSSpatialProfileSingleStepPearlEnrollView pauseBlur]
++ -[HPSSpatialProfileSingleStepPearlEnrollView setAlpha:]
++ -[HPSSpatialProfileSingleStepPearlEnrollView setCameraBlurAmount:useShade:duration:completion:]
++ -[HPSSpatialProfileSingleStepPearlEnrollView setFaceCaptured:]
++ -[HPSSpatialProfileSingleStepPearlEnrollView setForceBlur:]
++ -[HPSSpatialProfileSingleStepPearlEnrollView setPauseBlur:]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView .cxx_destruct]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView hideAVPlayerReplaceWithSnapshot]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView hideVideoPlayer]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView initWithFrame:]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView layoutSubviews]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView load]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView play]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView playerLayer]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView playerLooper]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView setAlpha:]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView setAlphaHideOnZero:]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView setPlayerLayer:]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView setPlayerLooper:]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView setVideoPlayer:]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView showVideoPlayer]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView unhideAVPlayerRemoveSnapshot]
++ -[HPSSpatialProfileSingleStepPearlMovieLoopView videoPlayer]
++ -[HPSSpatialProfileSingleStepPillContainerView .cxx_destruct]
++ -[HPSSpatialProfileSingleStepPillContainerView fillPill:withCompletion:]
++ -[HPSSpatialProfileSingleStepPillContainerView initWithFrame:]
++ -[HPSSpatialProfileSingleStepPillContainerView layerMappingLeft]
++ -[HPSSpatialProfileSingleStepPillContainerView layerMappingRight]
++ -[HPSSpatialProfileSingleStepPillContainerView leftPillIndex]
++ -[HPSSpatialProfileSingleStepPillContainerView leftSectionCompletedPillsPercent]
++ -[HPSSpatialProfileSingleStepPillContainerView micaView]
++ -[HPSSpatialProfileSingleStepPillContainerView middleMinusOne]
++ -[HPSSpatialProfileSingleStepPillContainerView middlePlusOne]
++ -[HPSSpatialProfileSingleStepPillContainerView middleZero]
++ -[HPSSpatialProfileSingleStepPillContainerView pillsAnimatedStatusArray]
++ -[HPSSpatialProfileSingleStepPillContainerView pillsStatusArray]
++ -[HPSSpatialProfileSingleStepPillContainerView rightPillIndex]
++ -[HPSSpatialProfileSingleStepPillContainerView rightSectionCompletedPillsPercent]
++ -[HPSSpatialProfileSingleStepPillContainerView setLayerMappingLeft:]
++ -[HPSSpatialProfileSingleStepPillContainerView setLayerMappingRight:]
++ -[HPSSpatialProfileSingleStepPillContainerView setLeftPillIndex:]
++ -[HPSSpatialProfileSingleStepPillContainerView setMicaView:]
++ -[HPSSpatialProfileSingleStepPillContainerView setMiddleMinusOne:]
++ -[HPSSpatialProfileSingleStepPillContainerView setMiddlePlusOne:]
++ -[HPSSpatialProfileSingleStepPillContainerView setMiddleZero:]
++ -[HPSSpatialProfileSingleStepPillContainerView setPillsAnimatedStatusArray:]
++ -[HPSSpatialProfileSingleStepPillContainerView setPillsStatusArray:]
++ -[HPSSpatialProfileSingleStepPillContainerView setRightPillIndex:]
++ -[HPSSpatialProfileSingleStepPillContainerView updatePillsForPoseStatus:pillCount:alongSideAction:]
++ -[HPSSpatialProfileSingleStepSoundHapticManager .cxx_destruct]
++ -[HPSSpatialProfileSingleStepSoundHapticManager audioPlayerDecodeErrorDidOccur:error:]
++ -[HPSSpatialProfileSingleStepSoundHapticManager audioPlayerDidFinishPlaying:successfully:]
++ -[HPSSpatialProfileSingleStepSoundHapticManager createPlayerWithFileName:]
++ -[HPSSpatialProfileSingleStepSoundHapticManager createPlayerWithFileName:].cold.1
++ -[HPSSpatialProfileSingleStepSoundHapticManager createPlayerWithFileName:].cold.2
++ -[HPSSpatialProfileSingleStepSoundHapticManager init]
++ -[HPSSpatialProfileSingleStepSoundHapticManager isEnrollGuidancePlaying]
++ -[HPSSpatialProfileSingleStepSoundHapticManager pauseEnrollGuidancePlayer]
++ -[HPSSpatialProfileSingleStepSoundHapticManager pauseEnrollGuidancePlayer].cold.1
++ -[HPSSpatialProfileSingleStepSoundHapticManager pauseProgressPlayer]
++ -[HPSSpatialProfileSingleStepSoundHapticManager pauseProgressPlayer].cold.1
++ -[HPSSpatialProfileSingleStepSoundHapticManager playEnrollGuidance:]
++ -[HPSSpatialProfileSingleStepSoundHapticManager playEnrollGuidance:].cold.1
++ -[HPSSpatialProfileSingleStepSoundHapticManager playProgressPlayer:]
++ -[HPSSpatialProfileSingleStepSoundHapticManager playProgressPlayer:].cold.1
++ -[HPSSpatialProfileSingleStepSoundHapticManager readDynamicEnrollmentFeedback]
++ -[HPSSpatialProfileSingleStepSoundHapticManager setEnrollGuidancePitch:]
++ -[HPSSpatialProfileSingleStepSoundHapticManager setProgressPlayerPitch:]
++ -[HPSSpatialProfileSingleStepSoundHapticManager setupPlayers]
++ -[HPSSpatialProfileSingleStepSoundHapticManager startEnrollLoop]
++ -[HPSSpatialProfileSingleStepSoundHapticManager start]
++ -[HPSSpatialProfileSingleStepSoundHapticManager start].cold.1
++ -[HPSSpatialProfileSingleStepSoundHapticManager stopEnrollLoop]
++ -[HPSSpatialProfileSingleStepSoundHapticManager stop]
++ -[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEarCaptureState:completion:]
++ -[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]
++ -[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:].cold.1
++ -[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:].cold.2
++ -[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:].cold.3
++ -[HPSSpatialProfileSingleStepSoundHapticManager updateEnrollLoopVolume:]
++ GCC_except_table112
++ GCC_except_table19
++ GCC_except_table30
++ GCC_except_table34
++ GCC_except_table57
++ GCC_except_table6
++ _AVAudioSessionCategoryAmbient
++ _NSKeyedArchiveRootObjectKey
++ _NSStringFromRect
++ _OBJC_CLASS_$_BSUICAPackageView
++ _OBJC_CLASS_$_HPSSpatialProfileSingeStepEnrollmentController
++ _OBJC_CLASS_$_HPSSpatialProfileSingleStepCrossHairs
++ _OBJC_CLASS_$_HPSSpatialProfileSingleStepPearlEnrollView
++ _OBJC_CLASS_$_HPSSpatialProfileSingleStepPearlMovieLoopView
++ _OBJC_CLASS_$_HPSSpatialProfileSingleStepPillContainerView
++ _OBJC_CLASS_$_HPSSpatialProfileSingleStepSoundHapticManager
++ _OBJC_CLASS_$_NSConstantArray
++ _OBJC_CLASS_$_NSKeyedArchiver
++ _OBJC_CLASS_$_NSKeyedUnarchiver
++ _OBJC_CLASS_$_UIScene
++ _OBJC_CLASS_$_UIWindow
++ _OBJC_CLASS_$_UIWindowScene
++ _OBJC_CLASS_$__TtC16HeadphoneConfigs37HPSVisionOSSubtitleOnOffIndicatorCell
++ _OBJC_CLASS_$__TtC16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainer
++ _OBJC_IVAR_$_BTSDeviceConfigController._setCaseSoundModeInProgress
++ _OBJC_IVAR_$_BTSFitTestController._leftBudLabelImageView
++ _OBJC_IVAR_$_BTSFitTestController._rightBudLabelImageView
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._bluetoothBecameAvailable
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._bottomContainerView
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._btManager
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._captureViewTimer
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._completedPosesCount
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._currentEarBB
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._currentProgress
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._currentStep
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._debugMode
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._earBoundingBoxDetectTracker
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._earBoundingBoxDetected
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._earBoundingBoxView
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._earCaptureSoundStep
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._earDotsMovieView
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._earOcclusionDetectTracker
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._earTooClose
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._earTooCloseDetectTracker
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._earTooFar
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._earTooFarDetectTracker
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._earTutorialView
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._enrollContentView
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._enrollView
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._enrollViewInitialized
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._enrollViewState
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._enrollmentAnalytics
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._enrollmentCompleted
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._enrollmentFirstPhaseComplete
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._enrollmentPaused
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._enrollmentReady
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._enrollmentSession
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._enrollmentStarted
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._faceBoundingBoxStatus
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._faceCaptured
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._faceDetected
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._faceInFrameCount
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._faceInFrameHandlerTimer
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._faceStraightZeroAngleCaptured
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._faceTooCloseErrorShowing
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._frameContext
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._frameDetector
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._inEarDetectDisabledPopUpShown
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._initialVolume
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._isEarOccluded
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._isLookingAtPhone
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._occlusionSupressTimeOut
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._occlusionWarnCoolDownTimer
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._offScreenBottomContainerView
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._pillContainerView
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._pillsFilled
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._postProcessSpinnerOn
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._postProcessSpinnerTimer
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._postProcessTimer
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._profileData
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._sessionState
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._soundHapticManager
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._spinner
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._startEarEnrollWarningCoolDownTimer
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._stepSerialQueue
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._supressEarEnrollWarning
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._supressEarOcclusionWarning
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._tutorialContentView
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._tutorialResumeEnrollTimer
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._visageFrame
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._visualDetectionQueue
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._volumeChanged
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._welcomeContentView
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._welcomeImageView
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController._welcomeSpinnerOn
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController.dismissalHandler
++ _OBJC_IVAR_$_HPSSpatialProfileSingeStepEnrollmentController.videoCaptureSession
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPearlEnrollView._enrollmentCustomCrossHairs
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPearlEnrollView._faceCaptured
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPearlEnrollView._forceBlur
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPearlEnrollView._pauseBlur
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPearlMovieLoopView._playerLayer
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPearlMovieLoopView._playerLooper
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPearlMovieLoopView._videoPlayer
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPillContainerView._layerMappingLeft
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPillContainerView._layerMappingRight
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPillContainerView._leftPillIndex
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPillContainerView._micaView
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPillContainerView._middleMinusOne
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPillContainerView._middlePlusOne
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPillContainerView._middleZero
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPillContainerView._pillsAnimatedStatusArray
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPillContainerView._pillsStatusArray
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepPillContainerView._rightPillIndex
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepSoundHapticManager._dynamicEnrollmentFeedback
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepSoundHapticManager._engine
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepSoundHapticManager._enrollGuidancePlayer
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepSoundHapticManager._enrollLooplayer
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepSoundHapticManager._enrollmentCompletedPlayer
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepSoundHapticManager._enrollmentHalfDonePlayer
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepSoundHapticManager._scanCompletedPlayer
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepSoundHapticManager._scanErrorPlayer
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepSoundHapticManager._scanInProgressPlayer
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepSoundHapticManager._scanLockPlayer
++ _OBJC_IVAR_$_HPSSpatialProfileSingleStepSoundHapticManager._soundHapticSerialQueue
++ _OBJC_METACLASS_$_HPSSpatialProfileSingeStepEnrollmentController
++ _OBJC_METACLASS_$_HPSSpatialProfileSingleStepCrossHairs
++ _OBJC_METACLASS_$_HPSSpatialProfileSingleStepPearlEnrollView
++ _OBJC_METACLASS_$_HPSSpatialProfileSingleStepPearlMovieLoopView
++ _OBJC_METACLASS_$_HPSSpatialProfileSingleStepPillContainerView
++ _OBJC_METACLASS_$_HPSSpatialProfileSingleStepSoundHapticManager
++ _OBJC_METACLASS_$_OBHeaderView
++ _OBJC_METACLASS_$__TtC16HeadphoneConfigs37HPSVisionOSSubtitleOnOffIndicatorCell
++ _OBJC_METACLASS_$__TtC16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainer
++ _OBJC_METACLASS_$__TtC16HeadphoneConfigsP33_D51FEB6A68E3E202054F6E29D55400B013HPSHeaderView
++ _OBJC_METACLASS_$__TtCC16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainerP33_D51FEB6A68E3E202054F6E29D55400B046HPSSpatialProfileSingleStepBottomContainerImpl
++ _UIFontWeightMedium
++ _UIFontWeightRegular
++ __CLASS_PROPERTIES__TtC16HeadphoneConfigs37HPSVisionOSSubtitleOnOffIndicatorCell
++ __DATA__TtC16HeadphoneConfigs37HPSVisionOSSubtitleOnOffIndicatorCell
++ __DATA__TtC16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainer
++ __DATA__TtC16HeadphoneConfigsP33_D51FEB6A68E3E202054F6E29D55400B013HPSHeaderView
++ __DATA__TtCC16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainerP33_D51FEB6A68E3E202054F6E29D55400B046HPSSpatialProfileSingleStepBottomContainerImpl
++ __IVARS__TtC16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainer
++ __IVARS__TtC16HeadphoneConfigsP33_D51FEB6A68E3E202054F6E29D55400B013HPSHeaderView
++ __IVARS__TtCC16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainerP33_D51FEB6A68E3E202054F6E29D55400B046HPSSpatialProfileSingleStepBottomContainerImpl
++ __METACLASS_DATA__TtC16HeadphoneConfigs37HPSVisionOSSubtitleOnOffIndicatorCell
++ __METACLASS_DATA__TtC16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainer
++ __METACLASS_DATA__TtC16HeadphoneConfigsP33_D51FEB6A68E3E202054F6E29D55400B013HPSHeaderView
++ __METACLASS_DATA__TtCC16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainerP33_D51FEB6A68E3E202054F6E29D55400B046HPSSpatialProfileSingleStepBottomContainerImpl
++ __OBJC_$_CLASS_METHODS_HPSSpatialProfileSingleStepPearlMovieLoopView
++ __OBJC_$_CLASS_METHODS__TtC16HeadphoneConfigs37HPSVisionOSSubtitleOnOffIndicatorCell
++ __OBJC_$_INSTANCE_METHODS_HPSSpatialProfileSingeStepEnrollmentController
++ __OBJC_$_INSTANCE_METHODS_HPSSpatialProfileSingleStepCrossHairs
++ __OBJC_$_INSTANCE_METHODS_HPSSpatialProfileSingleStepPearlEnrollView
++ __OBJC_$_INSTANCE_METHODS_HPSSpatialProfileSingleStepPearlMovieLoopView
++ __OBJC_$_INSTANCE_METHODS_HPSSpatialProfileSingleStepPillContainerView
++ __OBJC_$_INSTANCE_METHODS_HPSSpatialProfileSingleStepSoundHapticManager
++ __OBJC_$_INSTANCE_METHODS__TtC16HeadphoneConfigs37HPSVisionOSSubtitleOnOffIndicatorCell
++ __OBJC_$_INSTANCE_METHODS__TtC16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainer
++ __OBJC_$_INSTANCE_METHODS__TtC16HeadphoneConfigsP33_D51FEB6A68E3E202054F6E29D55400B013HPSHeaderView
++ __OBJC_$_INSTANCE_METHODS__TtCC16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainerP33_D51FEB6A68E3E202054F6E29D55400B046HPSSpatialProfileSingleStepBottomContainerImpl
++ __OBJC_$_INSTANCE_VARIABLES_HPSSpatialProfileSingeStepEnrollmentController
++ __OBJC_$_INSTANCE_VARIABLES_HPSSpatialProfileSingleStepPearlEnrollView
++ __OBJC_$_INSTANCE_VARIABLES_HPSSpatialProfileSingleStepPearlMovieLoopView
++ __OBJC_$_INSTANCE_VARIABLES_HPSSpatialProfileSingleStepPillContainerView
++ __OBJC_$_INSTANCE_VARIABLES_HPSSpatialProfileSingleStepSoundHapticManager
++ __OBJC_$_PROP_LIST_HPSSpatialProfileSingeStepEnrollmentController
++ __OBJC_$_PROP_LIST_HPSSpatialProfileSingleStepPearlEnrollView
++ __OBJC_$_PROP_LIST_HPSSpatialProfileSingleStepPearlMovieLoopView
++ __OBJC_$_PROP_LIST_HPSSpatialProfileSingleStepPillContainerView
++ __OBJC_$_PROP_LIST_HPSSpatialProfileSingleStepSoundHapticManager
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVAudioPlayerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVAudioPlayerDelegate
++ __OBJC_$_PROTOCOL_REFS_AVAudioPlayerDelegate
++ __OBJC_CLASS_PROTOCOLS_$_HPSSpatialProfileSingeStepEnrollmentController
++ __OBJC_CLASS_PROTOCOLS_$_HPSSpatialProfileSingleStepSoundHapticManager
++ __OBJC_CLASS_RO_$_HPSSpatialProfileSingeStepEnrollmentController
++ __OBJC_CLASS_RO_$_HPSSpatialProfileSingleStepCrossHairs
++ __OBJC_CLASS_RO_$_HPSSpatialProfileSingleStepPearlEnrollView
++ __OBJC_CLASS_RO_$_HPSSpatialProfileSingleStepPearlMovieLoopView
++ __OBJC_CLASS_RO_$_HPSSpatialProfileSingleStepPillContainerView
++ __OBJC_CLASS_RO_$_HPSSpatialProfileSingleStepSoundHapticManager
++ __OBJC_LABEL_PROTOCOL_$_AVAudioPlayerDelegate
++ __OBJC_METACLASS_RO_$_HPSSpatialProfileSingeStepEnrollmentController
++ __OBJC_METACLASS_RO_$_HPSSpatialProfileSingleStepCrossHairs
++ __OBJC_METACLASS_RO_$_HPSSpatialProfileSingleStepPearlEnrollView
++ __OBJC_METACLASS_RO_$_HPSSpatialProfileSingleStepPearlMovieLoopView
++ __OBJC_METACLASS_RO_$_HPSSpatialProfileSingleStepPillContainerView
++ __OBJC_METACLASS_RO_$_HPSSpatialProfileSingleStepSoundHapticManager
++ __OBJC_PROTOCOL_$_AVAudioPlayerDelegate
++ __PROPERTIES__TtC16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainer
++ __PROPERTIES__TtCC16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainerP33_D51FEB6A68E3E202054F6E29D55400B046HPSSpatialProfileSingleStepBottomContainerImpl
++ ___106-[HPSSpatialProfileSingeStepEnrollmentController didReceiveCaptureVideo:colorImage:depthImage:faceObject:]_block_invoke
++ ___106-[HPSSpatialProfileSingeStepEnrollmentController didReceiveCaptureVideo:colorImage:depthImage:faceObject:]_block_invoke.219
++ ___106-[HPSSpatialProfileSingeStepEnrollmentController didReceiveCaptureVideo:colorImage:depthImage:faceObject:]_block_invoke.cold.1
++ ___36-[BTSFitTestController startFitTest]_block_invoke.124
++ ___36-[BTSFitTestController startFitTest]_block_invoke.124.cold.1
++ ___36-[BTSFitTestController startFitTest]_block_invoke.124.cold.2
++ ___36-[BTSFitTestController startFitTest]_block_invoke.124.cold.3
++ ___41-[BTSFitTestController sealValueChanged:]_block_invoke.192
++ ___53-[HPSSpatialProfileSingleStepSoundHapticManager stop]_block_invoke
++ ___55-[BTSDeviceConfigController setFindMyEnable:specifier:]_block_invoke.cold.1
++ ___59-[BTSDeviceConfigController setCaseSoundEnabled:specifier:]_block_invoke.1578
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke.64
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke.67
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke.69
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke.72
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke.76
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke.83
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke.91
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke.93
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke.95
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke.cold.1
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_2
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_2.105
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_2.68
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_2.70
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_2.73
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_2.77
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_2.84
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_2.92
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_2.94
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_3
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_3.106
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_3.71
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_3.74
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_3.78
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_3.85
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_4
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_4.75
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_4.79
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_4.86
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_5
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController moveToStep:]_block_invoke_5.87
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController syncProfile]_block_invoke
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController syncProfile]_block_invoke.cold.1
++ ___61-[HPSSpatialProfileSingeStepEnrollmentController syncProfile]_block_invoke.cold.2
++ ___63-[HPSSpatialProfileSingleStepSoundHapticManager stopEnrollLoop]_block_invoke
++ ___64-[BTSDeviceConfigController setOptimizedBatteryChargingEnabled:]_block_invoke.650
++ ___64-[BTSDeviceConfigController setOptimizedBatteryChargingEnabled:]_block_invoke.654
++ ___64-[BTSDeviceConfigController setOptimizedBatteryChargingEnabled:]_block_invoke.654.cold.1
++ ___64-[HPSSpatialProfileSingeStepEnrollmentController stopEnrollment]_block_invoke
++ ___64-[HPSSpatialProfileSingleStepPearlMovieLoopView hideVideoPlayer]_block_invoke
++ ___64-[HPSSpatialProfileSingleStepPearlMovieLoopView showVideoPlayer]_block_invoke
++ ___64-[HPSSpatialProfileSingleStepSoundHapticManager startEnrollLoop]_block_invoke
++ ___65-[HPSSpatialProfileSingeStepEnrollmentController retrieveProfile]_block_invoke
++ ___65-[HPSSpatialProfileSingeStepEnrollmentController retrieveProfile]_block_invoke.118
++ ___65-[HPSSpatialProfileSingeStepEnrollmentController retrieveProfile]_block_invoke.120
++ ___65-[HPSSpatialProfileSingeStepEnrollmentController startEnrollment]_block_invoke
++ ___65-[HPSSpatialProfileSingeStepEnrollmentController startEnrollment]_block_invoke.cold.1
++ ___66-[HPSSpatialProfileSingeStepEnrollmentController hideEarPillsDots]_block_invoke
++ ___66-[HPSSpatialProfileSingeStepEnrollmentController showEarPillsDots]_block_invoke
++ ___67-[HPSSpatialProfileSingeStepEnrollmentController setupEnrollViewUI]_block_invoke
++ ___68-[HPSSpatialProfileSingeStepEnrollmentController showLandscapeAlert]_block_invoke
++ ___69-[HPSSpatialProfileSingeStepEnrollmentController pulseEarBoundingBox]_block_invoke
++ ___69-[HPSSpatialProfileSingeStepEnrollmentController pulseEarBoundingBox]_block_invoke_2
++ ___69-[HPSSpatialProfileSingeStepEnrollmentController showBudsInEarPopUp:]_block_invoke
++ ___72-[HPSSpatialProfileSingleStepPillContainerView fillPill:withCompletion:]_block_invoke
++ ___72-[HPSSpatialProfileSingleStepPillContainerView fillPill:withCompletion:]_block_invoke_2
++ ___72-[HPSSpatialProfileSingleStepPillContainerView fillPill:withCompletion:]_block_invoke_3
++ ___72-[HPSSpatialProfileSingleStepSoundHapticManager updateEnrollLoopVolume:]_block_invoke
++ ___73-[HPSSpatialProfileSingeStepEnrollmentController captureViewTimerDidFire]_block_invoke
++ ___75-[HPSSpatialProfileSingeStepEnrollmentController cancelSpatialAudioProfile]_block_invoke
++ ___77-[HPSSpatialProfileSingeStepEnrollmentController bluetoothDidBecomeAvailable]_block_invoke
++ ___79-[HPSSpatialProfileSingeStepEnrollmentController updateBoundingBoxHiddenStatus]_block_invoke
++ ___79-[HPSSpatialProfileSingeStepEnrollmentController updateBoundingBoxHiddenStatus]_block_invoke_2
++ ___82-[HPSSpatialProfileSingeStepEnrollmentController triggerFaceInFrameHandlerTimeout]_block_invoke
++ ___82-[HPSSpatialProfileSingeStepEnrollmentController triggerFaceInFrameHandlerTimeout]_block_invoke_2
++ ___84-[HPSSpatialProfileSingeStepEnrollmentController playEarCaptureSoundWithCompletion:]_block_invoke
++ ___84-[HPSSpatialProfileSingeStepEnrollmentController playEarCaptureSoundWithCompletion:]_block_invoke_2
++ ___84-[HPSSpatialProfileSingeStepEnrollmentController playEarCaptureSoundWithCompletion:]_block_invoke_3
++ ___92-[HPSSpatialProfileSingeStepEnrollmentController didReceiveStateUpdateForSession:stateInfo:]_block_invoke
++ ___92-[HPSSpatialProfileSingeStepEnrollmentController didReceiveStateUpdateForSession:stateInfo:]_block_invoke.201
++ ___92-[HPSSpatialProfileSingeStepEnrollmentController didReceiveStateUpdateForSession:stateInfo:]_block_invoke.205
++ ___92-[HPSSpatialProfileSingeStepEnrollmentController didReceiveStateUpdateForSession:stateInfo:]_block_invoke.207
++ ___92-[HPSSpatialProfileSingeStepEnrollmentController didReceiveStateUpdateForSession:stateInfo:]_block_invoke.208
++ ___92-[HPSSpatialProfileSingeStepEnrollmentController didReceiveStateUpdateForSession:stateInfo:]_block_invoke_2
++ ___92-[HPSSpatialProfileSingeStepEnrollmentController didReceiveStateUpdateForSession:stateInfo:]_block_invoke_2.206
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEarCaptureState:completion:]_block_invoke
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEarCaptureState:completion:]_block_invoke.69
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEarCaptureState:completion:]_block_invoke.70
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEarCaptureState:completion:]_block_invoke.70.cold.1
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEarCaptureState:completion:]_block_invoke.70.cold.2
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEarCaptureState:completion:]_block_invoke.71
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEarCaptureState:completion:]_block_invoke.72
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEarCaptureState:completion:]_block_invoke.cold.1
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEarCaptureState:completion:]_block_invoke_2
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke.49
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke.51
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke.51.cold.1
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke.51.cold.2
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke.52
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke.56
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke.57
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke.57.cold.1
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke.62
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke.63
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke.63.cold.1
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke.63.cold.2
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke.64
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke.68
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke.cold.1
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke.cold.2
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke_2
++ ___97-[HPSSpatialProfileSingleStepSoundHapticManager triggerSoundHapticForEnrollmentState:completion:]_block_invoke_2.58
++ ___98-[HPSSpatialProfileSingeStepEnrollmentController translateEarBoundingBox:previewLayerBoundingBox:]_block_invoke
++ ___98-[HPSSpatialProfileSingeStepEnrollmentController translateEarBoundingBox:previewLayerBoundingBox:]_block_invoke_2
++ ___99-[HPSSpatialProfileSingleStepPillContainerView updatePillsForPoseStatus:pillCount:alongSideAction:]_block_invoke
++ ___99-[HPSSpatialProfileSingleStepPillContainerView updatePillsForPoseStatus:pillCount:alongSideAction:]_block_invoke_2
++ ___block_descriptor_40_e8_32s_e14_v16?0?<v?>8ls32l8
++ ___block_descriptor_52_e8_32s40s_e5_v8?0ls32l8s40l8
++ ___block_descriptor_56_e8_32bs40w_e8_v12?0B8lw40l8s32l8
++ ___block_descriptor_56_e8_32s40bs_e5_v8?0ls32l8s40l8
++ ___block_descriptor_56_e8_32s40s48w_e5_v8?0lw48l8s32l8s40l8
++ ___block_descriptor_60_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
++ ___block_descriptor_60_e8_32s40s48w_e5_v8?0lw48l8s32l8s40l8
++ ___block_descriptor_68_e8_32s40s48s56w_e5_v8?0ls32l8s40l8w56l8s48l8
++ ___block_descriptor_68_e8_32s40s48s56w_e5_v8?0ls32l8w56l8s40l8s48l8
++ ___block_descriptor_72_e8_32s40s48bs56w_e5_v8?0ls32l8s40l8w56l8s48l8
++ ___block_literal_global.111
++ ___block_literal_global.138
++ ___block_literal_global.1506
++ ___block_literal_global.1671
++ ___block_literal_global.1673
++ ___block_literal_global.200
++ ___block_literal_global.203
++ ___block_literal_global.242
++ ___block_literal_global.56
++ ___block_literal_global.60
++ ___block_literal_global.662
++ ___block_literal_global.693
++ ___swift_allocate_boxed_opaque_existential_1
++ __swift_dead_method_stub
++ __swift_stdlib_reportUnimplementedInitializer
++ __unnamed_array_storage.85
++ _block_copy_helper
++ _block_copy_helper.31
++ _block_copy_helper.37
++ _block_copy_helper.50
++ _block_copy_helper.56
++ _block_copy_helper.62
++ _block_copy_helper.68
++ _block_copy_helper.74
++ _block_copy_helper.80
++ _block_copy_helper.86
++ _block_copy_helper.92
++ _block_copy_helper.98
++ _block_descriptor
++ _block_descriptor.100
++ _block_descriptor.33
++ _block_descriptor.39
++ _block_descriptor.52
++ _block_descriptor.58
++ _block_descriptor.64
++ _block_descriptor.70
++ _block_descriptor.76
++ _block_descriptor.82
++ _block_descriptor.88
++ _block_descriptor.94
++ _block_destroy_helper
++ _block_destroy_helper.32
++ _block_destroy_helper.38
++ _block_destroy_helper.51
++ _block_destroy_helper.57
++ _block_destroy_helper.63
++ _block_destroy_helper.69
++ _block_destroy_helper.75
++ _block_destroy_helper.81
++ _block_destroy_helper.87
++ _block_destroy_helper.93
++ _block_destroy_helper.99
++ _kTotalPoses
++ _objc_msgSend$addA2DPDisclosureUISpecifier
++ _objc_msgSend$buttonTrayEffectView
++ _objc_msgSend$cellDisabledKey
++ _objc_msgSend$center
++ _objc_msgSend$continueButton
++ _objc_msgSend$createPlayerWithFileName:
++ _objc_msgSend$debugDescription
++ _objc_msgSend$fillPill:withCompletion:
++ _objc_msgSend$getAdaptiveVolumeMode:
++ _objc_msgSend$getConversationDetectMode:
++ _objc_msgSend$getHearingProtectionEnabled:
++ _objc_msgSend$imageWithTintColor:renderingMode:
++ _objc_msgSend$infoView
++ _objc_msgSend$initWithBool:
++ _objc_msgSend$initWithBudsInEarString:
++ _objc_msgSend$initWithPackageName:inBundle:
++ _objc_msgSend$initWithURL:
++ _objc_msgSend$isPlaying
++ _objc_msgSend$learnMoreView
++ _objc_msgSend$leftSectionCompletedPillsPercent
++ _objc_msgSend$load
++ _objc_msgSend$localizedDescription
++ _objc_msgSend$moveToEnrollmentFromStep:toStep:
++ _objc_msgSend$moveToEnrollmentFromStep:toStep:animateInAlongSide:animateOutAlongSide:animatedCompletion:
++ _objc_msgSend$moveToEnrollmentFromStep:toStep:completionAction:
++ _objc_msgSend$mutableCopy
++ _objc_msgSend$onOffKey
++ _objc_msgSend$pillsAnimatedStatusArray
++ _objc_msgSend$playImmediatelyAtRate:
++ _objc_msgSend$playerLayer
++ _objc_msgSend$playerLooperWithPlayer:templateItem:
++ _objc_msgSend$publishedObjectWithName:
++ _objc_msgSend$rightSectionCompletedPillsPercent
++ _objc_msgSend$scrollView
++ _objc_msgSend$setAllowsExternalPlayback:
++ _objc_msgSend$setCategory:withOptions:error:
++ _objc_msgSend$setCurrentTime:
++ _objc_msgSend$setMuted:
++ _objc_msgSend$setObject:atIndexedSubscript:
++ _objc_msgSend$setPlayer:
++ _objc_msgSend$setState:onLayer:animated:transitionSpeed:completion:
++ _objc_msgSend$setTutorialMovieView:
++ _objc_msgSend$setVolume:
++ _objc_msgSend$showContinueButton:
++ _objc_msgSend$showVideoPlayer
++ _objc_msgSend$startEnrollLoop
++ _objc_msgSend$stopEnrollLoop
++ _objc_msgSend$tutorialMovieView
++ _objc_msgSend$updateContinueButtonActionWithTarget:selector:
++ _objc_msgSend$updateContinueButtonTitleWithTitle:
++ _objc_msgSend$updatePillsForPoseStatus:pillCount:alongSideAction:
++ _objc_msgSend$videoPlayer
++ _objc_retain_x11
++ _objc_retain_x12
++ _objc_retain_x9
++ _objectdestroy.48Tm
++ _objectdestroy.54Tm
++ _swift_allocBox
++ _swift_bridgeObjectRelease_n
++ _swift_dynamicCast
++ _swift_dynamicCastObjCClass
++ _swift_getForeignTypeMetadata
++ _swift_getObjectType
++ _swift_isaMask
++ _swift_release_n
++ _swift_retain
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRetain
++ _swift_willThrow
++ _symbolic $sSY
++ _symbolic Ieg_Sg
++ _symbolic IeyB_
++ _symbolic SSSg
++ _symbolic Si
++ _symbolic So11PSTableCellC
++ _symbolic So11UIStackViewC
++ _symbolic So12OBHeaderViewC
++ _symbolic So12UIScrollViewC
++ _symbolic So16OBBoldTrayButtonC
++ _symbolic So18UIVisualEffectViewC
++ _symbolic So45HPSSpatialProfileSingleStepPearlMovieLoopViewC
++ _symbolic So6UIViewC
++ _symbolic So7UILabelC
++ _symbolic So7UILabelCSg
++ _symbolic _____ 16HeadphoneConfigs13HPSHeaderView33_D51FEB6A68E3E202054F6E29D55400B0LLC
++ _symbolic _____ 16HeadphoneConfigs37HPSVisionOSSubtitleOnOffIndicatorCellC
++ _symbolic _____ 16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainerC
++ _symbolic _____ 16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainerC0cdefgH4Impl33_D51FEB6A68E3E202054F6E29D55400B0LLC
++ _symbolic _____ So33HPSSpatialProfileV2EnrollmentStepV
++ _symbolic _____ So33UITraitEnvironmentLayoutDirectionV
++ _symbolic _____ s5Int32V
++ _symbolic _____Sg So33UITraitEnvironmentLayoutDirectionV
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic ypSg
+- GCC_except_table113
+- _OBJC_IVAR_$_BTSFitTestController._leftBudLabelText
+- _OBJC_IVAR_$_BTSFitTestController._rightBudLabelText
+- ___36-[BTSFitTestController startFitTest]_block_invoke.125
+- ___36-[BTSFitTestController startFitTest]_block_invoke.125.cold.1
+- ___36-[BTSFitTestController startFitTest]_block_invoke.125.cold.2
+- ___36-[BTSFitTestController startFitTest]_block_invoke.125.cold.3
+- ___41-[BTSFitTestController sealValueChanged:]_block_invoke.193
+- ___55-[BTDeviceNameEditingController textFieldShouldReturn:]_block_invoke
+- ___55-[BTSDeviceConfigController setFindMyEnable:specifier:]_block_invoke.708
+- ___55-[BTSDeviceConfigController setFindMyEnable:specifier:]_block_invoke.708.cold.1
+- ___59-[BTSDeviceConfigController setCaseSoundEnabled:specifier:]_block_invoke.1564
+- ___64-[BTSDeviceConfigController setOptimizedBatteryChargingEnabled:]_block_invoke.657
+- ___64-[BTSDeviceConfigController setOptimizedBatteryChargingEnabled:]_block_invoke.661
+- ___64-[BTSDeviceConfigController setOptimizedBatteryChargingEnabled:]_block_invoke.661.cold.1
+- ___block_literal_global.139
+- ___block_literal_global.1492
+- ___block_literal_global.1657
+- ___block_literal_global.1659
+- ___block_literal_global.669
+- ___block_literal_global.700
+- _objc_msgSend$shouldShowFindMyNetworkAlert
+- _objc_msgSend$showFindMyNetworkAlert
+CStrings:
++ "\x03J\x11%A\"\x11\xa1\x15\x11"
++ "\x05"
++ "\b\x12"
++ "$__lazy_storage_$_layoutDirection"
++ "-[HPSSpatialProfileSingeStepEnrollmentController didReceiveStateUpdateForSession:stateInfo:]"
++ "-[HPSSpatialProfileSingeStepEnrollmentController startEnrollment]_block_invoke"
++ "@\"BSUICAPackageView\""
++ "@\"HPSSpatialProfileSingleStepCrossHairs\""
++ "@\"HPSSpatialProfileSingleStepPearlEnrollView\""
++ "@\"HPSSpatialProfileSingleStepPillContainerView\""
++ "@\"HPSSpatialProfileSingleStepSoundHapticManager\""
++ "@\"_TtC16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainer\""
++ "@40@0:8q16@24@32"
++ "A3085"
++ "AVAudioPlayerDelegate"
++ "CELL_LABEL_OFF"
++ "CELL_LABEL_ON"
++ "Failed with reason: %@"
++ "Fatal error"
++ "HPSProductUtils: Cannot check if is AirPods, Null Device pointer"
++ "HPSProductUtils: isAirPods:%i productID:%i"
++ "HPSSpatialProfileSingeStepEnrollmentController"
++ "HPSSpatialProfileSingeStepEnrollmentController.m"
++ "HPSSpatialProfileSingleStepCrossHairs"
++ "HPSSpatialProfileSingleStepPearlEnrollView"
++ "HPSSpatialProfileSingleStepPearlMovieLoopView"
++ "HPSSpatialProfileSingleStepPillContainerView"
++ "HPSSpatialProfileSingleStepSoundHapticManager"
++ "HPSVisionOSSubtitleOnOffIndicatorCellDisabledKey"
++ "HPSVisionOSSubtitleOnOffIndicatorCellOnOffKey"
++ "HRTF_Tutorial_A"
++ "HeadphoneConfigs.HPSHeaderView"
++ "HeadphoneConfigs.HPSSpatialProfileSingleStepBottomContainer"
++ "HeadphoneConfigs/HPSSpatialProfileSingleStepBottomContainer.swift"
++ "HeadphoneConfigs/HPSVisionOSSubtitleOnOffIndicatorCell.swift"
++ "I"
++ "Internal"
++ "JwLB44/jEB8aFDpXQ16Tuw"
++ "Lines_Layout"
++ "Max"
++ "Min"
++ "PSAEnrollmentSingleStep"
++ "Path to play: %@"
++ "SINGLE_STEP_FRONT_VIEW"
++ "SINGLE_STEP_FRONT_VIEW_CAPTURE"
++ "SINGLE_STEP_FRONT_VIEW_CAPTURE_DETAIL"
++ "SINGLE_STEP_FRONT_VIEW_DETAIL"
++ "SINGLE_STEP_FRONT_VIEW_POSITION_YOUR_FACE"
++ "SINGLE_STEP_OCCLUSION_EAR_DETAIL"
++ "SINGLE_STEP_START_FRONT_VIEW_CAPTURE"
++ "SPATIAL_AUDIO_DETAIL_REALITYDEVICE_AIRPODS"
++ "SPATIAL_AUDIO_DETAIL_REALITYDEVICE_BEATS"
++ "SPATIAL_AUDIO_GROUP_ID_A2DP"
++ "Spatial Profile: Ear Occlusion changed to %s current number of entries %lu UI supressed = %d"
++ "Spatial Profile: Early exit for transitionToFrontPositionFace with out incoming or out going objects."
++ "Spatial Profile: HPSSpatialProfileEarCaptureStep_First complete sound played"
++ "Spatial Profile: HRTF backing data array: %@"
++ "Spatial Profile: Single step enrollment started."
++ "Spatial Profile: fillPill Index: %lu"
++ "Spatial Profile: index:%lu, layer name: %@, left progress index:%lu, right progress index: %lu"
++ "Spatial Profile: unable to construct copied detailed label for headerview"
++ "Spatial Profile: unable to copy detailed label for headerview"
++ "Spatial Profile: unable to fetch detailed label for headerview"
++ "Spatial Profile: updateCurrentTrackingEar left:%@  right: %@  box: %@  status:%i tracker:%lu"
++ "Spatial Profile: video tutorial played"
++ "Spatial_Profile_Single_Step_First_Ear_Completed"
++ "Spatial_Profile_Single_Step_Scan_Completed"
++ "Spatial_Profile_Single_Step_Second_Ear_Completed"
++ "T@\"AVPlayerLayer\",&,N,V_playerLayer"
++ "T@\"AVPlayerLooper\",&,N,V_playerLooper"
++ "T@\"AVQueuePlayer\",&,N,V_videoPlayer"
++ "T@\"BSUICAPackageView\",&,N,V_micaView"
++ "T@\"HPSSpatialProfileSingleStepPearlMovieLoopView\",&,N"
++ "T@\"NSArray\",&,N,V_layerMappingLeft"
++ "T@\"NSArray\",&,N,V_layerMappingRight"
++ "T@\"NSMutableArray\",&,N,V_pillsAnimatedStatusArray"
++ "T@\"NSMutableArray\",&,N,V_pillsStatusArray"
++ "T@\"NSString\",N,R"
++ "T@\"OBBoldTrayButton\",N,R"
++ "T@\"OBBoldTrayButton\",N,R,VcontinueButton"
++ "T@\"OBHeaderView\",N,R"
++ "T@\"UILabel\",N,R"
++ "T@\"UILabel\",N,R,VlearnMoreView"
++ "T@\"UIScrollView\",N,R"
++ "T@\"UIScrollView\",N,R,VscrollView"
++ "T@\"UIStackView\",N,R"
++ "T@\"UIStackView\",N,R,VstackContainerView"
++ "T@\"UIView\",N,R"
++ "T@\"UIView\",N,R,VbuttonTray"
++ "T@\"UIView\",N,R,VspacerViewFirst"
++ "T@\"UIView\",N,R,VspacerViewSecond"
++ "T@\"UIVisualEffectView\",N,R"
++ "T@\"UIVisualEffectView\",N,R,VbuttonTrayEffectView"
++ "T@\"_TtC16HeadphoneConfigsP33_D51FEB6A68E3E202054F6E29D55400B013HPSHeaderView\",N,R,VinfoView"
++ "TQ,N,V_leftPillIndex"
++ "TQ,N,V_middleMinusOne"
++ "TQ,N,V_middlePlusOne"
++ "TQ,N,V_middleZero"
++ "TQ,N,V_rightPillIndex"
++ "_TtC16HeadphoneConfigs37HPSVisionOSSubtitleOnOffIndicatorCell"
++ "_TtC16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainer"
++ "_TtC16HeadphoneConfigsP33_D51FEB6A68E3E202054F6E29D55400B013HPSHeaderView"
++ "_TtCC16HeadphoneConfigs42HPSSpatialProfileSingleStepBottomContainerP33_D51FEB6A68E3E202054F6E29D55400B046HPSSpatialProfileSingleStepBottomContainerImpl"
++ "_bottomContainerView"
++ "_completedPosesCount"
++ "_enrollLooplayer"
++ "_enrollViewState"
++ "_enrollmentFirstPhaseComplete"
++ "_enrollmentHalfDonePlayer"
++ "_faceTooCloseErrorShowing"
++ "_layerMappingLeft"
++ "_layerMappingRight"
++ "_leftBudLabelImageView"
++ "_leftPillIndex"
++ "_micaView"
++ "_middleMinusOne"
++ "_middlePlusOne"
++ "_middleZero"
++ "_nudgeIfNecessary"
++ "_offScreenBottomContainerView"
++ "_pillContainerView"
++ "_pillsAnimatedStatusArray"
++ "_pillsStatusArray"
++ "_playerLooper"
++ "_preferredFontForTextStyle:weight:"
++ "_rightBudLabelImageView"
++ "_rightPillIndex"
++ "_setBadgeFont:"
++ "_setBadgeText:"
++ "_setCaseSoundModeInProgress"
++ "_videoPlayer"
++ "addA2DPDisclosureUISpecifier"
++ "archivedDataWithRootObject:requiringSecureCoding:error:"
++ "audioPlayerBeginInterruption:"
++ "audioPlayerDecodeErrorDidOccur:error:"
++ "audioPlayerDidFinishPlaying:successfully:"
++ "audioPlayerEndInterruption:"
++ "audioPlayerEndInterruption:withFlags:"
++ "audioPlayerEndInterruption:withOptions:"
++ "bottomContainerImpl"
++ "budInEarString"
++ "buttonTrayEffectView"
++ "cellDisabledKey"
++ "center"
++ "connectedScenes"
++ "continueButton"
++ "createPlayerWithFileName:"
++ "decodeObjectForKey:"
++ "fillPill:withCompletion:"
++ "hideAVPlayerReplaceWithSnapshot"
++ "hideVideoPlayer"
++ "hpsDetailedLabel"
++ "https://support.apple.com/ht213920?cid=mc-ols-visionpro-article_ht213920-visionos_ui-09182023"
++ "imageWithTintColor:renderingMode:"
++ "infoView"
++ "init(coder:) has not been implemented"
++ "init(frame:)"
++ "init(title:detailText:symbolName:)"
++ "initForReadingFromData:error:"
++ "initWithBool:"
++ "initWithBudsInEarString:"
++ "initWithCoder:"
++ "initWithPackageName:inBundle:"
++ "initWithStyle:reuseIdentifier:specifier:"
++ "initWithTitle:detailText:symbolName:"
++ "initWithURL:"
++ "isAirPods:"
++ "isKeyWindow"
++ "isPlaying"
++ "layerClass"
++ "layerMappingLeft"
++ "layerMappingRight"
++ "layoutDirection"
++ "learnMoreView"
++ "left.circle.fill"
++ "leftPillIndex"
++ "leftSectionCompletedPillsPercent"
++ "left_1"
++ "left_10"
++ "left_11"
++ "left_12"
++ "left_13"
++ "left_14"
++ "left_2"
++ "left_3"
++ "left_4"
++ "left_5"
++ "left_6"
++ "left_7"
++ "left_8"
++ "left_9"
++ "load"
++ "localizedDescription"
++ "micaView"
++ "mid_0"
++ "middleMinusOne"
++ "middlePlusOne"
++ "middleZero"
++ "moveToEnrollmentFromStep:toStep:"
++ "moveToEnrollmentFromStep:toStep:animateInAlongSide:animateOutAlongSide:animatedCompletion:"
++ "moveToEnrollmentFromStep:toStep:completionAction:"
++ "mutableCopy"
++ "offScreenDetailedLabel"
++ "offscreenBottomContainerImpl"
++ "onOffKey"
++ "pillsAnimatedStatusArray"
++ "pillsStatusArray"
++ "playImmediatelyAtRate:"
++ "playerLayer"
++ "playerLooper"
++ "playerLooperWithPlayer:templateItem:"
++ "publishedObjectWithName:"
++ "right.circle.fill"
++ "rightPillIndex"
++ "rightSectionCompletedPillsPercent"
++ "right_1"
++ "right_10"
++ "right_11"
++ "right_12"
++ "right_13"
++ "right_14"
++ "right_2"
++ "right_3"
++ "right_4"
++ "right_5"
++ "right_6"
++ "right_7"
++ "right_8"
++ "right_9"
++ "scrollView"
++ "secondaryLabelColor"
++ "setAccessoryType:"
++ "setAllowsExternalPlayback:"
++ "setAlphaHideOnZero:"
++ "setCategory:withOptions:error:"
++ "setCurrentTime:"
++ "setHoverStyle:"
++ "setLayerMappingLeft:"
++ "setLayerMappingRight:"
++ "setLeftPillIndex:"
++ "setMicaView:"
++ "setMiddleMinusOne:"
++ "setMiddlePlusOne:"
++ "setMiddleZero:"
++ "setMuted:"
++ "setObject:atIndexedSubscript:"
++ "setPillsAnimatedStatusArray:"
++ "setPillsStatusArray:"
++ "setPlayerLayer:"
++ "setPlayerLooper:"
++ "setRequiresSecureCoding:"
++ "setRightPillIndex:"
++ "setState:onLayer:animated:transitionSpeed:completion:"
++ "setTutorialMovieView:"
++ "setVideoPlayer:"
++ "setVolume:"
++ "showContinueButton:"
++ "showVideoPlayer"
++ "spacerViewFirst"
++ "spacerViewSecond"
++ "stackContainerView"
++ "startEnrollLoop"
++ "stopEnrollLoop"
++ "subviews"
++ "tertiaryLabelColor"
++ "tonal_loop"
++ "tutorialMovieView"
++ "unhideAVPlayerRemoveSnapshot"
++ "updateContinueButtonActionWithTarget:selector:"
++ "updateContinueButtonTitleWithTitle:"
++ "updateEnrollLoopVolume:"
++ "updatePillsForPoseStatus:pillCount:alongSideAction:"
++ "use init with frame"
++ "userDidTapSpatialA2DPLatencyDisclosure:"
++ "v16@?0@?<v@?>8"
++ "v24@0:8@\"AVAudioPlayer\"16"
++ "v28@0:8@\"AVAudioPlayer\"16B24"
++ "v32@0:8@\"AVAudioPlayer\"16@\"NSError\"24"
++ "v32@0:8@\"AVAudioPlayer\"16Q24"
++ "v32@0:8@16:24"
++ "v32@0:8@16Q24"
++ "v32@0:8i16i20@?24"
++ "v40@0:8@16^I24@?32"
++ "v48@0:8i16i20^@24^@32@?40"
++ "videoPlayer"
++ "windows"
+- "INTERNAL"
+- "L"
+- "R"
+- "_leftBudLabelText"
+- "_rightBudLabelText"
+
+```

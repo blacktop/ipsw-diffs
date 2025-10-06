@@ -1,0 +1,350 @@
+## AppDistribution
+
+> `/System/Library/PrivateFrameworks/AppDistribution.framework/AppDistribution`
+
+```diff
+
+-1.4.81.9.6
+-  __TEXT.__text: 0x5a25c
+-  __TEXT.__auth_stubs: 0x10c0
+-  __TEXT.__objc_methlist: 0xf0
+-  __TEXT.__const: 0x8adc
+-  __TEXT.__cstring: 0x1a0a
+-  __TEXT.__swift5_typeref: 0x1f43
+-  __TEXT.__swift5_fieldmd: 0x1ca0
+-  __TEXT.__constg_swiftt: 0x1980
++1.5.10.2.6
++  __TEXT.__text: 0x5bc18
++  __TEXT.__auth_stubs: 0x11b0
++  __TEXT.__objc_methlist: 0x100
++  __TEXT.__const: 0x87ec
++  __TEXT.__cstring: 0x1baa
++  __TEXT.__swift5_typeref: 0x1ed1
++  __TEXT.__swift5_fieldmd: 0x1c44
++  __TEXT.__constg_swiftt: 0x1930
+   __TEXT.__swift5_builtin: 0xb4
+-  __TEXT.__swift5_reflstr: 0xcdd
+-  __TEXT.__swift5_proto: 0x91c
+-  __TEXT.__swift5_types: 0x2b4
+-  __TEXT.__swift5_mpenum: 0x40
+-  __TEXT.__swift5_capture: 0x154
+-  __TEXT.__swift5_assocty: 0x60
++  __TEXT.__swift5_reflstr: 0xced
++  __TEXT.__swift5_proto: 0x8f0
++  __TEXT.__swift5_types: 0x2ac
++  __TEXT.__swift5_mpenum: 0x38
++  __TEXT.__swift5_capture: 0xf8
++  __TEXT.__swift5_assocty: 0x78
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x35b4
+-  __TEXT.__eh_frame: 0x2ed0
++  __TEXT.__unwind_info: 0x3184
++  __TEXT.__eh_frame: 0x2b40
+   __TEXT.__objc_classname: 0x3b
+-  __TEXT.__objc_methname: 0x759
++  __TEXT.__objc_methname: 0x7b6
+   __TEXT.__objc_methtype: 0xff
+-  __DATA_CONST.__got: 0x228
++  __DATA_CONST.__got: 0x298
+   __DATA_CONST.__const: 0x110
+   __DATA_CONST.__objc_classlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0xae8
+-  __DATA_CONST.__objc_selrefs: 0x208
++  __DATA_CONST.__objc_const: 0xa50
++  __DATA_CONST.__objc_selrefs: 0x230
+   __DATA_CONST.__objc_protorefs: 0x30
+-  __DATA_CONST.__objc_classrefs: 0x70
+-  __AUTH_CONST.__const: 0x5d18
++  __DATA_CONST.__objc_classrefs: 0x78
++  __AUTH_CONST.__const: 0x5d80
+   __AUTH_CONST.__objc_const: 0x90
+-  __AUTH_CONST.__auth_got: 0x860
+-  __AUTH.__data: 0x7f0
+-  __AUTH.__objc_data: 0x3f0
++  __AUTH_CONST.__auth_got: 0x8d8
++  __AUTH.__data: 0x780
++  __AUTH.__objc_data: 0x3e8
+   __DATA.__objc_data: 0x88
+-  __DATA.__data: 0x2008
+-  __DATA.__bss: 0x123e0
++  __DATA.__data: 0x1da0
++  __DATA.__bss: 0xfa50
+   __DATA.__common: 0x30
++  __DATA_DIRTY.__data: 0x3b0
++  __DATA_DIRTY.__bss: 0x2400
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/ManagedAppDistribution.framework/ManagedAppDistribution
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
++  - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/UIKitServices.framework/UIKitServices
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7F113D81-02F0-3A57-B2AD-006360C149F7
+-  Functions: 4015
+-  Symbols:   1213
+-  CStrings:  314
++  UUID: F59DCCFE-13AC-303D-B4EB-7EDB0524C2CF
++  Functions: 3979
++  Symbols:   1214
++  CStrings:  324
+ 
+Symbols:
++ _MKBGetDeviceLockState
++ _OBJC_CLASS_$_NSUnitInformationStorage
++ ___swift_memcpy25_8
++ __swift_stdlib_bridgeErrorToNSError
++ _associated conformance 15AppDistribution0aB5ErrorO018InvalidAlternativeB20PackageURLCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 15AppDistribution0aB5ErrorO018InvalidAlternativeB20PackageURLCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 15AppDistribution0aB5ErrorO018InvalidAlternativeB26PackageSignatureCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 15AppDistribution0aB5ErrorO018InvalidAlternativeB26PackageSignatureCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15AppDistribution0aB5ErrorO19CancelledCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 15AppDistribution0aB5ErrorO19CancelledCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15AppDistribution0aB5ErrorO29UnsupportedPlatformCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 15AppDistribution0aB5ErrorO29UnsupportedPlatformCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15AppDistribution0aB5ErrorO34InsufficientStorageSpaceCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOSHAASQ
++ _associated conformance 15AppDistribution0aB5ErrorO34InsufficientStorageSpaceCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 15AppDistribution0aB5ErrorO34InsufficientStorageSpaceCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15AppDistribution0aB5ErrorO41MissingInstallVerificationTokenCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 15AppDistribution0aB5ErrorO41MissingInstallVerificationTokenCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15AppDistribution22InstallationNSProgressC5StateOSHAASQ
++ _associated conformance 15AppDistribution27PerformPrivateActionRequestV0F0O33RepairLicenseByBundleIDCodingKeys33_DDD142D1288DBF1B02CAB0E8DCD1E7DFLLOSHAASQ
++ _associated conformance 15AppDistribution27PerformPrivateActionRequestV0F0O33RepairLicenseByBundleIDCodingKeys33_DDD142D1288DBF1B02CAB0E8DCD1E7DFLLOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 15AppDistribution27PerformPrivateActionRequestV0F0O33RepairLicenseByBundleIDCodingKeys33_DDD142D1288DBF1B02CAB0E8DCD1E7DFLLOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 15AppDistribution30LaunchAngelConnectionUtilitiesO5ErrorOSHAASQ
++ _block_copy_helper.12
++ _block_copy_helper.29
++ _block_copy_helper.6
++ _block_descriptor.14
++ _block_descriptor.31
++ _block_descriptor.8
++ _block_destroy_helper.13
++ _block_destroy_helper.30
++ _block_destroy_helper.7
++ _objc_release_x9
++ _objc_retain_x21
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _swift_retain_n
++ _symbolic 22ManagedAppDistribution15ServiceProtocol_p_____ACIeghg_Ieghggg_ 10Foundation4DataV
++ _symbolic SS_Sb_____t s5Int32V
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic ScSy_____G 22ManagedAppDistribution0B5StateO
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic So8NSObjectCSg
++ _symbolic _____ 15AppDistribution0aB5ErrorO018InvalidAlternativeB20PackageURLCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____ 15AppDistribution0aB5ErrorO018InvalidAlternativeB26PackageSignatureCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____ 15AppDistribution0aB5ErrorO19CancelledCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____ 15AppDistribution0aB5ErrorO29UnsupportedPlatformCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____ 15AppDistribution0aB5ErrorO34InsufficientStorageSpaceCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____ 15AppDistribution0aB5ErrorO41MissingInstallVerificationTokenCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____ 15AppDistribution22InstallationNSProgressC5StateO
++ _symbolic _____ 15AppDistribution27PerformPrivateActionRequestV0F0O33RepairLicenseByBundleIDCodingKeys33_DDD142D1288DBF1B02CAB0E8DCD1E7DFLLO
++ _symbolic _____ 15AppDistribution30LaunchAngelConnectionUtilitiesO5ErrorO
++ _symbolic _____ 22ManagedAppDistribution05StoreB10IdentifierO
++ _symbolic _____ So16os_unfair_lock_sV
++ _symbolic _____ s6UInt32V
++ _symbolic _____Sg 22ManagedAppDistribution0B5StateO
++ _symbolic _____ySo24NSUnitInformationStorageCG 10Foundation11MeasurementV
++ _symbolic _____y_____5state_ScTyyt_____GSg7xpcTasktG 2os21OSAllocatedUnfairLockV 15AppDistribution22InstallationNSProgressC5StateO s5NeverO
++ _symbolic _____y_____5state_ScTyyt_____GSg7xpcTaskt_____G s13ManagedBufferC 15AppDistribution22InstallationNSProgressC5StateO s5NeverO So16os_unfair_lock_sV
++ _symbolic _____y_____G 22ManagedAppDistribution19AsyncStreamListenerC AA0B5StateO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO018InvalidAlternativeE20PackageURLCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO018InvalidAlternativeE26PackageSignatureCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO19CancelledCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO29UnsupportedPlatformCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO34InsufficientStorageSpaceCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO41MissingInstallVerificationTokenCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution27PerformPrivateActionRequestV0I0O33RepairLicenseByBundleIDCodingKeys33_DDD142D1288DBF1B02CAB0E8DCD1E7DFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO018InvalidAlternativeE20PackageURLCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO018InvalidAlternativeE26PackageSignatureCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO19CancelledCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO29UnsupportedPlatformCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO34InsufficientStorageSpaceCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO41MissingInstallVerificationTokenCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution27PerformPrivateActionRequestV0I0O33RepairLicenseByBundleIDCodingKeys33_DDD142D1288DBF1B02CAB0E8DCD1E7DFLLO
++ _symbolic _____y______G ScS12ContinuationV 22ManagedAppDistribution0C5StateO
++ _symbolic _____y______G ScS8IteratorV 22ManagedAppDistribution0C5StateO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 22ManagedAppDistribution0E5StateO
+- __PROPERTIES__TtC15AppDistribution22InstallationNSProgress
+- ___swift_memcpy21_8
+- _associated conformance 15AppDistribution0aB5ErrorO0A26LaunchProhibitedCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO0A26LaunchProhibitedCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO18CanceledCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO18CanceledCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO23InvalidEDPURLCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs9CodingKeyAAs23CustomStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO23InvalidEDPURLCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs9CodingKeyAAs28CustomDebugStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO23NotAuthorizedCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO23NotAuthorizedCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO23UnsupportedOSCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs9CodingKeyAAs23CustomStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO23UnsupportedOSCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs9CodingKeyAAs28CustomDebugStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO25InvalidResponseCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOSHAASQ
+- _associated conformance 15AppDistribution0aB5ErrorO25InvalidResponseCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO25InvalidResponseCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO26DeviceNotManagedCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO26DeviceNotManagedCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO27InsufficientSpaceCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOSHAASQ
+- _associated conformance 15AppDistribution0aB5ErrorO27InsufficientSpaceCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO27InsufficientSpaceCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO27InvalidIdentifierCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOSHAASQ
+- _associated conformance 15AppDistribution0aB5ErrorO27InvalidIdentifierCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO27InvalidIdentifierCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO28ServiceUnavailableCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO28ServiceUnavailableCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO29InvalidEDPSignatureCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO29InvalidEDPSignatureCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO37MissingProofOfDownloadTokenCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15AppDistribution0aB5ErrorO37MissingProofOfDownloadTokenCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.2
+- _block_copy_helper.5
+- _block_copy_helper.8
+- _block_descriptor.10
+- _block_descriptor.4
+- _block_descriptor.7
+- _block_destroy_helper.3
+- _block_destroy_helper.6
+- _block_destroy_helper.9
+- _objc_retain_x1
+- _objc_retain_x9
+- _swift_allocBox
+- _swift_stdlib_isStackAllocationSafe
+- _swift_unownedRelease
+- _swift_unownedRetain
+- _swift_weakDestroy
+- _swift_weakInit
+- _swift_weakLoadStrong
+- _symbolic IeghH_
+- _symbolic SDy__________G_ShyABGADSbt s6UInt64V 15AppDistribution0B7LibraryC0B0C
+- _symbolic SSSg5field_t
+- _symbolic ScCySDy__________G_ShyABGADSbt_____G s6UInt64V 15AppDistribution0B7LibraryC0B0C s5NeverO
+- _symbolic ScCySDy__________G_ShyABGADSbt_____GSg s6UInt64V 15AppDistribution0B7LibraryC0B0C s5NeverO
+- _symbolic ScCySDy__________G_ShyABGADSbt_____GSgz_Xx s6UInt64V 15AppDistribution0B7LibraryC0B0C s5NeverO
+- _symbolic ScCyyt_____G s5NeverO
+- _symbolic Su
+- _symbolic _____ 15AppDistribution0aB5ErrorO0A26LaunchProhibitedCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____ 15AppDistribution0aB5ErrorO18CanceledCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____ 15AppDistribution0aB5ErrorO23InvalidEDPURLCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____ 15AppDistribution0aB5ErrorO23NotAuthorizedCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____ 15AppDistribution0aB5ErrorO23UnsupportedOSCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____ 15AppDistribution0aB5ErrorO25InvalidResponseCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____ 15AppDistribution0aB5ErrorO26DeviceNotManagedCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____ 15AppDistribution0aB5ErrorO27InsufficientSpaceCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____ 15AppDistribution0aB5ErrorO27InvalidIdentifierCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____ 15AppDistribution0aB5ErrorO28ServiceUnavailableCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____ 15AppDistribution0aB5ErrorO29InvalidEDPSignatureCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____ 15AppDistribution0aB5ErrorO37MissingProofOfDownloadTokenCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____Sg 15AppDistribution0A7LibraryC7AccountV
+- _symbolic _____SgXw 15AppDistribution0A7LibraryC
+- _symbolic _____SgXwz_Xx 15AppDistribution0A7LibraryC
+- _symbolic _____Xo 15AppDistribution0A7LibraryC
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO0D26LaunchProhibitedCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO18CanceledCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO23InvalidEDPURLCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO23NotAuthorizedCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO23UnsupportedOSCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO25InvalidResponseCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO26DeviceNotManagedCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO27InsufficientSpaceCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO27InvalidIdentifierCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO28ServiceUnavailableCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO29InvalidEDPSignatureCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15AppDistribution0dE5ErrorO37MissingProofOfDownloadTokenCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO0D26LaunchProhibitedCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO18CanceledCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO23InvalidEDPURLCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO23NotAuthorizedCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO23UnsupportedOSCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO25InvalidResponseCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO26DeviceNotManagedCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO27InsufficientSpaceCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO27InvalidIdentifierCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO28ServiceUnavailableCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO29InvalidEDPSignatureCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15AppDistribution0dE5ErrorO37MissingProofOfDownloadTokenCodingKeys33_CA0F91CFBA3AF4115069FC1C0E611D0CLLO
+CStrings:
++ ", isUserInitiated: "
++ "Alternative Distribution Package signature verification failed"
++ "An invalid URL was supplied for an Alternative Distribution Package"
++ "Error updating progress: %{public}@"
++ "Install Verification Token is required"
++ "Known app %llu is not installed"
++ "Not implemented in AppDistribution"
++ "Received %ld apps"
++ "Received progress update out of order"
++ "Repair license for bundle ID "
++ "Trying to update app with mismatched app data"
++ "Updating app %llu: isInstalled: %{bool}d, isInstalling: %{bool}d"
++ "[%llu] Got state %{public}s"
++ "[%llu] No longer pausable nor cancelable"
++ "[%llu] Received AppState update after app catalog updated"
++ "[%llu] Received AppState update before app catalog update for installation"
++ "[%llu] Unhandled paused substate: %{public}s"
++ "[%llu] Unknown state: %{public}s"
++ "accountID"
++ "cancel"
++ "cancelInstall:reply:"
++ "completedUnitCount"
++ "edp"
++ "installation: %{bool}d evid: %llu account: %s"
++ "installedMetadata evid: %llu account: %s"
++ "insufficientStorageSpace"
++ "invalidAlternativeDistributionPackageSignature"
++ "invalidAlternativeDistributionPackageURL"
++ "isPausable"
++ "lock"
++ "missingInstallVerificationToken"
++ "oAuthToken"
++ "pause"
++ "pauseInstall:reply:"
++ "referrer"
++ "repairLicenseByBundleID"
++ "resumeInstall:reply:"
++ "setCompletedUnitCount:"
++ "setState %s, sendingToDaemon: %{bool}d"
++ "stringFromMeasurement:countStyle:"
++ "type"
++ "unsupportedPlatform"
++ "v8@?0"
+- "A network request return an invalid response for field \""
+- "A network request returned an invalid response"
+- "An invalid EDP URL was supplied"
+- "Duplicate values for key: '"
+- "EDP signature verification failed"
+- "Proof of download token is required"
+- "Swift/Dictionary.swift"
+- "Swift/NativeDictionary.swift"
+- "The app can't be launched"
+- "The provided identifier \""
+- "The request for managed apps is from an unmanged device"
+- "The service is unavailable"
+- "[AppLibrary] Received %{public}ld apps"
+- "_isCancelled"
+- "_isIndeterminate"
+- "_isPaused"
+- "appLaunchProhibited"
+- "bundleID"
+- "cancelled"
+- "deviceNotManaged"
+- "indeterminate"
+- "insufficientSpace"
+- "invalidEDPSignature"
+- "invalidIdentifier"
+- "isCancelled"
+- "isIndeterminate"
+- "isPaused"
+- "library"
+- "missingProofOfDownloadToken"
+- "paused"
+- "serviceUnavailable"
+- "stringFromByteCount:countStyle:"
+- "waitUntilLoaded()"
+
+```

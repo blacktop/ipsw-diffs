@@ -1,0 +1,92 @@
+## libswiftSwiftOnoneSupport.dylib
+
+> `/usr/lib/swift/libswiftSwiftOnoneSupport.dylib`
+
+```diff
+
+-5.9.2.2.12
+-  __TEXT.__text: 0x233c0
+-  __TEXT.__auth_stubs: 0x1d0
++5.10.0.12.5
++  __TEXT.__text: 0x22d9c
++  __TEXT.__auth_stubs: 0x1c0
+   __TEXT.__cstring: 0x6e8
+   __TEXT.__swift5_typeref: 0xfc
+   __TEXT.__swift5_types: 0x8
+   __TEXT.__const: 0x18
+-  __TEXT.__unwind_info: 0x878
+-  __TEXT.__eh_frame: 0x1270
++  __TEXT.__unwind_info: 0x8c8
++  __TEXT.__eh_frame: 0x13f8
+   __DATA_CONST.__got: 0xa8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __AUTH_CONST.__const: 0x78
+-  __AUTH_CONST.__auth_got: 0xe8
++  __AUTH_CONST.__auth_got: 0xe0
+   __DATA.__data: 0x98
+   __DATA_DIRTY.__const: 0x98
+   __DATA_DIRTY.__data: 0x10
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+-  UUID: 7658BCD2-5F3F-31D4-83EC-9262AE5DEB54
+-  Functions: 1850
+-  Symbols:   2439
++  UUID: 69CE002A-9629-355E-BEC1-37315EA224A8
++  Functions: 1831
++  Symbols:   2400
+   CStrings:  37
+ 
+Symbols:
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZs6UInt64V_Tgm5Tm
++ _$sSa9removeAll15keepingCapacityySb_tFSS_Tg5Tm
++ _$sSa9removeAll15keepingCapacityySb_tFs5UInt8V_Tg5Tm
++ _$sSa9removeAll15keepingCapacityySb_tFs6UInt16V_Tg5Tm
++ _$sSa9removeAll15keepingCapacityySb_tFs6UInt32V_Tg5Tm
++ _$sSa9removeAll15keepingCapacityySb_tFs7UnicodeO6ScalarV_Tg5Tm
++ _$ss12_findNextRun2in4from2by5IndexQz3end_Sb10descendingtx_AFSb7ElementQz_AJtKXEtKSkRzlFSrySdG_Tg5
++ _$ss12_findNextRun2in4from2by5IndexQz3end_Sb10descendingtx_AFSb7ElementQz_AJtKXEtKSkRzlFSrySfG_Tg5
++ _$ss12_findNextRun2in4from2by5IndexQz3end_Sb10descendingtx_AFSb7ElementQz_AJtKXEtKSkRzlFSrys5UInt8VG_Tg5Tm
++ _$ss12_findNextRun2in4from2by5IndexQz3end_Sb10descendingtx_AFSb7ElementQz_AJtKXEtKSkRzlFSrys6UInt16VG_Tg5Tm
++ _$ss12_findNextRun2in4from2by5IndexQz3end_Sb10descendingtx_AFSb7ElementQz_AJtKXEtKSkRzlFSrys6UInt32VG_Tg5Tm
++ _$ss12_findNextRun2in4from2by5IndexQz3end_Sb10descendingtx_AFSb7ElementQz_AJtKXEtKSkRzlFSrys6UInt64VG_Tg5Tm
++ _$ss12_findNextRun2in4from2by5IndexQz3end_Sb10descendingtx_AFSb7ElementQz_AJtKXEtKSkRzlFSrys7UnicodeO6ScalarVG_Tg5
++ _$ss12_findNextRun2in4from2by5IndexQz3end_Sb10descendingtx_AFSb7ElementQz_AJtKXEtKSkRzlFSryypG_Tg5
++ _swift_getTypeByMangledNameInContext2
+- _$sSa15_checkSubscript_20wasNativeTypeCheckeds16_DependenceTokenVSi_SbtFSnySiG_Tgq5
+- _$sSa15_checkSubscript_20wasNativeTypeCheckeds16_DependenceTokenVSi_SbtFs6UInt64V_Tg5Tm
+- _$sSa24_checkSubscript_mutatingyySiFSnySiG_Tgq5
+- _$sSa30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFSS17UnicodeScalarViewV_ytTg5
+- _$sSa30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFSS_ytTg5
+- _$sSa30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFSi_ytTg5
+- _$sSa30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFSu_ytTg5
+- _$sSa30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFs4Int8V_ytTg5
+- _$sSa30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFs5Int16V_ytTg5
+- _$sSa30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFs5Int32V_ytTg5
+- _$sSa30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFs5Int64V_ytTg5
+- _$sSa30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFs5UInt8V_ytTg5
+- _$sSa30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFs6UInt16V_ytTg5
+- _$sSa30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFs6UInt32V_ytTg5
+- _$sSa6remove2atxSi_tFSnySiG_Tgq5
+- _$sSa9formIndex5afterySiz_tFs6UInt64V_Tg5Tm
+- _$sSa9formIndex6beforeySiz_tFs6UInt64V_Tg5Tm
+- _$sSa9removeAll15keepingCapacityySb_tFs4Int8V_Tg5Tm
+- _$sSa9removeAll15keepingCapacityySb_tFyp_Tg5Tm
+- _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index5afterA2B_tFs12_ArrayBufferVys6UInt64VG_Tg5Tm
+- _$ss12_ArrayBufferVyxSicigSS_Tg5Tm
+- _$ss15ContiguousArrayV04withA25MutableStorageIfAvailableyqd__Sgqd__SryxGzKXEKlFyp_ytTg5063$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15aB9VyypG_Tg5xq_Sbs5Error_pr0_lyypypIsgnndzo_Tf1cn_nTf4ng_nTm
+- _$ss15ContiguousArrayV30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFSS17UnicodeScalarViewV_ytTg5
+- _$ss15ContiguousArrayV30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFSS_ytTg5
+- _$ss15ContiguousArrayV30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFSi_ytTg5
+- _$ss15ContiguousArrayV30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFSu_ytTg5
+- _$ss15ContiguousArrayV30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFs4Int8V_ytTg5
+- _$ss15ContiguousArrayV30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFs5Int16V_ytTg5
+- _$ss15ContiguousArrayV30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFs5Int32V_ytTg5
+- _$ss15ContiguousArrayV30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFs5Int64V_ytTg5
+- _$ss15ContiguousArrayV30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFs5UInt8V_ytTg5
+- _$ss15ContiguousArrayV30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFs6UInt16V_ytTg5
+- _$ss15ContiguousArrayV30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lFs6UInt32V_ytTg5
+- _swift_getTypeByMangledNameInContext
+- _swift_unknownObjectRetain
+
+```

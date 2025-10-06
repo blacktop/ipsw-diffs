@@ -1,0 +1,382 @@
+## PersonalizationPortraitInternals
+
+> `/System/Library/PrivateFrameworks/PersonalizationPortraitInternals.framework/PersonalizationPortraitInternals`
+
+```diff
+
+-1226.0.1.0.0
+-  __TEXT.__text: 0x199c88
++1226.2.2.1.0
++  __TEXT.__text: 0x199d9c
+   __TEXT.__auth_stubs: 0x1b40
+   __TEXT.__objc_methlist: 0x137a0
+   __TEXT.__const: 0xb06
+
+   __TEXT.__swift5_protos: 0x10
+   __TEXT.__swift5_proto: 0x64
+   __TEXT.__gcc_except_tab: 0x7de4
+-  __TEXT.__oslogstring: 0x1b10a
++  __TEXT.__oslogstring: 0x1b1bb
+   __TEXT.__dlopen_cstrs: 0x302
+   __TEXT.__ustring: 0x1e
+-  __TEXT.__unwind_info: 0x5938
++  __TEXT.__unwind_info: 0x593c
+   __TEXT.__eh_frame: 0x298
+   __TEXT.__objc_classname: 0x24f7
+   __TEXT.__objc_methname: 0x2250d
+
+   __DATA.__objc_classrefs: 0x1160
+   __DATA.__objc_superrefs: 0x718
+   __DATA.__objc_ivar: 0x1264
+-  __DATA.__data: 0x1618
+-  __DATA.__bss: 0x360
++  __DATA.__data: 0x1758
++  __DATA.__bss: 0x400
+   __DATA_DIRTY.__objc_data: 0x56c0
+-  __DATA_DIRTY.__data: 0x5c8
++  __DATA_DIRTY.__data: 0x488
+   __DATA_DIRTY.__common: 0x30
+-  __DATA_DIRTY.__bss: 0x6e0
++  __DATA_DIRTY.__bss: 0x640
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3AAEDAF8-F6BC-3FE7-A15C-F95FC85DEBEF
++  UUID: 40DF06DD-65B8-3350-A2E2-341891B03C21
+   Functions: 8923
+   Symbols:   26757
+-  CStrings:  14427
++  CStrings:  14429
+ 
+Symbols:
++ _CoreSuggestionsLibraryCore.frameworkLibrary.26111
++ _HealthKitLibraryCore.frameworkLibrary.22788
++ ___Block_byref_object_copy_.18764
++ ___Block_byref_object_copy_.19376
++ ___Block_byref_object_copy_.19540
++ ___Block_byref_object_copy_.20276
++ ___Block_byref_object_copy_.20583
++ ___Block_byref_object_copy_.21798
++ ___Block_byref_object_copy_.22384
++ ___Block_byref_object_copy_.22778
++ ___Block_byref_object_copy_.22909
++ ___Block_byref_object_copy_.24485
++ ___Block_byref_object_copy_.24679
++ ___Block_byref_object_copy_.25450
++ ___Block_byref_object_copy_.26985
++ ___Block_byref_object_copy_.27380
++ ___Block_byref_object_dispose_.18765
++ ___Block_byref_object_dispose_.19377
++ ___Block_byref_object_dispose_.19541
++ ___Block_byref_object_dispose_.20277
++ ___Block_byref_object_dispose_.20584
++ ___Block_byref_object_dispose_.21799
++ ___Block_byref_object_dispose_.22385
++ ___Block_byref_object_dispose_.22779
++ ___Block_byref_object_dispose_.22910
++ ___Block_byref_object_dispose_.24486
++ ___Block_byref_object_dispose_.24680
++ ___Block_byref_object_dispose_.25451
++ ___Block_byref_object_dispose_.26986
++ ___Block_byref_object_dispose_.27381
++ ___CoreSuggestionsLibraryCore_block_invoke.26112
++ ___HealthKitLibraryCore_block_invoke.22789
++ ___block_literal_global.106.20044
++ ___block_literal_global.134.21342
++ ___block_literal_global.138.19705
++ ___block_literal_global.139.20278
++ ___block_literal_global.139.21323
++ ___block_literal_global.141.19702
++ ___block_literal_global.141.20279
++ ___block_literal_global.143.20280
++ ___block_literal_global.145.21327
++ ___block_literal_global.171.25233
++ ___block_literal_global.18214
++ ___block_literal_global.18262
++ ___block_literal_global.18321
++ ___block_literal_global.18413
++ ___block_literal_global.18800
++ ___block_literal_global.19208
++ ___block_literal_global.19389
++ ___block_literal_global.19493
++ ___block_literal_global.19725
++ ___block_literal_global.19893
++ ___block_literal_global.20080
++ ___block_literal_global.20368
++ ___block_literal_global.20819
++ ___block_literal_global.213.24800
++ ___block_literal_global.21339
++ ___block_literal_global.21642
++ ___block_literal_global.21939
++ ___block_literal_global.222.27402
++ ___block_literal_global.22220
++ ___block_literal_global.22375
++ ___block_literal_global.22793
++ ___block_literal_global.23207
++ ___block_literal_global.23392
++ ___block_literal_global.23517
++ ___block_literal_global.24294
++ ___block_literal_global.24820
++ ___block_literal_global.24963
++ ___block_literal_global.25268
++ ___block_literal_global.26028
++ ___block_literal_global.26128
++ ___block_literal_global.26415
++ ___block_literal_global.26546
++ ___block_literal_global.26992
++ ___block_literal_global.27.18208
++ ___block_literal_global.27.24315
++ ___block_literal_global.27438
++ ___block_literal_global.284.21859
++ ___block_literal_global.287.21856
++ ___block_literal_global.295.22026
++ ___block_literal_global.303.23150
++ ___block_literal_global.321.23121
++ ___block_literal_global.33.18760
++ ___block_literal_global.341.23068
++ ___block_literal_global.36.18752
++ ___block_literal_global.368.23016
++ ___block_literal_global.62.21647
++ ___block_literal_global.64.19311
++ ___block_literal_global.64.21648
++ ___block_literal_global.67.19181
++ ___block_literal_global.70.18172
++ ___block_literal_global.72.19484
++ ___block_literal_global.79.20069
++ ___block_literal_global.86.20053
++ ___block_literal_global.86.25255
++ ___block_literal_global.87.19729
++ ___block_literal_global.98.24974
++ ___getHKHealthStoreClass_block_invoke.22798
++ __deletionQueue._onceToken.21858
++ __deletionQueue._pasExprOnceResult.21860
++ __shouldSuppressRepeatedImpressions:._onceToken.21899
++ __shouldSuppressRepeatedImpressions:._pasExprOnceResult.21900
++ __unnamed_array_storage.103.22725
++ __unnamed_array_storage.103.24130
++ __unnamed_array_storage.149.22699
++ __unnamed_array_storage.189.22683
++ __unnamed_array_storage.19695
++ __unnamed_array_storage.19898
++ __unnamed_array_storage.2.19899
++ __unnamed_array_storage.2.22226
++ __unnamed_array_storage.2.26034
++ __unnamed_array_storage.22225
++ __unnamed_array_storage.22769
++ __unnamed_array_storage.24134
++ __unnamed_array_storage.24570
++ __unnamed_array_storage.24691
++ __unnamed_array_storage.25909
++ __unnamed_array_storage.26033
++ __unnamed_array_storage.604.22561
++ __unnamed_array_storage.612.22555
++ __unnamed_array_storage.620.22552
++ __unnamed_array_storage.628.22546
++ __unnamed_array_storage.660.22534
++ __unnamed_array_storage.668.22528
++ __unnamed_array_storage.676.22521
++ _audit_stringCoreSuggestions.26125
++ _audit_stringHealthKit.22792
++ _configLock.25913
++ _defaultInstance._onceToken.25289
++ _defaultInstance._pasExprOnceResult.25290
++ _defaultStorage._onceToken.27036
++ _defaultStorage._pasExprOnceResult.27037
++ _defaultStore._onceToken.18320
++ _defaultStore._pasExprOnceResult.18322
++ _defaultStore.instance.20822
++ _defaultStore.instance.21239
++ _defaultStore.instance.27501
++ _defaultStore.lock.20821
++ _defaultStore.lock.21238
++ _defaultStore.lock.27500
++ _getHKHealthStoreClass.softClass.22797
++ _options.once.19892
++ _options.once.22219
++ _options.once.26027
++ _options.sOptions.19894
++ _options.sOptions.22221
++ _options.sOptions.26029
++ _sharedInstance._onceToken.18412
++ _sharedInstance._pasExprOnceResult.18414
++ _sharedInstance.instance.22408
++ _sharedInstance.instance.24590
++ _sharedInstance.lock.22407
++ _sharedInstance.lock.24589
++ _sharedInstance.once.18799
++ _sharedInstance.once.19388
++ _sharedInstance.once.26414
++ _sharedInstance.shared.18801
++ _sharedInstance.shared.19390
++ _sharedInstance.shared.24167
++ _sharedInstance.shared.26416
+- _CoreSuggestionsLibraryCore.frameworkLibrary.26109
+- _HealthKitLibraryCore.frameworkLibrary.22786
+- ___Block_byref_object_copy_.18762
+- ___Block_byref_object_copy_.19374
+- ___Block_byref_object_copy_.19538
+- ___Block_byref_object_copy_.20274
+- ___Block_byref_object_copy_.20581
+- ___Block_byref_object_copy_.21796
+- ___Block_byref_object_copy_.22382
+- ___Block_byref_object_copy_.22776
+- ___Block_byref_object_copy_.22907
+- ___Block_byref_object_copy_.24483
+- ___Block_byref_object_copy_.24677
+- ___Block_byref_object_copy_.25448
+- ___Block_byref_object_copy_.26983
+- ___Block_byref_object_copy_.27378
+- ___Block_byref_object_dispose_.18763
+- ___Block_byref_object_dispose_.19375
+- ___Block_byref_object_dispose_.19539
+- ___Block_byref_object_dispose_.20275
+- ___Block_byref_object_dispose_.20582
+- ___Block_byref_object_dispose_.21797
+- ___Block_byref_object_dispose_.22383
+- ___Block_byref_object_dispose_.22777
+- ___Block_byref_object_dispose_.22908
+- ___Block_byref_object_dispose_.24484
+- ___Block_byref_object_dispose_.24678
+- ___Block_byref_object_dispose_.25449
+- ___Block_byref_object_dispose_.26984
+- ___Block_byref_object_dispose_.27379
+- ___CoreSuggestionsLibraryCore_block_invoke.26110
+- ___HealthKitLibraryCore_block_invoke.22787
+- ___block_literal_global.106.20042
+- ___block_literal_global.134.21340
+- ___block_literal_global.138.19703
+- ___block_literal_global.139.20276
+- ___block_literal_global.139.21321
+- ___block_literal_global.141.19700
+- ___block_literal_global.141.20277
+- ___block_literal_global.143.20278
+- ___block_literal_global.145.21325
+- ___block_literal_global.171.25231
+- ___block_literal_global.18212
+- ___block_literal_global.18260
+- ___block_literal_global.18319
+- ___block_literal_global.18411
+- ___block_literal_global.18798
+- ___block_literal_global.19206
+- ___block_literal_global.19387
+- ___block_literal_global.19491
+- ___block_literal_global.19723
+- ___block_literal_global.19891
+- ___block_literal_global.20078
+- ___block_literal_global.20366
+- ___block_literal_global.20817
+- ___block_literal_global.213.24798
+- ___block_literal_global.21337
+- ___block_literal_global.21640
+- ___block_literal_global.21937
+- ___block_literal_global.222.27400
+- ___block_literal_global.22218
+- ___block_literal_global.22373
+- ___block_literal_global.22791
+- ___block_literal_global.23205
+- ___block_literal_global.23390
+- ___block_literal_global.23515
+- ___block_literal_global.24292
+- ___block_literal_global.24818
+- ___block_literal_global.24961
+- ___block_literal_global.25266
+- ___block_literal_global.26026
+- ___block_literal_global.26126
+- ___block_literal_global.26413
+- ___block_literal_global.26544
+- ___block_literal_global.26990
+- ___block_literal_global.27.18206
+- ___block_literal_global.27.24313
+- ___block_literal_global.27436
+- ___block_literal_global.284.21857
+- ___block_literal_global.287.21854
+- ___block_literal_global.295.22024
+- ___block_literal_global.303.23148
+- ___block_literal_global.321.23119
+- ___block_literal_global.33.18758
+- ___block_literal_global.341.23066
+- ___block_literal_global.36.18750
+- ___block_literal_global.368.23014
+- ___block_literal_global.62.21645
+- ___block_literal_global.64.19309
+- ___block_literal_global.64.21646
+- ___block_literal_global.67.19179
+- ___block_literal_global.70.18171
+- ___block_literal_global.72.19482
+- ___block_literal_global.79.20067
+- ___block_literal_global.86.20051
+- ___block_literal_global.86.25253
+- ___block_literal_global.87.19727
+- ___block_literal_global.98.24972
+- ___getHKHealthStoreClass_block_invoke.22796
+- __deletionQueue._onceToken.21856
+- __deletionQueue._pasExprOnceResult.21858
+- __shouldSuppressRepeatedImpressions:._onceToken.21897
+- __shouldSuppressRepeatedImpressions:._pasExprOnceResult.21898
+- __unnamed_array_storage.103.22723
+- __unnamed_array_storage.103.24128
+- __unnamed_array_storage.149.22697
+- __unnamed_array_storage.189.22681
+- __unnamed_array_storage.19693
+- __unnamed_array_storage.19896
+- __unnamed_array_storage.2.19897
+- __unnamed_array_storage.2.22224
+- __unnamed_array_storage.2.26032
+- __unnamed_array_storage.22223
+- __unnamed_array_storage.22767
+- __unnamed_array_storage.24132
+- __unnamed_array_storage.24568
+- __unnamed_array_storage.24689
+- __unnamed_array_storage.25907
+- __unnamed_array_storage.26031
+- __unnamed_array_storage.604.22559
+- __unnamed_array_storage.612.22553
+- __unnamed_array_storage.620.22550
+- __unnamed_array_storage.628.22544
+- __unnamed_array_storage.660.22532
+- __unnamed_array_storage.668.22526
+- __unnamed_array_storage.676.22519
+- _audit_stringCoreSuggestions.26123
+- _audit_stringHealthKit.22790
+- _configLock.25911
+- _defaultInstance._onceToken.25287
+- _defaultInstance._pasExprOnceResult.25288
+- _defaultStorage._onceToken.27034
+- _defaultStorage._pasExprOnceResult.27035
+- _defaultStore._onceToken.18318
+- _defaultStore._pasExprOnceResult.18320
+- _defaultStore.instance.20820
+- _defaultStore.instance.21237
+- _defaultStore.instance.27499
+- _defaultStore.lock.20819
+- _defaultStore.lock.21236
+- _defaultStore.lock.27498
+- _getHKHealthStoreClass.softClass.22795
+- _options.once.19890
+- _options.once.22217
+- _options.once.26025
+- _options.sOptions.19892
+- _options.sOptions.22219
+- _options.sOptions.26027
+- _sharedInstance._onceToken.18410
+- _sharedInstance._pasExprOnceResult.18412
+- _sharedInstance.instance.22406
+- _sharedInstance.instance.24588
+- _sharedInstance.lock.22405
+- _sharedInstance.lock.24587
+- _sharedInstance.once.18797
+- _sharedInstance.once.19386
+- _sharedInstance.once.26412
+- _sharedInstance.shared.18799
+- _sharedInstance.shared.19388
+- _sharedInstance.shared.24165
+- _sharedInstance.shared.26414
+CStrings:
++ "PPEventStorage: objectID %@ has lost its recurrenceRules and/or persistentObject, probably deleted"
++ "PPEventStorage: objectID %@ has no startDate and/or endDate, probably deleted"
+
+```

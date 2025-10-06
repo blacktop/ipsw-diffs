@@ -1,0 +1,22 @@
+## WebSheet
+
+> `/Applications/WebSheet.app/WebSheet`
+
+```diff
+
+-260.120.2.0.0
++260.140.3.0.0
+   __TEXT.__text: 0x14b0
+   __TEXT.__auth_stubs: 0x350
+   __TEXT.__objc_stubs: 0x520
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  UUID: 7044538D-4202-3C3D-B31C-14ED1B168AE5
++  UUID: 90B92164-06F5-38BF-87EE-7149212EF0F4
+   Functions: 64
+   Symbols:   95
+   CStrings:  284
+
+```

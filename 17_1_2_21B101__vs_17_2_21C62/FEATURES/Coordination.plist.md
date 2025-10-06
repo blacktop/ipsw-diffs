@@ -1,0 +1,29 @@
+## Coordination.plist
+
+> `Domain/Coordination.plist`
+
+```diff
+
+ 		<key>Enabled</key>
+ 		<true/>
+ 	</dict>
++	<key>fast_fold</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>global_timers</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>ip_discovery_diffing</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>shared_companion_link</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```

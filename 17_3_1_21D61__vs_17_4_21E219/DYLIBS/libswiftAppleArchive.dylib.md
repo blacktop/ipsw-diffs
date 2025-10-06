@@ -1,0 +1,69 @@
+## libswiftAppleArchive.dylib
+
+> `/usr/lib/swift/libswiftAppleArchive.dylib`
+
+```diff
+
+-398.0.0.0.0
+-  __TEXT.__text: 0x191c0
++405.100.1.0.0
++  __TEXT.__text: 0x18c20
+   __TEXT.__auth_stubs: 0xc20
+   __TEXT.__cstring: 0x6b3
+   __TEXT.__swift5_typeref: 0x78c
+
+   __TEXT.__swift5_types: 0xa4
+   __TEXT.__swift5_mpenum: 0x1c
+   __TEXT.__swift5_protos: 0x18
+-  __TEXT.__unwind_info: 0x1b80
+-  __TEXT.__eh_frame: 0xdd8
+-  __DATA_CONST.__got: 0x150
++  __TEXT.__unwind_info: 0x1b78
++  __TEXT.__eh_frame: 0xdd0
++  __DATA_CONST.__got: 0x158
+   __DATA_CONST.__const: 0x1f0
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftSystem.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  UUID: 7D2CE937-DC0E-36F1-B88C-B7A95AC860A7
+-  Functions: 1380
+-  Symbols:   3594
++  UUID: E3B268E6-29C3-3D95-AED4-C6AC7F2846E8
++  Functions: 1372
++  Symbols:   3578
+   CStrings:  41
+ 
+Symbols:
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufCs15ContiguousArrayVyAEG_Tgm5Tf4g_n
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufcAC15_RepresentationOSWXEfU_
++ _$s12AppleArchive0B6HeaderC12EntryXATBlobC17ExtendedAttributeVwCPTm
++ _$s12AppleArchive16_AAObjectWrapperC6object5ownedACyxG6AATypeQz_SbtcfCTm
++ _$sSMss5SliceVyxG11SubSequenceRtzrlEyACSny5IndexQzGciM12AppleArchive0F6HeaderC_Tg5.resume.0Tm
++ _$sSa28_unsafeUninitializedCapacity16initializingWithSayxGSi_ySryxGz_SiztKXEtKcfCs5UInt8V_Tgm5056$s12AppleArchive0B6HeaderC6_field2atAC5FieldOSi_tFySrys5F13VGz_SiztXEfU_0H7Archive0vK0CSis6UInt32VTf1nc_nTf4ngnn_n
++ _$sSa28_unsafeUninitializedCapacity16initializingWithSayxGSi_ySryxGz_SiztKXEtKcfCs5UInt8V_Tgm5091$s12AppleArchive0B17EncryptionContextC8_getBlob5field14representations15ContiguousArrayVys5F73VGSgSo16AEAContextFieldsV_So0L20FieldRepresentationsVtFySryAJGz_SiztXEfU_0H7Archive07ArchivekL0CSo0uV0VSo0uyZ0VSiTf1nc_nTf4ngnnn_n
++ _$ss15ContiguousArrayVsSQRzlE2eeoiySbAByxG_ADtFZs5UInt8V_Tgm5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5
++ _swift_unknownObjectRetain_n
+- _$s10Foundation4DataV06InlineB0V15withUnsafeBytesyxxSWKXEKlFyt_Tg5099$s12AppleArchive0B17EncryptionContextC8_setBlob5field3keyySo16AEAContextFieldsV_AA01_aB19ContiguousF18X963_ptKFySWKXEfU_0H7Archive0zkL0CSo0qR0VTf1ncn_nTm
+- _$s10Foundation4DataV15_RepresentationOyAESWcfCTf4nd_n
+- _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufCs15ContiguousArrayVyAEG_Tg5Tf4gd_n
+- _$s12AppleArchive0B14StreamProtocol_pSgWOf
+- _$s12AppleArchive0B18ByteStreamProtocol_pSgWOf
+- _$s12AppleArchive0B6HeaderC11FieldKeySetCs0F7AlgebraAAsAFP12intersectionyxxFTWTm
+- _$s12AppleArchive0B6HeaderCSlAASl7indices7IndicesQzvgTWTm
+- _$s12AppleArchive0B6HeaderCSlAASl8endIndex0E0QzvgTWTm
+- _$s12AppleArchive24_AAOptionalObjectWrapperC6object5ownedACyxG6AATypeQzSg_SbtcfcTf4gnn_n
+- _$s12AppleArchive34_AAOptionalObjectWrapperWithFilterC6object5owned11messageProcACyxG6AATypeQzSg_SbAA0B6HeaderC06_EntrygE0CSgtcfcTf4gnnn_n
+- _$sSa28_unsafeUninitializedCapacity16initializingWithSayxGSi_ySryxGz_SiztKXEtKcfCs5UInt8V_Tg5056$s12AppleArchive0B6HeaderC6_field2atAC5FieldOSi_tFySrys5F13VGz_SiztXEfU_0H7Archive0vK0CSis6UInt32VTf1ncn_nTf4nngnn_n
+- _$sSa28_unsafeUninitializedCapacity16initializingWithSayxGSi_ySryxGz_SiztKXEtKcfCs5UInt8V_Tg5091$s12AppleArchive0B17EncryptionContextC8_getBlob5field14representations15ContiguousArrayVys5F73VGSgSo16AEAContextFieldsV_So0L20FieldRepresentationsVtFySryAJGz_SiztXEfU_0H7Archive07ArchivekL0CSo0uV0VSo0uyZ0VSiTf1ncn_nTf4nngnnn_n
+- _$sSksE5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF12AppleArchive0G6HeaderC11FieldKeySetC_Tg5
+- _$ss15ContiguousArrayVsSQRzlE2eeoiySbAByxG_ADtFZs5UInt8V_Tg5Tf4nnd_n
+- _$ss15ContiguousArrayVyAByxGqd__c7ElementQyd__RszSTRd__lufCs5UInt8V_s0B5SliceVyAGGTg5Tf4nd_n
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgq5Tf4nnd_n
+- _keypath_get.11Tm
+- _swift_unknownObjectRetain
+
+```

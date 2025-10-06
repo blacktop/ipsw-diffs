@@ -1,0 +1,63 @@
+## TextInput_ko
+
+> `/System/Library/TextInput/TextInput_ko.bundle/TextInput_ko`
+
+```diff
+
+-3431.206.0.0.0
+-  __TEXT.__text: 0x4ed4
++3431.316.0.0.0
++  __TEXT.__text: 0x4eec
+   __TEXT.__auth_stubs: 0x4c0
+   __TEXT.__init_offsets: 0xc
+   __TEXT.__objc_methlist: 0x328
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x1b0
+   __DATA_CONST.__objc_selrefs: 0x338
++  __DATA_CONST.__objc_classrefs: 0x30
++  __DATA_CONST.__objc_superrefs: 0x18
+   __AUTH_CONST.__cfstring: 0xc0
+   __AUTH_CONST.__const: 0xb0
+   __AUTH_CONST.__objc_const: 0x120
+   __AUTH_CONST.__auth_got: 0x268
+   __AUTH.__objc_data: 0xf0
+-  __DATA.__objc_classrefs: 0x30
+-  __DATA.__objc_superrefs: 0x18
+   __DATA.__objc_ivar: 0x18
+   __DATA.__bss: 0x98
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libmecabra.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 23E793DC-BAE9-3EFF-8DCF-51319FFA9730
++  UUID: 44C06128-23E6-3CE0-B1A9-A99C852AB459
+   Functions: 157
+   Symbols:   492
+   CStrings:  150
+Symbols:
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8un170006ILi0EEEPKc
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorI9TITokenIDEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2KB9CandidateEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__130__uninitialized_allocator_copyB8un170006INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
++ __ZNSt3__16vectorI9TITokenIDNS_9allocatorIS1_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB8un170006IPS6_SA_EEvT_T0_m
++ __ZSt28__throw_bad_array_new_lengthB8un170006v
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006IDnEEPKc
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI9TITokenIDEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2KB9CandidateEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__16vectorI9TITokenIDNS_9allocatorIS1_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE18__construct_at_endIPS6_Li0EEEvT_SB_m
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEC2ERKS8_
+- __ZSt28__throw_bad_array_new_lengthB7v160006v
+
+```

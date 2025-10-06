@@ -1,0 +1,22 @@
+## MobileStoreSettings
+
+> `/System/Library/PreferenceBundles/MobileStoreSettings.bundle/MobileStoreSettings`
+
+```diff
+
+-10.1.6.0.0
++10.2.8.0.0
+   __TEXT.__text: 0xa1e0
+   __TEXT.__auth_stubs: 0x520
+   __TEXT.__objc_stubs: 0x2080
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 93BCE774-54C8-330B-8293-1DE3D138BF60
++  UUID: 13ACDA4F-9C95-384C-B825-2A4DB953C0CC
+   Functions: 170
+   Symbols:   232
+   CStrings:  715
+
+```

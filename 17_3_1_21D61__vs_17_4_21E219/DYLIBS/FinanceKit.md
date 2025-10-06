@@ -1,0 +1,2460 @@
+## FinanceKit
+
+> `/System/Library/Frameworks/FinanceKit.framework/FinanceKit`
+
+```diff
+
+-143.7.15.0.0
+-  __TEXT.__text: 0x4b90f4
+-  __TEXT.__auth_stubs: 0x41a0
+-  __TEXT.__objc_methlist: 0x376c
+-  __TEXT.__const: 0x2bf64
+-  __TEXT.__cstring: 0x15ed8
++144.30.0.0.0
++  __TEXT.__text: 0x582e1c
++  __TEXT.__auth_stubs: 0x4a90
++  __TEXT.__objc_methlist: 0x3e9c
++  __TEXT.__const: 0x32204
++  __TEXT.__cstring: 0x18fc8
+   __TEXT.__oslogstring: 0x2df
+-  __TEXT.__gcc_except_tab: 0x14
+-  __TEXT.__swift5_typeref: 0xaaec
+-  __TEXT.__swift5_reflstr: 0x7c5f
+-  __TEXT.__swift5_assocty: 0x1b80
+-  __TEXT.__constg_swiftt: 0xb650
+-  __TEXT.__swift5_fieldmd: 0xbf68
+-  __TEXT.__swift5_builtin: 0x384
+-  __TEXT.__swift5_proto: 0x29e0
+-  __TEXT.__swift5_types: 0xf40
+-  __TEXT.__swift5_capture: 0x1c44
+-  __TEXT.__swift5_protos: 0x164
+-  __TEXT.__swift5_mpenum: 0xc8
+-  __TEXT.__unwind_info: 0x155ec
+-  __TEXT.__eh_frame: 0x203b4
+-  __TEXT.__objc_classname: 0x728
+-  __TEXT.__objc_methname: 0xb7e4
+-  __TEXT.__objc_methtype: 0xfc5
+-  __TEXT.__objc_stubs: 0xd60
+-  __DATA_CONST.__got: 0xa18
+-  __DATA_CONST.__const: 0x28e8
+-  __DATA_CONST.__objc_classlist: 0x7e0
+-  __DATA_CONST.__objc_catlist: 0x90
+-  __DATA_CONST.__objc_protolist: 0x1c0
++  __TEXT.__gcc_except_tab: 0x2c
++  __TEXT.__swift5_typeref: 0xcedc
++  __TEXT.__swift5_capture: 0x22a4
++  __TEXT.__constg_swiftt: 0xd1c0
++  __TEXT.__swift5_reflstr: 0x8cff
++  __TEXT.__swift5_fieldmd: 0xdc24
++  __TEXT.__swift5_builtin: 0x410
++  __TEXT.__swift5_assocty: 0x1f98
++  __TEXT.__swift5_protos: 0x1ac
++  __TEXT.__swift5_proto: 0x2fac
++  __TEXT.__swift5_types: 0x1194
++  __TEXT.__swift5_mpenum: 0xf0
++  __TEXT.__unwind_info: 0x18994
++  __TEXT.__eh_frame: 0x26fa4
++  __TEXT.__objc_classname: 0x835
++  __TEXT.__objc_methname: 0xd31b
++  __TEXT.__objc_methtype: 0x15a8
++  __TEXT.__objc_stubs: 0x1080
++  __DATA_CONST.__got: 0xe00
++  __DATA_CONST.__const: 0x2d18
++  __DATA_CONST.__objc_classlist: 0x8d8
++  __DATA_CONST.__objc_catlist: 0x80
++  __DATA_CONST.__objc_protolist: 0x1d8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0xe0b8
+-  __DATA_CONST.__objc_selrefs: 0x2c50
+-  __AUTH_CONST.__objc_const: 0x2408
+-  __AUTH_CONST.__cfstring: 0x4e0
++  __DATA_CONST.__objc_const: 0xf798
++  __DATA_CONST.__objc_selrefs: 0x30c8
++  __DATA_CONST.__objc_protorefs: 0x150
++  __DATA_CONST.__objc_classrefs: 0x510
++  __DATA_CONST.__objc_superrefs: 0x1a8
++  __AUTH_CONST.__objc_const: 0x2898
++  __AUTH_CONST.__cfstring: 0x520
+   __AUTH_CONST.__objc_intobj: 0x48
+-  __AUTH_CONST.__const: 0x21978
+-  __AUTH_CONST.__auth_got: 0x20e0
+-  __AUTH.__objc_data: 0x62e8
+-  __AUTH.__data: 0x9600
+-  __DATA.__objc_protorefs: 0x138
+-  __DATA.__objc_classrefs: 0x4b0
+-  __DATA.__objc_superrefs: 0x168
+-  __DATA.__objc_ivar: 0x324
+-  __DATA.__objc_data: 0x598
+-  __DATA.__data: 0xd150
+-  __DATA.__bss: 0x4ecc0
+-  __DATA.__common: 0x248
+-  __DATA_DIRTY.__objc_data: 0x10a8
+-  __DATA_DIRTY.__data: 0x1748
+-  __DATA_DIRTY.__bss: 0x500
++  __AUTH_CONST.__const: 0x26fa8
++  __AUTH_CONST.__auth_got: 0x2558
++  __AUTH.__objc_data: 0x6100
++  __AUTH.__data: 0xa190
++  __DATA.__objc_ivar: 0x398
++  __DATA.__objc_data: 0x6c0
++  __DATA.__data: 0x10ba8
++  __DATA.__bss: 0x59ac0
++  __DATA.__common: 0x188
++  __DATA_DIRTY.__objc_data: 0x1d90
++  __DATA_DIRTY.__data: 0x2820
++  __DATA_DIRTY.__bss: 0x680
+   __DATA_DIRTY.__common: 0x20
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
++  - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/CBORLibrary.framework/CBORLibrary
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CoreODI.framework/CoreODI
++  - /System/Library/PrivateFrameworks/DeviceIdentity.framework/DeviceIdentity
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+   - /System/Library/PrivateFrameworks/NearField.framework/NearField
+   - /System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore
+   - /System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/SymptomDiagnosticReporter
++  - /System/Library/PrivateFrameworks/TCC.framework/TCC
++  - /System/Library/PrivateFrameworks/Trial.framework/Trial
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libarchive.2.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A118A9AD-DBC9-331F-AA3F-312EE0C01886
+-  Functions: 31322
+-  Symbols:   8556
+-  CStrings:  4329
++  UUID: A1251259-5C76-3B25-AEDE-B8B46AF7A87D
++  Functions: 36006
++  Symbols:   9718
++  CStrings:  4859
+ 
+Symbols:
++ -[FKAccount consentUUID]
++ -[FKAccount displayAccountNumberValue]
++ -[FKAccount displayName]
++ -[FKAccount initWithFullyQualifiedAccountIdentifier:accountType:displayName:displayAccountNumberValue:balance:accountBalance:creditLimit:minimumPaymentAmount:nextPaymentDate:overduePaymentAmount:actions:isAccountEnabled:isAccountMismatched:consentUUID:accountRefreshFailure:transactionsRefreshFailure:]
++ -[FKAppleAccount initWithAccountIdentifier:currentBalance:totalBalance:currency:status:type:creditLimit:minimumDueAmount:nextPaymentDueDate:lastUpdated:displayName:]
++ -[FKAppleAccount type]
++ -[FKAppleTransaction altDSID]
++ -[FKAppleTransaction initWithTransactionIdentifier:accountIdentifier:amount:currency:creditDebitIndicator:merchantCategoryCode:merchantName:transactionType:transactionStatus:transactionDate:altDSID:]
++ -[FKAuthorizationSession initWithSessionId:consent:codeVerifier:previousConsentUUID:institution:fpanId:authorizationType:]
++ -[FKAuthorizationSession previousConsentUUID]
++ -[FKBankConnectMessagesManager .cxx_destruct]
++ -[FKBankConnectMessagesManager init]
++ -[FKBankConnectMessagesManager isAccountMessageDismissed:forAccountIdentifier:]
++ -[FKBankConnectMessagesManager isPassMessageDismissed:forFPANIdentifier:]
++ -[FKBankConnectMessagesManager messagesManager]
++ -[FKBankConnectMessagesManager resetMessagesForFPANIdentifier:]
++ -[FKBankConnectMessagesManager setIsDismissed:forAccountMessage:withAccountIdentifier:]
++ -[FKBankConnectMessagesManager setIsDismissed:forPassMessage:withFPANIdentifier:]
++ -[FKBankConnectMessagesManager setMessagesManager:]
++ -[FKBankConnectOfflineLabConsentCoordinator .cxx_destruct]
++ -[FKBankConnectOfflineLabConsentCoordinator init]
++ -[FKBankConnectOfflineLabConsentCoordinator isOfflineLabPreferenceAvailable]
++ -[FKBankConnectOfflineLabConsentCoordinator loadOfflineLabSharingPermissionWithCompletion:]
++ -[FKBankConnectOfflineLabConsentCoordinator loadOfflineLabSharingPreferenceWithCompletion:]
++ -[FKBankConnectOfflineLabConsentCoordinator offlineLabPrivacyBundleIdentifier]
++ -[FKBankConnectOfflineLabConsentCoordinator saveOfflineLabSharingPermission:withCompletion:]
++ -[FKBankConnectOsloProvider listenForAccountsWithPrimaryAccountIdentifiers:callback:]
++ -[FKBankConnectOsloProviderResponse .cxx_destruct]
++ -[FKBankConnectOsloProviderResponse accountForPrimaryIdentifier:]
++ -[FKBankConnectOsloProviderResponse balanceForPrimaryIdentifier:]
++ -[FKBankConnectOsloProviderResponse count]
++ -[FKBankConnectOsloProviderResponse description]
++ -[FKBankConnectOsloProviderResponse initForError]
++ -[FKBankConnectOsloProviderResponse initWithDictionary:]
++ -[FKBankConnectOsloProviderResponse isErrorResponse]
++ -[FKBankConnectOsloProviderResponse primaryAccountIdentifiers]
++ -[FKBankConnectOsloProviderResponse setIsErrorResponse:]
++ -[FKBankConnectSpotlightTransactionsProvider .cxx_destruct]
++ -[FKBankConnectSpotlightTransactionsProvider init]
++ -[FKBankConnectSpotlightTransactionsProvider setSpotlightProvider:]
++ -[FKBankConnectSpotlightTransactionsProvider spotlightProvider]
++ -[FKBankConnectSpotlightTransactionsProvider transactionWithURL:completion:]
++ -[FKBankConnectSpotlightTransactionsProviderResponse .cxx_destruct]
++ -[FKBankConnectSpotlightTransactionsProviderResponse initWithTransaction:primaryAccountIdentifier:]
++ -[FKBankConnectSpotlightTransactionsProviderResponse primaryAccountIdentifier]
++ -[FKBankConnectSpotlightTransactionsProviderResponse transaction]
++ -[FKBankMerchantInformationInsight .cxx_destruct]
++ -[FKBankMerchantInformationInsight categoryDescription]
++ -[FKBankMerchantInformationInsight copyWithZone:]
++ -[FKBankMerchantInformationInsight hash]
++ -[FKBankMerchantInformationInsight initWithCategoryDescription:merchantAddress:merchantCategoryCode:merchantName:merchantNumber:standardIndustrialClassificationCode:]
++ -[FKBankMerchantInformationInsight isEqual:]
++ -[FKBankMerchantInformationInsight merchantAddress]
++ -[FKBankMerchantInformationInsight merchantCategoryCode]
++ -[FKBankMerchantInformationInsight merchantName]
++ -[FKBankMerchantInformationInsight merchantNumber]
++ -[FKBankMerchantInformationInsight setCategoryDescription:]
++ -[FKBankMerchantInformationInsight setMerchantAddress:]
++ -[FKBankMerchantInformationInsight setMerchantCategoryCode:]
++ -[FKBankMerchantInformationInsight setMerchantName:]
++ -[FKBankMerchantInformationInsight setMerchantNumber:]
++ -[FKBankMerchantInformationInsight setStandardIndustrialClassificationCode:]
++ -[FKBankMerchantInformationInsight standardIndustrialClassificationCode]
++ -[FKInstitution financialLabEnabled]
++ -[FKInstitution initWithInstitutionIdentifier:name:reconsentType:supportedAuthTypes:firstTransactionsRequestWindow:maxAgeTransactionsFirstRequest:maxAgeTransactionsRefreshRequest:extensionsBundleIdentifiers:backgroundRefreshEnabled:multipleConsentsEnabled:termsAndConditionsURL:problemReportingEnabled:financialLabEnabled:timestampSuitableForUserDisplay:piiRedactionConfigurationCountryCodes:]
++ -[FKInstitution multipleConsentsEnabled]
++ -[FKInstitution piiRedactionConfigurationCountryCodes]
++ -[FKInstitution problemReportingEnabled]
++ -[FKInstitution timestampSuitableForUserDisplay]
++ -[FKPIIStringProcessor .cxx_destruct]
++ -[FKPIIStringProcessor init]
++ -[FKPIIStringProcessor redactFromString:]
++ -[FKPIIStringProcessor redactFromString:forCountryCodes:]
++ -[FKPaymentTransaction altDSID]
++ -[FKPaymentTransaction initWithTransactionIdentifier:amount:foreignAmount:foreignCurrencyExchangeRate:transactionDate:transactionStatusChangedDate:type:status:transactionDescription:originalTransactionDescription:localizedTypeDescription:creditDebitIndicator:actions:isBankConnectTransaction:merchantCategoryCode:hasNotificationServiceData:paymentHash:altDSID:insights:]
++ -[FKPaymentTransaction initWithTransactionIdentifier:amount:foreignAmount:foreignCurrencyExchangeRate:transactionDate:transactionStatusChangedDate:type:status:transactionDescription:originalTransactionDescription:localizedTypeDescription:creditDebitIndicator:actions:isBankConnectTransaction:merchantCategoryCode:hasNotificationServiceData:paymentHash:insights:]
++ -[FKPaymentTransaction insights]
++ -[FKPaymentTransaction originalTransactionDescription]
++ -[FKPaymentTransaction setInsights:]
++ -[FKPaymentTransactionInsights .cxx_destruct]
++ -[FKPaymentTransactionInsights applePayInsight]
++ -[FKPaymentTransactionInsights bankMerchantInformationInsight]
++ -[FKPaymentTransactionInsights copyWithZone:]
++ -[FKPaymentTransactionInsights hash]
++ -[FKPaymentTransactionInsights initWithApplePayInsight:bankMerchantInformationInsight:mapsInsight:]
++ -[FKPaymentTransactionInsights isEqual:]
++ -[FKPaymentTransactionInsights mapsInsight]
++ -[FKPaymentTransactionInsights setApplePayInsight:]
++ -[FKPaymentTransactionInsights setBankMerchantInformationInsight:]
++ -[FKPaymentTransactionInsights setMapsInsight:]
++ -[FKPrivacySettingsController .cxx_destruct]
++ -[FKPrivacySettingsController authorizationType]
++ -[FKPrivacySettingsController initWithBundleIdentifier:]
++ -[FKWalletExposedDB .cxx_destruct]
++ -[FKWalletExposedDB fetchAppleAccountsWithError:]
++ -[FKWalletExposedDB init]
++ -[FKWalletExposedDB insertOrUpdateTransactions:forAppleAccountWithID:error:]
++ -[FKWalletExposedDB setWalletExposedDB:]
++ -[FKWalletExposedDB walletExposedDB]
++ _CFBundleGetIdentifier
++ _DeviceIdentityIsSupported
++ _DeviceIdentityIssueClientCertificateWithCompletion
++ _FKTryCatchObjCBlock
++ _NSLocalizedDescriptionKey
++ _OBJC_CLASS_$_FKBankConnectMessagesManager
++ _OBJC_CLASS_$_FKBankConnectOfflineLabConsentCoordinator
++ _OBJC_CLASS_$_FKBankConnectOsloProviderResponse
++ _OBJC_CLASS_$_FKBankConnectSpotlightTransactionsProvider
++ _OBJC_CLASS_$_FKBankConnectSpotlightTransactionsProviderResponse
++ _OBJC_CLASS_$_FKBankMerchantInformationInsight
++ _OBJC_CLASS_$_FKPIIStringProcessor
++ _OBJC_CLASS_$_FKPaymentTransactionInsights
++ _OBJC_CLASS_$_FKPrivacySettingsController
++ _OBJC_CLASS_$_FKWalletExposedDB
++ _OBJC_CLASS_$_NSKeyPathExpression
++ _OBJC_CLASS_$_NSRunLoop
++ _OBJC_CLASS_$_TRIClient
++ _OBJC_CLASS_$_XPCAccountSelectionResult
++ _OBJC_CLASS_$_XPCBankConnectAuthorizationConfiguration
++ _OBJC_CLASS_$_XPCBankConnectConsent
++ _OBJC_CLASS_$_XPCOfflineLabPermission
++ _OBJC_CLASS_$_XPCOfflineLabSharingPreference
++ _OBJC_CLASS_$__TtC10FinanceKit15WalletExposedDB
++ _OBJC_CLASS_$__TtC10FinanceKit17ManagedLabRequest
++ _OBJC_CLASS_$__TtC10FinanceKit19ManagedCloudConsent
++ _OBJC_CLASS_$__TtC10FinanceKit21ManagedPendingConsent
++ _OBJC_CLASS_$__TtC10FinanceKit24ManagedMapsLookupRequest
++ _OBJC_CLASS_$__TtC10FinanceKit25PIIStringProcessorWrapper
++ _OBJC_CLASS_$__TtC10FinanceKit26BankConnectMessagesManager
++ _OBJC_CLASS_$__TtC10FinanceKit32ManagedPIIRedactionConfiguration
++ _OBJC_CLASS_$__TtC10FinanceKit36BankConnectPrivacySettingsController
++ _OBJC_CLASS_$__TtC10FinanceKit39BankConnectOfflineLabConsentCoordinator
++ _OBJC_CLASS_$__TtC10FinanceKit40BankConnectSpotlightTransactionsProvider
++ _OBJC_EHTYPE_$_NSException
++ _OBJC_IVAR_$_FKAccount._consentUUID
++ _OBJC_IVAR_$_FKAccount._displayAccountNumberValue
++ _OBJC_IVAR_$_FKAccount._displayName
++ _OBJC_IVAR_$_FKAppleAccount._type
++ _OBJC_IVAR_$_FKAppleTransaction._altDSID
++ _OBJC_IVAR_$_FKAuthorizationSession._previousConsentUUID
++ _OBJC_IVAR_$_FKBankConnectMessagesManager._messagesManager
++ _OBJC_IVAR_$_FKBankConnectOfflineLabConsentCoordinator._wrappedCoordinator
++ _OBJC_IVAR_$_FKBankConnectOsloProviderResponse._isErrorResponse
++ _OBJC_IVAR_$_FKBankConnectOsloProviderResponse._primaryAccountIdentifiersToAccounts
++ _OBJC_IVAR_$_FKBankConnectSpotlightTransactionsProvider._spotlightProvider
++ _OBJC_IVAR_$_FKBankConnectSpotlightTransactionsProviderResponse._primaryAccountIdentifier
++ _OBJC_IVAR_$_FKBankConnectSpotlightTransactionsProviderResponse._transaction
++ _OBJC_IVAR_$_FKBankMerchantInformationInsight._categoryDescription
++ _OBJC_IVAR_$_FKBankMerchantInformationInsight._merchantAddress
++ _OBJC_IVAR_$_FKBankMerchantInformationInsight._merchantCategoryCode
++ _OBJC_IVAR_$_FKBankMerchantInformationInsight._merchantName
++ _OBJC_IVAR_$_FKBankMerchantInformationInsight._merchantNumber
++ _OBJC_IVAR_$_FKBankMerchantInformationInsight._standardIndustrialClassificationCode
++ _OBJC_IVAR_$_FKInstitution._financialLabEnabled
++ _OBJC_IVAR_$_FKInstitution._multipleConsentsEnabled
++ _OBJC_IVAR_$_FKInstitution._piiRedactionConfigurationCountryCodes
++ _OBJC_IVAR_$_FKInstitution._problemReportingEnabled
++ _OBJC_IVAR_$_FKInstitution._timestampSuitableForUserDisplay
++ _OBJC_IVAR_$_FKPIIStringProcessor._wrappedProcessor
++ _OBJC_IVAR_$_FKPaymentTransaction._altDSID
++ _OBJC_IVAR_$_FKPaymentTransaction._insights
++ _OBJC_IVAR_$_FKPaymentTransaction._originalTransactionDescription
++ _OBJC_IVAR_$_FKPaymentTransactionInsights._applePayInsight
++ _OBJC_IVAR_$_FKPaymentTransactionInsights._bankMerchantInformationInsight
++ _OBJC_IVAR_$_FKPaymentTransactionInsights._mapsInsight
++ _OBJC_IVAR_$_FKPrivacySettingsController._wrappedController
++ _OBJC_IVAR_$_FKWalletExposedDB._walletExposedDB
++ _OBJC_METACLASS_$_FKBankConnectMessagesManager
++ _OBJC_METACLASS_$_FKBankConnectOfflineLabConsentCoordinator
++ _OBJC_METACLASS_$_FKBankConnectOsloProviderResponse
++ _OBJC_METACLASS_$_FKBankConnectSpotlightTransactionsProvider
++ _OBJC_METACLASS_$_FKBankConnectSpotlightTransactionsProviderResponse
++ _OBJC_METACLASS_$_FKBankMerchantInformationInsight
++ _OBJC_METACLASS_$_FKPIIStringProcessor
++ _OBJC_METACLASS_$_FKPaymentTransactionInsights
++ _OBJC_METACLASS_$_FKPrivacySettingsController
++ _OBJC_METACLASS_$_FKWalletExposedDB
++ _OBJC_METACLASS_$_XPCAccountSelectionResult
++ _OBJC_METACLASS_$_XPCBankConnectAuthorizationConfiguration
++ _OBJC_METACLASS_$_XPCBankConnectConsent
++ _OBJC_METACLASS_$_XPCOfflineLabPermission
++ _OBJC_METACLASS_$_XPCOfflineLabSharingPreference
++ _OBJC_METACLASS_$__TtC10FinanceKit15WalletExposedDB
++ _OBJC_METACLASS_$__TtC10FinanceKit17ManagedLabRequest
++ _OBJC_METACLASS_$__TtC10FinanceKit19ManagedCloudConsent
++ _OBJC_METACLASS_$__TtC10FinanceKit21ManagedPendingConsent
++ _OBJC_METACLASS_$__TtC10FinanceKit24ManagedMapsLookupRequest
++ _OBJC_METACLASS_$__TtC10FinanceKit25PIIStringProcessorWrapper
++ _OBJC_METACLASS_$__TtC10FinanceKit26BankConnectMessagesManager
++ _OBJC_METACLASS_$__TtC10FinanceKit32ManagedPIIRedactionConfiguration
++ _OBJC_METACLASS_$__TtC10FinanceKit36BankConnectPrivacySettingsController
++ _OBJC_METACLASS_$__TtC10FinanceKit39BankConnectOfflineLabConsentCoordinator
++ _OBJC_METACLASS_$__TtC10FinanceKit40BankConnectSpotlightTransactionsProvider
++ _OBJC_METACLASS_$__TtCFC10FinanceKit27BankConnectWebServiceClient20uploadOfflineLabDataFzZT3forVS_43BankConnectWebServiceOfflineLabItemsRequest_T_L_29OfflineLabSessionTaskDelegate
++ _SecAccessControlCreateWithFlags
++ _SecCertificateCopyData
++ _SecKeyCreateSignature
++ _SecRandomCopyBytes
++ _TCCAccessCopyInformation
++ _TCCAccessCopyInformationForBundleId
++ _TCCAccessSetForBundleId
++ __CATEGORY__TtC10FinanceKit21ManagedAccountBalance_$_FinanceKit
++ __CATEGORY__TtC10FinanceKit22ManagedInternalAccount_$_FinanceKit
++ __CATEGORY__TtC10FinanceKit26BankConnectMessagesManager_$_FinanceKit
++ __CLASS_PROPERTIES_XPCAccountSelectionResult
++ __CLASS_PROPERTIES_XPCBankConnectAuthorizationConfiguration
++ __CLASS_PROPERTIES_XPCBankConnectConsent
++ __CLASS_PROPERTIES_XPCOfflineLabPermission
++ __CLASS_PROPERTIES_XPCOfflineLabSharingPreference
++ __DATA_XPCAccountSelectionResult
++ __DATA_XPCBankConnectAuthorizationConfiguration
++ __DATA_XPCBankConnectConsent
++ __DATA_XPCOfflineLabPermission
++ __DATA_XPCOfflineLabSharingPreference
++ __DATA__TtC10FinanceKit15WalletExposedDB
++ __DATA__TtC10FinanceKit17ManagedLabRequest
++ __DATA__TtC10FinanceKit18PIIStringProcessor
++ __DATA__TtC10FinanceKit19ManagedCloudConsent
++ __DATA__TtC10FinanceKit20AccountAsyncSequence
++ __DATA__TtC10FinanceKit21ManagedPendingConsent
++ __DATA__TtC10FinanceKit22DeviceIdentityProvider
++ __DATA__TtC10FinanceKit24ManagedMapsLookupRequest
++ __DATA__TtC10FinanceKit24TransactionAsyncSequence
++ __DATA__TtC10FinanceKit25BankConnectConsentArbiter
++ __DATA__TtC10FinanceKit25PIIStringProcessorWrapper
++ __DATA__TtC10FinanceKit26BankConnectMessagesManager
++ __DATA__TtC10FinanceKit26SelectAccountsUIXPCService
++ __DATA__TtC10FinanceKit27AccountBalanceAsyncSequence
++ __DATA__TtC10FinanceKit28AppAuthorizationStateManager
++ __DATA__TtC10FinanceKit31PrivacySettingsStoreCoordinator
++ __DATA__TtC10FinanceKit32ManagedPIIRedactionConfiguration
++ __DATA__TtC10FinanceKit33BankConnectUserIdentifierProvider
++ __DATA__TtC10FinanceKit35PIIRedactionRegexCollectionProvider
++ __DATA__TtC10FinanceKit36BankConnectPrivacySettingsController
++ __DATA__TtC10FinanceKit39BankConnectOfflineLabConsentCoordinator
++ __DATA__TtC10FinanceKit40BankConnectSpotlightTransactionsProvider
++ __DATA__TtCFC10FinanceKit27BankConnectWebServiceClient20uploadOfflineLabDataFzZT3forVS_43BankConnectWebServiceOfflineLabItemsRequest_T_L_29OfflineLabSessionTaskDelegate
++ __DATA__TtCV10FinanceKit17MapsLookupRequest8Location
++ __IVARS_XPCAccountSelectionResult
++ __IVARS_XPCBankConnectAuthorizationConfiguration
++ __IVARS_XPCBankConnectConsent
++ __IVARS_XPCOfflineLabPermission
++ __IVARS_XPCOfflineLabSharingPreference
++ __IVARS__TtC10FinanceKit15WalletExposedDB
++ __IVARS__TtC10FinanceKit18PIIStringProcessor
++ __IVARS__TtC10FinanceKit20AccountAsyncSequence
++ __IVARS__TtC10FinanceKit24TransactionAsyncSequence
++ __IVARS__TtC10FinanceKit25BankConnectConsentArbiter
++ __IVARS__TtC10FinanceKit25PIIStringProcessorWrapper
++ __IVARS__TtC10FinanceKit26BankConnectMessagesManager
++ __IVARS__TtC10FinanceKit26SelectAccountsUIXPCService
++ __IVARS__TtC10FinanceKit27AccountBalanceAsyncSequence
++ __IVARS__TtC10FinanceKit28AppAuthorizationStateManager
++ __IVARS__TtC10FinanceKit31PrivacySettingsStoreCoordinator
++ __IVARS__TtC10FinanceKit33BankConnectUserIdentifierProvider
++ __IVARS__TtC10FinanceKit35PIIRedactionRegexCollectionProvider
++ __IVARS__TtC10FinanceKit36BankConnectPrivacySettingsController
++ __IVARS__TtC10FinanceKit39BankConnectOfflineLabConsentCoordinator
++ __IVARS__TtC10FinanceKit40BankConnectSpotlightTransactionsProvider
++ __IVARS__TtCC10FinanceKit12FinanceStore29HistoryIteratorImplementation
++ __IVARS__TtCFC10FinanceKit27BankConnectWebServiceClient20uploadOfflineLabDataFzZT3forVS_43BankConnectWebServiceOfflineLabItemsRequest_T_L_29OfflineLabSessionTaskDelegate
++ __IVARS__TtCV10FinanceKit17MapsLookupRequest8Location
++ __METACLASS_DATA_XPCAccountSelectionResult
++ __METACLASS_DATA_XPCBankConnectAuthorizationConfiguration
++ __METACLASS_DATA_XPCBankConnectConsent
++ __METACLASS_DATA_XPCOfflineLabPermission
++ __METACLASS_DATA_XPCOfflineLabSharingPreference
++ __METACLASS_DATA__TtC10FinanceKit15WalletExposedDB
++ __METACLASS_DATA__TtC10FinanceKit17ManagedLabRequest
++ __METACLASS_DATA__TtC10FinanceKit18PIIStringProcessor
++ __METACLASS_DATA__TtC10FinanceKit19ManagedCloudConsent
++ __METACLASS_DATA__TtC10FinanceKit20AccountAsyncSequence
++ __METACLASS_DATA__TtC10FinanceKit21ManagedPendingConsent
++ __METACLASS_DATA__TtC10FinanceKit22DeviceIdentityProvider
++ __METACLASS_DATA__TtC10FinanceKit24ManagedMapsLookupRequest
++ __METACLASS_DATA__TtC10FinanceKit24TransactionAsyncSequence
++ __METACLASS_DATA__TtC10FinanceKit25BankConnectConsentArbiter
++ __METACLASS_DATA__TtC10FinanceKit25PIIStringProcessorWrapper
++ __METACLASS_DATA__TtC10FinanceKit26BankConnectMessagesManager
++ __METACLASS_DATA__TtC10FinanceKit26SelectAccountsUIXPCService
++ __METACLASS_DATA__TtC10FinanceKit27AccountBalanceAsyncSequence
++ __METACLASS_DATA__TtC10FinanceKit28AppAuthorizationStateManager
++ __METACLASS_DATA__TtC10FinanceKit31PrivacySettingsStoreCoordinator
++ __METACLASS_DATA__TtC10FinanceKit32ManagedPIIRedactionConfiguration
++ __METACLASS_DATA__TtC10FinanceKit33BankConnectUserIdentifierProvider
++ __METACLASS_DATA__TtC10FinanceKit35PIIRedactionRegexCollectionProvider
++ __METACLASS_DATA__TtC10FinanceKit36BankConnectPrivacySettingsController
++ __METACLASS_DATA__TtC10FinanceKit39BankConnectOfflineLabConsentCoordinator
++ __METACLASS_DATA__TtC10FinanceKit40BankConnectSpotlightTransactionsProvider
++ __METACLASS_DATA__TtCFC10FinanceKit27BankConnectWebServiceClient20uploadOfflineLabDataFzZT3forVS_43BankConnectWebServiceOfflineLabItemsRequest_T_L_29OfflineLabSessionTaskDelegate
++ __METACLASS_DATA__TtCV10FinanceKit17MapsLookupRequest8Location
++ __OBJC_$_CLASS_METHODS_XPCAccountSelectionResult
++ __OBJC_$_CLASS_METHODS_XPCBankConnectAuthorizationConfiguration
++ __OBJC_$_CLASS_METHODS_XPCBankConnectConsent
++ __OBJC_$_CLASS_METHODS_XPCOfflineLabPermission
++ __OBJC_$_CLASS_METHODS_XPCOfflineLabSharingPreference
++ __OBJC_$_CLASS_METHODS__TtC10FinanceKit15WalletExposedDB(FinanceKit)
++ __OBJC_$_CLASS_METHODS__TtC10FinanceKit25PIIStringProcessorWrapper
++ __OBJC_$_CLASS_METHODS__TtC10FinanceKit26BankConnectMessagesManager(FinanceKit)
++ __OBJC_$_CLASS_METHODS__TtC10FinanceKit40BankConnectSpotlightTransactionsProvider
++ __OBJC_$_INSTANCE_METHODS_FKBankConnectMessagesManager
++ __OBJC_$_INSTANCE_METHODS_FKBankConnectOfflineLabConsentCoordinator
++ __OBJC_$_INSTANCE_METHODS_FKBankConnectOsloProviderResponse
++ __OBJC_$_INSTANCE_METHODS_FKBankConnectSpotlightTransactionsProvider
++ __OBJC_$_INSTANCE_METHODS_FKBankConnectSpotlightTransactionsProviderResponse
++ __OBJC_$_INSTANCE_METHODS_FKBankMerchantInformationInsight
++ __OBJC_$_INSTANCE_METHODS_FKPIIStringProcessor
++ __OBJC_$_INSTANCE_METHODS_FKPaymentTransactionInsights
++ __OBJC_$_INSTANCE_METHODS_FKPrivacySettingsController
++ __OBJC_$_INSTANCE_METHODS_FKWalletExposedDB
++ __OBJC_$_INSTANCE_METHODS_XPCAccountSelectionResult
++ __OBJC_$_INSTANCE_METHODS_XPCBankConnectAuthorizationConfiguration
++ __OBJC_$_INSTANCE_METHODS_XPCBankConnectConsent
++ __OBJC_$_INSTANCE_METHODS_XPCOfflineLabPermission
++ __OBJC_$_INSTANCE_METHODS_XPCOfflineLabSharingPreference
++ __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit15WalletExposedDB(FinanceKit)
++ __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit17ManagedLabRequest
++ __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit19ManagedCloudConsent
++ __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit21ManagedAccountBalance(FinanceKit)
++ __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit21ManagedPendingConsent
++ __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit22ManagedInternalAccount(FinanceKit)
++ __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit24ManagedMapsLookupRequest
++ __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit25PIIStringProcessorWrapper
++ __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit26BankConnectMessagesManager
++ __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit26BankConnectMessagesManager(FinanceKit)
++ __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit26SelectAccountsUIXPCService
++ __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit31PrivacySettingsStoreCoordinator
++ __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit32ManagedPIIRedactionConfiguration
++ __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit36BankConnectPrivacySettingsController
++ __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit39BankConnectOfflineLabConsentCoordinator
++ __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit40BankConnectSpotlightTransactionsProvider
++ __OBJC_$_INSTANCE_METHODS__TtCFC10FinanceKit27BankConnectWebServiceClient20uploadOfflineLabDataFzZT3forVS_43BankConnectWebServiceOfflineLabItemsRequest_T_L_29OfflineLabSessionTaskDelegate
++ __OBJC_$_INSTANCE_VARIABLES_FKBankConnectMessagesManager
++ __OBJC_$_INSTANCE_VARIABLES_FKBankConnectOfflineLabConsentCoordinator
++ __OBJC_$_INSTANCE_VARIABLES_FKBankConnectOsloProviderResponse
++ __OBJC_$_INSTANCE_VARIABLES_FKBankConnectSpotlightTransactionsProvider
++ __OBJC_$_INSTANCE_VARIABLES_FKBankConnectSpotlightTransactionsProviderResponse
++ __OBJC_$_INSTANCE_VARIABLES_FKBankMerchantInformationInsight
++ __OBJC_$_INSTANCE_VARIABLES_FKPIIStringProcessor
++ __OBJC_$_INSTANCE_VARIABLES_FKPaymentTransactionInsights
++ __OBJC_$_INSTANCE_VARIABLES_FKPrivacySettingsController
++ __OBJC_$_INSTANCE_VARIABLES_FKWalletExposedDB
++ __OBJC_$_PROP_LIST_FKBankConnectMessagesManager
++ __OBJC_$_PROP_LIST_FKBankConnectOsloProviderResponse
++ __OBJC_$_PROP_LIST_FKBankConnectSpotlightTransactionsProvider
++ __OBJC_$_PROP_LIST_FKBankConnectSpotlightTransactionsProviderResponse
++ __OBJC_$_PROP_LIST_FKBankMerchantInformationInsight
++ __OBJC_$_PROP_LIST_FKPaymentTransactionInsights
++ __OBJC_$_PROP_LIST_FKWalletExposedDB
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionTaskDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSURLSessionTaskDelegate
++ __OBJC_$_PROTOCOL_REFS_NSURLSessionTaskDelegate
++ __OBJC_CLASS_PROTOCOLS_$_FKBankMerchantInformationInsight
++ __OBJC_CLASS_PROTOCOLS_$_FKPaymentTransactionInsights
++ __OBJC_CLASS_RO_$_FKBankConnectMessagesManager
++ __OBJC_CLASS_RO_$_FKBankConnectOfflineLabConsentCoordinator
++ __OBJC_CLASS_RO_$_FKBankConnectOsloProviderResponse
++ __OBJC_CLASS_RO_$_FKBankConnectSpotlightTransactionsProvider
++ __OBJC_CLASS_RO_$_FKBankConnectSpotlightTransactionsProviderResponse
++ __OBJC_CLASS_RO_$_FKBankMerchantInformationInsight
++ __OBJC_CLASS_RO_$_FKPIIStringProcessor
++ __OBJC_CLASS_RO_$_FKPaymentTransactionInsights
++ __OBJC_CLASS_RO_$_FKPrivacySettingsController
++ __OBJC_CLASS_RO_$_FKWalletExposedDB
++ __OBJC_LABEL_PROTOCOL_$_NSURLSessionTaskDelegate
++ __OBJC_METACLASS_RO_$_FKBankConnectMessagesManager
++ __OBJC_METACLASS_RO_$_FKBankConnectOfflineLabConsentCoordinator
++ __OBJC_METACLASS_RO_$_FKBankConnectOsloProviderResponse
++ __OBJC_METACLASS_RO_$_FKBankConnectSpotlightTransactionsProvider
++ __OBJC_METACLASS_RO_$_FKBankConnectSpotlightTransactionsProviderResponse
++ __OBJC_METACLASS_RO_$_FKBankMerchantInformationInsight
++ __OBJC_METACLASS_RO_$_FKPIIStringProcessor
++ __OBJC_METACLASS_RO_$_FKPaymentTransactionInsights
++ __OBJC_METACLASS_RO_$_FKPrivacySettingsController
++ __OBJC_METACLASS_RO_$_FKWalletExposedDB
++ __OBJC_PROTOCOL_$_NSURLSessionTaskDelegate
++ __PROPERTIES__TtC10FinanceKit17ManagedLabRequest
++ __PROPERTIES__TtC10FinanceKit19ManagedCloudConsent
++ __PROPERTIES__TtC10FinanceKit21ManagedPendingConsent
++ __PROPERTIES__TtC10FinanceKit24ManagedMapsLookupRequest
++ __PROPERTIES__TtC10FinanceKit32ManagedPIIRedactionConfiguration
++ __PROPERTIES__TtC10FinanceKit36BankConnectPrivacySettingsController
++ __PROTOCOLS_XPCAccountSelectionResult
++ __PROTOCOLS_XPCAccountSelectionResult.4
++ __PROTOCOLS_XPCBankConnectAccountConnectionResult.19
++ __PROTOCOLS_XPCBankConnectAuthorizationConfiguration
++ __PROTOCOLS_XPCBankConnectAuthorizationConfiguration.7
++ __PROTOCOLS_XPCBankConnectAuthorizationPayload.8
++ __PROTOCOLS_XPCBankConnectConsent
++ __PROTOCOLS_XPCBankConnectConsent.6
++ __PROTOCOLS_XPCFetchOrderType.30
++ __PROTOCOLS_XPCFraudAssessmentResult.4
++ __PROTOCOLS_XPCFullyQualifiedAccountIdentifier.11
++ __PROTOCOLS_XPCInstitution.9
++ __PROTOCOLS_XPCInternalAccount.17
++ __PROTOCOLS_XPCOfflineLabPermission
++ __PROTOCOLS_XPCOfflineLabPermission.6
++ __PROTOCOLS_XPCOfflineLabSharingPreference
++ __PROTOCOLS_XPCOfflineLabSharingPreference.6
++ __PROTOCOLS_XPCOrders.23
++ __PROTOCOLS__TtC10FinanceKit26SelectAccountsUIXPCService
++ __PROTOCOLS__TtC10FinanceKit26SelectAccountsUIXPCService.6
++ __PROTOCOLS__TtC10FinanceKit28XPCOrderInsertOrUpdateResult.2
++ __PROTOCOLS__TtC10FinanceKit29XPCOrderInsertOrUpdateOptions.8
++ __PROTOCOLS__TtC10FinanceKitP33_82FCA57B9514272BE863607579F9568E15SessionDelegate.21
++ __PROTOCOLS__TtC10FinanceKitP33_BBE0122A3E1307DE2D47D62BE8CA3C6615SessionDelegate.22
++ __PROTOCOLS__TtC10FinanceKitP33_D792C1975BCD83E251CC308B2A7B211715SessionDelegate.50
++ __PROTOCOLS__TtCFC10FinanceKit27BankConnectWebServiceClient20uploadOfflineLabDataFzZT3forVS_43BankConnectWebServiceOfflineLabItemsRequest_T_L_29OfflineLabSessionTaskDelegate
++ __PROTOCOLS__TtCFC10FinanceKit27BankConnectWebServiceClient20uploadOfflineLabDataFzZT3forVS_43BankConnectWebServiceOfflineLabItemsRequest_T_L_29OfflineLabSessionTaskDelegate.63
++ __PROTOCOL_INSTANCE_METHODS__TtP10FinanceKit24BankConnectXPCAutomating_
++ __PROTOCOL_INSTANCE_METHODS__TtP10FinanceKit27SelectAccountsUIXPCProtocol_
++ __PROTOCOL_INSTANCE_METHODS__TtP10FinanceKit31BankConnectXPCAccountValidating_
++ __PROTOCOL_INSTANCE_METHODS__TtP10FinanceKit42BankConnectXPCConnectionOfflineLabManaging_
++ __PROTOCOL_METHOD_TYPES__TtP10FinanceKit24BankConnectXPCAutomating_
++ __PROTOCOL_METHOD_TYPES__TtP10FinanceKit27SelectAccountsUIXPCProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP10FinanceKit31BankConnectXPCAccountValidating_
++ __PROTOCOL_METHOD_TYPES__TtP10FinanceKit42BankConnectXPCConnectionOfflineLabManaging_
++ __PROTOCOL__TtP10FinanceKit24BankConnectXPCAutomating_
++ __PROTOCOL__TtP10FinanceKit27SelectAccountsUIXPCProtocol_
++ __PROTOCOL__TtP10FinanceKit31BankConnectXPCAccountValidating_
++ ___91-[FKBankConnectOfflineLabConsentCoordinator loadOfflineLabSharingPermissionWithCompletion:]_block_invoke
++ ___NSDictionary0__struct
++ ___block_descriptor_40_e8_32bs_e11_v16?0B8B12ls32l8
++ ___swift_allocate_boxed_opaque_existential_0Tm
++ ___swift_deallocate_boxed_opaque_existential_1
++ ___swift_memcpy36_8
++ ___swift_memcpy57_8
++ ___swift_memcpy81_8
++ ___swift_project_boxed_opaque_existential_1Tm
++ ___unnamed_10
++ ___unnamed_12
++ ___unnamed_14
++ ___unnamed_9
++ _associated conformance 10FinanceKit0A11TrialFactorVSHAASQ
++ _associated conformance 10FinanceKit0A14TrialNamespaceOSHAASQ
++ _associated conformance 10FinanceKit0A27StoreAnalyticsEventsBuilderV14OrdersEndpointOSHAASQ
++ _associated conformance 10FinanceKit0A5StoreC30AccountHistoryIteratorProvider33_290BAFCCF8A8B3C4F3BD007DB1E754E2LLVAC0efG0AA5ModelAcGP_s12Identifiable
++ _associated conformance 10FinanceKit0A5StoreC34TransactionHistoryIteratorProvider33_3283365CABEEBBDC21964B0E53A9B8FBLLVAC0efG0AA5ModelAcGP_s12Identifiable
++ _associated conformance 10FinanceKit0A5StoreC37AccountBalanceHistoryIteratorProvider33_17D8282D3A5FBB368B60709415F5E69DLLVAC0fgH0AA5ModelAcGP_s12Identifiable
++ _associated conformance 10FinanceKit0A5StoreC7HistoryVy_xGSciAA13AsyncIteratorSci_ScI
++ _associated conformance 10FinanceKit0aB12PublicValuesOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 10FinanceKit11TransactionV10CodingKeys33_1C58F3C46E38A3B72FB55C473BBE8D87LLOSHAASQ
++ _associated conformance 10FinanceKit11TransactionV10CodingKeys33_1C58F3C46E38A3B72FB55C473BBE8D87LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit11TransactionV10CodingKeys33_1C58F3C46E38A3B72FB55C473BBE8D87LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit11TransactionVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 10FinanceKit12AssetAccountV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOSHAASQ
++ _associated conformance 10FinanceKit12AssetAccountV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit12AssetAccountV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit12AssetAccountVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 10FinanceKit14AccountBalanceV10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOSHAASQ
++ _associated conformance 10FinanceKit14AccountBalanceV10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit14AccountBalanceV10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit14AccountBalanceVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 10FinanceKit14CurrencyAmountV10CodingKeysOSHAASQ
++ _associated conformance 10FinanceKit14CurrencyAmountV10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit14CurrencyAmountV10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit14CurrencyAmountVSHAASQ
++ _associated conformance 10FinanceKit14CurrentBalanceO10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOSHAASQ
++ _associated conformance 10FinanceKit14CurrentBalanceO10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit14CurrentBalanceO10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit14CurrentBalanceO16BookedCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOSHAASQ
++ _associated conformance 10FinanceKit14CurrentBalanceO16BookedCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit14CurrentBalanceO16BookedCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit14CurrentBalanceO19AvailableCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOSHAASQ
++ _associated conformance 10FinanceKit14CurrentBalanceO19AvailableCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit14CurrentBalanceO19AvailableCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit14CurrentBalanceO28AvailableAndBookedCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOSHAASQ
++ _associated conformance 10FinanceKit14CurrentBalanceO28AvailableAndBookedCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit14CurrentBalanceO28AvailableAndBookedCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit14CurrentBalanceOSHAASQ
++ _associated conformance 10FinanceKit15HTTPHeaderFieldVSHAASQ
++ _associated conformance 10FinanceKit16AccountStartDateV10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLOSHAASQ
++ _associated conformance 10FinanceKit16AccountStartDateV10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit16AccountStartDateV10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit16LiabilityAccountV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOSHAASQ
++ _associated conformance 10FinanceKit16LiabilityAccountV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit16LiabilityAccountV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit16LiabilityAccountVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 10FinanceKit17AccountOriginTypeOSHAASQ
++ _associated conformance 10FinanceKit17AccountOriginTypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 10FinanceKit17MapsLookupRequestV8LocationC10CodingKeys33_57E7604C4D2E1962C44685D6FEBA806FLLOSHAASQ
++ _associated conformance 10FinanceKit17MapsLookupRequestV8LocationC10CodingKeys33_57E7604C4D2E1962C44685D6FEBA806FLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit17MapsLookupRequestV8LocationC10CodingKeys33_57E7604C4D2E1962C44685D6FEBA806FLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit17PIIRedactionRegexV10CodingKeysOSHAASQ
++ _associated conformance 10FinanceKit17PIIRedactionRegexV10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit17PIIRedactionRegexV10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit18BankConnectConsentV10CodingKeys33_2D69BC1DE0E6D0B40DC69F568F7B87DBLLOSHAASQ
++ _associated conformance 10FinanceKit18BankConnectConsentV10CodingKeys33_2D69BC1DE0E6D0B40DC69F568F7B87DBLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit18BankConnectConsentV10CodingKeys33_2D69BC1DE0E6D0B40DC69F568F7B87DBLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit18BankConnectMessageOSHAASQ
++ _associated conformance 10FinanceKit18RawBankConnectDataO14OfflineLabItemO11TransactionV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLOSHAASQ
++ _associated conformance 10FinanceKit18RawBankConnectDataO14OfflineLabItemO11TransactionV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit18RawBankConnectDataO14OfflineLabItemO11TransactionV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit18RawBankConnectDataO14OfflineLabItemO18MapsClassificationV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLOSHAASQ
++ _associated conformance 10FinanceKit18RawBankConnectDataO14OfflineLabItemO18MapsClassificationV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit18RawBankConnectDataO14OfflineLabItemO18MapsClassificationV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit18RawBankConnectDataO14OfflineLabItemO25MapsClassificationDetails33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLV10CodingKeysOSHAASQ
++ _associated conformance 10FinanceKit18RawBankConnectDataO14OfflineLabItemO25MapsClassificationDetails33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLV10CodingKeysOs0V3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit18RawBankConnectDataO14OfflineLabItemO25MapsClassificationDetails33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLV10CodingKeysOs0V3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit18RawBankConnectDataO14OfflineLabItemO7AccountV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLOSHAASQ
++ _associated conformance 10FinanceKit18RawBankConnectDataO14OfflineLabItemO7AccountV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit18RawBankConnectDataO14OfflineLabItemO7AccountV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit18RawBankConnectDataO24OfflineLabPermissionBodyV10CodingKeysOSHAASQ
++ _associated conformance 10FinanceKit18RawBankConnectDataO24OfflineLabPermissionBodyV10CodingKeysOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit18RawBankConnectDataO24OfflineLabPermissionBodyV10CodingKeysOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit18RawBankConnectDataO25PIIRedactionConfigurationV10CodingKeys33_B138DCBE5755E3246756633091609ABELLOSHAASQ
++ _associated conformance 10FinanceKit18RawBankConnectDataO25PIIRedactionConfigurationV10CodingKeys33_B138DCBE5755E3246756633091609ABELLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit18RawBankConnectDataO25PIIRedactionConfigurationV10CodingKeys33_B138DCBE5755E3246756633091609ABELLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit18RawBankConnectDataO7AccountO13Discriminator33_990782E8A01F0749FA5E2655D3A86754LLV10CodingKeysOSHAASQ
++ _associated conformance 10FinanceKit18RawBankConnectDataO7AccountO13Discriminator33_990782E8A01F0749FA5E2655D3A86754LLV10CodingKeysOs0P3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit18RawBankConnectDataO7AccountO13Discriminator33_990782E8A01F0749FA5E2655D3A86754LLV10CodingKeysOs0P3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit19QueryPredicateError03_B6F28FDD4CBD974CB54D986639E8AAD00LLO10Foundation09LocalizedE0AAs0E0
++ _associated conformance 10FinanceKit20AccountAsyncSequenceCSciAA0D8IteratorSci_ScI
++ _associated conformance 10FinanceKit20MerchantCategoryCodeVSHAASQ
++ _associated conformance 10FinanceKit20MerchantCategoryCodeVs25LosslessStringConvertibleAAs06CustomgH0
++ _associated conformance 10FinanceKit21AccountInstitutionKeyVSHAASQ
++ _associated conformance 10FinanceKit21AccountInstitutionKeyVSLAASQ
++ _associated conformance 10FinanceKit21BankConnectOfflineLabO10PermissionO10CodingKeys33_754E4D57394FAD66B482B54427362B13LLOSHAASQ
++ _associated conformance 10FinanceKit21BankConnectOfflineLabO10PermissionO10CodingKeys33_754E4D57394FAD66B482B54427362B13LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit21BankConnectOfflineLabO10PermissionO10CodingKeys33_754E4D57394FAD66B482B54427362B13LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit21BankConnectOfflineLabO10PermissionO14NoneCodingKeys33_754E4D57394FAD66B482B54427362B13LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit21BankConnectOfflineLabO10PermissionO14NoneCodingKeys33_754E4D57394FAD66B482B54427362B13LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit21BankConnectOfflineLabO10PermissionO16DeniedCodingKeys33_754E4D57394FAD66B482B54427362B13LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit21BankConnectOfflineLabO10PermissionO16DeniedCodingKeys33_754E4D57394FAD66B482B54427362B13LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit21BankConnectOfflineLabO10PermissionO17GrantedCodingKeys33_754E4D57394FAD66B482B54427362B13LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit21BankConnectOfflineLabO10PermissionO17GrantedCodingKeys33_754E4D57394FAD66B482B54427362B13LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit21BankConnectOfflineLabO10PermissionOSHAASQ
++ _associated conformance 10FinanceKit21BankConnectOfflineLabO17SharingPreferenceV10CodingKeys33_1C6BC3396E59454B6906CEF5AA00FFD6LLOSHAASQ
++ _associated conformance 10FinanceKit21BankConnectOfflineLabO17SharingPreferenceV10CodingKeys33_1C6BC3396E59454B6906CEF5AA00FFD6LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit21BankConnectOfflineLabO17SharingPreferenceV10CodingKeys33_1C6BC3396E59454B6906CEF5AA00FFD6LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit21ManagedAccountBalanceC15ValidationErrorOSHAASQ
++ _associated conformance 10FinanceKit22AccountSelectionResultO10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLOSHAASQ
++ _associated conformance 10FinanceKit22AccountSelectionResultO10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit22AccountSelectionResultO10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit22AccountSelectionResultO16ValuesCodingKeys33_EB06735F15224CA2E366F128DD319FA1LLOSHAASQ
++ _associated conformance 10FinanceKit22AccountSelectionResultO16ValuesCodingKeys33_EB06735F15224CA2E366F128DD319FA1LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit22AccountSelectionResultO16ValuesCodingKeys33_EB06735F15224CA2E366F128DD319FA1LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit22AccountSelectionResultO19CancelledCodingKeys33_EB06735F15224CA2E366F128DD319FA1LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit22AccountSelectionResultO19CancelledCodingKeys33_EB06735F15224CA2E366F128DD319FA1LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit22AccountSelectionValuesV10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLOSHAASQ
++ _associated conformance 10FinanceKit22AccountSelectionValuesV10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit22AccountSelectionValuesV10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit23BankConnectCloudConsentVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 10FinanceKit24AccountCreditInformationV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOSHAASQ
++ _associated conformance 10FinanceKit24AccountCreditInformationV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit24AccountCreditInformationV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit24AccountCreditInformationVSHAASQ
++ _associated conformance 10FinanceKit24SelectAccountsUIInfoKeysOSHAASQ
++ _associated conformance 10FinanceKit24TransactionAsyncSequenceCSciAA0D8IteratorSci_ScI
++ _associated conformance 10FinanceKit25PIIRedactionConfigurationV10CodingKeys33_8CDC4127DC8BC365D1125326BBEB7EB6LLOSHAASQ
++ _associated conformance 10FinanceKit25PIIRedactionConfigurationV10CodingKeys33_8CDC4127DC8BC365D1125326BBEB7EB6LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit25PIIRedactionConfigurationV10CodingKeys33_8CDC4127DC8BC365D1125326BBEB7EB6LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit25PIIRedactionConfigurationVSHAASQ
++ _associated conformance 10FinanceKit26BankConnectAutomatingErrorO10Foundation13CustomNSErrorAAs0F0
++ _associated conformance 10FinanceKit26BankConnectAutomatingErrorOSHAASQ
++ _associated conformance 10FinanceKit27AccountBalanceAsyncSequenceCSciAA0E8IteratorSci_ScI
++ _associated conformance 10FinanceKit27PIIRedactionRegexCollectionV10CodingKeysOSHAASQ
++ _associated conformance 10FinanceKit27PIIRedactionRegexCollectionV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit27PIIRedactionRegexCollectionV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit29BankConnectMapsUserIdentifierV10CodingKeys33_DF1816AF255D775A8C015DD6D92B8F07LLOSHAASQ
++ _associated conformance 10FinanceKit29BankConnectMapsUserIdentifierV10CodingKeys33_DF1816AF255D775A8C015DD6D92B8F07LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit29BankConnectMapsUserIdentifierV10CodingKeys33_DF1816AF255D775A8C015DD6D92B8F07LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit30BankConnectConsentStoringErrorOSHAASQ
++ _associated conformance 10FinanceKit34BankConnectConsentArbitratingErrorOSHAASQ
++ _associated conformance 10FinanceKit37BankConnectAuthorizationConfigurationO10CodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLOSHAASQ
++ _associated conformance 10FinanceKit37BankConnectAuthorizationConfigurationO10CodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit37BankConnectAuthorizationConfigurationO10CodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit37BankConnectAuthorizationConfigurationO17ConsentCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit37BankConnectAuthorizationConfigurationO17ConsentCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit37BankConnectAuthorizationConfigurationO19ReconsentCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLOSHAASQ
++ _associated conformance 10FinanceKit37BankConnectAuthorizationConfigurationO19ReconsentCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit37BankConnectAuthorizationConfigurationO19ReconsentCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit37BankConnectAuthorizationConfigurationO27MismatchedAccountCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLOSHAASQ
++ _associated conformance 10FinanceKit37BankConnectAuthorizationConfigurationO27MismatchedAccountCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit37BankConnectAuthorizationConfigurationO27MismatchedAccountCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit37WalletExposedDBAppleAccountsDataErrorOSHAASQ
++ _associated conformance 10FinanceKit52BankConnectWebServiceOfflineLabPermissionSaveRequestVAA15JSONHTTPRequestAA8JSONBodyAaDP_SE
++ _associated conformance 10FinanceKit7AccountO10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOSHAASQ
++ _associated conformance 10FinanceKit7AccountO10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit7AccountO10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit7AccountO15AssetCodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOSHAASQ
++ _associated conformance 10FinanceKit7AccountO15AssetCodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit7AccountO15AssetCodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit7AccountO19LiabilityCodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOSHAASQ
++ _associated conformance 10FinanceKit7AccountO19LiabilityCodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit7AccountO19LiabilityCodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit7AccountOs12IdentifiableAA2IDsADP_SH
++ _associated conformance 10FinanceKit7BalanceV10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOSHAASQ
++ _associated conformance 10FinanceKit7BalanceV10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit7BalanceV10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit7BalanceVSHAASQ
++ _block_copy_helper.104
++ _block_copy_helper.11
++ _block_copy_helper.121
++ _block_copy_helper.138
++ _block_copy_helper.155
++ _block_copy_helper.17
++ _block_copy_helper.172
++ _block_copy_helper.189
++ _block_copy_helper.206
++ _block_copy_helper.223
++ _block_copy_helper.240
++ _block_copy_helper.257
++ _block_copy_helper.274
++ _block_copy_helper.29
++ _block_copy_helper.291
++ _block_copy_helper.308
++ _block_copy_helper.32
++ _block_copy_helper.325
++ _block_copy_helper.342
++ _block_copy_helper.359
++ _block_copy_helper.38
++ _block_copy_helper.53
++ _block_copy_helper.55
++ _block_copy_helper.67
++ _block_copy_helper.70
++ _block_copy_helper.87
++ _block_descriptor.106
++ _block_descriptor.123
++ _block_descriptor.13
++ _block_descriptor.140
++ _block_descriptor.157
++ _block_descriptor.174
++ _block_descriptor.19
++ _block_descriptor.191
++ _block_descriptor.208
++ _block_descriptor.22
++ _block_descriptor.225
++ _block_descriptor.242
++ _block_descriptor.259
++ _block_descriptor.276
++ _block_descriptor.293
++ _block_descriptor.31
++ _block_descriptor.310
++ _block_descriptor.327
++ _block_descriptor.34
++ _block_descriptor.344
++ _block_descriptor.361
++ _block_descriptor.40
++ _block_descriptor.48
++ _block_descriptor.63
++ _block_descriptor.67
++ _block_descriptor.69
++ _block_descriptor.72
++ _block_descriptor.89
++ _block_destroy_helper.105
++ _block_destroy_helper.12
++ _block_destroy_helper.122
++ _block_destroy_helper.139
++ _block_destroy_helper.156
++ _block_destroy_helper.173
++ _block_destroy_helper.18
++ _block_destroy_helper.190
++ _block_destroy_helper.207
++ _block_destroy_helper.224
++ _block_destroy_helper.241
++ _block_destroy_helper.258
++ _block_destroy_helper.275
++ _block_destroy_helper.292
++ _block_destroy_helper.30
++ _block_destroy_helper.309
++ _block_destroy_helper.326
++ _block_destroy_helper.33
++ _block_destroy_helper.343
++ _block_destroy_helper.360
++ _block_destroy_helper.39
++ _block_destroy_helper.54
++ _block_destroy_helper.56
++ _block_destroy_helper.68
++ _block_destroy_helper.71
++ _block_destroy_helper.88
++ _dispatch_semaphore_create
++ _flat unique 10FinanceKit0A5StoreC23HistoryIteratorProvider_px5ModelAcDPRts_XP
++ _flat unique 7Combine7Subject_pq_7FailureAA9PublisherPRts_x6OutputAERtsXP
++ _get_witness_table 10FinanceKit11HTTPRequestRzlAA0C26WithSecureElementSignatureVAaBHPyHC.19
++ _kCFAllocatorDefault
++ _kMAOptionsBAAAccessControls
++ _kMAOptionsBAAIgnoreExistingKeychainItems
++ _kMAOptionsBAAKeychainAccessGroup
++ _kMAOptionsBAAKeychainLabel
++ _kMAOptionsBAANetworkTimeoutInterval
++ _kMAOptionsBAAOIDAccessControls
++ _kMAOptionsBAAOIDDeviceOSInformation
++ _kMAOptionsBAAOIDHardwareProperties
++ _kMAOptionsBAAOIDKeyUsageProperties
++ _kMAOptionsBAAOIDSToInclude
++ _kMAOptionsBAAPerformOperationsOverIPC
++ _kMAOptionsBAASCRTAttestation
++ _kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly
++ _kSecAttrSyncViewHint
++ _kSecAttrViewHintApplePay
++ _kSecKeyAlgorithmECDSASignatureMessageX962SHA256
++ _kSecRandomDefault
++ _kTCCInfoBundle
++ _kTCCInfoGranted
++ _kTCCInfoService
++ _kTCCServiceFinancialData
++ _keypath_get.10Tm
++ _keypath_get_selector_altDSID
++ _keypath_get_selector_bankMerchantEnhancedName
++ _keypath_get_selector_bankTransactionDescription
++ _keypath_get_selector_bankTransactionDescriptionClean
++ _keypath_get_selector_classificationMissReasonValue
++ _keypath_get_selector_consentValidationAttemptCount
++ _keypath_get_selector_countryCodes
++ _keypath_get_selector_earliestAccountValidationStartDate
++ _keypath_get_selector_failedAttemptCount
++ _keypath_get_selector_financialLabEnabled
++ _keypath_get_selector_includeLocationsInTheNextRetry
++ _keypath_get_selector_labRequestObject
++ _keypath_get_selector_lastConsentValidationAttemptDate
++ _keypath_get_selector_lastFailureDate
++ _keypath_get_selector_lastSuccessDate
++ _keypath_get_selector_multipleConsentsEnabled
++ _keypath_get_selector_originTypeValue
++ _keypath_get_selector_otherBankTransactionLocationsData
++ _keypath_get_selector_piiRedactionConfiguration
++ _keypath_get_selector_piiRedactionOccurred
++ _keypath_get_selector_previousConsentUUID
++ _keypath_get_selector_problemReportingEnabled
++ _keypath_get_selector_sharingStartDate
++ _keypath_get_selector_timestampSuitableForUserDisplay
++ _keypath_get_selector_transactionDisplayName
++ _keypath_get_selector_transactionID
++ _memset
++ _objc_begin_catch
++ _objc_end_catch
++ _objc_msgSend$allKeys
++ _objc_msgSend$applePayInsight
++ _objc_msgSend$authorizationType
++ _objc_msgSend$balance
++ _objc_msgSend$count
++ _objc_msgSend$fetchAppleAccountsAndReturnError:
++ _objc_msgSend$init
++ _objc_msgSend$initWithAccountIdentifier:currentBalance:totalBalance:currency:status:type:creditLimit:minimumDueAmount:nextPaymentDueDate:lastUpdated:displayName:
++ _objc_msgSend$initWithApplePayInsight:bankMerchantInformationInsight:mapsInsight:
++ _objc_msgSend$initWithBundleID:
++ _objc_msgSend$initWithTransactionIdentifier:accountIdentifier:amount:currency:creditDebitIndicator:merchantCategoryCode:merchantName:transactionType:transactionStatus:transactionDate:altDSID:
++ _objc_msgSend$initWithTransactionIdentifier:amount:foreignAmount:foreignCurrencyExchangeRate:transactionDate:transactionStatusChangedDate:type:status:transactionDescription:originalTransactionDescription:localizedTypeDescription:creditDebitIndicator:actions:isBankConnectTransaction:merchantCategoryCode:hasNotificationServiceData:paymentHash:altDSID:insights:
++ _objc_msgSend$initWithTransactionIdentifier:amount:foreignAmount:foreignCurrencyExchangeRate:transactionDate:transactionStatusChangedDate:type:status:transactionDescription:originalTransactionDescription:localizedTypeDescription:creditDebitIndicator:actions:isBankConnectTransaction:merchantCategoryCode:hasNotificationServiceData:paymentHash:insights:
++ _objc_msgSend$insertOrUpdateTransactions:forAppleAccountWithID:error:
++ _objc_msgSend$isAccountMessageDismissed:forAccountIdentifier:
++ _objc_msgSend$isPassMessageDismissed:forFPANIdentifier:
++ _objc_msgSend$listenForAccountsWithPrimaryAccountIdentifiers:callback:
++ _objc_msgSend$loadOfflineLabSharingPreferenceWithCompletion:
++ _objc_msgSend$makeClass
++ _objc_msgSend$makeManager
++ _objc_msgSend$makeProcessor
++ _objc_msgSend$makeProvider
++ _objc_msgSend$mapsInsight
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$offlineLabPrivacyBundleIdentifier
++ _objc_msgSend$redactFromString:
++ _objc_msgSend$redactFromString:forCountryCodes:
++ _objc_msgSend$resetMessagesForFPANIdentifier:
++ _objc_msgSend$saveOfflineLabSharingPermission:withCompletion:
++ _objc_msgSend$setIsDismissed:forAccountMessage:withAccountIdentifier:
++ _objc_msgSend$setIsDismissed:forPassMessage:withFPANIdentifier:
++ _objc_msgSend$walletExposedDB
++ _objectdestroy.12Tm
++ _objectdestroy.21Tm
++ _objectdestroy.24Tm
++ _objectdestroy.27Tm
++ _objectdestroy.36Tm
++ _objectdestroy.50Tm
++ _objectdestroy.57Tm
++ _objectdestroy.7Tm
++ _objectdestroy.9Tm
++ _swift_conformsToProtocol2
++ _swift_dynamicCastUnknownClassUnconditional
++ _swift_getExistentialTypeMetadata
++ _swift_getTupleTypeMetadata
++ _swift_unknownObjectRetain_n
++ _symbolic $s10FinanceKit0A14TrialProvidingP
++ _symbolic $s10FinanceKit0A5StoreC23HistoryIteratorProviderP
++ _symbolic $s10FinanceKit11_RangeValue03_B6E28FDD4CBD974CB54D986639E8AAD00LLP
++ _symbolic $s10FinanceKit13PIIProcessingP
++ _symbolic $s10FinanceKit14AnyClosedRange03_B6F28FDD4CBD974CB54D986639E8AAD00LLP
++ _symbolic $s10FinanceKit14_RangeOperator03_B6E28FDD4CBD974CB54D986639E8AAD00LLP
++ _symbolic $s10FinanceKit18KeyPathConvertibleP
++ _symbolic $s10FinanceKit20TransactionProvidingP
++ _symbolic $s10FinanceKit21BankConnectAutomatingP
++ _symbolic $s10FinanceKit21ConvertibleExpression03_B6E28FDD4CBD974CB54D986639E8AAD00LLP
++ _symbolic $s10FinanceKit23DeviceIdentityProvidingP
++ _symbolic $s10FinanceKit24BankConnectXPCAutomatingP
++ _symbolic $s10FinanceKit24OverwritingInitializable03_B6E28FDD4CBD974CB54D986639E8AAD00LLP
++ _symbolic $s10FinanceKit25BankConnectConsentStoringP
++ _symbolic $s10FinanceKit25VariableExpressionsResult03_B6F28FDD4CBD974CB54D986639E8AAD00LLP
++ _symbolic $s10FinanceKit27BankConnectMessagesManagingP
++ _symbolic $s10FinanceKit27SelectAccountsUIXPCProtocolP
++ _symbolic $s10FinanceKit28BankConnectAccountValidatingP
++ _symbolic $s10FinanceKit29BankConnectConsentArbitratingP
++ _symbolic $s10FinanceKit30PrivacySettingsTCCCoordinatingP
++ _symbolic $s10FinanceKit31BankConnectXPCAccountValidatingP
++ _symbolic $s10FinanceKit32PrivacySettingsStoreCoordinatingP
++ _symbolic $s10FinanceKit33PredicateConversionCompatibleEnumP
++ _symbolic $s10FinanceKit34BankConnectConsentOverlapDetectingP
++ _symbolic $s10FinanceKit34BankConnectUserIdentifierProvidingP
++ _symbolic $s10FinanceKit36PIIRedactionRegexCollectionProvidingP
++ _symbolic $s10FinanceKit36_CollectionIndexSubscriptConvertible03_B6G28FDD4CBD974CB54D986639E8AAD00LLP
++ _symbolic 10FinanceKit0A16StoreXPCProtocol_p___________pIegHnrzo_ 10FinanceKit19AuthorizationStatusO3XPCC s5ErrorP
++ _symbolic 10FinanceKit27SelectAccountsUIXPCProtocol_p
++ _symbolic 10FinanceKit29BankConnectServiceXPCProtocol_p___________pIegHnrzo_ 10FinanceKit18BankConnectConsentV s5ErrorP
++ _symbolic 10FinanceKit29BankConnectServiceXPCProtocol_p___________pIegHnrzo_ 10FinanceKit21BankConnectOfflineLabO10PermissionO s5ErrorP
++ _symbolic 10FinanceKit29BankConnectServiceXPCProtocol_p___________pIegHnrzo_ 10FinanceKit21BankConnectOfflineLabO17SharingPreferenceV s5ErrorP
++ _symbolic 5Model_____Qyd__ 10FinanceKit0A5StoreC23HistoryIteratorProviderP
++ _symbolic 5Model_____Qz 10FinanceKit0A5StoreC23HistoryIteratorProviderP
++ _symbolic 6Output_____Qy_ 10Foundation19PredicateExpressionP
++ _symbolic 6Output_____Qyd__ 7Combine9PublisherP
++ _symbolic 6Output_____Qz 10Foundation19PredicateExpressionP
++ _symbolic 7ElementScIQz
++ _symbolic 7Failure_____Qyd__ 7Combine9PublisherP
++ _symbolic Ieg_
++ _symbolic S2bIegyy_
++ _symbolic SDySS_____G 10FinanceKit29BankConnectConsentOverlapTypeO
++ _symbolic SDySS_____G So34FKPrivacySettingsAuthorizationTypeV
++ _symbolic SDy__________G 10Foundation4UUIDV 10FinanceKit16AccountStartDateV
++ _symbolic SL_p5lower_SL_p5uppert
++ _symbolic SL_p5lower_t
++ _symbolic SL_p5upper_t
++ _symbolic SS10entityName_SS08propertyB0t
++ _symbolic SS6fpanID_t
++ _symbolic SS9accountID_t
++ _symbolic SS9consentID_t
++ _symbolic ST_p
++ _symbolic SaySccy_____y_xGSg______pGG 10FinanceKit0A5StoreC7ChangesV s5ErrorP
++ _symbolic SaySo21UNNotificationContentCG
++ _symbolic SaySo9FKAccountCG
++ _symbolic SaySo9FKAccountCGSg
++ _symbolic SaySo9FKAccountCGSgz_Xx
++ _symbolic Say_____G 10FinanceKit0aB12PublicValuesO
++ _symbolic Say_____G 10FinanceKit11TransactionV
++ _symbolic Say_____G 10FinanceKit11TransactionV7InsightO
++ _symbolic Say_____G 10FinanceKit14AccountBalanceV
++ _symbolic Say_____G 10FinanceKit14ManagedConsentC
++ _symbolic Say_____G 10FinanceKit17AccountOriginTypeO
++ _symbolic Say_____G 10FinanceKit17ManagedOrderImageC
++ _symbolic Say_____G 10FinanceKit17MapsLookupRequestV8LocationC
++ _symbolic Say_____G 10FinanceKit17PIIRedactionRegexV
++ _symbolic Say_____G 10FinanceKit18ManagedOrderReturnC
++ _symbolic Say_____G 10FinanceKit19ManagedOrderReceiptC
++ _symbolic Say_____G 10FinanceKit20ManagedOrderLineItemC
++ _symbolic Say_____G 10FinanceKit20ManagedWalletMessageC
++ _symbolic Say_____G 10FinanceKit20MerchantCategoryCodeV
++ _symbolic Say_____G 10FinanceKit22ManagedInternalAccountC
++ _symbolic Say_____G 10FinanceKit23ManagedOrderApplicationC
++ _symbolic Say_____G 10FinanceKit23ManagedOrderReturnLabelC
++ _symbolic Say_____G 10FinanceKit26ManagedInternalTransactionC
++ _symbolic Say_____G 10FinanceKit27PIIRedactionRegexCollectionV0D7Element33_B997B4B505C7EDF7D6B4688DD1FFC260LLO
++ _symbolic Say_____G 10FinanceKit29ManagedOrderPickupFulfillmentC
++ _symbolic Say_____G 10FinanceKit30ManagedOrderPaymentSummaryItemC
++ _symbolic Say_____G 10FinanceKit30ManagedOrderPaymentTransactionC
++ _symbolic Say_____G 10FinanceKit31ManagedOrderShippingFulfillmentC
++ _symbolic Say_____G 10FinanceKit7AccountO
++ _symbolic Say_____G 10Foundation4DataV
++ _symbolic Say_____y_____GG 10Foundation14SortDescriptorV 10FinanceKit11TransactionV
++ _symbolic Say_____y_____GG 10Foundation14SortDescriptorV 10FinanceKit14AccountBalanceV
++ _symbolic Say_____y_____GG 10Foundation14SortDescriptorV 10FinanceKit29ManagedMapsTransactionInsightC
++ _symbolic Say_____y_____GG 10Foundation14SortDescriptorV 10FinanceKit7AccountO
++ _symbolic Say_____y_xGG 10FinanceKit0A5StoreC7ChangesV
++ _symbolic SayypSgG
++ _symbolic ScCy___________pG 10FinanceKit18BankConnectConsentV s5ErrorP
++ _symbolic ScCy___________pG 10FinanceKit19AuthorizationStatusO3XPCC s5ErrorP
++ _symbolic ScCy___________pG 10FinanceKit21BankConnectOfflineLabO10PermissionO s5ErrorP
++ _symbolic ScCy___________pG 10FinanceKit21BankConnectOfflineLabO17SharingPreferenceV s5ErrorP
++ _symbolic ScCy___________pG 10FinanceKit22AccountSelectionResultO s5ErrorP
++ _symbolic ShySSG21overlappingAccountIDs_t
++ _symbolic Shy_____G 10FinanceKit22ManagedInternalAccountC
++ _symbolic Shy_____G 10FinanceKit29ManagedMapsTransactionInsightC
++ _symbolic So12NSExpressionC
++ _symbolic So12NSExpressionCSg
++ _symbolic So13NSInputStreamC
++ _symbolic So13NSInputStreamCSgIeyBy_
++ _symbolic So13NSURLResponseCSg
++ _symbolic So14NSNotificationC
++ _symbolic So16NSURLSessionTaskC
++ _symbolic So21OS_dispatch_semaphoreC
++ _symbolic So22NSManagedObjectContextCSg
++ _symbolic So33FKBankConnectOsloProviderResponseCIegg_
++ _symbolic So33FKBankConnectOsloProviderResponseCIeyBy_
++ _symbolic So50FKBankConnectSpotlightTransactionsProviderResponseCSg
++ _symbolic So50FKBankConnectSpotlightTransactionsProviderResponseCSgIeyBy_
++ _symbolic Su
++ _symbolic _____ 10FinanceKit0A11TrialFactorV
++ _symbolic _____ 10FinanceKit0A13TrialProviderV
++ _symbolic _____ 10FinanceKit0A13TrialProviderV18RolloutIdentifiersV
++ _symbolic _____ 10FinanceKit0A13TrialProviderV21ExperimentIdentifiersV
++ _symbolic _____ 10FinanceKit0A14TrialNamespaceO
++ _symbolic _____ 10FinanceKit0A27StoreAnalyticsEventsBuilderV
++ _symbolic _____ 10FinanceKit0A27StoreAnalyticsEventsBuilderV14APICalledEventV
++ _symbolic _____ 10FinanceKit0A27StoreAnalyticsEventsBuilderV14OrdersEndpointO
++ _symbolic _____ 10FinanceKit0A5StoreC12HistoryTokenV
++ _symbolic _____ 10FinanceKit0A5StoreC15HistoryIteratorC
++ _symbolic _____ 10FinanceKit0A5StoreC29HistoryIteratorImplementationC
++ _symbolic _____ 10FinanceKit0A5StoreC30AccountHistoryIteratorProvider33_290BAFCCF8A8B3C4F3BD007DB1E754E2LLV
++ _symbolic _____ 10FinanceKit0A5StoreC34TransactionHistoryIteratorProvider33_3283365CABEEBBDC21964B0E53A9B8FBLLV
++ _symbolic _____ 10FinanceKit0A5StoreC37AccountBalanceHistoryIteratorProvider33_17D8282D3A5FBB368B60709415F5E69DLLV
++ _symbolic _____ 10FinanceKit0A5StoreC7ChangesV
++ _symbolic _____ 10FinanceKit0A5StoreC7HistoryV
++ _symbolic _____ 10FinanceKit0A5StoreC7HistoryV8IteratorV
++ _symbolic _____ 10FinanceKit11MapsInsightV
++ _symbolic _____ 10FinanceKit11TransactionV
++ _symbolic _____ 10FinanceKit11TransactionV10CodingKeys33_1C58F3C46E38A3B72FB55C473BBE8D87LLO
++ _symbolic _____ 10FinanceKit11TransactionV7InsightO
++ _symbolic _____ 10FinanceKit12AccountQueryV
++ _symbolic _____ 10FinanceKit12AssetAccountV
++ _symbolic _____ 10FinanceKit12AssetAccountV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____ 10FinanceKit14AccountBalanceV
++ _symbolic _____ 10FinanceKit14AccountBalanceV10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____ 10FinanceKit14CurrencyAmountV
++ _symbolic _____ 10FinanceKit14CurrencyAmountV0D5ValueO
++ _symbolic _____ 10FinanceKit14CurrencyAmountV0D5ValueO21DecodingConfigurationV
++ _symbolic _____ 10FinanceKit14CurrencyAmountV10CodingKeysO
++ _symbolic _____ 10FinanceKit14CurrencyAmountV21DecodingConfigurationV
++ _symbolic _____ 10FinanceKit14CurrentBalanceO
++ _symbolic _____ 10FinanceKit14CurrentBalanceO10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____ 10FinanceKit14CurrentBalanceO16BookedCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____ 10FinanceKit14CurrentBalanceO19AvailableCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____ 10FinanceKit14CurrentBalanceO28AvailableAndBookedCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____ 10FinanceKit15WalletExposedDBC
++ _symbolic _____ 10FinanceKit16AccountStartDateV
++ _symbolic _____ 10FinanceKit16AccountStartDateV10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLO
++ _symbolic _____ 10FinanceKit16FinancialDataTCCV
++ _symbolic _____ 10FinanceKit16LiabilityAccountV
++ _symbolic _____ 10FinanceKit16LiabilityAccountV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____ 10FinanceKit16TransactionQueryV
++ _symbolic _____ 10FinanceKit17AccountOriginTypeO
++ _symbolic _____ 10FinanceKit17ManagedLabRequestC
++ _symbolic _____ 10FinanceKit17MapsLookupRequestV
++ _symbolic _____ 10FinanceKit17MapsLookupRequestV8LocationC
++ _symbolic _____ 10FinanceKit17MapsLookupRequestV8LocationC10CodingKeys33_57E7604C4D2E1962C44685D6FEBA806FLLO
++ _symbolic _____ 10FinanceKit17PIIRedactionRegexV
++ _symbolic _____ 10FinanceKit17PIIRedactionRegexV10CodingKeysO
++ _symbolic _____ 10FinanceKit18BankConnectConsentV10CodingKeys33_2D69BC1DE0E6D0B40DC69F568F7B87DBLLO
++ _symbolic _____ 10FinanceKit18BankConnectConsentV3XPCC
++ _symbolic _____ 10FinanceKit18BankConnectMessageO
++ _symbolic _____ 10FinanceKit18PIIStringProcessorC
++ _symbolic _____ 10FinanceKit18RawBankConnectDataO14OfflineLabItemO
++ _symbolic _____ 10FinanceKit18RawBankConnectDataO14OfflineLabItemO11TransactionV
++ _symbolic _____ 10FinanceKit18RawBankConnectDataO14OfflineLabItemO11TransactionV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLO
++ _symbolic _____ 10FinanceKit18RawBankConnectDataO14OfflineLabItemO18MapsClassificationV
++ _symbolic _____ 10FinanceKit18RawBankConnectDataO14OfflineLabItemO18MapsClassificationV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLO
++ _symbolic _____ 10FinanceKit18RawBankConnectDataO14OfflineLabItemO25MapsClassificationDetails33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLV
++ _symbolic _____ 10FinanceKit18RawBankConnectDataO14OfflineLabItemO25MapsClassificationDetails33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLV10CodingKeysO
++ _symbolic _____ 10FinanceKit18RawBankConnectDataO14OfflineLabItemO7AccountV
++ _symbolic _____ 10FinanceKit18RawBankConnectDataO14OfflineLabItemO7AccountV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLO
++ _symbolic _____ 10FinanceKit18RawBankConnectDataO24OfflineLabPermissionBodyV
++ _symbolic _____ 10FinanceKit18RawBankConnectDataO24OfflineLabPermissionBodyV10CodingKeysO
++ _symbolic _____ 10FinanceKit18RawBankConnectDataO25PIIRedactionConfigurationV
++ _symbolic _____ 10FinanceKit18RawBankConnectDataO25PIIRedactionConfigurationV10CodingKeys33_B138DCBE5755E3246756633091609ABELLO
++ _symbolic _____ 10FinanceKit18RawBankConnectDataO7AccountO13Discriminator33_990782E8A01F0749FA5E2655D3A86754LLV
++ _symbolic _____ 10FinanceKit18RawBankConnectDataO7AccountO13Discriminator33_990782E8A01F0749FA5E2655D3A86754LLV10CodingKeysO
++ _symbolic _____ 10FinanceKit19AccountBalanceQueryV
++ _symbolic _____ 10FinanceKit19DeviceIdentityErrorO
++ _symbolic _____ 10FinanceKit19ManagedCloudConsentC
++ _symbolic _____ 10FinanceKit19ManagedCloudConsentC15ValidationErrorO
++ _symbolic _____ 10FinanceKit19PIIProcessingResultO
++ _symbolic _____ 10FinanceKit19PrivateAccountQueryV
++ _symbolic _____ 10FinanceKit19QueryPredicateError03_B6F28FDD4CBD974CB54D986639E8AAD00LLO
++ _symbolic _____ 10FinanceKit20AccountAsyncSequenceC
++ _symbolic _____ 10FinanceKit20AccountAsyncSequenceC8IteratorV
++ _symbolic _____ 10FinanceKit20AccountDataExtractorV
++ _symbolic _____ 10FinanceKit20MerchantCategoryCodeV
++ _symbolic _____ 10FinanceKit21AccountInstitutionKeyV
++ _symbolic _____ 10FinanceKit21AppleAccountConstantsO
++ _symbolic _____ 10FinanceKit21BankConnectOfflineLabO
++ _symbolic _____ 10FinanceKit21BankConnectOfflineLabO10PermissionO
++ _symbolic _____ 10FinanceKit21BankConnectOfflineLabO10PermissionO10CodingKeys33_754E4D57394FAD66B482B54427362B13LLO
++ _symbolic _____ 10FinanceKit21BankConnectOfflineLabO10PermissionO14NoneCodingKeys33_754E4D57394FAD66B482B54427362B13LLO
++ _symbolic _____ 10FinanceKit21BankConnectOfflineLabO10PermissionO16DeniedCodingKeys33_754E4D57394FAD66B482B54427362B13LLO
++ _symbolic _____ 10FinanceKit21BankConnectOfflineLabO10PermissionO17GrantedCodingKeys33_754E4D57394FAD66B482B54427362B13LLO
++ _symbolic _____ 10FinanceKit21BankConnectOfflineLabO10PermissionO3XPCC
++ _symbolic _____ 10FinanceKit21BankConnectOfflineLabO17SharingPreferenceV
++ _symbolic _____ 10FinanceKit21BankConnectOfflineLabO17SharingPreferenceV10CodingKeys33_1C6BC3396E59454B6906CEF5AA00FFD6LLO
++ _symbolic _____ 10FinanceKit21BankConnectOfflineLabO17SharingPreferenceV3XPCC
++ _symbolic _____ 10FinanceKit21ManagedAccountBalanceC15ValidationErrorO
++ _symbolic _____ 10FinanceKit21ManagedPendingConsentC
++ _symbolic _____ 10FinanceKit22AccountSelectionResultO
++ _symbolic _____ 10FinanceKit22AccountSelectionResultO10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLO
++ _symbolic _____ 10FinanceKit22AccountSelectionResultO16ValuesCodingKeys33_EB06735F15224CA2E366F128DD319FA1LLO
++ _symbolic _____ 10FinanceKit22AccountSelectionResultO19CancelledCodingKeys33_EB06735F15224CA2E366F128DD319FA1LLO
++ _symbolic _____ 10FinanceKit22AccountSelectionResultO3XPCC
++ _symbolic _____ 10FinanceKit22AccountSelectionValuesV
++ _symbolic _____ 10FinanceKit22AccountSelectionValuesV10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLO
++ _symbolic _____ 10FinanceKit22DeviceIdentityProviderC
++ _symbolic _____ 10FinanceKit22PrivacySettingsTCCInfoV
++ _symbolic _____ 10FinanceKit23BankConnectCloudConsentV
++ _symbolic _____ 10FinanceKit23DeviceIdentitySignatureV
++ _symbolic _____ 10FinanceKit23PrivateTransactionQueryV
++ _symbolic _____ 10FinanceKit24AccountCreditInformationV
++ _symbolic _____ 10FinanceKit24AccountCreditInformationV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____ 10FinanceKit24ManagedMapsLookupRequestC
++ _symbolic _____ 10FinanceKit24SelectAccountsUIInfoKeysO
++ _symbolic _____ 10FinanceKit24TransactionAsyncSequenceC
++ _symbolic _____ 10FinanceKit24TransactionAsyncSequenceC8IteratorV
++ _symbolic _____ 10FinanceKit24TransactionDataExtractorV
++ _symbolic _____ 10FinanceKit25BankConnectConsentArbiterC
++ _symbolic _____ 10FinanceKit25KeyPathConvertibleContext03_B6G28FDD4CBD974CB54D986639E8AAD00LLV
++ _symbolic _____ 10FinanceKit25PIIRedactionConfigurationV
++ _symbolic _____ 10FinanceKit25PIIRedactionConfigurationV10CodingKeys33_8CDC4127DC8BC365D1125326BBEB7EB6LLO
++ _symbolic _____ 10FinanceKit25PIIStringProcessorWrapperC
++ _symbolic _____ 10FinanceKit26BankConnectAutomatingErrorO
++ _symbolic _____ 10FinanceKit26BankConnectMessagesManagerC
++ _symbolic _____ 10FinanceKit26PrivateAccountBalanceQueryV
++ _symbolic _____ 10FinanceKit26SelectAccountsUIXPCServiceC
++ _symbolic _____ 10FinanceKit26SelectAccountsUIXPCServiceC17ContinuationState33_4A4337985040231D5254851B9AAEF022LLO
++ _symbolic _____ 10FinanceKit27AccountBalanceAsyncSequenceC
++ _symbolic _____ 10FinanceKit27AccountBalanceAsyncSequenceC8IteratorV
++ _symbolic _____ 10FinanceKit27AccountBalanceDataExtractorV
++ _symbolic _____ 10FinanceKit27BankConnectWebServiceClientC20uploadOfflineLabData3foryAA0cdefiJ12ItemsRequestV_tYaKF0iJ19SessionTaskDelegateL_C
++ _symbolic _____ 10FinanceKit27PIIRedactionRegexCollectionV
++ _symbolic _____ 10FinanceKit27PIIRedactionRegexCollectionV0D7Element33_B997B4B505C7EDF7D6B4688DD1FFC260LLO
++ _symbolic _____ 10FinanceKit27PIIRedactionRegexCollectionV10CodingKeysO
++ _symbolic _____ 10FinanceKit28AppAuthorizationStateManagerC
++ _symbolic _____ 10FinanceKit29BankConnectConsentOverlapTypeO
++ _symbolic _____ 10FinanceKit29BankConnectMapsUserIdentifierV
++ _symbolic _____ 10FinanceKit29BankConnectMapsUserIdentifierV10CodingKeys33_DF1816AF255D775A8C015DD6D92B8F07LLO
++ _symbolic _____ 10FinanceKit29UncheckedSendableUserDefaultsV
++ _symbolic _____ 10FinanceKit30BankConnectConsentStoringErrorO
++ _symbolic _____ 10FinanceKit31PrivacySettingsStoreCoordinatorC
++ _symbolic _____ 10FinanceKit32ManagedPIIRedactionConfigurationC
++ _symbolic _____ 10FinanceKit32SelectAccountsUIXPCConfigurationO
++ _symbolic _____ 10FinanceKit33BankConnectConsentOverlapDetectorV
++ _symbolic _____ 10FinanceKit33BankConnectUserIdentifierProviderC
++ _symbolic _____ 10FinanceKit34BankConnectConsentArbitratingErrorO
++ _symbolic _____ 10FinanceKit35ClosestClassifiedTransactionsLoaderO
++ _symbolic _____ 10FinanceKit35PIIRedactionRegexCollectionProviderC
++ _symbolic _____ 10FinanceKit36BankConnectPrivacySettingsControllerC
++ _symbolic _____ 10FinanceKit36BankConnectWebServiceAccountsRequestV11ConsentTypeO
++ _symbolic _____ 10FinanceKit37BankConnectAuthorizationConfigurationO
++ _symbolic _____ 10FinanceKit37BankConnectAuthorizationConfigurationO10CodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLO
++ _symbolic _____ 10FinanceKit37BankConnectAuthorizationConfigurationO17ConsentCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLO
++ _symbolic _____ 10FinanceKit37BankConnectAuthorizationConfigurationO19ReconsentCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLO
++ _symbolic _____ 10FinanceKit37BankConnectAuthorizationConfigurationO27MismatchedAccountCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLO
++ _symbolic _____ 10FinanceKit37BankConnectAuthorizationConfigurationO3XPCC
++ _symbolic _____ 10FinanceKit37WalletExposedDBAppleAccountsDataErrorO
++ _symbolic _____ 10FinanceKit39BankConnectOfflineLabConsentCoordinatorC
++ _symbolic _____ 10FinanceKit40BankConnectSpotlightTransactionsProviderC
++ _symbolic _____ 10FinanceKit42BankConnectConsentArbitratingConfigurationO
++ _symbolic _____ 10FinanceKit43BankConnectWebServiceOfflineLabItemsRequestV
++ _symbolic _____ 10FinanceKit44BankConnectWebServiceOfflineLabItemsResponseO
++ _symbolic _____ 10FinanceKit52BankConnectWebServiceOfflineLabPermissionLoadRequestV
++ _symbolic _____ 10FinanceKit52BankConnectWebServiceOfflineLabPermissionSaveRequestV
++ _symbolic _____ 10FinanceKit53BankConnectWebServiceOfflineLabPermissionLoadResponseO
++ _symbolic _____ 10FinanceKit53BankConnectWebServiceOfflineLabPermissionSaveResponseO
++ _symbolic _____ 10FinanceKit7AccountO
++ _symbolic _____ 10FinanceKit7AccountO10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____ 10FinanceKit7AccountO15AssetCodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____ 10FinanceKit7AccountO19LiabilityCodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____ 10FinanceKit7BalanceV
++ _symbolic _____ 10FinanceKit7BalanceV10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____ 10FinanceKit8AnyRange03_B6E28FDD4CBD974CB54D986639E8AAD00LLO
++ _symbolic _____ So18NSComparisonResultV
++ _symbolic _____ So34FKPrivacySettingsAuthorizationTypeV
++ _symbolic _____19existingConsentUUID_t 10Foundation4UUIDV
++ _symbolic _____19previousConsentUUID_t 10Foundation4UUIDV
++ _symbolic _____26previousInvalidConsentUUID_t 10Foundation4UUIDV
++ _symbolic _____3key______5valuet 10Foundation4UUIDV 10FinanceKit16AccountStartDateV
++ _symbolic _____3key______5valuetSg 10Foundation4UUIDV 10FinanceKit16AccountStartDateV
++ _symbolic _____9available_AA6bookedt 10FinanceKit7BalanceV
++ _symbolic _____AAIeyByy_ 10ObjectiveC8ObjCBoolV
++ _symbolic _____Sg 10FinanceKit0A5StoreC12HistoryTokenV
++ _symbolic _____Sg 10FinanceKit11TransactionV
++ _symbolic _____Sg 10FinanceKit14AccountBalanceV
++ _symbolic _____Sg 10FinanceKit14CurrencyAmountV
++ _symbolic _____Sg 10FinanceKit16AccountStartDateV
++ _symbolic _____Sg 10FinanceKit17PIIRedactionRegexV
++ _symbolic _____Sg 10FinanceKit18BalanceCalculationO
++ _symbolic _____Sg 10FinanceKit18RawBankConnectDataO14OfflineLabItemO18MapsClassificationV
++ _symbolic _____Sg 10FinanceKit18RawBankConnectDataO14OfflineLabItemO25MapsClassificationDetails33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLV
++ _symbolic _____Sg 10FinanceKit18RawBankConnectDataO25PIIRedactionConfigurationV
++ _symbolic _____Sg 10FinanceKit20MerchantCategoryCodeV
++ _symbolic _____Sg 10FinanceKit25PIIRedactionConfigurationV
++ _symbolic _____Sg 10FinanceKit28AppAuthorizationStateManagerC
++ _symbolic _____Sg 10FinanceKit29BankConnectMapsUserIdentifierV
++ _symbolic _____Sg 10FinanceKit37BankConnectAuthorizationConfigurationO
++ _symbolic _____Sg 10FinanceKit37ManagedMapsTransactionInsightImporterC
++ _symbolic _____Sg 10FinanceKit7AccountO
++ _symbolic _____Sg 10FinanceKit7BalanceV
++ _symbolic _____Sg 10FinanceKit8AnyRange03_B6E28FDD4CBD974CB54D986639E8AAD00LLO
++ _symbolic _____Sg 10FinanceKit8LocationV
++ _symbolic _____Sg 7Combine14AnyCancellableC
++ _symbolic _____SgXw 10FinanceKit23BankConnectOsloProviderC
++ _symbolic _____SgXw 10FinanceKit40BankConnectSpotlightTransactionsProviderC
++ _symbolic _____SgXwz_Xx 10FinanceKit23BankConnectOsloProviderC
++ _symbolic _____SgXwz_Xx 10FinanceKit40BankConnectSpotlightTransactionsProviderC
++ _symbolic _____Sg_ABt 10FinanceKit7BalanceV
++ _symbolic ______AAt 10FinanceKit14CurrentBalanceO
++ _symbolic ______AAt 10FinanceKit42BankConnectConsentArbitratingConfigurationO
++ _symbolic ______AAt 10FinanceKit7AccountO
++ _symbolic ______Sbt 10FinanceKit18ManagedInstitutionC
++ _symbolic ___________t 10Foundation20PredicateExpressionsO10VariableIDV 10FinanceKit25KeyPathConvertibleContext03_B6L28FDD4CBD974CB54D986639E8AAD00LLV
++ _symbolic ___________t 10Foundation4UUIDV 10FinanceKit16AccountStartDateV
++ _symbolic ______p 10FinanceKit0A14TrialProvidingP
++ _symbolic ______p 10FinanceKit11_RangeValue03_B6E28FDD4CBD974CB54D986639E8AAD00LLP
++ _symbolic ______p 10FinanceKit14AnyClosedRange03_B6F28FDD4CBD974CB54D986639E8AAD00LLP
++ _symbolic ______p 10FinanceKit14_RangeOperator03_B6E28FDD4CBD974CB54D986639E8AAD00LLP
++ _symbolic ______p 10FinanceKit21ConvertibleExpression03_B6E28FDD4CBD974CB54D986639E8AAD00LLP
++ _symbolic ______p 10FinanceKit25BankConnectConsentStoringP
++ _symbolic ______p 10FinanceKit25VariableExpressionsResult03_B6F28FDD4CBD974CB54D986639E8AAD00LLP
++ _symbolic ______p 10FinanceKit27BankConnectMessagesManagingP
++ _symbolic ______p 10FinanceKit30PrivacySettingsTCCCoordinatingP
++ _symbolic ______p 10FinanceKit32PrivacySettingsStoreCoordinatingP
++ _symbolic ______p 10FinanceKit33PredicateConversionCompatibleEnumP
++ _symbolic ______p 10FinanceKit34BankConnectConsentOverlapDetectingP
++ _symbolic ______p 10FinanceKit36BankConnectWebServiceClientProvidingP
++ _symbolic ______p 10FinanceKit36PIIRedactionRegexCollectionProvidingP
++ _symbolic ______p 10FinanceKit41BankConnectPaymentPassDataSourceProvidingP
++ _symbolic ______pSg 10FinanceKit11_RangeValue03_B6E28FDD4CBD974CB54D986639E8AAD00LLP
++ _symbolic ______pSg 10FinanceKit14_RangeOperator03_B6E28FDD4CBD974CB54D986639E8AAD00LLP
++ _symbolic ______pSg 10FinanceKit21ConvertibleExpression03_B6E28FDD4CBD974CB54D986639E8AAD00LLP
++ _symbolic ______pSg 10FinanceKit25VariableExpressionsResult03_B6F28FDD4CBD974CB54D986639E8AAD00LLP
++ _symbolic ______pSg 10FinanceKit32PrivacySettingsStoreCoordinatingP
++ _symbolic ______pSg 10FinanceKit39BankConnectConnectionOfflineLabManagingP
++ _symbolic ______pSgIegg_ s5ErrorP
++ _symbolic _____xXj l10FinanceKit0A5StoreC23HistoryIteratorProvider_px5ModelRts_XPXG
++ _symbolic _____ySSSo11NSPredicateCG s18_DictionaryStorageC
++ _symbolic _____ySSSo9FKAccountCG s18_DictionaryStorageC
++ _symbolic _____ySS_So11NSPredicateCtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 10FinanceKit29BankConnectConsentOverlapTypeO
++ _symbolic _____ySS_____G s18_DictionaryStorageC So34FKPrivacySettingsAuthorizationTypeV
++ _symbolic _____ySccy_____y______GSg______pGG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC11TransactionV s5ErrorP
++ _symbolic _____ySccy_____y______GSg______pGG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC14AccountBalanceV s5ErrorP
++ _symbolic _____ySccy_____y______GSg______pGG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC15InternalAccountV s5ErrorP
++ _symbolic _____ySccy_____y______GSg______pGG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC18BankConnectConsentV s5ErrorP
++ _symbolic _____ySccy_____y______GSg______pGG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC19InternalTransactionV s5ErrorP
++ _symbolic _____ySccy_____y______GSg______pGG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC22InternalAccountBalanceV s5ErrorP
++ _symbolic _____ySccy_____y______GSg______pGG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC7AccountO s5ErrorP
++ _symbolic _____y_AAy______y______y______G_____SgGAfBy_ACy_AFG_____GAJGAJ_____y______y_ACy_AJG_____y_AJGGANy_AO_____y_APy_AJSgGAQGGGSbG 10Foundation20PredicateExpressionsO15OptionalFlatMapV AC7KeyPathV AC8VariableV 10FinanceKit14AccountBalanceV AJ0M0V AA4DateV AC11ConjunctionV AC10ComparisonV AC5ValueV AC11NilCoalesceV
++ _symbolic _____y_Say_____GG 10Foundation20PredicateExpressionsO5ValueV 10FinanceKit15TransactionTypeO
++ _symbolic _____y_Say_____GG 10Foundation20PredicateExpressionsO5ValueV 10FinanceKit17TransactionStatusO
++ _symbolic _____y_Say_____GG 10Foundation20PredicateExpressionsO5ValueV 10FinanceKit20MerchantCategoryCodeV
++ _symbolic _____y_SbG 10Foundation20PredicateExpressionsO5ValueV
++ _symbolic _____y_____G 10Foundation14SortDescriptorV 10FinanceKit11TransactionV
++ _symbolic _____y_____G 10Foundation14SortDescriptorV 10FinanceKit14AccountBalanceV
++ _symbolic _____y_____G 10Foundation14SortDescriptorV 10FinanceKit29ManagedMapsTransactionInsightC
++ _symbolic _____y_____G 10Foundation14SortDescriptorV 10FinanceKit7AccountO
++ _symbolic _____y_____G 17_StringProcessing5RegexV AA03AnyC6OutputV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 10FinanceKit26SelectAccountsUIXPCServiceC17ContinuationState33_4A4337985040231D5254851B9AAEF022LLO
++ _symbolic _____y_____G s11_SetStorageC 10FinanceKit0cD12PublicValuesO
++ _symbolic _____y_____G s11_SetStorageC 10FinanceKit22ManagedInternalAccountC
++ _symbolic _____y_____G s11_SetStorageC 10FinanceKit29ManagedMapsTransactionInsightC
++ _symbolic _____y_____G s14PartialKeyPathC 10FinanceKit11TransactionV
++ _symbolic _____y_____G s14PartialKeyPathC 10FinanceKit14AccountBalanceV
++ _symbolic _____y_____G s14PartialKeyPathC 10FinanceKit7AccountO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit11TransactionV10CodingKeys33_1C58F3C46E38A3B72FB55C473BBE8D87LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit12AssetAccountV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit14AccountBalanceV10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit14CurrencyAmountV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit14CurrentBalanceO10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit14CurrentBalanceO16BookedCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit14CurrentBalanceO19AvailableCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit14CurrentBalanceO28AvailableAndBookedCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit16AccountStartDateV10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit16LiabilityAccountV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit17MapsLookupRequestV8LocationC10CodingKeys33_57E7604C4D2E1962C44685D6FEBA806FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit17PIIRedactionRegexV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit18BankConnectConsentV10CodingKeys33_2D69BC1DE0E6D0B40DC69F568F7B87DBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit18RawBankConnectDataO14OfflineLabItemO18MapsClassificationV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit18RawBankConnectDataO14OfflineLabItemO25MapsClassificationDetails33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit18RawBankConnectDataO14OfflineLabItemO7AccountV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit18RawBankConnectDataO24OfflineLabPermissionBodyV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit18RawBankConnectDataO25PIIRedactionConfigurationV10CodingKeys33_B138DCBE5755E3246756633091609ABELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit18RawBankConnectDataO7AccountO13Discriminator33_990782E8A01F0749FA5E2655D3A86754LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit21BankConnectOfflineLabO10PermissionO10CodingKeys33_754E4D57394FAD66B482B54427362B13LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit21BankConnectOfflineLabO10PermissionO14NoneCodingKeys33_754E4D57394FAD66B482B54427362B13LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit21BankConnectOfflineLabO10PermissionO16DeniedCodingKeys33_754E4D57394FAD66B482B54427362B13LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit21BankConnectOfflineLabO10PermissionO17GrantedCodingKeys33_754E4D57394FAD66B482B54427362B13LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit21BankConnectOfflineLabO17SharingPreferenceV10CodingKeys33_1C6BC3396E59454B6906CEF5AA00FFD6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit22AccountSelectionResultO10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit22AccountSelectionResultO16ValuesCodingKeys33_EB06735F15224CA2E366F128DD319FA1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit22AccountSelectionResultO19CancelledCodingKeys33_EB06735F15224CA2E366F128DD319FA1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit22AccountSelectionValuesV10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit24AccountCreditInformationV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit25PIIRedactionConfigurationV10CodingKeys33_8CDC4127DC8BC365D1125326BBEB7EB6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit27PIIRedactionRegexCollectionV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit29BankConnectMapsUserIdentifierV10CodingKeys33_DF1816AF255D775A8C015DD6D92B8F07LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit37BankConnectAuthorizationConfigurationO10CodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit37BankConnectAuthorizationConfigurationO17ConsentCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit37BankConnectAuthorizationConfigurationO19ReconsentCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit37BankConnectAuthorizationConfigurationO27MismatchedAccountCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit7AccountO10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit7AccountO15AssetCodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit7AccountO19LiabilityCodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit7BalanceV10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit11TransactionV10CodingKeys33_1C58F3C46E38A3B72FB55C473BBE8D87LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit12AssetAccountV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit14AccountBalanceV10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit14CurrencyAmountV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit14CurrentBalanceO10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit14CurrentBalanceO16BookedCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit14CurrentBalanceO19AvailableCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit14CurrentBalanceO28AvailableAndBookedCodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit16AccountStartDateV10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit16LiabilityAccountV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit17MapsLookupRequestV8LocationC10CodingKeys33_57E7604C4D2E1962C44685D6FEBA806FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit18BankConnectConsentV10CodingKeys33_2D69BC1DE0E6D0B40DC69F568F7B87DBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit18RawBankConnectDataO14OfflineLabItemO11TransactionV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit18RawBankConnectDataO14OfflineLabItemO18MapsClassificationV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit18RawBankConnectDataO14OfflineLabItemO25MapsClassificationDetails33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit18RawBankConnectDataO14OfflineLabItemO7AccountV10CodingKeys33_2F71942545B8F7BE8CC4E4AAAF73C4D5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit18RawBankConnectDataO24OfflineLabPermissionBodyV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit18RawBankConnectDataO25PIIRedactionConfigurationV10CodingKeys33_B138DCBE5755E3246756633091609ABELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit18RawBankConnectDataO7AccountO13Discriminator33_990782E8A01F0749FA5E2655D3A86754LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit21BankConnectOfflineLabO10PermissionO10CodingKeys33_754E4D57394FAD66B482B54427362B13LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit21BankConnectOfflineLabO10PermissionO14NoneCodingKeys33_754E4D57394FAD66B482B54427362B13LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit21BankConnectOfflineLabO10PermissionO16DeniedCodingKeys33_754E4D57394FAD66B482B54427362B13LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit21BankConnectOfflineLabO10PermissionO17GrantedCodingKeys33_754E4D57394FAD66B482B54427362B13LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit21BankConnectOfflineLabO17SharingPreferenceV10CodingKeys33_1C6BC3396E59454B6906CEF5AA00FFD6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit22AccountSelectionResultO10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit22AccountSelectionResultO16ValuesCodingKeys33_EB06735F15224CA2E366F128DD319FA1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit22AccountSelectionResultO19CancelledCodingKeys33_EB06735F15224CA2E366F128DD319FA1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit22AccountSelectionValuesV10CodingKeys33_EB06735F15224CA2E366F128DD319FA1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit24AccountCreditInformationV10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit25PIIRedactionConfigurationV10CodingKeys33_8CDC4127DC8BC365D1125326BBEB7EB6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit29BankConnectMapsUserIdentifierV10CodingKeys33_DF1816AF255D775A8C015DD6D92B8F07LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit37BankConnectAuthorizationConfigurationO10CodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit37BankConnectAuthorizationConfigurationO17ConsentCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit37BankConnectAuthorizationConfigurationO19ReconsentCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit37BankConnectAuthorizationConfigurationO27MismatchedAccountCodingKeys33_7BAFFE08D16B05D06B87F8323842819DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit7AccountO10CodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit7AccountO15AssetCodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit7AccountO19LiabilityCodingKeys33_A95BDB67C7EC4143D5878ACDAB7D9FEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit7BalanceV10CodingKeys33_360AD77EBA6F631D8E44885D044C8520LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FinanceKit11TransactionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FinanceKit11TransactionV7InsightO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FinanceKit14AccountBalanceV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FinanceKit14CurrencyAmountV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FinanceKit17AccountOriginTypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FinanceKit17PIIRedactionRegexV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FinanceKit18BankConnectMessageO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FinanceKit18MapsWalletCategoryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FinanceKit22PrivacySettingsTCCInfoV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FinanceKit7AccountO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4DataV
++ _symbolic _____y_____G s5SliceV 17_StringProcessing14AnyRegexOutputV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 10FinanceKit21AccountInstitutionKeyV AC08InternalE0V
++ _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 10FinanceKit13CoreDataStoreC
++ _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 10FinanceKit27PIIRedactionRegexCollectionV
++ _symbolic _____y_____Sg_____G s13ManagedBufferC 10FinanceKit13CoreDataStoreC So16os_unfair_lock_sV
++ _symbolic _____y_____Sg_____G s13ManagedBufferC 10FinanceKit27PIIRedactionRegexCollectionV So16os_unfair_lock_sV
++ _symbolic _____y______G 10FinanceKit0A5StoreC7ChangesV AA11TransactionV
++ _symbolic _____y______G 10FinanceKit0A5StoreC7ChangesV AA14AccountBalanceV
++ _symbolic _____y______G 10FinanceKit0A5StoreC7ChangesV AA15InternalAccountV
++ _symbolic _____y______G 10FinanceKit0A5StoreC7ChangesV AA18BankConnectConsentV
++ _symbolic _____y______G 10FinanceKit0A5StoreC7ChangesV AA19InternalTransactionV
++ _symbolic _____y______G 10FinanceKit0A5StoreC7ChangesV AA22InternalAccountBalanceV
++ _symbolic _____y______G 10FinanceKit0A5StoreC7ChangesV AA7AccountO
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO5ValueV AA4DateV
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 10FinanceKit11TransactionV
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 10FinanceKit14AccountBalanceV
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 10FinanceKit20MerchantCategoryCodeV
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 10FinanceKit7AccountO
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 10FinanceKit7BalanceV
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV AA4DateV
++ _symbolic _____y______G 17_StringProcessing5RegexV5MatchV AA03AnyC6OutputV
++ _symbolic _____y______GSg 10FinanceKit0A5StoreC7ChangesV AA11TransactionV
++ _symbolic _____y______GSg 10FinanceKit0A5StoreC7ChangesV AA14AccountBalanceV
++ _symbolic _____y______GSg 10FinanceKit0A5StoreC7ChangesV AA15InternalAccountV
++ _symbolic _____y______GSg 10FinanceKit0A5StoreC7ChangesV AA18BankConnectConsentV
++ _symbolic _____y______GSg 10FinanceKit0A5StoreC7ChangesV AA19InternalTransactionV
++ _symbolic _____y______GSg 10FinanceKit0A5StoreC7ChangesV AA22InternalAccountBalanceV
++ _symbolic _____y______GSg 10FinanceKit0A5StoreC7ChangesV AA7AccountO
++ _symbolic _____y______QPG 10Foundation9PredicateV 10FinanceKit11TransactionV
++ _symbolic _____y______QPG 10Foundation9PredicateV 10FinanceKit14AccountBalanceV
++ _symbolic _____y______QPG 10Foundation9PredicateV 10FinanceKit7AccountO
++ _symbolic _____y______QPGSg 10Foundation9PredicateV 10FinanceKit11TransactionV
++ _symbolic _____y______QPGSg 10Foundation9PredicateV 10FinanceKit14AccountBalanceV
++ _symbolic _____y______QPGSg 10Foundation9PredicateV 10FinanceKit7AccountO
++ _symbolic _____y______SgG 10Foundation20PredicateExpressionsO5ValueV AA4DateV
++ _symbolic _____y__________G s13ManagedBufferC 10FinanceKit26SelectAccountsUIXPCServiceC17ContinuationState33_4A4337985040231D5254851B9AAEF022LLO So16os_unfair_lock_sV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation20PredicateExpressionsO10VariableIDV 10FinanceKit25KeyPathConvertibleContext03_B6N28FDD4CBD974CB54D986639E8AAD00LLV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 10FinanceKit16AccountStartDateV
++ _symbolic _____y___________G 10FinanceKit0A5StoreC29HistoryIteratorImplementationC AA20AccountAsyncSequenceC0E0V AA0G0O
++ _symbolic _____y___________G 10FinanceKit0A5StoreC29HistoryIteratorImplementationC AA24TransactionAsyncSequenceC0E0V AA0G0V
++ _symbolic _____y___________G 10FinanceKit0A5StoreC29HistoryIteratorImplementationC AA27AccountBalanceAsyncSequenceC0E0V AA0gH0V
++ _symbolic _____y_______________G 10FinanceKit24EntityLongRunningFetcherC AA11TransactionV AA07ManagedG0C s5NeverO
++ _symbolic _____y_______________G 10FinanceKit24EntityLongRunningFetcherC AA14AccountBalanceV AA07ManagedgH0C s5NeverO
++ _symbolic _____y_______________G 10FinanceKit24EntityLongRunningFetcherC AA7AccountO AA07ManagedG0C s5NeverO
++ _symbolic _____y_______________G 10FinanceKit26FinancialDataAsyncSequenceC AA14ManagedAccountC AA0H0O s5NeverO
++ _symbolic _____y_______________G 10FinanceKit26FinancialDataAsyncSequenceC AA18ManagedTransactionC AA0H0V s5NeverO
++ _symbolic _____y_______________G 10FinanceKit26FinancialDataAsyncSequenceC AA21ManagedAccountBalanceC AA0hI0V s5NeverO
++ _symbolic _____y_______________GSg 10FinanceKit24EntityLongRunningFetcherC AA11TransactionV AA07ManagedG0C s5NeverO
++ _symbolic _____y_______________GSg 10FinanceKit24EntityLongRunningFetcherC AA14AccountBalanceV AA07ManagedgH0C s5NeverO
++ _symbolic _____y_______________GSg 10FinanceKit24EntityLongRunningFetcherC AA7AccountO AA07ManagedG0C s5NeverO
++ _symbolic _____y_______________GSgXw 10FinanceKit24EntityLongRunningFetcherC AA11TransactionV AA07ManagedG0C s5NeverO
++ _symbolic _____y_______________GSgXw 10FinanceKit24EntityLongRunningFetcherC AA14AccountBalanceV AA07ManagedgH0C s5NeverO
++ _symbolic _____y_______________GSgXw 10FinanceKit24EntityLongRunningFetcherC AA7AccountO AA07ManagedG0C s5NeverO
++ _symbolic _____y_______________GSgXw 10FinanceKit26FinancialDataAsyncSequenceC AA14ManagedAccountC AA0H0O s5NeverO
++ _symbolic _____y_______________GSgXw 10FinanceKit26FinancialDataAsyncSequenceC AA18ManagedTransactionC AA0H0V s5NeverO
++ _symbolic _____y_______________GSgXw 10FinanceKit26FinancialDataAsyncSequenceC AA21ManagedAccountBalanceC AA0hI0V s5NeverO
++ _symbolic _____y___________pGSg s6ResultO 10FinanceKit23DeviceIdentitySignatureV s5ErrorP
++ _symbolic _____y___________pGSgz_Xx s6ResultO 10FinanceKit23DeviceIdentitySignatureV s5ErrorP
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 10Foundation20PredicateExpressionsO10VariableIDV 10FinanceKit25KeyPathConvertibleContext03_B6O28FDD4CBD974CB54D986639E8AAD00LLV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 10Foundation4UUIDV 10FinanceKit16AccountStartDateV
++ _symbolic _____y_______pG 7Combine11SubscribersO10CompletionO s5ErrorP
++ _symbolic _____y______y_ABy______y______y______G_____SgGAgCy_ADy_AGG_____GAKGAK_____y______y_ADy_AKG_____y_AKGGAOy_ApAy_AQy_AKSgGARGGGSbGAQy_SbGG 10Foundation20PredicateExpressionsO11NilCoalesceV AC15OptionalFlatMapV AC7KeyPathV AC8VariableV 10FinanceKit14AccountBalanceV AL0O0V AA4DateV AC11ConjunctionV AC10ComparisonV AC5ValueV
++ _symbolic _____y______y_Say_____GG_____y_ACGG 10Foundation20PredicateExpressionsO16SequenceContainsV AC5ValueV 10FinanceKit20MerchantCategoryCodeV AC8VariableV
++ _symbolic _____y______y_Say_____GG_____y______y______GACGG 10Foundation20PredicateExpressionsO16SequenceContainsV AC5ValueV 10FinanceKit15TransactionTypeO AC7KeyPathV AC8VariableV AH0I0V
++ _symbolic _____y______y_Say_____GG_____y______y______GACGG 10Foundation20PredicateExpressionsO16SequenceContainsV AC5ValueV 10FinanceKit17TransactionStatusO AC7KeyPathV AC8VariableV AH0I0V
++ _symbolic _____y______y______G_____G 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 10FinanceKit11TransactionV AH0I4TypeO
++ _symbolic _____y______y______G_____G 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 10FinanceKit11TransactionV AH0I6StatusO
++ _symbolic _____y______y______G_____G 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 10FinanceKit7BalanceV AA4DateV
++ _symbolic _____y______y______G_____SgG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 10FinanceKit11TransactionV AH20MerchantCategoryCodeV
++ _symbolic _____y______y______G_____SgG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 10FinanceKit14AccountBalanceV AH0J0V
++ _symbolic _____y______y______G_____y_ACGG 10Foundation20PredicateExpressionsO10ComparisonV AC8VariableV AA4DateV AC5ValueV
++ _symbolic _____y______y______G_____y______y_ACSgGAFy_ACGGG 10Foundation20PredicateExpressionsO10ComparisonV AC8VariableV AA4DateV AC11NilCoalesceV AC5ValueV
++ _symbolic _____y______y______SgGABy_ACGG 10Foundation20PredicateExpressionsO11NilCoalesceV AC5ValueV AA4DateV
++ _symbolic _____y______y______y______G_____SgGAF_____y______y_SayAFGGACy_AFGGSbG 10Foundation20PredicateExpressionsO15OptionalFlatMapV AC7KeyPathV AC8VariableV 10FinanceKit11TransactionV AJ20MerchantCategoryCodeV AC16SequenceContainsV AC5ValueV
++ _symbolic _____y______y______y______G_____SgGAfBy_ACy_AFG_____GAJG 10Foundation20PredicateExpressionsO15OptionalFlatMapV AC7KeyPathV AC8VariableV 10FinanceKit14AccountBalanceV AJ0M0V AA4DateV
++ _symbolic _____y______y______y______G_____y_ADGGABy_AE_____y_AFy_ADSgGAGGGG 10Foundation20PredicateExpressionsO11ConjunctionV AC10ComparisonV AC8VariableV AA4DateV AC5ValueV AC11NilCoalesceV
++ _symbolic _____y______y______y______y______G_____SgGAG_____y______y_SayAGGGADy_AGGGSbGAKy_SbGG 10Foundation20PredicateExpressionsO11NilCoalesceV AC15OptionalFlatMapV AC7KeyPathV AC8VariableV 10FinanceKit11TransactionV AL20MerchantCategoryCodeV AC16SequenceContainsV AC5ValueV
++ _symbolic _____y______yyt______pGSo9NSRunLoopCG 7Combine10PublishersO8ThrottleV AA18PassthroughSubjectC s5ErrorP
++ _symbolic _____y_____y_____GG s18ReversedCollectionV s5SliceV 17_StringProcessing14AnyRegexOutputV
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10Foundation14SortDescriptorV 10FinanceKit29ManagedMapsTransactionInsightC
++ _symbolic _____y_____y_____G_G s18ReversedCollectionV8IteratorV s5SliceV 17_StringProcessing14AnyRegexOutputV
++ _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC11TransactionV
++ _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC14AccountBalanceV
++ _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC15InternalAccountV
++ _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC18BankConnectConsentV
++ _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC19InternalTransactionV
++ _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC22InternalAccountBalanceV
++ _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC7AccountO
++ _symbolic _____y_____y_______________G_____G s13ManagedBufferC 10FinanceKit31FinancialDataAsyncSequenceStateV AC11TransactionV AC0aJ0C s5NeverO So16os_unfair_lock_sV
++ _symbolic _____y_____y_______________G_____G s13ManagedBufferC 10FinanceKit31FinancialDataAsyncSequenceStateV AC14AccountBalanceV AC0ajK0C s5NeverO So16os_unfair_lock_sV
++ _symbolic _____y_____y_______________G_____G s13ManagedBufferC 10FinanceKit31FinancialDataAsyncSequenceStateV AC7AccountO AC0aJ0C s5NeverO So16os_unfair_lock_sV
++ _symbolic _____y_q_G 10FinanceKit0A5StoreC15HistoryIteratorC
++ _symbolic _____y_q_G 10FinanceKit0A5StoreC7ChangesV
++ _symbolic _____y_xG 10FinanceKit0A5StoreC15HistoryIteratorC
++ _symbolic _____y_xG 10FinanceKit0A5StoreC7ChangesV
++ _symbolic _____y_x_G 10FinanceKit0A5StoreC7HistoryV8IteratorV
++ _symbolic _____yt______pXj r0_l7Combine7Subject_pq_7FailureRts_x6OutputRtsXPXGMq s5ErrorP
++ _symbolic _____yyt______pG 7Combine18PassthroughSubjectC s5ErrorP
++ _symbolic y_____y_xGc 10FinanceKit0A5StoreC7ChangesV
++ _symbolic ytIegr_
+- -[FKAccount initWithFullyQualifiedAccountIdentifier:accountType:balance:accountBalance:creditLimit:minimumPaymentAmount:nextPaymentDate:overduePaymentAmount:actions:isAccountEnabled:isAccountMismatched:accountRefreshFailure:transactionsRefreshFailure:]
+- -[FKAuthorizationSession initWithSessionId:consent:codeVerifier:institution:fpanId:authorizationType:]
+- -[FKBankConnectInstitutionMatcher institutionForPaymentPass:completion:]
+- -[FKBankConnectOsloProvider listenForPrimaryAccountIdentifiers:callback:]
+- -[FKBankConnectTransactionHistoryProvider .cxx_destruct]
+- -[FKBankConnectTransactionHistoryProvider dataProvider]
+- -[FKBankConnectTransactionHistoryProvider delegate]
+- -[FKBankConnectTransactionHistoryProvider fetchTransactionsAndReturnError:]
+- -[FKBankConnectTransactionHistoryProvider initWithPrimaryAccountIdentifier:]
+- -[FKBankConnectTransactionHistoryProvider latestTransactionAtIndex:]
+- -[FKBankConnectTransactionHistoryProvider monthlyTransactionGroups]
+- -[FKBankConnectTransactionHistoryProvider numberOfLatestTransactions]
+- -[FKBankConnectTransactionHistoryProvider numberOfTransactionGroups]
+- -[FKBankConnectTransactionHistoryProvider setDataProvider:]
+- -[FKBankConnectTransactionHistoryProvider setDelegate:]
+- -[FKBankConnectTransactionHistoryProvider transactionAtIndex:inGroupWithIdentifier:]
+- -[FKBankConnectTransactionHistoryProvider transactionAtIndex:inMonthlyGroupWithIdentifier:]
+- -[FKBankConnectTransactionHistoryProvider transactionAtIndex:inYearlyGroupWithIdentifier:]
+- -[FKBankConnectTransactionHistoryProvider transactionGroups]
+- -[FKBankConnectTransactionHistoryProvider yearlyTransactionGroups]
+- -[FKInstitution initWithInstitutionIdentifier:name:reconsentType:supportedAuthTypes:firstTransactionsRequestWindow:maxAgeTransactionsFirstRequest:maxAgeTransactionsRefreshRequest:extensionsBundleIdentifiers:backgroundRefreshEnabled:termsAndConditionsURL:]
+- _OBJC_CLASS_$_FKBankConnectTransactionHistoryProvider
+- _OBJC_CLASS_$__TtC10FinanceKit26YearlyTransactionsProvider
+- _OBJC_CLASS_$__TtC10FinanceKit27MonthlyTransactionsProvider
+- _OBJC_CLASS_$__TtC10FinanceKit32CurrentMonthTransactionsProvider
+- _OBJC_CLASS_$__TtC10FinanceKit34PreviousMonthsTransactionsProvider
+- _OBJC_CLASS_$__TtC10FinanceKit37BankConnectTransactionHistoryProvider
+- _OBJC_IVAR_$_FKAppleAccount._creditDebitIndicator
+- _OBJC_IVAR_$_FKBankConnectTransactionHistoryProvider._dataProvider
+- _OBJC_IVAR_$_FKPaymentTransaction._applePayInsight
+- _OBJC_IVAR_$_FKPaymentTransaction._mapsInsight
+- _OBJC_METACLASS_$_FKBankConnectTransactionHistoryProvider
+- _OBJC_METACLASS_$__TtC10FinanceKit26YearlyTransactionsProvider
+- _OBJC_METACLASS_$__TtC10FinanceKit27MonthlyTransactionsProvider
+- _OBJC_METACLASS_$__TtC10FinanceKit32CurrentMonthTransactionsProvider
+- _OBJC_METACLASS_$__TtC10FinanceKit34PreviousMonthsTransactionsProvider
+- _OBJC_METACLASS_$__TtC10FinanceKit37BankConnectTransactionHistoryProvider
+- __CATEGORY__TtC10FinanceKit26YearlyTransactionsProvider_$_FinanceKit
+- __CATEGORY__TtC10FinanceKit27MonthlyTransactionsProvider_$_FinanceKit
+- __CATEGORY__TtC10FinanceKit32CurrentMonthTransactionsProvider_$_FinanceKit
+- __CATEGORY__TtC10FinanceKit34PreviousMonthsTransactionsProvider_$_FinanceKit
+- __CATEGORY__TtC10FinanceKit37BankConnectTransactionHistoryProvider_$_FinanceKit
+- __DATA__TtC10FinanceKit25FakeCoreAnalyticsProvider
+- __DATA__TtC10FinanceKit26YearlyTransactionsProvider
+- __DATA__TtC10FinanceKit27MonthlyTransactionsProvider
+- __DATA__TtC10FinanceKit32CurrentMonthTransactionsProvider
+- __DATA__TtC10FinanceKit34PreviousMonthsTransactionsProvider
+- __DATA__TtC10FinanceKit35BankConnectWebServiceUserIdentifier
+- __DATA__TtC10FinanceKit37BankConnectTransactionHistoryProvider
+- __IVARS__TtC10FinanceKit25FakeCoreAnalyticsProvider
+- __IVARS__TtC10FinanceKit26YearlyTransactionsProvider
+- __IVARS__TtC10FinanceKit27MonthlyTransactionsProvider
+- __IVARS__TtC10FinanceKit32CurrentMonthTransactionsProvider
+- __IVARS__TtC10FinanceKit34PreviousMonthsTransactionsProvider
+- __IVARS__TtC10FinanceKit35BankConnectWebServiceUserIdentifier
+- __IVARS__TtC10FinanceKit37BankConnectTransactionHistoryProvider
+- __METACLASS_DATA__TtC10FinanceKit25FakeCoreAnalyticsProvider
+- __METACLASS_DATA__TtC10FinanceKit26YearlyTransactionsProvider
+- __METACLASS_DATA__TtC10FinanceKit27MonthlyTransactionsProvider
+- __METACLASS_DATA__TtC10FinanceKit32CurrentMonthTransactionsProvider
+- __METACLASS_DATA__TtC10FinanceKit34PreviousMonthsTransactionsProvider
+- __METACLASS_DATA__TtC10FinanceKit35BankConnectWebServiceUserIdentifier
+- __METACLASS_DATA__TtC10FinanceKit37BankConnectTransactionHistoryProvider
+- __OBJC_$_CLASS_METHODS__TtC10FinanceKit37BankConnectTransactionHistoryProvider
+- __OBJC_$_INSTANCE_METHODS_FKBankConnectTransactionHistoryProvider
+- __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit26YearlyTransactionsProvider
+- __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit26YearlyTransactionsProvider(FinanceKit)
+- __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit27MonthlyTransactionsProvider
+- __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit27MonthlyTransactionsProvider(FinanceKit)
+- __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit32CurrentMonthTransactionsProvider
+- __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit32CurrentMonthTransactionsProvider(FinanceKit)
+- __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit34PreviousMonthsTransactionsProvider
+- __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit34PreviousMonthsTransactionsProvider(FinanceKit)
+- __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit37BankConnectTransactionHistoryProvider
+- __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit37BankConnectTransactionHistoryProvider(FinanceKit|FinanceKit1)
+- __OBJC_$_INSTANCE_VARIABLES_FKBankConnectTransactionHistoryProvider
+- __OBJC_$_PROP_LIST_FKBankConnectTransactionHistoryProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FKBankConnectTransactionHistoryProviderDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FKBankConnectTransactionHistoryProviderDelegate
+- __OBJC_$_PROTOCOL_REFS_FKBankConnectTransactionHistoryProviderDelegate
+- __OBJC_CLASS_PROTOCOLS_$__TtC10FinanceKit26YearlyTransactionsProvider(FinanceKit)
+- __OBJC_CLASS_PROTOCOLS_$__TtC10FinanceKit27MonthlyTransactionsProvider(FinanceKit)
+- __OBJC_CLASS_PROTOCOLS_$__TtC10FinanceKit32CurrentMonthTransactionsProvider(FinanceKit)
+- __OBJC_CLASS_PROTOCOLS_$__TtC10FinanceKit34PreviousMonthsTransactionsProvider(FinanceKit)
+- __OBJC_CLASS_RO_$_FKBankConnectTransactionHistoryProvider
+- __OBJC_LABEL_PROTOCOL_$_FKBankConnectTransactionHistoryProviderDelegate
+- __OBJC_METACLASS_RO_$_FKBankConnectTransactionHistoryProvider
+- __OBJC_PROTOCOL_$_FKBankConnectTransactionHistoryProviderDelegate
+- __PROPERTIES__TtC10FinanceKit37BankConnectTransactionHistoryProvider
+- __PROTOCOLS_XPCBankConnectAccountConnectionResult.15
+- __PROTOCOLS_XPCBankConnectAuthorizationPayload.14
+- __PROTOCOLS_XPCFetchOrderType.21
+- __PROTOCOLS_XPCFraudAssessmentResult.5
+- __PROTOCOLS_XPCFullyQualifiedAccountIdentifier.12
+- __PROTOCOLS_XPCInstitution.5
+- __PROTOCOLS_XPCInternalAccount.19
+- __PROTOCOLS_XPCOrders.13
+- __PROTOCOLS__TtC10FinanceKit26YearlyTransactionsProvider
+- __PROTOCOLS__TtC10FinanceKit26YearlyTransactionsProvider.2
+- __PROTOCOLS__TtC10FinanceKit27MonthlyTransactionsProvider
+- __PROTOCOLS__TtC10FinanceKit27MonthlyTransactionsProvider.2
+- __PROTOCOLS__TtC10FinanceKit28XPCOrderInsertOrUpdateResult.3
+- __PROTOCOLS__TtC10FinanceKit29XPCOrderInsertOrUpdateOptions.10
+- __PROTOCOLS__TtC10FinanceKit32CurrentMonthTransactionsProvider
+- __PROTOCOLS__TtC10FinanceKit32CurrentMonthTransactionsProvider.2
+- __PROTOCOLS__TtC10FinanceKit34PreviousMonthsTransactionsProvider
+- __PROTOCOLS__TtC10FinanceKit34PreviousMonthsTransactionsProvider.2
+- __PROTOCOLS__TtC10FinanceKitP33_82FCA57B9514272BE863607579F9568E15SessionDelegate.22
+- __PROTOCOLS__TtC10FinanceKitP33_BBE0122A3E1307DE2D47D62BE8CA3C6615SessionDelegate.23
+- __PROTOCOLS__TtC10FinanceKitP33_D792C1975BCD83E251CC308B2A7B211715SessionDelegate.33
+- ___swift_project_boxed_opaque_existential_0Tm
+- _associated conformance 10FinanceKit0A5ErrorO4CodeOSHAASQ
+- _associated conformance 10FinanceKit0A5ErrorOSHAASQ
+- _associated conformance 10FinanceKit18RawBankConnectDataO7AccountO05AssetG10CodingKeys33_990782E8A01F0749FA5E2655D3A86754LLOSHAASQ
+- _associated conformance 10FinanceKit18RawBankConnectDataO7AccountO05AssetG10CodingKeys33_990782E8A01F0749FA5E2655D3A86754LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 10FinanceKit18RawBankConnectDataO7AccountO05AssetG10CodingKeys33_990782E8A01F0749FA5E2655D3A86754LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10FinanceKit18RawBankConnectDataO7AccountO09LiabilityG10CodingKeys33_990782E8A01F0749FA5E2655D3A86754LLOSHAASQ
+- _associated conformance 10FinanceKit18RawBankConnectDataO7AccountO09LiabilityG10CodingKeys33_990782E8A01F0749FA5E2655D3A86754LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 10FinanceKit18RawBankConnectDataO7AccountO09LiabilityG10CodingKeys33_990782E8A01F0749FA5E2655D3A86754LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10FinanceKit18RawBankConnectDataO7AccountO10CodingKeys33_990782E8A01F0749FA5E2655D3A86754LLOSHAASQ
+- _associated conformance 10FinanceKit18RawBankConnectDataO7AccountO10CodingKeys33_990782E8A01F0749FA5E2655D3A86754LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 10FinanceKit18RawBankConnectDataO7AccountO10CodingKeys33_990782E8A01F0749FA5E2655D3A86754LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10FinanceKit18RawBankConnectDataO7AccountO4fromAEs7Decoder_p_tKcfc13DiscriminatorL_V10CodingKeysOSHAASQ
+- _associated conformance 10FinanceKit18RawBankConnectDataO7AccountO4fromAEs7Decoder_p_tKcfc13DiscriminatorL_V10CodingKeysOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 10FinanceKit18RawBankConnectDataO7AccountO4fromAEs7Decoder_p_tKcfc13DiscriminatorL_V10CodingKeysOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10FinanceKit21LongRunningQueryErrorOSHAASQ
+- _associated conformance 10FinanceKit28BankConnectConsentStoreErrorOSHAASQ
+- _associated conformance 10FinanceKit30FinancialDataHistoryTokenErrorOSHAASQ
+- _associated conformance 10FinanceKit31BankConnectConsentProviderErrorOSHAASQ
+- _associated conformance 10FinanceKit6AmountV10CodingKeysOSHAASQ
+- _associated conformance 10FinanceKit6AmountV10CodingKeysOs0D3KeyAAs23CustomStringConvertible
+- _associated conformance 10FinanceKit6AmountV10CodingKeysOs0D3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10FinanceKit6AmountVSHAASQ
+- _associated conformance 10FinanceKit6AmountVSLAASQ
+- _block_copy_helper.115
+- _block_copy_helper.12
+- _block_copy_helper.132
+- _block_copy_helper.149
+- _block_copy_helper.166
+- _block_copy_helper.18
+- _block_copy_helper.183
+- _block_copy_helper.200
+- _block_copy_helper.217
+- _block_copy_helper.234
+- _block_copy_helper.25
+- _block_copy_helper.251
+- _block_copy_helper.268
+- _block_copy_helper.287
+- _block_copy_helper.40
+- _block_copy_helper.43
+- _block_copy_helper.44
+- _block_copy_helper.49
+- _block_copy_helper.58
+- _block_copy_helper.64
+- _block_copy_helper.77
+- _block_copy_helper.81
+- _block_copy_helper.98
+- _block_descriptor.100
+- _block_descriptor.11
+- _block_descriptor.117
+- _block_descriptor.134
+- _block_descriptor.15
+- _block_descriptor.151
+- _block_descriptor.168
+- _block_descriptor.185
+- _block_descriptor.202
+- _block_descriptor.219
+- _block_descriptor.236
+- _block_descriptor.253
+- _block_descriptor.27
+- _block_descriptor.270
+- _block_descriptor.282
+- _block_descriptor.289
+- _block_descriptor.301
+- _block_descriptor.43
+- _block_descriptor.45
+- _block_descriptor.60
+- _block_descriptor.79
+- _block_descriptor.83
+- _block_destroy_helper.116
+- _block_destroy_helper.13
+- _block_destroy_helper.133
+- _block_destroy_helper.150
+- _block_destroy_helper.167
+- _block_destroy_helper.184
+- _block_destroy_helper.19
+- _block_destroy_helper.201
+- _block_destroy_helper.218
+- _block_destroy_helper.235
+- _block_destroy_helper.252
+- _block_destroy_helper.26
+- _block_destroy_helper.269
+- _block_destroy_helper.288
+- _block_destroy_helper.41
+- _block_destroy_helper.44
+- _block_destroy_helper.45
+- _block_destroy_helper.50
+- _block_destroy_helper.59
+- _block_destroy_helper.65
+- _block_destroy_helper.78
+- _block_destroy_helper.82
+- _block_destroy_helper.99
+- _get_witness_table 10FinanceKit11HTTPRequestRzlAA0C26WithSecureElementSignatureVAaBHPyHC.17
+- _keypath_get.11Tm
+- _keypath_get.13Tm
+- _keypath_get.14Tm
+- _keypath_get.17Tm
+- _keypath_get.19Tm
+- _keypath_get.1Tm
+- _keypath_get.23Tm
+- _keypath_get.3Tm
+- _keypath_get.50Tm
+- _keypath_get.5Tm
+- _keypath_get.60Tm
+- _keypath_get.8Tm
+- _keypath_get.9Tm
+- _keypath_getTm
+- _objc_msgSend$institutionForPass:completion:
+- _objc_msgSend$listenForPrimaryAccountIdentifiers:callback:
+- _objc_msgSend$makeProviderWithPrimaryAccountIdentifier:returnError:
+- _objc_msgSend$monthlyTransactionGroups
+- _objc_msgSend$transactionAtIndex:inMonthlyGroupWithIdentifier:
+- _objc_msgSend$transactionAtIndex:inYearlyGroupWithIdentifier:
+- _objc_msgSend$yearlyTransactionGroups
+- _objectdestroy.11Tm
+- _objectdestroy.14Tm
+- _objectdestroy.18Tm
+- _objectdestroy.23Tm
+- _objectdestroy.47Tm
+- _objectdestroy.48Tm
+- _objectdestroy.56Tm
+- _symbolic $s10FinanceKit21TransactionsProvidingP
+- _symbolic $s10FinanceKit26BankConnectConsentProviderP
+- _symbolic $s10FinanceKit27LatestTransactionsProvidingP
+- _symbolic $s10FinanceKit40CurrentMonthTransactionsProviderDelegateP
+- _symbolic $s10FinanceKit42PreviousMonthsTransactionsProviderDelegateP
+- _symbolic $s10FinanceKit44BankConnectWebServiceUserIdentifierProvidingP
+- _symbolic SS_So9FKBalanceCSgt
+- _symbolic SaySccy_____yxGSg______pGG 10FinanceKit7UpdatesV s5ErrorP
+- _symbolic Say______pG 10FinanceKit14AnalyticsEventP
+- _symbolic Say_____yxGG 10FinanceKit7UpdatesV
+- _symbolic So12NSDictionaryCIegg_
+- _symbolic So47FKBankConnectTransactionHistoryProviderDelegate_pSgXw
+- _symbolic So9FKBalanceCSg
+- _symbolic _____ 10FinanceKit0A5ErrorO4CodeO
+- _symbolic _____ 10FinanceKit18RawBankConnectDataO7AccountO05AssetG10CodingKeys33_990782E8A01F0749FA5E2655D3A86754LLO
+- _symbolic _____ 10FinanceKit18RawBankConnectDataO7AccountO09LiabilityG10CodingKeys33_990782E8A01F0749FA5E2655D3A86754LLO
+- _symbolic _____ 10FinanceKit18RawBankConnectDataO7AccountO10CodingKeys33_990782E8A01F0749FA5E2655D3A86754LLO
+- _symbolic _____ 10FinanceKit18RawBankConnectDataO7AccountO4fromAEs7Decoder_p_tKcfc13DiscriminatorL_V
+- _symbolic _____ 10FinanceKit18RawBankConnectDataO7AccountO4fromAEs7Decoder_p_tKcfc13DiscriminatorL_V10CodingKeysO
+- _symbolic _____ 10FinanceKit21LongRunningQueryErrorO
+- _symbolic _____ 10FinanceKit25FakeCoreAnalyticsProviderC
+- _symbolic _____ 10FinanceKit25FinancialDataHistoryTokenV
+- _symbolic _____ 10FinanceKit26YearlyTransactionsProviderC
+- _symbolic _____ 10FinanceKit27MonthlyTransactionsProviderC
+- _symbolic _____ 10FinanceKit28BankConnectConsentStoreErrorO
+- _symbolic _____ 10FinanceKit30FinancialDataHistoryTokenErrorO
+- _symbolic _____ 10FinanceKit31BankConnectConsentProviderErrorO
+- _symbolic _____ 10FinanceKit32CurrentMonthTransactionsProviderC
+- _symbolic _____ 10FinanceKit34PreviousMonthsTransactionsProviderC
+- _symbolic _____ 10FinanceKit35BankConnectWebServiceUserIdentifierC
+- _symbolic _____ 10FinanceKit37BankConnectTransactionHistoryProviderC
+- _symbolic _____ 10FinanceKit6AmountV
+- _symbolic _____ 10FinanceKit6AmountV0C5ValueO
+- _symbolic _____ 10FinanceKit6AmountV10CodingKeysO
+- _symbolic _____ 10FinanceKit7UpdatesV
+- _symbolic _____Sg 10FinanceKit13CoreDataStoreC
+- _symbolic _____Sg 10FinanceKit25FinancialDataHistoryTokenV
+- _symbolic _____Sg 10FinanceKit6AmountV
+- _symbolic ______p 10FinanceKit26BankConnectConsentProviderP
+- _symbolic ______pSgXw 10FinanceKit40CurrentMonthTransactionsProviderDelegateP
+- _symbolic ______pSgXw 10FinanceKit42PreviousMonthsTransactionsProviderDelegateP
+- _symbolic _____ySSSo6NSNullCG s18_DictionaryStorageC
+- _symbolic _____ySSSo9FKBalanceCSgG s18_DictionaryStorageC
+- _symbolic _____ySS_So9FKBalanceCSgtG s23_ContiguousArrayStorageC
+- _symbolic _____ySccy_____y_____GSg______pGG s23_ContiguousArrayStorageC 10FinanceKit7UpdatesV AC15InternalAccountV s5ErrorP
+- _symbolic _____ySccy_____y_____GSg______pGG s23_ContiguousArrayStorageC 10FinanceKit7UpdatesV AC18BankConnectConsentV s5ErrorP
+- _symbolic _____ySccy_____y_____GSg______pGG s23_ContiguousArrayStorageC 10FinanceKit7UpdatesV AC19InternalTransactionV s5ErrorP
+- _symbolic _____ySccy_____y_____GSg______pGG s23_ContiguousArrayStorageC 10FinanceKit7UpdatesV AC22InternalAccountBalanceV s5ErrorP
+- _symbolic _____ySi1x_Si1ytG s23_ContiguousArrayStorageC
+- _symbolic _____y_____G 10FinanceKit7UpdatesV AA15InternalAccountV
+- _symbolic _____y_____G 10FinanceKit7UpdatesV AA18BankConnectConsentV
+- _symbolic _____y_____G 10FinanceKit7UpdatesV AA19InternalTransactionV
+- _symbolic _____y_____G 10FinanceKit7UpdatesV AA22InternalAccountBalanceV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit18RawBankConnectDataO7AccountO4fromAGs7Decoder_p_tKcfc13DiscriminatorL_V10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit6AmountV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit18RawBankConnectDataO7AccountO05AssetJ10CodingKeys33_990782E8A01F0749FA5E2655D3A86754LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit18RawBankConnectDataO7AccountO09LiabilityJ10CodingKeys33_990782E8A01F0749FA5E2655D3A86754LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit18RawBankConnectDataO7AccountO10CodingKeys33_990782E8A01F0749FA5E2655D3A86754LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit6AmountV10CodingKeysO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10FinanceKit6AmountV
+- _symbolic _____y_____GSg 10FinanceKit7UpdatesV AA15InternalAccountV
+- _symbolic _____y_____GSg 10FinanceKit7UpdatesV AA18BankConnectConsentV
+- _symbolic _____y_____GSg 10FinanceKit7UpdatesV AA19InternalTransactionV
+- _symbolic _____y_____GSg 10FinanceKit7UpdatesV AA22InternalAccountBalanceV
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 10FinanceKit21TransactionsProvidingP
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10FinanceKit7UpdatesV AC15InternalAccountV
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10FinanceKit7UpdatesV AC18BankConnectConsentV
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10FinanceKit7UpdatesV AC19InternalTransactionV
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10FinanceKit7UpdatesV AC22InternalAccountBalanceV
+- _symbolic _____yq_G 10FinanceKit7UpdatesV
+- _symbolic y_____yxGc 10FinanceKit7UpdatesV
+CStrings:
++ "\x04!\""
++ "\x06"
++ "\x11\x1a"
++ "\x12\x11#"
++ "\x16"
++ "\x16#D"
++ "$__lazy_storage_$_mapsInsightImporter"
++ "%@ <= publicTransactionObject.transactionDate"
++ "<%@: %p; %@>"
++ "@\"FKBankMerchantInformationInsight\""
++ "@\"FKPaymentTransaction\""
++ "@\"FKPaymentTransactionInsights\""
++ "@\"_TtC10FinanceKit15WalletExposedDB\""
++ "@\"_TtC10FinanceKit25PIIStringProcessorWrapper\""
++ "@\"_TtC10FinanceKit26BankConnectMessagesManager\""
++ "@\"_TtC10FinanceKit36BankConnectPrivacySettingsController\""
++ "@\"_TtC10FinanceKit39BankConnectOfflineLabConsentCoordinator\""
++ "@\"_TtC10FinanceKit40BankConnectSpotlightTransactionsProvider\""
++ "@104@0:8@16@24@32@40Q48Q56@64@72@80@88@96"
++ "@104@0:8@16@24@32@40Q48q56@64Q72Q80@88@96"
++ "@112@0:8@16@24Q32s40@44d52d60@68B76B80@84B92B96B100@104"
++ "@136@0:8@16Q24@32@40@48@56@64@72@80@88@96B104B108@112Q120Q128"
++ "@152@0:8@16@24@32@40@48@56Q64q72@80@88@96Q104@112B120q124B132@136@144"
++ "@160@0:8@16@24@32@40@48@56Q64q72@80@88@96Q104@112B120q124B132@136@144@152"
++ "@40@0:8@16@24@32"
++ "@64@0:8@16@24@32@40@48@56"
++ "@68@0:8@16@24@32@40@48@56s64"
++ "Account with accountID: %s is no longer granted by updated consent. Resetting message status and deleting this account."
++ "Added maps identity to keychain"
++ "Adding maps identity to keychain"
++ "An unkown error occurred"
++ "AnalyticsPushAccount"
++ "AnalyticsPushTransaction"
++ "Apple Pay Maps Identity"
++ "AppleInstitutionConsentToken"
++ "Arbitrating a consent with consentID: %s for institutionID: %s using configuration: %s."
++ "Attempting to insert or update consent with consentID: %s using multiple  consent mode."
++ "Attempting to insert or update consent with consentID: %s using single  consent mode."
++ "B32@0:8q16@24"
++ "BankConnectOfflineLab"
++ "Can't construct Array with count < 0"
++ "CloudConsent"
++ "Consent with consentID: %s grants access to account with accountID: %s. Inserting or updating account."
++ "Data availability is restricted by the device configuration"
++ "Data loading error: "
++ "Deleted maps identity from keychain"
++ "Deleting Apple Account: %s"
++ "Deleting Apple Accounts Consent: %s"
++ "Deleting Apple Accounts Institution: %s"
++ "Deleting maps identity from keychain"
++ "Division by zero"
++ "Division results in an overflow"
++ "Error saving Maps lookup request: %@"
++ "Error updating linked: %{bool}d\nfor account with ID: %s\nwith bundleID: %s error: %@"
++ "Executing async accounts query"
++ "Executing async transaction insights query for transaction %s"
++ "Executing async transactions query"
++ "Existing consent found for institutionID: %s, updating the existing consent with values from consent with consentID: %s."
++ "Expected consent with UUID: %s due to arbiter configuration but wasn't found in store. Aborting arbitration."
++ "Expected institution with institutionID: %s, but it wasn't found in the store. Aborting arbitration."
++ "FINANCE_BOSKOOP"
++ "FINANCE_CONFIG"
++ "FINANCE_PHOENIX"
++ "FKBankConnectMessagesManager"
++ "FKBankConnectOfflineLabConsentCoordinator"
++ "FKBankConnectOsloProviderResponse"
++ "FKBankConnectSpotlightTransactionsProvider"
++ "FKBankConnectSpotlightTransactionsProviderResponse"
++ "FKBankMerchantInformationInsight"
++ "FKPIIStringProcessor"
++ "FKPaymentTransactionInsights"
++ "FKPrivacySettingsController"
++ "FKWalletExposedDB"
++ "Failed to add identity to keychain with status: %d"
++ "Failed to calculate lower and upper bounds"
++ "Failed to decode a strategy: %@"
++ "Failed to decode history token"
++ "Failed to delete identity with status: %d"
++ "Failed to fetch apple accounts, %ld unsuccessful attempts"
++ "Failed to fetch classified transactions: %@."
++ "Failed to find consent for %s."
++ "Failed to find consent for consentID: %s"
++ "Failed to find pending consent for consentID: %s"
++ "Failed to generate random data: %d"
++ "Failed to load offline lab preference"
++ "Failed to read regex strategies from Trial: %@"
++ "Failed to set offline lab preference"
++ "Fetching granted accounts for consent with consentID: %s."
++ "Fetching maps identity"
++ "Fetching updates failed: %@"
++ "FinanceKit.BankConnectMessagesManager"
++ "FinanceKit.BankConnectPrivacySettingsController"
++ "FinanceKit.BankConnectSpotlightTransactionsProvider"
++ "FinanceKit.OfflineLabSessionTaskDelegate"
++ "FinanceKit.PIIStringProcessorWrapper"
++ "FinanceKit.WalletExposedDB"
++ "FinanceKit/AccountBalance.swift"
++ "FinanceKit/AccountOriginType.swift"
++ "FinanceKit/BankConnectMessagesManager.swift"
++ "FinanceKit/FinanceStore+AccountBalances.swift"
++ "FinanceKit/FinanceStore+Accounts.swift"
++ "FinanceKit/FinanceStore+FinancialDataAuthorization.swift"
++ "FinanceKit/FinanceStore+History.swift"
++ "FinanceKit/FinanceStore+Transactions.swift"
++ "FinanceKit/ManagedCloudConsent.swift"
++ "FinanceKit/NSPredicateConversion.swift"
++ "Financial data is restricted on this device"
++ "Force multiple consents override enabled. Institution with ID: %s's client configuration `supportsMultipleConsents` is: %{bool}d."
++ "Getting consent for %s."
++ "Getting consent for consentID: %s."
++ "Getting pending consent for consentID: %s"
++ "Inserted new balance for account: %s lastUpdateAt: %s (%f ms)"
++ "Inserted or updated balance: %s with strategy: %s lastUpdateAt: %s (%f ms)"
++ "Inserting new consent with consentID: %s for institution with institutionID: %s."
++ "Inserting or updating apple account identifiers %s"
++ "Insufficient space allocated to copy string contents"
++ "Invalid Account Balance configuration"
++ "Keychain error: %d"
++ "Maps identity does not exist."
++ "Maps identity not found in keychain"
++ "Maps identity was not data."
++ "Merging the accounts granted by %ld consents into the new consent with consentID: %s for institutionID: %s."
++ "Missing cloud consent properties. This is unexpected."
++ "Multiple concurrent consent tokens feature flag disabled, falling back to single consent support."
++ "Multiple consents found for institutionID: %s. It's client configuration indicates that only a single consent is supported. Removing existing consents and replacing it them with consentID: %s."
++ "MultipleConcurrentConsentTokens"
++ "Must take zero or more splits"
++ "NSURLSessionTaskDelegate"
++ "Negative value is not representable"
++ "No existing consent found for institutionID: %s, inserting a new consent."
++ "No support for this operator yet: "
++ "Not enough bits to represent the passed value"
++ "Not found an associated primary account identifier for a transaction with\nobjectID %s"
++ "ObjC Exception thrown in fetchAppleAccounts: %@"
++ "Obtained existing maps identity"
++ "Orders are restricted on this device"
++ "Partial overlap detected between consent with consentID: %s and existing consents on device. Invalid configuration, aborting arbitration."
++ "Process is not entitled"
++ "Query predicate error, unsupported constant: "
++ "Query predicate error, unsupported keyPath: "
++ "Query predicate error, unsupported type."
++ "Range of a match group is not available"
++ "Range requires lowerBound <= upperBound"
++ "Received updates for accounts: %s"
++ "Reloading accounts for primaryAccountIdentifiers."
++ "Removing all account information"
++ "SELECTED_ACCOUNTS"
++ "SUBQUERY(accountObjects, $x, ANY $x.accountId = %@).@count > 0"
++ "SUBQUERY(consentObjects, $consent, $consent.consentID = %@).@count > 0"
++ "Swift/Array.swift"
++ "Swift/Collection.swift"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/IntegerTypes.swift"
++ "Swift/Integers.swift"
++ "Swift/Range.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"CNPostalAddress\",C,N,V_merchantAddress"
++ "T@\"FKApplePayTransactionInsight\",C,N,V_applePayInsight"
++ "T@\"FKApplePayTransactionInsight\",R,N"
++ "T@\"FKBankMerchantInformationInsight\",C,N,V_bankMerchantInformationInsight"
++ "T@\"FKMapsTransactionInsight\",C,N,V_mapsInsight"
++ "T@\"FKMapsTransactionInsight\",R,N"
++ "T@\"FKPaymentTransaction\",R,C,N,V_transaction"
++ "T@\"FKPaymentTransactionInsights\",C,N,V_insights"
++ "T@\"NSNumber\",C,N,V_merchantCategoryCode"
++ "T@\"NSSet\",R,C,N,V_piiRedactionConfigurationCountryCodes"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",C,N,V_categoryDescription"
++ "T@\"NSString\",C,N,V_merchantNumber"
++ "T@\"NSString\",C,N,V_standardIndustrialClassificationCode"
++ "T@\"NSString\",R,C,N,V_altDSID"
++ "T@\"NSString\",R,C,N,V_displayAccountNumberValue"
++ "T@\"NSString\",R,C,N,V_originalTransactionDescription"
++ "T@\"NSString\",R,C,N,V_primaryAccountIdentifier"
++ "T@\"NSUUID\",R,C,N,V_consentUUID"
++ "T@\"NSUUID\",R,C,N,V_previousConsentUUID"
++ "T@\"_TtC10FinanceKit15WalletExposedDB\",&,N,V_walletExposedDB"
++ "T@\"_TtC10FinanceKit17ManagedLabRequest\",N,D,&"
++ "T@\"_TtC10FinanceKit26BankConnectMessagesManager\",&,N,V_messagesManager"
++ "T@\"_TtC10FinanceKit32ManagedPIIRedactionConfiguration\",N,D,&"
++ "T@\"_TtC10FinanceKit40BankConnectSpotlightTransactionsProvider\",&,N,V_spotlightProvider"
++ "TB,N,V_isErrorResponse"
++ "TB,R,N,V_financialLabEnabled"
++ "TB,R,N,V_multipleConsentsEnabled"
++ "TB,R,N,V_problemReportingEnabled"
++ "TB,R,N,V_timestampSuitableForUserDisplay"
++ "TQ,N,R"
++ "TRANSACTION_STATUS_AUTHORIZED"
++ "TRANSACTION_STATUS_BOOKED"
++ "TRANSACTION_STATUS_MEMO"
++ "TRANSACTION_STATUS_PENDING"
++ "TRANSACTION_STATUS_REJECTED"
++ "Tried to update pending consent using a different cloud consent"
++ "URLSession:didCreateTask:"
++ "URLSession:task:didCompleteWithError:"
++ "URLSession:task:didFinishCollectingMetrics:"
++ "URLSession:task:didReceiveChallenge:completionHandler:"
++ "URLSession:task:didReceiveInformationalResponse:"
++ "URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:"
++ "URLSession:task:needNewBodyStream:"
++ "URLSession:task:needNewBodyStreamFromOffset:completionHandler:"
++ "URLSession:task:willBeginDelayedRequest:completionHandler:"
++ "URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:"
++ "URLSession:taskIsWaitingForConnectivity:"
++ "Unable to obtain managedInternalAccount for accountID %s"
++ "Unable to obtain persistent history: %@"
++ "Unable to provide authorized token, authorizedUntil has passed causing tokeninvalidation for consentID: %s"
++ "Unable to provide authorized token, token is invalid for consentID: %s"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "Unknown FKBankConnectAccountMessage"
++ "Unknown FKBankConnectPassMessage"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "Unsupported apple account type"
++ "Updating association between app (%s) with account: %s"
++ "Updating consent for consentID: %s."
++ "Wallet Device Identity"
++ "WalletPrivacySettings"
++ "X-Apple-Analytics-Device-Id"
++ "X-Apple-Analytics-User-Id"
++ "XPCAccountSelectionResult"
++ "XPCBankConnectAuthorizationConfiguration"
++ "XPCBankConnectConsent"
++ "XPCOfflineLabPermission"
++ "XPCOfflineLabSharingPreference"
++ "_TtC10FinanceKit15WalletExposedDB"
++ "_TtC10FinanceKit17ManagedLabRequest"
++ "_TtC10FinanceKit18PIIStringProcessor"
++ "_TtC10FinanceKit19ManagedCloudConsent"
++ "_TtC10FinanceKit20AccountAsyncSequence"
++ "_TtC10FinanceKit21ManagedPendingConsent"
++ "_TtC10FinanceKit22DeviceIdentityProvider"
++ "_TtC10FinanceKit24ManagedMapsLookupRequest"
++ "_TtC10FinanceKit24TransactionAsyncSequence"
++ "_TtC10FinanceKit25BankConnectConsentArbiter"
++ "_TtC10FinanceKit25PIIStringProcessorWrapper"
++ "_TtC10FinanceKit26BankConnectMessagesManager"
++ "_TtC10FinanceKit26SelectAccountsUIXPCService"
++ "_TtC10FinanceKit27AccountBalanceAsyncSequence"
++ "_TtC10FinanceKit28AppAuthorizationStateManager"
++ "_TtC10FinanceKit31PrivacySettingsStoreCoordinator"
++ "_TtC10FinanceKit32ManagedPIIRedactionConfiguration"
++ "_TtC10FinanceKit33BankConnectUserIdentifierProvider"
++ "_TtC10FinanceKit35PIIRedactionRegexCollectionProvider"
++ "_TtC10FinanceKit36BankConnectPrivacySettingsController"
++ "_TtC10FinanceKit39BankConnectOfflineLabConsentCoordinator"
++ "_TtC10FinanceKit40BankConnectSpotlightTransactionsProvider"
++ "_TtCFC10FinanceKit27BankConnectWebServiceClient20uploadOfflineLabDataFzZT3forVS_43BankConnectWebServiceOfflineLabItemsRequest_T_L_29OfflineLabSessionTaskDelegate"
++ "_TtCV10FinanceKit17MapsLookupRequest8Location"
++ "_TtP10FinanceKit24BankConnectXPCAutomating_"
++ "_TtP10FinanceKit27SelectAccountsUIXPCProtocol_"
++ "_TtP10FinanceKit31BankConnectXPCAccountValidating_"
++ "__swift_objectForKeyedSubscript:"
++ "_altDSID"
++ "_bankConnectService"
++ "_bankMerchantInformationInsight"
++ "_categoryDescription"
++ "_consentUUID"
++ "_displayAccountNumberValue"
++ "_financialLabEnabled"
++ "_insights"
++ "_isErrorResponse"
++ "_merchantAddress"
++ "_merchantNumber"
++ "_messagesManager"
++ "_multipleConsentsEnabled"
++ "_newKeyPathExpressionForString:"
++ "_originalTransactionDescription"
++ "_piiRedactionConfigurationCountryCodes"
++ "_previousConsentUUID"
++ "_primaryAccountIdentifiersToAccounts"
++ "_problemReportingEnabled"
++ "_spotlightProvider"
++ "_standardIndustrialClassificationCode"
++ "_timestampSuitableForUserDisplay"
++ "_transaction"
++ "_walletExposedDB"
++ "_wrappedController"
++ "_wrappedCoordinator"
++ "_wrappedProcessor"
++ "`isGlobal` is false but `locales` array is empty"
++ "`isGlobal` is true but `locales` array is not empty"
++ "accountForPrimaryIdentifier:"
++ "accountType.rawValue"
++ "activeOrders"
++ "allKeys"
++ "allowFinancialLearningLabSharing"
++ "altDSID"
++ "altDSID: %@; "
++ "applePayPrimaryAccountIdentifier != nil"
++ "applicationObjects"
++ "assetAccount.accountDescription"
++ "assetAccount.currencyCode"
++ "assetAccount.displayName"
++ "assetAccount.institutionName"
++ "author"
++ "authorizationManager"
++ "available.amount"
++ "available.amount.amount"
++ "available.amount.currencyCode"
++ "available.asOfDate"
++ "available.creditDebitIndicator"
++ "available.creditDebitIndicator.rawValue"
++ "balanceForPrimaryIdentifier:"
++ "bankMerchantEnhancedName"
++ "bankMerchantInformationInsight"
++ "bankTransactionDescription"
++ "bankTransactionDescriptionClean"
++ "base"
++ "booked.amount.amount"
++ "booked.amount.currencyCode"
++ "booked.creditDebitIndicator"
++ "booked.creditDebitIndicator.rawValue"
++ "cachedCollection"
++ "callbackCancellable"
++ "classificationMissReasonValue"
++ "clientWithIdentifier:"
++ "codableDisplayLocation"
++ "com.apple.finance.orders-api.called"
++ "com.apple.onboarding.improveapplepay"
++ "com.apple.pay.bank-connect.maps-identity"
++ "com.finance.BankConnectAutomatingError"
++ "completeConnectionAuthorization(forSession:withAuthorizationPayload:fraudAssessment:) is deprecated and has been replaced with completeConnectionAuthorization(for:with:fraudAssessment:configuration:). Please update immediately, continued use of this function may result in unexpected behaviour."
++ "completeConnectionAuthorizationFor:with:fraudAssessment:configuration:completionHandler:"
++ "consentObject.consentID == %@"
++ "consentObject.id == %@"
++ "consentObjects.@count > 0"
++ "consentStore"
++ "consentUUID"
++ "consentValidationAttemptCount"
++ "constantValue"
++ "containsOrder"
++ "containsOrderDate"
++ "continuation"
++ "coreDataLock"
++ "countryCodes"
++ "creditDebitIndicator.rawValue"
++ "creditDebitIndicatorValue.rawValue"
++ "creditInformation"
++ "dataSourceProvider"
++ "deleteOrder"
++ "deploymentId"
++ "didChange:"
++ "displayAccountNumberValue"
++ "earliestAccountValidationStartDate"
++ "enableAllAccountsForPublicAPI"
++ "experimentId"
++ "experimentIdentifiersWithNamespaceName:"
++ "expressionForAggregate:"
++ "expressionForConditional:trueExpression:falseExpression:"
++ "expressionForConstantValue:"
++ "expressionForEvaluatedObject"
++ "expressionForSubquery:usingIteratorVariable:predicate:"
++ "expressionForVariable:"
++ "expressionValueWithObject:context:"
++ "factorPackId"
++ "failedAttemptCount"
++ "fetchAppleAccountsAndReturnError:"
++ "fetchAppleAccountsWithError:"
++ "fetchOrder"
++ "fileValue"
++ "financial-data"
++ "financialLabEnabled"
++ "floatValue"
++ "forceMultipleConsentsEnabled"
++ "foreignCurrencyAmount.currencyCode"
++ "getConsentFor:completionHandler:"
++ "hasPath"
++ "includeLocationsInTheNextRetry"
++ "includeNearbyTransactionLocations"
++ "initForError"
++ "initWithAccountIdentifier:currentBalance:totalBalance:currency:status:type:creditLimit:minimumDueAmount:nextPaymentDueDate:lastUpdated:displayName:"
++ "initWithApplePayInsight:bankMerchantInformationInsight:mapsInsight:"
++ "initWithBundleID:"
++ "initWithCategoryDescription:merchantAddress:merchantCategoryCode:merchantName:merchantNumber:standardIndustrialClassificationCode:"
++ "initWithDictionary:"
++ "initWithFullyQualifiedAccountIdentifier:accountType:displayName:displayAccountNumberValue:balance:accountBalance:creditLimit:minimumPaymentAmount:nextPaymentDate:overduePaymentAmount:actions:isAccountEnabled:isAccountMismatched:consentUUID:accountRefreshFailure:transactionsRefreshFailure:"
++ "initWithInstitutionIdentifier:name:reconsentType:supportedAuthTypes:firstTransactionsRequestWindow:maxAgeTransactionsFirstRequest:maxAgeTransactionsRefreshRequest:extensionsBundleIdentifiers:backgroundRefreshEnabled:multipleConsentsEnabled:termsAndConditionsURL:problemReportingEnabled:financialLabEnabled:timestampSuitableForUserDisplay:piiRedactionConfigurationCountryCodes:"
++ "initWithOperand:andKeyPath:"
++ "initWithSessionId:consent:codeVerifier:previousConsentUUID:institution:fpanId:authorizationType:"
++ "initWithTransaction:primaryAccountIdentifier:"
++ "initWithTransactionIdentifier:accountIdentifier:amount:currency:creditDebitIndicator:merchantCategoryCode:merchantName:transactionType:transactionStatus:transactionDate:altDSID:"
++ "initWithTransactionIdentifier:amount:foreignAmount:foreignCurrencyExchangeRate:transactionDate:transactionStatusChangedDate:type:status:transactionDescription:originalTransactionDescription:localizedTypeDescription:creditDebitIndicator:actions:isBankConnectTransaction:merchantCategoryCode:hasNotificationServiceData:paymentHash:altDSID:insights:"
++ "initWithTransactionIdentifier:amount:foreignAmount:foreignCurrencyExchangeRate:transactionDate:transactionStatusChangedDate:type:status:transactionDescription:originalTransactionDescription:localizedTypeDescription:creditDebitIndicator:actions:isBankConnectTransaction:merchantCategoryCode:hasNotificationServiceData:paymentHash:insights:"
++ "initiateConnectionAuthorizationFor:fpanID:authorizationConfiguration:authorizationSource:completionHandler:"
++ "inputStream"
++ "insertOrUpdateOrder"
++ "insertOrUpdateTransactions:forAppleAccountWithID:error:"
++ "insights"
++ "institutionID = %@"
++ "invalid Collection: less than 'count' elements in collection"
++ "isAccountMessageDismissed:forAccountIdentifier:"
++ "isDataRestrictedFor:completion:"
++ "isErrorResponse"
++ "isGlobal"
++ "isOfflineLabPreferenceAvailable"
++ "isPassMessageDismissed:forFPANIdentifier:"
++ "keychainAccessGroup"
++ "keychainServiceName"
++ "labRequestObject"
++ "lastConsentValidationAttemptDate"
++ "lastFailureDate"
++ "lastSuccessDate"
++ "latitude"
++ "levelForFactor:withNamespaceName:"
++ "liabilityAccount.accountDescription"
++ "liabilityAccount.creditInformation.creditLimit"
++ "liabilityAccount.creditInformation.creditLimit.amount"
++ "liabilityAccount.creditInformation.minimumNextPaymentAmount"
++ "liabilityAccount.creditInformation.minimumNextPaymentAmount.amount"
++ "liabilityAccount.creditInformation.nextPaymentDueDate"
++ "liabilityAccount.creditInformation.overduePaymentAmount"
++ "liabilityAccount.creditInformation.overduePaymentAmount.amount"
++ "liabilityAccount.currencyCode"
++ "liabilityAccount.displayName"
++ "liabilityAccount.id"
++ "liabilityAccount.institutionName"
++ "listenForAccountsWithPrimaryAccountIdentifiers:callback:"
++ "loadGrantedAccountsForConsentID:completionHandler:"
++ "loadOfflineLabSharingPermissionWithCompletion:"
++ "loadOfflineLabSharingPreferenceWithCompletion:"
++ "locales"
++ "longitude"
++ "mainRunLoop"
++ "makeClass"
++ "makeManager"
++ "makeProcessor"
++ "makeProvider"
++ "mapsClassification"
++ "mapsUserIdentifier"
++ "merchantCategoryCode.rawValue"
++ "messagesManager"
++ "minimumNextPaymentAmount"
++ "mismatchedAccount"
++ "multipleConsentsEnabled"
++ "none"
++ "notPredicateWithSubpredicate:"
++ "objectFrom:withIndex:"
++ "offlineLabPermissionWithCompletionHandler:"
++ "offlineLabPrivacyBundleIdentifier"
++ "offlineLabSharingPreferenceWithCompletionHandler:"
++ "originTypeValue"
++ "otherBankTransactionLocationsData"
++ "overlapDetector"
++ "path"
++ "pattern"
++ "piiProcessor"
++ "piiRedactionConfig"
++ "piiRedactionConfiguration"
++ "piiRedactionConfigurationCountryCodes"
++ "piiRedactionOccurred"
++ "piiReplacement"
++ "postOfflineLabItemsWithOutputURL:completionHandler:"
++ "predicateWithValue:"
++ "prepareForDeletion"
++ "previousConsentUUID"
++ "previousInvalidConsentUUID"
++ "price"
++ "primaryAccountIdentifiers"
++ "problemReportingEnabled"
++ "rampId"
++ "redactFromString:"
++ "redactFromString:forCountryCodes:"
++ "redactionStrategies"
++ "refreshOrder"
++ "regexCollectionProvider"
++ "removedAccountIDs"
++ "resetMessagesForFPANIdentifier:"
++ "resetTermsConditionsCounter"
++ "response"
++ "revokeConnectionAuthorizationForConsentID:completionHandler:"
++ "revokeConsentsForInstitutionID:completionHandler:"
++ "rolloutId"
++ "rolloutIdentifiersWithNamespaceName:"
++ "saveOfflineLabSharingPermission:withCompletion:"
++ "saveOrder"
++ "setAltDSID:"
++ "setApplePayInsight:"
++ "setBankMerchantEnhancedName:"
++ "setBankMerchantInformationInsight:"
++ "setBankTransactionDescription:"
++ "setBankTransactionDescriptionClean:"
++ "setClassificationMissReasonValue:"
++ "setConsentValidationAttemptCount:"
++ "setCountryCodes:"
++ "setEarliestAccountValidationStartDate:"
++ "setFailedAttemptCount:"
++ "setFinancialLabEnabled:"
++ "setIncludeLocationsInTheNextRetry:"
++ "setInsights:"
++ "setIsDismissed:forAccountMessage:withAccountIdentifier:"
++ "setIsDismissed:forPassMessage:withFPANIdentifier:"
++ "setIsErrorResponse:"
++ "setLabRequestObject:"
++ "setLastConsentValidationAttemptDate:"
++ "setLastFailureDate:"
++ "setLastSuccessDate:"
++ "setMapsInsight:"
++ "setMarkedAsComplete"
++ "setMerchantCategoryCode:"
++ "setMessagesManager:"
++ "setMultipleConsentsEnabled:"
++ "setNotificationsEnabled"
++ "setOfflineLabSharingPermission:completionHandler:"
++ "setOriginTypeValue:"
++ "setOtherBankTransactionLocationsData:"
++ "setPiiRedactionConfiguration:"
++ "setPiiRedactionOccurred:"
++ "setPreviousConsentUUID:"
++ "setProblemReportingEnabled:"
++ "setSharingStartDate:"
++ "setShouldDeleteInaccessibleFaults:"
++ "setSpotlightProvider:"
++ "setTimestampSuitableForUserDisplay:"
++ "setTransactionAuthor:"
++ "setTransactionDisplayName:"
++ "setTransactionID:"
++ "setWalletExposedDB:"
++ "sharedAccountIDStartingDates"
++ "sharingStartDate"
++ "sinceOpeningSelected"
++ "spotlightProvider"
++ "statusValue.rawValue"
++ "storeCoordinator"
++ "strategies"
++ "stringValue"
++ "supportsMultipleConsents"
++ "tccCoordinator"
++ "timestampSuitableForUserDisplay"
++ "transaction"
++ "transactionAmount.currencyCode"
++ "transactionDisplayName"
++ "transactionID"
++ "transactionType.rawValue"
++ "transactionTypeValue.rawValue"
++ "treatmentId"
++ "trialProvider"
++ "updateConsentStatusForConsentID:completionHandler:"
++ "updateHandler"
++ "updateShowAsActive"
++ "updated:"
++ "uploadOfflineLabData(for:)"
++ "uploadTaskWithStreamedRequest:"
++ "v16@?0B8B12"
++ "v24@0:8@\"XPCAccountSelectionResult\"16"
++ "v24@0:8@?<v@?@\"XPCOfflineLabPermission\"@\"NSError\">16"
++ "v24@0:8@?<v@?@\"XPCOfflineLabSharingPreference\"@\"NSError\">16"
++ "v24@?0@\"XPCAuthorizationStatus\"8@\"NSError\"16"
++ "v24@?0@\"XPCBankConnectConsent\"8@\"NSError\"16"
++ "v24@?0@\"XPCOfflineLabPermission\"8@\"NSError\"16"
++ "v24@?0@\"XPCOfflineLabSharingPreference\"8@\"NSError\"16"
++ "v28@0:8B16@?20"
++ "v28@0:8B16@?<v@?@\"NSError\">20"
++ "v32@0:8@\"NSURL\"16@?<v@?@\"FKBankConnectSpotlightTransactionsProviderResponse\">24"
++ "v32@0:8@\"NSURL\"16@?<v@?@\"NSError\">24"
++ "v32@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24"
++ "v32@0:8@\"XPCFullyQualifiedAccountIdentifier\"16@?<v@?@\"XPCBankConnectConsent\"@\"NSError\">24"
++ "v32@?0^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}8@\"NSArray\"16@\"NSError\"24"
++ "v36@0:8B16q20@28"
++ "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSError\"32"
++ "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSHTTPURLResponse\"32"
++ "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLSessionTaskMetrics\"32"
++ "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@?<v@?@\"NSInputStream\">32"
++ "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLAuthenticationChallenge\"32@?<v@?q@\"NSURLCredential\">40"
++ "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLRequest\"32@?<v@?q@\"NSURLRequest\">40"
++ "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24q32@?<v@?@\"NSInputStream\">40"
++ "v48@0:8@16@24q32@?40"
++ "v52@0:8@\"XPCInstitution\"16@\"NSString\"24@\"XPCBankConnectAuthorizationConfiguration\"32s40@?<v@?@\"XPCBankConnectAuthorizationSession\"@\"NSError\">44"
++ "v52@0:8@16@24@32s40@?44"
++ "v56@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSHTTPURLResponse\"32@\"NSURLRequest\"40@?<v@?@\"NSURLRequest\">48"
++ "v56@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24q32q40q48"
++ "v56@0:8@\"XPCBankConnectAuthorizationSession\"16@\"XPCBankConnectAuthorizationPayload\"24@\"XPCFraudAssessmentResult\"32@\"XPCBankConnectAuthorizationConfiguration\"40@?<v@?@\"XPCBankConnectConsent\"@\"NSError\">48"
++ "v56@0:8@16@24@32@40@?48"
++ "v56@0:8@16@24q32q40q48"
++ "validateAccountConnectionWith:completionHandler:"
++ "version"
++ "walletExposedDB"
++ "webClientProvider"
+- "\x04!!"
+- "\x11\x17"
+- "\x12\x11\""
+- "\x16\"D"
+- "@\"_TtC10FinanceKit37BankConnectTransactionHistoryProvider\""
+- "@112@0:8@16Q24@32@40@48@56@64@72@80B88B92Q96Q104"
+- "@60@0:8@16@24@32@40@48s56"
+- "@88@0:8@16@24Q32s40@44d52d60@68B76@80"
+- "ATM"
+- "Account balance change received, reloading valid accounts."
+- "Account change received, reloading valid accounts."
+- "Apple Institution"
+- "BankConnectServiceXPCProtocol"
+- "Boskoop"
+- "Boskoop Feature Disabled, returning nil"
+- "Boskoop Feature Disabled, returning the empty list"
+- "Boskoop not enabled, returning nil."
+- "Consent change received, reloading valid accounts."
+- "DIRECT_DEPOSIT"
+- "Deleting all balances because of an exception"
+- "FKBankConnectTransactionHistoryProvider"
+- "FKBankConnectTransactionHistoryProviderDelegate"
+- "FKPaymentTransactionGroup's start and end date are in different months / year."
+- "Failed to delete consent. Multiple consents found with the same id!"
+- "Failed to find consent for institutionID: %s"
+- "Failed to make group end date from %s"
+- "Failed to make group start date from %s"
+- "FinanceKit.BankConnectTransactionHistoryProvider"
+- "FinanceKit.CurrentMonthTransactionsProvider"
+- "FinanceKit.MonthlyTransactionsProvider"
+- "FinanceKit.PreviousMonthsTransactionsProvider"
+- "FinanceKit.YearlyTransactionsProvider"
+- "FinanceKit/BankConnectTransactionHistoryProvider.swift"
+- "FinanceKit/MonthlyTransactionsProvider.swift"
+- "FinancialInsightsXPCServiceProtocol"
+- "Getting consent for institutionID: %s."
+- "Inserting or updating apple account\nidentifiers %s"
+- "Missing required entitlement"
+- "Platform support hasn't been implemented"
+- "Received updates for balances: %s"
+- "SUBQUERY(consentObject.accountObjects, $x, ANY $x.publicAccountObject = %@).@count > 0"
+- "T@\"<FKBankConnectTransactionHistoryProviderDelegate>\",N,W,Vdelegate"
+- "T@\"<FKBankConnectTransactionHistoryProviderDelegate>\",W,N"
+- "T@\"FKApplePayTransactionInsight\",R,C,N,V_applePayInsight"
+- "T@\"FKMapsTransactionInsight\",R,C,N,V_mapsInsight"
+- "T@\"_TtC10FinanceKit37BankConnectTransactionHistoryProvider\",&,N,V_dataProvider"
+- "The call doesn't support this platform"
+- "Unable to provide authorized token, authorizedUntil has passed causing tokeninvalidation for institutionID: %s"
+- "Unable to provide authorized token, token is invalid for institutionID: %s"
+- "Updating consent for institutionID: %s."
+- "Wallet has been deleted"
+- "_TtC10FinanceKit25FakeCoreAnalyticsProvider"
+- "_TtC10FinanceKit26YearlyTransactionsProvider"
+- "_TtC10FinanceKit27MonthlyTransactionsProvider"
+- "_TtC10FinanceKit32CurrentMonthTransactionsProvider"
+- "_TtC10FinanceKit34PreviousMonthsTransactionsProvider"
+- "_TtC10FinanceKit35BankConnectWebServiceUserIdentifier"
+- "_TtC10FinanceKit37BankConnectTransactionHistoryProvider"
+- "com.apple.onboarding.wallet"
+- "completeConnectionAuthorizationForSession:withAuthorizationPayload:fraudAssessment:completionHandler:"
+- "consentObject != nil"
+- "consentObject.id = %@"
+- "consentProvider"
+- "currentAmount.availableAmount"
+- "currentAmount.bookedAmount"
+- "currentAmount.currency"
+- "currentMonthTransactionsProvider"
+- "externalCoreDataStore"
+- "initWithFullyQualifiedAccountIdentifier:accountType:balance:accountBalance:creditLimit:minimumPaymentAmount:nextPaymentDate:overduePaymentAmount:actions:isAccountEnabled:isAccountMismatched:accountRefreshFailure:transactionsRefreshFailure:"
+- "initWithInstitutionIdentifier:name:reconsentType:supportedAuthTypes:firstTransactionsRequestWindow:maxAgeTransactionsFirstRequest:maxAgeTransactionsRefreshRequest:extensionsBundleIdentifiers:backgroundRefreshEnabled:termsAndConditionsURL:"
+- "initWithSessionId:consent:codeVerifier:institution:fpanId:authorizationType:"
+- "initiateConnectionAuthorizationFor:fpanID:authorizationType:authorizationSource:completionHandler:"
+- "institutionFor:completionHandler:"
+- "institutionForPass:completion:"
+- "institutionForPaymentPass:completion:"
+- "listenForPrimaryAccountIdentifiers:callback:"
+- "loadGrantedAccountsFor:completionHandler:"
+- "monthlyTransactionsProvider"
+- "previousMonthsTransactionsProvider"
+- "publicAccountObject.accountTypeValue == %i"
+- "recordedEvents"
+- "revokeConnectionAuthorizationForInstitutionID:completionHandler:"
+- "transactionAtIndex:inGroupWithIdentifier:"
+- "transactionAtIndex:inMonthlyGroupWithIdentifier:"
+- "transactionAtIndex:inYearlyGroupWithIdentifier:"
+- "transactionHistoryDelegate"
+- "updateConsentStatusForInstitutionID:completionHandler:"
+- "v32@0:8@\"FKPaymentTransactionGroup\"16q24"
+- "v32@0:8@\"PKPaymentPass\"16@?<v@?@\"XPCInstitution\"@\"NSError\">24"
+- "v32@0:8@\"XPCInstitution\"16@?<v@?@\"NSError\">24"
+- "v48@0:8@\"XPCBankConnectAuthorizationSession\"16@\"XPCBankConnectAuthorizationPayload\"24@\"XPCFraudAssessmentResult\"32@?<v@?@\"NSError\">40"
+- "v48@0:8@\"XPCInstitution\"16@\"NSString\"24s32s36@?<v@?@\"XPCBankConnectAuthorizationSession\"@\"NSError\">40"
+- "v48@0:8@16@24s32s36@?40"
+- "yearlyTransactionsProvider"
+
+```

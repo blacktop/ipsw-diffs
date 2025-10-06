@@ -1,0 +1,407 @@
+## libAccessibility.dylib
+
+> `/usr/lib/libAccessibility.dylib`
+
+```diff
+
+-3093.23.0.0.0
+-  __TEXT.__text: 0x1cd54
++3093.32.1.2.0
++  __TEXT.__text: 0x1cfc0
+   __TEXT.__auth_stubs: 0xa30
+   __TEXT.__objc_methlist: 0x218
+   __TEXT.__const: 0x168
+-  __TEXT.__cstring: 0x6cf0
++  __TEXT.__cstring: 0x6e03
+   __TEXT.__gcc_except_tab: 0xf0
+   __TEXT.__oslogstring: 0x1187
+   __TEXT.__dlopen_cstrs: 0xb9
+-  __TEXT.__unwind_info: 0xa08
++  __TEXT.__unwind_info: 0x988
+   __TEXT.__objc_classname: 0xc1
+   __TEXT.__objc_methname: 0xe4d
+   __TEXT.__objc_methtype: 0x1df
+
+   __DATA_CONST.__objc_classrefs: 0xa8
+   __DATA_CONST.__objc_superrefs: 0x18
+   __DATA_CONST.__objc_arraydata: 0x30
+-  __AUTH_CONST.__const: 0x16a0
+-  __AUTH_CONST.__cfstring: 0x59e0
++  __AUTH_CONST.__const: 0x16c0
++  __AUTH_CONST.__cfstring: 0x5a80
+   __AUTH_CONST.__objc_const: 0x168
+   __AUTH_CONST.__objc_intobj: 0x108
+   __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__auth_got: 0x528
+   __AUTH.__objc_data: 0xf0
+   __DATA.__objc_ivar: 0x40
+-  __DATA.__data: 0x1160
+-  __DATA.__bss: 0x4a0
++  __DATA.__data: 0x1198
++  __DATA.__bss: 0x498
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__data: 0x88
+-  __DATA_DIRTY.__bss: 0x2b0
++  __DATA_DIRTY.__bss: 0x2a8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/MediaAccessibility.framework/MediaAccessibility
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0410C5ED-6D78-3E11-BA69-93471EDA7C99
+-  Functions: 922
+-  Symbols:   2679
+-  CStrings:  1777
++  UUID: 67134443-4532-3574-AE8C-EE108DEF88DC
++  Functions: 927
++  Symbols:   2691
++  CStrings:  1787
+ 
+Symbols:
++ GCC_except_table140
++ GCC_except_table202
++ GCC_except_table203
++ GCC_except_table204
++ GCC_except_table355
++ GCC_except_table794
++ __AXSAttentionAwarenessFeaturesEnabled.onceToken.1659
++ __AXSHeadsetCaseTonesEnabled
++ __AXSPencilExtendedSqueezeRangeEnabled
++ __AXSPencilExtendedSqueezeRangeEnabled.onceToken
++ __AXSSetHeadsetCaseTonesEnabled
++ __AXSSetPencilExtendedSqueezeRangeEnabled
++ ____AXSAttentionAwarenessFeaturesEnabled_block_invoke.1660
++ ____AXSPencilExtendedSqueezeRangeEnabled_block_invoke
++ ___block_literal_global.1380
++ ___block_literal_global.1382
++ ___block_literal_global.1384
++ ___block_literal_global.1395
++ ___block_literal_global.1399
++ ___block_literal_global.1401
++ ___block_literal_global.1428
++ ___block_literal_global.1430
++ ___block_literal_global.1432
++ ___block_literal_global.1544
++ ___block_literal_global.1546
++ ___block_literal_global.1548
++ ___block_literal_global.1550
++ ___block_literal_global.1552
++ ___block_literal_global.1554
++ ___block_literal_global.1562
++ ___block_literal_global.1564
++ ___block_literal_global.1566
++ ___block_literal_global.1568
++ ___block_literal_global.1570
++ ___block_literal_global.1572
++ ___block_literal_global.1574
++ ___block_literal_global.1582
++ ___block_literal_global.1601
++ ___block_literal_global.1603
++ ___block_literal_global.1606
++ ___block_literal_global.1611
++ ___block_literal_global.1620
++ ___block_literal_global.1623
++ ___block_literal_global.1630
++ ___block_literal_global.1635
++ ___block_literal_global.1637
++ ___block_literal_global.1639
++ ___block_literal_global.1647
++ ___block_literal_global.1649
++ ___block_literal_global.1655
++ ___block_literal_global.1662
++ ___block_literal_global.1664
++ ___block_literal_global.1672
++ ___block_literal_global.1676
++ ___block_literal_global.1678
++ ___block_literal_global.1680
++ ___block_literal_global.1682
++ ___block_literal_global.1685
++ ___block_literal_global.1690
++ ___block_literal_global.1695
++ ___block_literal_global.1703
++ ___block_literal_global.1705
++ ___block_literal_global.1718
++ ___block_literal_global.1720
++ ___block_literal_global.1722
++ ___block_literal_global.1724
++ ___block_literal_global.1726
++ ___block_literal_global.1728
++ ___block_literal_global.1730
++ ___block_literal_global.1746
++ ___block_literal_global.1748
++ ___block_literal_global.1750
++ ___block_literal_global.1752
++ ___block_literal_global.1755
++ ___block_literal_global.1760
++ ___block_literal_global.1765
++ ___block_literal_global.1770
++ ___block_literal_global.1775
++ ___block_literal_global.1780
++ ___block_literal_global.1785
++ ___block_literal_global.1790
++ ___block_literal_global.1795
++ ___block_literal_global.1800
++ ___block_literal_global.1805
++ ___block_literal_global.1821
++ ___block_literal_global.1826
++ ___block_literal_global.1831
++ ___block_literal_global.1836
++ ___block_literal_global.1841
++ ___block_literal_global.1862
++ ___block_literal_global.1864
++ ___block_literal_global.1866
++ ___block_literal_global.1870
++ ___block_literal_global.1872
++ ___block_literal_global.1874
++ ___block_literal_global.1879
++ ___block_literal_global.1916
++ ___block_literal_global.1918
++ ___block_literal_global.1920
++ ___block_literal_global.1925
++ ___block_literal_global.1933
++ ___block_literal_global.1935
++ ___block_literal_global.1937
++ ___block_literal_global.1939
++ ___block_literal_global.1941
++ ___block_literal_global.2063
++ ___block_literal_global.2065
++ ___block_literal_global.2067
++ ___block_literal_global.2069
++ ___block_literal_global.2071
++ ___block_literal_global.2073
++ ___block_literal_global.2075
++ ___block_literal_global.2077
++ ___block_literal_global.2079
++ ___block_literal_global.2081
++ ___block_literal_global.2083
++ ___block_literal_global.2085
++ ___block_literal_global.2087
++ ___block_literal_global.2089
++ ___block_literal_global.2091
++ ___block_literal_global.2104
++ ___block_literal_global.2117
++ ___block_literal_global.2119
++ ___block_literal_global.2121
++ ___block_literal_global.2123
++ ___block_literal_global.2125
++ ___block_literal_global.2127
++ ___block_literal_global.2129
++ ___block_literal_global.2131
++ ___block_literal_global.2133
++ ___block_literal_global.2135
++ ___block_literal_global.2137
++ ___block_literal_global.2139
++ ___block_literal_global.2141
++ ___block_literal_global.2143
++ ___block_literal_global.2145
++ ___block_literal_global.2147
++ ___block_literal_global.2149
++ ___block_literal_global.2151
++ ___block_literal_global.2153
++ ___block_literal_global.2155
++ ___block_literal_global.2157
++ ___block_literal_global.2159
++ ___block_literal_global.2161
++ ___block_literal_global.2163
++ ___block_literal_global.2165
++ ___block_literal_global.2167
++ ___block_literal_global.2169
++ ___block_literal_global.2171
++ ___block_literal_global.2173
++ ___block_literal_global.2175
++ ___block_literal_global.2177
++ ___block_literal_global.2179
++ ___block_literal_global.2192
++ ___block_literal_global.2194
++ ___block_literal_global.2196
++ ___block_literal_global.2201
++ ___block_literal_global.2209
++ ___block_literal_global.2240
++ ___block_literal_global.2478
++ ___block_literal_global.2480
++ ___block_literal_global.2482
++ ___block_literal_global.2484
++ ___block_literal_global.2486
++ ___block_literal_global.2488
++ ___block_literal_global.2496
++ ___block_literal_global.2548
++ ___block_literal_global.2550
++ ___block_literal_global.2600
++ __kAXSCachePencilExtendedSqueezeRangeEnabled
++ __unnamed_array_storage.2500
++ _kAXSHeadsetCaseTonesChangedNotification
++ _kAXSHeadsetCaseTonesPreference
++ _kAXSPencilExtendedSqueezeRangeEnabledChangedNotification
+- GCC_except_table135
+- GCC_except_table197
+- GCC_except_table198
+- GCC_except_table199
+- GCC_except_table350
+- GCC_except_table789
+- __AXSAttentionAwarenessFeaturesEnabled.onceToken.1648
+- ____AXSAttentionAwarenessFeaturesEnabled_block_invoke.1649
+- ___block_literal_global.1371
+- ___block_literal_global.1373
+- ___block_literal_global.1375
+- ___block_literal_global.1381
+- ___block_literal_global.1386
+- ___block_literal_global.1392
+- ___block_literal_global.1419
+- ___block_literal_global.1421
+- ___block_literal_global.1530
+- ___block_literal_global.1533
+- ___block_literal_global.1535
+- ___block_literal_global.1537
+- ___block_literal_global.1539
+- ___block_literal_global.1543
+- ___block_literal_global.1551
+- ___block_literal_global.1553
+- ___block_literal_global.1555
+- ___block_literal_global.1557
+- ___block_literal_global.1559
+- ___block_literal_global.1561
+- ___block_literal_global.1563
+- ___block_literal_global.1571
+- ___block_literal_global.1590
+- ___block_literal_global.1592
+- ___block_literal_global.1595
+- ___block_literal_global.1600
+- ___block_literal_global.1609
+- ___block_literal_global.1612
+- ___block_literal_global.1615
+- ___block_literal_global.1617
+- ___block_literal_global.1619
+- ___block_literal_global.1624
+- ___block_literal_global.1636
+- ___block_literal_global.1638
+- ___block_literal_global.1640
+- ___block_literal_global.1642
+- ___block_literal_global.1644
+- ___block_literal_global.1661
+- ___block_literal_global.1663
+- ___block_literal_global.1665
+- ___block_literal_global.1667
+- ___block_literal_global.1669
+- ___block_literal_global.1671
+- ___block_literal_global.1679
+- ___block_literal_global.1684
+- ___block_literal_global.1692
+- ___block_literal_global.1694
+- ___block_literal_global.1696
+- ___block_literal_global.1709
+- ___block_literal_global.1711
+- ___block_literal_global.1713
+- ___block_literal_global.1715
+- ___block_literal_global.1717
+- ___block_literal_global.1719
+- ___block_literal_global.1733
+- ___block_literal_global.1735
+- ___block_literal_global.1737
+- ___block_literal_global.1739
+- ___block_literal_global.1741
+- ___block_literal_global.1749
+- ___block_literal_global.1754
+- ___block_literal_global.1759
+- ___block_literal_global.1764
+- ___block_literal_global.1769
+- ___block_literal_global.1774
+- ___block_literal_global.1779
+- ___block_literal_global.1784
+- ___block_literal_global.1789
+- ___block_literal_global.1794
+- ___block_literal_global.1799
+- ___block_literal_global.1804
+- ___block_literal_global.1820
+- ___block_literal_global.1825
+- ___block_literal_global.1830
+- ___block_literal_global.1851
+- ___block_literal_global.1853
+- ___block_literal_global.1855
+- ___block_literal_global.1857
+- ___block_literal_global.1859
+- ___block_literal_global.1861
+- ___block_literal_global.1863
+- ___block_literal_global.1903
+- ___block_literal_global.1905
+- ___block_literal_global.1907
+- ___block_literal_global.1909
+- ___block_literal_global.1917
+- ___block_literal_global.1922
+- ___block_literal_global.1924
+- ___block_literal_global.1926
+- ___block_literal_global.1930
+- ___block_literal_global.2052
+- ___block_literal_global.2054
+- ___block_literal_global.2056
+- ___block_literal_global.2058
+- ___block_literal_global.2060
+- ___block_literal_global.2062
+- ___block_literal_global.2064
+- ___block_literal_global.2066
+- ___block_literal_global.2068
+- ___block_literal_global.2070
+- ___block_literal_global.2072
+- ___block_literal_global.2074
+- ___block_literal_global.2076
+- ___block_literal_global.2078
+- ___block_literal_global.2080
+- ___block_literal_global.2082
+- ___block_literal_global.2084
+- ___block_literal_global.2086
+- ___block_literal_global.2088
+- ___block_literal_global.2101
+- ___block_literal_global.2114
+- ___block_literal_global.2116
+- ___block_literal_global.2118
+- ___block_literal_global.2120
+- ___block_literal_global.2122
+- ___block_literal_global.2124
+- ___block_literal_global.2126
+- ___block_literal_global.2128
+- ___block_literal_global.2130
+- ___block_literal_global.2132
+- ___block_literal_global.2134
+- ___block_literal_global.2136
+- ___block_literal_global.2138
+- ___block_literal_global.2140
+- ___block_literal_global.2142
+- ___block_literal_global.2144
+- ___block_literal_global.2146
+- ___block_literal_global.2148
+- ___block_literal_global.2150
+- ___block_literal_global.2152
+- ___block_literal_global.2154
+- ___block_literal_global.2156
+- ___block_literal_global.2158
+- ___block_literal_global.2160
+- ___block_literal_global.2162
+- ___block_literal_global.2164
+- ___block_literal_global.2166
+- ___block_literal_global.2168
+- ___block_literal_global.2172
+- ___block_literal_global.2181
+- ___block_literal_global.2185
+- ___block_literal_global.2187
+- ___block_literal_global.2190
+- ___block_literal_global.2229
+- ___block_literal_global.2452
+- ___block_literal_global.2461
+- ___block_literal_global.2463
+- ___block_literal_global.2465
+- ___block_literal_global.2467
+- ___block_literal_global.2471
+- ___block_literal_global.2479
+- ___block_literal_global.2531
+- ___block_literal_global.2533
+- ___block_literal_global.2583
+- __unnamed_array_storage.2483
+CStrings:
++ "AXSPencilExtendedSqueezeRangeEnabledPreference"
++ "com.apple.accessibility.HeadsetCaseTones.changed.notification"
++ "com.apple.accessibility.HeadsetCaseTones.preference"
++ "com.apple.accessibility.cache.pencil.extended.squeeze.range"
++ "com.apple.accessibility.pencil.extended.squeeze.range"
+
+```

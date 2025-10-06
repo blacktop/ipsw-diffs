@@ -1,0 +1,82 @@
+## RESync
+
+> `/System/Library/PrivateFrameworks/RESync.framework/RESync`
+
+```diff
+
+-225.613.1.0.0
+-  __TEXT.__text: 0xaa6ac
+-  __TEXT.__auth_stubs: 0xfc0
++225.621.0.0.0
++  __TEXT.__text: 0xab22c
++  __TEXT.__auth_stubs: 0xfb0
+   __TEXT.__objc_methlist: 0x484
+   __TEXT.__const: 0x1f63
+   __TEXT.__cstring: 0x410c
+   __TEXT.__oslogstring: 0x58fa
+   __TEXT.__unwind_info: 0x110
+   __TEXT.__objc_classname: 0xee
+-  __TEXT.__objc_methname: 0x1b22
++  __TEXT.__objc_methname: 0x1b36
+   __TEXT.__objc_methtype: 0x1d73
+   __TEXT.__objc_stubs: 0xfa0
+   __DATA_CONST.__got: 0x70
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x12a8
+   __DATA_CONST.__objc_selrefs: 0x4c0
++  __DATA_CONST.__objc_classrefs: 0xb8
++  __DATA_CONST.__objc_superrefs: 0x20
+   __AUTH_CONST.__const: 0x2d90
+   __AUTH_CONST.__cfstring: 0x200
+   __AUTH_CONST.__objc_intobj: 0x30
+   __AUTH_CONST.__objc_const: 0x168
+-  __AUTH_CONST.__auth_got: 0x7e8
++  __AUTH_CONST.__auth_got: 0x7e0
+   __AUTH.__objc_data: 0x1e0
+   __AUTH.__data: 0x28
+-  __DATA.__objc_classrefs: 0xb8
+-  __DATA.__objc_superrefs: 0x20
+   __DATA.__objc_ivar: 0x70
+   __DATA.__data: 0x2a8
+   __DATA.__thread_vars: 0x48
+
+   - /usr/lib/libc++abi.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 20515839-5504-3825-AEB8-6ACB49C12142
+-  Functions: 2754
+-  Symbols:   6319
+-  CStrings:  1360
++  UUID: DC8CFFFD-CE87-35C8-AA60-209B57287B26
++  Functions: 2761
++  Symbols:   6328
++  CStrings:  1361
+ 
+Symbols:
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPPN2re10SyncViewerELb0EEEvT1_S9_T0_NS_15iterator_traitsIS9_E15difference_typeEb
++ __ZNSt3__114__thread_proxyB8un170006INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEMN2re33TransportCommandsThreadedProtocolEFvvEPS8_EEEEEPvSD_
++ __ZNSt3__121__unwrap_and_dispatchB8un170006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPKN2re12EnumConstantESA_PS8_Li0EEENS_4pairIT0_T2_EESD_T1_SE_
++ __ZNSt3__121__unwrap_and_dispatchB8un170006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPKN2re19RenamedObjectMemberESA_PS8_Li0EEENS_4pairIT0_T2_EESD_T1_SE_
++ __ZNSt3__121__unwrap_and_dispatchB8un170006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPKN2re8internal16ObjectMemberInfoESB_PS9_Li0EEENS_4pairIT0_T2_EESE_T1_SF_
++ __ZNSt3__121__unwrap_and_dispatchB8un170006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPN2re20SyncOwnershipRequestES9_S9_Li0EEENS_4pairIT0_T2_EESB_T1_SC_
++ __ZNSt3__121__unwrap_and_dispatchB8un170006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPN2re8internal17SyncSnapshotEntryESA_SA_Li0EEENS_4pairIT0_T2_EESC_T1_SD_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPPN2re10SyncViewerEEEbT1_S9_T0_
++ __ZNSt3__16invokeB8un170006IRKZNK2re7Session27findParticipantWithIdentityERKNS1_9SharedPtrINS1_17DiscoveryIdentityEEEEUlPKNS1_18SessionParticipantEE_JSA_EEENS_13invoke_resultIT_JDpT0_EE4typeEOSF_DpOSG_
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPPN2re10SyncViewerEEEjT1_S9_S9_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPPN2re10SyncViewerEEEvT1_S9_S9_S9_T0_
++ __ZNSt3__17__sort5B8un170006INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPPN2re10SyncViewerEEEvT1_S9_S9_S9_S9_T0_
++ __ZSt28__throw_bad_array_new_lengthB8un170006v
+- __ZNSt3__114__thread_proxyB7v160006INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEMN2re33TransportCommandsThreadedProtocolEFvvEPS8_EEEEEPvSD_
+- __ZNSt3__121__unwrap_and_dispatchB7v160006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPKN2re12EnumConstantESA_PS8_Li0EEENS_4pairIT0_T2_EESD_T1_SE_
+- __ZNSt3__121__unwrap_and_dispatchB7v160006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPKN2re19RenamedObjectMemberESA_PS8_Li0EEENS_4pairIT0_T2_EESD_T1_SE_
+- __ZNSt3__121__unwrap_and_dispatchB7v160006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPKN2re8internal16ObjectMemberInfoESB_PS9_Li0EEENS_4pairIT0_T2_EESE_T1_SF_
+- __ZNSt3__121__unwrap_and_dispatchB7v160006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPN2re20SyncOwnershipRequestES9_S9_Li0EEENS_4pairIT0_T2_EESB_T1_SC_
+- __ZNSt3__121__unwrap_and_dispatchB7v160006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPN2re8internal17SyncSnapshotEntryESA_SA_Li0EEENS_4pairIT0_T2_EESC_T1_SD_
+- __ZNSt3__16__sortIRNS_6__lessImmEEPmEEvT0_S5_T_
+- __ZNSt3__16invokeB7v160006IRKZNK2re7Session27findParticipantWithIdentityERKNS1_9SharedPtrINS1_17DiscoveryIdentityEEEEUlPKNS1_18SessionParticipantEE_JSA_EEENS_13invoke_resultIT_JDpT0_EE4typeEOSF_DpOSG_
+- __ZSt28__throw_bad_array_new_lengthB7v160006v
+CStrings:
++ "T@\"NSString\",?,R,C"
+
+```

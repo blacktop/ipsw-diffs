@@ -1,0 +1,73 @@
+## DeviceDiscoveryUI
+
+> `/System/Library/PrivateFrameworks/DeviceDiscoveryUI.framework/DeviceDiscoveryUI`
+
+```diff
+
+-1937.60.71.2.4
+-  __TEXT.__text: 0x8f258
+-  __TEXT.__auth_stubs: 0x2930
++1941.80.11.0.0
++  __TEXT.__text: 0x8f638
++  __TEXT.__auth_stubs: 0x2970
+   __TEXT.__objc_methlist: 0x768
+   __TEXT.__const: 0x33e4
+   __TEXT.__gcc_except_tab: 0x18
+-  __TEXT.__cstring: 0x3451
++  __TEXT.__cstring: 0x3471
+   __TEXT.__oslogstring: 0x105
+   __TEXT.__constg_swiftt: 0x10ec
+   __TEXT.__swift5_typeref: 0xd35c
+
+   __TEXT.__swift5_types: 0x10c
+   __TEXT.__swift5_capture: 0x784
+   __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__unwind_info: 0x2484
+-  __TEXT.__eh_frame: 0x19c0
++  __TEXT.__unwind_info: 0x2498
++  __TEXT.__eh_frame: 0x19c8
+   __TEXT.__objc_classname: 0x30b
+   __TEXT.__objc_methname: 0x1c6b
+   __TEXT.__objc_methtype: 0x4c9
+   __TEXT.__objc_stubs: 0x520
+-  __DATA_CONST.__got: 0x908
++  __DATA_CONST.__got: 0x910
+   __DATA_CONST.__const: 0x368
+   __DATA_CONST.__objc_classlist: 0x128
+   __DATA_CONST.__objc_catlist: 0x10
+
+   __AUTH_CONST.__objc_const: 0x6f8
+   __AUTH_CONST.__cfstring: 0xc0
+   __AUTH_CONST.__const: 0x3df8
+-  __AUTH_CONST.__auth_got: 0x14a8
++  __AUTH_CONST.__auth_got: 0x14c8
+   __AUTH.__objc_data: 0xff0
+   __AUTH.__data: 0x10e8
+   __DATA.__objc_ivar: 0x2c
+
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BiomePubSub.framework/BiomePubSub
+   - /System/Library/PrivateFrameworks/ContactsUICore.framework/ContactsUICore
++  - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /System/Library/PrivateFrameworks/DeviceDiscoveryUICore.framework/DeviceDiscoveryUICore
+   - /System/Library/PrivateFrameworks/FamilyCircle.framework/FamilyCircle
+   - /System/Library/PrivateFrameworks/FrontBoard.framework/FrontBoard
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6978DD26-6ED8-324F-AF05-866095A9E4A7
++  UUID: AF6DBF3A-E9F9-3994-AAC1-680B981F791D
+   Functions: 2454
+-  Symbols:   1725
+-  CStrings:  776
++  Symbols:   1727
++  CStrings:  777
+ 
+Symbols:
++ _CUNormalizeEmailAddress
++ _CUNormalizePhoneNumber
+CStrings:
++ "no handle for contact:%@"
+
+```

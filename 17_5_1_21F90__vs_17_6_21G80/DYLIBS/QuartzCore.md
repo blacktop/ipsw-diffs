@@ -1,0 +1,565 @@
+## QuartzCore
+
+> `/System/Library/Frameworks/QuartzCore.framework/QuartzCore`
+
+```diff
+
+-1120.33.0.0.0
+-  __TEXT.__text: 0x302e8c
++1120.34.8.0.0
++  __TEXT.__text: 0x302fa4
+   __TEXT.__auth_stubs: 0x4ee0
+   __TEXT.__objc_methlist: 0x913c
+-  __TEXT.__const: 0x17cc0
+-  __TEXT.__gcc_except_tab: 0x612c
+-  __TEXT.__cstring: 0x29560
++  __TEXT.__const: 0x17cd0
++  __TEXT.__gcc_except_tab: 0x6138
++  __TEXT.__cstring: 0x29570
+   __TEXT.__oslogstring: 0xdb2c
+   __TEXT.__dlopen_cstrs: 0xe0
+-  __TEXT.__unwind_info: 0x7b3c
++  __TEXT.__unwind_info: 0x7b40
+   __TEXT.__eh_frame: 0xb0
+   __TEXT.__objc_classname: 0xc62
+   __TEXT.__objc_methname: 0xe800
+   __TEXT.__objc_methtype: 0x3568
+   __TEXT.__objc_stubs: 0xbea0
+   __DATA_CONST.__got: 0x790
+-  __DATA_CONST.__const: 0xddc8
++  __DATA_CONST.__const: 0xdde8
+   __DATA_CONST.__objc_classlist: 0x3b0
+   __DATA_CONST.__objc_catlist: 0x60
+   __DATA_CONST.__objc_protolist: 0xc8
+
+   __DATA_CONST.__objc_classrefs: 0x528
+   __DATA_CONST.__objc_superrefs: 0x408
+   __DATA_CONST.__objc_arraydata: 0x36c0
+-  __AUTH_CONST.__const: 0x134b8
+-  __AUTH_CONST.__cfstring: 0x14860
++  __AUTH_CONST.__const: 0x134d8
++  __AUTH_CONST.__cfstring: 0x14880
+   __AUTH_CONST.__objc_const: 0x3828
+   __AUTH_CONST.__objc_doubleobj: 0xb0
+   __AUTH_CONST.__objc_intobj: 0x40c8
+
+   __AUTH.__data: 0x38
+   __DATA.__objc_ivar: 0x4f0
+   __DATA.__objc_const_ax: 0x0
+-  __DATA.__data: 0x3988
++  __DATA.__data: 0x3a58
+   __DATA.__crash_info: 0x40
+   __DATA.__common: 0x4
+   __DATA.__bss: 0x1608
+   __DATA_DIRTY.__objc_data: 0x1450
+   __DATA_DIRTY.__data: 0x580
+-  __DATA_DIRTY.__bss: 0x2d48
++  __DATA_DIRTY.__bss: 0x2de8
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: A4B65B35-9EEB-38E4-9D4F-7146AAE1E28C
+-  Functions: 10809
+-  Symbols:   28398
+-  CStrings:  13832
++  UUID: AEDC1A56-1731-3315-A87E-C6610024A405
++  Functions: 10810
++  Symbols:   28404
++  CStrings:  13834
+ 
+Symbols:
++ GCC_except_table10027
++ GCC_except_table10031
++ GCC_except_table10037
++ GCC_except_table10043
++ GCC_except_table10151
++ GCC_except_table10187
++ GCC_except_table10192
++ GCC_except_table10205
++ GCC_except_table10352
++ GCC_except_table10358
++ GCC_except_table10362
++ GCC_except_table10371
++ GCC_except_table10414
++ GCC_except_table10531
++ GCC_except_table10534
++ GCC_except_table6548
++ GCC_except_table6552
++ GCC_except_table6589
++ GCC_except_table6593
++ GCC_except_table6596
++ GCC_except_table6599
++ GCC_except_table6603
++ GCC_except_table6606
++ GCC_except_table6617
++ GCC_except_table6625
++ GCC_except_table6648
++ GCC_except_table6752
++ GCC_except_table6758
++ GCC_except_table6762
++ GCC_except_table6767
++ GCC_except_table6769
++ GCC_except_table6772
++ GCC_except_table6775
++ GCC_except_table6778
++ GCC_except_table6781
++ GCC_except_table6784
++ GCC_except_table6792
++ GCC_except_table6796
++ GCC_except_table6804
++ GCC_except_table6806
++ GCC_except_table6809
++ GCC_except_table6812
++ GCC_except_table6820
++ GCC_except_table6822
++ GCC_except_table6826
++ GCC_except_table6831
++ GCC_except_table6835
++ GCC_except_table6837
++ GCC_except_table6839
++ GCC_except_table6848
++ GCC_except_table6863
++ GCC_except_table6865
++ GCC_except_table6869
++ GCC_except_table6872
++ GCC_except_table6879
++ GCC_except_table6891
++ GCC_except_table6899
++ GCC_except_table6901
++ GCC_except_table6904
++ GCC_except_table6906
++ GCC_except_table6913
++ GCC_except_table6915
++ GCC_except_table6917
++ GCC_except_table6925
++ GCC_except_table7012
++ GCC_except_table7014
++ GCC_except_table7026
++ GCC_except_table7040
++ GCC_except_table7044
++ GCC_except_table7047
++ GCC_except_table7056
++ GCC_except_table7058
++ GCC_except_table7149
++ GCC_except_table7152
++ GCC_except_table7157
++ GCC_except_table7163
++ GCC_except_table7443
++ GCC_except_table7446
++ GCC_except_table7448
++ GCC_except_table7574
++ GCC_except_table7581
++ GCC_except_table7633
++ GCC_except_table7667
++ GCC_except_table7674
++ GCC_except_table7697
++ GCC_except_table7723
++ GCC_except_table7736
++ GCC_except_table7739
++ GCC_except_table7764
++ GCC_except_table7769
++ GCC_except_table7775
++ GCC_except_table7779
++ GCC_except_table7783
++ GCC_except_table7789
++ GCC_except_table7796
++ GCC_except_table7798
++ GCC_except_table7800
++ GCC_except_table7802
++ GCC_except_table7808
++ GCC_except_table7811
++ GCC_except_table7815
++ GCC_except_table7830
++ GCC_except_table7872
++ GCC_except_table7883
++ GCC_except_table7888
++ GCC_except_table7957
++ GCC_except_table8068
++ GCC_except_table8089
++ GCC_except_table8231
++ GCC_except_table8270
++ GCC_except_table8417
++ GCC_except_table8568
++ GCC_except_table8611
++ GCC_except_table8647
++ GCC_except_table8789
++ GCC_except_table8793
++ GCC_except_table8796
++ GCC_except_table8847
++ GCC_except_table9069
++ GCC_except_table9072
++ GCC_except_table9173
++ GCC_except_table9178
++ GCC_except_table9307
++ GCC_except_table9309
++ GCC_except_table9312
++ GCC_except_table9333
++ GCC_except_table9669
++ GCC_except_table9897
++ GCC_except_table9930
++ GCC_except_table9955
++ GCC_except_table9969
++ GCC_except_table9999
++ __ZL10write_attrjPKv12_CAValueTypePv.18994
++ __ZL11block_ctors.15398
++ __ZL11initialized.16746
++ __ZL15copy_dictionaryjPKv12_CAValueTypePv.19016
++ __ZL5blackv.18846
++ __ZL8set_attrPKvS0_Pv.19008
++ __ZL9copy_attrjPKv12_CAValueTypePv.19018
++ __ZN2CA12WindowServerL10null_timerEP16__CFRunLoopTimerPv.16161
++ __ZN2CA6RenderL18release_deallocateEPKvPv.11700
++ __ZN2CA6RenderL18release_image_dataEPKvPv.21620
++ __ZZ21CADevicePrefersHDR444E1b
++ __ZZ21CADevicePrefersHDR444E4once
++ __ZZL16defines_propertyjE5atoms.16068
++ __ZZL16defines_propertyjE5atoms.21790
++ ___Block_byref_object_copy_.12291
++ ___Block_byref_object_copy_.14563
++ ___Block_byref_object_copy_.19206
++ ___Block_byref_object_dispose_.12292
++ ___Block_byref_object_dispose_.14564
++ ___Block_byref_object_dispose_.19207
++ ___CADevicePrefersHDR444_block_invoke
++ ___block_descriptor_tmp.1.15939
++ ___block_descriptor_tmp.1.16987
++ ___block_descriptor_tmp.1.18569
++ ___block_descriptor_tmp.102.16172
++ ___block_descriptor_tmp.11.16999
++ ___block_descriptor_tmp.11314
++ ___block_descriptor_tmp.12.19211
++ ___block_descriptor_tmp.12653
++ ___block_descriptor_tmp.12759
++ ___block_descriptor_tmp.13.16955
++ ___block_descriptor_tmp.13007
++ ___block_descriptor_tmp.13630
++ ___block_descriptor_tmp.141.11447
++ ___block_descriptor_tmp.14731
++ ___block_descriptor_tmp.15679
++ ___block_descriptor_tmp.15938
++ ___block_descriptor_tmp.16222
++ ___block_descriptor_tmp.16823
++ ___block_descriptor_tmp.16930
++ ___block_descriptor_tmp.16981
++ ___block_descriptor_tmp.17.17001
++ ___block_descriptor_tmp.17074
++ ___block_descriptor_tmp.17328
++ ___block_descriptor_tmp.17976
++ ___block_descriptor_tmp.18568
++ ___block_descriptor_tmp.19.21213
++ ___block_descriptor_tmp.19209
++ ___block_descriptor_tmp.19276
++ ___block_descriptor_tmp.206.15594
++ ___block_descriptor_tmp.20714
++ ___block_descriptor_tmp.21209
++ ___block_descriptor_tmp.22127
++ ___block_descriptor_tmp.28.21253
++ ___block_descriptor_tmp.3.16225
++ ___block_descriptor_tmp.384
++ ___block_descriptor_tmp.4.16990
++ ___block_descriptor_tmp.44.11359
++ ___block_descriptor_tmp.44.12889
++ ___block_descriptor_tmp.5.16941
++ ___block_descriptor_tmp.50.12734
++ ___block_descriptor_tmp.59.20060
++ ___block_descriptor_tmp.61.20050
++ ___block_descriptor_tmp.68.20051
++ ___block_descriptor_tmp.7.16983
++ ___block_descriptor_tmp.8.15682
++ ___block_descriptor_tmp.8.16945
++ ___block_descriptor_tmp.81.11397
++ ___block_descriptor_tmp.82.13698
++ ___block_descriptor_tmp.84.16148
++ ___block_descriptor_tmp.9.16952
++ ___block_descriptor_tmp.93.16321
++ ___block_literal_global.11312
++ ___block_literal_global.12371
++ ___block_literal_global.12651
++ ___block_literal_global.12757
++ ___block_literal_global.134.21940
++ ___block_literal_global.13626
++ ___block_literal_global.143.11445
++ ___block_literal_global.14494
++ ___block_literal_global.14760
++ ___block_literal_global.15782
++ ___block_literal_global.16220
++ ___block_literal_global.16821
++ ___block_literal_global.16908
++ ___block_literal_global.16928
++ ___block_literal_global.16979
++ ___block_literal_global.17072
++ ___block_literal_global.17175
++ ___block_literal_global.17320
++ ___block_literal_global.17544
++ ___block_literal_global.18447
++ ___block_literal_global.18627
++ ___block_literal_global.19208
++ ___block_literal_global.19268
++ ___block_literal_global.20049
++ ___block_literal_global.208.15471
++ ___block_literal_global.21.21211
++ ___block_literal_global.21190
++ ___block_literal_global.21203
++ ___block_literal_global.21957
++ ___block_literal_global.22063
++ ___block_literal_global.300.11545
++ ___block_literal_global.306.11552
++ ___block_literal_global.37.11349
++ ___block_literal_global.386
++ ___block_literal_global.46.12885
++ ___block_literal_global.52.12729
++ ___block_literal_global.83.11395
++ ___block_literal_global.95.16318
++ __unnamed_array_storage.14499
++ __unnamed_array_storage.14570
++ __unnamed_array_storage.14832
+- GCC_except_table10026
+- GCC_except_table10030
+- GCC_except_table10036
+- GCC_except_table10042
+- GCC_except_table10149
+- GCC_except_table10186
+- GCC_except_table10191
+- GCC_except_table10204
+- GCC_except_table10351
+- GCC_except_table10357
+- GCC_except_table10361
+- GCC_except_table10370
+- GCC_except_table10413
+- GCC_except_table10528
+- GCC_except_table10533
+- GCC_except_table6547
+- GCC_except_table6551
+- GCC_except_table6588
+- GCC_except_table6592
+- GCC_except_table6595
+- GCC_except_table6597
+- GCC_except_table6600
+- GCC_except_table6605
+- GCC_except_table6616
+- GCC_except_table6624
+- GCC_except_table6647
+- GCC_except_table6751
+- GCC_except_table6756
+- GCC_except_table6760
+- GCC_except_table6766
+- GCC_except_table6768
+- GCC_except_table6770
+- GCC_except_table6774
+- GCC_except_table6777
+- GCC_except_table6780
+- GCC_except_table6783
+- GCC_except_table6790
+- GCC_except_table6794
+- GCC_except_table6803
+- GCC_except_table6805
+- GCC_except_table6807
+- GCC_except_table6811
+- GCC_except_table6817
+- GCC_except_table6821
+- GCC_except_table6823
+- GCC_except_table6827
+- GCC_except_table6832
+- GCC_except_table6836
+- GCC_except_table6838
+- GCC_except_table6847
+- GCC_except_table6862
+- GCC_except_table6864
+- GCC_except_table6868
+- GCC_except_table6871
+- GCC_except_table6878
+- GCC_except_table6890
+- GCC_except_table6898
+- GCC_except_table6900
+- GCC_except_table6903
+- GCC_except_table6905
+- GCC_except_table6912
+- GCC_except_table6914
+- GCC_except_table6916
+- GCC_except_table6924
+- GCC_except_table7011
+- GCC_except_table7013
+- GCC_except_table7019
+- GCC_except_table7039
+- GCC_except_table7043
+- GCC_except_table7045
+- GCC_except_table7055
+- GCC_except_table7057
+- GCC_except_table7147
+- GCC_except_table7151
+- GCC_except_table7155
+- GCC_except_table7159
+- GCC_except_table7442
+- GCC_except_table7445
+- GCC_except_table7447
+- GCC_except_table7573
+- GCC_except_table7579
+- GCC_except_table7632
+- GCC_except_table7663
+- GCC_except_table7670
+- GCC_except_table7696
+- GCC_except_table7720
+- GCC_except_table7735
+- GCC_except_table7738
+- GCC_except_table7762
+- GCC_except_table7768
+- GCC_except_table7772
+- GCC_except_table7778
+- GCC_except_table7780
+- GCC_except_table7788
+- GCC_except_table7795
+- GCC_except_table7797
+- GCC_except_table7799
+- GCC_except_table7801
+- GCC_except_table7807
+- GCC_except_table7809
+- GCC_except_table7812
+- GCC_except_table7829
+- GCC_except_table7871
+- GCC_except_table7881
+- GCC_except_table7886
+- GCC_except_table7956
+- GCC_except_table8067
+- GCC_except_table8088
+- GCC_except_table8230
+- GCC_except_table8269
+- GCC_except_table8416
+- GCC_except_table8567
+- GCC_except_table8610
+- GCC_except_table8646
+- GCC_except_table8788
+- GCC_except_table8791
+- GCC_except_table8795
+- GCC_except_table8846
+- GCC_except_table9066
+- GCC_except_table9071
+- GCC_except_table9172
+- GCC_except_table9177
+- GCC_except_table9306
+- GCC_except_table9308
+- GCC_except_table9311
+- GCC_except_table9332
+- GCC_except_table9668
+- GCC_except_table9896
+- GCC_except_table9929
+- GCC_except_table9954
+- GCC_except_table9967
+- GCC_except_table9998
+- __ZL10write_attrjPKv12_CAValueTypePv.18989
+- __ZL11block_ctors.15393
+- __ZL11initialized.16741
+- __ZL15copy_dictionaryjPKv12_CAValueTypePv.19011
+- __ZL5blackv.18841
+- __ZL8set_attrPKvS0_Pv.19003
+- __ZL9copy_attrjPKv12_CAValueTypePv.19013
+- __ZN2CA12WindowServerL10null_timerEP16__CFRunLoopTimerPv.16156
+- __ZN2CA6RenderL18release_deallocateEPKvPv.11695
+- __ZN2CA6RenderL18release_image_dataEPKvPv.21615
+- __ZZL16defines_propertyjE5atoms.16063
+- __ZZL16defines_propertyjE5atoms.21785
+- ___Block_byref_object_copy_.12286
+- ___Block_byref_object_copy_.14558
+- ___Block_byref_object_copy_.19201
+- ___Block_byref_object_dispose_.12287
+- ___Block_byref_object_dispose_.14559
+- ___Block_byref_object_dispose_.19202
+- ___block_descriptor_tmp.1.15934
+- ___block_descriptor_tmp.1.16982
+- ___block_descriptor_tmp.1.18564
+- ___block_descriptor_tmp.102.16167
+- ___block_descriptor_tmp.11.16994
+- ___block_descriptor_tmp.11312
+- ___block_descriptor_tmp.12.19206
+- ___block_descriptor_tmp.12648
+- ___block_descriptor_tmp.12754
+- ___block_descriptor_tmp.13.16950
+- ___block_descriptor_tmp.13002
+- ___block_descriptor_tmp.13627
+- ___block_descriptor_tmp.141.11445
+- ___block_descriptor_tmp.14726
+- ___block_descriptor_tmp.15674
+- ___block_descriptor_tmp.15933
+- ___block_descriptor_tmp.16217
+- ___block_descriptor_tmp.16818
+- ___block_descriptor_tmp.16925
+- ___block_descriptor_tmp.16976
+- ___block_descriptor_tmp.17.16996
+- ___block_descriptor_tmp.17069
+- ___block_descriptor_tmp.17323
+- ___block_descriptor_tmp.17971
+- ___block_descriptor_tmp.18563
+- ___block_descriptor_tmp.19.21208
+- ___block_descriptor_tmp.19204
+- ___block_descriptor_tmp.19271
+- ___block_descriptor_tmp.206.15589
+- ___block_descriptor_tmp.20709
+- ___block_descriptor_tmp.21204
+- ___block_descriptor_tmp.22122
+- ___block_descriptor_tmp.28.21248
+- ___block_descriptor_tmp.3.16220
+- ___block_descriptor_tmp.4.16985
+- ___block_descriptor_tmp.44.11357
+- ___block_descriptor_tmp.44.12884
+- ___block_descriptor_tmp.5.16936
+- ___block_descriptor_tmp.50.12729
+- ___block_descriptor_tmp.59.20055
+- ___block_descriptor_tmp.61.20045
+- ___block_descriptor_tmp.68.20046
+- ___block_descriptor_tmp.7.16978
+- ___block_descriptor_tmp.8.15677
+- ___block_descriptor_tmp.8.16940
+- ___block_descriptor_tmp.81.11395
+- ___block_descriptor_tmp.82.13695
+- ___block_descriptor_tmp.84.16143
+- ___block_descriptor_tmp.9.16947
+- ___block_descriptor_tmp.93.16316
+- ___block_literal_global.11310
+- ___block_literal_global.12366
+- ___block_literal_global.12646
+- ___block_literal_global.12752
+- ___block_literal_global.134.21935
+- ___block_literal_global.13623
+- ___block_literal_global.143.11443
+- ___block_literal_global.14489
+- ___block_literal_global.14755
+- ___block_literal_global.15777
+- ___block_literal_global.16215
+- ___block_literal_global.16816
+- ___block_literal_global.16903
+- ___block_literal_global.16923
+- ___block_literal_global.16974
+- ___block_literal_global.17067
+- ___block_literal_global.17170
+- ___block_literal_global.17315
+- ___block_literal_global.17539
+- ___block_literal_global.18442
+- ___block_literal_global.18622
+- ___block_literal_global.19203
+- ___block_literal_global.19263
+- ___block_literal_global.20044
+- ___block_literal_global.208.15466
+- ___block_literal_global.21.21206
+- ___block_literal_global.21185
+- ___block_literal_global.21198
+- ___block_literal_global.21952
+- ___block_literal_global.22058
+- ___block_literal_global.300.11543
+- ___block_literal_global.306.11550
+- ___block_literal_global.37.11347
+- ___block_literal_global.46.12880
+- ___block_literal_global.52.12724
+- ___block_literal_global.83.11393
+- ___block_literal_global.95.16313
+- __unnamed_array_storage.14494
+- __unnamed_array_storage.14565
+- __unnamed_array_storage.14827
+CStrings:
++ "21G78"
++ "CAPrefersHDR444"
+- "21F71"
+
+```

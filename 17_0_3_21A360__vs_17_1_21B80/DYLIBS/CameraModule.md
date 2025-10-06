@@ -1,0 +1,22 @@
+## CameraModule
+
+> `/System/Library/ControlCenter/Bundles/CameraModule.bundle/CameraModule`
+
+```diff
+
+-520.1.0.0.0
++520.7.100.0.0
+   __TEXT.__text: 0x280
+   __TEXT.__auth_stubs: 0xd0
+   __TEXT.__objc_methlist: 0x20
+
+   - /System/Library/PrivateFrameworks/ControlCenterUIKit.framework/ControlCenterUIKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 03CD062F-0C08-3B0F-B09A-B3B96E55C65E
++  UUID: 3DB4BB2F-59FE-3419-AB36-CDE0886DBE38
+   Functions: 2
+   Symbols:   30
+   CStrings:  10
+
+```

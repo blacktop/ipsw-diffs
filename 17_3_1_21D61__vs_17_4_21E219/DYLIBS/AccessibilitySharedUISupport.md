@@ -1,0 +1,260 @@
+## AccessibilitySharedUISupport
+
+> `/System/Library/PrivateFrameworks/AccessibilitySharedUISupport.framework/AccessibilitySharedUISupport`
+
+```diff
+
+-452.0.6.0.0
+-  __TEXT.__text: 0xad0f4
+-  __TEXT.__auth_stubs: 0x2620
++452.10.0.0.0
++  __TEXT.__text: 0xab4f4
++  __TEXT.__auth_stubs: 0x2650
+   __TEXT.__objc_methlist: 0xd7c
+-  __TEXT.__const: 0x7254
+-  __TEXT.__cstring: 0x440c
++  __TEXT.__const: 0x71d4
++  __TEXT.__cstring: 0x471c
+   __TEXT.__ustring: 0x46
+   __TEXT.__gcc_except_tab: 0x170
+   __TEXT.__dlopen_cstrs: 0x82
+-  __TEXT.__swift5_typeref: 0xba52
+-  __TEXT.__swift5_reflstr: 0x15d0
+-  __TEXT.__swift5_assocty: 0xaf0
+-  __TEXT.__constg_swiftt: 0x3974
+-  __TEXT.__swift5_fieldmd: 0x1d50
++  __TEXT.__swift5_typeref: 0xb7b6
++  __TEXT.__swift5_reflstr: 0x15c0
++  __TEXT.__swift5_assocty: 0xac0
++  __TEXT.__constg_swiftt: 0x3950
++  __TEXT.__swift5_fieldmd: 0x1d1c
+   __TEXT.__swift5_builtin: 0xa0
+-  __TEXT.__swift5_capture: 0xc48
+-  __TEXT.__swift5_proto: 0x280
+-  __TEXT.__swift5_types: 0x264
+-  __TEXT.__unwind_info: 0x2438
++  __TEXT.__swift5_capture: 0xc18
++  __TEXT.__swift5_proto: 0x270
++  __TEXT.__swift5_types: 0x260
++  __TEXT.__unwind_info: 0x23d0
+   __TEXT.__objc_classname: 0x2b0
+-  __TEXT.__objc_methname: 0x393a
++  __TEXT.__objc_methname: 0x394e
+   __TEXT.__objc_methtype: 0xc3d
+   __TEXT.__objc_stubs: 0x27e0
+   __DATA_CONST.__got: 0x6d0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x35d8
+   __DATA_CONST.__objc_selrefs: 0xe50
++  __DATA_CONST.__objc_protorefs: 0x30
++  __DATA_CONST.__objc_classrefs: 0x210
++  __DATA_CONST.__objc_superrefs: 0x50
+   __DATA_CONST.__objc_arraydata: 0x18
+   __AUTH_CONST.__cfstring: 0x5e0
+   __AUTH_CONST.__objc_const: 0x6f8
+-  __AUTH_CONST.__const: 0x65f0
++  __AUTH_CONST.__const: 0x64e8
+   __AUTH_CONST.__objc_arrayobj: 0x18
+-  __AUTH_CONST.__auth_got: 0x1320
++  __AUTH_CONST.__auth_got: 0x1338
+   __AUTH.__objc_data: 0x12b0
+   __AUTH.__data: 0x9c90
+-  __DATA.__objc_protorefs: 0x30
+-  __DATA.__objc_classrefs: 0x210
+-  __DATA.__objc_superrefs: 0x50
+   __DATA.__objc_ivar: 0xc0
+-  __DATA.__data: 0x3e90
+-  __DATA.__bss: 0x5b00
++  __DATA.__data: 0x3ac8
++  __DATA.__bss: 0x5900
+   __DATA.__common: 0x280
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+   - /System/Library/Frameworks/Charts.framework/Charts
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FFA2A694-70C0-35AD-929C-9E4019530A80
+-  Functions: 4433
+-  Symbols:   2926
+-  CStrings:  1326
++  UUID: 720003CF-0153-3F99-9E99-79F2825583C9
++  Functions: 4413
++  Symbols:   2893
++  CStrings:  1341
+ 
+Symbols:
++ ___block_literal_global.251
++ _block_copy_helper.128
++ _block_copy_helper.132
++ _block_copy_helper.136
++ _block_copy_helper.140
++ _block_copy_helper.144
++ _block_copy_helper.150
++ _block_copy_helper.156
++ _block_copy_helper.162
++ _block_copy_helper.168
++ _block_copy_helper.174
++ _block_copy_helper.191
++ _block_copy_helper.197
++ _block_copy_helper.202
++ _block_copy_helper.205
++ _block_copy_helper.210
++ _block_copy_helper.216
++ _block_descriptor.130
++ _block_descriptor.134
++ _block_descriptor.138
++ _block_descriptor.142
++ _block_descriptor.146
++ _block_descriptor.152
++ _block_descriptor.158
++ _block_descriptor.164
++ _block_descriptor.170
++ _block_descriptor.176
++ _block_descriptor.193
++ _block_descriptor.199
++ _block_descriptor.204
++ _block_descriptor.207
++ _block_descriptor.212
++ _block_descriptor.218
++ _block_destroy_helper.129
++ _block_destroy_helper.133
++ _block_destroy_helper.137
++ _block_destroy_helper.141
++ _block_destroy_helper.145
++ _block_destroy_helper.151
++ _block_destroy_helper.157
++ _block_destroy_helper.163
++ _block_destroy_helper.169
++ _block_destroy_helper.175
++ _block_destroy_helper.192
++ _block_destroy_helper.198
++ _block_destroy_helper.203
++ _block_destroy_helper.206
++ _block_destroy_helper.211
++ _block_destroy_helper.217
++ _get_witness_table 6Charts18BuilderConditionalVyACyAA12ChartContentPAAE7opacityyQrSdFQOyAeAE15foregroundStyle2byQrAA14PlottableValueVyqd__G_tAA0J0Rd__lFQOyAA7BarMarkV_28AccessibilitySharedUISupport0D4DataO011CategoricalqK0VQo__Qo_ACyAeAEAFyQrSdFQOyAeAEAgHQrAK_tAaLRd__lFQOyAA04LineM0V_ASQo__Qo_AYGGAeAEAFyQrSdFQOyAeAEAgHQrAK_tAaLRd__lFQOyAA05PointM0V_ASQo__Qo_GSgAaDHpA4_AaDHPA_AaDHPqd__AaDHD2_AUHO_AzaDHPqd__AaDHD2_AYHO_qd__AaDHD2_AYHOHCHC_qd__AaDHD2_A3_HOHC_HC.56
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVy28AccessibilitySharedUISupport21ElementsContainerViewVGAA24_BackgroundStyleModifierVyAA5ColorVGGAA0K0HPAiaPHPyHC_AnA0kN0HPyHCHC.54
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA7DividerVAA24_BackgroundStyleModifierVyAA5ColorVGGAA4ViewHPAeaLHPyHC_AjA0jH0HPyHCHC.98
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE16headerProminenceyQrAA0G0OFQOyAA4TextV_Qo_AA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA023AccessibilityAttachmentL0VGAaDHPAraDHPqd__AaDHD2_AKHO_AqA0eL0HPyHCHC_AtaVHPyHCHC.95
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4TextVAA16_FlexFrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA0E9AlignmentOGGAA023AccessibilityAttachmentL0VGSgAA4ViewHpAqaSHPAnaSHPAhaSHPAeaSHPyHC_AgA0pL0HPyHCHC_AmaTHPyHCHC_ApaTHPyHCHC_HC.99
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyACyACyAA6ButtonVyACyAA5LabelVyAA4TextVAA5ImageVGAA0I18AttachmentModifierVGGAA16_FlexFrameLayoutVGAA016_BackgroundStyleQ0VyAA5ColorVGG_Qo_ATGAA11_ClipEffectVyAA16RoundedRectangleVGGAA08_PaddingT0VGAaDHPA11_AaDHPA5_AaDHPqd__AaDHD2_A4_HO_AtA0eQ0HPyHCHC_A10_AAA15_HPyHCHC_A13_AAA15_HPyHCHC.96
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA4ViewP6ChartsE11chartLegendyQrAA10VisibilityOFQOyAEyAgHE0H6YScale6domain4typeQrqd___AH9ScaleTypeVSgtAH0N6DomainRd__lFQOyAgHE0H6XScaleAmNQrqd___AQtAhRRd__lFQOyAgHE0H5XAxis7contentQrqd__yXE_tAH04AxisD0Rd__lFQOyAH5ChartVyAA7ForEachVySnySiGSi28AccessibilitySharedUISupport11SeriesMarksVGG_AH0T5MarksVyAH0T10ValueLabelVys5NeverOGSgGQo__SaySSGQo__SNySdGQo_AA30_EnvironmentKeyWritingModifierVyAA4FontVSgGG_Qo_AA16_FlexFrameLayoutVGAEyAgHEAIyQrAKFQOyAEyAgHEAlmNQrqd___AQtAhRRd__lFQOyAgHEAsmNQrqd___AQtAhRRd__lFQOyAgHEAtUQrqd__yXE_tAhVRd__lFQOyA4__A6_yA10_GQo__A17_Qo__A17_Qo_A24_G_Qo_A28_GGAaFHPA29_AaFHPqd__AaFHD2_A26_HO_A28_AA0F8ModifierHPyHCHC_A36_AaFHPqd__AaFHD2_A35_HO_A28_AAA38_HPyHCHCHC.33
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA4TextV_AA15ModifiedContentVyAA4MenuVyAgA7ForEachVySnySiGSiAIyAA6ButtonVyAGGAA31AccessibilityAttachmentModifierVGGGASGtGGAA0E0HPyHC.97
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVy28AccessibilitySharedUISupport010ChartTitleE0VAA14_PaddingLayoutVG_AH13StyledDividerVAGyAH014SeriesSelectorE0VALGSgACyAEyAGyAA6ZStackVyAEyAGyAH0kE0VAA0H18AttachmentModifierVG_AH021SonificationContainerE0VtGGALG_AH10PlayButtonVAA4ListVys5NeverOAEyAGyAGyAA7SectionVyAH13SectionHeaderVAA4TextVSgAA05EmptyE0VGAA022_EnvironmentKeyWritingU0VyA15_4CaseOSgGGAA013_TraitWritingU0VyAA0Z21RowBackgroundTraitKeyVGGSg_AEyAGyAGyA11_yA13_AA7ForEachVySayAH22DescriptionSectionItemVG10Foundation4UUIDVA15_GSgA18_GA25_GA31_G_A46_tGSgtGGtGGtGGAA0E0HPyHC.55
++ _get_witness_table 7SwiftUI7ForEachVySay28AccessibilitySharedUISupport9ChartDataO0I7ElementVGAhD11SeriesMarksV0I4MarkVG6Charts0H7ContentHpAmoPHPyHC_HC.53
++ _objectdestroy.205Tm
+- ___block_literal_global.227
+- _associated conformance 28AccessibilitySharedUISupport12VCStatusType33_010702EECE7430CC3C5775A6C0B0EF63LLOSHAASQ
+- _associated conformance 28AccessibilitySharedUISupport12VCStatusType33_010702EECE7430CC3C5775A6C0B0EF63LLOs12CaseIterableAA8AllCasessAEP_Sl
+- _block_copy_helper.129
+- _block_copy_helper.133
+- _block_copy_helper.137
+- _block_copy_helper.141
+- _block_copy_helper.145
+- _block_copy_helper.151
+- _block_copy_helper.157
+- _block_copy_helper.163
+- _block_copy_helper.169
+- _block_copy_helper.175
+- _block_copy_helper.192
+- _block_copy_helper.198
+- _block_copy_helper.203
+- _block_copy_helper.208
+- _block_copy_helper.213
+- _block_copy_helper.217
+- _block_copy_helper.218
+- _block_copy_helper.221
+- _block_copy_helper.226
+- _block_copy_helper.238
+- _block_descriptor.131
+- _block_descriptor.135
+- _block_descriptor.139
+- _block_descriptor.143
+- _block_descriptor.147
+- _block_descriptor.153
+- _block_descriptor.159
+- _block_descriptor.165
+- _block_descriptor.171
+- _block_descriptor.177
+- _block_descriptor.194
+- _block_descriptor.200
+- _block_descriptor.205
+- _block_descriptor.210
+- _block_descriptor.215
+- _block_descriptor.219
+- _block_descriptor.220
+- _block_descriptor.223
+- _block_descriptor.228
+- _block_descriptor.240
+- _block_destroy_helper.130
+- _block_destroy_helper.134
+- _block_destroy_helper.138
+- _block_destroy_helper.142
+- _block_destroy_helper.146
+- _block_destroy_helper.152
+- _block_destroy_helper.158
+- _block_destroy_helper.164
+- _block_destroy_helper.170
+- _block_destroy_helper.176
+- _block_destroy_helper.193
+- _block_destroy_helper.199
+- _block_destroy_helper.204
+- _block_destroy_helper.209
+- _block_destroy_helper.214
+- _block_destroy_helper.218
+- _block_destroy_helper.219
+- _block_destroy_helper.222
+- _block_destroy_helper.227
+- _block_destroy_helper.239
+- _get_witness_table 6Charts18BuilderConditionalVyACyAA12ChartContentPAAE7opacityyQrSdFQOyAeAE15foregroundStyle2byQrAA14PlottableValueVyqd__G_tAA0J0Rd__lFQOyAA7BarMarkV_28AccessibilitySharedUISupport0D4DataO011CategoricalqK0VQo__Qo_ACyAeAEAFyQrSdFQOyAeAEAgHQrAK_tAaLRd__lFQOyAA04LineM0V_ASQo__Qo_AYGGAeAEAFyQrSdFQOyAeAEAgHQrAK_tAaLRd__lFQOyAA05PointM0V_ASQo__Qo_GSgAaDHpA4_AaDHPA_AaDHPqd__AaDHD2_AUHO_AzaDHPqd__AaDHD2_AYHO_qd__AaDHD2_AYHOHCHC_qd__AaDHD2_A3_HOHC_HC.57
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVy28AccessibilitySharedUISupport21ElementsContainerViewVGAA24_BackgroundStyleModifierVyAA5ColorVGGAA0K0HPAiaPHPyHC_AnA0kN0HPyHCHC.56
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA7DividerVAA24_BackgroundStyleModifierVyAA5ColorVGGAA4ViewHPAeaLHPyHC_AjA0jH0HPyHCHC.100
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE16headerProminenceyQrAA0G0OFQOyAA4TextV_Qo_AA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA023AccessibilityAttachmentL0VGAaDHPAraDHPqd__AaDHD2_AKHO_AqA0eL0HPyHCHC_AtaVHPyHCHC.97
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4TextVAA16_FlexFrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA0E9AlignmentOGGAA023AccessibilityAttachmentL0VGSgAA4ViewHpAqaSHPAnaSHPAhaSHPAeaSHPyHC_AgA0pL0HPyHCHC_AmaTHPyHCHC_ApaTHPyHCHC_HC.101
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyACyACyAA6ButtonVyACyAA5LabelVyAA4TextVAA5ImageVGAA0I18AttachmentModifierVGGAA16_FlexFrameLayoutVGAA016_BackgroundStyleQ0VyAA5ColorVGG_Qo_ATGAA11_ClipEffectVyAA16RoundedRectangleVGGAA08_PaddingT0VGAaDHPA11_AaDHPA5_AaDHPqd__AaDHD2_A4_HO_AtA0eQ0HPyHCHC_A10_AAA15_HPyHCHC_A13_AAA15_HPyHCHC.98
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA4ViewP6ChartsE11chartLegendyQrAA10VisibilityOFQOyAEyAgHE0H6YScale6domain4typeQrqd___AH9ScaleTypeVSgtAH0N6DomainRd__lFQOyAgHE0H6XScaleAmNQrqd___AQtAhRRd__lFQOyAgHE0H5XAxis7contentQrqd__yXE_tAH04AxisD0Rd__lFQOyAH5ChartVyAA7ForEachVySnySiGSi28AccessibilitySharedUISupport11SeriesMarksVGG_AH0T5MarksVyAH0T10ValueLabelVys5NeverOGSgGQo__SaySSGQo__SNySdGQo_AA30_EnvironmentKeyWritingModifierVyAA4FontVSgGG_Qo_AA16_FlexFrameLayoutVGAEyAgHEAIyQrAKFQOyAEyAgHEAlmNQrqd___AQtAhRRd__lFQOyAgHEAsmNQrqd___AQtAhRRd__lFQOyAgHEAtUQrqd__yXE_tAhVRd__lFQOyA4__A6_yA10_GQo__A17_Qo__A17_Qo_A24_G_Qo_A28_GGAaFHPA29_AaFHPqd__AaFHD2_A26_HO_A28_AA0F8ModifierHPyHCHC_A36_AaFHPqd__AaFHD2_A35_HO_A28_AAA38_HPyHCHCHC.34
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA4TextV_AA15ModifiedContentVyAA4MenuVyAgA7ForEachVySnySiGSiAIyAA6ButtonVyAGGAA31AccessibilityAttachmentModifierVGGGASGtGGAA0E0HPyHC.99
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVy28AccessibilitySharedUISupport010ChartTitleE0VAA14_PaddingLayoutVG_AH13StyledDividerVAGyAH014SeriesSelectorE0VALGSgACyAEyAGyAA6ZStackVyAEyAGyAH0kE0VAA0H18AttachmentModifierVG_AH021SonificationContainerE0VtGGALG_AH10PlayButtonVAA4ListVys5NeverOAEyAGyAGyAA7SectionVyAH13SectionHeaderVAA4TextVSgAA05EmptyE0VGAA022_EnvironmentKeyWritingU0VyA15_4CaseOSgGGAA013_TraitWritingU0VyAA0Z21RowBackgroundTraitKeyVGGSg_AEyAGyAGyA11_yA13_AA7ForEachVySayAH22DescriptionSectionItemVG10Foundation4UUIDVA15_GSgA18_GA25_GA31_G_A46_tGSgtGGtGGtGGAA0E0HPyHC.57
+- _get_witness_table 7SwiftUI7ForEachVySay28AccessibilitySharedUISupport9ChartDataO0I7ElementVGAhD11SeriesMarksV0I4MarkVG6Charts0H7ContentHpAmoPHPyHC_HC.54
+- _objectdestroy.100Tm
+- _objectdestroy.182Tm
+- _objectdestroy.372Tm
+- _objectdestroy.415Tm
+- _swift_unknownObjectRetain_n
+- _symbolic Say_____G 28AccessibilitySharedUISupport12VCStatusType33_010702EECE7430CC3C5775A6C0B0EF63LLO
+- _symbolic _____ 28AccessibilitySharedUISupport12VCStatusType33_010702EECE7430CC3C5775A6C0B0EF63LLO
+- _symbolic _____yAAy__________GAAy__________GG 7SwiftUI19_ConditionalContentV 28AccessibilitySharedUISupport14PrimaryTOCView33_B1BB4D8BE4E8A27034D0588F4237FFFDLLV AD09SecondaryI0AFLLV AD12PracticePageV AD12TextOnlyViewAFLLV
+- _symbolic _____yAAy__________y_____SgGGACy_____GGSg 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA0D10TransitionV
+- _symbolic _____ySay_____G__________yAEy_____yAFyAFyAFyAFy__________G_____y_____yAFy__________y_____GGGGG_____G_____G_____G_____yAFyAFy_____y_____yAFyAgTG_A0_tGGAJyAKyAFyAlMy_____GGGGGAVG_Qo_GAWGGSg 7SwiftUI7ForEachV 28AccessibilitySharedUISupport4PageC 10Foundation4UUIDV AA19_ConditionalContentV AA08ModifiedL0V AA4TextV AA14_OpacityEffectV AA19_BackgroundModifierV AA14GeometryReaderV AA5ColorV AA018_PreferenceWritingR0V AD22CalculateDefaultHeight33_B1BB4D8BE4E8A27034D0588F4237FFFDLLV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA0e10AttachmentR0V AA4ViewPAAE20accessibilityElement8childrenQrAA0E13ChildBehaviorV_tFQO AA6VStackV AA9TupleViewV AD0x6NextUpZ0A_LLV
+- _symbolic _____ySay_____G__________yAEy_____yAFyAFyAFyAFy__________y_____SgGG_____G_____G_____G_____GATGAFyAFyAtMGASGGGSg 7SwiftUI7ForEachV 28AccessibilitySharedUISupport4PageC 10Foundation4UUIDV AA19_ConditionalContentV AA08ModifiedL0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_OpacityEffectV AA16_FlexFrameLayoutV AA08_PaddingX0V AA0e10AttachmentR0V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 28AccessibilitySharedUISupport12VCStatusType33_010702EECE7430CC3C5775A6C0B0EF63LLO
+- _symbolic _____y_______________G 7SwiftUI15StrokeShapeViewV AA16RoundedRectangleV AA012HierarchicalD5StyleV AA05EmptyE0V
+- _symbolic _____y_____yAAy_____y_____G_____G_____y_____GG_Say_____GQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AA06ScrollC0V 28AccessibilitySharedUISupport016ManyCommandCardsC9WithExtraV AA16_FlexFrameLayoutV AA11_MaskEffectV AA14LinearGradientV AK06SpokenO10ToPracticeV
+- _symbolic _____y_____y_____yAAyAAy_____y_____y___________yAAyAAy__________G_____GSiGtGGAGG_____y_____GG_____y_____GG_SSQo__SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAEAdeF_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AA06ScrollC0V AA05TupleC0V 28AccessibilitySharedUISupport0j5BoxesC0V AA6IDViewV AA4TextV AA16_FlexFrameLayoutV AA08_PaddingT0V AA24_BackgroundStyleModifierV AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____y_____y_____ySnySiGSi_____GG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA7ForEachV AA7AnyViewV AA31AccessibilityAttachmentModifierV
+CStrings:
++ "Division by zero"
++ "Division results in an overflow"
++ "Insufficient space allocated to copy string contents"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/IntegerTypes.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"NSString\",?,R,C"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "invalid Collection: less than 'count' elements in collection"
+- "dictationStatus"
+- "listeningStatus"
+- "overlayStatus"
+
+```

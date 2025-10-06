@@ -1,0 +1,185 @@
+## MentalHealthUI
+
+> `/System/Library/PrivateFrameworks/MentalHealthUI.framework/MentalHealthUI`
+
+```diff
+
+-4146.3.2.0.0
+-  __TEXT.__text: 0x1fad64
+-  __TEXT.__auth_stubs: 0x3920
++4146.4.18.0.0
++  __TEXT.__text: 0x1fb358
++  __TEXT.__auth_stubs: 0x39e0
+   __TEXT.__objc_methlist: 0x2d4
+-  __TEXT.__const: 0x2efb4
+-  __TEXT.__cstring: 0x483e
+-  __TEXT.__swift5_typeref: 0x4146
++  __TEXT.__const: 0x2efa4
++  __TEXT.__cstring: 0x4c2e
++  __TEXT.__swift5_typeref: 0x4172
+   __TEXT.__swift5_fieldmd: 0x3078
+   __TEXT.__constg_swiftt: 0x3684
+   __TEXT.__swift5_builtin: 0x12c
+
+   __TEXT.__swift5_proto: 0x42c
+   __TEXT.__swift5_types: 0x318
+   __TEXT.__swift5_capture: 0xc68
+-  __TEXT.__unwind_info: 0x534c
+-  __TEXT.__eh_frame: 0x1568
++  __TEXT.__unwind_info: 0x5330
++  __TEXT.__eh_frame: 0x1578
+   __TEXT.__objc_classname: 0x149
+-  __TEXT.__objc_methname: 0x3370
+-  __TEXT.__objc_methtype: 0x1c1b
++  __TEXT.__objc_methname: 0x3398
++  __TEXT.__objc_methtype: 0x1c26
+   __TEXT.__objc_stubs: 0x660
+-  __DATA_CONST.__got: 0x1100
++  __DATA_CONST.__got: 0x1108
+   __DATA_CONST.__const: 0xbd8
+   __DATA_CONST.__objc_classlist: 0xc0
+   __DATA_CONST.__objc_protolist: 0xf0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x4830
++  __DATA_CONST.__objc_const: 0x4850
+   __DATA_CONST.__objc_selrefs: 0x7d8
+-  __AUTH_CONST.__const: 0x9208
++  __DATA_CONST.__objc_protorefs: 0x78
++  __DATA_CONST.__objc_classrefs: 0x1c0
++  __DATA_CONST.__objc_superrefs: 0x18
++  __AUTH_CONST.__const: 0x9230
+   __AUTH_CONST.__objc_const: 0x1b0
+   __AUTH_CONST.__cfstring: 0x1380
+-  __AUTH_CONST.__auth_got: 0x1c98
++  __AUTH_CONST.__auth_got: 0x1cf8
+   __AUTH.__objc_data: 0x1028
+   __AUTH.__data: 0x3ba0
+-  __DATA.__objc_protorefs: 0x78
+-  __DATA.__objc_classrefs: 0x1c0
+-  __DATA.__objc_superrefs: 0x18
+   __DATA.__objc_ivar: 0x30
+   __DATA.__objc_data: 0x68
+-  __DATA.__data: 0x6950
+-  __DATA.__bss: 0x85f0
++  __DATA.__data: 0x6a30
++  __DATA.__bss: 0x8600
+   __DATA.__common: 0xa8
+   __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__data: 0x210
++  __DATA_DIRTY.__data: 0x200
+   __DATA_DIRTY.__bss: 0x8
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CB4B37E2-31CC-32FE-BA7D-0296CDC54B54
+-  Functions: 7480
+-  Symbols:   1753
+-  CStrings:  1505
++  UUID: E4A5732B-5E79-3DB8-9846-6C87DEF7426D
++  Functions: 7484
++  Symbols:   1755
++  CStrings:  1530
+ 
+Symbols:
++ ___swift_store_extra_inhabitant_indexTm
++ _block_copy_helper.16
++ _block_copy_helper.32
++ _block_copy_helper.36
++ _block_copy_helper.43
++ _block_copy_helper.53
++ _block_copy_helper.59
++ _block_copy_helper.61
++ _block_descriptor.18
++ _block_descriptor.34
++ _block_descriptor.38
++ _block_descriptor.45
++ _block_descriptor.55
++ _block_descriptor.61
++ _block_descriptor.63
++ _block_descriptor.81
++ _block_destroy_helper.17
++ _block_destroy_helper.33
++ _block_destroy_helper.37
++ _block_destroy_helper.44
++ _block_destroy_helper.54
++ _block_destroy_helper.60
++ _block_destroy_helper.62
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA15NavigationStackVyAA0E4PathVAA4ViewPAAE9listStyleyQrqd__AA04ListJ0Rd__lFQOyAiAE26interactiveDismissDisabledyQrSbFQOyAiAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQOyAiAE29navigationBarTitleDisplayModeyQrAA0eS4ItemV0tuV0OFQOyAiAE0rT0yQrqd__SyRd__lFQOyAA0K0Vys5NeverOAA05TupleH0VyACyAA6HStackVyA_yAA4TextV_AA6SpacerVACyAiAE06buttonJ0yQrqd__AA015PrimitiveButtonJ0Rd__lFQOyACyAA6ButtonVyACyACyA3_AA16_FixedSizeLayoutVGAA011_ForegroundJ8ModifierVyAA5ColorVGGGAA30_EnvironmentKeyWritingModifierVyAA17ButtonBorderShapeVGG_AA023BorderedProminentButtonJ0VQo_A21_yAA08AnyShapeJ0VSgGGtGGA17_G_A1_yA_yA5__AiAE010datePickerJ0yQrqd__AA010DatePickerJ0Rd__lFQOyAiAE12labelsHiddenQryFQOyAA10DatePickerVyA3_G_Qo__AA015WheelDatePickerJ0VQo_A5_tGGSgtGG_SSQo__Qo__AA0yqD0VyAA0qD7BuilderV10buildBlockyQrxAaORzlFZQOy_AA0qW0VyytA9_yA3_GGQo__A57_A58_yQrxAaORzlFZQOy_A60_yytAiAE4boldyQrSbFQOyA61__Qo_GQo_tGQo__Qo__AA012InsetGroupedkJ0VQo_GA21_yA16_SgGGAaHHPA74_AaHHPyHC_A76_AA0H8ModifierHPyHCHC.36
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA5ImageVAA31AccessibilityAttachmentModifierVGAA4ViewHPAeaIHPyHC_AgA0iH0HPyHCHC.1
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyAA6VStackVyAGyACyACyAA0G0PAAE4boldyQrSbFQOyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA24_ForegroundStyleModifierVyAA5ColorVGGAA022_EnvironmentKeyWritingP0VyAA4FontVSgGG_Qo_AA06_FrameM0VGAA023AccessibilityAttachmentP0VG_AA6SpacerVtGGSg_AkAE20accessibilityElement8childrenQrAA0W13ChildBehaviorV_tFQOyAIyAGyA9_Sg_ACyACyACyAA4TextVAYyAA13TextAlignmentOGGAA05_FlexvM0VGAA16_BlendModeEffectVGA31_tGG_Qo_tGGAVGAaJHPA36_AaJHPyHC_AvA0gP0HPyHCHC.8
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaDRd__lFQOyAA08ModifiedD0VyAOyAA6ButtonVyAA4TextVGAA30_EnvironmentKeyWritingModifierVyAA13AnyShapeStyleVSgGGAA017_AllowsHitTestingS0VG_012MentalHealthB0023MomentaryDatePickerFullE0VQo_AA05EmptyE0VGAaDHPqd0__AaDHD3_A6_HO_A8_AaDHPyHCHC.5
++ _get_witness_table 7SwiftUI7SectionVyAA9EmptyViewVAA15ModifiedContentVyAA6ButtonVyAA4TextVGAA31AccessibilityAttachmentModifierVGAGyAkNGGAA0E0HPAeaRHPyHC_AoaRHPAlaRHPyHC_AnA0eL0HPyHCHCApaRHPAkaRHPyHC_AnaSHPyHCHCHC.38
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA6VStackVyAA05TupleC0VyAA15ModifiedContentVyAMyAMyAMy012MentalHealthB024StateOfMindVisualizationV12ValenceImageVAA0G18AttachmentModifierVGAA12_FrameLayoutVGAA08_PaddingY0VGATG_AMyAMyAMyAA4TextVAN20LoggingFlowBlendMode33_BB4264322A95D29A2741BC4F4067A987LLVGAA022_EnvironmentKeyWritingW0VyAA13TextAlignmentOGGATGAMyA12_AZGSgtGG_Qo_HO.7
++ _objectdestroy.14Tm
++ _objectdestroy.19Tm
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ImageV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____y_____yACyAAyAAy_____yAAyAAyAAy__________G_____y_____GG_____y_____SgGG_Qo______G_____G______tGGSg______yADyACyAUSg_AAyAAyAAy_____ALy_____GG_____G_____GA6_tGG_Qo_tGGAJG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA6VStackV AA0G0PAAE4boldyQrSbFQO AA5ImageV AA18_AspectRatioLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingP0V AA4FontV AA06_FrameM0V AA023AccessibilityAttachmentP0V AA6SpacerV AkAE20accessibilityElement8childrenQrAA0W13ChildBehaviorV_tFQO AA4TextV AA13TextAlignmentO AA05_FlexvM0V AA16_BlendModeEffectV
++ _symbolic _____y_____y_____y_____yACyACyACy__________G_____G_____GAEG_ACyACyACy__________G_____y_____GGAEGACyArIGSgtGG_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleC0V AA15ModifiedContentV 012MentalHealthB024StateOfMindVisualizationV12ValenceImageV AA0G18AttachmentModifierV AA12_FrameLayoutV AA08_PaddingY0V AA4TextV AN20LoggingFlowBlendMode33_BB4264322A95D29A2741BC4F4067A987LLV AA022_EnvironmentKeyWritingW0V AA13TextAlignmentO
+- _block_copy_helper.17
+- _block_copy_helper.26
+- _block_copy_helper.33
+- _block_copy_helper.37
+- _block_copy_helper.44
+- _block_copy_helper.54
+- _block_copy_helper.60
+- _block_copy_helper.62
+- _block_descriptor.19
+- _block_descriptor.28
+- _block_descriptor.35
+- _block_descriptor.39
+- _block_descriptor.46
+- _block_descriptor.56
+- _block_descriptor.62
+- _block_descriptor.64
+- _block_descriptor.84
+- _block_destroy_helper.18
+- _block_destroy_helper.27
+- _block_destroy_helper.34
+- _block_destroy_helper.38
+- _block_destroy_helper.45
+- _block_destroy_helper.55
+- _block_destroy_helper.61
+- _block_destroy_helper.63
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA15NavigationStackVyAA0E4PathVAA4ViewPAAE9listStyleyQrqd__AA04ListJ0Rd__lFQOyAiAE26interactiveDismissDisabledyQrSbFQOyAiAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQOyAiAE29navigationBarTitleDisplayModeyQrAA0eS4ItemV0tuV0OFQOyAiAE0rT0yQrqd__SyRd__lFQOyAA0K0Vys5NeverOAA05TupleH0VyACyAA6HStackVyA_yAA4TextV_AA6SpacerVACyAiAE06buttonJ0yQrqd__AA015PrimitiveButtonJ0Rd__lFQOyACyAA6ButtonVyACyACyA3_AA16_FixedSizeLayoutVGAA011_ForegroundJ8ModifierVyAA5ColorVGGGAA30_EnvironmentKeyWritingModifierVyAA17ButtonBorderShapeVGG_AA023BorderedProminentButtonJ0VQo_A21_yAA08AnyShapeJ0VSgGGtGGA17_G_A1_yA_yA5__AiAE010datePickerJ0yQrqd__AA010DatePickerJ0Rd__lFQOyAiAE12labelsHiddenQryFQOyAA10DatePickerVyA3_G_Qo__AA015WheelDatePickerJ0VQo_A5_tGGSgtGG_SSQo__Qo__AA0yqD0VyAA0qD7BuilderV10buildBlockyQrxAaORzlFZQOy_AA0qW0VyytA9_yA3_GGQo__A57_A58_yQrxAaORzlFZQOy_A60_yytAiAE4boldyQrSbFQOyA61__Qo_GQo_tGQo__Qo__AA012InsetGroupedkJ0VQo_GA21_yA16_SgGGAaHHPA74_AaHHPyHC_A76_AA0H8ModifierHPyHCHC.26
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyAA6VStackVyAGyACyAA0G0PAAE4boldyQrSbFQOyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA24_ForegroundStyleModifierVyAA5ColorVGGAA022_EnvironmentKeyWritingP0VyAA4FontVSgGG_Qo_AA06_FrameM0VG_AA6SpacerVtGGSg_AIyAGyA6_Sg_ACyACyACyAA4TextVAYyAA0X9AlignmentOGGAA05_FlexvM0VGAA16_BlendModeEffectVGA24_tGGtGGAVGAaJHPA28_AaJHPyHC_AvA0gP0HPyHCHC.7
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaDRd__lFQOyAA08ModifiedD0VyAOyAA6ButtonVyAA4TextVGAA30_EnvironmentKeyWritingModifierVyAA13AnyShapeStyleVSgGGAA017_AllowsHitTestingS0VG_012MentalHealthB0023MomentaryDatePickerFullE0VQo_AA05EmptyE0VGAaDHPqd0__AaDHD3_A6_HO_A8_AaDHPyHCHC.15
+- _get_witness_table 7SwiftUI5ImageVAA4ViewHPyHC.1
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAGy012MentalHealthB024StateOfMindVisualizationV12ValenceImageVAA31AccessibilityAttachmentModifierVGAA12_FrameLayoutVGAA08_PaddingT0VG_AGyAGyAGyAA4TextVAH20LoggingFlowBlendMode33_BB4264322A95D29A2741BC4F4067A987LLVGAA022_EnvironmentKeyWritingR0VyAA0V9AlignmentOGGANGAGyA5_ATGSgtGGAA0E0HPyHC.6
+- _get_witness_table 7SwiftUI7SectionVyAA9EmptyViewVAA15ModifiedContentVyAA6ButtonVyAA4TextVGAA31AccessibilityAttachmentModifierVGAGyAkNGGAA0E0HPAeaRHPyHC_AoaRHPAlaRHPyHC_AnA0eL0HPyHCHCApaRHPAkaRHPyHC_AnaSHPyHCHCHC.39
+- _keypath_getTm
+- _objectdestroy.15Tm
+- _objectdestroy.20Tm
+- _symbolic _____ 7SwiftUI5ImageV
+- _symbolic _____y_____y_____yACyACy__________G_____G_____G_ACyACyACy__________G_____y_____GGAEGACyAqIGSgtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV 012MentalHealthB024StateOfMindVisualizationV12ValenceImageV AA31AccessibilityAttachmentModifierV AA12_FrameLayoutV AA08_PaddingT0V AA4TextV AH20LoggingFlowBlendMode33_BB4264322A95D29A2741BC4F4067A987LLV AA022_EnvironmentKeyWritingR0V AA0V9AlignmentO
+- _symbolic _____y_____y_____y_____yACyAAy_____yAAyAAyAAy__________G_____y_____GG_____y_____SgGG_Qo______G______tGGSg_ADyACyASSg_AAyAAyAAy_____ALy_____GG_____G_____GA4_tGGtGGAJG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA6VStackV AA0G0PAAE4boldyQrSbFQO AA5ImageV AA18_AspectRatioLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingP0V AA4FontV AA06_FrameM0V AA6SpacerV AA4TextV AA0X9AlignmentO AA05_FlexvM0V AA16_BlendModeEffectV
+CStrings:
++ "Can't construct Array with count < 0"
++ "Division by zero"
++ "Division results in an overflow"
++ "Insufficient space allocated to copy string contents"
++ "Negative value is not representable"
++ "Not enough bits to represent the passed value"
++ "Swift/Array.swift"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/IntegerTypes.swift"
++ "Swift/Integers.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"NSString\",?,R,C"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "i20@0:8I16"
++ "invalid Collection: less than 'count' elements in collection"
++ "setOwnerWithIdentity:"
+
+```

@@ -1,0 +1,2011 @@
+## Intents
+
+> `/System/Library/Frameworks/Intents.framework/Intents`
+
+```diff
+
+-2300.0.1.0.0
+-  __TEXT.__text: 0x4333ac
++2504.0.0.0.0
++  __TEXT.__text: 0x4338b8
+   __TEXT.__auth_stubs: 0x1000
+-  __TEXT.__objc_methlist: 0x549b8
++  __TEXT.__objc_methlist: 0x553d8
+   __TEXT.__const: 0x19e0
+   __TEXT.__gcc_except_tab: 0x17d4
+   __TEXT.__oslogstring: 0x54bc
+-  __TEXT.__cstring: 0x46ade
++  __TEXT.__cstring: 0x46b5a
+   __TEXT.__dlopen_cstrs: 0xc6c
+   __TEXT.__ustring: 0x512
+-  __TEXT.__unwind_info: 0x11080
++  __TEXT.__unwind_info: 0x11224
+   __TEXT.__objc_classname: 0x12188
+-  __TEXT.__objc_methname: 0x68808
++  __TEXT.__objc_methname: 0x68846
+   __TEXT.__objc_methtype: 0xca4c
+   __TEXT.__objc_stubs: 0x33340
+   __DATA_CONST.__got: 0x298
+-  __DATA_CONST.__const: 0xb188
++  __DATA_CONST.__const: 0xb1d8
+   __DATA_CONST.__objc_classlist: 0x28f8
+   __DATA_CONST.__objc_catlist: 0x100
+   __DATA_CONST.__objc_protolist: 0x1938
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0xc9f78
++  __DATA_CONST.__objc_const: 0xc8248
+   __DATA_CONST.__objc_selrefs: 0x14f60
+-  __DATA_CONST.__objc_arraydata: 0xc260
+-  __AUTH_CONST.__objc_const: 0x2c0b0
+-  __AUTH_CONST.__cfstring: 0x41d40
++  __DATA_CONST.__objc_protorefs: 0x90
++  __DATA_CONST.__objc_classrefs: 0x2670
++  __DATA_CONST.__objc_superrefs: 0x1370
++  __DATA_CONST.__objc_arraydata: 0xc298
++  __AUTH_CONST.__objc_const: 0x2de38
++  __AUTH_CONST.__cfstring: 0x41dc0
+   __AUTH_CONST.__const: 0x16e0
+   __AUTH_CONST.__objc_intobj: 0x828
+   __AUTH_CONST.__objc_doubleobj: 0x20
+-  __AUTH_CONST.__objc_arrayobj: 0x4ce0
++  __AUTH_CONST.__objc_arrayobj: 0x4cf8
+   __AUTH_CONST.__objc_dictobj: 0x3a48
+   __AUTH_CONST.__auth_got: 0x818
+-  __AUTH.__objc_data: 0x144b0
+-  __DATA.__objc_protorefs: 0x88
+-  __DATA.__objc_classrefs: 0x2670
+-  __DATA.__objc_superrefs: 0x1370
++  __AUTH.__objc_data: 0x143e8
+   __DATA.__objc_ivar: 0x3c98
+-  __DATA.__data: 0x13278
++  __DATA.__data: 0x13368
+   __DATA.__common: 0x0
+-  __DATA.__bss: 0x8d0
++  __DATA.__bss: 0x7e0
+   __DATA_DIRTY.__const: 0x61b
+-  __DATA_DIRTY.__objc_data: 0x5500
++  __DATA_DIRTY.__objc_data: 0x55c8
+   __DATA_DIRTY.__common: 0x8
+-  __DATA_DIRTY.__bss: 0x258
++  __DATA_DIRTY.__bss: 0x260
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libmis.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D9CF602F-A4D3-3763-8B33-07FE75745BD5
+-  Functions: 30767
+-  Symbols:   87787
+-  CStrings:  36915
++  UUID: 3E6D6B5D-798C-3750-904C-D8597F954FC8
++  Functions: 30879
++  Symbols:   88121
++  CStrings:  36926
+ 
+Symbols:
++ +[INActivateCarSignalIntent supportsSecureCoding]
++ +[INAddCallParticipantIntent supportsSecureCoding]
++ +[INAddMediaIntent supportsSecureCoding]
++ +[INAddTasksIntent supportsSecureCoding]
++ +[INAnswerCallIntent supportsSecureCoding]
++ +[INAppendToNoteIntent supportsSecureCoding]
++ +[INCancelWorkoutIntent supportsSecureCoding]
++ +[INChangeAlarmStatusIntent supportsSecureCoding]
++ +[INConfigureHomeIntent supportsSecureCoding]
++ +[INControlHomeIntent supportsSecureCoding]
++ +[INCreateAlarmIntent supportsSecureCoding]
++ +[INCreateEventIntent supportsSecureCoding]
++ +[INCreateNoteIntent supportsSecureCoding]
++ +[INCreateTaskListIntent supportsSecureCoding]
++ +[INCreateTimerIntent supportsSecureCoding]
++ +[INDeleteAlarmIntent supportsSecureCoding]
++ +[INDeleteEventIntent supportsSecureCoding]
++ +[INDeleteHealthSampleIntent supportsSecureCoding]
++ +[INDeleteParkingLocationIntent supportsSecureCoding]
++ +[INDeleteTasksIntent supportsSecureCoding]
++ +[INDeleteTimerIntent supportsSecureCoding]
++ +[INEditMessageIntent supportsSecureCoding]
++ +[INEndWorkoutIntent supportsSecureCoding]
++ +[INFindDeviceAndPlaySoundIntent supportsSecureCoding]
++ +[INFindEventsIntent supportsSecureCoding]
++ +[INGetCarLockStatusIntent supportsSecureCoding]
++ +[INGetCarPowerLevelStatusIntent supportsSecureCoding]
++ +[INGetReservationDetailsIntent supportsSecureCoding]
++ +[INGetRideStatusIntent supportsSecureCoding]
++ +[INGetSettingIntent supportsSecureCoding]
++ +[INGetVisualCodeIntent supportsSecureCoding]
++ +[INHangUpCallIntent supportsSecureCoding]
++ +[INIdentifyIncomingCallerIntent supportsSecureCoding]
++ +[INIntentCodableDescription(__Name) __NameKey].37534
++ +[INJoinCallIntent supportsSecureCoding]
++ +[INListCarsIntent supportsSecureCoding]
++ +[INListRideOptionsIntent supportsSecureCoding]
++ +[INListShortcutsIntent supportsSecureCoding]
++ +[INOpenSettingIntent supportsSecureCoding]
++ +[INPauseTimerIntent supportsSecureCoding]
++ +[INPauseWorkoutIntent supportsSecureCoding]
++ +[INPayBillIntent supportsSecureCoding]
++ +[INPlayAnnouncementSoundIntent supportsSecureCoding]
++ +[INPlayAudioMessageIntent supportsSecureCoding]
++ +[INPlayMediaIntent supportsSecureCoding]
++ +[INPlayMessageSoundIntent supportsSecureCoding]
++ +[INPlayVoicemailIntent supportsSecureCoding]
++ +[INQueryHealthSampleIntent supportsSecureCoding]
++ +[INQueryHomeIntent supportsSecureCoding]
++ +[INReadAnnouncementIntent supportsSecureCoding]
++ +[INReportIncidentIntent supportsSecureCoding]
++ +[INRequestPaymentIntent supportsSecureCoding]
++ +[INRequestRideIntent supportsSecureCoding]
++ +[INResetTimerIntent supportsSecureCoding]
++ +[INResolveObjectReferenceIntent supportsSecureCoding]
++ +[INResumeTimerIntent supportsSecureCoding]
++ +[INResumeWorkoutIntent supportsSecureCoding]
++ +[INRetrieveParkingLocationIntent supportsSecureCoding]
++ +[INRunVoiceCommandIntent supportsSecureCoding]
++ +[INRunWorkflowIntent supportsSecureCoding]
++ +[INSaveHealthSampleIntent supportsSecureCoding]
++ +[INSaveParkingLocationIntent supportsSecureCoding]
++ +[INSaveProfileInCarIntent supportsSecureCoding]
++ +[INScanVisualCodeIntent supportsSecureCoding]
++ +[INSearchAlarmIntent supportsSecureCoding]
++ +[INSearchCallHistoryIntent supportsSecureCoding]
++ +[INSearchForAccountsIntent supportsSecureCoding]
++ +[INSearchForBillsIntent supportsSecureCoding]
++ +[INSearchForContactIntent supportsSecureCoding]
++ +[INSearchForMeCardIntent supportsSecureCoding]
++ +[INSearchForMediaIntent supportsSecureCoding]
++ +[INSearchForMessagesIntent supportsSecureCoding]
++ +[INSearchForNotebookItemsIntent supportsSecureCoding]
++ +[INSearchForPhotosIntent supportsSecureCoding]
++ +[INSearchForTimersIntent supportsSecureCoding]
++ +[INSendAnnouncementIntent supportsSecureCoding]
++ +[INSendMessageIntent supportsSecureCoding]
++ +[INSendPaymentIntent supportsSecureCoding]
++ +[INSetAudioSourceInCarIntent supportsSecureCoding]
++ +[INSetBinarySettingIntent supportsSecureCoding]
++ +[INSetCarLockStatusIntent supportsSecureCoding]
++ +[INSetClimateSettingsInCarIntent supportsSecureCoding]
++ +[INSetDefrosterSettingsInCarIntent supportsSecureCoding]
++ +[INSetLabeledSettingIntent supportsSecureCoding]
++ +[INSetMessageAttributeIntent supportsSecureCoding]
++ +[INSetNicknameIntent supportsSecureCoding]
++ +[INSetNumericSettingIntent supportsSecureCoding]
++ +[INSetProfileInCarIntent supportsSecureCoding]
++ +[INSetRadioStationIntent supportsSecureCoding]
++ +[INSetRelationshipIntent supportsSecureCoding]
++ +[INSetSeatSettingsInCarIntent supportsSecureCoding]
++ +[INSetTaskAttributeIntent supportsSecureCoding]
++ +[INSetTemporalSettingIntent supportsSecureCoding]
++ +[INSetTimerAttributeIntent supportsSecureCoding]
++ +[INShareETAIntent supportsSecureCoding]
++ +[INShareFocusStatusIntent supportsSecureCoding]
++ +[INShowHomeIntent supportsSecureCoding]
++ +[INSkipAnnouncementIntent supportsSecureCoding]
++ +[INSnoozeAlarmIntent supportsSecureCoding]
++ +[INSnoozeTasksIntent supportsSecureCoding]
++ +[INStartAudioCallIntent supportsSecureCoding]
++ +[INStartCallIntent supportsSecureCoding]
++ +[INStartPhotoPlaybackIntent supportsSecureCoding]
++ +[INStartVideoCallIntent supportsSecureCoding]
++ +[INStartWorkoutIntent supportsSecureCoding]
++ +[INStopAnnouncementIntent supportsSecureCoding]
++ +[INStopShareETAIntent supportsSecureCoding]
++ +[INTransferMoneyIntent supportsSecureCoding]
++ +[INUnsendMessagesIntent supportsSecureCoding]
++ +[INUpdateAlarmIntent supportsSecureCoding]
++ +[INUpdateEventIntent supportsSecureCoding]
++ +[INUpdateMediaAffinityIntent supportsSecureCoding]
++ -[INCustomObject setValue:forProperty:]
++ -[INCustomObject valueForProperty:]
++ GCC_except_table10091
++ GCC_except_table10101
++ GCC_except_table10103
++ GCC_except_table10108
++ GCC_except_table10173
++ GCC_except_table10179
++ GCC_except_table10724
++ GCC_except_table10845
++ GCC_except_table10849
++ GCC_except_table10962
++ GCC_except_table11075
++ GCC_except_table11102
++ GCC_except_table11103
++ GCC_except_table11324
++ GCC_except_table11773
++ GCC_except_table12063
++ GCC_except_table1209
++ GCC_except_table12503
++ GCC_except_table12510
++ GCC_except_table12513
++ GCC_except_table12521
++ GCC_except_table12542
++ GCC_except_table1259
++ GCC_except_table13147
++ GCC_except_table1315
++ GCC_except_table1334
++ GCC_except_table1344
++ GCC_except_table13678
++ GCC_except_table13717
++ GCC_except_table13721
++ GCC_except_table13966
++ GCC_except_table14493
++ GCC_except_table15167
++ GCC_except_table15171
++ GCC_except_table1610
++ GCC_except_table16308
++ GCC_except_table16409
++ GCC_except_table16417
++ GCC_except_table16418
++ GCC_except_table16720
++ GCC_except_table18363
++ GCC_except_table19017
++ GCC_except_table19187
++ GCC_except_table19214
++ GCC_except_table19777
++ GCC_except_table19779
++ GCC_except_table19782
++ GCC_except_table19860
++ GCC_except_table202
++ GCC_except_table20860
++ GCC_except_table211
++ GCC_except_table21157
++ GCC_except_table214
++ GCC_except_table217
++ GCC_except_table22227
++ GCC_except_table22230
++ GCC_except_table22845
++ GCC_except_table22862
++ GCC_except_table2497
++ GCC_except_table25041
++ GCC_except_table25053
++ GCC_except_table2529
++ GCC_except_table26904
++ GCC_except_table26907
++ GCC_except_table26908
++ GCC_except_table26909
++ GCC_except_table26910
++ GCC_except_table2776
++ GCC_except_table2777
++ GCC_except_table2859
++ GCC_except_table28599
++ GCC_except_table2895
++ GCC_except_table29638
++ GCC_except_table29645
++ GCC_except_table29646
++ GCC_except_table29650
++ GCC_except_table29651
++ GCC_except_table29652
++ GCC_except_table29653
++ GCC_except_table29654
++ GCC_except_table29659
++ GCC_except_table29661
++ GCC_except_table29662
++ GCC_except_table29663
++ GCC_except_table29664
++ GCC_except_table29667
++ GCC_except_table29856
++ GCC_except_table3147
++ GCC_except_table3150
++ GCC_except_table3158
++ GCC_except_table3171
++ GCC_except_table4139
++ GCC_except_table4143
++ GCC_except_table4150
++ GCC_except_table4152
++ GCC_except_table4165
++ GCC_except_table4378
++ GCC_except_table5352
++ GCC_except_table5353
++ GCC_except_table5410
++ GCC_except_table5570
++ GCC_except_table5573
++ GCC_except_table5577
++ GCC_except_table5809
++ GCC_except_table5818
++ GCC_except_table623
++ GCC_except_table6366
++ GCC_except_table6368
++ GCC_except_table6400
++ GCC_except_table6401
++ GCC_except_table6402
++ GCC_except_table6403
++ GCC_except_table6437
++ GCC_except_table6998
++ GCC_except_table7083
++ GCC_except_table7084
++ GCC_except_table760
++ GCC_except_table766
++ GCC_except_table7805
++ GCC_except_table8071
++ GCC_except_table8416
++ GCC_except_table8420
++ GCC_except_table8670
++ GCC_except_table9347
++ GCC_except_table9903
++ _AssistantServicesLibraryCore.frameworkLibrary.54863
++ _ContactsLibrary.19355
++ _ContactsLibrary.33446
++ _ContactsLibrary.45357
++ _ContactsLibrary.60727
++ _ContactsLibraryCore.frameworkLibrary.110879
++ _ContactsLibraryCore.frameworkLibrary.19343
++ _ContactsLibraryCore.frameworkLibrary.19369
++ _ContactsLibraryCore.frameworkLibrary.33451
++ _ContactsLibraryCore.frameworkLibrary.45360
++ _ContactsLibraryCore.frameworkLibrary.60730
++ _CoreGraphicsLibrary.136390
++ _CoreGraphicsLibraryCore.frameworkLibrary.136395
++ _CoreSpotlightLibrary.19336
++ _CoreSpotlightLibraryCore.frameworkLibrary.19339
++ _CoreSpotlightLibraryCore.frameworkLibrary.5746
++ _CoreSpotlightLibraryCore.frameworkLibrary.59560
++ _CoreSpotlightLibraryCore.frameworkLibrary.79568
++ _HealthKitLibraryCore.frameworkLibrary.95319
++ _INCarChargingConnectorTypeNACSAC
++ _INCarChargingConnectorTypeNACSDC
++ _IntentsUILibraryCore.frameworkLibrary.83414
++ _LinkServicesLibraryCore.frameworkLibrary.165490
++ _VoiceShortcutClientLibraryCore.frameworkLibrary.112764
++ _VoiceShortcutClientLibraryCore.frameworkLibrary.123314
++ _VoiceShortcutClientLibraryCore.frameworkLibrary.27882
++ __OBJC_$_CLASS_METHODS_INActivateCarSignalIntent
++ __OBJC_$_CLASS_METHODS_INAddCallParticipantIntent
++ __OBJC_$_CLASS_METHODS_INAddMediaIntent(InAppHandling)
++ __OBJC_$_CLASS_METHODS_INAddTasksIntent(Deprecated_Private|Deprecated)
++ __OBJC_$_CLASS_METHODS_INAnswerCallIntent(Deprecated)
++ __OBJC_$_CLASS_METHODS_INAppendToNoteIntent
++ __OBJC_$_CLASS_METHODS_INCancelWorkoutIntent(INSlotValueLocalizing|InAppHandling)
++ __OBJC_$_CLASS_METHODS_INChangeAlarmStatusIntent
++ __OBJC_$_CLASS_METHODS_INConfigureHomeIntent
++ __OBJC_$_CLASS_METHODS_INControlHomeIntent(Summary)
++ __OBJC_$_CLASS_METHODS_INCreateAlarmIntent
++ __OBJC_$_CLASS_METHODS_INCreateEventIntent
++ __OBJC_$_CLASS_METHODS_INCreateNoteIntent
++ __OBJC_$_CLASS_METHODS_INCreateTaskListIntent
++ __OBJC_$_CLASS_METHODS_INCreateTimerIntent
++ __OBJC_$_CLASS_METHODS_INDeleteAlarmIntent
++ __OBJC_$_CLASS_METHODS_INDeleteEventIntent
++ __OBJC_$_CLASS_METHODS_INDeleteHealthSampleIntent
++ __OBJC_$_CLASS_METHODS_INDeleteParkingLocationIntent
++ __OBJC_$_CLASS_METHODS_INDeleteTasksIntent
++ __OBJC_$_CLASS_METHODS_INDeleteTimerIntent
++ __OBJC_$_CLASS_METHODS_INEditMessageIntent
++ __OBJC_$_CLASS_METHODS_INEndWorkoutIntent(INSlotValueLocalizing|InAppHandling)
++ __OBJC_$_CLASS_METHODS_INFindDeviceAndPlaySoundIntent
++ __OBJC_$_CLASS_METHODS_INFindEventsIntent
++ __OBJC_$_CLASS_METHODS_INGetCarLockStatusIntent
++ __OBJC_$_CLASS_METHODS_INGetCarPowerLevelStatusIntent(BackgroundHandling)
++ __OBJC_$_CLASS_METHODS_INGetReservationDetailsIntent
++ __OBJC_$_CLASS_METHODS_INGetRideStatusIntent
++ __OBJC_$_CLASS_METHODS_INGetSettingIntent(Deprecated)
++ __OBJC_$_CLASS_METHODS_INGetVisualCodeIntent
++ __OBJC_$_CLASS_METHODS_INHangUpCallIntent
++ __OBJC_$_CLASS_METHODS_INIdentifyIncomingCallerIntent
++ __OBJC_$_CLASS_METHODS_INJoinCallIntent
++ __OBJC_$_CLASS_METHODS_INListCarsIntent(BackgroundHandling)
++ __OBJC_$_CLASS_METHODS_INListRideOptionsIntent
++ __OBJC_$_CLASS_METHODS_INListShortcutsIntent
++ __OBJC_$_CLASS_METHODS_INOpenSettingIntent
++ __OBJC_$_CLASS_METHODS_INPauseTimerIntent
++ __OBJC_$_CLASS_METHODS_INPauseWorkoutIntent(INSlotValueLocalizing|InAppHandling)
++ __OBJC_$_CLASS_METHODS_INPayBillIntent
++ __OBJC_$_CLASS_METHODS_INPlayAnnouncementSoundIntent
++ __OBJC_$_CLASS_METHODS_INPlayAudioMessageIntent
++ __OBJC_$_CLASS_METHODS_INPlayMessageSoundIntent
++ __OBJC_$_CLASS_METHODS_INPlayVoicemailIntent
++ __OBJC_$_CLASS_METHODS_INQueryHealthSampleIntent
++ __OBJC_$_CLASS_METHODS_INQueryHomeIntent
++ __OBJC_$_CLASS_METHODS_INReadAnnouncementIntent(UserNotifications)
++ __OBJC_$_CLASS_METHODS_INReportIncidentIntent(Deprecated_Private)
++ __OBJC_$_CLASS_METHODS_INRequestPaymentIntent
++ __OBJC_$_CLASS_METHODS_INResetTimerIntent
++ __OBJC_$_CLASS_METHODS_INResolveObjectReferenceIntent
++ __OBJC_$_CLASS_METHODS_INResumeTimerIntent
++ __OBJC_$_CLASS_METHODS_INResumeWorkoutIntent(INSlotValueLocalizing|InAppHandling)
++ __OBJC_$_CLASS_METHODS_INRetrieveParkingLocationIntent
++ __OBJC_$_CLASS_METHODS_INRunVoiceCommandIntent(INEnumerable)
++ __OBJC_$_CLASS_METHODS_INRunWorkflowIntent
++ __OBJC_$_CLASS_METHODS_INSaveHealthSampleIntent
++ __OBJC_$_CLASS_METHODS_INSaveParkingLocationIntent
++ __OBJC_$_CLASS_METHODS_INSaveProfileInCarIntent(Deprecated)
++ __OBJC_$_CLASS_METHODS_INScanVisualCodeIntent
++ __OBJC_$_CLASS_METHODS_INSearchAlarmIntent
++ __OBJC_$_CLASS_METHODS_INSearchCallHistoryIntent(Deprecated)
++ __OBJC_$_CLASS_METHODS_INSearchForAccountsIntent
++ __OBJC_$_CLASS_METHODS_INSearchForBillsIntent
++ __OBJC_$_CLASS_METHODS_INSearchForContactIntent
++ __OBJC_$_CLASS_METHODS_INSearchForMeCardIntent
++ __OBJC_$_CLASS_METHODS_INSearchForMediaIntent(InAppHandling)
++ __OBJC_$_CLASS_METHODS_INSearchForMessagesIntent(INDeprecated|Deprecated)
++ __OBJC_$_CLASS_METHODS_INSearchForNotebookItemsIntent(Deprecated)
++ __OBJC_$_CLASS_METHODS_INSearchForPhotosIntent
++ __OBJC_$_CLASS_METHODS_INSearchForTimersIntent
++ __OBJC_$_CLASS_METHODS_INSendAnnouncementIntent
++ __OBJC_$_CLASS_METHODS_INSendPaymentIntent
++ __OBJC_$_CLASS_METHODS_INSetAudioSourceInCarIntent
++ __OBJC_$_CLASS_METHODS_INSetBinarySettingIntent
++ __OBJC_$_CLASS_METHODS_INSetCarLockStatusIntent
++ __OBJC_$_CLASS_METHODS_INSetClimateSettingsInCarIntent(Deprecated)
++ __OBJC_$_CLASS_METHODS_INSetDefrosterSettingsInCarIntent(Deprecated)
++ __OBJC_$_CLASS_METHODS_INSetLabeledSettingIntent
++ __OBJC_$_CLASS_METHODS_INSetMessageAttributeIntent
++ __OBJC_$_CLASS_METHODS_INSetNicknameIntent
++ __OBJC_$_CLASS_METHODS_INSetNumericSettingIntent
++ __OBJC_$_CLASS_METHODS_INSetProfileInCarIntent(Deprecated)
++ __OBJC_$_CLASS_METHODS_INSetRadioStationIntent
++ __OBJC_$_CLASS_METHODS_INSetRelationshipIntent
++ __OBJC_$_CLASS_METHODS_INSetSeatSettingsInCarIntent(Deprecated)
++ __OBJC_$_CLASS_METHODS_INSetTaskAttributeIntent(Deprecated)
++ __OBJC_$_CLASS_METHODS_INSetTemporalSettingIntent
++ __OBJC_$_CLASS_METHODS_INSetTimerAttributeIntent
++ __OBJC_$_CLASS_METHODS_INShareETAIntent
++ __OBJC_$_CLASS_METHODS_INShareFocusStatusIntent(BackgroundHandling)
++ __OBJC_$_CLASS_METHODS_INShowHomeIntent
++ __OBJC_$_CLASS_METHODS_INSkipAnnouncementIntent
++ __OBJC_$_CLASS_METHODS_INSnoozeAlarmIntent
++ __OBJC_$_CLASS_METHODS_INSnoozeTasksIntent
++ __OBJC_$_CLASS_METHODS_INStartPhotoPlaybackIntent
++ __OBJC_$_CLASS_METHODS_INStartVideoCallIntent(Summary)
++ __OBJC_$_CLASS_METHODS_INStopAnnouncementIntent
++ __OBJC_$_CLASS_METHODS_INStopShareETAIntent
++ __OBJC_$_CLASS_METHODS_INTransferMoneyIntent
++ __OBJC_$_CLASS_METHODS_INUnsendMessagesIntent
++ __OBJC_$_CLASS_METHODS_INUpdateAlarmIntent
++ __OBJC_$_CLASS_METHODS_INUpdateEventIntent
++ __OBJC_$_CLASS_METHODS_INUpdateMediaAffinityIntent(InAppHandling)
++ __OBJC_$_PROP_LIST__INPBActivateCarSignalIntent.124
++ __OBJC_$_PROP_LIST__INPBActivateCarSignalIntentResponse.91
++ __OBJC_$_PROP_LIST__INPBActivity.103
++ __OBJC_$_PROP_LIST__INPBActivityList.105
++ __OBJC_$_PROP_LIST__INPBAddCallParticipantIntent.105
++ __OBJC_$_PROP_LIST__INPBAddCallParticipantIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBAddMediaIntent.150
++ __OBJC_$_PROP_LIST__INPBAddTasksIntent.233
++ __OBJC_$_PROP_LIST__INPBAddTasksIntentResponse.131
++ __OBJC_$_PROP_LIST__INPBAirline.99
++ __OBJC_$_PROP_LIST__INPBAirport.99
++ __OBJC_$_PROP_LIST__INPBAirportGate.104
++ __OBJC_$_PROP_LIST__INPBAlarm.178
++ __OBJC_$_PROP_LIST__INPBAlarmSearch.182
++ __OBJC_$_PROP_LIST__INPBAnnouncement.132
++ __OBJC_$_PROP_LIST__INPBAnnouncementRecord.112
++ __OBJC_$_PROP_LIST__INPBAnswerCallIntent.117
++ __OBJC_$_PROP_LIST__INPBAnswerCallIntentResponse.128
++ __OBJC_$_PROP_LIST__INPBAppBuild.96
++ __OBJC_$_PROP_LIST__INPBAppBundleInfo.154
++ __OBJC_$_PROP_LIST__INPBAppId.79
++ __OBJC_$_PROP_LIST__INPBAppIdentifier.99
++ __OBJC_$_PROP_LIST__INPBAppNames.109
++ __OBJC_$_PROP_LIST__INPBAppendToNoteIntent.111
++ __OBJC_$_PROP_LIST__INPBAppendToNoteIntentResponse.81
++ __OBJC_$_PROP_LIST__INPBArchivedObject.93
++ __OBJC_$_PROP_LIST__INPBBalanceAmountValue.134
++ __OBJC_$_PROP_LIST__INPBBillDetailsValue.192
++ __OBJC_$_PROP_LIST__INPBBillPayeeValue.119
++ __OBJC_$_PROP_LIST__INPBBoatReservation.111
++ __OBJC_$_PROP_LIST__INPBBoatTrip.139
++ __OBJC_$_PROP_LIST__INPBBool.89
++ __OBJC_$_PROP_LIST__INPBBoolValue.96
++ __OBJC_$_PROP_LIST__INPBBuildId.89
++ __OBJC_$_PROP_LIST__INPBBusReservation.111
++ __OBJC_$_PROP_LIST__INPBBusTrip.159
++ __OBJC_$_PROP_LIST__INPBCalendarEvent.168
++ __OBJC_$_PROP_LIST__INPBCallGroup.91
++ __OBJC_$_PROP_LIST__INPBCallGroupConversation.131
++ __OBJC_$_PROP_LIST__INPBCallGroupConversationFilter.133
++ __OBJC_$_PROP_LIST__INPBCallInvite.128
++ __OBJC_$_PROP_LIST__INPBCallMetrics.81
++ __OBJC_$_PROP_LIST__INPBCallMetricsValue.91
++ __OBJC_$_PROP_LIST__INPBCallRecordFilter.146
++ __OBJC_$_PROP_LIST__INPBCallRecordValue.254
++ __OBJC_$_PROP_LIST__INPBCancelWorkoutIntent.96
++ __OBJC_$_PROP_LIST__INPBCar.187
++ __OBJC_$_PROP_LIST__INPBCarChargingConnectorPower.104
++ __OBJC_$_PROP_LIST__INPBCarHeadUnit.89
++ __OBJC_$_PROP_LIST__INPBChangeAlarmStatusIntent.143
++ __OBJC_$_PROP_LIST__INPBChangeAlarmStatusIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBColor.102
++ __OBJC_$_PROP_LIST__INPBCompressFileIntent.119
++ __OBJC_$_PROP_LIST__INPBCompressFileIntentResponse.96
++ __OBJC_$_PROP_LIST__INPBCondition.85
++ __OBJC_$_PROP_LIST__INPBConfidenceScore.107
++ __OBJC_$_PROP_LIST__INPBConfidenceScoreComponent.97
++ __OBJC_$_PROP_LIST__INPBConfigureHomeIntent.105
++ __OBJC_$_PROP_LIST__INPBConflictingParameter.103
++ __OBJC_$_PROP_LIST__INPBConnectedCall.85
++ __OBJC_$_PROP_LIST__INPBContact.89
++ __OBJC_$_PROP_LIST__INPBContactCard.406
++ __OBJC_$_PROP_LIST__INPBContactEventTrigger.81
++ __OBJC_$_PROP_LIST__INPBContactHandle.151
++ __OBJC_$_PROP_LIST__INPBContactList.105
++ __OBJC_$_PROP_LIST__INPBContactRelationship.89
++ __OBJC_$_PROP_LIST__INPBContactValue.356
++ __OBJC_$_PROP_LIST__INPBControlHomeIntent.152
++ __OBJC_$_PROP_LIST__INPBControlHomeIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBCopyFileIntent.189
++ __OBJC_$_PROP_LIST__INPBCopyFileIntentResponse.138
++ __OBJC_$_PROP_LIST__INPBCreateAlarmIntent.156
++ __OBJC_$_PROP_LIST__INPBCreateAlarmIntentResponse.104
++ __OBJC_$_PROP_LIST__INPBCreateEventIntent.148
++ __OBJC_$_PROP_LIST__INPBCreateEventIntentResponse.126
++ __OBJC_$_PROP_LIST__INPBCreateFileIntent.142
++ __OBJC_$_PROP_LIST__INPBCreateFileIntentResponse.138
++ __OBJC_$_PROP_LIST__INPBCreateNoteIntent.121
++ __OBJC_$_PROP_LIST__INPBCreateNoteIntentResponse.81
++ __OBJC_$_PROP_LIST__INPBCreateTaskListIntent.128
++ __OBJC_$_PROP_LIST__INPBCreateTaskListIntentResponse.81
++ __OBJC_$_PROP_LIST__INPBCreateTimerIntent.135
++ __OBJC_$_PROP_LIST__INPBCreateTimerIntentResponse.81
++ __OBJC_$_PROP_LIST__INPBCurrencyAmount.89
++ __OBJC_$_PROP_LIST__INPBCurrencyAmountValue.109
++ __OBJC_$_PROP_LIST__INPBCustomObject.148
++ __OBJC_$_PROP_LIST__INPBDataString.122
++ __OBJC_$_PROP_LIST__INPBDataStringList.105
++ __OBJC_$_PROP_LIST__INPBDataValue.95
++ __OBJC_$_PROP_LIST__INPBDateTime.132
++ __OBJC_$_PROP_LIST__INPBDateTimeRange.89
++ __OBJC_$_PROP_LIST__INPBDateTimeRangeList.105
++ __OBJC_$_PROP_LIST__INPBDateTimeRangeValue.175
++ __OBJC_$_PROP_LIST__INPBDecimalNumberValue.125
++ __OBJC_$_PROP_LIST__INPBDeleteAlarmIntent.120
++ __OBJC_$_PROP_LIST__INPBDeleteEventIntent.109
++ __OBJC_$_PROP_LIST__INPBDeleteEventIntentResponse.85
++ __OBJC_$_PROP_LIST__INPBDeleteFilePermanentlyIntent.81
++ __OBJC_$_PROP_LIST__INPBDeleteFilePermanentlyIntentResponse.88
++ __OBJC_$_PROP_LIST__INPBDeleteHealthSampleIntent.105
++ __OBJC_$_PROP_LIST__INPBDeleteParkingLocationIntent.81
++ __OBJC_$_PROP_LIST__INPBDeleteParkingLocationIntentResponse.96
++ __OBJC_$_PROP_LIST__INPBDeleteTasksIntent.135
++ __OBJC_$_PROP_LIST__INPBDeleteTasksIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBDeleteTimerIntent.111
++ __OBJC_$_PROP_LIST__INPBDeleteTimerIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBDevice.112
++ __OBJC_$_PROP_LIST__INPBDeviceDetail.152
++ __OBJC_$_PROP_LIST__INPBDialingContact.89
++ __OBJC_$_PROP_LIST__INPBDialingContactValue.106
++ __OBJC_$_PROP_LIST__INPBDictionary.89
++ __OBJC_$_PROP_LIST__INPBDistance.89
++ __OBJC_$_PROP_LIST__INPBDistanceList.105
++ __OBJC_$_PROP_LIST__INPBDistanceValue.120
++ __OBJC_$_PROP_LIST__INPBDouble.89
++ __OBJC_$_PROP_LIST__INPBDoubleList.105
++ __OBJC_$_PROP_LIST__INPBDoubleValue.99
++ __OBJC_$_PROP_LIST__INPBDuration.95
++ __OBJC_$_PROP_LIST__INPBEditMessageIntent.104
++ __OBJC_$_PROP_LIST__INPBEndWorkoutIntent.96
++ __OBJC_$_PROP_LIST__INPBEnergy.89
++ __OBJC_$_PROP_LIST__INPBEnergyValue.120
++ __OBJC_$_PROP_LIST__INPBEvent.103
++ __OBJC_$_PROP_LIST__INPBEventList.105
++ __OBJC_$_PROP_LIST__INPBEventParticipant.128
++ __OBJC_$_PROP_LIST__INPBFile.142
++ __OBJC_$_PROP_LIST__INPBFileDataAttachment.92
++ __OBJC_$_PROP_LIST__INPBFileProperty.117
++ __OBJC_$_PROP_LIST__INPBFilePropertyValue.149
++ __OBJC_$_PROP_LIST__INPBFinancialAccountValue.167
++ __OBJC_$_PROP_LIST__INPBFindDeviceAndPlaySoundIntent.120
++ __OBJC_$_PROP_LIST__INPBFindDeviceAndPlaySoundIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBFindEventsIntent.171
++ __OBJC_$_PROP_LIST__INPBFindEventsIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBFlight.144
++ __OBJC_$_PROP_LIST__INPBFlightReservation.111
++ __OBJC_$_PROP_LIST__INPBFocusStatus.77
++ __OBJC_$_PROP_LIST__INPBGenericIntent.128
++ __OBJC_$_PROP_LIST__INPBGenericIntentResponse.105
++ __OBJC_$_PROP_LIST__INPBGeographicalFeature.103
++ __OBJC_$_PROP_LIST__INPBGeographicalFeatureList.105
++ __OBJC_$_PROP_LIST__INPBGetCarLockStatusIntent.96
++ __OBJC_$_PROP_LIST__INPBGetCarLockStatusIntentResponse.77
++ __OBJC_$_PROP_LIST__INPBGetCarPowerLevelStatusIntent.96
++ __OBJC_$_PROP_LIST__INPBGetCarPowerLevelStatusIntentResponse.295
++ __OBJC_$_PROP_LIST__INPBGetFileInformationIntent.145
++ __OBJC_$_PROP_LIST__INPBGetFileInformationIntentResponse.111
++ __OBJC_$_PROP_LIST__INPBGetReservationDetailsIntent.118
++ __OBJC_$_PROP_LIST__INPBGetReservationDetailsIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBGetRideStatusIntent.81
++ __OBJC_$_PROP_LIST__INPBGetRideStatusIntentResponse.81
++ __OBJC_$_PROP_LIST__INPBGetSettingIntent.119
++ __OBJC_$_PROP_LIST__INPBGetSettingIntentResponse.103
++ __OBJC_$_PROP_LIST__INPBGetSettingResponseData.145
++ __OBJC_$_PROP_LIST__INPBGetVisualCodeIntent.104
++ __OBJC_$_PROP_LIST__INPBGetVisualCodeIntentResponse.81
++ __OBJC_$_PROP_LIST__INPBHangUpCallIntent.94
++ __OBJC_$_PROP_LIST__INPBHangUpCallIntentResponse.85
++ __OBJC_$_PROP_LIST__INPBHomeAttribute.104
++ __OBJC_$_PROP_LIST__INPBHomeAttributeRange.91
++ __OBJC_$_PROP_LIST__INPBHomeAttributeValue.186
++ __OBJC_$_PROP_LIST__INPBHomeAutomationEntityProvider.226
++ __OBJC_$_PROP_LIST__INPBHomeAutomationFromEntity.104
++ __OBJC_$_PROP_LIST__INPBHomeContent.105
++ __OBJC_$_PROP_LIST__INPBHomeEntity.240
++ __OBJC_$_PROP_LIST__INPBHomeEntityResponse.105
++ __OBJC_$_PROP_LIST__INPBHomeFilter.281
++ __OBJC_$_PROP_LIST__INPBHomeUserTask.117
++ __OBJC_$_PROP_LIST__INPBHomeUserTaskResponse.104
++ __OBJC_$_PROP_LIST__INPBIdentifyIncomingCallerIntent.81
++ __OBJC_$_PROP_LIST__INPBIdentifyIncomingCallerIntentResponse.112
++ __OBJC_$_PROP_LIST__INPBImageNoteContent.81
++ __OBJC_$_PROP_LIST__INPBImageValue.180
++ __OBJC_$_PROP_LIST__INPBInteger.89
++ __OBJC_$_PROP_LIST__INPBIntegerList.105
++ __OBJC_$_PROP_LIST__INPBIntegerValue.99
++ __OBJC_$_PROP_LIST__INPBIntent.137
++ __OBJC_$_PROP_LIST__INPBIntentExecutionRequest.127
++ __OBJC_$_PROP_LIST__INPBIntentExecutionResult.112
++ __OBJC_$_PROP_LIST__INPBIntentResponse.158
++ __OBJC_$_PROP_LIST__INPBIntentResponsePayloadFailure.109
++ __OBJC_$_PROP_LIST__INPBIntentResponsePayloadSuccess.108
++ __OBJC_$_PROP_LIST__INPBIntentSlotResolutionMulticardinalResult.89
++ __OBJC_$_PROP_LIST__INPBIntentSlotResolutionResult.179
++ __OBJC_$_PROP_LIST__INPBIntentSlotValue.2808
++ __OBJC_$_PROP_LIST__INPBIntentSlotVocabularyConcept.118
++ __OBJC_$_PROP_LIST__INPBIntentSlotVocabularyPolicy.104
++ __OBJC_$_PROP_LIST__INPBIntentSlotVocabularyValue.110
++ __OBJC_$_PROP_LIST__INPBIntentSupport.118
++ __OBJC_$_PROP_LIST__INPBIntentType.79
++ __OBJC_$_PROP_LIST__INPBIntentTypePhrases.103
++ __OBJC_$_PROP_LIST__INPBIntentVocabulary.106
++ __OBJC_$_PROP_LIST__INPBJSONDictionary.79
++ __OBJC_$_PROP_LIST__INPBJoinCallIntent.111
++ __OBJC_$_PROP_LIST__INPBLanguageTag.79
++ __OBJC_$_PROP_LIST__INPBListCarsIntent.81
++ __OBJC_$_PROP_LIST__INPBListCarsIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBListRideOptionsIntent.106
++ __OBJC_$_PROP_LIST__INPBListRideOptionsIntentResponse.137
++ __OBJC_$_PROP_LIST__INPBListShortcutsIntent.128
++ __OBJC_$_PROP_LIST__INPBListShortcutsIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBLocalDate.123
++ __OBJC_$_PROP_LIST__INPBLocalTime.113
++ __OBJC_$_PROP_LIST__INPBLocalizedProject.111
++ __OBJC_$_PROP_LIST__INPBLocation.89
++ __OBJC_$_PROP_LIST__INPBLocationList.105
++ __OBJC_$_PROP_LIST__INPBLocationValue.117
++ __OBJC_$_PROP_LIST__INPBLodgingReservation.136
++ __OBJC_$_PROP_LIST__INPBLong.89
++ __OBJC_$_PROP_LIST__INPBLongList.105
++ __OBJC_$_PROP_LIST__INPBLongValue.99
++ __OBJC_$_PROP_LIST__INPBMass.89
++ __OBJC_$_PROP_LIST__INPBMassValue.120
++ __OBJC_$_PROP_LIST__INPBMediaDestination.104
++ __OBJC_$_PROP_LIST__INPBMediaItemGroup.89
++ __OBJC_$_PROP_LIST__INPBMediaItemValue.215
++ __OBJC_$_PROP_LIST__INPBMediaSearch.211
++ __OBJC_$_PROP_LIST__INPBMediaSubItem.89
++ __OBJC_$_PROP_LIST__INPBMessage.392
++ __OBJC_$_PROP_LIST__INPBMessageLinkMetadata.626
++ __OBJC_$_PROP_LIST__INPBMessageReaction.117
++ __OBJC_$_PROP_LIST__INPBModifyNickname.96
++ __OBJC_$_PROP_LIST__INPBModifyRelationship.96
++ __OBJC_$_PROP_LIST__INPBMoveFileIntent.202
++ __OBJC_$_PROP_LIST__INPBMoveFileIntentResponse.165
++ __OBJC_$_PROP_LIST__INPBNote.163
++ __OBJC_$_PROP_LIST__INPBNoteContent.119
++ __OBJC_$_PROP_LIST__INPBNumericSettingValue.101
++ __OBJC_$_PROP_LIST__INPBOpenFileIntent.176
++ __OBJC_$_PROP_LIST__INPBOpenFileIntentResponse.133
++ __OBJC_$_PROP_LIST__INPBOpenSettingIntent.111
++ __OBJC_$_PROP_LIST__INPBOpenSettingIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBPair.339
++ __OBJC_$_PROP_LIST__INPBPauseTimerIntent.111
++ __OBJC_$_PROP_LIST__INPBPauseTimerIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBPauseWorkoutIntent.96
++ __OBJC_$_PROP_LIST__INPBPayBillIntent.189
++ __OBJC_$_PROP_LIST__INPBPayBillIntentResponse.141
++ __OBJC_$_PROP_LIST__INPBPayloadConfirmation.143
++ __OBJC_$_PROP_LIST__INPBPayloadNeedsDisambiguation.89
++ __OBJC_$_PROP_LIST__INPBPayloadNeedsExecuteIntent.81
++ __OBJC_$_PROP_LIST__INPBPayloadNeedsValue.89
++ __OBJC_$_PROP_LIST__INPBPayloadSuccess.94
++ __OBJC_$_PROP_LIST__INPBPayloadUnsupported.651
++ __OBJC_$_PROP_LIST__INPBPaymentAmountValue.104
++ __OBJC_$_PROP_LIST__INPBPaymentMethod.89
++ __OBJC_$_PROP_LIST__INPBPaymentMethodList.105
++ __OBJC_$_PROP_LIST__INPBPaymentMethodValue.142
++ __OBJC_$_PROP_LIST__INPBPaymentRecord.169
++ __OBJC_$_PROP_LIST__INPBPlace.136
++ __OBJC_$_PROP_LIST__INPBPlaceList.105
++ __OBJC_$_PROP_LIST__INPBPlatformSupport.102
++ __OBJC_$_PROP_LIST__INPBPlayAnnouncementSoundIntent.104
++ __OBJC_$_PROP_LIST__INPBPlayAudioMessageIntent.94
++ __OBJC_$_PROP_LIST__INPBPlayMediaIntent.402
++ __OBJC_$_PROP_LIST__INPBPlayMediaIntentResponse.81
++ __OBJC_$_PROP_LIST__INPBPlayMessageSoundIntent.117
++ __OBJC_$_PROP_LIST__INPBPlayVoicemailIntent.94
++ __OBJC_$_PROP_LIST__INPBPower.89
++ __OBJC_$_PROP_LIST__INPBPowerValue.120
++ __OBJC_$_PROP_LIST__INPBPriceRangeValue.119
++ __OBJC_$_PROP_LIST__INPBPrivateAddMediaIntentData.120
++ __OBJC_$_PROP_LIST__INPBPrivateMediaIntentData.248
++ __OBJC_$_PROP_LIST__INPBPrivateMediaItemValueData.260
++ __OBJC_$_PROP_LIST__INPBPrivatePlayMediaIntentData.285
++ __OBJC_$_PROP_LIST__INPBPrivateSearchForMediaIntentData.135
++ __OBJC_$_PROP_LIST__INPBPrivateUpdateMediaAffinityIntentData.103
++ __OBJC_$_PROP_LIST__INPBProperty.94
++ __OBJC_$_PROP_LIST__INPBQueryHealthSampleIntent.186
++ __OBJC_$_PROP_LIST__INPBQueryHealthSampleIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBQueryHomeIntent.105
++ __OBJC_$_PROP_LIST__INPBRangeValue.109
++ __OBJC_$_PROP_LIST__INPBReadAnnouncementIntent.130
++ __OBJC_$_PROP_LIST__INPBReadAnnouncementIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBRecurrenceValue.139
++ __OBJC_$_PROP_LIST__INPBRefinementItem.94
++ __OBJC_$_PROP_LIST__INPBRentalCar.119
++ __OBJC_$_PROP_LIST__INPBRentalCarReservation.136
++ __OBJC_$_PROP_LIST__INPBReportIncidentIntent.156
++ __OBJC_$_PROP_LIST__INPBReportIncidentIntentResponse.131
++ __OBJC_$_PROP_LIST__INPBRequestPaymentIntent.126
++ __OBJC_$_PROP_LIST__INPBRequestPaymentIntentResponse.81
++ __OBJC_$_PROP_LIST__INPBRequestRideIntent.201
++ __OBJC_$_PROP_LIST__INPBRequestRideIntentResponse.81
++ __OBJC_$_PROP_LIST__INPBReservation.181
++ __OBJC_$_PROP_LIST__INPBReservationAction.119
++ __OBJC_$_PROP_LIST__INPBReservationWrapper.186
++ __OBJC_$_PROP_LIST__INPBResetTimerIntent.111
++ __OBJC_$_PROP_LIST__INPBResetTimerIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBResolveObjectReferenceIntent.95
++ __OBJC_$_PROP_LIST__INPBResolveObjectReferenceIntentResponse.80
++ __OBJC_$_PROP_LIST__INPBResolveObjectReferenceResponse.80
++ __OBJC_$_PROP_LIST__INPBRestaurantReservation.126
++ __OBJC_$_PROP_LIST__INPBResumeTimerIntent.111
++ __OBJC_$_PROP_LIST__INPBResumeTimerIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBResumeWorkoutIntent.96
++ __OBJC_$_PROP_LIST__INPBRetrieveParkingLocationIntent.81
++ __OBJC_$_PROP_LIST__INPBRetrieveParkingLocationIntentResponse.96
++ __OBJC_$_PROP_LIST__INPBRideCompletionStatus.203
++ __OBJC_$_PROP_LIST__INPBRideDriver.119
++ __OBJC_$_PROP_LIST__INPBRideFareLineItem.104
++ __OBJC_$_PROP_LIST__INPBRideOption.235
++ __OBJC_$_PROP_LIST__INPBRidePartySizeOption.109
++ __OBJC_$_PROP_LIST__INPBRideStatus.289
++ __OBJC_$_PROP_LIST__INPBRideVehicle.135
++ __OBJC_$_PROP_LIST__INPBRunVoiceCommandIntent.139
++ __OBJC_$_PROP_LIST__INPBRunVoiceCommandIntentResponse.265
++ __OBJC_$_PROP_LIST__INPBRunWorkflowIntent.96
++ __OBJC_$_PROP_LIST__INPBRunWorkflowIntentResponse.165
++ __OBJC_$_PROP_LIST__INPBSaveHealthSampleIntent.175
++ __OBJC_$_PROP_LIST__INPBSaveHealthSampleIntentResponse.169
++ __OBJC_$_PROP_LIST__INPBSaveParkingLocationIntent.111
++ __OBJC_$_PROP_LIST__INPBSaveParkingLocationIntentResponse.96
++ __OBJC_$_PROP_LIST__INPBSaveProfileInCarIntent.111
++ __OBJC_$_PROP_LIST__INPBScanVisualCodeIntent.81
++ __OBJC_$_PROP_LIST__INPBScoredValue.97
++ __OBJC_$_PROP_LIST__INPBSearchAlarmIntent.143
++ __OBJC_$_PROP_LIST__INPBSearchCallHistoryIntent.221
++ __OBJC_$_PROP_LIST__INPBSearchCallHistoryIntentResponse.123
++ __OBJC_$_PROP_LIST__INPBSearchForAccountsIntent.142
++ __OBJC_$_PROP_LIST__INPBSearchForAccountsIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBSearchForBillsIntent.157
++ __OBJC_$_PROP_LIST__INPBSearchForBillsIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBSearchForContactIntent.105
++ __OBJC_$_PROP_LIST__INPBSearchForContactIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBSearchForFilesIntent.176
++ __OBJC_$_PROP_LIST__INPBSearchForFilesIntentResponse.133
++ __OBJC_$_PROP_LIST__INPBSearchForMeCardIntent.81
++ __OBJC_$_PROP_LIST__INPBSearchForMeCardIntentResponse.81
++ __OBJC_$_PROP_LIST__INPBSearchForMediaIntent.135
++ __OBJC_$_PROP_LIST__INPBSearchForMediaIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBSearchForMessagesIntent.229
++ __OBJC_$_PROP_LIST__INPBSearchForMessagesIntentResponse.103
++ __OBJC_$_PROP_LIST__INPBSearchForNotebookItemsIntent.270
++ __OBJC_$_PROP_LIST__INPBSearchForNotebookItemsIntentResponse.146
++ __OBJC_$_PROP_LIST__INPBSearchForPhotosIntent.268
++ __OBJC_$_PROP_LIST__INPBSearchForPhotosIntentResponse.112
++ __OBJC_$_PROP_LIST__INPBSearchForTimersIntent.148
++ __OBJC_$_PROP_LIST__INPBSearchForTimersIntentResponse.117
++ __OBJC_$_PROP_LIST__INPBSeat.109
++ __OBJC_$_PROP_LIST__INPBSelectionItem.104
++ __OBJC_$_PROP_LIST__INPBSendAnnouncementIntent.148
++ __OBJC_$_PROP_LIST__INPBSendAnnouncementIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBSendMessageAttachment.179
++ __OBJC_$_PROP_LIST__INPBSendMessageIntent.254
++ __OBJC_$_PROP_LIST__INPBSendMessageIntentResponse.103
++ __OBJC_$_PROP_LIST__INPBSendPaymentIntent.126
++ __OBJC_$_PROP_LIST__INPBSendPaymentIntentResponse.81
++ __OBJC_$_PROP_LIST__INPBSetAudioSourceInCarIntent.117
++ __OBJC_$_PROP_LIST__INPBSetBinarySettingIntent.134
++ __OBJC_$_PROP_LIST__INPBSetBinarySettingIntentResponse.115
++ __OBJC_$_PROP_LIST__INPBSetCarLockStatusIntent.111
++ __OBJC_$_PROP_LIST__INPBSetClimateSettingsInCarIntent.249
++ __OBJC_$_PROP_LIST__INPBSetDefrosterSettingsInCarIntent.132
++ __OBJC_$_PROP_LIST__INPBSetLabeledSettingIntent.124
++ __OBJC_$_PROP_LIST__INPBSetLabeledSettingIntentResponse.99
++ __OBJC_$_PROP_LIST__INPBSetMessageAttributeIntent.126
++ __OBJC_$_PROP_LIST__INPBSetNicknameIntent.96
++ __OBJC_$_PROP_LIST__INPBSetNicknameIntentResponse.81
++ __OBJC_$_PROP_LIST__INPBSetNumericSettingIntent.162
++ __OBJC_$_PROP_LIST__INPBSetNumericSettingIntentResponse.124
++ __OBJC_$_PROP_LIST__INPBSetProfileInCarIntent.141
++ __OBJC_$_PROP_LIST__INPBSetRadioStationIntent.159
++ __OBJC_$_PROP_LIST__INPBSetRelationshipIntent.120
++ __OBJC_$_PROP_LIST__INPBSetRelationshipIntentResponse.81
++ __OBJC_$_PROP_LIST__INPBSetSeatSettingsInCarIntent.182
++ __OBJC_$_PROP_LIST__INPBSetTaskAttributeIntent.192
++ __OBJC_$_PROP_LIST__INPBSetTaskAttributeIntentResponse.109
++ __OBJC_$_PROP_LIST__INPBSetTemporalSettingIntent.149
++ __OBJC_$_PROP_LIST__INPBSetTemporalSettingIntentResponse.104
++ __OBJC_$_PROP_LIST__INPBSetTimerAttributeIntent.129
++ __OBJC_$_PROP_LIST__INPBSetTimerAttributeIntentResponse.81
++ __OBJC_$_PROP_LIST__INPBSettingMetadata.109
++ __OBJC_$_PROP_LIST__INPBShareDestination.104
++ __OBJC_$_PROP_LIST__INPBShareETAIntent.105
++ __OBJC_$_PROP_LIST__INPBShareETAIntentResponse.115
++ __OBJC_$_PROP_LIST__INPBShareFileIntent.145
++ __OBJC_$_PROP_LIST__INPBShareFileIntentResponse.136
++ __OBJC_$_PROP_LIST__INPBShareFocusStatusIntent.96
++ __OBJC_$_PROP_LIST__INPBShortcutOverview.138
++ __OBJC_$_PROP_LIST__INPBShowHomeIntent.120
++ __OBJC_$_PROP_LIST__INPBSkipAnnouncementIntent.81
++ __OBJC_$_PROP_LIST__INPBSleepAlarmAttribute.96
++ __OBJC_$_PROP_LIST__INPBSnoozeAlarmIntent.105
++ __OBJC_$_PROP_LIST__INPBSnoozeTasksIntent.135
++ __OBJC_$_PROP_LIST__INPBSnoozeTasksIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBSpatialEventTrigger.139
++ __OBJC_$_PROP_LIST__INPBSpeakerIDInfo.104
++ __OBJC_$_PROP_LIST__INPBSpeed.89
++ __OBJC_$_PROP_LIST__INPBSpeedValue.120
++ __OBJC_$_PROP_LIST__INPBStartAudioCallIntent.209
++ __OBJC_$_PROP_LIST__INPBStartAudioCallIntentResponse.138
++ __OBJC_$_PROP_LIST__INPBStartCallIntent.291
++ __OBJC_$_PROP_LIST__INPBStartCallIntentResponse.141
++ __OBJC_$_PROP_LIST__INPBStartCallRequestMetadata.77
++ __OBJC_$_PROP_LIST__INPBStartPhotoPlaybackIntent.198
++ __OBJC_$_PROP_LIST__INPBStartPhotoPlaybackIntentResponse.112
++ __OBJC_$_PROP_LIST__INPBStartVideoCallIntent.157
++ __OBJC_$_PROP_LIST__INPBStartVideoCallIntentResponse.138
++ __OBJC_$_PROP_LIST__INPBStartWorkoutIntent.234
++ __OBJC_$_PROP_LIST__INPBStopAnnouncementIntent.81
++ __OBJC_$_PROP_LIST__INPBStopAnnouncementIntentResponse.89
++ __OBJC_$_PROP_LIST__INPBStopShareETAIntent.105
++ __OBJC_$_PROP_LIST__INPBStopShareETAIntentResponse.115
++ __OBJC_$_PROP_LIST__INPBString.89
++ __OBJC_$_PROP_LIST__INPBStringList.105
++ __OBJC_$_PROP_LIST__INPBStringValue.94
++ __OBJC_$_PROP_LIST__INPBSupportedTrafficIncidentType.104
++ __OBJC_$_PROP_LIST__INPBTask.236
++ __OBJC_$_PROP_LIST__INPBTaskList.153
++ __OBJC_$_PROP_LIST__INPBTemperature.89
++ __OBJC_$_PROP_LIST__INPBTemperatureList.105
++ __OBJC_$_PROP_LIST__INPBTemperatureValue.120
++ __OBJC_$_PROP_LIST__INPBTemporalEventTrigger.81
++ __OBJC_$_PROP_LIST__INPBTextNoteContent.79
++ __OBJC_$_PROP_LIST__INPBTicketedEvent.132
++ __OBJC_$_PROP_LIST__INPBTicketedEventReservation.111
++ __OBJC_$_PROP_LIST__INPBTimer.157
++ __OBJC_$_PROP_LIST__INPBTimestamp.95
++ __OBJC_$_PROP_LIST__INPBTrainReservation.111
++ __OBJC_$_PROP_LIST__INPBTrainTrip.174
++ __OBJC_$_PROP_LIST__INPBTransferMoneyIntent.149
++ __OBJC_$_PROP_LIST__INPBTransferMoneyIntentResponse.149
++ __OBJC_$_PROP_LIST__INPBURLValue.108
++ __OBJC_$_PROP_LIST__INPBUUIDValue.94
++ __OBJC_$_PROP_LIST__INPBUncompressFileIntent.119
++ __OBJC_$_PROP_LIST__INPBUncompressFileIntentResponse.96
++ __OBJC_$_PROP_LIST__INPBUnsendMessagesIntent.103
++ __OBJC_$_PROP_LIST__INPBUpdateAlarmIntent.164
++ __OBJC_$_PROP_LIST__INPBUpdateAlarmIntentResponse.103
++ __OBJC_$_PROP_LIST__INPBUpdateEventIntent.198
++ __OBJC_$_PROP_LIST__INPBUpdateEventIntentResponse.126
++ __OBJC_$_PROP_LIST__INPBUpdateMediaAffinityIntent.158
++ __OBJC_$_PROP_LIST__INPBUserActivity.102
++ __OBJC_$_PROP_LIST__INPBValueMetadata.177
++ __OBJC_$_PROP_LIST__INPBVoiceCommandDeviceInformation.98
++ __OBJC_$_PROP_LIST__INPBVoiceCommandStepInfo.112
++ __OBJC_$_PROP_LIST__INPBVolume.89
++ __OBJC_$_PROP_LIST__INPBVolumeValue.120
++ __OBJC_$_PROP_LIST__INPBWellnessMetadataPair.111
++ __OBJC_$_PROP_LIST__INPBWellnessMetadataValue.111
++ __OBJC_$_PROP_LIST__INPBWellnessObjectResultValue.143
++ __OBJC_$_PROP_LIST__INPBWellnessUnitType.202
++ __OBJC_$_PROP_LIST__INPBWellnessValue.111
++ __OBJC_$_PROP_LIST__INPBWholeHouseAudioMetadata.286
++ __OBJC_$_PROP_LIST__INPBWorkoutAssociatedItem.130
++ __OBJC_$_PROP_LIST__INPBWorkoutCustomization.89
++ __OBJC_CLASS_PROTOCOLS_$_INCustomObject
++ __OBJC_PROTOCOL_REFERENCE_$_INRuntimeObject
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ue170006ERKS6_S9_
++ __ZNSt12length_errorC1B8ue170006EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ue170006ILi0EEEPKc
++ __ZNSt3__120__throw_length_errorB8ue170006EPKc
++ ___107-[INIntentDeliverer _processResolutionDataProviderForIntent:intentSlotDescription:updateIntent:completion:]_block_invoke.116
++ ___35-[_INVocabularyConnection _connect]_block_invoke.69
++ ___42+[INIntentTest executeIntent:withHandler:]_block_invoke.80
++ ___42+[INIntentTest executeIntent:withHandler:]_block_invoke_2.95
++ ___49-[INIntentDeliverer handleIntent:withCompletion:]_block_invoke.87
++ ___50-[INIntentDeliverer confirmIntent:withCompletion:]_block_invoke.84
++ ___62-[INIntentDeliverer _processIntent:intentResponse:completion:]_block_invoke.136
++ ___62-[INIntentDeliverer _processIntent:intentResponse:completion:]_block_invoke_2.139
++ ___78-[INIntentDeliverer getIntentParameterDefaultValue:forIntent:completionBlock:]_block_invoke.76
++ ___92-[INIntentDeliverer getParameterOptionsForParameterNamed:intent:searchTerm:completionBlock:]_block_invoke.94
++ ___97-[INIntentDeliverer _resolveIntentParameter:forIntent:intentHandler:updateIntent:withCompletion:]_block_invoke.103
++ ___97-[_INURLImage(INPortableImageLoader) _loadImageDataAndSizeWithHelper:accessSpecifier:completion:]_block_invoke.120
++ ___97-[_INURLImage(INPortableImageLoader) _loadImageDataAndSizeWithHelper:accessSpecifier:completion:]_block_invoke.122
++ ___97-[_INURLImage(INPortableImageLoader) _loadImageDataAndSizeWithHelper:accessSpecifier:completion:]_block_invoke.126
++ ___AssistantServicesLibraryCore_block_invoke.54864
++ ___Block_byref_object_copy_.100362
++ ___Block_byref_object_copy_.104307
++ ___Block_byref_object_copy_.11839
++ ___Block_byref_object_copy_.13052
++ ___Block_byref_object_copy_.20791
++ ___Block_byref_object_copy_.26651
++ ___Block_byref_object_copy_.26930
++ ___Block_byref_object_copy_.29576
++ ___Block_byref_object_copy_.37001
++ ___Block_byref_object_copy_.49833
++ ___Block_byref_object_copy_.54452
++ ___Block_byref_object_copy_.54873
++ ___Block_byref_object_copy_.65109
++ ___Block_byref_object_copy_.68057
++ ___Block_byref_object_copy_.68865
++ ___Block_byref_object_copy_.71725
++ ___Block_byref_object_copy_.74931
++ ___Block_byref_object_copy_.90200
++ ___Block_byref_object_dispose_.100363
++ ___Block_byref_object_dispose_.104308
++ ___Block_byref_object_dispose_.11840
++ ___Block_byref_object_dispose_.13053
++ ___Block_byref_object_dispose_.20792
++ ___Block_byref_object_dispose_.26652
++ ___Block_byref_object_dispose_.26931
++ ___Block_byref_object_dispose_.29577
++ ___Block_byref_object_dispose_.37002
++ ___Block_byref_object_dispose_.49834
++ ___Block_byref_object_dispose_.54453
++ ___Block_byref_object_dispose_.54874
++ ___Block_byref_object_dispose_.65110
++ ___Block_byref_object_dispose_.68058
++ ___Block_byref_object_dispose_.68866
++ ___Block_byref_object_dispose_.71726
++ ___Block_byref_object_dispose_.74932
++ ___Block_byref_object_dispose_.90201
++ ___ContactsLibraryCore_block_invoke.110880
++ ___ContactsLibraryCore_block_invoke.19344
++ ___ContactsLibraryCore_block_invoke.19370
++ ___ContactsLibraryCore_block_invoke.33452
++ ___ContactsLibraryCore_block_invoke.45361
++ ___ContactsLibraryCore_block_invoke.60731
++ ___CoreGraphicsLibraryCore_block_invoke.136396
++ ___CoreSpotlightLibraryCore_block_invoke.19340
++ ___CoreSpotlightLibraryCore_block_invoke.5747
++ ___CoreSpotlightLibraryCore_block_invoke.59561
++ ___CoreSpotlightLibraryCore_block_invoke.79569
++ ___HealthKitLibraryCore_block_invoke.95320
++ ___IntentsUILibraryCore_block_invoke.83415
++ ___LinkServicesLibraryCore_block_invoke.165491
++ ___VoiceShortcutClientLibraryCore_block_invoke.112765
++ ___VoiceShortcutClientLibraryCore_block_invoke.123315
++ ___VoiceShortcutClientLibraryCore_block_invoke.27883
++ ___block_literal_global.10.103292
++ ___block_literal_global.10.54888
++ ___block_literal_global.100.74926
++ ___block_literal_global.100108
++ ___block_literal_global.100284
++ ___block_literal_global.103282
++ ___block_literal_global.104408
++ ___block_literal_global.105434
++ ___block_literal_global.11932
++ ___block_literal_global.119598
++ ___block_literal_global.123411
++ ___block_literal_global.13.103294
++ ___block_literal_global.13.98597
++ ___block_literal_global.13048
++ ___block_literal_global.157821
++ ___block_literal_global.17649
++ ___block_literal_global.18318
++ ___block_literal_global.20787
++ ___block_literal_global.22.93889
++ ___block_literal_global.22356
++ ___block_literal_global.23169
++ ___block_literal_global.26643
++ ___block_literal_global.29003
++ ___block_literal_global.29598
++ ___block_literal_global.30970
++ ___block_literal_global.31138
++ ___block_literal_global.31703
++ ___block_literal_global.34259
++ ___block_literal_global.3516
++ ___block_literal_global.37023
++ ___block_literal_global.3706
++ ___block_literal_global.37406
++ ___block_literal_global.4.157814
++ ___block_literal_global.40083
++ ___block_literal_global.40587
++ ___block_literal_global.4122
++ ___block_literal_global.42199
++ ___block_literal_global.43117
++ ___block_literal_global.43368
++ ___block_literal_global.4339
++ ___block_literal_global.44275
++ ___block_literal_global.4464
++ ___block_literal_global.47435
++ ___block_literal_global.53331
++ ___block_literal_global.53903
++ ___block_literal_global.54458
++ ___block_literal_global.54872
++ ___block_literal_global.59567
++ ___block_literal_global.6.71840
++ ___block_literal_global.60588
++ ___block_literal_global.62108
++ ___block_literal_global.66578
++ ___block_literal_global.68131
++ ___block_literal_global.68248
++ ___block_literal_global.68867
++ ___block_literal_global.70269
++ ___block_literal_global.71031
++ ___block_literal_global.71774
++ ___block_literal_global.71836
++ ___block_literal_global.7349
++ ___block_literal_global.74789
++ ___block_literal_global.77156
++ ___block_literal_global.82.66572
++ ___block_literal_global.82162
++ ___block_literal_global.91
++ ___block_literal_global.91.71775
++ ___block_literal_global.91170
++ ___block_literal_global.92027
++ ___block_literal_global.93888
++ ___block_literal_global.98608
++ ___getAFPreferencesClass_block_invoke.54862
++ ___getCGColorCreateSRGBSymbolLoc_block_invoke.136441
++ ___getCGColorGetComponentsSymbolLoc_block_invoke.136389
++ ___getCNContactEmailAddressesKeySymbolLoc_block_invoke.33456
++ ___getCNContactPhoneNumbersKeySymbolLoc_block_invoke.33459
++ ___getCNLabeledValueClass_block_invoke.60747
++ ___getCNPostalAddressClass_block_invoke.110878
++ ___getCSSearchableIndexClass_block_invoke.5744
++ ___getCSSearchableIndexClass_block_invoke.59559
++ ___getCSSearchableItemAttributeSetClass_block_invoke.79567
++ ___getHKUnitClass_block_invoke.95318
++ __unnamed_array_storage.101.109769
++ __unnamed_array_storage.103850
++ __unnamed_array_storage.109779
++ __unnamed_array_storage.11936
++ __unnamed_array_storage.119576
++ __unnamed_array_storage.13.109780
++ __unnamed_array_storage.130.109768
++ __unnamed_array_storage.137.109765
++ __unnamed_array_storage.1427.109789
++ __unnamed_array_storage.1428.109790
++ __unnamed_array_storage.1498.109841
++ __unnamed_array_storage.1551.109836
++ __unnamed_array_storage.1580.109827
++ __unnamed_array_storage.167.109596
++ __unnamed_array_storage.1711.109856
++ __unnamed_array_storage.1726.109862
++ __unnamed_array_storage.17382
++ __unnamed_array_storage.1890.109625
++ __unnamed_array_storage.190.109591
++ __unnamed_array_storage.2135.109432
++ __unnamed_array_storage.2195.109420
++ __unnamed_array_storage.2223.109413
++ __unnamed_array_storage.2236.109366
++ __unnamed_array_storage.2307.109519
++ __unnamed_array_storage.2391.109513
++ __unnamed_array_storage.2434.109504
++ __unnamed_array_storage.2449.109501
++ __unnamed_array_storage.2511.109482
++ __unnamed_array_storage.2555.109813
++ __unnamed_array_storage.2583.109812
++ __unnamed_array_storage.2648.110088
++ __unnamed_array_storage.2920.110074
++ __unnamed_array_storage.3008.110042
++ __unnamed_array_storage.3154.110013
++ __unnamed_array_storage.37015
++ __unnamed_array_storage.38.109782
++ __unnamed_array_storage.39100
++ __unnamed_array_storage.3979
++ __unnamed_array_storage.42580
++ __unnamed_array_storage.47.64125
++ __unnamed_array_storage.62.64116
++ __unnamed_array_storage.62132
++ __unnamed_array_storage.64130
++ __unnamed_array_storage.731.109530
++ __unnamed_array_storage.73629
++ __unnamed_array_storage.737.109529
++ __unnamed_array_storage.74978
++ __unnamed_array_storage.93907
++ _audit_stringAssistantServices.54869
++ _audit_stringContacts.110885
++ _audit_stringContacts.19346
++ _audit_stringContacts.19372
++ _audit_stringContacts.33454
++ _audit_stringContacts.45363
++ _audit_stringContacts.60734
++ _audit_stringCoreGraphics.136398
++ _audit_stringCoreSpotlight.19341
++ _audit_stringCoreSpotlight.5752
++ _audit_stringCoreSpotlight.59566
++ _audit_stringCoreSpotlight.79574
++ _audit_stringHealthKit.95325
++ _audit_stringIntentsUI.83420
++ _audit_stringLinkServices.165496
++ _audit_stringVoiceShortcutClient.112770
++ _audit_stringVoiceShortcutClient.123320
++ _audit_stringVoiceShortcutClient.27884
++ _getAFPreferencesClass.softClass.54861
++ _getCGColorCreateSRGBSymbolLoc.ptr.136440
++ _getCGColorGetComponentsSymbolLoc.ptr.136388
++ _getCNContactEmailAddressesKeySymbolLoc.ptr.33455
++ _getCNContactPhoneNumbersKeySymbolLoc.ptr.33458
++ _getCNLabeledValueClass.60712
++ _getCNLabeledValueClass.softClass.60746
++ _getCNPostalAddressClass.softClass.110877
++ _getCSSearchableIndexClass.softClass.5743
++ _getCSSearchableIndexClass.softClass.59558
++ _getCSSearchableItemAttributeSetClass.softClass.79566
++ _getHKUnitClass.95316
++ _getHKUnitClass.softClass.95317
++ _intentDescription.intentDescription.31704
++ _intentDescription.intentDescription.39082
++ _intentDescription.intentDescription.42547
++ _intentDescription.intentDescription.64074
++ _intentDescription.intentDescription.68249
++ _intentDescription.onceToken.31702
++ _intentDescription.onceToken.39081
++ _intentDescription.onceToken.42546
++ _intentDescription.onceToken.64073
++ _intentDescription.onceToken.68247
++ _serviceIdentifier.onceToken.83388
++ _serviceIdentifier.sServiceIdentifier.83389
++ _sharedCache.onceToken.82161
++ _sharedManager.onceToken.123410
++ _sharedManager.onceToken.59557
++ _sharedManager.sharedManager.123412
+- +[INIntentCodableDescription(__Name) __NameKey].37201
+- GCC_except_table10065
+- GCC_except_table10075
+- GCC_except_table10077
+- GCC_except_table10082
+- GCC_except_table10147
+- GCC_except_table10153
+- GCC_except_table10696
+- GCC_except_table10817
+- GCC_except_table10821
+- GCC_except_table10933
+- GCC_except_table11045
+- GCC_except_table11072
+- GCC_except_table11073
+- GCC_except_table11293
+- GCC_except_table11739
+- GCC_except_table12028
+- GCC_except_table1207
+- GCC_except_table12468
+- GCC_except_table12475
+- GCC_except_table12478
+- GCC_except_table12486
+- GCC_except_table12507
+- GCC_except_table1257
+- GCC_except_table13111
+- GCC_except_table1313
+- GCC_except_table1332
+- GCC_except_table1342
+- GCC_except_table13640
+- GCC_except_table13679
+- GCC_except_table13683
+- GCC_except_table13928
+- GCC_except_table14453
+- GCC_except_table15125
+- GCC_except_table15129
+- GCC_except_table1608
+- GCC_except_table16261
+- GCC_except_table16362
+- GCC_except_table16370
+- GCC_except_table16371
+- GCC_except_table16672
+- GCC_except_table18314
+- GCC_except_table18963
+- GCC_except_table19132
+- GCC_except_table19159
+- GCC_except_table19722
+- GCC_except_table19724
+- GCC_except_table19727
+- GCC_except_table19805
+- GCC_except_table201
+- GCC_except_table20797
+- GCC_except_table210
+- GCC_except_table21093
+- GCC_except_table213
+- GCC_except_table216
+- GCC_except_table22155
+- GCC_except_table22158
+- GCC_except_table22772
+- GCC_except_table22789
+- GCC_except_table2492
+- GCC_except_table24961
+- GCC_except_table24973
+- GCC_except_table2524
+- GCC_except_table26814
+- GCC_except_table26817
+- GCC_except_table26818
+- GCC_except_table26819
+- GCC_except_table26820
+- GCC_except_table2770
+- GCC_except_table2771
+- GCC_except_table28495
+- GCC_except_table2853
+- GCC_except_table2889
+- GCC_except_table29530
+- GCC_except_table29537
+- GCC_except_table29538
+- GCC_except_table29542
+- GCC_except_table29543
+- GCC_except_table29544
+- GCC_except_table29545
+- GCC_except_table29546
+- GCC_except_table29551
+- GCC_except_table29553
+- GCC_except_table29554
+- GCC_except_table29555
+- GCC_except_table29556
+- GCC_except_table29560
+- GCC_except_table29748
+- GCC_except_table3141
+- GCC_except_table3144
+- GCC_except_table3152
+- GCC_except_table3165
+- GCC_except_table4129
+- GCC_except_table4133
+- GCC_except_table4140
+- GCC_except_table4142
+- GCC_except_table4155
+- GCC_except_table4366
+- GCC_except_table5339
+- GCC_except_table5340
+- GCC_except_table5397
+- GCC_except_table5557
+- GCC_except_table5560
+- GCC_except_table5564
+- GCC_except_table5796
+- GCC_except_table5805
+- GCC_except_table619
+- GCC_except_table6352
+- GCC_except_table6354
+- GCC_except_table6386
+- GCC_except_table6387
+- GCC_except_table6388
+- GCC_except_table6389
+- GCC_except_table6423
+- GCC_except_table6982
+- GCC_except_table7067
+- GCC_except_table7068
+- GCC_except_table758
+- GCC_except_table764
+- GCC_except_table7787
+- GCC_except_table8053
+- GCC_except_table8397
+- GCC_except_table8401
+- GCC_except_table8649
+- GCC_except_table9324
+- GCC_except_table9878
+- _AssistantServicesLibraryCore.frameworkLibrary.54399
+- _ContactsLibrary.19154
+- _ContactsLibrary.33133
+- _ContactsLibrary.44978
+- _ContactsLibrary.60261
+- _ContactsLibraryCore.frameworkLibrary.110064
+- _ContactsLibraryCore.frameworkLibrary.19142
+- _ContactsLibraryCore.frameworkLibrary.19168
+- _ContactsLibraryCore.frameworkLibrary.33138
+- _ContactsLibraryCore.frameworkLibrary.44981
+- _ContactsLibraryCore.frameworkLibrary.60264
+- _CoreGraphicsLibrary.135403
+- _CoreGraphicsLibraryCore.frameworkLibrary.135408
+- _CoreSpotlightLibrary.19135
+- _CoreSpotlightLibraryCore.frameworkLibrary.19138
+- _CoreSpotlightLibraryCore.frameworkLibrary.5699
+- _CoreSpotlightLibraryCore.frameworkLibrary.59099
+- _CoreSpotlightLibraryCore.frameworkLibrary.78936
+- _HealthKitLibraryCore.frameworkLibrary.94546
+- _IntentsUILibraryCore.frameworkLibrary.82763
+- _LinkServicesLibraryCore.frameworkLibrary.164267
+- _VoiceShortcutClientLibraryCore.frameworkLibrary.111937
+- _VoiceShortcutClientLibraryCore.frameworkLibrary.122417
+- _VoiceShortcutClientLibraryCore.frameworkLibrary.27635
+- __OBJC_$_PROP_LIST__INPBActivateCarSignalIntent.123
+- __OBJC_$_PROP_LIST__INPBActivateCarSignalIntentResponse.90
+- __OBJC_$_PROP_LIST__INPBActivity.102
+- __OBJC_$_PROP_LIST__INPBActivityList.104
+- __OBJC_$_PROP_LIST__INPBAddCallParticipantIntent.104
+- __OBJC_$_PROP_LIST__INPBAddCallParticipantIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBAddMediaIntent.149
+- __OBJC_$_PROP_LIST__INPBAddTasksIntent.232
+- __OBJC_$_PROP_LIST__INPBAddTasksIntentResponse.130
+- __OBJC_$_PROP_LIST__INPBAirline.98
+- __OBJC_$_PROP_LIST__INPBAirport.98
+- __OBJC_$_PROP_LIST__INPBAirportGate.103
+- __OBJC_$_PROP_LIST__INPBAlarm.177
+- __OBJC_$_PROP_LIST__INPBAlarmSearch.181
+- __OBJC_$_PROP_LIST__INPBAnnouncement.131
+- __OBJC_$_PROP_LIST__INPBAnnouncementRecord.111
+- __OBJC_$_PROP_LIST__INPBAnswerCallIntent.116
+- __OBJC_$_PROP_LIST__INPBAnswerCallIntentResponse.127
+- __OBJC_$_PROP_LIST__INPBAppBuild.95
+- __OBJC_$_PROP_LIST__INPBAppBundleInfo.153
+- __OBJC_$_PROP_LIST__INPBAppId.78
+- __OBJC_$_PROP_LIST__INPBAppIdentifier.98
+- __OBJC_$_PROP_LIST__INPBAppNames.108
+- __OBJC_$_PROP_LIST__INPBAppendToNoteIntent.110
+- __OBJC_$_PROP_LIST__INPBAppendToNoteIntentResponse.80
+- __OBJC_$_PROP_LIST__INPBArchivedObject.92
+- __OBJC_$_PROP_LIST__INPBBalanceAmountValue.133
+- __OBJC_$_PROP_LIST__INPBBillDetailsValue.191
+- __OBJC_$_PROP_LIST__INPBBillPayeeValue.118
+- __OBJC_$_PROP_LIST__INPBBoatReservation.110
+- __OBJC_$_PROP_LIST__INPBBoatTrip.138
+- __OBJC_$_PROP_LIST__INPBBool.88
+- __OBJC_$_PROP_LIST__INPBBoolValue.95
+- __OBJC_$_PROP_LIST__INPBBuildId.88
+- __OBJC_$_PROP_LIST__INPBBusReservation.110
+- __OBJC_$_PROP_LIST__INPBBusTrip.158
+- __OBJC_$_PROP_LIST__INPBCalendarEvent.167
+- __OBJC_$_PROP_LIST__INPBCallGroup.90
+- __OBJC_$_PROP_LIST__INPBCallGroupConversation.130
+- __OBJC_$_PROP_LIST__INPBCallGroupConversationFilter.132
+- __OBJC_$_PROP_LIST__INPBCallInvite.127
+- __OBJC_$_PROP_LIST__INPBCallMetrics.80
+- __OBJC_$_PROP_LIST__INPBCallMetricsValue.90
+- __OBJC_$_PROP_LIST__INPBCallRecordFilter.145
+- __OBJC_$_PROP_LIST__INPBCallRecordValue.253
+- __OBJC_$_PROP_LIST__INPBCancelWorkoutIntent.95
+- __OBJC_$_PROP_LIST__INPBCar.186
+- __OBJC_$_PROP_LIST__INPBCarChargingConnectorPower.103
+- __OBJC_$_PROP_LIST__INPBCarHeadUnit.88
+- __OBJC_$_PROP_LIST__INPBChangeAlarmStatusIntent.142
+- __OBJC_$_PROP_LIST__INPBChangeAlarmStatusIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBColor.101
+- __OBJC_$_PROP_LIST__INPBCompressFileIntent.118
+- __OBJC_$_PROP_LIST__INPBCompressFileIntentResponse.95
+- __OBJC_$_PROP_LIST__INPBCondition.84
+- __OBJC_$_PROP_LIST__INPBConfidenceScore.106
+- __OBJC_$_PROP_LIST__INPBConfidenceScoreComponent.96
+- __OBJC_$_PROP_LIST__INPBConfigureHomeIntent.104
+- __OBJC_$_PROP_LIST__INPBConflictingParameter.102
+- __OBJC_$_PROP_LIST__INPBConnectedCall.84
+- __OBJC_$_PROP_LIST__INPBContact.88
+- __OBJC_$_PROP_LIST__INPBContactCard.405
+- __OBJC_$_PROP_LIST__INPBContactEventTrigger.80
+- __OBJC_$_PROP_LIST__INPBContactHandle.150
+- __OBJC_$_PROP_LIST__INPBContactList.104
+- __OBJC_$_PROP_LIST__INPBContactRelationship.88
+- __OBJC_$_PROP_LIST__INPBContactValue.355
+- __OBJC_$_PROP_LIST__INPBControlHomeIntent.151
+- __OBJC_$_PROP_LIST__INPBControlHomeIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBCopyFileIntent.188
+- __OBJC_$_PROP_LIST__INPBCopyFileIntentResponse.137
+- __OBJC_$_PROP_LIST__INPBCreateAlarmIntent.155
+- __OBJC_$_PROP_LIST__INPBCreateAlarmIntentResponse.103
+- __OBJC_$_PROP_LIST__INPBCreateEventIntent.147
+- __OBJC_$_PROP_LIST__INPBCreateEventIntentResponse.125
+- __OBJC_$_PROP_LIST__INPBCreateFileIntent.141
+- __OBJC_$_PROP_LIST__INPBCreateFileIntentResponse.137
+- __OBJC_$_PROP_LIST__INPBCreateNoteIntent.120
+- __OBJC_$_PROP_LIST__INPBCreateNoteIntentResponse.80
+- __OBJC_$_PROP_LIST__INPBCreateTaskListIntent.127
+- __OBJC_$_PROP_LIST__INPBCreateTaskListIntentResponse.80
+- __OBJC_$_PROP_LIST__INPBCreateTimerIntent.134
+- __OBJC_$_PROP_LIST__INPBCreateTimerIntentResponse.80
+- __OBJC_$_PROP_LIST__INPBCurrencyAmount.88
+- __OBJC_$_PROP_LIST__INPBCurrencyAmountValue.108
+- __OBJC_$_PROP_LIST__INPBCustomObject.147
+- __OBJC_$_PROP_LIST__INPBDataString.121
+- __OBJC_$_PROP_LIST__INPBDataStringList.104
+- __OBJC_$_PROP_LIST__INPBDataValue.94
+- __OBJC_$_PROP_LIST__INPBDateTime.131
+- __OBJC_$_PROP_LIST__INPBDateTimeRange.88
+- __OBJC_$_PROP_LIST__INPBDateTimeRangeList.104
+- __OBJC_$_PROP_LIST__INPBDateTimeRangeValue.174
+- __OBJC_$_PROP_LIST__INPBDecimalNumberValue.124
+- __OBJC_$_PROP_LIST__INPBDeleteAlarmIntent.119
+- __OBJC_$_PROP_LIST__INPBDeleteEventIntent.108
+- __OBJC_$_PROP_LIST__INPBDeleteEventIntentResponse.84
+- __OBJC_$_PROP_LIST__INPBDeleteFilePermanentlyIntent.80
+- __OBJC_$_PROP_LIST__INPBDeleteFilePermanentlyIntentResponse.87
+- __OBJC_$_PROP_LIST__INPBDeleteHealthSampleIntent.104
+- __OBJC_$_PROP_LIST__INPBDeleteParkingLocationIntent.80
+- __OBJC_$_PROP_LIST__INPBDeleteParkingLocationIntentResponse.95
+- __OBJC_$_PROP_LIST__INPBDeleteTasksIntent.134
+- __OBJC_$_PROP_LIST__INPBDeleteTasksIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBDeleteTimerIntent.110
+- __OBJC_$_PROP_LIST__INPBDeleteTimerIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBDevice.111
+- __OBJC_$_PROP_LIST__INPBDeviceDetail.151
+- __OBJC_$_PROP_LIST__INPBDialingContact.88
+- __OBJC_$_PROP_LIST__INPBDialingContactValue.105
+- __OBJC_$_PROP_LIST__INPBDictionary.88
+- __OBJC_$_PROP_LIST__INPBDistance.88
+- __OBJC_$_PROP_LIST__INPBDistanceList.104
+- __OBJC_$_PROP_LIST__INPBDistanceValue.119
+- __OBJC_$_PROP_LIST__INPBDouble.88
+- __OBJC_$_PROP_LIST__INPBDoubleList.104
+- __OBJC_$_PROP_LIST__INPBDoubleValue.98
+- __OBJC_$_PROP_LIST__INPBDuration.94
+- __OBJC_$_PROP_LIST__INPBEditMessageIntent.103
+- __OBJC_$_PROP_LIST__INPBEndWorkoutIntent.95
+- __OBJC_$_PROP_LIST__INPBEnergy.88
+- __OBJC_$_PROP_LIST__INPBEnergyValue.119
+- __OBJC_$_PROP_LIST__INPBEvent.102
+- __OBJC_$_PROP_LIST__INPBEventList.104
+- __OBJC_$_PROP_LIST__INPBEventParticipant.127
+- __OBJC_$_PROP_LIST__INPBFile.141
+- __OBJC_$_PROP_LIST__INPBFileDataAttachment.91
+- __OBJC_$_PROP_LIST__INPBFileProperty.116
+- __OBJC_$_PROP_LIST__INPBFilePropertyValue.148
+- __OBJC_$_PROP_LIST__INPBFinancialAccountValue.166
+- __OBJC_$_PROP_LIST__INPBFindDeviceAndPlaySoundIntent.119
+- __OBJC_$_PROP_LIST__INPBFindDeviceAndPlaySoundIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBFindEventsIntent.170
+- __OBJC_$_PROP_LIST__INPBFindEventsIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBFlight.143
+- __OBJC_$_PROP_LIST__INPBFlightReservation.110
+- __OBJC_$_PROP_LIST__INPBFocusStatus.76
+- __OBJC_$_PROP_LIST__INPBGenericIntent.127
+- __OBJC_$_PROP_LIST__INPBGenericIntentResponse.104
+- __OBJC_$_PROP_LIST__INPBGeographicalFeature.102
+- __OBJC_$_PROP_LIST__INPBGeographicalFeatureList.104
+- __OBJC_$_PROP_LIST__INPBGetCarLockStatusIntent.95
+- __OBJC_$_PROP_LIST__INPBGetCarLockStatusIntentResponse.76
+- __OBJC_$_PROP_LIST__INPBGetCarPowerLevelStatusIntent.95
+- __OBJC_$_PROP_LIST__INPBGetCarPowerLevelStatusIntentResponse.294
+- __OBJC_$_PROP_LIST__INPBGetFileInformationIntent.144
+- __OBJC_$_PROP_LIST__INPBGetFileInformationIntentResponse.110
+- __OBJC_$_PROP_LIST__INPBGetReservationDetailsIntent.117
+- __OBJC_$_PROP_LIST__INPBGetReservationDetailsIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBGetRideStatusIntent.80
+- __OBJC_$_PROP_LIST__INPBGetRideStatusIntentResponse.80
+- __OBJC_$_PROP_LIST__INPBGetSettingIntent.118
+- __OBJC_$_PROP_LIST__INPBGetSettingIntentResponse.102
+- __OBJC_$_PROP_LIST__INPBGetSettingResponseData.144
+- __OBJC_$_PROP_LIST__INPBGetVisualCodeIntent.103
+- __OBJC_$_PROP_LIST__INPBGetVisualCodeIntentResponse.80
+- __OBJC_$_PROP_LIST__INPBHangUpCallIntent.93
+- __OBJC_$_PROP_LIST__INPBHangUpCallIntentResponse.84
+- __OBJC_$_PROP_LIST__INPBHomeAttribute.103
+- __OBJC_$_PROP_LIST__INPBHomeAttributeRange.90
+- __OBJC_$_PROP_LIST__INPBHomeAttributeValue.185
+- __OBJC_$_PROP_LIST__INPBHomeAutomationEntityProvider.225
+- __OBJC_$_PROP_LIST__INPBHomeAutomationFromEntity.103
+- __OBJC_$_PROP_LIST__INPBHomeContent.104
+- __OBJC_$_PROP_LIST__INPBHomeEntity.239
+- __OBJC_$_PROP_LIST__INPBHomeEntityResponse.104
+- __OBJC_$_PROP_LIST__INPBHomeFilter.280
+- __OBJC_$_PROP_LIST__INPBHomeUserTask.116
+- __OBJC_$_PROP_LIST__INPBHomeUserTaskResponse.103
+- __OBJC_$_PROP_LIST__INPBIdentifyIncomingCallerIntent.80
+- __OBJC_$_PROP_LIST__INPBIdentifyIncomingCallerIntentResponse.111
+- __OBJC_$_PROP_LIST__INPBImageNoteContent.80
+- __OBJC_$_PROP_LIST__INPBImageValue.179
+- __OBJC_$_PROP_LIST__INPBInteger.88
+- __OBJC_$_PROP_LIST__INPBIntegerList.104
+- __OBJC_$_PROP_LIST__INPBIntegerValue.98
+- __OBJC_$_PROP_LIST__INPBIntent.136
+- __OBJC_$_PROP_LIST__INPBIntentExecutionRequest.126
+- __OBJC_$_PROP_LIST__INPBIntentExecutionResult.111
+- __OBJC_$_PROP_LIST__INPBIntentResponse.157
+- __OBJC_$_PROP_LIST__INPBIntentResponsePayloadFailure.108
+- __OBJC_$_PROP_LIST__INPBIntentResponsePayloadSuccess.107
+- __OBJC_$_PROP_LIST__INPBIntentSlotResolutionMulticardinalResult.88
+- __OBJC_$_PROP_LIST__INPBIntentSlotResolutionResult.178
+- __OBJC_$_PROP_LIST__INPBIntentSlotValue.2807
+- __OBJC_$_PROP_LIST__INPBIntentSlotVocabularyConcept.117
+- __OBJC_$_PROP_LIST__INPBIntentSlotVocabularyPolicy.103
+- __OBJC_$_PROP_LIST__INPBIntentSlotVocabularyValue.109
+- __OBJC_$_PROP_LIST__INPBIntentSupport.117
+- __OBJC_$_PROP_LIST__INPBIntentType.78
+- __OBJC_$_PROP_LIST__INPBIntentTypePhrases.102
+- __OBJC_$_PROP_LIST__INPBIntentVocabulary.105
+- __OBJC_$_PROP_LIST__INPBJSONDictionary.78
+- __OBJC_$_PROP_LIST__INPBJoinCallIntent.110
+- __OBJC_$_PROP_LIST__INPBLanguageTag.78
+- __OBJC_$_PROP_LIST__INPBListCarsIntent.80
+- __OBJC_$_PROP_LIST__INPBListCarsIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBListRideOptionsIntent.105
+- __OBJC_$_PROP_LIST__INPBListRideOptionsIntentResponse.136
+- __OBJC_$_PROP_LIST__INPBListShortcutsIntent.127
+- __OBJC_$_PROP_LIST__INPBListShortcutsIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBLocalDate.122
+- __OBJC_$_PROP_LIST__INPBLocalTime.112
+- __OBJC_$_PROP_LIST__INPBLocalizedProject.110
+- __OBJC_$_PROP_LIST__INPBLocation.88
+- __OBJC_$_PROP_LIST__INPBLocationList.104
+- __OBJC_$_PROP_LIST__INPBLocationValue.116
+- __OBJC_$_PROP_LIST__INPBLodgingReservation.135
+- __OBJC_$_PROP_LIST__INPBLong.88
+- __OBJC_$_PROP_LIST__INPBLongList.104
+- __OBJC_$_PROP_LIST__INPBLongValue.98
+- __OBJC_$_PROP_LIST__INPBMass.88
+- __OBJC_$_PROP_LIST__INPBMassValue.119
+- __OBJC_$_PROP_LIST__INPBMediaDestination.103
+- __OBJC_$_PROP_LIST__INPBMediaItemGroup.88
+- __OBJC_$_PROP_LIST__INPBMediaItemValue.214
+- __OBJC_$_PROP_LIST__INPBMediaSearch.210
+- __OBJC_$_PROP_LIST__INPBMediaSubItem.88
+- __OBJC_$_PROP_LIST__INPBMessage.391
+- __OBJC_$_PROP_LIST__INPBMessageLinkMetadata.625
+- __OBJC_$_PROP_LIST__INPBMessageReaction.116
+- __OBJC_$_PROP_LIST__INPBModifyNickname.95
+- __OBJC_$_PROP_LIST__INPBModifyRelationship.95
+- __OBJC_$_PROP_LIST__INPBMoveFileIntent.201
+- __OBJC_$_PROP_LIST__INPBMoveFileIntentResponse.164
+- __OBJC_$_PROP_LIST__INPBNote.162
+- __OBJC_$_PROP_LIST__INPBNoteContent.118
+- __OBJC_$_PROP_LIST__INPBNumericSettingValue.100
+- __OBJC_$_PROP_LIST__INPBOpenFileIntent.175
+- __OBJC_$_PROP_LIST__INPBOpenFileIntentResponse.132
+- __OBJC_$_PROP_LIST__INPBOpenSettingIntent.110
+- __OBJC_$_PROP_LIST__INPBOpenSettingIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBPair.338
+- __OBJC_$_PROP_LIST__INPBPauseTimerIntent.110
+- __OBJC_$_PROP_LIST__INPBPauseTimerIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBPauseWorkoutIntent.95
+- __OBJC_$_PROP_LIST__INPBPayBillIntent.188
+- __OBJC_$_PROP_LIST__INPBPayBillIntentResponse.140
+- __OBJC_$_PROP_LIST__INPBPayloadConfirmation.142
+- __OBJC_$_PROP_LIST__INPBPayloadNeedsDisambiguation.88
+- __OBJC_$_PROP_LIST__INPBPayloadNeedsExecuteIntent.80
+- __OBJC_$_PROP_LIST__INPBPayloadNeedsValue.88
+- __OBJC_$_PROP_LIST__INPBPayloadSuccess.93
+- __OBJC_$_PROP_LIST__INPBPayloadUnsupported.650
+- __OBJC_$_PROP_LIST__INPBPaymentAmountValue.103
+- __OBJC_$_PROP_LIST__INPBPaymentMethod.88
+- __OBJC_$_PROP_LIST__INPBPaymentMethodList.104
+- __OBJC_$_PROP_LIST__INPBPaymentMethodValue.141
+- __OBJC_$_PROP_LIST__INPBPaymentRecord.168
+- __OBJC_$_PROP_LIST__INPBPlace.135
+- __OBJC_$_PROP_LIST__INPBPlaceList.104
+- __OBJC_$_PROP_LIST__INPBPlatformSupport.101
+- __OBJC_$_PROP_LIST__INPBPlayAnnouncementSoundIntent.103
+- __OBJC_$_PROP_LIST__INPBPlayAudioMessageIntent.93
+- __OBJC_$_PROP_LIST__INPBPlayMediaIntent.401
+- __OBJC_$_PROP_LIST__INPBPlayMediaIntentResponse.80
+- __OBJC_$_PROP_LIST__INPBPlayMessageSoundIntent.116
+- __OBJC_$_PROP_LIST__INPBPlayVoicemailIntent.93
+- __OBJC_$_PROP_LIST__INPBPower.88
+- __OBJC_$_PROP_LIST__INPBPowerValue.119
+- __OBJC_$_PROP_LIST__INPBPriceRangeValue.118
+- __OBJC_$_PROP_LIST__INPBPrivateAddMediaIntentData.119
+- __OBJC_$_PROP_LIST__INPBPrivateMediaIntentData.247
+- __OBJC_$_PROP_LIST__INPBPrivateMediaItemValueData.259
+- __OBJC_$_PROP_LIST__INPBPrivatePlayMediaIntentData.284
+- __OBJC_$_PROP_LIST__INPBPrivateSearchForMediaIntentData.134
+- __OBJC_$_PROP_LIST__INPBPrivateUpdateMediaAffinityIntentData.102
+- __OBJC_$_PROP_LIST__INPBProperty.93
+- __OBJC_$_PROP_LIST__INPBQueryHealthSampleIntent.185
+- __OBJC_$_PROP_LIST__INPBQueryHealthSampleIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBQueryHomeIntent.104
+- __OBJC_$_PROP_LIST__INPBRangeValue.108
+- __OBJC_$_PROP_LIST__INPBReadAnnouncementIntent.129
+- __OBJC_$_PROP_LIST__INPBReadAnnouncementIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBRecurrenceValue.138
+- __OBJC_$_PROP_LIST__INPBRefinementItem.93
+- __OBJC_$_PROP_LIST__INPBRentalCar.118
+- __OBJC_$_PROP_LIST__INPBRentalCarReservation.135
+- __OBJC_$_PROP_LIST__INPBReportIncidentIntent.155
+- __OBJC_$_PROP_LIST__INPBReportIncidentIntentResponse.130
+- __OBJC_$_PROP_LIST__INPBRequestPaymentIntent.125
+- __OBJC_$_PROP_LIST__INPBRequestPaymentIntentResponse.80
+- __OBJC_$_PROP_LIST__INPBRequestRideIntent.200
+- __OBJC_$_PROP_LIST__INPBRequestRideIntentResponse.80
+- __OBJC_$_PROP_LIST__INPBReservation.180
+- __OBJC_$_PROP_LIST__INPBReservationAction.118
+- __OBJC_$_PROP_LIST__INPBReservationWrapper.185
+- __OBJC_$_PROP_LIST__INPBResetTimerIntent.110
+- __OBJC_$_PROP_LIST__INPBResetTimerIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBResolveObjectReferenceIntent.94
+- __OBJC_$_PROP_LIST__INPBResolveObjectReferenceIntentResponse.79
+- __OBJC_$_PROP_LIST__INPBResolveObjectReferenceResponse.79
+- __OBJC_$_PROP_LIST__INPBRestaurantReservation.125
+- __OBJC_$_PROP_LIST__INPBResumeTimerIntent.110
+- __OBJC_$_PROP_LIST__INPBResumeTimerIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBResumeWorkoutIntent.95
+- __OBJC_$_PROP_LIST__INPBRetrieveParkingLocationIntent.80
+- __OBJC_$_PROP_LIST__INPBRetrieveParkingLocationIntentResponse.95
+- __OBJC_$_PROP_LIST__INPBRideCompletionStatus.202
+- __OBJC_$_PROP_LIST__INPBRideDriver.118
+- __OBJC_$_PROP_LIST__INPBRideFareLineItem.103
+- __OBJC_$_PROP_LIST__INPBRideOption.234
+- __OBJC_$_PROP_LIST__INPBRidePartySizeOption.108
+- __OBJC_$_PROP_LIST__INPBRideStatus.288
+- __OBJC_$_PROP_LIST__INPBRideVehicle.134
+- __OBJC_$_PROP_LIST__INPBRunVoiceCommandIntent.138
+- __OBJC_$_PROP_LIST__INPBRunVoiceCommandIntentResponse.264
+- __OBJC_$_PROP_LIST__INPBRunWorkflowIntent.95
+- __OBJC_$_PROP_LIST__INPBRunWorkflowIntentResponse.164
+- __OBJC_$_PROP_LIST__INPBSaveHealthSampleIntent.174
+- __OBJC_$_PROP_LIST__INPBSaveHealthSampleIntentResponse.168
+- __OBJC_$_PROP_LIST__INPBSaveParkingLocationIntent.110
+- __OBJC_$_PROP_LIST__INPBSaveParkingLocationIntentResponse.95
+- __OBJC_$_PROP_LIST__INPBSaveProfileInCarIntent.110
+- __OBJC_$_PROP_LIST__INPBScanVisualCodeIntent.80
+- __OBJC_$_PROP_LIST__INPBScoredValue.96
+- __OBJC_$_PROP_LIST__INPBSearchAlarmIntent.142
+- __OBJC_$_PROP_LIST__INPBSearchCallHistoryIntent.220
+- __OBJC_$_PROP_LIST__INPBSearchCallHistoryIntentResponse.122
+- __OBJC_$_PROP_LIST__INPBSearchForAccountsIntent.141
+- __OBJC_$_PROP_LIST__INPBSearchForAccountsIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBSearchForBillsIntent.156
+- __OBJC_$_PROP_LIST__INPBSearchForBillsIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBSearchForContactIntent.104
+- __OBJC_$_PROP_LIST__INPBSearchForContactIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBSearchForFilesIntent.175
+- __OBJC_$_PROP_LIST__INPBSearchForFilesIntentResponse.132
+- __OBJC_$_PROP_LIST__INPBSearchForMeCardIntent.80
+- __OBJC_$_PROP_LIST__INPBSearchForMeCardIntentResponse.80
+- __OBJC_$_PROP_LIST__INPBSearchForMediaIntent.134
+- __OBJC_$_PROP_LIST__INPBSearchForMediaIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBSearchForMessagesIntent.228
+- __OBJC_$_PROP_LIST__INPBSearchForMessagesIntentResponse.102
+- __OBJC_$_PROP_LIST__INPBSearchForNotebookItemsIntent.269
+- __OBJC_$_PROP_LIST__INPBSearchForNotebookItemsIntentResponse.145
+- __OBJC_$_PROP_LIST__INPBSearchForPhotosIntent.267
+- __OBJC_$_PROP_LIST__INPBSearchForPhotosIntentResponse.111
+- __OBJC_$_PROP_LIST__INPBSearchForTimersIntent.147
+- __OBJC_$_PROP_LIST__INPBSearchForTimersIntentResponse.116
+- __OBJC_$_PROP_LIST__INPBSeat.108
+- __OBJC_$_PROP_LIST__INPBSelectionItem.103
+- __OBJC_$_PROP_LIST__INPBSendAnnouncementIntent.147
+- __OBJC_$_PROP_LIST__INPBSendAnnouncementIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBSendMessageAttachment.178
+- __OBJC_$_PROP_LIST__INPBSendMessageIntent.253
+- __OBJC_$_PROP_LIST__INPBSendMessageIntentResponse.102
+- __OBJC_$_PROP_LIST__INPBSendPaymentIntent.125
+- __OBJC_$_PROP_LIST__INPBSendPaymentIntentResponse.80
+- __OBJC_$_PROP_LIST__INPBSetAudioSourceInCarIntent.116
+- __OBJC_$_PROP_LIST__INPBSetBinarySettingIntent.133
+- __OBJC_$_PROP_LIST__INPBSetBinarySettingIntentResponse.114
+- __OBJC_$_PROP_LIST__INPBSetCarLockStatusIntent.110
+- __OBJC_$_PROP_LIST__INPBSetClimateSettingsInCarIntent.248
+- __OBJC_$_PROP_LIST__INPBSetDefrosterSettingsInCarIntent.131
+- __OBJC_$_PROP_LIST__INPBSetLabeledSettingIntent.123
+- __OBJC_$_PROP_LIST__INPBSetLabeledSettingIntentResponse.98
+- __OBJC_$_PROP_LIST__INPBSetMessageAttributeIntent.125
+- __OBJC_$_PROP_LIST__INPBSetNicknameIntent.95
+- __OBJC_$_PROP_LIST__INPBSetNicknameIntentResponse.80
+- __OBJC_$_PROP_LIST__INPBSetNumericSettingIntent.161
+- __OBJC_$_PROP_LIST__INPBSetNumericSettingIntentResponse.123
+- __OBJC_$_PROP_LIST__INPBSetProfileInCarIntent.140
+- __OBJC_$_PROP_LIST__INPBSetRadioStationIntent.158
+- __OBJC_$_PROP_LIST__INPBSetRelationshipIntent.119
+- __OBJC_$_PROP_LIST__INPBSetRelationshipIntentResponse.80
+- __OBJC_$_PROP_LIST__INPBSetSeatSettingsInCarIntent.181
+- __OBJC_$_PROP_LIST__INPBSetTaskAttributeIntent.191
+- __OBJC_$_PROP_LIST__INPBSetTaskAttributeIntentResponse.108
+- __OBJC_$_PROP_LIST__INPBSetTemporalSettingIntent.148
+- __OBJC_$_PROP_LIST__INPBSetTemporalSettingIntentResponse.103
+- __OBJC_$_PROP_LIST__INPBSetTimerAttributeIntent.128
+- __OBJC_$_PROP_LIST__INPBSetTimerAttributeIntentResponse.80
+- __OBJC_$_PROP_LIST__INPBSettingMetadata.108
+- __OBJC_$_PROP_LIST__INPBShareDestination.103
+- __OBJC_$_PROP_LIST__INPBShareETAIntent.104
+- __OBJC_$_PROP_LIST__INPBShareETAIntentResponse.114
+- __OBJC_$_PROP_LIST__INPBShareFileIntent.144
+- __OBJC_$_PROP_LIST__INPBShareFileIntentResponse.135
+- __OBJC_$_PROP_LIST__INPBShareFocusStatusIntent.95
+- __OBJC_$_PROP_LIST__INPBShortcutOverview.137
+- __OBJC_$_PROP_LIST__INPBShowHomeIntent.119
+- __OBJC_$_PROP_LIST__INPBSkipAnnouncementIntent.80
+- __OBJC_$_PROP_LIST__INPBSleepAlarmAttribute.95
+- __OBJC_$_PROP_LIST__INPBSnoozeAlarmIntent.104
+- __OBJC_$_PROP_LIST__INPBSnoozeTasksIntent.134
+- __OBJC_$_PROP_LIST__INPBSnoozeTasksIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBSpatialEventTrigger.138
+- __OBJC_$_PROP_LIST__INPBSpeakerIDInfo.103
+- __OBJC_$_PROP_LIST__INPBSpeed.88
+- __OBJC_$_PROP_LIST__INPBSpeedValue.119
+- __OBJC_$_PROP_LIST__INPBStartAudioCallIntent.208
+- __OBJC_$_PROP_LIST__INPBStartAudioCallIntentResponse.137
+- __OBJC_$_PROP_LIST__INPBStartCallIntent.290
+- __OBJC_$_PROP_LIST__INPBStartCallIntentResponse.140
+- __OBJC_$_PROP_LIST__INPBStartCallRequestMetadata.76
+- __OBJC_$_PROP_LIST__INPBStartPhotoPlaybackIntent.197
+- __OBJC_$_PROP_LIST__INPBStartPhotoPlaybackIntentResponse.111
+- __OBJC_$_PROP_LIST__INPBStartVideoCallIntent.156
+- __OBJC_$_PROP_LIST__INPBStartVideoCallIntentResponse.137
+- __OBJC_$_PROP_LIST__INPBStartWorkoutIntent.233
+- __OBJC_$_PROP_LIST__INPBStopAnnouncementIntent.80
+- __OBJC_$_PROP_LIST__INPBStopAnnouncementIntentResponse.88
+- __OBJC_$_PROP_LIST__INPBStopShareETAIntent.104
+- __OBJC_$_PROP_LIST__INPBStopShareETAIntentResponse.114
+- __OBJC_$_PROP_LIST__INPBString.88
+- __OBJC_$_PROP_LIST__INPBStringList.104
+- __OBJC_$_PROP_LIST__INPBStringValue.93
+- __OBJC_$_PROP_LIST__INPBSupportedTrafficIncidentType.103
+- __OBJC_$_PROP_LIST__INPBTask.235
+- __OBJC_$_PROP_LIST__INPBTaskList.152
+- __OBJC_$_PROP_LIST__INPBTemperature.88
+- __OBJC_$_PROP_LIST__INPBTemperatureList.104
+- __OBJC_$_PROP_LIST__INPBTemperatureValue.119
+- __OBJC_$_PROP_LIST__INPBTemporalEventTrigger.80
+- __OBJC_$_PROP_LIST__INPBTextNoteContent.78
+- __OBJC_$_PROP_LIST__INPBTicketedEvent.131
+- __OBJC_$_PROP_LIST__INPBTicketedEventReservation.110
+- __OBJC_$_PROP_LIST__INPBTimer.156
+- __OBJC_$_PROP_LIST__INPBTimestamp.94
+- __OBJC_$_PROP_LIST__INPBTrainReservation.110
+- __OBJC_$_PROP_LIST__INPBTrainTrip.173
+- __OBJC_$_PROP_LIST__INPBTransferMoneyIntent.148
+- __OBJC_$_PROP_LIST__INPBTransferMoneyIntentResponse.148
+- __OBJC_$_PROP_LIST__INPBURLValue.107
+- __OBJC_$_PROP_LIST__INPBUUIDValue.93
+- __OBJC_$_PROP_LIST__INPBUncompressFileIntent.118
+- __OBJC_$_PROP_LIST__INPBUncompressFileIntentResponse.95
+- __OBJC_$_PROP_LIST__INPBUnsendMessagesIntent.102
+- __OBJC_$_PROP_LIST__INPBUpdateAlarmIntent.163
+- __OBJC_$_PROP_LIST__INPBUpdateAlarmIntentResponse.102
+- __OBJC_$_PROP_LIST__INPBUpdateEventIntent.197
+- __OBJC_$_PROP_LIST__INPBUpdateEventIntentResponse.125
+- __OBJC_$_PROP_LIST__INPBUpdateMediaAffinityIntent.157
+- __OBJC_$_PROP_LIST__INPBUserActivity.101
+- __OBJC_$_PROP_LIST__INPBValueMetadata.176
+- __OBJC_$_PROP_LIST__INPBVoiceCommandDeviceInformation.97
+- __OBJC_$_PROP_LIST__INPBVoiceCommandStepInfo.111
+- __OBJC_$_PROP_LIST__INPBVolume.88
+- __OBJC_$_PROP_LIST__INPBVolumeValue.119
+- __OBJC_$_PROP_LIST__INPBWellnessMetadataPair.110
+- __OBJC_$_PROP_LIST__INPBWellnessMetadataValue.110
+- __OBJC_$_PROP_LIST__INPBWellnessObjectResultValue.142
+- __OBJC_$_PROP_LIST__INPBWellnessUnitType.201
+- __OBJC_$_PROP_LIST__INPBWellnessValue.110
+- __OBJC_$_PROP_LIST__INPBWholeHouseAudioMetadata.285
+- __OBJC_$_PROP_LIST__INPBWorkoutAssociatedItem.129
+- __OBJC_$_PROP_LIST__INPBWorkoutCustomization.88
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB7v160006ERKS6_S9_
+- __ZNSt12length_errorC1B7v160006EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006IDnEEPKc
+- __ZNSt3__120__throw_length_errorB7v160006EPKc
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE11INSystemAppEENS_19__map_value_compareIS7_S9_NS_4lessIS7_EELb1EEENS5_IS9_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSK_SK_
+- ___107-[INIntentDeliverer _processResolutionDataProviderForIntent:intentSlotDescription:updateIntent:completion:]_block_invoke.115
+- ___35-[_INVocabularyConnection _connect]_block_invoke.68
+- ___42+[INIntentTest executeIntent:withHandler:]_block_invoke.79
+- ___42+[INIntentTest executeIntent:withHandler:]_block_invoke_2.94
+- ___49-[INIntentDeliverer handleIntent:withCompletion:]_block_invoke.86
+- ___50-[INIntentDeliverer confirmIntent:withCompletion:]_block_invoke.83
+- ___62-[INIntentDeliverer _processIntent:intentResponse:completion:]_block_invoke.135
+- ___62-[INIntentDeliverer _processIntent:intentResponse:completion:]_block_invoke_2.138
+- ___78-[INIntentDeliverer getIntentParameterDefaultValue:forIntent:completionBlock:]_block_invoke.75
+- ___92-[INIntentDeliverer getParameterOptionsForParameterNamed:intent:searchTerm:completionBlock:]_block_invoke.93
+- ___97-[INIntentDeliverer _resolveIntentParameter:forIntent:intentHandler:updateIntent:withCompletion:]_block_invoke.102
+- ___97-[_INURLImage(INPortableImageLoader) _loadImageDataAndSizeWithHelper:accessSpecifier:completion:]_block_invoke.119
+- ___97-[_INURLImage(INPortableImageLoader) _loadImageDataAndSizeWithHelper:accessSpecifier:completion:]_block_invoke.121
+- ___97-[_INURLImage(INPortableImageLoader) _loadImageDataAndSizeWithHelper:accessSpecifier:completion:]_block_invoke.125
+- ___AssistantServicesLibraryCore_block_invoke.54400
+- ___Block_byref_object_copy_.103482
+- ___Block_byref_object_copy_.11697
+- ___Block_byref_object_copy_.12879
+- ___Block_byref_object_copy_.20599
+- ___Block_byref_object_copy_.26410
+- ___Block_byref_object_copy_.26688
+- ___Block_byref_object_copy_.29310
+- ___Block_byref_object_copy_.36667
+- ___Block_byref_object_copy_.49410
+- ___Block_byref_object_copy_.53990
+- ___Block_byref_object_copy_.54409
+- ___Block_byref_object_copy_.64634
+- ___Block_byref_object_copy_.67568
+- ___Block_byref_object_copy_.68373
+- ___Block_byref_object_copy_.71220
+- ___Block_byref_object_copy_.74335
+- ___Block_byref_object_copy_.89511
+- ___Block_byref_object_copy_.99560
+- ___Block_byref_object_dispose_.103483
+- ___Block_byref_object_dispose_.11698
+- ___Block_byref_object_dispose_.12880
+- ___Block_byref_object_dispose_.20600
+- ___Block_byref_object_dispose_.26411
+- ___Block_byref_object_dispose_.26689
+- ___Block_byref_object_dispose_.29311
+- ___Block_byref_object_dispose_.36668
+- ___Block_byref_object_dispose_.49411
+- ___Block_byref_object_dispose_.53991
+- ___Block_byref_object_dispose_.54410
+- ___Block_byref_object_dispose_.64635
+- ___Block_byref_object_dispose_.67569
+- ___Block_byref_object_dispose_.68374
+- ___Block_byref_object_dispose_.71221
+- ___Block_byref_object_dispose_.74336
+- ___Block_byref_object_dispose_.89512
+- ___Block_byref_object_dispose_.99561
+- ___ContactsLibraryCore_block_invoke.110065
+- ___ContactsLibraryCore_block_invoke.19143
+- ___ContactsLibraryCore_block_invoke.19169
+- ___ContactsLibraryCore_block_invoke.33139
+- ___ContactsLibraryCore_block_invoke.44982
+- ___ContactsLibraryCore_block_invoke.60265
+- ___CoreGraphicsLibraryCore_block_invoke.135409
+- ___CoreSpotlightLibraryCore_block_invoke.19139
+- ___CoreSpotlightLibraryCore_block_invoke.5700
+- ___CoreSpotlightLibraryCore_block_invoke.59100
+- ___CoreSpotlightLibraryCore_block_invoke.78937
+- ___HealthKitLibraryCore_block_invoke.94547
+- ___IntentsUILibraryCore_block_invoke.82764
+- ___LinkServicesLibraryCore_block_invoke.164268
+- ___VoiceShortcutClientLibraryCore_block_invoke.111938
+- ___VoiceShortcutClientLibraryCore_block_invoke.122418
+- ___VoiceShortcutClientLibraryCore_block_invoke.27636
+- ___block_literal_global.10.102474
+- ___block_literal_global.10.54424
+- ___block_literal_global.102464
+- ___block_literal_global.103583
+- ___block_literal_global.104604
+- ___block_literal_global.11791
+- ___block_literal_global.118724
+- ___block_literal_global.122513
+- ___block_literal_global.12875
+- ___block_literal_global.13.102476
+- ___block_literal_global.13.97802
+- ___block_literal_global.156669
+- ___block_literal_global.17457
+- ___block_literal_global.18125
+- ___block_literal_global.20595
+- ___block_literal_global.22.93178
+- ___block_literal_global.22148
+- ___block_literal_global.22948
+- ___block_literal_global.26402
+- ___block_literal_global.28745
+- ___block_literal_global.29332
+- ___block_literal_global.30674
+- ___block_literal_global.30841
+- ___block_literal_global.31405
+- ___block_literal_global.33943
+- ___block_literal_global.3486
+- ___block_literal_global.36689
+- ___block_literal_global.3672
+- ___block_literal_global.37073
+- ___block_literal_global.39735
+- ___block_literal_global.4.156662
+- ___block_literal_global.40234
+- ___block_literal_global.4065
+- ___block_literal_global.41836
+- ___block_literal_global.42748
+- ___block_literal_global.4297
+- ___block_literal_global.42998
+- ___block_literal_global.43900
+- ___block_literal_global.4419
+- ___block_literal_global.47002
+- ___block_literal_global.52878
+- ___block_literal_global.53444
+- ___block_literal_global.53996
+- ___block_literal_global.54408
+- ___block_literal_global.59106
+- ___block_literal_global.6.71334
+- ___block_literal_global.60122
+- ___block_literal_global.61632
+- ___block_literal_global.66090
+- ___block_literal_global.67642
+- ___block_literal_global.67759
+- ___block_literal_global.68375
+- ___block_literal_global.69771
+- ___block_literal_global.70527
+- ___block_literal_global.71269
+- ___block_literal_global.71330
+- ___block_literal_global.7318
+- ___block_literal_global.74195
+- ___block_literal_global.76540
+- ___block_literal_global.81519
+- ___block_literal_global.82.66084
+- ___block_literal_global.90
+- ___block_literal_global.90.71270
+- ___block_literal_global.90476
+- ___block_literal_global.91329
+- ___block_literal_global.93177
+- ___block_literal_global.97813
+- ___block_literal_global.99
+- ___block_literal_global.99305
+- ___block_literal_global.99482
+- ___getAFPreferencesClass_block_invoke.54398
+- ___getCGColorCreateSRGBSymbolLoc_block_invoke.135454
+- ___getCGColorGetComponentsSymbolLoc_block_invoke.135402
+- ___getCNContactEmailAddressesKeySymbolLoc_block_invoke.33144
+- ___getCNContactPhoneNumbersKeySymbolLoc_block_invoke.33147
+- ___getCNLabeledValueClass_block_invoke.60281
+- ___getCNPostalAddressClass_block_invoke.110063
+- ___getCSSearchableIndexClass_block_invoke.5697
+- ___getCSSearchableIndexClass_block_invoke.59098
+- ___getCSSearchableItemAttributeSetClass_block_invoke.78935
+- ___getHKUnitClass_block_invoke.94545
+- __unnamed_array_storage.101.108918
+- __unnamed_array_storage.103028
+- __unnamed_array_storage.108928
+- __unnamed_array_storage.11795
+- __unnamed_array_storage.118702
+- __unnamed_array_storage.13.108929
+- __unnamed_array_storage.130.108917
+- __unnamed_array_storage.137.108914
+- __unnamed_array_storage.1427.108938
+- __unnamed_array_storage.1428.108939
+- __unnamed_array_storage.1498.108997
+- __unnamed_array_storage.1551.108992
+- __unnamed_array_storage.1580.108983
+- __unnamed_array_storage.167.108742
+- __unnamed_array_storage.1711.109012
+- __unnamed_array_storage.17192
+- __unnamed_array_storage.1726.109018
+- __unnamed_array_storage.1890.108773
+- __unnamed_array_storage.190.108737
+- __unnamed_array_storage.2135.108579
+- __unnamed_array_storage.2195.108569
+- __unnamed_array_storage.2223.108561
+- __unnamed_array_storage.2236.108505
+- __unnamed_array_storage.2307.108665
+- __unnamed_array_storage.2391.108659
+- __unnamed_array_storage.2434.108650
+- __unnamed_array_storage.2449.108647
+- __unnamed_array_storage.2511.108628
+- __unnamed_array_storage.2555.108971
+- __unnamed_array_storage.2583.108970
+- __unnamed_array_storage.2648.109276
+- __unnamed_array_storage.2920.109262
+- __unnamed_array_storage.3008.109225
+- __unnamed_array_storage.3154.109197
+- __unnamed_array_storage.36681
+- __unnamed_array_storage.38.108931
+- __unnamed_array_storage.38759
+- __unnamed_array_storage.3923
+- __unnamed_array_storage.42214
+- __unnamed_array_storage.47.63657
+- __unnamed_array_storage.61656
+- __unnamed_array_storage.62.63648
+- __unnamed_array_storage.63662
+- __unnamed_array_storage.731.108676
+- __unnamed_array_storage.737.108672
+- __unnamed_array_storage.74382
+- __unnamed_array_storage.93196
+- _audit_stringAssistantServices.54405
+- _audit_stringContacts.110070
+- _audit_stringContacts.19145
+- _audit_stringContacts.19171
+- _audit_stringContacts.33141
+- _audit_stringContacts.44984
+- _audit_stringContacts.60268
+- _audit_stringCoreGraphics.135411
+- _audit_stringCoreSpotlight.19140
+- _audit_stringCoreSpotlight.5705
+- _audit_stringCoreSpotlight.59105
+- _audit_stringCoreSpotlight.78942
+- _audit_stringHealthKit.94552
+- _audit_stringIntentsUI.82769
+- _audit_stringLinkServices.164273
+- _audit_stringVoiceShortcutClient.111943
+- _audit_stringVoiceShortcutClient.122423
+- _audit_stringVoiceShortcutClient.27637
+- _getAFPreferencesClass.softClass.54397
+- _getCGColorCreateSRGBSymbolLoc.ptr.135453
+- _getCGColorGetComponentsSymbolLoc.ptr.135401
+- _getCNContactEmailAddressesKeySymbolLoc.ptr.33143
+- _getCNContactPhoneNumbersKeySymbolLoc.ptr.33146
+- _getCNLabeledValueClass.60246
+- _getCNLabeledValueClass.softClass.60280
+- _getCNPostalAddressClass.softClass.110062
+- _getCSSearchableIndexClass.softClass.5696
+- _getCSSearchableIndexClass.softClass.59097
+- _getCSSearchableItemAttributeSetClass.softClass.78934
+- _getHKUnitClass.94543
+- _getHKUnitClass.softClass.94544
+- _intentDescription.intentDescription.31406
+- _intentDescription.intentDescription.38741
+- _intentDescription.intentDescription.42181
+- _intentDescription.intentDescription.63607
+- _intentDescription.intentDescription.67760
+- _intentDescription.onceToken.31404
+- _intentDescription.onceToken.38740
+- _intentDescription.onceToken.42180
+- _intentDescription.onceToken.63606
+- _intentDescription.onceToken.67758
+- _serviceIdentifier.onceToken.82737
+- _serviceIdentifier.sServiceIdentifier.82738
+- _sharedCache.onceToken.81518
+- _sharedManager.onceToken.122512
+- _sharedManager.onceToken.59096
+- _sharedManager.sharedManager.122514
+CStrings:
++ "N_A_C_S_A_C"
++ "N_A_C_S_D_C"
++ "T@\"NSArray\",?,R,C,N"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",?,R,N"
++ "com.apple.intents.CarChargingConnectorType.NACSAC"
++ "com.apple.intents.CarChargingConnectorType.NACSDC"
+
+```

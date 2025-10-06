@@ -1,0 +1,412 @@
+## NewsAnalytics
+
+> `/System/Library/PrivateFrameworks/NewsAnalytics.framework/NewsAnalytics`
+
+```diff
+
+-3529.2.0.0.0
+-  __TEXT.__text: 0x4428f8
+-  __TEXT.__auth_stubs: 0x27c0
++3557.1.0.0.0
++  __TEXT.__text: 0x47b6d4
++  __TEXT.__auth_stubs: 0x27d0
+   __TEXT.__objc_methlist: 0x2a0
+-  __TEXT.__const: 0x335bc
+-  __TEXT.__cstring: 0x75e7
+-  __TEXT.__constg_swiftt: 0x7ea8
+-  __TEXT.__swift5_typeref: 0x53cb
++  __TEXT.__const: 0x36a9c
++  __TEXT.__cstring: 0x7db7
++  __TEXT.__constg_swiftt: 0x861c
++  __TEXT.__swift5_typeref: 0x59a9
+   __TEXT.__swift5_builtin: 0xf0
+-  __TEXT.__swift5_reflstr: 0x95e5
+-  __TEXT.__swift5_fieldmd: 0x112b0
+-  __TEXT.__swift5_assocty: 0xa98
+-  __TEXT.__swift5_proto: 0x2eb4
+-  __TEXT.__swift5_types: 0xdf4
++  __TEXT.__swift5_reflstr: 0xa1a5
++  __TEXT.__swift5_fieldmd: 0x12288
++  __TEXT.__swift5_assocty: 0xb40
++  __TEXT.__swift5_proto: 0x3200
++  __TEXT.__swift5_types: 0xed4
+   __TEXT.__swift5_capture: 0x534
+-  __TEXT.__swift5_protos: 0x44
++  __TEXT.__swift5_protos: 0x48
+   __TEXT.__swift5_mpenum: 0x28
+-  __TEXT.__unwind_info: 0x12510
+-  __TEXT.__eh_frame: 0xdc90
++  __TEXT.__unwind_info: 0x134bc
++  __TEXT.__eh_frame: 0xebe0
+   __TEXT.__objc_classname: 0x244
+-  __TEXT.__objc_methname: 0x5a50
+-  __TEXT.__objc_methtype: 0xf7b
++  __TEXT.__objc_methname: 0x5eb7
++  __TEXT.__objc_methtype: 0xfa2
+   __TEXT.__objc_stubs: 0x20
+   __DATA_CONST.__got: 0x838
+-  __DATA_CONST.__const: 0x140
++  __DATA_CONST.__const: 0x148
+   __DATA_CONST.__objc_classlist: 0x118
+   __DATA_CONST.__objc_catlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x178
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x82d8
+-  __DATA_CONST.__objc_selrefs: 0x8b8
++  __DATA_CONST.__objc_const: 0x8658
++  __DATA_CONST.__objc_selrefs: 0x9a0
+   __AUTH_CONST.__objc_const: 0x190
+-  __AUTH_CONST.__const: 0x285b0
+-  __AUTH_CONST.__auth_got: 0x13e8
+-  __AUTH.__data: 0x49f8
++  __AUTH_CONST.__const: 0x2b4e8
++  __AUTH_CONST.__auth_got: 0x13f0
++  __AUTH.__data: 0x5008
+   __AUTH.__objc_data: 0x178
+   __DATA.__objc_protorefs: 0xc8
+   __DATA.__objc_classrefs: 0x148
+   __DATA.__objc_data: 0x90
+-  __DATA.__data: 0x9708
+-  __DATA.__bss: 0x40600
+-  __DATA_DIRTY.__objc_data: 0x338
+-  __DATA_DIRTY.__data: 0xb988
++  __DATA.__data: 0xa370
++  __DATA.__bss: 0x46f80
++  __DATA_DIRTY.__objc_data: 0x340
++  __DATA_DIRTY.__data: 0xba28
+   __DATA_DIRTY.__bss: 0x1ca80
+   __DATA_DIRTY.__common: 0x18
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftVision.dylib
+   - /usr/lib/swift/libswiftWebKit.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F372BE76-5404-3ECE-9006-DF01837BA172
+-  Functions: 28211
+-  Symbols:   3311
+-  CStrings:  1999
++  UUID: BBF8DE23-56FA-38E7-B56A-F463D9BC4D68
++  Functions: 29978
++  Symbols:   3511
++  CStrings:  2120
+ 
+Symbols:
++ ___exp10
++ ___swift_memcpy136_8
++ ___swift_memcpy273_8
++ ___swift_memcpy323_8
++ ___swift_memcpy400_8
++ ___swift_memcpy416_8
++ ___swift_memcpy41_8
++ ___swift_memcpy608_8
++ ___swift_memcpy73_8
++ ___swift_memcpy90_8
++ __swift_FORCE_LOAD_$_swiftVision
++ __swift_FORCE_LOAD_$_swiftVision_$_NewsAnalytics
++ _associated conformance 13NewsAnalytics016UserEventHistoryD10CountsDataV03AppB00gD4TypeAASE
++ _associated conformance 13NewsAnalytics016UserEventHistoryD10CountsDataV03AppB00gD4TypeAASe
++ _associated conformance 13NewsAnalytics016UserEventHistoryD10CountsDataV10CodingKeys33_CCAFBD65B4DD87100991F4E7EA66C7BALLOSHAASQ
++ _associated conformance 13NewsAnalytics016UserEventHistoryD10CountsDataV10CodingKeys33_CCAFBD65B4DD87100991F4E7EA66C7BALLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics016UserEventHistoryD10CountsDataV10CodingKeys33_CCAFBD65B4DD87100991F4E7EA66C7BALLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics12PuzzleLayoutOSHAASQ
++ _associated conformance 13NewsAnalytics15InteractionTypeOSHAASQ
++ _associated conformance 13NewsAnalytics15TabiRequestDataV03AppB00E9EventTypeAASE
++ _associated conformance 13NewsAnalytics15TabiRequestDataV03AppB00E9EventTypeAASe
++ _associated conformance 13NewsAnalytics15TabiRequestDataV10CodingKeys33_C2CA97D261C31CEECBC745FD510474D7LLOSHAASQ
++ _associated conformance 13NewsAnalytics15TabiRequestDataV10CodingKeys33_C2CA97D261C31CEECBC745FD510474D7LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics15TabiRequestDataV10CodingKeys33_C2CA97D261C31CEECBC745FD510474D7LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics16LiveActivityDataV03AppB00E9EventTypeAASE
++ _associated conformance 13NewsAnalytics16LiveActivityDataV03AppB00E9EventTypeAASe
++ _associated conformance 13NewsAnalytics16LiveActivityDataV10CodingKeys33_DD2325FD3C35675B5FD35CDA2077FC3ELLOSHAASQ
++ _associated conformance 13NewsAnalytics16LiveActivityDataV10CodingKeys33_DD2325FD3C35675B5FD35CDA2077FC3ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics16LiveActivityDataV10CodingKeys33_DD2325FD3C35675B5FD35CDA2077FC3ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics16PuzzleLayoutDataV03AppB00E9EventTypeAASE
++ _associated conformance 13NewsAnalytics16PuzzleLayoutDataV03AppB00E9EventTypeAASe
++ _associated conformance 13NewsAnalytics16PuzzleLayoutDataV10CodingKeys33_C20EB33818035620EE3B7D9C3FDCF39DLLOSHAASQ
++ _associated conformance 13NewsAnalytics16PuzzleLayoutDataV10CodingKeys33_C20EB33818035620EE3B7D9C3FDCF39DLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics16PuzzleLayoutDataV10CodingKeys33_C20EB33818035620EE3B7D9C3FDCF39DLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics16PuzzleRevealDataV03AppB00E9EventTypeAASE
++ _associated conformance 13NewsAnalytics16PuzzleRevealDataV03AppB00E9EventTypeAASe
++ _associated conformance 13NewsAnalytics16PuzzleRevealDataV10CodingKeys33_70051621710B8EF2AD266B7B199F5848LLOSHAASQ
++ _associated conformance 13NewsAnalytics16PuzzleRevealDataV10CodingKeys33_70051621710B8EF2AD266B7B199F5848LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics16PuzzleRevealDataV10CodingKeys33_70051621710B8EF2AD266B7B199F5848LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics16PuzzleRevealTypeOSHAASQ
++ _associated conformance 13NewsAnalytics16ReferralFeedDataV03AppB00E9EventTypeAASE
++ _associated conformance 13NewsAnalytics16ReferralFeedDataV03AppB00E9EventTypeAASe
++ _associated conformance 13NewsAnalytics16ReferralFeedDataV10CodingKeys33_785F44560623DAB17C549059448C72E6LLOSHAASQ
++ _associated conformance 13NewsAnalytics16ReferralFeedDataV10CodingKeys33_785F44560623DAB17C549059448C72E6LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics16ReferralFeedDataV10CodingKeys33_785F44560623DAB17C549059448C72E6LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics17ReferralGroupDataV03AppB00E9EventTypeAASE
++ _associated conformance 13NewsAnalytics17ReferralGroupDataV03AppB00E9EventTypeAASe
++ _associated conformance 13NewsAnalytics17ReferralGroupDataV10CodingKeys33_CD5D09B288706EBBB0DA71316C5908EBLLOSHAASQ
++ _associated conformance 13NewsAnalytics17ReferralGroupDataV10CodingKeys33_CD5D09B288706EBBB0DA71316C5908EBLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics17ReferralGroupDataV10CodingKeys33_CD5D09B288706EBBB0DA71316C5908EBLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics18TabiRequestSummaryV03AppB013DataEventTypeAASE
++ _associated conformance 13NewsAnalytics18TabiRequestSummaryV03AppB013DataEventTypeAASe
++ _associated conformance 13NewsAnalytics18TabiRequestSummaryV10CodingKeys33_0618CBD02649C9912E01215CF4CC8AB4LLOSHAASQ
++ _associated conformance 13NewsAnalytics18TabiRequestSummaryV10CodingKeys33_0618CBD02649C9912E01215CF4CC8AB4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics18TabiRequestSummaryV10CodingKeys33_0618CBD02649C9912E01215CF4CC8AB4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics19HeadlineScoringDataV03AppB00E9EventTypeAASE
++ _associated conformance 13NewsAnalytics19HeadlineScoringDataV03AppB00E9EventTypeAASe
++ _associated conformance 13NewsAnalytics19HeadlineScoringDataV10CodingKeys33_6A58961CCADB40C72FA3717B46225CC4LLOSHAASQ
++ _associated conformance 13NewsAnalytics19HeadlineScoringDataV10CodingKeys33_6A58961CCADB40C72FA3717B46225CC4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics19HeadlineScoringDataV10CodingKeys33_6A58961CCADB40C72FA3717B46225CC4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics20HeadlineScoringEventV5ModelV10CodingKeys33_FAE3228968212D13000C13A7DB61739ALLOSHAASQ
++ _associated conformance 13NewsAnalytics20HeadlineScoringEventV5ModelV10CodingKeys33_FAE3228968212D13000C13A7DB61739ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics20HeadlineScoringEventV5ModelV10CodingKeys33_FAE3228968212D13000C13A7DB61739ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics21LiveActivityCountDataV03AppB00F9EventTypeAASE
++ _associated conformance 13NewsAnalytics21LiveActivityCountDataV03AppB00F9EventTypeAASe
++ _associated conformance 13NewsAnalytics21LiveActivityCountDataV10CodingKeys33_0AD8F344665E490AD287FA080BA60FC0LLOSHAASQ
++ _associated conformance 13NewsAnalytics21LiveActivityCountDataV10CodingKeys33_0AD8F344665E490AD287FA080BA60FC0LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics21LiveActivityCountDataV10CodingKeys33_0AD8F344665E490AD287FA080BA60FC0LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics21LiveActivityDismissalOSHAASQ
++ _associated conformance 13NewsAnalytics22HeadlineScoringContextOSHAASQ
++ _associated conformance 13NewsAnalytics22LiveActivityUserActionOSHAASQ
++ _associated conformance 13NewsAnalytics23LiveActivityOriginationOSHAASQ
++ _associated conformance 13NewsAnalytics24ScoringValueDistributionV03AppB013DataEventTypeAASE
++ _associated conformance 13NewsAnalytics24ScoringValueDistributionV03AppB013DataEventTypeAASe
++ _associated conformance 13NewsAnalytics24ScoringValueDistributionV10CodingKeys33_8E0D30FD8CF3D7DCF4A12A8521085420LLOSHAASQ
++ _associated conformance 13NewsAnalytics24ScoringValueDistributionV10CodingKeys33_8E0D30FD8CF3D7DCF4A12A8521085420LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics24ScoringValueDistributionV10CodingKeys33_8E0D30FD8CF3D7DCF4A12A8521085420LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics25LiveActivityDismissalDataV03AppB00F9EventTypeAASE
++ _associated conformance 13NewsAnalytics25LiveActivityDismissalDataV03AppB00F9EventTypeAASe
++ _associated conformance 13NewsAnalytics25LiveActivityDismissalDataV10CodingKeys33_5F8940D3570458220EDB1FE7E319DB41LLOSHAASQ
++ _associated conformance 13NewsAnalytics25LiveActivityDismissalDataV10CodingKeys33_5F8940D3570458220EDB1FE7E319DB41LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics25LiveActivityDismissalDataV10CodingKeys33_5F8940D3570458220EDB1FE7E319DB41LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics26LiveActivitySubscribeEventV5ModelV10CodingKeys33_DA2155A56592149A2D293E4FEE477768LLOSHAASQ
++ _associated conformance 13NewsAnalytics26LiveActivitySubscribeEventV5ModelV10CodingKeys33_DA2155A56592149A2D293E4FEE477768LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics26LiveActivitySubscribeEventV5ModelV10CodingKeys33_DA2155A56592149A2D293E4FEE477768LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics26LiveActivityUserActionDataV03AppB00G9EventTypeAASE
++ _associated conformance 13NewsAnalytics26LiveActivityUserActionDataV03AppB00G9EventTypeAASe
++ _associated conformance 13NewsAnalytics26LiveActivityUserActionDataV10CodingKeys33_6D315B1597BA6DEF330DDEDA99DB87E0LLOSHAASQ
++ _associated conformance 13NewsAnalytics26LiveActivityUserActionDataV10CodingKeys33_6D315B1597BA6DEF330DDEDA99DB87E0LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics26LiveActivityUserActionDataV10CodingKeys33_6D315B1597BA6DEF330DDEDA99DB87E0LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics27LiveActivityOriginationDataV03AppB00F9EventTypeAASE
++ _associated conformance 13NewsAnalytics27LiveActivityOriginationDataV03AppB00F9EventTypeAASe
++ _associated conformance 13NewsAnalytics27LiveActivityOriginationDataV10CodingKeys33_F925A6E787C4FC1D9CAE9868D5A9F84ELLOSHAASQ
++ _associated conformance 13NewsAnalytics27LiveActivityOriginationDataV10CodingKeys33_F925A6E787C4FC1D9CAE9868D5A9F84ELLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics27LiveActivityOriginationDataV10CodingKeys33_F925A6E787C4FC1D9CAE9868D5A9F84ELLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics28LiveActivityUnsubscribeEventV5ModelV10CodingKeys33_822B94897AA7C63C4F884713CE8B5B59LLOSHAASQ
++ _associated conformance 13NewsAnalytics28LiveActivityUnsubscribeEventV5ModelV10CodingKeys33_822B94897AA7C63C4F884713CE8B5B59LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics28LiveActivityUnsubscribeEventV5ModelV10CodingKeys33_822B94897AA7C63C4F884713CE8B5B59LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics34UserEventHistoryAggregateStoreDataV03AppB00hD4TypeAASE
++ _associated conformance 13NewsAnalytics34UserEventHistoryAggregateStoreDataV03AppB00hD4TypeAASe
++ _associated conformance 13NewsAnalytics34UserEventHistoryAggregateStoreDataV10CodingKeys33_B9F94BBEEEF6751063751F7B3318CD76LLOSHAASQ
++ _associated conformance 13NewsAnalytics34UserEventHistoryAggregateStoreDataV10CodingKeys33_B9F94BBEEEF6751063751F7B3318CD76LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics34UserEventHistoryAggregateStoreDataV10CodingKeys33_B9F94BBEEEF6751063751F7B3318CD76LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics36LiveActivitySubscriptionFailureEventV5ModelV10CodingKeys33_A4EE5F01135C225BB31F5F6F81C9345ELLOSHAASQ
++ _associated conformance 13NewsAnalytics36LiveActivitySubscriptionFailureEventV5ModelV10CodingKeys33_A4EE5F01135C225BB31F5F6F81C9345ELLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics36LiveActivitySubscriptionFailureEventV5ModelV10CodingKeys33_A4EE5F01135C225BB31F5F6F81C9345ELLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics37InteractivePuzzleTeaserEngagementDataV03AppB00G9EventTypeAASE
++ _associated conformance 13NewsAnalytics37InteractivePuzzleTeaserEngagementDataV03AppB00G9EventTypeAASe
++ _associated conformance 13NewsAnalytics37InteractivePuzzleTeaserEngagementDataV10CodingKeys33_A595D94162170C1F66271E688FC53035LLOSHAASQ
++ _associated conformance 13NewsAnalytics37InteractivePuzzleTeaserEngagementDataV10CodingKeys33_A595D94162170C1F66271E688FC53035LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics37InteractivePuzzleTeaserEngagementDataV10CodingKeys33_A595D94162170C1F66271E688FC53035LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics38InteractivePuzzleTeaserEngagementEventV5ModelV10CodingKeys33_17C24A1E26C40D9AAD424B6705B43526LLOSHAASQ
++ _associated conformance 13NewsAnalytics38InteractivePuzzleTeaserEngagementEventV5ModelV10CodingKeys33_17C24A1E26C40D9AAD424B6705B43526LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics38InteractivePuzzleTeaserEngagementEventV5ModelV10CodingKeys33_17C24A1E26C40D9AAD424B6705B43526LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13NewsAnalytics40UserEventHistoryAggregateStoreCountsDataV03AppB00iD4TypeAASE
++ _associated conformance 13NewsAnalytics40UserEventHistoryAggregateStoreCountsDataV03AppB00iD4TypeAASe
++ _associated conformance 13NewsAnalytics40UserEventHistoryAggregateStoreCountsDataV10CodingKeys33_90709F0AD9B55C4D536844F6AFD9B856LLOSHAASQ
++ _associated conformance 13NewsAnalytics40UserEventHistoryAggregateStoreCountsDataV10CodingKeys33_90709F0AD9B55C4D536844F6AFD9B856LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 13NewsAnalytics40UserEventHistoryAggregateStoreCountsDataV10CodingKeys33_90709F0AD9B55C4D536844F6AFD9B856LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _symbolic $s13NewsAnalytics33LiveActivityCountDataProviderTypeP
++ _symbolic Say_____G 13NewsAnalytics15TabiRequestDataV
++ _symbolic Say_____GSg 13NewsAnalytics16PuzzleRevealTypeO
++ _symbolic _____ 13NewsAnalytics016UserEventHistoryD10CountsDataV
++ _symbolic _____ 13NewsAnalytics016UserEventHistoryD10CountsDataV10CodingKeys33_CCAFBD65B4DD87100991F4E7EA66C7BALLO
++ _symbolic _____ 13NewsAnalytics12PuzzleLayoutO
++ _symbolic _____ 13NewsAnalytics15InteractionTypeO
++ _symbolic _____ 13NewsAnalytics15TabiRequestDataV
++ _symbolic _____ 13NewsAnalytics15TabiRequestDataV10CodingKeys33_C2CA97D261C31CEECBC745FD510474D7LLO
++ _symbolic _____ 13NewsAnalytics16LiveActivityDataV
++ _symbolic _____ 13NewsAnalytics16LiveActivityDataV10CodingKeys33_DD2325FD3C35675B5FD35CDA2077FC3ELLO
++ _symbolic _____ 13NewsAnalytics16PuzzleLayoutDataV
++ _symbolic _____ 13NewsAnalytics16PuzzleLayoutDataV10CodingKeys33_C20EB33818035620EE3B7D9C3FDCF39DLLO
++ _symbolic _____ 13NewsAnalytics16PuzzleRevealDataV
++ _symbolic _____ 13NewsAnalytics16PuzzleRevealDataV10CodingKeys33_70051621710B8EF2AD266B7B199F5848LLO
++ _symbolic _____ 13NewsAnalytics16PuzzleRevealTypeO
++ _symbolic _____ 13NewsAnalytics16ReferralFeedDataV
++ _symbolic _____ 13NewsAnalytics16ReferralFeedDataV10CodingKeys33_785F44560623DAB17C549059448C72E6LLO
++ _symbolic _____ 13NewsAnalytics17ReferralGroupDataV
++ _symbolic _____ 13NewsAnalytics17ReferralGroupDataV10CodingKeys33_CD5D09B288706EBBB0DA71316C5908EBLLO
++ _symbolic _____ 13NewsAnalytics18TabiRequestSummaryV
++ _symbolic _____ 13NewsAnalytics18TabiRequestSummaryV10CodingKeys33_0618CBD02649C9912E01215CF4CC8AB4LLO
++ _symbolic _____ 13NewsAnalytics19HeadlineScoringDataV
++ _symbolic _____ 13NewsAnalytics19HeadlineScoringDataV10CodingKeys33_6A58961CCADB40C72FA3717B46225CC4LLO
++ _symbolic _____ 13NewsAnalytics20HeadlineScoringEventV
++ _symbolic _____ 13NewsAnalytics20HeadlineScoringEventV5ModelV
++ _symbolic _____ 13NewsAnalytics20HeadlineScoringEventV5ModelV10CodingKeys33_FAE3228968212D13000C13A7DB61739ALLO
++ _symbolic _____ 13NewsAnalytics21LiveActivityCountDataV
++ _symbolic _____ 13NewsAnalytics21LiveActivityCountDataV10CodingKeys33_0AD8F344665E490AD287FA080BA60FC0LLO
++ _symbolic _____ 13NewsAnalytics21LiveActivityDismissalO
++ _symbolic _____ 13NewsAnalytics22HeadlineScoringContextO
++ _symbolic _____ 13NewsAnalytics22LiveActivityUserActionO
++ _symbolic _____ 13NewsAnalytics23LiveActivityOriginationO
++ _symbolic _____ 13NewsAnalytics24ScoringValueDistributionV
++ _symbolic _____ 13NewsAnalytics24ScoringValueDistributionV10CodingKeys33_8E0D30FD8CF3D7DCF4A12A8521085420LLO
++ _symbolic _____ 13NewsAnalytics25LiveActivityDismissalDataV
++ _symbolic _____ 13NewsAnalytics25LiveActivityDismissalDataV10CodingKeys33_5F8940D3570458220EDB1FE7E319DB41LLO
++ _symbolic _____ 13NewsAnalytics26LiveActivitySubscribeEventV
++ _symbolic _____ 13NewsAnalytics26LiveActivitySubscribeEventV5ModelV
++ _symbolic _____ 13NewsAnalytics26LiveActivitySubscribeEventV5ModelV10CodingKeys33_DA2155A56592149A2D293E4FEE477768LLO
++ _symbolic _____ 13NewsAnalytics26LiveActivityUserActionDataV
++ _symbolic _____ 13NewsAnalytics26LiveActivityUserActionDataV10CodingKeys33_6D315B1597BA6DEF330DDEDA99DB87E0LLO
++ _symbolic _____ 13NewsAnalytics27LiveActivityOriginationDataV
++ _symbolic _____ 13NewsAnalytics27LiveActivityOriginationDataV10CodingKeys33_F925A6E787C4FC1D9CAE9868D5A9F84ELLO
++ _symbolic _____ 13NewsAnalytics28LiveActivityUnsubscribeEventV
++ _symbolic _____ 13NewsAnalytics28LiveActivityUnsubscribeEventV5ModelV
++ _symbolic _____ 13NewsAnalytics28LiveActivityUnsubscribeEventV5ModelV10CodingKeys33_822B94897AA7C63C4F884713CE8B5B59LLO
++ _symbolic _____ 13NewsAnalytics34UserEventHistoryAggregateStoreDataV
++ _symbolic _____ 13NewsAnalytics34UserEventHistoryAggregateStoreDataV10CodingKeys33_B9F94BBEEEF6751063751F7B3318CD76LLO
++ _symbolic _____ 13NewsAnalytics36LiveActivitySubscriptionFailureEventV
++ _symbolic _____ 13NewsAnalytics36LiveActivitySubscriptionFailureEventV5ModelV
++ _symbolic _____ 13NewsAnalytics36LiveActivitySubscriptionFailureEventV5ModelV10CodingKeys33_A4EE5F01135C225BB31F5F6F81C9345ELLO
++ _symbolic _____ 13NewsAnalytics37InteractivePuzzleTeaserEngagementDataV
++ _symbolic _____ 13NewsAnalytics37InteractivePuzzleTeaserEngagementDataV10CodingKeys33_A595D94162170C1F66271E688FC53035LLO
++ _symbolic _____ 13NewsAnalytics38InteractivePuzzleTeaserEngagementEventV
++ _symbolic _____ 13NewsAnalytics38InteractivePuzzleTeaserEngagementEventV5ModelV
++ _symbolic _____ 13NewsAnalytics38InteractivePuzzleTeaserEngagementEventV5ModelV10CodingKeys33_17C24A1E26C40D9AAD424B6705B43526LLO
++ _symbolic _____ 13NewsAnalytics40UserEventHistoryAggregateStoreCountsDataV
++ _symbolic _____ 13NewsAnalytics40UserEventHistoryAggregateStoreCountsDataV10CodingKeys33_90709F0AD9B55C4D536844F6AFD9B856LLO
++ _symbolic _____Sg 12AppAnalytics9EventDataV
++ _symbolic _____Sg 13NewsAnalytics016UserEventHistoryD10CountsDataV
++ _symbolic _____Sg 13NewsAnalytics16PuzzleLayoutDataV
++ _symbolic _____Sg 13NewsAnalytics16ReferralFeedDataV
++ _symbolic _____Sg 13NewsAnalytics17ReferralGroupDataV
++ _symbolic _____Sg 13NewsAnalytics18TabiRequestSummaryV
++ _symbolic _____Sg 13NewsAnalytics21LiveActivityCountDataV
++ _symbolic _____Sg 13NewsAnalytics34UserEventHistoryAggregateStoreDataV
++ _symbolic _____Sg 13NewsAnalytics40UserEventHistoryAggregateStoreCountsDataV
++ _symbolic ______p 13NewsAnalytics33LiveActivityCountDataProviderTypeP
++ _symbolic _____y_____G 12AppAnalytics13EventPropertyO 04NewsB016LiveActivityDataV
++ _symbolic _____y_____G 12AppAnalytics13EventPropertyO 04NewsB016PuzzleLayoutDataV
++ _symbolic _____y_____G 12AppAnalytics13EventPropertyO 04NewsB016PuzzleRevealDataV
++ _symbolic _____y_____G 12AppAnalytics13EventPropertyO 04NewsB016ReferralFeedDataV
++ _symbolic _____y_____G 12AppAnalytics13EventPropertyO 04NewsB017ReferralGroupDataV
++ _symbolic _____y_____G 12AppAnalytics13EventPropertyO 04NewsB019HeadlineScoringDataV
++ _symbolic _____y_____G 12AppAnalytics13EventPropertyO 04NewsB021LiveActivityCountDataV
++ _symbolic _____y_____G 12AppAnalytics13EventPropertyO 04NewsB025LiveActivityDismissalDataV
++ _symbolic _____y_____G 12AppAnalytics13EventPropertyO 04NewsB026LiveActivityUserActionDataV
++ _symbolic _____y_____G 12AppAnalytics13EventPropertyO 04NewsB027LiveActivityOriginationDataV
++ _symbolic _____y_____G 12AppAnalytics13EventPropertyO 04NewsB037InteractivePuzzleTeaserEngagementDataV
+- ___swift_memcpy128_8
+- ___swift_memcpy145_8
+- ___swift_memcpy408_8
+- ___swift_memcpy600_8
+CStrings:
++ "@\"FCLocationSharingUpsellConfig\"16@0:8"
++ "PuzzleFullArchive"
++ "T@\"FCLocationSharingUpsellConfig\",R,N"
++ "affinity"
++ "agedPersonalizationScoreDistribution"
++ "aggregateCounts"
++ "aggregateStoreData"
++ "all"
++ "articleDislikedEventCount"
++ "articleLikedEventCount"
++ "articleReadEventCount"
++ "articleSavedEventCount"
++ "articleSeenEventCount"
++ "articleSharedEventCount"
++ "articleVisitedEventCount"
++ "autofavoritedScoreCoefficient"
++ "baselineStatelessEventCount"
++ "baselineTimestamp"
++ "baselineTotalEventCount"
++ "both"
++ "channelPaywallConfigsByChannelID"
++ "channelTopic"
++ "channelTopicAggregatesCount"
++ "clientScoreCoefficient"
++ "clientScoreDistribution"
++ "coefficients"
++ "contentTriggerDampener"
++ "contentTriggerDampenerCoefficient"
++ "conversionCoefficient"
++ "countOfLiveActivitiesFollowed"
++ "discoTile"
++ "editorialTopicEventMappingProperties"
++ "embeddingScoreDistribution"
++ "enableAIAttribution"
++ "eventAggregation"
++ "eventCounts"
++ "feedPersonalization"
++ "feedViewEventCount"
++ "forYouGroup"
++ "freeGlobalESLArticleListIDs"
++ "freeTagESLArticleListIDPrefix"
++ "greatStoriesYouMissedGroup"
++ "group"
++ "halfLifeCoefficient"
++ "hasEvergreenArticleList"
++ "inArticle"
++ "interactivePuzzleTeaserEngagementData"
++ "interactivePuzzleTeaserInteraction"
++ "interactiveTeaser"
++ "isCandidateForNewsPlus"
++ "letter"
++ "letterEntry"
++ "liveActivitiesEnabled"
++ "liveActivityAssetServerURLs"
++ "liveActivityCountData"
++ "liveActivityCountDataProvider"
++ "liveActivityData"
++ "liveActivityDismissal"
++ "liveActivityDismissalData"
++ "liveActivityOrigination"
++ "liveActivityOriginationData"
++ "liveActivityUserAction"
++ "locationSharingUpsellConfig"
++ "maxTagESLArticleListsToQuery"
++ "moreFromIssue"
++ "moreFromIssueEOAEnabled"
++ "moreToRead"
++ "moreToReadEOAEnabled"
++ "multiplier"
++ "newestSessionAge"
++ "newsEdgePuzzleArchive"
++ "nicheContentMuliplier"
++ "nicheContentMultiplier"
++ "outsideLetterBox"
++ "paidGlobalESLArticleListIDs"
++ "paidTagESLArticleListIDPrefix"
++ "personalizationAnalyticsEnabled"
++ "personalizedPaywalls"
++ "puzzleFullArchive"
++ "puzzleLayoutData"
++ "puzzleRevealData"
++ "referralArticleData"
++ "referralFeedData"
++ "referralGroupData"
++ "resolvedGlobalGraph"
++ "serverScoreDemocratizationFactor"
++ "sortingScoreDistribution"
++ "sportsSyncingConfigurationV2ResourceId"
++ "sportsSyncingV2Enabled"
++ "sportsTopStoriesTagID"
++ "subscribe"
++ "system"
++ "tabiCachedResources"
++ "tabiScoreDistribution"
++ "tagAggregatesCount"
++ "tagFollowedEventCount"
++ "tagMutedEventCount"
++ "tagSubscriptionRepromptDelay"
++ "tagUnfollowedEventCount"
++ "todayFeedEditionConfigJSON"
++ "topicsAndChannelsGroup"
++ "unsubscribe"
++ "webEmbedDataSourcesConfigurationResourceId"
++ "word"
+- "feedContentExposureTestMaximumInterval"
+- "freeEvergreenArticleListIDs"
+- "paidEvergreenArticleListIDs"
+
+```

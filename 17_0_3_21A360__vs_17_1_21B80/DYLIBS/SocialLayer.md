@@ -1,0 +1,277 @@
+## SocialLayer
+
+> `/System/Library/PrivateFrameworks/SocialLayer.framework/SocialLayer`
+
+```diff
+
+-107.100.1.2.2
+-  __TEXT.__text: 0xaa598
+-  __TEXT.__auth_stubs: 0x2150
+-  __TEXT.__objc_methlist: 0x4ec4
+-  __TEXT.__const: 0x1bb4
+-  __TEXT.__gcc_except_tab: 0xf8c
+-  __TEXT.__cstring: 0x675d
+-  __TEXT.__oslogstring: 0xc12e
++107.200.61.2.1
++  __TEXT.__text: 0xaaf68
++  __TEXT.__auth_stubs: 0x2160
++  __TEXT.__objc_methlist: 0x4edc
++  __TEXT.__const: 0x1d64
++  __TEXT.__gcc_except_tab: 0x1060
++  __TEXT.__cstring: 0x678d
++  __TEXT.__oslogstring: 0xc24e
+   __TEXT.__dlopen_cstrs: 0x352
+-  __TEXT.__swift5_typeref: 0xba0
+-  __TEXT.__constg_swiftt: 0xe74
++  __TEXT.__swift5_typeref: 0xbac
++  __TEXT.__constg_swiftt: 0xeb4
+   __TEXT.__swift5_reflstr: 0x5a3
+-  __TEXT.__swift5_fieldmd: 0x944
++  __TEXT.__swift5_fieldmd: 0x9b8
+   __TEXT.__swift5_builtin: 0x8c
+   __TEXT.__swift5_assocty: 0x110
+-  __TEXT.__swift5_proto: 0x120
+-  __TEXT.__swift5_types: 0xe4
++  __TEXT.__swift5_proto: 0x12c
++  __TEXT.__swift5_types: 0xec
+   __TEXT.__swift5_protos: 0x1c
+-  __TEXT.__swift5_capture: 0x494
++  __TEXT.__swift5_capture: 0x434
+   __TEXT.__objc_const_ax: 0xabc
+-  __TEXT.__unwind_info: 0x30b0
++  __TEXT.__unwind_info: 0x30c4
+   __TEXT.__eh_frame: 0x1310
+   __TEXT.__objc_classname: 0xeaa
+-  __TEXT.__objc_methname: 0x10097
+-  __TEXT.__objc_methtype: 0x2706
+-  __TEXT.__objc_stubs: 0xb6a0
++  __TEXT.__objc_methname: 0x1012d
++  __TEXT.__objc_methtype: 0x2724
++  __TEXT.__objc_stubs: 0xb700
+   __DATA_CONST.__got: 0x5b0
+-  __DATA_CONST.__const: 0x1e90
++  __DATA_CONST.__const: 0x1eb8
+   __DATA_CONST.__objc_classlist: 0x378
+   __DATA_CONST.__objc_catlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x130
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x91e0
+-  __DATA_CONST.__objc_selrefs: 0x36d0
++  __DATA_CONST.__objc_selrefs: 0x36e8
+   __DATA_CONST.__objc_arraydata: 0x38
+   __AUTH_CONST.__cfstring: 0x2ea0
+   __AUTH_CONST.__objc_const: 0x2e78
+-  __AUTH_CONST.__const: 0x2db8
++  __AUTH_CONST.__const: 0x3018
+   __AUTH_CONST.__objc_intobj: 0xa8
+   __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x10b8
++  __AUTH_CONST.__auth_got: 0x10c0
+   __AUTH.__objc_data: 0x2138
+   __AUTH.__data: 0x4e8
+   __DATA.__objc_protorefs: 0x80
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C7E76D16-01E4-3EFB-BB05-65CECB0BCF5A
+-  Functions: 4709
+-  Symbols:   14291
+-  CStrings:  4670
++  UUID: 72B11597-0626-322B-A314-C4A0AF88AC99
++  Functions: 4795
++  Symbols:   14477
++  CStrings:  4679
+ 
+Symbols:
++ -[SLDCloudDocsService _acquireSandboxHandleData:ForFileProviderDocumentURL:clientConnection:error:].cold.2
++ -[SLDCloudDocsService _acquireSandboxHandleData:ForFileProviderDocumentURL:clientConnection:error:].cold.3
++ -[SLDCollaborationHandshakeService _acquireSandboxHandleData:ForFileProviderDocumentURL:clientConnection:error:].cold.2
++ -[SLDCollaborationHandshakeService _acquireSandboxHandleData:ForFileProviderDocumentURL:clientConnection:error:].cold.3
++ -[SLDImageSymbolConfiguration minViableSizeWithVariant:displayScale:RTL:darkMode:]
++ -[SLDShareableContentService fetchShareableContentMetadataFromBundleIdentifier:sceneIdentifier:completion:]
++ GCC_except_table25
++ _$s11SocialLayer20wolfNewPPMPillMetricV26avatarOverlapKnockoutWidth12CoreGraphics7CGFloatVvgTm
++ _$s11SocialLayer20wolfNewPPMPillMetricVAA013HighlightPillF7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP26avatarOverlapKnockoutWidth12CoreGraphics7CGFloatVvgTWTm
++ _$s11SocialLayer26HighlightPillMetricVariant33_00C2B47D0280335DFFDBB3BC8927527ALLPAAE11chevronSizeSo6CGSizeVvgAA016wolfSafariBannerdE0V_Tg5
++ _$s11SocialLayer26HighlightPillMetricVariant33_00C2B47D0280335DFFDBB3BC8927527ALLPAAE20avatarContainerWidth12CoreGraphics7CGFloatVvgAA016wolfSafariBannerdE0V_Tg5
++ _$s11SocialLayer26wolfSafariBannerPillMetricV10senderFontSo9CTFontRefavg
++ _$s11SocialLayer26wolfSafariBannerPillMetricV10senderFontSo9CTFontRefavpMV
++ _$s11SocialLayer26wolfSafariBannerPillMetricV11pillMarginsSo12NSEdgeInsetsVvg
++ _$s11SocialLayer26wolfSafariBannerPillMetricV11pillMarginsSo12NSEdgeInsetsVvpMV
++ _$s11SocialLayer26wolfSafariBannerPillMetricV12maxNameCountSivg
++ _$s11SocialLayer26wolfSafariBannerPillMetricV12maxNameCountSivpMV
++ _$s11SocialLayer26wolfSafariBannerPillMetricV12maximumWidth12CoreGraphics7CGFloatVvg
++ _$s11SocialLayer26wolfSafariBannerPillMetricV12maximumWidth12CoreGraphics7CGFloatVvpMV
++ _$s11SocialLayer26wolfSafariBannerPillMetricV13maxImageCountSivg
++ _$s11SocialLayer26wolfSafariBannerPillMetricV13maxImageCountSivpMV
++ _$s11SocialLayer26wolfSafariBannerPillMetricV14avatarDiameter12CoreGraphics7CGFloatVvg
++ _$s11SocialLayer26wolfSafariBannerPillMetricV14avatarDiameter12CoreGraphics7CGFloatVvpMV
++ _$s11SocialLayer26wolfSafariBannerPillMetricV14clientMaxWidth12CoreGraphics7CGFloatVvM
++ _$s11SocialLayer26wolfSafariBannerPillMetricV14clientMaxWidth12CoreGraphics7CGFloatVvM.resume.0
++ _$s11SocialLayer26wolfSafariBannerPillMetricV14clientMaxWidth12CoreGraphics7CGFloatVvg
++ _$s11SocialLayer26wolfSafariBannerPillMetricV14clientMaxWidth12CoreGraphics7CGFloatVvpMV
++ _$s11SocialLayer26wolfSafariBannerPillMetricV14clientMaxWidth12CoreGraphics7CGFloatVvs
++ _$s11SocialLayer26wolfSafariBannerPillMetricV15isCollaborationSbvM
++ _$s11SocialLayer26wolfSafariBannerPillMetricV15isCollaborationSbvM.resume.0
++ _$s11SocialLayer26wolfSafariBannerPillMetricV15isCollaborationSbvg
++ _$s11SocialLayer26wolfSafariBannerPillMetricV15isCollaborationSbvpMV
++ _$s11SocialLayer26wolfSafariBannerPillMetricV15isCollaborationSbvs
++ _$s11SocialLayer26wolfSafariBannerPillMetricV16shouldDisplayPinSbvg
++ _$s11SocialLayer26wolfSafariBannerPillMetricV16shouldDisplayPinSbvpMV
++ _$s11SocialLayer26wolfSafariBannerPillMetricV18useDoubleLineLabelSbvg
++ _$s11SocialLayer26wolfSafariBannerPillMetricV18useDoubleLineLabelSbvpMV
++ _$s11SocialLayer26wolfSafariBannerPillMetricV19availableImageCountSivM
++ _$s11SocialLayer26wolfSafariBannerPillMetricV19availableImageCountSivM.resume.0
++ _$s11SocialLayer26wolfSafariBannerPillMetricV19availableImageCountSivg
++ _$s11SocialLayer26wolfSafariBannerPillMetricV19availableImageCountSivpMV
++ _$s11SocialLayer26wolfSafariBannerPillMetricV19availableImageCountSivs
++ _$s11SocialLayer26wolfSafariBannerPillMetricV21chevronFontDescriptorSo06CTFontJ3Refavg
++ _$s11SocialLayer26wolfSafariBannerPillMetricV21chevronFontDescriptorSo06CTFontJ3RefavpMV
++ _$s11SocialLayer26wolfSafariBannerPillMetricV22labelHorizontalMarginsSo12NSEdgeInsetsVvg
++ _$s11SocialLayer26wolfSafariBannerPillMetricV22labelHorizontalMarginsSo12NSEdgeInsetsVvpMV
++ _$s11SocialLayer26wolfSafariBannerPillMetricV26avatarOverlapKnockoutWidth12CoreGraphics7CGFloatVvg
++ _$s11SocialLayer26wolfSafariBannerPillMetricV26avatarOverlapKnockoutWidth12CoreGraphics7CGFloatVvpMV
++ _$s11SocialLayer26wolfSafariBannerPillMetricV5style15isCollaboration14clientMaxWidth19availableImageCountACSo12UISSlotStyleC_Sb12CoreGraphics7CGFloatVSitcfC
++ _$s11SocialLayer26wolfSafariBannerPillMetricV5styleSo12UISSlotStyleCvM
++ _$s11SocialLayer26wolfSafariBannerPillMetricV5styleSo12UISSlotStyleCvM.resume.0
++ _$s11SocialLayer26wolfSafariBannerPillMetricV5styleSo12UISSlotStyleCvg
++ _$s11SocialLayer26wolfSafariBannerPillMetricV5styleSo12UISSlotStyleCvpMV
++ _$s11SocialLayer26wolfSafariBannerPillMetricV5styleSo12UISSlotStyleCvs
++ _$s11SocialLayer26wolfSafariBannerPillMetricV8baseFontSo9CTFontRefavg
++ _$s11SocialLayer26wolfSafariBannerPillMetricV8baseFontSo9CTFontRefavpMV
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP10senderFontSo9CTFontRefavgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP10textPrefixAA015AttributionTextP0OvgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP11chevronSizeSo6CGSizeVvgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP11pillMarginsSo12NSEdgeInsetsVvgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP12maxNameCountSivgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP12maximumWidth12CoreGraphics7CGFloatVvgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP13maxImageCountSivgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP14avatarDiameter12CoreGraphics7CGFloatVvgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP15finalImageCountSivgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP16shouldDisplayPinSbvgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP18useDoubleLineLabelSbvgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP20avatarContainerWidth12CoreGraphics7CGFloatVvgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP21chevronFontDescriptorSo06CTFontQ3RefavgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP22labelHorizontalMarginsSo12NSEdgeInsetsVvgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP26avatarOverlapKnockoutWidth12CoreGraphics7CGFloatVvgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP28onlyDisplayNameOrSenderCountSbvgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP28overlappedAvatarVisibleWidth12CoreGraphics7CGFloatVvgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP28overlappedAvatarVisibleWidth12CoreGraphics7CGFloatVvgTWTm
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP41allowLineWrapForMultilineSingleSenderNameSbvgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP5styleSo12UISSlotStyleCvgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP8baseFontSo9CTFontRefavgTW
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLAAMc
++ _$s11SocialLayer26wolfSafariBannerPillMetricVAA09HighlightfG7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLAAWP
++ _$s11SocialLayer26wolfSafariBannerPillMetricVMF
++ _$s11SocialLayer26wolfSafariBannerPillMetricVMa
++ _$s11SocialLayer26wolfSafariBannerPillMetricVMf
++ _$s11SocialLayer26wolfSafariBannerPillMetricVMn
++ _$s11SocialLayer26wolfSafariBannerPillMetricVN
++ _$s11SocialLayer26wolfSafariBannerPillMetricVWV
++ _$s11SocialLayer26wolfSafariBannerPillMetricVwCP
++ _$s11SocialLayer26wolfSafariBannerPillMetricVwca
++ _$s11SocialLayer26wolfSafariBannerPillMetricVwcaTm
++ _$s11SocialLayer26wolfSafariBannerPillMetricVwcp
++ _$s11SocialLayer26wolfSafariBannerPillMetricVwcpTm
++ _$s11SocialLayer26wolfSafariBannerPillMetricVwet
++ _$s11SocialLayer26wolfSafariBannerPillMetricVwetTm
++ _$s11SocialLayer26wolfSafariBannerPillMetricVwst
++ _$s11SocialLayer26wolfSafariBannerPillMetricVwstTm
++ _$s11SocialLayer26wolfSafariBannerPillMetricVwta
++ _$s11SocialLayer26wolfSafariBannerPillMetricVwtaTm
++ _$s11SocialLayer26wolfSafariBannerPillMetricVwxx
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVAA06RemoteeH9ProvidingA2aEP11drawingSizeSo6CGSizeVyFTW
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVAA06RemoteeH9ProvidingA2aEP5styleSo12UISSlotStyleCvgTW
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVAA06RemoteeH9ProvidingA2aEP8maxWidth12CoreGraphics7CGFloatVvgTW
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVAA06RemoteeH9ProvidingAAMc
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVAA06RemoteeH9ProvidingAAWP
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVAA0cdeH9ProvidingA2aEP14avatarDiameter12CoreGraphics7CGFloatVvgTW
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVAA0cdeH9ProvidingA2aEP16avatarLabelSpace12CoreGraphics7CGFloatVvgTW
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVAA0cdeH9ProvidingA2aEP18titleSubtitleSpace12CoreGraphics7CGFloatVvgTW
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVAA0cdeH9ProvidingA2aEP22placeholderGlyphConfigSo27SLDImageSymbolConfigurationCvgTW
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVAA0cdeH9ProvidingA2aEP23placeholderGlyphMinSizeSo6CGSizeVvgTW
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVAA0cdeH9ProvidingA2aEP8baseFontSo9CTFontRefaSgvgTW
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVAA0cdeH9ProvidingAAMc
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVAA0cdeH9ProvidingAAWP
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVMF
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVMXX
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVMa
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVMf
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVMn
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVWV
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVwCP
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVwca
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVwcp
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVwet
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVwst
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVwta
++ _$s11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLVwxx
++ __CFRSCompatible
++ ___107-[SLDShareableContentService fetchShareableContentMetadataFromBundleIdentifier:sceneIdentifier:completion:]_block_invoke
++ ___107-[SLDShareableContentService fetchShareableContentMetadataFromBundleIdentifier:sceneIdentifier:completion:]_block_invoke.78
++ ___107-[SLDShareableContentService fetchShareableContentMetadataFromBundleIdentifier:sceneIdentifier:completion:]_block_invoke.78.cold.1
++ ___107-[SLDShareableContentService fetchShareableContentMetadataFromBundleIdentifier:sceneIdentifier:completion:]_block_invoke.cold.1
++ ___107-[SLDShareableContentService fetchShareableContentMetadataFromBundleIdentifier:sceneIdentifier:completion:]_block_invoke.cold.2
++ ___114-[SLDShareableContentService retrieveShareableContentMetadataMatchingBundleIdentifier:sceneIdentifier:completion:]_block_invoke.82
++ ___114-[SLDShareableContentService retrieveShareableContentMetadataMatchingBundleIdentifier:sceneIdentifier:completion:]_block_invoke.84
++ ___114-[SLDShareableContentService retrieveShareableContentMetadataMatchingBundleIdentifier:sceneIdentifier:completion:]_block_invoke.93
++ ___114-[SLDShareableContentService retrieveShareableContentMetadataMatchingBundleIdentifier:sceneIdentifier:completion:]_block_invoke_2.85
++ ___93-[SLDFaceTimeService initiateTUConversationForAttributionIdentifier:videoEnabled:completion:]_block_invoke.98
++ ___93-[SLDFaceTimeService initiateTUConversationForAttributionIdentifier:videoEnabled:completion:]_block_invoke.98.cold.1
++ ___96-[SLDShareableContentService shareCollaborationData:faceTimeConversationUUID:completionHandler:]_block_invoke.113
++ ___block_descriptor_40_e8_32bs_e48_v24?0"SLShareableContentMetadata"8"NSError"16ls32l8
++ ___block_descriptor_56_e8_32s40s48bs_e67_v24?0"SLFetchShareableContentMetadataActionResponse"8"NSError"16ls32l8s48l8s40l8
++ ___block_literal_global.101
++ _objc_msgSend$fetchShareableContentMetadataFromBundleIdentifier:sceneIdentifier:completion:
++ _objc_msgSend$getBytes:range:
++ _objc_msgSend$minViableSizeWithDisplayScale:RTL:darkMode:
++ _symbolic _____ 11SocialLayer26wolfSafariBannerPillMetricV
++ _symbolic _____ 11SocialLayer46CollaborationAttributionViewCompactWolfMetrics33_7A1E2A6E1127C7C0B9C39195EE6C007BLLV
+- -[SLDFaceTimeService initiateTUConversationForAttributionIdentifier:videoEnabled:completion:].cold.2
+- -[SLDFaceTimeService initiateTUConversationForAttributionIdentifier:videoEnabled:completion:].cold.3
+- GCC_except_table17
+- _$s11SocialLayer11PillMetricsC18metricsPlaceholder33_00C2B47D0280335DFFDBB3BC8927527ALL3for7variantAA09HighlightC13MetricVariantAELL_pSo12UISSlotStyleC_So011SLHighlightcoP0VtFZ
+- _$s11SocialLayer13MacPillMetricVAA09HighlightdE7Variant33_00C2B47D0280335DFFDBB3BC8927527ALLA2adELLP28overlappedAvatarVisibleWidth12CoreGraphics7CGFloatVvgTWTm
+- _$s11SocialLayer20wolfNewPPMPillMetricVwcaTm
+- _$s11SocialLayer20wolfNewPPMPillMetricVwcpTm
+- _$s11SocialLayer20wolfNewPPMPillMetricVwetTm
+- _$s11SocialLayer20wolfNewPPMPillMetricVwstTm
+- _$s11SocialLayer20wolfNewPPMPillMetricVwtaTm
+- _SLDWolfNewPPMScaledValue
+- ___114-[SLDShareableContentService retrieveShareableContentMetadataMatchingBundleIdentifier:sceneIdentifier:completion:]_block_invoke.78
+- ___114-[SLDShareableContentService retrieveShareableContentMetadataMatchingBundleIdentifier:sceneIdentifier:completion:]_block_invoke.81
+- ___114-[SLDShareableContentService retrieveShareableContentMetadataMatchingBundleIdentifier:sceneIdentifier:completion:]_block_invoke.81.cold.1
+- ___114-[SLDShareableContentService retrieveShareableContentMetadataMatchingBundleIdentifier:sceneIdentifier:completion:]_block_invoke.91
+- ___114-[SLDShareableContentService retrieveShareableContentMetadataMatchingBundleIdentifier:sceneIdentifier:completion:]_block_invoke_2.80
+- ___114-[SLDShareableContentService retrieveShareableContentMetadataMatchingBundleIdentifier:sceneIdentifier:completion:]_block_invoke_2.80.cold.1
+- ___114-[SLDShareableContentService retrieveShareableContentMetadataMatchingBundleIdentifier:sceneIdentifier:completion:]_block_invoke_2.80.cold.2
+- ___96-[SLDShareableContentService shareCollaborationData:faceTimeConversationUUID:completionHandler:]_block_invoke.111
+- ___block_descriptor_56_e8_32s40bs48w_e67_v24?0"SLFetchShareableContentMetadataActionResponse"8"NSError"16ls32l8s40l8w48l8
+- ___block_literal_global.100
+CStrings:
++ "Fetching shareable content from bundle identifier: %@ scene identifier: %@"
++ "[%p] _acquireSandboxHandleData: acquired a new handle: %lld for file: %@"
++ "[%p] _acquireSandboxHandleData: acquired a new handle: %llu for file: %@"
++ "[%p] _acquireSandboxHandleData: acquired a sandbox handle for a file (%@), but could not find a valid FPItem for that file. This file\u00a0might not be managed by a FileProvider. Releasing sandbox handle. FileProvider error: %@"
++ "[%p] _acquireSandboxHandleData: acquired a sandbox handle for a file (%@), but the xpc connection (%@) does not have permission to access the file. Releasing sandbox handle."
++ "[%p] _acquireSandboxHandleData: failed to consume sandbox token for file: %@"
++ "[%p] _acquireSandboxHandleData: sandbox token for file (%@) was not null-terminated."
++ "[%p] _acquireSandboxHandleData: tokenData for file (%@) was empty."
++ "[%p] _releaseSandboxHandle: released handle: %lld"
++ "[%p] _releaseSandboxHandle: unable to release sandbox extension handle: %lld. Sandbox extensions are a limited resource and this should be investigated!"
++ "fetchShareableContentMetadataFromBundleIdentifier:sceneIdentifier:completion:"
++ "getBytes:range:"
++ "minViableSizeWithVariant:displayScale:RTL:darkMode:"
++ "q48@0:8@16@24@32^@40"
++ "v24@?0@\"SLShareableContentMetadata\"8@\"NSError\"16"
++ "{CGSize=dd}40@0:8q16d24B32B36"
+- "Q48@0:8@16@24@32^@40"
+- "[%p] _acquireSandboxHandleForData: acquired a new handle: %llu for file: %@"
+- "[%p] _acquireSandboxHandleForData: acquired a sandbox handle for a file (%@), but could not find a valid FPItem for that file. This file\u00a0might not be managed by a FileProvider. Releasing sandbox handle. FileProvider error: %@"
+- "[%p] _acquireSandboxHandleForData: acquired a sandbox handle for a file (%@), but the xpc connection (%@) does not have permission to access the file. Releasing sandbox handle."
+- "[%p] _acquireSandboxHandleForData: failed to consume sandbox token for file: %@"
+- "[%p] _releaseSandboxHandle: released handle: %llu"
+- "[%p] _releaseSandboxHandle: unable to release sandbox extension handle: %llu. Sandbox extensions are a limited resource and this should be investigated!"
+
+```

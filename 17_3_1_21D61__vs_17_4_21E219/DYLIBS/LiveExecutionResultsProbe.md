@@ -1,0 +1,198 @@
+## LiveExecutionResultsProbe
+
+> `/System/Library/PrivateFrameworks/LiveExecutionResultsProbe.framework/LiveExecutionResultsProbe`
+
+```diff
+
+-15.0.0.0.0
+-  __TEXT.__text: 0xf2dc
+-  __TEXT.__auth_stubs: 0xb30
+-  __TEXT.__const: 0xee8
+-  __TEXT.__cstring: 0x7ce
+-  __TEXT.__constg_swiftt: 0x52c
+-  __TEXT.__swift5_typeref: 0x56b
++104.0.0.0.0
++  __TEXT.__text: 0x10e20
++  __TEXT.__auth_stubs: 0xba0
++  __TEXT.__const: 0x104c
++  __TEXT.__cstring: 0xa2e
++  __TEXT.__constg_swiftt: 0x4a0
++  __TEXT.__swift5_typeref: 0x423
+   __TEXT.__swift5_reflstr: 0x497
+-  __TEXT.__swift5_fieldmd: 0x488
+-  __TEXT.__swift5_assocty: 0x318
+-  __TEXT.__swift5_capture: 0x1d0
+-  __TEXT.__swift5_proto: 0xe4
+-  __TEXT.__swift5_types: 0x70
++  __TEXT.__swift5_fieldmd: 0x428
++  __TEXT.__swift5_assocty: 0x268
++  __TEXT.__swift5_capture: 0x1a4
++  __TEXT.__swift5_proto: 0xcc
++  __TEXT.__swift5_types: 0x58
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x570
+-  __TEXT.__eh_frame: 0x2d0
++  __TEXT.__unwind_info: 0x55c
++  __TEXT.__eh_frame: 0x2c8
+   __TEXT.__objc_methname: 0xa2
+-  __DATA_CONST.__got: 0x1b0
+-  __DATA_CONST.__const: 0x60
++  __DATA_CONST.__got: 0x178
++  __DATA_CONST.__const: 0x70
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x3c8
++  __DATA_CONST.__objc_const: 0x338
+   __DATA_CONST.__objc_selrefs: 0x38
+-  __AUTH_CONST.__const: 0x1310
+-  __AUTH_CONST.__auth_got: 0x598
+-  __AUTH.__data: 0x730
++  __DATA_CONST.__objc_classrefs: 0x28
++  __AUTH_CONST.__const: 0x1220
++  __AUTH_CONST.__auth_got: 0x5d0
++  __AUTH.__data: 0x4d0
+   __AUTH.__objc_data: 0xa0
+-  __DATA.__objc_classrefs: 0x28
+-  __DATA.__data: 0x558
+-  __DATA.__common: 0x18
+-  __DATA.__bss: 0x1700
++  __DATA.__objc_data: 0x90
++  __DATA.__data: 0x5c0
++  __DATA.__common: 0x28
++  __DATA.__bss: 0x1980
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/LiveExecutionResultsFoundation.framework/LiveExecutionResultsFoundation
+   - /System/Library/PrivateFrameworks/LiveExecutionResultsRuntime.framework/LiveExecutionResultsRuntime
+-  - /System/Library/PrivateFrameworks/PreviewsFoundation.framework/PreviewsFoundation
+-  - /System/Library/PrivateFrameworks/PreviewsMessaging.framework/PreviewsMessaging
++  - /System/Library/PrivateFrameworks/PreviewsFoundationOS.framework/PreviewsFoundationOS
++  - /System/Library/PrivateFrameworks/PreviewsMessagingOS.framework/PreviewsMessagingOS
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1256934C-3527-3BE4-99FA-49CD76204DF5
+-  Functions: 531
+-  Symbols:   292
+-  CStrings:  61
++  UUID: AFEE2BC9-F835-3AD2-8AB3-F2CD3DCEA34A
++  Functions: 525
++  Symbols:   278
++  CStrings:  74
+ 
+Symbols:
++ __swift_FORCE_LOAD_$_swiftMetal
++ __swift_FORCE_LOAD_$_swiftMetal_$_LiveExecutionResultsProbe
++ __swift_FORCE_LOAD_$_swiftQuartzCore
++ __swift_FORCE_LOAD_$_swiftQuartzCore_$_LiveExecutionResultsProbe
++ _associated conformance 25LiveExecutionResultsProbe016PlaygroundLoggerD28PointConfiguration_TransportV20PreviewsFoundationOS25PropertyListRepresentableAA0mN5ValueAdEP_AD0mN4Type
++ _associated conformance 25LiveExecutionResultsProbe016PlaygroundLoggerD5PointCAA0dG8ProtocolAA0D6SampleAaDP_20PreviewsFoundationOS25PropertyListRepresentable
++ _associated conformance 25LiveExecutionResultsProbe016PlaygroundLoggerD5PointCAA0dG8ProtocolAA0dG13ConfigurationAaDP_20PreviewsFoundationOS25PropertyListRepresentable
++ _associated conformance 25LiveExecutionResultsProbe07LoggingD28PointConfiguration_TransportV10LogSourcesV20PreviewsFoundationOS25PropertyListRepresentableAA0nO5ValueAfGP_AF0nO4Type
++ _associated conformance 25LiveExecutionResultsProbe07LoggingD28PointConfiguration_TransportV20PreviewsFoundationOS25PropertyListRepresentableAA0lM5ValueAdEP_AD0lM4Type
++ _associated conformance 25LiveExecutionResultsProbe07LoggingD5PointCAA0dF8ProtocolAA0D6SampleAaDP_20PreviewsFoundationOS25PropertyListRepresentable
++ _associated conformance 25LiveExecutionResultsProbe07LoggingD5PointCAA0dF8ProtocolAA0dF13ConfigurationAaDP_20PreviewsFoundationOS25PropertyListRepresentable
++ _associated conformance 25LiveExecutionResultsProbe21PrintSample_TransportV20PreviewsFoundationOS25PropertyListRepresentableAA0kL5ValueAdEP_AD0kL4Type
++ _associated conformance 25LiveExecutionResultsProbe21PrintSample_TransportV9LogSourceO20PreviewsFoundationOS25PropertyListRepresentableAA0mN5ValueAfGP_AF0mN4Type
++ _associated conformance 25LiveExecutionResultsProbe24SourceLocation_TransportV20PreviewsFoundationOS25PropertyListRepresentableAA0kL5ValueAdEP_AD0kL4Type
++ _associated conformance 25LiveExecutionResultsProbe28SourceLocationInfo_TransportO12Discriminant33_CC8365B7E95A522F284AA9FBD2F121C2LLO20PreviewsFoundationOS25PropertyListRepresentableAA0vW5ValueAgHP_AG0vW4Type
++ _associated conformance 25LiveExecutionResultsProbe28SourceLocationInfo_TransportO20PreviewsFoundationOS25PropertyListRepresentableAA0lM5ValueAdEP_AD0lM4Type
++ _associated conformance 25LiveExecutionResultsProbe32PlaygroundLoggerSample_TransportV20PreviewsFoundationOS25PropertyListRepresentableAA0lM5ValueAdEP_AD0lM4Type
++ _associated conformance 25LiveExecutionResultsProbe38SourceLocationCollectionMode_TransportO20PreviewsFoundationOS25PropertyListRepresentableAA0mN5ValueAdEP_AD0mN4Type
++ _block_copy_helper.20
++ _block_copy_helper.26
++ _block_descriptor.22
++ _block_descriptor.28
++ _block_destroy_helper.21
++ _block_destroy_helper.27
++ _objc_retain_x25
++ _objectdestroy.6Tm
++ _symbolic $s20PreviewsFoundationOS25PropertyListRepresentableP
++ _symbolic 11ProbeSample_____Qz 25LiveExecutionResultsProbe0D13PointProtocolP
++ _symbolic 23ProbePointConfiguration_____Qz 25LiveExecutionResultsProbe0D13PointProtocolP
++ _symbolic _____ 20PreviewsFoundationOS10IdentifierV
++ _symbolic _____ 20PreviewsFoundationOS12PropertyListV
++ _symbolic _____Sg 19PreviewsMessagingOS13MessageStreamV9ResponderV
++ _symbolic _____Sg 20PreviewsFoundationOS10IdentifierV
++ _symbolic _____Sg_ABt 20PreviewsFoundationOS10IdentifierV
++ _symbolic _____y_11ProbeSample_____QzG 19PreviewsMessagingOS13MessageStreamV6SenderV 25LiveExecutionResultsProbe0J13PointProtocolP
++ _symbolic y11ProbeSample_____QzcSg 25LiveExecutionResultsProbe0D13PointProtocolP
+- _associated conformance 25LiveExecutionResultsProbe016PlaygroundLoggerD28PointConfiguration_TransportV18PreviewsFoundation25PropertyListRepresentableAA01_lM4TypeAdEP_AD0lmO0
+- _associated conformance 25LiveExecutionResultsProbe016PlaygroundLoggerD5PointCAA0dG8ProtocolAA9InterfaceAaDP_17PreviewsMessaging013MessageStreamI0
+- _associated conformance 25LiveExecutionResultsProbe07LoggingC9InterfaceV17PreviewsMessaging013MessageStreamF0AA4SentAdEP_AD0iJ5Event
+- _associated conformance 25LiveExecutionResultsProbe07LoggingC9InterfaceV17PreviewsMessaging013MessageStreamF0AA8ReceivedAdEP_AD0iJ5Event
+- _associated conformance 25LiveExecutionResultsProbe07LoggingC9InterfaceV4SentV17PreviewsMessaging18MessageStreamEventAA0J0AfGP_0H10Foundation25PropertyListRepresentable
+- _associated conformance 25LiveExecutionResultsProbe07LoggingC9InterfaceV4SentV17PreviewsMessaging18MessageStreamEventAA5ReplyAfGP_0H10Foundation25PropertyListRepresentable
+- _associated conformance 25LiveExecutionResultsProbe07LoggingC9InterfaceV8ReceivedV17PreviewsMessaging18MessageStreamEventAA0J0AfGP_0H10Foundation25PropertyListRepresentable
+- _associated conformance 25LiveExecutionResultsProbe07LoggingC9InterfaceV8ReceivedV17PreviewsMessaging18MessageStreamEventAA5ReplyAfGP_0H10Foundation25PropertyListRepresentable
+- _associated conformance 25LiveExecutionResultsProbe07LoggingD28PointConfiguration_TransportV10LogSourcesV18PreviewsFoundation25PropertyListRepresentableAA01_mN4TypeAfGP_AF0mnP0
+- _associated conformance 25LiveExecutionResultsProbe07LoggingD28PointConfiguration_TransportV18PreviewsFoundation25PropertyListRepresentableAA01_kL4TypeAdEP_AD0klN0
+- _associated conformance 25LiveExecutionResultsProbe07LoggingD5PointCAA0dF8ProtocolAA9InterfaceAaDP_17PreviewsMessaging013MessageStreamH0
+- _associated conformance 25LiveExecutionResultsProbe0bC9InterfaceV17PreviewsMessaging013MessageStreamE0AA4SentAdEP_AD0hI5Event
+- _associated conformance 25LiveExecutionResultsProbe0bC9InterfaceV17PreviewsMessaging013MessageStreamE0AA8ReceivedAdEP_AD0hI5Event
+- _associated conformance 25LiveExecutionResultsProbe0bC9InterfaceV4SentV17PreviewsMessaging18MessageStreamEventAA0I0AfGP_0G10Foundation25PropertyListRepresentable
+- _associated conformance 25LiveExecutionResultsProbe0bC9InterfaceV4SentV17PreviewsMessaging18MessageStreamEventAA5ReplyAfGP_0G10Foundation25PropertyListRepresentable
+- _associated conformance 25LiveExecutionResultsProbe0bC9InterfaceV8ReceivedV17PreviewsMessaging18MessageStreamEventAA0I0AfGP_0G10Foundation25PropertyListRepresentable
+- _associated conformance 25LiveExecutionResultsProbe0bC9InterfaceV8ReceivedV17PreviewsMessaging18MessageStreamEventAA5ReplyAfGP_0G10Foundation25PropertyListRepresentable
+- _associated conformance 25LiveExecutionResultsProbe21PrintSample_TransportV18PreviewsFoundation25PropertyListRepresentableAA01_jK4TypeAdEP_AD0jkM0
+- _associated conformance 25LiveExecutionResultsProbe21PrintSample_TransportV9LogSourceO18PreviewsFoundation25PropertyListRepresentableAA01_lM4TypeAfGP_AF0lmO0
+- _associated conformance 25LiveExecutionResultsProbe24SourceLocation_TransportV18PreviewsFoundation25PropertyListRepresentableAA01_jK4TypeAdEP_AD0jkM0
+- _associated conformance 25LiveExecutionResultsProbe28SourceLocationInfo_TransportO12Discriminant33_CC8365B7E95A522F284AA9FBD2F121C2LLO18PreviewsFoundation25PropertyListRepresentableAA01_uV4TypeAgHP_AG0uvX0
+- _associated conformance 25LiveExecutionResultsProbe28SourceLocationInfo_TransportO18PreviewsFoundation25PropertyListRepresentableAA01_kL4TypeAdEP_AD0klN0
+- _associated conformance 25LiveExecutionResultsProbe32PlaygroundLoggerSample_TransportV18PreviewsFoundation25PropertyListRepresentableAA01_kL4TypeAdEP_AD0klN0
+- _associated conformance 25LiveExecutionResultsProbe38SourceLocationCollectionMode_TransportO18PreviewsFoundation25PropertyListRepresentableAA01_lM4TypeAdEP_AD0lmO0
+- _block_copy_helper.22
+- _block_copy_helper.28
+- _block_descriptor.24
+- _block_descriptor.30
+- _block_destroy_helper.23
+- _block_destroy_helper.29
+- _objc_release_x23
+- _objc_release_x24
+- _objc_retain_x21
+- _objc_retain_x27
+- _swift_getEnumCaseMultiPayload
+- _symbolic $s17PreviewsMessaging18MessageStreamEventP
+- _symbolic $s17PreviewsMessaging22MessageStreamInterfaceP
+- _symbolic $s18PreviewsFoundation25PropertyListRepresentableP
+- _symbolic 9Interface_____Qz 25LiveExecutionResultsProbe0D13PointProtocolP
+- _symbolic 9Interface______4Sent_____7Message_____QZ_____yAaB_AcD5ReplyAFQZ______pGytIegnr_SgytIegnnr_ 25LiveExecutionResultsProbe0D13PointProtocolP 17PreviewsMessaging22MessageStreamInterfaceP AD0iJ5EventP s6ResultO s5ErrorP
+- _symbolic _____ 18PreviewsFoundation10IdentifierV
+- _symbolic _____ 18PreviewsFoundation12PropertyListV
+- _symbolic _____ 25LiveExecutionResultsProbe07LoggingC9InterfaceV
+- _symbolic _____ 25LiveExecutionResultsProbe07LoggingC9InterfaceV4SentV
+- _symbolic _____ 25LiveExecutionResultsProbe07LoggingC9InterfaceV8ReceivedV
+- _symbolic _____ 25LiveExecutionResultsProbe0bC9InterfaceV
+- _symbolic _____ 25LiveExecutionResultsProbe0bC9InterfaceV4SentV
+- _symbolic _____ 25LiveExecutionResultsProbe0bC9InterfaceV8ReceivedV
+- _symbolic _____Sg 18PreviewsFoundation10IdentifierV
+- _symbolic _____y9Interface______4Sent_____5Reply_____QZ______pGIegn_ s6ResultO 25LiveExecutionResultsProbe0E13PointProtocolP 17PreviewsMessaging22MessageStreamInterfaceP AF0jK5EventP s5ErrorP
+- _symbolic y9Interface______4Sent_____7Message_____QZ_y_____yAaB_AcD5ReplyAFQZ______pGcSgtcSg 25LiveExecutionResultsProbe0D13PointProtocolP 17PreviewsMessaging22MessageStreamInterfaceP AD0iJ5EventP s6ResultO s5ErrorP
+CStrings:
++ "Fatal error"
++ "Insufficient space allocated to copy string contents"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "invalid Collection: less than 'count' elements in collection"
+- "Error: Failed to send probe sample: %{public}s"
+
+```

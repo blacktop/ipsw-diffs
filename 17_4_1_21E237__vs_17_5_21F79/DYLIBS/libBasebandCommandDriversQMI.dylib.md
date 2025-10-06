@@ -1,0 +1,45 @@
+## libBasebandCommandDriversQMI.dylib
+
+> `/usr/lib/libBasebandCommandDriversQMI.dylib`
+
+```diff
+
+-1006.0.0.0.0
++1053.0.0.0.0
+   __TEXT.__text: 0x10e16c
+   __TEXT.__auth_stubs: 0x1820
+   __TEXT.__init_offsets: 0x8
+
+   __TEXT.__gcc_except_tab: 0x15a0c
+   __TEXT.__cstring: 0x3df3
+   __TEXT.__oslogstring: 0x26bb
+-  __TEXT.__unwind_info: 0x78a4
++  __TEXT.__unwind_info: 0x7884
+   __TEXT.__eh_frame: 0x38
+   __DATA_CONST.__got: 0x9c8
+   __DATA_CONST.__const: 0x3a58
+
+   __AUTH_CONST.__cfstring: 0x20
+   __AUTH_CONST.__auth_got: 0xc18
+   __DATA.__got_weak: 0x1e8
+-  __DATA.__data: 0x128
+-  __DATA_DIRTY.__data: 0xb0
++  __DATA.__data: 0x1c8
++  __DATA_DIRTY.__data: 0x10
+   __DATA_DIRTY.__bss: 0x120
+   __DATA_DIRTY.__common: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 449E50DB-243F-3EB5-AC27-00222A368C36
++  UUID: BAD60F68-98FB-3339-9B23-BCEB0CE0592D
+   Functions: 5650
+   Symbols:   13306
+   CStrings:  1035
+CStrings:
++ "AppleBasebandManager-AppleBasebandServices_Manager-1053"
+- "AppleBasebandManager-AppleBasebandServices_Manager-1006"
+
+```

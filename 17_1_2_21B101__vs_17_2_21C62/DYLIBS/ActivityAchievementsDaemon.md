@@ -1,0 +1,22 @@
+## ActivityAchievementsDaemon
+
+> `/System/Library/PrivateFrameworks/ActivityAchievementsDaemon.framework/ActivityAchievementsDaemon`
+
+```diff
+
+-572.3.0.0.0
++573.2.0.0.0
+   __TEXT.__text: 0x7bd38
+   __TEXT.__auth_stubs: 0x1120
+   __TEXT.__objc_methlist: 0x6594
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 21408B00-AA5F-3783-8EC8-2A7E4304D2F3
++  UUID: 0E4C64E7-6EDC-3379-B14E-734F1A935C22
+   Functions: 3117
+   Symbols:   10489
+   CStrings:  4488
+
+```

@@ -1,0 +1,184 @@
+## NewsLiveActivitiesCore
+
+> `/System/Library/PrivateFrameworks/NewsLiveActivitiesCore.framework/NewsLiveActivitiesCore`
+
+```diff
+
+-5325.6.0.0.0
+-  __TEXT.__text: 0x45212c
++5345.2.0.0.0
++  __TEXT.__text: 0x444400
+   __TEXT.__auth_stubs: 0x32c0
+   __TEXT.__objc_methlist: 0x40
+-  __TEXT.__const: 0x116d0
+-  __TEXT.__cstring: 0x459e
+-  __TEXT.__swift5_typeref: 0x34c8
++  __TEXT.__const: 0x11780
++  __TEXT.__cstring: 0x494e
++  __TEXT.__swift5_typeref: 0x34d8
+   __TEXT.__swift5_fieldmd: 0x4128
+   __TEXT.__constg_swiftt: 0x4180
+   __TEXT.__swift5_builtin: 0x168
+-  __TEXT.__swift5_reflstr: 0x272f
++  __TEXT.__swift5_reflstr: 0x271f
+   __TEXT.__swift5_assocty: 0xd38
+   __TEXT.__swift5_protos: 0x68
+   __TEXT.__swift5_proto: 0x1050
+   __TEXT.__swift5_types: 0x508
+   __TEXT.__swift5_capture: 0x694
+   __TEXT.__swift5_mpenum: 0xb0
+-  __TEXT.__unwind_info: 0x80c0
+-  __TEXT.__eh_frame: 0x87f4
++  __TEXT.__unwind_info: 0x81fc
++  __TEXT.__eh_frame: 0x88f4
+   __TEXT.__objc_classname: 0x53
+-  __TEXT.__objc_methname: 0x917
++  __TEXT.__objc_methname: 0x953
+   __TEXT.__objc_methtype: 0x2cd
+-  __DATA_CONST.__got: 0xb68
+-  __DATA_CONST.__const: 0x230
++  __DATA_CONST.__got: 0xb60
++  __DATA_CONST.__const: 0x248
+   __DATA_CONST.__objc_classlist: 0x98
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x1738
+   __DATA_CONST.__objc_selrefs: 0x110
++  __DATA_CONST.__objc_protorefs: 0x20
++  __DATA_CONST.__objc_classrefs: 0x68
+   __AUTH_CONST.__const: 0xc7b0
+   __AUTH_CONST.__objc_const: 0x40
+   __AUTH_CONST.__auth_got: 0x1960
+-  __AUTH.__data: 0x3b28
+-  __AUTH.__objc_data: 0xc0
+-  __DATA.__objc_protorefs: 0x20
+-  __DATA.__objc_classrefs: 0x68
+-  __DATA.__data: 0x6fb8
+-  __DATA.__bss: 0x20ae0
+-  __DATA.__common: 0x209
++  __AUTH.__data: 0x28f0
++  __AUTH.__objc_data: 0x48
++  __DATA.__data: 0x6998
++  __DATA.__bss: 0x1f970
++  __DATA.__common: 0x1e1
++  __DATA_DIRTY.__objc_data: 0x78
++  __DATA_DIRTY.__data: 0x1810
++  __DATA_DIRTY.__bss: 0x1180
++  __DATA_DIRTY.__common: 0x18
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 20255DD8-83DE-3D9C-9DFF-AB923A42AF43
+-  Functions: 11060
+-  Symbols:   1631
+-  CStrings:  529
++  UUID: 8EA9A1DF-917B-3CDA-9EE0-04A4E393E2DF
++  Functions: 11104
++  Symbols:   1636
++  CStrings:  552
+ 
+Symbols:
++ ___unnamed_11
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_NewsLiveActivitiesCore
++ _get_witness_table 22NewsLiveActivitiesCore0A20DynamicIslandContentRzl7SwiftUI08ModifiedG0Vy14CompactLeadingQzAC30_EnvironmentKeyWritingModifierVyAA9PlacementOGGAC4ViewHPxAaBHD1_AgcNHA1__AlC0rP0HPyHCHC.6
++ _get_witness_table 22NewsLiveActivitiesCore0A20DynamicIslandContentRzl7SwiftUI08ModifiedG0Vy14ExpandedBottomQzAC30_EnvironmentKeyWritingModifierVyAA9PlacementOGGAC4ViewHPxAaBHD1_AgcNHA3__AlC0rP0HPyHCHC.4
++ _get_witness_table 22NewsLiveActivitiesCore0A20DynamicIslandContentRzl7SwiftUI08ModifiedG0Vy15CompactTrailingQzAC30_EnvironmentKeyWritingModifierVyAA9PlacementOGGAC4ViewHPxAaBHD1_AgcNHA2__AlC0rP0HPyHCHC.5
++ _get_witness_table 22NewsLiveActivitiesCore0A20DynamicIslandContentRzl7SwiftUI08ModifiedG0Vy15ExpandedLeadingQzAC30_EnvironmentKeyWritingModifierVyAA9PlacementOGGAC4ViewHPxAaBHD1_AgcNHA4__AlC0rP0HPyHCHC.3
++ _get_witness_table 22NewsLiveActivitiesCore0A20DynamicIslandContentRzl7SwiftUI08ModifiedG0Vy16ExpandedTrailingQzAC30_EnvironmentKeyWritingModifierVyAA9PlacementOGGAC4ViewHPxAaBHD1_AgcNHA5__AlC0rP0HPyHCHC.2
++ _get_witness_table 22NewsLiveActivitiesCore0A20DynamicIslandContentRzl7SwiftUI08ModifiedG0Vy7MinimalQzAC30_EnvironmentKeyWritingModifierVyAA9PlacementOGGAC4ViewHPxAaBHD1_AgcNHA6__AlC0qO0HPyHCHC.1
++ _get_witness_table 22NewsLiveActivitiesCore19ActivityMinimalViewV7SwiftUI0G0HPyHC.12
++ _get_witness_table 22NewsLiveActivitiesCore19ActivityMinimalViewV7SwiftUI0G0HPyHC.14
++ _get_witness_table 22NewsLiveActivitiesCore32PrimaryElectionCandidateGridViewV7SwiftUI0I0HPyHC.7
++ _get_witness_table 22NewsLiveActivitiesCore33ActivityHeaderExpandedLeadingViewV7SwiftUI0I0HPyHC.6
++ _get_witness_table 22NewsLiveActivitiesCore34ActivityHeaderExpandedTrailingViewV7SwiftUI0I0HPyHC.5
++ _get_witness_table 7SwiftUI15ModifiedContentVy22NewsLiveActivitiesCore19ActivityMinimalViewVAA31AccessibilityAttachmentModifierVGAA0K0HPAfaJHPyHC_AhA0kN0HPyHCHC.8
++ _get_witness_table 7SwiftUI15ModifiedContentVy22NewsLiveActivitiesCore36PresidentialCandidateResultStackViewVAD011Synchronizej15ImageVisibilityM8Modifier33_F032CBD286BDD14171B25BD42C44CEC7LLVGAA0M0HPAfaKHPyHC_AiA0mQ0HPyHCHC.15
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOy22NewsLiveActivitiesCore015ActivityMinimalE0V_Qo_AA0I18AttachmentModifierVGAaDHPqd__AaDHD2_AMHO_AoA0eS0HPyHCHC.4
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGGAA4ViewHPAeaLHPyHC_AjA0jH0HPyHCHC.4
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVy22NewsLiveActivitiesCore28NationalElectionCompactViewsV0M15EntityThumbnailV_ACyAJ14LargeVoteCountVAA24_ForegroundStyleModifierVyAH12ActivityFillOGGtGGAH035SynchronizeCandidateImageVisibilitygW033_F032CBD286BDD14171B25BD42C44CEC7LLVGAA0G0HPAvAA_HPyHC_AyA0gW0HPyHCHC.18
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyACy22NewsLiveActivitiesCore28NationalElectionCompactViewsV14LargeVoteCountVAA24_ForegroundStyleModifierVyAH12ActivityFillOGG_AJ0M15EntityThumbnailVtGGAH035SynchronizeCandidateImageVisibilitygU033_F032CBD286BDD14171B25BD42C44CEC7LLVGAA0G0HPAvAA_HPyHC_AyA0gU0HPyHCHC.17
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6VStackVyAA9TupleViewVyAEyAGyACy22NewsLiveActivitiesCore12RaceBarGaugeVAA12_FrameLayoutVG_ACyAA6HStackVyAGyACyAH30NationalElectionEntityNameTextVAA24_ForegroundStyleModifierVyAH12ActivityFillOGG_AA6SpacerVAWtGGAA022_EnvironmentKeyWritingY0VyAA4FontVSgGGtGG_AGyAY_AOyAGyAH014BalanceOfPowerG0V_A10_tGGtGSgAA012_ConditionalD0VyAGyAY_ACyAH0rsv6UpdateG0VAA013_TraitWritingY0VyAA18TransitionTraitKeyVGGtGAGyACyAyLG_ACyAH0rs10HeroUpdateG0VA23_GtGGSgAYtGGAA08_PaddingP0VGAH035SynchronizeCandidateImageVisibilitygY033_F032CBD286BDD14171B25BD42C44CEC7LLVGAA0G0HPA37_AAA42_HPA34_AAA42_HPyHC_A36_AA0gY0HPyHCHC_A40_AAA43_HPyHCHC.16
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACy22NewsLiveActivitiesCore17ActivityAssetViewVAA12_FrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA5ImageV5ScaleOGGAA012_AspectRatioM0VGAA08_OverlayQ0VyACyAiKyAA4FontVSgGGSgGGAA0K0HPAtAA3_HPAqAA3_HPAiAA3_HPAfAA3_HPyHC_AhA0kQ0HPyHCHC_ApAA4_HPyHCHC_AsAA4_HPyHCHC_A1_AAA4_HPyHCHC.9
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAIy12CoreGraphics7CGFloatVGG018NewsLiveActivitiesK019ActivityMinimalViewVGAA0S0HPAqaVHPAlaVHPAgaVHPyHC_AkA0sJ0HPyHCHC_ApaWHPyHCHC_AtaVHPyHCHC.13
++ _get_witness_table 7SwiftUI4TextVAA4ViewHPyHC.6
++ _get_witness_table 7SwiftUI5ColorVAA4ViewHPyHC.5
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA6SpacerV_22NewsLiveActivitiesCore0h8BlogBodyE0VAGtGGAA0E0HPyHC.14
++ _get_witness_table 7SwiftUI9EmptyViewVAA0D0HPyHC.5
++ _get_witness_table 7SwiftUI9EmptyViewVAA0D0HPyHC.6
++ _get_witness_table SyRzlSSSyHPyHC.18
++ _objc_retain_x26
++ _objectdestroy.53Tm
+- ___unnamed_15
+- _get_witness_table 22NewsLiveActivitiesCore0A20DynamicIslandContentRzl7SwiftUI08ModifiedG0Vy14CompactLeadingQzAC30_EnvironmentKeyWritingModifierVyAA9PlacementOGGAC4ViewHPxAaBHD1_AgcNHA1__AlC0rP0HPyHCHC.17
+- _get_witness_table 22NewsLiveActivitiesCore0A20DynamicIslandContentRzl7SwiftUI08ModifiedG0Vy14ExpandedBottomQzAC30_EnvironmentKeyWritingModifierVyAA9PlacementOGGAC4ViewHPxAaBHD1_AgcNHA3__AlC0rP0HPyHCHC.15
+- _get_witness_table 22NewsLiveActivitiesCore0A20DynamicIslandContentRzl7SwiftUI08ModifiedG0Vy15CompactTrailingQzAC30_EnvironmentKeyWritingModifierVyAA9PlacementOGGAC4ViewHPxAaBHD1_AgcNHA2__AlC0rP0HPyHCHC.16
+- _get_witness_table 22NewsLiveActivitiesCore0A20DynamicIslandContentRzl7SwiftUI08ModifiedG0Vy15ExpandedLeadingQzAC30_EnvironmentKeyWritingModifierVyAA9PlacementOGGAC4ViewHPxAaBHD1_AgcNHA4__AlC0rP0HPyHCHC.14
+- _get_witness_table 22NewsLiveActivitiesCore0A20DynamicIslandContentRzl7SwiftUI08ModifiedG0Vy16ExpandedTrailingQzAC30_EnvironmentKeyWritingModifierVyAA9PlacementOGGAC4ViewHPxAaBHD1_AgcNHA5__AlC0rP0HPyHCHC.13
+- _get_witness_table 22NewsLiveActivitiesCore0A20DynamicIslandContentRzl7SwiftUI08ModifiedG0Vy7MinimalQzAC30_EnvironmentKeyWritingModifierVyAA9PlacementOGGAC4ViewHPxAaBHD1_AgcNHA6__AlC0qO0HPyHCHC.12
+- _get_witness_table 22NewsLiveActivitiesCore19ActivityMinimalViewV7SwiftUI0G0HPyHC.20
+- _get_witness_table 22NewsLiveActivitiesCore19ActivityMinimalViewV7SwiftUI0G0HPyHC.24
+- _get_witness_table 22NewsLiveActivitiesCore32PrimaryElectionCandidateGridViewV7SwiftUI0I0HPyHC.17
+- _get_witness_table 22NewsLiveActivitiesCore33ActivityHeaderExpandedLeadingViewV7SwiftUI0I0HPyHC.16
+- _get_witness_table 22NewsLiveActivitiesCore34ActivityHeaderExpandedTrailingViewV7SwiftUI0I0HPyHC.15
+- _get_witness_table 7SwiftUI15ModifiedContentVy22NewsLiveActivitiesCore19ActivityMinimalViewVAA31AccessibilityAttachmentModifierVGAA0K0HPAfaJHPyHC_AhA0kN0HPyHCHC.18
+- _get_witness_table 7SwiftUI15ModifiedContentVy22NewsLiveActivitiesCore36PresidentialCandidateResultStackViewVAD011Synchronizej15ImageVisibilityM8Modifier33_F032CBD286BDD14171B25BD42C44CEC7LLVGAA0M0HPAfaKHPyHC_AiA0mQ0HPyHCHC.25
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOy22NewsLiveActivitiesCore015ActivityMinimalE0V_Qo_AA0I18AttachmentModifierVGAaDHPqd__AaDHD2_AMHO_AoA0eS0HPyHCHC.14
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGGAA4ViewHPAeaLHPyHC_AjA0jH0HPyHCHC.12
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVy22NewsLiveActivitiesCore28NationalElectionCompactViewsV0M15EntityThumbnailV_ACyAJ14LargeVoteCountVAA24_ForegroundStyleModifierVyAH12ActivityFillOGGtGGAH035SynchronizeCandidateImageVisibilitygW033_F032CBD286BDD14171B25BD42C44CEC7LLVGAA0G0HPAvAA_HPyHC_AyA0gW0HPyHCHC.28
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyACy22NewsLiveActivitiesCore28NationalElectionCompactViewsV14LargeVoteCountVAA24_ForegroundStyleModifierVyAH12ActivityFillOGG_AJ0M15EntityThumbnailVtGGAH035SynchronizeCandidateImageVisibilitygU033_F032CBD286BDD14171B25BD42C44CEC7LLVGAA0G0HPAvAA_HPyHC_AyA0gU0HPyHCHC.27
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6VStackVyAA9TupleViewVyAEyAGyACy22NewsLiveActivitiesCore12RaceBarGaugeVAA12_FrameLayoutVG_ACyAA6HStackVyAGyACyAH30NationalElectionEntityNameTextVAA24_ForegroundStyleModifierVyAH12ActivityFillOGG_AA6SpacerVAWtGGAA022_EnvironmentKeyWritingY0VyAA4FontVSgGGtGG_AGyAY_AOyAGyAH014BalanceOfPowerG0V_A10_tGGtGSgAA012_ConditionalD0VyAGyAY_ACyAH0rsv6UpdateG0VAA013_TraitWritingY0VyAA18TransitionTraitKeyVGGtGAGyACyAyLG_ACyAH0rs10HeroUpdateG0VA23_GtGGSgAYtGGAA08_PaddingP0VGAH035SynchronizeCandidateImageVisibilitygY033_F032CBD286BDD14171B25BD42C44CEC7LLVGAA0G0HPA37_AAA42_HPA34_AAA42_HPyHC_A36_AA0gY0HPyHCHC_A40_AAA43_HPyHCHC.26
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACy22NewsLiveActivitiesCore17ActivityAssetViewVAA12_FrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA5ImageV5ScaleOGGAA012_AspectRatioM0VGAA08_OverlayQ0VyACyAiKyAA4FontVSgGGSgGGAA0K0HPAtAA3_HPAqAA3_HPAiAA3_HPAfAA3_HPyHC_AhA0kQ0HPyHCHC_ApAA4_HPyHCHC_AsAA4_HPyHCHC_A1_AAA4_HPyHCHC.6
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAIy12CoreGraphics7CGFloatVGG018NewsLiveActivitiesK019ActivityMinimalViewVGAA0S0HPAqaVHPAlaVHPAgaVHPyHC_AkA0sJ0HPyHCHC_ApaWHPyHCHC_AtaVHPyHCHC.21
+- _get_witness_table 7SwiftUI4TextVAA4ViewHPyHC.14
+- _get_witness_table 7SwiftUI5ColorVAA4ViewHPyHC.12
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA6SpacerV_22NewsLiveActivitiesCore0h8BlogBodyE0VAGtGGAA0E0HPyHC.22
+- _get_witness_table 7SwiftUI9EmptyViewVAA0D0HPyHC.13
+- _objc_retain_x2
+- _objectdestroy.58Tm
+- _swift_initStackObject
+CStrings:
++ "Can't construct Array with count < 0"
++ "Division by zero"
++ "Division results in an overflow"
++ "Insufficient space allocated to copy string contents"
++ "NewsLiveActivityAttributes"
++ "NewsLiveActivityPushPayload"
++ "Swift/Array.swift"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/IntegerTypes.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"<FCNewsAppConfiguration>\",?,R,N"
++ "T@\"<FCNewsAppConfiguration><FCJSONEncodableObjectProviding>\",?,R,N"
++ "T@\"NSArray\",?,R,N"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",?,R,C,N"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "invalid Collection: less than 'count' elements in collection"
+- "T@\"<FCNewsAppConfiguration><FCJSONEncodableObjectProviding>\",R,N"
+- "T@\"NSArray\",R,N"
+- "T@\"NSString\",R,C,N"
+
+```

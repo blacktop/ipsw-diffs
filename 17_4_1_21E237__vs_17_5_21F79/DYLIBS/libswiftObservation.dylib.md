@@ -1,0 +1,37 @@
+## libswiftObservation.dylib
+
+> `/usr/lib/swift/libswiftObservation.dylib`
+
+```diff
+
+-5.10.0.12.5
++5.10.0.12.7
+   __TEXT.__text: 0x9190
+   __TEXT.__auth_stubs: 0x3f0
+   __TEXT.__swift5_typeref: 0x1d8
+
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x148
+-  __AUTH_CONST.__const: 0x5f0
++  __AUTH_CONST.__const: 0x630
+   __AUTH_CONST.__auth_got: 0x1f8
+   __AUTH.__data: 0xa8
+   __DATA.__data: 0x18
+   __DATA.__bss: 0x300
+-  __DATA_DIRTY.__const: 0x2e0
++  __DATA_DIRTY.__const: 0x2a0
+   __DATA_DIRTY.__data: 0xf8
+   __DATA_DIRTY.__bss: 0x90
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 1B0A8915-4904-3A3B-83C2-976AB9B40829
++  UUID: 893649E9-419E-34BC-A944-63C7A4D55B30
+   Functions: 225
+   Symbols:   666
+   CStrings:  5
+
+```

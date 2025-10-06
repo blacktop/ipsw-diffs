@@ -1,0 +1,461 @@
+## RemindersUICore
+
+> `/System/Library/PrivateFrameworks/RemindersUICore.framework/RemindersUICore`
+
+```diff
+
+-2848.0.0.0.0
+-  __TEXT.__text: 0x61dd90
+-  __TEXT.__auth_stubs: 0x5ef0
+-  __TEXT.__objc_methlist: 0x1bfc
+-  __TEXT.__cstring: 0x305cf
+-  __TEXT.__const: 0x1d754
++2881.0.0.0.0
++  __TEXT.__text: 0x62ad58
++  __TEXT.__auth_stubs: 0x5fe0
++  __TEXT.__objc_methlist: 0x1c14
++  __TEXT.__cstring: 0x30b8f
++  __TEXT.__const: 0x1db34
+   __TEXT.__oslogstring: 0x421
+-  __TEXT.__swift5_typeref: 0x15258
+-  __TEXT.__constg_swiftt: 0x1213c
+-  __TEXT.__swift5_reflstr: 0xc04d
+-  __TEXT.__swift5_fieldmd: 0xe2b4
++  __TEXT.__swift5_typeref: 0x15e3e
++  __TEXT.__constg_swiftt: 0x12370
++  __TEXT.__swift5_reflstr: 0xc11d
++  __TEXT.__swift5_fieldmd: 0xe398
+   __TEXT.__swift5_builtin: 0x8ac
+-  __TEXT.__swift5_assocty: 0x1a48
+-  __TEXT.__swift5_proto: 0x1470
+-  __TEXT.__swift5_types: 0x107c
+-  __TEXT.__swift5_capture: 0x7610
++  __TEXT.__swift5_assocty: 0x1ac0
++  __TEXT.__swift5_proto: 0x1484
++  __TEXT.__swift5_types: 0x1094
++  __TEXT.__swift5_capture: 0x74fc
+   __TEXT.__swift5_mpenum: 0x358
+   __TEXT.__swift5_protos: 0x418
+-  __TEXT.__unwind_info: 0x13a08
+-  __TEXT.__eh_frame: 0xbf18
++  __TEXT.__unwind_info: 0x13b2c
++  __TEXT.__eh_frame: 0xcaf0
+   __TEXT.__objc_classname: 0x4fa
+-  __TEXT.__objc_methname: 0xa87c
++  __TEXT.__objc_methname: 0xa9aa
+   __TEXT.__objc_methtype: 0x13d7
+-  __TEXT.__objc_stubs: 0xe80
+-  __DATA_CONST.__got: 0x13f8
+-  __DATA_CONST.__const: 0x8f8
++  __TEXT.__objc_stubs: 0xea0
++  __DATA_CONST.__got: 0x1458
++  __DATA_CONST.__const: 0x9a8
+   __DATA_CONST.__objc_classlist: 0x988
+   __DATA_CONST.__objc_catlist: 0x110
+   __DATA_CONST.__objc_protolist: 0x1d8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x13cf8
+-  __DATA_CONST.__objc_selrefs: 0x3078
++  __DATA_CONST.__objc_const: 0x13da0
++  __DATA_CONST.__objc_selrefs: 0x30d8
+   __AUTH_CONST.__objc_const: 0x1060
+-  __AUTH_CONST.__const: 0x2f768
++  __AUTH_CONST.__const: 0x2f820
+   __AUTH_CONST.__cfstring: 0x180
+-  __AUTH_CONST.__auth_got: 0x2f80
++  __AUTH_CONST.__auth_got: 0x2ff8
+   __AUTH.__objc_data: 0x34f8
+-  __AUTH.__data: 0x9de8
++  __AUTH.__data: 0x9f00
+   __DATA.__objc_protorefs: 0xe0
+-  __DATA.__objc_classrefs: 0x850
++  __DATA.__objc_classrefs: 0x858
+   __DATA.__objc_superrefs: 0x30
+   __DATA.__objc_ivar: 0x14
+-  __DATA.__data: 0x9a00
++  __DATA.__data: 0x9df0
+   __DATA.__objc_stublist: 0x18
+-  __DATA.__bss: 0x1a190
+-  __DATA.__common: 0x920
++  __DATA.__bss: 0x1a4d0
++  __DATA.__common: 0x950
+   __DATA_DIRTY.__objc_const: 0x48
+-  __DATA_DIRTY.__objc_data: 0x1de0
+-  __DATA_DIRTY.__data: 0xb920
++  __DATA_DIRTY.__objc_data: 0x1de8
++  __DATA_DIRTY.__data: 0xb928
+   __DATA_DIRTY.__bss: 0x2ea0
+   __DATA_DIRTY.__common: 0x478
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /System/Library/PrivateFrameworks/ContactsAutocomplete.framework/ContactsAutocomplete
+   - /System/Library/PrivateFrameworks/DifferentialPrivacy.framework/DifferentialPrivacy
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
++  - /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+   - /System/Library/PrivateFrameworks/HelpKit.framework/HelpKit
+   - /System/Library/PrivateFrameworks/ReminderKit.framework/ReminderKit
+   - /System/Library/PrivateFrameworks/ReminderKitInternal.framework/ReminderKitInternal
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FB268FA4-A689-3D9F-9F97-EA5B735D2EDD
+-  Functions: 33297
++  UUID: EE6DDEA0-D1C6-3176-AA8D-4BCC8D210B97
++  Functions: 33586
+   Symbols:   10740
+-  CStrings:  5563
++  CStrings:  5601
+ 
+Symbols:
++ +[UIColor(TTRCompatibility) ttr_tableBackgroundColor]
++ _ACAccountDataclassReminders
++ _GSEventIsHardwareKeyboardAttached
++ _OBJC_CLASS_$_ACAccount
++ __DATA__TtC15RemindersUICore25TTREditSectionsListEditor
++ __DATA__TtC15RemindersUICore30TTREditSectionsSmartListEditor
++ __IVARS__TtC15RemindersUICore25TTREditSectionsListEditor
++ __IVARS__TtC15RemindersUICore30TTREditSectionsSmartListEditor
++ __IVARS__TtC15RemindersUICore43TTRRemindersListTreeWithoutEmptySectionless
++ __METACLASS_DATA__TtC15RemindersUICore25TTREditSectionsListEditor
++ __METACLASS_DATA__TtC15RemindersUICore30TTREditSectionsSmartListEditor
++ ___swift_get_extra_inhabitant_index.15Tm
++ ___swift_store_extra_inhabitant_index.16Tm
++ ___unnamed_15
++ _associated conformance 15RemindersUICore25TTREditSectionsInteractorCyxGAA26TTRDataViewMonitorDelegateAA04DataG0AaEP_AA014TTRMonitorablejG0
++ _associated conformance 15RemindersUICore25TTRRemindersListViewModelC4ItemO012SectionCasesG0Os12IdentifiableAA2IDsAHP_SH
++ _associated conformance 15RemindersUICore32TTRAutoCategorizationOverlayViewV7SwiftUI0F0AA4BodyAdEP_AdE
++ _associated conformance 15RemindersUICore43TTRRemindersListTreeWithoutEmptySectionlessCyxGAA24TTRTreeContentsQueryableAA8ItemTypeAaEP_AA0i7StorageL0
++ _block_copy_helper.1293
++ _block_copy_helper.1385
++ _block_copy_helper.1475
++ _block_copy_helper.1658
++ _block_copy_helper.1845
++ _block_copy_helper.1858
++ _block_copy_helper.1868
++ _block_copy_helper.1875
++ _block_copy_helper.1882
++ _block_copy_helper.1889
++ _block_copy_helper.1893
++ _block_copy_helper.1900
++ _block_copy_helper.1904
++ _block_copy_helper.1911
++ _block_copy_helper.1914
++ _block_copy_helper.1930
++ _block_copy_helper.2028
++ _block_copy_helper.930
++ _block_descriptor.1295
++ _block_descriptor.1387
++ _block_descriptor.1477
++ _block_descriptor.1660
++ _block_descriptor.1847
++ _block_descriptor.1860
++ _block_descriptor.1870
++ _block_descriptor.1877
++ _block_descriptor.1884
++ _block_descriptor.1891
++ _block_descriptor.1895
++ _block_descriptor.1902
++ _block_descriptor.1906
++ _block_descriptor.1913
++ _block_descriptor.1916
++ _block_descriptor.1932
++ _block_descriptor.2030
++ _block_descriptor.932
++ _block_destroy_helper.1294
++ _block_destroy_helper.1386
++ _block_destroy_helper.1476
++ _block_destroy_helper.1659
++ _block_destroy_helper.1846
++ _block_destroy_helper.1859
++ _block_destroy_helper.1869
++ _block_destroy_helper.1876
++ _block_destroy_helper.1883
++ _block_destroy_helper.1890
++ _block_destroy_helper.1894
++ _block_destroy_helper.1901
++ _block_destroy_helper.1905
++ _block_destroy_helper.1912
++ _block_destroy_helper.1915
++ _block_destroy_helper.1931
++ _block_destroy_helper.2029
++ _block_destroy_helper.931
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonH0Rd__lFQOyAEyACyAEyACyAEyAEyAA0J0VyAA6VStackVyAA05TupleF0VyAEyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGG_AA6HStackVyAOyAV_AEyAEyAA5ImageVASyAZ5ScaleOGGASyAA5ColorVSgGGSgtGGtGGGAA14_PaddingLayoutVGAA011_BackgroundhQ0VyAA8MaterialVGGA16_GA18_yA4_GGA23_GAA11_ClipEffectVyAA16RoundedRectangleVGG_AA05PlainjH0VQo_AA023AccessibilityAttachmentQ0VGAA13_ShadowEffectVGA38_GAaFHPA41_AaFHPA38_AaFHPqd0__AaFHD3_A35_HO_A37_AA0fQ0HPyHCHC_A40_AAA43_HPyHCHC_A38_AaFHPqd0__AaFHD3_A35_HO_A37_AAA43_HPyHCHCHC.6
++ _objc_msgSend$tableBackgroundColor
++ _objectdestroy.1019Tm
++ _objectdestroy.1025Tm
++ _objectdestroy.1103Tm
++ _objectdestroy.46Tm
++ _symbolic $s15RemindersUICore26TTREditSectionsSaveChangesP
++ _symbolic 11ListSection_____Qz 15RemindersUICore26TTREditSectionsSaveChangesP
++ _symbolic 8ItemType_____QzSg 15RemindersUICore24TTRTreeContentsQueryableP
++ _symbolic 8ItemType_____Qzz_x______RzlXX 15RemindersUICore24TTRTreeContentsQueryableP AC
++ _symbolic SDySo11REMObjectIDCSSG
++ _symbolic Say_____G 15RemindersUICore34TTRRemindersBoardPresentationTreesV8baseTree11isCollapsed26shouldhideEmptySectionless011placeholderA9AreHidden04cellE6StatesAcA24TTRTreeContentsQueryable_pAA0C13ListViewModelC4ItemO0Y4TypeAaIPRts_XP_SbAK0Y2IDOXES2bAA0cd4CelleR0Vtcfc18ParentWithSubtasksL_V
++ _symbolic So11REMTemplateC14targetTemplate_So11REMObjectIDCSg07sectionE0SS0F11DisplayNamet
++ _symbolic So12REMSmartListC011customSmartB0_So11REMObjectIDCSg07sectionF0SS0G11DisplayNamet
++ _symbolic So14REMBaseSectionC
++ _symbolic So7REMListC10parentList_So11REMObjectIDCSg07sectionE0SS0F11DisplayNameSb16isFromSuggestiont
++ _symbolic _____ 15RemindersUICore15TTRAccesibilityO0A4ListO18AutoCategorizationO
++ _symbolic _____ 15RemindersUICore21TTRLocalizableStringsO18AutoCategorizationO
++ _symbolic _____ 15RemindersUICore24TTREditSectionsViewModelC15OptimisticApplyV
++ _symbolic _____ 15RemindersUICore25TTREditSectionsListEditorC
++ _symbolic _____ 15RemindersUICore30TTREditSectionsSmartListEditorC
++ _symbolic _____ 15RemindersUICore32TTRAutoCategorizationOverlayViewV
++ _symbolic _____ 15RemindersUICore34TTRRemindersBoardPresentationTreesV8baseTree11isCollapsed26shouldhideEmptySectionless011placeholderA9AreHidden04cellE6StatesAcA24TTRTreeContentsQueryable_pAA0C13ListViewModelC4ItemO0Y4TypeAaIPRts_XP_SbAK0Y2IDOXES2bAA0cd4CelleR0Vtcfc18ParentWithSubtasksL_V
++ _symbolic _____ 15RemindersUICore43TTRRemindersListTreeWithoutEmptySectionlessC
++ _symbolic _____ 7SwiftUI19ColorSchemeContrastO
++ _symbolic _____Sg 15RemindersUICore25TTRRemindersListViewModelC13SectionHeaderV
++ _symbolic __________Xj l15RemindersUICore33TTRTreeStorageChainedTreeDeriving_px8ItemTypeRts_XPXGMq AA25TTRRemindersListViewModelC0H0O
++ _symbolic ___________y__________Gt 10Foundation4UUIDV 15RemindersUICore32TTRTreeStorageTemporaryNodeValueV AD25TTRAccountsListsViewModelC4ItemO AH13AuxiliaryDataV
++ _symbolic ___________y__________Gt 15RemindersUICore25TTRRemindersListViewModelC6ItemIDO AA32TTRTreeStorageTemporaryNodeValueV AC0G0O AA0ijL18EmptyAuxiliaryDataV
++ _symbolic _____m 15RemindersUICore010TTRShowAllA27WithSectionsDataModelSourceC
++ _symbolic _____m 15RemindersUICore07TTRShowA33InListWithSectionsDataModelSourceC
++ _symbolic _____m 15RemindersUICore26TTRAccountsListsInteractorC
++ _symbolic _____m 15RemindersUICore28TTRShowTaggedDataModelSourceC
++ _symbolic _____m 15RemindersUICore29TTRShowFlaggedDataModelSourceC
++ _symbolic _____m 15RemindersUICore30TTRShowAssignedDataModelSourceC
++ _symbolic _____m 15RemindersUICore33TTRShowTodayGroupsDataModelSourceC
++ _symbolic _____m 15RemindersUICore34TTRShowSearchResultDataModelSourceC
++ _symbolic _____m 15RemindersUICore36TTRShowPublicTemplateDataModelSourceC
++ _symbolic _____m 15RemindersUICore37TTRShowSiriFoundInAppsDataModelSourceC
++ _symbolic _____m 15RemindersUICore39TTRShowGroupWithSectionsDataModelSourceC
++ _symbolic _____m 15RemindersUICore42TTRShowTemplateWithSectionsDataModelSourceC
++ _symbolic _____m 15RemindersUICore44TTRShowCompletedByDateBucketsDataModelSourceC
++ _symbolic _____m 15RemindersUICore44TTRShowScheduledByDateBucketsDataModelSourceC
++ _symbolic _____m 15RemindersUICore49TTRShowCustomSmartListWithSectionsDataModelSourceC
++ _symbolic _____yAAy__________y_____GGACy_____SgGGSg 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AE5ScaleO AA5ColorV
++ _symbolic _____yAAy_____yAAy_____yAAyAByAAyAAy_____y_____y_____yAAy__________ySiSgGG______yAEyAJ_AAyAAy_____AGy_____GGAGy_____SgGGSgtGGtGGG_____G_____y_____GGA_GA0_yAPGGA4_G_____y_____GG______Qo______G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA012_ConditionalD0V AA0I0V AA6VStackV AA05TupleE0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA5ImageV AW5ScaleO AA5ColorV AA14_PaddingLayoutV AA011_BackgroundgQ0V AA8MaterialV AA11_ClipEffectV AA16RoundedRectangleV AA05PlainiG0V AA023AccessibilityAttachmentQ0V AA13_ShadowEffectV
++ _symbolic _____yAAy_____y_____y_____yAAy__________ySiSgGG______yADyAI_AAyAAy_____AFy_____GGAFy_____SgGGSgtGGtGGG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA6ButtonV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA5ImageV AQ5ScaleO AA5ColorV AA14_PaddingLayoutV AA016_BackgroundStyleM0V AA8MaterialV
++ _symbolic _____ySbG 7SwiftUI11EnvironmentV
++ _symbolic _____ySnySiGG s12LazySequenceV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA19ColorSchemeContrastO
++ _symbolic _____y_____G 7SwiftUI24_BackgroundStyleModifierV AA5ColorV
++ _symbolic _____y_____G 7SwiftUI24_BackgroundStyleModifierV AA8MaterialV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 15RemindersUICore34TTRRemindersBoardPresentationTreesV8baseTree11isCollapsed26shouldhideEmptySectionless011placeholderD9AreHidden04cellH6StatesAeC24TTRTreeContentsQueryable_pAC0F13ListViewModelC4ItemO8ItemTypeAcKPRts_XP_SbAM6ItemIDOXES2bAC0fg4CellhU0Vtcfc18ParentWithSubtasksL_V
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO AA19ColorSchemeContrastO
++ _symbolic _____y__________G 15RemindersUICore32TTRTreeStorageTemporaryNodeValueV AA25TTRRemindersListViewModelC4ItemO AA0cdF18EmptyAuxiliaryDataV
++ _symbolic _____y___________y_____y__________ySiSgGG_ADyADy_____AFy_____GGAFy_____SgGGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ImageV AQ5ScaleO AA5ColorV
++ _symbolic _____y___________y_____y__________ySiSgGG______yACyAI_ADyADy_____AFy_____GGAFy_____SgGGSgtGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA5ImageV AS5ScaleO AA5ColorV
++ _symbolic _____y__________ySiSgGG_AAyAAy_____ACy_____GGACy_____SgGGSgt 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ImageV AI5ScaleO AA5ColorV
++ _symbolic _____y__________ySiSgGG______y_____yAF_AAyAAy_____ACy_____GGACy_____SgGGSgtGGt 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA9TupleViewV AA5ImageV AM5ScaleO AA5ColorV
++ _symbolic _____y__________y__________GG s18_DictionaryStorageC 10Foundation4UUIDV 15RemindersUICore07TTRTreeB18TemporaryNodeValueV AF25TTRAccountsListsViewModelC4ItemO AJ13AuxiliaryDataV
++ _symbolic _____y__________y__________GG s18_DictionaryStorageC 15RemindersUICore25TTRRemindersListViewModelC6ItemIDO AC07TTRTreeB18TemporaryNodeValueV AE0I0O AC0kbM18EmptyAuxiliaryDataV
++ _symbolic _____y_____yAAyAAy_____y_____y_____yAAy__________ySiSgGG______yAEyAJ_AAyAAy_____AGy_____GGAGy_____SgGGSgtGGtGGG_____G_____y_____GGA_GA0_yAPGG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA6ButtonV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA5ImageV AS5ScaleO AA5ColorV AA14_PaddingLayoutV AA016_BackgroundStyleN0V AA8MaterialV
++ _symbolic _____y_____yAAyAByAAyAAy_____y_____y_____yAAy__________ySiSgGG______yAEyAJ_AAyAAy_____AGy_____GGAGy_____SgGGSgtGGtGGG_____G_____y_____GGA_GA0_yAPGGA4_G_____y_____GG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA6ButtonV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA5ImageV AS5ScaleO AA5ColorV AA14_PaddingLayoutV AA016_BackgroundStyleN0V AA8MaterialV AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y_____yAAyAByABy_____y_____y_____yABy__________ySiSgGG______yAEyAJ_AByABy_____AGy_____GGAGy_____SgGGSgtGGtGGG_____G_____y_____GGA_GA0_yAPGGA4_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6ButtonV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA5ImageV AS5ScaleO AA5ColorV AA14_PaddingLayoutV AA016_BackgroundStyleN0V AA8MaterialV
++ _symbolic _____y_____yAAy_____yAAyAByAAyAAy_____y_____y_____yAAy__________ySiSgGG______yAEyAJ_AAyAAy_____AGy_____GGAGy_____SgGGSgtGGtGGG_____G_____y_____GGA_GA0_yAPGGA4_G_____y_____GG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA012_ConditionalD0V AA0I0V AA6VStackV AA05TupleE0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA5ImageV AW5ScaleO AA5ColorV AA14_PaddingLayoutV AA011_BackgroundgQ0V AA8MaterialV AA11_ClipEffectV AA16RoundedRectangleV AA05PlainiG0V AA023AccessibilityAttachmentQ0V
++ _symbolic _____y_____yABy_____yAByAAyAByAAyAByABy_____y_____y_____yABy__________ySiSgGG______yAEyAJ_AByABy_____AGy_____GGAGy_____SgGGSgtGGtGGG_____G_____y_____GGA_GA0_yAPGGA4_G_____y_____GG______Qo______G_____GA15_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonH0Rd__lFQO AA0J0V AA6VStackV AA05TupleF0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA5ImageV AW5ScaleO AA5ColorV AA14_PaddingLayoutV AA011_BackgroundhQ0V AA8MaterialV AA11_ClipEffectV AA16RoundedRectangleV AA05PlainjH0V AA023AccessibilityAttachmentQ0V AA13_ShadowEffectV
++ _symbolic _____y_____yABy_____yABy_____yAByACyAByABy_____y_____y_____yABy__________ySiSgGG______yAFyAK_AByABy_____AHy_____GGAHy_____SgGGSgtGGtGGG_____G_____y_____GGA0_GA1_yAQGGA5_G_____y_____GG______Qo______G_____GA16__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonI0Rd__lFQO AC AA0K0V AA6VStackV AA05TupleG0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA5ImageV AY5ScaleO AA5ColorV AA14_PaddingLayoutV AA011_BackgroundiR0V AA8MaterialV AA11_ClipEffectV AA16RoundedRectangleV AA05PlainkI0V AA023AccessibilityAttachmentR0V AA13_ShadowEffectV
++ _symbolic _____y_____yABy_____y_____y_____yABy__________ySiSgGG______yAEyAJ_AByABy_____AGy_____GGAGy_____SgGGSgtGGtGGG_____G_____y_____GGA_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6ButtonV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA5ImageV AS5ScaleO AA5ColorV AA14_PaddingLayoutV AA016_BackgroundStyleN0V AA8MaterialV
++ _symbolic _____y_____yABy_____y_____y_____yABy__________ySiSgGG______yAEyAJ_AByABy_____AGy_____GGAGy_____SgGGSgtGGtGGG_____G_____y_____GGA__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA6ButtonV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA5ImageV AU5ScaleO AA5ColorV AA14_PaddingLayoutV AA016_BackgroundStyleO0V AA8MaterialV
++ _symbolic _____y_____y_____GG 15RemindersUICore43TTRRemindersListTreeWithoutEmptySectionlessC AA030TTRTreeStorageDerivedUntouchedE3AnyC AA0cD9ViewModelC4ItemO
++ _symbolic _____y_____y_____yAAyAByAAyAAy_____y_____y_____yAAy__________ySiSgGG______yAEyAJ_AAyAAy_____AGy_____GGAGy_____SgGGSgtGGtGGG_____G_____y_____GGA_GA0_yAPGGA4_G_____y_____GG______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA15ModifiedContentV AA012_ConditionalI0V AA0G0V AA6VStackV AA05TupleC0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA5ImageV AW5ScaleO AA5ColorV AA14_PaddingLayoutV AA011_BackgroundeQ0V AA8MaterialV AA11_ClipEffectV AA16RoundedRectangleV AA05PlaingE0V
++ _symbolic _____y_____y_____yAByABy_____y_____y_____yABy__________ySiSgGG______yAFyAK_AByABy_____AHy_____GGAHy_____SgGGSgtGGtGGG_____G_____y_____GGA0_GA1_yAQGGA5__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AC AA6ButtonV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA5ImageV AU5ScaleO AA5ColorV AA14_PaddingLayoutV AA016_BackgroundStyleO0V AA8MaterialV
++ _symbolic _____y_____y_____y_____GGG 15RemindersUICore32TTRTreeStorageWithHiddenChildrenC AA43TTRRemindersListTreeWithoutEmptySectionlessC AA0cd16DerivedUntouchedJ3AnyC AA0hI9ViewModelC4ItemO
++ _symbolic _____y_____y_____y__________ySiSgGG_ACyACy_____AEy_____GGAEy_____SgGGSgtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ImageV AM5ScaleO AA5ColorV
++ _symbolic _____y_____y_____y__________ySiSgGG______yAByAH_ACyACy_____AEy_____GGAEy_____SgGGSgtGGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA5ImageV AO5ScaleO AA5ColorV
++ _symbolic _____y_____y_____y_____yAAy__________ySiSgGG______yADyAI_AAyAAy_____AFy_____GGAFy_____SgGGSgtGGtGGG_____G 7SwiftUI15ModifiedContentV AA6ButtonV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA5ImageV AQ5ScaleO AA5ColorV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y_____GGGG 15RemindersUICore35TTRTreeStorageWithFlattenedChildrenC AA0cde6HiddenG0C AA43TTRRemindersListTreeWithoutEmptySectionlessC AA0cd16DerivedUntouchedK3AnyC AA0iJ9ViewModelC4ItemO
++ _symbolic _____y_____y_____y_____y__________ySiSgGG______yACyAI_ADyADy_____AFy_____GGAFy_____SgGGSgtGGtGGG 7SwiftUI6ButtonV AA6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA6HStackV AA5ImageV AQ5ScaleO AA5ColorV
++ _symbolic _____y_____y_____y_____y_____y_____GGGGG 15RemindersUICore31TTRTreeStorageWithFilteredItemsC AA0cdE17FlattenedChildrenC AA0cde6HiddenI0C AA43TTRRemindersListTreeWithoutEmptySectionlessC AA0cd16DerivedUntouchedM3AnyC AA0kL9ViewModelC4ItemO
++ _symbolic _____y_____yxGGSg 15RemindersUICore18TTRDataViewMonitorC AA030TTREditSectionsMonitorableDataD0C
++ _symbolic _____yxG 15RemindersUICore34TTREditSectionsMonitorableDataViewC
+- __DATA__TtC15RemindersUICore25TTREditSectionsInteractor
+- __DATA__TtC15RemindersUICore34TTREditSectionsMonitorableDataView
+- __METACLASS_DATA__TtC15RemindersUICore25TTREditSectionsInteractor
+- __METACLASS_DATA__TtC15RemindersUICore34TTREditSectionsMonitorableDataView
+- ___swift_get_extra_inhabitant_index.16Tm
+- ___swift_store_extra_inhabitant_index.17Tm
+- _associated conformance 15RemindersUICore25TTREditSectionsInteractorCAA26TTRDataViewMonitorDelegateAA04DataG0AaDP_AA014TTRMonitorablejG0
+- _block_copy_helper.1294
+- _block_copy_helper.1384
+- _block_copy_helper.1476
+- _block_copy_helper.1657
+- _block_copy_helper.1840
+- _block_copy_helper.1846
+- _block_copy_helper.1862
+- _block_copy_helper.1869
+- _block_copy_helper.1876
+- _block_copy_helper.1883
+- _block_copy_helper.1887
+- _block_copy_helper.1894
+- _block_copy_helper.1898
+- _block_copy_helper.1905
+- _block_copy_helper.1908
+- _block_copy_helper.1924
+- _block_copy_helper.2027
+- _block_copy_helper.2119
+- _block_copy_helper.2125
+- _block_copy_helper.2131
+- _block_copy_helper.2141
+- _block_copy_helper.2148
+- _block_copy_helper.2155
+- _block_copy_helper.2162
+- _block_copy_helper.2166
+- _block_copy_helper.2173
+- _block_copy_helper.2177
+- _block_copy_helper.2184
+- _block_copy_helper.2187
+- _block_copy_helper.2203
+- _block_copy_helper.929
+- _block_descriptor.1296
+- _block_descriptor.1386
+- _block_descriptor.1478
+- _block_descriptor.1659
+- _block_descriptor.1842
+- _block_descriptor.1848
+- _block_descriptor.1864
+- _block_descriptor.1871
+- _block_descriptor.1878
+- _block_descriptor.1885
+- _block_descriptor.1889
+- _block_descriptor.1896
+- _block_descriptor.1900
+- _block_descriptor.1907
+- _block_descriptor.1910
+- _block_descriptor.1926
+- _block_descriptor.2029
+- _block_descriptor.2121
+- _block_descriptor.2127
+- _block_descriptor.2133
+- _block_descriptor.2143
+- _block_descriptor.2150
+- _block_descriptor.2157
+- _block_descriptor.2164
+- _block_descriptor.2168
+- _block_descriptor.2175
+- _block_descriptor.2179
+- _block_descriptor.2186
+- _block_descriptor.2189
+- _block_descriptor.2205
+- _block_descriptor.931
+- _block_destroy_helper.1295
+- _block_destroy_helper.1385
+- _block_destroy_helper.1477
+- _block_destroy_helper.1658
+- _block_destroy_helper.1841
+- _block_destroy_helper.1847
+- _block_destroy_helper.1863
+- _block_destroy_helper.1870
+- _block_destroy_helper.1877
+- _block_destroy_helper.1884
+- _block_destroy_helper.1888
+- _block_destroy_helper.1895
+- _block_destroy_helper.1899
+- _block_destroy_helper.1906
+- _block_destroy_helper.1909
+- _block_destroy_helper.1925
+- _block_destroy_helper.2028
+- _block_destroy_helper.2120
+- _block_destroy_helper.2126
+- _block_destroy_helper.2132
+- _block_destroy_helper.2142
+- _block_destroy_helper.2149
+- _block_destroy_helper.2156
+- _block_destroy_helper.2163
+- _block_destroy_helper.2167
+- _block_destroy_helper.2174
+- _block_destroy_helper.2178
+- _block_destroy_helper.2185
+- _block_destroy_helper.2188
+- _block_destroy_helper.2204
+- _block_destroy_helper.930
+- _objectdestroy.1012Tm
+- _objectdestroy.1110Tm
+- _objectdestroy.1116Tm
+- _objectdestroy.1194Tm
+- _objectdestroy.48Tm
+- _objectdestroy.934Tm
+- _objectdestroy.940Tm
+- _symbolic $s15RemindersUICore22TTREditSectionsEditingP
+- _symbolic Say_____G 15RemindersUICore34TTRRemindersBoardPresentationTreesV8baseTree11isCollapsed011placeholderA9AreHidden04cellE6StatesAcA24TTRTreeContentsQueryable_pAA0C13ListViewModelC4ItemO0V4TypeAaHPRts_XP_SbAJ0V2IDOXESbAA0cd4CelleO0Vtcfc18ParentWithSubtasksL_V
+- _symbolic So11REMTemplateC14targetTemplate_SS18sectionDisplayNamet
+- _symbolic So12REMSmartListC011customSmartB0_SS18sectionDisplayNamet
+- _symbolic So17REMListChangeItemCSg
+- _symbolic So22REMSmartListChangeItemCSg
+- _symbolic So7REMListC10parentList_SS18sectionDisplayNameSb16isFromSuggestiont
+- _symbolic _____ 15RemindersUICore15TTRAccesibilityO0A4ListO13AnnouncementsO
+- _symbolic _____ 15RemindersUICore34TTRRemindersBoardPresentationTreesV8baseTree11isCollapsed011placeholderA9AreHidden04cellE6StatesAcA24TTRTreeContentsQueryable_pAA0C13ListViewModelC4ItemO0V4TypeAaHPRts_XP_SbAJ0V2IDOXESbAA0cd4CelleO0Vtcfc18ParentWithSubtasksL_V
+- _symbolic _____Sg 15RemindersUICore13TTRListEditorC
+- _symbolic _____Sg 15RemindersUICore18TTRSmartListEditorC
+- _symbolic _____SgXw 15RemindersUICore25TTREditSectionsInteractorC
+- _symbolic _____ySay_____G______pG s6ResultO 19ReminderKitInternal24REMRemindersListDataViewO11SectionLiteV s5ErrorP
+- _symbolic _____y_____G 15RemindersUICore18TTRDataViewMonitorC AA030TTREditSectionsMonitorableDataD0C
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 15RemindersUICore34TTRRemindersBoardPresentationTreesV8baseTree11isCollapsed011placeholderD9AreHidden04cellH6StatesAeC24TTRTreeContentsQueryable_pAC0F13ListViewModelC4ItemO0Y4TypeAcJPRts_XP_SbAL0Y2IDOXESbAC0fg4CellhR0Vtcfc18ParentWithSubtasksL_V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 15RemindersUICore41TTRListOrCustomSmartListSectionChangeItemO
+- _symbolic _____y_____GSg 15RemindersUICore18TTRDataViewMonitorC AA030TTREditSectionsMonitorableDataD0C
+- _symbolic _____y_____GSgXw 15RemindersUICore18TTRDataViewMonitorC AA030TTREditSectionsMonitorableDataD0C
+- _symbolic _____y______ABG 15RemindersUICore18TTRDataViewMonitorC15BackgroundActor33_701DB48AEA1AC212AFC98B7A4F98F29BLLC AA030TTREditSectionsMonitorableDataD0C
+- _symbolic _____y______ABGSgXw 15RemindersUICore18TTRDataViewMonitorC15BackgroundActor33_701DB48AEA1AC212AFC98B7A4F98F29BLLC AA030TTREditSectionsMonitorableDataD0C
+- _symbolic _____y______ABGXDXMT 15RemindersUICore18TTRDataViewMonitorC15BackgroundActor33_701DB48AEA1AC212AFC98B7A4F98F29BLLC AA030TTREditSectionsMonitorableDataD0C
+- _symbolic _____y______G 15RemindersUICore18TTRDataViewMonitorC16ResultTransition33_701DB48AEA1AC212AFC98B7A4F98F29BLLV AA030TTREditSectionsMonitorableDataD0C
+- _symbolic _____y_____y_____y_____y_____GGGGSg 15RemindersUICore31TTRTreeStorageWithFilteredItemsC AA0cdE17FlattenedChildrenC AA0cde6HiddenI0C AA0cD23DerivedUntouchedTreeAnyC AA25TTRRemindersListViewModelC4ItemO
+- _symbolic _____yxGSgXwz____________8DataView_____Qyd__Rsz_____Rd__r__lXX 15RemindersUICore18TTRDataViewMonitorC AA030TTREditSectionsMonitorableDataD0C AA0fG10InteractorC AA0cdE8DelegateP AI
+- _symbolic _____yx_qd__GSgXwz_______AD_____RzAERd__r__lXX 15RemindersUICore18TTRDataViewMonitorC15BackgroundActor33_701DB48AEA1AC212AFC98B7A4F98F29BLLC AA030TTREditSectionsMonitorableDataD0C AA014TTRMonitorablesD0P
+- _symbolic qd__SgXwz____________8DataView_____Qyd__Rsz_____Rd__r__lXX 15RemindersUICore34TTREditSectionsMonitorableDataViewC AA0cD10InteractorC AA07TTRDataG15MonitorDelegateP AG
+CStrings:
++ " optimistically update reminderIDs"
++ " optimistically update with model"
++ " partial model changes"
++ " update accounts eligibile for migration"
++ " update cloudkit network activity"
++ " update migration error"
++ " update reminderIDs"
++ " update smart list display order or visibility"
++ " update with model"
++ "%d items were automatically categorized"
++ "%ld items added to"
++ "Accessibility announcement format string for categorizing a number of items (1$) into a named category (2$)"
++ "Accessibility announcement string indicating that multiple items were categorized into various sections"
++ "Accessibility string indicating that the user can end editing (so that dictation doesn't intercept the magic tap) then magic tap to scroll to a recently categorized item and refocus it."
++ "Categorized %1$d items as %2$@"
++ "ColorSchemeContrast"
++ "End editing, then magic tap to refocus."
++ "ITEMS_ADDED_COUNT, ITEM(S) format string for title for Grocery Toast of multiple items"
++ "Multiple Categories"
++ "REMINDER_SECTION_OTHERS_COLUMN_TITLE"
++ "Subtitle for Grocery Toast when adding multiple items to multiple categories"
++ "Suggested Columns Header description text"
++ "Suggested Columns Header title text"
++ "Suggested Sections Header description text"
++ "Suggested Sections Header title text"
++ "TTRRemindersListEditableSectionNameEditingPresenter: update item after state change with new item {item: %%@}, userInfo: [\"item\": %s]"
++ "These columns automatically appear as needed when items are added."
++ "These sections automatically appear as needed when items are added."
++ "Title for Grocery Toast of single item"
++ "Title of the default/'Others' section"
++ "Unable to determine target location for new temporary item {item: %s}"
++ "_TtC15RemindersUICore25TTREditSectionsListEditor"
++ "_TtC15RemindersUICore30TTREditSectionsSmartListEditor"
++ "aa_appleAccounts"
++ "editSectionsEditor"
++ "hideEmptySectionsForGroceryList:"
++ "imageNamed:inBundle:"
++ "isEnabledForDataclass:"
++ "listSectionChangeItems"
++ "onButtonPress:"
++ "remList"
++ "remSmartList"
++ "removeTarget:action:forControlEvents:"
++ "setHideEmptySections:forGroceryList:"
++ "setURL:forKey:"
++ "tableBackgroundColor"
++ "togglesSelectionOnPress"
++ "traitCollectionWithUserInterfaceIdiom:"
++ "ttr_tableBackgroundColor"
++ "updateConfiguration"
+- "Parent for new temporary item does not exist {parent: %s}"
+- "REMINDER_BOARD_OTHERS_COLUMN_TITLE"
+- "TTRListEditor should not be called for an REMSmartListChangeItem"
+- "TTRSmartListEditor should not be called for an REMListChangeItem"
+- "Title of the default/'Others' column"
+- "_TtC15RemindersUICore25TTREditSectionsInteractor"
+- "_TtC15RemindersUICore34TTREditSectionsMonitorableDataView"
+- "attempting to use a non uncommittedEditingSection section identifier in TTRRemindersListEditableSectionNameEditingPresenter"
+- "needsUpdateIcon"
+- "remListChangeItem"
+- "remSmartListChangeItem"
+- "smartListEditor"
+
+```

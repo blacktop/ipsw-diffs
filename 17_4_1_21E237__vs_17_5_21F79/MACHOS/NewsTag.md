@@ -1,0 +1,195 @@
+## NewsTag
+
+> `/private/var/staged_system_apps/News.app/PlugIns/NewsTag.appex/NewsTag`
+
+```diff
+
+-5345.2.0.0.0
+-  __TEXT.__text: 0x946d0
+-  __TEXT.__auth_stubs: 0x2820
+-  __TEXT.__objc_stubs: 0x37a0
+-  __TEXT.__objc_methlist: 0x1814
+-  __TEXT.__const: 0x3444
++5407.3.0.0.0
++  __TEXT.__text: 0x960e0
++  __TEXT.__auth_stubs: 0x2990
++  __TEXT.__objc_stubs: 0x37e0
++  __TEXT.__objc_methlist: 0x1824
++  __TEXT.__const: 0x3504
+   __TEXT.__gcc_except_tab: 0x2c4
+-  __TEXT.__cstring: 0x542b
++  __TEXT.__cstring: 0x57bb
+   __TEXT.__oslogstring: 0x182
+-  __TEXT.__objc_methname: 0x6eb1
++  __TEXT.__objc_methname: 0x701f
+   __TEXT.__objc_classname: 0x63e
+-  __TEXT.__objc_methtype: 0x1ac0
+-  __TEXT.__constg_swiftt: 0x17e0
+-  __TEXT.__swift5_typeref: 0x46bc
++  __TEXT.__objc_methtype: 0x1afe
++  __TEXT.__constg_swiftt: 0x1884
++  __TEXT.__swift5_typeref: 0x473c
+   __TEXT.__swift5_builtin: 0x118
+-  __TEXT.__swift5_reflstr: 0xed1
+-  __TEXT.__swift5_fieldmd: 0x12fc
++  __TEXT.__swift5_reflstr: 0xf5d
++  __TEXT.__swift5_fieldmd: 0x138c
+   __TEXT.__swift5_assocty: 0x3b8
+-  __TEXT.__swift5_proto: 0x20c
+-  __TEXT.__swift5_types: 0x198
+-  __TEXT.__swift5_protos: 0x38
+-  __TEXT.__swift5_capture: 0x424
++  __TEXT.__swift5_proto: 0x210
++  __TEXT.__swift5_types: 0x1a0
++  __TEXT.__swift5_protos: 0x3c
++  __TEXT.__swift5_capture: 0x42c
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x29cc
+-  __TEXT.__eh_frame: 0xb24
+-  __DATA_CONST.__auth_got: 0x1428
+-  __DATA_CONST.__got: 0x758
+-  __DATA_CONST.__auth_ptr: 0x150
+-  __DATA_CONST.__const: 0x41d8
++  __TEXT.__unwind_info: 0x2a40
++  __TEXT.__eh_frame: 0xb6c
++  __DATA_CONST.__auth_got: 0x14e0
++  __DATA_CONST.__got: 0x780
++  __DATA_CONST.__auth_ptr: 0x160
++  __DATA_CONST.__const: 0x4218
+   __DATA_CONST.__cfstring: 0xb80
+-  __DATA_CONST.__objc_classlist: 0x1c8
++  __DATA_CONST.__objc_classlist: 0x1d8
+   __DATA_CONST.__objc_catlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x1b0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0xe0
+-  __DATA_CONST.__objc_classrefs: 0x3e0
++  __DATA_CONST.__objc_classrefs: 0x400
+   __DATA_CONST.__objc_superrefs: 0xc0
+   __DATA_CONST.__objc_intobj: 0x1e0
+-  __DATA.__objc_const: 0x5fb0
+-  __DATA.__objc_selrefs: 0x1750
++  __DATA.__objc_const: 0x6258
++  __DATA.__objc_selrefs: 0x17a8
+   __DATA.__objc_ivar: 0x120
+-  __DATA.__objc_data: 0x12e8
+-  __DATA.__data: 0x3d80
++  __DATA.__objc_data: 0x1338
++  __DATA.__data: 0x3f48
+   __DATA.__bss: 0x3bd8
+-  __DATA.__common: 0xb0
++  __DATA.__common: 0xb8
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreText.framework/CoreText
++  - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftFileProvider.dylib
++  - /usr/lib/swift/libswiftGLKit.dylib
++  - /usr/lib/swift/libswiftGameplayKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftShazamKit.dylib
++  - /usr/lib/swift/libswiftSpriteKit.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftVision.dylib
+   - /usr/lib/swift/libswiftWebKit.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 140A6EEA-D7BD-34F0-AF71-7046DC680389
+-  Functions: 2933
+-  Symbols:   566
+-  CStrings:  1927
++  UUID: 7CA9A874-7FE4-31FC-BD3A-2CD0DD8ECEB4
++  Functions: 2953
++  Symbols:   584
++  CStrings:  1964
+ 
+Symbols:
++ _CCBigNumCompare
++ _CCBigNumDiv
++ _CCBigNumFree
++ _CCBigNumFromData
++ _CCBigNumFromDecimalString
++ _CCBigNumFromHexString
++ _CCBigNumMulI
++ _CCCreateBigNum
++ _FCAnalyticsLog
++ _FCWidgetOnboardingVersionSharedPreferenceKey
++ _OBJC_CLASS_$_FCNetworkReachability
++ _OBJC_CLASS_$_NSSNewsAnalyticsTelemetryAnnotator
++ _OBJC_CLASS_$_NTPBEnvelope
++ _OBJC_CLASS_$_NTPBTelemetry
++ __swift_FORCE_LOAD_$_swiftGLKit
++ __swift_FORCE_LOAD_$_swiftGameplayKit
++ __swift_FORCE_LOAD_$_swiftSceneKit
++ __swift_FORCE_LOAD_$_swiftSpriteKit
+CStrings:
++ "100"
++ "@\"<FCNetworkReachabilityType>\"16@0:8"
++ "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
++ "Found no telemetry event groups to submit"
++ "T@\"<FCNetworkReachabilityType>\",R,N"
++ "TelemetryEnablement determined that telemetry should be %{public}@, samplingRate=%f"
++ "TelemetryEnablement failed to convert the user ID hash to a Big Num"
++ "TelemetryEnablement failed to convert the user ID to valid data"
++ "TelemetryEnablement has no user ID to hash"
++ "Will flush telemetry events"
++ "Will not flush telemetry events because telemetry is disabled"
++ "Will submit telemetry events, groupCount=%lu, bytes=%ld"
++ "_TtC7NewsTag16TelemetryManager"
++ "_TtC7NewsTag19TelemetryEnablement"
++ "annotateTelemetry:withOptions:"
++ "appConfigManager"
++ "content"
++ "contentHostDirectoryURL"
++ "entryID"
++ "failed to retrieve onboarding version"
++ "fc_zlibDeflate"
++ "fetchAppWidgetConfigurationWithTodayLiteConfig:additionalFields:completion:"
++ "initWithName:directory:keyManager:avAssetFactory:resourceURLGenerator:networkBehaviorMonitor:networkReachability:"
++ "initWithOptions:cacheDirectory:"
++ "lastFlushDate"
++ "networkEventGroups"
++ "networkReachability"
++ "nss_envelopeWithIdentifier"
++ "populateTelemetry:withNetworkEventsFromDate:toDate:"
++ "retrieved onboarding version via default"
++ "retrieved onboarding version via fetch info"
++ "save"
++ "setContent:"
++ "setContentType:"
++ "setDownloadLimits:"
++ "setEntryId:"
++ "sharedNetworkReachability"
++ "storageSize"
++ "telemetryAnnotator"
++ "telemetryEnablement"
++ "v24@0:8@\"NDDownloadLimits\"16"
++ "v36@0:8B16@\"NSDictionary\"20@?<v@?@\"<FCNewsAppConfiguration>\"@\"NSDictionary\"@\"NSData\"@\"NSError\">28"
++ "v36@0:8B16@20@?28"
++ "widgetTelemetrySamplingRate"
+- "@\"FCNetworkBehaviorMonitor\"16@0:8"
+- "T@\"FCNetworkBehaviorMonitor\",R,N"
+- "fetchAppWidgetConfigurationWithAdditionalFields:completion:"
+- "initForLoggingOnly"
+- "initWithName:directory:keyManager:avAssetFactory:networkBehaviorMonitor:"
+- "setEngagementId:"
+- "v32@0:8@\"NSDictionary\"16@?<v@?@\"<FCNewsAppConfiguration>\"@\"NSDictionary\"@\"NSError\">24"
+- "widget analytics disabled because of we have no last entry"
+
+```

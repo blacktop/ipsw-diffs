@@ -1,0 +1,318 @@
+## SiriFlowEnvironment
+
+> `/System/Library/PrivateFrameworks/SiriFlowEnvironment.framework/SiriFlowEnvironment`
+
+```diff
+
+-3301.3.1.0.0
+-  __TEXT.__text: 0x20c98
+-  __TEXT.__auth_stubs: 0xca0
+-  __TEXT.__objc_methlist: 0x2c
+-  __TEXT.__const: 0x1296
++3304.9.1.0.0
++  __TEXT.__text: 0x22878
++  __TEXT.__auth_stubs: 0xcf0
++  __TEXT.__objc_methlist: 0x5c
++  __TEXT.__const: 0x1456
+   __TEXT.__gcc_except_tab: 0x34
+-  __TEXT.__cstring: 0x95b
++  __TEXT.__cstring: 0xdab
+   __TEXT.__oslogstring: 0x71
+-  __TEXT.__swift5_typeref: 0x666
+-  __TEXT.__constg_swiftt: 0x3cc
+-  __TEXT.__swift5_reflstr: 0x572
+-  __TEXT.__swift5_fieldmd: 0x460
+-  __TEXT.__swift5_types: 0x3c
+-  __TEXT.__swift5_protos: 0x10
+-  __TEXT.__swift5_proto: 0x44
+-  __TEXT.__swift5_assocty: 0xa8
++  __TEXT.__swift5_typeref: 0x706
++  __TEXT.__constg_swiftt: 0x4e8
++  __TEXT.__swift5_reflstr: 0x602
++  __TEXT.__swift5_fieldmd: 0x4bc
++  __TEXT.__swift5_types: 0x40
++  __TEXT.__swift5_protos: 0x14
++  __TEXT.__swift5_proto: 0x54
++  __TEXT.__swift5_assocty: 0xd8
+   __TEXT.__swift5_capture: 0x88
+-  __TEXT.__unwind_info: 0xac0
+-  __TEXT.__eh_frame: 0x268
+-  __TEXT.__objc_classname: 0x14
+-  __TEXT.__objc_methname: 0x28f
+-  __TEXT.__objc_methtype: 0x45
++  __TEXT.__unwind_info: 0xbb0
++  __TEXT.__eh_frame: 0x378
++  __TEXT.__objc_classname: 0x22
++  __TEXT.__objc_methname: 0x2db
++  __TEXT.__objc_methtype: 0x4d
+   __TEXT.__objc_stubs: 0x220
+   __DATA_CONST.__got: 0x190
+-  __DATA_CONST.__const: 0x530
+-  __DATA_CONST.__objc_classlist: 0x20
++  __DATA_CONST.__const: 0x570
++  __DATA_CONST.__objc_classlist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x770
+-  __DATA_CONST.__objc_selrefs: 0xd8
+-  __AUTH_CONST.__const: 0x950
++  __DATA_CONST.__objc_const: 0x8f0
++  __DATA_CONST.__objc_selrefs: 0xf8
++  __DATA_CONST.__objc_classrefs: 0x38
++  __AUTH_CONST.__objc_const: 0x90
++  __AUTH_CONST.__const: 0xa28
+   __AUTH_CONST.__cfstring: 0x20
+-  __AUTH_CONST.__objc_const: 0x48
+-  __AUTH_CONST.__auth_got: 0x660
+-  __AUTH.__data: 0x238
+-  __AUTH.__objc_data: 0x50
+-  __DATA.__objc_classrefs: 0x30
+-  __DATA.__data: 0x240
+-  __DATA.__bss: 0x730
++  __AUTH_CONST.__auth_got: 0x688
++  __AUTH.__objc_data: 0xa0
++  __AUTH.__data: 0x3a8
++  __DATA.__data: 0x288
++  __DATA.__bss: 0x8c0
+   __DATA_DIRTY.__data: 0x450
+   __DATA_DIRTY.__common: 0x10
+   __DATA_DIRTY.__bss: 0x200
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/HomeKit.framework/HomeKit
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/BiomePubSub.framework/BiomePubSub
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 74E9B26E-BBF6-3ACA-97FC-4663CDD258DD
+-  Functions: 1308
+-  Symbols:   2962
+-  CStrings:  111
++  UUID: 08D5C3C4-BE44-3F75-A7FF-E7ACC73B75E3
++  Functions: 1396
++  Symbols:   3178
++  CStrings:  142
+ 
+Symbols:
++ -[HomeKitHelper areAnyAccessoriesConfigured]
++ -[HomeKitHelper areAnySpeakersConfigured]
++ -[HomeKitHelper areHomesConfigured]
++ _$s13SiriUtilities0A11EnvironmentC0a4FlowC0E15homeKitProviderAD04HomefG0CvM
++ _$s13SiriUtilities0A11EnvironmentC0a4FlowC0E15homeKitProviderAD04HomefG0CvM.resume.0
++ _$s13SiriUtilities0A11EnvironmentC0a4FlowC0E15homeKitProviderAD04HomefG0Cvg
++ _$s13SiriUtilities0A11EnvironmentC0a4FlowC0E15homeKitProviderAD04HomefG0CvpACTK
++ _$s13SiriUtilities0A11EnvironmentC0a4FlowC0E15homeKitProviderAD04HomefG0CvpACTk
++ _$s13SiriUtilities0A11EnvironmentC0a4FlowC0E15homeKitProviderAD04HomefG0CvpMV
++ _$s13SiriUtilities0A11EnvironmentC0a4FlowC0E15homeKitProviderAD04HomefG0Cvs
++ _$s13SiriUtilities17MockablePublishedC9PublisherVy0A15FlowEnvironment21HomeKitHelperProtocol_p_GMD
++ _$s13SiriUtilities17MockablePublishedCy0A15FlowEnvironment21HomeKitHelperProtocol_pGMD
++ _$s19SiriFlowEnvironment14CurrentRequestC11audioSource0A9Utilities05AudioG0VSgvsTm
++ _$s19SiriFlowEnvironment15HomeKitProviderC04homeE6HelperAA0deH8Protocol_pvM
++ _$s19SiriFlowEnvironment15HomeKitProviderC04homeE6HelperAA0deH8Protocol_pvM.resume.0
++ _$s19SiriFlowEnvironment15HomeKitProviderC04homeE6HelperAA0deH8Protocol_pvMTj
++ _$s19SiriFlowEnvironment15HomeKitProviderC04homeE6HelperAA0deH8Protocol_pvMTq
++ _$s19SiriFlowEnvironment15HomeKitProviderC04homeE6HelperAA0deH8Protocol_pvg
++ _$s19SiriFlowEnvironment15HomeKitProviderC04homeE6HelperAA0deH8Protocol_pvgTj
++ _$s19SiriFlowEnvironment15HomeKitProviderC04homeE6HelperAA0deH8Protocol_pvgTq
++ _$s19SiriFlowEnvironment15HomeKitProviderC04homeE6HelperAA0deH8Protocol_pvpACTK
++ _$s19SiriFlowEnvironment15HomeKitProviderC04homeE6HelperAA0deH8Protocol_pvpACTk
++ _$s19SiriFlowEnvironment15HomeKitProviderC04homeE6HelperAA0deH8Protocol_pvpMV
++ _$s19SiriFlowEnvironment15HomeKitProviderC04homeE6HelperAA0deH8Protocol_pvs
++ _$s19SiriFlowEnvironment15HomeKitProviderC04homeE6HelperAA0deH8Protocol_pvsTj
++ _$s19SiriFlowEnvironment15HomeKitProviderC04homeE6HelperAA0deH8Protocol_pvsTq
++ _$s19SiriFlowEnvironment15HomeKitProviderC05$homeE6Helper0A9Utilities17MockablePublishedC9PublisherVyAA0deH8Protocol_p_GvM
++ _$s19SiriFlowEnvironment15HomeKitProviderC05$homeE6Helper0A9Utilities17MockablePublishedC9PublisherVyAA0deH8Protocol_p_GvM.resume.0
++ _$s19SiriFlowEnvironment15HomeKitProviderC05$homeE6Helper0A9Utilities17MockablePublishedC9PublisherVyAA0deH8Protocol_p_GvMTj
++ _$s19SiriFlowEnvironment15HomeKitProviderC05$homeE6Helper0A9Utilities17MockablePublishedC9PublisherVyAA0deH8Protocol_p_GvMTq
++ _$s19SiriFlowEnvironment15HomeKitProviderC05$homeE6Helper0A9Utilities17MockablePublishedC9PublisherVyAA0deH8Protocol_p_Gvg
++ _$s19SiriFlowEnvironment15HomeKitProviderC05$homeE6Helper0A9Utilities17MockablePublishedC9PublisherVyAA0deH8Protocol_p_GvgTj
++ _$s19SiriFlowEnvironment15HomeKitProviderC05$homeE6Helper0A9Utilities17MockablePublishedC9PublisherVyAA0deH8Protocol_p_GvgTq
++ _$s19SiriFlowEnvironment15HomeKitProviderC05$homeE6Helper0A9Utilities17MockablePublishedC9PublisherVyAA0deH8Protocol_p_GvpACTK
++ _$s19SiriFlowEnvironment15HomeKitProviderC05$homeE6Helper0A9Utilities17MockablePublishedC9PublisherVyAA0deH8Protocol_p_GvpACTk
++ _$s19SiriFlowEnvironment15HomeKitProviderC05$homeE6Helper0A9Utilities17MockablePublishedC9PublisherVyAA0deH8Protocol_p_GvpMV
++ _$s19SiriFlowEnvironment15HomeKitProviderC05$homeE6Helper0A9Utilities17MockablePublishedC9PublisherVyAA0deH8Protocol_p_Gvs
++ _$s19SiriFlowEnvironment15HomeKitProviderC05$homeE6Helper0A9Utilities17MockablePublishedC9PublisherVyAA0deH8Protocol_p_GvsTj
++ _$s19SiriFlowEnvironment15HomeKitProviderC05$homeE6Helper0A9Utilities17MockablePublishedC9PublisherVyAA0deH8Protocol_p_GvsTq
++ _$s19SiriFlowEnvironment15HomeKitProviderC05_homeE6Helper33_AA6296204F4CF67F2A86F3A5D65E11DELL0A9Utilities17MockablePublishedCyAA0deH8Protocol_pGvpWvd
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities08MockablecF0AA0F0AdEP_AD0acF0PWT
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities08MockablecF0AAMA
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities08MockablecF0AAMc
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities08MockablecF0AAMcMK
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities08MockablecF0AaD0acF0PWb
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities08MockablecF0AadEP10adjustMockyAD0cfJ6HelperCy0F0QzGALFZTW
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities08MockablecF0AadEP4mock8override3runqd__SDys14PartialKeyPathCy0F0QzGypG_qd__yKXEtKlFTW
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities08MockablecF0AadEP4mockAD0cF10MockHelperCy0F0QzGSgvMTW
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities08MockablecF0AadEP4mockAD0cF10MockHelperCy0F0QzGSgvMTW.resume.0
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities08MockablecF0AadEP4mockAD0cF10MockHelperCy0F0QzGSgvgTW
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities08MockablecF0AadEP4mockAD0cF10MockHelperCy0F0QzGSgvsTW
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities08MockablecF0AadEP7installyAD0cF10MockHelperCy0F0QzGSgAMFTW
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities0acF0AA7Combine16ObservableObjectPWb
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities0acF0AAMc
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities0acF0AAMcMK
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities0acF0AadEP12defaultScopeAD0aC0C0I0VSgvgZTW
++ _$s19SiriFlowEnvironment15HomeKitProviderC0A9Utilities0acF0AadEP7storagexAD0aC7StorageC_tcfCTW
++ _$s19SiriFlowEnvironment15HomeKitProviderC15homesConfigured33_AA6296204F4CF67F2A86F3A5D65E11DELLSbvpWvd
++ _$s19SiriFlowEnvironment15HomeKitProviderC18areHomesConfigured7refreshS2b_tF
++ _$s19SiriFlowEnvironment15HomeKitProviderC18areHomesConfigured7refreshS2b_tFTj
++ _$s19SiriFlowEnvironment15HomeKitProviderC18areHomesConfigured7refreshS2b_tFTq
++ _$s19SiriFlowEnvironment15HomeKitProviderC21anySpeakersConfigured33_AA6296204F4CF67F2A86F3A5D65E11DELLSbvpWvd
++ _$s19SiriFlowEnvironment15HomeKitProviderC24anyAccessoriesConfigured33_AA6296204F4CF67F2A86F3A5D65E11DELLSbvpWvd
++ _$s19SiriFlowEnvironment15HomeKitProviderC24areAnySpeakersConfigured7refreshS2b_tF
++ _$s19SiriFlowEnvironment15HomeKitProviderC24areAnySpeakersConfigured7refreshS2b_tFTj
++ _$s19SiriFlowEnvironment15HomeKitProviderC24areAnySpeakersConfigured7refreshS2b_tFTq
++ _$s19SiriFlowEnvironment15HomeKitProviderC27areAnyAccessoriesConfigured7refreshS2b_tF
++ _$s19SiriFlowEnvironment15HomeKitProviderC27areAnyAccessoriesConfigured7refreshS2b_tFTj
++ _$s19SiriFlowEnvironment15HomeKitProviderC27areAnyAccessoriesConfigured7refreshS2b_tFTq
++ _$s19SiriFlowEnvironment15HomeKitProviderC4mock0A9Utilities0cF10MockHelperCyACGSgvM
++ _$s19SiriFlowEnvironment15HomeKitProviderC4mock0A9Utilities0cF10MockHelperCyACGSgvM.resume.0
++ _$s19SiriFlowEnvironment15HomeKitProviderC4mock0A9Utilities0cF10MockHelperCyACGSgvMTj
++ _$s19SiriFlowEnvironment15HomeKitProviderC4mock0A9Utilities0cF10MockHelperCyACGSgvMTq
++ _$s19SiriFlowEnvironment15HomeKitProviderC4mock0A9Utilities0cF10MockHelperCyACGSgvg
++ _$s19SiriFlowEnvironment15HomeKitProviderC4mock0A9Utilities0cF10MockHelperCyACGSgvgTj
++ _$s19SiriFlowEnvironment15HomeKitProviderC4mock0A9Utilities0cF10MockHelperCyACGSgvgTq
++ _$s19SiriFlowEnvironment15HomeKitProviderC4mock0A9Utilities0cF10MockHelperCyACGSgvpACTK
++ _$s19SiriFlowEnvironment15HomeKitProviderC4mock0A9Utilities0cF10MockHelperCyACGSgvpACTk
++ _$s19SiriFlowEnvironment15HomeKitProviderC4mock0A9Utilities0cF10MockHelperCyACGSgvpMV
++ _$s19SiriFlowEnvironment15HomeKitProviderC4mock0A9Utilities0cF10MockHelperCyACGSgvpWvd
++ _$s19SiriFlowEnvironment15HomeKitProviderC4mock0A9Utilities0cF10MockHelperCyACGSgvs
++ _$s19SiriFlowEnvironment15HomeKitProviderC4mock0A9Utilities0cF10MockHelperCyACGSgvsTj
++ _$s19SiriFlowEnvironment15HomeKitProviderC4mock0A9Utilities0cF10MockHelperCyACGSgvsTq
++ _$s19SiriFlowEnvironment15HomeKitProviderC7Combine16ObservableObjectAA0I19WillChangePublisherAdEP_AD0L0PWT
++ _$s19SiriFlowEnvironment15HomeKitProviderC7Combine16ObservableObjectAAMA
++ _$s19SiriFlowEnvironment15HomeKitProviderC7Combine16ObservableObjectAAMc
++ _$s19SiriFlowEnvironment15HomeKitProviderC7Combine16ObservableObjectAAMcMK
++ _$s19SiriFlowEnvironment15HomeKitProviderC7Combine16ObservableObjectAadEP16objectWillChange0ikL9PublisherQzvgTW
++ _$s19SiriFlowEnvironment15HomeKitProviderC7storageAC0A9Utilities0aC7StorageC_tcfC
++ _$s19SiriFlowEnvironment15HomeKitProviderC7storageAC0A9Utilities0aC7StorageC_tcfCTj
++ _$s19SiriFlowEnvironment15HomeKitProviderC7storageAC0A9Utilities0aC7StorageC_tcfCTq
++ _$s19SiriFlowEnvironment15HomeKitProviderC7storageAC0A9Utilities0aC7StorageC_tcfc
++ _$s19SiriFlowEnvironment15HomeKitProviderC9debugInfoSSvg
++ _$s19SiriFlowEnvironment15HomeKitProviderC9debugInfoSSvgTj
++ _$s19SiriFlowEnvironment15HomeKitProviderC9debugInfoSSvgTq
++ _$s19SiriFlowEnvironment15HomeKitProviderC9debugInfoSSvpMV
++ _$s19SiriFlowEnvironment15HomeKitProviderCAC0A9Utilities08MockablecF0AAWL
++ _$s19SiriFlowEnvironment15HomeKitProviderCAC0A9Utilities0acF0AAWL
++ _$s19SiriFlowEnvironment15HomeKitProviderCAC0A9Utilities0acF0AAWlTm
++ _$s19SiriFlowEnvironment15HomeKitProviderCAC7Combine16ObservableObjectAAWL
++ _$s19SiriFlowEnvironment15HomeKitProviderCMF
++ _$s19SiriFlowEnvironment15HomeKitProviderCMa
++ _$s19SiriFlowEnvironment15HomeKitProviderCMf
++ _$s19SiriFlowEnvironment15HomeKitProviderCMm
++ _$s19SiriFlowEnvironment15HomeKitProviderCMn
++ _$s19SiriFlowEnvironment15HomeKitProviderCMo
++ _$s19SiriFlowEnvironment15HomeKitProviderCMu
++ _$s19SiriFlowEnvironment15HomeKitProviderCN
++ _$s19SiriFlowEnvironment15HomeKitProviderCfD
++ _$s19SiriFlowEnvironment15HomeKitProviderCfd
++ _$s19SiriFlowEnvironment20SharedContextService_pSgWOd
++ _$s19SiriFlowEnvironment21HomeKitHelperProtocolMp
++ _$s19SiriFlowEnvironment21HomeKitHelperProtocolP18areHomesConfiguredSbyFTj
++ _$s19SiriFlowEnvironment21HomeKitHelperProtocolP18areHomesConfiguredSbyFTq
++ _$s19SiriFlowEnvironment21HomeKitHelperProtocolP24areAnySpeakersConfiguredSbyFTj
++ _$s19SiriFlowEnvironment21HomeKitHelperProtocolP24areAnySpeakersConfiguredSbyFTq
++ _$s19SiriFlowEnvironment21HomeKitHelperProtocolP27areAnyAccessoriesConfiguredSbyFTj
++ _$s19SiriFlowEnvironment21HomeKitHelperProtocolP27areAnyAccessoriesConfiguredSbyFTq
++ _$s19SiriFlowEnvironment21HomeKitHelperProtocolTL
++ _$s19SiriFlowEnvironment21HomeKitHelperProtocol_pMF
++ _$s19SiriFlowEnvironment21HomeKitHelperProtocol_pWOc
++ _$sSKsSS7ElementRtzrlE6joined9separatorS2S_tF
++ _$sSaySSGMD
++ _$sSaySSGSayxGSKsWL
++ _$sSaySSGSayxGSKsWl
++ _$sSayxGSKsMc
++ _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfC13SiriUtilities11InputOriginO_Tgm5
++ _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfC13SiriUtilities16AudioDestinationV_Tgm5
++ _$sSo13HomeKitHelperC18areHomesConfiguredSbyFTO
++ _$sSo13HomeKitHelperC19SiriFlowEnvironment0abC8ProtocolA2cDP18areHomesConfiguredSbyFTW
++ _$sSo13HomeKitHelperC19SiriFlowEnvironment0abC8ProtocolA2cDP24areAnySpeakersConfiguredSbyFTW
++ _$sSo13HomeKitHelperC19SiriFlowEnvironment0abC8ProtocolA2cDP27areAnyAccessoriesConfiguredSbyFTW
++ _$sSo13HomeKitHelperC19SiriFlowEnvironment0abC8ProtocolACMc
++ _$sSo13HomeKitHelperC19SiriFlowEnvironment0abC8ProtocolACWP
++ _$sSo13HomeKitHelperC24areAnySpeakersConfiguredSbyFTO
++ _$sSo13HomeKitHelperC27areAnyAccessoriesConfiguredSbyFTO
++ _$sSo13HomeKitHelperCML
++ _$sSo13HomeKitHelperCMa
++ _$sSp10initialize4from5countySPyxG_SitFs5UInt8V_Tgq5
++ _$sSp14moveInitialize4from5countySpyxG_SitFs5UInt8V_Tgq5
++ _$sSv16initializeMemory2as4from5countSpyxGxm_SPyxGSitlFs5UInt8V_Tgmq5
++ _$sSw10copyMemory4fromySW_tF
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5
++ _$ss23_ContiguousArrayStorageCySSGMD
++ _HMHomeManagerAreAnyAccessoriesConfigured
++ _HMHomeManagerAreAnySpeakersConfigured
++ _OBJC_CLASS_$_HomeKitHelper
++ _OBJC_METACLASS_$_HomeKitHelper
++ __DATA__TtC19SiriFlowEnvironment15HomeKitProvider
++ __IVARS__TtC19SiriFlowEnvironment15HomeKitProvider
++ __METACLASS_DATA__TtC19SiriFlowEnvironment15HomeKitProvider
++ __OBJC_$_INSTANCE_METHODS_HomeKitHelper
++ __OBJC_CLASS_RO_$_HomeKitHelper
++ __OBJC_METACLASS_RO_$_HomeKitHelper
++ _areHomesConfigured
++ _associated conformance 19SiriFlowEnvironment15HomeKitProviderC0A9Utilities08MockablecF0AA0F0AdEP_AD0acF0
++ _associated conformance 19SiriFlowEnvironment15HomeKitProviderC0A9Utilities08MockablecF0AaD0acF0
++ _associated conformance 19SiriFlowEnvironment15HomeKitProviderC0A9Utilities0acF0AA7Combine16ObservableObject
++ _associated conformance 19SiriFlowEnvironment15HomeKitProviderC7Combine16ObservableObjectAA0I19WillChangePublisherAdEP_AD0L0
++ _swift_deletedMethodError
++ _symbolic $s19SiriFlowEnvironment21HomeKitHelperProtocolP
++ _symbolic SaySSG
++ _symbolic _____ 19SiriFlowEnvironment15HomeKitProviderC
++ _symbolic ______p 19SiriFlowEnvironment21HomeKitHelperProtocolP
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____y_____GSg 13SiriUtilities29EnvironmentProviderMockHelperC 0a4FlowC007HomeKitD0C
++ _symbolic _____y______pG 13SiriUtilities17MockablePublishedC 0A15FlowEnvironment21HomeKitHelperProtocolP
++ _symbolic _____y______p_G 13SiriUtilities17MockablePublishedC9PublisherV 0A15FlowEnvironment21HomeKitHelperProtocolP
+- _$s19SiriFlowEnvironment0A16LocationProviderPAAE13requestOriginSo10CLLocationCSgyYaFTY2_
+- _$s19SiriFlowEnvironment0B12TaskMetadataVWOb
+- _$s19SiriFlowEnvironment20SharedContextService_pSgWOf
+- _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfC13SiriUtilities11InputOriginO_Tg5
+- _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfC13SiriUtilities16AudioDestinationV_Tg5
+- _$sSw5countSivg
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgq5
+- _$ss23_ContiguousArrayStorageCfD13SiriUtilities11InputOriginO_Tg5Tm
+- _OUTLINED_FUNCTION_254
+- _OUTLINED_FUNCTION_255
+- _OUTLINED_FUNCTION_256
+- _OUTLINED_FUNCTION_257
+- _OUTLINED_FUNCTION_258
+- _OUTLINED_FUNCTION_259
+- _swift_setDeallocating
+CStrings:
++ "B16@0:8"
++ "HomeKitHelper"
++ "HomeKitProvider init"
++ "Insufficient space allocated to copy string contents"
++ "SiriEnv HomeKitProvider - debugInfo - current status:"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "UnsafeMutableRawPointer.initializeMemory with negative count"
++ "_TtC19SiriFlowEnvironment15HomeKitProvider"
++ "_homeKitHelper"
++ "anyAccessoriesConfigured"
++ "anySpeakersConfigured"
++ "areAnyAccessoriesConfigured"
++ "areAnyAccessoriesConfigured: "
++ "areAnySpeakersConfigured"
++ "areAnySpeakersConfigured: "
++ "areHomesConfigured"
++ "areHomesConfigured: "
++ "homesConfigured"
++ "init"
++ "invalid Collection: less than 'count' elements in collection"
+
+```

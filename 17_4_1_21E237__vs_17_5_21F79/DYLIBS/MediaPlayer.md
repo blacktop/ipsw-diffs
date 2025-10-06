@@ -1,0 +1,1125 @@
+## MediaPlayer
+
+> `/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer`
+
+```diff
+
+-4023.510.7.0.0
+-  __TEXT.__text: 0x33bd5c
+-  __TEXT.__auth_stubs: 0x4f90
+-  __TEXT.__objc_methlist: 0x218d8
++4023.610.5.0.0
++  __TEXT.__text: 0x33bb58
++  __TEXT.__auth_stubs: 0x4f80
++  __TEXT.__objc_methlist: 0x218e0
+   __TEXT.__const: 0x16df8
+   __TEXT.__cstring: 0x3057f
+   __TEXT.__constg_swiftt: 0x80
+
+   __TEXT.__swift5_fieldmd: 0x2c
+   __TEXT.__swift5_proto: 0x14
+   __TEXT.__swift5_types: 0x8
+-  __TEXT.__gcc_except_tab: 0x1653c
+-  __TEXT.__oslogstring: 0x13ff1
++  __TEXT.__gcc_except_tab: 0x1650c
++  __TEXT.__oslogstring: 0x14115
+   __TEXT.__dlopen_cstrs: 0x506
+   __TEXT.__ustring: 0x1ca
+   __TEXT.__objc_const_ax: 0x1eb8
+-  __TEXT.__unwind_info: 0xcc6c
++  __TEXT.__unwind_info: 0xc7d4
+   __TEXT.__eh_frame: 0x1658
+   __TEXT.__objc_classname: 0x6107
+-  __TEXT.__objc_methname: 0x5df77
++  __TEXT.__objc_methname: 0x5df43
+   __TEXT.__objc_methtype: 0xda19
+-  __TEXT.__objc_stubs: 0x30a40
++  __TEXT.__objc_stubs: 0x309a0
+   __DATA_CONST.__got: 0x18b0
+-  __DATA_CONST.__const: 0xd460
++  __DATA_CONST.__const: 0xd438
+   __DATA_CONST.__objc_classlist: 0x1470
+   __DATA_CONST.__objc_catlist: 0x108
+   __DATA_CONST.__objc_protolist: 0x410
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x37880
+-  __DATA_CONST.__objc_selrefs: 0x11c60
++  __DATA_CONST.__objc_const: 0x378b0
++  __DATA_CONST.__objc_selrefs: 0x11c50
+   __DATA_CONST.__objc_protorefs: 0xd8
+   __DATA_CONST.__objc_classrefs: 0x19c8
+   __DATA_CONST.__objc_superrefs: 0xd60
+
+   __AUTH_CONST.__objc_arrayobj: 0xe88
+   __AUTH_CONST.__objc_doubleobj: 0x70
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH_CONST.__auth_got: 0x27e0
+-  __AUTH.__objc_data: 0xa280
++  __AUTH_CONST.__auth_got: 0x27d8
++  __AUTH.__objc_data: 0xa2d0
+   __AUTH.__data: 0xd8
+   __DATA.__got_weak: 0x8
+-  __DATA.__objc_ivar: 0x2b20
++  __DATA.__objc_ivar: 0x2b24
+   __DATA.__objc_const_ax: 0x0
+-  __DATA.__data: 0x3968
++  __DATA.__data: 0x3978
+   __DATA.__common: 0xa25
+-  __DATA.__bss: 0x8b8
+-  __DATA_DIRTY.__objc_data: 0x2990
++  __DATA.__bss: 0x898
++  __DATA_DIRTY.__objc_data: 0x2940
+   __DATA_DIRTY.__data: 0x8
+-  __DATA_DIRTY.__bss: 0x248
++  __DATA_DIRTY.__bss: 0x258
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8A6EDF34-838D-3F42-B7B5-70E91229DE0A
+-  Functions: 16363
+-  Symbols:   54178
+-  CStrings:  27097
++  UUID: 64ED6882-4A07-3A1C-AF8C-257F7F764851
++  Functions: 16360
++  Symbols:   54164
++  CStrings:  27099
+ 
+Symbols:
++ -[MPCloudController _updateSagaEnabled]
++ -[MPCloudController lock]
++ GCC_except_table10918
++ GCC_except_table10979
++ GCC_except_table11006
++ GCC_except_table11008
++ GCC_except_table11051
++ GCC_except_table11076
++ GCC_except_table11080
++ GCC_except_table11082
++ GCC_except_table11084
++ GCC_except_table11122
++ GCC_except_table11141
++ GCC_except_table11143
++ GCC_except_table11149
++ GCC_except_table11153
++ GCC_except_table11179
++ GCC_except_table11181
++ GCC_except_table11183
++ GCC_except_table11188
++ GCC_except_table11199
++ GCC_except_table11203
++ GCC_except_table11222
++ GCC_except_table11223
++ GCC_except_table11224
++ GCC_except_table11229
++ GCC_except_table11230
++ GCC_except_table11234
++ GCC_except_table11235
++ GCC_except_table11236
++ GCC_except_table11245
++ GCC_except_table11246
++ GCC_except_table11247
++ GCC_except_table11373
++ GCC_except_table11425
++ GCC_except_table11432
++ GCC_except_table11448
++ GCC_except_table11583
++ GCC_except_table11617
++ GCC_except_table11904
++ GCC_except_table11908
++ GCC_except_table12126
++ GCC_except_table12128
++ GCC_except_table12130
++ GCC_except_table12132
++ GCC_except_table12154
++ GCC_except_table12159
++ GCC_except_table12168
++ GCC_except_table12182
++ GCC_except_table12306
++ GCC_except_table12324
++ GCC_except_table12325
++ GCC_except_table12335
++ GCC_except_table12336
++ GCC_except_table12340
++ GCC_except_table12350
++ GCC_except_table12363
++ GCC_except_table12463
++ GCC_except_table12479
++ GCC_except_table12506
++ GCC_except_table12523
++ GCC_except_table12535
++ GCC_except_table12551
++ GCC_except_table12662
++ GCC_except_table12820
++ GCC_except_table12842
++ GCC_except_table12916
++ GCC_except_table13036
++ GCC_except_table13038
++ GCC_except_table13102
++ GCC_except_table13106
++ GCC_except_table13113
++ GCC_except_table13145
++ GCC_except_table13204
++ GCC_except_table13223
++ GCC_except_table13239
++ GCC_except_table13241
++ GCC_except_table13351
++ GCC_except_table13353
++ GCC_except_table13355
++ GCC_except_table13359
++ GCC_except_table13360
++ GCC_except_table13371
++ GCC_except_table13372
++ GCC_except_table13373
++ GCC_except_table13377
++ GCC_except_table13378
++ GCC_except_table13386
++ GCC_except_table13387
++ GCC_except_table13388
++ GCC_except_table13394
++ GCC_except_table13402
++ GCC_except_table13406
++ GCC_except_table13407
++ GCC_except_table13412
++ GCC_except_table13417
++ GCC_except_table13418
++ GCC_except_table13419
++ GCC_except_table13431
++ GCC_except_table13436
++ GCC_except_table13437
++ GCC_except_table13443
++ GCC_except_table13447
++ GCC_except_table13452
++ GCC_except_table13463
++ GCC_except_table13464
++ GCC_except_table13465
++ GCC_except_table13480
++ GCC_except_table13481
++ GCC_except_table13482
++ GCC_except_table13489
++ GCC_except_table13490
++ GCC_except_table13491
++ GCC_except_table13503
++ GCC_except_table13511
++ GCC_except_table13512
++ GCC_except_table13513
++ GCC_except_table13520
++ GCC_except_table13521
++ GCC_except_table13522
++ GCC_except_table13528
++ GCC_except_table13529
++ GCC_except_table13530
++ GCC_except_table13552
++ GCC_except_table13557
++ GCC_except_table13558
++ GCC_except_table13559
++ GCC_except_table13564
++ GCC_except_table13573
++ GCC_except_table13575
++ GCC_except_table13627
++ GCC_except_table13628
++ GCC_except_table13629
++ GCC_except_table13643
++ GCC_except_table13644
++ GCC_except_table13645
++ GCC_except_table13667
++ GCC_except_table13668
++ GCC_except_table13669
++ GCC_except_table13692
++ GCC_except_table13693
++ GCC_except_table13710
++ GCC_except_table13711
++ GCC_except_table13719
++ GCC_except_table13720
++ GCC_except_table13721
++ GCC_except_table13725
++ GCC_except_table13743
++ GCC_except_table13750
++ GCC_except_table13752
++ GCC_except_table13754
++ GCC_except_table13759
++ GCC_except_table13760
++ GCC_except_table13776
++ GCC_except_table13777
++ GCC_except_table13778
++ GCC_except_table13828
++ GCC_except_table13900
++ GCC_except_table13904
++ GCC_except_table14026
++ GCC_except_table14035
++ GCC_except_table14046
++ GCC_except_table14051
++ GCC_except_table14060
++ GCC_except_table14064
++ GCC_except_table14066
++ GCC_except_table14070
++ GCC_except_table14098
++ GCC_except_table14192
++ GCC_except_table14193
++ GCC_except_table14197
++ GCC_except_table14208
++ GCC_except_table14213
++ GCC_except_table14272
++ GCC_except_table14296
++ GCC_except_table14439
++ GCC_except_table14506
++ GCC_except_table14510
++ GCC_except_table14515
++ GCC_except_table14696
++ GCC_except_table14709
++ GCC_except_table14713
++ GCC_except_table14726
++ GCC_except_table14782
++ GCC_except_table14786
++ GCC_except_table14787
++ GCC_except_table14792
++ GCC_except_table14796
++ GCC_except_table14797
++ GCC_except_table14803
++ GCC_except_table14804
++ GCC_except_table14805
++ GCC_except_table14812
++ GCC_except_table14825
++ GCC_except_table14829
++ GCC_except_table14830
++ GCC_except_table14834
++ GCC_except_table14848
++ GCC_except_table14849
++ GCC_except_table14853
++ GCC_except_table14855
++ GCC_except_table14863
++ GCC_except_table14864
++ GCC_except_table14886
++ GCC_except_table15188
++ GCC_except_table15267
++ GCC_except_table15312
++ GCC_except_table15442
++ GCC_except_table15463
++ GCC_except_table15469
++ GCC_except_table15473
++ GCC_except_table15483
++ GCC_except_table15484
++ GCC_except_table15485
++ GCC_except_table15493
++ GCC_except_table15508
++ GCC_except_table15516
++ GCC_except_table15517
++ GCC_except_table15526
++ GCC_except_table15539
++ GCC_except_table15546
++ GCC_except_table15547
++ GCC_except_table15557
++ GCC_except_table15558
++ GCC_except_table15571
++ GCC_except_table15597
++ GCC_except_table15598
++ GCC_except_table15642
++ GCC_except_table15654
++ GCC_except_table15659
++ GCC_except_table15663
++ GCC_except_table15664
++ GCC_except_table15665
++ GCC_except_table15708
++ _MSVFastHexStringFromBytes.hexCharacters.53777
++ _OBJC_IVAR_$_MPCloudController._lock
++ _RadioLibraryCore.frameworkLibrary.45298
++ _StoreServicesLibrary.56138
++ _StoreServicesLibraryCore.frameworkLibrary.55879
++ _StoreServicesLibraryCore.frameworkLibrary.56155
++ __MSV_XXH_XXH32_update.51137
++ __MSV_XXH_XXH32_update.53768
++ __MSV_XXH_XXH64_update.51138
++ __MSV_XXH_XXH64_update.53769
++ ___34-[MPCloudController _resignActive]_block_invoke.240
++ ___39-[MPCloudController _updateSagaEnabled]_block_invoke
++ ___45-[MPVolumeControllerSystemDataSource _reload]_block_invoke.27
++ ___53-[MPCloudController _initializeUpdateInProgressState]_block_invoke.234
++ ___53-[MPCloudController _initializeUpdateInProgressState]_block_invoke_2.235
++ ___Block_byref_object_copy_.38970
++ ___Block_byref_object_copy_.39349
++ ___Block_byref_object_copy_.39517
++ ___Block_byref_object_copy_.40330
++ ___Block_byref_object_copy_.40680
++ ___Block_byref_object_copy_.41423
++ ___Block_byref_object_copy_.42166
++ ___Block_byref_object_copy_.43141
++ ___Block_byref_object_copy_.44592
++ ___Block_byref_object_copy_.44797
++ ___Block_byref_object_copy_.46016
++ ___Block_byref_object_copy_.46654
++ ___Block_byref_object_copy_.46992
++ ___Block_byref_object_copy_.47170
++ ___Block_byref_object_copy_.47655
++ ___Block_byref_object_copy_.49821
++ ___Block_byref_object_copy_.50053
++ ___Block_byref_object_copy_.50489
++ ___Block_byref_object_copy_.50641
++ ___Block_byref_object_copy_.50732
++ ___Block_byref_object_copy_.50991
++ ___Block_byref_object_copy_.51615
++ ___Block_byref_object_copy_.51931
++ ___Block_byref_object_copy_.52755
++ ___Block_byref_object_copy_.53002
++ ___Block_byref_object_copy_.54630
++ ___Block_byref_object_copy_.55867
++ ___Block_byref_object_copy_.56198
++ ___Block_byref_object_copy_.56444
++ ___Block_byref_object_copy_.56641
++ ___Block_byref_object_copy_.81.52800
++ ___Block_byref_object_dispose_.38971
++ ___Block_byref_object_dispose_.39350
++ ___Block_byref_object_dispose_.39518
++ ___Block_byref_object_dispose_.40331
++ ___Block_byref_object_dispose_.40681
++ ___Block_byref_object_dispose_.41424
++ ___Block_byref_object_dispose_.42167
++ ___Block_byref_object_dispose_.43142
++ ___Block_byref_object_dispose_.44593
++ ___Block_byref_object_dispose_.44798
++ ___Block_byref_object_dispose_.46017
++ ___Block_byref_object_dispose_.46655
++ ___Block_byref_object_dispose_.46993
++ ___Block_byref_object_dispose_.47171
++ ___Block_byref_object_dispose_.47656
++ ___Block_byref_object_dispose_.49822
++ ___Block_byref_object_dispose_.50054
++ ___Block_byref_object_dispose_.50490
++ ___Block_byref_object_dispose_.50642
++ ___Block_byref_object_dispose_.50733
++ ___Block_byref_object_dispose_.50992
++ ___Block_byref_object_dispose_.51616
++ ___Block_byref_object_dispose_.51932
++ ___Block_byref_object_dispose_.52756
++ ___Block_byref_object_dispose_.53003
++ ___Block_byref_object_dispose_.54631
++ ___Block_byref_object_dispose_.55868
++ ___Block_byref_object_dispose_.56199
++ ___Block_byref_object_dispose_.56445
++ ___Block_byref_object_dispose_.56642
++ ___Block_byref_object_dispose_.82.52801
++ ___RadioLibraryCore_block_invoke.45299
++ ___StoreServicesLibraryCore_block_invoke.55880
++ ___StoreServicesLibraryCore_block_invoke.56156
++ ___block_literal_global.102.48538
++ ___block_literal_global.104.48539
++ ___block_literal_global.105.53059
++ ___block_literal_global.107.48541
++ ___block_literal_global.108.38978
++ ___block_literal_global.109.44125
++ ___block_literal_global.118.48548
++ ___block_literal_global.121.48550
++ ___block_literal_global.128.48556
++ ___block_literal_global.132.44130
++ ___block_literal_global.132.48559
++ ___block_literal_global.134.44131
++ ___block_literal_global.139.48562
++ ___block_literal_global.142.48564
++ ___block_literal_global.146.48567
++ ___block_literal_global.149.48569
++ ___block_literal_global.157
++ ___block_literal_global.158.48573
++ ___block_literal_global.163.48575
++ ___block_literal_global.169.38908
++ ___block_literal_global.174.44132
++ ___block_literal_global.181.44133
++ ___block_literal_global.185.44134
++ ___block_literal_global.191.48577
++ ___block_literal_global.195.44135
++ ___block_literal_global.195.48580
++ ___block_literal_global.199.48582
++ ___block_literal_global.202.38877
++ ___block_literal_global.204.38880
++ ___block_literal_global.205.48584
++ ___block_literal_global.206
++ ___block_literal_global.207.44196
++ ___block_literal_global.208.48586
++ ___block_literal_global.21.48513
++ ___block_literal_global.214.48587
++ ___block_literal_global.218.48589
++ ___block_literal_global.220.48590
++ ___block_literal_global.222.48591
++ ___block_literal_global.225.48593
++ ___block_literal_global.239.48598
++ ___block_literal_global.24.48514
++ ___block_literal_global.243.48601
++ ___block_literal_global.247.48604
++ ___block_literal_global.251.48607
++ ___block_literal_global.253.48608
++ ___block_literal_global.269.48611
++ ___block_literal_global.281.48613
++ ___block_literal_global.288.48615
++ ___block_literal_global.29.40825
++ ___block_literal_global.294.48616
++ ___block_literal_global.308.48619
++ ___block_literal_global.310.48620
++ ___block_literal_global.312.48621
++ ___block_literal_global.319.44167
++ ___block_literal_global.319.53085
++ ___block_literal_global.32.55139
++ ___block_literal_global.324.48623
++ ___block_literal_global.34.49863
++ ___block_literal_global.34.55137
++ ___block_literal_global.341.44141
++ ___block_literal_global.356.44144
++ ___block_literal_global.356.48627
++ ___block_literal_global.388.48637
++ ___block_literal_global.39028
++ ___block_literal_global.39490
++ ___block_literal_global.40827
++ ___block_literal_global.41815
++ ___block_literal_global.42179
++ ___block_literal_global.425.48646
++ ___block_literal_global.427.48647
++ ___block_literal_global.43137
++ ___block_literal_global.43553
++ ___block_literal_global.43583
++ ___block_literal_global.43854
++ ___block_literal_global.44.55359
++ ___block_literal_global.44046
++ ___block_literal_global.44115
++ ___block_literal_global.44478
++ ___block_literal_global.44717
++ ___block_literal_global.44834
++ ___block_literal_global.45.48985
++ ___block_literal_global.46785
++ ___block_literal_global.48511
++ ___block_literal_global.49118
++ ___block_literal_global.49866
++ ___block_literal_global.501.48659
++ ___block_literal_global.50177
++ ___block_literal_global.50666
++ ___block_literal_global.50892
++ ___block_literal_global.509.48660
++ ___block_literal_global.51284
++ ___block_literal_global.517.48661
++ ___block_literal_global.519.48662
++ ___block_literal_global.52809
++ ___block_literal_global.53067
++ ___block_literal_global.53819
++ ___block_literal_global.54662
++ ___block_literal_global.54720
++ ___block_literal_global.54917
++ ___block_literal_global.55144
++ ___block_literal_global.55361
++ ___block_literal_global.555.48663
++ ___block_literal_global.557.48664
++ ___block_literal_global.55954
++ ___block_literal_global.562.48666
++ ___block_literal_global.56408
++ ___block_literal_global.56450
++ ___block_literal_global.589.48670
++ ___block_literal_global.6.41812
++ ___block_literal_global.60.48525
++ ___block_literal_global.621.48673
++ ___block_literal_global.63.39024
++ ___block_literal_global.66.38981
++ ___block_literal_global.664.48678
++ ___block_literal_global.670.48679
++ ___block_literal_global.672.48680
++ ___block_literal_global.687.48681
++ ___block_literal_global.701.48682
++ ___block_literal_global.706.48683
++ ___block_literal_global.73.48526
++ ___block_literal_global.736.48684
++ ___block_literal_global.744.48685
++ ___block_literal_global.754.48687
++ ___block_literal_global.756.48688
++ ___block_literal_global.79.44121
++ ___block_literal_global.79.48528
++ ___block_literal_global.795.48689
++ ___block_literal_global.8.53822
++ ___block_literal_global.802.48690
++ ___block_literal_global.836.48691
++ ___block_literal_global.844.48692
++ ___block_literal_global.87.48531
++ ___block_literal_global.95.44122
++ ___block_literal_global.96.48534
++ ___block_literal_global.98.48535
++ ___getSSDownloadClass_block_invoke.56162
++ ___getSSDownloadExternalPropertyRentalInformationSymbolLoc_block_invoke.56280
++ ___getSSDownloadKindMusicSymbolLoc_block_invoke.56270
++ ___getSSDownloadPhaseFailedSymbolLoc_block_invoke.56233
++ ___getSSDownloadPhaseFinishedSymbolLoc_block_invoke.56137
++ ___getSSDownloadPropertyClientBundleIdentifierSymbolLoc_block_invoke.56174
++ ___getSSDownloadPropertyHandlerIDSymbolLoc_block_invoke.56300
++ ___getSSDownloadPropertyIsRestoreSymbolLoc_block_invoke.56286
++ ___getSSDownloadPropertyKindSymbolLoc_block_invoke.56178
++ ___getSSDownloadPropertyLibraryItemIdentifierSymbolLoc_block_invoke.56148
++ ___getSSDownloadPropertyReasonSymbolLoc_block_invoke.56291
++ ___getSSDownloadPropertyStoreItemIdentifierSymbolLoc_block_invoke.56195
++ ___getSSDownloadPropertyTitleSymbolLoc_block_invoke.56296
++ ___getSSPurchaseClass_block_invoke.56169
++ __unnamed_array_storage.350.44150
++ __unnamed_array_storage.38986
++ __unnamed_array_storage.44324
++ __unnamed_array_storage.46102
++ __unnamed_array_storage.53022
++ __unnamed_array_storage.53825
++ __unnamed_array_storage.54620
++ _audit_stringRadio.45314
++ _audit_stringStoreServices.55883
++ _audit_stringStoreServices.56159
++ _buildSchemaIfNeeded.onceToken.43552
++ _controllers.__controllers.39025
++ _controllers.onceToken.39023
++ _getSSDownloadClass.softClass.56161
++ _getSSDownloadExternalPropertyRentalInformationSymbolLoc.ptr.56279
++ _getSSDownloadKindMusicSymbolLoc.ptr.56269
++ _getSSDownloadPhaseFailedSymbolLoc.ptr.56232
++ _getSSDownloadPhaseFinishedSymbolLoc.ptr.56136
++ _getSSDownloadPropertyClientBundleIdentifierSymbolLoc.ptr.56173
++ _getSSDownloadPropertyHandlerIDSymbolLoc.ptr.56299
++ _getSSDownloadPropertyIsRestoreSymbolLoc.ptr.56285
++ _getSSDownloadPropertyKindSymbolLoc.ptr.56177
++ _getSSDownloadPropertyLibraryItemIdentifier.56145
++ _getSSDownloadPropertyLibraryItemIdentifierSymbolLoc.ptr.56147
++ _getSSDownloadPropertyReasonSymbolLoc.ptr.56290
++ _getSSDownloadPropertyStoreItemIdentifier.56193
++ _getSSDownloadPropertyStoreItemIdentifierSymbolLoc.ptr.56194
++ _getSSDownloadPropertyTitleSymbolLoc.ptr.56295
++ _getSSPurchaseClass.softClass.56168
++ _globalSerialQueue.__globalSerialQueue.39029
++ _globalSerialQueue.onceToken.39027
++ _objc_msgSend$_updateSagaEnabled
++ _sharedManager.onceToken.56333
++ _sharedReporter.isDispatched.50891
++ _sharedReporter.sharedInstance.50893
+- -[MPCloudController _loadIsSagaAuthenticatedWithCompletion:]
+- GCC_except_table10919
+- GCC_except_table10980
+- GCC_except_table11007
+- GCC_except_table11009
+- GCC_except_table11018
+- GCC_except_table11020
+- GCC_except_table11054
+- GCC_except_table11079
+- GCC_except_table11085
+- GCC_except_table11086
+- GCC_except_table11087
+- GCC_except_table11125
+- GCC_except_table11144
+- GCC_except_table11146
+- GCC_except_table11152
+- GCC_except_table11156
+- GCC_except_table11185
+- GCC_except_table11189
+- GCC_except_table11190
+- GCC_except_table11191
+- GCC_except_table11208
+- GCC_except_table11209
+- GCC_except_table11226
+- GCC_except_table11227
+- GCC_except_table11228
+- GCC_except_table11232
+- GCC_except_table11233
+- GCC_except_table11237
+- GCC_except_table11238
+- GCC_except_table11239
+- GCC_except_table11253
+- GCC_except_table11254
+- GCC_except_table11255
+- GCC_except_table11376
+- GCC_except_table11428
+- GCC_except_table11435
+- GCC_except_table11451
+- GCC_except_table11586
+- GCC_except_table11620
+- GCC_except_table11907
+- GCC_except_table11911
+- GCC_except_table12129
+- GCC_except_table12131
+- GCC_except_table12133
+- GCC_except_table12135
+- GCC_except_table12160
+- GCC_except_table12162
+- GCC_except_table12171
+- GCC_except_table12185
+- GCC_except_table12309
+- GCC_except_table12330
+- GCC_except_table12337
+- GCC_except_table12338
+- GCC_except_table12345
+- GCC_except_table12346
+- GCC_except_table12353
+- GCC_except_table12366
+- GCC_except_table12466
+- GCC_except_table12482
+- GCC_except_table12509
+- GCC_except_table12526
+- GCC_except_table12538
+- GCC_except_table12554
+- GCC_except_table12665
+- GCC_except_table12823
+- GCC_except_table12845
+- GCC_except_table12919
+- GCC_except_table13039
+- GCC_except_table13041
+- GCC_except_table13105
+- GCC_except_table13112
+- GCC_except_table13116
+- GCC_except_table13148
+- GCC_except_table13207
+- GCC_except_table13226
+- GCC_except_table13242
+- GCC_except_table13244
+- GCC_except_table13356
+- GCC_except_table13357
+- GCC_except_table13362
+- GCC_except_table13363
+- GCC_except_table13364
+- GCC_except_table13374
+- GCC_except_table13375
+- GCC_except_table13379
+- GCC_except_table13381
+- GCC_except_table13383
+- GCC_except_table13391
+- GCC_except_table13396
+- GCC_except_table13397
+- GCC_except_table13398
+- GCC_except_table13409
+- GCC_except_table13414
+- GCC_except_table13415
+- GCC_except_table13416
+- GCC_except_table13428
+- GCC_except_table13430
+- GCC_except_table13434
+- GCC_except_table13438
+- GCC_except_table13440
+- GCC_except_table13442
+- GCC_except_table13446
+- GCC_except_table13450
+- GCC_except_table13455
+- GCC_except_table13467
+- GCC_except_table13468
+- GCC_except_table13472
+- GCC_except_table13485
+- GCC_except_table13486
+- GCC_except_table13487
+- GCC_except_table13500
+- GCC_except_table13507
+- GCC_except_table13508
+- GCC_except_table13509
+- GCC_except_table13517
+- GCC_except_table13518
+- GCC_except_table13519
+- GCC_except_table13524
+- GCC_except_table13525
+- GCC_except_table13526
+- GCC_except_table13549
+- GCC_except_table13550
+- GCC_except_table13554
+- GCC_except_table13555
+- GCC_except_table13561
+- GCC_except_table13570
+- GCC_except_table13572
+- GCC_except_table13624
+- GCC_except_table13625
+- GCC_except_table13626
+- GCC_except_table13632
+- GCC_except_table13634
+- GCC_except_table13639
+- GCC_except_table13663
+- GCC_except_table13664
+- GCC_except_table13665
+- GCC_except_table13689
+- GCC_except_table13690
+- GCC_except_table13707
+- GCC_except_table13708
+- GCC_except_table13714
+- GCC_except_table13715
+- GCC_except_table13716
+- GCC_except_table13722
+- GCC_except_table13737
+- GCC_except_table13747
+- GCC_except_table13748
+- GCC_except_table13749
+- GCC_except_table13756
+- GCC_except_table13757
+- GCC_except_table13764
+- GCC_except_table13765
+- GCC_except_table13766
+- GCC_except_table13825
+- GCC_except_table13835
+- GCC_except_table13836
+- GCC_except_table13837
+- GCC_except_table13906
+- GCC_except_table13907
+- GCC_except_table14029
+- GCC_except_table14038
+- GCC_except_table14052
+- GCC_except_table14054
+- GCC_except_table14063
+- GCC_except_table14067
+- GCC_except_table14069
+- GCC_except_table14073
+- GCC_except_table14101
+- GCC_except_table14195
+- GCC_except_table14196
+- GCC_except_table14200
+- GCC_except_table14214
+- GCC_except_table14216
+- GCC_except_table14275
+- GCC_except_table14299
+- GCC_except_table14442
+- GCC_except_table14509
+- GCC_except_table14513
+- GCC_except_table14518
+- GCC_except_table14699
+- GCC_except_table14712
+- GCC_except_table14716
+- GCC_except_table14729
+- GCC_except_table14789
+- GCC_except_table14790
+- GCC_except_table14794
+- GCC_except_table14799
+- GCC_except_table14800
+- GCC_except_table14801
+- GCC_except_table14808
+- GCC_except_table14809
+- GCC_except_table14815
+- GCC_except_table14822
+- GCC_except_table14828
+- GCC_except_table14832
+- GCC_except_table14836
+- GCC_except_table14837
+- GCC_except_table14852
+- GCC_except_table14860
+- GCC_except_table14861
+- GCC_except_table14862
+- GCC_except_table14866
+- GCC_except_table14867
+- GCC_except_table14889
+- GCC_except_table15191
+- GCC_except_table15270
+- GCC_except_table15315
+- GCC_except_table15445
+- GCC_except_table15466
+- GCC_except_table15472
+- GCC_except_table15479
+- GCC_except_table15487
+- GCC_except_table15488
+- GCC_except_table15489
+- GCC_except_table15499
+- GCC_except_table15511
+- GCC_except_table15519
+- GCC_except_table15520
+- GCC_except_table15529
+- GCC_except_table15545
+- GCC_except_table15549
+- GCC_except_table15550
+- GCC_except_table15560
+- GCC_except_table15561
+- GCC_except_table15574
+- GCC_except_table15600
+- GCC_except_table15601
+- GCC_except_table15648
+- GCC_except_table15657
+- GCC_except_table15662
+- GCC_except_table15666
+- GCC_except_table15667
+- GCC_except_table15668
+- GCC_except_table15711
+- _MSVFastHexStringFromBytes.hexCharacters.53764
+- _RadioLibraryCore.frameworkLibrary.45286
+- _StoreServicesLibrary.56123
+- _StoreServicesLibraryCore.frameworkLibrary.55864
+- _StoreServicesLibraryCore.frameworkLibrary.56140
+- __MSV_XXH_XXH32_update.51125
+- __MSV_XXH_XXH32_update.53755
+- __MSV_XXH_XXH64_update.51126
+- __MSV_XXH_XXH64_update.53756
+- ___34-[MPCloudController _resignActive]_block_invoke.244
+- ___42-[MPCloudController hasCloudLockerAccount]_block_invoke
+- ___45-[MPVolumeControllerSystemDataSource _reload]_block_invoke_3
+- ___46-[MPCloudController hasPurchaseHistoryAccount]_block_invoke
+- ___51-[MPCloudController _becomeActiveAndWaitUntilDone:]_block_invoke.243
+- ___53-[MPCloudController _initializeUpdateInProgressState]_block_invoke.237
+- ___53-[MPCloudController _initializeUpdateInProgressState]_block_invoke_2.238
+- ___60-[MPCloudController _loadIsSagaAuthenticatedWithCompletion:]_block_invoke
+- ___60-[MPCloudController _loadIsSagaAuthenticatedWithCompletion:]_block_invoke.234
+- ___Block_byref_object_copy_.38956
+- ___Block_byref_object_copy_.39335
+- ___Block_byref_object_copy_.39503
+- ___Block_byref_object_copy_.40316
+- ___Block_byref_object_copy_.40666
+- ___Block_byref_object_copy_.41409
+- ___Block_byref_object_copy_.42154
+- ___Block_byref_object_copy_.43129
+- ___Block_byref_object_copy_.44580
+- ___Block_byref_object_copy_.44785
+- ___Block_byref_object_copy_.46004
+- ___Block_byref_object_copy_.46643
+- ___Block_byref_object_copy_.46981
+- ___Block_byref_object_copy_.47159
+- ___Block_byref_object_copy_.47643
+- ___Block_byref_object_copy_.49809
+- ___Block_byref_object_copy_.50041
+- ___Block_byref_object_copy_.50477
+- ___Block_byref_object_copy_.50629
+- ___Block_byref_object_copy_.50720
+- ___Block_byref_object_copy_.50979
+- ___Block_byref_object_copy_.51603
+- ___Block_byref_object_copy_.51918
+- ___Block_byref_object_copy_.52742
+- ___Block_byref_object_copy_.52989
+- ___Block_byref_object_copy_.54617
+- ___Block_byref_object_copy_.55852
+- ___Block_byref_object_copy_.56183
+- ___Block_byref_object_copy_.56429
+- ___Block_byref_object_copy_.56626
+- ___Block_byref_object_copy_.81.52787
+- ___Block_byref_object_dispose_.38957
+- ___Block_byref_object_dispose_.39336
+- ___Block_byref_object_dispose_.39504
+- ___Block_byref_object_dispose_.40317
+- ___Block_byref_object_dispose_.40667
+- ___Block_byref_object_dispose_.41410
+- ___Block_byref_object_dispose_.42155
+- ___Block_byref_object_dispose_.43130
+- ___Block_byref_object_dispose_.44581
+- ___Block_byref_object_dispose_.44786
+- ___Block_byref_object_dispose_.46005
+- ___Block_byref_object_dispose_.46644
+- ___Block_byref_object_dispose_.46982
+- ___Block_byref_object_dispose_.47160
+- ___Block_byref_object_dispose_.47644
+- ___Block_byref_object_dispose_.49810
+- ___Block_byref_object_dispose_.50042
+- ___Block_byref_object_dispose_.50478
+- ___Block_byref_object_dispose_.50630
+- ___Block_byref_object_dispose_.50721
+- ___Block_byref_object_dispose_.50980
+- ___Block_byref_object_dispose_.51604
+- ___Block_byref_object_dispose_.51919
+- ___Block_byref_object_dispose_.52743
+- ___Block_byref_object_dispose_.52990
+- ___Block_byref_object_dispose_.54618
+- ___Block_byref_object_dispose_.55853
+- ___Block_byref_object_dispose_.56184
+- ___Block_byref_object_dispose_.56430
+- ___Block_byref_object_dispose_.56627
+- ___Block_byref_object_dispose_.82.52788
+- ___RadioLibraryCore_block_invoke.45287
+- ___StoreServicesLibraryCore_block_invoke.55865
+- ___StoreServicesLibraryCore_block_invoke.56141
+- ___block_descriptor_57_e8_32s40bs48r_e5_v8?0ls32l8r48l8s40l8
+- ___block_literal_global.102.48526
+- ___block_literal_global.104.48527
+- ___block_literal_global.105.53046
+- ___block_literal_global.107.48529
+- ___block_literal_global.108.38964
+- ___block_literal_global.109.44113
+- ___block_literal_global.118.48536
+- ___block_literal_global.121.48538
+- ___block_literal_global.128.48544
+- ___block_literal_global.132.44118
+- ___block_literal_global.132.48547
+- ___block_literal_global.134.44119
+- ___block_literal_global.139.48550
+- ___block_literal_global.142.48552
+- ___block_literal_global.146.48555
+- ___block_literal_global.149.48557
+- ___block_literal_global.158.38907
+- ___block_literal_global.158.48561
+- ___block_literal_global.163.48563
+- ___block_literal_global.170.38894
+- ___block_literal_global.174.44120
+- ___block_literal_global.181.44121
+- ___block_literal_global.185.44122
+- ___block_literal_global.191.48565
+- ___block_literal_global.195.44123
+- ___block_literal_global.195.48568
+- ___block_literal_global.199.48570
+- ___block_literal_global.203
+- ___block_literal_global.205.41778
+- ___block_literal_global.205.48572
+- ___block_literal_global.207.38866
+- ___block_literal_global.207.44184
+- ___block_literal_global.208.48574
+- ___block_literal_global.21.48501
+- ___block_literal_global.214.48575
+- ___block_literal_global.218.48577
+- ___block_literal_global.220.48578
+- ___block_literal_global.222.48579
+- ___block_literal_global.225.48581
+- ___block_literal_global.239.48586
+- ___block_literal_global.24.48502
+- ___block_literal_global.243.48589
+- ___block_literal_global.247.48592
+- ___block_literal_global.251.48595
+- ___block_literal_global.253.48596
+- ___block_literal_global.269.48599
+- ___block_literal_global.281.48601
+- ___block_literal_global.288.48603
+- ___block_literal_global.29.40811
+- ___block_literal_global.294.48604
+- ___block_literal_global.308.48607
+- ___block_literal_global.31.55126
+- ___block_literal_global.310.48608
+- ___block_literal_global.312.48609
+- ___block_literal_global.319.44155
+- ___block_literal_global.319.53072
+- ___block_literal_global.324.48611
+- ___block_literal_global.33.55124
+- ___block_literal_global.34.49851
+- ___block_literal_global.341.44129
+- ___block_literal_global.356.44132
+- ___block_literal_global.356.48615
+- ___block_literal_global.388.48625
+- ___block_literal_global.39014
+- ___block_literal_global.39476
+- ___block_literal_global.40813
+- ___block_literal_global.41803
+- ___block_literal_global.42167
+- ___block_literal_global.425.48634
+- ___block_literal_global.427.48635
+- ___block_literal_global.43125
+- ___block_literal_global.43541
+- ___block_literal_global.43571
+- ___block_literal_global.43842
+- ___block_literal_global.44.55344
+- ___block_literal_global.44034
+- ___block_literal_global.44103
+- ___block_literal_global.44466
+- ___block_literal_global.44705
+- ___block_literal_global.44822
+- ___block_literal_global.45.48973
+- ___block_literal_global.46774
+- ___block_literal_global.48499
+- ___block_literal_global.49106
+- ___block_literal_global.49854
+- ___block_literal_global.501.48647
+- ___block_literal_global.50165
+- ___block_literal_global.50654
+- ___block_literal_global.50880
+- ___block_literal_global.509.48648
+- ___block_literal_global.51272
+- ___block_literal_global.517.48649
+- ___block_literal_global.519.48650
+- ___block_literal_global.52796
+- ___block_literal_global.53054
+- ___block_literal_global.53806
+- ___block_literal_global.54649
+- ___block_literal_global.54707
+- ___block_literal_global.54904
+- ___block_literal_global.55130
+- ___block_literal_global.55346
+- ___block_literal_global.555.48651
+- ___block_literal_global.557.48652
+- ___block_literal_global.55939
+- ___block_literal_global.562.48654
+- ___block_literal_global.56393
+- ___block_literal_global.56435
+- ___block_literal_global.589.48658
+- ___block_literal_global.6.41800
+- ___block_literal_global.60.48513
+- ___block_literal_global.621.48661
+- ___block_literal_global.63.39010
+- ___block_literal_global.66.38967
+- ___block_literal_global.664.48666
+- ___block_literal_global.670.48667
+- ___block_literal_global.672.48668
+- ___block_literal_global.687.48669
+- ___block_literal_global.701.48670
+- ___block_literal_global.706.48671
+- ___block_literal_global.73.48514
+- ___block_literal_global.736.48672
+- ___block_literal_global.744.48673
+- ___block_literal_global.754.48675
+- ___block_literal_global.756.48676
+- ___block_literal_global.79.44109
+- ___block_literal_global.79.48516
+- ___block_literal_global.795.48677
+- ___block_literal_global.8.53809
+- ___block_literal_global.802.48678
+- ___block_literal_global.836.48679
+- ___block_literal_global.844.48680
+- ___block_literal_global.87.48519
+- ___block_literal_global.95.44110
+- ___block_literal_global.96.48522
+- ___block_literal_global.98.48523
+- ___getSSDownloadClass_block_invoke.56147
+- ___getSSDownloadExternalPropertyRentalInformationSymbolLoc_block_invoke.56265
+- ___getSSDownloadKindMusicSymbolLoc_block_invoke.56255
+- ___getSSDownloadPhaseFailedSymbolLoc_block_invoke.56218
+- ___getSSDownloadPhaseFinishedSymbolLoc_block_invoke.56122
+- ___getSSDownloadPropertyClientBundleIdentifierSymbolLoc_block_invoke.56159
+- ___getSSDownloadPropertyHandlerIDSymbolLoc_block_invoke.56285
+- ___getSSDownloadPropertyIsRestoreSymbolLoc_block_invoke.56271
+- ___getSSDownloadPropertyKindSymbolLoc_block_invoke.56163
+- ___getSSDownloadPropertyLibraryItemIdentifierSymbolLoc_block_invoke.56133
+- ___getSSDownloadPropertyReasonSymbolLoc_block_invoke.56276
+- ___getSSDownloadPropertyStoreItemIdentifierSymbolLoc_block_invoke.56180
+- ___getSSDownloadPropertyTitleSymbolLoc_block_invoke.56281
+- ___getSSPurchaseClass_block_invoke.56154
+- __unnamed_array_storage.350.44138
+- __unnamed_array_storage.38972
+- __unnamed_array_storage.44312
+- __unnamed_array_storage.46090
+- __unnamed_array_storage.53009
+- __unnamed_array_storage.53812
+- __unnamed_array_storage.54607
+- _audit_stringRadio.45302
+- _audit_stringStoreServices.55868
+- _audit_stringStoreServices.56144
+- _buildSchemaIfNeeded.onceToken.43540
+- _controllers.__controllers.39011
+- _controllers.onceToken.39009
+- _dispatch_group_wait
+- _getSSDownloadClass.softClass.56146
+- _getSSDownloadExternalPropertyRentalInformationSymbolLoc.ptr.56264
+- _getSSDownloadKindMusicSymbolLoc.ptr.56254
+- _getSSDownloadPhaseFailedSymbolLoc.ptr.56217
+- _getSSDownloadPhaseFinishedSymbolLoc.ptr.56121
+- _getSSDownloadPropertyClientBundleIdentifierSymbolLoc.ptr.56158
+- _getSSDownloadPropertyHandlerIDSymbolLoc.ptr.56284
+- _getSSDownloadPropertyIsRestoreSymbolLoc.ptr.56270
+- _getSSDownloadPropertyKindSymbolLoc.ptr.56162
+- _getSSDownloadPropertyLibraryItemIdentifier.56130
+- _getSSDownloadPropertyLibraryItemIdentifierSymbolLoc.ptr.56132
+- _getSSDownloadPropertyReasonSymbolLoc.ptr.56275
+- _getSSDownloadPropertyStoreItemIdentifier.56178
+- _getSSDownloadPropertyStoreItemIdentifierSymbolLoc.ptr.56179
+- _getSSDownloadPropertyTitleSymbolLoc.ptr.56280
+- _getSSPurchaseClass.softClass.56153
+- _globalSerialQueue.__globalSerialQueue.39015
+- _globalSerialQueue.onceToken.39013
+- _objc_msgSend$_loadIsSagaAuthenticatedWithCompletion:
+- _objc_msgSend$isAuthenticated
+- _objc_msgSend$isAuthenticatedWithCompletionHandler:
+- _objc_msgSend$isCloudEnabledValid
+- _objc_msgSend$setCloudEnabled:
+- _objc_msgSend$setCloudEnabledValid:
+- _sharedManager.onceToken.56318
+- _sharedReporter.isDispatched.50879
+- _sharedReporter.sharedInstance.50881
+CStrings:
++ "%{public}@ - _updateSagaEnabled: - Cloud library enabled state did change [%{BOOL}u -> %{BOOL}u] - Posting notifications [MPCloudControllerIsCloudEnabledDidChangeNotification]"
++ "%{public}@ - _updateSagaEnabled: - loaded initial cloud library enabled state [cloudEnabled=%{BOOL}u]"
++ "%{public}@ - _updateSagaEnabled: - loading cloud library enabled state [current cloudEnabled=%{BOOL}u]"
++ "%{public}@ - _updateSagaEnabled: - no change in cloud library enabled state"
++ "%{public}@ _updateSagaEnabled Failed to load account properties error=%{public}@"
++ "%{public}@ hasPurchaseHistoryAccount Failed to load account properties error=%{public}@"
++ "/AppleInternal/Library/BuildRoots/940d59b9-fda0-11ee-bdca-da63d7bfd27f/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.Internal.sdk/System/Library/PrivateFrameworks/MediaLibraryCore.framework/PrivateHeaders/LibraryView.hpp"
++ "<%{public}@: %p> AVSystemController reloading volume: %f | category: %{public}@ | hasVolumeControl: %{BOOL}u | capabilities: %@"
++ "<%{public}@: %p> AVSystemController update mute to: %f | category %{public}@ | available: %{BOOL}u | capabilities: %@ | muted: %{BOOL}u"
++ "<%{public}@: %p> AVSystemController update volume to: %f | category %{public}@ | available: %{BOOL}u | capabilities: %@ | muted: %{BOOL}u"
++ "<%{public}@: %p> AVSystemController volume changed to: %f | category: %{public}@ | capabilities: %@ | reason: %{public}@ | silence: %{BOOL}u"
++ "T{os_unfair_lock_s=I},R,N,V_lock"
++ "_updateSagaEnabled"
+- "%{public}@ - _loadIsSagaAuthenticatedWithCompletion: - Cloud authentication did change [%{BOOL}u -> %{BOOL}u] - Posting notifications [MPCloudControllerIsCloudEnabledDidChangeNotification]"
+- "%{public}@ - _loadIsSagaAuthenticatedWithCompletion: - Requesting cloud authentication state [cloudEnabled=%{BOOL}u]"
+- "%{public}@ - _loadIsSagaAuthenticatedWithCompletion: - Retrieved cloud authentication state [isAuthenticated=%{BOOL}u]"
+- "%{public}@ - isCloudEnabled=%d, didHandleStateChange=%d"
+- "/AppleInternal/Library/BuildRoots/2d3303f9-dd50-11ee-ac91-22c3409c8aad/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.Internal.sdk/System/Library/PrivateFrameworks/MediaLibraryCore.framework/PrivateHeaders/LibraryView.hpp"
+- "<%{public}@: %p> AVSystemController update mute to: %f | category %{public}@ | available: %{BOOL}u | capabilities: %u | muted: %{BOOL}u"
+- "<%{public}@: %p> AVSystemController update volume to: %f | category %{public}@ | available: %{BOOL}u | capabilities: %u | muted: %{BOOL}u"
+- "<%{public}@: %p> AVSystemController volume changed to: %f | category: %{public}@ | reason: %{public}@ | silence: %{BOOL}u"
+- "_loadIsSagaAuthenticatedWithCompletion:"
+- "isAuthenticated"
+- "isAuthenticatedWithCompletionHandler:"
+
+```

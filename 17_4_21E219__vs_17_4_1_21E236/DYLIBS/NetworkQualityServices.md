@@ -1,0 +1,16 @@
+## NetworkQualityServices
+
+> `/System/Library/PrivateFrameworks/NetworkQualityServices.framework/NetworkQualityServices`
+
+```diff
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 30B40EA3-3FCE-3CDB-AACE-249FF56738E9
++  UUID: EC6A1322-E67A-3662-8FD0-13DE486C3A83
+   Functions: 7
+   Symbols:   71
+   CStrings:  26
+
+```

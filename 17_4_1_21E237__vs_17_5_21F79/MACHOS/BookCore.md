@@ -1,0 +1,1644 @@
+## BookCore
+
+> `/private/var/staged_system_apps/Books.app/Frameworks/BookCore.framework/BookCore`
+
+```diff
+
+-6040.0.0.0.0
+-  __TEXT.__text: 0x2019b4
+-  __TEXT.__auth_stubs: 0x4060
+-  __TEXT.__objc_stubs: 0x30780
+-  __TEXT.__objc_methlist: 0x1c84c
+-  __TEXT.__cstring: 0x14367
+-  __TEXT.__objc_classname: 0x42e5
+-  __TEXT.__objc_methname: 0x48bfa
+-  __TEXT.__objc_methtype: 0xb50e
+-  __TEXT.__const: 0x2884
+-  __TEXT.__gcc_except_tab: 0x32d8
+-  __TEXT.__oslogstring: 0x9210
++6070.12.1.0.0
++  __TEXT.__text: 0x1e4df8
++  __TEXT.__auth_stubs: 0x3d70
++  __TEXT.__objc_stubs: 0x2cf60
++  __TEXT.__objc_methlist: 0x19ebc
++  __TEXT.__cstring: 0x134b7
++  __TEXT.__objc_classname: 0x3e9e
++  __TEXT.__objc_methname: 0x43248
++  __TEXT.__objc_methtype: 0xa73a
++  __TEXT.__const: 0x2674
++  __TEXT.__gcc_except_tab: 0x30e4
++  __TEXT.__oslogstring: 0x8b29
+   __TEXT.__ustring: 0x48
+-  __TEXT.__swift5_typeref: 0x1360
+-  __TEXT.__constg_swiftt: 0x13fc
+-  __TEXT.__swift5_builtin: 0x104
+-  __TEXT.__swift5_reflstr: 0xafa
+-  __TEXT.__swift5_fieldmd: 0xccc
++  __TEXT.__swift5_typeref: 0x13be
++  __TEXT.__constg_swiftt: 0x13bc
++  __TEXT.__swift5_builtin: 0xf0
++  __TEXT.__swift5_reflstr: 0xc0a
++  __TEXT.__swift5_fieldmd: 0xce0
+   __TEXT.__swift5_assocty: 0x138
+-  __TEXT.__swift5_proto: 0xf8
+-  __TEXT.__swift5_types: 0x108
+-  __TEXT.__swift5_capture: 0xb74
++  __TEXT.__swift5_proto: 0xd4
++  __TEXT.__swift5_types: 0x100
++  __TEXT.__swift5_capture: 0xb94
+   __TEXT.__swift5_protos: 0x18
+-  __TEXT.__unwind_info: 0x8a44
+-  __TEXT.__eh_frame: 0xde0
+-  __DATA_CONST.__auth_got: 0x2048
+-  __DATA_CONST.__got: 0xc08
+-  __DATA_CONST.__auth_ptr: 0x98
+-  __DATA_CONST.__const: 0xad20
+-  __DATA_CONST.__cfstring: 0x119c0
+-  __DATA_CONST.__objc_classlist: 0xf30
+-  __DATA_CONST.__objc_catlist: 0x150
+-  __DATA_CONST.__objc_protolist: 0x6e8
++  __TEXT.__unwind_info: 0x813c
++  __TEXT.__eh_frame: 0xd70
++  __DATA_CONST.__auth_got: 0x1ed0
++  __DATA_CONST.__got: 0xbe8
++  __DATA_CONST.__auth_ptr: 0x90
++  __DATA_CONST.__const: 0xa5e0
++  __DATA_CONST.__cfstring: 0x10920
++  __DATA_CONST.__objc_classlist: 0xdf8
++  __DATA_CONST.__objc_catlist: 0x148
++  __DATA_CONST.__objc_protolist: 0x6c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x238
+-  __DATA_CONST.__objc_classrefs: 0x1230
+-  __DATA_CONST.__objc_superrefs: 0x940
++  __DATA_CONST.__objc_classrefs: 0x1130
++  __DATA_CONST.__objc_superrefs: 0x850
+   __DATA_CONST.__objc_intobj: 0x1368
+   __DATA_CONST.__objc_arraydata: 0x5278
+   __DATA_CONST.__objc_arrayobj: 0xa8
+   __DATA_CONST.__objc_dictobj: 0x3688
+   __DATA_CONST.__objc_floatobj: 0x10
+   __DATA_CONST.__objc_doubleobj: 0xd0
+-  __DATA.__objc_const: 0x3c658
+-  __DATA.__objc_selrefs: 0x10598
+-  __DATA.__objc_ivar: 0x1e78
+-  __DATA.__objc_data: 0xa4f8
+-  __DATA.__data: 0x6f78
+-  __DATA.__bss: 0x5f50
+-  __DATA.__common: 0x28
++  __DATA.__objc_const: 0x382c0
++  __DATA.__objc_selrefs: 0xf230
++  __DATA.__objc_ivar: 0x1b8c
++  __DATA.__objc_data: 0x98d8
++  __DATA.__data: 0x6e48
++  __DATA.__bss: 0x59b0
++  __DATA.__common: 0x30
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/ClassKit.framework/ClassKit
+
+   - @rpath/BookAnalytics.framework/BookAnalytics
+   - @rpath/JSApp.framework/JSApp
+   - @rpath/TemplateUI.framework/TemplateUI
+-  UUID: E37E9368-FC15-3FC6-ADD2-93A5EA6A452C
+-  Functions: 14268
+-  Symbols:   3464
+-  CStrings:  19873
++  UUID: CA1CA96D-EC4E-3A43-AD16-D639277FFD3E
++  Functions: 13248
++  Symbols:   3222
++  CStrings:  18503
+ 
+Symbols:
++ _BRCBooksDefaultsKeyPersonalizationScorersBookHistoryAcquiredExternallyUnknownFinishedInterval
++ _BRCBooksDefaultsKeyPersonalizationScorersBookHistoryStoreBookUnknownFinishedIntervalSincePurchase
++ _OBJC_CLASS_$_OS_dispatch_source
+- _AEAnnotationCloudSyncNodeName_Annotations
+- _AEAnnotationCloudSyndNode_GlobalAnnotationsPrefix
+- _AEAnnotationCloudSyndNode_UserAnnotationsPrefix
+- _AEAssetAppearanceDidChangeNotification
+- _AEAssetSnapshotLocationWhenBookCover
+- _AEAssetSnapshotMinimumAspectRatio
+- _AEAssetSnapshotTHAppearanceDidChangeNotification
+- _AssetEngineErrorProofingMgrInfoUserInfoKey
+- _BCAppNavigationLog
+- _BCAssetContentTypeForUTI
+- _BCBundle
+- _BCFloatUnitIntervalClamp
+- _BCGDPRLog
+- _BCJaliscoArtworkCacheLog
+- _BCLayoutSplitName
+- _BCLightLevelToTUIEnvironmentStyle
+- _BCLightLevelToUIUserInterfaceStyle
+- _BCMigrationLog
+- _BCTransactionNameShowContextualActionSheet
+- _BKAssetContentTypeByExtension
+- _BKAssetContentTypeByFilePath
+- _BKEpubAnnotationBodyPageThemeKey
+- _BKEpubAnnotationBodyRectsKey
+- _BKEpubAnnotationBodyThemeIsHoveredKey
+- _BKEpubAnnotationBodyThemeIsUnderlineKey
+- _BKEpubAnnotationBodyThemeStyleKey
+- _BKEpubWebProcessPlugInMessageBloomFilterTask
+- _BKEpubWebProcessPlugInMessagePageTask
+- _BKEpubWebProcessPlugInMessageResourceLoadTask
+- _BKEpubWebProcessPlugInMessageSnapshotData
+- _BKEpubWebProcessPlugInMessageSnapshotSize
+- _BKEpubWebProcessPlugInMessageSnapshotTask
+- _BKEpubWebProcessPlugInMessageSnapshotViewportOnly
+- _BKEpubWebProcessPlugInMessageUpdateBookInfo
+- _BKEpubWebProcessPlugInObjectBloomFilter
+- _BKEpubWebProcessPlugInObjectBloomFilterRoot
+- _BKEpubWebProcessPlugInObjectDocumentIndex
+- _BKEpubWebProcessPlugInReplyName
+- _BKEpubWebProcessPlugInitializationParametersKey
+- _BKLibraryDataSourceBookKitLegacyLog
+- _BKLibraryDataSourceCommerceKitLog
+- _BKLibraryDataSourceDownloadQueueLog
+- _BKLibraryDataSourceSSDownloadLog
+- _BKMobileAVPlayerLog
+- _BKMobileCloudSyncCollectionsLog
+- _BKReachabilityErrorDomain
+- _BSUIAlertFlowProviderLog
+- _CFAllocatorGetDefault
+- _CFStringCompareFlagsForSearch
+- _CFStringCopyFlattenedForSearch
+- _CFStringCreateWithCharacters
+- _CFStringReplace
+- _CFStringTransform
+- _CGAffineTransformInvert
+- _CGBitmapContextCreateWithImage
+- _CGBitmapContextGetHeight
+- _CGBitmapContextGetWidth
+- _CGColorSpaceCreateWithName
+- _CGContextAddLineToPoint
+- _CGContextDrawPDFPage
+- _CGContextDrawStretchableImage
+- _CGContextMoveToPoint
+- _CGContextSetLineDash
+- _CGContextSetRGBFillColor
+- _CGContextSetStrokeColorWithColor
+- _CGContextStrokePath
+- _CGGradientCreateWithColorComponents
+- _CGImageCreateFromImageAdjustingHSL
+- _CGImageCreateFromPDFPage
+- _CGImageCreateWithMask
+- _CGImageGetBitsPerComponent
+- _CGImageGetBitsPerPixel
+- _CGImageGetDataProvider
+- _CGImageMaskCreate
+- _CGPDFPageGetBoxRect
+- _CGPDFPageGetDrawingTransform
+- _CGPDFPageGetRotationAngle
+- _CGRectContainsRect
+- _CGRectEdgePointAtAngle
+- _GetBookFormatByExtensionCB
+- _IMCloudSyncCurrentStoreAccountKey
+- _IMCloudSyncErrorDomain
+- _IMCloudSyncLastDSID
+- _IMCloudSyncLastDSIDText
+- _IMCloudSyncNodeWrapper_FirstRevision
+- _IMCloudSyncNode_DataVersionKey
+- _IMCloudSyncNode_HasNoVersion
+- _IMCloudSyncNode_KeyKey
+- _IMCloudSyncNode_ValueKey
+- _IMCloudSyncNode_VersionKey
+- _IMCloudSyncPreviousStoreAccountKey
+- _IMCloudSyncRetrySecondsKey
+- _IMGetMemoryStatistics
+- _IMIntegralRectFlippedForRTL
+- _IMIntersectionSize
+- _IMRectContainsPointAllEdgesInclusive
+- _IMRectContainsPointEdgesInclusive
+- _IMRectWithMaxX
+- _IMRectWithMaxY
+- _IMRectWithMinX
+- _IMRectWithMinY
+- _IMSetShouldUseSafeAreaBlock
+- _IMSizeCeil
+- _IMSizeFitOrFillInSize
+- _IMSizeMultiplyByScalar
+- _IMUnionRect
+- _NSUnderlyingErrorKey
+- _OBJC_CLASS_$_AEAnnotationCSKeyGroup
+- _OBJC_CLASS_$_AEAnnotationCloudSyncNode
+- _OBJC_CLASS_$_AEAnnotationCloudSyncProcessor
+- _OBJC_CLASS_$_AEAssetSnapshot
+- _OBJC_CLASS_$_AMSUIAlertDialogTask
+- _OBJC_CLASS_$_AMSUIAuthenticateTask
+- _OBJC_CLASS_$_AMSUIEngagementTask
+- _OBJC_CLASS_$_AMSURLRequestEncoder
+- _OBJC_CLASS_$_AMSURLSession
+- _OBJC_CLASS_$_BCBundleClass
+- _OBJC_CLASS_$_BCDynamicValue
+- _OBJC_CLASS_$_BCSlideViewAnimator
+- _OBJC_CLASS_$_BCSlideViewController
+- _OBJC_CLASS_$_BCSlideViewMetrics
+- _OBJC_CLASS_$_BCSlideViewTransitionDelegate
+- _OBJC_CLASS_$_BCStack
+- _OBJC_CLASS_$_BCURLHandler
+- _OBJC_CLASS_$_CAPropertyAnimation
+- _OBJC_CLASS_$_IMAlertCloudSyncErrorHandle
+- _OBJC_CLASS_$_IMAnimationAffineTransformFunction
+- _OBJC_CLASS_$_IMAnimationFloatFunction
+- _OBJC_CLASS_$_IMAnimationPointFunction
+- _OBJC_CLASS_$_IMAnimationRectFunction
+- _OBJC_CLASS_$_IMAnimationSizeFunction
+- _OBJC_CLASS_$_IMCloudSyncClampsController
+- _OBJC_CLASS_$_IMCloudSyncController
+- _OBJC_CLASS_$_IMCloudSyncDataVersionPair
+- _OBJC_CLASS_$_IMCloudSyncDeserializer
+- _OBJC_CLASS_$_IMCloudSyncError
+- _OBJC_CLASS_$_IMCloudSyncErrorHandle
+- _OBJC_CLASS_$_IMCloudSyncErrorHandler
+- _OBJC_CLASS_$_IMCloudSyncItem
+- _OBJC_CLASS_$_IMCloudSyncKeyValueStore
+- _OBJC_CLASS_$_IMCloudSyncKeyValueStoreProcessor
+- _OBJC_CLASS_$_IMCloudSyncNode
+- _OBJC_CLASS_$_IMCloudSyncRequest
+- _OBJC_CLASS_$_IMCloudSyncSerializer
+- _OBJC_CLASS_$_IMCloudSyncStoreAuthenticationController
+- _OBJC_CLASS_$_IMCloudSyncTransaction
+- _OBJC_CLASS_$_IMMappedKeyDataStore
+- _OBJC_CLASS_$_IMPulseEvent
+- _OBJC_CLASS_$_IMToolbar
+- _OBJC_CLASS_$_NSURLSessionConfiguration
+- _OBJC_CLASS_$_TIMTestContext
+- _OBJC_CLASS_$_TIMTestContextObject
+- _OBJC_CLASS_$_UIMenuController
+- _OBJC_CLASS_$_UISwipeGestureRecognizer
+- _OBJC_CLASS_$__BCURLHandlerAction
+- _OBJC_METACLASS_$_AEAnnotationCSKeyGroup
+- _OBJC_METACLASS_$_AEAnnotationCloudSyncNode
+- _OBJC_METACLASS_$_AEAnnotationCloudSyncProcessor
+- _OBJC_METACLASS_$_AEAssetSnapshot
+- _OBJC_METACLASS_$_BCBundleClass
+- _OBJC_METACLASS_$_BCDynamicValue
+- _OBJC_METACLASS_$_BCSlideViewAnimator
+- _OBJC_METACLASS_$_BCSlideViewController
+- _OBJC_METACLASS_$_BCSlideViewMetrics
+- _OBJC_METACLASS_$_BCSlideViewTransitionDelegate
+- _OBJC_METACLASS_$_BCStack
+- _OBJC_METACLASS_$_BCURLHandler
+- _OBJC_METACLASS_$_IMAlertCloudSyncErrorHandle
+- _OBJC_METACLASS_$_IMAnimationAffineTransformFunction
+- _OBJC_METACLASS_$_IMAnimationFloatFunction
+- _OBJC_METACLASS_$_IMAnimationPointFunction
+- _OBJC_METACLASS_$_IMAnimationRectFunction
+- _OBJC_METACLASS_$_IMAnimationSizeFunction
+- _OBJC_METACLASS_$_IMCloudSyncClampsController
+- _OBJC_METACLASS_$_IMCloudSyncController
+- _OBJC_METACLASS_$_IMCloudSyncDataVersionPair
+- _OBJC_METACLASS_$_IMCloudSyncDeserializer
+- _OBJC_METACLASS_$_IMCloudSyncError
+- _OBJC_METACLASS_$_IMCloudSyncErrorHandle
+- _OBJC_METACLASS_$_IMCloudSyncErrorHandler
+- _OBJC_METACLASS_$_IMCloudSyncItem
+- _OBJC_METACLASS_$_IMCloudSyncKeyValueStore
+- _OBJC_METACLASS_$_IMCloudSyncKeyValueStoreProcessor
+- _OBJC_METACLASS_$_IMCloudSyncNode
+- _OBJC_METACLASS_$_IMCloudSyncRequest
+- _OBJC_METACLASS_$_IMCloudSyncSerializer
+- _OBJC_METACLASS_$_IMCloudSyncStoreAuthenticationController
+- _OBJC_METACLASS_$_IMCloudSyncTransaction
+- _OBJC_METACLASS_$_IMMappedKeyDataStore
+- _OBJC_METACLASS_$_IMPulseEvent
+- _OBJC_METACLASS_$_IMToolbar
+- _OBJC_METACLASS_$_NSError
+- _OBJC_METACLASS_$_TIMTestContext
+- _OBJC_METACLASS_$_TIMTestContextObject
+- _OBJC_METACLASS_$__BCURLHandlerAction
+- _PathExtensionFromAssetContentType
+- _UIFontTextStyleTitle3
+- _UIGraphicsPopContext
+- _UIGraphicsPushContext
+- __os_feature_enabled_impl
+- _closedir
+- _dispatch_barrier_sync
+- _foldQuoteMark
+- _getxattr
+- _host_page_size
+- _host_statistics
+- _imp_implementationWithBlock
+- _isMegaPhone
+- _kCAMediaTimingFunctionDefault
+- _kCFStringTransformFullwidthHalfwidth
+- _kCFStringTransformStripDiacritics
+- _kCGColorSpaceDisplayP3
+- _kIMCloudSyncClampsControllerHitDictionaryHitsKey
+- _kIMCloudSyncErrorHandleUserInfoKey_Accept
+- _kIMCloudSyncErrorHandleUserInfoKey_Cancel
+- _kIMCloudSyncErrorHandleUserInfoKey_Message
+- _kIMCloudSyncErrorHandleUserInfoKey_Title
+- _kIMCloudSyncErrorHandlerUserInfoKey_AltMessage
+- _kIMcloudSyncClampsControllerHitDictionaryDateKey
+- _kServerResponseKey_Key
+- _kServerResponseKey_RetrySeconds
+- _kServerResponseKey_Status
+- _kServerResponseKey_Value
+- _kServerResponseKey_Values
+- _kServerResponseKey_Version
+- _kTIMTestContextCurrentContext
+- _kTIMTestContextCurrentSelectorName
+- _mach_host_self
+- _mach_task_self_
+- _objc_getClassList
+- _objc_release_x10
+- _opendir
+- _pthread_cond_destroy
+- _pthread_cond_init
+- _pthread_cond_signal
+- _pthread_cond_wait
+- _pthread_mutex_destroy
+- _pthread_mutex_init
+- _pthread_mutex_lock
+- _pthread_mutex_unlock
+- _pthread_mutexattr_init
+- _pthread_mutexattr_settype
+- _readdir
+- _setxattr
+- _task_info
+CStrings:
++ "<%@(%p) identity='%@' containerURL='%@' noSyncURL='%@'>\n\tubiquityStatusMonitor = %@"
++ "Begin AEBookPlugin prewarm for %@"
++ "End AEBookPlugin prewarm for %{public}@"
++ "OS_dispatch_source"
++ "OS_dispatch_source_timer"
++ "Skipped AEBookPlugin prewarm for %{public}@"
++ "audiobookViaBKLastOpenManager"
++ "audiobookViaStateRestoration"
++ "audiobookViaURL"
++ "bookViaBKLastOpenManager"
++ "bookViaStateRestoration"
++ "bookViaURL"
++ "cancellables"
++ "dispatchTimer"
++ "extendedLaunchTestDestinationIsAudiobook"
++ "extendedLaunchTestDestinationIsBook"
++ "extendedLaunchTestDestinationIsHome"
++ "extendedLaunchTestTypeForLogging"
++ "home"
++ "isTimerSuspended"
++ "normalExtendedLaunch"
++ "personalization.scorers.bookHistory.acquiredExternallyUnknownFinishedInterval"
++ "personalization.scorers.bookHistory.storeBookUnknownFinishedIntervalSincePurchase"
++ "readNowPaidStoreFrontExistingUser"
++ "readNowPaidStoreFrontNewUser"
++ "readNowUnpaidStoreFront"
+- "\x01\x12"
+- "\x01\x16"
+- "\x01E"
+- "\x02\x14"
+- "\x021"
+- "\x03\x12&"
+- "\x03!"
+- "\x04\x11"
+- "\t%@\n"
+- "\n\t"
+- "\n\t<<%@>>\n"
+- "\n\t<<Methods>>\n"
+- "\n%*s"
+- "\n<%p>\n"
+- "\x12\x12\"\""
+- "!\x16"
+- "%*s%@"
+- "%@\n"
+- "%@ "
+- "%@ %d.%@"
+- "%@&%@"
+- "%@'s default initializer is %@"
+- "%@?%@"
+- "%@{\n%@}%@"
+- "%@|%ld"
+- "%d-%@-%lu"
+- "%llx"
+- "+[UIColor(IMAdditions) bc_colorWithRGBComponents:]"
+- "-[BCSlideViewController _hostControllerHasCompactTrait]"
+- "/Library/Caches/com.apple.xbs/Sources/Alder/frameworks/BookCore/BookCore/SlideView/BCSlideViewController.m"
+- "0"
+- ";"
+- ";\n"
+- "<%@(%p) identity='%@' isLoaded=%@ containerURL='%@' noSyncURL='%@'>\n\tubiquityStatusMonitor = %@"
+- "<%@: %p domain=%@ type=%@ keys(%@)=[%@] userInfo=%@"
+- "<%@: %p> {_key:%@; _version:%@; _value:[%d bytes]}"
+- "<%@:%p>\n                             Current Date = %@\n                             transactionClamps = %@\n                             dsidCheckTimestamp = %@\n                             authenticationNeededTimestamp = %@\n                             userAcceptedSyncTimestamp = %@\n                             networkingBlockedUntil = %@\n                             backOffUntil= %@\n                             userCancelledSignInBackOffUntil = %@"
+- "<%@:%p> \"%@\""
+- "<cover>"
+- "<null>"
+- "@\"<%@: %p> has no trait information.\""
+- "@\"<AEAnnotationCloudSyncProcessorDataSource>\""
+- "@\"<BCDynamicValueObserver>\""
+- "@\"<BCSlideViewControllerDataSource>\""
+- "@\"<BCSlideViewControllerDelegate>\""
+- "@\"<IMCloudSyncControllerDelegate>\""
+- "@\"<IMCloudSyncOperationDelegate>\""
+- "@\"<IMCloudSyncTransactionProcessing>\""
+- "@\"<UIToolbarDelegate>\""
+- "@\"AEAnnotationCSKeyGroup\""
+- "@\"BCSlideViewTransitionDelegate\""
+- "@\"CAMediaTimingFunction\""
+- "@\"IMAnimationFloatFunction\""
+- "@\"IMAnimationFloatFunction\"24@?0d8d16"
+- "@\"IMAnimationPointFunction\""
+- "@\"IMAnimationSizeFunction\""
+- "@\"IMCloudSyncClampsController\""
+- "@\"IMCloudSyncController\""
+- "@\"IMCloudSyncDeserializer\""
+- "@\"IMCloudSyncError\""
+- "@\"IMCloudSyncSerializer\""
+- "@\"IMCloudSyncStoreAuthenticationController\""
+- "@\"IMCloudSyncTransaction\""
+- "@\"NSArray\"24@0:8@\"IMCloudSyncTransaction\"16"
+- "@\"NSData\"40@0:8@\"IMCloudSyncTransaction\"16@\"NSString\"24^@32"
+- "@\"NSObject<AEProofingHelper>\"24@0:8@\"NSDictionary\"16"
+- "@\"NSObject<IMCloudsyncDeserializeOperationDelegate>\""
+- "@\"NSString\"32@0:8@\"IMCloudSyncTransaction\"16@\"NSString\"24"
+- "@\"TIMTestContext\""
+- "@\"UIBarButtonItem\""
+- "@\"UISpringTimingParameters\""
+- "@\"UISwipeGestureRecognizer\""
+- "@108@0:8@16@24@32q40q48B56@60@68{CGRect={CGPoint=dd}{CGSize=dd}}76"
+- "@116@0:8@16@24@32@40q48B56@60@68@76{CGRect={CGPoint=dd}{CGSize=dd}}84"
+- "@128@0:8@16{CGAffineTransform=dddddd}24{CGAffineTransform=dddddd}72d120"
+- "@24@0:8^{CGContext=}16"
+- "@24@0:8r^d16"
+- "@32@0:8d16@?24"
+- "@36@0:8^{CGImage=}16d24i32"
+- "@40@0:8Q16d24@?32"
+- "@40@0:8d16@24@32"
+- "@44@0:8i16@20@28@36"
+- "@44@0:8{CGSize=dd}16B32@?36"
+- "@48@0:8@16d24d32d40"
+- "@48@0:8@16{CGSize=dd}24d40"
+- "@60@0:8@16@?24@32@?40@48B56"
+- "@60@0:8@16i24{CGRect={CGPoint=dd}{CGSize=dd}}28"
+- "@64@0:8@16{CGPoint=dd}24{CGPoint=dd}40d56"
+- "@64@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24@56"
+- "@64@0:8@16{CGSize=dd}24{CGSize=dd}40d56"
+- "@84@0:8@16@24@32q40q48B56@60@68@76"
+- "@92@0:8@16@24@32@40q48B56@60@68@76@84"
+- "@96@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24{CGRect={CGPoint=dd}{CGSize=dd}}56d88"
+- "AEAnnotationCSKeyGroup"
+- "AEAnnotationCloudSyncNode"
+- "AEAnnotationCloudSyncNodeName_Annotations"
+- "AEAnnotationCloudSyncProcessor"
+- "AEAssetAppearanceDidChangeNotification"
+- "AEAssetSnapshot"
+- "AEAssetSnapshotProtocol"
+- "AEAssetSnapshotTHAppearanceDidChangeNotification"
+- "AMSURLProtocolDelegate"
+- "AMSURLSession:handleAuthenticateRequest:completion:"
+- "AMSURLSession:handleDialogRequest:completion:"
+- "AMSURLSession:shouldFailWithServerError:"
+- "AMSURLSession:shouldHandleAuthenticationForAccount:dialogDictionary:"
+- "AMSURLSession:shouldHandleDialogDictionary:"
+- "AMSURLSession:task:handleAuthenticateRequest:completion:"
+- "AMSURLSession:task:handleDialogRequest:completion:"
+- "AMSURLSession:task:handleEngagementRequest:completion:"
+- "AMSURLSession:task:shouldFailWithServerError:"
+- "Add Operation %@ -- Post Body: %d bytes"
+- "AppNavigation"
+- "AssetEngineErrorProofingMgrInfoUserInfoKey"
+- "B24@0:8@\"IMCloudSyncRequest\"16"
+- "B24@?0@\"NSString\"8^B16"
+- "B32@0:8@\"AMSURLSession\"16@\"NSDictionary\"24"
+- "B32@0:8@\"AMSURLSession\"16@\"NSError\"24"
+- "B32@0:8@16@?24"
+- "B32@0:8Q16@24"
+- "B32@0:8q16@24"
+- "B40@0:8@\"AMSURLSession\"16@\"ACAccount\"24@\"NSDictionary\"32"
+- "B40@0:8@\"AMSURLSession\"16@\"NSURLSessionTask\"24@\"NSError\"32"
+- "BCBundleClass"
+- "BCDynamicValue"
+- "BCGDPR"
+- "BCSlideViewAnimator"
+- "BCSlideViewController"
+- "BCSlideViewMetrics"
+- "BCSlideViewTransitionDelegate"
+- "BCStack"
+- "BCSyncUserDefaults: setICloudDriveSyncOptedIn = %@"
+- "BCURLHandler"
+- "BCURLHandler.queue"
+- "BKEpubAnnotationBodyPageThemeKey"
+- "BKEpubAnnotationBodyRectsKey"
+- "BKEpubAnnotationBodyThemeIsHoveredKey"
+- "BKEpubAnnotationBodyThemeIsUnderlineKey"
+- "BKEpubAnnotationBodyThemeStyleKey"
+- "BKEpubWebProcessPlugInMessageBloomFilterTask"
+- "BKEpubWebProcessPlugInMessagePageTask"
+- "BKEpubWebProcessPlugInMessageResourceLoadTask"
+- "BKEpubWebProcessPlugInMessageSnapshotData"
+- "BKEpubWebProcessPlugInMessageSnapshotSize"
+- "BKEpubWebProcessPlugInMessageSnapshotTask"
+- "BKEpubWebProcessPlugInMessageSnapshotViewportOnly"
+- "BKEpubWebProcessPlugInMessageUpdateBookInfo"
+- "BKEpubWebProcessPlugInObjectBloomFilter"
+- "BKEpubWebProcessPlugInObjectBloomFilterRoot"
+- "BKEpubWebProcessPlugInObjectDocumentIndex"
+- "BKEpubWebProcessPlugInReplyName"
+- "BKEpubWebProcessPlugInitializationParametersKey"
+- "BKLibrary.DataSource.BookKitLegacy"
+- "BKLibrary.DataSource.CommerceKit"
+- "BKLibrary.DataSource.DownloadQueue"
+- "BKLibrary.DataSource.SSDownload"
+- "BKMobile.AV.IM"
+- "BKMobile.CloudSync.Collections"
+- "BKReachabilityErrorDomain"
+- "BSUIAlertFlowProviderLog"
+- "BookCore.AppAnalyticsExtensionManager"
+- "Books.JaliscoArtworkCache"
+- "Books.Migration"
+- "CSSWritingDirection"
+- "Cancelling transaction: %@ -- isCurrentTransaction: %@"
+- "Clear Clamp -- DSIDCheck"
+- "Clear Clamp -- authenticationRequest"
+- "Clear Clamp -- backOffInterval"
+- "Clear Clamp -- userAcceptedSync"
+- "Clear Clamp -- userCancelledSignIn"
+- "CloudSync generic error {%@}"
+- "Cloudsync error: %@"
+- "Content-Type"
+- "Continue"
+- "CoreText"
+- "DSID"
+- "DSID mismatch: %@ vs %@ -- ObjectID: %@"
+- "DSIDText"
+- "DataVersion"
+- "Doesn't matter what the DISD is the authentication is forced for transaction: %@"
+- "Don\\U2019t Sync"
+- "Drop transaction: %@ -- Interval since last request: %f [%fs] -- hits: %ld"
+- "Drop transaction: %@ -- Too soon since last authentication: %f [%fs]"
+- "Drop transaction: <%p> -- BackOff until: %@ [%fs]"
+- "Drop transaction: <%p> -- DSIDCheck != 0"
+- "Drop transaction: <%p> -- Networking BlockedUntil: %@"
+- "Drop transaction: <%p> -- userCancelledBackOff until: %@ [%fs]"
+- "Failed to remove %{public}@ extended attribute for %{mask.hash}@"
+- "First Use Alert %@ -- ObjectID: %@ -- error: %@"
+- "IMAlertCloudSyncErrorHandle"
+- "IMAnimationAffineTransformFunction"
+- "IMAnimationFloatFunction"
+- "IMAnimationPointFunction"
+- "IMAnimationRectFunction"
+- "IMAnimationSizeFunction"
+- "IMCloudSync.LastDsid"
+- "IMCloudSync.LastDsidText"
+- "IMCloudSyncClampsController"
+- "IMCloudSyncController"
+- "IMCloudSyncCurrentStoreAccountKey"
+- "IMCloudSyncDataVersionPair"
+- "IMCloudSyncDeserializer"
+- "IMCloudSyncError"
+- "IMCloudSyncErrorCancelled"
+- "IMCloudSyncErrorDelegateCancelled"
+- "IMCloudSyncErrorDisabled"
+- "IMCloudSyncErrorDomain"
+- "IMCloudSyncErrorHandle"
+- "IMCloudSyncErrorHandler"
+- "IMCloudSyncErrorKillSwitch"
+- "IMCloudSyncErrorMissingDomain"
+- "IMCloudSyncErrorMissingURL"
+- "IMCloudSyncErrorNetworkingBlocked"
+- "IMCloudSyncErrorNoStoreAccount"
+- "IMCloudSyncErrorServerClamp"
+- "IMCloudSyncErrorStoreAccountLoggedOut"
+- "IMCloudSyncErrorStoreAccountMismatch"
+- "IMCloudSyncErrorStoreAccountSessionExpired"
+- "IMCloudSyncErrorStoreAccountUserCancelledSignedIn"
+- "IMCloudSyncErrorUnknown"
+- "IMCloudSyncErrorUnknownStoreAccount"
+- "IMCloudSyncErrorUserClamp"
+- "IMCloudSyncItem"
+- "IMCloudSyncKeyValueStore"
+- "IMCloudSyncKeyValueStoreProcessor"
+- "IMCloudSyncNode"
+- "IMCloudSyncOperationDelegate"
+- "IMCloudSyncPreviousStoreAccountKey"
+- "IMCloudSyncRequest"
+- "IMCloudSyncRetrySecondsKey"
+- "IMCloudSyncSerializer"
+- "IMCloudSyncStoreAuthenticationController"
+- "IMCloudSyncTransaction"
+- "IMCloudSyncTransactionProcessing"
+- "IMCloudsyncDeserializeOperationDelegate"
+- "IMMappedKeyDataStore"
+- "IMMappedKeyDataStore.keys"
+- "IMMappedKeyDataStore.load"
+- "IMMappedKeyDataStore.save"
+- "IMPulseEvent"
+- "IMToolbar"
+- "M-06132010-2-"
+- "MMMM YYYY"
+- "NSMutableCopying"
+- "NSObject_TIMRunTimeMethodAdding"
+- "NSURLSessionDelegate"
+- "NULL"
+- "No Pending Transactions"
+- "No data for network -- Must mean nothing is dirty."
+- "No longer logged in Use Alert %@ -- ObjectID: %@"
+- "Not deserializing output because transactions have been cancelled"
+- "Operation failedWithError: %@ -- %@"
+- "Pad"
+- "Payload Data: %@ for key: %@ Version: %@"
+- "Phone"
+- "Please use the designated initializer [%@ %@]"
+- "Processing Transaction: %@"
+- "R-06132010-2-"
+- "Reseting Clamps"
+- "SET"
+- "Scheduling Transaction: %@"
+- "Set Clamp -- DSIDCheck"
+- "Set Clamp -- authenticationRequest"
+- "Set Clamp -- backOffInterval: %f seconds"
+- "Set Clamp -- networkingBlocked"
+- "Set Clamp -- networkingBlocked until: %@"
+- "Set Clamp -- userAcceptedSync"
+- "Set Clamp -- userCancelledSignIn, backoff for %.2f hours"
+- "Sign In Required"
+- "Sync"
+- "Sync Apple Books"
+- "T#,N,V_currentClass"
+- "T:,N,V_currentSelector"
+- "T@\"<AEAnnotationCloudSyncProcessorDataSource>\",W,N,V_dataSource"
+- "T@\"<BCDynamicValueObserver>\",W,N,V_observer"
+- "T@\"<BCSlideViewControllerDataSource>\",W,N,V_dataSource"
+- "T@\"<BCSlideViewControllerDelegate>\",W,N,V_delegate"
+- "T@\"<IMCloudSyncControllerDelegate>\",W,V_delegate"
+- "T@\"<IMCloudSyncOperationDelegate>\",W,N,V_delegate"
+- "T@\"<IMCloudSyncTransactionProcessing>\",&,V_processor"
+- "T@\"<UIToolbarDelegate>\",W,N,V_delegate"
+- "T@\"AEAnnotationCSKeyGroup\",&,N,V_keyGroup"
+- "T@\"AEAnnotationProvider\",&,N,V_annotationProvider"
+- "T@\"BCMetrics\",&,N,V_metrics"
+- "T@\"BCSlideViewTransitionDelegate\",&,N,V_transitionDelegate"
+- "T@\"CAMediaTimingFunction\",&,N,V_timingFunction"
+- "T@\"IMAnimationFloatFunction\",&,N,V_aFunction"
+- "T@\"IMAnimationFloatFunction\",&,N,V_bFunction"
+- "T@\"IMAnimationFloatFunction\",&,N,V_cFunction"
+- "T@\"IMAnimationFloatFunction\",&,N,V_dFunction"
+- "T@\"IMAnimationFloatFunction\",&,N,V_heightFunction"
+- "T@\"IMAnimationFloatFunction\",&,N,V_txFunction"
+- "T@\"IMAnimationFloatFunction\",&,N,V_tyFunction"
+- "T@\"IMAnimationFloatFunction\",&,N,V_widthFunction"
+- "T@\"IMAnimationFloatFunction\",&,N,V_xFunction"
+- "T@\"IMAnimationFloatFunction\",&,N,V_yFunction"
+- "T@\"IMAnimationPointFunction\",&,N,V_originFunction"
+- "T@\"IMAnimationSizeFunction\",&,N,V_sizeFunction"
+- "T@\"IMCloudSyncClampsController\",&,N,V_clampsController"
+- "T@\"IMCloudSyncController\",&,N,V_cloudSyncController"
+- "T@\"IMCloudSyncController\",&,N,V_controller"
+- "T@\"IMCloudSyncController\",R,N,V_controller"
+- "T@\"IMCloudSyncDeserializer\",&,N,V_currentDeserializer"
+- "T@\"IMCloudSyncError\",&,N,V_error"
+- "T@\"IMCloudSyncSerializer\",&,N,V_serializer"
+- "T@\"IMCloudSyncStoreAuthenticationController\",&,V_authenticationController"
+- "T@\"IMCloudSyncTransaction\",&,N,V_currentTransaction"
+- "T@\"IMCloudSyncTransaction\",&,N,V_transaction"
+- "T@\"NSArray\",&,N,V_annotationTypes"
+- "T@\"NSArray\",&,N,V_keyGroups"
+- "T@\"NSArray\",&,N,V_keys"
+- "T@\"NSArray\",&,N,V_methodNames"
+- "T@\"NSArray\",R,N,V_keys"
+- "T@\"NSArray\",R,N,V_locations"
+- "T@\"NSData\",&,N,V_data"
+- "T@\"NSData\",&,N,V_unzippedData"
+- "T@\"NSData\",&,N,V_value"
+- "T@\"NSDictionary\",&,D,N"
+- "T@\"NSDictionary\",&,N,V_sentMaxModificationDates"
+- "T@\"NSDictionary\",&,N,V_serverResponse"
+- "T@\"NSDictionary\",R,N,V_zoomRects"
+- "T@\"NSMutableArray\",&,N,V_contextObjects"
+- "T@\"NSMutableArray\",&,N,V_postLoadBlocks"
+- "T@\"NSMutableArray\",&,N,V_subContexts"
+- "T@\"NSMutableDictionary\",&,N,V_handles"
+- "T@\"NSMutableDictionary\",&,N,V_transactionClamps"
+- "T@\"NSMutableDictionary\",&,N,V_userInfo"
+- "T@\"NSMutableDictionary\",&,N,V_values"
+- "T@\"NSMutableDictionary\",&,N,V_versions"
+- "T@\"NSMutableDictionary\",&,V_userInfo"
+- "T@\"NSObject<IMCloudsyncDeserializeOperationDelegate>\",W,N,V_delegate"
+- "T@\"NSOperationQueue\",&,N,V_operationQueue"
+- "T@\"NSString\",&,N,V_domain"
+- "T@\"NSString\",&,N,V_key"
+- "T@\"NSString\",&,N,V_keyPrefix"
+- "T@\"NSString\",&,N,V_name"
+- "T@\"NSString\",&,N,V_path"
+- "T@\"NSString\",&,N,V_version"
+- "T@\"NSString\",&,N,V_wrapperRevision"
+- "T@\"NSString\",C,N,V_DSID"
+- "T@\"NSString\",C,N,V_acceptedDSIDTextUserDefaultsKey"
+- "T@\"NSString\",C,N,V_acceptedDSIDUserDefaultsKey"
+- "T@\"NSString\",C,N,V_domain"
+- "T@\"NSString\",C,N,V_endBlockDescription"
+- "T@\"NSString\",C,N,V_startBlockDescription"
+- "T@\"NSString\",C,V_defaultDomain"
+- "T@\"NSString\",C,V_domain"
+- "T@\"NSString\",R,N,V_appearanceIdentifier"
+- "T@\"NSString\",R,N,V_assetVersion"
+- "T@\"NSString\",R,N,V_handledIdentifier"
+- "T@\"NSString\",R,N,V_sourceApplication"
+- "T@\"NSURL\",&,V_URL"
+- "T@\"NSURL\",&,V_defaultGetURL"
+- "T@\"NSURL\",&,V_defaultSetURL"
+- "T@\"TIMTestContext\",&,N,V_currentSubContext"
+- "T@\"UIBarButtonItem\",&,N,V_titleViewBarButtonItem"
+- "T@\"UIColor\",R,N,V_coverColor"
+- "T@\"UIColor\",R,N,V_edgeColor"
+- "T@\"UIColor\",R,N,V_pageColor"
+- "T@\"UIImage\",R,N,V_image"
+- "T@\"UISpringTimingParameters\",&,N,V_springTimingParameters"
+- "T@\"UISwipeGestureRecognizer\",&,N,V_swipeGestureRecognizer"
+- "T@\"UITapGestureRecognizer\",&,N,V_tapGestureRecognizer"
+- "T@\"UIToolbar\",&,N,V_uiToolbar"
+- "T@\"UIView\",&,N,S_setBackgroundView:"
+- "T@\"UIView\",&,N,V_edgeView"
+- "T@\"UIView\",&,N,V_titleView"
+- "T@\"UIViewController\",R,N,V_contentViewController"
+- "T@\"UIViewController\",R,W,N,V_hostViewController"
+- "T@\"UIWindow\",R,N"
+- "T@,&,D,N"
+- "T@,R,N,V_annotation"
+- "T@?,C,N,V_action"
+- "T@?,C,N,V_condition"
+- "T@?,C,N,V_endBlock"
+- "T@?,C,N,V_refreshBlock"
+- "T@?,C,N,V_retryBlock"
+- "T@?,C,N,V_startBlock"
+- "TB,GisEnabled,V_enabled"
+- "TB,N,Gbc_isNetworkActivityIndicatorVisible"
+- "TB,N,GisLoaded,V_loaded"
+- "TB,N,GisResolvingError,V_resolvingError"
+- "TB,N,GisTranslucent"
+- "TB,N,Sbc_setIgnoredForNavBarVisibility:"
+- "TB,N,V_autoResizeTitle"
+- "TB,N,V_mismatch"
+- "TB,N,V_shouldAuthenticate"
+- "TB,R,N,GisEmpty"
+- "TB,R,N,V_isCover"
+- "TIMTestContext"
+- "TIMTestContextObject"
+- "TQ,N,V_animationType"
+- "TQ,N,V_backgroundTaskIdentifier"
+- "TQ,R,N,V_retrySeconds"
+- "T^{CGImage=},R,N,V_imageRef"
+- "Tap Continue and sign in to continue syncing with other devices"
+- "Td,N,V_animationOffset"
+- "Td,N,V_endValue"
+- "Td,N,V_fixedHeight"
+- "Td,N,V_leftMarginOverride"
+- "Td,N,V_speed"
+- "Td,N,V_startValue"
+- "Td,N,V_textViewOffset"
+- "Td,R,N,V_imageScale"
+- "Td,V_authenticationNeededTimestamp"
+- "Td,V_backOffUntil"
+- "Td,V_dsidCheckTimestamp"
+- "Td,V_networkingBlockedUntil"
+- "Td,V_userAcceptedSyncTimestamp"
+- "Td,V_userCancelledSignInBackOffUntil"
+- "Ti,N,V_type"
+- "Tq,N,R"
+- "Tq,N,V_index"
+- "Tq,R,N,V_appearanceStyle"
+- "Tq,R,N,V_displayMode"
+- "Tq,R,N,V_snapshotStyle"
+- "Tq,R,N,V_snapshotTreatment"
+- "Tq,R,N,V_status"
+- "Transaction Failed: %@ -- Error: %@"
+- "Transaction Finished: %@"
+- "Transaction In progress: %@"
+- "T{CGAffineTransform=dddddd},N,V_endValue"
+- "T{CGAffineTransform=dddddd},N,V_startValue"
+- "T{CGPoint=dd},N,V_endValue"
+- "T{CGPoint=dd},N,V_startValue"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_endValue"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_startValue"
+- "T{CGSize=dd},N,V_endValue"
+- "T{CGSize=dd},N,V_startValue"
+- "UIBarPositioning"
+- "UIKit"
+- "URLByAppendingQueryString:"
+- "URLByStandardizingPath"
+- "URLForKey:"
+- "URLSession:didBecomeInvalidWithError:"
+- "URLSession:didReceiveChallenge:completionHandler:"
+- "URLSessionDidFinishEventsForBackgroundURLSession:"
+- "Unable to construct request due to %{public}@"
+- "Unable to construct result due to %{public}@"
+- "Unable to locate a presenting view controller for authenticate request"
+- "Unable to locate a presenting view controller for dialog request"
+- "Unable to locate a presenting view controller for engagement request"
+- "User cancelled sign-in -- setting 24 hour Time switch: %@ -- %@"
+- "Validation error: %@"
+- "Was asked to not authenticate"
+- "Would you like to use your Apple ID to sync your bookmarks, notes, and collections between devices?"
+- "^{CGContext=}16@0:8"
+- "^{CGContext=}40@0:8{CGSize=dd}16B32B36"
+- "_%@"
+- "_BCURLHandlerAction"
+- "_DSID"
+- "_URL"
+- "_aFunction"
+- "_acceptButtonTitle"
+- "_acceptedDSIDTextUserDefaultsKey"
+- "_acceptedDSIDUserDefaultsKey"
+- "_acknowledgeMergingServerAnnotations:forAssetID:"
+- "_addContentViewControllerAsChildViewControllerIfNeeded"
+- "_addPendingTransaction:"
+- "_addSideBarViewControllerIfNeeded"
+- "_addTestMethodsToObject:fromMethodNames:"
+- "_adjustTitleTextOffset"
+- "_allItemsWithLeftItems:rightItems:titleItem:"
+- "_animationOffset"
+- "_annotationTypes"
+- "_appearanceIdentifier"
+- "_appearanceStyle"
+- "_authenticationCanProcessTransaction:error:"
+- "_authenticationController"
+- "_authenticationNeededTimestamp"
+- "_autoResizeTitle"
+- "_bFunction"
+- "_backOffUntil"
+- "_backgroundTaskIdentifier"
+- "_beginBackgroundTask"
+- "_blocks"
+- "_cFunction"
+- "_canScheduleTransaction:error:"
+- "_canScheduleTransactionBasedOfNetworkingBlocked:error:"
+- "_canScheduleTransactionBasedOnBackOff:error:"
+- "_canScheduleTransactionBasedOnDSIDCheck:error:"
+- "_canScheduleTransactionBasedOnType:error:"
+- "_canScheduleTransactionBasedOnUserCancelledSignIn:error:"
+- "_cancelAllTransactions:"
+- "_cancelTransaction:error:"
+- "_clampsCanScheduleTransaction:error:"
+- "_clampsController"
+- "_cloudSyncController"
+- "_cond"
+- "_condition"
+- "_containsErrorWithCode:inError:"
+- "_contentMargin"
+- "_contentViewController"
+- "_contextObjects"
+- "_coverColor"
+- "_currentClass"
+- "_currentDeserializer"
+- "_currentSelector"
+- "_currentSubContext"
+- "_currentTransaction"
+- "_currentTransactionDidFinish"
+- "_dFunction"
+- "_dataForKey:"
+- "_dataSourceAnnotationTypesForKeyGroup:"
+- "_dataSourceAssetIDsForKeyGroup:"
+- "_dataSourceKeyPrefixForKeyGroup:"
+- "_dataSourceMaxModificationDatesDictionaryForKeyGroup:"
+- "_dataSourceNumberOfKeyGroups"
+- "_dataSourceSetVersions:maxModificationDates:forAssetIDs:inKeyGroups:"
+- "_dataSourceShouldGetKeysForKeyGroup:"
+- "_dataSourceVersionForAssetID:inKeyGroup:"
+- "_defaultDomain"
+- "_defaultGetURL"
+- "_defaultSetURL"
+- "_delegateOperationDidFinish"
+- "_delegateShouldScheduleTransaction:error:"
+- "_delegateTransactionDidFail:withError:"
+- "_delegateTransactionDidFinish:"
+- "_displayMode"
+- "_domain"
+- "_dsidCheckTimestamp"
+- "_edgeColor"
+- "_edgeOffsetXWithMaxX:"
+- "_edgeRect"
+- "_edgeRectWithSize:"
+- "_edgeView"
+- "_edgeWidth"
+- "_endBackgroundTask"
+- "_endBlock"
+- "_endBlockDescription"
+- "_endValue"
+- "_errorResolutionCancel:"
+- "_errorResolutionDefault:"
+- "_errorResolutionRetry:"
+- "_failedWithError:result:"
+- "_fetchKeys"
+- "_fixedHeight"
+- "_gate_open"
+- "_handled"
+- "_handledIdentifier"
+- "_handles"
+- "_heightFunction"
+- "_hostControllerHasCompactTrait"
+- "_hostViewController"
+- "_imageRef"
+- "_imageScale"
+- "_isContentViewControllerAlreadyChildViewController"
+- "_isCover"
+- "_isDirty"
+- "_isDispatchQueue"
+- "_isEnabledForTransaction:error:"
+- "_isInAnimationBlock"
+- "_isInspectingChangesAsChildViewController"
+- "_isTransactionValid:error:"
+- "_keyForTransaction:"
+- "_keyGroup"
+- "_keyGroupForKey:"
+- "_keyGroups"
+- "_keyPrefix"
+- "_keyQueue"
+- "_keysForGetTransaction"
+- "_leftMarginOverride"
+- "_loadKeyGroups"
+- "_loadQueue"
+- "_loaded"
+- "_locations"
+- "_mergeNodes:"
+- "_message"
+- "_methodNames"
+- "_mismatch"
+- "_mutex"
+- "_networkingBlockedUntil"
+- "_newOverlayNavigationController"
+- "_operationQueue"
+- "_originFunction"
+- "_pageColor"
+- "_panelOffsetXWithMaxX:"
+- "_panelRect"
+- "_panelRectWithSize:"
+- "_panelWidth"
+- "_payload"
+- "_postLoadBlocks"
+- "_processCurrentTransaction"
+- "_processOperationOutput:"
+- "_processPendingTransactions"
+- "_processingBlock"
+- "_processor"
+- "_refreshBlock"
+- "_reloadFunctions"
+- "_removeAllChildViewControllers"
+- "_removeExtendedAttributeNamed:forUrl:"
+- "_requestForTransaction:"
+- "_resolveError:resolution:"
+- "_resolvingError"
+- "_retryBlock"
+- "_retrySeconds"
+- "_rightNow"
+- "_saveQueue"
+- "_scheduleTransaction:"
+- "_scheduleTransactionWithType:URL:keys:processor:"
+- "_scheduleTransactionWithType:completion:keys:values:"
+- "_sentMaxModificationDates"
+- "_serializer"
+- "_serverResponse"
+- "_setBackgroundView:"
+- "_setData:xattrs:forKey:"
+- "_shouldAuthenticate"
+- "_sideBarViewController"
+- "_sizeFunction"
+- "_snapshotStyle"
+- "_snapshotTreatment"
+- "_solveForInput:"
+- "_sourceApplication"
+- "_springTimingParameters"
+- "_stack"
+- "_startBlock"
+- "_startBlockDescription"
+- "_startValue"
+- "_status"
+- "_statusBarHeightOverrideCount"
+- "_subContexts"
+- "_swipeGestureRecognizer"
+- "_tapGestureRecognizer"
+- "_textViewOffset"
+- "_timingFunction"
+- "_titleView"
+- "_titleViewBarButtonItem"
+- "_toolbarItemSubviewsExcludingView:"
+- "_transactionClamps"
+- "_transactionDidFail:withError:"
+- "_transitionDelegate"
+- "_txFunction"
+- "_tyFunction"
+- "_uiToolbar"
+- "_unzippedData"
+- "_userAcceptedSyncTimestamp"
+- "_userCancelledSignInBackOffUntil"
+- "_userInfo"
+- "_values"
+- "_versionForKey:"
+- "_versions"
+- "_widthFunction"
+- "_wrapperRevision"
+- "_xFunction"
+- "_xattrs:forKey:"
+- "_yFunction"
+- "_zoomRects"
+- "aFunction"
+- "acceptedDSID"
+- "acceptedDSIDText"
+- "acceptedDSIDTextUserDefaultsKey"
+- "acceptedDSIDUserDefaultsKey"
+- "addAction:condition:block:"
+- "addContext:"
+- "addMethodWithName:block:"
+- "addSubContexts:"
+- "addTestContext:forMethodNames:"
+- "addTestContexts:forMethodNames:"
+- "addTestMethodsToObject:fromMethodNames:"
+- "allAnimations"
+- "allBackdropViews"
+- "allHandles"
+- "allLayers"
+- "allSublayers"
+- "am"
+- "ams_DSID"
+- "an"
+- "anchorPoint"
+- "anchorPointFromPoint:inLayer:"
+- "animationForKeyPath:"
+- "animationKeys"
+- "animationOffset"
+- "annotationTypes"
+- "appearanceIdentifier"
+- "appearanceStyle"
+- "appendContextWithName:startBlock:description:endBlock:description:shouldCleanDescription:"
+- "applyTransform:"
+- "assetIDForKey:inKeyGroup:"
+- "assetIDForKey:withPrefix:"
+- "authenticationController"
+- "authenticationError"
+- "authenticationErrorsForTransaction:"
+- "authenticationNeededTimestamp"
+- "autoResizeTitle"
+- "bFunction"
+- "backOffForTimeInterval:"
+- "backOffUntil"
+- "backgroundImageForToolbarPosition:barMetrics:"
+- "backgroundTaskIdentifier"
+- "barPosition"
+- "barStyle"
+- "baseDictionary"
+- "bc_URLWithBaseURLString:"
+- "bc_clampedToUnitInterval"
+- "bc_colorWithHexValue:"
+- "bc_colorWithRGBComponents:"
+- "bc_defaultStatusBarHeightInOrientation:"
+- "bc_dictionaryForQueryItems"
+- "bc_ignoredForNavBarVisibility"
+- "bc_inverseColor:forTraitCollection:"
+- "bc_isAudiobookStoreURLWithCompletion:"
+- "bc_isNetworkActivityIndicatorVisible"
+- "bc_isPresentedInSlideViewController"
+- "bc_keyWindow"
+- "bc_networkActivityIndicatorVisible"
+- "bc_parentSlideViewController"
+- "bc_setBackgroundColor:"
+- "bc_setIgnoredForNavBarVisibility:"
+- "blurViewBackgroundColor"
+- "bu_gzipDeflate"
+- "bu_gzipInflate"
+- "bu_removeExtendedAttributeNamed:iCloudSyncable:"
+- "cFunction"
+- "canHandleError:"
+- "canProcessKey:"
+- "canScheduleCloudSyncRequest:"
+- "canScheduleTransaction:error:"
+- "cancelScheduledTransaction:"
+- "centerFrame"
+- "chr"
+- "clampsController"
+- "classMethodNamesWithPrefix:"
+- "cleanBlockDescription:"
+- "cleanup"
+- "clearAuthenticationRequest"
+- "clearBackOff"
+- "clearCurrentContextAndMethodName"
+- "clearDSIDCheckTimestamp"
+- "clearNetworkingBlocked"
+- "clearTimestampForTransaction:"
+- "clearUserAcceptedSyncTimestamp"
+- "clearUserCancelledSignIn"
+- "clientUserAgent"
+- "closeAnimated:completion:"
+- "cloudDataCurrentRevision"
+- "cloudDataMaxRevision"
+- "cloudSyncController"
+- "cloudSyncController:shouldScheduleTransaction:"
+- "cloudSyncController:transactionDidFailWithError:"
+- "cloudSyncController:transactionDidFinish:"
+- "cloudSyncDisabledErrorWithTransaction:"
+- "cloudSyncErrorWithCode:localizedDescription:transaction:"
+- "cloudSyncRequestDidFinish:result:error:"
+- "com.apple.IMCloudSyncController"
+- "com.apple.IMCloudSyncQueue"
+- "components"
+- "condition"
+- "configurationWithTextStyle:"
+- "containerURL:"
+- "containsObjectIdenticalTo:"
+- "contentViewControllerForSlideViewController:"
+- "contextObjects"
+- "convertPoint:fromLayer:"
+- "coverColor"
+- "currentClass"
+- "currentContext"
+- "currentDeserializer"
+- "currentMethodName"
+- "currentSelector"
+- "currentStoreAccountKey"
+- "currentSubContext"
+- "currentTransaction"
+- "customView"
+- "dFunction"
+- "dataForKey:completion:"
+- "dataForKeys:completion:"
+- "dataForSetTransaction:key:version:"
+- "dataTaskPromiseWithRequest:"
+- "dataURL:"
+- "dataValue"
+- "dataWithContentsOfFile:options:error:"
+- "dataWithNodes %@: %@"
+- "dataWithNodes:"
+- "dateValue"
+- "dci_text_editing_menus"
+- "deepMutableCopy"
+- "defaultDomain"
+- "defaultGetURL"
+- "defaultSessionConfiguration"
+- "defaultSetURL"
+- "delegateCancelledErrorWithTransaction:"
+- "deserialize"
+- "deserializeOperationDidFinish:shouldReschedule:"
+- "dictionaryByDecomposingQueryStringWithURLDecode:"
+- "dispatchIfNecessaryAndWait:"
+- "displayMode"
+- "dsidCheckTimestamp"
+- "durationFormatter"
+- "durationWithHMSString:"
+- "dynamicValueChanged:"
+- "ebook"
+- "edge-color"
+- "edgeColor"
+- "edgeView"
+- "endBlock"
+- "endBlockDescription"
+- "endValue"
+- "evaluateBlockWhenLoaded:"
+- "extendedLaunchTestType"
+- "fetchDataForKey:options:xattrs:handler:queue:"
+- "fetchKeysPassingTest:handler:queue:"
+- "fillWithBlendMode:alpha:"
+- "finalizeBitmap:"
+- "fixedHeight"
+- "full"
+- "fullStringWithDuration:"
+- "genericError"
+- "globalAnnotationsKeyForAssetID:"
+- "half"
+- "handleError:withController:"
+- "handleError:withController:completionBlock:"
+- "handleForErrorDomain:code:"
+- "handleKeyForErrorDomain:code:"
+- "handledIdentifier"
+- "handles"
+- "hasAuthenticatedTooRecentlyForTransaction:error:"
+- "hasBackoff"
+- "hasData"
+- "hasObjectRetainedIdleTimerDisabled:"
+- "hasSyncTCCUbiquityState"
+- "hasUserRecentlyAcceptedSync"
+- "heightFunction"
+- "hostViewController"
+- "httpsStoreURL"
+- "hy"
+- "iCloudDriveSyncOptedIn"
+- "iconList"
+- "identityAndURLs:"
+- "identityData:"
+- "idleTimerDisabled"
+- "im_currentContext"
+- "im_imageMaskedWithSelf"
+- "im_imageNamed:inBundle:"
+- "im_imageWithMaxBounds:"
+- "im_imageWithSize:flipped:drawingHandler:"
+- "im_initWithCGImage:scale:orientation:"
+- "im_isDeepColor"
+- "im_isPerformingSafeAccess"
+- "im_isWideGamut"
+- "im_scale"
+- "im_stringByIndentingLines"
+- "im_stringIndentedBySpaces:"
+- "im_stringInternallyIndentedBySpaces:"
+- "image:inRect:withBacking:"
+- "imageByRemovingPath:"
+- "imageFromView:"
+- "imageRef"
+- "imageScale"
+- "imageWithColor:size:cornerRadius:"
+- "imageWithComposite:blendMode:"
+- "imageWithComposite:blendMode:dstRect:"
+- "imageWithCropRect:"
+- "imageWithGradientAngle:startColor:endColor:"
+- "indexForIndexPath:"
+- "initWithAnimationOffset:completion:"
+- "initWithAnimationType:animationOffset:completion:"
+- "initWithAssetID:image:assetVersion:appearanceIdentifier:snapshotTreatment:isCover:coverColor:pageColor:location:zoomRect:"
+- "initWithAssetID:image:assetVersion:appearanceIdentifier:snapshotTreatment:isCover:coverColor:pageColor:locations:zoomRects:"
+- "initWithAssetID:image:assetVersion:appearanceStyle:snapshotTreatment:isCover:coverColor:location:zoomRect:"
+- "initWithAssetID:image:assetVersion:appearanceStyle:snapshotTreatment:isCover:coverColor:locations:zoomRects:"
+- "initWithCGImage:scale:orientation:"
+- "initWithConfiguration:delegate:delegateQueue:"
+- "initWithController:"
+- "initWithData:version:"
+- "initWithDataSource:"
+- "initWithGenericHandles"
+- "initWithHostViewController:"
+- "initWithRefreshBlock:"
+- "initWithRequest:bag:presentingViewController:"
+- "initWithRequest:presentingViewController:"
+- "initWithTimingFunction:startRect:endRect:speed:"
+- "initWithTimingFunction:startValue:endValue:speed:"
+- "initWithTransaction:response:"
+- "initWithType:domain:URL:keys:"
+- "initWithURL:sourceApplication:annotation:"
+- "instanceMethodNamesWithPrefix:"
+- "interfaceIdiomaticImageNamed:"
+- "isAccountsChangedError"
+- "isAnnotationsNode"
+- "isAuthenticationError"
+- "isAuthenticationValidForTransaction:error:"
+- "isClampError"
+- "isCover"
+- "isDirectoryPath:"
+- "isDispatchQueue"
+- "isGlobalAnnotationsNode"
+- "isIdle"
+- "isInterfaceRTL"
+- "isMenuVisible"
+- "isNetworkActivityIndicatorVisible"
+- "isNetworkingBlocked"
+- "isPortraitOrientation"
+- "isReadableFileAtPath:"
+- "isRecoverableError"
+- "isResolvingError"
+- "isServerRevisionNewerThanClient:"
+- "isThisWeek"
+- "isTransactionCancelledError"
+- "isTransactionMissingInformationError"
+- "isTranslucent"
+- "isUserAnnotationsNode"
+- "kIMCloudSyncClampsControllerHitDictionaryHitsKey"
+- "kIMCloudSyncErrorHandleUserInfoKey_Accept"
+- "kIMCloudSyncErrorHandleUserInfoKey_Cancel"
+- "kIMCloudSyncErrorHandleUserInfoKey_Message"
+- "kIMCloudSyncErrorHandleUserInfoKey_Title"
+- "kIMCloudSyncErrorHandlerUserInfoKey_AltMessage"
+- "kIMcloudSyncClampsControllerHitDictionaryDateKey"
+- "kTIMTestContextCurrentContext"
+- "kTIMTestContextCurrentSelectorName"
+- "keyForAssetID:inKeyGroup:"
+- "keyGroup"
+- "keyGroups"
+- "keyPath"
+- "keyPrefix"
+- "keyWindow"
+- "keyWithPrefix:assetID:"
+- "keysForTransaction:"
+- "keysWithPrefix:assetIDs:"
+- "killSwitchErrorWithTransaction:"
+- "km"
+- "languageIsAmharic:"
+- "languageIsArmenian:"
+- "languageIsCherokee:"
+- "languageIsKhmer:"
+- "languageIsLao:"
+- "layoutBackgroundViewConsideringStatusBarHidden:"
+- "leftMarginOverride"
+- "list.bullet"
+- "lo"
+- "loaded"
+- "locations"
+- "longDayStringFromDate:"
+- "ltr"
+- "makeDottedLineImageinRect:"
+- "maskedIconImage:withBackgroundImage:scale:"
+- "maxExpressionDescriptionForProperty:type:"
+- "metadataFlagForKey:fromURL:"
+- "methodNames"
+- "mismatch"
+- "monthYearFromDate:"
+- "namesOfSubclasses"
+- "narrow"
+- "navigationItem"
+- "networkingBlockedErrorWithTransaction:"
+- "networkingBlockedUntil"
+- "newBitmapContextForSize:wideGamut:deepColor:"
+- "noStoreAccountErrorWithTransaction:"
+- "noStoreAccountHandle"
+- "noSyncURL:"
+- "nonCollidingNameForFileName:inDestPath:"
+- "not handingling error %@"
+- "numberOfKeyGroupsForProcessor:"
+- "objectValue"
+- "objectValueMatchingClass:"
+- "objectVersionPairForKey:"
+- "objectWithRefreshBlock:"
+- "objectWithValue:"
+- "objectsPassingTest:"
+- "open"
+- "openAnimated:"
+- "originFunction"
+- "overlayNavigationControllerForSlideViewController:"
+- "pageColor"
+- "pairWithData:version:"
+- "payload"
+- "peek"
+- "performAuthentication"
+- "pop"
+- "postData:"
+- "postLoadBlocks"
+- "present"
+- "presentEngagement"
+- "presentViewControllerOverMainCanvas:animated:completion:"
+- "presentingSceneBundleIdentifier"
+- "presentingSceneIdentifier"
+- "previousStoreAccountKey"
+- "processor"
+- "processor:annotationTypesForKeyGroup:"
+- "processor:assetIDsForKeyGroup:"
+- "processor:didMergeDataForAssetID:"
+- "processor:keyPrefixForKeyGroup:"
+- "processor:maxModificationDatesDictionaryForKeyGroup:"
+- "processor:setVersions:maxModificationDates:forAssetIDs:inKeyGroups:"
+- "processor:shouldGetKeysForKeyGroup:"
+- "processor:versionForAssetID:inKeyGroup:"
+- "proofingHelperForMetadata:"
+- "proofingMgr"
+- "propertyListWithData:options:format:error:"
+- "pulse"
+- "push:"
+- "pushViewController:animated:"
+- "q_dispatchBlockIfNeeded"
+- "queryItems"
+- "rangeOfSignificantSubstring"
+- "refreshBlock"
+- "refreshValue"
+- "releaseIdleTimerDisabled"
+- "remainingChapterListeningTime"
+- "removeDataForKeysPassingTest:completion:queue:"
+- "removeTrait:"
+- "reportMetricsForContext:"
+- "requestWithMethod:URL:parameters:"
+- "resetAcceptedCredentials"
+- "resolveError"
+- "resolveError:resolution:"
+- "resolvingError"
+- "responseStatusCode"
+- "retainIdleTimerDisabled"
+- "retry-seconds"
+- "retryBlock"
+- "retrySeconds"
+- "scanHexLongLong:"
+- "scheduleGetTransactionWithKeys:processor:"
+- "scheduleSetTransactionWithKeys:processor:"
+- "scheduleTransaction:"
+- "scrimColorForSlideViewController:"
+- "sentMaxModificationDates"
+- "separatorLineHeight"
+- "serializer"
+- "serverClampErrorWithTransaction:retrySeconds:"
+- "serverResponse"
+- "serverRevisionNewerThanClientKeys"
+- "setAFunction:"
+- "setAcceptedDSID:"
+- "setAcceptedDSIDText:"
+- "setAcceptedDSIDTextUserDefaultsKey:"
+- "setAcceptedDSIDUserDefaultsKey:"
+- "setAccount:"
+- "setAnchorPointNoMove:"
+- "setAnimationOffset:"
+- "setAnnotationTypes:"
+- "setArrayValue:"
+- "setAuthenticationController:"
+- "setAuthenticationNeededTimestamp:"
+- "setAuthenticationRequest"
+- "setAutoResizeTitle:"
+- "setBFunction:"
+- "setBackOffUntil:"
+- "setBackdropGroupName:"
+- "setBackgroundTaskIdentifier:"
+- "setBc_networkActivityIndicatorVisible:"
+- "setCFunction:"
+- "setClampsController:"
+- "setCloudSyncController:"
+- "setCondition:"
+- "setContextObjects:"
+- "setCurrentClass:"
+- "setCurrentContext:methodName:"
+- "setCurrentDeserializer:"
+- "setCurrentSelector:"
+- "setCurrentSubContext:"
+- "setCurrentTransaction:"
+- "setDFunction:"
+- "setDSID:"
+- "setDSIDCheckTimestamp"
+- "setData:forKey:completion:"
+- "setData:xattrs:forKey:completion:queue:"
+- "setDataAndKeysFromDictionary:completion:"
+- "setDataValue:"
+- "setDateValue:"
+- "setDefaultDomain:"
+- "setDefaultGetURL:"
+- "setDefaultSetURL:"
+- "setDictionaryValue:"
+- "setDisplayMode:"
+- "setDomain:"
+- "setDsidCheckTimestamp:"
+- "setEdgeView:"
+- "setEndBlock:"
+- "setEndBlockDescription:"
+- "setEndValue:"
+- "setFixedHeight:"
+- "setHTTPBody:"
+- "setHandle:forErrorDomain:code:"
+- "setHandles:"
+- "setHeightFunction:"
+- "setHorizontalSizeClass:"
+- "setICloudDriveSyncOptedIn:"
+- "setKeyGroup:"
+- "setKeyGroups:"
+- "setKeyPrefix:"
+- "setLeftItems:rightItems:titleItem:animated:"
+- "setLeftMarginOverride:"
+- "setLoaded:"
+- "setMetadataFlag:forKey:forURL:"
+- "setMethodNames:"
+- "setMismatch:"
+- "setNetworkActivityIndicatorVisible:"
+- "setNetworkingBlocked"
+- "setNetworkingBlockedUntil:"
+- "setNumberValue:"
+- "setObjectValue:"
+- "setOriginFunction:"
+- "setPostLoadBlocks:"
+- "setProcessor:"
+- "setProofingMgr:"
+- "setReadingNowSyncOptedIn:"
+- "setRefreshBlock:"
+- "setResolvingError:"
+- "setRetryBlock:"
+- "setSentMaxModificationDates:"
+- "setSerializer:"
+- "setServerResponse:"
+- "setServerRevisionNewerThanClient:"
+- "setShouldAuthenticate:"
+- "setSizeFunction:"
+- "setSpringTimingParameters:"
+- "setStartBlock:"
+- "setStartBlockDescription:"
+- "setStartValue:"
+- "setStringValue:"
+- "setSubContexts:"
+- "setSwipeGestureRecognizer:"
+- "setTapGestureRecognizer:"
+- "setTextViewOffset:"
+- "setTimestampForTransaction:"
+- "setTitleViewBarButtonItem:"
+- "setTransaction:"
+- "setTransactionClamps:"
+- "setTransitionDelegate:"
+- "setTxFunction:"
+- "setTyFunction:"
+- "setUiToolbar:"
+- "setUnzippedData:"
+- "setUserAcceptedSyncTimestamp"
+- "setUserAcceptedSyncTimestamp:"
+- "setUserCancelledSignIn"
+- "setUserCancelledSignInBackOffUntil:"
+- "setUserInfoValue:forKey:"
+- "setVersions:"
+- "setViewControllers:animated:"
+- "setWidthFunction:"
+- "setWrapperRevision:"
+- "setXFunction:"
+- "setYFunction:"
+- "sharedMenuController"
+- "shouldAuthenticate"
+- "shouldCloseSlideViewController:withSwipeAtLocation:inView:"
+- "shouldDisableFontFallbacksForLanguage:"
+- "shouldForceAuthenticationForTransaction:"
+- "showContextualActionSheet"
+- "since-version"
+- "sizeFunction"
+- "slideView"
+- "slideViewController:didTransitionFromDisplayMode:toDisplayMode:"
+- "snapshotStyle"
+- "snapshotTreatment"
+- "snapshotWithUpdateImage:zoomRects:"
+- "snapshotWithUpdatedCoverColor:"
+- "solveForTime:"
+- "sourceApplication"
+- "split"
+- "springTimingParameters"
+- "startBlock"
+- "startBlockDescription"
+- "startValue"
+- "storeAccountMismatchErrorWithPreviousStoreAccountText:currentStoreAccontText:transaction:"
+- "storeAccountNeedSignInHandle"
+- "storeAccountSessionExpiredWithTransaction:"
+- "storeLoggedOutErrorWithPreviousStoreAccountText:transaction:"
+- "storeURL2"
+- "stringByRemovingInsignificantPrefix"
+- "stringByRemovingPercentEncoding"
+- "stringFromMetadataDate:"
+- "subContexts"
+- "success"
+- "swipeGestureHandler:"
+- "swipeGestureRecognizer"
+- "tapGestureHandler:"
+- "tapGestureRecognizer"
+- "testBlock"
+- "testContextObjectWithName:startBlock:description:endBlock:description:shouldCleanDescription:"
+- "testContextWithName:startBlock:description:endBlock:description:shouldCleanDescription:"
+- "testName"
+- "testNameSuffix"
+- "text/xml; charset=UTF-8"
+- "textViewOffset"
+- "the"
+- "timer"
+- "titleView"
+- "titleViewBarButtonItem"
+- "transaction:mergeItem:mismatch:finishedBlock:"
+- "transaction:mergeItems:mismatch:finishedBlock:"
+- "transactionCancelledErrorWithTransaction:"
+- "transactionClamps"
+- "transactionDidFinish:success:error:"
+- "transactionHadNoItemsToMerge:"
+- "transactionMissingDomainErrorWithTransaction:"
+- "transactionMissingURLErrorWithTransaction:"
+- "transitionDelegate"
+- "translucent"
+- "txFunction"
+- "tyFunction"
+- "uiToolbar"
+- "uncachedImageNamed:"
+- "unknownErrorWithTransaction:"
+- "unknownStoreAccountErrorWithTransaction:"
+- "unsupportedClient"
+- "unzippedData"
+- "userAcceptedSyncTimestamp"
+- "userAnnotationsKeyForAssetID:"
+- "userCancelledSignInBackOffUntil"
+- "userCancelledSignInErrorWithTransaction:"
+- "userClampErrorWithTransaction:retrySeconds:"
+- "userIdentityPreviouslyRecordedOnThisDevice"
+- "userInfoValueForKey:"
+- "v24@0:8@\"AMSMetricsLoadURLContext\"16"
+- "v24@0:8@\"IMCloudSyncTransaction\"16"
+- "v24@0:8@\"NSURLSession\"16"
+- "v28@0:8@\"IMCloudSyncDeserializer\"16B24"
+- "v32@0:8@\"NSURLSession\"16@\"NSError\"24"
+- "v36@0:8@\"IMCloudSyncTransaction\"16B24@\"IMCloudSyncError\"28"
+- "v36@0:8B16Q20@28"
+- "v40@0:8@\"AMSURLSession\"16@\"AMSAuthenticateRequest\"24@?<v@?@\"AMSAuthenticateResult\"@\"NSError\">32"
+- "v40@0:8@\"AMSURLSession\"16@\"AMSDialogRequest\"24@?<v@?@\"AMSDialogResult\"@\"NSError\">32"
+- "v40@0:8@\"IMCloudSyncRequest\"16@\"AMSURLResult\"24@\"NSError\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLAuthenticationChallenge\"24@?<v@?q@\"NSURLCredential\">32"
+- "v40@0:8@16@?24@?32"
+- "v40@0:8@16q24q32"
+- "v40@0:8@?16@?24@32"
+- "v44@0:8@\"IMCloudSyncTransaction\"16@\"NSArray\"24B32@?<v@?B>36"
+- "v44@0:8@16@24B32@?36"
+- "v44@0:8i16@?20@28@36"
+- "v48@0:8@\"AMSURLSession\"16@\"NSURLSessionTask\"24@\"AMSAuthenticateRequest\"32@?<v@?@\"AMSAuthenticateResult\"@\"NSError\">40"
+- "v48@0:8@\"AMSURLSession\"16@\"NSURLSessionTask\"24@\"AMSDialogRequest\"32@?<v@?@\"AMSDialogResult\"@\"NSError\">40"
+- "v48@0:8@\"AMSURLSession\"16@\"NSURLSessionTask\"24@\"AMSEngagementRequest\"32@?<v@?@\"AMSEngagementResult\"@\"NSError\">40"
+- "v56@0:8@16@24@32@?40@48"
+- "v56@0:8@16Q24@32@?40@48"
+- "v60@0:8@16@?24@32@?40@48B56"
+- "v@:"
+- "validationError"
+- "values"
+- "versionForGetTransaction:key:"
+- "versionMismatch"
+- "versions"
+- "wait"
+- "wasLastWeek"
+- "wide"
+- "widthFunction"
+- "willTransitionToTraitCollection:withTransitionCoordinator:"
+- "withToolbarHidden:performBlock:"
+- "wrapperRevision"
+- "writingDirectionIsRTL"
+- "xFunction"
+- "yFunction"
+- "zoomRects"
+- "{"
+- "{CGAffineTransform=dddddd}24@0:8d16"
+- "{CGPoint=dd}24@0:8d16"
+- "{CGPoint=dd}40@0:8{CGPoint=dd}16@32"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8d16"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}32@0:8{CGSize=dd}16"
+- "{_opaque_pthread_cond_t=\"__sig\"q\"__opaque\"[40c]}"
+- "{_opaque_pthread_mutex_t=\"__sig\"q\"__opaque\"[56c]}"
+
+```

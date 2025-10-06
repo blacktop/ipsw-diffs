@@ -1,0 +1,271 @@
+## DesktopServicesPriv
+
+> `/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/DesktopServicesPriv`
+
+```diff
+
+-1626.0.0.0.0
+-  __TEXT.__text: 0xf7f84
++1631.1.3.0.0
++  __TEXT.__text: 0xf8e00
+   __TEXT.__auth_stubs: 0x2150
+   __TEXT.__objc_methlist: 0x1388
+   __TEXT.__const: 0x1fd8
+-  __TEXT.__gcc_except_tab: 0x130fc
++  __TEXT.__gcc_except_tab: 0x132ac
+   __TEXT.__cstring: 0x3888
+-  __TEXT.__oslogstring: 0x1a37
++  __TEXT.__oslogstring: 0x1acd
+   __TEXT.__ustring: 0x4
+-  __TEXT.__unwind_info: 0x7f8c
++  __TEXT.__unwind_info: 0x8068
+   __TEXT.__eh_frame: 0x36c
+   __TEXT.__objc_classname: 0x35d
+-  __TEXT.__objc_methname: 0x43a6
++  __TEXT.__objc_methname: 0x43b8
+   __TEXT.__objc_methtype: 0x4c74
+-  __TEXT.__objc_stubs: 0x3540
++  __TEXT.__objc_stubs: 0x3560
+   __DATA_CONST.__got: 0x640
+   __DATA_CONST.__const: 0x6c0
+   __DATA_CONST.__objc_classlist: 0xf0
+
+   __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x2228
+-  __DATA_CONST.__objc_selrefs: 0x1168
++  __DATA_CONST.__objc_selrefs: 0x1170
+   __DATA_CONST.__objc_arraydata: 0x40
+   __AUTH_CONST.__cfstring: 0x1460
+   __AUTH_CONST.__objc_const: 0xa18
+-  __AUTH_CONST.__const: 0x37c0
++  __AUTH_CONST.__const: 0x37a0
+   __AUTH_CONST.__objc_arrayobj: 0x18
+   __AUTH_CONST.__objc_intobj: 0x90
+   __AUTH_CONST.__objc_dictobj: 0x28
+
+   __DATA.__objc_superrefs: 0xa8
+   __DATA.__objc_ivar: 0x168
+   __DATA.__data: 0x5ac
+-  __DATA.__bss: 0x1498
++  __DATA.__bss: 0x13f8
+   __DATA.__common: 0xc0
+   __DATA_DIRTY.__const: 0x8
+   __DATA_DIRTY.__objc_data: 0x3c0
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5ABB79DB-FC80-3BBB-AAFC-08F629ABB735
+-  Functions: 5305
+-  Symbols:   13164
+-  CStrings:  1964
++  UUID: AE03C0D0-49EB-336B-B2C7-8CD7EF26F9A5
++  Functions: 5323
++  Symbols:   13210
++  CStrings:  1967
+ 
+Symbols:
++ GCC_except_table141
++ GCC_except_table255
++ GCC_except_table256
++ GCC_except_table310
++ GCC_except_table314
++ GCC_except_table321
++ GCC_except_table338
++ GCC_except_table340
++ GCC_except_table404
++ GCC_except_table425
++ GCC_except_table450
++ GCC_except_table460
++ GCC_except_table465
++ GCC_except_table475
++ GCC_except_table476
++ GCC_except_table477
++ GCC_except_table478
++ GCC_except_table483
++ GCC_except_table496
++ GCC_except_table560
++ GCC_except_table574
++ GCC_except_table575
++ GCC_except_table576
++ GCC_except_table596
++ GCC_except_table602
++ GCC_except_table603
++ GCC_except_table642
++ GCC_except_table643
++ GCC_except_table656
++ GCC_except_table661
++ GCC_except_table662
++ GCC_except_table666
++ GCC_except_table671
++ GCC_except_table672
++ GCC_except_table675
++ GCC_except_table681
++ GCC_except_table685
++ GCC_except_table692
++ GCC_except_table693
++ GCC_except_table694
++ GCC_except_table696
++ GCC_except_table729
++ GCC_except_table736
++ GCC_except_table737
++ GCC_except_table752
++ GCC_except_table768
++ GCC_except_table770
++ GCC_except_table772
++ GCC_except_table774
++ GCC_except_table775
++ GCC_except_table777
++ GCC_except_table782
++ GCC_except_table783
++ GCC_except_table785
++ GCC_except_table786
++ GCC_except_table787
++ GCC_except_table788
++ GCC_except_table791
++ __ZGVZN7TFSInfo20FileTypeForURLSchemeE7TStringE17sSchemeToFileType
++ __ZGVZN7TFSInfo28ClippingExtensionForFileTypeEjE16sTypeToExtension
++ __ZL20kInternetLocationVNC
++ __ZN21TFSInfoOverflowICloudC2ERKS_
++ __ZN7TFSInfo20FileTypeForURLSchemeE7TString
++ __ZN7TFSInfo28ClippingExtensionForFileTypeEj
++ __ZNK7TFSInfo17AccountIdentifierEv
++ __ZNK7TFSInfo29ValidAppContainerFPCollectionEv
++ __ZNKSt3__112__hash_tableINS_17__hash_value_typeI7TStringjEENS_22__unordered_map_hasherIS2_S3_NS_4hashIS2_EENS_8equal_toIS2_EELb1EEENS_21__unordered_map_equalIS2_S3_S8_S6_Lb1EEENS_9allocatorIS3_EEE4findIS2_EENS_21__hash_const_iteratorIPNS_11__hash_nodeIS3_PvEEEERKT_
++ __ZNKSt3__112__hash_tableINS_17__hash_value_typeIj7TStringEENS_22__unordered_map_hasherIjS3_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE4findIjEENS_21__hash_const_iteratorIPNS_11__hash_nodeIS3_PvEEEERKT_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeI7TStringjEEPvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEE5resetB7v160006EPS6_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIj7TStringEEPvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEE5resetB7v160006EPS6_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeI7TStringjEENS_22__unordered_map_hasherIS2_S3_NS_4hashIS2_EENS_8equal_toIS2_EELb1EEENS_21__unordered_map_equalIS2_S3_S8_S6_Lb1EEENS_9allocatorIS3_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeI7TStringjEENS_22__unordered_map_hasherIS2_S3_NS_4hashIS2_EENS_8equal_toIS2_EELb1EEENS_21__unordered_map_equalIS2_S3_S8_S6_Lb1EEENS_9allocatorIS3_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeI7TStringjEENS_22__unordered_map_hasherIS2_S3_NS_4hashIS2_EENS_8equal_toIS2_EELb1EEENS_21__unordered_map_equalIS2_S3_S8_S6_Lb1EEENS_9allocatorIS3_EEE21__construct_node_hashIRKNS_4pairIKS2_jEEJEEENS_10unique_ptrINS_11__hash_nodeIS3_PvEENS_22__hash_node_destructorINSC_ISO_EEEEEEmOT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeI7TStringjEENS_22__unordered_map_hasherIS2_S3_NS_4hashIS2_EENS_8equal_toIS2_EELb1EEENS_21__unordered_map_equalIS2_S3_S8_S6_Lb1EEENS_9allocatorIS3_EEE25__emplace_unique_key_argsIS2_JRKNS_4pairIKS2_jEEEEENSG_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeI7TStringjEENS_22__unordered_map_hasherIS2_S3_NS_4hashIS2_EENS_8equal_toIS2_EELb1EEENS_21__unordered_map_equalIS2_S3_S8_S6_Lb1EEENS_9allocatorIS3_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeI7TStringjEENS_22__unordered_map_hasherIS2_S3_NS_4hashIS2_EENS_8equal_toIS2_EELb1EEENS_21__unordered_map_equalIS2_S3_S8_S6_Lb1EEENS_9allocatorIS3_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIj7TStringEENS_22__unordered_map_hasherIjS3_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIj7TStringEENS_22__unordered_map_hasherIjS3_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIj7TStringEENS_22__unordered_map_hasherIjS3_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE21__construct_node_hashIRKNS_4pairIKjS2_EEJEEENS_10unique_ptrINS_11__hash_nodeIS3_PvEENS_22__hash_node_destructorINSC_ISO_EEEEEEmOT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIj7TStringEENS_22__unordered_map_hasherIjS3_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE25__emplace_unique_key_argsIjJRKNS_4pairIKjS2_EEEEENSG_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIj7TStringEENS_22__unordered_map_hasherIjS3_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIj7TStringEENS_22__unordered_map_hasherIjS3_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS3_S8_S6_Lb1EEENS_9allocatorIS3_EEED2Ev
++ __ZNSt3__113unordered_mapI7TStringjNS_4hashIS1_EENS_8equal_toIS1_EENS_9allocatorINS_4pairIKS1_jEEEEEC2ESt16initializer_listIS9_E
++ __ZNSt3__113unordered_mapIj7TStringNS_4hashIjEENS_8equal_toIjEENS_9allocatorINS_4pairIKjS1_EEEEEC2ESt16initializer_listIS9_E
++ __ZNSt3__14pairIK7TStringjEC1B7v160006IS1_4$_12LPv0EEEOT_OT0_
++ __ZNSt3__14pairIK7TStringjEC2B7v160006IS1_RKiLPv0EEEOT_OT0_
++ __ZNSt3__14pairIK7TStringjEC2ERKS3_
++ __ZNSt3__14pairIKj7TStringEC1B7v160006I4$_12S2_LPv0EEEOT_OT0_
++ __ZNSt3__14pairIKj7TStringEC1B7v160006I4$_13S2_LPv0EEEOT_OT0_
++ __ZNSt3__14pairIKj7TStringEC2B7v160006IRKiS2_LPv0EEEOT_OT0_
++ __ZNSt3__14pairIKj7TStringEC2ERKS3_
++ __ZZN7TFSInfo19SFNodeFromSFBrowserE17FSInfoVirtualTypePK7__CFURLbEN4$_16D1Ev
++ __ZZN7TFSInfo20FileTypeForURLSchemeE7TStringE17sSchemeToFileType
++ __ZZN7TFSInfo28ClippingExtensionForFileTypeEjE16sTypeToExtension
++ __ZZN7TFSInfoC1EP16FPProviderDomainP6FPItemENK3$_1clEv
++ ___block_descriptor_56_ea8_32c73_ZTSKZN7TFSInfo19SFNodeFromSFBrowserE17FSInfoVirtualTypePK7__CFURLbE4$_16_e5_v8?0l
++ ___block_literal_global.106
++ ___block_literal_global.120
++ ___block_literal_global.128
++ ___copy_helper_block_ea8_32c73_ZTSKZN7TFSInfo19SFNodeFromSFBrowserE17FSInfoVirtualTypePK7__CFURLbE4$_16
++ ___destroy_helper_block_ea8_32c73_ZTSKZN7TFSInfo19SFNodeFromSFBrowserE17FSInfoVirtualTypePK7__CFURLbE4$_16
++ _objc_msgSend$lowercaseString
+- GCC_except_table205
+- GCC_except_table291
+- GCC_except_table313
+- GCC_except_table315
+- GCC_except_table317
+- GCC_except_table331
+- GCC_except_table358
+- GCC_except_table369
+- GCC_except_table374
+- GCC_except_table391
+- GCC_except_table429
+- GCC_except_table446
+- GCC_except_table449
+- GCC_except_table471
+- GCC_except_table473
+- GCC_except_table479
+- GCC_except_table486
+- GCC_except_table487
+- GCC_except_table489
+- GCC_except_table498
+- GCC_except_table558
+- GCC_except_table566
+- GCC_except_table591
+- GCC_except_table635
+- GCC_except_table636
+- GCC_except_table647
+- GCC_except_table649
+- GCC_except_table655
+- GCC_except_table658
+- GCC_except_table659
+- GCC_except_table664
+- GCC_except_table668
+- GCC_except_table674
+- GCC_except_table677
+- GCC_except_table678
+- GCC_except_table699
+- GCC_except_table702
+- GCC_except_table704
+- GCC_except_table717
+- GCC_except_table722
+- GCC_except_table724
+- GCC_except_table725
+- GCC_except_table740
+- GCC_except_table744
+- GCC_except_table745
+- GCC_except_table756
+- GCC_except_table757
+- GCC_except_table758
+- GCC_except_table759
+- GCC_except_table760
+- __ZGVZN7TFSInfo10GetURLTypeERK7TStringE12katUrlString
+- __ZGVZN7TFSInfo10GetURLTypeERK7TStringE13kafpUrlString
+- __ZGVZN7TFSInfo10GetURLTypeERK7TStringE13kftpUrlString
+- __ZGVZN7TFSInfo10GetURLTypeERK7TStringE13kvncUrlString
+- __ZGVZN7TFSInfo10GetURLTypeERK7TStringE14kfileUrlString
+- __ZGVZN7TFSInfo10GetURLTypeERK7TStringE14khttpUrlString
+- __ZGVZN7TFSInfo10GetURLTypeERK7TStringE14knewsUrlString
+- __ZGVZN7TFSInfo10GetURLTypeERK7TStringE15khttpsUrlString
+- __ZGVZN7TFSInfo10GetURLTypeERK7TStringE16kmailtoUrlString
+- __ZN7TFSInfo10GetURLTypeERK7TString
+- __ZN7TFSInfo27AddClippingExtensionForTypeERK7TStringjRS0_
+- __ZN7TFSInfo27GetClippingExtensionForTypeEj
+- __ZZN7TFSInfo10GetURLTypeERK7TStringE12katUrlString
+- __ZZN7TFSInfo10GetURLTypeERK7TStringE13kafpUrlString
+- __ZZN7TFSInfo10GetURLTypeERK7TStringE13kftpUrlString
+- __ZZN7TFSInfo10GetURLTypeERK7TStringE13kvncUrlString
+- __ZZN7TFSInfo10GetURLTypeERK7TStringE14kfileUrlString
+- __ZZN7TFSInfo10GetURLTypeERK7TStringE14khttpUrlString
+- __ZZN7TFSInfo10GetURLTypeERK7TStringE14knewsUrlString
+- __ZZN7TFSInfo10GetURLTypeERK7TStringE15khttpsUrlString
+- __ZZN7TFSInfo10GetURLTypeERK7TStringE16kmailtoUrlString
+- __ZZN7TFSInfo19SFNodeFromSFBrowserE17FSInfoVirtualTypePK7__CFURLbEN4$_14D1Ev
+- __ZZN7TFSInfo27GetClippingExtensionForTypeEjE18kClippingExtension
+- __ZZN7TFSInfo27GetClippingExtensionForTypeEjE22kTextClippingExtension
+- __ZZN7TFSInfo27GetClippingExtensionForTypeEjE23kSoundClippingExtension
+- __ZZN7TFSInfo27GetClippingExtensionForTypeEjE25kPictureClippingExtension
+- __ZZN7TFSInfo27GetClippingExtensionForTypeEjE26kInternetLocationExtension
+- __ZZN7TFSInfo27GetClippingExtensionForTypeEjE28kATInternetLocationExtension
+- __ZZN7TFSInfo27GetClippingExtensionForTypeEjE29kAFPInternetLocationExtension
+- __ZZN7TFSInfo27GetClippingExtensionForTypeEjE29kFTPInternetLocationExtension
+- __ZZN7TFSInfo27GetClippingExtensionForTypeEjE29kVNCInternetLocationExtension
+- __ZZN7TFSInfo27GetClippingExtensionForTypeEjE30kFileInternetLocationExtension
+- __ZZN7TFSInfo27GetClippingExtensionForTypeEjE30kHTTPInternetLocationExtension
+- __ZZN7TFSInfo27GetClippingExtensionForTypeEjE30kMailInternetLocationExtension
+- __ZZN7TFSInfo27GetClippingExtensionForTypeEjE30kNNTPInternetLocationExtension
+- __ZZN7TFSInfo27GetClippingExtensionForTypeEjE4once
+- ____ZN7TFSInfo27GetClippingExtensionForTypeEj_block_invoke
+- ___block_descriptor_56_ea8_32c73_ZTSKZN7TFSInfo19SFNodeFromSFBrowserE17FSInfoVirtualTypePK7__CFURLbE4$_14_e5_v8?0l
+- ___block_literal_global.108
+- ___block_literal_global.122
+- ___block_literal_global.80
+- ___copy_helper_block_ea8_32c73_ZTSKZN7TFSInfo19SFNodeFromSFBrowserE17FSInfoVirtualTypePK7__CFURLbE4$_14
+- ___destroy_helper_block_ea8_32c73_ZTSKZN7TFSInfo19SFNodeFromSFBrowserE17FSInfoVirtualTypePK7__CFURLbE4$_14
+CStrings:
++ "Found invalid app library collection for account identifier %{public}@"
++ "Unreadable FPItem found with busy creation date, forcing read capability to match local file: %@"
++ "creating new info object for app libraries node, current one is not valid"
++ "lowercaseString"
+- "creating new info object for app libraries node which was created before iCloud was enabled"
+
+```

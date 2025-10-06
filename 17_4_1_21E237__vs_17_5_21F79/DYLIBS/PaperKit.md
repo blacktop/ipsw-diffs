@@ -1,0 +1,251 @@
+## PaperKit
+
+> `/System/Library/PrivateFrameworks/PaperKit.framework/PaperKit`
+
+```diff
+
+-221.9.2.0.0
+-  __TEXT.__text: 0x3e56f4
++221.15.2.0.0
++  __TEXT.__text: 0x3e6c50
+   __TEXT.__auth_stubs: 0x5f70
+-  __TEXT.__objc_methlist: 0x497c
+-  __TEXT.__const: 0x14fb4
++  __TEXT.__objc_methlist: 0x49c0
++  __TEXT.__const: 0x14fc4
+   __TEXT.__gcc_except_tab: 0x2cc
+-  __TEXT.__cstring: 0x10007
++  __TEXT.__cstring: 0x10037
+   __TEXT.__oslogstring: 0x45c
+   __TEXT.__dlopen_cstrs: 0x157
+-  __TEXT.__constg_swiftt: 0xbea0
+-  __TEXT.__swift5_typeref: 0xa4f0
+-  __TEXT.__swift5_reflstr: 0x7865
+-  __TEXT.__swift5_fieldmd: 0x63c8
++  __TEXT.__constg_swiftt: 0xbee8
++  __TEXT.__swift5_typeref: 0xa500
++  __TEXT.__swift5_reflstr: 0x7885
++  __TEXT.__swift5_fieldmd: 0x63e0
+   __TEXT.__swift5_builtin: 0x294
+   __TEXT.__swift5_assocty: 0x1d30
+-  __TEXT.__swift5_capture: 0x3900
++  __TEXT.__swift5_capture: 0x3908
+   __TEXT.__swift5_proto: 0xef0
+   __TEXT.__swift5_types: 0x5e4
+   __TEXT.__swift5_protos: 0xdc
+   __TEXT.__swift5_mpenum: 0x14
+-  __TEXT.__unwind_info: 0xd2a4
++  __TEXT.__unwind_info: 0xd318
+   __TEXT.__eh_frame: 0xd3f8
+   __TEXT.__objc_classname: 0x926
+-  __TEXT.__objc_methname: 0x1092e
+-  __TEXT.__objc_methtype: 0x529c
++  __TEXT.__objc_methname: 0x10a4e
++  __TEXT.__objc_methtype: 0x52c8
+   __TEXT.__objc_stubs: 0x3d60
+-  __DATA_CONST.__got: 0x1270
+-  __DATA_CONST.__const: 0x1d18
++  __DATA_CONST.__got: 0x1278
++  __DATA_CONST.__const: 0x1d28
+   __DATA_CONST.__objc_classlist: 0x568
+   __DATA_CONST.__objc_catlist: 0x60
+   __DATA_CONST.__objc_protolist: 0x400
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x137a8
+-  __DATA_CONST.__objc_selrefs: 0x3f90
++  __DATA_CONST.__objc_const: 0x13808
++  __DATA_CONST.__objc_selrefs: 0x3fd0
+   __DATA_CONST.__objc_protorefs: 0x1f8
+-  __DATA_CONST.__objc_classrefs: 0x6e8
++  __DATA_CONST.__objc_classrefs: 0x6f0
+   __DATA_CONST.__objc_superrefs: 0x58
+   __AUTH_CONST.__cfstring: 0x540
+   __AUTH_CONST.__objc_const: 0x978
+-  __AUTH_CONST.__const: 0x16c68
++  __AUTH_CONST.__const: 0x16c80
+   __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH_CONST.__auth_got: 0x2fc8
+-  __AUTH.__objc_data: 0x6bb8
+-  __AUTH.__data: 0x62c0
++  __AUTH.__objc_data: 0x6c48
++  __AUTH.__data: 0x6700
+   __DATA.__objc_ivar: 0x14c
+   __DATA.__objc_data: 0x208
+-  __DATA.__data: 0x85f0
++  __DATA.__data: 0x87a0
+   __DATA.__objc_stublist: 0x50
+-  __DATA.__bss: 0x12c88
+-  __DATA.__common: 0x7a0
+-  __DATA_DIRTY.__objc_data: 0x54a0
+-  __DATA_DIRTY.__data: 0x6838
+-  __DATA_DIRTY.__bss: 0x7d40
+-  __DATA_DIRTY.__common: 0x558
++  __DATA.__bss: 0x12588
++  __DATA.__common: 0x770
++  __DATA_DIRTY.__objc_data: 0x5460
++  __DATA_DIRTY.__data: 0x6548
++  __DATA_DIRTY.__bss: 0x82c0
++  __DATA_DIRTY.__common: 0x500
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D137E3BB-8522-35D1-83AB-547E60336E7E
+-  Functions: 19988
+-  Symbols:   52836
+-  CStrings:  5068
++  UUID: 7E613C0E-D281-37C8-A6DE-1DB3542342BA
++  Functions: 20021
++  Symbols:   52907
++  CStrings:  5079
+ 
+Symbols:
++ _$s8PaperKit0A12DocumentViewC0acD23ToolPickerObserverProxy33_8424FDA94F5165E454D761243B26314ALLC23_supportsCanvasElementsySbSo06PKToolF0CFTo
++ _$s8PaperKit10CanvasViewC11editingModeAA0c7EditingF0OvsAA5ImageV_TB5
++ _$s8PaperKit13FormAnalyticsC29textFieldManuallyCreatedValue4fromSo8NSObjectCAA0cD4KeysO_tFTf4nd_n
++ _$s8PaperKit15FormFillingViewC10addTextBox2at22analytics_documentTypeAA016AnyCanvasElementE0CSgSo6CGRectV_AA0C13AnalyticsKeysOtF
++ _$s8PaperKit20ToolPickerControllerC029_dissmissImageDescriptionViewE0yyFyycfU_TA.70
++ _$s8PaperKit20ToolPickerControllerC19handleInsertSticker4fromySo14NSItemProviderC_tFTq
++ _$s8PaperKit20ToolPickerControllerC19handleInsertSticker4fromySo14NSItemProviderC_tFySbcfU_
++ _$s8PaperKit20ToolPickerControllerC66handleSqueezeInteractionDidChangePaletteViewVisibilityNotification33_22053498ADB37F37A72687969E641799LLyy10Foundation0N0VF
++ _$s8PaperKit20ToolPickerControllerC66handleSqueezeInteractionDidChangePaletteViewVisibilityNotification33_22053498ADB37F37A72687969E641799LLyy10Foundation0N0VFTo
++ _$s8PaperKit23CanvasElementControllerC010toolPickerE11WindowSceneySo08UIWindowI0CSgAA04ToolgE0CFTf4dn_n
++ _$s8PaperKit23CanvasElementControllerC010toolPickere13ConfigureToolG0yyAA0igE0CFTf4dn_n
++ _$s8PaperKit23CanvasElementControllerC013recentlyAddedcD0AA03AnycD4ViewCSgvg
++ _$s8PaperKit23CanvasElementControllerC03addcD04from17completionHandlerySo14NSItemProviderC_ySbctFyAA03AnyC0CSgcfU_TA.43
++ _$s8PaperKit23CanvasElementControllerC03addcD04from17completionHandlerySo14NSItemProviderC_ySbctFyAA03AnyC0CSgcfU_Tf4nnnnnnd_n
++ _$s8PaperKit23CanvasElementControllerC07visibleC14InsertIfNeeded33_DA32B6809F82252A18050DB886E8EA81LL10completionyyAA03AnyC0CSgc_tF03$s8a5Kit23cde65C03addcD04from17completionHandlerySo14NSItemProviderC_ySbctFyAA03R9C0CSgcfU_Sbz_XxSo0yZ0CSo6CGRectV12CoreGraphics7CGFloatVSbIegy_ACXDXMTTf1cn_n
++ _$s8PaperKit23CanvasElementControllerC07visibleC14InsertIfNeeded33_DA32B6809F82252A18050DB886E8EA81LL10completionyyAA03AnyC0CSgc_tF03$s8a5Kit23cde65C03addcD04from17completionHandlerySo14NSItemProviderC_ySbctFyAA03R9C0CSgcfU_Sbz_XxSo0yZ0CSo6CGRectV12CoreGraphics7CGFloatVSbIegy_ACXDXMTTf1cn_nTf4nggnngn_n
++ _$s8PaperKit23CanvasElementControllerC07visibleC14InsertIfNeeded33_DA32B6809F82252A18050DB886E8EA81LL10completionyyAA03AnyC0CSgc_tF03getC0L_yyF03$s8a5Kit23cde65C03addcD04from17completionHandlerySo14NSItemProviderC_ySbctFyAA03R9C0CSgcfU_Sbz_XxSo0Z8ProviderCSo6CGRectV12CoreGraphics7CGFloatVSbIegy_ACXDXMTTf1nnncn_n
++ _$s8PaperKit23CanvasElementControllerC07visibleC14InsertIfNeeded33_DA32B6809F82252A18050DB886E8EA81LL10completionyyAA03AnyC0CSgc_tF03getC0L_yyF03$s8a5Kit23cde65C03addcD04from17completionHandlerySo14NSItemProviderC_ySbctFyAA03R9C0CSgcfU_Sbz_XxSo0Z8ProviderCSo6CGRectV12CoreGraphics7CGFloatVSbIegy_ACXDXMTTf1nnncn_nTf4nnnnggnngn_n
++ _$s8PaperKit23CanvasElementControllerC07visibleC14InsertIfNeeded33_DA32B6809F82252A18050DB886E8EA81LL10completionyyAA03AnyC0CSgc_tF03getC0L_yyFyyScMYccfU_TA.47
++ _$s8PaperKit23CanvasElementControllerC07visibleC14InsertIfNeeded33_DA32B6809F82252A18050DB886E8EA81LL10completionyyAA03AnyC0CSgc_tFySbcfU0_TA.36
++ _$s8PaperKit23CanvasElementControllerC07visibleC14InsertIfNeeded33_DA32B6809F82252A18050DB886E8EA81LL10completionyyAA03AnyC0CSgc_tFyycfU_TA.29
++ _$s8PaperKit23CanvasElementControllerC09_supportsC8ElementsySbSo12PKToolPickerCFTo
++ _$s8PaperKit23CanvasElementControllerC19configureToolPickeryySo06PKToolH0CF
++ _$s8PaperKit23CanvasElementControllerC19configureToolPickeryySo06PKToolH0CFSo06UIViewE0CAHcfU_
++ _$s8PaperKit23CanvasElementControllerC19configureToolPickeryySo06PKToolH0CFSo06UIViewE0CAHcfU_TA
++ _$s8PaperKit23CanvasElementControllerC33_toolPickerDidInvokeInsertSticker_4fromySo06PKToolG0C_So14NSItemProviderCtFTf4dnn_n
++ _$s8PaperKit23CanvasElementControllerC33_toolPickerDidInvokeInsertSticker_4fromySo06PKToolG0C_So14NSItemProviderCtFTo
++ _$s8PaperKit23CanvasElementControllerC37updateToolPickerContextualEditingViewyyFSo06UIViewE0CSgycfU_
++ _$s8PaperKit23CanvasElementControllerC37updateToolPickerContextualEditingViewyyFSo06UIViewE0CSgycfU_TA
++ _$s8PaperKit23CanvasElementControllerCAA010ToolPickerE8DelegateA2aDP04toolgE11WindowSceneySo08UIWindowK0CSgAA0fgE0CFTW
++ _$s8PaperKit23CanvasElementControllerCAA010ToolPickerE8DelegateA2aDP04toolge9ConfigurefG0yyAA0fgE0CFTW
++ _$s8PaperKit26ContainerCanvasElementViewC07drawingF0AA0de7DrawingF0CSgvgTf4n_g
++ _$s8PaperKit26ContainerCanvasElementViewCyxGAA03AnycdeF0A2aEP07drawingF0AA0de7DrawingF0CSgvgTW
++ _$s8PaperKit28CanvasViewToolPickerObserverC09_supportsC8ElementsySbSo06PKToolF0CFTo
++ _$s8PaperKit28ToolPickerControllerDelegateP04tooldE11WindowSceneySo08UIWindowI0CSgAA0cdE0CFTq
++ _$s8PaperKit28ToolPickerControllerDelegateP04toolde9ConfigurecD0yyAA0cdE0CFTq
++ _$s8PaperKit28ToolPickerControllerDelegateP26recentlyAddedCanvasElementAA03AnyiJ4ViewCSgvgTq
++ _$s8PaperKit29MarkupContainerViewControllerC040handleSqueezeInteractionDidChangePaletteE22VisibilityNotificationyySo14NSNotificationCFTf4dn_n
++ _$s8PaperKit29MarkupContainerViewControllerC040handleSqueezeInteractionDidChangePaletteE22VisibilityNotificationyySo14NSNotificationCFTo
++ _$s8PaperKit29MarkupContainerViewControllerC040handleSqueezeInteractionDidChangePaletteE22VisibilityNotificationyySo14NSNotificationCFTq
++ _$s8PaperKit29MarkupContainerViewControllerC18formFillingEnabledSbvM.resume.0Tm
++ _$s8PaperKit29MarkupContainerViewControllerC18formFillingEnabledSbvsToTm
++ _$s8PaperKit29MarkupContainerViewControllerC24annotationEditingEnabledSbvW
++ _$s8PaperKit29MarkupContainerViewControllerC24annotationEditingEnabledSbvsTm
++ _$s8PaperKit29MarkupContainerViewControllerC24registerForNotificationsyyF
++ _$s8PaperKit36InlineDrawingCanvasElementControllerC010toolPickerG11WindowSceneySo08UIWindowK0CSgAA04TooliG0CFTf4dn_nTm
++ _$s8PaperKit36InlineDrawingCanvasElementControllerC010toolPickerg13ConfigureToolI0yyAA0kiG0CFTf4dn_nTm
++ _$s8PaperKit36InlineDrawingCanvasElementControllerC09_supportsE8ElementsySbSo12PKToolPickerCFTo
++ _$s8PaperKit36InlineDrawingCanvasElementControllerC19configureToolPicker33_0F164C88E2B88D0213523FCB6D276EF0LLyySo06PKToolJ0CF
++ _$s8PaperKit36InlineDrawingCanvasElementControllerCAA010ToolPickerG8DelegateA2aDP04tooliG11WindowSceneySo08UIWindowM0CSgAA0hiG0CFTW
++ _$s8PaperKit36InlineDrawingCanvasElementControllerCAA010ToolPickerG8DelegateA2aDP04toolig9ConfigurehI0yyAA0hiG0CFTW
++ _$s8PaperKit6CanvasC11editingModeAA0c7EditingE0OvWAA5ImageV_TB5
++ _$s8PaperKit9AnalyticsC13sendEventLazy3key7payloadyAA0C4KeysO_SDyAHSo8NSObjectCGyXAtFSDySSAJGSgycfU_TA.40
++ _$s8PaperKit9AnyCanvasC18wantsDataDetectionSbvM
++ _$s8PaperKit9AnyCanvasC18wantsDataDetectionSbvM.resume.0
++ _$s8PaperKit9AnyCanvasC18wantsDataDetectionSbvMTj
++ _$s8PaperKit9AnyCanvasC18wantsDataDetectionSbvMTq
++ _$s8PaperKit9AnyCanvasC18wantsDataDetectionSbvg
++ _$s8PaperKit9AnyCanvasC18wantsDataDetectionSbvgTj
++ _$s8PaperKit9AnyCanvasC18wantsDataDetectionSbvgTq
++ _$s8PaperKit9AnyCanvasC18wantsDataDetectionSbvpACTk
++ _$s8PaperKit9AnyCanvasC18wantsDataDetectionSbvpMV
++ _$s8PaperKit9AnyCanvasC18wantsDataDetectionSbvpWvd
++ _$s8PaperKit9AnyCanvasC18wantsDataDetectionSbvs
++ _$s8PaperKit9AnyCanvasC18wantsDataDetectionSbvsTj
++ _$s8PaperKit9AnyCanvasC18wantsDataDetectionSbvsTq
++ _OBJC_CLASS_$_PKPencilSqueezeInteraction
++ _PKPencilSqueezeInteractionDidChangePaletteViewVisibilityNotification
++ _block_copy_helper.23
++ _block_copy_helper.63
++ _block_copy_helper.71
++ _block_copy_helper.78
++ _block_copy_helper.82
++ _block_descriptor.25
++ _block_descriptor.65
++ _block_descriptor.73
++ _block_descriptor.80
++ _block_descriptor.84
++ _block_destroy_helper.24
++ _block_destroy_helper.64
++ _block_destroy_helper.72
++ _block_destroy_helper.79
++ _block_destroy_helper.83
++ _keypath_get.5Tm
++ _keypath_set.70Tm
++ _objectdestroy.15Tm
++ _objectdestroy.21Tm
++ _objectdestroy.61Tm
++ _objectdestroy.9Tm
+- _$s8PaperKit20ToolPickerControllerC029_dissmissImageDescriptionViewE0yyFyycfU_TA.69
+- _$s8PaperKit20ToolPickerControllerCfDTo
+- _$s8PaperKit23CanvasElementControllerC03addcD04from17completionHandlerySo14NSItemProviderC_ySbctFyAA03AnyC0CSgcfU_TA.42
+- _$s8PaperKit23CanvasElementControllerC03addcD04from17completionHandlerySo14NSItemProviderC_ySbctFyAA03AnyC0CSgcfU_Tf4nnnnnd_n
+- _$s8PaperKit23CanvasElementControllerC07visibleC14InsertIfNeeded33_DA32B6809F82252A18050DB886E8EA81LL10completionyyAA03AnyC0CSgc_tF03$s8a5Kit23cde65C03addcD04from17completionHandlerySo14NSItemProviderC_ySbctFyAA03R9C0CSgcfU_Sbz_XxSo0yZ0CSo6CGRectVSbIegy_ACXDXMTTf1cn_n
+- _$s8PaperKit23CanvasElementControllerC07visibleC14InsertIfNeeded33_DA32B6809F82252A18050DB886E8EA81LL10completionyyAA03AnyC0CSgc_tF03$s8a5Kit23cde65C03addcD04from17completionHandlerySo14NSItemProviderC_ySbctFyAA03R9C0CSgcfU_Sbz_XxSo0yZ0CSo6CGRectVSbIegy_ACXDXMTTf1cn_nTf4nggngn_n
+- _$s8PaperKit23CanvasElementControllerC07visibleC14InsertIfNeeded33_DA32B6809F82252A18050DB886E8EA81LL10completionyyAA03AnyC0CSgc_tF03getC0L_yyF03$s8a5Kit23cde65C03addcD04from17completionHandlerySo14NSItemProviderC_ySbctFyAA03R9C0CSgcfU_Sbz_XxSo0Z8ProviderCSo6CGRectVSbIegy_ACXDXMTTf1nnncn_n
+- _$s8PaperKit23CanvasElementControllerC07visibleC14InsertIfNeeded33_DA32B6809F82252A18050DB886E8EA81LL10completionyyAA03AnyC0CSgc_tF03getC0L_yyF03$s8a5Kit23cde65C03addcD04from17completionHandlerySo14NSItemProviderC_ySbctFyAA03R9C0CSgcfU_Sbz_XxSo0Z8ProviderCSo6CGRectVSbIegy_ACXDXMTTf1nnncn_nTf4nnnnggngn_n
+- _$s8PaperKit23CanvasElementControllerC07visibleC14InsertIfNeeded33_DA32B6809F82252A18050DB886E8EA81LL10completionyyAA03AnyC0CSgc_tF03getC0L_yyFyyScMYccfU_TA.46
+- _$s8PaperKit23CanvasElementControllerC07visibleC14InsertIfNeeded33_DA32B6809F82252A18050DB886E8EA81LL10completionyyAA03AnyC0CSgc_tFySbcfU0_TA.35
+- _$s8PaperKit23CanvasElementControllerC07visibleC14InsertIfNeeded33_DA32B6809F82252A18050DB886E8EA81LL10completionyyAA03AnyC0CSgc_tFyycfU_TA.28
+- _$s8PaperKit23CanvasElementControllerC18updateToolPickerUIyyF
+- _$s8PaperKit23CanvasElementControllerC37updateToolPickerContextualEditingViewyyFSo06UIViewE0CAFcfU_
+- _$s8PaperKit23CanvasElementControllerC37updateToolPickerContextualEditingViewyyFSo06UIViewE0CAFcfU_TA
+- _$s8PaperKit23CanvasElementControllerC37updateToolPickerContextualEditingViewyyFSo06UIViewE0CSgycfU0_
+- _$s8PaperKit23CanvasElementControllerC37updateToolPickerContextualEditingViewyyFSo06UIViewE0CSgycfU0_TA
+- _$s8PaperKit29MarkupContainerViewControllerC18allEditingDisabledSbvM.resume.0Tm
+- _$s8PaperKit29MarkupContainerViewControllerC18allEditingDisabledSbvsTm
+- _$s8PaperKit29MarkupContainerViewControllerC18allEditingDisabledSbvsToTm
+- _$s8PaperKit29MarkupContainerViewControllerC24annotationEditingEnabledSbvpACTk
+- _$s8PaperKit36InlineDrawingCanvasElementControllerC010toolPickerg4ViewG0ySo06UIViewG0CSgAA04TooliG0CFTf4dn_n
+- _$s8PaperKit6CanvasC11editingModeAA0c7EditingE0OvM.resume.0Tm
+- _$s8PaperKit6CanvasC11editingModeAA0c7EditingE0OvsAA5ImageV_TB5
+- _$s8PaperKit9AnalyticsC13sendEventLazy3key7payloadyAA0C4KeysO_SDyAHSo8NSObjectCGyXAtFSDySSAJGSgycfU_TA.41
+- _$s8PaperKit9AnyCanvasC27viewControllerForPresentingSo06UIViewF0CSgvpACTk
+- _block_copy_helper.29
+- _block_copy_helper.36
+- _block_copy_helper.42
+- _block_copy_helper.77
+- _block_descriptor.31
+- _block_descriptor.38
+- _block_descriptor.44
+- _block_descriptor.79
+- _block_destroy_helper.30
+- _block_destroy_helper.37
+- _block_destroy_helper.43
+- _block_destroy_helper.78
+- _keypath_get.4Tm
+- _keypath_set.66Tm
+- _objectdestroy.14Tm
+- _objectdestroy.20Tm
+- _objectdestroy.60Tm
+- _objectdestroy.8Tm
+CStrings:
++ "_existingInteractionForWindowScene:"
++ "_existingToolPickerForWindow:"
++ "_paletteViewVisible"
++ "_setMiniPaletteVisible:hoverLocation:inView:"
++ "_supportsCanvasElements:"
++ "_toolPickerDidInvokeInsertSticker:fromItemProvider:"
++ "handleSqueezeInteractionDidChangePaletteViewVisibilityNotification:"
++ "palette"
++ "v32@0:8@\"PKToolPicker\"16@\"NSItemProvider\"24"
++ "viewIfLoaded"
++ "wantsDataDetection"
+
+```

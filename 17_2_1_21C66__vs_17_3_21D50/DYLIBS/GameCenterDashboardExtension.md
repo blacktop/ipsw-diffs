@@ -1,0 +1,22 @@
+## GameCenterDashboardExtension
+
+> `/System/Library/AccessibilityBundles/GameCenterDashboardExtension.axbundle/GameCenterDashboardExtension`
+
+```diff
+
+-2909.1.4.13.0
++2909.1.4.18.0
+   __TEXT.__text: 0x614
+   __TEXT.__auth_stubs: 0x170
+   __TEXT.__objc_methlist: 0xc8
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5C864738-800A-3C0C-9ADF-E5036D6821C8
++  UUID: FF20A566-E064-3EA9-9772-2B994954D65F
+   Functions: 17
+   Symbols:   120
+   CStrings:  74
+
+```

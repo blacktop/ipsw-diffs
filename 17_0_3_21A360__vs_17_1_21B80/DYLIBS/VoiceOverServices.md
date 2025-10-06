@@ -1,0 +1,604 @@
+## VoiceOverServices
+
+> `/System/Library/PrivateFrameworks/VoiceOverServices.framework/VoiceOverServices`
+
+```diff
+
+-3089.1.0.0.0
+-  __TEXT.__text: 0x32b30
+-  __TEXT.__auth_stubs: 0x990
+-  __TEXT.__objc_methlist: 0x2c20
++3093.2.4.0.2
++  __TEXT.__text: 0x32e8c
++  __TEXT.__auth_stubs: 0x980
++  __TEXT.__objc_methlist: 0x2c48
+   __TEXT.__cstring: 0x75c8
+   __TEXT.__const: 0x38
+   __TEXT.__gcc_except_tab: 0x12c
+-  __TEXT.__oslogstring: 0x458
++  __TEXT.__oslogstring: 0x4ba
+   __TEXT.__dlopen_cstrs: 0xf0
+-  __TEXT.__unwind_info: 0x828
++  __TEXT.__unwind_info: 0x82c
+   __TEXT.__objc_classname: 0x2eb
+-  __TEXT.__objc_methname: 0x6182
+-  __TEXT.__objc_methtype: 0x5d4
+-  __TEXT.__objc_stubs: 0x6f20
++  __TEXT.__objc_methname: 0x61de
++  __TEXT.__objc_methtype: 0x5f7
++  __TEXT.__objc_stubs: 0x6f80
+   __DATA_CONST.__got: 0xa0
+   __DATA_CONST.__const: 0x708
+   __DATA_CONST.__objc_classlist: 0xe0
+   __DATA_CONST.__objc_protolist: 0x48
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x3748
+-  __DATA_CONST.__objc_selrefs: 0x1f28
++  __DATA_CONST.__objc_selrefs: 0x1f40
+   __DATA_CONST.__objc_arraydata: 0xc8
+   __AUTH_CONST.__cfstring: 0x8620
+   __AUTH_CONST.__objc_const: 0x0
+-  __AUTH_CONST.__const: 0x40
++  __AUTH_CONST.__const: 0x20e0
+   __AUTH_CONST.__objc_intobj: 0x120
+   __AUTH_CONST.__objc_arrayobj: 0xc0
+-  __AUTH_CONST.__auth_got: 0x4d8
++  __AUTH_CONST.__auth_got: 0x4d0
+   __DATA.__objc_classrefs: 0x200
+   __DATA.__objc_superrefs: 0xb0
+   __DATA.__objc_ivar: 0x15c
+   __DATA.__data: 0xce0
+   __DATA.__bss: 0x838
+-  __DATA_DIRTY.__const: 0x30c0
++  __DATA_DIRTY.__const: 0x1020
+   __DATA_DIRTY.__objc_const: 0xd38
+   __DATA_DIRTY.__objc_data: 0x8c0
+   __DATA_DIRTY.__data: 0x60
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BF0EA658-B0E9-3D58-888D-905308C87216
+-  Functions: 1408
+-  Symbols:   5798
+-  CStrings:  3501
++  UUID: 8CBF5C75-F5C2-321F-8C15-52D2C01ED9CC
++  Functions: 1411
++  Symbols:   5806
++  CStrings:  3508
+ 
+Symbols:
++ -[VOSBluetoothSSPPairingRequest _btDevice]
++ -[VOSBluetoothSSPPairingRequest acceptPairingBlock]
++ -[VOSBluetoothSSPPairingRequest cancelPairingBlock]
++ -[VOSBluetoothSSPPairingRequest initWithDevice:andSpecifier:acceptPairingBlock:cancelPairingBlock:]
++ -[VOSBluetoothSSPPairingRequest setAcceptPairingBlock:]
++ -[VOSBluetoothSSPPairingRequest setCancelPairingBlock:]
++ -[VOSBluetoothSSPPairingRequest showWithViewController:]
++ GCC_except_table10
++ _OBJC_IVAR_$_VOSBluetoothSSPPairingRequest._acceptPairingBlock
++ _OBJC_IVAR_$_VOSBluetoothSSPPairingRequest._cancelPairingBlock
++ ___block_literal_global.1001
++ ___block_literal_global.1006
++ ___block_literal_global.1011
++ ___block_literal_global.1016
++ ___block_literal_global.1021
++ ___block_literal_global.1026
++ ___block_literal_global.1031
++ ___block_literal_global.1036
++ ___block_literal_global.1041
++ ___block_literal_global.1046
++ ___block_literal_global.1051
++ ___block_literal_global.1056
++ ___block_literal_global.1061
++ ___block_literal_global.1066
++ ___block_literal_global.1071
++ ___block_literal_global.1076
++ ___block_literal_global.1081
++ ___block_literal_global.1086
++ ___block_literal_global.1091
++ ___block_literal_global.1096
++ ___block_literal_global.1101
++ ___block_literal_global.1106
++ ___block_literal_global.1111
++ ___block_literal_global.1116
++ ___block_literal_global.1121
++ ___block_literal_global.1126
++ ___block_literal_global.1131
++ ___block_literal_global.1136
++ ___block_literal_global.1141
++ ___block_literal_global.1146
++ ___block_literal_global.1151
++ ___block_literal_global.1156
++ ___block_literal_global.1161
++ ___block_literal_global.1166
++ ___block_literal_global.1171
++ ___block_literal_global.216
++ ___block_literal_global.220
++ ___block_literal_global.221
++ ___block_literal_global.223
++ ___block_literal_global.225
++ ___block_literal_global.228
++ ___block_literal_global.230
++ ___block_literal_global.233
++ ___block_literal_global.235
++ ___block_literal_global.238
++ ___block_literal_global.243
++ ___block_literal_global.248
++ ___block_literal_global.250
++ ___block_literal_global.253
++ ___block_literal_global.255
++ ___block_literal_global.258
++ ___block_literal_global.260
++ ___block_literal_global.263
++ ___block_literal_global.265
++ ___block_literal_global.268
++ ___block_literal_global.270
++ ___block_literal_global.273
++ ___block_literal_global.275
++ ___block_literal_global.278
++ ___block_literal_global.280
++ ___block_literal_global.283
++ ___block_literal_global.285
++ ___block_literal_global.290
++ ___block_literal_global.293
++ ___block_literal_global.295
++ ___block_literal_global.298
++ ___block_literal_global.300
++ ___block_literal_global.303
++ ___block_literal_global.305
++ ___block_literal_global.308
++ ___block_literal_global.310
++ ___block_literal_global.313
++ ___block_literal_global.315
++ ___block_literal_global.318
++ ___block_literal_global.320
++ ___block_literal_global.323
++ ___block_literal_global.325
++ ___block_literal_global.328
++ ___block_literal_global.330
++ ___block_literal_global.333
++ ___block_literal_global.335
++ ___block_literal_global.338
++ ___block_literal_global.340
++ ___block_literal_global.343
++ ___block_literal_global.345
++ ___block_literal_global.348
++ ___block_literal_global.350
++ ___block_literal_global.353
++ ___block_literal_global.355
++ ___block_literal_global.358
++ ___block_literal_global.360
++ ___block_literal_global.363
++ ___block_literal_global.365
++ ___block_literal_global.368
++ ___block_literal_global.370
++ ___block_literal_global.373
++ ___block_literal_global.375
++ ___block_literal_global.378
++ ___block_literal_global.380
++ ___block_literal_global.383
++ ___block_literal_global.391
++ ___block_literal_global.393
++ ___block_literal_global.396
++ ___block_literal_global.398
++ ___block_literal_global.400
++ ___block_literal_global.401
++ ___block_literal_global.403
++ ___block_literal_global.408
++ ___block_literal_global.411
++ ___block_literal_global.413
++ ___block_literal_global.416
++ ___block_literal_global.418
++ ___block_literal_global.421
++ ___block_literal_global.423
++ ___block_literal_global.426
++ ___block_literal_global.428
++ ___block_literal_global.431
++ ___block_literal_global.433
++ ___block_literal_global.436
++ ___block_literal_global.438
++ ___block_literal_global.441
++ ___block_literal_global.446
++ ___block_literal_global.448
++ ___block_literal_global.451
++ ___block_literal_global.453
++ ___block_literal_global.456
++ ___block_literal_global.458
++ ___block_literal_global.461
++ ___block_literal_global.463
++ ___block_literal_global.466
++ ___block_literal_global.468
++ ___block_literal_global.471
++ ___block_literal_global.473
++ ___block_literal_global.476
++ ___block_literal_global.478
++ ___block_literal_global.481
++ ___block_literal_global.486
++ ___block_literal_global.489
++ ___block_literal_global.494
++ ___block_literal_global.496
++ ___block_literal_global.505
++ ___block_literal_global.516
++ ___block_literal_global.521
++ ___block_literal_global.526
++ ___block_literal_global.531
++ ___block_literal_global.536
++ ___block_literal_global.541
++ ___block_literal_global.546
++ ___block_literal_global.551
++ ___block_literal_global.556
++ ___block_literal_global.561
++ ___block_literal_global.566
++ ___block_literal_global.571
++ ___block_literal_global.576
++ ___block_literal_global.581
++ ___block_literal_global.586
++ ___block_literal_global.591
++ ___block_literal_global.596
++ ___block_literal_global.601
++ ___block_literal_global.606
++ ___block_literal_global.611
++ ___block_literal_global.616
++ ___block_literal_global.621
++ ___block_literal_global.626
++ ___block_literal_global.631
++ ___block_literal_global.636
++ ___block_literal_global.641
++ ___block_literal_global.646
++ ___block_literal_global.651
++ ___block_literal_global.656
++ ___block_literal_global.661
++ ___block_literal_global.666
++ ___block_literal_global.671
++ ___block_literal_global.676
++ ___block_literal_global.681
++ ___block_literal_global.686
++ ___block_literal_global.691
++ ___block_literal_global.696
++ ___block_literal_global.701
++ ___block_literal_global.706
++ ___block_literal_global.711
++ ___block_literal_global.716
++ ___block_literal_global.721
++ ___block_literal_global.726
++ ___block_literal_global.731
++ ___block_literal_global.736
++ ___block_literal_global.741
++ ___block_literal_global.746
++ ___block_literal_global.751
++ ___block_literal_global.756
++ ___block_literal_global.761
++ ___block_literal_global.766
++ ___block_literal_global.771
++ ___block_literal_global.776
++ ___block_literal_global.781
++ ___block_literal_global.786
++ ___block_literal_global.791
++ ___block_literal_global.796
++ ___block_literal_global.801
++ ___block_literal_global.806
++ ___block_literal_global.811
++ ___block_literal_global.816
++ ___block_literal_global.821
++ ___block_literal_global.826
++ ___block_literal_global.831
++ ___block_literal_global.836
++ ___block_literal_global.841
++ ___block_literal_global.846
++ ___block_literal_global.851
++ ___block_literal_global.856
++ ___block_literal_global.861
++ ___block_literal_global.866
++ ___block_literal_global.871
++ ___block_literal_global.876
++ ___block_literal_global.881
++ ___block_literal_global.886
++ ___block_literal_global.891
++ ___block_literal_global.896
++ ___block_literal_global.901
++ ___block_literal_global.906
++ ___block_literal_global.911
++ ___block_literal_global.916
++ ___block_literal_global.921
++ ___block_literal_global.926
++ ___block_literal_global.931
++ ___block_literal_global.936
++ ___block_literal_global.941
++ ___block_literal_global.946
++ ___block_literal_global.951
++ ___block_literal_global.956
++ ___block_literal_global.961
++ ___block_literal_global.966
++ ___block_literal_global.971
++ ___block_literal_global.976
++ ___block_literal_global.981
++ ___block_literal_global.986
++ ___block_literal_global.991
++ ___block_literal_global.996
++ __unnamed_array_storage.346
++ __unnamed_array_storage.353
++ __unnamed_array_storage.356
++ __unnamed_array_storage.369
++ _objc_msgSend$_btDevice
++ _objc_msgSend$acceptPairingBlock
++ _objc_msgSend$cancelPairingBlock
+- -[VOSBluetoothSSPPairingRequest pairingAcceptedBlock]
+- -[VOSBluetoothSSPPairingRequest pairingFailedBlock]
+- -[VOSBluetoothSSPPairingRequest setPairingAcceptedBlock:]
+- -[VOSBluetoothSSPPairingRequest setPairingFailedBlock:]
+- GCC_except_table5
+- GCC_except_table8
+- _OBJC_IVAR_$_VOSBluetoothSSPPairingRequest._pairingAcceptedBlock
+- _OBJC_IVAR_$_VOSBluetoothSSPPairingRequest._pairingFailedBlock
+- ___block_literal_global.1002
+- ___block_literal_global.1007
+- ___block_literal_global.1012
+- ___block_literal_global.1017
+- ___block_literal_global.1022
+- ___block_literal_global.1027
+- ___block_literal_global.1032
+- ___block_literal_global.1037
+- ___block_literal_global.1042
+- ___block_literal_global.1047
+- ___block_literal_global.1052
+- ___block_literal_global.1057
+- ___block_literal_global.1062
+- ___block_literal_global.1067
+- ___block_literal_global.1072
+- ___block_literal_global.1077
+- ___block_literal_global.1082
+- ___block_literal_global.1087
+- ___block_literal_global.1092
+- ___block_literal_global.1097
+- ___block_literal_global.1102
+- ___block_literal_global.1107
+- ___block_literal_global.1112
+- ___block_literal_global.1117
+- ___block_literal_global.1122
+- ___block_literal_global.1127
+- ___block_literal_global.1132
+- ___block_literal_global.1137
+- ___block_literal_global.1142
+- ___block_literal_global.1147
+- ___block_literal_global.1152
+- ___block_literal_global.1157
+- ___block_literal_global.1162
+- ___block_literal_global.1167
+- ___block_literal_global.1172
+- ___block_literal_global.1177
+- ___block_literal_global.222
+- ___block_literal_global.227
+- ___block_literal_global.229
+- ___block_literal_global.232
+- ___block_literal_global.237
+- ___block_literal_global.242
+- ___block_literal_global.244
+- ___block_literal_global.247
+- ___block_literal_global.249
+- ___block_literal_global.252
+- ___block_literal_global.254
+- ___block_literal_global.257
+- ___block_literal_global.259
+- ___block_literal_global.262
+- ___block_literal_global.264
+- ___block_literal_global.267
+- ___block_literal_global.269
+- ___block_literal_global.272
+- ___block_literal_global.274
+- ___block_literal_global.277
+- ___block_literal_global.279
+- ___block_literal_global.284
+- ___block_literal_global.287
+- ___block_literal_global.289
+- ___block_literal_global.292
+- ___block_literal_global.294
+- ___block_literal_global.297
+- ___block_literal_global.299
+- ___block_literal_global.302
+- ___block_literal_global.304
+- ___block_literal_global.307
+- ___block_literal_global.309
+- ___block_literal_global.312
+- ___block_literal_global.314
+- ___block_literal_global.317
+- ___block_literal_global.319
+- ___block_literal_global.322
+- ___block_literal_global.324
+- ___block_literal_global.327
+- ___block_literal_global.329
+- ___block_literal_global.332
+- ___block_literal_global.334
+- ___block_literal_global.337
+- ___block_literal_global.339
+- ___block_literal_global.342
+- ___block_literal_global.344
+- ___block_literal_global.347
+- ___block_literal_global.349
+- ___block_literal_global.352
+- ___block_literal_global.354
+- ___block_literal_global.357
+- ___block_literal_global.359
+- ___block_literal_global.362
+- ___block_literal_global.364
+- ___block_literal_global.367
+- ___block_literal_global.369
+- ___block_literal_global.372
+- ___block_literal_global.374
+- ___block_literal_global.377
+- ___block_literal_global.379
+- ___block_literal_global.387
+- ___block_literal_global.389
+- ___block_literal_global.390
+- ___block_literal_global.392
+- ___block_literal_global.394
+- ___block_literal_global.397
+- ___block_literal_global.399
+- ___block_literal_global.402
+- ___block_literal_global.404
+- ___block_literal_global.407
+- ___block_literal_global.409
+- ___block_literal_global.412
+- ___block_literal_global.414
+- ___block_literal_global.417
+- ___block_literal_global.419
+- ___block_literal_global.422
+- ___block_literal_global.427
+- ___block_literal_global.429
+- ___block_literal_global.430
+- ___block_literal_global.432
+- ___block_literal_global.434
+- ___block_literal_global.442
+- ___block_literal_global.444
+- ___block_literal_global.445
+- ___block_literal_global.447
+- ___block_literal_global.449
+- ___block_literal_global.452
+- ___block_literal_global.454
+- ___block_literal_global.457
+- ___block_literal_global.459
+- ___block_literal_global.462
+- ___block_literal_global.464
+- ___block_literal_global.467
+- ___block_literal_global.469
+- ___block_literal_global.472
+- ___block_literal_global.474
+- ___block_literal_global.477
+- ___block_literal_global.482
+- ___block_literal_global.484
+- ___block_literal_global.497
+- ___block_literal_global.498
+- ___block_literal_global.499
+- ___block_literal_global.508
+- ___block_literal_global.512
+- ___block_literal_global.513
+- ___block_literal_global.517
+- ___block_literal_global.522
+- ___block_literal_global.527
+- ___block_literal_global.532
+- ___block_literal_global.537
+- ___block_literal_global.542
+- ___block_literal_global.547
+- ___block_literal_global.552
+- ___block_literal_global.557
+- ___block_literal_global.562
+- ___block_literal_global.567
+- ___block_literal_global.572
+- ___block_literal_global.577
+- ___block_literal_global.582
+- ___block_literal_global.587
+- ___block_literal_global.592
+- ___block_literal_global.597
+- ___block_literal_global.602
+- ___block_literal_global.607
+- ___block_literal_global.612
+- ___block_literal_global.617
+- ___block_literal_global.622
+- ___block_literal_global.627
+- ___block_literal_global.632
+- ___block_literal_global.637
+- ___block_literal_global.642
+- ___block_literal_global.647
+- ___block_literal_global.652
+- ___block_literal_global.657
+- ___block_literal_global.662
+- ___block_literal_global.667
+- ___block_literal_global.672
+- ___block_literal_global.677
+- ___block_literal_global.682
+- ___block_literal_global.687
+- ___block_literal_global.692
+- ___block_literal_global.697
+- ___block_literal_global.702
+- ___block_literal_global.707
+- ___block_literal_global.712
+- ___block_literal_global.717
+- ___block_literal_global.722
+- ___block_literal_global.727
+- ___block_literal_global.732
+- ___block_literal_global.737
+- ___block_literal_global.742
+- ___block_literal_global.747
+- ___block_literal_global.752
+- ___block_literal_global.757
+- ___block_literal_global.762
+- ___block_literal_global.767
+- ___block_literal_global.772
+- ___block_literal_global.777
+- ___block_literal_global.782
+- ___block_literal_global.787
+- ___block_literal_global.792
+- ___block_literal_global.797
+- ___block_literal_global.802
+- ___block_literal_global.807
+- ___block_literal_global.812
+- ___block_literal_global.817
+- ___block_literal_global.822
+- ___block_literal_global.827
+- ___block_literal_global.832
+- ___block_literal_global.837
+- ___block_literal_global.842
+- ___block_literal_global.847
+- ___block_literal_global.852
+- ___block_literal_global.857
+- ___block_literal_global.862
+- ___block_literal_global.867
+- ___block_literal_global.872
+- ___block_literal_global.877
+- ___block_literal_global.882
+- ___block_literal_global.887
+- ___block_literal_global.892
+- ___block_literal_global.897
+- ___block_literal_global.902
+- ___block_literal_global.907
+- ___block_literal_global.912
+- ___block_literal_global.917
+- ___block_literal_global.922
+- ___block_literal_global.927
+- ___block_literal_global.932
+- ___block_literal_global.937
+- ___block_literal_global.942
+- ___block_literal_global.947
+- ___block_literal_global.952
+- ___block_literal_global.957
+- ___block_literal_global.962
+- ___block_literal_global.967
+- ___block_literal_global.972
+- ___block_literal_global.977
+- ___block_literal_global.982
+- ___block_literal_global.987
+- ___block_literal_global.992
+- ___block_literal_global.997
+- __unnamed_array_storage.352
+- __unnamed_array_storage.368
+- __unnamed_array_storage.371
+- __unnamed_array_storage.375
+- _objc_retain_x28
+CStrings:
++ "@\"<VOSBluetoothConnectableDevice>\""
++ "@48@0:8@16@24@?32@?40"
++ "Check service type: %@ = %@ %@"
++ "Not valid braille device: no name cache"
++ "T@?,C,N,V_acceptPairingBlock"
++ "T@?,C,N,V_cancelPairingBlock"
++ "Valid braille device %@ %@"
++ "_acceptPairingBlock"
++ "_btDevice"
++ "_cancelPairingBlock"
++ "acceptPairingBlock"
++ "cancelPairingBlock"
++ "initWithDevice:andSpecifier:acceptPairingBlock:cancelPairingBlock:"
++ "setAcceptPairingBlock:"
++ "setCancelPairingBlock:"
++ "showWithViewController:"
+- "@\"VOSBluetoothDevice\""
+- "T@?,C,N,V_pairingAcceptedBlock"
+- "T@?,C,N,V_pairingFailedBlock"
+- "_pairingAcceptedBlock"
+- "_pairingFailedBlock"
+- "pairingAcceptedBlock"
+- "pairingFailedBlock"
+- "setPairingAcceptedBlock:"
+- "setPairingFailedBlock:"
+
+```

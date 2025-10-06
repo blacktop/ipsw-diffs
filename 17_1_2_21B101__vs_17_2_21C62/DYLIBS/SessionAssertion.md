@@ -1,0 +1,22 @@
+## SessionAssertion
+
+> `/System/Library/PrivateFrameworks/SessionAssertion.framework/SessionAssertion`
+
+```diff
+
+-127.7.100.0.0
++127.18.0.0.0
+   __TEXT.__text: 0x1f0d8
+   __TEXT.__auth_stubs: 0xe40
+   __TEXT.__objc_methlist: 0x3cc
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 562CE598-1CA9-3B52-ADAF-209240280455
++  UUID: AC75D024-9CBE-3FDD-8D52-B34FE9F9E695
+   Functions: 1178
+   Symbols:   594
+   CStrings:  193
+
+```

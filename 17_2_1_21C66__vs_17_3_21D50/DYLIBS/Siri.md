@@ -1,0 +1,22 @@
+## Siri
+
+> `/System/Library/AccessibilityBundles/Siri.axbundle/Siri`
+
+```diff
+
+-2909.1.4.13.0
++2909.1.4.18.0
+   __TEXT.__text: 0xccc
+   __TEXT.__auth_stubs: 0x140
+   __TEXT.__objc_methlist: 0x300
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 11FEACD9-8782-39E2-B447-9ABA2B356669
++  UUID: 29454524-6349-3872-84B6-BC0AA6CB5937
+   Functions: 54
+   Symbols:   255
+   CStrings:  145
+
+```

@@ -1,0 +1,58 @@
+## TextInputTestingKit
+
+> `/System/Library/PrivateFrameworks/TextInputTestingKit.framework/TextInputTestingKit`
+
+```diff
+
+-3430.1.0.0.0
+-  __TEXT.__text: 0x61774
++3431.159.1.3.0
++  __TEXT.__text: 0x61884
+   __TEXT.__auth_stubs: 0x1340
+   __TEXT.__init_offsets: 0x24
+   __TEXT.__objc_methlist: 0x5038
+
+   __TEXT.__ustring: 0x18a
+   __TEXT.__oslogstring: 0x1c2
+   __TEXT.__dlopen_cstrs: 0x4c
+-  __TEXT.__unwind_info: 0x13d4
++  __TEXT.__unwind_info: 0x13e0
+   __TEXT.__objc_classname: 0xc0a
+   __TEXT.__objc_methname: 0xf5b2
+   __TEXT.__objc_methtype: 0x2b66
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4025DA1A-DE75-3F26-8421-8F56F2D4F336
+-  Functions: 2240
+-  Symbols:   7920
++  UUID: 047F82E0-0CC8-32AA-B8D5-6D1EE1BB6842
++  Functions: 2243
++  Symbols:   7926
+   CStrings:  4841
+ 
+Symbols:
++ __ZN2KB22LanguageModelContainer6createERKNSt3__16vectorINS1_10shared_ptrINS_13LanguageModelEEENS1_9allocatorIS5_EEEERKNS2_IfNS6_IfEEEE
++ __ZNSt3__110shared_ptrIN2KB22LanguageModelContainerEE18__enable_weak_thisB7v160006IS2_S2_vEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN2KB22LanguageModelContainerEEC2IS2_vEEPT_
++ __ZNSt3__120__shared_ptr_pointerIPN2KB22LanguageModelContainerENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_pointerIPN2KB22LanguageModelContainerENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_pointerIPN2KB22LanguageModelContainerENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
++ __ZNSt3__120__shared_ptr_pointerIPN2KB22LanguageModelContainerENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
++ __ZTVNSt3__120__shared_ptr_pointerIPN2KB22LanguageModelContainerENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
++ ___block_literal_global.156
++ __unnamed_array_storage.1289
++ __unnamed_array_storage.181
++ __unnamed_array_storage.182
+- __ZNSt3__120__shared_ptr_pointerIPN2KB22LanguageModelContainerENS_10shared_ptrINS1_13LanguageModelEE27__shared_ptr_default_deleteIS5_S2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_pointerIPN2KB22LanguageModelContainerENS_10shared_ptrINS1_13LanguageModelEE27__shared_ptr_default_deleteIS5_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_pointerIPN2KB22LanguageModelContainerENS_10shared_ptrINS1_13LanguageModelEE27__shared_ptr_default_deleteIS5_S2_EENS_9allocatorIS2_EEED0Ev
+- __ZNSt3__120__shared_ptr_pointerIPN2KB22LanguageModelContainerENS_10shared_ptrINS1_13LanguageModelEE27__shared_ptr_default_deleteIS5_S2_EENS_9allocatorIS2_EEED1Ev
+- __ZTVNSt3__120__shared_ptr_pointerIPN2KB22LanguageModelContainerENS_10shared_ptrINS1_13LanguageModelEE27__shared_ptr_default_deleteIS5_S2_EENS_9allocatorIS2_EEEE
+- ___block_literal_global.153
+- __unnamed_array_storage.1292
+- __unnamed_array_storage.176
+- __unnamed_array_storage.178
+
+```

@@ -1,0 +1,176 @@
+## SiriMailInternal
+
+> `/System/Library/PrivateFrameworks/SiriMailInternal.framework/SiriMailInternal`
+
+```diff
+
+-3300.91.1.1.1
+-  __TEXT.__text: 0x19e668
+-  __TEXT.__auth_stubs: 0x33b0
++3301.10.1.0.0
++  __TEXT.__text: 0x19b688
++  __TEXT.__auth_stubs: 0x3380
+   __TEXT.__objc_methlist: 0x50
+-  __TEXT.__const: 0x1d650
+-  __TEXT.__cstring: 0x9c67
+-  __TEXT.__constg_swiftt: 0x300c
+-  __TEXT.__swift5_typeref: 0x6576
+-  __TEXT.__swift5_fieldmd: 0x5a38
++  __TEXT.__const: 0x1d610
++  __TEXT.__cstring: 0x9d07
++  __TEXT.__constg_swiftt: 0x30e4
++  __TEXT.__swift5_typeref: 0x6546
++  __TEXT.__swift5_fieldmd: 0x59dc
+   __TEXT.__swift5_types: 0x3e0
+   __TEXT.__swift5_proto: 0x7e0
+-  __TEXT.__swift5_reflstr: 0x2e5a
+-  __TEXT.__swift5_assocty: 0x1338
++  __TEXT.__swift5_reflstr: 0x2dea
++  __TEXT.__swift5_assocty: 0x1330
+   __TEXT.__swift5_protos: 0x38
+   __TEXT.__swift5_builtin: 0x8c
+   __TEXT.__swift5_mpenum: 0x44
+-  __TEXT.__swift5_capture: 0x304
+-  __TEXT.__unwind_info: 0xa86c
+-  __TEXT.__eh_frame: 0x4ab8
++  __TEXT.__swift5_capture: 0x2e4
++  __TEXT.__unwind_info: 0xa8c8
++  __TEXT.__eh_frame: 0x4c20
+   __TEXT.__objc_classname: 0xb2
+   __TEXT.__objc_methname: 0x867
+   __TEXT.__objc_methtype: 0x3ef
+-  __DATA_CONST.__got: 0x4770
++  __DATA_CONST.__got: 0x4708
+   __DATA_CONST.__const: 0x198
+-  __DATA_CONST.__objc_classlist: 0x70
++  __DATA_CONST.__objc_classlist: 0x88
+   __DATA_CONST.__objc_protolist: 0xc0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x1720
++  __DATA_CONST.__objc_const: 0x18a0
+   __DATA_CONST.__objc_selrefs: 0x258
+-  __AUTH_CONST.__const: 0x58c8
+-  __AUTH_CONST.__auth_got: 0x19d8
+-  __AUTH.__data: 0x5d30
+-  __AUTH.__objc_data: 0x3c0
++  __AUTH_CONST.__const: 0x58d0
++  __AUTH_CONST.__auth_got: 0x19c0
++  __AUTH.__data: 0x5f20
++  __AUTH.__objc_data: 0x4b0
+   __DATA.__objc_protorefs: 0x60
+   __DATA.__objc_classrefs: 0xb8
+   __DATA.__objc_data: 0x168
+-  __DATA.__data: 0x7f60
+-  __DATA.__bss: 0x132d0
+-  __DATA.__common: 0xab0
++  __DATA.__data: 0x7f98
++  __DATA.__bss: 0x13350
++  __DATA.__common: 0xac0
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
+   - /System/Library/PrivateFrameworks/SiriAppResolution.framework/SiriAppResolution
+   - /System/Library/PrivateFrameworks/SiriDialogEngine.framework/SiriDialogEngine
++  - /System/Library/PrivateFrameworks/SiriFlowEnvironment.framework/SiriFlowEnvironment
+   - /System/Library/PrivateFrameworks/SiriInference.framework/SiriInference
+-  - /System/Library/PrivateFrameworks/SiriInteractive.framework/SiriInteractive
+   - /System/Library/PrivateFrameworks/SiriKitFlow.framework/SiriKitFlow
+   - /System/Library/PrivateFrameworks/SiriMailUI.framework/SiriMailUI
+   - /System/Library/PrivateFrameworks/SiriNLUTypes.framework/SiriNLUTypes
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1D8FEC62-484A-3D0B-862E-89816A1D4169
+-  Functions: 16208
+-  Symbols:   5823
+-  CStrings:  1061
++  UUID: 2484908B-F3FA-3F21-A913-EB57A6B421F6
++  Functions: 16273
++  Symbols:   5881
++  CStrings:  1065
+ 
+Symbols:
++ _OUTLINED_FUNCTION_171
++ _OUTLINED_FUNCTION_172
++ __DATA__TtC16SiriMailInternal11ResolveBody
++ __DATA__TtC16SiriMailInternal14ResolveSubject
++ __DATA__TtC16SiriMailInternal17ResolveStringPlan
++ __IVARS__TtC16SiriMailInternal17ResolveStringPlan
++ __METACLASS_DATA__TtC16SiriMailInternal11ResolveBody
++ __METACLASS_DATA__TtC16SiriMailInternal14ResolveSubject
++ __METACLASS_DATA__TtC16SiriMailInternal17ResolveStringPlan
++ ___swift_memcpy96_8
++ _associated conformance 16SiriMailInternal11PayloadTypeOSHAASQ
++ _associated conformance 16SiriMailInternal17ResolveStringPlanC0A7KitFlow08ReactivehF0AA4BodyAdEP_AdE
++ _associated conformance 16SiriMailInternal17ResolveStringPlanC0A7KitFlow08ReactivehF0AAs06CustomE11Convertible
++ _get_witness_table qd__11SiriKitFlow08ReactiveC4PlanHD2_AA01_cE5Body1yQrxAaBRzlFQOyAA11CombineAll5VyAaBPAAE11resolveIntoyQrAA10ResolvableVy7SuccessQzGSQAKRQrlFQOy0A12MailInternal017ResolveRecipientsE0V_Qo_A2pfAEAGyQrALSQAKRQrlFQOyAfAE3mapyQrqd__AKKclFQOyAM0o6StringE0C_SSSgQo__Qo_AfAEAGyQrALSQAKRQrlFQOyAfAEAQyQrqd__AKKclFQOyAS_10Foundation010AttributedR0VSgQo__Qo_10AppIntents04SendM15IntentPrototypeVGQo_HO.27
++ _get_witness_table qd__11SiriKitFlow08ReactiveC4PlanHD2_AA01_cE5Body1yQrxAaBRzlFQOyAaBPAAE13informOnError15outputGeneratorQrAA6Output_ps0I0_pYac_tFQOyAdAE3mapyQrqd__7SuccessQzKclFQOyAdAE0G012flowProducerQrAA6InformCAKc_tFQOyAdAEAIyQrqd__AKYaKclFQOyAdAE11resolveIntoyQrAA10ResolvableVyAKGSQAKRQrlFQOyAdAE7confirm4skip06promptK0QrARySbGSg_AA18ConfirmationPromptCyqd__qd_0_GAKKct0A8Ontology14USODynamicTaskRd__r0_lFQOy0A12MailInternal21ResolveSendMailIntentV_A2_6CommonO7MessageV4SendVA0_6EntityVyA8_GSgQo__Qo__A2_14SendMailResultOQo__Qo__A18_Qo__Qo_Qo_HO.57
++ _get_witness_table qd__11SiriKitFlow08ReactiveC4PlanHD2_AA01_cE5Body1yQrxAaBRzlFQOyAaBPAAE13informOnError15outputGeneratorQrAA6Output_ps0I0_pYac_tFQOyAdAE3mapyQrqd__7SuccessQzKclFQOyAdAE0G012flowProducerQrAA6InformCAKc_tFQOyAdAEAIyQrqd__AKYaKclFQOyAdAE11resolveIntoyQrAA10ResolvableVyAKGSQAKRQrlFQOyAdAE7confirm4skip06promptK0QrARySbGSg_AA18ConfirmationPromptCyqd__qd_0_GAKKct0A8Ontology14USODynamicTaskRd__r0_lFQOy0A12MailInternal21ResolveSendMailIntentV_A2_6CommonO7MessageV5ReplyVA0_6EntityVyA8_GSgQo__Qo__A2_14SendMailResultOQo__Qo__A18_Qo__Qo_Qo_HO.98
++ _get_witness_table qd__11SiriKitFlow08ReactiveC4PlanHD2_AA01_cE5Body1yQrxAaBRzlFQOyAaBPAAE9pushIfNil12flowProducerQrAA06ActingC0_ps6ResultOyqd__s5Error_pG9ValueTypeRts_XPyc_tqd__Sg7SuccessRtzlFQOyAA7ObserveVySSSgG_SSQo_Qo_HO.73
++ _objectdestroy.72Tm
++ _symbolic _____ 16SiriMailInternal11PayloadTypeO
++ _symbolic _____ 16SiriMailInternal11ResolveBodyC
++ _symbolic _____ 16SiriMailInternal14ResolveSubjectC
++ _symbolic _____ 16SiriMailInternal17ResolveStringPlanC
++ _symbolic _____ 16SiriMailInternal23PromptForStringProducerV
++ _symbolic _____Sg 13SiriUtilities12ResponseModeV
++ _symbolic _____Sg 2os6LoggerV
++ _symbolic _____y______SSSgQo_ 11SiriKitFlow08ReactiveC4PlanPAAE3mapyQrqd__7SuccessQzKclFQO 0A12MailInternal013ResolveStringE0C
++ _symbolic _____y___________SgQo_ 11SiriKitFlow08ReactiveC4PlanPAAE3mapyQrqd__7SuccessQzKclFQO 0A12MailInternal013ResolveStringE0C 10Foundation010AttributedK0V
++ _symbolic _____y_____y______Qo_A2C_____y_____y______SSSgQo__Qo______y_____yAD______SgQo__Qo______G 11SiriKitFlow11CombineAll5V AA08ReactiveC4PlanPAAE11resolveIntoyQrAA10ResolvableVy7SuccessQzGSQAJRQrlFQO 0A12MailInternal017ResolveRecipientsG0V AeAEAFyQrAKSQAJRQrlFQO AeAE3mapyQrqd__AJKclFQO AL0n6StringG0C AeAEAFyQrAKSQAJRQrlFQO AeAEAOyQrqd__AJKclFQO 10Foundation010AttributedQ0V 10AppIntents04SendL15IntentPrototypeV
++ _symbolic _____y_____y______SSSgQo__Qo_ 11SiriKitFlow08ReactiveC4PlanPAAE11resolveIntoyQrAA10ResolvableVy7SuccessQzGSQAHRQrlFQO AcAE3mapyQrqd__AHKclFQO 0A12MailInternal013ResolveStringE0C
++ _symbolic _____y_____y___________SgQo__Qo_ 11SiriKitFlow08ReactiveC4PlanPAAE11resolveIntoyQrAA10ResolvableVy7SuccessQzGSQAHRQrlFQO AcAE3mapyQrqd__AHKclFQO 0A12MailInternal013ResolveStringE0C 10Foundation010AttributedN0V
++ _symbolic _____y_____y_____y______Qo_A2C_____y_____y______SSSgQo__Qo______y_____yAD______SgQo__Qo______GQo_ 11SiriKitFlow01_C9PlanBody1yQrxAA08ReactivecD0RzlFQO AA11CombineAll5V AaCPAAE11resolveIntoyQrAA10ResolvableVy7SuccessQzGSQAKRQrlFQO 0A12MailInternal017ResolveRecipientsD0V AfAEAGyQrALSQAKRQrlFQO AfAE3mapyQrqd__AKKclFQO AM0o6StringD0C AfAEAGyQrALSQAKRQrlFQO AfAEAPyQrqd__AKKclFQO 10Foundation010AttributedR0V 10AppIntents04SendM15IntentPrototypeV
+- ___swift_memcpy97_8
+- _associated conformance 16SiriMailInternal11ResolveBodyV0A7KitFlow08ReactiveG4PlanAA0E0AdEP_AdE
+- _associated conformance 16SiriMailInternal11ResolveBodyV0A7KitFlow08ReactiveG4PlanAAs23CustomStringConvertible
+- _associated conformance 16SiriMailInternal14ResolveSubjectV0A7KitFlow08ReactiveG4PlanAA4BodyAdEP_AdE
+- _associated conformance 16SiriMailInternal14ResolveSubjectV0A7KitFlow08ReactiveG4PlanAAs23CustomStringConvertible
+- _get_witness_table qd__11SiriKitFlow08ReactiveC4PlanHD2_AA01_cE5Body1yQrxAaBRzlFQOyAA11CombineAll5VyAaBPAAE11resolveIntoyQrAA10ResolvableVy7SuccessQzGSQAKRQrlFQOy0A12MailInternal017ResolveRecipientsE0V_Qo_A2pfAEAGyQrALSQAKRQrlFQOyAfAE3mapyQrqd__AKKclFQOyAM0O7SubjectV_SSSgQo__Qo_AfAEAGyQrALSQAKRQrlFQOyAfAEAQyQrqd__AKKclFQOyAM0O4BodyV_10Foundation16AttributedStringVSgQo__Qo_10AppIntents04SendM15IntentPrototypeVGQo_HO.27
+- _get_witness_table qd__11SiriKitFlow08ReactiveC4PlanHD2_AA01_cE5Body1yQrxAaBRzlFQOyAaBPAAE13informOnError15outputGeneratorQrAA6Output_ps0I0_pYac_tFQOyAdAE3mapyQrqd__7SuccessQzKclFQOyAdAE0G012flowProducerQrAA6InformCAKc_tFQOyAdAEAIyQrqd__AKYaKclFQOyAdAE11resolveIntoyQrAA10ResolvableVyAKGSQAKRQrlFQOyAdAE7confirm4skip06promptK0QrARySbGSg_AA18ConfirmationPromptCyqd__qd_0_GAKKct0A8Ontology14USODynamicTaskRd__r0_lFQOy0A12MailInternal21ResolveSendMailIntentV_A2_6CommonO7MessageV4SendVA0_6EntityVyA8_GSgQo__Qo__A2_14SendMailResultOQo__Qo__A18_Qo__Qo_Qo_HO.58
+- _get_witness_table qd__11SiriKitFlow08ReactiveC4PlanHD2_AA01_cE5Body1yQrxAaBRzlFQOyAaBPAAE13informOnError15outputGeneratorQrAA6Output_ps0I0_pYac_tFQOyAdAE3mapyQrqd__7SuccessQzKclFQOyAdAE0G012flowProducerQrAA6InformCAKc_tFQOyAdAEAIyQrqd__AKYaKclFQOyAdAE11resolveIntoyQrAA10ResolvableVyAKGSQAKRQrlFQOyAdAE7confirm4skip06promptK0QrARySbGSg_AA18ConfirmationPromptCyqd__qd_0_GAKKct0A8Ontology14USODynamicTaskRd__r0_lFQOy0A12MailInternal21ResolveSendMailIntentV_A2_6CommonO7MessageV5ReplyVA0_6EntityVyA8_GSgQo__Qo__A2_14SendMailResultOQo__Qo__A18_Qo__Qo_Qo_HO.99
+- _get_witness_table qd__11SiriKitFlow08ReactiveC4PlanHD2_AA01_cE5Body1yQrxAaBRzlFQOyAaBPAAE9pushIfNil12flowProducerQrAA06ActingC0_ps6ResultOyqd__s5Error_pG9ValueTypeRts_XPyc_tqd__Sg7SuccessRtzlFQOyAA7ObserveVySSSgG_SSQo_Qo_HO.12
+- _objc_retain_x27
+- _objectdestroy.73Tm
+- _symbolic So14CNContactStoreC
+- _symbolic _____ 16SiriMailInternal11ResolveBodyV
+- _symbolic _____ 16SiriMailInternal14ResolveSubjectV
+- _symbolic _____ 16SiriMailInternal21PromptForBodyProducerV
+- _symbolic _____ 16SiriMailInternal24PromptForSubjectProducerV
+- _symbolic _____Sg_ABt 10AppIntents16MailboxPrototypeV
+- _symbolic _____Sg_ABt 10AppIntents20MailAccountPrototypeV
+- _symbolic _____Sg_ABt 10Foundation16AttributedStringV
+- _symbolic _____y______SSSgQo_ 11SiriKitFlow08ReactiveC4PlanPAAE3mapyQrqd__7SuccessQzKclFQO 0A12MailInternal14ResolveSubjectV
+- _symbolic _____y___________SgQo_ 11SiriKitFlow08ReactiveC4PlanPAAE3mapyQrqd__7SuccessQzKclFQO 0A12MailInternal11ResolveBodyV 10Foundation16AttributedStringV
+- _symbolic _____y_____y______Qo_A2C_____y_____y______SSSgQo__Qo______y_____y___________SgQo__Qo______G 11SiriKitFlow11CombineAll5V AA08ReactiveC4PlanPAAE11resolveIntoyQrAA10ResolvableVy7SuccessQzGSQAJRQrlFQO 0A12MailInternal017ResolveRecipientsG0V AeAEAFyQrAKSQAJRQrlFQO AeAE3mapyQrqd__AJKclFQO AL0N7SubjectV AeAEAFyQrAKSQAJRQrlFQO AeAEAOyQrqd__AJKclFQO AL0N4BodyV 10Foundation16AttributedStringV 10AppIntents04SendL15IntentPrototypeV
+- _symbolic _____y_____y______SSSgQo__Qo_ 11SiriKitFlow08ReactiveC4PlanPAAE11resolveIntoyQrAA10ResolvableVy7SuccessQzGSQAHRQrlFQO AcAE3mapyQrqd__AHKclFQO 0A12MailInternal14ResolveSubjectV
+- _symbolic _____y_____y___________SgQo__Qo_ 11SiriKitFlow08ReactiveC4PlanPAAE11resolveIntoyQrAA10ResolvableVy7SuccessQzGSQAHRQrlFQO AcAE3mapyQrqd__AHKclFQO 0A12MailInternal11ResolveBodyV 10Foundation16AttributedStringV
+- _symbolic _____y_____y_____y______Qo_A2C_____y_____y______SSSgQo__Qo______y_____y___________SgQo__Qo______GQo_ 11SiriKitFlow01_C9PlanBody1yQrxAA08ReactivecD0RzlFQO AA11CombineAll5V AaCPAAE11resolveIntoyQrAA10ResolvableVy7SuccessQzGSQAKRQrlFQO 0A12MailInternal017ResolveRecipientsD0V AfAEAGyQrALSQAKRQrlFQO AfAE3mapyQrqd__AKKclFQO AM0O7SubjectV AfAEAGyQrALSQAKRQrlFQO AfAEAPyQrqd__AKKclFQO AM0O4BodyV 10Foundation16AttributedStringV 10AppIntents04SendM15IntentPrototypeV
+CStrings:
++ "#ResolveSendMailIntent resolved SendMailIntent %{private}s"
++ "#ResolveString doing potentially fatal unwrap"
++ "/Library/Caches/com.apple.xbs/Sources/SiriMail/SiriMailInternal/Encore/UnsetRelationship/ContactMappingExtensions.swift"
++ "/Library/Caches/com.apple.xbs/Sources/SiriMail/SiriMailInternal/Extension/USO/USOEquatable.swift"
++ "FatalError at %s:%lu - %s"
++ "_TtC16SiriMailInternal11ResolveBody"
++ "_TtC16SiriMailInternal14ResolveSubject"
++ "_TtC16SiriMailInternal17ResolveStringPlan"
++ "_bcc"
++ "_cc"
++ "_stringValue"
++ "_to"
++ "payloadType"
+- "#ResolveBody doing potentially fatal unwrap"
+- "#ResolveSendMailIntent resolved SendMailIntent %s"
+- "#ResolveSubject didn't find subject, prompting the user"
+- "#ResolveSubject doing potentially fatal unwrap"
+- "FindRCHFlowForParse"
+- "ResolveAgentSRR"
+- "SiriMailInternal/ContactMappingExtensions.swift"
+- "SiriMailInternal/USOEquatable.swift"
+- "TransformParseToSiriKitSendMailIntent"
+
+```

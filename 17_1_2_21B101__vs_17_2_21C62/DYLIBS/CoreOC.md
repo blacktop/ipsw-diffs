@@ -1,0 +1,52 @@
+## CoreOC
+
+> `/System/Library/PrivateFrameworks/CoreOC.framework/CoreOC`
+
+```diff
+
+ 9.7.4.0.0
+-  __TEXT.__text: 0xdf384
++  __TEXT.__text: 0xdf360
+   __TEXT.__auth_stubs: 0x28b0
+   __TEXT.__objc_methlist: 0x214
+   __TEXT.__const: 0x3108
+
+   __TEXT.__swift5_protos: 0x1c
+   __TEXT.__swift5_proto: 0x174
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0x1e74
++  __TEXT.__unwind_info: 0x1e78
+   __TEXT.__eh_frame: 0x1060
+   __TEXT.__objc_classname: 0x8d
+-  __TEXT.__objc_methname: 0x5d3b
++  __TEXT.__objc_methname: 0x5db7
+   __TEXT.__objc_methtype: 0x27dc
+   __DATA_CONST.__got: 0x410
+   __DATA_CONST.__const: 0x3d8
+
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x94f0
++  __DATA_CONST.__objc_const: 0x9540
+   __DATA_CONST.__objc_selrefs: 0x750
+   __AUTH_CONST.__const: 0x4d70
+   __AUTH_CONST.__objc_const: 0xd0
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4B0AD2B5-645E-3F84-B14C-242431CFA4BD
++  UUID: 7684A806-4AF9-324F-92A5-88E5D23D12FF
+   Functions: 3396
+   Symbols:   526
+-  CStrings:  2265
++  CStrings:  2269
+ 
+CStrings:
++ "TB,GareWritableHeapsEnabled,SsetWritableHeapsEnabled:"
++ "areWritableHeapsEnabled"
++ "setWritableHeapsEnabled:"
++ "writableHeapsEnabled"
+
+```
