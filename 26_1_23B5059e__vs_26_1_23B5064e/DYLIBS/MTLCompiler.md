@@ -1,0 +1,345 @@
+## MTLCompiler
+
+> `/System/Library/PrivateFrameworks/MTLCompiler.framework/Versions/32024/MTLCompiler`
+
+```diff
+
+-370.63.5.0.0
+-  __TEXT.__text: 0xa2cf4
+-  __TEXT.__auth_stubs: 0x2060
+-  __TEXT.__gcc_except_tab: 0x8884
++370.63.7.0.0
++  __TEXT.__text: 0xa4cec
++  __TEXT.__auth_stubs: 0x2100
++  __TEXT.__gcc_except_tab: 0x8ac8
+   __TEXT.__const: 0xfa8
+-  __TEXT.__cstring: 0x8069
+-  __TEXT.__oslogstring: 0x373
+-  __TEXT.__unwind_info: 0x29d8
++  __TEXT.__cstring: 0x8101
++  __TEXT.__oslogstring: 0x509
++  __TEXT.__unwind_info: 0x2af0
+   __TEXT.__objc_classname: 0x1
+   __TEXT.__objc_methname: 0x2b0
+   __TEXT.__objc_stubs: 0x340
+-  __DATA_CONST.__got: 0x118
++  __DATA_CONST.__got: 0x120
+   __DATA_CONST.__const: 0x220
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xd0
+-  __AUTH_CONST.__auth_got: 0x1040
+-  __AUTH_CONST.__const: 0x12f0
++  __AUTH_CONST.__auth_got: 0x1090
++  __AUTH_CONST.__const: 0x1390
+   __AUTH_CONST.__cfstring: 0x200
+   __DATA.__data: 0x474
+-  __DATA.__common: 0x1e
+-  __DATA.__bss: 0x68
++  __DATA.__common: 0x26
++  __DATA.__bss: 0xf8
+   __DATA_DIRTY.__data: 0x78
+   __DATA_DIRTY.__bss: 0x678
+   __DATA_DIRTY.__common: 0x8
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 55F40674-F86B-3CD6-BD20-CB5DF95D1127
+-  Functions: 1960
+-  Symbols:   6143
+-  CStrings:  1453
++  UUID: 386C2B46-F56A-32D7-99BC-47B9B461D0C9
++  Functions: 2008
++  Symbols:   6265
++  CStrings:  1470
+ 
+Symbols:
++ GCC_except_table136
++ GCC_except_table137
++ GCC_except_table146
++ GCC_except_table151
++ GCC_except_table161
++ GCC_except_table162
++ GCC_except_table164
++ GCC_except_table166
++ GCC_except_table182
++ GCC_except_table185
++ GCC_except_table195
++ GCC_except_table203
++ GCC_except_table204
++ GCC_except_table205
++ GCC_except_table207
++ GCC_except_table216
++ GCC_except_table219
++ GCC_except_table249
++ GCC_except_table251
++ GCC_except_table257
++ GCC_except_table260
++ GCC_except_table262
++ GCC_except_table279
++ GCC_except_table280
++ GCC_except_table289
++ GCC_except_table291
++ GCC_except_table297
++ GCC_except_table306
++ GCC_except_table307
++ GCC_except_table319
++ GCC_except_table323
++ GCC_except_table328
++ GCC_except_table337
++ GCC_except_table338
++ GCC_except_table340
++ GCC_except_table341
++ GCC_except_table343
++ GCC_except_table352
++ GCC_except_table354
++ GCC_except_table365
++ GCC_except_table376
++ GCC_except_table377
++ GCC_except_table387
++ GCC_except_table388
++ GCC_except_table411
++ GCC_except_table415
++ GCC_except_table421
++ GCC_except_table422
++ GCC_except_table423
++ GCC_except_table424
++ GCC_except_table429
++ GCC_except_table430
++ GCC_except_table442
++ GCC_except_table449
++ GCC_except_table450
++ GCC_except_table451
++ GCC_except_table458
++ GCC_except_table471
++ GCC_except_table472
++ GCC_except_table474
++ GCC_except_table486
++ GCC_except_table487
++ GCC_except_table494
++ GCC_except_table495
++ GCC_except_table498
++ GCC_except_table499
++ GCC_except_table500
++ GCC_except_table501
++ GCC_except_table509
++ GCC_except_table510
++ GCC_except_table93
++ __Z30createMTLExcludeIntrinsicsPassRN14MTLBoundsCheck14SharedPassDataE
++ __ZGVZN32MTLCompilerSharedMemoryInterface11getInstanceEvE8instance
++ __ZL17rtLibPathInBundleP8NSBundleP8NSString.cold.2
++ __ZL17rtLibPathInBundleP8NSBundleP8NSString.cold.3
++ __ZN24MTLExcludeIntrinsicsPass11runOnModuleERN4llvm6ModuleE
++ __ZN24MTLExcludeIntrinsicsPass2IDE
++ __ZN24MTLExcludeIntrinsicsPassD0Ev
++ __ZN24MTLExcludeIntrinsicsPassD1Ev
++ __ZN32MTLCompilerSharedMemoryInterface11getInstanceEv
++ __ZN32MTLCompilerSharedMemoryInterface17mapRuntimeLibraryEPKcS1_
++ __ZN32MTLCompilerSharedMemoryInterface17mapRuntimeLibraryEPKcS1_.cold.1
++ __ZN32MTLCompilerSharedMemoryInterface17mapRuntimeLibraryEPKcS1_.cold.2
++ __ZN32MTLCompilerSharedMemoryInterface17mapRuntimeLibraryEPKcS1_.cold.3
++ __ZN32MTLCompilerSharedMemoryInterface17mapRuntimeLibraryEPKcS1_.cold.4
++ __ZN32MTLCompilerSharedMemoryInterface17mapRuntimeLibraryEPKcS1_.cold.5
++ __ZN32MTLCompilerSharedMemoryInterface17mapRuntimeLibraryEPKcS1_.cold.6
++ __ZN32MTLCompilerSharedMemoryInterface19RuntimeLibraryEntryD2Ev
++ __ZN32MTLCompilerSharedMemoryInterface19setLoweringRuntimesERP20MTLOpaqueGPUCompilerR17BinaryRequestData
++ __ZN32MTLCompilerSharedMemoryInterface24getRuntimeLibraryModulesER17BinaryRequestData
++ __ZN32MTLCompilerSharedMemoryInterface24getRuntimeLibraryModulesER17BinaryRequestData.cold.1
++ __ZN32MTLCompilerSharedMemoryInterface24mapRuntimeLibraryModulesER17BinaryRequestData
++ __ZN32MTLCompilerSharedMemoryInterface24mapRuntimeLibraryModulesER17BinaryRequestData.cold.1
++ __ZN32MTLCompilerSharedMemoryInterface24mapRuntimeLibraryModulesER17BinaryRequestData.cold.2
++ __ZN32MTLCompilerSharedMemoryInterface24mapRuntimeLibraryModulesER17BinaryRequestData.cold.3
++ __ZN32MTLCompilerSharedMemoryInterface24mapRuntimeLibraryModulesER17BinaryRequestData.cold.4
++ __ZN32MTLCompilerSharedMemoryInterface24mapRuntimeLibraryModulesER17BinaryRequestData.cold.5
++ __ZN32MTLCompilerSharedMemoryInterfaceC2Ev
++ __ZN32MTLCompilerSharedMemoryInterfaceD1Ev
++ __ZN32MTLCompilerSharedMemoryInterfaceD2Ev
++ __ZNK4llvm12GlobalObject14getSectionImplEv
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN32MTLCompilerSharedMemoryInterface19RuntimeLibraryEntryEEEEEPSA_EclB8ne200100Ev
++ __ZNSt3__111unique_lockINS_5mutexEE4lockB8ne200100Ev
++ __ZNSt3__114__split_bufferINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN32MTLCompilerSharedMemoryInterface19RuntimeLibraryEntryEEERNS5_ISA_EEE5clearB8ne200100Ev
++ __ZNSt3__114__split_bufferINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN32MTLCompilerSharedMemoryInterface19RuntimeLibraryEntryEEERNS5_ISA_EEED2Ev
++ __ZNSt3__114__split_bufferINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EERNS5_IS8_EEE5clearB8ne200100Ev
++ __ZNSt3__114__split_bufferINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EERNS5_IS8_EEED2Ev
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN32MTLCompilerSharedMemoryInterface19RuntimeLibraryEntryEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES7_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSC_m
++ __ZNSt3__120__throw_system_errorEiPKc
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEN32MTLCompilerSharedMemoryInterface19RuntimeLibraryEntryEEEEEPSB_EEED2B8ne200100Ev
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN32MTLCompilerSharedMemoryInterface19RuntimeLibraryEntryEEEEEPSA_EEvRT_T0_SF_SF_
++ __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN32MTLCompilerSharedMemoryInterface19RuntimeLibraryEntryEEC2B8ne200100IRS6_S8_Li0EEEOT_OT0_
++ __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8ne200100IRA17_KcRPS9_Li0EEEOT_OT0_
++ __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8ne200100IRA18_KcRPS9_Li0EEEOT_OT0_
++ __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8ne200100IRA22_KcRPS9_Li0EEEOT_OT0_
++ __ZNSt3__15mutex4lockEv
++ __ZNSt3__15mutex6unlockEv
++ __ZNSt3__15mutexD1Ev
++ __ZNSt3__15tupleIJNS_6vectorIP15MTLOpaqueObjectNS_9allocatorIS3_EEEENS1_INS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEENS4_ISB_EEEEEED2Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7reserveEm
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN32MTLCompilerSharedMemoryInterface19RuntimeLibraryEntryEEENS5_ISA_EEE12emplace_backIJRS7_S9_EEERSA_DpOT_
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN32MTLCompilerSharedMemoryInterface19RuntimeLibraryEntryEEENS5_ISA_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN32MTLCompilerSharedMemoryInterface19RuntimeLibraryEntryEEENS5_ISA_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN32MTLCompilerSharedMemoryInterface19RuntimeLibraryEntryEEENS5_ISA_EEE24__emplace_back_slow_pathIJRS7_S9_EEEPSA_DpOT_
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN32MTLCompilerSharedMemoryInterface19RuntimeLibraryEntryEEENS5_ISA_EEE7reserveEm
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE24__emplace_back_slow_pathIJRA17_KcRPSC_EEEPS8_DpOT_
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE24__emplace_back_slow_pathIJRA18_KcRPSC_EEEPS8_DpOT_
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE24__emplace_back_slow_pathIJRA22_KcRPSC_EEEPS8_DpOT_
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE7reserveEm
++ __ZNSt3__19allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS0_IcEEEEN32MTLCompilerSharedMemoryInterface19RuntimeLibraryEntryEEEE7destroyB8ne200100EPS9_
++ __ZNSt3__19allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS0_IcEEEES6_EEE7destroyB8ne200100EPS7_
++ __ZTV24MTLExcludeIntrinsicsPass
++ __ZZN32MTLCompilerSharedMemoryInterface11getInstanceEvE8instance
++ ___block_literal_global.193
++ ___cxx_global_array_dtor.147
++ ___error
++ _close
++ _fstat
++ _open
++ _strerror
+- GCC_except_table118
+- GCC_except_table143
+- GCC_except_table144
+- GCC_except_table153
+- GCC_except_table154
+- GCC_except_table158
+- GCC_except_table169
+- GCC_except_table171
+- GCC_except_table179
+- GCC_except_table181
+- GCC_except_table187
+- GCC_except_table192
+- GCC_except_table196
+- GCC_except_table209
+- GCC_except_table210
+- GCC_except_table211
+- GCC_except_table212
+- GCC_except_table214
+- GCC_except_table226
+- GCC_except_table230
+- GCC_except_table264
+- GCC_except_table267
+- GCC_except_table270
+- GCC_except_table272
+- GCC_except_table276
+- GCC_except_table286
+- GCC_except_table287
+- GCC_except_table296
+- GCC_except_table298
+- GCC_except_table304
+- GCC_except_table314
+- GCC_except_table320
+- GCC_except_table327
+- GCC_except_table331
+- GCC_except_table344
+- GCC_except_table346
+- GCC_except_table348
+- GCC_except_table349
+- GCC_except_table351
+- GCC_except_table361
+- GCC_except_table368
+- GCC_except_table370
+- GCC_except_table380
+- GCC_except_table384
+- GCC_except_table393
+- GCC_except_table394
+- GCC_except_table404
+- GCC_except_table405
+- GCC_except_table428
+- GCC_except_table432
+- GCC_except_table438
+- GCC_except_table439
+- GCC_except_table440
+- GCC_except_table441
+- GCC_except_table446
+- GCC_except_table447
+- GCC_except_table459
+- GCC_except_table466
+- GCC_except_table467
+- GCC_except_table468
+- GCC_except_table475
+- GCC_except_table488
+- GCC_except_table491
+- GCC_except_table503
+- GCC_except_table504
+- GCC_except_table506
+- GCC_except_table517
+- GCC_except_table518
+- GCC_except_table526
+- GCC_except_table527
+- GCC_except_table528
+- GCC_except_table529
+- GCC_except_table532
+- __ZN17MTLCompilerObject18loadRuntimeModulesER17BinaryRequestData
+- __ZN17MTLCompilerObject18loadRuntimeModulesER17BinaryRequestData.cold.1
+- __ZN17MTLCompilerObject18loadRuntimeModulesER17BinaryRequestData.cold.2
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairIPKcS4_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEP22LLVMOpaqueMemoryBufferEEPvEEEEEclB8ne200100EPSD_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEP22LLVMOpaqueMemoryBufferEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISL_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEP22LLVMOpaqueMemoryBufferEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE16__construct_nodeIJRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSL_IJEEEEEENS_10unique_ptrINS_11__tree_nodeISA_PvEENS_22__tree_node_destructorINS5_IST_EEEEEEDpOT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEP22LLVMOpaqueMemoryBufferEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSL_SL_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEP22LLVMOpaqueMemoryBufferEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSL_IJEEEEEENS_4pairINS_15__tree_iteratorISA_PNS_11__tree_nodeISA_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEP22LLVMOpaqueMemoryBufferEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE4findIS7_EENS_15__tree_iteratorISA_PNS_11__tree_nodeISA_PvEElEERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEP22LLVMOpaqueMemoryBufferEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE7destroyEPNS_11__tree_nodeISA_PvEE
+- __ZNSt3__16vectorINS_4pairIPKcS3_EENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_4pairIPKcS3_EENS_9allocatorIS4_EEE7reserveEm
+- __ZNSt3__16vectorIP15MTLOpaqueObjectNS_9allocatorIS2_EEE9push_backB8ne200100ERKS2_
+- __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE9push_backB8ne200100ERKS2_
+- ___block_literal_global.218
+- ___cxx_global_array_dtor.169
+CStrings:
++ "04_ExcludeIntrinsics"
++ "05_RemoveThreadgroupGlobals"
++ "06_MTLVertexFetchAnalysisPass"
++ "07_LoopUnroll"
++ "08_StackOverflow"
++ "09_MTLForceInlinerPass"
++ "10_LowerOSLogStruct"
++ "15_MemoryIndirection"
++ "16_ICBIndirection"
++ "17_ThreadgroupMemory"
++ "18_InternalBindings"
++ "19_Optimization#1"
++ "20_Builtins"
++ "21_TextureCheck"
++ "22_Optimization#2"
++ "23_GVEmulation"
++ "24_cleanup"
++ "<unknown>"
++ "Bundle or library name is null"
++ "Failed to create LLVM memory buffer for %s"
++ "Failed to find %@.rtlib in bundle %@"
++ "Failed to fstat %s: %s"
++ "Failed to get valid filepath for %@ in bundle %@"
++ "Failed to map raytracing runtime library"
++ "Failed to map shader logging runtime library"
++ "Failed to map tensor ops runtime library"
++ "Failed to open %s: %s"
++ "LLVM fallback also failed for %s: %s"
++ "Runtime library %s was not mapped"
++ "Runtime library path is null or empty for prefix %s"
++ "mmap failed for %s: %s, falling back to LLVM file loading"
++ "unique_lock::lock: already locked"
++ "unique_lock::lock: references null mutex"
++ "unique_lock::unlock: not locked"
++ "unknown error"
+- "04_RemoveThreadgroupGlobals"
+- "05_MTLVertexFetchAnalysisPass"
+- "06_LoopUnroll"
+- "07_StackOverflow"
+- "08_MTLForceInlinerPass"
+- "09_LowerOSLogStruct"
+- "14_MemoryIndirection"
+- "15_ICBIndirection"
+- "16_ThreadgroupMemory"
+- "17_InternalBindings"
+- "18_Optimization#1"
+- "19_Builtins"
+- "20_TextureCheck"
+- "21_Optimization#2"
+- "22_GVEmulation"
+- "23_cleanup"
+- "Failed to create a memory buffer for runtime library at %s: %s"
+- "Failed to find filepath for %@ in bundle %@"
+
+```

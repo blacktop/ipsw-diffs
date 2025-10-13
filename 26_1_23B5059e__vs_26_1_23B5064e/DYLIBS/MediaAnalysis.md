@@ -1,0 +1,4850 @@
+## MediaAnalysis
+
+> `/System/Library/PrivateFrameworks/MediaAnalysis.framework/MediaAnalysis`
+
+```diff
+
+-375.8.1.11.1
+-  __TEXT.__text: 0x460080
+-  __TEXT.__auth_stubs: 0x3f80
++375.9.1.0.0
++  __TEXT.__text: 0x3cbd00
++  __TEXT.__auth_stubs: 0x3f50
+   __TEXT.__delay_stubs: 0x84
+   __TEXT.__delay_helper: 0xa4
+-  __TEXT.__objc_methlist: 0x1cde0
+-  __TEXT.__const: 0x14b28
+-  __TEXT.__gcc_except_tab: 0x5a01c
+-  __TEXT.__cstring: 0x2124a
+-  __TEXT.__oslogstring: 0x296db
++  __TEXT.__objc_methlist: 0x1cdf0
++  __TEXT.__const: 0x14b58
++  __TEXT.__gcc_except_tab: 0x56b58
++  __TEXT.__cstring: 0x1975a
++  __TEXT.__oslogstring: 0x27bcb
+   __TEXT.__dlopen_cstrs: 0x4b8
+   __TEXT.__ustring: 0x40
+   __TEXT.__swift5_typeref: 0x3b8
+
+   __TEXT.__swift5_capture: 0xe0
+   __TEXT.__swift_as_entry: 0x28
+   __TEXT.__swift_as_ret: 0x30
+-  __TEXT.__unwind_info: 0x11390
++  __TEXT.__unwind_info: 0x109a0
+   __TEXT.__eh_frame: 0x940
+   __TEXT.__objc_classname: 0x436d
+-  __TEXT.__objc_methname: 0x3cd4a
++  __TEXT.__objc_methname: 0x3cd70
+   __TEXT.__objc_methtype: 0xce4d
+   __TEXT.__objc_stubs: 0x29440
+   __DATA_CONST.__got: 0x1cc8
+-  __DATA_CONST.__const: 0x6838
++  __DATA_CONST.__const: 0x6728
+   __DATA_CONST.__objc_classlist: 0x1278
+   __DATA_CONST.__objc_catlist: 0x1b8
+   __DATA_CONST.__objc_protolist: 0x138
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xc9c8
++  __DATA_CONST.__objc_selrefs: 0xc9d8
+   __DATA_CONST.__objc_protorefs: 0x60
+   __DATA_CONST.__objc_superrefs: 0xec8
+   __DATA_CONST.__objc_arraydata: 0x11e0
+-  __AUTH_CONST.__auth_got: 0x1ff0
+-  __AUTH_CONST.__const: 0x5a68
+-  __AUTH_CONST.__cfstring: 0x17ba0
++  __AUTH_CONST.__auth_got: 0x1fd8
++  __AUTH_CONST.__const: 0x48e8
++  __AUTH_CONST.__cfstring: 0x169a0
+   __AUTH_CONST.__objc_const: 0x38208
+   __AUTH_CONST.__objc_floatobj: 0x290
+-  __AUTH_CONST.__objc_doubleobj: 0x470
++  __AUTH_CONST.__objc_doubleobj: 0x480
+   __AUTH_CONST.__objc_intobj: 0x2ef8
+   __AUTH_CONST.__objc_arrayobj: 0xc18
+   __AUTH_CONST.__objc_dictobj: 0xc8
+
+   __AUTH.__thread_vars: 0x30
+   __AUTH.__thread_bss: 0x9d0
+   __DATA.__objc_ivar: 0x326c
+-  __DATA.__data: 0x1b94
+-  __DATA.__bss: 0x1059
++  __DATA.__data: 0x1a8c
++  __DATA.__bss: 0xa99
+   __DATA.__common: 0x3c1
+   __DATA_DIRTY.__objc_data: 0x9c50
+   __DATA_DIRTY.__data: 0x158
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DDBBECD1-F3B1-3E6B-A290-4586C1B8D637
+-  Functions: 16752
+-  Symbols:   56781
+-  CStrings:  22002
++  UUID: 2B0BC323-7148-3808-A24B-C60DEF9D761E
++  Functions: 13276
++  Symbols:   48087
++  CStrings:  21263
+ 
+Symbols:
++ +[MADPhotosDataStoreClient sharedClient].cold.1
++ -[MADAlchemistAnalzyer convertHeadroom:forImage:]
++ _OBJC_CLASS_$_CIFilter
++ __ZL21FigAssetCopyTrackByIDPK14OpaqueFigAssetiPPK19OpaqueFigAssetTrack
++ __ZL21sqlite3_column_nsdateP12sqlite3_stmti
++ ___101-[VCPMediaAnalyzer findTimeRangesFor:inURLAsset:withOptions:andProgressHandler:andCompletionHandler:]_block_invoke.1014
++ ___104-[VCPPhotosQuickFaceIdentificationManager processAsset:onDemandDetection:detectedFaces:detectedPersons:]_block_invoke.449
++ ___112-[VCPMediaAnalyzer _analyzeOndemand:forAnalysisTypes:withExistingAnalysis:andOptions:storeAnalysis:cancelBlock:]_block_invoke.922
++ ___112-[VCPMediaAnalyzer _analyzeOndemand:forAnalysisTypes:withExistingAnalysis:andOptions:storeAnalysis:cancelBlock:]_block_invoke.923
++ ___121-[VCPPhotosQuickFaceIdentificationManager personIdentificationForSyndicationPhotoLibrary:withCancelOrExtendTimeoutBlock:]_block_invoke.481
++ ___121-[VCPPhotosQuickFaceIdentificationManager personIdentificationForSyndicationPhotoLibrary:withCancelOrExtendTimeoutBlock:]_block_invoke.486
++ ___124+[PHAssetResourceManager(MediaAnalysis) vcp_requestFileURLForAssetResource:withTaskID:toResourceURL:progressHandler:cancel:]_block_invoke.199
++ ___124-[VCPFaceMerger mergeExistingFaces:andDetectedFaces:withRequestHandler:orientedWidth:orientedHeight:assetWidth:assetHeight:]_block_invoke.395
++ ___134+[PHAssetResourceManager(MediaAnalysis) vcp_requestFileURLForAssetResource:withTaskID:timeoutHandler:urlHandler:andCompletionHandler:]_block_invoke.200
++ ___134+[PHAssetResourceManager(MediaAnalysis) vcp_requestFileURLForAssetResource:withTaskID:timeoutHandler:urlHandler:andCompletionHandler:]_block_invoke.202
++ ___137-[VCPPhotosAutoCounterWorker _reportCoreAnalyticsWithVisionClusterMeasure:personClusterMeasure:personClusters:andGroundTruthInformation:]_block_invoke.751
++ ___137-[VCPPhotosAutoCounterWorker _reportCoreAnalyticsWithVisionClusterMeasure:personClusterMeasure:personClusters:andGroundTruthInformation:]_block_invoke.752
++ ___149-[VCPPhotosAutoCounterWorker _parseGroundTruthWithURL:faceCountPerPerson:personInformation:faceToPerson:assetToFaces:extendTimeoutBlock:cancelBlock:]_block_invoke.600
++ ___169-[VCPFaceProcessingServiceWorker _suggestionsForPersonWithLocalIdentifier:toBeConfirmedPersonSuggestions:toBeRejectedPersonSuggestions:cancelOrExtendTimeoutBlock:error:]_block_invoke.436
++ ___202-[VCPPhotosAutoCounterWorker _measurePNPersonClusters:groundTruthFaceCountPerPerson:groundTruthPersonInformation:groundTruthFaceToPerson:groundTruthAssetToFaces:measures:extendTimeoutBlock:cancelBlock:]_block_invoke.637
++ ___212-[VCPPhotosAutoCounterWorker _measureClusterWithClusterStateURL:groundTruthFaceCountPerPerson:groundTruthPersonInformation:groundTruthFaceToPerson:groundTruthAssetToFaces:measures:extendTimeoutBlock:cancelBlock:]_block_invoke.610
++ ___212-[VCPPhotosAutoCounterWorker _measureClusterWithClusterStateURL:groundTruthFaceCountPerPerson:groundTruthPersonInformation:groundTruthFaceToPerson:groundTruthAssetToFaces:measures:extendTimeoutBlock:cancelBlock:]_block_invoke.611
++ ___212-[VCPPhotosAutoCounterWorker _measureClusterWithClusterStateURL:groundTruthFaceCountPerPerson:groundTruthPersonInformation:groundTruthFaceToPerson:groundTruthAssetToFaces:measures:extendTimeoutBlock:cancelBlock:]_block_invoke.635
++ ___23-[VCPMADVIFaceTask run]_block_invoke.375
++ ___23-[VCPMADVIFaceTask run]_block_invoke.380
++ ___23-[VCPMADVIFaceTask run]_block_invoke.385
++ ___23-[VCPMADVIFaceTask run]_block_invoke.390
++ ___37-[VCPMADPersonIdentificationTask run]_block_invoke.419
++ ___37-[VCPMADPersonIdentificationTask run]_block_invoke.462
++ ___37-[VCPMADPersonIdentificationTask run]_block_invoke.471
++ ___38-[VCPMADVISceneClassificationTask run]_block_invoke.360
++ ___38-[VCPMADVISceneClassificationTask run]_block_invoke.362
++ ___38-[VCPMADVISceneClassificationTask run]_block_invoke.364
++ ___38-[VCPMADVISceneClassificationTask run]_block_invoke.366
++ ___39-[VCPMovieAssetWriter dispatchEncoding]_block_invoke.12
++ ___39-[VCPMovieAssetWriter dispatchEncoding]_block_invoke.14
++ ___39-[VCPMovieAssetWriter dispatchEncoding]_block_invoke_2.13
++ ___39-[VCPMovieAssetWriter dispatchEncoding]_block_invoke_2.15
++ ___40-[MADVideoRemoveBackgroundCropTask run:]_block_invoke.523
++ ___42-[VCPMADImageSafetyClassificationTask run]_block_invoke.387
++ ___42-[VCPMobileAssetManager queryMobileAssets]_block_invoke.545
++ ___42-[VCPMobileAssetManager queryMobileAssets]_block_invoke.547
++ ___48-[VCPDownloadManager requestDownloadOfResource:]_block_invoke.196
++ ___48-[VCPDownloadManager requestDownloadOfResource:]_block_invoke.200
++ ___48-[VCPDownloadManager requestDownloadOfResource:]_block_invoke.202
++ ___48-[VCPDownloadManager requestDownloadOfResource:]_block_invoke.206
++ ___48-[VCPMobileAssetManager purgeAllInstalledAssets]_block_invoke.558
++ ___48-[VCPTextEncoder textEmbeddingForQuery:useFP16:]_block_invoke.257
++ ___51-[VCPVideoAnimalDetector updateWithExistingAnimals]_block_invoke_3
++ ___51-[VCPVideoFullFaceDetector updateWithExistingFaces]_block_invoke_3
++ ___56-[VCPMediaAnalyzer _setupMediaAnalysisServiceConnection]_block_invoke.891
++ ___56-[VCPMediaAnalyzer _setupMediaAnalysisServiceConnection]_block_invoke.892
++ ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.691
++ ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.694
++ ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.699
++ ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.703
++ ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.711
++ ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.715
++ ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.719
++ ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.721
++ ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.732
++ ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.735
++ ___58-[VCPPhotosQuickFaceIdentificationManager classifyVIPPets]_block_invoke.463
++ ___58-[VCPPhotosQuickFaceIdentificationManager classifyVIPPets]_block_invoke.467
++ ___59-[VCPHumanPoseImageRequest processImage:withOptions:error:]_block_invoke_2
++ ___59-[VCPHumanPoseImageRequest processImage:withOptions:error:]_block_invoke_3
++ ___60-[MADPhotosDataStoreClient setDatabaseVersion:photoLibrary:]_block_invoke.457
++ ___64-[VCPPreAnalyzer _extractAndSortBoundingBoxFromDetectedObjects:]_block_invoke.381
++ ___65-[VCPMobileAssetManager downloadMobileAssetIfNeeded:petWatchDog:]_block_invoke.550
++ ___65-[VCPMobileAssetManager downloadMobileAssetIfNeeded:petWatchDog:]_block_invoke.552
++ ___66-[VCPVideoProcessorSession processSampleBuffer:withEndTime:error:]_block_invoke.24
++ ___66-[VCPVideoProcessorSession processSampleBuffer:withEndTime:error:]_block_invoke_2.25
++ ___67-[MADPhotosDataStoreClient recreatePersistentStoreForPhotoLibrary:]_block_invoke.456
++ ___67-[VCPMediaAnalyzer _getDatabaseSandboxExtensionForPhotoLibraryURL:]_block_invoke.905
++ ___69-[VCPMediaAnalyzer analyzeOndemand:pairedURL:forAnalysisTypes:error:]_block_invoke.930
++ ___70-[VCPEffectsAnalyzer analyzeAsset:onDemand:cancel:statsFlags:results:]_block_invoke.366
++ ___73-[VCPVideoSaliencyAnalyzer analyzeFrame:withTimestamp:andDuration:flags:]_block_invoke_3
++ ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.707
++ ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.714
++ ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.727
++ ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.732
++ ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.737
++ ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.742
++ ___79-[VCPVideoPetsActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:]_block_invoke_2
++ ___80-[VCPVideoHumanActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:]_block_invoke_2
++ ___81-[MADVideoSessionSafetyClassificationTask processPixelBufferAsset:resultHandler:]_block_invoke.227
++ ___84-[VCPMediaAnalyzer _getSandboxExtensionForMediaAnalysisDatabaseWithPhotoLibraryURL:]_block_invoke.894
++ ___88-[VCPPreAnalyzer _performSceneAnalysis:image:mediaType:mediaSubtypes:abnormalDimension:]_block_invoke.404
++ ___89-[MADVectorDatabase rebuildWithForce:cancelBlock:extendTimeoutBlock:totalEmbeddingCount:]_block_invoke_2
++ ___90-[VCPVideoFullFaceDetector detectTrackFacesInFrame:withTimestamp:faces:torsos:frameStats:]_block_invoke_2
++ ___91-[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:]_block_invoke_2
++ ___91-[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:]_block_invoke_3
++ ___95-[MADFetchRequest(BackgroundAnalysisProgressHistory) loadAllProgressHistoryRecords:totalCount:]_block_invoke.201
++ ___Block_byref_object_copy_.350
++ ___Block_byref_object_copy_.352
++ ___Block_byref_object_copy_.520
++ ___Block_byref_object_copy_.689
++ ___Block_byref_object_dispose_.351
++ ___Block_byref_object_dispose_.353
++ ___Block_byref_object_dispose_.521
++ ___Block_byref_object_dispose_.690
++ ___block_literal_global.191
++ ___block_literal_global.199
++ ___block_literal_global.217
++ ___block_literal_global.229
++ ___block_literal_global.235
++ ___block_literal_global.24
++ ___block_literal_global.26
++ ___block_literal_global.30
++ ___block_literal_global.37
++ ___block_literal_global.378
++ ___block_literal_global.432
++ ___block_literal_global.436
++ ___block_literal_global.473
++ ___block_literal_global.543
++ ___block_literal_global.890
++ ___block_literal_global.932
++ ___block_literal_global.952
++ ___block_literal_global.972
++ ___block_literal_global.988
++ _kCIInputImageKey
++ _objc_msgSend$contentHeadroom
++ _objc_msgSend$filterWithName:
++ _objc_msgSend$outputImage
+- +[MADEmbeddingStore includeAudioFusedVideoEmbeddings].cold.1
+- +[MADHEICSAlphaSequenceWriter getOutputWidth:outputHeight:sequenceData:].cold.1
+- +[MADHEICSAlphaSequenceWriter getOutputWidth:outputHeight:sequenceData:].cold.2
+- +[MADHEICSAlphaSequenceWriter getOutputWidth:outputHeight:sequenceData:].cold.3
+- +[MADManagedProcessingStatus(Utilities) fetchFirstManagedProcessingStatus:predicate:managedObjectContext:].cold.1
+- +[MADSharedTextEncoder computeBackend].cold.1
+- +[PHAsset(MediaAnalysisComputeSync) mad_isComputeSyncDisabled].cold.1
+- +[PHAsset(MediaAnalysisOCRProcessing) vcp_ocrGatingThreshold].cold.1
+- +[PHAsset(MediaAnalysisVisualSearchProcessing) enableStickerScore].cold.1
+- +[PHAsset(VCPPHFaces) mad_peopleThreshold].cold.1
+- +[PHAsset(VCPPHFaces) vcp_usePHFace].cold.1
+- +[PHAssetResource(MediaAnalysis) mad_disableComputeSyncDownload].cold.1
+- +[PHAssetResourceManager(MediaAnalysis) vcp_inMemoryDownload:withTaskID:toData:cancel:].cold.1
+- +[PHAssetResourceManager(MediaAnalysis) vcp_inMemoryDownload:withTaskID:toData:cancel:].cold.2
+- +[PHAssetResourceManager(MediaAnalysis) vcp_inMemoryDownload:withTaskID:toData:cancel:].cold.3
+- +[PHAssetResourceManager(MediaAnalysis) vcp_requestFileURLForAssetResource:withTaskID:toResourceURL:progressHandler:cancel:].cold.1
+- +[PHAssetResourceManager(MediaAnalysis) vcp_requestFileURLForAssetResource:withTaskID:toResourceURL:progressHandler:cancel:].cold.2
+- +[PHAssetResourceManager(MediaAnalysis) vcp_requestFileURLForAssetResource:withTaskID:toResourceURL:progressHandler:cancel:].cold.3
+- +[PHPhotoLibrary(MediaAnalysis) mad_clusterVideoFaces].cold.1
+- +[VCPAnalysisProgressQuery _screenProgress].cold.1
+- +[VCPAnalysisProgressQuery queryAnalysisProgress:photoLibrary:taskID:cancelOrExtendTimeoutBlock:].cold.1
+- +[VCPAnalysisProgressQuery queryProgressDetail:photoLibrary:taskID:cancelOrExtendTimeoutBlock:].cold.1
+- +[VCPAnalysisProgressQuery reportProgressForPhotoLibrary:taskID:logMessage:cancelOrExtendTimeoutBlock:].cold.1
+- +[VCPDatabaseReader shouldQueryInternalFields].cold.1
+- +[VCPEffectsAnalyzer usePHAssetScene].cold.1
+- +[VCPFaceAnalyzer _downsampleBeforeFaceProcessing].cold.1
+- +[VCPFaceAnalyzer _faceprintFastMode].cold.1
+- +[VCPFaceAnalyzer _forwardCompatibleFaceSigmaThreshold].cold.1
+- +[VCPFaceAnalyzer _forwardCompatibleTorsoSigmaThreshold].cold.1
+- +[VCPFaceAnalyzer _smallFaceWarningThreshold].cold.1
+- +[VCPFaceCropManager _allowANE].cold.1
+- +[VCPFaceIDModel newMutablePersonsModel].cold.1
+- +[VCPFaceIDModel petClassificationThreshold].cold.1
+- +[VCPFaceMerger _allowANE].cold.1
+- +[VCPFaceProcessingServiceWorker _similarityScoreThreshold].cold.1
+- +[VCPFaceUtils configureVNRequest:withClass:andProcessingVersion:].cold.1
+- +[VCPFreeFormSearch getHighSimilarityThreshold].cold.1
+- +[VCPFreeFormSearch getMaxSimilarityDiffFor1UP].cold.1
+- +[VCPFreeFormSearch getMinSimilarityHighRecall].cold.1
+- +[VCPFreeFormSearch getMinSimilarity].cold.1
+- +[VCPFreeFormSearch getSearchTesting].cold.1
+- +[VCPFullAnalysisAssetProcessingTask AllowPersistSettlingEffectScore].cold.1
+- +[VCPFullVideoAnalyzer enableMoflow].cold.1
+- +[VCPFullVideoAnalyzer useSceneprintInSceneAnalysis].cold.1
+- +[VCPHandGestureClassifier enableFlip].cold.1
+- +[VCPHandGestureMitigator getFaceExtensionRatio].cold.1
+- +[VCPHandGestureMitigator getGestureTypeConsistencyLookBackDuration].cold.1
+- +[VCPHandGestureMitigator getHandMotionLookBackDuration].cold.1
+- +[VCPHandGestureMitigator getMinHandFaceRatio].cold.1
+- +[VCPHandGestureMitigator getMinTiltingAngle].cold.1
+- +[VCPHandGestureMitigator getMinTiltingThumbAngle].cold.1
+- +[VCPHandGestureMitigator getPalmMoveDistanceThreshold].cold.1
+- +[VCPHandGestureMitigator getPalmScaleChangeThreshold].cold.1
+- +[VCPHuman flagsFromKeypoints:withMinConfidence:].cold.1
+- +[VCPHumanPoseImageRequest parseResults:observations:revision:].cold.1
+- +[VCPHumanPoseImageRequest parseResults:observations:revision:].cold.2
+- +[VCPHumanPoseImageRequest parseResults:observations:revision:].cold.3
+- +[VCPHumanPoseImageRequest parseResults:observations:revision:].cold.4
+- +[VCPHumanPoseImageRequest parseResults:observations:revision:].cold.5
+- +[VCPHumanPoseImageRequest parseResults:observations:revision:].cold.6
+- +[VCPHumanPoseImageRequest parseResults:observations:revision:].cold.7
+- +[VCPImageCaptionAnalyzer greedySearchEnabled].cold.1
+- +[VCPImageCaptionAnalyzer useVCPMobileAssetAXCaptionModel].cold.1
+- +[VCPImageCaptionAnalyzer writeSpatialEmbeddingToFile].cold.1
+- +[VCPImageFaceDetector isLivePhotoKeyFrameEnabled].cold.1
+- +[VCPImageHandsAnalyzer getExtendRatio].cold.1
+- +[VCPImageHandsAnalyzer getInsetForRejectingHands].cold.1
+- +[VCPImageHumanPoseAnalyzer saveKeypoints].cold.1
+- +[VCPImageManager _exportReencodedJPEG].cold.1
+- +[VCPImageManager loggingEnabled].cold.1
+- +[VCPMADMLScalingTask getDownsamplingMode].cold.1
+- +[VCPMediaAnalyzer _getDistanceDescriptorClass].cold.1
+- +[VCPMediaAnalyzer includeTorsoOnlyForOneUP].cold.1
+- +[VCPMobileAssetManager isCaptionOTAEnabled].cold.1
+- +[VCPMobileAssetManager isOTAFailTestEnabled].cold.1
+- +[VCPMovieAnalyzer MaxNumThumbnailsPerVideo].cold.1
+- +[VCPMovieAnalyzer getEnableMovieHumanAction].cold.1
+- +[VCPMovieAnalyzer getMaximumHighlightInSec].cold.2
+- +[VCPMovieAnalyzer isHeuristicStickerScoreEnabled].cold.1
+- +[VCPMovieAnalyzer persistAudioEmbedding].cold.1
+- +[VCPMovieAnalyzer shouldProcessAudioAsync].cold.1
+- +[VCPMovieCurationAnalyzer isSettlingEffectPregatingEnabled].cold.1
+- +[VCPMovieHighlightAnalyzer getMinimumHighlightInSec].cold.1
+- +[VCPMovieHighlightAnalyzer isHeuristicStickerScoreEnabled].cold.1
+- +[VCPPhotoAnalyzer isLivePhotoKeyFrameEnabled].cold.1
+- +[VCPPhotosAutoCounterWorker _dumpAssetsToFaces].cold.1
+- +[VCPPhotosAutoCounterWorker _dumpFaceprint].cold.1
+- +[VCPPhotosFace _isColocatingAnimalObservation:withFaceObservations:orTorsoObservations:].cold.1
+- +[VCPPhotosFace faceFromFaceObservation:humanObservation:sourceWidth:sourceHeight:visionRequests:processingVersion:force:andError:].cold.1
+- +[VCPPhotosFace faceFromFaceObservation:humanObservation:sourceWidth:sourceHeight:visionRequests:processingVersion:force:andError:].cold.2
+- +[VCPPhotosFace faceFromFaceObservation:humanObservation:sourceWidth:sourceHeight:visionRequests:processingVersion:force:andError:].cold.3
+- +[VCPPhotosFace faceFromFaceObservation:humanObservation:sourceWidth:sourceHeight:visionRequests:processingVersion:force:andError:].cold.4
+- +[VCPPhotosQuickFaceIdentificationManager _fastFaceMigrationEnabled].cold.1
+- +[VCPPhotosSceneprintAssetProcessingTask _panoVNRequestMethod].cold.1
+- +[VCPPreAnalysisRequests includeCN].cold.1
+- +[VCPPreAnalysisRequests includeDMF].cold.1
+- +[VCPPreAnalysisRequests includeDO].cold.1
+- +[VCPPreAnalysisRequests includeDocument].cold.1
+- +[VCPPreAnalysisRequests includeIVS].cold.1
+- +[VCPPreAnalysisRequests includeJunk].cold.1
+- +[VCPPreAnalysisRequests includeLM].cold.1
+- +[VCPPreAnalysisRequests includeMeme].cold.1
+- +[VCPPreAnalysisRequests includeNSFW].cold.1
+- +[VCPPreAnalysisRequests includePA].cold.1
+- +[VCPPreAnalysisRequests includeRotation].cold.1
+- +[VCPPreAnalysisRequests includeSDG].cold.1
+- +[VCPPreAnalysisRequests includeSE].cold.1
+- +[VCPPreAnalysisRequests includeSO].cold.1
+- +[VCPPreAnalysisRequests includeWP].cold.1
+- +[VCPPreAnalysisRequests sharpnessRevision].cold.2
+- +[VCPPreAnalyzer _allowANE].cold.1
+- +[VCPPreAnalyzer _enableSceneAssetConcurrency].cold.1
+- +[VCPPreAnalyzer _getSHRevision].cold.2
+- +[VCPPreAnalyzer _includeCN].cold.1
+- +[VCPPreAnalyzer _includeDMF].cold.1
+- +[VCPPreAnalyzer _includeDO].cold.1
+- +[VCPPreAnalyzer _includeDocument].cold.1
+- +[VCPPreAnalyzer _includeIVS].cold.1
+- +[VCPPreAnalyzer _includeLM].cold.1
+- +[VCPPreAnalyzer _includeMeme].cold.1
+- +[VCPPreAnalyzer _includeNSFW].cold.1
+- +[VCPPreAnalyzer _includePA].cold.1
+- +[VCPPreAnalyzer _includeRotation].cold.1
+- +[VCPPreAnalyzer _includeSDG].cold.1
+- +[VCPPreAnalyzer _includeSE].cold.1
+- +[VCPPreAnalyzer _includeSO].cold.1
+- +[VCPPreAnalyzer _includeWP].cold.1
+- +[VCPPreAnalyzer _useR14J9].cold.1
+- +[VCPRequest useHandsLitePoseForVision].cold.1
+- +[VCPSceneprintDescriptor usePHAssetData].cold.1
+- +[VCPSettlingEffectAnalyzer disableBurstFrameDropGating].cold.1
+- +[VCPSettlingEffectAnalyzer disableMetadataIntegrityCheck].cold.1
+- +[VCPSettlingEffectAnalyzer disableStillTransitionGating].cold.1
+- +[VCPSettlingEffectAnalyzer disableVideoQualityGating].cold.1
+- +[VCPSettlingEffectAnalyzer getFRCQualityMode].cold.1
+- +[VCPSettlingEffectAnalyzer getFramePTSList:before:withOptions:].cold.1
+- +[VCPSettlingEffectAnalyzer getFramePTSList:before:withOptions:].cold.2
+- +[VCPSettlingEffectAnalyzer getFramePTSList:before:withOptions:].cold.3
+- +[VCPSettlingEffectAnalyzer getSettlingEffectTimeRange:withOptions:].cold.1
+- +[VCPTextEncoder useCSULanguageEncoder].cold.1
+- +[VCPVideoAnalysisPipelineManager shouldUseGraphProcessing].cold.1
+- +[VCPVideoCNNAnalyzer adaptiveSegmentType].cold.1
+- +[VCPVideoCNNAnalyzer forcePersonDetection].cold.1
+- +[VCPVideoCNNAnalyzer isMLHighlightEnabled].cold.1
+- +[VCPVideoCNNAnalyzer isMLSettlingEffectPregatingEnabled].cold.1
+- +[VCPVideoCNNAnalyzer isMUBackboneEnabled].cold.1
+- +[VCPVideoInterpolator allowDetectSingleDrop].cold.1
+- +[VCPVideoInterpolator allowMultipleFormats].cold.1
+- +[VCPVideoInterpolator getFRCQualityMode].cold.1
+- +[VCPVideoInterpolator isEnabled].cold.1
+- +[VCPVideoKeyFrame isLivePhotoKeyFrameEnabled].cold.1
+- +[VCPVideoKeyFrameAnalyzer isLivePhotoKeyFrameEnabled].cold.1
+- +[VCPVideoStabilizer saveStabilizationRecipe].cold.1
+- +[VCPVideoThumbnailAnalyzer getMaxNumThumbnailsPerMin].cold.1
+- +[VNImageBasedRequest(MediaAnalysis) _allowANE].cold.1
+- +[VNRequest(MediaAnalysis) mad_includeEntityNet].cold.1
+- -[CNNMLEnhancerEspresso initWithModelFile:].cold.1
+- -[CNNMLEnhancerEspresso initWithModelFile:].cold.2
+- -[CNNMLEnhancerEspresso initWithModelFile:].cold.3
+- -[CNNMLScalerEspresso inferenceWithPixelBuffer:toDestinationPixelBuffer:].cold.1
+- -[CNNMLScalerEspresso inferenceWithPixelBuffer:toDestinationPixelBuffer:].cold.2
+- -[CNNMLScalerEspresso inferenceWithPixelBuffer:toDestinationPixelBuffer:].cold.3
+- -[CNNMLScalerEspresso initWithConfig:modelIndex:scalingFactor:].cold.1
+- -[CNNMLScalerEspresso initWithConfig:modelIndex:scalingFactor:].cold.2
+- -[CNNMLScalerEspresso initWithConfig:modelIndex:scalingFactor:].cold.3
+- -[CNNMLScalerEspresso initWithConfig:modelIndex:scalingFactor:].cold.4
+- -[CNNMLScalerEspresso initWithConfig:modelIndex:scalingFactor:].cold.5
+- -[CNNMLScalerEspressoV2 configInput:].cold.1
+- -[CNNMLScalerEspressoV2 configInput:].cold.2
+- -[CNNMLScalerEspressoV2 copyOutput:pixelbuffer:].cold.4
+- -[CNNMLScalerEspressoV2 inferenceWithPixelBuffer:toDestinationPixelBuffer:].cold.1
+- -[CNNMLScalerEspressoV2 inferenceWithPixelBuffer:toDestinationPixelBuffer:].cold.2
+- -[CNNMLScalerEspressoV2 inferenceWithPixelBuffer:toDestinationPixelBuffer:].cold.3
+- -[CNNMLScalerEspressoV2 inferenceWithPixelBuffer:toDestinationPixelBuffer:].cold.4
+- -[CNNMLScalerEspressoV2 initWithConfig:modelIndex:inputSize:scalingFactor:].cold.1
+- -[CNNMLScalerEspressoV2 initWithConfig:modelIndex:inputSize:scalingFactor:].cold.2
+- -[CNNMLScalerEspressoV2 initWithConfig:modelIndex:inputSize:scalingFactor:].cold.3
+- -[CNNMLScalerEspressoV2 prepareInput:withChannels:].cold.3
+- -[CNNMLScalerEspressoV2 prepareInput:withChannels:].cold.4
+- -[CNNMLScalerEspressoV2 prepareInput:withChannels:].cold.5
+- -[MADChangeRequest(ProcessingStatus) _hardFailAllRunningProcessingStatusForTaskID:additionalPredicates:].cold.1
+- -[MADChangeRequest(ProcessingStatus) _hardFailAllRunningProcessingStatusWithPredicate:].cold.1
+- -[MADChangeRequest(ProcessingStatus) _removeProcessingStatusWithPredicate:].cold.1
+- -[MADFetchRequest(BackgroundAnalysisProgressHistory) fetchAssetCountForTaskID:totalAssets:processedAssets:].cold.1
+- -[MADFetchRequest(BackgroundAnalysisProgressHistory) fetchAssetCountForTaskID:totalAssets:processedAssets:].cold.2
+- -[MADFetchRequest(BackgroundAnalysisProgressHistory) fetchProgressHistoryRecords:sinceDate:].cold.1
+- -[MADHEICSAlphaSequenceTranscoder _addFrameToSequence:basePixelBuffer:alphaPixelBuffer:pts:].cold.1
+- -[MADHEICSAlphaSequenceTranscoder _addFrameToSequence:basePixelBuffer:alphaPixelBuffer:pts:].cold.2
+- -[MADHEICSAlphaSequenceTranscoder _decodeFrameIndex:basePixelBuffer:alphaPixelBuffer:pts:].cold.1
+- -[MADHEICSAlphaSequenceTranscoder _decodeFrameIndex:basePixelBuffer:alphaPixelBuffer:pts:].cold.2
+- -[MADHEICSAlphaSequenceTranscoder _decodeFrameIndex:basePixelBuffer:alphaPixelBuffer:pts:].cold.3
+- -[MADHEICSAlphaSequenceTranscoder _setupTranscode].cold.1
+- -[MADHEICSAlphaSequenceTranscoder _setupTranscode].cold.2
+- -[MADHEICSAlphaSequenceTranscoder _setupTranscode].cold.3
+- -[MADHEICSAlphaSequenceTranscoder _setupTranscode].cold.4
+- -[MADHEICSAlphaSequenceTranscoder _setupTranscode].cold.5
+- -[MADHEICSAlphaSequenceTranscoder _setupTranscode].cold.6
+- -[MADHEICSAlphaSequenceTranscoder _setupTranscode].cold.7
+- -[MADHEICSAlphaSequenceTranscoder _setupTranscode].cold.8
+- -[MADHEICSAlphaSequenceTranscoder _setupTranscode].cold.9
+- -[MADHEICSAlphaSequenceTranscoder _transcode].cold.1
+- -[MADHEICSAlphaSequenceTranscoder _transcode].cold.2
+- -[MADHEICSAlphaSequenceTranscoder _transcode].cold.3
+- -[MADHEICSAlphaSequenceTranscoder _transcode].cold.4
+- -[MADHEICSAlphaSequenceWriter _addPixelBuffer420Alpha:withTime:].cold.1
+- -[MADHEICSAlphaSequenceWriter _addPixelBuffer420Alpha:withTime:].cold.2
+- -[MADHEICSAlphaSequenceWriter _addPixelBuffer420Alpha:withTime:].cold.3
+- -[MADHEICSAlphaSequenceWriter _addPixelBuffer420Alpha:withTime:].cold.4
+- -[MADHEICSAlphaSequenceWriter _addPixelBufferBGRA:withTime:].cold.1
+- -[MADHEICSAlphaSequenceWriter _addPixelBufferBGRA:withTime:].cold.2
+- -[MADHEICSAlphaSequenceWriter _createCompressionSessionLazy].cold.1
+- -[MADHEICSAlphaSequenceWriter _createCompressionSessionLazy].cold.2
+- -[MADHEICSAlphaSequenceWriter _createCompressionSessionLazy].cold.3
+- -[MADHEICSAlphaSequenceWriter _finishWithEndTime:outputData:].cold.1
+- -[MADHEICSAlphaSequenceWriter _finishWithEndTime:outputData:].cold.2
+- -[MADHEICSAlphaSequenceWriter addPixelBuffer:withTime:].cold.1
+- -[MADHEICSAlphaSequenceWriter copyInputPlaneIndex:inputPixelBuffer:toOutputPlaneIndex:outputPixelBuffer:bytesPerPixel:].cold.1
+- -[MADHEICSAlphaSequenceWriter copyInputPlaneIndex:inputPixelBuffer:toOutputPlaneIndex:outputPixelBuffer:bytesPerPixel:].cold.2
+- -[MADHEICSAlphaSequenceWriter copyInputPlaneIndex:inputPixelBuffer:toOutputPlaneIndex:outputPixelBuffer:bytesPerPixel:].cold.3
+- -[MADHEICSAlphaSequenceWriter copyInputPlaneIndex:inputPixelBuffer:toOutputPlaneIndex:outputPixelBuffer:bytesPerPixel:].cold.4
+- -[MADHEICSAlphaSequenceWriter demuxPixelBuffer:imagePixelBuffer:alphaPixelBuffer:].cold.10
+- -[MADHEICSAlphaSequenceWriter demuxPixelBuffer:imagePixelBuffer:alphaPixelBuffer:].cold.11
+- -[MADHEICSAlphaSequenceWriter demuxPixelBuffer:imagePixelBuffer:alphaPixelBuffer:].cold.12
+- -[MADHEICSAlphaSequenceWriter demuxPixelBuffer:imagePixelBuffer:alphaPixelBuffer:].cold.13
+- -[MADHEICSAlphaSequenceWriter demuxPixelBuffer:imagePixelBuffer:alphaPixelBuffer:].cold.14
+- -[MADHEICSAlphaSequenceWriter demuxPixelBuffer:imagePixelBuffer:alphaPixelBuffer:].cold.15
+- -[MADHEICSAlphaSequenceWriter demuxPixelBuffer:imagePixelBuffer:alphaPixelBuffer:].cold.16
+- -[MADHEICSAlphaSequenceWriter demuxPixelBuffer:imagePixelBuffer:alphaPixelBuffer:].cold.3
+- -[MADHEICSAlphaSequenceWriter demuxPixelBuffer:imagePixelBuffer:alphaPixelBuffer:].cold.4
+- -[MADHEICSAlphaSequenceWriter demuxPixelBuffer:imagePixelBuffer:alphaPixelBuffer:].cold.5
+- -[MADHEICSAlphaSequenceWriter demuxPixelBuffer:imagePixelBuffer:alphaPixelBuffer:].cold.6
+- -[MADHEICSAlphaSequenceWriter demuxPixelBuffer:imagePixelBuffer:alphaPixelBuffer:].cold.7
+- -[MADHEICSAlphaSequenceWriter demuxPixelBuffer:imagePixelBuffer:alphaPixelBuffer:].cold.8
+- -[MADHEICSAlphaSequenceWriter demuxPixelBuffer:imagePixelBuffer:alphaPixelBuffer:].cold.9
+- -[MADHEVCAlphaSequenceWriter addPixelBuffer:withTime:].cold.1
+- -[MADHEVCAlphaSequenceWriter addPixelBuffer:withTime:].cold.2
+- -[MADHEVCAlphaSequenceWriter addPixelBuffer:withTime:].cold.3
+- -[MADHEVCAlphaSequenceWriter addPixelBuffer:withTime:].cold.4
+- -[MADHEVCAlphaSequenceWriter addPixelBuffer:withTime:].cold.5
+- -[MADImageASTCFormatReader readPList].cold.1
+- -[MADImageASTCFormatReader readPList].cold.2
+- -[MADImageASTCFormatReader readPList].cold.3
+- -[MADMovieBlastDoorAnalyzer finalizeAnalyzers:timeRange:].cold.1
+- -[MADMovieBlastDoorAnalyzer finalizeAnalyzers:timeRange:].cold.2
+- -[MADMovieBlastDoorAnalyzer finalizeAnalyzers:timeRange:].cold.3
+- -[MADMovieBlastDoorAnalyzer finalizeAnalyzers:timeRange:].cold.4
+- -[MADMovieBlastDoorAnalyzer finalizeAnalyzers:timeRange:].cold.5
+- -[MADMovieBlastDoorAnalyzer processFrame:timestamp:duration:].cold.1
+- -[MADMovieBlastDoorAnalyzer processFrame:timestamp:duration:].cold.2
+- -[MADMovieBlastDoorAnalyzer processFrame:timestamp:duration:].cold.3
+- -[MADMovieBlastDoorAnalyzer processFrame:timestamp:duration:].cold.4
+- -[MADMovieBlastDoorAnalyzer processFrame:timestamp:duration:].cold.5
+- -[MADMovieBlastDoorAnalyzer processFrame:timestamp:duration:].cold.6
+- -[MADMovieBlastDoorAnalyzer processFrame:timestamp:duration:].cold.7
+- -[MADMovieBlastDoorAnalyzer processFrame:timestamp:duration:].cold.8
+- -[MADMovieBlastDoorAnalyzer processVideo:].cold.1
+- -[MADMovieBlastDoorAnalyzer processVideo:].cold.2
+- -[MADMovieBlastDoorAnalyzer processVideo:].cold.3
+- -[MADPNGAlphaSequenceWriter addPixelBuffer:withTime:].cold.1
+- -[MADPNGAlphaSequenceWriter addPixelBuffer:withTime:].cold.2
+- -[MADPersonalizedEmbeddingTask processInput:resource:result:].cold.1
+- -[MADPersonalizedEmbeddingTask processInput:resource:result:].cold.2
+- -[MADPersonalizedEmbeddingTask processInput:resource:result:].cold.3
+- -[MADTextEmbeddingCalibration _createPlan].cold.1
+- -[MADTextEmbeddingCalibration _createPlan].cold.2
+- -[MADTextEmbeddingCalibration _createPlan].cold.3
+- -[MADTextEmbeddingCalibration _createPlan].cold.4
+- -[MADTextEmbeddingCalibration _createPlan].cold.5
+- -[MADTextEmbeddingCalibration _createPlan].cold.6
+- -[MADTextEmbeddingCalibration _createPlan].cold.7
+- -[MADTextEmbeddingCalibration _processEmbedding:version:typeSize:mean:standardDeviation:].cold.4
+- -[MADTextEmbeddingCalibration _processEmbedding:version:typeSize:mean:standardDeviation:].cold.5
+- -[MADTextEmbeddingSafety _createPlan].cold.1
+- -[MADTextEmbeddingSafety _createPlan].cold.2
+- -[MADTextEmbeddingSafety _createPlan].cold.3
+- -[MADTextEmbeddingSafety _createPlan].cold.4
+- -[MADTextEmbeddingSafety _createPlan].cold.5
+- -[MADTextEmbeddingSafety _createPlan].cold.6
+- -[MADTextEmbeddingThreshold _createPlan].cold.1
+- -[MADTextEmbeddingThreshold _createPlan].cold.2
+- -[MADTextEmbeddingThreshold _createPlan].cold.3
+- -[MADTextEmbeddingThreshold _createPlan].cold.4
+- -[MADTextEmbeddingThreshold _createPlan].cold.5
+- -[MADTextEmbeddingThreshold _createPlan].cold.6
+- -[MADTextEmbeddingThreshold _createPlan].cold.7
+- -[MADVectorDatabase assetCountForEmbeddingType:error:].cold.1
+- -[MADVectorDatabase assetCountForEmbeddingType:error:].cold.2
+- -[MADVectorDatabase fetchAssetsWithEmbeddingType:limit:offset:error:].cold.1
+- -[MADVectorDatabase fetchAssetsWithEmbeddingType:limit:offset:error:].cold.2
+- -[MADVideoRemoveBackgroundCropTask run:].cold.1
+- -[MADVideoRemoveBackgroundCropTask run:].cold.2
+- -[MADVideoRemoveBackgroundCropTask run:].cold.3
+- -[MADVideoRemoveBackgroundCropTask run:].cold.4
+- -[MADVideoRemoveBackgroundCropTask run:].cold.5
+- -[MADVideoSafetyClassifier analyzeFrame:withTimestamp:andDuration:flags:].cold.1
+- -[MADVideoSafetyClassifier analyzeFrameWithSampleBuffer:timestamp:duration:andFlags:].cold.1
+- -[MADVideoSessionSafetyClassificationTask createUprightPixelBuffer:fromSourceBuffer:andOrientation:].cold.5
+- -[MADVideoSessionSafetyClassificationTask createUprightPixelBuffer:fromSourceBuffer:andOrientation:].cold.6
+- -[MADVideoSessionSafetyClassificationTask createUprightPixelBuffer:fromSourceBuffer:andOrientation:].cold.7
+- -[MADVideoSessionSafetyClassificationTask createUprightPixelBuffer:fromSourceBuffer:andOrientation:].cold.8
+- -[NSDictionary(MediaAnalysis) vcp_queryActionResultForPHFace:].cold.1
+- -[NSDictionary(MediaAnalysis) vcp_queryActionResultForPHFace:].cold.2
+- -[PHAsset(MediaAnalysisComputeSync) mad_isEligibleForComputeSyncIngestion].cold.1
+- -[PHPhotoLibrary(MediaAnalysis) mad_pauseFCPeopleFurtherProcessing].cold.1
+- -[VCPANSTHandsBodyDetector anstDetection:rotationInDegrees:detectingFullbody:detectingHands:handsRegions:personRegions:cancel:].cold.1
+- -[VCPANSTHandsBodyDetector anstDetection:rotationInDegrees:detectingFullbody:detectingHands:handsRegions:personRegions:cancel:].cold.2
+- -[VCPANSTHandsBodyDetector anstDetection:rotationInDegrees:detectingFullbody:detectingHands:handsRegions:personRegions:cancel:].cold.3
+- -[VCPANSTHandsBodyDetector anstDetection:rotationInDegrees:detectingFullbody:detectingHands:handsRegions:personRegions:cancel:].cold.4
+- -[VCPANSTHandsBodyDetector initWithHandExtendRatio:inputRatio:maxNumPersonRegions:].cold.1
+- -[VCPANSTHandsDetector handsDetection:rotationInDegrees:handsRegions:cancel:].cold.1
+- -[VCPANSTHandsDetector handsDetection:rotationInDegrees:handsRegions:cancel:].cold.2
+- -[VCPANSTHandsDetector handsDetection:rotationInDegrees:handsRegions:cancel:].cold.3
+- -[VCPANSTHandsDetector initWithExtendRatio:options:].cold.1
+- -[VCPAdaptiveSegmentAnalyzer calculateAdaptiveSegments:].cold.1
+- -[VCPAdaptiveSegmentAnalyzer calculateAdaptiveSegments:videoEmbeddingsX3D:].cold.1
+- -[VCPAdaptiveSegmentAnalyzer calculateAdaptiveSegments:videoEmbeddingsX3D:].cold.2
+- -[VCPAudioAnalyzer analyzeAsset:cancel:results:].cold.1
+- -[VCPAudioAnalyzer analyzeAsset:cancel:results:].cold.2
+- -[VCPAudioAnalyzer analyzeAsset:cancel:results:].cold.3
+- -[VCPAudioAnalyzer analyzeAsset:cancel:results:].cold.4
+- -[VCPAudioAnalyzer analyzeAsset:cancel:results:].cold.5
+- -[VCPAudioAnalyzer analyzeAsset:cancel:results:].cold.6
+- -[VCPAudioAnalyzer analyzeAsset:cancel:results:].cold.7
+- -[VCPAudioAnalyzer analyzeSampleBuffer:].cold.1
+- -[VCPAudioAnalyzer analyzeSampleBuffer:].cold.2
+- -[VCPAudioAnalyzer analyzeSampleBuffer:].cold.3
+- -[VCPAudioAnalyzer finalizeAnalysisAtTime:].cold.1
+- -[VCPAudioAnalyzer finalizeAnalysisAtTime:].cold.2
+- -[VCPAudioAnalyzer finalizeAnalysisAtTime:].cold.3
+- -[VCPAudioAnalyzer finalizeAnalysisAtTime:].cold.4
+- -[VCPAudioAnalyzer processAudioSamples:timestamp:].cold.1
+- -[VCPAudioAnalyzer processAudioSamples:timestamp:].cold.2
+- -[VCPAudioAnalyzer processAudioSamples:timestamp:].cold.3
+- -[VCPAudioAnalyzer processAudioSamples:timestamp:].cold.4
+- -[VCPAudioAnalyzer processSampleBuffer:].cold.1
+- -[VCPAudioAnalyzer processSampleBuffer:].cold.2
+- -[VCPAudioAnalyzer processSampleBuffer:].cold.3
+- -[VCPAudioAnalyzer setupWithSample:andTrackDuration:].cold.1
+- -[VCPAudioAnalyzer setupWithSample:andTrackDuration:].cold.2
+- -[VCPAudioAnalyzer setupWithSample:andTrackDuration:].cold.3
+- -[VCPAudioAnalyzer setupWithSample:andTrackDuration:].cold.4
+- -[VCPAudioAnalyzer setupWithSample:andTrackDuration:].cold.5
+- -[VCPAudioAnalyzer setupWithSample:andTrackDuration:].cold.6
+- -[VCPAudioClassifier finalizeAnalysisAtTime:].cold.1
+- -[VCPAudioClassifier finalizeAnalysisAtTime:].cold.2
+- -[VCPAudioClassifier finalizeAnalysisAtTime:].cold.3
+- -[VCPAudioClassifier finalizeAnalysisAtTime:].cold.4
+- -[VCPAudioClassifier processAudioSamples:timestamp:].cold.1
+- -[VCPAudioClassifier setupWithSample:trackDuration:resultHandler:andSampleBatchSize:].cold.1
+- -[VCPAudioClassifier setupWithSample:trackDuration:resultHandler:andSampleBatchSize:].cold.10
+- -[VCPAudioClassifier setupWithSample:trackDuration:resultHandler:andSampleBatchSize:].cold.11
+- -[VCPAudioClassifier setupWithSample:trackDuration:resultHandler:andSampleBatchSize:].cold.2
+- -[VCPAudioClassifier setupWithSample:trackDuration:resultHandler:andSampleBatchSize:].cold.3
+- -[VCPAudioClassifier setupWithSample:trackDuration:resultHandler:andSampleBatchSize:].cold.4
+- -[VCPAudioClassifier setupWithSample:trackDuration:resultHandler:andSampleBatchSize:].cold.5
+- -[VCPAudioClassifier setupWithSample:trackDuration:resultHandler:andSampleBatchSize:].cold.6
+- -[VCPAudioClassifier setupWithSample:trackDuration:resultHandler:andSampleBatchSize:].cold.7
+- -[VCPAudioClassifier setupWithSample:trackDuration:resultHandler:andSampleBatchSize:].cold.8
+- -[VCPAudioClassifier setupWithSample:trackDuration:resultHandler:andSampleBatchSize:].cold.9
+- -[VCPAudioVideoEmbeddingFuser fuse:].cold.1
+- -[VCPAudioVideoEmbeddingFuser initWithEmbeddingVersion:].cold.1
+- -[VCPBackwarp configureGPU].cold.1
+- -[VCPBackwarp configureGPU].cold.2
+- -[VCPBackwarp encodeToCommandBuffer:input:output:flow:upscaledFlow:].cold.1
+- -[VCPBackwarp encodeToCommandBuffer:input:output:flow:upscaledFlow:].cold.2
+- -[VCPBackwarp initWithDevice:].cold.1
+- -[VCPBlurAnalyzer computeSharpnessScore:forObjects:inImage:].cold.3
+- -[VCPBlurAnalyzer computeSharpnessScore:forObjects:inImage:].cold.4
+- -[VCPCNNBlurAnalyzer computeCNNBasedSharpness:sharpnessScore:textureScore:contrast:cancel:].cold.1
+- -[VCPCNNBlurAnalyzer computeCNNBasedSharpness:sharpnessScore:textureScore:contrast:cancel:].cold.2
+- -[VCPCNNBlurAnalyzer computeCNNBasedSharpness:sharpnessScore:textureScore:contrast:cancel:].cold.3
+- -[VCPCNNBlurAnalyzer scaleRegion:ofImage:toData:withWidth:andHeight:].cold.4
+- -[VCPCNNBlurAnalyzer scaleRegion:ofImage:toData:withWidth:andHeight:].cold.5
+- -[VCPCNNBlurAnalyzer scaleRegion:ofImage:toData:withWidth:andHeight:].cold.6
+- -[VCPCNNBlurAnalyzerEspresso computeSharpnessScore:textureness:contrast:imgWidth:cancel:].cold.1
+- -[VCPCNNBlurAnalyzerEspresso computeSharpnessScore:textureness:contrast:imgWidth:cancel:].cold.2
+- -[VCPCNNBlurAnalyzerEspresso initWithRevision:].cold.1
+- -[VCPCNNBlurAnalyzerEspresso prepareModelForSourceWidth:andSourceHeight:].cold.1
+- -[VCPCNNBlurAnalyzerEspresso prepareModelForSourceWidth:andSourceHeight:].cold.2
+- -[VCPCNNBlurAnalyzerMPS computeSharpnessScore:textureness:contrast:imgWidth:cancel:].cold.1
+- -[VCPCNNBlurAnalyzerMPS prepareModelForSourceWidth:andSourceHeight:].cold.1
+- -[VCPCNNBlurAnalyzerMPS prepareModelForSourceWidth:andSourceHeight:].cold.10
+- -[VCPCNNBlurAnalyzerMPS prepareModelForSourceWidth:andSourceHeight:].cold.2
+- -[VCPCNNBlurAnalyzerMPS prepareModelForSourceWidth:andSourceHeight:].cold.3
+- -[VCPCNNBlurAnalyzerMPS prepareModelForSourceWidth:andSourceHeight:].cold.4
+- -[VCPCNNBlurAnalyzerMPS prepareModelForSourceWidth:andSourceHeight:].cold.5
+- -[VCPCNNBlurAnalyzerMPS prepareModelForSourceWidth:andSourceHeight:].cold.6
+- -[VCPCNNBlurAnalyzerMPS prepareModelForSourceWidth:andSourceHeight:].cold.7
+- -[VCPCNNBlurAnalyzerMPS prepareModelForSourceWidth:andSourceHeight:].cold.8
+- -[VCPCNNBlurAnalyzerMPS prepareModelForSourceWidth:andSourceHeight:].cold.9
+- -[VCPCNNConvBlock constructBlock:context:].cold.1
+- -[VCPCNNConvBlock constructBlock:context:].cold.2
+- -[VCPCNNConvBlock constructBlock:context:].cold.3
+- -[VCPCNNConvBlock constructBlock:context:].cold.4
+- -[VCPCNNConvBlock constructBlock:context:].cold.5
+- -[VCPCNNConvBlockBinary constructBlock:context:].cold.1
+- -[VCPCNNConvBlockBinary constructBlock:context:].cold.2
+- -[VCPCNNConvBlockBinary constructBlock:context:].cold.3
+- -[VCPCNNConvBlockBinary constructBlock:context:].cold.4
+- -[VCPCNNConvBlockBinary fillConvWeightsGPU].cold.1
+- -[VCPCNNConvBlockBinary fillConvWeightsGPU].cold.2
+- -[VCPCNNConvBlockBinary fillConvWeightsGPU].cold.3
+- -[VCPCNNConvBlockBinary forward].cold.1
+- -[VCPCNNConvBlockBinary forward].cold.2
+- -[VCPCNNConvBlockBinary gpuForward].cold.1
+- -[VCPCNNConvBlockBinary gpuForward].cold.2
+- -[VCPCNNConvBlockBinary readFromDisk:quantFactor:].cold.1
+- -[VCPCNNConvBlockBinary readFromDisk:quantFactor:].cold.2
+- -[VCPCNNConvBlockBinary readFromDisk:quantFactor:].cold.3
+- -[VCPCNNConvBlockBinary readFromDisk:quantFactor:].cold.4
+- -[VCPCNNConvBlockGPU fillConvWeightsGPU].cold.1
+- -[VCPCNNConvBlockGPU fillConvWeightsGPU].cold.2
+- -[VCPCNNConvBlockGPU fillConvWeightsGPU].cold.3
+- -[VCPCNNConvBlockGPU fillConvWeightsGPU].cold.4
+- -[VCPCNNConvBlockGPU fillConvWeightsGPU].cold.5
+- -[VCPCNNConvBlockGPU forward].cold.1
+- -[VCPCNNConvBlockGPU gpuForward].cold.1
+- -[VCPCNNConvBlockGPU gpuForward].cold.2
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.1
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.10
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.11
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.12
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.13
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.14
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.15
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.16
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.17
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.2
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.3
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.4
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.5
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.6
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.7
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.8
+- -[VCPCNNConvBlockGPU readBatchNormParam:quantFactor:].cold.9
+- -[VCPCNNConvBlockGPU readFromDisk:quantFactor:].cold.1
+- -[VCPCNNConvBlockGPU readFromDisk:quantFactor:].cold.2
+- -[VCPCNNConvBlockGPU readFromDisk:quantFactor:].cold.3
+- -[VCPCNNConvBlockGPU readFromDisk:quantFactor:].cold.4
+- -[VCPCNNConvBlockScalar readFromDisk:quantFactor:].cold.1
+- -[VCPCNNConvBlockScalar readFromDisk:quantFactor:].cold.2
+- -[VCPCNNConvBlockVector chunkFourForward].cold.1
+- -[VCPCNNConvBlockVector chunkFourForward].cold.2
+- -[VCPCNNConvBlockVector forward].cold.1
+- -[VCPCNNConvBlockVector forward].cold.2
+- -[VCPCNNConvBlockVector forward].cold.3
+- -[VCPCNNConvBlockVector readFromDisk:quantFactor:].cold.1
+- -[VCPCNNConvBlockVector readFromDisk:quantFactor:].cold.2
+- -[VCPCNNConvBlockVector readFromDisk:quantFactor:].cold.3
+- -[VCPCNNConvBlockVector readFromDisk:quantFactor:].cold.4
+- -[VCPCNNConvBlockVector readFromDisk:quantFactor:].cold.5
+- -[VCPCNNConvBlockVector readFromDisk:quantFactor:].cold.6
+- -[VCPCNNConvBlockVector readFromDisk:quantFactor:].cold.7
+- -[VCPCNNConvBlockVector readFromDisk:quantFactor:].cold.8
+- -[VCPCNNConvBlockVector straightForwardForChunkFour].cold.1
+- -[VCPCNNData allocBuffers:].cold.1
+- -[VCPCNNData bufferAllocCPU].cold.1
+- -[VCPCNNData bufferAllocCPU].cold.2
+- -[VCPCNNData copyImage:withChunk:].cold.3
+- -[VCPCNNData copyImage:withChunk:].cold.4
+- -[VCPCNNData copyImage:withChunk:].cold.5
+- -[VCPCNNData copyImage:withChunk:].cold.6
+- -[VCPCNNData readFromDisk:quantFactor:].cold.1
+- -[VCPCNNData readFromDisk:quantFactor:].cold.2
+- -[VCPCNNData readFromDisk:quantFactor:].cold.3
+- -[VCPCNNData readFromDisk:quantFactor:].cold.4
+- -[VCPCNNDataGPU allocBuffers:].cold.1
+- -[VCPCNNDataGPU allocBuffers:].cold.2
+- -[VCPCNNDataGPU bufferAllocGPU].cold.1
+- -[VCPCNNDataGPU bufferAllocGPU].cold.2
+- -[VCPCNNDataGPU bufferAllocGPU].cold.3
+- -[VCPCNNDataGPU convertCPUData2GPU].cold.1
+- -[VCPCNNDataGPU convertCPUData2GPU].cold.2
+- -[VCPCNNDataGPU convertCPUData2GPU].cold.3
+- -[VCPCNNDataGPU convertCPUData2GPU].cold.4
+- -[VCPCNNDataGPU convertGPUData2CPU].cold.1
+- -[VCPCNNDataGPU convertGPUData2CPU].cold.2
+- -[VCPCNNDataGPU convertGPUData2CPU].cold.3
+- -[VCPCNNDataGPU convertGPUData2CPU].cold.4
+- -[VCPCNNFaceLandmarkDetector analyzeFrame:withFaceBounds:].cold.3
+- -[VCPCNNFaceLandmarkDetector analyzeFrame:withFaceBounds:].cold.4
+- -[VCPCNNFaceLandmarkDetector analyzeFrame:withFaceBounds:].cold.5
+- -[VCPCNNFaceLandmarkDetectorEspresso computeLandmarks:].cold.1
+- -[VCPCNNFaceLandmarkDetectorEspresso init].cold.1
+- -[VCPCNNFaceLandmarkDetectorEspresso init].cold.2
+- -[VCPCNNFaceLandmarkDetectorEspresso init].cold.3
+- -[VCPCNNFaceLandmarkDetectorMPS computeLandmarks:].cold.1
+- -[VCPCNNFaceLandmarkDetectorMPS computeLandmarks:].cold.2
+- -[VCPCNNFaceLandmarkDetectorMPS init].cold.1
+- -[VCPCNNFaceLandmarkDetectorMPS init].cold.10
+- -[VCPCNNFaceLandmarkDetectorMPS init].cold.11
+- -[VCPCNNFaceLandmarkDetectorMPS init].cold.12
+- -[VCPCNNFaceLandmarkDetectorMPS init].cold.2
+- -[VCPCNNFaceLandmarkDetectorMPS init].cold.3
+- -[VCPCNNFaceLandmarkDetectorMPS init].cold.4
+- -[VCPCNNFaceLandmarkDetectorMPS init].cold.5
+- -[VCPCNNFaceLandmarkDetectorMPS init].cold.6
+- -[VCPCNNFaceLandmarkDetectorMPS init].cold.7
+- -[VCPCNNFaceLandmarkDetectorMPS init].cold.8
+- -[VCPCNNFaceLandmarkDetectorMPS init].cold.9
+- -[VCPCNNFastGestureRecognition createInput:keypoints:].cold.1
+- -[VCPCNNFastGestureRecognition gestureDetection:score:].cold.1
+- -[VCPCNNFastGestureRecognition gestureDetection:score:].cold.2
+- -[VCPCNNFastGestureRecognition getDetectionScore:].cold.1
+- -[VCPCNNFastGestureRecognition init].cold.1
+- -[VCPCNNFastGestureRecognition init].cold.2
+- -[VCPCNNFastGestureRecognition init].cold.3
+- -[VCPCNNFastGestureRecognition init].cold.4
+- -[VCPCNNFlattenBlock constructBlock:context:].cold.1
+- -[VCPCNNFlattenBlock constructBlock:context:].cold.2
+- -[VCPCNNFlattenBlock constructBlock:context:].cold.3
+- -[VCPCNNFullConnectionBlock constructBlock:context:].cold.1
+- -[VCPCNNFullConnectionBlock constructBlock:context:].cold.2
+- -[VCPCNNFullConnectionBlock readFromDisk:quantFactor:].cold.1
+- -[VCPCNNFullConnectionBlock readFromDisk:quantFactor:].cold.2
+- -[VCPCNNFullConnectionBlock readFromDisk:quantFactor:].cold.3
+- -[VCPCNNFullConnectionBlock readFromDisk:quantFactor:].cold.4
+- -[VCPCNNFullConnectionBlock readWeightsBias:weights:bias:inputDim:outputDim:quantFactor:].cold.1
+- -[VCPCNNFullConnectionBlock readWeightsBias:weights:bias:inputDim:outputDim:quantFactor:].cold.2
+- -[VCPCNNFullConnectionBlock readWeightsBias:weights:bias:inputDim:outputDim:quantFactor:].cold.3
+- -[VCPCNNFullConnectionBlock readWeightsBias:weights:bias:inputDim:outputDim:quantFactor:].cold.4
+- -[VCPCNNFullConnectionBlock readWeightsBias:weights:bias:inputDim:outputDim:quantFactor:].cold.5
+- -[VCPCNNFullConnectionBlockGPU forward].cold.1
+- -[VCPCNNFullConnectionBlockGPU forward].cold.2
+- -[VCPCNNFullConnectionBlockGPU loadWeights:inputDim:outputDim:quantFactor:].cold.1
+- -[VCPCNNFullConnectionBlockGPU loadWeights:inputDim:outputDim:quantFactor:].cold.2
+- -[VCPCNNFullConnectionBlockGPU loadWeights:inputDim:outputDim:quantFactor:].cold.3
+- -[VCPCNNFullConnectionBlockGPU loadWeights:inputDim:outputDim:quantFactor:].cold.4
+- -[VCPCNNFullConnectionBlockGPU loadWeights:inputDim:outputDim:quantFactor:].cold.5
+- -[VCPCNNFullConnectionBlockGPU setupMPS].cold.1
+- -[VCPCNNFullConnectionBlockGPU setupMPS].cold.2
+- -[VCPCNNFullConnectionBlockGPU setupMPS].cold.3
+- -[VCPCNNFullConnectionBlockScalar loadWeights:inputDim:outputDim:quantFactor:].cold.1
+- -[VCPCNNGazeAnalysis copyImage:toData:].cold.4
+- -[VCPCNNGazeAnalysis copyImage:toData:].cold.5
+- -[VCPCNNGazeAnalysis copyImage:toData:].cold.6
+- -[VCPCNNGazeAnalysis createInput:withBuffer:cnnInputHeight:cnnInputWidth:faceBounds:].cold.1
+- -[VCPCNNGazeAnalysis createInput:withBuffer:cnnInputHeight:cnnInputWidth:faceBounds:].cold.2
+- -[VCPCNNGazeAnalysis createInput:withBuffer:cnnInputHeight:cnnInputWidth:faceBounds:].cold.3
+- -[VCPCNNGazeAnalysis detectEyeOpennessForFace:inBuffer:eyeOpenness:].cold.1
+- -[VCPCNNGazeAnalysis detectEyeOpennessForFace:inBuffer:eyeOpenness:].cold.2
+- -[VCPCNNGazeAnalysis detectEyeOpennessForFace:inBuffer:eyeOpenness:].cold.3
+- -[VCPCNNGazeAnalysis init].cold.1
+- -[VCPCNNGazeAnalysis init].cold.2
+- -[VCPCNNGazeAnalysis init].cold.3
+- -[VCPCNNHandKeypointsDetector copyImage:toData:].cold.4
+- -[VCPCNNHandKeypointsDetector copyImage:toData:].cold.5
+- -[VCPCNNHandKeypointsDetector createInput:withBuffer:cnnInputHeight:cnnInputWidth:box:].cold.1
+- -[VCPCNNHandKeypointsDetector createInput:withBuffer:cnnInputHeight:cnnInputWidth:box:].cold.2
+- -[VCPCNNHandKeypointsDetector createInput:withBuffer:cnnInputHeight:cnnInputWidth:box:].cold.3
+- -[VCPCNNHandKeypointsDetector cvtHeatmaps2Keypoints:outHeight:outWidth:inHeight:inWidth:outChannel:keypoints:keypointConfidence:offset:].cold.1
+- -[VCPCNNHandKeypointsDetector cvtHeatmaps2Keypoints:outHeight:outWidth:inHeight:inWidth:outChannel:keypoints:keypointConfidence:offset:].cold.2
+- -[VCPCNNHandKeypointsDetector handKeypointsDetection:box:keypoints:keypointConfidence:handHoldsObjectConfidence:].cold.1
+- -[VCPCNNHandKeypointsDetector handKeypointsDetection:box:keypoints:keypointConfidence:handHoldsObjectConfidence:].cold.2
+- -[VCPCNNHandKeypointsDetectorEspresso generateHandKeypoints:keypointConfidence:offset:handHoldsObjectConfidence:].cold.1
+- -[VCPCNNHandKeypointsDetectorEspresso generateHandKeypoints:keypointConfidence:offset:handHoldsObjectConfidence:].cold.2
+- -[VCPCNNHandKeypointsDetectorEspresso init:sharedModel:modelName:enableHandObject:options:].cold.1
+- -[VCPCNNHandKeypointsDetectorEspresso init:sharedModel:modelName:enableHandObject:options:].cold.2
+- -[VCPCNNHandKeypointsDetectorEspresso init:sharedModel:modelName:enableHandObject:options:].cold.3
+- -[VCPCNNHandsDetector copyImage:toData:].cold.4
+- -[VCPCNNHandsDetector copyImage:toData:].cold.5
+- -[VCPCNNHandsDetector createInput:withBuffer:].cold.1
+- -[VCPCNNHandsDetector createInput:withBuffer:].cold.2
+- -[VCPCNNHandsDetector createInput:withBuffer:].cold.3
+- -[VCPCNNHandsDetector createModelWithResConfig:].cold.1
+- -[VCPCNNHandsDetector createModelWithResConfig:].cold.2
+- -[VCPCNNHandsDetector generateHandsBoxes:].cold.1
+- -[VCPCNNHandsDetector generateHandsBoxes:].cold.2
+- -[VCPCNNHandsDetector handsDetection:handsRegions:cancel:].cold.1
+- -[VCPCNNHandsDetector handsDetection:handsRegions:cancel:].cold.2
+- -[VCPCNNHandsDetector handsDetection:handsRegions:cancel:].cold.3
+- -[VCPCNNHandsDetector handsDetection:handsRegions:cancel:].cold.4
+- -[VCPCNNHandsDetector initWithMaxNumRegions:forceCPU:sharedModel:inputConfig:revision:].cold.1
+- -[VCPCNNHandsDetector initWithMaxNumRegions:forceCPU:sharedModel:inputConfig:revision:].cold.2
+- -[VCPCNNHandsDetector initWithMaxNumRegions:forceCPU:sharedModel:inputConfig:revision:].cold.3
+- -[VCPCNNHandsDetector updateModelWithResConfig:].cold.1
+- -[VCPCNNHandsDetector updateModelWithResConfig:].cold.2
+- -[VCPCNNModel add:].cold.1
+- -[VCPCNNModel dynamicForward:paramFileUrl:cancel:].cold.1
+- -[VCPCNNModel dynamicForward:paramFileUrl:cancel:].cold.10
+- -[VCPCNNModel dynamicForward:paramFileUrl:cancel:].cold.11
+- -[VCPCNNModel dynamicForward:paramFileUrl:cancel:].cold.2
+- -[VCPCNNModel dynamicForward:paramFileUrl:cancel:].cold.3
+- -[VCPCNNModel dynamicForward:paramFileUrl:cancel:].cold.4
+- -[VCPCNNModel dynamicForward:paramFileUrl:cancel:].cold.5
+- -[VCPCNNModel dynamicForward:paramFileUrl:cancel:].cold.6
+- -[VCPCNNModel dynamicForward:paramFileUrl:cancel:].cold.7
+- -[VCPCNNModel dynamicForward:paramFileUrl:cancel:].cold.8
+- -[VCPCNNModel dynamicForward:paramFileUrl:cancel:].cold.9
+- -[VCPCNNModel forward:].cold.1
+- -[VCPCNNModel forward:].cold.2
+- -[VCPCNNModel forward:].cold.3
+- -[VCPCNNModel forward:].cold.4
+- -[VCPCNNModel forward:].cold.5
+- -[VCPCNNModel prepareNetworkFromURL:withInputSize:].cold.1
+- -[VCPCNNModel prepareNetworkFromURL:withInputSize:].cold.2
+- -[VCPCNNModel prepareNetworkFromURL:withInputSize:].cold.3
+- -[VCPCNNModel prepareNetworkFromURL:withInputSize:].cold.4
+- -[VCPCNNModel prepareNetworkFromURL:withInputSize:].cold.5
+- -[VCPCNNModelEspresso espressoForward:].cold.1
+- -[VCPCNNModelEspresso espressoForward:].cold.2
+- -[VCPCNNModelEspresso espressoForwardInputs:].cold.1
+- -[VCPCNNModelEspresso espressoForwardInputs:].cold.2
+- -[VCPCNNModelEspresso initWithParameters:inputNames:outputNames:properties:].cold.1
+- -[VCPCNNModelEspresso initWithParameters:inputNames:outputNames:properties:].cold.2
+- -[VCPCNNModelEspresso initWithParameters:inputNames:outputNames:properties:].cold.3
+- -[VCPCNNModelEspresso prepareModelInput:].cold.1
+- -[VCPCNNModelEspresso prepareModelInputs:].cold.1
+- -[VCPCNNModelEspresso prepareModelWithConfig:].cold.1
+- -[VCPCNNModelEspresso prepareModelWithConfig:].cold.10
+- -[VCPCNNModelEspresso prepareModelWithConfig:].cold.2
+- -[VCPCNNModelEspresso prepareModelWithConfig:].cold.3
+- -[VCPCNNModelEspresso prepareModelWithConfig:].cold.4
+- -[VCPCNNModelEspresso prepareModelWithConfig:].cold.5
+- -[VCPCNNModelEspresso prepareModelWithConfig:].cold.6
+- -[VCPCNNModelEspresso prepareModelWithConfig:].cold.7
+- -[VCPCNNModelEspresso prepareModelWithConfig:].cold.8
+- -[VCPCNNModelEspresso prepareModelWithConfig:].cold.9
+- -[VCPCNNModelEspresso softmax].cold.1
+- -[VCPCNNModelEspressoV2 espressoForward:].cold.1
+- -[VCPCNNModelEspressoV2 espressoForward:].cold.2
+- -[VCPCNNModelEspressoV2 espressoForwardInputs:].cold.1
+- -[VCPCNNModelEspressoV2 espressoForwardInputs:].cold.2
+- -[VCPCNNModelEspressoV2 getOutputs].cold.1
+- -[VCPCNNModelEspressoV2 initWithParameters:outputNames:inputNames:functionName:precompiled:].cold.1
+- -[VCPCNNModelEspressoV2 initWithParameters:outputNames:inputNames:functionName:precompiled:].cold.2
+- -[VCPCNNPersonDetector copyImage:toData:].cold.4
+- -[VCPCNNPersonDetector copyImage:toData:].cold.5
+- -[VCPCNNPersonDetector copyImage:toData:].cold.6
+- -[VCPCNNPersonDetector createInput:withBuffer:inputHeight:inputWidth:].cold.1
+- -[VCPCNNPersonDetector createInput:withBuffer:inputHeight:inputWidth:].cold.2
+- -[VCPCNNPersonDetector createInput:withBuffer:inputHeight:inputWidth:].cold.3
+- -[VCPCNNPersonDetector generatePersonBoxes:].cold.1
+- -[VCPCNNPersonDetector generatePersonBoxes:].cold.2
+- -[VCPCNNPersonDetector initWithMaxNumRegions:forceCPU:sharedModel:inputConfig:].cold.1
+- -[VCPCNNPersonDetector initWithMaxNumRegions:forceCPU:sharedModel:inputConfig:].cold.2
+- -[VCPCNNPersonDetector initWithMaxNumRegions:forceCPU:sharedModel:inputConfig:].cold.3
+- -[VCPCNNPersonDetector initWithMaxNumRegions:forceCPU:sharedModel:inputConfig:].cold.4
+- -[VCPCNNPersonDetector personDetection:personRegions:cancel:].cold.1
+- -[VCPCNNPersonDetector personDetection:personRegions:cancel:].cold.2
+- -[VCPCNNPersonKeypointsDetector analyzeFrame:withBox:keypoints:padX:padY:].cold.1
+- -[VCPCNNPersonKeypointsDetector analyzeFrame:withBox:keypoints:padX:padY:].cold.2
+- -[VCPCNNPersonKeypointsDetector analyzeFrame:withBox:keypoints:padX:padY:].cold.3
+- -[VCPCNNPersonKeypointsDetector copyImage:toData:cnnInputHeight:cnnInputWidth:].cold.4
+- -[VCPCNNPersonKeypointsDetector copyImage:toData:cnnInputHeight:cnnInputWidth:].cold.5
+- -[VCPCNNPersonKeypointsDetector copyImage:toData:cnnInputHeight:cnnInputWidth:].cold.6
+- -[VCPCNNPersonKeypointsDetector createInput:withBuffer:cnnInputHeight:cnnInputWidth:box:].cold.1
+- -[VCPCNNPersonKeypointsDetector createInput:withBuffer:cnnInputHeight:cnnInputWidth:box:].cold.2
+- -[VCPCNNPersonKeypointsDetector createInput:withBuffer:cnnInputHeight:cnnInputWidth:box:].cold.3
+- -[VCPCNNPersonKeypointsDetector initWithForceCPU:sharedModel:].cold.1
+- -[VCPCNNPersonKeypointsDetector initWithForceCPU:sharedModel:].cold.2
+- -[VCPCNNPersonKeypointsDetector initWithForceCPU:sharedModel:].cold.3
+- -[VCPCNNPersonKeypointsDetector parseKeypoints:].cold.1
+- -[VCPCNNPersonKeypointsDetector parseKeypoints:].cold.2
+- -[VCPCNNPetsDetector copyImage:toData:withChannels:].cold.3
+- -[VCPCNNPetsDetector copyImage:toData:withChannels:].cold.4
+- -[VCPCNNPetsDetector copyImage:toData:withChannels:].cold.5
+- -[VCPCNNPetsDetector createInput:withBuffer:cnnInputHeight:cnnInputWidth:].cold.1
+- -[VCPCNNPetsDetector createInput:withBuffer:cnnInputHeight:cnnInputWidth:].cold.2
+- -[VCPCNNPetsDetector createInput:withBuffer:cnnInputHeight:cnnInputWidth:].cold.3
+- -[VCPCNNPetsDetector petsDetection:petsRegions:petsFaceRegions:cancel:].cold.1
+- -[VCPCNNPetsDetector petsDetection:petsRegions:petsFaceRegions:cancel:].cold.2
+- -[VCPCNNPetsDetector petsDetection:petsRegions:petsFaceRegions:cancel:].cold.3
+- -[VCPCNNPetsDetectorEspresso createModel:srcWidth:].cold.1
+- -[VCPCNNPetsDetectorEspresso createModel:srcWidth:].cold.2
+- -[VCPCNNPetsDetectorEspresso generatePetsBoxes:faceBoxes:cancel:].cold.1
+- -[VCPCNNPetsDetectorEspresso generatePetsBoxes:faceBoxes:cancel:].cold.2
+- -[VCPCNNPetsDetectorEspresso generatePetsBoxes:faceBoxes:cancel:].cold.3
+- -[VCPCNNPetsDetectorEspresso initWithMaxNumRegions:].cold.1
+- -[VCPCNNPetsDetectorV2 copyImage:toData:].cold.4
+- -[VCPCNNPetsDetectorV2 copyImage:toData:].cold.5
+- -[VCPCNNPetsDetectorV2 createInput:withBuffer:cnnInputHeight:cnnInputWidth:].cold.1
+- -[VCPCNNPetsDetectorV2 createInput:withBuffer:cnnInputHeight:cnnInputWidth:].cold.2
+- -[VCPCNNPetsDetectorV2 createInput:withBuffer:cnnInputHeight:cnnInputWidth:].cold.3
+- -[VCPCNNPetsDetectorV2 createModel:srcWidth:].cold.1
+- -[VCPCNNPetsDetectorV2 createModel:srcWidth:].cold.2
+- -[VCPCNNPetsDetectorV2 createModel:srcWidth:].cold.3
+- -[VCPCNNPetsDetectorV2 generatePetsBoxes:].cold.1
+- -[VCPCNNPetsDetectorV2 generatePetsBoxes:].cold.2
+- -[VCPCNNPetsDetectorV2 initWithMaxNumRegions:forceCPU:sharedModel:revision:].cold.1
+- -[VCPCNNPetsDetectorV2 petsDetection:petsRegions:petsFaceRegions:cancel:].cold.1
+- -[VCPCNNPetsDetectorV2 petsDetection:petsRegions:petsFaceRegions:cancel:].cold.2
+- -[VCPCNNPetsDetectorV2 petsDetection:petsRegions:petsFaceRegions:cancel:].cold.3
+- -[VCPCNNPetsDetectorV2 petsDetection:petsRegions:petsFaceRegions:cancel:].cold.4
+- -[VCPCNNPetsKeypointsDetector analyzeFrame:withBox:keypoints:].cold.1
+- -[VCPCNNPetsKeypointsDetector analyzeFrame:withBox:keypoints:].cold.2
+- -[VCPCNNPetsKeypointsDetector analyzeFrame:withBox:keypoints:].cold.3
+- -[VCPCNNPetsKeypointsDetector copyImage:toData:].cold.4
+- -[VCPCNNPetsKeypointsDetector copyImage:toData:].cold.5
+- -[VCPCNNPetsKeypointsDetector copyImage:toData:].cold.6
+- -[VCPCNNPetsKeypointsDetector createInput:withBuffer:cnnInputHeight:cnnInputWidth:box:].cold.1
+- -[VCPCNNPetsKeypointsDetector createInput:withBuffer:cnnInputHeight:cnnInputWidth:box:].cold.2
+- -[VCPCNNPetsKeypointsDetector createInput:withBuffer:cnnInputHeight:cnnInputWidth:box:].cold.3
+- -[VCPCNNPetsKeypointsDetector initWithForceCPU:sharedModel:].cold.1
+- -[VCPCNNPetsKeypointsDetector initWithForceCPU:sharedModel:].cold.2
+- -[VCPCNNPetsKeypointsDetector initWithForceCPU:sharedModel:].cold.3
+- -[VCPCNNPoolingBlock constructBlock:context:].cold.1
+- -[VCPCNNPoolingBlock constructBlock:context:].cold.2
+- -[VCPCNNPoolingBlockGPU forward].cold.1
+- -[VCPCNNPoolingBlockGPU forward].cold.2
+- -[VCPCNNPoolingBlockVector forward].cold.1
+- -[VCPCNNPoseEstimator detectPoseForFace:inBuffer:yaw:].cold.4
+- -[VCPCNNPoseEstimator detectPoseForFace:inBuffer:yaw:].cold.5
+- -[VCPCNNPoseEstimatorEspresso computePoseScore:].cold.1
+- -[VCPCNNPoseEstimatorEspresso computePoseScore:].cold.2
+- -[VCPCNNPoseEstimatorEspresso init].cold.1
+- -[VCPCNNPoseEstimatorEspresso init].cold.2
+- -[VCPCNNPoseEstimatorEspresso init].cold.3
+- -[VCPCNNPoseEstimatorMPS computePoseScore:].cold.1
+- -[VCPCNNPoseEstimatorMPS computePoseScore:].cold.2
+- -[VCPCNNPoseEstimatorMPS computePoseScore:].cold.3
+- -[VCPCNNPoseEstimatorMPS init].cold.1
+- -[VCPCNNPoseEstimatorMPS init].cold.10
+- -[VCPCNNPoseEstimatorMPS init].cold.11
+- -[VCPCNNPoseEstimatorMPS init].cold.12
+- -[VCPCNNPoseEstimatorMPS init].cold.2
+- -[VCPCNNPoseEstimatorMPS init].cold.3
+- -[VCPCNNPoseEstimatorMPS init].cold.4
+- -[VCPCNNPoseEstimatorMPS init].cold.5
+- -[VCPCNNPoseEstimatorMPS init].cold.6
+- -[VCPCNNPoseEstimatorMPS init].cold.7
+- -[VCPCNNPoseEstimatorMPS init].cold.8
+- -[VCPCNNPoseEstimatorMPS init].cold.9
+- -[VCPCNNSmileDetector detectSmileForFace:inBuffer:smile:].cold.4
+- -[VCPCNNSmileDetector detectSmileForFace:inBuffer:smile:].cold.5
+- -[VCPCNNSmileDetector detectSmileForFace:inBuffer:smile:].cold.6
+- -[VCPCNNSmileDetectorEspresso computeSmileScore:].cold.1
+- -[VCPCNNSmileDetectorEspresso computeSmileScore:].cold.2
+- -[VCPCNNSmileDetectorEspresso init].cold.1
+- -[VCPCNNSmileDetectorEspresso init].cold.2
+- -[VCPCNNSmileDetectorEspresso init].cold.3
+- -[VCPCNNSmileDetectorMPS computeSmileScore:].cold.1
+- -[VCPCNNSmileDetectorMPS computeSmileScore:].cold.2
+- -[VCPCNNSmileDetectorMPS init].cold.1
+- -[VCPCNNSmileDetectorMPS init].cold.10
+- -[VCPCNNSmileDetectorMPS init].cold.11
+- -[VCPCNNSmileDetectorMPS init].cold.12
+- -[VCPCNNSmileDetectorMPS init].cold.2
+- -[VCPCNNSmileDetectorMPS init].cold.3
+- -[VCPCNNSmileDetectorMPS init].cold.4
+- -[VCPCNNSmileDetectorMPS init].cold.5
+- -[VCPCNNSmileDetectorMPS init].cold.6
+- -[VCPCNNSmileDetectorMPS init].cold.7
+- -[VCPCNNSmileDetectorMPS init].cold.8
+- -[VCPCNNSmileDetectorMPS init].cold.9
+- -[VCPCNNVisionCoreDetector downscaleBuffer:scaledImage:].cold.1
+- -[VCPCNNVisionCoreDetector downscaleBuffer:scaledImage:].cold.2
+- -[VCPCNNVisionCoreDetector initWithOptions:].cold.1
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:completion:].cold.1
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.1
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.10
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.11
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.12
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.13
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.14
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.15
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.16
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.17
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.2
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.3
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.4
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.5
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.6
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.7
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.8
+- -[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:].cold.9
+- -[VCPCaptureAnalysisSession analyzeSampleBuffer:].cold.1
+- -[VCPCaptureAnalysisSession analyzeSampleBuffer:].cold.2
+- -[VCPCaptureAnalysisSession finalizeAnalysis].cold.1
+- -[VCPCaptureAnalysisSession finalizeAnalysis].cold.2
+- -[VCPCaptureAnalysisSession initWithAnalysisTypes:withPreferredTransform:withFocalLengthInPixels:withAnalysisQueue:withTurbo:].cold.1
+- -[VCPCaptureAnalysisSession initWithAnalysisTypes:withPreferredTransform:withFocalLengthInPixels:withAnalysisQueue:withTurbo:].cold.10
+- -[VCPCaptureAnalysisSession initWithAnalysisTypes:withPreferredTransform:withFocalLengthInPixels:withAnalysisQueue:withTurbo:].cold.2
+- -[VCPCaptureAnalysisSession initWithAnalysisTypes:withPreferredTransform:withFocalLengthInPixels:withAnalysisQueue:withTurbo:].cold.3
+- -[VCPCaptureAnalysisSession initWithAnalysisTypes:withPreferredTransform:withFocalLengthInPixels:withAnalysisQueue:withTurbo:].cold.4
+- -[VCPCaptureAnalysisSession initWithAnalysisTypes:withPreferredTransform:withFocalLengthInPixels:withAnalysisQueue:withTurbo:].cold.5
+- -[VCPCaptureAnalysisSession initWithAnalysisTypes:withPreferredTransform:withFocalLengthInPixels:withAnalysisQueue:withTurbo:].cold.6
+- -[VCPCaptureAnalysisSession initWithAnalysisTypes:withPreferredTransform:withFocalLengthInPixels:withAnalysisQueue:withTurbo:].cold.7
+- -[VCPCaptureAnalysisSession initWithAnalysisTypes:withPreferredTransform:withFocalLengthInPixels:withAnalysisQueue:withTurbo:].cold.8
+- -[VCPCaptureAnalysisSession initWithAnalysisTypes:withPreferredTransform:withFocalLengthInPixels:withAnalysisQueue:withTurbo:].cold.9
+- -[VCPCaptureAnalysisSession prewarmWithProperties:].cold.1
+- -[VCPCaptureAnalysisSession updatePreferredTransform:properties:].cold.1
+- -[VCPCaptureAnalysisSession updatePreferredTransform:properties:].cold.2
+- -[VCPColorNormalizationAnalyzer analyzeCGImage:results:].cold.1
+- -[VCPColorNormalizationAnalyzer analyzeCGImage:results:].cold.2
+- -[VCPContentAnalysis blockContentDetection:].cold.3
+- -[VCPContentAnalysis blockContentDetection:].cold.4
+- -[VCPContentAnalysis blockContentDetection:].cold.5
+- -[VCPContentAnalysis blockContentDetection:].cold.6
+- -[VCPContentAnalysis detectPixelBuffer:contentType:].cold.1
+- -[VCPContentAnalysis detectPixelBuffer:contentType:].cold.2
+- -[VCPContentAnalysis detectPixelBuffer:contentType:].cold.3
+- -[VCPContentAnalysis detectPixelBuffer:contentType:].cold.4
+- -[VCPContentAnalysis detectPixelBuffer:contentType:].cold.5
+- -[VCPContentAnalysis init].cold.1
+- -[VCPContentAnalysis init].cold.10
+- -[VCPContentAnalysis init].cold.11
+- -[VCPContentAnalysis init].cold.12
+- -[VCPContentAnalysis init].cold.2
+- -[VCPContentAnalysis init].cold.3
+- -[VCPContentAnalysis init].cold.4
+- -[VCPContentAnalysis init].cold.5
+- -[VCPContentAnalysis init].cold.6
+- -[VCPContentAnalysis init].cold.7
+- -[VCPContentAnalysis init].cold.8
+- -[VCPContentAnalysis init].cold.9
+- -[VCPCoreMLFeatureProviderGestureVideo featureValueForName:].cold.1
+- -[VCPCorrelation configureGPU].cold.1
+- -[VCPCorrelation configureGPU].cold.2
+- -[VCPCorrelation encodeToCommandBuffer:firstInput:secondInput:correlation:].cold.1
+- -[VCPCorrelation encodeToCommandBuffer:firstInput:secondInput:correlation:].cold.2
+- -[VCPCorrelation initWithDevice:].cold.1
+- -[VCPDatabaseReader _queryValue:forKey:].cold.1
+- -[VCPDatabaseReader _queryValue:forKey:].cold.2
+- -[VCPDatabaseReader _queryValue:forKey:].cold.3
+- -[VCPDatabaseReader countAssetsForTaskID:totalAssets:processedAssets:].cold.1
+- -[VCPDatabaseReader countAssetsForTaskID:totalAssets:processedAssets:].cold.2
+- -[VCPDatabaseReader parseResults:typeColumn:dataColumn:results:].cold.1
+- -[VCPDatabaseReader queryHeaderForAsset:analysis:assetId:].cold.1
+- -[VCPDatabaseReader queryHeaderForAsset:analysis:assetId:].cold.2
+- -[VCPDatabaseReader queryHeaderForAsset:analysis:assetId:].cold.3
+- -[VCPDatabaseReader queryHeadersForAssets:statsFlags:analyses:idMap:].cold.1
+- -[VCPDatabaseReader queryHeadersForAssets:statsFlags:analyses:idMap:].cold.2
+- -[VCPDatabaseReader queryHeadersForAssets:statsFlags:analyses:idMap:].cold.3
+- -[VCPDatabaseReader queryHeadersForAssets:statsFlags:analyses:idMap:].cold.4
+- -[VCPDatabaseReader queryResultsForAssetId:analysis:].cold.1
+- -[VCPDatabaseReader queryResultsForAssetId:analysis:].cold.2
+- -[VCPDatabaseReader queryResultsForAssetId:analysis:].cold.3
+- -[VCPDatabaseReader queryResultsForAssetId:analysis:].cold.4
+- -[VCPDatabaseReader queryResultsForAssetId:withTypes:analysis:].cold.1
+- -[VCPDatabaseReader queryResultsForAssetId:withTypes:analysis:].cold.2
+- -[VCPDatabaseReader queryResultsForAssetId:withTypes:analysis:].cold.3
+- -[VCPDatabaseReader queryResultsForAssetId:withTypes:analysis:].cold.4
+- -[VCPDatabaseReader queryResultsForAssetId:withTypes:analysis:].cold.5
+- -[VCPDatabaseReader queryResultsForAssets:withTypes:batchResults:].cold.1
+- -[VCPDatabaseReader queryResultsForAssets:withTypes:batchResults:].cold.2
+- -[VCPDatabaseReader queryResultsForAssets:withTypes:batchResults:].cold.3
+- -[VCPDatabaseReader queryResultsForAssets:withTypes:batchResults:].cold.4
+- -[VCPDatabaseReader queryResultsForAssets:withTypes:batchResults:].cold.5
+- -[VCPDatabaseReader queryResultsForAssets:withTypes:batchResults:].cold.6
+- -[VCPDownloadManager requestDownloadOfResource:].cold.1
+- -[VCPDownloadManager requestDownloadOfResource:].cold.2
+- -[VCPDownloadManager requestDownloadOfResource:].cold.3
+- -[VCPDownloadManager requestDownloadOfResource:].cold.4
+- -[VCPDownloadManager requestDownloadOfResource:].cold.5
+- -[VCPEdgeDetector detectWithSigma:lowThreshold:highThreshold:].cold.1
+- -[VCPEdgeDetector detectWithSigma:lowThreshold:highThreshold:].cold.2
+- -[VCPEdgeDetector initWithImage:edgeMap:width:height:widthExtension:heightExtension:].cold.1
+- -[VCPEffectsAnalyzer analyzeAsset:onDemand:cancel:statsFlags:results:].cold.1
+- -[VCPEffectsAnalyzer analyzeAsset:onDemand:cancel:statsFlags:results:].cold.2
+- -[VCPEffectsAnalyzer analyzeAsset:onDemand:cancel:statsFlags:results:].cold.3
+- -[VCPEffectsAnalyzer generateStatsToBeCollectedFrom:].cold.1
+- -[VCPEffectsAnalyzer generateStatsToBeCollectedFrom:].cold.2
+- -[VCPEffectsAnalyzer performanSceneClassificationOfImageFileAtURL:].cold.1
+- -[VCPEffectsAnalyzer performanSceneClassificationOfImageFileAtURL:].cold.2
+- -[VCPEffectsAnalyzer performanSceneClassificationOfImageFileAtURL:].cold.3
+- -[VCPEmbeddingSummarizationAnalyzer findSummarizedEmbeddings:embeddingSize:isFP16:].cold.1
+- -[VCPEmbeddingSummarizationAnalyzer findSummarizedEmbeddings:embeddingSize:isFP16:].cold.2
+- -[VCPEmbeddingSummarizationAnalyzer findSummarizedEmbeddings:embeddingSize:isFP16:].cold.3
+- -[VCPEmbeddingSummarizationAnalyzer findSummarizedEmbeddings:embeddingSize:isFP16:].cold.4
+- -[VCPEmbeddingSummarizationAnalyzer findSummarizedEmbeddings:embeddingSize:isFP16:].cold.5
+- -[VCPEmbeddingSummarizationAnalyzer findSummarizedEmbeddings:embeddingSize:isFP16:].cold.6
+- -[VCPEspressoV2Data initWithTensorType:size:].cold.1
+- -[VCPExifAnalyzer addFaceResults:flags:].cold.1
+- -[VCPExifAnalyzer addFaceResults:flags:].cold.2
+- -[VCPExifAnalyzer analyzeAsset:results:].cold.1
+- -[VCPExifAnalyzer analyzeAsset:results:].cold.2
+- -[VCPExifAnalyzer initWithProperties:forAnalysisTypes:].cold.1
+- -[VCPFaceAnalyzer _createBlurRequests:andExposureRequests:forFaceObservations:].cold.1
+- -[VCPFaceAnalyzer _createBlurRequests:andExposureRequests:forFaceObservations:].cold.2
+- -[VCPFaceAnalyzer _performAnalysis:withRequestHandler:quickMode:sourceWidth:sourceHeight:].cold.1
+- -[VCPFaceAnalyzer _performAnalysis:withRequestHandler:quickMode:sourceWidth:sourceHeight:].cold.10
+- -[VCPFaceAnalyzer _performAnalysis:withRequestHandler:quickMode:sourceWidth:sourceHeight:].cold.11
+- -[VCPFaceAnalyzer _performAnalysis:withRequestHandler:quickMode:sourceWidth:sourceHeight:].cold.2
+- -[VCPFaceAnalyzer _performAnalysis:withRequestHandler:quickMode:sourceWidth:sourceHeight:].cold.3
+- -[VCPFaceAnalyzer _performAnalysis:withRequestHandler:quickMode:sourceWidth:sourceHeight:].cold.4
+- -[VCPFaceAnalyzer _performAnalysis:withRequestHandler:quickMode:sourceWidth:sourceHeight:].cold.5
+- -[VCPFaceAnalyzer _performAnalysis:withRequestHandler:quickMode:sourceWidth:sourceHeight:].cold.6
+- -[VCPFaceAnalyzer _performAnalysis:withRequestHandler:quickMode:sourceWidth:sourceHeight:].cold.7
+- -[VCPFaceAnalyzer _performAnalysis:withRequestHandler:quickMode:sourceWidth:sourceHeight:].cold.8
+- -[VCPFaceAnalyzer _performAnalysis:withRequestHandler:quickMode:sourceWidth:sourceHeight:].cold.9
+- -[VCPFaceAnalyzer analyzeAsset:withResource:resourceURL:isBestResource:quickMode:results:].cold.1
+- -[VCPFaceAnalyzer analyzeFaceQuality:withAsset:andCancelBlock:].cold.1
+- -[VCPFaceAnalyzer analyzeFaceQuality:withAsset:andCancelBlock:].cold.2
+- -[VCPFaceAnalyzer analyzeFaceQuality:withAsset:andCancelBlock:].cold.3
+- -[VCPFaceAnalyzer updateMissingFaceprintForFaces:withAsset:].cold.1
+- -[VCPFaceGeometry initWithVertices:vertexCount:].cold.1
+- -[VCPFaceProcessingVersionManager migrateFaceProcessingToVersion:].cold.1
+- -[VCPFaceProcessingVersionManager migrateFaceProcessingToVersion:].cold.2
+- -[VCPFaceShapeModel initWithMode:].cold.1
+- -[VCPFaceShapeModel setCameraIntrinsics:uc:vc:].cold.1
+- -[VCPFaceShapeModel setupModel:].cold.1
+- -[VCPFaceShapeModel setupModel:].cold.10
+- -[VCPFaceShapeModel setupModel:].cold.11
+- -[VCPFaceShapeModel setupModel:].cold.12
+- -[VCPFaceShapeModel setupModel:].cold.13
+- -[VCPFaceShapeModel setupModel:].cold.14
+- -[VCPFaceShapeModel setupModel:].cold.15
+- -[VCPFaceShapeModel setupModel:].cold.16
+- -[VCPFaceShapeModel setupModel:].cold.2
+- -[VCPFaceShapeModel setupModel:].cold.3
+- -[VCPFaceShapeModel setupModel:].cold.4
+- -[VCPFaceShapeModel setupModel:].cold.5
+- -[VCPFaceShapeModel setupModel:].cold.6
+- -[VCPFaceShapeModel setupModel:].cold.7
+- -[VCPFaceShapeModel setupModel:].cold.8
+- -[VCPFaceShapeModel setupModel:].cold.9
+- -[VCPFaceTensorModel initWithModelFile:].cold.1
+- -[VCPFaceTensorModel initWithModelFile:].cold.10
+- -[VCPFaceTensorModel initWithModelFile:].cold.11
+- -[VCPFaceTensorModel initWithModelFile:].cold.12
+- -[VCPFaceTensorModel initWithModelFile:].cold.13
+- -[VCPFaceTensorModel initWithModelFile:].cold.14
+- -[VCPFaceTensorModel initWithModelFile:].cold.15
+- -[VCPFaceTensorModel initWithModelFile:].cold.16
+- -[VCPFaceTensorModel initWithModelFile:].cold.2
+- -[VCPFaceTensorModel initWithModelFile:].cold.3
+- -[VCPFaceTensorModel initWithModelFile:].cold.4
+- -[VCPFaceTensorModel initWithModelFile:].cold.5
+- -[VCPFaceTensorModel initWithModelFile:].cold.6
+- -[VCPFaceTensorModel initWithModelFile:].cold.7
+- -[VCPFaceTensorModel initWithModelFile:].cold.8
+- -[VCPFaceTensorModel initWithModelFile:].cold.9
+- -[VCPFlowDecoder initModule:config:cancel:].cold.1
+- -[VCPFlowFeatureExtractor initModule:config:cancel:].cold.1
+- -[VCPFrameAnalysisStats init].cold.1
+- -[VCPFrameAnalysisStats init].cold.2
+- -[VCPFreeFormSearch loadEmbeddings:].cold.1
+- -[VCPFreeFormSearch loadEmbeddings:].cold.2
+- -[VCPFullAnalysisAssetProcessingTask analyzeOndemand:forAnalysisTypes:withExistingAnalysis:error:].cold.1
+- -[VCPFullAnalysisAssetProcessingTask analyzeOndemand:forAnalysisTypes:withExistingAnalysis:error:].cold.2
+- -[VCPFullAnalysisAssetProcessingTask main].cold.1
+- -[VCPFullAnalysisURLProcessingTask runWithCancelBlock:].cold.1
+- -[VCPFullAnalysisURLProcessingTask runWithCancelBlock:].cold.2
+- -[VCPFullAnalysisURLProcessingTask runWithCancelBlock:].cold.3
+- -[VCPFullAnalysisURLProcessingTask runWithCancelBlock:].cold.4
+- -[VCPFullAnalysisURLProcessingTask runWithCancelBlock:].cold.5
+- -[VCPFullAnalysisURLProcessingTask runWithCancelBlock:].cold.6
+- -[VCPFullVideoAnalyzer addResult:to:forKey:optional:].cold.1
+- -[VCPFullVideoAnalyzer addSceneAnalysisResult:to:clipRange:].cold.1
+- -[VCPFullVideoAnalyzer addSceneAnalysisResult:to:clipRange:].cold.2
+- -[VCPFullVideoAnalyzer addSceneAnalysisResult:to:optional:].cold.1
+- -[VCPFullVideoAnalyzer addSceneAnalysisResult:to:optional:].cold.2
+- -[VCPFullVideoAnalyzer analyzeFrame:timestamp:duration:properties:frameStats:flags:cancel:].cold.1
+- -[VCPFullVideoAnalyzer analyzeFrame:timestamp:duration:properties:frameStats:flags:cancel:].cold.2
+- -[VCPFullVideoAnalyzer analyzeFrame:timestamp:duration:properties:frameStats:flags:cancel:].cold.3
+- -[VCPFullVideoAnalyzer analyzeFrame:timestamp:duration:properties:frameStats:flags:cancel:].cold.4
+- -[VCPFullVideoAnalyzer analyzeFrame:timestamp:duration:properties:frameStats:flags:cancel:].cold.5
+- -[VCPFullVideoAnalyzer analyzeFrame:timestamp:duration:properties:frameStats:flags:cancel:].cold.6
+- -[VCPFullVideoAnalyzer analyzeFrame:timestamp:duration:properties:frameStats:flags:cancel:].cold.7
+- -[VCPFullVideoAnalyzer analyzeFrame:timestamp:duration:properties:frameStats:flags:cancel:].cold.8
+- -[VCPFullVideoAnalyzer analyzeFrame:timestamp:duration:properties:frameStats:flags:cancel:].cold.9
+- -[VCPFullVideoAnalyzer clipResults:].cold.1
+- -[VCPFullVideoAnalyzer clipResults:].cold.2
+- -[VCPFullVideoAnalyzer clipResults:].cold.3
+- -[VCPFullVideoAnalyzer clipResults:].cold.4
+- -[VCPFullVideoAnalyzer clipResults:].cold.5
+- -[VCPFullVideoAnalyzer finishAnalysisPass:].cold.1
+- -[VCPFullVideoAnalyzer finishAnalysisPass:].cold.2
+- -[VCPFullVideoAnalyzer finishAnalysisPass:].cold.3
+- -[VCPFullVideoAnalyzer finishAnalysisPass:].cold.4
+- -[VCPFullVideoAnalyzer finishAnalysisPass:].cold.5
+- -[VCPFullVideoAnalyzer finishAnalysisPass:].cold.6
+- -[VCPFullVideoAnalyzer finishAnalysisPass:].cold.7
+- -[VCPFullVideoAnalyzer initWithTransform:].cold.1
+- -[VCPFullVideoAnalyzer initWithTransform:].cold.2
+- -[VCPFullVideoAnalyzer initWithTransform:].cold.3
+- -[VCPFullVideoAnalyzer initWithTransform:].cold.4
+- -[VCPFullVideoAnalyzer initWithTransform:].cold.5
+- -[VCPFullVideoAnalyzer initWithVideoOrientation:preferredTransform:metaOrientation:privateResults:embeddings:isTimelapse:isIris:irisPhotoOffsetSec:irisPhotoExposureSec:slowMoRate:faceDominated:].cold.1
+- -[VCPFullVideoAnalyzer initWithVideoOrientation:preferredTransform:metaOrientation:privateResults:embeddings:isTimelapse:isIris:irisPhotoOffsetSec:irisPhotoExposureSec:slowMoRate:faceDominated:].cold.2
+- -[VCPFullVideoAnalyzer initWithVideoOrientation:preferredTransform:metaOrientation:privateResults:embeddings:isTimelapse:isIris:irisPhotoOffsetSec:irisPhotoExposureSec:slowMoRate:faceDominated:].cold.3
+- -[VCPFullVideoAnalyzer initWithVideoOrientation:preferredTransform:metaOrientation:privateResults:embeddings:isTimelapse:isIris:irisPhotoOffsetSec:irisPhotoExposureSec:slowMoRate:faceDominated:].cold.4
+- -[VCPFullVideoAnalyzer initWithVideoOrientation:preferredTransform:metaOrientation:privateResults:embeddings:isTimelapse:isIris:irisPhotoOffsetSec:irisPhotoExposureSec:slowMoRate:faceDominated:].cold.5
+- -[VCPFullVideoAnalyzer initWithVideoOrientation:preferredTransform:metaOrientation:privateResults:embeddings:isTimelapse:isIris:irisPhotoOffsetSec:irisPhotoExposureSec:slowMoRate:faceDominated:].cold.6
+- -[VCPFullVideoAnalyzer initWithVideoOrientation:preferredTransform:metaOrientation:privateResults:embeddings:isTimelapse:isIris:irisPhotoOffsetSec:irisPhotoExposureSec:slowMoRate:faceDominated:].cold.7
+- -[VCPFullVideoAnalyzer process:].cold.1
+- -[VCPFullVideoAnalyzer process:].cold.2
+- -[VCPFullVideoAnalyzer process:].cold.3
+- -[VCPFullVideoAnalyzer results].cold.1
+- -[VCPFullVideoAnalyzer results].cold.10
+- -[VCPFullVideoAnalyzer results].cold.11
+- -[VCPFullVideoAnalyzer results].cold.12
+- -[VCPFullVideoAnalyzer results].cold.13
+- -[VCPFullVideoAnalyzer results].cold.14
+- -[VCPFullVideoAnalyzer results].cold.2
+- -[VCPFullVideoAnalyzer results].cold.3
+- -[VCPFullVideoAnalyzer results].cold.4
+- -[VCPFullVideoAnalyzer results].cold.5
+- -[VCPFullVideoAnalyzer results].cold.6
+- -[VCPFullVideoAnalyzer results].cold.7
+- -[VCPFullVideoAnalyzer results].cold.8
+- -[VCPFullVideoAnalyzer results].cold.9
+- -[VCPFullVideoAnalyzer seedAnalyzersWithPixelBuffer:startTime:frameStats:].cold.1
+- -[VCPFullVideoAnalyzer seedAnalyzersWithPixelBuffer:startTime:frameStats:].cold.2
+- -[VCPFullVideoAnalyzer seedAnalyzersWithPixelBuffer:startTime:frameStats:].cold.3
+- -[VCPGaborFilter createGaborFilterKernel:sigmaX:sigmaY:lambda:thetaInDegree:phaseInDegree:].cold.1
+- -[VCPGaborFilter initWithNumberOfScales:numOfOrientations:width:height:].cold.1
+- -[VCPGaborFilter initWithNumberOfScales:numOfOrientations:width:height:].cold.2
+- -[VCPGaborFilter initWithNumberOfScales:numOfOrientations:width:height:].cold.3
+- -[VCPGaborFilter initWithNumberOfScales:numOfOrientations:width:height:].cold.4
+- -[VCPGaborFilter initWithNumberOfScales:numOfOrientations:width:height:].cold.5
+- -[VCPGaborFilter initWithNumberOfScales:numOfOrientations:width:height:].cold.6
+- -[VCPHandGestureClassifier initWithMinHandSize:options:].cold.1
+- -[VCPHandGestureClassifier processLeftHand:rightHand:results:resultsFlip:faceRects:faceYaws:].cold.1
+- -[VCPHandGestureClassifier processPerson:withObservations:andFaceRects:faceYaws:].cold.1
+- -[VCPHandGestureImageRequest initWithOptions:].cold.1
+- -[VCPHandGestureImageRequest initWithOptions:].cold.2
+- -[VCPHandGestureMitigator mitigate:rightHand:featureProvider:faceRects:faceYaws:].cold.1
+- -[VCPHandGestureMitigator mitigate:rightHand:featureProvider:faceRects:faceYaws:].cold.2
+- -[VCPHandGestureVideoRequest initWithOptions:].cold.1
+- -[VCPHandGestureVideoRequest initWithOptions:].cold.2
+- -[VCPHandGestureVideoRequest processBuffer:timestamp:withOptions:error:].cold.1
+- -[VCPHandGestureVideoRequest processBuffer:timestamp:withOptions:error:].cold.2
+- -[VCPHandPoseImageRequest parseResults:observations:].cold.1
+- -[VCPHandPoseImageRequest parseResults:observations:].cold.2
+- -[VCPHandPoseImageRequest processImage:withOptions:error:].cold.1
+- -[VCPHandPoseImageRequest processImage:withOptions:error:].cold.2
+- -[VCPHandPoseImageRequest processImage:withOptions:error:].cold.3
+- -[VCPHandPoseImageRequest updateWithOptions:error:].cold.1
+- -[VCPHandPoseVideoRequest associateHands:withExisingHands:].cold.1
+- -[VCPHandPoseVideoRequest associateHands:withExisingHands:].cold.2
+- -[VCPHandPoseVideoRequest associateHands:withExisingHands:].cold.3
+- -[VCPHandPoseVideoRequest processSampleBuffer:withOptions:error:].cold.1
+- -[VCPHandPoseVideoRequest processSampleBuffer:withOptions:error:].cold.2
+- -[VCPHandPoseVideoRequest processSampleBuffer:withOptions:error:].cold.3
+- -[VCPHandPoseVideoRequest processSampleBuffer:withOptions:error:].cold.4
+- -[VCPHandPoseVideoRequest processSampleBuffer:withOptions:error:].cold.5
+- -[VCPHandPoseVideoRequest processSampleBuffer:withOptions:error:].cold.6
+- -[VCPHomeKitMotionAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.1
+- -[VCPHomeKitMotionAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.2
+- -[VCPHomeKitMotionAnalyzer calculateFrameDifference:].cold.10
+- -[VCPHomeKitMotionAnalyzer calculateFrameDifference:].cold.11
+- -[VCPHomeKitMotionAnalyzer calculateFrameDifference:].cold.12
+- -[VCPHomeKitMotionAnalyzer calculateFrameDifference:].cold.5
+- -[VCPHomeKitMotionAnalyzer calculateFrameDifference:].cold.6
+- -[VCPHomeKitMotionAnalyzer calculateFrameDifference:].cold.7
+- -[VCPHomeKitMotionAnalyzer calculateFrameDifference:].cold.8
+- -[VCPHomeKitMotionAnalyzer calculateFrameDifference:].cold.9
+- -[VCPHomeKitMotionAnalyzer setPixelBuffer:].cold.1
+- -[VCPHoughTransform DetectLinesWithThreshold:output:].cold.1
+- -[VCPHoughTransform initWithEdgeMap:mapWidth:mapHeight:angleStep:].cold.1
+- -[VCPHumanPoseEspressoSession initWithOptions:].cold.1
+- -[VCPHumanPoseEspressoSession initWithOptions:].cold.2
+- -[VCPHumanPoseEspressoSession initWithOptions:].cold.3
+- -[VCPHumanPoseEspressoSession initWithOptions:].cold.4
+- -[VCPHumanPoseEspressoSession initWithOptions:].cold.5
+- -[VCPHumanPoseEspressoSession initWithOptions:].cold.6
+- -[VCPHumanPoseEspressoSession keypointsFromTensor:width:height:channels:withOptions:results:].cold.1
+- -[VCPHumanPoseEspressoSession keypointsFromTensor:width:height:channels:withOptions:results:].cold.2
+- -[VCPHumanPoseEspressoSession keypointsFromTensor:width:height:channels:withOptions:results:].cold.3
+- -[VCPHumanPoseEspressoSession keypointsFromTensor:width:height:channels:withOptions:results:].cold.4
+- -[VCPHumanPoseEspressoSession keypointsFromTensor:withOptions:results:].cold.1
+- -[VCPHumanPoseEspressoSession keypointsFromTensor:withOptions:results:].cold.2
+- -[VCPHumanPoseEspressoSession keypointsFromTensor:withOptions:results:].cold.3
+- -[VCPHumanPoseEspressoSession keypointsToObservation:].cold.1
+- -[VCPHumanPoseEspressoSession processFrame:withOptions:results:].cold.1
+- -[VCPHumanPoseEspressoSession processFrame:withOptions:results:].cold.2
+- -[VCPHumanPoseEspressoSession processFrame:withOptions:results:].cold.3
+- -[VCPHumanPoseEspressoSession processFrame:withOptions:results:].cold.4
+- -[VCPHumanPoseEspressoSession processFrame:withOptions:results:].cold.5
+- -[VCPHumanPoseEspressoSession requiredInputFormat:height:format:].cold.1
+- -[VCPHumanPoseImageRequest processImage:withOptions:error:].cold.1
+- -[VCPHumanPoseImageRequest processImage:withOptions:error:].cold.2
+- -[VCPHumanPoseImageRequest processImage:withOptions:error:].cold.3
+- -[VCPHumanPoseImageRequest processImage:withOptions:error:].cold.4
+- -[VCPHumanPoseImageRequest processImage:withOptions:error:].cold.5
+- -[VCPHumanPoseImageRequest updateWithOptions:error:].cold.1
+- -[VCPHumanPoseImageRequest updateWithOptions:error:].cold.2
+- -[VCPHumanPoseImageRequest updateWithOptions:error:].cold.3
+- -[VCPHumanPoseVideoRequest associatePersons:withExisingPersons:].cold.1
+- -[VCPHumanPoseVideoRequest associatePersons:withExisingPersons:].cold.2
+- -[VCPHumanPoseVideoRequest associatePersons:withExisingPersons:].cold.3
+- -[VCPHumanPoseVideoRequest processSampleBuffer:withOptions:error:].cold.1
+- -[VCPHumanPoseVideoRequest processSampleBuffer:withOptions:error:].cold.2
+- -[VCPHumanPoseVideoRequest processSampleBuffer:withOptions:error:].cold.3
+- -[VCPHumanPoseVideoRequest processSampleBuffer:withOptions:error:].cold.4
+- -[VCPHumanPoseVideoRequest processSampleBuffer:withOptions:error:].cold.5
+- -[VCPHumanPoseVideoRequest processSampleBuffer:withOptions:error:].cold.6
+- -[VCPImageAnalyzer analyzePixelBufferInTiles:results:cancel:].cold.1
+- -[VCPImageAnalyzer analyzePixelBufferInTiles:results:cancel:].cold.2
+- -[VCPImageAnalyzer analyzePixelBufferInTiles:results:cancel:].cold.3
+- -[VCPImageAnalyzer analyzePixelBufferInTiles:results:cancel:].cold.4
+- -[VCPImageAnalyzer analyzePixelBufferInTiles:results:cancel:].cold.5
+- -[VCPImageAnalyzer analyzePixelBufferInTiles:results:cancel:].cold.6
+- -[VCPImageAnalyzer analyzePixelBufferInTiles:results:cancel:].cold.7
+- -[VCPImageAnalyzer calculateTextureness:height:width:sdof:result:].cold.1
+- -[VCPImageBackboneAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.1
+- -[VCPImageBackboneAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.2
+- -[VCPImageBackboneAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.3
+- -[VCPImageBackboneAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.4
+- -[VCPImageBackboneAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.5
+- -[VCPImageBackboneAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.6
+- -[VCPImageBackboneAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.7
+- -[VCPImageBackboneAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.8
+- -[VCPImageBackboneAnalyzer computeBridgeEmbedding:forType:].cold.1
+- -[VCPImageBackboneAnalyzer computeBridgeEmbedding:forType:].cold.2
+- -[VCPImageBackboneAnalyzer computeBridgeEmbedding:forType:].cold.3
+- -[VCPImageBackboneAnalyzer computeBridgeEmbedding:forType:].cold.4
+- -[VCPImageBackboneAnalyzer computeBridgeEmbedding:forType:].cold.5
+- -[VCPImageBackboneAnalyzer configForAspectRatio:].cold.1
+- -[VCPImageBackboneAnalyzer configForAspectRatio:].cold.2
+- -[VCPImageBackboneAnalyzer initWithRequestedAnalyses:andRevision:useSharedModel:].cold.1
+- -[VCPImageBackboneAnalyzer initWithRequestedAnalyses:andRevision:useSharedModel:].cold.2
+- -[VCPImageBackboneAnalyzer prepareInput:withChannels:settling:].cold.2
+- -[VCPImageBackboneAnalyzer prepareInput:withChannels:settling:].cold.3
+- -[VCPImageBackboneAnalyzer prepareInput:withChannels:settling:].cold.4
+- -[VCPImageBackboneAnalyzer prepareInput:withChannels:settling:].cold.5
+- -[VCPImageBlurAnalyzer analyzePixelBuffer:flags:withPreAnalysisScore:results:cancel:].cold.1
+- -[VCPImageBlurAnalyzer analyzePixelBuffer:flags:withPreAnalysisScore:results:cancel:].cold.2
+- -[VCPImageBlurAnalyzer analyzePixelBuffer:flags:withPreAnalysisScore:results:cancel:].cold.3
+- -[VCPImageBlurAnalyzer analyzePixelBuffer:flags:withPreAnalysisScore:results:cancel:].cold.4
+- -[VCPImageBlurAnalyzer analyzePixelBuffer:flags:withPreAnalysisScore:results:cancel:].cold.5
+- -[VCPImageBlurAnalyzer computeCNNFaceSharpness:result:cancel:].cold.3
+- -[VCPImageBlurAnalyzer computeCNNFaceSharpness:result:cancel:].cold.4
+- -[VCPImageBlurAnalyzer computeLocalSharpness:].cold.4
+- -[VCPImageBlurAnalyzer computeLocalSharpness:].cold.5
+- -[VCPImageBlurAnalyzer initWithFaceResults:sdof:revision:].cold.1
+- -[VCPImageBlurAnalyzer prepareFaceBlurModel:].cold.1
+- -[VCPImageBlurAnalyzer prepareFaceBlurModel:].cold.10
+- -[VCPImageBlurAnalyzer prepareFaceBlurModel:].cold.11
+- -[VCPImageBlurAnalyzer prepareFaceBlurModel:].cold.2
+- -[VCPImageBlurAnalyzer prepareFaceBlurModel:].cold.3
+- -[VCPImageBlurAnalyzer prepareFaceBlurModel:].cold.4
+- -[VCPImageBlurAnalyzer prepareFaceBlurModel:].cold.5
+- -[VCPImageBlurAnalyzer prepareFaceBlurModel:].cold.6
+- -[VCPImageBlurAnalyzer prepareFaceBlurModel:].cold.7
+- -[VCPImageBlurAnalyzer prepareFaceBlurModel:].cold.8
+- -[VCPImageBlurAnalyzer prepareFaceBlurModel:].cold.9
+- -[VCPImageBlurAnalyzer scaleRegion:ofImage:toData:withWidth:andHeight:].cold.4
+- -[VCPImageBlurAnalyzer scaleRegion:ofImage:toData:withWidth:andHeight:].cold.5
+- -[VCPImageCaptionAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.1
+- -[VCPImageCompositionAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.1
+- -[VCPImageCompositionAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.2
+- -[VCPImageConverter convertImage:yuvFrame:].cold.4
+- -[VCPImageConverter convertImage:yuvFrame:].cold.5
+- -[VCPImageConverter convertImage:yuvFrame:].cold.6
+- -[VCPImageConverter convertImage:yuvFrame:].cold.7
+- -[VCPImageConverter initWithPixelFormat:].cold.1
+- -[VCPImageConverter init].cold.1
+- -[VCPImageConverter resize:height:].cold.1
+- -[VCPImageConverter resize:height:].cold.10
+- -[VCPImageConverter resize:height:].cold.11
+- -[VCPImageConverter resize:height:].cold.12
+- -[VCPImageConverter resize:height:].cold.13
+- -[VCPImageConverter resize:height:].cold.2
+- -[VCPImageConverter resize:height:].cold.3
+- -[VCPImageConverter resize:height:].cold.4
+- -[VCPImageConverter resize:height:].cold.5
+- -[VCPImageConverter resize:height:].cold.6
+- -[VCPImageConverter resize:height:].cold.7
+- -[VCPImageConverter resize:height:].cold.8
+- -[VCPImageConverter resize:height:].cold.9
+- -[VCPImageDescriptor computeDistance:toDescriptor:].cold.1
+- -[VCPImageDescriptor initWithData:].cold.1
+- -[VCPImageDescriptor initWithImage:].cold.1
+- -[VCPImageDescriptor initWithImage:].cold.2
+- -[VCPImageDescriptor initWithImage:].cold.3
+- -[VCPImageDescriptor initWithImage:].cold.4
+- -[VCPImageExposureAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.3
+- -[VCPImageExposureAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.4
+- -[VCPImageExposureAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.5
+- -[VCPImageExposureAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.6
+- -[VCPImageExposurePreAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.3
+- -[VCPImageExposurePreAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.4
+- -[VCPImageExposurePreAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.5
+- -[VCPImageFaceDetector aggregateTileResults:tileRect:imageSize:landscape:results:].cold.1
+- -[VCPImageFaceDetector analyzePixelBuffer:flags:results:cancel:].cold.1
+- -[VCPImageFaceDetector analyzePixelBuffer:flags:results:cancel:].cold.2
+- -[VCPImageFaceDetector faceDetection:faces:cancel:].cold.1
+- -[VCPImageFaceDetector faceDetection:faces:cancel:].cold.10
+- -[VCPImageFaceDetector faceDetection:faces:cancel:].cold.2
+- -[VCPImageFaceDetector faceDetection:faces:cancel:].cold.3
+- -[VCPImageFaceDetector faceDetection:faces:cancel:].cold.4
+- -[VCPImageFaceDetector faceDetection:faces:cancel:].cold.5
+- -[VCPImageFaceDetector faceDetection:faces:cancel:].cold.6
+- -[VCPImageFaceDetector faceDetection:faces:cancel:].cold.7
+- -[VCPImageFaceDetector faceDetection:faces:cancel:].cold.8
+- -[VCPImageFaceDetector faceDetection:faces:cancel:].cold.9
+- -[VCPImageFaceDetector processTile:results:cancel:].cold.1
+- -[VCPImageFaceExpressionAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.1
+- -[VCPImageFaceExpressionAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.2
+- -[VCPImageFaceExpressionAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.3
+- -[VCPImageFaceExpressionAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.4
+- -[VCPImageFaceExpressionAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.5
+- -[VCPImageFaceExpressionAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.6
+- -[VCPImageFaceQualityAnalyzer analyzeDetectedFaces:faceResults:cancel:].cold.1
+- -[VCPImageFaceQualityAnalyzer analyzeDetectedFaces:faceResults:cancel:].cold.2
+- -[VCPImageHandsAnalyzer analyzePixelBuffer:rotationInDegrees:flags:results:cancel:].cold.1
+- -[VCPImageHandsAnalyzer analyzePixelBuffer:rotationInDegrees:flags:results:cancel:].cold.2
+- -[VCPImageHandsAnalyzer analyzePixelBuffer:rotationInDegrees:flags:results:cancel:].cold.3
+- -[VCPImageHandsAnalyzer analyzePixelBuffer:rotationInDegrees:flags:results:cancel:].cold.4
+- -[VCPImageHandsAnalyzer initWithKeypointsOption:forceCPU:sharedModel:enableHandDetection:enableANSTHandDetection:enableRejectHandsNearBoundaries:enableHandObject:sourceWidth:sourceHeight:modelName:revision:options:].cold.1
+- -[VCPImageHandsAnalyzer preferredInputFormat:height:format:].cold.1
+- -[VCPImageHandsAnalyzer updateModelForSourceWidth:sourceHeight:].cold.1
+- -[VCPImageHandsAnalyzer updateModelForSourceWidth:sourceHeight:].cold.2
+- -[VCPImageHumanActionAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.1
+- -[VCPImageHumanActionAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.2
+- -[VCPImageHumanActionAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.3
+- -[VCPImageHumanActionAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.4
+- -[VCPImageHumanActionAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.5
+- -[VCPImageHumanActionAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.6
+- -[VCPImageHumanActionAnalyzer copyImage:toData:].cold.4
+- -[VCPImageHumanActionAnalyzer copyImage:toData:].cold.5
+- -[VCPImageHumanActionAnalyzer copyImage:toData:].cold.6
+- -[VCPImageHumanActionAnalyzer createInput:withBuffer:cnnInputHeight:cnnInputWidth:crop:].cold.1
+- -[VCPImageHumanActionAnalyzer createInput:withBuffer:cnnInputHeight:cnnInputWidth:crop:].cold.2
+- -[VCPImageHumanActionAnalyzer createInput:withBuffer:cnnInputHeight:cnnInputWidth:crop:].cold.3
+- -[VCPImageHumanActionAnalyzer initWithPHFaces:existingResults:].cold.1
+- -[VCPImageHumanActionAnalyzer initWithPHFaces:existingResults:].cold.2
+- -[VCPImageHumanPoseAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.1
+- -[VCPImageHumanPoseAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.2
+- -[VCPImageHumanPoseAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.3
+- -[VCPImageHumanPoseAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.4
+- -[VCPImageHumanPoseAnalyzer copyImage:toData:withChannels:].cold.4
+- -[VCPImageHumanPoseAnalyzer copyImage:toData:withChannels:].cold.5
+- -[VCPImageHumanPoseAnalyzer copyImage:toData:withChannels:].cold.6
+- -[VCPImageHumanPoseAnalyzer copyImage:toData:withChannels:].cold.7
+- -[VCPImageHumanPoseAnalyzer createInput:withBuffer:modelInputHeight:modelInputWidth:].cold.1
+- -[VCPImageHumanPoseAnalyzer createInput:withBuffer:modelInputHeight:modelInputWidth:].cold.2
+- -[VCPImageHumanPoseAnalyzer createInput:withBuffer:modelInputHeight:modelInputWidth:].cold.3
+- -[VCPImageHumanPoseAnalyzer createModelWithHeight:srcWidth:].cold.1
+- -[VCPImageHumanPoseAnalyzer createModelWithHeight:srcWidth:].cold.2
+- -[VCPImageHumanPoseAnalyzer generateHumanPose:].cold.1
+- -[VCPImageHumanPoseAnalyzer generateHumanPose:].cold.2
+- -[VCPImageHumanPoseAnalyzer generateHumanPose:].cold.3
+- -[VCPImageHumanPoseAnalyzer initWithKeypointsOption:aspectRatio:lightweight:forceCPU:sharedModel:flushModel:].cold.1
+- -[VCPImageHumanPoseAnalyzer initWithKeypointsOption:aspectRatio:lightweight:forceCPU:sharedModel:flushModel:].cold.2
+- -[VCPImageHumanPoseAnalyzer initWithKeypointsOption:aspectRatio:lightweight:forceCPU:sharedModel:flushModel:].cold.3
+- -[VCPImageHumanPoseAnalyzer parsePersons:width:height:].cold.1
+- -[VCPImageHumanPoseAnalyzer parsePersons:width:height:].cold.2
+- -[VCPImageHumanPoseAnalyzer preferredInputFormat:height:format:].cold.1
+- -[VCPImageHumanPoseAnalyzer processPersons:width:height:].cold.1
+- -[VCPImageHumanPoseAnalyzer reInitModel].cold.1
+- -[VCPImageHumanPoseAnalyzer reInitModel].cold.2
+- -[VCPImageHumanPoseAnalyzer updateModelForAspectRatio:].cold.1
+- -[VCPImageHumanPoseAnalyzer updateModelForAspectRatio:].cold.2
+- -[VCPImageHumanPoseAnalyzer updateModelForAspectRatio:].cold.3
+- -[VCPImageHumanPoseAnalyzerHolistic analyzePixelBuffer:flags:results:cancel:].cold.1
+- -[VCPImageHumanPoseAnalyzerHolistic analyzePixelBuffer:flags:results:cancel:].cold.2
+- -[VCPImageHumanPoseAnalyzerHolistic analyzePixelBuffer:flags:results:cancel:].cold.3
+- -[VCPImageHumanPoseAnalyzerHolistic analyzePixelBuffer:flags:results:cancel:].cold.4
+- -[VCPImageHumanPoseAnalyzerHolistic analyzePixelBuffer:flags:results:cancel:].cold.5
+- -[VCPImageHumanPoseAnalyzerHolistic preferredInputFormat:height:format:].cold.1
+- -[VCPImageHumanPoseAnalyzerTopDown analyzePixelBuffer:flags:results:cancel:].cold.1
+- -[VCPImageHumanPoseAnalyzerTopDown analyzePixelBuffer:flags:results:cancel:].cold.2
+- -[VCPImageHumanPoseAnalyzerTopDown analyzePixelBuffer:flags:results:cancel:].cold.3
+- -[VCPImageHumanPoseAnalyzerTopDown analyzePixelBuffer:flags:results:cancel:].cold.4
+- -[VCPImageHumanPoseAnalyzerTopDown preferredInputFormat:height:format:].cold.1
+- -[VCPImageLivePhotoBlurAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.1
+- -[VCPImageLivePhotoBlurAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.2
+- -[VCPImageManager acceleratedDecodeImageData:pixelFormat:maxDimension:pixelBuffer:orientation:flushCache:].cold.1
+- -[VCPImageManager acceleratedDecodeImageData:pixelFormat:maxDimension:pixelBuffer:orientation:flushCache:].cold.2
+- -[VCPImageManager acceleratedDecodeImageData:pixelFormat:maxDimension:pixelBuffer:orientation:flushCache:].cold.3
+- -[VCPImageManager acceleratedDecodeImageData:pixelFormat:maxDimension:pixelBuffer:orientation:flushCache:].cold.4
+- -[VCPImageManager acceleratedDecodeImageData:pixelFormat:maxDimension:pixelBuffer:orientation:flushCache:].cold.5
+- -[VCPImageManager acceleratedDecodeImageData:pixelFormat:maxDimension:pixelBuffer:orientation:flushCache:].cold.6
+- -[VCPImageManager acceleratedDecodeImageData:pixelFormat:maxDimension:pixelBuffer:orientation:flushCache:].cold.7
+- -[VCPImageManager convertPixelBuffer:toPixelFormat:flushCache:].cold.1
+- -[VCPImageManager convertPixelBuffer:toPixelFormat:flushCache:].cold.2
+- -[VCPImageManager decodeImageSource:withUniformTypeIdentifier:pixelFormat:maxDimension:orientation:pixelBuffer:].cold.1
+- -[VCPImageManager decodeImageSource:withUniformTypeIdentifier:pixelFormat:maxDimension:orientation:pixelBuffer:].cold.2
+- -[VCPImageManager decodeImageSource:withUniformTypeIdentifier:pixelFormat:maxDimension:orientation:pixelBuffer:].cold.3
+- -[VCPImageManager drawImage:pixelFormat:withOrientation:maxDimension:pixelBuffer:].cold.6
+- -[VCPImageManager drawImage:pixelFormat:withOrientation:maxDimension:pixelBuffer:].cold.7
+- -[VCPImageMotionFlowAnalyzer combineBufferTo:flowX:flowY:].cold.10
+- -[VCPImageMotionFlowAnalyzer combineBufferTo:flowX:flowY:].cold.11
+- -[VCPImageMotionFlowAnalyzer combineBufferTo:flowX:flowY:].cold.12
+- -[VCPImageMotionFlowAnalyzer combineBufferTo:flowX:flowY:].cold.7
+- -[VCPImageMotionFlowAnalyzer combineBufferTo:flowX:flowY:].cold.8
+- -[VCPImageMotionFlowAnalyzer combineBufferTo:flowX:flowY:].cold.9
+- -[VCPImageMotionFlowAnalyzer initWithLightweightOption:aspectRatio:computationAccuracy:forceCPU:sharedModel:flushModel:cancel:].cold.1
+- -[VCPImageMotionFlowAnalyzer initWithLightweightOption:aspectRatio:computationAccuracy:forceCPU:sharedModel:flushModel:cancel:].cold.2
+- -[VCPImageMotionFlowAnalyzer initWithLightweightOption:aspectRatio:computationAccuracy:forceCPU:sharedModel:flushModel:cancel:].cold.3
+- -[VCPImageMotionFlowAnalyzer initWithLightweightOption:aspectRatio:computationAccuracy:forceCPU:sharedModel:flushModel:cancel:].cold.4
+- -[VCPImageMotionFlowAnalyzer preferredInputFormat:height:format:].cold.1
+- -[VCPImageMotionFlowAnalyzer scaleFlowTo:].cold.1
+- -[VCPImageMotionFlowAnalyzer scaleFlowTo:].cold.2
+- -[VCPImagePetsAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.1
+- -[VCPImagePetsKeypointsAnalyzer analyzePixelBuffer:flags:petsDetections:results:cancel:].cold.1
+- -[VCPImagePetsKeypointsAnalyzer analyzePixelBuffer:flags:petsDetections:results:cancel:].cold.2
+- -[VCPImagePetsKeypointsAnalyzer preferredInputFormat:height:format:].cold.1
+- -[VCPImageQualityAnalyzer analyzeImageQuality:irisPhotoOffsetSec:cancel:].cold.1
+- -[VCPImageQualityAnalyzer analyzeImageQuality:irisPhotoOffsetSec:cancel:].cold.2
+- -[VCPImageSaliencyAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.1
+- -[VCPImageSaliencyAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.2
+- -[VCPImageSaliencyAnalyzer copyImage:toData:withChunk:].cold.3
+- -[VCPImageSaliencyAnalyzer copyImage:toData:withChunk:].cold.4
+- -[VCPImageSaliencyAnalyzer copyImage:toData:withChunk:].cold.5
+- -[VCPImageSaliencyAnalyzer generateSalientRegion:outHeight:outWidth:].cold.1
+- -[VCPImageSaliencyAnalyzer generateSalientRegion:outHeight:outWidth:].cold.2
+- -[VCPImageSaliencyAnalyzer processTile:results:cancel:].cold.1
+- -[VCPImageSaliencyAnalyzer saliencyDetection:salientRegions:cancel:].cold.1
+- -[VCPImageSaliencyAnalyzer saliencyDetection:salientRegions:cancel:].cold.2
+- -[VCPImageSaliencyAnalyzer saliencyDetection:salientRegions:cancel:].cold.3
+- -[VCPImageSaliencyAnalyzer scaleImage:toData:withWidth:andHeight:].cold.1
+- -[VCPImageSaliencyAnalyzer scaleImage:toData:withWidth:andHeight:].cold.2
+- -[VCPImageSaliencyAnalyzer scaleImage:toData:withWidth:andHeight:].cold.3
+- -[VCPImageSaliencyAnalyzerBinary getSalientRegions:].cold.1
+- -[VCPImageSaliencyAnalyzerBinary getSalientRegions:].cold.2
+- -[VCPImageSaliencyAnalyzerBinary prepareModelForSourceWidth:andSourceHeight:].cold.1
+- -[VCPImageSaliencyAnalyzerBinary prepareModelForSourceWidth:andSourceHeight:].cold.10
+- -[VCPImageSaliencyAnalyzerBinary prepareModelForSourceWidth:andSourceHeight:].cold.11
+- -[VCPImageSaliencyAnalyzerBinary prepareModelForSourceWidth:andSourceHeight:].cold.12
+- -[VCPImageSaliencyAnalyzerBinary prepareModelForSourceWidth:andSourceHeight:].cold.13
+- -[VCPImageSaliencyAnalyzerBinary prepareModelForSourceWidth:andSourceHeight:].cold.14
+- -[VCPImageSaliencyAnalyzerBinary prepareModelForSourceWidth:andSourceHeight:].cold.15
+- -[VCPImageSaliencyAnalyzerBinary prepareModelForSourceWidth:andSourceHeight:].cold.2
+- -[VCPImageSaliencyAnalyzerBinary prepareModelForSourceWidth:andSourceHeight:].cold.3
+- -[VCPImageSaliencyAnalyzerBinary prepareModelForSourceWidth:andSourceHeight:].cold.4
+- -[VCPImageSaliencyAnalyzerBinary prepareModelForSourceWidth:andSourceHeight:].cold.5
+- -[VCPImageSaliencyAnalyzerBinary prepareModelForSourceWidth:andSourceHeight:].cold.6
+- -[VCPImageSaliencyAnalyzerBinary prepareModelForSourceWidth:andSourceHeight:].cold.7
+- -[VCPImageSaliencyAnalyzerBinary prepareModelForSourceWidth:andSourceHeight:].cold.8
+- -[VCPImageSaliencyAnalyzerBinary prepareModelForSourceWidth:andSourceHeight:].cold.9
+- -[VCPImageSaliencyAnalyzerFull getSalientRegions:].cold.1
+- -[VCPImageSaliencyAnalyzerFull getSalientRegions:].cold.2
+- -[VCPImageSaliencyAnalyzerFull prepareModelForSourceWidth:andSourceHeight:].cold.1
+- -[VCPImageSaliencyAnalyzerFull prepareModelForSourceWidth:andSourceHeight:].cold.10
+- -[VCPImageSaliencyAnalyzerFull prepareModelForSourceWidth:andSourceHeight:].cold.11
+- -[VCPImageSaliencyAnalyzerFull prepareModelForSourceWidth:andSourceHeight:].cold.12
+- -[VCPImageSaliencyAnalyzerFull prepareModelForSourceWidth:andSourceHeight:].cold.13
+- -[VCPImageSaliencyAnalyzerFull prepareModelForSourceWidth:andSourceHeight:].cold.14
+- -[VCPImageSaliencyAnalyzerFull prepareModelForSourceWidth:andSourceHeight:].cold.15
+- -[VCPImageSaliencyAnalyzerFull prepareModelForSourceWidth:andSourceHeight:].cold.2
+- -[VCPImageSaliencyAnalyzerFull prepareModelForSourceWidth:andSourceHeight:].cold.3
+- -[VCPImageSaliencyAnalyzerFull prepareModelForSourceWidth:andSourceHeight:].cold.4
+- -[VCPImageSaliencyAnalyzerFull prepareModelForSourceWidth:andSourceHeight:].cold.5
+- -[VCPImageSaliencyAnalyzerFull prepareModelForSourceWidth:andSourceHeight:].cold.6
+- -[VCPImageSaliencyAnalyzerFull prepareModelForSourceWidth:andSourceHeight:].cold.7
+- -[VCPImageSaliencyAnalyzerFull prepareModelForSourceWidth:andSourceHeight:].cold.8
+- -[VCPImageSaliencyAnalyzerFull prepareModelForSourceWidth:andSourceHeight:].cold.9
+- -[VCPImageSaliencyAnalyzerFullEspresso getSalientRegions:].cold.1
+- -[VCPImageSaliencyAnalyzerFullEspresso getSalientRegions:].cold.2
+- -[VCPImageSaliencyAnalyzerFullEspresso getSalientRegions:].cold.3
+- -[VCPImageSaliencyAnalyzerFullEspresso prepareModelForSourceWidth:andSourceHeight:].cold.1
+- -[VCPImageSaliencyAnalyzerFullEspresso prepareModelForSourceWidth:andSourceHeight:].cold.2
+- -[VCPImageSaliencyAnalyzerFullEspresso prepareModelForSourceWidth:andSourceHeight:].cold.3
+- -[VCPInterAssetAnalyzer _generateLastFrameDistanceDescriptor:withDescriptorClass:forAsset:].cold.1
+- -[VCPInterAssetAnalyzer _generateLastFrameDistanceDescriptor:withDescriptorClass:forAsset:].cold.2
+- -[VCPInterAssetAnalyzer _generateLastFrameDistanceDescriptor:withDescriptorClass:forAsset:].cold.3
+- -[VCPInterAssetAnalyzer _generateLastFrameDistanceDescriptor:withDescriptorClass:forAsset:].cold.4
+- -[VCPInterAssetAnalyzer _generateLastFrameDistanceDescriptor:withDescriptorClass:forAsset:].cold.5
+- -[VCPInterAssetAnalyzer computeDistance:fromArray:toArray:].cold.1
+- -[VCPInterAssetAnalyzer computeDistance:fromArray:toArray:].cold.2
+- -[VCPInterAssetAnalyzer computeDistance:fromArray:toArray:].cold.3
+- -[VCPInterAssetAnalyzer computeDistance:fromArray:toArray:].cold.4
+- -[VCPInterAssetAnalyzer computeDistance:fromArray:toArray:].cold.5
+- -[VCPInterAssetAnalyzer computeDistance:withDescriptorClass:fromAsset:toAsset:].cold.1
+- -[VCPInterAssetAnalyzer computeDistance:withDescriptorClass:fromAsset:toAsset:].cold.2
+- -[VCPInterAssetAnalyzer computeDistance:withDescriptorClass:fromAsset:toAsset:].cold.3
+- -[VCPInterAssetAnalyzer generateDistanceDescriptor:withDescriptorClass:forAsset:withResources:lastFrame:].cold.1
+- -[VCPInterAssetAnalyzer generateDistanceDescriptor:withDescriptorClass:forAsset:withResources:lastFrame:].cold.2
+- -[VCPInternetReachability init].cold.1
+- -[VCPInternetReachability init].cold.2
+- -[VCPInternetReachability init].cold.3
+- -[VCPInternetReachability init].cold.4
+- -[VCPJunkAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.1
+- -[VCPJunkAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.2
+- -[VCPJunkAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.3
+- -[VCPJunkAnalyzer analyzePixelBuffer:flags:results:cancel:].cold.4
+- -[VCPLandmarkValidator initWithModelFile:paramFile:numTri:triList:angle:].cold.1
+- -[VCPLandmarkValidator initWithModelFile:paramFile:numTri:triList:angle:].cold.10
+- -[VCPLandmarkValidator initWithModelFile:paramFile:numTri:triList:angle:].cold.11
+- -[VCPLandmarkValidator initWithModelFile:paramFile:numTri:triList:angle:].cold.12
+- -[VCPLandmarkValidator initWithModelFile:paramFile:numTri:triList:angle:].cold.2
+- -[VCPLandmarkValidator initWithModelFile:paramFile:numTri:triList:angle:].cold.3
+- -[VCPLandmarkValidator initWithModelFile:paramFile:numTri:triList:angle:].cold.4
+- -[VCPLandmarkValidator initWithModelFile:paramFile:numTri:triList:angle:].cold.5
+- -[VCPLandmarkValidator initWithModelFile:paramFile:numTri:triList:angle:].cold.6
+- -[VCPLandmarkValidator initWithModelFile:paramFile:numTri:triList:angle:].cold.7
+- -[VCPLandmarkValidator initWithModelFile:paramFile:numTri:triList:angle:].cold.8
+- -[VCPLandmarkValidator initWithModelFile:paramFile:numTri:triList:angle:].cold.9
+- -[VCPLandmarkValidator validateOneImage:landmarks:numofLandmarks:score:].cold.3
+- -[VCPLandmarkValidator validateOneImage:landmarks:numofLandmarks:score:].cold.4
+- -[VCPLandmarkValidator validateOneImage:landmarks:numofLandmarks:score:].cold.5
+- -[VCPLandmarkValidator validateOneImage:landmarks:numofLandmarks:score:].cold.6
+- -[VCPLandmarkValidator validateOneImage:landmarks:numofLandmarks:score:].cold.7
+- -[VCPLightMotionAnalyzer analyzeFrame:withTimestamp:andDuration:completion:].cold.1
+- -[VCPLightMotionAnalyzer analyzeFrame:withTimestamp:andDuration:completion:].cold.2
+- -[VCPLightMotionAnalyzer analyzeFrame:withTimestamp:andDuration:completion:].cold.3
+- -[VCPLightMotionAnalyzer analyzeFrame:withTimestamp:andDuration:completion:].cold.4
+- -[VCPLightMotionAnalyzer analyzeFrame:withTimestamp:andDuration:completion:].cold.5
+- -[VCPLightMotionAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.1
+- -[VCPLightMotionAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.2
+- -[VCPLightMotionAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.3
+- -[VCPLightMotionAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.4
+- -[VCPLightMotionAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.5
+- -[VCPLightMotionAnalyzer computeMotionDivScore:].cold.1
+- -[VCPLightMotionAnalyzer prewarmWithWidth:height:].cold.1
+- -[VCPLightMotionAnalyzer prewarmWithWidth:height:].cold.2
+- -[VCPLightVideoAnalyzer analyzeAsset:flags:].cold.1
+- -[VCPLightVideoAnalyzer analyzeAsset:flags:].cold.2
+- -[VCPLightVideoAnalyzer analyzeAsset:flags:].cold.3
+- -[VCPLightVideoAnalyzer analyzeAsset:flags:].cold.4
+- -[VCPLightVideoAnalyzer analyzeAsset:flags:].cold.5
+- -[VCPLightVideoAnalyzer analyzeAsset:flags:].cold.6
+- -[VCPLightVideoAnalyzer analyzeAsset:flags:].cold.7
+- -[VCPLightVideoAnalyzer analyzeAsset:flags:].cold.8
+- -[VCPLightVideoAnalyzer initWithAVAsset:forAnalysisTypes:].cold.1
+- -[VCPLightVideoAnalyzer initWithAVAsset:forAnalysisTypes:].cold.2
+- -[VCPLightVideoAnalyzer processMetaTrackForType:cancel:flags:].cold.1
+- -[VCPLightVideoAnalyzer processMetaTrackForType:cancel:flags:].cold.2
+- -[VCPLightVideoAnalyzer processMetaTrackForType:cancel:flags:].cold.3
+- -[VCPLightVideoAnalyzer processMetaTrackForType:cancel:flags:].cold.4
+- -[VCPLivePhotoKeyFrameAnalyzer analyzeLivePhotoKeyFrame:irisPhotoOffsetSec:originalIrisPhotoOffsetSec:photoTextureScore:hadFlash:cancel:].cold.1
+- -[VCPLivePhotoKeyFrameAnalyzer reportLivePhotoKeyFrameAnalysisResults:selectedKeyFrame:originalStillKeyFrame:stillScore:stillFQScore:stillTimestamp:useSemanticOnly:isKeyFrameSuggested:].cold.1
+- -[VCPLoudnessAnalyzer setupWithSample:andSampleBatchSize:].cold.1
+- -[VCPMADImageCaptionTask run].cold.1
+- -[VCPMADImageEmbeddingTask run].cold.1
+- -[VCPMADImageSafetyClassificationTask createUprightPixelBuffer:fromSourceBuffer:andOrientation:].cold.5
+- -[VCPMADImageSafetyClassificationTask createUprightPixelBuffer:fromSourceBuffer:andOrientation:].cold.6
+- -[VCPMADImageSafetyClassificationTask createUprightPixelBuffer:fromSourceBuffer:andOrientation:].cold.7
+- -[VCPMADImageSafetyClassificationTask createUprightPixelBuffer:fromSourceBuffer:andOrientation:].cold.8
+- -[VCPMADImageSafetyClassificationTask logMemoryWithMessage:].cold.1
+- -[VCPMADImageSafetyClassificationTask run].cold.1
+- -[VCPMADMLEnhancementTask convertPixelFormat:].cold.1
+- -[VCPMADMLEnhancementTask convertPixelFormat:].cold.2
+- -[VCPMADMLEnhancementTask convertPixelFormat:].cold.3
+- -[VCPMADMLEnhancementTask convertPixelFormat:].cold.4
+- -[VCPMADMLEnhancementTask run].cold.10
+- -[VCPMADMLEnhancementTask run].cold.11
+- -[VCPMADMLEnhancementTask run].cold.3
+- -[VCPMADMLEnhancementTask run].cold.4
+- -[VCPMADMLEnhancementTask run].cold.5
+- -[VCPMADMLEnhancementTask run].cold.6
+- -[VCPMADMLEnhancementTask run].cold.7
+- -[VCPMADMLEnhancementTask run].cold.8
+- -[VCPMADMLEnhancementTask run].cold.9
+- -[VCPMADMLScalingTask convertPixelFormat:].cold.1
+- -[VCPMADMLScalingTask convertPixelFormat:].cold.2
+- -[VCPMADMLScalingTask convertPixelFormat:].cold.3
+- -[VCPMADMLScalingTask convertPixelFormat:].cold.4
+- -[VCPMADMLScalingTask run].cold.1
+- -[VCPMADMLScalingTask run].cold.2
+- -[VCPMADMLScalingTask run].cold.3
+- -[VCPMADMLScalingTask run].cold.4
+- -[VCPMADMLScalingTask run].cold.5
+- -[VCPMADMLScalingTask run].cold.6
+- -[VCPMADMLScalingTask run].cold.7
+- -[VCPMADPersonIdentificationTask run].cold.1
+- -[VCPMADServiceImageDataAsset loadPixelBuffer:orientation:].cold.1
+- -[VCPMADServiceImageURLAsset loadPixelBuffer:orientation:].cold.1
+- -[VCPMADVIDocumentRecognitionTask run].cold.1
+- -[VCPMADVIDocumentRecognitionTask run].cold.2
+- -[VCPMADVIFaceTask run].cold.1
+- -[VCPMADVIFaceTask run].cold.2
+- -[VCPMADVIFaceTask run].cold.3
+- -[VCPMADVIMachineReadableCodeDetectionTask run].cold.1
+- -[VCPMADVIMachineReadableCodeDetectionTask run].cold.2
+- -[VCPMADVIRectangleDetectionTask run].cold.1
+- -[VCPMADVIRectangleDetectionTask run].cold.2
+- -[VCPMADVISceneClassificationTask run].cold.1
+- -[VCPMADVISceneClassificationTask run].cold.2
+- -[VCPMADVISceneClassificationTask run].cold.3
+- -[VCPMediaAnalyzer analyzeOndemand:pairedURL:forAnalysisTypes:error:].cold.1
+- -[VCPMediaAnalyzer analyzeOndemand:pairedURL:forAnalysisTypes:error:].cold.2
+- -[VCPMediaAnalyzer analyzeOndemand:pairedURL:forAnalysisTypes:error:].cold.3
+- -[VCPMediaAnalyzer analyzeOndemand:pairedURL:forAnalysisTypes:error:].cold.4
+- -[VCPMediaAnalyzer analyzeOndemand:pairedURL:forAnalysisTypes:error:].cold.5
+- -[VCPMediaAnalyzer analyzeOndemand:pairedURL:forAnalysisTypes:error:].cold.6
+- -[VCPMediaAnalyzer curateMovieAssetsForCollection:withAlreadyCuratedAssets:andDesiredCount:allowOnDemand:].cold.1
+- -[VCPMediaAnalyzer distanceFromAsset:timeRange:toAsset:timeRange:duplicate:distance:].cold.1
+- -[VCPMediaAnalyzer distanceFromAsset:timeRange:toAsset:timeRange:duplicate:distance:].cold.2
+- -[VCPMediaAnalyzer distanceFromAsset:toAsset:duplicate:distance:].cold.1
+- -[VCPMediaAnalyzer distanceFromAsset:toAsset:duplicate:distance:].cold.2
+- -[VCPMediaAnalyzer requestAnalysis:forAssets:withOptions:andProgressHandler:andError:].cold.1
+- -[VCPMediaAnalyzer requestAnalysisTypes:forAssets:withOptions:andProgressHandler:cancelBlock:analyses:].cold.1
+- -[VCPMediaAnalyzer requestAnalysisTypes:forAssets:withOptions:andProgressHandler:cancelBlock:analyses:].cold.2
+- -[VCPMediaAnalyzer requestSearchResultsForAssets:forPhotoLibraryURL:withQueryEmbeddings:matchingScoreOnly:options:].cold.1
+- -[VCPMetaTrackDecoder initWithTrack:].cold.1
+- -[VCPMetaTrackDecoder initWithTrack:].cold.2
+- -[VCPMetaTrackDecoder initWithTrack:].cold.3
+- -[VCPMetaTrackDecoder initWithTrack:].cold.4
+- -[VCPMetaTrackDecoder initWithTrack:].cold.5
+- -[VCPMetaTrackDecoder initWithTrack:].cold.6
+- -[VCPMoFlowSingleEspresso analyzeImages:secondImage:cancel:].cold.1
+- -[VCPMoFlowSingleEspresso analyzeImages:secondImage:cancel:].cold.2
+- -[VCPMoFlowSingleEspresso analyzeImages:secondImage:cancel:].cold.3
+- -[VCPMoFlowSingleEspresso analyzeImages:secondImage:cancel:].cold.4
+- -[VCPMoFlowSingleEspresso analyzeImages:secondImage:cancel:].cold.5
+- -[VCPMoFlowSingleEspresso analyzeImages:secondImage:cancel:].cold.6
+- -[VCPMoFlowSingleEspresso copyImage:toData:withChannels:].cold.4
+- -[VCPMoFlowSingleEspresso copyImage:toData:withChannels:].cold.5
+- -[VCPMoFlowSingleEspresso copyImage:toData:withChannels:].cold.6
+- -[VCPMoFlowSingleEspresso copyImage:toData:withChannels:].cold.7
+- -[VCPMoFlowSingleEspresso createInput:withBuffer:cnnInputHeight:cnnInputWidth:].cold.1
+- -[VCPMoFlowSingleEspresso createInput:withBuffer:cnnInputHeight:cnnInputWidth:].cold.2
+- -[VCPMoFlowSingleEspresso createInput:withBuffer:cnnInputHeight:cnnInputWidth:].cold.3
+- -[VCPMoFlowSingleEspresso flowScalingTo:flowBufferY:scalerX:scalerY:].cold.5
+- -[VCPMoFlowSingleEspresso flowScalingTo:flowBufferY:scalerX:scalerY:].cold.6
+- -[VCPMoFlowSingleEspresso flowScalingTo:flowBufferY:scalerX:scalerY:].cold.7
+- -[VCPMoFlowSingleEspresso flowScalingTo:flowBufferY:scalerX:scalerY:].cold.8
+- -[VCPMoFlowSingleEspresso flowScalingTo:scalerX:scalerY:].cold.4
+- -[VCPMoFlowSingleEspresso flowScalingTo:scalerX:scalerY:].cold.5
+- -[VCPMoFlowSingleEspresso getFlowToBuffer:].cold.4
+- -[VCPMoFlowSingleEspresso getFlowToBuffer:].cold.5
+- -[VCPMoFlowSingleEspresso prepareModel].cold.1
+- -[VCPMoFlowSingleEspresso prepareModel].cold.2
+- -[VCPMoFlowSingleEspresso prepareWithLightweightOption:aspectRatio:forceCPU:sharedModel:flushModel:].cold.1
+- -[VCPMoFlowSingleEspresso prepareWithLightweightOption:aspectRatio:forceCPU:sharedModel:flushModel:].cold.2
+- -[VCPMoFlowSingleEspresso prepareWithLightweightOption:aspectRatio:forceCPU:sharedModel:flushModel:].cold.3
+- -[VCPMoFlowSingleEspresso reInitModel].cold.1
+- -[VCPMoFlowSingleEspresso reInitModel].cold.2
+- -[VCPMoFlowSingleEspresso updateModelForAspectRatio:computationAccuracy:].cold.1
+- -[VCPMoFlowSingleEspresso updateModelForAspectRatio:computationAccuracy:].cold.2
+- -[VCPMoFlowSingleEspresso updateModelForAspectRatio:computationAccuracy:].cold.3
+- -[VCPModelR2D2 allocateCorreleationBuffer:forLevel:].cold.1
+- -[VCPModelR2D2 allocateFeatures].cold.1
+- -[VCPModelR2D2 allocateFeatures].cold.2
+- -[VCPModelR2D2 allocateInputAndOutputBuffers].cold.1
+- -[VCPModelR2D2 allocateStorages].cold.1
+- -[VCPModelR2D2 allocateStorages].cold.2
+- -[VCPModelR2D2 analyzeImages:secondImage:cancel:].cold.1
+- -[VCPModelR2D2 analyzeImages:secondImage:cancel:].cold.2
+- -[VCPModelR2D2 analyzeImages:secondImage:cancel:].cold.3
+- -[VCPModelR2D2 analyzeImages:secondImage:cancel:].cold.4
+- -[VCPModelR2D2 copyImage:toBuffer:withChannels:].cold.10
+- -[VCPModelR2D2 copyImage:toBuffer:withChannels:].cold.5
+- -[VCPModelR2D2 copyImage:toBuffer:withChannels:].cold.6
+- -[VCPModelR2D2 copyImage:toBuffer:withChannels:].cold.7
+- -[VCPModelR2D2 copyImage:toBuffer:withChannels:].cold.8
+- -[VCPModelR2D2 copyImage:toBuffer:withChannels:].cold.9
+- -[VCPModelR2D2 createInput:withImage:modelInputHeight:modelInputWidth:].cold.1
+- -[VCPModelR2D2 createInput:withImage:modelInputHeight:modelInputWidth:].cold.2
+- -[VCPModelR2D2 createInput:withImage:modelInputHeight:modelInputWidth:].cold.3
+- -[VCPModelR2D2 createModules:].cold.1
+- -[VCPModelR2D2 createModules:].cold.2
+- -[VCPModelR2D2 createModules:].cold.3
+- -[VCPModelR2D2 createModules:].cold.4
+- -[VCPModelR2D2 createModules:].cold.5
+- -[VCPModelR2D2 createModules:].cold.6
+- -[VCPModelR2D2 estimateFlowForLevel:upperFlow:outputFlow:].cold.1
+- -[VCPModelR2D2 estimateFlowForLevel:upperFlow:outputFlow:].cold.2
+- -[VCPModelR2D2 estimateMotionFlow:].cold.1
+- -[VCPModelR2D2 estimateMotionFlow:].cold.2
+- -[VCPModelR2D2 extractFeaturesFromFirst:andSecond:].cold.1
+- -[VCPModelR2D2 extractFeaturesFromFirst:andSecond:].cold.2
+- -[VCPModelR2D2 flowScalingTo:flowBufferY:scalerX:scalerY:].cold.10
+- -[VCPModelR2D2 flowScalingTo:flowBufferY:scalerX:scalerY:].cold.11
+- -[VCPModelR2D2 flowScalingTo:flowBufferY:scalerX:scalerY:].cold.12
+- -[VCPModelR2D2 flowScalingTo:flowBufferY:scalerX:scalerY:].cold.7
+- -[VCPModelR2D2 flowScalingTo:flowBufferY:scalerX:scalerY:].cold.8
+- -[VCPModelR2D2 flowScalingTo:flowBufferY:scalerX:scalerY:].cold.9
+- -[VCPModelR2D2 flowScalingTo:scalerX:scalerY:].cold.5
+- -[VCPModelR2D2 flowScalingTo:scalerX:scalerY:].cold.6
+- -[VCPModelR2D2 flowScalingTo:scalerX:scalerY:].cold.7
+- -[VCPModelR2D2 flowScalingTo:scalerX:scalerY:].cold.8
+- -[VCPModelR2D2 prepareWithLightweightOption:aspectRatio:numLevels:startLevel:cancel:].cold.1
+- -[VCPModelR2D2 prepareWithLightweightOption:aspectRatio:numLevels:startLevel:cancel:].cold.2
+- -[VCPModelR2D2 prepareWithLightweightOption:aspectRatio:numLevels:startLevel:cancel:].cold.3
+- -[VCPModelR2D2 updateModelForAspectRatio:computationAccuracy:].cold.1
+- -[VCPModelR2D2 updateModelForAspectRatio:computationAccuracy:].cold.2
+- -[VCPModelR2D2 updateModulesWithConfig:].cold.1
+- -[VCPModelR2D2 updateModulesWithConfig:].cold.2
+- -[VCPModelR2D2 updateModulesWithConfig:].cold.3
+- -[VCPModelR2D2 updateModulesWithConfig:].cold.4
+- -[VCPModelR2D2 updateModulesWithConfig:].cold.5
+- -[VCPModelR2D2 updateModulesWithConfig:].cold.6
+- -[VCPModelR2D2 updateModulesWithConfig:].cold.7
+- -[VCPMotionFlowAnalyzer analyzePixelBuffer:withFrame:withTimestamp:andDuration:cancel:].cold.1
+- -[VCPMotionFlowAnalyzer analyzePixelBuffer:withFrame:withTimestamp:andDuration:cancel:].cold.2
+- -[VCPMotionFlowAnalyzer analyzePixelBuffer:withFrame:withTimestamp:andDuration:cancel:].cold.3
+- -[VCPMotionFlowAnalyzer convertFlow:].cold.4
+- -[VCPMotionFlowAnalyzer convertFlow:].cold.5
+- -[VCPMotionFlowAnalyzer convertPixelBuffer:toPixelBuffer:withPixelFormat:].cold.1
+- -[VCPMotionFlowAnalyzer convertPixelBuffer:toPixelBuffer:withPixelFormat:].cold.2
+- -[VCPMotionFlowAnalyzer preProcessing:].cold.1
+- -[VCPMotionFlowAnalyzer preProcessing:].cold.2
+- -[VCPMotionFlowAnalyzer preProcessing:].cold.3
+- -[VCPMotionFlowAnalyzer prepareAnalyzerWithCVPixelBuffer:cancel:].cold.1
+- -[VCPMotionFlowRequest convertPixelBuffer:toPixelBuffer:withPixelFormat:].cold.1
+- -[VCPMotionFlowRequest convertPixelBuffer:toPixelBuffer:withPixelFormat:].cold.2
+- -[VCPMotionFlowRequest estimateMotionBetweenFirstImage:andSecondImage:error:].cold.1
+- -[VCPMotionFlowRequest estimateMotionBetweenFirstImage:andSecondImage:error:].cold.2
+- -[VCPMotionFlowRequest estimateMotionBetweenFirstImage:andSecondImage:error:].cold.3
+- -[VCPMotionFlowRequest estimateMotionBetweenFirstImage:andSecondImage:error:].cold.4
+- -[VCPMotionFlowRequest estimateMotionBetweenFirstImage:andSecondImage:withUpsample:withGuidedImage:error:].cold.1
+- -[VCPMotionFlowRequest estimateMotionBetweenFirstImage:andSecondImage:withUpsample:withGuidedImage:error:].cold.2
+- -[VCPMotionFlowRequest estimateMotionBetweenFirstImage:andSecondImage:withUpsample:withGuidedImage:error:].cold.3
+- -[VCPMotionFlowRequest estimateMotionBetweenFirstImage:andSecondImage:withUpsample:withGuidedImage:error:].cold.4
+- -[VCPMotionFlowRequest estimateMotionBetweenFirstImage:andSecondImage:withUpsample:withGuidedImage:error:].cold.5
+- -[VCPMotionFlowRequest updateWithOptions:error:].cold.1
+- -[VCPMotionFlowSubtleMotionAnalyzer analyzePixelBuffer:withFrame:withTimestamp:andDuration:hasSubtleScene:cancel:].cold.1
+- -[VCPMotionFlowSubtleMotionAnalyzer analyzePixelBuffer:withFrame:withTimestamp:andDuration:hasSubtleScene:cancel:].cold.2
+- -[VCPMotionFlowSubtleMotionAnalyzer analyzePixelBuffer:withFrame:withTimestamp:andDuration:hasSubtleScene:cancel:].cold.3
+- -[VCPMotionFlowSubtleMotionAnalyzer analyzePixelBuffer:withFrame:withTimestamp:andDuration:hasSubtleScene:cancel:].cold.4
+- -[VCPMotionFlowSubtleMotionAnalyzer analyzePixelBuffer:withFrame:withTimestamp:andDuration:hasSubtleScene:cancel:].cold.5
+- -[VCPMotionFlowSubtleMotionAnalyzer convertFlow:].cold.4
+- -[VCPMotionFlowSubtleMotionAnalyzer convertFlow:].cold.5
+- -[VCPMotionFlowSubtleMotionAnalyzer convertPixelBuffer:toPixelBuffer:withPixelFormat:].cold.1
+- -[VCPMotionFlowSubtleMotionAnalyzer convertPixelBuffer:toPixelBuffer:withPixelFormat:].cold.2
+- -[VCPMotionFlowSubtleMotionAnalyzer preProcessing:].cold.1
+- -[VCPMotionFlowSubtleMotionAnalyzer preProcessing:].cold.2
+- -[VCPMotionFlowSubtleMotionAnalyzer preProcessing:].cold.3
+- -[VCPMotionFlowSubtleMotionAnalyzer prepareAnalyzerWithCVPixelBuffer:cancel:].cold.1
+- -[VCPMotionFlowSubtleMotionAnalyzer prepareAnalyzerWithCVPixelBuffer:cancel:].cold.2
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.1
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.10
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.11
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.12
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.13
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.14
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.15
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.16
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.17
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.18
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.19
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.2
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.3
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.4
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.5
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.6
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.7
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.8
+- -[VCPMovieAnalyzer analyzeAsset:streamed:].cold.9
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.1
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.10
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.11
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.12
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.13
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.14
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.15
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.16
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.17
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.18
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.19
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.2
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.20
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.21
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.22
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.23
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.24
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.25
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.26
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.27
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.28
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.29
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.3
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.30
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.31
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.32
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.33
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.34
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.35
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.36
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.37
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.38
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.39
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.4
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.40
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.41
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.42
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.43
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.44
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.5
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.6
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.7
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.8
+- -[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:].cold.9
+- -[VCPMovieAnalyzer analyzeVideoTrack:start:forAnalysisTypes:cancel:].cold.1
+- -[VCPMovieAnalyzer analyzeVideoTrack:start:forAnalysisTypes:cancel:].cold.2
+- -[VCPMovieAnalyzer analyzeVideoTrack:start:forAnalysisTypes:cancel:].cold.3
+- -[VCPMovieAnalyzer generateAndPersistVideoThumbnailResources:forPHAsset:withResults:cancelBlock:].cold.1
+- -[VCPMovieAnalyzer generateKeyFrameResource:].cold.1
+- -[VCPMovieAnalyzer generateKeyFrameResource:].cold.2
+- -[VCPMovieAnalyzer generateKeyFrameResource:].cold.3
+- -[VCPMovieAnalyzer initWithVCPAsset:withExistingAnalysis:forAnalysisTypes:withOptions:].cold.1
+- -[VCPMovieAnalyzer performMetadataAnalysisOnAsset:withCancelBlock:].cold.1
+- -[VCPMovieAnalyzer performMetadataAnalysisOnAsset:withCancelBlock:].cold.2
+- -[VCPMovieAssetWriter addAuxPixelBuffer:withTime:withAttachment:].cold.1
+- -[VCPMovieAssetWriter addAuxPixelBuffer:withTime:withAttachment:].cold.2
+- -[VCPMovieAssetWriter addAuxPixelBuffer:withTime:withAttachment:].cold.3
+- -[VCPMovieAssetWriter addAuxPixelBuffer:withTime:withAttachment:].cold.4
+- -[VCPMovieAssetWriter addAuxPixelBuffer:withTime:withAttachment:].cold.5
+- -[VCPMovieAssetWriter addLivePhotoInfoBuffer:].cold.1
+- -[VCPMovieAssetWriter addLivePhotoInfoBuffer:].cold.2
+- -[VCPMovieAssetWriter addPixelBuffer:withTime:withAttachment:].cold.1
+- -[VCPMovieAssetWriter addPixelBuffer:withTime:withAttachment:].cold.2
+- -[VCPMovieAssetWriter addPixelBuffer:withTime:withAttachment:].cold.3
+- -[VCPMovieAssetWriter addPixelBuffer:withTime:withAttachment:].cold.4
+- -[VCPMovieAssetWriter addPixelBuffer:withTime:withAttachment:].cold.5
+- -[VCPMovieAssetWriter appendMetadataTrack].cold.1
+- -[VCPMovieAssetWriter appendMetadataTrack].cold.2
+- -[VCPMovieAssetWriter appendMetadataTrack].cold.3
+- -[VCPMovieAssetWriter copyPixelBuffer:toPixelBuffer:].cold.1
+- -[VCPMovieAssetWriter copyPixelBuffer:toPixelBuffer:].cold.2
+- -[VCPMovieAssetWriter copyPixelBuffer:toPixelBuffer:].cold.3
+- -[VCPMovieAssetWriter copyPixelBuffer:toPixelBuffer:].cold.4
+- -[VCPMovieAssetWriter copyPixelBufferForDelta:toPixelBuffer:].cold.1
+- -[VCPMovieAssetWriter copyPixelBufferForDelta:toPixelBuffer:].cold.2
+- -[VCPMovieAssetWriter copyPixelBufferForDelta:toPixelBuffer:].cold.3
+- -[VCPMovieAssetWriter copyPixelBufferForDelta:toPixelBuffer:].cold.4
+- -[VCPMovieAssetWriter dispatchEncoding].cold.1
+- -[VCPMovieAssetWriter dispatchEncoding].cold.2
+- -[VCPMovieAssetWriter finish].cold.1
+- -[VCPMovieAssetWriter initWithURL:andTrack:andBitrate:withOutputSize:enableAudio:enableStyle:hasStyleApplied:].cold.1
+- -[VCPMovieAssetWriter initWithURL:andTrack:andBitrate:withOutputSize:enableAudio:enableStyle:hasStyleApplied:].cold.2
+- -[VCPMovieAssetWriter initWithURL:andTrack:andBitrate:withOutputSize:enableAudio:enableStyle:hasStyleApplied:].cold.3
+- -[VCPMovieAssetWriter initWithURL:andTrack:andBitrate:withOutputSize:enableAudio:enableStyle:hasStyleApplied:].cold.4
+- -[VCPMovieAssetWriter initWithURL:andTrack:andBitrate:withOutputSize:enableAudio:enableStyle:hasStyleApplied:].cold.5
+- -[VCPMovieAssetWriter initWithURL:andTrack:andBitrate:withOutputSize:enableAudio:enableStyle:hasStyleApplied:].cold.6
+- -[VCPMovieAssetWriter setupAdditionalAuxTrack].cold.1
+- -[VCPMovieAssetWriter setupAudioTrack].cold.1
+- -[VCPMovieAssetWriter setupAudioTrack].cold.2
+- -[VCPMovieAssetWriter setupAuxTrack:withOutputSize:].cold.1
+- -[VCPMovieAssetWriter setupMetadataTrack].cold.1
+- -[VCPMovieAssetWriter setupMetadataTrack].cold.2
+- -[VCPMovieAssetWriter setupMetadataTrack].cold.3
+- -[VCPMovieAssetWriter setupMetadataTrack].cold.4
+- -[VCPMovieAssetWriter setupMetadataTrack].cold.5
+- -[VCPMovieAssetWriter setupMetadataTrack].cold.6
+- -[VCPMovieAssetWriter setupMetadataTrack].cold.7
+- -[VCPMovieAssetWriter setupMetadataTrack].cold.8
+- -[VCPMovieAssetWriter setupMetadataTrack].cold.9
+- -[VCPMovieAssetWriter setupVideoTrack:withOutputSize:].cold.1
+- -[VCPMovieCurationAnalyzer analyzeKeyFrame:timestamp:duration:frameStats:flags:photoOffset:].cold.1
+- -[VCPMovieCurationAnalyzer analyzeKeyFrame:timestamp:duration:frameStats:flags:photoOffset:].cold.2
+- -[VCPMovieCurationAnalyzer analyzeKeyFrame:timestamp:duration:frameStats:flags:photoOffset:].cold.3
+- -[VCPMovieCurationAnalyzer generateMovieCurations].cold.1
+- -[VCPMovieCurationAnalyzer generateMovieCurations].cold.2
+- -[VCPMovieCurationAnalyzer generateMovieCurations].cold.3
+- -[VCPMovieCurationAnalyzer initWithAnalysisTypes:transform:timeRange:isLivePhoto:photoOffset:hadFlash:hadZoom:settlingHadZoom:keyFrameResults:isTimelapse:preferredTimeRange:asset:].cold.1
+- -[VCPMovieCurationAnalyzer postProcessKeyFrames].cold.1
+- -[VCPMovieCurationAnalyzer reportMovieCurationAnalysisResults:withSummaryAnalytics:].cold.1
+- -[VCPMovieCurationResults initWithPHAsset:].cold.1
+- -[VCPMovieHighlightAnalyzer adjustHighlightWithContext:].cold.1
+- -[VCPMovieHighlightAnalyzer adjustHighlightWithContext:].cold.2
+- -[VCPMovieHighlightAnalyzer adjustHighlightWithContext:].cold.3
+- -[VCPMovieHighlightAnalyzer computeColorNormalization].cold.1
+- -[VCPMovieHighlightAnalyzer computeColorNormalization].cold.2
+- -[VCPMovieHighlightAnalyzer evaluateSegment:].cold.1
+- -[VCPMovieHighlightAnalyzer generateHighlights].cold.1
+- -[VCPMovieHighlightAnalyzer generateHighlights].cold.2
+- -[VCPMovieHighlightAnalyzer generateHighlights].cold.3
+- -[VCPMovieHighlightAnalyzer generateHighlights].cold.4
+- -[VCPMovieHighlightAnalyzer generateHighlights].cold.5
+- -[VCPMovieHighlightAnalyzer generateHighlights].cold.6
+- -[VCPMovieHighlightAnalyzer initWithAnalysisType:isLivePhoto:photoOffset:hadFlash:hadZoom:settlingHadZoom:isTimelapse:preferredTimeRange:asset:].cold.1
+- -[VCPMovieHighlightAnalyzer initWithAnalysisType:isLivePhoto:photoOffset:hadFlash:hadZoom:settlingHadZoom:isTimelapse:preferredTimeRange:asset:].cold.2
+- -[VCPMovieHighlightAnalyzer initWithPostProcessOptions:asset:].cold.1
+- -[VCPMovieHighlightAnalyzer initWithPostProcessOptions:asset:].cold.2
+- -[VCPMovieHighlightAnalyzer pickHighlightsFrom:].cold.1
+- -[VCPParallaxAnalyzer analyzeAsset:cancel:results:].cold.1
+- -[VCPParallaxAnalyzer exportWallpaperForAsset:withOptions:cancel:results:].cold.1
+- -[VCPParallaxAnalyzer upgradeWallPaperAtURL:toURL:cancel:results:].cold.1
+- -[VCPParallaxAnalyzer upgradeWallPaperAtURL:toURL:cancel:results:].cold.2
+- -[VCPPetsPoseImageRequest parseResults:observations:].cold.1
+- -[VCPPetsPoseImageRequest parseResults:observations:].cold.2
+- -[VCPPetsPoseImageRequest processImage:withOptions:error:].cold.1
+- -[VCPPetsPoseImageRequest processImage:withOptions:error:].cold.2
+- -[VCPPetsPoseImageRequest processImage:withOptions:error:].cold.3
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.1
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.10
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.11
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.12
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.13
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.14
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.15
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.16
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.17
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.18
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.19
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.2
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.20
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.3
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.4
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.5
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.6
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.7
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.8
+- -[VCPPhotoAnalyzer analyzeAsset:withOptions:].cold.9
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.1
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.10
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.11
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.12
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.13
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.14
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.15
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.16
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.17
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.18
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.19
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.2
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.20
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.21
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.22
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.23
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.24
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.25
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.26
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.3
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.4
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.5
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.6
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.7
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.8
+- -[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:].cold.9
+- -[VCPPhotoAnalyzer checkFaceDominant].cold.1
+- -[VCPPhotoAnalyzer checkFaceDominant].cold.2
+- -[VCPPhotoAnalyzer downscaleImage:scaledImage:majorDimension:].cold.1
+- -[VCPPhotoAnalyzer downscaleImage:scaledImage:majorDimension:].cold.2
+- -[VCPPhotoAnalyzer initWithPHAsset:existingAnalysis:analysisTypes:downloadedData:].cold.1
+- -[VCPPhotoAnalyzer initWithVCPAsset:withExistingAnalysis:forAnalysisTypes:].cold.1
+- -[VCPPhotosAutoCounterWorker _loadGroundTruthURL:toGroundTruth:error:].cold.1
+- -[VCPPhotosAutoCounterWorker _measureClusterWithClusterStateURL:groundTruthFaceCountPerPerson:groundTruthPersonInformation:groundTruthFaceToPerson:groundTruthAssetToFaces:measures:extendTimeoutBlock:cancelBlock:].cold.1
+- -[VCPPhotosAutoCounterWorker _measureClusterWithClusterStateURL:groundTruthFaceCountPerPerson:groundTruthPersonInformation:groundTruthFaceToPerson:groundTruthAssetToFaces:measures:extendTimeoutBlock:cancelBlock:].cold.2
+- -[VCPPhotosAutoCounterWorker _measurePNPersonClusters:groundTruthFaceCountPerPerson:groundTruthPersonInformation:groundTruthFaceToPerson:groundTruthAssetToFaces:measures:extendTimeoutBlock:cancelBlock:].cold.1
+- -[VCPPhotosAutoCounterWorker calculateAndReportClusterAccuracyWithVisionClusterURL:andPersonClusters:withGroundtruth:results:extendTimeoutBlock:cancelBlock:].cold.1
+- -[VCPPhotosAutoCounterWorker validateClusterAccuracyWithSIMLGroundtruth:results:extendTimeoutBlock:cancelBlock:].cold.1
+- -[VCPPhotosQuickFaceDetectionManager processAsset:].cold.1
+- -[VCPPhotosQuickFaceDetectionManager processAsset:].cold.2
+- -[VCPPhotosQuickFaceIdentificationManager _generatePersonsModelWithExtendTimeoutBlock:cancel:evaluationMode:allowUnverifiedPerson:].cold.1
+- -[VCPPhotosQuickFaceIdentificationManager processAsset:onDemandDetection:detectedFaces:detectedPersons:].cold.1
+- -[VCPPhotosQuickFaceIdentificationManager processAsset:onDemandDetection:detectedFaces:detectedPersons:].cold.2
+- -[VCPPhotosQuickFaceIdentificationManager processAsset:onDemandDetection:detectedFaces:detectedPersons:].cold.3
+- -[VCPPhotosSceneprintAssetProcessingTask run:].cold.1
+- -[VCPPhotosSceneprintAssetProcessingTask run:].cold.2
+- -[VCPPhotosSceneprintAssetProcessingTask run:].cold.3
+- -[VCPPnPSolver computeBarycentricCoordinates].cold.1
+- -[VCPPnPSolver computeRT:T:].cold.1
+- -[VCPPnPSolver computeSVDVt:Vt:].cold.1
+- -[VCPPnPSolver estimateBetasN1:R6x1:betas:].cold.1
+- -[VCPPnPSolver estimateBetasN2:R6x1:betas:].cold.1
+- -[VCPPnPSolver estimateBetasN3:R6x1:betas:].cold.1
+- -[VCPPnPSolver estimateExtrinsicsWith:andPoints3D:andNumPoints:].cold.1
+- -[VCPPnPSolver estimateExtrinsicsWith:andPoints3D:andNumPoints:].cold.2
+- -[VCPPnPSolver estimateExtrinsicsWith:andPoints3D:andNumPoints:].cold.3
+- -[VCPPnPSolver estimatePose:].cold.1
+- -[VCPPnPSolver estimatePose:].cold.2
+- -[VCPPnPSolver estimatePose:].cold.3
+- -[VCPPnPSolver estimatePose:].cold.4
+- -[VCPPnPSolver estimatePose:].cold.5
+- -[VCPPnPSolver estimatePose:].cold.6
+- -[VCPPnPSolver estimatePose:].cold.7
+- -[VCPPnPSolver estimatePose:].cold.8
+- -[VCPPnPSolver estimatePose:].cold.9
+- -[VCPPnPSolver estimateRT:betas:R:T:projectionError:].cold.1
+- -[VCPPnPSolver getControlPoints].cold.1
+- -[VCPPnPSolver getControlPoints].cold.2
+- -[VCPPoolBasedPixelBufferCreator createPixelBuffer:].cold.1
+- -[VCPPoolBasedPixelBufferCreator createPixelBuffer:].cold.2
+- -[VCPPreAnalysisImage pixelBuffer:width:height:].cold.1
+- -[VCPPreAnalysisImage preWarmWidth:andHeight:].cold.1
+- -[VCPPreAnalysisImageLoader _convertFromBuffer:toLumaPixelBuffer:abnormalDimension:].cold.1
+- -[VCPPreAnalysisImageLoader _convertFromBuffer:toLumaPixelBuffer:abnormalDimension:].cold.2
+- -[VCPPreAnalysisImageLoader _convertFromBuffer:toLumaPixelBuffer:abnormalDimension:].cold.3
+- -[VCPPreAnalysisImageLoader _convertFromBuffer:toLumaPixelBuffer:abnormalDimension:].cold.4
+- -[VCPPreAnalysisImageLoader loadImageURL:abnormalDimension:withNonPanoPreWarmSizes:toColorPixelBuffer:lumaPixelBuffer:andImage:].cold.1
+- -[VCPPreAnalysisImageLoader loadImageURL:abnormalDimension:withNonPanoPreWarmSizes:toColorPixelBuffer:lumaPixelBuffer:andImage:].cold.2
+- -[VCPPreAnalysisImageLoader loadImageURL:abnormalDimension:withNonPanoPreWarmSizes:toColorPixelBuffer:lumaPixelBuffer:andImage:].cold.3
+- -[VCPPreAnalyzer _collectSceneAnalysisResults:fromRequests:wpResults:safetyNResults:safetyGVResults:abnormalDimension:].cold.10
+- -[VCPPreAnalyzer _collectSceneAnalysisResults:fromRequests:wpResults:safetyNResults:safetyGVResults:abnormalDimension:].cold.11
+- -[VCPPreAnalyzer _collectSceneAnalysisResults:fromRequests:wpResults:safetyNResults:safetyGVResults:abnormalDimension:].cold.12
+- -[VCPPreAnalyzer _collectSceneAnalysisResults:fromRequests:wpResults:safetyNResults:safetyGVResults:abnormalDimension:].cold.13
+- -[VCPPreAnalyzer _collectSceneAnalysisResults:fromRequests:wpResults:safetyNResults:safetyGVResults:abnormalDimension:].cold.14
+- -[VCPPreAnalyzer _collectSceneAnalysisResults:fromRequests:wpResults:safetyNResults:safetyGVResults:abnormalDimension:].cold.2
+- -[VCPPreAnalyzer _collectSceneAnalysisResults:fromRequests:wpResults:safetyNResults:safetyGVResults:abnormalDimension:].cold.3
+- -[VCPPreAnalyzer _collectSceneAnalysisResults:fromRequests:wpResults:safetyNResults:safetyGVResults:abnormalDimension:].cold.4
+- -[VCPPreAnalyzer _collectSceneAnalysisResults:fromRequests:wpResults:safetyNResults:safetyGVResults:abnormalDimension:].cold.5
+- -[VCPPreAnalyzer _collectSceneAnalysisResults:fromRequests:wpResults:safetyNResults:safetyGVResults:abnormalDimension:].cold.6
+- -[VCPPreAnalyzer _collectSceneAnalysisResults:fromRequests:wpResults:safetyNResults:safetyGVResults:abnormalDimension:].cold.7
+- -[VCPPreAnalyzer _collectSceneAnalysisResults:fromRequests:wpResults:safetyNResults:safetyGVResults:abnormalDimension:].cold.8
+- -[VCPPreAnalyzer _collectSceneAnalysisResults:fromRequests:wpResults:safetyNResults:safetyGVResults:abnormalDimension:].cold.9
+- -[VCPPreAnalyzer _performAnalysis:mediaType:mediaSubtypes:abnormalDimension:colorPixelBuffer:andLumaPixelBuffer:image:].cold.1
+- -[VCPPreAnalyzer _performBlurAnalysis:withLumaPixelBuffer:abnormalDimension:isSDOF:].cold.1
+- -[VCPPreAnalyzer _performBlurAnalysis:withLumaPixelBuffer:abnormalDimension:isSDOF:].cold.2
+- -[VCPPreAnalyzer _performBlurAnalysis:withPixelBuffer:usingAnalyzer:].cold.10
+- -[VCPPreAnalyzer _performBlurAnalysis:withPixelBuffer:usingAnalyzer:].cold.11
+- -[VCPPreAnalyzer _performBlurAnalysis:withPixelBuffer:usingAnalyzer:].cold.5
+- -[VCPPreAnalyzer _performBlurAnalysis:withPixelBuffer:usingAnalyzer:].cold.6
+- -[VCPPreAnalyzer _performBlurAnalysis:withPixelBuffer:usingAnalyzer:].cold.7
+- -[VCPPreAnalyzer _performBlurAnalysis:withPixelBuffer:usingAnalyzer:].cold.8
+- -[VCPPreAnalyzer _performBlurAnalysis:withPixelBuffer:usingAnalyzer:].cold.9
+- -[VCPPreAnalyzer _performEmbeddingAnalysis:withColorPixelBuffer:].cold.10
+- -[VCPPreAnalyzer _performEmbeddingAnalysis:withColorPixelBuffer:].cold.11
+- -[VCPPreAnalyzer _performEmbeddingAnalysis:withColorPixelBuffer:].cold.5
+- -[VCPPreAnalyzer _performEmbeddingAnalysis:withColorPixelBuffer:].cold.6
+- -[VCPPreAnalyzer _performEmbeddingAnalysis:withColorPixelBuffer:].cold.7
+- -[VCPPreAnalyzer _performEmbeddingAnalysis:withColorPixelBuffer:].cold.8
+- -[VCPPreAnalyzer _performEmbeddingAnalysis:withColorPixelBuffer:].cold.9
+- -[VCPPreAnalyzer _performExposureAnalysis:withLumaPixelBuffer:].cold.1
+- -[VCPPreAnalyzer _performRotationAnalysis:withColorPixelBuffer:].cold.4
+- -[VCPPreAnalyzer _performRotationAnalysis:withColorPixelBuffer:].cold.5
+- -[VCPPreAnalyzer _performRotationAnalysis:withColorPixelBuffer:].cold.6
+- -[VCPPreAnalyzer _performRotationAnalysis:withColorPixelBuffer:].cold.7
+- -[VCPPreAnalyzer _performRotationAnalysis:withColorPixelBuffer:].cold.8
+- -[VCPPreAnalyzer _performRotationAnalysis:withColorPixelBuffer:].cold.9
+- -[VCPPreAnalyzer _performSceneAnalysis:image:mediaType:mediaSubtypes:abnormalDimension:].cold.1
+- -[VCPPreAnalyzer _performSceneAnalysis:image:mediaType:mediaSubtypes:abnormalDimension:].cold.2
+- -[VCPPreAnalyzer _performSceneAnalysis:image:mediaType:mediaSubtypes:abnormalDimension:].cold.3
+- -[VCPPreAnalyzer _performWallpaperAnalysis:withSceneprint:].cold.1
+- -[VCPPriorityAnalysis calculatePriorityScore:ofPixelBuffer:withMetadata:].cold.1
+- -[VCPPriorityAnalysis fastSignLanguageDetection:ofPixelBuffer:withMetadata:].cold.1
+- -[VCPPriorityAnalysis fastSignLanguageDetection:ofPixelBuffer:withMetadata:].cold.2
+- -[VCPPriorityAnalysis fastSignLanguageDetection:ofPixelBuffer:withMetadata:].cold.3
+- -[VCPPriorityAnalysis fastSignLanguageDetection:ofPixelBuffer:withMetadata:].cold.4
+- -[VCPPriorityAnalysis fastSignLanguageDetection:ofPixelBuffer:withMetadata:].cold.5
+- -[VCPPriorityAnalysis fastSignLanguageDetection:ofPixelBuffer:withMetadata:].cold.6
+- -[VCPRTLandmarkDetector initFromConfigFile:numStage:numLandmarks:numTreePerStage:depthOfTree:numFeatures:].cold.1
+- -[VCPRTLandmarkDetector initFromConfigFile:numStage:numLandmarks:numTreePerStage:depthOfTree:numFeatures:].cold.2
+- -[VCPSceneChangeAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.1
+- -[VCPSceneProcessingImageManager _createPixelBuffer:withColorSpace:fromPixelBuffer:].cold.4
+- -[VCPSceneProcessingImageManager _createPixelBuffer:withColorSpace:fromPixelBuffer:].cold.5
+- -[VCPSceneProcessingImageManager _createPixelBuffer:withColorSpace:fromPixelBuffer:].cold.6
+- -[VCPSceneProcessingImageManager _createPixelBuffer:withColorSpace:fromPixelBuffer:].cold.7
+- -[VCPSceneProcessingImageManager _createPixelBuffer:withColorSpace:fromPixelBuffer:].cold.8
+- -[VCPSceneProcessingImageManager _createPixelBuffer:withMinorDimension:fromFullPixelBuffer:].cold.1
+- -[VCPSceneProcessingImageManager _createPixelBuffer:withMinorDimension:fromFullPixelBuffer:].cold.2
+- -[VCPSceneProcessingImageManager _createPixelBuffer:withWidth:andHeight:].cold.1
+- -[VCPSceneProcessingImageManager _pooledPixelBuffer:withDimension:].cold.1
+- -[VCPSceneProcessingImageManager _pooledPixelBuffer:withDimension:].cold.2
+- -[VCPSceneProcessingImageManager fullPixelBuffer:toScaledBuffer:].cold.5
+- -[VCPSceneProcessingImageManager fullPixelBuffer:toScaledBuffer:].cold.6
+- -[VCPSceneProcessingImageManager fullPixelBuffer:toScaledBuffer:].cold.7
+- -[VCPSceneProcessingImageManager fullPixelBuffer:toScaledBuffer:].cold.8
+- -[VCPSceneProcessingImageManager fullPixelBuffer:toScaledBuffer:].cold.9
+- -[VCPSceneProcessingImageManager loadFullPixelBuffer:scaledPixelBuffer299:scaledPixelBuffer360:fromImageURL:abnormalDimension:].cold.1
+- -[VCPSceneProcessingImageManager loadFullPixelBuffer:scaledPixelBuffer299:scaledPixelBuffer360:fromImageURL:abnormalDimension:].cold.2
+- -[VCPSceneProcessingImageManager loadFullPixelBuffer:scaledPixelBuffer299:scaledPixelBuffer360:fromImageURL:abnormalDimension:].cold.3
+- -[VCPSceneProcessingImageManager loadFullPixelBuffer:scaledPixelBuffer299:scaledPixelBuffer360:fromImageURL:abnormalDimension:].cold.4
+- -[VCPSceneProcessingImageManager loadFullPixelBuffer:scaledPixelBuffer299:scaledPixelBuffer360:fromImageURL:abnormalDimension:].cold.5
+- -[VCPSceneProcessingImageManager loadFullPixelBuffer:scaledPixelBuffer299:scaledPixelBuffer360:fromImageURL:abnormalDimension:].cold.6
+- -[VCPSceneProcessingImageManager loadFullPixelBuffer:scaledPixelBuffer299:scaledPixelBuffer360:fromImageURL:abnormalDimension:].cold.7
+- -[VCPSceneProcessingImageManager loadFullPixelBuffer:scaledPixelBuffer299:scaledPixelBuffer360:fromImageURL:abnormalDimension:].cold.8
+- -[VCPSceneProcessingImageManager scalePixelBuffer:toPixelBuffer:width:height:].cold.1
+- -[VCPSceneProcessingImageManager scalePixelBuffer:toPixelBuffer:width:height:].cold.2
+- -[VCPSceneProcessingImageManager scalePixelBuffer:toPixelBuffer:width:height:].cold.3
+- -[VCPSceneprintDescriptor computeDistance:toDescriptor:].cold.1
+- -[VCPSceneprintDescriptor computeDistance:toDescriptor:].cold.2
+- -[VCPSceneprintDescriptor initWithImage:].cold.1
+- -[VCPSceneprintDescriptor initWithImage:].cold.2
+- -[VCPSceneprintDescriptor initWithImage:].cold.3
+- -[VCPSceneprintDescriptor initWithImage:].cold.4
+- -[VCPSceneprintDescriptor initWithImage:].cold.5
+- -[VCPSettlingEffectAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.1
+- -[VCPSettlingEffectAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.10
+- -[VCPSettlingEffectAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.2
+- -[VCPSettlingEffectAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.3
+- -[VCPSettlingEffectAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.4
+- -[VCPSettlingEffectAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.5
+- -[VCPSettlingEffectAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.6
+- -[VCPSettlingEffectAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.7
+- -[VCPSettlingEffectAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.8
+- -[VCPSettlingEffectAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.9
+- -[VCPSettlingEffectAnalyzer createLivePhotoInfoSample:withTimestamp:isInterpolated:updatedSample:].cold.1
+- -[VCPSettlingEffectAnalyzer createLivePhotoInfoSample:withTimestamp:isInterpolated:updatedSample:].cold.2
+- -[VCPSettlingEffectAnalyzer createLivePhotoInfoSample:withTimestamp:isInterpolated:updatedSample:].cold.3
+- -[VCPSettlingEffectAnalyzer finishAnalysisPass:withStillImageBuffer:].cold.1
+- -[VCPSettlingEffectAnalyzer finishAnalysisPass:withStillImageBuffer:].cold.10
+- -[VCPSettlingEffectAnalyzer finishAnalysisPass:withStillImageBuffer:].cold.11
+- -[VCPSettlingEffectAnalyzer finishAnalysisPass:withStillImageBuffer:].cold.2
+- -[VCPSettlingEffectAnalyzer finishAnalysisPass:withStillImageBuffer:].cold.3
+- -[VCPSettlingEffectAnalyzer finishAnalysisPass:withStillImageBuffer:].cold.4
+- -[VCPSettlingEffectAnalyzer finishAnalysisPass:withStillImageBuffer:].cold.5
+- -[VCPSettlingEffectAnalyzer finishAnalysisPass:withStillImageBuffer:].cold.6
+- -[VCPSettlingEffectAnalyzer finishAnalysisPass:withStillImageBuffer:].cold.7
+- -[VCPSettlingEffectAnalyzer finishAnalysisPass:withStillImageBuffer:].cold.8
+- -[VCPSettlingEffectAnalyzer finishAnalysisPass:withStillImageBuffer:].cold.9
+- -[VCPSettlingEffectAnalyzer initWithTimestamps:andTrack:andRecipe:withOptions:].cold.1
+- -[VCPSettlingEffectAnalyzer initWithTimestamps:andTrack:andRecipe:withOptions:].cold.2
+- -[VCPSettlingEffectAnalyzer initWithTimestamps:andTrack:andRecipe:withOptions:].cold.3
+- -[VCPSettlingEffectAnalyzer initWithTimestamps:andTrack:andRecipe:withOptions:].cold.4
+- -[VCPSettlingEffectAnalyzer initWithTimestamps:andTrack:andRecipe:withOptions:].cold.5
+- -[VCPSettlingEffectAnalyzer initWithTimestamps:andTrack:andRecipe:withOptions:].cold.6
+- -[VCPSettlingEffectAnalyzer initWithTimestamps:andTrack:andRecipe:withOptions:].cold.7
+- -[VCPSettlingEffectAnalyzer resamplePixelBuffer:cleanApertureRect:cropRect:homographyArray:].cold.1
+- -[VCPSettlingEffectAnalyzer setupLivePhotoInfoOutput:].cold.1
+- -[VCPSettlingEffectAnalyzer setupLivePhotoInfoOutput:].cold.2
+- -[VCPSimpleMovieAssetWriter addPixelBuffer:withTime:].cold.1
+- -[VCPSimpleMovieAssetWriter addPixelBuffer:withTime:].cold.2
+- -[VCPSimpleMovieAssetWriter addPixelBuffer:withTime:].cold.3
+- -[VCPSimpleMovieAssetWriter addPixelBuffer:withTime:].cold.4
+- -[VCPSimpleMovieAssetWriter addPixelBuffer:withTime:].cold.5
+- -[VCPSimpleMovieAssetWriter addPixelBuffer:withTime:].cold.6
+- -[VCPSimpleMovieAssetWriter copyPixelBuffer:toPixelBuffer:].cold.1
+- -[VCPSimpleMovieAssetWriter copyPixelBuffer:toPixelBuffer:].cold.2
+- -[VCPSimpleMovieAssetWriter copyPixelBuffer:toPixelBuffer:].cold.3
+- -[VCPSimpleMovieAssetWriter copyPixelBuffer:toPixelBuffer:].cold.4
+- -[VCPSimpleMovieAssetWriter finish].cold.1
+- -[VCPSmartStyleMetaAnalyzer initWithRequestAnalyses:formatDescription:].cold.1
+- -[VCPSmartStyleMetaAnalyzer processMetadataGroup:flags:].cold.1
+- -[VCPSongDetector processAudioSamples:timestamp:].cold.1
+- -[VCPSongDetector setupWithSample:andSampleBatchSize:].cold.1
+- -[VCPSongDetector setupWithSample:andSampleBatchSize:].cold.2
+- -[VCPSongDetector setupWithSample:andSampleBatchSize:].cold.3
+- -[VCPStillImageMetaAnalyzer initWithRequestAnalyses:formatDescription:].cold.1
+- -[VCPStillImageMetaAnalyzer processMetadataGroup:flags:].cold.1
+- -[VCPTextEncoder init].cold.1
+- -[VCPTextEncoder init].cold.2
+- -[VCPTextEncoder init].cold.3
+- -[VCPTextEncoder textEmbeddingForQuery:useFP16:].cold.1
+- -[VCPTextEncoder textEmbeddingForQuery:useFP16:].cold.2
+- -[VCPTextEncoder textEmbeddingForQuery:useFP16:].cold.3
+- -[VCPTextEncoder textEmbeddingForQuery:useFP16:].cold.4
+- -[VCPTimeMeasurement start].cold.1
+- -[VCPTimeMeasurement start].cold.2
+- -[VCPTimeMeasurement stop].cold.1
+- -[VCPTransforms cropAndScale:regionCrop:].cold.1
+- -[VCPURLAsset scenes].cold.1
+- -[VCPURLAsset scenes].cold.2
+- -[VCPURLAsset scenes].cold.3
+- -[VCPURLAsset(Image) initWithImageURL:isSDOF:].cold.1
+- -[VCPURLAsset(Image) initWithImageURL:isSDOF:].cold.2
+- -[VCPURLAsset(LivePhoto) initWithImageURL:andMovieURL:].cold.1
+- -[VCPURLAsset(LivePhoto) initWithImageURL:andMovieURL:].cold.2
+- -[VCPURLAsset(LivePhoto) initWithImageURL:andMovieURL:].cold.3
+- -[VCPURLAsset(Movie) initWithMovieURL:].cold.1
+- -[VCPURLAsset(Movie) initWithMovieURL:].cold.2
+- -[VCPVanishingPointDetector calculateOrientationResponses].cold.1
+- -[VCPVanishingPointDetector calculateOrientationResponses].cold.2
+- -[VCPVanishingPointDetector detect:withConfidence:dominantLine:].cold.1
+- -[VCPVanishingPointDetector detect:withConfidence:dominantLine:].cold.2
+- -[VCPVanishingPointDetector detect:withConfidence:dominantLine:].cold.3
+- -[VCPVanishingPointDetector detect:withConfidence:dominantLine:].cold.4
+- -[VCPVanishingPointDetector detect:withConfidence:dominantLine:].cold.5
+- -[VCPVanishingPointDetector detect:withConfidence:dominantLine:].cold.6
+- -[VCPVanishingPointDetector generateLineWeightMap:weightMap:].cold.1
+- -[VCPVanishingPointDetector generateOrientationMap].cold.1
+- -[VCPVanishingPointDetector initWithImage:].cold.1
+- -[VCPVanishingPointDetector prepareImage:].cold.1
+- -[VCPVanishingPointDetector prepareImage:].cold.2
+- -[VCPVanishingPointDetector prepareImage:].cold.3
+- -[VCPVanishingPointDetector prepareImage:].cold.4
+- -[VCPVanishingPointDetector prepareImage:].cold.5
+- -[VCPVanishingPointDetector prepareImage:].cold.6
+- -[VCPVanishingPointDetector searchVanishingPointandDominantLine:lineGroup:vanishingPoint:vanishingPointConfidence:dominantLine:].cold.1
+- -[VCPVideMetaOrientationAnalyzer init].cold.1
+- -[VCPVideMetaOrientationAnalyzer processMetadataGroup:flags:].cold.1
+- -[VCPVideoActivityAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:].cold.3
+- -[VCPVideoActivityAnalyzer computeActivityScoreAtTime:].cold.1
+- -[VCPVideoActivityAnalyzer computeActivityScoreAtTime:].cold.2
+- -[VCPVideoActivityAnalyzer computeActivityScoreAtTime:].cold.3
+- -[VCPVideoActivityAnalyzer extractRequiredClassificationInfoFrom:toArray:].cold.1
+- -[VCPVideoActivityAnalyzer extractRequiredFaceInfoFrom:toArray:].cold.1
+- -[VCPVideoActivityAnalyzer extractRequiredInfoFrom:toArray:].cold.1
+- -[VCPVideoActivityAnalyzer finishAnalysisPass:fpsRate:].cold.1
+- -[VCPVideoActivityAnalyzer init].cold.1
+- -[VCPVideoActivityAnalyzer init].cold.2
+- -[VCPVideoActivityAnalyzer init].cold.3
+- -[VCPVideoActivityAnalyzer init].cold.4
+- -[VCPVideoActivityAnalyzer init].cold.5
+- -[VCPVideoActivityAnalyzer init].cold.6
+- -[VCPVideoActivityAnalyzer init].cold.7
+- -[VCPVideoActivityAnalyzer preProcessQualityResults:interestingnessResults:obstructionResults:classificationResults:fineActionResults:faceResults:sceneSwitchFrequency:].cold.1
+- -[VCPVideoActivityAnalyzer preProcessQualityResults:interestingnessResults:obstructionResults:classificationResults:fineActionResults:faceResults:sceneSwitchFrequency:].cold.2
+- -[VCPVideoActivityAnalyzer preProcessQualityResults:interestingnessResults:obstructionResults:classificationResults:fineActionResults:faceResults:sceneSwitchFrequency:].cold.3
+- -[VCPVideoActivityAnalyzer preProcessQualityResults:interestingnessResults:obstructionResults:classificationResults:fineActionResults:faceResults:sceneSwitchFrequency:].cold.4
+- -[VCPVideoActivityAnalyzer preProcessQualityResults:interestingnessResults:obstructionResults:classificationResults:fineActionResults:faceResults:sceneSwitchFrequency:].cold.5
+- -[VCPVideoActivityAnalyzer preProcessQualityResults:interestingnessResults:obstructionResults:classificationResults:fineActionResults:faceResults:sceneSwitchFrequency:].cold.6
+- -[VCPVideoActivityDescriptor initWithFrameWidthInMb:heightInMb:].cold.1
+- -[VCPVideoActivityDescriptor initWithFrameWidthInMb:heightInMb:].cold.2
+- -[VCPVideoAnimalDetector analyzeFrame:faces:torsos:].cold.1
+- -[VCPVideoAnimalDetector analyzeFrame:faces:torsos:].cold.2
+- -[VCPVideoAnimalDetector analyzeFrame:faces:torsos:].cold.3
+- -[VCPVideoAnimalDetector analyzeFrame:faces:torsos:].cold.4
+- -[VCPVideoAnimalDetector analyzeFrame:faces:torsos:].cold.5
+- -[VCPVideoAnimalDetector analyzeFrame:faces:torsos:].cold.6
+- -[VCPVideoAnimalDetector analyzeFrame:withTimestamp:andDuration:flags:].cold.1
+- -[VCPVideoAnimalDetector analyzeFrame:withTimestamp:andDuration:flags:].cold.2
+- -[VCPVideoAnimalDetector analyzeFrame:withTimestamp:andDuration:flags:].cold.3
+- -[VCPVideoAnimalDetector finishAnalysisPass:].cold.1
+- -[VCPVideoAnimalDetector finishAnalysisPass:].cold.2
+- -[VCPVideoAnimalDetector finishAnalysisPass:].cold.3
+- -[VCPVideoAnimalDetector finishAnalysisPass:].cold.4
+- -[VCPVideoAnimalDetector updateWithExistingAnimals].cold.1
+- -[VCPVideoAnimalDetector updateWithExistingAnimals].cold.2
+- -[VCPVideoCNNActionClassifier initWithPHFaces:].cold.1
+- -[VCPVideoCNNActionClassifier initWithPHFaces:].cold.2
+- -[VCPVideoCNNActionClassifier initWithPHFaces:].cold.3
+- -[VCPVideoCNNActionClassifier initWithPHFaces:].cold.4
+- -[VCPVideoCNNActionClassifier initWithPHFaces:].cold.5
+- -[VCPVideoCNNActionClassifier run:withPersons:andRegionCrop:atTime:andDuration:].cold.1
+- -[VCPVideoCNNActionClassifier run:withPersons:andRegionCrop:atTime:andDuration:].cold.2
+- -[VCPVideoCNNActionClassifier run:withPersons:andRegionCrop:atTime:andDuration:].cold.3
+- -[VCPVideoCNNActionClassifier run:withPersons:andRegionCrop:atTime:andDuration:].cold.4
+- -[VCPVideoCNNAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.1
+- -[VCPVideoCNNAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.2
+- -[VCPVideoCNNAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.3
+- -[VCPVideoCNNAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.4
+- -[VCPVideoCNNAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.5
+- -[VCPVideoCNNAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.6
+- -[VCPVideoCNNAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.7
+- -[VCPVideoCNNAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.8
+- -[VCPVideoCNNAnalyzer configForAspectRatio:].cold.1
+- -[VCPVideoCNNAnalyzer configForAspectRatio:].cold.2
+- -[VCPVideoCNNAnalyzer configForAspectRatio:].cold.3
+- -[VCPVideoCNNAnalyzer configForAspectRatio:].cold.4
+- -[VCPVideoCNNAnalyzer copyImage:withChannels:settling:].cold.4
+- -[VCPVideoCNNAnalyzer copyImage:withChannels:settling:].cold.5
+- -[VCPVideoCNNAnalyzer copyImage:withChannels:settling:].cold.6
+- -[VCPVideoCNNAnalyzer copyImage:withChannels:settling:].cold.7
+- -[VCPVideoCNNAnalyzer copyMUBBImage:withChannels:].cold.4
+- -[VCPVideoCNNAnalyzer copyMUBBImage:withChannels:].cold.5
+- -[VCPVideoCNNAnalyzer copyMUBBImage:withChannels:].cold.6
+- -[VCPVideoCNNAnalyzer finishAnalysisPass:].cold.1
+- -[VCPVideoCNNAnalyzer finishAnalysisPass:].cold.2
+- -[VCPVideoCNNAnalyzer finishAnalysisPass:].cold.3
+- -[VCPVideoCNNAnalyzer initWithTimeOfInteret:frameRate:isLivePhoto:phFaces:timeRange:withEmbeddings:requestedAnalyses:photoOffset:].cold.1
+- -[VCPVideoCNNAnalyzer initWithTimeOfInteret:frameRate:isLivePhoto:phFaces:timeRange:withEmbeddings:requestedAnalyses:photoOffset:].cold.2
+- -[VCPVideoCNNAnalyzer initWithTimeOfInteret:frameRate:isLivePhoto:phFaces:timeRange:withEmbeddings:requestedAnalyses:photoOffset:].cold.3
+- -[VCPVideoCNNAnalyzer initWithTimeOfInteret:frameRate:isLivePhoto:phFaces:timeRange:withEmbeddings:requestedAnalyses:photoOffset:].cold.4
+- -[VCPVideoCNNAnalyzer initWithTimeOfInteret:frameRate:isLivePhoto:phFaces:timeRange:withEmbeddings:requestedAnalyses:photoOffset:].cold.5
+- -[VCPVideoCNNAnalyzer initWithTimeOfInteret:frameRate:isLivePhoto:phFaces:timeRange:withEmbeddings:requestedAnalyses:photoOffset:].cold.6
+- -[VCPVideoCNNAnalyzer initWithTimeOfInteret:frameRate:isLivePhoto:phFaces:timeRange:withEmbeddings:requestedAnalyses:photoOffset:].cold.7
+- -[VCPVideoCNNAnalyzer initWithTimeOfInteret:frameRate:isLivePhoto:phFaces:timeRange:withEmbeddings:requestedAnalyses:photoOffset:].cold.8
+- -[VCPVideoCNNAnalyzer initWithTimeOfInteret:frameRate:isLivePhoto:phFaces:timeRange:withEmbeddings:requestedAnalyses:photoOffset:].cold.9
+- -[VCPVideoCNNAnalyzer runTasks:duration:persons:regionCrop:].cold.1
+- -[VCPVideoCNNAnalyzer runTasks:duration:persons:regionCrop:].cold.2
+- -[VCPVideoCNNAnalyzer runTasks:duration:persons:regionCrop:].cold.3
+- -[VCPVideoCNNAnalyzer runTasks:duration:persons:regionCrop:].cold.4
+- -[VCPVideoCNNAnalyzer runTasks:duration:persons:regionCrop:].cold.5
+- -[VCPVideoCNNAnalyzer runTasks:duration:persons:regionCrop:].cold.6
+- -[VCPVideoCNNAutoplay init].cold.1
+- -[VCPVideoCNNAutoplay init].cold.2
+- -[VCPVideoCNNAutoplay run:].cold.1
+- -[VCPVideoCNNAutoplay run:].cold.2
+- -[VCPVideoCNNAutoplay run:].cold.3
+- -[VCPVideoCNNAutoplay run:].cold.4
+- -[VCPVideoCNNBackbone inference:settling:].cold.1
+- -[VCPVideoCNNBackbone initWithConfig:].cold.1
+- -[VCPVideoCNNBackbone initWithConfig:].cold.2
+- -[VCPVideoCNNCameraMotion init].cold.1
+- -[VCPVideoCNNCameraMotion init].cold.2
+- -[VCPVideoCNNCameraMotion init].cold.3
+- -[VCPVideoCNNCameraMotion init].cold.4
+- -[VCPVideoCNNCameraMotion run:withPersons:andRegionCrop:atTime:andDuration:].cold.1
+- -[VCPVideoCNNCameraMotion run:withPersons:andRegionCrop:atTime:andDuration:].cold.2
+- -[VCPVideoCNNCameraMotion run:withPersons:andRegionCrop:atTime:andDuration:].cold.3
+- -[VCPVideoCNNCameraMotion run:withPersons:andRegionCrop:atTime:andDuration:].cold.4
+- -[VCPVideoCNNHighlight init].cold.1
+- -[VCPVideoCNNHighlight init].cold.2
+- -[VCPVideoCNNHighlight run:withPersons:andRegionCrop:atTime:andDuration:].cold.1
+- -[VCPVideoCNNHighlight run:withPersons:andRegionCrop:atTime:andDuration:].cold.2
+- -[VCPVideoCNNHighlight run:withPersons:andRegionCrop:atTime:andDuration:].cold.3
+- -[VCPVideoCNNHighlight run:withPersons:andRegionCrop:atTime:andDuration:].cold.4
+- -[VCPVideoCNNHighlight run:withPersons:andRegionCrop:atTime:andDuration:].cold.5
+- -[VCPVideoCNNQuality init].cold.1
+- -[VCPVideoCNNQuality init].cold.2
+- -[VCPVideoCNNQuality run:withPersons:andRegionCrop:atTime:andDuration:].cold.1
+- -[VCPVideoCNNQuality run:withPersons:andRegionCrop:atTime:andDuration:].cold.2
+- -[VCPVideoCaptionAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.1
+- -[VCPVideoCaptionAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.2
+- -[VCPVideoCaptionAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.3
+- -[VCPVideoCaptionAnalyzer configInputBasedOnDevice].cold.1
+- -[VCPVideoCaptionAnalyzer configInputBasedOnDevice].cold.2
+- -[VCPVideoCaptionAnalyzer configVideoCaptionModels].cold.1
+- -[VCPVideoCaptionAnalyzer copyImage:withChannels:].cold.4
+- -[VCPVideoCaptionAnalyzer copyImage:withChannels:].cold.5
+- -[VCPVideoCaptionAnalyzer copyImage:withChannels:].cold.6
+- -[VCPVideoCaptionAnalyzer copyImage:withChannels:].cold.7
+- -[VCPVideoCaptionAnalyzer copyMUBBImage:withChannels:].cold.4
+- -[VCPVideoCaptionAnalyzer copyMUBBImage:withChannels:].cold.5
+- -[VCPVideoCaptionAnalyzer copyMUBBImage:withChannels:].cold.6
+- -[VCPVideoCaptionAnalyzer finishAnalysisPass:].cold.1
+- -[VCPVideoCaptionAnalyzer generateCaptionWithEmbedding:startTime:duration:].cold.1
+- -[VCPVideoCaptionAnalyzer inference:duration:].cold.1
+- -[VCPVideoCaptionAnalyzer inference:duration:].cold.2
+- -[VCPVideoCaptionAnalyzer initWithModelType:frameNumber:].cold.1
+- -[VCPVideoCaptionAnalyzer initWithModelType:frameNumber:].cold.2
+- -[VCPVideoCaptionEncoder inference:].cold.1
+- -[VCPVideoCaptionEncoder initWithModelPath:].cold.1
+- -[VCPVideoCaptionEncoder initWithModelPath:].cold.2
+- -[VCPVideoCaptionEncoder initWithModelPath:].cold.3
+- -[VCPVideoEmbeddings addEmbeddings:startTime:duration:].cold.1
+- -[VCPVideoFaceMeshAnalyzer analyzeFrame:withFaceRect:withRotation:withTimestamp:].cold.10
+- -[VCPVideoFaceMeshAnalyzer analyzeFrame:withFaceRect:withRotation:withTimestamp:].cold.11
+- -[VCPVideoFaceMeshAnalyzer analyzeFrame:withFaceRect:withRotation:withTimestamp:].cold.12
+- -[VCPVideoFaceMeshAnalyzer analyzeFrame:withFaceRect:withRotation:withTimestamp:].cold.13
+- -[VCPVideoFaceMeshAnalyzer analyzeFrame:withFaceRect:withRotation:withTimestamp:].cold.5
+- -[VCPVideoFaceMeshAnalyzer analyzeFrame:withFaceRect:withRotation:withTimestamp:].cold.6
+- -[VCPVideoFaceMeshAnalyzer analyzeFrame:withFaceRect:withRotation:withTimestamp:].cold.7
+- -[VCPVideoFaceMeshAnalyzer analyzeFrame:withFaceRect:withRotation:withTimestamp:].cold.8
+- -[VCPVideoFaceMeshAnalyzer analyzeFrame:withFaceRect:withRotation:withTimestamp:].cold.9
+- -[VCPVideoFaceMeshAnalyzer checkResolutionChange:withRotation:].cold.1
+- -[VCPVideoFaceMeshAnalyzer checkResolutionChange:withRotation:].cold.2
+- -[VCPVideoFaceMeshAnalyzer initWithFocalLengthInPixels:offline:isFastMode:].cold.1
+- -[VCPVideoFaceMeshAnalyzer initWithFocalLengthInPixels:offline:isFastMode:].cold.2
+- -[VCPVideoFaceMeshAnalyzer initWithFocalLengthInPixels:offline:isFastMode:].cold.3
+- -[VCPVideoFaceMeshAnalyzer initWithFocalLengthInPixels:offline:isFastMode:].cold.4
+- -[VCPVideoFaceMeshAnalyzer initWithFocalLengthInPixels:offline:isFastMode:].cold.5
+- -[VCPVideoFaceMeshAnalyzer initWithFocalLengthInPixels:offline:isFastMode:].cold.6
+- -[VCPVideoFaceMeshAnalyzer setFrame:].cold.1
+- -[VCPVideoFaceMeshAnalyzer setFrame:].cold.2
+- -[VCPVideoFaceMeshAnalyzer validateFace:eulerAngles:].cold.6
+- -[VCPVideoFaceMeshAnalyzer validateFace:eulerAngles:].cold.7
+- -[VCPVideoFaceMeshAnalyzer validateFace:eulerAngles:].cold.8
+- -[VCPVideoFaceMeshAnalyzer validateFace:eulerAngles:].cold.9
+- -[VCPVideoFacePoseAnalyzer analyzeFrameForPose:withFaceRect:withTimestamp:].cold.1
+- -[VCPVideoFacePoseAnalyzer analyzeFrameForPose:withFaceRect:withTimestamp:].cold.2
+- -[VCPVideoFacePoseAnalyzer analyzeFrameForPose:withFaceRect:withTimestamp:].cold.3
+- -[VCPVideoFacePoseAnalyzer analyzeFrameForPose:withFaceRect:withTimestamp:].cold.4
+- -[VCPVideoFacePoseAnalyzer analyzeFrameForPose:withFaceRect:withTimestamp:].cold.5
+- -[VCPVideoFacePoseAnalyzer analyzeFrameForPose:withFaceRect:withTimestamp:].cold.6
+- -[VCPVideoFacePoseAnalyzer analyzeFrameForPose:withFaceRect:withTimestamp:].cold.7
+- -[VCPVideoFacePoseAnalyzer analyzeFrameForPose:withFaceRect:withTimestamp:].cold.8
+- -[VCPVideoFacePoseAnalyzer analyzeFrameForPose:withFaceRect:withTimestamp:].cold.9
+- -[VCPVideoFacePoseAnalyzer initWithFocalLengthInPixels:].cold.1
+- -[VCPVideoFacePoseFilter filteringPose:].cold.1
+- -[VCPVideoFacePoseFilter filteringPose:].cold.2
+- -[VCPVideoFacePoseFilter filteringPose:].cold.3
+- -[VCPVideoFacePoseFilter kalmanFiltering:T:].cold.1
+- -[VCPVideoFullFaceDetector analyzeFrame:timestamp:duration:frameStats:flags:].cold.1
+- -[VCPVideoFullFaceDetector analyzeFrame:timestamp:duration:frameStats:flags:].cold.2
+- -[VCPVideoFullFaceDetector analyzeFrame:timestamp:duration:frameStats:flags:].cold.3
+- -[VCPVideoFullFaceDetector clusterFaces].cold.1
+- -[VCPVideoFullFaceDetector detectFaces:faces:torsos:frameStats:].cold.1
+- -[VCPVideoFullFaceDetector detectFaces:faces:torsos:frameStats:].cold.2
+- -[VCPVideoFullFaceDetector detectFaces:faces:torsos:frameStats:].cold.3
+- -[VCPVideoFullFaceDetector detectFaces:faces:torsos:frameStats:].cold.4
+- -[VCPVideoFullFaceDetector detectFaces:faces:torsos:frameStats:].cold.5
+- -[VCPVideoFullFaceDetector detectFaces:faces:torsos:frameStats:].cold.6
+- -[VCPVideoFullFaceDetector detectTrackFacesInFrame:withTimestamp:faces:torsos:frameStats:].cold.1
+- -[VCPVideoFullFaceDetector detectTrackFacesInFrame:withTimestamp:faces:torsos:frameStats:].cold.2
+- -[VCPVideoFullFaceDetector finishAnalysisPass:].cold.1
+- -[VCPVideoFullFaceDetector finishAnalysisPass:].cold.2
+- -[VCPVideoFullFaceDetector finishAnalysisPass:].cold.3
+- -[VCPVideoFullFaceDetector finishAnalysisPass:].cold.4
+- -[VCPVideoFullFaceDetector initWithTransform:withExistingFaceprints:].cold.1
+- -[VCPVideoFullFaceDetector initWithTransform:withExistingFaceprints:].cold.2
+- -[VCPVideoFullFaceDetector updateWithExistingFaces].cold.1
+- -[VCPVideoFullFaceDetector updateWithExistingFaces].cold.2
+- -[VCPVideoGlobalAnalyzer generateLivePhotoRecommendationForResults:andPrivateResults:usingFaceAction:].cold.1
+- -[VCPVideoGlobalAnalyzer setActivityLevel:].cold.1
+- -[VCPVideoGlobalAnalyzer setActivityLevel:].cold.2
+- -[VCPVideoGyroStabilizer convertAnalysisResult].cold.1
+- -[VCPVideoGyroStabilizer convertAnalysisResult].cold.2
+- -[VCPVideoGyroStabilizer convertAnalysisResult].cold.3
+- -[VCPVideoGyroStabilizer initWithMetadata:sourceSize:cropRect:stillImageMetadata:timeRange:].cold.1
+- -[VCPVideoHumanActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:].cold.1
+- -[VCPVideoHumanActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:].cold.2
+- -[VCPVideoHumanActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:].cold.3
+- -[VCPVideoHumanActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:].cold.4
+- -[VCPVideoHumanActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:].cold.5
+- -[VCPVideoHumanActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:].cold.6
+- -[VCPVideoInterpolator analyzeFrame:withTimestamp:andDuration:flags:].cold.1
+- -[VCPVideoInterpolator analyzeFrame:withTimestamp:andDuration:flags:].cold.10
+- -[VCPVideoInterpolator analyzeFrame:withTimestamp:andDuration:flags:].cold.11
+- -[VCPVideoInterpolator analyzeFrame:withTimestamp:andDuration:flags:].cold.12
+- -[VCPVideoInterpolator analyzeFrame:withTimestamp:andDuration:flags:].cold.13
+- -[VCPVideoInterpolator analyzeFrame:withTimestamp:andDuration:flags:].cold.14
+- -[VCPVideoInterpolator analyzeFrame:withTimestamp:andDuration:flags:].cold.15
+- -[VCPVideoInterpolator analyzeFrame:withTimestamp:andDuration:flags:].cold.2
+- -[VCPVideoInterpolator analyzeFrame:withTimestamp:andDuration:flags:].cold.3
+- -[VCPVideoInterpolator analyzeFrame:withTimestamp:andDuration:flags:].cold.4
+- -[VCPVideoInterpolator analyzeFrame:withTimestamp:andDuration:flags:].cold.5
+- -[VCPVideoInterpolator analyzeFrame:withTimestamp:andDuration:flags:].cold.6
+- -[VCPVideoInterpolator analyzeFrame:withTimestamp:andDuration:flags:].cold.7
+- -[VCPVideoInterpolator analyzeFrame:withTimestamp:andDuration:flags:].cold.8
+- -[VCPVideoInterpolator analyzeFrame:withTimestamp:andDuration:flags:].cold.9
+- -[VCPVideoInterpolator appendOutput:toTrack:startTimeStamp:endTimeStamp:offset:duration:].cold.1
+- -[VCPVideoInterpolator calculateDeltaforUnstyledFrame:styledFrame:withCoefficients:].cold.1
+- -[VCPVideoInterpolator calculateDeltaforUnstyledFrame:styledFrame:withCoefficients:].cold.2
+- -[VCPVideoInterpolator calculateDeltaforUnstyledFrame:styledFrame:withCoefficients:].cold.3
+- -[VCPVideoInterpolator checkFirstDisplayTimeForTrack:].cold.1
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.1
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.10
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.11
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.12
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.13
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.14
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.15
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.16
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.17
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.18
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.19
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.2
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.20
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.21
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.22
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.23
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.3
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.4
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.5
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.6
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.7
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.8
+- -[VCPVideoInterpolator combineVideoSegmentsWithAVMutableComposition].cold.9
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.1
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.10
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.11
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.12
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.13
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.14
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.15
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.16
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.17
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.18
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.19
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.2
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.20
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.21
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.22
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.23
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.24
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.25
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.26
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.27
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.3
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.4
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.5
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.6
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.7
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.8
+- -[VCPVideoInterpolator combineVideoSegmentsWithAssetWriter].cold.9
+- -[VCPVideoInterpolator combineVideoSegments].cold.1
+- -[VCPVideoInterpolator combineVideoSegments].cold.10
+- -[VCPVideoInterpolator combineVideoSegments].cold.11
+- -[VCPVideoInterpolator combineVideoSegments].cold.12
+- -[VCPVideoInterpolator combineVideoSegments].cold.13
+- -[VCPVideoInterpolator combineVideoSegments].cold.2
+- -[VCPVideoInterpolator combineVideoSegments].cold.3
+- -[VCPVideoInterpolator combineVideoSegments].cold.4
+- -[VCPVideoInterpolator combineVideoSegments].cold.5
+- -[VCPVideoInterpolator combineVideoSegments].cold.6
+- -[VCPVideoInterpolator combineVideoSegments].cold.7
+- -[VCPVideoInterpolator combineVideoSegments].cold.8
+- -[VCPVideoInterpolator combineVideoSegments].cold.9
+- -[VCPVideoInterpolator createAuxMovie].cold.1
+- -[VCPVideoInterpolator createAuxMovie].cold.2
+- -[VCPVideoInterpolator createAuxMovie].cold.3
+- -[VCPVideoInterpolator createAuxMovie].cold.4
+- -[VCPVideoInterpolator deserializeMetadata:].cold.1
+- -[VCPVideoInterpolator deserializeMetadata:].cold.2
+- -[VCPVideoInterpolator findIntraFrameList:].cold.1
+- -[VCPVideoInterpolator findIntraFrameList:].cold.2
+- -[VCPVideoInterpolator findIntraFrameList:].cold.3
+- -[VCPVideoInterpolator finishAnalysisPass:].cold.1
+- -[VCPVideoInterpolator finishAnalysisPass:].cold.10
+- -[VCPVideoInterpolator finishAnalysisPass:].cold.11
+- -[VCPVideoInterpolator finishAnalysisPass:].cold.2
+- -[VCPVideoInterpolator finishAnalysisPass:].cold.3
+- -[VCPVideoInterpolator finishAnalysisPass:].cold.4
+- -[VCPVideoInterpolator finishAnalysisPass:].cold.5
+- -[VCPVideoInterpolator finishAnalysisPass:].cold.6
+- -[VCPVideoInterpolator finishAnalysisPass:].cold.7
+- -[VCPVideoInterpolator finishAnalysisPass:].cold.8
+- -[VCPVideoInterpolator finishAnalysisPass:].cold.9
+- -[VCPVideoInterpolator getFramePTSAfter:forAsset:].cold.1
+- -[VCPVideoInterpolator getFramePTSAfter:forAsset:].cold.2
+- -[VCPVideoInterpolator getOriginalSamplesListforTrack:].cold.1
+- -[VCPVideoInterpolator getOriginalSamplesListforTrack:].cold.2
+- -[VCPVideoInterpolator initWithTimestamps:andIdentifier:andTrack:].cold.1
+- -[VCPVideoInterpolator initWithTimestamps:andIdentifier:andTrack:].cold.10
+- -[VCPVideoInterpolator initWithTimestamps:andIdentifier:andTrack:].cold.11
+- -[VCPVideoInterpolator initWithTimestamps:andIdentifier:andTrack:].cold.12
+- -[VCPVideoInterpolator initWithTimestamps:andIdentifier:andTrack:].cold.13
+- -[VCPVideoInterpolator initWithTimestamps:andIdentifier:andTrack:].cold.2
+- -[VCPVideoInterpolator initWithTimestamps:andIdentifier:andTrack:].cold.3
+- -[VCPVideoInterpolator initWithTimestamps:andIdentifier:andTrack:].cold.4
+- -[VCPVideoInterpolator initWithTimestamps:andIdentifier:andTrack:].cold.5
+- -[VCPVideoInterpolator initWithTimestamps:andIdentifier:andTrack:].cold.6
+- -[VCPVideoInterpolator initWithTimestamps:andIdentifier:andTrack:].cold.7
+- -[VCPVideoInterpolator initWithTimestamps:andIdentifier:andTrack:].cold.8
+- -[VCPVideoInterpolator initWithTimestamps:andIdentifier:andTrack:].cold.9
+- -[VCPVideoInterpolator revertStyle:withMetadata:withDeltaMap:].cold.1
+- -[VCPVideoInterpolator revertStyle:withMetadata:withDeltaMap:].cold.2
+- -[VCPVideoInterpolator revertStyle:withMetadata:withDeltaMap:].cold.3
+- -[VCPVideoInterpolator setupAdditionalAuxTrack].cold.1
+- -[VCPVideoInterpolator setupLivePhotoInfoOutput:].cold.1
+- -[VCPVideoInterpolator setupLivePhotoInfoOutput:].cold.2
+- -[VCPVideoInterpolator updateCombinedMovie].cold.1
+- -[VCPVideoInterpolator updateCombinedMovie].cold.2
+- -[VCPVideoInterpolator updateLivePhotoInfoSample:withTimestamp:withMetadata:isInterpolated:updatedSample:].cold.1
+- -[VCPVideoInterpolator updateLivePhotoInfoSample:withTimestamp:withMetadata:isInterpolated:updatedSample:].cold.2
+- -[VCPVideoInterpolator updateLivePhotoInfoSample:withTimestamp:withMetadata:isInterpolated:updatedSample:].cold.3
+- -[VCPVideoInterpolator updateLivePhotoInfoSample:withTimestamp:withMetadata:isInterpolated:updatedSample:].cold.4
+- -[VCPVideoInterpolator updateLivePhotoInfoSample:withTimestamp:withMetadata:isInterpolated:updatedSample:].cold.5
+- -[VCPVideoInterpolator updateLivePhotoInfoSample:withTimestamp:withMetadata:isInterpolated:updatedSample:].cold.6
+- -[VCPVideoKeyFrame loadKeyFrameResult:timestamp:].cold.1
+- -[VCPVideoKeyFrame loadKeyFrameResult:timestamp:].cold.2
+- -[VCPVideoKeyFrame loadKeyFrameResult:timestamp:].cold.3
+- -[VCPVideoKeyFrame loadKeyFrameResult:timestamp:].cold.4
+- -[VCPVideoKeyFrame loadKeyFrameResult:timestamp:].cold.5
+- -[VCPVideoKeyFrame loadKeyFrameResult:timestamp:].cold.6
+- -[VCPVideoKeyFrame loadKeyFrameResult:timestamp:].cold.7
+- -[VCPVideoKeyFrameAnalyzer analyzeFrame:frameStats:timestamp:].cold.1
+- -[VCPVideoKeyFrameAnalyzer analyzeFrame:frameStats:timestamp:].cold.2
+- -[VCPVideoKeyFrameAnalyzer analyzeFrame:frameStats:timestamp:].cold.3
+- -[VCPVideoKeyFrameAnalyzer computeFaceQualityOfFrame:].cold.1
+- -[VCPVideoKeyFrameAnalyzer computeMinDistanceBetween:withSet:].cold.1
+- -[VCPVideoKeyFrameAnalyzer computeSharpnessOfFrame:].cold.1
+- -[VCPVideoKeyFrameAnalyzer finalizeKeyFrame].cold.1
+- -[VCPVideoKeyFrameAnalyzer initWithTransform:timeRange:isLivePhoto:keyFrameResults:].cold.1
+- -[VCPVideoLightFaceDetector analyzeFrame:timestamp:duration:frameStats:flags:].cold.1
+- -[VCPVideoLightFaceDetector analyzeFrame:timestamp:duration:frameStats:flags:].cold.2
+- -[VCPVideoLightFaceDetector analyzeFrame:timestamp:duration:frameStats:flags:].cold.3
+- -[VCPVideoLightFaceDetector detectFaces:faces:frameStats:].cold.1
+- -[VCPVideoLightFaceDetector detectFaces:faces:frameStats:].cold.2
+- -[VCPVideoLightFaceDetector detectFaces:faces:frameStats:].cold.3
+- -[VCPVideoLightFaceDetector detectFaces:faces:frameStats:].cold.4
+- -[VCPVideoLightFaceDetector finishAnalysisPass:].cold.1
+- -[VCPVideoMetaFaceAnalyzer finalizeAnalysis].cold.1
+- -[VCPVideoMetaFaceAnalyzer processMetadataGroup:flags:].cold.1
+- -[VCPVideoMetaFaceAnalyzer processMetadataGroup:flags:].cold.2
+- -[VCPVideoMetaFocusAnalyzer init].cold.1
+- -[VCPVideoMetaLivePhotoMetaAnalyzer convertLivePhotoBinary:toDictionary:].cold.1
+- -[VCPVideoMetaLivePhotoMetaAnalyzer convertLivePhotoBinary:toDictionary:].cold.2
+- -[VCPVideoMetaLivePhotoMetaAnalyzer convertLivePhotoBinary:toDictionary:].cold.3
+- -[VCPVideoMetaLivePhotoMetaAnalyzer convertLivePhotoStruct:toDictionary:].cold.1
+- -[VCPVideoMetaLivePhotoMetaAnalyzer finalizeAnalysis].cold.1
+- -[VCPVideoMetaLivePhotoMetaAnalyzer finalizeAnalysis].cold.2
+- -[VCPVideoMetaLivePhotoMetaAnalyzer initWithRequestAnalyses:formatDescription:].cold.1
+- -[VCPVideoMetaLivePhotoMetaAnalyzer processMetadataGroup:flags:].cold.1
+- -[VCPVideoMetaLivePhotoMetaAnalyzer processMetadataGroup:flags:].cold.2
+- -[VCPVideoMetaLivePhotoMetaAnalyzer processMetadataGroup:flags:].cold.3
+- -[VCPVideoMetaLivePhotoMetaAnalyzer processMetadataGroup:flags:].cold.4
+- -[VCPVideoMetaMotionAnalyzer init].cold.1
+- -[VCPVideoMetaSegmentAnalyzer init].cold.1
+- -[VCPVideoMetaSegmentAnalyzer processMetadataGroup:flags:].cold.1
+- -[VCPVideoObjectTracker initWithObjectBounds:inFrame:timestamp:].cold.4
+- -[VCPVideoObjectTracker initWithObjectBounds:inFrame:timestamp:].cold.5
+- -[VCPVideoObjectTracker trackObjectInFrame:].cold.3
+- -[VCPVideoObjectTracker trackObjectInFrame:].cold.4
+- -[VCPVideoPersonDetector analyzeFrame:withTimestamp:andDuration:flags:].cold.1
+- -[VCPVideoPersonDetector detectPersons:persons:].cold.1
+- -[VCPVideoPersonDetector detectPersons:persons:].cold.2
+- -[VCPVideoPersonDetector detectPersons:persons:].cold.3
+- -[VCPVideoPersonDetector detectPersons:persons:].cold.4
+- -[VCPVideoPetsActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:].cold.1
+- -[VCPVideoPetsActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:].cold.2
+- -[VCPVideoPetsActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:].cold.3
+- -[VCPVideoPetsActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:].cold.4
+- -[VCPVideoPetsActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:].cold.5
+- -[VCPVideoPetsActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:].cold.6
+- -[VCPVideoPetsAnalyzer analyzeFrame:withTimestamp:andDuration:flags:frameStats:].cold.1
+- -[VCPVideoPetsAnalyzer initWithTransform:].cold.1
+- -[VCPVideoPetsAnalyzer parseResults:toDetections:atTime:fromTime:addActiveRegions:].cold.1
+- -[VCPVideoPixelStabilizer analyzeFrame:withTimestamp:andDuration:flags:].cold.1
+- -[VCPVideoPixelStabilizer convertAnalysisResult].cold.1
+- -[VCPVideoProcessor _analyzeWithStart:andDuration:error:].cold.1
+- -[VCPVideoProcessor _analyzeWithStart:andDuration:error:].cold.2
+- -[VCPVideoProcessor _analyzeWithStart:andDuration:error:].cold.3
+- -[VCPVideoProcessor _analyzeWithStart:andDuration:error:].cold.4
+- -[VCPVideoProcessor _analyzeWithStart:andDuration:error:].cold.5
+- -[VCPVideoProcessor _analyzeWithStart:andDuration:error:].cold.6
+- -[VCPVideoProcessor _analyzeWithStart:andDuration:error:].cold.7
+- -[VCPVideoProcessor _analyzeWithStart:andDuration:error:].cold.8
+- -[VCPVideoProcessor _analyzeWithStart:andDuration:error:].cold.9
+- -[VCPVideoProcessorSession addRequest:withConfiguration:error:].cold.1
+- -[VCPVideoProcessorSession processSampleBuffer:error:].cold.1
+- -[VCPVideoProcessorSession processSampleBuffer:withEndTime:error:].cold.1
+- -[VCPVideoSaliencyAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.1
+- -[VCPVideoSaliencyAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.2
+- -[VCPVideoSaliencyAnalyzer analyzeFrame:withTimestamp:andDuration:flags:].cold.3
+- -[VCPVideoSaliencyAnalyzer initWithTransform:].cold.1
+- -[VCPVideoSaliencyAnalyzer pruneRegions:withOverlapRatio:].cold.1
+- -[VCPVideoSceneClassifier analyzeFrame:withTimestamp:andDuration:flags:].cold.1
+- -[VCPVideoSceneClassifier analyzeFrame:withTimestamp:andDuration:flags:].cold.2
+- -[VCPVideoSceneClassifier analyzeFrame:withTimestamp:andDuration:flags:].cold.3
+- -[VCPVideoStabilizationAssetProcessingTask main].cold.1
+- -[VCPVideoStabilizationAssetProcessingTask main].cold.2
+- -[VCPVideoStabilizationAssetProcessingTask main].cold.3
+- -[VCPVideoStabilizationAssetProcessingTask main].cold.4
+- -[VCPVideoStabilizer finishAnalysisPass:].cold.1
+- -[VCPVideoStabilizer finishAnalysisPass:].cold.2
+- -[VCPVideoStabilizer finishAnalysisPass:].cold.3
+- -[VCPVideoSyncFrameDecoder decodeCMSampleBuffer:toCMSampleBuffer:error:].cold.1
+- -[VCPVideoSyncFrameDecoder decodeCMSampleBuffer:toCMSampleBuffer:error:].cold.2
+- -[VCPVideoSyncFrameDecoder decodeCMSampleBuffer:toCMSampleBuffer:error:].cold.3
+- -[VCPVideoSyncFrameDecoder decodeCMSampleBuffer:toCMSampleBuffer:error:].cold.4
+- -[VCPVideoSyncFrameDecoder decodeCMSampleBuffer:toCMSampleBuffer:error:].cold.5
+- -[VCPVideoSyncFrameDecoder decodeCMSampleBuffer:toCMSampleBuffer:error:].cold.6
+- -[VCPVideoSyncFrameDecoder decodeCMSampleBuffer:toCMSampleBuffer:error:].cold.7
+- -[VCPVideoTrackStandardDecoder initWithTrack:timerange:withSettings:applyTransform:].cold.1
+- -[VCPVideoTrackStandardDecoder initWithTrack:timerange:withSettings:applyTransform:].cold.2
+- -[VCPVideoTrackStandardDecoder initWithTrack:timerange:withSettings:applyTransform:].cold.3
+- -[VCPVideoTrackSubsamplingDecoder copyNextSampleBuffer].cold.1
+- -[VCPVideoTrackSubsamplingDecoder initWithTrack:timerange:atInterval:].cold.1
+- -[VCPVideoTrackSubsamplingDecoder initWithTrack:timerange:atInterval:].cold.2
+- -[VCPVideoTrackSubsamplingDecoder initWithTrack:timerange:atInterval:].cold.3
+- -[VCPVideoTrackSyncDecoder decodeSample:sample:].cold.1
+- -[VCPVideoTrackSyncDecoder decodeSample:sample:].cold.2
+- -[VCPVideoTrackSyncDecoder decodeSample:sample:].cold.3
+- -[VCPVideoTrackSyncDecoder decodeSample:sample:].cold.4
+- -[VCPVideoTrackSyncDecoder decodeSample:sample:].cold.5
+- -[VCPVideoTrackSyncDecoder decodeSample:sample:].cold.6
+- -[VCPVideoTrackSyncDecoder decodeSample:sample:].cold.7
+- -[VCPVideoTrackSyncDecoder decodeTask].cold.1
+- -[VCPVideoTrackSyncDecoder decodeTask].cold.2
+- -[VCPVideoTrackSyncDecoder decodeTask].cold.3
+- -[VCPVideoTrackSyncDecoder decodeTask].cold.4
+- -[VCPVideoTransformerBackbone inference:].cold.1
+- -[VCPVideoTransformerBackbone inference:].cold.2
+- -[VCPVideoTransformerBackbone inference:].cold.3
+- -[VCPVideoTransformerBackbone initWithConfig:].cold.1
+- -[VCPVoiceDetector setupWithSample:andSampleBatchSize:].cold.1
+- -[VCPVoiceDetector setupWithSample:andSampleBatchSize:].cold.2
+- -[VCPVoiceDetector setupWithSample:andSampleBatchSize:].cold.3
+- -[VCPVoiceDetectorV2 loadModel].cold.1
+- -[VCPVoiceDetectorV2 processAudioSamples:timestamp:].cold.1
+- -[VCPVoiceDetectorV2 processAudioSamples:timestamp:].cold.2
+- -[VCPVoiceDetectorV2 processAudioSamples:timestamp:].cold.3
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.1
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.10
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.11
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.12
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.13
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.14
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.15
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.16
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.17
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.18
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.19
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.2
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.3
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.4
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.5
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.6
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.7
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.8
+- -[VCPVoiceDetectorV2 setupWithAudioStream:].cold.9
+- -[VCPWallpaperAnalyzer analyzeWithSceneprint:results:cancel:].cold.1
+- -[VCPWallpaperAnalyzer analyzeWithSceneprint:results:cancel:].cold.2
+- -[VCPWallpaperAnalyzer createModel].cold.1
+- -[VCPWallpaperAnalyzer init].cold.1
+- -[VCPWatchFaceAnalyzer analyzeAsset:cancel:results:].cold.1
+- -[VideoRanker initWithCorpus:].cold.1
+- -[VideoRanker initWithCorpus:].cold.2
+- GCC_except_table114
+- _MAAssetByteStream_Create.cold.1
+- _MAAssetByteStream_Create.cold.2
+- _MAComputeRequest_Create.cold.2
+- _MAComputeRequest_Create.cold.3
+- _MAComputeRequest_Start.cold.1
+- _OBJC_CLASS_$_CSUTokenEmbedding
+- _VCPBaseRetryIntervalSeconds.cold.1
+- _VCPMADUnifiedBackgroundProcessing.cold.1
+- _VCPPersonFaceVIPMatchingThreshold.cold.1
+- __Z15silhouetteScoreNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEEERKNS0_IiNS1_IiEEEEi.cold.1
+- __Z17EdgeExtendLuma420P10__CVBuffer.cold.3
+- __Z17EdgeExtendLuma420P10__CVBuffer.cold.4
+- __Z17EdgeExtendLuma420P10__CVBuffer.cold.5
+- __Z17vcp_matrix_invertPfi.cold.1
+- __Z17vcp_matrix_invertPfi.cold.2
+- __Z19AddResultDictionaryP6CMTimeS0_PfPiPK14__CFDictionaryP9__CFArray.cold.1
+- __Z19AddResultDictionaryP6CMTimeS0_PfPiPK14__CFDictionaryP9__CFArray.cold.2
+- __Z19AddResultDictionaryP6CMTimeS0_PfPiPK14__CFDictionaryP9__CFArray.cold.3
+- __Z19AddResultDictionaryP6CMTimeS0_PfPiPK14__CFDictionaryP9__CFArray.cold.4
+- __Z19AddResultDictionaryP6CMTimeS0_PfPiPK14__CFDictionaryP9__CFArray.cold.5
+- __Z19AddResultDictionaryP6CMTimeS0_PfPiPK14__CFDictionaryP9__CFArray.cold.6
+- __Z19AddResultDictionaryP6CMTimeS0_PfPiPK14__CFDictionaryP9__CFArray.cold.7
+- __Z19AddResultDictionaryP6CMTimeS0_PfPiPK14__CFDictionaryP9__CFArray.cold.8
+- __Z19AddResultDictionaryP6CMTimeS0_PfPiPK14__CFDictionaryP9__CFArray.cold.9
+- __Z19getExtendedFaceHullP8XYIPointiS0_.cold.1
+- __Z21CFDictionarySetNumberP14__CFDictionaryPK10__CFString12CFNumberTypePv.cold.1
+- __Z23CleanApertureDictionaryiiii.cold.1
+- __Z23CleanApertureDictionaryiiii.cold.2
+- __Z23CleanApertureDictionaryiiii.cold.3
+- __Z23CleanApertureDictionaryiiii.cold.4
+- __Z30HorizontalBoundaryExtendYUV420P10__CVBuffer.cold.3
+- __Z30HorizontalBoundaryExtendYUV420P10__CVBuffer.cold.4
+- __Z30HorizontalBoundaryExtendYUV420P10__CVBuffer.cold.5
+- __Z30HorizontalBoundaryExtendYUV420P10__CVBuffer.cold.6
+- __Z34MAImageComputeResultToCFDictionaryRK20MAImageComputeResult.cold.1
+- __Z36MAImageComputeResultFromCFDictionaryPK14__CFDictionaryP20MAImageComputeResult.cold.1
+- __Z36MAImageComputeResultFromCFDictionaryPK14__CFDictionaryP20MAImageComputeResult.cold.2
+- __Z42VCPProtoImageHumanPoseResultToCFDictionaryRK28VCPProtoImageHumanPoseResult.cold.1
+- __Z42VCPProtoImageHumanPoseResultToCFDictionaryRK28VCPProtoImageHumanPoseResult.cold.2
+- __Z44VCPProtoImageHumanPoseResultFromCFDictionaryPK14__CFDictionaryP28VCPProtoImageHumanPoseResult.cold.1
+- __ZL27CGImage_CreateCVPixelBufferP7CGImagePP10__CVBuffer.cold.7
+- __ZN14MotionAnalysisIN2ma12SceneSegmentEE10InitializeEv.cold.1
+- __ZN14MotionAnalysisIN2ma12SceneSegmentEE10InitializeEv.cold.2
+- __ZN14MotionAnalysisIN2ma12SceneSegmentEE13RemoveSegmentEi.cold.1
+- __ZN14MotionAnalysisIN2ma12TrackSegmentEE10AddSegmentEv.cold.1
+- __ZN14MotionAnalysisIN2ma12TrackSegmentEE10InitializeEv.cold.1
+- __ZN14MotionAnalysisIN2ma12TrackSegmentEE10InitializeEv.cold.2
+- __ZN14MotionAnalysisIN2ma14QualitySegmentEE10AddSegmentEv.cold.1
+- __ZN14MotionAnalysisIN2ma14QualitySegmentEE10InitializeEv.cold.1
+- __ZN14MotionAnalysisIN2ma14QualitySegmentEE10InitializeEv.cold.2
+- __ZN14MotionAnalysisIN2ma14QualitySegmentEE13InsertSegmentEi.cold.1
+- __ZN14MotionAnalysisIN2ma14QualitySegmentEE13InsertSegmentEi.cold.2
+- __ZN14MotionAnalysisIN2ma14QualitySegmentEE13RemoveSegmentEi.cold.1
+- __ZN14MotionAnalysisIN2ma15RotationSegmentEE10AddSegmentEv.cold.1
+- __ZN14MotionAnalysisIN2ma15RotationSegmentEE10InitializeEv.cold.1
+- __ZN14MotionAnalysisIN2ma15RotationSegmentEE10InitializeEv.cold.2
+- __ZN14MotionAnalysisIN2ma17DescriptorSegmentEE10InitializeEv.cold.1
+- __ZN14MotionAnalysisIN2ma17DescriptorSegmentEE10InitializeEv.cold.2
+- __ZN14MotionAnalysisIN2ma17DescriptorSegmentEE13RemoveSegmentEi.cold.1
+- __ZN14MotionAnalysisIN2ma17SlowMotionSegmentEE10AddSegmentEv.cold.1
+- __ZN14MotionAnalysisIN2ma17SlowMotionSegmentEE10InitializeEv.cold.1
+- __ZN14MotionAnalysisIN2ma17SlowMotionSegmentEE10InitializeEv.cold.2
+- __ZN14MotionAnalysisIN2ma17SlowMotionSegmentEE13RemoveSegmentEi.cold.1
+- __ZN14MotionAnalysisIN2ma18ObstructionSegmentEE10AddSegmentEv.cold.1
+- __ZN14MotionAnalysisIN2ma18ObstructionSegmentEE10InitializeEv.cold.1
+- __ZN14MotionAnalysisIN2ma18ObstructionSegmentEE10InitializeEv.cold.2
+- __ZN14MotionAnalysisIN2ma19CameraMotionSegmentEE10AddSegmentEv.cold.1
+- __ZN14MotionAnalysisIN2ma19CameraMotionSegmentEE10InitializeEv.cold.1
+- __ZN14MotionAnalysisIN2ma19CameraMotionSegmentEE10InitializeEv.cold.2
+- __ZN14MotionAnalysisIN2ma19CameraMotionSegmentEE13RemoveSegmentEi.cold.1
+- __ZN14MotionAnalysisIN2ma19MovingObjectSegmentEE10AddSegmentEv.cold.1
+- __ZN14MotionAnalysisIN2ma19MovingObjectSegmentEE10InitializeEv.cold.1
+- __ZN14MotionAnalysisIN2ma19MovingObjectSegmentEE10InitializeEv.cold.2
+- __ZN14MotionAnalysisIN2ma19SubtleMotionSegmentEE10AddSegmentEv.cold.1
+- __ZN14MotionAnalysisIN2ma19SubtleMotionSegmentEE10InitializeEv.cold.1
+- __ZN14MotionAnalysisIN2ma19SubtleMotionSegmentEE10InitializeEv.cold.2
+- __ZN14MotionAnalysisIN2ma19SubtleMotionSegmentEE13RemoveSegmentEi.cold.1
+- __ZN14MotionAnalysisIN2ma20SubjectMotionSegmentEE10AddSegmentEv.cold.1
+- __ZN14MotionAnalysisIN2ma20SubjectMotionSegmentEE10InitializeEv.cold.1
+- __ZN14MotionAnalysisIN2ma20SubjectMotionSegmentEE10InitializeEv.cold.2
+- __ZN14MotionAnalysisIN2ma22InterestingnessSegmentEE10AddSegmentEv.cold.1
+- __ZN14MotionAnalysisIN2ma22InterestingnessSegmentEE10InitializeEv.cold.1
+- __ZN14MotionAnalysisIN2ma22InterestingnessSegmentEE10InitializeEv.cold.2
+- __ZN14MotionAnalysisIN2ma22InterestingnessSegmentEE13RemoveSegmentEi.cold.1
+- __ZN14MotionAnalysisIN2ma24FineSubjectMotionSegmentEE10AddSegmentEv.cold.1
+- __ZN14MotionAnalysisIN2ma24FineSubjectMotionSegmentEE10InitializeEv.cold.1
+- __ZN14MotionAnalysisIN2ma24FineSubjectMotionSegmentEE10InitializeEv.cold.2
+- __ZN14MotionAnalysisIN2ma24FineSubjectMotionSegmentEE13RemoveSegmentEi.cold.1
+- __ZN17MAAssetByteStream10InitializeEmPFiPv7CFRangePPK8__CFDataES0_
+- __ZN17MAAssetByteStream10InitializeEmPFiPv7CFRangePPK8__CFDataES0_.cold.1
+- __ZN17MAAssetByteStream11SetPropertyEPK10__CFStringPKv
+- __ZN17MAAssetByteStream11SetPropertyEPK10__CFStringPKv.cold.1
+- __ZN17MAAssetByteStream12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.1
+- __ZN17MAAssetByteStream14LengthAtOffsetExPx
+- __ZN17MAAssetByteStream14LengthAtOffsetExPx.cold.1
+- __ZN17MAAssetByteStream14LengthAtOffsetExPx.cold.2
+- __ZN17MAAssetByteStream4ReadEmxPP19OpaqueCMBlockBufferPm.cold.1
+- __ZN17MAAssetByteStream4ReadEmxPP19OpaqueCMBlockBufferPm.cold.2
+- __ZN17MAAssetByteStream4ReadEmxPP19OpaqueCMBlockBufferPm.cold.3
+- __ZN17MAAssetByteStream4ReadEmxPP19OpaqueCMBlockBufferPm.cold.4
+- __ZN17MAAssetByteStream4ReadEmxPP19OpaqueCMBlockBufferPm.cold.5
+- __ZN17MAAssetByteStream4ReadEmxPvPm.cold.1
+- __ZN17MAAssetByteStream4ReadEmxPvPm.cold.2
+- __ZN19VCPCNNModelEspresso9LoadModelERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.1
+- __ZN19VCPCNNModelEspresso9LoadModelERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.2
+- __ZN19VCPCNNModelEspresso9LoadModelERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.3
+- __ZN19VCPCNNModelEspresso9LoadModelERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.4
+- __ZN19VCPCNNModelEspresso9LoadModelERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.5
+- __ZN19VCPCNNModelEspresso9LoadModelERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.6
+- __ZN22MAImageAnalysisRequest11DecodeImageEPK8__CFDataPP10__CVBuffer.cold.1
+- __ZN22MAImageAnalysisRequest11DecodeImageEPK8__CFDataPP10__CVBuffer.cold.2
+- __ZN22MAImageAnalysisRequest11DecodeImageEPK8__CFDataPP10__CVBuffer.cold.3
+- __ZN22MAImageAnalysisRequest11DecodeImageEPK8__CFDataPP10__CVBuffer.cold.4
+- __ZN22MAImageAnalysisRequest11DecodeImageEPK8__CFDataPP10__CVBuffer.cold.5
+- __ZN22MAImageAnalysisRequest11DecodeImageEPK8__CFDataPP10__CVBuffer.cold.6
+- __ZN22MAImageAnalysisRequest5StartEPFvPviE.cold.1
+- __ZN22MAImageAnalysisRequest5StartEPFvPviE.cold.2
+- __ZN22MAImageAnalysisRequest5StartEPFvPviE.cold.3
+- __ZN22MAImageAnalysisRequest5StartEPFvPviE.cold.4
+- __ZN22MAImageAnalysisRequest5StartEPFvPviE.cold.5
+- __ZN22MAImageAnalysisRequest5StartEPFvPviE.cold.6
+- __ZN22MAMovieAnalysisRequest5StartEPFvPviE.cold.1
+- __ZN22MAMovieAnalysisRequest5StartEPFvPviE.cold.10
+- __ZN22MAMovieAnalysisRequest5StartEPFvPviE.cold.11
+- __ZN22MAMovieAnalysisRequest5StartEPFvPviE.cold.12
+- __ZN22MAMovieAnalysisRequest5StartEPFvPviE.cold.2
+- __ZN22MAMovieAnalysisRequest5StartEPFvPviE.cold.3
+- __ZN22MAMovieAnalysisRequest5StartEPFvPviE.cold.4
+- __ZN22MAMovieAnalysisRequest5StartEPFvPviE.cold.5
+- __ZN22MAMovieAnalysisRequest5StartEPFvPviE.cold.6
+- __ZN22MAMovieAnalysisRequest5StartEPFvPviE.cold.7
+- __ZN22MAMovieAnalysisRequest5StartEPFvPviE.cold.8
+- __ZN22MAMovieAnalysisRequest5StartEPFvPviE.cold.9
+- __ZN22VCPPerformanceReporter14LogMeasurementEPKcy
+- __ZN25VCPImageDescriptorWrapper10InitializeEP10__CVBuffer.cold.1
+- __ZN25VCPImageDescriptorWrapper10InitializeEP10__CVBuffer.cold.2
+- __ZN25VCPImageHumanPoseAnalyzer4InitEv.cold.1
+- __ZN25VCPImageHumanPoseAnalyzer7AnalyzeEP10__CVBufferP14__CFDictionary.cold.1
+- __ZN2ma11EncodeStats10InitializeEiibb.cold.1
+- __ZN2ma11EncodeStats12ProcessFrameE6CMTimeP10__CVBuffer.cold.1
+- __ZN2ma11EncodeStats12ProcessFrameE6CMTimeP10__CVBuffer.cold.2
+- __ZN2ma11EncodeStats15ParseStatisticsEPK8__CFData.cold.1
+- __ZN2ma11EncodeStats15ParseStatisticsEPK8__CFData.cold.2
+- __ZN2ma11EncodeStats15ParseStatisticsEPK8__CFData.cold.3
+- __ZN2ma11EncodeStats26GenerateSubMacroBlockStatsEP10__CVBuffer.cold.4
+- __ZN2ma11EncodeStats26GenerateSubMacroBlockStatsEP10__CVBuffer.cold.5
+- __ZN2ma12IrisAnalysis10InitializeEff.cold.1
+- __ZN2ma12IrisAnalysis11UpdateStatsEPKNS_5FrameES3_.cold.1
+- __ZN2ma12IrisAnalysis11UpdateStatsEPKNS_5FrameES3_.cold.2
+- __ZN2ma12IrisAnalysis11UpdateStatsEPKNS_5FrameES3_.cold.3
+- __ZN2ma12MotionSearch13InitialSearchEP10__CVBufferS2_.cold.5
+- __ZN2ma12MotionSearch13InitialSearchEP10__CVBufferS2_.cold.6
+- __ZN2ma12MotionSearch13InitialSearchEP10__CVBufferS2_.cold.7
+- __ZN2ma12MotionSearch13InitialSearchEP10__CVBufferS2_.cold.8
+- __ZN2ma12MotionSearch13InitialSearchEiP10__CVBufferS2_.cold.1
+- __ZN2ma12MotionSearch13InitialSearchEiP10__CVBufferS2_.cold.2
+- __ZN2ma12MotionSearch16RefinementSearchEP10__CVBufferS2_PNS_12MotionVectorES4_i.cold.5
+- __ZN2ma12MotionSearch16RefinementSearchEP10__CVBufferS2_PNS_12MotionVectorES4_i.cold.6
+- __ZN2ma12MotionSearch16RefinementSearchEP10__CVBufferS2_PNS_12MotionVectorES4_i.cold.7
+- __ZN2ma12MotionSearch16RefinementSearchEP10__CVBufferS2_PNS_12MotionVectorES4_i.cold.8
+- __ZN2ma12MotionSearch16RefinementSearchEiP10__CVBufferS2_PNS_12MotionVectorES4_i.cold.1
+- __ZN2ma12MotionSearch16RefinementSearchEiP10__CVBufferS2_PNS_12MotionVectorES4_i.cold.2
+- __ZN2ma12MotionSearch6ResizeEmm.cold.1
+- __ZN2ma12MotionSearch6SearchEP10__CVBufferS2_PNS_12MotionVectorES4_.cold.1
+- __ZN2ma12MotionSearch6SearchEP10__CVBufferS2_PNS_12MotionVectorES4_.cold.2
+- __ZN2ma12MotionSearch6SearchEP10__CVBufferS2_PNS_12MotionVectorES4_.cold.3
+- __ZN2ma12MotionSearch6SearchEP10__CVBufferS2_PNS_12MotionVectorES4_.cold.4
+- __ZN2ma12MotionSearch6SearchEP10__CVBufferS2_PNS_12MotionVectorES4_.cold.5
+- __ZN2ma12MotionSearch6SearchEP10__CVBufferS2_PNS_12MotionVectorES4_.cold.6
+- __ZN2ma12MotionSearch9DownscaleEiP10__CVBufferPS2_S2_S3_.cold.1
+- __ZN2ma12MotionSearch9DownscaleEiP10__CVBufferPS2_S2_S3_.cold.2
+- __ZN2ma12MotionSearch9DownscaleEiP10__CVBufferPS2_S2_S3_.cold.3
+- __ZN2ma12MotionSearch9DownscaleEiP10__CVBufferPS2_S2_S3_.cold.4
+- __ZN2ma12TrackSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.1
+- __ZN2ma12TrackSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.2
+- __ZN2ma12TrackSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.3
+- __ZN2ma12TrackSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.4
+- __ZN2ma12TrackSegment14FromDictionaryEPK14__CFDictionary.cold.1
+- __ZN2ma13EncodeStatsHW10InitializeEiibb.cold.1
+- __ZN2ma13EncodeStatsHW10InitializeEiibb.cold.10
+- __ZN2ma13EncodeStatsHW10InitializeEiibb.cold.11
+- __ZN2ma13EncodeStatsHW10InitializeEiibb.cold.12
+- __ZN2ma13EncodeStatsHW10InitializeEiibb.cold.13
+- __ZN2ma13EncodeStatsHW10InitializeEiibb.cold.14
+- __ZN2ma13EncodeStatsHW10InitializeEiibb.cold.15
+- __ZN2ma13EncodeStatsHW10InitializeEiibb.cold.16
+- __ZN2ma13EncodeStatsHW10InitializeEiibb.cold.2
+- __ZN2ma13EncodeStatsHW10InitializeEiibb.cold.3
+- __ZN2ma13EncodeStatsHW10InitializeEiibb.cold.4
+- __ZN2ma13EncodeStatsHW10InitializeEiibb.cold.5
+- __ZN2ma13EncodeStatsHW10InitializeEiibb.cold.6
+- __ZN2ma13EncodeStatsHW10InitializeEiibb.cold.7
+- __ZN2ma13EncodeStatsHW10InitializeEiibb.cold.8
+- __ZN2ma13EncodeStatsHW10InitializeEiibb.cold.9
+- __ZN2ma13EncodeStatsHW11CreateAsyncEiibb.cold.1
+- __ZN2ma13EncodeStatsHW11CreateAsyncEiibb.cold.2
+- __ZN2ma13EncodeStatsHW11CreateAsyncEiibb.cold.3
+- __ZN2ma13EncodeStatsHW12ProcessFrameE6CMTimeP10__CVBufferb.cold.1
+- __ZN2ma13EncodeStatsHW12ProcessFrameE6CMTimeP10__CVBufferb.cold.2
+- __ZN2ma13EncodeStatsHW12ProcessFrameE6CMTimeP10__CVBufferb.cold.3
+- __ZN2ma13EncodeStatsHW17ProcessFrameAsyncE6CMTimeP10__CVBufferU13block_pointerFvP20opaqueCMSampleBufferE.cold.1
+- __ZN2ma13EncodeStatsHW18ProcessFrameCommonE6CMTimeP10__CVBufferbU13block_pointerFvP20opaqueCMSampleBufferE.cold.1
+- __ZN2ma13EncodeStatsHW18ProcessFrameCommonE6CMTimeP10__CVBufferbU13block_pointerFvP20opaqueCMSampleBufferE.cold.10
+- __ZN2ma13EncodeStatsHW18ProcessFrameCommonE6CMTimeP10__CVBufferbU13block_pointerFvP20opaqueCMSampleBufferE.cold.11
+- __ZN2ma13EncodeStatsHW18ProcessFrameCommonE6CMTimeP10__CVBufferbU13block_pointerFvP20opaqueCMSampleBufferE.cold.12
+- __ZN2ma13EncodeStatsHW18ProcessFrameCommonE6CMTimeP10__CVBufferbU13block_pointerFvP20opaqueCMSampleBufferE.cold.2
+- __ZN2ma13EncodeStatsHW18ProcessFrameCommonE6CMTimeP10__CVBufferbU13block_pointerFvP20opaqueCMSampleBufferE.cold.3
+- __ZN2ma13EncodeStatsHW18ProcessFrameCommonE6CMTimeP10__CVBufferbU13block_pointerFvP20opaqueCMSampleBufferE.cold.4
+- __ZN2ma13EncodeStatsHW18ProcessFrameCommonE6CMTimeP10__CVBufferbU13block_pointerFvP20opaqueCMSampleBufferE.cold.5
+- __ZN2ma13EncodeStatsHW18ProcessFrameCommonE6CMTimeP10__CVBufferbU13block_pointerFvP20opaqueCMSampleBufferE.cold.6
+- __ZN2ma13EncodeStatsHW18ProcessFrameCommonE6CMTimeP10__CVBufferbU13block_pointerFvP20opaqueCMSampleBufferE.cold.7
+- __ZN2ma13EncodeStatsHW18ProcessFrameCommonE6CMTimeP10__CVBufferbU13block_pointerFvP20opaqueCMSampleBufferE.cold.8
+- __ZN2ma13EncodeStatsHW18ProcessFrameCommonE6CMTimeP10__CVBufferbU13block_pointerFvP20opaqueCMSampleBufferE.cold.9
+- __ZN2ma13EncodeStatsHW21ComputeChromaBlockSumEP10__CVBuffer.cold.2
+- __ZN2ma13EncodeStatsHW21ComputeChromaBlockSumEP10__CVBuffer.cold.3
+- __ZN2ma13EncodeStatsHW26ParseStatsFromSampleBufferEP20opaqueCMSampleBuffer.cold.1
+- __ZN2ma13EncodeStatsHW26ParseStatsFromSampleBufferEP20opaqueCMSampleBuffer.cold.2
+- __ZN2ma13EncodeStatsHW26ParseStatsFromSampleBufferEP20opaqueCMSampleBuffer.cold.3
+- __ZN2ma13EncodeStatsHW26ParseStatsFromSampleBufferEP20opaqueCMSampleBuffer.cold.4
+- __ZN2ma13EncodeStatsHW8CallbackEP20opaqueCMSampleBufferPS0_U13block_pointerFvS2_E.cold.1
+- __ZN2ma13EncodeStatsSW12ProcessFrameE6CMTimeP10__CVBufferb.cold.1
+- __ZN2ma13EncodeStatsSW12ProcessFrameE6CMTimeP10__CVBufferb.cold.2
+- __ZN2ma13EncodeStatsSW12ProcessFrameE6CMTimeP10__CVBufferb.cold.3
+- __ZN2ma13EncodeStatsSW17ProcessInterFrameEP10__CVBuffer.cold.5
+- __ZN2ma13EncodeStatsSW17ProcessInterFrameEP10__CVBuffer.cold.6
+- __ZN2ma13EncodeStatsSW17ProcessInterFrameEP10__CVBuffer.cold.7
+- __ZN2ma13EncodeStatsSW17ProcessInterFrameEP10__CVBuffer.cold.8
+- __ZN2ma13EncodeStatsSW17ProcessInterFrameEP10__CVBuffer.cold.9
+- __ZN2ma13EncodeStatsSW17ProcessIntraFrameEP10__CVBuffer.cold.3
+- __ZN2ma13EncodeStatsSW17ProcessIntraFrameEP10__CVBuffer.cold.4
+- __ZN2ma13SceneAnalysis10AddSegmentERKNS_19CameraMotionSegmentE.cold.1
+- __ZN2ma13SceneAnalysis10InitializeEPK9__CFArrayPK14__CFDictionaryf.cold.1
+- __ZN2ma13SceneAnalysis10InitializeEPK9__CFArrayPK14__CFDictionaryf.cold.10
+- __ZN2ma13SceneAnalysis10InitializeEPK9__CFArrayPK14__CFDictionaryf.cold.11
+- __ZN2ma13SceneAnalysis10InitializeEPK9__CFArrayPK14__CFDictionaryf.cold.12
+- __ZN2ma13SceneAnalysis10InitializeEPK9__CFArrayPK14__CFDictionaryf.cold.2
+- __ZN2ma13SceneAnalysis10InitializeEPK9__CFArrayPK14__CFDictionaryf.cold.3
+- __ZN2ma13SceneAnalysis10InitializeEPK9__CFArrayPK14__CFDictionaryf.cold.4
+- __ZN2ma13SceneAnalysis10InitializeEPK9__CFArrayPK14__CFDictionaryf.cold.5
+- __ZN2ma13SceneAnalysis10InitializeEPK9__CFArrayPK14__CFDictionaryf.cold.6
+- __ZN2ma13SceneAnalysis10InitializeEPK9__CFArrayPK14__CFDictionaryf.cold.7
+- __ZN2ma13SceneAnalysis10InitializeEPK9__CFArrayPK14__CFDictionaryf.cold.8
+- __ZN2ma13SceneAnalysis10InitializeEPK9__CFArrayPK14__CFDictionaryf.cold.9
+- __ZN2ma13SceneAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.1
+- __ZN2ma13SceneAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.2
+- __ZN2ma13SceneAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.3
+- __ZN2ma13SceneAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.4
+- __ZN2ma13SceneAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.5
+- __ZN2ma13SceneAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.1
+- __ZN2ma13SceneAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.10
+- __ZN2ma13SceneAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.11
+- __ZN2ma13SceneAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.12
+- __ZN2ma13SceneAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.2
+- __ZN2ma13SceneAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.3
+- __ZN2ma13SceneAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.4
+- __ZN2ma13SceneAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.5
+- __ZN2ma13SceneAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.6
+- __ZN2ma13SceneAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.7
+- __ZN2ma13SceneAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.8
+- __ZN2ma13SceneAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.9
+- __ZN2ma13SceneAnalysis12ProcessFrameERKNS_5FrameES3_.cold.1
+- __ZN2ma13SceneAnalysis12ProcessFrameERKNS_5FrameES3_.cold.2
+- __ZN2ma13SceneAnalysis12ProcessFrameERKNS_5FrameES3_.cold.3
+- __ZN2ma13SceneAnalysis12ProcessFrameERKNS_5FrameES3_.cold.4
+- __ZN2ma13SceneAnalysis12ProcessFrameERKNS_5FrameES3_.cold.5
+- __ZN2ma13SceneAnalysis12ProcessFrameERKNS_5FrameES3_.cold.6
+- __ZN2ma13SceneAnalysis12ProcessFrameERKNS_5FrameES3_.cold.7
+- __ZN2ma13SceneAnalysis12ProcessFrameERKNS_5FrameES3_.cold.8
+- __ZN2ma13SceneAnalysis18StoreSegmentResultEPK9__CFArray.cold.1
+- __ZN2ma13SceneAnalysis18StoreSegmentResultEPK9__CFArray.cold.2
+- __ZN2ma13SceneAnalysis18StoreSegmentResultEPK9__CFArray.cold.3
+- __ZN2ma13SceneAnalysis18StoreSegmentResultEPK9__CFArray.cold.4
+- __ZN2ma13SceneAnalysis18StoreSegmentResultEPK9__CFArray.cold.5
+- __ZN2ma13SceneAnalysis18StoreSegmentResultEPK9__CFArray.cold.6
+- __ZN2ma13SceneAnalysis19AverageQualityScoreEPK9__CFArray11CMTimeRangePf.cold.1
+- __ZN2ma13SceneAnalysis19AverageQualityScoreEPK9__CFArray11CMTimeRangePf.cold.2
+- __ZN2ma13SceneAnalysis19RefineSceneSegmentsEPK9__CFArray.cold.1
+- __ZN2ma13SceneAnalysis21ComputeSceneDistancesEv.cold.1
+- __ZN2ma13SceneAnalysis21ComputeSceneDistancesEv.cold.2
+- __ZN2ma13SceneAnalysis21ComputeSceneDistancesEv.cold.3
+- __ZN2ma13SceneAnalysis21FindFrameQualityScoreEPK9__CFArray6CMTimePf.cold.1
+- __ZN2ma13SceneAnalysis21FindFrameQualityScoreEPK9__CFArray6CMTimePf.cold.2
+- __ZN2ma13SceneAnalysis23GenerateSceneAttributesEPKNS_12SceneSegmentEPPK14__CFDictionary.cold.1
+- __ZN2ma13SceneAnalysis23GenerateSceneAttributesEPKNS_12SceneSegmentEPPK14__CFDictionary.cold.2
+- __ZN2ma13SceneAnalysis23GenerateSceneAttributesEPKNS_12SceneSegmentEPPK14__CFDictionary.cold.3
+- __ZN2ma13SceneAnalysis23GenerateSceneAttributesEPKNS_12SceneSegmentEPPK14__CFDictionary.cold.4
+- __ZN2ma13SceneAnalysis23GenerateSceneAttributesEPKNS_12SceneSegmentEPPK14__CFDictionary.cold.5
+- __ZN2ma13SceneAnalysis23GenerateSceneAttributesEPKNS_12SceneSegmentEPPK14__CFDictionary.cold.6
+- __ZN2ma13SceneAnalysis23GenerateSceneAttributesEPKNS_12SceneSegmentEPPK14__CFDictionary.cold.7
+- __ZN2ma13SceneAnalysis23MergeLensSwitchSegmentsEPK9__CFArray.cold.1
+- __ZN2ma13SceneAnalysis23MergeLensSwitchSegmentsEPK9__CFArray.cold.2
+- __ZN2ma13SceneAnalysis27ComputeSceneSwitchFrequencyEv.cold.1
+- __ZN2ma13SceneAnalysis28GenerateInitialSceneSegmentsEiPK9__CFArray.cold.1
+- __ZN2ma13SceneAnalysis28GenerateInitialSceneSegmentsEiPK9__CFArray.cold.2
+- __ZN2ma13SceneAnalysis28PruneDescriptorsBasedOnSceneEv.cold.1
+- __ZN2ma13SceneAnalysis28PruneDescriptorsBasedOnSceneEv.cold.2
+- __ZN2ma13SceneAnalysis28PruneDescriptorsBasedOnSceneEv.cold.3
+- __ZN2ma13SceneAnalysis28PruneDescriptorsBasedOnSceneEv.cold.4
+- __ZN2ma13SceneAnalysis8FinalizeERKNS_5FrameEiPNS_19ObstructionAnalysisE.cold.1
+- __ZN2ma13SceneAnalysis8FinalizeERKNS_5FrameEiPNS_19ObstructionAnalysisE.cold.10
+- __ZN2ma13SceneAnalysis8FinalizeERKNS_5FrameEiPNS_19ObstructionAnalysisE.cold.11
+- __ZN2ma13SceneAnalysis8FinalizeERKNS_5FrameEiPNS_19ObstructionAnalysisE.cold.12
+- __ZN2ma13SceneAnalysis8FinalizeERKNS_5FrameEiPNS_19ObstructionAnalysisE.cold.13
+- __ZN2ma13SceneAnalysis8FinalizeERKNS_5FrameEiPNS_19ObstructionAnalysisE.cold.14
+- __ZN2ma13SceneAnalysis8FinalizeERKNS_5FrameEiPNS_19ObstructionAnalysisE.cold.15
+- __ZN2ma13SceneAnalysis8FinalizeERKNS_5FrameEiPNS_19ObstructionAnalysisE.cold.2
+- __ZN2ma13SceneAnalysis8FinalizeERKNS_5FrameEiPNS_19ObstructionAnalysisE.cold.3
+- __ZN2ma13SceneAnalysis8FinalizeERKNS_5FrameEiPNS_19ObstructionAnalysisE.cold.4
+- __ZN2ma13SceneAnalysis8FinalizeERKNS_5FrameEiPNS_19ObstructionAnalysisE.cold.5
+- __ZN2ma13SceneAnalysis8FinalizeERKNS_5FrameEiPNS_19ObstructionAnalysisE.cold.6
+- __ZN2ma13SceneAnalysis8FinalizeERKNS_5FrameEiPNS_19ObstructionAnalysisE.cold.7
+- __ZN2ma13SceneAnalysis8FinalizeERKNS_5FrameEiPNS_19ObstructionAnalysisE.cold.8
+- __ZN2ma13SceneAnalysis8FinalizeERKNS_5FrameEiPNS_19ObstructionAnalysisE.cold.9
+- __ZN2ma14EncodeAnalysis10InitializeEii.cold.1
+- __ZN2ma14EncodeAnalysis10InitializeEii.cold.2
+- __ZN2ma14EncodeAnalysis10InitializeEii.cold.3
+- __ZN2ma14EncodeAnalysis11GetFrameLBPEP10__CVBuffer.cold.3
+- __ZN2ma14EncodeAnalysis11GetFrameLBPEP10__CVBuffer.cold.4
+- __ZN2ma14EncodeAnalysis11GetFrameLBPEP10__CVBuffer.cold.5
+- __ZN2ma14EncodeAnalysis12AnalyzeFrameEPNS_11EncodeStatsE6CMTimeP10__CVBufferPNS_5FrameEbb.cold.1
+- __ZN2ma14EncodeAnalysis12AnalyzeFrameEPNS_11EncodeStatsE6CMTimeP10__CVBufferPNS_5FrameEbb.cold.2
+- __ZN2ma14EncodeAnalysis12AnalyzeFrameEPNS_11EncodeStatsE6CMTimeP10__CVBufferPNS_5FrameEbb.cold.3
+- __ZN2ma14EncodeAnalysis12AnalyzeFrameEPNS_11EncodeStatsE6CMTimeP10__CVBufferPNS_5FrameEbb.cold.4
+- __ZN2ma14EncodeAnalysis12AnalyzeFrameEPNS_11EncodeStatsE6CMTimeP10__CVBufferPNS_5FrameEbb.cold.5
+- __ZN2ma14EncodeAnalysis12AnalyzeFrameEPNS_11EncodeStatsE6CMTimeP10__CVBufferPNS_5FrameEbb.cold.6
+- __ZN2ma14EncodeAnalysis12ProcessFrameE6CMTimeP10__CVBufferPNS_5FrameEbb.cold.1
+- __ZN2ma14EncodeAnalysis12ProcessFrameE6CMTimeP10__CVBufferPNS_5FrameEbb.cold.2
+- __ZN2ma14EncodeAnalysis12ProcessFrameE6CMTimeP10__CVBufferPNS_5FrameEbb.cold.3
+- __ZN2ma14EncodeAnalysis17ComputeFrameStatsEPNS_5FrameEb.cold.1
+- __ZN2ma14EncodeAnalysis17ComputeFrameStatsEPNS_5FrameEb.cold.2
+- __ZN2ma14EncodeAnalysis17ComputeSceneDeltaEPNS_5FrameE.cold.1
+- __ZN2ma14EncodeAnalysis19ComputeSpatialStatsEPNS_5FrameE.cold.1
+- __ZN2ma14EncodeAnalysis20ComputeTemporalStatsEPNS_5FrameEb.cold.1
+- __ZN2ma14EncodeAnalysis20ComputeTemporalStatsEPNS_5FrameEb.cold.2
+- __ZN2ma14EncodeAnalysis20GetFrameColorfulnessEP10__CVBuffer.cold.1
+- __ZN2ma14EncodeAnalysis20GetFrameColorfulnessEP10__CVBuffer.cold.2
+- __ZN2ma14EncodeAnalysis20GetFrameColorfulnessEP10__CVBuffer.cold.3
+- __ZN2ma14EncodeAnalysis20GetFrameColorfulnessEP10__CVBuffer.cold.4
+- __ZN2ma14EncodeAnalysis23GetFrameInterestingnessEP10__CVBuffer.cold.1
+- __ZN2ma14EncodeAnalysis23GetFrameInterestingnessEP10__CVBuffer.cold.2
+- __ZN2ma14EncodeAnalysis23GetFrameInterestingnessEP10__CVBuffer.cold.3
+- __ZN2ma14EncodeAnalysis23GetFrameInterestingnessEP10__CVBuffer.cold.4
+- __ZN2ma14EncodeAnalysis25ComputeInterestingnessLBPEP10__CVBufferPNS_5FrameEb.cold.1
+- __ZN2ma14EncodeAnalysis32ComputeBlockAndPixelColorfulnessEP10__CVBuffer.cold.3
+- __ZN2ma14EncodeAnalysis32ComputeBlockAndPixelColorfulnessEP10__CVBuffer.cold.4
+- __ZN2ma14EncodeAnalysis32ComputeBlockAndPixelColorfulnessEP10__CVBuffer.cold.5
+- __ZN2ma14EncodeAnalysis32ComputeBlockAndPixelColorfulnessEP10__CVBuffer.cold.6
+- __ZN2ma14ObjectTracking10InitializeEii.cold.1
+- __ZN2ma14ObjectTracking11BuildTargetEffffPhS1_b.cold.1
+- __ZN2ma14ObjectTracking11BuildTargetEffffPhS1_b.cold.2
+- __ZN2ma14ObjectTracking11BuildTargetEffffPhS1_b.cold.3
+- __ZN2ma14ObjectTracking11BuildTargetEffffPhS1_b.cold.4
+- __ZN2ma14ObjectTracking13UpdateExpertsEPff.cold.1
+- __ZN2ma14ObjectTracking15EstimateDensityEiiiiPhS1_Pf.cold.1
+- __ZN2ma14ObjectTracking15EstimateDensityEiiiiPhS1_PfS2_.cold.1
+- __ZN2ma14ObjectTracking17CheckUpdateTargetEPhS1_PNS_6ObjectEb.cold.1
+- __ZN2ma14ObjectTracking17CheckUpdateTargetEPhS1_PNS_6ObjectEb.cold.2
+- __ZN2ma14ObjectTracking17CheckUpdateTargetEPhS1_PNS_6ObjectEb.cold.3
+- __ZN2ma14ObjectTracking17MeanShiftTrackingERKNS_6ObjectEiiPhS4_PS1_PbPf.cold.1
+- __ZN2ma14ObjectTracking17MeanShiftTrackingERKNS_6ObjectEiiPhS4_PS1_PbPf.cold.2
+- __ZN2ma14ObjectTracking17MeanShiftTrackingERKNS_6ObjectEiiPhS4_PS1_PbPf.cold.3
+- __ZN2ma14ObjectTracking17MeanShiftTrackingERKNS_6ObjectEiiPhS4_PS1_PbPf.cold.4
+- __ZN2ma14ObjectTracking23UpdateStoredBoundingBoxEPNS_12MotionResultEii.cold.1
+- __ZN2ma14ObjectTracking26CalculateSimilarityWeightsEiiiiPhS1_Pf.cold.1
+- __ZN2ma15EncodeStatsAVE110ParseStatsEPK8__CFDataii.cold.1
+- __ZN2ma15EncodeStatsAVE110ParseStatsEPK8__CFDataii.cold.2
+- __ZN2ma15EncodeStatsAVE210ParseStatsEPK8__CFDataii.cold.1
+- __ZN2ma15EncodeStatsAVE210ParseStatsEPK8__CFDataii.cold.2
+- __ZN2ma15ObjectDetection10InitializeEiiPf.cold.1
+- __ZN2ma15ObjectDetection18BoundingboxObjectsEPNS_12MotionResultE.cold.1
+- __ZN2ma15ObjectDetection18StorePickedObjectsEPNS_12MotionResultE.cold.1
+- __ZN2ma15ObjectDetection23PickOneInterestedObjectEv.cold.1
+- __ZN2ma15ObjectDetection23PickOneInterestedObjectEv.cold.2
+- __ZN2ma15ObjectDetection6DetectEPNS_12MotionResultEPNS_12MotionVectorE.cold.1
+- __ZN2ma15ObjectDetection6DetectEPNS_12MotionResultEPNS_12MotionVectorE.cold.2
+- __ZN2ma15ObjectDetection6DetectEPNS_12MotionResultEPNS_12MotionVectorE.cold.3
+- __ZN2ma15ObjectDetection6DetectEPNS_12MotionResultEPNS_12MotionVectorE.cold.4
+- __ZN2ma15QualityAnalysis10AddSegmentERKNS_5FrameEb.cold.1
+- __ZN2ma15QualityAnalysis10InitializeEbbPK14__CFDictionaryf.cold.1
+- __ZN2ma15QualityAnalysis10InitializeEbbPK14__CFDictionaryf.cold.2
+- __ZN2ma15QualityAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.1
+- __ZN2ma15QualityAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.2
+- __ZN2ma15QualityAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.3
+- __ZN2ma15QualityAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.1
+- __ZN2ma15QualityAnalysis12ProcessFrameERKNS_5FrameES3_.cold.1
+- __ZN2ma15QualityAnalysis12SplitSegmentERKNSt3__16vectorINS1_4pairI11CMTimeRangefEENS1_9allocatorIS5_EEEE.cold.1
+- __ZN2ma15QualityAnalysis12SplitSegmentERKNSt3__16vectorINS1_4pairI11CMTimeRangefEENS1_9allocatorIS5_EEEE.cold.2
+- __ZN2ma15QualityAnalysis16FinalizeSegmentsERKNS_5FrameERKNSt3__16vectorINS4_4pairI11CMTimeRangefEENS4_9allocatorIS8_EEEESD_RKNS5_IS7_NS9_IS7_EEEESD_.cold.1
+- __ZN2ma15QualityAnalysis16FinalizeSegmentsERKNS_5FrameERKNSt3__16vectorINS4_4pairI11CMTimeRangefEENS4_9allocatorIS8_EEEESD_RKNS5_IS7_NS9_IS7_EEEESD_.cold.10
+- __ZN2ma15QualityAnalysis16FinalizeSegmentsERKNS_5FrameERKNSt3__16vectorINS4_4pairI11CMTimeRangefEENS4_9allocatorIS8_EEEESD_RKNS5_IS7_NS9_IS7_EEEESD_.cold.11
+- __ZN2ma15QualityAnalysis16FinalizeSegmentsERKNS_5FrameERKNSt3__16vectorINS4_4pairI11CMTimeRangefEENS4_9allocatorIS8_EEEESD_RKNS5_IS7_NS9_IS7_EEEESD_.cold.12
+- __ZN2ma15QualityAnalysis16FinalizeSegmentsERKNS_5FrameERKNSt3__16vectorINS4_4pairI11CMTimeRangefEENS4_9allocatorIS8_EEEESD_RKNS5_IS7_NS9_IS7_EEEESD_.cold.2
+- __ZN2ma15QualityAnalysis16FinalizeSegmentsERKNS_5FrameERKNSt3__16vectorINS4_4pairI11CMTimeRangefEENS4_9allocatorIS8_EEEESD_RKNS5_IS7_NS9_IS7_EEEESD_.cold.3
+- __ZN2ma15QualityAnalysis16FinalizeSegmentsERKNS_5FrameERKNSt3__16vectorINS4_4pairI11CMTimeRangefEENS4_9allocatorIS8_EEEESD_RKNS5_IS7_NS9_IS7_EEEESD_.cold.4
+- __ZN2ma15QualityAnalysis16FinalizeSegmentsERKNS_5FrameERKNSt3__16vectorINS4_4pairI11CMTimeRangefEENS4_9allocatorIS8_EEEESD_RKNS5_IS7_NS9_IS7_EEEESD_.cold.5
+- __ZN2ma15QualityAnalysis16FinalizeSegmentsERKNS_5FrameERKNSt3__16vectorINS4_4pairI11CMTimeRangefEENS4_9allocatorIS8_EEEESD_RKNS5_IS7_NS9_IS7_EEEESD_.cold.6
+- __ZN2ma15QualityAnalysis16FinalizeSegmentsERKNS_5FrameERKNSt3__16vectorINS4_4pairI11CMTimeRangefEENS4_9allocatorIS8_EEEESD_RKNS5_IS7_NS9_IS7_EEEESD_.cold.7
+- __ZN2ma15QualityAnalysis16FinalizeSegmentsERKNS_5FrameERKNSt3__16vectorINS4_4pairI11CMTimeRangefEENS4_9allocatorIS8_EEEESD_RKNS5_IS7_NS9_IS7_EEEESD_.cold.8
+- __ZN2ma15QualityAnalysis16FinalizeSegmentsERKNS_5FrameERKNSt3__16vectorINS4_4pairI11CMTimeRangefEENS4_9allocatorIS8_EEEESD_RKNS5_IS7_NS9_IS7_EEEESD_.cold.9
+- __ZN2ma15QualityAnalysis18StoreSegmentResultEv.cold.1
+- __ZN2ma15QualityAnalysis20MergeSimilarSegmentsEv.cold.1
+- __ZN2ma15QualityAnalysis21MergeTrackingSegmentsEv.cold.1
+- __ZN2ma15QualityAnalysis24MergeSparseShortSegmentsEv.cold.1
+- __ZN2ma15QualityAnalysis24MergeSparseShortSegmentsEv.cold.2
+- __ZN2ma15QualityAnalysis24MergeSparseShortSegmentsEv.cold.3
+- __ZN2ma15QualityAnalysis24MergeSparseShortSegmentsEv.cold.4
+- __ZN2ma15QualityAnalysis24MergeSparseShortSegmentsEv.cold.5
+- __ZN2ma15QualityAnalysis24MergeSparseShortSegmentsEv.cold.6
+- __ZN2ma15QualityAnalysis24MergeSparseShortSegmentsEv.cold.7
+- __ZN2ma15QualityAnalysis24MergeSparseShortSegmentsEv.cold.8
+- __ZN2ma15QualityAnalysis29MergeConsecutiveShortSegmentsEv.cold.1
+- __ZN2ma15QualityAnalysis29MergeConsecutiveShortSegmentsEv.cold.2
+- __ZN2ma15QualityAnalysis35QuantizeQualityAndMergeSameSegmentsEv.cold.1
+- __ZN2ma15QualityAnalysis36GenerateSceneResultsFromQualityScoreEv.cold.1
+- __ZN2ma15QualityAnalysis36GenerateSceneResultsFromQualityScoreEv.cold.2
+- __ZN2ma15QualityAnalysis36GenerateSceneResultsFromQualityScoreEv.cold.3
+- __ZN2ma15QualityAnalysis36GenerateSceneResultsFromQualityScoreEv.cold.4
+- __ZN2ma15RotationSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.1
+- __ZN2ma15RotationSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.2
+- __ZN2ma15RotationSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.3
+- __ZN2ma15RotationSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.4
+- __ZN2ma15RotationSegment13DetermineTypeEi.cold.1
+- __ZN2ma15RotationSegment13DetermineTypeEi.cold.2
+- __ZN2ma15RotationSegment14FromDictionaryEPK14__CFDictionary.cold.1
+- __ZN2ma16LandmarkDetector10InitializeEP7__sFILEiiiii.cold.1
+- __ZN2ma16LandmarkDetector10InitializeEP7__sFILEiiiii.cold.2
+- __ZN2ma16LandmarkDetector11DeserializeEP7__sFILE.cold.1
+- __ZN2ma16LandmarkDetector11DeserializeEP7__sFILE.cold.2
+- __ZN2ma16LandmarkDetector11DeserializeEP7__sFILE.cold.3
+- __ZN2ma16LandmarkDetector11DeserializeEP7__sFILE.cold.4
+- __ZN2ma16LandmarkDetector11DeserializeEP7__sFILE.cold.5
+- __ZN2ma16LandmarkDetector11DeserializeEP7__sFILE.cold.6
+- __ZN2ma16LandmarkDetector11DeserializeEP7__sFILE.cold.7
+- __ZN2ma16LandmarkDetector11DeserializeEP7__sFILE.cold.8
+- __ZN2ma16LandmarkDetector15DetectLandmarksEPKhiiiPfS3_.cold.1
+- __ZN2ma16LandmarkDetector15DetectLandmarksEPKhiiiPfS3_.cold.2
+- __ZN2ma16RotationAnalysis10AddSegmentERKNS_5FrameEb.cold.1
+- __ZN2ma16RotationAnalysis10AddSegmentERKNS_5FrameEb.cold.2
+- __ZN2ma16RotationAnalysis10InitializeEi.cold.1
+- __ZN2ma16RotationAnalysis10InitializeEi.cold.2
+- __ZN2ma16RotationAnalysis10SetResultsE11CMTimeRangei.cold.1
+- __ZN2ma16RotationAnalysis12ProcessFrameERKNS_5FrameE.cold.1
+- __ZN2ma16RotationAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.1
+- __ZN2ma16RotationAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.2
+- __ZN2ma16RotationAnalysis18StoreSegmentResultEv.cold.1
+- __ZN2ma16RotationAnalysis18StoreSegmentResultEv.cold.2
+- __ZN2ma16RotationAnalysis20SetOrientationResultEPK9__CFArray.cold.1
+- __ZN2ma16RotationAnalysis20SetOrientationResultEPK9__CFArray.cold.2
+- __ZN2ma16RotationAnalysis22CheckCameraOrientationE11CMTimeRangePi.cold.1
+- __ZN2ma16RotationAnalysis22CheckCameraOrientationE11CMTimeRangePi.cold.2
+- __ZN2ma16RotationAnalysis22CheckCameraOrientationE11CMTimeRangePi.cold.3
+- __ZN2ma16RotationAnalysis24GenerateSegmentAttributeEPKNS_15RotationSegmentEPPK14__CFDictionary.cold.1
+- __ZN2ma16RotationAnalysis24GenerateSegmentAttributeEPKNS_15RotationSegmentEPPK14__CFDictionary.cold.2
+- __ZN2ma16RotationAnalysis24GenerateSegmentAttributeEPKNS_15RotationSegmentEPPK14__CFDictionary.cold.3
+- __ZN2ma16TrackingAnalysis10AddSegmentERKNS_5FrameEb.cold.1
+- __ZN2ma16TrackingAnalysis10InitializeEv.cold.1
+- __ZN2ma16TrackingAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.1
+- __ZN2ma16TrackingAnalysis12ProcessFrameERKNS_5FrameE.cold.1
+- __ZN2ma16TrackingAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.1
+- __ZN2ma17DescriptorSegment18GenerateDescriptorEP10__CVBuffer.cold.1
+- __ZN2ma17DescriptorSegment18GenerateDescriptorEP10__CVBuffer.cold.2
+- __ZN2ma17PreEncodeAnalysis12ProcessFrameEPKNS_5FrameE.cold.1
+- __ZN2ma17PreEncodeAnalysis12ProcessFrameEPKNS_5FrameE.cold.2
+- __ZN2ma17PreEncodeAnalysis12ProcessFrameEPKNS_5FrameE.cold.3
+- __ZN2ma17PreEncodeAnalysis12ProcessFrameEPKNS_5FrameE.cold.4
+- __ZN2ma17PreEncodeAnalysis13AddSecondDataEPKNS_5FrameE.cold.1
+- __ZN2ma17PreEncodeAnalysis13AddSecondDataEPKNS_5FrameE.cold.2
+- __ZN2ma17PreEncodeAnalysis13AddSecondDataEPKNS_5FrameE.cold.3
+- __ZN2ma17PreEncodeAnalysis16QuantizeAndStoreEffRK6VectorIfE.cold.1
+- __ZN2ma17PreEncodeAnalysis23GenerateQRTableAndStoreEv.cold.1
+- __ZN2ma17PreEncodeAnalysis32PopulateAndStoreEncodeParametersEv.cold.1
+- __ZN2ma17PreEncodeAnalysis8FinalizeEPKNS_5FrameE.cold.1
+- __ZN2ma17PreEncodeAnalysis8FinalizeEPKNS_5FrameE.cold.2
+- __ZN2ma17PreEncodeAnalysis8FinalizeEPKNS_5FrameE.cold.3
+- __ZN2ma17PreEncodeAnalysis8FinalizeEPKNS_5FrameE.cold.4
+- __ZN2ma17PreEncodeAnalysis8FinalizeEPKNS_5FrameE.cold.5
+- __ZN2ma18DescriptorAnalysis10InitializeEi.cold.1
+- __ZN2ma18DescriptorAnalysis10InitializeEi.cold.2
+- __ZN2ma18DescriptorAnalysis10InitializeEi.cold.3
+- __ZN2ma18DescriptorAnalysis15ComputeDistanceERK11CMTimeRangeS3_Pfb.cold.1
+- __ZN2ma18DescriptorAnalysis15ComputeDistanceERK6VectorIPNS_17DescriptorSegmentEES6_Pfb.cold.1
+- __ZN2ma18DescriptorAnalysis15ComputeDistanceERK6VectorIPNS_17DescriptorSegmentEES6_Pfb.cold.2
+- __ZN2ma18DescriptorAnalysis15ComputeDistanceERK6VectorIPNS_17DescriptorSegmentEES6_Pfb.cold.3
+- __ZN2ma18DescriptorAnalysis15ComputeDistanceERK6VectorIPNS_17DescriptorSegmentEES6_Pfb.cold.4
+- __ZN2ma18DescriptorAnalysis15ComputeDistanceERK6VectorIPNS_17DescriptorSegmentEES6_Pfb.cold.5
+- __ZN2ma18DescriptorAnalysis18GenerateAttributesEPNS_17DescriptorSegmentEPPK14__CFDictionaryS6_.cold.1
+- __ZN2ma18DescriptorAnalysis18GenerateAttributesEPNS_17DescriptorSegmentEPPK14__CFDictionaryS6_.cold.2
+- __ZN2ma18DescriptorAnalysis18GenerateAttributesEPNS_17DescriptorSegmentEPPK14__CFDictionaryS6_.cold.3
+- __ZN2ma18DescriptorAnalysis18GenerateAttributesEPNS_17DescriptorSegmentEPPK14__CFDictionaryS6_.cold.4
+- __ZN2ma18DescriptorAnalysis18GenerateDescriptorEP10__CVBufferPNS_5FrameE.cold.1
+- __ZN2ma18DescriptorAnalysis18GenerateDescriptorEP10__CVBufferPNS_5FrameE.cold.2
+- __ZN2ma18DescriptorAnalysis18GenerateDescriptorEP10__CVBufferPNS_5FrameE.cold.3
+- __ZN2ma18DescriptorAnalysis26FinalizeDescriptorAnalysisEv.cold.1
+- __ZN2ma18DescriptorAnalysis26FinalizeDescriptorAnalysisEv.cold.2
+- __ZN2ma18DescriptorAnalysis26FinalizeDescriptorAnalysisEv.cold.3
+- __ZN2ma18DescriptorAnalysis27GetBoundaryIndexOfTimeRangeE11CMTimeRangePiS2_.cold.1
+- __ZN2ma18DescriptorAnalysis27GetNearestDescriptorForTimeE6CMTimePi.cold.1
+- __ZN2ma18DescriptorAnalysis28ComputeDistanceForSceneMergeERK11CMTimeRangeS3_bPfb.cold.1
+- __ZN2ma18DescriptorAnalysis28ComputeDistanceForSceneMergeERK11CMTimeRangeS3_bPfb.cold.2
+- __ZN2ma18DescriptorAnalysis28ComputeDistanceForSceneMergeERK11CMTimeRangeS3_bPfb.cold.3
+- __ZN2ma18DescriptorAnalysis28ComputeDistanceForSceneMergeERK11CMTimeRangeS3_bPfb.cold.4
+- __ZN2ma18SlowMotionAnalysis10AddSegmentERKNS_5FrameEb.cold.1
+- __ZN2ma18SlowMotionAnalysis10InitializeEv.cold.1
+- __ZN2ma18SlowMotionAnalysis12ProcessFrameERKNS_5FrameE.cold.1
+- __ZN2ma18SlowMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.1
+- __ZN2ma18SlowMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.2
+- __ZN2ma18SlowMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.3
+- __ZN2ma18SlowMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.4
+- __ZN2ma18SlowMotionAnalysis19EstimateFlickernessERKNS_5FrameE.cold.1
+- __ZN2ma18SlowMotionAnalysis21MergeSameTypeSegmentsEv.cold.1
+- __ZN2ma18SlowMotionAnalysis21MergeSameTypeSegmentsEv.cold.2
+- __ZN2ma18SlowMotionAnalysis24MergeSparseShortSegmentsEv.cold.1
+- __ZN2ma18SlowMotionAnalysis24MergeSparseShortSegmentsEv.cold.2
+- __ZN2ma18SlowMotionAnalysis24MergeSparseShortSegmentsEv.cold.3
+- __ZN2ma18SlowMotionAnalysis24MergeSparseShortSegmentsEv.cold.4
+- __ZN2ma18SlowMotionAnalysis29MergeConsecutiveShortSegmentsEv.cold.1
+- __ZN2ma18SlowMotionAnalysis29MergeConsecutiveShortSegmentsEv.cold.2
+- __ZN2ma19CameraMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.1
+- __ZN2ma19CameraMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.2
+- __ZN2ma19CameraMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.3
+- __ZN2ma19CameraMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.4
+- __ZN2ma19CameraMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.5
+- __ZN2ma19CameraMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.6
+- __ZN2ma19CameraMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.7
+- __ZN2ma19CameraMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.8
+- __ZN2ma19CameraMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.9
+- __ZN2ma19CameraMotionSegment14FromDictionaryEPK14__CFDictionary.cold.1
+- __ZN2ma19MotionFieldAnalysis10InitializeEiiPNS_11EncodeStatsEPaffbb.cold.1
+- __ZN2ma19MotionFieldAnalysis10InitializeEiiPNS_11EncodeStatsEPaffbb.cold.2
+- __ZN2ma19MotionFieldAnalysis12ProcessFrameEP10__CVBufferiPNS_12MotionResultEb.cold.1
+- __ZN2ma19MotionFieldAnalysis12ProcessFrameEP10__CVBufferiPNS_12MotionResultEb.cold.2
+- __ZN2ma19MotionFieldAnalysis15ContentAnalysisEP10__CVBufferiPNS_12MotionResultEb.cold.1
+- __ZN2ma19MotionFieldAnalysis15ContentAnalysisEP10__CVBufferiPNS_12MotionResultEb.cold.2
+- __ZN2ma19MotionFieldAnalysis18GenerateOutlierMapEiPfPNS_12MotionResultES1_.cold.1
+- __ZN2ma19MotionFieldAnalysis21RobustGlobalMotionEstEPfiS1_S1_.cold.1
+- __ZN2ma19MotionFieldAnalysis22CameraMotionEstimationEPNS_12MotionResultE.cold.1
+- __ZN2ma19MotionFieldAnalysis26MovingObjectDetectTrackingEP10__CVBufferiPNS_12MotionResultE.cold.3
+- __ZN2ma19MotionFieldAnalysis26MovingObjectDetectTrackingEP10__CVBufferiPNS_12MotionResultE.cold.4
+- __ZN2ma19MotionFieldAnalysis26MovingObjectDetectTrackingEP10__CVBufferiPNS_12MotionResultE.cold.5
+- __ZN2ma19MotionFieldAnalysis26MovingObjectDetectTrackingEP10__CVBufferiPNS_12MotionResultE.cold.6
+- __ZN2ma19MotionFieldAnalysis26MovingObjectDetectTrackingEP10__CVBufferiPNS_12MotionResultE.cold.7
+- __ZN2ma19MotionFieldAnalysis26MovingObjectDetectTrackingEP10__CVBufferiPNS_12MotionResultE.cold.8
+- __ZN2ma19MotionFieldAnalysis26MovingObjectDetectTrackingEP10__CVBufferiPNS_12MotionResultE.cold.9
+- __ZN2ma19MovingObjectSegment10AddObjectsEPKNS_12MotionResultE.cold.1
+- __ZN2ma19ObstructionAnalysis12ProcessFrameERKNS_5FrameERKNS_11EncodeStatsE.cold.1
+- __ZN2ma19ObstructionAnalysis18CheckAndAddSegmentERKNS_5FrameE.cold.1
+- __ZN2ma19ObstructionAnalysis18StoreSegmentResultEv.cold.1
+- __ZN2ma19ObstructionAnalysis8FinalizeERKNS_5FrameE.cold.1
+- __ZN2ma19ObstructionAnalysis8FinalizeERKNS_5FrameE.cold.2
+- __ZN2ma19SubtleMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.1
+- __ZN2ma19SubtleMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.2
+- __ZN2ma19SubtleMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.3
+- __ZN2ma19SubtleMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.4
+- __ZN2ma19SubtleMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.5
+- __ZN2ma19SubtleMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.6
+- __ZN2ma19SubtleMotionSegment14FromDictionaryEPK14__CFDictionary.cold.1
+- __ZN2ma20CameraMotionAnalysis10AddSegmentERKNS_5FrameEbb.cold.1
+- __ZN2ma20CameraMotionAnalysis10InitializeEib.cold.1
+- __ZN2ma20CameraMotionAnalysis10InitializeEib.cold.2
+- __ZN2ma20CameraMotionAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.1
+- __ZN2ma20CameraMotionAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.2
+- __ZN2ma20CameraMotionAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.3
+- __ZN2ma20CameraMotionAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.1
+- __ZN2ma20CameraMotionAnalysis12ProcessFrameERKNS_5FrameE.cold.1
+- __ZN2ma20CameraMotionAnalysis12ProcessFrameERKNS_5FrameE.cold.2
+- __ZN2ma20CameraMotionAnalysis12ProcessFrameERKNS_5FrameE.cold.3
+- __ZN2ma20CameraMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.1
+- __ZN2ma20CameraMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.10
+- __ZN2ma20CameraMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.11
+- __ZN2ma20CameraMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.2
+- __ZN2ma20CameraMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.3
+- __ZN2ma20CameraMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.4
+- __ZN2ma20CameraMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.5
+- __ZN2ma20CameraMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.6
+- __ZN2ma20CameraMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.7
+- __ZN2ma20CameraMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.8
+- __ZN2ma20CameraMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.9
+- __ZN2ma20CameraMotionAnalysis18StoreSegmentResultEv.cold.1
+- __ZN2ma20CameraMotionAnalysis18StoreSegmentResultEv.cold.2
+- __ZN2ma20CameraMotionAnalysis18StoreSegmentResultEv.cold.3
+- __ZN2ma20CameraMotionAnalysis20MergeSegmentsInRangeEiiiPi.cold.1
+- __ZN2ma20CameraMotionAnalysis20SetOrientationResultEPK9__CFArray.cold.1
+- __ZN2ma20CameraMotionAnalysis20StablizationSegmentsEv.cold.1
+- __ZN2ma20CameraMotionAnalysis20StablizationSegmentsEv.cold.2
+- __ZN2ma20CameraMotionAnalysis20StablizationSegmentsEv.cold.3
+- __ZN2ma20CameraMotionAnalysis20StablizationSegmentsEv.cold.4
+- __ZN2ma20CameraMotionAnalysis20StablizationSegmentsEv.cold.5
+- __ZN2ma20CameraMotionAnalysis20StablizationSegmentsEv.cold.6
+- __ZN2ma20CameraMotionAnalysis21MergeSameTypeSegmentsEv.cold.1
+- __ZN2ma20CameraMotionAnalysis23MergeBadQualitySegmentsEv.cold.1
+- __ZN2ma20CameraMotionAnalysis23MergeLensSwitchSegmentsEv.cold.1
+- __ZN2ma20CameraMotionAnalysis24MergeSparseShortSegmentsEv.cold.1
+- __ZN2ma20CameraMotionAnalysis24MergeSparseShortSegmentsEv.cold.2
+- __ZN2ma20CameraMotionAnalysis24MergeSparseShortSegmentsEv.cold.3
+- __ZN2ma20CameraMotionAnalysis24MergeSparseShortSegmentsEv.cold.4
+- __ZN2ma20CameraMotionAnalysis24MergeSparseShortSegmentsEv.cold.5
+- __ZN2ma20CameraMotionAnalysis24MergeSparseShortSegmentsEv.cold.6
+- __ZN2ma20CameraMotionAnalysis24MergeSparseShortSegmentsEv.cold.7
+- __ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime.cold.1
+- __ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime.cold.10
+- __ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime.cold.11
+- __ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime.cold.12
+- __ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime.cold.13
+- __ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime.cold.14
+- __ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime.cold.15
+- __ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime.cold.16
+- __ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime.cold.2
+- __ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime.cold.3
+- __ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime.cold.4
+- __ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime.cold.5
+- __ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime.cold.6
+- __ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime.cold.7
+- __ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime.cold.8
+- __ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime.cold.9
+- __ZN2ma20MovingObjectAnalysis10AddSegmentERKNS_5FrameEb.cold.1
+- __ZN2ma20MovingObjectAnalysis10InitializeEv.cold.1
+- __ZN2ma20MovingObjectAnalysis12ProcessFrameERKNS_5FrameE.cold.1
+- __ZN2ma20MovingObjectAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.1
+- __ZN2ma20MovingObjectAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.2
+- __ZN2ma20MovingObjectAnalysis18GenerateAttributesERKNS_19MovingObjectSegmentEPPK14__CFDictionary.cold.1
+- __ZN2ma20MovingObjectAnalysis18GenerateAttributesERKNS_19MovingObjectSegmentEPPK14__CFDictionary.cold.2
+- __ZN2ma20MovingObjectAnalysis18StoreSegmentResultEv.cold.1
+- __ZN2ma20MovingObjectAnalysis18StoreSegmentResultEv.cold.2
+- __ZN2ma20SubjectMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.1
+- __ZN2ma20SubjectMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.2
+- __ZN2ma20SubjectMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.3
+- __ZN2ma20SubjectMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.4
+- __ZN2ma20SubjectMotionSegment14FromDictionaryEPK14__CFDictionary.cold.1
+- __ZN2ma20SubtleMotionAnalysis10AddSegmentERKNS_5FrameEb.cold.1
+- __ZN2ma20SubtleMotionAnalysis10InitializeEb.cold.1
+- __ZN2ma20SubtleMotionAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.1
+- __ZN2ma20SubtleMotionAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.2
+- __ZN2ma20SubtleMotionAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.3
+- __ZN2ma20SubtleMotionAnalysis12ProcessFrameERKNS_5FrameE.cold.1
+- __ZN2ma20SubtleMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.1
+- __ZN2ma20SubtleMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.2
+- __ZN2ma20SubtleMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.3
+- __ZN2ma20SubtleMotionAnalysis18StoreSegmentResultEv.cold.1
+- __ZN2ma20SubtleMotionAnalysis21MergeSameTypeSegmentsEv.cold.1
+- __ZN2ma21SubjectMotionAnalysis10AddSegmentERKNS_5FrameEb.cold.1
+- __ZN2ma21SubjectMotionAnalysis10InitializeEv.cold.1
+- __ZN2ma21SubjectMotionAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.1
+- __ZN2ma21SubjectMotionAnalysis12ProcessFrameERKNS_5FrameE.cold.1
+- __ZN2ma21SubjectMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.1
+- __ZN2ma21SubjectMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.2
+- __ZN2ma21SubjectMotionAnalysis18StoreSegmentResultEv.cold.1
+- __ZN2ma23InterestingnessAnalysis10AddSegmentERKNS_5FrameEb.cold.1
+- __ZN2ma23InterestingnessAnalysis10InitializeEv.cold.1
+- __ZN2ma23InterestingnessAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.1
+- __ZN2ma23InterestingnessAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.2
+- __ZN2ma23InterestingnessAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.3
+- __ZN2ma23InterestingnessAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv.cold.1
+- __ZN2ma23InterestingnessAnalysis12ProcessFrameERKNS_5FrameE.cold.1
+- __ZN2ma23InterestingnessAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.1
+- __ZN2ma23InterestingnessAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.2
+- __ZN2ma23InterestingnessAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.3
+- __ZN2ma23InterestingnessAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.4
+- __ZN2ma23InterestingnessAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.5
+- __ZN2ma23InterestingnessAnalysis18StoreSegmentResultEv.cold.1
+- __ZN2ma23InterestingnessAnalysis21MergeSameTypeSegmentsEv.cold.1
+- __ZN2ma23InterestingnessAnalysis21MergeSameTypeSegmentsEv.cold.2
+- __ZN2ma23InterestingnessAnalysis24MergeSparseShortSegmentsEv.cold.1
+- __ZN2ma23InterestingnessAnalysis24MergeSparseShortSegmentsEv.cold.2
+- __ZN2ma23InterestingnessAnalysis24MergeSparseShortSegmentsEv.cold.3
+- __ZN2ma23InterestingnessAnalysis24MergeSparseShortSegmentsEv.cold.4
+- __ZN2ma23InterestingnessAnalysis29MergeConsecutiveShortSegmentsEv.cold.1
+- __ZN2ma23InterestingnessAnalysis29MergeConsecutiveShortSegmentsEv.cold.2
+- __ZN2ma24FineSubjectMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.1
+- __ZN2ma24FineSubjectMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.2
+- __ZN2ma24FineSubjectMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.3
+- __ZN2ma24FineSubjectMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.4
+- __ZN2ma24FineSubjectMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.5
+- __ZN2ma24FineSubjectMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.6
+- __ZN2ma24FineSubjectMotionSegment14FromDictionaryEPK14__CFDictionary.cold.1
+- __ZN2ma25FineSubjectMotionAnalysis10AddSegmentERKNS_5FrameEb.cold.1
+- __ZN2ma25FineSubjectMotionAnalysis10InitializeEb.cold.1
+- __ZN2ma25FineSubjectMotionAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.1
+- __ZN2ma25FineSubjectMotionAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.2
+- __ZN2ma25FineSubjectMotionAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv.cold.3
+- __ZN2ma25FineSubjectMotionAnalysis12ProcessFrameERKNS_5FrameE.cold.1
+- __ZN2ma25FineSubjectMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.1
+- __ZN2ma25FineSubjectMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.2
+- __ZN2ma25FineSubjectMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.3
+- __ZN2ma25FineSubjectMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.4
+- __ZN2ma25FineSubjectMotionAnalysis16FinalizeSegmentsERKNS_5FrameE.cold.5
+- __ZN2ma25FineSubjectMotionAnalysis18MergeShortSegmentsEv.cold.1
+- __ZN2ma25FineSubjectMotionAnalysis18MergeShortSegmentsEv.cold.2
+- __ZN2ma25FineSubjectMotionAnalysis18MergeShortSegmentsEv.cold.3
+- __ZN2ma25FineSubjectMotionAnalysis18MergeShortSegmentsEv.cold.4
+- __ZN2ma25FineSubjectMotionAnalysis18StoreSegmentResultEv.cold.1
+- __ZN2ma25FineSubjectMotionAnalysis20MergeSegmentsInRangeEiiPi.cold.1
+- __ZN2ma25FineSubjectMotionAnalysis21MergeSameTypeSegmentsEv.cold.1
+- __ZN2ma25FineSubjectMotionAnalysis27MergeShortSegmentsInBetweenEiiPi.cold.1
+- __ZN2ma25FineSubjectMotionAnalysis27MergeShortSegmentsInBetweenEiiPi.cold.2
+- __ZN2ma25FineSubjectMotionAnalysis27MergeShortSegmentsInBetweenEiiPi.cold.3
+- __ZN2ma25FineSubjectMotionAnalysis27MergeShortSegmentsInBetweenEiiPi.cold.4
+- __ZN2ma5Frame10InitializeE6CMTimeS1_P10__CVBufferb.cold.1
+- __ZN2ma6Object23CalculateAttentionScoreEv.cold.1
+- __ZN2ma7Rotator10InitializeEP10__CVBuffer.cold.1
+- __ZN2ma7Rotator10InitializeEP10__CVBuffer.cold.2
+- __ZN2ma7Rotator10InitializeEP10__CVBuffer.cold.3
+- __ZN2ma7Rotator10InitializeEP10__CVBuffer.cold.4
+- __ZN2ma7Rotator10InitializeEP10__CVBuffer.cold.5
+- __ZN2ma7Rotator10InitializeEP10__CVBuffer.cold.6
+- __ZN2ma7Rotator10InitializeEP10__CVBuffer.cold.7
+- __ZN2ma7Rotator6RotateEP10__CVBufferPS2_.cold.1
+- __ZN2ma7Rotator6RotateEP10__CVBufferPS2_.cold.2
+- __ZN2ma7Rotator6RotateEP10__CVBufferPS2_.cold.3
+- __ZN2ma7Segment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.1
+- __ZN2ma7Segment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.2
+- __ZN2ma7Segment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.3
+- __ZN2ma7Segment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.4
+- __ZN2ma7Segment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.5
+- __ZN2ma7Segment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.6
+- __ZN2ma7Segment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary.cold.7
+- __ZN2ma7Segment14FromDictionaryEPK14__CFDictionary.cold.1
+- __ZN2ma9Histogram10InitializeEP10__CVBufferb.cold.4
+- __ZN2ma9Histogram10InitializeEP10__CVBufferb.cold.5
+- __ZN2ma9Histogram10InitializeEP10__CVBufferb.cold.6
+- __ZN2ma9Histogram10InitializeEP10__CVBufferb.cold.7
+- __ZN2ma9Histogram10InitializeEP10__CVBufferb.cold.8
+- __ZN2ma9Histogram34InitializeAsIdealExposureHistogramEi.cold.1
+- __ZN2ma9Histogram34InitializeAsIdealExposureHistogramEi.cold.2
+- __ZN30VCPSceneprintDescriptorWrapper10InitializeEP10__CVBuffer.cold.1
+- __ZN30VCPSceneprintDescriptorWrapper10InitializeEP10__CVBuffer.cold.2
+- __ZN6Scaler12ScaleCroppedE6CGRectP10__CVBufferPS2_iij.cold.1
+- __ZN6Scaler12ScaleCroppedE6CGRectP10__CVBufferPS2_iij.cold.10
+- __ZN6Scaler12ScaleCroppedE6CGRectP10__CVBufferPS2_iij.cold.2
+- __ZN6Scaler12ScaleCroppedE6CGRectP10__CVBufferPS2_iij.cold.3
+- __ZN6Scaler12ScaleCroppedE6CGRectP10__CVBufferPS2_iij.cold.4
+- __ZN6Scaler12ScaleCroppedE6CGRectP10__CVBufferPS2_iij.cold.5
+- __ZN6Scaler12ScaleCroppedE6CGRectP10__CVBufferPS2_iij.cold.6
+- __ZN6Scaler12ScaleCroppedE6CGRectP10__CVBufferPS2_iij.cold.7
+- __ZN6Scaler12ScaleCroppedE6CGRectP10__CVBufferPS2_iij.cold.8
+- __ZN6Scaler12ScaleCroppedE6CGRectP10__CVBufferPS2_iij.cold.9
+- __ZN6Scaler25InitializePixelBufferPoolEiij.cold.1
+- __ZN6VectorI7CGPointE8PushBackERKS0_.cold.1
+- __ZN6VectorIPN2ma12SceneSegmentEE8PushBackERKS2_.cold.1
+- __ZN6VectorIPN2ma12TrackSegmentEE8PushBackERKS2_.cold.1
+- __ZN6VectorIPN2ma14ObjectTracking6ExpertEE8PushBackERKS3_.cold.1
+- __ZN6VectorIPN2ma14QualitySegmentEE6InsertEmRKS2_.cold.1
+- __ZN6VectorIPN2ma14QualitySegmentEE8PushBackERKS2_.cold.1
+- __ZN6VectorIPN2ma15RotationSegmentEE8PushBackERKS2_.cold.1
+- __ZN6VectorIPN2ma17DescriptorSegmentEE8PushBackERKS2_.cold.1
+- __ZN6VectorIPN2ma17SlowMotionSegmentEE8PushBackERKS2_.cold.1
+- __ZN6VectorIPN2ma18ObstructionSegmentEE8PushBackERKS2_.cold.1
+- __ZN6VectorIPN2ma19CameraMotionSegmentEE8PushBackERKS2_.cold.1
+- __ZN6VectorIPN2ma19MovingObjectSegmentEE8PushBackERKS2_.cold.1
+- __ZN6VectorIPN2ma19SubtleMotionSegmentEE8PushBackERKS2_.cold.1
+- __ZN6VectorIPN2ma20SubjectMotionSegmentEE8PushBackERKS2_.cold.1
+- __ZN6VectorIPN2ma22InterestingnessSegmentEE8PushBackERKS2_.cold.1
+- __ZN6VectorIPN2ma24FineSubjectMotionSegmentEE8PushBackERKS2_.cold.1
+- __ZN6VectorIPN2ma6ObjectEE8PushBackERKS2_.cold.1
+- __ZN6VectorIfE8PushBackERKf.cold.1
+- __ZN6VectorIjE8PushBackERKj.cold.1
+- __ZN6VectorItE8PushBackERKt.cold.1
+- __ZNK2ma17DescriptorSegment7CompareERKS0_Pfb.cold.1
+- __ZNK2ma17DescriptorSegment7CompareERKS0_Pfb.cold.2
+- __ZZ103+[VCPAnalysisProgressQuery reportProgressForPhotoLibrary:taskID:logMessage:cancelOrExtendTimeoutBlock:]E4once
+- __ZZ103+[VCPAnalysisProgressQuery reportProgressForPhotoLibrary:taskID:logMessage:cancelOrExtendTimeoutBlock:]E7enabled
+- __ZZ131-[VCPPhotosQuickFaceIdentificationManager _generatePersonsModelWithExtendTimeoutBlock:cancel:evaluationMode:allowUnverifiedPerson:]E10fetchLimit
+- __ZZ131-[VCPPhotosQuickFaceIdentificationManager _generatePersonsModelWithExtendTimeoutBlock:cancel:evaluationMode:allowUnverifiedPerson:]E4once
+- __ZZ27+[VCPPreAnalyzer _allowANE]E4once
+- __ZZ27+[VCPPreAnalyzer _allowANE]E7allowed
+- __ZZ27+[VCPPreAnalyzer _useR14J9]E4once
+- __ZZ27+[VCPPreAnalyzer _useR14J9]E7include
+- __ZZ27VCPBaseRetryIntervalSecondsE13retryInterval
+- __ZZ27VCPBaseRetryIntervalSecondsE4once
+- __ZZ28+[VCPPreAnalyzer _includeCN]E4once
+- __ZZ28+[VCPPreAnalyzer _includeCN]E7include
+- __ZZ28+[VCPPreAnalyzer _includeDO]E4once
+- __ZZ28+[VCPPreAnalyzer _includeDO]E7include
+- __ZZ28+[VCPPreAnalyzer _includeLM]E4once
+- __ZZ28+[VCPPreAnalyzer _includeLM]E7include
+- __ZZ28+[VCPPreAnalyzer _includePA]E4once
+- __ZZ28+[VCPPreAnalyzer _includePA]E7include
+- __ZZ28+[VCPPreAnalyzer _includeSE]E4once
+- __ZZ28+[VCPPreAnalyzer _includeSE]E7include
+- __ZZ28+[VCPPreAnalyzer _includeSO]E4once
+- __ZZ28+[VCPPreAnalyzer _includeSO]E7include
+- __ZZ28+[VCPPreAnalyzer _includeWP]E4once
+- __ZZ28+[VCPPreAnalyzer _includeWP]E7include
+- __ZZ29+[VCPPreAnalyzer _includeDMF]E4once
+- __ZZ29+[VCPPreAnalyzer _includeDMF]E7include
+- __ZZ29+[VCPPreAnalyzer _includeIVS]E4once
+- __ZZ29+[VCPPreAnalyzer _includeIVS]E7include
+- __ZZ29+[VCPPreAnalyzer _includeSDG]E4once
+- __ZZ29+[VCPPreAnalyzer _includeSDG]E7include
+- __ZZ30+[VCPPreAnalyzer _includeMeme]E4once
+- __ZZ30+[VCPPreAnalyzer _includeMeme]E7include
+- __ZZ30+[VCPPreAnalyzer _includeNSFW]E4once
+- __ZZ30+[VCPPreAnalyzer _includeNSFW]E7include
+- __ZZ31+[VCPFaceCropManager _allowANE]E4once
+- __ZZ31+[VCPFaceCropManager _allowANE]E7allowed
+- __ZZ32+[VCPPreAnalyzer _getSHRevision]E4once
+- __ZZ33+[VCPImageManager loggingEnabled]E4once
+- __ZZ33+[VCPImageManager loggingEnabled]E7enabled
+- __ZZ33+[VCPVideoInterpolator isEnabled]E4once
+- __ZZ33+[VCPVideoInterpolator isEnabled]E6enable
+- __ZZ33VCPMADUnifiedBackgroundProcessingE4once
+- __ZZ33VCPPersonFaceVIPMatchingThresholdE4once
+- __ZZ33VCPPersonFaceVIPMatchingThresholdE9threshold
+- __ZZ34+[VCPPreAnalyzer _includeDocument]E4once
+- __ZZ34+[VCPPreAnalyzer _includeDocument]E7include
+- __ZZ34+[VCPPreAnalyzer _includeRotation]E4once
+- __ZZ34+[VCPPreAnalyzer _includeRotation]E7include
+- __ZZ35+[VCPPreAnalysisRequests includeCN]E4once
+- __ZZ35+[VCPPreAnalysisRequests includeCN]E7include
+- __ZZ35+[VCPPreAnalysisRequests includeDO]E4once
+- __ZZ35+[VCPPreAnalysisRequests includeDO]E7include
+- __ZZ35+[VCPPreAnalysisRequests includeLM]E4once
+- __ZZ35+[VCPPreAnalysisRequests includeLM]E7include
+- __ZZ35+[VCPPreAnalysisRequests includePA]E4once
+- __ZZ35+[VCPPreAnalysisRequests includePA]E7include
+- __ZZ35+[VCPPreAnalysisRequests includeSE]E4once
+- __ZZ35+[VCPPreAnalysisRequests includeSE]E7include
+- __ZZ35+[VCPPreAnalysisRequests includeSO]E4once
+- __ZZ35+[VCPPreAnalysisRequests includeSO]E7include
+- __ZZ35+[VCPPreAnalysisRequests includeWP]E4once
+- __ZZ35+[VCPPreAnalysisRequests includeWP]E7include
+- __ZZ36+[PHAsset(VCPPHFaces) vcp_usePHFace]E3use
+- __ZZ36+[PHAsset(VCPPHFaces) vcp_usePHFace]E4once
+- __ZZ36+[VCPFullVideoAnalyzer enableMoflow]E4once
+- __ZZ36+[VCPFullVideoAnalyzer enableMoflow]E6enable
+- __ZZ36+[VCPPreAnalysisRequests includeDMF]E4once
+- __ZZ36+[VCPPreAnalysisRequests includeDMF]E7include
+- __ZZ36+[VCPPreAnalysisRequests includeIVS]E4once
+- __ZZ36+[VCPPreAnalysisRequests includeIVS]E7include
+- __ZZ36+[VCPPreAnalysisRequests includeSDG]E4once
+- __ZZ36+[VCPPreAnalysisRequests includeSDG]E7include
+- __ZZ37+[VCPFaceAnalyzer _faceprintFastMode]E4once
+- __ZZ37+[VCPFaceAnalyzer _faceprintFastMode]E8fastMode
+- __ZZ37+[VCPFreeFormSearch getMinSimilarity]E4once
+- __ZZ37+[VCPFreeFormSearch getSearchTesting]E13searchTesting
+- __ZZ37+[VCPFreeFormSearch getSearchTesting]E4once
+- __ZZ37+[VCPPreAnalysisRequests includeJunk]E4once
+- __ZZ37+[VCPPreAnalysisRequests includeJunk]E7include
+- __ZZ37+[VCPPreAnalysisRequests includeMeme]E4once
+- __ZZ37+[VCPPreAnalysisRequests includeMeme]E7include
+- __ZZ37+[VCPPreAnalysisRequests includeNSFW]E4once
+- __ZZ37+[VCPPreAnalysisRequests includeNSFW]E7include
+- __ZZ38+[MADSharedTextEncoder computeBackend]E4once
+- __ZZ38+[MADSharedTextEncoder computeBackend]E5value
+- __ZZ38+[VCPHandGestureClassifier enableFlip]E4once
+- __ZZ38+[VCPHandGestureClassifier enableFlip]E6enable
+- __ZZ39+[VCPImageHandsAnalyzer getExtendRatio]E11extendRatio
+- __ZZ39+[VCPImageHandsAnalyzer getExtendRatio]E4once
+- __ZZ39+[VCPImageManager _exportReencodedJPEG]E19exportReencodedJPEG
+- __ZZ39+[VCPImageManager _exportReencodedJPEG]E4once
+- __ZZ39+[VCPRequest useHandsLitePoseForVision]E28enableHandsLitePoseForVision
+- __ZZ39+[VCPRequest useHandsLitePoseForVision]E4once
+- __ZZ39+[VCPTextEncoder useCSULanguageEncoder]E3use
+- __ZZ39+[VCPTextEncoder useCSULanguageEncoder]E4once
+- __ZZ40+[VCPFaceIDModel newMutablePersonsModel]E36maximumTrainingFaceprintsPerIdentity
+- __ZZ40+[VCPFaceIDModel newMutablePersonsModel]E4once
+- __ZZ41+[VCPMovieAnalyzer persistAudioEmbedding]E4once
+- __ZZ41+[VCPMovieAnalyzer persistAudioEmbedding]E7persist
+- __ZZ41+[VCPPreAnalysisRequests includeDocument]E4once
+- __ZZ41+[VCPPreAnalysisRequests includeDocument]E7include
+- __ZZ41+[VCPPreAnalysisRequests includeRotation]E4once
+- __ZZ41+[VCPPreAnalysisRequests includeRotation]E7include
+- __ZZ41+[VCPSceneprintDescriptor usePHAssetData]E3use
+- __ZZ41+[VCPSceneprintDescriptor usePHAssetData]E4once
+- __ZZ41+[VCPVideoInterpolator getFRCQualityMode]E10once_token
+- __ZZ41+[VCPVideoInterpolator getFRCQualityMode]E4mode
+- __ZZ42+[PHAsset(VCPPHFaces) mad_peopleThreshold]E4once
+- __ZZ42+[PHAsset(VCPPHFaces) mad_peopleThreshold]E9threshold
+- __ZZ42+[VCPImageHumanPoseAnalyzer saveKeypoints]E4once
+- __ZZ42+[VCPImageHumanPoseAnalyzer saveKeypoints]E4save
+- __ZZ42+[VCPMADMLScalingTask getDownsamplingMode]E10once_token
+- __ZZ42+[VCPMADMLScalingTask getDownsamplingMode]E4mode
+- __ZZ42+[VCPMovieAnalyzer enableAudioVideoFusion]E4once
+- __ZZ42+[VCPVideoCNNAnalyzer adaptiveSegmentType]E4once
+- __ZZ42+[VCPVideoCNNAnalyzer adaptiveSegmentType]E4type
+- __ZZ42+[VCPVideoCNNAnalyzer isMUBackboneEnabled]E4once
+- __ZZ43+[VCPAnalysisProgressQuery _screenProgress]E4once
+- __ZZ43+[VCPAnalysisProgressQuery _screenProgress]E7enabled
+- __ZZ43+[VCPMovieAnalyzer shouldProcessAudioAsync]E16shouldAsyncAudio
+- __ZZ43+[VCPMovieAnalyzer shouldProcessAudioAsync]E4once
+- __ZZ43+[VCPPreAnalysisRequests sharpnessRevision]E4once
+- __ZZ43+[VCPVideoCNNAnalyzer forcePersonDetection]E20forcePersonDetection
+- __ZZ43+[VCPVideoCNNAnalyzer forcePersonDetection]E4once
+- __ZZ43+[VCPVideoCNNAnalyzer isMLHighlightEnabled]E20isMLHighlightEnabled
+- __ZZ43+[VCPVideoCNNAnalyzer isMLHighlightEnabled]E4once
+- __ZZ44+[VCPFaceIDModel petClassificationThreshold]E4once
+- __ZZ44+[VCPFaceIDModel petClassificationThreshold]E9threshold
+- __ZZ44+[VCPMediaAnalyzer includeTorsoOnlyForOneUP]E4once
+- __ZZ44+[VCPMediaAnalyzer includeTorsoOnlyForOneUP]E7include
+- __ZZ44+[VCPMovieAnalyzer MaxNumThumbnailsPerVideo]E4once
+- __ZZ44+[VCPMovieAnalyzer MaxNumThumbnailsPerVideo]E6maxNum
+- __ZZ44+[VCPMovieAnalyzer getMaximumHighlightInSec]E4once
+- __ZZ44+[VCPPhotosAutoCounterWorker _dumpFaceprint]E4dump
+- __ZZ44+[VCPPhotosAutoCounterWorker _dumpFaceprint]E4once
+- __ZZ44+[VCPVideoInterpolator allowMultipleFormats]E4once
+- __ZZ44+[VCPVideoInterpolator allowMultipleFormats]E5allow
+- __ZZ45+[VCPFaceAnalyzer _smallFaceWarningThreshold]E4once
+- __ZZ45+[VCPFaceAnalyzer _smallFaceWarningThreshold]E9threshold
+- __ZZ45+[VCPHandGestureMitigator getMinTiltingAngle]E4once
+- __ZZ45+[VCPHandGestureMitigator getMinTiltingAngle]E8minAngle
+- __ZZ45+[VCPMovieAnalyzer getEnableMovieHumanAction]E4once
+- __ZZ45+[VCPMovieAnalyzer getEnableMovieHumanAction]E6enable
+- __ZZ45+[VCPVideoInterpolator allowDetectSingleDrop]E16detectSingleDrop
+- __ZZ45+[VCPVideoInterpolator allowDetectSingleDrop]E4once
+- __ZZ45+[VCPVideoStabilizer saveStabilizationRecipe]E4once
+- __ZZ45+[VCPVideoStabilizer saveStabilizationRecipe]E6enable
+- __ZZ46+[PHAsset(VCPPHFaces) vcp_usePHFaceExpression]E3use
+- __ZZ46+[PHAsset(VCPPHFaces) vcp_usePHFaceExpression]E4once
+- __ZZ46+[VCPDatabaseReader shouldQueryInternalFields]E4once
+- __ZZ46+[VCPHandGestureMitigator getMinHandFaceRatio]E4once
+- __ZZ46+[VCPHandGestureMitigator getMinHandFaceRatio]E5ratio
+- __ZZ46+[VCPImageCaptionAnalyzer greedySearchEnabled]E4once
+- __ZZ46+[VCPImageCaptionAnalyzer greedySearchEnabled]E7enabled
+- __ZZ46+[VCPPhotoAnalyzer isLivePhotoKeyFrameEnabled]E26isLivePhotoKeyFrameEnabled
+- __ZZ46+[VCPPhotoAnalyzer isLivePhotoKeyFrameEnabled]E4once
+- __ZZ46+[VCPPreAnalyzer _enableSceneAssetConcurrency]E4once
+- __ZZ46+[VCPPreAnalyzer _enableSceneAssetConcurrency]E6enable
+- __ZZ46+[VCPSettlingEffectAnalyzer getFRCQualityMode]E10once_token
+- __ZZ46+[VCPSettlingEffectAnalyzer getFRCQualityMode]E4mode
+- __ZZ46+[VCPVideoKeyFrame isLivePhotoKeyFrameEnabled]E26isLivePhotoKeyFrameEnabled
+- __ZZ46+[VCPVideoKeyFrame isLivePhotoKeyFrameEnabled]E4once
+- __ZZ47+[VCPFreeFormSearch getHighSimilarityThreshold]E4once
+- __ZZ47+[VCPFreeFormSearch getMaxSimilarityDiffFor1UP]E17maxSimilarityDiff
+- __ZZ47+[VCPFreeFormSearch getMaxSimilarityDiffFor1UP]E4once
+- __ZZ47+[VCPFreeFormSearch getMinSimilarityHighRecall]E4once
+- __ZZ47+[VCPMediaAnalyzer _getDistanceDescriptorClass]E4once
+- __ZZ48+[VCPHandGestureMitigator getFaceExtensionRatio]E4once
+- __ZZ48+[VCPHandGestureMitigator getFaceExtensionRatio]E5ratio
+- __ZZ48+[VCPPhotosAutoCounterWorker _dumpAssetsToFaces]E4dump
+- __ZZ48+[VCPPhotosAutoCounterWorker _dumpAssetsToFaces]E4once
+- __ZZ50+[VCPFaceAnalyzer _downsampleBeforeFaceProcessing]E10downsample
+- __ZZ50+[VCPFaceAnalyzer _downsampleBeforeFaceProcessing]E4once
+- __ZZ50+[VCPHandGestureMitigator getMinTiltingThumbAngle]E4once
+- __ZZ50+[VCPHandGestureMitigator getMinTiltingThumbAngle]E8minAngle
+- __ZZ50+[VCPImageFaceDetector isLivePhotoKeyFrameEnabled]E26isLivePhotoKeyFrameEnabled
+- __ZZ50+[VCPImageFaceDetector isLivePhotoKeyFrameEnabled]E4once
+- __ZZ50+[VCPImageHandsAnalyzer getInsetForRejectingHands]E4once
+- __ZZ50+[VCPImageHandsAnalyzer getInsetForRejectingHands]E5inset
+- __ZZ50+[VCPMovieAnalyzer isHeuristicStickerScoreEnabled]E30isHeuristicStickerScoreEnabled
+- __ZZ50+[VCPMovieAnalyzer isHeuristicStickerScoreEnabled]E4once
+- __ZZ52+[VCPFullVideoAnalyzer useSceneprintInSceneAnalysis]E3use
+- __ZZ52+[VCPFullVideoAnalyzer useSceneprintInSceneAnalysis]E4once
+- __ZZ53+[MADEmbeddingStore includeAudioFusedVideoEmbeddings]E4once
+- __ZZ53+[MADEmbeddingStore includeAudioFusedVideoEmbeddings]E7include
+- __ZZ53+[VCPMovieHighlightAnalyzer getMinimumHighlightInSec]E4once
+- __ZZ53+[VCPMovieHighlightAnalyzer getMinimumHighlightInSec]E6length
+- __ZZ54+[PHPhotoLibrary(MediaAnalysis) mad_clusterVideoFaces]E17clusterVideoFaces
+- __ZZ54+[PHPhotoLibrary(MediaAnalysis) mad_clusterVideoFaces]E4once
+- __ZZ54+[VCPHandGestureMitigator getPalmScaleChangeThreshold]E4once
+- __ZZ54+[VCPHandGestureMitigator getPalmScaleChangeThreshold]E5ratio
+- __ZZ54+[VCPImageCaptionAnalyzer writeSpatialEmbeddingToFile]E4once
+- __ZZ54+[VCPImageCaptionAnalyzer writeSpatialEmbeddingToFile]E7enabled
+- __ZZ54+[VCPSettlingEffectAnalyzer disableVideoQualityGating]E4once
+- __ZZ54+[VCPSettlingEffectAnalyzer disableVideoQualityGating]E8disabled
+- __ZZ54+[VCPVideoKeyFrameAnalyzer isLivePhotoKeyFrameEnabled]E26isLivePhotoKeyFrameEnabled
+- __ZZ54+[VCPVideoKeyFrameAnalyzer isLivePhotoKeyFrameEnabled]E4once
+- __ZZ54+[VCPVideoThumbnailAnalyzer getMaxNumThumbnailsPerMin]E4once
+- __ZZ54+[VCPVideoThumbnailAnalyzer getMaxNumThumbnailsPerMin]E6maxNum
+- __ZZ55+[VCPFaceAnalyzer _forwardCompatibleFaceSigmaThreshold]E4once
+- __ZZ55+[VCPFaceAnalyzer _forwardCompatibleFaceSigmaThreshold]E9threshold
+- __ZZ55+[VCPHandGestureMitigator getPalmMoveDistanceThreshold]E4once
+- __ZZ55+[VCPHandGestureMitigator getPalmMoveDistanceThreshold]E5ratio
+- __ZZ56+[VCPFaceAnalyzer _forwardCompatibleTorsoSigmaThreshold]E4once
+- __ZZ56+[VCPFaceAnalyzer _forwardCompatibleTorsoSigmaThreshold]E9threshold
+- __ZZ56+[VCPHandGestureMitigator getHandMotionLookBackDuration]E4once
+- __ZZ56+[VCPHandGestureMitigator getHandMotionLookBackDuration]E5ratio
+- __ZZ56+[VCPSettlingEffectAnalyzer disableBurstFrameDropGating]E4once
+- __ZZ56+[VCPSettlingEffectAnalyzer disableBurstFrameDropGating]E8disabled
+- __ZZ57+[VCPSettlingEffectAnalyzer disableStillTransitionGating]E4once
+- __ZZ57+[VCPSettlingEffectAnalyzer disableStillTransitionGating]E8disabled
+- __ZZ57+[VCPVideoCNNAnalyzer isMLSettlingEffectPregatingEnabled]E4once
+- __ZZ57+[VCPVideoCNNAnalyzer isMLSettlingEffectPregatingEnabled]E6enable
+- __ZZ58+[VCPImageCaptionAnalyzer useVCPMobileAssetAXCaptionModel]E4once
+- __ZZ58+[VCPImageCaptionAnalyzer useVCPMobileAssetAXCaptionModel]E7enabled
+- __ZZ58+[VCPSettlingEffectAnalyzer disableMetadataIntegrityCheck]E4once
+- __ZZ58+[VCPSettlingEffectAnalyzer disableMetadataIntegrityCheck]E8disabled
+- __ZZ59+[VCPMovieHighlightAnalyzer isHeuristicStickerScoreEnabled]E30isHeuristicStickerScoreEnabled
+- __ZZ59+[VCPMovieHighlightAnalyzer isHeuristicStickerScoreEnabled]E4once
+- __ZZ59+[VCPVideoAnalysisPipelineManager shouldUseGraphProcessing]E24shouldUseGraphProcessing
+- __ZZ59+[VCPVideoAnalysisPipelineManager shouldUseGraphProcessing]E4once
+- __ZZ60+[VCPMovieCurationAnalyzer isSettlingEffectPregatingEnabled]E4once
+- __ZZ60+[VCPMovieCurationAnalyzer isSettlingEffectPregatingEnabled]E6enable
+- __ZZ60-[VCPMADImageSafetyClassificationTask logMemoryWithMessage:]E4once
+- __ZZ60-[VCPMADImageSafetyClassificationTask logMemoryWithMessage:]E7enabled
+- __ZZ61+[PHAsset(MediaAnalysisOCRProcessing) vcp_ocrGatingThreshold]E4once
+- __ZZ61+[PHAsset(MediaAnalysisOCRProcessing) vcp_ocrGatingThreshold]E9threshold
+- __ZZ62+[PHAsset(MediaAnalysisComputeSync) mad_isComputeSyncDisabled]E10isDisabled
+- __ZZ62+[PHAsset(MediaAnalysisComputeSync) mad_isComputeSyncDisabled]E4once
+- __ZZ62+[VCPPhotosSceneprintAssetProcessingTask _panoVNRequestMethod]E4once
+- __ZZ62+[VCPPhotosSceneprintAssetProcessingTask _panoVNRequestMethod]E6method
+- __ZZ64+[PHAssetResource(MediaAnalysis) mad_disableComputeSyncDownload]E4once
+- __ZZ64+[PHAssetResource(MediaAnalysis) mad_disableComputeSyncDownload]E8disabled
+- __ZZ66+[PHAsset(MediaAnalysisVisualSearchProcessing) enableStickerScore]E4once
+- __ZZ66+[PHAsset(MediaAnalysisVisualSearchProcessing) enableStickerScore]E6enable
+- __ZZ67-[PHPhotoLibrary(MediaAnalysis) mad_pauseFCPeopleFurtherProcessing]E4once
+- __ZZ67-[PHPhotoLibrary(MediaAnalysis) mad_pauseFCPeopleFurtherProcessing]E5pause
+- __ZZ68+[VCPHandGestureMitigator getGestureTypeConsistencyLookBackDuration]E4once
+- __ZZ68+[VCPHandGestureMitigator getGestureTypeConsistencyLookBackDuration]E8duration
+- __ZZ68+[VCPPhotosQuickFaceIdentificationManager _fastFaceMigrationEnabled]E4once
+- __ZZ68+[VCPPhotosQuickFaceIdentificationManager _fastFaceMigrationEnabled]E7enabled
+- __ZZ69+[VCPFullAnalysisAssetProcessingTask AllowPersistSettlingEffectScore]E4once
+- __ZZ74-[PHAsset(MediaAnalysisComputeSync) mad_isEligibleForComputeSyncIngestion]E4once
+- __ZZ89+[VCPPhotosFace _isColocatingAnimalObservation:withFaceObservations:orTorsoObservations:]E12iouThreshold
+- __ZZ89+[VCPPhotosFace _isColocatingAnimalObservation:withFaceObservations:orTorsoObservations:]E4once
+- ___101-[VCPMediaAnalyzer findTimeRangesFor:inURLAsset:withOptions:andProgressHandler:andCompletionHandler:]_block_invoke.1032
+- ___103+[VCPAnalysisProgressQuery reportProgressForPhotoLibrary:taskID:logMessage:cancelOrExtendTimeoutBlock:]_block_invoke
+- ___104-[VCPPhotosQuickFaceIdentificationManager processAsset:onDemandDetection:detectedFaces:detectedPersons:]_block_invoke.450
+- ___112-[MADPersonalizedEmbeddingTask processSegments:resource:keyImageSegment:personalizationIndex:textEncoderInputs:]_block_invoke
+- ___112-[MADPersonalizedEmbeddingTask processSegments:resource:keyImageSegment:personalizationIndex:textEncoderInputs:]_block_invoke.498
+- ___112-[VCPMediaAnalyzer _analyzeOndemand:forAnalysisTypes:withExistingAnalysis:andOptions:storeAnalysis:cancelBlock:]_block_invoke.929
+- ___112-[VCPMediaAnalyzer _analyzeOndemand:forAnalysisTypes:withExistingAnalysis:andOptions:storeAnalysis:cancelBlock:]_block_invoke.930
+- ___121-[VCPPhotosQuickFaceIdentificationManager personIdentificationForSyndicationPhotoLibrary:withCancelOrExtendTimeoutBlock:]_block_invoke.483
+- ___121-[VCPPhotosQuickFaceIdentificationManager personIdentificationForSyndicationPhotoLibrary:withCancelOrExtendTimeoutBlock:]_block_invoke.488
+- ___124+[PHAssetResourceManager(MediaAnalysis) vcp_requestFileURLForAssetResource:withTaskID:toResourceURL:progressHandler:cancel:]_block_invoke.200
+- ___124-[VCPFaceMerger mergeExistingFaces:andDetectedFaces:withRequestHandler:orientedWidth:orientedHeight:assetWidth:assetHeight:]_block_invoke.402
+- ___131-[VCPPhotosQuickFaceIdentificationManager _generatePersonsModelWithExtendTimeoutBlock:cancel:evaluationMode:allowUnverifiedPerson:]_block_invoke.552
+- ___134+[PHAssetResourceManager(MediaAnalysis) vcp_requestFileURLForAssetResource:withTaskID:timeoutHandler:urlHandler:andCompletionHandler:]_block_invoke.201
+- ___134+[PHAssetResourceManager(MediaAnalysis) vcp_requestFileURLForAssetResource:withTaskID:timeoutHandler:urlHandler:andCompletionHandler:]_block_invoke.203
+- ___137-[VCPPhotosAutoCounterWorker _reportCoreAnalyticsWithVisionClusterMeasure:personClusterMeasure:personClusters:andGroundTruthInformation:]_block_invoke.763
+- ___137-[VCPPhotosAutoCounterWorker _reportCoreAnalyticsWithVisionClusterMeasure:personClusterMeasure:personClusters:andGroundTruthInformation:]_block_invoke.764
+- ___149-[VCPPhotosAutoCounterWorker _parseGroundTruthWithURL:faceCountPerPerson:personInformation:faceToPerson:assetToFaces:extendTimeoutBlock:cancelBlock:]_block_invoke.607
+- ___166-[MADPersonalizedEmbeddingTask processGenerativePlaygroundsOutput:resource:imageSegment:personalizationIndex:embeddingResult:hiddenLayerResult:pooledEmbeddingResult:]_block_invoke
+- ___169-[VCPFaceProcessingServiceWorker _suggestionsForPersonWithLocalIdentifier:toBeConfirmedPersonSuggestions:toBeRejectedPersonSuggestions:cancelOrExtendTimeoutBlock:error:]_block_invoke.425
+- ___169-[VCPFaceProcessingServiceWorker _suggestionsForPersonWithLocalIdentifier:toBeConfirmedPersonSuggestions:toBeRejectedPersonSuggestions:cancelOrExtendTimeoutBlock:error:]_block_invoke.429
+- ___169-[VCPFaceProcessingServiceWorker _suggestionsForPersonWithLocalIdentifier:toBeConfirmedPersonSuggestions:toBeRejectedPersonSuggestions:cancelOrExtendTimeoutBlock:error:]_block_invoke.435
+- ___169-[VCPFaceProcessingServiceWorker _suggestionsForPersonWithLocalIdentifier:toBeConfirmedPersonSuggestions:toBeRejectedPersonSuggestions:cancelOrExtendTimeoutBlock:error:]_block_invoke.441
+- ___169-[VCPFaceProcessingServiceWorker _suggestionsForPersonWithLocalIdentifier:toBeConfirmedPersonSuggestions:toBeRejectedPersonSuggestions:cancelOrExtendTimeoutBlock:error:]_block_invoke.456
+- ___202-[VCPPhotosAutoCounterWorker _measurePNPersonClusters:groundTruthFaceCountPerPerson:groundTruthPersonInformation:groundTruthFaceToPerson:groundTruthAssetToFaces:measures:extendTimeoutBlock:cancelBlock:]_block_invoke.649
+- ___212-[VCPPhotosAutoCounterWorker _measureClusterWithClusterStateURL:groundTruthFaceCountPerPerson:groundTruthPersonInformation:groundTruthFaceToPerson:groundTruthAssetToFaces:measures:extendTimeoutBlock:cancelBlock:]_block_invoke.622
+- ___212-[VCPPhotosAutoCounterWorker _measureClusterWithClusterStateURL:groundTruthFaceCountPerPerson:groundTruthPersonInformation:groundTruthFaceToPerson:groundTruthAssetToFaces:measures:extendTimeoutBlock:cancelBlock:]_block_invoke.623
+- ___212-[VCPPhotosAutoCounterWorker _measureClusterWithClusterStateURL:groundTruthFaceCountPerPerson:groundTruthPersonInformation:groundTruthFaceToPerson:groundTruthAssetToFaces:measures:extendTimeoutBlock:cancelBlock:]_block_invoke.647
+- ___23-[VCPMADVIFaceTask run]_block_invoke.376
+- ___23-[VCPMADVIFaceTask run]_block_invoke.381
+- ___23-[VCPMADVIFaceTask run]_block_invoke.386
+- ___23-[VCPMADVIFaceTask run]_block_invoke.391
+- ___26+[VCPFaceMerger _allowANE]_block_invoke
+- ___27+[VCPPreAnalyzer _allowANE]_block_invoke
+- ___27+[VCPPreAnalyzer _useR14J9]_block_invoke
+- ___28+[VCPPreAnalyzer _includeCN]_block_invoke
+- ___28+[VCPPreAnalyzer _includeDO]_block_invoke
+- ___28+[VCPPreAnalyzer _includeLM]_block_invoke
+- ___28+[VCPPreAnalyzer _includePA]_block_invoke
+- ___28+[VCPPreAnalyzer _includeSE]_block_invoke
+- ___28+[VCPPreAnalyzer _includeSO]_block_invoke
+- ___28+[VCPPreAnalyzer _includeWP]_block_invoke
+- ___29+[VCPPreAnalyzer _includeDMF]_block_invoke
+- ___29+[VCPPreAnalyzer _includeIVS]_block_invoke
+- ___29+[VCPPreAnalyzer _includeSDG]_block_invoke
+- ___30+[VCPPreAnalyzer _includeMeme]_block_invoke
+- ___30+[VCPPreAnalyzer _includeNSFW]_block_invoke
+- ___31+[VCPFaceCropManager _allowANE]_block_invoke
+- ___32+[VCPPreAnalyzer _getSHRevision]_block_invoke
+- ___33+[VCPImageManager loggingEnabled]_block_invoke
+- ___33+[VCPVideoInterpolator isEnabled]_block_invoke
+- ___34+[VCPPreAnalyzer _includeDocument]_block_invoke
+- ___34+[VCPPreAnalyzer _includeRotation]_block_invoke
+- ___34-[VCPDatabaseReader loadKeyValues]_block_invoke.cold.1
+- ___35+[VCPPreAnalysisRequests includeCN]_block_invoke
+- ___35+[VCPPreAnalysisRequests includeDO]_block_invoke
+- ___35+[VCPPreAnalysisRequests includeLM]_block_invoke
+- ___35+[VCPPreAnalysisRequests includePA]_block_invoke
+- ___35+[VCPPreAnalysisRequests includeSE]_block_invoke
+- ___35+[VCPPreAnalysisRequests includeSO]_block_invoke
+- ___35+[VCPPreAnalysisRequests includeWP]_block_invoke
+- ___36+[PHAsset(VCPPHFaces) vcp_usePHFace]_block_invoke
+- ___36+[VCPFullVideoAnalyzer enableMoflow]_block_invoke
+- ___36+[VCPPreAnalysisRequests includeDMF]_block_invoke
+- ___36+[VCPPreAnalysisRequests includeIVS]_block_invoke
+- ___36+[VCPPreAnalysisRequests includeSDG]_block_invoke
+- ___37+[VCPEffectsAnalyzer usePHAssetScene]_block_invoke
+- ___37+[VCPFaceAnalyzer _faceprintFastMode]_block_invoke
+- ___37+[VCPFreeFormSearch getMinSimilarity]_block_invoke
+- ___37+[VCPFreeFormSearch getSearchTesting]_block_invoke
+- ___37+[VCPPreAnalysisRequests includeJunk]_block_invoke
+- ___37+[VCPPreAnalysisRequests includeMeme]_block_invoke
+- ___37+[VCPPreAnalysisRequests includeNSFW]_block_invoke
+- ___37-[VCPDatabaseReader loadChangeTokens]_block_invoke.cold.1
+- ___37-[VCPMADPersonIdentificationTask run]_block_invoke.420
+- ___37-[VCPMADPersonIdentificationTask run]_block_invoke.463
+- ___37-[VCPMADPersonIdentificationTask run]_block_invoke.472
+- ___38+[MADSharedTextEncoder computeBackend]_block_invoke
+- ___38+[VCPHandGestureClassifier enableFlip]_block_invoke
+- ___38-[VCPMADVISceneClassificationTask run]_block_invoke.361
+- ___38-[VCPMADVISceneClassificationTask run]_block_invoke.363
+- ___38-[VCPMADVISceneClassificationTask run]_block_invoke.365
+- ___38-[VCPMADVISceneClassificationTask run]_block_invoke.367
+- ___39+[VCPImageHandsAnalyzer getExtendRatio]_block_invoke
+- ___39+[VCPImageManager _exportReencodedJPEG]_block_invoke
+- ___39+[VCPRequest useHandsLitePoseForVision]_block_invoke
+- ___39+[VCPTextEncoder useCSULanguageEncoder]_block_invoke
+- ___39-[VCPMovieAssetWriter dispatchEncoding]_block_invoke.13
+- ___39-[VCPMovieAssetWriter dispatchEncoding]_block_invoke.15
+- ___39-[VCPMovieAssetWriter dispatchEncoding]_block_invoke_2.14
+- ___39-[VCPMovieAssetWriter dispatchEncoding]_block_invoke_2.16
+- ___40+[VCPFaceIDModel newMutablePersonsModel]_block_invoke
+- ___40-[MADVideoRemoveBackgroundCropTask run:]_block_invoke.552
+- ___41+[VCPMovieAnalyzer persistAudioEmbedding]_block_invoke
+- ___41+[VCPPreAnalysisRequests includeDocument]_block_invoke
+- ___41+[VCPPreAnalysisRequests includeRotation]_block_invoke
+- ___41+[VCPSceneprintDescriptor usePHAssetData]_block_invoke
+- ___41+[VCPVideoInterpolator getFRCQualityMode]_block_invoke
+- ___41-[VCPDatabaseReader loadProcessingStatus]_block_invoke.cold.1
+- ___42+[PHAsset(VCPPHFaces) mad_peopleThreshold]_block_invoke
+- ___42+[VCPImageHumanPoseAnalyzer saveKeypoints]_block_invoke
+- ___42+[VCPMADMLScalingTask getDownsamplingMode]_block_invoke
+- ___42+[VCPMovieAnalyzer enableAudioVideoFusion]_block_invoke
+- ___42+[VCPVideoCNNAnalyzer adaptiveSegmentType]_block_invoke
+- ___42+[VCPVideoCNNAnalyzer isMUBackboneEnabled]_block_invoke
+- ___42-[VCPMADImageSafetyClassificationTask run]_block_invoke.394
+- ___42-[VCPMobileAssetManager queryMobileAssets]_block_invoke.556
+- ___42-[VCPMobileAssetManager queryMobileAssets]_block_invoke.558
+- ___43+[VCPAnalysisProgressQuery _screenProgress]_block_invoke
+- ___43+[VCPMovieAnalyzer shouldProcessAudioAsync]_block_invoke
+- ___43+[VCPPreAnalysisRequests sharpnessRevision]_block_invoke
+- ___43+[VCPVideoCNNAnalyzer forcePersonDetection]_block_invoke
+- ___43+[VCPVideoCNNAnalyzer isMLHighlightEnabled]_block_invoke
+- ___43-[VCPDatabaseReader queryAnalysisForAsset:]_block_invoke.cold.1
+- ___43-[VCPDatabaseReader queryAnalysisForAsset:]_block_invoke.cold.2
+- ___44+[VCPFaceIDModel petClassificationThreshold]_block_invoke
+- ___44+[VCPMediaAnalyzer includeTorsoOnlyForOneUP]_block_invoke
+- ___44+[VCPMobileAssetManager isCaptionOTAEnabled]_block_invoke
+- ___44+[VCPMovieAnalyzer MaxNumThumbnailsPerVideo]_block_invoke
+- ___44+[VCPMovieAnalyzer getMaximumHighlightInSec]_block_invoke
+- ___44+[VCPPhotosAutoCounterWorker _dumpFaceprint]_block_invoke
+- ___44+[VCPVideoInterpolator allowMultipleFormats]_block_invoke
+- ___44-[VCPDatabaseReader migration_loadKeyValues]_block_invoke.cold.1
+- ___45+[VCPFaceAnalyzer _smallFaceWarningThreshold]_block_invoke
+- ___45+[VCPHandGestureMitigator getMinTiltingAngle]_block_invoke
+- ___45+[VCPMobileAssetManager isOTAFailTestEnabled]_block_invoke
+- ___45+[VCPMovieAnalyzer getEnableMovieHumanAction]_block_invoke
+- ___45+[VCPVideoInterpolator allowDetectSingleDrop]_block_invoke
+- ___45+[VCPVideoStabilizer saveStabilizationRecipe]_block_invoke
+- ___46+[PHAsset(VCPPHFaces) vcp_usePHFaceExpression]_block_invoke
+- ___46+[VCPDatabaseReader shouldQueryInternalFields]_block_invoke
+- ___46+[VCPHandGestureMitigator getMinHandFaceRatio]_block_invoke
+- ___46+[VCPImageCaptionAnalyzer greedySearchEnabled]_block_invoke
+- ___46+[VCPPhotoAnalyzer isLivePhotoKeyFrameEnabled]_block_invoke
+- ___46+[VCPPreAnalyzer _enableSceneAssetConcurrency]_block_invoke
+- ___46+[VCPSettlingEffectAnalyzer getFRCQualityMode]_block_invoke
+- ___46+[VCPVideoKeyFrame isLivePhotoKeyFrameEnabled]_block_invoke
+- ___46-[VCPDatabaseReader queryAssetsAnalyzedSince:]_block_invoke.cold.1
+- ___46-[VCPDatabaseReader queryAssetsAnalyzedSince:]_block_invoke.cold.2
+- ___46-[VCPDatabaseReader queryAssetsAnalyzedSince:]_block_invoke.cold.3
+- ___46-[VCPDatabaseReader queryAssetsAnalyzedSince:]_block_invoke.cold.4
+- ___46-[VCPDatabaseReader queryAssetsAnalyzedSince:]_block_invoke.cold.5
+- ___47+[VCPFreeFormSearch getHighSimilarityThreshold]_block_invoke
+- ___47+[VCPFreeFormSearch getMaxSimilarityDiffFor1UP]_block_invoke
+- ___47+[VCPFreeFormSearch getMinSimilarityHighRecall]_block_invoke
+- ___47+[VCPMediaAnalyzer _getDistanceDescriptorClass]_block_invoke
+- ___47+[VNImageBasedRequest(MediaAnalysis) _allowANE]_block_invoke
+- ___48+[VCPHandGestureMitigator getFaceExtensionRatio]_block_invoke
+- ___48+[VCPPhotosAutoCounterWorker _dumpAssetsToFaces]_block_invoke
+- ___48+[VNRequest(MediaAnalysis) mad_includeEntityNet]_block_invoke
+- ___48-[VCPDownloadManager requestDownloadOfResource:]_block_invoke.197
+- ___48-[VCPDownloadManager requestDownloadOfResource:]_block_invoke.201
+- ___48-[VCPDownloadManager requestDownloadOfResource:]_block_invoke.203
+- ___48-[VCPDownloadManager requestDownloadOfResource:]_block_invoke.207
+- ___48-[VCPMobileAssetManager purgeAllInstalledAssets]_block_invoke.569
+- ___48-[VCPTextEncoder textEmbeddingForQuery:useFP16:]_block_invoke.262
+- ___50+[VCPFaceAnalyzer _downsampleBeforeFaceProcessing]_block_invoke
+- ___50+[VCPHandGestureMitigator getMinTiltingThumbAngle]_block_invoke
+- ___50+[VCPImageFaceDetector isLivePhotoKeyFrameEnabled]_block_invoke
+- ___50+[VCPImageHandsAnalyzer getInsetForRejectingHands]_block_invoke
+- ___50+[VCPMovieAnalyzer isHeuristicStickerScoreEnabled]_block_invoke
+- ___51-[VCPVideoAnimalDetector updateWithExistingAnimals]_block_invoke.362
+- ___51-[VCPVideoFullFaceDetector updateWithExistingFaces]_block_invoke.377
+- ___52+[VCPFullVideoAnalyzer useSceneprintInSceneAnalysis]_block_invoke
+- ___52-[VCPDatabaseReader countForTaskID:minimumAttempts:]_block_invoke.cold.1
+- ___52-[VCPDatabaseReader countForTaskID:minimumAttempts:]_block_invoke.cold.2
+- ___52-[VCPDatabaseReader countForTaskID:minimumAttempts:]_block_invoke.cold.3
+- ___52-[VCPDatabaseReader countForTaskID:minimumAttempts:]_block_invoke.cold.4
+- ___53+[MADEmbeddingStore includeAudioFusedVideoEmbeddings]_block_invoke
+- ___53+[VCPMovieHighlightAnalyzer getMinimumHighlightInSec]_block_invoke
+- ___53-[VCPDatabaseReader queryAnalysisForAsset:withTypes:]_block_invoke.cold.1
+- ___53-[VCPDatabaseReader queryAnalysisForAsset:withTypes:]_block_invoke.cold.2
+- ___54+[PHPhotoLibrary(MediaAnalysis) mad_clusterVideoFaces]_block_invoke
+- ___54+[VCPHandGestureMitigator getPalmScaleChangeThreshold]_block_invoke
+- ___54+[VCPImageCaptionAnalyzer writeSpatialEmbeddingToFile]_block_invoke
+- ___54+[VCPSettlingEffectAnalyzer disableVideoQualityGating]_block_invoke
+- ___54+[VCPVideoKeyFrameAnalyzer isLivePhotoKeyFrameEnabled]_block_invoke
+- ___54+[VCPVideoThumbnailAnalyzer getMaxNumThumbnailsPerMin]_block_invoke
+- ___54-[VCPDatabaseReader isAssetBlacklisted:blacklistDate:]_block_invoke.cold.1
+- ___54-[VCPDatabaseReader isAssetBlacklisted:blacklistDate:]_block_invoke.cold.2
+- ___54-[VCPDatabaseReader isAssetBlacklisted:blacklistDate:]_block_invoke.cold.3
+- ___54-[VCPDatabaseReader isAssetBlacklisted:blacklistDate:]_block_invoke.cold.4
+- ___54-[VCPDatabaseReader queryAnalysesForAssets:withTypes:]_block_invoke.cold.1
+- ___54-[VCPDatabaseReader queryAnalysesForAssets:withTypes:]_block_invoke.cold.2
+- ___54-[VCPDatabaseReader queryAnalysisPropertiesForAssets:]_block_invoke.cold.1
+- ___54-[VCPDatabaseReader queryAnalysisPropertiesForAssets:]_block_invoke.cold.2
+- ___54-[VCPDatabaseReader queryAnalysisPropertiesForAssets:]_block_invoke.cold.3
+- ___55+[VCPFaceAnalyzer _forwardCompatibleFaceSigmaThreshold]_block_invoke
+- ___55+[VCPHandGestureMitigator getPalmMoveDistanceThreshold]_block_invoke
+- ___56+[VCPFaceAnalyzer _forwardCompatibleTorsoSigmaThreshold]_block_invoke
+- ___56+[VCPHandGestureMitigator getHandMotionLookBackDuration]_block_invoke
+- ___56+[VCPSettlingEffectAnalyzer disableBurstFrameDropGating]_block_invoke
+- ___56-[VCPMediaAnalyzer _setupMediaAnalysisServiceConnection]_block_invoke.899
+- ___56-[VCPMediaAnalyzer _setupMediaAnalysisServiceConnection]_block_invoke.900
+- ___57+[VCPSettlingEffectAnalyzer disableStillTransitionGating]_block_invoke
+- ___57+[VCPVideoCNNAnalyzer isMLSettlingEffectPregatingEnabled]_block_invoke
+- ___57-[MADChangeRequest(Asset) assetWithPhotosAsset:analysis:]_block_invoke.216
+- ___57-[VCPDatabaseReader countForTaskID:withProcessingStatus:]_block_invoke.cold.1
+- ___57-[VCPDatabaseReader countForTaskID:withProcessingStatus:]_block_invoke.cold.2
+- ___57-[VCPDatabaseReader countForTaskID:withProcessingStatus:]_block_invoke.cold.3
+- ___57-[VCPDatabaseReader countForTaskID:withProcessingStatus:]_block_invoke.cold.4
+- ___57-[VCPDatabaseReader migration_loadMomentsScheduledAssets]_block_invoke.cold.1
+- ___58+[VCPImageCaptionAnalyzer useVCPMobileAssetAXCaptionModel]_block_invoke
+- ___58+[VCPSettlingEffectAnalyzer disableMetadataIntegrityCheck]_block_invoke
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.698
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.698.cold.1
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.701
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.701.cold.1
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.706
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.706.cold.1
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.710
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.710.cold.1
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.718.cold.1
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.718.cold.2
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.722
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.722.cold.1
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.722.cold.2
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.725
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.725.cold.1
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.725.cold.2
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.726
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.726.cold.1
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.726.cold.2
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.728
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.728.cold.1
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.728.cold.2
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.739
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.739.cold.1
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.742
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.742.cold.1
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.742.cold.2
+- ___58-[VCPPhotoAnalyzer analyzeImage:performedAnalyses:cancel:]_block_invoke.cold.1
+- ___58-[VCPPhotosQuickFaceIdentificationManager classifyVIPPets]_block_invoke.465
+- ___58-[VCPPhotosQuickFaceIdentificationManager classifyVIPPets]_block_invoke.469
+- ___59+[VCPFaceProcessingServiceWorker _similarityScoreThreshold]_block_invoke
+- ___59+[VCPMovieHighlightAnalyzer isHeuristicStickerScoreEnabled]_block_invoke
+- ___59+[VCPVideoAnalysisPipelineManager shouldUseGraphProcessing]_block_invoke
+- ___59-[VCPDatabaseReader blacklistedLocalIdentifiersFromAssets:]_block_invoke.cold.1
+- ___59-[VCPDatabaseReader blacklistedLocalIdentifiersFromAssets:]_block_invoke.cold.2
+- ___59-[VCPDatabaseReader blacklistedLocalIdentifiersFromAssets:]_block_invoke.cold.3
+- ___59-[VCPDatabaseReader blacklistedLocalIdentifiersFromAssets:]_block_invoke.cold.4
+- ___59-[VCPDatabaseReader queryProgressHistoryRecords:sinceDate:]_block_invoke.cold.1
+- ___59-[VCPDatabaseReader queryProgressHistoryRecords:sinceDate:]_block_invoke.cold.2
+- ___59-[VCPDatabaseReader queryProgressHistoryRecords:sinceDate:]_block_invoke.cold.3
+- ___59-[VCPHumanPoseImageRequest processImage:withOptions:error:]_block_invoke.199
+- ___59-[VCPHumanPoseImageRequest processImage:withOptions:error:]_block_invoke.202
+- ___60+[VCPMovieCurationAnalyzer isSettlingEffectPregatingEnabled]_block_invoke
+- ___60-[MADPhotosDataStoreClient setDatabaseVersion:photoLibrary:]_block_invoke.458
+- ___60-[VCPMADImageSafetyClassificationTask logMemoryWithMessage:]_block_invoke
+- ___61+[PHAsset(MediaAnalysisOCRProcessing) vcp_ocrGatingThreshold]_block_invoke
+- ___62+[PHAsset(MediaAnalysisComputeSync) mad_isComputeSyncDisabled]_block_invoke
+- ___62+[VCPPhotosSceneprintAssetProcessingTask _panoVNRequestMethod]_block_invoke
+- ___63-[MADTextEmbeddingSafety _processEmbedding:safetyScore:isSafe:]_block_invoke.cold.3
+- ___63-[MADTextEmbeddingSafety _processEmbedding:safetyScore:isSafe:]_block_invoke.cold.4
+- ___63-[VCPDatabaseReader queryLocalIdentifiersForTaskID:withStatus:]_block_invoke.cold.1
+- ___63-[VCPDatabaseReader queryLocalIdentifiersForTaskID:withStatus:]_block_invoke.cold.2
+- ___63-[VCPDatabaseReader queryLocalIdentifiersForTaskID:withStatus:]_block_invoke.cold.3
+- ___64+[PHAssetResource(MediaAnalysis) mad_disableComputeSyncDownload]_block_invoke
+- ___64-[VCPPreAnalyzer _extractAndSortBoundingBoxFromDetectedObjects:]_block_invoke.484
+- ___65-[VCPMobileAssetManager downloadMobileAssetIfNeeded:petWatchDog:]_block_invoke.561
+- ___65-[VCPMobileAssetManager downloadMobileAssetIfNeeded:petWatchDog:]_block_invoke.563
+- ___66+[PHAsset(MediaAnalysisVisualSearchProcessing) enableStickerScore]_block_invoke
+- ___66-[VCPVideoProcessorSession processSampleBuffer:withEndTime:error:]_block_invoke.25
+- ___66-[VCPVideoProcessorSession processSampleBuffer:withEndTime:error:]_block_invoke_2.26
+- ___67-[MADPhotosDataStoreClient recreatePersistentStoreForPhotoLibrary:]_block_invoke.457
+- ___67-[PHPhotoLibrary(MediaAnalysis) mad_pauseFCPeopleFurtherProcessing]_block_invoke
+- ___67-[VCPMediaAnalyzer _getDatabaseSandboxExtensionForPhotoLibraryURL:]_block_invoke.913
+- ___68+[VCPHandGestureMitigator getGestureTypeConsistencyLookBackDuration]_block_invoke
+- ___68+[VCPPhotosQuickFaceIdentificationManager _fastFaceMigrationEnabled]_block_invoke
+- ___68-[MADTextEmbeddingThreshold _processEmbedding:bias:scale:threshold:]_block_invoke.cold.3
+- ___68-[MADTextEmbeddingThreshold _processEmbedding:bias:scale:threshold:]_block_invoke.cold.4
+- ___69+[VCPFullAnalysisAssetProcessingTask AllowPersistSettlingEffectScore]_block_invoke
+- ___69-[VCPDatabaseReader migration_queryProgressHistoryRecords:sinceDate:]_block_invoke.cold.1
+- ___69-[VCPDatabaseReader migration_queryProgressHistoryRecords:sinceDate:]_block_invoke.cold.2
+- ___69-[VCPDatabaseReader migration_queryProgressHistoryRecords:sinceDate:]_block_invoke.cold.3
+- ___69-[VCPDatabaseReader queryFailedProcessingStatusFromAssets:forTaskID:]_block_invoke.cold.1
+- ___69-[VCPDatabaseReader queryFailedProcessingStatusFromAssets:forTaskID:]_block_invoke.cold.2
+- ___69-[VCPDatabaseReader queryFailedProcessingStatusFromAssets:forTaskID:]_block_invoke.cold.3
+- ___69-[VCPDatabaseReader queryFailedProcessingStatusFromAssets:forTaskID:]_block_invoke.cold.4
+- ___69-[VCPDatabaseReader queryFailedProcessingStatusFromAssets:forTaskID:]_block_invoke.cold.5
+- ___69-[VCPDatabaseReader querySchedulingHistoryRecords:startDate:endDate:]_block_invoke.cold.1
+- ___69-[VCPDatabaseReader querySchedulingHistoryRecords:startDate:endDate:]_block_invoke.cold.2
+- ___69-[VCPDatabaseReader querySchedulingHistoryRecords:startDate:endDate:]_block_invoke.cold.3
+- ___69-[VCPDatabaseReader querySchedulingHistoryRecords:startDate:endDate:]_block_invoke.cold.4
+- ___69-[VCPMediaAnalyzer analyzeOndemand:pairedURL:forAnalysisTypes:error:]_block_invoke.938
+- ___70-[VCPDatabaseReader countAssetsForTaskID:totalAssets:processedAssets:]_block_invoke.cold.1
+- ___70-[VCPDatabaseReader countAssetsForTaskID:totalAssets:processedAssets:]_block_invoke.cold.2
+- ___70-[VCPDatabaseReader countAssetsForTaskID:totalAssets:processedAssets:]_block_invoke.cold.3
+- ___70-[VCPEffectsAnalyzer analyzeAsset:onDemand:cancel:statsFlags:results:]_block_invoke.373
+- ___73-[VCPVideoSaliencyAnalyzer analyzeFrame:withTimestamp:andDuration:flags:]_block_invoke.234
+- ___74-[PHAsset(MediaAnalysisComputeSync) mad_isEligibleForComputeSyncIngestion]_block_invoke
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.749
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.749.cold.1
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.749.cold.2
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.756
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.756.cold.1
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.756.cold.2
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.756.cold.3
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.756.cold.4
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.756.cold.5
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.756.cold.6
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.756.cold.7
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.756.cold.8
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.756.cold.9
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.769
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.769.cold.1
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.769.cold.2
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.774
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.774.cold.1
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.774.cold.2
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.779
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.779.cold.1
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.779.cold.2
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.784
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.784.cold.1
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.784.cold.2
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.cold.1
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.cold.10
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.cold.2
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.cold.3
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.cold.4
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.cold.5
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.cold.6
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.cold.7
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.cold.8
+- ___74-[VCPMovieAnalyzer analyzeVideoSegment:timerange:forAnalysisTypes:cancel:]_block_invoke.cold.9
+- ___75-[VCPDatabaseReader migration_queryAnalysesForAssets:statsFlags:withTypes:]_block_invoke.cold.1
+- ___75-[VCPDatabaseReader migration_queryAnalysesForAssets:statsFlags:withTypes:]_block_invoke.cold.2
+- ___76-[VCPLightMotionAnalyzer analyzeFrame:withTimestamp:andDuration:completion:]_block_invoke_2.cold.1
+- ___76-[VCPLightMotionAnalyzer analyzeFrame:withTimestamp:andDuration:completion:]_block_invoke_2.cold.2
+- ___76-[VCPLightMotionAnalyzer analyzeFrame:withTimestamp:andDuration:completion:]_block_invoke_2.cold.3
+- ___76-[VCPLightMotionAnalyzer analyzeFrame:withTimestamp:andDuration:completion:]_block_invoke_2.cold.4
+- ___76-[VCPLightMotionAnalyzer analyzeFrame:withTimestamp:andDuration:completion:]_block_invoke_2.cold.5
+- ___79-[VCPDatabaseReader migration_querySchedulingHistoryRecords:startDate:endDate:]_block_invoke.cold.1
+- ___79-[VCPDatabaseReader migration_querySchedulingHistoryRecords:startDate:endDate:]_block_invoke.cold.2
+- ___79-[VCPDatabaseReader migration_querySchedulingHistoryRecords:startDate:endDate:]_block_invoke.cold.3
+- ___79-[VCPDatabaseReader migration_querySchedulingHistoryRecords:startDate:endDate:]_block_invoke.cold.4
+- ___79-[VCPVideoPetsActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:]_block_invoke.345
+- ___80-[VCPVideoHumanActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:]_block_invoke.345
+- ___81-[MADVideoSessionSafetyClassificationTask processPixelBufferAsset:resultHandler:]_block_invoke.228
+- ___83-[VCPDatabaseReader querySchedulingHistoryRecords:forActivityID:startDate:endDate:]_block_invoke.cold.1
+- ___83-[VCPDatabaseReader querySchedulingHistoryRecords:forActivityID:startDate:endDate:]_block_invoke.cold.2
+- ___83-[VCPDatabaseReader querySchedulingHistoryRecords:forActivityID:startDate:endDate:]_block_invoke.cold.3
+- ___83-[VCPDatabaseReader querySchedulingHistoryRecords:forActivityID:startDate:endDate:]_block_invoke.cold.4
+- ___83-[VCPDatabaseReader querySchedulingHistoryRecords:forActivityID:startDate:endDate:]_block_invoke.cold.5
+- ___84-[VCPMediaAnalyzer _getSandboxExtensionForMediaAnalysisDatabaseWithPhotoLibraryURL:]_block_invoke.902
+- ___88-[VCPPreAnalyzer _performSceneAnalysis:image:mediaType:mediaSubtypes:abnormalDimension:]_block_invoke.507
+- ___89+[VCPPhotosFace _isColocatingAnimalObservation:withFaceObservations:orTorsoObservations:]_block_invoke
+- ___89-[MADVectorDatabase rebuildWithForce:cancelBlock:extendTimeoutBlock:totalEmbeddingCount:]_block_invoke.451
+- ___90-[VCPVideoFullFaceDetector detectTrackFacesInFrame:withTimestamp:faces:torsos:frameStats:]_block_invoke.358
+- ___91-[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:]_block_invoke.666
+- ___91-[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:]_block_invoke.669
+- ___95-[MADFetchRequest(BackgroundAnalysisProgressHistory) loadAllProgressHistoryRecords:totalCount:]_block_invoke.202
+- ___96-[MADChangeRequest(PersistentHistory) prunePersistentHistoryWithCancelBlock:extendTimeoutBlock:]_block_invoke.cold.1
+- ___Block_byref_object_copy_.351
+- ___Block_byref_object_copy_.353
+- ___Block_byref_object_copy_.549
+- ___Block_byref_object_copy_.696
+- ___Block_byref_object_dispose_.352
+- ___Block_byref_object_dispose_.354
+- ___Block_byref_object_dispose_.550
+- ___Block_byref_object_dispose_.697
+- ___DeviceWithGreymatterSupport_block_invoke.cold.1
+- ___VCPBaseRetryIntervalSeconds_block_invoke
+- ___VCPMADUnifiedBackgroundProcessing_block_invoke
+- ___VCPPersonFaceVIPMatchingThreshold_block_invoke
+- ___block_descriptor_32_e22_v24?0"NSString"8^B16l
+- ___block_descriptor_32_e24_v32?0"NSValue"8Q16^B24l
+- ___block_descriptor_32_e25_v32?0"NSString"8Q16^B24l
+- ___block_descriptor_32_e29_v32?0"NSDictionary"8Q16^B24l
+- ___block_descriptor_32_e36_v32?0"CSUTextEncoderInput"8Q16^B24l
+- ___block_descriptor_36_e5_v8?0l
+- ___block_descriptor_40_ea8_32s_e36_v24?0"MADManagedPhotosResult"8^B16ls32l8
+- ___block_descriptor_64_ea8_32s40s48bs56bs_e5_B8?0ls32l8s40l8s48l8s56l8
+- ___block_literal_global.1006
+- ___block_literal_global.1023
+- ___block_literal_global.192
+- ___block_literal_global.197
+- ___block_literal_global.198
+- ___block_literal_global.200
+- ___block_literal_global.204
+- ___block_literal_global.207
+- ___block_literal_global.208
+- ___block_literal_global.215
+- ___block_literal_global.218
+- ___block_literal_global.233
+- ___block_literal_global.237
+- ___block_literal_global.243
+- ___block_literal_global.248
+- ___block_literal_global.25
+- ___block_literal_global.253
+- ___block_literal_global.255
+- ___block_literal_global.258
+- ___block_literal_global.2610
+- ___block_literal_global.262
+- ___block_literal_global.263
+- ___block_literal_global.268
+- ___block_literal_global.27
+- ___block_literal_global.2712
+- ___block_literal_global.2719
+- ___block_literal_global.273
+- ___block_literal_global.31
+- ___block_literal_global.311
+- ___block_literal_global.339
+- ___block_literal_global.342
+- ___block_literal_global.343
+- ___block_literal_global.348
+- ___block_literal_global.349
+- ___block_literal_global.352
+- ___block_literal_global.355
+- ___block_literal_global.357
+- ___block_literal_global.358
+- ___block_literal_global.362
+- ___block_literal_global.366
+- ___block_literal_global.367
+- ___block_literal_global.372
+- ___block_literal_global.373
+- ___block_literal_global.38
+- ___block_literal_global.382
+- ___block_literal_global.387
+- ___block_literal_global.389
+- ___block_literal_global.394
+- ___block_literal_global.404
+- ___block_literal_global.408
+- ___block_literal_global.412
+- ___block_literal_global.414
+- ___block_literal_global.418
+- ___block_literal_global.423
+- ___block_literal_global.425
+- ___block_literal_global.427
+- ___block_literal_global.428
+- ___block_literal_global.430
+- ___block_literal_global.433
+- ___block_literal_global.438
+- ___block_literal_global.441
+- ___block_literal_global.443
+- ___block_literal_global.450
+- ___block_literal_global.455
+- ___block_literal_global.459
+- ___block_literal_global.460
+- ___block_literal_global.466
+- ___block_literal_global.470
+- ___block_literal_global.474
+- ___block_literal_global.475
+- ___block_literal_global.480
+- ___block_literal_global.493
+- ___block_literal_global.499
+- ___block_literal_global.500
+- ___block_literal_global.504
+- ___block_literal_global.506
+- ___block_literal_global.512
+- ___block_literal_global.513
+- ___block_literal_global.516
+- ___block_literal_global.520
+- ___block_literal_global.533
+- ___block_literal_global.535
+- ___block_literal_global.539
+- ___block_literal_global.554
+- ___block_literal_global.555
+- ___block_literal_global.564
+- ___block_literal_global.615
+- ___block_literal_global.629
+- ___block_literal_global.632
+- ___block_literal_global.637
+- ___block_literal_global.640
+- ___block_literal_global.642
+- ___block_literal_global.647
+- ___block_literal_global.650
+- ___block_literal_global.655
+- ___block_literal_global.671
+- ___block_literal_global.674
+- ___block_literal_global.700
+- ___block_literal_global.733
+- ___block_literal_global.765
+- ___block_literal_global.778
+- ___block_literal_global.809
+- ___block_literal_global.898
+- ___block_literal_global.937
+- ___block_literal_global.940
+- ___block_literal_global.960
+- ___block_literal_global.973
+- ___block_literal_global.978
+- ___block_literal_global.990
+- ___block_literal_global.995
+- __allowANE.allowed
+- __allowANE.once
+- __similarityScoreThreshold.once
+- __similarityScoreThreshold.threshold
+- _copyTextureToBuffer.cold.4
+- _copyTextureToBuffer.cold.5
+- _createTextureFromBuffer.cold.3
+- _createTextureFromBuffer.cold.4
+- _host_statistics64
+- _isCaptionOTAEnabled.isCaptionOTAEnabled
+- _isCaptionOTAEnabled.once
+- _isOTAFailTestEnabled.isOTAFailTestEnabled
+- _isOTAFailTestEnabled.once
+- _kMinDurationInSeconds
+- _mach_host_self
+- _mad_includeEntityNet.include
+- _mad_includeEntityNet.once
+- _objc_msgSend$_enableCoreDataMultithreadedAsserts
+- _objc_msgSend$processIdentifier
+- _objc_msgSend$tokenSegments
+- _proc_pid_rusage
+- _usePHAssetScene.once
+- _usePHAssetScene.use
+- _vm_page_size
+CStrings:
++ "%@ Running ..."
++ "CIToneMapHeadroom"
++ "contentHeadroom"
++ "convertHeadroom:forImage:"
++ "filterWithName:"
++ "inputTargetHeadroom"
++ "outputImage"
+- " -> candidate face %@"
+- " -> face %@ and face %@"
+- "%0.2f MB"
+- "%@ %lu faces classified in %.5f seconds; %.5f second per face"
+- "%@ - Footprint: %@ Wired: %@"
+- "%@ -> managed result: %@"
+- "%@ Analysis types to delete: %@"
+- "%@ Analysis types to update: %@"
+- "%@ Checking cancellation during rebuilding (progress: %@)"
+- "%@ Creating managed result %@"
+- "%@ Running request %@ ..."
+- "%@ audio-fused video embeddings"
+- "%@ audio-fused video embeddings for searching"
+- "%@.eval"
+- "%@: Library (%@) %@ processing progress %.2f%% %@"
+- "./MediaAnalysis/MotionAnalysis.h"
+- "./MediaAnalysis/Vector.h"
+- "./Utilities/CFArray.h"
+- "./Utilities/CFUtilities.h"
+- "./Utilities/CGUtilities.h"
+- "./Utilities/CMUtilities.h"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/AdaptiveSegmentAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/AudioAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/AudioClassifier.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/AudioVideoEmbeddingFuser.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/BlurAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNANSTHandsBodyDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNANSTHandsDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNBlurAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNBlurAnalyzerEspresso.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNBlurAnalyzerMPS.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNConvBlock.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNConvBlockBinary.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNConvBlockGPU.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNConvBlockScalar.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNConvBlockVector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNData.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNDataGPU.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNFaceLandmarkDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNFaceLandmarkDetectorEspresso.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNFaceLandmarkDetectorMPS.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNFastGestureRecognition.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNFlattenBlock.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNFullConnectionBlock.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNFullConnectionBlockGPU.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNFullConnectionBlockScalar.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNGazeAnalysis.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNHandKeypointsDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNHandKeypointsDetectorEspresso.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNHandsDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNMLEnhancerEspresso.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNMLScalerEspresso.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNMLScalerEspressoV2.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNModel.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNModelEspresso.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNModelEspresso.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNModelEspressoV2.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNModelEspressoV2Data.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNPersonDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNPersonKeypointsDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNPetsDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNPetsDetectorEspresso.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNPetsDetectorV2.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNPetsKeypointsDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNPoolingBlock.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNPoolingBlockGPU.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNPoolingBlockVector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNPoseEstimator.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNPoseEstimatorEspresso.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNPoseEstimatorMPS.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNSmileDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNSmileDetectorEspresso.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNSmileDetectorMPS.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CNNVisionCore.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CVUtilities.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CameraMotionAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CameraMotionSegment.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CommSafety/MADVideoSessionSafetyClassificationTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/CommSafety/VCPMADImageSafetyClassificationTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Convexhull.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/DescriptorAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/DescriptorSegment.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/EdgeDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/EffectsAnalyzer.m"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/EmbeddingSummarizationAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/EncodeAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/EncodeStats.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/EncodeStatsAVE1.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/EncodeStatsAVE2.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/EncodeStatsHW.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/EncodeStatsSW.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ExifAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/FineSubjectMotionAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/FineSubjectMotionSegment.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Frame.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/FreeFormSearch.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/FullVideoAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/GaborFilter.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Histogram.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/HomeKitMotionAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/HoughTransform.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Human.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageBackboneAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageBlurAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageCaptionAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageCompositionAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageConverter.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageDescriptor.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageDescriptorWrapper.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageExposureAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageExposurePreAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageFaceDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageFaceExpressionAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageFaceQualityAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageHandsAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageHumanActionAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageHumanPoseAnalyzer.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageHumanPoseAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageHumanPoseAnalyzerHolistic.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageHumanPoseAnalyzerTopDown.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageLivePhotoBlurAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageManager.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageMotionFlowAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImagePetsAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImagePetsKeypointsAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageQualityAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageSaliencyAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageSaliencyAnalyzerBinary.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageSaliencyAnalyzerFull.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ImageSaliencyAnalyzerFullEspresso.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/InterAssetAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/InterestingnessAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/IrisAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/JunkAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/LandmarkDetector.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/LandmarkValidator.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/LightMotionAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/LightVideoAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/LivePhotoKeyFrameAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/LoudnessAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MADImageASTCFormatReader.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MADMovieBlastDoorAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MADVectorDatabase.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MatrixOperationsForFace.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MediaAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MetaTrackDecoder.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MotionFieldAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MotionFlow/VCPBackwarp.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MotionFlow/VCPCorrelation.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MotionFlow/VCPFlowDecoder.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MotionFlow/VCPFlowFeatureExtractor.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MotionFlow/VCPFlowUtils.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MotionFlow/VCPMoFlowSingleEspresso.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MotionFlow/VCPModelR2D2.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MotionFlowAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MotionFlowSubtleMotionAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MotionSearch.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MovieAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MovieCurationAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MovieHighlightAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MovingObjectAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/MovingObjectSegment.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/NSDictionary+MediaAnalysis.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Object.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ObjectDetection.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ObjectTracking.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ObstructionAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/PHAssetResourceManager+MediaAnalysis.m"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ParallaxAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/PhotoAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Photos/Face/VCPMADPersonIdentificationTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPFaceAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPFaceCropManager.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPFaceProcessingVersionManager.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPFaceUtils.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPFullAnalysisAssetProcessingTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPFullAnalysisURLProcessingTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPPhotosAutoCounterWorker.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPPhotosFace.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPPhotosQuickFaceDetectionManager.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPPhotosQuickFaceIdentificationManager.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPPhotosSceneprintAssetProcessingTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPSceneProcessingImageManager.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPVideoStabilizationAssetProcessingTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/PhotosDataStore/MADChangeRequest+PersistentHistory.m"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/PhotosDataStore/MADChangeRequest+ProcessingStatus.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/PhotosDataStore/MADFetchRequest+BackgroundAnalysisProgressHistory.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/PhotosDataStore/MADManagedProcessingStatus.m"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/PnPSolver.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/PreEncodeAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/QualityAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/RotationAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/RotationSegment.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Rotator.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Scaler.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/SceneAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/SceneChangeAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Segment.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Service/MADPersonalizedEmbeddingTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Service/VCPMADServiceImageAsset.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/SettlingEffectAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/ShapeModel.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/SlowMotionAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/SmartStyleMetaAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/SongDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/StillImageMetaAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/SubjectMotionAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/SubjectMotionSegment.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/SubtleMotionAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/SubtleMotionSegment.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/TensorModel.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Text/MADTextEmbeddingCalibration.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Text/MADTextEmbeddingSafety.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Text/MADTextEmbeddingThreshold.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/TextEncoder.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/TrackSegment.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/TrackingAnalysis.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/Transforms.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPAnalysisProgressQuery.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPColorNormalizationAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPContentAnalysis.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPDownloadManager.m"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPFrameAnalysisStats.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPInternetReachability.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPMovieAssetWriter.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPPoolBasedPixelBufferCreator.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPPreAnalysisImage.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPPreAnalysisImageLoader.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPPreAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPPriorityAnalysis.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPRTLandmarkDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPSceneprintDescriptor.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPSceneprintDescriptorWrapper.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPSimpleMovieAssetWriter.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPTimeMeasurement.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPURLAsset.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPVideoEmbeddings.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VCPWallpaperAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VanishingPointDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoActivityAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoActivityDescriptor.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoAnalysisCommon.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoAnimalDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoCNNActionClassifier.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoCNNAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoCNNAutoplay.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoCNNBackbone.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoCNNCameraMotion.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoCNNHighlight.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoCNNQuality.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoCaptionAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoCaptionEncoder.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoFaceMeshAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoFacePoseAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoFacePoseFilter.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoFullFaceDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoGlobalAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoGyroStabilizer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoHumanActionAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoInterpolator.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoKeyFrame.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoKeyFrameAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoLightFaceDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoMetaFaceAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoMetaFocusAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoMetaLivePhotoMetaAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoMetaMotionAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoMetaOrientationAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoMetaSegmentAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoObjectTracker.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoPersonDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoPetsActionAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoPetsAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoPixelStabilizer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoRanker.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoSafetyClassifier.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoSaliencyAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoSceneClassifier.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoStabilizer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoTrackStandardDecoder.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoTrackSubsamplingDecoder.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoTrackSyncDecoder.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VideoTransformerBackbone.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/MADHEICSAlphaSequenceTranscoder.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/MADHEICSAlphaSequenceWriter.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/MADHEVCAlphaSequenceWriter.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/MADPNGAlphaSequenceWriter.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/MADVideoRemoveBackgroundCropTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADImageCaptionTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADImageEmbeddingTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADMLEnhancementTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADMLScalingTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADVIDocumentRecognitionTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADVIFaceTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADVIMachineReadableCodeDetectionTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADVIRectangleDetectionTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADVISceneClassificationTask.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VoiceDetector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/VoiceDetectorV2.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysis/WatchFaceAnalyzer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/MovieCurationResults.m"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/VCPCaptureAnalysisSession.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/VCPCoreMLFeatureProviderGestureVideo.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/VCPHandGestureClassifier.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/VCPHandGestureImageRequest.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/VCPHandGestureMitigator.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/VCPHandGestureVideoRequest.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/VCPHandPoseImageRequest.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/VCPHandPoseVideoRequest.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/VCPHumanPoseEspressoSession.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/VCPHumanPoseImageRequest.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/VCPHumanPoseVideoRequest.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/VCPMotionFlowRequest.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/VCPPetsPoseImageRequest.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/VCPVideoProcessor.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/VCPVideoProcessorSession.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/VideoProcessing/VCPVideoSyncFrameDecoder.mm"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/iCloud/MediaAnalysis/Image/MAImageAnalysisRequest.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/iCloud/MediaAnalysis/MAComputeRequest.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/iCloud/MediaAnalysis/Movie/MAAssetByteStream.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/iCloud/MediaAnalysis/Movie/MAMovieAnalysisRequest.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/iCloud/Proto/MAImageComputeResult+CFDictionary.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/iCloud/Proto/VCPProtoImageHumanPoseResult+CFDictionary.cpp"
+- "ANSTHandExtendRatio"
+- "AllowMultipleFormats"
+- "AnimalHumanColocationThreshold"
+- "Apply Sharpness Model V1"
+- "Apply Sharpness Model V2"
+- "AsyncAudio"
+- "AudioVideoEmbeddingFusion"
+- "AutoCounterDumpAssetsToFaces"
+- "AutoCounterDumpFaceprint"
+- "Base retry interval override (%lu seconds)"
+- "BaseRetryInterval"
+- "CIBicubic"
+- "CILanczos"
+- "CSUTextEncoderComputeBackend"
+- "CaptionModelOTA"
+- "ClusterVideoFaces"
+- "Compute sync %@ via MA defaults DisableComputeSync"
+- "Compute sync %@ via Photos defaults PLCCSSDisableComputeSyncUpload"
+- "Compute sync payload ingestion %@ via MA defaults DisableComputeSyncPayloadIngestion"
+- "Compute sync payload ingestion %@ via Photos defaults PLCCSSDisableComputeSyncDownload"
+- "Compute sync resource download %@ via defaults"
+- "Defaults override person face VIP matching threshold: %f"
+- "Defaults overwrites PersonFaceVIPMaximumTrainingFaceprintsPerIdentity: %lu"
+- "Defaults overwrites person face VIP training face fetch limit: %lu"
+- "Defaults overwrites to %@able Greymatter features"
+- "Defaults overwrites to %@able Greymatter features on non-ANE device; ignoring"
+- "Defaults write set AutoCounter %s dump Faceprint"
+- "Defaults write set AutoCounter %s dump assets-to-faces details"
+- "Defaults write set ProbableRotation %s"
+- "Disable"
+- "Disable sticker score generation"
+- "DisableANEForFaceAnalysis"
+- "DisableANEForSceneAnalysis"
+- "DisableComputeSync"
+- "DisableComputeSyncDownload"
+- "DisableComputeSyncPayloadIngestion"
+- "DisableSettlingEffectBurstFrameDropGating"
+- "DisableSettlingEffectMetadataIntegrityCheck"
+- "DisableSettlingEffectStillTransitionGating"
+- "DisableSettlingEffectVideoQualityGating"
+- "Do"
+- "Do not"
+- "DominantObjectDetection"
+- "DownsampleBeforeFaceProcessing"
+- "Enable"
+- "Enable human action on Photos movie assets"
+- "EnableFaceprintFastMode"
+- "EnableGreymatterSupport"
+- "EnableMLMotionField"
+- "EnableProgressReporting"
+- "EnableSceneAssetConcurrency"
+- "EnableStickerScore"
+- "Exclude"
+- "ExportReencodedJPEG"
+- "FCFaceSigma"
+- "FCTorsoSigma"
+- "FRCQualityMode"
+- "FRCQualityMode: %ld"
+- "Face analysis - PHFace expression can only be used with PHFace"
+- "Face analysis - skip using PHFace from PHAsset"
+- "Face analysis - use PHFace expression from PHAsset"
+- "Face priority with people label threshold %.2f"
+- "FacePriorityThreshold"
+- "Failed to query library (%@) %@ processing progress (error code: %d)"
+- "FastFaceMigration"
+- "Gesture classifier - disable flip inference"
+- "Gesture classifier - enable flip inference"
+- "GestureClassifierFlip"
+- "GestureFaceExtensionRatio"
+- "GestureHandMotionLookBackDuration"
+- "GestureMinHandFaceRatio"
+- "GestureMinTiltingAngle"
+- "GestureMinTiltingThumbAngle"
+- "GesturePalmMoveDistanceThreshold"
+- "GesturePalmScaleChangeThreshold"
+- "GestureTypeConsistencyLookBackDuration"
+- "GraphVideoProcessing"
+- "HighSimilarityThreshold"
+- "Human action - force person detection"
+- "HumanActionForcePersonDetection"
+- "HumanKeypoints"
+- "Include"
+- "IncludeCN"
+- "IncludeDMF"
+- "IncludeDocument"
+- "IncludeEN"
+- "IncludeIVS"
+- "IncludeJunk"
+- "IncludeLandmark"
+- "IncludeMeme"
+- "IncludeNSFW"
+- "IncludePA"
+- "IncludeSDG"
+- "IncludeTaboo"
+- "IncludeWallpaperRequest"
+- "Including Pre Analysis VNRequests (%lu): %@"
+- "InsetForRejectingHands"
+- "JunkR14J9"
+- "Live photo effects - skip using PHSceneClassification from PHAsset"
+- "LogImageManager"
+- "LogImageSafetyMemory"
+- "MADDownscalingMode"
+- "MADDownscalingMode: %ld"
+- "MLHighlight"
+- "MLSettlingEffectPregating"
+- "MUBackbone"
+- "MaxNumThumbnailsPerMin"
+- "MaximumHighlightInSec"
+- "MediaAnalyzer : use maxSimilarityDiff = %f"
+- "MiCaCaptionGreedySearch"
+- "MiCaCaptionGreedySearch %s enabled"
+- "MinSimilarity"
+- "MinSimilarityOneToken"
+- "MinimumHighlightInSec"
+- "Movie Highlight - use ML based approach"
+- "MovieHumanAction"
+- "NoResultStrip"
+- "OCR gating threshold set to %0.2f via default"
+- "OCRGatingThreshold"
+- "OTAFailTest"
+- "PHAssetFace"
+- "PHAssetFaceExpression"
+- "PHAssetScene"
+- "PHAssetSceneprint"
+- "PLCCSSDisableComputeSyncDownload"
+- "PLCCSSDisableComputeSyncUpload"
+- "PanoVNRequestMethod"
+- "PauseAfterFCPeople"
+- "PauseAfterFCPeople is overwritten to %@"
+- "Persist audio embedding to MA DB"
+- "PersistAudioEmbedding"
+- "PersonFaceVIPMatchingThreshold"
+- "PersonFaceVIPMaximumTrainingFaceprintsPerIdentity"
+- "PersonFaceVIPTrainingFaceFetchLimit"
+- "ProbableRotation"
+- "QueryInternalFields"
+- "QuickFaceID Pet: defaults writes VIPPetClassificationThreshold to %f"
+- "QuickFaceID [FastMigration]: defaults write is set %s"
+- "SaliencyObjectnessDetection"
+- "SaveStabilizationRecipe"
+- "ScreenProgress"
+- "SearchTesting"
+- "SettlingEffectPregating"
+- "SharpnessModel"
+- "SimilarityScoreThreshold"
+- "SmallFaceWarningThreshold"
+- "StickerScoreV2"
+- "StickersAutoplayTrim"
+- "StickersPreferredThreshold_LowQualityProportion"
+- "StickersPreferredThreshold_Photos"
+- "StickersPreferredThreshold_VideoQuality"
+- "StickersPreferredThreshold_WorstFrameScore"
+- "StickersTrimMininumDuration"
+- "StickersTrimThreshold"
+- "StickersTrimWindow"
+- "StickersVisionTrim"
+- "Supported options: 0 - URL, 1 - FullBuffer, 2 - ScaledBuffer"
+- "TextSigmoidCutoff"
+- "UnifiedBackgroundProcessing"
+- "Unknown revision; apply Sharpness Model V%lu"
+- "Unsupported PanoVNRequestMethod (%lu); using default (URL)"
+- "Use customized similarity score threshold %.3f for people suggestion"
+- "Use default extend ratio = 0.25 for ANST hand boxes"
+- "Use default inset = 0.08 for rejecting hands near boundaries"
+- "Use default minHandFaceRatio = 1.2f for mitigation"
+- "Use default similarity score threshold %.3f for people suggestion"
+- "Use extend ratio = %f for ANST hand detection boxes"
+- "Use face extension = %f for mitigation"
+- "Use face extension = 0.4f for mitigation"
+- "Use gesture type consistency look back duration = %f seconds (default). Up to 1.0s, step by 0.2s."
+- "Use gesture type consistency look back duration = %f seconds. Up to 1.0s, step by 0.2s."
+- "Use hand motion look back duration = %f seconds (default) for high motion mitigation. Up to 1.0s, step by 0.2s."
+- "Use hand motion look back duration = %f seconds for high motion mitigation. Up to 1.0s, step by 0.2s."
+- "Use inset = %f for rejecting hands near boundaries"
+- "Use minHandFaceRatio = %f for mitigation"
+- "Use palm center move distance = %f (default) relative to palm size for high motion mitigation"
+- "Use palm center move distance = %f relative to palm size for high motion mitigation"
+- "Use palm size change = %f (default) relative to last palm size for high motion mitigation - depth"
+- "Use palm size change = %f relative to last palm size for high motion mitigation - depth"
+- "UseAudioFusedEmbeddingForSearch"
+- "UseCSULanguageEncoder"
+- "UseSceneprintDistance"
+- "V1"
+- "V2"
+- "VCPAnalysisProgressQueryReportProgressForPhotoLibrary"
+- "VILanczos"
+- "VIPPetClassificationThreshold"
+- "VideoCaptionMode"
+- "VideoInterpolation"
+- "VideoSearchOneUpIncludeTorsoOnly"
+- "WriteSpatialEmbeddingToFile"
+- "WriteSpatialEmbeddingToFile %s enabled"
+- "[CoreAnalyticManager] Accumulating field %@ for event %@"
+- "[CoreAnalyticManager] Sending session event %@ (%lu) - %@"
+- "[CoreAnalyticManager] Sending single event %@ (%lu) - %@"
+- "[CoreAnalyticManager] Sent %@ (%lu)"
+- "[CoreAnalyticManager] Setting field %@ for event %@"
+- "[FaceAnalyzer] EnableFaceprintFastMode: %@"
+- "[FaceAnalyzer] FCFaceSigma overwrite: %.3f"
+- "[FaceAnalyzer] FCTorsoSigma overwrite: %.3f"
+- "[FaceAnalyzer] SmallFaceWarningThreshold overwrite: %d"
+- "[ImageManagerEncode] %@ export reencoded JPEG via default"
+- "[LOG_ERROR] %s[%d]: code %d\n"
+- "[MADSharedTextEncoder] Overriding CSUTextEncoder compute backend (%@)"
+- "[MediaAnalysis] Human pose analysis - save keypoints"
+- "[MediaAnalysis] Sceneprint data - skip fetching from PHAsset"
+- "[MediaAnalysis] allow multiple format descriptions for FRC videos"
+- "[MediaAnalysis] allow single drop detection"
+- "[MediaAnalysis] disable MUBackbone"
+- "[MediaAnalysis] enable MUBackbone"
+- "[MediaAnalysis] run non-ML settling effect pregating"
+- "[MediaAnalysis] run settling effect pregating"
+- "[MediaAnalysis] run video interpolation"
+- "[MediaAnalysis] save pixel-based recipe regardless of confidence"
+- "[MediaAnalysis] set AdaptiveSegment type"
+- "[MergeAnalysis][%@] Merging A: %@"
+- "[MergeAnalysis][%@] Merging B: %@"
+- "[MobileAssetManager] OTAFailTest enabled"
+- "[MobileAssetManager] disable CaptionModelOTA"
+- "[MobileAssetManager] enable CaptionModelOTA"
+- "[Override] Unified background processing %s"
+- "[Perf] Memory usage: %@"
+- "[PersonSuggestionVU] Excluded person: %@"
+- "[PersonSuggestionVU] Similar entity person: %@"
+- "[PersonSuggestionVU] To-be-confirmed suggestion %@"
+- "[PersonSuggestionVU] To-be-rejected suggestion %@"
+- "[PhotosFace] Overwriting animal/human co-location threshold to %f"
+- "[TextEncoderInputs][Adjusted] personStringIndex %d, Final personalizationIndex %d"
+- "[TextEncoderInputs][Adjusted][%lu] %@"
+- "[TextEncoderInputs][raw] personStringIndex %d, personalizationIndex %d"
+- "[TextEncoderInputs][raw][%lu] %@"
+- "[TextEncoderOutput.Segments][%lu] %@"
+- "[Text|Threshold] Overriding sigmoid cutoff (%@)"
+- "[VCPDatabaseReader] Including internal fields in queries"
+- "[VCPFaceMerger] %lu sorted candidate (geometry-based) for face %@"
+- "[VCPFaceMerger] Detected face: %@"
+- "[VCPFaceMerger] Existing face: %@"
+- "[VCPFaceMerger] Merged %lu pair(s) (geometry-based)"
+- "[VCPFaceMerger] Merged %lu pair(s) (image-print-based)"
+- "[VCPMovieAnalyzer] Async audio is %@"
+- "[VCPVideoAnalysisPipelineManager] Using Graph for processing"
+- "[VCPVideoAnalysisPipelineManager] Using basic queues for processing"
+- "[VideoCaption] Unsupported VideoCaptionMode (%@) from defaults write; keep VideoCaptionMode %ld"
+- "[VideoSceneClassifier] Accepting scene classification: %@ %.3f"
+- "always use default legacy hand pose model"
+- "audio-fused does not support version %d, disable"
+- "detectSingleDrop"
+- "dis"
+- "disabled"
+- "en"
+- "enableHandsLitePoseForVision"
+- "gesture: min finger tilting angle %f * M_PI"
+- "gesture: min finger tilting thumb angle %f * M_PI"
+- "input height: %d, target height: %d"
+- "input pixelFormat: %u, preferred: %u"
+- "input width: %d, target width: %d"
+- "is"
+- "is not"
+- "kFRCHighPerformanceMode"
+- "kFRCHighQualityMode"
+- "kFRCLowLatencyMode"
+- "low performant operation at %s[line:%d]"
+- "minSimilarityDiffOneUp"
+- "not to"
+- "processIdentifier"
+- "region of interest: %@"
+- "to"
+- "tokenSegments"
+- "use lite hand pose model"
+- "useVCPMobileAssetAXCaptionModel %s enabled"
+- "v32@?0@\"CSUTextEncoderInput\"8Q16^B24"
+- "v32@?0@\"NSString\"8Q16^B24"
+- "v32@?0@\"NSValue\"8Q16^B24"
+
+```

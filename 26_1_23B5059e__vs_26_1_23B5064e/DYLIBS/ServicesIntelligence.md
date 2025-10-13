@@ -1,0 +1,753 @@
+## ServicesIntelligence
+
+> `/System/Library/PrivateFrameworks/ServicesIntelligence.framework/ServicesIntelligence`
+
+```diff
+
+-1.28.0.0.0
+-  __TEXT.__text: 0x125cbc
+-  __TEXT.__auth_stubs: 0x1bd0
++1.30.0.0.0
++  __TEXT.__text: 0x14d410
++  __TEXT.__auth_stubs: 0x1c40
+   __TEXT.__objc_methlist: 0x1bc
+-  __TEXT.__const: 0x12fa8
+-  __TEXT.__cstring: 0x51bb
+-  __TEXT.__swift5_typeref: 0x39b4
+-  __TEXT.__constg_swiftt: 0x32a8
+-  __TEXT.__swift5_reflstr: 0x215b
+-  __TEXT.__swift5_fieldmd: 0x3f64
+-  __TEXT.__swift5_builtin: 0x12c
+-  __TEXT.__swift5_assocty: 0x3b0
+-  __TEXT.__swift5_proto: 0x1154
+-  __TEXT.__swift5_types: 0x4f8
+-  __TEXT.__swift_as_entry: 0x380
+-  __TEXT.__swift_as_ret: 0x738
+-  __TEXT.__oslogstring: 0x1cc9
+-  __TEXT.__swift5_capture: 0x1518
+-  __TEXT.__swift5_mpenum: 0xa8
+-  __TEXT.__swift5_protos: 0x1c
+-  __TEXT.__unwind_info: 0x55b8
+-  __TEXT.__eh_frame: 0xeb4c
++  __TEXT.__const: 0x14614
++  __TEXT.__cstring: 0x5253
++  __TEXT.__constg_swiftt: 0x3418
++  __TEXT.__swift5_typeref: 0x3e02
++  __TEXT.__swift5_reflstr: 0x2637
++  __TEXT.__swift5_fieldmd: 0x4500
++  __TEXT.__swift5_builtin: 0x140
++  __TEXT.__swift5_assocty: 0x3f8
++  __TEXT.__swift5_proto: 0x12ec
++  __TEXT.__swift5_types: 0x544
++  __TEXT.__swift_as_entry: 0x41c
++  __TEXT.__swift_as_ret: 0x7ec
++  __TEXT.__swift5_mpenum: 0xb0
++  __TEXT.__oslogstring: 0x3c8f
++  __TEXT.__swift5_protos: 0x20
++  __TEXT.__swift5_capture: 0x18c
++  __TEXT.__unwind_info: 0x6190
++  __TEXT.__eh_frame: 0x10f84
+   __TEXT.__objc_classname: 0x18
+   __TEXT.__objc_methname: 0x5e4
+   __TEXT.__objc_methtype: 0x178
+-  __DATA_CONST.__got: 0x420
++  __DATA_CONST.__got: 0x408
+   __DATA_CONST.__const: 0xa8
+-  __DATA_CONST.__objc_classlist: 0xd0
++  __DATA_CONST.__objc_classlist: 0x90
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x280
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __AUTH_CONST.__auth_got: 0xde8
+-  __AUTH_CONST.__const: 0xd8b8
+-  __AUTH_CONST.__objc_const: 0x13a8
+-  __AUTH.__objc_data: 0x320
+-  __AUTH.__data: 0xe30
+-  __DATA.__data: 0x3038
+-  __DATA.__bss: 0x1fa00
+-  __DATA.__common: 0xc0
++  __AUTH_CONST.__auth_got: 0xe20
++  __AUTH_CONST.__const: 0xc450
++  __AUTH_CONST.__objc_const: 0xea8
++  __AUTH.__objc_data: 0x2d0
++  __AUTH.__data: 0xe28
++  __DATA.__data: 0x33e0
++  __DATA.__bss: 0x22e00
++  __DATA.__common: 0xc8
+   __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__data: 0x11b0
+-  __DATA_DIRTY.__common: 0x30
+-  __DATA_DIRTY.__bss: 0x2780
++  __DATA_DIRTY.__data: 0xb58
++  __DATA_DIRTY.__bss: 0x2680
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreML.framework/CoreML
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 02E0C7DE-DECB-3E84-B9D8-5D2A48F02349
+-  Functions: 6633
+-  Symbols:   2026
+-  CStrings:  702
++  UUID: 8DEC89A2-A375-30CD-9262-4489538275D4
++  Functions: 6872
++  Symbols:   2123
++  CStrings:  801
+ 
+Symbols:
++ __DATA__TtC20ServicesIntelligence28ServicesIntelligenceProvider
++ __IVARS__TtC20ServicesIntelligence28ServicesIntelligenceProvider
++ __METACLASS_DATA__TtC20ServicesIntelligence28ServicesIntelligenceProvider
++ ___swift_memcpy128_8
++ ___swift_memcpy136_8
++ ___swift_memcpy144_8
++ ___swift_project_boxed_opaque_existential_0Tm
++ _associated conformance 20ServicesIntelligence0aB10XPCRequestO28UpdateSystemStatusCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLOSHAASQ
++ _associated conformance 20ServicesIntelligence0aB10XPCRequestO28UpdateSystemStatusCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence0aB10XPCRequestO28UpdateSystemStatusCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence0aB10XPCRequestO36UpdateConfigurationVersionCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLOSHAASQ
++ _associated conformance 20ServicesIntelligence0aB10XPCRequestO36UpdateConfigurationVersionCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence0aB10XPCRequestO36UpdateConfigurationVersionCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence0aB11XPCResponseO28UpdateSystemStatusCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence0aB11XPCResponseO28UpdateSystemStatusCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence0aB11XPCResponseO36UpdateConfigurationVersionCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence0aB11XPCResponseO36UpdateConfigurationVersionCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence0aB5ErrorO10CodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOSHAASQ
++ _associated conformance 20ServicesIntelligence0aB5ErrorO10CodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence0aB5ErrorO10CodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence0aB5ErrorO10Foundation09LocalizedC0AAs0C0
++ _associated conformance 20ServicesIntelligence0aB5ErrorO22InvalidInputCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOSHAASQ
++ _associated conformance 20ServicesIntelligence0aB5ErrorO22InvalidInputCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence0aB5ErrorO22InvalidInputCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence0aB5ErrorO28ServiceUnavailableCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOSHAASQ
++ _associated conformance 20ServicesIntelligence0aB5ErrorO28ServiceUnavailableCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence0aB5ErrorO28ServiceUnavailableCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence0aB5ErrorO30MissingConfigurationCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOSHAASQ
++ _associated conformance 20ServicesIntelligence0aB5ErrorO30MissingConfigurationCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence0aB5ErrorO30MissingConfigurationCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence0aB5ErrorO31InitializationFailureCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOSHAASQ
++ _associated conformance 20ServicesIntelligence0aB5ErrorO31InitializationFailureCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence0aB5ErrorO31InitializationFailureCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence0aB5ErrorO37ConfigurationServiceFailureCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOSHAASQ
++ _associated conformance 20ServicesIntelligence0aB5ErrorO37ConfigurationServiceFailureCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence0aB5ErrorO37ConfigurationServiceFailureCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence10DeviceTypeOSHAASQ
++ _associated conformance 20ServicesIntelligence12DatabaseTypeOSHAASQ
++ _associated conformance 20ServicesIntelligence13DatabaseErrorO27ReadOnlyViolationCodingKeys33_24A3794C2BCD58D6AE79FEE894DDE56CLLOSHAASQ
++ _associated conformance 20ServicesIntelligence13DatabaseErrorO27ReadOnlyViolationCodingKeys33_24A3794C2BCD58D6AE79FEE894DDE56CLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence13DatabaseErrorO27ReadOnlyViolationCodingKeys33_24A3794C2BCD58D6AE79FEE894DDE56CLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence13DatabaseErrorO30MissingConfigurationCodingKeys33_24A3794C2BCD58D6AE79FEE894DDE56CLLOSHAASQ
++ _associated conformance 20ServicesIntelligence15LoggingStrategyV10CodingKeys33_34FF3CF31647E1B124C2410F3E3CCEB7LLOSHAASQ
++ _associated conformance 20ServicesIntelligence15LoggingStrategyV10CodingKeys33_34FF3CF31647E1B124C2410F3E3CCEB7LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence15LoggingStrategyV10CodingKeys33_34FF3CF31647E1B124C2410F3E3CCEB7LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence16ComponentMetricsV10CodingKeys33_38C8E26EF21F2867FACB1BFC9E772D16LLOSHAASQ
++ _associated conformance 20ServicesIntelligence16ComponentMetricsV10CodingKeys33_38C8E26EF21F2867FACB1BFC9E772D16LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence16ComponentMetricsV10CodingKeys33_38C8E26EF21F2867FACB1BFC9E772D16LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence18DatabaseIdentifierVSHAASQ
++ _associated conformance 20ServicesIntelligence18LoggingGranularityOSHAASQ
++ _associated conformance 20ServicesIntelligence18LoggingGranularityOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 20ServicesIntelligence19SystemDatabaseErrorO10CodingKeys33_7021F67A2EF92DA4982EEA53AE270664LLOSHAASQ
++ _associated conformance 20ServicesIntelligence19SystemDatabaseErrorO10CodingKeys33_7021F67A2EF92DA4982EEA53AE270664LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence19SystemDatabaseErrorO10CodingKeys33_7021F67A2EF92DA4982EEA53AE270664LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence19SystemDatabaseErrorO10Foundation09LocalizedE0AAs0E0
++ _associated conformance 20ServicesIntelligence19SystemDatabaseErrorO31UnepectedWorkflowTypeCodingKeys33_7021F67A2EF92DA4982EEA53AE270664LLOSHAASQ
++ _associated conformance 20ServicesIntelligence19SystemDatabaseErrorO31UnepectedWorkflowTypeCodingKeys33_7021F67A2EF92DA4982EEA53AE270664LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence19SystemDatabaseErrorO31UnepectedWorkflowTypeCodingKeys33_7021F67A2EF92DA4982EEA53AE270664LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence20EnhancedMetricsEventV10CodingKeys030_F472CC76EB523951400A2AEE9B793K1DLLOyx_GSHAASQ
++ _associated conformance 20ServicesIntelligence20EnhancedMetricsEventV10CodingKeys030_F472CC76EB523951400A2AEE9B793K1DLLOyx_Gs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence20EnhancedMetricsEventV10CodingKeys030_F472CC76EB523951400A2AEE9B793K1DLLOyx_Gs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence21CachedResponseWrapper33_F25909D9BC2434120DCE2F32BECF70D7LLV10CodingKeysOSHAASQ
++ _associated conformance 20ServicesIntelligence21CachedResponseWrapper33_F25909D9BC2434120DCE2F32BECF70D7LLV10CodingKeysOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence21CachedResponseWrapper33_F25909D9BC2434120DCE2F32BECF70D7LLV10CodingKeysOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence24ConfigurationSyncMessageV10CodingKeys33_38C8E26EF21F2867FACB1BFC9E772D16LLOSHAASQ
++ _associated conformance 20ServicesIntelligence24ConfigurationSyncMessageV10CodingKeys33_38C8E26EF21F2867FACB1BFC9E772D16LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence24ConfigurationSyncMessageV10CodingKeys33_38C8E26EF21F2867FACB1BFC9E772D16LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.108
++ _block_descriptor.110
++ _block_destroy_helper.109
++ _get_enum_tag_for_layout_string 20ServicesIntelligence0aB5ErrorO
++ _objc_retain_x22
++ _objc_retain_x24
++ _objectdestroy.55Tm
++ _objectdestroy.69Tm
++ _os_variant_has_internal_diagnostics
++ _swift_getExistentialTypeMetadata
++ _swift_storeEnumTagMultiPayload
++ _symbolic $s20ServicesIntelligence21DatabaseConfigurationP
++ _symbolic SDySS______pG s5ErrorP
++ _symbolic SDy__________G 20ServicesIntelligence18DatabaseIdentifierV AA06VectorC6ClientC
++ _symbolic SDy__________G 20ServicesIntelligence18DatabaseIdentifierV AA16KVDatabaseClientC
++ _symbolic SDy__________G 20ServicesIntelligence18DatabaseIdentifierV AA17SQLDatabaseClientC
++ _symbolic SS_______pt s5ErrorP
++ _symbolic SS______t 20ServicesIntelligence17InferenceWorkflowV
++ _symbolic SS______t 20ServicesIntelligence24ConfigurationSyncMessageV
++ _symbolic SaySSGSg
++ _symbolic Say_____G 20ServicesIntelligence18LoggingGranularityO
++ _symbolic So10AMSMetricsCSg
++ _symbolic _____ 20ServicesIntelligence0aB10XPCRequestO28UpdateSystemStatusCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLO
++ _symbolic _____ 20ServicesIntelligence0aB10XPCRequestO36UpdateConfigurationVersionCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLO
++ _symbolic _____ 20ServicesIntelligence0aB11XPCResponseO28UpdateSystemStatusCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLO
++ _symbolic _____ 20ServicesIntelligence0aB11XPCResponseO36UpdateConfigurationVersionCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLO
++ _symbolic _____ 20ServicesIntelligence0aB5ErrorO
++ _symbolic _____ 20ServicesIntelligence0aB5ErrorO10CodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____ 20ServicesIntelligence0aB5ErrorO22InvalidInputCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____ 20ServicesIntelligence0aB5ErrorO28ServiceUnavailableCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____ 20ServicesIntelligence0aB5ErrorO30MissingConfigurationCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____ 20ServicesIntelligence0aB5ErrorO31InitializationFailureCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____ 20ServicesIntelligence0aB5ErrorO37ConfigurationServiceFailureCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____ 20ServicesIntelligence0aB8ProviderC
++ _symbolic _____ 20ServicesIntelligence10DeviceTypeO
++ _symbolic _____ 20ServicesIntelligence12DatabaseTypeO
++ _symbolic _____ 20ServicesIntelligence13DatabaseErrorO27ReadOnlyViolationCodingKeys33_24A3794C2BCD58D6AE79FEE894DDE56CLLO
++ _symbolic _____ 20ServicesIntelligence14SystemDatabaseV
++ _symbolic _____ 20ServicesIntelligence15LoggingStrategyV
++ _symbolic _____ 20ServicesIntelligence15LoggingStrategyV10CodingKeys33_34FF3CF31647E1B124C2410F3E3CCEB7LLO
++ _symbolic _____ 20ServicesIntelligence16ComponentMetricsV
++ _symbolic _____ 20ServicesIntelligence16ComponentMetricsV10CodingKeys33_38C8E26EF21F2867FACB1BFC9E772D16LLO
++ _symbolic _____ 20ServicesIntelligence18DatabaseIdentifierV
++ _symbolic _____ 20ServicesIntelligence18LoggingGranularityO
++ _symbolic _____ 20ServicesIntelligence19ComponentSyncResultV
++ _symbolic _____ 20ServicesIntelligence19SystemDatabaseErrorO
++ _symbolic _____ 20ServicesIntelligence19SystemDatabaseErrorO10CodingKeys33_7021F67A2EF92DA4982EEA53AE270664LLO
++ _symbolic _____ 20ServicesIntelligence19SystemDatabaseErrorO31UnepectedWorkflowTypeCodingKeys33_7021F67A2EF92DA4982EEA53AE270664LLO
++ _symbolic _____ 20ServicesIntelligence20EnhancedMetricsEventV
++ _symbolic _____ 20ServicesIntelligence20EnhancedMetricsEventV10CodingKeys030_F472CC76EB523951400A2AEE9B793K1DLLO
++ _symbolic _____ 20ServicesIntelligence21CachedResponseWrapper33_F25909D9BC2434120DCE2F32BECF70D7LLV
++ _symbolic _____ 20ServicesIntelligence21CachedResponseWrapper33_F25909D9BC2434120DCE2F32BECF70D7LLV10CodingKeysO
++ _symbolic _____ 20ServicesIntelligence21DatabaseRegistryEntryV
++ _symbolic _____ 20ServicesIntelligence22DatabaseCreationResultO
++ _symbolic _____ 20ServicesIntelligence23ConfigurationSyncResultV
++ _symbolic _____ 20ServicesIntelligence24ConfigurationSyncMessageV
++ _symbolic _____ 20ServicesIntelligence24ConfigurationSyncMessageV10CodingKeys33_38C8E26EF21F2867FACB1BFC9E772D16LLO
++ _symbolic _____4path_t 10Foundation3URLV
++ _symbolic _____Sg 20ServicesIntelligence14RequestContextV
++ _symbolic _____Sg 20ServicesIntelligence8WorkflowO
++ _symbolic _____Sg 20ServicesIntelligence9TreatmentV
++ _symbolic ______p5error_t s5ErrorP
++ _symbolic ______pSg So14AMSBagProtocolP
++ _symbolic _____ySDySSSay_____GGG 20ServicesIntelligence20EnhancedMetricsEventV AA12SubOperationV
++ _symbolic _____ySDySS_____GG 20ServicesIntelligence20EnhancedMetricsEventV AA24ConfigurationSyncMessageV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 20ServicesIntelligence17InferenceWorkflowV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 20ServicesIntelligence24ConfigurationSyncMessageV
++ _symbolic _____ySS_______ptG s23_ContiguousArrayStorageC s5ErrorP
++ _symbolic _____ySS______pG s18_DictionaryStorageC s5ErrorP
++ _symbolic _____ySS______p_G SD4KeysV s5ErrorP
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 20ServicesIntelligence17InferenceWorkflowV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 20ServicesIntelligence24ConfigurationSyncMessageV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence0dE10XPCRequestO28UpdateSystemStatusCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence0dE10XPCRequestO36UpdateConfigurationVersionCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence0dE11XPCResponseO28UpdateSystemStatusCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence0dE11XPCResponseO36UpdateConfigurationVersionCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence0dE5ErrorO10CodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence0dE5ErrorO22InvalidInputCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence0dE5ErrorO28ServiceUnavailableCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence0dE5ErrorO30MissingConfigurationCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence0dE5ErrorO31InitializationFailureCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence0dE5ErrorO37ConfigurationServiceFailureCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence13DatabaseErrorO27ReadOnlyViolationCodingKeys33_24A3794C2BCD58D6AE79FEE894DDE56CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence15LoggingStrategyV10CodingKeys33_34FF3CF31647E1B124C2410F3E3CCEB7LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence16ComponentMetricsV10CodingKeys33_38C8E26EF21F2867FACB1BFC9E772D16LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence19SystemDatabaseErrorO10CodingKeys33_7021F67A2EF92DA4982EEA53AE270664LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence19SystemDatabaseErrorO31UnepectedWorkflowTypeCodingKeys33_7021F67A2EF92DA4982EEA53AE270664LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence21CachedResponseWrapper33_F25909D9BC2434120DCE2F32BECF70D7LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence24ConfigurationSyncMessageV10CodingKeys33_38C8E26EF21F2867FACB1BFC9E772D16LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence0dE10XPCRequestO28UpdateSystemStatusCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence0dE10XPCRequestO36UpdateConfigurationVersionCodingKeys33_7C855492D78ADA96ED02EB19640E57FALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence0dE11XPCResponseO28UpdateSystemStatusCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence0dE11XPCResponseO36UpdateConfigurationVersionCodingKeys33_72F5CDFFCCD13CC7B82A1F857386CB6CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence0dE5ErrorO10CodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence0dE5ErrorO22InvalidInputCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence0dE5ErrorO28ServiceUnavailableCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence0dE5ErrorO30MissingConfigurationCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence0dE5ErrorO31InitializationFailureCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence0dE5ErrorO37ConfigurationServiceFailureCodingKeys33_979DB5D1C709D3E8309864AE7D01C9F5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence13DatabaseErrorO27ReadOnlyViolationCodingKeys33_24A3794C2BCD58D6AE79FEE894DDE56CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence15LoggingStrategyV10CodingKeys33_34FF3CF31647E1B124C2410F3E3CCEB7LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence16ComponentMetricsV10CodingKeys33_38C8E26EF21F2867FACB1BFC9E772D16LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence19SystemDatabaseErrorO10CodingKeys33_7021F67A2EF92DA4982EEA53AE270664LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence19SystemDatabaseErrorO31UnepectedWorkflowTypeCodingKeys33_7021F67A2EF92DA4982EEA53AE270664LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence21CachedResponseWrapper33_F25909D9BC2434120DCE2F32BECF70D7LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence24ConfigurationSyncMessageV10CodingKeys33_38C8E26EF21F2867FACB1BFC9E772D16LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20ServicesIntelligence21DatabaseRegistryEntryV
++ _symbolic _____y__________G s18_DictionaryStorageC 20ServicesIntelligence18DatabaseIdentifierV AC06VectorE6ClientC
++ _symbolic _____y__________G s18_DictionaryStorageC 20ServicesIntelligence18DatabaseIdentifierV AC16KVDatabaseClientC
++ _symbolic _____y__________G s18_DictionaryStorageC 20ServicesIntelligence18DatabaseIdentifierV AC17SQLDatabaseClientC
++ _symbolic _____y_____ySDySSSay_____GGGG s23_ContiguousArrayStorageC 20ServicesIntelligence20EnhancedMetricsEventV AC12SubOperationV
++ _symbolic _____y_____ySDySS_____GGG 20ServicesIntelligence17LogMetricsRequestV AA08EnhancedD5EventV AA24ConfigurationSyncMessageV
++ _symbolic _____y_____ySDySS_____GGG s23_ContiguousArrayStorageC 20ServicesIntelligence20EnhancedMetricsEventV AC24ConfigurationSyncMessageV
++ _type_layout_string 20ServicesIntelligence0aB5ErrorO
++ _type_layout_string 20ServicesIntelligence15LoggingStrategyV
++ _type_layout_string 20ServicesIntelligence16ComponentMetricsV
++ _type_layout_string 20ServicesIntelligence18DatabaseIdentifierV
++ _type_layout_string 20ServicesIntelligence19ComponentSyncResultV
++ _type_layout_string 20ServicesIntelligence19SystemDatabaseErrorO
++ _type_layout_string 20ServicesIntelligence21CachedResponseWrapper33_F25909D9BC2434120DCE2F32BECF70D7LLV
++ _type_layout_string 20ServicesIntelligence21DatabaseRegistryEntryV
++ _type_layout_string 20ServicesIntelligence23ConfigurationSyncResultV
++ _type_layout_string 20ServicesIntelligence24ConfigurationSyncMessageV
+- __DATA__TtC20ServicesIntelligence10KVDatabase
+- __DATA__TtC20ServicesIntelligence11SQLDatabase
+- __DATA__TtC20ServicesIntelligence14SystemDatabase
+- __DATA__TtC20ServicesIntelligence14VectorDatabase
+- __DATA__TtC20ServicesIntelligence15LoggingProvider
+- __DATA__TtC20ServicesIntelligence15UseCaseExecutor
+- __DATA__TtC20ServicesIntelligence20TreatmentStoreClient
+- __DATA__TtC20ServicesIntelligence24ConfigurationStoreClient
+- __DATA__TtC20ServicesIntelligence26ConfigurationServiceClient
+- __IVARS__TtC20ServicesIntelligence10KVDatabase
+- __IVARS__TtC20ServicesIntelligence11SQLDatabase
+- __IVARS__TtC20ServicesIntelligence14SystemDatabase
+- __IVARS__TtC20ServicesIntelligence14VectorDatabase
+- __IVARS__TtC20ServicesIntelligence15LoggingProvider
+- __IVARS__TtC20ServicesIntelligence26ConfigurationServiceClient
+- __METACLASS_DATA__TtC20ServicesIntelligence10KVDatabase
+- __METACLASS_DATA__TtC20ServicesIntelligence11SQLDatabase
+- __METACLASS_DATA__TtC20ServicesIntelligence14SystemDatabase
+- __METACLASS_DATA__TtC20ServicesIntelligence14VectorDatabase
+- __METACLASS_DATA__TtC20ServicesIntelligence15LoggingProvider
+- __METACLASS_DATA__TtC20ServicesIntelligence15UseCaseExecutor
+- __METACLASS_DATA__TtC20ServicesIntelligence20TreatmentStoreClient
+- __METACLASS_DATA__TtC20ServicesIntelligence24ConfigurationStoreClient
+- __METACLASS_DATA__TtC20ServicesIntelligence26ConfigurationServiceClient
+- ___swift_memcpy129_8
+- ___swift_project_boxed_opaque_existential_1Tm
+- _associated conformance 20ServicesIntelligence20EnhancedMetricsEvent33_572772776B90F234B421D97A672995F6LLV10CodingKeysOyx_GSHAASQ
+- _associated conformance 20ServicesIntelligence20EnhancedMetricsEvent33_572772776B90F234B421D97A672995F6LLV10CodingKeysOyx_Gs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 20ServicesIntelligence20EnhancedMetricsEvent33_572772776B90F234B421D97A672995F6LLV10CodingKeysOyx_Gs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 20ServicesIntelligence20KVDatabaseIdentifierVSHAASQ
+- _associated conformance 20ServicesIntelligence21CachedResponseWrapper33_658F6E6A024FF7B6E22C7D0D247FA0F3LLV10CodingKeysOSHAASQ
+- _associated conformance 20ServicesIntelligence21CachedResponseWrapper33_658F6E6A024FF7B6E22C7D0D247FA0F3LLV10CodingKeysOs0Q3KeyAAs23CustomStringConvertible
+- _associated conformance 20ServicesIntelligence21CachedResponseWrapper33_658F6E6A024FF7B6E22C7D0D247FA0F3LLV10CodingKeysOs0Q3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 20ServicesIntelligence21SQLDatabaseIdentifierVSHAASQ
+- _associated conformance 20ServicesIntelligence24VectorDatabaseIdentifierVSHAASQ
+- _block_copy_helper.32
+- _block_descriptor.34
+- _block_destroy_helper.33
+- _objc_release
+- _objectdestroy.11Tm
+- _objectdestroy.28Tm
+- _objectdestroy.36Tm
+- _swift_release_n
+- _symbolic SDy__________G 20ServicesIntelligence20KVDatabaseIdentifierV AA0C6ClientC
+- _symbolic SDy__________G 20ServicesIntelligence21SQLDatabaseIdentifierV AA0C6ClientC
+- _symbolic SDy__________G 20ServicesIntelligence24VectorDatabaseIdentifierV AA0cD6ClientC
+- _symbolic SS_SSt
+- _symbolic SS_Say_____GSgt 20ServicesIntelligence9TreatmentV
+- _symbolic SS_Sdt
+- _symbolic SS______t 20ServicesIntelligence24InferenceInputDefinitionV
+- _symbolic Say_____GSg 20ServicesIntelligence9TreatmentV
+- _symbolic So10AMSMetricsC
+- _symbolic _____ 20ServicesIntelligence10KVDatabaseC
+- _symbolic _____ 20ServicesIntelligence11SQLDatabaseC
+- _symbolic _____ 20ServicesIntelligence14SystemDatabaseC
+- _symbolic _____ 20ServicesIntelligence14VectorDatabaseC
+- _symbolic _____ 20ServicesIntelligence15LoggingProviderC
+- _symbolic _____ 20ServicesIntelligence15UseCaseExecutorC
+- _symbolic _____ 20ServicesIntelligence20EnhancedMetricsEvent33_572772776B90F234B421D97A672995F6LLV
+- _symbolic _____ 20ServicesIntelligence20EnhancedMetricsEvent33_572772776B90F234B421D97A672995F6LLV10CodingKeysO
+- _symbolic _____ 20ServicesIntelligence20KVDatabaseIdentifierV
+- _symbolic _____ 20ServicesIntelligence20TreatmentStoreClientC
+- _symbolic _____ 20ServicesIntelligence21CachedResponseWrapper33_658F6E6A024FF7B6E22C7D0D247FA0F3LLV
+- _symbolic _____ 20ServicesIntelligence21CachedResponseWrapper33_658F6E6A024FF7B6E22C7D0D247FA0F3LLV10CodingKeysO
+- _symbolic _____ 20ServicesIntelligence21SQLDatabaseIdentifierV
+- _symbolic _____ 20ServicesIntelligence24ConfigurationStoreClientC
+- _symbolic _____ 20ServicesIntelligence24VectorDatabaseIdentifierV
+- _symbolic _____ 20ServicesIntelligence26ConfigurationServiceClientC
+- _symbolic ___________t 20ServicesIntelligence12MetricsTopicO AA0cD13ConfigurationV
+- _symbolic ______p So14AMSBagProtocolP
+- _symbolic _____ySDySSSay_____GGG 20ServicesIntelligence20EnhancedMetricsEvent33_572772776B90F234B421D97A672995F6LLV AA12SubOperationV
+- _symbolic _____ySSSay_____GG s18_DictionaryStorageC 20ServicesIntelligence9TreatmentV
+- _symbolic _____ySSSay_____GSgG s18_DictionaryStorageC 20ServicesIntelligence9TreatmentV
+- _symbolic _____ySS______tG s23_ContiguousArrayStorageC 20ServicesIntelligence24InferenceInputDefinitionV
+- _symbolic _____ySS______tG s23_ContiguousArrayStorageC 20ServicesIntelligence25InferenceOutputDefinitionV
+- _symbolic _____ySay_____G______p_G Scg8IteratorV 20ServicesIntelligence9TreatmentV s5ErrorP
+- _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence21CachedResponseWrapper33_658F6E6A024FF7B6E22C7D0D247FA0F3LLV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence21CachedResponseWrapper33_658F6E6A024FF7B6E22C7D0D247FA0F3LLV10CodingKeysO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 20ServicesIntelligence20UseCaseConfigurationV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 20ServicesIntelligence24SQLDatabaseConfigurationV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 20ServicesIntelligence27VectorDatabaseConfigurationV
+- _symbolic _____y__________G s18_DictionaryStorageC 20ServicesIntelligence12MetricsTopicO AC0eF13ConfigurationV
+- _symbolic _____y__________G s18_DictionaryStorageC 20ServicesIntelligence20KVDatabaseIdentifierV AC0E6ClientC
+- _symbolic _____y__________G s18_DictionaryStorageC 20ServicesIntelligence21SQLDatabaseIdentifierV AC0E6ClientC
+- _symbolic _____y__________G s18_DictionaryStorageC 20ServicesIntelligence24VectorDatabaseIdentifierV AC0eF6ClientC
+- _symbolic _____y___________tG s23_ContiguousArrayStorageC 20ServicesIntelligence12MetricsTopicO AC0fG13ConfigurationV
+- _symbolic _____y_____ySDySSSay_____GGGG s23_ContiguousArrayStorageC 20ServicesIntelligence20EnhancedMetricsEvent33_572772776B90F234B421D97A672995F6LLV AC12SubOperationV
+- _type_layout_string 20ServicesIntelligence20KVDatabaseIdentifierV
+- _type_layout_string 20ServicesIntelligence21CachedResponseWrapper33_658F6E6A024FF7B6E22C7D0D247FA0F3LLV
+- _type_layout_string 20ServicesIntelligence21SQLDatabaseIdentifierV
+- _type_layout_string 20ServicesIntelligence24VectorDatabaseIdentifierV
+CStrings:
++ " AND endDate >= "
++ " active treatments"
++ " treatments for "
++ " workflows for use case "
++ "$__lazy_storage_$_bag"
++ "' AND treatmentIdentifier = '"
++ "' AND workflowType = 'inference'"
++ "' AND workflowType = 'inference' AND assetBundleIdentifier IS NOT NULL"
++ "' has no workflows - at least one workflow is required"
++ ", treatmentIdentifier: "
++ "A write was attempted on a read only database"
++ "Configuration service failure: "
++ "Configuration service operation failed"
++ "Database configuration not found"
++ "Database is in read only mode"
++ "Database is read-only - write operations not permitted: "
++ "DatabaseCreation: "
++ "DatabaseError.missingConfiguration: "
++ "DatabaseError.readOnlyViolation: "
++ "DatabaseRegistry: "
++ "Default workflow not found for asset: "
++ "Failed to enable WAL mode"
++ "Failed to prepare WAL mode statement"
++ "Failed to query database configuration: "
++ "Failed to store "
++ "Failed to update configuration version"
++ "Initialization failure: "
++ "Invalid input provided to provider operation"
++ "KV"
++ "KV store persistence failed"
++ "Missing configuration: "
++ "Missing database configuration: "
++ "Multiple workflows found for useCaseIdentifier: "
++ "No configuration found for database: "
++ "No fetchConfigURL found in bag"
++ "No workflow found for "
++ "No workflows found for asset: "
++ "PRAGMA journal_mode=WAL"
++ "Provider initialization failed"
++ "Read only violation: "
++ "Referred to non existent workflow type"
++ "Required configuration is missing or invalid"
++ "SQL"
++ "Service is currently unavailable"
++ "Service unavailable: "
++ "System metadata record not found"
++ "Unknown database type: "
++ "VECTOR"
++ "[MediaProvider][getContents] Music query: %s"
++ "[SQLDatabaseClient] WAL mode enabled for improved concurrent access"
++ "[SQLDatabaseClient][handleSQLiteError] Detected SQLITE_READONLY"
++ "[ServicesIntelligenceProvider] Failed to encode object: %@"
++ "[ServicesIntelligenceProvider] Field: %s = %s"
++ "[ServicesIntelligenceProvider][PerformanceTracking] Starting %s (correlationID: %s), originator: %s"
++ "[ServicesIntelligenceProvider][PerformanceTracking] formed enqueue request"
++ "[ServicesIntelligenceProvider][PerformanceTracking] getting start time and memory"
++ "[ServicesIntelligenceProvider][PerformanceTracking] got end time and memory"
++ "[ServicesIntelligenceProvider][PerformanceTracking] in defer code, and the event is "
++ "[ServicesIntelligenceProvider][cacheResult] Caching not enabled or no cache key"
++ "[ServicesIntelligenceProvider][cacheResult] Error during caching: "
++ "[ServicesIntelligenceProvider][cacheResult] Failed to cache response"
++ "[ServicesIntelligenceProvider][cacheResult] Failed to encode cache wrapper"
++ "[ServicesIntelligenceProvider][cacheResult] Failed to encode response for caching"
++ "[ServicesIntelligenceProvider][cacheResult] Successfully cached response with TTL: "
++ "[ServicesIntelligenceProvider][cleanupExpiredCache] Cleaned up "
++ "[ServicesIntelligenceProvider][cleanupExpiredCache] Error during cleanup: "
++ "[ServicesIntelligenceProvider][cleanupExpiredCache] No expired entries found"
++ "[ServicesIntelligenceProvider][clearCache] Cleaned up "
++ "[ServicesIntelligenceProvider][clearCache] Cleared "
++ "[ServicesIntelligenceProvider][createDatabaseFromRegistry] Creating %s database: %s"
++ "[ServicesIntelligenceProvider][createDatabaseFromRegistry] Failed to decode configuration for %s: %@"
++ "[ServicesIntelligenceProvider][createDatabaseFromRegistry] Unknown database type: %s"
++ "[ServicesIntelligenceProvider][createDomainDatabases] Completed: %ld/%ld successful, %ld failed"
++ "[ServicesIntelligenceProvider][createDomainDatabases] Database creation failures: %s"
++ "[ServicesIntelligenceProvider][createDomainDatabases] Failed to create database %s: %@"
++ "[ServicesIntelligenceProvider][createDomainDatabases] Failed to get pending databases: %@"
++ "[ServicesIntelligenceProvider][createDomainDatabases] Failed to update status for %s: %@"
++ "[ServicesIntelligenceProvider][createDomainDatabases] Found %ld pending databases"
++ "[ServicesIntelligenceProvider][createDomainDatabases] No pending databases - operation successful"
++ "[ServicesIntelligenceProvider][createDomainDatabases] Starting domain database creation"
++ "[ServicesIntelligenceProvider][createDomainDatabases] Successfully created database: %s"
++ "[ServicesIntelligenceProvider][createKVDatabase][%s] Created at %s"
++ "[ServicesIntelligenceProvider][createKVDatabase][%s] Failed: %@"
++ "[ServicesIntelligenceProvider][createSQLDatabase][%s] Created at %s"
++ "[ServicesIntelligenceProvider][createSQLDatabase][%s] Failed: %@"
++ "[ServicesIntelligenceProvider][createVectorDatabase][%s] Created at %s"
++ "[ServicesIntelligenceProvider][createVectorDatabase][%s] Failed: %@"
++ "[ServicesIntelligenceProvider][enqueueLogOperationMetrics]"
++ "[ServicesIntelligenceProvider][fetchActiveTreatments] Retrieved "
++ "[ServicesIntelligenceProvider][fetchActiveTreatments] for "
++ "[ServicesIntelligenceProvider][fetchActiveTreatments] for all domains"
++ "[ServicesIntelligenceProvider][getCachedData] Cache integrity check failed - data corruption detected"
++ "[ServicesIntelligenceProvider][getCachedData] Cache use not allowed or caching not enabled"
++ "[ServicesIntelligenceProvider][getCachedData] Error accessing cache: "
++ "[ServicesIntelligenceProvider][getCachedData] Failed to decode cached data wrapper"
++ "[ServicesIntelligenceProvider][getCachedData] Failed to decode cached response"
++ "[ServicesIntelligenceProvider][getCachedData] No cached data found for key: "
++ "[ServicesIntelligenceProvider][getCachedData] Successfully retrieved valid cached response"
++ "[ServicesIntelligenceProvider][getConfiguration] Failed: %@"
++ "[ServicesIntelligenceProvider][getConfiguration] Retrieved configuration version %s"
++ "[ServicesIntelligenceProvider][getConfiguration] Started"
++ "[ServicesIntelligenceProvider][getSession] Creating session"
++ "[ServicesIntelligenceProvider][getSession] Getting session for use case "
++ "[ServicesIntelligenceProvider][getSession] Missing asset bundle identifier"
++ "[ServicesIntelligenceProvider][logMetrics] Field %s not found in schema, omitting"
++ "[ServicesIntelligenceProvider][logMetrics] Field %s type mismatch. Expected: %s, got: %s"
++ "[ServicesIntelligenceProvider][logMetrics] No valid fields for event, skipping"
++ "[ServicesIntelligenceProvider][logMetrics] Starting with topic: %s and %ld events"
++ "[ServicesIntelligenceProvider][logMetrics] Unknown type %s in schema for field %s, omitting"
++ "[ServicesIntelligenceProvider][logMetrics] processing event with label: %s and value: %s"
++ "[ServicesIntelligenceProvider][logMetrics] property without label."
++ "[ServicesIntelligenceProvider][logOperationMetrics] Starting operation metrics request"
++ "[ServicesIntelligenceProvider][persistConfiguration] Failed"
++ "[ServicesIntelligenceProvider][persistConfiguration] Failed: "
++ "[ServicesIntelligenceProvider][persistConfiguration] Started"
++ "[ServicesIntelligenceProvider][persistConfiguration] Succeeded"
++ "[ServicesIntelligenceProvider][prewarmWorkflow] Failed to prewarm: "
++ "[ServicesIntelligenceProvider][prewarmWorkflow] Rule-based workflow - no prewarming needed"
++ "[ServicesIntelligenceProvider][prewarmWorkflow] Skipping prewarm as workflow response will be returned from cache"
++ "[ServicesIntelligenceProvider][prewarmWorkflow] Successfully prewarmed model-based workflow"
++ "[ServicesIntelligenceProvider][processConfiguration] %s - Status: %s, Details: %s"
++ "[ServicesIntelligenceProvider][processConfiguration] Failed with error: %@"
++ "[ServicesIntelligenceProvider][processConfiguration] First-time setup detected, proceeding with sync"
++ "[ServicesIntelligenceProvider][processConfiguration] KV store update failed, but continuing (KV is convenience only)"
++ "[ServicesIntelligenceProvider][processConfiguration] New version available (%ld → %ld), proceeding with sync"
++ "[ServicesIntelligenceProvider][processConfiguration] Started with version %ld"
++ "[ServicesIntelligenceProvider][processConfiguration] System status is %s, proceeding with recovery sync"
++ "[ServicesIntelligenceProvider][processConfiguration] Updating from version %s to %ld"
++ "[ServicesIntelligenceProvider][processConfiguration] Version %ld ≤ current %ld and system status is %s, skipping update"
++ "[ServicesIntelligenceProvider][refreshConfiguration] "
++ "[ServicesIntelligenceProvider][refreshConfiguration] Started"
++ "[ServicesIntelligenceProvider][refreshConfiguration] This may only be executed in SId process"
++ "[ServicesIntelligenceProvider][refreshTreatments] Error: "
++ "[ServicesIntelligenceProvider][refreshTreatments] Started"
++ "[ServicesIntelligenceProvider][refreshTreatments] Successfully stored treatments in System Database"
++ "[ServicesIntelligenceProvider][refreshTreatments] This may only be executed in SId process"
++ "[ServicesIntelligenceProvider][retrieveTreatments] Started"
++ "[ServicesIntelligenceProvider][runInferenceWorkflow] Decoding output data"
++ "[ServicesIntelligenceProvider][runInferenceWorkflow] Encoding input data"
++ "[ServicesIntelligenceProvider][runInferenceWorkflow] Executing one shot request"
++ "[ServicesIntelligenceProvider][runInferenceWorkflow] Execution failed: "
++ "[ServicesIntelligenceProvider][runInferenceWorkflow] Failed to decode output data"
++ "[ServicesIntelligenceProvider][runInferenceWorkflow] Failed to encode input data"
++ "[ServicesIntelligenceProvider][runInferenceWorkflow] No output generated"
++ "[ServicesIntelligenceProvider][runInferenceWorkflow] Successfully executed model-based workflow"
++ "[ServicesIntelligenceProvider][runRuleBasedWorkflow] Executing rule-based computation (placeholder)"
++ "[ServicesIntelligenceProvider][runRuleBasedWorkflow] Starting rule-based workflow execution"
++ "[ServicesIntelligenceProvider][runRuleBasedWorkflow] Successfully executed rule-based workflow"
++ "[ServicesIntelligenceProvider][run] Executing model-based workflow"
++ "[ServicesIntelligenceProvider][run] Executing rule-based workflow"
++ "[ServicesIntelligenceProvider][run] Returning response from cache"
++ "[ServicesIntelligenceProvider][storeConfigurationInSystemDB] No logging configuration to store"
++ "[ServicesIntelligenceProvider][storeConfigurationInSystemDB] Some components failed: %s"
++ "[ServicesIntelligenceProvider][storeConfigurationInSystemDB] SystemDB sync completed - UseCases: %ld/%ld, Logging: %ld/%ld, DatabaseRegistry: %ld/%ld"
++ "[ServicesIntelligenceProvider][storeDomainDatabaseConfigsInRegistry] Failed to store KV database %s: %@"
++ "[ServicesIntelligenceProvider][storeDomainDatabaseConfigsInRegistry] Failed to store SQL database %s: %@"
++ "[ServicesIntelligenceProvider][storeDomainDatabaseConfigsInRegistry] Failed to store vector database %s: %@"
++ "[ServicesIntelligenceProvider][storeDomainDatabaseConfigsInRegistry] Processed %ld databases: %ld succeeded, %ld failed"
++ "[ServicesIntelligenceProvider][storeDomainDatabaseConfigsInRegistry] Successfully stored KV database: %s"
++ "[ServicesIntelligenceProvider][storeDomainDatabaseConfigsInRegistry] Successfully stored SQL database: %s"
++ "[ServicesIntelligenceProvider][storeDomainDatabaseConfigsInRegistry] Successfully stored vector database: %s"
++ "[ServicesIntelligenceProvider][updateSystemStatusAndVersion] Component failures detected: %s"
++ "[ServicesIntelligenceProvider][updateSystemStatusAndVersion] Failed to update configuration version: %@"
++ "[ServicesIntelligenceProvider][updateSystemStatusAndVersion] Failed to update system status: %@"
++ "[ServicesIntelligenceProvider][updateSystemStatusAndVersion] KV store sync failed - debug functionality may be impacted"
++ "[ServicesIntelligenceProvider][updateSystemStatusAndVersion] Successfully updated configuration version to %ld"
++ "[ServicesIntelligenceProvider][updateSystemStatusAndVersion] System status set to: %s"
++ "[SystemDatabase][cleanupExpiredTreatments] Removed %lld expired treatments"
++ "[SystemDatabase][getCurrentConfigurationVersion] configVersion is NULL, returning nil (first-time setup)"
++ "[SystemDatabase][initialize] System database initialization failed: %@"
++ "[SystemDatabase][parseMetricsConfigFromRow] Missing required fields"
++ "[SystemDatabase][parseTreatmentFromRow] Failed to parse treatment row"
++ "[SystemDatabase][queryActiveWorkflowByAsset] Found workflow for active treatment: %s"
++ "[SystemDatabase][queryActiveWorkflowByAsset] No default workflow found for asset: %s"
++ "[SystemDatabase][queryActiveWorkflowByAsset] No workflows found for asset: %s"
++ "[SystemDatabase][queryActiveWorkflowByAsset] Using default workflow for asset: %s"
++ "[SystemDatabase][queryWorkflow] Data integrity violation: Found %ld workflows for useCaseIdentifier: %s, treatmentIdentifier: %s"
++ "[SystemDatabase][queryWorkflow] No workflow found for useCaseIdentifier: %s, treatmentIdentifier: %s"
++ "[SystemDatabase][storeDatabaseConfiguration] Upserted %s database config: %s, processed: %lld"
++ "[SystemDatabase][storeLoggingConfiguration] Failed to process topic %s: %@"
++ "[SystemDatabase][storeLoggingConfiguration] Processed %ld telemetry topics: %ld succeeded, %ld failed"
++ "[SystemDatabase][storeLoggingConfiguration] Successfully processed topic: %s"
++ "[SystemDatabase][storeTreatments] No treatment data was stored."
++ "[SystemDatabase][storeTreatments] Upserted %lld treatments"
++ "[SystemDatabase][storeUseCaseConfiguration] Failed to process use case %s: %@"
++ "[SystemDatabase][storeUseCaseConfiguration] Processed %ld use cases: %ld succeeded, %ld failed"
++ "[SystemDatabase][storeUseCaseConfiguration] Successfully processed use case: %s with %ld workflows"
++ "[SystemDatabase][storeUseCaseConfiguration] Use case %s failed due to workflow failures: %ld workflows failed"
++ "[SystemDatabase][storeUseCaseConfiguration] Use case %s failed validation: no workflows provided"
++ "[SystemDatabase][updateConfigurationVersion] Updated configuration version to: %ld"
++ "[SystemDatabase][updateDatabaseFilePath] Updated file path for %s: %s, processed: %lld"
++ "[SystemDatabase][updateDatabaseStatus] Updated database status for %s to %s, processed: %lld"
++ "[SystemDatabase][upsertMetricsTopicConfiguration] Upserted telemetry topic: %s, processed: %lld"
++ "[SystemDatabase][upsertUseCaseConfiguration] Upserted use case: %s, processed: %lld"
++ "[SystemDatabase][upsertWorkflow] Upserted workflow: %s, processed: %lld"
++ "[SystemDatabase][upsertWorkflowsForUseCase] Failed to process workflow %s: %@"
++ "[SystemDatabase][upsertWorkflowsForUseCase] Successfully processed workflow: %s"
++ "_TtC20ServicesIntelligence28ServicesIntelligenceProvider"
++ "assetIdentifier = '"
++ "cachedMetrics"
++ "configurationServiceFailure"
++ "configurationSync"
++ "createDomainDatabases"
++ "databaseCreation"
++ "databaseRegistry"
++ "enhancedMetricsEvents"
++ "getMetricsTopicConfiguration"
++ "granularityLevel"
++ "identifier = 'system'"
++ "initializationFailure"
++ "isInitialized"
++ "kvDatabaseClientByID"
++ "nil (first-time setup)"
++ "queryActiveWorkflowByAsset"
++ "queryAllWorkflows"
++ "queryWorkflow"
++ "readOnlyViolation"
++ "runWorkflow"
++ "serviceUnavailable"
++ "services-intelligence-config"
++ "sqlDatabaseClientByID"
++ "status = 'pending'"
++ "storeConfigurationInSystemDB"
++ "storeDatabaseConfiguration"
++ "storeDomainDatabaseConfigsInRegistry"
++ "storeLoggingConfiguration"
++ "storeTreatments"
++ "storeUseCaseConfiguration"
++ "systemDatabaseClient"
++ "topicIdentifier = '"
++ "unepectedWorkflowType"
++ "updateConfigurationVersion"
++ "useCaseIdentifier = '"
++ "vectorDatabaseClientByID"
+- "/System/Library/SecureAnalytics/integrityDiagnose/"
+- "DatabaseError.missingConfiguration: Database configuration not found"
+- "Failure count from refreshTreatments: "
+- "Missing database configuration: Database configuration not found"
+- "OD_STOREFRONT_ID_NORMALIZED"
+- "ServicesIntelligence"
+- "ServicesIntelligenceD"
+- "[ConfigurationServiceClient][canFetchConfigurationFromServer] Failed to get 'config' header information from bag."
+- "[ConfigurationServiceClient][createKVDatabase]["
+- "[ConfigurationServiceClient][createSQLDatabase]["
+- "[ConfigurationServiceClient][createVectorDatabase]["
+- "[ConfigurationServiceClient][persistConfiguration] Failed"
+- "[ConfigurationServiceClient][persistConfiguration] Failed: "
+- "[ConfigurationServiceClient][persistConfiguration] Started"
+- "[ConfigurationServiceClient][persistConfiguration] Succeeded"
+- "[ConfigurationServiceClient][processConfiguration] Failed to create databases"
+- "[ConfigurationServiceClient][processConfiguration] Failed to persist configuration"
+- "[ConfigurationServiceClient][processConfiguration] Started"
+- "[ConfigurationServiceClient][processConfiguration] Succeeded"
+- "[ConfigurationServiceClient][refreshConfiguration] "
+- "[ConfigurationServiceClient][refreshConfiguration] Started"
+- "[ConfigurationServiceClient][refreshConfiguration] This may only be executed in SId process"
+- "[ConfigurationStoreClient] Getting active model-based workflow by asset identifier"
+- "[ConfigurationStoreClient][getActiveWorkflows] "
+- "[ConfigurationStoreClient][getConfiguration]"
+- "[ConfigurationStoreClient][getConfiguration] Failed: "
+- "[LoggingProvider] Failed to create core profile provider: "
+- "[LoggingProvider] Failed to encode object: "
+- "[LoggingProvider] Field: %@ = %@"
+- "[LoggingProvider][PerformanceTracking] Starting %@ (correlationID: %@), loggingEnabled: %@, originator: %@"
+- "[LoggingProvider][PerformanceTracking] formed enqueue request"
+- "[LoggingProvider][PerformanceTracking] getting start time and memory"
+- "[LoggingProvider][PerformanceTracking] got end time and memory"
+- "[LoggingProvider][PerformanceTracking] in defer code, and the event is "
+- "[LoggingProvider][enqueueLogOperationMetrics]"
+- "[LoggingProvider][logMetrics] Field '%@' not found in schema, omitting"
+- "[LoggingProvider][logMetrics] Field '%@' type mismatch. Expected: %@, got: %@"
+- "[LoggingProvider][logMetrics] No valid fields for event, skipping"
+- "[LoggingProvider][logMetrics] Starting with topic: %@ and %d events"
+- "[LoggingProvider][logMetrics] Unknown type '%@' in schema for field '%@', omitting"
+- "[LoggingProvider][logMetrics] processing event with label: %@ and value: %@"
+- "[LoggingProvider][logMetrics] property without label"
+- "[LoggingProvider][logOperationMetrics] Starting operation metrics request"
+- "[SystemDatabase] System database initialization failed: %@"
+- "[SystemDatabase][getClient] Checking for existing client"
+- "[SystemDatabase][getClient] Creating new system database client"
+- "[SystemDatabase][getClient] Returning existing client"
+- "[SystemDatabase][getClient] System database client initialized successfully"
+- "[TreatmentStoreClient][fetchActiveTreatments]"
+- "[TreatmentStoreClient][fetchActiveTreatments] Fetching for "
+- "[TreatmentStoreClient][refreshTreatments] Error when persisting treatments to on-device storage for "
+- "[TreatmentStoreClient][refreshTreatments] Error when retrieving treatments, error: "
+- "[TreatmentStoreClient][refreshTreatments] Started"
+- "[TreatmentStoreClient][refreshTreatments] This may only be executed in SId process"
+- "[TreatmentStoreClient][retrieveTreatments] Started"
+- "[UseCaseExecutor][cacheResult] Caching not enabled or no cache key"
+- "[UseCaseExecutor][cacheResult] Error during caching: "
+- "[UseCaseExecutor][cacheResult] Failed to cache response"
+- "[UseCaseExecutor][cacheResult] Failed to encode cache wrapper"
+- "[UseCaseExecutor][cacheResult] Failed to encode response for caching"
+- "[UseCaseExecutor][cacheResult] Successfully cached response with TTL: "
+- "[UseCaseExecutor][cleanupExpiredCache] Cleaned up "
+- "[UseCaseExecutor][cleanupExpiredCache] Error during cleanup: "
+- "[UseCaseExecutor][cleanupExpiredCache] No expired entries found"
+- "[UseCaseExecutor][clearCache] Cleaned up "
+- "[UseCaseExecutor][clearCache] Cleared "
+- "[UseCaseExecutor][getCachedData] Cache integrity check failed - data corruption detected"
+- "[UseCaseExecutor][getCachedData] Cache use not allowed or caching not enabled"
+- "[UseCaseExecutor][getCachedData] Error accessing cache: "
+- "[UseCaseExecutor][getCachedData] Failed to decode cached data wrapper"
+- "[UseCaseExecutor][getCachedData] Failed to decode cached response"
+- "[UseCaseExecutor][getCachedData] No cached data found for key: "
+- "[UseCaseExecutor][getCachedData] Successfully retrieved valid cached response"
+- "[UseCaseExecutor][getSession] Creating session"
+- "[UseCaseExecutor][getSession] Getting session for use case "
+- "[UseCaseExecutor][getSession] Missing asset bundle identifier"
+- "[UseCaseExecutor][prewarmWorkflow] Failed to prewarm: "
+- "[UseCaseExecutor][prewarmWorkflow] Rule-based workflow - no prewarming needed"
+- "[UseCaseExecutor][prewarmWorkflow] Skipping prewarm as workflow response will be returned from cache"
+- "[UseCaseExecutor][prewarmWorkflow] Successfully prewarmed model-based workflow"
+- "[UseCaseExecutor][runModelBasedWorkflow] Decoding output data"
+- "[UseCaseExecutor][runModelBasedWorkflow] Encoding input data"
+- "[UseCaseExecutor][runModelBasedWorkflow] Executing one shot request"
+- "[UseCaseExecutor][runModelBasedWorkflow] Execution failed: "
+- "[UseCaseExecutor][runModelBasedWorkflow] Failed to decode output data"
+- "[UseCaseExecutor][runModelBasedWorkflow] Failed to encode input data"
+- "[UseCaseExecutor][runModelBasedWorkflow] No output generated"
+- "[UseCaseExecutor][runModelBasedWorkflow] Successfully executed model-based workflow"
+- "[UseCaseExecutor][runRuleBasedWorkflow] Executing rule-based computation (placeholder)"
+- "[UseCaseExecutor][runRuleBasedWorkflow] Starting rule-based workflow execution"
+- "[UseCaseExecutor][runRuleBasedWorkflow] Successfully executed rule-based workflow"
+- "[UseCaseExecutor][run] Executing model-based workflow"
+- "[UseCaseExecutor][run] Executing rule-based workflow"
+- "[UseCaseExecutor][run] Returning response from cache"
+- "_TtC20ServicesIntelligence10KVDatabase"
+- "_TtC20ServicesIntelligence11SQLDatabase"
+- "_TtC20ServicesIntelligence14SystemDatabase"
+- "_TtC20ServicesIntelligence14VectorDatabase"
+- "_TtC20ServicesIntelligence15LoggingProvider"
+- "_TtC20ServicesIntelligence15UseCaseExecutor"
+- "_TtC20ServicesIntelligence20TreatmentStoreClient"
+- "_TtC20ServicesIntelligence24ConfigurationStoreClient"
+- "_TtC20ServicesIntelligence26ConfigurationServiceClient"
+- "algorithmEndTime"
+- "algorithmMetadata"
+- "algorithmRandomSeed"
+- "algorithmStartTime"
+- "bag"
+- "com.apple.example.model"
+- "com.apple.example.modelbundle"
+- "com.apple.fm.integrity_diagnose.sa_v1.base"
+- "contentGenomeVersion"
+- "contentUntrained"
+- "databaseClientByID"
+- "fitness.fitnessOps"
+- "getActiveWorkflows"
+- "https://amd-infra.itunes.apple.com/infra/ondevice/v"
+- "infra/ondevice.config"
+- "integrityDiagnose"
+- "internal.testEvent"
+- "isOperationLoggingEnabled"
+- "keys_order_desc_by_value"
+- "metrics"
+- "modalityIdentifiers"
+- "modalityPreferences"
+- "od_hybrid_retention_arcade2"
+- "runInference"
+- "storeClient"
+- "test-asset-bundle-identifier"
+- "test-asset-identifier"
+- "test-model-identifier"
+- "testVectorDatabase"
+- "totalDailyDuration"
+- "userOnboardedModalities"
+- "values_order_desc_by_value"
+
+```

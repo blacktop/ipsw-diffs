@@ -1,0 +1,212 @@
+## CommunicationsUI
+
+> `/System/Library/PrivateFrameworks/CommunicationsUI.framework/CommunicationsUI`
+
+```diff
+
+-106.200.67.0.0
+-  __TEXT.__text: 0x1f5334
+-  __TEXT.__auth_stubs: 0x6010
+-  __TEXT.__objc_methlist: 0x1800
+-  __TEXT.__const: 0x17aa4
+-  __TEXT.__cstring: 0x7955
+-  __TEXT.__swift5_typeref: 0x2752a
+-  __TEXT.__swift5_capture: 0x2738
+-  __TEXT.__constg_swiftt: 0x93a8
+-  __TEXT.__swift5_fieldmd: 0x63cc
+-  __TEXT.__swift5_reflstr: 0x684b
++106.200.75.2.1
++  __TEXT.__text: 0x1f21f4
++  __TEXT.__auth_stubs: 0x5ff0
++  __TEXT.__objc_methlist: 0x1870
++  __TEXT.__const: 0x17814
++  __TEXT.__cstring: 0x7a05
++  __TEXT.__swift5_typeref: 0x275c0
++  __TEXT.__swift5_capture: 0x26c8
++  __TEXT.__constg_swiftt: 0x942c
++  __TEXT.__swift5_fieldmd: 0x6360
++  __TEXT.__swift5_reflstr: 0x67eb
+   __TEXT.__swift5_builtin: 0x320
+   __TEXT.__swift5_assocty: 0x18b0
+   __TEXT.__swift5_protos: 0x9c
+-  __TEXT.__swift5_proto: 0x7fc
+-  __TEXT.__swift5_types: 0x71c
+-  __TEXT.__oslogstring: 0xed2
+-  __TEXT.__swift_as_entry: 0xd4
+-  __TEXT.__swift_as_ret: 0xd8
++  __TEXT.__swift5_proto: 0x7e4
++  __TEXT.__swift5_types: 0x714
++  __TEXT.__oslogstring: 0xe52
++  __TEXT.__swift_as_entry: 0xb8
++  __TEXT.__swift_as_ret: 0xc0
+   __TEXT.__swift5_mpenum: 0x100
+-  __TEXT.__unwind_info: 0x72f8
+-  __TEXT.__eh_frame: 0x4bc8
++  __TEXT.__unwind_info: 0x7218
++  __TEXT.__eh_frame: 0x4730
+   __TEXT.__objc_classname: 0x25a
+-  __TEXT.__objc_methname: 0x4f91
++  __TEXT.__objc_methname: 0x4f35
+   __TEXT.__objc_methtype: 0x1067
+-  __DATA_CONST.__got: 0x1aa8
++  __DATA_CONST.__got: 0x1ab0
+   __DATA_CONST.__const: 0xdb0
+-  __DATA_CONST.__objc_classlist: 0x3c8
++  __DATA_CONST.__objc_classlist: 0x3d0
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x178
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1828
++  __DATA_CONST.__objc_selrefs: 0x1818
+   __DATA_CONST.__objc_protorefs: 0xc0
+-  __AUTH_CONST.__auth_got: 0x3008
+-  __AUTH_CONST.__const: 0xe088
+-  __AUTH_CONST.__objc_const: 0xc1c0
+-  __AUTH.__objc_data: 0x3c70
+-  __AUTH.__data: 0x72f8
+-  __DATA.__data: 0x9cd8
+-  __DATA.__bss: 0x10770
+-  __DATA.__common: 0x541
++  __AUTH_CONST.__auth_got: 0x2ff8
++  __AUTH_CONST.__const: 0xdeb8
++  __AUTH_CONST.__objc_const: 0xc2a8
++  __AUTH.__objc_data: 0x3e78
++  __AUTH.__data: 0x72a0
++  __DATA.__data: 0x9cd0
++  __DATA.__bss: 0x10450
++  __DATA.__common: 0x539
+   __DATA_DIRTY.__objc_data: 0x128
+-  __DATA_DIRTY.__data: 0x1a8
++  __DATA_DIRTY.__data: 0x1c8
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2A894D10-B2A8-3E3D-8635-4B2F792DB8AE
+-  Functions: 11367
+-  Symbols:   5453
++  UUID: 8C82E735-370B-3656-A753-AA8EE3125B4B
++  Functions: 11325
++  Symbols:   5466
+   CStrings:  1978
+ 
+Symbols:
++ _OBJC_CLASS_$__TtC16CommunicationsUI11BadgeButton
++ _OBJC_METACLASS_$__TtC16CommunicationsUI11BadgeButton
++ _OBJC_METACLASS_$__TtC16CommunicationsUIP33_C2EB498160C88FB03502E74E1F6CD82514BadgeLabelView
++ _UIFontWeightLight
++ __DATA__TtC16CommunicationsUI11BadgeButton
++ __DATA__TtC16CommunicationsUIP33_C2EB498160C88FB03502E74E1F6CD82514BadgeLabelView
++ __DATA__TtC16CommunicationsUIP33_F523A980D67D5392C4BE3BACC8DCA79221PosterKitCacheClearer
++ __INSTANCE_METHODS__TtC16CommunicationsUI11BadgeButton
++ __INSTANCE_METHODS__TtC16CommunicationsUIP33_C2EB498160C88FB03502E74E1F6CD82514BadgeLabelView
++ __IVARS__TtC16CommunicationsUI11BadgeButton
++ __IVARS__TtC16CommunicationsUIP33_C2EB498160C88FB03502E74E1F6CD82514BadgeLabelView
++ __METACLASS_DATA__TtC16CommunicationsUI11BadgeButton
++ __METACLASS_DATA__TtC16CommunicationsUIP33_C2EB498160C88FB03502E74E1F6CD82514BadgeLabelView
++ __METACLASS_DATA__TtC16CommunicationsUIP33_F523A980D67D5392C4BE3BACC8DCA79221PosterKitCacheClearer
++ __PROPERTIES__TtC16CommunicationsUI11BadgeButton
++ _block_copy_helper.122
++ _block_copy_helper.73
++ _block_copy_helper.98
++ _block_descriptor.100
++ _block_descriptor.124
++ _block_descriptor.75
++ _block_destroy_helper.123
++ _block_destroy_helper.74
++ _block_destroy_helper.99
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA6ZStackVyAA9TupleViewVyAA012_ConditionalD0VyAA14GeometryReaderVyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameO0VGGAA5ColorVG_014CommunicationsB0024CUVideoMessagingURLImageH0V011VideoPlayerH0VSgtGGGAA25_AppearanceActionModifierVGAA0H0HPA6_AAA10_HPA5_AAA10_HPyHC_HC_A8_AA0hZ0HPyHCHC.116
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA7SectionVyAA9EmptyViewVAA05TupleG0Vy014CommunicationsB0018BlockUnblockReportG0V0l15InitiatorActionG033_E11BA954BCFF6B2C1FE839A92C4FB984LLVSg_AL0jknG0ANLLVSgtGAGGAA011_AppearanceN8ModifierVGAA0G0HPAuaYHPAgaYHPyHC_AtaYHPyHCAgaYHPyHCHC_AwA0gY0HPyHCHC.7
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA8StaticIfVyAA8SolariumVAA21_GlassEffectContainerVyAA6ZStackVyACyAA14GeometryReaderVyAA9TupleViewVy014CommunicationsB004BackO0V_AP05FrontO0VtGGAA30_EnvironmentKeyWritingModifierVyAA15LayoutDirectionOGGGGA1_GAA06_FrameW0VGAA0O0HPA3_AAA7_HPAgA0O14InputPredicateHPyHC_A2_AAA7_HPyHCA1_AAA7_HPyHCHC_A5_AA0oV0HPyHCHC.17
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQOyAA15ModifiedContentVyAJyAJyAJyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameN0VGAA09_PositionN0VGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_014CommunicationsB0010BackCircleH0VQo_HO.74
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQOyAA15ModifiedContentVyAJyAJyAJyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameN0VGAA09_PositionN0VGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_014CommunicationsB0011FrontCircleH0VQo_HO.73
++ _keypath_set.66Tm
++ _objectdestroy.50Tm
++ _objectdestroy.84Tm
++ _symbolic _____ 16CommunicationsUI11BadgeButtonC
++ _symbolic _____ 16CommunicationsUI14BadgeLabelView33_C2EB498160C88FB03502E74E1F6CD825LLC
++ _symbolic _____ 16CommunicationsUI21PosterKitCacheClearer33_F523A980D67D5392C4BE3BACC8DCA792LLC
++ _symbolic _____ 7SwiftUI15LayoutDirectionO
++ _symbolic _____Sg 16CommunicationsUI14BadgeLabelView33_C2EB498160C88FB03502E74E1F6CD825LLC
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA15LayoutDirectionO
++ _symbolic _____y___________y_____y_____y___________tGG_____y_____GGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA15ModifiedContentV AA14GeometryReaderV AA05TupleD0V 014CommunicationsB004BackD0V AN05FrontD0V AA30_EnvironmentKeyWritingModifierV AA0G9DirectionO
++ _symbolic _____y__________y_____y_____y_____y_____y___________tGG_____y_____GGGGAPG 7SwiftUI8StaticIfV AA8SolariumV AA21_GlassEffectContainerV AA6ZStackV AA15ModifiedContentV AA14GeometryReaderV AA9TupleViewV 014CommunicationsB004BackO0V AP05FrontO0V AA30_EnvironmentKeyWritingModifierV AA15LayoutDirectionO
++ _symbolic _____y_____y__________y_____Sg______SgtGACG_____G 7SwiftUI15ModifiedContentV AA7SectionV AA9EmptyViewV AA05TupleG0V 014CommunicationsB0018BlockUnblockReportG0V0l15InitiatorActionG033_E11BA954BCFF6B2C1FE839A92C4FB984LLV AL0jknG0ANLLV AA011_AppearanceN8ModifierV
++ _symbolic _____y_____y__________y_____yAAy_____y_____y___________tGG_____y_____GGGGAPG_____G 7SwiftUI15ModifiedContentV AA8StaticIfV AA8SolariumV AA21_GlassEffectContainerV AA6ZStackV AA14GeometryReaderV AA9TupleViewV 014CommunicationsB004BackO0V AP05FrontO0V AA30_EnvironmentKeyWritingModifierV AA15LayoutDirectionO AA06_FrameW0V
++ _symbolic _____y_____y_____y___________tGG_____y_____GG 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA9TupleViewV 014CommunicationsB004BackH0V AH05FrontH0V AA30_EnvironmentKeyWritingModifierV AA15LayoutDirectionO
++ _symbolic _____y_____y_____y_____y___________tGG_____y_____GGG 7SwiftUI6ZStackV AA15ModifiedContentV AA14GeometryReaderV AA9TupleViewV 014CommunicationsB004BackI0V AJ05FrontI0V AA30_EnvironmentKeyWritingModifierV AA15LayoutDirectionO
++ _symbolic _____y_____y_____y_____y_____y___________tGG_____y_____GGGG 7SwiftUI21_GlassEffectContainerV AA6ZStackV AA15ModifiedContentV AA14GeometryReaderV AA9TupleViewV 014CommunicationsB004BackL0V AL05FrontL0V AA30_EnvironmentKeyWritingModifierV AA15LayoutDirectionO
+- _CGRectMake
+- __DATA__TtC16CommunicationsUI28UnknownContactSnapshotHelper
+- __DATA__TtC16CommunicationsUIP33_ACC86940F95F6ABFB211952D2BD0068B21PosterKitCacheClearer
+- __IVARS__TtC16CommunicationsUI28UnknownContactSnapshotHelper
+- __METACLASS_DATA__TtC16CommunicationsUI28UnknownContactSnapshotHelper
+- __METACLASS_DATA__TtC16CommunicationsUIP33_ACC86940F95F6ABFB211952D2BD0068B21PosterKitCacheClearer
+- ___swift_memcpy81_8
+- _associated conformance 16CommunicationsUI19PosterSnapshotErrorOSHAASQ
+- _associated conformance 16CommunicationsUI28UnknownContactSnapshotHelperC0cD11PosterErrorOSHAASQ
+- _block_copy_helper.10
+- _block_copy_helper.70
+- _block_descriptor.12
+- _block_descriptor.72
+- _block_destroy_helper.11
+- _block_destroy_helper.71
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA6ZStackVyAA9TupleViewVyAA012_ConditionalD0VyAA14GeometryReaderVyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameO0VGGAA5ColorVG_014CommunicationsB0024CUVideoMessagingURLImageH0V011VideoPlayerH0VSgtGGGAA25_AppearanceActionModifierVGAA0H0HPA6_AAA10_HPA5_AAA10_HPyHC_HC_A8_AA0hZ0HPyHCHC.113
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA8StaticIfVyAA8SolariumVAA21_GlassEffectContainerVyAA6ZStackVyAA14GeometryReaderVyAA9TupleViewVy014CommunicationsB004BackO0V_AP05FrontO0VtGGGGAWGAA12_FrameLayoutVGAA0O0HPAyAA1_HPAgA0O14InputPredicateHPyHC_AxAA1_HPyHCAwAA1_HPyHCHC_A_AA0O8ModifierHPyHCHC.17
+- _get_witness_table 7SwiftUI7SectionVyAA9EmptyViewVAA05TupleE0Vy014CommunicationsB0018BlockUnblockReportE0V0j15InitiatorActionE033_E11BA954BCFF6B2C1FE839A92C4FB984LLVSg_AJ0hilE0ALLLVSgtGAEGAA0E0HPAeaTHPyHC_AraTHPyHCAeaTHPyHCHC.7
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQOyAA15ModifiedContentVyAJyAJyAJyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameN0VGAA09_PositionN0VGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_014CommunicationsB0010BackCircleH0VQo_HO.70
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQOyAA15ModifiedContentVyAJyAJyAJyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameN0VGAA09_PositionN0VGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_014CommunicationsB0011FrontCircleH0VQo_HO.69
+- _keypath_set.61Tm
+- _objectdestroy.45Tm
+- _objectdestroy.79Tm
+- _symbolic _____ 16CommunicationsUI19PosterSnapshotErrorO
+- _symbolic _____ 16CommunicationsUI20PosterSnapshotHelperV
+- _symbolic _____ 16CommunicationsUI20PosterSnapshotHelperV09CUIPosterD13SpecificationV
+- _symbolic _____ 16CommunicationsUI21PosterKitCacheClearer33_ACC86940F95F6ABFB211952D2BD0068BLLC
+- _symbolic _____ 16CommunicationsUI28UnknownContactSnapshotHelperC
+- _symbolic _____ 16CommunicationsUI28UnknownContactSnapshotHelperC0cD11PosterErrorO
+- _symbolic _____SgXw 16CommunicationsUI28UnknownContactSnapshotHelperC
+- _symbolic _____SgXwz_Xx 16CommunicationsUI28UnknownContactSnapshotHelperC
+- _symbolic _____ySo7UIImageCSgG 7Combine9PublishedV
+- _symbolic _____ySo7UIImageCSg_G 7Combine9PublishedV9PublisherV
+- _symbolic _____y__________y_____y_____y_____y___________tGGGGAKG 7SwiftUI8StaticIfV AA8SolariumV AA21_GlassEffectContainerV AA6ZStackV AA14GeometryReaderV AA9TupleViewV 014CommunicationsB004BackM0V AN05FrontM0V
+- _symbolic _____y_____y__________y_____y_____y_____y___________tGGGGALG_____G 7SwiftUI15ModifiedContentV AA8StaticIfV AA8SolariumV AA21_GlassEffectContainerV AA6ZStackV AA14GeometryReaderV AA9TupleViewV 014CommunicationsB004BackO0V AP05FrontO0V AA12_FrameLayoutV
+- _symbolic _____y_____y_____y___________tGGG 7SwiftUI6ZStackV AA14GeometryReaderV AA9TupleViewV 014CommunicationsB004BackG0V AH05FrontG0V
+- _symbolic _____y_____y_____y_____y___________tGGGG 7SwiftUI21_GlassEffectContainerV AA6ZStackV AA14GeometryReaderV AA9TupleViewV 014CommunicationsB004BackJ0V AJ05FrontJ0V
+- _type_layout_string 16CommunicationsUI20PosterSnapshotHelperV09CUIPosterD13SpecificationV
+CStrings:
++ "$__lazy_storage_$_badgeView"
++ "$__lazy_storage_$_buttonConfiguration"
++ "$__lazy_storage_$_defaultConfig"
++ "$__lazy_storage_$_label"
++ "CommunicationsUI.BadgeButton"
++ "CommunicationsUI/BadgeButton.swift"
++ "_TtC16CommunicationsUI11BadgeButton"
++ "_TtC16CommunicationsUIP33_C2EB498160C88FB03502E74E1F6CD82514BadgeLabelView"
++ "_TtC16CommunicationsUIP33_F523A980D67D5392C4BE3BACC8DCA79221PosterKitCacheClearer"
++ "badgeCount"
++ "configurationWithScale:"
++ "iconName"
++ "setAdjustsFontSizeToFitWidth:"
++ "setMinimumScaleFactor:"
++ "userInterfaceStyle"
+- "Failed to clean old versions: %@"
+- "Failed to save snapshot to disk: %@"
+- "Removed old cache version: %s"
+- "URLsForDirectory:inDomains:"
+- "_TtC16CommunicationsUI28UnknownContactSnapshotHelper"
+- "_TtC16CommunicationsUIP33_ACC86940F95F6ABFB211952D2BD0068B21PosterKitCacheClearer"
+- "_snapshot"
+- "_unknownSnapshotSubscription"
+- "com.apple.CommunicationsUI.UnknownContactSnapshotHelper"
+- "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:"
+- "mainBundle"
+- "setCanvasBounds:"
+- "setSalientContentRectangle:"
+- "tertiarySystemGroupedBackgroundColor"
+- "unknown-contact-snapshot-v"
+
+```
