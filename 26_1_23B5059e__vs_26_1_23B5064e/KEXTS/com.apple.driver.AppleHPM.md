@@ -31,7 +31,7 @@
 +  CStrings:  1664
  
 Functions:
-+ sub_fffffff009596194
++ sub_fffffe000958ead4
 CStrings:
 + "AppleHPMLDCM::disableOVPInterrupt - disabling ldcm ovp error\n"
 

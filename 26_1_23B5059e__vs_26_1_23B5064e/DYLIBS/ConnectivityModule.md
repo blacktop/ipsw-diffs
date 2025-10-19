@@ -42,8 +42,8 @@
 +  CStrings:  686
  
 Functions:
-~ sub_29b817c00 -> sub_29b47ac00 : 352 -> 340
-~ sub_29b817f08 -> sub_29b47aefc : 976 -> 996
+~ sub_29b7cfc00 -> sub_29b43ac00 : 352 -> 340
+~ sub_29b7cff08 -> sub_29b43aefc : 976 -> 996
 CStrings:
 + "center"
 + "setBounds:"

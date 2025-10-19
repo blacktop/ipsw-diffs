@@ -24,7 +24,7 @@
    Symbols:   0
    CStrings:  385
 Functions:
-~ sub_fffffff009c0e544 -> sub_fffffff009c11ca4 : 504 -> 676
-~ sub_fffffff009c13324 -> sub_fffffff009c16b30 : 264 -> 288
+~ sub_fffffe0009c192e4 -> sub_fffffe0009c20a84 : 504 -> 676
+~ sub_fffffe0009c1e0c4 -> sub_fffffe0009c25910 : 264 -> 288
 
 ```

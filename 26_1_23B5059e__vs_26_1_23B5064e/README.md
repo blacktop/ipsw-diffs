@@ -2,8 +2,8 @@
 
 ## IPSWs
 
-- `iPhone17,1_26.1_23B5059e_Restore.ipsw`
-- `iPhone17,1_26.1_23B5064e_Restore.ipsw`
+- `iPhone18,1_26.1_23B5059e_Restore.ipsw`
+- `iPhone18,1_26.1_23B5064e_Restore.ipsw`
 
 ## Kernel
 
@@ -11,29 +11,30 @@
 
 | iOS | Version | Build | Date |
 | :-- | :------ | :---- | :--- |
-| 26.1 *(23B5059e)* | 25.1.0 | 12377.40.103.502.2~2 | Wed, 01Oct2025 21:32:04 PDT |
-| 26.1 *(23B5064e)* | 25.1.0 | 12377.40.120.502.1~2 | Wed, 08Oct2025 22:54:04 PDT |
+| 26.1 *(23B5059e)* | 25.1.0 | 12377.40.103.502.2~2 | Wed, 01Oct2025 21:35:00 PDT |
+| 26.1 *(23B5064e)* | 25.1.0 | 12377.40.120.502.1~2 | Wed, 08Oct2025 22:49:46 PDT |
 
 ### Kexts
 
-### ⬆️ Updated (22)
+### ⬆️ Updated (23)
 
 <details>
   <summary><i>View Updated</i></summary>
 
-- [com.apple.AGXG17P](KEXTS/com.apple.AGXG17P.md)
+- [com.apple.AGXG18P](KEXTS/com.apple.AGXG18P.md)
 - [com.apple.EXBrightKext](KEXTS/com.apple.EXBrightKext.md)
 - [com.apple.driver.AppleH16ANEInterface](KEXTS/com.apple.driver.AppleH16ANEInterface.md)
 - [com.apple.driver.AppleHPM](KEXTS/com.apple.driver.AppleHPM.md)
 - [com.apple.driver.AppleM2ScalerCSCDriver](KEXTS/com.apple.driver.AppleM2ScalerCSCDriver.md)
-- [com.apple.driver.AppleMobileDispH17P-DCP](KEXTS/com.apple.driver.AppleMobileDispH17P-DCP.md)
+- [com.apple.driver.AppleMobileDispH18P-DCP](KEXTS/com.apple.driver.AppleMobileDispH18P-DCP.md)
 - [com.apple.driver.AppleMobileFileIntegrity](KEXTS/com.apple.driver.AppleMobileFileIntegrity.md)
 - [com.apple.driver.AppleProcessorTrace](KEXTS/com.apple.driver.AppleProcessorTrace.md)
 - [com.apple.driver.AppleSEPHDCPManager](KEXTS/com.apple.driver.AppleSEPHDCPManager.md)
 - [com.apple.driver.AppleSEPKeyStore](KEXTS/com.apple.driver.AppleSEPKeyStore.md)
 - [com.apple.driver.AppleSMCWirelessCharger](KEXTS/com.apple.driver.AppleSMCWirelessCharger.md)
-- [com.apple.driver.AppleT8140CLPC](KEXTS/com.apple.driver.AppleT8140CLPC.md)
+- [com.apple.driver.AppleT8150CLPC](KEXTS/com.apple.driver.AppleT8150CLPC.md)
 - [com.apple.driver.AppleThunderboltUSBUpAdapter](KEXTS/com.apple.driver.AppleThunderboltUSBUpAdapter.md)
+- [com.apple.driver.AudioDMACLLTEscalationDetector-T8150](KEXTS/com.apple.driver.AudioDMACLLTEscalationDetector-T8150.md)
 - [com.apple.driver.IOPAudioVoiceTriggerDevice](KEXTS/com.apple.driver.IOPAudioVoiceTriggerDevice.md)
 - [com.apple.filesystems.apfs](KEXTS/com.apple.filesystems.apfs.md)
 - [com.apple.filesystems.hfs.kext](KEXTS/com.apple.filesystems.hfs.kext.md)
@@ -46,6 +47,10 @@
 
 </details>
 
+### KDKs
+
+- [KDK DIFF](KDK.md)
+
 ## MachO
 
 ### 🆕 NEW (4)
@@ -55,30 +60,11 @@
 - `/System/Library/ExtensionKit/Extensions/ADAskForExceptionExtension.appex/ADAskForExceptionExtension`
 - `/System/Library/PrivateFrameworks/AskPermission.framework/Support/askpermissiond`
 
-### ❌ Removed (20)
+### ❌ Removed (1)
 
-- `/System/Library/ExtensionKit/Extensions/GPUExtension.appex/com.apple.WebKit.GPU`
-- `/System/Library/ExtensionKit/Extensions/NetworkingExtension.appex/com.apple.WebKit.Networking`
-- `/System/Library/ExtensionKit/Extensions/WebContentCaptivePortalExtension.appex/com.apple.WebKit.WebContent.CaptivePortal`
-- `/System/Library/ExtensionKit/Extensions/WebContentExtension.appex/com.apple.WebKit.WebContent`
-- `/System/Library/Frameworks/SafariServices.framework/PlugIns/SafariServices.wkbundle/SafariServices`
-- `/System/Library/Frameworks/SafariServices.framework/XPCServices/com.apple.SafariServices.ContentBlockerLoader.xpc/com.apple.SafariServices.ContentBlockerLoader`
-- `/System/Library/Frameworks/WebKit.framework/Daemons/adattributiond`
-- `/System/Library/PrivateFrameworks/DeviceRecoveryBrainSupport.framework/DeviceRecoveryBrainSupport`
-- `/System/Library/PrivateFrameworks/MobileSafari.framework/XPCServices/BrowsingDataImport.xpc/BrowsingDataImport`
-- `/System/Library/PrivateFrameworks/PlugInKitDaemon.framework/PlugInKitDaemon`
-- `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/AutoFillHelper.xpc/AutoFillHelper`
-- `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/CredentialProviderExtensionHelper.xpc/CredentialProviderExtensionHelper`
-- `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/SafariConfigurationSubscriber.xpc/SafariConfigurationSubscriber`
-- `/System/Library/PrivateFrameworks/SafariShared.framework/XPCServices/com.apple.Safari.CredentialExtractionHelper.xpc/com.apple.Safari.CredentialExtractionHelper`
-- `/System/Library/PrivateFrameworks/SafariShared.framework/XPCServices/com.apple.Safari.SearchHelper.xpc/com.apple.Safari.SearchHelper`
-- `/System/Library/PrivateFrameworks/VisualTestKit.framework/VisualTestKit`
-- `/usr/lib/libLogRedirect.dylib`
-- `/usr/lib/libMTLHud.dylib`
-- `/usr/lib/libffi-trampolines.dylib`
 - `/usr/libexec/otter`
 
-### ⬆️ Updated (334)
+### ⬆️ Updated (342)
 
 <details>
   <summary><i>View Updated</i></summary>
@@ -87,6 +73,7 @@
 - [/Applications/AccessorySetupUI.app/AccessorySetupUI](MACHOS/AccessorySetupUI.md)
 - [/Applications/AppDistributionLaunchAngel.app/AppDistributionLaunchAngel](MACHOS/AppDistributionLaunchAngel.md)
 - [/Applications/AuthenticationServicesUI.app/AuthenticationServicesUI](MACHOS/AuthenticationServicesUI.md)
+- [/Applications/CinematicFramingOnboardingUI.app/CinematicFramingOnboardingUI](MACHOS/CinematicFramingOnboardingUI.md)
 - [/Applications/ClarityCamera.app/ClarityCamera](MACHOS/ClarityCamera.md)
 - [/Applications/ClarityPhotos.app/ClarityPhotos](MACHOS/ClarityPhotos.md)
 - [/Applications/Climate.app/Climate](MACHOS/Climate.md)
@@ -173,8 +160,6 @@
 - [/System/Library/Frameworks/CallKit.framework/XPCServices/com.apple.CallKit.CallDirectoryMaintenance.xpc/com.apple.CallKit.CallDirectoryMaintenance](MACHOS/com.apple.CallKit.CallDirectoryMaintenance.md)
 - [/System/Library/Frameworks/Contacts.framework/Support/contactsd](MACHOS/contactsd.md)
 - [/System/Library/Frameworks/ContactsUI.framework/PlugIns/MonogramPosterExtension.appex/MonogramPosterExtension](MACHOS/MonogramPosterExtension.md)
-- [/System/Library/Frameworks/CoreImage.framework/photo_style_archive_bin.metallib](MACHOS/photo_style_archive_bin.metallib.md)
-- [/System/Library/Frameworks/CoreImage.framework/redeye_repair_archive_bin.metallib](MACHOS/redeye_repair_archive_bin.metallib.md)
 - [/System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlightService](MACHOS/CoreSpotlightService.md)
 - [/System/Library/Frameworks/CoreTelephony.framework/Support/CommCenterMobileHelper](MACHOS/CommCenterMobileHelper.md)
 - [/System/Library/Frameworks/ManagedAppDistribution.framework/Support/managedappdistributiond](MACHOS/managedappdistributiond.md)
@@ -209,6 +194,8 @@
 - [/System/Library/PreferenceBundles/PrivacyAndSecuritySettings.bundle/PrivacyAndSecuritySettings](MACHOS/PrivacyAndSecuritySettings.md)
 - [/System/Library/PreferenceManifestsInternal/PreferencesManifests.bundle/PreferencesManifests](MACHOS/PreferencesManifests.md)
 - [/System/Library/PreferencesSyncBundles/ScreenTimePreferencesSyncCompanion.bundle/ScreenTimePreferencesSyncCompanion](MACHOS/ScreenTimePreferencesSyncCompanion.md)
+- [/System/Library/PrivateFrameworks/ACTFramework.framework/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
+- [/System/Library/PrivateFrameworks/ACTFramework.framework/binaryArchive.g18p_a0](MACHOS/binaryArchive.g18p_a0.md)
 - [/System/Library/PrivateFrameworks/ActionPredictionHeuristics.framework/XPCServices/HeuristicInterpreter.xpc/HeuristicInterpreter](MACHOS/HeuristicInterpreter.md)
 - [/System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstored](MACHOS/appstored.md)
 - [/System/Library/PrivateFrameworks/AppleMediaServices.framework/PlugIns/AMSFollowUpExtension.appex/AMSFollowUpExtension](MACHOS/AMSFollowUpExtension.md)
@@ -216,9 +203,9 @@
 - [/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd](MACHOS/amsengagementd.md)
 - [/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd](MACHOS/assistantd.md)
 - [/System/Library/PrivateFrameworks/AuthKit.framework/akd](MACHOS/akd.md)
-- [/System/Library/PrivateFrameworks/CMCapture.framework/BWVideoPIPOverlayNodeCoreImageArchive_bin.metallib](MACHOS/BWVideoPIPOverlayNodeCoreImageArchive_bin.metallib.md)
 - [/System/Library/PrivateFrameworks/CMCapture.framework/PlugIns/CMCaptureDiagnosticExtension.appex/CMCaptureDiagnosticExtension](MACHOS/CMCaptureDiagnosticExtension.md)
 - [/System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistorySyncHelper](MACHOS/CallHistorySyncHelper.md)
+- [/System/Library/PrivateFrameworks/CameraColorProcessing.framework/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
 - [/System/Library/PrivateFrameworks/ChatKit.framework/companionmessagesd](MACHOS/companionmessagesd.md)
 - [/System/Library/PrivateFrameworks/CommunicationTrust.framework/Support/communicationtrustd](MACHOS/communicationtrustd.md)
 - [/System/Library/PrivateFrameworks/CompanionCamera.framework/Support/companioncamerad](MACHOS/companioncamerad.md)
@@ -231,6 +218,7 @@
 - [/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/DesktopServicesHelper](MACHOS/DesktopServicesHelper.md)
 - [/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/XPCServices/ArchiveService.xpc/ArchiveService](MACHOS/ArchiveService.md)
 - [/System/Library/PrivateFrameworks/DeviceRecovery.framework/Support/devicerecoveryd](MACHOS/devicerecoveryd.md)
+- [/System/Library/PrivateFrameworks/DeviceRecoveryBrainSupport.framework/DeviceRecoveryBrainSupport](MACHOS/DeviceRecoveryBrainSupport.md)
 - [/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/ScreenTimeDiagnosticExtension.appex/ScreenTimeDiagnosticExtension](MACHOS/ScreenTimeDiagnosticExtension.md)
 - [/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/ShortcutsDiagnosticExtension.appex/ShortcutsDiagnosticExtension](MACHOS/ShortcutsDiagnosticExtension.md)
 - [/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/com.apple.DiagnosticExtensions.sysdiagnose.appex/com.apple.DiagnosticExtensions.sysdiagnose](MACHOS/com.apple.DiagnosticExtensions.sysdiagnose.md)
@@ -248,7 +236,6 @@
 - [/System/Library/PrivateFrameworks/IDSFoundation.framework/IDSCredentialsAgent.app/IDSCredentialsAgent](MACHOS/IDSCredentialsAgent.md)
 - [/System/Library/PrivateFrameworks/IDSFoundation.framework/IDSRemoteURLConnectionAgent.app/IDSRemoteURLConnectionAgent](MACHOS/IDSRemoteURLConnectionAgent.md)
 - [/System/Library/PrivateFrameworks/IMCore.framework/imagent.app/imagent](MACHOS/imagent.md)
-- [/System/Library/PrivateFrameworks/IconRendering.framework/binary.metallib](MACHOS/binary.metallib.md)
 - [/System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/intelligenceplatformd](MACHOS/intelligenceplatformd.md)
 - [/System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/knowledgeconstructiond](MACHOS/knowledgeconstructiond.md)
 - [/System/Library/PrivateFrameworks/JetCore.framework/Support/jetpackassetd](MACHOS/jetpackassetd.md)
@@ -271,7 +258,7 @@
 - [/System/Library/PrivateFrameworks/NeighborhoodActivityConduit.framework/XPCServices/com.apple.NeighborhoodActivityConduitService.xpc/com.apple.NeighborhoodActivityConduitService](MACHOS/com.apple.NeighborhoodActivityConduitService.md)
 - [/System/Library/PrivateFrameworks/NewDeviceOutreach.framework/ndoagent](MACHOS/ndoagent.md)
 - [/System/Library/PrivateFrameworks/PassKitCore.framework/passd](MACHOS/passd.md)
-- [/System/Library/PrivateFrameworks/Portrait.framework/binaryArchive.g17p](MACHOS/binaryArchive.g17p.md)
+- [/System/Library/PrivateFrameworks/Portrait.framework/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
 - [/System/Library/PrivateFrameworks/PrintKit.framework/XPCServices/com.apple.printactivityservice.xpc/com.apple.printactivityservice](MACHOS/com.apple.printactivityservice.md)
 - [/System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Helpers/ProtectedCloudKeySyncing](MACHOS/ProtectedCloudKeySyncing.md)
 - [/System/Library/PrivateFrameworks/RenderBox.framework/archive.metallib](MACHOS/archive.metallib.md)
@@ -294,21 +281,27 @@
 - [/System/Library/UserNotifications/Bundles/com.apple.Siri.ActionPredictionNotifications.bundle/com.apple.Siri.ActionPredictionNotifications](MACHOS/com.apple.Siri.ActionPredictionNotifications.md)
 - [/System/Library/Video/Plug-Ins/AppleVideoEncoder.bundle/AppleVideoEncoder](MACHOS/AppleVideoEncoder.md)
 - [/System/Library/VideoProcessors/ColourConstancyV1.bundle/ColourConstancyV1](MACHOS/ColourConstancyV1.md)
-- [/System/Library/VideoProcessors/ColourConstancyV1.bundle/binaryArchive.g17p](MACHOS/binaryArchive.g17p.md)
-- [/System/Library/VideoProcessors/DepthProcessorV2.bundle/binaryArchive.g17p](MACHOS/binaryArchive.g17p.md)
-- [/System/Library/VideoProcessors/MetalFilter.bundle/binaryArchive.g17p](MACHOS/binaryArchive.g17p.md)
-- [/System/Library/VideoProcessors/NRFV4.bundle/binaryArchive.g17p](MACHOS/binaryArchive.g17p.md)
+- [/System/Library/VideoProcessors/ColourConstancyV1.bundle/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
+- [/System/Library/VideoProcessors/ColourConstancyV1.bundle/binaryArchive.g18p_a0](MACHOS/binaryArchive.g18p_a0.md)
+- [/System/Library/VideoProcessors/DepthProcessorV2.bundle/binaryArchive.g18p_a0](MACHOS/binaryArchive.g18p_a0.md)
+- [/System/Library/VideoProcessors/IntelligentDistortionCorrectionV1.bundle/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
+- [/System/Library/VideoProcessors/IntelligentDistortionCorrectionV1.bundle/binaryArchive.g18p_a0](MACHOS/binaryArchive.g18p_a0.md)
+- [/System/Library/VideoProcessors/MetalFilter.bundle/binaryArchive.g18p_a0](MACHOS/binaryArchive.g18p_a0.md)
+- [/System/Library/VideoProcessors/NRFV4.bundle/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
+- [/System/Library/VideoProcessors/NRFV4.bundle/binaryArchive.g18p_a0](MACHOS/binaryArchive.g18p_a0.md)
 - [/System/Library/VideoProcessors/RTSCV1.bundle/RTSCV1](MACHOS/RTSCV1.md)
-- [/System/Library/VideoProcessors/STF.bundle/binaryArchive.g17p](MACHOS/binaryArchive.g17p.md)
+- [/System/Library/VideoProcessors/STF.bundle/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
 - [/System/Library/VideoProcessors/SemanticStyleV1.bundle/SemanticStyleV1](MACHOS/SemanticStyleV1.md)
 - [/System/Library/VideoProcessors/SmartStyleV1.bundle/SmartStyleV1](MACHOS/SmartStyleV1.md)
 - [/System/Library/VideoProcessors/SuperResolutionV2.bundle/SuperResolutionV2](MACHOS/SuperResolutionV2.md)
+- [/System/Library/VideoProcessors/SuperResolutionV2.bundle/binaryArchive.g18p_a0](MACHOS/binaryArchive.g18p_a0.md)
 - [/System/Library/VideoProcessors/VideoDeghostingV1.bundle/VideoDeghostingV1](MACHOS/VideoDeghostingV1.md)
-- [/System/Library/VideoProcessors/VideoDeghostingV1.bundle/binaryArchive.g17p](MACHOS/binaryArchive.g17p.md)
+- [/System/Library/VideoProcessors/VideoDeghostingV1.bundle/binaryArchive.g18p_a0](MACHOS/binaryArchive.g18p_a0.md)
 - [/System/Library/VideoProcessors/VideoDeghostingV2.bundle/VideoDeghostingV2](MACHOS/VideoDeghostingV2.md)
 - [/System/Library/VideoProcessors/VideoDeghostingV3.bundle/VideoDeghostingV3](MACHOS/VideoDeghostingV3.md)
 - [/System/Library/VideoProcessors/VideoStabilizationV2.bundle/VideoStabilizationV2](MACHOS/VideoStabilizationV2.md)
-- [/System/Library/VideoProcessors/VideoStabilizationV2.bundle/binaryArchive.g17p](MACHOS/binaryArchive.g17p.md)
+- [/System/Library/VideoProcessors/VideoStabilizationV2.bundle/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
+- [/System/Library/VideoProcessors/VideoStabilizationV2.bundle/binaryArchive.g18p_a0](MACHOS/binaryArchive.g18p_a0.md)
 - [/private/var/staged_system_apps/AppStore.app/AppStore](MACHOS/AppStore.md)
 - [/private/var/staged_system_apps/AppleTV.app/AppleTV](MACHOS/AppleTV.md)
 - [/private/var/staged_system_apps/AppleVisionProApp.app/AppleVisionProApp](MACHOS/AppleVisionProApp.md)
@@ -351,6 +344,7 @@
 - [/sbin/mount](MACHOS/mount.md)
 - [/usr/bin/modelcatalogdump](MACHOS/modelcatalogdump.md)
 - [/usr/bin/sysdiagnose](MACHOS/sysdiagnose.md)
+- [/usr/lib/libmobileassetd.dylib](MACHOS/libmobileassetd.dylib.md)
 - [/usr/libexec/AuthenticationServicesAgent](MACHOS/AuthenticationServicesAgent.md)
 - [/usr/libexec/addressbooksyncd](MACHOS/addressbooksyncd.md)
 - [/usr/libexec/anomalydetectiond](MACHOS/anomalydetectiond.md)
@@ -426,10 +420,133 @@
 
 ## Firmware
 
-### ⬆️ Updated (4)
+### ⬆️ Updated (8)
 
 <details>
   <summary><i>View Updated</i></summary>
+
+#### agx_a000
+
+>  `agx_a000`
+
+```diff
+
+   __TEXT.__gxf_code_pad: 0x0
+   __TEXT.__gxf_shr_code: 0x55c
+   __TEXT.__const: 0xf9b
+-  __TEXT.__cstring: 0x210c
++  __TEXT.__cstring: 0x212e
+   __TEXT._rtk_patchbay: 0x231
+   __TEXT._rtk_tunables: 0x6a0
+   __TEXT.__init_offsets: 0x0
+
+   __DATA.__gxf_data: 0x80b8
+   __DATA.__data: 0x16bd0
+   __DATA.__mod_init_func: 0x8
+-  __DATA.__const: 0x4e8
++  __DATA.__const: 0x4f8
+   __DATA._rtk_init_stack: 0x4000
+   __DATA._rtk_irq_stack: 0x4000
+   __DATA._rtk_exc_stack: 0x4000
+
+   __DATA._rtk_threads: 0x0
+   __DATA.__constructor: 0x0
+   __DATA.__zerofill: 0x592d8
+-  UUID: 32E7C73E-A699-325A-9B85-8ECD526BE397
++  UUID: 19F2657E-2593-3BCC-BC91-0393ACEE67C9
+   Functions: 391
+   Symbols:   171
+-  CStrings:  219
++  CStrings:  220
+ 
+CStrings:
++ "Oct  8 2025 22:40:07"
++ "kAGFIPIORegionTypeMTRPMSRegisters"
+- "Oct  1 2025 21:20:06"
+
+```
+
+#### agx_a010
+
+>  `agx_a010`
+
+```diff
+
+   __TEXT.__gxf_code_pad: 0x0
+   __TEXT.__gxf_shr_code: 0x55c
+   __TEXT.__const: 0xf9b
+-  __TEXT.__cstring: 0x21c2
++  __TEXT.__cstring: 0x21e4
+   __TEXT._rtk_patchbay: 0x231
+   __TEXT._rtk_tunables: 0x6a0
+   __TEXT.__init_offsets: 0x0
+
+   __DATA.__gxf_data: 0x80b8
+   __DATA.__data: 0x16bd0
+   __DATA.__mod_init_func: 0x8
+-  __DATA.__const: 0x4e8
++  __DATA.__const: 0x4f8
+   __DATA._rtk_init_stack: 0x4000
+   __DATA._rtk_irq_stack: 0x4000
+   __DATA._rtk_exc_stack: 0x4000
+
+   __DATA._rtk_threads: 0x0
+   __DATA.__constructor: 0x0
+   __DATA.__zerofill: 0x592d8
+-  UUID: C855463A-A23E-364E-ABB2-093397F8A952
++  UUID: 3211AE82-E0CB-34CB-ACBD-E8DDDBB7FD00
+   Functions: 390
+   Symbols:   171
+-  CStrings:  221
++  CStrings:  222
+ 
+CStrings:
++ "Oct  8 2025 22:45:55"
++ "kAGFIPIORegionTypeMTRPMSRegisters"
+- "Oct  1 2025 21:26:24"
+
+```
+
+#### agx_b000
+
+>  `agx_b000`
+
+```diff
+
+   __TEXT.__gxf_code_pad: 0x0
+   __TEXT.__gxf_shr_code: 0x55c
+   __TEXT.__const: 0xf9b
+-  __TEXT.__cstring: 0x21c2
++  __TEXT.__cstring: 0x21e4
+   __TEXT._rtk_patchbay: 0x231
+   __TEXT._rtk_tunables: 0x6a0
+   __TEXT.__init_offsets: 0x0
+
+   __DATA.__gxf_data: 0x80b8
+   __DATA.__data: 0x16bd0
+   __DATA.__mod_init_func: 0x8
+-  __DATA.__const: 0x4e8
++  __DATA.__const: 0x4f8
+   __DATA._rtk_init_stack: 0x4000
+   __DATA._rtk_irq_stack: 0x4000
+   __DATA._rtk_exc_stack: 0x4000
+
+   __DATA._rtk_threads: 0x0
+   __DATA.__constructor: 0x0
+   __DATA.__zerofill: 0x592d8
+-  UUID: BC47E868-D687-348D-BE24-2AA83E07B328
++  UUID: A77FB0EF-358E-392C-AE72-4E87C71C7193
+   Functions: 390
+   Symbols:   171
+-  CStrings:  221
++  CStrings:  222
+ 
+CStrings:
++ "Oct  8 2025 22:44:16"
++ "kAGFIPIORegionTypeMTRPMSRegisters"
+- "Oct  1 2025 21:24:48"
+
+```
 
 #### exclave_ExclaveStackshotServer
 
@@ -475,7 +592,7 @@ CStrings:
 -  __TEXT.__text: 0x5692a8
 +  __TEXT.__text: 0x5686c8
    __TEXT.__lcxx_override: 0x34c
-   __TEXT.__cstring: 0x41c2f
+   __TEXT.__cstring: 0x41c3f
 -  __TEXT.__const: 0x105457
 -  __TEXT.__swift5_typeref: 0x10dd8
 -  __TEXT.__swift5_reflstr: 0xc3fa
@@ -528,9 +645,9 @@ CStrings:
    __PDATA.__common: 0x2280
    __DATA_CONST.__mod_init_func: 0x0
    __DATA_CONST.__mod_term_func: 0x0
--  UUID: FA76789B-AC30-31D1-8B26-2AE950D2BE6B
+-  UUID: F16AB2FD-E615-3260-A859-F5BC82819AD1
 -  Functions: 21177
-+  UUID: CA521314-3C12-3956-AD6E-94E5B27244E1
++  UUID: 2253346B-AB04-3548-A991-A3BA23FC0949
 +  Functions: 21178
    Symbols:   0
    CStrings:  6394
@@ -545,47 +662,47 @@ CStrings:
 
 ```
 
-#### h17_ane_fw_theia_d9x.im4p
+#### h18_ane_fw_apollo_v5x.im4p
 
->  `h17_ane_fw_theia_d9x.im4p`
+>  `h18_ane_fw_apollo_v5x.im4p`
 
 ```diff
 
  
--  __TEXT.__text: 0xa1a88
--  __TEXT.__cstring: 0x14901
-+  __TEXT.__text: 0xa1cd0
-+  __TEXT.__cstring: 0x148da
+-  __TEXT.__text: 0xa0df4
+-  __TEXT.__cstring: 0x14900
++  __TEXT.__text: 0xa103c
++  __TEXT.__cstring: 0x148dc
    __TEXT.__const: 0x4208
    __TEXT.ce_env: 0x4000
    __TEXT.text_env: 0x20
    __TEXT.__constructor: 0x0
    __TEXT.__init_offsets: 0x0
--  __DATA.__const: 0x9d18
-+  __DATA.__const: 0x9ce8
+-  __DATA.__const: 0x7520
++  __DATA.__const: 0x74f0
    __DATA._rtk_heap: 0x1000
    __DATA.__data: 0xe80
    __DATA._rtk_power: 0x3b8
 
    __DATA.__mod_init_func: 0x0
    __DATA.__chain_starts: 0x24
-   __DATA.__zerofill: 0x1edf00
--  UUID: 7086E0BF-DB5A-3A6C-8934-C279DEED9EE7
-+  UUID: 143B8346-5FCE-352F-BB7B-EAC64C1247D4
-   Functions: 1422
+   __DATA.__zerofill: 0x1ec200
+-  UUID: FCAF9187-6B19-3759-A24B-F1B6F725FB80
++  UUID: 22E8BD02-74AE-32F2-A78C-18BE6A58C911
+   Functions: 1394
    Symbols:   0
 -  CStrings:  2325
 +  CStrings:  2316
  
 CStrings:
 + "0 != pCacheReq->pGroupInfo->subCacheHandlerArray[i]"
-+ "22:31:15"
++ "22:33:18"
 + "Oct  5 2025"
 + "Tunable manager version %d"
 + "TunableMgr"
 - "  Chip minor version: %s\n"
 - "  Chip name: %s\n"
-- "22:27:08"
+- "22:28:46"
 - "A0"
 - "A1"
 - "A2"
@@ -593,10 +710,34 @@ CStrings:
 - "B1"
 - "B2"
 - "Sep 28 2025"
-- "TahitiTunableMgr"
-- "[Tahiti] Tunable manager version %d"
+- "TheraTunableMgr"
+- "[Thera] Tunable manager version %d"
 - "invalid"
-- "tahiti"
+- "thera"
+
+```
+
+#### t8150pmp.im4p
+
+>  `t8150pmp.im4p`
+
+```diff
+
+ 
+-  __TEXT.__text: 0x357bc
++  __TEXT.__text: 0x35818
+   __TEXT.__const: 0x1b40
+   __TEXT.__cstring: 0x1254
+   __TEXT._rtk_mtab: 0x438
+
+   __DATA._rtk_data_uuid: 0x0
+   __DATA._rtk_heap: 0x0
+   __DATA.__zerofill: 0x42368
+-  UUID: 562E2BE2-49A0-398C-AF2C-6C67E265F43A
++  UUID: ABD2B8ED-EA4A-362B-AD6E-0DFF9AEC370D
+   Functions: 0
+   Symbols:   0
+   CStrings:  401
 
 ```
 
@@ -654,60 +795,47 @@ CStrings:
 | 26.1 *(23B5059e)* | iBoot-13822.40.107.0.1 |
 | 26.1 *(23B5064e)* | iBoot-13822.40.110.502.1 |
 
-#### 🆕 NEW (7)
+#### 🆕 NEW (6)
 
 <details>
   <summary><i>View NEW</i></summary>
 
-##### `RTKit.bin`
-  - `eq %d, budV %d isBattbt %d isPT %d`
-  - `Aborting AOP iop_ringbuffer at %s:%d`
-  - `smc/aopComms.cpp`
-  - `apComms.cpp`
-  - `smc/acePowerOut.cpp`
-  - `SMC HID Event: %02x %02x %02x`
-  - `iop_ringbuffer.h`
-  - `smc/apComms.cpp`
-  - `smc/aceUtilEmbedded.cpp`
-##### `iboot_blob10.bin`
-  - `i@y/~k9kA@y`
-##### `iboot_blob30.bin`
-  - `is Shutdwn needed: R`
+##### `iboot_blob33.bin`
   - `root@Oct 05 2025@21:46:46~.release`
-##### `iboot`
-  - `a95dccc56d4f27ff53e04a2d5eda04f2`
-  - `sX3<p9Sl>^`
-  - ` ApplePMUFirmware-608.40.3~471.release`
-  - `F*8>|5z6ri;LXM`
-  - `iBoot-13822.40.110.502.1`
-  - `!.X9@^fw{$`
-  - `Hj$TYv?uNn`
-  - `F"c(w@>W˥`
-  - `ytsppysqq1`
-  - `sOKJa:%k]k`
-  - `3í8d8E⊌`
-  - `wLRRRRRRRRRRR`
-  - `Ŵi~JE!3mo`
-  - `~E@MM4ǜ7{WO`
-  - `*RQ@Sw]؈P`
-  - `H)An"BȤ9ȲdE\d`
-  - `pYO-$|TR>A|`
-  - `Ik}Ik|I+{I`
-  - `root@dkqp8.p1l.plx.sd...2025/10/05@22:44:47`
-  - `&Ń||F71fi`
-  - `Q-+oA.XF$pav`
-  - `8Fdzư3ƒ50`
-##### `iboot_blob28.bin`
-  - `BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB833333BBB,,,`
+  - ` a/n*8hcgalf tlf_xehtfoi 8is61is23is46is 8iu61iu23iu46iu*8iutsj{crs{hlc{f1pf`
 ##### `AppleSMCFirmware.bin`
-  - `AppleSMCFirmware_H17-6164.40.83.d93.REL`
-##### `iboot_blob29.bin`
-  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpWT`
-  - `30BiB0C1C2CiCjCkC0I0KiK0L1L2L3L4L5L6L7L8L9LALBLiLjLkLlLmLnLoLpLqLrLsLtL0PRPdPkPsP1R2RiRjR0SiS0TiT0WiW0XC`
-  - `TCAPACDLHDHPNIRNDVPUVilpslp0tvS`
-  - `MCBWRBDARDRR1XW`
-  - `COFOROSOTO4,`
-  - `u0LBBCCCFCMCOCPCRCSCTCXCZCADDDEDIDLDPDRDSDTDWDFEKEMEREBFCFDFIFMFQFRFSFVFWF1G2G3G4GTGFHOH1I2I3I4IBICIDIEIFIHILIMIPIRISITIVIZIEKILMLRLWL0M1M2M3MAMCMDMFMIMOMPMQMVMCNCODOEOFOGOHOIOJOPOROTOVOZOAPBPCPDPLPMPNPPPRPSPTPYPMQSQVQCRDRFRIRLRMRPRSRVRCSFSMSRSSSCTFTLTMTPTRTTTVTEUSU1V2V3V4VNVRVCX2T`
+  - `AppleSMCFirmware_H18-6164.40.83.v53.REL`
+##### `iboot_blob31.bin`
+  - `gPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVmVnVSWfihiiiminisiglilsodpiprptpYd&`
+  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH<`
+  - `DACEACNKDADGBDGCDGSDG1GL2GL4GLFONSGOIMPSMPcMP"Ɂ`
+  - `MCBWRBDARDRR2$`
+  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpYL>`
+##### `RTKit.bin`
+  - `%s:%d HIGH_TEMP_TEMP reached %d.`
+  - `InductiveUpdate`
+  - `%s:%d powering on normally`
+  - `%s:%d Failed to get chip temperature ret=0x%x.`
+  - `%s:%d DBB 15 minute system uptime timeout`
+  - `inductiveCL: vr %d ir %d vm %d im %d hdrm %i frz %d stale %d`
+  - `%s:%d Failed to get PCB temperature ret=0x%x.`
+  - `%s:%d failed to read status`
+##### `iboot_blob34.bin`
+  - `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_START`
+  - `drivers/power/drv_fury.cpp`
+  - `%s:%d error: %x`
+  - `fury_irq_handler`
+  - `inductiveCL: ggp %d ggv %d ggi %d soc %d, btemp %d epi %d, mpwr %d, fr `
+  - `fury_irq_handler:%d: %x`
+  - `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_COMPLETE`
+  - `Ace Wake ISR :: ACE_SPMI_GET_IRQ_STATE Fail arg %llu aceid %d`
+##### `iboot_blob32.bin`
+  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmEdtlx`
+  - `CFDFFFIFNFPF0RDRNRSRTRtR`
+  - `001020n0CFFF`
+  - `A0B0C0E0F0H0V0؆`
+  - `!C#C?CRC[(;`
+  - `Z0d1d2d3d4d5d6d7d80D1D2D3D4D5D6D7D8D9DaDbDcDdDeDfDgDhD`
 
 </details>
 
@@ -716,58 +844,41 @@ CStrings:
 <details>
   <summary><i>View Removed</i></summary>
 
-##### `iboot`
-  - `CgCA$RpK@N`
-  - `qtX%bJNot&`
-  - `a09d7d571caf6fb22c91c6a1f424846d`
-  - `+,(9]>IVro`
-  - `iBoot-13822.40.107.0.1`
-  - `EE!j-Ƃsx?`
-  - `âŁʒhk|Mn`
-  - `a?od'|Q#}i`
-  - `[ddddddddH`
-  - `u/K1/=nGPH`
-  - `T.Fǒbt</F`
-  - ` ApplePMUFirmware-608.40.3~257.release`
-  - `IU'( %$pJH`
-  - `D![N-YyUzG`
-  - `]T*dzJ'℺Jm`
-  - `,KVOEH,ME>`
-  - `Irp5b5M;;z`
-  - `KXGʭ'I;(I`
-  - `EEoeQAC٢B`
-  - `2>º LB@]J`
-  - `#9msR_:DcM`
-  - `7,22222222222`
-  - `root@wp596.p1l.plx.sd...2025/09/28@22:31:21`
-  - `WWi;1SqlAg`
-  - `>^H{PAk;}Js3`
-  - `#_e=2$]$-=W `
-##### `iboot_blob28.bin`
-  - `BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB833333BBB,,,,,,,BB`
-##### `iboot_blob29.bin`
-  - `TCAPACDLHDHPNIRNDVPUVilpslp0tvSP@`
-  - `u0LBBCCCFCMCOCPCRCSCTCXCZCADDDEDIDLDPDRDSDTDWDFEKEMEREBFCFDFIFMFQFRFSFVFWF1G2G3G4GTGFHOH1I2I3I4IBICIDIEIFIHILIMIPIRISITIVIZIEKILMLRLWL0M1M2M3MAMCMDMFMIMOMPMQMVMCNCODOEOFOGOHOIOJOPOROTOVOZOAPBPCPDPLPMPNPPPRPSPTPYPMQSQVQCRDRFRIRLRMRPRSRVRCSFSMSRSSSCTFTLTMTPTRTTTVTEUSU1V2V3V4VNVRVCX2X`
-  - `COFOROSOTO4(`
-  - `MCBWRBDARDRR1DW`
-  - `30BiB0C1C2CiCjCkC0I0KiK0L1L2L3L4L5L6L7L8L9LALBLiLjLkLlLmLnLoLpLqLrLsLtL0PRPdPkPsP1R2RiRjR0SiS0TiT0WiW0XCx`
-  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpW`
-##### `AppleSMCFirmware.bin`
-  - `AppleSMCFirmware_H17-6164.40.75.0.2.d93.REL`
 ##### `RTKit.bin`
-  - `ent: %02x %02x %02x`
-##### `iboot_blob30.bin`
-  - `smc/aopComms.cpp`
-  - `smc/acePowerOut.cpp`
-  - `root@Sep 28 2025@21:35:10~.release`
-  - `apComms.cpp`
-  - `smc/aceUtilEmbedded.cpp`
+  - `:%d DBB 15 minute system uptime timeout`
+##### `iboot_blob31.bin`
+  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpYd=`
+  - `DACEACNKDADGBDGCDGSDG1GL2GL4GLFONSGOIMPSMPcMP"`
+  - `gPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVmVnVSWfihiiiminisiglilsodpiprptpY<&`
+  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH$`
+  - `CFDFFFIFNFPF0RDRNRSRTRtR`
+  - `MCBWRBDARDRR2`
+  - `001020n0CFFF`
+  - `A0B0C0E0F0H0V0؆`
+  - `Z0d1d2d3d4d5d6d7d80D1D2D3D4D5D6D7D8D9DaDbDcDdDeDfDgDhD`
+##### `iboot_blob33.bin`
   - `PwrProf: %d`
-  - `is Shutdwn needed: Req %d, budV %d isBattbt %d isPT %d`
-  - `iop_ringbuffer.h`
-  - `SMC HID Ev`
-  - `Aborting AOP iop_ringbuffer at %s:%d`
-  - `smc/apComms.cpp`
+  - `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_START`
+  - `fury_irq_handler:%d: %x`
+  - `fury_irq_handler`
+  - `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_COMP`
+  - `Ace Wake ISR :: ACE_SPMI_GET_IRQ_STATE Fail arg %llu aceid %d`
+  - `root@Sep 28 2025@21:35:10~.release`
+  - `drivers/power/drv_fury.cpp`
+##### `iboot_blob34.bin`
+  - `%s:%d powering on normally`
+  - `inductiveCL: ggp %d ggv %d ggi %d soc %d, btemp %d epi %d, mpwr %d, fr %d`
+  - `%s:%d HIGH_TEMP_TEMP reached %d.`
+  - `%s:%d Failed to get chip temperature ret=0x%x.`
+  - `InductiveUpdate`
+  - `inductiveCL: vr %d ir %d vm %d im %d hdrm %i frz %d stale %d`
+  - `%s:%d failed to read status`
+  - `%s:%d Failed to get PCB temperature ret=0x%x.`
+##### `iboot_blob32.bin`
+  - ` a/n*8hcgalf tlf_xehtfoi 8is61is23is46is 8iu61iu23iu46iu*8iutsj{crs{hlc{f1pf`
+  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmEdtl`
+##### `AppleSMCFirmware.bin`
+  - `AppleSMCFirmware_H18-6164.40.75.0.2.v53.REL`
 
 </details>
 
@@ -838,7 +949,7 @@ CStrings:
 - [/System/Library/ControlCenter/Bundles/BackgroundSoundsCCModule.bundle/BackgroundSoundsCCModule](DYLIBS/BackgroundSoundsCCModule.md)
 - [/System/Library/ControlCenter/Bundles/ConnectivityModule.bundle/ConnectivityModule](DYLIBS/ConnectivityModule.md)
 - [/System/Library/CoreServices/RawCamera.bundle/RawCamera](DYLIBS/RawCamera.md)
-- [/System/Library/Extensions/AGXMetalG17P.bundle/AGXMetalG17P](DYLIBS/AGXMetalG17P.md)
+- [/System/Library/Extensions/AGXMetalG18P.bundle/AGXMetalG18P](DYLIBS/AGXMetalG18P.md)
 - [/System/Library/Frameworks/AVFAudio.framework/AVFAudio](DYLIBS/AVFAudio.md)
 - [/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBLAS.dylib](DYLIBS/libBLAS.dylib.md)
 - [/System/Library/Frameworks/Accessibility.framework/Accessibility](DYLIBS/Accessibility.md)
@@ -1422,8 +1533,8 @@ CStrings:
 
 #### IPSW (2)
 
-- `Firmware/Mav24-2.10.03.Release.bbfw`
-- `Firmware/Mav24-2.10.03.Release.plist`
+- `Firmware/Mav25-1.10.05.Release.bbfw`
+- `Firmware/Mav25-1.10.05.Release.plist`
 
 #### filesystem (194)
 
@@ -1631,8 +1742,8 @@ CStrings:
 
 #### IPSW (2)
 
-- `Firmware/Mav24-2.10.01.Release.bbfw`
-- `Firmware/Mav24-2.10.01.Release.plist`
+- `Firmware/Mav25-1.10.03.Release.bbfw`
+- `Firmware/Mav25-1.10.03.Release.plist`
 
 #### filesystem (167)
 

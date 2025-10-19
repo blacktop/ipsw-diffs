@@ -61,7 +61,7 @@ Symbols:
 - _CFPreferencesCopyAppValue
 - _CFRelease
 Functions:
-~ sub_29b7b86b0 -> sub_29b4186b0 : 304 -> 240
+~ sub_29b7706b0 -> sub_29b3d86b0 : 304 -> 240
 CStrings:
 + "containsObject:"
 + "sharedManager"

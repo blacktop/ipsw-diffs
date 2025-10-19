@@ -41,9 +41,9 @@
 +  CStrings:  5707
  
 Functions:
-~ sub_297bdaae0 -> sub_297830ae0 : 260 -> 240
-~ sub_297be0fb0 -> sub_297836f9c : 988 -> 1260
-~ sub_297be13ec -> sub_2978374e8 : 108 -> 112
+~ sub_297b92ae0 -> sub_2977f0ae0 : 260 -> 240
+~ sub_297b98fb0 -> sub_2977f6f9c : 988 -> 1260
+~ sub_297b993ec -> sub_2977f74e8 : 108 -> 112
 CStrings:
 + "chunk{ chunk_id=%{public}llu, offset=%{public}llu, size=%{public}llu, fill_size=%{public}llu, fill_wrap=%{public}u }"
 + "libhwtrace @ tag libhwtrace-133.40.7"

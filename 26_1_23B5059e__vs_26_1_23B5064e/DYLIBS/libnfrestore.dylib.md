@@ -36,6 +36,6 @@ Symbols:
 + _NFProductIsMac
 + _NFProductIsVision
 Functions:
-~ sub_29842ec9c -> sub_298084c9c : 8676 -> 8692
+~ sub_2983e6c9c -> sub_298044c9c : 8676 -> 8692
 
 ```

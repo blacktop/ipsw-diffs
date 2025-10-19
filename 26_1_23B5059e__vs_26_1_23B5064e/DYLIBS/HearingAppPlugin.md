@@ -38,8 +38,8 @@
 +  CStrings:  811
  
 Functions:
-~ sub_29c44d654 -> sub_29c0b1654 : 140 -> 28
-~ sub_29c465480 -> sub_29c0c9410 : 852 -> 668
+~ sub_29c52f654 -> sub_29c19c654 : 140 -> 28
+~ sub_29c547480 -> sub_29c1b4410 : 852 -> 668
 CStrings:
 + "com.apple.application-icon.noise"
 
