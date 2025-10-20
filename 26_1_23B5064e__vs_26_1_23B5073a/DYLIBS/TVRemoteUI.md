@@ -1,0 +1,266 @@
+## TVRemoteUI
+
+> `/System/Library/PrivateFrameworks/TVRemoteUI.framework/TVRemoteUI`
+
+```diff
+
+-548.10.23.0.0
+-  __TEXT.__text: 0xcd5a8
++548.10.24.0.0
++  __TEXT.__text: 0xcdacc
+   __TEXT.__auth_stubs: 0x1b30
+   __TEXT.__objc_methlist: 0xb3d0
+-  __TEXT.__const: 0x24a4
++  __TEXT.__const: 0x2614
+   __TEXT.__gcc_except_tab: 0x1ec4
+   __TEXT.__cstring: 0x740a
+   __TEXT.__oslogstring: 0x5a02
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D928A95B-1DDB-34D5-9F24-9AB523E4F4B0
++  UUID: E767997A-1B04-3BF4-9FA4-BA7332868712
+   Functions: 4701
+-  Symbols:   17462
++  Symbols:   17504
+   CStrings:  7205
+ 
+Symbols:
++ _$s10TVRemoteUI17FMFindingDistanceVSgMR
++ _$s10TVRemoteUI17FMFindingDistanceVSgMd
++ _$s10TVRemoteUI17FMFindingDistanceVSg_ADtMR
++ _$s10TVRemoteUI17FMFindingDistanceVSg_ADtMd
++ _$s10TVRemoteUI20FMFindingMeasurementO11measurement_AA0C5TrendO5trendtMR
++ _$s10TVRemoteUI20FMFindingMeasurementO11measurement_AA0C5TrendO5trendtMd
++ _$s10TVRemoteUI20FMFindingMeasurementOSgMR
++ _$s10TVRemoteUI20FMFindingMeasurementOSgMd
++ _$s10TVRemoteUI20FMFindingMeasurementOSg_ADtMR
++ _$s10TVRemoteUI20FMFindingMeasurementOSg_ADtMd
++ _$s10TVRemoteUI20FMPFSKLabelNodeStyleVSgMR
++ _$s10TVRemoteUI20FMPFSKLabelNodeStyleVSgMd
++ _$s10TVRemoteUI23FMPFSKPatternNodeConfigVSgMR
++ _$s10TVRemoteUI23FMPFSKPatternNodeConfigVSgMd
++ _$s5UIKit29_UICornerMaskingConfigurationVSgMR
++ _$s5UIKit29_UICornerMaskingConfigurationVSgMd
++ _$s6TipKit4TipsO14OptionsBuilderV15buildExpressionyQrxAA0A6OptionRzlFZQOy__AC15MaxDisplayCountVQo_MR
++ _$s6TipKit4TipsO14OptionsBuilderV15buildExpressionyQrxAA0A6OptionRzlFZQOy__AC15MaxDisplayCountVQo_Md
++ _$s6TipKit4TipsO14OptionsBuilderV15buildExpressionyQrxAA0A6OptionRzlFZQOy__AC17UsesConstellationVQo_MR
++ _$s6TipKit4TipsO14OptionsBuilderV15buildExpressionyQrxAA0A6OptionRzlFZQOy__AC17UsesConstellationVQo_Md
++ _$s6TipKit4TipsO14OptionsBuilderV17buildPartialBlock11accumulated4nextQrx_q_tAA0A6OptionRzAaIR_r0_lFZQOy__AeF5firstQrx_tAaIRzlFZQOy__AE0F10ExpressionyQrxAaIRzlFZQOy__AC17UsesConstellationVQo_Qo_AeKyQrxAaIRzlFZQOy__AC15MaxDisplayCountVQo_Qo_MR
++ _$s6TipKit4TipsO14OptionsBuilderV17buildPartialBlock11accumulated4nextQrx_q_tAA0A6OptionRzAaIR_r0_lFZQOy__AeF5firstQrx_tAaIRzlFZQOy__AE0F10ExpressionyQrxAaIRzlFZQOy__AC17UsesConstellationVQo_Qo_AeKyQrxAaIRzlFZQOy__AC15MaxDisplayCountVQo_Qo_Md
++ _$s6TipKit4TipsO14OptionsBuilderV17buildPartialBlock5firstQrx_tAA0A6OptionRzlFZQOy__AE0F10ExpressionyQrxAaHRzlFZQOy__AC17UsesConstellationVQo_Qo_MR
++ _$s6TipKit4TipsO14OptionsBuilderV17buildPartialBlock5firstQrx_tAA0A6OptionRzlFZQOy__AE0F10ExpressionyQrxAaHRzlFZQOy__AC17UsesConstellationVQo_Qo_Md
++ _$s6TipKit4TipsO6StatusOSgMR
++ _$s6TipKit4TipsO6StatusOSgMd
++ _$sSDySo18CHHapticPatternKeyaypGMR
++ _$sSDySo18CHHapticPatternKeyaypGMd
++ _$sSay10TVRemoteUI25FMPFSKPatternFragmentNodeCGMR
++ _$sSay10TVRemoteUI25FMPFSKPatternFragmentNodeCGMd
++ _$sSay8Dispatch0A13WorkItemFlagsVGMR
++ _$sSay8Dispatch0A13WorkItemFlagsVGMd
++ _$sSaySo6SKNodeCGMR
++ _$sSaySo6SKNodeCGMd
++ _$sScPSgMR
++ _$sScPSgMd
++ _$sScS8IteratorVy6TipKit4TipsO6StatusO_GMR
++ _$sScS8IteratorVy6TipKit4TipsO6StatusO_GMd
++ _$sScSy6TipKit4TipsO6StatusOGMR
++ _$sScSy6TipKit4TipsO6StatusOGMd
++ _$sSdSgMR
++ _$sSdSgMd
++ _$sSo23CHHapticEngineOptionKeya_yptMR
++ _$sSo23CHHapticEngineOptionKeya_yptMd
++ _$sSo8NSObjectCSgMR
++ _$sSo8NSObjectCSgMd
++ _$ss16AsyncMapSequenceV8IteratorVyScSy6TipKit4TipsO6StatusOGSb_GMR
++ _$ss16AsyncMapSequenceV8IteratorVyScSy6TipKit4TipsO6StatusOGSb_GMd
++ _$ss16AsyncMapSequenceVyScSy6TipKit4TipsO6StatusOGSbGMR
++ _$ss16AsyncMapSequenceVyScSy6TipKit4TipsO6StatusOGSbGMd
++ _$ss18_DictionaryStorageCySo23CHHapticEngineOptionKeyaypGMR
++ _$ss18_DictionaryStorageCySo23CHHapticEngineOptionKeyaypGMd
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMR
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMd
++ _$ss22KeyedDecodingContainerVy10TVRemoteUI14FMFindingStateO10CodingKeys33_A3DFBA6D09331B27A32318957F9878E4LLOGMR
++ _$ss22KeyedDecodingContainerVy10TVRemoteUI14FMFindingStateO10CodingKeys33_A3DFBA6D09331B27A32318957F9878E4LLOGMd
++ _$ss22KeyedDecodingContainerVy10TVRemoteUI17FMFindingDistanceV10CodingKeys33_BF6198250B0522D17E4C5C7D5D8592B0LLOGMR
++ _$ss22KeyedDecodingContainerVy10TVRemoteUI17FMFindingDistanceV10CodingKeys33_BF6198250B0522D17E4C5C7D5D8592B0LLOGMd
++ _$ss22KeyedDecodingContainerVy10TVRemoteUI20FMFindingMeasurementO10CodingKeys33_D103FFDFE5EFB859C200F2C74AFC4691LLOGMR
++ _$ss22KeyedDecodingContainerVy10TVRemoteUI20FMFindingMeasurementO10CodingKeys33_D103FFDFE5EFB859C200F2C74AFC4691LLOGMd
++ _$ss22KeyedEncodingContainerVy10TVRemoteUI14FMFindingStateO10CodingKeys33_A3DFBA6D09331B27A32318957F9878E4LLOGMR
++ _$ss22KeyedEncodingContainerVy10TVRemoteUI14FMFindingStateO10CodingKeys33_A3DFBA6D09331B27A32318957F9878E4LLOGMd
++ _$ss22KeyedEncodingContainerVy10TVRemoteUI17FMFindingDistanceV10CodingKeys33_BF6198250B0522D17E4C5C7D5D8592B0LLOGMR
++ _$ss22KeyedEncodingContainerVy10TVRemoteUI17FMFindingDistanceV10CodingKeys33_BF6198250B0522D17E4C5C7D5D8592B0LLOGMd
++ _$ss22KeyedEncodingContainerVy10TVRemoteUI20FMFindingMeasurementO10CodingKeys33_D103FFDFE5EFB859C200F2C74AFC4691LLOGMR
++ _$ss22KeyedEncodingContainerVy10TVRemoteUI20FMFindingMeasurementO10CodingKeys33_D103FFDFE5EFB859C200F2C74AFC4691LLOGMd
++ _$ss23_ContiguousArrayStorageCy6TipKit4TipsO19ConfigurationOptionVGMR
++ _$ss23_ContiguousArrayStorageCy6TipKit4TipsO19ConfigurationOptionVGMd
++ _$ss23_ContiguousArrayStorageCySnySiGGMR
++ _$ss23_ContiguousArrayStorageCySnySiGGMd
++ _$ss23_ContiguousArrayStorageCySo23CHHapticEngineOptionKeya_yptGMR
++ _$ss23_ContiguousArrayStorageCySo23CHHapticEngineOptionKeya_yptGMd
++ _$ss23_ContiguousArrayStorageCySo7CGPointVGMR
++ _$ss23_ContiguousArrayStorageCySo7CGPointVGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMR
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMd
++ _$ss23_ContiguousArrayStorageCyyXlGMR
++ _$ss23_ContiguousArrayStorageCyyXlGMd
++ _$sypSgMR
++ _$sypSgMd
++ _$sytSgMR
++ _$sytSgMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10TVRemoteUI17FMFindingDistanceVSgMD
+- _$s10TVRemoteUI17FMFindingDistanceVSg_ADtMD
+- _$s10TVRemoteUI20FMFindingMeasurementO11measurement_AA0C5TrendO5trendtMD
+- _$s10TVRemoteUI20FMFindingMeasurementOSgMD
+- _$s10TVRemoteUI20FMFindingMeasurementOSg_ADtMD
+- _$s10TVRemoteUI20FMPFSKLabelNodeStyleVSgMD
+- _$s10TVRemoteUI23FMPFSKPatternNodeConfigVSgMD
+- _$s5UIKit29_UICornerMaskingConfigurationVSgMD
+- _$s6TipKit4TipsO14OptionsBuilderV15buildExpressionyQrxAA0A6OptionRzlFZQOy__AC15MaxDisplayCountVQo_MD
+- _$s6TipKit4TipsO14OptionsBuilderV15buildExpressionyQrxAA0A6OptionRzlFZQOy__AC17UsesConstellationVQo_MD
+- _$s6TipKit4TipsO14OptionsBuilderV17buildPartialBlock11accumulated4nextQrx_q_tAA0A6OptionRzAaIR_r0_lFZQOy__AeF5firstQrx_tAaIRzlFZQOy__AE0F10ExpressionyQrxAaIRzlFZQOy__AC17UsesConstellationVQo_Qo_AeKyQrxAaIRzlFZQOy__AC15MaxDisplayCountVQo_Qo_MD
+- _$s6TipKit4TipsO14OptionsBuilderV17buildPartialBlock5firstQrx_tAA0A6OptionRzlFZQOy__AE0F10ExpressionyQrxAaHRzlFZQOy__AC17UsesConstellationVQo_Qo_MD
+- _$s6TipKit4TipsO6StatusOSgMD
+- _$sSDySo18CHHapticPatternKeyaypGMD
+- _$sSay10TVRemoteUI25FMPFSKPatternFragmentNodeCGMD
+- _$sSay8Dispatch0A13WorkItemFlagsVGMD
+- _$sSaySo6SKNodeCGMD
+- _$sScPSgMD
+- _$sScS8IteratorVy6TipKit4TipsO6StatusO_GMD
+- _$sScSy6TipKit4TipsO6StatusOGMD
+- _$sSdSgMD
+- _$sSo23CHHapticEngineOptionKeya_yptMD
+- _$sSo8NSObjectCSgMD
+- _$ss16AsyncMapSequenceV8IteratorVyScSy6TipKit4TipsO6StatusOGSb_GMD
+- _$ss16AsyncMapSequenceVyScSy6TipKit4TipsO6StatusOGSbGMD
+- _$ss18_DictionaryStorageCySo23CHHapticEngineOptionKeyaypGMD
+- _$ss18_DictionaryStorageCys11AnyHashableVypGMD
+- _$ss22KeyedDecodingContainerVy10TVRemoteUI14FMFindingStateO10CodingKeys33_A3DFBA6D09331B27A32318957F9878E4LLOGMD
+- _$ss22KeyedDecodingContainerVy10TVRemoteUI17FMFindingDistanceV10CodingKeys33_BF6198250B0522D17E4C5C7D5D8592B0LLOGMD
+- _$ss22KeyedDecodingContainerVy10TVRemoteUI20FMFindingMeasurementO10CodingKeys33_D103FFDFE5EFB859C200F2C74AFC4691LLOGMD
+- _$ss22KeyedEncodingContainerVy10TVRemoteUI14FMFindingStateO10CodingKeys33_A3DFBA6D09331B27A32318957F9878E4LLOGMD
+- _$ss22KeyedEncodingContainerVy10TVRemoteUI17FMFindingDistanceV10CodingKeys33_BF6198250B0522D17E4C5C7D5D8592B0LLOGMD
+- _$ss22KeyedEncodingContainerVy10TVRemoteUI20FMFindingMeasurementO10CodingKeys33_D103FFDFE5EFB859C200F2C74AFC4691LLOGMD
+- _$ss23_ContiguousArrayStorageCy6TipKit4TipsO19ConfigurationOptionVGMD
+- _$ss23_ContiguousArrayStorageCySnySiGGMD
+- _$ss23_ContiguousArrayStorageCySo23CHHapticEngineOptionKeya_yptGMD
+- _$ss23_ContiguousArrayStorageCySo7CGPointVGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss23_ContiguousArrayStorageCys7CVarArg_pGMD
+- _$ss23_ContiguousArrayStorageCyyXlGMD
+- _$sypSgMD
+- _$sytSgMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+Functions:
+~ _$s10TVRemoteUI23FMPFSKPeripheralDotNodeC14experienceType4name11dotDiameter5color10diskRadius0I5Scale5angle7opacity6offsetAcA012FMExperienceG0O_SSSg12CoreGraphics7CGFloatVSo7UIColorCSgARSgA3VSo7CGPointVSgtcfc : 3052 -> 3060
+~ _$s10TVRemoteUI23FMPFSKPeripheralDotNodeC5pulse_8animatedySb_SbtF : 1436 -> 1452
+~ ___swift_instantiateConcreteTypeFromMangledName -> ___swift_instantiateConcreteTypeFromMangledNameV2 : 76 -> 72
+~ _$s10TVRemoteUI14FMFindingStateO11descriptionSSvg : 428 -> 436
+~ _$s10TVRemoteUI14FMFindingStateO6encode2toys7Encoder_p_tKF : 608 -> 612
+~ _$s10TVRemoteUI14FMFindingStateO2eeoiySbAC_ACtFZTf4nnd_n : 1156 -> 1196
+~ _$sSo8NSObjectCSgWOhTm : 92 -> 96
+~ _$s10TVRemoteUI14FMFindingStateO4fromACs7Decoder_p_tKcfCTf4nd_n : 1084 -> 1088
+~ _$s10TVRemoteUI17FMFindingDistanceV6encode2toys7Encoder_p_tKF : 720 -> 732
+~ _$s10TVRemoteUI17FMFindingDistanceV11descriptionSSvg : 312 -> 320
+~ _$s10TVRemoteUI17FMFindingDistanceV4fromACs7Decoder_p_tKcfCTf4nd_n : 1256 -> 1260
+~ _$sSdSgxSgSEsSERzlWl : 116 -> 124
+~ ___swift_instantiateConcreteTypeFromMangledNameAbstract -> ___swift_instantiateConcreteTypeFromMangledNameAbstractV2 : 80 -> 72
+~ _$s10TVRemoteUI21FMR1HapticsControllerCACycfc : 1040 -> 1048
+~ _$s10TVRemoteUI21FMR1HapticsControllerCfETo : 568 -> 576
+~ _$s10TVRemoteUI21FMR1HapticsControllerC17loadHapticPattern33_B9F16F9A41371217CC5513FC85C9DF3FLL5named5isTapAA0cgH0CSgSS_SbtF : 1804 -> 1828
+~ _$s10TVRemoteUI21FMR1HapticsControllerC05setUpD0yyF : 3308 -> 3356
+~ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSo23CHHapticEngineOptionKeya_yps11AnyHashableVypTg5 : 704 -> 712
+~ _$s10TVRemoteUI21FMR1HapticsControllerC05setUpD0yyFyycfU_ : 940 -> 956
+~ _$s10TVRemoteUI21FMR1HapticsControllerC05setUpD0yyFySo27CHHapticEngineStoppedReasonVcfU0_ : 392 -> 400
+~ _$s10TVRemoteUI21FMR1HapticsControllerC27setUpContinuousHapticPlayer33_B9F16F9A41371217CC5513FC85C9DF3FLLyyF : 1488 -> 1508
+~ _$s10TVRemoteUI21FMR1HapticsControllerC26stopContinuousHapticPlayer33_B9F16F9A41371217CC5513FC85C9DF3FLLyyF : 916 -> 932
+~ _$s10TVRemoteUI21FMR1HapticsControllerC039resetContinuousHapticPlayerBeforeNearbyH033_B9F16F9A41371217CC5513FC85C9DF3FLLyyF : 1088 -> 1112
+~ _$s10TVRemoteUI21FMR1HapticsControllerC038resetContinuousHapticPlayerAfterNearbyH033_B9F16F9A41371217CC5513FC85C9DF3FLLyyF : 1120 -> 1144
+~ _$s10TVRemoteUI21FMR1HapticsControllerC23hapticDisplayLinkUpdate33_B9F16F9A41371217CC5513FC85C9DF3FLL11displaylinkySo09CADisplayH0C_tF : 492 -> 500
+~ _$s10TVRemoteUI21FMR1HapticsControllerC17playScatterHaptic33_B9F16F9A41371217CC5513FC85C9DF3FLL7contextyypSg_tF : 1476 -> 1492
+~ _$s10TVRemoteUI21FMR1HapticsControllerC16playNearbyHaptic33_B9F16F9A41371217CC5513FC85C9DF3FLL7contextyypSg_tF : 2900 -> 2932
+~ _$s10TVRemoteUI21FMR1HapticsControllerC42startDelayedScatterHapticPlayerIfNecessary33_B9F16F9A41371217CC5513FC85C9DF3FLLyyFTm : 800 -> 804
+~ _$s10TVRemoteUI21FMR1HapticsControllerC42startDelayedScatterHapticPlayerIfNecessary33_B9F16F9A41371217CC5513FC85C9DF3FLLyyFyycfU_Tm : 120 -> 128
+~ _$s10TVRemoteUI21FMR1HapticsControllerC15playAheadHaptic7contextyypSg_tF : 1444 -> 1460
+~ _$s10TVRemoteUI21FMR1HapticsControllerC24playInFOVModeTapHapticAt12hapticFactor6period7contexty12CoreGraphics7CGFloatV_SdypSgtF : 412 -> 420
+~ _$s10TVRemoteUI21FMR1HapticsControllerC24playLevelIncreasedHapticyyFTm : 1364 -> 1380
+~ _$s10TVRemoteUI21FMR1HapticsControllerC04stopD0yyF : 672 -> 680
+~ _$sypSgWOd : 104 -> 112
+~ _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl : 92 -> 100
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo23CHHapticEngineOptionKeya_ypTt0g5Tf4g_n : 268 -> 296
+~ _$s10TVRemoteUI21FMR1HapticsControllerC27applyContinuousHapticPlayer33_B9F16F9A41371217CC5513FC85C9DF3FLL4with13rampingFactorySf_SftFTf4ndn_n : 1088 -> 1104
+~ _$s10TVRemoteUI21FMR1HapticsControllerC19playSingleTapHaptic33_B9F16F9A41371217CC5513FC85C9DF3FLL11displaylinkySo13CADisplayLinkCSg_tFTf4dn_n : 1760 -> 1804
+~ _$sypSgWOcTm : 100 -> 104
+~ _$s10TVRemoteUI15FMPFSKLabelNodeC11descriptionSSvg : 584 -> 592
+~ _$s10TVRemoteUI12FMPFRingViewC19updateWithDeltaTimeyySdF : 836 -> 844
+~ _$s10TVRemoteUI12FMPFRingViewC10setOpacity_6sprungy12CoreGraphics7CGFloatVSg_SbtF : 852 -> 860
+~ _$s10TVRemoteUI20FMFindingMeasurementO11descriptionSSvg : 400 -> 408
+~ _$s10TVRemoteUI20FMFindingMeasurementO6encode2toys7Encoder_p_tKF : 556 -> 568
+~ _$s10TVRemoteUI20FMFindingMeasurementO2eeoiySbAC_ACtFZTf4nnd_n : 752 -> 792
+~ _$s10TVRemoteUI20FMFindingMeasurementO4fromACs7Decoder_p_tKcfCTf4nd_n : 880 -> 884
+~ _$s10TVRemoteUI17FMFindingDistanceVSgxSgSEsSERzlWl : 124 -> 132
+~ _$s10TVRemoteUI20FMPFSKBTRangeDotNodeC5pulse8durationySd_tF : 936 -> 944
+~ _$s10TVRemoteUI25FMPFSKPatternFragmentNodeC11descriptionSSvg : 1120 -> 1136
+~ _$s10TVRemoteUI7SiriTipV0D3Kit0D0AadEP7optionsSayAD0D6Option_pGvgTW : 668 -> 676
+~ _$s10TVRemoteUI11FMPFSKSceneC24fragmentsStartedOrbitingyyF : 1288 -> 1296
+~ _$s10TVRemoteUI11FMPFSKSceneC24fragmentsStoppedOrbitingyyF : 1288 -> 1296
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 108 -> 116
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5 : 236 -> 244
+~ _$s10TVRemoteUI11FMPFSKSceneC8dispatch33_442C0474E150CF803EEE0CEDE03F25FBLLyyytSgycF04$s10a4UI11C39C24patternIsFullyPeripheralyyFytSgycfU_ACTf1cn_nTf4dg_n : 916 -> 924
+~ _$s10TVRemoteUI11FMPFSKSceneC8dispatch33_442C0474E150CF803EEE0CEDE03F25FBLLyyytSgycF04$s10a4UI11C35C20patternIsFullyFormedyyFytSgycfU_ACTf1cn_nTf4dg_n : 916 -> 924
+~ _$s10TVRemoteUI11FMPFSKSceneC8dispatch33_442C0474E150CF803EEE0CEDE03F25FBLLyyytSgycF04$s10a4UI11C40C25pointeeDotIsFullyCenteredyyFytSgycfU_ACTf1cn_nTf4dg_n : 916 -> 924
+~ _$s10TVRemoteUI11FMPFSKSceneC8dispatch33_442C0474E150CF803EEE0CEDE03F25FBLLyyytSgycF04$s10a4UI11C60C033patternIsFullyFormedAndPointeeDoteF8CenteredyyFytSgycfU_ACTf1cn_nTf4dg_n : 916 -> 924
+~ _$s10TVRemoteUI11FMPFSKSceneC8dispatch33_442C0474E150CF803EEE0CEDE03F25FBLLyyytSgycF04$s10a4UI11C44C29pointeeAndNoonDotsDidConvergeyyFytSgycfU_ACTf1cn_nTf4dg_n : 916 -> 924
+~ _$s10TVRemoteUI11FMPFSKSceneC8dispatch33_442C0474E150CF803EEE0CEDE03F25FBLLyyytSgycF04$s10a4UI11C43C28pointeeAndNoonDotsDidDivergeyyFytSgycfU_ACTf1cn_nTf4dg_n : 916 -> 924
+~ _$s10TVRemoteUI7InfoTipV7optionsSay0D3Kit0D6Option_pGvgTf4d_n : 1292 -> 1308
+~ _$s10TVRemoteUI17FMPFSKPatternNodeC5apply23presentedEnergeticAngle0f9LethargicH00F12CenterFactor0F7Lookouty12CoreGraphics7CGFloatVSg_A3LtF : 5056 -> 5064
+~ _$s10TVRemoteUI15FMR1GlyphButtonC16setupConstraintsyyF : 1080 -> 1088
+~ _$s10TVRemoteUI23FMFindingSleepPreventerC36disableSleepingForAWhileWhileFindingyyF : 1112 -> 1120
+~ _$s10TVRemoteUI8FMPFViewC19updateWithDeltaTimeyySdF : 908 -> 916
+~ _$sSo6UIViewC10TVRemoteUIE18makeCapsuleCornersyyF : 184 -> 188
+~ _$sSo6UIViewC10TVRemoteUIE18makeCapsuleCornersyyFTo : 204 -> 208
+~ _$sypSgWOh : 96 -> 104
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tgq5 : 252 -> 260
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo7CGPointV_Tg5 : 252 -> 260
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC10TVRemoteUI25FMPFSKPatternFragmentNodeC_Tt1g5 : 128 -> 136
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo7CGPointV_Tg5 : 252 -> 260
+~ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tF10TVRemoteUI25FMPFSKPatternFragmentNodeC_Tg5 : 380 -> 400
+~ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tFSo6SKNodeC_Tg5 : 396 -> 416
+~ _$sSaySo6SKNodeCGSayxGSlsWlTm : 80 -> 84
+~ _$s10TVRemoteUI20FMPFSKLabelNodeStyleVSgWOc : 104 -> 112
+~ _$sSo15TVRUITipManagerC10TVRemoteUIE10commonInit21tipSourceViewProviderySo0ahiJ0_So16UIViewControllerCXc_tF : 836 -> 844
+~ _$sSo15TVRUITipManagerC10TVRemoteUIE17setupTipsObserver33_70D45BBBDF4533FB276966234D211DBELLyyF : 688 -> 692
+~ _$sSo15TVRUITipManagerC10TVRemoteUIE17setupTipsObserver33_70D45BBBDF4533FB276966234D211DBELLyyFyyYacfU_ : 592 -> 632
+~ _$sSo15TVRUITipManagerC10TVRemoteUIE17setupTipsObserver33_70D45BBBDF4533FB276966234D211DBELLyyFyyYacfU_TY0_ : 568 -> 576
+~ _$sSo15TVRUITipManagerC10TVRemoteUIE17setupTipsObserver33_70D45BBBDF4533FB276966234D211DBELLyyFyyYacfU_TY1_ : 252 -> 260
+~ _$sSo15TVRUITipManagerC10TVRemoteUIE17setupTipsObserver33_70D45BBBDF4533FB276966234D211DBELLyyFyyYacfU_TY3_ : 440 -> 448
+~ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2g5 : 724 -> 752
+~ _$sScPSgWOc : 104 -> 112
+~ _$sScSy6TipKit4TipsO6StatusOGScSyxGScisWlTm : 68 -> 72
+~ _$s10TVRemoteUI11FMPFSKSceneC14experienceType6config4size8ringView11altDelegateAcA012FMExperienceE0O_AA23FMPFSKPatternNodeConfigVSo6CGSizeVAA08FMPFRingI0CSgAA0cK0_pSgtcfcySo14NSUserDefaultsC_10Foundation24NSKeyValueObservedChangeVySiGtYbcfU0_ : 368 -> 376
+~ _$sSo8NSObjectCSgWOh : 96 -> 104
+~ _$s10TVRemoteUI16FMBTDistanceViewC5setup33_81CECCF7396760F5E3154CFF19BDF42DLLyyF : 1416 -> 1424
+~ _$s10TVRemoteUI8FMPFViewCfETo : 308 -> 316
+~ _$s10TVRemoteUI8FMPFViewC16setupConstraints33_0C28880E9BC50DB579CE816BFB919259LLyyF : 620 -> 628
+~ _$s10TVRemoteUI8FMPFViewC21thermalStateDidChange12notificationySo14NSNotificationC_tF : 272 -> 280
+~ _$s10TVRemoteUI8FMPFViewC14experienceType6config8distanceAcA012FMExperienceE0O_AA23FMPFSKPatternNodeConfigVSgSdSgtcfcTf4nndn_n : 1644 -> 1652
+~ _$s10TVRemoteUI23FMPFSKPatternNodeConfigVSgWOc : 104 -> 112
+~ _$s10TVRemoteUI21FindingViewControllerC15viewIsAppearingyySbFyAA17FMR1HapticPatternCSg_ypSgtcfU_ : 284 -> 300
+~ _$s10TVRemoteUI21FindingViewControllerC14startNISession33_DE8F564A9719421CF721C3D4855A5000LLyyF : 732 -> 740
+~ _$s10TVRemoteUI21FindingViewControllerC7session_6object15didUpdateRegion08previousJ0ySo9NISessionC_So14NINearbyObjectCSo17NIRegionPredicateCSgANtFySo7NSTimerCYbcfU_ : 244 -> 252
+~ _$s10TVRemoteUI21FindingViewControllerC21restartSessionOnError33_DE8F564A9719421CF721C3D4855A5000LLyyF : 1668 -> 1684
+~ _$s10TVRemoteUI21FindingViewControllerC16setupConstraints33_DE8F564A9719421CF721C3D4855A5000LLyyF : 3468 -> 3476
+~ _$s10TVRemoteUI21FindingViewControllerC11setupLabels33_DE8F564A9719421CF721C3D4855A5000LLyyF : 2588 -> 2628
+~ _$s10TVRemoteUI21FindingViewControllerC018updateInstructionsD033_DE8F564A9719421CF721C3D4855A5000LLyyF : 1004 -> 1012
+~ _$s10TVRemoteUI21FindingViewControllerC13updateHaptics33_DE8F564A9719421CF721C3D4855A5000LLyyF : 2636 -> 2724
+~ _$s10TVRemoteUI21FindingViewControllerC7session_6object15didUpdateRegion08previousJ0ySo9NISessionC_So14NINearbyObjectCSo17NIRegionPredicateCSgANtFTf4ddnnn_n : 3256 -> 3296
+~ _$s10TVRemoteUI21FindingViewControllerC7session_17didInvalidateWithySo9NISessionC_s5Error_ptFTf4dnn_nTm : 352 -> 360
+~ _$s10TVRemoteUI19FMPFSKBTRangingNodeC11setupLayout33_FF3E0C9B3EBD1D86932AE5BB99B09C13LLyyF : 508 -> 516
+
+```

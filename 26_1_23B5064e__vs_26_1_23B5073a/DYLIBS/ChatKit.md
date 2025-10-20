@@ -1,0 +1,853 @@
+## ChatKit
+
+> `/System/Library/PrivateFrameworks/ChatKit.framework/ChatKit`
+
+```diff
+
+-1450.200.88.2.1
+-  __TEXT.__text: 0xb23cc4
+-  __TEXT.__auth_stubs: 0xbe50
++1450.200.89.2.31
++  __TEXT.__text: 0xb3c71c
++  __TEXT.__auth_stubs: 0xbf30
+   __TEXT.__delay_helper: 0x99c
+-  __TEXT.__objc_methlist: 0x7177c
+-  __TEXT.__const: 0x32c84
+-  __TEXT.__gcc_except_tab: 0x28afc
+-  __TEXT.__cstring: 0x513c7
+-  __TEXT.__oslogstring: 0x4b743
++  __TEXT.__objc_methlist: 0x718e4
++  __TEXT.__const: 0x39fe4
++  __TEXT.__gcc_except_tab: 0x28b98
++  __TEXT.__cstring: 0x51897
++  __TEXT.__oslogstring: 0x4b8d3
+   __TEXT.__dlopen_cstrs: 0xb0e
+   __TEXT.__ustring: 0x18e
+-  __TEXT.__constg_swiftt: 0x1af80
+-  __TEXT.__swift5_typeref: 0x3fe0c
++  __TEXT.__constg_swiftt: 0x1b054
++  __TEXT.__swift5_typeref: 0x3ff22
+   __TEXT.__swift5_builtin: 0x7a8
+-  __TEXT.__swift5_reflstr: 0x10261
+-  __TEXT.__swift5_fieldmd: 0xe7f0
+-  __TEXT.__swift5_assocty: 0x4058
+-  __TEXT.__swift5_capture: 0x7308
+-  __TEXT.__swift5_proto: 0x175c
+-  __TEXT.__swift5_types: 0x11bc
++  __TEXT.__swift5_reflstr: 0x102a1
++  __TEXT.__swift5_fieldmd: 0xe844
++  __TEXT.__swift5_assocty: 0x40a0
++  __TEXT.__swift5_capture: 0x7318
++  __TEXT.__swift5_proto: 0x1768
++  __TEXT.__swift5_types: 0x11c8
+   __TEXT.__swift_as_entry: 0x414
+   __TEXT.__swift_as_ret: 0x3d0
+   __TEXT.__swift5_protos: 0xbc
+   __TEXT.__swift5_mpenum: 0xd0
+-  __TEXT.__unwind_info: 0x2def8
+-  __TEXT.__eh_frame: 0xd4ac
+-  __TEXT.__objc_classname: 0xb86b
+-  __TEXT.__objc_methname: 0x10da3e
++  __TEXT.__unwind_info: 0x2deb8
++  __TEXT.__eh_frame: 0xd4bc
++  __TEXT.__objc_classname: 0xb8af
++  __TEXT.__objc_methname: 0x10de48
+   __TEXT.__objc_methtype: 0x22a0b
+-  __TEXT.__objc_stubs: 0xa6a80
+-  __DATA_CONST.__got: 0x7240
+-  __DATA_CONST.__const: 0xef10
+-  __DATA_CONST.__objc_classlist: 0x2ef0
++  __TEXT.__objc_stubs: 0xa6dc0
++  __DATA_CONST.__got: 0x7278
++  __DATA_CONST.__const: 0xef08
++  __DATA_CONST.__objc_classlist: 0x2f00
+   __DATA_CONST.__objc_catlist: 0x558
+   __DATA_CONST.__objc_protolist: 0x1340
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x36340
++  __DATA_CONST.__objc_selrefs: 0x36430
+   __DATA_CONST.__objc_protorefs: 0x4f8
+   __DATA_CONST.__objc_superrefs: 0x1a68
+   __DATA_CONST.__objc_arraydata: 0xfd8
+-  __AUTH_CONST.__auth_got: 0x5f38
+-  __AUTH_CONST.__const: 0x38380
+-  __AUTH_CONST.__cfstring: 0x24700
+-  __AUTH_CONST.__objc_const: 0x9b428
++  __AUTH_CONST.__auth_got: 0x5fa8
++  __AUTH_CONST.__const: 0x38480
++  __AUTH_CONST.__cfstring: 0x24860
++  __AUTH_CONST.__objc_const: 0x9b678
+   __AUTH_CONST.__objc_arrayobj: 0xe70
+   __AUTH_CONST.__objc_intobj: 0x1128
+   __AUTH_CONST.__objc_doubleobj: 0x870
+   __AUTH_CONST.__objc_floatobj: 0x180
+   __AUTH_CONST.__objc_dictobj: 0x348
+-  __AUTH.__objc_data: 0x28a78
+-  __AUTH.__data: 0x12d60
++  __AUTH.__objc_data: 0x28b18
++  __AUTH.__data: 0x12de0
+   __DATA.__objc_ivar: 0x4b30
+-  __DATA.__data: 0x1f900
++  __DATA.__data: 0x1f8d0
+   __DATA.__objc_stublist: 0x40
+-  __DATA.__bss: 0x39150
++  __DATA.__bss: 0x39320
+   __DATA.__common: 0x1328
+   __DATA_DIRTY.__objc_data: 0x8760
+-  __DATA_DIRTY.__data: 0x7d0
++  __DATA_DIRTY.__data: 0x7a0
+   __DATA_DIRTY.__bss: 0x17b8
+   __DATA_DIRTY.__common: 0x50
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 17051162-95C9-3563-BDB2-8EA21F26F124
+-  Functions: 69994
+-  Symbols:   146332
+-  CStrings:  60656
++  UUID: B9996A40-D704-3396-892F-B0CBA19E4EE5
++  Functions: 70124
++  Symbols:   146469
++  CStrings:  60729
+ 
+Symbols:
++ +[CKCoreChatController(Backgrounds) _sharedShouldSuppressTranscriptBackgroundStatesForConversation:]
++ +[CKCoreChatController(Backgrounds) shouldSuppressTranscriptBackgroundEditingForConversation:]
++ +[CKCoreChatController(Backgrounds) shouldSuppressTranscriptBackgroundRenderingForConversation:]
++ +[CKMessageEntryContentView _platformNeedsConservativeLayoutUpdates]
++ +[CKMessageEntryContentView _platformNeedsConservativeLayoutUpdates].cold.1
++ +[CKSystemGlassLegibilitySettingTrait affectsColorAppearance]
++ +[CKSystemGlassLegibilitySettingTrait defaultValue]
++ +[CKSystemGlassLegibilitySettingTrait identifier]
++ +[CKSystemGlassLegibilitySettingTrait name]
++ +[CKSystemUserInterfaceStyleTrait affectsColorAppearance]
++ +[CKSystemUserInterfaceStyleTrait defaultValue]
++ +[CKSystemUserInterfaceStyleTrait identifier]
++ +[CKSystemUserInterfaceStyleTrait name]
++ +[CKUtilities _loadUIKitGlassLegibilityFunctions]
++ +[CKUtilities _loadUIKitGlassLegibilityFunctions].cold.1
++ +[CKUtilities systemGlassLegibilitySetting]
++ -[CKBlackholeConversationListCommonViewController dismissTranscript]
++ -[CKChatController _traitsAffectingBarAppearanceDidChange]
++ -[CKChatItem canEditMessageText].cold.1
++ -[CKConversation _sharedShouldSuppressTranscriptBackground]
++ -[CKConversation shouldSuppressTranscriptBackgroundEditing]
++ -[CKConversation shouldSuppressTranscriptBackgroundRendering]
++ -[CKMessageEntryContentView setStyle:forceUpdate:]
++ -[CKMessageEntryView _shouldMarkForLayoutAfterPropertyUpdate]
++ -[CKMessagePartChatItem canInlineReply].cold.1
++ -[CKMessagesController _systemGlassLegibilitySettingDidChange:]
++ -[CKMessagesController _updateTraitEnvironmentWithLatestSystemGlassSetting]
++ -[CKMessagesController _updateTraitEnvironmentWithLatestWindowSceneUserInterfaceStyle]
++ -[CKTranscriptBackgroundChannelController channelForChatGUIDBlockingIfNeeded:]
++ GCC_except_table1003
++ GCC_except_table1007
++ GCC_except_table1030
++ GCC_except_table1040
++ GCC_except_table1047
++ GCC_except_table1079
++ GCC_except_table1102
++ GCC_except_table1109
++ GCC_except_table1160
++ GCC_except_table1163
++ GCC_except_table1164
++ GCC_except_table1170
++ GCC_except_table1175
++ GCC_except_table1183
++ GCC_except_table1200
++ GCC_except_table1558
++ GCC_except_table1585
++ GCC_except_table1592
++ GCC_except_table1593
++ GCC_except_table1597
++ GCC_except_table1598
++ GCC_except_table160
++ GCC_except_table1611
++ GCC_except_table174
++ GCC_except_table229
++ GCC_except_table237
++ GCC_except_table242
++ GCC_except_table254
++ GCC_except_table261
++ GCC_except_table265
++ GCC_except_table273
++ GCC_except_table282
++ GCC_except_table288
++ GCC_except_table299
++ GCC_except_table310
++ GCC_except_table326
++ GCC_except_table336
++ GCC_except_table341
++ GCC_except_table346
++ GCC_except_table352
++ GCC_except_table359
++ GCC_except_table364
++ GCC_except_table374
++ GCC_except_table379
++ GCC_except_table393
++ GCC_except_table402
++ GCC_except_table405
++ GCC_except_table406
++ GCC_except_table413
++ GCC_except_table436
++ GCC_except_table451
++ GCC_except_table456
++ GCC_except_table476
++ GCC_except_table492
++ GCC_except_table499
++ GCC_except_table507
++ GCC_except_table516
++ GCC_except_table525
++ GCC_except_table535
++ GCC_except_table541
++ GCC_except_table554
++ GCC_except_table561
++ GCC_except_table573
++ GCC_except_table578
++ GCC_except_table579
++ GCC_except_table596
++ GCC_except_table605
++ GCC_except_table617
++ GCC_except_table632
++ GCC_except_table635
++ GCC_except_table642
++ GCC_except_table643
++ GCC_except_table648
++ GCC_except_table652
++ GCC_except_table656
++ GCC_except_table657
++ GCC_except_table661
++ GCC_except_table665
++ GCC_except_table673
++ GCC_except_table676
++ GCC_except_table682
++ GCC_except_table685
++ GCC_except_table691
++ GCC_except_table706
++ GCC_except_table709
++ GCC_except_table722
++ GCC_except_table725
++ GCC_except_table737
++ GCC_except_table750
++ GCC_except_table755
++ GCC_except_table787
++ GCC_except_table788
++ GCC_except_table792
++ GCC_except_table813
++ GCC_except_table814
++ GCC_except_table823
++ GCC_except_table829
++ GCC_except_table830
++ GCC_except_table839
++ GCC_except_table850
++ GCC_except_table855
++ GCC_except_table878
++ GCC_except_table881
++ GCC_except_table898
++ GCC_except_table901
++ GCC_except_table906
++ GCC_except_table914
++ GCC_except_table915
++ GCC_except_table918
++ GCC_except_table919
++ GCC_except_table929
++ GCC_except_table933
++ GCC_except_table936
++ GCC_except_table946
++ GCC_except_table947
++ GCC_except_table952
++ GCC_except_table955
++ GCC_except_table958
++ GCC_except_table963
++ GCC_except_table968
++ GCC_except_table971
++ GCC_except_table974
++ GCC_except_table980
++ GCC_except_table986
++ GCC_except_table987
++ GCC_except_table991
++ GCC_except_table992
++ GCC_except_table997
++ GCC_except_table998
++ _CFBundleGetBundleWithIdentifier
++ _CFBundleGetFunctionPointerForName
++ _CKUIViewGlassGetLegibilitySetting
++ _IMSharedHelperCurrentRegionRequiresKnownSenderForNickname
++ _IMSharedHelperGroupNameAndPhotoEnabled
++ _IMSharedHelperGroupNameAndPhotoRequiresParticipantContact
++ _OBJC_CLASS_$_CKSystemGlassLegibilitySettingTrait
++ _OBJC_CLASS_$_CKSystemUserInterfaceStyleTrait
++ _OBJC_CLASS_$_UIGlassEffect
++ _OBJC_CLASS_$__UIViewGlass
++ _OBJC_METACLASS_$_CKSystemGlassLegibilitySettingTrait
++ _OBJC_METACLASS_$_CKSystemUserInterfaceStyleTrait
++ __OBJC_$_CLASS_METHODS_CKSystemGlassLegibilitySettingTrait
++ __OBJC_$_CLASS_METHODS_CKSystemUserInterfaceStyleTrait
++ __OBJC_$_CLASS_PROP_LIST_CKSystemGlassLegibilitySettingTrait
++ __OBJC_$_CLASS_PROP_LIST_CKSystemUserInterfaceStyleTrait
++ __OBJC_$_INSTANCE_METHODS_UITraitCollection(ForCoreChatController|ChatKit|ChatKit1|ChatKit2|ChatKit3|ChatKit4)
++ __OBJC_CLASS_PROTOCOLS_$_CKSystemGlassLegibilitySettingTrait
++ __OBJC_CLASS_PROTOCOLS_$_CKSystemUserInterfaceStyleTrait
++ __OBJC_CLASS_RO_$_CKSystemGlassLegibilitySettingTrait
++ __OBJC_CLASS_RO_$_CKSystemUserInterfaceStyleTrait
++ __OBJC_METACLASS_RO_$_CKSystemGlassLegibilitySettingTrait
++ __OBJC_METACLASS_RO_$_CKSystemUserInterfaceStyleTrait
++ ___105-[CKTranscriptBackgroundChannelController _asyncFetchNewGalleryObjectForChannel:fetchRequest:completion:]_block_invoke.92
++ ___111-[CKChatController(ClickyOrbConformance) _exportActionForChatItem:shouldUseTopMostChatItemIfAggregateChatItem:]_block_invoke.412
++ ___111-[CKChatController(ClickyOrbConformance) _exportActionForChatItem:shouldUseTopMostChatItemIfAggregateChatItem:]_block_invoke.412.cold.1
++ ___112-[CKMessagesController showConversation:animate:forceToTranscript:keepAllCurrentlyLoadedMessages:userInitiated:]_block_invoke.958
++ ___112-[CKMessagesController showConversation:animate:forceToTranscript:keepAllCurrentlyLoadedMessages:userInitiated:]_block_invoke.959
++ ___112-[CKMessagesController showConversation:animate:forceToTranscript:keepAllCurrentlyLoadedMessages:userInitiated:]_block_invoke.967
++ ___112-[CKMessagesController showConversation:animate:forceToTranscript:keepAllCurrentlyLoadedMessages:userInitiated:]_block_invoke_2.960
++ ___115-[CKChatController _presentCollabAddToMessagesGroupAlertIfNecessary:collaborationType:sendBlock:completionHandler:]_block_invoke.1348
++ ___132-[CKTranscriptBackgroundChannelController fetchPosterGalleryForChatGUID:deviceIndependentID:backgroundGUID:fetchRequest:completion:]_block_invoke.87
++ ___133-[CKChatController(ClickyOrbConformance) transcriptCollectionViewController:willEndContextMenuInteractionWithConfiguration:animator:]_block_invoke.253
++ ___136-[CKTranscriptBackgroundChannelController updateChannelUsingChatGUID:deviceIndependentID:backgroundGUID:posterConfiguration:completion:]_block_invoke.79
++ ___140-[CKTranscriptBackgroundChannelController loadChannelAsyncForChatGUID:deviceIndependentID:backgroundGUID:createsChannelIfNeeded:completion:]_block_invoke.74
++ ___145-[CKChatController _sendAutomaticallyPlacedSticker:stickerReactionSession:forChatItem:forParentChatItem:stickerFrame:animationCompletionHandler:]_block_invoke.1220
++ ___221-[CKMessageEntryContentView initWithFrame:shouldShowSubject:shouldDisableAttachments:shouldUseNonEmojiKeyboard:shouldUseNonHandwritingKeyboard:shouldDisableKeyboardStickers:shouldAllowPollSuggestions:translationLanguage:]_block_invoke
++ ___31-[CKChatController viewDidLoad]_block_invoke_2
++ ___32-[CKChatItem canEditMessageText]_block_invoke
++ ___39-[CKChatController addToCollaboration:]_block_invoke.1581
++ ___39-[CKChatController addToCollaboration:]_block_invoke_2.1583
++ ___39-[CKMessagePartChatItem canInlineReply]_block_invoke
++ ___45-[CKChatController _handleChatItemDidChange:]_block_invoke.1559
++ ___46-[CKChatController viewDidAppearDeferredSetup]_block_invoke.737
++ ___46-[CKChatController viewDidAppearDeferredSetup]_block_invoke.740
++ ___46-[CKChatController viewDidAppearDeferredSetup]_block_invoke_2.738
++ ___46-[CKChatController viewDidAppearDeferredSetup]_block_invoke_2.741
++ ___46-[CKMessagesController performSearchForQuery:]_block_invoke.534
++ ___47-[CKChatController sendComposition:animations:]_block_invoke.830
++ ___47-[CKMessageEntryTextView handleTapOrLongPress:]_block_invoke.278
++ ___49+[CKUtilities _loadUIKitGlassLegibilityFunctions]_block_invoke
++ ___49-[CKChatController _interfaceActionsForChatItem:]_block_invoke.1488
++ ___49-[CKChatController _interfaceActionsForChatItem:]_block_invoke.1492
++ ___49-[CKChatController _interfaceActionsForChatItem:]_block_invoke_2.1494
++ ___49-[CKChatController _interfaceActionsForChatItem:]_block_invoke_3.1498
++ ___49-[CKChatController _interfaceActionsForChatItem:]_block_invoke_4.1502
++ ___49-[CKChatController _interfaceActionsForChatItem:]_block_invoke_5.1503
++ ___49-[CKChatController _interfaceActionsForChatItem:]_block_invoke_6.1507
++ ___58-[CKChatController chatInputControllerDidSelectFunCamera:]_block_invoke.1216
++ ___59-[CKChatController _validateAndSendComposition:completion:]_block_invoke.1370
++ ___59-[CKChatController _validateAndSendComposition:completion:]_block_invoke.1373
++ ___59-[CKChatController _validateAndSendComposition:completion:]_block_invoke_2.1371
++ ___59-[CKChatController _validateAndSendComposition:completion:]_block_invoke_2.1375
++ ___62-[CKChatController sendCompositionForFileProvider:completion:]_block_invoke.1258
++ ___62-[CKChatController sendCompositionForFileProvider:completion:]_block_invoke.1259
++ ___62-[CKChatController sendCompositionForFileProvider:completion:]_block_invoke.1259.cold.1
++ ___62-[CKChatController sendCompositionForFileProvider:completion:]_block_invoke.1260
++ ___62-[CKChatController sendCompositionForFileProvider:completion:]_block_invoke.1261
++ ___62-[CKChatController sendCompositionForFileProvider:completion:]_block_invoke.1262
++ ___66-[CKMessagesController _checkPushToTranscriptTimingWithStartTime:]_block_invoke.931
++ ___67-[CKChatController _sendCompositionForNewCloudKitShare:completion:]_block_invoke.1321
++ ___68+[CKMessageEntryContentView _platformNeedsConservativeLayoutUpdates]_block_invoke
++ ___69-[CKChatController nicknameBannerView:actionButtonTapped:forUpdates:]_block_invoke.1575
++ ___70-[CKChatController sendCompositionForPendingCollaboration:completion:]_block_invoke.1331
++ ___70-[CKChatController sendCompositionForPendingCollaboration:completion:]_block_invoke.1333
++ ___70-[CKChatController sendCompositionForPendingCollaboration:completion:]_block_invoke.1335
++ ___70-[CKChatController sendCompositionForPendingCollaboration:completion:]_block_invoke.1337
++ ___71-[CKCoreChatController(Backgrounds) _setupTranscriptBackgroundIfNeeded]_block_invoke.236
++ ___71-[CKCoreChatController(Backgrounds) _setupTranscriptBackgroundIfNeeded]_block_invoke.236.cold.1
++ ___71-[CKCoreChatController(Backgrounds) _setupTranscriptBackgroundIfNeeded]_block_invoke.239
++ ___71-[CKCoreChatController(Backgrounds) _setupTranscriptBackgroundIfNeeded]_block_invoke_2.240
++ ___72-[CKChatController textPasteConfigurationSupporting:transformPasteItem:]_block_invoke.1622
++ ___73-[CKChatController _sendCompositionForFileProviderCloudDrive:completion:]_block_invoke.1289
++ ___73-[CKChatController _sendCompositionForFileProviderCloudDrive:completion:]_block_invoke.1290
++ ___73-[CKTranscriptBackgroundChannelController channelForChatGUID:completion:]_block_invoke_2
++ ___75-[CKCoreChatController(Backgrounds) updateTranscriptBackground:transferID:]_block_invoke.264
++ ___76-[CKChatController _startSharingForURLForFileProviderCloudDrive:completion:]_block_invoke.1298
++ ___76-[CKChatController _startSharingForURLForFileProviderCloudDrive:completion:]_block_invoke.1299
++ ___77-[CKChatController selectedBalloonIntersectingRect:chatItemForRepositioning:]_block_invoke.1208
++ ___77-[CKChatController(ClickyOrbConformance) _downgradeMessageActionForChatItem:]_block_invoke.421
++ ___79-[CKMessagesController showConversationListWithAnimation:didDismissController:]_block_invoke.980
++ ___81-[CKChatController sendCompositionForCollaboration:collaborationType:completion:]_block_invoke.1338
++ ___86-[CKChatController _presentCollabAddToMessagesGroupAlert:sendBlock:completionHandler:]_block_invoke.1363
++ ___86-[CKChatController _presentCollabAddToMessagesGroupAlert:sendBlock:completionHandler:]_block_invoke.1364
++ ___87-[CKChatController _removeSubsharesAndSendFileProviderComposition:shareURL:completion:]_block_invoke.1312
++ ___89-[CKChatController _updateAndSendCompositionForFileProvider:share:sharingURL:completion:]_block_invoke.1306
++ ___89-[CKChatController _updateAndSendCompositionForFileProvider:share:sharingURL:completion:]_block_invoke.1306.cold.1
++ ___89-[CKChatController _updateAndSendCompositionForFileProvider:share:sharingURL:completion:]_block_invoke.1307
++ ___89-[CKChatController _updateAndSendCompositionForFileProvider:share:sharingURL:completion:]_block_invoke.1309
++ ___89-[CKChatController _updateAndSendCompositionForFileProvider:share:sharingURL:completion:]_block_invoke.1310
++ ___89-[CKChatController _updateAndSendCompositionForFileProvider:share:sharingURL:completion:]_block_invoke_2.1311
++ ___89-[CKCoreChatController(Backgrounds) _transitionToPosterKitPosterConfiguration:onChannel:]_block_invoke.257
++ ___89-[CKCoreChatController(Backgrounds) _transitionToPosterKitPosterConfiguration:onChannel:]_block_invoke.257.cold.1
++ ___93-[CKChatController _sendCollaborationCompositionForFileProvider:sharingURL:share:completion:]_block_invoke.1276
++ ___93-[CKChatController _sendCollaborationCompositionForFileProvider:sharingURL:share:completion:]_block_invoke.1278
++ ___95-[CKChatController _updateAndSendCompositionForExistingCloudKitShare:share:attempt:completion:]_block_invoke.1329
++ ___block_descriptor_32_e57_v24?0"CKMessageEntryContentView"8"UITraitCollection"16l
++ ___block_descriptor_48_e8_32bs_e40_v24?0"PRUISPosterChannel"8"NSError"16ls32l8
++ ___block_descriptor_56_e8_32s40bs48w_e40_v24?0"PRUISPosterChannel"8"NSError"16ls32l8w48l8s40l8
++ ___block_descriptor_73_e8_32s40s48s56bs64w_e40_v24?0"PRUISPosterChannel"8"NSError"16ls56l8w64l8s32l8s40l8s48l8
++ ___block_descriptor_80_e8_32s40s48s56s64bs72w_e40_v24?0"PRUISPosterChannel"8"NSError"16ls32l8w72l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_80_e8_32s40s48s56s64bs72w_e40_v24?0"PRUISPosterChannel"8"NSError"16lw72l8s32l8s64l8s40l8s48l8s56l8
++ ___block_descriptor_80_e8_32s40s48s56s64s72w_e17_v16?0"NSError"8ls32l8s40l8w72l8s48l8s56l8s64l8
++ ___block_descriptor_88_e8_32s40s48s56s64s72s80w_e5_v8?0ls32l8s40l8s48l8w80l8s56l8s64l8s72l8
++ ___block_literal_global.1165
++ ___block_literal_global.1228
++ ___block_literal_global.1249
++ ___block_literal_global.1252
++ ___block_literal_global.1394
++ ___block_literal_global.1398
++ ___block_literal_global.1400
++ ___block_literal_global.1664
++ ___block_literal_global.1684
++ ___block_literal_global.1696
++ ___block_literal_global.1699
++ ___block_literal_global.1713
++ ___block_literal_global.1715
++ ___block_literal_global.1717
++ ___block_literal_global.1721
++ ___block_literal_global.1737
++ ___block_literal_global.1805
++ ___block_literal_global.1865
++ ___block_literal_global.1892
++ ___block_literal_global.1940
++ ___block_literal_global.1942
++ ___block_literal_global.1946
++ ___block_literal_global.1995
++ ___block_literal_global.2118
++ ___block_literal_global.2152
++ ___block_literal_global.289
++ ___block_literal_global.4007
++ ___block_literal_global.4015
++ ___block_literal_global.4017
++ ___block_literal_global.669
++ ___block_literal_global.674
++ ___block_literal_global.809
++ ___block_literal_global.823
++ ___block_literal_global.835
++ ___block_literal_global.855
++ ___block_literal_global.94
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
++ __loadUIKitGlassLegibilityFunctions.onceToken
++ __platformNeedsConservativeLayoutUpdates.flag
++ __platformNeedsConservativeLayoutUpdates.onceToken
++ _associated conformance 7ChatKit27TapbackGlassPlatterModifierVyxG7SwiftUI04ViewF0AA4BodyAeFP_AE0I0
++ _canEditMessageText.canAlwaysEditMessageText
++ _canEditMessageText.onceToken
++ _canInlineReply.canAlwaysReply
++ _canInlineReply.onceToken
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA10_ShapeViewVyAA6CircleVAA04TintE5StyleVGAA16_OverlayModifierVyAA14GeometryReaderVyACyACyACyACyAA5ImageVAA022_EnvironmentKeyWritingK0VyAA5ColorVSgGGAA18_AspectRatioLayoutVGAA06_FrameU0VGAA09_PositionU0VGGGGAA0F0HPAjAA8_HPyHC_A6_AA0fK0HPyHCHC.66
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVAA0F0PAAE5badgeyQrSiFQOyAA14NavigationLinkVyAA5LabelVyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGG7ChatKit27ClarityUIConversationAvatarVGs5NeverOG_Qo_GAA017_AppearanceActionS0VGAaKHPA5_AaKHPyHC_A7_AA0fS0HPyHCHC.77
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA15NavigationStackVyAA0E4PathVAA4ViewPAAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaHRd_0_r0_lFQOyAiAEAjkLQrqd__m_qd_0_qd__ctSHRd__AaHRd_0_r0_lFQOy7ChatKit016ConversationListH033_D1386C37E60034E734BCB96CE9AB5D3ELLV_AM21ClarityUIConversationVAM0y12UITranscriptH0VQo__AM0y6UIRootH0V0J0OAA012_ConditionalD0VyA_yAiAE0I5Title_4iconQrqd___qd_0_tSyRd__AaHRd_0_r0_lFQOyAP_SSAM08MessagesY16UINavigationIconAOLLVQo_A4_GAiAEA0__A1_QrAA4TextV_qd__tAaHRd__lFQOyAP_A3_Qo_GQo_GAA30_EnvironmentKeyWritingModifierVyAA13AnyShapeStyleVSgGGAA25_AppearanceActionModifierVGAaHHPA18_AaHHPA11_AaHHPyHC_A17_AA0H8ModifierHPyHCHC_A20_AAA22_HPyHCHC.45
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy7ChatKit011Attributionf10BackgroundG0VGAH019TapbackGlassPlatterG0VyAA16RoundedRectangleVGGAEyAEyAkA01_kG0VyAEyAEyAA6ZStackVyAA05TupleF0VyAH012VisualEffectF13RepresentableV_AA06_ShapeF0VyAA0P0VAA5ColorVGAEyA4_AA010_AnimationG0VySbGGtGGAA08_OverlayG0VyAA06StrokevF0VyAOA3_AA05EmptyF0VGGGAA05_ClipT0VyAOGGGGAA07_ShadowT0VGGAA0F0HPAqAA30_HPAkAA30_HPyHC_ApA0fG0HPyHCHC_A28_AAA30_HPA25_AAA30_HPAkAA30_HPyHC_A24_AAA31_HPyHCHC_A27_AAA31_HPyHCHCHC.2
++ _get_witness_table 7SwiftUI4ListVys5NeverOAA9TupleViewVyAA15ModifiedContentVyAA7ForEachVySay7ChatKit21ClarityUIConversationVGSSAL15ConversationRow33_D1386C37E60034E734BCB96CE9AB5D3ELLVGAA30_EnvironmentKeyWritingModifierVyAA13AnyShapeStyleVSgGG_AA0F0PAAE5badgeyQrSiFQOyAA14NavigationLinkVyAA5LabelVyAA4TextVAA5ImageVGAEG_Qo_SgA13_A13_tGGAAA_HPyHC.65
++ _get_witness_table 7SwiftUI5ShapeRzlAA19_ConditionalContentVyAA4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA01_C3SetVtFQOyAA01_f9Modifier_E0Vy7ChatKit012GlassPlatterL0VyxGG_Qo_ASGAaEHPqd__AaEHD2_ATHO_AsaEHPyHCHCTm
++ _get_witness_table 7SwiftUI5ShapeRzlAA19_ConditionalContentVyAA4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA01_C3SetVtFQOyAA01_f9Modifier_E0Vy7ChatKit019TapbackGlassPlatterL0VyxGG_Qo_ASGAaEHPqd__AaEHD2_ATHO_AsaEHPyHCHC.10
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAHyAA6ButtonVyAcAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQOyAHyAcAE16keyframeAnimator0G5Value9repeating7content9keyframesQrqd___Sbqd_0_AA011PlaceholderiC0VyxG_qd__tYbcqd_1_qd__ct0R0Qyd_1_Rsd__AaBRd_0_AA9KeyframesRd_1_r1_lFQOyAHyAHyAHyAcAE10fontWeightyQrAA4FontV0Y0VSgFQOyAHyAA5ImageVAA30_EnvironmentKeyWritingModifierVyA6_5ScaleOGG_Qo_AA18_AspectRatioLayoutVGAA24_ForegroundStyleModifierVyAA5ColorVGGAA14_PaddingLayoutVG_7ChatKit09CKCatchUpJ7ManagerC0Q0C15AnimationValuesVAHyAVyA25_GAA07_OffsetL0VGAA13KeyframeTrackVyA32_SdAA013KeyframeTrackI7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tAXQyd__RszAA013KeyframeTrackI0Rd__AAA45_Rd_0_AXQyd_0_A44_RSr0_lFZQOySd_A40_A41_A42_A43_Qrqd___qd_0_tA44_RszAAA45_Rd__AAA45_Rd_0_A46_A44_RSr0_lFZQOySd_A40_A41_A42_A43_Qrqd___qd_0_tA44_RszAAA45_Rd__AAA45_Rd_0_A46_A44_RSr0_lFZQOySd_AA14SpringKeyframeVySdGA49_Qo_A49_Qo_AA14LinearKeyframeVySdGQo_GQo_AA01_iO8ModifierVyAA6CircleVGG_A61_Qo_GA35_GAA08_OpacityL0VG_SbQo__SbQo_HO.52
++ _objc_msgSend$_loadUIKitGlassLegibilityFunctions
++ _objc_msgSend$_platformNeedsConservativeLayoutUpdates
++ _objc_msgSend$_setFixedUserInterfaceStyle:
++ _objc_msgSend$_sharedShouldSuppressTranscriptBackground
++ _objc_msgSend$_sharedShouldSuppressTranscriptBackgroundStatesForConversation:
++ _objc_msgSend$_shouldMarkForLayoutAfterPropertyUpdate
++ _objc_msgSend$_traitsAffectingBarAppearanceDidChange
++ _objc_msgSend$_updateTraitEnvironmentWithLatestSystemGlassSetting
++ _objc_msgSend$_updateTraitEnvironmentWithLatestWindowSceneUserInterfaceStyle
++ _objc_msgSend$bottomEdgeEffect
++ _objc_msgSend$channelForChatGUIDBlockingIfNeeded:
++ _objc_msgSend$channelForIdentifier:completion:
++ _objc_msgSend$channelForIdentifierIfImmediatelyAvailable:error:
++ _objc_msgSend$ck_systemUserInterfaceStyle
++ _objc_msgSend$effectWithGlass:
++ _objc_msgSend$initWithVariant:
++ _objc_msgSend$isDiffusedSystemGlassSettingEnabled
++ _objc_msgSend$selectedRanges
++ _objc_msgSend$setBackgroundEffect:
++ _objc_msgSend$setFlexible:
++ _objc_msgSend$setPreferredMenuMaterial:
++ _objc_msgSend$setStyle:forceUpdate:
++ _objc_msgSend$setSubvariant:
++ _objc_msgSend$shouldSuppressTranscriptBackgroundEditing
++ _objc_msgSend$shouldSuppressTranscriptBackgroundEditingForConversation:
++ _objc_msgSend$shouldSuppressTranscriptBackgroundRendering
++ _objc_msgSend$shouldSuppressTranscriptBackgroundRenderingForConversation:
++ _objc_msgSend$systemGlassLegibilitySetting
++ _symbolic _____ 7ChatKit27TapbackGlassPlatterModifierV
++ _symbolic _____ 7ChatKit31CKSystemUserInterfaceStyleTraitV
++ _symbolic _____ 7ChatKit35CKSystemGlassLegibilitySettingTraitV
++ _symbolic _____ 7SwiftUI22FinishLaunchTestActionV
++ _symbolic _____yAAy_____y__________y_____y________________Qo____________yAIy_____yAD_SS_____Qo_AKG_____yAD_AJQo_GQo_G_____y_____SgGG_____G 7SwiftUI15ModifiedContentV AA15NavigationStackV AA0E4PathV AA4ViewPAAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaHRd_0_r0_lFQO AiAEAjkLQrqd__m_qd_0_qd__ctSHRd__AaHRd_0_r0_lFQO 7ChatKit016ConversationListH033_D1386C37E60034E734BCB96CE9AB5D3ELLV AM21ClarityUIConversationV AM0y12UITranscriptH0V AM0y6UIRootH0V0J0O AA012_ConditionalD0V AiAE0I5Title_4iconQrqd___qd_0_tSyRd__AaHRd_0_r0_lFQO AM08MessagesY16UINavigationIconAOLLV AiAEA__A0_QrAA4TextV_qd__tAaHRd__lFQO AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV AA25_AppearanceActionModifierV
++ _symbolic _____yAAy_____y_____yAAy_____yAAyAAyAAy_____yAAy__________y_____GG_Qo______G_____y_____GG_____G______AAy_____yAPG_____G_____yAQSd_____ySd______ySd______ySd______ySdGAXQo_AXQo______ySdGQo_GQo______y_____GG_A5_Qo_GATG_____G 7SwiftUI15ModifiedContentV AA6ButtonV AA4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AgAE16keyframeAnimator12initialValue9repeating7content9keyframesQrqd___Sbqd_0_AA011PlaceholderdF0VyxG_qd__tYbcqd_1_qd__ct0O0Qyd_1_Rsd__AaFRd_0_AA9KeyframesRd_1_r1_lFQO AgAE10fontWeightyQrAA4FontV0V0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV A3_5ScaleO AA18_AspectRatioLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV 7ChatKit09CKCatchUpE7ManagerC0M0C15AnimationValuesV AS AA07_OffsetH0V AA13KeyframeTrackV AA013KeyframeTrackD7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tAUQyd__RszAA013KeyframeTrackD0Rd__AAA33_Rd_0_AUQyd_0_A32_RSr0_lFZQO A28_A29_A30_A31_Qrqd___qd_0_tA32_RszAAA33_Rd__AAA33_Rd_0_A34_A32_RSr0_lFZQO A28_A29_A30_A31_Qrqd___qd_0_tA32_RszAAA33_Rd__AAA33_Rd_0_A34_A32_RSr0_lFZQO AA14SpringKeyframeV AA14LinearKeyframeV AA01_dK8ModifierV AA6CircleV AA08_OpacityH0V
++ _symbolic _____y_____G 7ChatKit27TapbackGlassPlatterModifierV 7SwiftUI16RoundedRectangleV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA22FinishLaunchTestActionV
++ _symbolic _____y_____G 7SwiftUI21_ContentShapeModifierV AA6CircleV
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO AA22FinishLaunchTestActionV
++ _symbolic _____y_____yAAyAAyAAy_____yAAy__________y_____GG_Qo______G_____y_____GG_____G______AAy_____yAOG_____G_____yAPSd_____ySd______ySd______ySd______ySdGAWQo_AWQo______ySdGQo_GQo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE16keyframeAnimator12initialValue9repeating7content9keyframesQrqd___Sbqd_0_AA011PlaceholderdE0VyxG_qd__tYbcqd_1_qd__ct0I0Qyd_1_Rsd__AaDRd_0_AA9KeyframesRd_1_r1_lFQO AeAE10fontWeightyQrAA4FontV0P0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AX5ScaleO AA18_AspectRatioLayoutV AA016_ForegroundStyleV0V AA5ColorV AA08_PaddingZ0V 7ChatKit22CKCatchUpButtonManagerC0G0C15AnimationValuesV AL AA13_OffsetEffectV AA13KeyframeTrackV AA013KeyframeTrackD7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tANQyd__RszAA013KeyframeTrackD0Rd__AAA26_Rd_0_ANQyd_0_A25_RSr0_lFZQO A21_A22_A23_A24_Qrqd___qd_0_tA25_RszAAA26_Rd__AAA26_Rd_0_A27_A25_RSr0_lFZQO A21_A22_A23_A24_Qrqd___qd_0_tA25_RszAAA26_Rd__AAA26_Rd_0_A27_A25_RSr0_lFZQO AA14SpringKeyframeV AA14LinearKeyframeV AA01_d5ShapeV0V AA6CircleV
++ _symbolic _____y_____yAAy_____y_____yAAy_____yAAyAAyAAy_____yAAy__________y_____GG_Qo______G_____y_____GG_____G______AAy_____yAPG_____G_____yAQSd_____ySd______ySd______ySd______ySdGAXQo_AXQo______ySdGQo_GQo______y_____GG_A5_Qo_GATG_____G_SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AA6ButtonV AcAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AcAE16keyframeAnimator0G5Value9repeating7content9keyframesQrqd___Sbqd_0_AA011PlaceholderiC0VyxG_qd__tYbcqd_1_qd__ct0R0Qyd_1_Rsd__AaBRd_0_AA9KeyframesRd_1_r1_lFQO AcAE10fontWeightyQrAA4FontV0Y0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV A6_5ScaleO AA18_AspectRatioLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV 7ChatKit09CKCatchUpJ7ManagerC0Q0C15AnimationValuesV AV AA07_OffsetL0V AA13KeyframeTrackV AA013KeyframeTrackI7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tAXQyd__RszAA013KeyframeTrackI0Rd__AAA36_Rd_0_AXQyd_0_A35_RSr0_lFZQO A31_A32_A33_A34_Qrqd___qd_0_tA35_RszAAA36_Rd__AAA36_Rd_0_A37_A35_RSr0_lFZQO A31_A32_A33_A34_Qrqd___qd_0_tA35_RszAAA36_Rd__AAA36_Rd_0_A37_A35_RSr0_lFZQO AA14SpringKeyframeV AA14LinearKeyframeV AA01_iO8ModifierV AA6CircleV AA08_OpacityL0V
++ _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 7ChatKit011Attributione10BackgroundF0V AF019TapbackGlassPlatterF0V AA16RoundedRectangleV
++ _symbolic _____y_____y_____yAAyAAyAAy_____yAAy__________y_____GG_Qo______G_____y_____GG_____G______AAy_____yAOG_____G_____yAPSd_____ySd______ySd______ySd______ySdGAWQo_AWQo______ySdGQo_GQo______y_____GG_A4_Qo_ 7SwiftUI4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AcAE16keyframeAnimator12initialValue9repeating7content9keyframesQrqd___Sbqd_0_AA011PlaceholderjC0VyxG_qd__tYbcqd_1_qd__ct0N0Qyd_1_Rsd__AaBRd_0_AA9KeyframesRd_1_r1_lFQO AcAE10fontWeightyQrAA4FontV0U0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV A1_5ScaleO AA18_AspectRatioLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV 7ChatKit22CKCatchUpButtonManagerC0L0C15AnimationValuesV AQ AA07_OffsetE0V AA13KeyframeTrackV AA013KeyframeTrackJ7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tASQyd__RszAA013KeyframeTrackJ0Rd__AAA31_Rd_0_ASQyd_0_A30_RSr0_lFZQO A26_A27_A28_A29_Qrqd___qd_0_tA30_RszAAA31_Rd__AAA31_Rd_0_A32_A30_RSr0_lFZQO A26_A27_A28_A29_Qrqd___qd_0_tA30_RszAAA31_Rd__AAA31_Rd_0_A32_A30_RSr0_lFZQO AA14SpringKeyframeV AA14LinearKeyframeV AA01_jH8ModifierV AA6CircleV
++ _symbolic _____y_____y_____yAAy_____yAAyAAyAAy_____yAAy__________y_____GG_Qo______G_____y_____GG_____G______AAy_____yAPG_____G_____yAQSd_____ySd______ySd______ySd______ySdGAXQo_AXQo______ySdGQo_GQo______y_____GG_A5_Qo_GATG 7SwiftUI15ModifiedContentV AA6ButtonV AA4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AgAE16keyframeAnimator12initialValue9repeating7content9keyframesQrqd___Sbqd_0_AA011PlaceholderdF0VyxG_qd__tYbcqd_1_qd__ct0O0Qyd_1_Rsd__AaFRd_0_AA9KeyframesRd_1_r1_lFQO AgAE10fontWeightyQrAA4FontV0V0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV A3_5ScaleO AA18_AspectRatioLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV 7ChatKit09CKCatchUpE7ManagerC0M0C15AnimationValuesV AS AA07_OffsetH0V AA13KeyframeTrackV AA013KeyframeTrackD7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tAUQyd__RszAA013KeyframeTrackD0Rd__AAA33_Rd_0_AUQyd_0_A32_RSr0_lFZQO A28_A29_A30_A31_Qrqd___qd_0_tA32_RszAAA33_Rd__AAA33_Rd_0_A34_A32_RSr0_lFZQO A28_A29_A30_A31_Qrqd___qd_0_tA32_RszAAA33_Rd__AAA33_Rd_0_A34_A32_RSr0_lFZQO AA14SpringKeyframeV AA14LinearKeyframeV AA01_dK8ModifierV AA6CircleV
++ _symbolic _____y_____y_____yAAy_____y_____yAAy_____yAAyAAyAAy_____yAAy__________y_____GG_Qo______G_____y_____GG_____G______AAy_____yAPG_____G_____yAQSd_____ySd______ySd______ySd______ySdGAXQo_AXQo______ySdGQo_GQo______y_____GG_A5_Qo_GATG_____G_SbQo__SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AA6ButtonV AcAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AcAE16keyframeAnimator0G5Value9repeating7content9keyframesQrqd___Sbqd_0_AA011PlaceholderiC0VyxG_qd__tYbcqd_1_qd__ct0R0Qyd_1_Rsd__AaBRd_0_AA9KeyframesRd_1_r1_lFQO AcAE10fontWeightyQrAA4FontV0Y0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV A6_5ScaleO AA18_AspectRatioLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV 7ChatKit09CKCatchUpJ7ManagerC0Q0C15AnimationValuesV AV AA07_OffsetL0V AA13KeyframeTrackV AA013KeyframeTrackI7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tAXQyd__RszAA013KeyframeTrackI0Rd__AAA36_Rd_0_AXQyd_0_A35_RSr0_lFZQO A31_A32_A33_A34_Qrqd___qd_0_tA35_RszAAA36_Rd__AAA36_Rd_0_A37_A35_RSr0_lFZQO A31_A32_A33_A34_Qrqd___qd_0_tA35_RszAAA36_Rd__AAA36_Rd_0_A37_A35_RSr0_lFZQO AA14SpringKeyframeV AA14LinearKeyframeV AA01_iO8ModifierV AA6CircleV AA08_OpacityL0V
++ _symbolic _____y_____y_____y_____G_____y_____GGAByAByAE_____yAByABy_____y_____y___________y__________GAByAQ_____ySbGGtGG_____y_____yAgP_____GGG_____yAGGGGG_____GG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 7ChatKit011Attributionf10BackgroundG0V AH019TapbackGlassPlatterG0V AA16RoundedRectangleV AA01_kG0V AA6ZStackV AA05TupleF0V AH012VisualEffectF13RepresentableV AA06_ShapeF0V AA0P0V AA5ColorV AA010_AnimationG0V AA08_OverlayG0V AA06StrokevF0V AA05EmptyF0V AA05_ClipT0V AA07_ShadowT0V
++ _symbolic _____y_____y_____y_____G_____y_____GGAByAByAE_____yAByABy_____y_____y___________y__________GAByAQ_____ySbGGtGG_____y_____yAgP_____GGG_____yAGGGGG_____G_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 7ChatKit011Attributiong10BackgroundH0V AJ019TapbackGlassPlatterH0V AA16RoundedRectangleV AA01_lH0V AA6ZStackV AA05TupleG0V AJ012VisualEffectG13RepresentableV AA06_ShapeG0V AA0Q0V AA5ColorV AA010_AnimationH0V AA08_OverlayH0V AA06StrokewG0V AA05EmptyG0V AA05_ClipU0V AA07_ShadowU0V
++ _symbolic _____y_____y_____y_____yAByAByABy_____yABy__________y_____GG_Qo______G_____y_____GG_____G______ABy_____yAPG_____G_____yAQSd_____ySd______ySd______ySd______ySdGAXQo_AXQo______ySdGQo_GQo______y_____GG_A5_Qo_G 7SwiftUI6ButtonV AA4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AeAE16keyframeAnimator12initialValue9repeating7content9keyframesQrqd___Sbqd_0_AA011PlaceholderkD0VyxG_qd__tYbcqd_1_qd__ct0O0Qyd_1_Rsd__AaDRd_0_AA9KeyframesRd_1_r1_lFQO AeAE10fontWeightyQrAA4FontV0V0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV A3_5ScaleO AA18_AspectRatioLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV 7ChatKit09CKCatchUpC7ManagerC0M0C15AnimationValuesV AS AA07_OffsetF0V AA13KeyframeTrackV AA013KeyframeTrackK7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tAUQyd__RszAA013KeyframeTrackK0Rd__AAA33_Rd_0_AUQyd_0_A32_RSr0_lFZQO A28_A29_A30_A31_Qrqd___qd_0_tA32_RszAAA33_Rd__AAA33_Rd_0_A34_A32_RSr0_lFZQO A28_A29_A30_A31_Qrqd___qd_0_tA32_RszAAA33_Rd__AAA33_Rd_0_A34_A32_RSr0_lFZQO AA14SpringKeyframeV AA14LinearKeyframeV AA01_kI8ModifierV AA6CircleV
++ _symbolic _____y_____y_____y_____yxGG_Qo_AEG 7SwiftUI19_ConditionalContentV AA4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AA01_e9Modifier_D0V 7ChatKit019TapbackGlassPlatterL0V
+- +[CKCoreChatController(Backgrounds) shouldSuppressTranscriptBackgroundUIForConversation:]
+- -[CKConversation shouldSuppressTranscriptBackgroundUI]
+- -[CKMessageEntryTextView configurePlaceholderLabelForTraitCollection:]
+- GCC_except_table1001
+- GCC_except_table1005
+- GCC_except_table1028
+- GCC_except_table1031
+- GCC_except_table1038
+- GCC_except_table1045
+- GCC_except_table1075
+- GCC_except_table1100
+- GCC_except_table1105
+- GCC_except_table1152
+- GCC_except_table1161
+- GCC_except_table1162
+- GCC_except_table1166
+- GCC_except_table1169
+- GCC_except_table1181
+- GCC_except_table1198
+- GCC_except_table122
+- GCC_except_table124
+- GCC_except_table130
+- GCC_except_table1556
+- GCC_except_table158
+- GCC_except_table1583
+- GCC_except_table1590
+- GCC_except_table1591
+- GCC_except_table1595
+- GCC_except_table1596
+- GCC_except_table1609
+- GCC_except_table162
+- GCC_except_table175
+- GCC_except_table176
+- GCC_except_table182
+- GCC_except_table208
+- GCC_except_table235
+- GCC_except_table238
+- GCC_except_table244
+- GCC_except_table248
+- GCC_except_table253
+- GCC_except_table256
+- GCC_except_table259
+- GCC_except_table278
+- GCC_except_table301
+- GCC_except_table315
+- GCC_except_table344
+- GCC_except_table362
+- GCC_except_table371
+- GCC_except_table401
+- GCC_except_table404
+- GCC_except_table452
+- GCC_except_table454
+- GCC_except_table474
+- GCC_except_table490
+- GCC_except_table497
+- GCC_except_table503
+- GCC_except_table523
+- GCC_except_table532
+- GCC_except_table533
+- GCC_except_table538
+- GCC_except_table549
+- GCC_except_table552
+- GCC_except_table553
+- GCC_except_table576
+- GCC_except_table577
+- GCC_except_table580
+- GCC_except_table583
+- GCC_except_table594
+- GCC_except_table597
+- GCC_except_table603
+- GCC_except_table613
+- GCC_except_table614
+- GCC_except_table630
+- GCC_except_table640
+- GCC_except_table641
+- GCC_except_table644
+- GCC_except_table650
+- GCC_except_table654
+- GCC_except_table655
+- GCC_except_table659
+- GCC_except_table663
+- GCC_except_table669
+- GCC_except_table680
+- GCC_except_table681
+- GCC_except_table688
+- GCC_except_table689
+- GCC_except_table700
+- GCC_except_table701
+- GCC_except_table718
+- GCC_except_table723
+- GCC_except_table735
+- GCC_except_table741
+- GCC_except_table746
+- GCC_except_table753
+- GCC_except_table783
+- GCC_except_table786
+- GCC_except_table790
+- GCC_except_table811
+- GCC_except_table812
+- GCC_except_table821
+- GCC_except_table827
+- GCC_except_table828
+- GCC_except_table837
+- GCC_except_table848
+- GCC_except_table851
+- GCC_except_table876
+- GCC_except_table879
+- GCC_except_table896
+- GCC_except_table899
+- GCC_except_table900
+- GCC_except_table904
+- GCC_except_table912
+- GCC_except_table913
+- GCC_except_table916
+- GCC_except_table917
+- GCC_except_table925
+- GCC_except_table931
+- GCC_except_table934
+- GCC_except_table939
+- GCC_except_table944
+- GCC_except_table945
+- GCC_except_table949
+- GCC_except_table950
+- GCC_except_table956
+- GCC_except_table957
+- GCC_except_table966
+- GCC_except_table967
+- GCC_except_table972
+- GCC_except_table978
+- GCC_except_table984
+- GCC_except_table985
+- GCC_except_table988
+- GCC_except_table989
+- GCC_except_table995
+- GCC_except_table996
+- _IMChatPropertySupportsEncryption
+- __OBJC_$_INSTANCE_METHODS_UITraitCollection(ForCoreChatController|ChatKit|ChatKit1|ChatKit2)
+- ___105-[CKTranscriptBackgroundChannelController _asyncFetchNewGalleryObjectForChannel:fetchRequest:completion:]_block_invoke.87
+- ___111-[CKChatController(ClickyOrbConformance) _exportActionForChatItem:shouldUseTopMostChatItemIfAggregateChatItem:]_block_invoke.406
+- ___111-[CKChatController(ClickyOrbConformance) _exportActionForChatItem:shouldUseTopMostChatItemIfAggregateChatItem:]_block_invoke.406.cold.1
+- ___112-[CKMessagesController showConversation:animate:forceToTranscript:keepAllCurrentlyLoadedMessages:userInitiated:]_block_invoke.952
+- ___112-[CKMessagesController showConversation:animate:forceToTranscript:keepAllCurrentlyLoadedMessages:userInitiated:]_block_invoke.953
+- ___112-[CKMessagesController showConversation:animate:forceToTranscript:keepAllCurrentlyLoadedMessages:userInitiated:]_block_invoke.961
+- ___112-[CKMessagesController showConversation:animate:forceToTranscript:keepAllCurrentlyLoadedMessages:userInitiated:]_block_invoke_2.954
+- ___115-[CKChatController _presentCollabAddToMessagesGroupAlertIfNecessary:collaborationType:sendBlock:completionHandler:]_block_invoke.1343
+- ___132-[CKTranscriptBackgroundChannelController fetchPosterGalleryForChatGUID:deviceIndependentID:backgroundGUID:fetchRequest:completion:]_block_invoke_4
+- ___133-[CKChatController(ClickyOrbConformance) transcriptCollectionViewController:willEndContextMenuInteractionWithConfiguration:animator:]_block_invoke.247
+- ___136-[CKTranscriptBackgroundChannelController updateChannelUsingChatGUID:deviceIndependentID:backgroundGUID:posterConfiguration:completion:]_block_invoke.75
+- ___140-[CKTranscriptBackgroundChannelController loadChannelAsyncForChatGUID:deviceIndependentID:backgroundGUID:createsChannelIfNeeded:completion:]_block_invoke_2
+- ___145-[CKChatController _sendAutomaticallyPlacedSticker:stickerReactionSession:forChatItem:forParentChatItem:stickerFrame:animationCompletionHandler:]_block_invoke.1215
+- ___39-[CKChatController addToCollaboration:]_block_invoke.1576
+- ___39-[CKChatController addToCollaboration:]_block_invoke_2.1578
+- ___45-[CKChatController _handleChatItemDidChange:]_block_invoke.1554
+- ___46-[CKChatController viewDidAppearDeferredSetup]_block_invoke.732
+- ___46-[CKChatController viewDidAppearDeferredSetup]_block_invoke.735
+- ___46-[CKChatController viewDidAppearDeferredSetup]_block_invoke_2.733
+- ___46-[CKChatController viewDidAppearDeferredSetup]_block_invoke_2.736
+- ___46-[CKMessagesController performSearchForQuery:]_block_invoke.529
+- ___47-[CKChatController sendComposition:animations:]_block_invoke.825
+- ___47-[CKMessageEntryTextView handleTapOrLongPress:]_block_invoke.281
+- ___49-[CKChatController _interfaceActionsForChatItem:]_block_invoke.1483
+- ___49-[CKChatController _interfaceActionsForChatItem:]_block_invoke.1487
+- ___49-[CKChatController _interfaceActionsForChatItem:]_block_invoke_2.1489
+- ___49-[CKChatController _interfaceActionsForChatItem:]_block_invoke_3.1493
+- ___49-[CKChatController _interfaceActionsForChatItem:]_block_invoke_4.1497
+- ___49-[CKChatController _interfaceActionsForChatItem:]_block_invoke_5.1498
+- ___49-[CKChatController _interfaceActionsForChatItem:]_block_invoke_6.1502
+- ___57-[CKThrowAnimationManager animationDidFinishWithContext:]_block_invoke
+- ___58-[CKChatController chatInputControllerDidSelectFunCamera:]_block_invoke.1211
+- ___59-[CKChatController _validateAndSendComposition:completion:]_block_invoke.1365
+- ___59-[CKChatController _validateAndSendComposition:completion:]_block_invoke.1368
+- ___59-[CKChatController _validateAndSendComposition:completion:]_block_invoke_2.1366
+- ___59-[CKChatController _validateAndSendComposition:completion:]_block_invoke_2.1370
+- ___62-[CKChatController sendCompositionForFileProvider:completion:]_block_invoke.1252
+- ___62-[CKChatController sendCompositionForFileProvider:completion:]_block_invoke.1253
+- ___62-[CKChatController sendCompositionForFileProvider:completion:]_block_invoke.1254
+- ___62-[CKChatController sendCompositionForFileProvider:completion:]_block_invoke.1254.cold.1
+- ___62-[CKChatController sendCompositionForFileProvider:completion:]_block_invoke.1255
+- ___62-[CKChatController sendCompositionForFileProvider:completion:]_block_invoke.1256
+- ___66-[CKMessagesController _checkPushToTranscriptTimingWithStartTime:]_block_invoke.925
+- ___67-[CKChatController _sendCompositionForNewCloudKitShare:completion:]_block_invoke.1316
+- ___69-[CKChatController nicknameBannerView:actionButtonTapped:forUpdates:]_block_invoke.1570
+- ___70-[CKChatController sendCompositionForPendingCollaboration:completion:]_block_invoke.1326
+- ___70-[CKChatController sendCompositionForPendingCollaboration:completion:]_block_invoke.1327
+- ___70-[CKChatController sendCompositionForPendingCollaboration:completion:]_block_invoke.1328
+- ___70-[CKChatController sendCompositionForPendingCollaboration:completion:]_block_invoke.1330
+- ___71-[CKCoreChatController(Backgrounds) _setupTranscriptBackgroundIfNeeded]_block_invoke.235
+- ___71-[CKCoreChatController(Backgrounds) _setupTranscriptBackgroundIfNeeded]_block_invoke.235.cold.1
+- ___71-[CKCoreChatController(Backgrounds) _setupTranscriptBackgroundIfNeeded]_block_invoke.238
+- ___71-[CKCoreChatController(Backgrounds) _setupTranscriptBackgroundIfNeeded]_block_invoke_2.239
+- ___72-[CKChatController textPasteConfigurationSupporting:transformPasteItem:]_block_invoke.1617
+- ___73-[CKChatController _sendCompositionForFileProviderCloudDrive:completion:]_block_invoke.1284
+- ___73-[CKChatController _sendCompositionForFileProviderCloudDrive:completion:]_block_invoke.1285
+- ___75-[CKCoreChatController(Backgrounds) updateTranscriptBackground:transferID:]_block_invoke.263
+- ___76-[CKChatController _startSharingForURLForFileProviderCloudDrive:completion:]_block_invoke.1293
+- ___76-[CKChatController _startSharingForURLForFileProviderCloudDrive:completion:]_block_invoke.1294
+- ___77-[CKChatController selectedBalloonIntersectingRect:chatItemForRepositioning:]_block_invoke.1203
+- ___77-[CKChatController(ClickyOrbConformance) _downgradeMessageActionForChatItem:]_block_invoke.415
+- ___78-[CKMessageEntryTextView setupTextViewFromInitWithTextLayoutManagerWithFrame:]_block_invoke
+- ___79-[CKMessagesController showConversationListWithAnimation:didDismissController:]_block_invoke.974
+- ___81-[CKChatController sendCompositionForCollaboration:collaborationType:completion:]_block_invoke.1333
+- ___86-[CKChatController _presentCollabAddToMessagesGroupAlert:sendBlock:completionHandler:]_block_invoke.1358
+- ___86-[CKChatController _presentCollabAddToMessagesGroupAlert:sendBlock:completionHandler:]_block_invoke.1359
+- ___87-[CKChatController _removeSubsharesAndSendFileProviderComposition:shareURL:completion:]_block_invoke.1307
+- ___89-[CKChatController _updateAndSendCompositionForFileProvider:share:sharingURL:completion:]_block_invoke.1301
+- ___89-[CKChatController _updateAndSendCompositionForFileProvider:share:sharingURL:completion:]_block_invoke.1301.cold.1
+- ___89-[CKChatController _updateAndSendCompositionForFileProvider:share:sharingURL:completion:]_block_invoke.1302
+- ___89-[CKChatController _updateAndSendCompositionForFileProvider:share:sharingURL:completion:]_block_invoke.1304
+- ___89-[CKChatController _updateAndSendCompositionForFileProvider:share:sharingURL:completion:]_block_invoke.1305
+- ___89-[CKChatController _updateAndSendCompositionForFileProvider:share:sharingURL:completion:]_block_invoke_2.1306
+- ___89-[CKCoreChatController(Backgrounds) _transitionToPosterKitPosterConfiguration:onChannel:]_block_invoke.256
+- ___89-[CKCoreChatController(Backgrounds) _transitionToPosterKitPosterConfiguration:onChannel:]_block_invoke.256.cold.1
+- ___93-[CKChatController _sendCollaborationCompositionForFileProvider:sharingURL:share:completion:]_block_invoke.1271
+- ___93-[CKChatController _sendCollaborationCompositionForFileProvider:sharingURL:share:completion:]_block_invoke.1273
+- ___95-[CKChatController _updateAndSendCompositionForExistingCloudKitShare:share:attempt:completion:]_block_invoke.1324
+- ___block_descriptor_40_e8_32bs_e28_v16?0"PRUISPosterChannel"8ls32l8
+- ___block_descriptor_48_e8_32bs_e28_v16?0"PRUISPosterChannel"8ls32l8
+- ___block_descriptor_56_e8_32s40bs48w_e28_v16?0"PRUISPosterChannel"8ls32l8w48l8s40l8
+- ___block_descriptor_73_e8_32s40s48s56bs64w_e28_v16?0"PRUISPosterChannel"8ls56l8w64l8s32l8s40l8s48l8
+- ___block_descriptor_80_e8_32s40s48s56s64bs72w_e28_v16?0"PRUISPosterChannel"8ls32l8w72l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_80_e8_32s40s48s56s64bs72w_e28_v16?0"PRUISPosterChannel"8lw72l8s32l8s64l8s40l8s48l8s56l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72w_e17_v16?0"NSError"8ls32l8s40l8s48l8s56l8w72l8s64l8
+- ___block_descriptor_88_e8_32s40s48s56s64s72s80w_e5_v8?0ls32l8s40l8s48l8s56l8s64l8w80l8s72l8
+- ___block_literal_global.1149
+- ___block_literal_global.1238
+- ___block_literal_global.1244
+- ___block_literal_global.1247
+- ___block_literal_global.1275
+- ___block_literal_global.1393
+- ___block_literal_global.1397
+- ___block_literal_global.1399
+- ___block_literal_global.1566
+- ___block_literal_global.1568
+- ___block_literal_global.1602
+- ___block_literal_global.1659
+- ___block_literal_global.1679
+- ___block_literal_global.1681
+- ___block_literal_global.1694
+- ___block_literal_global.1704
+- ___block_literal_global.1706
+- ___block_literal_global.1708
+- ___block_literal_global.1710
+- ___block_literal_global.1712
+- ___block_literal_global.1716
+- ___block_literal_global.1732
+- ___block_literal_global.1787
+- ___block_literal_global.1793
+- ___block_literal_global.1849
+- ___block_literal_global.1882
+- ___block_literal_global.1922
+- ___block_literal_global.1924
+- ___block_literal_global.1930
+- ___block_literal_global.1936
+- ___block_literal_global.1985
+- ___block_literal_global.2103
+- ___block_literal_global.2119
+- ___block_literal_global.2142
+- ___block_literal_global.4000
+- ___block_literal_global.4008
+- ___block_literal_global.4010
+- ___block_literal_global.778
+- ___block_literal_global.804
+- ___block_literal_global.829
+- ___block_literal_global.849
+- ___block_literal_global.89
+- ___block_literal_global.970
+- ___block_literal_global.987
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA10_ShapeViewVyAA6CircleVAA04TintE5StyleVGAA16_OverlayModifierVyAA14GeometryReaderVyACyACyACyACyAA5ImageVAA022_EnvironmentKeyWritingK0VyAA5ColorVSgGGAA18_AspectRatioLayoutVGAA06_FrameU0VGAA09_PositionU0VGGGGAA0F0HPAjAA8_HPyHC_A6_AA0fK0HPyHCHC.60
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA15NavigationStackVyAA0E4PathVAA4ViewPAAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaHRd_0_r0_lFQOyAiAEAjkLQrqd__m_qd_0_qd__ctSHRd__AaHRd_0_r0_lFQOy7ChatKit016ConversationListH033_D1386C37E60034E734BCB96CE9AB5D3ELLV_AM21ClarityUIConversationVAM0y12UITranscriptH0VQo__AM0y6UIRootH0V0J0OAA012_ConditionalD0VyA_yAiAE0I5Title_4iconQrqd___qd_0_tSyRd__AaHRd_0_r0_lFQOyAP_SSAM08MessagesY16UINavigationIconAOLLVQo_A4_GAiAEA0__A1_QrAA4TextV_qd__tAaHRd__lFQOyAP_A3_Qo_GQo_GAA30_EnvironmentKeyWritingModifierVyAA13AnyShapeStyleVSgGGAaHHPA11_AaHHPyHC_A17_AA0H8ModifierHPyHCHC.42
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVAA0F0PAAE5badgeyQrSiFQOyAA14NavigationLinkVyAA5LabelVyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGG7ChatKit27ClarityUIConversationAvatarVGs5NeverOG_Qo_GAA017_AppearanceActionS0VGAaKHPA5_AaKHPyHC_A7_AA0fS0HPyHCHC.71
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy7ChatKit011Attributionf10BackgroundG0VGAH012GlassPlatterG0VyAA16RoundedRectangleVGGAEyAEyAkA01_kG0VyAEyAEyAA6ZStackVyAA05TupleF0VyAH012VisualEffectF13RepresentableV_AA06_ShapeF0VyAA0O0VAA5ColorVGAEyA4_AA010_AnimationG0VySbGGtGGAA08_OverlayG0VyAA06StrokeuF0VyAOA3_AA05EmptyF0VGGGAA05_ClipS0VyAOGGGGAA07_ShadowS0VGGAA0F0HPAqAA30_HPAkAA30_HPyHC_ApA0fG0HPyHCHC_A28_AAA30_HPA25_AAA30_HPAkAA30_HPyHC_A24_AAA31_HPyHCHC_A27_AAA31_HPyHCHCHC.2
+- _get_witness_table 7SwiftUI4ListVys5NeverOAA9TupleViewVyAA15ModifiedContentVyAA7ForEachVySay7ChatKit21ClarityUIConversationVGSSAL15ConversationRow33_D1386C37E60034E734BCB96CE9AB5D3ELLVGAA30_EnvironmentKeyWritingModifierVyAA13AnyShapeStyleVSgGG_AA0F0PAAE5badgeyQrSiFQOyAA14NavigationLinkVyAA5LabelVyAA4TextVAA5ImageVGAEG_Qo_SgA13_A13_tGGAAA_HPyHC.59
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAHyAA6ButtonVyAHyAcAE16keyframeAnimator0G5Value9repeating7content9keyframesQrqd___Sbqd_0_AA011PlaceholderiC0VyxG_qd__tYbcqd_1_qd__ct0M0Qyd_1_Rsd__AaBRd_0_AA9KeyframesRd_1_r1_lFQOyAHyAHyAHyAcAE10fontWeightyQrAA4FontV0T0VSgFQOyAHyAA5ImageVAA30_EnvironmentKeyWritingModifierVyA1_5ScaleOGG_Qo_AA18_AspectRatioLayoutVGAA016_ForegroundStyleZ0VyAA5ColorVGGAA14_PaddingLayoutVG_7ChatKit09CKCatchUpJ7ManagerC0L0C15AnimationValuesVAHyAQyA20_GAA13_OffsetEffectVGAA13KeyframeTrackVyA27_SdAA013KeyframeTrackI7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tASQyd__RszAA013KeyframeTrackI0Rd__AAA40_Rd_0_ASQyd_0_A39_RSr0_lFZQOySd_A35_A36_A37_A38_Qrqd___qd_0_tA39_RszAAA40_Rd__AAA40_Rd_0_A41_A39_RSr0_lFZQOySd_A35_A36_A37_A38_Qrqd___qd_0_tA39_RszAAA40_Rd__AAA40_Rd_0_A41_A39_RSr0_lFZQOySd_AA14SpringKeyframeVySdGA44_Qo_A44_Qo_AA14LinearKeyframeVySdGQo_GQo_AA011_BackgroundZ0VyAHyAHyAA06_ShapeC0VyAA6CircleVA15_GAA16_FlexFrameLayoutVGA21_012GlassPlatterZ0VyA58_GGGGGA30_GAA14_OpacityEffectVG_SbQo__SbQo_HO.51
+- _objc_msgSend$configurePlaceholderLabelForTraitCollection:
+- _objc_msgSend$shouldSuppressTranscriptBackgroundUIForConversation:
+- _objectdestroy.62Tm
+- _symbolic _____yAAy_____yAAy_____yAAyAAyAAy_____yAAy__________y_____GG_Qo______G_____y_____GG_____G______AAy_____yAPG_____G_____yAQSd_____ySd______ySd______ySd______ySdGAXQo_AXQo______ySdGQo_GQo______yAAyAAy_____y_____ALG_____G_____yA6_GGGGGATG_____G 7SwiftUI15ModifiedContentV AA6ButtonV AA4ViewPAAE16keyframeAnimator12initialValue9repeating7content9keyframesQrqd___Sbqd_0_AA011PlaceholderdF0VyxG_qd__tYbcqd_1_qd__ct0J0Qyd_1_Rsd__AaFRd_0_AA9KeyframesRd_1_r1_lFQO AgAE10fontWeightyQrAA4FontV0Q0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AZ5ScaleO AA18_AspectRatioLayoutV AA016_ForegroundStyleW0V AA5ColorV AA14_PaddingLayoutV 7ChatKit09CKCatchUpE7ManagerC0H0C15AnimationValuesV AN AA13_OffsetEffectV AA13KeyframeTrackV AA013KeyframeTrackD7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tAPQyd__RszAA013KeyframeTrackD0Rd__AAA28_Rd_0_APQyd_0_A27_RSr0_lFZQO A23_A24_A25_A26_Qrqd___qd_0_tA27_RszAAA28_Rd__AAA28_Rd_0_A29_A27_RSr0_lFZQO A23_A24_A25_A26_Qrqd___qd_0_tA27_RszAAA28_Rd__AAA28_Rd_0_A29_A27_RSr0_lFZQO AA14SpringKeyframeV AA14LinearKeyframeV AA011_BackgroundW0V AA06_ShapeF0V AA6CircleV AA16_FlexFrameLayoutV A11_012GlassPlatterW0V AA14_OpacityEffectV
+- _symbolic _____y_____yAAyAAyAAy_____yAAy__________y_____GG_Qo______G_____y_____GG_____G______AAy_____yAOG_____G_____yAPSd_____ySd______ySd______ySd______ySdGAWQo_AWQo______ySdGQo_GQo______yAAyAAy_____y_____AKG_____G_____yA5_GGGG 7SwiftUI15ModifiedContentV AA4ViewPAAE16keyframeAnimator12initialValue9repeating7content9keyframesQrqd___Sbqd_0_AA011PlaceholderdE0VyxG_qd__tYbcqd_1_qd__ct0I0Qyd_1_Rsd__AaDRd_0_AA9KeyframesRd_1_r1_lFQO AeAE10fontWeightyQrAA4FontV0P0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AX5ScaleO AA18_AspectRatioLayoutV AA016_ForegroundStyleV0V AA5ColorV AA08_PaddingZ0V 7ChatKit22CKCatchUpButtonManagerC0G0C15AnimationValuesV AL AA13_OffsetEffectV AA13KeyframeTrackV AA013KeyframeTrackD7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tANQyd__RszAA013KeyframeTrackD0Rd__AAA26_Rd_0_ANQyd_0_A25_RSr0_lFZQO A21_A22_A23_A24_Qrqd___qd_0_tA25_RszAAA26_Rd__AAA26_Rd_0_A27_A25_RSr0_lFZQO A21_A22_A23_A24_Qrqd___qd_0_tA25_RszAAA26_Rd__AAA26_Rd_0_A27_A25_RSr0_lFZQO AA14SpringKeyframeV AA14LinearKeyframeV AA011_BackgroundV0V AA06_ShapeE0V AA6CircleV AA010_FlexFrameZ0V A9_012GlassPlatterV0V
+- _symbolic _____y_____yAAy_____yAAyAAyAAy_____yAAy__________y_____GG_Qo______G_____y_____GG_____G______AAy_____yAPG_____G_____yAQSd_____ySd______ySd______ySd______ySdGAXQo_AXQo______ySdGQo_GQo______yAAyAAy_____y_____ALG_____G_____yA6_GGGGGATG 7SwiftUI15ModifiedContentV AA6ButtonV AA4ViewPAAE16keyframeAnimator12initialValue9repeating7content9keyframesQrqd___Sbqd_0_AA011PlaceholderdF0VyxG_qd__tYbcqd_1_qd__ct0J0Qyd_1_Rsd__AaFRd_0_AA9KeyframesRd_1_r1_lFQO AgAE10fontWeightyQrAA4FontV0Q0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AZ5ScaleO AA18_AspectRatioLayoutV AA016_ForegroundStyleW0V AA5ColorV AA14_PaddingLayoutV 7ChatKit09CKCatchUpE7ManagerC0H0C15AnimationValuesV AN AA13_OffsetEffectV AA13KeyframeTrackV AA013KeyframeTrackD7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tAPQyd__RszAA013KeyframeTrackD0Rd__AAA28_Rd_0_APQyd_0_A27_RSr0_lFZQO A23_A24_A25_A26_Qrqd___qd_0_tA27_RszAAA28_Rd__AAA28_Rd_0_A29_A27_RSr0_lFZQO A23_A24_A25_A26_Qrqd___qd_0_tA27_RszAAA28_Rd__AAA28_Rd_0_A29_A27_RSr0_lFZQO AA14SpringKeyframeV AA14LinearKeyframeV AA011_BackgroundW0V AA06_ShapeF0V AA6CircleV AA16_FlexFrameLayoutV A11_012GlassPlatterW0V
+- _symbolic _____y_____yAAy_____yAAy_____yAAyAAyAAy_____yAAy__________y_____GG_Qo______G_____y_____GG_____G______AAy_____yAPG_____G_____yAQSd_____ySd______ySd______ySd______ySdGAXQo_AXQo______ySdGQo_GQo______yAAyAAy_____y_____ALG_____G_____yA6_GGGGGATG_____G_SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AA6ButtonV AcAE16keyframeAnimator0G5Value9repeating7content9keyframesQrqd___Sbqd_0_AA011PlaceholderiC0VyxG_qd__tYbcqd_1_qd__ct0M0Qyd_1_Rsd__AaBRd_0_AA9KeyframesRd_1_r1_lFQO AcAE10fontWeightyQrAA4FontV0T0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV A1_5ScaleO AA18_AspectRatioLayoutV AA016_ForegroundStyleZ0V AA5ColorV AA14_PaddingLayoutV 7ChatKit09CKCatchUpJ7ManagerC0L0C15AnimationValuesV AQ AA13_OffsetEffectV AA13KeyframeTrackV AA013KeyframeTrackI7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tASQyd__RszAA013KeyframeTrackI0Rd__AAA31_Rd_0_ASQyd_0_A30_RSr0_lFZQO A26_A27_A28_A29_Qrqd___qd_0_tA30_RszAAA31_Rd__AAA31_Rd_0_A32_A30_RSr0_lFZQO A26_A27_A28_A29_Qrqd___qd_0_tA30_RszAAA31_Rd__AAA31_Rd_0_A32_A30_RSr0_lFZQO AA14SpringKeyframeV AA14LinearKeyframeV AA011_BackgroundZ0V AA06_ShapeC0V AA6CircleV AA16_FlexFrameLayoutV A14_012GlassPlatterZ0V AA14_OpacityEffectV
+- _symbolic _____y_____yABy_____y__________G_____G_____yADGGG 7SwiftUI19_BackgroundModifierV AA15ModifiedContentV AA10_ShapeViewV AA6CircleV AA5ColorV AA16_FlexFrameLayoutV 7ChatKit012GlassPlatterD0V
+- _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 7ChatKit011Attributione10BackgroundF0V AF012GlassPlatterF0V AA16RoundedRectangleV
+- _symbolic _____y_____y_____yAAy_____yAAy_____yAAyAAyAAy_____yAAy__________y_____GG_Qo______G_____y_____GG_____G______AAy_____yAPG_____G_____yAQSd_____ySd______ySd______ySd______ySdGAXQo_AXQo______ySdGQo_GQo______yAAyAAy_____y_____ALG_____G_____yA6_GGGGGATG_____G_SbQo__SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AA6ButtonV AcAE16keyframeAnimator0G5Value9repeating7content9keyframesQrqd___Sbqd_0_AA011PlaceholderiC0VyxG_qd__tYbcqd_1_qd__ct0M0Qyd_1_Rsd__AaBRd_0_AA9KeyframesRd_1_r1_lFQO AcAE10fontWeightyQrAA4FontV0T0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV A1_5ScaleO AA18_AspectRatioLayoutV AA016_ForegroundStyleZ0V AA5ColorV AA14_PaddingLayoutV 7ChatKit09CKCatchUpJ7ManagerC0L0C15AnimationValuesV AQ AA13_OffsetEffectV AA13KeyframeTrackV AA013KeyframeTrackI7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tASQyd__RszAA013KeyframeTrackI0Rd__AAA31_Rd_0_ASQyd_0_A30_RSr0_lFZQO A26_A27_A28_A29_Qrqd___qd_0_tA30_RszAAA31_Rd__AAA31_Rd_0_A32_A30_RSr0_lFZQO A26_A27_A28_A29_Qrqd___qd_0_tA30_RszAAA31_Rd__AAA31_Rd_0_A32_A30_RSr0_lFZQO AA14SpringKeyframeV AA14LinearKeyframeV AA011_BackgroundZ0V AA06_ShapeC0V AA6CircleV AA16_FlexFrameLayoutV A14_012GlassPlatterZ0V AA14_OpacityEffectV
+- _symbolic _____y_____y_____yAByAByABy_____yABy__________y_____GG_Qo______G_____y_____GG_____G______ABy_____yAPG_____G_____yAQSd_____ySd______ySd______ySd______ySdGAXQo_AXQo______ySdGQo_GQo______yAByABy_____y_____ALG_____G_____yA6_GGGGG 7SwiftUI6ButtonV AA15ModifiedContentV AA4ViewPAAE16keyframeAnimator12initialValue9repeating7content9keyframesQrqd___Sbqd_0_AA011PlaceholdereF0VyxG_qd__tYbcqd_1_qd__ct0J0Qyd_1_Rsd__AaFRd_0_AA9KeyframesRd_1_r1_lFQO AgAE10fontWeightyQrAA4FontV0Q0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AZ5ScaleO AA18_AspectRatioLayoutV AA016_ForegroundStyleW0V AA5ColorV AA14_PaddingLayoutV 7ChatKit09CKCatchUpC7ManagerC0H0C15AnimationValuesV AN AA13_OffsetEffectV AA13KeyframeTrackV AA013KeyframeTrackE7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tAPQyd__RszAA013KeyframeTrackE0Rd__AAA28_Rd_0_APQyd_0_A27_RSr0_lFZQO A23_A24_A25_A26_Qrqd___qd_0_tA27_RszAAA28_Rd__AAA28_Rd_0_A29_A27_RSr0_lFZQO A23_A24_A25_A26_Qrqd___qd_0_tA27_RszAAA28_Rd__AAA28_Rd_0_A29_A27_RSr0_lFZQO AA14SpringKeyframeV AA14LinearKeyframeV AA011_BackgroundW0V AA06_ShapeF0V AA6CircleV AA16_FlexFrameLayoutV A11_012GlassPlatterW0V
+- _symbolic _____y_____y_____y_____G_____y_____GGAByAByAE_____yAByABy_____y_____y___________y__________GAByAQ_____ySbGGtGG_____y_____yAgP_____GGG_____yAGGGGG_____GG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 7ChatKit011Attributionf10BackgroundG0V AH012GlassPlatterG0V AA16RoundedRectangleV AA01_kG0V AA6ZStackV AA05TupleF0V AH012VisualEffectF13RepresentableV AA06_ShapeF0V AA0O0V AA5ColorV AA010_AnimationG0V AA08_OverlayG0V AA06StrokeuF0V AA05EmptyF0V AA05_ClipS0V AA07_ShadowS0V
+- _symbolic _____y_____y_____y_____G_____y_____GGAByAByAE_____yAByABy_____y_____y___________y__________GAByAQ_____ySbGGtGG_____y_____yAgP_____GGG_____yAGGGGG_____G_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 7ChatKit011Attributiong10BackgroundH0V AJ012GlassPlatterH0V AA16RoundedRectangleV AA01_lH0V AA6ZStackV AA05TupleG0V AJ012VisualEffectG13RepresentableV AA06_ShapeG0V AA0P0V AA5ColorV AA010_AnimationH0V AA08_OverlayH0V AA06StrokevG0V AA05EmptyG0V AA05_ClipT0V AA07_ShadowT0V
+- _type_layout_string 7ChatKit17ClarityUIRootViewV
+CStrings:
++ "%s failed to fetch channel async with error %@"
++ "%s failed to fetch channel immediately if available with error %@"
++ "-[CKTranscriptBackgroundChannelController channelForChatGUID:]"
++ "-[CKTranscriptBackgroundChannelController fetchPosterGalleryForChatGUID:deviceIndependentID:backgroundGUID:fetchRequest:completion:]_block_invoke"
++ "-[CKTranscriptBackgroundChannelController loadChannelAsyncForChatGUID:deviceIndependentID:backgroundGUID:createsChannelIfNeeded:completion:]_block_invoke"
++ "-[CKTranscriptBackgroundChannelController removeChannelForChatGUID:completion:]_block_invoke"
++ "CKOnboardingController no longer needed, deallocating. Running executeDeferredTasks."
++ "CKSystemGlassLegibilitySettingTrait"
++ "CKSystemUserInterfaceStyleTrait"
++ "CanAlwaysEditMessages"
++ "CanAlwaysInlineReply"
++ "Channel controller is ready and has an inflated channel, returned sync"
++ "Channel controller was not ready, or does not have an inflated channel. Falling back to async"
++ "IMNicknameController did not return a shared profile state oracle for use with photo update animation"
++ "NavigationBarAllowsBarButtonAnimations"
++ "NavigationBarAllowsNonStandardHeight"
++ "NavigationBarUsesGlassDisplayLayer"
++ "NavigationBarUsesGlassForBarButtons"
++ "No nickname oracle created, returning nil."
++ "Not returning group photo because shouldDisplayGroupIdentity == NO, for chat with identifier: %@"
++ "Skipping update for handle %@ because it is not a known contact."
++ "TextEffectPlaybackCandidateStatus did change to %@"
++ "Tq,N,VoverrideUserInterfaceStyle"
++ "UIViewGlassGetLegibilitySetting"
++ "UIViewGlassLegibilityDidChangeNotification"
++ "Updated channel %@ with config %@, will update UI"
++ "Updating system glass setting trait with setting = {%ld}"
++ "_loadUIKitGlassLegibilityFunctions"
++ "_platformNeedsConservativeLayoutUpdates"
++ "_setFixedUserInterfaceStyle:"
++ "_sharedShouldSuppressTranscriptBackground"
++ "_sharedShouldSuppressTranscriptBackgroundStatesForConversation:"
++ "_shouldMarkForLayoutAfterPropertyUpdate"
++ "_systemGlassLegibilitySettingDidChange:"
++ "_traitsAffectingBarAppearanceDidChange"
++ "_updateTraitEnvironmentWithLatestSystemGlassSetting"
++ "_updateTraitEnvironmentWithLatestWindowSceneUserInterfaceStyle"
++ "bottomEdgeEffect"
++ "channelForChatGUIDBlockingIfNeeded:"
++ "channelForIdentifier:completion:"
++ "channelForIdentifierIfImmediatelyAvailable:error:"
++ "ck_applyTapbackGlassBackgroundUsingAdaptive:smoothness:flexible:"
++ "ck_systemUserInterfaceStyle"
++ "com.apple.UIKit"
++ "com.apple.messages.CKSystemUserInterfaceStyleTrait"
++ "com.apple.messages.systemGlassLegibilitySettingTrait"
++ "dismissTranscript"
++ "effectWithGlass:"
++ "initWithVariant:"
++ "isDiffusedSystemGlassSettingEnabled"
++ "messagesTapback"
++ "selectedRanges"
++ "setBackgroundEffect:"
++ "setFlexible:"
++ "setHidesSharedBackground:"
++ "setPreferredMenuMaterial:"
++ "setStyle:forceUpdate:"
++ "setSubvariant:"
++ "shouldSuppressTranscriptBackgroundEditing"
++ "shouldSuppressTranscriptBackgroundEditingForConversation:"
++ "shouldSuppressTranscriptBackgroundRendering"
++ "shouldSuppressTranscriptBackgroundRenderingForConversation:"
++ "systemGlassLegibilitySetting"
++ "v24@?0@\"CKMessageEntryContentView\"8@\"UITraitCollection\"16"
+- "Channel controller is NOT ready, querying for channel async after controller completes setup."
+- "Channel controller is ready, querying for channel sync"
+- "Not returning group photo because isKnownSender == NO, for chat with identifier: %@"
+- "Received notification callback for a change to the current transcript background."
+- "TextEffectPlaybackCandidateStatus did change to %{BOOL}d"
+- "Updated channel %@ with config %@, will update UI. refetched %@"
+- "configurePlaceholderLabelForTraitCollection:"
+- "shouldSuppressTranscriptBackgroundUIForConversation:"
+
+```

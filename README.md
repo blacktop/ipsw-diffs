@@ -33,6 +33,7 @@
 <details open>
   <summary>View diffs</summary>
 
+- [26.1 beta 3 (23B5064e) .vs 26.1 beta 4 (23B5073a)](26_1_23B5064e__vs_26_1_23B5073a/README.md)
 - [26.1 beta 2 (23B5059e) .vs 26.1 beta 3 (23B5064e)](26_1_23B5059e__vs_26_1_23B5064e/README.md)
 - [26.1 beta 1 (23B5044l) .vs 26.1 beta 2 (23B5059e)](26_1_23B5044l__vs_26_1_23B5059e/README.md)
 - [26.0 revision (23A345) .vs 26.1 beta 1 (23B5044l)](26_0_23A345__vs_26_1_23B5044l/README.md)

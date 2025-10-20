@@ -1,0 +1,58 @@
+## ContactsFlowUIPlugin
+
+> `/System/Library/Snippets/UIPlugins/ContactsFlowUIPlugin.bundle/ContactsFlowUIPlugin`
+
+```diff
+
+ 3500.36.1.0.0
+-  __TEXT.__text: 0x1be8
++  __TEXT.__text: 0x1c64
+   __TEXT.__auth_stubs: 0x2f0
+-  __TEXT.__const: 0xf6
++  __TEXT.__const: 0x132
+   __TEXT.__cstring: 0x51
+   __TEXT.__constg_swiftt: 0x9c
+   __TEXT.__swift5_typeref: 0xe7
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BF6AE5EF-48C8-3B0E-B364-E4E46C0260B2
+-  Functions: 57
+-  Symbols:   589
++  UUID: 99750F59-7CD8-3741-A260-CCC1C1E9C13B
++  Functions: 60
++  Symbols:   618
+   CStrings:  5
+ 
+Symbols:
++ _$s18SiriContactsCommon14CodableContactVySo9CNContactCGMR
++ _$s18SiriContactsCommon14CodableContactVySo9CNContactCGMd
++ _$s7SwiftUI15ModifiedContentVy012SiriContactsB014GetContactViewOAA24_BackgroundStyleModifierVyAA8GradientVGGMR
++ _$s7SwiftUI15ModifiedContentVy012SiriContactsB014GetContactViewOAA24_BackgroundStyleModifierVyAA8GradientVGGMd
++ _$s7SwiftUI15ModifiedContentVy012SiriContactsB023GetContactAttributeViewOAA24_BackgroundStyleModifierVyAA8GradientVGGMR
++ _$s7SwiftUI15ModifiedContentVy012SiriContactsB023GetContactAttributeViewOAA24_BackgroundStyleModifierVyAA8GradientVGGMd
++ _$s7SwiftUI24_BackgroundStyleModifierVyAA8GradientVGMR
++ _$s7SwiftUI24_BackgroundStyleModifierVyAA8GradientVGMd
++ _$s7SwiftUI4ViewP07SnippetB0E17setHostBackgroundyQrAD0fG0OSgFQOyAA15ModifiedContentVy012SiriContactsB0010GetContactC0OAA01_G13StyleModifierVyAA8GradientVGG_Qo_MR
++ _$s7SwiftUI4ViewP07SnippetB0E17setHostBackgroundyQrAD0fG0OSgFQOyAA15ModifiedContentVy012SiriContactsB0010GetContactC0OAA01_G13StyleModifierVyAA8GradientVGG_Qo_Md
++ _$s7SwiftUI4ViewP07SnippetB0E17setHostBackgroundyQrAD0fG0OSgFQOyAA15ModifiedContentVy012SiriContactsB0019GetContactAttributeC0OAA01_G13StyleModifierVyAA8GradientVGG_Qo_MR
++ _$s7SwiftUI4ViewP07SnippetB0E17setHostBackgroundyQrAD0fG0OSgFQOyAA15ModifiedContentVy012SiriContactsB0019GetContactAttributeC0OAA01_G13StyleModifierVyAA8GradientVGG_Qo_Md
++ _$s9SnippetUI14HostBackgroundOSgMR
++ _$s9SnippetUI14HostBackgroundOSgMd
++ _OUTLINED_FUNCTION_21
++ _OUTLINED_FUNCTION_22
++ _OUTLINED_FUNCTION_23
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s18SiriContactsCommon14CodableContactVySo9CNContactCGMD
+- _$s7SwiftUI15ModifiedContentVy012SiriContactsB014GetContactViewOAA24_BackgroundStyleModifierVyAA8GradientVGGMD
+- _$s7SwiftUI15ModifiedContentVy012SiriContactsB023GetContactAttributeViewOAA24_BackgroundStyleModifierVyAA8GradientVGGMD
+- _$s7SwiftUI24_BackgroundStyleModifierVyAA8GradientVGMD
+- _$s7SwiftUI4ViewP07SnippetB0E17setHostBackgroundyQrAD0fG0OSgFQOyAA15ModifiedContentVy012SiriContactsB0010GetContactC0OAA01_G13StyleModifierVyAA8GradientVGG_Qo_MD
+- _$s7SwiftUI4ViewP07SnippetB0E17setHostBackgroundyQrAD0fG0OSgFQOyAA15ModifiedContentVy012SiriContactsB0019GetContactAttributeC0OAA01_G13StyleModifierVyAA8GradientVGG_Qo_MD
+- _$s9SnippetUI14HostBackgroundOSgMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+
+```

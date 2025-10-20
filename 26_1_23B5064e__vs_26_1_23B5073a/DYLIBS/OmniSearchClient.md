@@ -1,0 +1,103 @@
+## OmniSearchClient
+
+> `/System/Library/PrivateFrameworks/OmniSearchClient.framework/OmniSearchClient`
+
+```diff
+
+ 3500.67.1.0.0
+-  __TEXT.__text: 0x8e9c
++  __TEXT.__text: 0x9078
+   __TEXT.__auth_stubs: 0x860
+-  __TEXT.__const: 0x4e8
++  __TEXT.__const: 0x598
+   __TEXT.__swift5_typeref: 0x212
+   __TEXT.__swift5_capture: 0x40
+   __TEXT.__oslogstring: 0xad
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9D1A8DA0-0032-3DD7-9E19-73FBCBF6A8DA
+-  Functions: 364
+-  Symbols:   1243
++  UUID: 98FE7973-11FE-3833-8F4C-D79197C53FBA
++  Functions: 365
++  Symbols:   1268
+   CStrings:  22
+ 
+Symbols:
++ _$s10AppIntents19IntentSystemContextV09AssistantE0V15InteractionModeOSgMR
++ _$s10AppIntents19IntentSystemContextV09AssistantE0V15InteractionModeOSgMd
++ _$s10AppIntents19IntentSystemContextV14InterfaceIdiomOSgMR
++ _$s10AppIntents19IntentSystemContextV14InterfaceIdiomOSgMd
++ _$s10OmniSearch0B20ToolProgressReporter_pMR
++ _$s10OmniSearch0B20ToolProgressReporter_pMd
++ _$s10OmniSearch0B7ContextVSgMR
++ _$s10OmniSearch0B7ContextVSgMd
++ _$s10OmniSearch0aB8ResponseCSgMR
++ _$s10OmniSearch0aB8ResponseCSgMd
++ _$s10OmniSearch21StructuredQueryEntityVSgMR
++ _$s10OmniSearch21StructuredQueryEntityVSgMd
++ _$s15OmniSearchTypes0B10ToolDialogVSgMR
++ _$s15OmniSearchTypes0B10ToolDialogVSgMd
++ _$s15OmniSearchTypes29AnswerSynthesisResolutionTypeOSgMR
++ _$s15OmniSearchTypes29AnswerSynthesisResolutionTypeOSgMd
++ _$s23_MediaPlayer_AppIntents11AudioSearchV5ErrorOSgMR
++ _$s23_MediaPlayer_AppIntents11AudioSearchV5ErrorOSgMd
++ _$s23_MediaPlayer_AppIntents11AudioSearchV6ResultV4ItemVSgMR
++ _$s23_MediaPlayer_AppIntents11AudioSearchV6ResultV4ItemVSgMd
++ _$s23_MediaPlayer_AppIntents11AudioSearchV6ResultVSgMR
++ _$s23_MediaPlayer_AppIntents11AudioSearchV6ResultVSgMd
++ _$s23_MediaPlayer_AppIntents19AudioSearchCriteriaV0A4KindOSgMR
++ _$s23_MediaPlayer_AppIntents19AudioSearchCriteriaV0A4KindOSgMd
++ _$s23_MediaPlayer_AppIntents19AudioSearchCriteriaV13ContentSourceOSgMR
++ _$s23_MediaPlayer_AppIntents19AudioSearchCriteriaV13ContentSourceOSgMd
++ _$s23_MediaPlayer_AppIntents19AudioSearchCriteriaV13ReleasePeriodOSgMR
++ _$s23_MediaPlayer_AppIntents19AudioSearchCriteriaV13ReleasePeriodOSgMd
++ _$s23_MediaPlayer_AppIntents19AudioSearchCriteriaV9SortOrderOSgMR
++ _$s23_MediaPlayer_AppIntents19AudioSearchCriteriaV9SortOrderOSgMd
++ _$s7ToolKit10TypedValueOSgMR
++ _$s7ToolKit10TypedValueOSgMd
++ _$sSay15OmniSearchTypes21AnswerSynthesisResultCGSgMR
++ _$sSay15OmniSearchTypes21AnswerSynthesisResultCGSgMd
++ _$sScCy10OmniSearch0aB8ResponseCSgs5Error_pGMR
++ _$sScCy10OmniSearch0aB8ResponseCSgs5Error_pGMd
++ _$sScCySay15OmniSearchTypes21AnswerSynthesisResultCGSgs5Error_pGMR
++ _$sScCySay15OmniSearchTypes21AnswerSynthesisResultCGSgs5Error_pGMd
++ _$sSo8NSObjectCSgMR
++ _$sSo8NSObjectCSgMd
++ _$ss23_ContiguousArrayStorageCy15OmniSearchTypes15LLMSearchResultVGMR
++ _$ss23_ContiguousArrayStorageCy15OmniSearchTypes15LLMSearchResultVGMd
++ _$ss23_ContiguousArrayStorageCy15OmniSearchTypes19LLMSearchResultListVGMR
++ _$ss23_ContiguousArrayStorageCy15OmniSearchTypes19LLMSearchResultListVGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10AppIntents19IntentSystemContextV09AssistantE0V15InteractionModeOSgMD
+- _$s10AppIntents19IntentSystemContextV14InterfaceIdiomOSgMD
+- _$s10OmniSearch0B20ToolProgressReporter_pMD
+- _$s10OmniSearch0B7ContextVSgMD
+- _$s10OmniSearch0aB8ResponseCSgMD
+- _$s10OmniSearch21StructuredQueryEntityVSgMD
+- _$s15OmniSearchTypes0B10ToolDialogVSgMD
+- _$s15OmniSearchTypes29AnswerSynthesisResolutionTypeOSgMD
+- _$s23_MediaPlayer_AppIntents11AudioSearchV5ErrorOSgMD
+- _$s23_MediaPlayer_AppIntents11AudioSearchV6ResultV4ItemVSgMD
+- _$s23_MediaPlayer_AppIntents11AudioSearchV6ResultVSgMD
+- _$s23_MediaPlayer_AppIntents19AudioSearchCriteriaV0A4KindOSgMD
+- _$s23_MediaPlayer_AppIntents19AudioSearchCriteriaV13ContentSourceOSgMD
+- _$s23_MediaPlayer_AppIntents19AudioSearchCriteriaV13ReleasePeriodOSgMD
+- _$s23_MediaPlayer_AppIntents19AudioSearchCriteriaV9SortOrderOSgMD
+- _$s7ToolKit10TypedValueOSgMD
+- _$sSay15OmniSearchTypes21AnswerSynthesisResultCGSgMD
+- _$sScCy10OmniSearch0aB8ResponseCSgs5Error_pGMD
+- _$sScCySay15OmniSearchTypes21AnswerSynthesisResultCGSgs5Error_pGMD
+- _$sSo8NSObjectCSgMD
+- _$ss23_ContiguousArrayStorageCy15OmniSearchTypes15LLMSearchResultVGMD
+- _$ss23_ContiguousArrayStorageCy15OmniSearchTypes19LLMSearchResultListVGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+
+```

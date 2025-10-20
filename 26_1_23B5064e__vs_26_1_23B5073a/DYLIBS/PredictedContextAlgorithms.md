@@ -1,0 +1,150 @@
+## PredictedContextAlgorithms
+
+> `/System/Library/PrivateFrameworks/PredictedContextAlgorithms.framework/PredictedContextAlgorithms`
+
+```diff
+
+ 37.0.0.0.0
+-  __TEXT.__text: 0x8d6a4
++  __TEXT.__text: 0x8db5c
+   __TEXT.__auth_stubs: 0x10a0
+   __TEXT.__objc_methlist: 0x6b0c
+-  __TEXT.__const: 0xbe4
++  __TEXT.__const: 0xcf4
+   __TEXT.__cstring: 0x337d
+   __TEXT.__oslogstring: 0x643d
+   __TEXT.__swift5_typeref: 0x2e0
+
+   __AUTH.__objc_data: 0x860
+   __AUTH.__data: 0x1b0
+   __DATA.__objc_ivar: 0x738
+-  __DATA.__data: 0x260
++  __DATA.__data: 0x368
+   __DATA.__bss: 0x4a0
+   __DATA.__common: 0x10
+   __DATA_DIRTY.__objc_data: 0x1e00
+-  __DATA_DIRTY.__data: 0x4b0
++  __DATA_DIRTY.__data: 0x3a8
+   __DATA_DIRTY.__common: 0x38
+   __DATA_DIRTY.__bss: 0x5d0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 79BD9192-6AA4-37D9-912C-A4E1BAF46A54
++  UUID: 09FAA6C8-ACDF-3BE9-9D5B-917F6D310E86
+   Functions: 2837
+-  Symbols:   9174
++  Symbols:   9208
+   CStrings:  4096
+ 
+Symbols:
++ _$s14NeuralNetworks10ScalarTypeOSgMR
++ _$s14NeuralNetworks10ScalarTypeOSgMd
++ _$s14NeuralNetworks10SequentialVyAA6Conv1DVAA4ReLUVGMR
++ _$s14NeuralNetworks10SequentialVyAA6Conv1DVAA4ReLUVGMd
++ _$s14NeuralNetworks10SequentialVyACyAA6Conv1DVAA4ReLUVGAA7FlattenVGMR
++ _$s14NeuralNetworks10SequentialVyACyAA6Conv1DVAA4ReLUVGAA7FlattenVGMd
++ _$s14NeuralNetworks10SequentialVyACyACyAA6Conv1DVAA4ReLUVGAA7FlattenVGAA5DenseVGMR
++ _$s14NeuralNetworks10SequentialVyACyACyAA6Conv1DVAA4ReLUVGAA7FlattenVGAA5DenseVGMd
++ _$s14NeuralNetworks10SequentialVyACyACyACyAA6Conv1DVAA4ReLUVGAA7FlattenVGAA5DenseVGAA7ReshapeVGMR
++ _$s14NeuralNetworks10SequentialVyACyACyACyAA6Conv1DVAA4ReLUVGAA7FlattenVGAA5DenseVGAA7ReshapeVGMd
++ _$s14NeuralNetworks13ComputeDeviceVSgMR
++ _$s14NeuralNetworks13ComputeDeviceVSgMd
++ _$s14NeuralNetworks13LossReductionOSgMR
++ _$s14NeuralNetworks13LossReductionOSgMd
++ _$s14NeuralNetworks18RegularizationKindOSgMR
++ _$s14NeuralNetworks18RegularizationKindOSgMd
++ _$s14NeuralNetworks20GradientClippingModeOSgMR
++ _$s14NeuralNetworks20GradientClippingModeOSgMd
++ _$s14NeuralNetworks4AdamVyAA10SequentialVyAEyAEyAEyAA6Conv1DVAA4ReLUVGAA7FlattenVGAA5DenseVGAA7ReshapeVGGMR
++ _$s14NeuralNetworks4AdamVyAA10SequentialVyAEyAEyAEyAA6Conv1DVAA4ReLUVGAA7FlattenVGAA5DenseVGAA7ReshapeVGGMd
++ _$s18CreateMLComponents13OneHotEncoderV11TransformerVySS_GMR
++ _$s18CreateMLComponents13OneHotEncoderV11TransformerVySS_GMd
++ _$s18CreateMLComponents13OneHotEncoderV11TransformerVySS_GSgMR
++ _$s18CreateMLComponents13OneHotEncoderV11TransformerVySS_GSgMd
++ _$s18CreateMLComponents14OrdinalEncoderV11TransformerVySS_GMR
++ _$s18CreateMLComponents14OrdinalEncoderV11TransformerVySS_GMd
++ _$s18CreateMLComponents14OrdinalEncoderV11TransformerVySS_GSgMR
++ _$s18CreateMLComponents14OrdinalEncoderV11TransformerVySS_GSgMd
++ _$s18CreateMLComponents14OrdinalEncoderVySSGMR
++ _$s18CreateMLComponents14OrdinalEncoderVySSGMd
++ _$sSSSgMR
++ _$sSSSgMd
++ _$sSaySSSgGMR
++ _$sSaySSSgGMd
++ _$sSaySaySaySfGGGMR
++ _$sSaySaySaySfGGGMd
++ _$sSaySaySfGGMR
++ _$sSaySaySfGGMd
++ _$sSaySfGMR
++ _$sSaySfGMd
++ _$sSaySiGMR
++ _$sSaySiGMd
++ _$sScPSgMR
++ _$sScPSgMd
++ _$ss22KeyedDecodingContainerVy28PCNeuralNetworkSupportBridge0D8NetModelC10CodingKeys33_5E3324A45488CAD9EFDF1E72CC9262A7LLOGMR
++ _$ss22KeyedDecodingContainerVy28PCNeuralNetworkSupportBridge0D8NetModelC10CodingKeys33_5E3324A45488CAD9EFDF1E72CC9262A7LLOGMd
++ _$ss22KeyedDecodingContainerVy28PCNeuralNetworkSupportBridge15NeuralNetConfigC10CodingKeys33_5E3324A45488CAD9EFDF1E72CC9262A7LLOGMR
++ _$ss22KeyedDecodingContainerVy28PCNeuralNetworkSupportBridge15NeuralNetConfigC10CodingKeys33_5E3324A45488CAD9EFDF1E72CC9262A7LLOGMd
++ _$ss22KeyedEncodingContainerVy28PCNeuralNetworkSupportBridge0D8NetModelC10CodingKeys33_5E3324A45488CAD9EFDF1E72CC9262A7LLOGMR
++ _$ss22KeyedEncodingContainerVy28PCNeuralNetworkSupportBridge0D8NetModelC10CodingKeys33_5E3324A45488CAD9EFDF1E72CC9262A7LLOGMd
++ _$ss22KeyedEncodingContainerVy28PCNeuralNetworkSupportBridge15NeuralNetConfigC10CodingKeys33_5E3324A45488CAD9EFDF1E72CC9262A7LLOGMR
++ _$ss22KeyedEncodingContainerVy28PCNeuralNetworkSupportBridge15NeuralNetConfigC10CodingKeys33_5E3324A45488CAD9EFDF1E72CC9262A7LLOGMd
++ _$ss23_ContiguousArrayStorageCy14NeuralNetworks6TensorVGMR
++ _$ss23_ContiguousArrayStorageCy14NeuralNetworks6TensorVGMd
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss23_ContiguousArrayStorageCySSSgGMR
++ _$ss23_ContiguousArrayStorageCySSSgGMd
++ _$ss23_ContiguousArrayStorageCySaySaySfGGGMR
++ _$ss23_ContiguousArrayStorageCySaySaySfGGGMd
++ _$ss23_ContiguousArrayStorageCySaySfGGMR
++ _$ss23_ContiguousArrayStorageCySaySfGGMd
++ _$ss23_ContiguousArrayStorageCySfGMR
++ _$ss23_ContiguousArrayStorageCySfGMd
++ _$ss23_ContiguousArrayStorageCySiGMR
++ _$ss23_ContiguousArrayStorageCySiGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s14NeuralNetworks10ScalarTypeOSgMD
+- _$s14NeuralNetworks10SequentialVyAA6Conv1DVAA4ReLUVGMD
+- _$s14NeuralNetworks10SequentialVyACyAA6Conv1DVAA4ReLUVGAA7FlattenVGMD
+- _$s14NeuralNetworks10SequentialVyACyACyAA6Conv1DVAA4ReLUVGAA7FlattenVGAA5DenseVGMD
+- _$s14NeuralNetworks10SequentialVyACyACyACyAA6Conv1DVAA4ReLUVGAA7FlattenVGAA5DenseVGAA7ReshapeVGMD
+- _$s14NeuralNetworks13ComputeDeviceVSgMD
+- _$s14NeuralNetworks13LossReductionOSgMD
+- _$s14NeuralNetworks18RegularizationKindOSgMD
+- _$s14NeuralNetworks20GradientClippingModeOSgMD
+- _$s14NeuralNetworks4AdamVyAA10SequentialVyAEyAEyAEyAA6Conv1DVAA4ReLUVGAA7FlattenVGAA5DenseVGAA7ReshapeVGGMD
+- _$s18CreateMLComponents13OneHotEncoderV11TransformerVySS_GMD
+- _$s18CreateMLComponents13OneHotEncoderV11TransformerVySS_GSgMD
+- _$s18CreateMLComponents14OrdinalEncoderV11TransformerVySS_GMD
+- _$s18CreateMLComponents14OrdinalEncoderV11TransformerVySS_GSgMD
+- _$s18CreateMLComponents14OrdinalEncoderVySSGMD
+- _$sSSSgMD
+- _$sSaySSSgGMD
+- _$sSaySaySaySfGGGMD
+- _$sSaySaySfGGMD
+- _$sSaySfGMD
+- _$sSaySiGMD
+- _$sScPSgMD
+- _$ss22KeyedDecodingContainerVy28PCNeuralNetworkSupportBridge0D8NetModelC10CodingKeys33_5E3324A45488CAD9EFDF1E72CC9262A7LLOGMD
+- _$ss22KeyedDecodingContainerVy28PCNeuralNetworkSupportBridge15NeuralNetConfigC10CodingKeys33_5E3324A45488CAD9EFDF1E72CC9262A7LLOGMD
+- _$ss22KeyedEncodingContainerVy28PCNeuralNetworkSupportBridge0D8NetModelC10CodingKeys33_5E3324A45488CAD9EFDF1E72CC9262A7LLOGMD
+- _$ss22KeyedEncodingContainerVy28PCNeuralNetworkSupportBridge15NeuralNetConfigC10CodingKeys33_5E3324A45488CAD9EFDF1E72CC9262A7LLOGMD
+- _$ss23_ContiguousArrayStorageCy14NeuralNetworks6TensorVGMD
+- _$ss23_ContiguousArrayStorageCySSGMD
+- _$ss23_ContiguousArrayStorageCySSSgGMD
+- _$ss23_ContiguousArrayStorageCySaySaySfGGGMD
+- _$ss23_ContiguousArrayStorageCySaySfGGMD
+- _$ss23_ContiguousArrayStorageCySfGMD
+- _$ss23_ContiguousArrayStorageCySiGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+
+```

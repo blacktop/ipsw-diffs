@@ -1,0 +1,106 @@
+## RuntimeInternal
+
+> `/System/Library/PrivateFrameworks/RuntimeInternal.framework/RuntimeInternal`
+
+```diff
+
+ 112.0.0.0.0
+-  __TEXT.__text: 0xb6dc
++  __TEXT.__text: 0xb7ac
+   __TEXT.__auth_stubs: 0x490
+-  __TEXT.__const: 0x30d0
++  __TEXT.__const: 0x3170
+   __TEXT.__cstring: 0x232
+   __TEXT.__swift5_typeref: 0x1376
+   __TEXT.__swift5_reflstr: 0x2f9
+
+   __AUTH_CONST.__auth_got: 0x248
+   __AUTH_CONST.__const: 0x1f38
+   __AUTH.__data: 0x538
+-  __DATA.__data: 0x5c0
++  __DATA.__data: 0x5d8
+   __DATA.__bss: 0x3780
+   __DATA.__common: 0x10
+-  __DATA_DIRTY.__data: 0x130
++  __DATA_DIRTY.__data: 0x118
+   __DATA_DIRTY.__bss: 0x880
+   __DATA_DIRTY.__common: 0x8
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: C920DFC3-6566-388A-A3EB-08F5B8A3C21E
++  UUID: 01D9724A-B949-3407-880B-A58370442434
+   Functions: 1267
+-  Symbols:   4461
++  Symbols:   4481
+   CStrings:  18
+ 
+Symbols:
++ _$sSDy15RuntimeInternal9TypeCacheV3KeyVAA8MetadataVSgGMR
++ _$sSDy15RuntimeInternal9TypeCacheV3KeyVAA8MetadataVSgGMd
++ _$sSIy15RuntimeInternal18ConformanceSectionVGMR
++ _$sSIy15RuntimeInternal18ConformanceSectionVGMd
++ _$sSnySiGMR
++ _$sSnySiGMd
++ _$ss13ManagedBufferCy15RuntimeInternal13SectionsArrayVSo16os_unfair_lock_sVGMR
++ _$ss13ManagedBufferCy15RuntimeInternal13SectionsArrayVSo16os_unfair_lock_sVGMd
++ _$ss13ManagedBufferCySDy15RuntimeInternal18ProtocolDescriptorVSayypXpGG10conformers_Si16lastSectionCounttSo16os_unfair_lock_sVGMR
++ _$ss13ManagedBufferCySDy15RuntimeInternal18ProtocolDescriptorVSayypXpGG10conformers_Si16lastSectionCounttSo16os_unfair_lock_sVGMd
++ _$ss13ManagedBufferCySDy15RuntimeInternal9TypeCacheV3KeyVAC8MetadataVSgGSo16os_unfair_lock_sVGMR
++ _$ss13ManagedBufferCySDy15RuntimeInternal9TypeCacheV3KeyVAC8MetadataVSgGSo16os_unfair_lock_sVGMd
++ _$ss16IndexingIteratorVy15RuntimeInternal13TupleMetadataV8ElementsVGMR
++ _$ss16IndexingIteratorVy15RuntimeInternal13TupleMetadataV8ElementsVGMd
++ _$ss16IndexingIteratorVy15RuntimeInternal15FieldDescriptorVGMR
++ _$ss16IndexingIteratorVy15RuntimeInternal15FieldDescriptorVGMd
++ _$ss16IndexingIteratorVy15RuntimeInternal18ConformanceSectionVGMR
++ _$ss16IndexingIteratorVy15RuntimeInternal18ConformanceSectionVGMd
++ _$ss17_NativeDictionaryVy15RuntimeInternal18ProtocolDescriptorVSayypXpGGMR
++ _$ss17_NativeDictionaryVy15RuntimeInternal18ProtocolDescriptorVSayypXpGGMd
++ _$ss18_DictionaryStorageCy15RuntimeInternal18ProtocolDescriptorVSayypXpGGMR
++ _$ss18_DictionaryStorageCy15RuntimeInternal18ProtocolDescriptorVSayypXpGGMd
++ _$ss18_DictionaryStorageCy15RuntimeInternal9TypeCacheV3KeyVAC8MetadataVSgGMR
++ _$ss18_DictionaryStorageCy15RuntimeInternal9TypeCacheV3KeyVAC8MetadataVSgGMd
++ _$ss23_ContiguousArrayStorageCy15RuntimeInternal13TupleMetadataV8ElementsV7ElementVGMR
++ _$ss23_ContiguousArrayStorageCy15RuntimeInternal13TupleMetadataV8ElementsV7ElementVGMd
++ _$ss23_ContiguousArrayStorageCy15RuntimeInternal15FieldDescriptorV7ElementVGMR
++ _$ss23_ContiguousArrayStorageCy15RuntimeInternal15FieldDescriptorV7ElementVGMd
++ _$ss23_ContiguousArrayStorageCy15RuntimeInternal21ConformanceDescriptorVGMR
++ _$ss23_ContiguousArrayStorageCy15RuntimeInternal21ConformanceDescriptorVGMd
++ _$ss23_ContiguousArrayStorageCyypXpGMR
++ _$ss23_ContiguousArrayStorageCyypXpGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ _$ss5SliceVy15RuntimeInternal13TupleMetadataV8ElementsVGMR
++ _$ss5SliceVy15RuntimeInternal13TupleMetadataV8ElementsVGMd
++ _$ss5SliceVy15RuntimeInternal15FieldDescriptorVGMR
++ _$ss5SliceVy15RuntimeInternal15FieldDescriptorVGMd
++ _$ss5SliceVy15RuntimeInternal18ConformanceSectionVGMR
++ _$ss5SliceVy15RuntimeInternal18ConformanceSectionVGMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$sSDy15RuntimeInternal9TypeCacheV3KeyVAA8MetadataVSgGMD
+- _$sSIy15RuntimeInternal18ConformanceSectionVGMD
+- _$sSnySiGMD
+- _$ss13ManagedBufferCy15RuntimeInternal13SectionsArrayVSo16os_unfair_lock_sVGMD
+- _$ss13ManagedBufferCySDy15RuntimeInternal18ProtocolDescriptorVSayypXpGG10conformers_Si16lastSectionCounttSo16os_unfair_lock_sVGMD
+- _$ss13ManagedBufferCySDy15RuntimeInternal9TypeCacheV3KeyVAC8MetadataVSgGSo16os_unfair_lock_sVGMD
+- _$ss16IndexingIteratorVy15RuntimeInternal13TupleMetadataV8ElementsVGMD
+- _$ss16IndexingIteratorVy15RuntimeInternal15FieldDescriptorVGMD
+- _$ss16IndexingIteratorVy15RuntimeInternal18ConformanceSectionVGMD
+- _$ss17_NativeDictionaryVy15RuntimeInternal18ProtocolDescriptorVSayypXpGGMD
+- _$ss18_DictionaryStorageCy15RuntimeInternal18ProtocolDescriptorVSayypXpGGMD
+- _$ss18_DictionaryStorageCy15RuntimeInternal9TypeCacheV3KeyVAC8MetadataVSgGMD
+- _$ss23_ContiguousArrayStorageCy15RuntimeInternal13TupleMetadataV8ElementsV7ElementVGMD
+- _$ss23_ContiguousArrayStorageCy15RuntimeInternal15FieldDescriptorV7ElementVGMD
+- _$ss23_ContiguousArrayStorageCy15RuntimeInternal21ConformanceDescriptorVGMD
+- _$ss23_ContiguousArrayStorageCyypXpGMD
+- _$ss5Error_pMD
+- _$ss5SliceVy15RuntimeInternal13TupleMetadataV8ElementsVGMD
+- _$ss5SliceVy15RuntimeInternal15FieldDescriptorVGMD
+- _$ss5SliceVy15RuntimeInternal18ConformanceSectionVGMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+
+```

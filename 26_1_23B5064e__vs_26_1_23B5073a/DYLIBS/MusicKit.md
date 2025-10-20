@@ -1,0 +1,122 @@
+## MusicKit
+
+> `/System/Library/Frameworks/MusicKit.framework/MusicKit`
+
+```diff
+
+-4025.200.19.0.0
+-  __TEXT.__text: 0x5282c8
++4025.200.20.0.0
++  __TEXT.__text: 0x5612f8
+   __TEXT.__auth_stubs: 0x2f10
+   __TEXT.__objc_methlist: 0x206c
+-  __TEXT.__const: 0x47914
++  __TEXT.__const: 0x4d1d4
+   __TEXT.__gcc_except_tab: 0x1fec
+   __TEXT.__cstring: 0x11c77
+   __TEXT.__dlopen_cstrs: 0xa7a
+
+   __TEXT.__swift5_protos: 0x1e0
+   __TEXT.__swift5_mpenum: 0x218
+   __TEXT.__lldbsummaries: 0x34
+-  __TEXT.__unwind_info: 0x16190
+-  __TEXT.__eh_frame: 0x25784
++  __TEXT.__unwind_info: 0x16280
++  __TEXT.__eh_frame: 0x25ec8
+   __TEXT.__objc_classname: 0xba0
+   __TEXT.__objc_methname: 0x6a33
+   __TEXT.__objc_methtype: 0xec2
+
+   __AUTH.__objc_data: 0x698
+   __AUTH.__data: 0x37e0
+   __DATA.__objc_ivar: 0x154
+-  __DATA.__data: 0x9748
++  __DATA.__data: 0xab68
+   __DATA.__bss: 0x5be10
+   __DATA.__common: 0x120
+   __DATA_DIRTY.__objc_data: 0xd38
+-  __DATA_DIRTY.__data: 0xb061
++  __DATA_DIRTY.__data: 0x9b41
+   __DATA_DIRTY.__bss: 0x16218
+   __DATA_DIRTY.__common: 0xa50
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9A0CB44A-56FB-3539-BB90-2FAEB25BE688
+-  Functions: 39881
+-  Symbols:   34966
++  UUID: 331E7C30-3D19-3764-9718-D77AD204E9EE
++  Functions: 40067
++  Symbols:   35320
+   CStrings:  3179
+ 
+Symbols:
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _OUTLINED_FUNCTION_1532
+- _OUTLINED_FUNCTION_1533
+- _OUTLINED_FUNCTION_1534
+- _OUTLINED_FUNCTION_1535
+- _OUTLINED_FUNCTION_1536
+- _OUTLINED_FUNCTION_1537
+- _OUTLINED_FUNCTION_1538
+- _OUTLINED_FUNCTION_1539
+- _OUTLINED_FUNCTION_1540
+- _OUTLINED_FUNCTION_1541
+- _OUTLINED_FUNCTION_1542
+- _OUTLINED_FUNCTION_1543
+- _OUTLINED_FUNCTION_1544
+- _OUTLINED_FUNCTION_1545
+- _OUTLINED_FUNCTION_1546
+- _OUTLINED_FUNCTION_1547
+- _OUTLINED_FUNCTION_1548
+- _OUTLINED_FUNCTION_1549
+- _OUTLINED_FUNCTION_1550
+- _OUTLINED_FUNCTION_1551
+- _OUTLINED_FUNCTION_1552
+- _OUTLINED_FUNCTION_1553
+- _OUTLINED_FUNCTION_1554
+- _OUTLINED_FUNCTION_1555
+- _OUTLINED_FUNCTION_1556
+- _OUTLINED_FUNCTION_1557
+- _OUTLINED_FUNCTION_1558
+- _OUTLINED_FUNCTION_1559
+- _OUTLINED_FUNCTION_1560
+- _OUTLINED_FUNCTION_1561
+- _OUTLINED_FUNCTION_1562
+- _OUTLINED_FUNCTION_1563
+- _OUTLINED_FUNCTION_1564
+- _OUTLINED_FUNCTION_1565
+- _OUTLINED_FUNCTION_1566
+- _OUTLINED_FUNCTION_1567
+- _OUTLINED_FUNCTION_1568
+- _OUTLINED_FUNCTION_1569
+- _OUTLINED_FUNCTION_1570
+- _OUTLINED_FUNCTION_1571
+- _OUTLINED_FUNCTION_1572
+- _OUTLINED_FUNCTION_1573
+- _OUTLINED_FUNCTION_1574
+- _OUTLINED_FUNCTION_1575
+- _OUTLINED_FUNCTION_1576
+- _OUTLINED_FUNCTION_1577
+- _OUTLINED_FUNCTION_1578
+- _OUTLINED_FUNCTION_1579
+- _OUTLINED_FUNCTION_1580
+- _OUTLINED_FUNCTION_1581
+- _OUTLINED_FUNCTION_1582
+- _OUTLINED_FUNCTION_1583
+- _OUTLINED_FUNCTION_1584
+- _OUTLINED_FUNCTION_1585
+- _OUTLINED_FUNCTION_1586
+- _OUTLINED_FUNCTION_1587
+- _OUTLINED_FUNCTION_1588
+- _OUTLINED_FUNCTION_1589
+- _OUTLINED_FUNCTION_1590
+- _OUTLINED_FUNCTION_1591
+- _OUTLINED_FUNCTION_1592
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+
+```

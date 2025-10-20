@@ -1,0 +1,550 @@
+## AudioToolbox
+
+> `/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox`
+
+```diff
+
+-1556.221.0.0.0
+-  __TEXT.__text: 0x2ab568
++1556.224.0.0.0
++  __TEXT.__text: 0x2ab830
+   __TEXT.__auth_stubs: 0x3bd0
+   __TEXT.__delay_stubs: 0xb0
+   __TEXT.__delay_helper: 0x148
+   __TEXT.__objc_methlist: 0x203c
+   __TEXT.__const: 0x135c
+   __TEXT.__dlopen_cstrs: 0x71d
+-  __TEXT.__gcc_except_tab: 0x2892c
+-  __TEXT.__cstring: 0x1f839
+-  __TEXT.__oslogstring: 0x3a919
+-  __TEXT.__unwind_info: 0xc7b8
++  __TEXT.__gcc_except_tab: 0x28970
++  __TEXT.__cstring: 0x1f860
++  __TEXT.__oslogstring: 0x3a973
++  __TEXT.__unwind_info: 0xc7d0
+   __TEXT.__objc_classname: 0x417
+   __TEXT.__objc_methname: 0x5d13
+   __TEXT.__objc_methtype: 0x3900
+
+   __DATA_CONST.__objc_arraydata: 0x358
+   __AUTH_CONST.__auth_got: 0x1e20
+   __AUTH_CONST.__const: 0x10dc8
+-  __AUTH_CONST.__cfstring: 0x5c40
++  __AUTH_CONST.__cfstring: 0x5c60
+   __AUTH_CONST.__objc_const: 0x3250
+   __AUTH_CONST.__objc_intobj: 0x5d0
+   __AUTH_CONST.__objc_arrayobj: 0x408
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 5EAF82A9-DCB4-3700-A358-7CEF7880256E
+-  Functions: 9458
+-  Symbols:   26239
+-  CStrings:  9677
++  UUID: 8FB143EC-75EE-332A-B3A3-3CECB9AB488A
++  Functions: 9459
++  Symbols:   26243
++  CStrings:  9682
+ 
+Symbols:
++ GCC_except_table7149
++ GCC_except_table8724
++ GCC_except_table8726
++ GCC_except_table8734
++ GCC_except_table8737
++ GCC_except_table8740
++ GCC_except_table8748
++ GCC_except_table8755
++ GCC_except_table8765
++ GCC_except_table8773
++ GCC_except_table8783
++ GCC_except_table8792
++ GCC_except_table8801
++ GCC_except_table8816
++ GCC_except_table8819
++ GCC_except_table8824
++ GCC_except_table8836
++ GCC_except_table8838
++ GCC_except_table8860
++ GCC_except_table8863
++ GCC_except_table8868
++ GCC_except_table8871
++ GCC_except_table8878
++ GCC_except_table8890
++ GCC_except_table8894
++ GCC_except_table8897
++ GCC_except_table8901
++ GCC_except_table8905
++ GCC_except_table8908
++ GCC_except_table8915
++ GCC_except_table8924
++ GCC_except_table8929
++ GCC_except_table8943
++ GCC_except_table8945
++ GCC_except_table8971
++ GCC_except_table8973
++ GCC_except_table8976
++ GCC_except_table8978
++ GCC_except_table8980
++ GCC_except_table8988
++ GCC_except_table8993
++ GCC_except_table8999
++ GCC_except_table9003
++ GCC_except_table9007
++ GCC_except_table9009
++ GCC_except_table9026
++ GCC_except_table9030
++ GCC_except_table9058
++ GCC_except_table9068
++ GCC_except_table9073
++ GCC_except_table9093
++ GCC_except_table9096
++ GCC_except_table9098
++ GCC_except_table9101
++ GCC_except_table9126
++ GCC_except_table9142
++ GCC_except_table9147
++ GCC_except_table9151
++ GCC_except_table9156
++ GCC_except_table9158
++ GCC_except_table9160
++ GCC_except_table9165
++ GCC_except_table9168
++ GCC_except_table9172
++ GCC_except_table9179
++ GCC_except_table9186
++ GCC_except_table9196
++ GCC_except_table9205
++ GCC_except_table9219
++ GCC_except_table9234
++ GCC_except_table9248
++ GCC_except_table9252
++ GCC_except_table9255
++ GCC_except_table9259
++ GCC_except_table9262
++ GCC_except_table9277
++ GCC_except_table9281
++ GCC_except_table9283
++ GCC_except_table9299
++ GCC_except_table9302
++ GCC_except_table9311
++ GCC_except_table9313
++ GCC_except_table9317
++ GCC_except_table9321
++ GCC_except_table9326
++ GCC_except_table9328
++ GCC_except_table9341
++ GCC_except_table9344
++ GCC_except_table9346
++ GCC_except_table9351
++ GCC_except_table9367
++ GCC_except_table9372
++ GCC_except_table9374
++ GCC_except_table9377
++ GCC_except_table9381
++ GCC_except_table9389
++ GCC_except_table9396
++ GCC_except_table9398
++ GCC_except_table9404
++ GCC_except_table9407
++ GCC_except_table9409
++ GCC_except_table9411
++ GCC_except_table9413
++ GCC_except_table9416
++ GCC_except_table9418
++ GCC_except_table9420
++ GCC_except_table9426
++ GCC_except_table9428
++ GCC_except_table9432
++ GCC_except_table9434
++ GCC_except_table9436
++ GCC_except_table9438
++ GCC_except_table9442
++ GCC_except_table9444
++ GCC_except_table9452
++ GCC_except_table9457
++ GCC_except_table9459
++ GCC_except_table9462
++ GCC_except_table9464
++ GCC_except_table9466
++ GCC_except_table9468
++ GCC_except_table9470
++ GCC_except_table9472
++ GCC_except_table9474
++ GCC_except_table9476
++ GCC_except_table9478
++ GCC_except_table9480
++ GCC_except_table9482
++ GCC_except_table9484
++ GCC_except_table9486
++ GCC_except_table9488
++ GCC_except_table9490
++ GCC_except_table9492
++ GCC_except_table9494
++ GCC_except_table9496
++ GCC_except_table9498
++ GCC_except_table9500
++ GCC_except_table9502
++ GCC_except_table9504
++ GCC_except_table9506
++ GCC_except_table9508
++ GCC_except_table9510
++ GCC_except_table9512
++ GCC_except_table9514
++ GCC_except_table9516
++ GCC_except_table9518
++ GCC_except_table9520
++ GCC_except_table9522
++ GCC_except_table9529
++ GCC_except_table9533
++ GCC_except_table9535
++ GCC_except_table9537
++ GCC_except_table9543
++ GCC_except_table9547
++ GCC_except_table9549
++ GCC_except_table9556
++ GCC_except_table9559
++ GCC_except_table9594
++ GCC_except_table9600
++ GCC_except_table9609
++ GCC_except_table9615
++ GCC_except_table9618
++ GCC_except_table9621
++ GCC_except_table9626
++ GCC_except_table9633
++ GCC_except_table9642
++ GCC_except_table9646
++ GCC_except_table9678
++ GCC_except_table9710
++ __ZL11CPMSLibraryv.10578
++ __ZL16audit_stringCPMS.10593
++ __ZL20audit_stringAVFAudio.12803
++ __ZZL15CPMSLibraryCorePPcE16frameworkLibrary.0.10586
++ __ZZL19AVFAudioLibraryCorePPcE16frameworkLibrary.0.12789
++ __ZZL21GetSpatialMetadataSPIvE19sSpatialMetadataSPI.11680
++ __ZZL21GetSpatialMetadataSPIvE23sSpatialMetadataSPIOnce.11679
++ __ZZL21getAVAudioFormatClassvE9softClass.0.12024
++ __ZZN15AQMixEngine_VAD17maintainVADevicesEbENK3$_2clER11IAQMEDeviceRKNSt3__16vectorIP11MEConnectorNS3_9allocatorIS6_EEEE
++ __ZZN15AQMixEngine_VAD17maintainVADevicesEbENK3$_4clER11IAQMEDeviceR17MEConnectorVectorb
++ ___Block_byref_object_copy_.12138
++ ___Block_byref_object_copy_.12873
++ ___Block_byref_object_copy_.14307
++ ___Block_byref_object_dispose_.12139
++ ___Block_byref_object_dispose_.12874
++ ___Block_byref_object_dispose_.14308
++ ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.12720
++ ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.12859
++ ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.13010
++ ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.13934
++ ____Z28AudioStatisticsLibraryLoaderv_block_invoke.12306
++ ____ZL15CPMSLibraryCorePPc_block_invoke.10587
++ ____ZL19AVFAudioLibraryCorePPc_block_invoke.12790
++ ____ZL21GetSpatialMetadataSPIv_block_invoke.11687
++ ____ZL21getAVAudioFormatClassv_block_invoke.12025
++ ____ZN2AT13DispatchBlockEP16dispatch_queue_sU13block_pointerFvvEbPKcS5_iyy_block_invoke.10863
++ ____ZN2AT13DispatchBlockEP16dispatch_queue_sU13block_pointerFvvEbPKcS5_iyy_block_invoke.11676
++ ____ZN2AT13DispatchBlockEP16dispatch_queue_sU13block_pointerFvvEbPKcS5_iyy_block_invoke.13658
++ ___block_descriptor_tmp.1.12900
++ ___block_descriptor_tmp.10.10879
++ ___block_descriptor_tmp.10.12996
++ ___block_descriptor_tmp.10.13659
++ ___block_descriptor_tmp.102.14316
++ ___block_descriptor_tmp.10670
++ ___block_descriptor_tmp.10859
++ ___block_descriptor_tmp.11.10880
++ ___block_descriptor_tmp.11.11829
++ ___block_descriptor_tmp.111.14315
++ ___block_descriptor_tmp.112.14314
++ ___block_descriptor_tmp.113.14313
++ ___block_descriptor_tmp.114.14312
++ ___block_descriptor_tmp.11535
++ ___block_descriptor_tmp.12.10885
++ ___block_descriptor_tmp.124.14309
++ ___block_descriptor_tmp.12506
++ ___block_descriptor_tmp.12652
++ ___block_descriptor_tmp.12718
++ ___block_descriptor_tmp.12889
++ ___block_descriptor_tmp.13029
++ ___block_descriptor_tmp.13255
++ ___block_descriptor_tmp.13655
++ ___block_descriptor_tmp.14.11831
++ ___block_descriptor_tmp.14318
++ ___block_descriptor_tmp.15.11811
++ ___block_descriptor_tmp.24.10864
++ ___block_descriptor_tmp.3.10860
++ ___block_descriptor_tmp.6.10874
++ ___block_descriptor_tmp.7.10876
++ ___block_descriptor_tmp.7.11826
++ ___block_descriptor_tmp.8.10877
++ ___block_descriptor_tmp.8.12995
++ ___block_descriptor_tmp.9.10878
++ ___block_descriptor_tmp.99.14317
++ ___block_literal_global.10092
++ ___block_literal_global.10222
++ ___block_literal_global.10666
++ ___block_literal_global.11533
++ ___block_literal_global.12114
++ ___block_literal_global.12290
++ ___block_literal_global.12504
++ ___block_literal_global.12714
++ ___block_literal_global.12854
++ ___block_literal_global.12887
++ ___block_literal_global.13025
++ ___block_literal_global.13248
++ ___block_literal_global.13930
++ ___block_literal_global.3.12898
++ ___block_literal_global.9925
+- GCC_except_table8725
+- GCC_except_table8732
+- GCC_except_table8735
+- GCC_except_table8739
+- GCC_except_table8747
+- GCC_except_table8750
+- GCC_except_table8763
+- GCC_except_table8772
+- GCC_except_table8781
+- GCC_except_table8791
+- GCC_except_table8799
+- GCC_except_table8815
+- GCC_except_table8817
+- GCC_except_table8821
+- GCC_except_table8835
+- GCC_except_table8837
+- GCC_except_table8859
+- GCC_except_table8861
+- GCC_except_table8865
+- GCC_except_table8870
+- GCC_except_table8877
+- GCC_except_table8888
+- GCC_except_table8893
+- GCC_except_table8895
+- GCC_except_table8900
+- GCC_except_table8904
+- GCC_except_table8907
+- GCC_except_table8912
+- GCC_except_table8923
+- GCC_except_table8927
+- GCC_except_table8942
+- GCC_except_table8944
+- GCC_except_table8970
+- GCC_except_table8972
+- GCC_except_table8975
+- GCC_except_table8977
+- GCC_except_table8979
+- GCC_except_table8983
+- GCC_except_table8989
+- GCC_except_table8998
+- GCC_except_table9000
+- GCC_except_table9004
+- GCC_except_table9008
+- GCC_except_table9010
+- GCC_except_table9027
+- GCC_except_table9031
+- GCC_except_table9059
+- GCC_except_table9072
+- GCC_except_table9074
+- GCC_except_table9095
+- GCC_except_table9097
+- GCC_except_table9099
+- GCC_except_table9111
+- GCC_except_table9128
+- GCC_except_table9145
+- GCC_except_table9149
+- GCC_except_table9155
+- GCC_except_table9157
+- GCC_except_table9159
+- GCC_except_table9164
+- GCC_except_table9167
+- GCC_except_table9170
+- GCC_except_table9178
+- GCC_except_table9185
+- GCC_except_table9192
+- GCC_except_table9197
+- GCC_except_table9217
+- GCC_except_table9232
+- GCC_except_table9247
+- GCC_except_table9249
+- GCC_except_table9254
+- GCC_except_table9258
+- GCC_except_table9260
+- GCC_except_table9275
+- GCC_except_table9279
+- GCC_except_table9282
+- GCC_except_table9298
+- GCC_except_table9301
+- GCC_except_table9308
+- GCC_except_table9312
+- GCC_except_table9316
+- GCC_except_table9318
+- GCC_except_table9325
+- GCC_except_table9327
+- GCC_except_table9340
+- GCC_except_table9343
+- GCC_except_table9345
+- GCC_except_table9347
+- GCC_except_table9366
+- GCC_except_table9371
+- GCC_except_table9373
+- GCC_except_table9376
+- GCC_except_table9379
+- GCC_except_table9383
+- GCC_except_table9390
+- GCC_except_table9397
+- GCC_except_table9403
+- GCC_except_table9406
+- GCC_except_table9408
+- GCC_except_table9410
+- GCC_except_table9412
+- GCC_except_table9415
+- GCC_except_table9417
+- GCC_except_table9419
+- GCC_except_table9421
+- GCC_except_table9427
+- GCC_except_table9429
+- GCC_except_table9433
+- GCC_except_table9435
+- GCC_except_table9437
+- GCC_except_table9439
+- GCC_except_table9443
+- GCC_except_table9445
+- GCC_except_table9456
+- GCC_except_table9458
+- GCC_except_table9460
+- GCC_except_table9463
+- GCC_except_table9465
+- GCC_except_table9467
+- GCC_except_table9469
+- GCC_except_table9471
+- GCC_except_table9473
+- GCC_except_table9475
+- GCC_except_table9477
+- GCC_except_table9479
+- GCC_except_table9481
+- GCC_except_table9483
+- GCC_except_table9485
+- GCC_except_table9487
+- GCC_except_table9489
+- GCC_except_table9491
+- GCC_except_table9493
+- GCC_except_table9495
+- GCC_except_table9497
+- GCC_except_table9499
+- GCC_except_table9501
+- GCC_except_table9503
+- GCC_except_table9505
+- GCC_except_table9507
+- GCC_except_table9509
+- GCC_except_table9511
+- GCC_except_table9513
+- GCC_except_table9515
+- GCC_except_table9517
+- GCC_except_table9519
+- GCC_except_table9521
+- GCC_except_table9526
+- GCC_except_table9532
+- GCC_except_table9534
+- GCC_except_table9536
+- GCC_except_table9541
+- GCC_except_table9544
+- GCC_except_table9548
+- GCC_except_table9552
+- GCC_except_table9557
+- GCC_except_table9593
+- GCC_except_table9599
+- GCC_except_table9608
+- GCC_except_table9611
+- GCC_except_table9617
+- GCC_except_table9620
+- GCC_except_table9625
+- GCC_except_table9631
+- GCC_except_table9641
+- GCC_except_table9645
+- GCC_except_table9676
+- GCC_except_table9707
+- __ZL11CPMSLibraryv.10573
+- __ZL16audit_stringCPMS.10588
+- __ZL20audit_stringAVFAudio.12797
+- __ZZL15CPMSLibraryCorePPcE16frameworkLibrary.0.10581
+- __ZZL19AVFAudioLibraryCorePPcE16frameworkLibrary.0.12783
+- __ZZL21GetSpatialMetadataSPIvE19sSpatialMetadataSPI.11675
+- __ZZL21GetSpatialMetadataSPIvE23sSpatialMetadataSPIOnce.11674
+- __ZZL21getAVAudioFormatClassvE9softClass.0.12019
+- __ZZN15AQMixEngine_VAD17maintainVADevicesEbENK3$_3clER11IAQMEDeviceR17MEConnectorVector
+- ___Block_byref_object_copy_.12133
+- ___Block_byref_object_copy_.12867
+- ___Block_byref_object_copy_.14301
+- ___Block_byref_object_dispose_.12134
+- ___Block_byref_object_dispose_.12868
+- ___Block_byref_object_dispose_.14302
+- ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.12714
+- ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.12853
+- ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.13004
+- ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.13928
+- ____Z28AudioStatisticsLibraryLoaderv_block_invoke.12301
+- ____ZL15CPMSLibraryCorePPc_block_invoke.10582
+- ____ZL19AVFAudioLibraryCorePPc_block_invoke.12784
+- ____ZL21GetSpatialMetadataSPIv_block_invoke.11682
+- ____ZL21getAVAudioFormatClassv_block_invoke.12020
+- ____ZN2AT13DispatchBlockEP16dispatch_queue_sU13block_pointerFvvEbPKcS5_iyy_block_invoke.10858
+- ____ZN2AT13DispatchBlockEP16dispatch_queue_sU13block_pointerFvvEbPKcS5_iyy_block_invoke.11671
+- ____ZN2AT13DispatchBlockEP16dispatch_queue_sU13block_pointerFvvEbPKcS5_iyy_block_invoke.13652
+- ___block_descriptor_tmp.1.12894
+- ___block_descriptor_tmp.10.10874
+- ___block_descriptor_tmp.10.12990
+- ___block_descriptor_tmp.10.13653
+- ___block_descriptor_tmp.102.14310
+- ___block_descriptor_tmp.10665
+- ___block_descriptor_tmp.10854
+- ___block_descriptor_tmp.11.10875
+- ___block_descriptor_tmp.11.11824
+- ___block_descriptor_tmp.111.14309
+- ___block_descriptor_tmp.112.14308
+- ___block_descriptor_tmp.113.14307
+- ___block_descriptor_tmp.114.14306
+- ___block_descriptor_tmp.11530
+- ___block_descriptor_tmp.12.10880
+- ___block_descriptor_tmp.124.14303
+- ___block_descriptor_tmp.12500
+- ___block_descriptor_tmp.12646
+- ___block_descriptor_tmp.12712
+- ___block_descriptor_tmp.12883
+- ___block_descriptor_tmp.13023
+- ___block_descriptor_tmp.13249
+- ___block_descriptor_tmp.13649
+- ___block_descriptor_tmp.14.11826
+- ___block_descriptor_tmp.14312
+- ___block_descriptor_tmp.15.11806
+- ___block_descriptor_tmp.24.10859
+- ___block_descriptor_tmp.3.10855
+- ___block_descriptor_tmp.6.10869
+- ___block_descriptor_tmp.7.10871
+- ___block_descriptor_tmp.7.11821
+- ___block_descriptor_tmp.8.10872
+- ___block_descriptor_tmp.8.12989
+- ___block_descriptor_tmp.9.10873
+- ___block_descriptor_tmp.99.14311
+- ___block_literal_global.10087
+- ___block_literal_global.10217
+- ___block_literal_global.10661
+- ___block_literal_global.11528
+- ___block_literal_global.12109
+- ___block_literal_global.12285
+- ___block_literal_global.12498
+- ___block_literal_global.12708
+- ___block_literal_global.12848
+- ___block_literal_global.12881
+- ___block_literal_global.13019
+- ___block_literal_global.13242
+- ___block_literal_global.13924
+- ___block_literal_global.3.12892
+- ___block_literal_global.9920
+CStrings:
++ "%25s:%-5d AQMixEngine_VAD: AQMEDevice '%@' posting latency change for input %d, output %d"
++ "@@ Strips Oct 13 2025 22:34:00"
++ "CoreSpeech"
++ "support_secure_platform_t8142"
++ "t8142"
+- "@@ Strips Oct  5 2025 22:19:42"
+
+```

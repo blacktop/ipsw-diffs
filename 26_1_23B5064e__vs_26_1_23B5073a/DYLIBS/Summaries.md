@@ -1,0 +1,35 @@
+## Summaries
+
+> `/System/Library/Health/FeedItemPlugins/Summaries.healthplugin/Summaries`
+
+```diff
+
+-6200.2.12.0.0
+-  __TEXT.__text: 0x17de1c
++6200.2.14.2.5
++  __TEXT.__text: 0x17de60
+   __TEXT.__auth_stubs: 0x6f80
+   __TEXT.__objc_methlist: 0x2f0
+   __TEXT.__cstring: 0x760d
+
+   __TEXT.__swift5_protos: 0x60
+   __TEXT.__swift_as_entry: 0x2c
+   __TEXT.__swift_as_ret: 0x48
+-  __TEXT.__unwind_info: 0x3670
++  __TEXT.__unwind_info: 0x3678
+   __TEXT.__eh_frame: 0x3a4c
+   __TEXT.__objc_classname: 0xaa
+   __TEXT.__objc_methname: 0x3260
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7ECE5CE2-7C0E-3912-A70C-73DF38ADB453
+-  Functions: 4822
++  UUID: 600C8050-1973-3606-BF09-995C6F3DC013
++  Functions: 4824
+   Symbols:   472
+   CStrings:  1603
+ 
+
+```

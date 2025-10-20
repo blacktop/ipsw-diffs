@@ -1,0 +1,72 @@
+## FitnessForYou
+
+> `/System/Library/PrivateFrameworks/FitnessForYou.framework/FitnessForYou`
+
+```diff
+
+-2026.1.38.0.0
+-  __TEXT.__text: 0x73fa8
+-  __TEXT.__auth_stubs: 0x1850
+-  __TEXT.__const: 0x95a4
++2026.1.40.0.0
++  __TEXT.__text: 0x749bc
++  __TEXT.__auth_stubs: 0x1820
++  __TEXT.__const: 0x9f14
+   __TEXT.__cstring: 0xb0d
+-  __TEXT.__swift5_typeref: 0x3c2c
++  __TEXT.__swift5_typeref: 0x3c1c
+   __TEXT.__constg_swiftt: 0x1b70
+   __TEXT.__swift5_reflstr: 0x1b92
+   __TEXT.__swift5_fieldmd: 0x1fa8
+
+   __TEXT.__oslogstring: 0x585
+   __TEXT.__swift_as_entry: 0xb8
+   __TEXT.__swift_as_ret: 0x1e0
+-  __TEXT.__unwind_info: 0x1f88
++  __TEXT.__unwind_info: 0x1f78
+   __TEXT.__eh_frame: 0x4360
+   __TEXT.__objc_methname: 0x10
+-  __DATA_CONST.__got: 0x580
++  __DATA_CONST.__got: 0x570
+   __DATA_CONST.__const: 0xa8
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0xc28
++  __AUTH_CONST.__auth_got: 0xc10
+   __AUTH_CONST.__const: 0x4828
+   __AUTH_CONST.__objc_const: 0x1b0
+   __AUTH.__data: 0x118
+-  __DATA.__data: 0x1e10
++  __DATA.__data: 0x2010
+   __DATA.__bss: 0xd6a0
+-  __DATA_DIRTY.__data: 0xb38
++  __DATA_DIRTY.__data: 0x938
+   __DATA_DIRTY.__bss: 0x4180
+   __DATA_DIRTY.__common: 0x20
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 08736CD6-AC21-39E6-A627-6911A68B948E
++  UUID: AE80993F-D029-386F-BC1D-EDF5B5574448
+   Functions: 2634
+-  Symbols:   1103
++  Symbols:   1102
+   CStrings:  125
+ 
+Symbols:
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
++ _get_witness_table 7SwiftUI4ViewRzAaBR_AaBR0_r1_lAA15ModifiedContentVyAA5GroupVyAA012_ConditionalE0Vyq_AHyAHy011FitnessCoreB0014DelayedLoadingC0VAHyAHyAA0e11UnavailableC0VyAA4TextVAA05TupleC0VyAO_AOSgtGAA6ButtonVyAOGSgGAaBPAAE9focusableyQrSbFQOyAMyAHyAHyAHyAA5LabelVyAoA5ImageVGA3_GAHyAA5ColorVA6_GGA3_GAHyAHyAHyA2OGA7_GAOGAA05EmptyC0VG_Qo_GAHyAkMyAQyAHyADyAFyAHyADyADyADyADyADyADyq0_AA25_AppearanceActionModifierVGA19_GAA12_FrameLayoutVGAA010_AnimationW0VyAA9AlignmentVGGAA13_OffsetEffectVGA23_GADyA6_A19_GGGA23_GADyAA14GeometryReaderVyAHyAyAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyADyADyADyADyA20_A23_GA29_GA32_GA23_G_0I8Graphics7CGFloatVQo_A35_GGA23_GG_AOtGAoWGGGGxGGGA19_GAaBHPA63_AaBHPA62_AaBHPq_AaBHD2__A61_AaBHPA60_AaBHPAkaBHPyHC_A59_AaBHPA17_AaBHPAxaBHPyHC_qd__AaBHD2_A16_HOHC_A58_AaBHPAkaBHPyHC_A57_AaBHPyHCHCHCHC_xAaBHD1_HCHC_HC_A19_AA0cW0HPyHCHC.6
++ _objectdestroy.40Tm
++ _symbolic _____y_____y_____yq_ACyACy_____ACyACy_____y__________yAF_AFSgtG_____yAFGSgG_____yAEyACyACyACy_____yAF_____GAPGACy_____ARGGAPGACyACyACyA2FGASGAFG_____G_Qo_GACyAdEyAGyACyAAyAByACyAAyAAyAAyAAyAAyAAyq0______GA1_G_____G_____y_____GG_____GA4_GAAyARA1_GGGA4_GAAy_____yACy_____yAAyAAyAAyAAyA2_A4_GA8_GA10_GA4_G______Qo_A13_GGA4_GG_AFtGAfLGGGGxGGGA1_G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 011FitnessCoreB018DelayedLoadingViewV AA0d11UnavailableK0V AA4TextV AA05TupleK0V AA6ButtonV AA0K0PAAE9focusableyQrSbFQO AA5LabelV AA5ImageV AA5ColorV AA05EmptyK0V AA25_AppearanceActionModifierV AA12_FrameLayoutV AA010_AnimationW0V AA9AlignmentV AA13_OffsetEffectV AA14GeometryReaderV AtAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO 0H8Graphics7CGFloatV
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+- _get_witness_table 7SwiftUI4ViewRzAaBR_AaBR0_r1_lqd__AaBHD2_AaBPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQOyAA15ModifiedContentVyAA5GroupVyAA012_ConditionalL0Vyq_ANyANy011FitnessCoreB0014DelayedLoadingC0VANyANyAA0l11UnavailableC0VyAA4TextVAA05TupleC0VyAU_AUSgtGAA6ButtonVyAUGSgGAcAE9focusableyQrSbFQOyASyANyANyANyAA5LabelVyAuA5ImageVGA8_GANyAA5ColorVA11_GGA8_GANyANyANyA2UGA12_GAUGAA05EmptyC0VG_Qo_GANyAqSyAWyANyAJyALyANyAJyAJyAJyAJyAJyAJyq0_AA25_AppearanceActionModifierVGA24_GAA12_FrameLayoutVGAA18_AnimationModifierVyAA9AlignmentVGGAA13_OffsetEffectVGA28_GAJyA11_A24_GGGA28_GAJyAA14GeometryReaderVyANyAcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAJyAJyAJyAJyA25_A28_GA34_GA37_GA28_G_0P8Graphics7CGFloatVQo_A40_GGA28_GG_AUtGAUA1_GGGGxGGGA24_G_Qo_HO.7
+- _objc_retain_x25
+- _objectdestroy.41Tm
+- _symbolic _____y_____y_____y_____yq_ACyACy_____ACyACy_____y__________yAF_AFSgtG_____yAFGSgG_____yAEyACyACyACy_____yAF_____GAPGACy_____ARGGAPGACyACyACyA2FGASGAFG_____G_Qo_GACyAdEyAGyACyAAyAByACyAAyAAyAAyAAyAAyAAyq0______GA1_G_____G_____y_____GG_____GA4_GAAyARA1_GGGA4_GAAy_____yACy_____yAAyAAyAAyAAyA2_A4_GA8_GA10_GA4_G______Qo_A13_GGA4_GG_AFtGAfLGGGGxGGGA1_G_Qo_ 7SwiftUI4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQO AA15ModifiedContentV AA5GroupV AA012_ConditionalL0V 011FitnessCoreB0014DelayedLoadingC0V AA0l11UnavailableC0V AA4TextV AA05TupleC0V AA6ButtonV AcAE9focusableyQrSbFQO AA5LabelV AA5ImageV AA5ColorV AA05EmptyC0V AA25_AppearanceActionModifierV AA12_FrameLayoutV AA18_AnimationModifierV AA9AlignmentV AA13_OffsetEffectV AA14GeometryReaderV AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO 0P8Graphics7CGFloatV
+
+```

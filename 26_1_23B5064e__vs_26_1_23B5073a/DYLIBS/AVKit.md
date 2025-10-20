@@ -1,0 +1,1052 @@
+## AVKit
+
+> `/System/Library/Frameworks/AVKit.framework/AVKit`
+
+```diff
+
+-1300.9.1.0.0
+-  __TEXT.__text: 0x222ca8
++1300.10.1.4.0
++  __TEXT.__text: 0x22571c
+   __TEXT.__auth_stubs: 0x3730
+-  __TEXT.__objc_methlist: 0x1d54c
+-  __TEXT.__const: 0x6b50
+-  __TEXT.__constg_swiftt: 0x2590
+-  __TEXT.__swift5_typeref: 0x7752
++  __TEXT.__objc_methlist: 0x1d4e4
++  __TEXT.__const: 0x7b10
++  __TEXT.__constg_swiftt: 0x2534
++  __TEXT.__swift5_typeref: 0x778e
+   __TEXT.__swift5_builtin: 0x154
+-  __TEXT.__swift5_reflstr: 0x1ba6
+-  __TEXT.__swift5_fieldmd: 0x1b88
++  __TEXT.__swift5_reflstr: 0x1b96
++  __TEXT.__swift5_fieldmd: 0x1b6c
+   __TEXT.__swift5_assocty: 0x810
+   __TEXT.__swift5_capture: 0x12cc
+-  __TEXT.__cstring: 0x12f1e
++  __TEXT.__cstring: 0x12f54
+   __TEXT.__swift5_proto: 0x294
+-  __TEXT.__swift5_types: 0x21c
++  __TEXT.__swift5_types: 0x218
+   __TEXT.__swift5_protos: 0x30
+   __TEXT.__swift_as_entry: 0x244
+   __TEXT.__swift_as_ret: 0x3b0
+   __TEXT.__oslogstring: 0x9ae5
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__gcc_except_tab: 0x4994
++  __TEXT.__gcc_except_tab: 0x49b4
+   __TEXT.__dlopen_cstrs: 0x1ef
+   __TEXT.__ustring: 0x7a
+-  __TEXT.__unwind_info: 0x9460
+-  __TEXT.__eh_frame: 0x67c4
++  __TEXT.__unwind_info: 0x9438
++  __TEXT.__eh_frame: 0x679c
+   __TEXT.__objc_classname: 0x3924
+-  __TEXT.__objc_methname: 0x48a3a
+-  __TEXT.__objc_methtype: 0x9539
+-  __TEXT.__objc_stubs: 0x28940
+-  __DATA_CONST.__got: 0x1600
++  __TEXT.__objc_methname: 0x489d3
++  __TEXT.__objc_methtype: 0x952d
++  __TEXT.__objc_stubs: 0x28920
++  __DATA_CONST.__got: 0x15f8
+   __DATA_CONST.__const: 0x31b0
+-  __DATA_CONST.__objc_classlist: 0xa68
++  __DATA_CONST.__objc_classlist: 0xa60
+   __DATA_CONST.__objc_catlist: 0xe0
+   __DATA_CONST.__objc_protolist: 0x4a8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xca88
++  __DATA_CONST.__objc_selrefs: 0xca70
+   __DATA_CONST.__objc_protorefs: 0x90
+   __DATA_CONST.__objc_superrefs: 0x7b0
+   __DATA_CONST.__objc_arraydata: 0x5c8
+   __AUTH_CONST.__auth_got: 0x1ba8
+-  __AUTH_CONST.__const: 0x79e0
+-  __AUTH_CONST.__cfstring: 0x8f60
+-  __AUTH_CONST.__objc_const: 0x35700
++  __AUTH_CONST.__const: 0x7a00
++  __AUTH_CONST.__cfstring: 0x8f80
++  __AUTH_CONST.__objc_const: 0x35630
+   __AUTH_CONST.__objc_intobj: 0x690
+   __AUTH_CONST.__objc_arrayobj: 0x318
+   __AUTH_CONST.__objc_doubleobj: 0x280
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH.__objc_data: 0x5fa0
+-  __AUTH.__data: 0x17f8
+-  __DATA.__objc_ivar: 0x2e7c
+-  __DATA.__data: 0x53c8
++  __AUTH.__objc_data: 0x5ec0
++  __AUTH.__data: 0x17c8
++  __DATA.__objc_ivar: 0x2e78
++  __DATA.__data: 0x53e0
+   __DATA.__bss: 0x55e8
+   __DATA.__common: 0xc8
+   __DATA_DIRTY.__objc_data: 0x1590
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 515D261C-E68C-3A23-8F90-A737322A04AD
+-  Functions: 13679
+-  Symbols:   35537
+-  CStrings:  15763
++  UUID: 2003B6DE-89F9-3D5D-9A57-AC98FCE1C116
++  Functions: 13677
++  Symbols:   35524
++  CStrings:  15759
+ 
+Symbols:
++ -[AVKitGlobalSettings cornerPanGestureForContentTabsEnabled]
++ -[AVMobileControlsViewController setTemporarilyVisible:]
++ -[AVMobileControlsViewController temporarilyVisible]
++ GCC_except_table10016
++ GCC_except_table10038
++ GCC_except_table10237
++ GCC_except_table10259
++ GCC_except_table1823
++ GCC_except_table1827
++ GCC_except_table1841
++ GCC_except_table1869
++ GCC_except_table1874
++ GCC_except_table1877
++ GCC_except_table1996
++ GCC_except_table2106
++ GCC_except_table2179
++ GCC_except_table2234
++ GCC_except_table2302
++ GCC_except_table2337
++ GCC_except_table2450
++ GCC_except_table2473
++ GCC_except_table2650
++ GCC_except_table2725
++ GCC_except_table2753
++ GCC_except_table2939
++ GCC_except_table3161
++ GCC_except_table3170
++ GCC_except_table3185
++ GCC_except_table3202
++ GCC_except_table3215
++ GCC_except_table3259
++ GCC_except_table3308
++ GCC_except_table3323
++ GCC_except_table3542
++ GCC_except_table3545
++ GCC_except_table3550
++ GCC_except_table3556
++ GCC_except_table3580
++ GCC_except_table3593
++ GCC_except_table3605
++ GCC_except_table3641
++ GCC_except_table3650
++ GCC_except_table3655
++ GCC_except_table3686
++ GCC_except_table3698
++ GCC_except_table3726
++ GCC_except_table3732
++ GCC_except_table3747
++ GCC_except_table3754
++ GCC_except_table3825
++ GCC_except_table3847
++ GCC_except_table3889
++ GCC_except_table3915
++ GCC_except_table3971
++ GCC_except_table4045
++ GCC_except_table4131
++ GCC_except_table4171
++ GCC_except_table4204
++ GCC_except_table4252
++ GCC_except_table4270
++ GCC_except_table4280
++ GCC_except_table4288
++ GCC_except_table4298
++ GCC_except_table4307
++ GCC_except_table4312
++ GCC_except_table4346
++ GCC_except_table4348
++ GCC_except_table4359
++ GCC_except_table4363
++ GCC_except_table4365
++ GCC_except_table4372
++ GCC_except_table4378
++ GCC_except_table4382
++ GCC_except_table4384
++ GCC_except_table4387
++ GCC_except_table4389
++ GCC_except_table4415
++ GCC_except_table4432
++ GCC_except_table4455
++ GCC_except_table4480
++ GCC_except_table4486
++ GCC_except_table4491
++ GCC_except_table4494
++ GCC_except_table4508
++ GCC_except_table4511
++ GCC_except_table4577
++ GCC_except_table4582
++ GCC_except_table4703
++ GCC_except_table4775
++ GCC_except_table4932
++ GCC_except_table4942
++ GCC_except_table4947
++ GCC_except_table5017
++ GCC_except_table5115
++ GCC_except_table5122
++ GCC_except_table5124
++ GCC_except_table5150
++ GCC_except_table5263
++ GCC_except_table5401
++ GCC_except_table5408
++ GCC_except_table5411
++ GCC_except_table5442
++ GCC_except_table5542
++ GCC_except_table6026
++ GCC_except_table6058
++ GCC_except_table6062
++ GCC_except_table6067
++ GCC_except_table6089
++ GCC_except_table6183
++ GCC_except_table6278
++ GCC_except_table6325
++ GCC_except_table6327
++ GCC_except_table6362
++ GCC_except_table6395
++ GCC_except_table6397
++ GCC_except_table6442
++ GCC_except_table6502
++ GCC_except_table6527
++ GCC_except_table6534
++ GCC_except_table6537
++ GCC_except_table6545
++ GCC_except_table6550
++ GCC_except_table6553
++ GCC_except_table6778
++ GCC_except_table6784
++ GCC_except_table6788
++ GCC_except_table6792
++ GCC_except_table6804
++ GCC_except_table6824
++ GCC_except_table6833
++ GCC_except_table6835
++ GCC_except_table6846
++ GCC_except_table6891
++ GCC_except_table6943
++ GCC_except_table6974
++ GCC_except_table7266
++ GCC_except_table7321
++ GCC_except_table7471
++ GCC_except_table7478
++ GCC_except_table7535
++ GCC_except_table7552
++ GCC_except_table7570
++ GCC_except_table7581
++ GCC_except_table7587
++ GCC_except_table7597
++ GCC_except_table7646
++ GCC_except_table7650
++ GCC_except_table7652
++ GCC_except_table7659
++ GCC_except_table7665
++ GCC_except_table7697
++ GCC_except_table7713
++ GCC_except_table7736
++ GCC_except_table7760
++ GCC_except_table7767
++ GCC_except_table7772
++ GCC_except_table7775
++ GCC_except_table7788
++ GCC_except_table7791
++ GCC_except_table7849
++ GCC_except_table7914
++ GCC_except_table7937
++ GCC_except_table8026
++ GCC_except_table8045
++ GCC_except_table8067
++ GCC_except_table8086
++ GCC_except_table8088
++ GCC_except_table8229
++ GCC_except_table8286
++ GCC_except_table8288
++ GCC_except_table8472
++ GCC_except_table8485
++ GCC_except_table8506
++ GCC_except_table8529
++ GCC_except_table8539
++ GCC_except_table8556
++ GCC_except_table8561
++ GCC_except_table8568
++ GCC_except_table8624
++ GCC_except_table8921
++ GCC_except_table8939
++ GCC_except_table9087
++ GCC_except_table9090
++ GCC_except_table9092
++ GCC_except_table9094
++ GCC_except_table9126
++ GCC_except_table9134
++ GCC_except_table9164
++ GCC_except_table9190
++ GCC_except_table9212
++ GCC_except_table9216
++ GCC_except_table9218
++ GCC_except_table9290
++ GCC_except_table9313
++ GCC_except_table9341
++ GCC_except_table9353
++ GCC_except_table9358
++ GCC_except_table9374
++ GCC_except_table9476
++ GCC_except_table9627
++ GCC_except_table9759
++ GCC_except_table9761
++ GCC_except_table9775
++ GCC_except_table9809
++ GCC_except_table9819
++ GCC_except_table9969
++ GCC_except_table9975
++ _AVDefaultHitRectInsets.28320
++ _AVTimeIntervalToCMTime.30824
++ _MediaPlayerLibraryCore.frameworkLibrary.21254
++ _MediaPlayerLibraryCore.frameworkLibrary.26451
++ _OBJC_IVAR_$_AVKitGlobalSettings._cornerPanGestureForContentTabsEnabled
++ _OBJC_IVAR_$_AVMobileControlsViewController._temporarilyVisible
++ _VisionKitCoreLibraryCore.frameworkLibrary.28923
++ _VisionKitCoreLibraryCore.frameworkLibrary.5719
++ __CommonInit.19615
++ __CommonInit.21294
++ ___118-[AVPlayerViewController pictureInPictureController:restoreUserInterfaceForPictureInPictureStopWithCompletionHandler:]_block_invoke.843
++ ___39-[AVPlayerViewController _addObservers]_block_invoke_22
++ ___Block_byref_object_copy_.11394
++ ___Block_byref_object_copy_.12023
++ ___Block_byref_object_copy_.21243
++ ___Block_byref_object_copy_.25555
++ ___Block_byref_object_copy_.30774
++ ___Block_byref_object_copy_.33307
++ ___Block_byref_object_copy_.6096
++ ___Block_byref_object_copy_.7313
++ ___Block_byref_object_dispose_.11395
++ ___Block_byref_object_dispose_.12024
++ ___Block_byref_object_dispose_.21244
++ ___Block_byref_object_dispose_.25556
++ ___Block_byref_object_dispose_.30775
++ ___Block_byref_object_dispose_.33308
++ ___Block_byref_object_dispose_.6097
++ ___Block_byref_object_dispose_.7314
++ ___MediaPlayerLibraryCore_block_invoke.21255
++ ___MediaPlayerLibraryCore_block_invoke.26452
++ ___VisionKitCoreLibraryCore_block_invoke.28924
++ ___VisionKitCoreLibraryCore_block_invoke.5720
++ ___block_literal_global.10.6826
++ ___block_literal_global.10115
++ ___block_literal_global.104.12481
++ ___block_literal_global.107.17768
++ ___block_literal_global.10990
++ ___block_literal_global.111.12483
++ ___block_literal_global.111.25098
++ ___block_literal_global.11485
++ ___block_literal_global.116.17770
++ ___block_literal_global.11771
++ ___block_literal_global.118.12485
++ ___block_literal_global.118.17763
++ ___block_literal_global.118.25100
++ ___block_literal_global.120.13938
++ ___block_literal_global.120.17764
++ ___block_literal_global.12025
++ ___block_literal_global.12115
++ ___block_literal_global.124.12487
++ ___block_literal_global.12479
++ ___block_literal_global.125.25103
++ ___block_literal_global.12745
++ ___block_literal_global.12920
++ ___block_literal_global.13.33916
++ ___block_literal_global.13.6827
++ ___block_literal_global.131.25105
++ ___block_literal_global.13275
++ ___block_literal_global.135.24675
++ ___block_literal_global.13640
++ ___block_literal_global.137.1530
++ ___block_literal_global.139.24677
++ ___block_literal_global.13918
++ ___block_literal_global.14.12922
++ ___block_literal_global.14.18065
++ ___block_literal_global.14061
++ ___block_literal_global.14193
++ ___block_literal_global.142.34591
++ ___block_literal_global.14377
++ ___block_literal_global.14539
++ ___block_literal_global.151.25109
++ ___block_literal_global.15393
++ ___block_literal_global.159.30944
++ ___block_literal_global.16.21094
++ ___block_literal_global.16.30315
++ ___block_literal_global.16.33921
++ ___block_literal_global.16.6828
++ ___block_literal_global.1600
++ ___block_literal_global.161.25112
++ ___block_literal_global.164.30946
++ ___block_literal_global.166.25114
++ ___block_literal_global.16775
++ ___block_literal_global.17.27125
++ ___block_literal_global.171.25116
++ ___block_literal_global.17116
++ ___block_literal_global.17358
++ ___block_literal_global.17841
++ ___block_literal_global.18.21088
++ ___block_literal_global.18063
++ ___block_literal_global.18232
++ ___block_literal_global.188.30950
++ ___block_literal_global.189.26942
++ ___block_literal_global.19.6829
++ ___block_literal_global.19183
++ ___block_literal_global.196.30953
++ ___block_literal_global.19755
++ ___block_literal_global.2.34778
++ ___block_literal_global.201.30955
++ ___block_literal_global.203.30956
++ ___block_literal_global.20613
++ ___block_literal_global.208.30958
++ ___block_literal_global.2087
++ ___block_literal_global.20872
++ ___block_literal_global.21.15398
++ ___block_literal_global.21.30317
++ ___block_literal_global.21096
++ ___block_literal_global.212.22159
++ ___block_literal_global.213.30960
++ ___block_literal_global.21301
++ ___block_literal_global.221.30963
++ ___block_literal_global.22187
++ ___block_literal_global.226.25120
++ ___block_literal_global.226.30965
++ ___block_literal_global.22700
++ ___block_literal_global.236.22123
++ ___block_literal_global.23708
++ ___block_literal_global.24.21085
++ ___block_literal_global.24.27127
++ ___block_literal_global.24.6830
++ ___block_literal_global.24680
++ ___block_literal_global.25.14051
++ ___block_literal_global.252.25060
++ ___block_literal_global.25251
++ ___block_literal_global.25613
++ ___block_literal_global.26465
++ ___block_literal_global.26672
++ ___block_literal_global.26896
++ ___block_literal_global.27.14068
++ ___block_literal_global.27.30319
++ ___block_literal_global.27.5730
++ ___block_literal_global.27.6831
++ ___block_literal_global.27123
++ ___block_literal_global.2723
++ ___block_literal_global.27283
++ ___block_literal_global.275.30930
++ ___block_literal_global.27938
++ ___block_literal_global.28314
++ ___block_literal_global.28919
++ ___block_literal_global.29223
++ ___block_literal_global.2968
++ ___block_literal_global.29697
++ ___block_literal_global.29883
++ ___block_literal_global.30332
++ ___block_literal_global.31.27129
++ ___block_literal_global.31060
++ ___block_literal_global.31389
++ ___block_literal_global.3153
++ ___block_literal_global.31698
++ ___block_literal_global.32148
++ ___block_literal_global.32258
++ ___block_literal_global.32428
++ ___block_literal_global.33309
++ ___block_literal_global.33900
++ ___block_literal_global.34134
++ ___block_literal_global.344.22050
++ ___block_literal_global.34590
++ ___block_literal_global.34780
++ ___block_literal_global.35.27130
++ ___block_literal_global.365
++ ___block_literal_global.37.20616
++ ___block_literal_global.37.6612
++ ___block_literal_global.39.16776
++ ___block_literal_global.3926
++ ___block_literal_global.41.13643
++ ___block_literal_global.4395
++ ___block_literal_global.45.26898
++ ___block_literal_global.4523
++ ___block_literal_global.48.27133
++ ___block_literal_global.49.1545
++ ___block_literal_global.49.26640
++ ___block_literal_global.49.6613
++ ___block_literal_global.4942
++ ___block_literal_global.50.26900
++ ___block_literal_global.50.27134
++ ___block_literal_global.5062
++ ___block_literal_global.51.26641
++ ___block_literal_global.52.19172
++ ___block_literal_global.529.11354
++ ___block_literal_global.53.31009
++ ___block_literal_global.544
++ ___block_literal_global.546
++ ___block_literal_global.55.25567
++ ___block_literal_global.559
++ ___block_literal_global.56.13261
++ ___block_literal_global.56.21235
++ ___block_literal_global.56.26643
++ ___block_literal_global.56.31010
++ ___block_literal_global.5642
++ ___block_literal_global.5726
++ ___block_literal_global.576
++ ___block_literal_global.58.21236
++ ___block_literal_global.58.26644
++ ___block_literal_global.58.31011
++ ___block_literal_global.583
++ ___block_literal_global.60.21237
++ ___block_literal_global.602
++ ___block_literal_global.6039
++ ___block_literal_global.604
++ ___block_literal_global.606
++ ___block_literal_global.608
++ ___block_literal_global.610
++ ___block_literal_global.612
++ ___block_literal_global.614
++ ___block_literal_global.64.21232
++ ___block_literal_global.64.31700
++ ___block_literal_global.66.31012
++ ___block_literal_global.6606
++ ___block_literal_global.663
++ ___block_literal_global.67.32421
++ ___block_literal_global.6825
++ ___block_literal_global.6967
++ ___block_literal_global.7101
++ ___block_literal_global.7301
++ ___block_literal_global.731
++ ___block_literal_global.7459
++ ___block_literal_global.761
++ ___block_literal_global.8061
++ ___block_literal_global.810
++ ___block_literal_global.812
++ ___block_literal_global.8155
++ ___block_literal_global.84.31013
++ ___block_literal_global.840
++ ___block_literal_global.852
++ ___block_literal_global.855
++ ___block_literal_global.90.31014
++ ___block_literal_global.923
++ ___block_literal_global.98.31016
++ ___getMPMediaControlsClass_block_invoke.21253
++ ___getVKCImageAnalyzerClass_block_invoke.5716
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
++ __imageNameForMicaPackageState.imageNamesForStates.12746
++ __imageNameForMicaPackageState.imageNamesForStates.14378
++ __imageNameForMicaPackageState.imageNamesForStates.32422
++ __imageNameForMicaPackageState.onceToken.12744
++ __imageNameForMicaPackageState.onceToken.14376
++ __imageNameForMicaPackageState.onceToken.32420
++ _audit_stringMediaPlayer.21258
++ _audit_stringMediaPlayer.26455
++ _audit_stringVisionKitCore.28929
++ _audit_stringVisionKitCore.5723
++ _getMPMediaControlsClass.softClass.21252
++ _getVKCImageAnalyzerClass.softClass.5715
++ _get_witness_table 7SwiftUI6HStackVyAA7ForEachVySnySiGSiAA9TupleViewVyAA15ModifiedContentVy5AVKit4PillVAA12_FrameLayoutVG_AA6SpacerVSgtGGGAA0G0HPyHC.72
++ _objc_msgSend$cornerPanGestureForContentTabsEnabled
++ _objc_msgSend$isTrackingEnabled
++ _shared.onceToken.19956
++ _sharedInstance.sharedInstance.20335
++ _symbolic _____y___________ySnySiGSi_____y_____y__________G______SgtGGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA7ForEachV AA05TupleD0V AA15ModifiedContentV 5AVKit4PillV AA06_FrameG0V AA6SpacerV
++ _symbolic _____y_____ySnySiGSi_____y_____y__________G______SgtGGG 7SwiftUI6HStackV AA7ForEachV AA9TupleViewV AA15ModifiedContentV 5AVKit4PillV AA12_FrameLayoutV AA6SpacerV
++ _symbolic _____y_____y__________G______SgtG 7SwiftUI9TupleViewV AA15ModifiedContentV 5AVKit4PillV AA12_FrameLayoutV AA6SpacerV
+- -[AVKitGlobalSettings sdrNormalizeLayerDisabled]
+- -[AVMobileGlassControlsView sdrNormalizeView]
+- -[AVMobileGlassControlsView setSdrNormalizeView:]
+- -[AVTipKitControlsViewController setTemporarilyVisible:]
+- -[AVTipKitControlsViewController temporarilyVisible]
+- GCC_except_table10017
+- GCC_except_table10039
+- GCC_except_table10238
+- GCC_except_table10260
+- GCC_except_table1825
+- GCC_except_table1828
+- GCC_except_table1843
+- GCC_except_table1871
+- GCC_except_table1876
+- GCC_except_table1879
+- GCC_except_table1998
+- GCC_except_table2108
+- GCC_except_table2181
+- GCC_except_table2236
+- GCC_except_table2304
+- GCC_except_table2339
+- GCC_except_table2452
+- GCC_except_table2475
+- GCC_except_table2652
+- GCC_except_table2727
+- GCC_except_table2755
+- GCC_except_table2941
+- GCC_except_table3163
+- GCC_except_table3172
+- GCC_except_table3187
+- GCC_except_table3206
+- GCC_except_table3217
+- GCC_except_table3261
+- GCC_except_table3310
+- GCC_except_table3325
+- GCC_except_table3544
+- GCC_except_table3547
+- GCC_except_table3554
+- GCC_except_table3558
+- GCC_except_table3582
+- GCC_except_table3595
+- GCC_except_table3607
+- GCC_except_table3643
+- GCC_except_table3652
+- GCC_except_table3657
+- GCC_except_table3688
+- GCC_except_table3700
+- GCC_except_table3728
+- GCC_except_table3734
+- GCC_except_table3749
+- GCC_except_table3758
+- GCC_except_table3826
+- GCC_except_table3848
+- GCC_except_table3891
+- GCC_except_table3916
+- GCC_except_table3972
+- GCC_except_table4047
+- GCC_except_table4132
+- GCC_except_table4172
+- GCC_except_table4205
+- GCC_except_table4253
+- GCC_except_table4271
+- GCC_except_table4281
+- GCC_except_table4289
+- GCC_except_table4299
+- GCC_except_table4308
+- GCC_except_table4313
+- GCC_except_table4347
+- GCC_except_table4349
+- GCC_except_table4360
+- GCC_except_table4364
+- GCC_except_table4366
+- GCC_except_table4373
+- GCC_except_table4379
+- GCC_except_table4383
+- GCC_except_table4385
+- GCC_except_table4388
+- GCC_except_table4390
+- GCC_except_table4416
+- GCC_except_table4433
+- GCC_except_table4456
+- GCC_except_table4481
+- GCC_except_table4487
+- GCC_except_table4492
+- GCC_except_table4497
+- GCC_except_table4509
+- GCC_except_table4512
+- GCC_except_table4578
+- GCC_except_table4583
+- GCC_except_table4704
+- GCC_except_table4776
+- GCC_except_table4933
+- GCC_except_table4943
+- GCC_except_table4948
+- GCC_except_table5018
+- GCC_except_table5116
+- GCC_except_table5123
+- GCC_except_table5125
+- GCC_except_table5151
+- GCC_except_table5264
+- GCC_except_table5402
+- GCC_except_table5409
+- GCC_except_table5412
+- GCC_except_table5444
+- GCC_except_table5543
+- GCC_except_table6025
+- GCC_except_table6057
+- GCC_except_table6060
+- GCC_except_table6066
+- GCC_except_table6088
+- GCC_except_table6182
+- GCC_except_table6277
+- GCC_except_table6324
+- GCC_except_table6326
+- GCC_except_table6360
+- GCC_except_table6394
+- GCC_except_table6396
+- GCC_except_table6441
+- GCC_except_table6501
+- GCC_except_table6526
+- GCC_except_table6533
+- GCC_except_table6536
+- GCC_except_table6544
+- GCC_except_table6549
+- GCC_except_table6552
+- GCC_except_table6777
+- GCC_except_table6783
+- GCC_except_table6787
+- GCC_except_table6791
+- GCC_except_table6803
+- GCC_except_table6823
+- GCC_except_table6832
+- GCC_except_table6834
+- GCC_except_table6845
+- GCC_except_table6890
+- GCC_except_table6942
+- GCC_except_table6973
+- GCC_except_table7265
+- GCC_except_table7320
+- GCC_except_table7470
+- GCC_except_table7477
+- GCC_except_table7536
+- GCC_except_table7553
+- GCC_except_table7571
+- GCC_except_table7582
+- GCC_except_table7588
+- GCC_except_table7598
+- GCC_except_table7647
+- GCC_except_table7651
+- GCC_except_table7653
+- GCC_except_table7660
+- GCC_except_table7666
+- GCC_except_table7698
+- GCC_except_table7714
+- GCC_except_table7737
+- GCC_except_table7761
+- GCC_except_table7768
+- GCC_except_table7773
+- GCC_except_table7778
+- GCC_except_table7789
+- GCC_except_table7792
+- GCC_except_table7850
+- GCC_except_table7915
+- GCC_except_table7938
+- GCC_except_table8027
+- GCC_except_table8046
+- GCC_except_table8068
+- GCC_except_table8087
+- GCC_except_table8089
+- GCC_except_table8230
+- GCC_except_table8287
+- GCC_except_table8289
+- GCC_except_table8473
+- GCC_except_table8486
+- GCC_except_table8507
+- GCC_except_table8530
+- GCC_except_table8540
+- GCC_except_table8558
+- GCC_except_table8562
+- GCC_except_table8569
+- GCC_except_table8625
+- GCC_except_table8922
+- GCC_except_table8940
+- GCC_except_table9088
+- GCC_except_table9091
+- GCC_except_table9093
+- GCC_except_table9096
+- GCC_except_table9127
+- GCC_except_table9135
+- GCC_except_table9165
+- GCC_except_table9191
+- GCC_except_table9213
+- GCC_except_table9217
+- GCC_except_table9219
+- GCC_except_table9291
+- GCC_except_table9314
+- GCC_except_table9342
+- GCC_except_table9354
+- GCC_except_table9359
+- GCC_except_table9375
+- GCC_except_table9477
+- GCC_except_table9628
+- GCC_except_table9760
+- GCC_except_table9762
+- GCC_except_table9776
+- GCC_except_table9810
+- GCC_except_table9820
+- GCC_except_table9970
+- GCC_except_table9976
+- _AVDefaultHitRectInsets.28386
+- _AVTimeIntervalToCMTime.30892
+- _MediaPlayerLibraryCore.frameworkLibrary.21288
+- _MediaPlayerLibraryCore.frameworkLibrary.26518
+- _OBJC_CLASS_$_AVMobileGlassSDRNormalizeView
+- _OBJC_IVAR_$_AVKitGlobalSettings._sdrNormalizeLayerDisabled
+- _OBJC_IVAR_$_AVMobileGlassControlsView._sdrNormalizeView
+- _OBJC_IVAR_$_AVTipKitControlsViewController._temporarilyVisible
+- _OBJC_METACLASS_$_AVMobileGlassSDRNormalizeView
+- _VisionKitCoreLibraryCore.frameworkLibrary.28989
+- _VisionKitCoreLibraryCore.frameworkLibrary.5718
+- __CLASS_METHODS_AVMobileGlassSDRNormalizeView
+- __CLASS_PROPERTIES_AVMobileGlassSDRNormalizeView
+- __CommonInit.19649
+- __CommonInit.21328
+- __DATA_AVMobileGlassSDRNormalizeView
+- __INSTANCE_METHODS_AVMobileGlassSDRNormalizeView
+- __IVARS_AVMobileGlassSDRNormalizeView
+- __METACLASS_DATA_AVMobileGlassSDRNormalizeView
+- __PROPERTIES_AVMobileGlassSDRNormalizeView
+- ___118-[AVPlayerViewController pictureInPictureController:restoreUserInterfaceForPictureInPictureStopWithCompletionHandler:]_block_invoke.838
+- ___Block_byref_object_copy_.11400
+- ___Block_byref_object_copy_.12032
+- ___Block_byref_object_copy_.21277
+- ___Block_byref_object_copy_.25622
+- ___Block_byref_object_copy_.30842
+- ___Block_byref_object_copy_.33346
+- ___Block_byref_object_copy_.6102
+- ___Block_byref_object_copy_.7321
+- ___Block_byref_object_dispose_.11401
+- ___Block_byref_object_dispose_.12033
+- ___Block_byref_object_dispose_.21278
+- ___Block_byref_object_dispose_.25623
+- ___Block_byref_object_dispose_.30843
+- ___Block_byref_object_dispose_.33347
+- ___Block_byref_object_dispose_.6103
+- ___Block_byref_object_dispose_.7322
+- ___MediaPlayerLibraryCore_block_invoke.21289
+- ___MediaPlayerLibraryCore_block_invoke.26519
+- ___VisionKitCoreLibraryCore_block_invoke.28990
+- ___VisionKitCoreLibraryCore_block_invoke.5719
+- ___block_literal_global.10.6834
+- ___block_literal_global.10122
+- ___block_literal_global.104.12492
+- ___block_literal_global.107.17803
+- ___block_literal_global.11000
+- ___block_literal_global.111.12494
+- ___block_literal_global.111.25143
+- ___block_literal_global.11492
+- ___block_literal_global.116.17805
+- ___block_literal_global.11780
+- ___block_literal_global.118.12496
+- ___block_literal_global.118.17798
+- ___block_literal_global.118.25145
+- ___block_literal_global.120.13973
+- ___block_literal_global.120.17799
+- ___block_literal_global.12034
+- ___block_literal_global.12124
+- ___block_literal_global.124.12498
+- ___block_literal_global.12490
+- ___block_literal_global.125.25148
+- ___block_literal_global.12781
+- ___block_literal_global.12956
+- ___block_literal_global.13.33955
+- ___block_literal_global.13.6835
+- ___block_literal_global.131.25150
+- ___block_literal_global.13310
+- ___block_literal_global.135.1532
+- ___block_literal_global.135.24707
+- ___block_literal_global.13676
+- ___block_literal_global.139.24709
+- ___block_literal_global.13953
+- ___block_literal_global.14.12958
+- ___block_literal_global.14.18101
+- ___block_literal_global.14097
+- ___block_literal_global.142.34632
+- ___block_literal_global.14229
+- ___block_literal_global.14413
+- ___block_literal_global.14575
+- ___block_literal_global.151.25154
+- ___block_literal_global.15428
+- ___block_literal_global.159.31012
+- ___block_literal_global.16.21128
+- ___block_literal_global.16.30381
+- ___block_literal_global.16.33960
+- ___block_literal_global.16.6836
+- ___block_literal_global.1602
+- ___block_literal_global.161.25157
+- ___block_literal_global.164.31014
+- ___block_literal_global.166.25159
+- ___block_literal_global.16809
+- ___block_literal_global.17.27191
+- ___block_literal_global.171.25161
+- ___block_literal_global.17150
+- ___block_literal_global.17392
+- ___block_literal_global.17876
+- ___block_literal_global.18.21122
+- ___block_literal_global.18099
+- ___block_literal_global.18268
+- ___block_literal_global.186.12507
+- ___block_literal_global.188.31019
+- ___block_literal_global.19.6837
+- ___block_literal_global.19214
+- ___block_literal_global.196.31022
+- ___block_literal_global.19789
+- ___block_literal_global.2.34819
+- ___block_literal_global.201.31024
+- ___block_literal_global.203.31025
+- ___block_literal_global.20648
+- ___block_literal_global.208.31027
+- ___block_literal_global.2090
+- ___block_literal_global.20906
+- ___block_literal_global.21.15433
+- ___block_literal_global.21.30383
+- ___block_literal_global.21130
+- ___block_literal_global.212.22192
+- ___block_literal_global.213.31029
+- ___block_literal_global.21335
+- ___block_literal_global.221.31032
+- ___block_literal_global.22220
+- ___block_literal_global.226.25166
+- ___block_literal_global.226.31034
+- ___block_literal_global.22729
+- ___block_literal_global.236.22156
+- ___block_literal_global.23737
+- ___block_literal_global.24.21119
+- ___block_literal_global.24.27193
+- ___block_literal_global.24.6838
+- ___block_literal_global.24712
+- ___block_literal_global.25.14087
+- ___block_literal_global.252.25101
+- ___block_literal_global.25303
+- ___block_literal_global.25680
+- ___block_literal_global.26532
+- ___block_literal_global.26739
+- ___block_literal_global.26963
+- ___block_literal_global.27.14104
+- ___block_literal_global.27.30385
+- ___block_literal_global.27.5729
+- ___block_literal_global.27.6839
+- ___block_literal_global.27189
+- ___block_literal_global.2729
+- ___block_literal_global.27349
+- ___block_literal_global.275.30998
+- ___block_literal_global.28004
+- ___block_literal_global.28380
+- ___block_literal_global.28985
+- ___block_literal_global.29289
+- ___block_literal_global.2971
+- ___block_literal_global.29763
+- ___block_literal_global.29949
+- ___block_literal_global.30398
+- ___block_literal_global.31.27195
+- ___block_literal_global.31130
+- ___block_literal_global.31428
+- ___block_literal_global.3156
+- ___block_literal_global.31737
+- ___block_literal_global.32187
+- ___block_literal_global.32297
+- ___block_literal_global.32467
+- ___block_literal_global.33348
+- ___block_literal_global.33939
+- ___block_literal_global.34173
+- ___block_literal_global.344.22082
+- ___block_literal_global.34631
+- ___block_literal_global.34821
+- ___block_literal_global.35.27196
+- ___block_literal_global.364
+- ___block_literal_global.37.20651
+- ___block_literal_global.37.6620
+- ___block_literal_global.39.16810
+- ___block_literal_global.3925
+- ___block_literal_global.41.13679
+- ___block_literal_global.4394
+- ___block_literal_global.45.26965
+- ___block_literal_global.4522
+- ___block_literal_global.48.27199
+- ___block_literal_global.49.1548
+- ___block_literal_global.49.26707
+- ___block_literal_global.49.6621
+- ___block_literal_global.4941
+- ___block_literal_global.50.26967
+- ___block_literal_global.50.27200
+- ___block_literal_global.5061
+- ___block_literal_global.51.26708
+- ___block_literal_global.52.19203
+- ___block_literal_global.528
+- ___block_literal_global.53.31079
+- ___block_literal_global.541
+- ___block_literal_global.549
+- ___block_literal_global.55.25634
+- ___block_literal_global.56.13296
+- ___block_literal_global.56.21269
+- ___block_literal_global.56.26710
+- ___block_literal_global.56.31080
+- ___block_literal_global.561
+- ___block_literal_global.5641
+- ___block_literal_global.5725
+- ___block_literal_global.573
+- ___block_literal_global.58.21270
+- ___block_literal_global.58.26711
+- ___block_literal_global.58.31081
+- ___block_literal_global.597
+- ___block_literal_global.599
+- ___block_literal_global.60.21271
+- ___block_literal_global.601
+- ___block_literal_global.603
+- ___block_literal_global.6045
+- ___block_literal_global.605
+- ___block_literal_global.607
+- ___block_literal_global.609
+- ___block_literal_global.64.21266
+- ___block_literal_global.64.31739
+- ___block_literal_global.658
+- ___block_literal_global.66.31082
+- ___block_literal_global.6614
+- ___block_literal_global.67.32460
+- ___block_literal_global.6833
+- ___block_literal_global.6975
+- ___block_literal_global.7109
+- ___block_literal_global.726
+- ___block_literal_global.7309
+- ___block_literal_global.7467
+- ___block_literal_global.751
+- ___block_literal_global.805
+- ___block_literal_global.8069
+- ___block_literal_global.807
+- ___block_literal_global.8163
+- ___block_literal_global.835
+- ___block_literal_global.84.31083
+- ___block_literal_global.847
+- ___block_literal_global.850
+- ___block_literal_global.90.31084
+- ___block_literal_global.926
+- ___block_literal_global.98.31086
+- ___getMPMediaControlsClass_block_invoke.21287
+- ___getVKCImageAnalyzerClass_block_invoke.5715
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+- __imageNameForMicaPackageState.imageNamesForStates.12782
+- __imageNameForMicaPackageState.imageNamesForStates.14414
+- __imageNameForMicaPackageState.imageNamesForStates.32461
+- __imageNameForMicaPackageState.onceToken.12780
+- __imageNameForMicaPackageState.onceToken.14412
+- __imageNameForMicaPackageState.onceToken.32459
+- _audit_stringMediaPlayer.21292
+- _audit_stringMediaPlayer.26522
+- _audit_stringVisionKitCore.28995
+- _audit_stringVisionKitCore.5722
+- _getMPMediaControlsClass.softClass.21286
+- _getVKCImageAnalyzerClass.softClass.5714
+- _get_witness_table 7SwiftUI6HStackVyAA7ForEachVySnySiGSiAA15ModifiedContentVy5AVKit4PillVAA12_FrameLayoutVGGGAA4ViewHPyHC.72
+- _kCAFilterSDRNormalize
+- _objc_msgSend$sdrNormalizeLayerDisabled
+- _objc_msgSend$sdrNormalizeView
+- _objc_msgSend$setSdrNormalizeView:
+- _shared.onceToken.19991
+- _sharedInstance.sharedInstance.20370
+- _symbolic _____ 5AVKit29AVMobileGlassSDRNormalizeViewC
+- _symbolic _____y___________ySnySiGSi_____y__________GGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA7ForEachV AA15ModifiedContentV 5AVKit4PillV AA06_FrameG0V
+- _symbolic _____y_____ySnySiGSi_____y__________GGG 7SwiftUI6HStackV AA7ForEachV AA15ModifiedContentV 5AVKit4PillV AA12_FrameLayoutV
+CStrings:
++ "TB,R,N,V_cornerPanGestureForContentTabsEnabled"
++ "T{AVMobileGlassControlsLayoutConfiguration=QQBdQ@BBB{UIEdgeInsets=dddd}{UIEdgeInsets=dddd}QQd},N,V_layoutConfiguration"
++ "_cornerPanGestureForContentTabsEnabled"
++ "controlsViewController.temporarilyVisible"
++ "cornerPanGestureForContentTabsEnabled"
++ "v160@0:8{AVMobileGlassControlsLayoutConfiguration=QQBdQ@BBB{UIEdgeInsets=dddd}{UIEdgeInsets=dddd}QQd}16"
++ "{AVMobileGlassControlsLayoutConfiguration=\"includedControls\"Q\"excludedControls\"Q\"expanded\"B\"controlsPadding\"d\"auxiliaryControlsPlacement\"Q\"pinnedAuxiliaryControls\"@\"NSArray\"\"contentTabPresented\"B\"contentTabsDismissing\"B\"contentTabTransitioning\"B\"timelineSliderInsets\"{UIEdgeInsets=\"top\"d\"left\"d\"bottom\"d\"right\"d}\"volumeSliderInsets\"{UIEdgeInsets=\"top\"d\"left\"d\"bottom\"d\"right\"d}\"contentTabsPresentationLayout\"Q\"contentTabsLayout\"Q\"contentTabPresentationHeight\"d}"
++ "{AVMobileGlassControlsLayoutConfiguration=QQBdQ@BBB{UIEdgeInsets=dddd}{UIEdgeInsets=dddd}QQd}16@0:8"
+- "@\"AVMobileGlassSDRNormalizeView\""
+- "T@\"AVMobileGlassSDRNormalizeView\",&,N,V_sdrNormalizeView"
+- "TB,R,N,V_sdrNormalizeLayerDisabled"
+- "T{AVMobileGlassControlsLayoutConfiguration=QBdQ@BBB{UIEdgeInsets=dddd}{UIEdgeInsets=dddd}QQd},N,V_layoutConfiguration"
+- "_sdrNormalizeLayerDisabled"
+- "_sdrNormalizeView"
+- "sdrNormalizeLayerDisabled"
+- "sdrNormalizeView"
+- "setAllowsInPlaceFiltering:"
+- "setSdrNormalizeView:"
+- "v152@0:8{AVMobileGlassControlsLayoutConfiguration=QBdQ@BBB{UIEdgeInsets=dddd}{UIEdgeInsets=dddd}QQd}16"
+- "{AVMobileGlassControlsLayoutConfiguration=\"includedControls\"Q\"expanded\"B\"controlsPadding\"d\"auxiliaryControlsPlacement\"Q\"pinnedAuxiliaryControls\"@\"NSArray\"\"contentTabPresented\"B\"contentTabsDismissing\"B\"contentTabTransitioning\"B\"timelineSliderInsets\"{UIEdgeInsets=\"top\"d\"left\"d\"bottom\"d\"right\"d}\"volumeSliderInsets\"{UIEdgeInsets=\"top\"d\"left\"d\"bottom\"d\"right\"d}\"contentTabsPresentationLayout\"Q\"contentTabsLayout\"Q\"contentTabPresentationHeight\"d}"
+- "{AVMobileGlassControlsLayoutConfiguration=QBdQ@BBB{UIEdgeInsets=dddd}{UIEdgeInsets=dddd}QQd}16@0:8"
+
+```

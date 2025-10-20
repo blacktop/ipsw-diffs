@@ -1,0 +1,309 @@
+## libswiftSpatial.dylib
+
+> `/usr/lib/swift/libswiftSpatial.dylib`
+
+```diff
+
+ 108.0.0.0.0
+-  __TEXT.__text: 0x68958
++  __TEXT.__text: 0x68c44
+   __TEXT.__auth_stubs: 0x750
+-  __TEXT.__const: 0x67d0
++  __TEXT.__const: 0x69f0
+   __TEXT.__cstring: 0x35c
+   __TEXT.__swift5_typeref: 0x14fd
+   __TEXT.__constg_swiftt: 0x13ec
+
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4DFBDCCC-CD36-3E63-B3DD-F79451B70138
++  UUID: CF967C3D-B5FB-3A09-867D-5213957F7F60
+   Functions: 3886
+-  Symbols:   10951
++  Symbols:   11012
+   CStrings:  29
+ 
+Symbols:
++ _$sSSSg_So23SPProjectiveTransform3DatMR
++ _$sSSSg_So23SPProjectiveTransform3DatMd
++ _$ss22KeyedDecodingContainerVySo10SPVector3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo10SPVector3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo12SPRay3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo12SPRay3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo12SPRotation3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo12SPRotation3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo13SPPose3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo13SPPose3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo13SPRect3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo13SPRect3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo13SPSize3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo13SPSize3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo14SPPoint3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo14SPPoint3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo14SPScaledPose3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo14SPScaledPose3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo15SPVector3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo15SPVector3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo16SPRotationAxis3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo16SPRotationAxis3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo17SPRotation3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo17SPRotation3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo19SPAffineTransform3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo19SPAffineTransform3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo19SPScaledPose3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo19SPScaledPose3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo21SPRotationAxis3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo21SPRotationAxis3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo23SPProjectiveTransform3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo23SPProjectiveTransform3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo24SPAffineTransform3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo24SPAffineTransform3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo24SPSphericalCoordinates3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo24SPSphericalCoordinates3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo28SPProjectiveTransform3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo28SPProjectiveTransform3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo29SPSphericalCoordinates3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo29SPSphericalCoordinates3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo7SPRay3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo7SPRay3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo8SPPose3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo8SPPose3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo8SPRect3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo8SPRect3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo8SPSize3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo8SPSize3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVySo9SPPoint3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVySo9SPPoint3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo10SPVector3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo10SPVector3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo12SPRay3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo12SPRay3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo12SPRotation3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo12SPRotation3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo13SPPose3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo13SPPose3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo13SPRect3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo13SPRect3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo13SPSize3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo13SPSize3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo14SPPoint3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo14SPPoint3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo14SPScaledPose3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo14SPScaledPose3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo15SPVector3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo15SPVector3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo16SPRotationAxis3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo16SPRotationAxis3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo17SPRotation3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo17SPRotation3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo19SPAffineTransform3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo19SPAffineTransform3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo19SPScaledPose3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo19SPScaledPose3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo21SPRotationAxis3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo21SPRotationAxis3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo23SPProjectiveTransform3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo23SPProjectiveTransform3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo24SPAffineTransform3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo24SPAffineTransform3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo24SPSphericalCoordinates3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo24SPSphericalCoordinates3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo28SPProjectiveTransform3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo28SPProjectiveTransform3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo29SPSphericalCoordinates3DFloata7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo29SPSphericalCoordinates3DFloata7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo7SPRay3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo7SPRay3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo8SPPose3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo8SPPose3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo8SPRect3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo8SPRect3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo8SPSize3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo8SPSize3Da7SpatialE10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVySo9SPPoint3Da7SpatialE10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVySo9SPPoint3Da7SpatialE10CodingKeysOGMd
++ _$ss23_ContiguousArrayStorageCySS_yptGMR
++ _$ss23_ContiguousArrayStorageCySS_yptGMd
++ _$ss23_ContiguousArrayStorageCySo14SPPoint3DFloataGMR
++ _$ss23_ContiguousArrayStorageCySo14SPPoint3DFloataGMd
++ _$ss23_ContiguousArrayStorageCySo9SPPoint3DaGMR
++ _$ss23_ContiguousArrayStorageCySo9SPPoint3DaGMd
++ _$ss23_ContiguousArrayStorageCys5SIMD3VySdGGMR
++ _$ss23_ContiguousArrayStorageCys5SIMD3VySdGGMd
++ _$ss23_ContiguousArrayStorageCys5SIMD3VySfGGMR
++ _$ss23_ContiguousArrayStorageCys5SIMD3VySfGGMd
++ _$ss23_ContiguousArrayStorageCys5SIMD4VySdGGMR
++ _$ss23_ContiguousArrayStorageCys5SIMD4VySdGGMd
++ _$ss23_ContiguousArrayStorageCys5SIMD4VySfGGMR
++ _$ss23_ContiguousArrayStorageCys5SIMD4VySfGGMd
++ _$ss5SIMD3VySdGMR
++ _$ss5SIMD3VySdGMd
++ _$ss5SIMD3VySfGMR
++ _$ss5SIMD3VySfGMd
++ _$ss5SIMD4VySdGMR
++ _$ss5SIMD4VySdGMd
++ _$ss5SIMD4VySfGMR
++ _$ss5SIMD4VySfGMd
++ _$ss6MirrorV12DisplayStyleOSgMR
++ _$ss6MirrorV12DisplayStyleOSgMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$sSSSg_So23SPProjectiveTransform3DatMD
+- _$ss22KeyedDecodingContainerVySo10SPVector3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo12SPRay3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo12SPRotation3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo13SPPose3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo13SPRect3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo13SPSize3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo14SPPoint3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo14SPScaledPose3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo15SPVector3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo16SPRotationAxis3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo17SPRotation3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo19SPAffineTransform3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo19SPScaledPose3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo21SPRotationAxis3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo23SPProjectiveTransform3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo24SPAffineTransform3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo24SPSphericalCoordinates3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo28SPProjectiveTransform3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo29SPSphericalCoordinates3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo7SPRay3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo8SPPose3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo8SPRect3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo8SPSize3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVySo9SPPoint3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo10SPVector3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo12SPRay3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo12SPRotation3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo13SPPose3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo13SPRect3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo13SPSize3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo14SPPoint3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo14SPScaledPose3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo15SPVector3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo16SPRotationAxis3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo17SPRotation3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo19SPAffineTransform3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo19SPScaledPose3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo21SPRotationAxis3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo23SPProjectiveTransform3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo24SPAffineTransform3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo24SPSphericalCoordinates3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo28SPProjectiveTransform3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo29SPSphericalCoordinates3DFloata7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo7SPRay3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo8SPPose3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo8SPRect3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo8SPSize3Da7SpatialE10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVySo9SPPoint3Da7SpatialE10CodingKeysOGMD
+- _$ss23_ContiguousArrayStorageCySS_yptGMD
+- _$ss23_ContiguousArrayStorageCySo14SPPoint3DFloataGMD
+- _$ss23_ContiguousArrayStorageCySo9SPPoint3DaGMD
+- _$ss23_ContiguousArrayStorageCys5SIMD3VySdGGMD
+- _$ss23_ContiguousArrayStorageCys5SIMD3VySfGGMD
+- _$ss23_ContiguousArrayStorageCys5SIMD4VySdGGMD
+- _$ss23_ContiguousArrayStorageCys5SIMD4VySfGGMD
+- _$ss5SIMD3VySdGMD
+- _$ss5SIMD3VySfGMD
+- _$ss5SIMD4VySdGMD
+- _$ss5SIMD4VySfGMD
+- _$ss6MirrorV12DisplayStyleOSgMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+Functions:
+~ _$sSo15SPVector3DFloata7SpatialE6encode2toys7Encoder_p_tKF : 436 -> 440
+~ _$sSo15SPVector3DFloata7SpatialE12customMirrors0E0Vvg : 604 -> 616
+~ ___swift_instantiateConcreteTypeFromMangledName -> ___swift_instantiateConcreteTypeFromMangledNameV2 : 76 -> 72
+~ _$sSo15SPVector3DFloata7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 504 -> 508
+~ _$sSo19SPAffineTransform3Da7SpatialEyABSgSo13simd_float4x4acfCTf4nd_n : 392 -> 400
+~ _$sSo28SPProjectiveTransform3DFloata7SpatialE6encode2toys7Encoder_p_tKF : 564 -> 576
+~ _$sSo28SPProjectiveTransform3DFloata7SpatialE12customMirrors0F0Vvg : 600 -> 612
+~ ___swift_instantiateConcreteTypeFromMangledNameAbstract -> ___swift_instantiateConcreteTypeFromMangledNameAbstractV2 : 80 -> 72
+~ _$sSo28SPProjectiveTransform3DFloata7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 696 -> 716
+~ _$ss5SIMD4VySfGAByxGSEsWlTm : 72 -> 80
+~ _$sSo9SPPoint3Da7SpatialE6encode2toys7Encoder_p_tKF : 436 -> 440
+~ _$sSo9SPPoint3Da7SpatialE12customMirrors0D0Vvg : 600 -> 612
+~ _$sSo9SPPoint3Da7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 500 -> 504
+~ _$sSo14SPScaledPose3Da7SpatialE6encode2toys7Encoder_p_tKF : 552 -> 556
+~ _$sSo14SPScaledPose3Da7SpatialE12customMirrors0E0Vvg : 700 -> 712
+~ _$sSo14SPScaledPose3Da7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 868 -> 872
+~ _$sSo8SPPose3Da7SpatialE6encode2toys7Encoder_p_tKF : 512 -> 516
+~ _$sSo8SPPose3Da7SpatialE12customMirrors0D0Vvg : 652 -> 664
+~ _$sSo8SPPose3Da7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 744 -> 748
+~ _$sSo24SPSphericalCoordinates3Da7SpatialE6encode2toys7Encoder_p_tKF : 508 -> 512
+~ _$sSo24SPSphericalCoordinates3Da7SpatialE12customMirrors0E0Vvg : 660 -> 672
+~ _$sSo24SPSphericalCoordinates3Da7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 500 -> 504
+~ _$sSo29SPSphericalCoordinates3DFloata7SpatialE6encode2toys7Encoder_p_tKF : 508 -> 512
+~ _$sSo29SPSphericalCoordinates3DFloata7SpatialE12customMirrors0F0Vvg : 660 -> 672
+~ _$sSo29SPSphericalCoordinates3DFloata7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 500 -> 504
+~ _$sSo13SPRect3DFloata7SpatialE6encode2toys7Encoder_p_tKF : 512 -> 516
+~ _$sSo13SPRect3DFloata7SpatialE12customMirrors0E0Vvg : 636 -> 648
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo14SPPoint3DFloata_Tg5 : 252 -> 260
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo9SPPoint3Da_Tg5 : 252 -> 260
+~ _$sSo13SPRect3DFloata7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 592 -> 596
+~ _$sSo21SPRotationAxis3DFloata7SpatialE6encode2toys7Encoder_p_tKF : 436 -> 440
+~ _$sSo21SPRotationAxis3DFloata7SpatialE12customMirrors0F0Vvg : 600 -> 612
+~ _$sSo21SPRotationAxis3DFloata7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 500 -> 504
+~ _$sSo24SPAffineTransform3DFloata7SpatialEyABSo14simd_double4x3acfC : 300 -> 308
+~ _$sSo24SPAffineTransform3DFloata7SpatialE10truncatingABSo14simd_double4x4a_tcfC : 224 -> 232
+~ _$sSo14simd_double4x3a7SpatialEyABSo24SPAffineTransform3DFloatacfC : 284 -> 292
+~ _$sSo28SPProjectiveTransform3DFloata7SpatialEyABSo14simd_double4x4acfC : 232 -> 240
+~ _$sSo12SPAngleFloata7SpatialE12customMirrors0E0Vvg : 560 -> 572
+~ _$sSo7SPAnglea7SpatialE12customMirrors0D0Vvg : 560 -> 572
+~ _$sSo23SPProjectiveTransform3Da7SpatialE6encode2toys7Encoder_p_tKF : 584 -> 596
+~ _$sSo23SPProjectiveTransform3Da7SpatialE12customMirrors0E0Vvg : 624 -> 636
+~ _$sSo23SPProjectiveTransform3Da7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 764 -> 784
+~ _$ss5SIMD4VySdGAByxGSEsWlTm : 72 -> 80
+~ _$sSo8SPRect3Da7SpatialE6encode2toys7Encoder_p_tKF : 512 -> 516
+~ _$sSo8SPRect3Da7SpatialE12customMirrors0D0Vvg : 644 -> 656
+~ _$sSo8SPRect3Da7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 624 -> 628
+~ _$sSo19SPAffineTransform3Da7SpatialE10truncatingABSo13simd_float4x4a_tcfC : 280 -> 288
+~ _$sSo19SPAffineTransform3Da7SpatialEyABSo13simd_float4x3acfCTf4nd_n : 332 -> 340
+~ _$sSo23SPProjectiveTransform3Da7SpatialEyABSo13simd_float4x4acfCTf4nd_n : 280 -> 288
+~ _$sSo13simd_float4x3a7SpatialEyABSo19SPAffineTransform3DacfCTf4nd_n : 256 -> 264
+~ _$sSo7SPRay3Da7SpatialE6encode2toys7Encoder_p_tKF : 512 -> 516
+~ _$sSo7SPRay3Da7SpatialE12customMirrors0D0Vvg : 656 -> 668
+~ _$sSo7SPRay3Da7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 744 -> 748
+~ _$sSSSg_So23SPProjectiveTransform3DatWOh : 96 -> 104
+~ _$sSo10SPVector3Da7SpatialE6encode2toys7Encoder_p_tKF : 436 -> 440
+~ _$sSo10SPVector3Da7SpatialE12customMirrors0D0Vvg : 600 -> 612
+~ _$sSo10SPVector3Da7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 500 -> 504
+~ _$sSo19SPScaledPose3DFloata7SpatialE6encode2toys7Encoder_p_tKF : 552 -> 556
+~ _$sSo19SPScaledPose3DFloata7SpatialE12customMirrors0F0Vvg : 692 -> 704
+~ _$sSo19SPScaledPose3DFloata7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 684 -> 688
+~ _$sSo13SPSize3DFloata7SpatialE6encode2toys7Encoder_p_tKF : 436 -> 440
+~ _$sSo13SPSize3DFloata7SpatialE12customMirrors0E0Vvg : 632 -> 644
+~ _$sSo13SPSize3DFloata7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 504 -> 508
+~ _$sSo8SPSize3Da7SpatialE6encode2toys7Encoder_p_tKF : 436 -> 440
+~ _$sSo8SPSize3Da7SpatialE12customMirrors0D0Vvg : 628 -> 640
+~ _$sSo8SPSize3Da7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 500 -> 504
+~ _$sSo12SPRotation3Da7SpatialE6encode2toys7Encoder_p_tKF : 368 -> 380
+~ _$sSo12SPRotation3Da7SpatialE12customMirrors0D0Vvg : 588 -> 600
+~ _$sSo12SPRotation3Da7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 452 -> 464
+~ _$sSo24SPAffineTransform3DFloata7SpatialE6encode2toys7Encoder_p_tKF : 572 -> 584
+~ _$sSo24SPAffineTransform3DFloata7SpatialE12customMirrors0F0Vvg : 592 -> 604
+~ _$sSo24SPAffineTransform3DFloata7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 716 -> 736
+~ _$ss5SIMD3VySfGAByxGSEsWlTm : 72 -> 80
+~ _$sSo19SPAffineTransform3Da7SpatialE6encode2toys7Encoder_p_tKF : 584 -> 596
+~ _$sSo19SPAffineTransform3Da7SpatialE12customMirrors0E0Vvg : 624 -> 636
+~ _$sSo19SPAffineTransform3Da7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 764 -> 784
+~ _$ss5SIMD3VySdGAByxGSEsWlTm : 72 -> 80
+~ _$sSo12SPRay3DFloata7SpatialE6encode2toys7Encoder_p_tKF : 512 -> 516
+~ _$sSo12SPRay3DFloata7SpatialE12customMirrors0E0Vvg : 648 -> 660
+~ _$sSo12SPRay3DFloata7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 620 -> 624
+~ _$sSo13SPPose3DFloata7SpatialE6encode2toys7Encoder_p_tKF : 512 -> 516
+~ _$sSo13SPPose3DFloata7SpatialE12customMirrors0E0Vvg : 644 -> 656
+~ _$sSo13SPPose3DFloata7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 620 -> 624
+~ _$sSo17SPRotation3DFloata7SpatialE6encode2toys7Encoder_p_tKF : 368 -> 380
+~ _$sSo17SPRotation3DFloata7SpatialE12customMirrors0E0Vvg : 588 -> 600
+~ _$sSo17SPRotation3DFloata7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 436 -> 448
+~ _$sSo14SPPoint3DFloata7SpatialE6encode2toys7Encoder_p_tKF : 436 -> 440
+~ _$sSo14SPPoint3DFloata7SpatialE12customMirrors0E0Vvg : 604 -> 616
+~ _$sSo14SPPoint3DFloata7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 504 -> 508
+~ _$sSo16SPRotationAxis3Da7SpatialE6encode2toys7Encoder_p_tKF : 436 -> 440
+~ _$sSo16SPRotationAxis3Da7SpatialE12customMirrors0E0Vvg : 600 -> 612
+~ _$sSo16SPRotationAxis3Da7SpatialE4fromABs7Decoder_p_tKcfCTf4nd_n : 500 -> 504
+
+```

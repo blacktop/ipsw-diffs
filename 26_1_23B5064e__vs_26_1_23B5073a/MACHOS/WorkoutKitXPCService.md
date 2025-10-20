@@ -1,0 +1,157 @@
+## WorkoutKitXPCService
+
+> `/System/Library/PrivateFrameworks/WorkoutKitServices.framework/XPCServices/WorkoutKitXPCService.xpc/WorkoutKitXPCService`
+
+```diff
+
+-2026.1.33.0.0
+-  __TEXT.__text: 0x12a44
++2026.1.35.1.1
++  __TEXT.__text: 0x12bf4
+   __TEXT.__auth_stubs: 0xe70
+   __TEXT.__objc_methlist: 0x3ac
+   __TEXT.__objc_methname: 0xa52
+   __TEXT.__swift5_entry: 0x8
+   __TEXT.__cstring: 0x4df
+-  __TEXT.__const: 0x140
++  __TEXT.__const: 0x1f0
+   __TEXT.__constg_swiftt: 0x110
+   __TEXT.__swift5_typeref: 0x38d
+   __TEXT.__swift5_fieldmd: 0x68
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FCE5027F-4E95-3C33-8308-18EDF117DC55
++  UUID: 9E18E579-A9BE-3801-9E2A-7956990E48EA
+   Functions: 339
+-  Symbols:   2275
++  Symbols:   2319
+   CStrings:  210
+ 
+Symbols:
++ _$s10Foundation4DateVSgMR
++ _$s10Foundation4DateVSgMd
++ _$s10Foundation4UUIDVSgMR
++ _$s10Foundation4UUIDVSgMd
++ _$s10WorkoutKit11ImportErrorOSgMR
++ _$s10WorkoutKit11ImportErrorOSgMd
++ _$sSay8Dispatch0A13WorkItemFlagsVGMR
++ _$sSay8Dispatch0A13WorkItemFlagsVGMd
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMR
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMd
++ _$sSo8NSStringC_SSSgtMR
++ _$sSo8NSStringC_SSSgtMd
++ _$ss11AnyHashableV_yptMR
++ _$ss11AnyHashableV_yptMd
++ _$ss11_SetStorageCySSGMR
++ _$ss11_SetStorageCySSGMd
++ _$ss18_DictionaryStorageCySo8NSStringCSSGMR
++ _$ss18_DictionaryStorageCySo8NSStringCSSGMd
++ _$ss18_DictionaryStorageCySo8NSStringCSSSgGMR
++ _$ss18_DictionaryStorageCySo8NSStringCSSSgGMd
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMR
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMd
++ _$ss23_ContiguousArrayStorageCy10Foundation4DataVGMR
++ _$ss23_ContiguousArrayStorageCy10Foundation4DataVGMd
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit09ScheduledD4PlanVGMR
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit09ScheduledD4PlanVGMd
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss23_ContiguousArrayStorageCySo8NSStringC_SSSgtGMR
++ _$ss23_ContiguousArrayStorageCySo8NSStringC_SSSgtGMd
++ _$ss23_ContiguousArrayStorageCys11AnyHashableV_yptGMR
++ _$ss23_ContiguousArrayStorageCys11AnyHashableV_yptGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMR
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMd
++ _$ss23_ContiguousArrayStorageCyyXlGMR
++ _$ss23_ContiguousArrayStorageCyyXlGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ _$ss5Error_pSgMR
++ _$ss5Error_pSgMd
++ _$sypSgMR
++ _$sypSgMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10Foundation4DateVSgMD
+- _$s10Foundation4UUIDVSgMD
+- _$s10WorkoutKit11ImportErrorOSgMD
+- _$sSay8Dispatch0A13WorkItemFlagsVGMD
+- _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMD
+- _$sSo8NSStringC_SSSgtMD
+- _$ss11AnyHashableV_yptMD
+- _$ss11_SetStorageCySSGMD
+- _$ss18_DictionaryStorageCySo8NSStringCSSGMD
+- _$ss18_DictionaryStorageCySo8NSStringCSSSgGMD
+- _$ss18_DictionaryStorageCys11AnyHashableVypGMD
+- _$ss23_ContiguousArrayStorageCy10Foundation4DataVGMD
+- _$ss23_ContiguousArrayStorageCy10WorkoutKit09ScheduledD4PlanVGMD
+- _$ss23_ContiguousArrayStorageCySSGMD
+- _$ss23_ContiguousArrayStorageCySo8NSStringC_SSSgtGMD
+- _$ss23_ContiguousArrayStorageCys11AnyHashableV_yptGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss23_ContiguousArrayStorageCys7CVarArg_pGMD
+- _$ss23_ContiguousArrayStorageCyyXlGMD
+- _$ss5Error_pMD
+- _$ss5Error_pSgMD
+- _$sypSgMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+Functions:
+~ _$sypSgWOh : 96 -> 104
+~ ___swift_instantiateConcreteTypeFromMangledName -> ___swift_instantiateConcreteTypeFromMangledNameV2 : 76 -> 72
+~ _$s20WorkoutKitXPCServiceAAC04openA3App4with9autostart10completionySo0aB16XPC_ActivityTypeV_Sby10Foundation4UUIDVSg_s5Error_pSgtctFySb_ANtcfU_ : 328 -> 340
+~ _$sSo6NSUUIDCSgSo7NSErrorCSgIeyByy_10Foundation4UUIDVSgs5Error_pSgIegng_TR : 328 -> 332
+~ _$s20WorkoutKitXPCServiceAAC04saveA15CompositionData_10completiony10Foundation0F0V_ySb_s5Error_pSgtctFySb_AItcfU_ : 1496 -> 1504
+~ _$s20WorkoutKitXPCServiceAAC014storeScheduledA12Compositions_14sourceBundleId10completionySay10Foundation4DataVG_SSySb_s5Error_pSgtctFy0A4Core23QueriedExternalProviderCSg_AKtcfU_ : 556 -> 564
+~ _$s20WorkoutKitXPCServiceAAC017retrieveScheduledA12Compositions17forSourceBundleId10completionySS_ySay10Foundation4DataVG_s5Error_pSgtctFySay0A4Core0A13ConfigurationCG_AKtcfU_ : 712 -> 720
+~ _$s20WorkoutKitXPCServiceAAC017retrieveScheduledA12Compositions17forSourceBundleId10completionySS_ySay10Foundation4DataVG_s5Error_pSgtctFySay0A4Core0A13ConfigurationCG_AKtcfU_yANKXEfU_ : 1208 -> 1224
+~ _$s20WorkoutKitXPCServiceAAC08retrieveA11Composition04fromA4UUID10completiony10Foundation0G0V_yAF4DataVSg_s5Error_pSgtctFySo13HKSampleQueryC_SaySo0L0CGSgAMtYbcfU_ : 2672 -> 2688
+~ _$s20WorkoutKitXPCServiceAAC23handleUninstalledAppIds_10completionySaySSG_ySb_s5Error_pSgtctFyycfU0_ySb_AGtYbcfU_Tm : 632 -> 636
+~ _$s20WorkoutKitXPCServiceAAC15_updateProvider33_C4EC99709D0977A963D329D9C48A82E4LL_15permissionState10completiony0A4Core015QueriedExternalE0C_So023WOPersistencePermissionP0Vys5Error_pSgctFySb_AMtcfU_ : 568 -> 556
+~ _$s20WorkoutKitXPCServiceAAC21_addScheduledWorkouts33_C4EC99709D0977A963D329D9C48A82E4LL_14sourceBundleId10completionySay0aB00eA4PlanVG_SSySb_s5Error_pSgtctKFy0A4Core23QueriedExternalProviderCSg_ALtcfU_ : 668 -> 676
+~ _$s20WorkoutKitXPCServiceAAC21_addScheduledWorkouts33_C4EC99709D0977A963D329D9C48A82E4LL_4with10completionySay0aB00eA4PlanVG_0A4Core23QueriedExternalProviderCySb_s5Error_pSgtctKFy10Foundation4DataVSg_AOtcfU_AK0A13ConfigurationCSgAIXEfU_ : 2152 -> 2156
+~ _$s20WorkoutKitXPCServiceAAC21_addScheduledWorkouts33_C4EC99709D0977A963D329D9C48A82E4LL_4with10completionySay0aB00eA4PlanVG_0A4Core23QueriedExternalProviderCySb_s5Error_pSgtctKFy10Foundation4DataVSg_AOtcfU_ySb_AOtcfU0_ySb_AOtYbcfU_ : 792 -> 804
+~ _$s20WorkoutKitXPCServiceAAC24_removeScheduledWorkouts33_C4EC99709D0977A963D329D9C48A82E4LL_14sourceBundleId10completionySay0aB00eA4PlanVG_SSySb_s5Error_pSgtctKFy0A4Core23QueriedExternalProviderCSg_ALtcfU_ : 1256 -> 1260
+~ _$s20WorkoutKitXPCServiceAAC04saveA15CompositionData_10completiony10Foundation0F0V_ySb_s5Error_pSgtctFySb_AItcfU_ySb_AItYbcfU_Tm : 604 -> 612
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4DataV_Tg5 : 260 -> 268
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10WorkoutKit09ScheduledP4PlanV_Tg5 : 464 -> 472
+~ _$ss10_NativeSetV6resize8capacityySi_tFSS_Tg5 : 600 -> 608
+~ _$ss10_NativeSetV4copyyyFSS_Tg5 : 340 -> 348
+~ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSS_Tg5 : 560 -> 568
+~ _$s20WorkoutKitXPCServiceAAC10_showAlert33_C4EC99709D0977A963D329D9C48A82E4LL3forys5Error_p_tFTf4nd_n : 576 -> 596
+~ _$s20WorkoutKitXPCServiceAAC07presentA15CompositionData_10completiony10Foundation0F0V_ySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5I12_pSgIegyg_TR0K1C0mN0VSo0P0CSgIeyByy_Tf1ncn_nTf4nng_n : 1064 -> 1080
+~ _$s20WorkoutKitXPCServiceAAC04openA3App4with9autostart10completionySo0aB16XPC_ActivityTypeV_Sby10Foundation4UUIDVSg_s5Error_pSgtctF056$sSo6NSUUIDCSgSo7NSErrorCSgIeyByy_10Foundation4UUIDVSgs5N12_pSgIegng_TRSo6NSUUIDCSgSo0S0CSgIeyByy_Tf1nncn_nTf4nnng_n : 1040 -> 1056
+~ _$s20WorkoutKitXPCServiceAAC20addScheduledWorkouts_14sourceBundleId10completionySay10Foundation4DataVG_SSySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5M12_pSgIegyg_TR0O1C0qR0VSo0T0CSgIeyByy_Tf1nncn_nTf4nnng_nTm : 1484 -> 1500
+~ _$s20WorkoutKitXPCServiceAAC014storeScheduledA12Compositions_14sourceBundleId10completionySay10Foundation4DataVG_SSySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5M12_pSgIegyg_TR0O1C0qR0VSo0T0CSgIeyByy_Tf1nncn_nTf4nnng_n : 1416 -> 1424
+~ _$s20WorkoutKitXPCServiceAAC014storeScheduledA12Compositions_14sourceBundleId10completionySay10Foundation4DataVG_SSySb_s5Error_pSgtctFy0A4Core23QueriedExternalProviderCSg_AKtcfU_ySb_AKtcfU_Tf4dnnnnn_n : 1072 -> 1080
+~ _$s20WorkoutKitXPCServiceAAC21_deleteConfigurations33_C4EC99709D0977A963D329D9C48A82E4LL4from10completionyShySSG_ySb_s5Error_pSgtctF04$s20abc96AAC014storeScheduledA12Compositions_14sourceBundleId10completionySay10Foundation4DataVG_SSySb_s5Q63_pSgtctFy0A4Core23QueriedExternalProviderCSg_AKtcfU_ySb_AKtcfU_SbAIIegyg_Say10Foundation4DataVGAB0A4Core23QueriedExternalProviderCTf1ncn_nTf4nngggg_n : 1552 -> 1560
+~ _$s20WorkoutKitXPCServiceAAC21_deleteConfigurations33_C4EC99709D0977A963D329D9C48A82E4LL4from10completionyShySSG_ySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5Q12_pSgIegyg_TR0S1C0uV0VSo0X0CSgIeyByy_Tf1ncn_nTf4nng_n : 1496 -> 1504
+~ _$s20WorkoutKitXPCServiceAAC015deleteScheduledA12Compositions17forSourceBundleId10completionySS_ySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5L12_pSgIegyg_TR0N1C0pQ0VSo0S0CSgIeyByy_Tf1ncn_nTf4nng_n : 732 -> 740
+~ _$s20WorkoutKitXPCServiceAAC08retrieveA11Composition04fromA010completiony10Foundation4DataV_yAHSg_s5Error_pSgtctF024$sSo6NSDataCSgSo7NSErrorn20IeyByy_10Foundation4i5VSgs5J12_pSgIeggg_TRSo0M0CSgSo0P0CSgIeyByy_Tf1ncn_nTf4nng_n : 1488 -> 1496
+~ _$s20WorkoutKitXPCServiceAAC23handleUninstalledAppIds_10completionySaySSG_ySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5I12_pSgIegyg_TR0K1C0mN0VSo0P0CSgIeyByy_Tf1ncn_nTf4nng_n : 1972 -> 1980
+~ _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl : 92 -> 100
+~ ___swift_instantiateConcreteTypeFromMangledNameAbstract -> ___swift_instantiateConcreteTypeFromMangledNameAbstractV2 : 80 -> 72
+~ _$s10Foundation4UUIDVSgWOc : 104 -> 112
+~ _$s10Foundation4DateVSgWOhTm : 92 -> 96
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSo8NSStringC_SSTg5 : 636 -> 644
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCs11AnyHashableV_ypTt0g5Tf4g_n : 276 -> 284
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo8NSStringC_SSSgTt0g5Tf4g_n : 244 -> 252
+~ _$s20WorkoutKitXPCService20SystemAlertPresenterV7present5title7message18defaultButtonTitle09alternatekL0AC0E9SelectionOSS_S3SSgtFZTf4nnnnd_n : 1660 -> 1676
+~ _$ss11AnyHashableV_yptWOc : 104 -> 112
+~ _$s20WorkoutKitXPCServiceAAC21workoutAppIsInstalledSbvgTf4d_n : 680 -> 688
+~ _$s20WorkoutKitXPCServiceAAC15extensionRecord3forSo022LSApplicationExtensionE0CSgSS_tFTf4nd_n : 660 -> 668
+~ _$s20WorkoutKitXPCServiceAAC26requestingProcessIsAppClipySbSSFTf4nd_n : 656 -> 664
+~ _$s20WorkoutKitXPCService16AppIconRetrievalV04iconF5Queue_WZ : 592 -> 608
+~ _$s20WorkoutKitXPCService16AppIconRetrievalV4icon11forBundleId10completionySS_y10Foundation4DataVSg_s5Error_pSgtctFZyyYbcfU_ : 560 -> 568
+~ _$s20WorkoutKitXPCService16AppIconRetrievalV4icon11forBundleId10completionySS_y10Foundation4DataVSg_s5Error_pSgtctFZTf4nnd_n : 892 -> 912
+~ _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWlTm : 80 -> 84
+~ _$s20WorkoutKitXPCService15PermissionAlertV7present7appNameSo013WOPersistenceD5StateVSS_tFZTf4nd_n : 832 -> 840
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 108 -> 116
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5 : 236 -> 244
+~ _$s20WorkoutKitXPCServiceAAC17remoteAlertHandle_22didInvalidateWithErrorySo09SBSRemoteeF0C_s0J0_pSgtFTf4dnn_n : 552 -> 560
+
+```

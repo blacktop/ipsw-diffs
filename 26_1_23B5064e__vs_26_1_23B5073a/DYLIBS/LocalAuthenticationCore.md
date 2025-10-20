@@ -1,0 +1,375 @@
+## LocalAuthenticationCore
+
+> `/System/Library/PrivateFrameworks/LocalAuthenticationCore.framework/LocalAuthenticationCore`
+
+```diff
+
+-2005.40.35.0.0
+-  __TEXT.__text: 0xfc89c
++2005.42.1.0.0
++  __TEXT.__text: 0xfdcc8
+   __TEXT.__auth_stubs: 0x2480
+   __TEXT.__objc_methlist: 0x9cd8
+-  __TEXT.__const: 0x4b14
++  __TEXT.__const: 0x4f44
+   __TEXT.__gcc_except_tab: 0x1afc
+   __TEXT.__oslogstring: 0x6ce1
+   __TEXT.__cstring: 0xe627
+
+   __TEXT.__swift5_protos: 0x24
+   __TEXT.__swift_as_ret: 0xd8
+   __TEXT.__swift5_mpenum: 0x1c
+-  __TEXT.__unwind_info: 0x44a8
++  __TEXT.__unwind_info: 0x44c0
+   __TEXT.__eh_frame: 0x2450
+   __TEXT.__objc_classname: 0x22f1
+   __TEXT.__objc_methname: 0xfe97
+   __TEXT.__objc_methtype: 0x499b
+   __TEXT.__objc_stubs: 0xa8a0
+-  __DATA_CONST.__got: 0xb28
++  __DATA_CONST.__got: 0xb08
+   __DATA_CONST.__const: 0x4b10
+   __DATA_CONST.__objc_classlist: 0x848
+   __DATA_CONST.__objc_protolist: 0x660
+
+   __AUTH.__objc_data: 0x3ca8
+   __AUTH.__data: 0xe90
+   __DATA.__objc_ivar: 0x844
+-  __DATA.__data: 0x5210
++  __DATA.__data: 0x5190
+   __DATA.__bss: 0x2ca9
+   __DATA.__common: 0xa0
+   __DATA_DIRTY.__objc_data: 0x1eb0
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 76F4A835-4404-3F9B-98CD-B3486ADD1114
+-  Functions: 6454
+-  Symbols:   22446
++  UUID: C0FD396E-29F8-3A1F-A8D4-0C35917DEB32
++  Functions: 6453
++  Symbols:   22547
+   CStrings:  6969
+ 
+Symbols:
++ _$s10Foundation3URLVSgMR
++ _$s10Foundation3URLVSgMd
++ _$s10Foundation3URLVSg_ADtMR
++ _$s10Foundation3URLVSg_ADtMd
++ _$s10Foundation4DateV5lower_AC5uppertMR
++ _$s10Foundation4DateV5lower_AC5uppertMd
++ _$s10Foundation4DateVSgMR
++ _$s10Foundation4DateVSgMd
++ _$s10Foundation4DateVSg_ADtMR
++ _$s10Foundation4DateVSg_ADtMd
++ _$s10Foundation4UUIDV3key_23LocalAuthenticationCore012LACCompanionE14PendingRequest33_7C23A2E67F893FA563A4E1A97AE88CD3LLC5valuetMR
++ _$s10Foundation4UUIDV3key_23LocalAuthenticationCore012LACCompanionE14PendingRequest33_7C23A2E67F893FA563A4E1A97AE88CD3LLC5valuetMd
++ _$s10Foundation4UUIDV3key_23LocalAuthenticationCore012LACCompanionE14PendingRequest33_7C23A2E67F893FA563A4E1A97AE88CD3LLC5valuetSgMR
++ _$s10Foundation4UUIDV3key_23LocalAuthenticationCore012LACCompanionE14PendingRequest33_7C23A2E67F893FA563A4E1A97AE88CD3LLC5valuetSgMd
++ _$s10Foundation4UUIDVSgMR
++ _$s10Foundation4UUIDVSgMd
++ _$s10Foundation4UUIDVSg_ADtMR
++ _$s10Foundation4UUIDVSg_ADtMd
++ _$s10Foundation4UUIDV_23LocalAuthenticationCore012LACCompanionD14PendingRequest33_7C23A2E67F893FA563A4E1A97AE88CD3LLCtMR
++ _$s10Foundation4UUIDV_23LocalAuthenticationCore012LACCompanionD14PendingRequest33_7C23A2E67F893FA563A4E1A97AE88CD3LLCtMd
++ _$s10Foundation4UUIDV_23LocalAuthenticationCore012LACCompanionD24ControllerPendingRequestCtMR
++ _$s10Foundation4UUIDV_23LocalAuthenticationCore012LACCompanionD24ControllerPendingRequestCtMd
++ _$s23LocalAuthenticationCore012LACCompanionB16SessionProviding_pSgMR
++ _$s23LocalAuthenticationCore012LACCompanionB16SessionProviding_pSgMd
++ _$s23LocalAuthenticationCore22LACACMContextProviding_pSgMR
++ _$s23LocalAuthenticationCore22LACACMContextProviding_pSgMd
++ _$s23LocalAuthenticationCore22LACACMContextProviding_pSgSgMR
++ _$s23LocalAuthenticationCore22LACACMContextProviding_pSgSgMd
++ _$s23LocalAuthenticationCore27LACPreboardUseCaseProviding_pSgMR
++ _$s23LocalAuthenticationCore27LACPreboardUseCaseProviding_pSgMd
++ _$s23LocalAuthenticationCore27LACPreboardUseCaseProviding_pSgSgMR
++ _$s23LocalAuthenticationCore27LACPreboardUseCaseProviding_pSgSgMd
++ _$s23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationC23notificationScheduledAt10Foundation4DateVSgvgToTm
++ _$s23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationC23notificationScheduledAt10Foundation4DateVSgvsToTm
++ _$s7Combine10PublishersO0A6LatestVy_AA12AnyPublisherVySbs5NeverOGAJGMR
++ _$s7Combine10PublishersO0A6LatestVy_AA12AnyPublisherVySbs5NeverOGAJGMd
++ _$s7Combine10PublishersO10CompactMapVy_AC16RemoveDuplicatesVy_AA19CurrentValueSubjectCySbSgs5NeverOGGSbGMR
++ _$s7Combine10PublishersO10CompactMapVy_AC16RemoveDuplicatesVy_AA19CurrentValueSubjectCySbSgs5NeverOGGSbGMd
++ _$s7Combine10PublishersO12HandleEventsVy_AC5ShareCy_AC10CompactMapVy_AC16RemoveDuplicatesVy_AA19CurrentValueSubjectCySbSgs5NeverOGGSbGGGMR
++ _$s7Combine10PublishersO12HandleEventsVy_AC5ShareCy_AC10CompactMapVy_AC16RemoveDuplicatesVy_AA19CurrentValueSubjectCySbSgs5NeverOGGSbGGGMd
++ _$s7Combine10PublishersO16RemoveDuplicatesVy_AA19CurrentValueSubjectCySbSgs5NeverOGGMR
++ _$s7Combine10PublishersO16RemoveDuplicatesVy_AA19CurrentValueSubjectCySbSgs5NeverOGGMd
++ _$s7Combine10PublishersO5ShareCy_AA19CurrentValueSubjectCySbs5NeverOGGMR
++ _$s7Combine10PublishersO5ShareCy_AA19CurrentValueSubjectCySbs5NeverOGGMd
++ _$s7Combine10PublishersO5ShareCy_AC10CompactMapVy_AC16RemoveDuplicatesVy_AA19CurrentValueSubjectCySbSgs5NeverOGGSbGGMR
++ _$s7Combine10PublishersO5ShareCy_AC10CompactMapVy_AC16RemoveDuplicatesVy_AA19CurrentValueSubjectCySbSgs5NeverOGGSbGGMd
++ _$s7Combine10PublishersO9ReceiveOnVy_AC12HandleEventsVy_AC5ShareCy_AC10CompactMapVy_AC16RemoveDuplicatesVy_AA19CurrentValueSubjectCySbSgs5NeverOGGSbGGGSo17OS_dispatch_queueCGMR
++ _$s7Combine10PublishersO9ReceiveOnVy_AC12HandleEventsVy_AC5ShareCy_AC10CompactMapVy_AC16RemoveDuplicatesVy_AA19CurrentValueSubjectCySbSgs5NeverOGGSbGGGSo17OS_dispatch_queueCGMd
++ _$s7Combine10PublishersO9ReceiveOnVy_AC5ShareCy_AA19CurrentValueSubjectCySbs5NeverOGGSo17OS_dispatch_queueCGMR
++ _$s7Combine10PublishersO9ReceiveOnVy_AC5ShareCy_AA19CurrentValueSubjectCySbs5NeverOGGSo17OS_dispatch_queueCGMd
++ _$s7Combine12AnyPublisherVySbs5NeverOGMR
++ _$s7Combine12AnyPublisherVySbs5NeverOGMd
++ _$s7Combine19CurrentValueSubjectCySbSgs5NeverOGMR
++ _$s7Combine19CurrentValueSubjectCySbSgs5NeverOGMd
++ _$s7Combine19CurrentValueSubjectCySbs5NeverOGMR
++ _$s7Combine19CurrentValueSubjectCySbs5NeverOGMd
++ _$sSDySiypGMR
++ _$sSDySiypGMd
++ _$sSDySo20LACEligibilityDomainaSbGMR
++ _$sSDySo20LACEligibilityDomainaSbGMd
++ _$sSDys11AnyHashableVypGMR
++ _$sSDys11AnyHashableVypGMd
++ _$sSDys11AnyHashableVypGSgMR
++ _$sSDys11AnyHashableVypGSgMd
++ _$sSNy10Foundation4DateVGMR
++ _$sSNy10Foundation4DateVGMd
++ _$sSSSgMR
++ _$sSSSgMd
++ _$sSS_SDySiypGtMR
++ _$sSS_SDySiypGtMd
++ _$sSS_yptMR
++ _$sSS_yptMd
++ _$sSay23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationCGMR
++ _$sSay23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationCGMd
++ _$sSay23LocalAuthenticationCore37LACConcurrentEvaluationManagedRequest33_C817701C53905B142550A8026D25F95DLLCGMR
++ _$sSay23LocalAuthenticationCore37LACConcurrentEvaluationManagedRequest33_C817701C53905B142550A8026D25F95DLLCGMd
++ _$sSay23LocalAuthenticationCore40LACConcurrentEvaluationAllowListBundleIDOGMR
++ _$sSay23LocalAuthenticationCore40LACConcurrentEvaluationAllowListBundleIDOGMd
++ _$sSay23LocalAuthenticationCore42LACConcurrentEvaluationAllowListBinaryPathOGMR
++ _$sSay23LocalAuthenticationCore42LACConcurrentEvaluationAllowListBinaryPathOGMd
++ _$sSay8Dispatch0A13WorkItemFlagsVGMR
++ _$sSay8Dispatch0A13WorkItemFlagsVGMd
++ _$sSaySSGMR
++ _$sSaySSGMd
++ _$sSaySiGMR
++ _$sSaySiGMd
++ _$sSaySo29LACEvaluationRequestProcessor_pGMR
++ _$sSaySo29LACEvaluationRequestProcessor_pGMd
++ _$sSaySo8NSNumberCGSgMR
++ _$sSaySo8NSNumberCGSgMd
++ _$sSays5UInt8VGMR
++ _$sSays5UInt8VGMd
++ _$sSbSgMR
++ _$sSbSgMd
++ _$sScCyyts5NeverOGMR
++ _$sScCyyts5NeverOGMd
++ _$sScPSgMR
++ _$sScPSgMd
++ _$sScS12ContinuationV11YieldResultOyyyYac__GMR
++ _$sScS12ContinuationV11YieldResultOyyyYac__GMd
++ _$sScS12ContinuationV11YieldResultOyyyYac__GSgMR
++ _$sScS12ContinuationV11YieldResultOyyyYac__GSgMd
++ _$sScS12ContinuationV15BufferingPolicyOyyyYac__GMR
++ _$sScS12ContinuationV15BufferingPolicyOyyyYac__GMd
++ _$sScS12ContinuationVyyyYac_GMR
++ _$sScS12ContinuationVyyyYac_GMd
++ _$sScS12ContinuationVyyyYac_GSgMR
++ _$sScS12ContinuationVyyyYac_GSgMd
++ _$sScS8IteratorVyyyYac_GMR
++ _$sScS8IteratorVyyyYac_GMd
++ _$sScSyyyYacGMR
++ _$sScSyyyYacGMd
++ _$sSccy10Foundation4DataVSgs5Error_pGMR
++ _$sSccy10Foundation4DataVSgs5Error_pGMd
++ _$sSccyypSgs5Error_pGMR
++ _$sSccyypSgs5Error_pGMd
++ _$sSccyyts5Error_pGMR
++ _$sSccyyts5Error_pGMd
++ _$sSi_yptMR
++ _$sSi_yptMd
++ _$sSo10NSMapTableCMR
++ _$sSo10NSMapTableCMd
++ _$sSo15NSXPCConnectionCSgMR
++ _$sSo15NSXPCConnectionCSgMd
++ _$sSo17LACDTOEnvironment_pSgMR
++ _$sSo17LACDTOEnvironment_pSgMd
++ _$sSo17OS_dispatch_queueC8DispatchE16SchedulerOptionsVSgMR
++ _$sSo17OS_dispatch_queueC8DispatchE16SchedulerOptionsVSgMd
++ _$sSo18NSFileAttributeKeya_yptMR
++ _$sSo18NSFileAttributeKeya_yptMd
++ _$sSo20LACEvaluationRequest_pMR
++ _$sSo20LACEvaluationRequest_pMd
++ _$sSo29LACDTOPendingPolicyEvaluation_pMR
++ _$sSo29LACDTOPendingPolicyEvaluation_pMd
++ _$sSo29LACEvaluationRequestProcessor_pMR
++ _$sSo29LACEvaluationRequestProcessor_pMd
++ _$sSo38LACConcurrentEvaluationManagerObserver_pMR
++ _$sSo38LACConcurrentEvaluationManagerObserver_pMd
++ _$sSo38LACConcurrentEvaluationManagerObserver_pSgMR
++ _$sSo38LACConcurrentEvaluationManagerObserver_pSgMd
++ _$sSo48LACCompanionAuthenticationSessionMonitorObserver_pMR
++ _$sSo48LACCompanionAuthenticationSessionMonitorObserver_pMd
++ _$sSo8NSNumberCSgMR
++ _$sSo8NSNumberCSgMd
++ _$sSo8NSObjectCSgMR
++ _$sSo8NSObjectCSgMd
++ _$ss11AnyHashableV_yptMR
++ _$ss11AnyHashableV_yptMd
++ _$ss11_SetStorageCySSGMR
++ _$ss11_SetStorageCySSGMd
++ _$ss18_DictionaryStorageCy10Foundation4UUIDV23LocalAuthenticationCore012LACCompanionF14PendingRequest33_7C23A2E67F893FA563A4E1A97AE88CD3LLCGMR
++ _$ss18_DictionaryStorageCy10Foundation4UUIDV23LocalAuthenticationCore012LACCompanionF14PendingRequest33_7C23A2E67F893FA563A4E1A97AE88CD3LLCGMd
++ _$ss18_DictionaryStorageCy10Foundation4UUIDV23LocalAuthenticationCore012LACCompanionF24ControllerPendingRequestCGMR
++ _$ss18_DictionaryStorageCy10Foundation4UUIDV23LocalAuthenticationCore012LACCompanionF24ControllerPendingRequestCGMd
++ _$ss18_DictionaryStorageCySS23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationCGMR
++ _$ss18_DictionaryStorageCySS23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationCGMd
++ _$ss18_DictionaryStorageCySSSDySiypGGMR
++ _$ss18_DictionaryStorageCySSSDySiypGGMd
++ _$ss18_DictionaryStorageCySSSay23LocalAuthenticationCore37LACConcurrentEvaluationManagedRequest33_C817701C53905B142550A8026D25F95DLLCGGMR
++ _$ss18_DictionaryStorageCySSSay23LocalAuthenticationCore37LACConcurrentEvaluationManagedRequest33_C817701C53905B142550A8026D25F95DLLCGGMd
++ _$ss18_DictionaryStorageCySSypGMR
++ _$ss18_DictionaryStorageCySSypGMd
++ _$ss18_DictionaryStorageCySiypGMR
++ _$ss18_DictionaryStorageCySiypGMd
++ _$ss18_DictionaryStorageCySo18NSFileAttributeKeyaypGMR
++ _$ss18_DictionaryStorageCySo18NSFileAttributeKeyaypGMd
++ _$ss18_DictionaryStorageCySo20LACEligibilityDomainaSbGMR
++ _$ss18_DictionaryStorageCySo20LACEligibilityDomainaSbGMd
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMR
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMd
++ _$ss22KeyedDecodingContainerVy23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationC10CodingKeys33_4BC7126A1542EEEDCA6425CD3A877DA1LLOGMR
++ _$ss22KeyedDecodingContainerVy23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationC10CodingKeys33_4BC7126A1542EEEDCA6425CD3A877DA1LLOGMd
++ _$ss22KeyedEncodingContainerVy23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationC10CodingKeys33_4BC7126A1542EEEDCA6425CD3A877DA1LLOGMR
++ _$ss22KeyedEncodingContainerVy23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationC10CodingKeys33_4BC7126A1542EEEDCA6425CD3A877DA1LLOGMd
++ _$ss23_ContiguousArrayStorageCy10Foundation4UUIDVGMR
++ _$ss23_ContiguousArrayStorageCy10Foundation4UUIDVGMd
++ _$ss23_ContiguousArrayStorageCy23LocalAuthenticationCore37LACConcurrentEvaluationStashedRequest33_7BE1DBB9B1828B4CA409B089164F0707LLVGMR
++ _$ss23_ContiguousArrayStorageCy23LocalAuthenticationCore37LACConcurrentEvaluationStashedRequest33_7BE1DBB9B1828B4CA409B089164F0707LLVGMd
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss23_ContiguousArrayStorageCySS_SDySiypGtGMR
++ _$ss23_ContiguousArrayStorageCySS_SDySiypGtGMd
++ _$ss23_ContiguousArrayStorageCySS_yptGMR
++ _$ss23_ContiguousArrayStorageCySS_yptGMd
++ _$ss23_ContiguousArrayStorageCySiGMR
++ _$ss23_ContiguousArrayStorageCySiGMd
++ _$ss23_ContiguousArrayStorageCySi_yptGMR
++ _$ss23_ContiguousArrayStorageCySi_yptGMd
++ _$ss23_ContiguousArrayStorageCySo18LACPreboardUseCaseaGMR
++ _$ss23_ContiguousArrayStorageCySo18LACPreboardUseCaseaGMd
++ _$ss23_ContiguousArrayStorageCySo18NSFileAttributeKeya_yptGMR
++ _$ss23_ContiguousArrayStorageCySo18NSFileAttributeKeya_yptGMd
++ _$ss23_ContiguousArrayStorageCySo20LACEligibilityDomainaGMR
++ _$ss23_ContiguousArrayStorageCySo20LACEligibilityDomainaGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMR
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMd
++ _$ss23_ContiguousArrayStorageCyyXlGMR
++ _$ss23_ContiguousArrayStorageCyyXlGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ _$ss5Error_pSgMR
++ _$ss5Error_pSgMd
++ _$sypSgMR
++ _$sypSgMd
++ _$syyYacMR
++ _$syyYacMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10Foundation3URLVSgMD
+- _$s10Foundation3URLVSg_ADtMD
+- _$s10Foundation4DateV5lower_AC5uppertMD
+- _$s10Foundation4DateVSgMD
+- _$s10Foundation4DateVSg_ADtMD
+- _$s10Foundation4UUIDV3key_23LocalAuthenticationCore012LACCompanionE14PendingRequest33_7C23A2E67F893FA563A4E1A97AE88CD3LLC5valuetMD
+- _$s10Foundation4UUIDV3key_23LocalAuthenticationCore012LACCompanionE14PendingRequest33_7C23A2E67F893FA563A4E1A97AE88CD3LLC5valuetSgMD
+- _$s10Foundation4UUIDVSgMD
+- _$s10Foundation4UUIDVSg_ADtMD
+- _$s10Foundation4UUIDV_23LocalAuthenticationCore012LACCompanionD14PendingRequest33_7C23A2E67F893FA563A4E1A97AE88CD3LLCtMD
+- _$s10Foundation4UUIDV_23LocalAuthenticationCore012LACCompanionD24ControllerPendingRequestCtMD
+- _$s23LocalAuthenticationCore012LACCompanionB16SessionProviding_pSgMD
+- _$s23LocalAuthenticationCore22LACACMContextProviding_pSgMD
+- _$s23LocalAuthenticationCore22LACACMContextProviding_pSgSgMD
+- _$s23LocalAuthenticationCore27LACPreboardUseCaseProviding_pSgMD
+- _$s23LocalAuthenticationCore27LACPreboardUseCaseProviding_pSgSgMD
+- _$s23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationC11callbackURL10Foundation0I0VSgvgToTm
+- _$s23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationC11callbackURL10Foundation0I0VSgvsToTm
+- _$s7Combine10PublishersO0A6LatestVy_AA12AnyPublisherVySbs5NeverOGAJGMD
+- _$s7Combine10PublishersO10CompactMapVy_AC16RemoveDuplicatesVy_AA19CurrentValueSubjectCySbSgs5NeverOGGSbGMD
+- _$s7Combine10PublishersO12HandleEventsVy_AC5ShareCy_AC10CompactMapVy_AC16RemoveDuplicatesVy_AA19CurrentValueSubjectCySbSgs5NeverOGGSbGGGMD
+- _$s7Combine10PublishersO16RemoveDuplicatesVy_AA19CurrentValueSubjectCySbSgs5NeverOGGMD
+- _$s7Combine10PublishersO5ShareCy_AA19CurrentValueSubjectCySbs5NeverOGGMD
+- _$s7Combine10PublishersO5ShareCy_AC10CompactMapVy_AC16RemoveDuplicatesVy_AA19CurrentValueSubjectCySbSgs5NeverOGGSbGGMD
+- _$s7Combine10PublishersO9ReceiveOnVy_AC12HandleEventsVy_AC5ShareCy_AC10CompactMapVy_AC16RemoveDuplicatesVy_AA19CurrentValueSubjectCySbSgs5NeverOGGSbGGGSo17OS_dispatch_queueCGMD
+- _$s7Combine10PublishersO9ReceiveOnVy_AC5ShareCy_AA19CurrentValueSubjectCySbs5NeverOGGSo17OS_dispatch_queueCGMD
+- _$s7Combine12AnyPublisherVySbs5NeverOGMD
+- _$s7Combine19CurrentValueSubjectCySbSgs5NeverOGMD
+- _$s7Combine19CurrentValueSubjectCySbs5NeverOGMD
+- _$sSDySiypGMD
+- _$sSDySo20LACEligibilityDomainaSbGMD
+- _$sSDyq_Sgxcis10Foundation4UUIDV_23LocalAuthenticationCore012LACCompanionD14PendingRequest33_7C23A2E67F893FA563A4E1A97AE88CD3LLCTg5Tm
+- _$sSDys11AnyHashableVypGMD
+- _$sSDys11AnyHashableVypGSgMD
+- _$sSNy10Foundation4DateVGMD
+- _$sSSSgMD
+- _$sSS_SDySiypGtMD
+- _$sSS_yptMD
+- _$sSay23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationCGMD
+- _$sSay23LocalAuthenticationCore37LACConcurrentEvaluationManagedRequest33_C817701C53905B142550A8026D25F95DLLCGMD
+- _$sSay23LocalAuthenticationCore40LACConcurrentEvaluationAllowListBundleIDOGMD
+- _$sSay23LocalAuthenticationCore42LACConcurrentEvaluationAllowListBinaryPathOGMD
+- _$sSay8Dispatch0A13WorkItemFlagsVGMD
+- _$sSaySSGMD
+- _$sSaySiGMD
+- _$sSaySo29LACEvaluationRequestProcessor_pGMD
+- _$sSaySo8NSNumberCGSgMD
+- _$sSays5UInt8VGMD
+- _$sSbSgMD
+- _$sScCyyts5NeverOGMD
+- _$sScPSgMD
+- _$sScS12ContinuationV11YieldResultOyyyYac__GMD
+- _$sScS12ContinuationV11YieldResultOyyyYac__GSgMD
+- _$sScS12ContinuationV15BufferingPolicyOyyyYac__GMD
+- _$sScS12ContinuationVyyyYac_GMD
+- _$sScS12ContinuationVyyyYac_GSgMD
+- _$sScS8IteratorVyyyYac_GMD
+- _$sScSyyyYacGMD
+- _$sSccy10Foundation4DataVSgs5Error_pGMD
+- _$sSccyypSgs5Error_pGMD
+- _$sSccyyts5Error_pGMD
+- _$sSi_yptMD
+- _$sSo10NSMapTableCMD
+- _$sSo15NSXPCConnectionCSgMD
+- _$sSo17LACDTOEnvironment_pSgMD
+- _$sSo17OS_dispatch_queueC8DispatchE16SchedulerOptionsVSgMD
+- _$sSo18NSFileAttributeKeya_yptMD
+- _$sSo20LACEvaluationRequest_pMD
+- _$sSo29LACDTOPendingPolicyEvaluation_pMD
+- _$sSo29LACEvaluationRequestProcessor_pMD
+- _$sSo38LACConcurrentEvaluationManagerObserver_pMD
+- _$sSo38LACConcurrentEvaluationManagerObserver_pSgMD
+- _$sSo48LACCompanionAuthenticationSessionMonitorObserver_pMD
+- _$sSo8NSNumberCSgMD
+- _$sSo8NSObjectCSgMD
+- _$ss11AnyHashableV_yptMD
+- _$ss11_SetStorageCySSGMD
+- _$ss18_DictionaryStorageCy10Foundation4UUIDV23LocalAuthenticationCore012LACCompanionF14PendingRequest33_7C23A2E67F893FA563A4E1A97AE88CD3LLCGMD
+- _$ss18_DictionaryStorageCy10Foundation4UUIDV23LocalAuthenticationCore012LACCompanionF24ControllerPendingRequestCGMD
+- _$ss18_DictionaryStorageCySS23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationCGMD
+- _$ss18_DictionaryStorageCySSSDySiypGGMD
+- _$ss18_DictionaryStorageCySSSay23LocalAuthenticationCore37LACConcurrentEvaluationManagedRequest33_C817701C53905B142550A8026D25F95DLLCGGMD
+- _$ss18_DictionaryStorageCySSypGMD
+- _$ss18_DictionaryStorageCySiypGMD
+- _$ss18_DictionaryStorageCySo18NSFileAttributeKeyaypGMD
+- _$ss18_DictionaryStorageCySo20LACEligibilityDomainaSbGMD
+- _$ss18_DictionaryStorageCys11AnyHashableVypGMD
+- _$ss22KeyedDecodingContainerVy23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationC10CodingKeys33_4BC7126A1542EEEDCA6425CD3A877DA1LLOGMD
+- _$ss22KeyedEncodingContainerVy23LocalAuthenticationCore36LACDTOMutablePendingPolicyEvaluationC10CodingKeys33_4BC7126A1542EEEDCA6425CD3A877DA1LLOGMD
+- _$ss23_ContiguousArrayStorageCy10Foundation4UUIDVGMD
+- _$ss23_ContiguousArrayStorageCy23LocalAuthenticationCore37LACConcurrentEvaluationStashedRequest33_7BE1DBB9B1828B4CA409B089164F0707LLVGMD
+- _$ss23_ContiguousArrayStorageCySSGMD
+- _$ss23_ContiguousArrayStorageCySS_SDySiypGtGMD
+- _$ss23_ContiguousArrayStorageCySS_yptGMD
+- _$ss23_ContiguousArrayStorageCySiGMD
+- _$ss23_ContiguousArrayStorageCySi_yptGMD
+- _$ss23_ContiguousArrayStorageCySo18LACPreboardUseCaseaGMD
+- _$ss23_ContiguousArrayStorageCySo18NSFileAttributeKeya_yptGMD
+- _$ss23_ContiguousArrayStorageCySo20LACEligibilityDomainaGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss23_ContiguousArrayStorageCys7CVarArg_pGMD
+- _$ss23_ContiguousArrayStorageCyyXlGMD
+- _$ss5Error_pMD
+- _$ss5Error_pSgMD
+- _$sypSgMD
+- _$syyYacMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+
+```

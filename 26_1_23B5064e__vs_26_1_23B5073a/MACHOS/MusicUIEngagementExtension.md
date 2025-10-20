@@ -1,0 +1,148 @@
+## MusicUIEngagementExtension
+
+> `/System/Library/ExtensionKit/Extensions/MusicUIEngagementExtension.appex/MusicUIEngagementExtension`
+
+```diff
+
+-4025.200.17.0.0
+-  __TEXT.__text: 0xd89c
++4025.210.1.0.0
++  __TEXT.__text: 0xda18
+   __TEXT.__auth_stubs: 0x840
+   __TEXT.__objc_methlist: 0x154
+-  __TEXT.__const: 0x1562
++  __TEXT.__const: 0x1630
+   __TEXT.__cstring: 0x5de
+   __TEXT.__constg_swiftt: 0x364
+   __TEXT.__swift5_typeref: 0x3d9
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F47C9D32-206D-302F-9951-AA7A8385BF0A
++  UUID: F6184E12-D0BA-32D9-AA40-6434640F9204
+   Functions: 641
+-  Symbols:   4537
++  Symbols:   4583
+   CStrings:  151
+ 
+Symbols:
++ _$s7MusicUI15UnifiedMessagesO3MLIO5StateOSgMR
++ _$s7MusicUI15UnifiedMessagesO3MLIO5StateOSgMd
++ _$sSDySS26MusicUIEngagementExtension11ODJResponseV26PropertyIdentifierResponseVGMR
++ _$sSDySS26MusicUIEngagementExtension11ODJResponseV26PropertyIdentifierResponseVGMd
++ _$sSDySS26MusicUIEngagementExtension25PropertyIdentifierRequestVGMR
++ _$sSDySS26MusicUIEngagementExtension25PropertyIdentifierRequestVGMd
++ _$sSE_pSgMR
++ _$sSE_pSgMd
++ _$sScPSgMR
++ _$sScPSgMd
++ _$sSccySo33ICMusicSubscriptionStatusResponseCs5Error_pGMR
++ _$sSccySo33ICMusicSubscriptionStatusResponseCs5Error_pGMd
++ _$sSo8NSObjectCSgMR
++ _$sSo8NSObjectCSgMd
++ _$ss17_NativeDictionaryVy26MusicUIEngagementExtension8PropertyOSE_pSgGMR
++ _$ss17_NativeDictionaryVy26MusicUIEngagementExtension8PropertyOSE_pSgGMd
++ _$ss17_NativeDictionaryVySS26MusicUIEngagementExtension11ODJResponseV26PropertyIdentifierResponseVGMR
++ _$ss17_NativeDictionaryVySS26MusicUIEngagementExtension11ODJResponseV26PropertyIdentifierResponseVGMd
++ _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension10ODJRequestV10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension10ODJRequestV10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension10ParametersV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMR
++ _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension10ParametersV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMd
++ _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension11JSONPayloadV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMR
++ _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension11JSONPayloadV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMd
++ _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension11JSONRequestV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMR
++ _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension11JSONRequestV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMd
++ _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension15ODJRequestBatchV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMR
++ _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension15ODJRequestBatchV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMd
++ _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension25PropertyIdentifierRequestV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMR
++ _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension25PropertyIdentifierRequestV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMd
++ _$ss22KeyedEncodingContainerVy26MusicUIEngagementExtension11ODJResponseV10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVy26MusicUIEngagementExtension11ODJResponseV10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVy26MusicUIEngagementExtension11ODJResponseV11JSONPayloadV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMR
++ _$ss22KeyedEncodingContainerVy26MusicUIEngagementExtension11ODJResponseV11JSONPayloadV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMd
++ _$ss22KeyedEncodingContainerVy26MusicUIEngagementExtension11ODJResponseV16JSONPayloadErrorV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMR
++ _$ss22KeyedEncodingContainerVy26MusicUIEngagementExtension11ODJResponseV16JSONPayloadErrorV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMd
++ _$ss22KeyedEncodingContainerVy26MusicUIEngagementExtension11ODJResponseV26PropertyIdentifierResponseV10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVy26MusicUIEngagementExtension11ODJResponseV26PropertyIdentifierResponseV10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVy26MusicUIEngagementExtension8PropertyOGMR
++ _$ss22KeyedEncodingContainerVy26MusicUIEngagementExtension8PropertyOGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ _$sypSgMR
++ _$sypSgMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s7MusicUI15UnifiedMessagesO3MLIO5StateOSgMD
+- _$sSDySS26MusicUIEngagementExtension11ODJResponseV26PropertyIdentifierResponseVGMD
+- _$sSDySS26MusicUIEngagementExtension25PropertyIdentifierRequestVGMD
+- _$sSE_pSgMD
+- _$sScPSgMD
+- _$sSccySo33ICMusicSubscriptionStatusResponseCs5Error_pGMD
+- _$sSo8NSObjectCSgMD
+- _$ss17_NativeDictionaryVy26MusicUIEngagementExtension8PropertyOSE_pSgGMD
+- _$ss17_NativeDictionaryVySS26MusicUIEngagementExtension11ODJResponseV26PropertyIdentifierResponseVGMD
+- _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension10ODJRequestV10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension10ParametersV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMD
+- _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension11JSONPayloadV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMD
+- _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension11JSONRequestV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMD
+- _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension15ODJRequestBatchV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMD
+- _$ss22KeyedDecodingContainerVy26MusicUIEngagementExtension25PropertyIdentifierRequestV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMD
+- _$ss22KeyedEncodingContainerVy26MusicUIEngagementExtension11ODJResponseV10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVy26MusicUIEngagementExtension11ODJResponseV11JSONPayloadV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMD
+- _$ss22KeyedEncodingContainerVy26MusicUIEngagementExtension11ODJResponseV16JSONPayloadErrorV10CodingKeys33_C140570F9752CD246A8B594F58B6E96ELLOGMD
+- _$ss22KeyedEncodingContainerVy26MusicUIEngagementExtension11ODJResponseV26PropertyIdentifierResponseV10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVy26MusicUIEngagementExtension8PropertyOGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss5Error_pMD
+- _$sypSgMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+Functions:
+~ _$s26MusicUIEngagementExtension10ODJRequestV4fromACs7Decoder_p_tKcfC : 260 -> 268
+~ _$s26MusicUIEngagementExtension11JSONPayloadV4fromACs7Decoder_p_tKcfC : 260 -> 268
+~ _$s26MusicUIEngagementExtension15ODJRequestBatchV4fromACs7Decoder_p_tKcfC : 284 -> 300
+~ _$s26MusicUIEngagementExtension25PropertyIdentifierRequestV4fromACs7Decoder_p_tKcfC : 276 -> 284
+~ _$s26MusicUIEngagementExtension11JSONRequestV4fromACs7Decoder_p_tKcfC : 404 -> 412
+~ _$s26MusicUIEngagementExtension10ParametersV4fromACs7Decoder_p_tKcfC : 260 -> 268
+~ _$s26MusicUIEngagementExtension11ODJResponseV11JSONPayloadV6encode2toys7Encoder_p_tKF : 360 -> 376
+~ _$s26MusicUIEngagementExtension11ODJResponseV16JSONPayloadErrorV6encode2toys7Encoder_p_tKF : 324 -> 332
+~ _$s26MusicUIEngagementExtension11ODJResponseV26PropertyIdentifierResponseV6encode2toys7Encoder_p_tKF : 992 -> 1008
+~ _$s26MusicUIEngagementExtension11ODJResponseV6encode2toys7Encoder_p_tKF : 272 -> 280
+~ ___swift_instantiateConcreteTypeFromMangledName -> ___swift_instantiateConcreteTypeFromMangledNameV2 : 68 -> 72
+~ _$sSE_pSgWOc : 104 -> 112
+~ _$sSE_pSgWOh : 96 -> 104
+~ _$sSDySS26MusicUIEngagementExtension11ODJResponseV26PropertyIdentifierResponseVGSDyxq_GSEsSERzSER_rlWl : 132 -> 140
+~ _$sSDySS26MusicUIEngagementExtension25PropertyIdentifierRequestVGSDyxq_GSesSeRzSeR_rlWl : 132 -> 140
+~ _OUTLINED_FUNCTION_1 -> _OUTLINED_FUNCTION_2 : 24 -> 20
+~ _OUTLINED_FUNCTION_4 : 16 -> 36
+~ _OUTLINED_FUNCTION_5 : 20 -> 36
+~ _OUTLINED_FUNCTION_6 : 36 -> 16
+~ _OUTLINED_FUNCTION_7 : 36 -> 8
+~ _OUTLINED_FUNCTION_8 -> _OUTLINED_FUNCTION_9 : 8 -> 12
+~ _OUTLINED_FUNCTION_20 : 8 -> 28
+~ _OUTLINED_FUNCTION_21 : 28 -> 8
+~ _$s26MusicUIEngagementExtensionAAC21hasPlaybackCapabilitySbvgZTY0_ : 512 -> 520
+~ _$s26MusicUIEngagementExtensionAAC21hasPlaybackCapabilitySbvgZTY3_ : 528 -> 536
+~ _$ss42_resumeUnsafeThrowingContinuationWithErroryySccyxs0F0_pG_sAB_pntlFSo33ICMusicSubscriptionStatusResponseC_Tgq5 : 100 -> 108
+~ _$s26MusicUIEngagementExtensionAAC14performRequest4with10completionyyp_yypSg_s5Error_pSgtctFZ : 3012 -> 3040
+~ _$s26MusicUIEngagementExtensionAAC14performRequest4with10completionyyp_yypSg_s5Error_pSgtctFZyyYacfU_TY0_ : 1172 -> 1188
+~ _$s26MusicUIEngagementExtensionAAC14performRequest4with10completionyyp_yypSg_s5Error_pSgtctFZyyYacfU_TY2_ : 232 -> 240
+~ _$s26MusicUIEngagementExtensionAAC14performRequest4with10completionyyp_yypSg_s5Error_pSgtctFZyyYacfU_TY3_ : 452 -> 468
+~ _$s26MusicUIEngagementExtensionAAC12parseRequest33_EA789E05BBD64A42E246779C8A97871CLL7request10completionypAA10ODJRequestV_yypSg_s5Error_pSgtctYaKFZTY0_ : 3080 -> 3088
+~ _$s26MusicUIEngagementExtensionAAC12parseRequest33_EA789E05BBD64A42E246779C8A97871CLL7request10completionypAA10ODJRequestV_yypSg_s5Error_pSgtctYaKFZTY2_ : 2688 -> 2728
+~ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2g5 : 704 -> 740
+~ _$syXlSgSo7NSErrorCSgIeyByy_ypSgs5Error_pSgIegng_TR : 364 -> 372
+~ _$sSo14NSUserDefaultsC26MusicUIEngagementExtensionE7integer33_EA789E05BBD64A42E246779C8A97871CLL6forKeySiSg0C2UI0B4KeysO10EngagementO_tF : 248 -> 256
+~ _$sSo14NSUserDefaultsC26MusicUIEngagementExtensionE4bool33_EA789E05BBD64A42E246779C8A97871CLL6forKeySbSg0C2UI0B4KeysO10EngagementO_tF : 240 -> 248
+~ _$s26MusicUIEngagementExtensionAAC8mliState33_EA789E05BBD64A42E246779C8A97871CLL0A2UI15UnifiedMessagesO3MLIO0E0OvgZ : 476 -> 488
+~ _$sSo14NSUserDefaultsC26MusicUIEngagementExtensionE6string33_EA789E05BBD64A42E246779C8A97871CLL6forKeySSSg0C2UI0B4KeysO10EngagementO_tF : 244 -> 252
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 104 -> 112
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5 : 236 -> 244
+~ _$sSE_pSgWOd : 104 -> 112
+~ _$sypSgWOhTm : 92 -> 96
+~ _$sScPSgWOcTm : 96 -> 100
+
+```

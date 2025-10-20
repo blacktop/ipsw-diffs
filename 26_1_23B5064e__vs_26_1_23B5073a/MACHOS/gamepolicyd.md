@@ -1,0 +1,541 @@
+## gamepolicyd
+
+> `/usr/libexec/gamepolicyd`
+
+```diff
+
+-3.0.25.0.0
+-  __TEXT.__text: 0x40734
+-  __TEXT.__auth_stubs: 0x1900
+-  __TEXT.__objc_stubs: 0x40
++3.1.3.0.0
++  __TEXT.__text: 0x39aa0
++  __TEXT.__auth_stubs: 0x1c10
++  __TEXT.__objc_stubs: 0xc0
+   __TEXT.__objc_methlist: 0x73c
+-  __TEXT.__const: 0x16d4
+-  __TEXT.__objc_methname: 0x105d
+-  __TEXT.__objc_classname: 0x12c
+-  __TEXT.__objc_methtype: 0x360
+-  __TEXT.__cstring: 0x2e6f
+-  __TEXT.__swift5_typeref: 0xb61
++  __TEXT.__const: 0x1770
++  __TEXT.__objc_methname: 0xfe9
++  __TEXT.__objc_classname: 0x150
++  __TEXT.__objc_methtype: 0x383
++  __TEXT.__gcc_except_tab: 0x10
++  __TEXT.__cstring: 0x28bf
++  __TEXT.__oslogstring: 0x11c8
++  __TEXT.__dlopen_cstrs: 0x66
++  __TEXT.__swift5_typeref: 0xac7
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0x17cc
++  __TEXT.__constg_swiftt: 0x1540
+   __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_reflstr: 0x123c
+-  __TEXT.__swift5_fieldmd: 0xc20
++  __TEXT.__swift5_reflstr: 0xfcc
++  __TEXT.__swift5_fieldmd: 0xac4
+   __TEXT.__swift5_assocty: 0x90
+-  __TEXT.__swift5_proto: 0xa0
+-  __TEXT.__swift5_types: 0x8c
++  __TEXT.__swift5_proto: 0x94
++  __TEXT.__swift5_types: 0x84
+   __TEXT.__swift5_protos: 0x1c
+   __TEXT.__swift5_capture: 0x488
+-  __TEXT.__oslogstring: 0x121c
+   __TEXT.__swift_as_entry: 0x38
+   __TEXT.__swift_as_ret: 0x30
+-  __TEXT.__unwind_info: 0x928
+-  __TEXT.__eh_frame: 0x8a0
+-  __DATA_CONST.__auth_got: 0xc88
+-  __DATA_CONST.__got: 0x3a8
++  __TEXT.__unwind_info: 0x840
++  __TEXT.__eh_frame: 0x8c8
++  __DATA_CONST.__auth_got: 0xe18
++  __DATA_CONST.__got: 0x330
+   __DATA_CONST.__auth_ptr: 0x438
+   __DATA_CONST.__const: 0x14b8
+-  __DATA_CONST.__cfstring: 0x40
+-  __DATA_CONST.__objc_classlist: 0xd0
+-  __DATA_CONST.__objc_protolist: 0xe8
++  __DATA_CONST.__cfstring: 0xa0
++  __DATA_CONST.__objc_classlist: 0xc0
++  __DATA_CONST.__objc_protolist: 0xf0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0xa0
+-  __DATA.__objc_const: 0x2a18
+-  __DATA.__objc_selrefs: 0x5a8
+-  __DATA.__objc_data: 0x8b8
+-  __DATA.__data: 0x2750
+-  __DATA.__bss: 0x1030
+-  __DATA.__common: 0x100
++  __DATA.__objc_const: 0x25b0
++  __DATA.__objc_selrefs: 0x570
++  __DATA.__objc_data: 0x868
++  __DATA.__data: 0x2320
++  __DATA.__bss: 0xec0
++  __DATA.__common: 0xa8
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/GameController.framework/GameController
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/BackBoardServices.framework/BackBoardServices
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/GamePolicy.framework/GamePolicy
++  - /System/Library/PrivateFrameworks/GamePolicyFoundation.framework/GamePolicyFoundation
+   - /System/Library/PrivateFrameworks/GamePolicyServices.framework/GamePolicyServices
+   - /System/Library/PrivateFrameworks/ModelManagerServices.framework/ModelManagerServices
+   - /System/Library/PrivateFrameworks/PerformanceControlKit.framework/PerformanceControlKit
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
++  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
+
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D791E16B-8C60-3DCD-B26E-799F9A2D7C7D
+-  Functions: 891
+-  Symbols:   639
+-  CStrings:  637
++  UUID: 7EFB570F-0B09-3337-8694-0C78157E973E
++  Functions: 781
++  Symbols:   676
++  CStrings:  590
+ 
+Symbols:
++ _$s10GamePolicy16GamingMetadataDBP25overlayInvocableAllowListShySSGvgTq
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC20aaaBundleIdentifiersSaySSGvg
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC6ConfigV14enablementDate0C00J0VSgvg
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC6ConfigV14enablementDate0C00J0VSgvs
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC6ConfigV14policyStrategyAA0debJ0Ovs
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC6ConfigV15disablementDate0C00J0VSgvs
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC6ConfigV20aaaBundleIdentifiersSaySSGvs
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC6ConfigV25impactedBundleIdentifiersSaySSGvg
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC6ConfigV25impactedBundleIdentifiersSaySSGvs
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC6ConfigV35previouslyImpactedBundleIdentifiersSaySSGvs
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC6ConfigV6policy14enablementDate011disablementK015deviceSupported20aaaBundleIdentifiers08impactedpQ0018previouslyImpactedpQ00I8StrategyAeA0deafB0OSg_0C00K0VSgATSbSaySSGA2uA0debU0OtcfC
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC6ConfigV6policyAA0deafB0OSgvg
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC6ConfigV6policyAA0deafB0OSgvs
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC6ConfigVMa
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC6ConfigVMn
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC6configA2C6ConfigV_tcfc
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC6configAC6ConfigVvgTj
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusCMa
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusCMn
++ _$s20GamePolicyFoundation012ModelManagerB8StrategyO8rawValueSivg
++ _$s20GamePolicyFoundation012ModelManagerB8StrategyOMn
++ _$s20GamePolicyFoundation012ModelManagerB8StrategyON
++ _$s20GamePolicyFoundation012ModelManagera9AssertionB0O03aaaA4ModeyA2CmFWC
++ _$s20GamePolicyFoundation012ModelManagera9AssertionB0O08standardA4ModeyA2CmFWC
++ _$s20GamePolicyFoundation012ModelManagera9AssertionB0O8rawValueACSgSS_tcfC
++ _$s20GamePolicyFoundation012ModelManagera9AssertionB0O8rawValueSSvg
++ _$s20GamePolicyFoundation012ModelManagera9AssertionB0OMa
++ _$s20GamePolicyFoundation012ModelManagera9AssertionB0OMn
++ _$s20GamePolicyFoundation012ModelManagera9AssertionB0OSLAAMc
++ _$s20GamePolicyFoundation012ModelManagera9AssertionB0OSQAAMc
++ _$s20GamePolicyFoundation012ModelManagera9AssertionB0OSYAAMc
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC010triggeringA4ModeSbvgTj
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC010triggeringA4ModeSbvsTj
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC02isA0SbvgTj
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC03hasA7GenreIdSbvg
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC08supportsA4ModeSbvg
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC11lastFocused0C04DateVvgTj
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC11lastFocused0C04DateVvsTj
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC12isTerminatedSbvgTj
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC12isTerminatedSbvsTj
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC13processHandleSo010RBSProcessG0Cvg
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC13semPreferenceAA9SEMPolicyOvg
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC15genreIdentifiers6UInt64Vvg
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC16bundleIdentifierSSvg
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC19isRunningForegroundSbvgTj
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC19isRunningForegroundSbvsTj
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC25supportsCameraJettisonS2RSbvgTj
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC28requiresIncreasedMemoryLimitSbvg
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC28supportsDynamicPowerSplitterSbvg
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC29requiresModelManagerAssertionSbvg
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC29supportsModelManagerAssertionSbvg
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC31triggeringModelManagerAssertionSbvgTj
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC31triggeringModelManagerAssertionSbvsTj
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC33requiresIncreasedDebugMemoryLimitSbvg
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC35requiresiPhonePerformanceGamingTierSbvg
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC7processACSgSo16RBSProcessHandleC_tcfc
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC9isRunningSbvgTj
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC9isRunningSbvsTj
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessCMa
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessCMn
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessCs23CustomStringConvertibleAAMc
++ _$s20GamePolicyFoundation0A10ModeStatusC03allA17BundleIdentifiersSaySSGvg
++ _$s20GamePolicyFoundation0A10ModeStatusC21gameBundleIdentifiersSaySSGvg
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV011previousAllA17BundleIdentifiersSaySSGvs
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV016perfomanceGamingD7EnabledSbvg
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV016perfomanceGamingD7EnabledSbvs
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV03allA17BundleIdentifiersSaySSGvg
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV03allA17BundleIdentifiersSaySSGvs
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV08previousA17BundleIdentifiersSaySSGvs
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV14enablementDate0C00H0VSgvg
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV14enablementDate0C00H0VSgvs
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV15disablementDate0C00H0VSgvs
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV17jettisonCameraS2RSbvg
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV17jettisonCameraS2RSbvs
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV18enablementStrategyAA0d10EnablementH0Ovg
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV18enablementStrategyAA0d10EnablementH0Ovs
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV21gameBundleIdentifiersSaySSGvg
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV21gameBundleIdentifiersSaySSGvs
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV25impactedBundleIdentifiersSaySSGvg
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV25impactedBundleIdentifiersSaySSGvs
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV35previouslyImpactedBundleIdentifiersSaySSGvs
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV7enabled14enablementDate011disablementI015deviceSupported17jettisonCameraS2R21gameBundleIdentifiers08previousaqR008impactedqR0018previouslyImpactedqR003allaqR00s3AllaqR00H8Strategy016perfomanceGamingD7EnabledAESb_0C00I0VSgAVS2bSaySSGA5wA0d10EnablementY0OSbtcfC
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV7enabledSbvg
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigV7enabledSbvs
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigVMa
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigVMn
++ _$s20GamePolicyFoundation0A10ModeStatusC6configA2C6ConfigV_tcfc
++ _$s20GamePolicyFoundation0A10ModeStatusC7enabledSbvg
++ _$s20GamePolicyFoundation0A10ModeStatusCMa
++ _$s20GamePolicyFoundation0A10ModeStatusCMn
++ _$s20GamePolicyFoundation17GlobalPreferencesC012modelManagera9AssertionB8StrategyAA05ModelgbI0OvgTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC012modelManagera9AssertionB8StrategyAA05ModelgbI0OvsTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC03setA11ModeEnabled_16bundleIdentifierySb_SStFTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC03setA11ModeEnabled_17bundleIdentifiersySb_SaySSGtFTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC03setA18ModeLastBannerDate_16bundleIdentifiery0C00J0V_SStFTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC12semAllowListSaySSGvgTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC12semAllowListSaySSGvsTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC19defaultSEMAllowListSaySSGvgZ
++ _$s20GamePolicyFoundation17GlobalPreferencesC19gameModeEnabledListSDySSSbGvgTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC21semEnablementStrategyAA04ModegH0OvgTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC21semEnablementStrategyAA04ModegH0OvsTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC22gameModeLastBannerDate16bundleIdentifier0C00J0VSS_tFTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC24ignoreDeviceRestrictionsSbvgTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC24ignoreDeviceRestrictionsSbvsTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC26gameModeEnablementStrategyAA0ghI0OvgTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC26gameModeEnablementStrategyAA0ghI0OvsTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC27gameModeOnBannerDefaultTimeSdvgTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC28gameModeOffBannerDefaultTimeSdvgTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC33dynamicSplitterEnablementStrategyAA04ModehI0OvgTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC33dynamicSplitterEnablementStrategyAA04ModehI0OvsTj
++ _$s20GamePolicyFoundation17GlobalPreferencesC6sharedACvgZTj
++ _$s20GamePolicyFoundation17GlobalPreferencesCMa
++ _$s20GamePolicyFoundation21DynamicSplitterStatusC6ConfigV14enablementDate0C00I0VSgvg
++ _$s20GamePolicyFoundation21DynamicSplitterStatusC6ConfigV14enablementDate0C00I0VSgvs
++ _$s20GamePolicyFoundation21DynamicSplitterStatusC6ConfigV15disablementDate0C00I0VSgvs
++ _$s20GamePolicyFoundation21DynamicSplitterStatusC6ConfigV18enablementStrategyAA014ModeEnablementI0Ovs
++ _$s20GamePolicyFoundation21DynamicSplitterStatusC6ConfigV25impactedBundleIdentifiersSaySSGvg
++ _$s20GamePolicyFoundation21DynamicSplitterStatusC6ConfigV25impactedBundleIdentifiersSaySSGvs
++ _$s20GamePolicyFoundation21DynamicSplitterStatusC6ConfigV35previouslyImpactedBundleIdentifiersSaySSGvs
++ _$s20GamePolicyFoundation21DynamicSplitterStatusC6ConfigV7enabled14enablementDate011disablementJ015deviceSupported25impactedBundleIdentifiers018previouslyImpactedoP00I8StrategyAESb_0C00J0VSgAPSbSaySSGAqA014ModeEnablementS0OtcfC
++ _$s20GamePolicyFoundation21DynamicSplitterStatusC6ConfigV7enabledSbvg
++ _$s20GamePolicyFoundation21DynamicSplitterStatusC6ConfigV7enabledSbvs
++ _$s20GamePolicyFoundation21DynamicSplitterStatusC6ConfigVMa
++ _$s20GamePolicyFoundation21DynamicSplitterStatusC6ConfigVMn
++ _$s20GamePolicyFoundation21DynamicSplitterStatusC6configA2C6ConfigV_tcfc
++ _$s20GamePolicyFoundation21DynamicSplitterStatusC7enabledSbvg
++ _$s20GamePolicyFoundation21DynamicSplitterStatusCMa
++ _$s20GamePolicyFoundation21DynamicSplitterStatusCMn
++ _$s20GamePolicyFoundation22ModeEnablementStrategyO8rawValueSivg
++ _$s20GamePolicyFoundation22ModeEnablementStrategyOMn
++ _$s20GamePolicyFoundation22ModeEnablementStrategyON
++ _$s20GamePolicyFoundation24SustainedExecutionStatusC6ConfigV06activeB014enablementDate011disablementJ015deviceSupported25impactedBundleIdentifiers018previouslyImpactedoP00I8StrategyAeA9SEMPolicyO_0C00J0VSgARSbSaySSGAsA014ModeEnablementS0OtcfC
++ _$s20GamePolicyFoundation24SustainedExecutionStatusC6ConfigV06activeB0AA9SEMPolicyOvg
++ _$s20GamePolicyFoundation24SustainedExecutionStatusC6ConfigV06activeB0AA9SEMPolicyOvs
++ _$s20GamePolicyFoundation24SustainedExecutionStatusC6ConfigV14enablementDate0C00I0VSgvg
++ _$s20GamePolicyFoundation24SustainedExecutionStatusC6ConfigV14enablementDate0C00I0VSgvs
++ _$s20GamePolicyFoundation24SustainedExecutionStatusC6ConfigV15disablementDate0C00I0VSgvs
++ _$s20GamePolicyFoundation24SustainedExecutionStatusC6ConfigV18enablementStrategyAA014ModeEnablementI0Ovs
++ _$s20GamePolicyFoundation24SustainedExecutionStatusC6ConfigV25impactedBundleIdentifiersSaySSGvg
++ _$s20GamePolicyFoundation24SustainedExecutionStatusC6ConfigV25impactedBundleIdentifiersSaySSGvs
++ _$s20GamePolicyFoundation24SustainedExecutionStatusC6ConfigV35previouslyImpactedBundleIdentifiersSaySSGvs
++ _$s20GamePolicyFoundation24SustainedExecutionStatusC6ConfigVMa
++ _$s20GamePolicyFoundation24SustainedExecutionStatusC6ConfigVMn
++ _$s20GamePolicyFoundation24SustainedExecutionStatusC6configA2C6ConfigV_tcfc
++ _$s20GamePolicyFoundation24SustainedExecutionStatusC7enabledSbvgTj
++ _$s20GamePolicyFoundation24SustainedExecutionStatusCMa
++ _$s20GamePolicyFoundation24SustainedExecutionStatusCMn
++ _$s20GamePolicyFoundation9SEMPolicyO11descriptionSSvg
++ _$s20GamePolicyFoundation9SEMPolicyO8rawValueSivg
++ _$s20GamePolicyFoundation9SEMPolicyOMn
++ _$s2os6LoggerV20GamePolicyFoundationE13stateTrackingSo03OS_A4_logCvgZ
++ _$s2os6LoggerV20GamePolicyFoundationE14appCoordinatorACvgZ
++ _$s2os6LoggerV20GamePolicyFoundationE15toolCoordinatorACvgZ
++ _$s2os6LoggerV20GamePolicyFoundationE17policyCoordinatorACvgZ
++ _$s2os6LoggerV20GamePolicyFoundationE4toolACvgZ
++ _$s2os6LoggerV20GamePolicyFoundationE5agentACvgZ
++ _$s2os6LoggerV20GamePolicyFoundationE6daemonACvgZ
++ _$s2os6LoggerV20GamePolicyFoundationE9gameStoreACvgZ
++ _OBJC_CLASS_$_BKSHIDKeyboardDevice
++ _OBJC_CLASS_$_BKSHIDKeyboardService
++ _OBJC_CLASS_$_GCSystemButtonService
++ _OBJC_CLASS_$_NSAssertionHandler
++ _OBJC_CLASS_$_NSString
++ __Block_object_dispose
++ __Unwind_Resume
++ ___objc_personality_v0
++ __sl_dlopen
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftUIKit
++ _free
++ _getGPLogger
++ _gp_isInternalBuild
++ _gpf_gameCategories
++ _objc_alloc
++ _objc_getClass
++ _objc_retain_x3
+- _$s10Foundation4DateV026timeIntervalSinceReferenceB0ACSd_tcfC
+- _$s10Foundation4DateV026timeIntervalSinceReferenceB0Sdvg
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC20aaaBundleIdentifiersSaySSGvg
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC6ConfigV14enablementDate10Foundation0I0VSgvg
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC6ConfigV14enablementDate10Foundation0I0VSgvs
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC6ConfigV14policyStrategyAA0cdbI0Ovs
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC6ConfigV15disablementDate10Foundation0I0VSgvs
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC6ConfigV20aaaBundleIdentifiersSaySSGvs
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC6ConfigV25impactedBundleIdentifiersSaySSGvg
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC6ConfigV25impactedBundleIdentifiersSaySSGvs
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC6ConfigV35previouslyImpactedBundleIdentifiersSaySSGvs
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC6ConfigV6policy14enablementDate011disablementJ015deviceSupported20aaaBundleIdentifiers08impactedoP0018previouslyImpactedoP00H8StrategyAeA0cdaeB0OSg_10Foundation0J0VSgATSbSaySSGA2uA0cdbT0OtcfC
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC6ConfigV6policyAA0cdaeB0OSgvg
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC6ConfigV6policyAA0cdaeB0OSgvs
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC6ConfigVMa
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC6ConfigVMn
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC6configA2C6ConfigV_tcfc
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC6configAC6ConfigVvgTj
+- _$s10GamePolicy012ModelManagerA15AssertionStatusCMa
+- _$s10GamePolicy012ModelManagerA15AssertionStatusCMn
+- _$s10GamePolicy012ModelManagerB8StrategyO8rawValueACSgSi_tcfC
+- _$s10GamePolicy012ModelManagerB8StrategyO8rawValueSivg
+- _$s10GamePolicy012ModelManagerB8StrategyOMn
+- _$s10GamePolicy012ModelManagerB8StrategyON
+- _$s10GamePolicy012ModelManagera9AssertionB0O03aaaA4ModeyA2CmFWC
+- _$s10GamePolicy012ModelManagera9AssertionB0O08standardA4ModeyA2CmFWC
+- _$s10GamePolicy012ModelManagera9AssertionB0O8rawValueACSgSS_tcfC
+- _$s10GamePolicy012ModelManagera9AssertionB0O8rawValueSSvg
+- _$s10GamePolicy012ModelManagera9AssertionB0OMa
+- _$s10GamePolicy012ModelManagera9AssertionB0OMn
+- _$s10GamePolicy012ModelManagera9AssertionB0OSLAAMc
+- _$s10GamePolicy012ModelManagera9AssertionB0OSQAAMc
+- _$s10GamePolicy012ModelManagera9AssertionB0OSYAAMc
+- _$s10GamePolicy0A10ModeStatusC03allA17BundleIdentifiersSaySSGvg
+- _$s10GamePolicy0A10ModeStatusC21gameBundleIdentifiersSaySSGvg
+- _$s10GamePolicy0A10ModeStatusC6ConfigV011previousAllA17BundleIdentifiersSaySSGvs
+- _$s10GamePolicy0A10ModeStatusC6ConfigV016perfomanceGamingC7EnabledSbvg
+- _$s10GamePolicy0A10ModeStatusC6ConfigV016perfomanceGamingC7EnabledSbvs
+- _$s10GamePolicy0A10ModeStatusC6ConfigV03allA17BundleIdentifiersSaySSGvg
+- _$s10GamePolicy0A10ModeStatusC6ConfigV03allA17BundleIdentifiersSaySSGvs
+- _$s10GamePolicy0A10ModeStatusC6ConfigV08previousA17BundleIdentifiersSaySSGvs
+- _$s10GamePolicy0A10ModeStatusC6ConfigV14enablementDate10Foundation0G0VSgvg
+- _$s10GamePolicy0A10ModeStatusC6ConfigV14enablementDate10Foundation0G0VSgvs
+- _$s10GamePolicy0A10ModeStatusC6ConfigV15disablementDate10Foundation0G0VSgvs
+- _$s10GamePolicy0A10ModeStatusC6ConfigV17jettisonCameraS2RSbvg
+- _$s10GamePolicy0A10ModeStatusC6ConfigV17jettisonCameraS2RSbvs
+- _$s10GamePolicy0A10ModeStatusC6ConfigV18enablementStrategyAA0c10EnablementG0Ovg
+- _$s10GamePolicy0A10ModeStatusC6ConfigV18enablementStrategyAA0c10EnablementG0Ovs
+- _$s10GamePolicy0A10ModeStatusC6ConfigV21gameBundleIdentifiersSaySSGvg
+- _$s10GamePolicy0A10ModeStatusC6ConfigV21gameBundleIdentifiersSaySSGvs
+- _$s10GamePolicy0A10ModeStatusC6ConfigV25impactedBundleIdentifiersSaySSGvg
+- _$s10GamePolicy0A10ModeStatusC6ConfigV25impactedBundleIdentifiersSaySSGvs
+- _$s10GamePolicy0A10ModeStatusC6ConfigV35previouslyImpactedBundleIdentifiersSaySSGvs
+- _$s10GamePolicy0A10ModeStatusC6ConfigV7enabled14enablementDate011disablementH015deviceSupported17jettisonCameraS2R21gameBundleIdentifiers08previousapQ008impactedpQ0018previouslyImpactedpQ003allapQ00r3AllapQ00G8Strategy016perfomanceGamingC7EnabledAESb_10Foundation0H0VSgAVS2bSaySSGA5wA0c10EnablementX0OSbtcfC
+- _$s10GamePolicy0A10ModeStatusC6ConfigV7enabledSbvg
+- _$s10GamePolicy0A10ModeStatusC6ConfigV7enabledSbvs
+- _$s10GamePolicy0A10ModeStatusC6ConfigVMa
+- _$s10GamePolicy0A10ModeStatusC6ConfigVMn
+- _$s10GamePolicy0A10ModeStatusC6configA2C6ConfigV_tcfc
+- _$s10GamePolicy0A10ModeStatusC7enabledSbvg
+- _$s10GamePolicy0A10ModeStatusCMa
+- _$s10GamePolicy0A10ModeStatusCMn
+- _$s10GamePolicy16GamingMetadataDBP24overlayInvocableAlowListShySSGvgTq
+- _$s10GamePolicy21DynamicSplitterStatusC6ConfigV14enablementDate10Foundation0H0VSgvg
+- _$s10GamePolicy21DynamicSplitterStatusC6ConfigV14enablementDate10Foundation0H0VSgvs
+- _$s10GamePolicy21DynamicSplitterStatusC6ConfigV15disablementDate10Foundation0H0VSgvs
+- _$s10GamePolicy21DynamicSplitterStatusC6ConfigV18enablementStrategyAA014ModeEnablementH0Ovs
+- _$s10GamePolicy21DynamicSplitterStatusC6ConfigV25impactedBundleIdentifiersSaySSGvg
+- _$s10GamePolicy21DynamicSplitterStatusC6ConfigV25impactedBundleIdentifiersSaySSGvs
+- _$s10GamePolicy21DynamicSplitterStatusC6ConfigV35previouslyImpactedBundleIdentifiersSaySSGvs
+- _$s10GamePolicy21DynamicSplitterStatusC6ConfigV7enabled14enablementDate011disablementI015deviceSupported25impactedBundleIdentifiers018previouslyImpactednO00H8StrategyAESb_10Foundation0I0VSgAPSbSaySSGAqA014ModeEnablementR0OtcfC
+- _$s10GamePolicy21DynamicSplitterStatusC6ConfigV7enabledSbvg
+- _$s10GamePolicy21DynamicSplitterStatusC6ConfigV7enabledSbvs
+- _$s10GamePolicy21DynamicSplitterStatusC6ConfigVMa
+- _$s10GamePolicy21DynamicSplitterStatusC6ConfigVMn
+- _$s10GamePolicy21DynamicSplitterStatusC6configA2C6ConfigV_tcfc
+- _$s10GamePolicy21DynamicSplitterStatusC7enabledSbvg
+- _$s10GamePolicy21DynamicSplitterStatusCMa
+- _$s10GamePolicy21DynamicSplitterStatusCMn
+- _$s10GamePolicy22ModeEnablementStrategyO8rawValueACSgSi_tcfC
+- _$s10GamePolicy22ModeEnablementStrategyO8rawValueSivg
+- _$s10GamePolicy22ModeEnablementStrategyOMn
+- _$s10GamePolicy22ModeEnablementStrategyON
+- _$s10GamePolicy24SustainedExecutionStatusC6ConfigV06activeB014enablementDate011disablementI015deviceSupported25impactedBundleIdentifiers018previouslyImpactednO00H8StrategyAeA9SEMPolicyO_10Foundation0I0VSgARSbSaySSGAsA014ModeEnablementR0OtcfC
+- _$s10GamePolicy24SustainedExecutionStatusC6ConfigV06activeB0AA9SEMPolicyOvg
+- _$s10GamePolicy24SustainedExecutionStatusC6ConfigV06activeB0AA9SEMPolicyOvs
+- _$s10GamePolicy24SustainedExecutionStatusC6ConfigV14enablementDate10Foundation0H0VSgvg
+- _$s10GamePolicy24SustainedExecutionStatusC6ConfigV14enablementDate10Foundation0H0VSgvs
+- _$s10GamePolicy24SustainedExecutionStatusC6ConfigV15disablementDate10Foundation0H0VSgvs
+- _$s10GamePolicy24SustainedExecutionStatusC6ConfigV18enablementStrategyAA014ModeEnablementH0Ovs
+- _$s10GamePolicy24SustainedExecutionStatusC6ConfigV25impactedBundleIdentifiersSaySSGvg
+- _$s10GamePolicy24SustainedExecutionStatusC6ConfigV25impactedBundleIdentifiersSaySSGvs
+- _$s10GamePolicy24SustainedExecutionStatusC6ConfigV35previouslyImpactedBundleIdentifiersSaySSGvs
+- _$s10GamePolicy24SustainedExecutionStatusC6ConfigVMa
+- _$s10GamePolicy24SustainedExecutionStatusC6ConfigVMn
+- _$s10GamePolicy24SustainedExecutionStatusC6configA2C6ConfigV_tcfc
+- _$s10GamePolicy24SustainedExecutionStatusC7enabledSbvgTj
+- _$s10GamePolicy24SustainedExecutionStatusCMa
+- _$s10GamePolicy24SustainedExecutionStatusCMn
+- _$s10GamePolicy9SEMPolicyO11descriptionSSvg
+- _$s10GamePolicy9SEMPolicyO8rawValueSivg
+- _$s10GamePolicy9SEMPolicyOMn
+- _$s2os6LoggerV10GamePolicyE13stateTrackingSo03OS_A4_logCvgZ
+- _$s2os6LoggerV10GamePolicyE14appCoordinatorACvgZ
+- _$s2os6LoggerV10GamePolicyE15toolCoordinatorACvgZ
+- _$s2os6LoggerV10GamePolicyE17policyCoordinatorACvgZ
+- _$s2os6LoggerV10GamePolicyE4toolACvgZ
+- _$s2os6LoggerV10GamePolicyE5agentACvgZ
+- _$s2os6LoggerV10GamePolicyE6daemonACvgZ
+- _$s2os6LoggerV10GamePolicyE9gameStoreACvgZ
+- _$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ
+- _$sSdN
+- _$sSo8NSNumberC10FoundationE14booleanLiteralABSb_tcfC
+- _$sSo8NSObjectC10ObjectiveCE4hash4intoys6HasherVz_tF
+- _$sSuN
+- _$ss11_SetStorageC8allocate8capacityAByxGSi_tFZ
+- _$ss6HasherV5_hash4seed_S2i_s6UInt64VtFZ
+- _kUTTypeAppCategoryActionGames
+- _kUTTypeAppCategoryAdventureGames
+- _kUTTypeAppCategoryArcadeGames
+- _kUTTypeAppCategoryBoardGames
+- _kUTTypeAppCategoryCardGames
+- _kUTTypeAppCategoryCasinoGames
+- _kUTTypeAppCategoryDiceGames
+- _kUTTypeAppCategoryEducationalGames
+- _kUTTypeAppCategoryFamilyGames
+- _kUTTypeAppCategoryGames
+- _kUTTypeAppCategoryKidsGames
+- _kUTTypeAppCategoryMusicGames
+- _kUTTypeAppCategoryPuzzleGames
+- _kUTTypeAppCategoryRacingGames
+- _kUTTypeAppCategoryRolePlayingGames
+- _kUTTypeAppCategorySimulationGames
+- _kUTTypeAppCategorySportsGames
+- _kUTTypeAppCategoryStrategyGames
+- _kUTTypeAppCategoryTriviaGames
+- _kUTTypeAppCategoryWordGames
+- _objc_retainAutoreleaseReturnValue
+- _swift_deallocPartialClassInstance
+CStrings:
++ "%s"
++ "Class getGKGameModeBannerConfigClass(void)_block_invoke"
++ "GKGameModeBannerConfig"
++ "GPUtility.m"
++ "GamePolicyAngelNotificationService"
++ "Identified app %{public}s"
++ "Newly identified app was focused. Last played for %{private}s == %{private}s"
++ "Soft-linking GameCenterFoundation."
++ "Unable to find class %s"
++ "_overlayInvocableAllowList"
++ "allKeyboardDevices"
++ "currentHandler"
++ "handleFailureInFunction:file:lineNumber:description:"
++ "initWithBundleIdentifier:enabled:actionSymbols:"
++ "isAvailable"
++ "sfSymbolName"
++ "sharedInstance"
++ "showAngelBanner(for: %{private}s, enabled:%{bool}d, actionSymbols:%s"
++ "showGameModeBannerWithConfig:"
++ "softlink:r:path:/System/Library/PrivateFrameworks/GameCenterFoundation.framework/GameCenterFoundation"
++ "stringWithUTF8String:"
++ "v24@0:8@\"GKGameModeBannerConfig\"16"
++ "v24@0:8@?<v@?@\"_TtC20GamePolicyFoundation14GameModeStatus\">16"
++ "v24@0:8@?<v@?@\"_TtC20GamePolicyFoundation21DynamicSplitterStatus\">16"
++ "v24@0:8@?<v@?@\"_TtC20GamePolicyFoundation24SustainedExecutionStatus\">16"
++ "v24@0:8@?<v@?@\"_TtC20GamePolicyFoundation31ModelManagerGameAssertionStatus\">16"
++ "v48@0:8@\"_TtC20GamePolicyFoundation14GameModeStatus\"16@\"_TtC20GamePolicyFoundation31ModelManagerGameAssertionStatus\"24@\"_TtC20GamePolicyFoundation24SustainedExecutionStatus\"32@\"_TtC20GamePolicyFoundation21DynamicSplitterStatus\"40"
++ "void *GameCenterFoundationLibrary(void)"
+- "GCSupportsControllerUserInteraction"
+- "Identified game %{public}s"
+- "Ignoring Games app."
+- "Newly identified game was focused. Last played for %{private}s == %{private}s"
+- "Opting %{public}s into SEM."
+- "Opting %{public}s into automatic SEM enablement and game mode."
+- "TrackedProcessLifetime"
+- "_TtC11gamepolicyd17GlobalPreferences"
+- "_TtC11gamepolicyd19EmbeddedGameProcess"
+- "_TtP11gamepolicyd34GamePolicyAngelNotificationService_"
+- "_overlayInvocableAlowList"
+- "apple-graphics-performance-tier"
+- "arrayWithObjects:count:"
+- "boolForKey:"
+- "bundleRecordForAuditToken:error:"
+- "bundleVersion"
+- "com.apple.developer.kernel.increased-debugging-memory-limit"
+- "com.apple.developer.kernel.increased-memory-limit"
+- "com.apple.developer.sustained-execution"
+- "com.moonlight-stream.Moonlight"
+- "com.playstation.psremoteplay"
+- "com.valvesoftware.SteamLink17"
+- "dynamicSplitterEnablementStrategy"
+- "entitlements"
+- "firstLanuchBannerShown"
+- "gameModeBundleIdentifierAllowList"
+- "gameModeEnabledList"
+- "gameModeEnabledListKey"
+- "gameModeEnablementStrategy"
+- "gameModeLastBannerDates"
+- "gameModeLastBannerDatesKey"
+- "gameModeOffBannerTime"
+- "gameModeOnBannerTime"
+- "hasGameGenreId"
+- "ignoreDeviceRestrictions"
+- "infoDictionary"
+- "integerForKey:"
+- "iphone-performance-gaming-tier"
+- "isGame"
+- "isRunning"
+- "isRunningForeground"
+- "isTerminated"
+- "lastFocused"
+- "modelManagerGameAssertionPolicyStrategy"
+- "objectForKey:ofClass:"
+- "processHandle"
+- "requiredDeviceCapabilities"
+- "requiresIncreasedDebugMemoryLimit"
+- "requiresIncreasedMemoryLimit"
+- "requiresModelManagerAssertion"
+- "requiresiPhonePerformanceGamingTier"
+- "semAutoAllowList"
+- "semEnablementStrategy"
+- "semPreference"
+- "setBool:forKey:"
+- "setInteger:forKey:"
+- "setValue:forKey:"
+- "showAngelBanner(for: bundleIdentifier, available:%{bool}d enabled:%{bool}d"
+- "showGameModeBannerWithBundleIdentifier:available:required:enabled:showText:"
+- "subgenres"
+- "supportsCameraJettisonS2R"
+- "supportsDynamicPowerSplitter"
+- "supportsGameMode"
+- "supportsModelManagerAssertion"
+- "triggeringGameMode"
+- "triggeringModelManagerAssertion"
+- "v24@0:8@?<v@?@\"_TtC10GamePolicy14GameModeStatus\">16"
+- "v24@0:8@?<v@?@\"_TtC10GamePolicy21DynamicSplitterStatus\">16"
+- "v24@0:8@?<v@?@\"_TtC10GamePolicy24SustainedExecutionStatus\">16"
+- "v24@0:8@?<v@?@\"_TtC10GamePolicy31ModelManagerGameAssertionStatus\">16"
+- "v48@0:8@\"_TtC10GamePolicy14GameModeStatus\"16@\"_TtC10GamePolicy31ModelManagerGameAssertionStatus\"24@\"_TtC10GamePolicy24SustainedExecutionStatus\"32@\"_TtC10GamePolicy21DynamicSplitterStatus\"40"
+- "v56@0:8@\"NSString\"16@\"NSValue\"24@\"NSValue\"32@\"NSValue\"40@\"NSValue\"48"
+- "v56@0:8@16@24@32@40@48"
+- "valueForKey:"
+
+```

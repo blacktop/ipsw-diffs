@@ -1,0 +1,140 @@
+## KoaMapper
+
+> `/System/Library/PrivateFrameworks/KoaMapper.framework/KoaMapper`
+
+```diff
+
+ 3505.3.1.0.0
+-  __TEXT.__text: 0x1ccdc
++  __TEXT.__text: 0x1cee4
+   __TEXT.__auth_stubs: 0xfa0
+   __TEXT.__objc_methlist: 0x11f4
+-  __TEXT.__const: 0x4a0
++  __TEXT.__const: 0x590
+   __TEXT.__dlopen_cstrs: 0x45
+   __TEXT.__swift5_typeref: 0x5f6
+   __TEXT.__swift5_fieldmd: 0x16c
+
+   __AUTH_CONST.__objc_arrayobj: 0x18
+   __AUTH.__objc_data: 0x1c8
+   __DATA.__objc_ivar: 0x120
+-  __DATA.__data: 0x630
++  __DATA.__data: 0x690
+   __DATA.__bss: 0x300
+   __DATA_DIRTY.__objc_data: 0xd38
+-  __DATA_DIRTY.__data: 0x1d8
++  __DATA_DIRTY.__data: 0x158
+   __DATA_DIRTY.__bss: 0x140
+   __DATA_DIRTY.__common: 0x28
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 77CEE1AF-5FC2-35AC-945E-66E13178008E
+-  Functions: 637
+-  Symbols:   2687
++  UUID: 4300B8C4-BD8A-32FD-940A-5848D3E0F828
++  Functions: 639
++  Symbols:   2725
+   CStrings:  869
+ 
+Symbols:
++ _$s7Combine10PublishersO10CompactMapVy_AC9ReceiveOnVy_AA12AnyPublisherVySo13CAFMediaItemsCSgs5NeverOGSo17OS_dispatch_queueCGSo0I18SourceSemanticTypeV_AKtGMR
++ _$s7Combine10PublishersO10CompactMapVy_AC9ReceiveOnVy_AA12AnyPublisherVySo13CAFMediaItemsCSgs5NeverOGSo17OS_dispatch_queueCGSo0I18SourceSemanticTypeV_AKtGMd
++ _$s7Combine10PublishersO10CompactMapVy_AC9ReceiveOnVy_AA9PublishedV9PublisherVySo6CAFCarCSg_GSo17OS_dispatch_queueCGAMGMR
++ _$s7Combine10PublishersO10CompactMapVy_AC9ReceiveOnVy_AA9PublishedV9PublisherVySo6CAFCarCSg_GSo17OS_dispatch_queueCGAMGMd
++ _$s7Combine10PublishersO10CompactMapVy_AC9ReceiveOnVy_AA9PublishedV9PublisherVySo8CAFMediaCSg_GSo17OS_dispatch_queueCGAMGMR
++ _$s7Combine10PublishersO10CompactMapVy_AC9ReceiveOnVy_AA9PublishedV9PublisherVySo8CAFMediaCSg_GSo17OS_dispatch_queueCGAMGMd
++ _$s7Combine10PublishersO3MapVy_AC6FilterVy_AC07CompactC0Vy_AC9ReceiveOnVy_AA12AnyPublisherVySo13CAFMediaItemsCSgs5NeverOGSo17OS_dispatch_queueCGSo0J18SourceSemanticTypeV_AOtGGAX_SaySo6KVItemCGtGMR
++ _$s7Combine10PublishersO3MapVy_AC6FilterVy_AC07CompactC0Vy_AC9ReceiveOnVy_AA12AnyPublisherVySo13CAFMediaItemsCSgs5NeverOGSo17OS_dispatch_queueCGSo0J18SourceSemanticTypeV_AOtGGAX_SaySo6KVItemCGtGMd
++ _$s7Combine10PublishersO6FilterVy_AC10CompactMapVy_AC9ReceiveOnVy_AA12AnyPublisherVySo13CAFMediaItemsCSgs5NeverOGSo17OS_dispatch_queueCGSo0J18SourceSemanticTypeV_AMtGGMR
++ _$s7Combine10PublishersO6FilterVy_AC10CompactMapVy_AC9ReceiveOnVy_AA12AnyPublisherVySo13CAFMediaItemsCSgs5NeverOGSo17OS_dispatch_queueCGSo0J18SourceSemanticTypeV_AMtGGMd
++ _$s7Combine10PublishersO9ReceiveOnVy_AA12AnyPublisherVySo13CAFMediaItemsCSgs5NeverOGSo17OS_dispatch_queueCGMR
++ _$s7Combine10PublishersO9ReceiveOnVy_AA12AnyPublisherVySo13CAFMediaItemsCSgs5NeverOGSo17OS_dispatch_queueCGMd
++ _$s7Combine10PublishersO9ReceiveOnVy_AA9PublishedV9PublisherVySo6CAFCarCSg_GSo17OS_dispatch_queueCGMR
++ _$s7Combine10PublishersO9ReceiveOnVy_AA9PublishedV9PublisherVySo6CAFCarCSg_GSo17OS_dispatch_queueCGMd
++ _$s7Combine10PublishersO9ReceiveOnVy_AA9PublishedV9PublisherVySo8CAFMediaCSg_GSo17OS_dispatch_queueCGMR
++ _$s7Combine10PublishersO9ReceiveOnVy_AA9PublishedV9PublisherVySo8CAFMediaCSg_GSo17OS_dispatch_queueCGMd
++ _$s7Combine12AnyPublisherVySo13CAFMediaItemsCSgs5NeverOGMR
++ _$s7Combine12AnyPublisherVySo13CAFMediaItemsCSgs5NeverOGMd
++ _$s7Combine9PublishedV9PublisherVySo6CAFCarCSg_GMR
++ _$s7Combine9PublishedV9PublisherVySo6CAFCarCSg_GMd
++ _$s7Combine9PublishedV9PublisherVySo8CAFMediaCSg_GMR
++ _$s7Combine9PublishedV9PublisherVySo8CAFMediaCSg_GMd
++ _$sSay8Dispatch0A13WorkItemFlagsVGMR
++ _$sSay8Dispatch0A13WorkItemFlagsVGMd
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMR
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMd
++ _$sSaySo6KVItemCGMR
++ _$sSaySo6KVItemCGMd
++ _$sShySo6KVItemCGMR
++ _$sShySo6KVItemCGMd
++ _$sSiSgMR
++ _$sSiSgMd
++ _$sSo17OS_dispatch_queueC8DispatchE16SchedulerOptionsVSgMR
++ _$sSo17OS_dispatch_queueC8DispatchE16SchedulerOptionsVSgMd
++ _$sSo26CAFMediaSourceSemanticTypeV_SaySo6KVItemCGtMR
++ _$sSo26CAFMediaSourceSemanticTypeV_SaySo6KVItemCGtMd
++ _$sSo26CAFMediaSourceSemanticTypeV_So0A5ItemsCSgtMR
++ _$sSo26CAFMediaSourceSemanticTypeV_So0A5ItemsCSgtMd
++ _$sSo26CAFMediaSourceSemanticTypeV_So0A5ItemsCtMR
++ _$sSo26CAFMediaSourceSemanticTypeV_So0A5ItemsCtMd
++ _$sSo6CAFCarCSgMR
++ _$sSo6CAFCarCSgMd
++ _$sSo8CAFMediaCSgMR
++ _$sSo8CAFMediaCSgMd
++ _$sSo8NSObjectCSgMR
++ _$sSo8NSObjectCSgMd
++ _$ss11_SetStorageCy7Combine14AnyCancellableCGMR
++ _$ss11_SetStorageCy7Combine14AnyCancellableCGMd
++ _$ss11_SetStorageCy9KoaMapper32RadioFrequencyRangeItemGeneratorVGMR
++ _$ss11_SetStorageCy9KoaMapper32RadioFrequencyRangeItemGeneratorVGMd
++ _$ss11_SetStorageCySo6KVItemCGMR
++ _$ss11_SetStorageCySo6KVItemCGMd
++ _$ss17_NativeDictionaryVySo26CAFMediaSourceSemanticTypeVShySo6KVItemCGGMR
++ _$ss17_NativeDictionaryVySo26CAFMediaSourceSemanticTypeVShySo6KVItemCGGMd
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss6ResultOy10SiriFindMy17SFMSyncDeviceDataVs5Error_pGMR
++ _$ss6ResultOy10SiriFindMy17SFMSyncDeviceDataVs5Error_pGMd
++ _OUTLINED_FUNCTION_21
++ _OUTLINED_FUNCTION_22
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s7Combine10PublishersO10CompactMapVy_AC9ReceiveOnVy_AA12AnyPublisherVySo13CAFMediaItemsCSgs5NeverOGSo17OS_dispatch_queueCGSo0I18SourceSemanticTypeV_AKtGMD
+- _$s7Combine10PublishersO10CompactMapVy_AC9ReceiveOnVy_AA9PublishedV9PublisherVySo6CAFCarCSg_GSo17OS_dispatch_queueCGAMGMD
+- _$s7Combine10PublishersO10CompactMapVy_AC9ReceiveOnVy_AA9PublishedV9PublisherVySo8CAFMediaCSg_GSo17OS_dispatch_queueCGAMGMD
+- _$s7Combine10PublishersO3MapVy_AC6FilterVy_AC07CompactC0Vy_AC9ReceiveOnVy_AA12AnyPublisherVySo13CAFMediaItemsCSgs5NeverOGSo17OS_dispatch_queueCGSo0J18SourceSemanticTypeV_AOtGGAX_SaySo6KVItemCGtGMD
+- _$s7Combine10PublishersO6FilterVy_AC10CompactMapVy_AC9ReceiveOnVy_AA12AnyPublisherVySo13CAFMediaItemsCSgs5NeverOGSo17OS_dispatch_queueCGSo0J18SourceSemanticTypeV_AMtGGMD
+- _$s7Combine10PublishersO9ReceiveOnVy_AA12AnyPublisherVySo13CAFMediaItemsCSgs5NeverOGSo17OS_dispatch_queueCGMD
+- _$s7Combine10PublishersO9ReceiveOnVy_AA9PublishedV9PublisherVySo6CAFCarCSg_GSo17OS_dispatch_queueCGMD
+- _$s7Combine10PublishersO9ReceiveOnVy_AA9PublishedV9PublisherVySo8CAFMediaCSg_GSo17OS_dispatch_queueCGMD
+- _$s7Combine12AnyPublisherVySo13CAFMediaItemsCSgs5NeverOGMD
+- _$s7Combine9PublishedV9PublisherVySo6CAFCarCSg_GMD
+- _$s7Combine9PublishedV9PublisherVySo8CAFMediaCSg_GMD
+- _$sSay8Dispatch0A13WorkItemFlagsVGMD
+- _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMD
+- _$sSaySo6KVItemCGMD
+- _$sShySo6KVItemCGMD
+- _$sSiSgMD
+- _$sSo17OS_dispatch_queueC8DispatchE16SchedulerOptionsVSgMD
+- _$sSo26CAFMediaSourceSemanticTypeV_SaySo6KVItemCGtMD
+- _$sSo26CAFMediaSourceSemanticTypeV_So0A5ItemsCSgtMD
+- _$sSo26CAFMediaSourceSemanticTypeV_So0A5ItemsCtMD
+- _$sSo6CAFCarCSgMD
+- _$sSo8CAFMediaCSgMD
+- _$sSo8NSObjectCSgMD
+- _$ss11_SetStorageCy7Combine14AnyCancellableCGMD
+- _$ss11_SetStorageCy9KoaMapper32RadioFrequencyRangeItemGeneratorVGMD
+- _$ss11_SetStorageCySo6KVItemCGMD
+- _$ss17_NativeDictionaryVySo26CAFMediaSourceSemanticTypeVShySo6KVItemCGGMD
+- _$ss23_ContiguousArrayStorageCySSGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss6ResultOy10SiriFindMy17SFMSyncDeviceDataVs5Error_pGMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+
+```

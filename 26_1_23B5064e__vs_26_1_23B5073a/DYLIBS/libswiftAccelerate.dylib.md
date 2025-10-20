@@ -1,0 +1,338 @@
+## libswiftAccelerate.dylib
+
+> `/usr/lib/swift/libswiftAccelerate.dylib`
+
+```diff
+
+ 77.0.0.0.0
+-  __TEXT.__text: 0x9cc74
++  __TEXT.__text: 0x9e2d8
+   __TEXT.__auth_stubs: 0x2bd0
+-  __TEXT.__const: 0x634c
++  __TEXT.__const: 0x667c
+   __TEXT.__cstring: 0x1c4e
+   __TEXT.__constg_swiftt: 0x2a54
+   __TEXT.__swift5_typeref: 0x1a36
+
+   __TEXT.__swift5_capture: 0x130
+   __TEXT.__swift_as_entry: 0x14
+   __TEXT.__swift_as_ret: 0x4
+-  __TEXT.__unwind_info: 0x2db0
+-  __TEXT.__eh_frame: 0x61bc
++  __TEXT.__unwind_info: 0x2db8
++  __TEXT.__eh_frame: 0x61c4
+   __DATA_CONST.__got: 0xe90
+   __DATA_CONST.__const: 0x4b0
+   __DATA_CONST.__objc_classlist: 0x110
+
+   __AUTH_CONST.__const: 0x6ff8
+   __AUTH_CONST.__objc_const: 0x1840
+   __AUTH.__data: 0x180
+-  __DATA.__data: 0xcb0
++  __DATA.__data: 0xcc0
+   __DATA.__bss: 0x5100
+   __DATA.__common: 0x1
+-  __DATA_DIRTY.__data: 0x2030
++  __DATA_DIRTY.__data: 0x2020
+   __DATA_DIRTY.__bss: 0x280
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A865D415-4085-3B10-9A25-49DD1CC814AA
+-  Functions: 5147
+-  Symbols:   14563
++  UUID: 7D313550-7737-3AC9-A954-916B7DAF4FB4
++  Functions: 5143
++  Symbols:   14647
+   CStrings:  172
+ 
+Symbols:
++ _$s10Accelerate13BNNSOptimizer_pMR
++ _$s10Accelerate13BNNSOptimizer_pMd
++ _$s10Accelerate22FusableLayerParameters_pMR
++ _$s10Accelerate22FusableLayerParameters_pMd
++ _$s10Accelerate22WithOptimizerAlgFields_pMR
++ _$s10Accelerate22WithOptimizerAlgFields_pMd
++ _$s10Accelerate26BNNSFusableLayerParameters_pMR
++ _$s10Accelerate26BNNSFusableLayerParameters_pMd
++ _$s10Accelerate29FusableLayerParametersWrapper_pMR
++ _$s10Accelerate29FusableLayerParametersWrapper_pMd
++ _$s10Accelerate29FusableLayerParametersWrapper_pSgMR
++ _$s10Accelerate29FusableLayerParametersWrapper_pSgMd
++ _$s10Accelerate40FusableBinaryInputLayerParametersWrapper_pMR
++ _$s10Accelerate40FusableBinaryInputLayerParametersWrapper_pMd
++ _$s10Accelerate40FusableBinaryInputLayerParametersWrapper_pSgMR
++ _$s10Accelerate40FusableBinaryInputLayerParametersWrapper_pSgMd
++ _$s10Accelerate41FusableTernaryInputLayerParametersWrapper_pMR
++ _$s10Accelerate41FusableTernaryInputLayerParametersWrapper_pMd
++ _$s10Accelerate41FusableTernaryInputLayerParametersWrapper_pSgMR
++ _$s10Accelerate41FusableTernaryInputLayerParametersWrapper_pSgMd
++ _$s10Accelerate42FusableLayerParametersWrapperDeallocatable_pMR
++ _$s10Accelerate42FusableLayerParametersWrapperDeallocatable_pMd
++ _$s10Accelerate42FusableLayerParametersWrapperDeallocatable_pSgMR
++ _$s10Accelerate42FusableLayerParametersWrapperDeallocatable_pSgMd
++ _$s10Accelerate6vImageO11PixelBufferVy_AC07DynamicC6FormatVGMR
++ _$s10Accelerate6vImageO11PixelBufferVy_AC07DynamicC6FormatVGMd
++ _$s10Accelerate6vImageO11PixelBufferVy_AC7Planar8VGMR
++ _$s10Accelerate6vImageO11PixelBufferVy_AC7Planar8VGMd
++ _$s10Accelerate6vImageO11PixelBufferVy_AC7PlanarFVGMR
++ _$s10Accelerate6vImageO11PixelBufferVy_AC7PlanarFVGMd
++ _$s10Accelerate6vImageO11PixelBufferVy_AC9Planar16UVGMR
++ _$s10Accelerate6vImageO11PixelBufferVy_AC9Planar16UVGMd
++ _$s10Accelerate6vImageO19ConvolutionKernel2DVy_s5Int16VGMR
++ _$s10Accelerate6vImageO19ConvolutionKernel2DVy_s5Int16VGMd
++ _$s10Accelerate6vImageO19ConvolutionKernel2DVy_s5Int16VG_A3HtMR
++ _$s10Accelerate6vImageO19ConvolutionKernel2DVy_s5Int16VG_A3HtMd
++ _$s10Accelerate9BNNSGraphO7BuilderV10SliceIndex_pMR
++ _$s10Accelerate9BNNSGraphO7BuilderV10SliceIndex_pMd
++ _$sSNySiGMR
++ _$sSNySiGMd
++ _$sSPys4Int8VGSgMR
++ _$sSPys4Int8VGSgMd
++ _$sSay10Accelerate4BNNSO10DataLayoutOGMR
++ _$sSay10Accelerate4BNNSO10DataLayoutOGMd
++ _$sSay10Accelerate4BNNSO23ArithmeticUnaryFunctionOGMR
++ _$sSay10Accelerate4BNNSO23ArithmeticUnaryFunctionOGMd
++ _$sSay10Accelerate4BNNSO24ArithmeticBinaryFunctionOGMR
++ _$sSay10Accelerate4BNNSO24ArithmeticBinaryFunctionOGMd
++ _$sSay10Accelerate4vDSPO16DCTTransformTypeOGMR
++ _$sSay10Accelerate4vDSPO16DCTTransformTypeOGMd
++ _$sSay10Accelerate6vImageO13BufferWrapperVGMR
++ _$sSay10Accelerate6vImageO13BufferWrapperVGMd
++ _$sSaySuGMR
++ _$sSaySuGMd
++ _$sSays5Int16VGMR
++ _$sSays5Int16VGMd
++ _$sSfSgMR
++ _$sSfSgMd
++ _$sSnySiGMR
++ _$sSnySiGMd
++ _$sSnySuGMR
++ _$sSnySuGMd
++ _$sSrySdGMR
++ _$sSrySdGMd
++ _$sSrySfGMR
++ _$sSrySfGMd
++ _$sSrySo10DSPComplexVGMR
++ _$sSrySo10DSPComplexVGMd
++ _$sSrySo16DSPDoubleComplexVGMR
++ _$sSrySo16DSPDoubleComplexVGMd
++ _$sSrys4Int8VGMR
++ _$sSrys4Int8VGMd
++ _$sSrys5Int16VGMR
++ _$sSrys5Int16VGMd
++ _$sSrys5Int32VGMR
++ _$sSrys5Int32VGMd
++ _$sSrys5UInt8VGMR
++ _$sSrys5UInt8VGMd
++ _$sSrys6UInt16VGMR
++ _$sSrys6UInt16VGMd
++ _$sSrys6UInt32VGMR
++ _$sSrys6UInt32VGMd
++ _$sSrys7Float16VGMR
++ _$sSrys7Float16VGMd
++ _$ss11_SetStorageCySiGMR
++ _$ss11_SetStorageCySiGMd
++ _$ss11_SetStorageCySuGMR
++ _$ss11_SetStorageCySuGMd
++ _$ss13OpaquePointerVSgMR
++ _$ss13OpaquePointerVSgMd
++ _$ss16PartialRangeFromVySiGMR
++ _$ss16PartialRangeFromVySiGMd
++ _$ss16PartialRangeUpToVySiGMR
++ _$ss16PartialRangeUpToVySiGMd
++ _$ss19PartialRangeThroughVySiGMR
++ _$ss19PartialRangeThroughVySiGMd
++ _$ss23_ContiguousArrayStorageCy10Accelerate42FusableLayerParametersWrapperDeallocatable_pSgGMR
++ _$ss23_ContiguousArrayStorageCy10Accelerate42FusableLayerParametersWrapperDeallocatable_pSgGMd
++ _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO10BufferTypeOGMR
++ _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO10BufferTypeOGMd
++ _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO10BufferTypeOSgGMR
++ _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO10BufferTypeOSgGMd
++ _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO11PixelBufferVy_AE07DynamicF6FormatVGGMR
++ _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO11PixelBufferVy_AE07DynamicF6FormatVGGMd
++ _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO11PixelBufferVy_AE7Planar8VGGMR
++ _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO11PixelBufferVy_AE7Planar8VGGMd
++ _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO11PixelBufferVy_AE7PlanarFVGGMR
++ _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO11PixelBufferVy_AE7PlanarFVGGMd
++ _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO11PixelBufferVy_AE9Planar16UVGGMR
++ _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO11PixelBufferVy_AE9Planar16UVGGMd
++ _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO13BufferWrapperVGMR
++ _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO13BufferWrapperVGMd
++ _$ss23_ContiguousArrayStorageCy10Accelerate9BNNSGraphO5ShapeVGMR
++ _$ss23_ContiguousArrayStorageCy10Accelerate9BNNSGraphO5ShapeVGMd
++ _$ss23_ContiguousArrayStorageCySPySfGSgGMR
++ _$ss23_ContiguousArrayStorageCySPySfGSgGMd
++ _$ss23_ContiguousArrayStorageCySPySo13vImage_BufferVGSgGMR
++ _$ss23_ContiguousArrayStorageCySPySo13vImage_BufferVGSgGMd
++ _$ss23_ContiguousArrayStorageCySPySo21BNNSNDArrayDescriptoraGGMR
++ _$ss23_ContiguousArrayStorageCySPySo21BNNSNDArrayDescriptoraGGMd
++ _$ss23_ContiguousArrayStorageCySPySuGSgGMR
++ _$ss23_ContiguousArrayStorageCySPySuGSgGMd
++ _$ss23_ContiguousArrayStorageCySPys4Int8VGSgGMR
++ _$ss23_ContiguousArrayStorageCySPys4Int8VGSgGMd
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss23_ContiguousArrayStorageCySVGMR
++ _$ss23_ContiguousArrayStorageCySVGMd
++ _$ss23_ContiguousArrayStorageCySVSgGMR
++ _$ss23_ContiguousArrayStorageCySVSgGMd
++ _$ss23_ContiguousArrayStorageCySaySuGGMR
++ _$ss23_ContiguousArrayStorageCySaySuGGMd
++ _$ss23_ContiguousArrayStorageCySays5Int16VGGMR
++ _$ss23_ContiguousArrayStorageCySays5Int16VGGMd
++ _$ss23_ContiguousArrayStorageCySdGMR
++ _$ss23_ContiguousArrayStorageCySdGMd
++ _$ss23_ContiguousArrayStorageCySfGMR
++ _$ss23_ContiguousArrayStorageCySfGMd
++ _$ss23_ContiguousArrayStorageCySi1x_Si1ytGMR
++ _$ss23_ContiguousArrayStorageCySi1x_Si1ytGMd
++ _$ss23_ContiguousArrayStorageCySiGMR
++ _$ss23_ContiguousArrayStorageCySiGMd
++ _$ss23_ContiguousArrayStorageCySo10BNNSTensoraGMR
++ _$ss23_ContiguousArrayStorageCySo10BNNSTensoraGMd
++ _$ss23_ContiguousArrayStorageCySo10DSPComplexVGMR
++ _$ss23_ContiguousArrayStorageCySo10DSPComplexVGMd
++ _$ss23_ContiguousArrayStorageCySo13vImage_BufferVGMR
++ _$ss23_ContiguousArrayStorageCySo13vImage_BufferVGMd
++ _$ss23_ContiguousArrayStorageCySo14BNNSFilterTypeaGMR
++ _$ss23_ContiguousArrayStorageCySo14BNNSFilterTypeaGMd
++ _$ss23_ContiguousArrayStorageCySo16DSPDoubleComplexVGMR
++ _$ss23_ContiguousArrayStorageCySo16DSPDoubleComplexVGMd
++ _$ss23_ContiguousArrayStorageCySo18bnns_graph_shape_taGMR
++ _$ss23_ContiguousArrayStorageCySo18bnns_graph_shape_taGMd
++ _$ss23_ContiguousArrayStorageCySo21bnns_graph_argument_taGMR
++ _$ss23_ContiguousArrayStorageCySo21bnns_graph_argument_taGMd
++ _$ss23_ContiguousArrayStorageCySpySo21BNNSNDArrayDescriptoraGGMR
++ _$ss23_ContiguousArrayStorageCySpySo21BNNSNDArrayDescriptoraGGMd
++ _$ss23_ContiguousArrayStorageCySpySo21BNNSNDArrayDescriptoraGSgGMR
++ _$ss23_ContiguousArrayStorageCySpySo21BNNSNDArrayDescriptoraGSgGMd
++ _$ss23_ContiguousArrayStorageCySpySuGSgGMR
++ _$ss23_ContiguousArrayStorageCySpySuGSgGMd
++ _$ss23_ContiguousArrayStorageCySuGMR
++ _$ss23_ContiguousArrayStorageCySuGMd
++ _$ss23_ContiguousArrayStorageCySvGMR
++ _$ss23_ContiguousArrayStorageCySvGMd
++ _$ss23_ContiguousArrayStorageCys5Int16VGMR
++ _$ss23_ContiguousArrayStorageCys5Int16VGMd
++ _$ss23_ContiguousArrayStorageCys5Int32VGMR
++ _$ss23_ContiguousArrayStorageCys5Int32VGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss23_ContiguousArrayStorageCys6UInt16VGMR
++ _$ss23_ContiguousArrayStorageCys6UInt16VGMd
++ _$ss23_ContiguousArrayStorageCys6UInt32VGMR
++ _$ss23_ContiguousArrayStorageCys6UInt32VGMd
++ _$ss23_ContiguousArrayStorageCys6UInt64VGMR
++ _$ss23_ContiguousArrayStorageCys6UInt64VGMd
++ _$ss23_ContiguousArrayStorageCys7Float16VGMR
++ _$ss23_ContiguousArrayStorageCys7Float16VGMd
++ _$ss23_ContiguousArrayStorageCyyXlGMR
++ _$ss23_ContiguousArrayStorageCyyXlGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10Accelerate13BNNSOptimizer_pMD
+- _$s10Accelerate22FusableLayerParameters_pMD
+- _$s10Accelerate22WithOptimizerAlgFields_pMD
+- _$s10Accelerate26BNNSFusableLayerParameters_pMD
+- _$s10Accelerate29FusableLayerParametersWrapper_pMD
+- _$s10Accelerate29FusableLayerParametersWrapper_pSgMD
+- _$s10Accelerate40FusableBinaryInputLayerParametersWrapper_pMD
+- _$s10Accelerate40FusableBinaryInputLayerParametersWrapper_pSgMD
+- _$s10Accelerate41FusableTernaryInputLayerParametersWrapper_pMD
+- _$s10Accelerate41FusableTernaryInputLayerParametersWrapper_pSgMD
+- _$s10Accelerate42FusableLayerParametersWrapperDeallocatable_pMD
+- _$s10Accelerate42FusableLayerParametersWrapperDeallocatable_pSgMD
+- _$s10Accelerate4vDSPO3add14multiplicationAESaySfGx1a_q_1bt_q0_1c_q1_1dttAA0A6BufferRzAaKR_AaKR0_AaKR1_Sf7ElementRtzSfALRt_SfALRt0_SfALRt1_r2_lFZySrySfGz_SiztXEfU_TATm
+- _$s10Accelerate4vDSPO3addySaySfGx_q_tAA0A6BufferRzAaFR_Sf7ElementRtzSfAGRt_r0_lFZySrySfGz_SiztXEfU_TATm
+- _$s10Accelerate4vDSPO8multiply8addition_SaySfGx1a_q_1bt_q0_tAA0A6BufferRzAaIR_AaIR0_Sf7ElementRtzSfAJRt_SfAJRt0_r1_lFZySrySfGz_SiztXEfU_TATm
+- _$s10Accelerate6vForceO8copysign10magnitudes5signsSaySfGx_q_tAA0A6BufferRzAA0a7MutableF0R_Sf7ElementRtzSfAJRt_r0_lFZySrySfGz_SiztXEfU_TATm
+- _$s10Accelerate6vImageO11PixelBufferVy_AC07DynamicC6FormatVGMD
+- _$s10Accelerate6vImageO11PixelBufferVy_AC7Planar8VGMD
+- _$s10Accelerate6vImageO11PixelBufferVy_AC7PlanarFVGMD
+- _$s10Accelerate6vImageO11PixelBufferVy_AC9Planar16UVGMD
+- _$s10Accelerate6vImageO19ConvolutionKernel2DVy_s5Int16VGMD
+- _$s10Accelerate6vImageO19ConvolutionKernel2DVy_s5Int16VG_A3HtMD
+- _$s10Accelerate9BNNSGraphO7BuilderV10SliceIndex_pMD
+- _$sSNySiGMD
+- _$sSPys4Int8VGSgMD
+- _$sSay10Accelerate4BNNSO10DataLayoutOGMD
+- _$sSay10Accelerate4BNNSO23ArithmeticUnaryFunctionOGMD
+- _$sSay10Accelerate4BNNSO24ArithmeticBinaryFunctionOGMD
+- _$sSay10Accelerate4vDSPO16DCTTransformTypeOGMD
+- _$sSay10Accelerate6vImageO13BufferWrapperVGMD
+- _$sSaySuGMD
+- _$sSays5Int16VGMD
+- _$sSfSgMD
+- _$sSnySiGMD
+- _$sSnySuGMD
+- _$sSrySdGMD
+- _$sSrySfGMD
+- _$sSrySo10DSPComplexVGMD
+- _$sSrySo16DSPDoubleComplexVGMD
+- _$sSrys4Int8VGMD
+- _$sSrys5Int16VGMD
+- _$sSrys5Int32VGMD
+- _$sSrys5UInt8VGMD
+- _$sSrys6UInt16VGMD
+- _$sSrys6UInt32VGMD
+- _$sSrys7Float16VGMD
+- _$ss11_SetStorageCySiGMD
+- _$ss11_SetStorageCySuGMD
+- _$ss13OpaquePointerVSgMD
+- _$ss16PartialRangeFromVySiGMD
+- _$ss16PartialRangeUpToVySiGMD
+- _$ss19PartialRangeThroughVySiGMD
+- _$ss23_ContiguousArrayStorageCy10Accelerate42FusableLayerParametersWrapperDeallocatable_pSgGMD
+- _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO10BufferTypeOGMD
+- _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO10BufferTypeOSgGMD
+- _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO11PixelBufferVy_AE07DynamicF6FormatVGGMD
+- _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO11PixelBufferVy_AE7Planar8VGGMD
+- _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO11PixelBufferVy_AE7PlanarFVGGMD
+- _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO11PixelBufferVy_AE9Planar16UVGGMD
+- _$ss23_ContiguousArrayStorageCy10Accelerate6vImageO13BufferWrapperVGMD
+- _$ss23_ContiguousArrayStorageCy10Accelerate9BNNSGraphO5ShapeVGMD
+- _$ss23_ContiguousArrayStorageCySPySfGSgGMD
+- _$ss23_ContiguousArrayStorageCySPySo13vImage_BufferVGSgGMD
+- _$ss23_ContiguousArrayStorageCySPySo21BNNSNDArrayDescriptoraGGMD
+- _$ss23_ContiguousArrayStorageCySPySuGSgGMD
+- _$ss23_ContiguousArrayStorageCySPys4Int8VGSgGMD
+- _$ss23_ContiguousArrayStorageCySSGMD
+- _$ss23_ContiguousArrayStorageCySVGMD
+- _$ss23_ContiguousArrayStorageCySVSgGMD
+- _$ss23_ContiguousArrayStorageCySaySuGGMD
+- _$ss23_ContiguousArrayStorageCySays5Int16VGGMD
+- _$ss23_ContiguousArrayStorageCySdGMD
+- _$ss23_ContiguousArrayStorageCySfGMD
+- _$ss23_ContiguousArrayStorageCySi1x_Si1ytGMD
+- _$ss23_ContiguousArrayStorageCySiGMD
+- _$ss23_ContiguousArrayStorageCySo10BNNSTensoraGMD
+- _$ss23_ContiguousArrayStorageCySo10DSPComplexVGMD
+- _$ss23_ContiguousArrayStorageCySo13vImage_BufferVGMD
+- _$ss23_ContiguousArrayStorageCySo14BNNSFilterTypeaGMD
+- _$ss23_ContiguousArrayStorageCySo16DSPDoubleComplexVGMD
+- _$ss23_ContiguousArrayStorageCySo18bnns_graph_shape_taGMD
+- _$ss23_ContiguousArrayStorageCySo21bnns_graph_argument_taGMD
+- _$ss23_ContiguousArrayStorageCySpySo21BNNSNDArrayDescriptoraGGMD
+- _$ss23_ContiguousArrayStorageCySpySo21BNNSNDArrayDescriptoraGSgGMD
+- _$ss23_ContiguousArrayStorageCySpySuGSgGMD
+- _$ss23_ContiguousArrayStorageCySuGMD
+- _$ss23_ContiguousArrayStorageCySvGMD
+- _$ss23_ContiguousArrayStorageCys5Int16VGMD
+- _$ss23_ContiguousArrayStorageCys5Int32VGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss23_ContiguousArrayStorageCys6UInt16VGMD
+- _$ss23_ContiguousArrayStorageCys6UInt32VGMD
+- _$ss23_ContiguousArrayStorageCys6UInt64VGMD
+- _$ss23_ContiguousArrayStorageCys7Float16VGMD
+- _$ss23_ContiguousArrayStorageCyyXlGMD
+- _$ss5Error_pMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+
+```

@@ -1,0 +1,196 @@
+## SiriGeo
+
+> `/System/Library/PrivateFrameworks/SiriGeo.framework/SiriGeo`
+
+```diff
+
+ 3500.8.1.0.0
+-  __TEXT.__text: 0x1aff8
++  __TEXT.__text: 0x1b40c
+   __TEXT.__auth_stubs: 0x1170
+   __TEXT.__objc_methlist: 0x3fc
+-  __TEXT.__const: 0xda8
++  __TEXT.__const: 0xef0
+   __TEXT.__cstring: 0xe71
+   __TEXT.__swift5_typeref: 0x80e
+   __TEXT.__constg_swiftt: 0x528
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0A8686A9-813E-31F1-985F-0124CA83EC2D
++  UUID: 72752DCE-20A4-313B-B6E2-656877C4D7EC
+   Functions: 604
+-  Symbols:   2277
++  Symbols:   2309
+   CStrings:  354
+ 
+Symbols:
++ _$s10Foundation20PersonNameComponentsVSgMR
++ _$s10Foundation20PersonNameComponentsVSgMd
++ _$s10PegasusAPI026Apple_Parsec_Siri_V2alpha_E14CommandBuilderV06OneOf_egH6ParamsOSgMR
++ _$s10PegasusAPI026Apple_Parsec_Siri_V2alpha_E14CommandBuilderV06OneOf_egH6ParamsOSgMd
++ _$s12SiriNLUTypes0A22_Nlu_External_UsoGraphVSgMR
++ _$s12SiriNLUTypes0A22_Nlu_External_UsoGraphVSgMd
++ _$s12SiriNLUTypes0A33_Nlu_External_UsoEntityIdentifierVSgMR
++ _$s12SiriNLUTypes0A33_Nlu_External_UsoEntityIdentifierVSgMd
++ _$s12SiriOntology17UsoBuilderOptionsVSgMR
++ _$s12SiriOntology17UsoBuilderOptionsVSgMd
++ _$s13SiriInference12ContactQueryVSgMR
++ _$s13SiriInference12ContactQueryVSgMd
++ _$s13SiriInference13ContactHandleV0D4TypeOSgMR
++ _$s13SiriInference13ContactHandleV0D4TypeOSgMd
++ _$s13SiriInference13ContactHandleV0D4TypeOSg_AFtMR
++ _$s13SiriInference13ContactHandleV0D4TypeOSg_AFtMd
++ _$s13SiriInference24ContactRelationshipQueryVSgMR
++ _$s13SiriInference24ContactRelationshipQueryVSgMd
++ _$sSDySSSo8NSNumberCGSgMR
++ _$sSDySSSo8NSNumberCGSgMd
++ _$sSSSgMR
++ _$sSSSgMd
++ _$sSay7SiriGeo28EnhancedMSPSharedTripContactVGMR
++ _$sSay7SiriGeo28EnhancedMSPSharedTripContactVGMd
++ _$sSaySSGMR
++ _$sSaySSGMd
++ _$sSaySo20MSPSharedTripContactCGMR
++ _$sSaySo20MSPSharedTripContactCGMd
++ _$sSaySo9CNContactCGMR
++ _$sSaySo9CNContactCGMd
++ _$sScPSgMR
++ _$sScPSgMd
++ _$sSccySaySo11CLPlacemarkCGs5Error_pGMR
++ _$sSccySaySo11CLPlacemarkCGs5Error_pGMd
++ _$sSccySo10CLLocationCs5Error_pGMR
++ _$sSccySo10CLLocationCs5Error_pGMd
++ _$sSccySo28AFLocationAuthorizationStyleV_So010CLAccuracyB0Vts5Error_pGMR
++ _$sSccySo28AFLocationAuthorizationStyleV_So010CLAccuracyB0Vts5Error_pGMd
++ _$sSo14CNLabeledValueCMR
++ _$sSo14CNLabeledValueCMd
++ _$sSo15CNKeyDescriptor_pMR
++ _$sSo15CNKeyDescriptor_pMd
++ _$sSo19INPersonHandleLabela_SStMR
++ _$sSo19INPersonHandleLabela_SStMd
++ _$sSo8NSObjectCSgMR
++ _$sSo8NSObjectCSgMd
++ _$ss18_DictionaryStorageCySo19INPersonHandleLabelaSSGMR
++ _$ss18_DictionaryStorageCySo19INPersonHandleLabelaSSGMd
++ _$ss23_ContiguousArrayStorageCy7SiriGeo28EnhancedMSPSharedTripContactVGMR
++ _$ss23_ContiguousArrayStorageCy7SiriGeo28EnhancedMSPSharedTripContactVGMd
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss23_ContiguousArrayStorageCySnySiGGMR
++ _$ss23_ContiguousArrayStorageCySnySiGGMd
++ _$ss23_ContiguousArrayStorageCySo19INPersonHandleLabela_SStGMR
++ _$ss23_ContiguousArrayStorageCySo19INPersonHandleLabela_SStGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMR
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMd
++ _$ss23_ContiguousArrayStorageCyyXlGMR
++ _$ss23_ContiguousArrayStorageCyyXlGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10Foundation20PersonNameComponentsVSgMD
+- _$s10PegasusAPI026Apple_Parsec_Siri_V2alpha_E14CommandBuilderV06OneOf_egH6ParamsOSgMD
+- _$s12SiriNLUTypes0A22_Nlu_External_UsoGraphVSgMD
+- _$s12SiriNLUTypes0A33_Nlu_External_UsoEntityIdentifierVSgMD
+- _$s12SiriOntology17UsoBuilderOptionsVSgMD
+- _$s13SiriInference12ContactQueryVSgMD
+- _$s13SiriInference13ContactHandleV0D4TypeOSgMD
+- _$s13SiriInference13ContactHandleV0D4TypeOSg_AFtMD
+- _$s13SiriInference24ContactRelationshipQueryVSgMD
+- _$sSDySSSo8NSNumberCGSgMD
+- _$sSSSgMD
+- _$sSay7SiriGeo28EnhancedMSPSharedTripContactVGMD
+- _$sSaySSGMD
+- _$sSaySo20MSPSharedTripContactCGMD
+- _$sSaySo9CNContactCGMD
+- _$sScPSgMD
+- _$sSccySaySo11CLPlacemarkCGs5Error_pGMD
+- _$sSccySo10CLLocationCs5Error_pGMD
+- _$sSccySo28AFLocationAuthorizationStyleV_So010CLAccuracyB0Vts5Error_pGMD
+- _$sSo14CNLabeledValueCMD
+- _$sSo15CNKeyDescriptor_pMD
+- _$sSo19INPersonHandleLabela_SStMD
+- _$sSo8NSObjectCSgMD
+- _$ss18_DictionaryStorageCySo19INPersonHandleLabelaSSGMD
+- _$ss23_ContiguousArrayStorageCy7SiriGeo28EnhancedMSPSharedTripContactVGMD
+- _$ss23_ContiguousArrayStorageCySSGMD
+- _$ss23_ContiguousArrayStorageCySnySiGGMD
+- _$ss23_ContiguousArrayStorageCySo19INPersonHandleLabela_SStGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss23_ContiguousArrayStorageCys7CVarArg_pGMD
+- _$ss23_ContiguousArrayStorageCyyXlGMD
+- _$ss5Error_pMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+Functions:
+~ _$sSo8INPersonC7SiriGeoE20hasUsefulHandleValueSbvg : 1304 -> 1384
+~ ___swift_instantiateConcreteTypeFromMangledName -> ___swift_instantiateConcreteTypeFromMangledNameV2 : 76 -> 72
+~ _$s13SiriInference13ContactHandleV0D4TypeOSgWOc : 104 -> 112
+~ _$sSo8NSObjectCSgWOhTm : 92 -> 96
+~ _$sSo8INPersonC7SiriGeoE014toContactQueryC00B9Inference0eF0VyF : 1008 -> 1016
+~ _$sSo14INPersonHandleC7SiriGeoE8labelMap33_9DB4AC8F73631DFF2C0E204B7945E2FBLL_WZ : 572 -> 588
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo19INPersonHandleLabela_SSTt0g5Tf4g_n : 248 -> 256
+~ _$s7SiriGeo36INDeleteParkingLocationIntentHandlerC6handle6intent10completionySo0cdeF0C_ySo0cdeF8ResponseCctFySaySo14RTVehicleEventCGSg_s5Error_pSgtcfU_ : 1400 -> 1416
+~ _$s7SiriGeo14ContactServiceC05fetchC3IDs14forIdentifiersSaySo9CNContactCGSgSaySSG_tF : 444 -> 460
+~ _$s7SiriGeo14ContactServiceC18fetchPersonHandles14forIdentifiersSaySo14INPersonHandleCGSg_AA0cD5ErrorOSgtSaySSG_tF : 1604 -> 1644
+~ _$s7SiriGeo14ContactServiceC015fetchSingleTripC09recipientSaySo09MSPSharedgC0CGSg_So39INStopShareETARecipientResolutionResultCtSo8INPersonC_tF : 1440 -> 1472
+~ _$s7SiriGeo14ContactServiceC30rankAndSortHandlesByPopularity15forHandleValuesSayAA021EnhancedMSPSharedTripC0VGAH_tF : 1952 -> 1984
+~ _$s7SiriGeo14ContactServiceC030rankAndSortHandlesByPopularityF4Type15forHandleValues_ySaySSG_ySayAA021EnhancedMSPSharedTripC0VGctFyAISg_s5Error_pSgtcfU_ : 452 -> 460
+~ ___swift_instantiateConcreteTypeFromMangledNameAbstract -> ___swift_instantiateConcreteTypeFromMangledNameAbstractV2 : 80 -> 72
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 268
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tgq5 : 252 -> 260
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7SiriGeo28EnhancedMSPSharedTripContactV_Tg5 : 280 -> 288
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 108 -> 116
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5 : 236 -> 244
+~ _$sSaySo9CNContactCGSayxGs7CVarArg10FoundationWlTm : 80 -> 84
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7SiriGeo28EnhancedMSPSharedTripContactV_Tg5 : 280 -> 288
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 268
+~ _$s7SiriGeo11MapsServiceC25CapabilityFetcherObserverC17fetchCapabilitiesyySaySo20MSPSharedTripContactCG_ySayAA08EnhancedjkL0VGctF : 1948 -> 1972
+~ _$s7SiriGeo11MapsServiceC25CapabilityFetcherObserverC25capabilityLevelsDidUpdateyyF : 1604 -> 1644
+~ _$s7SiriGeo11MapsServiceC17fetchCapabilities3for_ySaySSG_ySayAA28EnhancedMSPSharedTripContactVGSg_s5Error_pSgtctF : 1044 -> 1068
+~ _$sSo8NSObjectCSgWOh : 96 -> 104
+~ _$s12SiriNLUTypes0A22_Nlu_External_UsoGraphVSgWOc : 104 -> 112
+~ _$s12SiriNLUTypes0A28_Nlu_External_UserStatedTaskV0A3GeoE4fromyAC0A8Ontology03UsoG7BuilderCFZ : 932 -> 992
+~ _$s12SiriNLUTypes0A27_Nlu_External_UserDialogActV0A3GeoE4fromyAC0A8Ontology5GraphCFZ : 1012 -> 1052
+~ _$s12SiriNLUTypes0A28_Nlu_External_UserStatedTaskV0A3GeoEyAcA0a1_c1_D9_UsoGraphVSgcfC : 496 -> 524
+~ _$s12SiriNLUTypes0A27_Nlu_External_UserDialogActV0A3GeoE9contactIdSSSgvg : 1360 -> 1372
+~ _$s12SiriNLUTypes0A28_Nlu_External_SystemPromptedV0A3GeoE4fromyAC0A8Ontology14UsoTaskBuilderCFZTm : 936 -> 1004
+~ _$s7SiriGeo23INShareETAIntentHandlerC17resolveRecipients3for4withySo0cD0C_ySaySo0C28ETARecipientResolutionResultCGctF : 704 -> 712
+~ _$s7SiriGeo23INShareETAIntentHandlerC17resolveRecipients3for4withySo0cD0C_ySaySo0C28ETARecipientResolutionResultCGctFySo20MSPSharedTripServiceCcfU_ : 244 -> 252
+~ _$s7SiriGeo23INShareETAIntentHandlerC28resolveRecipientsInsideBlock33_73890AA4F3C712AED7434AA5E49C1938LL3for4withySo0cD0C_ySaySo0C28ETARecipientResolutionResultCGctF : 3296 -> 3336
+~ _$s7SiriGeo23INShareETAIntentHandlerC28resolveRecipientsInsideBlock33_73890AA4F3C712AED7434AA5E49C1938LL3for4withySo0cD0C_ySaySo0C28ETARecipientResolutionResultCGctFySayAA28EnhancedMSPSharedTripContactVGcfU0_ : 2868 -> 2908
+~ _$s7SiriGeo23INShareETAIntentHandlerC7confirm6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ : 412 -> 420
+~ _$s7SiriGeo23INShareETAIntentHandlerC7confirm6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySb_SSSgs5Error_pSgtYbcfU_ : 748 -> 756
+~ _$s7SiriGeo23INShareETAIntentHandlerC14handleShareETA33_73890AA4F3C712AED7434AA5E49C1938LL6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ : 1156 -> 1164
+~ _$s7SiriGeo23INShareETAIntentHandlerC14handleShareETA33_73890AA4F3C712AED7434AA5E49C1938LL6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySb_SSSgs5Error_pSgtYbcfU_yAPYbcfU_ : 248 -> 256
+~ _$s7SiriGeo23INShareETAIntentHandlerC14handleShareETA33_73890AA4F3C712AED7434AA5E49C1938LL6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySo0sT14CapabilityTypeV_s5Error_pSgtYbcfU0_ : 1176 -> 1184
+~ _$s7SiriGeo23INShareETAIntentHandlerC17resolveRecipients3for4withySo0cD0C_ySaySo0C28ETARecipientResolutionResultCGctF026$sSo7NSArrayCIeyBy_SaySo35cjkL9CGIegg_TRSo0O0CIeyBy_Tf1ncn_nTf4nng_n : 824 -> 832
+~ _$s7SiriGeo23INShareETAIntentHandlerC29phoneDisambiguationCandidates33_73890AA4F3C712AED7434AA5E49C1938LLySb_SayAA28EnhancedMSPSharedTripContactVGtAHFTf4nd_n : 576 -> 592
+~ _$s7SiriGeo27INStopShareETAIntentHandlerC17resolveRecipients3for4withySo0cdE0C_ySaySo0cD28ETARecipientResolutionResultCGctF : 540 -> 548
+~ _$s7SiriGeo27INStopShareETAIntentHandlerC28resolveRecipientsInsideBlock33_3A0DEC3189633C5DAEB81D22DCD1F847LL3for10sharedTrip4withySo0cdE0C_So09MSPSharedT7ServiceCySaySo0cD28ETARecipientResolutionResultCGctF : 1900 -> 1924
+~ _$s7SiriGeo27INStopShareETAIntentHandlerC04stopD16ETAErrorHandling33_3A0DEC3189633C5DAEB81D22DCD1F847LL_10completionySo7NSErrorC_ySo0cdE8ResponseCctF : 368 -> 376
+~ _$s7SiriGeo27INStopShareETAIntentHandlerC17resolveRecipients3for4withySo0cdE0C_ySaySo0cD28ETARecipientResolutionResultCGctF026$sSo7NSArrayCIeyBy_SaySo39cdklM9CGIegg_TRSo0P0CIeyBy_Tf1ncn_nTf4nng_n : 668 -> 676
+~ _$s7SiriGeo38INRetrieveParkingLocationIntentHandlerC6handle6intent10completionySo0cdeF0C_ySo0cdeF8ResponseCctFySaySo14RTVehicleEventCGSg_s5Error_pSgtcfU_ : 1900 -> 1916
+~ _$s7SiriGeo38INRetrieveParkingLocationIntentHandlerC6handle6intent10completionySo0cdeF0C_ySo0cdeF8ResponseCctFySaySo14RTVehicleEventCGSg_s5Error_pSgtcfU_ySaySo11CLPlacemarkCGSg_APtYbcfU_ : 888 -> 896
+~ _$s7SiriGeo0aB16CommandConverterO09convertToaC07commandSaySo017SABaseClientBoundC0CG10PegasusAPI013Apple_Parsec_a9_V2alpha_aC7BuilderV_tFZ : 1824 -> 1856
+~ _$s7SiriGeo0aB16CommandConverterO09convertToA7Snippet7snippetSo020SALocalSearchMapItemG0CSg10PegasusAPI013Apple_Parsec_A31_V2alpha_PerResultLayoutDetailsV06OneOf_G0O_tFZ : 1804 -> 1812
+~ _$s10PegasusAPI026Apple_Parsec_Siri_V2alpha_E14CommandBuilderV06OneOf_egH6ParamsOSgWOc : 104 -> 112
+~ _$s7SiriGeo0aB16CommandConverterO20convertShowMapPoints33_74A30C56706C263703EBF4E00CA6F565LLySaySo017SABaseClientBoundC0CG10PegasusAPI013Apple_Parsec_a9_V2alpha_fgH13BuilderParamsVFZTf4nd_n : 576 -> 584
+~ _$s7SiriGeo0aB16CommandConverterO29convertRecordLocationActivity33_74A30C56706C263703EBF4E00CA6F565LLySaySo017SABaseClientBoundC0CG10PegasusAPI013Apple_Parsec_a9_V2alpha_fgH13BuilderParamsVFZTf4nd_n : 708 -> 716
+~ _$s7SiriGeo34INSaveParkingLocationIntentHandlerC07resolvedE03forSo27INPlacemarkResolutionResultCSo0cdeF0C_tYaFTY0_ : 1096 -> 1112
+~ _$s7SiriGeo34INSaveParkingLocationIntentHandlerC07resolvedE03forSo27INPlacemarkResolutionResultCSo0cdeF0C_tYaFTY2_ : 484 -> 492
+~ _$s7SiriGeo34INSaveParkingLocationIntentHandlerC07resolvedE03forSo27INPlacemarkResolutionResultCSo0cdeF0C_tYaFTY4_ : 684 -> 700
+~ _$s7SiriGeo34INSaveParkingLocationIntentHandlerC07resolvedE03forSo27INPlacemarkResolutionResultCSo0cdeF0C_tYaFTY8_ : 596 -> 604
+~ _$sSo28AFLocationAuthorizationStyleVSo010CLAccuracyB0VSo7NSErrorCSgIeyBhyyy_AB_ADtTz_ : 200 -> 208
+~ _$sSo10CLLocationCSgSo7NSErrorCSgIeyBhyy_ABTz_ : 208 -> 216
+~ _$sSo7NSArrayCSgSo7NSErrorCSgIeyBhyy_SaySo11CLPlacemarkCGTz_ : 232 -> 240
+~ _$s7SiriGeo34INSaveParkingLocationIntentHandlerC07resolvedE03forSo27INPlacemarkResolutionResultCSo0cdeF0C_tYaFTo : 388 -> 392
+~ _$s7SiriGeo34INSaveParkingLocationIntentHandlerC6handle6intent10completionySo0cdeF0C_ySo0cdeF8ResponseCctFySaySo14RTVehicleEventCGSg_s5Error_pSgtcfU_ : 1980 -> 1988
+~ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2gq5 : 720 -> 748
+~ _$sScPSgWOc : 104 -> 112
+
+```

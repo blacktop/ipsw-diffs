@@ -1,0 +1,83 @@
+## meshnetd
+
+> `/usr/libexec/meshnetd`
+
+```diff
+
+ 222.0.0.0.0
+-  __TEXT.__text: 0x4e5c
++  __TEXT.__text: 0x4eac
+   __TEXT.__auth_stubs: 0x740
+   __TEXT.__init_offsets: 0x4
+-  __TEXT.__const: 0x65a
++  __TEXT.__const: 0x6c8
+   __TEXT.__gcc_except_tab: 0x190
+   __TEXT.__cstring: 0x12c
+   __TEXT.__oslogstring: 0x3ee
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8B54266C-9F72-3F33-ACA8-D14E7712C6E0
++  UUID: 81EBE15C-9853-30E4-B7D6-84FCDB584BAF
+   Functions: 197
+-  Symbols:   1548
++  Symbols:   1572
+   CStrings:  30
+ 
+Symbols:
++ _$s3XPC16XPCCodableObjectVSgMR
++ _$s3XPC16XPCCodableObjectVSgMd
++ _$sSo8NSObjectCSgMR
++ _$sSo8NSObjectCSgMd
++ _$ss22KeyedDecodingContainerVy8meshnetd18MeshNetworkRequestO10CodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMR
++ _$ss22KeyedDecodingContainerVy8meshnetd18MeshNetworkRequestO10CodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMd
++ _$ss22KeyedDecodingContainerVy8meshnetd18MeshNetworkRequestO23ConnectToPeerCodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMR
++ _$ss22KeyedDecodingContainerVy8meshnetd18MeshNetworkRequestO23ConnectToPeerCodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMd
++ _$ss22KeyedDecodingContainerVy8meshnetd18MeshNetworkRequestO29ListenForConnectionCodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMR
++ _$ss22KeyedDecodingContainerVy8meshnetd18MeshNetworkRequestO29ListenForConnectionCodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMd
++ _$ss22KeyedDecodingContainerVy8meshnetd19MeshNetworkResponseV10CodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMR
++ _$ss22KeyedDecodingContainerVy8meshnetd19MeshNetworkResponseV10CodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMd
++ _$ss22KeyedEncodingContainerVy8meshnetd18MeshNetworkRequestO10CodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMR
++ _$ss22KeyedEncodingContainerVy8meshnetd18MeshNetworkRequestO10CodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMd
++ _$ss22KeyedEncodingContainerVy8meshnetd18MeshNetworkRequestO23ConnectToPeerCodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMR
++ _$ss22KeyedEncodingContainerVy8meshnetd18MeshNetworkRequestO23ConnectToPeerCodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMd
++ _$ss22KeyedEncodingContainerVy8meshnetd18MeshNetworkRequestO29ListenForConnectionCodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMR
++ _$ss22KeyedEncodingContainerVy8meshnetd18MeshNetworkRequestO29ListenForConnectionCodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMd
++ _$ss22KeyedEncodingContainerVy8meshnetd19MeshNetworkResponseV10CodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMR
++ _$ss22KeyedEncodingContainerVy8meshnetd19MeshNetworkResponseV10CodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$sypXmT_s13DecodingErrorO7ContextVtMR
++ _$sypXmT_s13DecodingErrorO7ContextVtMd
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s3XPC16XPCCodableObjectVSgMD
+- _$sSo8NSObjectCSgMD
+- _$ss22KeyedDecodingContainerVy8meshnetd18MeshNetworkRequestO10CodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMD
+- _$ss22KeyedDecodingContainerVy8meshnetd18MeshNetworkRequestO23ConnectToPeerCodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMD
+- _$ss22KeyedDecodingContainerVy8meshnetd18MeshNetworkRequestO29ListenForConnectionCodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMD
+- _$ss22KeyedDecodingContainerVy8meshnetd19MeshNetworkResponseV10CodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMD
+- _$ss22KeyedEncodingContainerVy8meshnetd18MeshNetworkRequestO10CodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMD
+- _$ss22KeyedEncodingContainerVy8meshnetd18MeshNetworkRequestO23ConnectToPeerCodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMD
+- _$ss22KeyedEncodingContainerVy8meshnetd18MeshNetworkRequestO29ListenForConnectionCodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMD
+- _$ss22KeyedEncodingContainerVy8meshnetd19MeshNetworkResponseV10CodingKeys33_3AF91F5DEDEF9CA48455540729921991LLOGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$sypXmT_s13DecodingErrorO7ContextVtMD
+- ___swift_instantiateConcreteTypeFromMangledName
+Functions:
+~ _$s8meshnetd19MeshNetworkResponseV4from6socketACs5Int32V_tFZ : 448 -> 452
+~ _$s8meshnetd18MeshNetworkServiceC7handlerV21handleIncomingRequestySE_pSg3XPC18XPCReceivedMessageVF : 2208 -> 2212
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 108 -> 116
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5 : 236 -> 244
+~ _$sSo8NSObjectCSgWOh : 96 -> 104
+~ ___swift_instantiateConcreteTypeFromMangledName -> ___swift_instantiateConcreteTypeFromMangledNameV2 : 76 -> 72
+~ _$s3XPC16XPCCodableObjectVSgWOd : 104 -> 112
+~ _$s8meshnetd18MeshNetworkRequestO6encode2toys7Encoder_p_tKF : 748 -> 760
+~ _$s8meshnetd19MeshNetworkResponseV6encode2toys7Encoder_p_tKF : 420 -> 424
+~ _$s8meshnetd19MeshNetworkResponseV4fromACs7Decoder_p_tKcfC : 744 -> 728
+~ _$s8meshnetd18MeshNetworkRequestO4fromACs7Decoder_p_tKcfCTf4nd_n : 1188 -> 1208
+~ _$s3XPC16XPCCodableObjectVSgWOc : 104 -> 112
+~ sub_100005068 -> sub_1000050a8 : 208 -> 216
+~ sub_10000514c -> sub_100005194 : 192 -> 200
+
+```

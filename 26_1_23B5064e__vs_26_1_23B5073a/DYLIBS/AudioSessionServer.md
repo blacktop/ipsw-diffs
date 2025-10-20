@@ -1,0 +1,185 @@
+## AudioSessionServer
+
+> `/System/Library/PrivateFrameworks/AudioSessionServer.framework/AudioSessionServer`
+
+```diff
+
+-398.208.0.0.0
+-  __TEXT.__text: 0x72dc0
+-  __TEXT.__auth_stubs: 0x1130
+-  __TEXT.__objc_methlist: 0xc28
+-  __TEXT.__gcc_except_tab: 0xad18
+-  __TEXT.__const: 0xc30
+-  __TEXT.__cstring: 0x507b
+-  __TEXT.__oslogstring: 0x4ea8
++398.209.0.0.0
++  __TEXT.__text: 0x72ee4
++  __TEXT.__auth_stubs: 0x1140
++  __TEXT.__objc_methlist: 0xc08
++  __TEXT.__gcc_except_tab: 0xad1c
++  __TEXT.__const: 0xc20
++  __TEXT.__cstring: 0x508f
++  __TEXT.__oslogstring: 0x4fe5
+   __TEXT.__dlopen_cstrs: 0x5a
+-  __TEXT.__unwind_info: 0x2d88
++  __TEXT.__unwind_info: 0x2d68
+   __TEXT.__objc_classname: 0x178
+-  __TEXT.__objc_methname: 0x1d66
+-  __TEXT.__objc_methtype: 0x254f
++  __TEXT.__objc_methname: 0x1d4d
++  __TEXT.__objc_methtype: 0x2544
+   __TEXT.__objc_stubs: 0xf80
+-  __DATA_CONST.__got: 0x4d0
++  __DATA_CONST.__got: 0x4c0
+   __DATA_CONST.__const: 0x5e0
+   __DATA_CONST.__objc_classlist: 0x38
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x7a8
++  __DATA_CONST.__objc_selrefs: 0x7a0
+   __DATA_CONST.__objc_superrefs: 0x30
+-  __AUTH_CONST.__auth_got: 0x8a8
+-  __AUTH_CONST.__const: 0x10d0
++  __AUTH_CONST.__auth_got: 0x8b0
++  __AUTH_CONST.__const: 0x10a0
+   __AUTH_CONST.__cfstring: 0xf20
+-  __AUTH_CONST.__objc_const: 0xd10
++  __AUTH_CONST.__objc_const: 0xd08
+   __AUTH_CONST.__objc_intobj: 0xf0
+   __AUTH.__objc_data: 0x50
+   __AUTH.__data: 0x10
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 93A3CDE7-B8EB-3F6C-B69E-50BC600E4C5C
+-  Functions: 1669
+-  Symbols:   5784
+-  CStrings:  1590
++  UUID: 1D0C8C6C-2C41-3061-A1A8-3F342E24D7A9
++  Functions: 1661
++  Symbols:   5764
++  CStrings:  1594
+ 
+Symbols:
++ GCC_except_table111
++ GCC_except_table120
++ GCC_except_table127
++ GCC_except_table128
++ GCC_except_table131
++ GCC_except_table160
++ GCC_except_table162
++ GCC_except_table163
++ GCC_except_table228
++ GCC_except_table234
++ GCC_except_table235
++ GCC_except_table238
++ _AudioObjectHasProperty
++ __ZN4avas6server18DeviceTimeObserver10DeviceSlot20timestampWriterBTPtsEv
++ __ZN4avas6server18DeviceTimeObserver10DeviceSlot22updateMinimalTimestampERNS_16MinimalTimeStampENSt3__110shared_ptrINS1_8TimeInfoEEEyyybd
++ __ZN4avas6server18DeviceTimeObserver10DeviceSlot22updateMinimalTimestampERNS_16MinimalTimeStampENSt3__110shared_ptrINS1_8TimeInfoEEEyyybd.cold.1
++ __ZN4avas6server18DeviceTimeObserver10DeviceSlot22updateMinimalTimestampERNS_16MinimalTimeStampENSt3__110shared_ptrINS1_8TimeInfoEEEyyybd.cold.2
++ __ZN4avas6server18DeviceTimeObserver12createDeviceENS1_9DeviceKeyEyb
++ __ZN4avas6server18DeviceTimeObserver12createDeviceENS1_9DeviceKeyEyb.cold.1
++ __ZN4avas6server18DeviceTimeObserver28DeviceSupportsDynamicLatencyEj
++ __ZN4avas6server18DeviceTimeObserver28sessionsObservingDeviceEventEj24AVAudioIOControllerEventb
++ __ZN4avas6server22BTPresentationTimePoll4Impl5startEv
++ __ZN4avas6server22BTPresentationTimePoll4Impl7processEv
++ __ZN4avas6server22BTPresentationTimePoll4stopEv
++ __ZN4avas6server22BTPresentationTimePoll5startEv
++ __ZN4avas6server22BTPresentationTimePoll8dispatchENSt3__18weak_ptrINS1_4ImplEEEj
++ __ZN4avas6server22BTPresentationTimePollC1EjU13block_pointerFvPK23BTAudioPresentationTimeE
++ __ZN4avas6server22BTPresentationTimePollC2EjU13block_pointerFvPK23BTAudioPresentationTimeE
++ __ZNKSt3__114default_deleteIN4avas6server22BTPresentationTimePollEEclB8ne200100EPS3_
++ __ZNSt3__110shared_ptrIN4avas6server22BTPresentationTimePoll4ImplEE18__enable_weak_thisB8ne200100IS4_S4_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__112__destroy_atB8ne200100IN4avas6server22BTPresentationTimePoll4ImplELi0EEEvPT_
++ __ZNSt3__115allocate_sharedB8ne200100IN4avas6server22BTPresentationTimePoll4ImplENS_9allocatorIS4_EEJRjRU8__strongU13block_pointerFvPK23BTAudioPresentationTimeEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6server22BTPresentationTimePoll4ImplENS_9allocatorIS4_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6server22BTPresentationTimePoll4ImplENS_9allocatorIS4_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6server22BTPresentationTimePoll4ImplENS_9allocatorIS4_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6server22BTPresentationTimePoll4ImplENS_9allocatorIS4_EEED1Ev
++ __ZTVNSt3__120__shared_ptr_emplaceIN4avas6server22BTPresentationTimePoll4ImplENS_9allocatorIS4_EEEE
++ ____ZN4avas6server18DeviceTimeObserver10DeviceSlot20timestampWriterBTPtsEv_block_invoke
++ ____ZN4avas6server22BTPresentationTimePoll8dispatchENSt3__18weak_ptrINS1_4ImplEEEj_block_invoke
++ ___block_descriptor_48_ea8_32c66_ZTSNSt3__18weak_ptrIN4avas6server22BTPresentationTimePoll4ImplEEE_e5_v8?0l
++ ___block_descriptor_56_ea8_32c69_ZTSNSt3__110shared_ptrIN4avas6server18DeviceTimeObserver8TimeInfoEEE_e53_v16?0r^{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}8l
++ ___block_descriptor_60_ea8_32c69_ZTSNSt3__110shared_ptrIN4avas6server18DeviceTimeObserver8TimeInfoEEE_e18_v16?0r^{?=Qdddd}8l
++ ___copy_helper_block_ea8_32c66_ZTSNSt3__18weak_ptrIN4avas6server22BTPresentationTimePoll4ImplEEE
++ ___copy_helper_block_ea8_32c69_ZTSNSt3__110shared_ptrIN4avas6server18DeviceTimeObserver8TimeInfoEEE
++ ___destroy_helper_block_ea8_32c66_ZTSNSt3__18weak_ptrIN4avas6server22BTPresentationTimePoll4ImplEEE
++ ___destroy_helper_block_ea8_32c69_ZTSNSt3__110shared_ptrIN4avas6server18DeviceTimeObserver8TimeInfoEEE
+- -[AVAudioSessionServerPriv(ServerProtocol) dynamicLatencyForDevice:]
+- GCC_except_table103
+- GCC_except_table115
+- GCC_except_table132
+- GCC_except_table149
+- GCC_except_table223
+- GCC_except_table224
+- GCC_except_table225
+- GCC_except_table227
+- GCC_except_table231
+- GCC_except_table79
+- GCC_except_table98
+- __ZN4avas6server17DeviceLatencyPoll4Impl10getLatencyEv
+- __ZN4avas6server17DeviceLatencyPoll4Impl7processEv
+- __ZN4avas6server17DeviceLatencyPoll4ImplC2EjNSt3__18functionIFvyEEE
+- __ZN4avas6server17DeviceLatencyPoll8dispatchENSt3__18weak_ptrINS1_4ImplEEENS1_9ELoopModeE
+- __ZN4avas6server17DeviceLatencyPollC1EjNSt3__18functionIFvyEEE
+- __ZN4avas6server17DeviceLatencyPollC2EjNSt3__18functionIFvyEEE
+- __ZN4avas6server18DeviceTimeObserver12createDeviceENS1_9DeviceKeyEy
+- __ZN4avas6server18DeviceTimeObserver12createDeviceENS1_9DeviceKeyEy.cold.1
+- __ZN4avas6server18DeviceTimeObserver28sessionsObservingDeviceEventEj24AVAudioIOControllerEvent
+- __ZNKSt3__110__function6__funcIZN4avas6server18DeviceTimeObserver28sessionsObservingDeviceEventEj24AVAudioIOControllerEventE3$_0NS_9allocatorIS6_EEFvyEE7__cloneEPNS0_6__baseIS9_EE
+- __ZNKSt3__110__function6__funcIZN4avas6server18DeviceTimeObserver28sessionsObservingDeviceEventEj24AVAudioIOControllerEventE3$_0NS_9allocatorIS6_EEFvyEE7__cloneEv
+- __ZNKSt3__114default_deleteIN4avas6server17DeviceLatencyPollEEclB8ne200100EPS3_
+- __ZNKSt3__18functionIFvyEEclEy
+- __ZNSt3__110__function12__value_funcIFvyEEC2B8ne200100ERKS3_
+- __ZNSt3__110__function12__value_funcIFvyEED2B8ne200100Ev
+- __ZNSt3__110__function6__funcIZN4avas6server18DeviceTimeObserver28sessionsObservingDeviceEventEj24AVAudioIOControllerEventE3$_0NS_9allocatorIS6_EEFvyEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN4avas6server18DeviceTimeObserver28sessionsObservingDeviceEventEj24AVAudioIOControllerEventE3$_0NS_9allocatorIS6_EEFvyEE7destroyEv
+- __ZNSt3__110__function6__funcIZN4avas6server18DeviceTimeObserver28sessionsObservingDeviceEventEj24AVAudioIOControllerEventE3$_0NS_9allocatorIS6_EEFvyEED0Ev
+- __ZNSt3__110__function6__funcIZN4avas6server18DeviceTimeObserver28sessionsObservingDeviceEventEj24AVAudioIOControllerEventE3$_0NS_9allocatorIS6_EEFvyEED1Ev
+- __ZNSt3__110__function6__funcIZN4avas6server18DeviceTimeObserver28sessionsObservingDeviceEventEj24AVAudioIOControllerEventE3$_0NS_9allocatorIS6_EEFvyEEclEOy
+- __ZNSt3__112construct_atB8ne200100IN4avas6server17DeviceLatencyPoll4ImplEJRjRNS_8functionIFvyEEEEPS4_EEPT_SC_DpOT0_
+- __ZNSt3__115allocate_sharedB8ne200100IN4avas6server17DeviceLatencyPoll4ImplENS_9allocatorIS4_EEJRjRNS_8functionIFvyEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__117bad_function_callD1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4avas6server17DeviceLatencyPoll4ImplENS_9allocatorIS4_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4avas6server17DeviceLatencyPoll4ImplENS_9allocatorIS4_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4avas6server17DeviceLatencyPoll4ImplENS_9allocatorIS4_EEEC2B8ne200100IJRjRNS_8functionIFvyEEEES6_Li0EEES6_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4avas6server17DeviceLatencyPoll4ImplENS_9allocatorIS4_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4avas6server17DeviceLatencyPoll4ImplENS_9allocatorIS4_EEED1Ev
+- __ZNSt3__125__throw_bad_function_callB8ne200100Ev
+- __ZTINSt3__117bad_function_callE
+- __ZTSNSt3__117bad_function_callE
+- __ZTVNSt3__110__function6__funcIZN4avas6server18DeviceTimeObserver28sessionsObservingDeviceEventEj24AVAudioIOControllerEventE3$_0NS_9allocatorIS6_EEFvyEEE
+- __ZTVNSt3__117bad_function_callE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4avas6server17DeviceLatencyPoll4ImplENS_9allocatorIS4_EEEE
+- ____ZN4avas6server17DeviceLatencyPoll8dispatchENSt3__18weak_ptrINS1_4ImplEEENS1_9ELoopModeE_block_invoke
+- ____ZN4avas6server18DeviceTimeObserver10DeviceSlot15timestampWriterEv_block_invoke.cold.1
+- ____ZN4avas6server18DeviceTimeObserver10DeviceSlot15timestampWriterEv_block_invoke.cold.2
+- ___block_descriptor_48_ea8_32c61_ZTSNSt3__18weak_ptrIN4avas6server17DeviceLatencyPoll4ImplEEE_e5_v8?0l
+- ___block_descriptor_56_ea8_40c69_ZTSNSt3__110shared_ptrIN4avas6server18DeviceTimeObserver8TimeInfoEEE_e53_v16?0r^{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}8l
+- ___copy_helper_block_ea8_32c61_ZTSNSt3__18weak_ptrIN4avas6server17DeviceLatencyPoll4ImplEEE
+- ___copy_helper_block_ea8_40c69_ZTSNSt3__110shared_ptrIN4avas6server18DeviceTimeObserver8TimeInfoEEE
+- ___destroy_helper_block_ea8_32c61_ZTSNSt3__18weak_ptrIN4avas6server17DeviceLatencyPoll4ImplEEE
+- ___destroy_helper_block_ea8_40c69_ZTSNSt3__110shared_ptrIN4avas6server18DeviceTimeObserver8TimeInfoEEE
+CStrings:
++ "%25s:%-5d BTPts block shouldn't be called when inactive! (device ID: %u)"
++ "%25s:%-5d Error - device ID not found: %u"
++ "%25s:%-5d Failed to get AccessoryCurrentAudioTimeStamp (device ID: %u, err: %d)"
++ "%25s:%-5d Warning - ignoring btPts has zero/bad PTS! %.5f (sampleTime: %.5f)"
++ "%25s:%-5d Warning - ignoring btPts that has bad host time: %llu (expected > previousMts i.e.: %llu)"
++ "%25s:%-5d starting BT presentation time poller for device ID: %u)"
++ "%25s:%-5d stopping BT presentation time poller for device ID: %u)"
++ "BTPresentationTimePoll.mm"
++ "assertion failure: tsHostTime >= mts.mHostTime"
++ "v16@?0r^{?=Qdddd}8"
+- "%25s:%-5d sample time (%.2f) is unexpectedly greater than presentation time (%.2f), ignoring value"
+- "%25s:%-5d warning - over one second since last successful device latency read, stopping"
+- "DeviceLatencyPoll.mm"
+- "Q20@0:8I16"
+- "assertion failure: ats->mHostTime >= mts.mHostTime"
+- "dynamicLatencyForDevice:"
+
+```

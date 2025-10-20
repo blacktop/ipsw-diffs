@@ -1,0 +1,447 @@
+## PencilKit
+
+> `/System/Library/Frameworks/PencilKit.framework/PencilKit`
+
+```diff
+
+-576.0.0.0.0
+-  __TEXT.__text: 0x3227f4
++577.0.0.0.0
++  __TEXT.__text: 0x323280
+   __TEXT.__auth_stubs: 0x3280
+-  __TEXT.__objc_methlist: 0x252d4
+-  __TEXT.__const: 0x7494
++  __TEXT.__objc_methlist: 0x25374
++  __TEXT.__const: 0x7834
+   __TEXT.__dlopen_cstrs: 0x569
+   __TEXT.__cstring: 0xd1ee
+   __TEXT.__constg_swiftt: 0xf88
+
+   __TEXT.__oslogstring: 0xe06c
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__gcc_except_tab: 0x2506c
++  __TEXT.__gcc_except_tab: 0x25000
+   __TEXT.__ustring: 0x21a
+-  __TEXT.__unwind_info: 0xfaf8
++  __TEXT.__unwind_info: 0xfb10
+   __TEXT.__eh_frame: 0x2828
+-  __TEXT.__objc_classname: 0x5586
+-  __TEXT.__objc_methname: 0x65c3b
++  __TEXT.__objc_classname: 0x55a2
++  __TEXT.__objc_methname: 0x65c7e
+   __TEXT.__objc_methtype: 0x18938
+-  __TEXT.__objc_stubs: 0x3b760
++  __TEXT.__objc_stubs: 0x3b780
+   __DATA_CONST.__got: 0x2040
+   __DATA_CONST.__const: 0x6e78
+-  __DATA_CONST.__objc_classlist: 0x10f0
++  __DATA_CONST.__objc_classlist: 0x10f8
+   __DATA_CONST.__objc_catlist: 0x80
+   __DATA_CONST.__objc_protolist: 0x7c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x13078
++  __DATA_CONST.__objc_selrefs: 0x13088
+   __DATA_CONST.__objc_protorefs: 0x100
+-  __DATA_CONST.__objc_superrefs: 0xd68
++  __DATA_CONST.__objc_superrefs: 0xd70
+   __DATA_CONST.__objc_arraydata: 0x830
+   __AUTH_CONST.__auth_got: 0x1958
+   __AUTH_CONST.__const: 0x6e70
+   __AUTH_CONST.__cfstring: 0xe160
+-  __AUTH_CONST.__objc_const: 0x470b0
++  __AUTH_CONST.__objc_const: 0x47180
+   __AUTH_CONST.__objc_intobj: 0x930
+   __AUTH_CONST.__objc_arrayobj: 0x648
+   __AUTH_CONST.__objc_doubleobj: 0xd0
+   __AUTH_CONST.__objc_dictobj: 0x3c0
+-  __AUTH.__objc_data: 0x9890
++  __AUTH.__objc_data: 0x98e0
+   __AUTH.__data: 0x758
+-  __DATA.__objc_ivar: 0x2b8c
++  __DATA.__objc_ivar: 0x2b90
+   __DATA.__data: 0x64a8
+-  __DATA.__bss: 0x5eb8
++  __DATA.__bss: 0x5eb0
+   __DATA.__common: 0x128
+   __DATA_DIRTY.__objc_ivar: 0x1188
+   __DATA_DIRTY.__objc_data: 0x17c0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 83146813-9ECF-352E-A339-146EFFA4B288
+-  Functions: 17236
+-  Symbols:   56476
+-  CStrings:  22883
++  UUID: 38F1F7D2-8BF6-3797-BDD4-6B59FB2864BC
++  Functions: 17249
++  Symbols:   56609
++  CStrings:  22888
+ 
+Symbols:
++ -[PKObserverGestureRecognizer .cxx_destruct]
++ -[PKObserverGestureRecognizer canBePreventedByGestureRecognizer:]
++ -[PKObserverGestureRecognizer canPreventGestureRecognizer:]
++ -[PKObserverGestureRecognizer eventHandler]
++ -[PKObserverGestureRecognizer initWithTarget:action:]
++ -[PKObserverGestureRecognizer setEventHandler:]
++ -[PKObserverGestureRecognizer shouldBeRequiredToFailByGestureRecognizer:]
++ -[PKObserverGestureRecognizer shouldRequireFailureOfGestureRecognizer:]
++ -[PKObserverGestureRecognizer touchesBegan:withEvent:]
++ -[PKObserverGestureRecognizer touchesCancelled:withEvent:]
++ -[PKObserverGestureRecognizer touchesEnded:withEvent:]
++ -[PKObserverGestureRecognizer touchesMoved:withEvent:]
++ -[PKPaletteToolPickerAndColorPickerView layoutSubviews]
++ -[PKSelectionGlowRenderer _widthForStroke:withDrawingScale:]
++ _$s10Foundation4UUIDVSgMR
++ _$s10Foundation4UUIDVSgMd
++ _$s9PencilKit13PKRefineMorphV8GridMeshV_AEtMR
++ _$s9PencilKit13PKRefineMorphV8GridMeshV_AEtMd
++ _$s9PencilKit16DecodableDefaultVy12CoreGraphics7CGFloatVGMR
++ _$s9PencilKit16DecodableDefaultVy12CoreGraphics7CGFloatVGMd
++ _$s9PencilKit16DecodableDefaultVyAA11InkFunctionV4MathOGMR
++ _$s9PencilKit16DecodableDefaultVyAA11InkFunctionV4MathOGMd
++ _$s9PencilKit16DecodableDefaultVySbGMR
++ _$s9PencilKit16DecodableDefaultVySbGMd
++ _$s9PencilKit16DecodableDefaultVySiGMR
++ _$s9PencilKit16DecodableDefaultVySiGMd
++ _$s9PencilKit22InkDescriptorParticlesVSgMR
++ _$s9PencilKit22InkDescriptorParticlesVSgMd
++ _$s9PencilKit6PKTool_pMR
++ _$s9PencilKit6PKTool_pMd
++ _$sSDy9PencilKit11InkBehaviorV0C8PropertyOSayAA0C8FunctionVGGMR
++ _$sSDy9PencilKit11InkBehaviorV0C8PropertyOSayAA0C8FunctionVGGMd
++ _$sSNy12CoreGraphics7CGFloatVGMR
++ _$sSNy12CoreGraphics7CGFloatVGMd
++ _$sSNy12CoreGraphics7CGFloatVGSNyxGSesSeRzrlWlTm
++ _$sSay12CoreGraphics7CGFloatVGMR
++ _$sSay12CoreGraphics7CGFloatVGMd
++ _$sSay12CoreGraphics7CGFloatV_SitGMR
++ _$sSay12CoreGraphics7CGFloatV_SitGMd
++ _$sSay8Dispatch0A13WorkItemFlagsVGMR
++ _$sSay8Dispatch0A13WorkItemFlagsVGMd
++ _$sSay9PencilKit11InkFunctionV4MathOGMR
++ _$sSay9PencilKit11InkFunctionV4MathOGMd
++ _$sSay9PencilKit11InkFunctionV5InputOGMR
++ _$sSay9PencilKit11InkFunctionV5InputOGMd
++ _$sSay9PencilKit11InkFunctionVGMR
++ _$sSay9PencilKit11InkFunctionVGMd
++ _$sSay9PencilKit22InkDescriptorParticlesV16ParticleRotationOGMR
++ _$sSay9PencilKit22InkDescriptorParticlesV16ParticleRotationOGMd
++ _$sSay9PencilKit8PKStrokeVGMR
++ _$sSay9PencilKit8PKStrokeVGMd
++ _$sSay9PencilKit8PKStrokeVGSgMR
++ _$sSay9PencilKit8PKStrokeVGSgMd
++ _$sSaySo13PKInkFunctionCGMR
++ _$sSaySo13PKInkFunctionCGMd
++ _$sSaySo18CHStrokeIdentifier_pGMR
++ _$sSaySo18CHStrokeIdentifier_pGMd
++ _$sSaySo7CGPointVGMR
++ _$sSaySo7CGPointVGMd
++ _$sScCySSs5NeverOGMR
++ _$sScCySSs5NeverOGMd
++ _$sScCySay9PencilKit8PKStrokeVGSgs5NeverOGMR
++ _$sScCySay9PencilKit8PKStrokeVGSgs5NeverOGMd
++ _$sScCySay9PencilKit8PKStrokeVGs5NeverOGMR
++ _$sScCySay9PencilKit8PKStrokeVGs5NeverOGMd
++ _$sScCySbs5NeverOGMR
++ _$sScCySbs5NeverOGMd
++ _$sScCySo18PKIndexableContentCs5NeverOGMR
++ _$sScCySo18PKIndexableContentCs5NeverOGMd
++ _$sScCyyts5NeverOGMR
++ _$sScCyyts5NeverOGMd
++ _$sScPSgMR
++ _$sScPSgMd
++ _$sScS12ContinuationV11YieldResultOy9PencilKit27RecognitionSearchControllerC0gC0V__GMR
++ _$sScS12ContinuationV11YieldResultOy9PencilKit27RecognitionSearchControllerC0gC0V__GMd
++ _$sScS12ContinuationV15BufferingPolicyOy9PencilKit27RecognitionSearchControllerC0G6ResultV__GMR
++ _$sScS12ContinuationV15BufferingPolicyOy9PencilKit27RecognitionSearchControllerC0G6ResultV__GMd
++ _$sScS12ContinuationVy9PencilKit27RecognitionSearchControllerC0E6ResultV_GMR
++ _$sScS12ContinuationVy9PencilKit27RecognitionSearchControllerC0E6ResultV_GMd
++ _$sSccySo10CGImageRefaSg_ACts5NeverOGMR
++ _$sSccySo10CGImageRefaSg_ACts5NeverOGMd
++ _$sSccySo7UIImageCSgs5NeverOGMR
++ _$sSccySo7UIImageCSgs5NeverOGMd
++ _$sSccyyts5NeverOGMR
++ _$sSccyyts5NeverOGMd
++ _$sSnySiGMR
++ _$sSnySiGMd
++ _$sSo13CIImageOptiona_yptMR
++ _$sSo13CIImageOptiona_yptMd
++ _$sSo15CIContextOptiona_yptMR
++ _$sSo15CIContextOptiona_yptMd
++ _$sSo7CGPointVABXBMR
++ _$sSo7CGPointVABXBMd
++ _$sSo8NSObjectCSgMR
++ _$sSo8NSObjectCSgMd
++ _$ss11_SetStorageCy10Foundation4UUIDVGMR
++ _$ss11_SetStorageCy10Foundation4UUIDVGMd
++ _$ss16IndexingIteratorVy9PencilKit12PKStrokePathVGMR
++ _$ss16IndexingIteratorVy9PencilKit12PKStrokePathVGMd
++ _$ss18_DictionaryStorageCy12CoreGraphics7CGFloatVSo7UIImageCGMR
++ _$ss18_DictionaryStorageCy12CoreGraphics7CGFloatVSo7UIImageCGMd
++ _$ss18_DictionaryStorageCy9PencilKit11InkBehaviorV0E8PropertyOSayAC0E8FunctionVGGMR
++ _$ss18_DictionaryStorageCy9PencilKit11InkBehaviorV0E8PropertyOSayAC0E8FunctionVGGMd
++ _$ss18_DictionaryStorageCySi12CoreGraphics7CGFloatVGMR
++ _$ss18_DictionaryStorageCySi12CoreGraphics7CGFloatVGMd
++ _$ss18_DictionaryStorageCySo13CIImageOptionaypGMR
++ _$ss18_DictionaryStorageCySo13CIImageOptionaypGMd
++ _$ss18_DictionaryStorageCySo15CIContextOptionaypGMR
++ _$ss18_DictionaryStorageCySo15CIContextOptionaypGMd
++ _$ss18_DictionaryStorageCySo8NSNumberCSo7UIImageCGMR
++ _$ss18_DictionaryStorageCySo8NSNumberCSo7UIImageCGMd
++ _$ss22KeyedDecodingContainerVy9PencilKit11InkBehaviorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedDecodingContainerVy9PencilKit11InkBehaviorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedDecodingContainerVy9PencilKit11InkFunctionV10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVy9PencilKit11InkFunctionV10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVy9PencilKit12InkRenderingV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedDecodingContainerVy9PencilKit12InkRenderingV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedDecodingContainerVy9PencilKit12InkSmoothingV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedDecodingContainerVy9PencilKit12InkSmoothingV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedDecodingContainerVy9PencilKit13InkDescriptorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedDecodingContainerVy9PencilKit13InkDescriptorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedDecodingContainerVy9PencilKit13InkFeatheringV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedDecodingContainerVy9PencilKit13InkFeatheringV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedDecodingContainerVy9PencilKit13InkFeatheringV6EndCapV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedDecodingContainerVy9PencilKit13InkFeatheringV6EndCapV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedDecodingContainerVy9PencilKit22InkAnimationDescriptorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedDecodingContainerVy9PencilKit22InkAnimationDescriptorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedDecodingContainerVy9PencilKit22InkDescriptorParticlesV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedDecodingContainerVy9PencilKit22InkDescriptorParticlesV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedDecodingContainerVy9PencilKit7InkMaskV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedDecodingContainerVy9PencilKit7InkMaskV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedEncodingContainerVy9PencilKit11InkBehaviorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedEncodingContainerVy9PencilKit11InkBehaviorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedEncodingContainerVy9PencilKit11InkFunctionV10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVy9PencilKit11InkFunctionV10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVy9PencilKit12InkRenderingV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedEncodingContainerVy9PencilKit12InkRenderingV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedEncodingContainerVy9PencilKit12InkSmoothingV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedEncodingContainerVy9PencilKit12InkSmoothingV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedEncodingContainerVy9PencilKit13InkDescriptorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedEncodingContainerVy9PencilKit13InkDescriptorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedEncodingContainerVy9PencilKit13InkFeatheringV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedEncodingContainerVy9PencilKit13InkFeatheringV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedEncodingContainerVy9PencilKit13InkFeatheringV6EndCapV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedEncodingContainerVy9PencilKit13InkFeatheringV6EndCapV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedEncodingContainerVy9PencilKit22InkAnimationDescriptorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedEncodingContainerVy9PencilKit22InkAnimationDescriptorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedEncodingContainerVy9PencilKit22InkDescriptorParticlesV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedEncodingContainerVy9PencilKit22InkDescriptorParticlesV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss22KeyedEncodingContainerVy9PencilKit7InkMaskV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMR
++ _$ss22KeyedEncodingContainerVy9PencilKit7InkMaskV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMd
++ _$ss23_ContiguousArrayStorageCy10Foundation4UUIDVGMR
++ _$ss23_ContiguousArrayStorageCy10Foundation4UUIDVGMd
++ _$ss23_ContiguousArrayStorageCy12CoreGraphics7CGFloatVGMR
++ _$ss23_ContiguousArrayStorageCy12CoreGraphics7CGFloatVGMd
++ _$ss23_ContiguousArrayStorageCy12CoreGraphics7CGFloatV_SitGMR
++ _$ss23_ContiguousArrayStorageCy12CoreGraphics7CGFloatV_SitGMd
++ _$ss23_ContiguousArrayStorageCy9PencilKit13PKRefineMorphV5MatchV0H2ToVGMR
++ _$ss23_ContiguousArrayStorageCy9PencilKit13PKRefineMorphV5MatchV0H2ToVGMd
++ _$ss23_ContiguousArrayStorageCy9PencilKit13PKRefineMorphV5MatchVGMR
++ _$ss23_ContiguousArrayStorageCy9PencilKit13PKRefineMorphV5MatchVGMd
++ _$ss23_ContiguousArrayStorageCy9PencilKit13PKRefineMorphV7NStrokeVGMR
++ _$ss23_ContiguousArrayStorageCy9PencilKit13PKRefineMorphV7NStrokeVGMd
++ _$ss23_ContiguousArrayStorageCy9PencilKit13PKStrokePointVGMR
++ _$ss23_ContiguousArrayStorageCy9PencilKit13PKStrokePointVGMd
++ _$ss23_ContiguousArrayStorageCy9PencilKit27RecognitionSearchControllerC0G6ResultVGMR
++ _$ss23_ContiguousArrayStorageCy9PencilKit27RecognitionSearchControllerC0G6ResultVGMd
++ _$ss23_ContiguousArrayStorageCy9PencilKit28PKLongPressGestureRecognizerC0G13StartLocationVGMR
++ _$ss23_ContiguousArrayStorageCy9PencilKit28PKLongPressGestureRecognizerC0G13StartLocationVGMd
++ _$ss23_ContiguousArrayStorageCy9PencilKit6PKTool_pGMR
++ _$ss23_ContiguousArrayStorageCy9PencilKit6PKTool_pGMd
++ _$ss23_ContiguousArrayStorageCy9PencilKit8PKStrokeVGMR
++ _$ss23_ContiguousArrayStorageCy9PencilKit8PKStrokeVGMd
++ _$ss23_ContiguousArrayStorageCySNy12CoreGraphics7CGFloatVGGMR
++ _$ss23_ContiguousArrayStorageCySNy12CoreGraphics7CGFloatVGGMd
++ _$ss23_ContiguousArrayStorageCySay12CoreGraphics7CGFloatV_SitGGMR
++ _$ss23_ContiguousArrayStorageCySay12CoreGraphics7CGFloatV_SitGGMd
++ _$ss23_ContiguousArrayStorageCySiGMR
++ _$ss23_ContiguousArrayStorageCySiGMd
++ _$ss23_ContiguousArrayStorageCySnySiGGMR
++ _$ss23_ContiguousArrayStorageCySnySiGGMd
++ _$ss23_ContiguousArrayStorageCySo12RefineVertexaGMR
++ _$ss23_ContiguousArrayStorageCySo12RefineVertexaGMd
++ _$ss23_ContiguousArrayStorageCySo13CIImageOptiona_yptGMR
++ _$ss23_ContiguousArrayStorageCySo13CIImageOptiona_yptGMd
++ _$ss23_ContiguousArrayStorageCySo15CIContextOptiona_yptGMR
++ _$ss23_ContiguousArrayStorageCySo15CIContextOptiona_yptGMd
++ _$ss23_ContiguousArrayStorageCySo22RefineFragmentUniformsaGMR
++ _$ss23_ContiguousArrayStorageCySo22RefineFragmentUniformsaGMd
++ _$ss23_ContiguousArrayStorageCySo7CGPointVGMR
++ _$ss23_ContiguousArrayStorageCySo7CGPointVGMd
++ _$ss23_ContiguousArrayStorageCys6UInt16VGMR
++ _$ss23_ContiguousArrayStorageCys6UInt16VGMd
++ _$ss23_ContiguousArrayStorageCyySaySo18PKDataDetectorItemCGcGMR
++ _$ss23_ContiguousArrayStorageCyySaySo18PKDataDetectorItemCGcGMd
++ _$ss23_ContiguousArrayStorageCyySaySo18PKProofreadingItemCGcGMR
++ _$ss23_ContiguousArrayStorageCyySaySo18PKProofreadingItemCGcGMd
++ _$ss23_ContiguousArrayStorageCyyXlGMR
++ _$ss23_ContiguousArrayStorageCyyXlGMd
++ _$ss23_ContiguousArrayStorageCyypGMR
++ _$ss23_ContiguousArrayStorageCyypGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ _$ss5SliceVy9PencilKit12PKStrokePathVGMR
++ _$ss5SliceVy9PencilKit12PKStrokePathVGMd
++ _$sypSgMR
++ _$sypSgMd
++ _$sytSgMR
++ _$sytSgMd
++ _$syycMR
++ _$syycMd
++ _OBJC_CLASS_$_PKObserverGestureRecognizer
++ _OBJC_IVAR_$_PKObserverGestureRecognizer._eventHandler
++ _OBJC_METACLASS_$_PKObserverGestureRecognizer
++ __OBJC_$_INSTANCE_METHODS_PKObserverGestureRecognizer
++ __OBJC_$_INSTANCE_VARIABLES_PKObserverGestureRecognizer
++ __OBJC_$_PROP_LIST_PKObserverGestureRecognizer
++ __OBJC_CLASS_RO_$_PKObserverGestureRecognizer
++ __OBJC_METACLASS_RO_$_PKObserverGestureRecognizer
++ ___51-[PKTiledView renderAttachment:intoCanvas:showing:]_block_invoke.462
++ ___65-[PKTiledView _copyFromCanvas:intoAttachment:hideCanvas:strokes:]_block_invoke.463
++ ___65-[PKTiledView _copyFromCanvas:intoAttachment:hideCanvas:strokes:]_block_invoke.464
++ ___88-[PKTiledView updateTilesForVisibleRectOffscreenOverrideAdditionalStrokes:withCallback:]_block_invoke.466
++ ___89-[PKTiledView _setAdditionalStrokes:inDrawing:invalidateTiles:forceOffscreen:completion:]_block_invoke.482
++ ___Block_byref_object_copy_.441
++ ___Block_byref_object_copy_.444
++ ___Block_byref_object_dispose_.442
++ ___Block_byref_object_dispose_.445
++ ___block_descriptor_96_e8_32s_e49_{CGRect={CGPoint=dd}{CGSize=dd}}16?0"PKStroke"8ls32l8
++ ___block_literal_global.1432
++ ___block_literal_global.1439
++ ___block_literal_global.433
++ ___block_literal_global.481
++ ___block_literal_global.545
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
++ _objc_msgSend$eventHandler
+- -[PKSelectionGlowRenderer _widthForStroke:]
+- _$s10Foundation4UUIDVSgMD
+- _$s9PencilKit13PKRefineMorphV8GridMeshV_AEtMD
+- _$s9PencilKit16DecodableDefaultVy12CoreGraphics7CGFloatVGMD
+- _$s9PencilKit16DecodableDefaultVyAA11InkFunctionV4MathOGMD
+- _$s9PencilKit16DecodableDefaultVySbGMD
+- _$s9PencilKit16DecodableDefaultVySiGMD
+- _$s9PencilKit22InkDescriptorParticlesVSgMD
+- _$s9PencilKit6PKTool_pMD
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo13CIImageOptiona_ypTt0g5Tf4g_nTm
+- _$sSDy9PencilKit11InkBehaviorV0C8PropertyOSayAA0C8FunctionVGGMD
+- _$sSNy12CoreGraphics7CGFloatVGMD
+- _$sSay12CoreGraphics7CGFloatVGMD
+- _$sSay12CoreGraphics7CGFloatV_SitGMD
+- _$sSay8Dispatch0A13WorkItemFlagsVGMD
+- _$sSay9PencilKit11InkFunctionV4MathOGMD
+- _$sSay9PencilKit11InkFunctionV5InputOGMD
+- _$sSay9PencilKit11InkFunctionVGMD
+- _$sSay9PencilKit22InkDescriptorParticlesV16ParticleRotationOGMD
+- _$sSay9PencilKit8PKStrokeVGMD
+- _$sSay9PencilKit8PKStrokeVGSgMD
+- _$sSaySo13PKInkFunctionCGMD
+- _$sSaySo18CHStrokeIdentifier_pGMD
+- _$sSaySo7CGPointVGMD
+- _$sScCySSs5NeverOGMD
+- _$sScCySay9PencilKit8PKStrokeVGSgs5NeverOGMD
+- _$sScCySay9PencilKit8PKStrokeVGs5NeverOGMD
+- _$sScCySbs5NeverOGMD
+- _$sScCySo18PKIndexableContentCs5NeverOGMD
+- _$sScCyyts5NeverOGMD
+- _$sScPSgMD
+- _$sScS12ContinuationV11YieldResultOy9PencilKit27RecognitionSearchControllerC0gC0V__GMD
+- _$sScS12ContinuationV15BufferingPolicyOy9PencilKit27RecognitionSearchControllerC0G6ResultV__GMD
+- _$sScS12ContinuationVy9PencilKit27RecognitionSearchControllerC0E6ResultV_GMD
+- _$sSccySo10CGImageRefaSg_ACts5NeverOGMD
+- _$sSccySo7UIImageCSgs5NeverOGMD
+- _$sSccyyts5NeverOGMD
+- _$sSnySiGMD
+- _$sSo13CIImageOptiona_yptMD
+- _$sSo15CIContextOptiona_yptMD
+- _$sSo7CGPointVABXBMD
+- _$sSo8NSObjectCSgMD
+- _$ss11_SetStorageCy10Foundation4UUIDVGMD
+- _$ss16IndexingIteratorVy9PencilKit12PKStrokePathVGMD
+- _$ss18_DictionaryStorageCy12CoreGraphics7CGFloatVSo7UIImageCGMD
+- _$ss18_DictionaryStorageCy9PencilKit11InkBehaviorV0E8PropertyOSayAC0E8FunctionVGGMD
+- _$ss18_DictionaryStorageCySi12CoreGraphics7CGFloatVGMD
+- _$ss18_DictionaryStorageCySo13CIImageOptionaypGMD
+- _$ss18_DictionaryStorageCySo15CIContextOptionaypGMD
+- _$ss18_DictionaryStorageCySo8NSNumberCSo7UIImageCGMD
+- _$ss22KeyedDecodingContainerVy9PencilKit11InkBehaviorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedDecodingContainerVy9PencilKit11InkFunctionV10CodingKeysOGMD
+- _$ss22KeyedDecodingContainerVy9PencilKit12InkRenderingV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedDecodingContainerVy9PencilKit12InkSmoothingV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedDecodingContainerVy9PencilKit13InkDescriptorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedDecodingContainerVy9PencilKit13InkFeatheringV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedDecodingContainerVy9PencilKit13InkFeatheringV6EndCapV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedDecodingContainerVy9PencilKit22InkAnimationDescriptorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedDecodingContainerVy9PencilKit22InkDescriptorParticlesV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedDecodingContainerVy9PencilKit7InkMaskV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedEncodingContainerVy9PencilKit11InkBehaviorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedEncodingContainerVy9PencilKit11InkFunctionV10CodingKeysOGMD
+- _$ss22KeyedEncodingContainerVy9PencilKit12InkRenderingV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedEncodingContainerVy9PencilKit12InkSmoothingV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedEncodingContainerVy9PencilKit13InkDescriptorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedEncodingContainerVy9PencilKit13InkFeatheringV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedEncodingContainerVy9PencilKit13InkFeatheringV6EndCapV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedEncodingContainerVy9PencilKit22InkAnimationDescriptorV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedEncodingContainerVy9PencilKit22InkDescriptorParticlesV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss22KeyedEncodingContainerVy9PencilKit7InkMaskV10CodingKeys33_1629EF4F71A70372363BC5E8C6DB6C1CLLOGMD
+- _$ss23_ContiguousArrayStorageCy10Foundation4UUIDVGMD
+- _$ss23_ContiguousArrayStorageCy12CoreGraphics7CGFloatVGMD
+- _$ss23_ContiguousArrayStorageCy12CoreGraphics7CGFloatV_SitGMD
+- _$ss23_ContiguousArrayStorageCy9PencilKit13PKRefineMorphV5MatchV0H2ToVGMD
+- _$ss23_ContiguousArrayStorageCy9PencilKit13PKRefineMorphV5MatchVGMD
+- _$ss23_ContiguousArrayStorageCy9PencilKit13PKRefineMorphV7NStrokeVGMD
+- _$ss23_ContiguousArrayStorageCy9PencilKit13PKStrokePointVGMD
+- _$ss23_ContiguousArrayStorageCy9PencilKit27RecognitionSearchControllerC0G6ResultVGMD
+- _$ss23_ContiguousArrayStorageCy9PencilKit28PKLongPressGestureRecognizerC0G13StartLocationVGMD
+- _$ss23_ContiguousArrayStorageCy9PencilKit6PKTool_pGMD
+- _$ss23_ContiguousArrayStorageCy9PencilKit8PKStrokeVGMD
+- _$ss23_ContiguousArrayStorageCySNy12CoreGraphics7CGFloatVGGMD
+- _$ss23_ContiguousArrayStorageCySay12CoreGraphics7CGFloatV_SitGGMD
+- _$ss23_ContiguousArrayStorageCySiGMD
+- _$ss23_ContiguousArrayStorageCySnySiGGMD
+- _$ss23_ContiguousArrayStorageCySo12RefineVertexaGMD
+- _$ss23_ContiguousArrayStorageCySo13CIImageOptiona_yptGMD
+- _$ss23_ContiguousArrayStorageCySo15CIContextOptiona_yptGMD
+- _$ss23_ContiguousArrayStorageCySo22RefineFragmentUniformsaGMD
+- _$ss23_ContiguousArrayStorageCySo7CGPointVGMD
+- _$ss23_ContiguousArrayStorageCys6UInt16VGMD
+- _$ss23_ContiguousArrayStorageCyySaySo18PKDataDetectorItemCGcGMD
+- _$ss23_ContiguousArrayStorageCyySaySo18PKProofreadingItemCGcGMD
+- _$ss23_ContiguousArrayStorageCyyXlGMD
+- _$ss23_ContiguousArrayStorageCyypGMD
+- _$ss5Error_pMD
+- _$ss5SliceVy9PencilKit12PKStrokePathVGMD
+- _$sypSgMD
+- _$sytSgMD
+- _$syycMD
+- __MergedGlobals.291
+- ___51-[PKTiledView renderAttachment:intoCanvas:showing:]_block_invoke.584
+- ___65-[PKTiledView _copyFromCanvas:intoAttachment:hideCanvas:strokes:]_block_invoke.585
+- ___65-[PKTiledView _copyFromCanvas:intoAttachment:hideCanvas:strokes:]_block_invoke.586
+- ___88-[PKTiledView updateTilesForVisibleRectOffscreenOverrideAdditionalStrokes:withCallback:]_block_invoke.588
+- ___89-[PKTiledView _setAdditionalStrokes:inDrawing:invalidateTiles:forceOffscreen:completion:]_block_invoke.604
+- ___Block_byref_object_copy_.563
+- ___Block_byref_object_copy_.566
+- ___Block_byref_object_dispose_.564
+- ___Block_byref_object_dispose_.567
+- ___block_descriptor_88_e8_32s_e49_{CGRect={CGPoint=dd}{CGSize=dd}}16?0"PKStroke"8ls32l8
+- ___block_literal_global.1498
+- ___block_literal_global.1505
+- ___block_literal_global.540
+- ___block_literal_global.546
+- ___block_literal_global.555
+- ___block_literal_global.603
+- ___block_literal_global.667
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+CStrings:
++ "PKObserverGestureRecognizer"
++ "T@?,C,N,V_eventHandler"
++ "_eventHandler"
++ "eventHandler"
++ "setEventHandler:"
+
+```

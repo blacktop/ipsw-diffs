@@ -1,0 +1,122 @@
+## libswiftSystem.dylib
+
+> `/usr/lib/swift/libswiftSystem.dylib`
+
+```diff
+
+ 72.2.0.0.0
+-  __TEXT.__text: 0x12334
++  __TEXT.__text: 0x124c4
+   __TEXT.__auth_stubs: 0x800
+   __TEXT.__cstring: 0x473
+-  __TEXT.__const: 0x2410
++  __TEXT.__const: 0x24c0
+   __TEXT.__swift5_typeref: 0x5f1
+   __TEXT.__swift5_fieldmd: 0x374
+   __TEXT.__constg_swiftt: 0x488
+
+   __TEXT.__swift5_types: 0x6c
+   __TEXT.__swift5_types2: 0x4
+   __TEXT.__swift5_assocty: 0x3f0
+-  __TEXT.__unwind_info: 0x8f8
++  __TEXT.__unwind_info: 0x908
+   __TEXT.__eh_frame: 0xb90
+   __DATA_CONST.__got: 0x190
+   __DATA_CONST.__const: 0x38
+
+   __AUTH_CONST.__auth_got: 0x400
+   __AUTH_CONST.__const: 0x13f8
+   __AUTH_CONST.__objc_const: 0x90
+-  __DATA.__data: 0x440
++  __DATA.__data: 0x468
+   __DATA.__bss: 0x4280
+   __DATA.__common: 0x10
+-  __DATA_DIRTY.__data: 0x90
++  __DATA_DIRTY.__data: 0x68
+   __DATA_DIRTY.__bss: 0x480
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  UUID: 016FD9A6-8E7C-38B0-93CA-FC1EEF3F74E2
+-  Functions: 830
+-  Symbols:   3213
++  UUID: 2204B4C9-1E01-39B4-9828-D4BC8F9EEDA1
++  Functions: 832
++  Symbols:   3238
+   CStrings:  47
+ 
+Symbols:
++ _$sSIy6System8FilePathV13ComponentViewVGMR
++ _$sSIy6System8FilePathV13ComponentViewVGMd
++ _$sSay6System0A4CharVGMR
++ _$sSay6System0A4CharVGMd
++ _$sSay6System0A4CharVGSayxGSEsSERzlWlTm
++ _$sSnySiGMR
++ _$sSnySiGMd
++ _$ss16IndexingIteratorVy6System0C6StringVGMR
++ _$ss16IndexingIteratorVy6System0C6StringVGMd
++ _$ss16IndexingIteratorVy6System8FilePathV13ComponentViewVGMR
++ _$ss16IndexingIteratorVy6System8FilePathV13ComponentViewVGMd
++ _$ss22KeyedDecodingContainerVy6System0D6StringV10CodingKeys33_4B88B1E6A2D930290BCBF95D50E4424CLLOGMR
++ _$ss22KeyedDecodingContainerVy6System0D6StringV10CodingKeys33_4B88B1E6A2D930290BCBF95D50E4424CLLOGMd
++ _$ss22KeyedDecodingContainerVy6System8FilePathV10CodingKeys33_4EB63D2F9D23E0F36D260D15D3B661ABLLOGMR
++ _$ss22KeyedDecodingContainerVy6System8FilePathV10CodingKeys33_4EB63D2F9D23E0F36D260D15D3B661ABLLOGMd
++ _$ss22KeyedDecodingContainerVy6System8FilePathV13ComponentViewV10CodingKeys33_F5740257EA6CC2A0DB65C60FBAC2721DLLOGMR
++ _$ss22KeyedDecodingContainerVy6System8FilePathV13ComponentViewV10CodingKeys33_F5740257EA6CC2A0DB65C60FBAC2721DLLOGMd
++ _$ss22KeyedDecodingContainerVy6System8FilePathV4RootV10CodingKeys33_70C0EF22B766C75A2AC4DA6839A63A8BLLOGMR
++ _$ss22KeyedDecodingContainerVy6System8FilePathV4RootV10CodingKeys33_70C0EF22B766C75A2AC4DA6839A63A8BLLOGMd
++ _$ss22KeyedDecodingContainerVy6System8FilePathV9ComponentV10CodingKeys33_70C0EF22B766C75A2AC4DA6839A63A8BLLOGMR
++ _$ss22KeyedDecodingContainerVy6System8FilePathV9ComponentV10CodingKeys33_70C0EF22B766C75A2AC4DA6839A63A8BLLOGMd
++ _$ss22KeyedEncodingContainerVy6System0D6StringV10CodingKeys33_4B88B1E6A2D930290BCBF95D50E4424CLLOGMR
++ _$ss22KeyedEncodingContainerVy6System0D6StringV10CodingKeys33_4B88B1E6A2D930290BCBF95D50E4424CLLOGMd
++ _$ss22KeyedEncodingContainerVy6System8FilePathV10CodingKeys33_4EB63D2F9D23E0F36D260D15D3B661ABLLOGMR
++ _$ss22KeyedEncodingContainerVy6System8FilePathV10CodingKeys33_4EB63D2F9D23E0F36D260D15D3B661ABLLOGMd
++ _$ss22KeyedEncodingContainerVy6System8FilePathV13ComponentViewV10CodingKeys33_F5740257EA6CC2A0DB65C60FBAC2721DLLOGMR
++ _$ss22KeyedEncodingContainerVy6System8FilePathV13ComponentViewV10CodingKeys33_F5740257EA6CC2A0DB65C60FBAC2721DLLOGMd
++ _$ss22KeyedEncodingContainerVy6System8FilePathV4RootV10CodingKeys33_70C0EF22B766C75A2AC4DA6839A63A8BLLOGMR
++ _$ss22KeyedEncodingContainerVy6System8FilePathV4RootV10CodingKeys33_70C0EF22B766C75A2AC4DA6839A63A8BLLOGMd
++ _$ss22KeyedEncodingContainerVy6System8FilePathV9ComponentV10CodingKeys33_70C0EF22B766C75A2AC4DA6839A63A8BLLOGMR
++ _$ss22KeyedEncodingContainerVy6System8FilePathV9ComponentV10CodingKeys33_70C0EF22B766C75A2AC4DA6839A63A8BLLOGMd
++ _$ss23_ContiguousArrayStorageCy6System0D4CharVGMR
++ _$ss23_ContiguousArrayStorageCy6System0D4CharVGMd
++ _$ss23_ContiguousArrayStorageCy6System8FilePathV9ComponentVGMR
++ _$ss23_ContiguousArrayStorageCy6System8FilePathV9ComponentVGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ _$ss5SliceVy6System0B6StringVGMR
++ _$ss5SliceVy6System0B6StringVGMd
++ _$ss5SliceVy6System8FilePathV13ComponentViewVGAByxGSmsSmRzrlWl
++ _$ss5SliceVy6System8FilePathV13ComponentViewVGMR
++ _$ss5SliceVy6System8FilePathV13ComponentViewVGMd
++ _$ss6ResultOySi6System5ErrnoVGMR
++ _$ss6ResultOySi6System5ErrnoVGMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$sSIy6System8FilePathV13ComponentViewVGMD
+- _$sSay6System0A4CharVGMD
+- _$sSnySiGMD
+- _$ss16IndexingIteratorVy6System0C6StringVGMD
+- _$ss16IndexingIteratorVy6System8FilePathV13ComponentViewVGMD
+- _$ss22KeyedDecodingContainerVy6System0D6StringV10CodingKeys33_4B88B1E6A2D930290BCBF95D50E4424CLLOGMD
+- _$ss22KeyedDecodingContainerVy6System8FilePathV10CodingKeys33_4EB63D2F9D23E0F36D260D15D3B661ABLLOGMD
+- _$ss22KeyedDecodingContainerVy6System8FilePathV13ComponentViewV10CodingKeys33_F5740257EA6CC2A0DB65C60FBAC2721DLLOGMD
+- _$ss22KeyedDecodingContainerVy6System8FilePathV4RootV10CodingKeys33_70C0EF22B766C75A2AC4DA6839A63A8BLLOGMD
+- _$ss22KeyedDecodingContainerVy6System8FilePathV9ComponentV10CodingKeys33_70C0EF22B766C75A2AC4DA6839A63A8BLLOGMD
+- _$ss22KeyedEncodingContainerVy6System0D6StringV10CodingKeys33_4B88B1E6A2D930290BCBF95D50E4424CLLOGMD
+- _$ss22KeyedEncodingContainerVy6System8FilePathV10CodingKeys33_4EB63D2F9D23E0F36D260D15D3B661ABLLOGMD
+- _$ss22KeyedEncodingContainerVy6System8FilePathV13ComponentViewV10CodingKeys33_F5740257EA6CC2A0DB65C60FBAC2721DLLOGMD
+- _$ss22KeyedEncodingContainerVy6System8FilePathV4RootV10CodingKeys33_70C0EF22B766C75A2AC4DA6839A63A8BLLOGMD
+- _$ss22KeyedEncodingContainerVy6System8FilePathV9ComponentV10CodingKeys33_70C0EF22B766C75A2AC4DA6839A63A8BLLOGMD
+- _$ss23_ContiguousArrayStorageCy6System0D4CharVGMD
+- _$ss23_ContiguousArrayStorageCy6System8FilePathV9ComponentVGMD
+- _$ss5Error_pMD
+- _$ss5SliceVy6System0B6StringVGMD
+- _$ss5SliceVy6System8FilePathV13ComponentViewVGMD
+- _$ss6ResultOySi6System5ErrnoVGMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+
+```

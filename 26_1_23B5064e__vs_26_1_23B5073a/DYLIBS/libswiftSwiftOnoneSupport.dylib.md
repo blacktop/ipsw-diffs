@@ -1,0 +1,137 @@
+## libswiftSwiftOnoneSupport.dylib
+
+> `/usr/lib/swift/libswiftSwiftOnoneSupport.dylib`
+
+```diff
+
+-6.2.1.4.1
+-  __TEXT.__text: 0x24de0
++6.2.1.4.7
++  __TEXT.__text: 0x23220
+   __TEXT.__auth_stubs: 0x1f0
+-  __TEXT.__const: 0x4
++  __TEXT.__const: 0xaa
+   __TEXT.__cstring: 0x699
+   __TEXT.__swift5_typeref: 0xfc
+   __TEXT.__swift5_types: 0xe8
+-  __TEXT.__unwind_info: 0x828
++  __TEXT.__unwind_info: 0x810
+   __TEXT.__eh_frame: 0x1900
+   __DATA_CONST.__got: 0xf0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __AUTH_CONST.__auth_got: 0xf8
+   __AUTH_CONST.__const: 0x13a0
+-  __DATA.__data: 0x680
+-  __DATA_DIRTY.__data: 0x18
++  __DATA.__data: 0x698
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+-  UUID: 8678A269-2AD6-37F8-9855-42B151C8333D
+-  Functions: 1647
+-  Symbols:   2666
++  UUID: 3A81046E-A94E-38E5-BA1D-13B96DB5CA2D
++  Functions: 1649
++  Symbols:   2690
+   CStrings:  36
+ 
+Symbols:
++ _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFs6UInt64V_Tg5Tm
++ _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFs6UInt64V_s15EmptyCollectionVyAGGTg5Tf4ndn_nTm
++ _$sSa15reserveCapacityyySiFs6UInt64V_Tg5Tm
++ _$sSa36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFs6UInt64V_Tg5Tm
++ _$sSa9removeAll15keepingCapacityySb_tFSf_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSJ_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSd_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSf_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSu_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs4Int8V_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5Int16V_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5Int32V_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5Int64V_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs6UInt16V_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs6UInt32V_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs6UInt64V_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs7UnicodeO6ScalarV_Tg5
++ _$ss23_ContiguousArrayStorageCySJGMR
++ _$ss23_ContiguousArrayStorageCySJGMd
++ _$ss23_ContiguousArrayStorageCySS17UnicodeScalarViewVGMR
++ _$ss23_ContiguousArrayStorageCySS17UnicodeScalarViewVGMd
++ _$ss23_ContiguousArrayStorageCySS8UTF8ViewVGMR
++ _$ss23_ContiguousArrayStorageCySS8UTF8ViewVGMd
++ _$ss23_ContiguousArrayStorageCySS9UTF16ViewVGMR
++ _$ss23_ContiguousArrayStorageCySS9UTF16ViewVGMd
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss23_ContiguousArrayStorageCySdGMR
++ _$ss23_ContiguousArrayStorageCySdGMd
++ _$ss23_ContiguousArrayStorageCySfGMR
++ _$ss23_ContiguousArrayStorageCySfGMd
++ _$ss23_ContiguousArrayStorageCySiGMR
++ _$ss23_ContiguousArrayStorageCySiGMd
++ _$ss23_ContiguousArrayStorageCySnySiGGMR
++ _$ss23_ContiguousArrayStorageCySnySiGGMd
++ _$ss23_ContiguousArrayStorageCySuGMR
++ _$ss23_ContiguousArrayStorageCySuGMd
++ _$ss23_ContiguousArrayStorageCys4Int8VGMR
++ _$ss23_ContiguousArrayStorageCys4Int8VGMd
++ _$ss23_ContiguousArrayStorageCys5Int16VGMR
++ _$ss23_ContiguousArrayStorageCys5Int16VGMd
++ _$ss23_ContiguousArrayStorageCys5Int32VGMR
++ _$ss23_ContiguousArrayStorageCys5Int32VGMd
++ _$ss23_ContiguousArrayStorageCys5Int64VGMR
++ _$ss23_ContiguousArrayStorageCys5Int64VGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss23_ContiguousArrayStorageCys6UInt16VGMR
++ _$ss23_ContiguousArrayStorageCys6UInt16VGMd
++ _$ss23_ContiguousArrayStorageCys6UInt32VGMR
++ _$ss23_ContiguousArrayStorageCys6UInt32VGMd
++ _$ss23_ContiguousArrayStorageCys6UInt64VGMR
++ _$ss23_ContiguousArrayStorageCys6UInt64VGMd
++ _$ss23_ContiguousArrayStorageCys7UnicodeO6ScalarVGMR
++ _$ss23_ContiguousArrayStorageCys7UnicodeO6ScalarVGMd
++ _$ss23_ContiguousArrayStorageCyypGMR
++ _$ss23_ContiguousArrayStorageCyypGMd
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFSJ_s15EmptyCollectionVySJGTg5Tf4ndn_n
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFSd_s15EmptyCollectionVySdGTg5Tf4ndn_n
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFSi_s15EmptyCollectionVySiGTg5Tf4ndn_n
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFSu_s15EmptyCollectionVySuGTg5Tf4ndn_n
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFs4Int8V_s15EmptyCollectionVyAGGTg5Tf4ndn_n
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFs5Int16V_s15EmptyCollectionVyAGGTg5Tf4ndn_n
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFs5Int32V_s15EmptyCollectionVyAGGTg5Tf4ndn_n
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFs5Int64V_s15EmptyCollectionVyAGGTg5Tf4ndn_n
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFs5UInt8V_s15EmptyCollectionVyAGGTg5Tf4ndn_n
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFs6UInt16V_s15EmptyCollectionVyAGGTg5Tf4ndn_n
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFs6UInt32V_s15EmptyCollectionVyAGGTg5Tf4ndn_n
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFs6UInt64V_s15EmptyCollectionVyAGGTg5Tf4ndn_n
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFyp_s15EmptyCollectionVyypGTg5Tf4ndn_n
+- _$sSa16_copyToNewBuffer8oldCountySi_tFs6UInt64V_Tg5Tm
+- _$sSa9removeAll15keepingCapacityySb_tFs7UnicodeO6ScalarV_Tg5Tm
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSJ_Tg5Tm
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs6UInt64V_Tg5Tm
+- _$ss23_ContiguousArrayStorageCySJGMD
+- _$ss23_ContiguousArrayStorageCySS17UnicodeScalarViewVGMD
+- _$ss23_ContiguousArrayStorageCySS8UTF8ViewVGMD
+- _$ss23_ContiguousArrayStorageCySS9UTF16ViewVGMD
+- _$ss23_ContiguousArrayStorageCySSGMD
+- _$ss23_ContiguousArrayStorageCySdGMD
+- _$ss23_ContiguousArrayStorageCySfGMD
+- _$ss23_ContiguousArrayStorageCySiGMD
+- _$ss23_ContiguousArrayStorageCySnySiGGMD
+- _$ss23_ContiguousArrayStorageCySuGMD
+- _$ss23_ContiguousArrayStorageCys4Int8VGMD
+- _$ss23_ContiguousArrayStorageCys5Int16VGMD
+- _$ss23_ContiguousArrayStorageCys5Int32VGMD
+- _$ss23_ContiguousArrayStorageCys5Int64VGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss23_ContiguousArrayStorageCys6UInt16VGMD
+- _$ss23_ContiguousArrayStorageCys6UInt32VGMD
+- _$ss23_ContiguousArrayStorageCys6UInt64VGMD
+- _$ss23_ContiguousArrayStorageCys7UnicodeO6ScalarVGMD
+- _$ss23_ContiguousArrayStorageCyypGMD
+- ___swift_instantiateConcreteTypeFromMangledName
+
+```

@@ -1,0 +1,414 @@
+## CoreSpeechFoundation
+
+> `/System/Library/PrivateFrameworks/CoreSpeechFoundation.framework/CoreSpeechFoundation`
+
+```diff
+
+ 3505.25.1.0.0
+-  __TEXT.__text: 0xc33e0
++  __TEXT.__text: 0xc3410
+   __TEXT.__auth_stubs: 0x1ec0
+   __TEXT.__objc_methlist: 0xc690
+-  __TEXT.__const: 0x7f8
++  __TEXT.__const: 0x808
+   __TEXT.__dlopen_cstrs: 0x24a
+   __TEXT.__constg_swiftt: 0x240
+   __TEXT.__swift5_typeref: 0x185
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_types: 0x1c
+-  __TEXT.__cstring: 0x153ea
++  __TEXT.__cstring: 0x1540e
+   __TEXT.__swift5_fieldmd: 0x128
+   __TEXT.__swift5_reflstr: 0x84
+   __TEXT.__swift5_mpenum: 0x8
+
+   __DATA_CONST.__objc_arraydata: 0x198
+   __AUTH_CONST.__auth_got: 0xf78
+   __AUTH_CONST.__const: 0x1670
+-  __AUTH_CONST.__cfstring: 0x8f20
++  __AUTH_CONST.__cfstring: 0x8f40
+   __AUTH_CONST.__objc_const: 0x13418
+   __AUTH_CONST.__objc_dictobj: 0x1e0
+   __AUTH_CONST.__objc_intobj: 0x378
+
+   __AUTH_CONST.__objc_floatobj: 0x1a0
+   __AUTH.__objc_data: 0x1988
+   __DATA.__objc_ivar: 0xcbc
+-  __DATA.__data: 0x1470
++  __DATA.__data: 0x1478
+   __DATA.__bss: 0x8f8
+   __DATA_DIRTY.__objc_data: 0x2ba0
+-  __DATA_DIRTY.__data: 0x2d8
++  __DATA_DIRTY.__data: 0x2d0
+   __DATA_DIRTY.__bss: 0x400
+   __DATA_DIRTY.__common: 0x68
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3C4D0F2F-CAF0-3A98-9590-A8454B3E7DE6
++  UUID: 4C25C341-5DD2-3694-9294-F9D6357F4FC8
+   Functions: 4783
+   Symbols:   16235
+-  CStrings:  10178
++  CStrings:  10181
+ 
+Symbols:
++ _AudioConverterFillComplexBuffer_BlockInvoke.7321
++ ___Block_byref_object_copy_.12693
++ ___Block_byref_object_copy_.13094
++ ___Block_byref_object_copy_.13390
++ ___Block_byref_object_copy_.13638
++ ___Block_byref_object_copy_.14137
++ ___Block_byref_object_copy_.14709
++ ___Block_byref_object_copy_.14838
++ ___Block_byref_object_copy_.15706
++ ___Block_byref_object_copy_.3412
++ ___Block_byref_object_copy_.4731
++ ___Block_byref_object_copy_.4952
++ ___Block_byref_object_copy_.5792
++ ___Block_byref_object_copy_.6202
++ ___Block_byref_object_copy_.7916
++ ___Block_byref_object_copy_.8198
++ ___Block_byref_object_copy_.8647
++ ___Block_byref_object_copy_.9405
++ ___Block_byref_object_dispose_.12694
++ ___Block_byref_object_dispose_.13095
++ ___Block_byref_object_dispose_.13391
++ ___Block_byref_object_dispose_.13639
++ ___Block_byref_object_dispose_.14138
++ ___Block_byref_object_dispose_.14710
++ ___Block_byref_object_dispose_.14839
++ ___Block_byref_object_dispose_.15707
++ ___Block_byref_object_dispose_.3413
++ ___Block_byref_object_dispose_.4732
++ ___Block_byref_object_dispose_.4953
++ ___Block_byref_object_dispose_.5793
++ ___Block_byref_object_dispose_.6203
++ ___Block_byref_object_dispose_.7917
++ ___Block_byref_object_dispose_.8199
++ ___Block_byref_object_dispose_.8648
++ ___Block_byref_object_dispose_.9406
++ ___block_literal_global.10283
++ ___block_literal_global.10380
++ ___block_literal_global.11254
++ ___block_literal_global.11459
++ ___block_literal_global.11614
++ ___block_literal_global.11832
++ ___block_literal_global.11869
++ ___block_literal_global.12739
++ ___block_literal_global.13205
++ ___block_literal_global.13491
++ ___block_literal_global.13737
++ ___block_literal_global.14043
++ ___block_literal_global.14428
++ ___block_literal_global.14530
++ ___block_literal_global.14586
++ ___block_literal_global.14733
++ ___block_literal_global.14981
++ ___block_literal_global.15074
++ ___block_literal_global.15163
++ ___block_literal_global.15493
++ ___block_literal_global.15731
++ ___block_literal_global.178.8331
++ ___block_literal_global.183.8325
++ ___block_literal_global.20.13190
++ ___block_literal_global.275
++ ___block_literal_global.3140
++ ___block_literal_global.320.8249
++ ___block_literal_global.3324
++ ___block_literal_global.3432
++ ___block_literal_global.3729
++ ___block_literal_global.3883
++ ___block_literal_global.4152
++ ___block_literal_global.431
++ ___block_literal_global.44.8430
++ ___block_literal_global.458.8197
++ ___block_literal_global.4759
++ ___block_literal_global.49.8428
++ ___block_literal_global.4920
++ ___block_literal_global.4968
++ ___block_literal_global.5560
++ ___block_literal_global.5644
++ ___block_literal_global.6424
++ ___block_literal_global.6571
++ ___block_literal_global.6639
++ ___block_literal_global.6696
++ ___block_literal_global.6813
++ ___block_literal_global.6831
++ ___block_literal_global.7026
++ ___block_literal_global.7089
++ ___block_literal_global.7149
++ ___block_literal_global.7250
++ ___block_literal_global.7286
++ ___block_literal_global.7571
++ ___block_literal_global.8454
++ ___block_literal_global.8475
++ ___block_literal_global.8530
++ ___block_literal_global.8932
++ ___block_literal_global.8994
++ ___block_literal_global.9140
++ ___block_literal_global.9197
++ ___block_literal_global.9432
++ ___block_literal_global.9739
++ ___block_literal_global.9870
++ ___block_literal_global.9978
++ ___swift_instantiateConcreteTypeFromMangledNameV2
++ _sharedHandler.onceToken.12738
++ _sharedHandler.sharedHandler.12740
++ _sharedInstance._sharedInstance.10381
++ _sharedInstance._sharedInstance.11255
++ _sharedInstance._sharedInstance.11870
++ _sharedInstance._sharedInstance.14531
++ _sharedInstance._sharedInstance.14587
++ _sharedInstance._sharedInstance.15075
++ _sharedInstance._sharedInstance.15164
++ _sharedInstance._sharedInstance.4153
++ _sharedInstance._sharedInstance.4921
++ _sharedInstance._sharedInstance.5561
++ _sharedInstance._sharedInstance.6425
++ _sharedInstance._sharedInstance.7027
++ _sharedInstance._sharedInstance.7251
++ _sharedInstance._sharedInstance.7572
++ _sharedInstance.onceToken.10379
++ _sharedInstance.onceToken.11253
++ _sharedInstance.onceToken.11458
++ _sharedInstance.onceToken.11868
++ _sharedInstance.onceToken.13490
++ _sharedInstance.onceToken.14529
++ _sharedInstance.onceToken.14585
++ _sharedInstance.onceToken.14980
++ _sharedInstance.onceToken.15073
++ _sharedInstance.onceToken.15162
++ _sharedInstance.onceToken.15492
++ _sharedInstance.onceToken.15730
++ _sharedInstance.onceToken.3431
++ _sharedInstance.onceToken.3882
++ _sharedInstance.onceToken.4151
++ _sharedInstance.onceToken.4758
++ _sharedInstance.onceToken.4919
++ _sharedInstance.onceToken.4967
++ _sharedInstance.onceToken.5559
++ _sharedInstance.onceToken.6423
++ _sharedInstance.onceToken.6570
++ _sharedInstance.onceToken.6812
++ _sharedInstance.onceToken.7025
++ _sharedInstance.onceToken.7249
++ _sharedInstance.onceToken.7570
++ _sharedInstance.onceToken.8474
++ _sharedInstance.onceToken.8529
++ _sharedInstance.onceToken.8993
++ _sharedInstance.onceToken.9196
++ _sharedInstance.onceToken.9738
++ _sharedInstance.onceToken.9869
++ _sharedInstance.onceToken.9977
++ _sharedInstance.sharedInstance.11460
++ _sharedInstance.sharedInstance.13492
++ _sharedInstance.sharedInstance.14982
++ _sharedInstance.sharedInstance.15494
++ _sharedInstance.sharedInstance.15732
++ _sharedInstance.sharedInstance.3433
++ _sharedInstance.sharedInstance.3884
++ _sharedInstance.sharedInstance.4969
++ _sharedInstance.sharedInstance.6572
++ _sharedInstance.sharedInstance.8476
++ _sharedInstance.sharedInstance.8995
++ _sharedInstance.sharedInstance.9198
++ _sharedInstance.sharedInstance.9871
++ _sharedInstance.sharedInstance.9979
++ _sharedInstance.sharedManager.6814
++ _sharedInstance.sharedManager.8531
++ _sharedLogger.onceToken.14042
++ _sharedLogger.onceToken.6638
++ _sharedLogger.onceToken.6830
++ _sharedLogger.shared.14044
++ _sharedManager.onceToken.14732
++ _sharedManager.onceToken.3323
++ _sharedManager.sharedManager.14734
++ _sharedMonitor.onceToken.5643
++ _sharedMonitor.sharedMonitor.5645
++ _sharedPreferences.onceToken.8931
+- _AudioConverterFillComplexBuffer_BlockInvoke.7322
+- ___Block_byref_object_copy_.12698
+- ___Block_byref_object_copy_.13099
+- ___Block_byref_object_copy_.13395
+- ___Block_byref_object_copy_.13643
+- ___Block_byref_object_copy_.14142
+- ___Block_byref_object_copy_.14714
+- ___Block_byref_object_copy_.14843
+- ___Block_byref_object_copy_.15711
+- ___Block_byref_object_copy_.3413
+- ___Block_byref_object_copy_.4733
+- ___Block_byref_object_copy_.4954
+- ___Block_byref_object_copy_.5794
+- ___Block_byref_object_copy_.6204
+- ___Block_byref_object_copy_.7919
+- ___Block_byref_object_copy_.8201
+- ___Block_byref_object_copy_.8651
+- ___Block_byref_object_copy_.9409
+- ___Block_byref_object_dispose_.12699
+- ___Block_byref_object_dispose_.13100
+- ___Block_byref_object_dispose_.13396
+- ___Block_byref_object_dispose_.13644
+- ___Block_byref_object_dispose_.14143
+- ___Block_byref_object_dispose_.14715
+- ___Block_byref_object_dispose_.14844
+- ___Block_byref_object_dispose_.15712
+- ___Block_byref_object_dispose_.3414
+- ___Block_byref_object_dispose_.4734
+- ___Block_byref_object_dispose_.4955
+- ___Block_byref_object_dispose_.5795
+- ___Block_byref_object_dispose_.6205
+- ___Block_byref_object_dispose_.7920
+- ___Block_byref_object_dispose_.8202
+- ___Block_byref_object_dispose_.8652
+- ___Block_byref_object_dispose_.9410
+- ___block_literal_global.10287
+- ___block_literal_global.10384
+- ___block_literal_global.11259
+- ___block_literal_global.11464
+- ___block_literal_global.11619
+- ___block_literal_global.11837
+- ___block_literal_global.11874
+- ___block_literal_global.12744
+- ___block_literal_global.13210
+- ___block_literal_global.13496
+- ___block_literal_global.13742
+- ___block_literal_global.14048
+- ___block_literal_global.14433
+- ___block_literal_global.14535
+- ___block_literal_global.14591
+- ___block_literal_global.14738
+- ___block_literal_global.14986
+- ___block_literal_global.15079
+- ___block_literal_global.15168
+- ___block_literal_global.15498
+- ___block_literal_global.15736
+- ___block_literal_global.178.8335
+- ___block_literal_global.183.8329
+- ___block_literal_global.20.13195
+- ___block_literal_global.271.8271
+- ___block_literal_global.3141
+- ___block_literal_global.320.8252
+- ___block_literal_global.3325
+- ___block_literal_global.3433
+- ___block_literal_global.3730
+- ___block_literal_global.3884
+- ___block_literal_global.4153
+- ___block_literal_global.427
+- ___block_literal_global.44.8434
+- ___block_literal_global.458.8200
+- ___block_literal_global.4761
+- ___block_literal_global.49.8432
+- ___block_literal_global.4922
+- ___block_literal_global.4970
+- ___block_literal_global.5562
+- ___block_literal_global.5646
+- ___block_literal_global.6426
+- ___block_literal_global.6573
+- ___block_literal_global.6641
+- ___block_literal_global.6698
+- ___block_literal_global.6814
+- ___block_literal_global.6832
+- ___block_literal_global.7027
+- ___block_literal_global.7090
+- ___block_literal_global.7150
+- ___block_literal_global.7251
+- ___block_literal_global.7287
+- ___block_literal_global.7572
+- ___block_literal_global.8458
+- ___block_literal_global.8479
+- ___block_literal_global.8534
+- ___block_literal_global.8936
+- ___block_literal_global.8998
+- ___block_literal_global.9144
+- ___block_literal_global.9201
+- ___block_literal_global.9436
+- ___block_literal_global.9743
+- ___block_literal_global.9874
+- ___block_literal_global.9982
+- ___swift_instantiateConcreteTypeFromMangledName
+- _sharedHandler.onceToken.12743
+- _sharedHandler.sharedHandler.12745
+- _sharedInstance._sharedInstance.10385
+- _sharedInstance._sharedInstance.11260
+- _sharedInstance._sharedInstance.11875
+- _sharedInstance._sharedInstance.14536
+- _sharedInstance._sharedInstance.14592
+- _sharedInstance._sharedInstance.15080
+- _sharedInstance._sharedInstance.15169
+- _sharedInstance._sharedInstance.4154
+- _sharedInstance._sharedInstance.4923
+- _sharedInstance._sharedInstance.5563
+- _sharedInstance._sharedInstance.6427
+- _sharedInstance._sharedInstance.7028
+- _sharedInstance._sharedInstance.7252
+- _sharedInstance._sharedInstance.7573
+- _sharedInstance.onceToken.10383
+- _sharedInstance.onceToken.11258
+- _sharedInstance.onceToken.11463
+- _sharedInstance.onceToken.11873
+- _sharedInstance.onceToken.13495
+- _sharedInstance.onceToken.14534
+- _sharedInstance.onceToken.14590
+- _sharedInstance.onceToken.14985
+- _sharedInstance.onceToken.15078
+- _sharedInstance.onceToken.15167
+- _sharedInstance.onceToken.15497
+- _sharedInstance.onceToken.15735
+- _sharedInstance.onceToken.3432
+- _sharedInstance.onceToken.3883
+- _sharedInstance.onceToken.4152
+- _sharedInstance.onceToken.4760
+- _sharedInstance.onceToken.4921
+- _sharedInstance.onceToken.4969
+- _sharedInstance.onceToken.5561
+- _sharedInstance.onceToken.6425
+- _sharedInstance.onceToken.6572
+- _sharedInstance.onceToken.6813
+- _sharedInstance.onceToken.7026
+- _sharedInstance.onceToken.7250
+- _sharedInstance.onceToken.7571
+- _sharedInstance.onceToken.8478
+- _sharedInstance.onceToken.8533
+- _sharedInstance.onceToken.8997
+- _sharedInstance.onceToken.9200
+- _sharedInstance.onceToken.9742
+- _sharedInstance.onceToken.9873
+- _sharedInstance.onceToken.9981
+- _sharedInstance.sharedInstance.11465
+- _sharedInstance.sharedInstance.13497
+- _sharedInstance.sharedInstance.14987
+- _sharedInstance.sharedInstance.15499
+- _sharedInstance.sharedInstance.15737
+- _sharedInstance.sharedInstance.3434
+- _sharedInstance.sharedInstance.3885
+- _sharedInstance.sharedInstance.4971
+- _sharedInstance.sharedInstance.6574
+- _sharedInstance.sharedInstance.8480
+- _sharedInstance.sharedInstance.8999
+- _sharedInstance.sharedInstance.9202
+- _sharedInstance.sharedInstance.9875
+- _sharedInstance.sharedInstance.9983
+- _sharedInstance.sharedManager.6815
+- _sharedInstance.sharedManager.8535
+- _sharedLogger.onceToken.14047
+- _sharedLogger.onceToken.6640
+- _sharedLogger.onceToken.6831
+- _sharedLogger.shared.14049
+- _sharedManager.onceToken.14737
+- _sharedManager.onceToken.3324
+- _sharedManager.sharedManager.14739
+- _sharedMonitor.onceToken.5645
+- _sharedMonitor.sharedMonitor.5647
+- _sharedPreferences.onceToken.8935
+Functions:
+~ sub_1dd1fe96c -> sub_1dda5196c : 188 -> 196
+~ ___swift_instantiateConcreteTypeFromMangledName -> ___swift_instantiateConcreteTypeFromMangledNameV2 : 76 -> 72
+~ ___28+[CSUtils isExclaveHardware]_block_invoke : 480 -> 524
+CStrings:
++ "support_secure_platform_t8142"
++ "t8142"
+
+```

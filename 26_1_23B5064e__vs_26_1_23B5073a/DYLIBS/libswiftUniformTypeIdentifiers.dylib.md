@@ -1,0 +1,102 @@
+## libswiftUniformTypeIdentifiers.dylib
+
+> `/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib`
+
+```diff
+
+ 879.1.7.0.0
+-  __TEXT.__text: 0x96a4
++  __TEXT.__text: 0x9768
+   __TEXT.__auth_stubs: 0x7d0
+   __TEXT.__objc_methlist: 0x2c
+-  __TEXT.__const: 0x954
++  __TEXT.__const: 0x9f4
+   __TEXT.__cstring: 0x289
+   __TEXT.__constg_swiftt: 0x164
+   __TEXT.__swift5_typeref: 0x2ac
+
+   __AUTH_CONST.__const: 0x5f0
+   __AUTH_CONST.__objc_const: 0x60
+   __AUTH.__objc_data: 0x48
+-  __DATA.__data: 0x130
++  __DATA.__data: 0x140
+   __DATA.__bss: 0xe00
+   __DATA.__common: 0x1
+   __DATA_DIRTY.__objc_data: 0x68
+-  __DATA_DIRTY.__data: 0x68
++  __DATA_DIRTY.__data: 0x58
+   __DATA_DIRTY.__bss: 0x380
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: 2719D61C-B3C6-3B7D-BD3B-A1EAFFD5CFB2
++  UUID: 9E40F4D6-B953-3E9C-B7A6-4AB9C21122E2
+   Functions: 479
+-  Symbols:   1566
++  Symbols:   1584
+   CStrings:  85
+ 
+Symbols:
++ _$s10Foundation3URLVSgMR
++ _$s10Foundation3URLVSgMd
++ _$s22UniformTypeIdentifiers10UTTagClassV_SaySSGtMR
++ _$s22UniformTypeIdentifiers10UTTagClassV_SaySSGtMd
++ _$sSaySSGMR
++ _$sSaySSGMd
++ _$sSays5UInt8VGMR
++ _$sSays5UInt8VGMd
++ _$ss18_DictionaryStorageCy22UniformTypeIdentifiers10UTTagClassVSaySSGGMR
++ _$ss18_DictionaryStorageCy22UniformTypeIdentifiers10UTTagClassVSaySSGGMd
++ _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers10UTTagClassV11_CodingKeys33_6A910D5F85C8C37FBC9BC447E96EB0F9LLOGMR
++ _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers10UTTagClassV11_CodingKeys33_6A910D5F85C8C37FBC9BC447E96EB0F9LLOGMd
++ _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers10UTTagClassV11_CodingKeys33_6A910D5F85C8C37FBC9BC447E96EB0F9LLOGSgMR
++ _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers10UTTagClassV11_CodingKeys33_6A910D5F85C8C37FBC9BC447E96EB0F9LLOGSgMd
++ _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers15UTHardwareColorO10_CodingKey33_1E36A38C3724EA4FE2A14BF669E4DE51LLOGMR
++ _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers15UTHardwareColorO10_CodingKey33_1E36A38C3724EA4FE2A14BF669E4DE51LLOGMd
++ _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers6UTTypeV11_CodingKeys33_69DEE751C5463127999ABD487FB5EFE8LLOGMR
++ _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers6UTTypeV11_CodingKeys33_69DEE751C5463127999ABD487FB5EFE8LLOGMd
++ _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers6UTTypeV11_CodingKeys33_69DEE751C5463127999ABD487FB5EFE8LLOGSgMR
++ _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers6UTTypeV11_CodingKeys33_69DEE751C5463127999ABD487FB5EFE8LLOGSgMd
++ _$ss22KeyedEncodingContainerVy22UniformTypeIdentifiers10UTTagClassV11_CodingKeys33_6A910D5F85C8C37FBC9BC447E96EB0F9LLOGMR
++ _$ss22KeyedEncodingContainerVy22UniformTypeIdentifiers10UTTagClassV11_CodingKeys33_6A910D5F85C8C37FBC9BC447E96EB0F9LLOGMd
++ _$ss22KeyedEncodingContainerVy22UniformTypeIdentifiers15UTHardwareColorO10_CodingKey33_1E36A38C3724EA4FE2A14BF669E4DE51LLOGMR
++ _$ss22KeyedEncodingContainerVy22UniformTypeIdentifiers15UTHardwareColorO10_CodingKey33_1E36A38C3724EA4FE2A14BF669E4DE51LLOGMd
++ _$ss22KeyedEncodingContainerVy22UniformTypeIdentifiers6UTTypeV11_CodingKeys33_69DEE751C5463127999ABD487FB5EFE8LLOGMR
++ _$ss22KeyedEncodingContainerVy22UniformTypeIdentifiers6UTTypeV11_CodingKeys33_69DEE751C5463127999ABD487FB5EFE8LLOGMd
++ _$ss23_ContiguousArrayStorageCy22UniformTypeIdentifiers10UTTagClassV_SaySSGtGMR
++ _$ss23_ContiguousArrayStorageCy22UniformTypeIdentifiers10UTTagClassV_SaySSGtGMd
++ _$ss23_ContiguousArrayStorageCy22UniformTypeIdentifiers15UTHardwareColorOGMR
++ _$ss23_ContiguousArrayStorageCy22UniformTypeIdentifiers15UTHardwareColorOGMd
++ _$ss23_ContiguousArrayStorageCy22UniformTypeIdentifiers6UTTypeVGMR
++ _$ss23_ContiguousArrayStorageCy22UniformTypeIdentifiers6UTTypeVGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10Foundation3URLVSgMD
+- _$s22UniformTypeIdentifiers10UTTagClassV_SaySSGtMD
+- _$sSaySSGMD
+- _$sSays5UInt8VGMD
+- _$ss18_DictionaryStorageCy22UniformTypeIdentifiers10UTTagClassVSaySSGGMD
+- _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers10UTTagClassV11_CodingKeys33_6A910D5F85C8C37FBC9BC447E96EB0F9LLOGMD
+- _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers10UTTagClassV11_CodingKeys33_6A910D5F85C8C37FBC9BC447E96EB0F9LLOGSgMD
+- _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers15UTHardwareColorO10_CodingKey33_1E36A38C3724EA4FE2A14BF669E4DE51LLOGMD
+- _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers6UTTypeV11_CodingKeys33_69DEE751C5463127999ABD487FB5EFE8LLOGMD
+- _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers6UTTypeV11_CodingKeys33_69DEE751C5463127999ABD487FB5EFE8LLOGSgMD
+- _$ss22KeyedEncodingContainerVy22UniformTypeIdentifiers10UTTagClassV11_CodingKeys33_6A910D5F85C8C37FBC9BC447E96EB0F9LLOGMD
+- _$ss22KeyedEncodingContainerVy22UniformTypeIdentifiers15UTHardwareColorO10_CodingKey33_1E36A38C3724EA4FE2A14BF669E4DE51LLOGMD
+- _$ss22KeyedEncodingContainerVy22UniformTypeIdentifiers6UTTypeV11_CodingKeys33_69DEE751C5463127999ABD487FB5EFE8LLOGMD
+- _$ss23_ContiguousArrayStorageCy22UniformTypeIdentifiers10UTTagClassV_SaySSGtGMD
+- _$ss23_ContiguousArrayStorageCy22UniformTypeIdentifiers15UTHardwareColorOGMD
+- _$ss23_ContiguousArrayStorageCy22UniformTypeIdentifiers6UTTypeVGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss5Error_pMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+
+```

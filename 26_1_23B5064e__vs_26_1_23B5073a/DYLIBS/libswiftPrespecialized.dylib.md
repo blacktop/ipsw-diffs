@@ -1,0 +1,237 @@
+## libswiftPrespecialized.dylib
+
+> `/usr/lib/libswiftPrespecialized.dylib`
+
+```diff
+
+ 0.0.0.0.0
+   __TEXT.__text: 0x0
+   __TEXT.__lldb_no_nlist: 0x0
+-  __DATA_CONST.__const: 0x2c8978
+-  __DATA_CONST.__ptrhashtab: 0x17638
+-  __DATA_CONST.__ptrhashtabkey: 0x26680
+-  __AUTH_CONST.__const: 0x50bf0
++  __DATA_CONST.__const: 0x2c8640
++  __DATA_CONST.__ptrhashtab: 0x17628
++  __DATA_CONST.__ptrhashtabkey: 0x26660
++  __AUTH_CONST.__const: 0x50b60
+   __AUTH.__data: 0xcd988
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 6CF859AE-96E0-37A8-A787-ACA1BAF129AE
++  UUID: EE247098-DA1C-34FA-AFB3-A294AF9567C2
+   Functions: 0
+-  Symbols:   138379
++  Symbols:   138353
+   CStrings:  0
+ 
+Symbols:
++ _$s10MapsDesign21InsetGroupedUIPlatterVMn
++ _$s11EmailDaemon19MailMessageEntityIDV7VersionOMn
++ _$s12FamilyCircle0A16UserDefaultsKeysCMn
++ _$s12GameStoreKit24AccessPointMetricsHelperO10actionKeysOMn
++ _$s12GameStoreKit24AccessPointMetricsHelperO10actionTypeOMn
++ _$s12GameStoreKit24AccessPointMetricsHelperO10targetTypeOMn
++ _$s12GameStoreKit24AccessPointMetricsHelperO11pageContextOMn
++ _$s12GameStoreKit24AccessPointMetricsHelperO14impressionKeysOMn
++ _$s12GameStoreKit24AccessPointMetricsHelperO14impressionTypeOMn
++ _$s12GameStoreKit24AccessPointMetricsHelperO6pageIdOMn
++ _$s12GameStoreKit24AccessPointMetricsHelperO8pageTypeOMn
++ _$s12GameStoreKit24AccessPointMetricsHelperO8targetIdOMn
++ _$s12GameStoreKit24AccessPointMetricsHelperO9eventTypeOMn
++ _$s12GameStoreKit24AccessPointMetricsHelperOMn
++ _$s13FitnessCoreUI15HiddenTitleViewCMn
++ _$s14AppleIDSetupUI27SafetySettingsFlowPresenterCMn
++ _$s14IMDPersistence37IMDChatQueriesGroupNameAndPhotoHelperCMn
++ _$s15PhotosUIPrivate30OneUpChromeUserDefaultsWrapperC11PocketStyleOMn
++ _$s15PhotosUIPrivate30OneUpChromeUserDefaultsWrapperC18BarElementPositionOMn
++ _$s15PhotosUIPrivate30OneUpChromeUserDefaultsWrapperCMn
++ _$s15PhotosUIPrivate38OneUpChromeBackgroundColorOverrideModeOMn
++ _$s15PhotosUIPrivate38OneUpScaledVideoOffsetAdjustmentPolicyCMn
++ _$s15PhotosUIPrivate39ScaledVideoOffsetAdjustmentPolicyResultOMn
++ _$s16CallsAppServices25RecentsUnreadCountManagerCMn
++ _$s16CommunicationsUI22UnknownContactCheckingMp
++ _$s16CommunicationsUI25ContactDetailsCoordinatorCMn
++ _$s16CommunicationsUI26ContactBlockReportHandlingMp
++ _$s16CommunicationsUI26ContactBlockReportHandlingP010shouldShowdE7Actions3for8callItemSbSo9CNContactC_So12CHRecentCallCSgtFTq
++ _$s16CommunicationsUI29ContactDetailsDataControllingMp
++ _$s16CommunicationsUI34DetailsViewControllerConfigurationMp
++ _$s16CommunicationsUI9BadgeHostVMn
++ _$s17CoreSuggestionsUI21SGBannerContainerViewV4bodyQrvpQOMQ
++ _$s17IMSharedUtilities25IMGroupNameAndPhotoHelperCMn
++ _$s17IndexingAnalytics8ItemKindO8allCasesSayACGvpZMV
++ _$s17PhotosSwiftUICore0A35LegibilityBlurAlternativeTextShadowVMn
++ _$s17PhotosSwiftUICore23OneUpChromeUserDefaultsOMn
++ _$s18AppleMediaServices12MetricsQueueP11flushEventsyyFTq
++ _$s19FitnessIntelligence21StreamingAvailabilityVMn
++ _$s20CommunicationDetails25QuickActionsContainerViewC4view13forActionTypeSo09CNContactcI12Presentation_So6UIViewCXcSS_tFTq
++ _$s20CommunicationsUICore20ContactStoreProviderCMn
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusC6ConfigVMn
++ _$s20GamePolicyFoundation012ModelManagerA15AssertionStatusCMn
++ _$s20GamePolicyFoundation012ModelManagerB8StrategyOMn
++ _$s20GamePolicyFoundation012ModelManagera9AssertionB0OMn
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessC9hashValueSivgTq
++ _$s20GamePolicyFoundation08EmbeddedA7ProcessCMn
++ _$s20GamePolicyFoundation0A10ModeStatusC6ConfigVMn
++ _$s20GamePolicyFoundation0A10ModeStatusCMn
++ _$s20GamePolicyFoundation17GlobalPreferencesCMn
++ _$s20GamePolicyFoundation21DynamicSplitterStatusC6ConfigVMn
++ _$s20GamePolicyFoundation21DynamicSplitterStatusCMn
++ _$s20GamePolicyFoundation22ModeEnablementStrategyOMn
++ _$s20GamePolicyFoundation24SustainedExecutionStatusC6ConfigVMn
++ _$s20GamePolicyFoundation24SustainedExecutionStatusCMn
++ _$s20GamePolicyFoundation29ConsoleModeEnablementStrategyOMn
++ _$s20GamePolicyFoundation9SEMPolicyOMn
++ _$s20ServicesIntelligence20PerformanceTrackableMp
++ _$s22AuthenticationServices24ASAuthorizationUIContextV6HeaderV5TitleO4textSSvpMV
++ _$s22SearchIntrospectionKit10MailClientVMn
++ _$s22SearchIntrospectionKit13SettingsQueryC5coderACSgSo7NSCoderC_tcfCTq
++ _$s22SearchIntrospectionKit13SettingsQueryCMn
++ _$s22SearchIntrospectionKit14SIMailResponseCMn
++ _$s22SearchIntrospectionKit14SettingsClientVMn
++ _$s22SearchIntrospectionKit15SpotlightClientVMn
++ _$s22SearchIntrospectionKit16SIQueryTransportCMn
++ _$s22SearchIntrospectionKit17ApplicationClientOMn
++ _$s22SearchIntrospectionKit17SIDefaultsManagerC17isDeviceUnderTestSbyFTq
++ _$s22SearchIntrospectionKit18SIDataManagerErrorOMn
++ _$s22SearchIntrospectionKit18SISettingsResponseCMn
++ _$s22SearchIntrospectionKit19SIResponseTransportCMn
++ _$s22SearchIntrospectionKit21SIQueryTransportErrorOMn
++ _$s22SearchIntrospectionKit9MailQueryC5coderACSgSo7NSCoderC_tcfCTq
++ _$s22SearchIntrospectionKit9MailQueryCMn
++ _$s24_PhotosUIPrivate_SwiftUI0A16ComponentSectionVMn
++ _$s41_CommunicationsUICore_PosterBoardServices0C5ErrorO021failedToAcceptPendingC0yA2CmFWC
++ _$s41_CommunicationsUICore_PosterBoardServices11DimmingViewC14GradientValuesVMn
++ _$s41_CommunicationsUICore_PosterBoardServices11DimmingViewCMn
++ _$s6IMCore22ImportExportStatisticsPAAE10hasStartedSbvpMV
++ _$s7SwiftUI4ViewP20TextAnimationSupportE023textGlassWipeTransitionH10SubvariantyQrSSSgFQOMQ
++ _$s7SwiftUI4ViewPAAE03tabC15BottomAccessory9isEnabled7contentQrSb_qd__yXEtAaBRd__lFQOMQ
++ _$s9PassKitUI020FlightWidgetProgressD11StepContentV0dG4TypeOMn
++ _$s9PassKitUI020FlightWidgetProgressD11StepContentVMn
++ _$s9PassKitUI17CurvedProgressBarV4bodyQrvpQOMQ
++ _$s9PassKitUI17CurvedProgressBarVMn
++ _$s9PassKitUI25FlightWidgetPreflightViewV4bodyQrvpQOMQ
++ _$s9PassKitUI25FlightWidgetPreflightViewVMn
++ _$s9PassKitUI26FlightWidgetArrivedContentVMn
++ _$s9PassKitUI27FlightWidgetProgressContentVMn
++ _$s9PassKitUI28FlightWidgetPreflightContentVMn
++ _$sSo14STExceptionAppC13AskPermissionE15deleteExceptionyyABYaKFZTu
++ _$sSo21MPContactSearchResultC8PhoneKitE2idSSvpMV
+- _$s10GamePolicy012ModelManagerA15AssertionStatusC6ConfigVMn
+- _$s10GamePolicy012ModelManagerA15AssertionStatusCMn
+- _$s10GamePolicy012ModelManagerB8StrategyOMn
+- _$s10GamePolicy012ModelManagera9AssertionB0OMn
+- _$s10GamePolicy0A10ModeStatusC6ConfigVMn
+- _$s10GamePolicy0A10ModeStatusCMn
+- _$s10GamePolicy21DynamicSplitterStatusC6ConfigVMn
+- _$s10GamePolicy21DynamicSplitterStatusCMn
+- _$s10GamePolicy22ModeEnablementStrategyOMn
+- _$s10GamePolicy24SustainedExecutionStatusC6ConfigVMn
+- _$s10GamePolicy24SustainedExecutionStatusCMn
+- _$s10GamePolicy29ConsoleModeEnablementStrategyOMn
+- _$s10GamePolicy9SEMPolicyOMn
+- _$s14IMDPersistence29IMDChatQueriesKnownChatHelperCMn
+- _$s15PhotosUIPrivate39OneUpChromeMarginsBottomInsetStabilizerCACycfCTq
+- _$s15PhotosUIPrivate39OneUpChromeMarginsBottomInsetStabilizerCMn
+- _$s16CommunicationsUI15ButtonStackViewV4bodyQrvpQOMQ
+- _$s16CommunicationsUI18DoubleLineCellViewV4bodyQrvpQOMQ
+- _$s16CommunicationsUI31VoicemailControlServiceProtocolP013requestSendToC0yyFTq
+- _$s17IMSharedUtilities17IMKnownChatHelperCMn
+- _$s17IndexingAnalytics8ItemKindO9hashValueSivpMV
+- _$s18AppleMediaServices0B12RestrictionsVMn
+- _$s18AppleMediaServices0B17RestrictionsErrorOMn
+- _$s18AppleMediaServices0B20RestrictionsBagModelVMn
+- _$s18AppleMediaServices0B21RestrictionsPerformerCMn
+- _$s18AppleMediaServices0B22RestrictionsQRAuthTaskCMn
+- _$s18AppleMediaServices0B24RestrictionsQRAuthResultVMn
+- _$s18AppleMediaServices0B25RestrictionsConfigurationVMn
+- _$s18AppleMediaServices0B29RestrictionsQRAuthSetupResultVMn
+- _$s18AppleMediaServices0B30RestrictionsQRAuthTaskDelegateMp
+- _$s18AppleMediaServices0B30RestrictionsQRAuthTaskDelegateP06qrAuthF0_16didFailWithErroryAA0bdeF0C_s0M0_ptFTq
+- _$s18AppleMediaServices0B31RestrictionsQRAuthPollingResultVMn
+- _$s18AppleMediaServices20RestrictionValueTypeOMn
+- _$s18AppleMediaServices21KeychainStoreProtocolP10deleteDataSbyFTq
+- _$s20CommunicationsUICore34CallTranslationBiomeLanguageSourceOMn
+- _$s20CommunicationsUICore39CallTranslationBiomeLanguageControllingMp
+- _$s22AuthenticationServices24ASAuthorizationUIContextV10MainButtonV0F4TextO4textSSvpMV
+- _$s22SearchIntrospectionKit15SpotlightClientOMn
+- _$s22SearchIntrospectionKit19SpotlightQueryErrorOMn
+- _$s22SearchIntrospectionKit24SpotlightQueryControllerCMn
+- _$s22SearchIntrospectionKit29SpotlightQueryControllerErrorOMn
+- _$s41_CommunicationsUICore_PosterBoardServices0C14ViewControllerC5ModelC7contact0I5Store0I15NameLayoutGuide012externalTextfG0017prefersHorizontaloL0032sensitiveContentWarningCenteringlM0011showContactk2InC0AESo9CNContactC_So0yJ0CSo08UILayoutM0CSgSo06UIViewG0CSgSbASSbtcfCTq
+- _$s41_CommunicationsUICore_PosterBoardServices16DimmingDirectionOMn
+- _$s6IMCore22ImportExportStatisticsPAAE9isRunningSbvpMV
+- _$s7SwiftUI15ModifiedContentVy07PassKitB024FlightWidgetProgressViewVAA12_FrameLayoutVG
+- _$s7SwiftUI15ModifiedContentVy07PassKitB024FlightWidgetProgressViewVAA12_FrameLayoutVG_built_VWT
+- _$s7SwiftUI4ViewP014CommunicationsB0E10dropShadow10blurRadius12contentShapeQrSd_AA0J0_ptFQOMQ
+- _$s7SwiftUI4ViewP014CommunicationsB0E9pushToTopQryFQOMQ
+- _$s7SwiftUI4ViewP20TextAnimationSupportE39textGlassWipeTransitionAODProgressProxyyQrAD0kL0CSgFQOMQ
+- _$s7SwiftUI4ViewPAAE03tabC15BottomAccessory7contentQrqd__yXE_tAaBRd__lFQOMQ
+- _$s9BlastDoor10CryptoKeysVMn
+- _$s9BlastDoor10FMDMessageVMn
+- _$s9BlastDoor10PrivateKeyVMn
+- _$s9BlastDoor11requestKeysVMn
+- _$s9BlastDoor11shareBeaconVMn
+- _$s9BlastDoor13unshareBeaconVMn
+- _$s9BlastDoor14FMDMessageTypeOMn
+- _$s9BlastDoor14TVPPayloadTypeOMn
+- _$s9BlastDoor17BeaconObservationVMn
+- _$s9BlastDoor17acceptShareBeaconVMn
+- _$s9BlastDoor18FMFContainerPacketVMn
+- _$s9BlastDoor18FamilyCryptoKeysV1VMn
+- _$s9BlastDoor18FamilyCryptoKeysV2VMn
+- _$s9BlastDoor18KeyRequestEnvelopeVMn
+- _$s9BlastDoor18MMCSAttachmentInfoVMn
+- _$s9BlastDoor18SharedBeaconRecordV14LostModeStatusOMn
+- _$s9BlastDoor18SharedBeaconRecordV9ShareTypeOMn
+- _$s9BlastDoor18SharedBeaconRecordVMn
+- _$s9BlastDoor18declineShareBeaconVMn
+- _$s9BlastDoor18updateSharedBeaconVMn
+- _$s9BlastDoor19HashedAdvertisementVMn
+- _$s9BlastDoor19LegacyShareEnvelopeVMn
+- _$s9BlastDoor19PropertyListContentVMn
+- _$s9BlastDoor20MessagingDestinationV0D4TypeOMn
+- _$s9BlastDoor20MessagingDestinationVMn
+- _$s9BlastDoor21FamilyShareEnvelopeV1VMn
+- _$s9BlastDoor22FMFContainerOwnerTokenVMn
+- _$s9BlastDoor22FindingTokenEnvelopeV1VMn
+- _$s9BlastDoor22IDSNiceResourceMessageVMn
+- _$s9BlastDoor22SessionMessagingInviteVMn
+- _$s9BlastDoor22forwardSeparationEventVMn
+- _$s9BlastDoor23FindingConfigEnvelopeV1VMn
+- _$s9BlastDoor24FMFContainerFindingTokenVMn
+- _$s9BlastDoor24SelfBeaconingKeyEnvelopeVMn
+- _$s9BlastDoor24removeSecureLocationsKeyVMn
+- _$s9BlastDoor24secureLocationsKeyUpdateVMn
+- _$s9BlastDoor25FMFContainerMappingPacketVMn
+- _$s9BlastDoor27fetchSeparationStateRequestVMn
+- _$s9BlastDoor27secureLocationsKeyUpdateAckVMn
+- _$s9BlastDoor28FindingTokenRevokeEnvelopeV1VMn
+- _$s9BlastDoor28fetchFromCloudKitImmediatelyVMn
+- _$s9BlastDoor28fetchSeparationStateResponseVMn
+- _$s9BlastDoor29FMFContainerFindingConfigDataVMn
+- _$s9BlastDoor29FindingTokenRequestEnvelopeV1VMn
+- _$s9BlastDoor30FMFContainerRevokeFindingTokenVMn
+- _$s9BlastDoor31FMFContainerRequestFindingTokenVMn
+- _$s9BlastDoor32FindMyAccessoryFamilyKeyEnvelopeVMn
+- _$s9BlastDoor32FindMyAirPodsFamilyShareEnvelopeVMn
+- _$s9BlastDoor32RemoveSecureLocationsKeyEnvelopeVMn
+- _$s9BlastDoor32SecureLocationsKeyUpdateEnvelopeVMn
+- _$s9BlastDoor34FindMyAccessoryFamilyShareEnvelopeVMn
+- _$s9BlastDoor34FindingConfigSessionStopEnvelopeV1VMn
+- _$s9BlastDoor35SecureLocationsKeyUpdateAckEnvelopeVMn
+- _$s9BlastDoor36FMFContainerStopFindingConfigSessionVMn
+- _$s9BlastDoor42FindMyAccessoryFamilyShareResponseEnvelopeVMn
+- _$s9BlastDoor6HandleV7GroupIDOMn
+- _$s9BlastDoor6HandleV9IDSStatusOMn
+- _$s9BlastDoor6HandleVMn
+- _$s9BlastDoor8KeyUnionV11PayloadTypeOMn
+- _$s9BlastDoor8KeyUnionVMn
+- _$s9BlastDoor9PublicKeyVMn
+- _$s9BlastDoor9keyUpdateVMn
+- _$s9PassKitUI20FlightArrivedContentVMn
+- _$s9PassKitUI22FlightWidgetHeaderViewV12DisplayStyleOMn
+- _$s9PassKitUI23FlightWidgetArrivedViewV4bodyQrvpQOMQ
+- _$s9PassKitUI24FlightWidgetProgressViewVN
+- ___unnamed_atom_6215
+
+```

@@ -1,0 +1,59 @@
+## libswiftIntents.dylib
+
+> `/usr/lib/swift/libswiftIntents.dylib`
+
+```diff
+
+ 12.0.0.0.0
+-  __TEXT.__text: 0x7b90
++  __TEXT.__text: 0x7c4c
+   __TEXT.__auth_stubs: 0x390
+-  __TEXT.__const: 0x460
++  __TEXT.__const: 0x48c
+   __TEXT.__swift5_typeref: 0x188
+   __TEXT.__swift5_fieldmd: 0x70
+   __TEXT.__constg_swiftt: 0x88
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 83E63138-C0AE-3CF9-9AE8-FE8B1AD48EA0
++  UUID: 85EBF088-625F-30F4-9562-84A492F87FDB
+   Functions: 261
+-  Symbols:   635
++  Symbols:   639
+   CStrings:  97
+ 
+Symbols:
++ _$s10Foundation11MeasurementVySo17NSUnitTemperatureCGMR
++ _$s10Foundation11MeasurementVySo17NSUnitTemperatureCGMd
++ _$s10Foundation11MeasurementVySo17NSUnitTemperatureCGSgMR
++ _$s10Foundation11MeasurementVySo17NSUnitTemperatureCGSgMd
++ _$s10Foundation3URLVSgMR
++ _$s10Foundation3URLVSgMd
++ _$s10Foundation4DateVSgMR
++ _$s10Foundation4DateVSgMd
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10Foundation11MeasurementVySo17NSUnitTemperatureCGMD
+- _$s10Foundation11MeasurementVySo17NSUnitTemperatureCGSgMD
+- _$s10Foundation3URLVSgMD
+- _$s10Foundation4DateVSgMD
+- ___swift_instantiateConcreteTypeFromMangledName
+Functions:
+~ _$sSo31INSetClimateSettingsInCarIntentC7IntentsE9enableFan0H14AirConditioner0hB7Control0H8AutoMode014airCirculationN013fanSpeedIndex0qR10Percentage08relativeiR7Setting11temperature0u11TemperatureV011climateZone7carNameABSbSg_A3PSo05INCarjpN0VSiSgSdSgSo010INRelativeV0V10Foundation11MeasurementVySo06NSUnitX0CGSgAVSo9INCarSeatVSo17INSpeakableStringCSgtcfC : 752 -> 764
+~ ___swift_instantiateConcreteTypeFromMangledName -> ___swift_instantiateConcreteTypeFromMangledNameV2 : 76 -> 72
+~ _$s10Foundation11MeasurementVySo17NSUnitTemperatureCGSgWOc : 104 -> 112
+~ _$s10Foundation11MeasurementVySo17NSUnitTemperatureCGSgWOh : 96 -> 104
+~ _$sSo31INSetClimateSettingsInCarIntentC7IntentsE9enableFan0H14AirConditioner0hB7Control0H8AutoMode014airCirculationN013fanSpeedIndex0qR10Percentage08relativeiR7Setting11temperature0u11TemperatureV011climateZoneABSbSg_A3OSo05INCarjpN0VSiSgSdSgSo010INRelativeV0V10Foundation11MeasurementVySo06NSUnitX0CGSgAUSo9INCarSeatVtcfC : 740 -> 752
+~ _$sSo12INCallRecordC7IntentsE10identifier11dateCreated6caller04callB4Type0H10Capability0H8Duration6unseen13numberOfCallsABSS_10Foundation4DateVSgSo8INPersonCSgSo0abI0VSo0aJ0VSdSgSbSgSiSgtcfC : 588 -> 592
+~ _$s10Foundation4DateVSgWOc : 104 -> 112
+~ _$s10Foundation4DateVSgWOh : 96 -> 104
+~ _$sSo12INCallRecordC7IntentsE10identifier11dateCreated6caller04callB4Type0H10Capability0H8Duration6unseenABSS_10Foundation4DateVSgSo8INPersonCSgSo0abI0VSo0aJ0VSdSgSbSgtcfC : 536 -> 540
+~ _$sSo23INRestaurantReservationC7IntentsE13itemReference17reservationNumber11bookingTime0F6Status0F10HolderName7actions0F8Duration9partySize18restaurantLocationABSo17INSpeakableStringC_SSSg10Foundation4DateVSgSo013INReservationJ0VAOSaySo0W6ActionCGSgSo21INDateComponentsRangeCSiSgSo11CLPlacemarkCtcfC : 624 -> 644
+~ _$sSo23INRestaurantReservationC7IntentsE13itemReference17reservationNumber11bookingTime0F6Status0F10HolderName7actions3url0F8Duration9partySize18restaurantLocationABSo17INSpeakableStringC_SSSg10Foundation4DateVSgSo013INReservationJ0VAPSaySo0X6ActionCGSgAQ3URLVSgSo21INDateComponentsRangeCSiSgSo11CLPlacemarkCtcfC : 876 -> 916
+~ _$s10Foundation4DateVSgWOcTm : 100 -> 104
+~ _$s10Foundation4DateVSgWOhTm : 92 -> 96
+~ _$sSo20INLodgingReservationC7IntentsE13itemReference17reservationNumber11bookingTime0F6Status0F10HolderName7actions23lodgingBusinessLocation0F8Duration14numberOfAdults0rS8ChildrenABSo17INSpeakableStringC_SSSg10Foundation4DateVSgSo013INReservationJ0VAPSaySo0Z6ActionCGSgSo11CLPlacemarkCSo21INDateComponentsRangeCSiSgA3_tcfC : 680 -> 700
+~ _$sSo20INLodgingReservationC7IntentsE13itemReference17reservationNumber11bookingTime0F6Status0F10HolderName7actions3url23lodgingBusinessLocation0F8Duration14numberOfAdults0sT8ChildrenABSo17INSpeakableStringC_SSSg10Foundation4DateVSgSo013INReservationJ0VAQSaySo19INReservationActionCGSgAR3URLVSgSo11CLPlacemarkCSo21INDateComponentsRangeCSiSgA7_tcfC : 940 -> 980
+
+```

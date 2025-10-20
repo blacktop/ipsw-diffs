@@ -1,0 +1,240 @@
+## ModalityXObjects
+
+> `/System/Library/PrivateFrameworks/ModalityXObjects.framework/ModalityXObjects`
+
+```diff
+
+ 3300.2.1.0.0
+-  __TEXT.__text: 0x7eab0
++  __TEXT.__text: 0x80ee0
+   __TEXT.__auth_stubs: 0x7c0
+   __TEXT.__objc_methlist: 0x39ec
+-  __TEXT.__const: 0x5b7a
++  __TEXT.__const: 0x5da0
+   __TEXT.__cstring: 0x1d2b
+   __TEXT.__swift5_typeref: 0xbee
+   __TEXT.__swift5_reflstr: 0x11f1
+
+   __TEXT.__swift5_fieldmd: 0x137c
+   __TEXT.__swift5_proto: 0x534
+   __TEXT.__swift5_types: 0xf8
+-  __TEXT.__unwind_info: 0x3508
+-  __TEXT.__eh_frame: 0x3ca0
++  __TEXT.__unwind_info: 0x3510
++  __TEXT.__eh_frame: 0x3cd0
+   __TEXT.__objc_classname: 0x3de
+   __TEXT.__objc_methname: 0x4981
+   __TEXT.__objc_methtype: 0x911
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: 40EBE682-EFE0-3C3F-AA66-3328B07C679A
+-  Functions: 5414
+-  Symbols:   13508
++  UUID: 4CF5AEC2-A1CA-3BF9-B62D-1229D38F3170
++  Functions: 5416
++  Symbols:   13596
+   CStrings:  1627
+ 
+Symbols:
++ _$s16ModalityXObjects0A10XASRResultV13OneOf_PayloadOSgMR
++ _$s16ModalityXObjects0A10XASRResultV13OneOf_PayloadOSgMd
++ _$s16ModalityXObjects0A10XASRResultV13OneOf_PayloadOSg_AFtMR
++ _$s16ModalityXObjects0A10XASRResultV13OneOf_PayloadOSg_AFtMd
++ _$s16ModalityXObjects0A10XASRResultV13OneOf_PayloadO_AEtMR
++ _$s16ModalityXObjects0A10XASRResultV13OneOf_PayloadO_AEtMd
++ _$s16ModalityXObjects0A10XASRResultVSgMR
++ _$s16ModalityXObjects0A10XASRResultVSgMd
++ _$s16ModalityXObjects0A11XAudioFrameVSgMR
++ _$s16ModalityXObjects0A11XAudioFrameVSgMd
++ _$s16ModalityXObjects0A11XDeviceInfoVSgMR
++ _$s16ModalityXObjects0A11XDeviceInfoVSgMd
++ _$s16ModalityXObjects0A11XDeviceInfoVSg_ADtMR
++ _$s16ModalityXObjects0A11XDeviceInfoVSg_ADtMd
++ _$s16ModalityXObjects0A13XBeginRequestVSgMR
++ _$s16ModalityXObjects0A13XBeginRequestVSgMd
++ _$s16ModalityXObjects0A14XAudioMetadataVSgMR
++ _$s16ModalityXObjects0A14XAudioMetadataVSgMd
++ _$s16ModalityXObjects0A14XAudioMetadataVSg_ADtMR
++ _$s16ModalityXObjects0A14XAudioMetadataVSg_ADtMd
++ _$s16ModalityXObjects0A14XCancelRequestVSgMR
++ _$s16ModalityXObjects0A14XCancelRequestVSgMd
++ _$s16ModalityXObjects0A14XSpeechProfileVSgMR
++ _$s16ModalityXObjects0A14XSpeechProfileVSgMd
++ _$s16ModalityXObjects0A15XAudioAnalyticsVSgMR
++ _$s16ModalityXObjects0A15XAudioAnalyticsVSgMd
++ _$s16ModalityXObjects0A15XAudioAnalyticsVSg_ADtMR
++ _$s16ModalityXObjects0A15XAudioAnalyticsVSg_ADtMd
++ _$s16ModalityXObjects0A15XBeginDictationVSgMR
++ _$s16ModalityXObjects0A15XBeginDictationVSgMd
++ _$s16ModalityXObjects0A16XAcousticFeatureVSgMR
++ _$s16ModalityXObjects0A16XAcousticFeatureVSgMd
++ _$s16ModalityXObjects0A16XAcousticFeatureVSg_ADtMR
++ _$s16ModalityXObjects0A16XAcousticFeatureVSg_ADtMd
++ _$s16ModalityXObjects0A16XProcessingErrorVSgMR
++ _$s16ModalityXObjects0A16XProcessingErrorVSgMd
++ _$s16ModalityXObjects0A16XProcessingErrorVSg_ADtMR
++ _$s16ModalityXObjects0A16XProcessingErrorVSg_ADtMd
++ _$s16ModalityXObjects0A16XRequestCompleteVSgMR
++ _$s16ModalityXObjects0A16XRequestCompleteVSgMd
++ _$s16ModalityXObjects0A16XSessionMetadataVSgMR
++ _$s16ModalityXObjects0A16XSessionMetadataVSgMd
++ _$s16ModalityXObjects0A17XClientBoundFrameV13OneOf_PayloadOSgMR
++ _$s16ModalityXObjects0A17XClientBoundFrameV13OneOf_PayloadOSgMd
++ _$s16ModalityXObjects0A17XClientBoundFrameV13OneOf_PayloadOSg_AFtMR
++ _$s16ModalityXObjects0A17XClientBoundFrameV13OneOf_PayloadOSg_AFtMd
++ _$s16ModalityXObjects0A17XClientBoundFrameV13OneOf_PayloadO_AEtMR
++ _$s16ModalityXObjects0A17XClientBoundFrameV13OneOf_PayloadO_AEtMd
++ _$s16ModalityXObjects0A17XRequestMitigatedVSgMR
++ _$s16ModalityXObjects0A17XRequestMitigatedVSgMd
++ _$s16ModalityXObjects0A17XServerBoundFrameV13OneOf_PayloadOSgMR
++ _$s16ModalityXObjects0A17XServerBoundFrameV13OneOf_PayloadOSgMd
++ _$s16ModalityXObjects0A17XServerBoundFrameV13OneOf_PayloadOSg_AFtMR
++ _$s16ModalityXObjects0A17XServerBoundFrameV13OneOf_PayloadOSg_AFtMd
++ _$s16ModalityXObjects0A17XServerBoundFrameV13OneOf_PayloadO_AEtMR
++ _$s16ModalityXObjects0A17XServerBoundFrameV13OneOf_PayloadO_AEtMd
++ _$s16ModalityXObjects0A17XVoiceTriggerInfoVSgMR
++ _$s16ModalityXObjects0A17XVoiceTriggerInfoVSgMd
++ _$s16ModalityXObjects0A17XVoiceTriggerInfoVSg_ADtMR
++ _$s16ModalityXObjects0A17XVoiceTriggerInfoVSg_ADtMd
++ _$s16ModalityXObjects0A18XRecognitionResultVSgMR
++ _$s16ModalityXObjects0A18XRecognitionResultVSgMd
++ _$s16ModalityXObjects0A18XRecognitionResultVSg_ADtMR
++ _$s16ModalityXObjects0A18XRecognitionResultVSg_ADtMd
++ _$s16ModalityXObjects0A19XRecognitionSausageVSgMR
++ _$s16ModalityXObjects0A19XRecognitionSausageVSgMd
++ _$s16ModalityXObjects0A19XRecognitionSausageVSg_ADtMR
++ _$s16ModalityXObjects0A19XRecognitionSausageVSg_ADtMd
++ _$s16ModalityXObjects0A21XLatnnMitigatorResultVSgMR
++ _$s16ModalityXObjects0A21XLatnnMitigatorResultVSgMd
++ _$s16ModalityXObjects0A21XLatnnMitigatorResultVSg_ADtMR
++ _$s16ModalityXObjects0A21XLatnnMitigatorResultVSg_ADtMd
++ _$s16ModalityXObjects0A21XRecognitionCandidateVSgMR
++ _$s16ModalityXObjects0A21XRecognitionCandidateVSgMd
++ _$s16ModalityXObjects0A24XSpeechProfileSourceDataVSgMR
++ _$s16ModalityXObjects0A24XSpeechProfileSourceDataVSgMd
++ _$s16ModalityXObjects0A24XSpeechProfileSourceDataVSg_ADtMR
++ _$s16ModalityXObjects0A24XSpeechProfileSourceDataVSg_ADtMd
++ _$s16ModalityXObjects0A26XSpeechProfileBuildRequestVSgMR
++ _$s16ModalityXObjects0A26XSpeechProfileBuildRequestVSgMd
++ _$s16ModalityXObjects0A27XSpeechProfileBuildResponseVSgMR
++ _$s16ModalityXObjects0A27XSpeechProfileBuildResponseVSgMd
++ _$s16ModalityXObjects0A27XSpeechProfileRebuildNeededVSgMR
++ _$s16ModalityXObjects0A27XSpeechProfileRebuildNeededVSgMd
++ _$s16ModalityXObjects0A28XStreamingSpeechProfileBeginVSgMR
++ _$s16ModalityXObjects0A28XStreamingSpeechProfileBeginVSgMd
++ _$s16ModalityXObjects0A29XStreamingSpeechProfileCommitVSgMR
++ _$s16ModalityXObjects0A29XStreamingSpeechProfileCommitVSgMd
++ _$s16ModalityXObjects0A30XStreamingSpeechProfileAddDataVSgMR
++ _$s16ModalityXObjects0A30XStreamingSpeechProfileAddDataVSgMd
++ _$s16ModalityXObjects0A31XFinalSpeechRecognitionResponseVSgMR
++ _$s16ModalityXObjects0A31XFinalSpeechRecognitionResponseVSgMd
++ _$s16ModalityXObjects0A9XEntitiesVSgMR
++ _$s16ModalityXObjects0A9XEntitiesVSgMd
++ _$s16ModalityXObjects0A9XEntitiesVSg_ADtMR
++ _$s16ModalityXObjects0A9XEntitiesVSg_ADtMd
++ _$sSay16ModalityXObjects0A12XAudioSourceOGMR
++ _$sSay16ModalityXObjects0A12XAudioSourceOGMd
++ _$sSay16ModalityXObjects0A12XErrorSourceOGMR
++ _$sSay16ModalityXObjects0A12XErrorSourceOGMd
++ _$sSay16ModalityXObjects0A12XInputOriginOGMR
++ _$sSay16ModalityXObjects0A12XInputOriginOGMd
++ _$sSay16ModalityXObjects0A15XMitigationTypeOGMR
++ _$sSay16ModalityXObjects0A15XMitigationTypeOGMd
++ _$sSay16ModalityXObjects0A18XFieldKeyboardTypeOGMR
++ _$sSay16ModalityXObjects0A18XFieldKeyboardTypeOGMd
++ _$sSay16ModalityXObjects0A19XCancellationReasonOGMR
++ _$sSay16ModalityXObjects0A19XCancellationReasonOGMd
++ _$sSay16ModalityXObjects0A19XUserInterfaceIdiomOGMR
++ _$sSay16ModalityXObjects0A19XUserInterfaceIdiomOGMd
++ _$sSay16ModalityXObjects0A23XFieldKeyboardReturnKeyOGMR
++ _$sSay16ModalityXObjects0A23XFieldKeyboardReturnKeyOGMd
++ _$sSay16ModalityXObjects0A25XWatermarkDetectionResultOGMR
++ _$sSay16ModalityXObjects0A25XWatermarkDetectionResultOGMd
++ _$sSay16ModalityXObjects0A27XFingerprintDetectionResultOGMR
++ _$sSay16ModalityXObjects0A27XFingerprintDetectionResultOGMd
++ _$sSay16ModalityXObjects0A29XLanguageProfileRecreateCodesOGMR
++ _$sSay16ModalityXObjects0A29XLanguageProfileRecreateCodesOGMd
++ _$sSay16ModalityXObjects0A6XCodecOGMR
++ _$sSay16ModalityXObjects0A6XCodecOGMd
++ _$sSi_21InternalSwiftProtobuf8_NameMapV0D11DescriptionOtMR
++ _$sSi_21InternalSwiftProtobuf8_NameMapV0D11DescriptionOtMd
++ _$ss23_ContiguousArrayStorageCySi_21InternalSwiftProtobuf8_NameMapV0G11DescriptionOtGMR
++ _$ss23_ContiguousArrayStorageCySi_21InternalSwiftProtobuf8_NameMapV0G11DescriptionOtGMd
++ _OUTLINED_FUNCTION_359
++ _OUTLINED_FUNCTION_360
++ _OUTLINED_FUNCTION_361
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s16ModalityXObjects0A10XASRResultV13OneOf_PayloadOSgMD
+- _$s16ModalityXObjects0A10XASRResultV13OneOf_PayloadOSg_AFtMD
+- _$s16ModalityXObjects0A10XASRResultV13OneOf_PayloadO_AEtMD
+- _$s16ModalityXObjects0A10XASRResultVSgMD
+- _$s16ModalityXObjects0A11XAudioFrameVSgMD
+- _$s16ModalityXObjects0A11XDeviceInfoVSgMD
+- _$s16ModalityXObjects0A11XDeviceInfoVSg_ADtMD
+- _$s16ModalityXObjects0A13XBeginRequestVSgMD
+- _$s16ModalityXObjects0A14XAudioMetadataVSgMD
+- _$s16ModalityXObjects0A14XAudioMetadataVSg_ADtMD
+- _$s16ModalityXObjects0A14XCancelRequestVSgMD
+- _$s16ModalityXObjects0A14XSpeechProfileVSgMD
+- _$s16ModalityXObjects0A15XAudioAnalyticsVSgMD
+- _$s16ModalityXObjects0A15XAudioAnalyticsVSg_ADtMD
+- _$s16ModalityXObjects0A15XBeginDictationVSgMD
+- _$s16ModalityXObjects0A16XAcousticFeatureVSgMD
+- _$s16ModalityXObjects0A16XAcousticFeatureVSg_ADtMD
+- _$s16ModalityXObjects0A16XProcessingErrorVSgMD
+- _$s16ModalityXObjects0A16XProcessingErrorVSg_ADtMD
+- _$s16ModalityXObjects0A16XRequestCompleteVSgMD
+- _$s16ModalityXObjects0A16XSessionMetadataV10deviceInfoAA0a7XDeviceF0VvM.resume.0Tm
+- _$s16ModalityXObjects0A16XSessionMetadataVSgMD
+- _$s16ModalityXObjects0A17XClientBoundFrameV13OneOf_PayloadOSgMD
+- _$s16ModalityXObjects0A17XClientBoundFrameV13OneOf_PayloadOSg_AFtMD
+- _$s16ModalityXObjects0A17XClientBoundFrameV13OneOf_PayloadO_AEtMD
+- _$s16ModalityXObjects0A17XRequestMitigatedVSgMD
+- _$s16ModalityXObjects0A17XServerBoundFrameV13OneOf_PayloadOSgMD
+- _$s16ModalityXObjects0A17XServerBoundFrameV13OneOf_PayloadOSg_AFtMD
+- _$s16ModalityXObjects0A17XServerBoundFrameV13OneOf_PayloadO_AEtMD
+- _$s16ModalityXObjects0A17XServerBoundFrameV15sessionMetadataAA0a8XSessionG0VvsTm
+- _$s16ModalityXObjects0A17XVoiceTriggerInfoVSgMD
+- _$s16ModalityXObjects0A17XVoiceTriggerInfoVSg_ADtMD
+- _$s16ModalityXObjects0A18XRecognitionResultVSgMD
+- _$s16ModalityXObjects0A18XRecognitionResultVSg_ADtMD
+- _$s16ModalityXObjects0A19XRecognitionSausageVSgMD
+- _$s16ModalityXObjects0A19XRecognitionSausageVSg_ADtMD
+- _$s16ModalityXObjects0A21XLatnnMitigatorResultVSgMD
+- _$s16ModalityXObjects0A21XLatnnMitigatorResultVSg_ADtMD
+- _$s16ModalityXObjects0A21XRecognitionCandidateV17recognitionResultAA0acF0VvsTm
+- _$s16ModalityXObjects0A21XRecognitionCandidateV20hasRecognitionResultSbvgTm
+- _$s16ModalityXObjects0A21XRecognitionCandidateV22clearRecognitionResultyyFTm
+- _$s16ModalityXObjects0A21XRecognitionCandidateVSgMD
+- _$s16ModalityXObjects0A24XSpeechProfileSourceDataVSgMD
+- _$s16ModalityXObjects0A24XSpeechProfileSourceDataVSg_ADtMD
+- _$s16ModalityXObjects0A26XSpeechProfileBuildRequestVSgMD
+- _$s16ModalityXObjects0A27XSpeechProfileBuildResponseVSgMD
+- _$s16ModalityXObjects0A27XSpeechProfileRebuildNeededVSgMD
+- _$s16ModalityXObjects0A28XStreamingSpeechProfileBeginVSgMD
+- _$s16ModalityXObjects0A29XStreamingSpeechProfileCommitVSgMD
+- _$s16ModalityXObjects0A30XStreamingSpeechProfileAddDataVSgMD
+- _$s16ModalityXObjects0A31XFinalSpeechRecognitionResponseVSgMD
+- _$s16ModalityXObjects0A9XEntitiesVSgMD
+- _$s16ModalityXObjects0A9XEntitiesVSg_ADtMD
+- _$sSay16ModalityXObjects0A12XAudioSourceOGMD
+- _$sSay16ModalityXObjects0A12XErrorSourceOGMD
+- _$sSay16ModalityXObjects0A12XInputOriginOGMD
+- _$sSay16ModalityXObjects0A15XMitigationTypeOGMD
+- _$sSay16ModalityXObjects0A18XFieldKeyboardTypeOGMD
+- _$sSay16ModalityXObjects0A19XCancellationReasonOGMD
+- _$sSay16ModalityXObjects0A19XUserInterfaceIdiomOGMD
+- _$sSay16ModalityXObjects0A23XFieldKeyboardReturnKeyOGMD
+- _$sSay16ModalityXObjects0A25XWatermarkDetectionResultOGMD
+- _$sSay16ModalityXObjects0A27XFingerprintDetectionResultOGMD
+- _$sSay16ModalityXObjects0A29XLanguageProfileRecreateCodesOGMD
+- _$sSay16ModalityXObjects0A6XCodecOGMD
+- _$sSi_21InternalSwiftProtobuf8_NameMapV0D11DescriptionOtMD
+- _$ss23_ContiguousArrayStorageCySi_21InternalSwiftProtobuf8_NameMapV0G11DescriptionOtGMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+
+```

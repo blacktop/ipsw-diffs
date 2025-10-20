@@ -1,0 +1,374 @@
+## libswiftCoreMedia.dylib
+
+> `/usr/lib/swift/libswiftCoreMedia.dylib`
+
+```diff
+
+-3285.9.1.0.0
+-  __TEXT.__text: 0x49d6c
++3285.11.1.3.0
++  __TEXT.__text: 0x4a7b4
+   __TEXT.__auth_stubs: 0x1f20
+-  __TEXT.__const: 0x6780
++  __TEXT.__const: 0x6b00
+   __TEXT.__swift5_typeref: 0x18bd
+   __TEXT.__swift5_fieldmd: 0x1388
+   __TEXT.__constg_swiftt: 0x1698
+
+   __TEXT.__swift5_mpenum: 0x190
+   __TEXT.__swift5_capture: 0x3d8
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x1b08
++  __TEXT.__unwind_info: 0x1af8
+   __TEXT.__eh_frame: 0x1830
+   __TEXT.__objc_methname: 0x2b
+   __DATA_CONST.__got: 0xa00
+
+   __AUTH_CONST.__const: 0x4c30
+   __AUTH_CONST.__objc_const: 0x270
+   __AUTH.__data: 0x360
+-  __DATA.__data: 0x1b50
++  __DATA.__data: 0x1b58
+   __DATA.__bss: 0x8140
+   __DATA.__common: 0x1
+-  __DATA_DIRTY.__data: 0x178
++  __DATA_DIRTY.__data: 0x170
+   __DATA_DIRTY.__bss: 0x100
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DDED07DE-4802-3723-9F07-5EA3FE4C9C39
+-  Functions: 3706
+-  Symbols:   11562
++  UUID: 1ED2CD72-B2DF-3934-A184-496A1A7C0FEA
++  Functions: 3703
++  Symbols:   11660
+   CStrings:  53
+ 
+Symbols:
++ _$s10Foundation3URLVSgMR
++ _$s10Foundation3URLVSgMd
++ _$s9CoreAudio07ManagedB13ChannelLayoutVSgMR
++ _$s9CoreAudio07ManagedB13ChannelLayoutVSgMd
++ _$s9CoreMedia10CMTypedTagCySo13CMPackingTypeVGMR
++ _$s9CoreMedia10CMTypedTagCySo13CMPackingTypeVGMd
++ _$s9CoreMedia10CMTypedTagCySo16CMProjectionTypeVGMR
++ _$s9CoreMedia10CMTypedTagCySo16CMProjectionTypeVGMd
++ _$s9CoreMedia10CMTypedTagCySo22CMFormatDescriptionRefaAAE0B4TypeVGMR
++ _$s9CoreMedia10CMTypedTagCySo22CMFormatDescriptionRefaAAE0B4TypeVGMd
++ _$s9CoreMedia10CMTypedTagCySo22CMFormatDescriptionRefaAAE0B7SubTypeVGMR
++ _$s9CoreMedia10CMTypedTagCySo22CMFormatDescriptionRefaAAE0B7SubTypeVGMd
++ _$s9CoreMedia10CMTypedTagCySo22CMStereoViewComponentsVGMR
++ _$s9CoreMedia10CMTypedTagCySo22CMStereoViewComponentsVGMd
++ _$s9CoreMedia10CMTypedTagCySo33CMStereoViewInterpretationOptionsVGMR
++ _$s9CoreMedia10CMTypedTagCySo33CMStereoViewInterpretationOptionsVGMd
++ _$s9CoreMedia10CMTypedTagCys5Int32VGMR
++ _$s9CoreMedia10CMTypedTagCys5Int32VGMd
++ _$s9CoreMedia10CMTypedTagCys5Int64VGMR
++ _$s9CoreMedia10CMTypedTagCys5Int64VGMd
++ _$s9CoreMedia10CMTypedTagCys6UInt32VGMR
++ _$s9CoreMedia10CMTypedTagCys6UInt32VGMd
++ _$s9CoreMedia14CMSyncProtocol_pMR
++ _$s9CoreMedia14CMSyncProtocol_pMd
++ _$s9CoreMedia16ConcurrentAccessO11CopyOnWriteVy_So16CMBlockBufferRefaGMR
++ _$s9CoreMedia16ConcurrentAccessO11CopyOnWriteVy_So16CMBlockBufferRefaGMd
++ _$s9CoreMedia16ConcurrentAccessO11NonCopyableVy_So16CMBlockBufferRefaGMR
++ _$s9CoreMedia16ConcurrentAccessO11NonCopyableVy_So16CMBlockBufferRefaGMd
++ _$s9CoreMedia19CMReadySampleBufferVy0A5Video015CVReadOnlyPixelE0CGMR
++ _$s9CoreMedia19CMReadySampleBufferVy0A5Video015CVReadOnlyPixelE0CGMd
++ _$s9CoreMedia19CMReadySampleBufferVyAA019CMReadOnlyDataBlockE0VGMR
++ _$s9CoreMedia19CMReadySampleBufferVyAA019CMReadOnlyDataBlockE0VGMd
++ _$s9CoreMedia21CMSampleDataReferenceV7content_So22CMFormatDescriptionRefa6formatSo0c6BufferI0aAAE26SamplePropertiesCollectionV06sampleM0tMR
++ _$s9CoreMedia21CMSampleDataReferenceV7content_So22CMFormatDescriptionRefa6formatSo0c6BufferI0aAAE26SamplePropertiesCollectionV06sampleM0tMd
++ _$s9CoreMedia29CMAttachmentBearerAttachmentsV5ValueOSgMR
++ _$s9CoreMedia29CMAttachmentBearerAttachmentsV5ValueOSgMd
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0g5Tf4g_n
++ _$sSDySSs8Sendable_pGMR
++ _$sSDySSs8Sendable_pGMd
++ _$sSDySSyXlGMR
++ _$sSDySSyXlGMd
++ _$sSDySo11CFStringRefaypGMR
++ _$sSDySo11CFStringRefaypGMd
++ _$sSIySo17CMSampleBufferRefa9CoreMediaE22SampleAttachmentsArrayVGMR
++ _$sSIySo17CMSampleBufferRefa9CoreMediaE22SampleAttachmentsArrayVGMd
++ _$sSIySo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsVGMR
++ _$sSIySo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsVGMd
++ _$sSS_s8Sendable_ptMR
++ _$sSS_s8Sendable_ptMd
++ _$sSS_yptMR
++ _$sSS_yptMd
++ _$sSay9CoreMedia21CMTaggedDynamicBufferVGMR
++ _$sSay9CoreMedia21CMTaggedDynamicBufferVGMd
++ _$sSay9CoreMedia25CMReadOnlyDataBlockBufferV0F6RegionVGMR
++ _$sSay9CoreMedia25CMReadOnlyDataBlockBufferV0F6RegionVGMd
++ _$sSay9CoreMedia5CMTagCGMR
++ _$sSay9CoreMedia5CMTagCGMd
++ _$sSaySfGMR
++ _$sSaySfGMd
++ _$sSaySiGMR
++ _$sSaySiGMd
++ _$sSaySo28AudioStreamPacketDescriptionVGMR
++ _$sSaySo28AudioStreamPacketDescriptionVGMd
++ _$sSays5UInt8VGMR
++ _$sSays5UInt8VGMd
++ _$sSbyXlXBMR
++ _$sSbyXlXBMd
++ _$sSiyXlXBMR
++ _$sSiyXlXBMd
++ _$sSnySiGMR
++ _$sSnySiGMd
++ _$sSnySo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5IndexVGMR
++ _$sSnySo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5IndexVGMd
++ _$sSo11CFStringRefa_12CoreGraphics7CGFloatVtMR
++ _$sSo11CFStringRefa_12CoreGraphics7CGFloatVtMd
++ _$sSo11CFStringRefa_SdtMR
++ _$sSo11CFStringRefa_SdtMd
++ _$sSo11CFStringRefa_yptMR
++ _$sSo11CFStringRefa_yptMd
++ _$sSo16CMBufferQueueRefa9CoreMediaE8HandlersVSgMR
++ _$sSo16CMBufferQueueRefa9CoreMediaE8HandlersVSgMd
++ _$sSo17CMSampleBufferRefa9CoreMediaE15TimingPerSampleOSgMR
++ _$sSo17CMSampleBufferRefa9CoreMediaE15TimingPerSampleOSgMd
++ _$sSo17CMSampleBufferRefa9CoreMediaE16HEVCTemporalInfoVSgMR
++ _$sSo17CMSampleBufferRefa9CoreMediaE16HEVCTemporalInfoVSgMd
++ _$sSo17CMSampleBufferRefa9CoreMediaE16SamplePropertiesV_AEtMR
++ _$sSo17CMSampleBufferRefa9CoreMediaE16SamplePropertiesV_AEtMd
++ _$sSo17CMSampleBufferRefa9CoreMediaE30PerSampleAttachmentsDictionaryV3KeyV3key_yp5valuetSgMR
++ _$sSo17CMSampleBufferRefa9CoreMediaE30PerSampleAttachmentsDictionaryV3KeyV3key_yp5valuetSgMd
++ _$sSo18CFComparisonResultVyXl_yXltXBMR
++ _$sSo18CFComparisonResultVyXl_yXltXBMd
++ _$sSo6CMTimeaSgMR
++ _$sSo6CMTimeaSgMd
++ _$sSo6CMTimeayXlXBMR
++ _$sSo6CMTimeayXlXBMd
++ _$ss12Zip2SequenceVySo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionVAGGMR
++ _$ss12Zip2SequenceVySo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionVAGGMd
++ _$ss15CollectionOfOneVy9CoreMedia24CMMutableDataBlockBufferV0H6RegionVGMR
++ _$ss15CollectionOfOneVy9CoreMedia24CMMutableDataBlockBufferV0H6RegionVGMd
++ _$ss15CollectionOfOneVy9CoreMedia25CMReadOnlyDataBlockBufferV0I6RegionVGMR
++ _$ss15CollectionOfOneVy9CoreMedia25CMReadOnlyDataBlockBufferV0I6RegionVGMd
++ _$ss16IndexingIteratorVy9CoreMedia24CMMutableDataBlockBufferV0G6RegionVGMR
++ _$ss16IndexingIteratorVy9CoreMedia24CMMutableDataBlockBufferV0G6RegionVGMd
++ _$ss16IndexingIteratorVy9CoreMedia25CMReadOnlyDataBlockBufferV0H6RegionVGMR
++ _$ss16IndexingIteratorVy9CoreMedia25CMReadOnlyDataBlockBufferV0H6RegionVGMd
++ _$ss16IndexingIteratorVy9CoreMedia25CMReadOnlyDataBlockBufferVGMR
++ _$ss16IndexingIteratorVy9CoreMedia25CMReadOnlyDataBlockBufferVGMd
++ _$ss16IndexingIteratorVySo17CMSampleBufferRefa9CoreMediaE22SampleAttachmentsArrayVGMR
++ _$ss16IndexingIteratorVySo17CMSampleBufferRefa9CoreMediaE22SampleAttachmentsArrayVGMd
++ _$ss16IndexingIteratorVySo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionVGMR
++ _$ss16IndexingIteratorVySo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionVGMd
++ _$ss16IndexingIteratorVySo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsVGMR
++ _$ss16IndexingIteratorVySo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsVGMd
++ _$ss16IndexingIteratorVySo22CMFormatDescriptionRefa9CoreMediaE22ParameterSetCollectionVGMR
++ _$ss16IndexingIteratorVySo22CMFormatDescriptionRefa9CoreMediaE22ParameterSetCollectionVGMd
++ _$ss16IndexingIteratorVySo22CMTaggedBufferGroupRefaGMR
++ _$ss16IndexingIteratorVySo22CMTaggedBufferGroupRefaGMd
++ _$ss18_DictionaryStorageCySSs8Sendable_pGMR
++ _$ss18_DictionaryStorageCySSs8Sendable_pGMd
++ _$ss18_DictionaryStorageCySSypGMR
++ _$ss18_DictionaryStorageCySSypGMd
++ _$ss18_DictionaryStorageCySo11CFStringRefa12CoreGraphics7CGFloatVGMR
++ _$ss18_DictionaryStorageCySo11CFStringRefa12CoreGraphics7CGFloatVGMd
++ _$ss18_DictionaryStorageCySo11CFStringRefaSdGMR
++ _$ss18_DictionaryStorageCySo11CFStringRefaSdGMd
++ _$ss18_DictionaryStorageCySo11CFStringRefayXlGMR
++ _$ss18_DictionaryStorageCySo11CFStringRefayXlGMd
++ _$ss18_DictionaryStorageCySo11CFStringRefaypGMR
++ _$ss18_DictionaryStorageCySo11CFStringRefaypGMd
++ _$ss23_ContiguousArrayStorageCy10Foundation4DataVGMR
++ _$ss23_ContiguousArrayStorageCy10Foundation4DataVGMd
++ _$ss23_ContiguousArrayStorageCy9CoreMedia14CMTaggedBufferVGMR
++ _$ss23_ContiguousArrayStorageCy9CoreMedia14CMTaggedBufferVGMd
++ _$ss23_ContiguousArrayStorageCy9CoreMedia21CMTaggedDynamicBufferVGMR
++ _$ss23_ContiguousArrayStorageCy9CoreMedia21CMTaggedDynamicBufferVGMd
++ _$ss23_ContiguousArrayStorageCy9CoreMedia24CMMutableDataBlockBufferV0H6RegionVGMR
++ _$ss23_ContiguousArrayStorageCy9CoreMedia24CMMutableDataBlockBufferV0H6RegionVGMd
++ _$ss23_ContiguousArrayStorageCy9CoreMedia25CMReadOnlyDataBlockBufferV0I6RegionVGMR
++ _$ss23_ContiguousArrayStorageCy9CoreMedia25CMReadOnlyDataBlockBufferV0I6RegionVGMd
++ _$ss23_ContiguousArrayStorageCySPys5UInt8VGGMR
++ _$ss23_ContiguousArrayStorageCySPys5UInt8VGGMd
++ _$ss23_ContiguousArrayStorageCySay9CoreMedia5CMTagCGGMR
++ _$ss23_ContiguousArrayStorageCySay9CoreMedia5CMTagCGGMd
++ _$ss23_ContiguousArrayStorageCySiGMR
++ _$ss23_ContiguousArrayStorageCySiGMd
++ _$ss23_ContiguousArrayStorageCySnySiGGMR
++ _$ss23_ContiguousArrayStorageCySnySiGGMd
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa3key_yXl5valuetGMR
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa3key_yXl5valuetGMd
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_12CoreGraphics7CGFloatVtGMR
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_12CoreGraphics7CGFloatVtGMd
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SdtGMR
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SdtGMd
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_yptGMR
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_yptGMd
++ _$ss23_ContiguousArrayStorageCySo16CMBlockBufferRefa9CoreMediaE8SubBlockVGMR
++ _$ss23_ContiguousArrayStorageCySo16CMBlockBufferRefa9CoreMediaE8SubBlockVGMd
++ _$ss23_ContiguousArrayStorageCySo17CMSampleBufferRefa9CoreMediaE16SamplePropertiesVGMR
++ _$ss23_ContiguousArrayStorageCySo17CMSampleBufferRefa9CoreMediaE16SamplePropertiesVGMd
++ _$ss23_ContiguousArrayStorageCySo17CMSampleBufferRefa9CoreMediaE17SampleAttachmentsVGMR
++ _$ss23_ContiguousArrayStorageCySo17CMSampleBufferRefa9CoreMediaE17SampleAttachmentsVGMd
++ _$ss23_ContiguousArrayStorageCySo17CMSampleBufferRefa9CoreMediaE30PerSampleAttachmentsDictionaryV3KeyV3key_yp5valuetGMR
++ _$ss23_ContiguousArrayStorageCySo17CMSampleBufferRefa9CoreMediaE30PerSampleAttachmentsDictionaryV3KeyV3key_yp5valuetGMd
++ _$ss23_ContiguousArrayStorageCySo17CMSampleBufferRefa9CoreMediaE30PerSampleAttachmentsDictionaryVGMR
++ _$ss23_ContiguousArrayStorageCySo17CMSampleBufferRefa9CoreMediaE30PerSampleAttachmentsDictionaryVGMd
++ _$ss23_ContiguousArrayStorageCySo18CMSampleTimingInfoaGMR
++ _$ss23_ContiguousArrayStorageCySo18CMSampleTimingInfoaGMd
++ _$ss23_ContiguousArrayStorageCySo19AudioFormatListItemVGMR
++ _$ss23_ContiguousArrayStorageCySo19AudioFormatListItemVGMd
++ _$ss23_ContiguousArrayStorageCySo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV35CameraCalibrationDataLensCollectionO0L0VGMR
++ _$ss23_ContiguousArrayStorageCySo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV35CameraCalibrationDataLensCollectionO0L0VGMd
++ _$ss23_ContiguousArrayStorageCySo28AudioStreamPacketDescriptionVGMR
++ _$ss23_ContiguousArrayStorageCySo28AudioStreamPacketDescriptionVGMd
++ _$ss23_ContiguousArrayStorageCySo5CMTagVGMR
++ _$ss23_ContiguousArrayStorageCySo5CMTagVGMd
++ _$ss23_ContiguousArrayStorageCySvSgGMR
++ _$ss23_ContiguousArrayStorageCySvSgGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMR
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMd
++ _$ss23_ContiguousArrayStorageCyyXlGMR
++ _$ss23_ContiguousArrayStorageCyyXlGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ _$ss5SIMD3VySfGMR
++ _$ss5SIMD3VySfGMd
++ _$ss5SIMD4VySfGMR
++ _$ss5SIMD4VySfGMd
++ _$ss5SliceVy9CoreMedia24CMMutableDataBlockBufferV0F6RegionVGMR
++ _$ss5SliceVy9CoreMedia24CMMutableDataBlockBufferV0F6RegionVGMd
++ _$ss5SliceVy9CoreMedia25CMReadOnlyDataBlockBufferV0G6RegionVGMR
++ _$ss5SliceVy9CoreMedia25CMReadOnlyDataBlockBufferV0G6RegionVGMd
++ _$ss5SliceVySo17CMSampleBufferRefa9CoreMediaE22SampleAttachmentsArrayVGMR
++ _$ss5SliceVySo17CMSampleBufferRefa9CoreMediaE22SampleAttachmentsArrayVGMd
++ _$ss5SliceVySo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionVGMR
++ _$ss5SliceVySo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionVGMd
++ _$ss5SliceVySo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsVGMR
++ _$ss5SliceVySo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsVGMd
++ _$ss5SliceVySo22CMFormatDescriptionRefa9CoreMediaE22ParameterSetCollectionVGMR
++ _$ss5SliceVySo22CMFormatDescriptionRefa9CoreMediaE22ParameterSetCollectionVGMd
++ _$ss5SliceVySo22CMTaggedBufferGroupRefaGMR
++ _$ss5SliceVySo22CMTaggedBufferGroupRefaGMd
++ _$ss8Sendable_pMR
++ _$ss8Sendable_pMd
++ _$ss8Sendable_pSgMR
++ _$ss8Sendable_pSgMd
++ _$sypSgMR
++ _$sypSgMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10Foundation3URLVSgMD
+- _$s9CoreAudio07ManagedB13ChannelLayoutVSgMD
+- _$s9CoreMedia10CMTypedTagCySo13CMPackingTypeVGMD
+- _$s9CoreMedia10CMTypedTagCySo16CMProjectionTypeVGMD
+- _$s9CoreMedia10CMTypedTagCySo22CMFormatDescriptionRefaAAE0B4TypeVGMD
+- _$s9CoreMedia10CMTypedTagCySo22CMFormatDescriptionRefaAAE0B7SubTypeVGMD
+- _$s9CoreMedia10CMTypedTagCySo22CMStereoViewComponentsVGMD
+- _$s9CoreMedia10CMTypedTagCySo33CMStereoViewInterpretationOptionsVGMD
+- _$s9CoreMedia10CMTypedTagCys5Int32VGMD
+- _$s9CoreMedia10CMTypedTagCys5Int64VGMD
+- _$s9CoreMedia10CMTypedTagCys6UInt32VGMD
+- _$s9CoreMedia14CMSyncProtocol_pMD
+- _$s9CoreMedia16ConcurrentAccessO11CopyOnWriteVy_So16CMBlockBufferRefaGMD
+- _$s9CoreMedia16ConcurrentAccessO11NonCopyableVy_So16CMBlockBufferRefaGMD
+- _$s9CoreMedia19CMReadySampleBufferVy0A5Video015CVReadOnlyPixelE0CGMD
+- _$s9CoreMedia19CMReadySampleBufferVyAA019CMReadOnlyDataBlockE0VGMD
+- _$s9CoreMedia21CMSampleDataReferenceV7content_So22CMFormatDescriptionRefa6formatSo0c6BufferI0aAAE26SamplePropertiesCollectionV06sampleM0tMD
+- _$s9CoreMedia29CMAttachmentBearerAttachmentsV5ValueOSgMD
+- _$s9CoreMedia5CMTagC11packingTypeyAA10CMTypedTagCySo09CMPackingE0VGAHFZTm
+- _$s9CoreMedia5CMTagC24stereoViewInterpretationyAA10CMTypedTagCySo08CMStereoeF7OptionsVGAHFZTm
+- _$s9CoreMedia5CMTagC9mediaTypeyAA10CMTypedTagCySo22CMFormatDescriptionRefaAAE0bE0VGAJFZTm
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_s8Sendable_pTt0gq5Tf4g_nTm
+- _$sSDySSs8Sendable_pGMD
+- _$sSDySSyXlGMD
+- _$sSDySo11CFStringRefaypGMD
+- _$sSIySo17CMSampleBufferRefa9CoreMediaE22SampleAttachmentsArrayVGMD
+- _$sSIySo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsVGMD
+- _$sSS_s8Sendable_ptMD
+- _$sSS_yptMD
+- _$sSay9CoreMedia21CMTaggedDynamicBufferVGMD
+- _$sSay9CoreMedia25CMReadOnlyDataBlockBufferV0F6RegionVGMD
+- _$sSay9CoreMedia5CMTagCGMD
+- _$sSaySfGMD
+- _$sSaySiGMD
+- _$sSaySo28AudioStreamPacketDescriptionVGMD
+- _$sSays5UInt8VGMD
+- _$sSbyXlXBMD
+- _$sSiyXlXBMD
+- _$sSnySiGMD
+- _$sSnySo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5IndexVGMD
+- _$sSo11CFStringRefa_12CoreGraphics7CGFloatVtMD
+- _$sSo11CFStringRefa_SdtMD
+- _$sSo11CFStringRefa_yptMD
+- _$sSo16CMBufferQueueRefa9CoreMediaE8HandlersVSgMD
+- _$sSo17CMSampleBufferRefa9CoreMediaE15TimingPerSampleOSgMD
+- _$sSo17CMSampleBufferRefa9CoreMediaE16HEVCTemporalInfoVSgMD
+- _$sSo17CMSampleBufferRefa9CoreMediaE16SamplePropertiesV_AEtMD
+- _$sSo17CMSampleBufferRefa9CoreMediaE30PerSampleAttachmentsDictionaryV3KeyV3key_yp5valuetSgMD
+- _$sSo18CFComparisonResultVyXl_yXltXBMD
+- _$sSo6CMTimeaSgMD
+- _$sSo6CMTimeayXlXBMD
+- _$ss12Zip2SequenceVySo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionVAGGMD
+- _$ss15CollectionOfOneVy9CoreMedia24CMMutableDataBlockBufferV0H6RegionVGMD
+- _$ss15CollectionOfOneVy9CoreMedia25CMReadOnlyDataBlockBufferV0I6RegionVGMD
+- _$ss16IndexingIteratorVy9CoreMedia24CMMutableDataBlockBufferV0G6RegionVGMD
+- _$ss16IndexingIteratorVy9CoreMedia25CMReadOnlyDataBlockBufferV0H6RegionVGMD
+- _$ss16IndexingIteratorVy9CoreMedia25CMReadOnlyDataBlockBufferVGMD
+- _$ss16IndexingIteratorVySo17CMSampleBufferRefa9CoreMediaE22SampleAttachmentsArrayVGMD
+- _$ss16IndexingIteratorVySo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionVGMD
+- _$ss16IndexingIteratorVySo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsVGMD
+- _$ss16IndexingIteratorVySo22CMFormatDescriptionRefa9CoreMediaE22ParameterSetCollectionVGMD
+- _$ss16IndexingIteratorVySo22CMTaggedBufferGroupRefaGMD
+- _$ss18_DictionaryStorageCySSs8Sendable_pGMD
+- _$ss18_DictionaryStorageCySSypGMD
+- _$ss18_DictionaryStorageCySo11CFStringRefa12CoreGraphics7CGFloatVGMD
+- _$ss18_DictionaryStorageCySo11CFStringRefaSdGMD
+- _$ss18_DictionaryStorageCySo11CFStringRefayXlGMD
+- _$ss18_DictionaryStorageCySo11CFStringRefaypGMD
+- _$ss23_ContiguousArrayStorageCy10Foundation4DataVGMD
+- _$ss23_ContiguousArrayStorageCy9CoreMedia14CMTaggedBufferVGMD
+- _$ss23_ContiguousArrayStorageCy9CoreMedia21CMTaggedDynamicBufferVGMD
+- _$ss23_ContiguousArrayStorageCy9CoreMedia24CMMutableDataBlockBufferV0H6RegionVGMD
+- _$ss23_ContiguousArrayStorageCy9CoreMedia25CMReadOnlyDataBlockBufferV0I6RegionVGMD
+- _$ss23_ContiguousArrayStorageCySPys5UInt8VGGMD
+- _$ss23_ContiguousArrayStorageCySay9CoreMedia5CMTagCGGMD
+- _$ss23_ContiguousArrayStorageCySiGMD
+- _$ss23_ContiguousArrayStorageCySnySiGGMD
+- _$ss23_ContiguousArrayStorageCySo11CFStringRefa3key_yXl5valuetGMD
+- _$ss23_ContiguousArrayStorageCySo11CFStringRefa_12CoreGraphics7CGFloatVtGMD
+- _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SdtGMD
+- _$ss23_ContiguousArrayStorageCySo11CFStringRefa_yptGMD
+- _$ss23_ContiguousArrayStorageCySo16CMBlockBufferRefa9CoreMediaE8SubBlockVGMD
+- _$ss23_ContiguousArrayStorageCySo17CMSampleBufferRefa9CoreMediaE16SamplePropertiesVGMD
+- _$ss23_ContiguousArrayStorageCySo17CMSampleBufferRefa9CoreMediaE17SampleAttachmentsVGMD
+- _$ss23_ContiguousArrayStorageCySo17CMSampleBufferRefa9CoreMediaE30PerSampleAttachmentsDictionaryV3KeyV3key_yp5valuetGMD
+- _$ss23_ContiguousArrayStorageCySo17CMSampleBufferRefa9CoreMediaE30PerSampleAttachmentsDictionaryVGMD
+- _$ss23_ContiguousArrayStorageCySo18CMSampleTimingInfoaGMD
+- _$ss23_ContiguousArrayStorageCySo19AudioFormatListItemVGMD
+- _$ss23_ContiguousArrayStorageCySo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV35CameraCalibrationDataLensCollectionO0L0VGMD
+- _$ss23_ContiguousArrayStorageCySo28AudioStreamPacketDescriptionVGMD
+- _$ss23_ContiguousArrayStorageCySo5CMTagVGMD
+- _$ss23_ContiguousArrayStorageCySvSgGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss23_ContiguousArrayStorageCys7CVarArg_pGMD
+- _$ss23_ContiguousArrayStorageCyyXlGMD
+- _$ss5Error_pMD
+- _$ss5SIMD3VySfGMD
+- _$ss5SIMD4VySfGMD
+- _$ss5SliceVy9CoreMedia24CMMutableDataBlockBufferV0F6RegionVGMD
+- _$ss5SliceVy9CoreMedia25CMReadOnlyDataBlockBufferV0G6RegionVGMD
+- _$ss5SliceVySo17CMSampleBufferRefa9CoreMediaE22SampleAttachmentsArrayVGMD
+- _$ss5SliceVySo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionVGMD
+- _$ss5SliceVySo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsVGMD
+- _$ss5SliceVySo22CMFormatDescriptionRefa9CoreMediaE22ParameterSetCollectionVGMD
+- _$ss5SliceVySo22CMTaggedBufferGroupRefaGMD
+- _$ss8Sendable_pMD
+- _$ss8Sendable_pSgMD
+- _$sypSgMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+
+```

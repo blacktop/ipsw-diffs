@@ -1,0 +1,460 @@
+## HeadphoneManager
+
+> `/System/Library/PrivateFrameworks/HeadphoneManager.framework/HeadphoneManager`
+
+```diff
+
+-31.8.1.1.0
+-  __TEXT.__text: 0x134e60
++31.10.0.0.0
++  __TEXT.__text: 0x137294
+   __TEXT.__auth_stubs: 0x1560
+   __TEXT.__objc_methlist: 0xfec
+-  __TEXT.__const: 0x6c98
++  __TEXT.__const: 0x7178
+   __TEXT.__oslogstring: 0x1855
+   __TEXT.__swift5_typeref: 0x13e0
+   __TEXT.__swift5_capture: 0x3254
+
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift_as_entry: 0x10
+   __TEXT.__swift_as_ret: 0x10
+-  __TEXT.__unwind_info: 0x25c8
++  __TEXT.__unwind_info: 0x25d0
+   __TEXT.__eh_frame: 0xc24
+   __TEXT.__objc_classname: 0x32
+   __TEXT.__objc_methname: 0x2cb3
+
+   __AUTH_CONST.__objc_const: 0x3118
+   __AUTH.__objc_data: 0x10a0
+   __AUTH.__data: 0x8f8
+-  __DATA.__data: 0xd50
++  __DATA.__data: 0xdf0
+   __DATA.__bss: 0x5000
+   __DATA.__common: 0x7c
+   __DATA_DIRTY.__objc_data: 0x1ac0
+-  __DATA_DIRTY.__data: 0x1110
++  __DATA_DIRTY.__data: 0x1058
+   __DATA_DIRTY.__bss: 0xd08
+   __DATA_DIRTY.__common: 0x90
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D028A263-741F-3A47-9F56-5017FAFD2518
++  UUID: 1EC60966-8C3A-3403-99EE-CDBC03F11178
+   Functions: 7446
+-  Symbols:   16318
++  Symbols:   16452
+   CStrings:  1366
+ 
+Symbols:
++ _$s10Foundation3URLVSgMR
++ _$s10Foundation3URLVSgMd
++ _$s10Foundation4DataV4data_s5UInt8VSg4bytetMR
++ _$s10Foundation4DataV4data_s5UInt8VSg4bytetMd
++ _$s10Foundation4DateVSgMR
++ _$s10Foundation4DateVSgMd
++ _$s10Foundation4UUIDVSgMR
++ _$s10Foundation4UUIDVSgMd
++ _$s10Foundation4UUIDVSg_ADtMR
++ _$s10Foundation4UUIDVSg_ADtMd
++ _$s16HeadphoneManager0A18FeatureContentType_pMR
++ _$s16HeadphoneManager0A18FeatureContentType_pMd
++ _$s16HeadphoneManager0A18FeatureContentType_pSgMR
++ _$s16HeadphoneManager0A18FeatureContentType_pSgMd
++ _$s16HeadphoneManager0A6DeviceCSgMR
++ _$s16HeadphoneManager0A6DeviceCSgMd
++ _$s16HeadphoneManager14CodableIgnoredVyShy7Combine14AnyCancellableCGGMR
++ _$s16HeadphoneManager14CodableIgnoredVyShy7Combine14AnyCancellableCGGMd
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0C10Foundation4DateVSgGMR
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0C10Foundation4DateVSgGMd
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo12AAMultiStateVGMR
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo12AAMultiStateVGMd
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo15AAFrequencyBandVGMR
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo15AAFrequencyBandVGMd
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo16AAStreamStateAoSVGMR
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo16AAStreamStateAoSVGMd
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo17AAAutoANCStrengthVGMR
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo17AAAutoANCStrengthVGMd
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo19AAAutoANCCapabilityVGMR
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo19AAAutoANCCapabilityVGMd
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo19AAFeatureCapabilityVGMR
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo19AAFeatureCapabilityVGMd
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo19AAHeadGestureConfigVGMR
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo19AAHeadGestureConfigVGMd
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo21AABobbleConfigurationVGMR
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo21AABobbleConfigurationVGMd
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo22AAHearingAidCapabilityVGMR
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo22AAHearingAidCapabilityVGMd
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo23AAHearingTestCapabilityVGMR
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo23AAHearingTestCapabilityVGMd
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo25AAHearingAidConfigurationVGMR
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo25AAHearingAidConfigurationVGMd
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo27AARemoteCameraControlConfigVGMR
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo27AARemoteCameraControlConfigVGMd
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo32AAChargingFeatureEnablementStateVGMR
++ _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo32AAChargingFeatureEnablementStateVGMd
++ _$s16HeadphoneManager19HearingRecordConfigVyAA0cD0CSfGMR
++ _$s16HeadphoneManager19HearingRecordConfigVyAA0cD0CSfGMd
++ _$s16HeadphoneManager19HearingRecordConfigVyAA0cD0CSo12HMMultiStateVAGs23CustomStringConvertibleAAyHCg0_GMR
++ _$s16HeadphoneManager19HearingRecordConfigVyAA0cD0CSo12HMMultiStateVAGs23CustomStringConvertibleAAyHCg0_GMd
++ _$s7Combine12AnyPublisherVySo14NSUserDefaultsCs5NeverOGMR
++ _$s7Combine12AnyPublisherVySo14NSUserDefaultsCs5NeverOGMd
++ _$s7Combine19CurrentValueSubjectCySo14NSUserDefaultsCs5NeverOGMR
++ _$s7Combine19CurrentValueSubjectCySo14NSUserDefaultsCs5NeverOGMd
++ _$s7Combine9PublishedV9PublisherVy16HeadphoneManager13HearingRecordC_GMR
++ _$s7Combine9PublishedV9PublisherVy16HeadphoneManager13HearingRecordC_GMd
++ _$s7Combine9PublishedV9PublisherVy16HeadphoneManager16AADBatteryInfoVMC_GMR
++ _$s7Combine9PublishedV9PublisherVy16HeadphoneManager16AADBatteryInfoVMC_GMd
++ _$s7Combine9PublishedV9PublisherVy16HeadphoneManager8AADeviceC_GMR
++ _$s7Combine9PublishedV9PublisherVy16HeadphoneManager8AADeviceC_GMd
++ _$s7Combine9PublishedV9PublisherVySDySS16HeadphoneManager0D6DeviceCG_GMR
++ _$s7Combine9PublishedV9PublisherVySDySS16HeadphoneManager0D6DeviceCG_GMd
++ _$s7Combine9PublishedV9PublisherVySDySSSo14HMDeviceRecordCG_GMR
++ _$s7Combine9PublishedV9PublisherVySDySSSo14HMDeviceRecordCG_GMd
++ _$s7Combine9PublishedV9PublisherVySDySiSSG_GMR
++ _$s7Combine9PublishedV9PublisherVySDySiSSG_GMd
++ _$s7Combine9PublishedV9PublisherVySS_GMR
++ _$s7Combine9PublishedV9PublisherVySS_GMd
++ _$s7Combine9PublishedV9PublisherVySaySo17HKAudiogramSampleCG_GMR
++ _$s7Combine9PublishedV9PublisherVySaySo17HKAudiogramSampleCG_GMd
++ _$s7Combine9PublishedV9PublisherVySaySo8NSNumberCG_GMR
++ _$s7Combine9PublishedV9PublisherVySaySo8NSNumberCG_GMd
++ _$s7Combine9PublishedV9PublisherVySb_GMR
++ _$s7Combine9PublishedV9PublisherVySb_GMd
++ _$s7Combine9PublishedV9PublisherVySf_GMR
++ _$s7Combine9PublishedV9PublisherVySf_GMd
++ _$s7Combine9PublishedV9PublisherVySo11AAPlacementV_GMR
++ _$s7Combine9PublishedV9PublisherVySo11AAPlacementV_GMd
++ _$s7Combine9PublishedV9PublisherVySo12HMMultiStateV_GMR
++ _$s7Combine9PublishedV9PublisherVySo12HMMultiStateV_GMd
++ _$s7Combine9PublishedV9PublisherVySo14CBBatteryStateV_GMR
++ _$s7Combine9PublishedV9PublisherVySo14CBBatteryStateV_GMd
++ _$s7Combine9PublishedV9PublisherVySo14HMRegionStatusV_GMR
++ _$s7Combine9PublishedV9PublisherVySo14HMRegionStatusV_GMd
++ _$s7Combine9PublishedV9PublisherVySo15CBListeningModeV_GMR
++ _$s7Combine9PublishedV9PublisherVySo15CBListeningModeV_GMd
++ _$s7Combine9PublishedV9PublisherVySo16CBMicrophoneModeV_GMR
++ _$s7Combine9PublishedV9PublisherVySo16CBMicrophoneModeV_GMd
++ _$s7Combine9PublishedV9PublisherVySo16CBPeerCallConfigV_GMR
++ _$s7Combine9PublishedV9PublisherVySo16CBPeerCallConfigV_GMd
++ _$s7Combine9PublishedV9PublisherVySo17CBDoubleTapActionV_GMR
++ _$s7Combine9PublishedV9PublisherVySo17CBDoubleTapActionV_GMd
++ _$s7Combine9PublishedV9PublisherVySo17HMOcclusionResultV_GMR
++ _$s7Combine9PublishedV9PublisherVySo17HMOcclusionResultV_GMd
++ _$s7Combine9PublishedV9PublisherVySo18CBSmartRoutingModeV_GMR
++ _$s7Combine9PublishedV9PublisherVySo18CBSmartRoutingModeV_GMd
++ _$s7Combine9PublishedV9PublisherVySo19AAFeatureCapabilityV_GMR
++ _$s7Combine9PublishedV9PublisherVySo19AAFeatureCapabilityV_GMd
++ _$s7Combine9PublishedV9PublisherVySo19CBPeerUIGestureModeV_GMR
++ _$s7Combine9PublishedV9PublisherVySo19CBPeerUIGestureModeV_GMd
++ _$s7Combine9PublishedV9PublisherVySo21AADevicePlacementModeV_GMR
++ _$s7Combine9PublishedV9PublisherVySo21AADevicePlacementModeV_GMd
++ _$s7Combine9PublishedV9PublisherVySo28CBPeerCrownRotationDirectionV_GMR
++ _$s7Combine9PublishedV9PublisherVySo28CBPeerCrownRotationDirectionV_GMd
++ _$s7Combine9PublishedV9PublisherVySo6HMInfoCSg_GMR
++ _$s7Combine9PublishedV9PublisherVySo6HMInfoCSg_GMd
++ _$s7Combine9PublishedV9PublisherVySo8NSNumberC_GMR
++ _$s7Combine9PublishedV9PublisherVySo8NSNumberC_GMd
++ _$s7Combine9PublishedV9PublisherVySo9AABatteryC_GMR
++ _$s7Combine9PublishedV9PublisherVySo9AABatteryC_GMd
++ _$s7Combine9PublishedVy16HeadphoneManager13HearingRecordCGMR
++ _$s7Combine9PublishedVy16HeadphoneManager13HearingRecordCGMd
++ _$s7Combine9PublishedVy16HeadphoneManager16AADBatteryInfoVMCGMR
++ _$s7Combine9PublishedVy16HeadphoneManager16AADBatteryInfoVMCGMd
++ _$s7Combine9PublishedVy16HeadphoneManager8AADeviceCGMR
++ _$s7Combine9PublishedVy16HeadphoneManager8AADeviceCGMd
++ _$s7Combine9PublishedVySDySS16HeadphoneManager0C6DeviceCGGMR
++ _$s7Combine9PublishedVySDySS16HeadphoneManager0C6DeviceCGGMd
++ _$s7Combine9PublishedVySDySSSo14HMDeviceRecordCGGMR
++ _$s7Combine9PublishedVySDySSSo14HMDeviceRecordCGGMd
++ _$s7Combine9PublishedVySDySiSSGGMR
++ _$s7Combine9PublishedVySDySiSSGGMd
++ _$s7Combine9PublishedVySSGMR
++ _$s7Combine9PublishedVySSGMd
++ _$s7Combine9PublishedVySaySo17HKAudiogramSampleCGGMR
++ _$s7Combine9PublishedVySaySo17HKAudiogramSampleCGGMd
++ _$s7Combine9PublishedVySaySo8NSNumberCGGMR
++ _$s7Combine9PublishedVySaySo8NSNumberCGGMd
++ _$s7Combine9PublishedVySbGMR
++ _$s7Combine9PublishedVySbGMd
++ _$s7Combine9PublishedVySfGMR
++ _$s7Combine9PublishedVySfGMd
++ _$s7Combine9PublishedVySo11AAPlacementVGMR
++ _$s7Combine9PublishedVySo11AAPlacementVGMd
++ _$s7Combine9PublishedVySo12HMMultiStateVGMR
++ _$s7Combine9PublishedVySo12HMMultiStateVGMd
++ _$s7Combine9PublishedVySo14CBBatteryStateVGMR
++ _$s7Combine9PublishedVySo14CBBatteryStateVGMd
++ _$s7Combine9PublishedVySo14HMRegionStatusVGMR
++ _$s7Combine9PublishedVySo14HMRegionStatusVGMd
++ _$s7Combine9PublishedVySo15CBListeningModeVGMR
++ _$s7Combine9PublishedVySo15CBListeningModeVGMd
++ _$s7Combine9PublishedVySo16CBMicrophoneModeVGMR
++ _$s7Combine9PublishedVySo16CBMicrophoneModeVGMd
++ _$s7Combine9PublishedVySo16CBPeerCallConfigVGMR
++ _$s7Combine9PublishedVySo16CBPeerCallConfigVGMd
++ _$s7Combine9PublishedVySo17CBDoubleTapActionVGMR
++ _$s7Combine9PublishedVySo17CBDoubleTapActionVGMd
++ _$s7Combine9PublishedVySo17HMOcclusionResultVGMR
++ _$s7Combine9PublishedVySo17HMOcclusionResultVGMd
++ _$s7Combine9PublishedVySo18CBSmartRoutingModeVGMR
++ _$s7Combine9PublishedVySo18CBSmartRoutingModeVGMd
++ _$s7Combine9PublishedVySo19AAFeatureCapabilityVGMR
++ _$s7Combine9PublishedVySo19AAFeatureCapabilityVGMd
++ _$s7Combine9PublishedVySo19CBPeerUIGestureModeVGMR
++ _$s7Combine9PublishedVySo19CBPeerUIGestureModeVGMd
++ _$s7Combine9PublishedVySo21AADevicePlacementModeVGMR
++ _$s7Combine9PublishedVySo21AADevicePlacementModeVGMd
++ _$s7Combine9PublishedVySo28CBPeerCrownRotationDirectionVGMR
++ _$s7Combine9PublishedVySo28CBPeerCrownRotationDirectionVGMd
++ _$s7Combine9PublishedVySo6HMInfoCSgGMR
++ _$s7Combine9PublishedVySo6HMInfoCSgGMd
++ _$s7Combine9PublishedVySo8NSNumberCGMR
++ _$s7Combine9PublishedVySo8NSNumberCGMd
++ _$s7Combine9PublishedVySo9AABatteryCGMR
++ _$s7Combine9PublishedVySo9AABatteryCGMd
++ _$sSAySo7NSErrorCSgGMR
++ _$sSAySo7NSErrorCSgGMd
++ _$sSD6ValuesVySS16HeadphoneManager0B6DeviceC_GMR
++ _$sSD6ValuesVySS16HeadphoneManager0B6DeviceC_GMd
++ _$sSD6ValuesVys11AnyHashableVyp_GMR
++ _$sSD6ValuesVys11AnyHashableVyp_GMd
++ _$sSDySS10Foundation4DataVGMR
++ _$sSDySS10Foundation4DataVGMd
++ _$sSDySS16HeadphoneManager0A6DeviceCGMR
++ _$sSDySS16HeadphoneManager0A6DeviceCGMd
++ _$sSDySSSo14HMDeviceRecordCGMR
++ _$sSDySSSo14HMDeviceRecordCGMd
++ _$sSDySiSSGMR
++ _$sSDySiSSGMd
++ _$sSDys11AnyHashableVypGMR
++ _$sSDys11AnyHashableVypGMd
++ _$sSNySiGMR
++ _$sSNySiGMd
++ _$sSSSgMR
++ _$sSSSgMd
++ _$sSS_16HeadphoneManager0A6DeviceCtMR
++ _$sSS_16HeadphoneManager0A6DeviceCtMd
++ _$sSS_16HeadphoneManager10ReplayDataCtMR
++ _$sSS_16HeadphoneManager10ReplayDataCtMd
++ _$sSS_So14HMDeviceRecordCtMR
++ _$sSS_So14HMDeviceRecordCtMd
++ _$sSS_So8NSObjectCtMR
++ _$sSS_So8NSObjectCtMd
++ _$sSay16HeadphoneManager0A18FeatureContentType_pGMR
++ _$sSay16HeadphoneManager0A18FeatureContentType_pGMd
++ _$sSay16HeadphoneManager0A18FeatureContentType_pSgGMR
++ _$sSay16HeadphoneManager0A18FeatureContentType_pSgGMd
++ _$sSay16HeadphoneManager16FeatureOptionSetVGMR
++ _$sSay16HeadphoneManager16FeatureOptionSetVGMd
++ _$sSay8Dispatch0A13WorkItemFlagsVGMR
++ _$sSay8Dispatch0A13WorkItemFlagsVGMd
++ _$sSaySSGMR
++ _$sSaySSGMd
++ _$sSaySSSgGMR
++ _$sSaySSSgGMd
++ _$sSaySS_16HeadphoneManager10ReplayDataCtGMR
++ _$sSaySS_16HeadphoneManager10ReplayDataCtGMd
++ _$sSaySo17HKAudiogramSampleCGMR
++ _$sSaySo17HKAudiogramSampleCGMd
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMR
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMd
++ _$sSaySo21UARPSettingsAccessoryCGMR
++ _$sSaySo21UARPSettingsAccessoryCGMd
++ _$sSaySo8NSNumberCGMR
++ _$sSaySo8NSNumberCGMd
++ _$sSays14PartialKeyPathCy16HeadphoneManager18HearingRecordModelCGGMR
++ _$sSays14PartialKeyPathCy16HeadphoneManager18HearingRecordModelCGGMd
++ _$sSays5UInt8VGMR
++ _$sSays5UInt8VGMd
++ _$sSayySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGMR
++ _$sSayySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGMd
++ _$sSayypGMR
++ _$sSayypGMd
++ _$sSbSgMR
++ _$sSbSgMd
++ _$sScPSgMR
++ _$sScPSgMd
++ _$sSfSgMR
++ _$sSfSgMd
++ _$sShy7Combine14AnyCancellableCGMR
++ _$sShy7Combine14AnyCancellableCGMd
++ _$sSiSgMR
++ _$sSiSgMd
++ _$sSi_SStMR
++ _$sSi_SStMd
++ _$sSo6HMInfoCSgMR
++ _$sSo6HMInfoCSgMd
++ _$sSo8NSObjectCSgMR
++ _$sSo8NSObjectCSgMd
++ _$sSo9AABatteryC_A3BtMR
++ _$sSo9AABatteryC_A3BtMd
++ _$sSo9NSRunLoopC10FoundationE16SchedulerOptionsVSgMR
++ _$sSo9NSRunLoopC10FoundationE16SchedulerOptionsVSgMd
++ _$ss14PartialKeyPathCy16HeadphoneManager13AADeviceModelVGMR
++ _$ss14PartialKeyPathCy16HeadphoneManager13AADeviceModelVGMd
++ _$ss14PartialKeyPathCy16HeadphoneManager18HearingRecordModelCGMR
++ _$ss14PartialKeyPathCy16HeadphoneManager18HearingRecordModelCGMd
++ _$ss16IndexingIteratorVySNySiGGMR
++ _$ss16IndexingIteratorVySNySiGGMd
++ _$ss16IndexingIteratorVySaySo21UARPSettingsAccessoryCGGMR
++ _$ss16IndexingIteratorVySaySo21UARPSettingsAccessoryCGGMd
++ _$ss22KeyedDecodingContainerVy16HeadphoneManager10ReplayDataC10CodingKeys33_E0CD115AC4CBFD655F45F736CCCB4A57LLOGMR
++ _$ss22KeyedDecodingContainerVy16HeadphoneManager10ReplayDataC10CodingKeys33_E0CD115AC4CBFD655F45F736CCCB4A57LLOGMd
++ _$ss22KeyedEncodingContainerVy16HeadphoneManager10ReplayDataC10CodingKeys33_E0CD115AC4CBFD655F45F736CCCB4A57LLOGMR
++ _$ss22KeyedEncodingContainerVy16HeadphoneManager10ReplayDataC10CodingKeys33_E0CD115AC4CBFD655F45F736CCCB4A57LLOGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ _$ss5Error_pSgMR
++ _$ss5Error_pSgMd
++ _$ss6UInt32VSgMR
++ _$ss6UInt32VSgMd
++ _$ss7CVarArg_pMR
++ _$ss7CVarArg_pMd
++ _$sySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcMR
++ _$sySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10Foundation3URLVSgMD
+- _$s10Foundation4DataV4data_s5UInt8VSg4bytetMD
+- _$s10Foundation4DateVSgMD
+- _$s10Foundation4UUIDVSgMD
+- _$s10Foundation4UUIDVSg_ADtMD
+- _$s16HeadphoneManager0A18FeatureContentType_pMD
+- _$s16HeadphoneManager0A18FeatureContentType_pSgMD
+- _$s16HeadphoneManager0A6DeviceCSgMD
+- _$s16HeadphoneManager14CodableIgnoredVyShy7Combine14AnyCancellableCGGMD
+- _$s16HeadphoneManager16AADevicePropertyVyAA0C0C10Foundation4DateVSgGMD
+- _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo12AAMultiStateVGMD
+- _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo15AAFrequencyBandVGMD
+- _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo16AAStreamStateAoSVGMD
+- _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo17AAAutoANCStrengthVGMD
+- _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo19AAAutoANCCapabilityVGMD
+- _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo19AAFeatureCapabilityVGMD
+- _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo19AAHeadGestureConfigVGMD
+- _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo21AABobbleConfigurationVGMD
+- _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo22AAHearingAidCapabilityVGMD
+- _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo23AAHearingTestCapabilityVGMD
+- _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo25AAHearingAidConfigurationVGMD
+- _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo27AARemoteCameraControlConfigVGMD
+- _$s16HeadphoneManager16AADevicePropertyVyAA0C0CSo32AAChargingFeatureEnablementStateVGMD
+- _$s16HeadphoneManager19HearingRecordConfigVyAA0cD0CSfGMD
+- _$s16HeadphoneManager19HearingRecordConfigVyAA0cD0CSo12HMMultiStateVAGs23CustomStringConvertibleAAyHCg0_GMD
+- _$s7Combine12AnyPublisherVySo14NSUserDefaultsCs5NeverOGMD
+- _$s7Combine19CurrentValueSubjectCySo14NSUserDefaultsCs5NeverOGMD
+- _$s7Combine9PublishedV9PublisherVy16HeadphoneManager13HearingRecordC_GMD
+- _$s7Combine9PublishedV9PublisherVy16HeadphoneManager16AADBatteryInfoVMC_GMD
+- _$s7Combine9PublishedV9PublisherVy16HeadphoneManager8AADeviceC_GMD
+- _$s7Combine9PublishedV9PublisherVySDySS16HeadphoneManager0D6DeviceCG_GMD
+- _$s7Combine9PublishedV9PublisherVySDySSSo14HMDeviceRecordCG_GMD
+- _$s7Combine9PublishedV9PublisherVySDySiSSG_GMD
+- _$s7Combine9PublishedV9PublisherVySS_GMD
+- _$s7Combine9PublishedV9PublisherVySaySo17HKAudiogramSampleCG_GMD
+- _$s7Combine9PublishedV9PublisherVySaySo8NSNumberCG_GMD
+- _$s7Combine9PublishedV9PublisherVySb_GMD
+- _$s7Combine9PublishedV9PublisherVySf_GMD
+- _$s7Combine9PublishedV9PublisherVySo11AAPlacementV_GMD
+- _$s7Combine9PublishedV9PublisherVySo12HMMultiStateV_GMD
+- _$s7Combine9PublishedV9PublisherVySo14CBBatteryStateV_GMD
+- _$s7Combine9PublishedV9PublisherVySo14HMRegionStatusV_GMD
+- _$s7Combine9PublishedV9PublisherVySo15CBListeningModeV_GMD
+- _$s7Combine9PublishedV9PublisherVySo16CBMicrophoneModeV_GMD
+- _$s7Combine9PublishedV9PublisherVySo16CBPeerCallConfigV_GMD
+- _$s7Combine9PublishedV9PublisherVySo17CBDoubleTapActionV_GMD
+- _$s7Combine9PublishedV9PublisherVySo17HMOcclusionResultV_GMD
+- _$s7Combine9PublishedV9PublisherVySo18CBSmartRoutingModeV_GMD
+- _$s7Combine9PublishedV9PublisherVySo19AAFeatureCapabilityV_GMD
+- _$s7Combine9PublishedV9PublisherVySo19CBPeerUIGestureModeV_GMD
+- _$s7Combine9PublishedV9PublisherVySo21AADevicePlacementModeV_GMD
+- _$s7Combine9PublishedV9PublisherVySo28CBPeerCrownRotationDirectionV_GMD
+- _$s7Combine9PublishedV9PublisherVySo6HMInfoCSg_GMD
+- _$s7Combine9PublishedV9PublisherVySo8NSNumberC_GMD
+- _$s7Combine9PublishedV9PublisherVySo9AABatteryC_GMD
+- _$s7Combine9PublishedVy16HeadphoneManager13HearingRecordCGMD
+- _$s7Combine9PublishedVy16HeadphoneManager16AADBatteryInfoVMCGMD
+- _$s7Combine9PublishedVy16HeadphoneManager8AADeviceCGMD
+- _$s7Combine9PublishedVySDySS16HeadphoneManager0C6DeviceCGGMD
+- _$s7Combine9PublishedVySDySSSo14HMDeviceRecordCGGMD
+- _$s7Combine9PublishedVySDySiSSGGMD
+- _$s7Combine9PublishedVySSGMD
+- _$s7Combine9PublishedVySaySo17HKAudiogramSampleCGGMD
+- _$s7Combine9PublishedVySaySo8NSNumberCGGMD
+- _$s7Combine9PublishedVySbGMD
+- _$s7Combine9PublishedVySfGMD
+- _$s7Combine9PublishedVySo11AAPlacementVGMD
+- _$s7Combine9PublishedVySo12HMMultiStateVGMD
+- _$s7Combine9PublishedVySo14CBBatteryStateVGMD
+- _$s7Combine9PublishedVySo14HMRegionStatusVGMD
+- _$s7Combine9PublishedVySo15CBListeningModeVGMD
+- _$s7Combine9PublishedVySo16CBMicrophoneModeVGMD
+- _$s7Combine9PublishedVySo16CBPeerCallConfigVGMD
+- _$s7Combine9PublishedVySo17CBDoubleTapActionVGMD
+- _$s7Combine9PublishedVySo17HMOcclusionResultVGMD
+- _$s7Combine9PublishedVySo18CBSmartRoutingModeVGMD
+- _$s7Combine9PublishedVySo19AAFeatureCapabilityVGMD
+- _$s7Combine9PublishedVySo19CBPeerUIGestureModeVGMD
+- _$s7Combine9PublishedVySo21AADevicePlacementModeVGMD
+- _$s7Combine9PublishedVySo28CBPeerCrownRotationDirectionVGMD
+- _$s7Combine9PublishedVySo6HMInfoCSgGMD
+- _$s7Combine9PublishedVySo8NSNumberCGMD
+- _$s7Combine9PublishedVySo9AABatteryCGMD
+- _$sSAySo7NSErrorCSgGMD
+- _$sSD6ValuesVySS16HeadphoneManager0B6DeviceC_GMD
+- _$sSD6ValuesVys11AnyHashableVyp_GMD
+- _$sSDySS10Foundation4DataVGMD
+- _$sSDySS16HeadphoneManager0A6DeviceCGMD
+- _$sSDySSSo14HMDeviceRecordCGMD
+- _$sSDySiSSGMD
+- _$sSDys11AnyHashableVypGMD
+- _$sSNySiGMD
+- _$sSSSgMD
+- _$sSS_16HeadphoneManager0A6DeviceCtMD
+- _$sSS_16HeadphoneManager10ReplayDataCtMD
+- _$sSS_So14HMDeviceRecordCtMD
+- _$sSS_So8NSObjectCtMD
+- _$sSay16HeadphoneManager0A18FeatureContentType_pGMD
+- _$sSay16HeadphoneManager0A18FeatureContentType_pSgGMD
+- _$sSay16HeadphoneManager16FeatureOptionSetVGMD
+- _$sSay8Dispatch0A13WorkItemFlagsVGMD
+- _$sSaySSGMD
+- _$sSaySSSgGMD
+- _$sSaySS_16HeadphoneManager10ReplayDataCtGMD
+- _$sSaySo17HKAudiogramSampleCGMD
+- _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMD
+- _$sSaySo21UARPSettingsAccessoryCGMD
+- _$sSaySo8NSNumberCGMD
+- _$sSays14PartialKeyPathCy16HeadphoneManager18HearingRecordModelCGGMD
+- _$sSays5UInt8VGMD
+- _$sSayySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGMD
+- _$sSayypGMD
+- _$sSbSgMD
+- _$sScPSgMD
+- _$sSfSgMD
+- _$sShy7Combine14AnyCancellableCGMD
+- _$sSiSgMD
+- _$sSi_SStMD
+- _$sSo6HMInfoCSgMD
+- _$sSo8NSObjectCSgMD
+- _$sSo9AABatteryC_A3BtMD
+- _$sSo9NSRunLoopC10FoundationE16SchedulerOptionsVSgMD
+- _$ss14PartialKeyPathCy16HeadphoneManager13AADeviceModelVGMD
+- _$ss14PartialKeyPathCy16HeadphoneManager18HearingRecordModelCGMD
+- _$ss16IndexingIteratorVySNySiGGMD
+- _$ss16IndexingIteratorVySaySo21UARPSettingsAccessoryCGGMD
+- _$ss22KeyedDecodingContainerVy16HeadphoneManager10ReplayDataC10CodingKeys33_E0CD115AC4CBFD655F45F736CCCB4A57LLOGMD
+- _$ss22KeyedEncodingContainerVy16HeadphoneManager10ReplayDataC10CodingKeys33_E0CD115AC4CBFD655F45F736CCCB4A57LLOGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss5Error_pMD
+- _$ss5Error_pSgMD
+- _$ss6UInt32VSgMD
+- _$ss7CVarArg_pMD
+- _$sySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+
+```

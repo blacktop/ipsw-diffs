@@ -1,0 +1,518 @@
+## SocialLayer
+
+> `/System/Library/PrivateFrameworks/SocialLayer.framework/SocialLayer`
+
+```diff
+
+ 192.200.31.0.0
+-  __TEXT.__text: 0xbf184
++  __TEXT.__text: 0xbfc0c
+   __TEXT.__auth_stubs: 0x2460
+   __TEXT.__objc_methlist: 0x641c
+-  __TEXT.__const: 0x2694
++  __TEXT.__const: 0x2a34
+   __TEXT.__gcc_except_tab: 0x17e0
+   __TEXT.__cstring: 0x645d
+   __TEXT.__dlopen_cstrs: 0x3a8
+
+   __TEXT.__swift_as_entry: 0x74
+   __TEXT.__swift_as_ret: 0x98
+   __TEXT.__swift5_capture: 0x65c
+-  __TEXT.__unwind_info: 0x31b8
++  __TEXT.__unwind_info: 0x31c0
+   __TEXT.__eh_frame: 0x1e9c
+   __TEXT.__objc_classname: 0xf1f
+   __TEXT.__objc_methname: 0x10852
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0C72E5FF-58B7-3D43-8EDC-3B51981FB0E3
++  UUID: B02974B3-C281-35B5-A5A7-FE7291FE0F44
+   Functions: 4714
+-  Symbols:   15548
++  Symbols:   15643
+   CStrings:  4815
+ 
+Symbols:
++ _$s10Foundation15ContiguousBytes_pMR
++ _$s10Foundation15ContiguousBytes_pMd
++ _$s10Foundation15ContiguousBytes_pSgMR
++ _$s10Foundation15ContiguousBytes_pSgMd
++ _$s10Foundation3URLVSgMR
++ _$s10Foundation3URLVSgMd
++ _$s10Foundation3URLV_So24_SWCollaborationMetadataCtMR
++ _$s10Foundation3URLV_So24_SWCollaborationMetadataCtMd
++ _$s10Foundation3URLV_So7CKShareCtMR
++ _$s10Foundation3URLV_So7CKShareCtMd
++ _$s10Foundation6LocaleVSgMR
++ _$s10Foundation6LocaleVSgMd
++ _$s11SocialLayer23SLDHighlightPillMetrics33_00C2B47D0280335DFFDBB3BC8927527ALLVSgMR
++ _$s11SocialLayer23SLDHighlightPillMetrics33_00C2B47D0280335DFFDBB3BC8927527ALLVSgMd
++ _$s11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientVSgMR
++ _$s11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientVSgMd
++ _$s11SocialLayer38CollaborationInitiationResponsePayloadVSgMR
++ _$s11SocialLayer38CollaborationInitiationResponsePayloadVSgMd
++ _$s11SocialLayer8Endpoint_pMR
++ _$s11SocialLayer8Endpoint_pMd
++ _$s9CryptoKit12SHA256DigestVSgMR
++ _$s9CryptoKit12SHA256DigestVSgMd
++ _$s9CryptoKit12SymmetricKeyVSgMR
++ _$s9CryptoKit12SymmetricKeyVSgMd
++ _$s9CryptoKit12SymmetricKeyVSgSgMR
++ _$s9CryptoKit12SymmetricKeyVSgSgMd
++ _$s9CryptoKit3AESO3GCMO5NonceVSgMR
++ _$s9CryptoKit3AESO3GCMO5NonceVSgMd
++ _$s9CryptoKit4P256O7SigningO9PublicKeyV3key_10Foundation4DataV3tpstMR
++ _$s9CryptoKit4P256O7SigningO9PublicKeyV3key_10Foundation4DataV3tpstMd
++ _$s9CryptoKit4P256O7SigningO9PublicKeyVSgMR
++ _$s9CryptoKit4P256O7SigningO9PublicKeyVSgMd
++ _$sSDySo11CFStringRefa12CoreGraphics7CGFloatVGMR
++ _$sSDySo11CFStringRefa12CoreGraphics7CGFloatVGMd
++ _$sSDySo11CFStringRefaSgABGMR
++ _$sSDySo11CFStringRefaSgABGMd
++ _$sSDySo11CFStringRefaSgypGMR
++ _$sSDySo11CFStringRefaSgypGMd
++ _$sSDySo11CFStringRefaSiGMR
++ _$sSDySo11CFStringRefaSiGMd
++ _$sSDySo11CFStringRefaypGMR
++ _$sSDySo11CFStringRefaypGMd
++ _$sSS_yptMR
++ _$sSS_yptMd
++ _$sSay10Foundation16AttributedStringV17FormattingOptionsVGMR
++ _$sSay10Foundation16AttributedStringV17FormattingOptionsVGMd
++ _$sSay11SocialLayer8Endpoint_pGMR
++ _$sSay11SocialLayer8Endpoint_pGMd
++ _$sSay8Dispatch0A13WorkItemFlagsVGMR
++ _$sSay8Dispatch0A13WorkItemFlagsVGMd
++ _$sSaySo11IDSEndpointCGMR
++ _$sSaySo11IDSEndpointCGMd
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMR
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMd
++ _$sSaySo7NSErrorCGMR
++ _$sSaySo7NSErrorCGMd
++ _$sSays5UInt8VGMR
++ _$sSays5UInt8VGMd
++ _$sScCySay11SocialLayer8Endpoint_pGs5NeverOGMR
++ _$sScCySay11SocialLayer8Endpoint_pGs5NeverOGMd
++ _$sScCySo35_SWStartCollaborationActionResponseCs5Error_pGMR
++ _$sScCySo35_SWStartCollaborationActionResponseCs5Error_pGMd
++ _$sScCySo7CKShareCs5Error_pGMR
++ _$sScCySo7CKShareCs5Error_pGMd
++ _$sScPSgMR
++ _$sScPSgMd
++ _$sSccy10Foundation3URLV_So24_SWCollaborationMetadataCts5Error_pGMR
++ _$sSccy10Foundation3URLV_So24_SWCollaborationMetadataCts5Error_pGMd
++ _$sSccy10Foundation3URLV_So7CKShareCts5Error_pGMR
++ _$sSccy10Foundation3URLV_So7CKShareCts5Error_pGMd
++ _$sSccy10Foundation4DataVs5Error_pGMR
++ _$sSccy10Foundation4DataVs5Error_pGMd
++ _$sSh5IndexVySo8TUHandleC_GMR
++ _$sSh5IndexVySo8TUHandleC_GMd
++ _$sSo11CFStringRefaSg_ABtMR
++ _$sSo11CFStringRefaSg_ABtMd
++ _$sSo11CFStringRefaSg_yptMR
++ _$sSo11CFStringRefaSg_yptMd
++ _$sSo11CFStringRefa_12CoreGraphics7CGFloatVtMR
++ _$sSo11CFStringRefa_12CoreGraphics7CGFloatVtMd
++ _$sSo11CFStringRefa_SDyAB12CoreGraphics7CGFloatVGtMR
++ _$sSo11CFStringRefa_SDyAB12CoreGraphics7CGFloatVGtMd
++ _$sSo11CFStringRefa_SDyABSgABGtMR
++ _$sSo11CFStringRefa_SDyABSgABGtMd
++ _$sSo11CFStringRefa_SDyABSgypGtMR
++ _$sSo11CFStringRefa_SDyABSgypGtMd
++ _$sSo11CFStringRefa_SDyABSiGtMR
++ _$sSo11CFStringRefa_SDyABSiGtMd
++ _$sSo11CFStringRefa_SDyABypGtMR
++ _$sSo11CFStringRefa_SDyABypGtMd
++ _$sSo11CFStringRefa_SitMR
++ _$sSo11CFStringRefa_SitMd
++ _$sSo11CFStringRefa_yptMR
++ _$sSo11CFStringRefa_yptMd
++ _$sSo11SLHighlightCSgMR
++ _$sSo11SLHighlightCSgMd
++ _$sSo21NSAttributedStringKeya_yptMR
++ _$sSo21NSAttributedStringKeya_yptMd
++ _$sSo8NSObjectCSgMR
++ _$sSo8NSObjectCSgMd
++ _$ss11_SetStorageCy11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientVGMR
++ _$ss11_SetStorageCy11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientVGMd
++ _$ss11_SetStorageCySSGMR
++ _$ss11_SetStorageCySSGMd
++ _$ss11_SetStorageCySo8TUHandleCGMR
++ _$ss11_SetStorageCySo8TUHandleCGMd
++ _$ss18_DictionaryStorageCySSSo16SWPersonIdentityCGMR
++ _$ss18_DictionaryStorageCySSSo16SWPersonIdentityCGMd
++ _$ss18_DictionaryStorageCySSSo36CKDeviceToDeviceShareInvitationTokenCGMR
++ _$ss18_DictionaryStorageCySSSo36CKDeviceToDeviceShareInvitationTokenCGMd
++ _$ss18_DictionaryStorageCySSypGMR
++ _$ss18_DictionaryStorageCySSypGMd
++ _$ss18_DictionaryStorageCySo11CFStringRefa12CoreGraphics7CGFloatVGMR
++ _$ss18_DictionaryStorageCySo11CFStringRefa12CoreGraphics7CGFloatVGMd
++ _$ss18_DictionaryStorageCySo11CFStringRefaSDyAD12CoreGraphics7CGFloatVGGMR
++ _$ss18_DictionaryStorageCySo11CFStringRefaSDyAD12CoreGraphics7CGFloatVGGMd
++ _$ss18_DictionaryStorageCySo11CFStringRefaSDyADSgADGGMR
++ _$ss18_DictionaryStorageCySo11CFStringRefaSDyADSgADGGMd
++ _$ss18_DictionaryStorageCySo11CFStringRefaSDyADSgypGGMR
++ _$ss18_DictionaryStorageCySo11CFStringRefaSDyADSgypGGMd
++ _$ss18_DictionaryStorageCySo11CFStringRefaSDyADSiGGMR
++ _$ss18_DictionaryStorageCySo11CFStringRefaSDyADSiGGMd
++ _$ss18_DictionaryStorageCySo11CFStringRefaSDyADypGGMR
++ _$ss18_DictionaryStorageCySo11CFStringRefaSDyADypGGMd
++ _$ss18_DictionaryStorageCySo11CFStringRefaSgADGMR
++ _$ss18_DictionaryStorageCySo11CFStringRefaSgADGMd
++ _$ss18_DictionaryStorageCySo11CFStringRefaSgypGMR
++ _$ss18_DictionaryStorageCySo11CFStringRefaSgypGMd
++ _$ss18_DictionaryStorageCySo11CFStringRefaSiGMR
++ _$ss18_DictionaryStorageCySo11CFStringRefaSiGMd
++ _$ss18_DictionaryStorageCySo11CFStringRefaypGMR
++ _$ss18_DictionaryStorageCySo11CFStringRefaypGMd
++ _$ss18_DictionaryStorageCySo21NSAttributedStringKeyaypGMR
++ _$ss18_DictionaryStorageCySo21NSAttributedStringKeyaypGMd
++ _$ss18_DictionaryStorageCySo8TUHandleC11SocialLayer38CollaborationInitiationResponsePayloadVGMR
++ _$ss18_DictionaryStorageCySo8TUHandleC11SocialLayer38CollaborationInitiationResponsePayloadVGMd
++ _$ss18_DictionaryStorageCySo8TUHandleCSo18CKShareParticipantCGMR
++ _$ss18_DictionaryStorageCySo8TUHandleCSo18CKShareParticipantCGMd
++ _$ss23_ContiguousArrayStorageCy10Foundation4DataVGMR
++ _$ss23_ContiguousArrayStorageCy10Foundation4DataVGMd
++ _$ss23_ContiguousArrayStorageCy11SocialLayer12NodeIdentityOGMR
++ _$ss23_ContiguousArrayStorageCy11SocialLayer12NodeIdentityOGMd
++ _$ss23_ContiguousArrayStorageCy11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientVGMR
++ _$ss23_ContiguousArrayStorageCy11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientVGMd
++ _$ss23_ContiguousArrayStorageCy11SocialLayer8Endpoint_pGMR
++ _$ss23_ContiguousArrayStorageCy11SocialLayer8Endpoint_pGMd
++ _$ss23_ContiguousArrayStorageCy9CryptoKit12SHA256DigestVGMR
++ _$ss23_ContiguousArrayStorageCy9CryptoKit12SHA256DigestVGMd
++ _$ss23_ContiguousArrayStorageCy9CryptoKit4P256O7SigningO9PublicKeyVGMR
++ _$ss23_ContiguousArrayStorageCy9CryptoKit4P256O7SigningO9PublicKeyVGMd
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss23_ContiguousArrayStorageCySS_yptGMR
++ _$ss23_ContiguousArrayStorageCySS_yptGMd
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefaSg_ADtGMR
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefaSg_ADtGMd
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefaSg_yptGMR
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefaSg_yptGMd
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_12CoreGraphics7CGFloatVtGMR
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_12CoreGraphics7CGFloatVtGMd
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SDyAD12CoreGraphics7CGFloatVGtGMR
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SDyAD12CoreGraphics7CGFloatVGtGMd
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SDyADSgADGtGMR
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SDyADSgADGtGMd
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SDyADSgypGtGMR
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SDyADSgypGtGMd
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SDyADSiGtGMR
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SDyADSiGtGMd
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SDyADypGtGMR
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SDyADypGtGMd
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SitGMR
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SitGMd
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_yptGMR
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_yptGMd
++ _$ss23_ContiguousArrayStorageCySo21NSAttributedStringKeya_yptGMR
++ _$ss23_ContiguousArrayStorageCySo21NSAttributedStringKeya_yptGMd
++ _$ss23_ContiguousArrayStorageCySo8_NSRangeVGMR
++ _$ss23_ContiguousArrayStorageCySo8_NSRangeVGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMR
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMd
++ _$ss23_ContiguousArrayStorageCyyXlGMR
++ _$ss23_ContiguousArrayStorageCyyXlGMd
++ _$ss23_ContiguousArrayStorageCyypGMR
++ _$ss23_ContiguousArrayStorageCyypGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ _$sypSgMR
++ _$sypSgMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10Foundation15ContiguousBytes_pMD
+- _$s10Foundation15ContiguousBytes_pSgMD
+- _$s10Foundation3URLVSgMD
+- _$s10Foundation3URLV_So24_SWCollaborationMetadataCtMD
+- _$s10Foundation3URLV_So7CKShareCtMD
+- _$s10Foundation6LocaleVSgMD
+- _$s11SocialLayer23SLDHighlightPillMetrics33_00C2B47D0280335DFFDBB3BC8927527ALLVSgMD
+- _$s11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientVSgMD
+- _$s11SocialLayer38CollaborationInitiationResponsePayloadVSgMD
+- _$s11SocialLayer8Endpoint_pMD
+- _$s9CryptoKit12SHA256DigestVSgMD
+- _$s9CryptoKit12SymmetricKeyVSgMD
+- _$s9CryptoKit12SymmetricKeyVSgSgMD
+- _$s9CryptoKit3AESO3GCMO5NonceVSgMD
+- _$s9CryptoKit4P256O7SigningO9PublicKeyV3key_10Foundation4DataV3tpstMD
+- _$s9CryptoKit4P256O7SigningO9PublicKeyVSgMD
+- _$sSDySo11CFStringRefa12CoreGraphics7CGFloatVGMD
+- _$sSDySo11CFStringRefaSgABGMD
+- _$sSDySo11CFStringRefaSgypGMD
+- _$sSDySo11CFStringRefaSiGMD
+- _$sSDySo11CFStringRefaypGMD
+- _$sSS_yptMD
+- _$sSay10Foundation16AttributedStringV17FormattingOptionsVGMD
+- _$sSay11SocialLayer8Endpoint_pGMD
+- _$sSay8Dispatch0A13WorkItemFlagsVGMD
+- _$sSaySo11IDSEndpointCGMD
+- _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMD
+- _$sSaySo7NSErrorCGMD
+- _$sSays5UInt8VGMD
+- _$sScCySay11SocialLayer8Endpoint_pGs5NeverOGMD
+- _$sScCySo35_SWStartCollaborationActionResponseCs5Error_pGMD
+- _$sScCySo7CKShareCs5Error_pGMD
+- _$sScPSgMD
+- _$sSccy10Foundation3URLV_So24_SWCollaborationMetadataCts5Error_pGMD
+- _$sSccy10Foundation3URLV_So7CKShareCts5Error_pGMD
+- _$sSccy10Foundation4DataVs5Error_pGMD
+- _$sSh5IndexVySo8TUHandleC_GMD
+- _$sSo11CFStringRefaSg_ABtMD
+- _$sSo11CFStringRefaSg_yptMD
+- _$sSo11CFStringRefa_12CoreGraphics7CGFloatVtMD
+- _$sSo11CFStringRefa_SDyAB12CoreGraphics7CGFloatVGtMD
+- _$sSo11CFStringRefa_SDyABSgABGtMD
+- _$sSo11CFStringRefa_SDyABSgypGtMD
+- _$sSo11CFStringRefa_SDyABSiGtMD
+- _$sSo11CFStringRefa_SDyABypGtMD
+- _$sSo11CFStringRefa_SitMD
+- _$sSo11CFStringRefa_yptMD
+- _$sSo11SLHighlightCSgMD
+- _$sSo21NSAttributedStringKeya_yptMD
+- _$sSo8NSObjectCSgMD
+- _$ss11_SetStorageCy11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientVGMD
+- _$ss11_SetStorageCySSGMD
+- _$ss11_SetStorageCySo8TUHandleCGMD
+- _$ss18_DictionaryStorageCySSSo16SWPersonIdentityCGMD
+- _$ss18_DictionaryStorageCySSSo36CKDeviceToDeviceShareInvitationTokenCGMD
+- _$ss18_DictionaryStorageCySSypGMD
+- _$ss18_DictionaryStorageCySo11CFStringRefa12CoreGraphics7CGFloatVGMD
+- _$ss18_DictionaryStorageCySo11CFStringRefaSDyAD12CoreGraphics7CGFloatVGGMD
+- _$ss18_DictionaryStorageCySo11CFStringRefaSDyADSgADGGMD
+- _$ss18_DictionaryStorageCySo11CFStringRefaSDyADSgypGGMD
+- _$ss18_DictionaryStorageCySo11CFStringRefaSDyADSiGGMD
+- _$ss18_DictionaryStorageCySo11CFStringRefaSDyADypGGMD
+- _$ss18_DictionaryStorageCySo11CFStringRefaSgADGMD
+- _$ss18_DictionaryStorageCySo11CFStringRefaSgypGMD
+- _$ss18_DictionaryStorageCySo11CFStringRefaSiGMD
+- _$ss18_DictionaryStorageCySo11CFStringRefaypGMD
+- _$ss18_DictionaryStorageCySo21NSAttributedStringKeyaypGMD
+- _$ss18_DictionaryStorageCySo8TUHandleC11SocialLayer38CollaborationInitiationResponsePayloadVGMD
+- _$ss18_DictionaryStorageCySo8TUHandleCSo18CKShareParticipantCGMD
+- _$ss23_ContiguousArrayStorageCy10Foundation4DataVGMD
+- _$ss23_ContiguousArrayStorageCy11SocialLayer12NodeIdentityOGMD
+- _$ss23_ContiguousArrayStorageCy11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientVGMD
+- _$ss23_ContiguousArrayStorageCy11SocialLayer8Endpoint_pGMD
+- _$ss23_ContiguousArrayStorageCy9CryptoKit12SHA256DigestVGMD
+- _$ss23_ContiguousArrayStorageCy9CryptoKit4P256O7SigningO9PublicKeyVGMD
+- _$ss23_ContiguousArrayStorageCySSGMD
+- _$ss23_ContiguousArrayStorageCySS_yptGMD
+- _$ss23_ContiguousArrayStorageCySo11CFStringRefaSg_ADtGMD
+- _$ss23_ContiguousArrayStorageCySo11CFStringRefaSg_yptGMD
+- _$ss23_ContiguousArrayStorageCySo11CFStringRefa_12CoreGraphics7CGFloatVtGMD
+- _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SDyAD12CoreGraphics7CGFloatVGtGMD
+- _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SDyADSgADGtGMD
+- _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SDyADSgypGtGMD
+- _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SDyADSiGtGMD
+- _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SDyADypGtGMD
+- _$ss23_ContiguousArrayStorageCySo11CFStringRefa_SitGMD
+- _$ss23_ContiguousArrayStorageCySo11CFStringRefa_yptGMD
+- _$ss23_ContiguousArrayStorageCySo21NSAttributedStringKeya_yptGMD
+- _$ss23_ContiguousArrayStorageCySo8_NSRangeVGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss23_ContiguousArrayStorageCys7CVarArg_pGMD
+- _$ss23_ContiguousArrayStorageCyyXlGMD
+- _$ss23_ContiguousArrayStorageCyypGMD
+- _$ss5Error_pMD
+- _$sypSgMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+Functions:
+~ sub_230ba1398 -> sub_231756398 : 140 -> 148
+~ sub_230ba1d6c -> sub_231756d74 : 224 -> 232
+~ sub_230ba1e4c -> sub_231756e5c : 208 -> 216
+~ sub_230ba2804 -> sub_23175781c : 140 -> 148
+~ _$s9CryptoKit4P256O7SigningO9PublicKeyV11SocialLayerE03secF0So03SecF3RefaSgvg : 356 -> 372
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 108 -> 116
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5 : 236 -> 244
+~ ___swift_instantiateConcreteTypeFromMangledName -> ___swift_instantiateConcreteTypeFromMangledNameV2 : 76 -> 72
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0g5Tf4g_n : 284 -> 304
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefaSg_ypTt0g5Tf4g_n : 268 -> 296
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefa_SDyADSgypGTt0g5Tf4g_n : 12 -> 20
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefaSg_ADTt0g5Tf4g_n : 236 -> 244
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefa_SDyADSgADGTt0g5Tf4g_n : 12 -> 20
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo21NSAttributedStringKeya_ypTt0g5Tf4g_n : 268 -> 296
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefa_SiTt0g5Tf4g_n : 228 -> 236
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefa_SDyADSiGTt0g5Tf4g_n : 12 -> 20
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_So16SWPersonIdentityCTt0g5Tf4g_n : 252 -> 260
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefa_ypTt0g5Tf4g_n : 268 -> 296
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefa_SDyADypGTt0g5Tf4g_n : 12 -> 20
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefa_12CoreGraphics7CGFloatVTt0g5Tf4g_n : 232 -> 240
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefa_SDyAD12CoreGraphics7CGFloatVGTt0g5Tf4g_n : 12 -> 20
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefa_SDyADSgypGTt0g5Tf4g_nTm : 236 -> 240
+~ _$sSo21NSAttributedStringKeya_yptWOcTm : 100 -> 104
+~ _$s11SocialLayer27iOSDisambiguationPillMetricV13firstLineFontSo9CTFontRefavgTf4d_nTm : 524 -> 564
+~ _$s11SocialLayer30VisionDisambiguationPillMetricV13firstLineFontSo9CTFontRefavgTf4x_n : 500 -> 540
+~ _$s11SocialLayer30VisionDisambiguationPillMetricV14secondLineFontSo9CTFontRefavgTf4x_n : 568 -> 608
+~ _$s11SocialLayer40HighlightDisambiguationPillMetricVariant33_C5DA7C7764DCEDFB9B9BF94750149602LLPAAE25firstLineAttributedString4fromSo09NSMutablepQ0CSS_tFAA03MacdeF0V_Tg5Tf4nx_n : 680 -> 696
+~ _$s11SocialLayer40HighlightDisambiguationPillMetricVariant33_C5DA7C7764DCEDFB9B9BF94750149602LLPAAE25firstLineAttributedString4fromSo09NSMutablepQ0CSS_tFAA017iOSDisambiguationeF0V_Tg5Tf4nx_nTm : 580 -> 596
+~ _$s11SocialLayer40HighlightDisambiguationPillMetricVariant33_C5DA7C7764DCEDFB9B9BF94750149602LLPAAE25firstLineAttributedString4fromSo09NSMutablepQ0CSS_tFAA06VisiondeF0V_Tg5Tf4nx_nTm : 536 -> 552
+~ _$s11SocialLayer25DisambiguationPillMetricsC15firstLineString3forSSSo012SLDHighlightcD7SlotTagC_tFZTf4nd_n : 996 -> 1004
+~ _$s11SocialLayer25DisambiguationPillMetricsC16secondLineString3forSSSo012SLDHighlightcD7SlotTagC_tFZTf4nd_n : 1204 -> 1212
+~ _$sSo8NSObjectCSgWOhTm : 92 -> 96
+~ _$s11SocialLayer44CollaborationAttributionViewMetricsProvidingPAAE8baseFontSo9CTFontRefaSgvg : 496 -> 536
+~ _$s11SocialLayer44CollaborationAttributionViewMetricsProvidingPAAE21titleAttributedString33_7A1E2A6E1127C7C0B9C39195EE6C007BLL3for5styleSo012NSAttributedJ0CSgSS_So25UISSlotUserInterfaceStyleVtF : 860 -> 876
+~ _$s11SocialLayer44CollaborationAttributionViewMetricsProvidingPAAE24subtitleAttributedString33_7A1E2A6E1127C7C0B9C39195EE6C007BLL3for5styleSo012NSAttributedJ0CSgSS_So25UISSlotUserInterfaceStyleVtF : 564 -> 580
+~ _$s11SocialLayer43CollaborationAttributionViewMetricsProviderC012boldFontWithI033_7A1E2A6E1127C7C0B9C39195EE6C007BLL4fontSo9CTFontRefaAH_tFZTf4nd_n : 436 -> 476
+~ _$s11SocialLayer44CollaborationAttributionViewMetricsProvidingPAAE8baseFontSo9CTFontRefaSgvgAA0cde8StandardF033_7A1E2A6E1127C7C0B9C39195EE6C007BLLV_Tg5Tf4x_nTm : 448 -> 488
+~ _$s11SocialLayer44CollaborationAttributionViewMetricsProvidingPAAE21titleAttributedString33_7A1E2A6E1127C7C0B9C39195EE6C007BLL3for5styleSo012NSAttributedJ0CSgSS_So25UISSlotUserInterfaceStyleVtFAA0cde8StandardF0AELLV_Tg5Tf4nnx_nTm : 556 -> 572
+~ _$s11SocialLayer44CollaborationAttributionViewMetricsProvidingPAAE21titleAttributedString33_7A1E2A6E1127C7C0B9C39195EE6C007BLL3for5styleSo012NSAttributedJ0CSgSS_So25UISSlotUserInterfaceStyleVtFAA0cde12ConversationF0AELLV_Tg5Tf4nnx_nTm : 528 -> 544
+~ _$s11SocialLayer44CollaborationAttributionViewMetricsProvidingPAAE24subtitleAttributedString33_7A1E2A6E1127C7C0B9C39195EE6C007BLL3for5styleSo012NSAttributedJ0CSgSS_So25UISSlotUserInterfaceStyleVtFAA0cde8StandardF0AELLV_Tg5Tf4nnx_nTm : 548 -> 564
+~ _$s11SocialLayer40ThirdPartyCollaborationInitiationRequestC8ResponseV17recipientPayloadsSDySo8TUHandleCAA0efH7PayloadVGvgyAKz_AHtXEfU_ : 284 -> 288
+~ _$s11SocialLayer40ThirdPartyCollaborationInitiationRequestC3url10Foundation3URLVSgvpACTk : 176 -> 180
+~ _$s10Foundation3URLVSgWOc : 104 -> 112
+~ _$s10Foundation3URLVSgWOd : 104 -> 112
+~ _$s11SocialLayer40ThirdPartyCollaborationInitiationRequestC08initiateE0AC8ResponseVyYaKF : 448 -> 464
+~ _$s11SocialLayer40ThirdPartyCollaborationInitiationRequestC08initiateE0AC8ResponseVyYaKFTY0_ : 2256 -> 2272
+~ _$sSo5NSURLCSgSo24_SWCollaborationMetadataCSgSo7NSErrorCSgIeyBhyyy_10Foundation3URLV_AEtTz_ : 504 -> 516
+~ _$s10Foundation3URLVSgWOh : 96 -> 104
+~ _$ss10_NativeSetV4copyyyFSS_Tg5 : 340 -> 348
+~ _$ss10_NativeSetV4copyyyF11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientV_Tg5 : 476 -> 484
+~ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSS_Tg5 : 560 -> 568
+~ _$ss10_NativeSetV13copyAndResize8capacityySi_tF11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientV_Tg5 : 780 -> 788
+~ _$s10Foundation3URLV_So24_SWCollaborationMetadataCtWOb : 104 -> 112
+~ _$sSDyq_SgxcisSo8TUHandleC_11SocialLayer38CollaborationInitiationResponsePayloadVTg5 : 420 -> 440
+~ _$sSDyq_SgxcisSS_So16SWPersonIdentityCTg5 : 256 -> 264
+~ _$s11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV16invitationTokensSDySSSo36CKDeviceToDeviceShareInvitationTokenCGvg : 1248 -> 1264
+~ _$s11SocialLayer38CloudKitCollaborationInitiationRequestC08initiateE0AC8ResponseVyYaKF : 304 -> 320
+~ _$s11SocialLayer38CloudKitCollaborationInitiationRequestC08initiateE0AC8ResponseVyYaKFTY0_ : 1040 -> 1056
+~ _$s11SocialLayer38CloudKitCollaborationInitiationRequestC08initiateE0AC8ResponseVyYaKFTY2_ : 828 -> 836
+~ _$s11SocialLayer38CloudKitCollaborationInitiationRequestC08initiateE0AC8ResponseVyYaKFTY3_ : 1008 -> 1016
+~ _$s11SocialLayer38CloudKitCollaborationInitiationRequestC08initiateE0AC8ResponseVyYaKFSbs5Error_pYbcfU_ : 736 -> 752
+~ _$ss5ErrorP11SocialLayerE17underlyingCKErrorsAA_pSgvg : 1604 -> 1612
+~ _$s11SocialLayer38CloudKitCollaborationInitiationRequestC08initiateE0AC8ResponseVyYaKF10Foundation3URLV_So7CKShareCtyYaYbKcfU0_ : 220 -> 228
+~ _$s11SocialLayer38CloudKitCollaborationInitiationRequestC08initiateE0AC8ResponseVyYaKF10Foundation3URLV_So7CKShareCtyYaYbKcfU0_TY0_ : 3528 -> 3552
+~ _$sScT11SocialLayers5Error_pRs_rlE8retrying13maxRetryCount5delay06shouldF09operationScTyxsAB_pGSi_s8DurationVSbsAB_pYbcxyYaYbKctFZ : 336 -> 340
+~ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFShySo8TUHandleCG_11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientVs5NeverOTg5 : 1044 -> 1052
+~ _$s11SocialLayer38CloudKitCollaborationInitiationRequestC24initiateOTLCollaborationAC8ResponseVyYaKFTY0_ : 1804 -> 1812
+~ _$s11SocialLayer38CloudKitCollaborationInitiationRequestC24initiateOTLCollaborationAC8ResponseVyYaKFTY2_ : 496 -> 504
+~ _$s11SocialLayer18SaveShareOperationV7performSo7CKShareCyYaKFTY0_ : 396 -> 404
+~ _$s11SocialLayer18SaveShareOperationV7performSo7CKShareCyYaKFyScCyAFs5Error_pGXEfU_ : 640 -> 648
+~ _$s11SocialLayer18SaveShareOperationV7performSo7CKShareCyYaKFyScCyAFs5Error_pGXEfU_ySaySo8CKRecordCGSg_SaySo0I2IDCGSgsAG_pSgtcfU_ : 256 -> 272
+~ _$sScTss5Error_pRs_rlE4name8priority9operationScTyxsAA_pGSSSg_ScPSgxyYaKYAcntcfC10Foundation3URLV_So7CKShareCt_Tt2g5 : 640 -> 684
+~ _$sScTss5Error_pRs_rlE4name8priority9operationScTyxsAA_pGSSSg_ScPSgxyYaKYAcntcfC : 600 -> 628
+~ _$ss17_NativeDictionaryV_8capacityAByxq_Gs07__CocoaB0Vn_SitcfCSo8TUHandleC_So18CKShareParticipantCTt1g5 : 580 -> 588
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSo8TUHandleC_11SocialLayer38CollaborationInitiationResponsePayloadVTg5 : 832 -> 840
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSo8TUHandleC_So18CKShareParticipantCTg5 : 608 -> 616
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_So36CKDeviceToDeviceShareInvitationTokenCTg5Tm : 664 -> 668
+~ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_So16SWPersonIdentityCTg5 : 396 -> 412
+~ _$ss17_NativeDictionaryV4copyyyFSo8TUHandleC_11SocialLayer38CollaborationInitiationResponsePayloadVTg5 : 560 -> 568
+~ _$ss17_NativeDictionaryV4copyyyFSo8TUHandleC_So18CKShareParticipantCTg5 : 344 -> 352
+~ _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlFSDySo8TUHandleCSo18CKShareParticipantCG_11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientVTg504$s11g7Layer38ijklm30C24initiateOTLCollaborationAC8n9VyYaKFAF9o6VSgSo8d10C3key_So18eF16C5valuet_tXEfU0_So0E0CTf1cn_nTf4ng_n : 1520 -> 1532
+~ _$s11SocialLayer18SaveShareOperationV7performSo7CKShareCyYaKFyScCyAFs5Error_pGXEfU_ySaySo8CKRecordCGSg_SaySo0I2IDCGSgsAG_pSgtcfU_TA : 140 -> 148
+~ _$sScPSgWOc : 104 -> 112
+~ _$s10Foundation3URLV_So7CKShareCtWOb : 104 -> 112
+~ _$s11SocialLayer28CollaborationAttributionViewC19renderRemoteContent03forB9ContextID5style5yieldySi_So12UISSlotStyleCSbSo0n3AnyH0_pctF : 1172 -> 1180
+~ _$s11SocialLayer28CollaborationAttributionViewC19renderRemoteContent03forB9ContextID5style5yieldySi_So12UISSlotStyleCSbSo0n3AnyH0_pctFyyScMYccfU_ : 2260 -> 2276
+~ _$s11SocialLayer28CollaborationAttributionViewC20_renderRemoteContent33_D409F99EEEAB0384C20EDAD3E3640730LL03forB9ContextID5style0O5Title8maxWidth22attributionIdentifiers12usingService5yieldySi_So12UISSlotStyleCSS12CoreGraphics7CGFloatVSaySSGSo016SLDCollaborationdeY0_pSbSo010UISSlotAnyH0_pctFySo07UISSlotgH0CSgYbcfU_ : 1052 -> 1060
+~ _$s11SocialLayer28CollaborationAttributionViewC20_renderRemoteContent33_D409F99EEEAB0384C20EDAD3E3640730LL03forB9ContextID5style0O5Title8maxWidth22attributionIdentifiers12usingService5yieldySi_So12UISSlotStyleCSS12CoreGraphics7CGFloatVSaySSGSo016SLDCollaborationdeY0_pSbSo010UISSlotAnyH0_pctFySo07UISSlotgH0CSgYbcfU_yyScMYccfU_ : 640 -> 648
+~ _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl : 92 -> 100
+~ ___swift_instantiateConcreteTypeFromMangledNameAbstract -> ___swift_instantiateConcreteTypeFromMangledNameAbstractV2 : 80 -> 72
+~ _$sSo8NSObjectCSgWOh : 96 -> 104
+~ _$s11SocialLayer15ProcessVerifierC16staticTestingKey33_EB0FD96DA1F4485FD31968A47A4D62C0LL9CryptoKit09SymmetricG0VSgvg : 640 -> 680
+~ _$s11SocialLayer15ProcessVerifierC4sign7process3tag10Foundation4DataVSo18RBSProcessIdentityC_AISgtKF : 1112 -> 1120
+~ _$s11SocialLayer15ProcessVerifierC10acquireKey33_EB0FD96DA1F4485FD31968A47A4D62C0LL9CryptoKit09SymmetricF0VyKF : 876 -> 900
+~ _$s11SocialLayer15ProcessVerifierC6verify4data3tagSo18RBSProcessIdentityC10Foundation4DataV_AKSgtKF : 1692 -> 1700
+~ _$s11SocialLayer20GenericPasswordStoreV7readKey7accountxSgSS_tKAA0cD11ConvertibleRzlF9CryptoKit09SymmetricG0V_Tg5 : 900 -> 916
+~ _$s11SocialLayer15ProcessVerifierCACycfc : 164 -> 172
+~ _$s11SocialLayer15ProcessVerifierCACycfcTo : 164 -> 172
+~ _$s11SocialLayer15ProcessVerifierCfETo : 44 -> 52
+~ _$s11SocialLayer20GenericPasswordStoreV8storeKey_7accountyx_SStKAA0cD11ConvertibleRzlF9CryptoKit09SymmetricG0V_Tg5Tf4nnd_n : 856 -> 872
+~ _$s11SocialLayer15ProcessVerifierC15createSealedBox33_EB0FD96DA1F4485FD31968A47A4D62C0LL4from5using3tag10Foundation4DataVAK_9CryptoKit12SymmetricKeyVAKSgtKFTf4nnnd_n : 1072 -> 1096
+~ _$s9CryptoKit12SymmetricKeyVSgSgMa : 92 -> 100
+~ _$s9CryptoKit12SymmetricKeyVSgSgWOd : 104 -> 112
+~ _$s9CryptoKit12SymmetricKeyVSgWOb : 104 -> 112
+~ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF9CryptoKit12SHA256DigestV_SayAGGTg5 : 52 -> 60
+~ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF9CryptoKit4P256O7SigningO9PublicKeyV_SayAKGTg5 : 52 -> 60
+~ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF9CryptoKit12SHA256DigestV_SayAGGTg5Tm : 340 -> 348
+~ _$s11SocialLayer18KeyQueryControllerC16publicKeysAndTPS3for18documentIdentifierSay9CryptoKit4P256O7SigningO06PublicC0VG4keys_10Foundation4DataV22trackingPreventionSalttSgSS_SStYaKF : 360 -> 376
+~ _$s11SocialLayer18KeyQueryControllerC16publicKeysAndTPS3for18documentIdentifierSay9CryptoKit4P256O7SigningO06PublicC0VG4keys_10Foundation4DataV22trackingPreventionSalttSgSS_SStYaKFTY2_ : 1824 -> 1908
+~ _$s11SocialLayer18KeyQueryControllerC09diversifyC0_22trackingPreventionSalt18documentIdentifier9CryptoKit4P256O7SigningO06PublicC0V3key_10Foundation4DataV3tpstAM_AQSgSStKF : 1200 -> 1224
+~ _$s11SocialLayer18KeyQueryControllerC8signData4data18documentIdentifier22trackingPreventionSalt10Foundation0G0VSgSo6NSDataC_SSAKtYaKF : 444 -> 460
+~ _$s11SocialLayer18KeyQueryControllerC8signData4data18documentIdentifier22trackingPreventionSalt10Foundation0G0VSgSo6NSDataC_SSAKtYaKFTY1_ : 1268 -> 1324
+~ _$s11SocialLayer18KeyQueryControllerC8signData4data18documentIdentifier22trackingPreventionSalt10Foundation0G0VSgSo6NSDataC_SSAKtYaKFTY3_ : 220 -> 236
+~ _$s11SocialLayer18KeyQueryControllerC8signData4data18documentIdentifier22trackingPreventionSalt10Foundation0G0VSgSo6NSDataC_SSAKtYaKFTY5_ : 516 -> 532
+~ _$sSo6NSDataCSgSo7NSErrorCSgIeyBhyy_10Foundation4DataVTz_ : 224 -> 232
+~ _$ss21_arrayConditionalCastySayq_GSgSayxGr0_lF11SocialLayer8Endpoint_p_So11IDSEndpointCTg5 : 280 -> 300
+~ _$s11SocialLayer18KeyQueryControllerC011localPublicC05using22trackingPreventionSalt9CryptoKit4P256O7SigningO0gC0V3key_10Foundation4DataV3tpstSS_AQSgtYaKF : 460 -> 468
+~ _$s11SocialLayer18KeyQueryControllerC011localPublicC05using22trackingPreventionSalt9CryptoKit4P256O7SigningO0gC0V3key_10Foundation4DataV3tpstSS_AQSgtYaKFTY1_ : 540 -> 548
+~ _$sSo20IDSIDQueryControllerC11SocialLayerE19currentRemoteDevice3for7service5queueSayAC8Endpoint_pGSS_SSSo012OS_dispatch_J0CtYaFTY0_ : 744 -> 752
+~ _$sSo20IDSIDQueryControllerC11SocialLayerE19currentRemoteDevice3for7service5queueSayAC8Endpoint_pGSS_SSSo012OS_dispatch_J0CtYaFyScCyAIs5NeverOGXEfU_ : 696 -> 704
+~ _$sSo20IDSIDQueryControllerC11SocialLayerE19currentRemoteDevice3for7service5queueSayAC8Endpoint_pGSS_SSSo012OS_dispatch_J0CtYaFyScCyAIs5NeverOGXEfU_ySo11IDSIDStatusVcfU_ : 916 -> 932
+~ _$sSo20IDSIDQueryControllerC11SocialLayerE19currentRemoteDevice3for7service5queueSayAC8Endpoint_pGSS_SSSo012OS_dispatch_J0CtYaFyScCyAIs5NeverOGXEfU_ySo11IDSIDStatusVcfU_ySDys11AnyHashableVypGSgcfU_ : 832 -> 856
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 268
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientV_Tg5 : 32 -> 40
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF9CryptoKit12SHA256DigestV_Tg5 : 32 -> 40
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF9CryptoKit4P256O7SigningO9PublicKeyV_Tg5 : 32 -> 40
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientV_Tg5Tm : 472 -> 476
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF11SocialLayer8Endpoint_p_Tg5 : 312 -> 328
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4DataV_Tg5 : 260 -> 268
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo8_NSRangeV_Tg5 : 252 -> 260
+~ _$s11SocialLayer18KeyQueryControllerC7service11targetQueue05queryE0ACSS_So17OS_dispatch_queueCSgAA08EndpointdE0_ptcfcTf4ngnn_n : 812 -> 820
+~ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy11SocialLayer8Endpoint_pG_s15EmptyCollectionVyAlM_pGTg5Tf4nndn_n : 224 -> 236
+~ _$sSo20IDSIDQueryControllerC11SocialLayerE19currentRemoteDevice3for7service5queueSayAC8Endpoint_pGSS_SSSo012OS_dispatch_J0CtYaFyScCyAIs5NeverOGXEfU_ySo11IDSIDStatusVcfU_TA : 204 -> 212
+~ _$sSo20IDSIDQueryControllerC11SocialLayerE19currentRemoteDevice3for7service5queueSayAC8Endpoint_pGSS_SSSo012OS_dispatch_J0CtYaFyScCyAIs5NeverOGXEfU_ySo11IDSIDStatusVcfU_ySDys11AnyHashableVypGSgcfU_TA : 124 -> 132
+~ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGSayxGSTsWl : 92 -> 100
+~ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufCSS8UTF8ViewV_Tt0g5 : 1296 -> 1312
+~ _$s11SocialLayer23PersonIdentityGeneratorC08generateC20IdentitiesForHandles7handles18documentIdentifierSDySSSo08SWPersonD0CGSaySSG_SStYaKF : 380 -> 388
+~ _$s11SocialLayer23PersonIdentityGeneratorC08generateC20IdentitiesForHandles7handles18documentIdentifierSDySSSo08SWPersonD0CGSaySSG_SStYaKFTY2_ : 1920 -> 1936
+~ _$s11SocialLayer23PersonIdentityGeneratorC08generateC20IdentitiesForHandles7handles18documentIdentifierSDySSSo08SWPersonD0CGSaySSG_SStYaKFTo : 396 -> 400
+~ _$s11SocialLayer23PersonIdentityGeneratorC013generateLocalD018documentIdentifierSDySSSo08SWPersonD0CGSS_tYaKFTo : 388 -> 392
+~ _$s11SocialLayer23PersonIdentityGeneratorC016generateProofForD0_18documentIdentifierSo08SWPersondG0CSgSo0kD0C_SStYaKF : 564 -> 588
+~ _$s11SocialLayer23PersonIdentityGeneratorC016generateProofForD0_18documentIdentifierSo08SWPersondG0CSgSo0kD0C_SStYaKFTY0_ : 3248 -> 3280
+~ _$s11SocialLayer23PersonIdentityGeneratorC016generateProofForD0_18documentIdentifierSo08SWPersondG0CSgSo0kD0C_SStYaKFTY2_ : 2500 -> 2540
+~ _$s11SocialLayer23PersonIdentityGeneratorC016generateProofForD0_18documentIdentifierSo08SWPersondG0CSgSo0kD0C_SStYaKFTo : 396 -> 400
+~ _$s11SocialLayer23PersonIdentityGeneratorC8signData4data18documentIdentifier22trackingPreventionSalt10Foundation0G0VSgSo6NSDataC_SSAKtYaKFTo : 416 -> 420
+~ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2gq5 : 728 -> 764
+~ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientV_Tg5 : 60 -> 68
+~ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF11SocialLayer12NodeIdentityO_Tg5 : 60 -> 68
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF11SocialLayer8Endpoint_p_Tg5 : 312 -> 328
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientV_Tg5Tm : 472 -> 476
+~ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlFs16IndexingIteratorVySays5UInt8VGG_Tg5 : 352 -> 360
+~ _$sSays5UInt8VGSayxG10Foundation15ContiguousBytesAeBRszlWl : 92 -> 100
+~ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufCSayAEG_Tt0g5Tf4g_n : 168 -> 176
+~ _$s11SocialLayer20GenericPasswordStoreV8storeKey_7accountyx_SStKAA0cD11ConvertibleRzlF : 768 -> 784
+~ _$s11SocialLayer20GenericPasswordStoreV7readKey7accountxSgSS_tKAA0cD11ConvertibleRzlF : 944 -> 960
+~ _$s11SocialLayer20GenericPasswordStoreV9deleteKey7accountySS_tKF : 580 -> 596
+~ _$s11SocialLayer21SLLocAttributedString3key12localization10Foundation0dE0VSSAEE17LocalizationValueV_SSSgtF : 748 -> 760
+~ _$sSay10Foundation16AttributedStringV17FormattingOptionsVGSayxGSTsWl : 92 -> 100
+~ _$sypSgSo8_NSRangeVSpy10ObjectiveC8ObjCBoolVGIegnyy_yXlSgAcGIyByyy_TR : 164 -> 172
+~ _$s11SocialLayer32MeAttributionLocAttributedString6prefix9multiline12localizationSo09NSMutablefG0C09localizedG0_SaySo8_NSRangeVG20baseFontTargetRangesAK06senderopQ0tAA0D10TextPrefixO_SbSSSgtFyypSg_AJSpy10ObjectiveC8ObjCBoolVGtXEfU_Tm : 396 -> 412
+~ _$s11SocialLayer41NumContactsAttributionLocAttributedString6prefix03numD09multiline12localizationSo09NSMutablegH0C09localizedH0_SaySo8_NSRangeVG20baseFontTargetRangesAL06senderqrS0tAA0E10TextPrefixO_SiSbSSSgtF : 1828 -> 1836
+~ _$s11SocialLayer34formattedDisplayNameListAndNOthers6prefix5names7nOthers12localizationSSAA21AttributionTextPrefixO_SaySSGSiSSSgtF : 1668 -> 1684
+~ _$s11SocialLayer26HighlightPillMetricVariant33_00C2B47D0280335DFFDBB3BC8927527ALLPAAE21chevronFontDescriptorSo06CTFontN3RefavgAA13TVPillMetricsV_Tg5 : 516 -> 556
+~ _$s11SocialLayer26HighlightPillMetricVariant33_00C2B47D0280335DFFDBB3BC8927527ALLPAAE8baseFontSo9CTFontRefavgAA13TVPillMetricsV_Tg5 : 452 -> 492
+~ _$s11SocialLayer26HighlightPillMetricVariant33_00C2B47D0280335DFFDBB3BC8927527ALLPAAE8baseFontSo9CTFontRefavgAA07iOSPillE0V_Tg5Tm : 448 -> 488
+~ _$s11SocialLayer26HighlightPillMetricVariant33_00C2B47D0280335DFFDBB3BC8927527ALLPAAE10senderFontSo9CTFontRefavgAA13TVPillMetricsV_Tg5 : 536 -> 576
+~ _$s11SocialLayer26HighlightPillMetricVariant33_00C2B47D0280335DFFDBB3BC8927527ALLPAAE10senderFontSo9CTFontRefavgAA07iOSPillE0V_Tg5Tm : 540 -> 580
+~ _$s11SocialLayer16VisionPillMetricV21chevronFontDescriptorSo06CTFontH3RefavgTm : 456 -> 496
+~ _$s11SocialLayer16VisionPillMetricV8baseFontSo9CTFontRefavgTm : 460 -> 500
+~ _$s11SocialLayer16VisionPillMetricV10senderFontSo9CTFontRefavgTm : 476 -> 516
+~ _$s11SocialLayer11PillMetricsC04pillD033_00C2B47D0280335DFFDBB3BC8927527ALLAA012SLDHighlightcD0AELLVvg : 472 -> 488
+~ _$s11SocialLayer11PillMetricsCfETo : 148 -> 156
+~ _$s11SocialLayer11PillMetricsC26fromSenderAttributedString33_00C2B47D0280335DFFDBB3BC8927527ALL3for7metrics9multilineSo012NSAttributedH0CSo09NSMutablegH0C09localizedH0_SaySo8_NSRangeVG20baseFontTargetRangesAP06sendervwX0t_AA09HighlightC13MetricVariantAELL_pSbtFZTf4nnnndd_n : 1504 -> 1520
+~ _$s11SocialLayer11PillMetricsC34localizedSenderOrNumContactsString33_00C2B47D0280335DFFDBB3BC8927527ALL3for7metricsSSSo012SLDHighlightC7SlotTagC_AA09HighlightC13MetricVariantAELL_ptFZTf4nnd_n : 2536 -> 2552
+~ _$s11SocialLayer11PillMetricsC26senderNameAttributedString33_00C2B47D0280335DFFDBB3BC8927527ALL3for7metricsSo012NSAttributedH0CSS_AA09HighlightC13MetricVariantAELL_ptFZTf4nnd_n : 908 -> 924
+~ _$s11SocialLayer11PillMetricsC32senderLabelMultilineWithLineWrap33_00C2B47D0280335DFFDBB3BC8927527ALL10fullString03maxI5Width5styleSaySo9CTLineRefaGSo012NSAttributedQ0C_12CoreGraphics7CGFloatVSo12UISSlotStyleCtFZTf4nnnd_n : 1096 -> 1104
+~ _$sSo5NSURLCSgSo7CKShareCSgSo7NSErrorCSgIeyBhyyy_10Foundation3URLV_AEtTz_ : 504 -> 516
+~ _$s11SocialLayer42FileProviderCollaborationInitiationRequestC8ResponseV17recipientPayloadsSDySo8TUHandleCAA0efH7PayloadVGvgyAKz_AHtXEfU_ : 284 -> 288
+~ _$s11SocialLayer42FileProviderCollaborationInitiationRequestC08initiateE0AC8ResponseVyYaKF : 312 -> 320
+~ _$s11SocialLayer42FileProviderCollaborationInitiationRequestC08initiateE0AC8ResponseVyYaKFTY0_ : 3672 -> 3680
+~ _$s11SocialLayer42FileProviderCollaborationInitiationRequestC08initiateE0AC8ResponseVyYaKFTY5_ : 732 -> 740
+~ _$s11SocialLayer42FileProviderCollaborationInitiationRequestC08initiateE0AC8ResponseVyYaKFTY6_ : 740 -> 748
+~ _$s11SocialLayer42FileProviderCollaborationInitiationRequestC08initiateE0AC8ResponseVyYaKFyScCySo08_SWStarte6ActionI0Cs5Error_pGXEfU3_ : 680 -> 688
+~ _$s11SocialLayer42FileProviderCollaborationInitiationRequestC08initiateE0AC8ResponseVyYaKFyScCySo08_SWStarte6ActionI0Cs5Error_pGXEfU3_ySo09_SWActionI0CSg_sAI_pSgtcfU_ : 188 -> 204
+~ _$ss10_NativeSetV6resize8capacityySi_tFSS_Tg5 : 600 -> 608
+~ _$ss10_NativeSetV6resize8capacityySi_tF11SocialLayer38CloudKitCollaborationInitiationRequestC8ResponseV9RecipientV_Tg5 : 808 -> 816
+~ _$ss10_NativeSetV6resize8capacityySi_tFSo8TUHandleC_Tg5 : 544 -> 552
+~ _$ss10_NativeSetV13extractSubset5using5countAByxGs13_UnsafeBitsetV_SitFSo8TUHandleC_Tg5 : 492 -> 500
+~ _$s11SocialLayer42FileProviderCollaborationInitiationRequestC08initiateE0AC8ResponseVyYaKFyScCySo08_SWStarte6ActionI0Cs5Error_pGXEfU3_ySo09_SWActionI0CSg_sAI_pSgtcfU_TA : 132 -> 140
+
+```

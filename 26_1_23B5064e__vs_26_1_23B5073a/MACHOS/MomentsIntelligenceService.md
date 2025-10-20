@@ -1,0 +1,108 @@
+## MomentsIntelligenceService
+
+> `/System/Library/PrivateFrameworks/MomentsIntelligence.framework/XPCServices/MomentsIntelligenceService.xpc/MomentsIntelligenceService`
+
+```diff
+
+-302.0.12.0.0
+-  __TEXT.__text: 0xb1f4
++302.0.13.0.0
++  __TEXT.__text: 0xb414
+   __TEXT.__auth_stubs: 0x8a0
+   __TEXT.__objc_stubs: 0x220
+   __TEXT.__objc_methlist: 0x264
+   __TEXT.__cstring: 0x512
+-  __TEXT.__const: 0x320
++  __TEXT.__const: 0x418
+   __TEXT.__oslogstring: 0x2aa
+   __TEXT.__objc_classname: 0x82
+   __TEXT.__objc_methname: 0x40b
+
+   __TEXT.__swift_as_entry: 0x2c
+   __TEXT.__swift_as_ret: 0x44
+   __TEXT.__swift5_capture: 0xb0
+-  __TEXT.__unwind_info: 0x328
++  __TEXT.__unwind_info: 0x318
+   __TEXT.__eh_frame: 0x7e0
+   __DATA_CONST.__auth_got: 0x458
+   __DATA_CONST.__got: 0xf0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 702B5086-3BA0-3192-AEA3-6C63A9D51A43
+-  Functions: 176
+-  Symbols:   1559
++  UUID: 5A759AEF-BA7C-33FD-A179-E19C9FA3B255
++  Functions: 174
++  Symbols:   1588
+   CStrings:  123
+ 
+Symbols:
++ _$s12ModelCatalog24ResourceBundleIdentifierVyAA20AssetBackedLLMBundleVGMR
++ _$s12ModelCatalog24ResourceBundleIdentifierVyAA20AssetBackedLLMBundleVGMd
++ _$s16GenerativeModels12OverrideHintOyAA23StringResponseSanitizerVGMR
++ _$s16GenerativeModels12OverrideHintOyAA23StringResponseSanitizerVGMd
++ _$s16GenerativeModels12OverrideHintOyAA29StringRenderedPromptSanitizerVGMR
++ _$s16GenerativeModels12OverrideHintOyAA29StringRenderedPromptSanitizerVGMd
++ _$s19GenerativeFunctions01_A47FunctionOverridableInternals_ChatMessagesPromptV04chatgH0_AA01_acE9_MetadataV8metadatatMR
++ _$s19GenerativeFunctions01_A47FunctionOverridableInternals_ChatMessagesPromptV04chatgH0_AA01_acE9_MetadataV8metadatatMd
++ _$s19GenerativeFunctions01_A47FunctionOverridableInternals_ChatMessagesPromptV04chatgH0_AA01_acE9_MetadataV8metadatatSgMR
++ _$s19GenerativeFunctions01_A47FunctionOverridableInternals_ChatMessagesPromptV04chatgH0_AA01_acE9_MetadataV8metadatatSgMd
++ _$s19GenerativeFunctions01_A47FunctionOverridableInternals_ChatMessagesPromptV_AA01_acE9_MetadataVtMR
++ _$s19GenerativeFunctions01_A47FunctionOverridableInternals_ChatMessagesPromptV_AA01_acE9_MetadataVtMd
++ _$s19GenerativeFunctions0A21ConfigurationRunnableVy9PromptKit012ChatMessagesE0V15TokenGeneration0I9GeneratorCAFGMR
++ _$s19GenerativeFunctions0A21ConfigurationRunnableVy9PromptKit012ChatMessagesE0V15TokenGeneration0I9GeneratorCAFGMd
++ _$s29GenerativeFunctionsFoundation18FunctionIdentifierV19ResourceInformationVSgMR
++ _$s29GenerativeFunctionsFoundation18FunctionIdentifierV19ResourceInformationVSgMd
++ _$sSS_9PromptKit012ChatMessagesA11Convertible_ptMR
++ _$sSS_9PromptKit012ChatMessagesA11Convertible_ptMd
++ _$sSS_9PromptKit0A25ComponentValueConvertible_ptMR
++ _$sSS_9PromptKit0A25ComponentValueConvertible_ptMd
++ _$sSS_yptMR
++ _$sSS_yptMd
++ _$sScPSgMR
++ _$sScPSgMd
++ _$ss18_DictionaryStorageCyS2SGMR
++ _$ss18_DictionaryStorageCyS2SGMd
++ _$ss18_DictionaryStorageCySS9PromptKit012ChatMessagesC11Convertible_pGMR
++ _$ss18_DictionaryStorageCySS9PromptKit012ChatMessagesC11Convertible_pGMd
++ _$ss18_DictionaryStorageCySS9PromptKit0C25ComponentValueConvertible_pGMR
++ _$ss18_DictionaryStorageCySS9PromptKit0C25ComponentValueConvertible_pGMd
++ _$ss18_DictionaryStorageCySSypGMR
++ _$ss18_DictionaryStorageCySSypGMd
++ _$ss23_ContiguousArrayStorageCy9PromptKit012ChatMessagesD0VGMR
++ _$ss23_ContiguousArrayStorageCy9PromptKit012ChatMessagesD0VGMd
++ _$ss23_ContiguousArrayStorageCy9PromptKit0D0VGMR
++ _$ss23_ContiguousArrayStorageCy9PromptKit0D0VGMd
++ _$ss23_ContiguousArrayStorageCySS_9PromptKit0D25ComponentValueConvertible_ptGMR
++ _$ss23_ContiguousArrayStorageCySS_9PromptKit0D25ComponentValueConvertible_ptGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s12ModelCatalog24ResourceBundleIdentifierVyAA20AssetBackedLLMBundleVGMD
+- _$s16GenerativeModels12OverrideHintOyAA23StringResponseSanitizerVGMD
+- _$s16GenerativeModels12OverrideHintOyAA29StringRenderedPromptSanitizerVGMD
+- _$s19GenerativeFunctions01_A47FunctionOverridableInternals_ChatMessagesPromptV04chatgH0_AA01_acE9_MetadataV8metadatatMD
+- _$s19GenerativeFunctions01_A47FunctionOverridableInternals_ChatMessagesPromptV04chatgH0_AA01_acE9_MetadataV8metadatatSgMD
+- _$s19GenerativeFunctions01_A47FunctionOverridableInternals_ChatMessagesPromptV_AA01_acE9_MetadataVtMD
+- _$s19GenerativeFunctions0A21ConfigurationRunnableVy9PromptKit012ChatMessagesE0V15TokenGeneration0I9GeneratorCAFGMD
+- _$s29GenerativeFunctionsFoundation18FunctionIdentifierV19ResourceInformationVSgMD
+- _$s9PromptKit012ChatMessagesA11Convertible_pWOb
+- _$s9PromptKit0A25ComponentValueConvertible_pWOb
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_9PromptKit0C25ComponentValueConvertible_pTt0g5Tf4g_nTm
+- _$sSS_9PromptKit012ChatMessagesA11Convertible_ptMD
+- _$sSS_9PromptKit0A25ComponentValueConvertible_ptMD
+- _$sSS_yptMD
+- _$sScPSgMD
+- _$ss18_DictionaryStorageCyS2SGMD
+- _$ss18_DictionaryStorageCySS9PromptKit012ChatMessagesC11Convertible_pGMD
+- _$ss18_DictionaryStorageCySS9PromptKit0C25ComponentValueConvertible_pGMD
+- _$ss18_DictionaryStorageCySSypGMD
+- _$ss23_ContiguousArrayStorageCy9PromptKit012ChatMessagesD0VGMD
+- _$ss23_ContiguousArrayStorageCy9PromptKit0D0VGMD
+- _$ss23_ContiguousArrayStorageCySS_9PromptKit0D25ComponentValueConvertible_ptGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- ___swift_instantiateConcreteTypeFromMangledName
+
+```

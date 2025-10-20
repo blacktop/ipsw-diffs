@@ -1,0 +1,460 @@
+## WorkoutKit
+
+> `/System/Library/Frameworks/WorkoutKit.framework/WorkoutKit`
+
+```diff
+
+-2026.1.33.0.0
+-  __TEXT.__text: 0x8b1e0
++2026.1.35.1.1
++  __TEXT.__text: 0x8e724
+   __TEXT.__auth_stubs: 0xf90
+-  __TEXT.__const: 0x6bac
++  __TEXT.__const: 0x70e8
+   __TEXT.__cstring: 0x1533
+   __TEXT.__swift5_typeref: 0x1282
+   __TEXT.__constg_swiftt: 0x140c
+
+   __TEXT.__swift_as_ret: 0x78
+   __TEXT.__swift5_protos: 0x20
+   __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__unwind_info: 0x2600
+-  __TEXT.__eh_frame: 0x4be8
++  __TEXT.__unwind_info: 0x2608
++  __TEXT.__eh_frame: 0x4c10
+   __TEXT.__objc_methname: 0x4f0
+   __DATA_CONST.__got: 0x1e8
+   __DATA_CONST.__const: 0x180
+
+   __AUTH_CONST.__objc_const: 0x560
+   __AUTH.__objc_data: 0xf0
+   __AUTH.__data: 0x2178
+-  __DATA.__data: 0x14e0
++  __DATA.__data: 0x1500
+   __DATA.__bss: 0xc800
+   __DATA.__common: 0x3d8
+-  __DATA_DIRTY.__data: 0x500
++  __DATA_DIRTY.__data: 0x4e0
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/HealthKit.framework/HealthKit
+   - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 670BFF5E-FBFD-3590-B88F-B84D322B4E79
++  UUID: C12E425F-D17F-3500-AEC2-6BACC61D0ECA
+   Functions: 3758
+-  Symbols:   9945
++  Symbols:   10079
+   CStrings:  308
+ 
+Symbols:
++ _$s10Foundation11MeasurementVySo11NSUnitPowerCG5lower_AF5uppertMR
++ _$s10Foundation11MeasurementVySo11NSUnitPowerCG5lower_AF5uppertMd
++ _$s10Foundation11MeasurementVySo11NSUnitPowerCGMR
++ _$s10Foundation11MeasurementVySo11NSUnitPowerCGMd
++ _$s10Foundation11MeasurementVySo11NSUnitSpeedCG5lower_AF5uppertMR
++ _$s10Foundation11MeasurementVySo11NSUnitSpeedCG5lower_AF5uppertMd
++ _$s10Foundation11MeasurementVySo11NSUnitSpeedCGMR
++ _$s10Foundation11MeasurementVySo11NSUnitSpeedCGMd
++ _$s10Foundation11MeasurementVySo12NSUnitEnergyCGMR
++ _$s10Foundation11MeasurementVySo12NSUnitEnergyCGMd
++ _$s10Foundation11MeasurementVySo12NSUnitLengthCGMR
++ _$s10Foundation11MeasurementVySo12NSUnitLengthCGMd
++ _$s10Foundation11MeasurementVySo12NSUnitLengthCG_ACySo0C8DurationCGtMR
++ _$s10Foundation11MeasurementVySo12NSUnitLengthCG_ACySo0C8DurationCGtMd
++ _$s10Foundation11MeasurementVySo14NSUnitDurationCGMR
++ _$s10Foundation11MeasurementVySo14NSUnitDurationCGMd
++ _$s10Foundation11MeasurementVySo15NSUnitFrequencyCG5lower_AF5uppertMR
++ _$s10Foundation11MeasurementVySo15NSUnitFrequencyCG5lower_AF5uppertMd
++ _$s10Foundation11MeasurementVySo15NSUnitFrequencyCGMR
++ _$s10Foundation11MeasurementVySo15NSUnitFrequencyCGMd
++ _$s10Foundation4DateVSgMR
++ _$s10Foundation4DateVSgMd
++ _$s10Foundation4DateVSg_ADtMR
++ _$s10Foundation4DateVSg_ADtMd
++ _$s10Foundation4UUIDVSgMR
++ _$s10Foundation4UUIDVSgMd
++ _$s10Foundation4UUIDVSg_ADtMR
++ _$s10Foundation4UUIDVSg_ADtMd
++ _$s10WorkoutKit06Apple_A10_TimeValueVSgMR
++ _$s10WorkoutKit06Apple_A10_TimeValueVSgMd
++ _$s10WorkoutKit06Apple_A10_TimeValueVSg_ADtMR
++ _$s10WorkoutKit06Apple_A10_TimeValueVSg_ADtMd
++ _$s10WorkoutKit06Apple_A10_ZoneValueVSgMR
++ _$s10WorkoutKit06Apple_A10_ZoneValueVSgMd
++ _$s10WorkoutKit06Apple_A11_PowerAlertV06OneOf_dE6TargetOSgMR
++ _$s10WorkoutKit06Apple_A11_PowerAlertV06OneOf_dE6TargetOSgMd
++ _$s10WorkoutKit06Apple_A11_PowerAlertV06OneOf_dE6TargetOSg_AFtMR
++ _$s10WorkoutKit06Apple_A11_PowerAlertV06OneOf_dE6TargetOSg_AFtMd
++ _$s10WorkoutKit06Apple_A11_PowerAlertV06OneOf_dE6TargetO_AEtMR
++ _$s10WorkoutKit06Apple_A11_PowerAlertV06OneOf_dE6TargetO_AEtMd
++ _$s10WorkoutKit06Apple_A11_PowerAlertVSgMR
++ _$s10WorkoutKit06Apple_A11_PowerAlertVSgMd
++ _$s10WorkoutKit06Apple_A11_PowerRangeVSgMR
++ _$s10WorkoutKit06Apple_A11_PowerRangeVSgMd
++ _$s10WorkoutKit06Apple_A11_PowerValueVSgMR
++ _$s10WorkoutKit06Apple_A11_PowerValueVSgMd
++ _$s10WorkoutKit06Apple_A11_PowerValueVSg_ADtMR
++ _$s10WorkoutKit06Apple_A11_PowerValueVSg_ADtMd
++ _$s10WorkoutKit06Apple_A11_SpeedAlertV06OneOf_dE6TargetOSgMR
++ _$s10WorkoutKit06Apple_A11_SpeedAlertV06OneOf_dE6TargetOSgMd
++ _$s10WorkoutKit06Apple_A11_SpeedAlertV06OneOf_dE6TargetOSg_AFtMR
++ _$s10WorkoutKit06Apple_A11_SpeedAlertV06OneOf_dE6TargetOSg_AFtMd
++ _$s10WorkoutKit06Apple_A11_SpeedAlertV06OneOf_dE6TargetO_AEtMR
++ _$s10WorkoutKit06Apple_A11_SpeedAlertV06OneOf_dE6TargetO_AEtMd
++ _$s10WorkoutKit06Apple_A11_SpeedAlertVSgMR
++ _$s10WorkoutKit06Apple_A11_SpeedAlertVSgMd
++ _$s10WorkoutKit06Apple_A11_SpeedRangeVSgMR
++ _$s10WorkoutKit06Apple_A11_SpeedRangeVSgMd
++ _$s10WorkoutKit06Apple_A11_SpeedValueVSgMR
++ _$s10WorkoutKit06Apple_A11_SpeedValueVSgMd
++ _$s10WorkoutKit06Apple_A11_SpeedValueVSg_ADtMR
++ _$s10WorkoutKit06Apple_A11_SpeedValueVSg_ADtMd
++ _$s10WorkoutKit06Apple_A12_EnergyValueVSgMR
++ _$s10WorkoutKit06Apple_A12_EnergyValueVSgMd
++ _$s10WorkoutKit06Apple_A13_CadenceAlertV06OneOf_dE6TargetOSgMR
++ _$s10WorkoutKit06Apple_A13_CadenceAlertV06OneOf_dE6TargetOSgMd
++ _$s10WorkoutKit06Apple_A13_CadenceAlertV06OneOf_dE6TargetOSg_AFtMR
++ _$s10WorkoutKit06Apple_A13_CadenceAlertV06OneOf_dE6TargetOSg_AFtMd
++ _$s10WorkoutKit06Apple_A13_CadenceAlertV06OneOf_dE6TargetO_AEtMR
++ _$s10WorkoutKit06Apple_A13_CadenceAlertV06OneOf_dE6TargetO_AEtMd
++ _$s10WorkoutKit06Apple_A13_CadenceAlertVSgMR
++ _$s10WorkoutKit06Apple_A13_CadenceAlertVSgMd
++ _$s10WorkoutKit06Apple_A13_CadenceRangeVSgMR
++ _$s10WorkoutKit06Apple_A13_CadenceRangeVSgMd
++ _$s10WorkoutKit06Apple_A13_CadenceValueVSgMR
++ _$s10WorkoutKit06Apple_A13_CadenceValueVSgMd
++ _$s10WorkoutKit06Apple_A13_CadenceValueVSg_ADtMR
++ _$s10WorkoutKit06Apple_A13_CadenceValueVSg_ADtMd
++ _$s10WorkoutKit06Apple_A14_DistanceValueVSgMR
++ _$s10WorkoutKit06Apple_A14_DistanceValueVSgMd
++ _$s10WorkoutKit06Apple_A14_DistanceValueVSg_ADtMR
++ _$s10WorkoutKit06Apple_A14_DistanceValueVSg_ADtMd
++ _$s10WorkoutKit06Apple_A15_HeartRateAlertV06OneOf_deF6TargetOSgMR
++ _$s10WorkoutKit06Apple_A15_HeartRateAlertV06OneOf_deF6TargetOSgMd
++ _$s10WorkoutKit06Apple_A15_HeartRateAlertV06OneOf_deF6TargetOSg_AFtMR
++ _$s10WorkoutKit06Apple_A15_HeartRateAlertV06OneOf_deF6TargetOSg_AFtMd
++ _$s10WorkoutKit06Apple_A15_HeartRateAlertV06OneOf_deF6TargetO_AEtMR
++ _$s10WorkoutKit06Apple_A15_HeartRateAlertV06OneOf_deF6TargetO_AEtMd
++ _$s10WorkoutKit06Apple_A15_HeartRateAlertVSgMR
++ _$s10WorkoutKit06Apple_A15_HeartRateAlertVSgMd
++ _$s10WorkoutKit06Apple_A15_HeartRateRangeVSgMR
++ _$s10WorkoutKit06Apple_A15_HeartRateRangeVSgMd
++ _$s10WorkoutKit06Apple_A15_HeartRateValueVSgMR
++ _$s10WorkoutKit06Apple_A15_HeartRateValueVSgMd
++ _$s10WorkoutKit06Apple_A15_HeartRateValueVSg_ADtMR
++ _$s10WorkoutKit06Apple_A15_HeartRateValueVSg_ADtMd
++ _$s10WorkoutKit06Apple_A21_LocationCoordinate2DVSgMR
++ _$s10WorkoutKit06Apple_A21_LocationCoordinate2DVSgMd
++ _$s10WorkoutKit06Apple_A21_LocationCoordinate2DVSg_ADtMR
++ _$s10WorkoutKit06Apple_A21_LocationCoordinate2DVSg_ADtMd
++ _$s10WorkoutKit06Apple_A30_PoolSwimDistanceWithTimeValueVSgMR
++ _$s10WorkoutKit06Apple_A30_PoolSwimDistanceWithTimeValueVSgMd
++ _$s10WorkoutKit06Apple_a12_SwimBikeRunA11CompositionVSgMR
++ _$s10WorkoutKit06Apple_a12_SwimBikeRunA11CompositionVSgMd
++ _$s10WorkoutKit06Apple_a19_Internal_ScheduledA4PlanVSgMR
++ _$s10WorkoutKit06Apple_a19_Internal_ScheduledA4PlanVSgMd
++ _$s10WorkoutKit06Apple_a1_A4GoalV06OneOf_D5ValueOSgMR
++ _$s10WorkoutKit06Apple_a1_A4GoalV06OneOf_D5ValueOSgMd
++ _$s10WorkoutKit06Apple_a1_A4GoalV06OneOf_D5ValueOSg_AFtMR
++ _$s10WorkoutKit06Apple_a1_A4GoalV06OneOf_D5ValueOSg_AFtMd
++ _$s10WorkoutKit06Apple_a1_A4GoalV06OneOf_D5ValueO_AEtMR
++ _$s10WorkoutKit06Apple_a1_A4GoalV06OneOf_D5ValueO_AEtMd
++ _$s10WorkoutKit06Apple_a1_A4GoalVSgMR
++ _$s10WorkoutKit06Apple_a1_A4GoalVSgMd
++ _$s10WorkoutKit06Apple_a1_A4GoalVSg_ADtMR
++ _$s10WorkoutKit06Apple_a1_A4GoalVSg_ADtMd
++ _$s10WorkoutKit06Apple_a1_A4PlanV13OneOf_ContentOSgMR
++ _$s10WorkoutKit06Apple_a1_A4PlanV13OneOf_ContentOSgMd
++ _$s10WorkoutKit06Apple_a1_A4PlanV13OneOf_ContentOSg_AFtMR
++ _$s10WorkoutKit06Apple_a1_A4PlanV13OneOf_ContentOSg_AFtMd
++ _$s10WorkoutKit06Apple_a1_A4PlanV13OneOf_ContentO_AEtMR
++ _$s10WorkoutKit06Apple_a1_A4PlanV13OneOf_ContentO_AEtMd
++ _$s10WorkoutKit06Apple_a1_A4PlanVSgMR
++ _$s10WorkoutKit06Apple_a1_A4PlanVSgMd
++ _$s10WorkoutKit06Apple_a1_A4PlanVSg_ADtMR
++ _$s10WorkoutKit06Apple_a1_A4PlanVSg_ADtMd
++ _$s10WorkoutKit06Apple_a1_A4StepVSgMR
++ _$s10WorkoutKit06Apple_a1_A4StepVSgMd
++ _$s10WorkoutKit06Apple_a1_A4StepVSg_ADtMR
++ _$s10WorkoutKit06Apple_a1_A4StepVSg_ADtMd
++ _$s10WorkoutKit06Apple_a1_A5AlertV06OneOf_D5ValueOSgMR
++ _$s10WorkoutKit06Apple_a1_A5AlertV06OneOf_D5ValueOSgMd
++ _$s10WorkoutKit06Apple_a1_A5AlertV06OneOf_D5ValueOSg_AFtMR
++ _$s10WorkoutKit06Apple_a1_A5AlertV06OneOf_D5ValueOSg_AFtMd
++ _$s10WorkoutKit06Apple_a1_A5AlertV06OneOf_D5ValueO_AEtMR
++ _$s10WorkoutKit06Apple_a1_A5AlertV06OneOf_D5ValueO_AEtMd
++ _$s10WorkoutKit06Apple_a1_A5AlertVSgMR
++ _$s10WorkoutKit06Apple_a1_A5AlertVSgMd
++ _$s10WorkoutKit06Apple_a1_A5AlertVSg_ADtMR
++ _$s10WorkoutKit06Apple_a1_A5AlertVSg_ADtMd
++ _$s10WorkoutKit06Apple_a1_A5RouteVSgMR
++ _$s10WorkoutKit06Apple_a1_A5RouteVSgMd
++ _$s10WorkoutKit06Apple_a1_A5RouteVSg_ADtMR
++ _$s10WorkoutKit06Apple_a1_A5RouteVSg_ADtMd
++ _$s10WorkoutKit06Apple_a5_GoalA11CompositionVSgMR
++ _$s10WorkoutKit06Apple_a5_GoalA11CompositionVSgMd
++ _$s10WorkoutKit06Apple_a6_PacerA11CompositionVSgMR
++ _$s10WorkoutKit06Apple_a6_PacerA11CompositionVSgMd
++ _$s10WorkoutKit06Apple_a7_CustomA11CompositionVSgMR
++ _$s10WorkoutKit06Apple_a7_CustomA11CompositionVSgMd
++ _$s10WorkoutKit0A13AlertProtable_pMR
++ _$s10WorkoutKit0A13AlertProtable_pMd
++ _$s10WorkoutKit0A13AlertProtable_pSgMR
++ _$s10WorkoutKit0A13AlertProtable_pSgMd
++ _$s10WorkoutKit0A4GoalOSgMR
++ _$s10WorkoutKit0A4GoalOSgMd
++ _$s10WorkoutKit0A4GoalO_So21HKWorkoutActivityTypeVSo0d15SessionLocationF0VtMR
++ _$s10WorkoutKit0A4GoalO_So21HKWorkoutActivityTypeVSo0d15SessionLocationF0VtMd
++ _$s10WorkoutKit0A4GoalO_So21HKWorkoutActivityTypeVSo0d16SwimmingLocationF0VtMR
++ _$s10WorkoutKit0A4GoalO_So21HKWorkoutActivityTypeVSo0d16SwimmingLocationF0VtMd
++ _$s10WorkoutKit0A4PlanV0A0O_AEtMR
++ _$s10WorkoutKit0A4PlanV0A0O_AEtMd
++ _$s10WorkoutKit0A4PlanVSgMR
++ _$s10WorkoutKit0A4PlanVSgMd
++ _$s10WorkoutKit0A4StepVSgMR
++ _$s10WorkoutKit0A4StepVSgMd
++ _$s10WorkoutKit0A4StepVSg_ADtMR
++ _$s10WorkoutKit0A4StepVSg_ADtMd
++ _$s10WorkoutKit0A5Alert_pMR
++ _$s10WorkoutKit0A5Alert_pMd
++ _$s10WorkoutKit0A5Alert_pSgMR
++ _$s10WorkoutKit0A5Alert_pSgMd
++ _$s10WorkoutKit15ValidationError_pMR
++ _$s10WorkoutKit15ValidationError_pMd
++ _$s10WorkoutKit15ValidationError_pSgMR
++ _$s10WorkoutKit15ValidationError_pSgMd
++ _$s10WorkoutKit8AppErrorOmMR
++ _$s10WorkoutKit8AppErrorOmMd
++ _$sSNy10Foundation11MeasurementVySo11NSUnitPowerCGGMR
++ _$sSNy10Foundation11MeasurementVySo11NSUnitPowerCGGMd
++ _$sSNy10Foundation11MeasurementVySo11NSUnitSpeedCGGMR
++ _$sSNy10Foundation11MeasurementVySo11NSUnitSpeedCGGMd
++ _$sSNy10Foundation11MeasurementVySo15NSUnitFrequencyCGGMR
++ _$sSNy10Foundation11MeasurementVySo15NSUnitFrequencyCGGMd
++ _$sSS_So8NSObjectCtMR
++ _$sSS_So8NSObjectCtMd
++ _$sSay10Foundation4UUIDVGMR
++ _$sSay10Foundation4UUIDVGMd
++ _$sSay10WorkoutKit06Apple_A10_TimeValueV0D4UnitOGMR
++ _$sSay10WorkoutKit06Apple_A10_TimeValueV0D4UnitOGMd
++ _$sSay10WorkoutKit06Apple_A11_PowerValueV0D4UnitOGMR
++ _$sSay10WorkoutKit06Apple_A11_PowerValueV0D4UnitOGMd
++ _$sSay10WorkoutKit06Apple_A12_EnergyValueV0D4UnitOGMR
++ _$sSay10WorkoutKit06Apple_A12_EnergyValueV0D4UnitOGMd
++ _$sSay10WorkoutKit06Apple_A13_IntervalStepV7PurposeOGMR
++ _$sSay10WorkoutKit06Apple_A13_IntervalStepV7PurposeOGMd
++ _$sSay10WorkoutKit06Apple_A14_DistanceValueV0D4UnitOGMR
++ _$sSay10WorkoutKit06Apple_A14_DistanceValueV0D4UnitOGMd
++ _$sSay10WorkoutKit06Apple_a1_A4GoalV0D4TypeOGMR
++ _$sSay10WorkoutKit06Apple_a1_A4GoalV0D4TypeOGMd
++ _$sSay10WorkoutKit06Apple_a1_A4PlanV7VersionOGMR
++ _$sSay10WorkoutKit06Apple_a1_A4PlanV7VersionOGMd
++ _$sSay10WorkoutKit06Apple_a1_A5AlertV6MetricOGMR
++ _$sSay10WorkoutKit06Apple_a1_A5AlertV6MetricOGMd
++ _$sSay10WorkoutKit06Apple_a1_A5AlertV6TargetOGMR
++ _$sSay10WorkoutKit06Apple_a1_A5AlertV6TargetOGMd
++ _$sSay10WorkoutKit09ScheduledA4PlanVGMR
++ _$sSay10WorkoutKit09ScheduledA4PlanVGMd
++ _$sSay8Dispatch0A13WorkItemFlagsVGMR
++ _$sSay8Dispatch0A13WorkItemFlagsVGMd
++ _$sScCy10WorkoutKit0A4PlanVSgs5Error_pGMR
++ _$sScCy10WorkoutKit0A4PlanVSgs5Error_pGMd
++ _$sScCy10WorkoutKit0A9SchedulerC18AuthorizationStateOs5Error_pGMR
++ _$sScCy10WorkoutKit0A9SchedulerC18AuthorizationStateOs5Error_pGMd
++ _$sScCySay10WorkoutKit09ScheduledA4PlanVGs5Error_pGMR
++ _$sScCySay10WorkoutKit09ScheduledA4PlanVGs5Error_pGMd
++ _$sScCyyts5Error_pGMR
++ _$sScCyyts5Error_pGMd
++ _$sSi_21InternalSwiftProtobuf8_NameMapV0D11DescriptionOtMR
++ _$sSi_21InternalSwiftProtobuf8_NameMapV0D11DescriptionOtMd
++ _$ss18_DictionaryStorageCySSSo8NSObjectCGMR
++ _$ss18_DictionaryStorageCySSSo8NSObjectCGMd
++ _$ss22KeyedDecodingContainerVy10WorkoutKit09ScheduledD4PlanV10CodingKeys33_67CB82B903BEAD065118911C28DD1602LLOGMR
++ _$ss22KeyedDecodingContainerVy10WorkoutKit09ScheduledD4PlanV10CodingKeys33_67CB82B903BEAD065118911C28DD1602LLOGMd
++ _$ss22KeyedEncodingContainerVy10WorkoutKit09ScheduledD4PlanV10CodingKeys33_67CB82B903BEAD065118911C28DD1602LLOGMR
++ _$ss22KeyedEncodingContainerVy10WorkoutKit09ScheduledD4PlanV10CodingKeys33_67CB82B903BEAD065118911C28DD1602LLOGMd
++ _$ss23_ContiguousArrayStorageCy10Foundation14DateComponentsVGMR
++ _$ss23_ContiguousArrayStorageCy10Foundation14DateComponentsVGMd
++ _$ss23_ContiguousArrayStorageCy10Foundation4DataVGMR
++ _$ss23_ContiguousArrayStorageCy10Foundation4DataVGMd
++ _$ss23_ContiguousArrayStorageCy10Foundation4UUIDVGMR
++ _$ss23_ContiguousArrayStorageCy10Foundation4UUIDVGMd
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit011SwimBikeRunD0V8ActivityOGMR
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit011SwimBikeRunD0V8ActivityOGMd
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit06Apple_D11_RoutePointVGMR
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit06Apple_D11_RoutePointVGMd
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit06Apple_D13_IntervalStepVGMR
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit06Apple_D13_IntervalStepVGMd
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit06Apple_D14_IntervalBlockVGMR
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit06Apple_D14_IntervalBlockVGMd
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit06Apple_d1_D13ConfigurationVGMR
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit06Apple_d1_D13ConfigurationVGMd
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit09ScheduledD4PlanVGMR
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit09ScheduledD4PlanVGMd
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit10RoutePointVGMR
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit10RoutePointVGMd
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit12IntervalStepVGMR
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit12IntervalStepVGMd
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit13IntervalBlockVGMR
++ _$ss23_ContiguousArrayStorageCy10WorkoutKit13IntervalBlockVGMd
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss23_ContiguousArrayStorageCySS_So8NSObjectCtGMR
++ _$ss23_ContiguousArrayStorageCySS_So8NSObjectCtGMd
++ _$ss23_ContiguousArrayStorageCySdGMR
++ _$ss23_ContiguousArrayStorageCySdGMd
++ _$ss23_ContiguousArrayStorageCySi_21InternalSwiftProtobuf8_NameMapV0G11DescriptionOtGMR
++ _$ss23_ContiguousArrayStorageCySi_21InternalSwiftProtobuf8_NameMapV0G11DescriptionOtGMd
++ _$ss23_ContiguousArrayStorageCySnySiGGMR
++ _$ss23_ContiguousArrayStorageCySnySiGGMd
++ _$ss23_ContiguousArrayStorageCySo22CLLocationCoordinate2DVGMR
++ _$ss23_ContiguousArrayStorageCySo22CLLocationCoordinate2DVGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ _$sypSgMR
++ _$sypSgMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10Foundation11MeasurementVySo11NSUnitPowerCG5lower_AF5uppertMD
+- _$s10Foundation11MeasurementVySo11NSUnitPowerCGMD
+- _$s10Foundation11MeasurementVySo11NSUnitSpeedCG5lower_AF5uppertMD
+- _$s10Foundation11MeasurementVySo11NSUnitSpeedCGMD
+- _$s10Foundation11MeasurementVySo12NSUnitEnergyCGMD
+- _$s10Foundation11MeasurementVySo12NSUnitLengthCGMD
+- _$s10Foundation11MeasurementVySo12NSUnitLengthCG_ACySo0C8DurationCGtMD
+- _$s10Foundation11MeasurementVySo14NSUnitDurationCGMD
+- _$s10Foundation11MeasurementVySo15NSUnitFrequencyCG5lower_AF5uppertMD
+- _$s10Foundation11MeasurementVySo15NSUnitFrequencyCGMD
+- _$s10Foundation4DateVSgMD
+- _$s10Foundation4DateVSg_ADtMD
+- _$s10Foundation4UUIDVSgMD
+- _$s10Foundation4UUIDVSg_ADtMD
+- _$s10WorkoutKit06Apple_A10_TimeValueVSgMD
+- _$s10WorkoutKit06Apple_A10_TimeValueVSg_ADtMD
+- _$s10WorkoutKit06Apple_A10_ZoneValueVSgMD
+- _$s10WorkoutKit06Apple_A11_PowerAlertV06OneOf_dE6TargetOSgMD
+- _$s10WorkoutKit06Apple_A11_PowerAlertV06OneOf_dE6TargetOSg_AFtMD
+- _$s10WorkoutKit06Apple_A11_PowerAlertV06OneOf_dE6TargetO_AEtMD
+- _$s10WorkoutKit06Apple_A11_PowerAlertVSgMD
+- _$s10WorkoutKit06Apple_A11_PowerRangeVSgMD
+- _$s10WorkoutKit06Apple_A11_PowerValueVSgMD
+- _$s10WorkoutKit06Apple_A11_PowerValueVSg_ADtMD
+- _$s10WorkoutKit06Apple_A11_SpeedAlertV06OneOf_dE6TargetOSgMD
+- _$s10WorkoutKit06Apple_A11_SpeedAlertV06OneOf_dE6TargetOSg_AFtMD
+- _$s10WorkoutKit06Apple_A11_SpeedAlertV06OneOf_dE6TargetO_AEtMD
+- _$s10WorkoutKit06Apple_A11_SpeedAlertVSgMD
+- _$s10WorkoutKit06Apple_A11_SpeedRangeVSgMD
+- _$s10WorkoutKit06Apple_A11_SpeedValueVSgMD
+- _$s10WorkoutKit06Apple_A11_SpeedValueVSg_ADtMD
+- _$s10WorkoutKit06Apple_A12_EnergyValueVSgMD
+- _$s10WorkoutKit06Apple_A13_CadenceAlertV06OneOf_dE6TargetOSgMD
+- _$s10WorkoutKit06Apple_A13_CadenceAlertV06OneOf_dE6TargetOSg_AFtMD
+- _$s10WorkoutKit06Apple_A13_CadenceAlertV06OneOf_dE6TargetO_AEtMD
+- _$s10WorkoutKit06Apple_A13_CadenceAlertVSgMD
+- _$s10WorkoutKit06Apple_A13_CadenceRangeVSgMD
+- _$s10WorkoutKit06Apple_A13_CadenceValueVSgMD
+- _$s10WorkoutKit06Apple_A13_CadenceValueVSg_ADtMD
+- _$s10WorkoutKit06Apple_A14_DistanceValueVSgMD
+- _$s10WorkoutKit06Apple_A14_DistanceValueVSg_ADtMD
+- _$s10WorkoutKit06Apple_A15_HeartRateAlertV06OneOf_deF6TargetOSgMD
+- _$s10WorkoutKit06Apple_A15_HeartRateAlertV06OneOf_deF6TargetOSg_AFtMD
+- _$s10WorkoutKit06Apple_A15_HeartRateAlertV06OneOf_deF6TargetO_AEtMD
+- _$s10WorkoutKit06Apple_A15_HeartRateAlertVSgMD
+- _$s10WorkoutKit06Apple_A15_HeartRateRangeVSgMD
+- _$s10WorkoutKit06Apple_A15_HeartRateValueVSgMD
+- _$s10WorkoutKit06Apple_A15_HeartRateValueVSg_ADtMD
+- _$s10WorkoutKit06Apple_A21_LocationCoordinate2DVSgMD
+- _$s10WorkoutKit06Apple_A21_LocationCoordinate2DVSg_ADtMD
+- _$s10WorkoutKit06Apple_A30_PoolSwimDistanceWithTimeValueVSgMD
+- _$s10WorkoutKit06Apple_a12_SwimBikeRunA11CompositionVSgMD
+- _$s10WorkoutKit06Apple_a19_Internal_ScheduledA4PlanVSgMD
+- _$s10WorkoutKit06Apple_a1_A4GoalV06OneOf_D5ValueOSgMD
+- _$s10WorkoutKit06Apple_a1_A4GoalV06OneOf_D5ValueOSg_AFtMD
+- _$s10WorkoutKit06Apple_a1_A4GoalV06OneOf_D5ValueO_AEtMD
+- _$s10WorkoutKit06Apple_a1_A4GoalVSgMD
+- _$s10WorkoutKit06Apple_a1_A4GoalVSg_ADtMD
+- _$s10WorkoutKit06Apple_a1_A4PlanV13OneOf_ContentOSgMD
+- _$s10WorkoutKit06Apple_a1_A4PlanV13OneOf_ContentOSg_AFtMD
+- _$s10WorkoutKit06Apple_a1_A4PlanV13OneOf_ContentO_AEtMD
+- _$s10WorkoutKit06Apple_a1_A4PlanVSgMD
+- _$s10WorkoutKit06Apple_a1_A4PlanVSg_ADtMD
+- _$s10WorkoutKit06Apple_a1_A4StepVSgMD
+- _$s10WorkoutKit06Apple_a1_A4StepVSg_ADtMD
+- _$s10WorkoutKit06Apple_a1_A5AlertV06OneOf_D5ValueOSgMD
+- _$s10WorkoutKit06Apple_a1_A5AlertV06OneOf_D5ValueOSg_AFtMD
+- _$s10WorkoutKit06Apple_a1_A5AlertV06OneOf_D5ValueO_AEtMD
+- _$s10WorkoutKit06Apple_a1_A5AlertVSgMD
+- _$s10WorkoutKit06Apple_a1_A5AlertVSg_ADtMD
+- _$s10WorkoutKit06Apple_a1_A5RouteVSgMD
+- _$s10WorkoutKit06Apple_a1_A5RouteVSg_ADtMD
+- _$s10WorkoutKit06Apple_a5_GoalA11CompositionVSgMD
+- _$s10WorkoutKit06Apple_a6_PacerA11CompositionVSgMD
+- _$s10WorkoutKit06Apple_a7_CustomA11CompositionVSgMD
+- _$s10WorkoutKit0A13AlertProtable_pMD
+- _$s10WorkoutKit0A13AlertProtable_pSgMD
+- _$s10WorkoutKit0A4GoalOSgMD
+- _$s10WorkoutKit0A4GoalO_So21HKWorkoutActivityTypeVSo0d15SessionLocationF0VtMD
+- _$s10WorkoutKit0A4GoalO_So21HKWorkoutActivityTypeVSo0d16SwimmingLocationF0VtMD
+- _$s10WorkoutKit0A4PlanV0A0O_AEtMD
+- _$s10WorkoutKit0A4PlanVSgMD
+- _$s10WorkoutKit0A4StepVSgMD
+- _$s10WorkoutKit0A4StepVSg_ADtMD
+- _$s10WorkoutKit0A5Alert_pMD
+- _$s10WorkoutKit0A5Alert_pSgMD
+- _$s10WorkoutKit15ValidationError_pMD
+- _$s10WorkoutKit15ValidationError_pSgMD
+- _$s10WorkoutKit8AppErrorOmMD
+- _$sSNy10Foundation11MeasurementVySo11NSUnitPowerCGGMD
+- _$sSNy10Foundation11MeasurementVySo11NSUnitSpeedCGGMD
+- _$sSNy10Foundation11MeasurementVySo15NSUnitFrequencyCGGMD
+- _$sSS_So8NSObjectCtMD
+- _$sSay10Foundation4UUIDVGMD
+- _$sSay10WorkoutKit06Apple_A10_TimeValueV0D4UnitOGMD
+- _$sSay10WorkoutKit06Apple_A11_PowerValueV0D4UnitOGMD
+- _$sSay10WorkoutKit06Apple_A12_EnergyValueV0D4UnitOGMD
+- _$sSay10WorkoutKit06Apple_A13_IntervalStepV7PurposeOGMD
+- _$sSay10WorkoutKit06Apple_A14_DistanceValueV0D4UnitOGMD
+- _$sSay10WorkoutKit06Apple_a1_A4GoalV0D4TypeOGMD
+- _$sSay10WorkoutKit06Apple_a1_A4PlanV7VersionOGMD
+- _$sSay10WorkoutKit06Apple_a1_A5AlertV6MetricOGMD
+- _$sSay10WorkoutKit06Apple_a1_A5AlertV6TargetOGMD
+- _$sSay10WorkoutKit09ScheduledA4PlanVGMD
+- _$sSay8Dispatch0A13WorkItemFlagsVGMD
+- _$sScCy10WorkoutKit0A4PlanVSgs5Error_pGMD
+- _$sScCy10WorkoutKit0A9SchedulerC18AuthorizationStateOs5Error_pGMD
+- _$sScCySay10WorkoutKit09ScheduledA4PlanVGs5Error_pGMD
+- _$sScCyyts5Error_pGMD
+- _$sSi_21InternalSwiftProtobuf8_NameMapV0D11DescriptionOtMD
+- _$ss18_DictionaryStorageCySSSo8NSObjectCGMD
+- _$ss22KeyedDecodingContainerVy10WorkoutKit09ScheduledD4PlanV10CodingKeys33_67CB82B903BEAD065118911C28DD1602LLOGMD
+- _$ss22KeyedEncodingContainerVy10WorkoutKit09ScheduledD4PlanV10CodingKeys33_67CB82B903BEAD065118911C28DD1602LLOGMD
+- _$ss23_ContiguousArrayStorageCy10Foundation14DateComponentsVGMD
+- _$ss23_ContiguousArrayStorageCy10Foundation4DataVGMD
+- _$ss23_ContiguousArrayStorageCy10Foundation4UUIDVGMD
+- _$ss23_ContiguousArrayStorageCy10WorkoutKit011SwimBikeRunD0V8ActivityOGMD
+- _$ss23_ContiguousArrayStorageCy10WorkoutKit06Apple_D11_RoutePointVGMD
+- _$ss23_ContiguousArrayStorageCy10WorkoutKit06Apple_D13_IntervalStepVGMD
+- _$ss23_ContiguousArrayStorageCy10WorkoutKit06Apple_D14_IntervalBlockVGMD
+- _$ss23_ContiguousArrayStorageCy10WorkoutKit06Apple_d1_D13ConfigurationVGMD
+- _$ss23_ContiguousArrayStorageCy10WorkoutKit09ScheduledD4PlanVGMD
+- _$ss23_ContiguousArrayStorageCy10WorkoutKit10RoutePointVGMD
+- _$ss23_ContiguousArrayStorageCy10WorkoutKit12IntervalStepVGMD
+- _$ss23_ContiguousArrayStorageCy10WorkoutKit13IntervalBlockVGMD
+- _$ss23_ContiguousArrayStorageCySSGMD
+- _$ss23_ContiguousArrayStorageCySS_So8NSObjectCtGMD
+- _$ss23_ContiguousArrayStorageCySdGMD
+- _$ss23_ContiguousArrayStorageCySi_21InternalSwiftProtobuf8_NameMapV0G11DescriptionOtGMD
+- _$ss23_ContiguousArrayStorageCySnySiGGMD
+- _$ss23_ContiguousArrayStorageCySo22CLLocationCoordinate2DVGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss5Error_pMD
+- _$sypSgMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+
+```

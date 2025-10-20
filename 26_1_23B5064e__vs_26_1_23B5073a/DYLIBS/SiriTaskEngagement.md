@@ -1,0 +1,241 @@
+## SiriTaskEngagement
+
+> `/System/Library/PrivateFrameworks/SiriTaskEngagement.framework/SiriTaskEngagement`
+
+```diff
+
+ 3505.10.1.0.0
+-  __TEXT.__text: 0x41ad0
++  __TEXT.__text: 0x436c8
+   __TEXT.__auth_stubs: 0xd20
+-  __TEXT.__const: 0x3ba8
++  __TEXT.__const: 0x3db8
+   __TEXT.__cstring: 0x27b2
+   __TEXT.__swift5_typeref: 0x916
+   __TEXT.__constg_swiftt: 0xacc
+
+   __TEXT.__swift5_capture: 0x8c
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x1568
++  __TEXT.__unwind_info: 0x1540
+   __TEXT.__eh_frame: 0x17b8
+   __TEXT.__objc_methname: 0x1d1
+   __DATA_CONST.__got: 0x180
+
+   __AUTH_CONST.__const: 0x1f58
+   __AUTH_CONST.__objc_const: 0x730
+   __AUTH.__data: 0x448
+-  __DATA.__data: 0x760
++  __DATA.__data: 0x7e0
+   __DATA.__bss: 0x5300
+   __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__data: 0x1390
++  __DATA_DIRTY.__data: 0x1310
+   __DATA_DIRTY.__bss: 0x1200
+   __DATA_DIRTY.__common: 0x20
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0BF49F43-64C5-34F0-BD03-04501332ABE0
+-  Functions: 2057
+-  Symbols:   5972
++  UUID: D9E4F7B5-162C-3F3F-91C4-8EDE9B32C14F
++  Functions: 2053
++  Symbols:   6023
+   CStrings:  339
+ 
+Symbols:
++ _$s10Foundation12DateIntervalVSgMR
++ _$s10Foundation12DateIntervalVSgMd
++ _$s10Foundation13URLComponentsVSgMR
++ _$s10Foundation13URLComponentsVSgMd
++ _$s10Foundation20PersonNameComponentsVSgMR
++ _$s10Foundation20PersonNameComponentsVSgMd
++ _$s10Foundation4DateVSgMR
++ _$s10Foundation4DateVSgMd
++ _$s10Foundation6LocaleVSgMR
++ _$s10Foundation6LocaleVSgMd
++ _$s10Foundation8CalendarVSgMR
++ _$s10Foundation8CalendarVSgMd
++ _$s10Foundation8TimeZoneVSgMR
++ _$s10Foundation8TimeZoneVSgMd
++ _$s12SiriNLUTypes0a18_Nlu_External_Cdm_C7RequestVSgMR
++ _$s12SiriNLUTypes0a18_Nlu_External_Cdm_C7RequestVSgMd
++ _$s18SiriTaskEngagement010ProtoAlarmB10FeatureSetVSgMR
++ _$s18SiriTaskEngagement010ProtoAlarmB10FeatureSetVSgMd
++ _$s18SiriTaskEngagement013ProtoReminderB10FeatureSetVSgMR
++ _$s18SiriTaskEngagement013ProtoReminderB10FeatureSetVSgMd
++ _$s18SiriTaskEngagement014ProtoPlayMediaB10FeatureSetVSgMR
++ _$s18SiriTaskEngagement014ProtoPlayMediaB10FeatureSetVSgMd
++ _$s18SiriTaskEngagement014ProtoStartCallB10FeatureSetVSgMR
++ _$s18SiriTaskEngagement014ProtoStartCallB10FeatureSetVSgMd
++ _$s18SiriTaskEngagement015ProtoNavigationB10FeatureSetVSgMR
++ _$s18SiriTaskEngagement015ProtoNavigationB10FeatureSetVSgMd
++ _$s18SiriTaskEngagement016ProtoSendMessageB10FeatureSetVSgMR
++ _$s18SiriTaskEngagement016ProtoSendMessageB10FeatureSetVSgMd
++ _$s18SiriTaskEngagement05ProtoB10FeatureSetV08OneOf_ByB0OSgMR
++ _$s18SiriTaskEngagement05ProtoB10FeatureSetV08OneOf_ByB0OSgMd
++ _$s18SiriTaskEngagement05ProtoB10FeatureSetV08OneOf_ByB0OSg_AFtMR
++ _$s18SiriTaskEngagement05ProtoB10FeatureSetV08OneOf_ByB0OSg_AFtMd
++ _$s18SiriTaskEngagement05ProtoB10FeatureSetV08OneOf_ByB0O_AEtMR
++ _$s18SiriTaskEngagement05ProtoB10FeatureSetV08OneOf_ByB0O_AEtMd
++ _$s18SiriTaskEngagement05ProtoB10FeatureSetVSgMR
++ _$s18SiriTaskEngagement05ProtoB10FeatureSetVSgMd
++ _$s18SiriTaskEngagement05ProtoB10FeatureSetVSg_ADtMR
++ _$s18SiriTaskEngagement05ProtoB10FeatureSetVSg_ADtMd
++ _$s18SiriTaskEngagement05ProtoaB15InteractionTypeVSgMR
++ _$s18SiriTaskEngagement05ProtoaB15InteractionTypeVSgMd
++ _$s18SiriTaskEngagement05ProtoaB15InteractionTypeVSg_ADtMR
++ _$s18SiriTaskEngagement05ProtoaB15InteractionTypeVSg_ADtMd
++ _$s18SiriTaskEngagement05ProtoaB17EvaluationSummaryVSgMR
++ _$s18SiriTaskEngagement05ProtoaB17EvaluationSummaryVSgMd
++ _$s18SiriTaskEngagement05ProtoaB17EvaluationSummaryVSg_ADtMR
++ _$s18SiriTaskEngagement05ProtoaB17EvaluationSummaryVSg_ADtMd
++ _$s18SiriTaskEngagement05ProtoabC0V04siriB10FeatureSetAA0dbfG0VvpACTk
++ _$s18SiriTaskEngagement05ProtoabC0V17evaluationSummaryAA0dab10EvaluationF0VvpACTk
++ _$s18SiriTaskEngagement05ProtoabC0VSgMR
++ _$s18SiriTaskEngagement05ProtoabC0VSgMd
++ _$s18SiriTaskEngagement22ProtoMediaEntitySignalVSgMR
++ _$s18SiriTaskEngagement22ProtoMediaEntitySignalVSgMd
++ _$s18SiriTaskEngagement22ProtoMediaEntitySignalVSg_ADtMR
++ _$s18SiriTaskEngagement22ProtoMediaEntitySignalVSg_ADtMd
++ _$s18SiriTaskEngagement24ProtoContactEntitySignalVSgMR
++ _$s18SiriTaskEngagement24ProtoContactEntitySignalVSgMd
++ _$s18SiriTaskEngagement24ProtoDateComponentSignalVSgMR
++ _$s18SiriTaskEngagement24ProtoDateComponentSignalVSgMd
++ _$s18SiriTaskEngagement24ProtoDateComponentSignalVSg_ADtMR
++ _$s18SiriTaskEngagement24ProtoDateComponentSignalVSg_ADtMd
++ _$s18SiriTaskEngagement25ProtoDateTimeEntitySignalVSgMR
++ _$s18SiriTaskEngagement25ProtoDateTimeEntitySignalVSgMd
++ _$s18SiriTaskEngagement25ProtoDateTimeEntitySignalVSg_ADtMR
++ _$s18SiriTaskEngagement25ProtoDateTimeEntitySignalVSg_ADtMd
++ _$s18SiriTaskEngagement25ProtoLocationEntitySignalVSgMR
++ _$s18SiriTaskEngagement25ProtoLocationEntitySignalVSgMd
++ _$s18SiriTaskEngagement25ProtoLocationEntitySignalVSg_ADtMR
++ _$s18SiriTaskEngagement25ProtoLocationEntitySignalVSg_ADtMd
++ _$s18SiriTaskEngagement34ProtoNavigationUserFollowupContextVSgMR
++ _$s18SiriTaskEngagement34ProtoNavigationUserFollowupContextVSgMd
++ _$s18SiriTaskEngagement34ProtoNavigationUserFollowupContextVSg_ADtMR
++ _$s18SiriTaskEngagement34ProtoNavigationUserFollowupContextVSg_ADtMd
++ _$sSS_So8NSObjectCtMR
++ _$sSS_So8NSObjectCtMd
++ _$sSay10Foundation4DataVGMR
++ _$sSay10Foundation4DataVGMd
++ _$sSay18SiriTaskEngagement014ProtoPlayMediaE9BackStateOGMR
++ _$sSay18SiriTaskEngagement014ProtoPlayMediaE9BackStateOGMd
++ _$sSay18SiriTaskEngagement05ProtoaB11SuccessTypeOGMR
++ _$sSay18SiriTaskEngagement05ProtoaB11SuccessTypeOGMd
++ _$sSay18SiriTaskEngagement05ProtoaB14CompletionTypeOGMR
++ _$sSay18SiriTaskEngagement05ProtoaB14CompletionTypeOGMd
++ _$sSay18SiriTaskEngagement05ProtobC4TypeOGMR
++ _$sSay18SiriTaskEngagement05ProtobC4TypeOGMd
++ _$sSay18SiriTaskEngagement15ProtoDomainTypeOGMR
++ _$sSay18SiriTaskEngagement15ProtoDomainTypeOGMd
++ _$sSay18SiriTaskEngagement19ProtoNavigationTypeOGMR
++ _$sSay18SiriTaskEngagement19ProtoNavigationTypeOGMd
++ _$sSay18SiriTaskEngagement19ProtoNavigationVerbOGMR
++ _$sSay18SiriTaskEngagement19ProtoNavigationVerbOGMd
++ _$sSay18SiriTaskEngagement27ProtoNavigationFollowupTypeOGMR
++ _$sSay18SiriTaskEngagement27ProtoNavigationFollowupTypeOGMd
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMR
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMd
++ _$sSi_21InternalSwiftProtobuf8_NameMapV0D11DescriptionOtMR
++ _$sSi_21InternalSwiftProtobuf8_NameMapV0D11DescriptionOtMd
++ _$ss11_SetStorageCySSGMR
++ _$ss11_SetStorageCySSGMd
++ _$ss18_DictionaryStorageCySS18SiriTaskEngagement22PSEFeatureStoreDonatorCGMR
++ _$ss18_DictionaryStorageCySS18SiriTaskEngagement22PSEFeatureStoreDonatorCGMd
++ _$ss18_DictionaryStorageCySSSay12SiriNLUTypes0C27_Nlu_External_AsrHypothesisVGGMR
++ _$ss18_DictionaryStorageCySSSay12SiriNLUTypes0C27_Nlu_External_AsrHypothesisVGGMd
++ _$ss18_DictionaryStorageCySSSo8NSObjectCGMR
++ _$ss18_DictionaryStorageCySSSo8NSObjectCGMd
++ _$ss23_ContiguousArrayStorageCy10Foundation12URLQueryItemVGMR
++ _$ss23_ContiguousArrayStorageCy10Foundation12URLQueryItemVGMd
++ _$ss23_ContiguousArrayStorageCy18SiriTaskEngagement05ProtodeF0VGMR
++ _$ss23_ContiguousArrayStorageCy18SiriTaskEngagement05ProtodeF0VGMd
++ _$ss23_ContiguousArrayStorageCy18SiriTaskEngagement24ProtoContactEntitySignalVGMR
++ _$ss23_ContiguousArrayStorageCy18SiriTaskEngagement24ProtoContactEntitySignalVGMd
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss23_ContiguousArrayStorageCySS_So8NSObjectCtGMR
++ _$ss23_ContiguousArrayStorageCySS_So8NSObjectCtGMd
++ _$ss23_ContiguousArrayStorageCySi_21InternalSwiftProtobuf8_NameMapV0G11DescriptionOtGMR
++ _$ss23_ContiguousArrayStorageCySi_21InternalSwiftProtobuf8_NameMapV0G11DescriptionOtGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$sypSgMR
++ _$sypSgMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10Foundation12DateIntervalVSgMD
+- _$s10Foundation13URLComponentsVSgMD
+- _$s10Foundation20PersonNameComponentsVSgMD
+- _$s10Foundation4DateVSgMD
+- _$s10Foundation6LocaleVSgMD
+- _$s10Foundation8CalendarVSgMD
+- _$s10Foundation8TimeZoneVSgMD
+- _$s12SiriNLUTypes0a18_Nlu_External_Cdm_C7RequestVSgMD
+- _$s18SiriTaskEngagement010ProtoAlarmB10FeatureSetVSgMD
+- _$s18SiriTaskEngagement013ProtoReminderB10FeatureSetV7endTimeAA0d4DateI12EntitySignalVvsTm
+- _$s18SiriTaskEngagement013ProtoReminderB10FeatureSetV9startTimeAA0d4DateI12EntitySignalVvsTm
+- _$s18SiriTaskEngagement013ProtoReminderB10FeatureSetVSgMD
+- _$s18SiriTaskEngagement014ProtoPlayMediaB10FeatureSetVSgMD
+- _$s18SiriTaskEngagement014ProtoStartCallB10FeatureSetVSgMD
+- _$s18SiriTaskEngagement015ProtoNavigationB10FeatureSetVSgMD
+- _$s18SiriTaskEngagement016ProtoSendMessageB10FeatureSetVSgMD
+- _$s18SiriTaskEngagement05ProtoB10FeatureSetV08OneOf_ByB0OSgMD
+- _$s18SiriTaskEngagement05ProtoB10FeatureSetV08OneOf_ByB0OSg_AFtMD
+- _$s18SiriTaskEngagement05ProtoB10FeatureSetV08OneOf_ByB0O_AEtMD
+- _$s18SiriTaskEngagement05ProtoB10FeatureSetVSgMD
+- _$s18SiriTaskEngagement05ProtoB10FeatureSetVSg_ADtMD
+- _$s18SiriTaskEngagement05ProtoaB15InteractionTypeVSgMD
+- _$s18SiriTaskEngagement05ProtoaB15InteractionTypeVSg_ADtMD
+- _$s18SiriTaskEngagement05ProtoaB17EvaluationSummaryVSgMD
+- _$s18SiriTaskEngagement05ProtoaB17EvaluationSummaryVSg_ADtMD
+- _$s18SiriTaskEngagement05ProtoabC0V17evaluationSummaryAA0dab10EvaluationF0VvpACTkTm
+- _$s18SiriTaskEngagement05ProtoabC0V17evaluationSummaryAA0dab10EvaluationF0VvsTm
+- _$s18SiriTaskEngagement05ProtoabC0VSgMD
+- _$s18SiriTaskEngagement05ProtobC10FeatureSetV07featureF0AA0dbeF0VvM.resume.0Tm
+- _$s18SiriTaskEngagement05ProtobC10FeatureSetV07featureF0AA0dbeF0VvsTm
+- _$s18SiriTaskEngagement22ProtoMediaEntitySignalVSgMD
+- _$s18SiriTaskEngagement22ProtoMediaEntitySignalVSg_ADtMD
+- _$s18SiriTaskEngagement24ProtoContactEntitySignalVSgMD
+- _$s18SiriTaskEngagement24ProtoDateComponentSignalVSgMD
+- _$s18SiriTaskEngagement24ProtoDateComponentSignalVSg_ADtMD
+- _$s18SiriTaskEngagement25ProtoDateTimeEntitySignalVSgMD
+- _$s18SiriTaskEngagement25ProtoDateTimeEntitySignalVSg_ADtMD
+- _$s18SiriTaskEngagement25ProtoLocationEntitySignalVSgMD
+- _$s18SiriTaskEngagement25ProtoLocationEntitySignalVSg_ADtMD
+- _$s18SiriTaskEngagement34ProtoNavigationUserFollowupContextVSgMD
+- _$s18SiriTaskEngagement34ProtoNavigationUserFollowupContextVSg_ADtMD
+- _$sSS_So8NSObjectCtMD
+- _$sSay10Foundation4DataVGMD
+- _$sSay18SiriTaskEngagement014ProtoPlayMediaE9BackStateOGMD
+- _$sSay18SiriTaskEngagement05ProtoaB11SuccessTypeOGMD
+- _$sSay18SiriTaskEngagement05ProtoaB14CompletionTypeOGMD
+- _$sSay18SiriTaskEngagement05ProtobC4TypeOGMD
+- _$sSay18SiriTaskEngagement15ProtoDomainTypeOGMD
+- _$sSay18SiriTaskEngagement19ProtoNavigationTypeOGMD
+- _$sSay18SiriTaskEngagement19ProtoNavigationVerbOGMD
+- _$sSay18SiriTaskEngagement27ProtoNavigationFollowupTypeOGMD
+- _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMD
+- _$sSi_21InternalSwiftProtobuf8_NameMapV0D11DescriptionOtMD
+- _$ss11_SetStorageCySSGMD
+- _$ss18_DictionaryStorageCySS18SiriTaskEngagement22PSEFeatureStoreDonatorCGMD
+- _$ss18_DictionaryStorageCySSSay12SiriNLUTypes0C27_Nlu_External_AsrHypothesisVGGMD
+- _$ss18_DictionaryStorageCySSSo8NSObjectCGMD
+- _$ss23_ContiguousArrayStorageCy10Foundation12URLQueryItemVGMD
+- _$ss23_ContiguousArrayStorageCy18SiriTaskEngagement05ProtodeF0VGMD
+- _$ss23_ContiguousArrayStorageCy18SiriTaskEngagement24ProtoContactEntitySignalVGMD
+- _$ss23_ContiguousArrayStorageCySSGMD
+- _$ss23_ContiguousArrayStorageCySS_So8NSObjectCtGMD
+- _$ss23_ContiguousArrayStorageCySi_21InternalSwiftProtobuf8_NameMapV0G11DescriptionOtGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$sypSgMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+
+```

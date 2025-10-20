@@ -1,0 +1,1816 @@
+## WebKit
+
+> `/System/Library/Frameworks/WebKit.framework/WebKit`
+
+```diff
+
+-622.2.10.10.1
+-  __TEXT.__text: 0x119efb8
+-  __TEXT.__auth_stubs: 0x19410
++622.2.11.10.4
++  __TEXT.__text: 0x119c700
++  __TEXT.__auth_stubs: 0x19430
+   __TEXT.__delay_helper: 0xc8
+-  __TEXT.__objc_methlist: 0x1a374
+-  __TEXT.__const: 0x5938
++  __TEXT.__objc_methlist: 0x1a384
++  __TEXT.__const: 0x5bc8
+   __TEXT.__dlsym_cstr: 0x757
+   __TEXT.__getClass_cstr: 0xa41
+   __TEXT.__constg_swiftt: 0xc94
+
+   __TEXT.__swift5_mpenum: 0x30
+   __TEXT.__swift5_protos: 0x14
+   __TEXT.__swift5_proto: 0xe0
+-  __TEXT.__cstring: 0x230ca8
++  __TEXT.__cstring: 0x230b29
+   __TEXT.__swift_as_entry: 0x154
+   __TEXT.__swift_as_ret: 0x11c
+   __TEXT.__swift5_assocty: 0x1b0
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__gcc_except_tab: 0x72230
+-  __TEXT.__oslogstring: 0x486d8
++  __TEXT.__gcc_except_tab: 0x72260
++  __TEXT.__oslogstring: 0x4896c
+   __TEXT.__ustring: 0xd40
+-  __TEXT.__unwind_info: 0x2dd28
++  __TEXT.__unwind_info: 0x2dd98
+   __TEXT.__eh_frame: 0x22c0
+   __TEXT.__objc_classname: 0x33a1
+-  __TEXT.__objc_methname: 0x4a734
+-  __TEXT.__objc_methtype: 0x3b214
+-  __TEXT.__objc_stubs: 0x2bf20
++  __TEXT.__objc_methname: 0x4a73a
++  __TEXT.__objc_methtype: 0x3b21d
++  __TEXT.__objc_stubs: 0x2bf00
+   __DATA_CONST.__got: 0x2198
+   __DATA_CONST.__const: 0x1f9f0
+   __DATA_CONST.__objc_classlist: 0xc60
+   __DATA_CONST.__objc_catlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x450
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x10a80
++  __DATA_CONST.__objc_selrefs: 0x10a78
+   __DATA_CONST.__objc_protorefs: 0xa8
+   __DATA_CONST.__objc_superrefs: 0x9b8
+   __DATA_CONST.__objc_arraydata: 0x638
+-  __AUTH_CONST.__auth_got: 0xca20
+-  __AUTH_CONST.__const: 0x639a0
+-  __AUTH_CONST.__cfstring: 0x14220
+-  __AUTH_CONST.__objc_const: 0x28a88
++  __AUTH_CONST.__auth_got: 0xca30
++  __AUTH_CONST.__const: 0x63a18
++  __AUTH_CONST.__cfstring: 0x142a0
++  __AUTH_CONST.__objc_const: 0x28a98
+   __AUTH_CONST.__objc_intobj: 0x7c8
+   __AUTH_CONST.__objc_arrayobj: 0xc0
+   __AUTH_CONST.__objc_dictobj: 0x1e0
+   __AUTH_CONST.__objc_doubleobj: 0x20
+   __AUTH.__objc_data: 0x5c50
+-  __AUTH.__data: 0x708
++  __AUTH.__data: 0x6e8
+   __DATA.__objc_ivar: 0xffc
+-  __DATA.__data: 0x3afc
+-  __DATA.__bss: 0x2930
+-  __DATA.__common: 0xf98
++  __DATA.__data: 0x3b3c
++  __DATA.__bss: 0x2970
++  __DATA.__common: 0xf88
+   __DATA_DIRTY.__objc_ivar: 0x598
+   __DATA_DIRTY.__objc_data: 0x2260
+-  __DATA_DIRTY.__data: 0x61b8
+-  __DATA_DIRTY.__bss: 0x1c00
++  __DATA_DIRTY.__data: 0x61a8
++  __DATA_DIRTY.__bss: 0x1bc8
+   __DATA_DIRTY.__common: 0x2d60
+   - /System/Library/Frameworks/BrowserEngineKit.framework/BrowserEngineKit
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8D6DD609-6E46-3D4C-B2B8-55F721E68512
+-  Functions: 71661
+-  Symbols:   194458
+-  CStrings:  32982
++  UUID: F8CFE682-15C9-3DDE-944A-29E8B0A8656B
++  Functions: 71710
++  Symbols:   194552
++  CStrings:  33004
+ 
+Symbols:
++ -[WKPDFView web_setContentProviderData:suggestedFilename:completionHandler:]
++ -[WKUIScrollEdgeEffect isHidden]
++ -[WKUSDPreviewView web_setContentProviderData:suggestedFilename:completionHandler:]
++ GCC_except_table1000
++ GCC_except_table1023
++ GCC_except_table1030
++ GCC_except_table1032
++ GCC_except_table1035
++ GCC_except_table1040
++ GCC_except_table1043
++ GCC_except_table1046
++ GCC_except_table1062
++ GCC_except_table1075
++ GCC_except_table1091
++ GCC_except_table1098
++ GCC_except_table1112
++ GCC_except_table1119
++ GCC_except_table1122
++ GCC_except_table1125
++ GCC_except_table1133
++ GCC_except_table1140
++ GCC_except_table1151
++ GCC_except_table1193
++ GCC_except_table1204
++ GCC_except_table1213
++ GCC_except_table1228
++ GCC_except_table1237
++ GCC_except_table1282
++ GCC_except_table1309
++ GCC_except_table1311
++ GCC_except_table1321
++ GCC_except_table1325
++ GCC_except_table1340
++ GCC_except_table1350
++ GCC_except_table1364
++ GCC_except_table1379
++ GCC_except_table1383
++ GCC_except_table1393
++ GCC_except_table1396
++ GCC_except_table1399
++ GCC_except_table1410
++ GCC_except_table1413
++ GCC_except_table1416
++ GCC_except_table1428
++ GCC_except_table1613
++ GCC_except_table1617
++ GCC_except_table1620
++ GCC_except_table1624
++ GCC_except_table1633
++ GCC_except_table1641
++ GCC_except_table1643
++ GCC_except_table1648
++ GCC_except_table1650
++ GCC_except_table1685
++ GCC_except_table1693
++ GCC_except_table1697
++ GCC_except_table1701
++ GCC_except_table1717
++ GCC_except_table1720
++ GCC_except_table1734
++ GCC_except_table1738
++ GCC_except_table1743
++ GCC_except_table1748
++ GCC_except_table1750
++ GCC_except_table1755
++ GCC_except_table1759
++ GCC_except_table1765
++ GCC_except_table1767
++ GCC_except_table1769
++ GCC_except_table1772
++ GCC_except_table1776
++ GCC_except_table1778
++ GCC_except_table1784
++ GCC_except_table1786
++ GCC_except_table1790
++ GCC_except_table1793
++ GCC_except_table1797
++ GCC_except_table1800
++ GCC_except_table1806
++ GCC_except_table1810
++ GCC_except_table1812
++ GCC_except_table1814
++ GCC_except_table1816
++ GCC_except_table1825
++ GCC_except_table1832
++ GCC_except_table1837
++ GCC_except_table1840
++ GCC_except_table1842
++ GCC_except_table1847
++ GCC_except_table1854
++ GCC_except_table1857
++ GCC_except_table1860
++ GCC_except_table1863
++ GCC_except_table1865
++ GCC_except_table1867
++ GCC_except_table1870
++ GCC_except_table1874
++ GCC_except_table1879
++ GCC_except_table1886
++ GCC_except_table1889
++ GCC_except_table1891
++ GCC_except_table1895
++ GCC_except_table1898
++ GCC_except_table1909
++ GCC_except_table1912
++ GCC_except_table1915
++ GCC_except_table1919
++ GCC_except_table1922
++ GCC_except_table1927
++ GCC_except_table1930
++ GCC_except_table1935
++ GCC_except_table1940
++ GCC_except_table1948
++ GCC_except_table1951
++ GCC_except_table1954
++ GCC_except_table1963
++ GCC_except_table1968
++ GCC_except_table1972
++ GCC_except_table1978
++ GCC_except_table1982
++ GCC_except_table1986
++ GCC_except_table1999
++ GCC_except_table2005
++ GCC_except_table2011
++ GCC_except_table2015
++ GCC_except_table2019
++ GCC_except_table2025
++ GCC_except_table2030
++ GCC_except_table2034
++ GCC_except_table2036
++ GCC_except_table2039
++ GCC_except_table2043
++ GCC_except_table2084
++ GCC_except_table2100
++ GCC_except_table2103
++ GCC_except_table2111
++ GCC_except_table2114
++ GCC_except_table2121
++ GCC_except_table2125
++ GCC_except_table2130
++ GCC_except_table2137
++ GCC_except_table2142
++ GCC_except_table2145
++ GCC_except_table2151
++ GCC_except_table2159
++ GCC_except_table2406
++ GCC_except_table2409
++ GCC_except_table2415
++ GCC_except_table2421
++ GCC_except_table2422
++ GCC_except_table2427
++ GCC_except_table2428
++ GCC_except_table2438
++ GCC_except_table2439
++ GCC_except_table2449
++ GCC_except_table2455
++ GCC_except_table2495
++ GCC_except_table2500
++ GCC_except_table2501
++ GCC_except_table2508
++ GCC_except_table2512
++ GCC_except_table2516
++ GCC_except_table2523
++ GCC_except_table2527
++ GCC_except_table2528
++ GCC_except_table2531
++ GCC_except_table2536
++ GCC_except_table2548
++ GCC_except_table2549
++ GCC_except_table2553
++ GCC_except_table2556
++ GCC_except_table2563
++ GCC_except_table2574
++ GCC_except_table2575
++ GCC_except_table2579
++ GCC_except_table2583
++ GCC_except_table2592
++ GCC_except_table2593
++ GCC_except_table2597
++ GCC_except_table2600
++ GCC_except_table2603
++ GCC_except_table2608
++ GCC_except_table2621
++ GCC_except_table2631
++ GCC_except_table2634
++ GCC_except_table2639
++ GCC_except_table2640
++ GCC_except_table2645
++ GCC_except_table2646
++ GCC_except_table2652
++ GCC_except_table2663
++ GCC_except_table2664
++ GCC_except_table2691
++ GCC_except_table2694
++ GCC_except_table2704
++ GCC_except_table2711
++ GCC_except_table2715
++ GCC_except_table2724
++ GCC_except_table2727
++ GCC_except_table2730
++ GCC_except_table2731
++ GCC_except_table2735
++ GCC_except_table2736
++ GCC_except_table2740
++ GCC_except_table2745
++ GCC_except_table2753
++ GCC_except_table2756
++ GCC_except_table2774
++ GCC_except_table2778
++ GCC_except_table2784
++ GCC_except_table2790
++ GCC_except_table2791
++ GCC_except_table2797
++ GCC_except_table2813
++ GCC_except_table2814
++ GCC_except_table2826
++ GCC_except_table2831
++ GCC_except_table2884
++ GCC_except_table2887
++ GCC_except_table2890
++ GCC_except_table2902
++ GCC_except_table2903
++ GCC_except_table2908
++ GCC_except_table2923
++ GCC_except_table2939
++ GCC_except_table2940
++ GCC_except_table2944
++ GCC_except_table2951
++ GCC_except_table2960
++ GCC_except_table2963
++ GCC_except_table2969
++ GCC_except_table2974
++ GCC_except_table2975
++ GCC_except_table2981
++ GCC_except_table2984
++ GCC_except_table2987
++ GCC_except_table2998
++ GCC_except_table3009
++ GCC_except_table3015
++ GCC_except_table3041
++ GCC_except_table3044
++ GCC_except_table3045
++ GCC_except_table3049
++ GCC_except_table3064
++ GCC_except_table3070
++ GCC_except_table3071
++ GCC_except_table3076
++ GCC_except_table3079
++ GCC_except_table3084
++ GCC_except_table3085
++ GCC_except_table3088
++ GCC_except_table3093
++ GCC_except_table3100
++ GCC_except_table3105
++ GCC_except_table3121
++ GCC_except_table3125
++ GCC_except_table3138
++ GCC_except_table3141
++ GCC_except_table3152
++ GCC_except_table3158
++ GCC_except_table3162
++ GCC_except_table3163
++ GCC_except_table3166
++ GCC_except_table3170
++ GCC_except_table3174
++ GCC_except_table3175
++ GCC_except_table3180
++ GCC_except_table3181
++ GCC_except_table3192
++ GCC_except_table3195
++ GCC_except_table3196
++ GCC_except_table3199
++ GCC_except_table3239
++ GCC_except_table3263
++ GCC_except_table3264
++ GCC_except_table3298
++ GCC_except_table3317
++ GCC_except_table3321
++ GCC_except_table3327
++ GCC_except_table3341
++ GCC_except_table3349
++ GCC_except_table3360
++ GCC_except_table3362
++ GCC_except_table3365
++ GCC_except_table3368
++ GCC_except_table3370
++ GCC_except_table3372
++ GCC_except_table3412
++ GCC_except_table3419
++ GCC_except_table3427
++ GCC_except_table3430
++ GCC_except_table3445
++ GCC_except_table3449
++ GCC_except_table3458
++ GCC_except_table3474
++ GCC_except_table3493
++ GCC_except_table3498
++ GCC_except_table3509
++ GCC_except_table3515
++ GCC_except_table3520
++ GCC_except_table3529
++ GCC_except_table3540
++ GCC_except_table3545
++ GCC_except_table3550
++ GCC_except_table3567
++ GCC_except_table3574
++ GCC_except_table3579
++ GCC_except_table3600
++ GCC_except_table3606
++ GCC_except_table3626
++ GCC_except_table3635
++ GCC_except_table3637
++ GCC_except_table3654
++ GCC_except_table3670
++ GCC_except_table3687
++ GCC_except_table3691
++ GCC_except_table3708
++ GCC_except_table3726
++ GCC_except_table3738
++ GCC_except_table3746
++ GCC_except_table3754
++ GCC_except_table3761
++ GCC_except_table3764
++ GCC_except_table3767
++ GCC_except_table3785
++ GCC_except_table3794
++ GCC_except_table3815
++ GCC_except_table3834
++ GCC_except_table3837
++ GCC_except_table3846
++ GCC_except_table3851
++ GCC_except_table3881
++ GCC_except_table3884
++ GCC_except_table3886
++ GCC_except_table3888
++ GCC_except_table3900
++ GCC_except_table3910
++ GCC_except_table3913
++ GCC_except_table392
++ GCC_except_table3924
++ GCC_except_table3938
++ GCC_except_table3951
++ GCC_except_table3959
++ GCC_except_table3962
++ GCC_except_table3965
++ GCC_except_table3968
++ GCC_except_table3971
++ GCC_except_table3978
++ GCC_except_table3987
++ GCC_except_table3997
++ GCC_except_table4006
++ GCC_except_table4015
++ GCC_except_table4028
++ GCC_except_table4054
++ GCC_except_table4065
++ GCC_except_table4068
++ GCC_except_table4071
++ GCC_except_table4083
++ GCC_except_table4109
++ GCC_except_table4116
++ GCC_except_table4122
++ GCC_except_table4134
++ GCC_except_table4137
++ GCC_except_table4143
++ GCC_except_table4155
++ GCC_except_table4164
++ GCC_except_table4168
++ GCC_except_table4176
++ GCC_except_table4179
++ GCC_except_table4187
++ GCC_except_table419
++ GCC_except_table4190
++ GCC_except_table4207
++ GCC_except_table4214
++ GCC_except_table4229
++ GCC_except_table4236
++ GCC_except_table4237
++ GCC_except_table4261
++ GCC_except_table4262
++ GCC_except_table4267
++ GCC_except_table4275
++ GCC_except_table4282
++ GCC_except_table4293
++ GCC_except_table4302
++ GCC_except_table4305
++ GCC_except_table4308
++ GCC_except_table4315
++ GCC_except_table4316
++ GCC_except_table4327
++ GCC_except_table4328
++ GCC_except_table4331
++ GCC_except_table4338
++ GCC_except_table4345
++ GCC_except_table4346
++ GCC_except_table4358
++ GCC_except_table4359
++ GCC_except_table4374
++ GCC_except_table4375
++ GCC_except_table4378
++ GCC_except_table4406
++ GCC_except_table4410
++ GCC_except_table4413
++ GCC_except_table4428
++ GCC_except_table4431
++ GCC_except_table4448
++ GCC_except_table4463
++ GCC_except_table447
++ GCC_except_table4472
++ GCC_except_table4473
++ GCC_except_table4481
++ GCC_except_table4491
++ GCC_except_table4492
++ GCC_except_table4497
++ GCC_except_table4506
++ GCC_except_table4509
++ GCC_except_table4519
++ GCC_except_table4532
++ GCC_except_table4539
++ GCC_except_table4552
++ GCC_except_table4553
++ GCC_except_table4556
++ GCC_except_table4560
++ GCC_except_table4594
++ GCC_except_table4613
++ GCC_except_table4616
++ GCC_except_table4622
++ GCC_except_table4633
++ GCC_except_table4655
++ GCC_except_table466
++ GCC_except_table4669
++ GCC_except_table4680
++ GCC_except_table4686
++ GCC_except_table4687
++ GCC_except_table4702
++ GCC_except_table4705
++ GCC_except_table4709
++ GCC_except_table4713
++ GCC_except_table4719
++ GCC_except_table4722
++ GCC_except_table4739
++ GCC_except_table4745
++ GCC_except_table4747
++ GCC_except_table4755
++ GCC_except_table4758
++ GCC_except_table4763
++ GCC_except_table4766
++ GCC_except_table4777
++ GCC_except_table4780
++ GCC_except_table4787
++ GCC_except_table4789
++ GCC_except_table4798
++ GCC_except_table4801
++ GCC_except_table4815
++ GCC_except_table4825
++ GCC_except_table4828
++ GCC_except_table4841
++ GCC_except_table4844
++ GCC_except_table4849
++ GCC_except_table4863
++ GCC_except_table4866
++ GCC_except_table4878
++ GCC_except_table4884
++ GCC_except_table4892
++ GCC_except_table4897
++ GCC_except_table4900
++ GCC_except_table4909
++ GCC_except_table4920
++ GCC_except_table4928
++ GCC_except_table4942
++ GCC_except_table4954
++ GCC_except_table4962
++ GCC_except_table4969
++ GCC_except_table4977
++ GCC_except_table4982
++ GCC_except_table4993
++ GCC_except_table5001
++ GCC_except_table5013
++ GCC_except_table5019
++ GCC_except_table5022
++ GCC_except_table5025
++ GCC_except_table5036
++ GCC_except_table5046
++ GCC_except_table5049
++ GCC_except_table5054
++ GCC_except_table5059
++ GCC_except_table5061
++ GCC_except_table5063
++ GCC_except_table5069
++ GCC_except_table5074
++ GCC_except_table5078
++ GCC_except_table5086
++ GCC_except_table5098
++ GCC_except_table5106
++ GCC_except_table5110
++ GCC_except_table5118
++ GCC_except_table5130
++ GCC_except_table5140
++ GCC_except_table5144
++ GCC_except_table5168
++ GCC_except_table520
++ GCC_except_table5207
++ GCC_except_table5211
++ GCC_except_table5215
++ GCC_except_table5223
++ GCC_except_table5232
++ GCC_except_table5235
++ GCC_except_table5246
++ GCC_except_table5251
++ GCC_except_table5253
++ GCC_except_table5255
++ GCC_except_table5263
++ GCC_except_table5265
++ GCC_except_table5289
++ GCC_except_table5293
++ GCC_except_table5296
++ GCC_except_table5298
++ GCC_except_table5301
++ GCC_except_table5303
++ GCC_except_table5306
++ GCC_except_table5317
++ GCC_except_table5320
++ GCC_except_table5322
++ GCC_except_table5328
++ GCC_except_table5335
++ GCC_except_table5340
++ GCC_except_table5343
++ GCC_except_table5345
++ GCC_except_table5347
++ GCC_except_table5354
++ GCC_except_table537
++ GCC_except_table5372
++ GCC_except_table5377
++ GCC_except_table5393
++ GCC_except_table5401
++ GCC_except_table5407
++ GCC_except_table5417
++ GCC_except_table5444
++ GCC_except_table5454
++ GCC_except_table546
++ GCC_except_table5461
++ GCC_except_table5478
++ GCC_except_table5494
++ GCC_except_table5518
++ GCC_except_table5538
++ GCC_except_table5564
++ GCC_except_table5601
++ GCC_except_table5608
++ GCC_except_table561
++ GCC_except_table5617
++ GCC_except_table5619
++ GCC_except_table5638
++ GCC_except_table5640
++ GCC_except_table5642
++ GCC_except_table5652
++ GCC_except_table576
++ GCC_except_table577
++ GCC_except_table582
++ GCC_except_table585
++ GCC_except_table587
++ GCC_except_table588
++ GCC_except_table597
++ GCC_except_table609
++ GCC_except_table620
++ GCC_except_table625
++ GCC_except_table628
++ GCC_except_table652
++ GCC_except_table654
++ GCC_except_table657
++ GCC_except_table665
++ GCC_except_table668
++ GCC_except_table670
++ GCC_except_table683
++ GCC_except_table686
++ GCC_except_table688
++ GCC_except_table690
++ GCC_except_table700
++ GCC_except_table713
++ GCC_except_table716
++ GCC_except_table740
++ GCC_except_table744
++ GCC_except_table746
++ GCC_except_table773
++ GCC_except_table841
++ GCC_except_table855
++ GCC_except_table860
++ GCC_except_table875
++ GCC_except_table877
++ GCC_except_table882
++ GCC_except_table893
++ GCC_except_table895
++ GCC_except_table904
++ GCC_except_table917
++ GCC_except_table923
++ GCC_except_table927
++ GCC_except_table935
++ GCC_except_table937
++ GCC_except_table960
++ GCC_except_table968
++ __MergedGlobals.104
++ __MergedGlobals.1159
++ __MergedGlobals.1160
++ __MergedGlobals.173
++ __MergedGlobals.181
++ __MergedGlobals.244
++ __MergedGlobals.245
++ __MergedGlobals.267
++ __MergedGlobals.292
++ __MergedGlobals.303
++ __MergedGlobals.304
++ __MergedGlobals.920
++ __MergedGlobals.921
++ __ZN3IPC10Connection4sendIN8Messages25RemoteDisplayListRecorder15StrokeClosedArcEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionEEENSt3__18optionalINS8_6Thread3QOSEEE
++ __ZN3IPC10Connection4sendIN8Messages25RemoteDisplayListRecorder18FillCompositedRectEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionEEENSt3__18optionalINS8_6Thread3QOSEEE
++ __ZN3IPC10Connection4sendIN8Messages9LogStream26FRAMELOADER_CHANGELOCATIONEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionEEENSt3__18optionalINS8_6Thread3QOSEEE
++ __ZN3IPC10Connection4sendIN8Messages9LogStream31FRAMELOADER_PREPAREFORLOADSTARTEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionEEENSt3__18optionalINS8_6Thread3QOSEEE
++ __ZN3IPC10Connection4sendIN8Messages9LogStream36FRAMELOADER_LOADWITHNAVIGATIONACTIONEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionEEENSt3__18optionalINS8_6Thread3QOSEEE
++ __ZN3IPC10Connection4sendIN8Messages9LogStream41FRAMELOADER_CHECKLOADCOMPLETEFORTHISFRAMEEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionEEENSt3__18optionalINS8_6Thread3QOSEEE
++ __ZN3IPC10Connection4sendIN8Messages9LogStream45FRAMELOADER_CONTINUELOADAFTERNAVIGATIONPOLICYEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionEEENSt3__18optionalINS8_6Thread3QOSEEE
++ __ZN3IPC10Connection4sendIN8Messages9LogStream47FRAMELOADER_LOADFRAMEREQUEST_FRAME_LOAD_STARTEDEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionEEENSt3__18optionalINS8_6Thread3QOSEEE
++ __ZN3IPC10Connection4sendIN8Messages9LogStream53FRAMELOADER_LOADWITHDOCUMENTLOADER_FRAME_LOAD_STARTEDEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionEEENSt3__18optionalINS8_6Thread3QOSEEE
++ __ZN3IPC13ArgumentCoderIN3WTF12KeyValuePairINS1_6StringEN7WebCore36AuthenticationExtensionsClientInputs9PRFValuesEEEvE6encodeINS_7EncoderERKS7_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN6WebKit13CoreIPCNumberENS3_13CoreIPCStringENS3_11CoreIPCDateEEEEvE6encodeINS_7EncoderERKS7_JEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN6WebKit13CoreIPCNumberENS3_13CoreIPCStringENS3_11CoreIPCDateEEEEvE6encodeINS_7EncoderERKS7_JLm0EEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN6WebKit6WebGPU15VertexAttributeEvE6encodeERNS_7EncoderERKS3_
++ __ZN3IPC13ArgumentCoderIN7WebCore15VideoPresetDataEvE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore18SharedMemoryHandleEvE6encodeERNS_7EncoderEOS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore21InspectorOverlayLabel7ContentEvE6encodeERNS_7EncoderERKS3_
++ __ZN3IPC13ArgumentCoderINSt3__15tupleIJN3WTF23ObjectIdentifierGenericIN7WebCore31RenderingResourceIdentifierTypeENS3_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS5_15AffineTransformEEEEvE6decodeINS_7DecoderEJEEENS1_8optionalISB_EERT_DpONSF_IT0_EE
++ __ZN3IPC13ArgumentCoderINSt3__15tupleIJN3WTF6StringENS1_8optionalIyEEEEEvE6decodeINS_7DecoderEJEEENS5_IS7_EERT_DpONS5_IT0_EE
++ __ZN3IPC13ArgumentCoderINSt3__18optionalIN7WebCore15ColorDataForIPCEEEvE6encodeINS_23StreamConnectionEncoderES5_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderIyvE6encodeINS_23StreamConnectionEncoderEEEvRT_y
++ __ZN3IPC22StreamClientConnection4sendIN8Messages9LogStream38WEBPROCESS_DESTROY_RENDERING_RESOURCESEN6WebKit23LogStreamIdentifierTypeEN3WTF38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS_5ErrorEOT_NS7_23ObjectIdentifierGenericIT0_T1_T2_EE
++ __ZN3IPC7Decoder6decodeINSt3__15tupleIJN3WTF6StringENS2_8optionalIyEEEEEEENS6_IT_EEv
++ __ZN3IPC7Decoder6decodeINSt3__15tupleIJjNS2_8optionalIjEEEEEEENS4_IT_EEv
++ __ZN3WTF17auditTokenForSelfEv
++ __ZN3WTF22KeyValuePairHashTraitsINS_10HashTraitsINS_23ObjectIdentifierGenericIN6WebKit25StorageAreaIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEENS1_INS_7WeakPtrINS3_15StorageAreaBaseENS_18DefaultWeakPtrImplENS_12RawPtrTraitsISB_EEEEEEE18customDeleteBucketERNS_12KeyValuePairIS7_SE_EE
++ __ZN3WTF22setSDKAlignedBehaviorsENS_6BitSetILm93EjEE
++ __ZN3WTF5DequeINS_9UniqueRefIN3IPC7EncoderEEELm0EE5clearEv
++ __ZN3WTF6Detail15CallableWrapperIZ100-[WKWebView(WKViewInternalIOS) _restorePageScrollPosition:scrollOrigin:previousObscuredInset:scale:]E4$_10vJEE4callEv
++ __ZN3WTF6Detail15CallableWrapperIZ100-[WKWebView(WKViewInternalIOS) _restorePageScrollPosition:scrollOrigin:previousObscuredInset:scale:]E4$_10vJEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ100-[WKWebView(WKViewInternalIOS) _restorePageScrollPosition:scrollOrigin:previousObscuredInset:scale:]E4$_10vJEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZ116-[WKWebView(WKPrivateIOS) _snapshotRectAfterScreenUpdates:rectInViewCoordinates:intoImageOfWidth:completionHandler:]E4$_34vJEE4callEv
++ __ZN3WTF6Detail15CallableWrapperIZ116-[WKWebView(WKPrivateIOS) _snapshotRectAfterScreenUpdates:rectInViewCoordinates:intoImageOfWidth:completionHandler:]E4$_34vJEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ116-[WKWebView(WKPrivateIOS) _snapshotRectAfterScreenUpdates:rectInViewCoordinates:intoImageOfWidth:completionHandler:]E4$_34vJEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZ116-[WKWebView(WKPrivateIOS) _snapshotRectAfterScreenUpdates:rectInViewCoordinates:intoImageOfWidth:completionHandler:]E4$_35vJP7CGImageEE4callES4_
++ __ZN3WTF6Detail15CallableWrapperIZ116-[WKWebView(WKPrivateIOS) _snapshotRectAfterScreenUpdates:rectInViewCoordinates:intoImageOfWidth:completionHandler:]E4$_35vJP7CGImageEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ116-[WKWebView(WKPrivateIOS) _snapshotRectAfterScreenUpdates:rectInViewCoordinates:intoImageOfWidth:completionHandler:]E4$_35vJP7CGImageEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZ46-[WKWebView(WKViewInternalIOS) _endLiveResize]E4$_23vJEE4callEv
++ __ZN3WTF6Detail15CallableWrapperIZ46-[WKWebView(WKViewInternalIOS) _endLiveResize]E4$_23vJEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ46-[WKWebView(WKViewInternalIOS) _endLiveResize]E4$_23vJEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZ49-[WKWebView(WKViewInternalIOS) _takeViewSnapshot]E4$_12vJNSt3__110unique_ptrIN7WebCore9IOSurfaceENS3_14default_deleteIS6_EEEEEE4callES9_
++ __ZN3WTF6Detail15CallableWrapperIZ49-[WKWebView(WKViewInternalIOS) _takeViewSnapshot]E4$_12vJNSt3__110unique_ptrIN7WebCore9IOSurfaceENS3_14default_deleteIS6_EEEEEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ49-[WKWebView(WKViewInternalIOS) _takeViewSnapshot]E4$_12vJNSt3__110unique_ptrIN7WebCore9IOSurfaceENS3_14default_deleteIS6_EEEEEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZ50-[WKWebView(WKPrivateIOS) _addLayerForFindOverlay]E4$_41vJNSt3__18optionalIN7WebCore16ProcessQualifiedINS_23ObjectIdentifierGenericINS5_27PlatformLayerIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEEEEEE4callESD_
++ __ZN3WTF6Detail15CallableWrapperIZ50-[WKWebView(WKPrivateIOS) _addLayerForFindOverlay]E4$_41vJNSt3__18optionalIN7WebCore16ProcessQualifiedINS_23ObjectIdentifierGenericINS5_27PlatformLayerIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEEEEEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ50-[WKWebView(WKPrivateIOS) _addLayerForFindOverlay]E4$_41vJNSt3__18optionalIN7WebCore16ProcessQualifiedINS_23ObjectIdentifierGenericINS5_27PlatformLayerIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEEEEEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZ53-[WKWebView(WKPrivateIOS) _isForcedIntoAppBoundMode:]E4$_40vJbEE4callEb
++ __ZN3WTF6Detail15CallableWrapperIZ53-[WKWebView(WKPrivateIOS) _isForcedIntoAppBoundMode:]E4$_40vJbEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ53-[WKWebView(WKPrivateIOS) _isForcedIntoAppBoundMode:]E4$_40vJbEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZ53-[WKWebView(WKPrivateIOS) _removeLayerForFindOverlay]E4$_42vJEE4callEv
++ __ZN3WTF6Detail15CallableWrapperIZ53-[WKWebView(WKPrivateIOS) _removeLayerForFindOverlay]E4$_42vJEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ53-[WKWebView(WKPrivateIOS) _removeLayerForFindOverlay]E4$_42vJEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZ57-[WKWebView(WKPrivateIOS) _isNavigatingToAppBoundDomain:]E4$_39vJbEE4callEb
++ __ZN3WTF6Detail15CallableWrapperIZ57-[WKWebView(WKPrivateIOS) _isNavigatingToAppBoundDomain:]E4$_39vJbEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ57-[WKWebView(WKPrivateIOS) _isNavigatingToAppBoundDomain:]E4$_39vJbEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZ58-[WKWebView(WKViewInternalIOS) _updateVisibleContentRects]E4$_20vJEE4callEv
++ __ZN3WTF6Detail15CallableWrapperIZ58-[WKWebView(WKViewInternalIOS) _updateVisibleContentRects]E4$_20vJEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ58-[WKWebView(WKViewInternalIOS) _updateVisibleContentRects]E4$_20vJEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZ64-[WKWebView(WKPrivateIOS) _doAfterNextStablePresentationUpdate:]E4$_29vJEE4callEv
++ __ZN3WTF6Detail15CallableWrapperIZ64-[WKWebView(WKPrivateIOS) _doAfterNextStablePresentationUpdate:]E4$_29vJEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ64-[WKWebView(WKPrivateIOS) _doAfterNextStablePresentationUpdate:]E4$_29vJEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZ65-[WKWebView(WKViewInternalIOS) _acquireResizeAssertionForReason:]E4$_17vJEE4callEv
++ __ZN3WTF6Detail15CallableWrapperIZ65-[WKWebView(WKViewInternalIOS) _acquireResizeAssertionForReason:]E4$_17vJEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ65-[WKWebView(WKViewInternalIOS) _acquireResizeAssertionForReason:]E4$_17vJEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZ66-[WKWebView(WKPrivateIOS) _detectDataWithTypes:completionHandler:]E4$_30vJON6WebKit19DataDetectionResultEEE4callES5_
++ __ZN3WTF6Detail15CallableWrapperIZ66-[WKWebView(WKPrivateIOS) _detectDataWithTypes:completionHandler:]E4$_30vJON6WebKit19DataDetectionResultEEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ66-[WKWebView(WKPrivateIOS) _detectDataWithTypes:completionHandler:]E4$_30vJON6WebKit19DataDetectionResultEEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZ73-[WKWebView(WKViewInternalIOS) scrollView:handleScrollUpdate:completion:]E4$_14vJbEE4callEb
++ __ZN3WTF6Detail15CallableWrapperIZ73-[WKWebView(WKViewInternalIOS) scrollView:handleScrollUpdate:completion:]E4$_14vJbEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ73-[WKWebView(WKViewInternalIOS) scrollView:handleScrollUpdate:completion:]E4$_14vJbEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZ74-[WKWebView(WKViewInternalIOS) _restorePageStateToUnobscuredCenter:scale:]E4$_11vJEE4callEv
++ __ZN3WTF6Detail15CallableWrapperIZ74-[WKWebView(WKViewInternalIOS) _restorePageStateToUnobscuredCenter:scale:]E4$_11vJEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ74-[WKWebView(WKViewInternalIOS) _restorePageStateToUnobscuredCenter:scale:]E4$_11vJEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZ80-[WKWebView(WKTestingIOS) _setDeviceOrientationUserPermissionHandlerForTesting:]E4$_47bJEE4callEv
++ __ZN3WTF6Detail15CallableWrapperIZ80-[WKWebView(WKTestingIOS) _setDeviceOrientationUserPermissionHandlerForTesting:]E4$_47bJEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ80-[WKWebView(WKTestingIOS) _setDeviceOrientationUserPermissionHandlerForTesting:]E4$_47bJEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZ83-[WKWebView(WKViewInternalIOS) _scheduleVisibleContentRectUpdateAfterScrollInView:]E4$_19vJEE4callEv
++ __ZN3WTF6Detail15CallableWrapperIZ83-[WKWebView(WKViewInternalIOS) _scheduleVisibleContentRectUpdateAfterScrollInView:]E4$_19vJEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZ83-[WKWebView(WKViewInternalIOS) _scheduleVisibleContentRectUpdateAfterScrollInView:]E4$_19vJEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZZ73-[WKWebView(WKViewInternalIOS) scrollView:handleScrollUpdate:completion:]ENK4$_13clEvEUlP12UIScrollViewE_bJS4_EE4callES4_
++ __ZN3WTF6Detail15CallableWrapperIZZ73-[WKWebView(WKViewInternalIOS) scrollView:handleScrollUpdate:completion:]ENK4$_13clEvEUlP12UIScrollViewE_bJS4_EED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZZ73-[WKWebView(WKViewInternalIOS) scrollView:handleScrollUpdate:completion:]ENK4$_13clEvEUlP12UIScrollViewE_bJS4_EED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZZ97-[WKWebView(WKViewInternalIOS) _firePresentationUpdateForPendingStableStatePresentationCallbacks]ENK4$_22clEvEUlvE_vJEE4callEv
++ __ZN3WTF6Detail15CallableWrapperIZZ97-[WKWebView(WKViewInternalIOS) _firePresentationUpdateForPendingStableStatePresentationCallbacks]ENK4$_22clEvEUlvE_vJEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZZ97-[WKWebView(WKViewInternalIOS) _firePresentationUpdateForPendingStableStatePresentationCallbacks]ENK4$_22clEvEUlvE_vJEED1Ev
++ __ZN3WTF6VectorINSt3__110unique_ptrIN7WebCore15SQLiteStatementENS1_14default_deleteIS4_EEEELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEED2Ev
++ __ZN3WTF7HashMapINS_23ObjectIdentifierGenericIN3IPC10Connection12UniqueIDTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEN6WebKit30SharedPreferencesForWebProcessENS_11DefaultHashIS7_EENS_10HashTraitsIS7_EENSC_IS9_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE6removeENS_24HashTableIteratorAdapterINS_9HashTableIS7_NS_12KeyValuePairIS7_S9_EENS_24KeyValuePairKeyExtractorISM_EESB_NSI_18KeyValuePairTraitsESD_SH_EESM_EE
++ __ZN3WTF7HashMapINS_23ObjectIdentifierGenericIN3IPC10Connection12UniqueIDTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS1_IN6WebKit28StorageAreaMapIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENS_11DefaultHashIS7_EENS_10HashTraitsIS7_EENSF_ISC_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE6removeENS_24HashTableIteratorAdapterINS_9HashTableIS7_NS_12KeyValuePairIS7_SC_EENS_24KeyValuePairKeyExtractorISP_EESE_NSL_18KeyValuePairTraitsESG_SK_EESP_EE
++ __ZN3WTF7HashMapINS_23ObjectIdentifierGenericIN3IPC10Connection12UniqueIDTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS_7HashSetIN7WebCore17RegistrableDomainENS_11DefaultHashISA_EENS_10HashTraitsISA_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1EEENSB_IS7_EENSD_IS7_EENSD_ISH_EESF_LSG_1ENS_10FastMallocEE6removeENS_24HashTableIteratorAdapterINS_9HashTableIS7_NS_12KeyValuePairIS7_SH_EENS_24KeyValuePairKeyExtractorISQ_EESI_NSM_18KeyValuePairTraitsESJ_SL_EESQ_EE
++ __ZN3WTF7HashMapINS_23ObjectIdentifierGenericIN3IPC10Connection12UniqueIDTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS_7HashSetINS_6StringENS_11DefaultHashIS9_EENS_10HashTraitsIS9_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1EEENSA_IS7_EENSC_IS7_EENSC_ISG_EESE_LSF_1ENS_10FastMallocEE6removeENS_24HashTableIteratorAdapterINS_9HashTableIS7_NS_12KeyValuePairIS7_SG_EENS_24KeyValuePairKeyExtractorISP_EESH_NSL_18KeyValuePairTraitsESI_SK_EESP_EE
++ __ZN3WTF7HashMapINS_23ObjectIdentifierGenericIN6WebKit25StorageAreaIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS_7WeakPtrINS2_15StorageAreaBaseENS_18DefaultWeakPtrImplENS_12RawPtrTraitsIS9_EEEENS_11DefaultHashIS6_EENS_10HashTraitsIS6_EENSF_ISC_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE6removeENS_24HashTableIteratorAdapterINS_9HashTableIS6_NS_12KeyValuePairIS6_SC_EENS_24KeyValuePairKeyExtractorISP_EESE_NSL_18KeyValuePairTraitsESG_SK_EESP_EE
++ __ZN3WTF7HashMapINS_23ObjectIdentifierGenericIN7WebCore21ProcessIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENSt3__110unique_ptrIN6WebKit28IDBStorageConnectionToClientENS7_14default_deleteISA_EEEENS_11DefaultHashIS6_EENS_10HashTraitsIS6_EENSG_ISD_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE3addISD_EENS_18HashTableAddResultINS_17HashTableIteratorINS_9HashTableIS6_NS_12KeyValuePairIS6_SD_EENS_24KeyValuePairKeyExtractorISS_EESF_NSM_18KeyValuePairTraitsESH_SL_EES6_SS_SU_SF_SV_SH_EEEERKS6_OT_
++ __ZN3WTF9HashTableIN7WebCore12ClientOriginENS_12KeyValuePairIS2_NSt3__110unique_ptrIN6WebKit20OriginStorageManagerENS4_14default_deleteIS7_EEEEEENS_24KeyValuePairKeyExtractorISB_EENS_11DefaultHashIS2_EENS_7HashMapIS2_SA_SF_NS_10HashTraitsIS2_EENSH_ISA_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESI_SM_E16shrinkToBestSizeEv
++ __ZN3WTF9HashTableIN7WebCore12ClientOriginENS_12KeyValuePairIS2_NSt3__110unique_ptrIN6WebKit20OriginStorageManagerENS4_14default_deleteIS7_EEEEEENS_24KeyValuePairKeyExtractorISB_EENS_11DefaultHashIS2_EENS_7HashMapIS2_SA_SF_NS_10HashTraitsIS2_EENSH_ISA_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESI_SM_E8removeIfIZZNS6_21NetworkStorageManager34stopReceivingMessageFromConnectionERN3IPC10ConnectionEEN3$_0clEvEUlRT_E_EEbRKSW_
++ __ZN3WTF9HashTableINS_23ObjectIdentifierGenericIN3IPC10Connection12UniqueIDTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS_12KeyValuePairIS7_N6WebKit30SharedPreferencesForWebProcessEEENS_24KeyValuePairKeyExtractorISB_EENS_11DefaultHashIS7_EENS_7HashMapIS7_SA_SF_NS_10HashTraitsIS7_EENSH_ISA_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESI_SM_E6removeEPSB_
++ __ZN3WTF9HashTableINS_23ObjectIdentifierGenericIN3IPC10Connection12UniqueIDTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS_12KeyValuePairIS7_NS1_IN6WebKit28StorageAreaMapIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEENS_24KeyValuePairKeyExtractorISE_EENS_11DefaultHashIS7_EENS_7HashMapIS7_SD_SI_NS_10HashTraitsIS7_EENSK_ISD_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESL_SP_E6lookupINS_22IdentityHashTranslatorISR_SI_EELSO_1ES7_EEPSE_RKT1_
++ __ZN3WTF9HashTableINS_23ObjectIdentifierGenericIN3IPC10Connection12UniqueIDTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS_12KeyValuePairIS7_NS_7HashSetIN7WebCore17RegistrableDomainENS_11DefaultHashISB_EENS_10HashTraitsISB_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1EEEEENS_24KeyValuePairKeyExtractorISJ_EENSC_IS7_EENS_7HashMapIS7_SI_SM_NSE_IS7_EENSE_ISI_EESG_LSH_1ENS_10FastMallocEE18KeyValuePairTraitsESO_SQ_E4findINS_22IdentityHashTranslatorISS_SM_EELSH_1ES7_EENS_17HashTableIteratorIST_S7_SJ_SL_SM_SS_SO_EERKT1_
++ __ZN3WTF9HashTableINS_23ObjectIdentifierGenericIN3IPC10Connection12UniqueIDTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS_12KeyValuePairIS7_NS_7HashSetINS_6StringENS_11DefaultHashISA_EENS_10HashTraitsISA_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1EEEEENS_24KeyValuePairKeyExtractorISI_EENSB_IS7_EENS_7HashMapIS7_SH_SL_NSD_IS7_EENSD_ISH_EESF_LSG_1ENS_10FastMallocEE18KeyValuePairTraitsESN_SP_E6lookupINS_22IdentityHashTranslatorISR_SL_EELSG_1ES7_EEPSI_RKT1_
++ __ZN3WTF9HashTableINS_23ObjectIdentifierGenericIN3IPC10Connection12UniqueIDTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS_12KeyValuePairIS7_NS_7HashSetINS_6StringENS_11DefaultHashISA_EENS_10HashTraitsISA_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1EEEEENS_24KeyValuePairKeyExtractorISI_EENSB_IS7_EENS_7HashMapIS7_SH_SL_NSD_IS7_EENSD_ISH_EESF_LSG_1ENS_10FastMallocEE18KeyValuePairTraitsESN_SP_E6removeEPSI_
++ __ZN3WTF9HashTableINS_23ObjectIdentifierGenericIN6WebKit25StorageAreaIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS_12KeyValuePairIS6_NS_7WeakPtrINS2_15StorageAreaBaseENS_18DefaultWeakPtrImplENS_12RawPtrTraitsISA_EEEEEENS_24KeyValuePairKeyExtractorISE_EENS_11DefaultHashIS6_EENS_7HashMapIS6_SD_SI_NS_10HashTraitsIS6_EENSK_ISD_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESL_SP_E6lookupINS_22IdentityHashTranslatorISR_SI_EELSO_1ES6_EEPSE_RKT1_
++ __ZN3WTF9HashTableINS_23ObjectIdentifierGenericIN7WebCore21ProcessIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENS_12KeyValuePairIS6_NSt3__110unique_ptrIN6WebKit28IDBStorageConnectionToClientENS8_14default_deleteISB_EEEEEENS_24KeyValuePairKeyExtractorISF_EENS_11DefaultHashIS6_EENS_7HashMapIS6_SE_SJ_NS_10HashTraitsIS6_EENSL_ISE_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESM_SQ_E5beginEv
++ __ZN3WTF9HashTableINSt3__14pairINS_6RefPtrINS_29ThreadSafeWeakPtrControlBlockENS_12RawPtrTraitsIS4_EENS_43ThreadSafeWeakPtrControlBlockRefDerefTraitsEEEPKN6WebKit15NetworkDataTaskEEESD_NS_17IdentityExtractorENS_11DefaultHashISD_EENS_10HashTraitsISD_EESI_NS_10FastMallocEE20computeBestTableSizeEj
++ __ZN3WTFL17checkHashTableKeyINS_23ObjectIdentifierGenericIN3IPC10Connection12UniqueIDTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS_12KeyValuePairIS7_NS1_IN6WebKit28StorageAreaMapIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEENS_24KeyValuePairKeyExtractorISE_EENS_11DefaultHashIS7_EENS_7HashMapIS7_SD_SI_NS_10HashTraitsIS7_EENSK_ISD_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESL_NS_22IdentityHashTranslatorISR_SI_EELSO_1ES7_EEvRKT7_
++ __ZN3WTFL17checkHashTableKeyINS_23ObjectIdentifierGenericIN6WebKit25StorageAreaIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS_12KeyValuePairIS6_NS_7WeakPtrINS2_15StorageAreaBaseENS_18DefaultWeakPtrImplENS_12RawPtrTraitsISA_EEEEEENS_24KeyValuePairKeyExtractorISE_EENS_11DefaultHashIS6_EENS_7HashMapIS6_SD_SI_NS_10HashTraitsIS6_EENSK_ISD_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESL_NS_22IdentityHashTranslatorISR_SI_EELSO_1ES6_EEvRKT7_
++ __ZN6WebKit12NetworkCache22SpeculativeLoadManagerC1ERNS0_5CacheERNS0_7StorageE
++ __ZN6WebKit16DrawingAreaProxy38hideContentUntilDidUpdateActivityStateEy
++ __ZN6WebKit18IDBStorageRegistry24removeConnectionToClientEN3WTF23ObjectIdentifierGenericIN3IPC10Connection12UniqueIDTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEE
++ __ZN6WebKit19LocalStorageManager16connectionClosedEN3WTF23ObjectIdentifierGenericIN3IPC10Connection12UniqueIDTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEE
++ __ZN6WebKit20OriginStorageManager16connectionClosedEN3WTF23ObjectIdentifierGenericIN3IPC10Connection12UniqueIDTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEE
++ __ZN6WebKit29XPCServiceInitializerDelegate28getClientSDKAlignedBehaviorsERN3WTF6BitSetILm93EjEE
++ __ZN6WebKit31RemoteLayerTreeDrawingAreaProxy38hideContentUntilDidUpdateActivityStateEy
++ __ZN6WebKit9LogClient38WEBPROCESS_DESTROY_RENDERING_RESOURCESEyd
++ __ZN7WebCore7Element26scrollIntoViewIfNotVisibleEbNS_28AllowScrollingOverflowHiddenE
++ __ZN8Messages17WebResourceLoader11DidSendData6encodeIN3IPC7EncoderEEEvRT_
++ __ZN8Messages22RemoteRenderingBackend13CacheGradient6encodeIN3IPC7EncoderEEEvRT_
++ __ZN8Messages25RemoteDisplayListRecorder18FillCompositedRect6encodeIN3IPC7EncoderEEEvRT_
++ __ZN8Messages9LogStream38WEBPROCESS_DESTROY_RENDERING_RESOURCES6encodeIN3IPC23StreamConnectionEncoderEEEvRT_
++ __ZNK7WebCore18DocumentFullscreen21isAnimatingFullscreenEv
++ __ZNSt3__110unique_ptrIN3IPC11MachMessageENS_14default_deleteIS2_EEED1B8sn200100Ev
++ __ZNSt3__110unique_ptrIN3IPC11MachMessageENS_14default_deleteIS2_EEEaSB8sn200100EDn
++ __ZNSt3__110unique_ptrIN3IPC11MachMessageENS_14default_deleteIS2_EEEaSB8sn200100EOS5_
++ __ZNSt3__18exchangeB8sn200100IN3WTF6VectorINS1_17CompletionHandlerIFvbEEELm0ENS1_15CrashOnOverflowELm16ENS1_10FastMallocEEES8_EET_RS9_OT0_
++ __ZNSt3__18optionalIN7WebCore15ResourceRequestEED2Ev
++ __ZTVN3WTF6Detail15CallableWrapperIZ100-[WKWebView(WKViewInternalIOS) _restorePageScrollPosition:scrollOrigin:previousObscuredInset:scale:]E4$_10vJEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZ116-[WKWebView(WKPrivateIOS) _snapshotRectAfterScreenUpdates:rectInViewCoordinates:intoImageOfWidth:completionHandler:]E4$_34vJEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZ116-[WKWebView(WKPrivateIOS) _snapshotRectAfterScreenUpdates:rectInViewCoordinates:intoImageOfWidth:completionHandler:]E4$_35vJP7CGImageEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZ46-[WKWebView(WKViewInternalIOS) _endLiveResize]E4$_23vJEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZ49-[WKWebView(WKViewInternalIOS) _takeViewSnapshot]E4$_12vJNSt3__110unique_ptrIN7WebCore9IOSurfaceENS3_14default_deleteIS6_EEEEEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZ50-[WKWebView(WKPrivateIOS) _addLayerForFindOverlay]E4$_41vJNSt3__18optionalIN7WebCore16ProcessQualifiedINS_23ObjectIdentifierGenericINS5_27PlatformLayerIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEEEEEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZ53-[WKWebView(WKPrivateIOS) _isForcedIntoAppBoundMode:]E4$_40vJbEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZ53-[WKWebView(WKPrivateIOS) _removeLayerForFindOverlay]E4$_42vJEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZ57-[WKWebView(WKPrivateIOS) _isNavigatingToAppBoundDomain:]E4$_39vJbEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZ58-[WKWebView(WKViewInternalIOS) _updateVisibleContentRects]E4$_20vJEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZ64-[WKWebView(WKPrivateIOS) _doAfterNextStablePresentationUpdate:]E4$_29vJEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZ65-[WKWebView(WKViewInternalIOS) _acquireResizeAssertionForReason:]E4$_17vJEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZ66-[WKWebView(WKPrivateIOS) _detectDataWithTypes:completionHandler:]E4$_30vJON6WebKit19DataDetectionResultEEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZ73-[WKWebView(WKViewInternalIOS) scrollView:handleScrollUpdate:completion:]E4$_14vJbEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZ74-[WKWebView(WKViewInternalIOS) _restorePageStateToUnobscuredCenter:scale:]E4$_11vJEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZ80-[WKWebView(WKTestingIOS) _setDeviceOrientationUserPermissionHandlerForTesting:]E4$_47bJEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZ83-[WKWebView(WKViewInternalIOS) _scheduleVisibleContentRectUpdateAfterScrollInView:]E4$_19vJEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZZ73-[WKWebView(WKViewInternalIOS) scrollView:handleScrollUpdate:completion:]ENK4$_13clEvEUlP12UIScrollViewE_bJS4_EEE
++ __ZTVN3WTF6Detail15CallableWrapperIZZ97-[WKWebView(WKViewInternalIOS) _firePresentationUpdateForPendingStableStatePresentationCallbacks]ENK4$_22clEvEUlvE_vJEEE
++ __ZZN3IPC10Connection20initializeSendSourceEvENK3$_1clEv
++ __ZZN3WTF8BlockPtrIFvvEE12fromCallableIZ85-[WKWebView(WKTestingIOS) _doAfterNextVisibleContentRectAndStablePresentationUpdate:]E4$_43EES2_T_E10descriptor
++ __ZZN3WTF8BlockPtrIFvvEE12fromCallableIZ85-[WKWebView(WKTestingIOS) _doAfterNextVisibleContentRectAndStablePresentationUpdate:]E4$_43EES2_T_ENUlPKvE_8__invokeES7_
++ __ZZN3WTF8BlockPtrIFvvEE12fromCallableIZ85-[WKWebView(WKTestingIOS) _doAfterNextVisibleContentRectAndStablePresentationUpdate:]E4$_43EES2_T_ENUlPvE_8__invokeES6_
++ __ZZN6WebKit12NetworkCache5CacheC1ERNS_14NetworkProcessERKN3WTF6StringEONS4_3RefINS0_7StorageENS4_12RawPtrTraitsIS9_EENS4_21DefaultRefDerefTraitsIS9_EEEENS4_9OptionSetINS0_11CacheOptionEEEN3PAL9SessionIDEENK3$_1clEb
++ __ZZN6WebKit21NetworkStorageManager34stopReceivingMessageFromConnectionERN3IPC10ConnectionEEN3$_0clEv
++ __ZZZN6WebKit21NetworkStorageManager34stopReceivingMessageFromConnectionERN3IPC10ConnectionEEN3$_0clEvENKUlRT_E_clIN3WTF12KeyValuePairIN7WebCore12ClientOriginENSt3__110unique_ptrINS_20OriginStorageManagerENSD_14default_deleteISF_EEEEEEEEDaS6_
++ ___104-[WKWebView(WKViewInternalIOS) _didFinishLoadingDataForCustomContentProviderWithSuggestedFilename:data:]_block_invoke
++ ___49-[WKDataListSuggestionsDropdown _showSuggestions]_block_invoke.419
++ ___54-[WKWebGeolocationPolicyDecider _executeNextChallenge]_block_invoke.244
++ ___76-[WKPDFView web_setContentProviderData:suggestedFilename:completionHandler:]_block_invoke
++ ___83-[WKUSDPreviewView web_setContentProviderData:suggestedFilename:completionHandler:]_block_invoke
++ ___83-[WKUSDPreviewView web_setContentProviderData:suggestedFilename:completionHandler:]_block_invoke.65
++ ____ZZ48-[WKWebView(WKViewInternalIOS) _hideFindOverlay]ENK4$_25clEv_block_invoke
++ ___block_descriptor_128_e16_32c87_ZTSKZ74-[WKSelectPicker contextMenuInteraction:willEndForConfiguration:animator:]E3$_4_e5_v8?0l
++ ___block_descriptor_40_e8_32c101_ZTSKZ87-[WKDataListSuggestionsDropdown contextMenuInteraction:configurationForMenuAtLocation:]E4$_10_e25_"UIMenu"16?0"NSArray"8l
++ ___block_descriptor_40_e8_32c103_ZTSKZ89-[WKDataListSuggestionsDropdown contextMenuInteraction:willEndForConfiguration:animator:]E4$_12_e5_v8?0l
++ ___block_descriptor_40_e8_32c107_ZTSKZ93-[WKWebView(WKPrivateIOS) _becomeFirstResponderWithSelectionMovingForward:completionHandler:]E4$_37_e8_v12?0B8l
++ ___block_descriptor_40_e8_32c111_ZTSKZ97-[WKDataListSuggestionsDropdown contextMenuInteraction:willDisplayMenuForConfiguration:animator:]E4$_11_e5_v8?0l
++ ___block_descriptor_40_e8_32c111_ZTSKZ97-[WKWebView(WKViewInternalIOS) _firePresentationUpdateForPendingStableStatePresentationCallbacks]E4$_22_e5_v8?0l
++ ___block_descriptor_40_e8_32c113_ZTSKZ99-[WKWebView(WKPrivateIOS) _accessibilityRetrieveRectsAtSelectionOffset:withText:completionHandler:]E4$_38_e10_v16?0r^v8l
++ ___block_descriptor_40_e8_32c62_ZTSKZ48-[WKWebView(WKViewInternalIOS) _hideFindOverlay]E4$_25_e5_v8?0l
++ ___block_descriptor_40_e8_32c62_ZTSKZ49-[WKDataListSuggestionsDropdown _showSuggestions]E3$_8_e5_v8?0l
++ ___block_descriptor_40_e8_32c66_ZTSKZ52-[WKWebView(WKPrivateIOS) _retainActiveFocusedState]E4$_36_e5_v8?0l
++ ___block_descriptor_40_e8_32c72_ZTSKZZ54-[WKWebGeolocationPolicyDecider _executeNextChallenge]EUb_E3$_5_e23_v16?0"UIAlertAction"8l
++ ___block_descriptor_40_e8_32c72_ZTSKZZ54-[WKWebGeolocationPolicyDecider _executeNextChallenge]EUb_E3$_6_e23_v16?0"UIAlertAction"8l
++ ___block_descriptor_40_e8_32c90_ZTSKZ76-[WKWebView(WKViewInternalIOS) _addUpdateVisibleContentRectPreCommitHandler]E4$_18_e5_v8?0l
++ ___block_descriptor_40_e8_32c92_ZTSKZ78-[WKWebView(WKPrivateIOS) _requestActivatedElementAtPosition:completionBlock:]E4$_31_e5242_v536?0{InteractionInformationAtPosition={InteractionInformationRequest={IntPoint=ii}BBBBBBB}B{optional<bool>=(?=cB)B}CBBBBBBBBBBBBB{Markable<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::MarkableTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>={ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>={ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}}BBBBBB{FloatPoint=ff}{URL={String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}b1b1b1b3b26IIIIIII}{URL={String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}b1b1b1b3b26IIIIIII}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{IntRect={IntPoint=ii}{IntSize=ii}}{RefPtr<WebCore::ShareableBitmap, WTF::RawPtrTraits<WebCore::ShareableBitmap>, WTF::DefaultRefDerefTraits<WebCore::ShareableBitmap>>=^{ShareableBitmap}}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{CursorContext={FloatRect={FloatPoint=ff}{FloatSize=ff}}{optional<WebCore::Cursor>=(?=c{Cursor=C{RefPtr<WebCore::Image, WTF::RawPtrTraits<WebCore::Image>, WTF::DefaultRefDerefTraits<WebCore::Image>>=^{Image}}{IntPoint=ii}^v})B}BB}{RefPtr<WebCore::TextIndicator, WTF::RawPtrTraits<WebCore::TextIndicator>, WTF::DefaultRefDerefTraits<WebCore::TextIndicator>>=^{TextIndicator}}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{RetainPtr<NSArray>=}{IntRect={IntPoint=ii}{IntSize=ii}}{optional<WebCore::ElementContext>=(?=c{ElementContext={FloatRect={FloatPoint=ff}{FloatSize=ff}}{Markable<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>={ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}{Markable<WebCore::ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>={ProcessQualified<WTF::UUID>={UUID=T}{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}}{Markable<WTF::ObjectIdentifierGeneric<WebCore::ElementIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::ElementIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>={ObjectIdentifierGeneric<WebCore::ElementIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}})B}{optional<WebCore::ElementContext>=(?=c{ElementContext={FloatRect={FloatPoint=ff}{FloatSize=ff}}{Markable<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>={ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}{Markable<WebCore::ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>={ProcessQualified<WTF::UUID>={UUID=T}{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}}{Markable<WTF::ObjectIdentifierGeneric<WebCore::ElementIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::ElementIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>={ObjectIdentifierGeneric<WebCore::ElementIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}})B}{Vector<WebCore::ElementAnimationContext, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc>=^{ElementAnimationContext}II}}8l
++ ___block_descriptor_40_e8_32c96_ZTSKZ83-[WKUSDPreviewView web_setContentProviderData:suggestedFilename:completionHandler:]E3$_2_e23_v16?0"UIAlertAction"8l
++ ___block_descriptor_48_e8_32c76_ZTSKZ63-[WKDataListSuggestionsDropdown _updateSuggestionsMenuElements]E3$_9_e18_v16?0"UIAction"8l
++ ___block_descriptor_48_e8_32c89_ZTSKZ76-[WKPDFView web_setContentProviderData:suggestedFilename:completionHandler:]E3$_2_e31_v16?0"PDFHostViewController"8l
++ ___block_descriptor_48_e8_32c91_ZTSKZ77-[WKWebView(WKTestingIOS) _requestTextInputContextsInRect:completionHandler:]E4$_46_e17_v16?0"NSArray"8l
++ ___block_descriptor_48_e8_32c96_ZTSKZ83-[WKUSDPreviewView web_setContentProviderData:suggestedFilename:completionHandler:]E3$_1_e23_v16?0"UIAlertAction"8l
++ ___block_descriptor_80_e8_32c74_ZTSKZ60-[WKWebView(WKViewInternalIOS) _updatePageLoadObserverState]E4$_27_e5_v8?0l
++ ___block_literal_global.238
++ ___block_literal_global.499
++ ___copy_helper_block_e16_32c87_ZTSKZ74-[WKSelectPicker contextMenuInteraction:willEndForConfiguration:animator:]E3$_4
++ ___copy_helper_block_e8_32c101_ZTSKZ87-[WKDataListSuggestionsDropdown contextMenuInteraction:configurationForMenuAtLocation:]E4$_10
++ ___copy_helper_block_e8_32c103_ZTSKZ89-[WKDataListSuggestionsDropdown contextMenuInteraction:willEndForConfiguration:animator:]E4$_12
++ ___copy_helper_block_e8_32c107_ZTSKZ93-[WKWebView(WKPrivateIOS) _becomeFirstResponderWithSelectionMovingForward:completionHandler:]E4$_37
++ ___copy_helper_block_e8_32c111_ZTSKZ97-[WKDataListSuggestionsDropdown contextMenuInteraction:willDisplayMenuForConfiguration:animator:]E4$_11
++ ___copy_helper_block_e8_32c111_ZTSKZ97-[WKWebView(WKViewInternalIOS) _firePresentationUpdateForPendingStableStatePresentationCallbacks]E4$_22
++ ___copy_helper_block_e8_32c113_ZTSKZ99-[WKWebView(WKPrivateIOS) _accessibilityRetrieveRectsAtSelectionOffset:withText:completionHandler:]E4$_38
++ ___copy_helper_block_e8_32c62_ZTSKZ48-[WKWebView(WKViewInternalIOS) _hideFindOverlay]E4$_25
++ ___copy_helper_block_e8_32c62_ZTSKZ49-[WKDataListSuggestionsDropdown _showSuggestions]E3$_8
++ ___copy_helper_block_e8_32c66_ZTSKZ52-[WKWebView(WKPrivateIOS) _retainActiveFocusedState]E4$_36
++ ___copy_helper_block_e8_32c72_ZTSKZZ54-[WKWebGeolocationPolicyDecider _executeNextChallenge]EUb_E3$_5
++ ___copy_helper_block_e8_32c72_ZTSKZZ54-[WKWebGeolocationPolicyDecider _executeNextChallenge]EUb_E3$_6
++ ___copy_helper_block_e8_32c74_ZTSKZ60-[WKWebView(WKViewInternalIOS) _updatePageLoadObserverState]E4$_27
++ ___copy_helper_block_e8_32c76_ZTSKZ63-[WKDataListSuggestionsDropdown _updateSuggestionsMenuElements]E3$_9
++ ___copy_helper_block_e8_32c89_ZTSKZ76-[WKPDFView web_setContentProviderData:suggestedFilename:completionHandler:]E3$_2
++ ___copy_helper_block_e8_32c90_ZTSKZ76-[WKWebView(WKViewInternalIOS) _addUpdateVisibleContentRectPreCommitHandler]E4$_18
++ ___copy_helper_block_e8_32c91_ZTSKZ77-[WKWebView(WKTestingIOS) _requestTextInputContextsInRect:completionHandler:]E4$_46
++ ___copy_helper_block_e8_32c92_ZTSKZ78-[WKWebView(WKPrivateIOS) _requestActivatedElementAtPosition:completionBlock:]E4$_31
++ ___copy_helper_block_e8_32c96_ZTSKZ83-[WKUSDPreviewView web_setContentProviderData:suggestedFilename:completionHandler:]E3$_1
++ ___copy_helper_block_e8_32c96_ZTSKZ83-[WKUSDPreviewView web_setContentProviderData:suggestedFilename:completionHandler:]E3$_2
++ ___destroy_helper_block_e16_32c87_ZTSKZ74-[WKSelectPicker contextMenuInteraction:willEndForConfiguration:animator:]E3$_4
++ ___destroy_helper_block_e8_32c101_ZTSKZ87-[WKDataListSuggestionsDropdown contextMenuInteraction:configurationForMenuAtLocation:]E4$_10
++ ___destroy_helper_block_e8_32c103_ZTSKZ89-[WKDataListSuggestionsDropdown contextMenuInteraction:willEndForConfiguration:animator:]E4$_12
++ ___destroy_helper_block_e8_32c111_ZTSKZ97-[WKDataListSuggestionsDropdown contextMenuInteraction:willDisplayMenuForConfiguration:animator:]E4$_11
++ ___destroy_helper_block_e8_32c111_ZTSKZ97-[WKWebView(WKViewInternalIOS) _firePresentationUpdateForPendingStableStatePresentationCallbacks]E4$_22
++ ___destroy_helper_block_e8_32c113_ZTSKZ99-[WKWebView(WKPrivateIOS) _accessibilityRetrieveRectsAtSelectionOffset:withText:completionHandler:]E4$_38
++ ___destroy_helper_block_e8_32c62_ZTSKZ48-[WKWebView(WKViewInternalIOS) _hideFindOverlay]E4$_25
++ ___destroy_helper_block_e8_32c62_ZTSKZ49-[WKDataListSuggestionsDropdown _showSuggestions]E3$_8
++ ___destroy_helper_block_e8_32c72_ZTSKZZ54-[WKWebGeolocationPolicyDecider _executeNextChallenge]EUb_E3$_5
++ ___destroy_helper_block_e8_32c72_ZTSKZZ54-[WKWebGeolocationPolicyDecider _executeNextChallenge]EUb_E3$_6
++ ___destroy_helper_block_e8_32c74_ZTSKZ60-[WKWebView(WKViewInternalIOS) _updatePageLoadObserverState]E4$_27
++ ___destroy_helper_block_e8_32c76_ZTSKZ63-[WKDataListSuggestionsDropdown _updateSuggestionsMenuElements]E3$_9
++ ___destroy_helper_block_e8_32c89_ZTSKZ76-[WKPDFView web_setContentProviderData:suggestedFilename:completionHandler:]E3$_2
++ ___destroy_helper_block_e8_32c90_ZTSKZ76-[WKWebView(WKViewInternalIOS) _addUpdateVisibleContentRectPreCommitHandler]E4$_18
++ ___destroy_helper_block_e8_32c91_ZTSKZ77-[WKWebView(WKTestingIOS) _requestTextInputContextsInRect:completionHandler:]E4$_46
++ ___destroy_helper_block_e8_32c92_ZTSKZ78-[WKWebView(WKPrivateIOS) _requestActivatedElementAtPosition:completionBlock:]E4$_31
++ ___destroy_helper_block_e8_32c96_ZTSKZ83-[WKUSDPreviewView web_setContentProviderData:suggestedFilename:completionHandler:]E3$_1
++ ___destroy_helper_block_e8_32c96_ZTSKZ83-[WKUSDPreviewView web_setContentProviderData:suggestedFilename:completionHandler:]E3$_2
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
++ _objc_msgSend$web_setContentProviderData:suggestedFilename:completionHandler:
+- -[WKPDFView web_setContentProviderData:suggestedFilename:]
+- -[WKUSDPreviewView web_setContentProviderData:suggestedFilename:]
+- GCC_except_table1014
+- GCC_except_table1034
+- GCC_except_table1036
+- GCC_except_table1041
+- GCC_except_table1044
+- GCC_except_table1047
+- GCC_except_table1063
+- GCC_except_table1076
+- GCC_except_table1109
+- GCC_except_table1113
+- GCC_except_table1118
+- GCC_except_table1124
+- GCC_except_table1129
+- GCC_except_table1135
+- GCC_except_table1139
+- GCC_except_table1152
+- GCC_except_table1162
+- GCC_except_table1169
+- GCC_except_table1194
+- GCC_except_table1205
+- GCC_except_table1214
+- GCC_except_table1216
+- GCC_except_table1232
+- GCC_except_table1239
+- GCC_except_table1245
+- GCC_except_table1250
+- GCC_except_table1258
+- GCC_except_table1260
+- GCC_except_table1263
+- GCC_except_table1270
+- GCC_except_table1286
+- GCC_except_table1289
+- GCC_except_table1291
+- GCC_except_table1294
+- GCC_except_table1297
+- GCC_except_table1302
+- GCC_except_table1312
+- GCC_except_table1314
+- GCC_except_table1322
+- GCC_except_table1341
+- GCC_except_table1351
+- GCC_except_table1373
+- GCC_except_table1376
+- GCC_except_table1380
+- GCC_except_table1384
+- GCC_except_table1389
+- GCC_except_table1395
+- GCC_except_table1398
+- GCC_except_table1400
+- GCC_except_table1411
+- GCC_except_table1417
+- GCC_except_table1611
+- GCC_except_table1616
+- GCC_except_table1619
+- GCC_except_table1630
+- GCC_except_table1632
+- GCC_except_table1635
+- GCC_except_table1637
+- GCC_except_table1642
+- GCC_except_table1645
+- GCC_except_table1649
+- GCC_except_table1654
+- GCC_except_table1661
+- GCC_except_table1686
+- GCC_except_table1694
+- GCC_except_table1716
+- GCC_except_table1718
+- GCC_except_table1723
+- GCC_except_table1731
+- GCC_except_table1736
+- GCC_except_table1741
+- GCC_except_table1744
+- GCC_except_table1747
+- GCC_except_table1749
+- GCC_except_table1751
+- GCC_except_table1757
+- GCC_except_table1764
+- GCC_except_table1766
+- GCC_except_table1768
+- GCC_except_table1770
+- GCC_except_table1773
+- GCC_except_table1777
+- GCC_except_table1783
+- GCC_except_table1785
+- GCC_except_table1789
+- GCC_except_table1791
+- GCC_except_table1795
+- GCC_except_table1799
+- GCC_except_table1805
+- GCC_except_table1807
+- GCC_except_table1811
+- GCC_except_table1813
+- GCC_except_table1815
+- GCC_except_table1824
+- GCC_except_table1831
+- GCC_except_table1836
+- GCC_except_table1838
+- GCC_except_table1841
+- GCC_except_table1846
+- GCC_except_table1850
+- GCC_except_table1856
+- GCC_except_table1859
+- GCC_except_table1862
+- GCC_except_table1864
+- GCC_except_table1866
+- GCC_except_table1868
+- GCC_except_table1873
+- GCC_except_table1878
+- GCC_except_table1885
+- GCC_except_table1887
+- GCC_except_table1890
+- GCC_except_table1894
+- GCC_except_table1897
+- GCC_except_table1907
+- GCC_except_table1911
+- GCC_except_table1914
+- GCC_except_table1917
+- GCC_except_table1920
+- GCC_except_table1926
+- GCC_except_table1929
+- GCC_except_table1933
+- GCC_except_table1939
+- GCC_except_table1947
+- GCC_except_table1950
+- GCC_except_table1953
+- GCC_except_table1962
+- GCC_except_table1967
+- GCC_except_table1971
+- GCC_except_table1977
+- GCC_except_table1980
+- GCC_except_table1985
+- GCC_except_table1998
+- GCC_except_table2004
+- GCC_except_table2010
+- GCC_except_table2014
+- GCC_except_table2018
+- GCC_except_table2024
+- GCC_except_table2029
+- GCC_except_table2032
+- GCC_except_table2035
+- GCC_except_table2038
+- GCC_except_table2042
+- GCC_except_table2082
+- GCC_except_table2092
+- GCC_except_table2101
+- GCC_except_table2109
+- GCC_except_table2112
+- GCC_except_table2119
+- GCC_except_table2123
+- GCC_except_table2126
+- GCC_except_table2133
+- GCC_except_table2134
+- GCC_except_table2143
+- GCC_except_table2149
+- GCC_except_table2153
+- GCC_except_table2400
+- GCC_except_table2407
+- GCC_except_table2410
+- GCC_except_table2411
+- GCC_except_table2419
+- GCC_except_table2425
+- GCC_except_table2426
+- GCC_except_table2434
+- GCC_except_table2437
+- GCC_except_table2447
+- GCC_except_table2453
+- GCC_except_table2493
+- GCC_except_table2497
+- GCC_except_table2498
+- GCC_except_table2506
+- GCC_except_table2510
+- GCC_except_table2514
+- GCC_except_table2519
+- GCC_except_table2525
+- GCC_except_table2526
+- GCC_except_table2529
+- GCC_except_table2534
+- GCC_except_table2541
+- GCC_except_table2542
+- GCC_except_table2551
+- GCC_except_table2554
+- GCC_except_table2555
+- GCC_except_table2562
+- GCC_except_table2573
+- GCC_except_table2577
+- GCC_except_table2581
+- GCC_except_table2582
+- GCC_except_table2591
+- GCC_except_table2594
+- GCC_except_table2595
+- GCC_except_table2601
+- GCC_except_table2606
+- GCC_except_table2617
+- GCC_except_table2628
+- GCC_except_table2629
+- GCC_except_table2636
+- GCC_except_table2637
+- GCC_except_table2641
+- GCC_except_table2642
+- GCC_except_table2650
+- GCC_except_table2657
+- GCC_except_table2660
+- GCC_except_table2689
+- GCC_except_table2692
+- GCC_except_table2702
+- GCC_except_table2707
+- GCC_except_table2713
+- GCC_except_table2718
+- GCC_except_table2723
+- GCC_except_table2728
+- GCC_except_table2729
+- GCC_except_table2732
+- GCC_except_table2733
+- GCC_except_table2738
+- GCC_except_table2743
+- GCC_except_table2751
+- GCC_except_table2752
+- GCC_except_table2772
+- GCC_except_table2776
+- GCC_except_table2782
+- GCC_except_table2786
+- GCC_except_table2789
+- GCC_except_table2793
+- GCC_except_table2809
+- GCC_except_table2812
+- GCC_except_table2815
+- GCC_except_table2822
+- GCC_except_table2882
+- GCC_except_table2883
+- GCC_except_table2888
+- GCC_except_table2898
+- GCC_except_table2901
+- GCC_except_table2906
+- GCC_except_table2921
+- GCC_except_table2935
+- GCC_except_table2938
+- GCC_except_table2942
+- GCC_except_table2945
+- GCC_except_table2956
+- GCC_except_table2957
+- GCC_except_table2967
+- GCC_except_table2972
+- GCC_except_table2973
+- GCC_except_table2977
+- GCC_except_table2982
+- GCC_except_table2985
+- GCC_except_table2990
+- GCC_except_table3007
+- GCC_except_table3013
+- GCC_except_table3039
+- GCC_except_table3040
+- GCC_except_table3043
+- GCC_except_table3047
+- GCC_except_table3060
+- GCC_except_table3066
+- GCC_except_table3069
+- GCC_except_table3072
+- GCC_except_table3075
+- GCC_except_table3080
+- GCC_except_table3081
+- GCC_except_table3086
+- GCC_except_table3087
+- GCC_except_table3098
+- GCC_except_table3103
+- GCC_except_table3119
+- GCC_except_table3123
+- GCC_except_table3134
+- GCC_except_table3137
+- GCC_except_table3148
+- GCC_except_table3156
+- GCC_except_table3160
+- GCC_except_table3161
+- GCC_except_table3164
+- GCC_except_table3167
+- GCC_except_table3168
+- GCC_except_table3172
+- GCC_except_table3178
+- GCC_except_table3179
+- GCC_except_table3185
+- GCC_except_table3186
+- GCC_except_table3194
+- GCC_except_table3197
+- GCC_except_table3237
+- GCC_except_table3260
+- GCC_except_table3261
+- GCC_except_table3297
+- GCC_except_table3316
+- GCC_except_table3320
+- GCC_except_table3326
+- GCC_except_table3339
+- GCC_except_table3348
+- GCC_except_table3357
+- GCC_except_table3361
+- GCC_except_table3364
+- GCC_except_table3367
+- GCC_except_table3369
+- GCC_except_table3371
+- GCC_except_table3404
+- GCC_except_table3418
+- GCC_except_table3426
+- GCC_except_table3428
+- GCC_except_table3444
+- GCC_except_table3448
+- GCC_except_table3457
+- GCC_except_table3472
+- GCC_except_table3491
+- GCC_except_table3496
+- GCC_except_table3508
+- GCC_except_table3513
+- GCC_except_table3518
+- GCC_except_table3527
+- GCC_except_table3539
+- GCC_except_table3544
+- GCC_except_table3549
+- GCC_except_table3563
+- GCC_except_table3572
+- GCC_except_table3578
+- GCC_except_table3598
+- GCC_except_table360
+- GCC_except_table3604
+- GCC_except_table3624
+- GCC_except_table363
+- GCC_except_table3634
+- GCC_except_table3636
+- GCC_except_table3653
+- GCC_except_table3667
+- GCC_except_table3686
+- GCC_except_table3689
+- GCC_except_table3706
+- GCC_except_table3723
+- GCC_except_table3737
+- GCC_except_table3745
+- GCC_except_table375
+- GCC_except_table3753
+- GCC_except_table3760
+- GCC_except_table3763
+- GCC_except_table3766
+- GCC_except_table3784
+- GCC_except_table3793
+- GCC_except_table3813
+- GCC_except_table3832
+- GCC_except_table3835
+- GCC_except_table3845
+- GCC_except_table3850
+- GCC_except_table3879
+- GCC_except_table3882
+- GCC_except_table3885
+- GCC_except_table3887
+- GCC_except_table3899
+- GCC_except_table3909
+- GCC_except_table3912
+- GCC_except_table3923
+- GCC_except_table3936
+- GCC_except_table3950
+- GCC_except_table3957
+- GCC_except_table3961
+- GCC_except_table3963
+- GCC_except_table3967
+- GCC_except_table3970
+- GCC_except_table3976
+- GCC_except_table3985
+- GCC_except_table3995
+- GCC_except_table4004
+- GCC_except_table4013
+- GCC_except_table4027
+- GCC_except_table4052
+- GCC_except_table4064
+- GCC_except_table4067
+- GCC_except_table4069
+- GCC_except_table4080
+- GCC_except_table4108
+- GCC_except_table4115
+- GCC_except_table4121
+- GCC_except_table4133
+- GCC_except_table4136
+- GCC_except_table4142
+- GCC_except_table4154
+- GCC_except_table4163
+- GCC_except_table4167
+- GCC_except_table4174
+- GCC_except_table4178
+- GCC_except_table4185
+- GCC_except_table4189
+- GCC_except_table4206
+- GCC_except_table4212
+- GCC_except_table4228
+- GCC_except_table4233
+- GCC_except_table4234
+- GCC_except_table4259
+- GCC_except_table4260
+- GCC_except_table4265
+- GCC_except_table4273
+- GCC_except_table4280
+- GCC_except_table4291
+- GCC_except_table4298
+- GCC_except_table4303
+- GCC_except_table4306
+- GCC_except_table4312
+- GCC_except_table4313
+- GCC_except_table4324
+- GCC_except_table4325
+- GCC_except_table4329
+- GCC_except_table4336
+- GCC_except_table4343
+- GCC_except_table4344
+- GCC_except_table4356
+- GCC_except_table4357
+- GCC_except_table4372
+- GCC_except_table4373
+- GCC_except_table4376
+- GCC_except_table4404
+- GCC_except_table4407
+- GCC_except_table4408
+- GCC_except_table441
+- GCC_except_table4426
+- GCC_except_table4429
+- GCC_except_table4446
+- GCC_except_table446
+- GCC_except_table4461
+- GCC_except_table4468
+- GCC_except_table4469
+- GCC_except_table4479
+- GCC_except_table4489
+- GCC_except_table4490
+- GCC_except_table4495
+- GCC_except_table4504
+- GCC_except_table4507
+- GCC_except_table451
+- GCC_except_table4517
+- GCC_except_table4528
+- GCC_except_table4535
+- GCC_except_table4549
+- GCC_except_table4550
+- GCC_except_table4554
+- GCC_except_table4558
+- GCC_except_table4592
+- GCC_except_table4611
+- GCC_except_table4614
+- GCC_except_table4620
+- GCC_except_table4631
+- GCC_except_table4653
+- GCC_except_table4667
+- GCC_except_table4676
+- GCC_except_table4683
+- GCC_except_table4684
+- GCC_except_table4698
+- GCC_except_table4703
+- GCC_except_table4707
+- GCC_except_table4711
+- GCC_except_table4717
+- GCC_except_table4718
+- GCC_except_table4737
+- GCC_except_table4744
+- GCC_except_table4746
+- GCC_except_table4753
+- GCC_except_table4757
+- GCC_except_table4761
+- GCC_except_table4765
+- GCC_except_table4775
+- GCC_except_table4779
+- GCC_except_table4786
+- GCC_except_table4788
+- GCC_except_table4796
+- GCC_except_table4800
+- GCC_except_table4814
+- GCC_except_table4824
+- GCC_except_table4827
+- GCC_except_table4838
+- GCC_except_table4843
+- GCC_except_table4848
+- GCC_except_table485
+- GCC_except_table4861
+- GCC_except_table4865
+- GCC_except_table4877
+- GCC_except_table4883
+- GCC_except_table4891
+- GCC_except_table4895
+- GCC_except_table4899
+- GCC_except_table4908
+- GCC_except_table4919
+- GCC_except_table4926
+- GCC_except_table4941
+- GCC_except_table4953
+- GCC_except_table4961
+- GCC_except_table4968
+- GCC_except_table4976
+- GCC_except_table4981
+- GCC_except_table4992
+- GCC_except_table5000
+- GCC_except_table5012
+- GCC_except_table5018
+- GCC_except_table5021
+- GCC_except_table5024
+- GCC_except_table5035
+- GCC_except_table5044
+- GCC_except_table5047
+- GCC_except_table5053
+- GCC_except_table5058
+- GCC_except_table5060
+- GCC_except_table5062
+- GCC_except_table5068
+- GCC_except_table5072
+- GCC_except_table5076
+- GCC_except_table5085
+- GCC_except_table509
+- GCC_except_table5092
+- GCC_except_table5102
+- GCC_except_table5109
+- GCC_except_table5117
+- GCC_except_table5128
+- GCC_except_table5139
+- GCC_except_table5142
+- GCC_except_table5167
+- GCC_except_table5202
+- GCC_except_table5210
+- GCC_except_table5212
+- GCC_except_table5222
+- GCC_except_table5231
+- GCC_except_table5234
+- GCC_except_table5245
+- GCC_except_table5250
+- GCC_except_table5252
+- GCC_except_table5254
+- GCC_except_table5261
+- GCC_except_table5264
+- GCC_except_table5288
+- GCC_except_table5291
+- GCC_except_table5295
+- GCC_except_table5297
+- GCC_except_table5300
+- GCC_except_table5302
+- GCC_except_table5305
+- GCC_except_table5316
+- GCC_except_table5318
+- GCC_except_table5321
+- GCC_except_table5327
+- GCC_except_table5332
+- GCC_except_table5338
+- GCC_except_table5342
+- GCC_except_table5344
+- GCC_except_table5346
+- GCC_except_table535
+- GCC_except_table5353
+- GCC_except_table5371
+- GCC_except_table5376
+- GCC_except_table539
+- GCC_except_table5392
+- GCC_except_table5400
+- GCC_except_table5406
+- GCC_except_table5416
+- GCC_except_table5443
+- GCC_except_table5453
+- GCC_except_table5460
+- GCC_except_table5477
+- GCC_except_table5492
+- GCC_except_table5516
+- GCC_except_table5537
+- GCC_except_table5562
+- GCC_except_table5600
+- GCC_except_table5607
+- GCC_except_table5616
+- GCC_except_table5618
+- GCC_except_table563
+- GCC_except_table5637
+- GCC_except_table5639
+- GCC_except_table5641
+- GCC_except_table5651
+- GCC_except_table567
+- GCC_except_table584
+- GCC_except_table589
+- GCC_except_table596
+- GCC_except_table606
+- GCC_except_table608
+- GCC_except_table627
+- GCC_except_table653
+- GCC_except_table656
+- GCC_except_table658
+- GCC_except_table666
+- GCC_except_table669
+- GCC_except_table674
+- GCC_except_table680
+- GCC_except_table682
+- GCC_except_table687
+- GCC_except_table689
+- GCC_except_table704
+- GCC_except_table712
+- GCC_except_table714
+- GCC_except_table738
+- GCC_except_table750
+- GCC_except_table799
+- GCC_except_table811
+- GCC_except_table839
+- GCC_except_table854
+- GCC_except_table858
+- GCC_except_table861
+- GCC_except_table863
+- GCC_except_table874
+- GCC_except_table878
+- GCC_except_table896
+- GCC_except_table959
+- GCC_except_table962
+- GCC_except_table967
+- GCC_except_table997
+- __MergedGlobals.106
+- __MergedGlobals.1163
+- __MergedGlobals.1164
+- __MergedGlobals.175
+- __MergedGlobals.183
+- __MergedGlobals.246
+- __MergedGlobals.247
+- __MergedGlobals.269
+- __MergedGlobals.294
+- __MergedGlobals.305
+- __MergedGlobals.306
+- __MergedGlobals.924
+- __MergedGlobals.925
+- __ZGVZN6WebKitL29webExtensionControllerProxiesEvE11controllers
+- __ZN3IPC10Connection16dispatchToClientIZNS0_29dispatchDidCloseAndInvalidateEvE3$_0EEvOT_
+- __ZN3IPC10Connection40dispatchToClientWithIncomingMessagesLockIZNS0_29dispatchDidCloseAndInvalidateEvE3$_0EEvOT_
+- __ZN3IPC10Connection4sendIN8Messages25RemoteDisplayListRecorder13FillClosedArcEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionEEENSt3__18optionalINS8_6Thread3QOSEEE
+- __ZN3IPC10Connection4sendIN8Messages25RemoteDisplayListRecorder15DrawImageBufferEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionEEENSt3__18optionalINS8_6Thread3QOSEEE
+- __ZN3IPC10Connection4sendIN8Messages25RemoteDisplayListRecorder15DrawNativeImageEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionEEENSt3__18optionalINS8_6Thread3QOSEEE
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore31RenderingResourceIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEvE6decodeERNS_7DecoderE
+- __ZN3IPC13ArgumentCoderIN6WebKit13CoreIPCNumber12UnsignedLongEvE6encodeERNS_7EncoderERKS3_
+- __ZN3IPC13ArgumentCoderIN6WebKit8IPCRangeEvE6encodeERNS_7EncoderERKS2_
+- __ZN3IPC13ArgumentCoderIN7WebCore15ColorDataForIPCEvE6encodeERNS_23StreamConnectionEncoderERKS2_
+- __ZN3IPC13ArgumentCoderIN7WebCore17ImageBufferFormatEvE6encodeERNS_7EncoderERKS2_
+- __ZN3IPC19VectorArgumentCoderILb0EN7WebCore6Region4SpanELm16EN3WTF15CrashOnOverflowELm16EE6encodeINS_7EncoderERKNS4_6VectorIS3_Lm16ES5_Lm16ENS4_10FastMallocEEEEEvRT_OT0_
+- __ZN3IPC7Encoder12encodeObjectIfEEvRKT_
+- __ZN3IPC7EncoderlsIRyEERS0_OT_
+- __ZN3IPC7EncoderlsIyEERS0_OT_
+- __ZN3WTF22setSDKAlignedBehaviorsENS_6BitSetILm92EjEE
+- __ZN3WTF6Detail15CallableWrapperIZ100-[WKWebView(WKViewInternalIOS) _restorePageScrollPosition:scrollOrigin:previousObscuredInset:scale:]E3$_9vJEE4callEv
+- __ZN3WTF6Detail15CallableWrapperIZ100-[WKWebView(WKViewInternalIOS) _restorePageScrollPosition:scrollOrigin:previousObscuredInset:scale:]E3$_9vJEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ100-[WKWebView(WKViewInternalIOS) _restorePageScrollPosition:scrollOrigin:previousObscuredInset:scale:]E3$_9vJEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZ116-[WKWebView(WKPrivateIOS) _snapshotRectAfterScreenUpdates:rectInViewCoordinates:intoImageOfWidth:completionHandler:]E4$_33vJEE4callEv
+- __ZN3WTF6Detail15CallableWrapperIZ116-[WKWebView(WKPrivateIOS) _snapshotRectAfterScreenUpdates:rectInViewCoordinates:intoImageOfWidth:completionHandler:]E4$_33vJEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ116-[WKWebView(WKPrivateIOS) _snapshotRectAfterScreenUpdates:rectInViewCoordinates:intoImageOfWidth:completionHandler:]E4$_33vJEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZ116-[WKWebView(WKPrivateIOS) _snapshotRectAfterScreenUpdates:rectInViewCoordinates:intoImageOfWidth:completionHandler:]E4$_34vJP7CGImageEE4callES4_
+- __ZN3WTF6Detail15CallableWrapperIZ116-[WKWebView(WKPrivateIOS) _snapshotRectAfterScreenUpdates:rectInViewCoordinates:intoImageOfWidth:completionHandler:]E4$_34vJP7CGImageEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ116-[WKWebView(WKPrivateIOS) _snapshotRectAfterScreenUpdates:rectInViewCoordinates:intoImageOfWidth:completionHandler:]E4$_34vJP7CGImageEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZ46-[WKWebView(WKViewInternalIOS) _endLiveResize]E4$_22vJEE4callEv
+- __ZN3WTF6Detail15CallableWrapperIZ46-[WKWebView(WKViewInternalIOS) _endLiveResize]E4$_22vJEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ46-[WKWebView(WKViewInternalIOS) _endLiveResize]E4$_22vJEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZ49-[WKWebView(WKViewInternalIOS) _takeViewSnapshot]E4$_11vJNSt3__110unique_ptrIN7WebCore9IOSurfaceENS3_14default_deleteIS6_EEEEEE4callES9_
+- __ZN3WTF6Detail15CallableWrapperIZ49-[WKWebView(WKViewInternalIOS) _takeViewSnapshot]E4$_11vJNSt3__110unique_ptrIN7WebCore9IOSurfaceENS3_14default_deleteIS6_EEEEEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ49-[WKWebView(WKViewInternalIOS) _takeViewSnapshot]E4$_11vJNSt3__110unique_ptrIN7WebCore9IOSurfaceENS3_14default_deleteIS6_EEEEEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZ50-[WKWebView(WKPrivateIOS) _addLayerForFindOverlay]E4$_40vJNSt3__18optionalIN7WebCore16ProcessQualifiedINS_23ObjectIdentifierGenericINS5_27PlatformLayerIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEEEEEE4callESD_
+- __ZN3WTF6Detail15CallableWrapperIZ50-[WKWebView(WKPrivateIOS) _addLayerForFindOverlay]E4$_40vJNSt3__18optionalIN7WebCore16ProcessQualifiedINS_23ObjectIdentifierGenericINS5_27PlatformLayerIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEEEEEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ50-[WKWebView(WKPrivateIOS) _addLayerForFindOverlay]E4$_40vJNSt3__18optionalIN7WebCore16ProcessQualifiedINS_23ObjectIdentifierGenericINS5_27PlatformLayerIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEEEEEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZ53-[WKWebView(WKPrivateIOS) _isForcedIntoAppBoundMode:]E4$_39vJbEE4callEb
+- __ZN3WTF6Detail15CallableWrapperIZ53-[WKWebView(WKPrivateIOS) _isForcedIntoAppBoundMode:]E4$_39vJbEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ53-[WKWebView(WKPrivateIOS) _isForcedIntoAppBoundMode:]E4$_39vJbEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZ53-[WKWebView(WKPrivateIOS) _removeLayerForFindOverlay]E4$_41vJEE4callEv
+- __ZN3WTF6Detail15CallableWrapperIZ53-[WKWebView(WKPrivateIOS) _removeLayerForFindOverlay]E4$_41vJEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ53-[WKWebView(WKPrivateIOS) _removeLayerForFindOverlay]E4$_41vJEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZ57-[WKWebView(WKPrivateIOS) _isNavigatingToAppBoundDomain:]E4$_38vJbEE4callEb
+- __ZN3WTF6Detail15CallableWrapperIZ57-[WKWebView(WKPrivateIOS) _isNavigatingToAppBoundDomain:]E4$_38vJbEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ57-[WKWebView(WKPrivateIOS) _isNavigatingToAppBoundDomain:]E4$_38vJbEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZ58-[WKWebView(WKViewInternalIOS) _updateVisibleContentRects]E4$_19vJEE4callEv
+- __ZN3WTF6Detail15CallableWrapperIZ58-[WKWebView(WKViewInternalIOS) _updateVisibleContentRects]E4$_19vJEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ58-[WKWebView(WKViewInternalIOS) _updateVisibleContentRects]E4$_19vJEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZ64-[WKWebView(WKPrivateIOS) _doAfterNextStablePresentationUpdate:]E4$_28vJEE4callEv
+- __ZN3WTF6Detail15CallableWrapperIZ64-[WKWebView(WKPrivateIOS) _doAfterNextStablePresentationUpdate:]E4$_28vJEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ64-[WKWebView(WKPrivateIOS) _doAfterNextStablePresentationUpdate:]E4$_28vJEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZ65-[WKWebView(WKViewInternalIOS) _acquireResizeAssertionForReason:]E4$_16vJEE4callEv
+- __ZN3WTF6Detail15CallableWrapperIZ65-[WKWebView(WKViewInternalIOS) _acquireResizeAssertionForReason:]E4$_16vJEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ65-[WKWebView(WKViewInternalIOS) _acquireResizeAssertionForReason:]E4$_16vJEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZ66-[WKWebView(WKPrivateIOS) _detectDataWithTypes:completionHandler:]E4$_29vJON6WebKit19DataDetectionResultEEE4callES5_
+- __ZN3WTF6Detail15CallableWrapperIZ66-[WKWebView(WKPrivateIOS) _detectDataWithTypes:completionHandler:]E4$_29vJON6WebKit19DataDetectionResultEEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ66-[WKWebView(WKPrivateIOS) _detectDataWithTypes:completionHandler:]E4$_29vJON6WebKit19DataDetectionResultEEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZ73-[WKWebView(WKViewInternalIOS) scrollView:handleScrollUpdate:completion:]E4$_13vJbEE4callEb
+- __ZN3WTF6Detail15CallableWrapperIZ73-[WKWebView(WKViewInternalIOS) scrollView:handleScrollUpdate:completion:]E4$_13vJbEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ73-[WKWebView(WKViewInternalIOS) scrollView:handleScrollUpdate:completion:]E4$_13vJbEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZ74-[WKWebView(WKViewInternalIOS) _restorePageStateToUnobscuredCenter:scale:]E4$_10vJEE4callEv
+- __ZN3WTF6Detail15CallableWrapperIZ74-[WKWebView(WKViewInternalIOS) _restorePageStateToUnobscuredCenter:scale:]E4$_10vJEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ74-[WKWebView(WKViewInternalIOS) _restorePageStateToUnobscuredCenter:scale:]E4$_10vJEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZ80-[WKWebView(WKTestingIOS) _setDeviceOrientationUserPermissionHandlerForTesting:]E4$_46bJEE4callEv
+- __ZN3WTF6Detail15CallableWrapperIZ80-[WKWebView(WKTestingIOS) _setDeviceOrientationUserPermissionHandlerForTesting:]E4$_46bJEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ80-[WKWebView(WKTestingIOS) _setDeviceOrientationUserPermissionHandlerForTesting:]E4$_46bJEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZ83-[WKWebView(WKViewInternalIOS) _scheduleVisibleContentRectUpdateAfterScrollInView:]E4$_18vJEE4callEv
+- __ZN3WTF6Detail15CallableWrapperIZ83-[WKWebView(WKViewInternalIOS) _scheduleVisibleContentRectUpdateAfterScrollInView:]E4$_18vJEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZ83-[WKWebView(WKViewInternalIOS) _scheduleVisibleContentRectUpdateAfterScrollInView:]E4$_18vJEED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZZ73-[WKWebView(WKViewInternalIOS) scrollView:handleScrollUpdate:completion:]ENK4$_12clEvEUlP12UIScrollViewE_bJS4_EE4callES4_
+- __ZN3WTF6Detail15CallableWrapperIZZ73-[WKWebView(WKViewInternalIOS) scrollView:handleScrollUpdate:completion:]ENK4$_12clEvEUlP12UIScrollViewE_bJS4_EED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZZ73-[WKWebView(WKViewInternalIOS) scrollView:handleScrollUpdate:completion:]ENK4$_12clEvEUlP12UIScrollViewE_bJS4_EED1Ev
+- __ZN3WTF6Detail15CallableWrapperIZZ97-[WKWebView(WKViewInternalIOS) _firePresentationUpdateForPendingStableStatePresentationCallbacks]ENK4$_21clEvEUlvE_vJEE4callEv
+- __ZN3WTF6Detail15CallableWrapperIZZ97-[WKWebView(WKViewInternalIOS) _firePresentationUpdateForPendingStableStatePresentationCallbacks]ENK4$_21clEvEUlvE_vJEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZZ97-[WKWebView(WKViewInternalIOS) _firePresentationUpdateForPendingStableStatePresentationCallbacks]ENK4$_21clEvEUlvE_vJEED1Ev
+- __ZN3WTF6VectorINS_17CompletionHandlerIFvbEEELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEEaSEOS6_
+- __ZN3WTF9HashTableINS_23ObjectIdentifierGenericIN6WebKit25StorageAreaIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS_12KeyValuePairIS6_NS_3RefINS2_17MemoryStorageAreaENS_12RawPtrTraitsIS9_EENS_21DefaultRefDerefTraitsIS9_EEEEEENS_24KeyValuePairKeyExtractorISF_EENS_11DefaultHashIS6_EENS_7HashMapIS6_SE_SJ_NS_10HashTraitsIS6_EENSL_ISE_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESM_SQ_E5beginEv
+- __ZN6WebKit27RemoteRenderingBackendProxy4sendIN8Messages22RemoteRenderingBackend13CacheGradientENS_30RenderingBackendIdentifierTypeEN3WTF38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEDaOT_NS6_23ObjectIdentifierGenericIT0_T1_T2_EE
+- __ZN6WebKit27ScriptTrackingPrivacyFilterC1EONS_26ScriptTrackingPrivacyRulesE
+- __ZN6WebKit29XPCServiceInitializerDelegate28getClientSDKAlignedBehaviorsERN3WTF6BitSetILm92EjEE
+- __ZN7WebCore7Element26scrollIntoViewIfNotVisibleEb
+- __ZN7WebCoreeqERKNS_12ClientOriginES2_
+- __ZN8Messages10WebProcess23BacklightLevelDidChange6encodeIN3IPC7EncoderEEEvRT_
+- __ZN8Messages22RemoteRenderingBackend17CreateImageBuffer6encodeIN3IPC7EncoderEEEvRT_
+- __ZN8Messages25RemoteDisplayListRecorder15DrawImageBuffer6encodeIN3IPC7EncoderEEEvRT_
+- __ZN8Messages25RemoteDisplayListRecorder15DrawNativeImage6encodeIN3IPC7EncoderEEEvRT_
+- __ZN8Messages25RemoteDisplayListRecorder15SetFillGradient6encodeIN3IPC7EncoderEEEvRT_
+- __ZNSt3__110unique_ptrIN3IPC7EncoderENS_14default_deleteIS2_EEED2B8sn200100Ev
+- __ZTVN3WTF6Detail15CallableWrapperIZ100-[WKWebView(WKViewInternalIOS) _restorePageScrollPosition:scrollOrigin:previousObscuredInset:scale:]E3$_9vJEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZ116-[WKWebView(WKPrivateIOS) _snapshotRectAfterScreenUpdates:rectInViewCoordinates:intoImageOfWidth:completionHandler:]E4$_33vJEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZ116-[WKWebView(WKPrivateIOS) _snapshotRectAfterScreenUpdates:rectInViewCoordinates:intoImageOfWidth:completionHandler:]E4$_34vJP7CGImageEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZ46-[WKWebView(WKViewInternalIOS) _endLiveResize]E4$_22vJEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZ49-[WKWebView(WKViewInternalIOS) _takeViewSnapshot]E4$_11vJNSt3__110unique_ptrIN7WebCore9IOSurfaceENS3_14default_deleteIS6_EEEEEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZ50-[WKWebView(WKPrivateIOS) _addLayerForFindOverlay]E4$_40vJNSt3__18optionalIN7WebCore16ProcessQualifiedINS_23ObjectIdentifierGenericINS5_27PlatformLayerIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEEEEEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZ53-[WKWebView(WKPrivateIOS) _isForcedIntoAppBoundMode:]E4$_39vJbEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZ53-[WKWebView(WKPrivateIOS) _removeLayerForFindOverlay]E4$_41vJEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZ57-[WKWebView(WKPrivateIOS) _isNavigatingToAppBoundDomain:]E4$_38vJbEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZ58-[WKWebView(WKViewInternalIOS) _updateVisibleContentRects]E4$_19vJEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZ64-[WKWebView(WKPrivateIOS) _doAfterNextStablePresentationUpdate:]E4$_28vJEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZ65-[WKWebView(WKViewInternalIOS) _acquireResizeAssertionForReason:]E4$_16vJEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZ66-[WKWebView(WKPrivateIOS) _detectDataWithTypes:completionHandler:]E4$_29vJON6WebKit19DataDetectionResultEEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZ73-[WKWebView(WKViewInternalIOS) scrollView:handleScrollUpdate:completion:]E4$_13vJbEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZ74-[WKWebView(WKViewInternalIOS) _restorePageStateToUnobscuredCenter:scale:]E4$_10vJEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZ80-[WKWebView(WKTestingIOS) _setDeviceOrientationUserPermissionHandlerForTesting:]E4$_46bJEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZ83-[WKWebView(WKViewInternalIOS) _scheduleVisibleContentRectUpdateAfterScrollInView:]E4$_18vJEEE
+- __ZTVN3WTF6Detail15CallableWrapperIZZ73-[WKWebView(WKViewInternalIOS) scrollView:handleScrollUpdate:completion:]ENK4$_12clEvEUlP12UIScrollViewE_bJS4_EEE
+- __ZTVN3WTF6Detail15CallableWrapperIZZ97-[WKWebView(WKViewInternalIOS) _firePresentationUpdateForPendingStableStatePresentationCallbacks]ENK4$_21clEvEUlvE_vJEEE
+- __ZZN3WTF8BlockPtrIFvvEE12fromCallableIZ85-[WKWebView(WKTestingIOS) _doAfterNextVisibleContentRectAndStablePresentationUpdate:]E4$_42EES2_T_E10descriptor
+- __ZZN3WTF8BlockPtrIFvvEE12fromCallableIZ85-[WKWebView(WKTestingIOS) _doAfterNextVisibleContentRectAndStablePresentationUpdate:]E4$_42EES2_T_ENUlPKvE_8__invokeES7_
+- __ZZN3WTF8BlockPtrIFvvEE12fromCallableIZ85-[WKWebView(WKTestingIOS) _doAfterNextVisibleContentRectAndStablePresentationUpdate:]E4$_42EES2_T_ENUlPvE_8__invokeES6_
+- __ZZN6WebKitL29webExtensionControllerProxiesEvE11controllers
+- ___49-[WKDataListSuggestionsDropdown _showSuggestions]_block_invoke.400
+- ___54-[WKWebGeolocationPolicyDecider _executeNextChallenge]_block_invoke.225
+- ___58-[WKPDFView web_setContentProviderData:suggestedFilename:]_block_invoke
+- ____ZZ48-[WKWebView(WKViewInternalIOS) _hideFindOverlay]ENK4$_24clEv_block_invoke
+- ___block_descriptor_40_e8_32c100_ZTSKZ87-[WKDataListSuggestionsDropdown contextMenuInteraction:configurationForMenuAtLocation:]E3$_8_e25_"UIMenu"16?0"NSArray"8l
+- ___block_descriptor_40_e8_32c103_ZTSKZ89-[WKDataListSuggestionsDropdown contextMenuInteraction:willEndForConfiguration:animator:]E4$_10_e5_v8?0l
+- ___block_descriptor_40_e8_32c107_ZTSKZ93-[WKWebView(WKPrivateIOS) _becomeFirstResponderWithSelectionMovingForward:completionHandler:]E4$_36_e8_v12?0B8l
+- ___block_descriptor_40_e8_32c110_ZTSKZ97-[WKDataListSuggestionsDropdown contextMenuInteraction:willDisplayMenuForConfiguration:animator:]E3$_9_e5_v8?0l
+- ___block_descriptor_40_e8_32c111_ZTSKZ97-[WKWebView(WKViewInternalIOS) _firePresentationUpdateForPendingStableStatePresentationCallbacks]E4$_21_e5_v8?0l
+- ___block_descriptor_40_e8_32c113_ZTSKZ99-[WKWebView(WKPrivateIOS) _accessibilityRetrieveRectsAtSelectionOffset:withText:completionHandler:]E4$_37_e10_v16?0r^v8l
+- ___block_descriptor_40_e8_32c62_ZTSKZ48-[WKWebView(WKViewInternalIOS) _hideFindOverlay]E4$_24_e5_v8?0l
+- ___block_descriptor_40_e8_32c62_ZTSKZ49-[WKDataListSuggestionsDropdown _showSuggestions]E3$_6_e5_v8?0l
+- ___block_descriptor_40_e8_32c66_ZTSKZ52-[WKWebView(WKPrivateIOS) _retainActiveFocusedState]E4$_35_e5_v8?0l
+- ___block_descriptor_40_e8_32c72_ZTSKZZ54-[WKWebGeolocationPolicyDecider _executeNextChallenge]EUb_E3$_3_e23_v16?0"UIAlertAction"8l
+- ___block_descriptor_40_e8_32c72_ZTSKZZ54-[WKWebGeolocationPolicyDecider _executeNextChallenge]EUb_E3$_4_e23_v16?0"UIAlertAction"8l
+- ___block_descriptor_40_e8_32c87_ZTSKZ74-[WKSelectPicker contextMenuInteraction:willEndForConfiguration:animator:]E3$_4_e5_v8?0l
+- ___block_descriptor_40_e8_32c90_ZTSKZ76-[WKWebView(WKViewInternalIOS) _addUpdateVisibleContentRectPreCommitHandler]E4$_17_e5_v8?0l
+- ___block_descriptor_40_e8_32c92_ZTSKZ78-[WKWebView(WKPrivateIOS) _requestActivatedElementAtPosition:completionBlock:]E4$_30_e5242_v536?0{InteractionInformationAtPosition={InteractionInformationRequest={IntPoint=ii}BBBBBBB}B{optional<bool>=(?=cB)B}CBBBBBBBBBBBBB{Markable<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::MarkableTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>={ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>={ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}}BBBBBB{FloatPoint=ff}{URL={String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}b1b1b1b3b26IIIIIII}{URL={String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}b1b1b1b3b26IIIIIII}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{IntRect={IntPoint=ii}{IntSize=ii}}{RefPtr<WebCore::ShareableBitmap, WTF::RawPtrTraits<WebCore::ShareableBitmap>, WTF::DefaultRefDerefTraits<WebCore::ShareableBitmap>>=^{ShareableBitmap}}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{CursorContext={FloatRect={FloatPoint=ff}{FloatSize=ff}}{optional<WebCore::Cursor>=(?=c{Cursor=C{RefPtr<WebCore::Image, WTF::RawPtrTraits<WebCore::Image>, WTF::DefaultRefDerefTraits<WebCore::Image>>=^{Image}}{IntPoint=ii}^v})B}BB}{RefPtr<WebCore::TextIndicator, WTF::RawPtrTraits<WebCore::TextIndicator>, WTF::DefaultRefDerefTraits<WebCore::TextIndicator>>=^{TextIndicator}}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{RetainPtr<NSArray>=}{IntRect={IntPoint=ii}{IntSize=ii}}{optional<WebCore::ElementContext>=(?=c{ElementContext={FloatRect={FloatPoint=ff}{FloatSize=ff}}{Markable<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>={ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}{Markable<WebCore::ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>={ProcessQualified<WTF::UUID>={UUID=T}{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}}{Markable<WTF::ObjectIdentifierGeneric<WebCore::ElementIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::ElementIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>={ObjectIdentifierGeneric<WebCore::ElementIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}})B}{optional<WebCore::ElementContext>=(?=c{ElementContext={FloatRect={FloatPoint=ff}{FloatSize=ff}}{Markable<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>={ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}{Markable<WebCore::ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>={ProcessQualified<WTF::UUID>={UUID=T}{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}}{Markable<WTF::ObjectIdentifierGeneric<WebCore::ElementIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::ElementIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>={ObjectIdentifierGeneric<WebCore::ElementIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}})B}{Vector<WebCore::ElementAnimationContext, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc>=^{ElementAnimationContext}II}}8l
+- ___block_descriptor_48_e8_32c71_ZTSKZ58-[WKPDFView web_setContentProviderData:suggestedFilename:]E3$_2_e31_v16?0"PDFHostViewController"8l
+- ___block_descriptor_48_e8_32c76_ZTSKZ63-[WKDataListSuggestionsDropdown _updateSuggestionsMenuElements]E3$_7_e18_v16?0"UIAction"8l
+- ___block_descriptor_48_e8_32c91_ZTSKZ77-[WKWebView(WKTestingIOS) _requestTextInputContextsInRect:completionHandler:]E4$_45_e17_v16?0"NSArray"8l
+- ___block_descriptor_80_e8_32c74_ZTSKZ60-[WKWebView(WKViewInternalIOS) _updatePageLoadObserverState]E4$_26_e5_v8?0l
+- ___block_literal_global.235
+- ___block_literal_global.480
+- ___copy_helper_block_e8_32c100_ZTSKZ87-[WKDataListSuggestionsDropdown contextMenuInteraction:configurationForMenuAtLocation:]E3$_8
+- ___copy_helper_block_e8_32c103_ZTSKZ89-[WKDataListSuggestionsDropdown contextMenuInteraction:willEndForConfiguration:animator:]E4$_10
+- ___copy_helper_block_e8_32c107_ZTSKZ93-[WKWebView(WKPrivateIOS) _becomeFirstResponderWithSelectionMovingForward:completionHandler:]E4$_36
+- ___copy_helper_block_e8_32c110_ZTSKZ97-[WKDataListSuggestionsDropdown contextMenuInteraction:willDisplayMenuForConfiguration:animator:]E3$_9
+- ___copy_helper_block_e8_32c111_ZTSKZ97-[WKWebView(WKViewInternalIOS) _firePresentationUpdateForPendingStableStatePresentationCallbacks]E4$_21
+- ___copy_helper_block_e8_32c113_ZTSKZ99-[WKWebView(WKPrivateIOS) _accessibilityRetrieveRectsAtSelectionOffset:withText:completionHandler:]E4$_37
+- ___copy_helper_block_e8_32c62_ZTSKZ48-[WKWebView(WKViewInternalIOS) _hideFindOverlay]E4$_24
+- ___copy_helper_block_e8_32c62_ZTSKZ49-[WKDataListSuggestionsDropdown _showSuggestions]E3$_6
+- ___copy_helper_block_e8_32c66_ZTSKZ52-[WKWebView(WKPrivateIOS) _retainActiveFocusedState]E4$_35
+- ___copy_helper_block_e8_32c71_ZTSKZ58-[WKPDFView web_setContentProviderData:suggestedFilename:]E3$_2
+- ___copy_helper_block_e8_32c72_ZTSKZZ54-[WKWebGeolocationPolicyDecider _executeNextChallenge]EUb_E3$_3
+- ___copy_helper_block_e8_32c72_ZTSKZZ54-[WKWebGeolocationPolicyDecider _executeNextChallenge]EUb_E3$_4
+- ___copy_helper_block_e8_32c74_ZTSKZ60-[WKWebView(WKViewInternalIOS) _updatePageLoadObserverState]E4$_26
+- ___copy_helper_block_e8_32c76_ZTSKZ63-[WKDataListSuggestionsDropdown _updateSuggestionsMenuElements]E3$_7
+- ___copy_helper_block_e8_32c87_ZTSKZ74-[WKSelectPicker contextMenuInteraction:willEndForConfiguration:animator:]E3$_4
+- ___copy_helper_block_e8_32c90_ZTSKZ76-[WKWebView(WKViewInternalIOS) _addUpdateVisibleContentRectPreCommitHandler]E4$_17
+- ___copy_helper_block_e8_32c91_ZTSKZ77-[WKWebView(WKTestingIOS) _requestTextInputContextsInRect:completionHandler:]E4$_45
+- ___copy_helper_block_e8_32c92_ZTSKZ78-[WKWebView(WKPrivateIOS) _requestActivatedElementAtPosition:completionBlock:]E4$_30
+- ___destroy_helper_block_e8_32c100_ZTSKZ87-[WKDataListSuggestionsDropdown contextMenuInteraction:configurationForMenuAtLocation:]E3$_8
+- ___destroy_helper_block_e8_32c103_ZTSKZ89-[WKDataListSuggestionsDropdown contextMenuInteraction:willEndForConfiguration:animator:]E4$_10
+- ___destroy_helper_block_e8_32c110_ZTSKZ97-[WKDataListSuggestionsDropdown contextMenuInteraction:willDisplayMenuForConfiguration:animator:]E3$_9
+- ___destroy_helper_block_e8_32c111_ZTSKZ97-[WKWebView(WKViewInternalIOS) _firePresentationUpdateForPendingStableStatePresentationCallbacks]E4$_21
+- ___destroy_helper_block_e8_32c113_ZTSKZ99-[WKWebView(WKPrivateIOS) _accessibilityRetrieveRectsAtSelectionOffset:withText:completionHandler:]E4$_37
+- ___destroy_helper_block_e8_32c62_ZTSKZ48-[WKWebView(WKViewInternalIOS) _hideFindOverlay]E4$_24
+- ___destroy_helper_block_e8_32c62_ZTSKZ49-[WKDataListSuggestionsDropdown _showSuggestions]E3$_6
+- ___destroy_helper_block_e8_32c71_ZTSKZ58-[WKPDFView web_setContentProviderData:suggestedFilename:]E3$_2
+- ___destroy_helper_block_e8_32c72_ZTSKZZ54-[WKWebGeolocationPolicyDecider _executeNextChallenge]EUb_E3$_3
+- ___destroy_helper_block_e8_32c72_ZTSKZZ54-[WKWebGeolocationPolicyDecider _executeNextChallenge]EUb_E3$_4
+- ___destroy_helper_block_e8_32c74_ZTSKZ60-[WKWebView(WKViewInternalIOS) _updatePageLoadObserverState]E4$_26
+- ___destroy_helper_block_e8_32c76_ZTSKZ63-[WKDataListSuggestionsDropdown _updateSuggestionsMenuElements]E3$_7
+- ___destroy_helper_block_e8_32c87_ZTSKZ74-[WKSelectPicker contextMenuInteraction:willEndForConfiguration:animator:]E3$_4
+- ___destroy_helper_block_e8_32c90_ZTSKZ76-[WKWebView(WKViewInternalIOS) _addUpdateVisibleContentRectPreCommitHandler]E4$_17
+- ___destroy_helper_block_e8_32c91_ZTSKZ77-[WKWebView(WKTestingIOS) _requestTextInputContextsInRect:completionHandler:]E4$_45
+- ___destroy_helper_block_e8_32c92_ZTSKZ78-[WKWebView(WKPrivateIOS) _requestActivatedElementAtPosition:completionBlock:]E4$_30
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+- _objc_msgSend$_appAdoptsUISceneLifecycle
+- _objc_msgSend$web_setContentProviderData:suggestedFilename:
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/GCGLSpan.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/ImageBufferPixelFormat.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/RealtimeMediaSourceCapabilities.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/SecurityOriginData.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/StorageNamespaceProvider.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Library/Frameworks/JavaScriptCore.framework/PrivateHeaders/DisallowVMEntry.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Library/Frameworks/JavaScriptCore.framework/PrivateHeaders/GenericTypedArrayViewInlines.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Library/Frameworks/JavaScriptCore.framework/PrivateHeaders/JSArrayBufferViewInlines.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/WebKitAdditions/DyldCallbackAdditions.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/pal/spi/cocoa/NSAttributedStringSPI.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/CheckedArithmetic.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/CheckedPtr.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/CompactVariantOperations.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/CompletionHandler.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/Deque.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/HashTable.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/JSONValues.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/Markable.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/ObjectIdentifier.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/Ref.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/RefCounted.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/RefPtr.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/RetainPtr.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/ThreadSafeWeakHashSet.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/ThreadSpecific.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/WeakPtr.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/WeakRef.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/cf/TypeCastsCF.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/cocoa/TypeCastsCocoa.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/text/StringBuilder.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
++ "/AppleInternal/Library/BuildRoots/4~CAMZugAJYsfAnKialVrvuIa2tUbnzeG_qOU32dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/text/StringImpl.h"
++ "/private/var/run/mDNSResponder"
++ "BlockNetworkAccess"
++ "Cancel (QuickLook Preview)"
++ "Navigator userAgentData JavaScript API"
++ "RemoteLayerTreeDrawingAreaProxy(%llu) Unhiding layer tree"
++ "RemoteLayerTreeDrawingAreaProxy(%llu)::hideContentUntilAnyUpdate"
++ "RemoteLayerTreeDrawingAreaProxy(%llu)::hideContentUntilDidUpdateActivityState"
++ "RemoteLayerTreeDrawingAreaProxy(%llu)::hideContentUntilDidUpdateActivityState completed"
++ "RemoteLayerTreeDrawingAreaProxy(%llu)::hideContentUntilPendingUpdate"
++ "RemoteLayerTreeDrawingAreaProxy(%llu)::hideContentUntilPendingUpdate completed"
++ "Setting sandbox state flag to block network access"
++ "TB,N,GisHidden"
++ "Unable to get audit token for UI process to block network access"
++ "Unable to get audit token to block network access"
++ "Unable to set sandbox state flag to block network access"
++ "View 3D Object (QuickLook Preview)"
++ "View 3D Object?"
++ "You can see a preview of this object before viewing in 3D."
++ "network-outbound"
++ "v40@0:8@\"NSData\"16@\"NSString\"24@?<v@?>32"
++ "web_setContentProviderData:suggestedFilename:completionHandler:"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/GCGLSpan.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/ImageBufferPixelFormat.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/RealtimeMediaSourceCapabilities.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/SecurityOriginData.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/StorageNamespaceProvider.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Library/Frameworks/JavaScriptCore.framework/PrivateHeaders/DisallowVMEntry.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Library/Frameworks/JavaScriptCore.framework/PrivateHeaders/GenericTypedArrayViewInlines.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/System/Library/Frameworks/JavaScriptCore.framework/PrivateHeaders/JSArrayBufferViewInlines.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/WebKitAdditions/DyldCallbackAdditions.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/pal/spi/cocoa/NSAttributedStringSPI.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/CheckedArithmetic.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/CheckedPtr.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/CompactVariantOperations.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/CompletionHandler.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/Deque.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/HashTable.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/JSONValues.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/Markable.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/ObjectIdentifier.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/Ref.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/RefCounted.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/RefPtr.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/RetainPtr.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/ThreadSafeWeakHashSet.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/ThreadSpecific.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/WeakPtr.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/WeakRef.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/cf/TypeCastsCF.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/cocoa/TypeCastsCocoa.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/text/StringBuilder.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
+- "/AppleInternal/Library/BuildRoots/4~B_m3ugAOq30Y8G-3NEKRVCI83zndASg1zylYFqk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.Internal.sdk/usr/local/include/wtf/text/StringImpl.h"
+- "_appAdoptsUISceneLifecycle"
+- "v32@0:8@\"NSData\"16@\"NSString\"24"
+- "web_setContentProviderData:suggestedFilename:"
+
+```

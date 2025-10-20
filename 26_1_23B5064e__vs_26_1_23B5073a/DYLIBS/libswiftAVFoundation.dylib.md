@@ -1,0 +1,388 @@
+## libswiftAVFoundation.dylib
+
+> `/usr/lib/swift/libswiftAVFoundation.dylib`
+
+```diff
+
+-2390.9.1.0.0
+-  __TEXT.__text: 0x35c34
+-  __TEXT.__auth_stubs: 0x1070
++2390.10.1.0.0
++  __TEXT.__text: 0x3655c
++  __TEXT.__auth_stubs: 0x1060
+   __TEXT.__objc_methlist: 0x21c
+-  __TEXT.__const: 0x27a4
++  __TEXT.__const: 0x2b94
+   __TEXT.__cstring: 0xebd
+   __TEXT.__constg_swiftt: 0x1124
+   __TEXT.__swift5_typeref: 0x13a6
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x858
+   __DATA_CONST.__objc_protorefs: 0x38
+-  __AUTH_CONST.__auth_got: 0x838
++  __AUTH_CONST.__auth_got: 0x830
+   __AUTH_CONST.__const: 0x1f70
+   __AUTH_CONST.__objc_const: 0x1688
+   __AUTH.__data: 0x330
+-  __DATA.__data: 0xd48
++  __DATA.__data: 0xdb0
+   __DATA.__bss: 0x2320
+   __DATA.__common: 0x9
+-  __DATA_DIRTY.__data: 0xc28
++  __DATA_DIRTY.__data: 0xbc0
+   __DATA_DIRTY.__bss: 0x480
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 49D5443C-E27E-3818-8AD1-57939B755748
++  UUID: 1C54978B-2E3D-32C4-AB3A-E13FCBF63E60
+   Functions: 1476
+-  Symbols:   4734
++  Symbols:   4844
+   CStrings:  409
+ 
+Symbols:
++ _$s10Foundation3URLVSgMR
++ _$s10Foundation3URLVSgMd
++ _$s10Foundation4DataVSgMR
++ _$s10Foundation4DataVSgMd
++ _$s10Foundation4DateV05startB0_So10NSProgressC8progresstMR
++ _$s10Foundation4DateV05startB0_So10NSProgressC8progresstMd
++ _$s10Foundation4DateVSgMR
++ _$s10Foundation4DateVSgMd
++ _$s12AVFoundation15AVAsyncPropertyCySo12AVAssetTrackCSaySo22CMFormatDescriptionRefaGGMR
++ _$s12AVFoundation15AVAsyncPropertyCySo12AVAssetTrackCSaySo22CMFormatDescriptionRefaGGMd
++ _$s12AVFoundation15AVAsyncPropertyCySo7AVAssetCSaySo0D5TrackCGGMR
++ _$s12AVFoundation15AVAsyncPropertyCySo7AVAssetCSaySo0D5TrackCGGMd
++ _$s15Synchronization5_CellVySiGMR
++ _$s15Synchronization5_CellVySiGMd
++ _$s15Synchronization5_CellVySo16os_unfair_lock_sVGMR
++ _$s15Synchronization5_CellVySo16os_unfair_lock_sVGMd
++ _$s9CoreMedia19CMReadySampleBufferVySo08CMSampleE3RefaAAE14DynamicContentOGMR
++ _$s9CoreMedia19CMReadySampleBufferVySo08CMSampleE3RefaAAE14DynamicContentOGMd
++ _$s9CoreVideo20CVMutablePixelBufferVSgMR
++ _$s9CoreVideo20CVMutablePixelBufferVSgMd
++ _$s9CoreVideo31CVPixelBufferCreationAttributesVSgMR
++ _$s9CoreVideo31CVPixelBufferCreationAttributesVSgMd
++ _$sSDySSSo8NSNumberCGMR
++ _$sSDySSSo8NSNumberCGMd
++ _$sSDySSs11AnyHashableVGMR
++ _$sSDySSs11AnyHashableVGMd
++ _$sSDySSypGMR
++ _$sSDySSypGMd
++ _$sSDySo27AVMetadataExtraAttributeKeyaypGSgMR
++ _$sSDySo27AVMetadataExtraAttributeKeyaypGSgMd
++ _$sSDys11AnyHashableVypGMR
++ _$sSDys11AnyHashableVypGMd
++ _$sSSSgMR
++ _$sSSSgMd
++ _$sSS_yptMR
++ _$sSS_yptMd
++ _$sSay10Foundation6LocaleVGMR
++ _$sSay10Foundation6LocaleVGMd
++ _$sSay9CoreMedia5CMTagCGMR
++ _$sSay9CoreMedia5CMTagCGMd
++ _$sSaySDySSSo8NSNumberCGGMR
++ _$sSaySDySSSo8NSNumberCGGMd
++ _$sSaySiGMR
++ _$sSaySiGMd
++ _$sSaySo12AVAssetTrackCGMR
++ _$sSaySo12AVAssetTrackCGMd
++ _$sSaySo12AVMovieTrackCGMR
++ _$sSaySo12AVMovieTrackCGMd
++ _$sSaySo14AVAssetVariantCGMR
++ _$sSaySo14AVAssetVariantCGMd
++ _$sSaySo14AVMetadataItemCGMR
++ _$sSaySo14AVMetadataItemCGMd
++ _$sSaySo16AVMediaSelectionCGMR
++ _$sSaySo16AVMediaSelectionCGMd
++ _$sSaySo16AVMetadataFormataGMR
++ _$sSaySo16AVMetadataFormataGMd
++ _$sSaySo17AVAssetTrackGroupCGMR
++ _$sSaySo17AVAssetTrackGroupCGMd
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMR
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMd
++ _$sSaySo18AVCompositionTrackCGMR
++ _$sSaySo18AVCompositionTrackCGMd
++ _$sSaySo19AVAssetTrackSegmentCGMR
++ _$sSaySo19AVAssetTrackSegmentCGMd
++ _$sSaySo19AVMutableMovieTrackCGMR
++ _$sSaySo19AVMutableMovieTrackCGMd
++ _$sSaySo21AVMediaCharacteristicaGMR
++ _$sSaySo21AVMediaCharacteristicaGMd
++ _$sSaySo22AVFragmentedAssetTrackCGMR
++ _$sSaySo22AVFragmentedAssetTrackCGMd
++ _$sSaySo22AVFragmentedMovieTrackCGMR
++ _$sSaySo22AVFragmentedMovieTrackCGMd
++ _$sSaySo22AVTrackAssociationTypeaGMR
++ _$sSaySo22AVTrackAssociationTypeaGMd
++ _$sSaySo22CMFormatDescriptionRefaGMR
++ _$sSaySo22CMFormatDescriptionRefaGMd
++ _$sSaySo25AVMutableCompositionTrackCGMR
++ _$sSaySo25AVMutableCompositionTrackCGMd
++ _$sSaySo7CGPointVGMR
++ _$sSaySo7CGPointVGMd
++ _$sScCySbs5NeverOGMR
++ _$sScCySbs5NeverOGMd
++ _$sScCyyts5NeverOGMR
++ _$sScCyyts5NeverOGMd
++ _$sScGyytGMR
++ _$sScGyytGMd
++ _$sScPSgMR
++ _$sScPSgMd
++ _$sScS12ContinuationV11YieldResultOySo13AVMetricEventC_So0dE15StreamPublisher_pt__GMR
++ _$sScS12ContinuationV11YieldResultOySo13AVMetricEventC_So0dE15StreamPublisher_pt__GMd
++ _$sScS12ContinuationV11YieldResultOySo21AVAssetImageGeneratorC12AVFoundationE6ImagesV7ElementO__GMR
++ _$sScS12ContinuationV11YieldResultOySo21AVAssetImageGeneratorC12AVFoundationE6ImagesV7ElementO__GMd
++ _$sScS12ContinuationV11YieldResultOySo26AVAssetExportSessionStatusV__GMR
++ _$sScS12ContinuationV11YieldResultOySo26AVAssetExportSessionStatusV__GMd
++ _$sScS12ContinuationV11YieldResultOySo33AVAssetWriterInputPassDescriptionC__GMR
++ _$sScS12ContinuationV11YieldResultOySo33AVAssetWriterInputPassDescriptionC__GMd
++ _$sScS12ContinuationV11YieldResultOySo6CMTimea__GMR
++ _$sScS12ContinuationV11YieldResultOySo6CMTimea__GMd
++ _$sScS12ContinuationV15BufferingPolicyOySo13AVMetricEventC_So0dE15StreamPublisher_pt__GMR
++ _$sScS12ContinuationV15BufferingPolicyOySo13AVMetricEventC_So0dE15StreamPublisher_pt__GMd
++ _$sScS12ContinuationV15BufferingPolicyOySo21AVAssetImageGeneratorC12AVFoundationE6ImagesV7ElementO__GMR
++ _$sScS12ContinuationV15BufferingPolicyOySo21AVAssetImageGeneratorC12AVFoundationE6ImagesV7ElementO__GMd
++ _$sScS12ContinuationV15BufferingPolicyOySo26AVAssetExportSessionStatusV__GMR
++ _$sScS12ContinuationV15BufferingPolicyOySo26AVAssetExportSessionStatusV__GMd
++ _$sScS12ContinuationV15BufferingPolicyOySo33AVAssetWriterInputPassDescriptionC__GMR
++ _$sScS12ContinuationV15BufferingPolicyOySo33AVAssetWriterInputPassDescriptionC__GMd
++ _$sScS12ContinuationV15BufferingPolicyOySo6CMTimea__GMR
++ _$sScS12ContinuationV15BufferingPolicyOySo6CMTimea__GMd
++ _$sScS12ContinuationVySo13AVMetricEventC_So0bC15StreamPublisher_pt_GMR
++ _$sScS12ContinuationVySo13AVMetricEventC_So0bC15StreamPublisher_pt_GMd
++ _$sScS12ContinuationVySo21AVAssetImageGeneratorC12AVFoundationE6ImagesV7ElementO_GMR
++ _$sScS12ContinuationVySo21AVAssetImageGeneratorC12AVFoundationE6ImagesV7ElementO_GMd
++ _$sScS12ContinuationVySo26AVAssetExportSessionStatusV_GMR
++ _$sScS12ContinuationVySo26AVAssetExportSessionStatusV_GMd
++ _$sScS12ContinuationVySo33AVAssetWriterInputPassDescriptionC_GMR
++ _$sScS12ContinuationVySo33AVAssetWriterInputPassDescriptionC_GMd
++ _$sScS12ContinuationVySo6CMTimea_GMR
++ _$sScS12ContinuationVySo6CMTimea_GMd
++ _$sScS8IteratorVySo13AVMetricEventC_So0bC15StreamPublisher_pt_GMR
++ _$sScS8IteratorVySo13AVMetricEventC_So0bC15StreamPublisher_pt_GMd
++ _$sScS8IteratorVySo21AVAssetImageGeneratorC12AVFoundationE6ImagesV7ElementO_GMR
++ _$sScS8IteratorVySo21AVAssetImageGeneratorC12AVFoundationE6ImagesV7ElementO_GMd
++ _$sScS8IteratorVySo26AVAssetExportSessionStatusV_GMR
++ _$sScS8IteratorVySo26AVAssetExportSessionStatusV_GMd
++ _$sScS8IteratorVySo33AVAssetWriterInputPassDescriptionC_GMR
++ _$sScS8IteratorVySo33AVAssetWriterInputPassDescriptionC_GMd
++ _$sScS8IteratorVySo6CMTimea_GMR
++ _$sScS8IteratorVySo6CMTimea_GMd
++ _$sScSySo13AVMetricEventC_So0aB15StreamPublisher_ptGMR
++ _$sScSySo13AVMetricEventC_So0aB15StreamPublisher_ptGMd
++ _$sScSySo21AVAssetImageGeneratorC12AVFoundationE6ImagesV7ElementOGMR
++ _$sScSySo21AVAssetImageGeneratorC12AVFoundationE6ImagesV7ElementOGMd
++ _$sScSySo26AVAssetExportSessionStatusVGMR
++ _$sScSySo26AVAssetExportSessionStatusVGMd
++ _$sScSySo33AVAssetWriterInputPassDescriptionCGMR
++ _$sScSySo33AVAssetWriterInputPassDescriptionCGMd
++ _$sScSySo6CMTimeaGMR
++ _$sScSySo6CMTimeaGMd
++ _$sSccySaySo20AVTimedMetadataGroupCGs5Error_pGMR
++ _$sSccySaySo20AVTimedMetadataGroupCGs5Error_pGMd
++ _$sSccySo10CGImageRefa_So6CMTimeats5Error_pGMR
++ _$sSccySo10CGImageRefa_So6CMTimeats5Error_pGMd
++ _$sSccySo18AVVideoCompositionCs5Error_pGMR
++ _$sSccySo18AVVideoCompositionCs5Error_pGMd
++ _$sSccySo25AVMutableVideoCompositionCs5Error_pGMR
++ _$sSccySo25AVMutableVideoCompositionCs5Error_pGMd
++ _$sSccyyts5NeverOGMR
++ _$sSccyyts5NeverOGMd
++ _$sSo13AVMetricEventC_So0aB15StreamPublisher_ptMR
++ _$sSo13AVMetricEventC_So0aB15StreamPublisher_ptMd
++ _$sSo14AVMetadataItemCSgMR
++ _$sSo14AVMetadataItemCSgMd
++ _$sSo19AVAssetReaderOutputC12AVFoundationE8ProviderCy_9CoreMedia19CMReadySampleBufferVySo08CMSampleJ3RefaAFE14DynamicContentOGGMR
++ _$sSo19AVAssetReaderOutputC12AVFoundationE8ProviderCy_9CoreMedia19CMReadySampleBufferVySo08CMSampleJ3RefaAFE14DynamicContentOGGMd
++ _$sSo19AVAssetReaderOutputC12AVFoundationE8ProviderCy_So14AVCaptionGroupCGMR
++ _$sSo19AVAssetReaderOutputC12AVFoundationE8ProviderCy_So14AVCaptionGroupCGMd
++ _$sSo19AVAssetReaderOutputC12AVFoundationE8ProviderCy_So20AVTimedMetadataGroupCGMR
++ _$sSo19AVAssetReaderOutputC12AVFoundationE8ProviderCy_So20AVTimedMetadataGroupCGMd
++ _$sSo20AVAssetExportSessionC12AVFoundationE14ProgressStates33_D1D93B46B4622E2FDA3EC9B1BC7A64BDLLV8IteratorV13StateInternalOSgMR
++ _$sSo20AVAssetExportSessionC12AVFoundationE14ProgressStates33_D1D93B46B4622E2FDA3EC9B1BC7A64BDLLV8IteratorV13StateInternalOSgMd
++ _$sSo20AVAssetExportSessionC12AVFoundationE14ProgressStates33_D1D93B46B4622E2FDA3EC9B1BC7A64BDLLV8IteratorV13StateInternalO_AJtMR
++ _$sSo20AVAssetExportSessionC12AVFoundationE14ProgressStates33_D1D93B46B4622E2FDA3EC9B1BC7A64BDLLV8IteratorV13StateInternalO_AJtMd
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV35CameraCalibrationDataLensCollectionOSgMR
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV35CameraCalibrationDataLensCollectionOSgMd
++ _$sSo29AVVideoCompositionInstruction_pMR
++ _$sSo29AVVideoCompositionInstruction_pMd
++ _$sSo8NSNumberCSgMR
++ _$sSo8NSNumberCSgMd
++ _$sSo9NSCopying_So8NSObjectpSgMR
++ _$sSo9NSCopying_So8NSObjectpSgMd
++ _$ss18_DictionaryStorageCySSypGMR
++ _$ss18_DictionaryStorageCySSypGMd
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMR
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMd
++ _$ss23_ContiguousArrayStorageCy12AVFoundation27AVSpatialVideoConfigurationVGMR
++ _$ss23_ContiguousArrayStorageCy12AVFoundation27AVSpatialVideoConfigurationVGMd
++ _$ss23_ContiguousArrayStorageCy12CoreGraphics7CGFloatVGMR
++ _$ss23_ContiguousArrayStorageCy12CoreGraphics7CGFloatVGMd
++ _$ss23_ContiguousArrayStorageCySDySSSo8NSNumberCGGMR
++ _$ss23_ContiguousArrayStorageCySDySSSo8NSNumberCGGMd
++ _$ss23_ContiguousArrayStorageCySDySSypGGMR
++ _$ss23_ContiguousArrayStorageCySDySSypGGMd
++ _$ss23_ContiguousArrayStorageCySNy12CoreGraphics7CGFloatVGGMR
++ _$ss23_ContiguousArrayStorageCySNy12CoreGraphics7CGFloatVGGMd
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss23_ContiguousArrayStorageCySay9CoreMedia5CMTagCGGMR
++ _$ss23_ContiguousArrayStorageCySay9CoreMedia5CMTagCGGMd
++ _$ss23_ContiguousArrayStorageCySaySDySSSo8NSNumberCGGGMR
++ _$ss23_ContiguousArrayStorageCySaySDySSSo8NSNumberCGGGMd
++ _$ss23_ContiguousArrayStorageCySaySo7CGPointVGGMR
++ _$ss23_ContiguousArrayStorageCySaySo7CGPointVGGMd
++ _$ss23_ContiguousArrayStorageCySfGMR
++ _$ss23_ContiguousArrayStorageCySfGMd
++ _$ss23_ContiguousArrayStorageCySo11CMTimeRangeaGMR
++ _$ss23_ContiguousArrayStorageCySo11CMTimeRangeaGMd
++ _$ss23_ContiguousArrayStorageCySo13CMTimeMappingaGMR
++ _$ss23_ContiguousArrayStorageCySo13CMTimeMappingaGMd
++ _$ss23_ContiguousArrayStorageCySo17CMVideoDimensionsaGMR
++ _$ss23_ContiguousArrayStorageCySo17CMVideoDimensionsaGMd
++ _$ss23_ContiguousArrayStorageCySo18AVCaptureFlashModeVGMR
++ _$ss23_ContiguousArrayStorageCySo18AVCaptureFlashModeVGMd
++ _$ss23_ContiguousArrayStorageCySo19AVCaptureColorSpaceVGMR
++ _$ss23_ContiguousArrayStorageCySo19AVCaptureColorSpaceVGMd
++ _$ss23_ContiguousArrayStorageCySo7CGPointVGMR
++ _$ss23_ContiguousArrayStorageCySo7CGPointVGMd
++ _$ss23_ContiguousArrayStorageCySsGMR
++ _$ss23_ContiguousArrayStorageCySsGMd
++ _$ss23_ContiguousArrayStorageCys5Int32VGMR
++ _$ss23_ContiguousArrayStorageCys5Int32VGMd
++ _$ss23_ContiguousArrayStorageCys6UInt32VGMR
++ _$ss23_ContiguousArrayStorageCys6UInt32VGMd
++ _$ss23_ContiguousArrayStorageCyyXlGMR
++ _$ss23_ContiguousArrayStorageCyyXlGMd
++ _$ss23_ContiguousArrayStorageCyypGMR
++ _$ss23_ContiguousArrayStorageCyypGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ _$ss8Sendable_pMR
++ _$ss8Sendable_pMd
++ _$sypSgMR
++ _$sypSgMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10Foundation3URLVSgMD
+- _$s10Foundation4DataVSgMD
+- _$s10Foundation4DateV05startB0_So10NSProgressC8progresstMD
+- _$s10Foundation4DateVSgMD
+- _$s12AVFoundation15AVAsyncPropertyCySo12AVAssetTrackCSaySo22CMFormatDescriptionRefaGGMD
+- _$s12AVFoundation15AVAsyncPropertyCySo7AVAssetCSaySo0D5TrackCGGMD
+- _$s15Synchronization5_CellVySiGMD
+- _$s15Synchronization5_CellVySo16os_unfair_lock_sVGMD
+- _$s9CoreMedia19CMReadySampleBufferVySo08CMSampleE3RefaAAE14DynamicContentOGMD
+- _$s9CoreVideo20CVMutablePixelBufferVSgMD
+- _$s9CoreVideo31CVPixelBufferCreationAttributesVSgMD
+- _$sSDySSSo8NSNumberCGMD
+- _$sSDySSs11AnyHashableVGMD
+- _$sSDySSypGMD
+- _$sSDySo27AVMetadataExtraAttributeKeyaypGSgMD
+- _$sSDys11AnyHashableVypGMD
+- _$sSSSgMD
+- _$sSS_yptMD
+- _$sSay10Foundation6LocaleVGMD
+- _$sSay9CoreMedia5CMTagCGMD
+- _$sSaySDySSSo8NSNumberCGGMD
+- _$sSaySiGMD
+- _$sSaySo12AVAssetTrackCGMD
+- _$sSaySo12AVMovieTrackCGMD
+- _$sSaySo14AVAssetVariantCGMD
+- _$sSaySo14AVMetadataItemCGMD
+- _$sSaySo16AVMediaSelectionCGMD
+- _$sSaySo16AVMetadataFormataGMD
+- _$sSaySo17AVAssetTrackGroupCGMD
+- _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMD
+- _$sSaySo18AVCompositionTrackCGMD
+- _$sSaySo19AVAssetTrackSegmentCGMD
+- _$sSaySo19AVMutableMovieTrackCGMD
+- _$sSaySo21AVMediaCharacteristicaGMD
+- _$sSaySo22AVFragmentedAssetTrackCGMD
+- _$sSaySo22AVFragmentedMovieTrackCGMD
+- _$sSaySo22AVTrackAssociationTypeaGMD
+- _$sSaySo22CMFormatDescriptionRefaGMD
+- _$sSaySo25AVMutableCompositionTrackCGMD
+- _$sSaySo7CGPointVGMD
+- _$sScCySbs5NeverOGMD
+- _$sScCyyts5NeverOGMD
+- _$sScGyytGMD
+- _$sScPSgMD
+- _$sScS12ContinuationV11YieldResultOySo13AVMetricEventC_So0dE15StreamPublisher_pt__GMD
+- _$sScS12ContinuationV11YieldResultOySo21AVAssetImageGeneratorC12AVFoundationE6ImagesV7ElementO__GMD
+- _$sScS12ContinuationV11YieldResultOySo26AVAssetExportSessionStatusV__GMD
+- _$sScS12ContinuationV11YieldResultOySo33AVAssetWriterInputPassDescriptionC__GMD
+- _$sScS12ContinuationV11YieldResultOySo6CMTimea__GMD
+- _$sScS12ContinuationV15BufferingPolicyOySo13AVMetricEventC_So0dE15StreamPublisher_pt__GMD
+- _$sScS12ContinuationV15BufferingPolicyOySo21AVAssetImageGeneratorC12AVFoundationE6ImagesV7ElementO__GMD
+- _$sScS12ContinuationV15BufferingPolicyOySo26AVAssetExportSessionStatusV__GMD
+- _$sScS12ContinuationV15BufferingPolicyOySo33AVAssetWriterInputPassDescriptionC__GMD
+- _$sScS12ContinuationV15BufferingPolicyOySo6CMTimea__GMD
+- _$sScS12ContinuationVySo13AVMetricEventC_So0bC15StreamPublisher_pt_GMD
+- _$sScS12ContinuationVySo21AVAssetImageGeneratorC12AVFoundationE6ImagesV7ElementO_GMD
+- _$sScS12ContinuationVySo26AVAssetExportSessionStatusV_GMD
+- _$sScS12ContinuationVySo33AVAssetWriterInputPassDescriptionC_GMD
+- _$sScS12ContinuationVySo6CMTimea_GMD
+- _$sScS8IteratorVySo13AVMetricEventC_So0bC15StreamPublisher_pt_GMD
+- _$sScS8IteratorVySo21AVAssetImageGeneratorC12AVFoundationE6ImagesV7ElementO_GMD
+- _$sScS8IteratorVySo26AVAssetExportSessionStatusV_GMD
+- _$sScS8IteratorVySo33AVAssetWriterInputPassDescriptionC_GMD
+- _$sScS8IteratorVySo6CMTimea_GMD
+- _$sScSySo13AVMetricEventC_So0aB15StreamPublisher_ptGMD
+- _$sScSySo21AVAssetImageGeneratorC12AVFoundationE6ImagesV7ElementOGMD
+- _$sScSySo26AVAssetExportSessionStatusVGMD
+- _$sScSySo33AVAssetWriterInputPassDescriptionCGMD
+- _$sScSySo6CMTimeaGMD
+- _$sSccySaySo20AVTimedMetadataGroupCGs5Error_pGMD
+- _$sSccySo10CGImageRefa_So6CMTimeats5Error_pGMD
+- _$sSccySo18AVVideoCompositionCs5Error_pGMD
+- _$sSccySo25AVMutableVideoCompositionCs5Error_pGMD
+- _$sSccyyts5NeverOGMD
+- _$sSo13AVMetricEventC_So0aB15StreamPublisher_ptMD
+- _$sSo14AVMetadataItemCSgMD
+- _$sSo19AVAssetReaderOutputC12AVFoundationE8ProviderCy_9CoreMedia19CMReadySampleBufferVySo08CMSampleJ3RefaAFE14DynamicContentOGGMD
+- _$sSo19AVAssetReaderOutputC12AVFoundationE8ProviderCy_So14AVCaptionGroupCGMD
+- _$sSo19AVAssetReaderOutputC12AVFoundationE8ProviderCy_So20AVTimedMetadataGroupCGMD
+- _$sSo20AVAssetExportSessionC12AVFoundationE14ProgressStates33_D1D93B46B4622E2FDA3EC9B1BC7A64BDLLV8IteratorV13StateInternalOSgMD
+- _$sSo20AVAssetExportSessionC12AVFoundationE14ProgressStates33_D1D93B46B4622E2FDA3EC9B1BC7A64BDLLV8IteratorV13StateInternalO_AJtMD
+- _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV35CameraCalibrationDataLensCollectionOSgMD
+- _$sSo29AVVideoCompositionInstruction_pMD
+- _$sSo8NSNumberCSgMD
+- _$sSo9NSCopying_So8NSObjectpSgMD
+- _$ss18_DictionaryStorageCySSypGMD
+- _$ss18_DictionaryStorageCys11AnyHashableVypGMD
+- _$ss23_ContiguousArrayStorageCy12AVFoundation27AVSpatialVideoConfigurationVGMD
+- _$ss23_ContiguousArrayStorageCy12CoreGraphics7CGFloatVGMD
+- _$ss23_ContiguousArrayStorageCySDySSSo8NSNumberCGGMD
+- _$ss23_ContiguousArrayStorageCySDySSypGGMD
+- _$ss23_ContiguousArrayStorageCySNy12CoreGraphics7CGFloatVGGMD
+- _$ss23_ContiguousArrayStorageCySSGMD
+- _$ss23_ContiguousArrayStorageCySay9CoreMedia5CMTagCGGMD
+- _$ss23_ContiguousArrayStorageCySaySDySSSo8NSNumberCGGGMD
+- _$ss23_ContiguousArrayStorageCySaySo7CGPointVGGMD
+- _$ss23_ContiguousArrayStorageCySfGMD
+- _$ss23_ContiguousArrayStorageCySo11CMTimeRangeaGMD
+- _$ss23_ContiguousArrayStorageCySo13CMTimeMappingaGMD
+- _$ss23_ContiguousArrayStorageCySo17CMVideoDimensionsaGMD
+- _$ss23_ContiguousArrayStorageCySo18AVCaptureFlashModeVGMD
+- _$ss23_ContiguousArrayStorageCySo19AVCaptureColorSpaceVGMD
+- _$ss23_ContiguousArrayStorageCySo7CGPointVGMD
+- _$ss23_ContiguousArrayStorageCySsGMD
+- _$ss23_ContiguousArrayStorageCys5Int32VGMD
+- _$ss23_ContiguousArrayStorageCys6UInt32VGMD
+- _$ss23_ContiguousArrayStorageCyyXlGMD
+- _$ss23_ContiguousArrayStorageCyypGMD
+- _$ss5Error_pMD
+- _$ss8Sendable_pMD
+- _$sypSgMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+- _objc_retain_x9
+
+```

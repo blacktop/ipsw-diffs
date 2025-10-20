@@ -1,0 +1,185 @@
+## caraccessoryd
+
+> `/usr/libexec/caraccessoryd`
+
+```diff
+
+-488.18.3.0.0
+-  __TEXT.__text: 0x3ac10
++488.18.3.2.0
++  __TEXT.__text: 0x3b4f4
+   __TEXT.__auth_stubs: 0x1450
+   __TEXT.__objc_stubs: 0x2040
+   __TEXT.__objc_methlist: 0x1bd4
+-  __TEXT.__const: 0x964
++  __TEXT.__const: 0xb60
+   __TEXT.__cstring: 0x16b6
+   __TEXT.__gcc_except_tab: 0x154
+   __TEXT.__objc_methname: 0x4144
+
+   __TEXT.__swift5_types: 0x50
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0x10
+-  __TEXT.__unwind_info: 0xbb8
++  __TEXT.__unwind_info: 0xba0
+   __TEXT.__eh_frame: 0x358
+   __DATA_CONST.__auth_got: 0xa38
+   __DATA_CONST.__got: 0x560
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1BB9A726-335B-3FE4-B8B7-7DDA0CE6EB95
+-  Functions: 1232
+-  Symbols:   3354
++  UUID: C73D704B-24EC-3728-BB32-D8D7EE82ADAF
++  Functions: 1231
++  Symbols:   3399
+   CStrings:  1382
+ 
+Symbols:
++ _$s10Foundation11MeasurementVySo14NSUnitDurationCGMR
++ _$s10Foundation11MeasurementVySo14NSUnitDurationCGMd
++ _$s10Foundation11MeasurementVySo14NSUnitDurationCGSgMR
++ _$s10Foundation11MeasurementVySo14NSUnitDurationCGSgMd
++ _$s10Foundation17URLResourceValuesVSgMR
++ _$s10Foundation17URLResourceValuesVSgMd
++ _$s10Foundation3URLVSgMR
++ _$s10Foundation3URLVSgMd
++ _$s10Foundation4UUIDVSgMR
++ _$s10Foundation4UUIDVSgMd
++ _$s13CarAssetUtils15CAUVehicleTraitO_SStMR
++ _$s13CarAssetUtils15CAUVehicleTraitO_SStMd
++ _$s13CarAssetUtils17CAUVariantsClient_pMR
++ _$s13CarAssetUtils17CAUVariantsClient_pMd
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCSgMR
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCSgMd
++ _$s13caraccessoryd27CAFDVehicleResourcesManagerC22CustomImageArchiveInfoVSgMR
++ _$s13caraccessoryd27CAFDVehicleResourcesManagerC22CustomImageArchiveInfoVSgMd
++ _$sSDy13CarAssetUtils15CAUVehicleTraitOSSGMR
++ _$sSDy13CarAssetUtils15CAUVehicleTraitOSSGMd
++ _$sSDy13CarAssetUtils15CAUVehicleTraitOSSGSgMR
++ _$sSDy13CarAssetUtils15CAUVehicleTraitOSSGSgMd
++ _$sSDyS2SGMR
++ _$sSDyS2SGMd
++ _$sSDyS2SGSgMR
++ _$sSDyS2SGSgMd
++ _$sSay8Dispatch0A13WorkItemFlagsVGMR
++ _$sSay8Dispatch0A13WorkItemFlagsVGMd
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMR
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMd
++ _$sSbSgMR
++ _$sSbSgMd
++ _$sScCy13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCSgs5NeverOGMR
++ _$sScCy13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCSgs5NeverOGMd
++ _$sScCySo6CAFCarCs5NeverOGMR
++ _$sScCySo6CAFCarCs5NeverOGMd
++ _$sScPSgMR
++ _$sScPSgMd
++ _$sSo25CAFSettingProminenceLevelVSgMR
++ _$sSo25CAFSettingProminenceLevelVSgMd
++ _$sSo26NSSecurityScopedURLWrapperCSgMR
++ _$sSo26NSSecurityScopedURLWrapperCSgMd
++ _$sSo8NSObjectCSgMR
++ _$sSo8NSObjectCSgMd
++ _$ss11AnyHashableV_yptMR
++ _$ss11AnyHashableV_yptMd
++ _$ss11_SetStorageCy10Foundation4UUIDVGMR
++ _$ss11_SetStorageCy10Foundation4UUIDVGMd
++ _$ss11_SetStorageCy13caraccessoryd19_CAFDSessionBoostedCGMR
++ _$ss11_SetStorageCy13caraccessoryd19_CAFDSessionBoostedCGMd
++ _$ss11_SetStorageCy13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLCGMR
++ _$ss11_SetStorageCy13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLCGMd
++ _$ss11_SetStorageCy13caraccessoryd9CAFDAgentC20_CAFDConnectionProxyCGMR
++ _$ss11_SetStorageCy13caraccessoryd9CAFDAgentC20_CAFDConnectionProxyCGMd
++ _$ss11_SetStorageCySSGMR
++ _$ss11_SetStorageCySSGMd
++ _$ss11_SetStorageCySo12RBSAssertionCGMR
++ _$ss11_SetStorageCySo12RBSAssertionCGMd
++ _$ss11_SetStorageCySo16NSURLResourceKeyaGMR
++ _$ss11_SetStorageCySo16NSURLResourceKeyaGMd
++ _$ss18_DictionaryStorageCy13CarAssetUtils15CAUVehicleTraitOSSGMR
++ _$ss18_DictionaryStorageCy13CarAssetUtils15CAUVehicleTraitOSSGMd
++ _$ss18_DictionaryStorageCy13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOShy10Foundation4UUIDVGGMR
++ _$ss18_DictionaryStorageCy13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOShy10Foundation4UUIDVGGMd
++ _$ss18_DictionaryStorageCy13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSo16RBSProcessHandleCGMR
++ _$ss18_DictionaryStorageCy13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSo16RBSProcessHandleCGMd
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMR
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMd
++ _$ss22KeyedDecodingContainerVy13caraccessoryd27CAFDVehicleResourcesManagerC22CustomImageArchiveInfoV10CodingKeys33_A8454C6BD39DE33790AEC551BD5FD6E1LLOGMR
++ _$ss22KeyedDecodingContainerVy13caraccessoryd27CAFDVehicleResourcesManagerC22CustomImageArchiveInfoV10CodingKeys33_A8454C6BD39DE33790AEC551BD5FD6E1LLOGMd
++ _$ss22KeyedEncodingContainerVy13caraccessoryd27CAFDVehicleResourcesManagerC22CustomImageArchiveInfoV10CodingKeys33_A8454C6BD39DE33790AEC551BD5FD6E1LLOGMR
++ _$ss22KeyedEncodingContainerVy13caraccessoryd27CAFDVehicleResourcesManagerC22CustomImageArchiveInfoV10CodingKeys33_A8454C6BD39DE33790AEC551BD5FD6E1LLOGMd
++ _$ss23_ContiguousArrayStorageCy13CarAssetUtils15CAUVehicleTraitO_SStGMR
++ _$ss23_ContiguousArrayStorageCy13CarAssetUtils15CAUVehicleTraitO_SStGMd
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss23_ContiguousArrayStorageCyScCy13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCSgs5NeverOGGMR
++ _$ss23_ContiguousArrayStorageCyScCy13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCSgs5NeverOGGMd
++ _$ss23_ContiguousArrayStorageCyScCySo6CAFCarCs5NeverOGGMR
++ _$ss23_ContiguousArrayStorageCyScCySo6CAFCarCs5NeverOGGMd
++ _$ss23_ContiguousArrayStorageCySo16NSURLResourceKeyaGMR
++ _$ss23_ContiguousArrayStorageCySo16NSURLResourceKeyaGMd
++ _$ss23_ContiguousArrayStorageCys11AnyHashableV_yptGMR
++ _$ss23_ContiguousArrayStorageCys11AnyHashableV_yptGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMR
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMd
++ _$ss23_ContiguousArrayStorageCyyXlGMR
++ _$ss23_ContiguousArrayStorageCyyXlGMd
++ _$sypSgMR
++ _$sypSgMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10Foundation11MeasurementVySo14NSUnitDurationCGMD
+- _$s10Foundation11MeasurementVySo14NSUnitDurationCGSgMD
+- _$s10Foundation17URLResourceValuesVSgMD
+- _$s10Foundation3URLVSgMD
+- _$s10Foundation4UUIDVSgMD
+- _$s13CarAssetUtils15CAUVehicleTraitO_SStMD
+- _$s13CarAssetUtils17CAUVariantsClient_pMD
+- _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCSgMD
+- _$s13caraccessoryd27CAFDVehicleResourcesManagerC22CustomImageArchiveInfoVSgMD
+- _$sSDy13CarAssetUtils15CAUVehicleTraitOSSGMD
+- _$sSDy13CarAssetUtils15CAUVehicleTraitOSSGSgMD
+- _$sSDyS2SGMD
+- _$sSDyS2SGSgMD
+- _$sSay8Dispatch0A13WorkItemFlagsVGMD
+- _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMD
+- _$sSbSgMD
+- _$sScCy13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCSgs5NeverOGMD
+- _$sScCySo6CAFCarCs5NeverOGMD
+- _$sScPSgMD
+- _$sSh8_VariantV6removeyxSgxF13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC_Tg5Tm
+- _$sSo25CAFSettingProminenceLevelVSgMD
+- _$sSo26NSSecurityScopedURLWrapperCSgMD
+- _$sSo8NSObjectCSgMD
+- _$ss11AnyHashableV_yptMD
+- _$ss11_SetStorageCy10Foundation4UUIDVGMD
+- _$ss11_SetStorageCy13caraccessoryd19_CAFDSessionBoostedCGMD
+- _$ss11_SetStorageCy13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLCGMD
+- _$ss11_SetStorageCy13caraccessoryd9CAFDAgentC20_CAFDConnectionProxyCGMD
+- _$ss11_SetStorageCySSGMD
+- _$ss11_SetStorageCySo12RBSAssertionCGMD
+- _$ss11_SetStorageCySo16NSURLResourceKeyaGMD
+- _$ss18_DictionaryStorageCy13CarAssetUtils15CAUVehicleTraitOSSGMD
+- _$ss18_DictionaryStorageCy13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOShy10Foundation4UUIDVGGMD
+- _$ss18_DictionaryStorageCy13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSo16RBSProcessHandleCGMD
+- _$ss18_DictionaryStorageCys11AnyHashableVypGMD
+- _$ss22KeyedDecodingContainerVy13caraccessoryd27CAFDVehicleResourcesManagerC22CustomImageArchiveInfoV10CodingKeys33_A8454C6BD39DE33790AEC551BD5FD6E1LLOGMD
+- _$ss22KeyedEncodingContainerVy13caraccessoryd27CAFDVehicleResourcesManagerC22CustomImageArchiveInfoV10CodingKeys33_A8454C6BD39DE33790AEC551BD5FD6E1LLOGMD
+- _$ss23_ContiguousArrayStorageCy13CarAssetUtils15CAUVehicleTraitO_SStGMD
+- _$ss23_ContiguousArrayStorageCySSGMD
+- _$ss23_ContiguousArrayStorageCyScCy13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCSgs5NeverOGGMD
+- _$ss23_ContiguousArrayStorageCyScCySo6CAFCarCs5NeverOGGMD
+- _$ss23_ContiguousArrayStorageCySo16NSURLResourceKeyaGMD
+- _$ss23_ContiguousArrayStorageCys11AnyHashableV_yptGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss23_ContiguousArrayStorageCys7CVarArg_pGMD
+- _$ss23_ContiguousArrayStorageCyyXlGMD
+- _$sypSgMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+
+```

@@ -1,0 +1,291 @@
+## libswift_RegexParser.dylib
+
+> `/usr/lib/swift/libswift_RegexParser.dylib`
+
+```diff
+
+-6.2.1.4.1
+-  __TEXT.__text: 0x867ac
++6.2.1.4.7
++  __TEXT.__text: 0x86e30
+   __TEXT.__auth_stubs: 0xb80
+-  __TEXT.__const: 0x56c8
++  __TEXT.__const: 0x5858
+   __TEXT.__cstring: 0x4f06
+   __TEXT.__swift5_typeref: 0xbe3
+   __TEXT.__swift5_capture: 0x2e8
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __AUTH_CONST.__auth_got: 0x5c0
+   __AUTH_CONST.__const: 0x6d40
+-  __DATA.__data: 0x828
++  __DATA.__data: 0x8a8
+   __DATA.__bss: 0xa7c0
+-  __DATA_DIRTY.__data: 0x420
++  __DATA_DIRTY.__data: 0x3a0
+   __DATA_DIRTY.__bss: 0x1f0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+-  UUID: FE966715-33DF-3673-953D-C3E5F6BE88A2
++  UUID: 489A1B8D-216C-30B6-9EB2-B07FD9B1E942
+   Functions: 2721
+-  Symbols:   8768
++  Symbols:   8818
+   CStrings:  804
+ 
+Symbols:
++ _$s12_RegexParser10_ASTParent_pMR
++ _$s12_RegexParser10_ASTParent_pMd
++ _$s12_RegexParser10_ASTParent_pSgMR
++ _$s12_RegexParser10_ASTParent_pSgMd
++ _$s12_RegexParser20LocatedErrorProtocol_pMR
++ _$s12_RegexParser20LocatedErrorProtocol_pMd
++ _$s12_RegexParser20LocatedErrorProtocol_pSgMR
++ _$s12_RegexParser20LocatedErrorProtocol_pSgMd
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionV4KindO_AItMR
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionV4KindO_AItMd
++ _$s12_RegexParser3ASTV20CustomCharacterClassV6MemberOSgMR
++ _$s12_RegexParser3ASTV20CustomCharacterClassV6MemberOSgMd
++ _$s12_RegexParser3ASTV20CustomCharacterClassV6MemberO_AGtMR
++ _$s12_RegexParser3ASTV20CustomCharacterClassV6MemberO_AGtMd
++ _$s12_RegexParser3ASTV4AtomV17CharacterPropertyV4KindOSgMR
++ _$s12_RegexParser3ASTV4AtomV17CharacterPropertyV4KindOSgMd
++ _$s12_RegexParser3ASTV4AtomV17CharacterPropertyV4KindO_AItMR
++ _$s12_RegexParser3ASTV4AtomV17CharacterPropertyV4KindO_AItMd
++ _$s12_RegexParser3ASTV4AtomV17CharacterPropertyVSgMR
++ _$s12_RegexParser3ASTV4AtomV17CharacterPropertyVSgMd
++ _$s12_RegexParser3ASTV4AtomV4KindOSgMR
++ _$s12_RegexParser3ASTV4AtomV4KindOSgMd
++ _$s12_RegexParser3ASTV4AtomV4KindO_AGtMR
++ _$s12_RegexParser3ASTV4AtomV4KindO_AGtMd
++ _$s12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagVSg_AJtMR
++ _$s12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagVSg_AJtMd
++ _$s12_RegexParser3ASTV4AtomV7CalloutO_AGtMR
++ _$s12_RegexParser3ASTV4AtomV7CalloutO_AGtMd
++ _$s12_RegexParser3ASTV4AtomVSgMR
++ _$s12_RegexParser3ASTV4AtomVSgMd
++ _$s12_RegexParser3ASTV5GroupV4KindO_AGtMR
++ _$s12_RegexParser3ASTV5GroupV4KindO_AGtMd
++ _$s12_RegexParser6SourceV12LocatedErrorVy_AA11DiagnosticsV08throwAnyE0yyKF0E10DiagnosticL_VGMR
++ _$s12_RegexParser6SourceV12LocatedErrorVy_AA11DiagnosticsV08throwAnyE0yyKF0E10DiagnosticL_VGMd
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV14QuantificationV6AmountOG_AEy_AI4KindOGSayAG6TriviaVGtSgMR
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV14QuantificationV6AmountOG_AEy_AI4KindOGSayAG6TriviaVGtSgMd
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV17CharacterPropertyVGMR
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV17CharacterPropertyVGMd
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV17CharacterPropertyVGSgMR
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV17CharacterPropertyVGSgMd
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV4KindOGMR
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV4KindOGMd
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV4KindOGSgMR
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV4KindOGSgMd
++ _$s12_RegexParser6SourceV7LocatedVy_AEy_AA3ASTV14QuantificationV6AmountOG_AEy_AI4KindOGSayAG6TriviaVGtGSgMR
++ _$s12_RegexParser6SourceV7LocatedVy_AEy_AA3ASTV14QuantificationV6AmountOG_AEy_AI4KindOGSayAG6TriviaVGtGSgMd
++ _$s12_RegexParser8_ASTNode_pMR
++ _$s12_RegexParser8_ASTNode_pMd
++ _$sSay12_RegexParser3ASTV14MatchingOptionVG_SbtMR
++ _$sSay12_RegexParser3ASTV14MatchingOptionVG_SbtMd
++ _$ss11_SetStorageCySSGMR
++ _$ss11_SetStorageCySSGMd
++ _$ss16IndexingIteratorVys7UnicodeO6ScalarV12_RegexParserE10AllScalarsVGMR
++ _$ss16IndexingIteratorVys7UnicodeO6ScalarV12_RegexParserE10AllScalarsVGMd
++ _$ss19_HasContiguousBytes_pMR
++ _$ss19_HasContiguousBytes_pMd
++ _$ss19_HasContiguousBytes_pSgMR
++ _$ss19_HasContiguousBytes_pSgMd
++ _$ss23_ContiguousArrayStorageCy12_RegexParser10DiagnosticVGMR
++ _$ss23_ContiguousArrayStorageCy12_RegexParser10DiagnosticVGMd
++ _$ss23_ContiguousArrayStorageCy12_RegexParser11CaptureListV0F0VGMR
++ _$ss23_ContiguousArrayStorageCy12_RegexParser11CaptureListV0F0VGMd
++ _$ss23_ContiguousArrayStorageCy12_RegexParser16CaptureStructureOGMR
++ _$ss23_ContiguousArrayStorageCy12_RegexParser16CaptureStructureOGMd
++ _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV14MatchingOptionVGMR
++ _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV14MatchingOptionVGMd
++ _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV20CustomCharacterClassV6MemberOGMR
++ _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV20CustomCharacterClassV6MemberOGMd
++ _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV20GlobalMatchingOptionVGMR
++ _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV20GlobalMatchingOptionVGMd
++ _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV4AtomV6ScalarVGMR
++ _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV4AtomV6ScalarVGMd
++ _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV4NodeOGMR
++ _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV4NodeOGMd
++ _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV6TriviaVGMR
++ _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV6TriviaVGMd
++ _$ss23_ContiguousArrayStorageCy12_RegexParser6SourceV7LocatedVy_SSGGMR
++ _$ss23_ContiguousArrayStorageCy12_RegexParser6SourceV7LocatedVy_SSGGMd
++ _$ss23_ContiguousArrayStorageCy12_RegexParser6SourceV8LocationVGMR
++ _$ss23_ContiguousArrayStorageCy12_RegexParser6SourceV8LocationVGMd
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss23_ContiguousArrayStorageCySay12_RegexParser3ASTV14MatchingOptionVG_SbtGMR
++ _$ss23_ContiguousArrayStorageCySay12_RegexParser3ASTV14MatchingOptionVG_SbtGMd
++ _$ss23_ContiguousArrayStorageCys12StaticStringVGMR
++ _$ss23_ContiguousArrayStorageCys12StaticStringVGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss23_ContiguousArrayStorageCys7UnicodeO6ScalarVGMR
++ _$ss23_ContiguousArrayStorageCys7UnicodeO6ScalarVGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ _$ss5SliceVys7UnicodeO6ScalarV12_RegexParserE10AllScalarsVGMR
++ _$ss5SliceVys7UnicodeO6ScalarV12_RegexParserE10AllScalarsVGMd
++ _$ss7UnicodeO11NumericTypeOSgMR
++ _$ss7UnicodeO11NumericTypeOSgMd
++ _$sypXp5value_Si5statetMR
++ _$sypXp5value_Si5statetMd
++ _$sypXpMR
++ _$sypXpMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s12_RegexParser10_ASTParent_pMD
+- _$s12_RegexParser10_ASTParent_pSgMD
+- _$s12_RegexParser20LocatedErrorProtocol_pMD
+- _$s12_RegexParser20LocatedErrorProtocol_pSgMD
+- _$s12_RegexParser3ASTV11ConditionalV9ConditionV4KindO_AItMD
+- _$s12_RegexParser3ASTV20CustomCharacterClassV6MemberOSgMD
+- _$s12_RegexParser3ASTV20CustomCharacterClassV6MemberO_AGtMD
+- _$s12_RegexParser3ASTV4AtomV17CharacterPropertyV4KindOSgMD
+- _$s12_RegexParser3ASTV4AtomV17CharacterPropertyV4KindO_AItMD
+- _$s12_RegexParser3ASTV4AtomV17CharacterPropertyVSgMD
+- _$s12_RegexParser3ASTV4AtomV4KindOSgMD
+- _$s12_RegexParser3ASTV4AtomV4KindO_AGtMD
+- _$s12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagVSg_AJtMD
+- _$s12_RegexParser3ASTV4AtomV7CalloutO_AGtMD
+- _$s12_RegexParser3ASTV4AtomVSgMD
+- _$s12_RegexParser3ASTV5GroupV4KindO_AGtMD
+- _$s12_RegexParser6SourceV12LocatedErrorVy_AA11DiagnosticsV08throwAnyE0yyKF0E10DiagnosticL_VGMD
+- _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV14QuantificationV6AmountOG_AEy_AI4KindOGSayAG6TriviaVGtSgMD
+- _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV17CharacterPropertyVGMD
+- _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV17CharacterPropertyVGSgMD
+- _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV4KindOGMD
+- _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV4KindOGSgMD
+- _$s12_RegexParser6SourceV7LocatedVy_AEy_AA3ASTV14QuantificationV6AmountOG_AEy_AI4KindOGSayAG6TriviaVGtGSgMD
+- _$s12_RegexParser8_ASTNode_pMD
+- _$sSay12_RegexParser3ASTV14MatchingOptionVG_SbtMD
+- _$ss11_SetStorageCySSGMD
+- _$ss16IndexingIteratorVys7UnicodeO6ScalarV12_RegexParserE10AllScalarsVGMD
+- _$ss19_HasContiguousBytes_pMD
+- _$ss19_HasContiguousBytes_pSgMD
+- _$ss23_ContiguousArrayStorageCy12_RegexParser10DiagnosticVGMD
+- _$ss23_ContiguousArrayStorageCy12_RegexParser11CaptureListV0F0VGMD
+- _$ss23_ContiguousArrayStorageCy12_RegexParser16CaptureStructureOGMD
+- _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV14MatchingOptionVGMD
+- _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV20CustomCharacterClassV6MemberOGMD
+- _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV20GlobalMatchingOptionVGMD
+- _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV4AtomV6ScalarVGMD
+- _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV4NodeOGMD
+- _$ss23_ContiguousArrayStorageCy12_RegexParser3ASTV6TriviaVGMD
+- _$ss23_ContiguousArrayStorageCy12_RegexParser6SourceV7LocatedVy_SSGGMD
+- _$ss23_ContiguousArrayStorageCy12_RegexParser6SourceV8LocationVGMD
+- _$ss23_ContiguousArrayStorageCySSGMD
+- _$ss23_ContiguousArrayStorageCySay12_RegexParser3ASTV14MatchingOptionVG_SbtGMD
+- _$ss23_ContiguousArrayStorageCys12StaticStringVGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss23_ContiguousArrayStorageCys7UnicodeO6ScalarVGMD
+- _$ss5Error_pMD
+- _$ss5SliceVys7UnicodeO6ScalarV12_RegexParserE10AllScalarsVGMD
+- _$ss7UnicodeO11NumericTypeOSgMD
+- _$sypXp5value_Si5statetMD
+- _$sypXpMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+Functions:
+~ _$s12_RegexParser3ASTV4NodeO10hasCaptureSbvg : 388 -> 412
+~ _$s12_RegexParser3ASTV11ensureValidACyKF : 340 -> 364
+~ _$s12_RegexParser3ASTV4NodeO8childrenSayAEGSgvg : 220 -> 244
+~ _$s12_RegexParser3ASTV4NodeO2asyxSgxmAA8_ASTNodeRzlF : 164 -> 172
+~ _$s12_RegexParser3ASTV5GroupVAA10_ASTParentA2aFP8childrenSayAC4NodeOGvgTW : 88 -> 96
+~ _$s12_RegexParser3ASTV14AbsentFunctionV8childrenSayAC4NodeOGvg : 232 -> 248
+~ _$s12_RegexParser3ASTV14AbsentFunctionVAA10_ASTParentA2aFP8childrenSayAC4NodeOGvgTW : 232 -> 248
+~ _$s12_RegexParser3ASTV4AtomV18literalStringValueSSSgvg : 548 -> 556
+~ _$s12_RegexParser11CaptureListV0C0V11descriptionSSvg : 156 -> 164
+~ _$s12_RegexParser11CaptureListV0C0Vs23CustomStringConvertibleAAsAFP11descriptionSSvgTW : 156 -> 164
+~ _$s12_RegexParser11CaptureListV11descriptionSSvg : 516 -> 528
+~ _$s12_RegexParser0B0V19withNormalizedForms33_3356729F9DCE7A8BB6139B535527B12BLL_15requireInPrefix5matchxSgSS_SbAHSSXEtlFZs7UnicodeO11NumericTypeO_Tt3g505$s12_a20Parser0B0V19classifyq14Type33_3356729fghijk6BLLys7P21O0dE0OSgSSFZAJSSXEfU_Tf1nnnc_n : 1280 -> 1304
+~ _$s12_RegexParser0B0V19withNormalizedForms33_3356729F9DCE7A8BB6139B535527B12BLL_15requireInPrefix5matchxSgSS_SbAHSSXEtlFZAA3ASTV4AtomV17CharacterPropertyV4KindO_Tt3g505$s12_a45Parser0B0V24classifySpecialPropValueyAA3ASTV4q3V17rs2V4T16OSgSSFZAMSSXEfU_Tf1nnnc_n : 1296 -> 1320
+~ _$s12_RegexParser0B0V19withNormalizedForms33_3356729F9DCE7A8BB6139B535527B12BLL_15requireInPrefix5matchxSgSS_SbAHSSXEtlFZAA3ASTV4AtomV17CharacterPropertyV4KindO_Tt3g505$s12_a20Parser0B0V25classifyr26Property3key5valueAA3ASTV4q7V0dE0V4T41OAA6SourceV7LocatedVy_SSG_AStFANSgSSXEfU_SSAcA6SourceV7LocatedVy_SSGSSTf1nnnc_n : 1412 -> 1436
+~ _$s12_RegexParser0B0V34classifyCharacterPropertyValueOnlyyAA3ASTV4AtomV0dE0V4KindOAA6SourceV7LocatedVy_SSGF : 1620 -> 1632
+~ _$s12_RegexParser0B0V25classifyCharacterProperty3key5valueAA3ASTV4AtomV0dE0V4KindOAA6SourceV7LocatedVy_SSG_AStF : 1068 -> 1092
+~ _$s12_RegexParser0B0V25classifyCharacterProperty3key5valueAA3ASTV4AtomV0dE0V4KindOAA6SourceV7LocatedVy_SSG_AStFANSgSSXEfU_ : 3012 -> 3024
+~ _$s12_RegexParser016swiftCompilerLexA7Literal5start9bufferEnd06mustBeA0SV9resumePtr_AA0dE5ErrorVSg5errortSgSV_SVSbtF : 532 -> 540
+~ _$s12_RegexParser018swiftCompilerParseA7Literal_16captureBufferOutSS11regexToEmit_Si7versiontSS_SwtKF : 596 -> 620
+~ _$s12_RegexParser19parseWithDelimitersyAA3ASTVxKSyRzSs11SubSequenceRtzlFSS_Tg5 : 1212 -> 1244
+~ _$s12_RegexParser19parseWithDelimitersyAA3ASTVxKSyRzSs11SubSequenceRtzlF : 1380 -> 1420
+~ _$s12_RegexParser08droppingA10DelimitersySS_AA9DelimiterVtSSF05stripE0L_ySS_ADtSgAD4KindOF : 1456 -> 1472
+~ _$s12_RegexParser0B0V9tryEatingyxSgAeCzXElFAA3ASTV14QuantificationV6AmountO_Tg505$s12_a62Parser0B0V13lexQuantRange6triviaAA6SourceV7LocatedVy_AA3ASTV14f2V6G43OGSgSayAK6TriviaVGz_tFAOSgACzXEfU_AuCzXEfU_SayAG0Y0VGTf1ncn_n : 2140 -> 2204
+~ _$s12_RegexParser0B0V27expectUnicodeScalarSequence6eatingAA3ASTV4AtomV4KindOSJ_tF : 2136 -> 2152
+~ _$s12_RegexParser0B0V27expectUnicodeScalarSequence6eatingAA3ASTV4AtomV4KindOSJ_tFSbACzXEfU_ : 588 -> 604
+~ _$s12_RegexParser0B0V16lexUnicodeScalarAA3ASTV4AtomV4KindOSgyF : 2024 -> 2036
+~ _$s12_RegexParser0B0V13lexQuantifierAA6SourceV7LocatedVy_AA3ASTV14QuantificationV6AmountOG_AHy_AL4KindOGSayAJ6TriviaVGtSgyF : 820 -> 828
+~ _$s12_RegexParser0B0V13lexQuantifierAA6SourceV7LocatedVy_AA3ASTV14QuantificationV6AmountOG_AHy_AL4KindOGSayAJ6TriviaVGtSgyFAvCzXEfU_ : 948 -> 980
+~ _$s12_RegexParser0B0V16lexCustomCCStartAA6SourceV7LocatedVy_AA3ASTV0D14CharacterClassV5StartOGSgyF : 1672 -> 1720
+~ _$s12_RegexParser0B0V25lexPOSIXCharacterProperty33_E16AF135E664C72DDA9A5705859E2720LLAA6SourceV7LocatedVy_AA3ASTV4AtomV09CharacterE0VGSgyF : 1340 -> 1380
+~ _$s12_RegexParser0B0V17lexNamedCharacter33_E16AF135E664C72DDA9A5705859E2720LLAA6SourceV7LocatedVy_AA3ASTV4AtomV4KindOGSgyF : 740 -> 768
+~ _$s12_RegexParser0B0V20lexCharacterProperty33_E16AF135E664C72DDA9A5705859E2720LLAA6SourceV7LocatedVy_AA3ASTV4AtomV0dE0VGSgyF : 528 -> 556
+~ _$s12_RegexParser0B0V19lexEscapedReference33_E16AF135E664C72DDA9A5705859E2720LLAA6SourceV7LocatedVy_AA3ASTV4AtomV4KindOGSgyF : 4244 -> 4284
+~ _$s12_RegexParser0B0V21lexGroupLikeReference33_E16AF135E664C72DDA9A5705859E2720LLAA6SourceV7LocatedVy_AA3ASTV4AtomV4KindOGSgyF : 2528 -> 2568
+~ _$s12_RegexParser0B0V13expectEscapedAA6SourceV7LocatedVy_AA3ASTV4AtomV4KindOGyFAnCzXEfU_ : 2252 -> 2336
+~ _$s12_RegexParser0B0V29expectOnigurumaCalloutArgList9leftBraceAA3ASTV4AtomV0E0O0D5NamedV0fG0VAA6SourceV8LocationV_tF : 2272 -> 2292
+~ _$s12_RegexParser0B0V19expectGroupLikeAtomAA3ASTV0F0V4KindOyF : 2616 -> 2640
+~ _$s12_RegexParser0B0V7lexAtomAA3ASTV0D0VSgyF : 988 -> 1044
+~ _$s12_RegexParser0B0V7lexAtomAA3ASTV0D0VSgyFAH4KindOSgACzXEfU_ : 3400 -> 3448
+~ _$s12_RegexParser0B0V9parseNodeAA3ASTV0D0OyF : 732 -> 740
+~ _$s12_RegexParser0B0V18parseConcatenationAA3ASTV4NodeOyF : 2712 -> 2720
+~ _$s12_RegexParser0B0V22parseQuantifierOperandAA3ASTV4NodeOSgyF : 1684 -> 1696
+~ _$s12_RegexParser0B0V25parseCustomCharacterClassyAA3ASTV0deF0VAA6SourceV7LocatedVy_AH5StartOGF : 2364 -> 2396
+~ _$s12_RegexParser0B0V14parseCCCMemberAA3ASTV20CustomCharacterClassV6MemberOSgyF : 1428 -> 1440
+~ _$s12_RegexParser0B0V21parsePotentialCCRange4intoySayAA3ASTV20CustomCharacterClassV6MemberOGz_tF : 5196 -> 5232
+~ _$s12_RegexParser5parseyAA3ASTVx_AA13SyntaxOptionsVtKSyRzSs11SubSequenceRtzlF : 392 -> 408
+~ _$ss5ErrorP12_RegexParserE14addingLocationysAA_pSnySS5IndexVGF : 500 -> 508
+~ _$s12_RegexParser13_ASTPrintablePAAE5_dumpSSyFAA3ASTV4NodeO_TB5 : 956 -> 980
+~ _$s12_RegexParser13_ASTPrintablePAAE5_dumpSSyFAA3ASTV14AbsentFunctionV_TB5 : 852 -> 868
+~ _$s12_RegexParser13_ASTPrintablePAAE9_childrenSayAA3ASTV4NodeOGSgvg : 600 -> 632
+~ _$sSTsE7forEachyyy7ElementQzKXEKFSay12_RegexParser3ASTV4NodeOG_Tg505$s12_d12Parser3ASTV4G37O10_postOrder4intoySayAEGz_tFyAEXEfU_AITf1cn_n : 1504 -> 1556
+~ _$s12_RegexParser3ASTV4NodeO10_postOrderSayAEGyF : 376 -> 400
+~ _$s12_RegexParser3ASTV4NodeO7_render2inSaySSGSS_tF : 1844 -> 1852
+~ _$ss7UnicodeO12_RegexParserE5BlockO8rawValueAESgSS_tcfC : 7280 -> 7288
+~ _$s12_RegexParser16TypeConstructionO05tupleC02of6labelsypXpxn_SSSgtSKRzypXp7ElementRtzlFZ : 320 -> 328
+~ _$sSS11withCStringyxxSPys4Int8VGKXEKlFypXp5value_Si5statet_Tg50123$s12_RegexParser16TypeConstructionO05tupleC02of6labelsypXpxn_SSSgtSKRzypXp7ElementRtzlFZypXp5value_Si5statetSRyypXpGXEfU_ypw13AJ_SiAKtSPys4C7VGXEfU_SiSRyypXpGTf1cn_n : 216 -> 228
+~ _$s12_RegexParser16TypeConstructionO5tuple2ofypxn_tSKRzyp7ElementRtzlFZ : 264 -> 272
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 268
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12_RegexParser3ASTV20CustomCharacterClassV6MemberO_Tg5 : 464 -> 472
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs7UnicodeO6ScalarV_Tg5 : 252 -> 260
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12_RegexParser16CaptureStructureO_Tg5 : 260 -> 268
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12_RegexParser3ASTV4NodeO_Tg5 : 260 -> 268
+~ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFs7UnicodeO6ScalarV12_RegexParserE10AllScalarsV_TB5 : 140 -> 148
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 268
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12_RegexParser11CaptureListV0Q0V_Tg5 : 284 -> 292
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12_RegexParser10DiagnosticV_Tg5 : 276 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12_RegexParser3ASTV20GlobalMatchingOptionV_Tg5 : 276 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12_RegexParser3ASTV20CustomCharacterClassV6MemberO_Tg5 : 464 -> 472
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12_RegexParser3ASTV4NodeO_Tg5 : 260 -> 268
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12_RegexParser6SourceV8LocationV_Tg5 : 252 -> 260
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12_RegexParser3ASTV4AtomV6ScalarV_Tg5 : 276 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12_RegexParser3ASTV14MatchingOptionV_Tg5 : 276 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12_RegexParser3ASTV6TriviaV_Tg5Tm : 264 -> 268
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSay12_RegexParser3ASTV14MatchingOptionVG_Sbt_Tg5 : 292 -> 308
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 108 -> 116
+~ _$ss10_NativeSetV6resize8capacityySi_tFSS_Tg5 : 600 -> 608
+~ _$ss10_NativeSetV4copyyyFSS_Tg5 : 340 -> 348
+~ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSS_Tg5 : 560 -> 568
+~ _$s12_RegexParser3ASTV5GroupV4KindO2eeoiySbAG_AGtFZTf4nnd_n : 1332 -> 1380
+~ _$s12_RegexParser3ASTV4AtomV17CharacterPropertyV4KindO2eeoiySbAI_AItFZTf4nnd_n : 3320 -> 3332
+~ _$s12_RegexParser3ASTV4AtomV7CalloutO14OnigurumaNamedV2eeoiySbAI_AItFZTf4nnd_n : 884 -> 892
+~ _$s12_RegexParser3ASTV4AtomV7CalloutO19OnigurumaOfContentsV2eeoiySbAI_AItFZTf4nnd_n : 868 -> 876
+~ _$s12_RegexParser3ASTV4AtomV7CalloutO2eeoiySbAG_AGtFZTf4nnd_n : 1120 -> 1136
+~ _$s12_RegexParser3ASTV4AtomV4KindO2eeoiySbAG_AGtFZTf4nnd_n : 3256 -> 3268
+~ _$s12_RegexParser3ASTV20CustomCharacterClassV6MemberO2eeoiySbAG_AGtFZTf4nnd_n : 2336 -> 2348
+~ _$s12_RegexParser3ASTV11ConditionalV9ConditionV4KindO2eeoiySbAI_AItFZTf4nnd_n : 1332 -> 1364
+~ ___swift_instantiateConcreteTypeFromMangledName -> ___swift_instantiateConcreteTypeFromMangledNameV2 : 76 -> 72
+~ ___swift_instantiateConcreteTypeFromMangledNameAbstract -> ___swift_instantiateConcreteTypeFromMangledNameAbstractV2 : 80 -> 72
+~ _$ss5SliceVys7UnicodeO6ScalarV12_RegexParserE10AllScalarsVGAByxGSksSkRzrlWlTm : 112 -> 120
+~ _$ss7UnicodeO6ScalarV12_RegexParserE10AllScalarsVSlAE11SubSequenceSl_SlWT : 60 -> 68
+~ _$ss7UnicodeO6ScalarV12_RegexParserE10AllScalarsVSTAE8IteratorST_StWT : 60 -> 68
+~ _$s12_RegexParser6SourceV12LocatedErrorVy_AA11DiagnosticsV08throwAnyE0yyKF0E10DiagnosticL_VGAEy_xGs0E0AAWlTm : 68 -> 72
+~ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV4KindOGSgWObTm : 100 -> 104
+~ _$s12_RegexParser10_ASTParent_pSgWOhTm : 92 -> 96
+
+```

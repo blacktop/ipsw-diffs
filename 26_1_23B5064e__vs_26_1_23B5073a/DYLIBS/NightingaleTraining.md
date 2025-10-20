@@ -1,0 +1,1022 @@
+## NightingaleTraining
+
+> `/System/Library/PrivateFrameworks/NightingaleTraining.framework/NightingaleTraining`
+
+```diff
+
+ 70.0.0.0.0
+-  __TEXT.__text: 0x19a004
++  __TEXT.__text: 0x19c4c4
+   __TEXT.__auth_stubs: 0x20c0
+   __TEXT.__objc_methlist: 0x18e0
+-  __TEXT.__const: 0x283d
++  __TEXT.__const: 0x30ad
+   __TEXT.__swift5_typeref: 0x16cf
+   __TEXT.__cstring: 0x3f82
+   __TEXT.__constg_swiftt: 0x1500
+
+   __AUTH.__objc_data: 0xa50
+   __AUTH.__data: 0x1330
+   __DATA.__objc_ivar: 0x24c
+-  __DATA.__data: 0x16c8
++  __DATA.__data: 0x16d0
+   __DATA.__bss: 0x2960
+   __DATA.__common: 0xd88
+-  __DATA_DIRTY.__data: 0x1a0
++  __DATA_DIRTY.__data: 0x198
+   __DATA_DIRTY.__bss: 0x80
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8CE6E341-842B-3119-9B97-A35264A2EC69
++  UUID: 76FEF319-AC8D-397A-9249-4E067970613B
+   Functions: 4361
+-  Symbols:   14141
++  Symbols:   14342
+   CStrings:  1478
+ 
+Symbols:
++ _$s10Foundation12DateIntervalV8interval_Sf2hrtMR
++ _$s10Foundation12DateIntervalV8interval_Sf2hrtMd
++ _$s10Foundation12DateIntervalV8interval_Sf2hrtSgMR
++ _$s10Foundation12DateIntervalV8interval_Sf2hrtSgMd
++ _$s10Foundation12DateIntervalVSgMR
++ _$s10Foundation12DateIntervalVSgMd
++ _$s10Foundation14DateComponentsVSgMR
++ _$s10Foundation14DateComponentsVSgMd
++ _$s10Foundation3URLVSgMR
++ _$s10Foundation3URLVSgMd
++ _$s10Foundation4DateV5lower_AC5uppertMR
++ _$s10Foundation4DateV5lower_AC5uppertMd
++ _$s10Foundation4DateVSgMR
++ _$s10Foundation4DateVSgMd
++ _$s10Foundation8CalendarVSgMR
++ _$s10Foundation8CalendarVSgMd
++ _$s10Foundation8TimeZoneVSgMR
++ _$s10Foundation8TimeZoneVSgMd
++ _$s19NightingaleTraining15PregnancySourceOSgMR
++ _$s19NightingaleTraining15PregnancySourceOSgMd
++ _$s19NightingaleTraining21AugmentedIntervalTreeCy10Foundation4DateVs6UInt32VGMR
++ _$s19NightingaleTraining21AugmentedIntervalTreeCy10Foundation4DateVs6UInt32VGMd
++ _$s19NightingaleTraining21AugmentedIntervalTreeCy10Foundation4DateVypGMR
++ _$s19NightingaleTraining21AugmentedIntervalTreeCy10Foundation4DateVypGMd
++ _$s19NightingaleTraining21AugmentedIntervalTreeCySiAA9Pregnancy_pGMR
++ _$s19NightingaleTraining21AugmentedIntervalTreeCySiAA9Pregnancy_pGMd
++ _$s19NightingaleTraining21AugmentedIntervalTreeCySiypGMR
++ _$s19NightingaleTraining21AugmentedIntervalTreeCySiypGMd
++ _$s19NightingaleTraining21AugmentedIntervalTreeCys6UInt32VAA9Pregnancy_pGMR
++ _$s19NightingaleTraining21AugmentedIntervalTreeCys6UInt32VAA9Pregnancy_pGMd
++ _$s19NightingaleTraining21AugmentedIntervalTreeCys6UInt32VypGMR
++ _$s19NightingaleTraining21AugmentedIntervalTreeCys6UInt32VypGMd
++ _$s19NightingaleTraining21HealthDataQueryResult_pMR
++ _$s19NightingaleTraining21HealthDataQueryResult_pMd
++ _$s19NightingaleTraining23HealthDataRawSampleTypeO_AA0cD11QueryResult_ptMR
++ _$s19NightingaleTraining23HealthDataRawSampleTypeO_AA0cD11QueryResult_ptMd
++ _$s19NightingaleTraining23HealthDataRawSampleTypeO_SaySo08HKSampleG0CGtMR
++ _$s19NightingaleTraining23HealthDataRawSampleTypeO_SaySo08HKSampleG0CGtMd
++ _$s19NightingaleTraining8IntervalVy10Foundation4DateVs6UInt32VGMR
++ _$s19NightingaleTraining8IntervalVy10Foundation4DateVs6UInt32VGMd
++ _$s19NightingaleTraining9Pregnancy_pMR
++ _$s19NightingaleTraining9Pregnancy_pMd
++ _$s19NightingaleTraining9Pregnancy_pSgMR
++ _$s19NightingaleTraining9Pregnancy_pSgMd
++ _$s24PrivateFederatedLearning13ShuffleMethodOSgMR
++ _$s24PrivateFederatedLearning13ShuffleMethodOSgMd
++ _$s24PrivateFederatedLearning8PFLErrorOSgMR
++ _$s24PrivateFederatedLearning8PFLErrorOSgMd
++ _$s8Morpheus17AnyArrayContainer_pMR
++ _$s8Morpheus17AnyArrayContainer_pMd
++ _$sSAySo7NSErrorCSgGMR
++ _$sSAySo7NSErrorCSgGMd
++ _$sSD4KeysVys5UInt8VSays6UInt32V_AFtG_GMR
++ _$sSD4KeysVys5UInt8VSays6UInt32V_AFtG_GMd
++ _$sSD4KeysVys6UInt32VSaySfG_GMR
++ _$sSD4KeysVys6UInt32VSaySfG_GMd
++ _$sSD4KeysVys6UInt32VSb_GMR
++ _$sSD4KeysVys6UInt32VSb_GMd
++ _$sSD4KeysVys6UInt32VSf15periodStartMean_Sf0cD3Stdt_GMR
++ _$sSD4KeysVys6UInt32VSf15periodStartMean_Sf0cD3Stdt_GMd
++ _$sSD4KeysVys6UInt32VSf_GMR
++ _$sSD4KeysVys6UInt32VSf_GMd
++ _$sSD4KeysVys6UInt32VSf_SSt_GMR
++ _$sSD4KeysVys6UInt32VSf_SSt_GMd
++ _$sSD4KeysVys6UInt32VSi_GMR
++ _$sSD4KeysVys6UInt32VSi_GMd
++ _$sSD4KeysVys6UInt32Vs5UInt8V_GMR
++ _$sSD4KeysVys6UInt32Vs5UInt8V_GMd
++ _$sSD6ValuesVys6UInt32VSf_GMR
++ _$sSD6ValuesVys6UInt32VSf_GMd
++ _$sSD8IteratorVys5UInt8VSays6UInt32V5start_AF3endtG_GMR
++ _$sSD8IteratorVys5UInt8VSays6UInt32V5start_AF3endtG_GMd
++ _$sSDy19NightingaleTraining23HealthDataRawSampleTypeOAA0cD11QueryResult_pGMR
++ _$sSDy19NightingaleTraining23HealthDataRawSampleTypeOAA0cD11QueryResult_pGMd
++ _$sSDy19NightingaleTraining23HealthDataRawSampleTypeOSaySo08HKSampleG0CGGMR
++ _$sSDy19NightingaleTraining23HealthDataRawSampleTypeOSaySo08HKSampleG0CGGMd
++ _$sSDyS2SGMR
++ _$sSDyS2SGMd
++ _$sSDySSSaySfGGMR
++ _$sSDySSSaySfGGMd
++ _$sSDySSSo8NSNumberCGMR
++ _$sSDySSSo8NSNumberCGMd
++ _$sSDySSypGMR
++ _$sSDySSypGMd
++ _$sSDySiSaySaySiGGGMR
++ _$sSDySiSaySaySiGGGMd
++ _$sSDySiSaySfGGMR
++ _$sSDySiSaySfGGMd
++ _$sSDySiSfGMR
++ _$sSDySiSfGMd
++ _$sSDySo12HKSampleTypeC19NightingaleTraining019HealthDataRawSampleB0OGMR
++ _$sSDySo12HKSampleTypeC19NightingaleTraining019HealthDataRawSampleB0OGMd
++ _$sSDys5UInt8VSays6UInt32V5start_AD3endtGGMR
++ _$sSDys5UInt8VSays6UInt32V5start_AD3endtGGMd
++ _$sSDys5UInt8VSays6UInt32V_ADtGGMR
++ _$sSDys5UInt8VSays6UInt32V_ADtGGMd
++ _$sSDys6UInt32VSay10Foundation12DateIntervalV8interval_Sf2hrtGGMR
++ _$sSDys6UInt32VSay10Foundation12DateIntervalV8interval_Sf2hrtGGMd
++ _$sSDys6UInt32VSay10Foundation12DateIntervalVGGMR
++ _$sSDys6UInt32VSay10Foundation12DateIntervalVGGMd
++ _$sSDys6UInt32VSaySfGGMR
++ _$sSDys6UInt32VSaySfGGMd
++ _$sSDys6UInt32VSbGMR
++ _$sSDys6UInt32VSbGMd
++ _$sSDys6UInt32VSf15periodStartMean_Sf0bC3StdtGMR
++ _$sSDys6UInt32VSf15periodStartMean_Sf0bC3StdtGMd
++ _$sSDys6UInt32VSf8daySHR10_Sf05nightC0Sf15periodStartMeanSf0eF3StdSf019daysSinceLastPeriodF0Sf3swtSf3hrvSf15respiratoryRateSf4spo2tGMR
++ _$sSDys6UInt32VSf8daySHR10_Sf05nightC0Sf15periodStartMeanSf0eF3StdSf019daysSinceLastPeriodF0Sf3swtSf3hrvSf15respiratoryRateSf4spo2tGMd
++ _$sSDys6UInt32VSfG9daySHR10s_AC05nightC0SDyABSiG0B9SHRCountsAF0dE0tMR
++ _$sSDys6UInt32VSfG9daySHR10s_AC05nightC0SDyABSiG0B9SHRCountsAF0dE0tMd
++ _$sSDys6UInt32VSfGMR
++ _$sSDys6UInt32VSfGMd
++ _$sSDys6UInt32VSf_SStGMR
++ _$sSDys6UInt32VSf_SStGMd
++ _$sSDys6UInt32VSf_SftGMR
++ _$sSDys6UInt32VSf_SftGMd
++ _$sSDys6UInt32VSiGMR
++ _$sSDys6UInt32VSiGMd
++ _$sSDys6UInt32Vs5UInt8V4flow_Sf8daySHR10Sf05nightE0Sf15periodStartMeanSf0gH3StdtGMR
++ _$sSDys6UInt32Vs5UInt8V4flow_Sf8daySHR10Sf05nightE0Sf15periodStartMeanSf0gH3StdtGMd
++ _$sSDys6UInt32Vs5UInt8VGMR
++ _$sSDys6UInt32Vs5UInt8VGMd
++ _$sSNy10Foundation4DateVGMR
++ _$sSNy10Foundation4DateVGMd
++ _$sSNys6UInt32VGMR
++ _$sSNys6UInt32VGMd
++ _$sSS_19NightingaleTraining18FeatureStatsOptionOtMR
++ _$sSS_19NightingaleTraining18FeatureStatsOptionOtMd
++ _$sSS_SaySfGtMR
++ _$sSS_SaySfGtMd
++ _$sSS_SdtMR
++ _$sSS_SdtMd
++ _$sSS_SitMR
++ _$sSS_SitMd
++ _$sSS_So8NSObjectCtMR
++ _$sSS_So8NSObjectCtMd
++ _$sSS_yptMR
++ _$sSS_yptMd
++ _$sSay10Foundation12DateIntervalV8interval_Sf2hrtGMR
++ _$sSay10Foundation12DateIntervalV8interval_Sf2hrtGMd
++ _$sSay10Foundation12DateIntervalVGMR
++ _$sSay10Foundation12DateIntervalVGMd
++ _$sSay19NightingaleTraining11HyperParamsCGMR
++ _$sSay19NightingaleTraining11HyperParamsCGMd
++ _$sSay19NightingaleTraining15PerSliceMetricsVGMR
++ _$sSay19NightingaleTraining15PerSliceMetricsVGMd
++ _$sSay19NightingaleTraining15PregnancySourceOGMR
++ _$sSay19NightingaleTraining15PregnancySourceOGMd
++ _$sSay19NightingaleTraining15PregnancySourceOSgGMR
++ _$sSay19NightingaleTraining15PregnancySourceOSgGMd
++ _$sSay19NightingaleTraining22PregnancyInvalidReasonOGMR
++ _$sSay19NightingaleTraining22PregnancyInvalidReasonOGMd
++ _$sSay19NightingaleTraining23HealthDataRawSampleTypeOGMR
++ _$sSay19NightingaleTraining23HealthDataRawSampleTypeOGMd
++ _$sSay19NightingaleTraining8IntervalVy10Foundation4DateVs6UInt32VGGMR
++ _$sSay19NightingaleTraining8IntervalVy10Foundation4DateVs6UInt32VGGMd
++ _$sSay19NightingaleTraining8IntervalVys6UInt32VAA9Pregnancy_pGGMR
++ _$sSay19NightingaleTraining8IntervalVys6UInt32VAA9Pregnancy_pGGMd
++ _$sSay19NightingaleTraining8IntervalVys6UInt32VypGGMR
++ _$sSay19NightingaleTraining8IntervalVys6UInt32VypGGMd
++ _$sSay19NightingaleTraining9Pregnancy_pGMR
++ _$sSay19NightingaleTraining9Pregnancy_pGMd
++ _$sSay19NightingaleTraining9Pregnancy_pSgGMR
++ _$sSay19NightingaleTraining9Pregnancy_pSgGMd
++ _$sSaySDySSSaySfGGGMR
++ _$sSaySDySSSaySfGGGMd
++ _$sSaySNys6UInt32VGGMR
++ _$sSaySNys6UInt32VGGMd
++ _$sSaySSGMR
++ _$sSaySSGMd
++ _$sSaySS_yptGMR
++ _$sSaySS_yptGMd
++ _$sSaySaySfGGMR
++ _$sSaySaySfGGMd
++ _$sSaySaySiGGMR
++ _$sSaySaySiGGMd
++ _$sSaySaySo17HKQueryDescriptorCGGMR
++ _$sSaySaySo17HKQueryDescriptorCGGMd
++ _$sSaySaySo17HKQueryDescriptorCGSgGMR
++ _$sSaySaySo17HKQueryDescriptorCGSgGMd
++ _$sSaySays5UInt8V4type_s6UInt32V3daySb3endtGGMR
++ _$sSaySays5UInt8V4type_s6UInt32V3daySb3endtGGMd
++ _$sSaySays6UInt32VGGMR
++ _$sSaySays6UInt32VGGMd
++ _$sSaySbGMR
++ _$sSaySbGMd
++ _$sSaySdGMR
++ _$sSaySdGMd
++ _$sSaySf12darkRedStart_Sf08lowRangeC0Sf0dE3EndtGMR
++ _$sSaySf12darkRedStart_Sf08lowRangeC0Sf0dE3EndtGMd
++ _$sSaySfG8daySHR10_AA0aB5StatsAA05nightB0AA0dbC0AA15periodStartMeanAA0efgC0AA0eF3StdAA0efhC0AA019daysSinceLastPeriodF0AA0ijklfC0AA3swtAA0mC0AA3hrvAA0nC0AA15respiratoryRateAA0opC0AA4spo2AA0qC0Says6UInt32VG12sliceEndDaysAA6labelsSDySSSiG7metricstMR
++ _$sSaySfG8daySHR10_AA0aB5StatsAA05nightB0AA0dbC0AA15periodStartMeanAA0efgC0AA0eF3StdAA0efhC0AA019daysSinceLastPeriodF0AA0ijklfC0AA3swtAA0mC0AA3hrvAA0nC0AA15respiratoryRateAA0opC0AA4spo2AA0qC0Says6UInt32VG12sliceEndDaysAA6labelsSDySSSiG7metricstMd
++ _$sSaySfGMR
++ _$sSaySfGMd
++ _$sSaySfG_S2ftMR
++ _$sSaySfG_S2ftMd
++ _$sSaySfG_SdtMR
++ _$sSaySfG_SdtMd
++ _$sSaySfSgGMR
++ _$sSaySfSgGMd
++ _$sSaySi6offset_Sf7elementtGMR
++ _$sSaySi6offset_Sf7elementtGMd
++ _$sSaySiGMR
++ _$sSaySiGMd
++ _$sSaySiSgGMR
++ _$sSaySiSgGMd
++ _$sSaySi_SaySaySiGGtGMR
++ _$sSaySi_SaySaySiGGtGMd
++ _$sSaySi_SaySfGtGMR
++ _$sSaySi_SaySfGtGMd
++ _$sSaySi_SftGMR
++ _$sSaySi_SftGMd
++ _$sSaySo12HKSampleTypeCGMR
++ _$sSaySo12HKSampleTypeCGMd
++ _$sSaySo14HKCategoryTypeCGMR
++ _$sSaySo14HKCategoryTypeCGMd
++ _$sSaySo16HKCategorySampleCGMR
++ _$sSaySo16HKCategorySampleCGMd
++ _$sSaySo16HKQuantitySampleCGMR
++ _$sSaySo16HKQuantitySampleCGMd
++ _$sSaySo17HKQueryDescriptorCGMR
++ _$sSaySo17HKQueryDescriptorCGMd
++ _$sSaySo17HKQueryDescriptorCGSgMR
++ _$sSaySo17HKQueryDescriptorCGSgMd
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMR
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMd
++ _$sSaySo30NgtMenstrualAlgorithmsDayInputCGMR
++ _$sSaySo30NgtMenstrualAlgorithmsDayInputCGMd
++ _$sSaySo32NgtMenstrualAlgorithmsPredictionCGMR
++ _$sSaySo32NgtMenstrualAlgorithmsPredictionCGMd
++ _$sSaySo34_HKPrivatePregnancyStartDateSourceVGMR
++ _$sSaySo34_HKPrivatePregnancyStartDateSourceVGMd
++ _$sSaySo37NgtMenstrualAlgorithmsHistoricalCycleCGMR
++ _$sSaySo37NgtMenstrualAlgorithmsHistoricalCycleCGMd
++ _$sSaySo8HKSampleCGMR
++ _$sSaySo8HKSampleCGMd
++ _$sSaySo8NSNumberCGMR
++ _$sSaySo8NSNumberCGMd
++ _$sSays5UInt8V4type_s6UInt32V3daySb3endtGMR
++ _$sSays5UInt8V4type_s6UInt32V3daySb3endtGMd
++ _$sSays6UInt32V5start_AB3endSi5labelSb6detectSiSg7latencytGMR
++ _$sSays6UInt32V5start_AB3endSi5labelSb6detectSiSg7latencytGMd
++ _$sSays6UInt32V5start_AB3endtGMR
++ _$sSays6UInt32V5start_AB3endtGMd
++ _$sSays6UInt32VGMR
++ _$sSays6UInt32VGMd
++ _$sSays6UInt32V_ABtGMR
++ _$sSays6UInt32V_ABtGMd
++ _$sSayySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGMR
++ _$sSayySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGMd
++ _$sSayypGMR
++ _$sSayypGMd
++ _$sScCySDy19NightingaleTraining23HealthDataRawSampleTypeOAA0cD11QueryResult_pGs5Error_pGMR
++ _$sScCySDy19NightingaleTraining23HealthDataRawSampleTypeOAA0cD11QueryResult_pGs5Error_pGMd
++ _$sScCySDys6UInt32VSfG9daySHR10s_AC05nightC0SDyABSiG0B9SHRCountsAF0dE0ts5Error_pGMR
++ _$sScCySDys6UInt32VSfG9daySHR10s_AC05nightC0SDyABSiG0B9SHRCountsAF0dE0ts5Error_pGMd
++ _$sScCySay19NightingaleTraining9Pregnancy_pSgGs5Error_pGMR
++ _$sScCySay19NightingaleTraining9Pregnancy_pSgGs5Error_pGMd
++ _$sScPSgMR
++ _$sScPSgMd
++ _$sScg8IteratorVySDys6UInt32VSfG9daySHR10s_AE05nightD0SDyADSiG0C9SHRCountsAH0eF0ts5Error_p_GMR
++ _$sScg8IteratorVySDys6UInt32VSfG9daySHR10s_AE05nightD0SDyADSiG0C9SHRCountsAH0eF0ts5Error_p_GMd
++ _$sScgySDys6UInt32VSfG9daySHR10s_AC05nightC0SDyABSiG0B9SHRCountsAF0dE0ts5Error_pGMR
++ _$sScgySDys6UInt32VSfG9daySHR10s_AC05nightC0SDyABSiG0B9SHRCountsAF0dE0ts5Error_pGMd
++ _$sSf12darkRedStart_Sf08lowRangeC0Sf0dE3EndtMR
++ _$sSf12darkRedStart_Sf08lowRangeC0Sf0dE3EndtMd
++ _$sSf15periodStartMean_Sf0aB3StdtMR
++ _$sSf15periodStartMean_Sf0aB3StdtMd
++ _$sSf8daySHR10_Sf05nightB0Sf15periodStartMeanSf0dE3StdSf019daysSinceLastPeriodE0Sf3swtSf3hrvSf15respiratoryRateSf4spo2tMR
++ _$sSf8daySHR10_Sf05nightB0Sf15periodStartMeanSf0dE3StdSf019daysSinceLastPeriodE0Sf3swtSf3hrvSf15respiratoryRateSf4spo2tMd
++ _$sSfSgMR
++ _$sSfSgMd
++ _$sSf_SStMR
++ _$sSf_SStMd
++ _$sSf_SftMR
++ _$sSf_SftMd
++ _$sShys6UInt32VGMR
++ _$sShys6UInt32VGMd
++ _$sSiSgMR
++ _$sSiSgMd
++ _$sSi_SaySaySiGGtMR
++ _$sSi_SaySaySiGGtMd
++ _$sSi_SaySfGtMR
++ _$sSi_SaySfGtMd
++ _$sSi_SftMR
++ _$sSi_SftMd
++ _$sSi_SiSay19NightingaleTraining9Pregnancy_pGs6UInt32VtMR
++ _$sSi_SiSay19NightingaleTraining9Pregnancy_pGs6UInt32VtMd
++ _$sSi_s5UInt8VtMR
++ _$sSi_s5UInt8VtMd
++ _$sSiycMR
++ _$sSiycMd
++ _$sSnySiGMR
++ _$sSnySiGMd
++ _$sSnys6UInt32VGMR
++ _$sSnys6UInt32VGMd
++ _$sSo12HKSampleTypeC_19NightingaleTraining019HealthDataRawSampleB0OtMR
++ _$sSo12HKSampleTypeC_19NightingaleTraining019HealthDataRawSampleB0OtMd
++ _$sSo46NgtMenstrualAlgorithmsDayStreamProcessorConfigC_S2dSo0abc7MLModelG0CtMR
++ _$sSo46NgtMenstrualAlgorithmsDayStreamProcessorConfigC_S2dSo0abc7MLModelG0CtMd
++ _$sSo8NSObjectCSgMR
++ _$sSo8NSObjectCSgMd
++ _$sSz_pMR
++ _$sSz_pMd
++ _$ss10ArraySliceVySfGMR
++ _$ss10ArraySliceVySfGMd
++ _$ss10ArraySliceVys6UInt32V5start_AD3endtGMR
++ _$ss10ArraySliceVys6UInt32V5start_AD3endtGMd
++ _$ss10ArraySliceVys6UInt32VGMR
++ _$ss10ArraySliceVys6UInt32VGMd
++ _$ss12Zip2SequenceVySaySfGACGMR
++ _$ss12Zip2SequenceVySaySfGACGMd
++ _$ss12Zip2SequenceVySaySfGs10ArraySliceVySfGGMR
++ _$ss12Zip2SequenceVySaySfGs10ArraySliceVySfGGMd
++ _$ss12Zip2SequenceVySays6UInt32VGSaySf12darkRedStart_Sf08lowRangeF0Sf0gH3EndtGGMR
++ _$ss12Zip2SequenceVySays6UInt32VGSaySf12darkRedStart_Sf08lowRangeF0Sf0gH3EndtGGMd
++ _$ss12Zip2SequenceVys10ArraySliceVySfGAEGMR
++ _$ss12Zip2SequenceVys10ArraySliceVySfGAEGMd
++ _$ss16IndexingIteratorVySNys6UInt32VGGMR
++ _$ss16IndexingIteratorVySNys6UInt32VGGMd
++ _$ss16IndexingIteratorVySay10Foundation12DateIntervalV8interval_Sf2hrtGGMR
++ _$ss16IndexingIteratorVySay10Foundation12DateIntervalV8interval_Sf2hrtGGMd
++ _$ss16IndexingIteratorVySay10Foundation12DateIntervalVGGMR
++ _$ss16IndexingIteratorVySay10Foundation12DateIntervalVGGMd
++ _$ss16IndexingIteratorVySay19NightingaleTraining8IntervalVys6UInt32VAC9Pregnancy_pGGGMR
++ _$ss16IndexingIteratorVySay19NightingaleTraining8IntervalVys6UInt32VAC9Pregnancy_pGGGMd
++ _$ss16IndexingIteratorVySay19NightingaleTraining9Pregnancy_pGGMR
++ _$ss16IndexingIteratorVySay19NightingaleTraining9Pregnancy_pGGMd
++ _$ss16IndexingIteratorVySaySDySSSaySfGGGGMR
++ _$ss16IndexingIteratorVySaySDySSSaySfGGGGMd
++ _$ss16IndexingIteratorVySaySNys6UInt32VGGGMR
++ _$ss16IndexingIteratorVySaySNys6UInt32VGGGMd
++ _$ss16IndexingIteratorVySaySSGGMR
++ _$ss16IndexingIteratorVySaySSGGMd
++ _$ss16IndexingIteratorVySaySfGGMR
++ _$ss16IndexingIteratorVySaySfGGMd
++ _$ss16IndexingIteratorVySaySo16HKQuantitySampleCGGMR
++ _$ss16IndexingIteratorVySaySo16HKQuantitySampleCGGMd
++ _$ss16IndexingIteratorVySaySo8HKSampleCGGMR
++ _$ss16IndexingIteratorVySaySo8HKSampleCGGMd
++ _$ss16IndexingIteratorVySays5UInt8V4type_s6UInt32V3daySb3endtGGMR
++ _$ss16IndexingIteratorVySays5UInt8V4type_s6UInt32V3daySb3endtGGMd
++ _$ss16IndexingIteratorVySays6UInt32VGGMR
++ _$ss16IndexingIteratorVySays6UInt32VGGMd
++ _$ss16IndexingIteratorVySnySiGGMR
++ _$ss16IndexingIteratorVySnySiGGMd
++ _$ss16IndexingIteratorVySnys6UInt32VGGMR
++ _$ss16IndexingIteratorVySnys6UInt32VGGMd
++ _$ss16IndexingIteratorVys10ArraySliceVys6UInt32V5start_AF3endtGGMR
++ _$ss16IndexingIteratorVys10ArraySliceVys6UInt32V5start_AF3endtGGMd
++ _$ss18EnumeratedSequenceV8IteratorVySaySSG_GMR
++ _$ss18EnumeratedSequenceV8IteratorVySaySSG_GMd
++ _$ss18EnumeratedSequenceV8IteratorVySays6UInt32VG_GMR
++ _$ss18EnumeratedSequenceV8IteratorVySays6UInt32VG_GMd
++ _$ss18EnumeratedSequenceVySaySSGGMR
++ _$ss18EnumeratedSequenceVySaySSGGMd
++ _$ss18EnumeratedSequenceVySaySfGGMR
++ _$ss18EnumeratedSequenceVySaySfGGMd
++ _$ss18EnumeratedSequenceVySaySiGGMR
++ _$ss18EnumeratedSequenceVySaySiGGMd
++ _$ss18EnumeratedSequenceVySays6UInt32VGGMR
++ _$ss18EnumeratedSequenceVySays6UInt32VGGMd
++ _$ss18ReversedCollectionVySaySfGGMR
++ _$ss18ReversedCollectionVySaySfGGMd
++ _$ss18_DictionaryStorageCySSypGMR
++ _$ss18_DictionaryStorageCySSypGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ _$ss5UInt8V4flow_Sf8daySHR10Sf05nightD0Sf15periodStartMeanSf0fG3StdtMR
++ _$ss5UInt8V4flow_Sf8daySHR10Sf05nightD0Sf15periodStartMeanSf0fG3StdtMd
++ _$ss5UInt8V4type_s6UInt32V3daySb3endtMR
++ _$ss5UInt8V4type_s6UInt32V3daySb3endtMd
++ _$ss5UInt8V_Says6UInt32V5start_AD3endtGtMR
++ _$ss5UInt8V_Says6UInt32V5start_AD3endtGtMd
++ _$ss5UInt8V_Says6UInt32V_ADtGtMR
++ _$ss5UInt8V_Says6UInt32V_ADtGtMd
++ _$ss6UInt32V5start_AB3endSi5labelSb6detectSiSg7latencytMR
++ _$ss6UInt32V5start_AB3endSi5labelSb6detectSiSg7latencytMd
++ _$ss6UInt32V5start_AB3endtMR
++ _$ss6UInt32V5start_AB3endtMd
++ _$ss6UInt32V_ABtMR
++ _$ss6UInt32V_ABtMd
++ _$ss6UInt32V_SaySfGtMR
++ _$ss6UInt32V_SaySfGtMd
++ _$ss6UInt32V_SbtMR
++ _$ss6UInt32V_SbtMd
++ _$ss6UInt32V_Sf15periodStartMean_Sf0bC3StdttMR
++ _$ss6UInt32V_Sf15periodStartMean_Sf0bC3StdttMd
++ _$ss6UInt32V_Sf_SSttMR
++ _$ss6UInt32V_Sf_SSttMd
++ _$ss6UInt32V_SftMR
++ _$ss6UInt32V_SftMd
++ _$ss6UInt32V_SitMR
++ _$ss6UInt32V_SitMd
++ _$ss6UInt32V_s5UInt8VtMR
++ _$ss6UInt32V_s5UInt8VtMd
++ _$sySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcMR
++ _$sySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcMd
++ _$sypSgMR
++ _$sypSgMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10Foundation12DateIntervalV8interval_Sf2hrtMD
+- _$s10Foundation12DateIntervalV8interval_Sf2hrtSgMD
+- _$s10Foundation12DateIntervalVSgMD
+- _$s10Foundation14DateComponentsVSgMD
+- _$s10Foundation3URLVSgMD
+- _$s10Foundation4DateV5lower_AC5uppertMD
+- _$s10Foundation4DateVSgMD
+- _$s10Foundation8CalendarVSgMD
+- _$s10Foundation8TimeZoneVSgMD
+- _$s19NightingaleTraining15PregnancySourceOSgMD
+- _$s19NightingaleTraining21AugmentedIntervalTreeCy10Foundation4DateVs6UInt32VGMD
+- _$s19NightingaleTraining21AugmentedIntervalTreeCy10Foundation4DateVypGMD
+- _$s19NightingaleTraining21AugmentedIntervalTreeCySiAA9Pregnancy_pGMD
+- _$s19NightingaleTraining21AugmentedIntervalTreeCySiypGMD
+- _$s19NightingaleTraining21AugmentedIntervalTreeCys6UInt32VAA9Pregnancy_pGMD
+- _$s19NightingaleTraining21AugmentedIntervalTreeCys6UInt32VypGMD
+- _$s19NightingaleTraining21HealthDataQueryResult_pMD
+- _$s19NightingaleTraining23HealthDataRawSampleTypeO_AA0cD11QueryResult_ptMD
+- _$s19NightingaleTraining23HealthDataRawSampleTypeO_SaySo08HKSampleG0CGtMD
+- _$s19NightingaleTraining8IntervalVy10Foundation4DateVs6UInt32VGMD
+- _$s19NightingaleTraining9Pregnancy_pMD
+- _$s19NightingaleTraining9Pregnancy_pSgMD
+- _$s24PrivateFederatedLearning13ShuffleMethodOSgMD
+- _$s24PrivateFederatedLearning8PFLErrorOSgMD
+- _$s8Morpheus17AnyArrayContainer_pMD
+- _$sSAySo7NSErrorCSgGMD
+- _$sSD4KeysVys5UInt8VSays6UInt32V_AFtG_GMD
+- _$sSD4KeysVys6UInt32VSaySfG_GMD
+- _$sSD4KeysVys6UInt32VSb_GMD
+- _$sSD4KeysVys6UInt32VSf15periodStartMean_Sf0cD3Stdt_GMD
+- _$sSD4KeysVys6UInt32VSf_GMD
+- _$sSD4KeysVys6UInt32VSf_SSt_GMD
+- _$sSD4KeysVys6UInt32VSi_GMD
+- _$sSD4KeysVys6UInt32Vs5UInt8V_GMD
+- _$sSD6ValuesVys6UInt32VSf_GMD
+- _$sSD8IteratorVys5UInt8VSays6UInt32V5start_AF3endtG_GMD
+- _$sSDy19NightingaleTraining23HealthDataRawSampleTypeOAA0cD11QueryResult_pGMD
+- _$sSDy19NightingaleTraining23HealthDataRawSampleTypeOSaySo08HKSampleG0CGGMD
+- _$sSDyS2SGMD
+- _$sSDySSSaySfGGMD
+- _$sSDySSSo8NSNumberCGMD
+- _$sSDySSypGMD
+- _$sSDySiSaySaySiGGGMD
+- _$sSDySiSaySfGGMD
+- _$sSDySiSfGMD
+- _$sSDySo12HKSampleTypeC19NightingaleTraining019HealthDataRawSampleB0OGMD
+- _$sSDys5UInt8VSays6UInt32V5start_AD3endtGGMD
+- _$sSDys5UInt8VSays6UInt32V_ADtGGMD
+- _$sSDys6UInt32VSay10Foundation12DateIntervalV8interval_Sf2hrtGGMD
+- _$sSDys6UInt32VSay10Foundation12DateIntervalVGGMD
+- _$sSDys6UInt32VSaySfGGMD
+- _$sSDys6UInt32VSbGMD
+- _$sSDys6UInt32VSf15periodStartMean_Sf0bC3StdtGMD
+- _$sSDys6UInt32VSf8daySHR10_Sf05nightC0Sf15periodStartMeanSf0eF3StdSf019daysSinceLastPeriodF0Sf3swtSf3hrvSf15respiratoryRateSf4spo2tGMD
+- _$sSDys6UInt32VSfG9daySHR10s_AC05nightC0SDyABSiG0B9SHRCountsAF0dE0tMD
+- _$sSDys6UInt32VSfGMD
+- _$sSDys6UInt32VSf_SStGMD
+- _$sSDys6UInt32VSf_SftGMD
+- _$sSDys6UInt32VSiGMD
+- _$sSDys6UInt32Vs5UInt8V4flow_Sf8daySHR10Sf05nightE0Sf15periodStartMeanSf0gH3StdtGMD
+- _$sSDys6UInt32Vs5UInt8VGMD
+- _$sSNy10Foundation4DateVGMD
+- _$sSNys6UInt32VGMD
+- _$sSS_19NightingaleTraining18FeatureStatsOptionOtMD
+- _$sSS_SaySfGtMD
+- _$sSS_SdtMD
+- _$sSS_SitMD
+- _$sSS_So8NSObjectCtMD
+- _$sSS_yptMD
+- _$sSay10Foundation12DateIntervalV8interval_Sf2hrtGMD
+- _$sSay10Foundation12DateIntervalVGMD
+- _$sSay19NightingaleTraining11HyperParamsCGMD
+- _$sSay19NightingaleTraining15PerSliceMetricsVGMD
+- _$sSay19NightingaleTraining15PregnancySourceOGMD
+- _$sSay19NightingaleTraining15PregnancySourceOSgGMD
+- _$sSay19NightingaleTraining22PregnancyInvalidReasonOGMD
+- _$sSay19NightingaleTraining23HealthDataRawSampleTypeOGMD
+- _$sSay19NightingaleTraining8IntervalVy10Foundation4DateVs6UInt32VGGMD
+- _$sSay19NightingaleTraining8IntervalVys6UInt32VAA9Pregnancy_pGGMD
+- _$sSay19NightingaleTraining8IntervalVys6UInt32VypGGMD
+- _$sSay19NightingaleTraining9Pregnancy_pGMD
+- _$sSay19NightingaleTraining9Pregnancy_pSgGMD
+- _$sSaySDySSSaySfGGGMD
+- _$sSaySNys6UInt32VGGMD
+- _$sSaySSGMD
+- _$sSaySS_yptGMD
+- _$sSaySaySfGGMD
+- _$sSaySaySiGGMD
+- _$sSaySaySo17HKQueryDescriptorCGGMD
+- _$sSaySaySo17HKQueryDescriptorCGSgGMD
+- _$sSaySays5UInt8V4type_s6UInt32V3daySb3endtGGMD
+- _$sSaySays6UInt32VGGMD
+- _$sSaySbGMD
+- _$sSaySdGMD
+- _$sSaySf12darkRedStart_Sf08lowRangeC0Sf0dE3EndtGMD
+- _$sSaySfG8daySHR10_AA0aB5StatsAA05nightB0AA0dbC0AA15periodStartMeanAA0efgC0AA0eF3StdAA0efhC0AA019daysSinceLastPeriodF0AA0ijklfC0AA3swtAA0mC0AA3hrvAA0nC0AA15respiratoryRateAA0opC0AA4spo2AA0qC0Says6UInt32VG12sliceEndDaysAA6labelsSDySSSiG7metricstMD
+- _$sSaySfGMD
+- _$sSaySfG_S2ftMD
+- _$sSaySfG_SdtMD
+- _$sSaySfSgGMD
+- _$sSaySi6offset_Sf7elementtGMD
+- _$sSaySiGMD
+- _$sSaySiSgGMD
+- _$sSaySi_SaySaySiGGtGMD
+- _$sSaySi_SaySfGtGMD
+- _$sSaySi_SftGMD
+- _$sSaySo12HKSampleTypeCGMD
+- _$sSaySo14HKCategoryTypeCGMD
+- _$sSaySo16HKCategorySampleCGMD
+- _$sSaySo16HKQuantitySampleCGMD
+- _$sSaySo17HKQueryDescriptorCGMD
+- _$sSaySo17HKQueryDescriptorCGSgMD
+- _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMD
+- _$sSaySo30NgtMenstrualAlgorithmsDayInputCGMD
+- _$sSaySo32NgtMenstrualAlgorithmsPredictionCGMD
+- _$sSaySo34_HKPrivatePregnancyStartDateSourceVGMD
+- _$sSaySo37NgtMenstrualAlgorithmsHistoricalCycleCGMD
+- _$sSaySo8HKSampleCGMD
+- _$sSaySo8NSNumberCGMD
+- _$sSays5UInt8V4type_s6UInt32V3daySb3endtGMD
+- _$sSays6UInt32V5start_AB3endSi5labelSb6detectSiSg7latencytGMD
+- _$sSays6UInt32V5start_AB3endtGMD
+- _$sSays6UInt32VGMD
+- _$sSays6UInt32V_ABtGMD
+- _$sSayySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGMD
+- _$sSayypGMD
+- _$sScCySDy19NightingaleTraining23HealthDataRawSampleTypeOAA0cD11QueryResult_pGs5Error_pGMD
+- _$sScCySDys6UInt32VSfG9daySHR10s_AC05nightC0SDyABSiG0B9SHRCountsAF0dE0ts5Error_pGMD
+- _$sScCySay19NightingaleTraining9Pregnancy_pSgGs5Error_pGMD
+- _$sScPSgMD
+- _$sScg8IteratorVySDys6UInt32VSfG9daySHR10s_AE05nightD0SDyADSiG0C9SHRCountsAH0eF0ts5Error_p_GMD
+- _$sScgySDys6UInt32VSfG9daySHR10s_AC05nightC0SDyABSiG0B9SHRCountsAF0dE0ts5Error_pGMD
+- _$sSf12darkRedStart_Sf08lowRangeC0Sf0dE3EndtMD
+- _$sSf15periodStartMean_Sf0aB3StdtMD
+- _$sSf8daySHR10_Sf05nightB0Sf15periodStartMeanSf0dE3StdSf019daysSinceLastPeriodE0Sf3swtSf3hrvSf15respiratoryRateSf4spo2tMD
+- _$sSfSgMD
+- _$sSf_SStMD
+- _$sSf_SftMD
+- _$sShys6UInt32VGMD
+- _$sSiSgMD
+- _$sSi_SaySaySiGGtMD
+- _$sSi_SaySfGtMD
+- _$sSi_SftMD
+- _$sSi_SiSay19NightingaleTraining9Pregnancy_pGs6UInt32VtMD
+- _$sSi_s5UInt8VtMD
+- _$sSiycMD
+- _$sSnySiGMD
+- _$sSnys6UInt32VGMD
+- _$sSo12HKSampleTypeC_19NightingaleTraining019HealthDataRawSampleB0OtMD
+- _$sSo46NgtMenstrualAlgorithmsDayStreamProcessorConfigC_S2dSo0abc7MLModelG0CtMD
+- _$sSo8NSObjectCSgMD
+- _$sSz_pMD
+- _$ss10ArraySliceVySfGMD
+- _$ss10ArraySliceVys6UInt32V5start_AD3endtGMD
+- _$ss10ArraySliceVys6UInt32VGMD
+- _$ss12Zip2SequenceVySaySfGACGMD
+- _$ss12Zip2SequenceVySaySfGs10ArraySliceVySfGGMD
+- _$ss12Zip2SequenceVySays6UInt32VGSaySf12darkRedStart_Sf08lowRangeF0Sf0gH3EndtGGMD
+- _$ss12Zip2SequenceVys10ArraySliceVySfGAEGMD
+- _$ss16IndexingIteratorVySNys6UInt32VGGMD
+- _$ss16IndexingIteratorVySay10Foundation12DateIntervalV8interval_Sf2hrtGGMD
+- _$ss16IndexingIteratorVySay10Foundation12DateIntervalVGGMD
+- _$ss16IndexingIteratorVySay19NightingaleTraining8IntervalVys6UInt32VAC9Pregnancy_pGGGMD
+- _$ss16IndexingIteratorVySay19NightingaleTraining9Pregnancy_pGGMD
+- _$ss16IndexingIteratorVySaySDySSSaySfGGGGMD
+- _$ss16IndexingIteratorVySaySNys6UInt32VGGGMD
+- _$ss16IndexingIteratorVySaySSGGMD
+- _$ss16IndexingIteratorVySaySfGGMD
+- _$ss16IndexingIteratorVySaySo16HKQuantitySampleCGGMD
+- _$ss16IndexingIteratorVySaySo8HKSampleCGGMD
+- _$ss16IndexingIteratorVySays5UInt8V4type_s6UInt32V3daySb3endtGGMD
+- _$ss16IndexingIteratorVySays6UInt32VGGMD
+- _$ss16IndexingIteratorVySnySiGGMD
+- _$ss16IndexingIteratorVySnys6UInt32VGGMD
+- _$ss16IndexingIteratorVys10ArraySliceVys6UInt32V5start_AF3endtGGMD
+- _$ss18EnumeratedSequenceV8IteratorVySaySSG_GMD
+- _$ss18EnumeratedSequenceV8IteratorVySays6UInt32VG_GMD
+- _$ss18EnumeratedSequenceVySaySSGGMD
+- _$ss18EnumeratedSequenceVySaySfGGMD
+- _$ss18EnumeratedSequenceVySaySiGGMD
+- _$ss18EnumeratedSequenceVySays6UInt32VGGMD
+- _$ss18ReversedCollectionVySaySfGGMD
+- _$ss18_DictionaryStorageCySSypGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss5Error_pMD
+- _$ss5UInt8V4flow_Sf8daySHR10Sf05nightD0Sf15periodStartMeanSf0fG3StdtMD
+- _$ss5UInt8V4type_s6UInt32V3daySb3endtMD
+- _$ss5UInt8V_Says6UInt32V5start_AD3endtGtMD
+- _$ss5UInt8V_Says6UInt32V_ADtGtMD
+- _$ss6UInt32V5start_AB3endSi5labelSb6detectSiSg7latencytMD
+- _$ss6UInt32V5start_AB3endtMD
+- _$ss6UInt32V_ABtMD
+- _$ss6UInt32V_SaySfGtMD
+- _$ss6UInt32V_SbtMD
+- _$ss6UInt32V_Sf15periodStartMean_Sf0bC3StdttMD
+- _$ss6UInt32V_Sf_SSttMD
+- _$ss6UInt32V_SftMD
+- _$ss6UInt32V_SitMD
+- _$ss6UInt32V_s5UInt8VtMD
+- _$sySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcMD
+- _$sypSgMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+Functions:
+~ sub_25b420390 -> sub_25c466390 : 224 -> 232
+~ sub_25b420470 -> sub_25c466478 : 244 -> 252
+~ sub_25b420564 -> sub_25c466574 : 208 -> 216
+~ _$sSa19NightingaleTrainingSbRszlE3sumSivg : 176 -> 184
+~ _$sSaySbGSayxGSTsWl : 128 -> 136
+~ _$s10Foundation8TimeZoneV3gmtACvgZ : 288 -> 296
+~ _$s19NightingaleTraining11HIDPFLUtilsO10inplaceSubyySaySfGz_AEztFZ : 420 -> 428
+~ _$ss6UInt32V19NightingaleTrainingE17getDateComponents10Foundation0eF0VyF : 1920 -> 1936
+~ _$ss6UInt32V19NightingaleTrainingE23modifiedJulianStartDate10Foundation0G0VSgyFZ : 1068 -> 1084
+~ _$s19NightingaleTraining16sleepDayInterval12morningIndex8calendar10Foundation04DateE0VSgs6UInt32V_AE8CalendarVtF : 1180 -> 1188
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKF : 1308 -> 1324
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY0_ : 3248 -> 3336
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY2_ : 864 -> 872
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY4_ : 67380 -> 67628
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY6_ : 7092 -> 7124
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY8_ : 53708 -> 53868
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY10_ : 18052 -> 18076
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY12_ : 16952 -> 16976
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY14_ : 15796 -> 15820
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY16_ : 8568 -> 8616
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY18_ : 62544 -> 62760
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY19_ : 2752 -> 2760
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY20_ : 30220 -> 30284
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFSDyAA23HealthDataRawSampleTypeOAA0st5QueryM0_pGyYaKXEfU1_TY0_ : 380 -> 388
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFyAA9Pregnancy_pXEfU7_ : 776 -> 792
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFSDyAA23HealthDataRawSampleTypeOAA0st5QueryM0_pGyYaKXEfU16_TY0_ : 356 -> 364
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFyyYaKXEfU31_TY0_ : 404 -> 412
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFyyYaKXEfU31_TY2_ : 5052 -> 5132
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFyyYaKXEfU31_TY3_ : 800 -> 808
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFyyYaKXEfU32_TY0_ : 456 -> 464
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFyyYaKXEfU32_TY3_ : 744 -> 752
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFyyYaKXEfU33_TY0_ : 1548 -> 1556
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFyyYaKXEfU33_TY2_ : 7500 -> 7620
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFyyYaKXEfU33_TY3_ : 968 -> 976
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFSaySfG8daySHR10_AP0sT5StatsAP05nightT0AP0vtU0AP15periodStartMeanAP0wxyU0AP0wX3StdAP0wxzU0AP019daysSinceLastPeriodX0AP019daysSinceLastPeriodxU0AP3swtAP03swtU0AP3hrvAP03hrvU0AP15respiratoryRateAP015respiratoryRateU0AP4spo2AP04spo2U0Says6UInt32VG12sliceEndDaysAP6labelsSDySSSiG7metricstyKXEfU34_ : 1352 -> 1360
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFs6UInt32V_AQtyYaKXEfU36_TY0_ : 2116 -> 2132
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFs6UInt32V_AQtyYaKXEfU36_TY2_ : 6660 -> 6772
+~ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFs6UInt32V_AQtyYaKXEfU36_TY3_ : 904 -> 912
+~ _$s19NightingaleTraining0A10DPFLRunnerC03runB04task9modelPath11hyperParams17historicalPeriods11pregnancies5today8features15existingMetrics24PrivateFederatedLearning13PFLTaskResultCAM0T0C_SSAA05HyperI0CSays6UInt32V5start_AU3endtGSayAA9Pregnancy_pGAUSaySfG8daySHR10_A_13daySHR10StatsA_10nightSHR10A_15nightSHR10StatsA_15periodStartMeanA_20periodStartMeanStatsA_14periodStartStdA_19periodStartStdStatsA_24daysSinceLastPeriodStartA_29daysSinceLastPeriodStartStatsA_3swtA_8swtStatsA_3hrvA_8hrvStatsA_15respiratoryRateA_20respiratoryRateStatsA_4spo2A_9spo2StatsSayAUG12sliceEndDaysA_6labelsSDySSSiG7metricstSDySSypGtKF : 19356 -> 19540
+~ _$s19NightingaleTraining25transferFeatureToMLInputs8required7feature5stats4name8mlInputsySb_SaySfGAHSSSDySSAHGztF : 504 -> 512
+~ _$s19NightingaleTraining0A10DPFLRunnerC03runB04task9modelPath11hyperParams17historicalPeriods11pregnancies5today8features15existingMetrics24PrivateFederatedLearning13PFLTaskResultCAM0T0C_SSAA05HyperI0CSays6UInt32V5start_AU3endtGSayAA9Pregnancy_pGAUSaySfG8daySHR10_A_13daySHR10StatsA_10nightSHR10A_15nightSHR10StatsA_15periodStartMeanA_20periodStartMeanStatsA_14periodStartStdA_19periodStartStdStatsA_24daysSinceLastPeriodStartA_29daysSinceLastPeriodStartStatsA_3swtA_8swtStatsA_3hrvA_8hrvStatsA_15respiratoryRateA_20respiratoryRateStatsA_4spo2A_9spo2StatsSayAUG12sliceEndDaysA_6labelsSDySSSiG7metricstSDySSypGtKFA__S2ftyKXEfU5_ : 4392 -> 4448
+~ _$s19NightingaleTraining0A10DPFLRunnerC26runPregnanciesDistribution11hyperParams9modelPath011numberOfRawE014invalidReasons15swtAvailability15existingMetrics24PrivateFederatedLearning13PFLTaskResultCAA05HyperH0C_SSSiSayAA22PregnancyInvalidReasonOGSfSDySSypGtKF : 3604 -> 3628
+~ _$s19NightingaleTraining0A10DPFLRunnerC26runPregnanciesDistribution11hyperParams9modelPath011numberOfRawE014invalidReasons15swtAvailability15existingMetrics24PrivateFederatedLearning13PFLTaskResultCAA05HyperH0C_SSSiSayAA22PregnancyInvalidReasonOGSfSDySSypGtKFSaySfGyKXEfU8_ : 2492 -> 2516
+~ _$s19NightingaleTraining0A10DPFLRunnerC15runDemographics11hyperParams9modelPath11pregnancies17historicalPeriods20swtAvailabilityStats14numberOfSlices3age20earliestPregrancyLMP06latestU6EndDay15existingMetrics24PrivateFederatedLearning13PFLTaskResultCAA05HyperG0C_SSSayAA9Pregnancy_pGSays6UInt32V5start_AW3endtGSfSg4mean_A_3stdtSfA_A2WSDySSypGtKF : 2164 -> 2180
+~ _$s19NightingaleTraining0A10DPFLRunnerC15runDemographics11hyperParams9modelPath11pregnancies17historicalPeriods20swtAvailabilityStats14numberOfSlices3age20earliestPregrancyLMP06latestU6EndDay15existingMetrics24PrivateFederatedLearning13PFLTaskResultCAA05HyperG0C_SSSayAA9Pregnancy_pGSays6UInt32V5start_AW3endtGSfSg4mean_A_3stdtSfA_A2WSDySSypGtKFSaySfG_SdtyKXEfU_ : 4412 -> 4436
+~ _$s19NightingaleTraining0A10DPFLRunnerC8runEvals10evalModels4task11hyperParams17historicalPeriods11pregnancies5today8features15existingMetrics24PrivateFederatedLearning13PFLTaskResultCSaySSG_AM0U0CAA05HyperJ0CSays6UInt32V5start_AV3endtGSayAA9Pregnancy_pGAVSaySfG8daySHR10_A0_13daySHR10StatsA0_10nightSHR10A0_15nightSHR10StatsA0_15periodStartMeanA0_20periodStartMeanStatsA0_14periodStartStdA0_19periodStartStdStatsA0_24daysSinceLastPeriodStartA0_29daysSinceLastPeriodStartStatsA0_3swtA0_8swtStatsA0_3hrvA0_8hrvStatsA0_15respiratoryRateA0_20respiratoryRateStatsA0_4spo2A0_9spo2StatsSayAVG12sliceEndDaysA0_6labelsSDySSSiG7metricstSDySSypGtKF : 14908 -> 15076
+~ _$s19NightingaleTraining0A10DPFLRunnerC8runEvals10evalModels4task11hyperParams17historicalPeriods11pregnancies5today8features15existingMetrics24PrivateFederatedLearning13PFLTaskResultCSaySSG_AM0U0CAA05HyperJ0CSays6UInt32V5start_AV3endtGSayAA9Pregnancy_pGAVSaySfG8daySHR10_A0_13daySHR10StatsA0_10nightSHR10A0_15nightSHR10StatsA0_15periodStartMeanA0_20periodStartMeanStatsA0_14periodStartStdA0_19periodStartStdStatsA0_24daysSinceLastPeriodStartA0_29daysSinceLastPeriodStartStatsA0_3swtA0_8swtStatsA0_3hrvA0_8hrvStatsA0_15respiratoryRateA0_20respiratoryRateStatsA0_4spo2A0_9spo2StatsSayAVG12sliceEndDaysA0_6labelsSDySSSiG7metricstSDySSypGtKFyyKXEfU4_ : 7500 -> 7556
+~ _$s19NightingaleTraining0A10DPFLRunnerC16queryPregnancies11hyperParamsSi011numberOfAllE0_Si0hI26PregnancyInitializerFailedSayAA0K0_pG07updatedE0s6UInt32V25earliestPregrancyStartDaytAA05HyperG0C_tYaKF : 864 -> 888
+~ _$s19NightingaleTraining0A10DPFLRunnerC16queryPregnancies11hyperParamsSi011numberOfAllE0_Si0hI26PregnancyInitializerFailedSayAA0K0_pG07updatedE0s6UInt32V25earliestPregrancyStartDaytAA05HyperG0C_tYaKFTY2_ : 3492 -> 3540
+~ _$sSnySiGSnyxGSlsSxRzSZ6StrideRpzrlWl : 156 -> 164
+~ _$sSay19NightingaleTraining9Pregnancy_pGSayxGSTsWl : 128 -> 136
+~ _$sSay19NightingaleTraining22PregnancyInvalidReasonOGSayxGs14_ArrayProtocolsWl : 128 -> 136
+~ _$sSay19NightingaleTraining23HealthDataRawSampleTypeOGSayxGSlsWl : 128 -> 136
+~ _$sSays6UInt32VGSayxGSlsWl : 128 -> 136
+~ _$sSNys6UInt32VGSNyxGSTsSxRzSZ6StrideRpzrlWl : 156 -> 164
+~ _$sSDys6UInt32VSf_SStGSDyxq_GSTsWl : 128 -> 136
+~ _$sSayySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGSayxGSTsWl : 128 -> 136
+~ _$sSaySSGSayxGSlsWl : 128 -> 136
+~ _$sSaySo8NSNumberCGSayxGSlsWl : 128 -> 136
+~ _$sSay19NightingaleTraining11HyperParamsCGSayxGSlsWl : 128 -> 136
+~ _$s10Foundation4DateV5lower_AC5uppertWOc : 172 -> 180
+~ _$s10Foundation4DateV5lower_AC5uppertWOb : 172 -> 180
+~ _$sSNy10Foundation4DateVGWOh : 156 -> 164
+~ _$s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_TA : 96 -> 104
+~ _$sSay19NightingaleTraining9Pregnancy_pSgGSayxGs23CustomStringConvertiblesWl : 128 -> 136
+~ _$sSay19NightingaleTraining9Pregnancy_pSgGSayxGs14_ArrayProtocolsWl : 128 -> 136
+~ _$sSay19NightingaleTraining9Pregnancy_pSgGSayxGSTsWl : 128 -> 136
+~ _$sSaySDySSSaySfGGGSayxGSlsWl : 128 -> 136
+~ _$sSaySfGSayxGSTsWl : 128 -> 136
+~ _$sSaySfGSayxGSlsWl : 128 -> 136
+~ _$s19NightingaleTraining21HealthDataFlowSamplesC7mapping_WZ : 184 -> 192
+~ _$s19NightingaleTraining22HealthDataUInt8SamplesC10sampleTypeAcA0cd9RawSampleH0O_tcfc : 124 -> 132
+~ _$s19NightingaleTraining21HealthDataFlowSamplesC6appendyyypF : 844 -> 852
+~ _$s19NightingaleTraining22HealthDataUInt8SamplesC6appendyyypF : 916 -> 924
+~ _$s19NightingaleTraining21HealthDataBoolSamplesC10sampleTypeAcA0cd9RawSampleH0O_tcfc : 124 -> 132
+~ _$s19NightingaleTraining21HealthDataBoolSamplesC6appendyyypF : 572 -> 580
+~ _$s19NightingaleTraining28HealthDataCycleFactorSamplesC10sampleTypeAcA0cd9RawSampleI0O_tcfc : 140 -> 156
+~ _$s19NightingaleTraining28HealthDataCycleFactorSamplesC6appendyyypF : 2420 -> 2460
+~ _$s19NightingaleTraining20HealthDataSWTSamplesC10sampleTypeAcA0cd9RawSampleG0O_tcfc : 140 -> 156
+~ _$s19NightingaleTraining20HealthDataSWTSamplesC6appendyyypF : 1040 -> 1048
+~ _$s19NightingaleTraining25HealthDataQuantitySamplesC10sampleType4unitAcA0cd9RawSampleH0O_So6HKUnitCtcfc : 180 -> 188
+~ _$s19NightingaleTraining25HealthDataQuantitySamplesC6appendyyypF : 852 -> 860
+~ _$s19NightingaleTraining32HealthDataQuantityAverageSamplesC10sampleType4unitAcA0cd9RawSampleI0O_So6HKUnitCtcfc : 196 -> 212
+~ _$s19NightingaleTraining32HealthDataQuantityAverageSamplesC6resultSDys6UInt32VSfGvg : 300 -> 324
+~ _$s19NightingaleTraining32HealthDataQuantityAverageSamplesC6resultSDys6UInt32VSfGvgyAGz_AF3key_SaySfG5valuettXEfU_ : 356 -> 372
+~ _$s19NightingaleTraining32HealthDataQuantityAverageSamplesC6appendyyypF : 1228 -> 1260
+~ _$s19NightingaleTraining26getSampleTypeQueryDecodersSDyAA013HealthDataRawdE0OAA0hiF6Result_pGyF : 1228 -> 1244
+~ _$s19NightingaleTraining20HealthDataStoreQueryC5storeACSo08HKHealthE0C_tcfc : 3384 -> 3536
+~ _$sSD4KeysVys5UInt8VSays6UInt32V_AFtG_GAByxq__GSTsWl : 128 -> 136
+~ _$sSDys6UInt32VSaySfGGSDyxq_GSTsWl : 128 -> 136
+~ _$sSD4KeysVys6UInt32VSaySfG_GAByxq__GSTsWl : 128 -> 136
+~ _$s19NightingaleTraining20HealthDataStoreQueryC5storeACSo08HKHealthE0C_tcfcySo14HKCategoryTypeCXEfU_ : 188 -> 196
+~ _$sSaySo14HKCategoryTypeCGSayxGSTsWl : 128 -> 136
+~ _$s19NightingaleTraining20HealthDataStoreQueryC16queryPregrancies6source5rangeSayAA9Pregnancy_pSgGSayAA0K6SourceOG_SNy10Foundation4DateVGtYaKFTY0_ : 1548 -> 1588
+~ _$sSay19NightingaleTraining15PregnancySourceOGSayxGSTsWl : 128 -> 136
+~ _$s19NightingaleTraining20HealthDataStoreQueryC16queryPregrancies6source5rangeSayAA9Pregnancy_pSgGSayAA0K6SourceOG_SNy10Foundation4DateVGtYaKFyScCyAIs5Error_pGXEfU_yyXEfU_ : 628 -> 636
+~ _$s19NightingaleTraining20HealthDataStoreQueryC16queryPregrancies6source5rangeSayAA9Pregnancy_pSgGSayAA0K6SourceOG_SNy10Foundation4DateVGtYaKFyScCyAIs5Error_pGXEfU_yyXEfU_ySo08HKSampleF0C_SaySo0P0CGSgsAQ_pSgtYbcfU_ : 540 -> 572
+~ _$s19NightingaleTraining20HealthDataStoreQueryC16queryPregrancies6source5rangeSayAA9Pregnancy_pSgGSayAA0K6SourceOG_SNy10Foundation4DateVGtYaKFyScCyAIs5Error_pGXEfU_yyXEfU_ySo08HKSampleF0C_SaySo0P0CGSgsAQ_pSgtYbcfU_yAVXEfU_ : 2164 -> 2180
+~ _$s19NightingaleTraining20HealthDataStoreQueryC15queryRawSamplesySDyAA0cdH10SampleTypeOAA0cdF6Result_pGSayAFG_SNys6UInt32VGtYaKFTY0_ : 608 -> 616
+~ _$s19NightingaleTraining20HealthDataStoreQueryC15queryRawSamplesySDyAA0cdH10SampleTypeOAA0cdF6Result_pGSayAFG_SNys6UInt32VGtYaKFyScCyAHs5Error_pGXEfU_yyXEfU_ : 676 -> 684
+~ _$s19NightingaleTraining20HealthDataStoreQueryC15queryRawSamplesySDyAA0cdH10SampleTypeOAA0cdF6Result_pGSayAFG_SNys6UInt32VGtYaKFyScCyAHs5Error_pGXEfU_yyXEfU_ySo08HKSampleF0C_SaySo0O0CGSgsAM_pSgtYbcfU_ : 1000 -> 1056
+~ _$s19NightingaleTraining20HealthDataStoreQueryC15queryRawSamplesySDyAA0cdH10SampleTypeOAA0cdF6Result_pGSayAFG_SNys6UInt32VGtYaKFyScCyAHs5Error_pGXEfU_yyXEfU_ySo08HKSampleF0C_SaySo0O0CGSgsAM_pSgtYbcfU_yAHz_AFtXEfU_ : 200 -> 216
+~ _$s19NightingaleTraining20HealthDataStoreQueryC15queryRawSamplesySDyAA0cdH10SampleTypeOAA0cdF6Result_pGSayAFG_SNys6UInt32VGtYaKFyScCyAHs5Error_pGXEfU_yyXEfU_ySo08HKSampleF0C_SaySo0O0CGSgsAM_pSgtYbcfU_yARXEfU0_ : 536 -> 544
+~ _$s19NightingaleTraining20HealthDataStoreQueryC16queryDescriptorsySaySo17HKQueryDescriptorCGSayAA0cD13RawSampleTypeOG_SNys6UInt32VGtKF : 1728 -> 1736
+~ _$s10Foundation4DateVSgWOc : 288 -> 296
+~ _$s19NightingaleTraining20HealthDataStoreQueryC16queryDescriptorsySaySo17HKQueryDescriptorCGSayAA0cD13RawSampleTypeOG_10Foundation4DateVAMtF : 1324 -> 1364
+~ _$s19NightingaleTraining20HealthDataStoreQueryC16queryDescriptorsySaySo17HKQueryDescriptorCGSayAA0cD13RawSampleTypeOG_10Foundation4DateVAMtFAGSgAIXEfU_ : 540 -> 548
+~ _$sSaySaySo17HKQueryDescriptorCGSgGSayxGSTsWl : 128 -> 136
+~ _$sSaySaySo17HKQueryDescriptorCGGSayxGSTsWl : 128 -> 136
+~ _$sSaySo17HKQueryDescriptorCGSayxGSTsWl : 128 -> 136
+~ _$s19NightingaleTraining20HealthDataStoreQueryC31queryDailyAggSedentaryHeartRate33_47E23BE7970F74DF7C78E6065BEFF4C3LL3forSDys6UInt32VSfG9daySHR10s_AI05nightX0SDyAHSiG0W9SHRCountsAL0yZ0tSNyAHG_tYaKF : 672 -> 680
+~ _$s19NightingaleTraining20HealthDataStoreQueryC31queryDailyAggSedentaryHeartRate33_47E23BE7970F74DF7C78E6065BEFF4C3LL3forSDys6UInt32VSfG9daySHR10s_AI05nightX0SDyAHSiG0W9SHRCountsAL0yZ0tSNyAHG_tYaKFTY0_ : 2924 -> 2932
+~ _$s19NightingaleTraining20HealthDataStoreQueryC31queryDailyAggSedentaryHeartRate33_47E23BE7970F74DF7C78E6065BEFF4C3LL3forSDys6UInt32VSfG9daySHR10s_AI05nightX0SDyAHSiG0W9SHRCountsAL0yZ0tSNyAHG_tYaKFyScCyAiJ_AiklmlNts5Error_pGXEfU_yyXEfU_ : 908 -> 916
+~ _$s19NightingaleTraining20HealthDataStoreQueryC31queryDailyAggSedentaryHeartRate33_47E23BE7970F74DF7C78E6065BEFF4C3LL3forSDys6UInt32VSfG9daySHR10s_AI05nightX0SDyAHSiG0W9SHRCountsAL0yZ0tSNyAHG_tYaKFyScCyAiJ_AiklmlNts5Error_pGXEfU_yyXEfU_ySo08HKSampleF0C_SaySo8HKSampleCGSgsAP_pSgtYbcfU_ : 1508 -> 1580
+~ _$s19NightingaleTraining23splitHRAndSleepingHoursyySaySo8HKSampleCGz_SaySo16HKCategorySampleCGzSaySo010HKQuantityI0CGztF : 644 -> 676
+~ _$sSaySo8HKSampleCGSayxGSlsWl : 128 -> 136
+~ _$s19NightingaleTraining20extractAggSHRBatchedyySaySo16HKCategorySampleCGz_SaySo010HKQuantityG0CGzSNys6UInt32VGSDyAJSfGzALzSDyAJSiGzAMztKF : 6604 -> 6796
+~ _$s19NightingaleTraining20HealthDataStoreQueryC38queryDailyAggSedentaryHeartRateBatchedySDys6UInt32VSfG9daySHR10s_AG05nightP0SDyAFSiG0O9SHRCountsAJ0qR0tSNyAFG_AFtYaKFTY0_ : 372 -> 380
+~ _$s19NightingaleTraining20HealthDataStoreQueryC38queryDailyAggSedentaryHeartRateBatchedySDys6UInt32VSfG9daySHR10s_AG05nightP0SDyAFSiG0O9SHRCountsAJ0qR0tSNyAFG_AFtYaKFAgH_AgijkjLtScgyAgH_AgijkjLts5Error_pGzYaKXEfU_ : 460 -> 476
+~ _$s19NightingaleTraining20HealthDataStoreQueryC38queryDailyAggSedentaryHeartRateBatchedySDys6UInt32VSfG9daySHR10s_AG05nightP0SDyAFSiG0O9SHRCountsAJ0qR0tSNyAFG_AFtYaKFAgH_AgijkjLtScgyAgH_AgijkjLts5Error_pGzYaKXEfU_TY0_ : 852 -> 876
+~ _$s19NightingaleTraining20HealthDataStoreQueryC38queryDailyAggSedentaryHeartRateBatchedySDys6UInt32VSfG9daySHR10s_AG05nightP0SDyAFSiG0O9SHRCountsAJ0qR0tSNyAFG_AFtYaKFAgH_AgijkjLtScgyAgH_AgijkjLts5Error_pGzYaKXEfU_TY2_ : 1412 -> 1428
+~ _$sScg7addTask8priority9operationyScPSg_xyYaKYAcntF : 760 -> 768
+~ _$s19NightingaleTraining20HealthDataStoreQueryC21queryMostRecentSampleyyAA0cd3RawJ4TypeO_So17OS_dispatch_groupCyAA0cdF6Result_pSg_s5Error_pSgtctFySo08HKSampleF0C_SaySo0R0CGSgALtYbcfU_ : 820 -> 836
+~ _$s19NightingaleTraining20HealthDataStoreQueryC27getDayStreamProcessorConfig17birthDateRequired015shouldUseCachedK0So022NgtMenstrualAlgorithmshijK0C_Sd13urCycleLengthSd0u6PeriodW0tSb_SbtKF : 3392 -> 3400
+~ _$s19NightingaleTraining20HealthDataStoreQueryC6getBmi13dispatchGroup11hyperParamsSfSo03OS_I6_groupC_AA05HyperL0CtKFyAA0cdF6Result_pSg_s5Error_pSgtcfU_ : 660 -> 676
+~ _$s19NightingaleTraining21consolidateSleepHoursySay10Foundation12DateIntervalVGSaySo16HKCategorySampleCGzF : 2716 -> 2748
+~ _$sSNys6UInt32VGSNyxGSlsSxRzSZ6StrideRpzrlWl : 156 -> 164
+~ _$sSay10Foundation12DateIntervalVGSayxGSlsWl : 128 -> 136
+~ _$sSaySo16HKQuantitySampleCGSayxGSlsWl : 128 -> 136
+~ _$s19NightingaleTraining20extractAggSHRBatchedyySaySo16HKCategorySampleCGz_SaySo010HKQuantityG0CGzSNys6UInt32VGSDyAJSfGzALzSDyAJSiGzAMztKFyAA8IntervalVy10Foundation4DateVAJGXEfU_ : 592 -> 616
+~ _$s19NightingaleTraining20extractAggSHRBatchedyySaySo16HKCategorySampleCGz_SaySo010HKQuantityG0CGzSNys6UInt32VGSDyAJSfGzALzSDyAJSiGzAMztKFyAA8IntervalVy10Foundation4DateVAJGXEfU0_ : 924 -> 956
+~ _$s19NightingaleTraining20extractAggSHRBatchedyySaySo16HKCategorySampleCGz_SaySo010HKQuantityG0CGzSNys6UInt32VGSDyAJSfGzALzSDyAJSiGzAMztKFSf10Foundation12DateIntervalV8interval_Sf2hrt_tXEfU1_ : 240 -> 248
+~ _$s19NightingaleTraining7splitHRyySaySfGz_ACzSay10Foundation12DateIntervalVGzSayAF8interval_Sf2hrtGztKF : 3292 -> 3372
+~ _$sSay10Foundation12DateIntervalV8interval_Sf2hrtGSayxGSlsWl : 128 -> 136
+~ _$sSay19NightingaleTraining8IntervalVy10Foundation4DateVs6UInt32VGGSayxGSTsWl : 128 -> 136
+~ _$s10Foundation14DateComponentsVSgWOd : 536 -> 552
+~ _$s10Foundation14DateComponentsVSgWOc : 288 -> 296
+~ _$sSaySo16HKCategorySampleCGSayxGSlsWl : 128 -> 136
+~ _$sSay10Foundation12DateIntervalVGSayxGSTsWl : 128 -> 136
+~ _$s10Foundation12DateIntervalV8interval_Sf2hrtWOc : 136 -> 144
+~ _$sSD6ValuesVys6UInt32VSf_GAByxq__GSlsWl : 128 -> 136
+~ _$sScPSgWOc : 288 -> 296
+~ _$s19NightingaleTraining20HealthDataStoreQueryC31queryDailyAggSedentaryHeartRate33_47E23BE7970F74DF7C78E6065BEFF4C3LL3forSDys6UInt32VSfG9daySHR10s_AI05nightX0SDyAHSiG0W9SHRCountsAL0yZ0tSNyAHG_tYaKFyScCyAiJ_AiklmlNts5Error_pGXEfU_yyXEfU_ySo08HKSampleF0C_SaySo8HKSampleCGSgsAP_pSgtYbcfU_TA : 208 -> 216
+~ _$sSaySo12HKSampleTypeCGSayxGSlsWl : 128 -> 136
+~ _$s19NightingaleTraining20HealthDataStoreQueryC15queryRawSamplesySDyAA0cdH10SampleTypeOAA0cdF6Result_pGSayAFG_SNys6UInt32VGtYaKFyScCyAHs5Error_pGXEfU_yyXEfU_ySo08HKSampleF0C_SaySo0O0CGSgsAM_pSgtYbcfU_TA : 148 -> 156
+~ _$sSay19NightingaleTraining23HealthDataRawSampleTypeOGSayxGSTsWl : 128 -> 136
+~ _$sSaySo8HKSampleCGSayxGSTsWl : 128 -> 136
+~ _$s19NightingaleTraining20HealthDataStoreQueryC16queryPregrancies6source5rangeSayAA9Pregnancy_pSgGSayAA0K6SourceOG_SNy10Foundation4DateVGtYaKFyScCyAIs5Error_pGXEfU_yyXEfU_ySo08HKSampleF0C_SaySo0P0CGSgsAQ_pSgtYbcfU_TA : 140 -> 148
+~ _$s19NightingaleTraining19getBottomPercentile10percentile_SfSi_SaySfGztF : 1684 -> 1692
+~ _$s19NightingaleTraining24CalendarPeriodPredictionC17toAlgorithmInputs4flow3otr8spotting12cycleFactors3swtSaySo30NgtMenstrualAlgorithmsDayInputCG03dayH0_Says5UInt8V4type_s6UInt32V0T0Sb3endtG23chronologicalOrderedCFstSDyArOG_AWSDyARSbGSDyAOSayAR5start_ArTtGGSDyARSf_SStGtKF : 1936 -> 2008
+~ _$sSD4KeysVys6UInt32Vs5UInt8V_GAByxq__GSTsWl : 128 -> 136
+~ _$sSD4KeysVys6UInt32VSb_GAByxq__GSTsWl : 128 -> 136
+~ _$sSD4KeysVys6UInt32VSf_SSt_GAByxq__GSTsWl : 128 -> 136
+~ _$s19NightingaleTraining24CalendarPeriodPredictionC17toAlgorithmInputs4flow3otr8spotting12cycleFactors3swtSaySo30NgtMenstrualAlgorithmsDayInputCG03dayH0_Says5UInt8V4type_s6UInt32V0T0Sb3endtG23chronologicalOrderedCFstSDyArOG_AWSDyARSbGSDyAOSayAR5start_ArTtGGSDyARSf_SStGtKFAkRXEfU_ : 984 -> 992
+~ _$sShys6UInt32VGShyxGSlsWl : 128 -> 136
+~ _$sSaySo30NgtMenstrualAlgorithmsDayInputCGSayxGSTsWl : 128 -> 136
+~ _$s19NightingaleTraining24CalendarPeriodPredictionC17toAlgorithmInputs4flow3otr8spotting12cycleFactors3swtSaySo30NgtMenstrualAlgorithmsDayInputCG03dayH0_Says5UInt8V4type_s6UInt32V0T0Sb3endtG23chronologicalOrderedCFstSDyArOG_AWSDyARSbGSDyAOSayAR5start_ArTtGGSDyARSf_SStGtKFAuO_AZtXEfU1_ : 344 -> 368
+~ _$s19NightingaleTraining24CalendarPeriodPredictionC17toAlgorithmInputs4flow3otr8spotting12cycleFactors3swtSaySo30NgtMenstrualAlgorithmsDayInputCG03dayH0_Says5UInt8V4type_s6UInt32V0T0Sb3endtG23chronologicalOrderedCFstSDyArOG_AWSDyARSbGSDyAOSayAR5start_ArTtGGSDyARSf_SStGtKFAuO_AZtXEfU1_AurY_ArTt_tXEfU_ : 172 -> 180
+~ _$sSDys5UInt8VSays6UInt32V5start_AD3endtGGSDyxq_GSlsWl : 128 -> 136
+~ _$sSaySays5UInt8V4type_s6UInt32V3daySb3endtGGSayxGSTsWl : 128 -> 136
+~ _$sSays5UInt8V4type_s6UInt32V3daySb3endtGSayxGSTsWl : 128 -> 136
+~ _$s19NightingaleTraining24CalendarPeriodPredictionC7analyze4flow3otr8spotting12cycleFactorsSays6UInt32V5start_AJ3endtG7periods_SDyAJSf15periodStartMean_Sf0pQ3StdtG8analysestSDyAJs5UInt8VGz_AUzSDyAJSbGzSDyAtMGztKF : 1612 -> 1676
+~ _$s19NightingaleTraining24CalendarPeriodPredictionC10predictOvu4flow3otr8spotting12cycleFactors3swt9pregnancys6UInt32VSDyALs5UInt8VG_AOSDyALSbGSDyANSayAL5start_AL3endtGGSDyALSf_SStGAA9Pregnancy_ptKF : 1640 -> 1648
+~ _$s19NightingaleTraining24CalendarPeriodPredictionC24predictHistoricalPeriods4flow3otr8spotting12cycleFactorsSays6UInt32V5start_AJ3endtGSDyAJs5UInt8VGz_APzSDyAJSbGzSDyAoMGztKF : 560 -> 576
+~ _$s19NightingaleTraining24CalendarPeriodPredictionC24predictHistoricalPeriods33_859B95ACEB5E5EF287AF0306B42C22D7LL9dayInputs23chronologicalOrderedCFsSays6UInt32V5start_AI3endtGSaySo30NgtMenstrualAlgorithmsDayInputCG_Says5UInt8V4type_AI0Q0SbAKtGtKF : 1516 -> 1548
+~ _$ss10ArraySliceVys6UInt32V5start_AD3endtGAByxGSlsWl : 128 -> 136
+~ _$s19NightingaleTraining24CalendarPeriodPredictionC16processDayStream33_859B95ACEB5E5EF287AF0306B42C22D7LL9dayInputs23chronologicalOrderedCFs010predictionG0So30NgtMenstrualAlgorithmsAnalysisCSaySo0wxyG5InputCG_Says5UInt8V4type_s6UInt32V0Q0Sb3endtGARtKF : 2016 -> 2048
+~ _$s19NightingaleTraining24CalendarPeriodPredictionC07extractD15StartMeanAndStdySf_SftSgSo30NgtMenstrualAlgorithmsAnalysisC_s6UInt32VAItKF : 588 -> 596
+~ _$sSaySo32NgtMenstrualAlgorithmsPredictionCGSayxGSTsWl : 128 -> 136
+~ _$sSaySo37NgtMenstrualAlgorithmsHistoricalCycleCGSayxGSTsWl : 128 -> 136
+~ _$sSaySo37NgtMenstrualAlgorithmsHistoricalCycleCGSayxGSlsWl : 128 -> 136
+~ _$s19NightingaleTraining24CalendarPeriodPredictionC031getDayStreamProcessorConfigFromJ06cached010lastJulianG0So022NgtMenstrualAlgorithmsghiJ0CAH_s6UInt32VtF : 1620 -> 1628
+~ _$sSays5UInt8V4type_s6UInt32V3daySb3endtGSayxGSlsWl : 128 -> 136
+~ _$sSaySo32NgtMenstrualAlgorithmsPredictionCGSayxGs14_ArrayProtocolsWl : 128 -> 136
+~ _$sSaySo32NgtMenstrualAlgorithmsPredictionCGSayxGSlsWl : 128 -> 136
+~ _$sSays6UInt32V5start_AB3endtGSayxGSlsWl : 128 -> 136
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZ : 11680 -> 11696
+~ _$s19NightingaleTraining9PregnancyPAAE9attribute3forypSgSS_tF : 2140 -> 2148
+~ _$s19NightingaleTraining11HyperParamsC9attribute3forypSgSS_tF : 9552 -> 9600
+~ _$s19NightingaleTraining21AugmentedIntervalTreeCAASiRszrlE9attribute3forypSgSS_tF : 1548 -> 1556
+~ _$s19NightingaleTraining21AugmentedIntervalTreeCAASiRszrlE9attribute3forypSgSS_tFAFSDySSypGKcfU_ : 6732 -> 6756
+~ _$s19NightingaleTraining21AugmentedIntervalTreeCAASiRszrlE9attribute3forypSgSS_tFAFSDySSypGKcfU0_ : 6428 -> 6444
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGcfU_ : 96 -> 104
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGcfU0_ : 96 -> 104
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU1_ : 6204 -> 6220
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU2_ : 11160 -> 11224
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU3_ : 1092 -> 1116
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU4_ : 1336 -> 1368
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU5_ : 1664 -> 1712
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU6_ : 1784 -> 1808
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU7_ : 1804 -> 1852
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU8_ : 1332 -> 1356
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU9_ : 2080 -> 2120
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU10_ : 1784 -> 1808
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU11_ : 1784 -> 1808
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU12_ : 1672 -> 1704
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU13_ : 4752 -> 4824
+~ _$s19NightingaleTraining21HIDMorpheusExtensionsO14extendMorpheusyyKFZypSgSDySSypGKcfU14_ : 1592 -> 1624
+~ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZypSg_Tt0gq5 : 176 -> 184
+~ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZSS_ypt_Tt0gq5 : 176 -> 184
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0gq5 : 500 -> 508
+~ _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSS_ypt_Tgq5 : 500 -> 508
+~ _$s19NightingaleTraining12MetricsUtilsO9bucketize5value7bucketsSaySiGSf_SaySfGtFZ : 516 -> 532
+~ _$s19NightingaleTraining12MetricsUtilsO9bucketize6values7bucketsSaySiGSaySfG_AHtFZ : 740 -> 772
+~ _$s19NightingaleTraining3AUCO8rocCurve7outputs6labelsSaySfG3tpr_AG3fprSaySiG16thresholdIndexestAG_AGtFZ : 3064 -> 3112
+~ _$s19NightingaleTraining3AUCO11rocAUCScore3tpr3fpr6maxFPRSfSaySfG_AHSftKFZ : 1676 -> 1692
+~ _$s19NightingaleTraining3AUCO20precisionRecallCurve7outputs6labelsSaySfG0D0_AG6recallAG3fprSaySiG16thresholdIndexestAG_AGtFZ : 3820 -> 3892
+~ _$s19NightingaleTraining3AUCO10prAUCScore8precison6recallSfSaySfG_AGtFZ : 888 -> 912
+~ _$s19NightingaleTraining3AUCO21bucketConfusionMatrix7outputs6labels13numThresholdsSaySfG2tp_AH2fpAH2tnAH2fntAH_AHSitFZ : 1500 -> 1516
+~ _$s19NightingaleTraining3AUCO25binaryClassificationCurve7outputs6labelsSaySfG3tps_AG3fpsSaySiG16thresholdIndexestAG_AGtFZ : 2264 -> 2304
+~ _$sSaySfGSayxGSKsWl : 128 -> 136
+~ _$s19NightingaleTraining3AUCO8rocCurve7outputs6labelsSaySfG3tpr_AG3fprSaySiG16thresholdIndexestAG_AGtFZS2fXEfU5_ : 316 -> 324
+~ _$s19NightingaleTraining3AUCO8rocCurve7outputs6labelsSaySfG3tpr_AG3fprSaySiG16thresholdIndexestAG_AGtFZS2fXEfU7_ : 316 -> 324
+~ _$ss18EnumeratedSequenceVySaySfGGAByxGSTsWl : 128 -> 136
+~ _$sSaySi6offset_Sf7elementtGSayxGSlsWl : 128 -> 136
+~ _$sSaySiGSayxGSlsWl : 128 -> 136
+~ _$s19NightingaleTraining3AUCO20precisionRecallCurve7outputs6labelsSaySfG0D0_AG6recallAG3fprSaySiG16thresholdIndexestAG_AGtFZS2fXEfU5_ : 316 -> 324
+~ _$s19NightingaleTraining3AUCO20precisionRecallCurve7outputs6labelsSaySfG0D0_AG6recallAG3fprSaySiG16thresholdIndexestAG_AGtFZS2fXEfU7_ : 608 -> 616
+~ _$s19NightingaleTraining3AUCO6metric2at7metrics3fprS2f_SaySfGAHtKFZ : 2664 -> 2688
+~ _$s19NightingaleTraining3AUCO3auc1x1ySfSaySfG_AGtKFZ : 1724 -> 1756
+~ _$ss10ArraySliceVySfGAByxGSTsWl : 128 -> 136
+~ _$ss12Zip2SequenceVySaySfGACGAByxq_GSTsWl : 128 -> 136
+~ _$sSaySfGSayxGSmsWl : 128 -> 136
+~ _$ss18ReversedCollectionVySaySfGGAByxGSTsWl : 128 -> 136
+~ _$sSaySiGSayxGSTsWl : 128 -> 136
+~ _$ss12Zip2SequenceVySaySfGs10ArraySliceVySfGGAByxq_GSTsWl : 128 -> 136
+~ _$s19NightingaleTraining3AUCO12gatherBucket6labels11bucketIndex13numThresholdsSaySfGAH_SaySiGSitFZ : 348 -> 364
+~ _$ss18ReversedCollectionVySaySfGGAByxGSlsWl : 128 -> 136
+~ _$ss18EnumeratedSequenceVySaySiGGAByxGSlsSlRzrlWl : 144 -> 152
+~ _$ss12Zip2SequenceVys10ArraySliceVySfGAEGAByxq_GSTsWl : 128 -> 136
+~ _$s19NightingaleTraining3AUCO12gatherBucket6labels11bucketIndex13numThresholdsSaySfGAH_SaySiGSitFZySi6offset_Si7elementt_tXEfU_ : 244 -> 252
+~ _$ss18EnumeratedSequenceVySaySiGGAByxGSTsWl : 128 -> 136
+~ _$s19NightingaleTraining10ImputationO24imputeCalendarPrediction25calendarPeriodPredictions6target04lastF3DaySf_SftSDys6UInt32VSf15periodStartMean_Sf0nO3StdtG_A2IztFZ : 624 -> 632
+~ _$s19NightingaleTraining10AggMetricsV4fromACSayAA08PerSliceD0VG_tcfC : 1308 -> 1316
+~ _$sSay19NightingaleTraining15PerSliceMetricsVGSayxGSlsWl : 128 -> 136
+~ _$sSay19NightingaleTraining15PerSliceMetricsVGSayxGSTsWl : 128 -> 136
+~ _$s19NightingaleTraining10AggMetricsV12toDictionary6prefixSDySSypGSS_tF : 5392 -> 5400
+~ _$s19NightingaleTraining20EvalMetricsProcessorV19processModelOutput233_4FE357CEED147F1C9EE61B22162065BALL9numLabels7outputs27modelMaxNumDaysToNextPeriodSaySf12darkRedStart_Sf13lowRangeStartSf11lowRangeEndtGSi_SaySfGzSftF : 728 -> 760
+~ _$s19NightingaleTraining20EvalMetricsProcessorV20processModelOutput3233_4FE357CEED147F1C9EE61B22162065BALL9numLabels7outputs27modelMaxNumDaysToNextPeriod24intervalCorrectionFactor16minLowRangeStartSaySf12darkRedStart_Sf13lowRangeStartSf11lowRangeEndtGSi_SaySfGzS3ftKF : 6156 -> 6196
+~ _$s19NightingaleTraining20EvalMetricsProcessorV09calculateD06labels7outputsSayAA08PerSliceD0VG03perjD0_AA03AggD0V03aggD0tSays6UInt32VGz_SaySf12darkRedStart_Sf08lowRangeQ0Sf0rS3EndtGtF : 656 -> 680
+~ _$s19NightingaleTraining20EvalMetricsProcessorV11argQuantile7softmax9quantilesSaySfGAGz_AGtKFZ : 764 -> 780
+~ _$sSays6UInt32VGSayxGSTsWl : 128 -> 136
+~ _$sSaySf12darkRedStart_Sf08lowRangeC0Sf0dE3EndtGSayxGSTsWl : 128 -> 136
+~ _$ss12Zip2SequenceVySays6UInt32VGSaySf12darkRedStart_Sf08lowRangeF0Sf0gH3EndtGGAByxq_GSTsWl : 128 -> 136
+~ _$s24PrivateFederatedLearning7PFLTaskC19NightingaleTrainingE17getValidModelPath15modelFileSuffixS2S_tKF : 1216 -> 1224
+~ _$s24PrivateFederatedLearning7PFLTaskC19NightingaleTrainingE14evalModelNames8taskType11hyperParamsSaySSGAD0edK0O_AD05HyperM0CtKF : 344 -> 352
+~ _$sSo7MLModelC10contentsOf13configurationAB10Foundation3URLV_So0A13ConfigurationCtKcfCTO : 592 -> 600
+~ _$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfcfA1_ : 152 -> 160
+~ _$s19NightingaleTraining0A9PFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKF : 1568 -> 1576
+~ _$s19NightingaleTraining0A9PFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY0_ : 11740 -> 11756
+~ _$s19NightingaleTraining0A9PFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY2_ : 151460 -> 151820
+~ _$s19NightingaleTraining0A9PFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY4_ : 105904 -> 106112
+~ _$s19NightingaleTraining0A9PFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY5_ : 3308 -> 3316
+~ _$s19NightingaleTraining0A9PFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTY6_ : 4172 -> 4180
+~ _$s19NightingaleTraining0A9PFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFSiycfu_ : 128 -> 136
+~ _$s19NightingaleTraining0A9PFLRunnerC03runB09modelPath11hyperParams0E4Type11featureFlow0J6DaySHR0j5NightM00J3PSM0J3PSS0J3SWT0J5Label9sliceSize11numFeatures05labelT015existingMetrics24PrivateFederatedLearning13PFLTaskResultCSS_AA05HyperH0CAA0a8PFLModelI0OSaySfGzAZzAZzAZzAZzAZzSays6UInt32VGzA0_SiA0_SDySSypGtKF : 11940 -> 12020
+~ _$s19NightingaleTraining0A9PFLRunnerC15runDemographics13dispatchGroup11hyperParams9modelPath10cycleStats013daySHR10CountM014numberOfSlices3age15existingMetrics24PrivateFederatedLearning13PFLTaskResultCSo03OS_F6_groupC_AA05HyperI0CSSSfSg4size_AT4meanAT3stdtAtV_AtWtSfATSDySSypGtKF : 5180 -> 5220
+~ _$s19NightingaleTraining0A9PFLRunnerC8runEvals10evalModels4task11hyperParams9modelType11featureFlow0M6DaySHR0m5NightP00M3PSM0M3PSS0M3SWT0M5Label9sliceSize11numFeatures15existingMetrics24PrivateFederatedLearning13PFLTaskResultCSaySSG_AS7PFLTaskCAA05HyperJ0CAA0a8PFLModelL0OSaySfGzA1_zA1_zA1_zA1_zA1_zSays6UInt32VGzA3_SiSDySSypGtKF : 9688 -> 9792
+~ _$s19NightingaleTraining0A9PFLRunnerC18runPlatformTesting9modelPath11hyperParams7metrics24PrivateFederatedLearning13PFLTaskResultCSS_AA05HyperJ0CSDySSypGtKF : 2212 -> 2228
+~ _$ss10ArraySliceVys6UInt32VGAByxGSTsWl : 128 -> 136
+~ _$sSaySSGSayxGSTsWl : 128 -> 136
+~ _$sSays6UInt32V5start_AB3endtGSayxGSKsWl : 128 -> 136
+~ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGSayxGSTsWl : 128 -> 136
+~ _$sSAySo7NSErrorCSgGSAyxGs8_PointersWl : 128 -> 136
+~ _$s19NightingaleTraining16ShadowEvaluationC17toAlgorithmInputs4flow3otr8spotting12cycleFactors3swt9daySHR10s05nightO00N9SHRCounts0pQ0SaySo30NgtMenstrualAlgorithmsDayInputCG0nG0_Says5UInt8V4type_s6UInt32V0N0Sb3endtG23chronologicalOrderedCFstSDyAvSG_A_SDyAVSbGSDyASSayAV5start_AvXtGGSDyAVSf_SStGSDyAVSfGA5_SDyAVSiGA6_tKF : 2528 -> 2616
+~ _$sSD4KeysVys6UInt32VSf_GAByxq__GSTsWl : 128 -> 136
+~ _$sSD4KeysVys6UInt32VSi_GAByxq__GSTsWl : 128 -> 136
+~ _$s19NightingaleTraining16ShadowEvaluationC17toAlgorithmInputs4flow3otr8spotting12cycleFactors3swt9daySHR10s05nightO00N9SHRCounts0pQ0SaySo30NgtMenstrualAlgorithmsDayInputCG0nG0_Says5UInt8V4type_s6UInt32V0N0Sb3endtG23chronologicalOrderedCFstSDyAvSG_A_SDyAVSbGSDyASSayAV5start_AvXtGGSDyAVSf_SStGSDyAVSfGA5_SDyAVSiGA6_tKFAoVXEfU_ : 1860 -> 1868
+~ _$s19NightingaleTraining16ShadowEvaluationC7analyze8mlConfig11earliestDay06latestI02t02t19dayInputs23chronologicalOrderedCFsAA21FlycatcherTelemetricsVSgSo029NgtMenstrualAlgorithmsMLModelG0C_s6UInt32VA3RSaySo0tuvI5InputCGSays5UInt8V4type_AR0M0Sb3endtGtKF : 6104 -> 6160
+~ _$s19NightingaleTraining16ShadowEvaluationC031getDayStreamProcessorConfigFromI06cached010lastJulianF0So022NgtMenstrualAlgorithmsfghI0CAH_s6UInt32VtF : 1764 -> 1772
+~ _$s19NightingaleTraining25transferFeatureToMLInputsyySaySfGz_ACzAA0a5ModelD4TypeOAA0a8PFLModelH0OtKF : 448 -> 464
+~ _$s19NightingaleTraining27transferLabelToOnehotEncodeyySays6UInt32VGz_SaySfGzADtF : 576 -> 600
+~ _$s19NightingaleTraining25transferLabelToRegressionyySays6UInt32VGz_SaySfGzA2DtF : 940 -> 964
+~ _$sSayxG19NightingaleTraining29UnsafeMutableMemoryAccessibleA2bCP04withcD13BufferPointeryqd__qd__Sry7ElementQzGzKXEKlFTW : 180 -> 188
+~ _$ss10ArraySliceVyxG19NightingaleTraining29UnsafeMutableMemoryAccessibleA2dEP04witheF13BufferPointeryqd__qd__Sry7ElementQzGzKXEKlFTW : 180 -> 188
+~ _$s19NightingaleTraining10FeaturizerC27featurizeHRPeriodPrediction5flows9daySHR10s05nightI025calendarPeriodPredictions17historicalPeriods12cycleFactors05dummyL6Length9sliceSize016maxNumDaysToNextL003minwxyzL003minW16OfDaySHRPerSliceSaySfG4flow_AP0H5SHR10AP0J5SHR10AP15periodStartMeanAP14periodStartStdSays6UInt32VG6labelsSf4size_Sf4meanSf3stdt0P5StatsSfSgA__SfA0_t0H15SHR10CountStatstSDyAWs5UInt8VGz_SDyAWSfGzA7_zSDyAWSfAT_SfAUtGzSayAW5start_AW3endtGzSDyA5_A11_GzA4WSitKF : 9784 -> 9928
+~ _$s19NightingaleTraining24findDaysNeedingDummyFlowyShys6UInt32VGSayAD5start_AD3endtGz_ADtF : 552 -> 576
+~ _$s19NightingaleTraining11evictCachesyys6UInt32V_ADSDyADs5UInt8V4flow_Sf8daySHR10Sf05nightI0Sf15periodStartMeanSf0kL3StdtGztF : 380 -> 404
+~ _$s19NightingaleTraining13appendFeatureyySf_SaySfGzSfACzSfACzSfACzSfACztF : 292 -> 300
+~ _$s19NightingaleTraining10FeaturizerC18ensureAvailability8required03minE09available5range13failedCounterS2b_SdSays6UInt32VGSNyAKGSiztF : 640 -> 648
+~ _$s19NightingaleTraining10FeaturizerC13updateFeature8required7feature7lastDay2to07currentI05cacheySb_SDys6UInt32VSfGALSgzSaySfGzALSfztF : 340 -> 348
+~ _$s19NightingaleTraining10FeaturizerC13updateFeature8required7feature010lastDayHasE02to07currentI012defaultValue5cacheySb_SDys6UInt32VSfGAMSgzSaySfGzAMS2fztF : 228 -> 236
+~ _$s19NightingaleTraining10FeaturizerC19featureArrayWithNan0D0SaySfGSDys6UInt32VSfG_tF : 948 -> 996
+~ _$s19NightingaleTraining10FeaturizerC09featurizeA1D4task11pregnancies4swts4hrvs16respiratoryRates5spo2s9daySHR10s05nightM025calendarPeriodPredictions17historicalPeriods12cycleFactors10hyperParam5todaySaySfG0L5SHR10_AR0lY5StatsAR0nY0AR0nyZ0AR15periodStartMeanAR015periodStartMeanZ0AR14periodStartStdAR014periodStartStdZ0AR013daysSinceLastP5StartAR013daysSinceLastp5StartZ0AR3swtAR03swtZ0AR3hrvAR03hrvZ0AR0I4RateAR0i4RateZ0AR4spo2AR04spo2Z0Says6UInt32VG12sliceEndDaysAR6labelsSDySSSiG7metricst24PrivateFederatedLearning7PFLTaskC_SayAA9Pregnancy_pGSDyA10_SfGA21_A21_A21_A21_A21_SDyA10_SfAW_SfAYtGSayA10_5start_A10_3endtGSDys5UInt8VA25_GAA11HyperParamsCA10_tKF : 26028 -> 26596
+~ _$s19NightingaleTraining10FeaturizerC09featurizeA1D4task11pregnancies4swts4hrvs16respiratoryRates5spo2s9daySHR10s05nightM025calendarPeriodPredictions17historicalPeriods12cycleFactors10hyperParam5todaySaySfG0L5SHR10_AR0lY5StatsAR0nY0AR0nyZ0AR15periodStartMeanAR015periodStartMeanZ0AR14periodStartStdAR014periodStartStdZ0AR013daysSinceLastP5StartAR013daysSinceLastp5StartZ0AR3swtAR03swtZ0AR3hrvAR03hrvZ0AR0I4RateAR0i4RateZ0AR4spo2AR04spo2Z0Says6UInt32VG12sliceEndDaysAR6labelsSDySSSiG7metricst24PrivateFederatedLearning7PFLTaskC_SayAA9Pregnancy_pGSDyA10_SfGA21_A21_A21_A21_A21_SDyA10_SfAW_SfAYtGSayA10_5start_A10_3endtGSDys5UInt8VA25_GAA11HyperParamsCA10_tKFSi3key_SaySaySiGG5valuetA27_A31__A25_A34_t_tXEfU_ : 256 -> 272
+~ _$s19NightingaleTraining10FeaturizerC09featurizeA7DNative11pregnancies4swts4hrvs16respiratoryRates5spo2s9daySHR10s05nightM025calendarPeriodPredictions17historicalPeriods12cycleFactors10hyperParam5todaySaySfG0L5SHR10_AQ0lY5StatsAQ0nY0AQ0nyZ0AQ15periodStartMeanAQ015periodStartMeanZ0AQ14periodStartStdAQ014periodStartStdZ0AQ013daysSinceLastP5StartAQ013daysSinceLastp5StartZ0AQ3swtAQ03swtZ0AQ3hrvAQ03hrvZ0AQ0I4RateAQ0i4RateZ0AQ4spo2AQ04spo2Z0Says6UInt32VG12sliceEndDaysAQ6labelsSDySSSiG7metricstSayAA9Pregnancy_pG_SDyA9_SfGA17_A17_A17_A17_A17_SDyA9_SfAV_SfAXtGSayA9_5start_A9_3endtGSDys5UInt8VA21_GAA11HyperParamsCA9_tKF : 19948 -> 20124
+~ _$s19NightingaleTraining11evictCachesyys6UInt32V_ADSDyADSf8daySHR10_Sf05nightG0Sf15periodStartMeanSf0iJ3StdSf019daysSinceLastPeriodJ0Sf3swtSf3hrvSf15respiratoryRateSf4spo2tGztF : 380 -> 404
+~ _$s19NightingaleTraining13appendFeature11hyperParams__________yAA05HyperF0C_Sf8daySHR10_Sf05nightI0Sf15periodStartMeanSf0kL3StdSf019daysSinceLastPeriodL0Sf3swtSf3hrvSf15respiratoryRateSf4spo2tSaySfGzAOzAOzAOzAOzAOzAOzAOzAOztF : 960 -> 1032
+~ _$s19NightingaleTraining10FeaturizerC10cycleStats11pregnancies7periods20earliestPregrancyLMP06latestI6EndDaySf5count_SfSg4meanSf3stdt012prePregCycleE0_SfAI_AjKSfALt04pregsE0SfAI_AjKSfALt04postrsE0tSayAA9Pregnancy_pG_Says6UInt32V5start_AS3endtGA2StKF : 4456 -> 4552
+~ _$s19NightingaleTraining10FeaturizerC5stats6option12sliceEndDays7feature0F4SizeSaySfGAA18FeatureStatsOptionO_Says6UInt32VGSDyAMSfGAMtKF : 6324 -> 6532
+~ _$s19NightingaleTraining15standardizeFlowyySaySfGz_AA0A12PFLModelTypeOtKF : 544 -> 560
+~ _$s19NightingaleTraining17standardizeDaySHRyySaySfGz_AA0A12PFLModelTypeOtKF : 352 -> 360
+~ _$s19NightingaleTraining19standardizeNightSHRyySaySfGz_AA0A12PFLModelTypeOtKF : 352 -> 360
+~ _$s19NightingaleTraining14standardizePSMyySaySfGz_AA0A12PFLModelTypeOtKF : 544 -> 560
+~ _$s19NightingaleTraining14standardizePSSyySaySfGz_AA0A12PFLModelTypeOtKF : 544 -> 560
+~ _$s19NightingaleTraining9centerSWTyySaySfGz_AA0A12PFLModelTypeOs6UInt32VtKF : 2336 -> 2376
+~ _$s19NightingaleTraining24findDaysNeedingDummyFlowyShys6UInt32VGSayAD5start_AD3endtGz_ADtFSayADGAdF_AdGt_tXEfU0_ : 424 -> 432
+~ _$sSD4KeysVys6UInt32VSf15periodStartMean_Sf0cD3Stdt_GAByxq__GSTsWl : 128 -> 136
+~ _$sSay19NightingaleTraining8IntervalVys6UInt32VypGGSayxGSlsWl : 128 -> 136
+~ _$sSnys6UInt32VGSnyxGSlsSxRzSZ6StrideRpzrlWl : 156 -> 164
+~ _$sSays6UInt32V5start_AB3endtGSayxGSTsWl : 128 -> 136
+~ _$sSays6UInt32V5start_AB3endtGSayxGs14_ArrayProtocolsWl : 128 -> 136
+~ _$sSaySays6UInt32VGGSayxGSTsWl : 128 -> 136
+~ _$sSays6UInt32VGSayxGs14_ArrayProtocolsWl : 128 -> 136
+~ _$sSays6UInt32VGSayxGSKsWl : 128 -> 136
+~ _$sSaySi_SaySaySiGGtGSayxGSTsWl : 128 -> 136
+~ _$sSDys6UInt32VSf15periodStartMean_Sf0bC3StdtGSDyxq_GSlsWl : 128 -> 136
+~ _$sSaySi_SaySfGtGSayxGSTsWl : 128 -> 136
+~ _$sSDys6UInt32VSfGSDyxq_GSlsWl : 128 -> 136
+~ _$sSaySi_SftGSayxGSTsWl : 128 -> 136
+~ _$sSay19NightingaleTraining9Pregnancy_pGSayxGSlsWl : 128 -> 136
+~ _$sSay19NightingaleTraining8IntervalVys6UInt32VAA9Pregnancy_pGGSayxGs14_ArrayProtocolsWl : 128 -> 136
+~ _$sSay19NightingaleTraining8IntervalVys6UInt32VAA9Pregnancy_pGGSayxGSlsWl : 128 -> 136
+~ _$sSD6ValuesVys6UInt32VSf_GAByxq__GSTsWl : 128 -> 136
+~ _$sSaySfGSayxG19NightingaleTraining29UnsafeMutableMemoryAccessibleACWl : 128 -> 136
+~ _$ss10ArraySliceVySfGAByxG19NightingaleTraining29UnsafeMutableMemoryAccessibleAEWl : 128 -> 136
+~ _$s19NightingaleTraining16mergePregnancies11pregnancies8strategySayAA9Pregnancy_pGAF_AA07OverlapD8StrategyOtKF : 6428 -> 6508
+~ _$s19NightingaleTraining9PregnancyPAAE12containsFlow028excludePregnanciesContainingE0015maxLMPTolerableE5Delta5flowsS2b_s6UInt32VSDyAIs5UInt8VGtF : 692 -> 708
+~ _$s19NightingaleTraining16mergePregnancies11pregnancies8strategySayAA9Pregnancy_pGAF_AA07OverlapD8StrategyOtKFSSycfu_ : 64 -> 72
+~ _$s19NightingaleTraining5merge33_C5B431EB150FA4AF1E2730C04FEB8D90LL11pregnancies4treeySayAA9Pregnancy_pG_AA21AugmentedIntervalTreeCys6UInt32VAaF_pGtKF : 1400 -> 1408
+~ _$s19NightingaleTraining17PregnancyFromTestV6update17historicalPeriods28useSeahorseInferredStartdate0iK3LMPySays6UInt32V5start_AI3endtG_S2btF : 1236 -> 1244
+~ _$s19NightingaleTraining19PregnancyFromFactorV6update17historicalPeriods28useSeahorseInferredStartdate0iK3LMPySays6UInt32V5start_AI3endtG_S2btF : 640 -> 648
+~ _$s19NightingaleTraining19PregnancyFromFactorV11ensureValid11minDuration03maxI00H8LMPDelta0jK032excludePregnanciesContainingFlow0j12LMPTolerableO5Delta5flows12startSourcesAA0C13InvalidReasonOSi_S3iSbs6UInt32VSDyAPs5UInt8VGSaySo010_HKPrivateC15StartDateSourceVGtF : 500 -> 508
+~ _$sSay19NightingaleTraining9Pregnancy_pGSayxGs14_ArrayProtocolsWl : 128 -> 136
+~ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyF : 180 -> 188
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 316 -> 324
+~ _$sSaySo34_HKPrivatePregnancyStartDateSourceVGSayxGSTsWl : 128 -> 136
+~ _$s19NightingaleTraining0A17DMetricsProcessorO15generateMetrics4task11hyperParams7outputs6labels17historicalPeriods12sliceEndDays11pregnancies5today12metricPrefixSDySSypG24PrivateFederatedLearning7PFLTaskC_AA05HyperI0CSaySfGATSays6UInt32V5start_AV3endtGSayAVGSayAA9Pregnancy_pGAVSStKFZ : 10000 -> 10192
+~ _$s19NightingaleTraining0A17DMetricsProcessorO20generateCycleMetrics11hyperParams7outputs6labels17historicalPeriods12sliceEndDays11pregnancies5todaySaySiG2tp_SaySfG3tprAL2fpAN3fprAL22numberOfPregnantCyclesAL0wx3NonyZ0AN7latencyAL14latencyBucketstAA05HyperI0C_A2NSays6UInt32V5start_AY3endtGSayAYGSayAA9Pregnancy_pGAYtKFZ : 8220 -> 8380
+~ _$s19NightingaleTraining0A17DMetricsProcessorO20generateSliceMetrics11hyperParams7outputs6labelsSaySfG9rocScores_Sf7prScoreAH10targetTPRsAH0P10PrecisionsAH2tp_AH2fpAH2tnAH2fnt16confusionMatricsSi17numPostiveSamplesSi0Y15NegativeSamplesSf19postiveSamplesRatioSaySiG33negativeSamplesOutputDistributionAU33positiveSamplesOutputDistributiontAA05HyperI0C_A2HtKFZ : 4772 -> 4844
+~ _$s19NightingaleTraining0A17DMetricsProcessorO20generateCycleMetrics11hyperParams7outputs6labels17historicalPeriods12sliceEndDays11pregnancies5todaySaySiG2tp_SaySfG3tprAL2fpAN3fprAL22numberOfPregnantCyclesAL0wx3NonyZ0AN7latencyAL14latencyBucketstAA05HyperI0C_A2NSays6UInt32V5start_AY3endtGSayAYGSayAA9Pregnancy_pGAYtKFZyAYKXEfU4_ : 352 -> 360
+~ _$s19NightingaleTraining0A17DMetricsProcessorO20generateCycleMetrics11hyperParams7outputs6labels17historicalPeriods12sliceEndDays11pregnancies5todaySaySiG2tp_SaySfG3tprAL2fpAN3fprAL22numberOfPregnantCyclesAL0wx3NonyZ0AN7latencyAL14latencyBucketstAA05HyperI0C_A2NSays6UInt32V5start_AY3endtGSayAYGSayAA9Pregnancy_pGAYtKFZyAYKXEfU4_yAA8IntervalVyAYypGXEfU_ : 492 -> 500
+~ _$sSDySSypGSDyxq_GSlsWl : 128 -> 136
+~ _$sSaySS_yptGSayxGSTsWl : 128 -> 136
+~ _$sSaySNys6UInt32VGGSayxGSlsWl : 128 -> 136
+~ _$sSays6UInt32V5start_AB3endSi5labelSb6detectSiSg7latencytGSayxGSlsWl : 128 -> 136
+~ _$sSaySiSgGSayxGSTsWl : 128 -> 136
+~ _$sSay19NightingaleTraining8IntervalVys6UInt32VypGGSayxGSTsWl : 128 -> 136
+~ _$sSaySNys6UInt32VGGSayxGSTsWl : 128 -> 136
+~ _$sSNys6UInt32VGSNyxGSQsWl : 128 -> 136
+~ _$s19NightingaleTraining12calculateAge10components17birthDateRequiredSfSg10Foundation0G10ComponentsVSg_SbtKF : 1116 -> 1132
+~ _$s19NightingaleTraining11HyperParamsC07defaultA24DInputFeatureStatsOption_WZ : 368 -> 376
+~ _$s19NightingaleTraining11HyperParamsC6recipeACSDys11AnyHashableVypG_tcfc : 1100 -> 1116
+~ _$s19NightingaleTraining11HyperParamsC9parameter3for7defaultxSS_xtlF : 860 -> 868
+~ _$s19NightingaleTraining11HyperParamsC11weightNamesSaySSGvg : 148 -> 156
+~ _$s19NightingaleTraining11HyperParamsC18inputShuffleMethod24PrivateFederatedLearning0fG0Ovg : 680 -> 688
+~ _$s19NightingaleTraining11HyperParamsC10evalModelsSaySSGvg : 152 -> 160
+~ _$s19NightingaleTraining11HyperParamsC14recipeForModel5modelSDySSypGSS_tF : 156 -> 164
+~ _$s19NightingaleTraining11HyperParamsC19pregnancySourceListSayAA09PregnancyF0OGvg : 576 -> 608
+~ _$sSay19NightingaleTraining15PregnancySourceOGSayxGSlsWl : 128 -> 136
+~ _$sSay19NightingaleTraining15PregnancySourceOSgGSayxGSTsWl : 128 -> 136
+~ _$s19NightingaleTraining11HyperParamsC33hkPregnancyStartSourceIncludeListSaySo010_HKPrivatefg4DateH0VGvg : 504 -> 520
+~ _$sSaySo34_HKPrivatePregnancyStartDateSourceVGSayxGSlsWl : 128 -> 136
+~ _$s19NightingaleTraining11HyperParamsC13isHRVRequiredSbyF : 236 -> 244
+~ _$s19NightingaleTraining11HyperParamsC14isSpO2RequiredSbyF : 236 -> 244
+~ _$s19NightingaleTraining11HyperParamsC25isRespiratoryRateRequiredSbyF : 236 -> 244
+~ _$s19NightingaleTraining11HyperParamsC13isSWTRequiredSbyF : 236 -> 244
+~ _$s19NightingaleTraining11HyperParamsC16isDaySHRRequiredSbyF : 236 -> 244
+~ _$s19NightingaleTraining11HyperParamsC18isNightSHRRequiredSbyF : 236 -> 244
+~ _$s19NightingaleTraining11HyperParamsC13isPSMRequiredSbyF : 236 -> 244
+~ _$s19NightingaleTraining11HyperParamsC13isPSSRequiredSbyF : 236 -> 244
+~ _$s19NightingaleTraining11HyperParamsC34isDaysSinceLastPeriodStartRequiredSbyF : 236 -> 244
+~ _$s19NightingaleTraining11HyperParamsC7maxFPRsSaySfGvg : 448 -> 464
+~ _$sSaySdGSayxGSlsWl : 128 -> 136
+~ _$s19NightingaleTraining11HyperParamsC10targetFPRsSaySfGvg : 448 -> 464
+~ _$s19NightingaleTraining11HyperParamsC24outputPostProcThresholdsSaySfGvg : 448 -> 464
+~ _$s19NightingaleTraining11HyperParamsC14latencyBucketsSaySfGvg : 460 -> 476
+~ _$s19NightingaleTraining11HyperParamsC27heartRatePeriodTFModelNamesSaySSGvg : 152 -> 160
+~ _$s19NightingaleTraining11HyperParamsC33heartRatePeriodEnsembleModelNamesSaySSGvg : 152 -> 160
+~ _$s19NightingaleTraining0A9TelemetryO04senda5ReachC4Lazy6taskId8location7useCase9errorCodeySS_SSAA09HIDPFLUseK0OSitFZSDySSSo8NSObjectCGSgycfU_ : 500 -> 508
+~ _$s19NightingaleTraining0A9TelemetryO04senda16ShadowEvaluationC4Lazy17flycatcherResultsyAA21FlycatcherTelemetricsV_tFZSDySSSo8NSObjectCGSgycfU_ : 2312 -> 2320
+
+```

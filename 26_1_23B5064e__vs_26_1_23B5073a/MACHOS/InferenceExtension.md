@@ -1,0 +1,310 @@
+## InferenceExtension
+
+> `/System/Library/ExtensionKit/Extensions/InferenceExtension.appex/InferenceExtension`
+
+```diff
+
+ 3505.10.1.0.0
+-  __TEXT.__text: 0x29f88
++  __TEXT.__text: 0x2a404
+   __TEXT.__auth_stubs: 0x11c0
+   __TEXT.__objc_methlist: 0x1ac
+-  __TEXT.__const: 0x183e
++  __TEXT.__const: 0x1aee
+   __TEXT.__cstring: 0x2695
+   __TEXT.__swift5_typeref: 0x8d2
+   __TEXT.__swift5_fieldmd: 0x784
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D6114393-B36E-3B96-855E-105C79C47FAB
++  UUID: 4DFC36D6-227D-36A4-9C53-F5C2F25169AE
+   Functions: 922
+-  Symbols:   7149
++  Symbols:   7269
+   CStrings:  283
+ 
+Symbols:
++ _$s10Foundation4DateVSgMR
++ _$s10Foundation4DateVSgMd
++ _$s10Foundation4UUIDVSgMR
++ _$s10Foundation4UUIDVSgMd
++ _$s10Foundation6LocaleVSgMR
++ _$s10Foundation6LocaleVSgMd
++ _$s11BiomePubSub21BookmarkablePublisherVy26AIMLInstrumentationStreams8SiriTurnCGMR
++ _$s11BiomePubSub21BookmarkablePublisherVy26AIMLInstrumentationStreams8SiriTurnCGMd
++ _$s16FoundationModels12GenerationIDVSgMR
++ _$s16FoundationModels12GenerationIDVSgMd
++ _$s16FoundationModels17GenerationOptionsV12SamplingModeVSgMR
++ _$s16FoundationModels17GenerationOptionsV12SamplingModeVSgMd
++ _$s16FoundationModels20LanguageModelSessionC8ResponseVy_18InferenceExtension013UserAlignmentdF0VGMR
++ _$s16FoundationModels20LanguageModelSessionC8ResponseVy_18InferenceExtension013UserAlignmentdF0VGMd
++ _$s16FoundationModels20LanguageModelSessionC8ResponseVy_18InferenceExtension013UserAlignmentdF0VGSgMR
++ _$s16FoundationModels20LanguageModelSessionC8ResponseVy_18InferenceExtension013UserAlignmentdF0VGSgMd
++ _$s18InferenceExtension14TrajectoryTypeO_SStMR
++ _$s18InferenceExtension14TrajectoryTypeO_SStMd
++ _$s18InferenceExtension20ObservabilityManagerCyAA20PSETrajectoryBuilderVGMR
++ _$s18InferenceExtension20ObservabilityManagerCyAA20PSETrajectoryBuilderVGMd
++ _$s18InferenceExtension21UserEngagementFeatureCSgMR
++ _$s18InferenceExtension21UserEngagementFeatureCSgMd
++ _$s20LighthouseBackground11MLHostError_pMR
++ _$s20LighthouseBackground11MLHostError_pMd
++ _$s20LighthouseBackground16MLHostParametersVy18InferenceExtension014UserEngagementeF6ConfigVGMR
++ _$s20LighthouseBackground16MLHostParametersVy18InferenceExtension014UserEngagementeF6ConfigVGMd
++ _$s20LighthouseBackground16MLHostParametersVy18InferenceExtension014UserEngagementeF6ConfigVGSgMR
++ _$s20LighthouseBackground16MLHostParametersVy18InferenceExtension014UserEngagementeF6ConfigVGSgMd
++ _$s26AIMLInstrumentationStreams14ComponentGroupCySo19SISchemaClientEventCGMR
++ _$s26AIMLInstrumentationStreams14ComponentGroupCySo19SISchemaClientEventCGMd
++ _$s26AIMLInstrumentationStreams14ComponentGroupCySo23ASRSchemaASRClientEventCGMR
++ _$s26AIMLInstrumentationStreams14ComponentGroupCySo23ASRSchemaASRClientEventCGMd
++ _$s26AIMLInstrumentationStreams14ComponentGroupCySo23TTSSchemaTTSClientEventCGMR
++ _$s26AIMLInstrumentationStreams14ComponentGroupCySo23TTSSchemaTTSClientEventCGMd
++ _$sSDySSypGMR
++ _$sSDySSypGMd
++ _$sSS3key_yp5valuetMR
++ _$sSS3key_yp5valuetMd
++ _$sSS4name_16FoundationModels29ConvertibleToGeneratedContent_p5valuetMR
++ _$sSS4name_16FoundationModels29ConvertibleToGeneratedContent_p5valuetMd
++ _$sSSSgMR
++ _$sSSSgMd
++ _$sSS_16FoundationModels29ConvertibleToGeneratedContent_ptMR
++ _$sSS_16FoundationModels29ConvertibleToGeneratedContent_ptMd
++ _$sSS_yptMR
++ _$sSS_yptMd
++ _$sSay18InferenceExtension10PSEFeatureVGMR
++ _$sSay18InferenceExtension10PSEFeatureVGMd
++ _$sSay18InferenceExtension21UserEngagementFeatureCGMR
++ _$sSay18InferenceExtension21UserEngagementFeatureCGMd
++ _$sSay18InferenceExtension25UserAlignmentScore_PromptV7VersionOGMR
++ _$sSay18InferenceExtension25UserAlignmentScore_PromptV7VersionOGMd
++ _$sSay19SiriInstrumentation12OrderedEventCGMR
++ _$sSay19SiriInstrumentation12OrderedEventCGMd
++ _$sSay26AIMLInstrumentationStreams8SiriTurnCGMR
++ _$sSay26AIMLInstrumentationStreams8SiriTurnCGMd
++ _$sSaySSGMR
++ _$sSaySSGMd
++ _$sSaySS_16FoundationModels29ConvertibleToGeneratedContent_ptGMR
++ _$sSaySS_16FoundationModels29ConvertibleToGeneratedContent_ptGMd
++ _$sSaySo22ASRSchemaASRTokenTier1CGMR
++ _$sSaySo22ASRSchemaASRTokenTier1CGMd
++ _$sSayypGMR
++ _$sSayypGMd
++ _$sScG8IteratorVy18InferenceExtension21UserEngagementFeatureCSg_GMR
++ _$sScG8IteratorVy18InferenceExtension21UserEngagementFeatureCSg_GMd
++ _$sScG8IteratorVySi_18InferenceExtension10PSEFeatureVt_GMR
++ _$sScG8IteratorVySi_18InferenceExtension10PSEFeatureVt_GMd
++ _$sScPSgMR
++ _$sScPSgMd
++ _$sSi_18InferenceExtension10PSEFeatureVtMR
++ _$sSi_18InferenceExtension10PSEFeatureVtMd
++ _$sSo10BMBookmark_pMR
++ _$sSo10BMBookmark_pMd
++ _$sSo30SISchemaInstrumentationMessageCmMR
++ _$sSo30SISchemaInstrumentationMessageCmMd
++ _$sSo8NSObjectCSgMR
++ _$sSo8NSObjectCSgMd
++ _$ss18_DictionaryStorageCy18InferenceExtension14TrajectoryTypeOSSGMR
++ _$ss18_DictionaryStorageCy18InferenceExtension14TrajectoryTypeOSSGMd
++ _$ss18_DictionaryStorageCySSSgSay26AIMLInstrumentationStreams8SiriTurnCGGMR
++ _$ss18_DictionaryStorageCySSSgSay26AIMLInstrumentationStreams8SiriTurnCGGMd
++ _$ss18_DictionaryStorageCySSypGMR
++ _$ss18_DictionaryStorageCySSypGMd
++ _$ss22KeyedDecodingContainerVy18InferenceExtension014UserEngagementdE6ConfigV10CodingKeys33_7486101AE976CDEF82411786A6A08A1BLLOGMR
++ _$ss22KeyedDecodingContainerVy18InferenceExtension014UserEngagementdE6ConfigV10CodingKeys33_7486101AE976CDEF82411786A6A08A1BLLOGMd
++ _$ss22KeyedEncodingContainerVy18InferenceExtension014UserEngagementdE6ConfigV10CodingKeys33_7486101AE976CDEF82411786A6A08A1BLLOGMR
++ _$ss22KeyedEncodingContainerVy18InferenceExtension014UserEngagementdE6ConfigV10CodingKeys33_7486101AE976CDEF82411786A6A08A1BLLOGMd
++ _$ss23_ContiguousArrayStorageCy16FoundationModels16GenerationSchemaV8PropertyVGMR
++ _$ss23_ContiguousArrayStorageCy16FoundationModels16GenerationSchemaV8PropertyVGMd
++ _$ss23_ContiguousArrayStorageCy18InferenceExtension10PSEFeatureVGMR
++ _$ss23_ContiguousArrayStorageCy18InferenceExtension10PSEFeatureVGMd
++ _$ss23_ContiguousArrayStorageCy18InferenceExtension14TrajectoryTypeO_SStGMR
++ _$ss23_ContiguousArrayStorageCy18InferenceExtension14TrajectoryTypeO_SStGMd
++ _$ss23_ContiguousArrayStorageCySS3key_yp5valuetGMR
++ _$ss23_ContiguousArrayStorageCySS3key_yp5valuetGMd
++ _$ss23_ContiguousArrayStorageCySS4name_16FoundationModels29ConvertibleToGeneratedContent_p5valuetGMR
++ _$ss23_ContiguousArrayStorageCySS4name_16FoundationModels29ConvertibleToGeneratedContent_p5valuetGMd
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss23_ContiguousArrayStorageCySS_16FoundationModels29ConvertibleToGeneratedContent_ptGMR
++ _$ss23_ContiguousArrayStorageCySS_16FoundationModels29ConvertibleToGeneratedContent_ptGMd
++ _$ss23_ContiguousArrayStorageCySi_18InferenceExtension10PSEFeatureVtGMR
++ _$ss23_ContiguousArrayStorageCySi_18InferenceExtension10PSEFeatureVtGMd
++ _$ss23_ContiguousArrayStorageCySnySiGGMR
++ _$ss23_ContiguousArrayStorageCySnySiGGMd
++ _$ss23_ContiguousArrayStorageCySo30SISchemaInstrumentationMessageCmGMR
++ _$ss23_ContiguousArrayStorageCySo30SISchemaInstrumentationMessageCmGMd
++ _$ss23_ContiguousArrayStorageCySsGMR
++ _$ss23_ContiguousArrayStorageCySsGMd
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMR
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMd
++ _$ss23_ContiguousArrayStorageCyyXlGMR
++ _$ss23_ContiguousArrayStorageCyyXlGMd
++ _$ss23_ContiguousArrayStorageCyypGMR
++ _$ss23_ContiguousArrayStorageCyypGMd
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ _$sypSgMR
++ _$sypSgMd
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
+- _$s10Foundation4DateVSgMD
+- _$s10Foundation4UUIDVSgMD
+- _$s10Foundation6LocaleVSgMD
+- _$s11BiomePubSub21BookmarkablePublisherVy26AIMLInstrumentationStreams8SiriTurnCGMD
+- _$s16FoundationModels12GenerationIDVSgMD
+- _$s16FoundationModels17GenerationOptionsV12SamplingModeVSgMD
+- _$s16FoundationModels20LanguageModelSessionC8ResponseVy_18InferenceExtension013UserAlignmentdF0VGMD
+- _$s16FoundationModels20LanguageModelSessionC8ResponseVy_18InferenceExtension013UserAlignmentdF0VGSgMD
+- _$s18InferenceExtension14TrajectoryTypeO_SStMD
+- _$s18InferenceExtension20ObservabilityManagerCyAA20PSETrajectoryBuilderVGMD
+- _$s18InferenceExtension21UserEngagementFeatureCSgMD
+- _$s20LighthouseBackground11MLHostError_pMD
+- _$s20LighthouseBackground16MLHostParametersVy18InferenceExtension014UserEngagementeF6ConfigVGMD
+- _$s20LighthouseBackground16MLHostParametersVy18InferenceExtension014UserEngagementeF6ConfigVGSgMD
+- _$s26AIMLInstrumentationStreams14ComponentGroupCySo19SISchemaClientEventCGMD
+- _$s26AIMLInstrumentationStreams14ComponentGroupCySo23ASRSchemaASRClientEventCGMD
+- _$s26AIMLInstrumentationStreams14ComponentGroupCySo23TTSSchemaTTSClientEventCGMD
+- _$sSDySSypGMD
+- _$sSS3key_yp5valuetMD
+- _$sSS4name_16FoundationModels29ConvertibleToGeneratedContent_p5valuetMD
+- _$sSSSgMD
+- _$sSS_16FoundationModels29ConvertibleToGeneratedContent_ptMD
+- _$sSS_yptMD
+- _$sSay18InferenceExtension10PSEFeatureVGMD
+- _$sSay18InferenceExtension21UserEngagementFeatureCGMD
+- _$sSay18InferenceExtension25UserAlignmentScore_PromptV7VersionOGMD
+- _$sSay19SiriInstrumentation12OrderedEventCGMD
+- _$sSay26AIMLInstrumentationStreams8SiriTurnCGMD
+- _$sSaySSGMD
+- _$sSaySS_16FoundationModels29ConvertibleToGeneratedContent_ptGMD
+- _$sSaySo22ASRSchemaASRTokenTier1CGMD
+- _$sSayypGMD
+- _$sScG8IteratorVy18InferenceExtension21UserEngagementFeatureCSg_GMD
+- _$sScG8IteratorVySi_18InferenceExtension10PSEFeatureVt_GMD
+- _$sScPSgMD
+- _$sSi_18InferenceExtension10PSEFeatureVtMD
+- _$sSo10BMBookmark_pMD
+- _$sSo30SISchemaInstrumentationMessageCmMD
+- _$sSo8NSObjectCSgMD
+- _$ss18_DictionaryStorageCy18InferenceExtension14TrajectoryTypeOSSGMD
+- _$ss18_DictionaryStorageCySSSgSay26AIMLInstrumentationStreams8SiriTurnCGGMD
+- _$ss18_DictionaryStorageCySSypGMD
+- _$ss22KeyedDecodingContainerVy18InferenceExtension014UserEngagementdE6ConfigV10CodingKeys33_7486101AE976CDEF82411786A6A08A1BLLOGMD
+- _$ss22KeyedEncodingContainerVy18InferenceExtension014UserEngagementdE6ConfigV10CodingKeys33_7486101AE976CDEF82411786A6A08A1BLLOGMD
+- _$ss23_ContiguousArrayStorageCy16FoundationModels16GenerationSchemaV8PropertyVGMD
+- _$ss23_ContiguousArrayStorageCy18InferenceExtension10PSEFeatureVGMD
+- _$ss23_ContiguousArrayStorageCy18InferenceExtension14TrajectoryTypeO_SStGMD
+- _$ss23_ContiguousArrayStorageCySS3key_yp5valuetGMD
+- _$ss23_ContiguousArrayStorageCySS4name_16FoundationModels29ConvertibleToGeneratedContent_p5valuetGMD
+- _$ss23_ContiguousArrayStorageCySSGMD
+- _$ss23_ContiguousArrayStorageCySS_16FoundationModels29ConvertibleToGeneratedContent_ptGMD
+- _$ss23_ContiguousArrayStorageCySi_18InferenceExtension10PSEFeatureVtGMD
+- _$ss23_ContiguousArrayStorageCySnySiGGMD
+- _$ss23_ContiguousArrayStorageCySo30SISchemaInstrumentationMessageCmGMD
+- _$ss23_ContiguousArrayStorageCySsGMD
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMD
+- _$ss23_ContiguousArrayStorageCyyXlGMD
+- _$ss23_ContiguousArrayStorageCyypGMD
+- _$ss5Error_pMD
+- _$sypSgMD
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+Functions:
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0g5Tf4g_n : 264 -> 272
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC18InferenceExtension14TrajectoryTypeO_SSTt0g5Tf4g_n : 268 -> 276
+~ ___swift_instantiateConcreteTypeFromMangledName -> ___swift_instantiateConcreteTypeFromMangledNameV2 : 76 -> 72
+~ _$sSS_yptWOc : 104 -> 112
+~ _$s18InferenceExtension26UserAlignmentScoreReporterC16populateMetaData33_6A53B8D927DDAE96A182F738760CC4EBLL6result4dataSo31PSESchemaPSEClientEventMetadataCSgAA0cD6ResultO_AA07PSEMetaI0VtFTf4nnd_nTf4nx_n : 2364 -> 2372
+~ _$s10Foundation4UUIDVSgWOh : 96 -> 104
+~ _$s18InferenceExtension27UserAlignmentScoreEvaluatorCACycfc : 264 -> 272
+~ _$s18InferenceExtension20ObservabilityManagerC16buildUserJourney10maxRecordsSayAA0F17EngagementFeatureCGSi_tYaKFAA20PSETrajectoryBuilderV_Tg5TY2_ : 820 -> 836
+~ _$s18InferenceExtension20ObservabilityManagerC16buildUserJourney10maxRecordsSayAA0F17EngagementFeatureCGSi_tYaKFAHScGyAGSgGzYaXEfU_AA20PSETrajectoryBuilderV_Tg5 : 260 -> 276
+~ _$s18InferenceExtension20ObservabilityManagerC16buildUserJourney10maxRecordsSayAA0F17EngagementFeatureCGSi_tYaKFAHScGyAGSgGzYaXEfU_AA20PSETrajectoryBuilderV_Tg5TY0_ : 932 -> 948
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 108 -> 116
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5 : 236 -> 244
+~ _$sScPSgWOc : 104 -> 112
+~ _$sScPSgWOh : 96 -> 104
+~ _$sSay18InferenceExtension25UserAlignmentScore_PromptV7VersionOGSayxGSlsWl : 92 -> 100
+~ ___swift_instantiateConcreteTypeFromMangledNameAbstract -> ___swift_instantiateConcreteTypeFromMangledNameAbstractV2 : 80 -> 72
+~ _$s18InferenceExtension26UserAlignmentModelResponseV16generationSchema16FoundationModels010GenerationH0VvgZ : 512 -> 520
+~ _$s18InferenceExtension26UserAlignmentModelResponseV16generatedContent16FoundationModels09GeneratedH0Vvg : 908 -> 920
+~ _$ss15_arrayForceCastySayq_GSayxGr0_lFSS4name_16FoundationModels29ConvertibleToGeneratedContent_p5valuet_SS_AeF_ptTg5 : 292 -> 324
+~ _$s18InferenceExtension26UserAlignmentModelResponseV18PartiallyGeneratedVyAE16FoundationModels0H7ContentVKcfC : 812 -> 816
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS4name_16FoundationModels29ConvertibleToGeneratedContent_p5valuet_Tg5 : 320 -> 336
+~ _$sSaySS_16FoundationModels29ConvertibleToGeneratedContent_ptGSayxGSTsWl : 92 -> 100
+~ _$s16FoundationModels12GenerationIDVSgWOh : 96 -> 104
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tg5 : 252 -> 260
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF18InferenceExtension14TrajectoryTypeO_SSt_Tg5 : 312 -> 328
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 268
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_18InferenceExtension10PSEFeatureVt_Tg5 : 308 -> 324
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSs_Tg5 : 260 -> 268
+~ _$sSS4name_16FoundationModels29ConvertibleToGeneratedContent_p5valuetWOc : 104 -> 112
+~ _$s18InferenceExtension0A6EngineC4call6promptAA26UserAlignmentModelResponseVSgSS_tYaKF : 796 -> 812
+~ _$s18InferenceExtension0A6EngineC4call6promptAA26UserAlignmentModelResponseVSgSS_tYaKFTY0_ : 4092 -> 4108
+~ _$s18InferenceExtension0A6EngineC4call6promptAA26UserAlignmentModelResponseVSgSS_tYaKFTY2_ : 564 -> 596
+~ _$s18InferenceExtension0A6EngineC4call6promptAA26UserAlignmentModelResponseVSgSS_tYaKFTY3_ : 2820 -> 2836
+~ _$s16FoundationModels20LanguageModelSessionC8ResponseVy_18InferenceExtension013UserAlignmentdF0VGSgWOc : 104 -> 112
+~ _$sSo8NSObjectCSgWOhTm : 92 -> 96
+~ _$s18InferenceExtension26UserEngagementModelManagerC22systemPromptFromConfigACSS_tcfc : 1916 -> 1920
+~ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSS3key_yp5valuet_Tg5122$s18InferenceExtension11FeatureUtilO22prettyPrintEngagements11engagementsSSSDySSypG_tFZSbSS3key_yp5valuet_SSAG_ypAHttXEfU_Tf1cn_n : 256 -> 264
+~ _$s18InferenceExtension11FeatureUtilO22prettyPrintEngagements11engagementsSSSDySSypG_tFZTf4nd_n : 2068 -> 2136
+~ _$sSS3key_yp5valuetWOc : 104 -> 112
+~ _$sSS3key_yp5valuetWOh : 96 -> 104
+~ _$sSaySSGSayxGSKsWl : 92 -> 100
+~ _$s18InferenceExtension10PSEFeatureV16printEngagementsyyF : 140 -> 148
+~ _$s18InferenceExtension18PSEFeatureTemplateV16donatedTimestamp6domain6action15isDonatedBySiriAC10Foundation4DateV_S2SSbtcfC : 628 -> 636
+~ _$sSDyq_SgxcisSS_ypTg5 : 184 -> 208
+~ _$s18InferenceExtension18PSEFeatureTemplateV12toDictionarySDySSypGyF : 2700 -> 2744
+~ _$ss17_NativeDictionaryV4copyyyFSS_ypTg5 : 412 -> 420
+~ _$s10Foundation4DateVSgWOc : 104 -> 112
+~ _$s10Foundation4DateVSgWOd : 104 -> 112
+~ sub_100013da0 -> sub_100013fe4 : 192 -> 200
+~ sub_100013e74 -> sub_1000140c0 : 188 -> 196
+~ _$sSaySSGSgMa : 92 -> 100
+~ _$s18InferenceExtension21UserEngagementFeatureC17prettyPrintSimpleSSyF : 468 -> 476
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_16FoundationModels29ConvertibleToGeneratedContent_pt_Tg5 : 320 -> 336
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 268
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS3key_yp5valuet_Tg5 : 312 -> 328
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF18InferenceExtension10PSEFeatureV_Tg5 : 260 -> 268
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_18InferenceExtension10PSEFeatureVt_Tg5 : 308 -> 324
+~ _$sSSSgWOc : 104 -> 112
+~ _$s18InferenceExtension18ConversationLoaderV08retrieveC3For3idsAA21UserEngagementFeatureCSgSaySSG_tYaKF : 264 -> 272
+~ _$s18InferenceExtension18ConversationLoaderV08retrieveC3For3idsAA21UserEngagementFeatureCSgSaySSG_tYaKFTY2_ : 252 -> 260
+~ _$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo30SISchemaInstrumentationMessageCm_Ttg5 : 96 -> 120
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS3key_yp5valuet_Tt1g5 : 136 -> 144
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC26AIMLInstrumentationStreams8SiriTurnC_Tt1g5 : 128 -> 136
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_ypTg5 : 688 -> 696
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSSSg_Say26AIMLInstrumentationStreams8SiriTurnCGTg5 : 704 -> 712
+~ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tF26AIMLInstrumentationStreams8SiriTurnC_Tg5 : 400 -> 420
+~ _$sSD8grouping2bySDyxSay7ElementQyd__GGqd__n_xADKXEtKcAERs_STRd__lufCSSSg_Say26AIMLInstrumentationStreams8SiriTurnCGTt1g50108$s18InferenceExtension18ConversationLoaderV08retrieveC3For3idsAA21UserEngagementFeatureCSgSaySSG_tYaKFSSSg26d8Streams8fG7CXEfU0_Tf1nc_nTf4g_n : 856 -> 848
+~ _$s18InferenceExtension18ConversationLoaderV18parseUtteranceFrom4turnSS26AIMLInstrumentationStreams8SiriTurnC_tYaFTf4nnd_nTY0_ : 1336 -> 1384
+~ _$s18InferenceExtension18ConversationLoaderV21parseSiriResponseFrom4turnSS26AIMLInstrumentationStreams0F4TurnC_tYaFTf4nnd_nTY0_ : 4068 -> 4108
+~ _$s11BiomePubSub21BookmarkablePublisherVy26AIMLInstrumentationStreams8SiriTurnCGACyxGAA0E8ProtocolAAWlTm : 68 -> 72
+~ _$s18InferenceExtension14BiomeStreamingC04loadC19EventsFromBMLibrary9eventType10maxRecordsSayxGSgxm_SitYaSo11BMEventBaseCRbzSo11BMStoreDataRzlFTY0_ : 2476 -> 2472
+~ _$s18InferenceExtension14BiomeStreamingC8bookmark33_552544C1B9F47ECFAECC414A6BEABA41LL3forSo10BMBookmark_pSgSS_tF : 1284 -> 1308
+~ _$s18InferenceExtension14BiomeStreamingC12saveBookmark33_552544C1B9F47ECFAECC414A6BEABA41LL_6forKeyySo10BMBookmark_p_SStF : 1100 -> 1108
+~ _$s18InferenceExtension20ObservabilityManagerC16buildUserJourney10maxRecordsSayAA0F17EngagementFeatureCGSi_tYaKFTY2_ : 820 -> 836
+~ _$s18InferenceExtension14BiomeStreamingC04loadC19EventsFromBMLibrary9eventType10maxRecordsSayxGSgxm_SitYaSo11BMEventBaseCRbzSo11BMStoreDataRzlFSo24BMSiriPostSiriEngagementC_Tt0g5TY0_ : 2496 -> 2500
+~ _$s18InferenceExtension20ObservabilityManagerC16buildUserJourney10maxRecordsSayAA0F17EngagementFeatureCGSi_tYaKFAHScGyAGSgGzYaXEfU_ : 260 -> 276
+~ _$s18InferenceExtension20ObservabilityManagerC16buildUserJourney10maxRecordsSayAA0F17EngagementFeatureCGSi_tYaKFAHScGyAGSgGzYaXEfU_TY0_ : 932 -> 948
+~ _$s18InferenceExtension20PSETrajectoryBuilderV18adaptedPSEFeatures33_2CDA8440C3F3E0E927E53F1518A08BCALL9pseEventsSayAA10PSEFeatureVGSaySo30BMSiriPostSiriEngagementSignalCG_tYaFTY0_ : 548 -> 564
+~ _$s18InferenceExtension20PSETrajectoryBuilderV18adaptedPSEFeatures33_2CDA8440C3F3E0E927E53F1518A08BCALL9pseEventsSayAA10PSEFeatureVGSaySo30BMSiriPostSiriEngagementSignalCG_tYaFAIScGySi_AHtGzYaXEfU_ : 260 -> 276
+~ _$s18InferenceExtension20PSETrajectoryBuilderV18adaptedPSEFeatures33_2CDA8440C3F3E0E927E53F1518A08BCALL9pseEventsSayAA10PSEFeatureVGSaySo30BMSiriPostSiriEngagementSignalCG_tYaFAIScGySi_AHtGzYaXEfU_TY0_ : 988 -> 1016
+~ _$sSS18InferenceExtensionE9titleCaseSSyF : 648 -> 660
+~ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFs0E5SliceVySo30BMSiriPostSiriEngagementSignalCG_Tg5 : 236 -> 244
+~ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVySi_18InferenceExtension10PSEFeatureVtG_Tg504$s18f106Extension20PSETrajectoryBuilderV18adaptedPSEFeatures33_2CDA8440C3F3E0E927E53F1518A08BCALL9pseEventsSayAA10H89VGSaySo30BMSiriPostSiriEngagementSignalCG_tYaFAIScGySi_AHtGzYaXEfU_SbSi_AHt_Si_AHttXEfU0_Tf1cn_n : 356 -> 364
+~ _$s18InferenceExtension20PSETrajectoryBuilderV5build5event4withAA21UserEngagementFeatureCSgSo014BMSiriPostSiriI0C_SayAA14TrajectoryTypeOGtYaFTf4nndn_nTY4_ : 652 -> 668
+~ _$s18InferenceExtension20PSETrajectoryBuilderV5build5event4withAA21UserEngagementFeatureCSgSo014BMSiriPostSiriI0C_SayAA14TrajectoryTypeOGtYaFTf4nndn_nTY6_ : 196 -> 204
+~ _$s18InferenceExtension20PSETrajectoryBuilderV15extractFeatures33_2CDA8440C3F3E0E927E53F1518A08BCALL4from3forAA10PSEFeatureVSo30BMSiriPostSiriEngagementSignalC_SStYaFTf4nnnd_n : 448 -> 456
+~ _$s18InferenceExtension20PSETrajectoryBuilderV15extractFeatures33_2CDA8440C3F3E0E927E53F1518A08BCALL4from3forAA10PSEFeatureVSo30BMSiriPostSiriEngagementSignalC_SStYaFTf4nnnd_nTY0_ : 4884 -> 4900
+~ _$s18InferenceExtension014UserEngagementaB6ConfigV6encode2toys7Encoder_p_tKF : 576 -> 580
+~ _$s18InferenceExtension014UserEngagementaB6ConfigV4fromACs7Decoder_p_tKcfC : 920 -> 924
+~ _$s18InferenceExtensionAAC6doWork7context20LighthouseBackground12MLHostResultCAE0hB7ContextC_tYaF : 496 -> 512
+~ _$s18InferenceExtensionAAC6doWork7context20LighthouseBackground12MLHostResultCAE0hB7ContextC_tYaFTY0_ : 736 -> 744
+~ _$s18InferenceExtensionAAC6doWork7context20LighthouseBackground12MLHostResultCAE0hB7ContextC_tYaFTY2_ : 868 -> 876
+~ _$s18InferenceExtensionAAC6doWork7context20LighthouseBackground12MLHostResultCAE0hB7ContextC_tYaFTY5_ : 1688 -> 1704
+~ _$s18InferenceExtensionAACfd : 100 -> 108
+~ _$s18InferenceExtensionAACfD : 160 -> 168
+
+```
