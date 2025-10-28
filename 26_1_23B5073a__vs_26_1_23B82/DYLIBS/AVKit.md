@@ -1,0 +1,754 @@
+## AVKit
+
+> `/System/Library/Frameworks/AVKit.framework/AVKit`
+
+```diff
+
+-1300.10.1.4.0
+-  __TEXT.__text: 0x22571c
++1300.10.1.5.0
++  __TEXT.__text: 0x2257a4
+   __TEXT.__auth_stubs: 0x3730
+-  __TEXT.__objc_methlist: 0x1d4e4
++  __TEXT.__objc_methlist: 0x1d4fc
+   __TEXT.__const: 0x7b10
+   __TEXT.__constg_swiftt: 0x2534
+   __TEXT.__swift5_typeref: 0x778e
+
+   __TEXT.__gcc_except_tab: 0x49b4
+   __TEXT.__dlopen_cstrs: 0x1ef
+   __TEXT.__ustring: 0x7a
+-  __TEXT.__unwind_info: 0x9438
++  __TEXT.__unwind_info: 0x9430
+   __TEXT.__eh_frame: 0x679c
+-  __TEXT.__objc_classname: 0x3924
+-  __TEXT.__objc_methname: 0x489d3
++  __TEXT.__objc_classname: 0x3925
++  __TEXT.__objc_methname: 0x48a5a
+   __TEXT.__objc_methtype: 0x952d
+-  __TEXT.__objc_stubs: 0x28920
++  __TEXT.__objc_stubs: 0x28960
+   __DATA_CONST.__got: 0x15f8
+   __DATA_CONST.__const: 0x31b0
+   __DATA_CONST.__objc_classlist: 0xa60
+   __DATA_CONST.__objc_catlist: 0xe0
+   __DATA_CONST.__objc_protolist: 0x4a8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xca70
++  __DATA_CONST.__objc_selrefs: 0xca80
+   __DATA_CONST.__objc_protorefs: 0x90
+   __DATA_CONST.__objc_superrefs: 0x7b0
+   __DATA_CONST.__objc_arraydata: 0x5c8
+   __AUTH_CONST.__auth_got: 0x1ba8
+   __AUTH_CONST.__const: 0x7a00
+   __AUTH_CONST.__cfstring: 0x8f80
+-  __AUTH_CONST.__objc_const: 0x35630
++  __AUTH_CONST.__objc_const: 0x35650
+   __AUTH_CONST.__objc_intobj: 0x690
+   __AUTH_CONST.__objc_arrayobj: 0x318
+   __AUTH_CONST.__objc_doubleobj: 0x280
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH.__objc_data: 0x5ec0
+   __AUTH.__data: 0x17c8
+-  __DATA.__objc_ivar: 0x2e78
++  __DATA.__objc_ivar: 0x2e7c
+   __DATA.__data: 0x53e0
+   __DATA.__bss: 0x55e8
+   __DATA.__common: 0xc8
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2003B6DE-89F9-3D5D-9A57-AC98FCE1C116
+-  Functions: 13677
+-  Symbols:   35524
+-  CStrings:  15759
++  UUID: F9DA03FA-26F1-39DE-B296-C65E41C7EF86
++  Functions: 13679
++  Symbols:   35531
++  CStrings:  15762
+ 
+Symbols:
++ -[AVPlayerViewController _addObserversOnControlsViewController]
++ -[AVPlayerViewController _stopObserversOnControlsViewController]
++ GCC_except_table10018
++ GCC_except_table10040
++ GCC_except_table10239
++ GCC_except_table10261
++ GCC_except_table3827
++ GCC_except_table3849
++ GCC_except_table3891
++ GCC_except_table3892
++ GCC_except_table3917
++ GCC_except_table3973
++ GCC_except_table4047
++ GCC_except_table4048
++ GCC_except_table4133
++ GCC_except_table4173
++ GCC_except_table4206
++ GCC_except_table4254
++ GCC_except_table4272
++ GCC_except_table4282
++ GCC_except_table4290
++ GCC_except_table4300
++ GCC_except_table4309
++ GCC_except_table4314
++ GCC_except_table4350
++ GCC_except_table4361
++ GCC_except_table4367
++ GCC_except_table4374
++ GCC_except_table4380
++ GCC_except_table4386
++ GCC_except_table4391
++ GCC_except_table4417
++ GCC_except_table4434
++ GCC_except_table4457
++ GCC_except_table4482
++ GCC_except_table4488
++ GCC_except_table4493
++ GCC_except_table4497
++ GCC_except_table4498
++ GCC_except_table4510
++ GCC_except_table4513
++ GCC_except_table4579
++ GCC_except_table4584
++ GCC_except_table4705
++ GCC_except_table4777
++ GCC_except_table4934
++ GCC_except_table4944
++ GCC_except_table4949
++ GCC_except_table5019
++ GCC_except_table5117
++ GCC_except_table5126
++ GCC_except_table5152
++ GCC_except_table5265
++ GCC_except_table5403
++ GCC_except_table5410
++ GCC_except_table5413
++ GCC_except_table5444
++ GCC_except_table5445
++ GCC_except_table5544
++ GCC_except_table6028
++ GCC_except_table6060
++ GCC_except_table6063
++ GCC_except_table6064
++ GCC_except_table6069
++ GCC_except_table6091
++ GCC_except_table6185
++ GCC_except_table6280
++ GCC_except_table6329
++ GCC_except_table6363
++ GCC_except_table6364
++ GCC_except_table6399
++ GCC_except_table6444
++ GCC_except_table6504
++ GCC_except_table6529
++ GCC_except_table6536
++ GCC_except_table6539
++ GCC_except_table6547
++ GCC_except_table6552
++ GCC_except_table6555
++ GCC_except_table6780
++ GCC_except_table6786
++ GCC_except_table6790
++ GCC_except_table6794
++ GCC_except_table6806
++ GCC_except_table6826
++ GCC_except_table6837
++ GCC_except_table6848
++ GCC_except_table6893
++ GCC_except_table6945
++ GCC_except_table6976
++ GCC_except_table7268
++ GCC_except_table7323
++ GCC_except_table7473
++ GCC_except_table7480
++ GCC_except_table7537
++ GCC_except_table7554
++ GCC_except_table7572
++ GCC_except_table7583
++ GCC_except_table7589
++ GCC_except_table7599
++ GCC_except_table7648
++ GCC_except_table7654
++ GCC_except_table7661
++ GCC_except_table7667
++ GCC_except_table7699
++ GCC_except_table7715
++ GCC_except_table7738
++ GCC_except_table7762
++ GCC_except_table7769
++ GCC_except_table7774
++ GCC_except_table7778
++ GCC_except_table7779
++ GCC_except_table7790
++ GCC_except_table7793
++ GCC_except_table7851
++ GCC_except_table7916
++ GCC_except_table7939
++ GCC_except_table8028
++ GCC_except_table8047
++ GCC_except_table8069
++ GCC_except_table8090
++ GCC_except_table8231
++ GCC_except_table8290
++ GCC_except_table8474
++ GCC_except_table8487
++ GCC_except_table8508
++ GCC_except_table8531
++ GCC_except_table8541
++ GCC_except_table8558
++ GCC_except_table8559
++ GCC_except_table8563
++ GCC_except_table8570
++ GCC_except_table8626
++ GCC_except_table8923
++ GCC_except_table8941
++ GCC_except_table9089
++ GCC_except_table9096
++ GCC_except_table9097
++ GCC_except_table9128
++ GCC_except_table9136
++ GCC_except_table9166
++ GCC_except_table9192
++ GCC_except_table9214
++ GCC_except_table9220
++ GCC_except_table9292
++ GCC_except_table9315
++ GCC_except_table9343
++ GCC_except_table9355
++ GCC_except_table9360
++ GCC_except_table9376
++ GCC_except_table9478
++ GCC_except_table9629
++ GCC_except_table9763
++ GCC_except_table9777
++ GCC_except_table9811
++ GCC_except_table9821
++ GCC_except_table9971
++ GCC_except_table9977
++ _AVDefaultHitRectInsets.28318
++ _AVTimeIntervalToCMTime.30822
++ _MediaPlayerLibraryCore.frameworkLibrary.21252
++ _MediaPlayerLibraryCore.frameworkLibrary.26449
++ _OBJC_IVAR_$_AVPlayerViewController._controlsViewControllerTemporarilyVisibleObservationToken
++ _VisionKitCoreLibraryCore.frameworkLibrary.28921
++ __CommonInit.19613
++ __CommonInit.21292
++ ___63-[AVPlayerViewController _addObserversOnControlsViewController]_block_invoke
++ ___Block_byref_object_copy_.11392
++ ___Block_byref_object_copy_.12021
++ ___Block_byref_object_copy_.21241
++ ___Block_byref_object_copy_.25553
++ ___Block_byref_object_copy_.30772
++ ___Block_byref_object_copy_.33301
++ ___Block_byref_object_dispose_.11393
++ ___Block_byref_object_dispose_.12022
++ ___Block_byref_object_dispose_.21242
++ ___Block_byref_object_dispose_.25554
++ ___Block_byref_object_dispose_.30773
++ ___Block_byref_object_dispose_.33302
++ ___MediaPlayerLibraryCore_block_invoke.21253
++ ___MediaPlayerLibraryCore_block_invoke.26450
++ ___VisionKitCoreLibraryCore_block_invoke.28922
++ ___block_literal_global.104.12479
++ ___block_literal_global.107.17766
++ ___block_literal_global.111.12481
++ ___block_literal_global.111.25096
++ ___block_literal_global.11483
++ ___block_literal_global.116.17768
++ ___block_literal_global.11769
++ ___block_literal_global.118.12483
++ ___block_literal_global.118.17761
++ ___block_literal_global.118.25098
++ ___block_literal_global.120.13936
++ ___block_literal_global.120.17762
++ ___block_literal_global.12023
++ ___block_literal_global.12113
++ ___block_literal_global.124.12485
++ ___block_literal_global.12477
++ ___block_literal_global.125.25101
++ ___block_literal_global.12743
++ ___block_literal_global.12918
++ ___block_literal_global.13.33910
++ ___block_literal_global.131.25103
++ ___block_literal_global.13273
++ ___block_literal_global.135.24673
++ ___block_literal_global.13638
++ ___block_literal_global.139.24675
++ ___block_literal_global.13916
++ ___block_literal_global.14.12920
++ ___block_literal_global.14.18063
++ ___block_literal_global.14059
++ ___block_literal_global.14191
++ ___block_literal_global.142.34585
++ ___block_literal_global.14375
++ ___block_literal_global.14537
++ ___block_literal_global.151.25107
++ ___block_literal_global.15391
++ ___block_literal_global.159.30942
++ ___block_literal_global.16.21092
++ ___block_literal_global.16.30313
++ ___block_literal_global.16.33915
++ ___block_literal_global.161.25110
++ ___block_literal_global.164.30944
++ ___block_literal_global.166.25112
++ ___block_literal_global.16773
++ ___block_literal_global.17.27123
++ ___block_literal_global.171.25114
++ ___block_literal_global.17114
++ ___block_literal_global.17356
++ ___block_literal_global.17839
++ ___block_literal_global.18.21086
++ ___block_literal_global.18061
++ ___block_literal_global.18230
++ ___block_literal_global.188.30948
++ ___block_literal_global.189.26940
++ ___block_literal_global.19181
++ ___block_literal_global.196.30951
++ ___block_literal_global.19753
++ ___block_literal_global.2.34772
++ ___block_literal_global.201.30953
++ ___block_literal_global.203.30954
++ ___block_literal_global.20611
++ ___block_literal_global.208.30956
++ ___block_literal_global.20870
++ ___block_literal_global.21.15396
++ ___block_literal_global.21.30315
++ ___block_literal_global.21094
++ ___block_literal_global.212.22157
++ ___block_literal_global.21299
++ ___block_literal_global.213.30958
++ ___block_literal_global.221.30961
++ ___block_literal_global.22185
++ ___block_literal_global.226.25118
++ ___block_literal_global.226.30963
++ ___block_literal_global.22698
++ ___block_literal_global.236.22121
++ ___block_literal_global.23706
++ ___block_literal_global.24.21083
++ ___block_literal_global.24.27125
++ ___block_literal_global.24678
++ ___block_literal_global.25.14049
++ ___block_literal_global.252.25058
++ ___block_literal_global.25249
++ ___block_literal_global.25611
++ ___block_literal_global.26463
++ ___block_literal_global.26670
++ ___block_literal_global.26894
++ ___block_literal_global.27.14066
++ ___block_literal_global.27.30317
++ ___block_literal_global.27121
++ ___block_literal_global.27281
++ ___block_literal_global.275.30928
++ ___block_literal_global.27936
++ ___block_literal_global.28312
++ ___block_literal_global.28917
++ ___block_literal_global.29221
++ ___block_literal_global.29695
++ ___block_literal_global.29881
++ ___block_literal_global.30330
++ ___block_literal_global.31.27127
++ ___block_literal_global.31058
++ ___block_literal_global.31383
++ ___block_literal_global.31692
++ ___block_literal_global.32142
++ ___block_literal_global.32252
++ ___block_literal_global.32422
++ ___block_literal_global.33303
++ ___block_literal_global.33894
++ ___block_literal_global.34128
++ ___block_literal_global.344.22048
++ ___block_literal_global.34584
++ ___block_literal_global.34774
++ ___block_literal_global.35.27128
++ ___block_literal_global.37.20614
++ ___block_literal_global.39.16774
++ ___block_literal_global.41.13641
++ ___block_literal_global.45.26896
++ ___block_literal_global.48.27131
++ ___block_literal_global.49.26638
++ ___block_literal_global.50.26898
++ ___block_literal_global.50.27132
++ ___block_literal_global.51.26639
++ ___block_literal_global.52.19170
++ ___block_literal_global.529.11353
++ ___block_literal_global.53.31007
++ ___block_literal_global.541
++ ___block_literal_global.549
++ ___block_literal_global.55.25565
++ ___block_literal_global.56.13259
++ ___block_literal_global.56.21233
++ ___block_literal_global.56.26641
++ ___block_literal_global.56.31008
++ ___block_literal_global.561
++ ___block_literal_global.573
++ ___block_literal_global.58.21234
++ ___block_literal_global.58.26642
++ ___block_literal_global.58.31009
++ ___block_literal_global.60.21235
++ ___block_literal_global.64.21230
++ ___block_literal_global.64.31694
++ ___block_literal_global.66.31010
++ ___block_literal_global.67.32415
++ ___block_literal_global.84.31011
++ ___block_literal_global.90.31012
++ ___block_literal_global.98.31014
++ ___getMPMediaControlsClass_block_invoke.21251
++ __imageNameForMicaPackageState.imageNamesForStates.12744
++ __imageNameForMicaPackageState.imageNamesForStates.14376
++ __imageNameForMicaPackageState.imageNamesForStates.32416
++ __imageNameForMicaPackageState.onceToken.12742
++ __imageNameForMicaPackageState.onceToken.14374
++ __imageNameForMicaPackageState.onceToken.32414
++ _audit_stringMediaPlayer.21256
++ _audit_stringMediaPlayer.26453
++ _audit_stringVisionKitCore.28927
++ _getMPMediaControlsClass.softClass.21250
++ _objc_msgSend$_addObserversOnControlsViewController
++ _objc_msgSend$_stopObserversOnControlsViewController
++ _shared.onceToken.19954
++ _sharedInstance.sharedInstance.20333
+- GCC_except_table10016
+- GCC_except_table10038
+- GCC_except_table10237
+- GCC_except_table10259
+- GCC_except_table3825
+- GCC_except_table3847
+- GCC_except_table3889
+- GCC_except_table3890
+- GCC_except_table3915
+- GCC_except_table3971
+- GCC_except_table4045
+- GCC_except_table4046
+- GCC_except_table4131
+- GCC_except_table4171
+- GCC_except_table4204
+- GCC_except_table4252
+- GCC_except_table4270
+- GCC_except_table4280
+- GCC_except_table4288
+- GCC_except_table4298
+- GCC_except_table4307
+- GCC_except_table4312
+- GCC_except_table4346
+- GCC_except_table4359
+- GCC_except_table4363
+- GCC_except_table4372
+- GCC_except_table4378
+- GCC_except_table4382
+- GCC_except_table4387
+- GCC_except_table4415
+- GCC_except_table4432
+- GCC_except_table4455
+- GCC_except_table4480
+- GCC_except_table4486
+- GCC_except_table4491
+- GCC_except_table4494
+- GCC_except_table4495
+- GCC_except_table4508
+- GCC_except_table4511
+- GCC_except_table4577
+- GCC_except_table4582
+- GCC_except_table4703
+- GCC_except_table4775
+- GCC_except_table4932
+- GCC_except_table4942
+- GCC_except_table4947
+- GCC_except_table5017
+- GCC_except_table5115
+- GCC_except_table5122
+- GCC_except_table5150
+- GCC_except_table5263
+- GCC_except_table5401
+- GCC_except_table5408
+- GCC_except_table5411
+- GCC_except_table5442
+- GCC_except_table5443
+- GCC_except_table5542
+- GCC_except_table6026
+- GCC_except_table6058
+- GCC_except_table6061
+- GCC_except_table6062
+- GCC_except_table6067
+- GCC_except_table6089
+- GCC_except_table6183
+- GCC_except_table6278
+- GCC_except_table6325
+- GCC_except_table6361
+- GCC_except_table6362
+- GCC_except_table6395
+- GCC_except_table6442
+- GCC_except_table6502
+- GCC_except_table6527
+- GCC_except_table6534
+- GCC_except_table6537
+- GCC_except_table6545
+- GCC_except_table6550
+- GCC_except_table6553
+- GCC_except_table6778
+- GCC_except_table6784
+- GCC_except_table6788
+- GCC_except_table6792
+- GCC_except_table6804
+- GCC_except_table6824
+- GCC_except_table6833
+- GCC_except_table6846
+- GCC_except_table6891
+- GCC_except_table6943
+- GCC_except_table6974
+- GCC_except_table7266
+- GCC_except_table7321
+- GCC_except_table7471
+- GCC_except_table7478
+- GCC_except_table7535
+- GCC_except_table7552
+- GCC_except_table7570
+- GCC_except_table7581
+- GCC_except_table7587
+- GCC_except_table7597
+- GCC_except_table7646
+- GCC_except_table7650
+- GCC_except_table7659
+- GCC_except_table7665
+- GCC_except_table7697
+- GCC_except_table7713
+- GCC_except_table7736
+- GCC_except_table7760
+- GCC_except_table7767
+- GCC_except_table7772
+- GCC_except_table7775
+- GCC_except_table7776
+- GCC_except_table7788
+- GCC_except_table7791
+- GCC_except_table7849
+- GCC_except_table7914
+- GCC_except_table7937
+- GCC_except_table8026
+- GCC_except_table8045
+- GCC_except_table8067
+- GCC_except_table8086
+- GCC_except_table8229
+- GCC_except_table8286
+- GCC_except_table8472
+- GCC_except_table8485
+- GCC_except_table8506
+- GCC_except_table8529
+- GCC_except_table8539
+- GCC_except_table8556
+- GCC_except_table8557
+- GCC_except_table8561
+- GCC_except_table8568
+- GCC_except_table8624
+- GCC_except_table8921
+- GCC_except_table8939
+- GCC_except_table9087
+- GCC_except_table9090
+- GCC_except_table9095
+- GCC_except_table9126
+- GCC_except_table9134
+- GCC_except_table9164
+- GCC_except_table9190
+- GCC_except_table9212
+- GCC_except_table9216
+- GCC_except_table9290
+- GCC_except_table9313
+- GCC_except_table9341
+- GCC_except_table9353
+- GCC_except_table9358
+- GCC_except_table9374
+- GCC_except_table9476
+- GCC_except_table9627
+- GCC_except_table9759
+- GCC_except_table9775
+- GCC_except_table9809
+- GCC_except_table9819
+- GCC_except_table9969
+- GCC_except_table9975
+- _AVDefaultHitRectInsets.28320
+- _AVTimeIntervalToCMTime.30824
+- _MediaPlayerLibraryCore.frameworkLibrary.21254
+- _MediaPlayerLibraryCore.frameworkLibrary.26451
+- _VisionKitCoreLibraryCore.frameworkLibrary.28923
+- __CommonInit.19615
+- __CommonInit.21294
+- ___39-[AVPlayerViewController _addObservers]_block_invoke_22
+- ___Block_byref_object_copy_.11394
+- ___Block_byref_object_copy_.12023
+- ___Block_byref_object_copy_.21243
+- ___Block_byref_object_copy_.25555
+- ___Block_byref_object_copy_.30774
+- ___Block_byref_object_copy_.33307
+- ___Block_byref_object_dispose_.11395
+- ___Block_byref_object_dispose_.12024
+- ___Block_byref_object_dispose_.21244
+- ___Block_byref_object_dispose_.25556
+- ___Block_byref_object_dispose_.30775
+- ___Block_byref_object_dispose_.33308
+- ___MediaPlayerLibraryCore_block_invoke.21255
+- ___MediaPlayerLibraryCore_block_invoke.26452
+- ___VisionKitCoreLibraryCore_block_invoke.28924
+- ___block_literal_global.104.12481
+- ___block_literal_global.107.17768
+- ___block_literal_global.111.12483
+- ___block_literal_global.111.25098
+- ___block_literal_global.11485
+- ___block_literal_global.116.17770
+- ___block_literal_global.11771
+- ___block_literal_global.118.12485
+- ___block_literal_global.118.17763
+- ___block_literal_global.118.25100
+- ___block_literal_global.120.13938
+- ___block_literal_global.120.17764
+- ___block_literal_global.12025
+- ___block_literal_global.12115
+- ___block_literal_global.124.12487
+- ___block_literal_global.12479
+- ___block_literal_global.125.25103
+- ___block_literal_global.12745
+- ___block_literal_global.12920
+- ___block_literal_global.13.33916
+- ___block_literal_global.131.25105
+- ___block_literal_global.13275
+- ___block_literal_global.135.24675
+- ___block_literal_global.13640
+- ___block_literal_global.139.24677
+- ___block_literal_global.13918
+- ___block_literal_global.14.12922
+- ___block_literal_global.14.18065
+- ___block_literal_global.14061
+- ___block_literal_global.14193
+- ___block_literal_global.142.34591
+- ___block_literal_global.14377
+- ___block_literal_global.14539
+- ___block_literal_global.151.25109
+- ___block_literal_global.15393
+- ___block_literal_global.159.30944
+- ___block_literal_global.16.21094
+- ___block_literal_global.16.30315
+- ___block_literal_global.16.33921
+- ___block_literal_global.161.25112
+- ___block_literal_global.164.30946
+- ___block_literal_global.166.25114
+- ___block_literal_global.16775
+- ___block_literal_global.17.27125
+- ___block_literal_global.171.25116
+- ___block_literal_global.17116
+- ___block_literal_global.17358
+- ___block_literal_global.17841
+- ___block_literal_global.18.21088
+- ___block_literal_global.18063
+- ___block_literal_global.18232
+- ___block_literal_global.188.30950
+- ___block_literal_global.189.26942
+- ___block_literal_global.19183
+- ___block_literal_global.196.30953
+- ___block_literal_global.19755
+- ___block_literal_global.2.34778
+- ___block_literal_global.201.30955
+- ___block_literal_global.203.30956
+- ___block_literal_global.20613
+- ___block_literal_global.208.30958
+- ___block_literal_global.20872
+- ___block_literal_global.21.15398
+- ___block_literal_global.21.30317
+- ___block_literal_global.21096
+- ___block_literal_global.212.22159
+- ___block_literal_global.213.30960
+- ___block_literal_global.21301
+- ___block_literal_global.221.30963
+- ___block_literal_global.22187
+- ___block_literal_global.226.25120
+- ___block_literal_global.226.30965
+- ___block_literal_global.22700
+- ___block_literal_global.236.22123
+- ___block_literal_global.23708
+- ___block_literal_global.24.21085
+- ___block_literal_global.24.27127
+- ___block_literal_global.24680
+- ___block_literal_global.25.14051
+- ___block_literal_global.252.25060
+- ___block_literal_global.25251
+- ___block_literal_global.25613
+- ___block_literal_global.26465
+- ___block_literal_global.26672
+- ___block_literal_global.26896
+- ___block_literal_global.27.14068
+- ___block_literal_global.27.30319
+- ___block_literal_global.27123
+- ___block_literal_global.27283
+- ___block_literal_global.275.30930
+- ___block_literal_global.27938
+- ___block_literal_global.28314
+- ___block_literal_global.28919
+- ___block_literal_global.29223
+- ___block_literal_global.29697
+- ___block_literal_global.29883
+- ___block_literal_global.30332
+- ___block_literal_global.31.27129
+- ___block_literal_global.31060
+- ___block_literal_global.31389
+- ___block_literal_global.31698
+- ___block_literal_global.32148
+- ___block_literal_global.32258
+- ___block_literal_global.32428
+- ___block_literal_global.33309
+- ___block_literal_global.33900
+- ___block_literal_global.34134
+- ___block_literal_global.344.22050
+- ___block_literal_global.34590
+- ___block_literal_global.34780
+- ___block_literal_global.35.27130
+- ___block_literal_global.37.20616
+- ___block_literal_global.39.16776
+- ___block_literal_global.41.13643
+- ___block_literal_global.45.26898
+- ___block_literal_global.48.27133
+- ___block_literal_global.49.26640
+- ___block_literal_global.50.26900
+- ___block_literal_global.50.27134
+- ___block_literal_global.51.26641
+- ___block_literal_global.52.19172
+- ___block_literal_global.529.11354
+- ___block_literal_global.53.31009
+- ___block_literal_global.544
+- ___block_literal_global.546
+- ___block_literal_global.55.25567
+- ___block_literal_global.559
+- ___block_literal_global.56.13261
+- ___block_literal_global.56.21235
+- ___block_literal_global.56.26643
+- ___block_literal_global.56.31010
+- ___block_literal_global.576
+- ___block_literal_global.58.21236
+- ___block_literal_global.58.26644
+- ___block_literal_global.58.31011
+- ___block_literal_global.60.21237
+- ___block_literal_global.64.21232
+- ___block_literal_global.64.31700
+- ___block_literal_global.66.31012
+- ___block_literal_global.67.32421
+- ___block_literal_global.84.31013
+- ___block_literal_global.90.31014
+- ___block_literal_global.98.31016
+- ___getMPMediaControlsClass_block_invoke.21253
+- __imageNameForMicaPackageState.imageNamesForStates.12746
+- __imageNameForMicaPackageState.imageNamesForStates.14378
+- __imageNameForMicaPackageState.imageNamesForStates.32422
+- __imageNameForMicaPackageState.onceToken.12744
+- __imageNameForMicaPackageState.onceToken.14376
+- __imageNameForMicaPackageState.onceToken.32420
+- _audit_stringMediaPlayer.21258
+- _audit_stringMediaPlayer.26455
+- _audit_stringVisionKitCore.28929
+- _getMPMediaControlsClass.softClass.21252
+- _shared.onceToken.19956
+- _sharedInstance.sharedInstance.20335
+CStrings:
++ "_addObserversOnControlsViewController"
++ "_controlsViewControllerTemporarilyVisibleObservationToken"
++ "_stopObserversOnControlsViewController"
++ "\xf0a\xf0\xf0\xf0\xa1"
+- "\xf0a\xf0\xf0\xf0\x81"
+
+```

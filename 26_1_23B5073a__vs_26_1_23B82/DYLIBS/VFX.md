@@ -1,0 +1,62 @@
+## VFX
+
+> `/System/Library/PrivateFrameworks/VFX.framework/VFX`
+
+```diff
+
+ 203.40.3.0.0
+-  __TEXT.__text: 0xd2b178
++  __TEXT.__text: 0xd2b058
+   __TEXT.__auth_stubs: 0x6d40
+   __TEXT.__objc_methlist: 0x1d83c
+   __TEXT.__const: 0x8d458
+-  __TEXT.__gcc_except_tab: 0x68ac
++  __TEXT.__gcc_except_tab: 0x689c
+   __TEXT.__cstring: 0xbba77
+   __TEXT.__oslogstring: 0x11e8d
+   __TEXT.__ustring: 0x22
+
+   __TEXT.__unwind_info: 0x28198
+   __TEXT.__eh_frame: 0x2dcb8
+   __TEXT.__objc_classname: 0x210f
+-  __TEXT.__objc_methname: 0x2ccf0
++  __TEXT.__objc_methname: 0x2ccdf
+   __TEXT.__objc_methtype: 0x15b49
+-  __TEXT.__objc_stubs: 0x21000
+-  __DATA_CONST.__got: 0x1e58
++  __TEXT.__objc_stubs: 0x20fc0
++  __DATA_CONST.__got: 0x1e50
+   __DATA_CONST.__const: 0x71c8
+   __DATA_CONST.__objc_classlist: 0x1fe0
+   __DATA_CONST.__objc_catlist: 0xb8
+   __DATA_CONST.__objc_protolist: 0x600
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xbeb0
++  __DATA_CONST.__objc_selrefs: 0xbea8
+   __DATA_CONST.__objc_protorefs: 0x380
+   __DATA_CONST.__objc_superrefs: 0x668
+   __DATA_CONST.__objc_arraydata: 0x368
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6AF14E8D-E76B-3576-8245-987695BC1987
++  UUID: 72230FD6-46CA-318A-87CA-E4846945D77E
+   Functions: 65856
+-  Symbols:   2599
+-  CStrings:  24956
++  Symbols:   2598
++  CStrings:  24955
+ 
+Symbols:
+- _OBJC_CLASS_$_MTLCommandBufferDescriptor
+Functions:
+~ sub_1af1721d0 -> sub_1af1751d0 : 4356 -> 4288
+~ sub_1af1fb1bc -> sub_1af1fe178 : 668 -> 556
+~ sub_1af1fc21c -> sub_1af1ff168 : 324 -> 216
+CStrings:
++ "Welcome to VFX 203.40.3 (Oct 11 2025 00:16:05)"
+- "Welcome to VFX 203.40.3 (Oct 11 2025 09:55:36)"
+- "setErrorOptions:"
+
+```
