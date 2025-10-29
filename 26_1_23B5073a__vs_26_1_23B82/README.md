@@ -54,7 +54,7 @@
    Symbols:   0
    CStrings:  1152
 Functions:
-~ sub_fffffe0008caa814 -> sub_fffffe0008c9a814 : 508 -> 528
+~ __ZN23AppleAOPAudioController5startEP9IOService : 508 -> 528
 CStrings:
 + "06:29:54"
 + "06:30:00"
@@ -93,7 +93,7 @@ CStrings:
    Symbols:   0
    CStrings:  8954
 Functions:
-~ sub_fffffe0008dd7834 -> sub_fffffe0008dc7884 : 376 -> 360
+~ sub_fffffe0008dd7834 -> __ZN7AVE_DRC10getFrameQPEP16_S_AVE_FrameInfoj : 376 -> 360
 ~ sub_fffffe0008de4bc8 -> sub_fffffe0008dd4c08 : 156 -> 148
 ~ sub_fffffe0008e2388c -> sub_fffffe0008e138c4 : 968 -> 964
 ~ sub_fffffe0008e7de90 -> sub_fffffe0008e6dec4 : 2256 -> 2232
@@ -239,6 +239,9 @@ CStrings:
    Symbols:   0
    CStrings:  389
  
+Functions:
++ sub_fffffe0008cced00
+~ __ZN22AppleARMDMAAudioDevice13startInternalEP9IOServicexjPKjS3_S3_S3_ : 1280 -> 1300
 
 ```
 
