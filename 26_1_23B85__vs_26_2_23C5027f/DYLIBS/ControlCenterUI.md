@@ -1,0 +1,272 @@
+## ControlCenterUI
+
+> `/System/Library/PrivateFrameworks/ControlCenterUI.framework/ControlCenterUI`
+
+```diff
+
+-655.1.13.105.0
+-  __TEXT.__text: 0xb0300
+-  __TEXT.__auth_stubs: 0x25a0
+-  __TEXT.__objc_methlist: 0xaa48
+-  __TEXT.__const: 0x277a
+-  __TEXT.__cstring: 0x8594
++655.2.1.0.0
++  __TEXT.__text: 0xb1870
++  __TEXT.__auth_stubs: 0x2610
++  __TEXT.__objc_methlist: 0xab20
++  __TEXT.__const: 0x279a
++  __TEXT.__cstring: 0x8614
+   __TEXT.__gcc_except_tab: 0x8e0
+   __TEXT.__oslogstring: 0x3f9b
+   __TEXT.__dlopen_cstrs: 0x14e
+-  __TEXT.__constg_swiftt: 0x2780
+-  __TEXT.__swift5_typeref: 0x274e
++  __TEXT.__constg_swiftt: 0x27c8
++  __TEXT.__swift5_typeref: 0x2a60
+   __TEXT.__swift5_builtin: 0x1a4
+-  __TEXT.__swift5_reflstr: 0x1b32
+-  __TEXT.__swift5_fieldmd: 0x1240
++  __TEXT.__swift5_reflstr: 0x1b62
++  __TEXT.__swift5_fieldmd: 0x1258
+   __TEXT.__swift5_assocty: 0x198
+   __TEXT.__swift5_proto: 0xd4
+   __TEXT.__swift5_types: 0x120
+-  __TEXT.__swift5_capture: 0xd68
++  __TEXT.__swift5_capture: 0xd9c
+   __TEXT.__swift5_protos: 0x10
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0x4
+-  __TEXT.__unwind_info: 0x2a78
++  __TEXT.__unwind_info: 0x2ac0
+   __TEXT.__eh_frame: 0x448
+   __TEXT.__objc_classname: 0x1605
+-  __TEXT.__objc_methname: 0x1d92c
+-  __TEXT.__objc_methtype: 0x8357
+-  __TEXT.__objc_stubs: 0xc7e0
+-  __DATA_CONST.__got: 0xcb0
+-  __DATA_CONST.__const: 0x1268
++  __TEXT.__objc_methname: 0x1db45
++  __TEXT.__objc_methtype: 0x83a0
++  __TEXT.__objc_stubs: 0xc880
++  __DATA_CONST.__got: 0xcd0
++  __DATA_CONST.__const: 0x1278
+   __DATA_CONST.__objc_classlist: 0x398
+   __DATA_CONST.__objc_catlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x558
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x63e8
++  __DATA_CONST.__objc_selrefs: 0x6458
+   __DATA_CONST.__objc_protorefs: 0x1f8
+   __DATA_CONST.__objc_superrefs: 0x1d8
+   __DATA_CONST.__objc_arraydata: 0x68
+-  __AUTH_CONST.__auth_got: 0x12e0
+-  __AUTH_CONST.__const: 0x3ea8
++  __AUTH_CONST.__auth_got: 0x1318
++  __AUTH_CONST.__const: 0x3f08
+   __AUTH_CONST.__cfstring: 0x2ec0
+-  __AUTH_CONST.__objc_const: 0x10380
++  __AUTH_CONST.__objc_const: 0x10450
+   __AUTH_CONST.__objc_arrayobj: 0xc0
+   __AUTH_CONST.__objc_intobj: 0xa8
+-  __AUTH.__objc_data: 0x1798
+-  __AUTH.__data: 0x7a8
+-  __DATA.__objc_ivar: 0x720
+-  __DATA.__data: 0x38d0
++  __AUTH.__objc_data: 0x17b8
++  __AUTH.__data: 0x7b8
++  __DATA.__objc_ivar: 0x728
++  __DATA.__data: 0x3930
+   __DATA.__bss: 0x11f0
+   __DATA.__common: 0x20
+-  __DATA_DIRTY.__objc_data: 0x34b0
++  __DATA_DIRTY.__objc_data: 0x34d0
+   __DATA_DIRTY.__data: 0xa08
+-  __DATA_DIRTY.__bss: 0x9f8
++  __DATA_DIRTY.__bss: 0x9e8
+   __DATA_DIRTY.__common: 0x10
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A175CB06-51A5-362E-81FF-074F9D0F7F15
+-  Functions: 4742
+-  Symbols:   9972
+-  CStrings:  6750
++  UUID: 6775E634-6913-35AE-9DA4-180098C3DEFA
++  Functions: 4774
++  Symbols:   10003
++  CStrings:  6774
+ 
+Symbols:
++ -[CCUIHeaderPocketView dynamicControlsBackgroundFrameChanged:]
++ -[CCUIHeaderPocketView dynamicControlsViewController]
++ -[CCUIHeaderPocketView dynamicControlsViewFrame]
++ -[CCUIHeaderPocketView sensorEntityIconCache]
++ -[CCUIHeaderPocketView setDynamicControlsViewController:]
++ -[CCUIHeaderPocketView setSensorEntityIconCache:]
++ -[CCUISensorAttributionCompactControl didMoveToWindow]
++ -[CCUISensorAttributionCompactControl setCameraIndicatorView:]
++ -[CCUISensorAttributionCompactControl setGameModeIndicatorView:]
++ -[CCUISensorAttributionCompactControl setInactiveMicIndicatorView:]
++ -[CCUISensorAttributionCompactControl setLocationIndicatorView:]
++ -[CCUISensorAttributionCompactControl setMicIndicatorView:]
++ -[CCUISensorAttributionExpandedPrivacySectionView iconCache]
++ -[CCUISensorAttributionExpandedPrivacySectionView initWithWidth:appsUsingSensors:sensorActivityData:iconCache:]
++ -[CCUISensorAttributionExpandedPrivacySectionView setIconCache:]
++ -[CCUISensorEntityHeaderView initWithSensorEntity:maxSize:iconCache:]
++ -[CCUISensorEntityIconCache imageForEntity:scale:]
++ -[CCUISensorEntityIconCache init]
++ -[CCUISensorEntityIconCache preheatImageForSensorEntity:scale:]
++ -[CCUISensorEntityNameAndIconView initWithSensorEntity:maxSize:iconCache:]
++ -[CCUIStatusBar initWithFrame:screen:]
++ GCC_except_table56
++ _OBJC_IVAR_$_CCUIHeaderPocketView._dynamicControlsViewController
++ _OBJC_IVAR_$_CCUIHeaderPocketView._sensorEntityIconCache
++ _OBJC_IVAR_$_CCUISensorAttributionExpandedPrivacySectionView._iconCache
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_CCUIDynamicControlsViewControllerDelegate
++ __PROPERTIES_CCUIDynamicControlsViewController
++ __PROTOCOL_INSTANCE_METHODS_OPT_CCUIDynamicControlsViewControllerDelegate
++ ___115-[CCUIMainViewController _getCameraSensorActivityData:micSensorActivityData:isMutedMic:isInactiveMicModeSelection:]_block_invoke.129
++ ___115-[CCUIMainViewController _getCameraSensorActivityData:micSensorActivityData:isMutedMic:isInactiveMicModeSelection:]_block_invoke_2.133
++ ___63-[CCUISensorEntityIconCache preheatImageForSensorEntity:scale:]_block_invoke
++ ___block_literal_global.128
++ ___block_literal_global.139
++ _block_copy_helper.68
++ _block_descriptor.70
++ _block_destroy_helper.69
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOyACyACyACyACyAA6HStackVyAA05TupleE0VyACyAA6ZStackVyALyACyACyACyAA06_ShapeE0Vy013ControlCenterB014CircleWithBiteVAA5ColorVGAA12_FrameLayoutVGAA16_OverlayModifierVyACyACyACyAA5ImageVAA012_AspectRatioV0VGAA08_PaddingV0VGAA022_EnvironmentKeyWritingX0VyAUSgGGGGAA13_OffsetEffectVGSg_A18_A18_A18_tGGAXG_ACyACyAA4TextVA9_ySiSgGGA11_GACyACyA26_AA016_ForegroundStyleX0VyAUGGAA16_BlendModeEffectVGSgACyACyAeAE10fontWeightyQrAA4FontV6WeightVSgFQOyACyA1_A9_yA38_SgGG_Qo_A30_GA33_GtGGA6_GAA011_BackgroundX0VyAeAE11glassEffect_2inQrAA5GlassV_qd__tAA0N0Rd__lFQOyAU_AA018DefaultGlassEffectN0VQo_GGA_yAA14GeometryReaderVyAeAE0F6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyACyAuA017_AppearanceActionX0VG_So6CGRectVA72_SQ12CoreGraphicsyHCg0_Qo_GGGA9_yAA0T6SchemeOGG_Qo_AA05_FlexuV0VGSgAaDHpA85_AaDHPqd__AaDHD2_A82_HO_A84_AA0eX0HPyHCHC_HC.110
++ _objc_msgSend$ccui_applyGlassWithTintColor:
++ _objc_msgSend$dynamicControlsViewController
++ _objc_msgSend$dynamicControlsViewFrame
++ _objc_msgSend$iconCache
++ _objc_msgSend$imageForEntity:scale:
++ _objc_msgSend$initWithFrame:screen:
++ _objc_msgSend$initWithModuleInstanceManager:iconCache:
++ _objc_msgSend$initWithSensorEntity:maxSize:iconCache:
++ _objc_msgSend$preheatImageForSensorEntity:scale:
++ _objc_msgSend$sensorAttributionButtonFrame
++ _objc_msgSend$sensorEntityIconCache
++ _objc_msgSend$setDynamicControlsViewController:
++ _symbolic $s15ControlCenterUI32DynamicControlsViewModelDelegateP
++ _symbolic So25CCUISensorEntityIconCacheCSgXw
++ _symbolic _____ 7SwiftUI13GeometryProxyV
++ _symbolic ______pSg 15ControlCenterUI32DynamicControlsViewModelDelegateP
++ _symbolic _____yAAyAAyAAy_____y_____yAAy_____yACyAAyAAyAAy_____y__________G_____G_____yAAyAAyAAy__________G_____G_____yAGSgGGGG_____GSg_A3YtGGAIG_AAyAAy_____AQySiSgGGASGAAyAAyA4______yAGGG_____GSgAAyAAy_____yAAyAlQy_____SgGG_Qo_A7_GA9_GtGGAOG_____y_____yAG______Qo_GGAKy_____y_____yAAyAG_____G______A30_SQ12CoreGraphicsyHCg0_Qo_GGGAQy_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA6ZStackV AA06_ShapeG0V 013ControlCenterB014CircleWithBiteV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA5ImageV AA012_AspectRatioQ0V AA08_PaddingQ0V AA022_EnvironmentKeyWritingS0V AA13_OffsetEffectV AA4TextV AA016_ForegroundStyleS0V AA16_BlendModeEffectV AA0G0PAAE10fontWeightyQrAA4FontV6WeightVSgFQO A13_ AA011_BackgroundS0V A10_AAE11glassEffect_2inQrAA5GlassV_qd__tAA0I0Rd__lFQO AA018DefaultGlassEffectI0V AA14GeometryReaderV A10_AAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA017_AppearanceActionS0V So6CGRectV AA0O6SchemeO
++ _symbolic _____yAAyAAy_____y_____yAAy_____yACyAAyAAyAAy_____y__________G_____G_____yAAyAAyAAy__________G_____G_____yAGSgGGGG_____GSg_A3YtGGAIG_AAyAAy_____AQySiSgGGASGAAyAAyA4______yAGGG_____GSgAAyAAy_____yAAyAlQy_____SgGG_Qo_A7_GA9_GtGGAOG_____y_____yAG______Qo_GGAKy_____y_____yAAyAG_____G______A30_SQ12CoreGraphicsyHCg0_Qo_GGG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA6ZStackV AA06_ShapeG0V 013ControlCenterB014CircleWithBiteV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA5ImageV AA012_AspectRatioQ0V AA08_PaddingQ0V AA022_EnvironmentKeyWritingS0V AA13_OffsetEffectV AA4TextV AA016_ForegroundStyleS0V AA16_BlendModeEffectV AA0G0PAAE10fontWeightyQrAA4FontV6WeightVSgFQO A13_ AA011_BackgroundS0V A10_AAE11glassEffect_2inQrAA5GlassV_qd__tAA0I0Rd__lFQO AA018DefaultGlassEffectI0V AA14GeometryReaderV A10_AAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA017_AppearanceActionS0V So6CGRectV
++ _symbolic _____yAAy_____y_____yAAy_____yACyAAyAAyAAy_____y__________G_____G_____yAAyAAyAAy__________G_____G_____yAGSgGGGG_____GSg_A3YtGGAIG_AAyAAy_____AQySiSgGGASGAAyAAyA4______yAGGG_____GSgAAyAAy_____yAAyAlQy_____SgGG_Qo_A7_GA9_GtGGAOG_____y_____yAG______Qo_GG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA6ZStackV AA06_ShapeG0V 013ControlCenterB014CircleWithBiteV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA5ImageV AA012_AspectRatioQ0V AA08_PaddingQ0V AA022_EnvironmentKeyWritingS0V AA13_OffsetEffectV AA4TextV AA016_ForegroundStyleS0V AA16_BlendModeEffectV AA0G0PAAE10fontWeightyQrAA4FontV6WeightVSgFQO A13_ AA011_BackgroundS0V A10_AAE11glassEffect_2inQrAA5GlassV_qd__tAA0I0Rd__lFQO AA018DefaultGlassEffectI0V
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ColorV AA25_AppearanceActionModifierV
++ _symbolic _____y___________Qo_ 7SwiftUI4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AA5ColorV AA07DefaultgeH0V
++ _symbolic _____y_____yAAyAAyAAyAAy_____y_____yAAy_____yACyAAyAAyAAy_____y__________G_____G_____yAAyAAyAAy__________G_____G_____yAGSgGGGG_____GSg_A3YtGGAIG_AAyAAy_____AQySiSgGGASGAAyAAyA4______yAGGG_____GSgAAyAAy_____yAAyAlQy_____SgGG_Qo_A7_GA9_GtGGAOG_____y_____yAG______Qo_GGAKy_____y_____yAAyAG_____G______A30_SQ12CoreGraphicsyHCg0_Qo_GGGAQy_____GG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA6HStackV AA05TupleE0V AA6ZStackV AA06_ShapeE0V 013ControlCenterB014CircleWithBiteV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA5ImageV AA012_AspectRatioV0V AA08_PaddingV0V AA022_EnvironmentKeyWritingX0V AA13_OffsetEffectV AA4TextV AA016_ForegroundStyleX0V AA16_BlendModeEffectV AeAE10fontWeightyQrAA4FontV6WeightVSgFQO A16_ AA011_BackgroundX0V AeAE11glassEffect_2inQrAA5GlassV_qd__tAA0N0Rd__lFQO AA018DefaultGlassEffectN0V AA14GeometryReaderV AeAE0F6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA017_AppearanceActionX0V So6CGRectV AA0T6SchemeO AA05_FlexuV0V
++ _symbolic _____y_____yAAyAAyAAyAAy_____y_____yAAy_____yACyAAyAAyAAy_____y__________G_____G_____yAAyAAyAAy__________G_____G_____yAGSgGGGG_____GSg_A3YtGGAIG_AAyAAy_____AQySiSgGGASGAAyAAyA4______yAGGG_____GSgAAyAAy_____yAAyAlQy_____SgGG_Qo_A7_GA9_GtGGAOG_____y_____yAG______Qo_GGAKy_____y_____yAAyAG_____G______A30_SQ12CoreGraphicsyHCg0_Qo_GGGAQy_____GG_Qo______GSg 7SwiftUI15ModifiedContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA6HStackV AA05TupleE0V AA6ZStackV AA06_ShapeE0V 013ControlCenterB014CircleWithBiteV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA5ImageV AA012_AspectRatioV0V AA08_PaddingV0V AA022_EnvironmentKeyWritingX0V AA13_OffsetEffectV AA4TextV AA016_ForegroundStyleX0V AA16_BlendModeEffectV AeAE10fontWeightyQrAA4FontV6WeightVSgFQO A16_ AA011_BackgroundX0V AeAE11glassEffect_2inQrAA5GlassV_qd__tAA0N0Rd__lFQO AA018DefaultGlassEffectN0V AA14GeometryReaderV AeAE0F6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA017_AppearanceActionX0V So6CGRectV AA0T6SchemeO AA05_FlexuV0V
++ _symbolic _____y_____yAAyAAyAAy_____y_____yAAy_____yACyAAyAAyAAy_____y__________G_____G_____yAAyAAyAAy__________G_____G_____yAGSgGGGG_____GSg_A3YtGGAIG_AAyAAy_____AQySiSgGGASGAAyAAyA4______yAGGG_____GSgAAyAAy_____yAAyAlQy_____SgGG_Qo_A7_GA9_GtGGAOG_____y_____yAG______Qo_GGAKy_____y_____yAAyAG_____G______A30_SQ12CoreGraphicsyHCg0_Qo_GGGAQy_____GG_Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6HStackV AA05TupleC0V AA6ZStackV AA06_ShapeC0V 013ControlCenterB014CircleWithBiteV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA5ImageV AA012_AspectRatioV0V AA08_PaddingV0V AA022_EnvironmentKeyWritingX0V AA13_OffsetEffectV AA4TextV AA016_ForegroundStyleX0V AA16_BlendModeEffectV AcAE10fontWeightyQrAA4FontV6WeightVSgFQO A16_ AA011_BackgroundX0V AcAE11glassEffect_2inQrAA5GlassV_qd__tAA0N0Rd__lFQO AA018DefaultGlassEffectN0V AA14GeometryReaderV AcAE0D6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA017_AppearanceActionX0V So6CGRectV AA0T6SchemeO
++ _symbolic _____y_____y___________Qo_G 7SwiftUI19_BackgroundModifierV AA4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AA5ColorV AA07DefaultigJ0V
++ _symbolic _____y_____y_____y_____y__________G______AGSQ12CoreGraphicsyHCg0_Qo_GG 7SwiftUI16_OverlayModifierV AA14GeometryReaderV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AA5ColorV AA017_AppearanceActionD0V So6CGRectV
+- +[CCUISensorEntityIconCache sharedInstance]
+- +[CCUISensorEntityIconCache sharedInstance].cold.1
+- -[CCUIHeaderPocketView dynamicControllsViewController]
+- -[CCUIHeaderPocketView setDynamicControllsViewController:]
+- -[CCUISensorAttributionExpandedPrivacySectionView initWithWidth:appsUsingSensors:sensorActivityData:]
+- -[CCUISensorEntityHeaderView initWithSensorEntity:maxSize:]
+- -[CCUISensorEntityIconCache _init]
+- -[CCUISensorEntityIconCache imageForEntity:]
+- -[CCUISensorEntityIconCache preheatImageForSensorEntity:]
+- -[CCUISensorEntityNameAndIconView initWithSensorEntity:maxSize:]
+- -[CCUIStatusBar initWithFrame:]
+- GCC_except_table46
+- GCC_except_table55
+- _OBJC_IVAR_$_CCUIHeaderPocketView._dynamicControllsViewController
+- ___115-[CCUIMainViewController _getCameraSensorActivityData:micSensorActivityData:isMutedMic:isInactiveMicModeSelection:]_block_invoke.130
+- ___115-[CCUIMainViewController _getCameraSensorActivityData:micSensorActivityData:isMutedMic:isInactiveMicModeSelection:]_block_invoke_2.134
+- ___43+[CCUISensorEntityIconCache sharedInstance]_block_invoke
+- ___57-[CCUISensorEntityIconCache preheatImageForSensorEntity:]_block_invoke
+- ___block_literal_global.129
+- ___block_literal_global.140
+- _block_copy_helper.65
+- _block_copy_helper.72
+- _block_copy_helper.79
+- _block_descriptor.67
+- _block_descriptor.74
+- _block_descriptor.81
+- _block_destroy_helper.66
+- _block_destroy_helper.73
+- _block_destroy_helper.80
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOyACyACyACyAA6HStackVyAA05TupleE0VyACyAA6ZStackVyALyACyACyACyAA06_ShapeE0Vy013ControlCenterB014CircleWithBiteVAA5ColorVGAA12_FrameLayoutVGAA16_OverlayModifierVyACyACyACyAA5ImageVAA012_AspectRatioV0VGAA08_PaddingV0VGAA022_EnvironmentKeyWritingX0VyAUSgGGGGAA13_OffsetEffectVGSg_A18_A18_A18_tGGAXG_ACyACyAA4TextVA9_ySiSgGGA11_GACyACyA26_AA016_ForegroundStyleX0VyAUGGAA16_BlendModeEffectVGSgACyACyAeAE10fontWeightyQrAA4FontV6WeightVSgFQOyACyA1_A9_yA38_SgGG_Qo_A30_GA33_GtGGA6_GAA021_InsettableBackgroundnX0VyAA03AnyN5StyleVAA16RoundedRectangleVGGA9_yAA0T6SchemeOGG_Qo_AA05_FlexuV0VGSgAaDHpA66_AaDHPqd__AaDHD2_A63_HO_A65_AA0eX0HPyHCHC_HC.100
+- _objc_msgSend$_init
+- _objc_msgSend$dynamicControllsViewController
+- _objc_msgSend$imageForEntity:
+- _objc_msgSend$initWithModuleInstanceManager:
+- _objc_msgSend$initWithSensorEntity:maxSize:
+- _objc_msgSend$preheatImageForSensorEntity:
+- _objc_msgSend$setDynamicControllsViewController:
+- _symbolic $s15ControlCenterUI32DynamicControlsViewModelDelegeteP
+- _symbolic ______pSg 15ControlCenterUI32DynamicControlsViewModelDelegeteP
+- _symbolic _____yAAyAAy_____y_____yAAy_____yACyAAyAAyAAy_____y__________G_____G_____yAAyAAyAAy__________G_____G_____yAGSgGGGG_____GSg_A3YtGGAIG_AAyAAy_____AQySiSgGGASGAAyAAyA4______yAGGG_____GSgAAyAAy_____yAAyAlQy_____SgGG_Qo_A7_GA9_GtGGAOG_____y__________GGAQy_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA6ZStackV AA06_ShapeG0V 013ControlCenterB014CircleWithBiteV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA5ImageV AA012_AspectRatioQ0V AA08_PaddingQ0V AA022_EnvironmentKeyWritingS0V AA13_OffsetEffectV AA4TextV AA016_ForegroundStyleS0V AA16_BlendModeEffectV AA0G0PAAE10fontWeightyQrAA4FontV6WeightVSgFQO A13_ AA021_InsettableBackgroundiS0V AA03AnyI5StyleV AA16RoundedRectangleV AA0O6SchemeO
+- _symbolic _____yAAy_____y_____yAAy_____yACyAAyAAyAAy_____y__________G_____G_____yAAyAAyAAy__________G_____G_____yAGSgGGGG_____GSg_A3YtGGAIG_AAyAAy_____AQySiSgGGASGAAyAAyA4______yAGGG_____GSgAAyAAy_____yAAyAlQy_____SgGG_Qo_A7_GA9_GtGGAOG_____y__________GG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA6ZStackV AA06_ShapeG0V 013ControlCenterB014CircleWithBiteV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA5ImageV AA012_AspectRatioQ0V AA08_PaddingQ0V AA022_EnvironmentKeyWritingS0V AA13_OffsetEffectV AA4TextV AA016_ForegroundStyleS0V AA16_BlendModeEffectV AA0G0PAAE10fontWeightyQrAA4FontV6WeightVSgFQO A13_ AA021_InsettableBackgroundiS0V AA03AnyI5StyleV AA16RoundedRectangleV
+- _symbolic _____y__________G 7SwiftUI34_InsettableBackgroundShapeModifierV AA03AnyE5StyleV AA16RoundedRectangleV
+- _symbolic _____y_____yAAyAAyAAy_____y_____yAAy_____yACyAAyAAyAAy_____y__________G_____G_____yAAyAAyAAy__________G_____G_____yAGSgGGGG_____GSg_A3YtGGAIG_AAyAAy_____AQySiSgGGASGAAyAAyA4______yAGGG_____GSgAAyAAy_____yAAyAlQy_____SgGG_Qo_A7_GA9_GtGGAOG_____y__________GGAQy_____GG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA6HStackV AA05TupleE0V AA6ZStackV AA06_ShapeE0V 013ControlCenterB014CircleWithBiteV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA5ImageV AA012_AspectRatioV0V AA08_PaddingV0V AA022_EnvironmentKeyWritingX0V AA13_OffsetEffectV AA4TextV AA016_ForegroundStyleX0V AA16_BlendModeEffectV AeAE10fontWeightyQrAA4FontV6WeightVSgFQO A16_ AA021_InsettableBackgroundnX0V AA03AnyN5StyleV AA16RoundedRectangleV AA0T6SchemeO AA05_FlexuV0V
+- _symbolic _____y_____yAAyAAyAAy_____y_____yAAy_____yACyAAyAAyAAy_____y__________G_____G_____yAAyAAyAAy__________G_____G_____yAGSgGGGG_____GSg_A3YtGGAIG_AAyAAy_____AQySiSgGGASGAAyAAyA4______yAGGG_____GSgAAyAAy_____yAAyAlQy_____SgGG_Qo_A7_GA9_GtGGAOG_____y__________GGAQy_____GG_Qo______GSg 7SwiftUI15ModifiedContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA6HStackV AA05TupleE0V AA6ZStackV AA06_ShapeE0V 013ControlCenterB014CircleWithBiteV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA5ImageV AA012_AspectRatioV0V AA08_PaddingV0V AA022_EnvironmentKeyWritingX0V AA13_OffsetEffectV AA4TextV AA016_ForegroundStyleX0V AA16_BlendModeEffectV AeAE10fontWeightyQrAA4FontV6WeightVSgFQO A16_ AA021_InsettableBackgroundnX0V AA03AnyN5StyleV AA16RoundedRectangleV AA0T6SchemeO AA05_FlexuV0V
+- _symbolic _____y_____yAAyAAy_____y_____yAAy_____yACyAAyAAyAAy_____y__________G_____G_____yAAyAAyAAy__________G_____G_____yAGSgGGGG_____GSg_A3YtGGAIG_AAyAAy_____AQySiSgGGASGAAyAAyA4______yAGGG_____GSgAAyAAy_____yAAyAlQy_____SgGG_Qo_A7_GA9_GtGGAOG_____y__________GGAQy_____GG_Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6HStackV AA05TupleC0V AA6ZStackV AA06_ShapeC0V 013ControlCenterB014CircleWithBiteV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA5ImageV AA012_AspectRatioV0V AA08_PaddingV0V AA022_EnvironmentKeyWritingX0V AA13_OffsetEffectV AA4TextV AA016_ForegroundStyleX0V AA16_BlendModeEffectV AcAE10fontWeightyQrAA4FontV6WeightVSgFQO A16_ AA021_InsettableBackgroundnX0V AA03AnyN5StyleV AA16RoundedRectangleV AA0T6SchemeO
+CStrings:
++ "@\"CCUISensorEntityIconCache\""
++ "@48@0:8@16{CGSize=dd}24@40"
++ "@48@0:8d16@24@32@40"
++ "T@\"CCUIDynamicControlsViewController\",&,N,V_dynamicControlsViewController"
++ "T@\"CCUISensorEntityIconCache\",&,N,V_sensorEntityIconCache"
++ "T@\"CCUISensorEntityIconCache\",W,N,V_iconCache"
++ "T@\"UIView\",&,N,V_cameraIndicatorView"
++ "T@\"UIView\",&,N,V_gameModeIndicatorView"
++ "T@\"UIView\",&,N,V_inactiveMicIndicatorView"
++ "T@\"UIView\",&,N,V_locationIndicatorView"
++ "T@\"UIView\",&,N,V_micIndicatorView"
++ "T{CGRect={CGPoint=dd}{CGSize=dd}},N,VsensorAttributionButtonFrame"
++ "_dynamicControlsViewController"
++ "_iconCache"
++ "_sensorEntityIconCache"
++ "dynamicControlsBackgroundFrameChanged:"
++ "dynamicControlsViewController"
++ "dynamicControlsViewFrame"
++ "iconCache"
++ "iconDragManager:duplicateIconBehaviorInDragSession:"
++ "iconShouldBeDimmed:"
++ "imageForEntity:scale:"
++ "initWithFrame:screen:"
++ "initWithModuleInstanceManager:iconCache:"
++ "initWithSensorEntity:maxSize:iconCache:"
++ "initWithWidth:appsUsingSensors:sensorActivityData:iconCache:"
++ "preheatImageForSensorEntity:scale:"
++ "q32@0:8@\"SBIconDragManager\"16@\"<UIDragDropSession>\"24"
++ "sensorAttributionButtonFrame"
++ "sensorEntityIconCache"
++ "setCameraIndicatorView:"
++ "setDynamicControlsViewController:"
++ "setGameModeIndicatorView:"
++ "setIconCache:"
++ "setInactiveMicIndicatorView:"
++ "setLocationIndicatorView:"
++ "setMicIndicatorView:"
++ "setSensorAttributionButtonFrame:"
++ "setSensorEntityIconCache:"
++ "v32@0:8@16d24"
+- "@40@0:8d16@24@32"
+- "B32@0:8@\"SBIconDragManager\"16@\"<UIDragDropSession>\"24"
+- "T@\"CCUIDynamicControlsViewController\",&,N,V_dynamicControllsViewController"
+- "T@\"UIView\",R,N,V_cameraIndicatorView"
+- "T@\"UIView\",R,N,V_gameModeIndicatorView"
+- "T@\"UIView\",R,N,V_inactiveMicIndicatorView"
+- "T@\"UIView\",R,N,V_locationIndicatorView"
+- "T@\"UIView\",R,N,V_micIndicatorView"
+- "_dynamicControllsViewController"
+- "_init"
+- "dynamicControllsViewController"
+- "iconDragManager:shouldDuplicateIconsInDragSession:"
+- "imageForEntity:"
+- "initWithModuleInstanceManager:"
+- "initWithSensorEntity:maxSize:"
+- "initWithWidth:appsUsingSensors:sensorActivityData:"
+- "preheatImageForSensorEntity:"
+- "setDynamicControllsViewController:"
+
+```

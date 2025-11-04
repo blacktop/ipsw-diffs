@@ -1,0 +1,122 @@
+## _MusicKitInternal_SwiftUI
+
+> `/System/Library/PrivateFrameworks/_MusicKitInternal_SwiftUI.framework/_MusicKitInternal_SwiftUI`
+
+```diff
+
+-4025.200.20.0.0
+-  __TEXT.__text: 0x11d63c
+-  __TEXT.__auth_stubs: 0x4b00
++4025.300.9.0.0
++  __TEXT.__text: 0x11db38
++  __TEXT.__auth_stubs: 0x4b70
+   __TEXT.__objc_methlist: 0x224
+-  __TEXT.__const: 0x9b44
+-  __TEXT.__cstring: 0x348e
+-  __TEXT.__constg_swiftt: 0x3c70
+-  __TEXT.__swift5_typeref: 0xc13c
++  __TEXT.__const: 0x9b84
++  __TEXT.__cstring: 0x34ce
++  __TEXT.__swift5_typeref: 0xc186
++  __TEXT.__swift5_capture: 0x15b0
++  __TEXT.__constg_swiftt: 0x3d08
+   __TEXT.__swift5_builtin: 0xb4
+-  __TEXT.__swift5_reflstr: 0x38ea
+-  __TEXT.__swift5_fieldmd: 0x27e0
++  __TEXT.__swift5_reflstr: 0x38fa
++  __TEXT.__swift5_fieldmd: 0x2814
+   __TEXT.__swift5_assocty: 0xa48
+-  __TEXT.__swift5_capture: 0x15a0
+-  __TEXT.__oslogstring: 0xa54
+-  __TEXT.__swift5_proto: 0x458
+-  __TEXT.__swift5_types: 0x22c
++  __TEXT.__swift5_proto: 0x468
++  __TEXT.__swift5_types: 0x230
+   __TEXT.__swift_as_entry: 0x100
+   __TEXT.__swift_as_ret: 0xe4
+   __TEXT.__swift5_protos: 0x18
++  __TEXT.__oslogstring: 0xa55
+   __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__unwind_info: 0x3330
+-  __TEXT.__eh_frame: 0x3768
++  __TEXT.__unwind_info: 0x3370
++  __TEXT.__eh_frame: 0x37d0
+   __TEXT.__objc_classname: 0x54
+   __TEXT.__objc_methname: 0x9a6
+   __TEXT.__objc_methtype: 0x28d
+-  __DATA_CONST.__got: 0x14e8
++  __DATA_CONST.__got: 0x14f8
+   __DATA_CONST.__const: 0x130
+   __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x370
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x2580
+-  __AUTH_CONST.__const: 0x5548
++  __AUTH_CONST.__auth_got: 0x25b8
++  __AUTH_CONST.__const: 0x55f8
+   __AUTH_CONST.__objc_const: 0xca0
+   __AUTH.__objc_data: 0x150
+   __AUTH.__data: 0x1d80
+-  __DATA.__data: 0x53a8
+-  __DATA.__bss: 0x80c8
++  __DATA.__data: 0x53b0
++  __DATA.__bss: 0x82c0
+   __DATA.__common: 0x360
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__data: 0x318
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2A3317F6-3C4C-36FA-914E-17E6279D67E0
+-  Functions: 5555
+-  Symbols:   4890
+-  CStrings:  466
++  UUID: 26C45839-2F2A-3467-A696-40F1BC7D497A
++  Functions: 5575
++  Symbols:   4864
++  CStrings:  468
+ 
+Symbols:
++ _OUTLINED_FUNCTION_244
++ _OUTLINED_FUNCTION_245
++ _OUTLINED_FUNCTION_246
++ _OUTLINED_FUNCTION_247
++ _associated conformance 8MusicKit7ArtworkV01_aB16Internal_SwiftUIE17LoadingPropertiesVSHADSQ
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.28
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOQr.26
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.29
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.27
++ _get_witness_table 25_MusicKitInternal_SwiftUI08PickableA4ItemRzl0dE015ModifiedContentVyAC4ViewPACE7toolbar7contentQrqd__yXE_tAC07ToolbarI0Rd__lFQOyAgCE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOyAEyAEyAC14GeometryReaderVyAC06ScrollJ0VyAC012_ConditionalI0VyAC05EmptyJ0VAgCE11buttonStyleyQrqd__AC015PrimitiveButtonZ0Rd__lFQOyAEyAC10LazyVStackVyAC05TupleJ0VyAEyAEyAEyAEyAEyAEyAgCE20accessibilityElement8childrenQrAC26AccessibilityChildBehaviorV_tFQOyAA0A6PickerV19ContainerHeaderCellVy_0aB05AlbumVxG_Qo_AC31AccessibilityAttachmentModifierVGAC14_PaddingLayoutVGA21_GA21_GAC011_BackgroundZ8ModifierVyAC5ColorVGGA9_20FailureAlertModifier33_4F1D29AA33B482183712D20C1ABD12D6LLVG_A3_yAEyAC7DividerVA21_GSg_AEyAC7ForEachVyA12_0aG10CollectionVyA12_5TrackOGA12_0aG2IDVA3_yAEyAEyAEyAgCEA4_A5_QrA7__tFQOyA9_14AlbumTrackCellVy_xG_Qo_A18_GA21_GA21_G_AEyA37_AC14_OpacityEffectVGSgtGGA29_GtGSgA9_14ContainerShelfVy_A14_xGSgtGGAC30_SafeAreaRegionsIgnoringLayoutVG_AC011PlainButtonZ0VQo_GGGA18_GA9_013NavigationBarZ0Vy_xGG_Qo__AC0mI7BuilderV10buildBlockyQrxAcJRzlFZQOy_A9_04DonemG0Vy_xGQo_Qo_A9_23FirstAppearanceModifier33_887493FF1BAC922533AEE4D53090272ALLVGAcFHPqd0__AcFHD3_A92_HO_A95_AC0J8ModifierHPyHCHC.34
++ _get_witness_table 25_MusicKitInternal_SwiftUI0A23PickerCellRepresentableRzl0dE015ModifiedContentVyAC014_ViewModifier_J0VyAA0aF0V38IndividualItemBasedAccessibilityActionVy_xGGAC0p10AttachmentL0VGAC0K0HPAmcQHPyHC_AoC0kL0HPyHCHC.6
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx8MusicKit7ArtworkV01_fg9Internal_aB0E015LoadingObserverC8Modifier33_5CB498343F2DCB5507C62954EB90A328LLVGAaBHPxAaBHD1__AkA0cL0HPyHCHC.4
++ _get_witness_table 8MusicKit05InnerA13ItemProvidingRz01_aB16Internal_SwiftUI0A23PickerCellRepresentableRzl0gH019_ConditionalContentVyAE014_ViewModifier_M0VyAC0aI0V010IndividualD24BasedAccessibilityActionVy_xGGAE08ModifiedM0VyAoE0r10AttachmentO0VGGAE0N0HPAoeVHPyHC_AteVHPAoeVHPyHC_AsE0nO0HPyHCHCHC.5
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQOyAA01_C16Modifier_ContentVy8MusicKit7ArtworkV01_ij9Internal_aB0E015LoadingObservercG033_5CB498343F2DCB5507C62954EB90A328LLVG_01_ij1_aB00kmN0CQo_HO.6
++ _get_witness_table x7SwiftUI4ViewHD1_010_MusicKit_aB012ArtworkImageV11_artworkTagyQrSSFQOy_Qo_HO.2
++ _objc_release_x28
++ _objc_retain_x28
++ _objectdestroy.12Tm
++ _symbolic _____ 8MusicKit7ArtworkV01_aB16Internal_SwiftUIE17LoadingPropertiesV
++ _symbolic _____Sg_____Iegnn_ 8MusicKit7ArtworkV AC01_aB16Internal_SwiftUIE17LoadingPropertiesV
++ _symbolic _____y_Qo_ 17_MusicKit_SwiftUI12ArtworkImageV11_artworkTagyQrSSFQO
++ _type_layout_string 8MusicKit7ArtworkV01_aB16Internal_SwiftUIE17LoadingPropertiesV
+- _OUTLINED_FUNCTION_151
+- ___unnamed_17
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.18
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOQr.16
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.19
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.17
+- _get_witness_table 25_MusicKitInternal_SwiftUI08PickableA4ItemRzl0dE015ModifiedContentVyAC4ViewPACE7toolbar7contentQrqd__yXE_tAC07ToolbarI0Rd__lFQOyAgCE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOyAEyAEyAC14GeometryReaderVyAC06ScrollJ0VyAC012_ConditionalI0VyAC05EmptyJ0VAgCE11buttonStyleyQrqd__AC015PrimitiveButtonZ0Rd__lFQOyAEyAC10LazyVStackVyAC05TupleJ0VyAEyAEyAEyAEyAEyAEyAgCE20accessibilityElement8childrenQrAC26AccessibilityChildBehaviorV_tFQOyAA0A6PickerV19ContainerHeaderCellVy_0aB05AlbumVxG_Qo_AC31AccessibilityAttachmentModifierVGAC14_PaddingLayoutVGA21_GA21_GAC011_BackgroundZ8ModifierVyAC5ColorVGGA9_20FailureAlertModifier33_4F1D29AA33B482183712D20C1ABD12D6LLVG_A3_yAEyAC7DividerVA21_GSg_AEyAC7ForEachVyA12_0aG10CollectionVyA12_5TrackOGA12_0aG2IDVA3_yAEyAEyAEyAgCEA4_A5_QrA7__tFQOyA9_14AlbumTrackCellVy_xG_Qo_A18_GA21_GA21_G_AEyA37_AC14_OpacityEffectVGSgtGGA29_GtGSgA9_14ContainerShelfVy_A14_xGSgtGGAC30_SafeAreaRegionsIgnoringLayoutVG_AC011PlainButtonZ0VQo_GGGA18_GA9_013NavigationBarZ0Vy_xGG_Qo__AC0mI7BuilderV10buildBlockyQrxAcJRzlFZQOy_A9_04DonemG0Vy_xGQo_Qo_A9_23FirstAppearanceModifier33_887493FF1BAC922533AEE4D53090272ALLVGAcFHPqd0__AcFHD3_A92_HO_A95_AC0J8ModifierHPyHCHC.64
+- _get_witness_table 25_MusicKitInternal_SwiftUI0A23PickerCellRepresentableRzl0dE015ModifiedContentVyAC014_ViewModifier_J0VyAA0aF0V38IndividualItemBasedAccessibilityActionVy_xGGAC0p10AttachmentL0VGAC0K0HPAmcQHPyHC_AoC0kL0HPyHCHC.5
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx8MusicKit7ArtworkV01_fg9Internal_aB0E015LoadingObserverC8Modifier33_5CB498343F2DCB5507C62954EB90A328LLVGAaBHPxAaBHD1__AkA0cL0HPyHCHC.1
+- _get_witness_table 8MusicKit05InnerA13ItemProvidingRz01_aB16Internal_SwiftUI0A23PickerCellRepresentableRzl0gH019_ConditionalContentVyAE014_ViewModifier_M0VyAC0aI0V010IndividualD24BasedAccessibilityActionVy_xGGAE08ModifiedM0VyAoE0r10AttachmentO0VGGAE0N0HPAoeVHPyHC_AteVHPAoeVHPyHC_AsE0nO0HPyHCHCHC.6
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQOyAA01_C16Modifier_ContentVy8MusicKit7ArtworkV01_ij9Internal_aB0E015LoadingObservercG033_5CB498343F2DCB5507C62954EB90A328LLVG_01_ij1_aB00kmN0CQo_HO.3
+- _objectdestroy.42Tm
+- _objectdestroy.5Tm
+CStrings:
++ "\n  loadingStatus: \""
++ "Artwork.LoadingProperties("
+
+```

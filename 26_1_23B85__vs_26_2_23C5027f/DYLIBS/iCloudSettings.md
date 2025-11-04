@@ -1,0 +1,102 @@
+## iCloudSettings
+
+> `/System/Library/PrivateFrameworks/iCloudSettings.framework/iCloudSettings`
+
+```diff
+
+-301.23.1.6.0
+-  __TEXT.__text: 0x19b820
+-  __TEXT.__auth_stubs: 0x3a70
++301.23.1.7.0
++  __TEXT.__text: 0x19bcc0
++  __TEXT.__auth_stubs: 0x3a90
+   __TEXT.__objc_methlist: 0x4464
+-  __TEXT.__const: 0x112d4
++  __TEXT.__const: 0x112f4
+   __TEXT.__oslogstring: 0x95ea
+   __TEXT.__cstring: 0x9a1e
+   __TEXT.__gcc_except_tab: 0x558
+   __TEXT.__dlopen_cstrs: 0x22d
+   __TEXT.__ustring: 0x10
+   __TEXT.__constg_swiftt: 0x5408
+-  __TEXT.__swift5_typeref: 0x11cb6
++  __TEXT.__swift5_typeref: 0x11db6
+   __TEXT.__swift5_builtin: 0x154
+-  __TEXT.__swift5_reflstr: 0x3aca
+-  __TEXT.__swift5_fieldmd: 0x3c68
++  __TEXT.__swift5_reflstr: 0x3a6a
++  __TEXT.__swift5_fieldmd: 0x3c44
+   __TEXT.__swift5_assocty: 0xe68
+   __TEXT.__swift5_capture: 0x2384
+   __TEXT.__swift5_proto: 0x860
+
+   __TEXT.__swift_as_ret: 0x39c
+   __TEXT.__swift5_protos: 0x60
+   __TEXT.__swift5_mpenum: 0x1c
+-  __TEXT.__unwind_info: 0x6410
++  __TEXT.__unwind_info: 0x63f8
+   __TEXT.__eh_frame: 0x9b78
+   __TEXT.__objc_classname: 0x8c2
+-  __TEXT.__objc_methname: 0xae7a
++  __TEXT.__objc_methname: 0xae93
+   __TEXT.__objc_methtype: 0x26b8
+   __TEXT.__objc_stubs: 0x70c0
+-  __DATA_CONST.__got: 0x16e8
++  __DATA_CONST.__got: 0x16f0
+   __DATA_CONST.__const: 0x1248
+   __DATA_CONST.__objc_classlist: 0x468
+   __DATA_CONST.__objc_catlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x188
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3078
++  __DATA_CONST.__objc_selrefs: 0x3080
+   __DATA_CONST.__objc_protorefs: 0xa0
+   __DATA_CONST.__objc_superrefs: 0x108
+   __DATA_CONST.__objc_arraydata: 0x20
+-  __AUTH_CONST.__auth_got: 0x1d48
++  __AUTH_CONST.__auth_got: 0x1d58
+   __AUTH_CONST.__const: 0xa0e0
+   __AUTH_CONST.__cfstring: 0x2620
+   __AUTH_CONST.__objc_const: 0x163b8
+
+   __AUTH.__objc_data: 0x47a0
+   __AUTH.__data: 0x3cd0
+   __DATA.__objc_ivar: 0x364
+-  __DATA.__data: 0x52a8
++  __DATA.__data: 0x52c8
+   __DATA.__bss: 0x107a0
+-  __DATA.__common: 0x2a8
++  __DATA.__common: 0x2b0
+   __DATA_DIRTY.__objc_data: 0xb50
+   __DATA_DIRTY.__data: 0x3c8
+   __DATA_DIRTY.__common: 0x40
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 76529244-A842-3FA4-A46D-3E592839578C
+-  Functions: 8367
+-  Symbols:   7843
+-  CStrings:  4505
++  UUID: 8AEE4A71-5A46-3AE7-AE62-7E13E4C50DC4
++  Functions: 8368
++  Symbols:   7847
++  CStrings:  4506
+ 
+Symbols:
++ _get_witness_table 7SwiftUI14GeometryReaderVyAA6ZStackVyAA9TupleViewVyAA15ModifiedContentVyAIyAA7CapsuleVAA12_FrameLayoutVGAA24_ForegroundStyleModifierVyAA5ColorVGG_AA0G0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAIyAIyAEyAGyAIyAA6HStackVyAA7ForEachVySay14iCloudSettings018ThermometerSectionG5ModelCGA2_013ManageStorageZ7SectionCAIyAIyAIyAA9RectangleVAMGASGAA011_BackgroundnO0VyARGGGGAA012_TransactionO0VG_AIyA11_AA14_OpacityEffectVGtGGAA20_MaskAlignmentEffectVyANGGAA017_AppearanceActionO0VG_A2_30ManageStorageAppsListDataModelCSgQo_AIyAIyAA017StrokeBorderShapeG0VyAkrA05EmptyG0VGAMGASGSgtGGGAaUHPyHC.111
++ _symbolic _____yAAy__________G_____y_____GG______yAAyAAy_____y_____yAAy_____y_____ySay_____G_____AAyAAyAAy_____ACGAGG_____yAFGGGG_____G_AAyAR_____GtGG_____yADGG_____G______SgQo_AAyAAy_____yAbF_____GACGAGGSgt 7SwiftUI15ModifiedContentV AA7CapsuleV AA12_FrameLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA6ZStackV AA05TupleL0V AA6HStackV AA7ForEachV 14iCloudSettings018ThermometerSectionL5ModelC AY013ManageStoragexY0C AA9RectangleV AA011_BackgroundiJ0V AA012_TransactionJ0V AA14_OpacityEffectV AA20_MaskAlignmentEffectV AA017_AppearanceActionJ0V AY025ManageStorageAppsListDataZ0C AA017StrokeBorderShapeL0V AA05EmptyL0V
++ _symbolic _____yAAy_____y_______________G_____G_____yADGG 7SwiftUI15ModifiedContentV AA21StrokeBorderShapeViewV AA7CapsuleV AA5ColorV AA05EmptyH0V AA12_FrameLayoutV AA24_ForegroundStyleModifierV
++ _symbolic _____yAAy_____y_______________G_____G_____yADGGSg 7SwiftUI15ModifiedContentV AA21StrokeBorderShapeViewV AA7CapsuleV AA5ColorV AA05EmptyH0V AA12_FrameLayoutV AA24_ForegroundStyleModifierV
++ _symbolic _____y_______________G 7SwiftUI21StrokeBorderShapeViewV AA7CapsuleV AA5ColorV AA05EmptyF0V
++ _symbolic _____y___________y_____yADy__________G_____y_____GG______yADyADy_____yACyADy_____y_____ySay_____G_____ADyADyADy_____AFGAJG_____yAIGGGG_____G_ADyAT_____GtGG_____yAGGG_____G______SgQo_ADyADy_____yAeI_____GAFGAJGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA15ModifiedContentV AA7CapsuleV AA06_FrameG0V AA24_ForegroundStyleModifierV AA5ColorV AA0D0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA0F0V AA6HStackV AA7ForEachV 14iCloudSettings018ThermometerSectionD5ModelC A3_013ManageStorageZ7SectionC AA9RectangleV AA011_BackgroundnO0V AA012_TransactionO0V AA14_OpacityEffectV AA20_MaskAlignmentEffectV AA017_AppearanceActionO0V A3_30ManageStorageAppsListDataModelC AA017StrokeBorderShapeD0V AA05EmptyD0V
++ _symbolic _____y_____y_______________G_____G 7SwiftUI15ModifiedContentV AA21StrokeBorderShapeViewV AA7CapsuleV AA5ColorV AA05EmptyH0V AA12_FrameLayoutV
++ _symbolic _____y_____y_____y_____yADy__________G_____y_____GG______yADyADyAByACyADy_____y_____ySay_____G_____ADyADyADy_____AFGAJG_____yAIGGGG_____G_ADyAS_____GtGG_____yAGGG_____G______SgQo_ADyADy_____yAeI_____GAFGAJGSgtGGG 7SwiftUI14GeometryReaderV AA6ZStackV AA9TupleViewV AA15ModifiedContentV AA7CapsuleV AA12_FrameLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA0G0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA6HStackV AA7ForEachV 14iCloudSettings018ThermometerSectionG5ModelC A_013ManageStorageZ7SectionC AA9RectangleV AA011_BackgroundnO0V AA012_TransactionO0V AA14_OpacityEffectV AA20_MaskAlignmentEffectV AA017_AppearanceActionO0V A_30ManageStorageAppsListDataModelC AA017StrokeBorderShapeG0V AA05EmptyG0V
+- _get_witness_table 7SwiftUI14GeometryReaderVyAA6ZStackVyAA9TupleViewVyAA15ModifiedContentVyAIyAA7CapsuleVAA12_FrameLayoutVGAA24_ForegroundStyleModifierVyAA5ColorVGG_AA0G0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAIyAIyAEyAGyAIyAA6HStackVyAA7ForEachVySay14iCloudSettings018ThermometerSectionG5ModelCGA2_013ManageStorageZ7SectionCAIyAIyAIyAA9RectangleVAMGASGAA011_BackgroundnO0VyARGGGGAA012_TransactionO0VG_AIyA11_AA14_OpacityEffectVGtGGAA20_MaskAlignmentEffectVyANGGAA017_AppearanceActionO0VG_A2_30ManageStorageAppsListDataModelCSgQo_tGGGAaUHPyHC.111
+- _symbolic _____yAAy__________G_____y_____GG______yAAyAAy_____y_____yAAy_____y_____ySay_____G_____AAyAAyAAy_____ACGAGG_____yAFGGGG_____G_AAyAR_____GtGG_____yADGG_____G______SgQo_t 7SwiftUI15ModifiedContentV AA7CapsuleV AA12_FrameLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA6ZStackV AA05TupleL0V AA6HStackV AA7ForEachV 14iCloudSettings018ThermometerSectionL5ModelC AY013ManageStoragexY0C AA9RectangleV AA011_BackgroundiJ0V AA012_TransactionJ0V AA14_OpacityEffectV AA20_MaskAlignmentEffectV AA017_AppearanceActionJ0V AY025ManageStorageAppsListDataZ0C
+- _symbolic _____y___________y_____yADy__________G_____y_____GG______yADyADy_____yACyADy_____y_____ySay_____G_____ADyADyADy_____AFGAJG_____yAIGGGG_____G_ADyAT_____GtGG_____yAGGG_____G______SgQo_tGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA15ModifiedContentV AA7CapsuleV AA06_FrameG0V AA24_ForegroundStyleModifierV AA5ColorV AA0D0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA0F0V AA6HStackV AA7ForEachV 14iCloudSettings018ThermometerSectionD5ModelC A3_013ManageStorageZ7SectionC AA9RectangleV AA011_BackgroundnO0V AA012_TransactionO0V AA14_OpacityEffectV AA20_MaskAlignmentEffectV AA017_AppearanceActionO0V A3_30ManageStorageAppsListDataModelC
+- _symbolic _____y_____y_____y_____yADy__________G_____y_____GG______yADyADyAByACyADy_____y_____ySay_____G_____ADyADyADy_____AFGAJG_____yAIGGGG_____G_ADyAS_____GtGG_____yAGGG_____G______SgQo_tGGG 7SwiftUI14GeometryReaderV AA6ZStackV AA9TupleViewV AA15ModifiedContentV AA7CapsuleV AA12_FrameLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA0G0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA6HStackV AA7ForEachV 14iCloudSettings018ThermometerSectionG5ModelC A_013ManageStorageZ7SectionC AA9RectangleV AA011_BackgroundnO0V AA012_TransactionO0V AA14_OpacityEffectV AA20_MaskAlignmentEffectV AA017_AppearanceActionO0V A_30ManageStorageAppsListDataModelC
+CStrings:
++ "secondarySystemFillColor"
+
+```

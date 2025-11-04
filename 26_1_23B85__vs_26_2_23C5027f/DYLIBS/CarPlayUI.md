@@ -1,0 +1,51 @@
+## CarPlayUI
+
+> `/System/Library/PrivateFrameworks/CarPlayUI.framework/CarPlayUI`
+
+```diff
+
+-488.18.3.2.0
+-  __TEXT.__text: 0xa4670
++488.25.0.0.0
++  __TEXT.__text: 0xa4880
+   __TEXT.__auth_stubs: 0x2420
+-  __TEXT.__objc_methlist: 0x4fd8
+-  __TEXT.__const: 0x6494
++  __TEXT.__objc_methlist: 0x4fe8
++  __TEXT.__const: 0x64a4
+   __TEXT.__cstring: 0x3028
+   __TEXT.__ustring: 0x12
+   __TEXT.__oslogstring: 0x5dd
+
+   __TEXT.__swift_as_entry: 0x1c
+   __TEXT.__swift5_mpenum: 0x28
+   __TEXT.__swift_as_ret: 0x4
+-  __TEXT.__unwind_info: 0x25a0
++  __TEXT.__unwind_info: 0x25a8
+   __TEXT.__eh_frame: 0x6a0
+   __TEXT.__objc_classname: 0x97b
+   __TEXT.__objc_methname: 0xdf5b
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B1FF2675-8DF3-3F2F-844F-2FEE5F3D156A
+-  Functions: 4320
+-  Symbols:   15654
++  UUID: E3CD7BCE-3D0E-32AF-A02C-E9C36E7FB54E
++  Functions: 4321
++  Symbols:   15656
+   CStrings:  3263
+ 
+Symbols:
++ -[CPUIGridButton setHighlighted:]
+Functions:
+~ -[CPUIGridButton _updateLabelColor] : 136 -> 168
++ -[CPUIGridButton setHighlighted:]
+~ _$s9CarPlayUI8GridViewC9CondensedO4CellV7ContentV4bodyQrvg05SwiftC005TupleE0VyAK5GroupVyAK012_ConditionalH0VyAQyAK0E0PAKE7paddingyQr12CoreGraphics7CGFloatVFQOyAsKE5frame5width6height9alignmentQrAWSg_A0_AK9AlignmentVtFQOyAsKE15foregroundStyleyQrqd__AK05ShapeX0Rd__lFQOyAsKE4fontyQrAK4FontVSgFQOyAC4BaseO7ArtworkV11SystemImageV_Qo__AK5ColorVQo__Qo__Qo_AsKEATyQrAWFQOyAsKEAxyZA_QrA0__A0_A2_tFQOyA12__Qo__Qo_GAsKEATyQrAWFQOyAsKE6shadow5color6radius1x1yQrA17__A3WtFQOyAsAE14innerHighlightA25_9thickness010insettableY0QrA17_Sg_SdSgAK010InsettableY0_ptFQOyAsKE11aspectRatio_11contentModeQrA0__AK0H4ModeOtFQOyA12__Qo__Qo__Qo__Qo_GSgG_AsKE14layoutPriorityyQrSdFQOyAsKEATyQrAK4EdgeO3SetV_A0_tFQOyAsKEAX8minWidth10idealWidth8maxWidth9minHeight11idealHeight9maxHeightA_QrA0__A0_A0_A0_A0_A0_A2_tFQOyAsKE8disabledyQrSbFQOyAsKE7opacityyQrSdFQOyAK6VStackVyAMyAsKEA3_yQrqd__AKA4_Rd__lFQOyAsKEA5_yQrA8_FQOyAsKE9lineLimityQrSiSgFQOyAK4TextV_Qo__Qo__A17_Qo__AMyAsKEAxyZA_QrA0__A0_A2_tFQOyAK27_TextBaselineRelativeSpacerV_Qo__A67_tGSgtGG_Qo__Qo__Qo__Qo__Qo_AsKE10transitionyQrAK13AnyTransitionVFQOyAK6ZStackVyAQyAsKEAxyZA_QrA0__A0_A2_tFQOyAsKE10imageScaleyQrAK5ImageV5ScaleOFQOyAsKEA3_yQrqd__AKA4_Rd__lFQOyAsKE0Z6WeightyQrA7_6WeightVSgFQOyAsKEA5_yQrA8_FQOyA87__Qo__Qo__A17_Qo__Qo__Qo_A10_09Accessorye7HostingE0VGG_Qo_SgtGyXEfU_A44_yXEfU_ : 5056 -> 5236
+- _$s7SwiftUI11EnvironmentV7ContentOySb_GWOy
++ _$s7SwiftUI11EnvironmentV7ContentOySb_GWOy
+~ _$sSo39CPUIMediaContainerTableHeaderFooterViewC9CarPlayUIE7Content33_5BA7977D11D5380EA9CC2BFCBA0C52C5LLV4bodyQrvg05SwiftI005TupleF0VyAH0F0PACE14innerHighlight5color9thickness15insettableShapeQrAH5ColorVSg_SdSgAH15InsettableShape_ptFQOyAlHE5frame5width6height9alignmentQr12CoreGraphics7CGFloatVSg_A1_AH9AlignmentVtFQOyAlHE11aspectRatio_11contentModeQrA1__AH0J4ModeOtFQOy010_MusicKit_tI012ArtworkImageV_Qo__Qo__Qo_Sg_AlHE14layoutPriorityyQrSdFQOyAlHEAV8minWidth10idealWidth8maxWidth9minHeight11idealHeight9maxHeightAYQrA1__A1_A1_A1_A1_A1_A3_tFQOyAH6VStackVyAJyAlHE9lineLimityQrSiSgFQOyA23_yAJyAH4TextV_A27_SgtGG_Qo__AH6SpacerVAlHEAVA16_A17_A18_A19_A20_A21_AYQrA1__A1_A1_A1_A1_A1_A3_tFQOyAlHE11buttonStyleyQrqd__AH11ButtonStyleRd__lFQOyAH6HStackVyAJyAH6ButtonVyAH5LabelVyA27_AH5ImageVGGSg_A46_tGG_AF0H12ShuffleStyleVQo__Qo_tGG_Qo__Qo_tGyXEfU_ : 2724 -> 2708
+~ _$sSo39CPUIMediaContainerTableHeaderFooterViewC9CarPlayUIE7Content33_5BA7977D11D5380EA9CC2BFCBA0C52C5LLV0H12ShuffleStyleV8makeBody13configurationQr05SwiftI006ButtonT13ConfigurationV_tF : 2960 -> 3156
+
+```

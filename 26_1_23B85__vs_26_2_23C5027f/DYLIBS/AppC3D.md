@@ -1,0 +1,323 @@
+## AppC3D
+
+> `/System/Library/PrivateFrameworks/AppC3D.framework/AppC3D`
+
+```diff
+
+ 1.18.0.0.0
+-  __TEXT.__text: 0x8787d4
++  __TEXT.__text: 0x8792dc
+   __TEXT.__auth_stubs: 0x2660
+   __TEXT.__const: 0x65c4c
+   __TEXT.__cstring: 0x1590d
+   __TEXT.__gcc_except_tab: 0x516f8
+   __TEXT.__oslogstring: 0x37e
+-  __TEXT.__unwind_info: 0x160f0
++  __TEXT.__unwind_info: 0x160f8
+   __TEXT.__eh_frame: 0x18b8
+   __TEXT.__objc_methname: 0xa1
+   __TEXT.__objc_stubs: 0x140
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 77FD8CB7-F28E-3551-A628-CCC473A556AD
++  UUID: 8B2AC807-F8AF-3A1C-A662-806D6A93FB24
+   Functions: 15658
+   Symbols:   788
+   CStrings:  2334
+Functions:
+~ sub_23f5c5770 -> sub_240551770 : 316 -> 320
+~ sub_23f5c63c8 -> sub_2405523cc : 916 -> 920
+~ sub_23f5c6dcc -> sub_240552dd4 : 364 -> 368
+~ sub_23f5c73ec -> sub_2405533f8 : 960 -> 972
+~ sub_23f5c8338 -> sub_240554350 : 272 -> 276
+~ sub_23f5ca090 -> sub_2405560ac : 1056 -> 1064
+~ sub_23f5caae8 -> sub_240556b0c : 808 -> 816
+~ sub_23f5ccff4 -> sub_240559020 : 472 -> 476
+~ sub_23f5ceb50 -> sub_24055ab80 : 860 -> 868
+~ sub_23f5cfd8c -> sub_24055bdc4 : 108 -> 124
+~ sub_23f5e0550 -> sub_24056c598 : 372 -> 376
+~ sub_23f5e09d0 -> sub_24056ca1c : 92 -> 108
+~ sub_23f5e0a30 -> sub_24056ca8c : 340 -> 344
+~ sub_23f5e0b84 -> sub_24056cbe4 : 348 -> 352
+~ sub_23f5e0dbc -> sub_24056ce20 : 892 -> 900
+~ sub_23f5e1264 -> sub_24056d2d0 : 320 -> 324
+~ sub_23f5e14d4 -> sub_24056d544 : 92 -> 108
+~ sub_23f5e356c -> sub_24056f5ec : 380 -> 396
+~ sub_23f5e3dd8 -> sub_24056fe68 : 104 -> 108
+~ sub_23f5e422c -> sub_2405702c0 : 808 -> 816
+~ sub_23f5e5330 -> sub_2405713cc : 924 -> 932
+~ sub_23f5e7378 -> sub_24057341c : 296 -> 304
+~ sub_23f5e7880 -> sub_24057392c : 400 -> 404
+~ sub_23f5e7f54 -> sub_240574004 : 272 -> 276
+~ sub_23f5e9e70 -> sub_240575f24 : 808 -> 816
+~ sub_23f5ea198 -> sub_240576254 : 812 -> 820
+~ sub_23f5eb430 -> sub_2405774f4 : 400 -> 404
+~ sub_23f5ebdb8 -> sub_240577e80 : 556 -> 564
+~ sub_23f5ebfe4 -> sub_2405780b4 : 276 -> 280
+~ sub_23f5ec820 -> sub_2405788f4 : 312 -> 316
+~ sub_23f5fdd58 -> sub_240589e30 : 308 -> 312
+~ sub_23f5ff020 -> sub_24058b0fc : 92 -> 108
+~ sub_23f5ff580 -> sub_24058b66c : 960 -> 976
+~ sub_23f5ffa6c -> sub_24058bb68 : 1092 -> 1100
+~ sub_23f600090 -> sub_24058c194 : 1056 -> 1064
+~ sub_23f600524 -> sub_24058c630 : 340 -> 344
+~ sub_23f600900 -> sub_24058ca10 : 520 -> 524
+~ sub_23f602b6c -> sub_24058ec80 : 400 -> 404
+~ sub_23f6030dc -> sub_24058f1f4 : 400 -> 404
+~ sub_23f6086b8 -> sub_2405947d4 : 868 -> 876
+~ sub_23f60e220 -> sub_24059a344 : 1264 -> 1272
+~ sub_23f60ebfc -> sub_24059ad28 : 1056 -> 1064
+~ sub_23f60f4e0 -> sub_24059b614 : 400 -> 404
+~ sub_23f60fa50 -> sub_24059bb88 : 400 -> 404
+~ sub_23f610388 -> sub_24059c4c4 : 1056 -> 1064
+~ sub_23f6219c0 -> sub_2405adb04 : 1552 -> 1548
+~ sub_23f82b518 -> sub_2407b7658 : 92 -> 108
+~ sub_23f82bd64 -> sub_2407b7eb4 : 556 -> 560
+~ sub_23f82c088 -> sub_2407b81dc : 916 -> 920
+~ sub_23f82c4e4 -> sub_2407b863c : 316 -> 320
+~ sub_23f82cb6c -> sub_2407b8cc8 : 108 -> 124
+~ sub_23f82e228 -> sub_2407ba394 : 92 -> 108
+~ sub_23f82e2f0 -> sub_2407ba46c : 404 -> 412
+~ sub_23f835508 -> sub_2407c168c : 92 -> 108
+~ sub_23f8369e0 -> sub_2407c2b74 : 92 -> 108
+~ sub_23f836ff8 -> sub_2407c319c : 92 -> 108
+~ sub_23f83a714 -> sub_2407c68c8 : 92 -> 108
+~ sub_23f83ec8c -> sub_2407cae50 : 404 -> 408
+~ sub_23f841f90 -> sub_2407ce158 : 92 -> 108
+~ sub_23f84793c -> sub_2407d3b14 : 92 -> 108
+~ sub_23f847c5c -> sub_2407d3e44 : 92 -> 108
+~ sub_23f84876c -> sub_2407d4964 : 432 -> 436
+~ sub_23f84c720 -> sub_2407d891c : 2524 -> 2540
+~ sub_23f84d6e8 -> sub_2407d98f4 : 92 -> 108
+~ sub_23f84f408 -> sub_2407db624 : 92 -> 108
+~ sub_23f850f14 -> sub_2407dd140 : 92 -> 108
+~ sub_23f856d94 -> sub_2407e2fd0 : 11252 -> 11272
+~ sub_23f85db60 -> sub_2407e9db0 : 92 -> 108
+~ sub_23f86275c -> sub_2407ee9bc : 92 -> 108
+~ sub_23f875650 -> sub_2408018c0 : 416 -> 420
+~ sub_23f876cd4 -> sub_240802f48 : 92 -> 108
+~ sub_23f876d84 -> sub_240803008 : 92 -> 108
+~ sub_23f87727c -> sub_240803510 : 92 -> 108
+~ sub_23f87759c -> sub_240803840 : 92 -> 108
+~ sub_23f8778bc -> sub_240803b70 : 92 -> 108
+~ sub_23f877c5c -> sub_240803f20 : 92 -> 108
+~ sub_23f879044 -> sub_240805318 : 3976 -> 3988
+~ sub_23f880d78 -> sub_24080d058 : 92 -> 108
+~ sub_23f882258 -> sub_24080e548 : 556 -> 564
+~ sub_23f882fdc -> sub_24080f2d4 : 5132 -> 5136
+~ sub_23f8845ec -> sub_2408108e8 : 820 -> 832
+~ sub_23f884d14 -> sub_24081101c : 316 -> 320
+~ sub_23f885064 -> sub_240811370 : 92 -> 108
+~ sub_23f888bdc -> sub_240814ef8 : 708 -> 712
+~ sub_23f889090 -> sub_2408153b0 : 92 -> 108
+~ sub_23f894b28 -> sub_240820e58 : 292 -> 296
+~ sub_23f895b6c -> sub_240821ea0 : 608 -> 612
+~ sub_23f895dcc -> sub_240822104 : 412 -> 416
+~ sub_23f89e534 -> sub_24082a870 : 300 -> 292
+~ sub_23f89ea64 -> sub_24082ad98 : 252 -> 256
+~ sub_23f89f1a8 -> sub_24082b4e0 : 416 -> 424
+~ sub_23f8a0b70 -> sub_24082ceb0 : 344 -> 348
+~ sub_23f8a17cc -> sub_24082db10 : 460 -> 464
+~ sub_23f8a4c64 -> sub_240830fac : 608 -> 616
+~ sub_23f8a5094 -> sub_2408313e4 : 2096 -> 2092
+~ sub_23f8a6b60 -> sub_240832eac : 640 -> 648
+~ sub_23f8a7374 -> sub_2408336c8 : 864 -> 868
+~ sub_23f8aa998 -> sub_240836cf0 : 820 -> 832
+~ sub_23f8b0c9c -> sub_24083d000 : 92 -> 108
+~ sub_23f8b3448 -> sub_24083f7bc : 340 -> 344
+~ sub_23f8b3620 -> sub_24083f998 : 312 -> 316
+~ sub_23f8b38e4 -> sub_24083fc60 : 260 -> 272
+~ sub_23f8b4074 -> sub_2408403fc : 300 -> 304
+~ sub_23f8b46c4 -> sub_240840a50 : 92 -> 108
+~ sub_23f8b4724 -> sub_240840ac0 : 404 -> 412
+~ sub_23f8bad6c -> sub_240847110 : 92 -> 108
+~ sub_23f8bd05c -> sub_240849410 : 516 -> 520
+~ sub_23f8be7b0 -> sub_24084ab68 : 92 -> 108
+~ sub_23f8beba0 -> sub_24084af68 : 1040 -> 1044
+~ sub_23f8bf7ac -> sub_24084bb78 : 276 -> 268
+~ sub_23f8bfa5c -> sub_24084be20 : 1456 -> 1460
+~ sub_23f8c00ec -> sub_24084c4b4 : 1424 -> 1428
+~ sub_23f8cf94c -> sub_24085bd18 : 1636 -> 1648
+~ sub_23f8cffb0 -> sub_24085c388 : 1968 -> 1984
+~ sub_23f8d4928 -> sub_240860d10 : 92 -> 108
+~ sub_23f8d504c -> sub_240861444 : 448 -> 456
+~ sub_23f8db710 -> sub_240867b10 : 2312 -> 2308
+~ sub_23f8e9a48 -> sub_240875e44 : 420 -> 424
+~ sub_23f8f6128 -> sub_240882528 : 1020 -> 1016
+~ sub_23f8fe618 -> sub_24088aa14 : 624 -> 628
+~ sub_23f91e928 -> sub_2408aad28 : 5004 -> 5000
+~ sub_23f91fcb4 -> sub_2408ac0b0 : 21620 -> 21628
+~ sub_23f930b2c -> sub_2408bcf30 : 92 -> 108
+~ sub_23f937d2c -> sub_2408c4140 : 2368 -> 2364
+~ sub_23f947ab0 -> sub_2408d3ec0 : 448 -> 452
+~ sub_23f948ecc -> sub_2408d52e0 : 92 -> 108
+~ sub_23f94e5d4 -> sub_2408da9f8 : 6528 -> 6532
+~ sub_23f9599ac -> sub_2408e5dd4 : 1424 -> 1428
+~ sub_23f965df4 -> sub_2408f2220 : 644 -> 640
+~ sub_23f966078 -> sub_2408f24a0 : 688 -> 684
+~ sub_23f967d98 -> sub_2408f41bc : 756 -> 764
+~ sub_23f968638 -> sub_2408f4a64 : 340 -> 344
+~ sub_23f96cc50 -> sub_2408f9080 : 1056 -> 1060
+~ sub_23f975180 -> sub_2409015b4 : 92 -> 108
+~ sub_23f9781dc -> sub_240904620 : 92 -> 108
+~ sub_23f98a62c -> sub_240916a80 : 224 -> 236
+~ sub_23f98aa3c -> sub_240916e9c : 436 -> 448
+~ sub_23f98b800 -> sub_240917c6c : 400 -> 404
+~ sub_23fa957dc -> sub_240a21c4c : 260 -> 252
+~ sub_23fa9dd18 -> sub_240a2a180 : 288 -> 292
+~ sub_23fab0e7c -> sub_240a3d2e8 : 556 -> 564
+~ sub_23fab13a4 -> sub_240a3d818 : 400 -> 404
+~ sub_23fab1b08 -> sub_240a3df80 : 400 -> 404
+~ sub_23fab1f88 -> sub_240a3e404 : 556 -> 564
+~ sub_23fab24a4 -> sub_240a3e928 : 556 -> 564
+~ sub_23fab2dd8 -> sub_240a3f264 : 400 -> 404
+~ sub_23fab3258 -> sub_240a3f6e8 : 556 -> 564
+~ sub_23fab3780 -> sub_240a3fc18 : 400 -> 404
+~ sub_23fab3c00 -> sub_240a4009c : 556 -> 564
+~ sub_23fab5c08 -> sub_240a420ac : 3388 -> 3392
+~ sub_23faba6a8 -> sub_240a46b50 : 400 -> 404
+~ sub_23fabfce4 -> sub_240a4c190 : 7048 -> 7052
+~ sub_23fac7270 -> sub_240a53720 : 556 -> 564
+~ sub_23fac7960 -> sub_240a53e18 : 400 -> 404
+~ sub_23fac80d8 -> sub_240a54594 : 400 -> 404
+~ sub_23fac8564 -> sub_240a54a24 : 400 -> 404
+~ sub_23fac8ad4 -> sub_240a54f98 : 400 -> 404
+~ sub_23fac9044 -> sub_240a5550c : 400 -> 404
+~ sub_23fac95b4 -> sub_240a55a80 : 400 -> 404
+~ sub_23facd4a8 -> sub_240a59978 : 400 -> 404
+~ sub_23fad27c4 -> sub_240a5ec98 : 92 -> 108
+~ sub_23fad4704 -> sub_240a60be8 : 2332 -> 2316
+~ sub_23fad5020 -> sub_240a614f4 : 872 -> 868
+~ sub_23fad8084 -> sub_240a64554 : 712 -> 720
+~ sub_23fad8410 -> sub_240a648e8 : 92 -> 108
+~ sub_23fae0118 -> sub_240a6c600 : 92 -> 108
+~ sub_23fae0c10 -> sub_240a6d108 : 1848 -> 1852
+~ sub_23fae3914 -> sub_240a6fe10 : 484 -> 492
+~ sub_23faf5eb0 -> sub_240a823b4 : 400 -> 404
+~ sub_23faf8d54 -> sub_240a8525c : 92 -> 108
+~ sub_23fb09660 -> sub_240a95b78 : 92 -> 108
+~ sub_23fb09980 -> sub_240a95ea8 : 92 -> 108
+~ sub_23fb09dcc -> sub_240a96304 : 92 -> 108
+~ sub_23fb0b3b8 -> sub_240a97900 : 92 -> 108
+~ sub_23fb0cb3c -> sub_240a99094 : 400 -> 404
+~ sub_23fb0d190 -> sub_240a996ec : 400 -> 404
+~ sub_23fb0ecf4 -> sub_240a9b254 : 400 -> 404
+~ sub_23fb0f738 -> sub_240a9bc9c : 92 -> 108
+~ sub_23fb174e8 -> sub_240aa3a5c : 92 -> 108
+~ sub_23fb1ed54 -> sub_240aab2d8 : 92 -> 108
+~ sub_23fb1f41c -> sub_240aab9b0 : 92 -> 108
+~ sub_23fb1fae4 -> sub_240aac088 : 92 -> 108
+~ sub_23fb20248 -> sub_240aac7fc : 92 -> 108
+~ sub_23fb209ac -> sub_240aacf70 : 92 -> 108
+~ sub_23fb21110 -> sub_240aad6e4 : 92 -> 108
+~ sub_23fb2186c -> sub_240aade50 : 92 -> 108
+~ sub_23fb21fc8 -> sub_240aae5bc : 92 -> 108
+~ sub_23fb2272c -> sub_240aaed30 : 92 -> 108
+~ sub_23fb22e90 -> sub_240aaf4a4 : 92 -> 108
+~ sub_23fb235f4 -> sub_240aafc18 : 92 -> 108
+~ sub_23fb23d58 -> sub_240ab038c : 92 -> 108
+~ sub_23fb244bc -> sub_240ab0b00 : 92 -> 108
+~ sub_23fb259e4 -> sub_240ab2038 : 400 -> 404
+~ sub_23fc156cc -> sub_240ba1d24 : 92 -> 108
+~ sub_23fc15a14 -> sub_240ba207c : 92 -> 108
+~ sub_23fc164c4 -> sub_240ba2b3c : 6268 -> 6276
+~ sub_23fc312f8 -> sub_240bbd978 : 416 -> 424
+~ sub_23fc31498 -> sub_240bbdb20 : 416 -> 424
+~ sub_23fc31638 -> sub_240bbdcc8 : 400 -> 404
+~ sub_23fc31ac4 -> sub_240bbe158 : 400 -> 404
+~ sub_23fc3203c -> sub_240bbe6d4 : 404 -> 408
+~ sub_23fc3ddec -> sub_240bca488 : 92 -> 108
+~ sub_23fc3e630 -> sub_240bcacdc : 92 -> 108
+~ sub_23fc3edd8 -> sub_240bcb494 : 92 -> 108
+~ sub_23fc3f61c -> sub_240bcbce8 : 92 -> 108
+~ sub_23fc3fdc0 -> sub_240bcc49c : 92 -> 108
+~ sub_23fc40564 -> sub_240bccc50 : 92 -> 108
+~ sub_23fc40d64 -> sub_240bcd460 : 92 -> 108
+~ sub_23fc4150c -> sub_240bcdc18 : 92 -> 108
+~ sub_23fc41d50 -> sub_240bce46c : 92 -> 108
+~ sub_23fc424f4 -> sub_240bcec20 : 92 -> 108
+~ sub_23fc42c98 -> sub_240bcf3d4 : 92 -> 108
+~ sub_23fc43498 -> sub_240bcfbe4 : 92 -> 108
+~ sub_23fc43c40 -> sub_240bd039c : 92 -> 108
+~ sub_23fc44484 -> sub_240bd0bf0 : 92 -> 108
+~ sub_23fc467e8 -> sub_240bd2f64 : 92 -> 108
+~ sub_23fc4e708 -> sub_240bdae94 : 388 -> 392
+~ sub_23fc4e88c -> sub_240bdb01c : 756 -> 760
+~ sub_23fc4ec20 -> sub_240bdb3b4 : 252 -> 256
+~ sub_23fc5025c -> sub_240bdc9f4 : 852 -> 856
+~ sub_23fc505b0 -> sub_240bdcd4c : 912 -> 920
+~ sub_23fc50940 -> sub_240bdd0e4 : 912 -> 920
+~ sub_23fc55434 -> sub_240be1be0 : 1776 -> 1708
+~ sub_23fc59b70 -> sub_240be62d8 : 400 -> 404
+~ sub_23fc5e10c -> sub_240bea878 : 412 -> 420
+~ sub_23fc64110 -> sub_240bf0884 : 92 -> 108
+~ sub_23fc735cc -> sub_240bffd50 : 92 -> 108
+~ sub_23fc73b3c -> sub_240c002d0 : 92 -> 108
+~ sub_23fc7de8c -> sub_240c0a630 : 92 -> 108
+~ sub_23fc7e3f8 -> sub_240c0abac : 92 -> 108
+~ sub_23fc8b93c -> sub_240c18100 : 312 -> 316
+~ sub_23fccf8f8 -> sub_240c5c0c0 : 556 -> 564
+~ sub_23fcdb948 -> sub_240c68118 : 92 -> 108
+~ sub_23fce0bc8 -> sub_240c6d3a8 : 92 -> 108
+~ sub_23fce1224 -> sub_240c6da14 : 556 -> 564
+~ sub_23fce1740 -> sub_240c6df38 : 556 -> 564
+~ sub_23fd1f620 -> sub_240cabe20 : 92 -> 108
+~ sub_23fd1f9bc -> sub_240cac1cc : 92 -> 108
+~ sub_23fd1fd58 -> sub_240cac578 : 92 -> 108
+~ sub_23fd200f4 -> sub_240cac924 : 92 -> 108
+~ sub_23fd20490 -> sub_240caccd0 : 92 -> 108
+~ sub_23fd2082c -> sub_240cad07c : 92 -> 108
+~ sub_23fd20bc8 -> sub_240cad428 : 92 -> 108
+~ sub_23fd20f64 -> sub_240cad7d4 : 92 -> 108
+~ sub_23fd21300 -> sub_240cadb80 : 92 -> 108
+~ sub_23fd2169c -> sub_240cadf2c : 92 -> 108
+~ sub_23fd21a38 -> sub_240cae2d8 : 92 -> 108
+~ sub_23fd21dd4 -> sub_240cae684 : 92 -> 108
+~ sub_23fd22170 -> sub_240caea30 : 92 -> 108
+~ sub_23fd2250c -> sub_240caeddc : 92 -> 108
+~ sub_23fd228a8 -> sub_240caf188 : 92 -> 108
+~ sub_23fd22c44 -> sub_240caf534 : 92 -> 108
+~ sub_23fd22fe0 -> sub_240caf8e0 : 92 -> 108
+~ sub_23fd233c4 -> sub_240cafcd4 : 556 -> 564
+~ sub_23fd3d81c -> sub_240cca134 : 92 -> 108
+~ sub_23fd3dd78 -> sub_240cca6a0 : 92 -> 108
+~ sub_23fd3e1e0 -> sub_240ccab18 : 92 -> 108
+~ sub_23fd3e620 -> sub_240ccaf68 : 92 -> 108
+~ sub_23fd3eb7c -> sub_240ccb4d4 : 92 -> 108
+~ sub_23fd3f0d8 -> sub_240ccba40 : 92 -> 108
+~ sub_23fd3f65c -> sub_240ccbfd4 : 92 -> 108
+~ sub_23fd3fbb8 -> sub_240ccc540 : 92 -> 108
+~ sub_23fd40114 -> sub_240cccaac : 92 -> 108
+~ sub_23fd40670 -> sub_240ccd018 : 92 -> 108
+~ sub_23fd40bf4 -> sub_240ccd5ac : 92 -> 108
+~ sub_23fd41150 -> sub_240ccdb18 : 92 -> 108
+~ sub_23fd41590 -> sub_240ccdf68 : 92 -> 108
+~ sub_23fd41aec -> sub_240cce4d4 : 92 -> 108
+~ sub_23fd42070 -> sub_240ccea68 : 92 -> 108
+~ sub_23fd425cc -> sub_240ccefd4 : 92 -> 108
+~ sub_23fd42b28 -> sub_240ccf540 : 92 -> 108
+~ sub_23fd430ac -> sub_240ccfad4 : 92 -> 108
+~ sub_23fd43608 -> sub_240cd0040 : 92 -> 108
+~ sub_23fd43b64 -> sub_240cd05ac : 92 -> 108
+~ sub_23fd440e8 -> sub_240cd0b40 : 92 -> 108
+~ sub_23fd44644 -> sub_240cd10ac : 92 -> 108
+~ sub_23fdb2bd8 -> sub_240d3f650 : 556 -> 564
+~ sub_23fdb3284 -> sub_240d3fd04 : 6092 -> 6108
+~ sub_23fdbbaa8 -> sub_240d48538 : 13732 -> 13740
+~ sub_23fdc1ed8 -> sub_240d4e970 : 628 -> 636
+~ sub_23fdc4cc8 -> sub_240d51768 : 592 -> 596
+~ sub_23fdcc7f8 -> sub_240d5929c : 364 -> 368
+~ sub_23fdde950 -> sub_240d6b3f8 : 400 -> 408
+~ sub_23fde0e10 -> sub_240d6d8c0 : 1964 -> 1968
+~ sub_23fde7184 -> sub_240d73c38 : 400 -> 404
+~ sub_23fe174e8 -> sub_240da3fa0 : 92 -> 108
+~ sub_23fe17e78 -> sub_240da4940 : 108 -> 124
+~ sub_23fe192d8 -> sub_240da5db0 : 380 -> 384
+~ sub_23fe22b74 -> sub_240daf650 : 556 -> 564
+~ sub_23fe23cd4 -> sub_240db07b8 : 452 -> 456
+~ sub_23fe23fd8 -> sub_240db0ac0 : 108 -> 124
+~ sub_23fe24188 -> sub_240db0c80 : 108 -> 124
+
+```

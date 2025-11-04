@@ -1,0 +1,146 @@
+## AXMotionCuesServer
+
+> `/System/Library/AccessibilityBundles/AXMotionCuesServer.axuiservice/AXMotionCuesServer`
+
+```diff
+
+-3191.7.10.0.0
+-  __TEXT.__text: 0x303f0
++3191.7.13.0.0
++  __TEXT.__text: 0x303fc
+   __TEXT.__auth_stubs: 0x14b0
+   __TEXT.__objc_stubs: 0xe0
+   __TEXT.__objc_methlist: 0x5b0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CF162542-3B7C-3268-80ED-16D2376C5B2E
++  UUID: 2496AB25-6379-3889-A434-5895016F6234
+   Functions: 944
+   Symbols:   405
+   CStrings:  751
+Symbols:
++ __Z40ParticleInit_VMCParticles_particleInit_4PKvjDv3_fRDv4_f
++ __Z41ParticleInit_VMCParticles_particleInit_17PKvjDv3_fRDv4_f
++ __Z41ParticleInit_VMCParticles_particleInit_73PKvjDv3_fRDv4_f
++ __Z41ParticleInit_VMCParticles_particleInit_94PKvjDv3_fRDv4_f
++ __Z42ParticleInit_VMCParticles_particleInit_102PKvjDv3_fRDv4_f
++ __Z42ParticleInit_VMCParticles_particleInit_119PKvjDv3_fRDv4_f
++ __Z42ParticleInit_VMCParticles_particleInit_188PKvjDv3_fRDv4_f
++ __Z42ParticleInit_VMCParticles_particleInit_247PKvjDv3_fRDv4_f
++ __Z42ParticleInit_VMCParticles_particleInit_261PKvjDv3_fRDv4_f
++ __Z42ParticleInit_VMCParticles_particleInit_292PKvjDv3_fRDv4_f
++ __Z45ParticleUpdate_VMCParticles_particleUpdate_13PKvjfDv3_ffRfRS1_
++ __Z45ParticleUpdate_VMCParticles_particleUpdate_83PKvjfDv3_ffRfRS1_
++ __Z45ParticleUpdate_VMCParticles_particleUpdate_99PKvjfDv3_ffRfRS1_
++ __Z46ParticleUpdate_VMCParticles_particleUpdate_143PKvjfDv3_ffRfRS1_
++ __Z46ParticleUpdate_VMCParticles_particleUpdate_299PKvjfDv3_ffRfRS1_
++ __Z46ParticleUpdate_VMCParticles_particleUpdate_330PKvjfDv3_ffRfRS1_
++ __Z46ParticleUpdate_VMCParticles_particleUpdate_350PKvjfDv3_ffRfRS1_
++ __Z46ParticleUpdate_VMCParticles_particleUpdate_353PKvjfDv3_ffRfRS1_
++ __Z46ParticleUpdate_VMCParticles_particleUpdate_371PKvjfDv3_ffRfRS1_
++ __Z46ParticleUpdate_VMCParticles_particleUpdate_379PKvjfDv3_ffRfRS1_
++ ___vfx_script_VMCParticles_particleInit_102
++ ___vfx_script_VMCParticles_particleInit_119
++ ___vfx_script_VMCParticles_particleInit_17
++ ___vfx_script_VMCParticles_particleInit_188
++ ___vfx_script_VMCParticles_particleInit_247
++ ___vfx_script_VMCParticles_particleInit_261
++ ___vfx_script_VMCParticles_particleInit_292
++ ___vfx_script_VMCParticles_particleInit_4
++ ___vfx_script_VMCParticles_particleInit_73
++ ___vfx_script_VMCParticles_particleInit_94
++ ___vfx_script_VMCParticles_particleUpdate_13
++ ___vfx_script_VMCParticles_particleUpdate_143
++ ___vfx_script_VMCParticles_particleUpdate_299
++ ___vfx_script_VMCParticles_particleUpdate_330
++ ___vfx_script_VMCParticles_particleUpdate_350
++ ___vfx_script_VMCParticles_particleUpdate_353
++ ___vfx_script_VMCParticles_particleUpdate_371
++ ___vfx_script_VMCParticles_particleUpdate_379
++ ___vfx_script_VMCParticles_particleUpdate_83
++ ___vfx_script_VMCParticles_particleUpdate_99
+- __Z40ParticleInit_VMCParticles_particleInit_1PKvjDv3_fRDv4_f
+- __Z41ParticleInit_VMCParticles_particleInit_32PKvjDv3_fRDv4_f
+- __Z42ParticleInit_VMCParticles_particleInit_100PKvjDv3_fRDv4_f
+- __Z42ParticleInit_VMCParticles_particleInit_128PKvjDv3_fRDv4_f
+- __Z42ParticleInit_VMCParticles_particleInit_147PKvjDv3_fRDv4_f
+- __Z42ParticleInit_VMCParticles_particleInit_155PKvjDv3_fRDv4_f
+- __Z42ParticleInit_VMCParticles_particleInit_168PKvjDv3_fRDv4_f
+- __Z42ParticleInit_VMCParticles_particleInit_253PKvjDv3_fRDv4_f
+- __Z42ParticleInit_VMCParticles_particleInit_351PKvjDv3_fRDv4_f
+- __Z42ParticleInit_VMCParticles_particleInit_375PKvjDv3_fRDv4_f
+- __Z45ParticleUpdate_VMCParticles_particleUpdate_11PKvjfDv3_ffRfRS1_
+- __Z45ParticleUpdate_VMCParticles_particleUpdate_23PKvjfDv3_ffRfRS1_
+- __Z45ParticleUpdate_VMCParticles_particleUpdate_30PKvjfDv3_ffRfRS1_
+- __Z45ParticleUpdate_VMCParticles_particleUpdate_68PKvjfDv3_ffRfRS1_
+- __Z45ParticleUpdate_VMCParticles_particleUpdate_94PKvjfDv3_ffRfRS1_
+- __Z46ParticleUpdate_VMCParticles_particleUpdate_117PKvjfDv3_ffRfRS1_
+- __Z46ParticleUpdate_VMCParticles_particleUpdate_176PKvjfDv3_ffRfRS1_
+- __Z46ParticleUpdate_VMCParticles_particleUpdate_258PKvjfDv3_ffRfRS1_
+- __Z46ParticleUpdate_VMCParticles_particleUpdate_348PKvjfDv3_ffRfRS1_
+- __Z46ParticleUpdate_VMCParticles_particleUpdate_381PKvjfDv3_ffRfRS1_
+- ___vfx_script_VMCParticles_particleInit_1
+- ___vfx_script_VMCParticles_particleInit_100
+- ___vfx_script_VMCParticles_particleInit_128
+- ___vfx_script_VMCParticles_particleInit_147
+- ___vfx_script_VMCParticles_particleInit_155
+- ___vfx_script_VMCParticles_particleInit_168
+- ___vfx_script_VMCParticles_particleInit_253
+- ___vfx_script_VMCParticles_particleInit_32
+- ___vfx_script_VMCParticles_particleInit_351
+- ___vfx_script_VMCParticles_particleInit_375
+- ___vfx_script_VMCParticles_particleUpdate_11
+- ___vfx_script_VMCParticles_particleUpdate_117
+- ___vfx_script_VMCParticles_particleUpdate_176
+- ___vfx_script_VMCParticles_particleUpdate_23
+- ___vfx_script_VMCParticles_particleUpdate_258
+- ___vfx_script_VMCParticles_particleUpdate_30
+- ___vfx_script_VMCParticles_particleUpdate_348
+- ___vfx_script_VMCParticles_particleUpdate_381
+- ___vfx_script_VMCParticles_particleUpdate_68
+- ___vfx_script_VMCParticles_particleUpdate_94
+CStrings:
++ "__vfx_script_VMCParticles_particleInit_102"
++ "__vfx_script_VMCParticles_particleInit_119"
++ "__vfx_script_VMCParticles_particleInit_17"
++ "__vfx_script_VMCParticles_particleInit_188"
++ "__vfx_script_VMCParticles_particleInit_247"
++ "__vfx_script_VMCParticles_particleInit_261"
++ "__vfx_script_VMCParticles_particleInit_292"
++ "__vfx_script_VMCParticles_particleInit_4"
++ "__vfx_script_VMCParticles_particleInit_73"
++ "__vfx_script_VMCParticles_particleInit_94"
++ "__vfx_script_VMCParticles_particleUpdate_13"
++ "__vfx_script_VMCParticles_particleUpdate_143"
++ "__vfx_script_VMCParticles_particleUpdate_299"
++ "__vfx_script_VMCParticles_particleUpdate_330"
++ "__vfx_script_VMCParticles_particleUpdate_350"
++ "__vfx_script_VMCParticles_particleUpdate_353"
++ "__vfx_script_VMCParticles_particleUpdate_371"
++ "__vfx_script_VMCParticles_particleUpdate_379"
++ "__vfx_script_VMCParticles_particleUpdate_83"
++ "__vfx_script_VMCParticles_particleUpdate_99"
+- "__vfx_script_VMCParticles_particleInit_1"
+- "__vfx_script_VMCParticles_particleInit_100"
+- "__vfx_script_VMCParticles_particleInit_128"
+- "__vfx_script_VMCParticles_particleInit_147"
+- "__vfx_script_VMCParticles_particleInit_155"
+- "__vfx_script_VMCParticles_particleInit_168"
+- "__vfx_script_VMCParticles_particleInit_253"
+- "__vfx_script_VMCParticles_particleInit_32"
+- "__vfx_script_VMCParticles_particleInit_351"
+- "__vfx_script_VMCParticles_particleInit_375"
+- "__vfx_script_VMCParticles_particleUpdate_11"
+- "__vfx_script_VMCParticles_particleUpdate_117"
+- "__vfx_script_VMCParticles_particleUpdate_176"
+- "__vfx_script_VMCParticles_particleUpdate_23"
+- "__vfx_script_VMCParticles_particleUpdate_258"
+- "__vfx_script_VMCParticles_particleUpdate_30"
+- "__vfx_script_VMCParticles_particleUpdate_348"
+- "__vfx_script_VMCParticles_particleUpdate_381"
+- "__vfx_script_VMCParticles_particleUpdate_68"
+- "__vfx_script_VMCParticles_particleUpdate_94"
+
+```

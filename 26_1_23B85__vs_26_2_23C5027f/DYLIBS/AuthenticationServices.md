@@ -1,0 +1,1261 @@
+## AuthenticationServices
+
+> `/System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices`
+
+```diff
+
+-622.2.11.10.8
+-  __TEXT.__text: 0xeb9c4
+-  __TEXT.__auth_stubs: 0x2360
+-  __TEXT.__objc_methlist: 0x758c
+-  __TEXT.__const: 0xf1b4
+-  __TEXT.__gcc_except_tab: 0x13d4
+-  __TEXT.__cstring: 0xb236
+-  __TEXT.__oslogstring: 0x2f57
++623.1.12.10.4
++  __TEXT.__text: 0x127d90
++  __TEXT.__auth_stubs: 0x2720
++  __TEXT.__objc_methlist: 0x7ca4
++  __TEXT.__const: 0x11a04
++  __TEXT.__gcc_except_tab: 0x13bc
++  __TEXT.__cstring: 0xc7f6
++  __TEXT.__oslogstring: 0x3305
+   __TEXT.__dlopen_cstrs: 0x308
+-  __TEXT.__ustring: 0x6d4e
+-  __TEXT.__constg_swiftt: 0x147c
+-  __TEXT.__swift5_typeref: 0x1e0e
+-  __TEXT.__swift5_reflstr: 0x1323
+-  __TEXT.__swift5_fieldmd: 0x2170
+-  __TEXT.__swift5_builtin: 0x190
+-  __TEXT.__swift5_assocty: 0x5e8
+-  __TEXT.__swift5_proto: 0x69c
+-  __TEXT.__swift5_types: 0x214
+-  __TEXT.__swift5_capture: 0x5b0
+-  __TEXT.__swift_as_entry: 0xd8
+-  __TEXT.__swift_as_ret: 0xf8
+-  __TEXT.__swift5_mpenum: 0x90
+-  __TEXT.__swift5_protos: 0x14
+-  __TEXT.__unwind_info: 0x4140
+-  __TEXT.__eh_frame: 0x31b0
+-  __TEXT.__objc_classname: 0x1fd1
+-  __TEXT.__objc_methname: 0x162d0
+-  __TEXT.__objc_methtype: 0x40d3
+-  __TEXT.__objc_stubs: 0xd340
+-  __DATA_CONST.__got: 0xe30
+-  __DATA_CONST.__const: 0x1b00
+-  __DATA_CONST.__objc_classlist: 0x4d8
++  __TEXT.__ustring: 0x6c9c
++  __TEXT.__constg_swiftt: 0x1c5c
++  __TEXT.__swift5_typeref: 0x29c8
++  __TEXT.__swift5_reflstr: 0x195c
++  __TEXT.__swift5_fieldmd: 0x28b4
++  __TEXT.__swift5_builtin: 0x258
++  __TEXT.__swift5_assocty: 0x6d8
++  __TEXT.__swift5_proto: 0x82c
++  __TEXT.__swift5_types: 0x2c4
++  __TEXT.__swift5_protos: 0x2c
++  __TEXT.__swift5_capture: 0x85c
++  __TEXT.__swift_as_entry: 0x198
++  __TEXT.__swift_as_ret: 0x218
++  __TEXT.__swift5_mpenum: 0xb0
++  __TEXT.__unwind_info: 0x5018
++  __TEXT.__eh_frame: 0x52fc
++  __TEXT.__objc_classname: 0x20ae
++  __TEXT.__objc_methname: 0x1726f
++  __TEXT.__objc_methtype: 0x42c9
++  __TEXT.__objc_stubs: 0xd300
++  __DATA_CONST.__got: 0xf70
++  __DATA_CONST.__const: 0x19a8
++  __DATA_CONST.__objc_classlist: 0x570
+   __DATA_CONST.__objc_catlist: 0x58
+-  __DATA_CONST.__objc_protolist: 0x278
++  __DATA_CONST.__objc_protolist: 0x298
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4920
+-  __DATA_CONST.__objc_protorefs: 0xc8
+-  __DATA_CONST.__objc_superrefs: 0x348
++  __DATA_CONST.__objc_selrefs: 0x4b80
++  __DATA_CONST.__objc_protorefs: 0xd8
++  __DATA_CONST.__objc_superrefs: 0x360
+   __DATA_CONST.__objc_arraydata: 0x170
+-  __AUTH_CONST.__auth_got: 0x11c8
+-  __AUTH_CONST.__const: 0x6098
+-  __AUTH_CONST.__cfstring: 0x45a0
+-  __AUTH_CONST.__objc_const: 0xe618
++  __AUTH_CONST.__auth_got: 0x13a8
++  __AUTH_CONST.__const: 0x7a88
++  __AUTH_CONST.__cfstring: 0x4600
++  __AUTH_CONST.__objc_const: 0xf9d0
+   __AUTH_CONST.__objc_arrayobj: 0xa8
+   __AUTH_CONST.__objc_intobj: 0xc0
+-  __AUTH.__objc_data: 0x3180
+-  __AUTH.__data: 0xe60
+-  __DATA.__objc_ivar: 0x6dc
+-  __DATA.__data: 0x2af0
+-  __DATA.__bss: 0xc480
+-  __DATA.__common: 0x58
++  __AUTH.__objc_data: 0x3770
++  __AUTH.__data: 0x14a0
++  __DATA.__objc_ivar: 0x6fc
++  __DATA.__data: 0x31b0
++  __DATA.__bss: 0xf2b0
++  __DATA.__common: 0x88
+   __DATA_DIRTY.__objc_data: 0x2d0
+-  __DATA_DIRTY.__bss: 0x10
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CallKit.framework/CallKit
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 04A54D6A-703B-35D9-AE6A-AD66F754D52C
+-  Functions: 5931
+-  Symbols:   10575
+-  CStrings:  5373
++  UUID: 563AB5D7-8553-34E7-BB30-7683544F40C0
++  Functions: 7148
++  Symbols:   11148
++  CStrings:  5607
+ 
+Symbols:
++ +[ASAppPasswordSavingViewControllerFactory createViewController]
++ -[ASCredentialProviderExtensionContext completeGeneratePasswordRequestWithResults:completionHandler:]
++ -[ASCredentialProviderExtensionContext completeSavePasswordRequestWithCompletionHandler:]
++ -[ASCredentialProviderExtensionContext performGeneratePasswordsRequestWithoutUserInteraction:]
++ -[ASCredentialProviderExtensionContext performSavePasswordRequestWithoutUserInteractionIfPossible:]
++ -[ASCredentialProviderExtensionContext prepareInterfaceForGeneratePasswordsRequest:]
++ -[ASCredentialProviderExtensionContext prepareInterfaceForSavePasswordRequest:]
++ -[ASCredentialProviderViewController performGeneratePasswordsRequestWithoutUserInteraction:]
++ -[ASCredentialProviderViewController performSavePasswordRequestWithoutUserInteractionIfPossible:]
++ -[ASCredentialProviderViewController prepareInterfaceForGeneratePasswordsRequest:]
++ -[ASCredentialProviderViewController prepareInterfaceForSavePasswordRequest:]
++ -[ASCredentialServiceIdentifier displayName]
++ -[ASCredentialServiceIdentifier hash]
++ -[ASCredentialServiceIdentifier initWithIdentifier:type:].cold.1
++ -[ASCredentialServiceIdentifier initWithIdentifier:type:displayName:]
++ -[ASCredentialServiceIdentifier isEqual:]
++ -[ASCredentialSharingGroupsNotificationManager initWithSavedAccountStore:]
++ -[ASPasswordCredential hash]
++ -[ASPasswordCredential isEqual:]
++ -[_ASAgentCredentialExchangeListener _setSelectedImporterApplicationIdentifierForCurrentOperation:]
++ -[_ASAgentCredentialExchangeListener _setSelectedImporterApplicationIdentifierForCurrentOperation:].cold.1
++ -[_ASAgentCredentialExchangeOperation selectedImporterApplicationIdentifier]
++ -[_ASAgentCredentialExchangeOperation setSelectedImporterApplicationIdentifier:]
++ -[_ASCredentialProviderExtensionHostContext prepareToCompleteGeneratePasswordsRequestWithResults:completion:]
++ -[_ASCredentialProviderExtensionHostContext prepareToCompleteSavePasswordRequestWithCompletion:]
++ -[_ASExtensionViewController _beginNonUIRequestAllowingRequestingUI:connectionHandler:]
++ -[_ASExtensionViewController setUserInfo:]
++ -[_ASExtensionViewController userInfo]
++ -[_ASPasswordGeneratingViewController .cxx_destruct]
++ -[_ASPasswordGeneratingViewController _finishWithResults:error:completion:]
++ -[_ASPasswordGeneratingViewController _requestDidFailWithError:completion:]
++ -[_ASPasswordGeneratingViewController delegate]
++ -[_ASPasswordGeneratingViewController initWithExtension:request:isInteractive:]
++ -[_ASPasswordGeneratingViewController prepareToCompleteGeneratePasswordsRequestWithHost:results:completion:]
++ -[_ASPasswordGeneratingViewController setDelegate:]
++ -[_ASPasswordSavingAlertHeaderViewController .cxx_destruct]
++ -[_ASPasswordSavingAlertHeaderViewController initWithHeaderImage:]
++ -[_ASPasswordSavingAlertHeaderViewController viewDidLoad]
++ -[_ASPasswordSavingViewController .cxx_destruct]
++ -[_ASPasswordSavingViewController _finishWithError:completion:]
++ -[_ASPasswordSavingViewController _nonUIRequestDidRequireUserInteraction]
++ -[_ASPasswordSavingViewController _requestDidFailWithError:completion:]
++ -[_ASPasswordSavingViewController delegate]
++ -[_ASPasswordSavingViewController initWithExtension:request:]
++ -[_ASPasswordSavingViewController prepareToCompleteSavePasswordRequestWithHost:completion:]
++ -[_ASPasswordSavingViewController request]
++ -[_ASPasswordSavingViewController setDelegate:]
++ -[_ASWebsiteNameProvider _processMetadataEntryFetchedFromKeychain:forDomain:allowRefreshingDataFromNetwork:allowCachingResult:]
++ -[_ASWebsiteNameProvider _processMetadataEntryFetchedFromKeychain:forDomain:allowRefreshingDataFromNetwork:allowCachingResult:].cold.1
++ -[_ASWebsiteNameProvider knownWebsiteNameForDomain:allowCachingResult:]
++ -[_ASWebsiteNameProvider knownWebsiteNameForDomain:allowCachingResult:].cold.1
++ GCC_except_table51
++ GCC_except_table54
++ GCC_except_table56
++ GCC_except_table57
++ GCC_except_table61
++ GCC_except_table66
++ GCC_except_table71
++ GCC_except_table73
++ GCC_except_table75
++ GCC_except_table84
++ _ASGeneratedPasswordKindAlphanumeric
++ _ASGeneratedPasswordKindPassphrase
++ _ASGeneratedPasswordKindStrong
++ _OBJC_CLASS_$_ASAppPasswordSavingViewControllerFactory
++ _OBJC_CLASS_$_ASCSecurityKeyPublicKeyCredentialLoginChoice
++ _OBJC_CLASS_$_ASGeneratePasswordsRequest
++ _OBJC_CLASS_$_ASGeneratePasswordsResult
++ _OBJC_CLASS_$_ASGeneratedPassword
++ _OBJC_CLASS_$_ASPasswordSavingManager
++ _OBJC_CLASS_$_ASPasswordSavingManagerRequest
++ _OBJC_CLASS_$_ASPasswordSavingModalState
++ _OBJC_CLASS_$_ASPasswordSavingProvidersState
++ _OBJC_CLASS_$_ASSavePasswordRequest
++ _OBJC_CLASS_$_FAFamilyMember
++ _OBJC_CLASS_$_SFSafariCredential
++ _OBJC_CLASS_$_SFSharedWebCredentialsDatabaseEntry
++ _OBJC_CLASS_$_UIPasteboard
++ _OBJC_CLASS_$_WBSAuthenticationServicesAgentProxy
++ _OBJC_CLASS_$_WBSPasswordWarningManager
++ _OBJC_CLASS_$__ASPasswordGeneratingViewController
++ _OBJC_CLASS_$__ASPasswordSavingAlertHeaderViewController
++ _OBJC_CLASS_$__ASPasswordSavingViewController
++ _OBJC_IVAR_$_ASCredentialServiceIdentifier._displayName
++ _OBJC_IVAR_$_ASCredentialSharingGroupsNotificationManager._savedAccountStore
++ _OBJC_IVAR_$__ASAgentCredentialExchangeOperation._selectedImporterApplicationIdentifier
++ _OBJC_IVAR_$__ASExtensionViewController._userInfo
++ _OBJC_IVAR_$__ASPasswordGeneratingViewController._delegate
++ _OBJC_IVAR_$__ASPasswordGeneratingViewController._request
++ _OBJC_IVAR_$__ASPasswordSavingAlertHeaderViewController._headerImage
++ _OBJC_IVAR_$__ASPasswordSavingViewController._delegate
++ _OBJC_IVAR_$__ASPasswordSavingViewController._request
++ _OBJC_METACLASS_$_ASAppPasswordSavingViewControllerFactory
++ _OBJC_METACLASS_$_ASGeneratePasswordsRequest
++ _OBJC_METACLASS_$_ASGeneratePasswordsResult
++ _OBJC_METACLASS_$_ASGeneratedPassword
++ _OBJC_METACLASS_$_ASPasswordSavingManager
++ _OBJC_METACLASS_$_ASPasswordSavingManagerRequest
++ _OBJC_METACLASS_$_ASPasswordSavingModalState
++ _OBJC_METACLASS_$_ASPasswordSavingProvidersState
++ _OBJC_METACLASS_$_ASSavePasswordRequest
++ _OBJC_METACLASS_$__ASPasswordGeneratingViewController
++ _OBJC_METACLASS_$__ASPasswordSavingAlertHeaderViewController
++ _OBJC_METACLASS_$__ASPasswordSavingViewController
++ _OBJC_METACLASS_$__TtC22AuthenticationServicesP33_8859F5B23BC6C342D9A0DFE2E84637E530ASCredentialDataManagerInterop
++ _WBSOSLogAccountAuthenticationModificationExtension
++ _WBSOSLogAuthenticationServicesAgent
++ _WBSOSLogAuthenticationSession
++ _WBSOSLogAuthorization
++ _WBSOSLogCredentialExchange
++ _WBSOSLogCredentialProviderExtension
++ _WBSOSLogPasswordManager
++ _WBSOSLogPasswordsIcons
++ _WBSOSLogWebsiteNameProvider
++ __CLASS_METHODS_ASGeneratePasswordsRequest
++ __CLASS_METHODS_ASGeneratePasswordsResult
++ __CLASS_METHODS_ASGeneratedPassword
++ __CLASS_METHODS_ASPasswordSavingManagerRequest
++ __CLASS_METHODS_ASSavePasswordRequest
++ __CLASS_PROPERTIES_ASGeneratePasswordsRequest
++ __CLASS_PROPERTIES_ASGeneratePasswordsResult
++ __CLASS_PROPERTIES_ASGeneratedPassword
++ __CLASS_PROPERTIES_ASPasswordSavingManagerRequest
++ __CLASS_PROPERTIES_ASSavePasswordRequest
++ __DATA_ASGeneratePasswordsRequest
++ __DATA_ASGeneratePasswordsResult
++ __DATA_ASGeneratedPassword
++ __DATA_ASPasswordSavingManager
++ __DATA_ASPasswordSavingManagerRequest
++ __DATA_ASPasswordSavingModalState
++ __DATA_ASPasswordSavingProvidersState
++ __DATA_ASSavePasswordRequest
++ __DATA__TtC22AuthenticationServices23ASCredentialDataManager
++ __DATA__TtC22AuthenticationServices49ASAccountUpgradeInformationProviderImplementation
++ __DATA__TtC22AuthenticationServicesP33_8859F5B23BC6C342D9A0DFE2E84637E530ASCredentialDataManagerInterop
++ __DATA__TtCC22AuthenticationServices23ASCredentialDataManagerP33_8859F5B23BC6C342D9A0DFE2E84637E59SaveState
++ __DATA__TtCE22AuthenticationServicesCSo26ASPasswordSavingModalStateP33_55D8785A7BC1CA97B1AA86B1C940EAFE8StateBox
++ __DATA__TtCE22AuthenticationServicesCSo30ASPasswordSavingManagerRequestP33_E3D5BD4ACC0E8EB64927CCB51651017B10RequestBox
++ __DATA__TtCE22AuthenticationServicesCSo30ASPasswordSavingProvidersStateP33_9474E4B5850B28DAF77C906E65A66F678StateBox
++ __INSTANCE_METHODS_ASGeneratePasswordsRequest
++ __INSTANCE_METHODS_ASGeneratePasswordsResult
++ __INSTANCE_METHODS_ASGeneratedPassword
++ __INSTANCE_METHODS_ASPasswordSavingManager
++ __INSTANCE_METHODS_ASPasswordSavingManagerRequest
++ __INSTANCE_METHODS_ASPasswordSavingModalState
++ __INSTANCE_METHODS_ASPasswordSavingProvidersState
++ __INSTANCE_METHODS_ASSavePasswordRequest
++ __IVARS_ASGeneratePasswordsRequest
++ __IVARS_ASGeneratePasswordsResult
++ __IVARS_ASGeneratedPassword
++ __IVARS_ASPasswordSavingManager
++ __IVARS_ASPasswordSavingManagerRequest
++ __IVARS_ASPasswordSavingModalState
++ __IVARS_ASPasswordSavingProvidersState
++ __IVARS_ASSavePasswordRequest
++ __IVARS__TtC22AuthenticationServices23ASCredentialDataManager
++ __IVARS__TtC22AuthenticationServices49ASAccountUpgradeInformationProviderImplementation
++ __IVARS__TtC22AuthenticationServicesP33_8859F5B23BC6C342D9A0DFE2E84637E530ASCredentialDataManagerInterop
++ __IVARS__TtCC22AuthenticationServices23ASCredentialDataManagerP33_8859F5B23BC6C342D9A0DFE2E84637E59SaveState
++ __IVARS__TtCE22AuthenticationServicesCSo26ASPasswordSavingModalStateP33_55D8785A7BC1CA97B1AA86B1C940EAFE8StateBox
++ __IVARS__TtCE22AuthenticationServicesCSo30ASPasswordSavingManagerRequestP33_E3D5BD4ACC0E8EB64927CCB51651017B10RequestBox
++ __IVARS__TtCE22AuthenticationServicesCSo30ASPasswordSavingProvidersStateP33_9474E4B5850B28DAF77C906E65A66F678StateBox
++ __METACLASS_DATA_ASGeneratePasswordsRequest
++ __METACLASS_DATA_ASGeneratePasswordsResult
++ __METACLASS_DATA_ASGeneratedPassword
++ __METACLASS_DATA_ASPasswordSavingManager
++ __METACLASS_DATA_ASPasswordSavingManagerRequest
++ __METACLASS_DATA_ASPasswordSavingModalState
++ __METACLASS_DATA_ASPasswordSavingProvidersState
++ __METACLASS_DATA_ASSavePasswordRequest
++ __METACLASS_DATA__TtC22AuthenticationServices23ASCredentialDataManager
++ __METACLASS_DATA__TtC22AuthenticationServices49ASAccountUpgradeInformationProviderImplementation
++ __METACLASS_DATA__TtC22AuthenticationServicesP33_8859F5B23BC6C342D9A0DFE2E84637E530ASCredentialDataManagerInterop
++ __METACLASS_DATA__TtCC22AuthenticationServices23ASCredentialDataManagerP33_8859F5B23BC6C342D9A0DFE2E84637E59SaveState
++ __METACLASS_DATA__TtCE22AuthenticationServicesCSo26ASPasswordSavingModalStateP33_55D8785A7BC1CA97B1AA86B1C940EAFE8StateBox
++ __METACLASS_DATA__TtCE22AuthenticationServicesCSo30ASPasswordSavingManagerRequestP33_E3D5BD4ACC0E8EB64927CCB51651017B10RequestBox
++ __METACLASS_DATA__TtCE22AuthenticationServicesCSo30ASPasswordSavingProvidersStateP33_9474E4B5850B28DAF77C906E65A66F678StateBox
++ __OBJC_$_CLASS_METHODS_ASAppPasswordSavingViewControllerFactory
++ __OBJC_$_CLASS_METHODS__ASAccountManagerTipManager(SwiftImplementation)
++ __OBJC_$_CLASS_PROP_LIST__ASAccountAuthenticationModificationExtensionManager
++ __OBJC_$_INSTANCE_METHODS__ASPasswordGeneratingViewController
++ __OBJC_$_INSTANCE_METHODS__ASPasswordSavingAlertHeaderViewController
++ __OBJC_$_INSTANCE_METHODS__ASPasswordSavingViewController
++ __OBJC_$_INSTANCE_METHODS__TtC22AuthenticationServicesP33_8859F5B23BC6C342D9A0DFE2E84637E530ASCredentialDataManagerInterop(AuthenticationServices)
++ __OBJC_$_INSTANCE_VARIABLES__ASPasswordGeneratingViewController
++ __OBJC_$_INSTANCE_VARIABLES__ASPasswordSavingAlertHeaderViewController
++ __OBJC_$_INSTANCE_VARIABLES__ASPasswordSavingViewController
++ __OBJC_$_PROP_LIST_SFSafariPasswordCredential
++ __OBJC_$_PROP_LIST__ASPasswordGeneratingViewController
++ __OBJC_$_PROP_LIST__ASPasswordSavingViewController
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_ASAppPasswordSavingViewControllerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SFSafariPasswordCredential
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ASAppPasswordSavingViewControllerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SFSafariPasswordCredential
++ __OBJC_$_PROTOCOL_REFS_ASAppPasswordSavingViewControllerDelegate
++ __OBJC_$_PROTOCOL_REFS_SFSafariPasswordCredential
++ __OBJC_CLASS_PROTOCOLS_$__ASPasswordGeneratingViewController
++ __OBJC_CLASS_PROTOCOLS_$__ASPasswordSavingViewController
++ __OBJC_CLASS_PROTOCOLS_$__TtC22AuthenticationServicesP33_8859F5B23BC6C342D9A0DFE2E84637E530ASCredentialDataManagerInterop(AuthenticationServices)
++ __OBJC_CLASS_RO_$_ASAppPasswordSavingViewControllerFactory
++ __OBJC_CLASS_RO_$__ASPasswordGeneratingViewController
++ __OBJC_CLASS_RO_$__ASPasswordSavingAlertHeaderViewController
++ __OBJC_CLASS_RO_$__ASPasswordSavingViewController
++ __OBJC_LABEL_PROTOCOL_$_ASAppPasswordSavingViewControllerDelegate
++ __OBJC_LABEL_PROTOCOL_$_SFSafariPasswordCredential
++ __OBJC_METACLASS_RO_$_ASAppPasswordSavingViewControllerFactory
++ __OBJC_METACLASS_RO_$__ASPasswordGeneratingViewController
++ __OBJC_METACLASS_RO_$__ASPasswordSavingAlertHeaderViewController
++ __OBJC_METACLASS_RO_$__ASPasswordSavingViewController
++ __OBJC_PROTOCOL_$_ASAppPasswordSavingViewControllerDelegate
++ __OBJC_PROTOCOL_$_SFSafariPasswordCredential
++ __PROPERTIES_ASGeneratePasswordsRequest
++ __PROPERTIES_ASGeneratePasswordsResult
++ __PROPERTIES_ASGeneratedPassword
++ __PROPERTIES_ASPasswordSavingManagerRequest
++ __PROPERTIES_ASPasswordSavingModalState
++ __PROPERTIES_ASPasswordSavingProvidersState
++ __PROPERTIES_ASSavePasswordRequest
++ __PROTOCOLS_ASGeneratePasswordsRequest
++ __PROTOCOLS_ASGeneratePasswordsRequest.2
++ __PROTOCOLS_ASGeneratePasswordsResult
++ __PROTOCOLS_ASGeneratePasswordsResult.2
++ __PROTOCOLS_ASGeneratedPassword
++ __PROTOCOLS_ASGeneratedPassword.2
++ __PROTOCOLS_ASPasswordSavingManagerRequest
++ __PROTOCOLS_ASPasswordSavingManagerRequest.14
++ __PROTOCOLS_ASSavePasswordRequest
++ __PROTOCOLS_ASSavePasswordRequest.2
++ __PROTOCOLS__TtC22AuthenticationServices29_ASCredentialUpdateController.6
++ ___101-[ASCredentialProviderExtensionContext completeGeneratePasswordRequestWithResults:completionHandler:]_block_invoke
++ ___101-[ASCredentialProviderExtensionContext completeGeneratePasswordRequestWithResults:completionHandler:]_block_invoke_2
++ ___108-[_ASPasswordGeneratingViewController prepareToCompleteGeneratePasswordsRequestWithHost:results:completion:]_block_invoke
++ ___61-[_ASPasswordSavingViewController initWithExtension:request:]_block_invoke
++ ___63-[_ASPasswordSavingViewController _finishWithError:completion:]_block_invoke
++ ___68-[_ASPasswordManagerIconController prepareForApplicationTermination]_block_invoke.32
++ ___71-[_ASWebsiteNameProvider knownWebsiteNameForDomain:allowCachingResult:]_block_invoke
++ ___71-[_ASWebsiteNameProvider knownWebsiteNameForDomain:allowCachingResult:]_block_invoke_2
++ ___71-[_ASWebsiteNameProvider knownWebsiteNameForDomain:allowCachingResult:]_block_invoke_3
++ ___71-[_ASWebsiteNameProvider knownWebsiteNameForDomain:allowCachingResult:]_block_invoke_4
++ ___71-[_ASWebsiteNameProvider knownWebsiteNameForDomain:allowCachingResult:]_block_invoke_5
++ ___73-[_ASAgentPeriodicMaintenanceActivity _runActivityWithCompletionHandler:]_block_invoke_2.12
++ ___73-[_ASAgentPeriodicMaintenanceActivity _runActivityWithCompletionHandler:]_block_invoke_3
++ ___73-[_ASPasswordSavingViewController _nonUIRequestDidRequireUserInteraction]_block_invoke
++ ___75-[_ASPasswordGeneratingViewController _finishWithResults:error:completion:]_block_invoke
++ ___79-[ASCredentialProviderExtensionContext prepareInterfaceForSavePasswordRequest:]_block_invoke
++ ___79-[_ASPasswordGeneratingViewController initWithExtension:request:isInteractive:]_block_invoke
++ ___79-[_ASPasswordGeneratingViewController initWithExtension:request:isInteractive:]_block_invoke_2
++ ___84-[ASCredentialProviderExtensionContext prepareInterfaceForGeneratePasswordsRequest:]_block_invoke
++ ___87-[_ASExtensionViewController _beginNonUIRequestAllowingRequestingUI:connectionHandler:]_block_invoke
++ ___87-[_ASExtensionViewController _beginNonUIRequestAllowingRequestingUI:connectionHandler:]_block_invoke_2
++ ___87-[_ASExtensionViewController _beginNonUIRequestAllowingRequestingUI:connectionHandler:]_block_invoke_3
++ ___87-[_ASExtensionViewController _beginNonUIRequestAllowingRequestingUI:connectionHandler:]_block_invoke_3.cold.1
++ ___89-[ASCredentialProviderExtensionContext completeSavePasswordRequestWithCompletionHandler:]_block_invoke
++ ___89-[ASCredentialProviderExtensionContext completeSavePasswordRequestWithCompletionHandler:]_block_invoke_2
++ ___91-[_ASPasswordSavingViewController prepareToCompleteSavePasswordRequestWithHost:completion:]_block_invoke
++ ___94-[ASCredentialProviderExtensionContext performGeneratePasswordsRequestWithoutUserInteraction:]_block_invoke
++ ___97-[_ASPasswordManagerIconController _requestTouchIconForDomain:options:requestID:responseHandler:]_block_invoke_2.cold.2
++ ___99-[ASCredentialProviderExtensionContext performSavePasswordRequestWithoutUserInteractionIfPossible:]_block_invoke
++ ___NSDictionary0__struct
++ ___block_descriptor_49_ea8_32s40s_e58_v16?0"<WBSPasswordManagerWebsiteMetadataEntryProtocol>"8ls32l8s40l8
++ ___block_descriptor_56_e8_32s40bs48r_e5_v8?0ls32l8s40l8r48l8
++ ___block_descriptor_56_e8_32s40s48bs_e17_v16?0"NSError"8ls48l8s32l8s40l8
++ ___block_descriptor_64_e8_32s40s48bs56r_e5_v8?0ls32l8s40l8s48l8r56l8
++ ___block_literal_global.127
++ ___block_literal_global.137
++ ___block_literal_global.20
++ ___block_literal_global.302
++ ___block_literal_global.67
++ ___get_SFAppPasswordSavingViewControllerClass_block_invoke
++ ___get_SFAppPasswordSavingViewControllerClass_block_invoke.cold.1
++ ___get_SFAppPasswordSavingViewControllerClass_block_invoke.cold.2
++ ___swift_memcpy10_8
++ ___swift_memcpy128_8
++ ___swift_memcpy18_8
++ ___swift_memcpy19_8
++ ___swift_memcpy33_8
++ ___swift_memcpy4_4
++ ___swift_memcpy50_8
++ _associated conformance 22AuthenticationServices15ASAutoFillScopeO10CodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLOSHAASQ
++ _associated conformance 22AuthenticationServices15ASAutoFillScopeO10CodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices15ASAutoFillScopeO10CodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices15ASAutoFillScopeO17WebsiteCodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLOSHAASQ
++ _associated conformance 22AuthenticationServices15ASAutoFillScopeO17WebsiteCodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices15ASAutoFillScopeO17WebsiteCodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices15ASAutoFillScopeO19AutomaticCodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices15ASAutoFillScopeO19AutomaticCodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices15ASAutoFillScopeOSHAASQ
++ _associated conformance 22AuthenticationServices18ASAutoFillURLScopeV10CodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLOSHAASQ
++ _associated conformance 22AuthenticationServices18ASAutoFillURLScopeV10CodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices18ASAutoFillURLScopeV10CodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices18ASAutoFillURLScopeV6SchemeOSHAASQ
++ _associated conformance 22AuthenticationServices18ASAutoFillURLScopeVSHAASQ
++ _associated conformance 22AuthenticationServices23ASCredentialDataManagerC9SaveState33_8859F5B23BC6C342D9A0DFE2E84637E5LLCs12IdentifiableAA2IDsAGP_SH
++ _associated conformance 22AuthenticationServices25ASCredentialUpdateOptionsV10CodingKeys33_0066A0A7E91AB024D15EC7A849C726DBLLOSHAASQ
++ _associated conformance 22AuthenticationServices25ASCredentialUpdateOptionsV10CodingKeys33_0066A0A7E91AB024D15EC7A849C726DBLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices25ASCredentialUpdateOptionsV10CodingKeys33_0066A0A7E91AB024D15EC7A849C726DBLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices26ASPasswordSavingModalStateO18CredentialWarningsVSHAASQ
++ _associated conformance 22AuthenticationServices27ASAccountUpgradeInformationVSHAASQ
++ _associated conformance SC20ASExtensionErrorCodeLeV10Foundation021_ObjectiveCBridgeableB0SCs0B0
++ _associated conformance SC20ASExtensionErrorCodeLeV10Foundation13CustomNSErrorSCs0B0
++ _associated conformance SC20ASExtensionErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0C0AcDP_8RawValueSYs17FixedWidthInteger
++ _associated conformance SC20ASExtensionErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0C0AcDP_AC01_bC8Protocol
++ _associated conformance SC20ASExtensionErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0C0AcDP_SY
++ _associated conformance SC20ASExtensionErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCAC021_ObjectiveCBridgeableB0
++ _associated conformance SC20ASExtensionErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCAC06CustomG0
++ _associated conformance SC20ASExtensionErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCSH
++ _associated conformance SC20ASExtensionErrorCodeLeVSHSCSQ
++ _associated conformance So20ASExtensionErrorCodeV10Foundation01_bC8ProtocolSC01_B4TypeAcDP_AC21_BridgedStoredNSError
++ _associated conformance So20ASExtensionErrorCodeV10Foundation01_bC8ProtocolSCSQ
++ _associated conformance So21ASSavePasswordRequestC22AuthenticationServicesE10Properties33_4D6C6F74BA006CC6DBAFAE01468DD756LLVSHACSQ
++ _associated conformance So23ASGeneratedPasswordKindaSHSCSQ
++ _associated conformance So23ASGeneratedPasswordKindas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So23ASGeneratedPasswordKindas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLOSHACSQ
++ _associated conformance So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLOs0G3KeyACs23CustomStringConvertible
++ _associated conformance So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLOs0G3KeyACs28CustomDebugStringConvertible
++ _associated conformance So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7ContextV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLOSHACSQ
++ _associated conformance So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7ContextV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLOs0H3KeyACs23CustomStringConvertible
++ _associated conformance So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7ContextV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLOs0H3KeyACs28CustomDebugStringConvertible
++ _associated conformance So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7ContextVSHACSQ
++ _associated conformance So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7OptionsV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLOSHACSQ
++ _associated conformance So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7OptionsV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLOs0H3KeyACs23CustomStringConvertible
++ _associated conformance So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7OptionsV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLOs0H3KeyACs28CustomDebugStringConvertible
++ _associated conformance So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7OptionsVSHACSQ
++ _associated conformance So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestVSHACSQ
++ _associated conformance So26ASSavePasswordRequestEventVSHSCSQ
++ _block_copy_helper.11
++ _block_copy_helper.22
++ _block_copy_helper.25
++ _block_copy_helper.32
++ _block_copy_helper.37
++ _block_copy_helper.4
++ _block_copy_helper.40
++ _block_copy_helper.41
++ _block_copy_helper.43
++ _block_copy_helper.47
++ _block_copy_helper.5
++ _block_copy_helper.54
++ _block_copy_helper.57
++ _block_copy_helper.75
++ _block_copy_helper.8
++ _block_copy_helper.85
++ _block_copy_helper.88
++ _block_copy_helper.91
++ _block_descriptor.10
++ _block_descriptor.13
++ _block_descriptor.24
++ _block_descriptor.27
++ _block_descriptor.34
++ _block_descriptor.39
++ _block_descriptor.42
++ _block_descriptor.43
++ _block_descriptor.45
++ _block_descriptor.49
++ _block_descriptor.56
++ _block_descriptor.59
++ _block_descriptor.6
++ _block_descriptor.7
++ _block_descriptor.77
++ _block_descriptor.87
++ _block_descriptor.90
++ _block_descriptor.93
++ _block_destroy_helper.12
++ _block_destroy_helper.23
++ _block_destroy_helper.26
++ _block_destroy_helper.33
++ _block_destroy_helper.38
++ _block_destroy_helper.41
++ _block_destroy_helper.42
++ _block_destroy_helper.44
++ _block_destroy_helper.48
++ _block_destroy_helper.5
++ _block_destroy_helper.55
++ _block_destroy_helper.58
++ _block_destroy_helper.6
++ _block_destroy_helper.76
++ _block_destroy_helper.86
++ _block_destroy_helper.89
++ _block_destroy_helper.9
++ _block_destroy_helper.92
++ _flat unique So26SFSafariPasswordCredential_p
++ _get_SFAppPasswordSavingViewControllerClass.softClass
++ _get_enum_tag_for_layout_string 22AuthenticationServices15ASAutoFillScopeO
++ _get_enum_tag_for_layout_string 22AuthenticationServices20ASDisplayableServiceO
++ _get_enum_tag_for_layout_string 22AuthenticationServices24ASAuthorizationUIContextV5TitleO
++ _get_enum_tag_for_layout_string 22AuthenticationServices26ASPasswordSavingModalStateO
++ _get_enum_tag_for_layout_string 22AuthenticationServices26ASPasswordSavingModalStateO09PasswordsF0V04SaveF0O
++ _get_enum_tag_for_layout_string 22AuthenticationServices26ASPasswordSavingModalStateO09PasswordsF0V04SaveF0O10IdentifierO
++ _get_enum_tag_for_layout_string 22AuthenticationServices26ASPasswordSavingModalStateO18CredentialWarningsVSg
++ _objc_msgSend$_beginNonUIRequestAllowingRequestingUI:connectionHandler:
++ _objc_msgSend$_finishWithError:completion:
++ _objc_msgSend$_finishWithResults:error:completion:
++ _objc_msgSend$_processMetadataEntryFetchedFromKeychain:forDomain:allowRefreshingDataFromNetwork:allowCachingResult:
++ _objc_msgSend$fetchSharingGroupsThatIncludeFamilyMembersWithCompletionHandler:
++ _objc_msgSend$initAndPrewarmSavedAccounts:forTesting:
++ _objc_msgSend$initWithIdentifier:type:displayName:
++ _objc_msgSend$initWithPasswordRequirementsByDomain:passwordRulesByDomain:
++ _objc_msgSend$initWithPasswords:
++ _objc_msgSend$initWithSavedAccountStore:
++ _objc_msgSend$initWithServiceIdentifier:serviceIdentifierType:serviceDisplayName:externalRecordIdentifier:user:rank:
++ _objc_msgSend$initWithUser:password:serviceIdentifierType:serviceIdentifier:site:creationDate:externalProviderBundleIdentifier:externalProviderExtensionBundleIdentifier:
++ _objc_msgSend$isSharedStoreInitialized
++ _objc_msgSend$knownWebsiteNameForDomain:allowCachingResult:
++ _objc_msgSend$mergeDuplicateSavedAccountsWithPasswordsWithCompletionHandler:
++ _objc_msgSend$passwordGeneratingViewController:didFinishWithResults:error:completion:
++ _objc_msgSend$passwordSavingViewController:didFinishWithError:completion:
++ _objc_msgSend$passwords
++ _objc_msgSend$performGeneratePasswordsRequestWithoutUserInteraction:
++ _objc_msgSend$performSavePasswordRequestWithoutUserInteractionIfPossible:
++ _objc_msgSend$prepareInterfaceForGeneratePasswordsRequest:
++ _objc_msgSend$prepareInterfaceForSavePasswordRequest:
++ _objc_msgSend$prepareToCompleteGeneratePasswordsRequestWithHost:results:completion:
++ _objc_msgSend$prepareToCompleteGeneratePasswordsRequestWithResults:completion:
++ _objc_msgSend$prepareToCompleteSavePasswordRequestWithCompletion:
++ _objc_msgSend$prepareToCompleteSavePasswordRequestWithHost:completion:
++ _objc_msgSend$presentUIForPasswordSavingViewController:
++ _objc_msgSend$selectedImporterApplicationIdentifier
++ _objc_msgSend$setSelectedImporterApplicationIdentifier:
++ _objc_msgSend$setShouldIgnoreKeychainUpdatesDuringMaintenanceActivity:
++ _objectdestroy.25Tm
++ _objectdestroy.26Tm
++ _objectdestroy.71Tm
++ _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
++ _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_singlePayloadEnumGeneric_getEnumTag
++ _swift_deletedAsyncMethodErrorTu
++ _swift_getAtKeyPath
++ _swift_weakAssign
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _symbolic $s22AuthenticationServices039ASAutoFillCredentialProviderInformationF0P
++ _symbolic $s22AuthenticationServices27ASApplicationRecordResolverP
++ _symbolic $s22AuthenticationServices29ASCredentialProvidersProviderP
++ _symbolic $s22AuthenticationServices34ASPasswordSavingModalStateProtocolP
++ _symbolic $s22AuthenticationServices35ASAccountUpgradeInformationProviderP
++ _symbolic $s22AuthenticationServices35ASPasswordCredentialActionsProviderP
++ _symbolic $ss12IdentifiableP
++ _symbolic Ieg_
++ _symbolic SDySO_____G 22AuthenticationServices23ASCredentialDataManagerC9SaveState33_8859F5B23BC6C342D9A0DFE2E84637E5LLC
++ _symbolic SDySS_____G 22AuthenticationServices26ASPasswordSavingModalStateO
++ _symbolic SO
++ _symbolic SS______t 22AuthenticationServices26ASPasswordSavingModalStateO
++ _symbolic SaySo19ASGeneratedPasswordCG
++ _symbolic SaySo20NSURLProtectionSpaceCGSg
++ _symbolic SaySo20WBSSavedAccountMatchCG
++ _symbolic Say_____G 22AuthenticationServices26ASPasswordSavingModalStateO
++ _symbolic Say_____G19identifiersToUpdate_t 22AuthenticationServices26ASPasswordSavingModalStateO09PasswordsF0V04SaveF0O10IdentifierO
++ _symbolic Say______pG So26SFSafariPasswordCredentialP
++ _symbolic SbIegy_
++ _symbolic ScCyyt_____G s5NeverO
++ _symbolic SccySSSg_A2At_____G s5NeverO
++ _symbolic SccySSSg_AAt_____G s5NeverO
++ _symbolic SccySSSg_SaySo35SFSharedWebCredentialsDatabaseEntryCGSgt_____G s5NeverO
++ _symbolic SccySaySo14KCSharingGroupCG______pG s5ErrorP
++ _symbolic SccySaySo18SFSafariCredentialCG_____G s5NeverO
++ _symbolic SccySb_SaySSGSgt_____G s5NeverO
++ _symbolic SccySb_____G s5NeverO
++ _symbolic SccySo11NSExtensionCSg_____G s5NeverO
++ _symbolic SccySo14FAFamilyCircleC______pG s5ErrorP
++ _symbolic SccySo18WBSPasswordWarningCSg_____G s5NeverO
++ _symbolic Sccy______SSSgSaySo20NSURLProtectionSpaceCGSgSo15WBSSavedAccountCSgt_____G So29SFSafariCredentialStoreActionV s5NeverO
++ _symbolic Sccy___________pG So30AKAuthorizationCredentialStateV s5ErrorP
++ _symbolic SiSg
++ _symbolic So020_ASAccountManagerTipB0CXMo
++ _symbolic So15WBSSavedAccountC
++ _symbolic So15WBSSavedAccountCSg
++ _symbolic So18WBSPasswordWarningC
++ _symbolic So20ASPasswordCredentialC
++ _symbolic So20NSURLProtectionSpaceC
++ _symbolic So21ASSavePasswordRequestC
++ _symbolic So22WBSSavedAccountContextC
++ _symbolic So23ASPasswordSavingManagerC
++ _symbolic So25AKAuthorizationControllerCSg
++ _symbolic So25WBSKeychainSyncingMonitorCSg
++ _symbolic So26ASPasswordSavingModalStateC
++ _symbolic So29ASCredentialServiceIdentifierC
++ _symbolic So30ASPasswordSavingManagerRequestC
++ _symbolic So30ASPasswordSavingProvidersStateC
++ _symbolic So30ASPasswordSavingProvidersStateCSgIeyBy_Sg
++ _symbolic So37_ASAgentCredentialUpdateListenerProxyCSg
++ _symbolic So52_ASAccountAuthenticationModificationExtensionManagerCSg
++ _symbolic So5NSURLCSg
++ _symbolic So7NSArrayCSgSo7NSErrorCSgIeyByy_Sg
++ _symbolic So7NSErrorCSgIeyBy_Sg
++ _symbolic _____ 10ObjectiveC8ObjCBoolV
++ _symbolic _____ 22AuthenticationServices15ASAutoFillScopeO
++ _symbolic _____ 22AuthenticationServices15ASAutoFillScopeO10CodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLO
++ _symbolic _____ 22AuthenticationServices15ASAutoFillScopeO17WebsiteCodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLO
++ _symbolic _____ 22AuthenticationServices15ASAutoFillScopeO19AutomaticCodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLO
++ _symbolic _____ 22AuthenticationServices18ASAutoFillURLScopeV
++ _symbolic _____ 22AuthenticationServices18ASAutoFillURLScopeV10CodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLO
++ _symbolic _____ 22AuthenticationServices18ASAutoFillURLScopeV6SchemeO
++ _symbolic _____ 22AuthenticationServices19ASApplicationRecordV
++ _symbolic _____ 22AuthenticationServices20ASDisplayableServiceO
++ _symbolic _____ 22AuthenticationServices23ASCredentialDataManagerC
++ _symbolic _____ 22AuthenticationServices23ASCredentialDataManagerC9SaveState33_8859F5B23BC6C342D9A0DFE2E84637E5LLC
++ _symbolic _____ 22AuthenticationServices23ASCredentialDataManagerC9SaveState33_8859F5B23BC6C342D9A0DFE2E84637E5LLC012ContinuationG0O
++ _symbolic _____ 22AuthenticationServices25ASCredentialUpdateOptionsV
++ _symbolic _____ 22AuthenticationServices25ASCredentialUpdateOptionsV10CodingKeys33_0066A0A7E91AB024D15EC7A849C726DBLLO
++ _symbolic _____ 22AuthenticationServices25ASGeneratePasswordsResultC
++ _symbolic _____ 22AuthenticationServices26ASPasswordSavingModalStateO
++ _symbolic _____ 22AuthenticationServices26ASPasswordSavingModalStateO08ProviderF0V
++ _symbolic _____ 22AuthenticationServices26ASPasswordSavingModalStateO09PasswordsF0V
++ _symbolic _____ 22AuthenticationServices26ASPasswordSavingModalStateO09PasswordsF0V04SaveF0O
++ _symbolic _____ 22AuthenticationServices26ASPasswordSavingModalStateO09PasswordsF0V04SaveF0O10IdentifierO
++ _symbolic _____ 22AuthenticationServices26ASPasswordSavingModalStateO09PasswordsF0V15BrowserAccountsV
++ _symbolic _____ 22AuthenticationServices26ASPasswordSavingModalStateO18CredentialWarningsV
++ _symbolic _____ 22AuthenticationServices27ASAccountUpgradeInformationV
++ _symbolic _____ 22AuthenticationServices30ASCredentialDataManagerInterop33_8859F5B23BC6C342D9A0DFE2E84637E5LLC
++ _symbolic _____ 22AuthenticationServices30ASPasswordSavingProvidersStateV
++ _symbolic _____ 22AuthenticationServices39ASAutoFillCredentialProviderInformationV
++ _symbolic _____ 22AuthenticationServices41ASApplicationRecordResolverImplementationV
++ _symbolic _____ 22AuthenticationServices49ASAccountUpgradeInformationProviderImplementationC
++ _symbolic _____ 22AuthenticationServices49ASPasswordCredentialActionsProviderImplementationV
++ _symbolic _____ 26AuthenticationServicesCore21ASCCredentialProviderO
++ _symbolic _____ SC20ASExtensionErrorCodeLeV
++ _symbolic _____ So16os_unfair_lock_sV
++ _symbolic _____ So20ASExtensionErrorCodeV
++ _symbolic _____ So21ASSavePasswordRequestC22AuthenticationServicesE10Properties33_4D6C6F74BA006CC6DBAFAE01468DD756LLV
++ _symbolic _____ So23ASAccountManagerTipTypeV
++ _symbolic _____ So23ASGeneratedPasswordKinda
++ _symbolic _____ So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV
++ _symbolic _____ So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLO
++ _symbolic _____ So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7ContextV
++ _symbolic _____ So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7ContextV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLO
++ _symbolic _____ So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7OptionsV
++ _symbolic _____ So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7OptionsV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLO
++ _symbolic _____ So26ASPasswordSavingModalStateC22AuthenticationServicesE0D3Box023_55D8785A7BC1CA97B1AA86L8C940EAFELLC
++ _symbolic _____ So26ASSavePasswordRequestEventV
++ _symbolic _____ So29SFSafariCredentialStoreActionV
++ _symbolic _____ So30AKAuthorizationCredentialStateV
++ _symbolic _____ So30ASPasswordSavingManagerRequestC22AuthenticationServicesE0D3Box33_E3D5BD4ACC0E8EB64927CCB51651017BLLC
++ _symbolic _____ So30ASPasswordSavingProvidersStateC22AuthenticationServicesE0D3Box33_9474E4B5850B28DAF77C906E65A66F67LLC
++ _symbolic _____ s6UInt32V
++ _symbolic _____10identifier_t 22AuthenticationServices26ASPasswordSavingModalStateO09PasswordsF0V04SaveF0O10IdentifierO
++ _symbolic _____7service_SS12providerName_____8biometry_____22accountCreationOptionst 22AuthenticationServices20ASDisplayableServiceO So14LABiometryTypeV 0aB4Core38ASCPublicKeyAccountRegistrationOptionsC
++ _symbolic _____7service_SS16originDeviceNameSS05groupD0t 22AuthenticationServices20ASDisplayableServiceO
++ _symbolic _____7service_SS16originDeviceNameSSSg08providerD0t 22AuthenticationServices20ASDisplayableServiceO
++ _symbolic _____7service_SS16originDeviceNamet 22AuthenticationServices20ASDisplayableServiceO
++ _symbolic _____7service_SS8usernameSS12externalSitet 22AuthenticationServices20ASDisplayableServiceO
++ _symbolic _____7service_SS8usernameSS9groupNamet 22AuthenticationServices20ASDisplayableServiceO
++ _symbolic _____7service_SS8usernameSSSg12creationDateAD12providerNamet 22AuthenticationServices20ASDisplayableServiceO
++ _symbolic _____7service______8biometry_____22accountCreationOptionst 22AuthenticationServices20ASDisplayableServiceO So14LABiometryTypeV 0aB4Core38ASCPublicKeyAccountRegistrationOptionsC
++ _symbolic _____7service_t 22AuthenticationServices20ASDisplayableServiceO
++ _symbolic _____IeyBy_Sg So23ASAccountManagerTipTypeV
++ _symbolic _____Sg 10Foundation13URLComponentsV
++ _symbolic _____Sg 22AuthenticationServices26ASPasswordSavingModalStateO
++ _symbolic _____Sg 22AuthenticationServices30ASCredentialDataManagerInterop33_8859F5B23BC6C342D9A0DFE2E84637E5LLC
++ _symbolic _____Sg 26AuthenticationServicesCore21ASCCredentialProviderO
++ _symbolic _____Sg So23ASGeneratedPasswordKinda
++ _symbolic _____Sg So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV
++ _symbolic _____Sg14warningsToShow_t 22AuthenticationServices26ASPasswordSavingModalStateO18CredentialWarningsV
++ _symbolic _____SgIeAgHr_ 22AuthenticationServices26ASPasswordSavingModalStateO
++ _symbolic _____SgIegn_ 22AuthenticationServices26ASPasswordSavingModalStateO
++ _symbolic _____SgXw 22AuthenticationServices23ASCredentialDataManagerC
++ _symbolic ______AAt 22AuthenticationServices26ASPasswordSavingModalStateO
++ _symbolic ______p 22AuthenticationServices34ASPasswordSavingModalStateProtocolP
++ _symbolic ______pSg 22AuthenticationServices039ASAutoFillCredentialProviderInformationF0P
++ _symbolic ______pSg 22AuthenticationServices27ASApplicationRecordResolverP
++ _symbolic ______pSg 22AuthenticationServices29ASCredentialProvidersProviderP
++ _symbolic ______pSg 22AuthenticationServices35ASAccountUpgradeInformationProviderP
++ _symbolic ______pSg 22AuthenticationServices35ASPasswordCredentialActionsProviderP
++ _symbolic _____ySO_____G s18_DictionaryStorageC 22AuthenticationServices23ASCredentialDataManagerC9SaveState33_8859F5B23BC6C342D9A0DFE2E84637E5LLC
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 22AuthenticationServices26ASPasswordSavingModalStateO
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 22AuthenticationServices23ASCredentialDataManagerC9SaveState33_8859F5B23BC6C342D9A0DFE2E84637E5LLC012ContinuationK0O
++ _symbolic _____y_____G s11_SetStorageC 26AuthenticationServicesCore21ASCCredentialProviderO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices15ASAutoFillScopeO10CodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices15ASAutoFillScopeO17WebsiteCodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices15ASAutoFillScopeO19AutomaticCodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices18ASAutoFillURLScopeV10CodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices25ASCredentialUpdateOptionsV10CodingKeys33_0066A0A7E91AB024D15EC7A849C726DBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7ContextV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7OptionsV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices15ASAutoFillScopeO10CodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices15ASAutoFillScopeO17WebsiteCodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices15ASAutoFillScopeO19AutomaticCodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices18ASAutoFillURLScopeV10CodingKeys33_EA85CB0874C21EB4D74DE4333FC3EA0DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices25ASCredentialUpdateOptionsV10CodingKeys33_0066A0A7E91AB024D15EC7A849C726DBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7ContextV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7OptionsV10CodingKeys33_E3D5BD4ACC0E8EB64927CCB51651017BLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22AuthenticationServices26ASPasswordSavingModalStateO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22AuthenticationServices26ASPasswordSavingModalStateO09PasswordsI0V04SaveI0O10IdentifierO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 26AuthenticationServicesCore21ASCCredentialProviderO
++ _symbolic _____y_____Sg_G ScG8IteratorV 22AuthenticationServices26ASPasswordSavingModalStateO
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 22AuthenticationServices23ASCredentialDataManagerC9SaveState33_8859F5B23BC6C342D9A0DFE2E84637E5LLC012ContinuationI0O So16os_unfair_lock_sV
++ _symbolic _____y______pSbG s7KeyPathC 22AuthenticationServices34ASPasswordSavingModalStateProtocolP
++ _symbolic _____y______p_____G s7KeyPathC 22AuthenticationServices34ASPasswordSavingModalStateProtocolP 0cD4Core21ASCCredentialProviderO
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
++ _type_layout_string 22AuthenticationServices15ASAutoFillScopeO
++ _type_layout_string 22AuthenticationServices18ASAutoFillURLScopeV
++ _type_layout_string 22AuthenticationServices19ASApplicationRecordV
++ _type_layout_string 22AuthenticationServices20ASDisplayableServiceO
++ _type_layout_string 22AuthenticationServices24ASAuthorizationUIContextV5TitleO
++ _type_layout_string 22AuthenticationServices25ASCredentialUpdateOptionsV
++ _type_layout_string 22AuthenticationServices26ASPasswordSavingModalStateO
++ _type_layout_string 22AuthenticationServices26ASPasswordSavingModalStateO08ProviderF0V
++ _type_layout_string 22AuthenticationServices26ASPasswordSavingModalStateO09PasswordsF0V
++ _type_layout_string 22AuthenticationServices26ASPasswordSavingModalStateO09PasswordsF0V04SaveF0O
++ _type_layout_string 22AuthenticationServices26ASPasswordSavingModalStateO09PasswordsF0V04SaveF0O10IdentifierO
++ _type_layout_string 22AuthenticationServices26ASPasswordSavingModalStateO09PasswordsF0V15BrowserAccountsV
++ _type_layout_string 22AuthenticationServices26ASPasswordSavingModalStateO18CredentialWarningsV
++ _type_layout_string 22AuthenticationServices27ASAccountUpgradeInformationV
++ _type_layout_string 22AuthenticationServices30ASPasswordSavingProvidersStateV
++ _type_layout_string 22AuthenticationServices39ASAutoFillCredentialProviderInformationV
++ _type_layout_string SC20ASExtensionErrorCodeLeV
++ _type_layout_string So16os_unfair_lock_sV
++ _type_layout_string So21ASSavePasswordRequestC22AuthenticationServicesE10Properties33_4D6C6F74BA006CC6DBAFAE01468DD756LLV
++ _type_layout_string So23ASGeneratedPasswordKinda
++ _type_layout_string So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV
++ _type_layout_string So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7ContextV
++ _type_layout_string So23ASPasswordSavingManagerC22AuthenticationServicesE7RequestV7OptionsV
+- +[_ASAccountManagerTipManager _acknowledgeTip:]
+- +[_ASAccountManagerTipManager _checkEligibilityForFamilySharingTipWithCompletionHandler:]
+- +[_ASAccountManagerTipManager _checkEligibilityForGeneralSharingTipWithCompletionHandler:]
+- +[_ASAccountManagerTipManager _checkEligibilityForImportPasswordsTipWithCompletionHandler:]
+- +[_ASAccountManagerTipManager _checkEligibilityForiCloudKeychainTipWithCompletionHandler:]
+- +[_ASAccountManagerTipManager _defaultKeyForTipType:]
+- +[_ASAccountManagerTipManager _hasAcknowledgedTip:]
+- +[_ASAccountManagerTipManager _refreshDateForTip:]
+- +[_ASAccountManagerTipManager fetchSharingGroupsThatIncludeFamilyMembers:]
+- +[_ASAccountManagerTipManager fetchTipToShow:]
+- +[_ASAccountManagerTipManager userDidAcknowledgeTip:]
+- -[_ASAgentCredentialExchangeListener _setSelectedImporterBundleIdentifierForCurrentOperation:]
+- -[_ASAgentCredentialExchangeListener _setSelectedImporterBundleIdentifierForCurrentOperation:].cold.1
+- -[_ASAgentCredentialExchangeListener listener:shouldAcceptNewConnection:].cold.3
+- -[_ASAgentCredentialExchangeOperation selectedImporterBundleIdentifier]
+- -[_ASAgentCredentialExchangeOperation setSelectedImporterBundleIdentifier:]
+- -[_ASExtensionViewController _beginNonUIRequest:connectionHandler:]
+- -[_ASWebsiteNameProvider _processMetadataEntryFetchedFromKeychain:forDomain:allowRefreshingDataFromNetwork:]
+- -[_ASWebsiteNameProvider _processMetadataEntryFetchedFromKeychain:forDomain:allowRefreshingDataFromNetwork:].cold.1
+- -[_ASWebsiteNameProvider knownWebsiteNameForDomain:].cold.1
+- GCC_except_table19
+- GCC_except_table53
+- GCC_except_table55
+- GCC_except_table59
+- GCC_except_table63
+- GCC_except_table65
+- GCC_except_table67
+- GCC_except_table72
+- GCC_except_table74
+- GCC_except_table81
+- _OBJC_IVAR_$__ASAgentCredentialExchangeOperation._selectedImporterBundleIdentifier
+- _WBS_LOG_CHANNEL_PREFIXAccountAuthenticationModificationExtension
+- _WBS_LOG_CHANNEL_PREFIXAccountAuthenticationModificationExtension.cold.1
+- _WBS_LOG_CHANNEL_PREFIXAccountAuthenticationModificationExtension.log
+- _WBS_LOG_CHANNEL_PREFIXAccountAuthenticationModificationExtension.onceToken
+- _WBS_LOG_CHANNEL_PREFIXAuthenticationServicesAgent
+- _WBS_LOG_CHANNEL_PREFIXAuthenticationServicesAgent.cold.1
+- _WBS_LOG_CHANNEL_PREFIXAuthenticationServicesAgent.log
+- _WBS_LOG_CHANNEL_PREFIXAuthenticationServicesAgent.onceToken
+- _WBS_LOG_CHANNEL_PREFIXAuthenticationSession
+- _WBS_LOG_CHANNEL_PREFIXAuthenticationSession.cold.1
+- _WBS_LOG_CHANNEL_PREFIXAuthenticationSession.log
+- _WBS_LOG_CHANNEL_PREFIXAuthenticationSession.onceToken
+- _WBS_LOG_CHANNEL_PREFIXAuthorization
+- _WBS_LOG_CHANNEL_PREFIXAuthorization.cold.1
+- _WBS_LOG_CHANNEL_PREFIXAuthorization.log
+- _WBS_LOG_CHANNEL_PREFIXAuthorization.onceToken
+- _WBS_LOG_CHANNEL_PREFIXCredentialExchange
+- _WBS_LOG_CHANNEL_PREFIXCredentialExchange.cold.1
+- _WBS_LOG_CHANNEL_PREFIXCredentialExchange.log
+- _WBS_LOG_CHANNEL_PREFIXCredentialExchange.onceToken
+- _WBS_LOG_CHANNEL_PREFIXCredentialProviderExtension
+- _WBS_LOG_CHANNEL_PREFIXCredentialProviderExtension.cold.1
+- _WBS_LOG_CHANNEL_PREFIXCredentialProviderExtension.log
+- _WBS_LOG_CHANNEL_PREFIXCredentialProviderExtension.onceToken
+- _WBS_LOG_CHANNEL_PREFIXPasswordManager
+- _WBS_LOG_CHANNEL_PREFIXPasswordManager.cold.1
+- _WBS_LOG_CHANNEL_PREFIXPasswordManager.log
+- _WBS_LOG_CHANNEL_PREFIXPasswordManager.onceToken
+- _WBS_LOG_CHANNEL_PREFIXPasswordsIcons
+- _WBS_LOG_CHANNEL_PREFIXPasswordsIcons.cold.1
+- _WBS_LOG_CHANNEL_PREFIXPasswordsIcons.log
+- _WBS_LOG_CHANNEL_PREFIXPasswordsIcons.onceToken
+- _WBS_LOG_CHANNEL_PREFIXWebsiteNameProvider
+- _WBS_LOG_CHANNEL_PREFIXWebsiteNameProvider.cold.1
+- _WBS_LOG_CHANNEL_PREFIXWebsiteNameProvider.log
+- _WBS_LOG_CHANNEL_PREFIXWebsiteNameProvider.onceToken
+- __OBJC_$_CLASS_METHODS__ASAccountManagerTipManager
+- __PROTOCOLS__TtC22AuthenticationServices29_ASCredentialUpdateController.2
+- ___46+[_ASAccountManagerTipManager fetchTipToShow:]_block_invoke
+- ___46+[_ASAccountManagerTipManager fetchTipToShow:]_block_invoke_2
+- ___46+[_ASAccountManagerTipManager fetchTipToShow:]_block_invoke_3
+- ___46+[_ASAccountManagerTipManager fetchTipToShow:]_block_invoke_4
+- ___52-[_ASWebsiteNameProvider knownWebsiteNameForDomain:]_block_invoke
+- ___52-[_ASWebsiteNameProvider knownWebsiteNameForDomain:]_block_invoke_2
+- ___52-[_ASWebsiteNameProvider knownWebsiteNameForDomain:]_block_invoke_3
+- ___52-[_ASWebsiteNameProvider knownWebsiteNameForDomain:]_block_invoke_4
+- ___52-[_ASWebsiteNameProvider knownWebsiteNameForDomain:]_block_invoke_5
+- ___67-[_ASExtensionViewController _beginNonUIRequest:connectionHandler:]_block_invoke
+- ___67-[_ASExtensionViewController _beginNonUIRequest:connectionHandler:]_block_invoke_2
+- ___67-[_ASExtensionViewController _beginNonUIRequest:connectionHandler:]_block_invoke_3
+- ___67-[_ASExtensionViewController _beginNonUIRequest:connectionHandler:]_block_invoke_3.cold.1
+- ___68-[_ASPasswordManagerIconController prepareForApplicationTermination]_block_invoke.31
+- ___73-[_ASAgentPeriodicMaintenanceActivity _runActivityWithCompletionHandler:]_block_invoke.cold.1
+- ___73-[_ASAgentPeriodicMaintenanceActivity _runActivityWithCompletionHandler:]_block_invoke_2.9
+- ___74+[_ASAccountManagerTipManager fetchSharingGroupsThatIncludeFamilyMembers:]_block_invoke
+- ___74+[_ASAccountManagerTipManager fetchSharingGroupsThatIncludeFamilyMembers:]_block_invoke.34
+- ___74+[_ASAccountManagerTipManager fetchSharingGroupsThatIncludeFamilyMembers:]_block_invoke.34.cold.1
+- ___74+[_ASAccountManagerTipManager fetchSharingGroupsThatIncludeFamilyMembers:]_block_invoke.36
+- ___74+[_ASAccountManagerTipManager fetchSharingGroupsThatIncludeFamilyMembers:]_block_invoke.cold.1
+- ___74+[_ASAccountManagerTipManager fetchSharingGroupsThatIncludeFamilyMembers:]_block_invoke_2
+- ___89+[_ASAccountManagerTipManager _checkEligibilityForFamilySharingTipWithCompletionHandler:]_block_invoke
+- ___89+[_ASAccountManagerTipManager _checkEligibilityForFamilySharingTipWithCompletionHandler:]_block_invoke.48
+- ___89+[_ASAccountManagerTipManager _checkEligibilityForFamilySharingTipWithCompletionHandler:]_block_invoke.53
+- ___89+[_ASAccountManagerTipManager _checkEligibilityForFamilySharingTipWithCompletionHandler:]_block_invoke.cold.1
+- ___89+[_ASAccountManagerTipManager _checkEligibilityForFamilySharingTipWithCompletionHandler:]_block_invoke_2
+- ___89+[_ASAccountManagerTipManager _checkEligibilityForFamilySharingTipWithCompletionHandler:]_block_invoke_2.cold.1
+- ___89+[_ASAccountManagerTipManager _checkEligibilityForFamilySharingTipWithCompletionHandler:]_block_invoke_2.cold.2
+- ___97-[_ASPasswordManagerIconController _requestTouchIconForDomain:options:requestID:responseHandler:]_block_invoke.36
+- ___97-[_ASPasswordManagerIconController _requestTouchIconForDomain:options:requestID:responseHandler:]_block_invoke_2.38
+- ___97-[_ASPasswordManagerIconController _requestTouchIconForDomain:options:requestID:responseHandler:]_block_invoke_2.38.cold.1
+- ___WBS_LOG_CHANNEL_PREFIXAccountAuthenticationModificationExtension_block_invoke
+- ___WBS_LOG_CHANNEL_PREFIXAuthenticationServicesAgent_block_invoke
+- ___WBS_LOG_CHANNEL_PREFIXAuthenticationSession_block_invoke
+- ___WBS_LOG_CHANNEL_PREFIXAuthorization_block_invoke
+- ___WBS_LOG_CHANNEL_PREFIXCredentialExchange_block_invoke
+- ___WBS_LOG_CHANNEL_PREFIXCredentialProviderExtension_block_invoke
+- ___WBS_LOG_CHANNEL_PREFIXPasswordManager_block_invoke
+- ___WBS_LOG_CHANNEL_PREFIXPasswordsIcons_block_invoke
+- ___WBS_LOG_CHANNEL_PREFIXWebsiteNameProvider_block_invoke
+- ___block_descriptor_32_e24_16?0"FAFamilyMember"8l
+- ___block_descriptor_32_e24_B16?0"FAFamilyMember"8l
+- ___block_descriptor_32_e30_16?0"KCSharingParticipant"8l
+- ___block_descriptor_40_e8_32bs_e36_v24?0"FAFamilyCircle"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e8_v12?0B8ls32l8
+- ___block_descriptor_40_e8_32s_e24_B16?0"FAFamilyMember"8ls32l8
+- ___block_descriptor_48_e8_32bs40r_e5_v8?0ls32l8r40l8
+- ___block_descriptor_48_e8_32bs_e36_v24?0"FAFamilyCircle"8"NSError"16ls32l8
+- ___block_descriptor_48_e8_32bs_e8_v12?0B8ls32l8
+- ___block_descriptor_48_e8_32s40bs_e17_v16?0"NSError"8ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e29_v24?0"NSArray"8"NSError"16ls40l8s32l8
+- ___block_descriptor_48_ea8_32s40s_e58_v16?0"<WBSPasswordManagerWebsiteMetadataEntryProtocol>"8ls32l8s40l8
+- ___block_descriptor_56_e8_32s40bs_e29_v24?0"NSArray"8"NSError"16ls40l8s32l8
+- ___block_descriptor_56_e8_32s40s48w_e5_v8?0lw48l8s32l8s40l8
+- ___block_descriptor_64_e8_32s40s48bs56r_e5_v8?0ls32l8s48l8r56l8s40l8
+- ___block_literal_global.10
+- ___block_literal_global.112
+- ___block_literal_global.122
+- ___block_literal_global.19
+- ___block_literal_global.22
+- ___block_literal_global.25
+- ___block_literal_global.299
+- ___block_literal_global.31
+- ___block_literal_global.41
+- ___block_literal_global.51
+- ___block_literal_global.64
+- ___get_SFAccountManagerAppearanceValuesClass_block_invoke
+- ___get_SFAccountManagerAppearanceValuesClass_block_invoke.cold.1
+- ___get_SFAccountManagerAppearanceValuesClass_block_invoke.cold.2
+- _associated conformance 22AuthenticationServices19ASCredentialUpdaterC7OptionsV10CodingKeys33_D264620C555C1208FE52E6B0D7BCF77DLLOSHAASQ
+- _associated conformance 22AuthenticationServices19ASCredentialUpdaterC7OptionsV10CodingKeys33_D264620C555C1208FE52E6B0D7BCF77DLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 22AuthenticationServices19ASCredentialUpdaterC7OptionsV10CodingKeys33_D264620C555C1208FE52E6B0D7BCF77DLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.13
+- _block_copy_helper.19
+- _block_copy_helper.23
+- _block_copy_helper.38
+- _block_copy_helper.45
+- _block_copy_helper.48
+- _block_descriptor.15
+- _block_descriptor.21
+- _block_descriptor.25
+- _block_descriptor.40
+- _block_descriptor.47
+- _block_descriptor.50
+- _block_destroy_helper.14
+- _block_destroy_helper.20
+- _block_destroy_helper.24
+- _block_destroy_helper.39
+- _block_destroy_helper.46
+- _block_destroy_helper.49
+- _get_SFAccountManagerAppearanceValuesClass
+- _get_SFAccountManagerAppearanceValuesClass.softClass
+- _get_enum_tag_for_layout_string 22AuthenticationServices24ASAuthorizationUIContextV7ServiceO
+- _objc_msgSend$_acknowledgeTip:
+- _objc_msgSend$_beginNonUIRequest:connectionHandler:
+- _objc_msgSend$_checkEligibilityForFamilySharingTipWithCompletionHandler:
+- _objc_msgSend$_checkEligibilityForGeneralSharingTipWithCompletionHandler:
+- _objc_msgSend$_checkEligibilityForImportPasswordsTipWithCompletionHandler:
+- _objc_msgSend$_checkEligibilityForiCloudKeychainTipWithCompletionHandler:
+- _objc_msgSend$_defaultKeyForTipType:
+- _objc_msgSend$_hasAcknowledgedTip:
+- _objc_msgSend$_processMetadataEntryFetchedFromKeychain:forDomain:allowRefreshingDataFromNetwork:
+- _objc_msgSend$_refreshDateForTip:
+- _objc_msgSend$all
+- _objc_msgSend$cachedGroups
+- _objc_msgSend$chicletSize
+- _objc_msgSend$compare:
+- _objc_msgSend$date
+- _objc_msgSend$defaultMonogramBackgroundColor
+- _objc_msgSend$fetchSharingGroupsThatIncludeFamilyMembers:
+- _objc_msgSend$getGroupsWithRequest:completion:
+- _objc_msgSend$initWithPasswordRequirementsByDomain:
+- _objc_msgSend$initWithServiceIdentifier:serviceIdentifierType:externalRecordIdentifier:user:rank:
+- _objc_msgSend$initWithUser:password:site:creationDate:externalProviderBundleIdentifier:
+- _objc_msgSend$intersectsSet:
+- _objc_msgSend$isAppleAccountBrandingEnabled
+- _objc_msgSend$isChildAccount
+- _objc_msgSend$isOngoingCredentialSharingEnabled
+- _objc_msgSend$isUsingICloud
+- _objc_msgSend$safari_dateForKey:
+- _objc_msgSend$safari_setDate:forKey:
+- _objc_msgSend$selectedImporterBundleIdentifier
+- _objc_msgSend$setSelectedImporterBundleIdentifier:
+- _objc_msgSend$setWithArray:
+- _objc_msgSend$sharedObserver
+- _objectdestroy.53Tm
+- _os_log_create
+- _symbolic _____ 22AuthenticationServices19ASCredentialUpdaterC7OptionsV
+- _symbolic _____ 22AuthenticationServices19ASCredentialUpdaterC7OptionsV10CodingKeys33_D264620C555C1208FE52E6B0D7BCF77DLLO
+- _symbolic _____ 22AuthenticationServices24ASAuthorizationUIContextV7ServiceO
+- _symbolic _____7service_SS12providerName_____8biometry_____22accountCreationOptionst 22AuthenticationServices24ASAuthorizationUIContextV7ServiceO So14LABiometryTypeV 0aB4Core38ASCPublicKeyAccountRegistrationOptionsC
+- _symbolic _____7service_SS16originDeviceNameSS05groupD0t 22AuthenticationServices24ASAuthorizationUIContextV7ServiceO
+- _symbolic _____7service_SS16originDeviceNameSSSg08providerD0t 22AuthenticationServices24ASAuthorizationUIContextV7ServiceO
+- _symbolic _____7service_SS16originDeviceNamet 22AuthenticationServices24ASAuthorizationUIContextV7ServiceO
+- _symbolic _____7service_SS8usernameSS12externalSitet 22AuthenticationServices24ASAuthorizationUIContextV7ServiceO
+- _symbolic _____7service_SS8usernameSS9groupNamet 22AuthenticationServices24ASAuthorizationUIContextV7ServiceO
+- _symbolic _____7service_SS8usernameSSSg12creationDateAD12providerNamet 22AuthenticationServices24ASAuthorizationUIContextV7ServiceO
+- _symbolic _____7service______8biometry_____22accountCreationOptionst 22AuthenticationServices24ASAuthorizationUIContextV7ServiceO So14LABiometryTypeV 0aB4Core38ASCPublicKeyAccountRegistrationOptionsC
+- _symbolic _____7service_t 22AuthenticationServices24ASAuthorizationUIContextV7ServiceO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices19ASCredentialUpdaterC7OptionsV10CodingKeys33_D264620C555C1208FE52E6B0D7BCF77DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices19ASCredentialUpdaterC7OptionsV10CodingKeys33_D264620C555C1208FE52E6B0D7BCF77DLLO
+- _type_layout_string 22AuthenticationServices19ASCredentialUpdaterC7OptionsV
+- _type_layout_string 22AuthenticationServices24ASAuthorizationUIContextV7ServiceO
+- _type_layout_string SC20ASAuthorizationErrorLeV
+CStrings:
++ "$__lazy_storage_$_accountModificationExtensionManager"
++ "$__lazy_storage_$_accountUpgradeInformationProvider"
++ "$__lazy_storage_$_applicationRecordResolver"
++ "$__lazy_storage_$_autoFillInfoProvider"
++ "$__lazy_storage_$_credentialProvidersProvider"
++ "$__lazy_storage_$_interop"
++ "$__lazy_storage_$_keychainSyncingMonitor"
++ "$__lazy_storage_$_passwordCredentialActionsProvider"
++ "$__lazy_storage_$_passwordWarningManager"
++ "$__lazy_storage_$_proxy"
++ "$__lazy_storage_$_siwaAuthorizationController"
++ "%s has opted out of security recommendation prompts on sign in"
++ "-[_ASAgentCredentialExchangeListener _setSelectedImporterApplicationIdentifierForCurrentOperation:]"
++ "-canStart returned NO: %{public}@"
++ "<%@: %p; type=%@; identifier=%@; displayName=%@>"
++ "@\"<_ASPasswordGeneratingViewControllerDelegate>\""
++ "@\"<_ASPasswordSavingViewControllerDelegate>\""
++ "@\"ASGeneratePasswordsRequest\""
++ "@\"ASSavePasswordRequest\""
++ "@\"NSDate\"16@0:8"
++ "@\"NSString\"28@0:8@\"NSString\"16B24"
++ "@\"WBSSavedAccountStore\""
++ "@40@0:8@16q24@32"
++ "@56@0:8@16@24@32@40q48"
++ "@64@0:8@16@24@32@40q48@56"
++ "ALPHANUMERIC"
++ "ASAppPasswordSavingViewController.m"
++ "ASAppPasswordSavingViewControllerDelegate"
++ "ASAppPasswordSavingViewControllerFactory"
++ "ASCredentialServiceIdentifierDisplayName"
++ "ASGeneratePasswordsRequest"
++ "ASGeneratedPassword"
++ "ASPasswordSavingManager"
++ "ASPasswordSavingManagerRequest"
++ "ASSavePasswordRequest"
++ "AppPasswordAutoFill"
++ "Application with identifier %@ is not associated with domain %@ as a validated webcredentials association."
++ "Attempted to save credential with no password"
++ "AuthenticationServices.ASCredentialDataManagerInterop"
++ "AuthenticationServices.ASGeneratePasswordsRequest"
++ "AuthenticationServices.ASGeneratePasswordsResult"
++ "AuthenticationServices.ASGeneratedPassword"
++ "AuthenticationServices.ASSavePasswordRequest"
++ "AuthenticationServices/_ASCredentialUpdateController.swift"
++ "AuthenticationServices_Private.ASPasswordSavingManager"
++ "AuthenticationServices_Private.RequestObject"
++ "AuthenticationServices_Private.__ASPasswordSavingModalState"
++ "AuthenticationServices_Private.__ASPasswordSavingProvidersState"
++ "Cancel (password save error)"
++ "Cannot create an app service identifier without a displayName"
++ "Choose where to save your password."
++ "Choose where to update your password."
++ "Class get_SFAppPasswordSavingViewControllerClass(void)_block_invoke"
++ "Copy Password (password save error)"
++ "Could not encode json for %{public}s"
++ "Could not find contining app record for extension %s"
++ "Could not find importer extension with application ID %{public}s"
++ "Could not find view controller to present from."
++ "Could not save credential to extension %s: %{public}s"
++ "Do you want to update your “%@” password for “%@”?"
++ "Do you want to update your “%@” password for “%@”? (app)"
++ "Do you want to update your “%@” password for “%@”? (website)"
++ "Do you want to update your “%@” password for “%@””?"
++ "Do you want to update your “%@” password?"
++ "Do you want to update your “%@” password? (app)"
++ "Do you want to update your “%@” password? (website)"
++ "Failed to fetch bundle record with app ID %{public}s: %{public}s"
++ "Failed to fetch groups with error: %s"
++ "Failed to fetch provider with ID %s"
++ "Failed to fetch service IDs for app ID %{public}s: %{public}s"
++ "Failed to find application record with error: %{public}s. Skipping security recommendation prompt."
++ "Failed to find persistent identifier for credential. Skipping weak password warning."
++ "Failed to get FamilyCircle with error: %s"
++ "Failed to get Sign in with Apple authorization credential state for %s."
++ "Missing bundle ID for bundle record with app ID %{public}s"
++ "Not Now (save login information sheet in app)"
++ "PASSPHRASE"
++ "Periodic maintenance activity is attempting to merge saved accounts with passwords using case-insensitive username comparison"
++ "SFSafariPasswordCredential"
++ "STRONG"
++ "Save Password (save login information sheet in app)"
++ "Save “%@” Password?"
++ "Securely store your password so it’s filled automatically the next time you need it."
++ "ShouldMergeDuplicateAccountsUsingCaseInsensitiveUsernameMatching"
++ "Strong Password (description of password)"
++ "T@\"<_ASPasswordGeneratingViewControllerDelegate>\",W,N,V_delegate"
++ "T@\"<_ASPasswordSavingViewControllerDelegate>\",W,N,V_delegate"
++ "T@\"ASCredentialServiceIdentifier\",N,R"
++ "T@\"ASCredentialServiceIdentifier\",N,R,VserviceIdentifier"
++ "T@\"ASPasswordCredential\",N,R"
++ "T@\"ASPasswordSavingModalState\",N,R"
++ "T@\"ASSavePasswordRequest\",R,N,V_request"
++ "T@\"NSDate\",R,N"
++ "T@\"NSDictionary\",C,N,V_userInfo"
++ "T@\"NSString\",&,N,V_selectedImporterApplicationIdentifier"
++ "T@\"NSString\",N,R,Vkind"
++ "T@\"NSString\",R,C,N,V_displayName"
++ "T@\"_ASAccountAuthenticationModificationExtensionManager\",R,N"
++ "TB,R,N,GisExternal"
++ "The request must have a non-empty credential."
++ "The request must have a non-empty password."
++ "The requested website must be valid."
++ "There was a problem saving your password to “%@”. You can copy the password to save it manually."
++ "There was a problem saving your password. You can copy the password to save it manually."
++ "Unable to Save Password"
++ "Update Password (save login information sheet in app)"
++ "Update Password?"
++ "Without Special Characters"
++ "Without Special Characters (description of password)"
++ "You don’t have any passwords or passkeys saved for this app. You may be able to use one of the options below to sign in."
++ "You don’t have any passwords or passkeys saved for this website. You may be able to use one of the options below to sign in."
++ "_ASPasswordGeneratingViewController"
++ "_ASPasswordSavingAlertHeaderViewController"
++ "_ASPasswordSavingViewController"
++ "_SFAppPasswordSavingViewController"
++ "_TtC22AuthenticationServices23ASCredentialDataManager"
++ "_TtC22AuthenticationServices49ASAccountUpgradeInformationProviderImplementation"
++ "_TtC22AuthenticationServicesP33_8859F5B23BC6C342D9A0DFE2E84637E530ASCredentialDataManagerInterop"
++ "_TtCC22AuthenticationServices23ASCredentialDataManagerP33_8859F5B23BC6C342D9A0DFE2E84637E59SaveState"
++ "_TtCE22AuthenticationServicesCSo26ASPasswordSavingModalStateP33_55D8785A7BC1CA97B1AA86B1C940EAFE8StateBox"
++ "_TtCE22AuthenticationServicesCSo30ASPasswordSavingManagerRequestP33_E3D5BD4ACC0E8EB64927CCB51651017B10RequestBox"
++ "_TtCE22AuthenticationServicesCSo30ASPasswordSavingProvidersStateP33_9474E4B5850B28DAF77C906E65A66F678StateBox"
++ "_beginNonUIRequestAllowingRequestingUI:connectionHandler:"
++ "_finishWithError:completion:"
++ "_finishWithResults:error:completion:"
++ "_headerImage"
++ "_highestCommonVersionNumber:credentialProviderBundleIdentifier:importerApplicationIdentifier:completionHandler:"
++ "_processMetadataEntryFetchedFromKeychain:forDomain:allowRefreshingDataFromNetwork:allowCachingResult:"
++ "_savedAccountStore"
++ "_selectedImporterApplicationIdentifier"
++ "_setHeaderContentViewController:"
++ "_setSelectedImporterApplicationIdentifierForCurrentOperation:"
++ "action"
++ "app"
++ "associatedDomainMatches"
++ "associatedDomainsManager"
++ "autoFillQuirksManager"
++ "bestDomainAndAllApprovedDatabaseEntriesForAppID:completionHandler:"
++ "boxedRequest"
++ "boxedState"
++ "bundleRecordIsEntitledWebBrowser:"
++ "completeGeneratePasswordRequestWithResults:completionHandler:"
++ "completeSavePasswordRequestWithCompletionHandler:"
++ "confirmPasswordFieldPasswordRules"
++ "continuationState"
++ "createViewController"
++ "credentialKind"
++ "credentialProviderInformationForAutoFillOfUsername:password:serviceIdentifierType:serviceIdentifier:hostApplicationBundleIdentifier:completionHandler:"
++ "credentialProviderInformationForGenerationOfStrongPassword:serviceIdentifierType:serviceIdentifier:hostApplicationBundleIdentifier:completionHandler:"
++ "criteriaForExactFQDNPasswordMatchesOfURL:"
++ "displayNameForExtension:"
++ "event"
++ "extensionIsEnabled:"
++ "extensionSupportsGeneratingPasswordCredentials:"
++ "extensionSupportsSavingPasswordCredentials:"
++ "external"
++ "externalCredential"
++ "externalProviderBundleID"
++ "externalProviderExtensionBundleID"
++ "fetchSavingStateForRequest:applicationIdentifier:context:completionHandler:"
++ "fetchSavingStateForWebsiteURL:applicationIdentifier:credential:passwordIsAutoGenerated:context:completionHandler:"
++ "fetchSharingGroupsThatIncludeFamilyMembersWithCompletionHandler:"
++ "generalPasteboard"
++ "getAllowedActionForAppCredentialsWithAppID:websiteURL:user:password:completionHandler:"
++ "getCanSaveCredentialsWithAppID:websiteURL:completionHandler:"
++ "getContainsPersistentIdentifier:completionHandler:"
++ "getCredentialStateForClientID:completion:"
++ "getCredentialsForAppWithAppID:websiteURL:completionHandler:"
++ "getEnabledExtensionsWithCompletion:"
++ "getShouldPresentSaveRequestForRequest:completionHandler:"
++ "getWarningForSavedAccount:completionHandler:"
++ "highLevelDomainsProvider"
++ "http"
++ "https"
++ "initAndPrewarmSavedAccounts:forTesting:"
++ "initWithExtension:request:"
++ "initWithExtension:request:isInteractive:"
++ "initWithHeaderImage:"
++ "initWithIdentifier:type:displayName:"
++ "initWithKind:value:"
++ "initWithPasswordRequirementsByDomain:passwordRulesByDomain:"
++ "initWithPasswords:"
++ "initWithRequest:"
++ "initWithSavedAccountStore:"
++ "initWithSavedAccountStore:autoFillQuirksManager:passwordWarningStore:highLevelDomainsProvider:"
++ "initWithSavedAccountStore:autoFillQuirksManager:userDefaults:highLevelDomainsProvider:"
++ "initWithServiceIdentifier:credential:sessionID:event:"
++ "initWithServiceIdentifier:credential:sessionID:event:passwordKind:"
++ "initWithServiceIdentifier:credential:title:sessionID:event:"
++ "initWithServiceIdentifier:credential:title:sessionID:event:passwordKind:"
++ "initWithServiceIdentifier:passwordFieldPasswordRules:confirmPasswordFieldPasswordRules:passwordRulesFromQuirks:"
++ "initWithServiceIdentifier:serviceIdentifierType:serviceDisplayName:externalRecordIdentifier:user:rank:"
++ "initWithState:"
++ "initWithUser:password:serviceIdentifierType:serviceIdentifier:site:creationDate:externalProviderBundleIdentifier:externalProviderExtensionBundleIdentifier:"
++ "isAppIDEligibleForSavingPasswords:isEnabledAsCredentialProvider:"
++ "isSharedStoreInitialized"
++ "kind"
++ "knownWebsiteNameForDomain:allowCachingResult:"
++ "matchLevel"
++ "mergeDuplicateSavedAccountsWithPasswordsWithCompletionHandler:"
++ "owner"
++ "passwordFieldPasswordRules"
++ "passwordGeneratingViewController:didFinishWithResults:error:completion:"
++ "passwordIsAutoGenerated"
++ "passwordKind"
++ "passwordRulesFromQuirks"
++ "passwordSavingViewController:didFinishWithError:completion:"
++ "passwordViewControllerDidFinish:"
++ "passwordWarningStore"
++ "passwords"
++ "performGeneratePasswordsRequestWithoutUserInteraction:"
++ "performSavePasswordRequestWithoutUserInteractionIfPossible:"
++ "persistentIdentifierForSavedAccount:"
++ "potentialMatches"
++ "preferredProviderState"
++ "prepareInterfaceForGeneratePasswordsRequest:"
++ "prepareInterfaceForSavePasswordRequest:"
++ "prepareToCompleteGeneratePasswordsRequestWithHost:results:completion:"
++ "prepareToCompleteGeneratePasswordsRequestWithResults:completion:"
++ "prepareToCompleteSavePasswordRequestWithCompletion:"
++ "prepareToCompleteSavePasswordRequestWithHost:completion:"
++ "presentUIForPasswordSavingViewController:"
++ "properties"
++ "protectionSpaces"
++ "request"
++ "safari_HTMLFormProtectionSpaceForURL:"
++ "safari_URL"
++ "safari_isAppleAccountPasskeyRPID"
++ "saveStates"
++ "savedAccountStore"
++ "selectedImporterApplicationIdentifier"
++ "sessionID"
++ "setContext:"
++ "setSelectedImporterApplicationIdentifier:"
++ "setShouldIgnoreKeychainUpdatesDuringMaintenanceActivity:"
++ "setString:"
++ "setUserInfo:"
++ "shouldShowSecurityPromptsOnSignIn"
++ "shouldShowWarningsWhenLoggingIn"
++ "v16@?0@\"WBSPasswordWarning\"8"
++ "v20@?0B8@\"NSArray\"12"
++ "v24@0:8@\"ASGeneratePasswordsRequest\"16"
++ "v24@0:8@\"ASSavePasswordRequest\"16"
++ "v24@0:8@\"UIViewController\"16"
++ "v24@0:8@?<v@?q>16"
++ "v24@?0@\"NSString\"8@\"NSArray\"16"
++ "v24@?0@\"NSString\"8@\"NSString\"16"
++ "v32@0:8@\"ASGeneratePasswordsResult\"16@?<v@?>24"
++ "v32@?0@\"NSString\"8@\"NSString\"16@\"NSString\"24"
++ "v40@0:8@\"ASPasswordSavingManagerRequest\"16@\"NSString\"24@?<v@?@\"NSError\">32"
++ "v40@0:8@\"_ASCredentialProviderExtensionHostContext\"16@\"ASGeneratePasswordsResult\"24@?<v@?>32"
++ "v40@0:8@16@24B32B36"
++ "v40@?0q8@\"NSString\"16@\"NSArray\"24@\"WBSSavedAccount\"32"
++ "v48@0:8@\"ASPasswordSavingManagerRequest\"16@\"NSString\"24@\"WBSSavedAccountContext\"32@?<v@?@\"ASPasswordSavingProvidersState\">40"
++ "v60@0:8@\"NSURL\"16@\"NSString\"24@\"ASPasswordCredential\"32B40@\"WBSSavedAccountContext\"44@?<v@?@\"ASPasswordSavingProvidersState\">52"
++ "validateRequest:applicationIdentifier:completionHandler:"
++ "validateRequest:completionHandler:"
++ "waitForCompletion()"
++ "websiteURLString"
+- "-[_ASAgentCredentialExchangeListener _setSelectedImporterBundleIdentifierForCurrentOperation:]"
+- "<%@: %p; type=%@; identifier=%@>"
+- "@16@?0@\"FAFamilyMember\"8"
+- "@16@?0@\"KCSharingParticipant\"8"
+- "AuthenticationServices/ASCredentialUpdater.swift"
+- "AuthenticationServicesAgent"
+- "AuthenticationSession"
+- "Authorization"
+- "B16@?0@\"FAFamilyMember\"8"
+- "Class get_SFAccountManagerAppearanceValuesClass(void)_block_invoke"
+- "Could not fetch bundle identifier from application identifier %{public}@. %{public}@"
+- "Could not find importer extension with bundle ID %{public}s"
+- "CredentialExchange"
+- "CredentialProviderExtension"
+- "Failed to fetch groups with error: %@"
+- "Failed to get FamilyCircle with error: %@"
+- "PasswordManager"
+- "PasswordsIcons"
+- "Received KCSharingParticipant with nil handle %{sensitive}@."
+- "T@\"NSString\",&,N,V_selectedImporterBundleIdentifier"
+- "WebsiteNameProvider"
+- "You can turn on iCloud Keychain in Settings › Apple ID › iCloud › Passwords and Keychain."
+- "_SFAccountManagerAppearanceValues"
+- "_acknowledgeTip:"
+- "_beginNonUIRequest:connectionHandler:"
+- "_checkEligibilityForFamilySharingTipWithCompletionHandler:"
+- "_checkEligibilityForGeneralSharingTipWithCompletionHandler:"
+- "_checkEligibilityForImportPasswordsTipWithCompletionHandler:"
+- "_checkEligibilityForiCloudKeychainTipWithCompletionHandler:"
+- "_defaultKeyForTipType:"
+- "_hasAcknowledgedTip:"
+- "_highestCommonVersionNumber:credentialProviderBundleIdentifier:importerBundleIdentifier:completionHandler:"
+- "_processMetadataEntryFetchedFromKeychain:forDomain:allowRefreshingDataFromNetwork:"
+- "_refreshDateForTip:"
+- "_selectedImporterBundleIdentifier"
+- "_setSelectedImporterBundleIdentifierForCurrentOperation:"
+- "chicletSize"
+- "compare:"
+- "defaultMonogramBackgroundColor"
+- "initWithPasswordRequirementsByDomain:"
+- "initWithServiceIdentifier:serviceIdentifierType:externalRecordIdentifier:user:rank:"
+- "initWithUser:password:site:creationDate:externalProviderBundleIdentifier:"
+- "intersectsSet:"
+- "isAppleAccountBrandingEnabled"
+- "isOngoingCredentialSharingEnabled"
+- "selectedImporterBundleIdentifier"
+- "setSelectedImporterBundleIdentifier:"
+- "setWithArray:"
+
+```

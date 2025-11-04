@@ -1,0 +1,656 @@
+## QuartzCore
+
+> `/System/Library/Frameworks/QuartzCore.framework/QuartzCore`
+
+```diff
+
+-1193.39.9.0.0
+-  __TEXT.__text: 0x3672c8
++1193.44.0.0.0
++  __TEXT.__text: 0x3679ac
+   __TEXT.__auth_stubs: 0x55e0
+   __TEXT.__objc_methlist: 0xb584
+-  __TEXT.__const: 0x17e80
++  __TEXT.__const: 0x17e90
+   __TEXT.__dlopen_cstrs: 0xe0
+-  __TEXT.__cstring: 0x24746
++  __TEXT.__cstring: 0x24732
+   __TEXT.__gcc_except_tab: 0x7308
+-  __TEXT.__oslogstring: 0x105ef
++  __TEXT.__oslogstring: 0x10626
+   __TEXT.__unwind_info: 0x84f8
+   __TEXT.__eh_frame: 0xc0
+   __TEXT.__objc_classname: 0xdfc
+   __TEXT.__objc_methname: 0x114de
+-  __TEXT.__objc_methtype: 0x3aba
++  __TEXT.__objc_methtype: 0x3af8
+   __TEXT.__objc_stubs: 0xd800
+   __DATA_CONST.__got: 0xd60
+-  __DATA_CONST.__const: 0xf068
++  __DATA_CONST.__const: 0xf048
+   __DATA_CONST.__objc_classlist: 0x450
+   __DATA_CONST.__objc_catlist: 0x60
+   __DATA_CONST.__objc_protolist: 0xd0
+
+   __DATA_CONST.__objc_superrefs: 0x4d0
+   __DATA_CONST.__objc_arraydata: 0x3690
+   __AUTH_CONST.__auth_got: 0x2b08
+-  __AUTH_CONST.__const: 0x15910
++  __AUTH_CONST.__const: 0x15970
+   __AUTH_CONST.__cfstring: 0x16ce0
+   __AUTH_CONST.__objc_const: 0xe520
+   __AUTH_CONST.__objc_doubleobj: 0x150
+
+   __AUTH.__data: 0x60
+   __DATA.__objc_ivar: 0x6d0
+   __DATA.__data: 0x1468
+-  __DATA.__bss: 0x40cc
++  __DATA.__bss: 0x410c
+   __DATA.__common: 0x10
+   __DATA_DIRTY.__objc_data: 0x18b0
+   __DATA_DIRTY.__data: 0x570
+-  __DATA_DIRTY.__bss: 0x62c8
++  __DATA_DIRTY.__bss: 0x62e8
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: D31F46C9-2BD4-3BB6-A626-9D08D2576E58
+-  Functions: 11700
+-  Symbols:   32077
++  UUID: FA63957A-F8A6-3537-8B26-A63EFDF813F0
++  Functions: 11704
++  Symbols:   32084
+   CStrings:  14777
+ 
+Symbols:
++ GCC_except_table10074
++ GCC_except_table10077
++ GCC_except_table10079
++ GCC_except_table10096
++ GCC_except_table10355
++ GCC_except_table10387
++ GCC_except_table10392
++ GCC_except_table10537
++ GCC_except_table10542
++ GCC_except_table10563
++ GCC_except_table10914
++ GCC_except_table10972
++ GCC_except_table11177
++ GCC_except_table11205
++ GCC_except_table11228
++ GCC_except_table11240
++ GCC_except_table11241
++ GCC_except_table11276
++ GCC_except_table11306
++ GCC_except_table11312
++ GCC_except_table11318
++ GCC_except_table11325
++ GCC_except_table11380
++ GCC_except_table11431
++ GCC_except_table11432
++ GCC_except_table11468
++ GCC_except_table11473
++ GCC_except_table11486
++ GCC_except_table11641
++ GCC_except_table11647
++ GCC_except_table11651
++ GCC_except_table11660
++ GCC_except_table11704
++ GCC_except_table11705
++ GCC_except_table11836
++ GCC_except_table5535
++ GCC_except_table5599
++ GCC_except_table5602
++ GCC_except_table5610
++ GCC_except_table5614
++ GCC_except_table5616
++ GCC_except_table5621
++ GCC_except_table5624
++ GCC_except_table5638
++ GCC_except_table5646
++ GCC_except_table5652
++ GCC_except_table5656
++ GCC_except_table5669
++ GCC_except_table5685
++ GCC_except_table5702
++ GCC_except_table5705
++ GCC_except_table5734
++ GCC_except_table5746
++ GCC_except_table5748
++ GCC_except_table5751
++ GCC_except_table5813
++ GCC_except_table5820
++ GCC_except_table5826
++ GCC_except_table5869
++ GCC_except_table5877
++ GCC_except_table5915
++ GCC_except_table5923
++ GCC_except_table5934
++ GCC_except_table5981
++ GCC_except_table5984
++ GCC_except_table5986
++ GCC_except_table6013
++ GCC_except_table6015
++ GCC_except_table6020
++ GCC_except_table6025
++ GCC_except_table6046
++ GCC_except_table6054
++ GCC_except_table6061
++ GCC_except_table6127
++ GCC_except_table6134
++ GCC_except_table6279
++ GCC_except_table6725
++ GCC_except_table6731
++ GCC_except_table6738
++ GCC_except_table6741
++ GCC_except_table6757
++ GCC_except_table6762
++ GCC_except_table6765
++ GCC_except_table6770
++ GCC_except_table6791
++ GCC_except_table6799
++ GCC_except_table6801
++ GCC_except_table6803
++ GCC_except_table6808
++ GCC_except_table6814
++ GCC_except_table6816
++ GCC_except_table6824
++ GCC_except_table6828
++ GCC_except_table6830
++ GCC_except_table6832
++ GCC_except_table6853
++ GCC_except_table7043
++ GCC_except_table7045
++ GCC_except_table7258
++ GCC_except_table7264
++ GCC_except_table7269
++ GCC_except_table7282
++ GCC_except_table7383
++ GCC_except_table7385
++ GCC_except_table7387
++ GCC_except_table7390
++ GCC_except_table7429
++ GCC_except_table7433
++ GCC_except_table7436
++ GCC_except_table7439
++ GCC_except_table7443
++ GCC_except_table7446
++ GCC_except_table7457
++ GCC_except_table7465
++ GCC_except_table7491
++ GCC_except_table7495
++ GCC_except_table7617
++ GCC_except_table7621
++ GCC_except_table7624
++ GCC_except_table7629
++ GCC_except_table7631
++ GCC_except_table7634
++ GCC_except_table7637
++ GCC_except_table7642
++ GCC_except_table7645
++ GCC_except_table7648
++ GCC_except_table7656
++ GCC_except_table7660
++ GCC_except_table7669
++ GCC_except_table7671
++ GCC_except_table7674
++ GCC_except_table7677
++ GCC_except_table7685
++ GCC_except_table7687
++ GCC_except_table7692
++ GCC_except_table7697
++ GCC_except_table7701
++ GCC_except_table7703
++ GCC_except_table7705
++ GCC_except_table7714
++ GCC_except_table7731
++ GCC_except_table7733
++ GCC_except_table7737
++ GCC_except_table7740
++ GCC_except_table7743
++ GCC_except_table7747
++ GCC_except_table7759
++ GCC_except_table7767
++ GCC_except_table7769
++ GCC_except_table7772
++ GCC_except_table7774
++ GCC_except_table7781
++ GCC_except_table7783
++ GCC_except_table7785
++ GCC_except_table7793
++ GCC_except_table7795
++ GCC_except_table7888
++ GCC_except_table7890
++ GCC_except_table7903
++ GCC_except_table7909
++ GCC_except_table7917
++ GCC_except_table7921
++ GCC_except_table7924
++ GCC_except_table7933
++ GCC_except_table7935
++ GCC_except_table8027
++ GCC_except_table8030
++ GCC_except_table8035
++ GCC_except_table8041
++ GCC_except_table8330
++ GCC_except_table8339
++ GCC_except_table8346
++ GCC_except_table8351
++ GCC_except_table8482
++ GCC_except_table8489
++ GCC_except_table8510
++ GCC_except_table8586
++ GCC_except_table8594
++ GCC_except_table8617
++ GCC_except_table8643
++ GCC_except_table8645
++ GCC_except_table8658
++ GCC_except_table8661
++ GCC_except_table8686
++ GCC_except_table8688
++ GCC_except_table8691
++ GCC_except_table8697
++ GCC_except_table8701
++ GCC_except_table8705
++ GCC_except_table8707
++ GCC_except_table8720
++ GCC_except_table8722
++ GCC_except_table8732
++ GCC_except_table8735
++ GCC_except_table8739
++ GCC_except_table8756
++ GCC_except_table8799
++ GCC_except_table8821
++ GCC_except_table8823
++ GCC_except_table8825
++ GCC_except_table8896
++ GCC_except_table9010
++ GCC_except_table9029
++ GCC_except_table9031
++ GCC_except_table9173
++ GCC_except_table9212
++ GCC_except_table9369
++ GCC_except_table9529
++ GCC_except_table9576
++ GCC_except_table9614
++ GCC_except_table9775
++ GCC_except_table9779
++ GCC_except_table9783
++ GCC_except_table9835
++ _CARenderServerGetVsyncOffSupported
++ __XGetVsyncOffSupported
++ __ZL10write_attrjPKv12_CAValueTypePv.21477
++ __ZL11initialized.18693
++ __ZL15copy_dictionaryjPKv12_CAValueTypePv.21499
++ __ZL8set_attrPKvS0_Pv.21491
++ __ZL9copy_attrjPKv12_CAValueTypePv.21501
++ __ZZL16defines_propertyjE5atoms.24260
++ ___Block_byref_object_copy_.21687
++ ___Block_byref_object_dispose_.21688
++ ___block_descriptor_tmp.1.18961
++ ___block_descriptor_tmp.1.19300
++ ___block_descriptor_tmp.1.21032
++ ___block_descriptor_tmp.10.21693
++ ___block_descriptor_tmp.11.18977
++ ___block_descriptor_tmp.11.24605
++ ___block_descriptor_tmp.12.23690
++ ___block_descriptor_tmp.17.18981
++ ___block_descriptor_tmp.18.23726
++ ___block_descriptor_tmp.18914
++ ___block_descriptor_tmp.18953
++ ___block_descriptor_tmp.19048
++ ___block_descriptor_tmp.19304
++ ___block_descriptor_tmp.20398
++ ___block_descriptor_tmp.20457
++ ___block_descriptor_tmp.20469
++ ___block_descriptor_tmp.21031
++ ___block_descriptor_tmp.21690
++ ___block_descriptor_tmp.21754
++ ___block_descriptor_tmp.23686
++ ___block_descriptor_tmp.24591
++ ___block_descriptor_tmp.3.18918
++ ___block_descriptor_tmp.374
++ ___block_descriptor_tmp.4.18924
++ ___block_descriptor_tmp.4.18966
++ ___block_descriptor_tmp.472.23316
++ ___block_descriptor_tmp.61.22552
++ ___block_descriptor_tmp.7.18927
++ ___block_descriptor_tmp.7.18957
++ ___block_descriptor_tmp.8.21692
++ ___block_descriptor_tmp.9.18937
++ ___block_literal_global.13.18975
++ ___block_literal_global.14.23688
++ ___block_literal_global.144.20338
++ ___block_literal_global.18878
++ ___block_literal_global.18951
++ ___block_literal_global.19.18979
++ ___block_literal_global.19046
++ ___block_literal_global.19155
++ ___block_literal_global.19302
++ ___block_literal_global.19547
++ ___block_literal_global.199.20283
++ ___block_literal_global.20366
++ ___block_literal_global.20396
++ ___block_literal_global.20467
++ ___block_literal_global.20954
++ ___block_literal_global.21081
++ ___block_literal_global.21689
++ ___block_literal_global.21746
++ ___block_literal_global.23665
++ ___block_literal_global.23680
++ ___block_literal_global.24425
++ ___block_literal_global.24526
++ ___block_literal_global.24603
++ ___block_literal_global.24821
++ ___block_literal_global.3.19292
++ ___block_literal_global.376
++ ___block_literal_global.453.22767
++ ___block_literal_global.474.23302
++ ___block_literal_global.478.22872
++ ___block_literal_global.6.18964
++ ___block_literal_global.7.24421
++ ___block_literal_global.9.18955
++ ___copy_helper_block_8_88c16_ZTSN2CA6BoundsE
++ ___destroy_helper_block_8_88
+- GCC_except_table10073
+- GCC_except_table10075
+- GCC_except_table10078
+- GCC_except_table10095
+- GCC_except_table10352
+- GCC_except_table10384
+- GCC_except_table10389
+- GCC_except_table10534
+- GCC_except_table10536
+- GCC_except_table10560
+- GCC_except_table10911
+- GCC_except_table10969
+- GCC_except_table11174
+- GCC_except_table11199
+- GCC_except_table11225
+- GCC_except_table11237
+- GCC_except_table11238
+- GCC_except_table11273
+- GCC_except_table11303
+- GCC_except_table11309
+- GCC_except_table11315
+- GCC_except_table11322
+- GCC_except_table11377
+- GCC_except_table11428
+- GCC_except_table11429
+- GCC_except_table11465
+- GCC_except_table11470
+- GCC_except_table11483
+- GCC_except_table11638
+- GCC_except_table11644
+- GCC_except_table11648
+- GCC_except_table11657
+- GCC_except_table11701
+- GCC_except_table11702
+- GCC_except_table11828
+- GCC_except_table5534
+- GCC_except_table5598
+- GCC_except_table5601
+- GCC_except_table5608
+- GCC_except_table5613
+- GCC_except_table5615
+- GCC_except_table5620
+- GCC_except_table5623
+- GCC_except_table5637
+- GCC_except_table5645
+- GCC_except_table5651
+- GCC_except_table5655
+- GCC_except_table5668
+- GCC_except_table5684
+- GCC_except_table5701
+- GCC_except_table5704
+- GCC_except_table5733
+- GCC_except_table5745
+- GCC_except_table5747
+- GCC_except_table5750
+- GCC_except_table5812
+- GCC_except_table5819
+- GCC_except_table5825
+- GCC_except_table5868
+- GCC_except_table5876
+- GCC_except_table5914
+- GCC_except_table5922
+- GCC_except_table5933
+- GCC_except_table5980
+- GCC_except_table5983
+- GCC_except_table5985
+- GCC_except_table6012
+- GCC_except_table6014
+- GCC_except_table6018
+- GCC_except_table6023
+- GCC_except_table6045
+- GCC_except_table6052
+- GCC_except_table6060
+- GCC_except_table6125
+- GCC_except_table6133
+- GCC_except_table6278
+- GCC_except_table6724
+- GCC_except_table6730
+- GCC_except_table6735
+- GCC_except_table6740
+- GCC_except_table6754
+- GCC_except_table6761
+- GCC_except_table6763
+- GCC_except_table6769
+- GCC_except_table6790
+- GCC_except_table6797
+- GCC_except_table6800
+- GCC_except_table6802
+- GCC_except_table6807
+- GCC_except_table6811
+- GCC_except_table6815
+- GCC_except_table6823
+- GCC_except_table6827
+- GCC_except_table6829
+- GCC_except_table6831
+- GCC_except_table6851
+- GCC_except_table7042
+- GCC_except_table7044
+- GCC_except_table7257
+- GCC_except_table7262
+- GCC_except_table7268
+- GCC_except_table7280
+- GCC_except_table7382
+- GCC_except_table7384
+- GCC_except_table7386
+- GCC_except_table7389
+- GCC_except_table7428
+- GCC_except_table7432
+- GCC_except_table7435
+- GCC_except_table7437
+- GCC_except_table7440
+- GCC_except_table7445
+- GCC_except_table7456
+- GCC_except_table7464
+- GCC_except_table7490
+- GCC_except_table7494
+- GCC_except_table7615
+- GCC_except_table7619
+- GCC_except_table7622
+- GCC_except_table7628
+- GCC_except_table7630
+- GCC_except_table7632
+- GCC_except_table7636
+- GCC_except_table7641
+- GCC_except_table7644
+- GCC_except_table7647
+- GCC_except_table7654
+- GCC_except_table7658
+- GCC_except_table7668
+- GCC_except_table7670
+- GCC_except_table7672
+- GCC_except_table7676
+- GCC_except_table7682
+- GCC_except_table7686
+- GCC_except_table7689
+- GCC_except_table7693
+- GCC_except_table7698
+- GCC_except_table7702
+- GCC_except_table7704
+- GCC_except_table7713
+- GCC_except_table7730
+- GCC_except_table7732
+- GCC_except_table7736
+- GCC_except_table7739
+- GCC_except_table7742
+- GCC_except_table7746
+- GCC_except_table7758
+- GCC_except_table7766
+- GCC_except_table7768
+- GCC_except_table7771
+- GCC_except_table7773
+- GCC_except_table7780
+- GCC_except_table7782
+- GCC_except_table7784
+- GCC_except_table7790
+- GCC_except_table7794
+- GCC_except_table7887
+- GCC_except_table7889
+- GCC_except_table7896
+- GCC_except_table7908
+- GCC_except_table7916
+- GCC_except_table7920
+- GCC_except_table7922
+- GCC_except_table7932
+- GCC_except_table7934
+- GCC_except_table8025
+- GCC_except_table8029
+- GCC_except_table8033
+- GCC_except_table8037
+- GCC_except_table8329
+- GCC_except_table8338
+- GCC_except_table8341
+- GCC_except_table8349
+- GCC_except_table8481
+- GCC_except_table8487
+- GCC_except_table8508
+- GCC_except_table8584
+- GCC_except_table8590
+- GCC_except_table8616
+- GCC_except_table8642
+- GCC_except_table8644
+- GCC_except_table8657
+- GCC_except_table8660
+- GCC_except_table8684
+- GCC_except_table8687
+- GCC_except_table8689
+- GCC_except_table8694
+- GCC_except_table8700
+- GCC_except_table8702
+- GCC_except_table8706
+- GCC_except_table8719
+- GCC_except_table8721
+- GCC_except_table8731
+- GCC_except_table8733
+- GCC_except_table8736
+- GCC_except_table8755
+- GCC_except_table8798
+- GCC_except_table8819
+- GCC_except_table8822
+- GCC_except_table8824
+- GCC_except_table8895
+- GCC_except_table9009
+- GCC_except_table9028
+- GCC_except_table9030
+- GCC_except_table9172
+- GCC_except_table9211
+- GCC_except_table9368
+- GCC_except_table9528
+- GCC_except_table9575
+- GCC_except_table9613
+- GCC_except_table9774
+- GCC_except_table9777
+- GCC_except_table9782
+- GCC_except_table9834
+- __ZL10write_attrjPKv12_CAValueTypePv.21472
+- __ZL11initialized.18694
+- __ZL15copy_dictionaryjPKv12_CAValueTypePv.21494
+- __ZL8set_attrPKvS0_Pv.21486
+- __ZL9copy_attrjPKv12_CAValueTypePv.21496
+- __ZZL16defines_propertyjE5atoms.24254
+- ___Block_byref_object_copy_.21682
+- ___Block_byref_object_dispose_.21683
+- ___block_descriptor_tmp.1.18956
+- ___block_descriptor_tmp.1.19295
+- ___block_descriptor_tmp.1.21027
+- ___block_descriptor_tmp.10.21688
+- ___block_descriptor_tmp.11.18972
+- ___block_descriptor_tmp.11.24599
+- ___block_descriptor_tmp.12.23684
+- ___block_descriptor_tmp.17.18976
+- ___block_descriptor_tmp.18.23720
+- ___block_descriptor_tmp.18909
+- ___block_descriptor_tmp.18948
+- ___block_descriptor_tmp.19043
+- ___block_descriptor_tmp.19299
+- ___block_descriptor_tmp.20393
+- ___block_descriptor_tmp.20452
+- ___block_descriptor_tmp.20464
+- ___block_descriptor_tmp.21026
+- ___block_descriptor_tmp.21685
+- ___block_descriptor_tmp.21748
+- ___block_descriptor_tmp.23680
+- ___block_descriptor_tmp.24585
+- ___block_descriptor_tmp.3.18913
+- ___block_descriptor_tmp.375
+- ___block_descriptor_tmp.4.18919
+- ___block_descriptor_tmp.4.18961
+- ___block_descriptor_tmp.472.23310
+- ___block_descriptor_tmp.61.22546
+- ___block_descriptor_tmp.7.18922
+- ___block_descriptor_tmp.7.18952
+- ___block_descriptor_tmp.8.21687
+- ___block_descriptor_tmp.9.18932
+- ___block_literal_global.13.18970
+- ___block_literal_global.14.23682
+- ___block_literal_global.144.20333
+- ___block_literal_global.18873
+- ___block_literal_global.18946
+- ___block_literal_global.19.18974
+- ___block_literal_global.19041
+- ___block_literal_global.19150
+- ___block_literal_global.19297
+- ___block_literal_global.19542
+- ___block_literal_global.199.20278
+- ___block_literal_global.20361
+- ___block_literal_global.20391
+- ___block_literal_global.20462
+- ___block_literal_global.20949
+- ___block_literal_global.21076
+- ___block_literal_global.21684
+- ___block_literal_global.21740
+- ___block_literal_global.23659
+- ___block_literal_global.23674
+- ___block_literal_global.24419
+- ___block_literal_global.24520
+- ___block_literal_global.24597
+- ___block_literal_global.24815
+- ___block_literal_global.3.19287
+- ___block_literal_global.377
+- ___block_literal_global.453.22761
+- ___block_literal_global.474.23296
+- ___block_literal_global.478.22866
+- ___block_literal_global.6.18959
+- ___block_literal_global.7.24415
+- ___block_literal_global.9.18950
+CStrings:
++ "23C5025t"
++ "Required precompiled pipeline not found: '%s'\n"
++ "failed to extract msg for fence tx reply message %i\n"
++ "{ModeSet={vector<CA::WindowServer::Display::Mode, std::allocator<CA::WindowServer::Display::Mode>>=^{Mode}^{Mode}{?=^{Mode}}}{set<std::tuple<unsigned short, unsigned short>, std::less<std::tuple<unsigned short, unsigned short>>, std::allocator<std::tuple<unsigned short, unsigned short>>>={__tree<std::tuple<unsigned short, unsigned short>, std::less<std::tuple<unsigned short, unsigned short>>, std::allocator<std::tuple<unsigned short, unsigned short>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}}{unordered_map<unsigned long long, CA::Render::PerModeInfo, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, CA::Render::PerModeInfo>>>={__hash_table<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, std::__unordered_map_hasher<unsigned long long, std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, void *> *> *>>>={?=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, void *> *> *>>={?=Q}}}}{?={__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, void *> *>=^v}}{?=Q}{?=f}}}I}16@0:8"
++ "{unordered_map<unsigned int, unsigned int, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned int>>>=\"__table_\"{__hash_table<std::__hash_value_type<unsigned int, unsigned int>, std::__unordered_map_hasher<unsigned int, std::__hash_value_type<unsigned int, unsigned int>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::__hash_value_type<unsigned int, unsigned int>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::__hash_value_type<unsigned int, unsigned int>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}"
+- "23B72"
+- "CA_DISABLE_SIL_POLLING"
+- "Required precompiled pipeline not found: %s\n"
+- "{ModeSet={vector<CA::WindowServer::Display::Mode, std::allocator<CA::WindowServer::Display::Mode>>=^{Mode}^{Mode}^{Mode}}{set<std::tuple<unsigned short, unsigned short>, std::less<std::tuple<unsigned short, unsigned short>>, std::allocator<std::tuple<unsigned short, unsigned short>>>={__tree<std::tuple<unsigned short, unsigned short>, std::less<std::tuple<unsigned short, unsigned short>>, std::allocator<std::tuple<unsigned short, unsigned short>>>=^v{__tree_end_node<std::__tree_node_base<void *> *>=^v}Q}}{unordered_map<unsigned long long, CA::Render::PerModeInfo, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, CA::Render::PerModeInfo>>>={__hash_table<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, std::__unordered_map_hasher<unsigned long long, std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, void *> *> *>>>=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, void *> *> *>>=Q}}{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, void *> *>=^v}Qf}}I}16@0:8"
+- "{unordered_map<unsigned int, unsigned int, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned int>>>=\"__table_\"{__hash_table<std::__hash_value_type<unsigned int, unsigned int>, std::__unordered_map_hasher<unsigned int, std::__hash_value_type<unsigned int, unsigned int>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::__hash_value_type<unsigned int, unsigned int>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::__hash_value_type<unsigned int, unsigned int>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}"
+
+```

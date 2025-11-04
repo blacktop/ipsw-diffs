@@ -1,0 +1,249 @@
+## DeviceDiscoveryUI
+
+> `/System/Library/Frameworks/DeviceDiscoveryUI.framework/DeviceDiscoveryUI`
+
+```diff
+
+-2094.20.72.2.3
+-  __TEXT.__text: 0xefb84
+-  __TEXT.__auth_stubs: 0x3f10
++2094.30.26.2.3
++  __TEXT.__text: 0xfae64
++  __TEXT.__auth_stubs: 0x4030
+   __TEXT.__objc_methlist: 0x10b0
+-  __TEXT.__const: 0x8af4
++  __TEXT.__const: 0x9044
+   __TEXT.__gcc_except_tab: 0x4c
+-  __TEXT.__cstring: 0x35f1
+-  __TEXT.__oslogstring: 0x36b5
+-  __TEXT.__constg_swiftt: 0x1c10
+-  __TEXT.__swift5_typeref: 0x20a96
+-  __TEXT.__swift5_builtin: 0xc8
+-  __TEXT.__swift5_reflstr: 0x2b66
+-  __TEXT.__swift5_fieldmd: 0x2380
+-  __TEXT.__swift5_assocty: 0x620
++  __TEXT.__cstring: 0x3601
++  __TEXT.__oslogstring: 0x3905
++  __TEXT.__constg_swiftt: 0x1e14
++  __TEXT.__swift5_typeref: 0x20dbc
++  __TEXT.__swift5_builtin: 0xdc
++  __TEXT.__swift5_reflstr: 0x2c96
++  __TEXT.__swift5_fieldmd: 0x2494
++  __TEXT.__swift5_assocty: 0x668
+   __TEXT.__swift5_proto: 0x238
+-  __TEXT.__swift5_types: 0x1e8
+-  __TEXT.__swift5_capture: 0xe98
+-  __TEXT.__swift5_mpenum: 0x30
+-  __TEXT.__swift_as_entry: 0xf0
+-  __TEXT.__swift_as_ret: 0x108
++  __TEXT.__swift5_types: 0x1f4
++  __TEXT.__swift5_capture: 0xf84
++  __TEXT.__swift5_mpenum: 0x38
++  __TEXT.__swift_as_entry: 0x10c
++  __TEXT.__swift_as_ret: 0x130
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x27a8
+-  __TEXT.__eh_frame: 0x39f0
++  __TEXT.__unwind_info: 0x29f0
++  __TEXT.__eh_frame: 0x3e08
+   __TEXT.__objc_classname: 0x49e
+-  __TEXT.__objc_methname: 0x3090
++  __TEXT.__objc_methname: 0x3057
+   __TEXT.__objc_methtype: 0x8b5
+   __TEXT.__objc_stubs: 0x1300
+-  __DATA_CONST.__got: 0x12c0
+-  __DATA_CONST.__const: 0x388
+-  __DATA_CONST.__objc_classlist: 0x198
++  __DATA_CONST.__got: 0x1300
++  __DATA_CONST.__const: 0x428
++  __DATA_CONST.__objc_classlist: 0x1a8
+   __DATA_CONST.__objc_protolist: 0x140
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xe28
++  __DATA_CONST.__objc_selrefs: 0xe20
+   __DATA_CONST.__objc_protorefs: 0x88
+   __DATA_CONST.__objc_superrefs: 0x38
+-  __AUTH_CONST.__auth_got: 0x1f98
+-  __AUTH_CONST.__const: 0x5158
++  __AUTH_CONST.__auth_got: 0x2028
++  __AUTH_CONST.__const: 0x5448
+   __AUTH_CONST.__cfstring: 0x260
+-  __AUTH_CONST.__objc_const: 0x3af8
++  __AUTH_CONST.__objc_const: 0x3c98
+   __AUTH_CONST.__objc_intobj: 0x48
+-  __AUTH.__objc_data: 0x1710
+-  __AUTH.__data: 0x1c78
++  __AUTH.__objc_data: 0x17b0
++  __AUTH.__data: 0x1f38
+   __DATA.__objc_ivar: 0x88
+-  __DATA.__data: 0x46c0
++  __DATA.__data: 0x4810
+   __DATA.__crash_info: 0x148
+-  __DATA.__bss: 0x4d30
++  __DATA.__bss: 0x4da0
+   __DATA.__common: 0x108
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A84C0DA6-D619-39AB-B07B-9DD981AD25CE
+-  Functions: 3583
+-  Symbols:   3205
+-  CStrings:  1387
++  UUID: 1AE9451C-51D7-3E99-B142-56711928AFA9
++  Functions: 3788
++  Symbols:   3249
++  CStrings:  1402
+ 
+Symbols:
++ _CNContactIdentifierKey
++ __DATA__TtC17DeviceDiscoveryUI13PinEntryState
++ __DATA__TtC17DeviceDiscoveryUI24_DDEveryoneModeViewModel
++ __IVARS__TtC17DeviceDiscoveryUI13PinEntryState
++ __IVARS__TtC17DeviceDiscoveryUI24_DDEveryoneModeViewModel
++ __METACLASS_DATA__TtC17DeviceDiscoveryUI13PinEntryState
++ __METACLASS_DATA__TtC17DeviceDiscoveryUI24_DDEveryoneModeViewModel
++ __PROTOCOLS__TtC17DeviceDiscoveryUIP33_1E333BE9CDEDD9CAE6FF0E7324E8D41C37PreviewImageFrameReportingCoordinator.52
++ ___swift_memcpy152_8
++ _associated conformance 17DeviceDiscoveryUI13PinEntryStateC7Combine16ObservableObjectAA0I19WillChangePublisherAdEP_AD0L0
++ _associated conformance 17DeviceDiscoveryUI15PinPairingAlertV05SwiftC012ViewModifierAA4BodyAdEP_AD0H0
++ _associated conformance 17DeviceDiscoveryUI24_DDEveryoneModeViewModelC7Combine16ObservableObjectAA0J19WillChangePublisherAdEP_AD0M0
++ _block_copy_helper.90
++ _block_descriptor.92
++ _block_destroy_helper.91
++ _get_enum_tag_for_layout_string 17DeviceDiscoveryUI19_DDContactInfoCacheC07ContactE0V3KeyV0G10IdentifierO
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACy015DeviceDiscoveryB019_DDDevicePickerViewVAD15PinPairingAlertVGAA13_TaskModifierVGAA017_AppearanceActionN0VGAA0I0HPAlaPHPAiaPHPAfaPHPyHC_AhA0iN0HPyHCHC_AkaQHPyHCHC_AnaQHPyHCHC.62
++ _get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyxAA13_OffsetEffectVG_SbQo_HO.101
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAHy015DeviceDiscoveryB05ShakeVyAA6VStackVyAA6ZStackVyAA05TupleC0VyAHyAA6HStackVyAQyAA6SpacerV_ASyAQyAU_AA7ForEachVySnySiGSiAQyAA14GeometryReaderVyAHyAHyAHyAHyAHyAA4TextVAA12_FrameLayoutVGAA24_BackgroundStyleModifierVyAA017HierarchicalShapeZ0VGGAA11_ClipEffectVyAA16RoundedRectangleVGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGA17_yAA0V9AlignmentOGGG_AUtGGtGGAUtGGAA05_FlexwX0VG_AHyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAE7focusedyQrAA10FocusStateV7BindingVySb_GFQOyAHyAHyAHyAcAE12keyboardTypeyQrSo14UIKeyboardTypeVFQOyAHyAA0V5FieldVyA0_GA35_G_Qo_A17_yAA5ColorVSgGGA54_GAA32_EnvironmentKeyTransformModifierVySbGG_Qo__SSQo_AA25_AppearanceActionModifierVGtGGGGA64_GA64_G_SSQo__AI14DDPairingStateOQo__AI14DAPairingStateOQo_HO.72
++ _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented7actions7message16auxiliaryContentQrAA4TextV_AA7BindingVySbGqd__yXEqd_0_yXEqd_1_yXEtAaBRd__AaBRd_0_AaBRd_1_r1_lFQOyAA01_c9Modifier_J0Vy015DeviceDiscoveryB015PinPairingAlertVG_AA012_ConditionalJ0VyAA6HStackVyAA05TupleC0VyAA6ButtonVyAJG_A0_tGGA0_GAjP011_DDPinEntryrC0VQo_HO.25
++ _objectdestroy.112Tm
++ _objectdestroy.116Tm
++ _objectdestroy.214Tm
++ _objectdestroy.22Tm
++ _objectdestroy.57Tm
++ _objectdestroy.64Tm
++ _objectdestroy.74Tm
++ _swift_bridgeObjectRelease_n
++ _symbolic SSSg9givenName_AA06familyB0SS06deviceB0t
++ _symbolic Say_____G 7SwiftUI4TextV8ModifierO
++ _symbolic So16CNMutableContactC
++ _symbolic _____ 17DeviceDiscoveryUI13PinEntryStateC
++ _symbolic _____ 17DeviceDiscoveryUI15PinPairingAlertV
++ _symbolic _____ 17DeviceDiscoveryUI24_DDEveryoneModeViewModelC
++ _symbolic _____ 17DeviceDiscoveryUI9PinResultO
++ _symbolic _____Sg 7SwiftUI10ButtonRoleV
++ _symbolic _____SgXw 17DeviceDiscoveryUI24_DDEveryoneModeViewModelC
++ _symbolic _____SgXwz_Xx 17DeviceDiscoveryUI24_DDEveryoneModeViewModelC
++ _symbolic ___________y___________pGtIeAgHr_ 17DeviceDiscoveryUI19_DDContactInfoCacheC07ContactE0V3KeyV s6ResultOsRi_zRi0_zrlE AE s5ErrorP
++ _symbolic ___________y___________pGtSg 17DeviceDiscoveryUI19_DDContactInfoCacheC07ContactE0V3KeyV s6ResultOsRi_zRi0_zrlE AE s5ErrorP
++ _symbolic _____yAAyAAy__________G_____G_____G 7SwiftUI15ModifiedContentV 015DeviceDiscoveryB019_DDDevicePickerViewV AD15PinPairingAlertV AA13_TaskModifierV AA017_AppearanceActionN0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 015DeviceDiscoveryB019_DDDevicePickerViewV AD15PinPairingAlertV AA13_TaskModifierV
++ _symbolic _____ySSSgG 7Combine9PublishedV
++ _symbolic _____ySSSg_G 7Combine9PublishedV9PublisherV
++ _symbolic _____y_SSG 7Sharing9SFAirDropO10PinRequestV
++ _symbolic _____y_SSGSg 7Sharing9SFAirDropO10PinRequestV
++ _symbolic _____y_____G 7SwiftUI14ObservedObjectV 015DeviceDiscoveryB013PinEntryStateC
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 015DeviceDiscoveryB015PinPairingAlertV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 17DeviceDiscoveryUI19_DDContactInfoCacheC07ContactH0V3KeyV
++ _symbolic _____y_____G_ACt 7SwiftUI6ButtonV AA4TextV
++ _symbolic _____y_____SgG 7Combine9PublishedV 7SwiftUI5ImageV
++ _symbolic _____y_____Sg_G 7Combine9PublishedV9PublisherV 7SwiftUI5ImageV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 015DeviceDiscoveryB019_DDDevicePickerViewV AD15PinPairingAlertV
++ _symbolic _____y___________y___________pGt_G ScG8IteratorV 17DeviceDiscoveryUI19_DDContactInfoCacheC07ContactF0V3KeyV s6ResultOsRi_zRi0_zrlE AG s5ErrorP
++ _symbolic _____y___________y_____y_____G_AFtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA6ButtonV AA4TextV
++ _symbolic _____y_____yAAy_____y_____y_____y_____yAAy_____yAEy______AFyAEyAG______ySnySiGSiAEy_____yAAyAAyAAyAAyAAy__________G_____y_____GG_____y_____GG_____y_____SgGGAVy_____GGG_AGtGGtGGAGtGG_____G_AAy_____y_____yAAyAAyAAy_____yAAy_____yAKGA9_G_Qo_AVy_____SgGGA17_G_____ySbGG_Qo__SSQo______GtGGGGA25_GA25_G_SSQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV 015DeviceDiscoveryB05ShakeV AA6VStackV AA6ZStackV AA05TupleC0V AA6HStackV AA6SpacerV AA7ForEachV AA14GeometryReaderV AA4TextV AA12_FrameLayoutV AA24_BackgroundStyleModifierV AA017HierarchicalShapeZ0V AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA4FontV AA0V9AlignmentO AA05_FlexwX0V AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AcAE12keyboardTypeyQrSo14UIKeyboardTypeVFQO AA0V5FieldV AA5ColorV AA32_EnvironmentKeyTransformModifierV AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_SSGSgG 7Combine9PublishedV 7Sharing9SFAirDropO10PinRequestV
++ _symbolic _____y_____y_____G______y_____y_____y_____y_____G_AItGGAIGAH_____Qo_ 7SwiftUI4ViewPAAE5alert_11isPresented7actions7message16auxiliaryContentQrAA4TextV_AA7BindingVySbGqd__yXEqd_0_yXEqd_1_yXEtAaBRd__AaBRd_0_AaBRd_1_r1_lFQO AA01_c9Modifier_J0V 015DeviceDiscoveryB015PinPairingAlertV AA012_ConditionalJ0V AA6HStackV AA05TupleC0V AA6ButtonV AJ AP011_DDPinEntryrC0V
++ _symbolic _____y_____y_____yAAy_____y_____y_____y_____yAAy_____yAEy______AFyAEyAG______ySnySiGSiAEy_____yAAyAAyAAyAAyAAy__________G_____y_____GG_____y_____GG_____y_____SgGGAVy_____GGG_AGtGGtGGAGtGG_____G_AAy_____y_____yAAyAAyAAy_____yAAy_____yAKGA9_G_Qo_AVy_____SgGGA17_G_____ySbGG_Qo__SSQo______GtGGGGA25_GA25_G_SSQo_______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV 015DeviceDiscoveryB05ShakeV AA6VStackV AA6ZStackV AA05TupleC0V AA6HStackV AA6SpacerV AA7ForEachV AA14GeometryReaderV AA4TextV AA12_FrameLayoutV AA24_BackgroundStyleModifierV AA017HierarchicalShapeZ0V AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA4FontV AA0V9AlignmentO AA05_FlexwX0V AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AcAE12keyboardTypeyQrSo14UIKeyboardTypeVFQO AA0V5FieldV AA5ColorV AA32_EnvironmentKeyTransformModifierV AA25_AppearanceActionModifierV AI14DDPairingStateO
++ _symbolic _____y_____y_____y_____G_AEtGG 7SwiftUI6HStackV AA9TupleViewV AA6ButtonV AA4TextV
++ _symbolic _____y_____y_____y_____yAAy_____y_____y_____y_____yAAy_____yAEy______AFyAEyAG______ySnySiGSiAEy_____yAAyAAyAAyAAyAAy__________G_____y_____GG_____y_____GG_____y_____SgGGAVy_____GGG_AGtGGtGGAGtGG_____G_AAy_____y_____yAAyAAyAAy_____yAAy_____yAKGA9_G_Qo_AVy_____SgGGA17_G_____ySbGG_Qo__SSQo______GtGGGGA25_GA25_G_SSQo_______Qo_______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV 015DeviceDiscoveryB05ShakeV AA6VStackV AA6ZStackV AA05TupleC0V AA6HStackV AA6SpacerV AA7ForEachV AA14GeometryReaderV AA4TextV AA12_FrameLayoutV AA24_BackgroundStyleModifierV AA017HierarchicalShapeZ0V AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA4FontV AA0V9AlignmentO AA05_FlexwX0V AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AcAE12keyboardTypeyQrSo14UIKeyboardTypeVFQO AA0V5FieldV AA5ColorV AA32_EnvironmentKeyTransformModifierV AA25_AppearanceActionModifierV AI14DDPairingStateO AI14DAPairingStateO
++ _symbolic _____y_____y_____y_____y_____G_AFtGGAFG 7SwiftUI19_ConditionalContentV AA6HStackV AA9TupleViewV AA6ButtonV AA4TextV
++ _symbolic _____y_____y_____y_____y_____G_AFtGGAF_G 7SwiftUI19_ConditionalContentV7StorageO AA6HStackV AA9TupleViewV AA6ButtonV AA4TextV
++ _symbolic y_____c 17DeviceDiscoveryUI9PinResultO
++ _symbolic ytSgSS_Sbtc
++ _type_layout_string 17DeviceDiscoveryUI15PinPairingAlertV
++ _type_layout_string 17DeviceDiscoveryUI9PinResultO
+- _OBJC_CLASS_$_CNContactFormatter
+- _OBJC_CLASS_$_NSItemProvider
+- _OBJC_CLASS_$_SFUIAvatarImageRenderingScope
+- __PROTOCOLS__TtC17DeviceDiscoveryUIP33_1E333BE9CDEDD9CAE6FF0E7324E8D41C37PreviewImageFrameReportingCoordinator.28
+- ___swift_memcpy120_8
+- _associated conformance 17DeviceDiscoveryUI19RapportFeatureFlagsOSHAASQ
+- _block_copy_helper.87
+- _block_descriptor.89
+- _block_destroy_helper.88
+- _get_witness_table 7SwiftUI15ModifiedContentVyACy015DeviceDiscoveryB019_DDDevicePickerViewVAA13_TaskModifierVGAA017_AppearanceActionK0VGAA0I0HPAiaMHPAfaMHPyHC_AhA0iK0HPyHCHC_AkaNHPyHCHC.37
+- _get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyxAA13_OffsetEffectVG_SbQo_HO.98
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAHy015DeviceDiscoveryB05ShakeVyAA6VStackVyAA6ZStackVyAA05TupleC0VyAHyAA6HStackVyAQyAA6SpacerV_ASyAQyAU_AA7ForEachVySnySiGSiAQyAA14GeometryReaderVyAHyAHyAHyAHyAHyAA4TextVAA12_FrameLayoutVGAA24_BackgroundStyleModifierVyAA017HierarchicalShapeZ0VGGAA11_ClipEffectVyAA16RoundedRectangleVGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGA17_yAA0V9AlignmentOGGG_AUtGGtGGAUtGGAA05_FlexwX0VG_AHyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAE7focusedyQrAA10FocusStateV7BindingVySb_GFQOyAHyAHyAHyAcAE12keyboardTypeyQrSo14UIKeyboardTypeVFQOyAHyAA0V5FieldVyA0_GA35_G_Qo_A17_yAA5ColorVSgGGA54_GAA32_EnvironmentKeyTransformModifierVySbGG_Qo__SSQo_AA25_AppearanceActionModifierVGtGGGGA64_GA64_G_AI14DDPairingStateOQo__AI14DAPairingStateOQo_HO.69
+- _objectdestroy.168Tm
+- _objectdestroy.33Tm
+- _objectdestroy.53Tm
+- _objectdestroy.71Tm
+- _objectdestroy.75Tm
+- _objectdestroy.79Tm
+- _objectdestroy.8Tm
+- _objectdestroy.91Tm
+- _symbolic So18CNContactFormatterC
+- _symbolic So23SFUIAvatarImageRendererC
+- _symbolic So29SFUIAvatarImageRenderingScopeCSg
+- _symbolic _____ 17DeviceDiscoveryUI19RapportFeatureFlagsO
+- _symbolic _____3key______y___________pG5valuet 17DeviceDiscoveryUI19_DDContactInfoCacheC07ContactE0V3KeyV s6ResultOsRi_zRi0_zrlE AE s5ErrorP
+- _symbolic _____3key______y___________pG5valuetSg 17DeviceDiscoveryUI19_DDContactInfoCacheC07ContactE0V3KeyV s6ResultOsRi_zRi0_zrlE AE s5ErrorP
+- _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 015DeviceDiscoveryB019_DDDevicePickerViewV AA13_TaskModifierV AA017_AppearanceActionK0V
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV 015DeviceDiscoveryB019_DDDevicePickerViewV AA13_TaskModifierV
+- _symbolic _____y___________y___________pGtG s23_ContiguousArrayStorageC 17DeviceDiscoveryUI19_DDContactInfoCacheC07ContactH0V3KeyV s6ResultOsRi_zRi0_zrlE AG s5ErrorP
+- _symbolic _____y_____yAAy_____y_____y_____y_____yAAy_____yAEy______AFyAEyAG______ySnySiGSiAEy_____yAAyAAyAAyAAyAAy__________G_____y_____GG_____y_____GG_____y_____SgGGAVy_____GGG_AGtGGtGGAGtGG_____G_AAy_____y_____yAAyAAyAAy_____yAAy_____yAKGA9_G_Qo_AVy_____SgGGA17_G_____ySbGG_Qo__SSQo______GtGGGGA25_GA25_G______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV 015DeviceDiscoveryB05ShakeV AA6VStackV AA6ZStackV AA05TupleC0V AA6HStackV AA6SpacerV AA7ForEachV AA14GeometryReaderV AA4TextV AA12_FrameLayoutV AA24_BackgroundStyleModifierV AA017HierarchicalShapeZ0V AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA4FontV AA0V9AlignmentO AA05_FlexwX0V AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AcAE12keyboardTypeyQrSo14UIKeyboardTypeVFQO AA0V5FieldV AA5ColorV AA32_EnvironmentKeyTransformModifierV AA25_AppearanceActionModifierV AI14DDPairingStateO
+- _symbolic _____y_____y_____yAAy_____y_____y_____y_____yAAy_____yAEy______AFyAEyAG______ySnySiGSiAEy_____yAAyAAyAAyAAyAAy__________G_____y_____GG_____y_____GG_____y_____SgGGAVy_____GGG_AGtGGtGGAGtGG_____G_AAy_____y_____yAAyAAyAAy_____yAAy_____yAKGA9_G_Qo_AVy_____SgGGA17_G_____ySbGG_Qo__SSQo______GtGGGGA25_GA25_G______Qo_______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV 015DeviceDiscoveryB05ShakeV AA6VStackV AA6ZStackV AA05TupleC0V AA6HStackV AA6SpacerV AA7ForEachV AA14GeometryReaderV AA4TextV AA12_FrameLayoutV AA24_BackgroundStyleModifierV AA017HierarchicalShapeZ0V AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA4FontV AA0V9AlignmentO AA05_FlexwX0V AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AcAE12keyboardTypeyQrSo14UIKeyboardTypeVFQO AA0V5FieldV AA5ColorV AA32_EnvironmentKeyTransformModifierV AA25_AppearanceActionModifierV AI14DDPairingStateO AI14DAPairingStateO
+- _symbolic ytSgSSc
+CStrings:
++ "AirDrop Code Required"
++ "Cleaning _DDContactInfoCache.Loader.tasks {reason: %s}"
++ "Enter the code to share with AirDrop."
++ "Got %ld new results"
++ "Handling TransferState %s"
++ "Pairable endpoint is missing device name. Skipping {endpoint: %s}"
++ "Set pinPairingAlertPresented to %{bool}d"
++ "_DDEveryoneModeViewModel: Already loading contact info"
++ "_DDEveryoneModeViewModel: Async load failed: %s"
++ "_DDEveryoneModeViewModel: Async loaded contact info for user: %s"
++ "_DDEveryoneModeViewModel: Contact info loading asynchronously"
++ "_DDEveryoneModeViewModel: Failed to get contact info: %s"
++ "_DDEveryoneModeViewModel: Got cached contact info for user: %s"
++ "_DDEveryoneModeViewModel: Initialized"
++ "_DDEveryoneModeViewModel: Loading user contact info"
++ "_TtC17DeviceDiscoveryUI13PinEntryState"
++ "_TtC17DeviceDiscoveryUI24_DDEveryoneModeViewModel"
++ "_currentPinRequest"
++ "_isLoading"
++ "_pinPairingAlertPresented"
++ "_shakePinAlert"
++ "_userImage"
++ "_userName"
++ "colorScheme"
++ "displayScale"
++ "familyName"
++ "givenName"
++ "layoutDirection"
++ "person.crop.circle.fill"
++ "scheduledTimerWithTimeInterval:repeats:block:"
++ "v16@?0@\"NSTimer\"8"
+- "/Library/Caches/com.apple.xbs/Sources/NetworkUI/DeviceDiscoveryUI/DeviceDiscoveryUI/Sources/SPI/SecureProcess/_DDContactInfoCache.swift"
+- "Clearning _DDContactInfoCache.Loader.tasks {reason: %s}"
+- "DDUIServiceDiscovery"
+- "Failed to create avatar renderer scope {key: "
+- "Failed to create avatar {key: "
+- "Failed to get displayName {contact.identifier: "
+- "Missing serviceIdentifier"
+- "No serviceIdentifier for nodeID: %s, not handling tap"
+- "Rapport"
+- "Unsupported Browse Descriptor Type: "
+- "avatarImageForContacts:scope:"
+- "avatarRenderer"
+- "contactFormatter"
+- "scopeWithPointSize:scale:rightToLeft:style:backgroundStyle:"
+- "setMiddleName:"
+- "stringFromContact:"
+
+```

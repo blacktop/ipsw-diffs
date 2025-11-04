@@ -1,0 +1,143 @@
+## SwiftUI
+
+> `/System/Library/Frameworks/SwiftUI.framework/SwiftUI`
+
+```diff
+
+-7.1.13.1.103
+-  __TEXT.__text: 0xfd63f0
++7.2.2.1.101
++  __TEXT.__text: 0xfd7424
+   __TEXT.__auth_stubs: 0x12300
+   __TEXT.__objc_methlist: 0x8304
+   __TEXT.__cstring: 0x2269b
+-  __TEXT.__const: 0xb135c
++  __TEXT.__const: 0xb13dc
+   __TEXT.__gcc_except_tab: 0x88
+   __TEXT.__dlopen_cstrs: 0x14f
+-  __TEXT.__constg_swiftt: 0x74a74
+-  __TEXT.__swift5_typeref: 0x3ed2e
+-  __TEXT.__swift5_reflstr: 0x26e95
+-  __TEXT.__swift5_fieldmd: 0x3a82c
++  __TEXT.__constg_swiftt: 0x74bd8
++  __TEXT.__swift5_typeref: 0x3ed8e
++  __TEXT.__swift5_reflstr: 0x26eb5
++  __TEXT.__swift5_fieldmd: 0x3a864
+   __TEXT.__swift5_builtin: 0xd84
+-  __TEXT.__swift5_assocty: 0x18c88
+-  __TEXT.__swift5_proto: 0x9674
+-  __TEXT.__swift5_types: 0x57f4
++  __TEXT.__swift5_assocty: 0x18ca0
++  __TEXT.__swift5_proto: 0x9678
++  __TEXT.__swift5_types: 0x57fc
+   __TEXT.__swift5_mpenum: 0x8a0
+   __TEXT.__swift5_capture: 0xecd8
+   __TEXT.__swift5_protos: 0x634
+   __TEXT.__oslogstring: 0x29f6
+   __TEXT.__swift_as_entry: 0x1e8
+   __TEXT.__swift_as_ret: 0x160
+-  __TEXT.__unwind_info: 0x37a78
++  __TEXT.__unwind_info: 0x37ac8
+   __TEXT.__eh_frame: 0x14d88
+   __TEXT.__objc_classname: 0xf1d
+   __TEXT.__objc_methname: 0x14896
+
+   __DATA_CONST.__objc_protorefs: 0x3a8
+   __DATA_CONST.__objc_superrefs: 0x38
+   __AUTH_CONST.__auth_got: 0x9190
+-  __AUTH_CONST.__const: 0x99120
++  __AUTH_CONST.__const: 0x991b0
+   __AUTH_CONST.__cfstring: 0x100
+   __AUTH_CONST.__objc_const: 0x1a878
+   __AUTH.__objc_data: 0x85a8
+-  __AUTH.__data: 0x2ac60
++  __AUTH.__data: 0x2ac80
+   __DATA.__objc_ivar: 0x1c
+-  __DATA.__data: 0x467d8
++  __DATA.__data: 0x46878
+   __DATA.__objc_stublist: 0x70
+-  __DATA.__bss: 0xca260
++  __DATA.__bss: 0xca2e0
+   __DATA.__common: 0x1040
+   __DATA_DIRTY.__objc_data: 0x3458
+   __DATA_DIRTY.__data: 0x12108
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C641825D-F01C-3495-B74C-66810079938B
+-  Functions: 89727
+-  Symbols:   330676
++  UUID: 1CBAB15E-8A1E-357A-AB98-D4FD79E651FF
++  Functions: 89750
++  Symbols:   330757
+   CStrings:  7135
+ 
+Symbols:
++ _$s7SwiftUI15ModifiedContentVyAA22ResolvedNavigationLinkVAA0fG13StyleModifierVyAA07DefaultfgH0VGGACyxq_GAA4ViewA2aMRzAA0kI0R_rlWL
++ _$s7SwiftUI15ModifiedContentVyAA22ResolvedNavigationLinkVAA0fG13StyleModifierVyAA07DefaultfgH0VGGACyxq_GAA4ViewA2aMRzAA0kI0R_rlWl
++ _$s7SwiftUI15ModifiedContentVyAA22ResolvedNavigationLinkVAA0fG13StyleModifierVyAA07DefaultfgH0VGGML
++ _$s7SwiftUI15ModifiedContentVyAA22ResolvedNavigationLinkVAA0fG13StyleModifierVyAA07DefaultfgH0VGGMa
++ _$s7SwiftUI15ModifiedContentVyACyAA6HStackVyAA012_ConditionalD0VyAGyAA9TupleViewVyACyACyAA5ColorVAA16_FlexFrameLayoutVGAA01_kL0VGSg_AA7ForEachVys5SliceVyAA21TableColumnCollectionVG10Foundation4UUIDVAA6VStackVyAGyAA08SortableP12HeaderButton015_98900F88BB4556Y15EB681621B87E2FDLLVAA06StaticpwX0A4_LLVGGGtGAIyA9_Sg_ATyAYA0_AQGtGGAIyA12__A10_tGGGAA25LabelStyleWritingModifier33_8ADADA438F274FC671ACFFBCE6ADA2B4LLVyAA0pW10LabelStyleVGGAA08_PaddingL0VGMa
++ _$s7SwiftUI18DynamicViewContentPAAE14reorderable_v13forQrqd__m_tSHRd__s8SendableRd__lF
++ _$s7SwiftUI18DynamicViewContentPAAE14reorderable_v13forQrqd__m_tSHRd__s8SendableRd__lFMXX
++ _$s7SwiftUI18DynamicViewContentPAAE14reorderable_v13forQrqd__m_tSHRd__s8SendableRd__lFQOMQ
++ _$s7SwiftUI18UIKitBarButtonItemC13updatePlatter33_9FEFF64B5B735CA46CE24D63DF5C11D3LL10visibilityyAA10VisibilityOSg_tF
++ _$s7SwiftUI25DragReorderingDestinationO2atyACyxGx_tcAEmSHRzlFWC
++ _$s7SwiftUI25DragReorderingDestinationO5atEndyACyxGAEmSHRzlFWC
++ _$s7SwiftUI25DragReorderingDestinationOMF
++ _$s7SwiftUI25DragReorderingDestinationOMI
++ _$s7SwiftUI25DragReorderingDestinationOMP
++ _$s7SwiftUI25DragReorderingDestinationOMa
++ _$s7SwiftUI25DragReorderingDestinationOMi
++ _$s7SwiftUI25DragReorderingDestinationOMn
++ _$s7SwiftUI25DragReorderingDestinationOMr
++ _$s7SwiftUI25DragReorderingDestinationOWV
++ _$s7SwiftUI25DragReorderingDestinationOwCP
++ _$s7SwiftUI25DragReorderingDestinationOwca
++ _$s7SwiftUI25DragReorderingDestinationOwcp
++ _$s7SwiftUI25DragReorderingDestinationOwet
++ _$s7SwiftUI25DragReorderingDestinationOwst
++ _$s7SwiftUI25DragReorderingDestinationOwta
++ _$s7SwiftUI25DragReorderingDestinationOwtk
++ _$s7SwiftUI25DragReorderingDestinationOwug
++ _$s7SwiftUI25DragReorderingDestinationOwui
++ _$s7SwiftUI25DragReorderingDestinationOwup
++ _$s7SwiftUI25DragReorderingDestinationOwxx
++ _$s7SwiftUI26DefaultNavigationLinkStyleV8makeBody13configurationQrAA0deF13ConfigurationV_tFQOMQ
++ _$s7SwiftUI26DefaultNavigationLinkStyleVAA0deF0A2aDP8makeBody13configuration0H0QzAA0deF13ConfigurationV_tFTW
++ _$s7SwiftUI26DefaultNavigationLinkStyleVAA0deF0AA4BodyAaDP_AA4ViewPWT
++ _$s7SwiftUI26DefaultNavigationLinkStyleVAA0deF0AAMA
++ _$s7SwiftUI26DefaultNavigationLinkStyleVAA0deF0AAMc
++ _$s7SwiftUI26DefaultNavigationLinkStyleVAA0deF0AAMcMK
++ _$s7SwiftUI26DefaultNavigationLinkStyleVAA0deF0AAWP
++ _$s7SwiftUI26DefaultNavigationLinkStyleVAcA0deF0AAWL
++ _$s7SwiftUI26DefaultNavigationLinkStyleVAcA0deF0AAWl
++ _$s7SwiftUI26DefaultNavigationLinkStyleVMF
++ _$s7SwiftUI26DefaultNavigationLinkStyleVMa
++ _$s7SwiftUI26DefaultNavigationLinkStyleVMf
++ _$s7SwiftUI26DefaultNavigationLinkStyleVMn
++ _$s7SwiftUI26DefaultNavigationLinkStyleVN
++ _$s7SwiftUI27NavigationLinkStyleModifierVyAA07DefaultcdE0VGML
++ _$s7SwiftUI27NavigationLinkStyleModifierVyAA07DefaultcdE0VGMa
++ _$s7SwiftUI28UpdateFocusableViewResponder33_B6A2D4E72E5722B5103497ADB7778B5FLLV11didReinsert9attributeySo11AGAttributea_tFZyycfU_TA
++ _$s7SwiftUI28UpdateFocusableViewResponder33_B6A2D4E72E5722B5103497ADB7778B5FLLVAA18RemovableAttributeA2aEP10willRemove9attributeySo11AGAttributea_tFZTWTm
++ _$s7SwiftUI4ViewPAAE23reorderableContainer_v1_7enabled10movedItemsQrqd__m_Sbyqd___AA25DragReorderingDestinationOyqd__GtctSHRd__lF
++ _$s7SwiftUI4ViewPAAE23reorderableContainer_v1_7enabled10movedItemsQrqd__m_Sbyqd___AA25DragReorderingDestinationOyqd__GtctSHRd__lFMXX
++ _$s7SwiftUI4ViewPAAE23reorderableContainer_v1_7enabled10movedItemsQrqd__m_Sbyqd___AA25DragReorderingDestinationOyqd__GtctSHRd__lFQOMQ
++ _associated conformance 7SwiftUI26DefaultNavigationLinkStyleVAA0deF0AA4BodyAaDP_AA4View
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA22ResolvedNavigationLinkVAA0fG13StyleModifierVyAA07DefaultfgH0VGGAA4ViewHPAeaLHPyHC_AjA0kI0HPyHCHC.5
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA22ResolvedNavigationLinkVAA0fG13StyleModifierVyAA06ButtonfgH0VGGAA09Primitivejh9ContainerI0VyAA0fgjH0Vys5NeverOGGGAA4ViewHPAkaUHPAeaUHPyHC_AjA0nI0HPyHCHC_AsaVHPyHCHC.1
++ _get_witness_table 7SwiftUI18DynamicViewContentRzSHRd__s8SendableRd__r__lxAaBHD1_.1
++ _get_witness_table 7SwiftUI4ViewRzSHRd__s8SendableRd__r__lxAaBHD1_.2
++ _symbolic 4Data_____Qyd0__ 7SwiftUI18DynamicViewContentP
++ _symbolic 4Data_____Qz 7SwiftUI18DynamicViewContentP
++ _symbolic _____ 7SwiftUI25DragReorderingDestinationO
++ _symbolic _____ 7SwiftUI26DefaultNavigationLinkStyleV
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV AA22ResolvedNavigationLinkV AA0fG13StyleModifierV AA07DefaultfgH0V
++ _symbolic x2id_t
+- _$s7SwiftUI15ModifiedContentVyACyAA6HStackVyAA012_ConditionalD0VyAGyAA9TupleViewVyACyACyAA5ColorVAA16_FlexFrameLayoutVGAA01_kL0VGSg_AA7ForEachVys5SliceVyAA21TableColumnCollectionVG10Foundation4UUIDVAA6VStackVyAGyAA08SortableP12HeaderButton015_98900F88BB4556Y15EB681621B87E2FDLLVAA06StaticpwX0A4_LLVGGGtGAIyA9_Sg_ATyAYA0_AQGtGGAIyA12__A10_tGGGAA25LabelStyleWritingModifier33_8ADADA438F274FC671ACFFBCE6ADA2B4LLVyAA0pW10LabelStyleVGGAA08_PaddingL0VGACyxq_GAA0H0A2AA30_RzAA0H8ModifierR_rlWl
+- _$s7SwiftUI15ModifiedContentVyACyAA6HStackVyAA012_ConditionalD0VyAGyAA9TupleViewVyACyACyAA5ColorVAA16_FlexFrameLayoutVGAA01_kL0VGSg_AA7ForEachVys5SliceVyAA21TableColumnCollectionVG10Foundation4UUIDVAA6VStackVyAGyAA08SortableP12HeaderButton015_98900F88BB4556Y15EB681621B87E2FDLLVAA06StaticpwX0A4_LLVGGGtGAIyA9_Sg_ATyAYA0_AQGtGGAIyA12__A10_tGGGAA25LabelStyleWritingModifier33_8ADADA438F274FC671ACFFBCE6ADA2B4LLVyAA0pW10LabelStyleVGGAA08_PaddingL0VGWOb
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA22ResolvedNavigationLinkVAA0fG13StyleModifierVyAA06ButtonfgH0VGGAA09Primitivejh9ContainerI0VyAA0fgjH0Vys5NeverOGGGAA4ViewHPAkaUHPAeaUHPyHC_AjA0nI0HPyHCHC_AsaVHPyHCHC.5
+
+```

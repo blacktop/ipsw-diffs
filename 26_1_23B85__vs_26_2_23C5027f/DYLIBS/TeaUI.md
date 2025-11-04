@@ -1,0 +1,1429 @@
+## TeaUI
+
+> `/System/Library/PrivateFrameworks/TeaUI.framework/TeaUI`
+
+```diff
+
+-1304.0.0.0.0
+-  __TEXT.__text: 0x38c434
+-  __TEXT.__auth_stubs: 0x5a70
+-  __TEXT.__objc_methlist: 0x904c
+-  __TEXT.__const: 0x28494
+-  __TEXT.__cstring: 0x15954
++1324.0.0.0.0
++  __TEXT.__text: 0x368174
++  __TEXT.__auth_stubs: 0x5860
++  __TEXT.__objc_methlist: 0x8268
++  __TEXT.__const: 0x26de4
++  __TEXT.__cstring: 0x14314
+   __TEXT.__gcc_except_tab: 0x80
+-  __TEXT.__oslogstring: 0x26c9
+-  __TEXT.__constg_swiftt: 0x14540
+-  __TEXT.__swift5_typeref: 0xdcc4
+-  __TEXT.__swift5_builtin: 0xa14
+-  __TEXT.__swift5_reflstr: 0xd0b7
+-  __TEXT.__swift5_fieldmd: 0xfbd4
+-  __TEXT.__swift5_assocty: 0x1600
+-  __TEXT.__swift5_proto: 0x16cc
+-  __TEXT.__swift5_types: 0x115c
+-  __TEXT.__swift5_capture: 0x7780
+-  __TEXT.__swift5_mpenum: 0x3a0
+-  __TEXT.__swift5_protos: 0x590
+-  __TEXT.__swift_as_entry: 0xf8
+-  __TEXT.__swift_as_ret: 0x104
+-  __TEXT.__unwind_info: 0x10b18
+-  __TEXT.__eh_frame: 0x84bc
+-  __TEXT.__objc_classname: 0x8e4
+-  __TEXT.__objc_methname: 0x112ec
+-  __TEXT.__objc_methtype: 0x4846
+-  __TEXT.__objc_stubs: 0x3a60
+-  __DATA_CONST.__got: 0x19c0
+-  __DATA_CONST.__const: 0x2670
+-  __DATA_CONST.__objc_classlist: 0xc20
++  __TEXT.__oslogstring: 0x3115
++  __TEXT.__constg_swiftt: 0x13558
++  __TEXT.__swift5_typeref: 0xd000
++  __TEXT.__swift5_builtin: 0x924
++  __TEXT.__swift5_reflstr: 0xc6b7
++  __TEXT.__swift5_fieldmd: 0xf2dc
++  __TEXT.__swift5_assocty: 0x1528
++  __TEXT.__swift5_proto: 0x15f0
++  __TEXT.__swift5_types: 0x10d0
++  __TEXT.__swift5_capture: 0x70c4
++  __TEXT.__swift5_mpenum: 0x368
++  __TEXT.__swift5_protos: 0x534
++  __TEXT.__swift_as_entry: 0x1ac
++  __TEXT.__swift_as_ret: 0x194
++  __TEXT.__unwind_info: 0x10250
++  __TEXT.__eh_frame: 0x989c
++  __TEXT.__objc_classname: 0x863
++  __TEXT.__objc_methname: 0x1064c
++  __TEXT.__objc_methtype: 0x443e
++  __TEXT.__objc_stubs: 0x39e0
++  __DATA_CONST.__got: 0x1a20
++  __DATA_CONST.__const: 0x24b0
++  __DATA_CONST.__objc_classlist: 0xb50
+   __DATA_CONST.__objc_catlist: 0x118
+-  __DATA_CONST.__objc_protolist: 0x428
++  __DATA_CONST.__objc_protolist: 0x3e0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4908
+-  __DATA_CONST.__objc_protorefs: 0x290
+-  __DATA_CONST.__objc_superrefs: 0xb0
+-  __AUTH_CONST.__auth_got: 0x2d48
+-  __AUTH_CONST.__const: 0x2a178
++  __DATA_CONST.__objc_selrefs: 0x4620
++  __DATA_CONST.__objc_protorefs: 0x260
++  __DATA_CONST.__objc_superrefs: 0xa8
++  __AUTH_CONST.__auth_got: 0x2c40
++  __AUTH_CONST.__const: 0x28810
+   __AUTH_CONST.__cfstring: 0x6e0
+-  __AUTH_CONST.__objc_const: 0x1d670
+-  __AUTH.__objc_data: 0x5398
+-  __AUTH.__data: 0x2a90
++  __AUTH_CONST.__objc_const: 0x1b740
++  __AUTH.__objc_data: 0x4c88
++  __AUTH.__data: 0x3238
+   __DATA.__objc_ivar: 0x1a4
+-  __DATA.__data: 0x6598
++  __DATA.__data: 0x6488
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x1a060
+-  __DATA.__common: 0x90
+-  __DATA_DIRTY.__objc_data: 0x5e88
+-  __DATA_DIRTY.__data: 0x108f8
+-  __DATA_DIRTY.__bss: 0x7e40
+-  __DATA_DIRTY.__common: 0x1d0
++  __DATA.__bss: 0x19de0
++  __DATA.__common: 0xa0
++  __DATA_DIRTY.__objc_data: 0x4ea0
++  __DATA_DIRTY.__data: 0xfc18
++  __DATA_DIRTY.__bss: 0x72c0
++  __DATA_DIRTY.__common: 0x1c0
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/BackgroundTasks.framework/BackgroundTasks
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EAF9E9A1-0088-35A7-8B59-E56CF0D3CE3E
+-  Functions: 30937
+-  Symbols:   20972
+-  CStrings:  5875
++  UUID: C6F136C6-C4F5-3632-8875-037FB7B711E3
++  Functions: 29694
++  Symbols:   20173
++  CStrings:  5632
+ 
+Symbols:
++ _OBJC_CLASS_$_NSCountedSet
++ _OBJC_CLASS_$__TtC5TeaUI16LiveResizingView
++ _OBJC_CLASS_$__TtC5TeaUI34FloatingTabBarAccessoryCoordinator
++ _OBJC_METACLASS_$__TtC5TeaUI16LiveResizingView
++ _OBJC_METACLASS_$__TtC5TeaUI34FloatingTabBarAccessoryCoordinator
++ _OUTLINED_FUNCTION_175
++ _OUTLINED_FUNCTION_176
++ _UIFontTextStyleSubheadline
++ __DATA__TtC5TeaUI11TipAssembly
++ __DATA__TtC5TeaUI11TipRecorder
++ __DATA__TtC5TeaUI14NoopTipTracker
++ __DATA__TtC5TeaUI16LiveResizingView
++ __DATA__TtC5TeaUI17TipStorageManager
++ __DATA__TtC5TeaUI24ImageCacheOperationQueue
++ __DATA__TtC5TeaUI24PresentTipCommandHandler
++ __DATA__TtC5TeaUI31DefaultTipViewControllerFactory
++ __DATA__TtC5TeaUI34FloatingTabBarAccessoryCoordinator
++ __DATA__TtC5TeaUIP33_18B9CE531B3AA4CAC0CBCF0572522BF917ImageCacheRequest
++ __DATA__TtC5TeaUIP33_18B9CE531B3AA4CAC0CBCF0572522BF925ImageCacheRequestPipeline
++ __INSTANCE_METHODS__TtC5TeaUI16LiveResizingView
++ __INSTANCE_METHODS__TtC5TeaUI18LazyViewController
++ __INSTANCE_METHODS__TtC5TeaUI20NavigationController
++ __IVARS__TtC5TeaUI11TipRecorder
++ __IVARS__TtC5TeaUI16LiveResizingView
++ __IVARS__TtC5TeaUI17TipStorageManager
++ __IVARS__TtC5TeaUI24ImageCacheOperationQueue
++ __IVARS__TtC5TeaUI24PresentTipCommandHandler
++ __IVARS__TtC5TeaUI34FloatingTabBarAccessoryCoordinator
++ __IVARS__TtC5TeaUIP33_18B9CE531B3AA4CAC0CBCF0572522BF917ImageCacheRequest
++ __IVARS__TtC5TeaUIP33_18B9CE531B3AA4CAC0CBCF0572522BF925ImageCacheRequestPipeline
++ __METACLASS_DATA__TtC5TeaUI11TipAssembly
++ __METACLASS_DATA__TtC5TeaUI11TipRecorder
++ __METACLASS_DATA__TtC5TeaUI14NoopTipTracker
++ __METACLASS_DATA__TtC5TeaUI16LiveResizingView
++ __METACLASS_DATA__TtC5TeaUI17TipStorageManager
++ __METACLASS_DATA__TtC5TeaUI24ImageCacheOperationQueue
++ __METACLASS_DATA__TtC5TeaUI24PresentTipCommandHandler
++ __METACLASS_DATA__TtC5TeaUI31DefaultTipViewControllerFactory
++ __METACLASS_DATA__TtC5TeaUI34FloatingTabBarAccessoryCoordinator
++ __METACLASS_DATA__TtC5TeaUIP33_18B9CE531B3AA4CAC0CBCF0572522BF917ImageCacheRequest
++ __METACLASS_DATA__TtC5TeaUIP33_18B9CE531B3AA4CAC0CBCF0572522BF925ImageCacheRequestPipeline
++ __OBJC_$_INSTANCE_METHODS_TSTransitionContainerViewController(TeaUI|TeaUI1|TeaUI2|TeaUI3)
++ __OBJC_$_INSTANCE_METHODS_UIViewController(TeaBridge|TeaUI|TeaUI1)
++ __OBJC_$_INSTANCE_METHODS__TtC5TeaUI22SettingsViewController(TeaUI|TeaUI1|TeaUI2)
++ __OBJC_$_INSTANCE_METHODS__TtC5TeaUI34FloatingTabBarAccessoryCoordinator(TeaUI)
++ __OBJC_CLASS_PROTOCOLS_$_UIViewController(TeaBridge|TeaUI|TeaUI1)
++ __OBJC_CLASS_PROTOCOLS_$__TtC5TeaUI22SettingsViewController(TeaUI|TeaUI1|TeaUI2)
++ __OBJC_CLASS_PROTOCOLS_$__TtC5TeaUI34FloatingTabBarAccessoryCoordinator(TeaUI)
++ __PROPERTIES__TtC5TeaUI18LazyViewController
++ __PROTOCOLS__TtC5TeaUI22MastheadViewController.12
++ ___swift_memcpy314_8
++ ___swift_memcpy385_8
++ ___unnamed_15
++ _associated conformance 5TeaUI10TipManagerC0A8Settings9UpdatableAaD12Configurable
++ _associated conformance 5TeaUI11TipRecorderC0A8Settings9UpdatableAaD12Configurable
++ _associated conformance 5TeaUI14TipRecordsFileV10CodingKeys33_63AFA951BFF31A9DB378DAEF7E19B15BLLOSHAASQ
++ _associated conformance 5TeaUI14TipRecordsFileV10CodingKeys33_63AFA951BFF31A9DB378DAEF7E19B15BLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 5TeaUI14TipRecordsFileV10CodingKeys33_63AFA951BFF31A9DB378DAEF7E19B15BLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5TeaUI17ImageCacheRequest33_18B9CE531B3AA4CAC0CBCF0572522BF9LLCs12IdentifiableAA2IDsAEP_SH
++ _associated conformance 5TeaUI17TipStorageManagerC5Error33_136C600E950007970B0D0CFC958315FALLOSHAASQ
++ _associated conformance 5TeaUI17TipViewImpressionV13DismissalTypeOSHAASQ
++ _associated conformance 5TeaUI21ImageDownloaderErrors33_AA65E47E6397B0DDA5E556418F2DFF2CLLOSHAASQ
++ _associated conformance 5TeaUI31DefaultTipViewControllerFactoryC5ErrorOSHAASQ
++ _associated conformance 5TeaUI8TipGroupV6TraitsVs10SetAlgebraAASQ
++ _associated conformance 5TeaUI8TipGroupV6TraitsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 5TeaUI8TipGroupV6TraitsVs9OptionSetAASY
++ _associated conformance 5TeaUI8TipGroupV6TraitsVs9OptionSetAAs0G7Algebra
++ _associated conformance 5TeaUI9TipConfigV6TraitsVs10SetAlgebraAASQ
++ _associated conformance 5TeaUI9TipConfigV6TraitsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 5TeaUI9TipConfigV6TraitsVs9OptionSetAASY
++ _associated conformance 5TeaUI9TipConfigV6TraitsVs9OptionSetAAs0G7Algebra
++ _associated conformance 5TeaUI9TipConfigVSLAASQ
++ _associated conformance 5TeaUI9TipRecordV10CodingKeys33_1F8BBA875C6AFA78DD3AB06FF0F4C563LLOSHAASQ
++ _associated conformance 5TeaUI9TipRecordV10CodingKeys33_1F8BBA875C6AFA78DD3AB06FF0F4C563LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 5TeaUI9TipRecordV10CodingKeys33_1F8BBA875C6AFA78DD3AB06FF0F4C563LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.101
++ _block_copy_helper.40
++ _block_copy_helper.46
++ _block_copy_helper.52
++ _block_descriptor.103
++ _block_descriptor.42
++ _block_descriptor.48
++ _block_descriptor.54
++ _block_destroy_helper.102
++ _block_destroy_helper.41
++ _block_destroy_helper.47
++ _block_destroy_helper.53
++ _flat unique ST_px7ElementSTRts_XP
++ _get_enum_tag_for_layout_string 5TeaUI17TipStorageManagerC9LoadState33_136C600E950007970B0D0CFC958315FALLO
++ _get_enum_tag_for_layout_string 5TeaUI38PillViewSystemImageSymbolConfigurationO
++ _get_enum_tag_for_layout_string 5TeaUI38PillViewSystemImageSymbolConfigurationOSg
++ _get_type_metadata 15Synchronization5MutexVy5TeaUI17ImageCacheRequest33_18B9CE531B3AA4CAC0CBCF0572522BF9LLC5StateVG.15
++ _get_type_metadata 15Synchronization5MutexVy5TeaUI25ImageCacheRequestPipeline33_18B9CE531B3AA4CAC0CBCF0572522BF9LLC5StateVG.9
++ _get_type_metadata 15Synchronization5MutexVySay13TeaFoundation4WeakCy0C2UI17ImageCacheRequest33_18B9CE531B3AA4CAC0CBCF0572522BF9LLCGGG.2
++ _get_type_metadata 15Synchronization5MutexVySay5TeaUI23TipStorageMigrationTask_pGG.11
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA4TextV_AA19_ConditionalContentVyAIyAIyA2GGAIyAgIyAIyAA14NavigationLinkVyAG03TeaB08JSONViewVGAGGAGGGGAIyAIyApLyAIyAjGGAIyA2OGGGAIyAGs5NeverOGGGtGGAA0E0HPyHC.36
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAcAE10searchable4text9placement6promptQrAIySSG_AA20SearchFieldPlacementVAA4TextVSgtFQOyAA4FormVyAA05TupleC0VyAA19_ConditionalContentVyA_yA_y03TeaB08JSONViewV03RowC0VA4_GA_yA4_AA7ForEachVySaySi6offset_0W10Foundation4JSONO7elementtGSiA4_GGGA_yA_yA7_ySaySiA8__SSA12_tGSiA4_SgGA4_Gs5NeverOGG_AA7SectionVyAA05EmptyC0VAA6ButtonVyATGA28_GtGG_Qo__AA15NavigationStackVyAA14NavigationPathVAcAE29navigationBarTitleDisplayModeyQrAA17NavigationBarItemV16TitleDisplayModeOFQOyAA6VStackVyAYyAA6HStackVyAYyAA08ModifiedV0VyAA9ShareLinkVys15CollectionOfOneVySSGA22_A22_AA5ImageVGAA14_PaddingLayoutVG_AA6SpacerVA50_yA31_A60_GtGG_AA06ScrollC0VyA_yA50_yATA60_GA69_GGtGG_Qo_GQo_HO.5
++ _objectdestroy.39Tm
++ _objectdestroy.42Tm
++ _objectdestroy.51Tm
++ _objectdestroy.57Tm
++ _qos_class_self
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _symbolic $s5TeaUI14TipTrackerTypeP
++ _symbolic $s5TeaUI20StatusBannerObserverP
++ _symbolic $s5TeaUI20TipConfigManagerTypeP
++ _symbolic $s5TeaUI21TipStorageManagerTypeP
++ _symbolic $s5TeaUI23TipStorageMigrationTaskP
++ _symbolic $s5TeaUI24LiveResizingViewDelegateP
++ _symbolic $s5TeaUI26StatusBannerStateProvidingP
++ _symbolic $s5TeaUI28TipViewControllerFactoryTypeP
++ _symbolic $ss12IdentifiableP
++ _symbolic 7ElementSTQyd__
++ _symbolic BD
++ _symbolic Ieg_Iego_
++ _symbolic SDySS_____G 10Foundation4DateV
++ _symbolic SDySS_____G 5TeaUI17ImageCacheRequest33_18B9CE531B3AA4CAC0CBCF0572522BF9LLC
++ _symbolic SDySS_____G 5TeaUI9TipRecordV
++ _symbolic SDySS_____y11LayoutModel_____QzGG 5TeaUI19BlueprintLayoutItemV AA0cD12ProviderTypeP
++ _symbolic SDy_____Say_____GG 5TeaUI9TipSourceV AA0C6ConfigV
++ _symbolic SSSgIeAgHr_
++ _symbolic Say_____G 5TeaUI23TipStorageMigrationItemV
++ _symbolic Say_____G 5TeaUI9TipConfigV
++ _symbolic Say_____GSg 5TeaUI18SettingsSearchItemV
++ _symbolic SayySo7UIImageCSg_______pSgtYbcGIegg_ s5ErrorP
++ _symbolic ScSy_____G 5TeaUI17ImageCacheRequest33_18B9CE531B3AA4CAC0CBCF0572522BF9LLC
++ _symbolic ScTySo7UIImageCSg_____G s5NeverO
++ _symbolic ScTySo7UIImageC______pGSg s5ErrorP
++ _symbolic So12NSCountedSetC
++ _symbolic So13NSFileManagerC
++ _symbolic So16UIViewControllerCABIeggg_
++ _symbolic So16UIViewControllerCABytIegnnr_
++ _symbolic So16UIViewControllerC______pIeggg_ s5ErrorP
++ _symbolic So16UIViewControllerC______pytIegnnr_ s5ErrorP
++ _symbolic So7UIImageCSg______pSgIeghgg_ s5ErrorP
++ _symbolic So7UIImageCSg______pSgytIeghnnr_ s5ErrorP
++ _symbolic So7UIImageC_So7UIColorCSg9tintColort
++ _symbolic _____ 11TeaSettings0B0C0A2UIE4TipsV
++ _symbolic _____ 11TeaSettings0B0C0A2UIE4TipsV5DebugV
++ _symbolic _____ 5TeaUI10TipRequestO
++ _symbolic _____ 5TeaUI11TipAssemblyC
++ _symbolic _____ 5TeaUI11TipRecorderC
++ _symbolic _____ 5TeaUI14NoopTipTrackerC
++ _symbolic _____ 5TeaUI14TipRecordsFileV
++ _symbolic _____ 5TeaUI14TipRecordsFileV10CodingKeys33_63AFA951BFF31A9DB378DAEF7E19B15BLLO
++ _symbolic _____ 5TeaUI15TipFooterActionV
++ _symbolic _____ 5TeaUI16LiveResizingViewC
++ _symbolic _____ 5TeaUI16TipImageProviderO
++ _symbolic _____ 5TeaUI17ImageCacheRequest33_18B9CE531B3AA4CAC0CBCF0572522BF9LLC
++ _symbolic _____ 5TeaUI17ImageCacheRequest33_18B9CE531B3AA4CAC0CBCF0572522BF9LLC5StateV
++ _symbolic _____ 5TeaUI17TipStorageManagerC
++ _symbolic _____ 5TeaUI17TipStorageManagerC5Error33_136C600E950007970B0D0CFC958315FALLO
++ _symbolic _____ 5TeaUI17TipStorageManagerC9LoadState33_136C600E950007970B0D0CFC958315FALLO
++ _symbolic _____ 5TeaUI17TipViewImpressionV
++ _symbolic _____ 5TeaUI17TipViewImpressionV13DismissalTypeO
++ _symbolic _____ 5TeaUI18PillViewAsyncImageV
++ _symbolic _____ 5TeaUI18SettingsSearchItemV
++ _symbolic _____ 5TeaUI21ImageDownloaderErrors33_AA65E47E6397B0DDA5E556418F2DFF2CLLO
++ _symbolic _____ 5TeaUI21TipConfigQueryRequestV
++ _symbolic _____ 5TeaUI23TipNextAvailableRequestV
++ _symbolic _____ 5TeaUI23TipStorageMigrationItemV
++ _symbolic _____ 5TeaUI24BlueprintPrefetchTriggerO
++ _symbolic _____ 5TeaUI24ImageCacheOperationQueueC
++ _symbolic _____ 5TeaUI24PresentTipCommandHandlerC
++ _symbolic _____ 5TeaUI25ImageCacheRequestPipeline33_18B9CE531B3AA4CAC0CBCF0572522BF9LLC
++ _symbolic _____ 5TeaUI25ImageCacheRequestPipeline33_18B9CE531B3AA4CAC0CBCF0572522BF9LLC5StateV
++ _symbolic _____ 5TeaUI26TipStorageMigrationRequestV
++ _symbolic _____ 5TeaUI31DefaultTipViewControllerFactoryC
++ _symbolic _____ 5TeaUI31DefaultTipViewControllerFactoryC5ErrorO
++ _symbolic _____ 5TeaUI34FloatingTabBarAccessoryCoordinatorC
++ _symbolic _____ 5TeaUI38PillViewSystemImageSymbolConfigurationO
++ _symbolic _____ 5TeaUI8CommandsC4TipsV
++ _symbolic _____ 5TeaUI8TipGroupV
++ _symbolic _____ 5TeaUI8TipGroupV6TraitsV
++ _symbolic _____ 5TeaUI9TipConfigV
++ _symbolic _____ 5TeaUI9TipConfigV10IdentifierV
++ _symbolic _____ 5TeaUI9TipConfigV6TraitsV
++ _symbolic _____ 5TeaUI9TipConfigV8ResolvedV
++ _symbolic _____ 5TeaUI9TipRecordV
++ _symbolic _____ 5TeaUI9TipRecordV10CodingKeys33_1F8BBA875C6AFA78DD3AB06FF0F4C563LLO
++ _symbolic _____ s5Int64V
++ _symbolic _____3url_So7UIColorCSg9tintColort 10Foundation3URLV
++ _symbolic _____8position_So6UIMenuCycSg9menuBlockt So16UINavigationItemC5TeaUIE4SideO
++ _symbolic _____Sg 5TeaUI12TipPlacementC
++ _symbolic _____Sg 5TeaUI15TipFooterActionV
++ _symbolic _____Sg 5TeaUI16TipImageProviderO
++ _symbolic _____Sg 5TeaUI38PillViewSystemImageSymbolConfigurationO
++ _symbolic _____Sg 5TeaUI8TipGroupV
++ _symbolic _____SgXw 5TeaUI17ImageCacheRequest33_18B9CE531B3AA4CAC0CBCF0572522BF9LLC
++ _symbolic _____SgXw 5TeaUI25ImageCacheRequestPipeline33_18B9CE531B3AA4CAC0CBCF0572522BF9LLC
++ _symbolic _____SgXw 5TeaUI34FloatingTabBarAccessoryCoordinatorC
++ _symbolic _____SgXwz_Xx 5TeaUI25ImageCacheRequestPipeline33_18B9CE531B3AA4CAC0CBCF0572522BF9LLC
++ _symbolic _____SgXwz_Xx 5TeaUI34FloatingTabBarAccessoryCoordinatorC
++ _symbolic ___________pSgXw 5TeaUI20StatusBannerObserverP AA0cD14StateProvidingP
++ _symbolic ___________pXj lST_px7ElementRts_XPXGMq 5TeaUI15AssetHandleTypeP
++ _symbolic ______p 11TeaSettings9GroupableP
++ _symbolic ______p 5TeaUI21TipStorageManagerTypeP
++ _symbolic ______p 5TeaUI28TipViewControllerFactoryTypeP
++ _symbolic ______pSgXw 5TeaUI24LiveResizingViewDelegateP
++ _symbolic _____ySo16UIViewControllerCG 13TeaFoundation4WeakC
++ _symbolic _____y_____G 5TeaUI7CommandC AA10TipRequestO
++ _symbolic _____y______G ScS12ContinuationV 5TeaUI17ImageCacheRequest33_18B9CE531B3AA4CAC0CBCF0572522BF9LLC
++ _symbolic _____y_____y_____y_____y_____yACyACy_____ADGACyAD_____ySaySi6offset______7elementtGSiADGGGACyACyAFySaySiAG_SSAItGSiADSgGADG_____GG______y__________y_____GAVGtGG_Qo_______y__________y_____yABy_____yABy_____y_____y_____ySSGA2R_____G_____G______A6_yAYA12_GtGG______yACyA6_yAXA12_GA19_GGtGG_Qo_GQo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AcAE10searchable4text9placement6promptQrAIySSG_AA20SearchFieldPlacementVAA4TextVSgtFQO AA4FormV AA05TupleC0V AA19_ConditionalContentV 03TeaB08JSONViewV03RowC0V AA7ForEachV 0W10Foundation4JSONO s5NeverO AA7SectionV AA05EmptyC0V AA6ButtonV AT AA15NavigationStackV AA14NavigationPathV AcAE29navigationBarTitleDisplayModeyQrAA17NavigationBarItemV16TitleDisplayModeOFQO AA6VStackV AA6HStackV AA08ModifiedV0V AA9ShareLinkV s15CollectionOfOneV AA5ImageV AA14_PaddingLayoutV AA6SpacerV AA06ScrollC0V
++ _symbolic _____yxG 5TeaUI22MastheadViewControllerC
++ _symbolic _____yxGSgXwz_ySo7UIImageCSg_______pSgtYbc_lXX 5TeaUI22ImageCacheFetchDeduperC s5ErrorP
++ _symbolic _____yySo7UIImageCSg_______pSgtYbcG 5TeaUI22ImageCacheFetchDeduperC s5ErrorP
++ _symbolic _____yySo7UIImageCSg_______pSgtYbcGSgXw 5TeaUI22ImageCacheFetchDeduperC s5ErrorP
++ _symbolic _____yySo7UIImageCSg_______pSgtYbc_GSg 5TeaUI22ImageCacheFetchDeduperC7Request33_09B323467334024406EFB86D5920B02CLLC s5ErrorP
++ _symbolic _____yySo7UIImageCSg_______pSgtYbc_GSgXw 5TeaUI22ImageCacheFetchDeduperC7Request33_09B323467334024406EFB86D5920B02CLLC s5ErrorP
++ _symbolic ySo7UIImageCSg_______pSgtYbc s5ErrorP
++ _symbolic y_____y10Descriptor_____Qz5ModelACQzGKcSg 5TeaUI9BlueprintV AA0C12ProviderTypeP
++ _type_layout_string 5TeaUI14TipRecordsFileV
++ _type_layout_string 5TeaUI17ImageCacheRequest33_18B9CE531B3AA4CAC0CBCF0572522BF9LLC5StateV
++ _type_layout_string 5TeaUI17TipStorageManagerC9LoadState33_136C600E950007970B0D0CFC958315FALLO
++ _type_layout_string 5TeaUI18PillViewAsyncImageV
++ _type_layout_string 5TeaUI18SettingsSearchItemV
++ _type_layout_string 5TeaUI23TipNextAvailableRequestV
++ _type_layout_string 5TeaUI25ImageCacheRequestPipeline33_18B9CE531B3AA4CAC0CBCF0572522BF9LLC5StateV
++ _type_layout_string 5TeaUI26TipStorageMigrationRequestV
++ _type_layout_string 5TeaUI38PillViewSystemImageSymbolConfigurationO
++ _type_layout_string 5TeaUI8TipGroupV
++ _type_layout_string 5TeaUI8TipGroupV6TraitsV
++ _type_layout_string 5TeaUI9TipConfigV6TraitsV
+- -[TUNavigationController initWithRootViewController:]
+- -[TUNavigationController initWithRootViewController:navigationBarClass:]
+- -[UIViewController(TeaBridge) ts_setAppearanceTransitionsAreDisabled:]
+- _CATransform3DTranslate
+- _OBJC_CLASS_$_TSMastheadDisplayOptions
+- _OBJC_CLASS_$_TSMastheadStyleOptions
+- _OBJC_CLASS_$_TUForwardingTouchNavigationBar
+- _OBJC_CLASS_$_TUForwardingTouchToolbar
+- _OBJC_CLASS_$_TUNavigationController
+- _OBJC_CLASS_$__TtC5TeaUI10GutterView
+- _OBJC_CLASS_$__TtC5TeaUI14ToolbarManager
+- _OBJC_CLASS_$__TtC5TeaUI16TabBarController
+- _OBJC_CLASS_$__TtC5TeaUI19SectionSelectorView
+- _OBJC_CLASS_$__TtC5TeaUI21CurtainViewController
+- _OBJC_CLASS_$__TtC5TeaUI21GutterViewContentView
+- _OBJC_CLASS_$__TtC5TeaUI24SectionViewBarButtonItem
+- _OBJC_CLASS_$__TtC5TeaUI24SectionViewSegmentedView
+- _OBJC_CLASS_$__TtC5TeaUI25BlueprintLiveResizingView
+- _OBJC_CLASS_$__TtC5TeaUI25StatusBannerContainerView
+- _OBJC_CLASS_$__TtC5TeaUI25TabBarContainerController
+- _OBJC_CLASS_$__TtC5TeaUI25TabBarSplitViewController
+- _OBJC_CLASS_$__TtC5TeaUI26TabBarNavigationController
+- _OBJC_CLASS_$__TtC5TeaUI28GutterViewScrollViewObserver
+- _OBJC_CLASS_$__TtC5TeaUI30FloatingTabBarAccessoryManager
+- _OBJC_CLASS_$__TtC5TeaUI31StatusBannerContainerController
+- _OBJC_CLASS_$__TtC5TeaUI34MiniMastheadBarCompressionAnimator
+- _OBJC_CLASS_$__TtC5TeaUI35FloatingTabBarAcccessoryCoordinator
+- _OBJC_CLASS_$__TtC5TeaUI39MastheadTitleViewBarCompressionAnimator
+- _OBJC_CLASS_$__TtC5TeaUI40MastheadNavigationBarCompressionAnimator
+- _OBJC_CLASS_$__UISheetPresentationController
+- _OBJC_METACLASS_$_NSOperation
+- _OBJC_METACLASS_$_TSMastheadDisplayOptions
+- _OBJC_METACLASS_$_TSMastheadStyleOptions
+- _OBJC_METACLASS_$_TUForwardingTouchNavigationBar
+- _OBJC_METACLASS_$_TUForwardingTouchToolbar
+- _OBJC_METACLASS_$_TUNavigationController
+- _OBJC_METACLASS_$_UINavigationBar
+- _OBJC_METACLASS_$_UITabBarController
+- _OBJC_METACLASS_$_UIToolbar
+- _OBJC_METACLASS_$__TtC5TeaUI10GutterView
+- _OBJC_METACLASS_$__TtC5TeaUI14ToolbarManager
+- _OBJC_METACLASS_$__TtC5TeaUI16TabBarController
+- _OBJC_METACLASS_$__TtC5TeaUI19SectionSelectorView
+- _OBJC_METACLASS_$__TtC5TeaUI21CurtainViewController
+- _OBJC_METACLASS_$__TtC5TeaUI21GutterViewContentView
+- _OBJC_METACLASS_$__TtC5TeaUI24SectionViewBarButtonItem
+- _OBJC_METACLASS_$__TtC5TeaUI24SectionViewSegmentedView
+- _OBJC_METACLASS_$__TtC5TeaUI25BlueprintLiveResizingView
+- _OBJC_METACLASS_$__TtC5TeaUI25StatusBannerContainerView
+- _OBJC_METACLASS_$__TtC5TeaUI25TabBarContainerController
+- _OBJC_METACLASS_$__TtC5TeaUI25TabBarSplitViewController
+- _OBJC_METACLASS_$__TtC5TeaUI26TabBarNavigationController
+- _OBJC_METACLASS_$__TtC5TeaUI28GutterViewScrollViewObserver
+- _OBJC_METACLASS_$__TtC5TeaUI30FloatingTabBarAccessoryManager
+- _OBJC_METACLASS_$__TtC5TeaUI31StatusBannerContainerController
+- _OBJC_METACLASS_$__TtC5TeaUI34MiniMastheadBarCompressionAnimator
+- _OBJC_METACLASS_$__TtC5TeaUI35FloatingTabBarAcccessoryCoordinator
+- _OBJC_METACLASS_$__TtC5TeaUI39MastheadTitleViewBarCompressionAnimator
+- _OBJC_METACLASS_$__TtC5TeaUI40MastheadNavigationBarCompressionAnimator
+- _OBJC_METACLASS_$__TtC5TeaUIP33_2088E17F5F01413CA71FFC03BB03F42919ImageCacheOperation
+- _OBJC_METACLASS_$__TtC5TeaUIP33_DE89AB740D16D99A072493969E6EEC2114GutterRootView
+- _UIAccessibilityTraitAdjustable
+- _UIFontTextStyleFootnote
+- _UIFontWeightBold
+- _UIScrollViewDecelerationRateFast
+- _UITransitionContextFromViewControllerKey
+- _UITransitionContextToViewControllerKey
+- _UIViewNoIntrinsicMetric
+- __DATA_TSMastheadDisplayOptions
+- __DATA_TSMastheadStyleOptions
+- __DATA_TUForwardingTouchNavigationBar
+- __DATA_TUForwardingTouchToolbar
+- __DATA__TtC5TeaUI10GutterView
+- __DATA__TtC5TeaUI11ToolbarItem
+- __DATA__TtC5TeaUI14ToolbarManager
+- __DATA__TtC5TeaUI15MenuToolbarItem
+- __DATA__TtC5TeaUI16ShareToolbarItem
+- __DATA__TtC5TeaUI16TabBarController
+- __DATA__TtC5TeaUI17ButtonToolbarItem
+- __DATA__TtC5TeaUI17SearchToolbarItem
+- __DATA__TtC5TeaUI19SectionSelectorView
+- __DATA__TtC5TeaUI21CurtainViewController
+- __DATA__TtC5TeaUI21DecorationToolbarItem
+- __DATA__TtC5TeaUI21GutterViewContentView
+- __DATA__TtC5TeaUI24SectionViewBarButtonItem
+- __DATA__TtC5TeaUI24SectionViewSegmentedView
+- __DATA__TtC5TeaUI25BlueprintLiveResizingView
+- __DATA__TtC5TeaUI25StatusBannerContainerView
+- __DATA__TtC5TeaUI25TabBarContainerController
+- __DATA__TtC5TeaUI25TabBarSplitViewController
+- __DATA__TtC5TeaUI26BlueprintGutterViewManager
+- __DATA__TtC5TeaUI26NavigationControllerStyler
+- __DATA__TtC5TeaUI26TabBarNavigationController
+- __DATA__TtC5TeaUI28GutterViewScrollViewObserver
+- __DATA__TtC5TeaUI30SearchToolbarItemConfiguration
+- __DATA__TtC5TeaUI31StatusBannerContainerController
+- __DATA__TtC5TeaUI34MiniMastheadBarCompressionAnimator
+- __DATA__TtC5TeaUI35FloatingTabBarAcccessoryCoordinator
+- __DATA__TtC5TeaUI35MastheadNavigationItemStyleProvider
+- __DATA__TtC5TeaUI36ShareToolbarItemConfigurationFactory
+- __DATA__TtC5TeaUI39MastheadTitleViewBarCompressionAnimator
+- __DATA__TtC5TeaUI40MastheadNavigationBarCompressionAnimator
+- __DATA__TtC5TeaUIP33_2088E17F5F01413CA71FFC03BB03F42919ImageCacheOperation
+- __DATA__TtC5TeaUIP33_DE89AB740D16D99A072493969E6EEC2114GutterRootView
+- __INSTANCE_METHODS_TSMastheadDisplayOptions
+- __INSTANCE_METHODS_TSMastheadStyleOptions
+- __INSTANCE_METHODS_TUForwardingTouchNavigationBar
+- __INSTANCE_METHODS_TUForwardingTouchToolbar
+- __INSTANCE_METHODS__TtC5TeaUI10GutterView
+- __INSTANCE_METHODS__TtC5TeaUI14ToolbarManager
+- __INSTANCE_METHODS__TtC5TeaUI20GutterViewController
+- __INSTANCE_METHODS__TtC5TeaUI21CurtainViewController
+- __INSTANCE_METHODS__TtC5TeaUI21GutterViewContentView
+- __INSTANCE_METHODS__TtC5TeaUI24SectionViewBarButtonItem
+- __INSTANCE_METHODS__TtC5TeaUI24SectionViewSegmentedView
+- __INSTANCE_METHODS__TtC5TeaUI25BlueprintLiveResizingView
+- __INSTANCE_METHODS__TtC5TeaUI25StatusBannerContainerView
+- __INSTANCE_METHODS__TtC5TeaUI25TabBarContainerController
+- __INSTANCE_METHODS__TtC5TeaUI28GutterViewScrollViewObserver
+- __INSTANCE_METHODS__TtC5TeaUI30FloatingTabBarAccessoryManager
+- __INSTANCE_METHODS__TtC5TeaUI34MiniMastheadBarCompressionAnimator
+- __INSTANCE_METHODS__TtC5TeaUI39MastheadTitleViewBarCompressionAnimator
+- __INSTANCE_METHODS__TtC5TeaUI40MastheadNavigationBarCompressionAnimator
+- __INSTANCE_METHODS__TtC5TeaUIP33_2088E17F5F01413CA71FFC03BB03F42919ImageCacheOperation
+- __INSTANCE_METHODS__TtC5TeaUIP33_DE89AB740D16D99A072493969E6EEC2114GutterRootView
+- __IVARS_TSMastheadDisplayOptions
+- __IVARS_TSMastheadStyleOptions
+- __IVARS_TUForwardingTouchToolbar
+- __IVARS__TtC5TeaUI10GutterView
+- __IVARS__TtC5TeaUI11ToolbarItem
+- __IVARS__TtC5TeaUI14ToolbarManager
+- __IVARS__TtC5TeaUI16TabBarController
+- __IVARS__TtC5TeaUI19SectionSelectorView
+- __IVARS__TtC5TeaUI20GutterViewController
+- __IVARS__TtC5TeaUI20NavigationController
+- __IVARS__TtC5TeaUI21GutterViewContentView
+- __IVARS__TtC5TeaUI24SectionViewBarButtonItem
+- __IVARS__TtC5TeaUI24SectionViewSegmentedView
+- __IVARS__TtC5TeaUI25BlueprintLiveResizingView
+- __IVARS__TtC5TeaUI25StatusBannerContainerView
+- __IVARS__TtC5TeaUI25TabBarContainerController
+- __IVARS__TtC5TeaUI25TabBarSplitViewController
+- __IVARS__TtC5TeaUI26BlueprintGutterViewManager
+- __IVARS__TtC5TeaUI26TabBarNavigationController
+- __IVARS__TtC5TeaUI28GutterViewScrollViewObserver
+- __IVARS__TtC5TeaUI30SearchToolbarItemConfiguration
+- __IVARS__TtC5TeaUI31StatusBannerContainerController
+- __IVARS__TtC5TeaUI34MiniMastheadBarCompressionAnimator
+- __IVARS__TtC5TeaUI35FloatingTabBarAcccessoryCoordinator
+- __IVARS__TtC5TeaUI36ShareToolbarItemConfigurationFactory
+- __IVARS__TtC5TeaUI39MastheadTitleViewBarCompressionAnimator
+- __IVARS__TtC5TeaUI40MastheadNavigationBarCompressionAnimator
+- __IVARS__TtC5TeaUI41BlueprintCompositionalListDataSourceProxy
+- __IVARS__TtC5TeaUI52BlueprintCompositionalListDiffableDataSourceProvider
+- __IVARS__TtC5TeaUIP33_2088E17F5F01413CA71FFC03BB03F42919ImageCacheOperation
+- __IVARS__TtC5TeaUIP33_DE89AB740D16D99A072493969E6EEC2114GutterRootView
+- __METACLASS_DATA_TSMastheadDisplayOptions
+- __METACLASS_DATA_TSMastheadStyleOptions
+- __METACLASS_DATA_TUForwardingTouchNavigationBar
+- __METACLASS_DATA_TUForwardingTouchToolbar
+- __METACLASS_DATA__TtC5TeaUI10GutterView
+- __METACLASS_DATA__TtC5TeaUI11ToolbarItem
+- __METACLASS_DATA__TtC5TeaUI14ToolbarManager
+- __METACLASS_DATA__TtC5TeaUI15MenuToolbarItem
+- __METACLASS_DATA__TtC5TeaUI16ShareToolbarItem
+- __METACLASS_DATA__TtC5TeaUI16TabBarController
+- __METACLASS_DATA__TtC5TeaUI17ButtonToolbarItem
+- __METACLASS_DATA__TtC5TeaUI17SearchToolbarItem
+- __METACLASS_DATA__TtC5TeaUI19SectionSelectorView
+- __METACLASS_DATA__TtC5TeaUI21CurtainViewController
+- __METACLASS_DATA__TtC5TeaUI21DecorationToolbarItem
+- __METACLASS_DATA__TtC5TeaUI21GutterViewContentView
+- __METACLASS_DATA__TtC5TeaUI24SectionViewBarButtonItem
+- __METACLASS_DATA__TtC5TeaUI24SectionViewSegmentedView
+- __METACLASS_DATA__TtC5TeaUI25BlueprintLiveResizingView
+- __METACLASS_DATA__TtC5TeaUI25StatusBannerContainerView
+- __METACLASS_DATA__TtC5TeaUI25TabBarContainerController
+- __METACLASS_DATA__TtC5TeaUI25TabBarSplitViewController
+- __METACLASS_DATA__TtC5TeaUI26BlueprintGutterViewManager
+- __METACLASS_DATA__TtC5TeaUI26NavigationControllerStyler
+- __METACLASS_DATA__TtC5TeaUI26TabBarNavigationController
+- __METACLASS_DATA__TtC5TeaUI28GutterViewScrollViewObserver
+- __METACLASS_DATA__TtC5TeaUI30SearchToolbarItemConfiguration
+- __METACLASS_DATA__TtC5TeaUI31StatusBannerContainerController
+- __METACLASS_DATA__TtC5TeaUI34MiniMastheadBarCompressionAnimator
+- __METACLASS_DATA__TtC5TeaUI35FloatingTabBarAcccessoryCoordinator
+- __METACLASS_DATA__TtC5TeaUI35MastheadNavigationItemStyleProvider
+- __METACLASS_DATA__TtC5TeaUI36ShareToolbarItemConfigurationFactory
+- __METACLASS_DATA__TtC5TeaUI39MastheadTitleViewBarCompressionAnimator
+- __METACLASS_DATA__TtC5TeaUI40MastheadNavigationBarCompressionAnimator
+- __METACLASS_DATA__TtC5TeaUIP33_2088E17F5F01413CA71FFC03BB03F42919ImageCacheOperation
+- __METACLASS_DATA__TtC5TeaUIP33_DE89AB740D16D99A072493969E6EEC2114GutterRootView
+- __OBJC_$_INSTANCE_METHODS_TSTransitionContainerViewController(TeaUI|TeaUI1|TeaUI2|TeaUI3|TeaUI4)
+- __OBJC_$_INSTANCE_METHODS_TUNavigationController
+- __OBJC_$_INSTANCE_METHODS_UIViewController(TeaBridge|TeaUI|TeaUI1|TeaUI2)
+- __OBJC_$_INSTANCE_METHODS__TtC5TeaUI16TabBarController(TeaUI)
+- __OBJC_$_INSTANCE_METHODS__TtC5TeaUI18LazyViewController(TeaUI)
+- __OBJC_$_INSTANCE_METHODS__TtC5TeaUI19SectionSelectorView(TeaUI|TeaUI1)
+- __OBJC_$_INSTANCE_METHODS__TtC5TeaUI20NavigationController(TeaUI|TeaUI1)
+- __OBJC_$_INSTANCE_METHODS__TtC5TeaUI22SettingsViewController(TeaUI|TeaUI1)
+- __OBJC_$_INSTANCE_METHODS__TtC5TeaUI25TabBarSplitViewController(TeaUI|TeaUI1|TeaUI2|TeaUI3|TeaUI4)
+- __OBJC_$_INSTANCE_METHODS__TtC5TeaUI26TabBarNavigationController(TeaUI|TeaUI1|TeaUI2)
+- __OBJC_$_INSTANCE_METHODS__TtC5TeaUI31StatusBannerContainerController(TeaUI|TeaUI1)
+- __OBJC_$_INSTANCE_METHODS__TtC5TeaUI35FloatingTabBarAcccessoryCoordinator(TeaUI)
+- __OBJC_$_PROP_LIST_TUNavigationController
+- __OBJC_$_PROP_LIST_UIActivityItemsConfigurationReading
+- __OBJC_$_PROP_LIST_UIViewControllerStatusBarPartStyleProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIActivityItemsConfigurationReading
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITabBarControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UIActivityItemsConfigurationReading
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UIViewControllerStatusBarPartStyleProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIActivityItemsConfigurationReading
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UITabBarControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIViewControllerStatusBarPartStyleProvider
+- __OBJC_$_PROTOCOL_REFS_UIActivityItemsConfigurationReading
+- __OBJC_$_PROTOCOL_REFS_UITabBarControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_UIViewControllerStatusBarPartStyleProvider
+- __OBJC_CLASS_PROTOCOLS_$_TSTransitionContainerViewController(TeaUI|TeaUI1|TeaUI2|TeaUI3|TeaUI4)
+- __OBJC_CLASS_PROTOCOLS_$_TUNavigationController
+- __OBJC_CLASS_PROTOCOLS_$_UIViewController(TeaBridge|TeaUI|TeaUI1|TeaUI2)
+- __OBJC_CLASS_PROTOCOLS_$__TtC5TeaUI16TabBarController(TeaUI)
+- __OBJC_CLASS_PROTOCOLS_$__TtC5TeaUI19SectionSelectorView(TeaUI|TeaUI1)
+- __OBJC_CLASS_PROTOCOLS_$__TtC5TeaUI22SettingsViewController(TeaUI|TeaUI1)
+- __OBJC_CLASS_PROTOCOLS_$__TtC5TeaUI25TabBarSplitViewController(TeaUI|TeaUI1|TeaUI2|TeaUI3|TeaUI4)
+- __OBJC_CLASS_PROTOCOLS_$__TtC5TeaUI26TabBarNavigationController(TeaUI|TeaUI1|TeaUI2)
+- __OBJC_CLASS_PROTOCOLS_$__TtC5TeaUI35FloatingTabBarAcccessoryCoordinator(TeaUI)
+- __OBJC_CLASS_RO_$_TUNavigationController
+- __OBJC_LABEL_PROTOCOL_$_UIActivityItemsConfigurationReading
+- __OBJC_LABEL_PROTOCOL_$_UITabBarControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIViewControllerStatusBarPartStyleProvider
+- __OBJC_METACLASS_RO_$_TUNavigationController
+- __OBJC_PROTOCOL_$_UIActivityItemsConfigurationReading
+- __OBJC_PROTOCOL_$_UITabBarControllerDelegate
+- __OBJC_PROTOCOL_$_UIViewControllerStatusBarPartStyleProvider
+- __PROPERTIES_TUForwardingTouchNavigationBar
+- __PROPERTIES_TUForwardingTouchToolbar
+- __PROPERTIES__TtC5TeaUI16TabBarController
+- __PROPERTIES__TtC5TeaUI19SectionSelectorView
+- __PROPERTIES__TtC5TeaUI20GutterViewController
+- __PROPERTIES__TtC5TeaUI25TabBarContainerController
+- __PROPERTIES__TtC5TeaUI26TabBarNavigationController
+- __PROPERTIES__TtC5TeaUI34MiniMastheadBarCompressionAnimator
+- __PROPERTIES__TtC5TeaUI39MastheadTitleViewBarCompressionAnimator
+- __PROPERTIES__TtC5TeaUI40MastheadNavigationBarCompressionAnimator
+- __PROTOCOLS__TtC5TeaUI22MastheadViewController.9
+- __PROTOCOLS__TtC5TeaUI26ColorSectionDecorationView
+- __PROTOCOLS__TtC5TeaUI26ColorSectionDecorationView.1
+- __PROTOCOLS__TtC5TeaUI28GutterViewScrollViewObserver
+- __PROTOCOLS__TtC5TeaUI28GutterViewScrollViewObserver.2
+- __PROTOCOLS__TtC5TeaUI28PatternSectionDecorationView
+- __PROTOCOLS__TtC5TeaUI28PatternSectionDecorationView.34
+- __PROTOCOLS__TtC5TeaUI29GradientSectionDecorationView
+- __PROTOCOLS__TtC5TeaUI29GradientSectionDecorationView.10
+- __PROTOCOLS__TtC5TeaUI34MiniMastheadBarCompressionAnimator
+- __PROTOCOLS__TtC5TeaUI34MiniMastheadBarCompressionAnimator.5
+- __PROTOCOLS__TtC5TeaUI35RadialGradientSectionDecorationView
+- __PROTOCOLS__TtC5TeaUI35RadialGradientSectionDecorationView.10
+- __PROTOCOLS__TtC5TeaUI39MastheadTitleViewBarCompressionAnimator
+- __PROTOCOLS__TtC5TeaUI39MastheadTitleViewBarCompressionAnimator.2
+- __PROTOCOLS__TtC5TeaUI40MastheadNavigationBarCompressionAnimator
+- __PROTOCOLS__TtC5TeaUI40MastheadNavigationBarCompressionAnimator.2
+- __PROTOCOL_INSTANCE_METHODS_OPT_TSTabBarSplitViewAutoObserver
+- __PROTOCOL_INSTANCE_METHODS_TSTabBarSplitViewFocusable
+- __PROTOCOL_INSTANCE_METHODS__TtP5TeaUI24GutterViewBoundsObserver_
+- __PROTOCOL_METHOD_TYPES_TSTabBarSplitViewAutoObserver
+- __PROTOCOL_METHOD_TYPES_TSTabBarSplitViewFocusable
+- __PROTOCOL_METHOD_TYPES__TtP5TeaUI24GutterViewBoundsObserver_
+- __PROTOCOL_PROPERTIES_TSTabBarSplitViewFocusable
+- __PROTOCOL_TSTabBarSplitViewAutoObserver
+- __PROTOCOL_TSTabBarSplitViewFocusable
+- __PROTOCOL__TtP5TeaUI24GutterViewBoundsObserver_
+- __UISolariumFeatureFlagEnabled
+- ___53-[TUNavigationController initWithRootViewController:]_block_invoke
+- ___72-[TUNavigationController initWithRootViewController:navigationBarClass:]_block_invoke
+- ___block_descriptor_48_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___swift_memcpy290_8
+- ___swift_memcpy401_8
+- ___swift_memcpy90_8
+- _associated conformance 5TeaUI016TabBarNavigationD9VisiblityOSHAASQ
+- _associated conformance 5TeaUI19MastheadDisplayModeOSHAASQ
+- _associated conformance 5TeaUI20SectionSelectorStyleOSHAASQ
+- _associated conformance 5TeaUI20TabBarSplitViewFocusOSHAASQ
+- _associated conformance 5TeaUI20TabBarSplitViewStateOSHAASQ
+- _associated conformance 5TeaUI21ToolbarItemVisibilityOSHAASQ
+- _associated conformance 5TeaUI25TabBarSplitViewControllerC5EventOSHAASQ
+- _associated conformance 5TeaUI25TabBarSplitViewControllerC7OptionsVs10SetAlgebraAASQ
+- _associated conformance 5TeaUI25TabBarSplitViewControllerC7OptionsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 5TeaUI25TabBarSplitViewControllerC7OptionsVs9OptionSetAASY
+- _associated conformance 5TeaUI25TabBarSplitViewControllerC7OptionsVs9OptionSetAAs0J7Algebra
+- _associated conformance 5TeaUI27TabBarSplitViewPresentationO4PaneOSHAASQ
+- _associated conformance 5TeaUI27TabBarSplitViewPresentationO9ModalPaneOSHAASQ
+- _associated conformance 5TeaUI32TabBarSplitViewFocusChangeActionOSHAASQ
+- _associated conformance 5TeaUI36TabBarSplitViewImmersiveSidebarStateOSHAASQ
+- _block_copy_helper.102
+- _block_copy_helper.106
+- _block_copy_helper.119
+- _block_copy_helper.122
+- _block_copy_helper.125
+- _block_copy_helper.132
+- _block_copy_helper.138
+- _block_copy_helper.144
+- _block_copy_helper.15
+- _block_copy_helper.165
+- _block_copy_helper.26
+- _block_copy_helper.32
+- _block_copy_helper.54
+- _block_copy_helper.60
+- _block_copy_helper.67
+- _block_copy_helper.74
+- _block_copy_helper.80
+- _block_descriptor.104
+- _block_descriptor.108
+- _block_descriptor.121
+- _block_descriptor.124
+- _block_descriptor.127
+- _block_descriptor.134
+- _block_descriptor.140
+- _block_descriptor.146
+- _block_descriptor.167
+- _block_descriptor.17
+- _block_descriptor.28
+- _block_descriptor.34
+- _block_descriptor.56
+- _block_descriptor.62
+- _block_descriptor.69
+- _block_descriptor.76
+- _block_descriptor.82
+- _block_destroy_helper.103
+- _block_destroy_helper.107
+- _block_destroy_helper.120
+- _block_destroy_helper.123
+- _block_destroy_helper.126
+- _block_destroy_helper.133
+- _block_destroy_helper.139
+- _block_destroy_helper.145
+- _block_destroy_helper.16
+- _block_destroy_helper.166
+- _block_destroy_helper.27
+- _block_destroy_helper.33
+- _block_destroy_helper.55
+- _block_destroy_helper.61
+- _block_destroy_helper.68
+- _block_destroy_helper.75
+- _block_destroy_helper.81
+- _dynamic_cast_existential_0_class_conditional
+- _dynamic_cast_existential_1_unconditional
+- _flat unique 5TeaUI24GutterViewBoundsObserver_p
+- _flat unique So35UIActivityItemsConfigurationReading_p
+- _get_enum_tag_for_layout_string 5TeaUI19NavigationItemStyleV03BarE0O
+- _get_enum_tag_for_layout_string 5TeaUI19ToolbarTemplateItemO
+- _get_enum_tag_for_layout_string 5TeaUI21DecorationToolbarItemC0C0O
+- _get_enum_tag_for_layout_string 5TeaUI22ButtonToolbarItemStyleO
+- _get_enum_tag_for_layout_string 5TeaUI27TabBarSplitViewPresentationO
+- _get_enum_tag_for_layout_string 5TeaUI27TabBarSplitViewPresentationO10NavigationO
+- _get_enum_tag_for_layout_string 5TeaUI41BlueprintCompositionalListDataSourceProxyC0fG4Kind33_B75A272FE4284B9FAE137A2B8830418CLLOyxq_q0__G
+- _get_enum_tag_for_layout_string 5TeaUI7GuttersO
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA4TextV_AA19_ConditionalContentVyAIyAIyA2GGAIyAgIyAIyAA14NavigationLinkVyAG03TeaB08JSONViewVGAGGAGGGGAIyAIyApLyAIyAjGGAIyA2OGGGAIyAGs5NeverOGGGtGGAA0E0HPyHC.32
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAcAE10searchable4text9placement6promptQrAIySSG_AA20SearchFieldPlacementVAA4TextVSgtFQOyAA4FormVyAA05TupleC0VyAA19_ConditionalContentVyA_yA_y03TeaB08JSONViewV03RowC0VA4_GA_yA4_AA7ForEachVySaySi6offset_0W10Foundation4JSONO7elementtGSiA4_GGGA_yA_yA7_ySaySiA8__SSA12_tGSiA4_SgGA4_Gs5NeverOGG_AA7SectionVyAA05EmptyC0VAA6ButtonVyATGA28_GtGG_Qo__AA15NavigationStackVyAA14NavigationPathVAA06ScrollC0VyA_yAA08ModifiedV0VyAtA14_PaddingLayoutVGA46_GGGQo_HO.4
+- _keypath_get_selector_safeAreaInsets
+- _objc_msgSend$appearanceTransitionsAreDisabled
+- _objc_msgSend$performWithoutAnimation:
+- _objc_msgSend$pushViewController:animated:
+- _objc_msgSend$setAppearanceTransitionsAreDisabled:
+- _objc_release_x2
+- _objc_release_x4
+- _objectdestroy.31Tm
+- _objectdestroy.58Tm
+- _objectdestroy.69Tm
+- _swift_isClassType
+- _symbolic $s5TeaUI10TabBarableP
+- _symbolic $s5TeaUI11RecolorableP
+- _symbolic $s5TeaUI14ToolbarHostingP
+- _symbolic $s5TeaUI15ToolbarItemTypeP
+- _symbolic $s5TeaUI16StatusBannerableP
+- _symbolic $s5TeaUI16TabBarStylerTypeP
+- _symbolic $s5TeaUI18GutterViewProxyingP
+- _symbolic $s5TeaUI18ToolbarManagerTypeP
+- _symbolic $s5TeaUI22NavigationItemStylableP
+- _symbolic $s5TeaUI22TabBarSplitViewPanableP
+- _symbolic $s5TeaUI24GutterViewBoundsObserverP
+- _symbolic $s5TeaUI24GutterViewControllerTypeP
+- _symbolic $s5TeaUI24StyleableToolbarItemTypeP
+- _symbolic $s5TeaUI24TabBarControllerDelegateP
+- _symbolic $s5TeaUI24TabBarSplitViewFocusableP
+- _symbolic $s5TeaUI25GutterChildViewControllerP
+- _symbolic $s5TeaUI25SearchToolbarItemDelegateP
+- _symbolic $s5TeaUI26BackdropGroupNameProvidingP
+- _symbolic $s5TeaUI27ConfigurableToolbarItemTypeP
+- _symbolic $s5TeaUI27SectionSelectorViewDelegateP
+- _symbolic $s5TeaUI27TabBarSplitViewAutoObserverP
+- _symbolic $s5TeaUI28MiniMastheadViewProviderTypeP
+- _symbolic $s5TeaUI29SectionSelectorViewDataSourceP
+- _symbolic $s5TeaUI31StatusBannerVisibilityProvidingP
+- _symbolic $s5TeaUI31TabBarSplitViewGestureProvidingP
+- _symbolic $s5TeaUI32MiniMastheadViewProviderDelegateP
+- _symbolic $s5TeaUI33BlueprintLiveResizingViewDelegateP
+- _symbolic $s5TeaUI33TabBarSplitViewControllerDelegateP
+- _symbolic $s5TeaUI34ButtonToolbarItemConfigurationTypeP
+- _symbolic $s5TeaUI37BlueprintViewDiffableDropDelegateTypeP
+- _symbolic $s5TeaUI38SectionViewBarAnimationCoordinatorTypeP
+- _symbolic $s5TeaUI38TabBarSplitViewControllerRePresentableP
+- _symbolic $s5TeaUI40BlueprintViewDiffableReorderDelegateTypeP
+- _symbolic $s5TeaUI42SectionViewBarAnimationCoordinatorDelegateP
+- _symbolic 10Descriptor_____Qy0_ 5TeaUI21BlueprintProviderTypeP
+- _symbolic 10Descriptor_____Qy3_ 5TeaUI026BlueprintViewSupplementaryD12ProviderTypeP
+- _symbolic 10Descriptor_____Qy4_ 5TeaUI35BlueprintViewControllerDelegateTypeP
+- _symbolic 11LayoutModel_____Qy1_ 5TeaUI27BlueprintLayoutProviderTypeP
+- _symbolic 11LayoutModel_____Qy2_ 5TeaUI29BlueprintViewCellProviderTypeP
+- _symbolic 11LayoutModel_____Qy3_ 5TeaUI026BlueprintViewSupplementaryD12ProviderTypeP
+- _symbolic 16LayoutDescriptor_____Qy1_ 5TeaUI27BlueprintLayoutProviderTypeP
+- _symbolic 16LayoutDescriptor_____Qy3_ 5TeaUI026BlueprintViewSupplementaryD12ProviderTypeP
+- _symbolic 4Cell_____Qy2_ 5TeaUI29BlueprintViewCellProviderTypeP
+- _symbolic 4View_____Qy2_ 5TeaUI29BlueprintViewCellProviderTypeP
+- _symbolic 4View_____Qy3_ 5TeaUI026BlueprintViewSupplementaryD12ProviderTypeP
+- _symbolic 5Model_____Qy0_ 5TeaUI21BlueprintProviderTypeP
+- _symbolic 5Model_____Qy2_ 5TeaUI29BlueprintViewCellProviderTypeP
+- _symbolic 5Model_____Qy3_ 5TeaUI026BlueprintViewSupplementaryD12ProviderTypeP
+- _symbolic 5Model_____Qy4_ 5TeaUI35BlueprintViewControllerDelegateTypeP
+- _symbolic B4
+- _symbolic B5
+- _symbolic B6
+- _symbolic G2R4_
+- _symbolic G3R4_
+- _symbolic G4R1_
+- _symbolic G4R4_
+- _symbolic G5R1_
+- _symbolic G5R4_
+- _symbolic G6R1_
+- _symbolic G6R4_
+- _symbolic SDySS_____G 5TeaUI14ToolbarManagerC22ConfigurationContainer33_BBDB9347A9BB9B257A709329237E7D8ELLV
+- _symbolic SSSg4text______8position_____Sg13selectorStyleSo6UIMenuCycSg9menuBlockt So16UINavigationItemC5TeaUIE4SideO AC20SectionSelectorStyleO
+- _symbolic SaySo16UIViewControllerCG
+- _symbolic Say_____G 12CoreGraphics7CGFloatV
+- _symbolic Say_____G 5TeaUI12ActionButtonC
+- _symbolic Say_____G 5TeaUI19ToolbarTemplateItemO
+- _symbolic Say_____G 5TeaUI27TabBarSplitViewPresentationO
+- _symbolic Say_____y_____GG 13TeaFoundation4WeakC 0A2UI19ImageCacheOperation33_2088E17F5F01413CA71FFC03BB03F429LLC
+- _symbolic SayySo7UIImageCSg_______pSgtcGIegg_ s5ErrorP
+- _symbolic Sbyc
+- _symbolic SiIegy_Sg
+- _symbolic So11NSHashTableCy______pG 5TeaUI24GutterViewBoundsObserverP
+- _symbolic So11NSOperationC
+- _symbolic So11NSOperationCIego_
+- _symbolic So12UIScrollViewCIego_
+- _symbolic So22TUNavigationControllerC
+- _symbolic So36TUNavigationBarCompressibleTitleViewCSg
+- _symbolic So42TUNavigationBarDefaultCompressionAnimationC
+- _symbolic So6UIMenuC
+- _symbolic So6UIMenuCSgycSg
+- _symbolic So7UIColorC12barTintColor_ABSg04tintD0Sb11translucentAD016buttonBackgroundD0t
+- _symbolic So7UIColorC15backgroundColor_ABSg04tintC0Sb11translucentAD016buttonBackgroundC0So7UIImageC5imaget
+- _symbolic So7UIColorC15backgroundColor_ABSg04tintC0Sb11translucentAD016buttonBackgroundC0t
+- _symbolic So7UIImageCSg______pSgIeggg_ s5ErrorP
+- _symbolic So7UIImageCSg______pSgytIegnnr_ s5ErrorP
+- _symbolic So7UIImageC_SS7tooltipt
+- _symbolic So8UITabBarCSg
+- _symbolic _____ 5TeaUI016GutterViewScrollD8ObserverC
+- _symbolic _____ 5TeaUI016TabBarNavigationD9VisiblityO
+- _symbolic _____ 5TeaUI017GutterViewContentD0C
+- _symbolic _____ 5TeaUI020SectionViewSegmentedD0C
+- _symbolic _____ 5TeaUI10GutterViewC
+- _symbolic _____ 5TeaUI11ToolbarItemC
+- _symbolic _____ 5TeaUI14GutterRootView33_DE89AB740D16D99A072493969E6EEC21LLC
+- _symbolic _____ 5TeaUI14ToolbarManagerC
+- _symbolic _____ 5TeaUI14ToolbarManagerC22ConfigurationContainer33_BBDB9347A9BB9B257A709329237E7D8ELLV
+- _symbolic _____ 5TeaUI15MenuToolbarItemC
+- _symbolic _____ 5TeaUI15MenuToolbarItemC0C5StyleV
+- _symbolic _____ 5TeaUI15ToolbarTemplateV
+- _symbolic _____ 5TeaUI16ShareToolbarItemC
+- _symbolic _____ 5TeaUI16TabBarControllerC
+- _symbolic _____ 5TeaUI17ButtonToolbarItemC
+- _symbolic _____ 5TeaUI17SearchToolbarItemC
+- _symbolic _____ 5TeaUI19ImageCacheOperation33_2088E17F5F01413CA71FFC03BB03F429LLC
+- _symbolic _____ 5TeaUI19MastheadDisplayModeO
+- _symbolic _____ 5TeaUI19NavigationItemStyleV
+- _symbolic _____ 5TeaUI19NavigationItemStyleV03BarE0O
+- _symbolic _____ 5TeaUI19SectionSelectorViewC
+- _symbolic _____ 5TeaUI19ToolbarTemplateItemO
+- _symbolic _____ 5TeaUI19ToolbarTemplateItemO06StaticE0O
+- _symbolic _____ 5TeaUI19ToolbarTemplateItemO07CommanddE0V
+- _symbolic _____ 5TeaUI19ToolbarTemplateItemO0dE0V
+- _symbolic _____ 5TeaUI20GutterViewControllerC
+- _symbolic _____ 5TeaUI20MastheadStyleOptionsC
+- _symbolic _____ 5TeaUI20SectionSelectorStyleO
+- _symbolic _____ 5TeaUI20TabBarSplitViewFocusO
+- _symbolic _____ 5TeaUI20TabBarSplitViewStateO
+- _symbolic _____ 5TeaUI21CurtainViewControllerC
+- _symbolic _____ 5TeaUI21DecorationToolbarItemC
+- _symbolic _____ 5TeaUI21DecorationToolbarItemC0C0O
+- _symbolic _____ 5TeaUI21MastheadStatusBarModeO
+- _symbolic _____ 5TeaUI21ToolbarItemVisibilityO
+- _symbolic _____ 5TeaUI22ButtonToolbarItemStyleO
+- _symbolic _____ 5TeaUI22ForwardingTouchToolbarC
+- _symbolic _____ 5TeaUI22MastheadDisplayOptionsC
+- _symbolic _____ 5TeaUI24SectionViewBarButtonItemC
+- _symbolic _____ 5TeaUI25BlueprintLiveResizingViewC
+- _symbolic _____ 5TeaUI25SectionViewScrollPositionO
+- _symbolic _____ 5TeaUI25StatusBannerContainerViewC
+- _symbolic _____ 5TeaUI25TabBarContainerControllerC
+- _symbolic _____ 5TeaUI25TabBarSplitViewControllerC
+- _symbolic _____ 5TeaUI25TabBarSplitViewControllerC5EventO
+- _symbolic _____ 5TeaUI25TabBarSplitViewControllerC7OptionsV
+- _symbolic _____ 5TeaUI26BlueprintGutterViewManagerC
+- _symbolic _____ 5TeaUI26NavigationControllerStylerC
+- _symbolic _____ 5TeaUI26TabBarNavigationControllerC
+- _symbolic _____ 5TeaUI27TabBarSplitViewModalContextV
+- _symbolic _____ 5TeaUI27TabBarSplitViewModalContextV17PresentationStyleO
+- _symbolic _____ 5TeaUI27TabBarSplitViewModalContextV24SheetPresentationOptionsV
+- _symbolic _____ 5TeaUI27TabBarSplitViewPresentationO
+- _symbolic _____ 5TeaUI27TabBarSplitViewPresentationO0D4ItemO
+- _symbolic _____ 5TeaUI27TabBarSplitViewPresentationO10NavigationO
+- _symbolic _____ 5TeaUI27TabBarSplitViewPresentationO4PaneO
+- _symbolic _____ 5TeaUI27TabBarSplitViewPresentationO9ModalPaneO
+- _symbolic _____ 5TeaUI28ForwardingTouchNavigationBarC
+- _symbolic _____ 5TeaUI28MenuToolbarItemConfigurationV
+- _symbolic _____ 5TeaUI30ButtonToolbarItemConfigurationV
+- _symbolic _____ 5TeaUI30SearchToolbarItemConfigurationC
+- _symbolic _____ 5TeaUI31StatusBannerContainerControllerC
+- _symbolic _____ 5TeaUI32TabBarSplitViewFocusChangeActionO
+- _symbolic _____ 5TeaUI34MiniMastheadBarCompressionAnimatorC
+- _symbolic _____ 5TeaUI34TabBarSplitViewPresentationContextV
+- _symbolic _____ 5TeaUI35FloatingTabBarAcccessoryCoordinatorC
+- _symbolic _____ 5TeaUI35MastheadNavigationItemStyleProviderC
+- _symbolic _____ 5TeaUI36ShareToolbarItemConfigurationFactoryC
+- _symbolic _____ 5TeaUI36TabBarSplitViewImmersiveSidebarStateO
+- _symbolic _____ 5TeaUI39MastheadTitleViewBarCompressionAnimatorC
+- _symbolic _____ 5TeaUI40MastheadNavigationBarCompressionAnimatorC
+- _symbolic _____ 5TeaUI41BlueprintCompositionalListDataSourceProxyC
+- _symbolic _____ 5TeaUI41BlueprintCompositionalListDataSourceProxyC0fG4Kind33_B75A272FE4284B9FAE137A2B8830418CLLO
+- _symbolic _____ 5TeaUI52BlueprintCompositionalListDiffableDataSourceProviderC
+- _symbolic _____ 5TeaUI7GuttersO
+- _symbolic _____ So10UIBarStyleV
+- _symbolic _____ So17UIBlurEffectStyleV
+- _symbolic _____ So21UIBarButtonSystemItemV
+- _symbolic _____10percentage_t 12CoreGraphics7CGFloatV
+- _symbolic _____16visibilityOffset_t 12CoreGraphics7CGFloatV
+- _symbolic _____8barStyle_So7UIColorCSg9tintColorSb17isWhiteBackgroundAE06buttonhE0t So10UIBarStyleV
+- _symbolic _____8barStyle______010blurEffectB0So7UIColorCSg9tintColorAG016buttonBackgroundG0t So10UIBarStyleV So012UIBlurEffectB0V
+- _symbolic _____Sg 5TeaUI017GutterViewContentD0C
+- _symbolic _____Sg 5TeaUI020SectionViewSegmentedD0C
+- _symbolic _____Sg 5TeaUI19SectionSelectorViewC
+- _symbolic _____Sg 5TeaUI20MastheadStyleOptionsC
+- _symbolic _____Sg 5TeaUI21BarCompressionManagerC
+- _symbolic _____Sg 5TeaUI24SectionViewBarButtonItemC
+- _symbolic _____Sg 5TeaUI26BlueprintGutterViewManagerC
+- _symbolic _____Sg 5TeaUI32FullscreenTransitionCoverManagerC
+- _symbolic _____Sg 5TeaUI7BarViewC
+- _symbolic _____Sg So16UIMenuIdentifiera
+- _symbolic _____SgXw 5TeaUI12ActionButtonC
+- _symbolic _____SgXw 5TeaUI19RadarCommandHandlerC
+- _symbolic _____SgXw 5TeaUI19SectionSelectorViewC
+- _symbolic _____SgXw 5TeaUI20NavigationControllerC
+- _symbolic _____SgXw 5TeaUI21PromiseViewControllerC
+- _symbolic _____SgXw 5TeaUI24SectionViewBarButtonItemC
+- _symbolic _____SgXw 5TeaUI25TabBarSplitViewControllerC
+- _symbolic _____SgXw 5TeaUI31StatusBannerContainerControllerC
+- _symbolic _____SgXw 5TeaUI35FloatingTabBarAcccessoryCoordinatorC
+- _symbolic _____SgXwz_Xx 5TeaUI12ActionButtonC
+- _symbolic _____SgXwz_Xx 5TeaUI19RadarCommandHandlerC
+- _symbolic _____SgXwz_Xx 5TeaUI19SectionSelectorViewC
+- _symbolic _____SgXwz_Xx 5TeaUI20NavigationControllerC
+- _symbolic _____SgXwz_Xx 5TeaUI25TabBarSplitViewControllerC
+- _symbolic _____SgXwz_Xx 5TeaUI35FloatingTabBarAcccessoryCoordinatorC
+- _symbolic _____XDXMT 5TeaUI21SectionViewControllerC
+- _symbolic _____Xo 5TeaUI19ImageCacheOperation33_2088E17F5F01413CA71FFC03BB03F429LLC
+- _symbolic _____Xo 5TeaUI25TabBarSplitViewControllerC
+- _symbolic _____Xoz_Xx 5TeaUI19ImageCacheOperation33_2088E17F5F01413CA71FFC03BB03F429LLC
+- _symbolic _____Xoz_Xx 5TeaUI25TabBarSplitViewControllerC
+- _symbolic ______So16UIViewControllerCXc 5TeaUI10TabBarableP
+- _symbolic ______So16UIViewControllerCXc 5TeaUI16StatusBannerableP
+- _symbolic ______So16UIViewControllerCXc 5TeaUI31StatusBannerVisibilityProvidingP
+- _symbolic ______So16UIViewControllerCXcSgXw 5TeaUI22NavigationItemStylableP
+- _symbolic ______So16UIViewControllerCXcSgXwz_Xx 5TeaUI22NavigationItemStylableP
+- _symbolic ___________t 5TeaUI27TabBarSplitViewPresentationO10NavigationO AC4PaneO
+- _symbolic ______p 5TeaUI18ToolbarManagerTypeP
+- _symbolic ______p 5TeaUI22TabBarSplitViewPanableP
+- _symbolic ______p 5TeaUI34ButtonToolbarItemConfigurationTypeP
+- _symbolic ______pSg 5TeaUI16TabBarStylerTypeP
+- _symbolic ______pSg 5TeaUI28MiniMastheadViewProviderTypeP
+- _symbolic ______pSg 5TeaUI37BlueprintViewDiffableDropDelegateTypeP
+- _symbolic ______pSg 5TeaUI38SectionViewBarAnimationCoordinatorTypeP
+- _symbolic ______pSgXw 5TeaUI16StatusBannerableP
+- _symbolic ______pSgXw 5TeaUI24TabBarControllerDelegateP
+- _symbolic ______pSgXw 5TeaUI25SearchToolbarItemDelegateP
+- _symbolic ______pSgXw 5TeaUI27SectionSelectorViewDelegateP
+- _symbolic ______pSgXw 5TeaUI29SectionSelectorViewDataSourceP
+- _symbolic ______pSgXw 5TeaUI33BlueprintLiveResizingViewDelegateP
+- _symbolic ______pSgXw 5TeaUI33TabBarSplitViewControllerDelegateP
+- _symbolic ______pSgXw 5TeaUI36BlueprintViewDragReorderDelegateTypeP
+- _symbolic ______pSgyc So35UIActivityItemsConfigurationReadingP
+- _symbolic _____y10Descriptor_____Qy0_5ModelACQy0_G 5TeaUI9BlueprintV AA0C12ProviderTypeP
+- _symbolic _____ySSSaySo16UIViewControllerCGG 13TeaFoundation8LRUCacheC
+- _symbolic _____ySSq_GSg 5UIKit34UICollectionViewDiffableDataSourceC
+- _symbolic _____ySo12UIScrollViewCG 13TeaFoundation4LazyC
+- _symbolic _____ySo16UIViewControllerC_____G 13TeaFoundation12AddressCacheV 0A2UI27TabBarSplitViewModalContextV
+- _symbolic _____ySo16UIViewControllerC_____G 13TeaFoundation12AddressCacheV 0A2UI34TabBarSplitViewPresentationContextV
+- _symbolic _____y_____G 13TeaFoundation12EventManagerC 0A2UI25TabBarSplitViewControllerC0C0O
+- _symbolic _____y_____G 13TeaFoundation14SyncObservableC 0A2UI19NavigationItemStyleV
+- _symbolic _____y_____G 13TeaFoundation4LazyC 0A2UI15ToolbarTemplateV
+- _symbolic _____y_____y_____y_____y_____yACyACy_____ADGACyAD_____ySaySi6offset______7elementtGSiADGGGACyACyAFySaySiAG_SSAItGSiADSgGADG_____GG______y__________y_____GAVGtGG_Qo_______y__________yACy_____yAX_____GA7_GGGQo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AcAE10searchable4text9placement6promptQrAIySSG_AA20SearchFieldPlacementVAA4TextVSgtFQO AA4FormV AA05TupleC0V AA19_ConditionalContentV 03TeaB08JSONViewV03RowC0V AA7ForEachV 0W10Foundation4JSONO s5NeverO AA7SectionV AA05EmptyC0V AA6ButtonV AT AA15NavigationStackV AA14NavigationPathV AA06ScrollC0V AA08ModifiedV0V AA14_PaddingLayoutV
+- _symbolic _____yq0_G 5TeaUI39BlueprintSectionCollapsibleStateManagerC
+- _symbolic _____yq0_GSg 5TeaUI39BlueprintSectionCollapsibleStateManagerC
+- _symbolic _____yq0_q1_q2_q3_G 5TeaUI33BlueprintCollectionViewDataSourceC
+- _symbolic _____yxG 5TeaUI20GutterViewControllerC
+- _symbolic _____yxGSgXw 5TeaUI20GutterViewControllerC
+- _symbolic _____yxGSgXwz_x_So16UIViewControllerCRbzlXX 5TeaUI20GutterViewControllerC
+- _symbolic _____yxGSgXwz_ySo7UIImageCSg_______pSgtc_lXX 5TeaUI22ImageCacheFetchDeduperC s5ErrorP
+- _symbolic _____yxq_G9blueprint_______p4diff_____Sg8responseSb8animated_____8bookmarkt 5TeaUI9BlueprintV AA0C8DiffTypeP AA0C18ViewActionResponseC AA0C8BookmarkO
+- _symbolic _____yxq_G9blueprint_______p4diff_____Sg8responseSb8animatedt 5TeaUI9BlueprintV AA0C8DiffTypeP AA0C18ViewActionResponseC
+- _symbolic _____yxq_q0__G 5TeaUI41BlueprintCompositionalListDataSourceProxyC0fG4Kind33_B75A272FE4284B9FAE137A2B8830418CLLO
+- _symbolic _____yxq_q0_q1_q2_q3_q4_G 5TeaUI52BlueprintCompositionalListDiffableDataSourceProviderC
+- _symbolic _____yxq_q0_q1_q2_q3_q4_GSgXw 5TeaUI52BlueprintCompositionalListDiffableDataSourceProviderC
+- _symbolic _____yxq_q0_q1_q2_q3_q4_GSgXwz_x_q_q0_q1_q2_q3_q4______Rz_____R______R0______R1______R2______R3______R4_10Descriptor_____Qy3_AK_____Rt0_5Model_____Qy2_ApNRt0_06LayoutA0ALQy3_AT_____Rt1______0cB0AVRp1_AyQQy2_AZRSSo20UICollectionViewCellC0F0AQRt2_AyLQy3_A_RSApLQy3_ARRSSo0dE0C0E0AQRt2_AK_____Qy4_AMRSAPA10_Qy4_A5_RSA7_A8_ALRt3_r5_lXX 5TeaUI52BlueprintCompositionalListDiffableDataSourceProviderC 0A10Foundation12IdentifiableP AA9ModelableP AA0cI4TypeP AA0c6LayoutiM0P AA0c8ViewCelliM0P AA0co13SupplementaryoiM0P AA0co18ControllerDelegateM0P AP AJ AN AL AA0cn15FrameAttributesM0P AR
+- _symbolic _____yxq_qd__qd_0_qd_1_qd_2_qd_3_G 5TeaUI52BlueprintCompositionalListDiffableDataSourceProviderC
+- _symbolic _____yySo7UIImageCSg_______pSgtcG 5TeaUI22ImageCacheFetchDeduperC s5ErrorP
+- _symbolic _____yySo7UIImageCSg_______pSgtcGSgXw 5TeaUI22ImageCacheFetchDeduperC s5ErrorP
+- _symbolic _____yySo7UIImageCSg_______pSgtc_GSg 5TeaUI22ImageCacheFetchDeduperC7Request33_09B323467334024406EFB86D5920B02CLLC s5ErrorP
+- _symbolic _____yySo7UIImageCSg_______pSgtc_GSgXw 5TeaUI22ImageCacheFetchDeduperC7Request33_09B323467334024406EFB86D5920B02CLLC s5ErrorP
+- _symbolic q3_
+- _symbolic q4_
+- _symbolic q4_SgXw
+- _symbolic qd_3_
+- _symbolic xSo7UIImageCIegno_
+- _symbolic ySo12UIScrollViewCcSg
+- _symbolic ySo7UIImageCSg_______pSgtcSg s5ErrorP
+- _symbolic y_____yxq_G______SgSbyyctcSg 5TeaUI9BlueprintV AA0C18ViewActionResponseC
+- _symbolic y_____yxq_GcSg 5TeaUI9BlueprintV
+- _type_layout_string 5TeaUI14ToolbarManagerC22ConfigurationContainer33_BBDB9347A9BB9B257A709329237E7D8ELLV
+- _type_layout_string 5TeaUI15MenuToolbarItemC0C5StyleV
+- _type_layout_string 5TeaUI15ToolbarTemplateV
+- _type_layout_string 5TeaUI19NavigationItemStyleV
+- _type_layout_string 5TeaUI19NavigationItemStyleV03BarE0O
+- _type_layout_string 5TeaUI19ToolbarTemplateItemO
+- _type_layout_string 5TeaUI19ToolbarTemplateItemO06StaticE0O
+- _type_layout_string 5TeaUI19ToolbarTemplateItemO07CommanddE0V
+- _type_layout_string 5TeaUI21DecorationToolbarItemC0C0O
+- _type_layout_string 5TeaUI22ButtonToolbarItemStyleO
+- _type_layout_string 5TeaUI25TabBarSplitViewControllerC7OptionsV
+- _type_layout_string 5TeaUI27BlueprintViewDataSourceTypeRzAaBR_AA0cd20DiffableDropDelegateG0R_AA0cdh7ReorderjG0R_AA0cdG0R0_0D0QzRs0_AfaBPQy_AGRSr1_lAA0c17CompositionalListeF5ProxyC0eF4Kind33_B75A272FE4284B9FAE137A2B8830418CLLOyxq_q0__G
+- _type_layout_string 5TeaUI27TabBarSplitViewModalContextV
+- _type_layout_string 5TeaUI27TabBarSplitViewModalContextV24SheetPresentationOptionsV
+- _type_layout_string 5TeaUI27TabBarSplitViewPresentationO
+- _type_layout_string 5TeaUI27TabBarSplitViewPresentationO0D4ItemO
+- _type_layout_string 5TeaUI27TabBarSplitViewPresentationO10NavigationO
+- _type_layout_string 5TeaUI28MenuToolbarItemConfigurationV
+- _type_layout_string 5TeaUI30ButtonToolbarItemConfigurationV
+- _type_layout_string 5TeaUI34TabBarSplitViewPresentationContextV
+- _type_layout_string 5TeaUI7GuttersO
+CStrings:
++ " tintColor "
++ "$defaultActor"
++ "Adding migration task to tip storage manager..."
++ "Checking config group presentability for config=%{public}s... NOT allowing due to footer action having been triggered."
++ "Checking config group presentability for config=%{public}s... NOT allowing due to presented count being above max number of presentations"
++ "Checking config group presentability for config=%{public}s... NOT allowing due to quiescenceIntervalHasElapsed being false"
++ "Checking config group presentability for config=%{public}s... allowing. Complete"
++ "Checking config group presentability for config=%{public}s... failed. No record"
++ "Checking config group presentability for group=%{public}s, config=%{public}s..."
++ "Checking config group presentability for group=%{public}s, config=%{public}s... not enough time has elapsed"
++ "Checking config group presentability for group=%{public}s, config=%{public}s... quiescence interval has elapsed"
++ "Checking config presentability for config=%{public}s..."
++ "Dismissing presentation for tip=%{public}s on bar compression event."
++ "Dismissing presentation for tip=%{public}s on tab bar compression event."
++ "Error loading JSON"
++ "Failed tip presentation for tip=%{public}s, error=%{public}s"
++ "Failed to load records file from disk, creating new records file"
++ "Found placement for tip=%{public}s"
++ "Ignoring call to present tip=%s, reason='config=%s is not presentable'"
++ "Ignoring call to present tip=%s, reason='no placement for tip is registered'"
++ "Invalid placement for tip source=%{public}s, disallowed in compact layouts"
++ "Invalid placement for tip source=%{public}s, disallowed in regular layouts"
++ "Loaded tip storage file, records count=%ld"
++ "Loading tip storage file..."
++ "Masthead updateLayoutToPrepareForScrolling"
++ "No presentable config found for tip=%{public}s"
++ "No valid placement found for tip=%{public}s"
++ "No valid placements registered for tip=%{public}s"
++ "RadarAttachmentResolver failed to encode JPEG for screenshot"
++ "RadarAttachmentResolver failed to generate url, component=%{public}s, context=%{public}s, attachments=%{public}s"
++ "RadarAttachmentResolver failed to open url, url=%{public}s"
++ "RadarAttachmentResolver failed to resolve attachment, attachment=%{public}s, error=%{public}@"
++ "RadarAttachmentResolver failed to snapshot window, window=%{public}s"
++ "RadarAttachmentResolver failed to write snapshot to file, error=%{public}@"
++ "Registered tip config=%{public}s"
++ "Registering tip=%{public}s, placement=%{public}s ..."
++ "Requesting to present tip source=%{public}s"
++ "Resetting tip group last presented date for group=%{public}s..."
++ "Resetting tip record for config=%s..."
++ "Resetting tip records..."
++ "TeaUI.FloatingTabBarAccessoryCoordinator"
++ "TeaUI/PresentTipCommandHandler.swift"
++ "TeaUI/TipManager.swift"
++ "URLsForDirectory:inDomains:"
++ "Unexpected: no tip record file in memory when footer action triggered is being updated, config=%{public}s"
++ "Updating tip record for config=%{public}s, group=%{public}s..."
++ "Updating tip record for configIdentifier=%s, footerActionTriggered=%{bool}d..."
++ "Write file to tip storage..."
++ "Write file to tip storage... complete"
++ "Write file to tip storage... failed. error=%{public}s"
++ "_TtC5TeaUI11TipAssembly"
++ "_TtC5TeaUI11TipRecorder"
++ "_TtC5TeaUI14NoopTipTracker"
++ "_TtC5TeaUI16LiveResizingView"
++ "_TtC5TeaUI17TipStorageManager"
++ "_TtC5TeaUI24ImageCacheOperationQueue"
++ "_TtC5TeaUI24PresentTipCommandHandler"
++ "_TtC5TeaUI31DefaultTipViewControllerFactory"
++ "_TtC5TeaUI34FloatingTabBarAccessoryCoordinator"
++ "_TtC5TeaUIP33_18B9CE531B3AA4CAC0CBCF0572522BF917ImageCacheRequest"
++ "_TtC5TeaUIP33_18B9CE531B3AA4CAC0CBCF0572522BF925ImageCacheRequestPipeline"
++ "activeLayout"
++ "boostedRequestInjector"
++ "boostedRequestStream"
++ "cancelBlock"
++ "configIdentifier"
++ "configs"
++ "containsObject:"
++ "contentsAtPath:"
++ "countForObject:"
++ "defaultRequestInjector"
++ "defaultRequestStream"
++ "disallowInCompactLayouts"
++ "disallowInRegularLayouts"
++ "fileManager"
++ "footerActionTriggered"
++ "groupLastPresentedDate"
++ "init(coder:) has not been implemented.  Use custom init instead."
++ "init(coder:) has not been implemented. Use init(commandCenter:commandSource:command:context:image:) instead."
++ "init(coder:) has not been implemented.Use custom init instead."
++ "init(customView:) has not been implemented. Use custom init instead."
++ "init(customView:) has not been implemented. Use init(commandCenter:commandSource:command:context:image:) instead."
++ "lastPresentedDate"
++ "lastSettledVisibleLayoutItems"
++ "lastVisibleLayoutItems"
++ "loadState"
++ "loggingDescription"
++ "migratedIdentifiers"
++ "migrationTasks"
++ "numberOfPresentations"
++ "pipeline"
++ "pipeline validation block invalidated blueprint, error="
++ "requests"
++ "resetOnSceneDidEnterBackgroundEvent"
++ "screen"
++ "searchItems"
++ "setHidesNavigationBarDuringPresentation:"
++ "tea.ImageCache.boosted"
++ "tea.ImageCache.default"
++ "teaui.present.tip"
++ "teaui.tips.disable_overlay_placements"
++ "tipStorageManager"
++ "url tintColor "
++ "validateBlock"
++ "viewControllerFactory"
+- "$__lazy_storage_$_contentView"
+- "$__lazy_storage_$_intrinsicTabBar"
+- "$__lazy_storage_$_sectionSelectorView"
+- "$__lazy_storage_$_sectionsSegmentedView"
+- "%{public}@ cancelled"
+- ", backgroundImage: "
+- ", blurEffectStyle: "
+- ", buttonBackgroundColor: "
+- ", isTranslucent: "
+- ", isWhiteBackground: "
+- "<TabBarNavigationController %p identifier=%@>"
+- "@\"<UIViewControllerAnimatedTransitioning>\"40@0:8@\"UITabBarController\"16@\"UIViewController\"24@\"UIViewController\"32"
+- "@\"<UIViewControllerInteractiveTransitioning>\"32@0:8@\"UITabBarController\"16@\"<UIViewControllerAnimatedTransitioning>\"24"
+- "@\"NSArray\"40@0:8@\"UITabBarController\"16@\"UITab\"24@\"NSArray\"32"
+- "@\"NSItemProvider\"48@0:8q16@\"NSString\"24{CGSize=dd}32"
+- "@20@0:8B16"
+- "@24@0:8@\"NSString\"16"
+- "@32@0:8@16#24"
+- "@32@0:8q16@\"NSString\"24"
+- "@40@0:8q16@24d32"
+- "@48@0:8q16@24{CGSize=dd}32"
+- "Accessibility label for the section selector view"
+- "B24@0:8@\"NSString\"16"
+- "B32@0:8@\"UITabBarController\"16@\"UITab\"24"
+- "B32@0:8@\"UITabBarController\"16@\"UIViewController\"24"
+- "Dismissing presentation for placement source=%{public}s on bar compression event."
+- "Dismissing presentation for placement source=%{public}s on tab bar compression event."
+- "Failed to get snapshot from window for radar"
+- "Failed to jpegData from image for radar"
+- "Failed to write screenshot data for attachment for radar with error %{public}@"
+- "Found placement for tip source=%{public}s"
+- "Image backgroundColor: "
+- "Invalid configuration that should never occur; TabBarController should have already fatally asserted"
+- "Masthead updateLayoutToPrepareForScrolling: restorePreviousOffset=%{bool}d"
+- "NavigationController item style, model=%{public}@"
+- "NavigationController navigation bar style, model=%{public}@"
+- "NavigationController toolbar style, model=%{public}@"
+- "No valid placement found for tip source=%{public}s"
+- "No valid placements registered for tip source=%{public}s"
+- "Q24@0:8@\"UITabBarController\"16"
+- "Q40@0:8@\"UITabBarController\"16@\"UITab\"24@\"<UIDropSession>\"32"
+- "Q40@0:8@16@24@32"
+- "Registering source item for tip=%{public}s with placement=%{public}s..."
+- "Solid backgroundColor: "
+- "T@\"NSArray\",?,R,C,N"
+- "TSMastheadDisplayOptions"
+- "TSMastheadStyleOptions"
+- "TSTabBarSplitViewAutoObserver"
+- "TSTabBarSplitViewFocusable"
+- "TUForwardingTouchNavigationBar"
+- "TUForwardingTouchToolbar"
+- "TUNavigationController"
+- "TUTabBarNavigationControllerDidPopNotification"
+- "TUTabBarNavigationControllerDidPushNotification"
+- "Td,N,VtopOffset"
+- "TeaUI.CurtainViewController"
+- "TeaUI.FloatingTabBarAcccessoryCoordinator"
+- "TeaUI.FloatingTabBarAccessoryManager"
+- "TeaUI.GutterRootView"
+- "TeaUI.GutterViewContentView"
+- "TeaUI.GutterViewController"
+- "TeaUI.ImageCacheOperation"
+- "TeaUI.MastheadDisplayOptions"
+- "TeaUI.MastheadNavigationBarCompressionAnimator"
+- "TeaUI.MastheadStyleOptions"
+- "TeaUI.MastheadTitleViewBarCompressionAnimator"
+- "TeaUI.MiniMastheadBarCompressionAnimator"
+- "TeaUI.SectionViewController"
+- "TeaUI.StatusBannerContainerController"
+- "TeaUI.StatusBannerContainerView"
+- "TeaUI.TabBarContainerController"
+- "TeaUI.TabBarController"
+- "TeaUI.TabBarNavigationController"
+- "TeaUI.TabBarSplitViewController"
+- "TeaUI.ToolbarManager"
+- "TeaUI/CurtainViewController.swift"
+- "TeaUI/GutterViewContentView.swift"
+- "TeaUI/GutterViewController.swift"
+- "TeaUI/Mastheadable+TeaUI.swift"
+- "TeaUI/SectionSelectorView.swift"
+- "TeaUI/SectionViewBarButtonItem.swift"
+- "TeaUI/SectionViewController.swift"
+- "TeaUI/SectionViewSegmentedView.swift"
+- "TeaUI/StatusBannerContainerController.swift"
+- "TeaUI/TabBarContainerController.swift"
+- "TeaUI/TabBarController.swift"
+- "TeaUI/TabBarNavigationController.swift"
+- "TeaUI/TabBarSplitViewController.swift"
+- "TeaUI4"
+- "The bottom view controller in a TabBarNavigationController stack must be TabBarable!, "
+- "Tinted barTintColor: "
+- "Title used to describe the key command that opens a new window"
+- "Translucent barStyle: "
+- "Transparent barStyle: "
+- "UIActivityItemsConfigurationReading"
+- "UITabBarControllerDelegate"
+- "UIViewControllerStatusBarPartStyleProvider"
+- "Unable to toggle sidebar when immersiveSidebarState is active"
+- "You have removed the primary tab bar item controller; we can't recover from this"
+- "You must provide a view controller that can be card split view panable if using this status banner container in a card stack"
+- "_TtC5TeaUI10GutterView"
+- "_TtC5TeaUI11ToolbarItem"
+- "_TtC5TeaUI14ToolbarManager"
+- "_TtC5TeaUI15MenuToolbarItem"
+- "_TtC5TeaUI16ShareToolbarItem"
+- "_TtC5TeaUI16TabBarController"
+- "_TtC5TeaUI17ButtonToolbarItem"
+- "_TtC5TeaUI17SearchToolbarItem"
+- "_TtC5TeaUI19SectionSelectorView"
+- "_TtC5TeaUI21CurtainViewController"
+- "_TtC5TeaUI21DecorationToolbarItem"
+- "_TtC5TeaUI21GutterViewContentView"
+- "_TtC5TeaUI24SectionViewBarButtonItem"
+- "_TtC5TeaUI24SectionViewSegmentedView"
+- "_TtC5TeaUI25BlueprintLiveResizingView"
+- "_TtC5TeaUI25StatusBannerContainerView"
+- "_TtC5TeaUI25TabBarContainerController"
+- "_TtC5TeaUI25TabBarSplitViewController"
+- "_TtC5TeaUI26BlueprintGutterViewManager"
+- "_TtC5TeaUI26NavigationControllerStyler"
+- "_TtC5TeaUI26TabBarNavigationController"
+- "_TtC5TeaUI28GutterViewScrollViewObserver"
+- "_TtC5TeaUI30SearchToolbarItemConfiguration"
+- "_TtC5TeaUI31StatusBannerContainerController"
+- "_TtC5TeaUI34MiniMastheadBarCompressionAnimator"
+- "_TtC5TeaUI35FloatingTabBarAcccessoryCoordinator"
+- "_TtC5TeaUI35MastheadNavigationItemStyleProvider"
+- "_TtC5TeaUI36ShareToolbarItemConfigurationFactory"
+- "_TtC5TeaUI39MastheadTitleViewBarCompressionAnimator"
+- "_TtC5TeaUI40MastheadNavigationBarCompressionAnimator"
+- "_TtC5TeaUIP33_2088E17F5F01413CA71FFC03BB03F42919ImageCacheOperation"
+- "_TtC5TeaUIP33_DE89AB740D16D99A072493969E6EEC2114GutterRootView"
+- "_TtP5TeaUI24GutterViewBoundsObserver_"
+- "_displayOptions"
+- "_expectedContentInsetDeltaForViewController:"
+- "_popNavigationItemWithTransition:"
+- "_pushNavigationItem:transition:"
+- "_setShouldDismissWhenTappedOutside:"
+- "_shouldDismissWhenTappedOutside"
+- "_shouldOverlayTabBar"
+- "_toolbarEnabled"
+- "_wantsBottomAttachedInCompactHeight"
+- "_widthFollowsPreferredContentSizeWhenBottomAttached"
+- "accessibilityContainerType"
+- "accessibilityDecrement"
+- "accessibilityFrame"
+- "accessibilityIncrement"
+- "activityItemsConfigurationMetadataForItemAtIndex:key:"
+- "activityItemsConfigurationMetadataForKey:"
+- "activityItemsConfigurationPreviewForItemAtIndex:intent:suggestedSize:"
+- "activityItemsConfigurationSupportsInteraction:"
+- "allowsManagedRecoloring"
+- "animateAlongsideTabBarSnapshot"
+- "appearanceTransitionsAreDisabled"
+- "appearanceViewControllers"
+- "applicationActivitiesForActivityItemsConfiguration"
+- "applyReloadSnapshot"
+- "applyReloadSnapshotBlock"
+- "applySnapshotBlock"
+- "barAnimationCoordinator"
+- "barBackgroundColor"
+- "barCompressionAnimator"
+- "barCompressionManager"
+- "blueprint diff response animated "
+- "blueprint diff response animated bookmark "
+- "boundsObservers"
+- "cancel"
+- "canceled"
+- "chevron.backward.circle.fill"
+- "childScrollView"
+- "childViewController"
+- "collapsingButton"
+- "commandImage"
+- "configurations"
+- "configureWithDefaultBackground"
+- "constraints"
+- "currentProvider"
+- "currentScrollViewOffset"
+- "currentSplitViewFocus"
+- "deactivateConstraints:"
+- "defaultInset"
+- "didMoveToSuperview"
+- "diffableDataSource"
+- "diffableReorderingDelegate"
+- "dispatchedRebuild"
+- "displayModeButtonItem"
+- "error"
+- "extendedDelegate"
+- "fullscreenTransitionCoverManager"
+- "gutterView"
+- "gutterViewBoundsDidChange"
+- "gutterViewManager"
+- "gutters"
+- "highlightedTextAlpha"
+- "imageCompletionBlock"
+- "imageForState:"
+- "in contexts where TabBarSplitViewPanable method is used, loaded view controller must conform"
+- "init(coder:) has not been implemented. Use init(command:image:) instead."
+- "init(customView:) has not been implemented. Use init(command:context:image:contentSize:) instead."
+- "init(rootViewController:navigationBarClass:)"
+- "init(tabs:)"
+- "initWithDisplayMode:styleOptions:statusBarVisiblityOffset:"
+- "initWithMastheadTextColor:"
+- "initWithRootViewController:navigationBarClass:"
+- "initWithTabs:"
+- "internalGutterView"
+- "isCancelled"
+- "isDescendantOfView:"
+- "isModalInPresentation"
+- "isScrollingEnabled"
+- "isStatusBannerVisibleCheck"
+- "isToolbarEnabled"
+- "isToolbarVisible"
+- "isUserInteractionEnabled"
+- "itemProvidersForActivityItemsConfiguration"
+- "lastMiniLaidOutLayoutOptions"
+- "lazyTemplate"
+- "leftGutterView"
+- "main"
+- "mastheadTextColor"
+- "miniMastheadViewProvider"
+- "modalContextCache"
+- "navigationItemStyle"
+- "notifyWhenInteractionChangesUsingBlock:"
+- "observations"
+- "offset element associatedWith "
+- "onCreateMenuBlock"
+- "onStatusBannerTap"
+- "openNewWindow"
+- "operation"
+- "operationDescription"
+- "operationsLock"
+- "outerView"
+- "overlayToolbar"
+- "overrideUserInterfaceStyle"
+- "pluginPinningEnabled"
+- "preferredCenterStatusBarStyle"
+- "preferredDisplayMode"
+- "preferredLeadingStatusBarStyle"
+- "preferredTrailingStatusBarStyle"
+- "presentationContextCache"
+- "primaryTabBarItemIdentifier"
+- "q24@0:8@\"UITabBarController\"16"
+- "queuedUpdates"
+- "resizableSnapshotViewFromRect:afterScreenUpdates:withCapInsets:"
+- "restoreStateCache"
+- "rightGutterView"
+- "scrollViewObserver"
+- "searchController"
+- "secondaryNavigationControllerIdentifierBeforeCollapse"
+- "secondarySystemFillColor"
+- "sectionBarTextColor"
+- "sectionBarTintColor"
+- "sectionSelectorStyle"
+- "sectionTitleColor"
+- "selectedButtonFont"
+- "selectedIndex"
+- "selectedTextAlpha"
+- "setAppearanceTransitionsAreDisabled:"
+- "setAutomaticallyAdjustsScrollIndicatorInsets:"
+- "setBackgroundImage:forBarMetrics:"
+- "setBarStyle:"
+- "setBarTintColor:"
+- "setDecelerationRate:"
+- "setItems:animated:"
+- "setPresentsWithGesture:"
+- "setSelectedIndex:"
+- "setSelectedViewController:"
+- "setTitleColor:forState:"
+- "setTitleTextAttributes:forState:"
+- "setTopOffset:"
+- "setTranslucent:"
+- "setViewControllers:animated:"
+- "setWidth:forSegmentAtIndex:"
+- "shouldAnimate"
+- "shouldUseImmersiveEffects: "
+- "stagedModalContextCache"
+- "standardAppearance"
+- "statusBannerViewController"
+- "statusBarMode"
+- "statusBarVisiblityOffset"
+- "styleOptions"
+- "tabBarController:animationControllerForTransitionFromViewController:toViewController:"
+- "tabBarController:didEndCustomizingViewControllers:changed:"
+- "tabBarController:didSelectTab:previousTab:"
+- "tabBarController:didSelectViewController:"
+- "tabBarController:displayOrderDidChangeForGroup:"
+- "tabBarController:displayedViewControllersForTab:proposedViewControllers:"
+- "tabBarController:interactionControllerForAnimationController:"
+- "tabBarController:shouldSelectTab:"
+- "tabBarController:shouldSelectViewController:"
+- "tabBarController:tab:acceptItemsFromDropSession:"
+- "tabBarController:tab:operationForAcceptingItemsFromDropSession:"
+- "tabBarController:visibilityDidChangeForTabs:"
+- "tabBarController:willBeginCustomizingViewControllers:"
+- "tabBarController:willEndCustomizingViewControllers:changed:"
+- "tabBarControllerDidEndEditing:"
+- "tabBarControllerPreferredInterfaceOrientationForPresentation:"
+- "tabBarControllerSupportedInterfaceOrientations:"
+- "tabBarControllerWillBeginEditing:"
+- "tabBarNavigationControllerDidPopWithNotification:"
+- "tabBarOrder"
+- "tabBarSplitViewDidChangeCollapseStateToCollapseState:"
+- "tabBarSplitViewDidChangeFocusToFocus:action:"
+- "tabBarSplitViewDidChangeTraitCollectionToTraitCollection:"
+- "tabBarSplitViewFocusable"
+- "tabBarSplitViewFousable"
+- "tabBarSplitViewWillChangeDisplayModeToDisplayMode:"
+- "target"
+- "tea.imageCache.operationQueue"
+- "textAlpha"
+- "toggleSideBarVisibility"
+- "toggleSplitViewFocusTo:"
+- "toolbarItemDelegate"
+- "toolbarManager"
+- "transitioningDelegate"
+- "ts_setAppearanceTransitionsAreDisabled:"
+- "unselectedButtonFont"
+- "useDiffableDataSource"
+- "v32@0:8@\"UITabBarController\"16@\"NSArray\"24"
+- "v32@0:8@\"UITabBarController\"16@\"UITabGroup\"24"
+- "v32@0:8@\"UITabBarController\"16@\"UIViewController\"24"
+- "v36@0:8@\"UITabBarController\"16@\"NSArray\"24B32"
+- "v40@0:8@\"UITabBarController\"16@\"UITab\"24@\"<UIDropSession>\"32"
+- "v40@0:8@\"UITabBarController\"16@\"UITab\"24@\"UITab\"32"
+- "viewControllerDepth"
+- "viewControllerForKey:"
+- "willMoveToSuperview:"
+- "withScrollIndicatorsShownForContentOffsetChanges:"
+
+```

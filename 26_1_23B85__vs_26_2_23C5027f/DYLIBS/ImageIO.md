@@ -1,0 +1,91 @@
+## ImageIO
+
+> `/System/Library/Frameworks/ImageIO.framework/ImageIO`
+
+```diff
+
+-2784.1.3.3.0
+-  __TEXT.__text: 0x3a5fac
++2784.2.2.0.0
++  __TEXT.__text: 0x3a61c0
+   __TEXT.__auth_stubs: 0x41f0
+   __TEXT.__objc_methlist: 0xd20
+   __TEXT.__const: 0x2ebf8
+-  __TEXT.__gcc_except_tab: 0x212b4
++  __TEXT.__gcc_except_tab: 0x212b8
+   __TEXT.__cstring: 0x9c813
+   __TEXT.__oslogstring: 0x17
+   __TEXT.__ustring: 0x30
+-  __TEXT.__unwind_info: 0xd2a0
++  __TEXT.__unwind_info: 0xd298
+   __TEXT.__eh_frame: 0x308
+   __TEXT.__objc_classname: 0xe0
+   __TEXT.__objc_methname: 0x2e13
+
+   - /usr/lib/libexpat.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: F9804EC9-D231-3D29-91A2-F923436B5AAC
++  UUID: 5A5FCC3E-2C66-3494-85B3-861D70941C7C
+   Functions: 13175
+   Symbols:   41072
+   CStrings:  24808
+Functions:
+~ __ZN14IIOImageSource25setImagePropertiesAtIndexEP13IIODictionaryl : 348 -> 336
+~ __ZN17IIO_ReaderHandler15buildPluginListEv : 10724 -> 11080
+~ ____ZN17IIO_ReaderHandler15buildPluginListEv_block_invoke : 412 -> 416
+~ ____ZN17IIO_ReaderHandler15buildPluginListEv_block_invoke_2 : 412 -> 416
+~ __ZN19IIOImageDestination25setImagePropertiesAtIndexEP13IIODictionaryl : 396 -> 384
+~ __ZN19IIOImageDestination21setSourceImageAtIndexEP7CGImagel : 404 -> 392
+~ __ZNSt3__16__treeINS_12__value_typeINS_10shared_ptrIKN14AdobeXMPCommon14IUTF8String_v1EEES6_EENS_19__map_value_compareIS6_S7_N16AdobeXMPCore_Int21IUTF8StringComparatorELb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIS6_JRKNS_21piecewise_construct_tENS_5tupleIJRKS6_EEENSJ_IJEEEEEENS_4pairINS_15__tree_iteratorIS7_PNS_11__tree_nodeIS7_PvEElEEbEERKT_DpOT0_ : 196 -> 208
+~ __ZNSt3__16vectorI13XPathStepInfoNS_9allocatorIS1_EEE7reserveEm : 188 -> 204
+~ __ZNSt3__16vectorI13XPathStepInfoNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJS1_EEEPS1_DpOT_ : 288 -> 292
+~ __ZN12ExpatAdapterC2Eb : 788 -> 792
+~ __ZNSt3__16vectorI8IterNodeNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJS1_EEEPS1_DpOT_ : 304 -> 308
+~ ____ZN20AppleMakerNoteWriterC2EPK14__CFDictionaryb_block_invoke : 236 -> 240
+~ ____ZN14IIOImageSource19updateThumbnailInfoEP13IIODictionaryPjS2__block_invoke : 660 -> 664
+~ ____ZN13PNGReadPlugin28EnsureFrameBufferQueueExistsEP19IIOImageReadSessionP13GlobalPNGInfoRK14ReadPluginDataRK13PNGPluginDatal_block_invoke : 1304 -> 1312
+~ __ZNSt3__16vectorI20IIODecodeFrameParamsNS_9allocatorIS1_EEE11__vallocateB8fe200100Em : 80 -> 84
+~ __ZNKSt3__120__shared_ptr_pointerIP19IIOFrameBufferQueueNS_10shared_ptrI13IIOBaseObjectE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZN16IIOPixelProvider14setupSrcFormatEv : 420 -> 424
+~ __ZN16IIOPixelProvider35convertFloatHDRBufferUsingCGContextEP13vImage_BufferS1_j : 1080 -> 1076
+~ __ZN14TIFFReadPlugin14decodeImageImpEP18IIODecodeParameter12IIOImageTypePP11__IOSurfacePP10__CVBufferPP15CGImageBlockSet : 1680 -> 1684
+~ __ZNSt3__16vectorI13IIODecodeInfoNS_9allocatorIS1_EEE11__vallocateB8fe200100Em : 76 -> 80
+~ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJRKS6_EEEPS6_DpOT_ : 320 -> 316
+~ __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE21__match_at_start_ecmaINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb : 1036 -> 1040
+~ __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE29__match_at_start_posix_nosubsINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb : 1400 -> 1404
+~ __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE27__match_at_start_posix_subsINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb : 1348 -> 1368
+~ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_ : 376 -> 380
+~ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE11__vallocateB8fe200100Em : 76 -> 80
+~ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE11__vallocateB8fe200100Em : 60 -> 64
+~ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE19__add_back_capacityEv : 468 -> 472
+~ __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE13emplace_frontIJS3_EEEvDpOT_ : 268 -> 272
+~ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEED2B8fe200100Ev : 356 -> 336
+~ __ZNKSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNSt3__16vectorIyNS_9allocatorIyEEE11__vallocateB8fe200100Em : 60 -> 64
+~ __ZNSt3__16vectorI13EXRPluginDataNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKS1_EEEPS1_DpOT_ : 532 -> 536
+~ ____ZN13HEIFGroupItemC2EPK14__CFDictionaryS2_j_block_invoke : 280 -> 284
+~ __ZN13HEIFGroupItem14readFromStreamEP14__CFReadStream : 580 -> 576
+~ __ZN13PSDReadPlugin14decodeImageImpEP18IIODecodeParameter12IIOImageTypePP11__IOSurfacePP10__CVBufferPP15CGImageBlockSet : 1708 -> 1724
+~ __ZN8XMPUtils14PackageForJPEGERK8XMPMeta2PNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESA_SA_ : 4588 -> 4600
+~ __ZNKSt3__120__shared_ptr_pointerIPN14AdobeXMPCommon16IUTF8StringProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNSt3__16vectorI8IterNodeNS_9allocatorIS1_EEE9push_backB8fe200100EOS1_ : 76 -> 84
+~ __ZNK16AdobeXMPCore_Int8NodeImpl7GetPathEv : 1288 -> 1292
+~ __ZN11PNG_Support9ReadChunkEP6XMP_IORNS_10ChunkStateEPlPjRx : 844 -> 848
+~ __ZN8XMPUtils21SeparateArrayItems_v2EP7XMPMetaPKcS3_jS3_ : 5644 -> 5652
+~ __ZNSt3__16vectorIP8XMP_NodeNS_9allocatorIS2_EEE11__vallocateB8fe200100Em : 60 -> 64
+~ __ZNSt3__16vectorIbNS_9allocatorIbEEE11__vallocateB8fe200100Em : 68 -> 72
+~ __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB8fe200100Em : 56 -> 60
+~ __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB8fe200100Em : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP7XMPMetaNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNSt3__16__treeINS_12__value_typeItN15TIFF_FileWriter15InternalTagInfoEEENS_19__map_value_compareItS4_NS_4lessItEELb1EEENS_9allocatorIS4_EEE30__emplace_hint_unique_key_argsItJRKNS_4pairIKtS3_EEEEENSD_INS_15__tree_iteratorIS4_PNS_11__tree_nodeIS4_PvEElEEbEENS_21__tree_const_iteratorIS4_SM_lEERKT_DpOT0_ : 192 -> 196
+~ __ZNSt3__16__treeINS_12__value_typeINS_10shared_ptrIKN14AdobeXMPCommon14IUTF8String_v1EEENS2_IKN12AdobeXMPCore17IDOMSerializer_v1EEEEENS_19__map_value_compareIS6_SB_N16AdobeXMPCore_Int21IUTF8StringComparatorELb1EEENS_9allocatorISB_EEE25__emplace_unique_key_argsIS6_JNS_4pairIS6_SA_EEEEENSK_INS_15__tree_iteratorISB_PNS_11__tree_nodeISB_PvEElEEbEERKT_DpOT0_ : 188 -> 192
+~ __ZNSt3__16vectorI13XPathStepInfoNS_9allocatorIS1_EEE18__assign_with_sizeB8fe200100IPS1_S6_EEvT_T0_l : 372 -> 384
+~ __ZNSt3__16vectorI13XPathStepInfoNS_9allocatorIS1_EEE11__vallocateB8fe200100Em : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIPN14AdobeXMPCommon11IErrorProxyENS_10shared_ptrINS1_9IError_v1EE27__shared_ptr_default_deleteIS5_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorI13XPathStepInfoNS5_IS9_EEEEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSN_IJEEEEEENS_4pairINS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEElEEbEERKT_DpOT0_ : 208 -> 212
+~ __ZN16AdobeXMPCore_Int9ErrorImpl15AppendParameterEPKcy : 336 -> 340
+~ __ZNSt3__16__treeINS_12__value_typeItN15PSIR_FileWriter16InternalRsrcInfoEEENS_19__map_value_compareItS4_NS_4lessItEELb1EEENS_9allocatorIS4_EEE30__emplace_hint_unique_key_argsItJRKNS_4pairIKtS3_EEEEENSD_INS_15__tree_iteratorIS4_PNS_11__tree_nodeIS4_PvEElEEbEENS_21__tree_const_iteratorIS4_SM_lEERKT_DpOT0_ : 192 -> 196
+~ __ZN11OFDDocument8parseXMLEPK8__CFData : 528 -> 508
+
+```

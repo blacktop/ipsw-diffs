@@ -1,0 +1,229 @@
+## OSEligibility
+
+> `/System/Library/PrivateFrameworks/OSEligibility.framework/OSEligibility`
+
+```diff
+
+-286.40.9.0.1
+-  __TEXT.__text: 0x16054
+-  __TEXT.__auth_stubs: 0x870
+-  __TEXT.__objc_methlist: 0x74
+-  __TEXT.__const: 0x3b60
+-  __TEXT.__swift5_typeref: 0xa86
++286.60.18.502.1
++  __TEXT.__text: 0x1cef0
++  __TEXT.__auth_stubs: 0x910
++  __TEXT.__objc_methlist: 0x17c
++  __TEXT.__const: 0x4b00
++  __TEXT.__swift5_typeref: 0xda6
+   __TEXT.__oslogstring: 0x1c0
+-  __TEXT.__cstring: 0x831
+-  __TEXT.__constg_swiftt: 0x8fc
+-  __TEXT.__swift5_reflstr: 0x7ca
+-  __TEXT.__swift5_fieldmd: 0xe64
+-  __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_mpenum: 0x10
++  __TEXT.__cstring: 0xa31
++  __TEXT.__constg_swiftt: 0xaec
++  __TEXT.__swift5_reflstr: 0xbf8
++  __TEXT.__swift5_fieldmd: 0x11a8
++  __TEXT.__swift5_builtin: 0x50
++  __TEXT.__swift5_mpenum: 0x18
+   __TEXT.__swift5_assocty: 0x30
+-  __TEXT.__swift5_proto: 0x2e4
+-  __TEXT.__swift5_types: 0xe4
++  __TEXT.__swift5_proto: 0x3c8
++  __TEXT.__swift5_types: 0x11c
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__unwind_info: 0x3b0
+-  __TEXT.__eh_frame: 0x640
+-  __TEXT.__objc_methname: 0x11a
++  __TEXT.__unwind_info: 0x428
++  __TEXT.__eh_frame: 0x718
++  __TEXT.__objc_classname: 0x17
++  __TEXT.__objc_methname: 0x259
++  __TEXT.__objc_methtype: 0xad
+   __DATA_CONST.__got: 0xb0
+   __DATA_CONST.__const: 0x38
+   __DATA_CONST.__objc_classlist: 0x28
++  __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x80
+-  __AUTH_CONST.__auth_got: 0x438
+-  __AUTH_CONST.__const: 0x1080
+-  __AUTH_CONST.__objc_const: 0x380
++  __DATA_CONST.__objc_selrefs: 0x120
++  __DATA_CONST.__objc_protorefs: 0x10
++  __AUTH_CONST.__auth_got: 0x488
++  __AUTH_CONST.__const: 0x15c0
++  __AUTH_CONST.__objc_const: 0x480
+   __AUTH.__objc_data: 0x70
+   __AUTH.__data: 0x290
+-  __DATA.__data: 0x3f8
+-  __DATA.__bss: 0x5e58
++  __DATA.__data: 0x5f8
++  __DATA.__bss: 0x7c88
+   __DATA.__common: 0x30
+   __DATA_DIRTY.__data: 0x10
+   __DATA_DIRTY.__bss: 0x100
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 961BA5C0-8C3A-37DA-A428-449391763CD8
+-  Functions: 717
+-  Symbols:   420
+-  CStrings:  82
++  UUID: 7E629DF2-BCF8-3C2A-BBAA-0FA5F2B96F48
++  Functions: 884
++  Symbols:   515
++  CStrings:  134
+ 
+Symbols:
++ __OBJC_$_PROP_LIST_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
++ __OBJC_$_PROTOCOL_REFS_OS_xpc_object
++ __OBJC_LABEL_PROTOCOL_$_NSObject
++ __OBJC_LABEL_PROTOCOL_$_OS_xpc_object
++ __OBJC_PROTOCOL_$_NSObject
++ __OBJC_PROTOCOL_$_OS_xpc_object
++ _associated conformance 13OSEligibility0A5InputO16IsTeenCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 13OSEligibility0A5InputO16IsTeenCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13OSEligibility0A5InputO17IsChildCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 13OSEligibility0A5InputO17IsChildCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13OSEligibility0A5InputO28AgeAssuranceAreaIdCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13OSEligibility0A5InputO28AgeAssuranceAreaIdCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13OSEligibility0A5InputO28IsAgeVerifiedAdultCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13OSEligibility0A5InputO28IsAgeVerifiedAdultCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13OSEligibility0A5InputO39IsConnectedToAgeVerifiedAdultCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13OSEligibility0A5InputO39IsConnectedToAgeVerifiedAdultCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13OSEligibility0A5InputO42IsAccountEligibleForAgeAssuranceCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13OSEligibility0A5InputO42IsAccountEligibleForAgeAssuranceCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13OSEligibility0A7ContextO16EntitlementValueO10CodingKeys33_81A58D0714076A766F79E84CC064AF12LLOSHAASQ
++ _associated conformance 13OSEligibility0A7ContextO16EntitlementValueO10CodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 13OSEligibility0A7ContextO16EntitlementValueO10CodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13OSEligibility0A7ContextO16EntitlementValueO14BoolCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOSHAASQ
++ _associated conformance 13OSEligibility0A7ContextO16EntitlementValueO14BoolCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13OSEligibility0A7ContextO16EntitlementValueO14BoolCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13OSEligibility0A7ContextO16EntitlementValueO15ArrayCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOSHAASQ
++ _associated conformance 13OSEligibility0A7ContextO16EntitlementValueO15ArrayCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13OSEligibility0A7ContextO16EntitlementValueO15ArrayCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13OSEligibility0A7ContextO16EntitlementValueO16StringCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOSHAASQ
++ _associated conformance 13OSEligibility0A7ContextO16EntitlementValueO16StringCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0F3KeyAAs011CustomDebugE11Convertible
++ _associated conformance 13OSEligibility0A7ContextO16EntitlementValueO16StringCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0F3KeyAAs06CustomE11Convertible
++ _associated conformance 13OSEligibility0A7ContextO16EntitlementValueO20DictionaryCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOSHAASQ
++ _associated conformance 13OSEligibility0A7ContextO16EntitlementValueO20DictionaryCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13OSEligibility0A7ContextO16EntitlementValueO20DictionaryCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13OSEligibility0A7ContextO16EntitlementValueOSHAASQ
++ _associated conformance 13OSEligibility0A7ContextO17AreaIDsCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOSHAASQ
++ _associated conformance 13OSEligibility0A7ContextO17AreaIDsCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 13OSEligibility0A7ContextO17AreaIDsCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13OSEligibility0A7ContextO21EntitlementCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOSHAASQ
++ _associated conformance 13OSEligibility0A7ContextO21EntitlementCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 13OSEligibility0A7ContextO21EntitlementCodingKeys33_81A58D0714076A766F79E84CC064AF12LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _flat unique So13OS_xpc_object_p
++ _get_enum_tag_for_layout_string 13OSEligibility0A7ContextO16EntitlementValueO
++ _symbolic SDySS_____G 13OSEligibility0A7ContextO16EntitlementValueO
++ _symbolic Say_____G 13OSEligibility0A7ContextO16EntitlementValueO
++ _symbolic _____ 13OSEligibility0A5InputO16IsTeenCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____ 13OSEligibility0A5InputO17IsChildCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____ 13OSEligibility0A5InputO28AgeAssuranceAreaIdCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____ 13OSEligibility0A5InputO28IsAgeVerifiedAdultCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____ 13OSEligibility0A5InputO39IsConnectedToAgeVerifiedAdultCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____ 13OSEligibility0A5InputO42IsAccountEligibleForAgeAssuranceCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____ 13OSEligibility0A7ContextO16EntitlementValueO
++ _symbolic _____ 13OSEligibility0A7ContextO16EntitlementValueO10CodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____ 13OSEligibility0A7ContextO16EntitlementValueO14BoolCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____ 13OSEligibility0A7ContextO16EntitlementValueO15ArrayCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____ 13OSEligibility0A7ContextO16EntitlementValueO16StringCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____ 13OSEligibility0A7ContextO16EntitlementValueO20DictionaryCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____ 13OSEligibility0A7ContextO17AreaIDsCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____ 13OSEligibility0A7ContextO21EntitlementCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic ______p So13OS_xpc_objectP
++ _symbolic _____ySS_____G s18_DictionaryStorageC 13OSEligibility0C7ContextO16EntitlementValueO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13OSEligibility0D5InputO16IsTeenCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13OSEligibility0D5InputO17IsChildCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13OSEligibility0D5InputO28AgeAssuranceAreaIdCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13OSEligibility0D5InputO28IsAgeVerifiedAdultCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13OSEligibility0D5InputO39IsConnectedToAgeVerifiedAdultCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13OSEligibility0D5InputO42IsAccountEligibleForAgeAssuranceCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13OSEligibility0D7ContextO16EntitlementValueO10CodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13OSEligibility0D7ContextO16EntitlementValueO14BoolCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13OSEligibility0D7ContextO16EntitlementValueO15ArrayCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13OSEligibility0D7ContextO16EntitlementValueO16StringCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13OSEligibility0D7ContextO16EntitlementValueO20DictionaryCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13OSEligibility0D7ContextO17AreaIDsCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13OSEligibility0D7ContextO21EntitlementCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13OSEligibility0D5InputO16IsTeenCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13OSEligibility0D5InputO17IsChildCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13OSEligibility0D5InputO28AgeAssuranceAreaIdCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13OSEligibility0D5InputO28IsAgeVerifiedAdultCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13OSEligibility0D5InputO39IsConnectedToAgeVerifiedAdultCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13OSEligibility0D5InputO42IsAccountEligibleForAgeAssuranceCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13OSEligibility0D7ContextO16EntitlementValueO10CodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13OSEligibility0D7ContextO16EntitlementValueO14BoolCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13OSEligibility0D7ContextO16EntitlementValueO15ArrayCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13OSEligibility0D7ContextO16EntitlementValueO16StringCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13OSEligibility0D7ContextO16EntitlementValueO20DictionaryCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13OSEligibility0D7ContextO17AreaIDsCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13OSEligibility0D7ContextO21EntitlementCodingKeys33_81A58D0714076A766F79E84CC064AF12LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13OSEligibility0D7ContextO16EntitlementValueO
++ _type_layout_string 13OSEligibility0A7ContextO16EntitlementValueO
++ _xpc_bool_create
++ _xpc_bool_get_value
++ _xpc_string_get_string_ptr
+CStrings:
++ "#16@0:8"
++ "@\"NSString\"16@0:8"
++ "@24@0:8:16"
++ "@32@0:8:16@24"
++ "@40@0:8:16@24@32"
++ "B16@0:8"
++ "B24@0:8#16"
++ "B24@0:8:16"
++ "B24@0:8@\"Protocol\"16"
++ "B24@0:8@16"
++ "NSObject"
++ "OS_ELIGIBILITY_CONTEXT_AREA_ID"
++ "OS_ELIGIBILITY_CONTEXT_ENTITLEMENT"
++ "OS_ELIGIBILITY_INPUT_AGE_ASSURANCE_AREA_ID"
++ "OS_ELIGIBILITY_INPUT_IS_ACCOUNT_ELIGIBILE_FOR_AGE_ASSURANCE"
++ "OS_ELIGIBILITY_INPUT_IS_AGE_VERIFIED_ADULT"
++ "OS_ELIGIBILITY_INPUT_IS_CHILD"
++ "OS_ELIGIBILITY_INPUT_IS_CONNECTED_TO_AGE_VERIFIED_ADULT"
++ "OS_ELIGIBILITY_INPUT_IS_TEEN"
++ "OS_xpc_object"
++ "T#,R"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",R,C"
++ "TQ,R"
++ "Vv16@0:8"
++ "^{_NSZone=}16@0:8"
++ "ageAssuranceAreaId"
++ "autorelease"
++ "class"
++ "conformsToProtocol:"
++ "debugDescription"
++ "description"
++ "hash"
++ "isAccountEligibleForAgeAssurance"
++ "isAgeVerifiedAdult"
++ "isConnectedToAgeVerifiedAdult"
++ "isEqual:"
++ "isKindOfClass:"
++ "isMemberOfClass:"
++ "isProxy"
++ "performSelector:"
++ "performSelector:withObject:"
++ "performSelector:withObject:withObject:"
++ "release"
++ "respondsToSelector:"
++ "retain"
++ "retainCount"
++ "self"
++ "superclass"
++ "zone"
+
+```

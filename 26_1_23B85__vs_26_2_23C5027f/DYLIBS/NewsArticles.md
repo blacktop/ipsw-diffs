@@ -1,0 +1,1203 @@
+## NewsArticles
+
+> `/System/Library/PrivateFrameworks/NewsArticles.framework/NewsArticles`
+
+```diff
+
+-5762.0.0.0.0
+-  __TEXT.__text: 0x39d774
+-  __TEXT.__auth_stubs: 0xae90
+-  __TEXT.__objc_methlist: 0x88bc
+-  __TEXT.__const: 0x2b614
+-  __TEXT.__cstring: 0x1cf6c
+-  __TEXT.__oslogstring: 0x1f13
++5784.0.0.0.0
++  __TEXT.__text: 0x3676a0
++  __TEXT.__auth_stubs: 0xa9b0
++  __TEXT.__objc_methlist: 0x84f4
++  __TEXT.__const: 0x29374
++  __TEXT.__cstring: 0x1ba4c
++  __TEXT.__oslogstring: 0x2113
+   __TEXT.__ustring: 0x4
+   __TEXT.__gcc_except_tab: 0xa0
+-  __TEXT.__swift5_typeref: 0xd8c0
+-  __TEXT.__swift5_fieldmd: 0xf350
+-  __TEXT.__constg_swiftt: 0x12314
+-  __TEXT.__swift5_reflstr: 0xd7ba
+-  __TEXT.__swift5_builtin: 0x5c8
+-  __TEXT.__swift5_assocty: 0x1470
+-  __TEXT.__swift5_protos: 0x5a8
+-  __TEXT.__swift5_proto: 0x1ea4
+-  __TEXT.__swift5_types: 0x11f0
+-  __TEXT.__swift5_capture: 0x462c
+-  __TEXT.__swift5_mpenum: 0x154
+-  __TEXT.__swift_as_entry: 0x190
+-  __TEXT.__swift_as_ret: 0x1bc
+-  __TEXT.__unwind_info: 0xc738
+-  __TEXT.__eh_frame: 0xbb1c
+-  __TEXT.__objc_classname: 0xf4b
+-  __TEXT.__objc_methname: 0x12f7b
+-  __TEXT.__objc_methtype: 0x436b
+-  __TEXT.__objc_stubs: 0x2640
+-  __DATA_CONST.__got: 0x3708
+-  __DATA_CONST.__const: 0xe08
+-  __DATA_CONST.__objc_classlist: 0x1038
++  __TEXT.__swift5_typeref: 0xcb7e
++  __TEXT.__swift5_fieldmd: 0xe22c
++  __TEXT.__constg_swiftt: 0x10f0c
++  __TEXT.__swift5_reflstr: 0xc5aa
++  __TEXT.__swift5_builtin: 0x5a0
++  __TEXT.__swift5_assocty: 0x1398
++  __TEXT.__swift5_protos: 0x53c
++  __TEXT.__swift5_proto: 0x1d70
++  __TEXT.__swift5_types: 0x10b8
++  __TEXT.__swift5_capture: 0x4034
++  __TEXT.__swift5_mpenum: 0x14c
++  __TEXT.__swift_as_entry: 0x19c
++  __TEXT.__swift_as_ret: 0x1c4
++  __TEXT.__unwind_info: 0xbd00
++  __TEXT.__eh_frame: 0xbbc4
++  __TEXT.__objc_classname: 0xf42
++  __TEXT.__objc_methname: 0x127c6
++  __TEXT.__objc_methtype: 0x439f
++  __TEXT.__objc_stubs: 0x2600
++  __DATA_CONST.__got: 0x3650
++  __DATA_CONST.__const: 0xd98
++  __DATA_CONST.__objc_classlist: 0xf08
+   __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_catlist2: 0x8
+-  __DATA_CONST.__objc_protolist: 0x918
++  __DATA_CONST.__objc_protolist: 0x8f8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x55d0
+-  __DATA_CONST.__objc_protorefs: 0x4b8
++  __DATA_CONST.__objc_selrefs: 0x5340
++  __DATA_CONST.__objc_protorefs: 0x4a0
+   __DATA_CONST.__objc_superrefs: 0x50
+   __DATA_CONST.__objc_arraydata: 0x58
+-  __AUTH_CONST.__auth_got: 0x5758
+-  __AUTH_CONST.__const: 0x1bb30
+-  __AUTH_CONST.__cfstring: 0xa00
+-  __AUTH_CONST.__objc_const: 0x27a90
++  __AUTH_CONST.__auth_got: 0x54e8
++  __AUTH_CONST.__const: 0x19890
++  __AUTH_CONST.__cfstring: 0x9e0
++  __AUTH_CONST.__objc_const: 0x25310
+   __AUTH_CONST.__objc_doubleobj: 0xc0
+   __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH.__objc_data: 0x3f18
+-  __AUTH.__data: 0x8ed8
+-  __DATA.__objc_ivar: 0x104
+-  __DATA.__data: 0x9958
+-  __DATA.__objc_stublist: 0x20
+-  __DATA.__bss: 0x225d0
+-  __DATA.__common: 0x2b0
+-  __DATA_DIRTY.__objc_data: 0x36d8
+-  __DATA_DIRTY.__data: 0x14ff8
+-  __DATA_DIRTY.__bss: 0xe820
+-  __DATA_DIRTY.__common: 0x1b0
++  __AUTH.__objc_data: 0x3988
++  __AUTH.__data: 0x89a8
++  __DATA.__objc_ivar: 0x100
++  __DATA.__data: 0x9688
++  __DATA.__objc_stublist: 0x18
++  __DATA.__bss: 0x21850
++  __DATA.__common: 0x2c0
++  __DATA_DIRTY.__objc_data: 0x3438
++  __DATA_DIRTY.__data: 0x130c8
++  __DATA_DIRTY.__bss: 0xe3a0
++  __DATA_DIRTY.__common: 0x190
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /System/Library/PrivateFrameworks/NewsAds.framework/NewsAds
+   - /System/Library/PrivateFrameworks/NewsAnalytics.framework/NewsAnalytics
+   - /System/Library/PrivateFrameworks/NewsCore.framework/NewsCore
++  - /System/Library/PrivateFrameworks/NewsEngagement.framework/NewsEngagement
+   - /System/Library/PrivateFrameworks/NewsFeed.framework/NewsFeed
+   - /System/Library/PrivateFrameworks/NewsFoundation.framework/NewsFoundation
+   - /System/Library/PrivateFrameworks/NewsPersonalization.framework/NewsPersonalization
+
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
++  - /usr/lib/swift/libswiftCoreAudio_Private.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+
+   - /usr/lib/swift/libswiftGameplayKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
++  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 41F54D9E-0CEF-3BFD-868A-0975F3A0088F
+-  Functions: 18412
+-  Symbols:   9688
+-  CStrings:  6679
++  UUID: FDA2642C-E6B6-3B69-AC5A-ECE03E76E48C
++  Functions: 17415
++  Symbols:   9129
++  CStrings:  6454
+ 
+Symbols:
++ -[NANowPlayingDockedView _hideButton:]
++ -[NANowPlayingDockedView _showButton:]
++ -[NANowPlayingDockedView init]
++ _OBJC_CLASS_$_SXHighlightScrollPosition
++ _OBJC_CLASS_$__TtC12NewsArticles23TextAttributionProvider
++ _OBJC_METACLASS_$__TtC12NewsArticles23TextAttributionProvider
++ __DATA__TtC12NewsArticles11TipAssembly
++ __DATA__TtC12NewsArticles13TipInteractor
++ __DATA__TtC12NewsArticles16TipConfigFactory
++ __DATA__TtC12NewsArticles16TipMigrationTask
++ __DATA__TtC12NewsArticles20StubTipConfigFactory
++ __DATA__TtC12NewsArticles23TextAttributionProvider
++ __DATA__TtC12NewsArticles24AudioArticleViewerStyler
++ __DATA__TtC12NewsArticles24TipViewControllerFactory
++ __DATA__TtC12NewsArticles9TipRouter
++ __DATA__TtCE12NewsArticlesVVE5TeaUIC11TeaSettings8Settings4Tips5Debug27RecipeChromeConfigOverrides
++ __IVARS__TtC12NewsArticles13TipInteractor
++ __IVARS__TtC12NewsArticles16TipConfigFactory
++ __IVARS__TtC12NewsArticles23TextAttributionProvider
++ __IVARS__TtC12NewsArticles24TipViewControllerFactory
++ __IVARS__TtC12NewsArticles9TipRouter
++ __METACLASS_DATA__TtC12NewsArticles11TipAssembly
++ __METACLASS_DATA__TtC12NewsArticles13TipInteractor
++ __METACLASS_DATA__TtC12NewsArticles16TipConfigFactory
++ __METACLASS_DATA__TtC12NewsArticles16TipMigrationTask
++ __METACLASS_DATA__TtC12NewsArticles20StubTipConfigFactory
++ __METACLASS_DATA__TtC12NewsArticles23TextAttributionProvider
++ __METACLASS_DATA__TtC12NewsArticles24AudioArticleViewerStyler
++ __METACLASS_DATA__TtC12NewsArticles24TipViewControllerFactory
++ __METACLASS_DATA__TtC12NewsArticles9TipRouter
++ __METACLASS_DATA__TtCE12NewsArticlesVVE5TeaUIC11TeaSettings8Settings4Tips5Debug27RecipeChromeConfigOverrides
++ __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles23TextAttributionProvider(NewsArticles)
++ __OBJC_$_PROP_LIST_SXTextAttributionProviding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXTextAttributionProviding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SXTextAttributionProviding
++ __OBJC_$_PROTOCOL_REFS_SXTextAttributionProviding
++ __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles23TextAttributionProvider(NewsArticles)
++ __OBJC_LABEL_PROTOCOL_$_SXTextAttributionProviding
++ __OBJC_PROTOCOL_$_SXTextAttributionProviding
++ ___30-[NANowPlayingDockedView init]_block_invoke
++ ___30-[NANowPlayingDockedView init]_block_invoke_2
++ ___30-[NANowPlayingDockedView init]_block_invoke_3
++ ___30-[NANowPlayingDockedView init]_block_invoke_4
++ ___30-[NANowPlayingDockedView init]_block_invoke_5
++ ___30-[NANowPlayingDockedView init]_block_invoke_6
++ ___30-[NANowPlayingDockedView init]_block_invoke_7
++ ___30-[NANowPlayingDockedView init]_block_invoke_8
++ ___30-[NANowPlayingDockedView init]_block_invoke_9
++ ___swift_get_extra_inhabitant_indexTm
++ ___swift_memcpy144_8
++ ___swift_store_extra_inhabitant_indexTm
++ __swift_FORCE_LOAD_$_swiftCoreAudio_Private
++ __swift_FORCE_LOAD_$_swiftCoreAudio_Private_$_NewsArticles
++ __swift_FORCE_LOAD_$_swiftMapKit
++ __swift_FORCE_LOAD_$_swiftMapKit_$_NewsArticles
++ _associated conformance 12NewsArticles16TipMigrationTaskC11TeaSettings9UpdatableAaD12Configurable
++ _associated conformance 12NewsArticles16UserConcernModelV13TeaFoundation8DiffableAASH
++ _associated conformance 12NewsArticles16UserConcernModelV13TeaFoundation8DiffableAaD12Identifiable
++ _associated conformance 12NewsArticles16UserConcernModelV5TeaUI9ModelableAA0F10Foundation8Diffable
++ _associated conformance 12NewsArticles16UserConcernModelV5TeaUI9ModelableAaD14Impressionable
++ _associated conformance 12NewsArticles16UserConcernModelVSHAASQ
++ _block_copy_helper.104
++ _block_copy_helper.137
++ _block_copy_helper.2
++ _block_copy_helper.9
++ _block_copy_helper.94
++ _block_descriptor.106
++ _block_descriptor.11
++ _block_descriptor.139
++ _block_descriptor.4
++ _block_descriptor.96
++ _block_destroy_helper.10
++ _block_destroy_helper.105
++ _block_destroy_helper.138
++ _block_destroy_helper.3
++ _block_destroy_helper.95
++ _objc_msgSend$_hideButton:
++ _objc_msgSend$_showButton:
++ _objc_msgSend$alpha
++ _objectdestroy.127Tm
++ _objectdestroy.33Tm
++ _objectdestroy.6Tm
++ _symbolic $s12NewsArticles13TipRouterTypeP
++ _symbolic $s12NewsArticles20TipConfigFactoryTypeP
++ _symbolic $s12NewsArticles28AudioArticleViewerStylerTypeP
++ _symbolic SDy__________G So16NUArticleMessageV 12NewsArticles018AudioArticleViewerB4TextV
++ _symbolic SS4text_t
++ _symbolic ScCyyt______pG s5ErrorP
++ _symbolic Shy_____GSg 8NewsFeed0B8PlatformO
++ _symbolic So15UIBarButtonItemCSgXw
++ _symbolic So15UIBarButtonItemCSgXwz_Xx
++ _symbolic _____ 11TeaSettings0B0C0A2UIE4TipsV5DebugV
++ _symbolic _____ 11TeaSettings0B0C0A2UIE4TipsV5DebugV12NewsArticlesE27RecipeChromeConfigOverridesC
++ _symbolic _____ 12NewsArticles11TipAssemblyC
++ _symbolic _____ 12NewsArticles13TipInteractorC
++ _symbolic _____ 12NewsArticles16TipConfigFactoryC
++ _symbolic _____ 12NewsArticles16TipMigrationTaskC
++ _symbolic _____ 12NewsArticles16UserConcernModelV
++ _symbolic _____ 12NewsArticles20StubTipConfigFactoryC
++ _symbolic _____ 12NewsArticles23TextAttributionProviderC
++ _symbolic _____ 12NewsArticles24AudioArticleViewerStylerC
++ _symbolic _____ 12NewsArticles24TipViewControllerFactoryC
++ _symbolic _____ 12NewsArticles29AudioArticleViewerMessageTextV
++ _symbolic _____ 12NewsArticles9TipRouterC
++ _symbolic _____ 5TeaUI11TipRecorderC
++ _symbolic _____ 5TeaUI17TipViewImpressionV
++ _symbolic _____ 5TeaUI9TipConfigV8ResolvedV
++ _symbolic _____ 8NewsFeed20ReportConcernContextO
++ _symbolic _____ So20UIBarButtonItemStyleV
++ _symbolic _____16layoutAttributes_t 5TeaUI22HeightLayoutAttributesV
++ _symbolic _____7concern______16layoutAttributest 12NewsArticles16UserConcernModelV 5TeaUI22HeightLayoutAttributesV
++ _symbolic _____7context______7concernt 8NewsFeed20ReportConcernContextO 0A8Articles04UserD5ModelV
++ _symbolic _____7context_t 8NewsFeed20ReportConcernContextO
++ _symbolic _____Sg 12NewsArticles15SubConcernModelV
++ _symbolic _____Sg 13TeaFoundation7VersionV
++ _symbolic _____SgXw 12NewsArticles15TipEventHandlerC
++ _symbolic _____SgXw 12NewsArticles20ReportConcernCommandC
++ _symbolic _____SgXw 5TeaUI18BlockBarButtonItemC
++ _symbolic _____SgXwz_Xx 12NewsArticles15TipEventHandlerC
++ _symbolic _____SgXwz_Xx 12NewsArticles20ReportConcernCommandC
++ _symbolic _____SgXwz_Xx 5TeaUI18BlockBarButtonItemC
++ _symbolic ______p 12NewsArticles13TipRouterTypeP
++ _symbolic ______p 12NewsArticles20TipConfigFactoryTypeP
++ _symbolic ______p 12NewsArticles28AudioArticleViewerStylerTypeP
++ _symbolic ______p 5TeaUI14TipTrackerTypeP
++ _symbolic ______p 8NewsFeed21ShareLinkProviderTypeP
++ _symbolic _____y_____G 5TeaUI22MastheadViewControllerC 12NewsArticles07Articlec4RootdE033_F6C36BFF6F0AD6186D9B355F40022442LLC
++ _type_layout_string 12NewsArticles16UserConcernModelV
++ _type_layout_string 12NewsArticles20ConcernReasonSubTypeV
++ _type_layout_string 12NewsArticles24TextResizeFeatureContextV
++ _type_layout_string 12NewsArticles25SaveArticleFeatureContextV
++ _type_layout_string 12NewsArticles29AudioArticleViewerMessageTextV
++ _type_layout_string So12UIRectCornerV
+- -[NANowPlayingDockedView artworkEnabled]
+- -[NANowPlayingDockedView initWithBackground:]
+- -[NANowPlayingDockedView initWithBackground:artworkEnabled:]
+- -[NANowPlayingDockedView setArtworkEnabled:]
+- _FCNarrativeTrackForSubscription
+- _OBJC_CLASS_$_NABridgedArticleViewerPageItemActionHandler
+- _OBJC_CLASS_$_NSUUID
+- _OBJC_CLASS_$_NUTitleView
+- _OBJC_CLASS_$_NUTitleViewStyler
+- _OBJC_CLASS_$_NUTitleViewUpdate
+- _OBJC_CLASS_$_UIBezierPath
+- _OBJC_CLASS_$_UICubicTimingParameters
+- _OBJC_CLASS_$_UILargeContentViewerInteraction
+- _OBJC_CLASS_$_UIViewPropertyAnimator
+- _OBJC_CLASS_$__TtC12NewsArticles13ChromeControl
+- _OBJC_CLASS_$__TtC12NewsArticles18CheckmarkAccessory
+- _OBJC_CLASS_$__TtC12NewsArticles23ToolbarIssueCoverButton
+- _OBJC_CLASS_$__TtC12NewsArticles25RecipeArticleChromeButton
+- _OBJC_CLASS_$__TtC12NewsArticles26CombinedToolbarFeatureView
+- _OBJC_CLASS_$__TtC12NewsArticles28ArticleSharingViewController
+- _OBJC_CLASS_$__TtC12NewsArticles28RecipeArticleChromeBarButton
+- _OBJC_CLASS_$__TtC12NewsArticles9TitleView
+- _OBJC_CLASS_$__UINavigationBarPalette
+- _OBJC_IVAR_$_NANowPlayingDockedView._artworkEnabled
+- _OBJC_METACLASS_$_NABridgedArticleViewerPageItemActionHandler
+- _OBJC_METACLASS_$__TtC12NewsArticles13ChromeControl
+- _OBJC_METACLASS_$__TtC12NewsArticles18CheckmarkAccessory
+- _OBJC_METACLASS_$__TtC12NewsArticles23ToolbarIssueCoverButton
+- _OBJC_METACLASS_$__TtC12NewsArticles25RecipeArticleChromeButton
+- _OBJC_METACLASS_$__TtC12NewsArticles26CombinedToolbarFeatureView
+- _OBJC_METACLASS_$__TtC12NewsArticles28ArticleSharingViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles28RecipeArticleChromeBarButton
+- _OBJC_METACLASS_$__TtC12NewsArticles9TitleView
+- _OBJC_METACLASS_$__TtC12NewsArticlesP33_AB2C07DEED72E6BCD424DDADA40C3A3026AttributionViewWrapperView
+- _OBJC_METACLASS_$__TtC5TeaUI33FloatingTabBarNavigationTitleView
+- _UIAccessibilityTraitHeader
+- _UIActivityTypeAddToReadingList
+- _UIActivityTypeCopyToPasteboard
+- _UIFontTextStyleCaption2
+- __CATEGORY_PROTOCOLS__TtC12NewsArticles9TitleView_$_NewsArticles
+- __CATEGORY__TtC12NewsArticles9TitleView_$_NewsArticles
+- __DATA_NABridgedArticleViewerPageItemActionHandler
+- __DATA__TtC12NewsArticles13ChromeControl
+- __DATA__TtC12NewsArticles18CheckmarkAccessory
+- __DATA__TtC12NewsArticles20ArticleSharingModule
+- __DATA__TtC12NewsArticles20ArticleSharingStyler
+- __DATA__TtC12NewsArticles21ArticleViewerRenderer
+- __DATA__TtC12NewsArticles22ArticleSharingAssembly
+- __DATA__TtC12NewsArticles23ToolbarIssueCoverButton
+- __DATA__TtC12NewsArticles24ArticleSharingInteractor
+- __DATA__TtC12NewsArticles24ArticleViewerAudioStyler
+- __DATA__TtC12NewsArticles24CheckmarkAccessoryStyler
+- __DATA__TtC12NewsArticles24ModalArticleViewerStyler
+- __DATA__TtC12NewsArticles24PDFReplicaViewerRenderer
+- __DATA__TtC12NewsArticles25RecipeArticleChromeButton
+- __DATA__TtC12NewsArticles26ArticleSharingEventHandler
+- __DATA__TtC12NewsArticles26ArticleViewerAudioRenderer
+- __DATA__TtC12NewsArticles26CheckmarkAccessoryRenderer
+- __DATA__TtC12NewsArticles26CombinedToolbarFeatureView
+- __DATA__TtC12NewsArticles27IssueCoverViewButtonFactory
+- __DATA__TtC12NewsArticles27ToolbarIssueCoverViewStyler
+- __DATA__TtC12NewsArticles28ArticleSharingViewController
+- __DATA__TtC12NewsArticles28RecipeArticleChromeBarButton
+- __DATA__TtC12NewsArticles29ToolbarIssueCoverViewRenderer
+- __DATA__TtC12NewsArticles30ArticleViewerTitleViewRenderer
+- __DATA__TtC12NewsArticles30CombinedToolbarFeatureProvider
+- __DATA__TtC12NewsArticles30RecipeArticleViewButtonFactory
+- __DATA__TtC12NewsArticles31CheckmarkAccessoryLayoutOptions
+- __DATA__TtC12NewsArticles31RecipeArticleChromeButtonStyler
+- __DATA__TtC12NewsArticles32ArticleViewerBottomPaletteStyler
+- __DATA__TtC12NewsArticles33RecipeArticleChromeButtonRenderer
+- __DATA__TtC12NewsArticles34ArticleViewerToolbarFeatureManager
+- __DATA__TtC12NewsArticles34ReloadArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles35AudioArticleViewerFeatureDescriptor
+- __DATA__TtC12NewsArticles36SharedArticleViewerFeatureDescriptor
+- __DATA__TtC12NewsArticles37MacMoreArticleViewerFeatureTransition
+- __DATA__TtC12NewsArticles37TitleViewArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles39HardPaywallArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles40ArticleViewerNavigationItemStyleProvider
+- __DATA__TtC12NewsArticles40RecipeChromeArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles41BottomPaletteArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles41CheckmarkAccessoryLayoutAttributesFactory
+- __DATA__TtC12NewsArticles42MacTitleViewArticleViewerFeatureTransition
+- __DATA__TtC12NewsArticles44ToolbarIssueCoverViewLayoutAttributesFactory
+- __DATA__TtC12NewsArticles45ArticleViewerTitleViewLayoutAttributesFactory
+- __DATA__TtC12NewsArticles50TableOfContentsArticleViewerToolbarFeatureProvider
+- __DATA__TtC12NewsArticles53TableOfContentsArticleViewerFeatureVisibilityProvider
+- __DATA__TtC12NewsArticles9TitleView
+- __DATA__TtC12NewsArticlesP33_AB2C07DEED72E6BCD424DDADA40C3A3026AttributionViewWrapperView
+- __INSTANCE_METHODS_NABridgedArticleViewerPageItemActionHandler
+- __INSTANCE_METHODS__TtC12NewsArticles13ChromeControl
+- __INSTANCE_METHODS__TtC12NewsArticles18CheckmarkAccessory
+- __INSTANCE_METHODS__TtC12NewsArticles23ToolbarIssueCoverButton
+- __INSTANCE_METHODS__TtC12NewsArticles25OverflowBarButtonItemView
+- __INSTANCE_METHODS__TtC12NewsArticles25RecipeArticleChromeButton
+- __INSTANCE_METHODS__TtC12NewsArticles26CombinedToolbarFeatureView
+- __INSTANCE_METHODS__TtC12NewsArticles9TitleView
+- __INSTANCE_METHODS__TtC12NewsArticlesP33_AB2C07DEED72E6BCD424DDADA40C3A3026AttributionViewWrapperView
+- __IVARS_NABridgedArticleViewerPageItemActionHandler
+- __IVARS__TtC12NewsArticles13ChromeControl
+- __IVARS__TtC12NewsArticles18CheckmarkAccessory
+- __IVARS__TtC12NewsArticles20ArticleSharingModule
+- __IVARS__TtC12NewsArticles20ArticleSharingStyler
+- __IVARS__TtC12NewsArticles21ArticleViewerRenderer
+- __IVARS__TtC12NewsArticles23ToolbarIssueCoverButton
+- __IVARS__TtC12NewsArticles24ArticleSharingInteractor
+- __IVARS__TtC12NewsArticles24ArticleViewerAudioStyler
+- __IVARS__TtC12NewsArticles24CheckmarkAccessoryStyler
+- __IVARS__TtC12NewsArticles24PDFReplicaViewerRenderer
+- __IVARS__TtC12NewsArticles25OverflowBarButtonItemView
+- __IVARS__TtC12NewsArticles25RecipeArticleChromeButton
+- __IVARS__TtC12NewsArticles26ArticleSharingEventHandler
+- __IVARS__TtC12NewsArticles26ArticleViewerAudioRenderer
+- __IVARS__TtC12NewsArticles26CheckmarkAccessoryRenderer
+- __IVARS__TtC12NewsArticles26CombinedToolbarFeatureView
+- __IVARS__TtC12NewsArticles27IssueCoverViewButtonFactory
+- __IVARS__TtC12NewsArticles27ToolbarIssueCoverViewStyler
+- __IVARS__TtC12NewsArticles28ArticleSharingViewController
+- __IVARS__TtC12NewsArticles28RecipeArticleChromeBarButton
+- __IVARS__TtC12NewsArticles29ToolbarIssueCoverViewRenderer
+- __IVARS__TtC12NewsArticles30ArticleViewerTitleViewRenderer
+- __IVARS__TtC12NewsArticles30CombinedToolbarFeatureProvider
+- __IVARS__TtC12NewsArticles30RecipeArticleViewButtonFactory
+- __IVARS__TtC12NewsArticles31CheckmarkAccessoryLayoutOptions
+- __IVARS__TtC12NewsArticles32ArticleViewerBottomPaletteStyler
+- __IVARS__TtC12NewsArticles33RecipeArticleChromeButtonRenderer
+- __IVARS__TtC12NewsArticles34ArticleViewerToolbarFeatureManager
+- __IVARS__TtC12NewsArticles34ReloadArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles35AudioArticleViewerFeatureDescriptor
+- __IVARS__TtC12NewsArticles36SharedArticleViewerFeatureDescriptor
+- __IVARS__TtC12NewsArticles37MacMoreArticleViewerFeatureTransition
+- __IVARS__TtC12NewsArticles37TitleViewArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles39HardPaywallArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles40ArticleViewerNavigationItemStyleProvider
+- __IVARS__TtC12NewsArticles40RecipeChromeArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles41BottomPaletteArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles41CheckmarkAccessoryLayoutAttributesFactory
+- __IVARS__TtC12NewsArticles42MacTitleViewArticleViewerFeatureTransition
+- __IVARS__TtC12NewsArticles44ToolbarIssueCoverViewLayoutAttributesFactory
+- __IVARS__TtC12NewsArticles50TableOfContentsArticleViewerToolbarFeatureProvider
+- __IVARS__TtC12NewsArticles53TableOfContentsArticleViewerFeatureVisibilityProvider
+- __IVARS__TtC12NewsArticles9TitleView
+- __IVARS__TtC12NewsArticlesP33_AB2C07DEED72E6BCD424DDADA40C3A3026AttributionViewWrapperView
+- __METACLASS_DATA_NABridgedArticleViewerPageItemActionHandler
+- __METACLASS_DATA__TtC12NewsArticles13ChromeControl
+- __METACLASS_DATA__TtC12NewsArticles18CheckmarkAccessory
+- __METACLASS_DATA__TtC12NewsArticles20ArticleSharingModule
+- __METACLASS_DATA__TtC12NewsArticles20ArticleSharingStyler
+- __METACLASS_DATA__TtC12NewsArticles21ArticleViewerRenderer
+- __METACLASS_DATA__TtC12NewsArticles22ArticleSharingAssembly
+- __METACLASS_DATA__TtC12NewsArticles23ToolbarIssueCoverButton
+- __METACLASS_DATA__TtC12NewsArticles24ArticleSharingInteractor
+- __METACLASS_DATA__TtC12NewsArticles24ArticleViewerAudioStyler
+- __METACLASS_DATA__TtC12NewsArticles24CheckmarkAccessoryStyler
+- __METACLASS_DATA__TtC12NewsArticles24ModalArticleViewerStyler
+- __METACLASS_DATA__TtC12NewsArticles24PDFReplicaViewerRenderer
+- __METACLASS_DATA__TtC12NewsArticles25RecipeArticleChromeButton
+- __METACLASS_DATA__TtC12NewsArticles26ArticleSharingEventHandler
+- __METACLASS_DATA__TtC12NewsArticles26ArticleViewerAudioRenderer
+- __METACLASS_DATA__TtC12NewsArticles26CheckmarkAccessoryRenderer
+- __METACLASS_DATA__TtC12NewsArticles26CombinedToolbarFeatureView
+- __METACLASS_DATA__TtC12NewsArticles27IssueCoverViewButtonFactory
+- __METACLASS_DATA__TtC12NewsArticles27ToolbarIssueCoverViewStyler
+- __METACLASS_DATA__TtC12NewsArticles28ArticleSharingViewController
+- __METACLASS_DATA__TtC12NewsArticles28RecipeArticleChromeBarButton
+- __METACLASS_DATA__TtC12NewsArticles29ToolbarIssueCoverViewRenderer
+- __METACLASS_DATA__TtC12NewsArticles30ArticleViewerTitleViewRenderer
+- __METACLASS_DATA__TtC12NewsArticles30CombinedToolbarFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles30RecipeArticleViewButtonFactory
+- __METACLASS_DATA__TtC12NewsArticles31CheckmarkAccessoryLayoutOptions
+- __METACLASS_DATA__TtC12NewsArticles31RecipeArticleChromeButtonStyler
+- __METACLASS_DATA__TtC12NewsArticles32ArticleViewerBottomPaletteStyler
+- __METACLASS_DATA__TtC12NewsArticles33RecipeArticleChromeButtonRenderer
+- __METACLASS_DATA__TtC12NewsArticles34ArticleViewerToolbarFeatureManager
+- __METACLASS_DATA__TtC12NewsArticles34ReloadArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles35AudioArticleViewerFeatureDescriptor
+- __METACLASS_DATA__TtC12NewsArticles36SharedArticleViewerFeatureDescriptor
+- __METACLASS_DATA__TtC12NewsArticles37MacMoreArticleViewerFeatureTransition
+- __METACLASS_DATA__TtC12NewsArticles37TitleViewArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles39HardPaywallArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles40ArticleViewerNavigationItemStyleProvider
+- __METACLASS_DATA__TtC12NewsArticles40RecipeChromeArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles41BottomPaletteArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles41CheckmarkAccessoryLayoutAttributesFactory
+- __METACLASS_DATA__TtC12NewsArticles42MacTitleViewArticleViewerFeatureTransition
+- __METACLASS_DATA__TtC12NewsArticles44ToolbarIssueCoverViewLayoutAttributesFactory
+- __METACLASS_DATA__TtC12NewsArticles45ArticleViewerTitleViewLayoutAttributesFactory
+- __METACLASS_DATA__TtC12NewsArticles50TableOfContentsArticleViewerToolbarFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles53TableOfContentsArticleViewerFeatureVisibilityProvider
+- __METACLASS_DATA__TtC12NewsArticles9TitleView
+- __METACLASS_DATA__TtC12NewsArticlesP33_AB2C07DEED72E6BCD424DDADA40C3A3026AttributionViewWrapperView
+- __OBJC_$_INSTANCE_METHODS__$s12NewsArticles9TitleViewCMt(NewsArticles|NewsArticles1)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles28ArticleSharingViewController(NewsArticles|NewsArticles1)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles28RecipeArticleChromeBarButton(NewsArticles)
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUChromeControl
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUTitleViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUChromeControl
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUTitleViewDelegate
+- __OBJC_$_PROTOCOL_REFS_NUChromeControl
+- __OBJC_$_PROTOCOL_REFS_NUTitleViewDelegate
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles28ArticleSharingViewController(NewsArticles|NewsArticles1)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles28RecipeArticleChromeBarButton(NewsArticles)
+- __OBJC_LABEL_PROTOCOL_$_NUChromeControl
+- __OBJC_LABEL_PROTOCOL_$_NUTitleViewDelegate
+- __OBJC_PROTOCOL_$_NUChromeControl
+- __OBJC_PROTOCOL_$_NUTitleViewDelegate
+- __PROPERTIES__TtC12NewsArticles23ToolbarIssueCoverButton
+- __PROPERTIES__TtC12NewsArticles25OverflowBarButtonItemView
+- __PROPERTIES__TtC12NewsArticles28ArticleSharingViewController
+- __PROPERTIES__TtC12NewsArticles28RecipeArticleChromeBarButton
+- __PROTOCOLS__TtC12NewsArticles13ChromeControl
+- __PROTOCOLS__TtC12NewsArticles13ChromeControl.2
+- __PROTOCOL_INSTANCE_METHODS_NABridgedArticleViewerPageItemActionHandlerDelegateType
+- __PROTOCOL_INSTANCE_METHODS_TUIBarButtonItemOffset
+- __PROTOCOL_METHOD_TYPES_NABridgedArticleViewerPageItemActionHandlerDelegateType
+- __PROTOCOL_METHOD_TYPES_TUIBarButtonItemOffset
+- __PROTOCOL_NABridgedArticleViewerPageItemActionHandlerDelegateType
+- __PROTOCOL_TUIBarButtonItemOffset
+- __UISolariumFeatureFlagEnabled
+- ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke
+- ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_10
+- ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_2
+- ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_3
+- ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_4
+- ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_5
+- ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_6
+- ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_7
+- ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_8
+- ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_9
+- ___block_descriptor_40_e8_32s_e33_"UIImageSymbolConfiguration"8?0ls32l8
+- _associated conformance 12NewsArticles11ToolbarSlotOSHAASQ
+- _associated conformance 12NewsArticles11ToolbarSlotOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 12NewsArticles12ConcernModelV13TeaFoundation8DiffableAASH
+- _associated conformance 12NewsArticles12ConcernModelV13TeaFoundation8DiffableAaD12Identifiable
+- _associated conformance 12NewsArticles12ConcernModelV5TeaUI9ModelableAA0E10Foundation8Diffable
+- _associated conformance 12NewsArticles12ConcernModelV5TeaUI9ModelableAaD14Impressionable
+- _associated conformance 12NewsArticles12ConcernModelVSHAASQ
+- _associated conformance 12NewsArticles12TipViewModelV7OptionsVs10SetAlgebraAASQ
+- _associated conformance 12NewsArticles12TipViewModelV7OptionsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 12NewsArticles12TipViewModelV7OptionsVs9OptionSetAASY
+- _associated conformance 12NewsArticles12TipViewModelV7OptionsVs9OptionSetAAs0H7Algebra
+- _associated conformance 12NewsArticles17TipViewImpressionV13DismissalTypeOSHAASQ
+- _associated conformance 12NewsArticles17ToolbarTransitionOSHAASQ
+- _associated conformance 12NewsArticles18CheckmarkAccessoryC5TeaUI8ReusableAaD8Editable
+- _associated conformance 12NewsArticles30ArticleViewerTitleViewRendererC6Errors33_E302AEDD34C82A1F892AD873460B4BDALLOSHAASQ
+- _associated conformance 12NewsArticles31IssueContentPresentationContextOSHAASQ
+- _associated conformance 12NewsArticles37TitleViewArticleViewerFeatureProviderCAA0efgH4TypeAA0G7ContextAaDP_AA0gjI0
+- _associated conformance 12NewsArticles39HardPaywallArticleViewerFeatureProviderCAA0efgH4TypeAA0G7ContextAaDP_AA0gjI0
+- _associated conformance 12NewsArticles41BottomPaletteArticleViewerFeatureProviderCAA0efgH4TypeAA0G7ContextAaDP_AA0gjI0
+- _associated conformance 12NewsArticles9TitleViewC5TeaUI8ReusableAaD8Editable
+- _block_copy_helper.105
+- _block_copy_helper.11
+- _block_copy_helper.112
+- _block_copy_helper.122
+- _block_copy_helper.132
+- _block_copy_helper.165
+- _block_copy_helper.17
+- _block_copy_helper.3
+- _block_copy_helper.31
+- _block_copy_helper.6
+- _block_copy_helper.70
+- _block_descriptor.107
+- _block_descriptor.114
+- _block_descriptor.124
+- _block_descriptor.13
+- _block_descriptor.134
+- _block_descriptor.167
+- _block_descriptor.19
+- _block_descriptor.33
+- _block_descriptor.5
+- _block_descriptor.72
+- _block_descriptor.8
+- _block_destroy_helper.106
+- _block_destroy_helper.113
+- _block_destroy_helper.12
+- _block_destroy_helper.123
+- _block_destroy_helper.133
+- _block_destroy_helper.166
+- _block_destroy_helper.18
+- _block_destroy_helper.32
+- _block_destroy_helper.4
+- _block_destroy_helper.7
+- _block_destroy_helper.71
+- _flat unique So55NABridgedArticleViewerPageItemActionHandlerDelegateType_p
+- _get_enum_tag_for_layout_string 12NewsArticles18ReportConcernModelO
+- _get_enum_tag_for_layout_string 12NewsArticles40HardPaywallArticleViewerFeatureViewModelVSg
+- _kCACornerCurveContinuous
+- _objc_msgSend$artworkEnabled
+- _objc_msgSend$colorWithRed:green:blue:alpha:
+- _objc_msgSend$initWithBackground:artworkEnabled:
+- _objc_msgSend$isHidden
+- _objc_msgSend$setArtworkEnabled:
+- _objectdestroy.155Tm
+- _objectdestroy.23Tm
+- _objectdestroy.34Tm
+- _objectdestroy.48Tm
+- _symbolic $s12NewsArticles24ArticleSharingModuleTypeP
+- _symbolic $s12NewsArticles24ArticleSharingStylerTypeP
+- _symbolic $s12NewsArticles25ArticleViewerRendererTypeP
+- _symbolic $s12NewsArticles25TipPresentationConfigTypeP
+- _symbolic $s12NewsArticles28ArticleSharingInteractorTypeP
+- _symbolic $s12NewsArticles28ArticleViewerAudioStylerTypeP
+- _symbolic $s12NewsArticles28CheckmarkAccessoryStylerTypeP
+- _symbolic $s12NewsArticles28PDFReplicaViewerRendererTypeP
+- _symbolic $s12NewsArticles30ArticleSharingEventHandlerTypeP
+- _symbolic $s12NewsArticles30ArticleViewerAudioRendererTypeP
+- _symbolic $s12NewsArticles30CheckmarkAccessoryRendererTypeP
+- _symbolic $s12NewsArticles31IssueCoverViewButtonFactoryTypeP
+- _symbolic $s12NewsArticles31ToolbarIssueCoverViewStylerTypeP
+- _symbolic $s12NewsArticles33RecipeChromeViewButtonFactoryTypeP
+- _symbolic $s12NewsArticles33ToolbarIssueCoverViewRendererTypeP
+- _symbolic $s12NewsArticles34ArticleViewerTitleViewRendererTypeP
+- _symbolic $s12NewsArticles35ArticleViewerToolbarFeatureProviderP
+- _symbolic $s12NewsArticles35RecipeArticleChromeButtonStylerTypeP
+- _symbolic $s12NewsArticles36ArticleSharingInteractorTypeDelegateP
+- _symbolic $s12NewsArticles36ArticleViewerBottomPaletteStylerTypeP
+- _symbolic $s12NewsArticles37RecipeArticleChromeButtonRendererTypeP
+- _symbolic $s12NewsArticles38ArticleSharingEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles38ArticleViewerToolbarFeatureManagerTypeP
+- _symbolic $s12NewsArticles42ArticleViewerToolbarFeatureManagerDelegateP
+- _symbolic $s12NewsArticles43BottomPaletteArticleViewerFeatureDescriptorP
+- _symbolic $s12NewsArticles44ArticleViewerNavigationItemStyleProviderTypeP
+- _symbolic $s12NewsArticles45CheckmarkAccessoryLayoutAttributesFactoryTypeP
+- _symbolic $s12NewsArticles48ToolbarIssueCoverViewLayoutAttributesFactoryTypeP
+- _symbolic $s12NewsArticles49ArticleViewerTitleViewLayoutAttributesFactoryTypeP
+- _symbolic $s12NewsArticles53BridgedArticleViewerPageItemActionHandlerDelegateTypeP
+- _symbolic $s12NewsArticles57TableOfContentsArticleViewerFeatureVisibilityProviderTypeP
+- _symbolic SDy_____Say______pGG 12NewsArticles11ToolbarSlotO AA013ArticleViewerC15FeatureProviderP
+- _symbolic SDy__________G 12NewsArticles11ToolbarSlotO AA0D5State33_201BD84FDEEA5D63E62030BA59863025LLV
+- _symbolic SDy__________G 12NewsArticles11ToolbarSlotO So6CGRectV
+- _symbolic SDy__________G So16NUArticleMessageV 12NewsArticles0B13ContainerTextV
+- _symbolic SaySo15UIBarButtonItemCG
+- _symbolic SaySo6UIViewCG
+- _symbolic Say_____G 12NewsArticles11ToolbarSlotO
+- _symbolic Say_____G 12NewsArticles13AnimationData33_201BD84FDEEA5D63E62030BA59863025LLV
+- _symbolic Say_____G 12NewsArticles51BottomPaletteArticleViewerFeatureComponentViewModelV
+- _symbolic Say______pG 12NewsArticles43BottomPaletteArticleViewerFeatureDescriptorP
+- _symbolic Say_____ySo6UIViewCGGSg 13TeaFoundation4WeakC
+- _symbolic So11NUTitleViewC
+- _symbolic So11UIImageViewC
+- _symbolic So18UIVisualEffectViewC
+- _symbolic So22UINavigationControllerCSgXw
+- _symbolic So22UINavigationControllerCSgXwz_Xx
+- _symbolic So22UIViewPropertyAnimatorCSg
+- _symbolic So23_UINavigationBarPaletteC
+- _symbolic So26UIImageSymbolConfigurationC
+- _symbolic So6UIViewCSo7UIImageCIeggg_
+- _symbolic So7UIImageCIegg_
+- _symbolic So7UIImageCIegn_
+- _symbolic So7UIImageC_So7UIColorCSg9tintColort
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE8FeaturesV
+- _symbolic _____ 12NewsArticles022AttributionViewWrapperD033_AB2C07DEED72E6BCD424DDADA40C3A30LLC
+- _symbolic _____ 12NewsArticles029TitleViewArticleViewerFeatureD5ModelV
+- _symbolic _____ 12NewsArticles11ToolbarSlotO
+- _symbolic _____ 12NewsArticles12ConcernModelV
+- _symbolic _____ 12NewsArticles12TipViewModelV
+- _symbolic _____ 12NewsArticles12TipViewModelV6ActionV
+- _symbolic _____ 12NewsArticles12TipViewModelV7ContentV
+- _symbolic _____ 12NewsArticles12TipViewModelV7OptionsV
+- _symbolic _____ 12NewsArticles12TipViewModelV9PlacementV
+- _symbolic _____ 12NewsArticles13AnimationData33_201BD84FDEEA5D63E62030BA59863025LLV
+- _symbolic _____ 12NewsArticles13ChromeControlC
+- _symbolic _____ 12NewsArticles13ToolbarLayoutV
+- _symbolic _____ 12NewsArticles14TitleViewModelV
+- _symbolic _____ 12NewsArticles16TipImageProviderO
+- _symbolic _____ 12NewsArticles16TitleViewContextV
+- _symbolic _____ 12NewsArticles17TipViewImpressionV
+- _symbolic _____ 12NewsArticles17TipViewImpressionV13DismissalTypeO
+- _symbolic _____ 12NewsArticles17ToolbarIssueCoverV
+- _symbolic _____ 12NewsArticles17ToolbarTransitionO
+- _symbolic _____ 12NewsArticles18CheckmarkAccessoryC
+- _symbolic _____ 12NewsArticles19ToolbarFeatureStateV
+- _symbolic _____ 12NewsArticles20ArticleSharingModuleC
+- _symbolic _____ 12NewsArticles20ArticleSharingStylerC
+- _symbolic _____ 12NewsArticles20MessageContainerTextV
+- _symbolic _____ 12NewsArticles21ArticleViewerRendererC
+- _symbolic _____ 12NewsArticles21TipPresentationConfigV
+- _symbolic _____ 12NewsArticles21ToolbarFeatureContextV
+- _symbolic _____ 12NewsArticles22ArticleSharingAssemblyC
+- _symbolic _____ 12NewsArticles23ToolbarIssueCoverButtonC
+- _symbolic _____ 12NewsArticles24ArticleSharingInteractorC
+- _symbolic _____ 12NewsArticles24ArticleViewerAudioStylerC
+- _symbolic _____ 12NewsArticles24CheckmarkAccessoryStylerC
+- _symbolic _____ 12NewsArticles24ModalArticleViewerStylerC
+- _symbolic _____ 12NewsArticles24PDFReplicaViewerRendererC
+- _symbolic _____ 12NewsArticles25OverflowBarButtonItemViewC
+- _symbolic _____ 12NewsArticles25RecipeArticleChromeButtonC
+- _symbolic _____ 12NewsArticles26ArticleSharingEventHandlerC
+- _symbolic _____ 12NewsArticles26ArticleViewerAudioRendererC
+- _symbolic _____ 12NewsArticles26CheckmarkAccessoryRendererC
+- _symbolic _____ 12NewsArticles26CombinedToolbarFeatureViewC
+- _symbolic _____ 12NewsArticles26CombinedToolbarFeatureViewC15IssueCoverModelV
+- _symbolic _____ 12NewsArticles27BottomPaletteFeatureContextV
+- _symbolic _____ 12NewsArticles27IssueCoverViewButtonFactoryC
+- _symbolic _____ 12NewsArticles27ToolbarIssueCoverViewStylerC
+- _symbolic _____ 12NewsArticles28ArticleSharingViewControllerC
+- _symbolic _____ 12NewsArticles28RecipeArticleChromeBarButtonC
+- _symbolic _____ 12NewsArticles29ToolbarIssueCoverViewRendererC
+- _symbolic _____ 12NewsArticles30ArticleViewerTitleViewRendererC
+- _symbolic _____ 12NewsArticles30ArticleViewerTitleViewRendererC6Errors33_E302AEDD34C82A1F892AD873460B4BDALLO
+- _symbolic _____ 12NewsArticles30CombinedToolbarFeatureProviderC
+- _symbolic _____ 12NewsArticles30RecipeArticleViewButtonFactoryC
+- _symbolic _____ 12NewsArticles31CheckmarkAccessoryLayoutOptionsC
+- _symbolic _____ 12NewsArticles31CheckmarkAccessoryLayoutOptionsC0cdF0V
+- _symbolic _____ 12NewsArticles31IssueContentPresentationContextO
+- _symbolic _____ 12NewsArticles31RecipeArticleChromeButtonStylerC
+- _symbolic _____ 12NewsArticles32ArticleViewerBottomPaletteStylerC
+- _symbolic _____ 12NewsArticles32HardPaywallArticleFeatureContextV
+- _symbolic _____ 12NewsArticles33RecipeArticleChromeButtonRendererC
+- _symbolic _____ 12NewsArticles34ArticleViewerToolbarFeatureManagerC
+- _symbolic _____ 12NewsArticles34CheckmarkAccessoryLayoutAttributesV
+- _symbolic _____ 12NewsArticles34ReloadArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles35AudioArticleViewerFeatureDescriptorC
+- _symbolic _____ 12NewsArticles36SharedArticleViewerFeatureDescriptorC
+- _symbolic _____ 12NewsArticles37MacMoreArticleViewerFeatureTransitionC
+- _symbolic _____ 12NewsArticles37TitleViewArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles37ToolbarIssueCoverViewLayoutAttributesV
+- _symbolic _____ 12NewsArticles38ArticleViewerTitleViewLayoutAttributesV
+- _symbolic _____ 12NewsArticles39HardPaywallArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles39TitleViewArticleViewerFeatureTransitionV
+- _symbolic _____ 12NewsArticles40ArticleViewerNavigationItemStyleProviderC
+- _symbolic _____ 12NewsArticles40ArticleViewerToolbarFeatureRegistrationsV
+- _symbolic _____ 12NewsArticles40HardPaywallArticleViewerFeatureViewModelV
+- _symbolic _____ 12NewsArticles40RecipeChromeArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles41BottomPaletteArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles41BridgedArticleViewerPageItemActionHandlerC
+- _symbolic _____ 12NewsArticles41CheckmarkAccessoryLayoutAttributesFactoryC
+- _symbolic _____ 12NewsArticles41HardPaywallArticleViewerFeatureTransitionV
+- _symbolic _____ 12NewsArticles42BottomPaletteArticleViewerFeatureViewModelV
+- _symbolic _____ 12NewsArticles42MacTitleViewArticleViewerFeatureTransitionC
+- _symbolic _____ 12NewsArticles43BottomPaletteArticleViewerFeatureTransitionV
+- _symbolic _____ 12NewsArticles44ToolbarIssueCoverViewLayoutAttributesFactoryC
+- _symbolic _____ 12NewsArticles45ArticleViewerTitleViewLayoutAttributesFactoryC
+- _symbolic _____ 12NewsArticles46ArticleViewerToolbarFeatureManagerUpdateResultV
+- _symbolic _____ 12NewsArticles47BottomPaletteArticleViewerFeatureScrollAnimatorV
+- _symbolic _____ 12NewsArticles50TableOfContentsArticleViewerToolbarFeatureProviderC
+- _symbolic _____ 12NewsArticles51BottomPaletteArticleViewerFeatureComponentViewModelV
+- _symbolic _____ 12NewsArticles53TableOfContentsArticleViewerFeatureVisibilityProviderC
+- _symbolic _____ 12NewsArticles9SlotState33_201BD84FDEEA5D63E62030BA59863025LLV
+- _symbolic _____ 12NewsArticles9TitleViewC
+- _symbolic _____ 5TeaUI11ToggleStateO
+- _symbolic _____ 5TeaUI19NavigationItemStyleV
+- _symbolic _____ 5TeaUI22BlueprintLayoutOptionsV
+- _symbolic _____ 5TeaUI33FloatingTabBarNavigationTitleViewC
+- _symbolic _____ 8NewsFeed14IssueCoverViewC
+- _symbolic _____ So20UIUserInterfaceStyleV
+- _symbolic _____ So23UIPopoverArrowDirectionV
+- _symbolic _____3url_So7UIColorCSg9tintColort 10Foundation3URLV
+- _symbolic _____4text______16layoutAttributest 12NewsArticles12ConcernModelV 5TeaUI22HeightLayoutAttributesV
+- _symbolic _____6source_t 5TeaUI22CommandExecutionSourceC
+- _symbolic _____7concern_t 12NewsArticles12ConcernModelV
+- _symbolic _____Iego_ 12NewsArticles022AttributionViewWrapperD033_AB2C07DEED72E6BCD424DDADA40C3A30LLC
+- _symbolic _____Iegy_ 12NewsArticles11AudioActionO
+- _symbolic _____Sg 12NewsArticles029TitleViewArticleViewerFeatureD5ModelV
+- _symbolic _____Sg 12NewsArticles12TipViewModelV6ActionV
+- _symbolic _____Sg 12NewsArticles14TitleViewModelV
+- _symbolic _____Sg 12NewsArticles16TipImageProviderO
+- _symbolic _____Sg 12NewsArticles23ToolbarIssueCoverButtonC
+- _symbolic _____Sg 12NewsArticles26AudioArticleMessageUpdaterC
+- _symbolic _____Sg 12NewsArticles26CombinedToolbarFeatureViewC15IssueCoverModelV
+- _symbolic _____Sg 12NewsArticles31ArticleViewerMoreFeatureContextV
+- _symbolic _____Sg 12NewsArticles40HardPaywallArticleViewerFeatureViewModelV
+- _symbolic _____Sg 12NewsArticles42BottomPaletteArticleViewerFeatureViewModelV
+- _symbolic _____Sg 16NewsSubscription13ArticleAccessO
+- _symbolic _____Sg 5TeaUI16TipSourceManagerC
+- _symbolic _____Sg 5TeaUI18BlockBarButtonItemC
+- _symbolic _____Sg 5TeaUI19NavigationItemStyleV
+- _symbolic _____Sg So20UIUserInterfaceStyleV
+- _symbolic _____Sg So6CGRectV
+- _symbolic _____SgXw 12NewsArticles23ToolbarIssueCoverButtonC
+- _symbolic _____SgXw 12NewsArticles25IssueViewerViewControllerC
+- _symbolic _____SgXw 12NewsArticles26AudioArticleMessageUpdaterC
+- _symbolic _____SgXw 12NewsArticles28ArticleSharingViewControllerC
+- _symbolic _____SgXw 12NewsArticles34ArticleViewerToolbarFeatureManagerC
+- _symbolic _____SgXw 12NewsArticles35AudioArticleViewerFeatureDescriptorC
+- _symbolic _____SgXw 12NewsArticles37MacMoreArticleViewerFeatureTransitionC
+- _symbolic _____SgXw 12NewsArticles37TitleViewArticleViewerFeatureProviderC
+- _symbolic _____SgXw 12NewsArticles42MacTitleViewArticleViewerFeatureTransitionC
+- _symbolic _____SgXw 5TeaUI12ActionButtonC
+- _symbolic _____SgXwz_Xx 12NewsArticles11AudioButtonC
+- _symbolic _____SgXwz_Xx 12NewsArticles35AudioArticleViewerFeatureDescriptorC
+- _symbolic _____SgXwz_Xx 12NewsArticles37MacMoreArticleViewerFeatureTransitionC
+- _symbolic _____SgXwz_Xx 12NewsArticles37TitleViewArticleViewerFeatureProviderC
+- _symbolic _____SgXwz_Xx 5TeaUI12ActionButtonC
+- _symbolic _____So7UIImageC_____Iegggr_ 5TeaUI21DecorationToolbarItemC AC0C0O
+- _symbolic ______p 12NewsArticles24ArticleSharingStylerTypeP
+- _symbolic ______p 12NewsArticles25ArticleViewerRendererTypeP
+- _symbolic ______p 12NewsArticles25TipPresentationConfigTypeP
+- _symbolic ______p 12NewsArticles28ArticleSharingInteractorTypeP
+- _symbolic ______p 12NewsArticles28ArticleViewerAudioStylerTypeP
+- _symbolic ______p 12NewsArticles28CheckmarkAccessoryStylerTypeP
+- _symbolic ______p 12NewsArticles28PDFReplicaViewerRendererTypeP
+- _symbolic ______p 12NewsArticles30ArticleSharingEventHandlerTypeP
+- _symbolic ______p 12NewsArticles30ArticleViewerAudioRendererTypeP
+- _symbolic ______p 12NewsArticles31IssueCoverViewButtonFactoryTypeP
+- _symbolic ______p 12NewsArticles31ToolbarIssueCoverViewStylerTypeP
+- _symbolic ______p 12NewsArticles33RecipeChromeViewButtonFactoryTypeP
+- _symbolic ______p 12NewsArticles33ToolbarIssueCoverViewRendererTypeP
+- _symbolic ______p 12NewsArticles34ArticleViewerTitleViewRendererTypeP
+- _symbolic ______p 12NewsArticles35ArticleViewerToolbarFeatureProviderP
+- _symbolic ______p 12NewsArticles35RecipeArticleChromeButtonStylerTypeP
+- _symbolic ______p 12NewsArticles36ArticleViewerBottomPaletteStylerTypeP
+- _symbolic ______p 12NewsArticles37RecipeArticleChromeButtonRendererTypeP
+- _symbolic ______p 12NewsArticles38ArticleViewerToolbarFeatureManagerTypeP
+- _symbolic ______p 12NewsArticles44ArticleViewerNavigationItemStyleProviderTypeP
+- _symbolic ______p 12NewsArticles48ToolbarIssueCoverViewLayoutAttributesFactoryTypeP
+- _symbolic ______p 12NewsArticles49ArticleViewerTitleViewLayoutAttributesFactoryTypeP
+- _symbolic ______p 12NewsArticles57TableOfContentsArticleViewerFeatureVisibilityProviderTypeP
+- _symbolic ______p 5TeaUI18ToolbarManagerTypeP
+- _symbolic ______p 8NewsFeed30SharingActivityItemFactoryTypeP
+- _symbolic ______p So13FCFeedThemingP
+- _symbolic ______pSg 12NewsArticles24ArticleSharingModuleTypeP
+- _symbolic ______pSg 12NewsArticles33NowPlayingArtworkConfigurableViewP
+- _symbolic ______pSg So41UIPopoverPresentationControllerSourceItemP
+- _symbolic ______pSgXw 12NewsArticles36ArticleSharingInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles38ArticleSharingEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles42ArticleViewerToolbarFeatureManagerDelegateP
+- _symbolic ______pSgXw 12NewsArticles53BridgedArticleViewerPageItemActionHandlerDelegateTypeP
+- _symbolic ______pSgXw 5TeaUI9TogglableP
+- _symbolic _____ySS_____G 13TeaFoundation5CacheC 12NewsArticles34CheckmarkAccessoryLayoutAttributesV
+- _symbolic _____ySo6UIViewCSo7UIImageCG 13TeaFoundation20ObjectReuseProtectorC
+- _symbolic _____y_____G 12NewsArticles25OverflowBarButtonItemViewC AA017ToolbarIssueCoverE0C
+- _symbolic _____y_____G 13TeaFoundation14SyncObservableC 0A2UI19NavigationItemStyleV
+- _symbolic _____y_____GSg 5TeaUI22MastheadViewControllerC 12NewsArticles07Articlec4RootdE033_F6C36BFF6F0AD6186D9B355F40022442LLC
+- _symbolic _____y_____So7UIImageCG 13TeaFoundation20ObjectReuseProtectorC 0A2UI21DecorationToolbarItemC
+- _symbolic _____y_____y_____y__________G_____ySo16UICollectionViewC_____yAF_____y__________G__________G_____yAfN_____G_____yAfNGASGASGGSg 5TeaUI20GutterViewControllerC AA09BlueprintdE0C AA0F8ProviderC 12NewsArticles29EndOfArticleSectionDescriptorO AH0jkL5ModelO AA0fdG0C AA0f10CollectionD10DataSourceC AA0f6LayoutG0C AH0jklsmN0O AH0jklsO0O AH0jklfd4CellG0C AH0jklfd13SupplementarydG0C AA0fpD8DelegateC AH0jkldE0C AA0fpd4DragV0C
+- _type_layout_string 12NewsArticles11UserConcernV
+- _type_layout_string 12NewsArticles11UserConcernV03SubD0V
+- _type_layout_string 12NewsArticles12ConcernModelV
+- _type_layout_string 12NewsArticles12TipViewModelV9PlacementV
+- _type_layout_string 12NewsArticles13AnimationData33_201BD84FDEEA5D63E62030BA59863025LLV
+- _type_layout_string 12NewsArticles13ConcernReasonV
+- _type_layout_string 12NewsArticles13ToolbarLayoutV
+- _type_layout_string 12NewsArticles14TitleViewModelV
+- _type_layout_string 12NewsArticles18ReportConcernModelO
+- _type_layout_string 12NewsArticles19ToolbarFeatureStateV
+- _type_layout_string 12NewsArticles20MessageContainerTextV
+- _type_layout_string 12NewsArticles21TipPresentationConfigV
+- _type_layout_string 12NewsArticles26CombinedToolbarFeatureViewC15IssueCoverModelV
+- _type_layout_string 12NewsArticles31CheckmarkAccessoryLayoutOptionsC0cdF0V
+- _type_layout_string 12NewsArticles34CheckmarkAccessoryLayoutAttributesV
+- _type_layout_string 12NewsArticles37ReportConcernPrewarmBlueprintModifierV
+- _type_layout_string 12NewsArticles38ArticleViewerTitleViewLayoutAttributesV
+- _type_layout_string 12NewsArticles40ArticleViewerToolbarFeatureRegistrationsV
+- _type_layout_string 12NewsArticles40HardPaywallArticleViewerFeatureViewModelV
+- _type_layout_string 12NewsArticles41HardPaywallArticleViewerFeatureTransitionV
+- _type_layout_string 12NewsArticles43ReportConcernDetailPrewarmBlueprintModifierV
+- _type_layout_string 12NewsArticles44ReportConcernDefaultPrewarmBlueprintModifierV
+- _type_layout_string 12NewsArticles51BottomPaletteArticleViewerFeatureComponentViewModelV
+- _type_layout_string 12NewsArticles9SlotState33_201BD84FDEEA5D63E62030BA59863025LLV
+- _type_layout_string So23UIPopoverArrowDirectionV
+CStrings:
++ "@\"<UIPopoverPresentationControllerSourceItem>\"32@0:8@\"UIViewController<AMSUIMessageViewController>\"16@\"NSString\"24"
++ "@\"FCTipConfig\"16@0:8"
++ "A Better Cooking Experience"
++ "Attempting to start an article session without an article!, session=%@"
++ "Bubble tip overlay message advising the user of the new recipe card experience for non-subscribers"
++ "Bubble tip overlay message advising the user of the new recipe card experience for subscribers"
++ "Bubble tip overlay title advising the user to open recipe cards"
++ "Copyright notice appended when copying text from an article"
++ "Filter out concern %{public}s because of allowed platforms"
++ "Filter out concern %{public}s because of blocked platforms"
++ "Filter out concern %{public}s because of max news version"
++ "Filter out concern %{public}s because of min news version"
++ "Filter out sub concern %{public}s because of allowed platforms"
++ "Filter out sub concern %{public}s because of blocked platforms"
++ "Filter out sub concern %{public}s because of max news version"
++ "Filter out sub concern %{public}s because of min news version"
++ "Find all your favorite magazine issues and newspapers right here in the News+ Library."
++ "Injected via `context`"
++ "NewsArticles.TextAttributionProvider"
++ "NewsArticles/BarButtonItemArticleViewerFeatureTransition.swift"
++ "NewsArticles/TipAssembly.swift"
++ "SXTextAttributionProviding"
++ "Section header for recipe"
++ "Subscribe to access recipes in a beautiful and easy-to-use format optimized for cooking."
++ "T@\"FCTipConfig\",?,R,N"
++ "Tap this button to view recipes in a beautiful and easy-to-use format."
++ "This material may be protected by copyright."
++ "Unexpected image provider case when building tip dialog request, value=%{public}s; consult switch/case"
++ "_TtC12NewsArticles11TipAssembly"
++ "_TtC12NewsArticles13TipInteractor"
++ "_TtC12NewsArticles16TipConfigFactory"
++ "_TtC12NewsArticles16TipMigrationTask"
++ "_TtC12NewsArticles20StubTipConfigFactory"
++ "_TtC12NewsArticles23TextAttributionProvider"
++ "_TtC12NewsArticles24AudioArticleViewerStyler"
++ "_TtC12NewsArticles24TipViewControllerFactory"
++ "_TtC12NewsArticles9TipRouter"
++ "_TtCE12NewsArticlesVVE5TeaUIC11TeaSettings8Settings4Tips5Debug27RecipeChromeConfigOverrides"
++ "_hideButton:"
++ "_showButton:"
++ "allowedPlatforms"
++ "attribution"
++ "blockedPlatforms"
++ "concern layoutAttributes "
++ "concernContext"
++ "contentShortcutsCurationResourceId"
++ "contentShortcutsOnboarding"
++ "context concern "
++ "createViewController(from:)"
++ "discoverNewsPlusBubbleTipBody"
++ "discoverNewsPlusBubbleTipTitle"
++ "discoverNewsPlusLabel"
++ "initWithText:"
++ "isSearchHub"
++ "localSuperFeedsForYouTopicTagAllowList"
++ "longLongValue"
++ "messageViewController:sourceItemForAnchorIdentifier:"
++ "newsarticles.tips.debug.recipe_chrome_config_overrides.enabled"
++ "newsarticles.tips.debug.recipe_chrome_config_overrides.max_count"
++ "newsarticles.tips.discoverNewsPlusLabel.closeButtonTapped"
++ "newsarticles.tips.discoverNewsPlusLabel.lastPresentedDate"
++ "newsarticles.tips.discoverNewsPlusLabel.presentedCount"
++ "newsarticles.tips.newsPlusCooking.recipeChromePresentedCount"
++ "newsarticles.tips.newsPlusCooking.recipeChromePresentedDate"
++ "newsarticles.tips.newsPlusLabel.closeButtonTapped"
++ "newsarticles.tips.newsPlusLabel.lastPresentedDate"
++ "newsarticles.tips.newsPlusLabel.presentedCount"
++ "originProductType"
++ "part of the attribution when copying article text, presented above the title"
++ "puzzleLeaderboardsInfo"
++ "recorder"
++ "reportConcernV3:callbackQueue:completion:"
++ "searchHubTagID"
++ "shareLinkProvider"
++ "tipConfig"
++ "tipConfigFactory"
++ "useFullScreenWidth"
+- " tintColor "
+- "$__lazy_storage_$_animator"
+- "@\"UIImage\"24@0:8@\"<FCTagProviding>\"16"
+- "@\"UIImageSymbolConfiguration\"8@?0"
+- "Accessibility hint for the toolbar issue cover button"
+- "Accessibility hint for the toolbar recipe mode button"
+- "Accessibility label for share button"
+- "Accessibility label for text sizer button"
+- "Attemping to start an article session without an article!, session=%@"
+- "Attempted to style audio message container text for unknown article message style: %d@"
+- "CGPath"
+- "NABridgedArticleViewerPageItemActionHandler"
+- "NABridgedArticleViewerPageItemActionHandlerDelegateType"
+- "NUChromeControl"
+- "NUTitleViewDelegate"
+- "NewsArticles.ArticleSharingViewController"
+- "NewsArticles.BridgedArticleViewerPageItemActionHandler"
+- "NewsArticles.ChromeControl"
+- "NewsArticles.CombinedToolbarFeatureView"
+- "NewsArticles.OverflowBarButtonItemView"
+- "NewsArticles.RecipeArticleChromeBarButton"
+- "NewsArticles.RecipeArticleChromeButton"
+- "NewsArticles.TitleView"
+- "NewsArticles.ToolbarIssueCoverButton"
+- "NewsArticles/ArticleSharingViewController.swift"
+- "NewsArticles/ArticleViewerNavigationItemStyleProvider.swift"
+- "NewsArticles/CheckmarkAccessory.swift"
+- "NewsArticles/CombinedToolbarFeatureView.swift"
+- "NewsArticles/OverflowBarButtonItemView.swift"
+- "NewsArticles/RecipeArticleChromeBarButton.swift"
+- "NewsArticles/RecipeArticleChromeButton.swift"
+- "NewsArticles/SharedArticleViewerFeatureDescriptor.swift"
+- "NewsArticles/TitleView.swift"
+- "NewsArticles/ToolbarIssueCoverButton.swift"
+- "NewsArticles/ToolbarIssueCoverViewStyler.swift"
+- "Open table of contents call to action"
+- "Opens the recipe affordance"
+- "Opens the table of contents"
+- "TB,N,V_artworkEnabled"
+- "TUIBarButtonItemOffset"
+- "Title for Share button following an article"
+- "Tool tip for Save Story toolbar button"
+- "Tool tip for Unsave Story toolbar button"
+- "Tool tip to suggest less content similar to this article"
+- "Tool tip to suggest more content similar to this article"
+- "Tool tip to undo suggest less content similar to this article"
+- "Tool tip to undo suggest more content similar to this article"
+- "Toolbar item label for Save Story"
+- "Toolbar item label for Saved Story"
+- "Toolbar item label to suggest less content similar to this article"
+- "Toolbar item label to suggest more content similar to this article"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N"
+- "UUIDString"
+- "Unable to find a navigation item associated with the feature ID %s.  Removal of this feature will fail."
+- "Undo Suggest Less"
+- "Undo Suggest More"
+- "_TtC12NewsArticles13ChromeControl"
+- "_TtC12NewsArticles18CheckmarkAccessory"
+- "_TtC12NewsArticles20ArticleSharingModule"
+- "_TtC12NewsArticles20ArticleSharingStyler"
+- "_TtC12NewsArticles21ArticleViewerRenderer"
+- "_TtC12NewsArticles22ArticleSharingAssembly"
+- "_TtC12NewsArticles23ToolbarIssueCoverButton"
+- "_TtC12NewsArticles24ArticleSharingInteractor"
+- "_TtC12NewsArticles24ArticleViewerAudioStyler"
+- "_TtC12NewsArticles24CheckmarkAccessoryStyler"
+- "_TtC12NewsArticles24ModalArticleViewerStyler"
+- "_TtC12NewsArticles24PDFReplicaViewerRenderer"
+- "_TtC12NewsArticles25RecipeArticleChromeButton"
+- "_TtC12NewsArticles26ArticleSharingEventHandler"
+- "_TtC12NewsArticles26ArticleViewerAudioRenderer"
+- "_TtC12NewsArticles26CheckmarkAccessoryRenderer"
+- "_TtC12NewsArticles26CombinedToolbarFeatureView"
+- "_TtC12NewsArticles27IssueCoverViewButtonFactory"
+- "_TtC12NewsArticles27ToolbarIssueCoverViewStyler"
+- "_TtC12NewsArticles28ArticleSharingViewController"
+- "_TtC12NewsArticles28RecipeArticleChromeBarButton"
+- "_TtC12NewsArticles29ToolbarIssueCoverViewRenderer"
+- "_TtC12NewsArticles30ArticleViewerTitleViewRenderer"
+- "_TtC12NewsArticles30CombinedToolbarFeatureProvider"
+- "_TtC12NewsArticles30RecipeArticleViewButtonFactory"
+- "_TtC12NewsArticles31CheckmarkAccessoryLayoutOptions"
+- "_TtC12NewsArticles31RecipeArticleChromeButtonStyler"
+- "_TtC12NewsArticles32ArticleViewerBottomPaletteStyler"
+- "_TtC12NewsArticles33RecipeArticleChromeButtonRenderer"
+- "_TtC12NewsArticles34ArticleViewerToolbarFeatureManager"
+- "_TtC12NewsArticles34ReloadArticleViewerFeatureProvider"
+- "_TtC12NewsArticles35AudioArticleViewerFeatureDescriptor"
+- "_TtC12NewsArticles36SharedArticleViewerFeatureDescriptor"
+- "_TtC12NewsArticles37MacMoreArticleViewerFeatureTransition"
+- "_TtC12NewsArticles37TitleViewArticleViewerFeatureProvider"
+- "_TtC12NewsArticles39HardPaywallArticleViewerFeatureProvider"
+- "_TtC12NewsArticles40ArticleViewerNavigationItemStyleProvider"
+- "_TtC12NewsArticles40RecipeChromeArticleViewerFeatureProvider"
+- "_TtC12NewsArticles41BottomPaletteArticleViewerFeatureProvider"
+- "_TtC12NewsArticles41CheckmarkAccessoryLayoutAttributesFactory"
+- "_TtC12NewsArticles42MacTitleViewArticleViewerFeatureTransition"
+- "_TtC12NewsArticles44ToolbarIssueCoverViewLayoutAttributesFactory"
+- "_TtC12NewsArticles45ArticleViewerTitleViewLayoutAttributesFactory"
+- "_TtC12NewsArticles50TableOfContentsArticleViewerToolbarFeatureProvider"
+- "_TtC12NewsArticles53TableOfContentsArticleViewerFeatureVisibilityProvider"
+- "_TtC12NewsArticles9TitleView"
+- "_TtC12NewsArticlesP33_AB2C07DEED72E6BCD424DDADA40C3A3026AttributionViewWrapperView"
+- "_artworkEnabled"
+- "_bottomPalette"
+- "_isSimilarToColor:withinPercentage:"
+- "_popNavigationItemWithTransition:"
+- "_pushNavigationItem:transition:"
+- "_setBottomPalette:"
+- "addAnimations:"
+- "addCompletion:"
+- "animateWithDuration:animations:"
+- "animationForKey:"
+- "applyTitleViewUpdate:animation:"
+- "articleSharingModule"
+- "articleToolbarManager"
+- "articleViewerAudioStyler"
+- "articleViewerRenderer"
+- "articleViewerStyler"
+- "articleViewerTracker"
+- "artworkEnabled"
+- "audioArticleMessageUpdater"
+- "audioButtonRenderer"
+- "backButton"
+- "baseSymbolConfiguration"
+- "blurEffect"
+- "bookmark.circle.fill"
+- "bookmark.unfilled.circle.fill"
+- "bottomPadding"
+- "button"
+- "button to launch recipe mode in an article that a recipe"
+- "button to launch recipe mode in an article that contains more than one recipe"
+- "callToActionLabel"
+- "centerXAnchor"
+- "checkmarkViewLayoutMargins"
+- "colorWithRed:green:blue:alpha:"
+- "configurationWithFont:scale:"
+- "constraintGreaterThanOrEqualToAnchor:"
+- "constraintLessThanOrEqualToAnchor:"
+- "convertRect:fromCoordinateSpace:"
+- "convertRect:toView:"
+- "coverButton"
+- "coverLayoutAttributesFactory"
+- "coverModel"
+- "coverView"
+- "coverViewButtonFactory"
+- "currentArticle"
+- "currentIssue"
+- "currentSplitViewFocus"
+- "exportToGroceryListEnabled"
+- "feedDifferentiationModeEnabled"
+- "gutterViewController"
+- "hand.thumbsdown.circle.fill"
+- "hand.thumbsdown.fill.thumbsup.circle.fill"
+- "hand.thumbsdown.thumbsup.circle.fill"
+- "hand.thumbsdown.thumbsup.fill.circle.fill"
+- "hand.thumbsdown.unfilled.circle.fill"
+- "hand.thumbsup.circle.fill"
+- "hand.thumbsup.unfilled.circle.fill"
+- "highlightColor"
+- "highlightView"
+- "highlighted"
+- "iconImageView"
+- "imageForState:"
+- "init(contentView:layout:)"
+- "initWithBackground:artworkEnabled:"
+- "initWithContentView:"
+- "initWithControlPoint1:controlPoint2:"
+- "initWithDelegate:"
+- "initWithDuration:curve:animations:"
+- "initWithDuration:timingParameters:"
+- "initWithStyler:"
+- "initWithText:styleType:"
+- "initWithTextColor:"
+- "insertSubview:atIndex:"
+- "isCollapsed"
+- "isTableOfContentsVisible"
+- "isToolbarHidden"
+- "issueCoverButton"
+- "issueCoverViewButtonFactory"
+- "keyWindow"
+- "linkedToggle"
+- "makeKeyAndVisible"
+- "maxSuggestedShortcutsCount"
+- "miniPlayerBackground"
+- "minimumHeight"
+- "mySportsShareImageFor:"
+- "nameForSharing"
+- "navigateToArticleID:"
+- "navigationBarBottomPaletteHeight"
+- "navigationItemStyle"
+- "navigationItemStyler"
+- "newsPlusLabel"
+- "newsPlusLabelItem"
+- "newsarticles.article.bottomPalette"
+- "newsarticles.article.hard_paywall"
+- "newsarticles.article.title_view"
+- "newsarticles.share"
+- "newsarticles.showEoaShareButton"
+- "nextButton"
+- "nextContext"
+- "nextHeadline"
+- "offImage"
+- "onImage"
+- "onTap"
+- "overrideUserInterfaceStyle"
+- "paywallProvider"
+- "position"
+- "prefersChromeHidden:fromViewController:"
+- "presentWithViewController:"
+- "publisherLogoImageCache"
+- "recipeButtonFactory"
+- "resolvedColorWithTraitCollection:"
+- "scaledFontForFont:"
+- "scrollOffset"
+- "secondarySystemFillColor"
+- "setAccessibilityTitle:"
+- "setAnchorPointWithoutChangingPositionWithNewAnchorPoint:"
+- "setAnimationDuration:"
+- "setAnimationTimingFunction:"
+- "setArtworkEnabled:"
+- "setCancelPendingUpdates:"
+- "setCompletionBlock:"
+- "setContentEdgeInsets:"
+- "setCornerCurve:"
+- "setCustomView:"
+- "setEffect:"
+- "setPassthroughViews:"
+- "setPermittedArrowDirections:"
+- "setPreferredHeight:"
+- "setShadowColor:"
+- "setShadowOffset:"
+- "setShadowOpacity:"
+- "setShadowPath:"
+- "setShadowRadius:"
+- "setSpeakAccessibilityTitleWhenDisplayed:"
+- "setStyler:"
+- "setTintAdjustmentMode:"
+- "setToolbarHidden:"
+- "setToolbarItems:"
+- "shareAction"
+- "shareButton"
+- "shareImageFor:"
+- "sharingActivityItemFactory"
+- "shortcutsConfigResourceId"
+- "shortcutsCurationResourceId"
+- "shortcutsCustomizeAffordanceDisplayMinLaunchCount"
+- "shortcutsCustomizeAffordanceSendToBackPositionMinLaunchCount"
+- "slots"
+- "splitViewController"
+- "sportsRecordEnabled"
+- "square.and.arrow.up.circle.fill"
+- "startAnimation"
+- "startAnimationAfterDelay:"
+- "tabBarSplitViewFocusable"
+- "tableOfContentsVisibilityProvider"
+- "textformat.size.circle.fill"
+- "tipPresentationConfig"
+- "titleViewDidTapOnTitleView:"
+- "titleViewLayoutAttributesFactory"
+- "titleViewRenderer"
+- "titleViewReuseProtector"
+- "toggleState"
+- "toolbarCoverFactory"
+- "toolbarItemProvider"
+- "toolbarItemReuseProtector"
+- "toolbarItems"
+- "toolbarManager"
+- "toolbarManager.opacity"
+- "toolbarManager.slide"
+- "topPadding"
+- "touchesCancelled:withEvent:"
+- "touchesEnded:withEvent:"
+- "trailingPadding"
+- "transform"
+- "transition"
+- "transitionFromView:toView:duration:options:completion:"
+- "ts_barButtonItemView"
+- "ts_bezierPathWithPillRect:cornerRadius:"
+- "ts_columnSeparatorsExtendToTitlebar:"
+- "ts_fetchTitleView"
+- "ts_setTransparentBackground"
+- "v16@?0q8"
+- "v24@0:8@\"NUTitleView\"16"
+- "v24@0:8@\"UIViewController\"16"
+- "v28@0:8B16@\"UIViewController\"20"
+- "v28@0:8B16@20"
+- "viewModel"
+- "windowToolbarManager"
+
+```

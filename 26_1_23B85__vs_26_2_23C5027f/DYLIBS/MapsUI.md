@@ -1,0 +1,609 @@
+## MapsUI
+
+> `/System/Library/PrivateFrameworks/MapsUI.framework/MapsUI`
+
+```diff
+
+-241.31.10.2.8
+-  __TEXT.__text: 0x22bcd8
++241.32.10.2.4
++  __TEXT.__text: 0x22bdf8
+   __TEXT.__auth_stubs: 0x2b90
+-  __TEXT.__objc_methlist: 0x1658c
++  __TEXT.__objc_methlist: 0x16614
+   __TEXT.__const: 0x12a08
+   __TEXT.__swift5_typeref: 0x4f2e
+   __TEXT.__swift5_fieldmd: 0x56d8
+
+   __TEXT.__swift5_protos: 0x50
+   __TEXT.__swift5_proto: 0xea4
+   __TEXT.__swift5_types: 0x61c
+-  __TEXT.__cstring: 0x1ba14
++  __TEXT.__cstring: 0x1ba26
+   __TEXT.__swift5_builtin: 0x294
+   __TEXT.__swift5_assocty: 0x768
+   __TEXT.__swift5_capture: 0xefc
+
+   __TEXT.__unwind_info: 0x8c48
+   __TEXT.__eh_frame: 0x3f40
+   __TEXT.__objc_classname: 0x3a5c
+-  __TEXT.__objc_methname: 0x30c96
+-  __TEXT.__objc_methtype: 0xb32e
+-  __TEXT.__objc_stubs: 0x1fde0
+-  __DATA_CONST.__got: 0x16b0
++  __TEXT.__objc_methname: 0x30d53
++  __TEXT.__objc_methtype: 0xb368
++  __TEXT.__objc_stubs: 0x1fe80
++  __DATA_CONST.__got: 0x16a8
+   __DATA_CONST.__const: 0x4368
+   __DATA_CONST.__objc_classlist: 0xe30
+   __DATA_CONST.__objc_catlist: 0x110
+   __DATA_CONST.__objc_protolist: 0x7e8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xaa00
++  __DATA_CONST.__objc_selrefs: 0xaa28
+   __DATA_CONST.__objc_protorefs: 0x250
+   __DATA_CONST.__objc_superrefs: 0x750
+   __DATA_CONST.__objc_arraydata: 0x190
+   __AUTH_CONST.__auth_got: 0x15d8
+   __AUTH_CONST.__const: 0x7960
+-  __AUTH_CONST.__cfstring: 0x15560
+-  __AUTH_CONST.__objc_const: 0x2e458
++  __AUTH_CONST.__cfstring: 0x15580
++  __AUTH_CONST.__objc_const: 0x2e4c8
+   __AUTH_CONST.__objc_intobj: 0x8d0
+   __AUTH_CONST.__objc_floatobj: 0x50
+   __AUTH_CONST.__objc_arrayobj: 0x1c8
+
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH.__objc_data: 0x9f18
+   __AUTH.__data: 0x5ff8
+-  __DATA.__objc_ivar: 0x169c
++  __DATA.__objc_ivar: 0x16a4
+   __DATA.__data: 0x7988
+   __DATA.__bss: 0x1ae00
+   __DATA.__common: 0xdb0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 675BFE25-F62D-32CE-8509-2D8D5DA22095
+-  Functions: 14218
+-  Symbols:   24919
+-  CStrings:  16590
++  UUID: 36C0F492-CEA4-39BB-9A34-FA5177C42176
++  Functions: 14221
++  Symbols:   24939
++  CStrings:  16601
+ 
+Symbols:
++ -[MUPlaceEnrichmentSectionController didTapContextMenuButton]
++ -[MUPlaceEnrichmentSectionController didTapShowcase]
++ -[MURatingsAndReviewsSectionController _performInstrumentationForScrollLeft]
++ -[MURatingsAndReviewsSectionController _performInstrumentationForScrollRight]
++ -[MURatingsAndReviewsSectionController scrollViewWillBeginDragging:]
++ -[MURatingsAndReviewsSectionController scrollViewWillEndDragging:withVelocity:targetContentOffset:]
++ -[MURouteActivityDataProviderConfiguration initWithSourceMapItem:waypointMapItems:destinationMapItem:route:]
++ -[MURouteActivityDataProviderConfiguration setWaypointMapItems:]
++ -[MURouteActivityDataProviderConfiguration waypointMapItems]
++ GCC_except_table1093
++ GCC_except_table1121
++ GCC_except_table1177
++ GCC_except_table1250
++ GCC_except_table1309
++ GCC_except_table1366
++ GCC_except_table1367
++ GCC_except_table138
++ GCC_except_table1426
++ GCC_except_table1427
++ GCC_except_table1439
++ GCC_except_table1533
++ GCC_except_table1542
++ GCC_except_table1559
++ GCC_except_table159
++ GCC_except_table165
++ GCC_except_table1701
++ GCC_except_table1715
++ GCC_except_table1751
++ GCC_except_table1830
++ GCC_except_table1853
++ GCC_except_table1900
++ GCC_except_table1989
++ GCC_except_table1991
++ GCC_except_table202
++ GCC_except_table2023
++ GCC_except_table2028
++ GCC_except_table2031
++ GCC_except_table2036
++ GCC_except_table2062
++ GCC_except_table2064
++ GCC_except_table2067
++ GCC_except_table2094
++ GCC_except_table2106
++ GCC_except_table2149
++ GCC_except_table2156
++ GCC_except_table2231
++ GCC_except_table2246
++ GCC_except_table2254
++ GCC_except_table2257
++ GCC_except_table2303
++ GCC_except_table2309
++ GCC_except_table2338
++ GCC_except_table2385
++ GCC_except_table2431
++ GCC_except_table2434
++ GCC_except_table2466
++ GCC_except_table2493
++ GCC_except_table2494
++ GCC_except_table2497
++ GCC_except_table2533
++ GCC_except_table268
++ GCC_except_table2729
++ GCC_except_table2751
++ GCC_except_table2763
++ GCC_except_table278
++ GCC_except_table2838
++ GCC_except_table2856
++ GCC_except_table286
++ GCC_except_table2882
++ GCC_except_table289
++ GCC_except_table2935
++ GCC_except_table2942
++ GCC_except_table2952
++ GCC_except_table312
++ GCC_except_table314
++ GCC_except_table3159
++ GCC_except_table3189
++ GCC_except_table3207
++ GCC_except_table3215
++ GCC_except_table3261
++ GCC_except_table3318
++ GCC_except_table332
++ GCC_except_table339
++ GCC_except_table344
++ GCC_except_table3443
++ GCC_except_table3533
++ GCC_except_table3583
++ GCC_except_table366
++ GCC_except_table3738
++ GCC_except_table3814
++ GCC_except_table3843
++ GCC_except_table3851
++ GCC_except_table3855
++ GCC_except_table3858
++ GCC_except_table3859
++ GCC_except_table3883
++ GCC_except_table3962
++ GCC_except_table400
++ GCC_except_table4003
++ GCC_except_table401
++ GCC_except_table409
++ GCC_except_table411
++ GCC_except_table4138
++ GCC_except_table4150
++ GCC_except_table419
++ GCC_except_table421
++ GCC_except_table4250
++ GCC_except_table4262
++ GCC_except_table4314
++ GCC_except_table433
++ GCC_except_table4407
++ GCC_except_table4470
++ GCC_except_table4528
++ GCC_except_table4559
++ GCC_except_table4563
++ GCC_except_table463
++ GCC_except_table4640
++ GCC_except_table4666
++ GCC_except_table471
++ GCC_except_table4712
++ GCC_except_table4720
++ GCC_except_table4724
++ GCC_except_table473
++ GCC_except_table4734
++ GCC_except_table4737
++ GCC_except_table474
++ GCC_except_table4740
++ GCC_except_table4745
++ GCC_except_table4789
++ GCC_except_table4814
++ GCC_except_table493
++ GCC_except_table498
++ GCC_except_table4995
++ GCC_except_table5085
++ GCC_except_table5091
++ GCC_except_table5102
++ GCC_except_table5138
++ GCC_except_table5144
++ GCC_except_table530
++ GCC_except_table532
++ GCC_except_table535
++ GCC_except_table5546
++ GCC_except_table5599
++ GCC_except_table5603
++ GCC_except_table561
++ GCC_except_table5626
++ GCC_except_table568
++ GCC_except_table655
++ GCC_except_table663
++ GCC_except_table679
++ GCC_except_table720
++ GCC_except_table722
++ GCC_except_table732
++ GCC_except_table735
++ GCC_except_table780
++ GCC_except_table787
++ GCC_except_table876
++ GCC_except_table877
++ GCC_except_table90
++ _MUGetMUWebContentLog.22909
++ _MUGetMUWebContentLog.log.22912
++ _MUGetMUWebContentLog.log.24392
++ _MUGetMUWebContentLog.onceToken.22911
++ _MUGetMUWebContentLog.onceToken.24390
++ _OBJC_IVAR_$_MURatingsAndReviewsSectionController._beginAnalyticsContentOffsetX
++ _OBJC_IVAR_$_MURouteActivityDataProviderConfiguration._waypointMapItems
++ ___Block_byref_object_copy_.10467
++ ___Block_byref_object_copy_.12734
++ ___Block_byref_object_copy_.12870
++ ___Block_byref_object_copy_.16730
++ ___Block_byref_object_copy_.18805
++ ___Block_byref_object_copy_.5732
++ ___Block_byref_object_copy_.5937
++ ___Block_byref_object_copy_.9005
++ ___Block_byref_object_copy_.9520
++ ___Block_byref_object_dispose_.10468
++ ___Block_byref_object_dispose_.12735
++ ___Block_byref_object_dispose_.12871
++ ___Block_byref_object_dispose_.16731
++ ___Block_byref_object_dispose_.18806
++ ___Block_byref_object_dispose_.5733
++ ___Block_byref_object_dispose_.5938
++ ___Block_byref_object_dispose_.9006
++ ___Block_byref_object_dispose_.9521
++ ___MUGetMUWebContentLog_block_invoke.22914
++ ___MUGetMUWebContentLog_block_invoke.24396
++ ___block_literal_global.10210
++ ___block_literal_global.104.23367
++ ___block_literal_global.10463
++ ___block_literal_global.10662
++ ___block_literal_global.11089
++ ___block_literal_global.11723
++ ___block_literal_global.11745
++ ___block_literal_global.12.23287
++ ___block_literal_global.12234
++ ___block_literal_global.12913
++ ___block_literal_global.13106
++ ___block_literal_global.136.13139
++ ___block_literal_global.13615
++ ___block_literal_global.14132
++ ___block_literal_global.14930
++ ___block_literal_global.150.23407
++ ___block_literal_global.16183
++ ___block_literal_global.16782
++ ___block_literal_global.16860
++ ___block_literal_global.17075
++ ___block_literal_global.171
++ ___block_literal_global.17376
++ ___block_literal_global.18048
++ ___block_literal_global.18780
++ ___block_literal_global.19299
++ ___block_literal_global.20241
++ ___block_literal_global.20544
++ ___block_literal_global.2085
++ ___block_literal_global.21209
++ ___block_literal_global.21808
++ ___block_literal_global.2187
++ ___block_literal_global.22503
++ ___block_literal_global.22943
++ ___block_literal_global.23.23298
++ ___block_literal_global.23116
++ ___block_literal_global.23204
++ ___block_literal_global.23279
++ ___block_literal_global.2362
++ ___block_literal_global.23888
++ ___block_literal_global.24017
++ ___block_literal_global.24325
++ ___block_literal_global.24391
++ ___block_literal_global.24403
++ ___block_literal_global.25295
++ ___block_literal_global.2624
++ ___block_literal_global.276
++ ___block_literal_global.298
++ ___block_literal_global.326
++ ___block_literal_global.3772
++ ___block_literal_global.42.23317
++ ___block_literal_global.4581
++ ___block_literal_global.466
++ ___block_literal_global.52.11722
++ ___block_literal_global.54.23327
++ ___block_literal_global.5505
++ ___block_literal_global.5682
++ ___block_literal_global.5736
++ ___block_literal_global.5746
++ ___block_literal_global.64.24329
++ ___block_literal_global.6710
++ ___block_literal_global.7535
++ ___block_literal_global.765
++ ___block_literal_global.7869
++ ___block_literal_global.8199
++ ___block_literal_global.859
++ ___block_literal_global.9013
++ ___block_literal_global.9883
++ _objc_msgSend$URLForDirectionsToMapItems:transport:
++ _objc_msgSend$_performInstrumentationForScrollLeft
++ _objc_msgSend$_performInstrumentationForScrollRight
++ _objc_msgSend$didTapContextMenuButton
++ _objc_msgSend$didTapShowcase
++ _objc_msgSend$waypointMapItems
++ _sharedInstance.onceToken.20240
+- -[MURouteActivityDataProviderConfiguration initWithSourceMapItem:destinationMapItem:route:]
+- GCC_except_table1089
+- GCC_except_table1117
+- GCC_except_table1173
+- GCC_except_table1246
+- GCC_except_table1305
+- GCC_except_table134
+- GCC_except_table1362
+- GCC_except_table1363
+- GCC_except_table1422
+- GCC_except_table1423
+- GCC_except_table1435
+- GCC_except_table1529
+- GCC_except_table1538
+- GCC_except_table155
+- GCC_except_table1555
+- GCC_except_table161
+- GCC_except_table1697
+- GCC_except_table1711
+- GCC_except_table1747
+- GCC_except_table1826
+- GCC_except_table1849
+- GCC_except_table1896
+- GCC_except_table194
+- GCC_except_table1983
+- GCC_except_table1985
+- GCC_except_table2019
+- GCC_except_table2024
+- GCC_except_table2027
+- GCC_except_table2032
+- GCC_except_table2058
+- GCC_except_table2060
+- GCC_except_table2063
+- GCC_except_table2090
+- GCC_except_table2102
+- GCC_except_table2145
+- GCC_except_table2152
+- GCC_except_table2227
+- GCC_except_table2242
+- GCC_except_table2250
+- GCC_except_table2253
+- GCC_except_table2295
+- GCC_except_table2305
+- GCC_except_table2334
+- GCC_except_table2381
+- GCC_except_table2427
+- GCC_except_table2430
+- GCC_except_table2460
+- GCC_except_table2487
+- GCC_except_table2488
+- GCC_except_table2491
+- GCC_except_table2527
+- GCC_except_table264
+- GCC_except_table2723
+- GCC_except_table274
+- GCC_except_table2745
+- GCC_except_table2757
+- GCC_except_table282
+- GCC_except_table2832
+- GCC_except_table285
+- GCC_except_table2850
+- GCC_except_table2876
+- GCC_except_table2929
+- GCC_except_table2936
+- GCC_except_table2946
+- GCC_except_table308
+- GCC_except_table310
+- GCC_except_table3153
+- GCC_except_table3183
+- GCC_except_table3201
+- GCC_except_table3203
+- GCC_except_table3249
+- GCC_except_table328
+- GCC_except_table3312
+- GCC_except_table335
+- GCC_except_table340
+- GCC_except_table3437
+- GCC_except_table3527
+- GCC_except_table3577
+- GCC_except_table362
+- GCC_except_table3732
+- GCC_except_table3808
+- GCC_except_table3837
+- GCC_except_table3845
+- GCC_except_table3849
+- GCC_except_table3852
+- GCC_except_table3853
+- GCC_except_table3877
+- GCC_except_table3956
+- GCC_except_table396
+- GCC_except_table397
+- GCC_except_table3997
+- GCC_except_table405
+- GCC_except_table407
+- GCC_except_table413
+- GCC_except_table4132
+- GCC_except_table4144
+- GCC_except_table415
+- GCC_except_table4244
+- GCC_except_table4256
+- GCC_except_table429
+- GCC_except_table4308
+- GCC_except_table4401
+- GCC_except_table4464
+- GCC_except_table4521
+- GCC_except_table4552
+- GCC_except_table4556
+- GCC_except_table459
+- GCC_except_table4633
+- GCC_except_table4659
+- GCC_except_table467
+- GCC_except_table469
+- GCC_except_table470
+- GCC_except_table4705
+- GCC_except_table4713
+- GCC_except_table4717
+- GCC_except_table4723
+- GCC_except_table4727
+- GCC_except_table4733
+- GCC_except_table4738
+- GCC_except_table4782
+- GCC_except_table4807
+- GCC_except_table489
+- GCC_except_table494
+- GCC_except_table4988
+- GCC_except_table5078
+- GCC_except_table5084
+- GCC_except_table5095
+- GCC_except_table5131
+- GCC_except_table5137
+- GCC_except_table526
+- GCC_except_table528
+- GCC_except_table531
+- GCC_except_table553
+- GCC_except_table5539
+- GCC_except_table5592
+- GCC_except_table5596
+- GCC_except_table5619
+- GCC_except_table564
+- GCC_except_table651
+- GCC_except_table659
+- GCC_except_table675
+- GCC_except_table716
+- GCC_except_table718
+- GCC_except_table728
+- GCC_except_table731
+- GCC_except_table776
+- GCC_except_table783
+- GCC_except_table86
+- GCC_except_table869
+- GCC_except_table872
+- _MUGetMUWebContentLog.22854
+- _MUGetMUWebContentLog.log.22857
+- _MUGetMUWebContentLog.log.24338
+- _MUGetMUWebContentLog.onceToken.22856
+- _MUGetMUWebContentLog.onceToken.24336
+- _OBJC_CLASS_$_GEOAPWebPortal
+- ___42-[MURouteActivityDataProvider activityURL]_block_invoke
+- ___Block_byref_object_copy_.10417
+- ___Block_byref_object_copy_.12685
+- ___Block_byref_object_copy_.12821
+- ___Block_byref_object_copy_.16682
+- ___Block_byref_object_copy_.18756
+- ___Block_byref_object_copy_.5692
+- ___Block_byref_object_copy_.5898
+- ___Block_byref_object_copy_.8957
+- ___Block_byref_object_copy_.9469
+- ___Block_byref_object_dispose_.10418
+- ___Block_byref_object_dispose_.12686
+- ___Block_byref_object_dispose_.12822
+- ___Block_byref_object_dispose_.16683
+- ___Block_byref_object_dispose_.18757
+- ___Block_byref_object_dispose_.5693
+- ___Block_byref_object_dispose_.5899
+- ___Block_byref_object_dispose_.8958
+- ___Block_byref_object_dispose_.9470
+- ___MUGetMUWebContentLog_block_invoke.22859
+- ___MUGetMUWebContentLog_block_invoke.24342
+- ___block_literal_global.10160
+- ___block_literal_global.104.23311
+- ___block_literal_global.10413
+- ___block_literal_global.10613
+- ___block_literal_global.11041
+- ___block_literal_global.11674
+- ___block_literal_global.11696
+- ___block_literal_global.12.23231
+- ___block_literal_global.12185
+- ___block_literal_global.12864
+- ___block_literal_global.13057
+- ___block_literal_global.13566
+- ___block_literal_global.136.13090
+- ___block_literal_global.14083
+- ___block_literal_global.14883
+- ___block_literal_global.150.23351
+- ___block_literal_global.16135
+- ___block_literal_global.166
+- ___block_literal_global.16734
+- ___block_literal_global.16812
+- ___block_literal_global.17027
+- ___block_literal_global.17328
+- ___block_literal_global.18000
+- ___block_literal_global.18731
+- ___block_literal_global.19250
+- ___block_literal_global.20186
+- ___block_literal_global.2048
+- ___block_literal_global.20489
+- ___block_literal_global.21154
+- ___block_literal_global.2153
+- ___block_literal_global.21754
+- ___block_literal_global.22448
+- ___block_literal_global.22887
+- ___block_literal_global.23.23242
+- ___block_literal_global.23060
+- ___block_literal_global.23148
+- ___block_literal_global.23223
+- ___block_literal_global.2329
+- ___block_literal_global.23834
+- ___block_literal_global.23963
+- ___block_literal_global.24271
+- ___block_literal_global.24337
+- ___block_literal_global.24349
+- ___block_literal_global.25241
+- ___block_literal_global.2588
+- ___block_literal_global.274
+- ___block_literal_global.296
+- ___block_literal_global.324
+- ___block_literal_global.3736
+- ___block_literal_global.42.23261
+- ___block_literal_global.4541
+- ___block_literal_global.461
+- ___block_literal_global.52.11673
+- ___block_literal_global.54.23271
+- ___block_literal_global.5465
+- ___block_literal_global.5642
+- ___block_literal_global.5706
+- ___block_literal_global.5730
+- ___block_literal_global.64.24275
+- ___block_literal_global.6667
+- ___block_literal_global.7489
+- ___block_literal_global.754
+- ___block_literal_global.7823
+- ___block_literal_global.8152
+- ___block_literal_global.834
+- ___block_literal_global.8965
+- ___block_literal_global.9833
+- _objc_msgSend$URLForDirectionsFrom:to:transport:
+- _sharedInstance.onceToken.20185
+CStrings:
++ "B40@0:8@\"MKMapView\"16@\"UIGestureRecognizer\"24@\"UITouch\"32"
++ "SEARCH_HOME"
++ "T@\"NSArray\",&,N,V_waypointMapItems"
++ "TAP_SHOWCASE"
++ "URLForDirectionsToMapItems:transport:"
++ "_beginAnalyticsContentOffsetX"
++ "_performInstrumentationForScrollLeft"
++ "_performInstrumentationForScrollRight"
++ "_waypointMapItems"
++ "didTapContextMenuButton"
++ "didTapShowcase"
++ "initWithSourceMapItem:waypointMapItems:destinationMapItem:route:"
++ "mapView:gestureRecognizer:shouldReceiveTouch:"
++ "setWaypointMapItems:"
++ "waypointMapItems"
+- "%@, %@"
+- "URLForDirectionsFrom:to:transport:"
+- "captureWebPlaceCardAnalyticEvent:analyticSessionType:"
+- "captureWebPlaceCardFeatureUseCount:usageString:usageBool:"
+- "initWithSourceMapItem:destinationMapItem:route:"
+
+```

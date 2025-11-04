@@ -1,0 +1,878 @@
+## HomeUI
+
+> `/System/Library/PrivateFrameworks/HomeUI.framework/HomeUI`
+
+```diff
+
+-1119.2.10.1.3
+-  __TEXT.__text: 0x6a8588
+-  __TEXT.__auth_stubs: 0x75f0
+-  __TEXT.__objc_methlist: 0x4f704
+-  __TEXT.__const: 0x11500
++1136.3.1.1.2
++  __TEXT.__text: 0x6a317c
++  __TEXT.__auth_stubs: 0x74a0
++  __TEXT.__objc_methlist: 0x4f28c
++  __TEXT.__const: 0x11218
+   __TEXT.__dlopen_cstrs: 0x2a0
+-  __TEXT.__cstring: 0x47f06
+-  __TEXT.__swift5_typeref: 0xc76a
+-  __TEXT.__swift5_fieldmd: 0x4b18
+-  __TEXT.__constg_swiftt: 0x9000
+-  __TEXT.__swift5_reflstr: 0x5078
++  __TEXT.__cstring: 0x47909
++  __TEXT.__swift5_typeref: 0xc4fe
++  __TEXT.__swift5_fieldmd: 0x4a6c
++  __TEXT.__constg_swiftt: 0x8f58
++  __TEXT.__swift5_reflstr: 0x4fb0
+   __TEXT.__swift5_builtin: 0x4ec
+-  __TEXT.__swift5_assocty: 0xc58
++  __TEXT.__swift5_assocty: 0xc08
+   __TEXT.__swift5_protos: 0x58
+-  __TEXT.__swift5_proto: 0x784
+-  __TEXT.__swift5_types: 0x574
+-  __TEXT.__swift5_capture: 0x2b24
+-  __TEXT.__oslogstring: 0x265c1
+-  __TEXT.__swift_as_entry: 0x2a8
+-  __TEXT.__swift_as_ret: 0x2c8
++  __TEXT.__swift5_proto: 0x778
++  __TEXT.__swift5_types: 0x568
++  __TEXT.__oslogstring: 0x26c80
++  __TEXT.__swift5_capture: 0x2a64
++  __TEXT.__swift_as_entry: 0x2a0
++  __TEXT.__swift_as_ret: 0x2c0
+   __TEXT.__swift5_mpenum: 0x4c
+-  __TEXT.__gcc_except_tab: 0x9efc
++  __TEXT.__gcc_except_tab: 0x9e5c
+   __TEXT.__ustring: 0x7e
+-  __TEXT.__unwind_info: 0x17658
+-  __TEXT.__eh_frame: 0xb0f0
+-  __TEXT.__objc_classname: 0xcbd3
+-  __TEXT.__objc_methname: 0xaed8b
+-  __TEXT.__objc_methtype: 0x16012
+-  __TEXT.__objc_stubs: 0x6c7c0
+-  __DATA_CONST.__got: 0x63b8
+-  __DATA_CONST.__const: 0xf1b8
+-  __DATA_CONST.__objc_classlist: 0x27f8
++  __TEXT.__unwind_info: 0x17598
++  __TEXT.__eh_frame: 0xb3a0
++  __TEXT.__objc_classname: 0xcad1
++  __TEXT.__objc_methname: 0xae5cc
++  __TEXT.__objc_methtype: 0x15e5b
++  __TEXT.__objc_stubs: 0x6c5a0
++  __DATA_CONST.__got: 0x6400
++  __DATA_CONST.__const: 0xf058
++  __DATA_CONST.__objc_classlist: 0x27c0
+   __DATA_CONST.__objc_catlist: 0x208
+-  __DATA_CONST.__objc_protolist: 0x1278
++  __DATA_CONST.__objc_protolist: 0x1270
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x21dc0
++  __DATA_CONST.__objc_selrefs: 0x21c70
+   __DATA_CONST.__objc_protorefs: 0x6b0
+-  __DATA_CONST.__objc_superrefs: 0x1ed0
++  __DATA_CONST.__objc_superrefs: 0x1ea8
+   __DATA_CONST.__objc_arraydata: 0x9c0
+-  __AUTH_CONST.__auth_got: 0x3b08
+-  __AUTH_CONST.__const: 0x12ac0
+-  __AUTH_CONST.__cfstring: 0x22fa0
+-  __AUTH_CONST.__objc_const: 0x8cf30
+-  __AUTH_CONST.__objc_intobj: 0x1cc8
++  __AUTH_CONST.__auth_got: 0x3a60
++  __AUTH_CONST.__const: 0x12860
++  __AUTH_CONST.__cfstring: 0x227e0
++  __AUTH_CONST.__objc_const: 0x8c610
++  __AUTH_CONST.__objc_intobj: 0x1c38
+   __AUTH_CONST.__objc_arrayobj: 0x4f8
+   __AUTH_CONST.__objc_dictobj: 0x5c8
+   __AUTH_CONST.__objc_doubleobj: 0x540
+   __AUTH_CONST.__objc_floatobj: 0x40
+-  __AUTH.__objc_data: 0x1a8c8
+-  __AUTH.__data: 0x3260
+-  __DATA.__objc_ivar: 0x1884
+-  __DATA.__data: 0x10688
++  __AUTH.__objc_data: 0x1a648
++  __AUTH.__data: 0x3278
++  __DATA.__objc_ivar: 0x1870
++  __DATA.__data: 0x10538
+   __DATA.__objc_stublist: 0x40
+-  __DATA.__bss: 0xd868
+-  __DATA.__common: 0x250
+-  __DATA_DIRTY.__objc_ivar: 0x3bb0
+-  __DATA_DIRTY.__objc_data: 0x7e00
+-  __DATA_DIRTY.__data: 0x1680
++  __DATA.__bss: 0xd7d0
++  __DATA.__common: 0x248
++  __DATA_DIRTY.__objc_ivar: 0x3b7c
++  __DATA_DIRTY.__objc_data: 0x7db8
++  __DATA_DIRTY.__data: 0x15f0
+   __DATA_DIRTY.__common: 0xa0
+-  __DATA_DIRTY.__bss: 0x15b0
++  __DATA_DIRTY.__bss: 0x1498
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AVKit.framework/AVKit
+
+   - /System/Library/PrivateFrameworks/NetAppsUtilitiesUI.framework/NetAppsUtilitiesUI
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /System/Library/PrivateFrameworks/PlatterKit.framework/PlatterKit
+-  - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /System/Library/PrivateFrameworks/PreferencesExtended.framework/PreferencesExtended
+   - /System/Library/PrivateFrameworks/ProxCardKit.framework/ProxCardKit
+   - /System/Library/PrivateFrameworks/ProximityControl.framework/ProximityControl
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 03F81B4C-8075-30DD-B3D3-4F3BD55ACDC8
+-  Functions: 38255
+-  Symbols:   88479
+-  CStrings:  43345
++  UUID: ECF6B259-E406-3FC9-93A7-147DA5A9B05D
++  Functions: 38108
++  Symbols:   88182
++  CStrings:  43147
+ 
+Symbols:
++ -[HUCameraEventRecordingCell description]
++ -[HUHomeHubMigrationOnboardingFlow didShowAppleTVUpdate]
++ -[HUHomeHubMigrationOnboardingFlow didShowHomePodUpdate]
++ -[HUHomeHubMigrationOnboardingFlow setDidShowAppleTVUpdate:]
++ -[HUHomeHubMigrationOnboardingFlow setDidShowHomePodUpdate:]
++ -[HUHomeHubUpdateHomePodsViewController _allHomesCanSupportHH2Migration]
++ -[HUServiceDetailsItemManager _prebuiltSectionForIdentifier:]
++ -[HUWallpaperView initWithFrame:parentViewController:]
++ -[UIViewController(HUPresentation) hu_presentViewController:animated:completion:]
++ _HFAnalyticsEventFieldNameAnySymptom
++ _HFAnalyticsEventFieldNameSymptomDHCPAcquisitionFailure
++ _HFAnalyticsEventFieldNameSymptomDNSServerOutage
++ _HFAnalyticsEventFieldNameSymptomInternetOutageController
++ _HFAnalyticsEventFieldNameSymptomInternetOutageHomeHub
++ _HFAnalyticsEventFieldNameSymptomMisconfigurationDoubleNAT
++ _HFAnalyticsEventFieldNameSymptomMisconfigurationMultipleNetworks
++ _HFAnalyticsEventFieldNameSymptomMisconfigurationPeerToPeer
++ _HFAnalyticsEventFieldNameSymptomMisconfigurationUnknown
++ _HFAnalyticsEventFieldNameSymptomWifiDisassociation
++ _OBJC_CLASS_$_HFEnergyAnalytics
++ _OBJC_IVAR_$_HUHomeHubMigrationOnboardingFlow._didShowAppleTVUpdate
++ _OBJC_IVAR_$_HUHomeHubMigrationOnboardingFlow._didShowHomePodUpdate
++ _OnboardingDisplayOption_UseFullScreen
++ __OBJC_$_CATEGORY_CLASS_METHODS_UIAlertController_$_HUAdditions
++ __OBJC_$_CATEGORY_CLASS_METHODS_UIViewController_$_HUCommonAlertController
++ __OBJC_$_CATEGORY_UIAlertController_$_HUAdditions
++ __OBJC_$_CATEGORY_UITableViewCell_$_HUAdditions
++ __OBJC_$_CATEGORY_UIViewController_$_HUCommonAlertController
++ __OBJC_$_CATEGORY_UIView_$_BuddyPinAutoLayout
++ __OBJC_$_CLASS_METHODS_UITableViewCell(HUAdditions|HUCheckmarkAdditions)
++ __OBJC_$_INSTANCE_METHODS_HUDashboardViewController(HomeUI|HomeUI1|HomeUI2|HomeUI3|HomeUI4|HomeUI5|HomeKitObjectPresenting|Observer|RoomSettingsNavigation|NavigationBar|Announce|ContextMenu|FilterBarPaletteHack|PPT)
++ __OBJC_$_INSTANCE_METHODS_UIAlertController(HUAdditions|HUPreloadingModalPresentation)
++ __OBJC_$_INSTANCE_METHODS_UINavigationController(HomeUI|HUPreloadingNavigationPresentation|HUModalPresentation|HUItemPresentationContainer)
++ __OBJC_$_INSTANCE_METHODS_UITableViewCell(HUAdditions|HUCheckmarkAdditions)
++ __OBJC_$_INSTANCE_METHODS_UIView(BuddyPinAutoLayout|HULayoutAnchorAdditions|HUGeometryAdditions)
++ __OBJC_$_INSTANCE_METHODS_UIViewController(HUCommonAlertController|HUPreloadingModalPresentation|HUPresentation|HUModalPresentation|HUItemPresentationContainer|PocketAdditions)
++ __OBJC_$_PROP_LIST_UITableViewCell_$_HUAdditions
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HMAudioAnalysisLastKnownEventSubscriberDelegate
++ __OBJC_CLASS_PROTOCOLS_$_HUDashboardViewController(HomeUI|HomeUI1|HomeUI2|HomeUI3|HomeUI4|HomeUI5|HomeKitObjectPresenting|Observer|RoomSettingsNavigation|NavigationBar|Announce|ContextMenu|FilterBarPaletteHack|PPT)
++ __OBJC_CLASS_PROTOCOLS_$_UIAlertController(HUAdditions|HUPreloadingModalPresentation)
++ __OBJC_CLASS_PROTOCOLS_$_UINavigationController(HomeUI|HUPreloadingNavigationPresentation|HUModalPresentation|HUItemPresentationContainer)
++ __OBJC_CLASS_PROTOCOLS_$_UIView(BuddyPinAutoLayout|HULayoutAnchorAdditions|HUGeometryAdditions)
++ __OBJC_CLASS_PROTOCOLS_$_UIViewController(HUCommonAlertController|HUPreloadingModalPresentation|HUPresentation|HUModalPresentation|HUItemPresentationContainer|PocketAdditions)
++ __PROTOCOL_HUHomeEnergyDashboardViewDelegate
++ __PROTOCOL_INSTANCE_METHODS_HUHomeEnergyDashboardViewDelegate
++ __PROTOCOL_METHOD_TYPES_HUHomeEnergyDashboardViewDelegate
++ ___101+[HUHomeFeatureOnboardingUtilities home:onboardAllFeaturesFromPresentingViewController:usageOptions:]_block_invoke.93
++ ___103+[HUHomeFeatureOnboardingUtilities home:onboardIdentifyVoiceFromPresentingViewController:usageOptions:]_block_invoke.45
++ ___106+[HUHomeFeatureOnboardingUtilities home:onboardFeaturesForKeyPaths:presentingViewController:usageOptions:]_block_invoke.94
++ ___106+[HUHomeFeatureOnboardingUtilities home:onboardHomeHub2FromPresentingViewController:devices:usageOptions:]_block_invoke.100
++ ___38-[HUCameraController cameraPickerMenu]_block_invoke.163
++ ___46-[HUBannerItemModuleController didSelectItem:]_block_invoke.144
++ ___46-[HUBannerItemModuleController didSelectItem:]_block_invoke.166
++ ___46-[HUBannerItemModuleController didSelectItem:]_block_invoke_2.147
++ ___46-[HUBannerItemModuleController didSelectItem:]_block_invoke_3.151
++ ___50-[HUClipScrubberDataSource _addDiffableDataSource]_block_invoke.17
++ ___50-[HUPinCodeDetailsViewController commitNewPinCode]_block_invoke.119
++ ___50-[HUPinCodeDetailsViewController commitNewPinCode]_block_invoke.140
++ ___50-[HUPinCodeDetailsViewController commitNewPinCode]_block_invoke.148
++ ___50-[HUPinCodeDetailsViewController commitNewPinCode]_block_invoke_2.138
++ ___53-[HUBannerItemModuleController upgradeCameraSelected]_block_invoke.206
++ ___53-[HUBannerItemModuleController upgradeCameraSelected]_block_invoke.212
++ ___55-[HUPinCodeDetailsViewController switchCell:didTurnOn:]_block_invoke.223
++ ___55-[HUPinCodeDetailsViewController switchCell:didTurnOn:]_block_invoke.224
++ ___55-[HUPinCodeDetailsViewController switchCell:didTurnOn:]_block_invoke.227
++ ___55-[HUPinCodeDetailsViewController switchCell:didTurnOn:]_block_invoke.233
++ ___55-[HUPinCodeDetailsViewController switchCell:didTurnOn:]_block_invoke.235
++ ___55-[HUPinCodeDetailsViewController switchCell:didTurnOn:]_block_invoke_2.225
++ ___55-[HUPinCodeDetailsViewController switchCell:didTurnOn:]_block_invoke_2.232
++ ___55-[HUPinCodeDetailsViewController switchCell:didTurnOn:]_block_invoke_2.236
++ ___57-[HUBannerItemModuleController fetchMediaAccountForHome:]_block_invoke.176
++ ___61-[HUCameraController _refreshClipCacheAndRefetchForClipUUID:]_block_invoke.148
++ ___61-[HUHomeHubUpdateHomePodsViewController _presentGenericError]_block_invoke.123
++ ___61-[HUServiceDetailsItemManager _prebuiltSectionForIdentifier:]_block_invoke
++ ___62-[HUPinCodeDetailsViewController textFieldDidEndEditing:item:]_block_invoke.169
++ ___63-[HUHomeHubMigrationOnboardingFlow _checkResidentStatusInHome:]_block_invoke.81
++ ___63-[HUHomeHubMigrationOnboardingFlow _checkResidentStatusInHome:]_block_invoke.91
++ ___63-[HUHomeHubMigrationOnboardingFlow _checkResidentStatusInHome:]_block_invoke_2.85
++ ___63-[HUHomeHubMigrationOnboardingFlow _checkResidentStatusInHome:]_block_invoke_3.86
++ ___66-[HUHomeHubUpdateHomePodsViewController _presentErrorWithMessage:]_block_invoke.126
++ ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.173
++ ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.192
++ ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.198
++ ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.203
++ ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.216
++ ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke_2.205
++ ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke_2.217
++ ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke_3.206
++ ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke_3.218
++ ___72-[HUHomeHubUpdateHomePodsViewController _allHomesCanSupportHH2Migration]_block_invoke
++ ___72-[HUHomeHubUpdateHomePodsViewController _allHomesCanSupportHH2Migration]_block_invoke.130
++ ___72-[HUHomeHubUpdateHomePodsViewController _allHomesCanSupportHH2Migration]_block_invoke.132
++ ___75+[HUHomeFeatureOnboardingUtilities checkSiriForiCloudEnabledPromptingUser:]_block_invoke.159
++ ___75+[HUHomeFeatureOnboardingUtilities checkSiriForiCloudEnabledPromptingUser:]_block_invoke.164
++ ___75+[HUHomeFeatureOnboardingUtilities checkSiriForiCloudEnabledPromptingUser:]_block_invoke.165
++ ___76+[HUHomeFeatureOnboardingUtilities checkVoiceProfileAvailabiltyForLanguage:]_block_invoke.216
++ ___76+[HUHomeFeatureOnboardingUtilities home:processHomeFeatureOnboarderResults:]_block_invoke.171
++ ___76+[HUHomeFeatureOnboardingUtilities home:processHomeFeatureOnboarderResults:]_block_invoke.178
++ ___76+[HUHomeFeatureOnboardingUtilities home:processHomeFeatureOnboarderResults:]_block_invoke_2.172
++ ___76+[HUHomeFeatureOnboardingUtilities home:processHomeFeatureOnboarderResults:]_block_invoke_2.179
++ ___86+[HUHomeFeatureOnboardingUtilities atLeastOneHomePodHasLanguageSettingsForHomeFuture:]_block_invoke.105
++ ___86+[HUHomeFeatureOnboardingUtilities atLeastOneHomePodHasLanguageSettingsForHomeFuture:]_block_invoke.106
++ ___86-[HUClipScrubberDataSource _snapshotForEvents:updatedIdentifiers:replacedIdentifiers:]_block_invoke.28
++ ___88+[HUHomeFeatureOnboardingUtilities presentAlertConfirmingTurningOfVoiceRecognitionFrom:]_block_invoke.129
++ ___88+[HUHomeFeatureOnboardingUtilities presentAlertConfirmingTurningOfVoiceRecognitionFrom:]_block_invoke.130
++ ___89+[HUHomeFeatureOnboardingUtilities presentAlertConfirmingTurningOffPersonalRequestsFrom:]_block_invoke.146
++ ___93+[HUHomeFeatureOnboardingUtilities home:onboardPersonalRequestsFromPresentingViewController:]_block_invoke.35
++ ___block_descriptor_32_e26_16?0"HMResidentDevice"8l
++ ___block_descriptor_40_e8_32s_e26_v16?0"HMResidentDevice"8ls32l8
++ ___block_descriptor_49_e8_32s_e23_v16?0"UIAlertAction"8ls32l8
++ ___block_literal_global.150
++ ___block_literal_global.182
++ _flat unique So33HUHomeEnergyDashboardViewDelegate_p
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyAA012_ConditionalD0VyAEyAGyACyACyAA10AsyncImageVyACyACyAA0J0VAA18_AspectRatioLayoutVGAA31AccessibilityAttachmentModifierVGSgGAA11_ClipEffectVyAA16RoundedRectangleVGGAA06_FrameM0VG_AA6VStackVyAGyAA4TextV_A6_SgtGGtGGA4_yAGyAEyAGyA2__A6_tGG_A7_tGGG_AA6SpacerVACyACyAA0G0PAAE10fontWeightyQrAA4FontV0Z0VSgFQOyACyACyAmA016_ForegroundStyleP0VyAA5ColorVGGAA022_EnvironmentKeyWritingP0VyA23_SgGG_Qo_AA08_OpacityR0VGARGtGGARGAAA19_HPA44_AAA19_HPyHC_ArA0gP0HPyHCHC.78
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA7SectionVyAA4TextVAA7ForEachVySay4Home7HFEventVGSS0iB019ActivityLogListCellVGAA9EmptyViewVGAA13_TaskModifierVGAA0P0HPAtaXHPAgaXHPyHC_AqaXHPApaXHPyHC_HCAsaXHPyHCHC_AvA0pR0HPyHCHC.14
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA6SpacerV_AA08ProgressE0VyAA05EmptyE0VAKGAGtGGAA0E0HPyHC.13
++ _get_witness_table 7SwiftUI9TupleViewVyAA15ModifiedContentVyAEyAA4TextVAA23SafeAreaPaddingModifierVGAA027_EnvironmentBackgroundStyleK0VyAA0mN0VGGSg_AqEyAEyAA0D0PAAE04listN0yQrqd__AA04ListN0Rd__lFQOyAA0P0Vys5NeverOACyAA7ForEachVySay10Foundation4DateVGA2_04HomeB018ActivityLogSection33_8830C853C26C0CBC79367E773C2849B7LLVG_AA6IDViewVyA4_11SpinnerCellA6_LLVA0_4UUIDVGSgtGG_AA012InsetGroupedpN0VQo_AA010_AnimationK0VySDyA2_Say0V07HFEventVGGGGAA01_l10KeyWritingK0VyA24_0wX11CoordinatorCSgGGtGAaRHPyHC.1
++ _objc_msgSend$_allHomesCanSupportHH2Migration
++ _objc_msgSend$_prebuiltSectionForIdentifier:
++ _objc_msgSend$didShowAppleTVUpdate
++ _objc_msgSend$didShowHomePodUpdate
++ _objc_msgSend$hf_configureTextViewForTextLists:
++ _objc_msgSend$hf_isFirstPartyAccessory
++ _objc_msgSend$hu_presentViewController:animated:completion:
++ _objc_msgSend$initWithFrame:parentViewController:
++ _objc_msgSend$noResponseErrorStringForType:date:currentDate:batteryStatus:
++ _objc_msgSend$setDidShowAppleTVUpdate:
++ _objc_msgSend$setDidShowHomePodUpdate:
++ _objc_msgSend$updatePlaybackPositionToDate:withEvent:
++ _objectdestroy.19Tm
++ _objectdestroy.42Tm
++ _symbolic ______pSgXw 12HomeUICommon0A27EnergyDashboardViewDelegateP
++ _symbolic _____yAAy_____yAAyAAy__________y_____GG_____y_____SgGG_Qo______G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingL0V AH AA14_OpacityEffectV AA023AccessibilityAttachmentL0V
++ _symbolic _____y__________G 7SwiftUI22UIHostingConfigurationV 12HomeUICommon0E19EnergyDashboardViewV AA05EmptyI0V
++ _symbolic _____y___________y_____y_____yACy_____yAFy_____yAFyAFy__________G_____GSgG_____y_____GG_____G______yACy______AVSgtGGtGGAUyACyAEyACyAT_AVtGG_AWtGGG______AFyAFy_____yAFyAFyAH_____y_____GG_____y_____SgGG_Qo______GAKGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA19_ConditionalContentV AA0F0V AA08ModifiedJ0V AA10AsyncImageV AA0M0V AA012_AspectRatioG0V AA31AccessibilityAttachmentModifierV AA11_ClipEffectV AA16RoundedRectangleV AA06_FrameG0V AA6VStackV AA4TextV AA6SpacerV AA0D0PAAE10fontWeightyQrAA4FontV6WeightVSgFQO AA016_ForegroundStyleR0V AA5ColorV AA022_EnvironmentKeyWritingR0V A12_ AA08_OpacityT0V
++ _symbolic _____y_____y_____yAAyABy_____yADy_____yADyADy__________G_____GSgG_____y_____GG_____G______yABy______ATSgtGGtGGASyAByAAyAByAR_ATtGG_AUtGGG______ADyADy_____yADyADyAF_____y_____GG_____y_____SgGG_Qo______GAIGtGG 7SwiftUI6HStackV AA9TupleViewV AA19_ConditionalContentV AA08ModifiedG0V AA10AsyncImageV AA0J0V AA18_AspectRatioLayoutV AA31AccessibilityAttachmentModifierV AA11_ClipEffectV AA16RoundedRectangleV AA06_FrameM0V AA6VStackV AA4TextV AA6SpacerV AA0E0PAAE10fontWeightyQrAA4FontV0Z0VSgFQO AA016_ForegroundStyleP0V AA5ColorV AA022_EnvironmentKeyWritingP0V A6_ AA08_OpacityR0V
++ _symbolic _____y_____y_____y_____yAByACyAAyAAy_____yAAyAAy__________G_____GSgG_____y_____GG_____G______yACy______ATSgtGGtGGASyACyAByACyAR_ATtGG_AUtGGG______AAyAAy_____yAAyAAyAF_____y_____GG_____y_____SgGG_Qo______GAIGtGGAIG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalD0V AA10AsyncImageV AA0J0V AA18_AspectRatioLayoutV AA31AccessibilityAttachmentModifierV AA11_ClipEffectV AA16RoundedRectangleV AA06_FrameM0V AA6VStackV AA4TextV AA6SpacerV AA0G0PAAE10fontWeightyQrAA4FontV0Z0VSgFQO AA016_ForegroundStyleP0V AA5ColorV AA022_EnvironmentKeyWritingP0V A6_ AA08_OpacityR0V
++ _symbolic _____y_____y_____y_____yADy_____yADyADy__________G_____GSgG_____y_____GG_____G______yACy______ATSgtGGtGGASyACyAByACyAR_ATtGG_AUtGGG______ADyADy_____yADyADyAF_____y_____GG_____y_____SgGG_Qo______GAIGt 7SwiftUI19_ConditionalContentV AA6HStackV AA9TupleViewV AA08ModifiedD0V AA10AsyncImageV AA0J0V AA18_AspectRatioLayoutV AA31AccessibilityAttachmentModifierV AA11_ClipEffectV AA16RoundedRectangleV AA06_FrameM0V AA6VStackV AA4TextV AA6SpacerV AA0G0PAAE10fontWeightyQrAA4FontV0Z0VSgFQO AA016_ForegroundStyleP0V AA5ColorV AA022_EnvironmentKeyWritingP0V A6_ AA08_OpacityR0V
++ _type_layout_string So28HUDashboardSectionIdentifiera
+- +[HUEnergyAnalytics getUTFAnalyticsEventTypeFrom:]
+- +[HUEnergyAnalytics saveTapEvent:withInteractionType:]
+- +[HUEnergyAnalytics saveViewAccessedFromURLEvent:deepLinkFrom:]
+- +[HUEnergyAnalytics saveViewDurationEvent:withDuration:]
+- +[HUEnergyAnalytics saveViewDurationEvent:withDuration:withUserHasAccessories:]
+- +[HUEnergyAnalytics saveViewVisitEvent:]
+- +[HUEnergyAnalytics saveViewVisitEvent:withData:]
+- +[HUEnergyAnalytics saveViewVisitEvent:withState:]
+- +[HUEnergyAnalytics saveWidgetSettingsEvent:withLocation:]
+- +[HUEnergyAnalytics sendEnergyWindowsToUTFFromData:]
+- +[HUEnergyAnalytics sendToUTFWithData:withSubsystem:withCategory:]
+- -[HUCameraController diagnosticsController]
+- -[HUCameraController setDiagnosticsController:]
+- -[HUClipScrubberDataSource setSnapshotQueue:]
+- -[HUClipScrubberDataSource snapshotQueue]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController .cxx_destruct]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController cameraClip]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController eventTableView]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController initWithCameraClip:]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController numberOfSectionsInTableView:]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController setCameraClip:]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController setEventTableView:]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController tableView:cellForRowAtIndexPath:]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController tableView:numberOfRowsInSection:]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController viewDidLoad]
+- -[HUDiagnosticsCameraClipViewController .cxx_destruct]
+- -[HUDiagnosticsCameraClipViewController cameraClip]
+- -[HUDiagnosticsCameraClipViewController cameraProfile]
+- -[HUDiagnosticsCameraClipViewController eventTableView]
+- -[HUDiagnosticsCameraClipViewController initWithRecordingEvent:cameraProfile:]
+- -[HUDiagnosticsCameraClipViewController numberOfSectionsInTableView:]
+- -[HUDiagnosticsCameraClipViewController setCameraClip:]
+- -[HUDiagnosticsCameraClipViewController setCameraProfile:]
+- -[HUDiagnosticsCameraClipViewController setEventTableView:]
+- -[HUDiagnosticsCameraClipViewController tableView:cellForRowAtIndexPath:]
+- -[HUDiagnosticsCameraClipViewController tableView:didSelectRowAtIndexPath:]
+- -[HUDiagnosticsCameraClipViewController tableView:numberOfRowsInSection:]
+- -[HUDiagnosticsCameraClipViewController viewDidLoad]
+- -[HUDiagnosticsCameraPlayerController .cxx_destruct]
+- -[HUDiagnosticsCameraPlayerController cameraPlayerViewController]
+- -[HUDiagnosticsCameraPlayerController cameraProfile]
+- -[HUDiagnosticsCameraPlayerController clipScrubberDataSource]
+- -[HUDiagnosticsCameraPlayerController contextMenuInteraction:configurationForMenuAtLocation:]
+- -[HUDiagnosticsCameraPlayerController diagnosticsView]
+- -[HUDiagnosticsCameraPlayerController dismissDetailsViewController]
+- -[HUDiagnosticsCameraPlayerController dismissDiagnosticDetails]
+- -[HUDiagnosticsCameraPlayerController displayDiagnosticDetails]
+- -[HUDiagnosticsCameraPlayerController displayTimelapseDetails]
+- -[HUDiagnosticsCameraPlayerController initWithCameraPlayerViewController:playbackEngine:clipScrubberDataSource:cameraProfile:]
+- -[HUDiagnosticsCameraPlayerController launchPlaybackEngineDiagnosticsView]
+- -[HUDiagnosticsCameraPlayerController playbackEngine]
+- -[HUDiagnosticsCameraPlayerController setCameraPlayerViewController:]
+- -[HUDiagnosticsCameraPlayerController setCameraProfile:]
+- -[HUDiagnosticsCameraPlayerController setClipScrubberDataSource:]
+- -[HUDiagnosticsCameraPlayerController setDiagnosticsView:]
+- -[HUDiagnosticsCameraPlayerController setPlaybackEngine:]
+- -[HUDiagnosticsCameraPlayerController updateWithPlaybackEngine:]
+- -[HUDiagnosticsCameraTimelineView .cxx_destruct]
+- -[HUDiagnosticsCameraTimelineView cameraStatusLabel]
+- -[HUDiagnosticsCameraTimelineView currentEventLabel]
+- -[HUDiagnosticsCameraTimelineView currentPositionLabel]
+- -[HUDiagnosticsCameraTimelineView currentTimelineStateLabel]
+- -[HUDiagnosticsCameraTimelineView initWithFrame:]
+- -[HUDiagnosticsCameraTimelineView moreButton]
+- -[HUDiagnosticsCameraTimelineView setCameraStatusLabel:]
+- -[HUDiagnosticsCameraTimelineView setCurrentEventLabel:]
+- -[HUDiagnosticsCameraTimelineView setCurrentPositionLabel:]
+- -[HUDiagnosticsCameraTimelineView setCurrentTimelineStateLabel:]
+- -[HUDiagnosticsCameraTimelineView setMoreButton:]
+- -[HUDiagnosticsCameraTimelineView updateWithPlaybackEngine:]
+- -[HUDiagnosticsReachabilityEventViewController .cxx_destruct]
+- -[HUDiagnosticsReachabilityEventViewController cameraProfile]
+- -[HUDiagnosticsReachabilityEventViewController container]
+- -[HUDiagnosticsReachabilityEventViewController eventTableView]
+- -[HUDiagnosticsReachabilityEventViewController initWithReachabilityEvent:cameraProfile:]
+- -[HUDiagnosticsReachabilityEventViewController numberOfSectionsInTableView:]
+- -[HUDiagnosticsReachabilityEventViewController setCameraProfile:]
+- -[HUDiagnosticsReachabilityEventViewController setContainer:]
+- -[HUDiagnosticsReachabilityEventViewController setEventTableView:]
+- -[HUDiagnosticsReachabilityEventViewController tableView:cellForRowAtIndexPath:]
+- -[HUDiagnosticsReachabilityEventViewController tableView:didSelectRowAtIndexPath:]
+- -[HUDiagnosticsReachabilityEventViewController tableView:numberOfRowsInSection:]
+- -[HUDiagnosticsReachabilityEventViewController viewDidLoad]
+- -[HUServiceDetailsItemManager _characteristicSectionForIdentifier:]
+- -[HUWallpaperView initWithFrame:]
+- _HEUIAnalyticsAdviceTextKey
+- _HEUIAnalyticsEnergyDashboardDoublePaneEnabledKey
+- _HEUIAnalyticsEnergyWindowEndTimeKey
+- _HEUIAnalyticsEnergyWindowStartTimeKey
+- _HEUIAnalyticsEnergyWindowsKey
+- _HEUIAnalyticsGridIDKey
+- _HEUIAnalyticsHomeEnergyStateKey
+- _HFAnalyticsEducationTipViewStateKey
+- _HFAnalyticsEnergyCategoryViewAccessedFromURLKey
+- _HFAnalyticsEnergyCategoryViewDurationKey
+- _HFAnalyticsEnergyCategoryViewUserHasAccessoriesKey
+- _HFAnalyticsEnergyDashboardDoublePaneEnabledKey
+- _HFAnalyticsEnergyDashboardStatusKey
+- _HFAnalyticsEnergyForecastGridIDKey
+- _HFAnalyticsEnergyIndicatorAdviceTextKey
+- _HFAnalyticsEnergyModelInformationSheetViewDurationKey
+- _HFAnalyticsEnergyWidgetAndComplicationLocationSettingKey
+- _HUBaseColorDarkBlue
+- _HUBaseColorDarkGreen
+- _HUBaseColorLightBlue
+- _HUBaseColorLightGreen
+- _HUBaseColorOrange
+- _HUBaseColorRed
+- _HUCameraSignificantEventsBrowserCellIdentifier
+- _HUDiagnosticsHomeKitSettingsPath
+- _HUDiagnosticsHomeSettingsPath
+- _HUDiagnosticsReachabilityEventCellIdentifier
+- _HUDiagnosticsRecordingCellEventIdentifier
+- _OBJC_CLASS_$_AVURLAsset
+- _OBJC_CLASS_$_HUDiagnosticsCameraClipSignificantEventsViewController
+- _OBJC_CLASS_$_HUDiagnosticsCameraClipViewController
+- _OBJC_CLASS_$_HUDiagnosticsCameraPlayerController
+- _OBJC_CLASS_$_HUDiagnosticsCameraTimelineView
+- _OBJC_CLASS_$_HUDiagnosticsReachabilityEventViewController
+- _OBJC_CLASS_$_HUEnergyAnalytics
+- _OBJC_CLASS_$_HUHomeEnergyEducationalPanelViewController
+- _OBJC_CLASS_$_NSNull
+- _OBJC_CLASS_$_UIContextMenuInteraction
+- _OBJC_IVAR_$_HUCameraController._diagnosticsController
+- _OBJC_IVAR_$_HUClipScrubberDataSource._snapshotQueue
+- _OBJC_IVAR_$_HUDiagnosticsCameraPlayerController._cameraPlayerViewController
+- _OBJC_IVAR_$_HUDiagnosticsCameraPlayerController._cameraProfile
+- _OBJC_IVAR_$_HUDiagnosticsCameraPlayerController._clipScrubberDataSource
+- _OBJC_IVAR_$_HUDiagnosticsCameraPlayerController._diagnosticsView
+- _OBJC_IVAR_$_HUDiagnosticsCameraPlayerController._playbackEngine
+- _OBJC_METACLASS_$_HUDiagnosticsCameraClipSignificantEventsViewController
+- _OBJC_METACLASS_$_HUDiagnosticsCameraClipViewController
+- _OBJC_METACLASS_$_HUDiagnosticsCameraPlayerController
+- _OBJC_METACLASS_$_HUDiagnosticsCameraTimelineView
+- _OBJC_METACLASS_$_HUDiagnosticsReachabilityEventViewController
+- _OBJC_METACLASS_$_HUEnergyAnalytics
+- _OBJC_METACLASS_$_HUHomeEnergyEducationalPanelViewController
+- _PPSCreateTelemetryIdentifier
+- _PPSSendTelemetry
+- _UTFAnalyticsCategoryHomeAppCleanEnergyForecastKey
+- _UTFAnalyticsCategoryHomeAppUIInteractionsKey
+- _UTFAnalyticsPayloadKeyEnergyForecastGridIDKey
+- _UTFAnalyticsPayloadKeyEnergyForecastStatusKey
+- _UTFAnalyticsPayloadKeyEnergyForecastWindowEndKey
+- _UTFAnalyticsPayloadKeyEnergyForecastWindowStartKey
+- _UTFAnalyticsPayloadKeyEventType
+- _UTFAnalyticsPayloadKeyViewState
+- _UTFAnalyticsSubsystemHomeEnergyKey
+- __DATA_HUHomeEnergyEducationalPanelViewController
+- __INSTANCE_METHODS_HUHomeEnergyEducationalPanelViewController
+- __IVARS_HUHomeEnergyEducationalPanelViewController
+- __METACLASS_DATA_HUHomeEnergyEducationalPanelViewController
+- __OBJC_$_CATEGORY_CLASS_METHODS_UITableViewCell_$_HUCheckmarkAdditions
+- __OBJC_$_CATEGORY_UIAlertController_$_HUPreloadingModalPresentation
+- __OBJC_$_CATEGORY_UITableViewCell_$_HUCheckmarkAdditions
+- __OBJC_$_CATEGORY_UIViewController_$_HUPresentation
+- __OBJC_$_CATEGORY_UIView_$_HUGeometryAdditions
+- __OBJC_$_CLASS_METHODS_HUEnergyAnalytics
+- __OBJC_$_CLASS_METHODS_UIAlertController(HUPreloadingModalPresentation|HUAdditions)
+- __OBJC_$_CLASS_METHODS_UIViewController(HUPresentation|HUPreloadingModalPresentation|HUCommonAlertController|HUItemPresentationContainer|PocketAdditions|HUModalPresentation)
+- __OBJC_$_INSTANCE_METHODS_HUDashboardViewController(HomeUI|HomeUI1|HomeUI2|HomeUI3|HomeUI4|HomeUI5|PPT|HomeKitObjectPresenting|Observer|RoomSettingsNavigation|NavigationBar|Announce|ContextMenu|FilterBarPaletteHack)
+- __OBJC_$_INSTANCE_METHODS_HUDiagnosticsCameraClipSignificantEventsViewController
+- __OBJC_$_INSTANCE_METHODS_HUDiagnosticsCameraClipViewController
+- __OBJC_$_INSTANCE_METHODS_HUDiagnosticsCameraPlayerController
+- __OBJC_$_INSTANCE_METHODS_HUDiagnosticsCameraTimelineView
+- __OBJC_$_INSTANCE_METHODS_HUDiagnosticsReachabilityEventViewController
+- __OBJC_$_INSTANCE_METHODS_UIAlertController(HUPreloadingModalPresentation|HUAdditions)
+- __OBJC_$_INSTANCE_METHODS_UINavigationController(HomeUI|HUPreloadingNavigationPresentation|HUItemPresentationContainer|HUModalPresentation)
+- __OBJC_$_INSTANCE_METHODS_UITableViewCell(HUCheckmarkAdditions|HUAdditions)
+- __OBJC_$_INSTANCE_METHODS_UIView(HUGeometryAdditions|HULayoutAnchorAdditions|BuddyPinAutoLayout)
+- __OBJC_$_INSTANCE_METHODS_UIViewController(HUPresentation|HUPreloadingModalPresentation|HUCommonAlertController|HUItemPresentationContainer|PocketAdditions|HUModalPresentation)
+- __OBJC_$_INSTANCE_VARIABLES_HUDiagnosticsCameraClipSignificantEventsViewController
+- __OBJC_$_INSTANCE_VARIABLES_HUDiagnosticsCameraClipViewController
+- __OBJC_$_INSTANCE_VARIABLES_HUDiagnosticsCameraPlayerController
+- __OBJC_$_INSTANCE_VARIABLES_HUDiagnosticsCameraTimelineView
+- __OBJC_$_INSTANCE_VARIABLES_HUDiagnosticsReachabilityEventViewController
+- __OBJC_$_PROP_LIST_HUDiagnosticsCameraClipSignificantEventsViewController
+- __OBJC_$_PROP_LIST_HUDiagnosticsCameraClipViewController
+- __OBJC_$_PROP_LIST_HUDiagnosticsCameraPlayerController
+- __OBJC_$_PROP_LIST_HUDiagnosticsCameraTimelineView
+- __OBJC_$_PROP_LIST_HUDiagnosticsReachabilityEventViewController
+- __OBJC_$_PROP_LIST_UIAlertController_$_HUPreloadingModalPresentation
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIContextMenuInteractionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UIContextMenuInteractionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIContextMenuInteractionDelegate
+- __OBJC_$_PROTOCOL_REFS_UIContextMenuInteractionDelegate
+- __OBJC_CATEGORY_PROTOCOLS_$_UIAlertController_$_HUPreloadingModalPresentation
+- __OBJC_CLASS_PROTOCOLS_$_HUDashboardViewController(HomeUI|HomeUI1|HomeUI2|HomeUI3|HomeUI4|HomeUI5|PPT|HomeKitObjectPresenting|Observer|RoomSettingsNavigation|NavigationBar|Announce|ContextMenu|FilterBarPaletteHack)
+- __OBJC_CLASS_PROTOCOLS_$_HUDiagnosticsCameraClipSignificantEventsViewController
+- __OBJC_CLASS_PROTOCOLS_$_HUDiagnosticsCameraClipViewController
+- __OBJC_CLASS_PROTOCOLS_$_HUDiagnosticsCameraPlayerController
+- __OBJC_CLASS_PROTOCOLS_$_HUDiagnosticsReachabilityEventViewController
+- __OBJC_CLASS_PROTOCOLS_$_UINavigationController(HomeUI|HUPreloadingNavigationPresentation|HUItemPresentationContainer|HUModalPresentation)
+- __OBJC_CLASS_PROTOCOLS_$_UIView(HUGeometryAdditions|HULayoutAnchorAdditions|BuddyPinAutoLayout)
+- __OBJC_CLASS_PROTOCOLS_$_UIViewController(HUPresentation|HUPreloadingModalPresentation|HUCommonAlertController|HUItemPresentationContainer|PocketAdditions|HUModalPresentation)
+- __OBJC_CLASS_RO_$_HUDiagnosticsCameraClipSignificantEventsViewController
+- __OBJC_CLASS_RO_$_HUDiagnosticsCameraClipViewController
+- __OBJC_CLASS_RO_$_HUDiagnosticsCameraPlayerController
+- __OBJC_CLASS_RO_$_HUDiagnosticsCameraTimelineView
+- __OBJC_CLASS_RO_$_HUDiagnosticsReachabilityEventViewController
+- __OBJC_CLASS_RO_$_HUEnergyAnalytics
+- __OBJC_LABEL_PROTOCOL_$_UIContextMenuInteractionDelegate
+- __OBJC_METACLASS_RO_$_HUDiagnosticsCameraClipSignificantEventsViewController
+- __OBJC_METACLASS_RO_$_HUDiagnosticsCameraClipViewController
+- __OBJC_METACLASS_RO_$_HUDiagnosticsCameraPlayerController
+- __OBJC_METACLASS_RO_$_HUDiagnosticsCameraTimelineView
+- __OBJC_METACLASS_RO_$_HUDiagnosticsReachabilityEventViewController
+- __OBJC_METACLASS_RO_$_HUEnergyAnalytics
+- __OBJC_PROTOCOL_$_UIContextMenuInteractionDelegate
+- __PROTOCOL_HUEnergyDashboardItemModuleControllerDelegate
+- __PROTOCOL_INSTANCE_METHODS_HUEnergyDashboardItemModuleControllerDelegate
+- __PROTOCOL_METHOD_TYPES_HUEnergyDashboardItemModuleControllerDelegate
+- ___101+[HUHomeFeatureOnboardingUtilities home:onboardAllFeaturesFromPresentingViewController:usageOptions:]_block_invoke.90
+- ___103+[HUHomeFeatureOnboardingUtilities home:onboardIdentifyVoiceFromPresentingViewController:usageOptions:]_block_invoke.42
+- ___106+[HUHomeFeatureOnboardingUtilities home:onboardFeaturesForKeyPaths:presentingViewController:usageOptions:]_block_invoke.91
+- ___106+[HUHomeFeatureOnboardingUtilities home:onboardHomeHub2FromPresentingViewController:devices:usageOptions:]_block_invoke.97
+- ___38-[HUCameraController cameraPickerMenu]_block_invoke.165
+- ___46-[HUBannerItemModuleController didSelectItem:]_block_invoke.143
+- ___46-[HUBannerItemModuleController didSelectItem:]_block_invoke.165
+- ___46-[HUBannerItemModuleController didSelectItem:]_block_invoke_2.146
+- ___46-[HUBannerItemModuleController didSelectItem:]_block_invoke_3.150
+- ___50-[HUClipScrubberDataSource _addDiffableDataSource]_block_invoke.18
+- ___50-[HUPinCodeDetailsViewController commitNewPinCode]_block_invoke.41
+- ___50-[HUPinCodeDetailsViewController commitNewPinCode]_block_invoke.62
+- ___50-[HUPinCodeDetailsViewController commitNewPinCode]_block_invoke.70
+- ___50-[HUPinCodeDetailsViewController commitNewPinCode]_block_invoke_2.60
+- ___53-[HUBannerItemModuleController upgradeCameraSelected]_block_invoke.205
+- ___53-[HUBannerItemModuleController upgradeCameraSelected]_block_invoke.211
+- ___53-[HUClipScrubberDataSource _updateSnapshotForEditing]_block_invoke
+- ___55-[HUPinCodeDetailsViewController switchCell:didTurnOn:]_block_invoke.145
+- ___55-[HUPinCodeDetailsViewController switchCell:didTurnOn:]_block_invoke.146
+- ___55-[HUPinCodeDetailsViewController switchCell:didTurnOn:]_block_invoke.149
+- ___55-[HUPinCodeDetailsViewController switchCell:didTurnOn:]_block_invoke.155
+- ___55-[HUPinCodeDetailsViewController switchCell:didTurnOn:]_block_invoke.157
+- ___55-[HUPinCodeDetailsViewController switchCell:didTurnOn:]_block_invoke_2.147
+- ___55-[HUPinCodeDetailsViewController switchCell:didTurnOn:]_block_invoke_2.154
+- ___55-[HUPinCodeDetailsViewController switchCell:didTurnOn:]_block_invoke_2.158
+- ___57-[HUBannerItemModuleController fetchMediaAccountForHome:]_block_invoke.175
+- ___61-[HUCameraController _refreshClipCacheAndRefetchForClipUUID:]_block_invoke.150
+- ___61-[HUHomeHubUpdateHomePodsViewController _presentGenericError]_block_invoke.113
+- ___62-[HUPinCodeDetailsViewController textFieldDidEndEditing:item:]_block_invoke.91
+- ___63-[HUHomeHubMigrationOnboardingFlow _checkResidentStatusInHome:]_block_invoke.78
+- ___63-[HUHomeHubMigrationOnboardingFlow _checkResidentStatusInHome:]_block_invoke_2.82
+- ___66+[HUEnergyAnalytics sendToUTFWithData:withSubsystem:withCategory:]_block_invoke
+- ___66+[HUEnergyAnalytics sendToUTFWithData:withSubsystem:withCategory:]_block_invoke_2
+- ___66-[HUHomeHubUpdateHomePodsViewController _presentErrorWithMessage:]_block_invoke.116
+- ___67-[HUServiceDetailsItemManager _characteristicSectionForIdentifier:]_block_invoke
+- ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.114
+- ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.120
+- ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.125
+- ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.138
+- ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.95
+- ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke_2.127
+- ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke_2.139
+- ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke_3.128
+- ___68-[HUPinCodeDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke_3.140
+- ___75+[HUHomeFeatureOnboardingUtilities checkSiriForiCloudEnabledPromptingUser:]_block_invoke.156
+- ___75+[HUHomeFeatureOnboardingUtilities checkSiriForiCloudEnabledPromptingUser:]_block_invoke.161
+- ___75+[HUHomeFeatureOnboardingUtilities checkSiriForiCloudEnabledPromptingUser:]_block_invoke.162
+- ___76+[HUHomeFeatureOnboardingUtilities checkVoiceProfileAvailabiltyForLanguage:]_block_invoke.213
+- ___76+[HUHomeFeatureOnboardingUtilities home:processHomeFeatureOnboarderResults:]_block_invoke.165
+- ___76+[HUHomeFeatureOnboardingUtilities home:processHomeFeatureOnboarderResults:]_block_invoke.172
+- ___76+[HUHomeFeatureOnboardingUtilities home:processHomeFeatureOnboarderResults:]_block_invoke_2.169
+- ___76+[HUHomeFeatureOnboardingUtilities home:processHomeFeatureOnboarderResults:]_block_invoke_2.173
+- ___86+[HUHomeFeatureOnboardingUtilities atLeastOneHomePodHasLanguageSettingsForHomeFuture:]_block_invoke.102
+- ___86+[HUHomeFeatureOnboardingUtilities atLeastOneHomePodHasLanguageSettingsForHomeFuture:]_block_invoke.103
+- ___86-[HUClipScrubberDataSource _snapshotForEvents:updatedIdentifiers:replacedIdentifiers:]_block_invoke.31
+- ___86-[HUClipScrubberDataSource _updateSnapshotWithUpdatedIdentifiers:replacedIdentifiers:]_block_invoke
+- ___88+[HUHomeFeatureOnboardingUtilities presentAlertConfirmingTurningOfVoiceRecognitionFrom:]_block_invoke.126
+- ___88+[HUHomeFeatureOnboardingUtilities presentAlertConfirmingTurningOfVoiceRecognitionFrom:]_block_invoke.127
+- ___89+[HUHomeFeatureOnboardingUtilities presentAlertConfirmingTurningOffPersonalRequestsFrom:]_block_invoke.140
+- ___93+[HUHomeFeatureOnboardingUtilities home:onboardPersonalRequestsFromPresentingViewController:]_block_invoke.32
+- ___93-[HUDiagnosticsCameraPlayerController contextMenuInteraction:configurationForMenuAtLocation:]_block_invoke
+- ___93-[HUDiagnosticsCameraPlayerController contextMenuInteraction:configurationForMenuAtLocation:]_block_invoke_2
+- ___93-[HUDiagnosticsCameraPlayerController contextMenuInteraction:configurationForMenuAtLocation:]_block_invoke_3
+- ___93-[HUDiagnosticsCameraPlayerController contextMenuInteraction:configurationForMenuAtLocation:]_block_invoke_4
+- ___block_descriptor_40_e8_32w_e25_"UIMenu"16?0"NSArray"8lw32l8
+- ___block_literal_global.148
+- ___block_literal_global.157
+- ___block_literal_global.159
+- ___block_literal_global.179
+- ___block_literal_global.270
+- ___block_literal_global.72
+- ___swift_mutable_project_boxed_opaque_existential_0
+- _associated conformance 6HomeUI28EducationPanelViewControllerV05SwiftB006UIViewF13RepresentableAaD0E0
+- _associated conformance 6HomeUI28EducationPanelViewControllerV05SwiftB00E0AA4BodyAdEP_AdE
+- _associated conformance 6HomeUI35EnergyDashboardItemModuleControllerC11ContentViewV05SwiftB00I0AA4BodyAfGP_AfG
+- _flat unique So45HUEnergyDashboardItemModuleControllerDelegate_p
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyAA012_ConditionalD0VyAEyAGyACyACyAA10AsyncImageVyACyACyAA0J0VAA18_AspectRatioLayoutVGAA31AccessibilityAttachmentModifierVGSgGAA11_ClipEffectVyAA16RoundedRectangleVGGAA06_FrameM0VG_AA6VStackVyAGyAA4TextV_A6_SgtGGtGGA4_yAGyAEyAGyA2__A6_tGG_A7_tGGG_AA6SpacerVACyAA0G0PAAE10fontWeightyQrAA4FontV0Z0VSgFQOyACyACyAmA016_ForegroundStyleP0VyAA5ColorVGGAA022_EnvironmentKeyWritingP0VyA23_SgGG_Qo_AA08_OpacityR0VGtGGARGAAA19_HPA43_AAA19_HPyHC_ArA0gP0HPyHCHC.77
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA7SectionVyAA4TextVAA7ForEachVySay4Home7HFEventVGSS0iB019ActivityLogListCellVGAA9EmptyViewVGAA13_TaskModifierVGAA0P0HPAtaXHPAgaXHPyHC_AqaXHPApaXHPyHC_HCAsaXHPyHCHC_AvA0pR0HPyHCHC.13
+- _get_witness_table 7SwiftUI16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVACyAhA15ModifiedContentVyAA6VStackVyAA05TupleD0VyAA03AnyD0VSg_010HomeEnergyB0020UtilityUsageAndRatesD0VSgtGGAA25_AppearanceActionModifierVGGGAA0D0HPyHC.44
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA6SpacerV_AA08ProgressE0VyAA05EmptyE0VAKGAGtGGAA0E0HPyHC.14
+- _get_witness_table 7SwiftUI9TupleViewVyAA15ModifiedContentVyAEyAA4TextVAA23SafeAreaPaddingModifierVGAA027_EnvironmentBackgroundStyleK0VyAA0mN0VGGSg_AqEyAEyAA0D0PAAE04listN0yQrqd__AA04ListN0Rd__lFQOyAA0P0Vys5NeverOACyAA7ForEachVySay10Foundation4DateVGA2_04HomeB018ActivityLogSection33_8830C853C26C0CBC79367E773C2849B7LLVG_AA6IDViewVyA4_11SpinnerCellA6_LLVA0_4UUIDVGSgtGG_AA012InsetGroupedpN0VQo_AA010_AnimationK0VySDyA2_Say0V07HFEventVGGGGAA01_l10KeyWritingK0VyA24_0wX11CoordinatorCSgGGtGAaRHPyHC.7
+- _objc_msgSend$_characteristicSectionForIdentifier:
+- _objc_msgSend$cameraPlayerViewController
+- _objc_msgSend$cameraStatusLabel
+- _objc_msgSend$clipPlayer
+- _objc_msgSend$clipScrubberDataSource
+- _objc_msgSend$currentEventLabel
+- _objc_msgSend$currentPositionLabel
+- _objc_msgSend$currentTimelineStateLabel
+- _objc_msgSend$diagnosticsController
+- _objc_msgSend$diagnosticsView
+- _objc_msgSend$eventTableView
+- _objc_msgSend$getUTFAnalyticsEventTypeFrom:
+- _objc_msgSend$initWithCameraPlayerViewController:playbackEngine:clipScrubberDataSource:cameraProfile:
+- _objc_msgSend$initWithReachabilityEvent:cameraProfile:
+- _objc_msgSend$initWithRecordingEvent:cameraProfile:
+- _objc_msgSend$launchPlaybackEngineDiagnosticsView
+- _objc_msgSend$noResponseErrorDescriptionString:
+- _objc_msgSend$null
+- _objc_msgSend$resourceLoader
+- _objc_msgSend$sendEnergyWindowsToUTFFromData:
+- _objc_msgSend$sendToUTFWithData:withSubsystem:withCategory:
+- _objc_msgSend$setDiagnosticsController:
+- _objc_msgSend$setDiagnosticsView:
+- _objc_msgSend$shouldDisplayInternalViews
+- _objc_msgSend$snapshotQueue
+- _objc_msgSend$startEvent
+- _objc_msgSend$targetFragmentDuration
+- _objc_msgSend$updatePlaybackPositionToDate:usingClip:
+- _objc_msgSend$updateWithPlaybackEngine:
+- _objectdestroy.13Tm
+- _objectdestroy.52Tm
+- _symbolic $s6HomeUI43EnergyDashboardItemModuleControllerDelegateP
+- _symbolic _____ 6HomeUI0A36EnergyEducationalPanelViewControllerC
+- _symbolic _____ 6HomeUI28EducationPanelViewControllerV
+- _symbolic _____ 6HomeUI35EnergyDashboardItemModuleControllerC11ContentViewV
+- _symbolic _____Sg 12HomeEnergyUI24UtilityUsageAndRatesViewV
+- _symbolic _____Sg______Sgt 7SwiftUI7AnyViewV 010HomeEnergyB0020UtilityUsageAndRatesD0V
+- _symbolic ______pSgXw 6HomeUI43EnergyDashboardItemModuleControllerDelegateP
+- _symbolic _____ySDySSypGG 7SwiftUI5StateV
+- _symbolic _____y_____AAyAB_____y_____y_____y_____Sg______SgtGG_____GGG 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA15ModifiedContentV AA6VStackV AA05TupleD0V AA03AnyD0V 010HomeEnergyB0020UtilityUsageAndRatesD0V AA25_AppearanceActionModifierV
+- _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 010HomeEnergyB014EducationSheetV
+- _symbolic _____y__________G 7SwiftUI22UIHostingConfigurationV 04HomeB035EnergyDashboardItemModuleControllerC11ContentViewV AA05EmptyL0V
+- _symbolic _____y___________Qo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO 010HomeEnergyB0015GridForecastAppC0V 0kB0014EducationPanelC10ControllerV
+- _symbolic _____y___________Qo_______y_____y______Qo______GSgt 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO 010HomeEnergyB0015GridForecastAppC0V 0kB0014EducationPanelC10ControllerV AA15ModifiedContentV AcAE0G10TapGesture5count7performQrSi_yyctFQO AL06InlineP3TipV AA25_AppearanceActionModifierV
+- _symbolic _____y___________y_____Sg______SgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA03AnyD0V 010HomeEnergyB0020UtilityUsageAndRatesD0V
+- _symbolic _____y___________y_____y___________Qo_______y_____y______Qo______GSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA0D0PAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaJRd__lFQO 010HomeEnergyB0015GridForecastAppD0V 0pB0014EducationPanelD10ControllerV AA15ModifiedContentV AkAE0L10TapGesture5count7performQrSi_yyctFQO AT06InlineU3TipV AA25_AppearanceActionModifierV
+- _symbolic _____y___________y_____y_____yACy_____yAFy_____yAFyAFy__________G_____GSgG_____y_____GG_____G______yACy______AVSgtGGtGGAUyACyAEyACyAT_AVtGG_AWtGGG______AFy_____yAFyAFyAH_____y_____GG_____y_____SgGG_Qo______GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA19_ConditionalContentV AA0F0V AA08ModifiedJ0V AA10AsyncImageV AA0M0V AA012_AspectRatioG0V AA31AccessibilityAttachmentModifierV AA11_ClipEffectV AA16RoundedRectangleV AA06_FrameG0V AA6VStackV AA4TextV AA6SpacerV AA0D0PAAE10fontWeightyQrAA4FontV6WeightVSgFQO AA016_ForegroundStyleR0V AA5ColorV AA022_EnvironmentKeyWritingR0V A12_ AA08_OpacityT0V
+- _symbolic _____y__________y_____y_____y_____Sg______SgtGG_____GG 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA15ModifiedContentV AA6VStackV AA05TupleD0V AA03AnyD0V 010HomeEnergyB0020UtilityUsageAndRatesD0V AA25_AppearanceActionModifierV
+- _symbolic _____y_____y______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO 010HomeEnergyB018InlineEducationTipV AA25_AppearanceActionModifierV
+- _symbolic _____y_____y______Qo______GSg 7SwiftUI15ModifiedContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO 010HomeEnergyB018InlineEducationTipV AA25_AppearanceActionModifierV
+- _symbolic _____y_____y_____yAAyABy_____yADy_____yADyADy__________G_____GSgG_____y_____GG_____G______yABy______ATSgtGGtGGASyAByAAyAByAR_ATtGG_AUtGGG______ADy_____yADyADyAF_____y_____GG_____y_____SgGG_Qo______GtGG 7SwiftUI6HStackV AA9TupleViewV AA19_ConditionalContentV AA08ModifiedG0V AA10AsyncImageV AA0J0V AA18_AspectRatioLayoutV AA31AccessibilityAttachmentModifierV AA11_ClipEffectV AA16RoundedRectangleV AA06_FrameM0V AA6VStackV AA4TextV AA6SpacerV AA0E0PAAE10fontWeightyQrAA4FontV0Z0VSgFQO AA016_ForegroundStyleP0V AA5ColorV AA022_EnvironmentKeyWritingP0V A6_ AA08_OpacityR0V
+- _symbolic _____y_____y_____y_____Sg______SgtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA03AnyG0V 010HomeEnergyB0020UtilityUsageAndRatesG0V AA25_AppearanceActionModifierV
+- _symbolic _____y_____y_____y___________Qo_______y_____y______Qo______GSgtGG 7SwiftUI6VStackV AA9TupleViewV AA0E0PAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaFRd__lFQO 010HomeEnergyB0015GridForecastAppE0V 0mB0014EducationPanelE10ControllerV AA15ModifiedContentV AgAE0I10TapGesture5count7performQrSi_yyctFQO AP06InlineR3TipV AA25_AppearanceActionModifierV
+- _symbolic _____y_____y_____y_____yAByACyAAyAAy_____yAAyAAy__________G_____GSgG_____y_____GG_____G______yACy______ATSgtGGtGGASyACyAByACyAR_ATtGG_AUtGGG______AAy_____yAAyAAyAF_____y_____GG_____y_____SgGG_Qo______GtGGAIG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalD0V AA10AsyncImageV AA0J0V AA18_AspectRatioLayoutV AA31AccessibilityAttachmentModifierV AA11_ClipEffectV AA16RoundedRectangleV AA06_FrameM0V AA6VStackV AA4TextV AA6SpacerV AA0G0PAAE10fontWeightyQrAA4FontV0Z0VSgFQO AA016_ForegroundStyleP0V AA5ColorV AA022_EnvironmentKeyWritingP0V A6_ AA08_OpacityR0V
+- _symbolic _____y_____y_____y_____yADy_____yADyADy__________G_____GSgG_____y_____GG_____G______yACy______ATSgtGGtGGASyACyAByACyAR_ATtGG_AUtGGG______ADy_____yADyADyAF_____y_____GG_____y_____SgGG_Qo______Gt 7SwiftUI19_ConditionalContentV AA6HStackV AA9TupleViewV AA08ModifiedD0V AA10AsyncImageV AA0J0V AA18_AspectRatioLayoutV AA31AccessibilityAttachmentModifierV AA11_ClipEffectV AA16RoundedRectangleV AA06_FrameM0V AA6VStackV AA4TextV AA6SpacerV AA0G0PAAE10fontWeightyQrAA4FontV0Z0VSgFQO AA016_ForegroundStyleP0V AA5ColorV AA022_EnvironmentKeyWritingP0V A6_ AA08_OpacityR0V
+- _symbolic _____y_____y_____y_____y___________Qo__AAy_____y______Qo______GSgtGGAIG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaHRd__lFQO 010HomeEnergyB0015GridForecastAppG0V 0oB0014EducationPanelG10ControllerV AiAE0K10TapGesture5count7performQrSi_yyctFQO AR06InlineT3TipV AA25_AppearanceActionModifierV
+- _type_layout_string 6HomeUI35EnergyDashboardItemModuleControllerC11ContentViewV
+- _type_layout_string So17HUEventUIFlowStepa
+CStrings:
++ "!!\xf0\x92\xd1"
++ "%s %@ → %@"
++ "(userInputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromIntro) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromDeviceWarning) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromSharedUserWarning) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_DontSetup) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_Done) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromAppleTVWarning) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromResidentWarning) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromHomePodSoftwareUpdate) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_MigrationInProgress) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_MigrationSucceeded) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_MigrationFailed) || (userInputValue.integerValue== HUHomeHub2OnboardingValue_ResetAppleHome)"
++ "-[HUNCCameraScrubberViewController playbackEngine:didUpdateEventCache:]"
++ "@16@?0@\"HMResidentDevice\"8"
++ "Accessory: %@, symptoms: %@, _shouldShowSymptomsUI value: %{BOOL}d, shouldCheckNetworkDiagnostics: %{BOOL}d"
++ "B40@0:8@\"MKMapView\"16@\"UIGestureRecognizer\"24@\"UITouch\"32"
++ "Continue"
++ "HUHomeEnergyDashboardViewDelegate"
++ "Ok"
++ "OnboardingDisplayOption_UseFullScreen"
++ "Sending HFAnalyticsEventTypeNetworkSymptomsSummary with data=%s"
++ "TB,N,V_didShowAppleTVUpdate"
++ "TB,N,V_didShowHomePodUpdate"
++ "[HUHomeHubMigrationOnboardingFlow-_checkResidentStatusInHome] hasHH2SupportedAppleTV = %{BOOL}d, hasHH2SupportedHomePod = %{BOOL}d"
++ "[HUHomeHubMigrationOnboardingFlow-_checkResidentStatusInHome] home = %@ (uniqueIdentifier = %{public}@) | iPadResidentDeviceIdentifiers: (%lu) %{public}@ | number of total residents = %lu."
++ "[HUHomeHubMigrationOnboardingFlow-_checkResidentStatusInHome] home = %@ (uniqueIdentifier: %{public}@) | appleTVResidentDevicesToUpdate: (%lu) %{public}@ | number of total Apple TV residents = %lu | blocking migration = %{BOOL}d"
++ "[HUHomeHubMigrationOnboardingFlow:_checkHomePodResidentUpgradeRequirementsInHome] home = %@ (uniqueIdentifier = %{public}@) | Bypassing HomePod software version check for HH2 because the override is enabled"
++ "[HUHomeHubMigrationOnboardingFlow:_checkHomePodResidentUpgradeRequirementsInHome] home = %@ (uniqueIdentifier = %{public}@) | residentDevice = [%@] (uniqueIdentifier = %{public}@) supportsHH2 = [%d]"
++ "[HUHomeHubMigrationOnboardingFlow:_checkHomePodResidentUpgradeRequirementsInHome] home = %@ (uniqueIdentifier = %{public}@) | residentDevices = [%@]"
++ "[HUHomeHubMigrationOnboardingFlow:_checkHomePodResidentUpgradeRequirementsInHome] home = %@ (uniqueIdentifier = %{public}@) | upgradeRequirements = [%lu]"
++ "[HUHomeHubMigrationOnboardingFlow:_determineNextViewControllerWithPriorResults] result is nil. Marking onboarding future as finished. shouldShowUserWarning: %{BOOL}d"
++ "[HUHomeHubMigrationOnboardingFlow:_determineNextViewControllerWithPriorResults] results = [%@]"
++ "[HUHomeHubMigrationOnboardingFlow:initWithUsageOptions] Found Users that need to upgrade to support HH2: %@"
++ "[HUHomeHubMigrationOnboardingFlow:initWithUsageOptions] Received list of devices = [%@]"
++ "[HUHomeHubMigrationOnboardingFlow:initWithUsageOptions] device = %@ (uniqueIdentifier = %{public}@) supportsHH2 = %{BOOL}d"
++ "[HUHomeHubMigrationOnboardingFlow:initWithUsageOptions] unsupportedDevices count = %lu"
++ "[HUHomeHubMigrationOnboardingFlow:initWithUsageOptions] upgradeRequirements = [%@]"
++ "[HUHomeHubUpdateHomePodsViewController:_allHomesCanSupportHH2Migration] Home: %@ (uniqueIdentifier: %{public}@) has %lu enabled residents"
++ "[HUHomeHubUpdateHomePodsViewController:_allHomesCanSupportHH2Migration] Resident: %@ (uniqueIdentifier: %{public}@) supportsHH2 = %{BOOL}d in home: %@ (uniqueIdentifier: %{public}@)"
++ "[HUHomeHubUpdateHomePodsViewController:_allHomesCanSupportHH2Migration] Returning NO because current user is not owner of any homes | homes.count = 0"
++ "[HUHomeHubUpdateHomePodsViewController:_allHomesCanSupportHH2Migration] Returning NO because home: %@ (uniqueIdentifier: %{public}@) has no HH2-supporting residents"
++ "[HUHomeHubUpdateHomePodsViewController:_allHomesCanSupportHH2Migration] Returning YES because all %lu owned homes can support HH2 migration"
++ "[HUHomeHubUpdateHomePodsViewController:_presentErrorWithMessage] User tapped alert '%{public}@' button"
++ "[HUHomeHubUpdateHomePodsViewController:_presentErrorWithMessage] presented alert error HPSoftwareUpdateRequired with message: '%{public}@'"
++ "[HUHomeHubUpdateHomePodsViewController:_presentGenericError] User tapped alert '%{public}@' button"
++ "_allHomesCanSupportHH2Migration"
++ "_didShowAppleTVUpdate"
++ "_didShowHomePodUpdate"
++ "_prebuiltSectionForIdentifier:"
++ "didShowAppleTVUpdate"
++ "didShowHomePodUpdate"
++ "hf_affectedNativeMatterAccessories"
++ "hf_configureTextViewForTextLists:"
++ "hf_isFirstPartyAccessory"
++ "hideNavigationBar"
++ "hu_presentViewController:animated:completion:"
++ "initWithFrame:parentViewController:"
++ "mapView:gestureRecognizer:shouldReceiveTouch:"
++ "network_diagnostics_for_all_residents"
++ "noResponseErrorStringForType:date:currentDate:batteryStatus:"
++ "setDidShowAppleTVUpdate:"
++ "setDidShowHomePodUpdate:"
++ "subscriber:didReceiveIndividualEventBulletin:"
++ "updatePlaybackPositionToDate:withEvent:"
++ "v16@?0@\"HMResidentDevice\"8"
++ "v32@0:8@\"HMAudioAnalysisLastKnownEventSubscriber\"16@\"HMAudioAnalysisEventBulletin\"24"
+- "!!\xf0\x92\xe1"
+- "%@ - home = %@, number of Apple TV resident devices that need a software update = %lu, appleTVResidentDevicesToUpdate = %@, number of total Apple TV residents = %lu, blocking migration = %d"
+- "%@ - home = %@, number of ipad resident devices = %lu, iPadResidentDevices = %@, number of total residents = %lu."
+- "%@: _determineNextViewControllerWithPriorResults result is nil. Marking onboarding future as finished. shouldShowUserWarning: %{BOOL}d"
+- "%@: residentDevice = [%@] supportsHH2 = [%d]"
+- "%@: residentDevices = [%@] in home: [%@]"
+- "%@: upgradeRequirements = [%lu]"
+- "%@:Found Users that need to upgrade to support HH2: %@"
+- "%@:Received list of devices = [%@]"
+- "%@:device = [%@] supportsHH2 = %{BOOL}d"
+- "%@:unsupportedDevices = [%@]"
+- "%@:upgradeRequirements = [%@]"
+- "%s onReceive: %s"
+- "%s returns: %s"
+- "(#function) user chose Hide Grid Forecast"
+- "(#function) user chose Remove Provider"
+- "(userInputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromIntro) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromDeviceWarning) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromSharedUserWarning) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_DontSetup) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_Done) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromAppleTVWarning) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromResidentWarning) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_MigrationInProgress) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_MigrationSucceeded) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_MigrationFailed) || (userInputValue.integerValue== HUHomeHub2OnboardingValue_ResetAppleHome)"
+- "@\"HUDiagnosticsCameraPlayerController\""
+- "@\"HUDiagnosticsCameraTimelineView\""
+- "@\"UIContextMenuConfiguration\"40@0:8@\"UIContextMenuInteraction\"16{CGPoint=dd}24"
+- "@\"UITargetedPreview\"32@0:8@\"UIContextMenuInteraction\"16@\"UIContextMenuConfiguration\"24"
+- "@\"UITargetedPreview\"40@0:8@\"UIContextMenuInteraction\"16@\"UIContextMenuConfiguration\"24@\"<NSCopying>\"32"
+- "Accessory: %@ _shouldShowSymptomsUI value: %{BOOL}d"
+- "Bypassing HomePod software version check for HH2 because the override is enabled"
+- "Can ask for feedback: %@"
+- "CleanEnergyForecast"
+- "Complete: %@"
+- "Duration: %.2f"
+- "Energy Education Tip will not appear again."
+- "EnergyDashboardItemModuleController Clearing temp location..."
+- "EnergyDashboardItemModuleController displaying education tip view"
+- "Event Details"
+- "HEUIEnergyDashboardDoublePaneEnabled"
+- "HEUIGridForecastEnergyWindowEndTime"
+- "HEUIGridForecastEnergyWindowStartTime"
+- "HUArchitectural"
+- "HUArchitectural_Thumbnail"
+- "HUBaseColorDarkBlue"
+- "HUBaseColorDarkBlue_Blur"
+- "HUBaseColorDarkBlue_Blur_Thumbnail"
+- "HUBaseColorDarkGreen"
+- "HUBaseColorDarkGreen_Blur"
+- "HUBaseColorDarkGreen_Blur_Thumbnail"
+- "HUBaseColorLightBlue"
+- "HUBaseColorLightBlue_Blur"
+- "HUBaseColorLightBlue_Blur_Thumbnail"
+- "HUBaseColorLightGreen"
+- "HUBaseColorLightGreen_Blur"
+- "HUBaseColorLightGreen_Blur_Thumbnail"
+- "HUBaseColorOrange"
+- "HUBaseColorOrange_Blur"
+- "HUBaseColorOrange_Blur_Thumbnail"
+- "HUBaseColorRed"
+- "HUBaseColorRed_Blur"
+- "HUBaseColorRed_Blur_Thumbnail"
+- "HUCameraSignificantEventsBrowserCellIdentifier"
+- "HUDiagnosticsCameraClipSignificantEventsViewController"
+- "HUDiagnosticsCameraClipViewController"
+- "HUDiagnosticsCameraPlayerController"
+- "HUDiagnosticsCameraTimelineView"
+- "HUDiagnosticsReachabilityEventCellIdentifier"
+- "HUDiagnosticsReachabilityEventViewController"
+- "HUDiagnosticsRecordingCellEventIdentifier"
+- "HUEnergyAnalytics"
+- "HUEnergyDashboardItemModuleControllerDelegate"
+- "HUGradientColorBlue"
+- "HUGradientColorBlue_Blur"
+- "HUGradientColorBlue_Blur_Thumbnail"
+- "HUGradientColorGreen"
+- "HUGradientColorGreen_Blur"
+- "HUGradientColorGreen_Blur_Thumbnail"
+- "HUGradientColorOrange"
+- "HUGradientColorOrange_Blur"
+- "HUGradientColorOrange_Blur_Thumbnail"
+- "HUHomeEnergyEducationPanelTitle"
+- "HUHomeEnergyEducationalPanelViewController"
+- "HUSunrise"
+- "HUSunrise_Thumbnail"
+- "HUWildflowers"
+- "HUWildflowers_Thumbnail"
+- "Hide Inspector"
+- "Home Settings"
+- "Home.EducationPanel.NavigationBar"
+- "Home.EducationPanel.NavigationBar.Done"
+- "HomeAppUIInteractions"
+- "HomeKit Settings"
+- "Model Information Sheet view duration is %f"
+- "Show Inspector"
+- "Significant Events: %lu"
+- "Start Date: %@"
+- "T@\"AVPlayerViewController\",W,N,V_cameraPlayerViewController"
+- "T@\"HFCameraScrubberReachabilityEventContainer\",&,N,V_container"
+- "T@\"HUClipScrubberDataSource\",W,N,V_clipScrubberDataSource"
+- "T@\"HUDiagnosticsCameraPlayerController\",&,N,V_diagnosticsController"
+- "T@\"HUDiagnosticsCameraTimelineView\",&,N,V_diagnosticsView"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_snapshotQueue"
+- "T@\"UILabel\",&,N,V_cameraStatusLabel"
+- "T@\"UILabel\",&,N,V_currentEventLabel"
+- "T@\"UILabel\",&,N,V_currentPositionLabel"
+- "T@\"UILabel\",&,N,V_currentTimelineStateLabel"
+- "T@\"UITableView\",&,N,V_eventTableView"
+- "Target Fragment Duration: %.2f"
+- "UIContextMenuInteractionDelegate"
+- "UUID: %@"
+- "[HUHomeHubMigrationOnboardingFlow:_determineNextViewControllerWithPriorResults] %@ | results = [%@]"
+- "[HUHomeHubUpdateHomePodsViewController:_presentErrorWithMessage] User tapped alert OK button"
+- "[HUHomeHubUpdateHomePodsViewController:_presentErrorWithMessage] presented alert error HPSoftwareUpdateRequired with message: '%@'"
+- "[HUHomeHubUpdateHomePodsViewController:_presentGenericError] User tapped alert OK button"
+- "_cameraPlayerViewController"
+- "_cameraStatusLabel"
+- "_characteristicSectionForIdentifier:"
+- "_clipScrubberDataSource"
+- "_container"
+- "_currentEventLabel"
+- "_currentPositionLabel"
+- "_currentTimelineStateLabel"
+- "_diagnosticsController"
+- "_diagnosticsView"
+- "_eventTableView"
+- "_snapshotQueue"
+- "adviceText"
+- "calculateViewConfiguration()"
+- "cameraPlayerViewController"
+- "cameraStatusLabel"
+- "clipPlayer"
+- "clipScrubberDataSource"
+- "com.apple.Home.HUClipScrubberDataSource.snapshotQueue"
+- "contextMenuInteraction:configuration:dismissalPreviewForItemWithIdentifier:"
+- "contextMenuInteraction:configuration:highlightPreviewForItemWithIdentifier:"
+- "contextMenuInteraction:configurationForMenuAtLocation:"
+- "contextMenuInteraction:previewForDismissingMenuWithConfiguration:"
+- "contextMenuInteraction:previewForHighlightingMenuWithConfiguration:"
+- "contextMenuInteraction:willDisplayMenuForConfiguration:animator:"
+- "contextMenuInteraction:willEndForConfiguration:animator:"
+- "contextMenuInteraction:willPerformPreviewActionForMenuWithConfiguration:animator:"
+- "currentEventLabel"
+- "currentPositionLabel"
+- "currentTimelineStateLabel"
+- "diagnosticsController"
+- "diagnosticsView"
+- "dismissDetailsViewController"
+- "dismissDiagnosticDetails"
+- "dismissDoneButton"
+- "displayDiagnosticDetails"
+- "displayTimelapseDetails"
+- "energyWindows"
+- "eventTableView"
+- "getUTFAnalyticsEventTypeFrom:"
+- "gridID"
+- "hasHH2SupportedAppleTV = %d, hasHH2SupportedHomePod = %d"
+- "initWithCameraPlayerViewController:playbackEngine:clipScrubberDataSource:cameraProfile:"
+- "initWithReachabilityEvent:cameraProfile:"
+- "initWithRecordingEvent:cameraProfile:"
+- "launchPlaybackEngineDiagnosticsView"
+- "magnifyingglass.circle"
+- "magnifyingglass.circle.fill"
+- "modelInformationSheetStartTime"
+- "noResponseErrorDescriptionString:"
+- "prefs:root=INTERNAL_SETTINGS&path=Home"
+- "prefs:root=INTERNAL_SETTINGS&path=HomeKit"
+- "resourceLoader"
+- "saveViewAccessedFromURLEvent:deepLinkFrom:"
+- "saveViewDurationEvent:withDuration:"
+- "saveViewVisitEvent:"
+- "saveWidgetSettingsEvent:withLocation:"
+- "sendEnergyWindowsToUTFFromData:"
+- "sendToUTFWithData:withSubsystem:withCategory:"
+- "setCameraPlayerViewController:"
+- "setCameraStatusLabel:"
+- "setClipScrubberDataSource:"
+- "setContainer:"
+- "setCurrentEventLabel:"
+- "setCurrentPositionLabel:"
+- "setCurrentTimelineStateLabel:"
+- "setDiagnosticsController:"
+- "setDiagnosticsView:"
+- "setEventTableView:"
+- "setShowEducationTip:"
+- "setSnapshotQueue:"
+- "shouldDisplayInternalViews"
+- "showEducationTip"
+- "snapshotQueue"
+- "startEvent"
+- "targetFragmentDuration"
+- "unspecified"
+- "updatePlaybackPositionToDate:usingClip:"
+- "updateWithPlaybackEngine:"
+- "v36@0:8Q16@24B32"
+- "v40@0:8@\"UIContextMenuInteraction\"16@\"UIContextMenuConfiguration\"24@\"<UIContextMenuInteractionAnimating>\"32"
+- "v40@0:8@\"UIContextMenuInteraction\"16@\"UIContextMenuConfiguration\"24@\"<UIContextMenuInteractionCommitAnimating>\"32"
+- "windowEnd"
+- "windowStart"
+
+```

@@ -1,0 +1,209 @@
+## InferenceExtension
+
+> `/System/Library/ExtensionKit/Extensions/InferenceExtension.appex/InferenceExtension`
+
+```diff
+
+-3505.10.1.0.0
+-  __TEXT.__text: 0x2a404
++3510.3.1.0.0
++  __TEXT.__text: 0x2a85c
+   __TEXT.__auth_stubs: 0x11c0
+   __TEXT.__objc_methlist: 0x1ac
+-  __TEXT.__const: 0x1aee
++  __TEXT.__const: 0x1afe
+   __TEXT.__cstring: 0x2695
+   __TEXT.__swift5_typeref: 0x8d2
+   __TEXT.__swift5_fieldmd: 0x784
+-  __TEXT.__constg_swiftt: 0x66c
++  __TEXT.__constg_swiftt: 0x660
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_reflstr: 0x712
+   __TEXT.__swift5_assocty: 0x168
+
+   __TEXT.__objc_classname: 0x38
+   __TEXT.__objc_methname: 0x61e
+   __TEXT.__objc_methtype: 0x13d
+-  __TEXT.__oslogstring: 0x1342
+-  __TEXT.__swift_as_entry: 0xb0
+-  __TEXT.__swift_as_ret: 0xa4
+-  __TEXT.__swift5_capture: 0x120
++  __TEXT.__oslogstring: 0x1392
++  __TEXT.__swift_as_entry: 0xb8
++  __TEXT.__swift_as_ret: 0xa8
++  __TEXT.__swift5_capture: 0x148
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0xce8
+-  __TEXT.__eh_frame: 0x1d00
++  __TEXT.__unwind_info: 0xd08
++  __TEXT.__eh_frame: 0x1dd0
+   __DATA_CONST.__auth_got: 0x8e0
+   __DATA_CONST.__got: 0x2c0
+-  __DATA_CONST.__auth_ptr: 0x3d8
+-  __DATA_CONST.__const: 0x12a0
++  __DATA_CONST.__auth_ptr: 0x3e8
++  __DATA_CONST.__const: 0x1350
+   __DATA_CONST.__objc_classlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   __DATA.__objc_const: 0x7a0
+   __DATA.__objc_selrefs: 0x2b0
+   __DATA.__objc_data: 0xa0
+-  __DATA.__data: 0xef8
++  __DATA.__data: 0xe58
+   __DATA.__bss: 0x1e80
+   __DATA.__common: 0x40
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/BiomePubSub.framework/BiomePubSub
+   - /System/Library/PrivateFrameworks/BiomeStorage.framework/BiomeStorage
+   - /System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams
+-  - /System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal
+   - /System/Library/PrivateFrameworks/LighthouseBackground.framework/LighthouseBackground
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/PostSiriEngagement.framework/PostSiriEngagement
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A0C1CD41-7DD0-3F25-B886-5FA1EE7A718C
+-  Functions: 922
+-  Symbols:   7269
+-  CStrings:  283
++  UUID: A7E4AC30-FD32-3E2F-816B-931FA2A81885
++  Functions: 932
++  Symbols:   7338
++  CStrings:  285
+ 
+Symbols:
++ $s18InferenceExtension014UserEngagementaB6ConfigV10maxRecordsSiSgvM.resume.0
++ $s18InferenceExtension014UserEngagementaB6ConfigV12systemPromptSSSgvM.resume.0
++ $s18InferenceExtension014UserEngagementaB6ConfigV15dynamicTaskNameSSSgvM.resume.0
++ $s18InferenceExtension014UserEngagementaB6ConfigV7disableSbSgvM.resume.0
++ _$s18InferenceExtension014UserEngagementaB6ConfigV10maxRecords12systemPrompt15dynamicTaskName7disableACSiSg_SSSgAISbSgtcfC
++ _$s18InferenceExtension014UserEngagementaB6ConfigV10maxRecordsSiSgvM
++ _$s18InferenceExtension014UserEngagementaB6ConfigV10maxRecordsSiSgvg
++ _$s18InferenceExtension014UserEngagementaB6ConfigV10maxRecordsSiSgvpMV
++ _$s18InferenceExtension014UserEngagementaB6ConfigV10maxRecordsSiSgvs
++ _$s18InferenceExtension014UserEngagementaB6ConfigV12systemPromptSSSgvM
++ _$s18InferenceExtension014UserEngagementaB6ConfigV12systemPromptSSSgvg
++ _$s18InferenceExtension014UserEngagementaB6ConfigV12systemPromptSSSgvpMV
++ _$s18InferenceExtension014UserEngagementaB6ConfigV12systemPromptSSSgvs
++ _$s18InferenceExtension014UserEngagementaB6ConfigV15dynamicTaskNameSSSgvM
++ _$s18InferenceExtension014UserEngagementaB6ConfigV15dynamicTaskNameSSSgvg
++ _$s18InferenceExtension014UserEngagementaB6ConfigV15dynamicTaskNameSSSgvpMV
++ _$s18InferenceExtension014UserEngagementaB6ConfigV15dynamicTaskNameSSSgvs
++ _$s18InferenceExtension014UserEngagementaB6ConfigV4fromACs7Decoder_p_tKcfCTf4nd_n
++ _$s18InferenceExtension014UserEngagementaB6ConfigV7disableSbSgvM
++ _$s18InferenceExtension014UserEngagementaB6ConfigV7disableSbSgvg
++ _$s18InferenceExtension014UserEngagementaB6ConfigV7disableSbSgvpMV
++ _$s18InferenceExtension014UserEngagementaB6ConfigV7disableSbSgvs
++ _$s18InferenceExtension014UserEngagementaB6ConfigVACSEAAWl
++ _$s18InferenceExtension014UserEngagementaB6ConfigVACSeAAWl
++ _$s18InferenceExtension0A5UtilsO21defaultMaxRecordCountSivau
++ _$s18InferenceExtension0A5UtilsO21defaultMaxRecordCountSivgZ
++ _$s18InferenceExtension0A5UtilsO21defaultMaxRecordCountSivpZ
++ _$s18InferenceExtension0A5UtilsO21defaultMaxRecordCountSivpZMV
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFTY5_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_TA
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_TATQ0_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_TATu
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_TQ1_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_TY0_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_TY2_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_Tu
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_yyYaKcfU_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_yyYaKcfU_TA
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_yyYaKcfU_TATQ0_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_yyYaKcfU_TATu
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_yyYaKcfU_TQ1_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_yyYaKcfU_TQ4_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_yyYaKcfU_TY0_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_yyYaKcfU_TY2_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_yyYaKcfU_TY3_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_yyYaKcfU_TY5_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_yyYaKcfU_TY6_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFyScgyyts5Error_pGzYaKXEfU_yyYaKcfU_Tu
++ _$s18InferenceExtensionAAC0B10Foundation03AppB0AacDP14extensionPointAC0dbF0VvgTW
++ _$s18InferenceExtensionAACAB20LighthouseBackground06MLHostB0AAWlTm
++ _$s19ExtensionFoundation03AppA0P14extensionPointAA0caE0VvgTq
++ _$s19ExtensionFoundation03AppA0PAAE14extensionPointAA0caE0Vvg
++ _$s20LighthouseBackground16MLHostParametersVy18InferenceExtension014UserEngagementeF6ConfigVGACyxGs23CustomStringConvertibleAAWL
++ _$s20LighthouseBackground16MLHostParametersVy18InferenceExtension014UserEngagementeF6ConfigVGACyxGs23CustomStringConvertibleAAWl
++ _$s20LighthouseBackground16MLHostParametersVyxGs23CustomStringConvertibleAAMc
++ _$sSSSgWOcTm
++ _$sSSSgWOhTm
++ _$sScP7utilityScPvgZ
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lF
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lFTu
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySSSgSSm_xtKF
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySbSgSbm_xtKF
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySiSgSim_xtKF
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySSSg_xtKF
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySbSg_xtKF
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySiSg_xtKF
++ _$sytN
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ _symbolic SiSg
++ _type_layout_string 18InferenceExtension014UserEngagementaB6ConfigV
+- $s18InferenceExtension014UserEngagementaB6ConfigV10maxRecordsSivM.resume.0
+- $s18InferenceExtension014UserEngagementaB6ConfigV12systemPromptSSvM.resume.0
+- $s18InferenceExtension014UserEngagementaB6ConfigV14systemPromptID10Foundation4UUIDVvM.resume.0
+- $s18InferenceExtension014UserEngagementaB6ConfigV7disableSbvM.resume.0
+- _$s10Foundation4UUIDVACSEAAWL
+- _$s10Foundation4UUIDVACSEAAWlTm
+- _$s10Foundation4UUIDVACSeAAWL
+- _$s10Foundation4UUIDVSEAAMc
+- _$s10Foundation4UUIDVSeAAMc
+- _$s18InferenceExtension014UserEngagementaB6ConfigV10maxRecords12systemPrompt0hI2ID7disableACSi_SS10Foundation4UUIDVSbtcfC
+- _$s18InferenceExtension014UserEngagementaB6ConfigV10maxRecords12systemPrompt0hI2ID7disableACSi_SS10Foundation4UUIDVSbtcfcfA0_
+- _$s18InferenceExtension014UserEngagementaB6ConfigV10maxRecords12systemPrompt0hI2ID7disableACSi_SS10Foundation4UUIDVSbtcfcfA1_
+- _$s18InferenceExtension014UserEngagementaB6ConfigV10maxRecords12systemPrompt0hI2ID7disableACSi_SS10Foundation4UUIDVSbtcfcfA2_
+- _$s18InferenceExtension014UserEngagementaB6ConfigV10maxRecords12systemPrompt0hI2ID7disableACSi_SS10Foundation4UUIDVSbtcfcfA_
+- _$s18InferenceExtension014UserEngagementaB6ConfigV10maxRecordsSivM
+- _$s18InferenceExtension014UserEngagementaB6ConfigV10maxRecordsSivg
+- _$s18InferenceExtension014UserEngagementaB6ConfigV10maxRecordsSivpMV
+- _$s18InferenceExtension014UserEngagementaB6ConfigV10maxRecordsSivs
+- _$s18InferenceExtension014UserEngagementaB6ConfigV12systemPromptSSvM
+- _$s18InferenceExtension014UserEngagementaB6ConfigV12systemPromptSSvg
+- _$s18InferenceExtension014UserEngagementaB6ConfigV12systemPromptSSvpMV
+- _$s18InferenceExtension014UserEngagementaB6ConfigV12systemPromptSSvs
+- _$s18InferenceExtension014UserEngagementaB6ConfigV14systemPromptID10Foundation4UUIDVvM
+- _$s18InferenceExtension014UserEngagementaB6ConfigV14systemPromptID10Foundation4UUIDVvg
+- _$s18InferenceExtension014UserEngagementaB6ConfigV14systemPromptID10Foundation4UUIDVvpMV
+- _$s18InferenceExtension014UserEngagementaB6ConfigV14systemPromptID10Foundation4UUIDVvs
+- _$s18InferenceExtension014UserEngagementaB6ConfigV7disableSbvM
+- _$s18InferenceExtension014UserEngagementaB6ConfigV7disableSbvg
+- _$s18InferenceExtension014UserEngagementaB6ConfigV7disableSbvpMV
+- _$s18InferenceExtension014UserEngagementaB6ConfigV7disableSbvs
+- _$s18InferenceExtension014UserEngagementaB6ConfigVMaTm
+- _$s18InferenceExtension014UserEngagementaB6ConfigVMl
+- _$s18InferenceExtension014UserEngagementaB6ConfigVMr
+- _$s18InferenceExtension014UserEngagementaB6ConfigVWOc
+- _$s18InferenceExtension014UserEngagementaB6ConfigVWOh
+- _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFTQ5_
+- _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFTQ8_
+- _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFTY10_
+- _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFTY6_
+- _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFTY7_
+- _$s18InferenceExtension27UserAlignmentScoreEvaluatorC8evaluate6configyAA0c10EngagementaB6ConfigV_tYaKFTY9_
+- _$ss22KeyedDecodingContainerV6decode_6forKeyS2Sm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyS2bm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyS2im_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyqd__qd__m_xtKSeRd__lF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyySS_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyySb_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyySi_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyyqd___xtKSERd__lF
+- ___swift_destroy_boxed_opaque_existential_1
+- _objc_retain_x26
+- _symbolic _____ 10Foundation4UUIDV
+CStrings:
++ "Config: %s"
++ "Task Configuration - Dynamic task name: %s"
++ "Using system prompt from the task configuration."
+- "Using system prompt from the configuration."
+
+```

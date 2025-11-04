@@ -1,0 +1,66 @@
+## SettingsHostUI
+
+> `/System/Library/PrivateFrameworks/SettingsHostUI.framework/SettingsHostUI`
+
+```diff
+
+-2.1.4.100.0
+-  __TEXT.__text: 0x16834
+-  __TEXT.__auth_stubs: 0x11c0
++2.2.3.0.0
++  __TEXT.__text: 0x16d40
++  __TEXT.__auth_stubs: 0x11e0
+   __TEXT.__objc_methlist: 0x3c8
+-  __TEXT.__const: 0x8d8
++  __TEXT.__const: 0x8c8
+   __TEXT.__constg_swiftt: 0x72c
+-  __TEXT.__swift5_typeref: 0xc33
++  __TEXT.__swift5_typeref: 0xc3d
+   __TEXT.__swift5_reflstr: 0x91
+   __TEXT.__swift5_assocty: 0x90
+   __TEXT.__swift5_fieldmd: 0xe4
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_proto: 0x20
+   __TEXT.__swift5_types: 0x28
+-  __TEXT.__swift5_capture: 0x32c
++  __TEXT.__swift5_capture: 0x344
+   __TEXT.__cstring: 0x83f
+   __TEXT.__oslogstring: 0x792
+   __TEXT.__unwind_info: 0x4a0
+
+   __TEXT.__objc_classname: 0xa0
+   __TEXT.__objc_methname: 0x909
+   __TEXT.__objc_methtype: 0x572
+-  __DATA_CONST.__got: 0x380
++  __DATA_CONST.__got: 0x388
+   __DATA_CONST.__const: 0xa8
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x2e0
+   __DATA_CONST.__objc_protorefs: 0x30
+-  __AUTH_CONST.__auth_got: 0x8e0
+-  __AUTH_CONST.__const: 0x5e0
++  __AUTH_CONST.__auth_got: 0x8f0
++  __AUTH_CONST.__const: 0x608
+   __AUTH_CONST.__objc_const: 0x1930
+   __AUTH.__objc_data: 0x48
+   __AUTH.__data: 0x228
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A1A85C39-E185-3068-BDB1-4DAD3EEB6278
+-  Functions: 402
++  UUID: 3EA5858B-47DB-320E-9D21-80E092E83F76
++  Functions: 405
+   Symbols:   488
+   CStrings:  220
+ 
+Symbols:
++ _get_witness_table 12SettingsHost0A22AutomationIdentifiableRzSHRzl7SwiftUI15ModifiedContentVyAEyAEyAEyAC4ViewPACE20accessibilityElement8childrenQrAC26AccessibilityChildBehaviorV_tFQOyAEyAgCE24onScrollVisibilityChange9threshold_QrSd_ySbctFQOyAgCE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAC06_UnaryI7AdaptorVyAC012_ConditionalH0VyASyASy0abF00A10ListToggleVAgCE11buttonStyleyQrqd__AC20PrimitiveButtonStyleRd__lFQOyAC6ButtonVyAT0A9ListLabelVG_AC25NavigationLinkButtonStyleVys5NeverOGQo_GASyAC14NavigationLinkVyA0_A5_GAgCEAWyQrqd__AcXRd__lFQOyAZyAC03AnyI0VG_A6_Qo_GGASyA10_yA13_A5_GA13_GGG_xQo__Qo_AC21_TraitWritingModifierVyAC26IsSelectionEnabledTraitKeyVGG_Qo_AC0M18AttachmentModifierVGAC32_EnvironmentKeyTransformModifierVySbGGAC30_EnvironmentKeyWritingModifierVyAC0R0OGGAC24_ForegroundStyleModifierVyAC13AnyShapeStyleVGGAcFHPA43_AcFHPA37_AcFHPA33_AcFHPqd__AcFHD2_A30_HO_A32_AC0I8ModifierHPyHCHC_A36_ACA50_HPyHCHC_A42_ACA50_HPyHCHC_A48_ACA50_HPyHCHC.4
++ _symbolic _____yAAyAAyAAy_____yAAy_____y_____y_____y_____yACyACy__________y_____y_____G______y_____GQo_GACy_____yAfIG_____yAEy_____G_AJQo_GGACyAMyAoIGAOGGG_xQo__Qo______y_____GG_Qo______G_____ySbGG_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE24onScrollVisibilityChange9threshold_QrSd_ySbctFQO AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06_UnaryE7AdaptorV AA012_ConditionalD0V 012SettingsHostB00W10ListToggleV AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AR0wY5LabelV AA25NavigationLinkButtonStyleV s5NeverO AA14NavigationLinkV AeAEAUyQrqd__AaVRd__lFQO AA03AnyE0V AA21_TraitWritingModifierV AA26IsSelectionEnabledTraitKeyV AA0I18AttachmentModifierV AA32_EnvironmentKeyTransformModifierV AA30_EnvironmentKeyWritingModifierV AA0N0O AA24_ForegroundStyleModifierV AA13AnyShapeStyleV
+- _get_witness_table 12SettingsHost0A22AutomationIdentifiableRzSHRzl7SwiftUI15ModifiedContentVyAEyAEyAEyAC4ViewPACE20accessibilityElement8childrenQrAC26AccessibilityChildBehaviorV_tFQOyAEyAgCE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAC06_UnaryI7AdaptorVyAC012_ConditionalH0VyAQyAQy0abF00A10ListToggleVAgCE11buttonStyleyQrqd__AC015PrimitiveButtonY0Rd__lFQOyAC6ButtonVyAR0aV5LabelVG_AC020NavigationLinkButtonY0Vys5NeverOGQo_GAQyAC14NavigationLinkVyAZA3_GAgCEAUyQrqd__AcVRd__lFQOyAXyAC03AnyI0VG_A4_Qo_GGAQyA8_yA11_A3_GA11_GGG_xQo_AC21_TraitWritingModifierVyAC26IsSelectionEnabledTraitKeyVGG_Qo_AC0M18AttachmentModifierVGAC32_EnvironmentKeyTransformModifierVySbGGAC30_EnvironmentKeyWritingModifierVyAC10VisibilityOGGAC011_ForegroundY8ModifierVyAC08AnyShapeY0VGGAcFHPA40_AcFHPA34_AcFHPA30_AcFHPqd__AcFHD2_A27_HO_A29_AC0I8ModifierHPyHCHC_A33_ACA47_HPyHCHC_A39_ACA47_HPyHCHC_A45_ACA47_HPyHCHC.3
+- _symbolic _____yAAyAAyAAy_____yAAy_____y_____y_____yACyACy__________y_____y_____G______y_____GQo_GACy_____yAfIG_____yAEy_____G_AJQo_GGACyAMyAoIGAOGGG_xQo______y_____GG_Qo______G_____ySbGG_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06_UnaryE7AdaptorV AA012_ConditionalD0V 012SettingsHostB00R10ListToggleV AeAE11buttonStyleyQrqd__AA015PrimitiveButtonW0Rd__lFQO AA0Y0V AP0rT5LabelV AA014NavigationLinkyW0V s5NeverO AA14NavigationLinkV AeAEASyQrqd__AaTRd__lFQO AA03AnyE0V AA21_TraitWritingModifierV AA26IsSelectionEnabledTraitKeyV AA0I18AttachmentModifierV AA32_EnvironmentKeyTransformModifierV AA30_EnvironmentKeyWritingModifierV AA10VisibilityO AA011_ForegroundW8ModifierV AA08AnyShapeW0V
+
+```

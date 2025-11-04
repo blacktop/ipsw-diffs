@@ -1,0 +1,269 @@
+## JetCore
+
+> `/System/Library/PrivateFrameworks/JetCore.framework/JetCore`
+
+```diff
+
+-9.1.18.2.3
+-  __TEXT.__text: 0x2129c0
+-  __TEXT.__auth_stubs: 0x3760
++9.2.4.0.0
++  __TEXT.__text: 0x21a37c
++  __TEXT.__auth_stubs: 0x3780
+   __TEXT.__init_offsets: 0x4
+   __TEXT.__objc_methlist: 0x61c
+-  __TEXT.__const: 0x1b3a4
+-  __TEXT.__cstring: 0x9061
++  __TEXT.__const: 0x1bfec
++  __TEXT.__cstring: 0x9241
+   __TEXT.__oslogstring: 0x3fc
+-  __TEXT.__constg_swiftt: 0x6f30
+-  __TEXT.__swift5_typeref: 0x762b
++  __TEXT.__constg_swiftt: 0x721c
++  __TEXT.__swift5_typeref: 0x794b
+   __TEXT.__swift5_builtin: 0x258
+-  __TEXT.__swift5_reflstr: 0x30eb
+-  __TEXT.__swift5_fieldmd: 0x5b10
+-  __TEXT.__swift5_assocty: 0xec8
+-  __TEXT.__swift5_proto: 0x1444
+-  __TEXT.__swift5_types: 0x87c
+-  __TEXT.__swift5_capture: 0x2990
++  __TEXT.__swift5_reflstr: 0x329a
++  __TEXT.__swift5_fieldmd: 0x5df0
++  __TEXT.__swift5_assocty: 0xf08
++  __TEXT.__swift5_proto: 0x14f8
++  __TEXT.__swift5_types: 0x8bc
++  __TEXT.__swift5_capture: 0x29c0
+   __TEXT.__swift5_mpenum: 0x210
+-  __TEXT.__swift5_protos: 0x18c
+-  __TEXT.__swift_as_entry: 0x4b8
+-  __TEXT.__swift_as_ret: 0x540
+-  __TEXT.__unwind_info: 0x8f50
+-  __TEXT.__eh_frame: 0x140f8
++  __TEXT.__swift5_protos: 0x198
++  __TEXT.__swift_as_entry: 0x4bc
++  __TEXT.__swift_as_ret: 0x544
++  __TEXT.__unwind_info: 0x9158
++  __TEXT.__eh_frame: 0x143d0
+   __TEXT.__objc_classname: 0xa7
+   __TEXT.__objc_methname: 0x1530
+   __TEXT.__objc_methtype: 0x1f3
+   __TEXT.__objc_stubs: 0x180
+-  __DATA_CONST.__got: 0xa00
++  __DATA_CONST.__got: 0xa08
+   __DATA_CONST.__const: 0x498
+-  __DATA_CONST.__objc_classlist: 0x120
++  __DATA_CONST.__objc_classlist: 0x128
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x68
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x800
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x1bb8
+-  __AUTH_CONST.__const: 0x15c28
++  __AUTH_CONST.__auth_got: 0x1bc8
++  __AUTH_CONST.__const: 0x163d8
+   __AUTH_CONST.__cfstring: 0x2c0
+-  __AUTH_CONST.__objc_const: 0x25f8
++  __AUTH_CONST.__objc_const: 0x2730
+   __AUTH_CONST.__objc_intobj: 0x30
+   __AUTH.__objc_data: 0x5e0
+-  __AUTH.__data: 0x2250
++  __AUTH.__data: 0x2400
+   __DATA.__objc_ivar: 0xc
+-  __DATA.__data: 0x6418
+-  __DATA.__bss: 0x1f510
++  __DATA.__data: 0x66f8
++  __DATA.__bss: 0x20a10
+   __DATA.__common: 0x450
+   __DATA_DIRTY.__objc_data: 0x1a8
+-  __DATA_DIRTY.__data: 0x26b8
++  __DATA_DIRTY.__data: 0x2690
+   __DATA_DIRTY.__bss: 0x3f90
+-  __DATA_DIRTY.__common: 0x88
++  __DATA_DIRTY.__common: 0x68
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0D468D49-5966-39DA-951C-BB5F085BD39E
+-  Functions: 11235
+-  Symbols:   4160
+-  CStrings:  1265
++  UUID: 69AE4188-2C6C-3D91-AA2D-9FEB75BCF2CF
++  Functions: 11450
++  Symbols:   4257
++  CStrings:  1278
+ 
+Symbols:
++ __DATA__TtC7JetCore17DiskPropertyCache
++ __DATA__TtC7JetCore18DefaultTTLRecorder
++ __IVARS__TtC7JetCore17DiskPropertyCache
++ __IVARS__TtC7JetCore18DefaultTTLRecorder
++ __METACLASS_DATA__TtC7JetCore17DiskPropertyCache
++ __METACLASS_DATA__TtC7JetCore18DefaultTTLRecorder
++ ___swift_get_extra_inhabitant_index.170Tm
++ ___swift_memcpy120_8
++ ___swift_memcpy5_4
++ ___swift_store_extra_inhabitant_index.171Tm
++ _associated conformance 7JetCore0A22PackAssetDaemonMessageO23CacheOverrideCodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLOSHAASQ
++ _associated conformance 7JetCore0A22PackAssetDaemonMessageO23CacheOverrideCodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 7JetCore0A22PackAssetDaemonMessageO23CacheOverrideCodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7JetCore0A22PackAssetDaemonMessageO28CacheOverrideClearCodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLOSHAASQ
++ _associated conformance 7JetCore0A22PackAssetDaemonMessageO28CacheOverrideClearCodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 7JetCore0A22PackAssetDaemonMessageO28CacheOverrideClearCodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7JetCore12DiskPropertyOSHAASQ
++ _associated conformance 7JetCore14WrappedDecoderV10CodingKeys33_BC5A2424AA9AFEFB88479DBDD557ADE8LLOyx_GSHAASQ
++ _associated conformance 7JetCore14WrappedDecoderV10CodingKeys33_BC5A2424AA9AFEFB88479DBDD557ADE8LLOyx_Gs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 7JetCore14WrappedDecoderV10CodingKeys33_BC5A2424AA9AFEFB88479DBDD557ADE8LLOyx_Gs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7JetCore16DynamicCodingKeyVs0dE0AAs23CustomStringConvertible
++ _associated conformance 7JetCore16DynamicCodingKeyVs0dE0AAs28CustomDebugStringConvertible
++ _associated conformance 7JetCore18DefaultTTLRecorderC6TTLKey33_F0F78D88AC9866052171C4F22CC55D36LLVSHAASQ
++ _associated conformance 7JetCore26DaemonCacheOverrideRequestV10CodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLOSHAASQ
++ _associated conformance 7JetCore26DaemonCacheOverrideRequestV10CodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 7JetCore26DaemonCacheOverrideRequestV10CodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7JetCore26DaemonCacheOverrideRequestVAA0cF4TypeAA07MessageG0AaDP_SE
++ _associated conformance 7JetCore26DaemonCacheOverrideRequestVAA0cF4TypeAA07MessageG0AaDP_Se
++ _associated conformance 7JetCore26DaemonCacheOverrideRequestVAA0cF4TypeAA08ResponseG0AaDP_SE
++ _associated conformance 7JetCore26DaemonCacheOverrideRequestVAA0cF4TypeAA08ResponseG0AaDP_Se
++ _associated conformance 7JetCore27DaemonCacheOverrideResponseV10CodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLOSHAASQ
++ _associated conformance 7JetCore27DaemonCacheOverrideResponseV10CodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 7JetCore27DaemonCacheOverrideResponseV10CodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7JetCore31DaemonCacheOverrideClearRequestV10CodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 7JetCore31DaemonCacheOverrideClearRequestV10CodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7JetCore31DaemonCacheOverrideClearRequestVAA0cG4TypeAA07MessageH0AaDP_SE
++ _associated conformance 7JetCore31DaemonCacheOverrideClearRequestVAA0cG4TypeAA07MessageH0AaDP_Se
++ _associated conformance 7JetCore31DaemonCacheOverrideClearRequestVAA0cG4TypeAA08ResponseH0AaDP_SE
++ _associated conformance 7JetCore31DaemonCacheOverrideClearRequestVAA0cG4TypeAA08ResponseH0AaDP_Se
++ _get_enum_tag_for_layout_string 7JetCore11_LRUCaching_pAA14LRUIntentCacheC06IntentE3KeyV0G0AaBPRts_AA7PromiseCyAD0E4ItemVG5ValueAHRtsXPSg
++ _get_enum_tag_for_layout_string s8Sendable_pSg
++ _get_type_metadata 15Synchronization5MutexVySDy7JetCore12DiskPropertyOAD06CachedeF033_AFE4BF2935A20D1EF71D00885BED2A8FLLVGG.2
++ _objectdestroy.109Tm
++ _objectdestroy.116Tm
++ _objectdestroy.137Tm
++ _objectdestroy.158Tm
++ _objectdestroy.185Tm
++ _objectdestroy.18Tm
++ _objectdestroy.202Tm
++ _objectdestroy.35Tm
++ _objectdestroy.38Tm
++ _objectdestroy.67Tm
++ _objectdestroy.74Tm
++ _swift_runtimeSupportsNoncopyableTypes
++ _symbolic $s7JetCore11TTLProviderP
++ _symbolic $s7JetCore11TTLRecorderP
++ _symbolic $s7JetCore14LRUIntentCacheC12TimeProviderP
++ _symbolic SDy__________G 7JetCore12DiskPropertyO AA06CachedcD033_AFE4BF2935A20D1EF71D00885BED2A8FLLV
++ _symbolic ScCy_____ySSG______pG 7JetCore14DaemonResponseO s5ErrorP
++ _symbolic _____ 7JetCore0A22PackAssetDaemonMessageO23CacheOverrideCodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLO
++ _symbolic _____ 7JetCore0A22PackAssetDaemonMessageO28CacheOverrideClearCodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLO
++ _symbolic _____ 7JetCore12DiskPropertyO
++ _symbolic _____ 7JetCore14LRUIntentCacheC0D4ItemV
++ _symbolic _____ 7JetCore14LRUIntentCacheC19DefaultTimeProvider33_C39F36E3260405B06F7EB1B5E9C08D4FLLV
++ _symbolic _____ 7JetCore14WrappedDecoderV
++ _symbolic _____ 7JetCore14WrappedDecoderV10CodingKeys33_BC5A2424AA9AFEFB88479DBDD557ADE8LLO
++ _symbolic _____ 7JetCore16DynamicCodingKeyV
++ _symbolic _____ 7JetCore17DiskPropertyCacheC
++ _symbolic _____ 7JetCore18CachedDiskProperty33_AFE4BF2935A20D1EF71D00885BED2A8FLLV
++ _symbolic _____ 7JetCore18DefaultTTLRecorderC
++ _symbolic _____ 7JetCore18DefaultTTLRecorderC6TTLKey33_F0F78D88AC9866052171C4F22CC55D36LLV
++ _symbolic _____ 7JetCore26DaemonCacheOverrideRequestV
++ _symbolic _____ 7JetCore26DaemonCacheOverrideRequestV10CodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLO
++ _symbolic _____ 7JetCore27DaemonCacheOverrideResponseV
++ _symbolic _____ 7JetCore27DaemonCacheOverrideResponseV10CodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLO
++ _symbolic _____ 7JetCore31DaemonCacheOverrideClearRequestV
++ _symbolic _____ 7JetCore31DaemonCacheOverrideClearRequestV10CodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLO
++ _symbolic _____Iegn_ 7JetCore14LRUIntentCacheC0D4ItemV
++ _symbolic _____Sg 7JetCore13MonotonicTimeV
++ _symbolic _____SgXw 7JetCore18DefaultTTLRecorderC
++ _symbolic ______Sdt 7JetCore18DefaultTTLRecorderC6TTLKey33_F0F78D88AC9866052171C4F22CC55D36LLV
++ _symbolic _______________y_____GXjSg r0_l7JetCore11_LRUCaching_px3KeyRts_q_5ValueRtsXPXG AA14LRUIntentCacheC06IntentgD0V AA7PromiseC AH0G4ItemV
++ _symbolic ______p 7JetCore11TTLProviderP
++ _symbolic ______p 7JetCore14LRUIntentCacheC12TimeProviderP
++ _symbolic ______pSg 7JetCore11TTLProviderP
++ _symbolic ______pSg 7JetCore11TTLRecorderP
++ _symbolic _____ySDy_____SdGG 2os21OSAllocatedUnfairLockV 7JetCore18DefaultTTLRecorderC6TTLKey33_F0F78D88AC9866052171C4F22CC55D36LLV
++ _symbolic _____ySDy_____SdG_____G s13ManagedBufferCsRi__rlE 7JetCore18DefaultTTLRecorderC6TTLKey33_F0F78D88AC9866052171C4F22CC55D36LLV So16os_unfair_lock_sV
++ _symbolic _____ySDy__________GG 15Synchronization5MutexVAARi_zrlE 7JetCore12DiskPropertyO AD06CachedeF033_AFE4BF2935A20D1EF71D00885BED2A8FLLV
++ _symbolic _____ySSG 7JetCore14DaemonResponseO
++ _symbolic _____y_____G 7JetCore7PromiseC AA14LRUIntentCacheC0E4ItemV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7JetCore0D22PackAssetDaemonMessageO23CacheOverrideCodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7JetCore0D22PackAssetDaemonMessageO28CacheOverrideClearCodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7JetCore16DynamicCodingKeyV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7JetCore26DaemonCacheOverrideRequestV10CodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7JetCore27DaemonCacheOverrideResponseV10CodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7JetCore0D22PackAssetDaemonMessageO23CacheOverrideCodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7JetCore0D22PackAssetDaemonMessageO28CacheOverrideClearCodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7JetCore26DaemonCacheOverrideRequestV10CodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7JetCore27DaemonCacheOverrideResponseV10CodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7JetCore31DaemonCacheOverrideClearRequestV10CodingKeys33_4F160A4B6FE1732B2ECDFBD3F8D8317DLLO
++ _symbolic _____y_____SdG s17_NativeDictionaryV 7JetCore18DefaultTTLRecorderC6TTLKey33_F0F78D88AC9866052171C4F22CC55D36LLV
++ _symbolic _____y_____SdG s18_DictionaryStorageC 7JetCore18DefaultTTLRecorderC6TTLKey33_F0F78D88AC9866052171C4F22CC55D36LLV
++ _symbolic _____y______G 7JetCore7PromiseC5State33_2CDAE8717C90438AABCABC417ECE9689LLO AA14LRUIntentCacheC0J4ItemV
++ _symbolic _____y______G 7JetCore7PromiseC8Observer33_2CDAE8717C90438AABCABC417ECE9689LLO AA14LRUIntentCacheC0J4ItemV
++ _symbolic _____y__________G s18_DictionaryStorageC 7JetCore12DiskPropertyO AC06CachedeF033_AFE4BF2935A20D1EF71D00885BED2A8FLLV
++ _symbolic _____y_______________y_____GXjG 2os21OSAllocatedUnfairLockV r0_l7JetCore11_LRUCaching_px3KeyRts_q_5ValueRtsXPXG AD14LRUIntentCacheC06IntentkH0V AD7PromiseC AK0K4ItemV
++ _symbolic _____y_______________y_____GXj_____G s13ManagedBufferCsRi__rlE r0_l7JetCore11_LRUCaching_px3KeyRts_q_5ValueRtsXPXG AC14LRUIntentCacheC06IntentiF0V AC7PromiseC AJ0I4ItemV So16os_unfair_lock_sV
++ _symbolic _____y__________y_____GG 7JetCore9_LRUCacheV AA14LRUIntentCacheC06IntentE3KeyV AA7PromiseC AE0E4ItemV
++ _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 7JetCore7PromiseC8Observer33_2CDAE8717C90438AABCABC417ECE9689LLO AC14LRUIntentCacheC0M4ItemV
++ _type_layout_string 7JetCore14LRUIntentCacheC0D4ItemV
++ _type_layout_string 7JetCore16DynamicCodingKeyV
++ _type_layout_string 7JetCore18CachedDiskProperty33_AFE4BF2935A20D1EF71D00885BED2A8FLLV
++ _type_layout_string 7JetCore18DefaultTTLRecorderC6TTLKey33_F0F78D88AC9866052171C4F22CC55D36LLV
++ _type_layout_string 7JetCore26DaemonCacheOverrideRequestV
++ _type_layout_string 7JetCore27DaemonCacheOverrideResponseV
++ _type_layout_string 7JetCore6DeviceV
+- __DATA__TtC7JetCoreP33_C39F36E3260405B06F7EB1B5E9C08D4F35DispatchSourceMemoryPressureWrapper
+- __IVARS__TtC7JetCoreP33_C39F36E3260405B06F7EB1B5E9C08D4F35DispatchSourceMemoryPressureWrapper
+- __METACLASS_DATA__TtC7JetCoreP33_C39F36E3260405B06F7EB1B5E9C08D4F35DispatchSourceMemoryPressureWrapper
+- ___swift_get_extra_inhabitant_index.151Tm
+- ___swift_store_extra_inhabitant_index.152Tm
+- _associated conformance 7JetCore24DaemonCacheEvictResponseOSHAASQ
+- _objectdestroy.104Tm
+- _objectdestroy.111Tm
+- _objectdestroy.132Tm
+- _objectdestroy.153Tm
+- _objectdestroy.180Tm
+- _objectdestroy.197Tm
+- _objectdestroy.30Tm
+- _objectdestroy.33Tm
+- _objectdestroy.62Tm
+- _objectdestroy.69Tm
+- _symbolic ScCy_____y_____G______pG 7JetCore14DaemonResponseO AA0c10CacheEvictD0O s5ErrorP
+- _symbolic _____ 7JetCore24DaemonCacheEvictResponseO
+- _symbolic _____ 7JetCore35DispatchSourceMemoryPressureWrapper33_C39F36E3260405B06F7EB1B5E9C08D4FLLC
+- _symbolic _____y_____G 7JetCore14DaemonResponseO AA0c10CacheEvictD0O
+- _symbolic _____y_______________yypGXjG 2os21OSAllocatedUnfairLockV r0_l7JetCore11_LRUCaching_px3KeyRts_q_5ValueRtsXPXG AD14LRUIntentCacheC06IntentkH0V AD7PromiseC
+- _symbolic _____y_______________yypGXj_____G s13ManagedBufferCsRi__rlE r0_l7JetCore11_LRUCaching_px3KeyRts_q_5ValueRtsXPXG AC14LRUIntentCacheC06IntentiF0V AC7PromiseC So16os_unfair_lock_sV
+- _symbolic _____y__________yypGG 7JetCore9_LRUCacheV AA14LRUIntentCacheC06IntentE3KeyV AA7PromiseC
+- _symbolic _____y_____yyp_GG s23_ContiguousArrayStorageC 7JetCore7PromiseC8Observer33_2CDAE8717C90438AABCABC417ECE9689LLO
+- _symbolic _____yypG 7JetCore7PromiseC
+- _symbolic _____yyp_G 7JetCore7PromiseC5State33_2CDAE8717C90438AABCABC417ECE9689LLO
+- _symbolic _____yyp_G 7JetCore7PromiseC8Observer33_2CDAE8717C90438AABCABC417ECE9689LLO
+- _symbolic ypIegn_
+CStrings:
++ " assets to evict with prefix "
++ "$wrappedField"
++ "'. Existing cached item evicted."
++ "Removing all cached assets with key prefix: "
++ "Request to cache override asset for bundleID: "
++ "Request to clear all cache override entries"
++ "SELECT * FROM jetpack_asset WHERE cache_key LIKE "
++ "[LRUIntentCache] Attempted to store already expired item for key '"
++ "_TtC7JetCore17DiskPropertyCache"
++ "_TtC7JetCore18DefaultTTLRecorder"
++ "cacheOverrideClear"
++ "com.apple.GameOverlayUI"
++ "diskPropertiesCache"
++ "timeProvider"
++ "ttlProvider"
++ "ttlSeconds"
+- "_TtC7JetCoreP33_C39F36E3260405B06F7EB1B5E9C08D4F35DispatchSourceMemoryPressureWrapper"
+- "success"
+- "wrapped"
+
+```
